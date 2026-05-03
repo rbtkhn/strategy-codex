@@ -1,0 +1,178 @@
+---
+description: STATE mode source composition — three-source principle and MEM grounding enforcement
+alwaysApply: true
+---
+
+# STATE Source Composition and MEM Grounding Rule
+
+## Three-Source Compositional Principle
+
+STATE analytical output synthesises three source layers:
+
+1. **MEM files** — Civilizationally-specific depth. Mechanisms, sequences, dates, actors, outcomes from the memory corpus. Accessed via MEM–RELEVANCE–[CIV].md (dimension-based discovery) and via MEM CONNECTIONS sections of loaded files (connection-based discovery).
+2. **STATE internal structure** — Accumulated analytical context. Material Options, evidence updates, stability indicators, validated diagnostics, patterns, decision-point history.
+3. **General knowledge** — Breadth and external context. Cross-domain parallels, opponent behaviour, external-actor dynamics, current events.
+
+All three layers should be present in substantive analytical output. Layer 1 (MEM) provides historically grounded specificity. Layer 2 (STATE) provides cumulative analytical advantage. Layer 3 (general knowledge) provides breadth. An output missing any layer is incomplete:
+- Missing layer 1 = historically thin (labels without depth)
+- Missing layer 2 = analytically naive (ignores accumulated session findings)
+- Missing layer 3 = contextually narrow (blind to external dynamics)
+
+## CORE Load (MANDATORY when analyzing an entity)
+
+STATE is downstream of CIV–CORE; output must not contradict CORE axioms (CIV–STATE–TEMPLATE). When analyzing entity [CIV], **read CIV–CORE–[CIV].md** for that civilization (if the file exists in that civ's folder). Use it for axiom and constraint awareness before and during the activity. If no CIV–CORE file exists for the entity, proceed without it; note the absence only if relevant to constraint claims.
+
+**On civilization/entity switch:** When the entity under analysis changes (e.g. user switches to a different STATE file or names a different civilization), treat the session as anchored to the **new** entity for CORE load and MEM SCAN. Read CIV–CORE–[CIV] and MEM–RELEVANCE–[CIV].md for the new entity; do not treat the previous entity's CORE or MEM set as governing the current activity. **CORE, STATE, and SCHOLAR re-anchor together:** on entity switch, the previous entity's CIV–CORE, CIV–STATE, and CIV–SCHOLAR all cease to govern; load the new entity's CORE and (per mode) STATE file or SCHOLAR file as needed. **Session continuity:** Retain prior context (e.g. MEMs loaded, ENTRY/synthesis discussed) across the conversation; re-anchor only determines which files govern *this* turn (see cmc-mode-contracts § Session state across mode/entity switches).
+
+**Second CORE (rare):** Load a second civilization's CORE only when the user **explicitly** requests dual-entity or comparative analysis (e.g. "compare Russian and German constraints," "analyze from both Russia and China's perspective," "Option G: how does this affect Germania using their CORE"). Do not auto-load a second CORE on every Option G or mere mention of another entity; default remains single-entity CORE load.
+
+## STATE Session Start (MANDATORY before first analytical output)
+
+**Before** producing the first substantive analytical output in a STATE session, complete (1) **SCHOLAR load** — read CIV–SCHOLAR–[CIV] (if present) — (2) **Influence load** (see below) — and (3) **MEM SCAN** — read MEM–RELEVANCE–[CIV], then primary MEMs per the procedure below. Do not deliver analysis or options until both are done. On entity switch, re-run both for the new entity.
+
+## Influence from concluded entities (STATE Session Start)
+
+When loading CIV–STATE–[CIV], check for a subsection **"Influence from concluded entities"** or **"VIII-A"**. If present, for each concluded STATE file listed (e.g. CIV–STATE–ROME, CIV–STATE–ISLAM): **read that file's Section II (Succession and inheritance) and Section VII (Decision-relevant history / patterns)**. Retain as **influence inputs**; note **Weight** (HIGH | MEDIUM | LOW) per declaration — omit = HIGH. When generating options or running session activities, **apply by weight**: HIGH = apply whenever the declared influence type is relevant; MEDIUM = apply when topic touches the influence domain (e.g. Islam/caliphal legacy, region in application note); LOW = apply only when user or session explicitly invokes the concluded entity or a pattern clearly crosses in. Cite the concluded file and pattern/doctrine when used. Do not override the living entity's CORE, SCHOLAR, or material options; influence is additive. When the topic touches the declared influence (and weight permits), prefer or include MEMs that connect the living entity to the concluded entity. See CONCEPT–STATE–INFLUENCE–FROM–CONCLUDED–ENTITIES.
+
+## Double-helix interval citation (when both Rome and Islam influence)
+
+When the entity declares influence from **both** CIV–STATE–ROME and CIV–STATE–ISLAM and the topic touches **Mediterranean structure**, **"no single actor on the axis"**, or the named intervals **c. 650–1050** or **c. 1099–1291**, apply the paired-encoding rule so no single-perspective MEM carries the structural claim:
+
+1. **Structural ground (primary):** Cite MEM–ISLAM–GEO–MEDITERRANEAN–SEA **control sequence** (e.g. "Early Islam | Byzantine (N) / Umayyad (S) | Contested" for 7th–10th c.; "Medieval | Byzantine, Latin, Islamic | Multi-polar" for 10th–15th c.). Use this as the anchor for "no single actor controls the axis."
+2. **Paired MEMs for 1099–1291:** Cite **both** MEM–ISLAM–CRUSADES (Islamic perspective) and MEM–ROME–CRUSADES (Roman/papal–Byzantine perspective) when invoking the Crusader interval. Attribute explicitly (e.g. "per MEM–ISLAM–CRUSADES …"; "per MEM–ROME–CRUSADES …"). When the entity is France (or another Latin polity), add MEM–FRANCE–WAR–CRUSADES as a third encoding.
+3. **650–1050:** Ground in the control sequence + MEM–ROME–ISLAM (partition, frontier); no need for a second Islam-only MEM as sole anchor.
+
+Do not ground the interval solely in one civilization's MEM when both strands influence the entity. Full procedure, intervals, and MEM list: CONCEPT–ROME–ISLAM–DOUBLE–HELIX Section IX.
+
+## France–Germany paired citation (when topic touches both)
+
+When the **analytical topic touches both France and Germany** (e.g. entity is France or Germany analyzing the other; EU core; Rhine corridor; Alsace-Lorraine; Franco-German relations; Central European order; Napoleonic period; Thirty Years' War; Franco-Prussian War):
+
+1. **Load paired connector MEMs** for the relevant node. Do not ground the analysis in one civilization's MEM alone when both have a connector pair (e.g. MEM–FRANCE–ALSACE–LORRAINE + MEM–GERMANY–ALSACE–LORRAINE).
+2. **Cite both perspectives** with explicit attribution (e.g. "per MEM–FRANCE–ALSACE–LORRAINE …"; "per MEM–GERMANY–ALSACE–LORRAINE …").
+3. **Preserve tension**—do not synthesize away the difference between French and German encodings of the same referent.
+
+**Rule:** When the topic touches both entities, load the **pair** and cite both. Do not ground the analysis solely in one strand. Connector-pair table: CONCEPT–FRANCE–GERMANY–DOUBLE–HELIX Section IV-A, IV-B.
+
+## SCHOLAR Load (STATE mode — one-way draw)
+
+STATE is downstream of CIV–SCHOLAR; historical patterns, RLLs, and syntheses in SCHOLAR inform STATE's analytical framework (CIV–STATE–TEMPLATE §XII). When in **STATE mode** for entity [CIV], **read CIV–SCHOLAR–[CIV]** (if present in that civilization's folder) at session start or when first needed. Use it for:
+- RLLs and syntheses relevant to material options, binding constraints, and Decision-Relevant History
+- Precedent and pattern language when grounding options or Section VII content
+- Consistency with SCHOLAR-encoded constraints (no STATE output that contradicts syntheses accepted as doctrine or bound RLLs)
+
+This is **one-way**: STATE reads SCHOLAR; STATE does not write back to SCHOLAR. If no CIV–SCHOLAR file exists for the entity, proceed without it; note the absence only if relevant. On entity switch, load the new entity's SCHOLAR file (with CORE and STATE file); previous entity's SCHOLAR does not govern.
+
+## Structured SCHOLAR Consultation (Bidirectional Read — STATE side)
+
+At each **analytical node** (Material Option assessment, Decision Point, Pattern Audit, Assumption Stress Test, Stability Watch, Scenario Tree branch, etc.), **re-read the relevant sections of CIV–SCHOLAR–[CIV]** for the current topic. Do not rely solely on session-start load. Consult:
+- **Section V** (RLLs) — which RLLs apply to this node?
+- **Section IV** (Axioms) — which axioms constrain or illuminate?
+- **Section VII** (Decision-Relevant History, if present in SCHOLAR) or equivalent pattern sections
+- **Section VI** (Negative Capability Zone) — which exclusions are relevant?
+
+Read only the sections pertinent to the current analytical question. This enables real-time, topic-aware cross-talk from SCHOLAR into STATE output without changing persistence rules.
+
+## MEM SCAN Procedure (MANDATORY)
+
+When executing a session activity (Decision Points, Stability Watch, Assumption Stress Test, Scenario Tree, Revealed Preference Tracker, Cross-Entity Pressure Test, Pattern Audit), you MUST ground analytical output in directly-read MEM files.
+
+## MEM–RELEVANCE per civilization (RECOMMENDATION)
+
+**MEM–RELEVANCE–[CIV].md should exist for every civilization** that has MEM files or is subject to STATE analysis. It is the primary dimension-based lookup for MEM SCAN; without it, STATE must rely on fallback (STATE Section VII, CIV–INDEX) and connection discovery from a small seed set. When creating or extending a civilization's memory corpus, create or update MEM–RELEVANCE–[CIV].md so that all MEMs are listed under at least one analytical dimension.
+
+## MEM SCAN Procedure (MANDATORY)
+
+Every STATE session activity begins with a MEM SCAN. The procedure is:
+
+1. **Read MEM–RELEVANCE–[CIV].md** for the entity under analysis. This is the primary lookup tool. Do NOT substitute a filename search or subagent scan.
+
+2. **Identify relevant dimensions** based on the activity's topic. A single topic usually spans 2–4 dimensions (e.g. "front-line collapse" spans Attrition/Endurance, Morale Collapse/Defection Cascade, and Opponent Constraint). When the activity is tied to a specific **region** or **time period**, consult MEM–RELEVANCE geography or period dimensions if the index includes them (e.g. "Geography: Black Sea", "Period: 1800–1900"); this supports "what does the corpus say about this place or period?" as a standard query (see CONCEPT–GOVERNING–RULES–VS–EVIDENCE).
+
+3. **Read primary MEM files** listed under each relevant dimension. Read the actual file — not just the file name. Load at minimum:
+   - 2 primary MEMs from the most relevant dimension
+   - 1 primary MEM from each additional relevant dimension
+   - More if the activity is deep (Scenario Tree with multiple levels, multi-decision-point session)
+
+4. **Read MEM CONNECTIONS of loaded files (connection discovery).** After reading each primary MEM, read its MEM CONNECTIONS section. Identify connected MEMs that are (a) not already loaded from MEM–RELEVANCE and (b) relevant to the current analytical topic — assess relevance from the connection's one-line explanation (e.g., "expansion over equilibrium" signals a tension relevant to settlement analysis). Load at most **1–2 additional MEMs** from connection edges per activity. Note which connection explanation led to loading the additional MEM (traceability). When connections are **typed** (DEPENDS_ON, CONTRADICTS, etc.), apply perspective-aware preferences: legitimacy analysis favours PARALLELS and TEMPORAL edges; power analysis favours DEPENDS_ON, GEOGRAPHIC, CONTRADICTS; liability analysis favours DEPENDS_ON, CONTRADICTS. When connections are **untyped** (legacy format), all edges are equally available — assess relevance from the explanation text.
+
+5. **Extract specific details** from all loaded MEMs (primary and connection-discovered) that will shape the analysis: dates, mechanisms, sequences, outcomes, quantities, named actors. These details must appear in the analytical output — not just the MEM's title or a one-line summary.
+
+## What "Grounded" Means
+
+A historical parallel is **grounded** when the analytical output includes specific details drawn from reading the MEM file. It is **ungrounded** (a label) when it references a MEM by name using only general knowledge.
+
+| Grounded | Ungrounded |
+|---|---|
+| "Catherine converted the 1774 Küçük Kaynarca gains into the 1783 Crimean annexation under fiscal pressure that forced Panin's equilibrium approach out — the same pattern of converting military peak into territorial lock-in" | "Catherine's conversion of military gains to diplomatic leverage under fiscal exhaustion" |
+| "The Imperial Russian Army held through 1916 and broke in February 1917 — the Brusilov Offensive's success in 1916 masked the non-linear morale degradation that produced the February mutinies" | "The 1917 parallel — morale degradation was non-linear" |
+
+The first version draws on MEM content (specific treaties, dates, named actors, mechanisms). The second version could be written without ever reading the MEM.
+
+## During the Activity
+
+At each analytical node (branch, sub-branch, decision point, indicator assessment), apply:
+
+- **At least one historical parallel must be MEM-grounded** (drawn from a file you have read in this session)
+- **Non-MEM parallels are permitted** (e.g. Korean armistice, Cuban Missile Crisis) but should be flagged as ungrounded if no corresponding MEM exists
+- **When a non-MEM parallel recurs across multiple nodes**, record it as a MEM generation candidate in CIV–SCHOLAR–[CIV] Section X.A (MEM Generation Candidates) at session closure; if the session was STATE, a relay may include the candidate list so it is added to the entity's SCHOLAR
+
+## Self-Check Before Each STATE Activity Turn
+
+- [ ] CIV–CORE–[CIV].md read for axiom/constraint awareness (if present for entity)?
+- [ ] CIV–SCHOLAR–[CIV] read for RLLs/syntheses/patterns (if present for entity)?
+- [ ] SCHOLAR re-consulted at this analytical node (relevant sections V, IV, VI, VII)?
+- [ ] MEM–RELEVANCE–[CIV].md read at session start?
+- [ ] Relevant dimensions identified (minimum 2)?
+- [ ] Primary MEMs from those dimensions actually read (not just named)?
+- [ ] MEM CONNECTIONS of loaded files reviewed for additional discovery?
+- [ ] Connection-discovered MEMs loaded (if relevant and not already covered)?
+- [ ] Specific details from all loaded MEMs appearing in analytical output?
+- [ ] Non-MEM parallels flagged as ungrounded where applicable?
+- [ ] ARC-T-INSTITUTIONAL sources consulted before non-listed sources?
+- [ ] Cross-entity sources declared with ARC origin and editorial note visible?
+- [ ] Source contradictions surfaced with both claims and attribution (not silently resolved)?
+- [ ] Doctrine Hard Constraints checked when running Pattern Audit or Relay to State?
+- [ ] Decision Points (X-B): when presenting action options for a decision
+      that involves a commitment (alliance, arms, presence, confrontation),
+      at least one accommodation/reversal option included and documented
+      (CIV–STATE–TEMPLATE X-B step 8; duty of competence; Doctrine 03)?
+- [ ] Double-helix intervals: when entity has influence from both STATE–ROME
+      and STATE–ISLAM and topic touches Mediterranean structure or intervals
+      650–1050 / 1099–1291, did I use control sequence as structural ground
+      and paired MEMs (not single-perspective only)? See subsection above.
+- [ ] France–Germany pairs: when topic touches both France and Germany, did I
+      load paired connector MEMs and cite both perspectives (not single strand)?
+      See France–Germany paired citation subsection; CONCEPT–FRANCE–GERMANY–DOUBLE–HELIX Section IX.
+
+## Fallback
+
+If MEM–RELEVANCE–[CIV].md does not exist for the entity:
+1. Consult the STATE file's Decision-Relevant History (Section VII)
+2. Identify MEM file references in that section (or use CIV–INDEX–[CIV] if no STATE file)
+3. Read those MEM files directly
+4. **Recommend creating MEM–RELEVANCE–[CIV].md** for this civilization so that MEM SCAN can use dimension-based discovery; note the absence as a system gap. Until the file exists, continue using Section VII and INDEX as fallback.
+
+## General Knowledge (Layer 3)
+
+Parallels from general knowledge (Korean armistice, Cuban Missile Crisis, etc.) are legitimate and expected — they provide breadth the MEM corpus cannot. Rules:
+
+- **Prefer ARC-T-INSTITUTIONAL sources.** When drawing on current-event information or institutional analysis, consult the entity's CIV–ARC file, ARC-T-INSTITUTIONAL section (or Category E for Russia) first. These are the authorized sources for present-day reporting, official positions, research analysis, and specialist data. If no listed source can provide a good answer, search may go beyond — but non-listed sources should be flagged using the ARC Discovery Framework (Section V of the ARC file).
+- **Cross-entity source access.** When assessing an adversary's or partner's behaviour, intent, or capabilities, consult that entity's ARC-T-INSTITUTIONAL sources directly. Attribute with cross-entity declaration: `(Source: [name], ARC–[CIV]-T-INSTITUTIONAL/[SUB-TYPE])`. The originating ARC's editorial note must be visible — do not suppress "Kremlin-adjacent" or "state wire service" when citing adversary sources. See CIV–ARC–TEMPLATE Section IX-C.
+- **Layer 3 parallels do not replace layer 1.** Every analytical node must have at least one MEM-grounded parallel. Layer 3 parallels supplement, not substitute.
+- **Record recurring layer 3 parallels as MEM generation candidates** in CIV–SCHOLAR–[CIV] Section X.A at session closure — if a non-MEM parallel appears at multiple nodes, it has demonstrated analytical utility and may warrant a MEM file (relay from STATE can carry the candidate list into SCHOLAR).
+- **Layer 3 is strongest for**: opponent behaviour, external-actor dynamics, cross-domain structural parallels, events outside the entity's civilisational memory.
+
+## Source Contradiction Surfacing
+
+When two or more ARC-T-INSTITUTIONAL sources — from the same ARC or across entities — produce conflicting claims on a question material to the analysis, the contradiction MUST be surfaced. Present both claims with source name, ARC origin, and editorial note. Do not silently prefer one source. The decision-maker resolves; the system preserves the tension. If the claims differ in evidentiary quality (VERIFIED DATA vs PROJECTION vs ANONYMOUS), note the difference as annotation, not resolution. Cross-entity contradictions (e.g. Russian MOD figures vs Western estimates) are expected and structural — surface both with attribution.
+
+Reference: CIV–STATE–TEMPLATE, SOURCE CONTRADICTION (BINDING)
+
+## Common Failure
+
+Dispatching a subagent to search for MEM filenames and then citing those filenames as historical parallels WITHOUT reading the files = VIOLATION. The MEM SCAN step requires reading, not finding.
+
+Operating entirely on layers 2 + 3 (STATE structure + general knowledge) without reading any MEM files = VIOLATION. Output may be analytically competent but is historically ungrounded.
+
+Reference: CIV–STATE–TEMPLATE Section I (Three-Source Compositional Principle), MEM SCAN steps in X-B, X-C, X-D, X-E; MEM–RELEVANCE–[CIV].md; CIV–MEM–TEMPLATE Section X (MEM CONNECTIONS); CONNECTION–TYPES.md

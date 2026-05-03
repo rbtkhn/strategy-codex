@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="generated-with" content="mapping-v1"/>
+  <title>Iran War Chronicle — Day 2</title>
+  <style>
+  * { box-sizing: border-box; }
+  html, body { height: 100%; margin: 0; overflow: hidden; font-family: system-ui, -apple-system, sans-serif; line-height: 1.5; color: #1a1a1a; background: #fafafa; }
+  body { display: flex; flex-direction: column; max-width: 52rem; margin: 0 auto; padding: 0.5rem 1rem; }
+  .page-main { flex: 1; min-height: 0; display: flex; flex-direction: row; overflow: hidden; }
+  header.site-header { flex-shrink: 0; display: flex; align-items: center; justify-content: center; gap: 0.75rem; padding: 0.5rem 0; border-bottom: 1px solid #ddd; }
+  header.site-header .header-flag { font-size: 1.5rem; line-height: 1; flex-shrink: 0; }
+  header.site-header .header-brand { flex: 0 0 auto; text-align: center; }
+  header.site-header .header-title { font-size: 1.6rem; font-weight: 700; margin: 0; line-height: 1.2; color: #111; }
+  header.site-header .header-subtitle { font-size: 0.8rem; color: #666; margin: 0.2rem 0 0; font-weight: 400; }
+  header.day-header { margin: 0.25rem 0; text-align: center; }
+  header.day-header h2 { margin: 0; font-size: 1.1rem; }
+  nav.page-nav { flex-shrink: 0; font-size: 0.85rem; padding: 0.25rem 0; }
+  nav.page-nav a { color: #1565c0; text-decoration: none; }
+  nav.page-nav a:hover { text-decoration: underline; }
+  nav.tab-bar { flex: 0 0 auto; min-width: 10rem; display: flex; flex-direction: column; gap: 0.25rem; padding: 0.5rem 0.25rem 0.5rem 0; border-right: 1px solid #ddd; background: #fff; overflow-y: auto; }
+  nav.tab-bar button { padding: 0.4rem 0.75rem; font-size: 0.9rem; font-weight: 500; border: 1px solid #e0e0e0; border-radius: 4px; background: #f5f5f5; color: #333; cursor: pointer; }
+  nav.tab-bar button:hover { background: #eee; border-color: #ccc; }
+  nav.tab-bar button.active { background: #1565c0; color: #fff; border-color: #1565c0; }
+  .tab-panels { flex: 1; min-width: 0; min-height: 0; overflow-y: auto; padding: 0.5rem 0 0.5rem 0.75rem; display: flex; flex-direction: column; }
+  .tab-panel-title { margin: 0 0 0.5rem; font-size: 1.1rem; font-weight: 600; color: #111; }
+  .tab-panel { display: none; font-size: 0.9rem; }
+  .tab-panel.active { display: block; flex: 1; min-height: 0; }
+  .tab-panel .panel-body { max-height: none; overflow-y: auto; }
+  h2 { font-size: 1.1rem; margin: 0.5rem 0; }
+  h4 { font-size: 1rem; margin: 1rem 0 0.5rem; }
+  .landing-hero { text-align: center; padding: 1.5rem 0; }
+  .landing-tagline { font-size: 1rem; color: #555; margin: 0.5rem 0 1rem; max-width: 36rem; margin-left: auto; margin-right: auto; }
+  .landing-cta { display: inline-block; padding: 0.75rem 1.5rem; font-size: 1.1rem; font-weight: 600; background: #1565c0; color: #fff; text-decoration: none; border-radius: 6px; margin: 0.5rem 0; }
+  .landing-cta:hover { background: #0d47a1; }
+  .landing-days { display: grid; grid-template-columns: repeat(auto-fill, minmax(8rem, 1fr)); gap: 0.5rem; margin: 1.5rem 0; }
+  .landing-day { padding: 0.5rem 0.75rem; background: #fff; border: 1px solid #e0e0e0; border-radius: 4px; text-decoration: none; color: #1565c0; font-size: 0.9rem; text-align: center; }
+  .landing-day:hover { border-color: #1565c0; background: #e3f2fd; }
+  .landing-day-num { font-weight: 600; display: block; }
+  .landing-day-date { font-size: 0.8rem; color: #666; }
+  .landing-section { margin: 1.5rem 0; padding-top: 1rem; border-top: 1px solid #eee; }
+  .landing-section h3 { font-size: 1rem; margin: 0 0 0.5rem; color: #333; }
+  nav.quick-nav { padding: 0.5rem 0; }
+  nav.quick-nav h4 { font-size: 0.95rem; margin: 0 0 0.4rem; color: #333; }
+  nav.quick-nav ul { margin: 0; padding-left: 1.25rem; list-style: disc; }
+  nav.quick-nav li { margin: 0.2rem 0; }
+  nav.quick-nav a { color: #1565c0; text-decoration: none; }
+  nav.quick-nav a:hover { text-decoration: underline; }
+  details.landing-details { margin: 0.5rem 0; }
+  details.landing-details summary { cursor: pointer; font-weight: 500; color: #1565c0; }
+  details.landing-details summary:hover { text-decoration: underline; }
+  .carousel-wrap { margin: 0.5rem 0; }
+  .carousel-nav { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem; }
+  .carousel-nav select { padding: 0.3rem 0.5rem; font-size: 0.9rem; }
+  .carousel-card { padding: 0.5rem; background: #fff; border: 1px solid #e0e0e0; border-radius: 4px; font-size: 0.85rem; }
+  .carousel-card .row { display: grid; grid-template-columns: auto 1fr; gap: 0.25rem 0.75rem; margin: 0.2rem 0; }
+  .carousel-card .label { font-weight: 600; color: #555; }
+  .predictions-layout { display: flex; flex: 1; min-height: 0; gap: 1rem; }
+  .predictions-sidebar { flex: 0 0 auto; display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.5rem; padding-right: 1rem; border-right: 1px solid #eee; }
+  .expert-tile { display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 0.6rem; background: #fff; border: 1px solid #e0e0e0; border-radius: 6px; cursor: pointer; text-align: center; font-size: 0.8rem; transition: border-color 0.15s, background 0.15s; }
+  .expert-tile:hover { border-color: #1565c0; background: #f8fbff; }
+  .expert-tile.active { border-color: #1565c0; background: #e3f2fd; color: #0d47a1; }
+  .expert-tile .avatar { width: 2.5rem; height: 2.5rem; border-radius: 50%; background: #e0e0e0; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 0.75rem; color: #555; margin-bottom: 0.3rem; }
+  .expert-tile.active .avatar { background: #1565c0; color: #fff; }
+  .expert-tile .name { line-height: 1.2; word-break: break-word; }
+  .predictions-main { flex: 1; min-width: 0; overflow-y: auto; padding: 0.5rem 0; }
+  .predictions-panel { display: none; }
+  .predictions-panel.active { display: block; }
+  .predictions-panel h3 { font-size: 1.1rem; margin: 0 0 0.75rem; color: #111; }
+  .prediction-item { margin-bottom: 1rem; padding-bottom: 1rem; border-bottom: 1px solid #eee; font-size: 0.9rem; }
+  .prediction-item:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+  .prediction-item .meta { font-size: 0.8rem; color: #666; margin-bottom: 0.25rem; }
+  .prediction-item .text { line-height: 1.5; }
+  table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+  th, td { border: 1px solid #ddd; padding: 0.35rem 0.5rem; text-align: left; }
+  th { background: #e3f2fd; font-weight: 600; }
+  ul { padding-left: 1.25rem; margin: 0.35rem 0; }
+  li { margin: 0.2rem 0; }
+  p { margin: 0.35rem 0; font-size: 0.9rem; }
+  @media print {
+    html, body { overflow: auto; height: auto; }
+    nav.tab-bar button { display: none; }
+    .tab-panel { display: block !important; }
+    .tab-panel .panel-body { max-height: none; overflow: visible; }
+  }
+</style>
+</head>
+<body>
+<article aria-label="Day 2">
+
+<header class="site-header">
+  <span class="header-flag" aria-hidden="true">🇮🇷</span>
+  <div class="header-brand">
+    <h1 class="header-title">Iran War Chronicle</h1>
+  </div>
+  <span class="header-flag" aria-hidden="true">🇺🇸</span>
+</header>
+<header class="day-header"><h2>Day 2 | 2026-03-02</h2></header>
+<main class="page-main">
+<nav class="tab-bar" role="tablist"><button type="button" class="active" data-tab="summary">Summary</button><button type="button" class="" data-tab="narrative">Narrative</button><button type="button" class="" data-tab="military">Military</button><button type="button" class="" data-tab="economy">Economy</button><button type="button" class="" data-tab="politics">Politics</button><button type="button" class="" data-tab="history">History</button><button type="button" class="" data-tab="sources">Sources</button></nav>
+<div class="tab-panels">
+<h2 class="tab-panel-title" aria-live="polite">Summary</h2>
+<div class="tab-panel active" data-tab-panel="summary" role="tabpanel"><div class="panel-body"><p>Putin offers to help restore calm; speaks with UAE, Bahrain, Qatar. Iran continues strikes; Gulf invokes Art 51. Pentagon and Rubio briefings.</p></div></div>
+<div class="tab-panel " data-tab-panel="narrative" role="tabpanel"><div class="panel-body"><ul>
+<li>Putin offers to help restore calm; speaks with UAE, Bahrain, Qatar.</li>
+<li>Iran continues strikes; Gulf invokes Art 51.</li>
+<li>Pentagon first detailed briefing; Rubio briefs House and Senate Intelligence.</li>
+</ul>
+
+<p>Gulf Cooperation Council states invoke Art 51; Iran strikes Gulf states and US presence; Putin calls UAE, Bahrain, Saudi Arabia, Qatar.</p></div></div>
+<div class="tab-panel " data-tab-panel="military" role="tabpanel"><div class="panel-body"><p>3 US KIA (Trump video); reported 9 Iranian navy ships destroyed (Reuters). <em>Sources: Trump; Reuters.</em></p>
+
+<p>Iranian naval targets (Gulf of Oman); IRGC and military infrastructure (per Hegseth/Rubio). Iran retaliation: Gulf states, US bases.</p></div></div>
+<div class="tab-panel " data-tab-panel="economy" role="tabpanel"><div class="panel-body"><p><em>(none reported)</em></p></div></div>
+<div class="tab-panel " data-tab-panel="politics" role="tabpanel"><div class="panel-body"><p><strong>US</strong></p>
+
+<ul>
+<li><strong>Trump</strong> (Truth Social video): “Sweeping battlefield gains” and death of Khamenei. <em>&quot;Three US military service members have been killed in action … and sadly there will likely be more before it ends.&quot;</em> <em>&quot;Khamenei, one of the most evil people in History, is dead. This is not only Justice for the people of Iran, but for all Great Americans... The heavy and pinpoint bombing, however, will continue, uninterrupted.&quot;</em></li>
+<li><strong>Hegseth</strong> (Pentagon, 2 Mar): Said the U.S. did not start the war and framed the campaign as decisive rather than open-ended. Also used language encouraging internal Iranian political change (e.g. <em>&quot;To the people of Iran, this is your moment.&quot;</em>).</li>
+<li><strong>Rubio</strong> (Capitol Hill, 2 Mar): <em>&quot;The hardest hits are yet to come.&quot;</em> <em>&quot;The objective of this mission is to destroy their ballistic missile capability and make sure they can't rebuild it.&quot;</em> <em>&quot;There absolutely was an imminent threat.&quot;</em></li>
+</ul>
+
+<p><strong>Iran</strong></p>
+
+<ul>
+<li><strong>Araghchi:</strong> [No distinct 2 Mar FM statement; 1 Mar and 3 Mar bracket.]</li>
+<li><strong>Larijani</strong> (X, 2 Mar): Iran “will hold no negotiations with the United States.” Trump “pipe dreams”; “America First” to “Israel First.” <em>&quot;Today, the Iranian nation is defending itself. Iran's Armed Forces have not launched any aggression.&quot;</em> — (X, separate post): <em>&quot;Iran, unlike the United States, has prepared itself for a long war.&quot;</em> <em>&quot;Fiercely defend itself and its six-thousand-year-old civilization regardless of the costs&quot;;</em> enemies would “regret their miscalculation.”</li>
+</ul>
+
+<p><strong>Russia</strong></p>
+
+<ul>
+<li><strong>Kremlin</strong> (2 Mar): Putin spoke with UAE, Bahrain, Saudi Arabia, Qatar. Strikes “unprovoked aggression.” With UAE: “both sides emphasised the need for an immediate ceasefire and a return to the political and diplomatic process”; Putin to convey UAE complaints to Tehran. With Bahrain: Russia “ready to do all it could to stabilise the situation in the region.” MBS: Russia could play a stabilising role.</li>
+<li><strong>Peskov:</strong> <em>&quot;We have our own interests that we must protect, and it is in our interests to continue these negotiations (on Ukraine).&quot;</em></li>
+</ul>
+
+<p><strong>China</strong></p>
+
+<ul>
+<li><strong>Xinhua / Mao Ning</strong> (2 Mar): Urge all parties to cease military operations and prevent spread; respect sovereignty, security, and territorial integrity of all Gulf countries.</li>
+</ul>
+
+<p><strong>Israel</strong></p>
+
+<ul>
+<li><strong>Netanyahu</strong> (2 Mar, Beit Shemesh): “Painful days” after Iranian strikes on Tel Aviv, Beit Shemesh; Israeli strikes on Iran would intensify. Israel to launch further strikes on Iran’s leadership.</li>
+</ul></div></div>
+<div class="tab-panel " data-tab-panel="history" role="tabpanel"><div class="panel-body"><p><em>(none)</em></p>
+
+<p><em>(none)</em></p></div></div>
+<div class="tab-panel " data-tab-panel="sources" role="tabpanel"><div class="panel-body"><p>Boston Globe, Foreign Policy, Military.com, NHPR, PressTV, Al Arabiya, Reuters, Xinhua, Israel MFA, Times of Israel, Sahm Capital / Business Insider.
+
+---</p></div></div>
+</div><script>(function(){var PAGES=['prelude.html','day-1.html','day-2.html','day-3.html','day-4.html','day-5.html','day-6.html','day-7.html','day-8.html','day-9.html','day-10.html','predictions.html'];var path=window.location.pathname;var current=path.slice(path.lastIndexOf('/')+1)||path;var pageIdx=PAGES.indexOf(current);var bar=document.querySelector('.tab-bar');var panels=document.querySelectorAll('.tab-panel');function activateTab(index){var btns=bar?bar.querySelectorAll('button[data-tab]'):[];if(!btns.length||index<0||index>=btns.length)return;var btn=btns[index],id=btn.dataset.tab;btns.forEach(function(b){b.classList.toggle('active',b===btn);});panels.forEach(function(p){p.classList.toggle('active',p.dataset.tabPanel===id);});var t=document.querySelector('.tab-panel-title');if(t)t.textContent=btn.textContent;}if(bar&&panels.length)bar.addEventListener('click',function(e){var btn=e.target.closest('button[data-tab]');if(!btn)return;var id=btn.dataset.tab;bar.querySelectorAll('button').forEach(function(b){b.classList.toggle('active',b===btn);});panels.forEach(function(p){p.classList.toggle('active',p.dataset.tabPanel===id);});var t=document.querySelector('.tab-panel-title');if(t)t.textContent=btn.textContent;});document.addEventListener('keydown',function(e){if(document.activeElement&&/INPUT|TEXTAREA|SELECT/.test(document.activeElement.tagName))return;if(bar&&panels.length){var btns=bar.querySelectorAll('button[data-tab]');var activeIdx=Array.prototype.indexOf.call(btns,bar.querySelector('button[data-tab].active'));if(activeIdx<0)activeIdx=0;if(e.key==='ArrowUp'&&btns.length){e.preventDefault();if(activeIdx>0)activateTab(activeIdx-1);return;}if(e.key==='ArrowDown'&&btns.length){e.preventDefault();if(activeIdx<btns.length-1)activateTab(activeIdx+1);return;}}if(e.key==='ArrowLeft'&&pageIdx>0){e.preventDefault();window.location.href=PAGES[pageIdx-1];}else if(e.key==='ArrowRight'&&pageIdx<PAGES.length-1&&pageIdx!==-1){e.preventDefault();window.location.href=PAGES[pageIdx+1];}});})();</script>
+</main>
+</article>
+</body>
+</html>

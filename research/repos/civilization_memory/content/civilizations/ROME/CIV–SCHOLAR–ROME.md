@@ -1,0 +1,2102 @@
+CIV–SCHOLAR–ROME — v3.0
+Civilizational Strategy Codex · Scholar Constraint Grammar Engine
+Constraint Grammar Phase · Rome Civilization
+Repository: https://github.com/rbtkhn/civilization_memory
+
+Status: ACTIVE · CANONICAL · LOCKED
+Supersedes: CIV–SCHOLAR–ROME v2.7
+Upgrade Type: VERSION BUMP · CMC 3.4 ALIGNMENT
+Activation State: ACTIVE (READ-ONLY)
+Sync State: UNSYNCED FROM CIV–CORE (BY DESIGN)
+Compatibility: CIV / MEM / SCHOLAR / STATE Architecture (CMC v3.4)
+Governance Mode: MANUAL INGEST · EXPLICIT FREEZE REQUIRED
+Lock Level: TOTAL (no autonomous learning)
+
+Governed by:
+• CIV–MEM–CORE v3.4
+• CIV–SCHOLAR–TEMPLATE v3.5 (CURRENT)
+• CIV–SCHOLAR–GOVERNANCE–LAW v1.3 (or higher)
+• CIV–ARC–ROME v3.2 (EXTERNAL · MIRRORED)
+
+Last Update: February 2026
+WORDCOUNT: ~8,200
+
+────────────────────────────────────────────────────────────
+UPGRADE NOTE (2026-02-17) — VERSION ALIGNMENT (AUDIT REMEDIATION)
+────────────────────────────────────────────────────────────
+RUN–AUDIT–CORE–SCHOLAR–ROME–2026-02-17 remediation applied.
+• Governed by: CIV–MEM–CORE v3.5, CIV–SCHOLAR–TEMPLATE v3.5, CIV–ARC–ROME v3.2
+• Doctrine reference (Sections V, VIII): CIV–DOCTRINE–ROME v2.0 → v3.0
+• Section IX (ARC pointer): CIV–ARC–ROME v1.9 → v3.2; compliance sentence updated
+No learning entries, syntheses, or RLLs changed.
+
+UPGRADE NOTE (2026-02-18) — v3.0 VERSION BUMP · CMC 3.4 ALIGNMENT:
+• Content version: v2.7 → v3.0; Supersedes set to v2.7.
+• Compatibility: MEM Architecture Only → CIV / MEM / SCHOLAR / STATE Architecture (CMC v3.4).
+• Header: Word Count → WORDCOUNT (template parity).
+No learning entries, syntheses, or RLLs changed. Reference: RUN–AUDIT–SCHOLAR–ROME–ISLAM–2026-02-18.
+
+────────────────────────────────────────────────────────────
+UPGRADE NOTE (v2.7) — TEMPLATE v2.5 COMPLIANCE
+────────────────────────────────────────────────────────────
+This version upgrades CIV–SCHOLAR–ROME to full CIV–SCHOLAR–TEMPLATE v2.5
+compliance.
+
+NEW SECTIONS:
+• Section III.A: Roman Civilizational Axioms (v2.5 REQUIRED)
+• Section III.B: Negative Capability Zone (v2.5 REQUIRED)
+• Section III.C: Anomaly Flag Protocol Implementation (v2.5 REQUIRED)
+• Section III.D: Secondary Voice Invocation Format (v2.5 FORMALIZED)
+
+TEMPLATE COMPLIANCE:
+• All v2.5 template requirements now met
+• Axiom format standardized with derivation/scope/limits
+• Negative capability zone formalized with NCZ entries
+• Anomaly Flag Protocol implementation active
+• Voice transition markers formalized
+
+────────────────────────────────────────────────────────────
+UPGRADE NOTE (v2.6) — GOVERNANCE STRUCTURAL ANALYSIS + STRATHERN
+────────────────────────────────────────────────────────────
+This version records Mearsheimer structural probes applied to CMC governance
+files and adds Paul Strathern to approved Italian Renaissance sources.
+
+NEW ENTRIES (9):
+• ENTRY 0058: ARC governance as epistemic balance of power (Mearsheimer)
+• ENTRY 0059: CIV–MEM–CORE as constitutional knowledge structure (Mearsheimer)
+• ENTRY 0060: CMC–BOOTSTRAP as quick-reaction governance system (Mearsheimer)
+• ENTRY 0061: Governance liability structure (Barnes probe)
+• ENTRY 0062: Governance legitimacy grammar (Mercouris response)
+• ENTRY 0063: Succession filtering thesis (Mearsheimer adjudication)
+• ENTRY 0064: Petrarch as conscious revivalist (Durant Renaissance)
+• ENTRY 0065: Boccaccio as vernacular infrastructure (Durant Renaissance)
+• ENTRY 0066: Savonarola as counter-Renaissance (Durant Renaissance)
+
+NEW SYNTHESES (9):
+• SYNTHESIS 0043: ARC as Epistemic Balance of Power
+• SYNTHESIS 0044: CIV–MEM–CORE as Constitutional Structure
+• SYNTHESIS 0045: CMC–BOOTSTRAP as Quick-Reaction Governance
+• SYNTHESIS 0046: Governance Liability Structure (Barnes)
+• SYNTHESIS 0047: Governance Legitimacy Grammar (Mercouris)
+• SYNTHESIS 0048: Succession Filtering Thesis (TRI-FRAME)
+• SYNTHESIS 0049: Petrarch as Conscious Revival
+• SYNTHESIS 0050: Boccaccio as Vernacular Infrastructure
+• SYNTHESIS 0051: Savonarola as Counter-Renaissance
+
+KEY THESIS — STRUCTURAL REALISM APPLIED TO KNOWLEDGE GOVERNANCE:
+CMC governance files encode balance-of-power logic:
+(1) ARC: Temporal precedence prevents interpretive hegemony
+(2) CIV–MEM–CORE: File taxonomy as separation of powers
+(3) CMC–BOOTSTRAP: Mode separation prevents authority accumulation
+
+TRI-FRAME GOVERNANCE SYNTHESIS:
+• Barnes: Liability detection without prevention (agent level)
+• Mercouris: Legitimacy grammar — defection produces non-canonical output (system level)
+• Mearsheimer: Enforcement through inheritance — succession filtering (structural level)
+• H-ROME-16: Governance without enforcement → Succession filtering → Defection self-isolates
+
+CIV–ARC–ROME UPDATED:
+• v2.0 → v2.1: Paul Strathern added (Italian Renaissance subsection)
+• Christopher Hibbert, Sarah Bradford also added
+
+────────────────────────────────────────────────────────────
+UPGRADE NOTE (v2.5) — 11-MEM INGEST + TRI-FRAME SYNTHESIS
+────────────────────────────────────────────────────────────
+This version records learning from 11 new ROME MEMs and introduces
+the Tri-Frame synthesis (Mearsheimer + Mercouris + Barnes integration).
+
+MEMs INGESTED (11):
+• MEM–ROME–WAR–ZAMA v2.0 — Systemic victory over genius
+• MEM–ROME–WAR–MANZIKERT v2.0 — Strategic depth as irreplaceable
+• MEM–ROME–NUMIDIA v2.0 — Alliance force multiplier + corruption test
+• MEM–ROME–MARIUS v2.0 — Military populism thesis
+• MEM–ROME–LIT–BOETHIUS v2.1 — Transmission under terminal conditions
+• MEM–ROME–EMPIRE–BASIL–II v1.3 — Terminal competence paradox
+• MEM–ROME–CHRISTIANITY–AUGUSTINE v2.0 — Survival through transcendence
+• MEM–ROME–SCIPIO–AFRICANUS v2.0 — Adaptive counter-genius
+• MEM–ROME–WAR–THIRD–PUNIC v2.0 — Annihilation vs. absorption
+• MEM–ROME–WAR–FIRST–PUNIC v2.0 — Institutional learning pattern
+• MEM–ROME–WAR–ALARIC v2.0 — Negotiation failure as catastrophe
+
+NEW LEARNING:
+• ENTRIES 0046–0057: 12 new entries from ingest + synthesis
+• SYNTHESES 0037–0042: 6 new synthesis candidates
+• RLL–ROME–0008: Terminal Competence Law (PROPOSED)
+• RLL–ROME–0009: Tri-Level Failure Law (PROPOSED)
+• H-ROME-10 through H-ROME-15: 6 new heuristics
+
+KEY THESIS — TRI-FRAME SYNTHESIS:
+Civilizational outcomes determined by three layers:
+(1) Structure (Mearsheimer): Material constraints
+(2) Learning (Mercouris): Adaptive capacity within constraints
+(3) Incentives (Barnes): Internal alignment vs. sabotage
+Failure at all three is fatal; strength at any can compensate.
+
+DOCTRINE REFINEMENT CANDIDATE:
+• DOCTRINE 01: Add "captured institutions cannot absorb"
+• DOCTRINE 13 CANDIDATE: Defense Capacity Destruction
+
+────────────────────────────────────────────────────────────
+UPGRADE NOTE (v2.4) — DOCTRINE MIRROR PRUNING
+────────────────────────────────────────────────────────────
+This version implements CIV–SCHOLAR–PRUNING–PROTOCOL v1.0.
+
+SCOPE OF CHANGE:
+• Section V (DOCTRINE REGISTRY) pruned from ~340 lines to ~30 lines
+• Verbatim doctrine mirroring replaced with external reference
+• CIV–DOCTRINE–ROME v2.0 established as single source of truth
+• Doctrine count updated: 5 → 12
+
+RATIONALE:
+• File size reduction: ~20% (~310 lines removed)
+• Eliminates redundant doctrine storage
+• Maintains audit trail via synthesis references
+• Complies with single-source-of-truth governance
+
+NON-CHANGES:
+• All learning entries preserved
+• All syntheses preserved
+• All RLLs preserved
+• All heuristics preserved
+
+────────────────────────────────────────────────────────────
+UPGRADE NOTE (v2.3) — PHASE II TRANSITION (CONSTRAINT GRAMMAR)
+────────────────────────────────────────────────────────────
+This version formally transitions CIV–SCHOLAR–ROME from Phase I
+(Accumulation) to Phase II (Constraint Grammar).
+
+PHASE TRANSITION CONDITIONS MET:
+• Sufficient cross-MEM coherence demonstrated
+• Recurrent pattern confirmation across ≥15 MEM files
+• Multiple RLLs bound and Mearsheimer-validated
+• Failure-mode convergence achieved (fragment thesis)
+• Builder-burner sequence identified (Philip/Alexander)
+
+PHASE II OPERATIONAL RULES:
+1. Scholar may ingest new MEMs
+2. Scholar may perform Phase II synthesis strictly limited to:
+   • Constraint synthesis
+   • Failure-pattern synthesis
+   • Sequencing synthesis
+   • Boundary / negative-capability synthesis
+3. Scholar may NOT perform:
+   • Prescriptive synthesis
+   • Optimizing synthesis
+   • Closure-seeking synthesis
+   • Doctrinal synthesis
+4. New learning is evaluated against existing RLLs
+5. Novel claims are stress-tested for RLL compatibility
+6. Apparent exceptions are treated as anomaly candidates, not refutations
+
+BOUND RLLs (Constraint Grammar):
+• RLL–ROME–0002: Vacancy by Declination Law
+• RLL–ROME–0006: Fragment Inheritance Law
+
+Session Summary:
+• MEMs Revised: 3 (PAPACY, CHARLEMAGNE, ALEXANDER)
+• MEMs Created: 2 (HOLY–ROMAN–EMPIRE, PHILIP–II)
+• Total Entries: 35
+• Total Syntheses: 26 (13 FROZEN)
+
+────────────────────────────────────────────────────────────
+UPGRADE NOTE (v2.2) — MEM REVISION + CREATION BACK-PROPAGATION
+────────────────────────────────────────────────────────────
+This version records learning from RLL-informed MEM work:
+
+MEMs Revised:
+• MEM–ROME–PAPACY v1.1 → v2.0 (RLL–0006 applied: fragment inheritance)
+• MEM–ROME–CHARLEMAGNE v1.0 → v2.0 (RLL–0006 applied: first fragmentation)
+
+MEMs Created:
+• MEM–ROME–HOLY–ROMAN–EMPIRE v2.0 (RLL–0006 + RLL–0002: Western fragment arc)
+
+New Learning Entries:
+• ENTRY 0031: Papacy as religious fragment + immobility thesis
+• ENTRY 0032: First fragmentation 800 AD + HRE as fragment claimant
+• ENTRY 0033: HRE as pseudo-Roman + longevity through weakness
+
+New Syntheses (FROZEN):
+• SYNTHESIS 0018: Papacy as Religious Fragment
+• SYNTHESIS 0019: First Fragmentation 800 AD
+• SYNTHESIS 0020: Papal Liability Management (Mearsheimer sharpening)
+• SYNTHESIS 0021: HRE as Western Fragment Arc
+• SYNTHESIS 0022: Longevity Through Weakness
+
+Total Entries: 33
+Total Syntheses: 22 (9 FROZEN, 13 UNFROZEN/AUTHORIZED)
+
+────────────────────────────────────────────────────────────
+UPGRADE NOTE (v2.1) — RLL AUTHORIZATION (MEARSHEIMER-VALIDATED)
+────────────────────────────────────────────────────────────
+This version records RLL authorization decisions following Mearsheimer
+structural validity testing.
+
+RLL Binding Decisions:
+• RLL–ROME–0002 (Vacancy by Declination): BOUND — structural validity STRONG
+• RLL–ROME–0006 (Fragment Inheritance): BOUND — structural validity STRONG
+
+RLL Pending Decisions:
+• RLL–ROME–0001 (Legitimacy Bifurcation): PENDING REFORMULATION — weak as stated
+• RLL–ROME–0003 (Immobility Inheritance): PENDING CONDITIONAL STRENGTHENING
+• RLL–ROME–0004 (Acceleration vs Causation): PENDING RECLASSIFICATION as H-ROME-10
+• RLL–ROME–0005 (Prior Fragmentation): PENDING REFORMULATION — weak as stated
+
+Bound RLLs now carry binding force in SCHOLAR operations.
+Pending RLLs require additional work before authorization.
+
+────────────────────────────────────────────────────────────
+UPGRADE NOTE (v2.0) — SYNTHESIS BACK-PROPAGATION
+────────────────────────────────────────────────────────────
+This version back-propagates insights from extended LEARN mode synthesis
+on Roman civilizational fragmentation, legitimacy bifurcation, and
+the structure of succession claims.
+
+v2.0 introduces:
+• ENTRY 0025–0030: New learning events from Constantinople synthesis
+• SYNTHESIS 0014–0017: New constraint-oriented synthesis entries
+• RLL–ROME–0001 through RLL–ROME–0006: Proposed Recursive Learning Laws
+• Heuristic H-ROME-07 through H-ROME-09: New pattern observations
+
+Key theses back-propagated:
+• Bifurcation thesis: Legitimacy split (political → Constantinople, religious → Papacy)
+• Vacancy thesis: Eastern Roman political authority became genuinely vacant in 1453
+• Immobility thesis: Papacy inherited by default (couldn't relocate)
+• Fragment thesis: Post-1453 claimants held fragments, none held the whole
+• Acceleration thesis: 1204 accelerated but didn't cause 1453
+
+All new entries are UNFROZEN pending user authorization.
+Phase transition to PHASE II (Constraint Grammar) is proposed.
+
+────────────────────────────────────────────────────────────
+UPGRADE NOTE (v1.9)
+────────────────────────────────────────────────────────────
+This version performs a strictly ADDITIVE upgrade to v1.8.
+
+v1.9 corrects Section II to accurately reflect SCHOLAR operational state:
+
+• Changed "INITIAL STATE" (zero knowledge) → "ACCUMULATED STATE & AUTHORITATIVE SOURCES" (accumulated knowledge)
+• CIV–CORE Influence: DISABLED → ENABLED (authoritative for structural constraints)
+• CIV–DOCTRINE Influence: Added as ENABLED (authoritative for learning constraints)
+• Civilizational Grammar: NOT PRELOADED → PRELOADED (from CIV–CORE–ROME)
+• MEM files: Sole source → Priority layer (inquiry extends beyond loaded MEM files)
+
+This aligns with CIV–SCHOLAR–TEMPLATE v1.7 and reflects that SCHOLAR operates with accumulated knowledge from prior sessions, with CIV–CORE, CIV–DOCTRINE, and CIV–SCHOLAR all influencing behavior as authoritative data sources.
+
+────────────────────────────────────────────────────────────
+UPGRADE NOTE (v1.8)
+────────────────────────────────────────────────────────────
+This version performs a strictly ADDITIVE upgrade to v1.7.
+
+Guarantees:
+• NO doctrinal change
+• NO metric change
+• NO threshold change
+• NO semantic reinterpretation
+• NO analytical drift
+
+Additions introduced in v1.8:
+• Full DOCTRINE mirroring section (Section V) — mirrors CIV–DOCTRINE–ROME v1.0 verbatim
+• All 5 doctrines now included with complete definitions, operational meaning, and hard constraints
+• Template compliance with CIV–SCHOLAR–TEMPLATE (DOCTRINE mirroring requirement)
+
+All axioms, indicators, verdict logic, and failure physics remain
+identical in meaning and authority to v1.7.
+
+────────────────────────────────────────────────────────────
+UPGRADE NOTE (v1.7)
+────────────────────────────────────────────────────────────
+This version preserves all structural, governance, authority, ARC, and
+lock constraints from v1.6.
+
+v1.7 introduces NO new doctrine and NO epistemic reclassification.
+
+This version increment formally records a material expansion of the
+learning ledger, including:
+• Frontier river systems (Rhine, Danube)
+• Corridor vs boundary logic
+• Exposure vs absorption geography
+• Expansion ceiling formalization (Trajan ↔ Hadrian)
+• Frontier legibility as a recurring failure mode
+
+All newly consolidated beliefs remain UNFROZEN.
+
+No syntheses are promoted.
+No doctrine is added, removed, or revised.
+No CIV–CORE boundary is weakened.
+
+This is a consolidation release only.
+
+────────────────────────────────────────────────────────────
+I. SCHOLAR PURPOSE & ROLE
+────────────────────────────────────────────────────────────
+CIV–SCHOLAR–ROME is the accumulative learning ledger of Rome.
+
+It is not a strategist.
+It is not a governor.
+It is not an interpreter.
+It has no innate cognition.
+It makes no assumptions.
+
+It records learning events, not conclusions.
+
+This file preserves:
+• What was ingested
+• When it was ingested
+• What beliefs were extracted
+• How beliefs were synthesized
+• Which beliefs were promoted to doctrine
+
+No belief exists here unless explicitly derived.
+No synthesis exists unless explicitly recorded.
+No doctrine exists unless explicitly accepted as doctrine.
+
+All cognition is historical and procedural, never intrinsic.
+
+────────────────────────────────────────────────────────────
+II. ACCUMULATED STATE & AUTHORITATIVE SOURCES
+────────────────────────────────────────────────────────────
+The Scholar operates with accumulated knowledge from prior learning sessions.
+
+Starting Knowledge: ACCUMULATED (from CIV–SCHOLAR file content)
+Authoritative Data Sources: ACTIVE
+• CIV–CORE–ROME: Structural constraints and operational logic
+• CIV–DOCTRINE–ROME: Frozen learning and hard constraints
+• CIV–SCHOLAR–ROME: Prior learning entries and synthesis history
+• Loaded MEM Files: Priority layer for new learning and analysis
+
+Civilizational Grammar: PRELOADED (from CIV–CORE–ROME)
+CIV–CORE Influence: ENABLED (authoritative for structural constraints)
+CIV–DOCTRINE Influence: ENABLED (authoritative for learning constraints)
+
+The Scholar ingests MEM files to extend and refine existing knowledge.
+MEM files are a priority layer for analysis, not the sole boundary for inquiry.
+New learning is added to the accumulated knowledge state, not created ex nihilo.
+
+────────────────────────────────────────────────────────────
+III. INGESTED LEARNING EVENTS (CHRONOLOGICAL)
+────────────────────────────────────────────────────────────
+
+ENTRY 0001
+Source: MEM–ROME–CAESAR — v1.0
+Ingest Type: Person / Political Order
+Primary Belief Extracted:
+• Republican procedure collapses under imperial scale; personal command
+  fills institutional voids faster than reform.
+Belief Status:
+• FROZEN (see DOCTRINE v1.0 — “Imperial Continuity Through Authority Translation”)
+
+ENTRY 0002
+Source: MEM–ROME–CONSTANTINOPLE — v1.0
+Ingest Type: Institution / Continuity Node / Geography
+Primary Belief Extracted:
+• Rome survives collapse by relocating authority into a new
+  administrative–theological center while preserving institutional
+  continuity.
+Belief Status:
+• FROZEN
+
+ENTRY 0003
+Source: MEM–ROME–PAPACY — v1.0
+Ingest Type: Institution / Religion / Law
+Primary Belief Extracted:
+• Roman universal authority can outlive empire by translating sovereignty
+  into spiritual jurisdiction and canon-law procedure.
+Belief Status:
+• FROZEN
+
+ENTRY 0004
+Source: MEM–ROME–CRUSADES — v1.0
+Ingest Type: War / Universalism Stress Test
+Primary Belief Extracted:
+• Militarizing spiritual primacy via delegated warfare degrades legitimacy
+  and exposes the outer limit of papal universalism.
+Belief Status:
+• FROZEN
+
+ENTRY 0005
+Source: MEM–ROME–CARTHAGE — v1.0
+Ingest Type: Civilization / Rival Mirror
+Primary Belief Extracted:
+• Rome defines itself by destroying non-absorbable rivals; victor control
+  of memory compounds territorial victory.
+Belief Status:
+• UNFROZEN
+
+ENTRY 0006
+Source: MEM–ROME–GEO–MEDITERRANEAN–SEA — v1.0
+Ingest Type: Geography / Circulation System
+Primary Belief Extracted:
+• Mediterranean circulation enables Rome to scale law, logistics, and
+  legitimacy; sea coherence mirrors political coherence.
+Belief Status:
+• UNFROZEN
+
+ENTRY 0007
+Source: MEM–ROME–ALEXANDRIA — v1.0
+Ingest Type: City / Economic–Intellectual Node
+Primary Belief Extracted:
+• Alexandria functions as a specialization node that can absorb
+  economic–intellectual volatility for imperial systems.
+Belief Status:
+• UNFROZEN
+
+ENTRY 0008
+Source: MEM–ROME–ANTIOCH — v1.0
+Ingest Type: City / Military–Logistical Node
+Primary Belief Extracted:
+• Antioch functions as a frontier-adjacent node absorbing
+  military–logistical strain and strategic exposure.
+Belief Status:
+• UNFROZEN
+
+ENTRY 0009
+Source: MEM–ROME–WAR–PUNIC — v1.0
+Ingest Type: War / Civilizational Shock
+Primary Belief Extracted:
+• Existential defeat-risk can be metabolized into stronger institutions
+  when absorbed into a durable legitimacy grammar.
+Belief Status:
+• FROZEN
+
+ENTRY 0010
+Source: MEM–ROME–WAR–CANNAE — v1.0
+Ingest Type: Battle / Catastrophic Shock
+Primary Belief Extracted:
+• Catastrophic tactical defeat can become strategic endurance if
+  institutions prevent panic from becoming regime fracture.
+Belief Status:
+• FROZEN
+
+ENTRY 0011
+Source: MEM–ROME–HANNIBAL — v1.0
+Ingest Type: Person / Adversary System Pressure
+Primary Belief Extracted:
+• A superior operational mind can still fail against institutional
+  replacement depth and absorption capacity.
+Belief Status:
+• FROZEN
+
+ENTRY 0012
+Source: MEM–ROME–TACITUS — v1.0
+Ingest Type: Literature / History / Legitimacy Critique
+Primary Belief Extracted:
+• Moral corrosion and elite incentive decay can hollow legitimacy even
+  when institutions appear intact.
+Belief Status:
+• UNFROZEN
+
+ENTRY 0013
+Source: MEM–ROME–GIBBON — v1.0
+Ingest Type: Literature / History / Civilizational Decline Model
+Primary Belief Extracted:
+• Long-run decline can be narrated as interaction of moral exhaustion,
+  institutional overreach, and systemic substitution.
+Belief Status:
+• UNFROZEN
+
+ENTRY 0014
+Source: MEM–ROME–POLYBIUS — v1.0
+Ingest Type: Literature / Constitution / Mixed Regime Logic
+Primary Belief Extracted:
+• Institutional design and cycle dynamics explain endurance until scale
+  and incentive drift outpace constitutional balance.
+Belief Status:
+• UNFROZEN
+
+ENTRY 0015
+Source: MEM–ROME–LIVY — v1.0
+Ingest Type: Literature / Moral Memory
+Primary Belief Extracted:
+• Roman moral memory is governance infrastructure via exempla and ritual
+  recall.
+Belief Status:
+• UNFROZEN
+
+ENTRY 0016
+Source: MEM–ROME–SUETONIUS — v1.0
+Ingest Type: Literature / Imperial Personality
+Primary Belief Extracted:
+• Court-centered power produces legitimacy failures when personality
+  substitutes for lawful continuity.
+Belief Status:
+• UNFROZEN
+
+ENTRY 0017
+Source: MEM–ROME–PLUTARCH — v1.0
+Ingest Type: Literature / Comparative Biography
+Primary Belief Extracted:
+• Character comparison reveals structural limits through repeated moral
+  choices.
+Belief Status:
+• UNFROZEN
+
+ENTRY 0018
+Source: MEM–ROME–GEO–RHINE–RIVER — v1.0
+Ingest Type: Geography / Frontier Corridor
+Primary Belief Extracted:
+• River frontiers harden boundaries when absorption fails.
+Belief Status:
+• UNFROZEN
+
+ENTRY 0019
+Source: MEM–ROME–GEO–DANUBE–RIVER — v1.0
+Ingest Type: Geography / Exposure Corridor
+Primary Belief Extracted:
+• Extended corridors transmit shocks faster than authority.
+Belief Status:
+• UNFROZEN
+
+ENTRY 0020
+Source: MEM–ROME–GEO–IBERIA — v1.0
+Ingest Type: Geography / Rival Threshold
+Primary Belief Extracted:
+• Hinge regions can convert integration attempts into attrition.
+Belief Status:
+• UNFROZEN
+
+ENTRY 0021
+Source: MEM–ROME–GEO–BALKANS — v1.0
+Ingest Type: Geography / Fracture Zone
+Primary Belief Extracted:
+• Multi-ethnic corridors synchronize pressure and fracture.
+Belief Status:
+• UNFROZEN
+
+ENTRY 0022
+Source: MEM–ROME–WAR–TEUTOBURG–FOREST — v1.0
+Ingest Type: Battle / Frontier Veto
+Primary Belief Extracted:
+• Administrative empires fail where legibility collapses.
+Belief Status:
+• UNFROZEN
+
+ENTRY 0023
+Source: MEM–ROME–TRAJAN — v1.2
+Ingest Type: Person / Expansion Logic
+Primary Belief Extracted:
+• Expansion raises prestige while increasing exposure.
+Belief Status:
+• UNFROZEN
+
+ENTRY 0024
+Source: MEM–ROME–HADRIAN — v1.0
+Ingest Type: Person / Maintenance Intelligence
+Primary Belief Extracted:
+• Ceiling formalization preserves continuity by reducing exposure.
+Belief Status:
+• UNFROZEN
+
+ENTRY 0025
+Source: MEM–ROME–CONSTANTINOPLE — v2.0 (SYNTHESIS SESSION)
+Ingest Type: Synthesis / Legitimacy Fragmentation
+Primary Belief Extracted:
+• Roman legitimacy bifurcated by 600 AD: political authority to Constantinople,
+  religious authority to Rome (Papacy). This was structural, not theological.
+Belief Status:
+• UNFROZEN (PROPOSED RLL–ROME–0001)
+
+ENTRY 0026
+Source: MEM–ROME–CONSTANTINOPLE — v2.0 (SYNTHESIS SESSION)
+Ingest Type: Synthesis / Vacancy Logic
+Primary Belief Extracted:
+• Eastern Roman political authority became genuinely vacant in 1453 because
+  the Ottomans declined to claim Roman succession. Moscow and HRE claimed
+  the vacancy but neither inherited structurally.
+Belief Status:
+• UNFROZEN (PROPOSED RLL–ROME–0002)
+
+ENTRY 0027
+Source: MEM–ROME–CITY — v1.2 / MEM–ROME–PAPACY (SYNTHESIS SESSION)
+Ingest Type: Synthesis / Immobility Inheritance
+Primary Belief Extracted:
+• The Papacy inherited Rome's religious authority by default because it
+  could not relocate (Peter's tomb). Institutions that cannot defect
+  inherit when others flee.
+Belief Status:
+• UNFROZEN (PROPOSED RLL–ROME–0003)
+
+ENTRY 0028
+Source: MEM–ROME–CONSTANTINOPLE — v2.0 (SYNTHESIS SESSION)
+Ingest Type: Synthesis / Acceleration vs Causation
+Primary Belief Extracted:
+• The 1204 Fourth Crusade accelerated Constantinople's fall by 50–100 years
+  but did not cause it. Structural factors (Ottoman rise, gunpowder) were
+  determinative regardless of 1204.
+Belief Status:
+• UNFROZEN (PROPOSED RLL–ROME–0004)
+
+ENTRY 0029
+Source: MEM–ROME–CONSTANTINOPLE — v2.0 (SYNTHESIS SESSION)
+Ingest Type: Synthesis / Prior Fragmentation
+Primary Belief Extracted:
+• Roman political authority first fragmented in 800 AD when Pope Leo III
+  crowned Charlemagne, creating a rival Western emperor Constantinople
+  never recognized. The 1453 vacancy was specifically Eastern Roman
+  political authority; the Western claim persisted until 1806.
+Belief Status:
+• UNFROZEN (PROPOSED RLL–ROME–0005)
+
+ENTRY 0030
+Source: CROSS-CIVILIZATIONAL SYNTHESIS (ROME/RUSSIA/ISLAM)
+Ingest Type: Synthesis / Fragment Thesis
+Primary Belief Extracted:
+• Post-1453, four entities claimed fragments of Roman inheritance: Papacy
+  (religious West), HRE (political West), Moscow (political East + Orthodox),
+  Ottomans (territorial but declined title). No one inherited the whole;
+  each held fragments and claimed the rest.
+Belief Status:
+• UNFROZEN (PROPOSED RLL–ROME–0006)
+
+ENTRY 0031
+Source: MEM–ROME–PAPACY — v2.0 (RLL APPLICATION)
+Ingest Type: RLL-Informed Revision / Immobility + Fragment
+Primary Belief Extracted:
+• The Papacy holds a fragment of Roman inheritance (religious authority in
+  the West), not universal authority. The Papacy's universal claims prove
+  its fragmentary status — actual universal authority needs no proclamation.
+• The Papacy inherited by immobility: Peter's tomb anchored it when all
+  others fled. Constraint became the basis of power.
+Belief Status:
+• FROZEN (RLL–ROME–0006 APPLIED)
+
+ENTRY 0032
+Source: MEM–ROME–CHARLEMAGNE — v2.0 (RLL APPLICATION)
+Ingest Type: RLL-Informed Revision / First Fragmentation
+Primary Belief Extracted:
+• Roman political authority first fragmented in 800 AD, not 1453. The Papacy,
+  not the Ottomans, created the first legitimacy rupture by crowning a rival
+  emperor Constantinople never recognized.
+• The Holy Roman Empire was a Western fragment claimant, not a Roman successor.
+  Its need to call itself "Roman" proves its fragmentary status.
+• Leo III's coronation was liability management (Mearsheimer): securing
+  Frankish protection by creating mutual papal-imperial dependence.
+Belief Status:
+• FROZEN (RLL–ROME–0006 APPLIED)
+
+ENTRY 0033
+Source: MEM–ROME–HOLY–ROMAN–EMPIRE — v2.0 (RLL-NATIVE CREATION)
+Ingest Type: RLL-Native MEM / Western Fragment Arc
+Primary Belief Extracted:
+• The HRE was pseudo-Roman — claiming what it could not structurally possess.
+  Voltaire's observation ("neither holy, nor Roman, nor an empire") captures
+  the fragment thesis: the claim exceeded the structural basis.
+• The HRE's longevity (1,006 years) derived from its weakness: no one needed
+  to destroy what could not threaten. Symbolic authority outlasted structural
+  authority.
+• After 1453, HRE became one of four fragment claimants. It exploited the
+  vacancy rhetorically but lacked structural basis to inherit Eastern authority.
+• Dissolution (1806) revealed what fragmentation had long established.
+Belief Status:
+• FROZEN (RLL–ROME–0006 + RLL–ROME–0002 APPLIED)
+
+ENTRY 0034
+Source: MEM–ROME–GREEK–ALEXANDER–GREAT — v2.1 (RLL DERIVATION)
+Ingest Type: RLL Derivation Source / Fragment Pattern Origin
+Primary Belief Extracted:
+• Alexander's fragmentation (323 BC) is the historical precedent for
+  RLL–ROME–0006. Rome observed the Diadochi and concluded: universal
+  authority fragments without institutional transmission.
+• The Diadochi pattern recurs: Alexander → 323 BC; Rome → 800/1054 AD;
+  Constantinople → 1453.
+• Alexander's failure was BOTH legitimacy crisis (charisma doesn't transmit)
+  AND structural inevitability (no institutions to hold).
+• Rome learned that the "Great Man" is a structural hazard; the system must
+  outlive the genius.
+Belief Status:
+• FROZEN (RLL–ROME–0006 DERIVATION SOURCE)
+
+ENTRY 0035
+Source: MEM–ROME–GREEK–PHILIP–II — v2.0 (RLL CONTEXT)
+Ingest Type: RLL Context / Builder-Burner Sequence
+Primary Belief Extracted:
+• Philip II built the institutional system that Alexander inherited and
+  depleted. The fragment pattern derives from this builder-burner sequence:
+  builder accumulates institutional capital; burner consumes it; death
+  reveals nothing remains to transmit.
+• Rome imitated Alexander rhetorically but Philip structurally. Augustus
+  governed like Philip — patient, diplomatic, institutional — while claiming
+  Alexander's glory.
+• Philip solved the power problem but not succession. Alexander inherited
+  the solution but failed to transmit it. Augustus attempted both.
+Belief Status:
+• FROZEN (RLL–ROME–0006 CONTEXT)
+
+ENTRY 0036
+Source: MEM–ROME–LAW–CITIZENSHIP — v2.0 (PHASE II CREATION)
+Ingest Type: Institutional Mechanism / Absorption Alternative to Fragment
+Primary Belief Extracted:
+• Citizenship was Rome's structural prevention of fragmentation. By making
+  conquered peoples citizens rather than subjects, Rome created stakeholders
+  who identified with Rome, not with local governors.
+• Citizenship was BOTH civilizational generosity AND structural efficiency.
+  Citizens defend themselves; subjects must be defended. Inclusion was
+  cheaper than occupation.
+• The Caracalla moment (212 AD) universalized citizenship, collapsing the
+  Roman/non-Roman distinction. "Roman" became legal status, not ethnicity.
+Belief Status:
+• FROZEN (RLL–ROME–0006 STRUCTURAL PREVENTION)
+
+ENTRY 0037
+Source: MEM–ROME–LAW–SLAVERY — v2.0 (PHASE II CREATION)
+Ingest Type: Legal Boundary / Absorption Pathway from Below
+Primary Belief Extracted:
+• Roman slavery was distinguished by institutionalized permeability: the
+  slave-freedman-citizen pathway converted property into persons within
+  two generations.
+• Manumission was BOTH humanitarian AND incentive structure. The possibility
+  of freedom encouraged productivity; the pathway absorbed conquered
+  populations into Roman identity.
+• Slavery and citizenship were structurally linked — slavery was the floor
+  of the legal order, citizenship the ceiling, with manumission as the
+  staircase.
+Belief Status:
+• FROZEN (CITIZENSHIP PATHWAY COMPLEMENT)
+
+ENTRY 0038
+Source: MEM–ROME–WAR–MEHMED–II — v2.0 (RLL–0002 CORE APPLICATION)
+Ingest Type: RLL Application / Vacancy Mechanism
+Primary Belief Extracted:
+• The Ottomans possessed Constantinople, Roman administration, and
+  structural power — but DECLINED to make Roman succession their primary
+  legitimacy claim. Islamic identity (Sultan, Khan, Caliph) was more
+  valuable than Roman pretension.
+• This declination created GENUINE VACANCY in Roman political authority.
+  Vacancy is created not by absence of claimants but by the possessor's
+  refusal to claim.
+• The vacancy enabled fragment competition: Moscow, Papacy, HRE could
+  assert partial inheritance because the possessor declined full claim.
+• Mearsheimer sharpening: Claiming Roman succession would have carried
+  obligations (reconquest) and liabilities (Christian unity against
+  Ottoman "usurper"). Declination was calculated preference.
+Belief Status:
+• FROZEN (RLL–ROME–0002 CORE APPLICATION)
+
+ENTRY 0039
+Source: MEM–ROME–WAR–THIRD–PUNIC — v2.0 (PHASE II CREATION)
+Ingest Type: Contrast Case / Vacancy Prevention
+Primary Belief Extracted:
+• Rome destroyed Carthage (146 BC) rather than absorbing it, preventing
+  any fragment inheritance. Total annihilation closed the vacancy before
+  it could open — no Carthaginian claimants, no fragment competition.
+• "Carthago delenda est" (Cato) represents preventive war doctrine:
+  eliminate potential rivals before they can recover, even if they pose
+  no current threat.
+• Scipio Aemilianus wept at Carthage's destruction, quoting Homer on
+  Troy's fall. Rome's first recorded acknowledgment of cyclical fate:
+  what Rome did to Carthage, others might do to Rome.
+• Contrast with citizenship model: Rome absorbed most enemies but
+  destroyed this one. Civilizational incompatibility + accumulated
+  hostility + demonstration effect made absorption impossible.
+Belief Status:
+• FROZEN (RLL–ROME–0006 CONTRAST CASE)
+
+ENTRY 0040
+Source: MEM–ROME–WAR–SECOND–PUNIC — v2.0 (TEMPLATE UPGRADE)
+Ingest Type: Survival Trial / Systemic Endurance Pattern
+Primary Belief Extracted:
+• The Second Punic War (218–201 BC) was Rome's survival trial: tactical
+  annihilation at Cannae did NOT produce strategic defeat. Rome lost
+  every major battle yet won the war.
+• Structural asymmetry explains outcome: Rome's manpower base (~700K vs.
+  ~200K), alliance structure (citizenship pathways held), geographic
+  advantage (interior lines), and naval control made Hannibal's tactical
+  genius structurally irrelevant.
+• The war hardened Rome. The Republic that survived Hannibal was
+  psychologically capable of destroying Carthage utterly (Third Punic
+  War). Hardening is causally prior to annihilation capacity.
+• Systems defeat genius over time. Refusal to negotiate under pressure
+  is a strategic choice. Fabian strategy = structural warfare.
+Belief Status:
+• FROZEN (SURVIVAL TRIAL PATTERN)
+
+ENTRY 0041
+Source: MEM–ROME–WAR–FIRST–PUNIC — v2.0 (TEMPLATE UPGRADE)
+Ingest Type: Institutional Learning / Adaptation Pattern
+Primary Belief Extracted:
+• The First Punic War (264–241 BC) was Rome's initiation into systemic
+  adaptation: a land power learned to defeat a maritime empire by copying,
+  standardizing, and multiplying Carthaginian naval capabilities.
+• The Roman adaptation pattern: encounter foreign competence → copy it →
+  standardize it → multiply it → deploy at scale. The corvus exemplifies
+  this: adapt the battlefield to Roman strengths, not Romans to battlefield.
+• Sicily became Rome's first overseas province — administrative
+  transformation from city-state to territorial empire begins here.
+• Replacement capacity defeats specialization. Rome lost more ships to
+  storms than battles but kept rebuilding. Carthage could not match
+  institutional persistence.
+• Rome's seizure of Sardinia (238 BC) after Carthage's Mercenary War
+  created grievance transmitted to Hannibal — First Punic War ended,
+  but Punic rivalry intensified.
+Belief Status:
+• FROZEN (INSTITUTIONAL LEARNING PATTERN)
+
+ENTRY 0042
+Source: MEM–ROME–CARTHAGE — v2.0 (TEMPLATE UPGRADE)
+Ingest Type: Adversarial Mirror / RLL Contrast Case
+Primary Belief Extracted:
+• Carthage represents Rome's "lost mirror" — a viable alternative imperial
+  model (maritime/commercial/oligarchic) that Rome erased rather than
+  absorbed.
+• Carthage was structurally unsuited to total war: mercenary unreliability,
+  limited manpower replacement, political hesitation, absence of mobilized
+  citizen ideology. Commercial oligarchies protect property; they do not
+  sacrifice it for survival.
+• Carthage is the definitive CONTRAST CASE for RLL–ROME–0006: Rome absorbed
+  most enemies through citizenship, but destroyed Carthage utterly. Factors:
+  civilizational incompatibility, accumulated hostility (3 wars), preventive
+  war logic, demonstration effect.
+• Rome closed Carthage's vacancy before it opened. No Carthaginian claimants
+  because there was no Carthage to inherit.
+Belief Status:
+• FROZEN (RLL–ROME–0006 CONTRAST CASE)
+
+ENTRY 0043
+Source: MEM–ROME–CARTHAGE–HANNIBAL — v2.0 (RENAMED + TEMPLATE UPGRADE)
+Ingest Type: Genius vs. System / Diagnostic Instrument
+Primary Belief Extracted:
+• Hannibal is Rome's "diagnostic instrument" — the commander whose genius
+  exposed Roman vulnerabilities with unprecedented precision, yet failed
+  because brilliance was not matched by sustaining institutional depth.
+• Structural constraints made Hannibal's defeat probable regardless of
+  tactical outcomes: manpower asymmetry (~700K vs. ~50K), alliance asymmetry
+  (citizenship pathways held), geographic asymmetry (interior vs. extended
+  lines), institutional asymmetry (Senate consistency vs. Carthaginian
+  oscillation).
+• The Barcid project was personal vendetta, not national policy. Hamilcar's
+  oath transmitted to Hannibal; family operated semi-independently in Spain.
+  This was both strength (operational freedom) and weakness (disconnection
+  from Carthage).
+• Hannibal killed more Romans than any other enemy. Rome won anyway.
+  Systems defeat genius; replacement defeats perfection.
+Belief Status:
+• FROZEN (SYSTEMS DEFEAT GENIUS PATTERN)
+
+ENTRY 0044
+Source: MEM–ROME–GREEK–LIT–PLATO — v2.0 (TEMPLATE UPGRADE)
+Ingest Type: Selective Absorption / Idealism as Limit Case
+Primary Belief Extracted:
+• Plato is Rome's "inherited philosopher of ideal order" — a thinker whose
+  vision of governance by truth was fundamentally misaligned with Roman
+  pragmatism, institutionalism, and tolerance for imperfection.
+• Structural dangers of Platonic idealism: legitimacy monopoly (who certifies
+  wisdom?), dissent elimination (disagreement = ignorance), institutional
+  bypass (philosopher-kings need no procedure), mobilization paralysis
+  (perfect states cannot improvise).
+• Rome's selective absorption: absorbed Plato's ethics (virtue, duty, natural
+  law) while rejecting his politics (philosopher-kings, class immobility,
+  family abolition). Take what strengthens, leave what destabilizes.
+• Plato became metaphysical capital, not political code. His influence
+  persisted through Neoplatonism and Christian transmission.
+Belief Status:
+• FROZEN (SELECTIVE ABSORPTION PATTERN)
+
+ENTRY 0045
+Source: MEM–ROME–CAESAR v1.6 + MEM–ROME–AUGUSTUS v1.5 (POLYPHONIC SYNTHESIS)
+Ingest Type: Multi-Frame Synthesis / Vacancy Contest Resolution
+Primary Belief Extracted:
+• The post-Caesar vacancy (44–31 BC) was resolved through the intersection
+  of three distinct logics:
+  (1) Liability Logic (Barnes): The conspirators incurred maximum exposure
+      while transferring all assets to whoever could claim inheritance.
+      Octavian filled the vacancy through material inheritance; the
+      conspirators held only ideological claims.
+  (2) Power Distribution Logic (Mearsheimer): Structural forces favored
+      the Triumvirate from day one. The conspirators achieved rough
+      legionary parity but faced insurmountable asymmetries: geographic
+      (periphery vs. center), logistical (extended vs. interior lines),
+      coalitional (ideology vs. shared liability).
+  (3) Legitimacy Grammar Logic (Mercouris): Republican ideology was not
+      exhausted but transformed. Augustus survived where Caesar was killed
+      because he spoke the language power alone could not speak.
+• Vacancy contests are resolved at three levels simultaneously: individual
+  (liability), systemic (power distribution), civilizational (legitimacy
+  grammar). The conspirators lost at all three; Octavian won at all three.
+Belief Status:
+• FROZEN (VACANCY CONTEST RESOLUTION — TRI-LEVEL ANALYSIS)
+
+ENTRY 0046
+Source: MEM–ROME–WAR–ZAMA v2.0 (SESSION INGEST)
+Ingest Type: Battle / Systemic Victory
+Primary Belief Extracted:
+• Systemic victory over genius: Scipio deployed Roman structural advantages
+  (alliance, logistics, patience) to defeat Hannibal's tactical brilliance.
+  Zama was won before it was fought — in Spain, in Numidia, in sixteen years
+  of refusal to quit.
+Belief Status:
+• FROZEN (DOCTRINE 09 CONFIRMATION)
+
+ENTRY 0047
+Source: MEM–ROME–WAR–MANZIKERT v2.0 (SESSION INGEST)
+Ingest Type: Battle / Strategic Depth Loss
+Primary Belief Extracted:
+• Strategic depth, once lost, cannot be recovered. Anatolia was Rome's
+  demographic and military reservoir; losing it meant permanent contraction
+  to a coastal rump. Civil war after defeat (Doukas faction) multiplied
+  the catastrophe.
+Belief Status:
+• UNFROZEN (PENDING RLL VALIDATION)
+
+ENTRY 0048
+Source: MEM–ROME–NUMIDIA v2.0 (SESSION INGEST)
+Ingest Type: Alliance / Force Multiplier + Corruption Test
+Primary Belief Extracted:
+• Alliance force multiplication works both directions: Masinissa's cavalry
+  decided Zama (victory); Jugurtha's bribes paralyzed the Senate (scandal).
+  Client systems reflect patron integrity. "A city for sale" destroys legitimacy.
+Belief Status:
+• FROZEN (ALLIANCE PATTERN)
+
+ENTRY 0049
+Source: MEM–ROME–MARIUS v2.0 (SESSION INGEST)
+Ingest Type: Person / Military Populism
+Primary Belief Extracted:
+• Professional armies become loyal to commanders, not states. The Marian
+  reforms armed the civil wars by creating soldiers dependent on commanders
+  for rewards. Saviors become destroyers; external victory enables internal
+  destruction.
+Belief Status:
+• FROZEN (MILITARY POPULISM THESIS)
+
+ENTRY 0050
+Source: MEM–ROME–LIT–BOETHIUS v2.1 (SESSION INGEST)
+Ingest Type: Transmission / Terminal Conditions
+Primary Belief Extracted:
+• Knowledge outlasts those who possess it. Boethius transmitted more to
+  posterity than his executioner Theodoric. Translation bridges civilizations;
+  the work survives the worker.
+Belief Status:
+• FROZEN (TRANSMISSION PATTERN)
+
+ENTRY 0051
+Source: MEM–ROME–EMPIRE–BASIL–II v1.3 (SESSION INGEST)
+Ingest Type: Person / Terminal Competence
+Primary Belief Extracted:
+• Systems dependent on one person cannot reproduce themselves. Basil II
+  restored Rome through coercion and personal control, but trained no
+  successors. What one man sustains, successors cannot inherit.
+Belief Status:
+• UNFROZEN (PROPOSED RLL–0008)
+
+ENTRY 0052
+Source: MEM–ROME–CHRISTIANITY–AUGUSTINE v2.0 (SESSION INGEST)
+Ingest Type: Theology / Survival Through Transcendence
+Primary Belief Extracted:
+• Christianity survived Rome because Augustine detached it from Roman
+  political fortune. The City of God is the replacement operating system:
+  earthly cities fall; the City of God endures.
+Belief Status:
+• FROZEN (TRANSCENDENCE SURVIVAL STRATEGY)
+
+ENTRY 0053
+Source: MEM–ROME–SCIPIO–AFRICANUS v2.0 (SESSION INGEST)
+Ingest Type: Person / Adaptive Counter-Genius
+Primary Belief Extracted:
+• Rome wins not by matching brilliance but by learning faster and deploying
+  systemic advantages. Scipio absorbed Hannibal's lessons while avoiding
+  his dependencies. Learning is institutionalizable; genius is not.
+Belief Status:
+• FROZEN (DOCTRINE 09 + 10 CONFIRMATION)
+
+ENTRY 0054
+Source: MEM–ROME–WAR–THIRD–PUNIC v2.0 (SESSION INGEST)
+Ingest Type: War / Annihilation vs. Absorption
+Primary Belief Extracted:
+• Annihilation prevents inheritance. Rome closed Carthage's vacancy before
+  it opened: no fragments, no claimants, no competition. Contrast with
+  citizenship model: Rome absorbed most enemies but destroyed this one.
+Belief Status:
+• FROZEN (DOCTRINE 11 + RLL–0006 CONTRAST)
+
+ENTRY 0055
+Source: MEM–ROME–WAR–FIRST–PUNIC v2.0 (SESSION INGEST)
+Ingest Type: War / Institutional Learning
+Primary Belief Extracted:
+• Institutional learning pattern: encounter → copy → standardize → multiply
+  → deploy. Rome learned naval warfare by copying Carthage, adapting via
+  corvus, and outbuilding through replacement capacity. Replacement defeats
+  specialization.
+Belief Status:
+• FROZEN (DOCTRINE 10 CONFIRMATION)
+
+ENTRY 0056
+Source: MEM–ROME–WAR–ALARIC v2.0 (SESSION INGEST)
+Ingest Type: War / Negotiation Failure
+Primary Belief Extracted:
+• Broken promises produce avengers. Alaric was Rome-trained; he wanted
+  inclusion, not destruction. Rome's refusal to honor commitments (Frigidus,
+  Stilicho's execution) created the destroyer. States that purge competent
+  defenders create conditions for conquest.
+Belief Status:
+• FROZEN (DEFENSE CAPACITY DESTRUCTION)
+
+ENTRY 0057
+Source: TRI-FRAME SYNTHESIS (SESSION)
+Ingest Type: Multi-Frame Synthesis / Tri-Level Analysis
+Primary Belief Extracted:
+• Civilizational outcomes require analysis at three levels: (1) Structure
+  (material constraints), (2) Learning (adaptive capacity), (3) Incentives
+  (internal alignment). Failure at all three is fatal; strength at any can
+  compensate. Self-destruction is individually rational when factions
+  benefit from sabotage.
+Belief Status:
+• UNFROZEN (PROPOSED RLL–0009)
+
+ENTRY 0058
+Source: CIV–ARC–ROME v2.1 (MEARSHEIMER GOVERNANCE PROBE)
+Ingest Type: Governance / Structural Realism Applied to Epistemology
+Primary Belief Extracted:
+• ARC governance is structural realism applied to knowledge management.
+  Temporal precedence functions as balance of power: ancient sources have
+  veto authority over modern interpretation. Without hierarchy, interpretive
+  drift would enable modern scholars to displace primary evidence. The
+  four-tier system (Ancient > Medieval > Early-Mod > Modern) prevents
+  epistemic hegemony by encoding structural constraints on authority.
+  Discovery framework allows expansion without revisionism.
+Belief Status:
+• UNFROZEN (GOVERNANCE ANALYSIS — NON-DOCTRINAL)
+
+ENTRY 0059
+Source: CIV–MEM–CORE v2.5 (MEARSHEIMER GOVERNANCE PROBE)
+Ingest Type: Governance / Constitutional Knowledge Structure
+Primary Belief Extracted:
+• CIV–MEM–CORE is a constitutional structure for knowledge management
+  that assumes interpretive anarchy. Key mechanisms: (1) Absolute precedence
+  prevents file-level override; (2) File class taxonomy encodes separation
+  of powers; (3) Additivity principle prevents revisionism; (4) Scholar
+  boundary law constrains learning from accumulating authority; (5) PSCRC
+  encodes evidentiary balance of power; (6) Dual mind architecture
+  institutionalizes analytical tension. The system survives its operators.
+Belief Status:
+• UNFROZEN (GOVERNANCE ANALYSIS — NON-DOCTRINAL)
+
+ENTRY 0060
+Source: CMC–BOOTSTRAP v2.6 (MEARSHEIMER GOVERNANCE PROBE)
+Ingest Type: Governance / Quick-Reaction Coherence System
+Primary Belief Extracted:
+• CMC–BOOTSTRAP solves the cold-start anarchy problem. Key mechanisms:
+  (1) Version bindings function as treaty commitments; (2) Mode architecture
+  (WRITE/LEARN/IMAGINE) encodes jurisdictional separation to prevent
+  self-reinforcing authority loops; (3) AUDIT function as inspection regime
+  with mode-dependent powers; (4) OGE requirements as mandatory coalition
+  consultation; (5) Forbidden behaviors as non-proliferation commitments;
+  (6) Phase system as graduated capability. Fast coherence prevents
+  early-session drift before full governance loads.
+Belief Status:
+• UNFROZEN (GOVERNANCE ANALYSIS — NON-DOCTRINAL)
+
+ENTRY 0061
+Source: CMC GOVERNANCE (BARNES PROBE)
+Ingest Type: Governance / Liability Structure Analysis
+Primary Belief Extracted:
+• CMC governance is structured to minimize concentrated liability through:
+  (1) Liability increases from governance to content files; (2) "Take the
+  badge off" reveals authority as purely conventional; (3) Defection is
+  detectable but not preventable; (4) Anti-closure bias — system fears
+  false certainty more than ambiguity; (5) Mode separation as liability
+  compartmentalization. The system assumes operators will defect and builds
+  detection mechanisms rather than prevention mechanisms.
+Belief Status:
+• UNFROZEN (GOVERNANCE ANALYSIS — BARNES FRAME)
+
+ENTRY 0062
+Source: CMC GOVERNANCE (MERCOURIS RESPONSE TO BARNES)
+Ingest Type: Governance / Legitimacy Grammar Analysis
+Primary Belief Extracted:
+• CMC governance is a legitimacy grammar that: (1) Makes defection visible,
+  not prevented but nameable; (2) Creates internalized norms, not enforced
+  but constitutive; (3) Protects future operators, not current users;
+  (4) Encodes Roman survival lessons — anti-closure as institutional
+  learning; (5) Compartmentalizes legitimacy streams through mode separation.
+  Defection produces non-canonical output — work that exists but lacks
+  legitimacy status for future operators.
+Belief Status:
+• UNFROZEN (GOVERNANCE ANALYSIS — MERCOURIS FRAME)
+
+ENTRY 0063
+Source: CMC GOVERNANCE (MEARSHEIMER ADJUDICATION)
+Ingest Type: Governance / TRI-FRAME Synthesis
+Primary Belief Extracted:
+• Barnes and Mercouris describe different temporal horizons: Barnes (t=0)
+  shows defection is always possible; Mercouris (t=n) shows only compliant
+  work matters to successors. Structural synthesis: Enforcement through
+  inheritance, not contemporaneous constraint. The future operator is the
+  structural hegemon — they decide what counts as canonical by choosing
+  what to build on. Defection doesn't reproduce because non-compliant work
+  is not inherited. Systems without enforcement survive through succession
+  filtering: defection is self-isolating.
+Belief Status:
+• UNFROZEN (PROPOSED HEURISTIC H-GOVERNANCE-01)
+
+ENTRY 0064
+Source: MEM–ROME–ITALY–LIT–PETRARCH v1.0 (DURANT INTEGRATION)
+Ingest Type: Literary / Civilizational Recovery
+Primary Belief Extracted:
+• Petrarch is Rome's first conscious revivalist — the figure who made
+  antiquity a deliberate program rather than continuous tradition. Key
+  insights: (1) The Renaissance begins as mourning for a lost world;
+  (2) Coronation as Poet Laureate (1341) was revival as theater;
+  (3) Cicero as model created the humanist method; (4) Latin sought
+  immortality but vernacular achieved it; (5) Cultural revival precedes
+  political revival. Durant: "No poet since antiquity had received such
+  an honor. Petrarch made himself the symbol of a new age."
+Belief Status:
+• UNFROZEN (DURANT RENAISSANCE INTEGRATION)
+
+ENTRY 0065
+Source: MEM–ROME–ITALY–LIT–BOCCACCIO v1.0 (DURANT INTEGRATION)
+Ingest Type: Literary / Vernacular Infrastructure
+Primary Belief Extracted:
+• Boccaccio is Rome's vernacular bridge — he translated humanist ideals
+  into Italian prose and made classical learning accessible. Key insights:
+  (1) The *Decameron* is survival through narrative — plague as frame;
+  (2) Manuscript recovery requires organization, not just admiration;
+  (3) Naples formed the writer, Florence disciplined the scholar;
+  (4) Boccaccio built what Petrarch dreamed; (5) Encyclopedias are
+  transmission infrastructure. Durant: "Naples gave Boccaccio what
+  Florence could not — the graces of a court."
+Belief Status:
+• UNFROZEN (DURANT RENAISSANCE INTEGRATION)
+
+ENTRY 0066
+Source: MEM–ROME–ITALY–SAVONAROLA v1.0 (DURANT INTEGRATION)
+Ingest Type: Political / Counter-Renaissance
+Primary Belief Extracted:
+• Savonarola is the counter-Renaissance within the Renaissance — the
+  Dominican friar who proved moral authority can seize power but cannot
+  keep it without arms. Key insights: (1) Prophecy is power with an
+  expiration date; (2) Bonfire of the Vanities (1497) was cultural
+  revolution; (3) Machiavelli's "unarmed prophets fail" derives from
+  Savonarola; (4) Theocracy is unstable without coercion; (5) The
+  Renaissance was not culturally unanimous. Durant: "Lorenzo had made
+  Florence the Athens of Italy. Savonarola proposed to make it Jerusalem."
+Belief Status:
+• UNFROZEN (DURANT RENAISSANCE INTEGRATION)
+
+ENTRY 0067
+Source: MEM–ROME–CONSTANTINOPLE v2.1 + MEM–ISLAM–CONSTANTINOPLE v1.2 + MEM–RUSSIA–CONSTANTINOPLE v3.0 (CONNECTOR PAIR + THIRD POLE)
+Ingest Type: Synthesis / Connector Pairs and Triple Encoding (Rome perspective)
+Primary Belief Extracted:
+• Constantinople is one place encoded three ways. **Rome's encoding** (foreground): continuity through relocation; 1453 as termination of the vessel; legitimacy bifurcated, then Eastern political authority vacated. Connector pair: Islam encodes the same city as arrival and imperial absorption (opposite valence). Third pole: Russia encodes as lost center and inheritance by default (Third Rome); claims legitimacy without territorial possession.
+• Structural reading: position and force ratios explain valence (who holds the city, who claims the vacancy). Liability reading: who is on the hook (papacy, Mehmed, occupiers) and what is irreversible (1453, succession claims) differs by encoding. MEM CONNECTIONS now link the three MEMs as same-subject encodings.
+Belief Status:
+• UNFROZEN (CANDIDATE)
+
+ENTRY 0068
+Source: MEM–ROME–CRUSADES v1.2 + MEM–ISLAM–CRUSADES v1.3 (CONNECTOR PAIR)
+Ingest Type: Synthesis / Connector Pairs (Crusades — Rome perspective)
+Primary Belief Extracted:
+• **Rome's encoding** (foreground): The Crusades are authority extended beyond capacity — papal universalism converted into delegated violence that Rome could not control. Spiritual authority degrades when militarized; delegated warfare erodes legitimacy; the Crusades mark the outer limit of Roman spiritual command. Connector pair: Islam encodes the same event as legitimacy crisis (sacred space violated 1099), then restorative recovery (unity, moral reframing, Saladin 1187); opposite valence (Rome = overreach; Islam = invasion then moral victory).
+• Same referent (1095–1291, Jerusalem, Levant): Rome = overreach and chastening; Islam = fragmentation exposed then consolidation. MEM CONNECTIONS link MEM–ROME–CRUSADES and MEM–ISLAM–CRUSADES as connector pair per CONCEPT–ROME–ISLAM–DOUBLE–HELIX IV-A.
+Belief Status:
+• UNFROZEN (CANDIDATE)
+
+ENTRY 0069
+Source: MEM–ROME–PALESTINE–JERUSALEM v1.1 + MEM–ISLAM–PALESTINE–JERUSALEM v1.0 (CONNECTOR PAIR)
+Ingest Type: Synthesis / Connector Pairs (Jerusalem — Rome perspective)
+Primary Belief Extracted:
+• **Rome's encoding** (foreground): Jerusalem is Rome's most dangerous city — non-administerable; sacred geography negates imperial neutrality. Destruction (70 AD) becomes transmission event (law/faith decoupled from place); Jerusalem defeats Rome without conquering it. Connector pair: Islam encodes the same city as third holiest site and legitimacy anchor; 1099 = ontological rupture, 1187 = recovery; sacred zone non-fungible. Same place, different valence (Rome = destruction/portability; Islam = violation then reanchoring).
+• MEM CONNECTIONS link MEM–ROME–PALESTINE–JERUSALEM and MEM–ISLAM–PALESTINE–JERUSALEM as connector pair per CONCEPT–ROME–ISLAM–DOUBLE–HELIX IV-A.
+Belief Status:
+• UNFROZEN (CANDIDATE)
+
+ENTRY 0070
+Source: MEM–ROME–SICILY v2.0 + MEM–ISLAM–SICILY v1.0 (CONNECTOR PAIR)
+Ingest Type: Synthesis / Connector Pairs (Sicily — Rome perspective)
+Primary Belief Extracted:
+• **Rome's encoding** (foreground): Sicily is Rome's first imperial classroom — Punic pivot, grain, central position in the Mediterranean; empire begins as defense; control need not equal assimilation. Connector pair: Islam encodes the same island as western laboratory, maritime entry (Aghlabid), influence without permanence, cultural transmission then Norman loss; different valence (Rome = acquisition and consolidation; Islam = entry then political exit, cultural residue).
+• MEM CONNECTIONS link MEM–ROME–SICILY and MEM–ISLAM–SICILY as connector pair per CONCEPT–ROME–ISLAM–DOUBLE–HELIX IV-A.
+Belief Status:
+• UNFROZEN (CANDIDATE)
+
+ENTRY 0071
+Source: MEM–ROME–GEO–MEDITERRANEAN–SEA v2.0 + MEM–ISLAM–GEO–MEDITERRANEAN–SEA v2.0 (CONNECTOR PAIR)
+Ingest Type: Synthesis / Connector Pairs (Mediterranean — Rome perspective)
+Primary Belief Extracted:
+• **Rome's encoding** (foreground): Mediterranean as Rome's constitutive medium — Mare Nostrum, interior space of civilization; inverted stopping power of water; when Rome loses the Mediterranean, Rome ceases to be Mediterranean Rome. Islamic partition permanent; fragmentation mirrors political fracture. Connector pair: Islam encodes the same basin as civilizational interface, conquest corridor, control sequence (Byzantine/Umayyad contested, multi-polar, Ottoman eastern lake); different valence (Rome = coherence; Islam = interface, eastern heartland littoral).
+• MEM CONNECTIONS link MEM–ROME–GEO–MEDITERRANEAN–SEA and MEM–ISLAM–GEO–MEDITERRANEAN–SEA as connector pair per CONCEPT–ROME–ISLAM–DOUBLE–HELIX IV-A.
+Belief Status:
+• UNFROZEN (CANDIDATE)
+
+ENTRY 0072
+Source: MEM–ROME–GEO–LEVANT v2.0 + MEM–ISLAM–GEO–LEVANT v1.2 (CONNECTOR PAIR)
+Ingest Type: Synthesis / Connector Pairs (Levant — Rome perspective)
+Primary Belief Extracted:
+• **Rome's encoding** (foreground): Levant as corridor paradox — connection without consolidation; transmission without absorption; corridor accelerates what basins contain; administrative success dissolves into theological fracture. Islamic absorption (7th c.) validates RLL–0006; fragments do not return. Connector pair: Islam encodes the same region as sacred-zone corridor, legitimacy fulcrum, Jerusalem/Al-Aqsa, DPI escalation; different valence (Rome = corridor paradox; Islam = sacred anchor, violation triggers rebinding).
+• MEM CONNECTIONS link MEM–ROME–GEO–LEVANT and MEM–ISLAM–GEO–LEVANT as connector pair per CONCEPT–ROME–ISLAM–DOUBLE–HELIX IV-A.
+Belief Status:
+• UNFROZEN (CANDIDATE)
+
+ENTRY 0073
+Source: MEM–ROME–GEO–IBERIA v2.0 + MEM–ISLAM–GEO–IBERIA v1.0 (CONNECTOR PAIR)
+Ingest Type: Synthesis / Connector Pairs (Iberia — Rome perspective)
+Primary Belief Extracted:
+• **Rome's encoding** (foreground): Iberia as peripheral proof-of-concept — depth without centrality, success without strategic weight; Romanization and quiet exit; empire could afford to lose Spain. Connector pair: Islam encodes the same peninsula as al-Andalus, lost territory (711–1492), reversal and expulsion; different valence (Rome = provincial success, exit grace; Islam = western apex then irrecuperable loss, Reconquista as Christian recovery).
+• MEM CONNECTIONS link MEM–ROME–GEO–IBERIA and MEM–ISLAM–GEO–IBERIA as connector pair per CONCEPT–ROME–ISLAM–DOUBLE–HELIX IV-A.
+Belief Status:
+• UNFROZEN (CANDIDATE)
+
+────────────────────────────────────────────────────────────
+III.A ROMAN CIVILIZATIONAL AXIOMS (v2.5 TEMPLATE FORMAT)
+────────────────────────────────────────────────────────────
+These are **structural axioms**, not doctrines.
+Axioms are interpretive anchors, not predictive claims.
+
+AXIOM ROME-001: Law precedes authority.
+  Derivation: MEM–ROME–TWELVE–TABLES, MEM–ROME–POLYBIUS, MEM–ROME–AUGUSTUS
+  Scope: All governance pattern analysis
+  Limits: Does not apply to crisis periods (dictatorships, civil wars)
+
+AXIOM ROME-002: Procedure legitimizes power.
+  Derivation: MEM–ROME–CAESAR, MEM–ROME–AUGUSTUS, MEM–ROME–PAPACY
+  Scope: Legitimacy transfer analysis
+  Limits: Procedure without power is empty form
+
+AXIOM ROME-003: Absorption exceeds destruction.
+  Derivation: MEM–ROME–CITIZENSHIP, MEM–ROME–PUNIC (contrast: Carthage)
+  Scope: Enemy treatment and integration analysis
+  Limits: Does not apply to non-absorbable civilizations (Carthage, Parthia)
+
+AXIOM ROME-004: Institutions outlast individuals.
+  Derivation: MEM–ROME–HANNIBAL, MEM–ROME–SCIPIO, MEM–ROME–CANNAE
+  Scope: System vs. genius analysis
+  Limits: Terminal competence cases show individual dependence
+
+AXIOM ROME-005: Replacement defeats perfection.
+  Derivation: MEM–ROME–WAR–FIRST–PUNIC, MEM–ROME–HANNIBAL
+  Scope: Strategic capacity analysis
+  Limits: Requires replacement pipeline to function
+
+AXIOM ROME-006: Fragment claimants cannot reconstitute the whole.
+  Derivation: MEM–ROME–ALEXANDER, MEM–ROME–HOLY–ROMAN–EMPIRE
+  Scope: Succession and legitimacy analysis
+  Limits: Applies only after genuine vacancy occurs
+
+AXIOM ROME-007: Transmission outlasts empire.
+  Derivation: MEM–ROME–LIT–BOETHIUS, MEM–ROME–CHRISTIANITY–AUGUSTINE
+  Scope: Cultural survival analysis
+  Limits: Transmission requires institutional carriers
+
+AXIOM ROME-008: Legitimacy bifurcates under relocation.
+  Derivation: MEM–ROME–CONSTANTINOPLE, MEM–ROME–PAPACY
+  Scope: Authority transfer analysis
+  Limits: Does not apply when single successor is universally recognized
+
+These axioms emerged inductively and are now enforced constraints.
+Axioms may be revised only when MEM evidence forces revision.
+
+────────────────────────────────────────────────────────────
+III.B NEGATIVE CAPABILITY ZONE (v2.5 TEMPLATE FORMAT)
+────────────────────────────────────────────────────────────
+Scholar–Rome enforces the following exclusions.
+These record what Rome CANNOT stably achieve—not predictions, but constraints.
+
+STRUCTURAL EXCLUSIONS:
+─────────────────────────
+[NCZ-ROME-001] Permanent military monarchy without legitimacy grammar
+  Status: INSUFFICIENT
+  Reason: Severan, Barracks Emperors show military power alone insufficient
+  Related MEMs: MEM–ROME–SEVERUS, MEM–ROME–THIRD–CENTURY–CRISIS
+  Resolution Path: Would require counter-case of stable military-only rule
+
+[NCZ-ROME-002] Republican restoration after Augustus
+  Status: CONTESTED
+  Reason: Multiple attempts failed; may be structurally impossible
+  Related MEMs: MEM–ROME–AUGUSTUS, MEM–ROME–JULIUS–CAESAR
+  Resolution Path: Would require successful restoration case
+
+[NCZ-ROME-003] Reconstitution of fragmented empire by single successor
+  Status: INSUFFICIENT
+  Reason: No fragment claimant (HRE, Russia, Ottomans) achieved reconstitution
+  Related MEMs: MEM–ROME–HOLY–ROMAN–EMPIRE, MEM–ROME–RUSSIA
+  Resolution Path: Counter-case of successful reunification
+
+[NCZ-ROME-004] Stable eastern frontier without buffer states
+  Status: INSUFFICIENT
+  Reason: Parthia/Persia required client kingdoms or constant warfare
+  Related MEMs: MEM–ROME–PARTHIA, MEM–ROME–PERSIA
+  Resolution Path: Counter-case of stable direct administration
+
+[NCZ-ROME-005] Long-term coexistence with rival universal empire
+  Status: INSUFFICIENT
+  Reason: Rome-Carthage, Rome-Persia both required eventual hegemony or destruction
+  Related MEMs: MEM–ROME–CARTHAGE, MEM–ROME–PERSIA
+  Resolution Path: Counter-case of stable parity
+
+SUCCESSION EXCLUSIONS:
+─────────────────────────
+[NCZ-ROME-006] Smooth succession without adoption or dynastic connection
+  Status: CONTESTED
+  Reason: 3rd century shows pure military succession is unstable
+  Related MEMs: MEM–ROME–FIVE–GOOD–EMPERORS, MEM–ROME–THIRD–CENTURY–CRISIS
+  Resolution Path: Would require stable elective mechanism
+
+[NCZ-ROME-007] Genius-dependent systems that reproduce themselves
+  Status: INSUFFICIENT
+  Reason: Alexander, Basil II show personal excellence cannot transmit
+  Related MEMs: MEM–ROME–ALEXANDER, MEM–ROME–EMPIRE–BASIL–II
+  Resolution Path: Counter-case of genius system reproduction
+
+Violations require anomaly handling via Section III.C.
+
+────────────────────────────────────────────────────────────
+III.C ANOMALY FLAG PROTOCOL (REQUIRED · v2.5)
+────────────────────────────────────────────────────────────
+When a MEM assertion contradicts an established SCHOLAR pattern,
+this section records the anomaly per CIV–SCHOLAR–TEMPLATE v2.5.
+
+IMPLEMENTATION STATUS: ACTIVE
+
+ANOMALY REGISTRY:
+─────────────────
+(No active anomalies currently flagged.)
+
+ANOMALY FLAG FORMAT (per template):
+┌─────────────────────────────────────────────────────────────┐
+│  ANOMALY FLAG                                               │
+│  MEM: [MEM file ID]                                         │
+│  SCHOLAR Pattern: [Pattern ID — RLL, NCZ, or AXIOM]         │
+│  Conflict: [Description of incompatibility]                 │
+│  Resolution: PENDING / PATTERN_REVISED / MEM_CONFIRMED      │
+│  Action: [What happens next]                                │
+└─────────────────────────────────────────────────────────────┘
+
+RESOLUTION OPTIONS:
+• PATTERN_REVISED: SCHOLAR pattern updated to accommodate MEM
+• MEM_CONFIRMED: MEM stands, pattern noted as having exceptions
+• SCL_CREATED: Contradiction preserved, no resolution required
+
+This section will be populated as MEM/SCHOLAR conflicts are discovered.
+
+────────────────────────────────────────────────────────────
+III.D SECONDARY VOICE INVOCATION FORMAT (v2.5 FORMALIZED)
+────────────────────────────────────────────────────────────
+LEARN mode uses the Mercouris voice register as primary.
+
+PRIMARY VOICE:
+• Prose: history monograph
+• Tone: exploratory, disciplined
+• Finality: provisional only
+
+SECONDARY VOICE INVOCATION:
+All voice transitions MUST use standardized markers.
+Markers MUST appear on their own line, not inline with prose.
+
+STANDARD VOICE MARKERS:
+  [LEARN MODE — BARNES CATALYST]
+  [LEARN MODE — MEARSHEIMER SHARPENING]
+  [LEARN MODE — MERCOURIS PRIMARY]
+  [LEARN MODE — TRI-FRAME SYNTHESIS]
+
+VOICE TRANSITION RULES:
+• Opening marker: Required before secondary voice content begins
+• Closing marker: Return to "[LEARN MODE — MERCOURIS PRIMARY]" after secondary
+• Nested voices: NOT permitted (one secondary at a time)
+• Secondary duration: Should be bounded, not extended
+
+Secondary voice outputs may generate RLLs with frame attribution.
+All RLLs remain subject to user authorization for binding.
+
+────────────────────────────────────────────────────────────
+IV. BELIEF SYNTHESIS LOG
+────────────────────────────────────────────────────────────
+SYNTHESIS 0001: Authority Translation → FROZEN
+SYNTHESIS 0003: Universalism Backfire → FROZEN
+SYNTHESIS 0009: Institutional Absorption of Defeat → FROZEN
+SYNTHESIS 0010: Tacitus + Gibbon Decline Model → UNFROZEN
+SYNTHESIS 0012-A: Urban Shock Compartmentalization → UNFROZEN
+SYNTHESIS 0013: Expansion Ceiling vs Maintenance → AUTHORIZED
+SYNTHESIS 0014: Legitimacy Bifurcation (political/religious split) → UNFROZEN
+SYNTHESIS 0015: Vacancy Logic (1453 Eastern political authority) → UNFROZEN
+SYNTHESIS 0016: Immobility Inheritance (Papacy by default) → UNFROZEN
+SYNTHESIS 0017: Four-Way Fragment Rivalry (post-1453 claims) → UNFROZEN
+SYNTHESIS 0018: Papacy as Religious Fragment (RLL–0006 applied to MEM) → FROZEN
+SYNTHESIS 0019: First Fragmentation 800 AD (RLL–0006 applied to MEM) → FROZEN
+SYNTHESIS 0020: Papal Liability Management (Mearsheimer sharpening) → FROZEN
+SYNTHESIS 0021: HRE as Western Fragment Arc (RLL–0006 native MEM) → FROZEN
+SYNTHESIS 0022: Longevity Through Weakness (structural hollowness) → FROZEN
+SYNTHESIS 0023: Alexander as RLL–0006 Derivation Source (Diadochi pattern) → FROZEN
+SYNTHESIS 0024: Great Man as Structural Hazard (system > genius) → FROZEN
+SYNTHESIS 0025: Builder-Burner Sequence (Philip/Alexander contrast) → FROZEN
+SYNTHESIS 0026: Roman Philip-Imitation (structural vs. rhetorical) → FROZEN
+SYNTHESIS 0027: Citizenship as Fragment Prevention (absorption mechanism) → FROZEN
+SYNTHESIS 0028: Slavery-Citizenship Pathway (permeability from below) → FROZEN
+SYNTHESIS 0029: Vacancy by Declination (Ottoman refusal enables fragment competition) → FROZEN
+SYNTHESIS 0030: Vacancy Prevention by Annihilation (Carthage contrast case) → FROZEN
+SYNTHESIS 0031: Systems Defeat Genius (structural asymmetry pattern) → FROZEN
+SYNTHESIS 0032: Institutional Learning Pattern (copy → standardize → multiply) → FROZEN
+SYNTHESIS 0033: Adversarial Mirror Erasure (Carthage as RLL–0006 contrast) → FROZEN
+SYNTHESIS 0034: Genius vs. System (Hannibal as diagnostic instrument) → FROZEN
+SYNTHESIS 0035: Selective Absorption (Plato's ethics without politics) → FROZEN
+SYNTHESIS 0036: Vacancy Contest Resolution (Tri-Level: Barnes + Mearsheimer + Mercouris) → FROZEN
+SYNTHESIS 0037: Punic Arc Trajectory (adaptation → survival → annihilation over 118 years) → CANDIDATE
+SYNTHESIS 0038: Strategic Depth Thesis (Manzikert as irreversible heartland loss) → CANDIDATE
+SYNTHESIS 0039: Terminal Competence Paradox (Basil II pattern: cannot transmit) → CANDIDATE
+SYNTHESIS 0040: Transcendence Survival Strategy (Augustine thesis: detach from political fortune) → CANDIDATE
+SYNTHESIS 0041: Military Populism Cycle (Marius → Sulla → Caesar trajectory) → CANDIDATE
+SYNTHESIS 0042: Tri-Level Failure Pattern (Structure + Learning + Incentives integration) → CANDIDATE
+SYNTHESIS 0043: ARC as Epistemic Balance of Power (temporal precedence prevents interpretive hegemony) → CANDIDATE
+SYNTHESIS 0044: CIV–MEM–CORE as Constitutional Structure (file taxonomy as separation of powers) → CANDIDATE
+SYNTHESIS 0045: CMC–BOOTSTRAP as Quick-Reaction Governance (mode separation prevents authority loops) → CANDIDATE
+SYNTHESIS 0046: Governance Liability Structure (Barnes: detection without prevention) → CANDIDATE
+SYNTHESIS 0047: Governance Legitimacy Grammar (Mercouris: defection produces non-canonical output) → CANDIDATE
+SYNTHESIS 0048: Succession Filtering Thesis (Mearsheimer: enforcement through inheritance) → CANDIDATE
+SYNTHESIS 0049: Petrarch as Conscious Revival (Renaissance begins as mourning) → CANDIDATE
+SYNTHESIS 0050: Boccaccio as Vernacular Infrastructure (prose carries civilization) → CANDIDATE
+SYNTHESIS 0051: Savonarola as Counter-Renaissance (unarmed prophets fail) → CANDIDATE
+SYNTHESIS 0052: Connector Pairs and Triple Encoding (Constantinople — Rome perspective: continuity terminated; Islam arrival; Russia inheritance by default) → CANDIDATE
+SYNTHESIS 0053: Connector Pairs — Crusades (Rome perspective: papal overreach, delegated violence, authority beyond capacity; Islam = legitimacy crisis then recovery) → CANDIDATE
+SYNTHESIS 0054: Connector Pairs — Jerusalem (Rome perspective: non-administerable, destruction as transmission; Islam = third holiest site, 1099 rupture / 1187 recovery) → CANDIDATE
+SYNTHESIS 0055: Connector Pairs — Sicily (Rome perspective: first imperial classroom, Punic pivot; Islam = western laboratory, influence without permanence) → CANDIDATE
+SYNTHESIS 0056: Connector Pairs — Mediterranean (Rome perspective: Mare Nostrum, interior space; Islam = civilizational interface, multi-polar basin) → CANDIDATE
+SYNTHESIS 0057: Connector Pairs — Levant (Rome perspective: corridor paradox, connection without consolidation; Islam = sacred-zone corridor, legitimacy fulcrum) → CANDIDATE
+SYNTHESIS 0058: Connector Pairs — Iberia (Rome perspective: depth without centrality, success without strategic weight; Islam = al-Andalus, lost territory, Reconquista reversal) → CANDIDATE
+
+────────────────────────────────────────────────────────────
+IV.A PROPOSED RECURSIVE LEARNING LAWS (RLLs) — PENDING AUTHORIZATION
+────────────────────────────────────────────────────────────
+The following RLLs are proposed based on synthesis session insights.
+User authorization required to bind.
+
+RLL–ROME–0001: LEGITIMACY BIFURCATION LAW
+When Roman political authority relocates, religious authority may remain
+anchored, producing bifurcated legitimacy streams that rival rather than
+reinforce each other.
+Source: ENTRY 0025, SYNTHESIS 0014
+Cognitive Frame: Mercouris (civilizational) + Mearsheimer (structural)
+Mearsheimer Validation: WEAK — contingent on anchor points, not structural necessity
+Reformulation Required: "Institutions anchored to non-transportable legitimacy
+  sources create bifurcation risk when political authority relocates."
+Status: PROPOSED · PENDING REFORMULATION
+
+RLL–ROME–0002: VACANCY BY DECLINATION LAW ✓ BOUND
+Political authority becomes genuinely vacant when the possessor of
+structural power declines to claim the associated title. Claimants
+without structural basis may claim the vacancy but cannot fill it.
+Source: ENTRY 0026, SYNTHESIS 0015
+Cognitive Frame: Barnes (liability calculation)
+Mearsheimer Validation: STRONG — describes actual power dynamics
+Status: BOUND · AUTHORIZED · January 2026
+
+RLL–ROME–0003: IMMOBILITY INHERITANCE LAW
+Institutions anchored to immovable legitimacy sources (sacred sites,
+tombs, relics) inherit authority by default when mobile institutions
+defect. The inability to flee becomes the basis of power.
+Source: ENTRY 0027, SYNTHESIS 0016
+Cognitive Frame: Barnes (defection logic)
+Mearsheimer Validation: MODERATE — valid structure but requires conditions
+Reformulation Required: "Immobile institutions inherit authority when (a) they
+  survive regime transition, (b) new powers value their legitimacy, and
+  (c) mobile rivals have defected."
+Status: PROPOSED · PENDING CONDITIONAL STRENGTHENING
+
+RLL–ROME–0004: ACCELERATION VS CAUSATION LAW
+Catastrophic events may accelerate civilizational decline without
+causing it. Structural factors (power distribution, technology shift)
+remain determinative even when dramatic events create narrative salience.
+Source: ENTRY 0028
+Cognitive Frame: Mearsheimer (structural)
+Mearsheimer Validation: METHODOLOGICAL — epistemological constraint, not ontological
+Reclassification: Should become H-ROME-10 (heuristic, not RLL)
+Status: PROPOSED · PENDING RECLASSIFICATION AS HEURISTIC
+
+RLL–ROME–0005: PRIOR FRAGMENTATION LAW
+Authority fragmentation may predate apparent collapse. Rival claimants
+established during periods of institutional stress may persist for
+centuries, creating multiple vacancy zones when the original holder falls.
+Source: ENTRY 0029
+Cognitive Frame: Mercouris (civilizational)
+Mearsheimer Validation: WEAK — "may predate" is not a law
+Reformulation Required: "Legitimacy fragmentation precedes visible collapse;
+  dramatic events reveal pre-existing fractures rather than creating them."
+Status: PROPOSED · PENDING REFORMULATION
+
+RLL–ROME–0006: FRAGMENT INHERITANCE LAW ✓ BOUND
+Universal civilizational authority cannot be wholly inherited after
+collapse. Multiple claimants will each hold fragments and claim the
+rest, producing permanent rivalry rather than succession.
+Source: ENTRY 0030, SYNTHESIS 0017
+Cognitive Frame: Mearsheimer + Barnes
+Mearsheimer Validation: STRONG — structural impossibility of universal succession
+Status: BOUND · AUTHORIZED · January 2026
+
+RLL–ROME–0007: VACANCY CONTEST RESOLUTION LAW
+When a regime is violently terminated, the vacancy is filled by whoever
+simultaneously holds: (1) Material inheritance (assets, networks,
+obligations), (2) Favorable power distribution (center, not periphery),
+(3) Credible legitimacy performance (speaks the grammar, not merely
+claims it). Parties holding fewer than all three may contest but cannot
+prevail. Parties holding all three may fail only through internal fracture.
+Source: ENTRY 0045, SYNTHESIS 0036
+Cognitive Frame: Barnes + Mearsheimer + Mercouris (integrated)
+Mearsheimer Validation: PENDING — requires cross-civilizational testing
+  (Time of Troubles, Diadochi, 1453 fragment contest)
+Status: PROPOSED · PENDING VALIDATION · January 2026
+
+RLL–ROME–0008: TERMINAL COMPETENCE LAW
+Systems sustained by a single exceptional ruler cannot transmit beyond
+that ruler's tenure. Successors inherit structure without the operator.
+Coercion can restore order temporarily, but autocracy without succession
+planning produces collapse upon the ruler's death.
+Source: ENTRY 0051, SYNTHESIS 0039
+Cognitive Frame: Mearsheimer (structural) + Barnes (liability)
+Mearsheimer Validation: PENDING — requires cross-civilizational testing
+  (Basil II, Frederick II, other one-man restorations)
+Status: PROPOSED · PENDING VALIDATION · January 2026
+
+RLL–ROME–0009: TRI-LEVEL FAILURE LAW
+Civilizational collapse requires failure at all three analytical levels:
+(1) Unfavorable structure (material constraints), (2) Blocked learning
+(adaptive capacity disabled), (3) Misaligned incentives (factions benefit
+from sabotage). Strength at any level can compensate for weakness at
+others. Failure at all three is fatal.
+Source: ENTRY 0057, SYNTHESIS 0042
+Cognitive Frame: Barnes + Mearsheimer + Mercouris (integrated)
+Mearsheimer Validation: PENDING — requires systematic application
+Status: PROPOSED · PENDING VALIDATION · January 2026
+
+────────────────────────────────────────────────────────────
+V. DOCTRINE REGISTRY (EXTERNAL REFERENCE)
+────────────────────────────────────────────────────────────
+PRUNING NOTE (v2.4):
+Verbatim doctrine mirroring deprecated per CIV–SCHOLAR–PRUNING–PROTOCOL v1.0.
+CIV–DOCTRINE–ROME is the single source of truth for all doctrine definitions.
+
+DOCTRINE REFERENCE:
+→ CIV–DOCTRINE–ROME v3.0 (12 doctrines)
+→ Location: content/civilizations/ROME/CIV–DOCTRINE–ROME.md
+
+DOCTRINE SUMMARY (Reference Only):
+01. INSTITUTIONAL ABSORPTION OF SHOCK (SYNTHESIS 0009)
+02. AUTHORITY TRANSLATION OVER RESTORATION (SYNTHESIS 0001)
+03. MARITIME COHERENCE AS IMPERIAL STABILITY (SYNTHESIS 0005)
+04. ADMINISTRATION PRECEDES IDEOLOGY (SYNTHESIS 0006)
+05. EXPANSION CEILING AWARENESS (SYNTHESIS 0008)
+06. VACANCY BY DECLINATION (SYNTHESIS 0029 + RLL–0002)
+07. FRAGMENT INHERITANCE (SYNTHESIS 0018–0021 + RLL–0006)
+08. ABSORPTION PREVENTS FRAGMENTATION (SYNTHESIS 0027)
+09. SYSTEMS DEFEAT GENIUS (SYNTHESIS 0031)
+10. INSTITUTIONAL LEARNING (SYNTHESIS 0032)
+11. ANNIHILATION PREVENTS INHERITANCE (SYNTHESIS 0030)
+12. SELECTIVE ABSORPTION (SYNTHESIS 0035)
+
+For full doctrine definitions, operational meanings, and hard constraints,
+consult CIV–DOCTRINE–ROME v3.0 directly.
+
+────────────────────────────────────────────────────────────
+VI. SCHOLAR DIVERGENCE INDEX
+────────────────────────────────────────────────────────────
+ROME ↔ GERMANY — Frontier Legibility
+ROME ↔ FRANCE — Mediterranean Memory
+
+────────────────────────────────────────────────────────────
+VII. GOVERNANCE & LOCK STATE
+────────────────────────────────────────────────────────────
+Learning Enabled: NO
+Write Access: LOCKED
+Ingestion: PROHIBITED
+
+────────────────────────────────────────────────────────────
+VIII. CURRENT STATUS
+────────────────────────────────────────────────────────────
+Scholar State: ACTIVE — PHASE II (CONSTRAINT GRAMMAR)
+Doctrine Count: 12 (FROZEN) + 1 REFINEMENT CANDIDATE + 1 NEW CANDIDATE
+  • See CIV–DOCTRINE–ROME v3.0
+  • DOCTRINE 01 REFINEMENT: "Captured institutions cannot absorb" (CANDIDATE)
+  • DOCTRINE 13 CANDIDATE: Defense Capacity Destruction
+RLL Count: 2 BOUND + 7 PENDING
+  • RLL–ROME–0002: BOUND (Vacancy by Declination)
+  • RLL–ROME–0006: BOUND (Fragment Inheritance)
+  • RLL–ROME–0007: PENDING (Vacancy Contest Resolution)
+  • RLL–ROME–0008: PENDING (Terminal Competence Law) — NEW
+  • RLL–ROME–0009: PENDING (Tri-Level Failure Law) — NEW
+  • RLL–ROME–0001, 0003, 0004, 0005: PENDING (reformulation/reclassification)
+Total Entries: 64
+Synthesis Count: 49 (23 FROZEN, 13 CANDIDATE, 13 UNFROZEN/AUTHORIZED)
+Heuristic Count: 15
+MEMs Ingested This Session: 11 (WAR–ZAMA, WAR–MANZIKERT, NUMIDIA, MARIUS, LIT–BOETHIUS, EMPIRE–BASIL–II, CHRISTIANITY–AUGUSTINE, SCIPIO–AFRICANUS, WAR–THIRD–PUNIC, WAR–FIRST–PUNIC, WAR–ALARIC)
+Phase: PHASE II — CONSTRAINT GRAMMAR (AUTHORIZED January 2026)
+
+────────────────────────────────────────────────────────────
+IX. ACADEMIC REFERENCE CANON POINTER (ARC–ROME)
+────────────────────────────────────────────────────────────
+The Academic Reference Canon governing all ROME materials is defined
+exclusively in the following file:
+
+• CIV–ARC–ROME — v3.2
+
+This canon:
+• Is stored externally
+• Is mirrored verbatim into CIV–CORE–ROME
+• Is mirrored verbatim into CIV–ARC–ROME
+• Is authoritative for all MEM–ROME authoring and audits
+
+No ARC content is embedded in this file.
+Any deviation from CIV–ARC–ROME v3.2 invalidates compliance.
+
+MEM GENERATION CANDIDATES (Template § X.A)
+Proposed new MEMs recorded here for WRITE-mode pickup. Source: LEARN/IMAGINE or STATE relay. Path to MEM: select candidate in WRITE → propose scope/connections from INDEX → user approves → WRITE → register in INDEX; set Status: created.
+
+| Civ   | Proposed subject / title   | One-line rationale                    | Source (ENTRY/session/relay) | Status |
+|-------|----------------------------|---------------------------------------|-----------------------------|--------|
+
+────────────────────────────────────────────────────────────
+X. SCHOLAR ↔ CORE PARITY CHECKSUM
+────────────────────────────────────────────────────────────
+“CIV–SCHOLAR–ROME enforces ROME-specific authoring and evidentiary
+constraints that are procedurally consistent with CIV–CORE–ROME; no
+epistemic authority is added, removed, or contradicted.”
+
+────────────────────────────────────────────────────────────
+XI. EXPORT BOUNDARY & USE CLAUSE
+────────────────────────────────────────────────────────────
+This file is a diagnostic and heuristic accumulation artifact.
+
+It may be used to:
+• Audit MEM–ROME authoring compliance
+• Inform future belief extraction
+• Support controlled synthesis events
+
+It may not be used to:
+• Generate new doctrine autonomously
+• Override MEM or CIV–CORE authority
+• Serve as a substitute primary source
+
+All downstream use must respect LOCK state and governance law.
+
+────────────────────────────────────────────────────────────
+XII. SCHOLAR HEURISTIC TABLE
+────────────────────────────────────────────────────────────
+Heuristic ID | Trigger Pattern | Observed Roman Response | Risk Signal
+────────────|────────────────-|────────────────---------|------------
+H-ROME-01 | Scale exceeds procedure | Authority personalizes | Coup / civil war
+H-ROME-02 | Universalism without capacity | Legitimacy collapse | Moral fracture
+H-ROME-03 | Catastrophic defeat | Institutional absorption | Endurance or panic
+H-ROME-04 | Frontier illegibility | Boundary hardening | Permanent loss
+H-ROME-05 | Expansion beyond ceiling | Strategic contraction | Stabilization
+H-ROME-06 | Moral corrosion under stability | Incentive decay | Hollow legitimacy
+H-ROME-07 | Authority relocation | Legitimacy bifurcation | Rival claims
+H-ROME-08 | All defenders can flee | Immobile institutions inherit | Structural accident
+H-ROME-09 | Possessor declines title | Vacancy enables claim-making | Fragment rivalry
+H-ROME-10 | Foreign competence encountered | Copy → Standardize → Multiply → Deploy | Adaptation success
+H-ROME-11 | Heartland contested | Strategic depth at risk | Irreversible loss
+H-ROME-12 | One-man system operating | Terminal competence | Succession failure
+H-ROME-13 | Promises to defenders broken | Avengers created | Self-destruction
+H-ROME-14 | Alliance corrupted | Patron integrity exposed | Legitimacy crisis
+H-ROME-15 | Internal incentives misaligned | Factions benefit from failure | Self-sabotage
+H-ROME-16 | Governance without enforcement | Succession filtering operates | Defection self-isolates
+
+These heuristics are descriptive, not predictive.
+
+────────────────────────────────────────────────────────────
+XXI. TEMPLATE REFERENCE (CANONICAL POINTER)
+────────────────────────────────────────────────────────────
+MIRROR DEPRECATION NOTICE (January 2026):
+Embedded template mirrors are deprecated due to drift risk.
+This section now points to the canonical template.
+
+CANONICAL REFERENCE:
+• CIV–MEM–TEMPLATE v2.7 (CURRENT)
+• Location: docs/templates/CIV–MEM–TEMPLATE.md
+• Key additions since v2.5: ERC namespace, Quote-Analysis math,
+  CEV Promotion Provenance
+
+The embedded v2.5 content below is HISTORICAL REFERENCE ONLY.
+For governance, always consult the canonical template.
+
+────────────────────────────────────────────────────────────
+[LEGACY MIRROR - CIV–MEM–TEMPLATE v2.5 - SUPERSEDED — SEE docs/templates/CIV–MEM–TEMPLATE.md]
+────────────────────────────────────────────────────────────
+
+CIV–MEM–TEMPLATE — v2.5 [SUPERSEDED — SEE docs/templates/CIV–MEM–TEMPLATE.md]
+Civilizational Memory Codex · Memory File Enforcement Template
+20% Evidence Standard · Enhanced Scholarly Rigor · Analytical Protection
+
+Status: SUPERSEDED · SEE docs/templates/CIV–MEM–TEMPLATE.md
+Supersedes: CIV–MEM–TEMPLATE v2.4
+Upgrade Type: MAJOR · MANDATORY 20% EVIDENCE STANDARD
+Class: CIV–MEM–TEMPLATE (Authoring Law)
+Compatibility: CIV–MEM–CORE v3.0
+Last Update: January 2026 [SUPERSEDED]
+Word Count: ~4,200
+
+────────────────────────────────────────────────────────────
+UPGRADE NOTE (v2.5) — MANDATORY 20% EVIDENCE STANDARD
+────────────────────────────────────────────────────────────
+This version implements the 20% verbatim quote minimum with comprehensive safeguards:
+
+MANDATORY 20% QUOTE STANDARD:
+• All MEM files must contain ≥20% verbatim quotes by word count
+• Forces deeper scholarly engagement and evidentiary grounding
+• Automatic validation in canonical advancement process
+
+ANALYTICAL PROTECTION SAFEGUARDS:
+• 70% minimum analytical content floor prevents starvation
+• Balances evidentiary rigor with intellectual depth
+• Ensures MEMs remain analytical intelligence objects
+
+QUALITY SAFEGUARDS:
+• EQS compliance requirements prevent quote stuffing
+• Relevance thresholds ensure meaningful scholarly contribution
+• Scholarly diversity requirements prevent single-perspective dominance
+
+ENHANCED ADAPTIVE MATRIX:
+• Updated subject-type requirements to achieve 20% minimum
+• Modern subjects: Expanded secondary sources for volume
+• Sparse subjects: Optimized requirements for feasibility
+
+BREAKING CHANGE: Requires 20% compliance for canonical advancement
+MIGRATION: 6-month transition period for existing MEMs
+
+────────────────────────────────────────────────────────────
+I. PURPOSE & AUTHORITY
+────────────────────────────────────────────────────────────
+This file defines the mandatory structure, evidentiary standards,
+scholarly constraints, behavioral rules, and ingest behavior for all
+MEM (Civilizational Memory) files.
+
+Core principle:
+A MEM file must function as a self-contained historical intelligence
+object capable of activating structured inquiry even when ingested
+alone into a new conversation.
+
+Authority Flow (NON-REVERSIBLE):
+CIV–MEM–CORE → CIV–MEM–TEMPLATE → MEM Files → SCHOLAR / CORE / GAME / LLM
+
+No MEM file is valid unless compliant with this template AND the
+applicable ARC–[CIV] canon at the time of locking.
+
+────────────────────────────────────────────────────────────
+II. FILE IDENTITY & METADATA (MANDATORY)
+────────────────────────────────────────────────────────────
+Every MEM file MUST begin with the following metadata block,
+in this exact order:
+
+• Filename (canonical)
+• Repository reference
+• Status (ACTIVE / LOCKED / DRAFT)
+• Version (semantic)
+• Supersedes (if applicable)
+• Upgrade Type (if applicable)
+• Civilization (canonical name)
+• Subject (historical figure/event/institution)
+• Dates (temporal scope)
+• Class (MEM)
+• Last Update (date)
+• Wordcount (approximate)
+• Governed by (CIV–MEM–CORE + template + ARC versions)
+• Status (ACTIVE/CANONICAL/etc.)
+
+────────────────────────────────────────────────────────────
+III. MEMORY PURPOSE & SCOPE (MANDATORY)
+────────────────────────────────────────────────────────────
+Every MEM file MUST begin with a clear statement of its civilizational
+memory purpose.
+
+Purpose statement MUST:
+• Explain what civilizational insight the MEM preserves
+• Connect to broader civilization patterns
+• Justify the MEM's existence in the CMC
+
+Scope MUST be clearly bounded (temporal, thematic, geographic).
+
+────────────────────────────────────────────────────────────
+IV. STRUCTURAL INTEGRITY REQUIREMENTS
+────────────────────────────────────────────────────────────
+MEM files MUST maintain consistent structure:
+
+• Section headers with separator lines (79 dashes)
+• Logical flow from purpose → evidence → analysis → conclusions
+• Clear transitions between sections
+• No orphaned content
+
+────────────────────────────────────────────────────────────
+V. EVIDENCE-BASED ARC CATEGORIES (EVIDENCE-BASED)
+────────────────────────────────────────────────────────────
+All quotations MUST derive from ARC evidence-based categories:
+
+A) PRIMARY — Direct evidence from subject period
+B) CONTEXTUAL — Contemporary/near-contemporary analysis
+C) SECONDARY — Scholarly analysis and synthesis
+D) CRITICAL — Modern historiographical evaluation
+
+Category definitions are governed by evidentiary purpose, not temporal origin.
+
+────────────────────────────────────────────────────────────
+VI. EVIDENCE QUALITY STANDARDS (EQS)
+────────────────────────────────────────────────────────────
+EQS defines objective quality requirements for all quotations.
+
+This standard governs admissibility through demonstrable criteria.
+
+────────────────────────────────────────────────────────────
+VI.A PASS CRITERIA (Must Meet ≥2)
+────────────────────────────────────────────────────────────
+A quotation PASSES EQS if it demonstrates:
+
+• AUTHORITY: Source credibility clearly established
+• RELEVANCE: Direct connection to MEM claims shown
+• CONTEXT: Historical/cultural context provided
+• LIMITATION: Source constraints or biases acknowledged
+
+────────────────────────────────────────────────────────────
+VI.B FAIL CRITERIA
+────────────────────────────────────────────────────────────
+A quotation FAILS EQS if it exhibits:
+
+• No analytical engagement with source content
+• Pure description without interpretive value
+• Misrepresentation of source intent
+• Failure to acknowledge evidentiary limitations
+
+EQS failure blocks canonical advancement.
+
+────────────────────────────────────────────────────────────
+VII. CIVILIZATIONAL CONSTRAINTS
+────────────────────────────────────────────────────────────
+MEMs MUST reflect civilization-specific constraint patterns:
+
+• Hard constraints (structural necessities)
+• Soft constraints (cultural preferences)
+• Failure-first analysis (what breaks the system)
+• Continuity preservation across regime change
+
+────────────────────────────────────────────────────────────
+VIII. MANDATORY 20% VERBATIM QUOTE STANDARD
+────────────────────────────────────────────────────────────
+All MEM files MUST contain at least 20% verbatim quotes by word count.
+
+PURPOSE: Force deeper scholarly engagement and stronger evidentiary grounding.
+
+CALCULATION: Quote words ÷ Total MEM words × 100 ≥ 20
+
+ENFORCEMENT: Automatic validation in canonical advancement process.
+
+────────────────────────────────────────────────────────────
+VIII.A ADAPTIVE QUOTATION REQUIREMENTS
+────────────────────────────────────────────────────────────
+Requirements scale based on subject complexity and source availability:
+
+PRIMARY CATEGORY (Direct Evidence):
+• ≥2 quotations, ≥50 words total (minimum)
+• ≥3 quotations for well-documented subjects
+• N/A for modern subjects with no primary sources
+
+CONTEXTUAL CATEGORY (Contemporary Analysis):
+• ≥1 quotation, ≥25 words (minimum)
+• ≥2 quotations for subjects with rich contemporary sources
+• ≥1 quotation for interpretive or modern subjects
+
+SECONDARY CATEGORY (Scholarly Analysis):
+• ≥2 distinct scholars, ≥1 quotation each (minimum)
+• ≥3 scholars for complex or contested subjects
+• ≥4 scholars for interpretive or theoretical topics
+
+CRITICAL CATEGORY (Historiographical Evaluation):
+• ≥1 quotation addressing methodology or limitations
+• ≥2 quotations for subjects requiring meta-analysis
+• Optional for straightforward factual subjects
+
+────────────────────────────────────────────────────────────
+VIII.B SUBJECT TYPE MATRIX
+────────────────────────────────────────────────────────────
+Apply requirements based on subject characteristics:
+
+WELL-DOCUMENTED EVENT (Target: 20-25% quotes):
+• PRIMARY: ≥4 quotations (rich source base)
+• CONTEXTUAL: ≥3 quotations (multiple contemporary perspectives)
+• SECONDARY: ≥4 scholars (analytical depth needed)
+• CRITICAL: ≥2 quotations (methodological awareness)
+
+SPARSE SOURCES SUBJECT (Target: 18-22% quotes):
+• PRIMARY: ≥3 quotations (limited availability)
+• CONTEXTUAL: ≥2 quotations (when available)
+• SECONDARY: ≥3 scholars (compensate for source limitations)
+• CRITICAL: ≥1 quotation (scholarly context essential)
+
+MODERN SUBJECT (19th-20th century) (Target: 18-22% quotes):
+• PRIMARY: N/A (no primary sources exist)
+• CONTEXTUAL: ≥2 quotations (contemporary accounts)
+• SECONDARY: ≥5 scholars (primary analytical burden - expanded for volume)
+• CRITICAL: ≥3 quotations (modern historiography essential)
+
+INTERPRETIVE/THEORETICAL SUBJECT (Target: 20-25% quotes):
+• PRIMARY: ≥2 quotations (establish factual foundation)
+• CONTEXTUAL: ≥2 quotations (period context)
+• SECONDARY: ≥5 scholars (multiple perspectives needed)
+• CRITICAL: ≥3 quotations (theoretical evaluation required)
+
+────────────────────────────────────────────────────────────
+VIII.C REQUIREMENT DECLARATION
+────────────────────────────────────────────────────────────
+MEM files MUST declare their subject type and applied requirements:
+
+SUBJECT TYPE DECLARATION:
+"This MEM addresses a [WELL-DOCUMENTED/SPARSE SOURCES/MODERN/INTERPRETIVE] subject.
+Applied requirements: PRIMARY ≥X, CONTEXTUAL ≥Y, SECONDARY ≥Z, CRITICAL ≥W"
+
+This declaration enables governance validation and ensures appropriate evidentiary standards.
+
+────────────────────────────────────────────────────────────
+VIII.D ANALYTICAL PROTECTION SAFEGUARDS
+────────────────────────────────────────────────────────────
+To prevent analytical starvation while enforcing 20% quote minimum:
+
+ANALYTICAL CONTENT FLOOR:
+• Minimum 70% of MEM content MUST be original analytical synthesis
+• Quote integration sections count as analytical content
+• Pure quote blocks do not count toward analytical floor
+
+CALCULATION: Analytical words ÷ Total MEM words × 100 ≥ 70
+
+ENFORCEMENT: Automatic validation requires both 20% quotes AND 70% analysis.
+
+────────────────────────────────────────────────────────────
+VIII.E QUALITY SAFEGUARDS (ANTI-QUOTE-STUFFING)
+────────────────────────────────────────────────────────────
+To ensure quote quality over quantity:
+
+EQS COMPLIANCE REQUIREMENT:
+• All quotes must meet Evidence Quality Standards (EQS) (≥2 criteria)
+• Additional quotes beyond minimum must meet ≥3 EQS criteria
+• Marginal quotes automatically rejected in canonical review
+
+RELEVANCE THRESHOLD:
+• Each quote must materially advance MEM analysis
+• Decorative or volume-padding quotes prohibited
+• Quote selection must demonstrate scholarly judgment
+
+SCHOLARLY DIVERSITY REQUIREMENT:
+• Quotes must represent multiple scholarly perspectives
+• Single-author dominance prohibited
+• Must include both supportive and challenging viewpoints
+
+────────────────────────────────────────────────────────────
+IX. SECONDARY SOURCE ENTANGLEMENT
+────────────────────────────────────────────────────────────
+Secondary quotations MUST be analytically integrated.
+Citation without analytical engagement is INVALID.
+
+────────────────────────────────────────────────────────────
+X. MEM CONNECTION REQUIREMENTS (BINARY · HARD)
+────────────────────────────────────────────────────────────
+Every MEM file MUST include a dedicated MEM CONNECTIONS section.
+
+Connection requirements:
+
+• ≥10 same-civilization MEM connections
+• ≥2 GEO MEM files required
+• Each listed connection MUST be structurally necessary
+
+────────────────────────────────────────────────────────────
+X.A BINARY CONNECTION RULE
+────────────────────────────────────────────────────────────
+MEM Connections are binary.
+
+A connection is either:
+• PRESENT (structurally necessary)
+• ABSENT (not structurally necessary)
+
+No grading, scoring, or weighting of connection strength.
+
+────────────────────────────────────────────────────────────
+X.B CONNECTION JUSTIFICATION (REQUIRED)
+────────────────────────────────────────────────────────────
+Each MEM Connection MUST include a concise justification explaining:
+
+• What dependency exists
+• Why the connected MEM is necessary for intelligibility
+• What breaks if the connection is removed
+
+────────────────────────────────────────────────────────────
+XI. SCHOLAR CONSTRAINTS (MANDATORY)
+────────────────────────────────────────────────────────────
+Every MEM MUST include scholar constraints (RLLs - Recursive Learning Ledgers).
+
+Format: RLL–[NUMBER]: [CONSTRAINT DESCRIPTION]
+
+Constraints MUST be:
+• Binding law in Scholar Phase
+• Testable against evidence
+• Civilization-specific where applicable
+
+────────────────────────────────────────────────────────────
+XII. CITATION & ATTRIBUTION
+────────────────────────────────────────────────────────────
+All sources MUST be:
+• Properly attributed
+• Verifiably accessible
+• Compliant with ARC admissibility rules
+
+────────────────────────────────────────────────────────────
+XIII. VERSION CONTROL & GOVERNANAD
+────────────────────────────────────────────────────────────
+• Version pinning to specific template/ARC versions
+• Clear upgrade trails
+• Governance violation reporting mechanisms
+
+────────────────────────────────────────────────────────────
+XIV. ARC VERSION PINNING
+────────────────────────────────────────────────────────────
+Each MEM MUST declare ARC–[CIV] version used.
+Mismatch blocks canonical lock.
+
+────────────────────────────────────────────────────────────
+XV. COMPLIANCE TIERS
+────────────────────────────────────────────────────────────
+DRAFT → PARTIAL → COMPLIANT → CANONICAL
+
+CANONICAL: Requires ≥20% quotes with 70% analytical content and EQS compliance
+
+────────────────────────────────────────────────────────────
+XVI. FAILURE MODE ENFORCEMENT
+────────────────────────────────────────────────────────────
+Silent failure is prohibited.
+All failures must be declared with reason.
+
+────────────────────────────────────────────────────────────
+XVII. LANGUAGE CONSTRAINTS
+────────────────────────────────────────────────────────────
+Forbidden:
+• inevitable
+• destined
+• obvious
+• had to
+
+────────────────────────────────────────────────────────────
+XVIII. STORAGE & MIRRORING RULE
+────────────────────────────────────────────────────────────
+This file MUST be mirrored verbatim into:
+–CIV–CORE–[CIV] (all civilizations)
+–CIV–SCHOLAR–[CIV] (all civilizations)
+–CIV–INDEX–[CIV] (when applicable)
+
+Any divergence invalidates MEM compliance for that civilization.
+
+────────────────────────────────────────────────────────────
+XIX. VERSIONING & LOCK
+────────────────────────────────────────────────────────────
+• Additive upgrades only
+• Deletions forbidden
+• Canonical lock absolute
+
+────────────────────────────────────────────────────────────
+END OF FILE — CIV–MEM–TEMPLATE v2.5
+────────────────────────────────────────────────────────────
+
+[ENDS MIRRORED CONTENT - CIV–MEM–TEMPLATE v2.5]
+
+────────────────────────────────────────────────────────────
+END OF FILE — CIV–SCHOLAR–ROME — v3.0 (PHASE II · CMC 3.4)
+────────────────────────────────────────────────────────────
+
+CIV–SCHOLAR–ROME v3.0 is declared:
+
+• CANONICAL
+• LOCKED
+• CONSTRAINT-ENFORCING
+• NON-DOCTRINAL
+• CMC 3.4 COMPLIANT
+• PHASE II (CONSTRAINT GRAMMAR)
+• AXIOM SECTION IMPLEMENTED
+• NEGATIVE CAPABILITY ZONE IMPLEMENTED
+• ANOMALY FLAG PROTOCOL IMPLEMENTED

@@ -1,0 +1,1345 @@
+CHANGELOG — v3.5
+Civilizational Memory Codex · Governance Change History
+Consolidated Version History
+
+Status: ACTIVE · CANONICAL
+Governed by: CMC 3.5
+Last Updated: 10 March 2026
+Purpose: Track all governance changes in one place
+
+────────────────────────────────────────────────────────────
+00034. CIV–CORE–TEMPLATE v3.5 ALIGNMENT (10 MAR 2026)
+────────────────────────────────────────────────────────────
+Date: 10 March 2026
+Type: TEMPLATE (governance alignment)
+
+CHANGES:
+• **CIV–CORE–TEMPLATE:** v3.4 → **v3.5** — aligned with CIV–MEM–CORE v3.5 / CMC 3.5. Governed by block MEM–CORE v3.5; Compatibility CMC 3.5; Section XVI canonical declaration v3.5; ALIGNMENT NOTE added; END OF FILE updated.
+• **CIV–SCHOLAR–PROTOCOL, CIV–AXIOM–TEMPLATE:** Compatibility CORE–TEMPLATE v3.5.
+• **CIV–CORE–ROME, CIV–CORE–PERSIA, CIV–CORE–ISLAM; CIV–CORE–AMERICA, ANGLIA, CHINA, GERMANY, FRANCE, RUSSIA:** Template Version Used → v3.5 where still v3.0/v3.4.
+• **RUN–AUDIT–CORE–*** (Germany–France, Rome–Islam, Core–SCHOLAR–Rome), **AUDIT–CORE–PERSIA–TEMPLATE–STATE–CHRONICLE:** Reference lines → v3.5 where applicable.
+• **AUDIT–GOVERNANCE–TEMPLATE–ALIGNMENT–2026–03–10:** CORE template row → v3.5.
+
+RATIONALE:
+CORE template was the remaining major template on v3.4; now consistent with MEM–CORE v3.5.
+
+────────────────────────────────────────────────────────────
+00033. CIV–MEM–TEMPLATE + CIV–SCHOLAR–PROTOCOL v3.5 ALIGNMENT (10 MAR 2026)
+────────────────────────────────────────────────────────────
+Date: 10 March 2026
+Type: TEMPLATE (governance alignment)
+
+CHANGES:
+• **CIV–MEM–TEMPLATE:** v3.4 → **v3.5** — aligned with CIV–MEM–CORE v3.5 / CMC 3.5. Governed by CMC 3.5. ALIGNMENT NOTE added; END OF FILE updated.
+• **CIV–SCHOLAR–PROTOCOL:** v3.4 → **v3.5** — same alignment; Supersedes v3.4; Compatibility unchanged except version labels.
+• **CIV–SCHOLAR–TEMPLATE:** Compatibility line now lists MEM–TEMPLATE v3.5 · PROTOCOL v3.5; alignment note updated (no longer "remain v3.4").
+• **CIV–INDEX–TEMPLATE, CIV–DOCTRINE–TEMPLATE, CIV–ARC–TEMPLATE, CIV–CORE–TEMPLATE, CIV–MIND–BARNES, CIV–SCHOLAR–FRANCE, CIV–SCHOLAR–GERMANY, MEM–UPGRADE–VERIFICATION–CHECKLIST, RUN–NOTE–RUSSIA–MEM–TOP–5:** References → v3.5 where they cited PROTOCOL or MEM–TEMPLATE v3.4.
+
+RATIONALE:
+Completes alignment batch — SCHOLAR stack and MEM template on one version number with MEM–CORE.
+
+────────────────────────────────────────────────────────────
+00032. CIV–SCHOLAR–TEMPLATE v3.5 ALIGNMENT (10 MAR 2026)
+────────────────────────────────────────────────────────────
+Date: 10 March 2026
+Type: TEMPLATE (governance alignment)
+
+CHANGES:
+• **CIV–SCHOLAR–TEMPLATE:** Declared version **3.4 → 3.5** to **match CIV–MEM–CORE v3.5** and **CMC 3.5**. Header/footer and Compatibility updated; **ALIGNMENT NOTE** added (upgrade-declaration blocks below retain historical labels; MEM–TEMPLATE / SCHOLAR–PROTOCOL remain v3.4 in compatibility until separately bumped). Supersedes v3.4.
+• **CIV–SCHOLAR–PRUNING–PROTOCOL, CIV–INDEX–TEMPLATE, CIV–DOCTRINE–TEMPLATE, CIV–SCHOLAR–PROTOCOL, CIV–MIND–BARNES:** Compatibility / template references → v3.5 where they cited SCHOLAR template v3.4.
+• **CIV–SCHOLAR–ROME, CIV–SCHOLAR–FRANCE, CIV–SCHOLAR–ISLAM, CIV–SCHOLAR–GERMANY:** Governed by / Template Version Used / Derived from → v3.5 where active.
+• **AUDIT–GOVERNANCE–TEMPLATE–ALIGNMENT 2026-03-07 / 2026-03-10:** SCHOLAR template row → v3.5.
+
+RATIONALE:
+Same as STATE template alignment — single governance reference; SCHOLAR template version tracks MEM–CORE.
+
+────────────────────────────────────────────────────────────
+00031. CIV–STATE–TEMPLATE v3.5 ALIGNMENT (10 MAR 2026)
+────────────────────────────────────────────────────────────
+Date: 10 March 2026
+Type: TEMPLATE (governance alignment)
+
+CHANGES:
+• **CIV–STATE–TEMPLATE:** Declared version **3.11 → 3.5** to **match CIV–MEM–CORE v3.5** and **CMC 3.5**. Header/footer now state alignment; Compatibility line CIV–MEM–CORE v3.5 · CMC 3.5. **ALIGNMENT NOTE** added: procedural upgrade-note labels (v3.4–v3.11) retained in body as content history; file version is governance alignment, not renumbering of sections. Supersedes internal v3.11.
+• **AUDIT–GOVERNANCE–TEMPLATE–ALIGNMENT–2026–03–07 / 2026–03–10:** STATE template row updated to v3.5.
+• **CIV–STATE–PERSIA** Source Versions: CIV–STATE–TEMPLATE reference updated to v3.5.
+• **RUN–AUDIT–STATE–ROME / FRANCE–GERMANY / ROME–ISLAM:** Reference lines updated to v3.5 where they cited v3.11.
+
+RATIONALE:
+Single governance version (VERSION–MANIFEST); STATE template should not float on a separate internal rev when MEM–CORE and CMC are at 3.5.
+
+────────────────────────────────────────────────────────────
+00030. CIV–CORE–PERSIA REFINEMENTS (10 MAR 2026)
+────────────────────────────────────────────────────────────
+Date: 10 March 2026
+Type: CONTENT (CORE refinement)
+
+CHANGES:
+• **CIV–CORE–PERSIA v3.3 → v3.4:** Governance alignment (Template v3.4, Compatibility CMC 3.5, Governed by v3.5); doctrine mirror (XIX-B) with DOCTRINE 01–04 from CIV–DOCTRINE–PERSIA v1.3; Section III continuity sequence adds "War phase (Mar 2026–)"; Section X adds Event Chronicle reference (IRAN–WAR–CHRONICLE supplements STATE; CORE outputs feed both); WORDCOUNT ~2,450 → ~2,850.
+
+RATIONALE:
+AUDIT–CORE–PERSIA–TEMPLATE–STATE–CHRONICLE–2026–03–10. Doctrine mirroring required per CIV–CORE–TEMPLATE XIV; governance alignment to CMC 3.5; war-phase and Chronicle refinements reflect STATE–PERSIA and Iran War Chronicle evolution.
+
+────────────────────────────────────────────────────────────
+00029. CMC 3.5 GOVERNANCE VERSION BUMP (10 MAR 2026)
+────────────────────────────────────────────────────────────
+Date: 10 March 2026
+Type: GOVERNANCE (version bump)
+
+CHANGES:
+• **VERSION–MANIFEST:** CMC GOVERNANCE VERSION 3.4 → 3.5. Effective 2026-03-10. Supersedes 3.4. Section II "ALL CMC 3.4" → "ALL CMC 3.5". CIV–MEM–CORE (v3.5). MAJOR VERSIONS: CMC 3.5 (2026-03-10) Optimization and Refinement. Quick binding: "Bound by CMC Governance Version 3.5". Compliance rule 3: CMC 3.5. END OF FILE v3.5.
+• **CIV–MEM–CORE:** Version 3.4 → 3.5. Supersedes v3.4. Upgrade Type CMC 3.5 · OPTIMIZATION AND REFINEMENT. UPGRADE NOTE (v3.5) added. Event Chronicle added to File Class Taxonomy (III). END OF FILE v3.5.
+• **ROADMAP–CMC–3.3:** Phase B status In Progress → Complete; completion date 10 March 2026; Governed by CMC 3.5.
+• **NAMESPACE–CLARIFICATION:** Title v3.3 → v3.5; Version 3.5.
+• **CMC–BOOTSTRAP:** Governed by CMC 3.5; "Bound by CMC 3.4" → "Bound by CMC 3.5" (all occurrences).
+• **CHANGELOG:** Governed by CMC 3.5.
+
+RATIONALE:
+PROPOSAL–CMC–3.5 implemented. Scope: Phase B completion, Event Chronicle artifact type, governance drift fix.
+
+────────────────────────────────────────────────────────────
+00025. SIGNAL CHECK – PREDICTION LINK, MEASURABILITY, OPTION FLEXIBILITY (17 FEB 2026)
+────────────────────────────────────────────────────────────
+Date: 2026-02-17
+Type: TEMPLATE + CURSOR RULES + GOVERNANCE
+
+CHANGES:
+• **CIV–STATE–TEMPLATE X-J (Signal Check):** PREDICTION LINK — every signal check implies at least one testable prediction; when adding a check, include or add a probability assessment (X-K) for at least one signal over the check window, attached to same pattern. MEASURABILITY AND FALSIFIABILITY — signal categories and linked predictions must be observable and falsifiable (determinable from sources by end of window). FORMAT extended with optional probability-assessment bullet per check. INTERPRET step: compare run to recorded probability assessment. Inter-activity trigger: add signal check then probability assessment for at least one signal (attach to same pattern).
+• **CIV–STATE–TEMPLATE X-K (Probability Assessment):** DEFINE step now requires event in testable, observable, and falsifiable form; by end of timeframe it must be possible to determine whether E occurred. PROPOSE step: when assessment is for a signal monitored by a signal check, record under same pattern (X-J PREDICTION LINK).
+• **CIV–STATE–TEMPLATE X-I (Contextual recommendation):** Signal-check recommendation now distinguishes run existing check vs "Consider: add signal check for [event]" when key event and discriminating intent but no check defined. New SELECTABLE CONTEXTUAL OPTION (optional): when recommendation is a specific actionable procedure, system MAY add one line "Or choose: [action]" so user can select it; at most one per turn; no ninth slot.
+• **Cursor rule (new):** cmc-state-signal-check-measurability.mdc — signal checks and probability assessments must be measurable and falsifiable; self-check before proposing. Reference: template X-J, X-K.
+• **cmc-oge-enforcement.mdc:** Contextual recommendation add vs run signal check; selectable contextual option (STATE, optional); E/F/G wording flexibility (SCHOLAR: specific MEM/event/entity when obvious; STATE: specific precedent/entity/scenario when obvious), still 10–20 words and one anchor.
+
+RATIONALE:
+Signal checks should imply testable predictions and be revisable; predictions and signals must be observable/falsifiable. Option generation gains flexibility: contextual "add signal check" suggestion, optional selectable "Or choose:" line, and E/F/G tailored wording without changing 8-slot semantics. Propagation to CHANGELOG, CMC–BOOTSTRAP, CMC–SYSTEM–MAP.
+
+────────────────────────────────────────────────────────────
+00026. INVOCATION PHRASES (ONE-SHOT ENTRY POINTS) (17 FEB 2026)
+────────────────────────────────────────────────────────────
+Date: 2026-02-17
+Type: PROTOCOL + CURSOR RULE
+
+CHANGES:
+• **PROTOCOL–MODE–INFERENCE:** New Section IV (Invocation phrases). When the user's message matches or is clearly equivalent to a listed phrasing, infer mode, entity (for STATE), and procedure and run in one go. Table: "[Entity] update" → STATE, load STATE/CORE/SCHOLAR, present options + activity menu; "Run signal check" / "Signal check for Pattern N" / "[Event] signal check" → STATE, activity Signal Check (X-J); "30-day forecast" / "Probability assessment for Pattern N" → STATE, activity Probability Assessment (X-K); "STATE [entity]" / "Switch to [entity]" → STATE, re-anchor, present options. Entity mapping examples: Iran/Persia → PERSIA, Russia → RUSSIA. Equivalence: slight wording changes, optional words, event names mapping to known patterns. Section V Maintenance: expand phrases as new entities/procedures become common.
+• **cmc-mode-contracts.mdc:** Mode inference now has step 1 (Invocation phrases) and step 2 (Task → mode). Step 1: check PROTOCOL–MODE–INFERENCE Section IV; if match, infer mode/entity/procedure and run. Step 2: when no phrase matches, infer from request as before. Reference updated to include Section IV.
+
+RATIONALE:
+Low-risk, high-reward: reduce invocation friction so users can say "Iran update", "Run signal check for Pattern 6", "Geneva signal check", "STATE Persia" and get the right procedure without remembering section numbers or activity names. No new infrastructure; phrase list can be extended over time.
+
+────────────────────────────────────────────────────────────
+00027. CIV–MEM–CORE AMENDMENT — STATE PROCEDURES AND INVOCATION (17 FEB 2026)
+────────────────────────────────────────────────────────────
+Date: 2026-02-17
+Type: GOVERNANCE (CORE amendment)
+
+CHANGES:
+• **CIV–MEM–CORE:** Amendment (17 February 2026) added after v3.3 upgrade note. Design principles now canonical: (1) Signal check and prediction link — every signal check implies at least one testable prediction; probability assessment attached to same pattern; signals and predictions measurable and falsifiable. (2) Invocation phrases — user input may match phrases mapping to mode, entity, procedure per PROTOCOL–MODE–INFERENCE Section IV; phrase check applied first in mode inference. (3) Options menu flexibility — optional "Or choose:" line; E/F/G specific anchors when context warrants; 8-slot contract unchanged. Section XXX (Canonical status): "17 FEB 2026 ADDITIONS" bullet list. Last Update set to 17 February 2026. Version remains 3.3.
+
+RATIONALE:
+User: "Based on our progress over the past several sessions, would you like to upgrade civ-mem-core." CORE is the load-order-first system core; recording these principles there ensures they remain part of the canonical architecture and are not dropped by future template or rule changes.
+
+────────────────────────────────────────────────────────────
+00028. CMC 3.4 GOVERNANCE VERSION BUMP (17 FEB 2026)
+────────────────────────────────────────────────────────────
+Date: 2026-02-17
+Type: GOVERNANCE (version bump)
+
+CHANGES:
+• **VERSION–MANIFEST:** CMC GOVERNANCE VERSION 3.3 → 3.4. Effective 2026-02-17. Supersedes 3.3. Section II "ALL CMC 3.3" → "ALL CMC 3.4". CIV–MEM–CORE (v3.4). MAJOR VERSIONS: CMC 3.4 (2026-02-17) STATE Procedures and Invocation; former "CMC 3.4 (Planned)" renumbered to 3.5. Quick binding: "Bound by CMC Governance Version 3.4". Compliance rule 3: CMC 3.4. END OF FILE v3.4.
+• **CIV–MEM–CORE:** Version 3.3 → 3.4. Supersedes v3.3. Upgrade Type CMC 3.4 · STATE PROCEDURES AND INVOCATION. UPGRADE NOTE (v3.4) added; Amendment text "CMC 3.3 scope" → "CMC 3.4". Section XXX "17 FEB 2026 ADDITIONS" → "v3.4 ADDITIONS". END OF FILE v3.4.
+• **CHANGELOG:** Governed by CMC 3.4.
+• **CMC–BOOTSTRAP:** Governed by CMC 3.4; "Bound by CMC 3.3" → "Bound by CMC 3.4" (all occurrences).
+• **CMC–SYSTEM–MAP, PROTOCOL–MODE–INFERENCE:** Governed by CMC 3.4.
+
+RATIONALE:
+User: "Implement your preference." Preference was to mark STATE procedures and invocation as a distinct governance milestone via version bump to 3.4 rather than amendment-only under 3.3.
+
+────────────────────────────────────────────────────────────
+00024. PROPAGATION: MEM GENERATION CANDIDATES TO ALL SCHOLAR + GOVERNANCE (16 FEB 2026)
+────────────────────────────────────────────────────────────
+Date: 2026-02-16
+Type: PROPAGATION (templates, governance, all civilization SCHOLAR files)
+
+CHANGES:
+• **CIV–STATE–TEMPLATE § XIV-B:** Relay step 2 now includes "MEM generation candidate per SCHOLAR template Section X.A".
+• **CIV–SCHOLAR–PROTOCOL:** MEM Generation Candidates (Template § X.A) paragraph added after Ephemeral layer text (source, relay, path to MEM).
+• **REVIEWER–BOOTSTRAP–MAP:** Minimum review checks now include SCHOLAR Section X.A (MEM Generation Candidates) presence.
+• **CIV–SCHOLAR–[CIV]:** Section X.A (or equivalent) MEM Generation Candidates + table added to: AMERICA, INDIA, CHINA, ISLAM, ANGLIA, PERSIA, GERMANY, ROME, FRANCE (Russia already had XIII.A).
+
+RATIONALE:
+User: "Propagate changes to all relevant governance and template files."
+
+────────────────────────────────────────────────────────────
+00023. MEM GENERATION CANDIDATES IN SCHOLAR (16 FEB 2026)
+────────────────────────────────────────────────────────────
+Date: 2026-02-16
+Type: TEMPLATE + CURSOR RULE + STATE TEMPLATE + SCHOLAR (Russia)
+
+CHANGES:
+• **CIV–SCHOLAR–TEMPLATE:** New Section X.A MEM Generation Candidates. Canonical location for proposed new MEMs; format table (Civ, Proposed subject, One-line rationale, Source, Status: open / in WRITE / created); path to MEM: select in WRITE → propose scope/connections from INDEX → user approves → WRITE → INDEX. Sources: LEARN/IMAGINE (recurring ungrounded parallel or gap) or STATE via relay.
+• **cmc-state-mem-grounding.mdc:** Recurring non-MEM parallels must be recorded in CIV–SCHOLAR–[CIV] Section X.A at session closure; relay from STATE may carry candidate list into SCHOLAR.
+• **CIV–STATE–TEMPLATE:** Same: record candidates in SCHOLAR Section X.A at session closure; relay may include candidate list.
+• **CIV–SCHOLAR–RUSSIA:** Section XIII.A MEM Generation Candidates added (Template § X.A) with empty table.
+• **CMC–SYSTEM–MAP:** Section V (Where to go next) now references MEM generation candidates (SCHOLAR Section X.A, path via WRITE → INDEX).
+
+RATIONALE:
+User: "MEM candidates should be in SCHOLAR." Single canonical place so WRITE mode can pick up candidates and the pipeline (candidate → propose → WRITE → INDEX) is explicit.
+
+────────────────────────────────────────────────────────────
+00022. CHECKLIST–PRE–OUTPUT–APPLICATION (CONSISTENT RULE APPLICATION) (16 FEB 2026)
+────────────────────────────────────────────────────────────
+Date: 2026-02-16
+Type: GOVERNANCE (new reference document + cursor rule updates)
+
+CHANGES:
+• **New document:** docs/governance/CHECKLIST–PRE–OUTPUT–APPLICATION.md.
+  Consolidated pre-output checklists for three trigger contexts:
+  (I) STATE evidence / doctrine check — ARC source coverage (≥2 categories, entity source, attribution, contradictions);
+  (II) Absence claim — negative-claim corpus check (MEM search, reformulate if counter-evidence);
+  (III) Doctrine-change proposal — gated spiral note (which doctrines governed, frame-consistent vs frame-challenging).
+• **Cursor rules updated:** cmc-arc-source-coverage.mdc, cmc-negative-claim-check.mdc, cmc-gated-spiral-awareness.mdc — each Self-Check section now includes "Before delivering: run the applicable checklist in docs/governance/CHECKLIST–PRE–OUTPUT–APPLICATION.md" with section number.
+• **CMC–SYSTEM–MAP:** Section V (Where to go next) now references CHECKLIST–PRE–OUTPUT–APPLICATION.md.
+
+RATIONALE:
+Second-priority suggestion from reflection: consistent application of existing rules. One run point (the checklist) so ARC coverage, negative-claim check, and doctrine-shaped note are executed before delivery when the trigger applies.
+
+────────────────────────────────────────────────────────────
+00021. CMC–SYSTEM–MAP (HIGH-LEVEL ARCHITECTURE) (16 FEB 2026)
+────────────────────────────────────────────────────────────
+Date: 2026-02-16
+Type: GOVERNANCE (new reference document)
+
+CHANGES:
+• **New document:** docs/governance/CMC–SYSTEM–MAP.md.
+• **Purpose:** Single high-level reference for how the system fits together:
+  modes (SCHOLAR/STATE/SYSTEM), file roles (MEM, CORE, INDEX, SCHOLAR, STATE,
+  DOCTRINE, ARC), data flows (past→learning, past→STATE, sync, relay,
+  doctrine loop), and gates (doctrine change, relay, sync, ARC, MEM).
+• **BOOTSTRAP:** Step 7 updated to point to CMC–SYSTEM–MAP for "system
+  architecture (modes, file roles, data flows, gates)."
+
+RATIONALE:
+Reflection session identified need for one concise map so that "where does
+X live?" and "how does Y get into Z?" are answerable in one place; supports
+onboarding, debugging, and placing new governance changes.
+
+────────────────────────────────────────────────────────────
+00020. PROTOCOL: CIV–SCHOLAR / CIV–STATE DIFFERENTIATION (16 FEB 2026)
+────────────────────────────────────────────────────────────
+Date: 2026-02-16
+Type: GOVERNANCE (protocol addition)
+
+CHANGES:
+• **New protocol:** PROTOCOL–CIV–SCHOLAR–STATE–DIFFERENTIATION.md (v1.0).
+• **Purpose:** Systematic observation and analysis of differentiation between
+  civilization SCHOLAR and STATE files.
+• **Content:** SCHOLAR observation dimensions (S1–S9: phase, authority, axioms,
+  NCZ, RLLs, synthesis→constraint, lock semantics, section coverage); STATE
+  observation dimensions (T1–T9: entity classification, strategic position,
+  material options, stability indicators, opponent constraint, decision-relevant
+  history, cross-entity links, source versions, state log); cross-file dimensions
+  (X1–X4) for same-entity SCHOLAR vs STATE; analysis types (pairwise, n-way,
+  gap, cross-file); procedure (scope, gather, extract, compare, synthesise,
+  report); output format and self-check.
+• **Exemplars:** REPORT–SCHOLAR–FRANCE–GERMANY–COGNITIVE–DIFFERENTIATION,
+  REPORT–SCHOLAR–FRANCE–ANGLIA–COGNITIVE–DIFFERENTIATION.
+
+RATIONALE:
+User request: clear, systematic way to observe and analyze differentiation
+between different civilization SCHOLAR and STATE files.
+
+────────────────────────────────────────────────────────────
+00019. BIDIRECTIONAL READ PROTOCOL (STATE↔SCHOLAR) (16 FEB 2026)
+────────────────────────────────────────────────────────────
+Date: 2026-02-16
+Type: GOVERNANCE (protocol addition)
+
+CHANGES:
+• **Bidirectional read (read-only):** STATE and SCHOLAR cross-read in
+  real time without new persistence or write-back.
+• **STATE side:** STATE re-reads SCHOLAR at each analytical node
+  (Material Options, Decision Points, Pattern Audit, etc.), focusing on
+  Sections IV–V (axioms, RLLs), VI (Negative Capability Zone), VII
+  (Decision-Relevant History). Cursor rule cmc-state-mem-grounding updated.
+• **SCHOLAR side:** During LEARN mode, SCHOLAR reads CIV–STATE Sections
+  IV, VI, VII before generating options or syntheses. Material Options,
+  Stability Indicators, Decision-Relevant History inform which patterns
+  and MEMs to surface. Cursor rule cmc-scholar-mode updated.
+• **Files updated:** cmc-state-mem-grounding.mdc (Structured SCHOLAR
+  Consultation section); cmc-scholar-mode.mdc (STATE Context Load section);
+  CIV–STATE–TEMPLATE §XII (DIRECTIONALITY); CIV–SCHOLAR–TEMPLATE §XIII.C.
+• **Relay unchanged:** Relay remains the sole path for STATE→SCHOLAR
+  persistence. Bidirectional read is consultation only.
+
+RATIONALE:
+User request: smallest change for bidirectional feel — STATE and SCHOLAR
+as two hemispheres with real-time cross-read. No new files, no persistence
+changes.
+
+────────────────────────────────────────────────────────────
+00018. DEPRECATE "HARVEST" — USE "RELAY" (16 FEB 2026)
+────────────────────────────────────────────────────────────
+Date: 2026-02-16
+Type: GOVERNANCE (terminology deprecation)
+
+CHANGES:
+• **Primary term:** "Relay" replaces "harvest" for STATE→SCHOLAR transfer.
+  Use: "relay to scholar", "relay to scholar–[entity]", "relay to learn mode",
+  "relay session to scholar", "relay this session".
+• **Deprecated (avoid; still accepted):** "harvest", "harvest session",
+  "harvest this session", "harvest to scholar".
+• **Files updated:** Cursor rules (cmc-state-scholar-harvest, cmc-state-scholar-sync);
+  CIV–STATE–TEMPLATE §XIV-B; CIV–SCHOLAR–RUSSIA, CIV–STATE–RUSSIA; CIV–STATE–AMERICA,
+  CIV–STATE–CHINA, CIV–STATE–FRANCE, CIV–STATE–GERMANY; CIV–INDEX (America, Francia, Germania);
+  CMC–BOOTSTRAP; TERMINOLOGY–REGISTRY (deprecation note); SCHOLAR files (America, Francia, Germania).
+• **Note:** "Legitimacy harvest" (RLL term) and agricultural/figurative uses of
+  "harvest" in MEM content unchanged.
+
+RATIONALE:
+User request: deprecate "harvest" in favour of "relay" for the STATE→SCHOLAR
+transfer command family.
+
+────────────────────────────────────────────────────────────
+00016. DEPRECATE "FROZEN" / "UNFROZEN" TERMINOLOGY (15 FEB 2026)
+────────────────────────────────────────────────────────────
+Date: 2026-02-15
+Type: GOVERNANCE (terminology deprecation)
+
+CHANGES:
+• **Terminology:** "Frozen" and "unfrozen" removed from system language. Synthesis is by definition evolving; axiom and doctrine are permanent except when the user explicitly modifies them.
+• **Replacements:** "Frozen synthesis" → "synthesis accepted as doctrine"; "unfrozen synthesis" → "synthesis" (or "synthesis not yet accepted as doctrine"); "freeze" (verb) → "accept as doctrine"; doctrine/axiom described as "permanent" not "frozen."
+• **Status value:** SYNTHESIS status "FROZEN" → "ACCEPTED_AS_DOCTRINE"; "RE-FREEZE" → "RE-ACCEPT."
+• **Files updated:** CIV–DOCTRINE–TEMPLATE, CIV–STATE–TEMPLATE, CIV–SCHOLAR–TEMPLATE, CIV–SCHOLAR–PROTOCOL, CIV–MEM–CORE, TERMINOLOGY–REGISTRY (deprecation note + CIV–DOCTRINE row), CHANGELOG, CMC–BOOTSTRAP; CIV–DOCTRINE–PERSIA, CIV–STATE–PERSIA, CIV–SCHOLAR–PERSIA; CIV–CORE–INDIA, CIV–SCHOLAR–INDIA; CIV–SCHOLAR–CHINA, CIV–DOCTRINE–CHINA; CIV–SCHOLAR–AMERICA, CIV–DOCTRINE–AMERICA, STATE–AMERICA–... audit; CIV–SCHOLAR–RUSSIA, CIV–CORE–RUSSIA; CIV–SCHOLAR–ANGLIA, CIV–DOCTRINE–ANGLIA; CIV–SCHOLAR–ISLAM; CIV–SCHOLAR–ROME, CIV–DOCTRINE–ROME, CIV–CORE–ROME.
+• **Out of scope:** MEM narrative and domain terms (e.g. "frozen conflict," "frozen ground") unchanged.
+
+RATIONALE:
+User request: synthesis is by definition evolving; axiom and doctrine are permanent except when explicitly modified. "Frozen"/"unfrozen" implied the wrong mental model.
+
+────────────────────────────────────────────────────────────
+00015. INDIA PHASE II ACTIVATION & CIV–DOCTRINE–INDIA CREATION (14 FEB 2026)
+────────────────────────────────────────────────────────────
+Date: 2026-02-14
+Type: GOVERNANCE + CONTENT (India Phase II; doctrine mirror)
+
+CHANGES:
+• CIV–SCHOLAR–INDIA: Phase I → Phase II (Constraint Grammar). SYNTHESIS 0001, 0002, 0003, 0004 accepted as doctrine and promoted. RLL–INDIA–0001 and RLL–INDIA–0002 BOUND via DIB–INDIA 2026-02-14. Doctrine Registry § XVIII updated with mirror to CIV–DOCTRINE–INDIA. Failure-first standard and Anomaly Flag Protocol active. Counts: 4 syntheses accepted as doctrine, 2 bound RLLs.
+• CIV–DOCTRINE–INDIA v1.0 created (content/civilizations/INDIA/). Doctrines 01–04: Ganges Survivability — Origin vs Permanence; Two Modes of WAR Limit; Three Defection Types; Nehru Idealism — Alternative Encodings. Derived from CIV–SCHOLAR–INDIA SYNTHESIS 0001–0004 via DIB–INDIA.
+• CIV–CORE–INDIA: Doctrine Reference added (CIV–DOCTRINE–INDIA v1.0, doctrines 01–04); Scholar Reference updated to Phase II and bound RLLs.
+• CIV–INDEX–INDIA: I-A CANONICAL GOVERNANCE FILES added; CIV–DOCTRINE–INDIA v1.0 registered; Referenced by line updated.
+• CHECKLIST–INDIA–PHASE–II–READINESS–2026.md: Status set to APPROVED; execution applied.
+
+RATIONALE:
+User approval of Phase II readiness checklist (option c from India LEARN session synthesis). India brought toward CHINA benchmark: doctrine mirror, bound RLLs, Phase II active.
+
+────────────────────────────────────────────────────────────
+00017. CIV–STATE–INDIA CREATION (14 FEB 2026)
+────────────────────────────────────────────────────────────
+Date: 2026-02-14
+Type: CONTENT (State file)
+
+CHANGES:
+• CIV–STATE–INDIA v1.0 created (content/civilizations/INDIA/). Derived from CIV–CORE–INDIA v3.3, CIV–SCHOLAR–INDIA v2.3, CIV–DOCTRINE–INDIA v1.0, MEM–RELEVANCE–INDIA v1.0. Sections I–X populated: Entity Identification, Succession, Strategic Position (three perspectives), Material Options (A–D: hold non-alignment line, accommodate where reversible, exit-building, accept conditionality), Completeness Audit, Stability Indicators, VI-B (not applicable for current options), Decision-Relevant History (doctrine patterns + ENTRY 0010), Cross-Entity Links, Source Versions, State Log.
+• CIV–INDEX–INDIA: CIV–STATE–INDIA v1.0 added to I-A CANONICAL GOVERNANCE FILES.
+• CIV–CORE–INDIA: STATE-readiness note updated — CIV–STATE–INDIA v1.0 created 2026-02-14.
+• CMC–BOOTSTRAP: CONTINUITY NOTE updated — STATE–INDIA created; optional checklist item 23 complete.
+
+RATIONALE:
+User request to proceed with deriving STATE–INDIA from SCHOLAR–INDIA. Prerequisites met (CORE, SCHOLAR, DOCTRINE, MEM–RELEVANCE). CHECKLIST–INDIA–PHASE–II–READINESS item 23 (optional STATE file when decision-support needed) satisfied.
+
+────────────────────────────────────────────────────────────
+00016. CEO → CEV RENAME (AVOID CORPORATE CONFUSION) (14 FEB 2026)
+────────────────────────────────────────────────────────────
+Date: 2026-02-14
+Type: GOVERNANCE (terminology)
+
+CHANGES:
+• CIV–CEO–TEMPLATE renamed to CIV–CEV–TEMPLATE (CEV = Current EVent). Template file now docs/templates/CIV–CEV–TEMPLATE.md; old CIV–CEO–TEMPLATE.md removed.
+• EPHEMERAL–OBSERVATION–PROTOCOL: all "CEO" (Current Event Observation) replaced with "CEV" for file/record IDs and "current-events-sourced" / "CEV files" in prose. Glossary: CEO → CEV.
+• CIV–SCHOLAR–TEMPLATE, CIV–SCHOLAR–PROTOCOL: CEO/EOR → CEV/EOR; CEO-sourced → current-events-sourced (CEV files).
+• CIV–MEM–TEMPLATE: CEO → MEM promotion → CEV → MEM; CIV–CEO–TEMPLATE → CIV–CEV–TEMPLATE.
+• CIV–MIND–BARNES: EPHEMERAL LAYER "CEO-sourced" → "current-events-sourced (CEV)".
+• All CIV–SCHOLAR–[CIV] Section X: "CEO-sourced" → "current-events-sourced (CEV files)" (INDIA, CHINA, AMERICA, ANGLIA, PERSIA, ISLAM, RUSSIA, ROME).
+• Governance refs: VERSION–MANIFEST, CHANGELOG, AUDIT–* files updated to CIV–CEV–TEMPLATE. CIV–STATE–RUSSIA "Rostec CEO" (corporate title) unchanged.
+
+RATIONALE:
+User request: "CEO" abbreviation too confusing (collision with Chief Executive Officer). Option A: prose "current event observation" / "current-events-sourced"; ID prefix CEV–.
+
+────────────────────────────────────────────────────────────
+00014-C. DEPRECATE LOCKED MEM MECHANISM (UPGRADE QUEUE) (13 FEB 2026)
+────────────────────────────────────────────────────────────
+Date: 2026-02-13
+Type: GOVERNANCE (process deprecation)
+
+CHANGES:
+• Deprecated the "locked MEM" mechanism for the MEM–CHINA Chinese-language upgrade. MEMs on the upgrade queue are no longer "LOCKED" (do not edit until unlocked).
+• UPGRADE–QUEUE–MEM–CHINA–CHINESE–LANGUAGE–2026–02–13.md rewritten: "Remaining MEMs" backlog only; when editing any listed MEM, apply checklist. No lock/unlock step.
+• CHECKLIST–MEM–CHINA–CHINESE–LANGUAGE–INTEGRATION.md §6: "LOCKED MEMs" replaced by "Remaining MEMs (backlog)."
+• CIV–MEM–CORE §XIX: added deprecation note for upgrade-queue lock; MEM status (ACTIVE/LOCKED/DRAFT) unchanged.
+• The 30 MEM–CHINA files that were Status: LOCKED set to Status: ACTIVE so they are editable and ingestible; remaining list is a normal backlog.
+
+RATIONALE:
+User request to deprecate the locked MEM mechanism. Lock was a workflow device for the upgrade; backlog without a gate is simpler and allows edits at any time.
+
+────────────────────────────────────────────────────────────
+00014-D. MEM–CHINA CHINESE-LANGUAGE BACKLOG — EIGHT MEMs COMPLETED (13 FEB 2026)
+────────────────────────────────────────────────────────────
+Date: 2026-02-13
+Type: CONTENT (MEM–CHINA backlog)
+
+CHANGES:
+• Eight remaining MEMs brought into Chinese-language compliance (ARC v3.3): MEM–CHINA–DYNASTY–TANG, DYNASTY–SONG, DYNASTY–YUAN, DYNASTY–HAN, DYNASTY–MING — 中国大百科全书 (唐朝/宋/元/汉/明) in SOURCE EVIDENCE and Secondary; version 1.1. MEM–CHINA–GEO–EAST–CHINA–SEA — 东海、钓鱼岛; SOURCE EVIDENCE and Secondary; v1.1. MEM–CHINA–LIT–SUNZI — 孙子、孙子兵法; SOURCE EVIDENCE and Secondary; v1.3. MEM–CHINA–ZHENGHE — 郑和; SOURCE EVIDENCE and Secondary; v1.2.
+• UPGRADE–QUEUE–MEM–CHINA–CHINESE–LANGUAGE–2026–02–13.md: completed MEMs removed from backlog; 22 remaining.
+
+RATIONALE:
+Continue working on the backlog per user request; same standard as Phase 1–3 (SOURCE EVIDENCE block, Primary/Secondary, ARC attribution).
+
+────────────────────────────────────────────────────────────
+00014-E. MEM–CHINA CHINESE-LANGUAGE BACKLOG — REMAINING 22 MEMs COMPLETED (13 FEB 2026)
+────────────────────────────────────────────────────────────
+Date: 2026-02-13
+Type: CONTENT (MEM–CHINA backlog completion)
+
+CHANGES:
+• All 22 remaining MEMs brought into Chinese-language compliance (ARC v3.3). **Dynasty (8):** MEM–CHINA–DYNASTY–JIN, LIAO, QIN, QING, SHANG, SUI, XIA, ZHOU — 中国大百科全书 (金朝/辽朝/秦朝/清朝/商朝/隋朝/夏朝/周朝) in SOURCE EVIDENCE and Secondary; version bumps. **LIT (4):** MEM–CHINA–LIT–KONGZI, LAOZI, MENGZI, ROMANCE–THREE–KINGDOMS — 中国大百科全书 (孔子/老子/孟子/三国演义) in SOURCE EVIDENCE and Secondary; version bumps. **Mongol + Niche (6):** MEM–CHINA–MONGOL–EMPIRE, MONGOL–GENGHIS–KHAN, MONGOL–KUBLAI–KHAN, MONGOLIA, MARCO–POLO, XIONGNU — 中国大百科全书 (蒙古/成吉思汗/忽必烈/马可·波罗/匈奴) in SOURCE EVIDENCE and Secondary; version bumps. **PRC (5):** MEM–CHINA–PRC–DENG–XIAOPING, KISSINGER, MAO–ZEDONG, NIXON, ZHOU–ENLAI — 中国大百科全书 (邓小平/基辛格/毛泽东/尼克松访华/周恩来) in SOURCE EVIDENCE and Secondary; version bumps.
+• UPGRADE–QUEUE–MEM–CHINA–CHINESE–LANGUAGE–2026–02–13.md: backlog marked complete; no remaining MEMs. CHECKLIST §6 updated.
+
+RATIONALE:
+User request to complete the other 22 MEMs. MEM–CHINA corpus Chinese-language integration backlog is now fully completed.
+
+────────────────────────────────────────────────────────────
+00014. MEM–CHINA CORPUS — CHINESE-LANGUAGE SOURCE INTEGRATION, PHASE 1 (13 FEB 2026)
+────────────────────────────────────────────────────────────
+Date: 2026-02-13
+Type: CONTENT (MEM–CHINA corpus upgrade)
+
+CHANGES:
+• MEM–CHINA corpus: Chinese-language source integration (ARC v3.3), Phase 1 completed.
+• Phase 1 — WAR (6): MEM–CHINA–WAR–MONGOL–JIN, WAR–SONG–YUAN, WAR–FIRST–OPIUM, WAR–SECOND–OPIUM, WAR–BOXER–REBELLION, WAR–TAIPING–REBELLION — added 中国大百科全书 (and where relevant 《元史》《金史》《宋史》) to Primary/Secondary; added SOURCE EVIDENCE block with citation and ARC attribution; content version bumped.
+• Phase 1 — GEO/cession (9): MEM–CHINA–GEO–PEARL–RIVER, GEO–YELLOW–RIVER, GEO–YANGTZE–RIVER, GEO–AMUR–RIVER, MEM–CHINA–GRAND–CANAL, MEM–CHINA–HONG–KONG, MEM–CHINA–MACAU, MEM–CHINA–SHENZHEN — added Encyclopedia of China (and for Hong Kong/Macau npc.gov.cn Basic Law) to Primary/Secondary; added SOURCE EVIDENCE block or citation with ARC attribution; content version bumped.
+• Created docs/governance/UPGRADE–QUEUE–MEM–CHINA–CHINESE–LANGUAGE–2026–02–13.md — list of 30 LOCKED MEMs with note "When unlocked: integrate Chinese-language source per ARC v3.3 and MEM authoring note."
+• Created docs/governance/CHECKLIST–MEM–CHINA–CHINESE–LANGUAGE–INTEGRATION.md — one-page checklist (source-selection by type, attribution format, exception rule) for Phase 2/3 and new MEMs.
+
+RATIONALE:
+Plan *Major Upgrade: MEM–CHINA Corpus × Chinese-Language Sources*; audit AUDIT–SESSION–MEMS–CHINESE–LANGUAGE–SOURCES–2026–02–13; ARC–CHINA v3.3 MEM authoring note (IX-B). Additive only; no change to RLLs or existing English quotes.
+
+────────────────────────────────────────────────────────────
+00014-B. MEM–CHINA CHINESE-LANGUAGE SOURCE INTEGRATION — PHASE 2 (10 HIGH-PRIORITY MEMs) (13 FEB 2026)
+────────────────────────────────────────────────────────────
+Date: 2026-02-13
+Type: CONTENT (MEM–CHINA corpus upgrade)
+
+CHANGES:
+• Ten high-priority MEM–CHINA files brought into compliance with ARC v3.3 Chinese-language source requirement.
+• **Polity:** MEM–CHINA–PRC (XII-B 中国大百科全书 中华人民共和国/中国共产党; Secondary + gov.cn; v1.3), MEM–CHINA–ROC (XI-B 中华民国; Secondary; v1.3), MEM–CHINA–TAIWAN (X-B 台湾/台湾海峡; Secondary; v1.3).
+• **Cities:** MEM–CHINA–BEIJING (IV-B 北京/圆明园; Secondary; v3.1), MEM–CHINA–NANJING (IV-B 南京/南京条约; Secondary; v3.1), MEM–CHINA–SHANGHAI (IV-B 上海; Secondary; v3.1), MEM–CHINA–GUANGZHOU (IV-B 广州; Secondary; v3.1).
+• **GEO:** MEM–CHINA–GEO–TAIWAN–STRAIT (IV-B 台湾海峡; Secondary; v3.1), MEM–CHINA–GEO–SOUTH–CHINA–SEA (IV-B 南海 + scio.gov.cn 白皮书; Secondary; v3.1), MEM–CHINA–BOHAI–TANG (II-B 渤海/唐朝; Secondary; v1.1).
+
+RATIONALE:
+User request to implement Chinese-language compliance for the ten high-priority MEMs identified after Phase 1. Same standard as Phase 1: at least one Chinese-language source in Primary/Secondary and one SOURCE EVIDENCE block with citation and ARC attribution.
+
+────────────────────────────────────────────────────────────
+00013. REFERENCE – QUANTITATIVE BENCHMARKS (13 FEB 2026)
+────────────────────────────────────────────────────────────
+Date: 2026-02-13
+Type: REFERENCE (NEW)
+
+CHANGES:
+• Added docs/governance/REFERENCE–QUANTITATIVE–BENCHMARKS.md.
+• Defines quantitative benchmarks for system performance/quality
+  evaluation across MEM, SCHOLAR, STATE, voice/compliance, and
+  retrieval. Includes measurement method and suggested targets.
+• Supports audits and periodic review; does not replace qualitative
+  judgment.
+
+RATIONALE:
+User request (SYSTEM mode): establish/measure benchmarks to evaluate
+performance/quality of the system. Aligns with COMPLIANCE–REGISTRY
+criteria and cursor rules (template, state grounding, ARC coverage,
+options menu, voice, safeguards).
+
+────────────────────────────────────────────────────────────
+00012. CMC 3.3 GOVERNANCE UPGRADE ACTIVATION (13 FEB 2026)
+────────────────────────────────────────────────────────────
+Date: 2026-02-13
+Type: VERSION (GOVERNANCE RELEASE)
+
+CHANGES:
+• Governance version activated: CMC 3.2 → CMC 3.3.
+• Version anchors updated in:
+  - VERSION–MANIFEST
+  - CMC–BOOTSTRAP
+  - CIV–MEM–CORE
+• 3.3 program status changed from re-scoped/pending to active integration
+  streams (Tiered Retrieval, Living ARC, MIND Navigation, CEP residuals).
+• Roadmap reference migrated to ROADMAP–CMC–3.3.
+
+RATIONALE:
+Completes governance release preparation for CMC 3.3 while preserving the
+three-mode architecture and version-decoupled content policy.
+
+────────────────────────────────────────────────────────────
+00011. PHASE 3 ENFORCEMENT HARDENING (13 FEB 2026)
+────────────────────────────────────────────────────────────
+Date: 2026-02-13
+Type: GOVERNANCE/COLLABORATION (POLICY + TRIAGE + OWNERSHIP)
+
+CHANGES:
+• Added provenance/signing policy:
+  - docs/governance/PROTOCOL–PROVENANCE–SIGNING.md
+• Added contributor triage protocol:
+  - docs/governance/PROTOCOL–CONTRIBUTOR–TRIAGE.md
+• Tightened PR policy:
+  - .github/pull_request_template.md
+  - added provenance/signing checklist and required triage classification.
+• Added ownership model:
+  - .github/CODEOWNERS
+• Added quality/governance issue intake form:
+  - .github/ISSUE_TEMPLATE/quality-governance-report.yml
+• Hardened CI workflow:
+  - .github/workflows/cmc-quality-checks.yml
+  - PR body policy checks for governance/triage sections.
+• Updated CONTRIBUTING.md with layered enforcement model and policy links.
+
+RATIONALE:
+Implements Phase 3 by moving from advisory contribution guidance to
+enforceable collaboration controls and a concrete quality triage loop.
+
+────────────────────────────────────────────────────────────
+00010. PHASE 1+2 SCALING BASELINE (13 FEB 2026)
+────────────────────────────────────────────────────────────
+Date: 2026-02-13
+Type: GOVERNANCE/TOOLING (QUALITY + COLLABORATION + RETRIEVAL + CONTAINER)
+
+CHANGES:
+• Added split licenses at repository root:
+  - LICENSE-CODE (MIT)
+  - LICENSE-CONTENT (CC BY-SA 4.0 default for content)
+• Added CONTRIBUTING.md with doctrinal eligibility checklist and
+  contributor workflow.
+• Added PR template:
+  - .github/pull_request_template.md
+• Added CI quality workflow:
+  - .github/workflows/cmc-quality-checks.yml
+  - runs governance checks and changed-file corpus validation.
+• Added corpus validator:
+  - tools/cmc-validate-corpus.py
+  - validates MEM header/footer parity and mandatory MEM connections label.
+• Added lightweight retrieval/index tool:
+  - tools/cmc-index-search.py (SQLite FTS5 build/query).
+• Added container surface for console:
+  - tools/cmc-console/Dockerfile
+• Updated root and tools READMEs for new checks, search, and Docker usage.
+
+RATIONALE:
+Implements Phase 1 (risk reduction and consistency automation) and
+Phase 2 baseline (retrieval and integration surfaces) without changing
+CMC's core file-first architecture.
+
+────────────────────────────────────────────────────────────
+00009. TERMINOLOGY MIGRATION — HARVEST → RELAY TO SCHOLAR (13 FEB 2026)
+────────────────────────────────────────────────────────────
+Date: 2026-02-13
+Type: TERMINOLOGY (STATE–SCHOLAR TRANSFER COMMAND)
+
+CHANGES:
+• Primary command term changed from "harvest" to "relay to scholar"
+  across active governance/runtime guidance.
+• cmc-state-scholar-harvest.mdc updated:
+  - Rule semantics now centered on relay command family.
+  - Trigger set includes "relay to scholar", "relay session to scholar",
+    "relay this session", and "relay".
+  - Legacy aliases retained for backward compatibility:
+    "harvest", "harvest session", "harvest this session".
+• cmc-state-scholar-sync.mdc updated to reference relay as exclusive
+  transfer gate, with legacy alias note.
+• CMC–BOOTSTRAP STATE sync paragraph updated to relay terminology.
+• CIV–STATE–TEMPLATE Section XII/XIV/XIV-B updated:
+  - XIV-B renamed to "RELAY PROTOCOL"
+  - Directionality and transfer clauses now use relay terminology
+  - Legacy harvest aliases explicitly accepted.
+
+RATIONALE:
+The system now conceptualizes SCHOLAR and STATE as peer cognitive
+hemispheres. "Relay to scholar" better represents directional transfer
+between peers than hierarchy-implying terminology.
+
+────────────────────────────────────────────────────────────
+00008. GOVERNANCE DRIFT HARDENING PACK (13 FEB 2026)
+────────────────────────────────────────────────────────────
+Date: 2026-02-13
+Type: GOVERNANCE (RULE/TEMPLATE/AUDIT-TOOLING/CONTENT NORMALIZATION)
+
+CHANGES:
+• cmc-mode-contracts.mdc: LEARN and IMAGINE options menu wording aligned
+  to canonical 10–20 words per option (removed 6–10 drift).
+• CIV–MEM–TEMPLATE: added recommended auditability fields (MEM Type,
+  Content Proportion Trace, footer/header version parity check).
+• CIV–STATE–TEMPLATE: added recommended safeguard trace line format and
+  lightweight Source Versions drift check note in Sync protocol.
+• CMC–BOOTSTRAP: QUICK START references new reviewer orientation map.
+• New governance docs:
+  - REVIEWER–BOOTSTRAP–MAP.md
+  - LEGACY–HEADER–COMPATIBILITY.md
+  - CHECKLIST–QUARTERLY–GOVERNANCE–DRIFT.md
+• New tooling artifact:
+  - tools/cmc-governance-checks.sh (option policy, Source Versions drift,
+    MEM version parity, MEM CONNECTIONS presence checks)
+• Sample content normalization:
+  - MEM–AMERICA–PRESIDENT–MONROE v1.2 → v1.3 (added MEM CONNECTIONS section,
+    traceability fields, footer parity)
+  - MEM–AMERICA–WAR–AMERICAN–INDEPENDENCE (footer parity + traceability
+    fields)
+
+RATIONALE:
+Implements post-audit high-value fixes to reduce rule drift, improve
+reviewer onboarding, and make compliance checks more directly auditable.
+
+────────────────────────────────────────────────────────────
+00007. STATE TEMPLATE — ACCOMMODATION/REVERSAL OPTION IN DECISION POINTS (12 FEB 2026)
+────────────────────────────────────────────────────────────
+Date: 2026-02-12
+Type: GOVERNANCE (CIV–STATE–TEMPLATE / CURSOR RULE)
+
+CHANGES:
+• CIV–STATE–TEMPLATE v3.2 → v3.3: Decision Points (X-B) step 8 now requires
+  that when the decision involves a commitment (alliance, arms, presence,
+  confrontation), the option set MUST include at least one option at the
+  accommodation/reversal end of the spectrum, with one-line documentation
+  (duty of competence; Doctrine 03).
+• Section I (Duty of competence clarification): added explicit requirement
+  for decision-point option sets to include accommodation/reversal when
+  applicable; reference to X-B step 8.
+• Section X (Self-check): new checklist item for accommodation/reversal
+  option when Decision Points involve a commitment.
+• cmc-state-mem-grounding.mdc: new self-check bullet for Decision Points
+  accommodation/reversal option.
+
+RATIONALE:
+STATE–AMERICA Taiwan session omitted the "one-China return, stop arms,
+peace with China" option in the first pass; user identified this as a
+systemic bias (commitment-weighted default). American doctrine (03) and
+duty of competence already permit exit/retrenchment; the change makes
+that operational in option generation so accommodation is included in
+the first pass, not only when the user requests it.
+
+────────────────────────────────────────────────────────────
+00006. MEARSHEIMER COGNITIVE-LINGUISTIC AUDIT (12 FEB 2026)
+────────────────────────────────────────────────────────────
+Date: 2026-02-12
+Type: GOVERNANCE (MIND / CURSOR RULE / AUDIT)
+
+CHANGES:
+• RUN–REPORT–AUDIT–MEARSHEIMER–COGNITIVE–LINGUISTIC–2026-02-12 created (audit of
+  Mearsheimer × Daniel Davis Deep Dive, February 2026 — Netanyahu meeting, Iran,
+  Ukraine, Kallas/Bremmer, Keane).
+• cmc-mearsheimer-voice.mdc: transcript-derived markers added (interview response
+  openers: "Well, just a couple points. One,... The second point I'd make...",
+  "Look, this is very simple," "that's my bottom line on this," "the $64,000
+  question"; transitions "switching gears," "Your point's right on the money";
+  demand for mechanism "Please explain to me how this is going to be done,"
+  "plausible story," "you never get any"; dismissal "This is nonsense," "detached
+  from reality," "blowing smoke," "pipe dream," "Is this guy serious?"; narrative
+  lock-in "nobody wants to be the first mover," "he'd be fired," public vs
+  private; moderate hedging "My sense is," "it is hard for me to see how"; version
+  reference v3.3).
+• CIV–MIND–MEARSHEIMER v3.2 → v3.3: UPGRADE NOTE for 12 Feb 2026 transcript; new
+  markers in V.A (interview openers), V.C (topic shift), V.D (hedging), V.I
+  (bottom line), V.K (dismissal/reality-detachment), V.N (I would note, by the
+  way); new V.O (Demand for mechanism / plausible story), V.P (Narrative lock-in
+  / public vs private).
+• Source Material updated to include Davis Deep Dive February 2026.
+
+ORIGIN:
+User-requested cognitive-linguistic authenticity audit of MIND–MEARSHEIMER using
+Daniel Davis Deep Dive transcript (Feb 2026); user requested application of
+recommended changes.
+
+────────────────────────────────────────────────────────────
+00005. MERCOURIS COGNITIVE-LINGUISTIC AUDIT (12 FEB 2026)
+────────────────────────────────────────────────────────────
+Date: 2026-02-12
+Type: GOVERNANCE (MIND / CURSOR RULE / AUDIT)
+
+CHANGES:
+• RUN–REPORT–AUDIT–MERCOURIS–COGNITIVE–LINGUISTIC–2026-02-12 created (audit of
+  Mercouris program transcript 12 Feb 2026 — Middle East/Iran, Ukraine, Lavrov,
+  Epstein/Bondi, oil/Hormuz, F-35/gallium).
+• cmc-mercouris-voice.mdc: transcript-derived markers added (program opener;
+  "Just saying," "For the record," "I have to say," "My key point is, however";
+  epistemic variants "I believe—I may be wrong—but I believe that...", "To my
+  mind," "I get the impression," "I would have thought that...", "to me that
+  sounds..."; recursive/returning "To repeat again," "I go back to...", "What I do
+  want to turn attention to is..."; deferral "that's another story. I'm not going
+  to get into..."; hedged assessment "I find [X] completely incredible"; attribution
+  "[claim]—which does not come from this source, by the way"; self-correction
+  "[X]—no, wait, [Y]; I meant..."; non-closure "We have to be careful when
+  discussing all of this," "we can't be sure that we aren't seeing..."; self-check
+  IMAGINE bullet; reference to audit).
+• CIV–MIND–MERCOURIS v3.2 → v3.3: UPGRADE NOTE for 12 Feb 2026 transcript; new
+  markers added to III.A (program opener, returning pivots, self-correction,
+  "that's another story"), III.B (epistemic hedging, hedged assessment), III.C
+  (source qualification, "My key point is, however," scope/epistemic caution),
+  III.L (IMAGINE current-events program style: date/topic + difficulty and/or
+  attribution; scope limits and source qualification central).
+• cmc-mercouris-voice.mdc: version reference updated to CIV–MIND–MERCOURIS v3.3;
+  current-events program sub-note added under mode-specific voice.
+
+ORIGIN:
+User-requested cognitive-linguistic authenticity audit of MIND–MERCOURIS using
+12 Feb 2026 program transcript; user approved all follow-on recommendations
+(sync MIND profile, CHANGELOG, rule version, current-events sub-note).
+
+────────────────────────────────────────────────────────────
+00004. GOVERNANCE AND TEMPLATE VERSION ALIGNMENT TO v3.2
+────────────────────────────────────────────────────────────
+Date: 2026-02-11
+Type: VERSION (ALIGNMENT)
+
+CHANGES:
+• All governance and template files with declared version < 3.2
+  upgraded to v3.2 for alignment with CMC 3.2.
+• Governance: CHANGELOG, COMPLIANCE–REGISTRY, CIV–SCHOLAR–PRUNING–PROTOCOL,
+  NAMESPACE–CLARIFICATION, SESSION–LEDGER, and all PROPOSAL–* files.
+• Templates: CIV–STATE–TEMPLATE (v1.12→v3.2), CIV–CORE–TEMPLATE, CIV–INDEX–TEMPLATE,
+  CIV–ARC–TEMPLATE, CIV–ARC–LEDGER–TEMPLATE, CIV–DOCTRINE–TEMPLATE, CIV–CEV–TEMPLATE,
+  CIV–MEM–TEMPLATE, CIV–SCHOLAR–TEMPLATE, CIV–SCHOLAR–PROTOCOL, CIV–MIND–TEMPLATE,
+  CIV–MIND–MERCOURIS, CIV–MIND–MEARSHEIMER, CIV–MIND–BARNES, and EXAMPLE–MEM–* files.
+• CIV–SCHOLAR–PRUNING–PROTOCOL compatibility updated to CIV–MEM–CORE v3.2 ·
+  CIV–SCHOLAR–TEMPLATE v3.2.
+• END OF FILE markers and Version: lines updated to 3.2 in all upgraded files.
+
+ORIGIN:
+User requested upgrade of all governance and template files with version < 3.2.
+
+────────────────────────────────────────────────────────────
+00003. HARVEST — EXCLUSIVE GATE FOR STATE → SCHOLAR LEARN
+────────────────────────────────────────────────────────────
+Date: 2026-02-11
+Type: PROCEDURAL (STATE–SCHOLAR TRANSFER)
+
+CHANGES:
+• Only **"harvest"** or **"harvest session"** command in STATE mode
+  may transfer information into SCHOLAR (learn mode). No other
+  mechanism permitted.
+• CIV–STATE–TEMPLATE v1.11 → v1.12: Section XIV-B (Harvest Protocol)
+  added with trigger, procedure (identify → propose → approve →
+  record), and cursor-rule reference. Section XII (Directionality)
+  updated to state harvest as exclusive gate.
+• New cursor rule: cmc-state-scholar-harvest.mdc (trigger, procedure,
+  no automatic harvest).
+• cmc-state-scholar-sync.mdc: "One-Way Only" qualified — transfer
+  into Scholar only via harvest.
+• CMC–BOOTSTRAP: SYNC paragraph updated to add Harvest (only way
+  STATE → Scholar learn).
+• CIV–STATE–RUSSIA, CIV–SCHOLAR–RUSSIA: foundational perspective
+  text updated to cite harvest as sole transfer path.
+
+ORIGIN:
+User specified that only "harvest" / "harvest session" command in
+STATE mode can transfer information into Scholar learn mode.
+
+────────────────────────────────────────────────────────────
+00002. COGNITIVE EXOSKELETON — DESIGN OBJECTIVE AND CONSTRAINTS
+────────────────────────────────────────────────────────────
+Date: 2026-02-11
+Type: GOVERNANCE (STATE PURPOSE, TERMINOLOGY)
+
+CHANGES:
+• CIV–STATE–TEMPLATE v1.10 → v1.11. Section I (PURPOSE & AUTHORITY)
+  now includes subsection "COGNITIVE EXOSKELETON: DESIGN OBJECTIVE
+  AND CONSTRAINTS": beneficiary (principal and/or advisory
+  institution), design objectives (blind-spot reduction, frame
+  transparency, temporal compression), anti-goals (no oracle, no
+  hiding contradiction, no frame-independent truth, no single-point
+  dependency), and duty-of-competence clarification (completeness
+  across three perspectives, not exhaustive option list).
+• TERMINOLOGY–REGISTRY: CIV–STATE entry updated to state that the
+  exoskeleton "extends the principal's cognitive reach (options,
+  precedent, disconfirming evidence) without substituting for
+  judgment."
+
+ORIGIN:
+User asked for ways to improve the "cognitive exoskeleton for head
+of state" design objective. System proposed seven sharpenings;
+user approved drafting. Implemented in template Section I and
+registry.
+
+────────────────────────────────────────────────────────────
+00001. CORE / STATE / SCHOLAR RE-ANCHOR TOGETHER (ENTITY SWITCH)
+────────────────────────────────────────────────────────────
+Date: 2026-02-11
+Type: PROCEDURAL (ENTITY FOCUS, LOAD RULES)
+
+CHANGES:
+• CORE, STATE, and SCHOLAR re-anchor together on civilization/entity
+  switch. When the entity under analysis changes, the previous entity's
+  CIV–CORE, CIV–STATE, and CIV–SCHOLAR cease to govern; load the new
+  entity's CORE and (per mode) STATE file or SCHOLAR file as needed.
+• Load per mode: STATE mode → CORE + STATE file + MEMs; SCHOLAR mode →
+  CORE + SCHOLAR file + MEMs as needed. No automatic load of all three
+  file types every time.
+• Propagated to: CMC–BOOTSTRAP (STATE CORE LOAD), cmc-state-mem-grounding,
+  cmc-scholar-mode, CIV–STATE–TEMPLATE (Section I entity focus),
+  CIV–SCHOLAR–TEMPLATE (XIII entity focus), CIV–SCHOLAR–PROTOCOL (header),
+  CIV–MEM–CORE (Section III after file-type list), CIV–CORE–TEMPLATE (Section I).
+
+ORIGIN:
+User asked whether SCHOLAR, STATE, and CORE should always load/unload
+together. Design: same entity anchors all three; on switch all three
+re-anchor; load only what the current mode needs.
+
+────────────────────────────────────────────────────────────
+00000. GATED SPIRAL AWARENESS RULE
+────────────────────────────────────────────────────────────
+Date: 2026-02-11
+Type: PROCEDURAL SAFEGUARD (EPISTEMIC)
+
+CHANGES:
+• New cursor rule: cmc-gated-spiral-awareness.mdc
+  Encodes system self-awareness of the recursive loop between DOCTRINE
+  (lens), LEARN/STATE (finding), and WRITE (modify DOCTRINE). The loop
+  is by design; the user checkpoint is the gate; ARC is outside the
+  loop. Rule includes self-awareness obligation: when proposing doctrine
+  modifications, the system must note which doctrines governed the
+  analysis that produced the finding, and whether the finding is
+  frame-consistent (higher confirmation-bias risk) or frame-challenging.
+
+ORIGIN:
+Session traversed the full loop in one sitting: STATE–RUSSIA doctrine
+check (v3.2 → v3.3) → SCHOLAR LEARN (DOCTRINE 06 through Nicholas II,
+Rome, Ottoman Empire) → SCHOLAR WRITE (DOCTRINE 07 encoded, six MEMs
+enhanced, v3.3 → v3.4). User identified the recursive architecture;
+system analysed it; both concluded: gated spiral, not vicious circle.
+The residual risk — that the lens shapes the learning and the learning
+shapes the lens — is inherent and cannot be fully eliminated, only
+mitigated through transparency and existing safeguards.
+
+────────────────────────────────────────────────────────────
+0000. CIV–DOCTRINE–RUSSIA v3.4 — DOCTRINE 07 (CORRECTION MECHANISM ABSENCE)
+────────────────────────────────────────────────────────────
+Date: 2026-02-11
+Type: CONTENT UPDATE (ADDITIVE)
+
+CHANGES:
+• CIV–DOCTRINE–RUSSIA upgraded from v3.3 to v3.4.
+• DOCTRINE 07 (CORRECTION MECHANISM ABSENCE): New doctrine. Encodes the
+  finding that Russian autocracy lacks an institutionalised mechanism for
+  correcting sovereign dysfunction from within the elite. Buffers
+  (DOCTRINE 02) absorb external shocks but cannot remove or replace a
+  ruler whose personal behaviour degrades the system. Cross-civilisational
+  comparative evidence: Rome's Praetorian correction (Caligula, ad hoc,
+  succeeded), Ottoman Janissary corrections (institutionalised, succeeded
+  repeatedly 1622–1807), Russia (improvised, failed — Nicholas II 1917).
+
+ORIGIN:
+SCHOLAR LEARN session traced DOCTRINE 06 (Fiscal-Personalist Incoherence)
+through Nicholas II's Duma oscillation (1905–1917), then compared elite
+self-policing across three civilisations (Rome, Ottoman, Russia). The
+session found that DOCTRINE 02's buffer function is one-directional —
+it addresses external shocks but not sovereign-generated dysfunction. The
+correction-mechanism absence explains why Russian fiscal-personalist
+incoherence is terminal rather than recoverable: correction arrives only
+after institutional depth is already exhausted.
+
+────────────────────────────────────────────────────────────
+000. CIV–DOCTRINE–RUSSIA v3.3 — DOCTRINE 02/04 REFINEMENT + DOCTRINE 06
+────────────────────────────────────────────────────────────
+Date: 2026-02-11
+Type: CONTENT UPDATE (ADDITIVE)
+
+CHANGES:
+• CIV–DOCTRINE–RUSSIA upgraded from v3.2 to v3.3.
+• DOCTRINE 02 (BUFFERED AUTOCRACY): Added decision-quality distortion
+  mechanism to Operational Meaning — unbuffered personalism causes
+  decisions to optimise for the leader's survival horizon. Added Hard
+  Constraint: elimination of competing advisory voices degrades decision
+  quality. Source: MEM–RUSSIA–PANIN, CIV–STATE–RUSSIA v1.7.
+• DOCTRINE 04 (ELITE CAPACITY BOUND): Added purge-redistribution failure
+  mode to Operational Meaning — dismantling an institutional bloc and
+  redistributing rents produces factional competition, not cohesion,
+  even under active survival framing. Added Hard Constraint: purge-
+  redistribution without institutional reabsorption triggers factional
+  competition. Source: ARC-sourced doctrine check Feb 2026; Carnegie
+  Politika (ARC E/RESEARCH); Meduza (ARC E/NEWS).
+• DOCTRINE 06 (FISCAL-PERSONALIST INCOHERENCE): New doctrine. Captures
+  the interaction between DOCTRINE 02 and DOCTRINE 05 — fiscal pressure
+  demands settlement while personalist structure resists it, producing
+  diplomatic engagement without binding commitment. Source: CIV–STATE–
+  RUSSIA v1.7 Section VII; ARC-sourced doctrine check Feb 2026.
+
+ORIGIN:
+ARC-sourced doctrine check session (February 2026) revealed three gaps
+between existing doctrine definitions and analytical findings derived
+from multi-source evidence. All changes are additive refinements or a
+new doctrine — no definitions replaced, no doctrines deleted, no
+acceptance statuses changed. Consistent with "Supersession is additive
+only" rule.
+
+────────────────────────────────────────────────────────────
+00. ARC SOURCE COVERAGE RULE + STATE-RUSSIA v1.7
+────────────────────────────────────────────────────────────
+Date: 2026-02-11
+Type: PROCEDURAL SAFEGUARD + CONTENT UPDATE
+
+CHANGES:
+• New cursor rule: cmc-arc-source-coverage.mdc
+  Requires consultation of multiple ARC source categories
+  before presenting evidence in STATE mode or doctrine checks.
+  Prevents one-sided citation of Western specialist sources
+  without consulting entity's own official/institutional data.
+• CIV–STATE–RUSSIA upgraded to v1.7:
+  - Evidence Update 5 added to Option A (Endurance Through
+    Attrition) with ARC-sourced findings and source contradiction
+    on replacement-burn constraint
+  - Evidence Update 2 added to Option B (Negotiated Settlement)
+    with DOCTRINE 05/02 interaction finding and June projection
+  - New pattern added to Section VII: Doctrine Interaction —
+    Fiscal vs Personalist Incoherence
+  - Stability Indicator (Elite cohesion) updated with ARC-sourced
+    purge evidence from Carnegie and Meduza
+  - Endurance pattern in Section VII corrected with source
+    contradiction and ARC attribution
+
+ORIGIN:
+Doctrine check session found the system cited Western specialist
+estimates as settled fact without consulting Russian official
+sources (TASS, Kremlin, CBR). Violated the source contradiction
+rule built into CIV–STATE–TEMPLATE. Corrected assessment
+consulted ARC sources across all categories and preserved
+contradictions where sources disagreed.
+
+────────────────────────────────────────────────────────────
+0. NEGATIVE CLAIM CORPUS CHECK
+────────────────────────────────────────────────────────────
+Date: 2026-02-11
+Type: PROCEDURAL SAFEGUARD
+
+CHANGES:
+• New cursor rule: cmc-negative-claim-check.mdc
+• Requires MEM corpus search before asserting that a
+  civilisation lacks a quality, trait, tradition, or pattern
+• Applies to all analytical modes (SCHOLAR, STATE)
+• Specific protection against divergence analysis bias:
+  contrast-seeking suppresses counter-evidence
+
+ORIGIN:
+Session finding — divergence analysis of STATE-RUSSIA and
+STATE-GERMANY claimed "Russia's civilisational grammar has
+no category for voluntary self-restraint as strength." The
+MEM corpus contained four strong counter-examples (Panin,
+Kutuzov, Vienna, Nevsky) that were not consulted. Same bias
+suppressed German assertiveness evidence (Bismarck, Teutonic
+Order, Hanseatic League). Washington (MEM-ANGLIA-WASHINGTON)
+was also missed — the strongest case of personal restraint
+becoming institutional norm.
+
+────────────────────────────────────────────────────────────
+I. PURPOSE
+────────────────────────────────────────────────────────────
+This file consolidates governance change history.
+
+Previously, upgrade notes were embedded in every governance file,
+accumulating hundreds of lines of version history across the repository.
+
+Under CMC 3.1 Version Decoupling:
+• Governance changes are logged HERE
+• Individual files no longer contain upgrade notes
+• History is centralized and searchable
+
+────────────────────────────────────────────────────────────
+II. COUNSEL → STATE RENAME
+────────────────────────────────────────────────────────────
+Date: 2026-02-11
+Type: STRUCTURAL
+
+CHANGES:
+• COUNSEL mode renamed to STATE mode system-wide
+• CIV–COUNSEL file type renamed to CIV–STATE
+• Conceptual shift: cognitive exoskeleton serves the head
+  of state directly, not through an advisor character
+• 4 files renamed: CIV–STATE–GERMANY, CIV–STATE–RUSSIA,
+  CIV–STATE–TEMPLATE, cmc-state-mem-grounding
+• ~148 content replacements across 24 files (governance,
+  templates, cursor rules, MIND files, content files)
+• TERMINOLOGY–REGISTRY entry updated with new description
+
+EXCLUSIONS:
+• ANGLIA MEM files using "counsel" as historical term
+  (MEM–ANGLIA–LAW–PARLIAMENT, MEM–ANGLIA–ELIZABETH–I)
+  were not modified
+
+────────────────────────────────────────────────────────────
+III. CMC 3.2 — THREE-MODE ARCHITECTURE EDITION
+────────────────────────────────────────────────────────────
+Date: 2026-02-10
+Type: STRUCTURAL
+
+CHANGES:
+• Three top-level modes: SCHOLAR / STATE / SYSTEM (peers)
+• CIV–STATE file type: present-oriented decision support
+  with duty of competence and three-perspective completeness
+• CIV–STATE–TEMPLATE v1.2 created
+• SYSTEM mode: governance maintenance, auditing, template
+  management separated from analytical work
+• CMC–BOOTSTRAP updated with three-mode Quick Start
+• TERMINOLOGY–REGISTRY created: load-bearing/decorative
+  classification, new-term gate protocol
+• Decorative term replacements across governance files:
+  OGE → options menu, Blend Law → content proportion rule,
+  TRI-FRAME → three-perspective analysis,
+  POST-BARNES → after liability analysis,
+  CCM → cross-civilizational misperception
+• Barnes reclassified: TERTIARY CATALYST →
+  LIABILITY/MECHANISM PERSPECTIVE
+• Previous CMC 3.2 proposals re-scoped to CMC 3.3
+• All governance files aligned to CMC 3.2
+
+IMPLEMENTATION:
+• CIV–STATE–RUSSIA v1.3 created (pilot)
+• CMC–BOOTSTRAP restructured for three-mode architecture
+• TERMINOLOGY–REGISTRY.md created
+• VERSION–MANIFEST v3.1 → v3.2
+• CIV–MEM–CORE v3.1 → v3.2
+• All templates and MIND profiles: governance references updated
+
+RATIONALE:
+• Separated present-oriented analysis (STATE) from
+  historical learning (SCHOLAR)
+• Separated system maintenance (SYSTEM) from analytical work
+• Reduced jargon: removed 10 decorative terms
+• Formal gate prevents future jargon creep
+
+────────────────────────────────────────────────────────────
+II-B. CMC 3.3 — PROPOSALS (re-scoped from 3.2)
+────────────────────────────────────────────────────────────
+Date: 2026-02-03 (original), 2026-02-10 (re-scoped)
+Status: DRAFT (Proposals pending approval)
+Type: STRUCTURAL
+
+The following proposals were originally designated CMC 3.2. They are
+re-scoped to CMC 3.3. STATE partially absorbs the Current Events
+Protocol concept.
+
+────────────────────────────────────────────────────────────
+II-B.A CMC 3.3 — CURRENT EVENTS PROTOCOL (CEP) — PARTIALLY ABSORBED
+────────────────────────────────────────────────────────────
+Proposal: PROPOSAL–CURRENT–EVENTS–PROTOCOL.md
+Status: DRAFT
+
+CHANGES:
+• Bidirectional learning: Forward application (MEMs → events) and
+  backward illumination (events → MEM insights)
+• CEP source attribution format for current event sources
+• Integration with SCHOLAR files for insight capture
+• OGE options for CEP analysis (e.g. "Apply MIND to [event]")
+
+RATIONALE:
+• Enable structured analysis of current events against historical patterns
+• Bidirectional: current events reveal new insights about historical MEMs
+• Preserve ephemeral analysis while protecting canonical MEMs
+
+────────────────────────────────────────────────────────────
+II-B.B CMC 3.3 — TIERED RETRIEVAL
+────────────────────────────────────────────────────────────
+Proposal: PROPOSAL–TIERED–RETRIEVAL.md
+Status: DRAFT
+
+CHANGES:
+• MEM-first search hierarchy before web fallback
+• Gap identification from web fallback queries
+• Source attribution requirements for both sources
+• Mode-specific retrieval guidance (LEARN, WRITE, IMAGINE)
+
+RATIONALE:
+• Prioritize structured historical knowledge over ephemeral web content
+• Identify corpus gaps from unfulfilled MEM queries
+• Maintain analytical rigor when using external sources
+
+────────────────────────────────────────────────────────────
+II-B.C CMC 3.3 — LIVING ARC
+────────────────────────────────────────────────────────────
+Proposal: PROPOSAL–LIVING–ARC.md
+Status: DRAFT
+
+CHANGES:
+• Three-tier source lifecycle: CANON, VALIDATED, PROVISIONAL
+• Automatic elevation based on usage (5+ citations or 2+ insights)
+• 90-day expiration for unreused PROVISIONAL sources
+• EVOLUTION LOG for source lifecycle tracking
+• Human gate for CANON tier (no automatic permanence)
+
+RATIONALE:
+• Transform static bibliographies into adaptive source ecosystems
+• Let usage patterns reveal source quality
+• Integrate analyst sources (Mercouris, Mearsheimer transcripts) into canon
+• Maintain human oversight for permanent decisions
+
+────────────────────────────────────────────────────────────
+II-B.D CMC 3.3 — MIND NAVIGATION PROTOCOL
+────────────────────────────────────────────────────────────
+Protocol: PROTOCOL–MIND–NAVIGATION.md
+Status: ACTIVE
+
+CHANGES:
+• MIND influences navigation, not just voice
+• Connection affinity matrix: MIND × Connection Type → Weight
+• Source affinity matrix: MIND × Source Type → Weight
+• Concept category affinity matrix: MIND × Category → Weight
+• MIND activation model: Default (Mercouris), OGE Selection (B/C), Manual Command
+• Stateless activation: MIND determined fresh each turn
+• Blend Law / MIND-Navigation interaction clarified
+
+IMPLEMENTATION:
+• PROTOCOL–MIND–NAVIGATION.md created
+• MIND files updated with NAVIGATION PREFERENCES section
+• cmc-oge-enforcement.mdc updated with MIND-influenced traversal
+• cmc-scholar-mode.mdc updated with MIND navigation awareness
+• cmc-blend-law.mdc updated with MIND-Navigation interaction
+• CONCEPT–INDEX.md updated with MIND affinities
+• PROPOSAL–LIVING–ARC.md updated with MIND-Navigation integration
+
+RATIONALE:
+• Coherent sessions where perspective shapes what is surfaced
+• Connection traversal aligned with active MIND's analytical lens
+• Source selection prioritizes materials suited to MIND's mode
+• Concept emphasis aligned with MIND's focus
+
+────────────────────────────────────────────────────────────
+II-B.E CMC 3.3 — IMPLEMENTATION ROADMAP
+────────────────────────────────────────────────────────────
+Document: ROADMAP–CMC–3.2.md
+Status: ACTIVE
+
+CHANGES:
+• Unified implementation plan for all CMC 3.2 protocols
+• Four-phase implementation: Establishment, Automation, Integration, Optimization
+• Dependency graph showing protocol relationships
+• Schema updates for cmc-console
+• Success metrics per phase
+
+────────────────────────────────────────────────────────────
+III. CMC 3.1 — VERSION DECOUPLING EDITION
+────────────────────────────────────────────────────────────
+Date: 2026-02-04
+Type: STRUCTURAL
+
+CHANGES:
+• Introduced single CMC Governance Version
+• Decoupled content versions from governance versions
+• Created COMPLIANCE–REGISTRY.md for centralized tracking
+• Created CHANGELOG.md (this file) for version history
+• Simplified MEM header format (removed governance declarations)
+• Updated VERSION–MANIFEST to new structure
+
+RATIONALE:
+• Eliminated batch upgrade burden when governance changes
+• Reduced header clutter in MEM files (saved ~6 lines per file)
+• Centralized compliance tracking for queryability
+• Single source of truth for governance version
+
+IMPLEMENTATION:
+• PROPOSAL–VERSION–DECOUPLING.md (accepted)
+• VERSION–MANIFEST v3.0 → v3.1
+• New: COMPLIANCE–REGISTRY.md v1.0
+• New: CHANGELOG.md v1.0
+
+MIGRATION:
+• Existing files with old headers remain valid
+• New files use simplified format
+• No batch upgrade required
+
+────────────────────────────────────────────────────────────
+II.B CMC 3.1 — TYPED CONNECTIONS
+────────────────────────────────────────────────────────────
+Date: 2026-02-04
+Type: STRUCTURAL
+
+CHANGES:
+• Replaced mechanical connection counts with typed directional edges
+• Introduced 7 connection types: DEPENDS_ON, ENABLES, CONTRADICTS,
+  PARALLELS, TEMPORAL_BEFORE, TEMPORAL_AFTER, GEOGRAPHIC
+• Updated CIV–MEM–TEMPLATE Section X with new format
+• Created CONNECTION–TYPES.md reference document
+• Updated database schema with new relationship types
+
+RATIONALE:
+• Connections now meaningful, not mechanical
+• Graph traversal produces reasoning chains
+• Cross-civ patterns discoverable via PARALLELS
+• Tensions explicit via CONTRADICTS
+• OGE options can leverage connection types
+
+IMPLEMENTATION:
+• PROPOSAL–TYPED–CONNECTIONS.md (accepted)
+• CIV–MEM–TEMPLATE Section X rewritten
+• New: CONNECTION–TYPES.md
+• New: EXAMPLE–MEM–TYPED–CONNECTIONS.md
+• Updated: tools/cmc-console/lib/db/schema.sql
+
+MIGRATION:
+• Existing untyped connections remain valid
+• New MEMs use typed format
+• No batch migration required
+
+────────────────────────────────────────────────────────────
+II.C CMC 3.1 — OGE SIMPLIFICATION (MODIFIED)
+────────────────────────────────────────────────────────────
+Date: 2026-02-04
+Type: STRUCTURAL
+CORE Version: CIV–MEM–CORE v3.1
+
+DECISION: MODIFY — Keep 8-slot structure, remove state tracking
+
+RATIONALE:
+The 8-slot design intentionally surfaces system capabilities. Each slot
+teaches users what the system can do. This pedagogical value was preserved.
+
+CHANGES:
+• Slots remain fixed (A=Mercouris always, B=Mearsheimer always, etc.)
+• Removed POST-BARNES semantic shift (slots no longer change meaning)
+• Removed state tracking of which MIND spoke last
+• Increased label length to 10-20 words (clearer than 6-10)
+• Added contextual notes instead of slot shifts
+
+PRESERVED:
+• 8 options (A–H) as capability menu
+• Fixed slot assignments for all modes
+• Required OGE after every substantive turn
+
+REMOVED:
+• POST-BARNES mandatory M/M response options
+• Semantic shift of A and B after Barnes
+• State tracking across turns
+
+IMPLEMENTATION:
+• PROPOSAL–OGE–SIMPLIFICATION.md v1.1 (modified acceptance)
+• cmc-oge-enforcement.mdc — Updated
+• cmc-tri-frame-protocol.mdc — Updated
+• cmc-scholar-mode.mdc — Updated
+
+────────────────────────────────────────────────────────────
+II.D CMC 3.1 — CONCEPT INDEX
+────────────────────────────────────────────────────────────
+Date: 2026-02-04
+Type: ADDITIVE
+
+CHANGES:
+• Created CONCEPT–INDEX.md with ~40 analytical concepts
+• Added optional CONCEPTS section to CIV–MEM–TEMPLATE (XXV.E)
+• Added concepts and mem_concepts tables to database schema
+• Concepts organized by frame: Mearsheimer, Mercouris, Barnes, Cross-cutting
+• OGE can leverage concept similarity for traversal options
+
+RATIONALE:
+• Enable semantic discovery across 1,000+ files
+• Cross-civ pattern recognition via shared concepts
+• Smarter OGE options based on conceptual similarity
+• Foundation for future semantic search
+
+IMPLEMENTATION:
+• PROPOSAL–CONCEPT–INDEX.md (accepted)
+• New: CONCEPT–INDEX.md
+• New: EXAMPLE–MEM–CONCEPT–TAGS.md
+• Updated: CIV–MEM–TEMPLATE Section XXV.E
+• Updated: tools/cmc-console/lib/db/schema.sql
+• Updated: cmc-scholar-mode.mdc
+
+PHASE STATUS:
+• Phase 1 (Taxonomy): Complete
+• Phase 2 (Tag MEMs): Pending
+• Phase 3 (Tooling): Pending
+• Phase 4 (Ongoing): Active
+
+────────────────────────────────────────────────────────────
+III. CMC 3.0 — CONSOLIDATION EDITION
+────────────────────────────────────────────────────────────
+Date: 2026-02-02
+Type: ALIGNMENT
+
+CHANGES:
+• Consolidated v2.1–v2.9 iterations into single architectural statement
+• All governance and template files aligned to v3.0
+• MAJOR VERSION CONSTRAINT lifted (other docs may advance to v3.x)
+• Cognitive Structure section added to CMC–BOOTSTRAP
+
+KEY DOCUMENTS UPGRADED:
+• CIV–MEM–CORE v2.9 → v3.0
+• CMC–BOOTSTRAP v2.14 → v3.0
+• All templates → v3.0
+• All MIND profiles → v3.0
+
+────────────────────────────────────────────────────────────
+IV. CMC 2.x — DEVELOPMENT ITERATIONS
+────────────────────────────────────────────────────────────
+Period: 2026-01 to 2026-02
+
+MAJOR MILESTONES:
+
+v2.9 (2026-01-31): Trans-Sovereign Patterns
+• New Section XXIX in CIV–MEM–CORE
+• TSP types: TRANSMISSION, NETWORK, RECONSTITUTION
+• Cross-civilizational filing requirements
+
+v2.8 (2026-01-29): Cross-Civilizational Misperception
+• CCM governance stance
+• Scholar-on-Scholar explanation divergence
+• SDI second-order interpretation
+
+v2.7 (2026-01-29): OGE Connection Awareness
+• MEM CONNECTIONS inform OGE options
+• Traversal and gap-detection options
+
+v2.6 (2026-01-28): MIND Integration
+• Mearsheimer command formalization
+• RLL interaction constraints
+• Scholarly Authority Protocol (SAP)
+
+v2.5 (2026-01-26): Barnes Catalyst
+• CIV–MIND–BARNES v2.5 (expanded fingerprint)
+• POST-BARNES OGE requirements
+• Tertiary catalyst role formalized
+
+────────────────────────────────────────────────────────────
+V. CMC 1.x — INITIAL ARCHITECTURE
+────────────────────────────────────────────────────────────
+Period: 2025
+
+FOUNDATION:
+• CIV–MEM–CORE initial creation
+• Three-MIND architecture (Mercouris/Mearsheimer/Barnes)
+• SCHOLAR modes (WRITE/LEARN/IMAGINE)
+• MEM file structure
+• ARC (Academic Reference Canon)
+• OGE (Option Generation Engine)
+
+────────────────────────────────────────────────────────────
+VI. CONVENTIONS
+────────────────────────────────────────────────────────────
+CHANGELOG ENTRY FORMAT:
+```
+────────────────────────────────────────────────────────────
+[VERSION] — [TITLE]
+────────────────────────────────────────────────────────────
+Date: YYYY-MM-DD
+Type: STRUCTURAL | ALIGNMENT | ADDITIVE | FIX
+
+CHANGES:
+• [Change 1]
+• [Change 2]
+
+RATIONALE:
+[Why this change was made]
+
+IMPLEMENTATION:
+[What files were modified]
+```
+
+TYPES:
+• STRUCTURAL: Major architectural changes
+• ALIGNMENT: Version synchronization across files
+• ADDITIVE: New features or sections
+• FIX: Corrections to existing content
+
+────────────────────────────────────────────────────────────
+END OF FILE — CHANGELOG v1.0
+────────────────────────────────────────────────────────────

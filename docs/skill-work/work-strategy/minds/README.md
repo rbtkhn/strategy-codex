@@ -12,7 +12,7 @@
 
 **Index:** [strategy-notebook/minds/README.md](../strategy-notebook/minds/README.md)
 
-**civ-mem** (`research/repos/civilization_memory`) remains the **full** upstream corpus (MEMs, CORE, etc.). It is **optional** for mind profiles: use only if you want **diff** or **governance-only** templates alongside Grace-Mar’s SSOT minds.
+**civ-mem** (`research/repos/civilization_memory`) is the **full** local corpus tracked in strategy-codex (MEMs, CORE, etc.). It is **optional** for mind profiles: use only if you want historical depth or governance-only templates alongside Grace-Mar’s SSOT minds. Snapshot provenance lives in `research/repos/civilization_memory/STRATEGY-CODEX-PROVENANCE.md`.
 
 **Tri-frame routing** (which upstream files to open for Mercouris / Mearsheimer / Barnes): [CIV-MEM-TRI-FRAME-ROUTING.md](CIV-MEM-TRI-FRAME-ROUTING.md). **Indexing / search:** [CIV-MEM-UPSTREAM-SEARCH.md](CIV-MEM-UPSTREAM-SEARCH.md).
 

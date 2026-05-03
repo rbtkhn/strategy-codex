@@ -118,8 +118,8 @@ Per [work-template/README.md](../work-template/README.md) § *Risk-mitigation ch
 
 1. **Stop active stewardship** of the fork/workspace — companion decision; document in [workspace.md](workspace.md) or this README (one “last reviewed / status” line).
 2. Close open **prepared contribution** notes with explicit **wontfix** or **upstream superseded** — no ghost tickets.
-3. Archive Grace-Mar-only stewardship memos under dated pointers; **do not** strip `research/repos/civilization_memory/` history or pretend the external repo is deprecated from Grace-Mar without upstream reality.
-4. Remove or narrow automation (`scripts/` bridges) only after nothing depends on them; **CMC upstream** remains the source of truth for corpus rules.
+3. Archive Grace-Mar-only stewardship memos under dated pointers; preserve the civ-mem provenance note in `research/repos/civilization_memory/STRATEGY-CODEX-PROVENANCE.md` when the local snapshot is refreshed or retired.
+4. Remove or narrow automation (`scripts/` bridges) only after nothing depends on them; the local snapshot is the working corpus here, while upstream remains a historical reference for provenance and manual refresh.
 
 ### 4. Scope creep guardrail
 

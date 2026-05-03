@@ -1,0 +1,173 @@
+CIV–INDEX–ISLAM — v3.1
+Civilizational Memory Codex · Civilization Index File
+Repository: https://github.com/rbtkhn/civilization_memory
+
+Status: ACTIVE · CANONICAL · LOCKED
+Version: 3.1
+Supersedes: CIV–INDEX–ISLAM v3.0
+Upgrade Type: SYNC · INDEX PARITY WITH ROME & TEMPLATE
+Civilization: ISLAM
+Subject: Islam Memory Index (Authoritative File Register)
+Class: CIV–INDEX
+Governed by: CIV–MEM–CORE v3.0
+Last Update: February 2026
+
+Derived from: CIV–INDEX–TEMPLATE v3.0
+
+TOTAL REGISTERED MEM FILES: 65
+
+────────────────────────────────────────────────────────────
+UPGRADE NOTE (v3.1) — SYNC & TEMPLATE ALIGNMENT
+────────────────────────────────────────────────────────────
+v3.1 aligns with CIV–INDEX–ROME and CIV–INDEX–TEMPLATE:
+• Subtitle: "Civilization Index File" (was "Index File"); added Subject line; added Derived from.
+• Version set to 3.1; Supersedes v3.0.
+
+────────────────────────────────────────────────────────────
+I. PURPOSE & INDEX GOVERNANCE
+────────────────────────────────────────────────────────────
+
+This file is the authoritative index of all MEM–ISLAM files and canonical governance files for the Islam civilization.
+
+INDEX ROLE:
+• Canonical registry for Islam memory objects and governance files
+• Scholar-mode discovery spine
+• Naming and registration authority
+
+No interpretation, synthesis, or doctrine is permitted here.
+Entries are registrational only.
+
+────────────────────────────────────────────────────────────
+II. CANONICAL GOVERNANCE FILES
+────────────────────────────────────────────────────────────
+
+• CIV–CORE–ISLAM — v2.0 (Sacred-Zone · Exit-Primacy · Demographic–Chokepoint)
+• CIV–SCHOLAR–ISLAM — v2.0 (Phase I Accumulation)
+• CIV–ARC–ISLAM — v2.0 (Author Admissibility & Temporal Precedence)
+
+CIV–DOCTRINE–ISLAM: Not present.
+
+────────────────────────────────────────────────────────────
+III. REGISTERED MEM FILES — PERSONS & FIGURES
+────────────────────────────────────────────────────────────
+
+• MEM–ISLAM–MOHAMMAD.md
+• MEM–ISLAM–SALADIN.md
+• MEM–ISLAM–MONGOL–HULEGU.md
+
+────────────────────────────────────────────────────────────
+IV. REGISTERED MEM FILES — SECTARIAN & DOCTRINAL
+────────────────────────────────────────────────────────────
+
+• MEM–ISLAM–SUNNI.md
+• MEM–ISLAM–SHIA.md
+• MEM–ISLAM–ASSASSINS.md
+
+────────────────────────────────────────────────────────────
+V. REGISTERED MEM FILES — DYNASTIC & REGIME
+────────────────────────────────────────────────────────────
+
+• MEM–ISLAM–DYNASTY–RASHIDUN.md
+• MEM–ISLAM–UMAYYAD–CALIPHATE.md
+• MEM–ISLAM–DYNASTY–ABBASID.md
+• MEM–ISLAM–DYNASTY–FATIMID.md
+• MEM–ISLAM–DYNASTY–SELJUK.md
+• MEM–ISLAM–DYNASTY–AYYUBID.md
+• MEM–ISLAM–MONGOL–ILKHANATE.md
+• MEM–ISLAM–DYNASTY–KHWARAZM.md
+• MEM–ISLAM–DYNASTY–MAMLUK.md
+• MEM–ISLAM–OTTOMAN–EMPIRE.md
+• MEM–ISLAM–DYNASTY–SAFAVID.md
+• MEM–ISLAM–DYNASTY–MUGHAL.md
+
+────────────────────────────────────────────────────────────
+VI. REGISTERED MEM FILES — WARS & CIVILIZATIONAL SHOCKS
+────────────────────────────────────────────────────────────
+
+• MEM–ISLAM–CRUSADES.md
+• MEM–ISLAM–WAR–AYN–JALUT.md
+• MEM–ISLAM–WAR–THIRD–CRUSADE.md
+• MEM–ISLAM–MONGOL–EMPIRE — v1.0.md
+• MEM–ISLAM–CALIPHATE–ABOLITION.md
+
+────────────────────────────────────────────────────────────
+VII. REGISTERED MEM FILES — IMPERIAL CAPITALS & SYMBOLIC CITIES
+────────────────────────────────────────────────────────────
+
+• MEM–ISLAM–MECCA.md
+• MEM–ISLAM–MEDINA.md
+• MEM–ISLAM–PALESTINE–JERUSALEM.md
+• MEM–ISLAM–DAMASCUS.md
+• MEM–ISLAM–BAGHDAD.md
+• MEM–ISLAM–CAIRO.md
+• MEM–ISLAM–CORDOBA.md
+• MEM–ISLAM–CONSTANTINOPLE.md
+
+────────────────────────────────────────────────────────────
+VII-A. REGISTERED MEM FILES — CIVILIZATIONAL INTERFACES
+────────────────────────────────────────────────────────────
+
+• MEM–ISLAM–ARMENIA.md
+• MEM–ISLAM–HUNGARY.md
+• MEM–ISLAM–PERSIA.md
+• MEM–ISLAM–RUSSIA.md
+• MEM–ISLAM–SERBIA.md
+• MEM–ISLAM–WALLACHIA.md
+
+────────────────────────────────────────────────────────────
+VIII. REGISTERED MEM FILES — GEOGRAPHY & SPATIAL CONTROL (GEO)
+────────────────────────────────────────────────────────────
+
+• MEM–ISLAM–SICILY.md
+• MEM–ISLAM–GEO–KASHMIR
+• MEM–ISLAM–GEO–XINJIANG.md
+• MEM–ISLAM–GEO–ARABIA.md
+• MEM–ISLAM–GEO–PERSIAN–GULF.md
+• MEM–ISLAM–GEO–HORMUZ–STRAIT.md
+• MEM–ISLAM–GEO–INDIAN–OCEAN.md
+• MEM–ISLAM–GEO–RED–SEA.md
+• MEM–ISLAM–GEO–SAHARA–DESERT.md
+• MEM–ISLAM–LIBYA.md
+• MEM–ISLAM–GEO–MEDITERRANEAN–SEA.md
+• MEM–ISLAM–GEO–BLACK–SEA.md
+• MEM–ISLAM–GEO–CAUCASUS.md
+• MEM–ISLAM–GEO–CASPIAN–SEA.md
+• MEM–ISLAM–GEO–LEVANT.md
+• MEM–ISLAM–GEO–BALKANS.md
+• MEM–ISLAM–GEO–IBERIA.md
+• MEM–ISLAM–GEO–MALACCA–STRAIT.md
+• MEM–ISLAM–GEO–NILE–RIVER.md
+• MEM–ISLAM–EGYPT.md
+• MEM–ISLAM–GEO–TIGRIS–RIVER.md
+• MEM–ISLAM–GEO–EUPHRATES–RIVER.md
+• MEM–ISLAM–GEO–INDUS–RIVER.md
+• MEM–ISLAM–GEO–PACIFIC–OCEAN.md
+• MEM–ISLAM–GEO–ATLANTIC–OCEAN.md
+• MEM–ISLAM–SILK–ROAD.md
+
+────────────────────────────────────────────────────────────
+IX. INDEX STATUS & GOVERNANCE
+────────────────────────────────────────────────────────────
+
+• This index must be updated whenever a new MEM–ISLAM file is added.
+• Filenames listed here are canonical.
+• Ordering reflects civilizational logic, not chronology.
+• Cross-civilization mirrors (ROME / FRANCE / GERMANY) are indexed separately.
+
+────────────────────────────────────────────────────────────
+X. CANONICAL LOCK NOTICE
+────────────────────────────────────────────────────────────
+
+This index is LOCKED. Additive updates only. No deletions, reordering, or silent modification.
+
+────────────────────────────────────────────────────────────
+XI. ACADEMIC REFERENCE CANON (ARC)
+────────────────────────────────────────────────────────────
+
+• CIV–ARC–ISLAM — v2.0
+
+Governs author admissibility and temporal precedence for MEM–ISLAM files. See CIV–ARC–ISLAM for approved author lists (ARC-T-ANCIENT, MEDIEVAL, EARLY-MOD, MODERN).
+
+────────────────────────────────────────────────────────────
+END OF FILE — CIV–INDEX–ISLAM — v3.1
+────────────────────────────────────────────────────────────

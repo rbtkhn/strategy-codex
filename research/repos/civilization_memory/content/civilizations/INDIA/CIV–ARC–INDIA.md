@@ -1,0 +1,271 @@
+CIV–ARC–INDIA — v3.5
+Civilizational Memory Codex · Academic Reference Canon
+Author Admissibility & Temporal Precedence · INDIA
+
+Status: ACTIVE · CANONICAL
+Version: 3.5
+Supersedes: CIV–ARC–INDIA v3.4
+Upgrade Type: ADDITIVE · John Keegan (ARC-T-MODERN)
+Civilization: INDIA
+Governed by: CIV–MEM–CORE v3.0 · CIV–ARC–TEMPLATE v3.0
+Referenced in: CIV–CORE–INDIA · CIV–SCHOLAR–INDIA
+Last Update: February 2026
+
+────────────────────────────────────────────────────────────
+I. PURPOSE & SCOPE
+────────────────────────────────────────────────────────────
+ARC governs author admissibility and temporal precedence for
+MEM–INDIA files only. Quotation quantity and quality are
+governed by CIV–MEM–TEMPLATE.
+
+**Indigenous-language quote requirement (MEM–INDIA):** Each MEM–INDIA
+file MUST contain at least one verbatim quote (≥25 words) from an
+indigenous-language source admissible for this requirement. Admissible
+sources: Kautilya (Arthashastra), Ashoka (Edicts), Kalhana
+(Rajatarangini), Babur (Baburnama), Abul Fazl (Akbarnama, Ain-i-Akbari),
+or any ARC-T-MODERN Hindi reference (Hindi Vishwakosh, Bharatkosh,
+Bharatiya Sanskriti Kosh, Hindi Sahitya Kosh). English translation with
+clear source attribution is sufficient. Per CIV–ARC–TEMPLATE § IV-A.
+
+────────────────────────────────────────────────────────────
+II. ARC-TEMPORAL CATEGORIES (ARC-T)
+────────────────────────────────────────────────────────────
+ARC-T-ANCIENT — Foundational period; direct witnesses (pre-500 AD).
+  Vedic, Mauryan, Gupta-era sources; inscriptions; Arthashastra; Ashoka edicts.
+ARC-T-MEDIEVAL — Medieval transmission (500–1500 AD).
+  Islamic-era chronicles of India; Al-Biruni; Kalhana; regional traditions.
+ARC-T-EARLY-MOD — c. 1500–1900; typically out of copyright.
+  Mughal-era and British-era historiography; travel and administrative accounts.
+ARC-T-MODERN — c. 1900–present; current scholarship.
+
+Precedence: ANCIENT > MEDIEVAL > EARLY-MOD > MODERN.
+Later periods may clarify; they may not override earlier testimony.
+
+────────────────────────────────────────────────────────────
+III. AUTHOR ADMISSIBILITY LISTS
+────────────────────────────────────────────────────────────
+**Verbatim citation count:** The number in brackets [N] after each source
+is the count of MEM–INDIA files that cite that source verbatim (block
+quote with attribution) as of the last ARC update. Re-run count when
+MEM corpus or ARC is updated.
+
+ARC-T-ANCIENT:
+• Kautilya (4th–3rd c. BCE) — Arthashastra (statecraft, political economy) [9]
+• Ashoka — Edicts (3rd c. BCE); rock and pillar edicts [10]
+• Megasthenes (3rd c. BCE) — Indica (fragmentary; Greek account of Mauryan India) [0]
+• Patanjali (2nd c. BCE) — Mahabhashya; Yoga Sutras (as applicable) [0]
+• Strabo (64 BCE–c. 24 CE) — Geographica (India passages) [0]
+• Arrian (c. 86–c. 146 CE) — Indica; Anabasis of Alexander (India campaigns) [0]
+
+ARC-T-MEDIEVAL:
+• Al-Biruni (973–1048) — Kitab fi Tahqiq ma li-l-Hind (Alberuni's India) [0]
+• Kalhana (12th c.) — Rajatarangini (River of Kings; Kashmir) [0]
+• Amir Khusrau (1253–1325) — Persian chronicles; Indo-Persian court [0]
+• Ibn Battuta (1304–1368/69) — Rihla (travels in India) [0]
+• Babur (1483–1530) — Baburnama (Memoirs; Mughal founding) [0]
+
+ARC-T-EARLY-MOD:
+• Abul Fazl (1551–1602) — Akbarnama; Ain-i-Akbari [0]
+• François Bernier (1620–1688) — Travels in the Mogul Empire [0]
+• James Mill (1773–1836) — The History of British India (1817) [0]
+• Mountstuart Elphinstone (1779–1859) — The History of India (1841) [0]
+• Alexander Cunningham (1814–1893) — Archaeological Survey of India; reports [0]
+
+ARC-T-MODERN:
+• Will Durant (1885–1981) — The Story of Civilization, Vol. 1: Our Oriental Heritage (1935); The Case for India (1930); civilizational synthesis on India, continuity, British rule, village community, transmission [24]
+• Niall Ferguson (b. 1964) — Empire: How Britain Made the Modern World (2003); British India as jewel in the crown, administrative laboratory, Company-to-Crown trajectory, extraction vs governance, imperial method at scale [10]
+• John Keegan (1934–2012) — The Face of Battle (1976); The Mask of Command (1987); A History of Warfare (1993). Military historiography: command, battle culture; applicable to MEM–INDIA–WAR–* and military framing. [0]
+• John Keay (b. 1941) — India: A History; India Discovered [0]
+• Romila Thapar (b. 1931) — Early India; Asoka and the Decline of the Mauryas; Somanatha [6]
+• Upinder Singh (b. 1959) — A History of Ancient and Early Medieval India; Political Violence in Ancient India [0]
+• Ramachandra Guha (b. 1958) — India After Gandhi; Gandhi Before India [1]
+• Sunil Khilnani (b. 1960) — The Idea of India; Incarnations [2]
+• Jack Weatherford (b. 1941) — Genghis Khan and the Making of the Modern World (2004); Mongol empire, Silk Road, Timurid/Mughal lineage; transmission and empire formation relevant to India’s medieval/early-modern interface [0]
+• John J. Mearsheimer (b. 1947) — "Bound to Fail: The Rise and Fall of the Liberal International Order," *International Security* 43, no. 4 (Spring 2019); structural realism, international orders (Cold War, liberal order 1990–2019), bipolar/unipolar, great-power competition. Applicable to MEMs for structural/power framing and order-type analysis. [0]
+• Jiang Xueqin (b. 1976) — "Civilization" series (YouTube lectures); e.g. India-relevant and cross-civilizational episodes. Civilizational contrast, pedagogical synthesis; admissible for cross-civilizational encoding, comparative identity. May supplement but not substitute for India-primary or specialist scholarship. [0]
+
+ARC-T-MODERN (ENGLISH REFERENCE):
+• Encyclopaedia Britannica — India and South Asia entries; comprehensive English reference; editorial/collaborative [0]
+• Cambridge History of India (1922–1937) / The New Cambridge History of India — multi-volume academic reference on Indian history; various editors [0]
+• Encyclopedia of India (Charles Scribner's Sons/Gale, 2006) — 4-volume reference on Indian history, culture, society; Stanley Wolpert, editor-in-chief [0]
+• Vincent Smith (1848–1920) — The Oxford History of India (1919); early modern and Mughal India; later editions by Percival Spear [0]
+• Burton Stein (1926–1996) — A History of India (1998; 2nd ed. with David Arnold); standard textbook; pre-modern and modern India [0]
+• Stanley Wolpert (b. 1927) — A New History of India; Encyclopedia of India (editor); modern India, nationalism, Partition [0]
+• Percival Spear (1911–1982) — Oxford History of India (continuation/editing); Mughal and British India [0]
+
+ARC-T-MODERN (HINDI REFERENCE):
+• Hindi Vishwakosh (हिन्दी विश्वकोश) — multi-volume Hindi encyclopedia; comprehensive reference on India; various editors/editions [0]
+• Bharatkosh (भारतकोश) — Hindi encyclopedia of India; print and digital; India-focused reference [0]
+• Bharatiya Sanskriti Kosh (भारतीय संस्कृति कोश) — Encyclopedia of Indian culture; Hindi reference on Indian civilization [0]
+• Hindi Sahitya Kosh (हिंदी साहित्य कोश) — Encyclopedia of Hindi literature; Hindi literary reference [0]
+
+Publishers of Hindi reference works (when citing editions):
+• Nagari Pracharini Sabha (नागरी प्रचारिणी सभा)
+• Bharatiya Jnanpith (भारतीय ज्ञानपीठ)
+• Rajpal & Sons (राजपाल एंड संस)
+
+Only listed authors may be quoted without ARC–DISCOVERY flag.
+
+────────────────────────────────────────────────────────────
+IV. DISCOVERY FRAMEWORK
+────────────────────────────────────────────────────────────
+When a MEM requires sources beyond the list above:
+
+DISCOVERY FLAG (REQUIRED):
+"ARC–DISCOVERY: EXPANDED SEARCH
+Source: [Author/Work]
+Justification: [Why this source is necessary]"
+
+Expanded discovery does not add authors to this canon without an ARC version upgrade.
+
+────────────────────────────────────────────────────────────
+V-A. CROSS-ARC CITATION FOR TSP MEMs
+────────────────────────────────────────────────────────────
+Per CIV–ARC–TEMPLATE v3.0 § V-A. India TSP MEMs (e.g., transmission to/from Persia, Islam, Anglia; colonial and postcolonial interfaces) may cite sources from ARC–PERSIA, ARC–ISLAM, ARC–ANGLIA, etc., with explicit ARC declaration.
+
+Format: [Author], [Work] (ARC–[CIV]-T-[PERIOD]) [ERC-ROLE]
+
+────────────────────────────────────────────────────────────
+VI. ORTHOGONALITY WITH ERC
+────────────────────────────────────────────────────────────
+ARC-T (temporal) and ERC (evidence role) are ORTHOGONAL. A quotation has BOTH.
+See NAMESPACE–CLARIFICATION v1.0.
+
+────────────────────────────────────────────────────────────
+VII. WHAT ARC DOES NOT GOVERN
+────────────────────────────────────────────────────────────
+Governed by CIV–MEM–TEMPLATE v3.0, NOT by ARC: 20% verbatim quote minimum;
+EQS; analytical content floor; quote word counting; ERC classification.
+ARC determines WHO may be quoted. MEM–TEMPLATE determines HOW MUCH and HOW WELL.
+
+────────────────────────────────────────────────────────────
+VIII. MIRRORING / REFERENCE
+────────────────────────────────────────────────────────────
+This file is referenced by version pointer in:
+• CIV–CORE–INDIA (ARC Reference: CIV–ARC–INDIA v3.0)
+• CIV–SCHOLAR–INDIA (ARC Reference: CIV–ARC–INDIA v3.0)
+
+────────────────────────────────────────────────────────────
+IX. VERSION HISTORY (BRIEF)
+────────────────────────────────────────────────────────────
+v1.0 — Initial establishment (Will Durant in ARC-T-MODERN). February 2026.
+v1.1 — Niall Ferguson added to ARC-T-MODERN (*Empire: How Britain Made the Modern World*; British Empire/India content). February 2026.
+v1.2 — Jack Weatherford added to ARC-T-MODERN (*Genghis Khan and the Making of the Modern World*; Mongol/Timurid/Mughal lineage, Silk Road, India interface). February 2026.
+v3.0 — ALIGNMENT · CORE v3.0 CONSOLIDATION. February 2026.
+v3.1 — Hindi reference works added to ARC-T-MODERN (HINDI REFERENCE): Hindi Vishwakosh, Bharatkosh, Bharatiya Sanskriti Kosh, Hindi Sahitya Kosh; publishers noted. February 2026.
+v3.2 — English reference works added to ARC-T-MODERN (ENGLISH REFERENCE): Encyclopaedia Britannica, Cambridge History of India, Encyclopedia of India (Scribner's); Vincent Smith, Burton Stein, Stanley Wolpert, Percival Spear. February 2026.
+v2.0 — Version milestone; template alignment (V-A, VI Orthogonality, VII What ARC Does Not Govern). February 2026.
+
+────────────────────────────────────────────────────────────
+IX-B. ARC-T-INSTITUTIONAL (INSTITUTIONAL SOURCES)
+────────────────────────────────────────────────────────────
+Authorized institutional sources for STATE mode analysis of
+India. Covers both real-time news and longer-term official
+analysis and planning. STATE draws Layer 3 information through
+these sources first. Non-listed sources are permitted with ARC
+discovery flag.
+
+ARC-T-INSTITUTIONAL (OFFICIAL):
+• Government of India — india.gov.in
+  Authoritative For: Federal policy, ministerial statements, official data
+  Editorial Note: Indian central government; primary authority on policy intent
+
+• Ministry of External Affairs — mea.gov.in
+  Authoritative For: Foreign policy, bilateral relations, diaspora affairs
+  Editorial Note: Indian state; diplomatic framing; primary on India's
+  international positions
+
+• Reserve Bank of India — rbi.org.in
+  Authoritative For: Monetary policy, financial stability, economic data
+  Editorial Note: Indian central bank; independent within government framework
+
+• Parliament of India — sansad.in
+  Authoritative For: Legislation, parliamentary debates, committee reports
+  Editorial Note: Official legislative record; Lok Sabha and Rajya Sabha
+
+• NITI Aayog — niti.gov.in
+  Authoritative For: Economic planning, development strategy, policy research
+  Editorial Note: Government think tank; replaced Planning Commission;
+  signals strategic economic direction
+
+ARC-T-INSTITUTIONAL (RESEARCH):
+• Observer Research Foundation (ORF) — orfonline.org
+  Authoritative For: Indian foreign policy, strategic affairs, technology
+  Editorial Note: Independent; close to BJP government; influential;
+  hosts Raisina Dialogue
+
+• Carnegie India — carnegieindia.org
+  Authoritative For: India's foreign policy, nuclear policy, regional security
+  Editorial Note: US-funded; Delhi-based; high analytical quality
+
+• Institute for Defence Studies and Analyses (IDSA/MP-IDSA) — idsa.in
+  Authoritative For: Indian defence policy, strategic analysis, military affairs
+  Editorial Note: Government-funded; India's principal defence think tank
+
+• Centre for Policy Research (CPR) — cprindia.org
+  Authoritative For: Indian governance, law, urbanisation, environment
+  Editorial Note: Independent; Delhi-based; academic orientation
+
+• Ashoka University / Takshashila Institution — ashoka.edu.in / takshashila.org.in
+  Authoritative For: Policy research, strategic studies, liberal arts education
+  Editorial Note: Private institution(s); emerging influence on Indian
+  policy debate; Takshashila focuses on strategic affairs
+
+ARC-T-INSTITUTIONAL (NEWS):
+• The Hindu — thehindu.com
+  Authoritative For: National politics, foreign affairs, South Indian perspective
+  Editorial Note: Centre-left; Chennai-based; Indian paper of record
+
+• The Indian Express — indianexpress.com
+  Authoritative For: Investigative reporting, political analysis, governance
+  Editorial Note: Independent; critical-establishment; strong investigations
+
+• Hindustan Times — hindustantimes.com
+  Authoritative For: National politics, defence, foreign affairs
+  Editorial Note: Centre-establishment; Delhi-based; HT Media group
+
+• The Wire — thewire.in
+  Authoritative For: Investigative journalism, civil liberties, policy analysis
+  Editorial Note: Independent digital outlet; left-liberal; critical of government
+
+• PTI (Press Trust of India) — ptinews.com
+  Authoritative For: Wire reporting, domestic news, government announcements
+  Editorial Note: Indian national wire service; cooperative ownership
+
+ARC-T-INSTITUTIONAL (SPECIALIST):
+• Stockholm International Peace Research Institute (SIPRI) — sipri.org
+  Authoritative For: Indian military expenditure, arms imports, nuclear arsenal
+  Editorial Note: Swedish government-funded; data-driven; pacifist orientation
+
+• International Institute for Strategic Studies (IISS) — iiss.org
+  Authoritative For: Military balance, India-China-Pakistan dynamics
+  Editorial Note: London-based; Western-aligned; industry-standard data
+
+• National Bureau of Asian Research (NBR) — nbr.org
+  Authoritative For: Indo-Pacific strategy, India-US relations, trade
+  Editorial Note: US-based; Asia-specialist; policy-relevant
+
+• Centre for Science and Environment (CSE) — cseindia.org
+  Authoritative For: Environmental policy, climate, industrial regulation
+  Editorial Note: Delhi-based; independent; influential on Indian environmental debate
+
+────────────────────────────────────────────────────────────
+XII. BLACKLIST (EXCLUDED INSTITUTIONAL SOURCES)
+────────────────────────────────────────────────────────────
+The following institutional sources MUST NOT be cited or used for
+STATE mode analysis of India. They are excluded from ARC-T-INSTITUTIONAL
+and from ARC discovery. Per CIV–ARC–TEMPLATE § IX-D, the following
+entry is mandatory for all ARCs.
+
+BLACKLISTED:
+• Wikipedia — wikipedia.org (all language editions)
+  Reason: Not an institutional or primary source. Crowd-sourced;
+  no single authorship or editorial accountability; variable
+  quality and sourcing; unsuitable for admissibility. Do not
+  cite Wikipedia as evidence in STATE or SCHOLAR for this
+  civilization. Use listed institutional sources or ARC
+  discovery with justification instead.
+
+────────────────────────────────────────────────────────────
+END OF FILE — CIV–ARC–INDIA — v3.3
+────────────────────────────────────────────────────────────

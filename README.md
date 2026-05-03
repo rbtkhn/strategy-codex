@@ -455,9 +455,10 @@ See [docs/seed-phase-wizard.md](docs/seed-phase-wizard.md). Full stack: [.cursor
 
 **CMC (Civilization Memory) integration** — when lookup gets a LIBRARY miss, the bot queries [civilization_memory](https://github.com/rbtkhn/civilization_memory) for historical/civilizational questions. Routing: only questions matching CMC scope (Rome, China, ancient civilizations, history, etc.) hit CMC; others skip to full LLM. See [docs/cmc-routing.md](docs/cmc-routing.md). Setup:
 
-1. Clone CMC as sibling: `../civilization_memory` or set `CIVILIZATION_MEMORY_PATH`
-2. Build index: `cd civilization_memory && python3 tools/cmc-index-search.py build`
-3. LIB-0064 in LIBRARY marks CMC as approved source
+1. Use the tracked corpus at `research/repos/civilization_memory`
+2. Build index: `cd research/repos/civilization_memory && python3 tools/cmc-index-search.py build`
+3. Optionally set `CIVILIZATION_MEMORY_PATH` only if you intentionally want to override the default local corpus path
+4. Snapshot provenance lives in `research/repos/civilization_memory/STRATEGY-CODEX-PROVENANCE.md`
 
 **Learning from rejection** — use `/reject CANDIDATE-123 [reason]` in Telegram to capture feedback; see [docs/rejection-feedback.md](docs/rejection-feedback.md).
 

@@ -1,0 +1,10 @@
+---
+description: DEPRECATED — see cmc-relay-to-state (Relay to State replaces Sync)
+alwaysApply: false
+---
+
+# DEPRECATED: Sync → Relay to State
+
+This rule has been **replaced by cmc-relay-to-state**. Use **"relay to state"** (or "relay state") to update the STATE file from SCHOLAR/CORE/DOCTRINE/MEM. The old triggers "sync state to scholar" and "run sync protocol" are still accepted and invoke the same procedure via cmc-relay-to-state.
+
+**See: .cursor/rules/cmc-relay-to-state.mdc**

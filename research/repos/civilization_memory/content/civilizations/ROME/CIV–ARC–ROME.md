@@ -1,0 +1,510 @@
+CIV–ARC–ROME — v3.2
+Civilizational Memory Codex · Academic Reference Canon
+Author Admissibility & Temporal Precedence
+
+Status: ACTIVE · CANONICAL · SIMPLIFIED
+Supersedes: CIV–ARC–ROME v3.1
+Upgrade Type: ADDITIVE · Niall Ferguson, John Keegan (ARC-T-MODERN)
+Scope: Author admissibility and temporal precedence ONLY
+Compatibility: CIV–MEM–CORE v3.0 · CIV–MEM–TEMPLATE v3.0 · NAMESPACE–CLARIFICATION v1.0
+Last Updated: February 2026
+
+────────────────────────────────────────────────────────────
+UPGRADE NOTE (v3.2) — FERGUSON, KEEGAN
+────────────────────────────────────────────────────────────
+Niall Ferguson (b. 1964) and John Keegan (1934–2012) added to ARC-T-MODERN. Ferguson: comparative empire, civilizational contrast. Keegan: military historiography, Roman/medieval warfare framing.
+
+────────────────────────────────────────────────────────────
+UPGRADE NOTE (v2.3) — ISAACSON REGISTRATION
+────────────────────────────────────────────────────────────
+This version registers Walter Isaacson as approved ARC-T-MODERN author.
+
+ADDITIONS:
+• Walter Isaacson (b. 1952) added to ARC-T-MODERN (Biography)
+  - *Leonardo da Vinci* (2017) — Primary source for MEM–ROME–ITALY–ART–LEONARDO
+
+────────────────────────────────────────────────────────────
+UPGRADE NOTE (v2.2) — DURANT REGISTRATION
+────────────────────────────────────────────────────────────
+Registered Will Durant as approved ARC-T-MODERN author.
+
+AUDIT FINDING:
+Durant cited in 38 ROME files (136 individual citations) but was
+never registered in ARC. This version corrects the gap.
+
+ADDITIONS:
+• Will Durant (1885–1981) added to ARC-T-MODERN (Civilizational Synthesis)
+  - *The Life of Greece* (Vol. 2, 1939) — Greek history and philosophy
+  - *Caesar and Christ* (Vol. 3, 1944) — Roman Republic through Constantine
+  - *The Age of Faith* (Vol. 4, 1950) — Byzantine, Islamic, Medieval
+  - *The Renaissance* (Vol. 5, 1953) — Italian Renaissance
+
+────────────────────────────────────────────────────────────
+UPGRADE NOTE (v2.1) — STRATHERN INTEGRATION
+────────────────────────────────────────────────────────────
+Added Paul Strathern to ARC-T-MODERN for Italian Renaissance materials.
+
+ADDITIONS:
+• Paul Strathern added to ARC-T-MODERN (Italian Renaissance)
+  - *The Medici: Godfathers of the Renaissance* (2003)
+  - *Death in Florence* (2011)
+  - *The Spirit of Venice* (2012)
+  - *The Venetians: A New History* (2013)
+  - *The Borgias: Power and Fortune* (2019)
+
+────────────────────────────────────────────────────────────
+I. PURPOSE & SCOPE
+────────────────────────────────────────────────────────────
+ARC governs TWO and ONLY TWO things:
+
+1. AUTHOR ADMISSIBILITY
+   Which historians, chroniclers, and scholars may be quoted
+   for the ROME civilization.
+
+2. TEMPORAL PRECEDENCE
+   When sources conflict, earlier testimony has priority.
+
+ARC does NOT govern:
+• How much to quote (see CIV–MEM–TEMPLATE)
+• How to evaluate quote quality (see EQS in CIV–MEM–TEMPLATE)
+• Evidence role classification (see ERC in CIV–MEM–TEMPLATE)
+
+This file is governance infrastructure, not interpretation.
+
+**Indigenous-language quote requirement (MEM–ROME):** Each MEM–ROME
+file MUST contain at least one verbatim quote (≥25 words) from an
+indigenous-language source admissible for this requirement. Admissible
+sources: any ARC-T-ANCIENT Roman or Late Antique author listed in § IV
+(Latin/Greek — e.g. Caesar, Cicero, Livy, Tacitus, Sallust, Suetonius,
+Pliny the Elder, Velleius Paterculus; Josephus, Ammianus, Eusebius,
+Aurelius Victor, Eutropius, Orosius, Zosimus, Procopius, Jordanes).
+English translation with clear source attribution is sufficient. Per
+CIV–ARC–TEMPLATE § IV-A.
+
+────────────────────────────────────────────────────────────
+II. ARC-TEMPORAL CATEGORIES (ARC-T)
+────────────────────────────────────────────────────────────
+Authors are classified by the HISTORICAL PERIOD in which they wrote.
+
+ARC-T-ANCIENT
+Authors from Rome's classical/foundational period through AD 800.
+Direct witnesses to events, institutions, and practices.
+
+ARC-T-MEDIEVAL
+Authors from AD 800 through AD 1500.
+Continuity witnesses, not direct evidence of ancient practice.
+
+ARC-T-EARLY-MOD
+Authors from the early modern critical period (c. 1500–1900).
+Historiographic interpretation, typically out of copyright.
+
+ARC-T-MODERN
+Authors from contemporary scholarship (c. 1900–present).
+Current academic interpretation, under copyright.
+
+────────────────────────────────────────────────────────────
+III. TEMPORAL PRECEDENCE RULE (ABSOLUTE)
+────────────────────────────────────────────────────────────
+When sources from different periods conflict:
+
+PRECEDENCE ORDER:
+1. ARC-T-ANCIENT (highest authority)
+2. ARC-T-MEDIEVAL
+3. ARC-T-EARLY-MOD
+4. ARC-T-MODERN (lowest authority)
+
+RULE: Later periods may CLARIFY or FRAME earlier testimony.
+      Later periods may NOT OVERRIDE earlier testimony.
+
+If a modern scholar contradicts ancient testimony:
+• The ancient testimony stands
+• The contradiction must be explicitly noted
+• Resolution is NOT required
+
+────────────────────────────────────────────────────────────
+IV. ARC-T-ANCIENT — APPROVED AUTHORS
+────────────────────────────────────────────────────────────
+Definition:
+Primary texts produced in antiquity that directly describe Roman,
+pre-Roman, or Roman-interfacing institutions, events, geography,
+law, or civilizational logic.
+
+Temporal Scope: Earliest Greek historiography through AD 800
+
+Greek Historians (Pre-Roman & Roman-Interfacing):
+• Herodotus — Histories, 5th c. BCE
+• Thucydides — History of the Peloponnesian War, 5th c. BCE
+• Xenophon — Hellenica, Anabasis, 4th c. BCE
+• Polybius — Histories, 2nd c. BCE
+• Diodorus Siculus — Bibliotheca Historica, 1st c. BCE
+• Dionysius of Halicarnassus — Roman Antiquities, 1st c. BCE
+• Strabo — Geographica, 1st c. BCE/CE
+• Plutarch — Parallel Lives, 1st–2nd c. CE
+• Appian — Roman History, 2nd c. CE
+• Cassius Dio — Roman History, 2nd–3rd c. CE
+• Arrian — Anabasis of Alexander, 2nd c. CE
+
+Roman Historians & Authors:
+• Quintus Fabius Pictor — Annales, 3rd c. BCE
+• Cato the Elder — Origines, 2nd c. BCE
+• Sallust — Bellum Catilinae, Bellum Jugurthinum, 1st c. BCE
+• Julius Caesar — Commentarii, 1st c. BCE
+• Cicero — Orations, Letters, Philosophical Works, 1st c. BCE
+• Livy — Ab Urbe Condita, 1st c. BCE/CE
+• Velleius Paterculus — Roman History, 1st c. CE
+• Pliny the Elder — Naturalis Historia, 1st c. CE
+• Tacitus — Annales, Historiae, Germania, 1st–2nd c. CE
+• Suetonius — De Vita Caesarum, 2nd c. CE
+
+Late Antique Authors:
+• Josephus — Jewish War, Antiquities, 1st c. CE
+• Ammianus Marcellinus — Res Gestae, 4th c. CE
+• Eusebius of Caesarea — Ecclesiastical History, 4th c. CE
+• Aurelius Victor — De Caesaribus, 4th c. CE
+• Eutropius — Breviarium, 4th c. CE
+• Orosius — Historiae Adversum Paganos, 5th c. CE
+• Zosimus — Historia Nova, 5th–6th c. CE
+• Procopius — Wars, Buildings, Secret History, 6th c. CE
+• Jordanes — Getica, Romana, 6th c. CE
+• Acts of the Apostles — 1st c. CE
+
+────────────────────────────────────────────────────────────
+V. ARC-T-MEDIEVAL — APPROVED AUTHORS
+────────────────────────────────────────────────────────────
+Definition:
+Primary and secondary sources produced after AD 800 that interpret,
+transmit, contest, or restructure Roman authority, legitimacy, law,
+theology, or civilizational memory within medieval contexts.
+
+Temporal Scope: AD 800 (Carolingian coronation) through AD 1500
+
+Carolingian and Ottonian Imperial Chronicles:
+• Einhard — Vita Karoli Magni, early 9th c.
+• Royal Frankish Annals — Annales regni Francorum, late 8th c.
+• Widukind of Corvey — Res gestae Saxonicae, mid-10th c.
+• Thietmar of Merseburg — Chronicon, early 11th c.
+
+Papal Decretals and Ecclesiastical Histories:
+• Gratian — Decretum, mid-12th c.
+• Liber Pontificalis — ongoing papal biographies, medieval continuations
+
+Byzantine Historians:
+• Anna Komnene — Alexiad, early 12th c.
+• John Skylitzes — Synopsis Historion, 11th c.
+• Michael Psellos — Chronographia, 11th c.
+
+Medieval Roman-Law Commentators:
+• Accursius — Glossa Ordinaria, mid-13th c.
+• Bartolus de Saxoferrato — Commentaries, mid-14th c.
+• Baldus de Ubaldis — Commentaries, late 14th c.
+
+────────────────────────────────────────────────────────────
+VI. ARC-T-EARLY-MOD — APPROVED AUTHORS
+────────────────────────────────────────────────────────────
+Definition:
+Historical scholarship from the early modern period (c. 1500–1900)
+that interprets Roman history, institutions, and civilizational logic.
+Typically out of copyright.
+
+Function: Interpretive framing, synthesis, historiographic contrast.
+
+Enlightenment/Early Modern (18th century):
+• Montesquieu (1689–1755) — Considerations on the Greatness of the Romans
+• Voltaire (1694–1778) — Essay on the Customs and Spirit of Nations
+
+19th-Century German/Continental Scholarship:
+• Barthold Georg Niebuhr (1776–1831) — History of Rome
+• Theodor Mommsen (1817–1903) — History of Rome, Roman Constitutional Law
+• Wilhelm Drumann (1786–1861) — Geschichte Roms
+• Leopold von Ranke (1795–1886) — Universal History
+
+19th-Century British/Anglophone Scholarship:
+• Edward Gibbon (1737–1794) — Decline and Fall of the Roman Empire
+• Thomas Arnold (1795–1842) — History of Rome
+• Charles Merivale (1808–1893) — History of the Romans under the Empire
+• Henry Thomas Buckle (1821–1862) — History of Civilization in England
+
+Late 19th/Early 20th Century:
+• Gaetano De Sanctis (1870–1957) — Storia dei Romani
+• Mikhail Rostovtzeff (1870–1952) — Social and Economic History of the Roman Empire
+
+────────────────────────────────────────────────────────────
+VII. ARC-T-MODERN — APPROVED AUTHORS
+────────────────────────────────────────────────────────────
+Definition:
+Contemporary historians and classicists writing under copyright
+(c. 1900–present) that interpret Roman history, institutions,
+and civilizational logic.
+
+Function: Interpretive framing, synthesis, contemporary theoretical clarification.
+
+Late Antiquity and Decline/Fall Debates:
+• Peter Brown (b. 1935) — The World of Late Antiquity, The Making of Late Antiquity
+• Averil Cameron (b. 1938) — The Mediterranean World in Late Antiquity
+• Peter Heather (b. 1960) — The Fall of the Roman Empire, Empires and Barbarians
+• Hans-Ulrich Wiemer (b. 1967) — Works on late Roman and early Byzantine history
+
+Republican and Imperial Institutions/Society:
+• Ronald Syme (1903–1989) — The Roman Revolution
+• Anthony Everitt (b. 1940) — Biographical works on Roman figures
+• Adrian Goldsworthy (b. 1969) — Military and political narratives
+• Mary Beard (b. 1955) — SPQR, The Roman Triumph
+
+Byzantine/Roman Continuity:
+• Anthony Kaldellis (b. 1971) — Works on Byzantine Roman identity
+• Peter Sarris (b. 1971) — Works on late antique economy and Byzantium
+• Judith Herrin (b. 1942) — Byzantium: The Surprising Life of a Medieval Empire
+• Jonathan Harris (b. 1961) — The End of Byzantium
+
+Military History:
+• Richard Gabriel (b. 1942) — Works on Roman military history
+• John Keegan (1934–2012) — The Face of Battle (1976); The Mask of Command (1987); A History of Warfare (1993). Military historiography: command, battle culture, Roman/medieval warfare; applicable to MEM–ROME–WAR–* and Roman military framing. [0]
+
+Black Sea/Pontus:
+• Duane W. Roller — Empire of the Black Sea
+
+Civilizational Synthesis:
+• Will Durant (1885–1981) — *The Story of Civilization* (11 vols., 1935–1975)
+  Relevant to ROME: *The Life of Greece* (1939), *Caesar and Christ* (1944),
+  *The Age of Faith* (1950), *The Renaissance* (1953)
+  Function: Narrative synthesis, interpretive framing, civilizational context
+• Niall Ferguson (b. 1964) — *Civilization: The West and the Rest* (2011); *The War of the World* (2006); *Empire* (2003). Comparative empire, civilizational contrast, Roman/Byzantine afterlife in Western narrative; applicable for structural and comparative framing. [0]
+
+Italian Renaissance / Roman Afterlife:
+• Paul Strathern (b. 1940) — The Medici: Godfathers of the Renaissance (2003),
+  Death in Florence (2011), The Spirit of Venice (2012), The Venetians (2013),
+  The Borgias: Power and Fortune (2019)
+• Christopher Hibbert (1924–2008) — The House of Medici, The Borgias and Their Enemies
+• Sarah Bradford (b. 1938) — Cesare Borgia: His Life and Times
+
+Renaissance Biography:
+• Walter Isaacson (b. 1952) — *Leonardo da Vinci* (2017)
+  Function: Biographical synthesis, cross-disciplinary genius thesis
+
+Structural / International Orders (IR framing):
+• John J. Mearsheimer (b. 1947) — "Bound to Fail: The Rise and Fall of the Liberal International Order," *International Security* 43, no. 4 (Spring 2019); structural realism, international orders (Cold War, liberal order 1990–2019), bipolar/unipolar, great-power competition. As applicable for MEMs for structural/power framing and order-type analysis.
+
+Civilizational & Pedagogical Synthesis:
+• Jiang Xueqin (b. 1976) — "Civilization" series (YouTube lectures); e.g. "Civilization #53: Dostoevsky and the Soul of Russia" and Rome/Byzantine-relevant episodes. Civilizational contrast, pedagogical synthesis; admissible for cross-civilizational encoding, comparative redemption/identity, Latin vs Orthodox. May supplement but not substitute for Rome-primary or specialist scholarship. [0]
+
+────────────────────────────────────────────────────────────
+VIII. ORTHOGONALITY WITH ERC
+────────────────────────────────────────────────────────────
+ARC-T (temporal categories) and ERC (evidence role categories)
+are ORTHOGONAL classification systems.
+
+A single quotation has BOTH classifications:
+
+EXAMPLE:
+A quote from Gibbon's Decline and Fall:
+• ARC-T: ARC-T-EARLY-MOD (18th century author)
+• ERC: ERC-SECONDARY (scholarly interpretation)
+
+EXAMPLE:
+A quote from Tacitus:
+• ARC-T: ARC-T-ANCIENT (1st–2nd century CE author)
+• ERC: ERC-PRIMARY (direct evidence from period)
+
+EXAMPLE:
+A modern scholar quoting an ancient inscription:
+• ARC-T: ARC-T-MODERN (contemporary author)
+• ERC: ERC-PRIMARY (the inscription is primary evidence)
+
+See NAMESPACE–CLARIFICATION v1.0 for full disambiguation.
+
+────────────────────────────────────────────────────────────
+IX. WHAT ARC DOES NOT GOVERN
+────────────────────────────────────────────────────────────
+The following are governed by CIV–MEM–TEMPLATE v3.0, NOT by ARC:
+
+• 20% verbatim quote minimum (MEM-TEMPLATE VIII)
+• Evidence Quality Standards / EQS (MEM-TEMPLATE VI)
+• Analytical content floor / 70% (MEM-TEMPLATE VIII.D)
+• Quote word counting rules (MEM-TEMPLATE VIII.D)
+• Subject-type adaptive requirements (MEM-TEMPLATE VIII.B)
+• ERC evidence-role classification (MEM-TEMPLATE V)
+• MEM Connection requirements (MEM-TEMPLATE X)
+
+ARC determines WHO may be quoted.
+MEM-TEMPLATE determines HOW MUCH and HOW WELL.
+
+────────────────────────────────────────────────────────────
+X. ARC DISCOVERY FRAMEWORK
+────────────────────────────────────────────────────────────
+When a MEM requires sources beyond the approved list:
+
+DISCOVERY SEQUENCE:
+1. Search listed authors first
+2. If insufficient, expand to adjacent authors/traditions
+3. Flag all non-listed sources
+
+DISCOVERY FLAG (REQUIRED):
+"ARC–DISCOVERY: EXPANDED SEARCH
+Source: [Author/Work]
+Justification: [Why this source is necessary]"
+
+Expanded discovery does NOT:
+• Add authors to the permanent canon
+• Alter temporal precedence
+• Remove the requirement to flag
+
+Discovery applies to ARC-T-ANCIENT and ARC-T-MEDIEVAL categories.
+Modern scholars may be added through canon update process.
+
+────────────────────────────────────────────────────────────
+X-A. CROSS-ARC CITATION FOR TSP MEMs
+────────────────────────────────────────────────────────────
+Trans-Sovereign Pattern (TSP) MEMs may require sources from multiple
+civilizations' ARCs. Per CIV–ARC–TEMPLATE v3.0 § V-A.
+
+CROSS-ARC CITATION RULES:
+1. Primary ARC (ARC–ROME) governs MEMs filed under ROME.
+2. TSP MEMs MAY cite sources from connected civilizations' ARCs
+   (e.g. ARC–RUSSIA for MEM–ROME–RUSSIA transmission) with explicit
+   ARC declaration.
+3. Format: [Author], [Work] (ARC–[CIV]-T-[PERIOD]) [ERC-ROLE]
+4. Temporal precedence applies within each ARC independently.
+5. Discovery flag required for sources not in any relevant ARC.
+
+────────────────────────────────────────────────────────────
+XI. MIRRORING RULE
+────────────────────────────────────────────────────────────
+This ARC file MUST be referenced in:
+• CIV–CORE–ROME
+• CIV–SCHOLAR–ROME
+
+Full embedding is no longer required.
+Reference by version pointer is sufficient:
+
+"ARC Reference: CIV–ARC–ROME v3.0"
+
+Any version mismatch invalidates compliance.
+
+────────────────────────────────────────────────────────────
+XII. PROHIBITIONS
+────────────────────────────────────────────────────────────
+The following are prohibited:
+
+• Mislabeling sources across temporal categories
+• Collapsing ARC-T-MEDIEVAL into ARC-T-ANCIENT
+• Collapsing ARC-T-EARLY-MOD into ARC-T-MODERN
+• Omitting any required category in GEO–MEM files
+• Using non-listed scholars without discovery flag
+• MEM-level modification of this file
+
+────────────────────────────────────────────────────────────
+XIII. VERSIONING
+────────────────────────────────────────────────────────────
+Version: CIV–ARC–ROME v3.0
+State: ACTIVE · CANONICAL · LOCKED
+Supersedes: CIV–ARC–ROME v2.3
+Upgrade Type: ALIGNMENT · CORE v3.0 CONSOLIDATION
+Mutation Rule: ADDITIVE ONLY (explicit version bump required)
+
+• Additive upgrades only for author lists
+• Temporal precedence rule is immutable
+• Discovery framework may be refined
+• Namespace alignment is permanent
+
+────────────────────────────────────────────────────────────
+XIII-B. ARC-T-INSTITUTIONAL (INSTITUTIONAL SOURCES)
+────────────────────────────────────────────────────────────
+Authorized institutional sources for STATE mode analysis of
+Rome and its civilizational successor states (Italy, Vatican,
+Mediterranean successor polities). Covers both real-time news
+and longer-term official analysis. STATE draws Layer 3
+information through these sources first. Non-listed sources
+are permitted with ARC discovery flag.
+
+ARC-T-INSTITUTIONAL (OFFICIAL):
+• Italian Government — governo.it
+  Authoritative For: Italian policy, EU positions, Mediterranean strategy
+  Editorial Note: Italian executive; principal successor state of Roman
+  territorial core
+
+• Vatican — vatican.va
+  Authoritative For: Papal statements, canon law, Catholic institutional positions
+  Editorial Note: Holy See; direct institutional continuity from late Roman
+  ecclesiastical structure; authoritative on Catholic civilizational grammar
+
+• European Commission — ec.europa.eu
+  Authoritative For: EU regulation, Mediterranean policy, enlargement
+  Editorial Note: EU executive; relevant as framework governing Rome's
+  successor polities
+
+• Banca d'Italia — bancaditalia.it
+  Authoritative For: Italian monetary policy, eurozone economics, public debt
+  Editorial Note: Italian central bank; ECB member; data on Italy's fiscal position
+
+ARC-T-INSTITUTIONAL (RESEARCH):
+• Istituto Affari Internazionali (IAI) — affarinternazionali.it
+  Authoritative For: Italian foreign policy, Mediterranean security, EU integration
+  Editorial Note: Rome-based; Italy's leading foreign policy think tank
+
+• École Française de Rome — efrome.it
+  Authoritative For: Roman archaeology, medieval Mediterranean, papal history
+  Editorial Note: French government-funded; Rome-based; premier classical research
+
+• Deutsches Archäologisches Institut (DAI) — dainst.org
+  Authoritative For: Roman archaeology, excavation reports, material culture
+  Editorial Note: German federal institution; leading archaeological authority
+
+• Pontifical academies and Vatican Archives — vatican.va/archive
+  Authoritative For: Church history, manuscript collections, papal diplomacy
+  Editorial Note: Vatican institutions; restricted access; primary for
+  ecclesiastical continuity
+
+• ISPI (Istituto per gli Studi di Politica Internazionale) — ispionline.it
+  Authoritative For: Mediterranean geopolitics, migration, energy
+  Editorial Note: Milan-based; Italian foreign policy; moderate orientation
+
+ARC-T-INSTITUTIONAL (NEWS):
+• ANSA (Agenzia Nazionale Stampa Associata) — ansa.it
+  Authoritative For: Italian domestic news, political reporting
+  Editorial Note: Italian national wire service; cooperative ownership
+
+• Corriere della Sera — corriere.it
+  Authoritative For: Italian politics, economics, cultural affairs
+  Editorial Note: Centre-liberal; Italy's leading broadsheet; Milan-based
+
+• La Repubblica — repubblica.it
+  Authoritative For: Italian politics, investigative reporting
+  Editorial Note: Centre-left; Rome-based; GEDI Group ownership
+
+• Reuters — reuters.com
+  Authoritative For: Breaking news, wire reporting, Mediterranean region
+  Editorial Note: Global wire service; Western-headquartered
+
+ARC-T-INSTITUTIONAL (SPECIALIST):
+• NATO Defence College — ndc.nato.int
+  Authoritative For: Alliance strategy, Mediterranean security, burden-sharing
+  Editorial Note: Rome-based NATO institution; alliance perspective
+
+• Mediterranean Affairs — mediterraneanaffairs.com
+  Authoritative For: Mediterranean geopolitics, energy, migration routes
+  Editorial Note: Regional specialist; English-language Mediterranean focus
+
+• Istituto Nazionale di Statistica (ISTAT) — istat.it
+  Authoritative For: Italian demographics, economic statistics, social indicators
+  Editorial Note: Italian national statistics office; official data
+
+────────────────────────────────────────────────────────────
+XIII-C. BLACKLIST (EXCLUDED INSTITUTIONAL SOURCES)
+────────────────────────────────────────────────────────────
+The following institutional sources MUST NOT be cited or used for
+STATE mode analysis of Rome. They are excluded from ARC-T-INSTITUTIONAL
+and from ARC discovery. Per CIV–ARC–TEMPLATE § IX-D, the following
+entry is mandatory for all ARCs.
+
+BLACKLISTED:
+• Wikipedia — wikipedia.org (all language editions)
+  Reason: Not an institutional or primary source. Crowd-sourced;
+  no single authorship or editorial accountability; variable
+  quality and sourcing; unsuitable for admissibility. Do not
+  cite Wikipedia as evidence in STATE or SCHOLAR for this
+  civilization. Use listed institutional sources or ARC
+  discovery with justification instead.
+
+────────────────────────────────────────────────────────────
+END OF FILE — CIV–ARC–ROME v3.0
+────────────────────────────────────────────────────────────

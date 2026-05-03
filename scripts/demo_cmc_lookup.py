@@ -3,13 +3,12 @@
 Demo: CMC lookup integration.
 
 Shows the lookup flow: LIBRARY → CMC → full LLM.
-Run with CMC cloned and index built for a real demonstration.
+Run with the vendored civ-mem corpus indexed for a real demonstration.
 
-  # Clone and build CMC first:
-  git clone https://github.com/rbtkhn/civilization_memory.git research/repos/civilization_memory
+  # Build the local corpus index first:
   cd research/repos/civilization_memory && python3 tools/cmc-index-search.py build
 
-  # Then run demo (set path if not sibling):
+  # Then run demo (set path only if overriding the default local corpus):
   CIVILIZATION_MEMORY_PATH=./research/repos/civilization_memory python3 scripts/demo_cmc_lookup.py
 
   # Full end-to-end (LIBRARY → CMC → REPHRASE) — requires OPENAI_API_KEY:
@@ -64,9 +63,9 @@ def main():
     else:
         print("CMC path: not found")
         print("\nSetup:")
-        print("  1. Clone: git clone https://github.com/rbtkhn/civilization_memory.git research/repos/civilization_memory")
-        print("  2. Build: cd research/repos/civilization_memory && python3 tools/cmc-index-search.py build")
-        print("  3. Set:   export CIVILIZATION_MEMORY_PATH=$(pwd)/research/repos/civilization_memory")
+        print("  1. Ensure research/repos/civilization_memory is present in this repo")
+        print("  2. Build:  cd research/repos/civilization_memory && python3 tools/cmc-index-search.py build")
+        print("  3. Set:    export CIVILIZATION_MEMORY_PATH=$(pwd)/research/repos/civilization_memory")
         print("\nLookup flow when CMC is available:")
         print("  LIBRARY (books) → miss")
         print("  CMC (civilizational history) → query → snippets")

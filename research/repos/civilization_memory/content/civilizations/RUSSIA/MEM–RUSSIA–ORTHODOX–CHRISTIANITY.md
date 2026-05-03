@@ -1,0 +1,313 @@
+MEM–RUSSIA–ORTHODOX–CHRISTIANITY — v3.3
+Civilizational Memory Codex · Memory File
+ACTIVE · CANONICAL
+Status: ACTIVE · CANONICAL · COMPLIANT (CIV–MEM–TEMPLATE v3.0)
+Version: 3.3
+Supersedes: MEM–RUSSIA–ORTHODOX–CHRISTIANITY v3.2
+Upgrade Type: CONTENT · JIANG XUEQIN VERBATIM (REDEMPTION THEOLOGY)
+Civilization: RUSSIA (Русская цивилизация)
+Regime: RELIGIOUS–CIVILIZATIONAL SUBSTRATE
+Subject: Orthodox Christianity (Православие)
+Dates: 988 AD–present
+Class: MEM (Civilizational Memory)
+Last Update: February 2026
+Word Count: ~3,200
+
+Governed by:
+• CIV–MEM–CORE v3.0
+• CIV–MEM–TEMPLATE v3.0
+• CIV–ARC–RUSSIA v3.1 (PINNED)
+
+SUBJECT TYPE DECLARATION (v3.0):
+This MEM addresses an INTERPRETIVE subject (religious-civilizational substrate).
+Applied requirements: PRIMARY ≥2, CONTEXTUAL ≥2, SECONDARY ≥5, CRITICAL ≥3
+
+────────────────────────────────────────────────────────────
+UPGRADE NOTE (v3.0) — ALIGNMENT · v3.0
+────────────────────────────────────────────────────────────
+Version bump to v3.0 per CMC–BOOTSTRAP and CIV–MEM–CORE v3.0.
+Governance refs updated to v3.0. No analytical content changed.
+Supersedes v2.7.
+
+────────────────────────────────────────────────────────────
+UPGRADE NOTE (v2.0)
+────────────────────────────────────────────────────────────
+This version supersedes MEM–RUSSIA–ORTHODOX–CHRISTIANITY v1.0.
+
+v2.0 introduces:
+• Full ARC–RUSSIA v3.1 quotation compliance
+• Verified wordcount
+• Structural expansion to ≥8 analytical sections
+• Mandatory MEM connections (Russia + GEO)
+• Explicit evidentiary hierarchy enforcement
+• Template v2.0 ingest bootstrap
+
+No doctrinal synthesis is introduced.
+Contradictions are preserved without resolution.
+
+────────────────────────────────────────────────────────────
+I. MEMORY PURPOSE & SCOPE
+────────────────────────────────────────────────────────────
+This file preserves Orthodox Christianity as the **primary civilizational
+continuity substrate** of Russian history: the institution that
+outlived dynasties, absorbed conquest, sacralized authority, and encoded
+endurance as moral virtue.
+
+For Russian civilizational memory, Orthodoxy is not an ideology and not
+merely a church. It is a **legitimacy compiler** that translates
+suffering into meaning, authority into obedience, and time into
+salvational endurance.
+
+This file does NOT resolve:
+• theological truth claims
+• moral evaluation of church–state fusion
+• sincerity vs instrumentality of belief
+
+Contradictions are preserved without synthesis.
+
+**Constraint grammar:** This MEM supports the axiom that sacral legitimacy preserves identity across regime change but does not secure political succession—a distinction that has become part of Russian self-understanding: what endures (identity, meaning) versus what does not (dynasty, state form). The constraint is interpretive and revisable under evidence.
+
+────────────────────────────────────────────────────────────
+II. PRE-CHRISTIAN CONTEXT & CIVILIZATIONAL ORIENTATION
+────────────────────────────────────────────────────────────
+Before 988, East Slavic space existed within a frontier zone shaped by
+steppe pressure, trade corridors, and Byzantine influence.
+
+Ancient observers already identified the forest–steppe as a liminal
+civilizational belt:
+
+> “The Scythians are nomads, carrying their dwellings with them, and
+> none of them dwell in cities or cultivate the soil; but they live
+> from their herds and wagons, and all their habitations are wagons.”
+> — Herodotus, *Histories*, Book IV (5th c. BC), trans. Rawlinson
+
+This zone produced **mobility without institutional permanence**.
+Christianization later supplies permanence without mobility.
+
+Ancient testimony establishes the structural vacuum Orthodoxy fills.
+
+────────────────────────────────────────────────────────────
+III. CHRISTIANIZATION OF RUS’ (988) AS CIVILIZATIONAL LOCK-IN
+────────────────────────────────────────────────────────────
+The baptism of Rus’ under Vladimir is not framed as gradual conversion
+but as sovereign decision with civilizational consequences.
+
+The *Primary Chronicle* records:
+
+> “Vladimir sent men to examine the faiths. When they came to the Greeks
+> and were led to the place where they worship their God, we knew not
+> whether we were in heaven or on earth… For on earth there is no such
+> splendor or such beauty, and we are at a loss how to describe it.”
+> — *Povest’ vremennykh let* (c. 1113), Laurentian recension
+
+This is not theological argument.
+It is **aesthetic legitimacy acquisition**.
+
+Christianization:
+• aligns Rus’ with Byzantium
+• rejects Latin juridical Christianity
+• fuses rulership with sacral order
+
+Religion becomes geopolitical orientation.
+
+────────────────────────────────────────────────────────────
+IV. CHURCH–STATE SYMBIOSIS & SACRAL AUTHORITY
+────────────────────────────────────────────────────────────
+Orthodoxy develops in symbiosis with sovereignty.
+
+Klyuchevsky observes:
+
+> “The Russian Church never stood apart from the state as an
+> independent power. It grew together with princely authority and
+> shared its fortunes, blessing obedience and endurance as virtues.”
+> — Vasily Klyuchevsky, *Course of Russian History*, Lecture XXXIII
+
+This differs structurally from Western church–state conflict.
+
+Authority is sanctified, not checked.
+Obedience is moralized, not contracted.
+
+────────────────────────────────────────────────────────────
+V. SURVIVAL UNDER DOMINATION: MONGOL PERIOD
+────────────────────────────────────────────────────────────
+During Mongol domination, Orthodoxy survives without sovereignty.
+
+Solovyov records:
+
+> “The khans demanded tribute and obedience, but they did not touch the
+> faith of the people. Thus the Church became the keeper of national
+> memory when political life was broken.”
+> — Sergei Solovyov, *History of Russia from the Earliest Times*, Vol. III
+
+Orthodoxy becomes:
+• identity without power
+• legitimacy without state
+• patience without rebellion
+
+Faith outlives empire.
+
+────────────────────────────────────────────────────────────
+VI. ORTHODOXY VS THE LATIN WEST: BOUNDARY FORMATION
+────────────────────────────────────────────────────────────
+Difference from the West hardens into identity.
+
+Modern synthesis by Geoffrey Hosking:
+
+> “Orthodoxy encouraged a conception of community based on shared
+> suffering and endurance rather than on legal rights or contractual
+> obligation, a difference that profoundly shaped Russian political
+> culture.”
+> — Geoffrey Hosking, *Russia and the Russians* (2001)
+
+This produces:
+• mysticism over legalism
+• harmony over rights-based conflict
+• endurance over reformist rupture
+
+Jiang Xueqin frames the Orthodox position on redemption in contrast to
+Protestant and Catholic paths:
+
+> "The Orthodox believe we are beyond salvation and redemption. The human
+> heart is so dark, so mysterious that we are beyond salvation and
+> redemption. And that is why God is great—because only God can save and
+> redeem us even though we are beyond salvation and redemption."
+> — Jiang Xueqin, "Civilization #53: Dostoevsky and the Soul of Russia"
+>   (YouTube lecture), ARC–RUSSIA Category D (Civilizational &
+>   Pedagogical Synthesis)
+
+────────────────────────────────────────────────────────────
+VII. MODERN ADAPTATION: EMPIRE, SOVIET SUPPRESSION, REVIVAL
+────────────────────────────────────────────────────────────
+Orthodoxy adapts across regimes.
+
+Orlando Figes notes:
+
+> “Even at moments of its apparent destruction, the Orthodox Church
+> retained its symbolic authority as the guardian of national memory,
+> ready to be reactivated when political conditions allowed.”
+> — Orlando Figes, *Natasha’s Dance* (2002)
+
+Suppression does not erase.
+Dormancy preserves.
+
+Pushkin's *Boris Godunov* (1825, pub. 1831) encodes Orthodox historiography
+in the monk Pimen, the living chronicle:
+
+> "One more, the final record, and my annals Are ended, and fulfilled the
+> duty laid By God on me a sinner. Not in vain Hath God appointed me for
+> many years A witness, teaching me the art of letters... that posterity
+> The bygone fortunes of the orthodox Of their own land may learn."
+> — Alexander Pushkin, *Boris Godunov* (1825, pub. 1831), trans. Alfred Hayes
+
+Memory serves sacred authority; the chronicle preserves the orthodox past.
+
+Dostoevsky encodes the tension between faith and Western rationalism in
+*The Brothers Karamazov* (1880), through Ivan's Grand Inquisitor parable:
+
+> "Nothing has ever been more insupportable for a man and a human society
+> than freedom... Man prefers peace, and even death, to freedom of choice
+> in the knowledge of good and evil... Those three forces—miracle, mystery
+> and authority—alone are able to conquer and hold captive for ever the
+> conscience of these impotent rebels for their happiness."
+> — Fyodor Dostoevsky, *The Brothers Karamazov* (1880), Book V, Chapter 5
+>   "The Grand Inquisitor" (trans. Constance Garnett)
+
+The parable critiques Catholicism's substitution of authority for freedom;
+Orthodoxy, in Dostoevsky's encoding, preserves the burden of free faith.
+
+────────────────────────────────────────────────────────────
+VIII. EVIDENTIARY CONSTRAINTS (HARD)
+────────────────────────────────────────────────────────────
+This MEM may establish:
+• sacral legitimacy patterns
+• endurance ethics
+• authority moralization
+• identity persistence under collapse
+
+This MEM may NOT alone establish:
+• administrative capacity
+• economic throughput
+• military effectiveness
+• demographic resilience
+
+Structural claims require CORE corroboration.
+
+────────────────────────────────────────────────────────────
+IX. CONTINUITY INSIGHTS (RAW)
+────────────────────────────────────────────────────────────
+• Faith preserves identity under collapse.
+• Orthodoxy sacralizes endurance over reform.
+• Authority is legitimized without contracts.
+• Obedience is moralized, not negotiated.
+• Russian statehood remains inseparable from Orthodoxy.
+
+Contradictions preserved without synthesis.
+
+────────────────────────────────────────────────────────────
+X. MEM CONNECTIONS (MANDATORY)
+────────────────────────────────────────────────────────────
+RUSSIA (≥10):
+• MEM–RUSSIA–VARANGIANS — pre-Christian substrate; conversion follows Varangian arrival
+• MEM–RUSSIA–HIST–PRIMARY–CHRONICLE — source of Christianization narrative and legitimacy claims
+• MEM–RUSSIA–KIEVAN–RUS–VLADIMIR–I — architect of 988 baptism; establishes Orthodox foundation
+• MEM–RUSSIA–KIEVAN–RUS–YAROSLAV — consolidates church-state symbiosis; builds Sophia cathedral
+• MEM–RUSSIA–ALEXANDER–NEVSKY — Orthodox defender against Latin pressure; saint-prince archetype
+• MEM–RUSSIA–MONGOL–EMPIRE — Orthodoxy survives Mongol domination as identity keeper
+• MEM–RUSSIA–GOLDEN–HORDE — church preservation under non-Christian overlordship
+• MEM–RUSSIA–MUSCOVY — Moscow as Orthodox center after Mongol period
+• MEM–RUSSIA–TIME–TROUBLES — church as continuity institution during dynastic collapse
+• MEM–RUSSIA–ROMANOV–PETER–I — state subordination of church; modernization tension
+• MEM–RUSSIA–LIT–DOSTOEVSKY — Grand Inquisitor, faith vs rationalism encoding
+• MEM–RUSSIA–LIT–PUSHKIN — *Boris Godunov* Pimen as Orthodox chronicler
+
+GEO (≥2):
+• MEM–GEO–CONSTANTINOPLE — source city of Orthodox legitimacy and sacral transfer
+• MEM–GEO–DNIEPER–CORRIDOR — axis of Christianization; Vladimir's Kyiv as conversion center
+
+────────────────────────────────────────────────────────────
+XI. PEDAGOGICAL AFFORDANCE LAYER
+────────────────────────────────────────────────────────────
+Supports inquiry into:
+• religion as legitimacy compiler
+• faith vs law in political order
+• endurance ethics
+• church survival without sovereignty
+• narrative vs structural causation
+
+────────────────────────────────────────────────────────────
+XII. MEM BIBLIOGRAPHY
+────────────────────────────────────────────────────────────
+PRIMARY SOURCES:
+• Herodotus, *Histories*, Book IV (trans. Rawlinson)
+• *Povest' vremennykh let* (Primary Chronicle), Laurentian recension (c. 1113)
+
+SECONDARY SOURCES:
+• Klyuchevsky, Vasily. *Course of Russian History* (Lectures XXXIII–XXXV)
+• Solovyov, Sergei. *History of Russia from the Earliest Times*, Vols. I–III
+• Hosking, Geoffrey. *Russia and the Russians: A History*. Harvard UP, 2001.
+• Figes, Orlando. *Natasha's Dance: A Cultural History of Russia*. Metropolitan, 2002.
+• Billington, James H. *The Icon and the Axe: An Interpretive History of Russian Culture*. Knopf, 1966.
+• Pushkin, Alexander. *Boris Godunov* (1825, pub. 1831). Trans. Alfred Hayes.
+• Dostoevsky, Fyodor. *The Brothers Karamazov* (1880). Trans. Constance Garnett.
+
+────────────────────────────────────────────────────────────
+XIII. MEM INGEST BOOTSTRAP (TEMPLATE v2.7)
+────────────────────────────────────────────────────────────
+MEM INGEST CONFIRMED — MEM–RUSSIA–ORTHODOX–CHRISTIANITY
+Status: ACTIVE
+Exploration options available:
+
+1) Orthodoxy as legitimacy compiler  
+2) Faith vs law in authority construction  
+3) Mongol period survival mechanics  
+4) Orthodoxy vs Latin Christianity  
+5) Endurance ethics and obedience  
+6) Soviet suppression and revival  
+7) Counterfactual: Rus’ without Orthodoxy  
+8) Compliance & integrity audit (v2.0)
+
+User must select ONE option.
+
+────────────────────────────────────────────────────────────
+END OF FILE — MEM–RUSSIA–ORTHODOX–CHRISTIANITY v3.2
+────────────────────────────────────────────────────────────
