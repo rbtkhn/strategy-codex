@@ -3,6 +3,13 @@
 
 **Discoverability:** The same tree is linked from **`users/grace-mar/SELF-LIBRARY/strategy-codex`** (repo-relative symlink) for agents and tools that prioritize the companion tree. **LIB:** [LIB-0153](../users/grace-mar/self-library.md#operator-analytical-books) in [`self-library.md`](../users/grace-mar/self-library.md) (Operator analytical books).
 
+
+## Primary 2026 Volume
+
+The active corpus home is now [`2026/`](2026/): a year-volume with first-class cognition-stream shelves for Alkorshid, Diesen, Mercouris, Davis, Pape, Parsi, Ritter, and Crooke. Shared raw input lives under [`2026/raw-input/`](2026/raw-input/), and civ-mem appears as a compact analytical spine rather than a duplicate corpus.
+
+Use the old `experts/` path only as a deprecated compatibility pointer.
+
 ## Word counts (script-maintained)
 
 Many strategy-codex markdown files carry a **`word_count: <integer>`** field in YAML front matter, or **`<!-- word_count: <integer> -->`** as an HTML comment after the first heading when the file has no front matter. This is **approximate, deterministic, and maintained by** `python3 scripts/strategy/update_strategy_notebook_word_counts.py` â€” for operator navigation and size awareness only; it is **not** editorial or analytical authority. **Do not hand-edit** the value. After large notebook edits, run the script from repo root; **`--check`** verifies counts (CI-friendly); **`--dry-run`** lists would-be updates. Large captures under **`raw-input/YYYY-MM-DD/`** are intentionally skipped.

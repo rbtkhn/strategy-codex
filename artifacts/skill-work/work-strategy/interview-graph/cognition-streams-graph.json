@@ -3,7 +3,7 @@
   "deprecated_schema_aliases": [
     "1.0.0-four-pillar-notebook-graph"
   ],
-  "generated_at": "2026-05-04T02:55:29.042787Z",
+  "generated_at": "2026-05-04T03:52:15.159568Z",
   "title": "Polyphonic Cognition Streams",
   "stream_model": {
     "description": "Count-neutral lattice of cognition streams; current shape has eight streams but may change.",
@@ -92,7 +92,7 @@
       "axis_label": "Conflict"
     },
     "mercouris_duran": {
-      "raw_input_root": "codex\\raw-input",
+      "raw_input_root": "codex\\2026\\raw-input",
       "source_channels": [
         "@AlexMercouris",
         "@TheDuran"
@@ -27564,7 +27564,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2025-11-27/youtube-alex-mercouris-moscow-says-no-concessions-for-ukraine-peace-no-agreement-with-us-on-any-2025-11-27.md",
+        "index_path": "codex/2026/raw-input/2025-11-27/youtube-alex-mercouris-moscow-says-no-concessions-for-ukraine-peace-no-agreement-with-us-on-any-2025-11-27.md",
         "video_id": "ManyM6pnMD4",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -27595,7 +27595,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2025-11-28/youtube-alex-mercouris-putin-s-toughest-line-in-presser-no-kherson-zaporozhye-ceasefire-agreed-2025-11-28.md",
+        "index_path": "codex/2026/raw-input/2025-11-28/youtube-alex-mercouris-putin-s-toughest-line-in-presser-no-kherson-zaporozhye-ceasefire-agreed-2025-11-28.md",
         "video_id": "mudzrAT3Egc",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -27629,7 +27629,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2025-11-29/youtube-alex-mercouris-yermak-goes-zelensky-regime-unravels-belgium-blocks-eu-s-russian-asset-p-2025-11-29.md",
+        "index_path": "codex/2026/raw-input/2025-11-29/youtube-alex-mercouris-yermak-goes-zelensky-regime-unravels-belgium-blocks-eu-s-russian-asset-p-2025-11-29.md",
         "video_id": "VLJ38iP6YZw",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -27663,7 +27663,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2025-11-30/youtube-alex-mercouris-moscow-demands-trials-kiev-leaders-kiev-envoys-meet-us-officials-russia-2025-11-30.md",
+        "index_path": "codex/2026/raw-input/2025-11-30/youtube-alex-mercouris-moscow-demands-trials-kiev-leaders-kiev-envoys-meet-us-officials-russia-2025-11-30.md",
         "video_id": "iXzrvelsJ2Q",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -27694,7 +27694,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2025-12-01/youtube-alex-mercouris-us-kiev-hold-tense-florida-talks-kiev-no-to-moscow-terms-witkoff-kushner-2025-12-01.md",
+        "index_path": "codex/2026/raw-input/2025-12-01/youtube-alex-mercouris-us-kiev-hold-tense-florida-talks-kiev-no-to-moscow-terms-witkoff-kushner-2025-12-01.md",
         "video_id": "JNiEB7GedGE",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -27727,7 +27727,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2025-12-02/youtube-alex-mercouris-kiev-s-catastrophe-day-pokrovsk-volchansk-fall-ecb-no-to-eu-s-russian-as-2025-12-02.md",
+        "index_path": "codex/2026/raw-input/2025-12-02/youtube-alex-mercouris-kiev-s-catastrophe-day-pokrovsk-volchansk-fall-ecb-no-to-eu-s-russian-as-2025-12-02.md",
         "video_id": "ruB41Qv8NyM",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -27758,7 +27758,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2025-12-03/youtube-alex-mercouris-moscow-warns-kiev-west-sea-blockade-after-tanker-attacks-blames-macron-h-2025-12-03.md",
+        "index_path": "codex/2026/raw-input/2025-12-03/youtube-alex-mercouris-moscow-warns-kiev-west-sea-blockade-after-tanker-attacks-blames-macron-h-2025-12-03.md",
         "video_id": "fFM7IXepD3A",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -27791,7 +27791,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2025-12-04/youtube-alex-mercouris-kiev-troops-mirnograd-admit-trap-beg-food-help-eu-officials-say-ursula-s-2025-12-04.md",
+        "index_path": "codex/2026/raw-input/2025-12-04/youtube-alex-mercouris-kiev-troops-mirnograd-admit-trap-beg-food-help-eu-officials-say-ursula-s-2025-12-04.md",
         "video_id": "9jwWPQqikKQ",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -27824,7 +27824,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2025-12-05/youtube-alex-mercouris-big-sanctions-fail-russian-oil-exports-grow-scandals-leaks-rock-eu-india-2025-12-05.md",
+        "index_path": "codex/2026/raw-input/2025-12-05/youtube-alex-mercouris-big-sanctions-fail-russian-oil-exports-grow-scandals-leaks-rock-eu-india-2025-12-05.md",
         "video_id": "yk_P7Zw5v0U",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -27859,7 +27859,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2025-12-06/youtube-alex-mercouris-eu-shock-us-says-ukraine-peace-russia-relations-are-core-us-interest-zel-2025-12-06.md",
+        "index_path": "codex/2026/raw-input/2025-12-06/youtube-alex-mercouris-eu-shock-us-says-ukraine-peace-russia-relations-are-core-us-interest-zel-2025-12-06.md",
         "video_id": "OoxT6YBeQro",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -27892,7 +27892,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2025-12-07/youtube-alex-mercouris-us-eu-furious-row-brussels-tells-kiev-reject-donbass-withdrawal-renews-a-2025-12-07.md",
+        "index_path": "codex/2026/raw-input/2025-12-07/youtube-alex-mercouris-us-eu-furious-row-brussels-tells-kiev-reject-donbass-withdrawal-renews-a-2025-12-07.md",
         "video_id": "WNhX-NQyQ2Q",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -27927,7 +27927,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2025-12-08/youtube-alex-mercouris-russia-strikes-kiev-ukraine-go-dark-mirnograd-collapse-zelensky-uk-eu-su-2025-12-08.md",
+        "index_path": "codex/2026/raw-input/2025-12-08/youtube-alex-mercouris-russia-strikes-kiev-ukraine-go-dark-mirnograd-collapse-zelensky-uk-eu-su-2025-12-08.md",
         "video_id": "-qCFF7-Mskw",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -27961,7 +27961,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2025-12-09/youtube-alex-mercouris-us-ukraine-peace-plan-collapses-zelensky-defiant-eu-usurps-fund-raising-2025-12-09.md",
+        "index_path": "codex/2026/raw-input/2025-12-09/youtube-alex-mercouris-us-ukraine-peace-plan-collapses-zelensky-defiant-eu-usurps-fund-raising-2025-12-09.md",
         "video_id": "VBsacbeWf2A",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -27994,7 +27994,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2025-12-10/youtube-alex-mercouris-eu-rushes-seize-assets-give-kiev-loan-next-week-us-furious-japan-opposed-2025-12-10.md",
+        "index_path": "codex/2026/raw-input/2025-12-10/youtube-alex-mercouris-eu-rushes-seize-assets-give-kiev-loan-next-week-us-furious-japan-opposed-2025-12-10.md",
         "video_id": "AEkT3DPfVMU",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -28025,7 +28025,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2025-12-11/youtube-alex-mercouris-uk-banks-warn-starmer-asset-seizure-plan-illegal-kiev-energy-close-to-co-2025-12-11.md",
+        "index_path": "codex/2026/raw-input/2025-12-11/youtube-alex-mercouris-uk-banks-warn-starmer-asset-seizure-plan-illegal-kiev-energy-close-to-co-2025-12-11.md",
         "video_id": "Zjm6xQL1-P4",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -28056,7 +28056,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2025-12-12/youtube-alex-mercouris-kiev-big-defeats-siversk-falls-huliaipole-falling-zelensky-west-in-denia-2025-12-12.md",
+        "index_path": "codex/2026/raw-input/2025-12-12/youtube-alex-mercouris-kiev-big-defeats-siversk-falls-huliaipole-falling-zelensky-west-in-denia-2025-12-12.md",
         "video_id": "Wcrd8lVc7vw",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -28090,7 +28090,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2025-12-13/youtube-alex-mercouris-eu-giant-illegal-step-russian-assets-indefinitely-frozen-moscow-takes-co-2025-12-13.md",
+        "index_path": "codex/2026/raw-input/2025-12-13/youtube-alex-mercouris-eu-giant-illegal-step-russian-assets-indefinitely-frozen-moscow-takes-co-2025-12-13.md",
         "video_id": "U2YvhehoAwE",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -28121,7 +28121,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2025-12-14/youtube-alex-mercouris-confident-moscow-trashes-zelensky-proposals-turkey-tells-kiev-stop-tanke-2025-12-14.md",
+        "index_path": "codex/2026/raw-input/2025-12-14/youtube-alex-mercouris-confident-moscow-trashes-zelensky-proposals-turkey-tells-kiev-stop-tanke-2025-12-14.md",
         "video_id": "SaHpo6ORlTg",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -28154,7 +28154,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2025-12-15/youtube-alex-mercouris-zelensky-wants-us-alliance-says-no-kiev-donbass-retreat-tense-talks-eu-b-2025-12-15.md",
+        "index_path": "codex/2026/raw-input/2025-12-15/youtube-alex-mercouris-zelensky-wants-us-alliance-says-no-kiev-donbass-retreat-tense-talks-eu-b-2025-12-15.md",
         "video_id": "hs_Dl4fIRkE",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -28188,7 +28188,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2025-12-16/youtube-alex-mercouris-russia-prepares-odessa-operation-eu-berlin-terms-rejected-mod-lifts-fog-2025-12-16.md",
+        "index_path": "codex/2026/raw-input/2025-12-16/youtube-alex-mercouris-russia-prepares-odessa-operation-eu-berlin-terms-rejected-mod-lifts-fog-2025-12-16.md",
         "video_id": "9-p8I4p07uE",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -28222,7 +28222,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2025-12-17/youtube-alex-mercouris-russia-winning-big-victory-huiliaipole-collapse-eu-in-panic-sanctions-ba-2025-12-17.md",
+        "index_path": "codex/2026/raw-input/2025-12-17/youtube-alex-mercouris-russia-winning-big-victory-huiliaipole-collapse-eu-in-panic-sanctions-ba-2025-12-17.md",
         "video_id": "HLOHbWCnI9o",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -28256,7 +28256,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2025-12-18/youtube-alex-mercouris-eu-splits-over-asset-loan-kiev-out-of-money-russia-mod-says-victory-soon-2025-12-18.md",
+        "index_path": "codex/2026/raw-input/2025-12-18/youtube-alex-mercouris-eu-splits-over-asset-loan-kiev-out-of-money-russia-mod-says-victory-soon-2025-12-18.md",
         "video_id": "xZg1_YZDLbQ",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -28290,7 +28290,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2025-12-19/youtube-alex-mercouris-eu-plan-unravels-merz-is-humiliated-aid-to-ukraine-cut-odessa-in-sight-o-2025-12-19.md",
+        "index_path": "codex/2026/raw-input/2025-12-19/youtube-alex-mercouris-eu-plan-unravels-merz-is-humiliated-aid-to-ukraine-cut-odessa-in-sight-o-2025-12-19.md",
         "video_id": "3FjLLtnNANQ",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -28324,7 +28324,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2025-12-20/youtube-alex-mercouris-ukraine-money-crisis-eu-massive-hole-in-budget-war-costs-sinking-west-ec-2025-12-20.md",
+        "index_path": "codex/2026/raw-input/2025-12-20/youtube-alex-mercouris-ukraine-money-crisis-eu-massive-hole-in-budget-war-costs-sinking-west-ec-2025-12-20.md",
         "video_id": "WwBaoSZXH0E",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -28357,7 +28357,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2025-12-21/youtube-alex-mercouris-russia-pounds-odessa-region-west-escalates-tanker-war-russian-fleet-inte-2025-12-21.md",
+        "index_path": "codex/2026/raw-input/2025-12-21/youtube-alex-mercouris-russia-pounds-odessa-region-west-escalates-tanker-war-russian-fleet-inte-2025-12-21.md",
         "video_id": "iLNcusPW3z0",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -28390,7 +28390,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2025-12-22/youtube-alex-mercouris-russian-sumy-advance-alarms-kiev-dirty-war-escalates-russian-general-kil-2025-12-22.md",
+        "index_path": "codex/2026/raw-input/2025-12-22/youtube-alex-mercouris-russian-sumy-advance-alarms-kiev-dirty-war-escalates-russian-general-kil-2025-12-22.md",
         "video_id": "KKAmexZdcLM",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -28424,7 +28424,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2025-12-23/youtube-alex-mercouris-massive-strike-russia-quick-advance-kharkov-and-zaporozhye-orban-logic-o-2025-12-23.md",
+        "index_path": "codex/2026/raw-input/2025-12-23/youtube-alex-mercouris-massive-strike-russia-quick-advance-kharkov-and-zaporozhye-orban-logic-o-2025-12-23.md",
         "video_id": "jTT9tlCchk4",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -28457,7 +28457,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2025-12-24/youtube-alex-mercouris-all-out-assault-on-konstantinovka-russia-hails-its-mic-s-success-respond-2025-12-24.md",
+        "index_path": "codex/2026/raw-input/2025-12-24/youtube-alex-mercouris-all-out-assault-on-konstantinovka-russia-hails-its-mic-s-success-respond-2025-12-24.md",
         "video_id": "lr0_1yBeIsU",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -28491,7 +28491,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2025-12-27/youtube-alex-mercouris-russia-brings-massive-law-claim-for-frozen-assets-return-eu-advised-to-s-2025-12-27.md",
+        "index_path": "codex/2026/raw-input/2025-12-27/youtube-alex-mercouris-russia-brings-massive-law-claim-for-frozen-assets-return-eu-advised-to-s-2025-12-27.md",
         "video_id": "e1h__l1Idlc",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -28524,7 +28524,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2025-12-29/youtube-alex-mercouris-ukraine-calamitous-month-mirnograd-huliaipole-rodinska-stepnogorsk-fall-2025-12-29.md",
+        "index_path": "codex/2026/raw-input/2025-12-29/youtube-alex-mercouris-ukraine-calamitous-month-mirnograd-huliaipole-rodinska-stepnogorsk-fall-2025-12-29.md",
         "video_id": "1jxZRCYYLhU",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -28555,7 +28555,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2025-12-30/youtube-alex-mercouris-moscow-accuses-kiev-of-failed-attack-putin-valdai-residence-says-retalia-2025-12-30.md",
+        "index_path": "codex/2026/raw-input/2025-12-30/youtube-alex-mercouris-moscow-accuses-kiev-of-failed-attack-putin-valdai-residence-says-retalia-2025-12-30.md",
         "video_id": "qLkdfUFdqZY",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -28588,7 +28588,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2025-12-31/youtube-alex-mercouris-russia-displays-oreshnik-plans-2026-odessa-operation-nyt-confirms-us-was-2025-12-31.md",
+        "index_path": "codex/2026/raw-input/2025-12-31/youtube-alex-mercouris-russia-displays-oreshnik-plans-2026-odessa-operation-nyt-confirms-us-was-2025-12-31.md",
         "video_id": "MT8P0SAZZ7E",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -28619,7 +28619,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-01-02/youtube-alex-mercouris-zelensky-sidelined-budanov-named-no-2-cia-role-in-drone-strikes-confirme-2026-01-02.md",
+        "index_path": "codex/2026/raw-input/2026-01-02/youtube-alex-mercouris-zelensky-sidelined-budanov-named-no-2-cia-role-in-drone-strikes-confirme-2026-01-02.md",
         "video_id": "3C8k0XL8qa8",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -28653,7 +28653,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-01-03/youtube-alex-mercouris-us-raids-venezuela-seizes-maduro-no-resistance-government-retains-contro-2026-01-03.md",
+        "index_path": "codex/2026/raw-input/2026-01-03/youtube-alex-mercouris-us-raids-venezuela-seizes-maduro-no-resistance-government-retains-contro-2026-01-03.md",
         "video_id": "PTMHONppOHA",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -28686,7 +28686,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-01-04/youtube-alex-mercouris-trump-rubio-rule-venezuela-directly-seize-oil-chavista-gov-in-control-ki-2026-01-04.md",
+        "index_path": "codex/2026/raw-input/2026-01-04/youtube-alex-mercouris-trump-rubio-rule-venezuela-directly-seize-oil-chavista-gov-in-control-ki-2026-01-04.md",
         "video_id": "5CrOrDheZ9s",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -28719,7 +28719,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-01-05/youtube-alex-mercouris-trump-threatens-rodriguez-says-venezuela-s-oil-ours-scorns-putin-drone-a-2026-01-05.md",
+        "index_path": "codex/2026/raw-input/2026-01-05/youtube-alex-mercouris-trump-threatens-rodriguez-says-venezuela-s-oil-ours-scorns-putin-drone-a-2026-01-05.md",
         "video_id": "woM2-TSxnoo",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -28753,7 +28753,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-01-06/youtube-alex-mercouris-venezuela-debacle-us-no-plan-rodriguez-defiant-oil-companies-skeptical-g-2026-01-06.md",
+        "index_path": "codex/2026/raw-input/2026-01-06/youtube-alex-mercouris-venezuela-debacle-us-no-plan-rodriguez-defiant-oil-companies-skeptical-g-2026-01-06.md",
         "video_id": "IjUSNUKOO6k",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -28788,7 +28788,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-01-07/youtube-alex-mercouris-us-russia-clash-us-seizes-tanker-moscow-sends-submarine-us-no-support-uk-2026-01-07.md",
+        "index_path": "codex/2026/raw-input/2026-01-07/youtube-alex-mercouris-us-russia-clash-us-seizes-tanker-moscow-sends-submarine-us-no-support-uk-2026-01-07.md",
         "video_id": "zt_62WmFxOM",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -28821,7 +28821,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-01-08/youtube-alex-mercouris-moscow-strikes-us-assets-in-ukraine-warns-will-protect-its-ships-calls-s-2026-01-08.md",
+        "index_path": "codex/2026/raw-input/2026-01-08/youtube-alex-mercouris-moscow-strikes-us-assets-in-ukraine-warns-will-protect-its-ships-calls-s-2026-01-08.md",
         "video_id": "tH6Llc4xGBk",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -28855,7 +28855,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-01-09/youtube-alex-mercouris-oreshnik-strikes-giant-ukraine-gas-plant-mayor-urges-kiev-residents-go-b-2026-01-09.md",
+        "index_path": "codex/2026/raw-input/2026-01-09/youtube-alex-mercouris-oreshnik-strikes-giant-ukraine-gas-plant-mayor-urges-kiev-residents-go-b-2026-01-09.md",
         "video_id": "Tn7BGPdzU9g",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -28888,7 +28888,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-01-10/youtube-alex-mercouris-medvedev-says-west-wants-war-russia-ready-oreshnik-hit-military-base-use-2026-01-10.md",
+        "index_path": "codex/2026/raw-input/2026-01-10/youtube-alex-mercouris-medvedev-says-west-wants-war-russia-ready-oreshnik-hit-military-base-use-2026-01-10.md",
         "video_id": "3FcqUnzr7zQ",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -28923,7 +28923,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-01-11/youtube-alex-mercouris-russia-prepares-biggest-ukraine-strike-duma-wants-reserve-armies-committ-2026-01-11.md",
+        "index_path": "codex/2026/raw-input/2026-01-11/youtube-alex-mercouris-russia-prepares-biggest-ukraine-strike-duma-wants-reserve-armies-committ-2026-01-11.md",
         "video_id": "QWwlm027yp4",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -28957,7 +28957,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-01-12/youtube-alex-mercouris-russia-10-kms-from-zaporozhzhye-city-evacuations-begin-putin-returns-ira-2026-01-12.md",
+        "index_path": "codex/2026/raw-input/2026-01-12/youtube-alex-mercouris-russia-10-kms-from-zaporozhzhye-city-evacuations-begin-putin-returns-ira-2026-01-12.md",
         "video_id": "jUHRwX2843U",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -28992,7 +28992,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-01-13/youtube-alex-mercouris-russia-helps-iran-jam-starlink-ending-protests-trump-hits-brics-25-iran-2026-01-13.md",
+        "index_path": "codex/2026/raw-input/2026-01-13/youtube-alex-mercouris-russia-helps-iran-jam-starlink-ending-protests-trump-hits-brics-25-iran-2026-01-13.md",
         "video_id": "zfNRnlwcXYU",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -29025,7 +29025,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-01-14/youtube-alex-mercouris-iran-says-protests-end-prepares-for-war-us-debates-options-kiev-crisis-b-2026-01-14.md",
+        "index_path": "codex/2026/raw-input/2026-01-14/youtube-alex-mercouris-iran-says-protests-end-prepares-for-war-us-debates-options-kiev-crisis-b-2026-01-14.md",
         "video_id": "h5CvuW0jUkU",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -29059,7 +29059,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-01-15/youtube-alex-mercouris-moscow-steps-in-us-iran-conflict-trump-backs-off-kiev-admits-odessa-russ-2026-01-15.md",
+        "index_path": "codex/2026/raw-input/2026-01-15/youtube-alex-mercouris-moscow-steps-in-us-iran-conflict-trump-backs-off-kiev-admits-odessa-russ-2026-01-15.md",
         "video_id": "g2n-3yALThM",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -29093,7 +29093,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-01-16/youtube-alex-mercouris-putin-new-demand-as-kiev-collapses-nato-expansion-must-be-reversed-eu-in-2026-01-16.md",
+        "index_path": "codex/2026/raw-input/2026-01-16/youtube-alex-mercouris-putin-new-demand-as-kiev-collapses-nato-expansion-must-be-reversed-eu-in-2026-01-16.md",
         "video_id": "kW7bmXLmNp4",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -29127,7 +29127,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-01-17/youtube-alex-mercouris-zelensky-rushes-top-envoys-to-us-as-kiev-crisis-deepens-trump-focus-gree-2026-01-17.md",
+        "index_path": "codex/2026/raw-input/2026-01-17/youtube-alex-mercouris-zelensky-rushes-top-envoys-to-us-as-kiev-crisis-deepens-trump-focus-gree-2026-01-17.md",
         "video_id": "-Cz0li9590I",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -29161,7 +29161,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-01-18/youtube-alex-mercouris-trump-hits-uk-eu-big-greenland-tariffs-uk-eu-rage-in-shock-without-plan-2026-01-18.md",
+        "index_path": "codex/2026/raw-input/2026-01-18/youtube-alex-mercouris-trump-hits-uk-eu-big-greenland-tariffs-uk-eu-rage-in-shock-without-plan-2026-01-18.md",
         "video_id": "87MI8V3VkcM",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -29196,7 +29196,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-01-19/youtube-alex-mercouris-trump-mocks-eu-on-nobel-prize-and-greenland-invites-putin-gaza-board-big-2026-01-19.md",
+        "index_path": "codex/2026/raw-input/2026-01-19/youtube-alex-mercouris-trump-mocks-eu-on-nobel-prize-and-greenland-invites-putin-gaza-board-big-2026-01-19.md",
         "video_id": "F7q9YYIjQQI",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -29229,7 +29229,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-01-20/youtube-alex-mercouris-trump-humiliates-starmer-macron-again-demands-greenland-russia-destroys-2026-01-20.md",
+        "index_path": "codex/2026/raw-input/2026-01-20/youtube-alex-mercouris-trump-humiliates-starmer-macron-again-demands-greenland-russia-destroys-2026-01-20.md",
         "video_id": "uoMt5q2mXzU",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -29260,7 +29260,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-01-21/youtube-alex-mercouris-kiev-blackout-crisis-deepens-600k-kievans-leave-zelensky-cancels-davos-t-2026-01-21.md",
+        "index_path": "codex/2026/raw-input/2026-01-21/youtube-alex-mercouris-kiev-blackout-crisis-deepens-600k-kievans-leave-zelensky-cancels-davos-t-2026-01-21.md",
         "video_id": "Pa6nGPKXT_c",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -29291,7 +29291,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-01-22/youtube-alex-mercouris-rutte-gives-trump-greenland-sovereign-bases-shocked-denmark-cut-out-zele-2026-01-22.md",
+        "index_path": "codex/2026/raw-input/2026-01-22/youtube-alex-mercouris-rutte-gives-trump-greenland-sovereign-bases-shocked-denmark-cut-out-zele-2026-01-22.md",
         "video_id": "gKq8NfSV8gw",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -29322,7 +29322,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-01-23/youtube-alex-mercouris-zelensky-fails-in-davos-turns-on-eu-says-cannot-resist-putin-trump-putin-2026-01-23.md",
+        "index_path": "codex/2026/raw-input/2026-01-23/youtube-alex-mercouris-zelensky-fails-in-davos-turns-on-eu-says-cannot-resist-putin-trump-putin-2026-01-23.md",
         "video_id": "JTceAGK9oTE",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -29357,7 +29357,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-01-24/youtube-alex-mercouris-russia-hits-kiev-biggest-strike-as-us-military-joins-us-russia-ukraine-t-2026-01-24.md",
+        "index_path": "codex/2026/raw-input/2026-01-24/youtube-alex-mercouris-russia-hits-kiev-biggest-strike-as-us-military-joins-us-russia-ukraine-t-2026-01-24.md",
         "video_id": "NCDUp7RCYoo",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -29388,7 +29388,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-01-25/youtube-alex-mercouris-moscow-no-concessions-us-acting-as-conflict-party-abu-dhabi-talks-oreshn-2026-01-25.md",
+        "index_path": "codex/2026/raw-input/2026-01-25/youtube-alex-mercouris-moscow-no-concessions-us-acting-as-conflict-party-abu-dhabi-talks-oreshn-2026-01-25.md",
         "video_id": "r1W2yUccMC8",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -29419,7 +29419,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-01-26/youtube-alex-mercouris-moscow-says-no-progress-abu-dhabi-talks-zelensky-won-t-give-up-territory-2026-01-26.md",
+        "index_path": "codex/2026/raw-input/2026-01-26/youtube-alex-mercouris-moscow-says-no-progress-abu-dhabi-talks-zelensky-won-t-give-up-territory-2026-01-26.md",
         "video_id": "vJeRRZly-T4",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -29453,7 +29453,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-01-27/youtube-alex-mercouris-eu-bans-all-russian-gas-imports-denies-hungary-veto-furious-orban-fico-s-2026-01-27.md",
+        "index_path": "codex/2026/raw-input/2026-01-27/youtube-alex-mercouris-eu-bans-all-russian-gas-imports-denies-hungary-veto-furious-orban-fico-s-2026-01-27.md",
         "video_id": "H86Rw10HLF4",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -29487,7 +29487,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-01-28/youtube-alex-mercouris-russian-prepares-2026-offensive-lyman-falling-drones-spy-kiev-reserve-ar-2026-01-28.md",
+        "index_path": "codex/2026/raw-input/2026-01-28/youtube-alex-mercouris-russian-prepares-2026-offensive-lyman-falling-drones-spy-kiev-reserve-ar-2026-01-28.md",
         "video_id": "DuOP68rBeLc",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -29521,7 +29521,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-01-29/youtube-alex-mercouris-iran-says-will-close-hormuz-straits-as-us-prepares-attack-rubio-admits-r-2026-01-29.md",
+        "index_path": "codex/2026/raw-input/2026-01-29/youtube-alex-mercouris-iran-says-will-close-hormuz-straits-as-us-prepares-attack-rubio-admits-r-2026-01-29.md",
         "video_id": "CK2OxNRjIoI",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -29554,7 +29554,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-01-30/youtube-alex-mercouris-moscow-rejects-us-kiev-security-guarantees-says-kiev-energy-truce-ends-s-2026-01-30.md",
+        "index_path": "codex/2026/raw-input/2026-01-30/youtube-alex-mercouris-moscow-rejects-us-kiev-security-guarantees-says-kiev-energy-truce-ends-s-2026-01-30.md",
         "video_id": "cwnnzrYzGvg",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -29589,7 +29589,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-01-31/youtube-alex-mercouris-putin-meets-larijani-as-iran-seeks-russia-s-help-ukraine-hit-by-massive-2026-01-31.md",
+        "index_path": "codex/2026/raw-input/2026-01-31/youtube-alex-mercouris-putin-meets-larijani-as-iran-seeks-russia-s-help-ukraine-hit-by-massive-2026-01-31.md",
         "video_id": "hu0YQAe0TGs",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -29623,7 +29623,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-02-01/youtube-alex-mercouris-iran-readies-for-big-war-zelensky-dithers-postpones-talks-predicts-failu-2026-02-01.md",
+        "index_path": "codex/2026/raw-input/2026-02-01/youtube-alex-mercouris-iran-readies-for-big-war-zelensky-dithers-postpones-talks-predicts-failu-2026-02-01.md",
         "video_id": "0Np1Xh6sJLU",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -29657,7 +29657,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-02-02/youtube-alex-mercouris-trump-backs-off-iran-attack-as-talks-begin-russia-seeks-kiev-regime-chan-2026-02-02.md",
+        "index_path": "codex/2026/raw-input/2026-02-02/youtube-alex-mercouris-trump-backs-off-iran-attack-as-talks-begin-russia-seeks-kiev-regime-chan-2026-02-02.md",
         "video_id": "pISn4n_CMZM",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -29688,7 +29688,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-02-03/youtube-alex-mercouris-moscow-says-zelensky-terrorist-for-valdai-attack-confirms-harder-stance-2026-02-03.md",
+        "index_path": "codex/2026/raw-input/2026-02-03/youtube-alex-mercouris-moscow-says-zelensky-terrorist-for-valdai-attack-confirms-harder-stance-2026-02-03.md",
         "video_id": "uUZPSQw3cfA",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -29724,7 +29724,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-02-04/youtube-alex-mercouris-one-step-closer-to-nuclear-war-nato-rutte-crazy-speech-as-ukraine-smashe-2026-02-04.md",
+        "index_path": "codex/2026/raw-input/2026-02-04/youtube-alex-mercouris-one-step-closer-to-nuclear-war-nato-rutte-crazy-speech-as-ukraine-smashe-2026-02-04.md",
         "video_id": "PSEDW6dEf-s",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -29757,7 +29757,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-02-05/youtube-alex-mercouris-starmer-caught-up-epstein-scandal-about-to-fall-russia-plans-kiev-odessa-2026-02-05.md",
+        "index_path": "codex/2026/raw-input/2026-02-05/youtube-alex-mercouris-starmer-caught-up-epstein-scandal-about-to-fall-russia-plans-kiev-odessa-2026-02-05.md",
         "video_id": "aQCotqaE6jE",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -29791,7 +29791,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-02-06/youtube-alex-mercouris-russia-furious-as-kiev-tries-to-kill-deputy-of-russia-s-chief-negotiator-2026-02-06.md",
+        "index_path": "codex/2026/raw-input/2026-02-06/youtube-alex-mercouris-russia-furious-as-kiev-tries-to-kill-deputy-of-russia-s-chief-negotiator-2026-02-06.md",
         "video_id": "f89gRvfBjAg",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -29826,7 +29826,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-02-07/youtube-alex-mercouris-russia-knocks-out-kiev-s-nuclear-power-zelensky-panics-blames-ukraine-ad-2026-02-07.md",
+        "index_path": "codex/2026/raw-input/2026-02-07/youtube-alex-mercouris-russia-knocks-out-kiev-s-nuclear-power-zelensky-panics-blames-ukraine-ad-2026-02-07.md",
         "video_id": "kOY9J1ZEic0",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -29860,7 +29860,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-02-08/youtube-alex-mercouris-russia-alexeyev-gunman-kiev-agent-energy-crisis-zelensky-rages-blames-of-2026-02-08.md",
+        "index_path": "codex/2026/raw-input/2026-02-08/youtube-alex-mercouris-russia-alexeyev-gunman-kiev-agent-energy-crisis-zelensky-rages-blames-of-2026-02-08.md",
         "video_id": "fts0FNg3SjY",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -29894,7 +29894,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-02-09/youtube-alex-mercouris-starmer-clings-on-as-uk-gov-unravels-furious-lavrov-us-betrayed-russia-a-2026-02-09.md",
+        "index_path": "codex/2026/raw-input/2026-02-09/youtube-alex-mercouris-starmer-clings-on-as-uk-gov-unravels-furious-lavrov-us-betrayed-russia-a-2026-02-09.md",
         "video_id": "ZF0-KG2sSSc",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -29927,7 +29927,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-02-10/youtube-alex-mercouris-lavrov-says-us-seeks-global-dominance-us-russia-relations-getting-worse-2026-02-10.md",
+        "index_path": "codex/2026/raw-input/2026-02-10/youtube-alex-mercouris-lavrov-says-us-seeks-global-dominance-us-russia-relations-getting-worse-2026-02-10.md",
         "video_id": "qdAx8H1RwdI",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -29961,7 +29961,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-02-11/youtube-alex-mercouris-russia-strike-coming-zelensky-rejects-election-call-eu-again-eyes-russia-2026-02-11.md",
+        "index_path": "codex/2026/raw-input/2026-02-11/youtube-alex-mercouris-russia-strike-coming-zelensky-rejects-election-call-eu-again-eyes-russia-2026-02-11.md",
         "video_id": "pHCWOPCq2hA",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -29996,7 +29996,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-02-12/youtube-alex-mercouris-russia-china-rush-military-aid-to-iran-trump-backs-off-argues-with-netan-2026-02-12.md",
+        "index_path": "codex/2026/raw-input/2026-02-12/youtube-alex-mercouris-russia-china-rush-military-aid-to-iran-trump-backs-off-argues-with-netan-2026-02-12.md",
         "video_id": "qB6KSQWNlNQ",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -30031,7 +30031,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-02-13/youtube-alex-mercouris-russia-china-defy-us-china-offers-iran-j20-fighter-spy-ship-tracks-us-fl-2026-02-13.md",
+        "index_path": "codex/2026/raw-input/2026-02-13/youtube-alex-mercouris-russia-china-defy-us-china-offers-iran-j20-fighter-spy-ship-tracks-us-fl-2026-02-13.md",
         "video_id": "jFd1BLOl35Y",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -30066,7 +30066,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-02-14/youtube-alex-mercouris-kiev-trembles-ahead-oreshnik-strike-russia-china-together-back-iran-cuba-2026-02-14.md",
+        "index_path": "codex/2026/raw-input/2026-02-14/youtube-alex-mercouris-kiev-trembles-ahead-oreshnik-strike-russia-china-together-back-iran-cuba-2026-02-14.md",
         "video_id": "03WEWGLrJL4",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -30099,7 +30099,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-02-15/youtube-alex-mercouris-moscow-ridicules-uk-navalny-frog-poison-claim-gerasimov-talks-dnepro-off-2026-02-15.md",
+        "index_path": "codex/2026/raw-input/2026-02-15/youtube-alex-mercouris-moscow-ridicules-uk-navalny-frog-poison-claim-gerasimov-talks-dnepro-off-2026-02-15.md",
         "video_id": "kOxyHL1IUJ0",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -30132,7 +30132,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-02-16/youtube-alex-mercouris-putin-sends-tough-team-geneva-as-russia-prepares-giant-missile-strike-br-2026-02-16.md",
+        "index_path": "codex/2026/raw-input/2026-02-16/youtube-alex-mercouris-putin-sends-tough-team-geneva-as-russia-prepares-giant-missile-strike-br-2026-02-16.md",
         "video_id": "r_N9YwOCJfM",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -30166,7 +30166,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-02-17/youtube-alex-mercouris-russian-top-general-floats-russian-annexation-of-ukraine-geneva-talks-be-2026-02-17.md",
+        "index_path": "codex/2026/raw-input/2026-02-17/youtube-alex-mercouris-russian-top-general-floats-russian-annexation-of-ukraine-geneva-talks-be-2026-02-17.md",
         "video_id": "8PGeNwFTTwc",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -30201,7 +30201,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-02-18/youtube-alex-mercouris-russia-rushes-oil-to-china-as-iran-prepares-hormuz-closure-medinsky-crus-2026-02-18.md",
+        "index_path": "codex/2026/raw-input/2026-02-18/youtube-alex-mercouris-russia-rushes-oil-to-china-as-iran-prepares-hormuz-closure-medinsky-crus-2026-02-18.md",
         "video_id": "PdsiZnHZYZo",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -30235,7 +30235,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-02-19/youtube-alex-mercouris-uk-shock-as-andrew-arrested-russian-chinese-warships-join-iran-navy-medi-2026-02-19.md",
+        "index_path": "codex/2026/raw-input/2026-02-19/youtube-alex-mercouris-uk-shock-as-andrew-arrested-russian-chinese-warships-join-iran-navy-medi-2026-02-19.md",
         "video_id": "nvmCo7mLET8",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -30269,7 +30269,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-02-20/youtube-alex-mercouris-russia-iran-fleets-conduct-hormuz-exercise-trump-delays-strike-moscow-sa-2026-02-20.md",
+        "index_path": "codex/2026/raw-input/2026-02-20/youtube-alex-mercouris-russia-iran-fleets-conduct-hormuz-exercise-trump-delays-strike-moscow-sa-2026-02-20.md",
         "video_id": "jjrtybAxnc4",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -30300,7 +30300,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-02-21/youtube-alex-mercouris-putin-orders-medinsky-tough-line-zelensky-meltdown-wants-3-year-war-kiev-2026-02-21.md",
+        "index_path": "codex/2026/raw-input/2026-02-21/youtube-alex-mercouris-putin-orders-medinsky-tough-line-zelensky-meltdown-wants-3-year-war-kiev-2026-02-21.md",
         "video_id": "wnPHmF8rpq8",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -30331,7 +30331,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-02-22/youtube-alex-mercouris-zelensky-coup-fears-kiev-crisis-restarts-moscow-blames-uk-for-alexeyev-h-2026-02-22.md",
+        "index_path": "codex/2026/raw-input/2026-02-22/youtube-alex-mercouris-zelensky-coup-fears-kiev-crisis-restarts-moscow-blames-uk-for-alexeyev-h-2026-02-22.md",
         "video_id": "lroblskfwuQ",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -30366,7 +30366,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-02-23/youtube-alex-mercouris-iran-debacle-us-military-intel-chiefs-doubt-success-russia-nato-naval-wa-2026-02-23.md",
+        "index_path": "codex/2026/raw-input/2026-02-23/youtube-alex-mercouris-iran-debacle-us-military-intel-chiefs-doubt-success-russia-nato-naval-wa-2026-02-23.md",
         "video_id": "Y3rew0LRHU0",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -30399,7 +30399,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-02-24/youtube-alex-mercouris-medvedev-wants-kiev-moscow-uk-france-plot-giving-kiev-nuke-slaviansk-tru-2026-02-24.md",
+        "index_path": "codex/2026/raw-input/2026-02-24/youtube-alex-mercouris-medvedev-wants-kiev-moscow-uk-france-plot-giving-kiev-nuke-slaviansk-tru-2026-02-24.md",
         "video_id": "9gLKfOdFOc4",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -30433,7 +30433,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-02-25/youtube-alex-mercouris-putin-says-kiev-plans-black-sea-pipeline-attack-gives-west-nuclear-warni-2026-02-25.md",
+        "index_path": "codex/2026/raw-input/2026-02-25/youtube-alex-mercouris-putin-says-kiev-plans-black-sea-pipeline-attack-gives-west-nuclear-warni-2026-02-25.md",
         "video_id": "0tqxM1yKn6s",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -30464,7 +30464,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-02-26/youtube-alex-mercouris-kiev-fortifying-odessa-as-zaporozhzhia-counter-attack-fails-desperate-ze-2026-02-26.md",
+        "index_path": "codex/2026/raw-input/2026-02-26/youtube-alex-mercouris-kiev-fortifying-odessa-as-zaporozhzhia-counter-attack-fails-desperate-ze-2026-02-26.md",
         "video_id": "yolLJMmeQrk",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -30497,7 +30497,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-02-27/youtube-alex-mercouris-us-iran-talks-fail-embassies-evacuated-attack-imminent-konstaninovka-def-2026-02-27.md",
+        "index_path": "codex/2026/raw-input/2026-02-27/youtube-alex-mercouris-us-iran-talks-fail-embassies-evacuated-attack-imminent-konstaninovka-def-2026-02-27.md",
         "video_id": "HQyttm7M-oE",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -30530,7 +30530,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-02-27/duran-mercouris-us-iran-geneva-embassies-konstantinovka-uk-2026-02-27.md",
+        "index_path": "codex/2026/raw-input/2026-02-27/duran-mercouris-us-iran-geneva-embassies-konstantinovka-uk-2026-02-27.md",
         "video_id": "TBD-duran-mercouris-2026-02-27",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@TheDuran",
@@ -30564,7 +30564,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-02-28/youtube-alex-mercouris-iran-strikes-back-hits-us-bases-across-mideast-after-us-israel-strikes-t-2026-02-28.md",
+        "index_path": "codex/2026/raw-input/2026-02-28/youtube-alex-mercouris-iran-strikes-back-hits-us-bases-across-mideast-after-us-israel-strikes-t-2026-02-28.md",
         "video_id": "pWZ2ITIrpd8",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -30598,7 +30598,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-03-01/youtube-alex-mercouris-iran-defiant-after-khamenei-death-picks-new-leaders-closes-hormuz-contin-2026-03-01.md",
+        "index_path": "codex/2026/raw-input/2026-03-01/youtube-alex-mercouris-iran-defiant-after-khamenei-death-picks-new-leaders-closes-hormuz-contin-2026-03-01.md",
         "video_id": "kUy3soYsmKY",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -30632,7 +30632,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-03-01/duran-mercouris-khamenei-strike-hormuz-russia-2026-03-01.md",
+        "index_path": "codex/2026/raw-input/2026-03-01/duran-mercouris-khamenei-strike-hormuz-russia-2026-03-01.md",
         "video_id": "TBD-duran-mercouris-2026-03-01",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@TheDuran",
@@ -30665,7 +30665,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-03-02/youtube-alex-mercouris-iran-no-as-trump-begs-talks-plans-long-war-us-losses-mount-oil-gas-price-2026-03-02.md",
+        "index_path": "codex/2026/raw-input/2026-03-02/youtube-alex-mercouris-iran-no-as-trump-begs-talks-plans-long-war-us-losses-mount-oil-gas-price-2026-03-02.md",
         "video_id": "U38TpH8cPek",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -30698,7 +30698,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-03-03/youtube-alex-mercouris-iran-fights-attrition-war-us-exhausts-stockpiles-gulf-arabs-panic-mbs-ca-2026-03-03.md",
+        "index_path": "codex/2026/raw-input/2026-03-03/youtube-alex-mercouris-iran-fights-attrition-war-us-exhausts-stockpiles-gulf-arabs-panic-mbs-ca-2026-03-03.md",
         "video_id": "p2kBG8i_Knw",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -30731,7 +30731,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-03-04/youtube-alex-mercouris-iran-hormuz-closure-causes-energy-supply-shock-us-mulls-invasion-fears-l-2026-03-04.md",
+        "index_path": "codex/2026/raw-input/2026-03-04/youtube-alex-mercouris-iran-hormuz-closure-causes-energy-supply-shock-us-mulls-invasion-fears-l-2026-03-04.md",
         "video_id": "xcSgdx6FBAY",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -30766,7 +30766,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-03-05/youtube-alex-mercouris-iran-tightens-hormuz-blockade-us-strikes-intensify-kurds-in-ukraine-out-2026-03-05.md",
+        "index_path": "codex/2026/raw-input/2026-03-05/youtube-alex-mercouris-iran-tightens-hormuz-blockade-us-strikes-intensify-kurds-in-ukraine-out-2026-03-05.md",
         "video_id": "tUbc17SsVS8",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -30801,7 +30801,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-03-06/youtube-alex-mercouris-iran-destroyed-us-mideast-ad-radars-oil-crisis-aragchi-russia-china-help-2026-03-06.md",
+        "index_path": "codex/2026/raw-input/2026-03-06/youtube-alex-mercouris-iran-destroyed-us-mideast-ad-radars-oil-crisis-aragchi-russia-china-help-2026-03-06.md",
         "video_id": "5-KWpHfq5FQ",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -30835,7 +30835,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-03-07/youtube-alex-mercouris-russia-aids-iran-target-us-bases-oil-crisis-gulf-states-call-russia-us-e-2026-03-07.md",
+        "index_path": "codex/2026/raw-input/2026-03-07/youtube-alex-mercouris-russia-aids-iran-target-us-bases-oil-crisis-gulf-states-call-russia-us-e-2026-03-07.md",
         "video_id": "apJGoK1HqIU",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -30870,7 +30870,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-03-08/youtube-alex-mercouris-us-israel-escalate-as-iran-defiant-fear-russia-aids-iran-plan-kharg-isla-2026-03-08.md",
+        "index_path": "codex/2026/raw-input/2026-03-08/youtube-alex-mercouris-us-israel-escalate-as-iran-defiant-fear-russia-aids-iran-plan-kharg-isla-2026-03-08.md",
         "video_id": "xcwl7evhKKg",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -30904,7 +30904,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-03-09/youtube-alex-mercouris-us-eu-panic-100-oil-price-khamenei-s-hardline-son-new-iran-leader-gets-p-2026-03-09.md",
+        "index_path": "codex/2026/raw-input/2026-03-09/youtube-alex-mercouris-us-eu-panic-100-oil-price-khamenei-s-hardline-son-new-iran-leader-gets-p-2026-03-09.md",
         "video_id": "4Mutk9asuxs",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -30937,7 +30937,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-03-10/youtube-alex-mercouris-iran-debacle-us-officials-tell-trump-end-war-trump-calls-putin-begs-help-2026-03-10.md",
+        "index_path": "codex/2026/raw-input/2026-03-10/youtube-alex-mercouris-iran-debacle-us-officials-tell-trump-end-war-trump-calls-putin-begs-help-2026-03-10.md",
         "video_id": "TZOk7rzfkxA",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -30970,7 +30970,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-03-11/youtube-alex-mercouris-us-iran-crisis-deepens-iran-mines-hormuz-strait-continues-strikes-seeks-2026-03-11.md",
+        "index_path": "codex/2026/raw-input/2026-03-11/youtube-alex-mercouris-us-iran-crisis-deepens-iran-mines-hormuz-strait-continues-strikes-seeks-2026-03-11.md",
         "video_id": "Y3DvxjIffaA",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -31003,7 +31003,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-03-12/youtube-alex-mercouris-iran-leader-keep-hormuz-closed-tankers-destroyed-oil-surges-us-no-plan-m-2026-03-12.md",
+        "index_path": "codex/2026/raw-input/2026-03-12/youtube-alex-mercouris-iran-leader-keep-hormuz-closed-tankers-destroyed-oil-surges-us-no-plan-m-2026-03-12.md",
         "video_id": "hbl3tuy-CA4",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -31037,7 +31037,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-03-13/youtube-alex-mercouris-russia-blamed-for-iran-missile-strikes-drones-smash-bases-ships-burn-in-2026-03-13.md",
+        "index_path": "codex/2026/raw-input/2026-03-13/youtube-alex-mercouris-russia-blamed-for-iran-missile-strikes-drones-smash-bases-ships-burn-in-2026-03-13.md",
         "video_id": "9utwneVHO6s",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -31071,7 +31071,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-03-14/youtube-alex-mercouris-eu-uk-furious-as-russia-exports-soar-sanctions-unravel-aid-to-kiev-stops-2026-03-14.md",
+        "index_path": "codex/2026/raw-input/2026-03-14/youtube-alex-mercouris-eu-uk-furious-as-russia-exports-soar-sanctions-unravel-aid-to-kiev-stops-2026-03-14.md",
         "video_id": "xLfY2QGWklM",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -31105,7 +31105,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-03-15/youtube-alex-mercouris-eu-despair-says-iran-war-disaster-for-kiev-iran-crushes-us-regime-change-2026-03-15.md",
+        "index_path": "codex/2026/raw-input/2026-03-15/youtube-alex-mercouris-eu-despair-says-iran-war-disaster-for-kiev-iran-crushes-us-regime-change-2026-03-15.md",
         "video_id": "oLZZaa8GN8M",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -31140,7 +31140,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-03-16/youtube-alex-mercouris-eu-won-t-join-iran-war-wants-moscow-talks-russia-says-no-throws-out-macr-2026-03-16.md",
+        "index_path": "codex/2026/raw-input/2026-03-16/youtube-alex-mercouris-eu-won-t-join-iran-war-wants-moscow-talks-russia-says-no-throws-out-macr-2026-03-16.md",
         "video_id": "SpjDePIselg",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -31174,7 +31174,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-03-17/youtube-alex-mercouris-us-mulls-iran-ground-invasion-as-options-run-out-israel-larijani-dead-la-2026-03-17.md",
+        "index_path": "codex/2026/raw-input/2026-03-17/youtube-alex-mercouris-us-mulls-iran-ground-invasion-as-options-run-out-israel-larijani-dead-la-2026-03-17.md",
         "video_id": "kcd_Y41tPFI",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -31208,7 +31208,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-03-18/youtube-alex-mercouris-zelensky-panics-begs-europe-help-iran-war-depletes-us-arsenal-nothing-fo-2026-03-18.md",
+        "index_path": "codex/2026/raw-input/2026-03-18/youtube-alex-mercouris-zelensky-panics-begs-europe-help-iran-war-depletes-us-arsenal-nothing-fo-2026-03-18.md",
         "video_id": "3uMTdj3YhXk",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -31242,7 +31242,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-03-19/youtube-alex-mercouris-iran-zero-restraint-after-israel-attacks-huge-gas-field-hits-mideast-ene-2026-03-19.md",
+        "index_path": "codex/2026/raw-input/2026-03-19/youtube-alex-mercouris-iran-zero-restraint-after-israel-attacks-huge-gas-field-hits-mideast-ene-2026-03-19.md",
         "video_id": "_H0lhMUoq0s",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -31276,7 +31276,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-03-20/youtube-alex-mercouris-russia-steps-up-iran-aid-iran-hits-f35-energy-crisis-causes-recession-fe-2026-03-20.md",
+        "index_path": "codex/2026/raw-input/2026-03-20/youtube-alex-mercouris-russia-steps-up-iran-aid-iran-hits-f35-energy-crisis-causes-recession-fe-2026-03-20.md",
         "video_id": "7_8P3JHYXhk",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -31310,7 +31310,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-03-21/youtube-alex-mercouris-iran-strikes-diego-garcia-putin-tells-iran-russia-loyal-ally-reports-ira-2026-03-21.md",
+        "index_path": "codex/2026/raw-input/2026-03-21/youtube-alex-mercouris-iran-strikes-diego-garcia-putin-tells-iran-russia-loyal-ally-reports-ira-2026-03-21.md",
         "video_id": "gFQAA6kqG0Q",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -31345,7 +31345,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-03-22/youtube-alex-mercouris-iran-missiles-hit-dimona-after-us-israel-natanz-strike-israel-shock-nucl-2026-03-22.md",
+        "index_path": "codex/2026/raw-input/2026-03-22/youtube-alex-mercouris-iran-missiles-hit-dimona-after-us-israel-natanz-strike-israel-shock-nucl-2026-03-22.md",
         "video_id": "-JIaPwqzk0k",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -31378,7 +31378,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-03-23/youtube-alex-mercouris-trump-backs-down-postpones-hormuz-ultimatum-claims-us-iran-talks-underwa-2026-03-23.md",
+        "index_path": "codex/2026/raw-input/2026-03-23/youtube-alex-mercouris-trump-backs-down-postpones-hormuz-ultimatum-claims-us-iran-talks-underwa-2026-03-23.md",
         "video_id": "0ldFRXn_13c",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -31412,7 +31412,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-03-24/youtube-alex-mercouris-iran-again-strikes-dimona-arad-israel-ad-fails-us-prepares-4-division-gr-2026-03-24.md",
+        "index_path": "codex/2026/raw-input/2026-03-24/youtube-alex-mercouris-iran-again-strikes-dimona-arad-israel-ad-fails-us-prepares-4-division-gr-2026-03-24.md",
         "video_id": "hiz6KpkaSM8",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -31446,7 +31446,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-03-25/youtube-alex-mercouris-iran-no-to-us-talks-ceasefire-offers-moscow-backs-iran-1000-gerans-hamme-2026-03-25.md",
+        "index_path": "codex/2026/raw-input/2026-03-25/youtube-alex-mercouris-iran-no-to-us-talks-ceasefire-offers-moscow-backs-iran-1000-gerans-hamme-2026-03-25.md",
         "video_id": "TNeJaVeEC3U",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -31480,7 +31480,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-03-26/youtube-alex-mercouris-us-faces-strategic-defeat-iran-won-t-talk-us-gambles-on-kharg-capture-ru-2026-03-26.md",
+        "index_path": "codex/2026/raw-input/2026-03-26/youtube-alex-mercouris-us-faces-strategic-defeat-iran-won-t-talk-us-gambles-on-kharg-capture-ru-2026-03-26.md",
         "video_id": "9KA_hbYSQ38",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -31516,7 +31516,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-03-27/youtube-alex-mercouris-russia-gives-iran-more-drones-fibre-optic-tech-eu-fear-nato-collapse-put-2026-03-27.md",
+        "index_path": "codex/2026/raw-input/2026-03-27/youtube-alex-mercouris-russia-gives-iran-more-drones-fibre-optic-tech-eu-fear-nato-collapse-put-2026-03-27.md",
         "video_id": "YD9sBc4qpgE",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -31551,7 +31551,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-03-28/youtube-alex-mercouris-houthis-join-war-strike-israel-medvedev-warns-big-nuclear-risks-massive-2026-03-28.md",
+        "index_path": "codex/2026/raw-input/2026-03-28/youtube-alex-mercouris-houthis-join-war-strike-israel-medvedev-warns-big-nuclear-risks-massive-2026-03-28.md",
         "video_id": "tsenhIVfkpM",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -31585,7 +31585,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-03-29/youtube-alex-mercouris-iran-strikes-us-base-destroys-us-awacs-defiant-over-us-ground-op-russian-2026-03-29.md",
+        "index_path": "codex/2026/raw-input/2026-03-29/youtube-alex-mercouris-iran-strikes-us-base-destroys-us-awacs-defiant-over-us-ground-op-russian-2026-03-29.md",
         "video_id": "J37-kIE82LQ",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -31620,7 +31620,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-03-30/youtube-alex-mercouris-israel-ad-fails-80-iran-missiles-hit-target-china-us-bombing-must-stop-u-2026-03-30.md",
+        "index_path": "codex/2026/raw-input/2026-03-30/youtube-alex-mercouris-israel-ad-fails-80-iran-missiles-hit-target-china-us-bombing-must-stop-u-2026-03-30.md",
         "video_id": "1L-HI4zDBHs",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -31653,7 +31653,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-03-31/youtube-alex-mercouris-trump-begs-iran-talks-gives-up-on-hormuz-lavrov-crisis-becoming-world-wa-2026-03-31.md",
+        "index_path": "codex/2026/raw-input/2026-03-31/youtube-alex-mercouris-trump-begs-iran-talks-gives-up-on-hormuz-lavrov-crisis-becoming-world-wa-2026-03-31.md",
         "video_id": "NuR9xJWTLm8",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -31686,7 +31686,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-03-31/duran-mercouris-trump-iran-talks-lavrov-chechens-2026-03-31.md",
+        "index_path": "codex/2026/raw-input/2026-03-31/duran-mercouris-trump-iran-talks-lavrov-chechens-2026-03-31.md",
         "video_id": "TBD-duran-mercouris-2026-03-31",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@TheDuran",
@@ -31720,7 +31720,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-04-01/youtube-alex-mercouris-trump-threatens-us-nato-exit-russia-winning-donbas-victory-warns-us-kiev-2026-04-01.md",
+        "index_path": "codex/2026/raw-input/2026-04-01/youtube-alex-mercouris-trump-threatens-us-nato-exit-russia-winning-donbas-victory-warns-us-kiev-2026-04-01.md",
         "video_id": "bZGvLbH3jcc",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -31755,7 +31755,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-04-02/youtube-alex-mercouris-russia-china-act-as-trump-iran-war-address-fails-russia-saudi-talks-chin-2026-04-02.md",
+        "index_path": "codex/2026/raw-input/2026-04-02/youtube-alex-mercouris-russia-china-act-as-trump-iran-war-address-fails-russia-saudi-talks-chin-2026-04-02.md",
         "video_id": "nC5IAxI8D3U",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -31789,7 +31789,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-04-03/youtube-alex-mercouris-trump-threatens-wider-bombing-sacks-general-iran-defiant-f15-lost-medved-2026-04-03.md",
+        "index_path": "codex/2026/raw-input/2026-04-03/youtube-alex-mercouris-trump-threatens-wider-bombing-sacks-general-iran-defiant-f15-lost-medved-2026-04-03.md",
         "video_id": "jS42akaMR6Q",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -31823,7 +31823,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-04-04/youtube-alex-mercouris-iran-shoots-down-us-a10-hunts-f15-pilot-trump-sacks-more-generals-russia-2026-04-04.md",
+        "index_path": "codex/2026/raw-input/2026-04-04/youtube-alex-mercouris-iran-shoots-down-us-a10-hunts-f15-pilot-trump-sacks-more-generals-russia-2026-04-04.md",
         "video_id": "GtqvH_zAFDw",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -31856,7 +31856,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-04-05/youtube-alex-mercouris-iran-destroys-multiple-us-aircraft-us-rescues-f15-pilot-us-readies-huge-2026-04-05.md",
+        "index_path": "codex/2026/raw-input/2026-04-05/youtube-alex-mercouris-iran-destroys-multiple-us-aircraft-us-rescues-f15-pilot-us-readies-huge-2026-04-05.md",
         "video_id": "dL2NsBX8RCg",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -31889,7 +31889,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-04-05/duran-mercouris-f15-rescue-hormuz-nato-kiev-2026-04-05.md",
+        "index_path": "codex/2026/raw-input/2026-04-05/duran-mercouris-f15-rescue-hormuz-nato-kiev-2026-04-05.md",
         "video_id": "TBD-duran-mercouris-2026-04-05",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@TheDuran",
@@ -31923,7 +31923,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-04-06/youtube-alex-mercouris-russia-demands-us-drop-ultimatums-offers-mediation-iran-rejects-us-cease-2026-04-06.md",
+        "index_path": "codex/2026/raw-input/2026-04-06/youtube-alex-mercouris-russia-demands-us-drop-ultimatums-offers-mediation-iran-rejects-us-cease-2026-04-06.md",
         "video_id": "woIYtlSfdXk",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -31957,7 +31957,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-04-07/youtube-alex-mercouris-us-prepares-huge-iran-strike-russian-spy-satellite-data-helps-iran-kiev-2026-04-07.md",
+        "index_path": "codex/2026/raw-input/2026-04-07/youtube-alex-mercouris-us-prepares-huge-iran-strike-russian-spy-satellite-data-helps-iran-kiev-2026-04-07.md",
         "video_id": "-RUWotSz-J8",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -31991,7 +31991,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-04-07/duran-mercouris-hormuz-deadline-satellites-oreshnik-2026-04-07.md",
+        "index_path": "codex/2026/raw-input/2026-04-07/duran-mercouris-hormuz-deadline-satellites-oreshnik-2026-04-07.md",
         "video_id": "TBD-duran-mercouris-2026-04-07",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@TheDuran",
@@ -32024,7 +32024,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-04-08/youtube-alex-mercouris-us-gives-iran-control-of-hormuz-for-2-week-truce-talks-iran-10-points-us-2026-04-08.md",
+        "index_path": "codex/2026/raw-input/2026-04-08/youtube-alex-mercouris-us-gives-iran-control-of-hormuz-for-2-week-truce-talks-iran-10-points-us-2026-04-08.md",
         "video_id": "X2VilASEwF8",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -32059,7 +32059,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-04-09/youtube-alex-mercouris-iran-us-truce-unravels-israel-attacks-lebanon-iran-blocks-hormuz-russian-2026-04-09.md",
+        "index_path": "codex/2026/raw-input/2026-04-09/youtube-alex-mercouris-iran-us-truce-unravels-israel-attacks-lebanon-iran-blocks-hormuz-russian-2026-04-09.md",
         "video_id": "V93i8GOIi-U",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -32093,7 +32093,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-04-10/youtube-alex-mercouris-russia-prepares-final-donbass-battle-uk-drops-plan-seize-russian-ships-h-2026-04-10.md",
+        "index_path": "codex/2026/raw-input/2026-04-10/youtube-alex-mercouris-russia-prepares-final-donbass-battle-uk-drops-plan-seize-russian-ships-h-2026-04-10.md",
         "video_id": "dcz8PeuTAps",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -32127,7 +32127,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-04-11/youtube-alex-mercouris-iran-keeps-hormuz-russia-keeps-advancing-two-wars-at-a-crossroads-russia-2026-04-11.md",
+        "index_path": "codex/2026/raw-input/2026-04-11/youtube-alex-mercouris-iran-keeps-hormuz-russia-keeps-advancing-two-wars-at-a-crossroads-russia-2026-04-11.md",
         "video_id": "sub1-K7SX2E",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -32161,7 +32161,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-04-13/youtube-alex-mercouris-us-iran-sea-blockade-talks-collapse-iran-calls-putin-lavrov-to-china-bud-2026-04-13.md",
+        "index_path": "codex/2026/raw-input/2026-04-13/youtube-alex-mercouris-us-iran-sea-blockade-talks-collapse-iran-calls-putin-lavrov-to-china-bud-2026-04-13.md",
         "video_id": "vFVNSSVaRgg",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -32196,7 +32196,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-04-14/youtube-alex-mercouris-russia-china-meet-plan-expel-us-mideast-trump-blockade-fails-eu-panics-a-2026-04-14.md",
+        "index_path": "codex/2026/raw-input/2026-04-14/youtube-alex-mercouris-russia-china-meet-plan-expel-us-mideast-trump-blockade-fails-eu-panics-a-2026-04-14.md",
         "video_id": "0cYL9G9krlc",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -32231,7 +32231,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-04-15/youtube-alex-mercouris-russia-warns-us-will-intensify-iran-war-china-warns-navy-protect-china-o-2026-04-15.md",
+        "index_path": "codex/2026/raw-input/2026-04-15/youtube-alex-mercouris-russia-warns-us-will-intensify-iran-war-china-warns-navy-protect-china-o-2026-04-15.md",
         "video_id": "X1lO5Qd47R4",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -32266,7 +32266,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-04-15/duran-mercouris-russia-intensify-china-tankers-putin-xi-2026-04-15.md",
+        "index_path": "codex/2026/raw-input/2026-04-15/duran-mercouris-russia-intensify-china-tankers-putin-xi-2026-04-15.md",
         "video_id": "TBD-duran-mercouris-2026-04-15",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@TheDuran",
@@ -32301,7 +32301,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-04-16/youtube-alex-mercouris-russia-eu-makes-drones-for-kiev-medvedev-warns-iran-welcomes-pakistan-ch-2026-04-16.md",
+        "index_path": "codex/2026/raw-input/2026-04-16/youtube-alex-mercouris-russia-eu-makes-drones-for-kiev-medvedev-warns-iran-welcomes-pakistan-ch-2026-04-16.md",
         "video_id": "7k6Igz-l7rc",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -32312,8 +32312,8 @@
     },
     {
       "type": "episode",
-      "id": "episode:https://www.youtube.com/watch?v=90fe3811383",
-      "episode_id": "https://www.youtube.com/watch?v=90fe3811383",
+      "id": "episode:https://www.youtube.com/watch?v=0f18b602dcb",
+      "episode_id": "https://www.youtube.com/watch?v=0f18b602dcb",
       "stream_id": "mercouris_duran",
       "pillar_id": "mercouris_duran",
       "pub_date": "2026-04-16",
@@ -32332,19 +32332,19 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-04-16/transcript-mercouris.md",
-        "video_id": "90fe3811383",
+        "index_path": "codex/2026/raw-input/2026-04-16/transcript-mercouris.md",
+        "video_id": "0f18b602dcb",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@TheDuran",
-        "source_url": "https://www.youtube.com/watch?v=90fe3811383",
+        "source_url": "https://www.youtube.com/watch?v=0f18b602dcb",
         "source_url_is_synthetic": true,
         "source_url_status": "provisional"
       }
     },
     {
       "type": "episode",
-      "id": "episode:https://www.youtube.com/watch?v=04f810fd71b",
-      "episode_id": "https://www.youtube.com/watch?v=04f810fd71b",
+      "id": "episode:https://www.youtube.com/watch?v=595e15863e8",
+      "episode_id": "https://www.youtube.com/watch?v=595e15863e8",
       "stream_id": "mercouris_duran",
       "pillar_id": "mercouris_duran",
       "pub_date": "2026-04-17",
@@ -32363,11 +32363,11 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-04-17/transcript-freeman.md",
-        "video_id": "04f810fd71b",
+        "index_path": "codex/2026/raw-input/2026-04-17/transcript-freeman.md",
+        "video_id": "595e15863e8",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@TheDuran",
-        "source_url": "https://www.youtube.com/watch?v=04f810fd71b",
+        "source_url": "https://www.youtube.com/watch?v=595e15863e8",
         "source_url_is_synthetic": true,
         "source_url_status": "provisional"
       }
@@ -32397,7 +32397,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-04-18/youtube-alex-mercouris-iran-furious-shuts-hormuz-defies-us-denies-trump-claims-russia-ominous-w-2026-04-18.md",
+        "index_path": "codex/2026/raw-input/2026-04-18/youtube-alex-mercouris-iran-furious-shuts-hormuz-defies-us-denies-trump-claims-russia-ominous-w-2026-04-18.md",
         "video_id": "nJhaW_x14Bw",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -32408,8 +32408,8 @@
     },
     {
       "type": "episode",
-      "id": "episode:https://www.youtube.com/watch?v=91d6d5b159f",
-      "episode_id": "https://www.youtube.com/watch?v=91d6d5b159f",
+      "id": "episode:https://www.youtube.com/watch?v=9864bdf1dc3",
+      "episode_id": "https://www.youtube.com/watch?v=9864bdf1dc3",
       "stream_id": "mercouris_duran",
       "pillar_id": "mercouris_duran",
       "pub_date": "2026-04-18",
@@ -32428,11 +32428,11 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-04-18/transcript-mercouris.md",
-        "video_id": "91d6d5b159f",
+        "index_path": "codex/2026/raw-input/2026-04-18/transcript-mercouris.md",
+        "video_id": "9864bdf1dc3",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@TheDuran",
-        "source_url": "https://www.youtube.com/watch?v=91d6d5b159f",
+        "source_url": "https://www.youtube.com/watch?v=9864bdf1dc3",
         "source_url_is_synthetic": true,
         "source_url_status": "provisional"
       }
@@ -32463,7 +32463,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-04-19/youtube-alex-mercouris-lavrov-says-us-iran-war-about-oil-targets-china-warns-russia-will-enforc-2026-04-19.md",
+        "index_path": "codex/2026/raw-input/2026-04-19/youtube-alex-mercouris-lavrov-says-us-iran-war-about-oil-targets-china-warns-russia-will-enforc-2026-04-19.md",
         "video_id": "bxMBqOQmKcc",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -32497,7 +32497,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-04-20/youtube-alex-mercouris-russia-says-us-blockade-failing-40-iran-ships-transit-hormuz-us-mulls-re-2026-04-20.md",
+        "index_path": "codex/2026/raw-input/2026-04-20/youtube-alex-mercouris-russia-says-us-blockade-failing-40-iran-ships-transit-hormuz-us-mulls-re-2026-04-20.md",
         "video_id": "_YFxPQ7bq1Y",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -32531,7 +32531,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-04-20/duran-mercouris-russia-blockade-40-ships-hormuz-2026-04-20.md",
+        "index_path": "codex/2026/raw-input/2026-04-20/duran-mercouris-russia-blockade-40-ships-hormuz-2026-04-20.md",
         "video_id": "TBD-mercouris-russia-blockade-hormuz-2026-04-20",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@TheDuran",
@@ -32565,7 +32565,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-04-21/youtube-alex-mercouris-iran-defies-us-refuses-talk-ceasefire-about-to-end-russia-warns-donbass-2026-04-21.md",
+        "index_path": "codex/2026/raw-input/2026-04-21/youtube-alex-mercouris-iran-defies-us-refuses-talk-ceasefire-about-to-end-russia-warns-donbass-2026-04-21.md",
         "video_id": "6BdVF67o-y8",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -32598,7 +32598,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-04-21/2026-04-21-mercouris-verbatim.md",
+        "index_path": "codex/2026/raw-input/2026-04-21/2026-04-21-mercouris-verbatim.md",
         "video_id": "TBD-duran-mercouris-2026-04-21",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@TheDuran",
@@ -32631,7 +32631,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-04-22/youtube-alex-mercouris-iran-scents-victory-as-trump-backs-off-extends-ceasefire-putin-hard-line-2026-04-22.md",
+        "index_path": "codex/2026/raw-input/2026-04-22/youtube-alex-mercouris-iran-scents-victory-as-trump-backs-off-extends-ceasefire-putin-hard-line-2026-04-22.md",
         "video_id": "MLOfpI_5b_o",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -32642,8 +32642,8 @@
     },
     {
       "type": "episode",
-      "id": "episode:https://www.youtube.com/watch?v=99c1b711987",
-      "episode_id": "https://www.youtube.com/watch?v=99c1b711987",
+      "id": "episode:https://www.youtube.com/watch?v=c2c47a90275",
+      "episode_id": "https://www.youtube.com/watch?v=c2c47a90275",
       "stream_id": "mercouris_duran",
       "pillar_id": "mercouris_duran",
       "pub_date": "2026-04-23",
@@ -32662,19 +32662,19 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-04-23/2026-04-23-mercouris.md",
-        "video_id": "99c1b711987",
+        "index_path": "codex/2026/raw-input/2026-04-23/2026-04-23-mercouris.md",
+        "video_id": "c2c47a90275",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@TheDuran",
-        "source_url": "https://www.youtube.com/watch?v=99c1b711987",
+        "source_url": "https://www.youtube.com/watch?v=c2c47a90275",
         "source_url_is_synthetic": true,
         "source_url_status": "provisional"
       }
     },
     {
       "type": "episode",
-      "id": "episode:https://www.youtube.com/watch?v=f6ffdbc37d5",
-      "episode_id": "https://www.youtube.com/watch?v=f6ffdbc37d5",
+      "id": "episode:https://www.youtube.com/watch?v=cae79cf9cc4",
+      "episode_id": "https://www.youtube.com/watch?v=cae79cf9cc4",
       "stream_id": "mercouris_duran",
       "pillar_id": "mercouris_duran",
       "pub_date": "2026-04-23",
@@ -32697,11 +32697,11 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-04-23/transcript-mercouris-eu-shock-fuel-crisis-putin-iran-2026-04-23.md",
-        "video_id": "f6ffdbc37d5",
+        "index_path": "codex/2026/raw-input/2026-04-23/transcript-mercouris-eu-shock-fuel-crisis-putin-iran-2026-04-23.md",
+        "video_id": "cae79cf9cc4",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@TheDuran",
-        "source_url": "https://www.youtube.com/watch?v=f6ffdbc37d5",
+        "source_url": "https://www.youtube.com/watch?v=cae79cf9cc4",
         "source_url_is_synthetic": true,
         "source_url_status": "provisional"
       }
@@ -32732,7 +32732,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-04-23/youtube-alex-mercouris-eu-shock-fuel-crisis-putin-blocks-kazakh-pipeline-russian-offensive-syrs-2026-04-23.md",
+        "index_path": "codex/2026/raw-input/2026-04-23/youtube-alex-mercouris-eu-shock-fuel-crisis-putin-blocks-kazakh-pipeline-russian-offensive-syrs-2026-04-23.md",
         "video_id": "Nj2t4nN-w58",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -32743,8 +32743,8 @@
     },
     {
       "type": "episode",
-      "id": "episode:https://www.youtube.com/watch?v=1c425ef9dc4",
-      "episode_id": "https://www.youtube.com/watch?v=1c425ef9dc4",
+      "id": "episode:https://www.youtube.com/watch?v=cc5af716c85",
+      "episode_id": "https://www.youtube.com/watch?v=cc5af716c85",
       "stream_id": "mercouris_duran",
       "pillar_id": "mercouris_duran",
       "pub_date": "2026-04-23",
@@ -32775,19 +32775,19 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-04-23/transcript-duran-mercouris-barnes-fractured-iran-trump-2026-04-23.md",
-        "video_id": "1c425ef9dc4",
+        "index_path": "codex/2026/raw-input/2026-04-23/transcript-duran-mercouris-barnes-fractured-iran-trump-2026-04-23.md",
+        "video_id": "cc5af716c85",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@TheDuran",
-        "source_url": "https://www.youtube.com/watch?v=1c425ef9dc4",
+        "source_url": "https://www.youtube.com/watch?v=cc5af716c85",
         "source_url_is_synthetic": true,
         "source_url_status": "provisional"
       }
     },
     {
       "type": "episode",
-      "id": "episode:https://www.youtube.com/watch?v=0fef09136ad",
-      "episode_id": "https://www.youtube.com/watch?v=0fef09136ad",
+      "id": "episode:https://www.youtube.com/watch?v=159e0be7c8e",
+      "episode_id": "https://www.youtube.com/watch?v=159e0be7c8e",
       "stream_id": "mercouris_duran",
       "pillar_id": "mercouris_duran",
       "pub_date": "2026-04-24",
@@ -32806,19 +32806,19 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-04-24/2026-04-24-mercouris.md",
-        "video_id": "0fef09136ad",
+        "index_path": "codex/2026/raw-input/2026-04-24/2026-04-24-mercouris.md",
+        "video_id": "159e0be7c8e",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@TheDuran",
-        "source_url": "https://www.youtube.com/watch?v=0fef09136ad",
+        "source_url": "https://www.youtube.com/watch?v=159e0be7c8e",
         "source_url_is_synthetic": true,
         "source_url_status": "provisional"
       }
     },
     {
       "type": "episode",
-      "id": "episode:https://www.youtube.com/watch?v=955a89e9246",
-      "episode_id": "https://www.youtube.com/watch?v=955a89e9246",
+      "id": "episode:https://www.youtube.com/watch?v=36e583c4d87",
+      "episode_id": "https://www.youtube.com/watch?v=36e583c4d87",
       "stream_id": "mercouris_duran",
       "pillar_id": "mercouris_duran",
       "pub_date": "2026-04-24",
@@ -32840,11 +32840,11 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-04-24/transcript-mercouris-russian-mod-iran-alliance-denies-split-kupiansk-2026-04-24.md",
-        "video_id": "955a89e9246",
+        "index_path": "codex/2026/raw-input/2026-04-24/transcript-mercouris-russian-mod-iran-alliance-denies-split-kupiansk-2026-04-24.md",
+        "video_id": "36e583c4d87",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@TheDuran",
-        "source_url": "https://www.youtube.com/watch?v=955a89e9246",
+        "source_url": "https://www.youtube.com/watch?v=36e583c4d87",
         "source_url_is_synthetic": true,
         "source_url_status": "provisional"
       }
@@ -32874,7 +32874,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-04-24/youtube-alex-mercouris-russian-mod-iran-hail-joint-alliance-iran-denies-leadership-split-zelens-2026-04-24.md",
+        "index_path": "codex/2026/raw-input/2026-04-24/youtube-alex-mercouris-russian-mod-iran-hail-joint-alliance-iran-denies-leadership-split-zelens-2026-04-24.md",
         "video_id": "LmJWmgtsaps",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -32885,8 +32885,8 @@
     },
     {
       "type": "episode",
-      "id": "episode:https://www.youtube.com/watch?v=328499f5553",
-      "episode_id": "https://www.youtube.com/watch?v=328499f5553",
+      "id": "episode:https://www.youtube.com/watch?v=8abcaa9b0d2",
+      "episode_id": "https://www.youtube.com/watch?v=8abcaa9b0d2",
       "stream_id": "mercouris_duran",
       "pillar_id": "mercouris_duran",
       "pub_date": "2026-04-25",
@@ -32905,11 +32905,11 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-04-25/2026-04-25-mercouris.md",
-        "video_id": "328499f5553",
+        "index_path": "codex/2026/raw-input/2026-04-25/2026-04-25-mercouris.md",
+        "video_id": "8abcaa9b0d2",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@TheDuran",
-        "source_url": "https://www.youtube.com/watch?v=328499f5553",
+        "source_url": "https://www.youtube.com/watch?v=8abcaa9b0d2",
         "source_url_is_synthetic": true,
         "source_url_status": "provisional"
       }
@@ -32939,7 +32939,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-04-25/youtube-alex-mercouris-lavrov-warns-europe-declared-war-on-russia-aragchi-to-moscow-won-t-talk-2026-04-25.md",
+        "index_path": "codex/2026/raw-input/2026-04-25/youtube-alex-mercouris-lavrov-warns-europe-declared-war-on-russia-aragchi-to-moscow-won-t-talk-2026-04-25.md",
         "video_id": "AJP9FYH0Og8",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -32950,8 +32950,8 @@
     },
     {
       "type": "episode",
-      "id": "episode:https://www.youtube.com/watch?v=6b018b4e3ec",
-      "episode_id": "https://www.youtube.com/watch?v=6b018b4e3ec",
+      "id": "episode:https://www.youtube.com/watch?v=5793db6efb3",
+      "episode_id": "https://www.youtube.com/watch?v=5793db6efb3",
       "stream_id": "mercouris_duran",
       "pillar_id": "mercouris_duran",
       "pub_date": "2026-04-25",
@@ -32976,19 +32976,19 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-04-25/transcript-duran-mercouris-cristoforu-sea-blockade-iran-2026-04-25.md",
-        "video_id": "6b018b4e3ec",
+        "index_path": "codex/2026/raw-input/2026-04-25/transcript-duran-mercouris-cristoforu-sea-blockade-iran-2026-04-25.md",
+        "video_id": "5793db6efb3",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@TheDuran",
-        "source_url": "https://www.youtube.com/watch?v=6b018b4e3ec",
+        "source_url": "https://www.youtube.com/watch?v=5793db6efb3",
         "source_url_is_synthetic": true,
         "source_url_status": "provisional"
       }
     },
     {
       "type": "episode",
-      "id": "episode:https://www.youtube.com/watch?v=807aaaa07b9",
-      "episode_id": "https://www.youtube.com/watch?v=807aaaa07b9",
+      "id": "episode:https://www.youtube.com/watch?v=d8534a54646",
+      "episode_id": "https://www.youtube.com/watch?v=d8534a54646",
       "stream_id": "mercouris_duran",
       "pillar_id": "mercouris_duran",
       "pub_date": "2026-04-26",
@@ -33007,19 +33007,19 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-04-26/2026-04-26-freeman.md",
-        "video_id": "807aaaa07b9",
+        "index_path": "codex/2026/raw-input/2026-04-26/2026-04-26-freeman.md",
+        "video_id": "d8534a54646",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@TheDuran",
-        "source_url": "https://www.youtube.com/watch?v=807aaaa07b9",
+        "source_url": "https://www.youtube.com/watch?v=d8534a54646",
         "source_url_is_synthetic": true,
         "source_url_status": "provisional"
       }
     },
     {
       "type": "episode",
-      "id": "episode:https://www.youtube.com/watch?v=13dfffc9422",
-      "episode_id": "https://www.youtube.com/watch?v=13dfffc9422",
+      "id": "episode:https://www.youtube.com/watch?v=5112a5f9a1c",
+      "episode_id": "https://www.youtube.com/watch?v=5112a5f9a1c",
       "stream_id": "mercouris_duran",
       "pillar_id": "mercouris_duran",
       "pub_date": "2026-04-26",
@@ -33038,19 +33038,19 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-04-26/2026-04-26-marandi.md",
-        "video_id": "13dfffc9422",
+        "index_path": "codex/2026/raw-input/2026-04-26/2026-04-26-marandi.md",
+        "video_id": "5112a5f9a1c",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@TheDuran",
-        "source_url": "https://www.youtube.com/watch?v=13dfffc9422",
+        "source_url": "https://www.youtube.com/watch?v=5112a5f9a1c",
         "source_url_is_synthetic": true,
         "source_url_status": "provisional"
       }
     },
     {
       "type": "episode",
-      "id": "episode:https://www.youtube.com/watch?v=de5ded33015",
-      "episode_id": "https://www.youtube.com/watch?v=de5ded33015",
+      "id": "episode:https://www.youtube.com/watch?v=0e0f87d9ae3",
+      "episode_id": "https://www.youtube.com/watch?v=0e0f87d9ae3",
       "stream_id": "mercouris_duran",
       "pillar_id": "mercouris_duran",
       "pub_date": "2026-04-26",
@@ -33069,19 +33069,19 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-04-26/2026-04-26-mercouris.md",
-        "video_id": "de5ded33015",
+        "index_path": "codex/2026/raw-input/2026-04-26/2026-04-26-mercouris.md",
+        "video_id": "0e0f87d9ae3",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@TheDuran",
-        "source_url": "https://www.youtube.com/watch?v=de5ded33015",
+        "source_url": "https://www.youtube.com/watch?v=0e0f87d9ae3",
         "source_url_is_synthetic": true,
         "source_url_status": "provisional"
       }
     },
     {
       "type": "episode",
-      "id": "episode:https://www.youtube.com/watch?v=81b5b2799fc",
-      "episode_id": "https://www.youtube.com/watch?v=81b5b2799fc",
+      "id": "episode:https://www.youtube.com/watch?v=8da80f99cd6",
+      "episode_id": "https://www.youtube.com/watch?v=8da80f99cd6",
       "stream_id": "mercouris_duran",
       "pillar_id": "mercouris_duran",
       "pub_date": "2026-04-26",
@@ -33105,11 +33105,11 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-04-26/transcript-mercouris-us-eu-ukraine-russia-iran-sunday-2026-04-26.md",
-        "video_id": "81b5b2799fc",
+        "index_path": "codex/2026/raw-input/2026-04-26/transcript-mercouris-us-eu-ukraine-russia-iran-sunday-2026-04-26.md",
+        "video_id": "8da80f99cd6",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@TheDuran",
-        "source_url": "https://www.youtube.com/watch?v=81b5b2799fc",
+        "source_url": "https://www.youtube.com/watch?v=8da80f99cd6",
         "source_url_is_synthetic": true,
         "source_url_status": "provisional"
       }
@@ -33141,7 +33141,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-04-26/youtube-alex-mercouris-us-says-eu-has-no-ukraine-plan-ukraine-wants-more-eu-funds-russia-econom-2026-04-26.md",
+        "index_path": "codex/2026/raw-input/2026-04-26/youtube-alex-mercouris-us-says-eu-has-no-ukraine-plan-ukraine-wants-more-eu-funds-russia-econom-2026-04-26.md",
         "video_id": "KkCN_rOxT1I",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -33152,8 +33152,8 @@
     },
     {
       "type": "episode",
-      "id": "episode:https://www.youtube.com/watch?v=7a5982c8709",
-      "episode_id": "https://www.youtube.com/watch?v=7a5982c8709",
+      "id": "episode:https://www.youtube.com/watch?v=2534f87d953",
+      "episode_id": "https://www.youtube.com/watch?v=2534f87d953",
       "stream_id": "mercouris_duran",
       "pillar_id": "mercouris_duran",
       "pub_date": "2026-04-27",
@@ -33172,19 +33172,19 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-04-27/2026-04-27-freeman.md",
-        "video_id": "7a5982c8709",
+        "index_path": "codex/2026/raw-input/2026-04-27/2026-04-27-freeman.md",
+        "video_id": "2534f87d953",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@TheDuran",
-        "source_url": "https://www.youtube.com/watch?v=7a5982c8709",
+        "source_url": "https://www.youtube.com/watch?v=2534f87d953",
         "source_url_is_synthetic": true,
         "source_url_status": "provisional"
       }
     },
     {
       "type": "episode",
-      "id": "episode:https://www.youtube.com/watch?v=68958f9a1b6",
-      "episode_id": "https://www.youtube.com/watch?v=68958f9a1b6",
+      "id": "episode:https://www.youtube.com/watch?v=9a7543988bf",
+      "episode_id": "https://www.youtube.com/watch?v=9a7543988bf",
       "stream_id": "mercouris_duran",
       "pillar_id": "mercouris_duran",
       "pub_date": "2026-04-27",
@@ -33203,19 +33203,19 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-04-27/2026-04-27-marandi.md",
-        "video_id": "68958f9a1b6",
+        "index_path": "codex/2026/raw-input/2026-04-27/2026-04-27-marandi.md",
+        "video_id": "9a7543988bf",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@TheDuran",
-        "source_url": "https://www.youtube.com/watch?v=68958f9a1b6",
+        "source_url": "https://www.youtube.com/watch?v=9a7543988bf",
         "source_url_is_synthetic": true,
         "source_url_status": "provisional"
       }
     },
     {
       "type": "episode",
-      "id": "episode:https://www.youtube.com/watch?v=a1b00ed26a4",
-      "episode_id": "https://www.youtube.com/watch?v=a1b00ed26a4",
+      "id": "episode:https://www.youtube.com/watch?v=3961d496a9a",
+      "episode_id": "https://www.youtube.com/watch?v=3961d496a9a",
       "stream_id": "mercouris_duran",
       "pillar_id": "mercouris_duran",
       "pub_date": "2026-04-27",
@@ -33234,11 +33234,11 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-04-27/2026-04-27-mercouris.md",
-        "video_id": "a1b00ed26a4",
+        "index_path": "codex/2026/raw-input/2026-04-27/2026-04-27-mercouris.md",
+        "video_id": "3961d496a9a",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@TheDuran",
-        "source_url": "https://www.youtube.com/watch?v=a1b00ed26a4",
+        "source_url": "https://www.youtube.com/watch?v=3961d496a9a",
         "source_url_is_synthetic": true,
         "source_url_status": "provisional"
       }
@@ -33269,7 +33269,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-04-27/youtube-alex-mercouris-iran-toughens-terms-as-aragchi-meets-putin-refuses-talks-on-enrichment-r-2026-04-27.md",
+        "index_path": "codex/2026/raw-input/2026-04-27/youtube-alex-mercouris-iran-toughens-terms-as-aragchi-meets-putin-refuses-talks-on-enrichment-r-2026-04-27.md",
         "video_id": "rTNbtvE3z2M",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -33304,7 +33304,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-04-27/2026-04-27-mercouris-verbatim.md",
+        "index_path": "codex/2026/raw-input/2026-04-27/2026-04-27-mercouris-verbatim.md",
         "video_id": "TBD-mercouris-2026-04-27",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@TheDuran",
@@ -33315,8 +33315,8 @@
     },
     {
       "type": "episode",
-      "id": "episode:https://www.youtube.com/watch?v=f73b9099e40",
-      "episode_id": "https://www.youtube.com/watch?v=f73b9099e40",
+      "id": "episode:https://www.youtube.com/watch?v=35c2b3dff6f",
+      "episode_id": "https://www.youtube.com/watch?v=35c2b3dff6f",
       "stream_id": "mercouris_duran",
       "pillar_id": "mercouris_duran",
       "pub_date": "2026-04-28",
@@ -33335,11 +33335,11 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-04-28/2026-04-28-mercouris.md",
-        "video_id": "f73b9099e40",
+        "index_path": "codex/2026/raw-input/2026-04-28/2026-04-28-mercouris.md",
+        "video_id": "35c2b3dff6f",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@TheDuran",
-        "source_url": "https://www.youtube.com/watch?v=f73b9099e40",
+        "source_url": "https://www.youtube.com/watch?v=35c2b3dff6f",
         "source_url_is_synthetic": true,
         "source_url_status": "provisional"
       }
@@ -33366,7 +33366,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-04-29/youtube-mercouris-uae-opec-putin-tuapse-konstantinovka-2026-04-29.md",
+        "index_path": "codex/2026/raw-input/2026-04-29/youtube-mercouris-uae-opec-putin-tuapse-konstantinovka-2026-04-29.md",
         "video_id": "irI2s-HuG0g",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@TheDuran",
@@ -33377,8 +33377,8 @@
     },
     {
       "type": "episode",
-      "id": "episode:https://www.youtube.com/watch?v=fad53ca5b09",
-      "episode_id": "https://www.youtube.com/watch?v=fad53ca5b09",
+      "id": "episode:https://www.youtube.com/watch?v=be6a1cb913b",
+      "episode_id": "https://www.youtube.com/watch?v=be6a1cb913b",
       "stream_id": "mercouris_duran",
       "pillar_id": "mercouris_duran",
       "pub_date": "2026-04-30",
@@ -33401,11 +33401,11 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-04-30/transcript-mercouris-putin-harshly-warns-trump-against-further-iran-attacks-russia-warns-europe-risks-world-war-donbas-2026-04-30.md",
-        "video_id": "fad53ca5b09",
+        "index_path": "codex/2026/raw-input/2026-04-30/transcript-mercouris-putin-harshly-warns-trump-against-further-iran-attacks-russia-warns-europe-risks-world-war-donbas-2026-04-30.md",
+        "video_id": "be6a1cb913b",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@TheDuran",
-        "source_url": "https://www.youtube.com/watch?v=fad53ca5b09",
+        "source_url": "https://www.youtube.com/watch?v=be6a1cb913b",
         "source_url_is_synthetic": true,
         "source_url_status": "provisional"
       }
@@ -33436,7 +33436,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-04-30/youtube-alex-mercouris-putin-harshly-warns-trump-against-further-iran-attacks-russia-warns-euro-2026-04-30.md",
+        "index_path": "codex/2026/raw-input/2026-04-30/youtube-alex-mercouris-putin-harshly-warns-trump-against-further-iran-attacks-russia-warns-euro-2026-04-30.md",
         "video_id": "YLjZXnUqkPg",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -33470,7 +33470,7 @@
         "cohost_threads": []
       },
       "source": {
-        "index_path": "codex/raw-input/2026-05-01/youtube-alex-mercouris-gulf-states-follow-uae-beg-us-aid-kiev-eu-row-russia-tells-kiev-troops-k-2026-05-01.md",
+        "index_path": "codex/2026/raw-input/2026-05-01/youtube-alex-mercouris-gulf-states-follow-uae-beg-us-aid-kiev-eu-row-russia-tells-kiev-troops-k-2026-05-01.md",
         "video_id": "eU6mhg4GKjs",
         "channel_url": "https://www.youtube.com/@TheDuran/videos",
         "source_channel": "@AlexMercouris",
@@ -36466,7 +36466,7 @@
       ],
       "episode_ids": [
         "https://www.youtube.com/watch?v=x3TRKe9q3LY",
-        "https://www.youtube.com/watch?v=1c425ef9dc4"
+        "https://www.youtube.com/watch?v=cc5af716c85"
       ],
       "episode_count": 2,
       "counts_by_pillar": {
@@ -36498,7 +36498,7 @@
           "https://www.youtube.com/watch?v=x3TRKe9q3LY"
         ],
         "mercouris_duran": [
-          "https://www.youtube.com/watch?v=1c425ef9dc4"
+          "https://www.youtube.com/watch?v=cc5af716c85"
         ]
       }
     },
@@ -37277,8 +37277,8 @@
         "mercouris_duran"
       ],
       "episode_ids": [
-        "https://www.youtube.com/watch?v=1c425ef9dc4",
-        "https://www.youtube.com/watch?v=6b018b4e3ec"
+        "https://www.youtube.com/watch?v=cc5af716c85",
+        "https://www.youtube.com/watch?v=5793db6efb3"
       ],
       "episode_count": 2,
       "counts_by_pillar": {
@@ -49999,12 +49999,12 @@
       "type": "in_stream"
     },
     {
-      "from": "episode:https://www.youtube.com/watch?v=90fe3811383",
+      "from": "episode:https://www.youtube.com/watch?v=0f18b602dcb",
       "to": "stream:mercouris_duran",
       "type": "in_stream"
     },
     {
-      "from": "episode:https://www.youtube.com/watch?v=04f810fd71b",
+      "from": "episode:https://www.youtube.com/watch?v=595e15863e8",
       "to": "stream:mercouris_duran",
       "type": "in_stream"
     },
@@ -50014,7 +50014,7 @@
       "type": "in_stream"
     },
     {
-      "from": "episode:https://www.youtube.com/watch?v=91d6d5b159f",
+      "from": "episode:https://www.youtube.com/watch?v=9864bdf1dc3",
       "to": "stream:mercouris_duran",
       "type": "in_stream"
     },
@@ -50049,12 +50049,12 @@
       "type": "in_stream"
     },
     {
-      "from": "episode:https://www.youtube.com/watch?v=99c1b711987",
+      "from": "episode:https://www.youtube.com/watch?v=c2c47a90275",
       "to": "stream:mercouris_duran",
       "type": "in_stream"
     },
     {
-      "from": "episode:https://www.youtube.com/watch?v=f6ffdbc37d5",
+      "from": "episode:https://www.youtube.com/watch?v=cae79cf9cc4",
       "to": "stream:mercouris_duran",
       "type": "in_stream"
     },
@@ -50064,27 +50064,27 @@
       "type": "in_stream"
     },
     {
-      "from": "episode:https://www.youtube.com/watch?v=1c425ef9dc4",
+      "from": "episode:https://www.youtube.com/watch?v=cc5af716c85",
       "to": "stream:mercouris_duran",
       "type": "in_stream"
     },
     {
-      "from": "episode:https://www.youtube.com/watch?v=1c425ef9dc4",
+      "from": "episode:https://www.youtube.com/watch?v=cc5af716c85",
       "to": "guest:robert-barnes",
       "type": "features_guest"
     },
     {
-      "from": "episode:https://www.youtube.com/watch?v=1c425ef9dc4",
+      "from": "episode:https://www.youtube.com/watch?v=cc5af716c85",
       "to": "cohost:alex-christoforou",
       "type": "features_cohost"
     },
     {
-      "from": "episode:https://www.youtube.com/watch?v=0fef09136ad",
+      "from": "episode:https://www.youtube.com/watch?v=159e0be7c8e",
       "to": "stream:mercouris_duran",
       "type": "in_stream"
     },
     {
-      "from": "episode:https://www.youtube.com/watch?v=955a89e9246",
+      "from": "episode:https://www.youtube.com/watch?v=36e583c4d87",
       "to": "stream:mercouris_duran",
       "type": "in_stream"
     },
@@ -50094,7 +50094,7 @@
       "type": "in_stream"
     },
     {
-      "from": "episode:https://www.youtube.com/watch?v=328499f5553",
+      "from": "episode:https://www.youtube.com/watch?v=8abcaa9b0d2",
       "to": "stream:mercouris_duran",
       "type": "in_stream"
     },
@@ -50104,32 +50104,32 @@
       "type": "in_stream"
     },
     {
-      "from": "episode:https://www.youtube.com/watch?v=6b018b4e3ec",
+      "from": "episode:https://www.youtube.com/watch?v=5793db6efb3",
       "to": "stream:mercouris_duran",
       "type": "in_stream"
     },
     {
-      "from": "episode:https://www.youtube.com/watch?v=6b018b4e3ec",
+      "from": "episode:https://www.youtube.com/watch?v=5793db6efb3",
       "to": "cohost:alex-christoforou",
       "type": "features_cohost"
     },
     {
-      "from": "episode:https://www.youtube.com/watch?v=807aaaa07b9",
+      "from": "episode:https://www.youtube.com/watch?v=d8534a54646",
       "to": "stream:mercouris_duran",
       "type": "in_stream"
     },
     {
-      "from": "episode:https://www.youtube.com/watch?v=13dfffc9422",
+      "from": "episode:https://www.youtube.com/watch?v=5112a5f9a1c",
       "to": "stream:mercouris_duran",
       "type": "in_stream"
     },
     {
-      "from": "episode:https://www.youtube.com/watch?v=de5ded33015",
+      "from": "episode:https://www.youtube.com/watch?v=0e0f87d9ae3",
       "to": "stream:mercouris_duran",
       "type": "in_stream"
     },
     {
-      "from": "episode:https://www.youtube.com/watch?v=81b5b2799fc",
+      "from": "episode:https://www.youtube.com/watch?v=8da80f99cd6",
       "to": "stream:mercouris_duran",
       "type": "in_stream"
     },
@@ -50139,17 +50139,17 @@
       "type": "in_stream"
     },
     {
-      "from": "episode:https://www.youtube.com/watch?v=7a5982c8709",
+      "from": "episode:https://www.youtube.com/watch?v=2534f87d953",
       "to": "stream:mercouris_duran",
       "type": "in_stream"
     },
     {
-      "from": "episode:https://www.youtube.com/watch?v=68958f9a1b6",
+      "from": "episode:https://www.youtube.com/watch?v=9a7543988bf",
       "to": "stream:mercouris_duran",
       "type": "in_stream"
     },
     {
-      "from": "episode:https://www.youtube.com/watch?v=a1b00ed26a4",
+      "from": "episode:https://www.youtube.com/watch?v=3961d496a9a",
       "to": "stream:mercouris_duran",
       "type": "in_stream"
     },
@@ -50164,7 +50164,7 @@
       "type": "in_stream"
     },
     {
-      "from": "episode:https://www.youtube.com/watch?v=f73b9099e40",
+      "from": "episode:https://www.youtube.com/watch?v=35c2b3dff6f",
       "to": "stream:mercouris_duran",
       "type": "in_stream"
     },
@@ -50179,7 +50179,7 @@
       "type": "in_stream"
     },
     {
-      "from": "episode:https://www.youtube.com/watch?v=fad53ca5b09",
+      "from": "episode:https://www.youtube.com/watch?v=be6a1cb913b",
       "to": "stream:mercouris_duran",
       "type": "in_stream"
     },
@@ -51041,30 +51041,30 @@
     },
     {
       "from": "episode:https://www.youtube.com/watch?v=7k6Igz-l7rc",
-      "to": "episode:https://www.youtube.com/watch?v=90fe3811383",
+      "to": "episode:https://www.youtube.com/watch?v=0f18b602dcb",
       "type": "chronology_next",
       "gap_days": 0
     },
     {
-      "from": "episode:https://www.youtube.com/watch?v=90fe3811383",
-      "to": "episode:https://www.youtube.com/watch?v=04f810fd71b",
+      "from": "episode:https://www.youtube.com/watch?v=0f18b602dcb",
+      "to": "episode:https://www.youtube.com/watch?v=595e15863e8",
       "type": "chronology_next",
       "gap_days": 1
     },
     {
-      "from": "episode:https://www.youtube.com/watch?v=04f810fd71b",
+      "from": "episode:https://www.youtube.com/watch?v=595e15863e8",
       "to": "episode:https://www.youtube.com/watch?v=nJhaW_x14Bw",
       "type": "chronology_next",
       "gap_days": 1
     },
     {
       "from": "episode:https://www.youtube.com/watch?v=nJhaW_x14Bw",
-      "to": "episode:https://www.youtube.com/watch?v=91d6d5b159f",
+      "to": "episode:https://www.youtube.com/watch?v=9864bdf1dc3",
       "type": "chronology_next",
       "gap_days": 0
     },
     {
-      "from": "episode:https://www.youtube.com/watch?v=91d6d5b159f",
+      "from": "episode:https://www.youtube.com/watch?v=9864bdf1dc3",
       "to": "episode:https://www.youtube.com/watch?v=bxMBqOQmKcc",
       "type": "chronology_next",
       "gap_days": 1
@@ -51101,114 +51101,114 @@
     },
     {
       "from": "episode:https://www.youtube.com/watch?v=MLOfpI_5b_o",
-      "to": "episode:https://www.youtube.com/watch?v=99c1b711987",
+      "to": "episode:https://www.youtube.com/watch?v=c2c47a90275",
       "type": "chronology_next",
       "gap_days": 1
     },
     {
-      "from": "episode:https://www.youtube.com/watch?v=99c1b711987",
-      "to": "episode:https://www.youtube.com/watch?v=f6ffdbc37d5",
+      "from": "episode:https://www.youtube.com/watch?v=c2c47a90275",
+      "to": "episode:https://www.youtube.com/watch?v=cae79cf9cc4",
       "type": "chronology_next",
       "gap_days": 0
     },
     {
-      "from": "episode:https://www.youtube.com/watch?v=f6ffdbc37d5",
+      "from": "episode:https://www.youtube.com/watch?v=cae79cf9cc4",
       "to": "episode:https://www.youtube.com/watch?v=Nj2t4nN-w58",
       "type": "chronology_next",
       "gap_days": 0
     },
     {
       "from": "episode:https://www.youtube.com/watch?v=Nj2t4nN-w58",
-      "to": "episode:https://www.youtube.com/watch?v=1c425ef9dc4",
+      "to": "episode:https://www.youtube.com/watch?v=cc5af716c85",
       "type": "chronology_next",
       "gap_days": 0
     },
     {
-      "from": "episode:https://www.youtube.com/watch?v=1c425ef9dc4",
-      "to": "episode:https://www.youtube.com/watch?v=0fef09136ad",
+      "from": "episode:https://www.youtube.com/watch?v=cc5af716c85",
+      "to": "episode:https://www.youtube.com/watch?v=159e0be7c8e",
       "type": "chronology_next",
       "gap_days": 1
     },
     {
-      "from": "episode:https://www.youtube.com/watch?v=0fef09136ad",
-      "to": "episode:https://www.youtube.com/watch?v=955a89e9246",
+      "from": "episode:https://www.youtube.com/watch?v=159e0be7c8e",
+      "to": "episode:https://www.youtube.com/watch?v=36e583c4d87",
       "type": "chronology_next",
       "gap_days": 0
     },
     {
-      "from": "episode:https://www.youtube.com/watch?v=955a89e9246",
+      "from": "episode:https://www.youtube.com/watch?v=36e583c4d87",
       "to": "episode:https://www.youtube.com/watch?v=LmJWmgtsaps",
       "type": "chronology_next",
       "gap_days": 0
     },
     {
       "from": "episode:https://www.youtube.com/watch?v=LmJWmgtsaps",
-      "to": "episode:https://www.youtube.com/watch?v=328499f5553",
+      "to": "episode:https://www.youtube.com/watch?v=8abcaa9b0d2",
       "type": "chronology_next",
       "gap_days": 1
     },
     {
-      "from": "episode:https://www.youtube.com/watch?v=328499f5553",
+      "from": "episode:https://www.youtube.com/watch?v=8abcaa9b0d2",
       "to": "episode:https://www.youtube.com/watch?v=AJP9FYH0Og8",
       "type": "chronology_next",
       "gap_days": 0
     },
     {
       "from": "episode:https://www.youtube.com/watch?v=AJP9FYH0Og8",
-      "to": "episode:https://www.youtube.com/watch?v=6b018b4e3ec",
+      "to": "episode:https://www.youtube.com/watch?v=5793db6efb3",
       "type": "chronology_next",
       "gap_days": 0
     },
     {
-      "from": "episode:https://www.youtube.com/watch?v=6b018b4e3ec",
-      "to": "episode:https://www.youtube.com/watch?v=807aaaa07b9",
+      "from": "episode:https://www.youtube.com/watch?v=5793db6efb3",
+      "to": "episode:https://www.youtube.com/watch?v=d8534a54646",
       "type": "chronology_next",
       "gap_days": 1
     },
     {
-      "from": "episode:https://www.youtube.com/watch?v=807aaaa07b9",
-      "to": "episode:https://www.youtube.com/watch?v=13dfffc9422",
+      "from": "episode:https://www.youtube.com/watch?v=d8534a54646",
+      "to": "episode:https://www.youtube.com/watch?v=5112a5f9a1c",
       "type": "chronology_next",
       "gap_days": 0
     },
     {
-      "from": "episode:https://www.youtube.com/watch?v=13dfffc9422",
-      "to": "episode:https://www.youtube.com/watch?v=de5ded33015",
+      "from": "episode:https://www.youtube.com/watch?v=5112a5f9a1c",
+      "to": "episode:https://www.youtube.com/watch?v=0e0f87d9ae3",
       "type": "chronology_next",
       "gap_days": 0
     },
     {
-      "from": "episode:https://www.youtube.com/watch?v=de5ded33015",
-      "to": "episode:https://www.youtube.com/watch?v=81b5b2799fc",
+      "from": "episode:https://www.youtube.com/watch?v=0e0f87d9ae3",
+      "to": "episode:https://www.youtube.com/watch?v=8da80f99cd6",
       "type": "chronology_next",
       "gap_days": 0
     },
     {
-      "from": "episode:https://www.youtube.com/watch?v=81b5b2799fc",
+      "from": "episode:https://www.youtube.com/watch?v=8da80f99cd6",
       "to": "episode:https://www.youtube.com/watch?v=KkCN_rOxT1I",
       "type": "chronology_next",
       "gap_days": 0
     },
     {
       "from": "episode:https://www.youtube.com/watch?v=KkCN_rOxT1I",
-      "to": "episode:https://www.youtube.com/watch?v=7a5982c8709",
+      "to": "episode:https://www.youtube.com/watch?v=2534f87d953",
       "type": "chronology_next",
       "gap_days": 1
     },
     {
-      "from": "episode:https://www.youtube.com/watch?v=7a5982c8709",
-      "to": "episode:https://www.youtube.com/watch?v=68958f9a1b6",
+      "from": "episode:https://www.youtube.com/watch?v=2534f87d953",
+      "to": "episode:https://www.youtube.com/watch?v=9a7543988bf",
       "type": "chronology_next",
       "gap_days": 0
     },
     {
-      "from": "episode:https://www.youtube.com/watch?v=68958f9a1b6",
-      "to": "episode:https://www.youtube.com/watch?v=a1b00ed26a4",
+      "from": "episode:https://www.youtube.com/watch?v=9a7543988bf",
+      "to": "episode:https://www.youtube.com/watch?v=3961d496a9a",
       "type": "chronology_next",
       "gap_days": 0
     },
     {
-      "from": "episode:https://www.youtube.com/watch?v=a1b00ed26a4",
+      "from": "episode:https://www.youtube.com/watch?v=3961d496a9a",
       "to": "episode:https://www.youtube.com/watch?v=rTNbtvE3z2M",
       "type": "chronology_next",
       "gap_days": 0
@@ -51221,12 +51221,12 @@
     },
     {
       "from": "episode:https://www.youtube.com/watch?v=TBD-mercouris-2026-04-27",
-      "to": "episode:https://www.youtube.com/watch?v=f73b9099e40",
+      "to": "episode:https://www.youtube.com/watch?v=35c2b3dff6f",
       "type": "chronology_next",
       "gap_days": 1
     },
     {
-      "from": "episode:https://www.youtube.com/watch?v=f73b9099e40",
+      "from": "episode:https://www.youtube.com/watch?v=35c2b3dff6f",
       "to": "episode:https://www.youtube.com/watch?v=irI2s-HuG0g",
       "type": "chronology_next",
       "gap_days": 1
@@ -51239,12 +51239,12 @@
     },
     {
       "from": "episode:https://www.youtube.com/watch?v=irI2s-HuG0g",
-      "to": "episode:https://www.youtube.com/watch?v=fad53ca5b09",
+      "to": "episode:https://www.youtube.com/watch?v=be6a1cb913b",
       "type": "chronology_next",
       "gap_days": 1
     },
     {
-      "from": "episode:https://www.youtube.com/watch?v=fad53ca5b09",
+      "from": "episode:https://www.youtube.com/watch?v=be6a1cb913b",
       "to": "episode:https://www.youtube.com/watch?v=YLjZXnUqkPg",
       "type": "chronology_next",
       "gap_days": 0
@@ -52295,7 +52295,7 @@
             "https://www.youtube.com/watch?v=x3TRKe9q3LY"
           ],
           "mercouris_duran": [
-            "https://www.youtube.com/watch?v=1c425ef9dc4"
+            "https://www.youtube.com/watch?v=cc5af716c85"
           ]
         }
       },

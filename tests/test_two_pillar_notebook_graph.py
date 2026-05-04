@@ -15,6 +15,7 @@ if str(_SCRIPTS) not in sys.path:
 from build_two_pillar_notebook_graph import (  # noqa: E402
     _guess_guest_block,
     build_graph,
+    DEFAULT_RAW_INPUT_ROOT,
     render_markdown,
 )
 from backfill_youtube_channel_raw_input import convert_index_to_raw_input  # noqa: E402
@@ -28,6 +29,10 @@ def _write_index(path: Path, videos: list[dict[str, str]]) -> None:
 
 def _write_raw_input(path: Path, *, frontmatter: str, body: str) -> None:
     path.write_text(f"---\n{frontmatter}\n---\n{body}\n", encoding="utf-8")
+
+
+def test_default_raw_input_root_points_to_2026_volume() -> None:
+    assert DEFAULT_RAW_INPUT_ROOT == REPO_ROOT / "codex" / "2026" / "raw-input"
 
 
 def test_guess_guest_block_handles_embedded_guest_names() -> None:
@@ -308,3 +313,24 @@ def test_index_only_backfill_writes_raw_input_without_transcript_body() -> None:
         assert "# Alexander Mercouris: Daily Briefing on Europe and Iran" in raw_text
     finally:
         shutil.rmtree(temp_root, ignore_errors=True)
+
+
+def test_codex_2026_author_shelves_include_civ_mem_fields() -> None:
+    authors = ["alkorshid", "diesen", "mercouris", "davis", "pape", "parsi", "ritter", "crooke"]
+    for author in authors:
+        shelf = REPO_ROOT / "codex" / "2026" / author
+        assert (shelf / "README.md").is_file()
+        assert (shelf / f"{author}-profile.md").is_file()
+        assert (shelf / f"{author}-book-2026-04.md").is_file()
+        assert (shelf / f"{author}-chapter-2026-04-01.md").is_file()
+        assert list(shelf.glob(f"{author}-page-2026-04-01*.md"))
+        book = (shelf / f"{author}-book-2026-04.md").read_text(encoding="utf-8")
+        assert "## Civ-Mem Fields" in book
+        assert "Fit / mismatch / falsifier" in book
+        assert "legitimacy and continuity" in book
+        assert "narrative authority" in book
+
+    resonance = (REPO_ROOT / "codex" / "2026" / "civ-mem-resonance-2026-04.md").read_text(encoding="utf-8")
+    assert "Monthly lattice note" in resonance
+    assert "Fit / mismatch / falsifier" in resonance
+    assert "not Record" in resonance

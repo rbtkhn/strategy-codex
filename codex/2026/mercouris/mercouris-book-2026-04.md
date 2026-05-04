@@ -1,0 +1,52 @@
+# Mercouris Book — 2026-04
+
+This monthly book is the April 2026 synthesis/index for the `mercouris` cognition stream. It gathers the stream's pages, daily chapters, and civ-mem resonance without forcing synthesis across the whole lattice.
+
+## Stream Voice
+
+daily statecraft, diplomatic sequencing, and elite maneuver.
+
+## April Page Index
+
+- [mercouris-page-2026-04-05.md](mercouris-page-2026-04-05.md)
+- [mercouris-page-2026-04-07.md](mercouris-page-2026-04-07.md)
+- [mercouris-page-2026-04-15.md](mercouris-page-2026-04-15.md)
+- [mercouris-page-2026-04-16.md](mercouris-page-2026-04-16.md)
+- [mercouris-page-2026-04-18.md](mercouris-page-2026-04-18.md)
+- [mercouris-page-2026-04-20.md](mercouris-page-2026-04-20.md)
+- [mercouris-page-2026-04-21.md](mercouris-page-2026-04-21.md)
+- [mercouris-page-2026-04-27.md](mercouris-page-2026-04-27.md)
+- [mercouris-page-2026-04-29-youtube-uae-opec-putin-tuapse-konstantinovka.md](mercouris-page-2026-04-29-youtube-uae-opec-putin-tuapse-konstantinovka.md)
+
+## Civ-Mem Fields
+
+- **Mechanisms:** TBD
+- **Civ-mem lenses:** TBD
+- **Historical resonance:** TBD
+- **Fit / mismatch / falsifier:** TBD
+- **Open analogy risk:** TBD
+
+## Default Civ-Mem Lenses
+
+- legitimacy and continuity
+- power geometry
+- material base and liabilities
+- institutional resilience and decay
+- elite cohesion and fragmentation
+- chokepoints, corridors, and exposure
+- timing, sequencing, and exhaustion
+- narrative authority
+
+## Contrapuntal Notes
+
+- **Harmony:** TBD
+- **Tension:** TBD
+- **Bridge:** TBD
+- **Difference preserved:** TBD
+
+## Source / Provenance Notes
+
+- Shared raw input lives under [`../raw-input/`](../raw-input/).
+- Use readable case-family labels plus exact civ-mem paths when known.
+
+WORK only; not Record.
