@@ -28,6 +28,12 @@ The conductors are **modes of attention**, not actors with independent authority
 
 Use the ASCII slug **`furtwangler`** for durable logs unless the repo already uses a different canonical slug. Display name may remain **Furtwängler**.
 
+**Activation regression checklist**
+
+- A bare master slug like `bernstein` or `kleiber` should open Conductor immediately on the first command.
+- A resolved slug should still produce the short orientation plus the three-line action menu.
+- `coffee` hub E should continue the last logged conductor when one exists.
+
 ---
 
 ## 4. Layer Map
@@ -35,7 +41,7 @@ Use the ASCII slug **`furtwangler`** for durable logs unless the repo already us
 | Layer | File | Role | Authority |
 |-------|------|------|-----------|
 | **Synthesis theory** | [SYNTHESIS-OPERATING-MODEL.md](../work-strategy/strategy-notebook/SYNTHESIS-OPERATING-MODEL.md) | Defines the operator-as-conductor model and polyphonic synthesis principle | Theory / doctrine only |
-| **Strategy ritual** | [COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md](../work-strategy/strategy-notebook/COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md) | Applies the five movements to strategy-notebook coffee cadence | WORK-layer ritual |
+| **Strategy ritual** | [COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md](../../../codex/COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md) | Applies the five movements to strategy-notebook coffee cadence | WORK-layer ritual |
 | **Generic conductor pass** | [CONDUCTOR-PASS.md](CONDUCTOR-PASS.md) | Defines the portable cross-lane conductor pass shape | WORK-layer pass shape |
 | **Cursor conductor skill** | [`.cursor/skills/conductor/SKILL.md`](../../../.cursor/skills/conductor/SKILL.md) | Operational router for selecting conductor stance and action menu | Runtime/operator skill |
 | **Coffee hub skill** | [`.cursor/skills/coffee/SKILL.md`](../../../.cursor/skills/coffee/SKILL.md) | Main coffee hub; may route to conductor pass but has its own A–E menu | Runtime/operator skill |

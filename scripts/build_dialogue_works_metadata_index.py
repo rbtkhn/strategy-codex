@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """Build the Dialogue Works metadata-only episode index from the YouTube crawl.
 
 This script intentionally stops at metadata:
@@ -98,10 +98,14 @@ def _normalize_date(raw: str | None) -> str | None:
 def load_crawl_rows(index_path: Path, *, start_date: date) -> list[dict[str, str]]:
     payload = json.loads(index_path.read_text(encoding="utf-8"))
     rows: list[dict[str, str]] = []
+    cutoff = start_date.isoformat()
+    # yt-dlp channel listings are newest-first, so once we pass the cutoff date we can stop.
     for v in payload.get("videos") or []:
         upload_date = _normalize_date(str(v.get("upload_date") or ""))
-        if not upload_date or upload_date < start_date.isoformat():
+        if not upload_date:
             continue
+        if upload_date < cutoff:
+            break
         rows.append(
             {
                 "video_id": str(v.get("video_id") or "").strip(),
@@ -244,7 +248,7 @@ Where Dialogue Works / host content is published (no Wikipedia). Re-verify URLs 
 
 ## Dialogue Works episode inventory
 
-Metadata-only index from the public YouTube crawl starting at `2026-01-01`. Transcript bodies are not backfilled in this pass. `needs capture` means the episode is visible on the channel but not yet mirrored in `raw-input/`.
+Metadata-only index from the public YouTube crawl starting at `2026-01-01` through the latest upload returned by the crawl. Transcript bodies are not backfilled in this pass. `needs capture` means the episode is visible on the channel but not yet mirrored in `raw-input/`.
 
 {table}
 
@@ -259,7 +263,7 @@ def render_inventory(rows: list[DialogueWorksRow]) -> str:
     return f"""# Dialogue Works — metadata index
 <!-- word_count: ~500 -->
 
-**Purpose:** Metadata-only index of **Dialogue Works** (host **Nima Alkhorshid**) from the public YouTube crawl starting at **`2026-01-01`**. Transcript bodies are not backfilled in this pass. **WORK only** — not Record.
+**Purpose:** Metadata-only index of **Dialogue Works** (host **Nima Alkhorshid**) from the public YouTube crawl starting at **`2026-01-01`** through the latest upload returned by the crawl. Transcript bodies are not backfilled in this pass. **WORK only** — not Record.
 
 **Last audited:** 2026-05-01 — YouTube index-only crawl with metadata enrichment.
 
@@ -288,6 +292,8 @@ def run_crawl(*, crawl_output_dir: Path, limit: int, sleep: float) -> Path:
         "--enrich-metadata",
         "--channel",
         CHANNEL_URL,
+        "--stop-before-date",
+        START_DATE.isoformat(),
         "-o",
         str(crawl_output_dir),
         "--limit",
