@@ -12,5 +12,7 @@ WORK only; not Record.
 | [ANALOGUES-SKILL-STRATEGY-DELTAS.md](ANALOGUES-SKILL-STRATEGY-DELTAS.md) | Analogue-app brainstorm vs existing rules (post-audit) |
 | [CROSS-LANE-ESCALATION-MARKERS-2026-05-03.md](CROSS-LANE-ESCALATION-MARKERS-2026-05-03.md) | Short conductor note on shared escalation markers across Pape, Mercouris, and Alkorshid |
 | [POLYPHONIC-COGNITION-LATTICE.md](POLYPHONIC-COGNITION-LATTICE.md) | Tiny doctrine note for recurring shared markers across distinct lanes |
+| [TCLD-AUDIT-STRATEGY-CODEX.md](TCLD-AUDIT-STRATEGY-CODEX.md) | Doctrine note on compressing Theater / Commodity so the notebook compounds Durable judgment |
+| [JUDGMENT-LOOP-REGISTER.md](JUDGMENT-LOOP-REGISTER.md) | Optional shared register for consequential calls that need stronger revisit tracking |
 
 **Preflight:** `bash scripts/demo_skill_strategy_transcripts_check.sh` from repo root.
