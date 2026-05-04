@@ -5,7 +5,7 @@ WORK only; not Record.
 
 This file is a compatibility redirect.
 
-- Canonical scaffold: [strategy-expert-template.md#refined-page-template](strategy-expert-template.md#refined-page-template)
+- Canonical scaffold: [strategy-codex-template-page.md#refined-page---expertsexpert_idexpert_id-page-yyyy-mm-ddmd](strategy-codex-template-page.md#refined-page---expertsexpert_idexpert_id-page-yyyy-mm-ddmd)
 - Notebook contract: [NOTEBOOK-CONTRACT.md](NOTEBOOK-CONTRACT.md)
 
-Use the canonical refined-page section in `strategy-expert-template.md` for the actual shape.
+Use the canonical refined-page section in `strategy-codex-template-page.md` for the actual shape.

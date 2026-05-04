@@ -9,6 +9,7 @@
 - Daily chapter seed: [crooke-chapter-2026-04-01.md](crooke-chapter-2026-04-01.md)
 - Thread compatibility file: [crooke-thread.md](crooke-thread.md)
 - Transcript compatibility file: [crooke-transcript.md](crooke-transcript.md)
+- Consolidation note: [crooke-lane-consolidation-2026-05.md](crooke-lane-consolidation-2026-05.md)
 
 ## Civ-Mem Spine
 

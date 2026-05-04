@@ -9,6 +9,7 @@
 - Daily chapter seed: [parsi-chapter-2026-04-01.md](parsi-chapter-2026-04-01.md)
 - Thread compatibility file: [parsi-thread.md](parsi-thread.md)
 - Transcript compatibility file: [parsi-transcript.md](parsi-transcript.md)
+- Consolidation note: [parsi-lane-consolidation-2026-05.md](parsi-lane-consolidation-2026-05.md)
 
 ## Civ-Mem Spine
 

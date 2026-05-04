@@ -20,6 +20,17 @@ A cognition stream is the top-level analytical unit. It carries:
 
 Do not treat streams as a hierarchy. A host/channel stream and an expert-lens stream can be equally central even when their source surfaces differ.
 
+## Stream Profile Calibration
+
+Use `skill-elicitation` as an optional checkpoint when a stream profile needs operator judgment that cannot be inferred safely from sources alone. High-value prompts include:
+
+- What makes this stream's interpretive voice distinct?
+- Where does this stream converge with or diverge from the others?
+- Which recurring mechanism, failure mode, or active weave cue belongs in the profile?
+- Which civ-mem lens is live here, and what would falsify the analogy?
+
+This checkpoint is review-first WORK. It may refine stream profiles, routing notes, or EOD page choices after confirmation, but it does not auto-ingest sources, compose pages, or create Record claims.
+
 ## Legacy Thread Handles
 
 `thread:<expert_id>` remains a low-level routing and provenance handle. It is not the public scaffold.

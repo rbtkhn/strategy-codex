@@ -1,4 +1,4 @@
-# Crooke Book — 2026-04
+﻿# Crooke Book â€” 2026-04
 
 This monthly book is the April 2026 synthesis/index for the `crooke` cognition stream. It gathers the stream's pages, daily chapters, and civ-mem resonance without forcing synthesis across the whole lattice.
 
@@ -13,7 +13,6 @@ civilizational motive, institutional memory, and revolutionary statecraft.
 - [crooke-page-2026-04-10-irans-determination-to-breakout-from.md](crooke-page-2026-04-10-irans-determination-to-breakout-from.md)
 - [crooke-page-2026-04-18-markets-prematurely-may-celebrate.md](crooke-page-2026-04-18-markets-prematurely-may-celebrate.md)
 - [crooke-page-2026-04-23-the-mechanistic-fallacy-why-the-west.md](crooke-page-2026-04-23-the-mechanistic-fallacy-why-the-west.md)
-- [crooke-page-2026-04-27-diesen-crooke-iran-global-war-world-order.md](crooke-page-2026-04-27-diesen-crooke-iran-global-war-world-order.md)
 
 ## Civ-Mem Fields
 
@@ -47,3 +46,4 @@ civilizational motive, institutional memory, and revolutionary statecraft.
 - Use readable case-family labels plus exact civ-mem paths when known.
 
 WORK only; not Record.
+

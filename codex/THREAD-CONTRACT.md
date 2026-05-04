@@ -1,4 +1,4 @@
-﻿# Thread contract â€” strategy-codex
+# Thread contract â€” strategy-codex
 <!-- word_count: 392 -->
 
 WORK only; not Record.
@@ -8,7 +8,7 @@ WORK only; not Record.
 ## Center of gravity
 
 - **Threads** are the month-bounded continuity surface; **pages** are the portable analytical objects; **raw-input** is the literal SSOT.
-- The canonical thread shape lives in [strategy-expert-template.md](strategy-expert-template.md#thread-template).
+- The canonical thread shape still lives in [strategy-expert-template.md](strategy-expert-template.md#thread-template), while the canonical page scaffold it hosts now lives in [strategy-codex-template-page.md](strategy-codex-template-page.md).
 - Month continuity in the journal layer is a short bookended synthesis of that monthâ€™s `strategy-page` set.
 
 ## Thread-page binding
@@ -32,7 +32,7 @@ WORK only; not Record.
 - journal prose above machine extraction
 - page index in machine output, not page prose repeated in full
 
-**Thread-embedded `strategy-page` blocks** are the main analytical pages for the month. Use the fence shape in [strategy-expert-template.md](strategy-expert-template.md#strategy-page-template), and keep the month file as the continuity container.
+**Thread-embedded `strategy-page` blocks** are the main analytical pages for the month. Use the fence shape in [strategy-codex-template-page.md#strategy-page---thread-fence-page](strategy-codex-template-page.md#strategy-page---thread-fence-page), and keep the month file as the continuity container.
 
 **Drafting flow:** thread composition should be driven by that monthâ€™s page set, with a compact continuity summary and lifted quotes only when they support the month narrative.
 
@@ -43,7 +43,7 @@ WORK only; not Record.
 | Topic | Document / tool |
 |-------|-----------------|
 | Thread scaffold | [strategy-expert-template.md#thread-template](strategy-expert-template.md#thread-template) |
-| Thread-embedded page fence | [strategy-expert-template.md#strategy-page-template](strategy-expert-template.md#strategy-page-template) |
+| Thread-embedded page fence | [strategy-codex-template-page.md#strategy-page---thread-fence-page](strategy-codex-template-page.md#strategy-page---thread-fence-page) |
 | Month-to-month continuity rules | [STRATEGY-NOTEBOOK-ARCHITECTURE.md Â§ Thread](STRATEGY-NOTEBOOK-ARCHITECTURE.md#thread-terminology) |
 | Page vs thread hub | [NOTEBOOK-CONTRACT.md](NOTEBOOK-CONTRACT.md) |
 | Validation | From repo root: `python3 scripts/validate_strategy_pages.py` â€” [validate_strategy_pages.py](../../../../scripts/validate_strategy_pages.py) |

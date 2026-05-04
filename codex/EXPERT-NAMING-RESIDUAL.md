@@ -3,6 +3,15 @@
 
 WORK-only reference. Not Record.
 
+## Compatibility pin
+
+Until the coordinated machinery migration lands:
+
+- **Public prose:** prefer **strategy-author**.
+- **Compatibility contract:** keep **strategy-expert** in filenames, parser patterns, markers, and legacy template references where code still depends on it.
+
+This file tracks residuals under that doctrine. It is not a signal to rename parser-facing surfaces ad hoc.
+
 ## Residual audit (maintenance)
 
 **Last run:** 2026-04-16.
