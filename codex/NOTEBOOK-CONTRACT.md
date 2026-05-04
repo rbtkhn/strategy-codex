@@ -8,7 +8,7 @@ WORK only; not Record.
 ## Center of gravity
 
 - **Cognition streams** are the top-level analytical scaffold; **pages** are the primary composed unit; legacy **`thread:<expert_id>`** handles remain routing/provenance joins; **raw-input** is the literal SSOT.
-- The canonical page and scaffold shapes now live in [strategy-codex-template-page.md](strategy-codex-template-page.md), [strategy-codex-template-chapter.md](strategy-codex-template-chapter.md), and [strategy-codex-template-book.md](strategy-codex-template-book.md). Legacy `strategy-expert-template.md` anchors remain compatibility redirects while links are updated.
+- The canonical scaffold shapes now live in [strategy-codex-template-raw-input.md](strategy-codex-template-raw-input.md), [strategy-codex-template-page.md](strategy-codex-template-page.md), [strategy-codex-template-chapter.md](strategy-codex-template-chapter.md), and [strategy-codex-template-book.md](strategy-codex-template-book.md). Legacy `strategy-expert-template.md` anchors remain compatibility redirects while links are updated.
 - Month continuity in the thread journal layer is a short bookended synthesis of that month's `strategy-page` set. See [COGNITION-STREAMS.md](COGNITION-STREAMS.md), [STRATEGY-NOTEBOOK-ARCHITECTURE.md](STRATEGY-NOTEBOOK-ARCHITECTURE.md#thread-terminology), and the thread section of [strategy-expert-template.md](strategy-expert-template.md#thread-template).
 
 ## Compatibility naming
@@ -73,6 +73,7 @@ Use this file as the routing hub. If another notebook document appears to duplic
 | Topic | Document / tool |
 |-------|-----------------|
 | Cognition stream scaffold | [COGNITION-STREAMS.md](COGNITION-STREAMS.md) |
+| Raw-input scaffold | [strategy-codex-template-raw-input.md](strategy-codex-template-raw-input.md) |
 | Fence syntax, page template | [strategy-codex-template-page.md#strategy-page---thread-fence-page](strategy-codex-template-page.md#strategy-page---thread-fence-page) |
 | Refined page scaffold | [strategy-codex-template-page.md#refined-page---expertsexpert_idexpert_id-page-yyyy-mm-ddmd](strategy-codex-template-page.md#refined-page---expertsexpert_idexpert_id-page-yyyy-mm-ddmd) |
 | Chapter scaffold | [strategy-codex-template-chapter.md](strategy-codex-template-chapter.md) |

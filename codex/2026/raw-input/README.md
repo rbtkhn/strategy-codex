@@ -3,7 +3,7 @@
 
 **Purpose:** Store **complete** transcripts and **all** strategy-ingest source material you want kept verbatim — without bloating [daily-strategy-inbox.md](../daily-strategy-inbox.md) or hitting the **~2000 word** per-block budget on [experts/*/transcript.md](../experts/ritter/transcript.md) that **`thread`** triage targets.
 
-**SSOT role:** This tree is the **SSOT for literal text** of each capture. **[`refined-page-template.md`](../refined-page-template.md)** defines the **next layer:** standalone **`experts/…/ *-page-*.md`** files carry **`### Verbatim`** (and analysis) and are the **SSOT for thread / `days.md` / strategy work** — cite those pages for judgment; use **`raw-input/`** when you must verify or edit the **exact words**.
+**SSOT role:** This tree is the **SSOT for literal text** of each capture. **[`strategy-codex-template-raw-input.md`](../../strategy-codex-template-raw-input.md)** defines the **capture shape**, while **[`refined-page-template.md`](../refined-page-template.md)** defines the **next layer:** standalone **`experts/…/ *-page-*.md`** files carry **`### Verbatim`** (and analysis) and are the **SSOT for thread / `days.md` / strategy work** — cite those pages for judgment; use **`raw-input/`** when you must verify or edit the **exact words**.
 
 **Expert-agnostic:** This tree is **raw material for analysis**, not only dumps tied to a [strategy-commentator-threads.md](../strategy-commentator-threads.md) **`expert_id`**. Substack essays, wire bundles, institutional statements, screenshot indexes, and mixed paste-bundles belong here even when there is **no** `thread:` lane yet (or ever). The inbox stub may use **`membrane:single`** and omit **`thread:`**; frontmatter **`thread:`** is optional (see § File template).
 
@@ -19,7 +19,7 @@
 Short version: **Crooke essay -> Crooke. Diesen x Crooke transcript -> Diesen. Davis x Crooke transcript -> Davis.**
 
 
-**Capture-type calibration (essay / transcript / social / wire–PDF):** For **type-specific** defaults — **`kind:`**, **`thread:`**, inbox stub shape, refined-page **`### Verbatim`** expectations — see **[`CAPTURE-TYPES.md`](CAPTURE-TYPES.md)** (grep-friendly **`##`** headings). Operator + assistant ingest should align that doc with this README’s YAML and [refined-page-template.md](../refined-page-template.md).
+**Capture-type calibration (essay / transcript / social / wire–PDF):** For **type-specific** defaults — **`kind:`**, **`thread:`**, inbox stub shape, refined-page **`### Verbatim`** expectations — see **[`CAPTURE-TYPES.md`](CAPTURE-TYPES.md)** (grep-friendly **`##`** headings). Operator + assistant ingest should align that doc with the scaffold in [strategy-codex-template-raw-input.md](../../strategy-codex-template-raw-input.md) and [refined-page-template.md](../refined-page-template.md).
 
 ## Publication vocabulary (formal pin)
 
@@ -105,6 +105,8 @@ WORK only; not Record.
 
 ## Layout
 
+**Canonical scaffold owner:** [strategy-codex-template-raw-input.md](../../strategy-codex-template-raw-input.md) owns the narrow file-shape template for raw captures. This README stays the SSOT for routing, automation, source-family policy, and pruning.
+
 Use **one subdirectory per publication day** — the folder name **`YYYY-MM-DD`** matches **`pub_date`** in the file’s frontmatter (when the source went public: livestream go-live, YouTube publish, Substack `pubDate`, RSS item date, etc.). This matches [`scripts/fetch_strategy_raw_input.py`](../../../../scripts/fetch_strategy_raw_input.py) (writes under **`raw-input/<pub_date>/`**) and [`scripts/populate_strategy_raw_input.py`](../../../../scripts/populate_strategy_raw_input.py) (uses section / filename **publication** dates).
 
 **Not** the folder for “the day I saved the file” — that belongs in **`ingest_date`** in YAML only. If **`pub_date`** is still unknown (e.g. transcript paste before the canonical `watch?v=` is pinned), use **`_aired-pending/`** for the markdown file; move it into **`raw-input/<pub_date>/`** once the air day is fixed.
@@ -127,6 +129,8 @@ raw-input/
 **Optional:** Add non-markdown payloads next to the `.md` file in the same folder (e.g. `.txt` exports) if you truly need byte-identical dumps; keep filenames descriptive.
 
 ## File template (recommended)
+
+The canonical shape lives in [strategy-codex-template-raw-input.md](../../strategy-codex-template-raw-input.md). Use the summary below as a convenience reminder; keep detailed file-shape edits aligned with the template.
 
 Each `.md` file should start with a short metadata block so greps and future tooling can link back to expert lanes and URLs:
 
