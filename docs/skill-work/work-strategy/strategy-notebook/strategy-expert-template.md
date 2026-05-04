@@ -1,7 +1,7 @@
-# Strategy expert — templates (WORK only)
+﻿# Strategy cognition stream templates (WORK only)
 <!-- word_count: concise bundle -->
 
-**Single source** for the six on-disk surfaces each commentator uses:
+**Single source** for the six on-disk surfaces each cognition-stream routing handle uses:
 profile, thread, transcript, refined page, strategy page, and mind.
 
 **Notebook contract:** [NOTEBOOK-CONTRACT.md](NOTEBOOK-CONTRACT.md)
@@ -15,11 +15,11 @@ profile, thread, transcript, refined page, strategy page, and mind.
 
 ## Profile → `strategy-expert-<expert_id>.md`
 
-# Strategy expert — <Full name> (`<expert_id>`)
+# Strategy cognition stream profile - <Stream / full name> (`<expert_id>`)
 
 WORK only; not Record.
 
-Use the profile as the compact lane index: identity, role, pairings, voice tier, and high-level failure modes.
+Use the profile as the compact stream index: interpretive voice, role, pairings, voice tier, and high-level failure modes. `expert_id` remains the routing/provenance handle.
 
 **Minimal shape:**
 
@@ -38,11 +38,11 @@ Companion files: thread, transcript, refined page, strategy page, mind.
 
 ## Thread → `experts/<expert_id>/<expert_id>-thread-YYYY-MM.md`
 
-# Expert thread — `<expert_id>`
+# Cognition stream thread handle — `<expert_id>`
 
 WORK only; not Record.
 
-The thread is the month-bounded continuity surface. It keeps:
+The thread file is the month-bounded continuity surface for a cognition stream. It keeps:
 
 - the narrative journal for the month
 - the page index for that month
@@ -73,7 +73,7 @@ Machine extraction lives between the `<!-- strategy-expert-thread:start -->` and
 
 ## Transcript → `experts/<expert_id>/transcript.md`
 
-# Expert transcript — `<expert_id>`
+# Cognition stream transcript — `<expert_id>`
 
 WORK only; not Record.
 
@@ -94,7 +94,7 @@ Companion files: profile, thread, mind, and refined pages.
 
 ## Refined page → `experts/<expert_id>/<expert_id>-page-YYYY-MM-DD.md`
 
-# Expert refined page — `<expert_id>`
+# Cognition stream refined page — `<expert_id>`
 
 WORK only; not Record.
 
@@ -106,7 +106,7 @@ This is the standalone analytical page shape.
 
 - `### Verbatim` is the curated quote body from `raw-input/`
 - `### Reflection` is operator analysis
-- `### Predictive Outlook` is the expert's tracked predictions, status, and brief notes tied to the thread
+- `### Predictive Outlook` is the stream voice's tracked predictions, status, and brief notes tied to the routing handle
 - `### Appendix` is machinery only
 
 Use this when the page should stand on its own outside the thread.
@@ -114,10 +114,10 @@ Use this when the page should stand on its own outside the thread.
 **Skeleton:**
 
 ```markdown
-# <Expert> refined page — YYYY-MM-DD
+# <Stream / author> refined page — YYYY-MM-DD
 WORK only; not Record.
 
-**Expert:** `<expert_id>` · **Published:** YYYY-MM-DD · **Artifact:** refined page.
+**Cognition stream:** `<expert_id>` · **Published:** YYYY-MM-DD · **Artifact:** refined page.
 
 ---
 
@@ -138,7 +138,7 @@ WORK only; not Record.
 
 ## Strategy page → thread-fence page
 
-# Expert strategy page — `<expert_id>`
+# Cognition stream strategy page — `<expert_id>`
 
 WORK only; not Record.
 
@@ -150,7 +150,7 @@ This is the thread-embedded analytical page shape.
 
 - `### Chronicle` is the curated quote body
 - `### Reflection` is operator analysis
-- `### Predictive Outlook` is the expert's tracked predictions, status, and brief notes tied to the thread
+- `### Predictive Outlook` is the stream voice's tracked predictions, status, and brief notes tied to the routing handle
 - `### Appendix` is machinery only
 
 Use this inside `experts/<expert_id>/<expert_id>-thread-YYYY-MM.md` or legacy `thread.md`.
@@ -179,7 +179,7 @@ Use this inside `experts/<expert_id>/<expert_id>-thread-YYYY-MM.md` or legacy `t
 
 ## Mind → `strategy-expert-<expert_id>-mind.md`
 
-# Expert mind — `<expert_id>`
+# Cognition stream mind — `<expert_id>`
 
 WORK only; not Record.
 

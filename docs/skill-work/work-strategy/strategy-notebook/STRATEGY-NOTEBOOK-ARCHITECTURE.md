@@ -26,7 +26,7 @@ strategy-notebook/
 
 ## Current canonical model
 
-**One-sentence model:** **authors** = who; **watches** = what (evolving situation); **days** = when (`chapters/YYYY-MM/days.md` chronology and continuity); **minds** = interpretive lens ([`minds/`](minds/) and optional Links-only lines); **pages** = primary analytical unit â€” **`strategy-page`** marker blocks stored in author **`thread.md`** files (and optionally duplicated across authors with the same `id=`). **Threads** are containers and continuity lanes; **pages** are the portable analytical objects. Older standalone files under `chapters/â€¦/knots/` (git history) are **not** the current model; inventory is page-based. **Thread hub** (pointers, not duplicate spec): [THREAD-CONTRACT.md](THREAD-CONTRACT.md).
+**One-sentence model:** **cognition streams** = interpretive voices; **thread handles** = routing/provenance joins (`thread:<expert_id>`); **watches** = what (evolving situation); **days** = when (`chapters/YYYY-MM/days.md` chronology and continuity); **pages** = primary analytical unit — **`strategy-page`** marker blocks stored in stream/thread files (and optionally duplicated across streams with the same `id=`). **Threads** are compatibility containers and continuity lanes; **pages** are the portable analytical objects. Older standalone files under `chapters/…/knots/` (git history) are **not** the current model; inventory is page-based. **Stream hub:** [COGNITION-STREAMS.md](COGNITION-STREAMS.md). **Thread hub** (pointers, not duplicate spec): [THREAD-CONTRACT.md](THREAD-CONTRACT.md).
 
 <a id="default-operating-path-ssot"></a>
 

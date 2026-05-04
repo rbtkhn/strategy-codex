@@ -7,11 +7,11 @@ WORK only; not Record.
 
 ## Center of gravity
 
-- **Pages** are the primary analytical unit; **threads** are the month-bounded continuity surface; **raw-input** is the literal SSOT.
+- **Cognition streams** are the top-level analytical scaffold; **pages** are the primary composed unit; legacy **`thread:<expert_id>`** handles remain routing/provenance joins; **raw-input** is the literal SSOT.
 - The canonical page shapes live in the legacy-named [strategy-expert-template.md](strategy-expert-template.md): [refined page](strategy-expert-template.md#refined-page-template) and [strategy page](strategy-expert-template.md#strategy-page-template).
-- Month continuity in the thread journal layer is a short bookended synthesis of that month's `strategy-page` set. See [STRATEGY-NOTEBOOK-ARCHITECTURE.md](STRATEGY-NOTEBOOK-ARCHITECTURE.md#thread-terminology) and the thread section of [strategy-expert-template.md](strategy-expert-template.md#thread-template).
+- Month continuity in the thread journal layer is a short bookended synthesis of that month's `strategy-page` set. See [COGNITION-STREAMS.md](COGNITION-STREAMS.md), [STRATEGY-NOTEBOOK-ARCHITECTURE.md](STRATEGY-NOTEBOOK-ARCHITECTURE.md#thread-terminology), and the thread section of [strategy-expert-template.md](strategy-expert-template.md#thread-template).
 
-**Why this matters:** Future agents need one clean distinction before they write: use raw-input and refined pages to preserve and cite what was said; use thread-embedded `strategy-page` blocks to compose what the notebook thinks. That split keeps evidence, continuity, and judgment from collapsing into one ambiguous file.
+**Why this matters:** Future agents need one clean distinction before they write: use raw-input and refined pages to preserve and cite what was said; use cognition streams to choose the interpretive lane; use thread-embedded `strategy-page` blocks to compose what the notebook thinks. That split keeps evidence, routing, continuity, and judgment from collapsing into one ambiguous file.
 
 **Brief advisory:** Before composing a major strategy page or public-facing synthesis, write or infer a WORK job brief: audience, objective, evidence surface, success criteria, and acceptance check. This is a drift-control aid, not a requirement for every page and not a substitute for the page/thread contract.
 
@@ -54,6 +54,7 @@ Use this file as the routing hub. If another notebook document appears to duplic
 
 | Topic | Document / tool |
 |-------|-----------------|
+| Cognition stream scaffold | [COGNITION-STREAMS.md](COGNITION-STREAMS.md) |
 | Fence syntax, page template | [strategy-expert-template.md#strategy-page-template](strategy-expert-template.md#strategy-page-template) |
 | Refined page scaffold | [strategy-expert-template.md#refined-page-template](strategy-expert-template.md#refined-page-template) |
 | Thread layers (journal vs machine), parse contract | [STRATEGY-NOTEBOOK-ARCHITECTURE.md § Thread](STRATEGY-NOTEBOOK-ARCHITECTURE.md#thread-terminology) |

@@ -1,24 +1,27 @@
-﻿# Strategy commentator / author threads (index)
+﻿# Strategy cognition streams / routing handles (index)
 <!-- word_count: 5754 -->
 
-**Purpose:** Stable **author lanes** for recurring **author / commentator** ingests so `batch-analysis` lines can name **divergence and correlation** without re-deriving the roster each session. The same **`thread:<expert_id>`** on **different dates** is the **join key** for **accuracy** checks and **opinion drift** (see **Author threads: predictive accuracy and opinion drift**). **WORK only** — not Record.
+**Purpose:** Stable **routing handles** for recurring cognition-stream ingests so `batch-analysis` lines can name **divergence and correlation** without re-deriving the roster each session. The public scaffold is **polyphonic cognition streams** (see [COGNITION-STREAMS.md](COGNITION-STREAMS.md)); the same **`thread:<expert_id>`** on **different dates** remains the low-level **join key** for **accuracy** checks and **opinion drift**. **WORK only** - not Record.
 
 **Choreography (vs tri-mind):** Threads track **each commentator over time** (accuracy, narrative, compare–contrast). **Tri-mind** is a separate **analysis** pattern — usually **outboard** from `days.md`; see [STRATEGY-NOTEBOOK-ARCHITECTURE.md](STRATEGY-NOTEBOOK-ARCHITECTURE.md) § **Expert choreography**.
 
-**Terminology — `expert_id`:** The **first column** in the table below — **one canonical slug per named author** (e.g. `marandi`, `ritter`). **Inbox `verify:`** tails use **`thread:<expert_id>`** — the token after **`thread:`** is the **`expert_id`**. **Legacy synonym:** **`thread_id`** (same column / value). **Legacy prose:** Older notes may say “analyst_id” / “analyst threads” — same field and lanes as **`expert_id`** / **author threads**.
+**Terminology - cognition stream vs `expert_id`:** A **cognition stream** is the analytical lane / interpretive voice. The **`expert_id`** column below is the stable routing slug used by scripts and inbox tails. **Inbox `verify:`** tails use **`thread:<expert_id>`**; the token after **`thread:`** is the **`expert_id`**. **Legacy synonym:** **`thread_id`** (same column / value). **Legacy prose:** Older notes may say "analyst_id," "analyst threads," or "author threads"; read those as routing-handle language, not the public scaffold.
 
 **Lane discipline (no hybrid slugs):** Each **`expert_id`** identifies **exactly one** **named commentator** (one **Name** in the roster). **Topic** framing (Islamabad process, Hormuz domestic politics, escalation trap, etc.) lives in the **Role** column, **cold** text, and **grep tags** — **not** in the slug. **Verbatim quotes** and **attributed analysis** belong on a line whose **`thread:`** matches **that speaker’s** row; putting another expert’s words under the wrong **`thread:`** is a **routing error**. **`batch-analysis`** is where **topic** tension (same crisis, different mechanisms) meets **expert** tension (same week, different predictions or registers).
 
-**Metaphor — Symphony of Civilization:** Indexed commentators are **parts** in a **polyphonic** score; each daily **`## YYYY-MM-DD`** block in the active month’s `chapters/YYYY-MM/days.md` is a **movement**; **`batch-analysis`** states **harmony vs tension** between parts. Full gloss: [STRATEGY-NOTEBOOK-ARCHITECTURE.md](STRATEGY-NOTEBOOK-ARCHITECTURE.md) § **Symphony of Civilization**.
+**Metaphor - Symphony of Civilization:** Cognition streams are **parts** in a **polyphonic** score; each daily **`## YYYY-MM-DD`** block in the active month's `chapters/YYYY-MM/days.md` is a **movement**; **`batch-analysis`** states **harmony vs tension** between parts. Full gloss: [STRATEGY-NOTEBOOK-ARCHITECTURE.md](STRATEGY-NOTEBOOK-ARCHITECTURE.md) section **Symphony of Civilization**.
 
-**Topic tags vs author threads (mental model):** Two layers — not mutually exclusive.
+**Public cognition-stream lattice:** The notebook's visible stream model is a count-neutral lattice of equal interpretive voices. The current streams are `Alkorshid` -> `Synthesis`, `Diesen` -> `Order`, `Davis` -> `Conflict`, `Mercouris` -> `Statecraft`, `Crooke` -> `Process`, `Parsi` -> `Scope`, `Pape` -> `Escalation`, and `Ritter` -> `Mechanics`. Use these labels in notebook prose and `batch-analysis` framing when the stream model should be explicit; keep `thread:<expert_id>` routing unchanged for scripts and provenance.
+
+**Topic tags vs cognition streams vs thread handles (mental model):** Three layers - not mutually exclusive.
 
 - **Topic tags** — *what* the material is about: recurring **substantive** lanes (Islamabad arc, Hormuz, Lebanon vs nuclear, U.S. domestic liability, Rome / legitimacy, …). These show up as **grep tags** (`IRAN`, `JDVance`, `ROME`, `narrative-escalation`, …) or linked docs ([rome-persia-legitimacy-signal-check.md](rome-persia-legitimacy-signal-check.md), [trump-religion-papacy-arc.md](trump-religion-papacy-arc.md)).
-- **Author threads** — *who* is speaking: one **`thread:<expert_id>`** per **named** indexed voice. Reusing the same **`expert_id`** across weeks **diffs** that **person** over time (drift / pivot).
+- **Cognition streams** - *how* the material is interpreted: stable analytical voices such as `Pape` / `Escalation` or `Crooke` / `Process`.
+- **Thread handles** - *who / provenance join*: one **`thread:<expert_id>`** per indexed voice or host handle. Reusing the same **`expert_id`** across weeks **diffs** that voice over time (drift / pivot).
 
 **How to use:** When appending a paste-ready line in [daily-strategy-inbox.md](daily-strategy-inbox.md), add **`thread:<expert_id>`** to the **`verify:`** tail **only** when the **cold** line attributes speech or analysis to the **Name** in that commentator’s row. Pair ingests in **`batch-analysis | YYYY-MM-DD | …`** using **Typical pairings**.
 
-**Expert files (per-folder model):** Each indexed expert has its own folder under **`experts/<expert_id>/`** with companion files:
+**Compatibility files (per-folder model):** Each indexed stream handle has its own folder under **`experts/<expert_id>/`** with companion files. The folder name is a legacy-compatible routing handle, not proof that "expert thread" is still the public model:
 
 - **`experts/<expert_id>/profile.md`** — **cognitive profile** (operator-authored, stable). Identity, convergence/tension fingerprints, signature mechanisms, failure modes, weave cues, published sources.
 - **`experts/<expert_id>/transcript.md`** — **7-day rolling verbatim** (appended automatically by triage from inbox `thread:` lines, operator-editable for clarity, pruned after 7 days).
