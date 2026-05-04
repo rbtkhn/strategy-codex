@@ -5,6 +5,7 @@
 ## Shelf
 
 - Profile: [pape-profile.md](pape-profile.md)
+- Consolidation note: [pape-lane-consolidation-2026-05.md](pape-lane-consolidation-2026-05.md)
 - Monthly book: [pape-book-2026-04.md](pape-book-2026-04.md)
 - Daily chapter seed: [pape-chapter-2026-04-01.md](pape-chapter-2026-04-01.md)
 - Thread compatibility file: [pape-thread.md](pape-thread.md)
