@@ -354,6 +354,8 @@ Which on-disk surfaces each ritual reads, writes, and whether companion approval
 
 **Default:** If in doubt, `bridge`. It commits, pushes, and produces a transfer prompt. If it's also end of day, run `dream` first.
 
+**Workspace note for strategy-codex:** In this repo, bridge is **current-repo-first** and **codex-only by default**. It should assess and seal `strategy-codex` unless the operator explicitly broadens scope. Do not drag `grace-mar` or `companion-self` into a bridge packet from this workspace by default.
+
 ---
 
 ## Cadence troubleshooting
