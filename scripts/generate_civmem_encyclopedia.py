@@ -18,7 +18,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_CMC = REPO_ROOT / "docs" / "civilization-memory"
 OUT_DIR_DEFAULT = REPO_ROOT / "users" / "grace-mar" / "artifacts" / "civ-mem-encyclopedia"
 SKIP_DIRS = {".git", "node_modules", ".cache", ".skeleton", "apps"}
-GITHUB_REPO = os.environ.get("GRACE_MAR_GITHUB_REPO", "rbtkhn/grace-mar").strip()
+GITHUB_REPO = os.environ.get("GRACE_MAR_GITHUB_REPO", "rbtkhn/strategy-codex").strip()
 GITHUB_PREFIX = f"https://github.com/{GITHUB_REPO}/blob/main/docs/civilization-memory/"
 
 

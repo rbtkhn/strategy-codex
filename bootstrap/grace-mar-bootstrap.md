@@ -1,12 +1,12 @@
-# GRACE-MAR BOOTSTRAP
+# STRATEGY-CODEX BOOTSTRAP
 
-Session bootstrap for continuing Grace-Mar in a new agent conversation.
+Session bootstrap for continuing work in `strategy-codex` in a new agent conversation. The file name is historical; the repo identity is now `strategy-codex`, while Grace-Mar remains an embedded live instance inside the tree.
 
 ---
 
 ## Session focus: full-repo optimization (advanced LLM)
 
-Use this when starting a **new session with a stronger model** to refactor, dedupe, document, or harden the **whole repository** — not a single feature thread.
+Use this when starting a **new session with a stronger model** to refactor, dedupe, document, or harden the **whole repository** — not a single feature thread. In this repo, that means `strategy-codex` first, with Grace-Mar runtime and Record surfaces treated as embedded instance material rather than the repo's public identity.
 
 ### Paste into message 1 (clean context)
 
@@ -101,9 +101,9 @@ End of session: update **`docs/development-handoff.md`**, commit, push if reques
 
 Commits and pushes apply to **the repository whose root you are in**. Do not assume two checkouts match.
 
-- **This repo** (this `grace-mar` clone) — canonical tree for instance work you intend to ship **here** (companion files under `users/grace-mar/`, work-dev, work-jiang under `research/external/work-jiang/`, bot, docs, scripts).
+- **This repo** (`strategy-codex`) — active development tree for strategy, civ-mem, notebook, bot, docs, and scripts. It still contains the Grace-Mar instance under `users/grace-mar/` plus related runtime/export surfaces.
 - **`companion-self`** (template / upstream) — **separate clone**. Its `main`, remotes, and PRs refer to **that** tree only. Before merging or pushing there, run `git status`, `git remote -v`, and `git branch --show-current` **in that directory**.
-- **Nested vs sibling:** If the template clone lives **inside** this repo (e.g. `grace-mar/companion-self`) or as a **sibling** folder, note the path in [`docs/development-handoff.md`](docs/development-handoff.md) (Current Baseline) or paste it at session start so the next thread does not guess which tree is authoritative.
+- **Nested vs sibling:** If the template clone lives **inside** this repo (e.g. `strategy-codex/companion-self`) or as a **sibling** folder, note the path in [`docs/development-handoff.md`](docs/development-handoff.md) (Current Baseline) or paste it at session start so the next thread does not guess which tree is authoritative.
 
 **Session paste (run in the clone you are editing):**
 

@@ -1,12 +1,12 @@
 ---
-description: GRACE-MAR — governance + session protocol + pipeline
+description: STRATEGY-CODEX repo identity + Grace-Mar governance + session protocol + pipeline
 globs: users/**
 alwaysApply: false
 ---
 
-# GRACE-MAR
+# STRATEGY-CODEX / GRACE-MAR
 
-A cognitive fork — a versioned, evidence-grounded record of an individual's cognitive development. The fork exists inside the user's mind. It grows through selective exposure and user-curated integration.
+This repo develops as **strategy-codex**. It still contains the **Grace-Mar** reference instance, which remains a cognitive fork - a versioned, evidence-grounded record of an individual's cognitive development. The fork exists inside the user's mind. It grows through selective exposure and user-curated integration.
 
 **Conceptual framework:** [conceptual-framework.md](docs/conceptual-framework.md) — fork vs. twin, fork as own entity vs. emulation, terminology.
 
@@ -184,6 +184,6 @@ bot/
 
 ## Instance: grace-mar
 
-Fork name: Grace-Mar. Phase: emergent cognition, active pipeline. Load from `users/grace-mar/`.
+Fork name: Grace-Mar. Phase: emergent cognition, active pipeline. In this repo, load the embedded instance from `users/grace-mar/` while keeping the overall workspace identity as `strategy-codex`.
 
 **Instance doctrine:** `users/grace-mar/instance-doctrine.md` (Layer 2 — operating modes, file update protocol, success metrics, repo structure, prompt architecture). See [layer-architecture.md](docs/layer-architecture.md) for the four-layer instruction model.

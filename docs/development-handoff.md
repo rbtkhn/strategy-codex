@@ -1,8 +1,8 @@
-# Grace-Mar Development Handoff
+# Strategy-Codex Development Handoff
 
 Use this file to resume development quickly in a new agent conversation.
 
-**Bootstrap:** `bootstrap/grace-mar-bootstrap.md` defaults to **work-dev** (OpenClaw + companion gate); read `docs/skill-work/work-dev/README.md` then `docs/openclaw-integration.md`. **work-jiang (Jiang book/site lane):** `bootstrap/work-jiang-bootstrap.md` — read order, membrane, verify block, skill link.
+**Bootstrap:** `bootstrap/grace-mar-bootstrap.md` is the current bootstrap entrypoint, but it now serves the `strategy-codex` repo and its embedded Grace-Mar instance. It defaults to **work-dev** (OpenClaw + companion gate); read `docs/skill-work/work-dev/README.md` then `docs/openclaw-integration.md`. **work-jiang (Jiang book/site lane):** `bootstrap/work-jiang-bootstrap.md` — read order, membrane, verify block, skill link.
 
 Last updated: 2026-03-28
 
@@ -14,8 +14,8 @@ Last updated: 2026-03-28
 
 - Branch: `main`
 - Latest pushed commit: see `git log -1 --oneline` (after last push to `main`)
-- **Active clone path** (top-level): _(paste output of `git rev-parse --show-toplevel` in the grace-mar repo you edit)_
-- **companion-self path** (if used today): _(e.g. sibling `…/companion-self` or nested `…/grace-mar/companion-self`; omit if not in play)_
+- **Active clone path** (top-level): _(paste output of `git rev-parse --show-toplevel` in the `strategy-codex` repo you edit)_
+- **companion-self path** (if used today): _(e.g. sibling `…/companion-self` or nested `…/strategy-codex/companion-self`; omit if not in play)_
 - Core invariants active: Sovereign Merge Rule, knowledge boundary, evidence linkage, **companion** merge authority (see Terminology below).
 
 ### Session tail — 2026-03-28 (operator)

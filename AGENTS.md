@@ -2,7 +2,7 @@
 
 This file defines rules for any AI coding assistant working on this repository.
 
-**Instance vs template:** The upstream [`companion-self/AGENTS.md`](companion-self/AGENTS.md) is a minimal portable stub for the template repo. This file is the **authoritative** Layer-1 contract for the grace-mar instance. When companion-self changes, merge **selective** updates by hand; do not overwrite this file with the template on bulk sync — see [`docs/merging-from-companion-self.md`](docs/merging-from-companion-self.md) §1.
+**Repo vs template:** The upstream [`companion-self/AGENTS.md`](companion-self/AGENTS.md) is a minimal portable stub for the template repo. This file is the **authoritative** Layer-1 contract for the `strategy-codex` repo and its embedded Grace-Mar reference instance. When companion-self changes, merge **selective** updates by hand; do not overwrite this file with the template on bulk sync - see [`docs/merging-from-companion-self.md`](docs/merging-from-companion-self.md) section 1.
 
 **For conceptual clarity:** Read `docs/conceptual-framework.md` — Record vs. fork, Voice vs. bot, fork vs. twin, terminology. **Prime directive:** The Record belongs to the companion (GRACE-MAR-CORE §I).
 
@@ -12,9 +12,9 @@ This file defines rules for any AI coding assistant working on this repository.
 
 **For chat/UI design:** Read `docs/chat-first-design.md` — principles for delivering the full experience within Telegram/chat (bounded sessions, one-tap, Record felt not seen).
 
-**Design alignment:** Grace-Mar aligns with the 5000 Days series framing — abundance, identity beyond productivity, conductor workflow, symbiosis (human holds the reins), interregnum fortification (Part 14). See invariants 5–23 and 36 in conceptual-framework.md.
+**Design alignment:** This repo still carries the Grace-Mar instance and its 5000 Days framing - abundance, identity beyond productivity, conductor workflow, symbiosis (human holds the reins), interregnum fortification (Part 14). See invariants 5-23 and 36 in conceptual-framework.md.
 
-**Triadic cognition:** **Mind** (human) + **Record** + **Voice** — a **triad** (one human part, two digital parts). Grace-Mar **hosts** Record and Voice for this instance; the companion-self **architecture** defines how those digital parts work across instances. The **WORK execution layer** (operator, assistant, scripts on skill-work and WORK territories) is **instrumental** (drafts, stages); **not** a fourth part of the triad. **Companion self** = human–computer triadic cognition. **Tricameral mind** is an accepted synonym (e.g. prompts). Mind holds authority; the Record reflects; the Voice speaks when queried. The current Voice is reactive; future versions may include agentic Voice modalities (distinct from skill-work execution). New features should reinforce this structure. See CONCEPTUAL-FRAMEWORK invariant 35, 37, 38, and §8.
+**Triadic cognition:** **Mind** (human) + **Record** + **Voice** - a **triad** (one human part, two digital parts). The Grace-Mar reference instance inside this repo **hosts** Record and Voice for that companion; the companion-self **architecture** defines how those digital parts work across instances. The **WORK execution layer** (operator, assistant, scripts on skill-work and WORK territories) is **instrumental** (drafts, stages); **not** a fourth part of the triad. **Companion self** = human-computer triadic cognition. **Tricameral mind** is an accepted synonym (e.g. prompts). Mind holds authority; the Record reflects; the Voice speaks when queried. The current Voice is reactive; future versions may include agentic Voice modalities (distinct from skill-work execution). New features should reinforce this structure. See CONCEPTUAL-FRAMEWORK invariant 35, 37, 38, and section 8.
 
 **SKILLS (Record-bound):** **self-skill-think**, **self-skill-write**, **self-skill-work**, and **self-skill-steward** (STEWARD — governance literacy at the gate; optional split template; **not** merge authority) are capability surfaces under `users/[id]/`; see [id-taxonomy.md](docs/id-taxonomy.md), [skills-modularity.md](docs/skills-modularity.md). **THINK doctrine (intake vs identity vs WORK):** [docs/skill-think/README.md](docs/skill-think/README.md). **Skill lifecycle (discovery ladder):** `skills-portable/README.md` — pointer → draft → listed. **Skill validation:** `python3 scripts/validate_skills.py`.
 
@@ -49,6 +49,10 @@ A **cognitive fork** — a structured, versioned record of an individual's cogni
 ## Operating Modes
 
 Four modes: **Session** (conversational, no merges — default), **Pipeline** (process staged candidates), **Query** (read-only), **Maintenance** (dream). See [instance-doctrine.md](users/grace-mar/instance-doctrine.md) for the full mode table, proposal format, and edit restraint rules.
+
+### Repo focus
+
+`strategy-codex` is the active development repo. Treat Grace-Mar-specific runtime and Record surfaces under `users/grace-mar/`, `grace-mar-llm.txt`, and related bot/profile docs as embedded instance material, not the repo's top-level public identity.
 
 ### Default WORK lane (operator)
 

@@ -20,7 +20,7 @@ import re
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-GRACE_MAR_GITHUB = os.getenv("GRACE_MAR_GITHUB", "https://github.com/rbtkhn/grace-mar").strip()
+GRACE_MAR_GITHUB = os.getenv("GRACE_MAR_GITHUB", "https://github.com/rbtkhn/strategy-codex").strip()
 
 
 def _read(path: Path) -> str:

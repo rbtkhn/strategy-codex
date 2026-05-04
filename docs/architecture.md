@@ -6,6 +6,8 @@ Terminology primer: see [glossary.md](glossary.md) for canonical definitions of 
 
 **Runtime complements** (membrane v1) are adjunct harness components: they live under `runtime/runtime-complements/`, support export/import of bounded context for external runtimes, and do **not** change Record sovereignty or merge authority. Staging and promotion follow the same human gate as any other candidate. See [docs/runtime/runtime-complements.md](runtime/runtime-complements.md).
 
+**Agent substrate framing:** Grace-Mar can also be read as a governed personal agent substrate: durable Record state plus stage-only WORK/runtime surfaces for external agents. This is conceptual framing, not new authority; see [agent-substrate.md](agent-substrate.md).
+
 ---
 
 ## Guarantees at a glance
@@ -702,12 +704,12 @@ There is no parent mode — operators or guardians have age-appropriate access t
 
 ## Storage and Versioning
 
-GitHub repository is the authoritative record store. Git IS the fork.
+GitHub repository is the authoritative record store. In this workspace, the authoritative repo is `strategy-codex`, which contains the embedded Grace-Mar instance. Git IS the fork.
 
 ### Storage Model
 
 ```
-GitHub Repository (rbtkhn/grace-mar)
+GitHub Repository (rbtkhn/strategy-codex)
 ├── docs/                    # Templates and governance
 ├── users/
 │   └── grace-mar/
@@ -791,7 +793,7 @@ The system can be viewed as a **lattice**: nodes (data and components) connected
 
 ### The Anchor
 
-The PRP URL (e.g. `https://raw.githubusercontent.com/rbtkhn/grace-mar/main/grace-mar-llm.txt`) is the **anchor**: one-fetch instantiation, portable, refreshable. The anchor stays fixed; the lattice grows as SELF, EVIDENCE, LIBRARY, and SKILLS evolve. Post-merge PRP refresh keeps the anchor aligned with the Record.
+The PRP URL (e.g. `https://raw.githubusercontent.com/rbtkhn/strategy-codex/main/grace-mar-llm.txt`) is the **anchor**: one-fetch instantiation, portable, refreshable. The anchor stays fixed; the lattice grows as SELF, EVIDENCE, LIBRARY, and SKILLS evolve. Post-merge PRP refresh keeps the anchor aligned with the Record.
 
 ### Two Instantiation Paths
 

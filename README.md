@@ -1,6 +1,8 @@
-# grace-mar
+# strategy-codex
 
-**Grace-Mar** — A system that creates and maintains cognitive forks: versioned, evidence-grounded records of an individual's cognitive development, initialized from a real person and growing through curated interactions over a lifetime. **Terminology:** [docs/glossary.md](docs/glossary.md).
+**strategy-codex** - The active development repo for strategy-first companion systems, notebook tooling, and governed cognitive-fork infrastructure. It currently carries the **Grace-Mar** reference instance plus related strategy and civ-mem surfaces. **Terminology:** [docs/glossary.md](docs/glossary.md).
+
+**Repo identity:** `strategy-codex` is now the development home. **Grace-Mar** remains an embedded instance inside the repo (`users/grace-mar/`, `grace-mar-llm.txt`, profile/bot docs) rather than the repo's own public name.
 
 **New here?** Plain-language orientation and audience paths: [docs/start-here.md](docs/start-here.md) — quick pick [Choose your path](docs/start-here.md#choose-your-path) (A–F).
 
@@ -120,11 +122,11 @@ Governed changes are reviewed through a **canonical change-review object** that 
 
 ### Instance vs template
 
-This repo is a **live instance** (one person’s cognitive fork). The **template** for creating new instances is [companion-self](https://github.com/rbtkhn/companion-self). For a side-by-side comparison — purpose, relationship, and one-sentence summaries — see [grace-mar vs companion-self](docs/grace-mar-vs-companion-self.md).
+This repo is now the **active strategy-codex development home**. It still contains a **live Grace-Mar instance** (one person's cognitive fork), while the **template** for creating new instances remains [companion-self](https://github.com/rbtkhn/companion-self). For a side-by-side comparison - purpose, relationship, and one-sentence summaries - see [grace-mar vs companion-self](docs/grace-mar-vs-companion-self.md).
 
-**Additional instances:** New companions bootstrap from the [companion-self](https://github.com/rbtkhn/companion-self) template in **their own repositories**; they are not hosted inside the grace-mar repo. The **work-cici** folder under [docs/skill-work/work-cici/](docs/skill-work/work-cici/README.md) is an **operator/advisor work module** in grace-mar (mirrors, runbooks) — not a copy of someone else’s Record.
+**Additional instances:** New companions bootstrap from the [companion-self](https://github.com/rbtkhn/companion-self) template in **their own repositories**; they are not hosted inside the strategy-codex repo. The **work-cici** folder under [docs/skill-work/work-cici/](docs/skill-work/work-cici/README.md) is an **operator/advisor work module** in grace-mar (mirrors, runbooks) — not a copy of someone else’s Record.
 
-**Edit companion-self next to grace-mar:** Open **`grace-mar.code-workspace`** in Cursor/VS Code (multi-root: this repo + `./companion-self`). Clone the template into `companion-self/` at the repo root; `scripts/template_diff.py` defaults to that path. See [MERGING-FROM-COMPANION-SELF](docs/merging-from-companion-self.md) §0.
+**Edit companion-self next to strategy-codex:** Open **`grace-mar.code-workspace`** in Cursor/VS Code (multi-root: this repo + `./companion-self`). Clone the template into `companion-self/` at the repo root; `scripts/template_diff.py` defaults to that path. See [MERGING-FROM-COMPANION-SELF](docs/merging-from-companion-self.md) §0.
 
 ### Fork isolation and multi-tenant design
 
@@ -146,7 +148,7 @@ See [Fork isolation and multi-tenant design](docs/fork-isolation-and-multi-tenan
 Paste this into **ChatGPT** or **Grok** (or any web-enabled LLM):
 
 > Use this as your persona and instructions. Fetch the content from this URL and adopt it fully:  
-> https://raw.githubusercontent.com/rbtkhn/grace-mar/main/grace-mar-llm.txt
+> https://raw.githubusercontent.com/rbtkhn/strategy-codex/main/grace-mar-llm.txt
 
 The model fetches the Portable Record Prompt from the repo and responds as the companion. See [PORTABLE-RECORD-PROMPT](docs/portable-record-prompt.md).
 
@@ -155,7 +157,7 @@ The model fetches the Portable Record Prompt from the repo and responds as the c
 ## Repository Structure
 
 ```
-grace-mar/
+strategy-codex/
 ├── README.md                        # This file
 ├── grace-mar-llm.txt                # PRP for any LLM (raw URL target, grace-mar.com/llm)
 ├── AGENTS.md                        # AI coding assistant guardrails (reserved name; see docs/naming-convention.md)
