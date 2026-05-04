@@ -4,6 +4,8 @@
 
 **Repo identity:** `strategy-codex` is now the development home. **Grace-Mar** remains an embedded instance inside the repo (`users/grace-mar/`, `grace-mar-llm.txt`, profile/bot docs) rather than the repo's own public name.
 
+**Strategy-codex corpus:** [`codex/`](codex/README.md) is the first-class home for the polyphonic cognition streams, raw inputs, chapters, compiled views, and strategy-codex artifacts. The old `docs/skill-work/work-strategy/strategy-notebook/` path is deprecated compatibility only.
+
 **New here?** Plain-language orientation and audience paths: [docs/start-here.md](docs/start-here.md) — quick pick [Choose your path](docs/start-here.md#choose-your-path) (A–F).
 
 If you come from **OB1-style** memory systems (dashboard, recipes, imports, review queue), the quickest mental model is: Grace-Mar has a **Library**, **Skills**, **Evidence** log, **workflow** lanes, and an **Approval Inbox** (`recursion-gate.md`). Durable Record changes are **gated**, not auto-merged. **[Coming from OB1? Start here →](docs/start-here-ob1-users.md)**

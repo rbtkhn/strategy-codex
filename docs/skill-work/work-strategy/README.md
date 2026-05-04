@@ -4,9 +4,9 @@
 
 **Default path (fast start):** [DEFAULT-PATH.md](DEFAULT-PATH.md) — three moves for a normal pass; everything else is optional. Start there if the full skill file feels heavy.
 
-**Full sequence (SSOT):** [STRATEGY-NOTEBOOK-ARCHITECTURE.md — Default operating path](strategy-notebook/STRATEGY-NOTEBOOK-ARCHITECTURE.md#default-operating-path-ssot) — inbox-first numbered path (weave, optional escalation markers, STRATEGY promotion when stable, no Record). **Conductor / cadence → durable notebook anchor:** [CONDUCTOR-IMPROVEMENT-LOOP.md](strategy-notebook/CONDUCTOR-IMPROVEMENT-LOOP.md) (optional close template: [CONDUCTOR-CLOSE-TEMPLATE.md](strategy-notebook/CONDUCTOR-CLOSE-TEMPLATE.md)).
+**Full sequence (SSOT):** [STRATEGY-NOTEBOOK-ARCHITECTURE.md — Default operating path](../../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md#default-operating-path-ssot) — inbox-first numbered path (weave, optional escalation markers, STRATEGY promotion when stable, no Record). **Conductor / cadence → durable /codex anchor:** [CONDUCTOR-IMPROVEMENT-LOOP.md](../../../codex/CONDUCTOR-IMPROVEMENT-LOOP.md) (optional close template: [CONDUCTOR-CLOSE-TEMPLATE.md](../../../codex/CONDUCTOR-CLOSE-TEMPLATE.md)).
 
-**Strategy run wrapper (optional):** [STRATEGY-RUN-OPERATOR.md](STRATEGY-RUN-OPERATOR.md) — session-scoped `run_id`, derived `state.json` + receipts under `artifacts/`; does not replace or auto-edit notebook files. Shared vocabulary: [run-contract.md](../../run-contract.md).
+**Strategy run wrapper (optional):** [STRATEGY-RUN-OPERATOR.md](STRATEGY-RUN-OPERATOR.md) — session-scoped `run_id`, derived `state.json` + receipts under `artifacts/`; does not replace or auto-edit /codex files. Shared vocabulary: [run-contract.md](../../run-contract.md).
 
 **Carry harness (optional):** [carry-harness.md](carry-harness.md) — derived JSON receipts for task-level intake → artifact presence checks (`scripts/work_strategy/run_carry_harness.py`); not strategic truth.
 
@@ -18,9 +18,9 @@
 
 **Carry-stack observability (optional):** [observability.md](observability.md#carry-stack-observability-pr-5) — regenerable JSON/Markdown aggregate over runtime receipts/reports (`scripts/work_strategy/summarize_carry_receipts.py`); process metrics only.
 
-**Bottom line:** **`skill-strategy`** is not loose “analysis”; it is **governed strategic accumulation** — preserving an operator’s evolving **geopolitical–historical judgment** in a **bounded WORK layer**, with **explicit seams** (notebook, inbox, `crosses:` / `seam:` / PH overlays), **explicit promotion rules** ([STRATEGY.md](STRATEGY.md), month `meta.md` when arcs stabilize), and **explicit distance** from **identity-facing Record** (MEMORY and WORK continuity are not SELF; the companion gate governs merges — [AGENTS.md](../../../AGENTS.md)).
+**Bottom line:** **`skill-strategy`** is not loose “analysis”; it is **governed strategic accumulation** — preserving an operator’s evolving **geopolitical–historical judgment** in a **bounded WORK layer**, with **explicit seams** (/codex, inbox, `crosses:` / `seam:` / PH overlays), **explicit promotion rules** ([STRATEGY.md](STRATEGY.md), month `meta.md` when arcs stabilize), and **explicit distance** from **identity-facing Record** (MEMORY and WORK continuity are not SELF; the companion gate governs merges — [AGENTS.md](../../../AGENTS.md)).
 
-**Purpose:** Cross-territory **operator strategy** — how political consulting ([work-politics](../work-politics/README.md)), integration / portability ([work-dev](../work-dev/README.md)), and other WORK lanes share a single **daily horizon** without mixing into SELF or Voice. The **[strategy-notebook](strategy-notebook/README.md)** is the **primary** artifact where daily cross-territory judgment is captured; other files here support ingest, frameworks, or optional stitch to [STRATEGY.md](STRATEGY.md).
+**Purpose:** Cross-territory **operator strategy** — how political consulting ([work-politics](../work-politics/README.md)), integration / portability ([work-dev](../work-dev/README.md)), and other WORK lanes share a single **daily horizon** without mixing into SELF or Voice. The **[/codex](../../../codex/README.md)** is the **primary** artifact where daily cross-territory judgment is captured; other files here support ingest, frameworks, or optional stitch to [STRATEGY.md](STRATEGY.md).
 
 **Not** a replacement for territory READMEs. **Not** Record truth. Companion gate and knowledge boundary rules still apply.
 
@@ -47,7 +47,7 @@ Recommended flow:
 2. save artifact
 3. write receipt
 4. review summary
-5. reference in [forecast-watch-log](strategy-notebook/forecast-watch-log.md) or a [decision point](decision-points/forecast-informed-decision-point-template.md) if useful
+5. reference in [forecast-watch-log](../../../codex/forecast-watch-log.md) or a [decision point](decision-points/forecast-informed-decision-point-template.md) if useful
 6. stage any durable downstream claim separately if needed
 
 **GitHub / gate CI:** [LANE-CI.md](LANE-CI.md) — label **`lane/work-strategy`**, gate paste convention (`territory: work-politics` + `channel_key: operator:work-strategy` when using the work-politics **`operator:pol:`** channel bucket), paste-snippet CLI.
@@ -58,24 +58,24 @@ Recommended flow:
 |--------------|-----------------|--------------|-----------------------------|
 | **Work-politics territory pulse** | _(no skill — run script)_ | Stale docs, brief blockers, gate rhythm, content queue, campaign-facing next actions. | `python3 scripts/operator_work_politics_pulse.py -u grace-mar` (legacy: `operator_wap_pulse.py`) |
 | **Weekly brief workflow** | `weekly brief` | **Weekly** brief **readiness**, blockers, optional scaffold generation (not the daily generator). | [weekly-brief-run SKILL](../../.cursor/skills/weekly-brief-run/SKILL.md); `operator_weekly_brief_run.py` |
-| **Strategy pass** (`skill-strategy`) | **`strategy`**, **`strategy pass`**, **`work-strategy`** | Cross-territory **judgment** slice: **[strategy-notebook/](strategy-notebook/README.md)** first (daily/monthly blocks), then [STRATEGY.md](STRATEGY.md) when promoting watches/log; Islamabad / Rome threads, weak-signal and [analogy-audit](analogy-audit-template.md) flags — **not** the pulse script or weekly brief runner. | [strategy-notebook/](strategy-notebook/README.md), [STRATEGY.md](STRATEGY.md); [skill-strategy SKILL](../../.cursor/skills/skill-strategy/SKILL.md) |
+| **Strategy pass** (`skill-strategy`) | **`strategy`**, **`strategy pass`**, **`work-strategy`** | Cross-territory **judgment** slice: **[../../../codex/](../../../codex/README.md)** first (daily/monthly blocks), then [STRATEGY.md](STRATEGY.md) when promoting watches/log; Islamabad / Rome threads, weak-signal and [analogy-audit](analogy-audit-template.md) flags — **not** the pulse script or weekly brief runner. | [../../../codex/](../../../codex/README.md), [STRATEGY.md](STRATEGY.md); [skill-strategy SKILL](../../.cursor/skills/skill-strategy/SKILL.md) |
 
 **Coffee** [Compass](../../.cursor/skills/coffee/SKILL.md) (**C**) can include **work-strategy-rome** (ROME-PASS) but is a **session hub**, not a full strategy pass.
 
 ### Strategy session helpers (`skill-strategy`)
 
-Quick index for **Capture**-adjacent surfaces: **narrative register**, **Grok-style prose**, **long-arc placement**, and **standing hypothesis logs** — WORK only; weave into knots per [STRATEGY-NOTEBOOK-ARCHITECTURE](strategy-notebook/STRATEGY-NOTEBOOK-ARCHITECTURE.md).
+Quick index for **Capture**-adjacent surfaces: **narrative register**, **Grok-style prose**, **long-arc placement**, and **standing hypothesis logs** — WORK only; weave into knots per [STRATEGY-NOTEBOOK-ARCHITECTURE](../../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md).
 
 **`strategy-context` (CLI):** Cold-thread re-entry — one bounded paragraph (default **≤120 words**) from notebook `days.md` **Open**, inbox accumulator, `daily-brief-YYYY-MM-DD.md` §1b, STRATEGY + promotion ladder + commentator index presence — or **`--compact`** paths/status only. **`--meta`** adds `chapters/YYYY-MM/meta.md` (month **Theme** excerpt); **`--minds`** adds `minds/README.md` + `minds/outputs` filenames for the date or recent month scaffolds. **`--log`** appends a **`WORK-choice`** receipt to `session-transcript.md` via `log_operator_choice.py` (pointer, not full stdout). **`--recent N`** (or **`--history`** for N=20) appends a **lightweight recent-activity** block after state: merges `users/<id>/strategy-fold-events.jsonl`, **strategy-filtered** `### [WORK-choice]` lines from `session-transcript.md`, and optionally **`--recent-git K`** commits under `docs/skill-work/work-strategy` (merged, sorted by time, truncated to N; omitted if no events). `python3 scripts/strategy_context.py -u grace-mar` · `--date YYYY-MM-DD` · `--max-words N`
 
-**`strategy_thread` (CLI):** Operator **`thread`** — rebuild **`strategy-expert-<expert_id>.md`** rolling ingest blocks from [daily-strategy-inbox.md](strategy-notebook/daily-strategy-inbox.md) lines that carry **`thread:<expert_id>`**; delegates to `strategy_expert_corpus.py` (**same** `--inbox`, `--threads`, `--out`, `--days`, `--today`, `--dry-run`). **Not** a **`weave`** (no `days.md` / knots). Spec: [STRATEGY-NOTEBOOK-ARCHITECTURE.md § Thread (terminology)](strategy-notebook/STRATEGY-NOTEBOOK-ARCHITECTURE.md#thread-terminology). `python3 scripts/strategy_thread.py`
+**`strategy_thread` (CLI):** Operator **`thread`** — rebuild **`strategy-expert-<expert_id>.md`** rolling ingest blocks from [daily-strategy-inbox.md](../../../codex/daily-strategy-inbox.md) lines that carry **`thread:<expert_id>`**; delegates to `strategy_expert_corpus.py` (**same** `--inbox`, `--threads`, `--out`, `--days`, `--today`, `--dry-run`). **Not** a **`weave`** (no `days.md` / knots). Spec: [STRATEGY-NOTEBOOK-ARCHITECTURE.md § Thread (terminology)](../../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md#thread-terminology). `python3 scripts/strategy_thread.py`
 
 | File | Role |
 |------|------|
 | [grok-daily-brief.md](grok-daily-brief.md) | Headings-only **magazine layer** on top of generated `daily-brief-YYYY-MM-DD.md`. |
-| [strategy-notebook/trump-religion-papacy-arc.md](strategy-notebook/trump-religion-papacy-arc.md) | **Trump ↔ Christianity / papacy / religion** arc (anchor 2016→); placement for **Trump–Leo** / **`narrative-escalation`** ingests. |
-| [strategy-notebook/rome-persia-legitimacy-signal-check.md](strategy-notebook/rome-persia-legitimacy-signal-check.md) | Append-only **legitimacy-plane** falsifiers (Rome–Tehran wedge); orthogonal to Hormuz/Islamabad **hard security**. |
-| [strategy-notebook/narrative-escalation-trump-timeline.md](strategy-notebook/narrative-escalation-trump-timeline.md) | **Stub** — canonical content moved to [trump-religion-papacy-arc.md](strategy-notebook/trump-religion-papacy-arc.md). |
+| [../../../codex/trump-religion-papacy-arc.md](../../../codex/trump-religion-papacy-arc.md) | **Trump ↔ Christianity / papacy / religion** arc (anchor 2016→); placement for **Trump–Leo** / **`narrative-escalation`** ingests. |
+| [../../../codex/rome-persia-legitimacy-signal-check.md](../../../codex/rome-persia-legitimacy-signal-check.md) | Append-only **legitimacy-plane** falsifiers (Rome–Tehran wedge); orthogonal to Hormuz/Islamabad **hard security**. |
+| [../../../codex/narrative-escalation-trump-timeline.md](../../../codex/narrative-escalation-trump-timeline.md) | **Stub** — canonical content moved to [trump-religion-papacy-arc.md](../../../codex/trump-religion-papacy-arc.md). |
 | [skill-strategy / SKILL](../../../.cursor/skills/skill-strategy/SKILL.md) | § **Narrative escalation**, optional **retroactive spine**, **Modes** (Capture / Weave / Promote). |
 
 ---
@@ -114,9 +114,9 @@ Quick index for **Capture**-adjacent surfaces: **narrative register**, **Grok-st
 | **[../WORK-LAYER-HARDENING-ROADMAP.md](../WORK-LAYER-HARDENING-ROADMAP.md)** | Full work-layer sequencing (strategy → dev → cadence → dashboard). |
 | **[current-events-analysis.md](current-events-analysis.md)** | Standard workflow for converting live events into disciplined strategy judgment: Perceiver (neutral fact summary) → verify seam → event classification → case-index check → energy-chokepoint hook → analyst (structured breakdown) → resonance note or analogy audit → watch-support decision → decision-point trigger → three minds → synthesis → optional deliberation receipt. 11 sections including failure modes and operator checklist. **WORK only**. |
 | **[STRATEGY.md](STRATEGY.md)** | WORK-only ledger: CORE / **§II-A active watches** / SCHOLAR / **§III-A analogy watchlist** / **§IV operator strategy log** (additive notes in-file; not CMC `MEM–*` shards); not Record. |
-| **[strategy-notebook/](strategy-notebook/README.md)** | **Page-first operator notebook** for strategy judgment — knots are atomic pages; `days.md` = chronology; PH-style month chapters (`chapters/YYYY-MM/`), [architecture](strategy-notebook/STRATEGY-NOTEBOOK-ARCHITECTURE.md), [STATUS](strategy-notebook/STATUS.md); **`### History resonance`** wires [history-notebook](history-notebook/README.md) chapter ids into knots. Not [work-strategy-history](work-strategy-history.md). WORK only. |
+| **[../../../codex/](../../../codex/README.md)** | **Page-first operator notebook** for strategy judgment — knots are atomic pages; `days.md` = chronology; PH-style month chapters (`chapters/YYYY-MM/`), [architecture](../../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md), [STATUS](../../../codex/STATUS.md); **`### History resonance`** wires [history-notebook](history-notebook/README.md) chapter ids into knots. Not [work-strategy-history](work-strategy-history.md). WORK only. |
 | **[theology-notebook/](theology-notebook/README.md)** | **Theology** — define the operator’s own beliefs through **writing** the book; [LIB-0159](../../../users/grace-mar/self-library.md#operator-analytical-books); [research](theology-notebook/research/), [ideas](theology-notebook/ideas/); **not** a substitute for governed Theology entries in `self-library.md`. WORK only. |
-| **[strategy-notebook/daily-strategy-inbox.md](strategy-notebook/daily-strategy-inbox.md)** | **SSOT** for **X / strategy ingest** scratch: cadence, **paste-ready one-liner** shape, default assistant target. Weave at **dream** → `days.md` ([architecture](strategy-notebook/STRATEGY-NOTEBOOK-ARCHITECTURE.md) § *Daily strategy inbox*). |
+| **[../../../codex/daily-strategy-inbox.md](../../../codex/daily-strategy-inbox.md)** | **SSOT** for **X / strategy ingest** scratch: cadence, **paste-ready one-liner** shape, default assistant target. Weave at **dream** → `days.md` ([architecture](../../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md) § *Daily strategy inbox*). |
 | **[LEARN_MODE_RULES.md](LEARN_MODE_RULES.md)** | LEARN MODE adapter: Tri-Frame protocol, extraction format, governance aligned with STRATEGY §VI. |
 | **[LEARN_MODE_OPERATOR_PROMPT.md](LEARN_MODE_OPERATOR_PROMPT.md)** | Copy-paste operator / Composer prompt for work-strategy sessions and LEARN MODE. |
 | **[minds/](minds/README.md)** | Tri-Frame entry stubs (Mercouris, Mearsheimer, Barnes) → `CIV–MIND–*.md` in civilization_memory. Advisory patterns: [minds/MINDS-SKILL-STRATEGY-PATTERNS.md](minds/MINDS-SKILL-STRATEGY-PATTERNS.md). |
@@ -186,13 +186,13 @@ Default config path: `docs/skill-work/work-strategy/daily-brief-config.json`.
 After `daily-brief-YYYY-MM-DD.md` exists, the operator may run optional **Tri-Frame mind scaffolds** (same generator; **scaffold-only** — no LLM inside the script):
 
 - **Config:** [daily-brief-minds-config.json](daily-brief-minds-config.json)
-- **Mind fingerprints (SSOT):** `strategy-expert-barnes-mind.md`, `strategy-expert-mearsheimer-mind.md`, `strategy-expert-mercouris-mind.md` under [`strategy-notebook/`](strategy-notebook/) — [`strategy-notebook/minds/CIV-MIND-*.md`](strategy-notebook/minds/) redirect to the same bodies (see [minds/README.md](minds/README.md))
+- **Mind fingerprints (SSOT):** `strategy-expert-barnes-mind.md`, `strategy-expert-mearsheimer-mind.md`, `strategy-expert-mercouris-mind.md` under [`../../../codex/`](../../../codex/) — [`../../../codex/minds/CIV-MIND-*.md`](../../../codex/minds/) redirect to the same bodies (see [minds/README.md](minds/README.md))
 - **Outputs:** `docs/skill-work/work-strategy/minds/outputs/` — dated sidecar files; complete analysis in Cursor or a **`strategy`** pass
 - **CLI:** `scripts/generate_wap_daily_brief.py` — `--offer-minds`, `--mind`, `--mind-option`, `--mind-all`, `--brief-path`, `--skip-brief` (see [minds/DAILY-BRIEF-MINDS-WORKFLOW.md](minds/DAILY-BRIEF-MINDS-WORKFLOW.md))
 
 ### X post strategy ingest
 
-Cadence, **paste-ready** micro-format, and default on-disk target for chat ingests: **[strategy-notebook/daily-strategy-inbox.md](strategy-notebook/daily-strategy-inbox.md)** (SSOT). Optional session receipt: [work-menu-conventions § Auditing picks](../work-menu-conventions.md#6-auditing-picks-choice-journal).
+Cadence, **paste-ready** micro-format, and default on-disk target for chat ingests: **[../../../codex/daily-strategy-inbox.md](../../../codex/daily-strategy-inbox.md)** (SSOT). Optional session receipt: [work-menu-conventions § Auditing picks](../work-menu-conventions.md#6-auditing-picks-choice-journal).
 
 ---
 

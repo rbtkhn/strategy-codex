@@ -4,15 +4,15 @@ WORK only; not Record.
 This is a count-neutral lattice of cognition streams. The current shape has eight streams: Alkorshid, Diesen, Davis, Mercouris, Crooke, Parsi, Pape, Ritter.
 Each stream is treated as an interpretive voice. The default analysis mode is contrapuntal comparison: surface tensions, harmonies, bridges, and differences without forcing synthesis.
 Window: 2025-05-01 to 2026-05-01.
-Deprecated compatibility note: legacy four-pillar filenames and pillar fields may appear in old wiring only; public notebook language should use streams.
+Deprecated compatibility note: legacy four-pillar filenames and pillar fields may appear in old wiring only; public strategy-codex language should use streams.
 
 ## Summary
 
 - Episodes: 1035 total | Alkorshid 84 | Diesen 275 | Davis 498 | Mercouris 178 | Crooke 0 | Parsi 0 | Pape 0 | Ritter 0
 - Guests: 120 total | Alkorshid 19 | Diesen 86 | Davis 41 | Mercouris 1 | Bridge guests 22
 - Cohosts: 1 total | Mercouris 1
-- Expert-lens raw inputs: Crooke 24 | Parsi 7 | Pape 42 | Ritter 33
-- Automation readiness: future daily stream input would need reliable source discovery, provenance capture, dedupe, raw-input normalization, stream routing, and human review. No scheduler or automatic notebook mutation exists here.
+- Expert-lens raw inputs: Crooke 24 | Parsi 7 | Pape 43 | Ritter 33
+- Automation readiness: future daily stream input would need reliable source discovery, provenance capture, dedupe, raw-input normalization, stream routing, and human review. No scheduler or automatic strategy-codex mutation exists here.
 - Status mix: mirrored=24, needs_capture=495, provisional=516
 - Top themes: russia=307, iran=287, ukraine=189, europe=113, middle-east=75, nato=68, china=44, venezuela=31, nuclear=30, us-empire=13, multipolarity=9, dollar=5
 
@@ -24,7 +24,7 @@ Deprecated compatibility note: legacy four-pillar filenames and pillar fields ma
 - Mercouris (Statecraft): 178 episodes, 1 guests, top theme iran. Voice: Statecraft through diplomatic sequence, elite maneuver, and daily geopolitical narrative. Source channels: @AlexMercouris, @TheDuran. Cohost lane keeps Alex Christoforou visible without counting him as a guest. 28 episodes use provisional source URLs where the raw-input corpus lacked a canonical link.
 - Crooke (Process): 24 raw inputs currently visible to this builder. Voice: Process through civilizational motive, institutional memory, and revolutionary statecraft.
 - Parsi (Scope): 7 raw inputs currently visible to this builder. Voice: Scope through diplomatic possibility space, regional constraints, and negotiation framing.
-- Pape (Escalation): 42 raw inputs currently visible to this builder. Voice: Escalation through formal mechanisms, coercion clocks, and strategic choice points.
+- Pape (Escalation): 43 raw inputs currently visible to this builder. Voice: Escalation through formal mechanisms, coercion clocks, and strategic choice points.
 - Ritter (Mechanics): 33 raw inputs currently visible to this builder. Voice: Mechanics through military-technical claims, operational constraints, and inspection detail.
 
 ## Roster
@@ -177,7 +177,7 @@ Deprecated compatibility note: legacy four-pillar filenames and pillar fields ma
 | Jennifer Kavanagh | 0 | 1 | 5 | 0 | Davis, Diesen | - | [https://www.youtube.com/watch?v=B2V5r_LqsXU](https://www.youtube.com/watch?v=B2V5r_LqsXU) | [https://www.youtube.com/watch?v=FIHo1S1q0Dk](https://www.youtube.com/watch?v=FIHo1S1q0Dk), [https://www.youtube.com/watch?v=HHNJqwaspp0](https://www.youtube.com/watch?v=HHNJqwaspp0), [https://www.youtube.com/watch?v=t-KJj-NpNRw](https://www.youtube.com/watch?v=t-KJj-NpNRw), ... (+2) | - |
 | Pepe Escobar | 5 | 1 | 0 | 0 | Alkorshid, Diesen | [https://www.youtube.com/watch?v=XUmhqN7e7zk](https://www.youtube.com/watch?v=XUmhqN7e7zk), [https://www.youtube.com/watch?v=bpT-0TT9gxU](https://www.youtube.com/watch?v=bpT-0TT9gxU), [https://www.youtube.com/watch?v=nPviRgUQws0](https://www.youtube.com/watch?v=nPviRgUQws0), ... (+2) | [https://www.youtube.com/watch?v=XzzDdssl_rw](https://www.youtube.com/watch?v=XzzDdssl_rw) | - | - |
 | Patrik Baab | 0 | 1 | 3 | 0 | Davis, Diesen | - | [https://www.youtube.com/watch?v=cxJrYiwsMUo](https://www.youtube.com/watch?v=cxJrYiwsMUo) | [https://www.youtube.com/watch?v=3SBsK6pQ2m4](https://www.youtube.com/watch?v=3SBsK6pQ2m4), [https://www.youtube.com/watch?v=saL9MXIH-MQ](https://www.youtube.com/watch?v=saL9MXIH-MQ), [https://www.youtube.com/watch?v=lf88zQHOepw](https://www.youtube.com/watch?v=lf88zQHOepw) | - |
-| Robert Barnes | 0 | 1 | 0 | 1 | Diesen, Mercouris | - | [https://www.youtube.com/watch?v=x3TRKe9q3LY](https://www.youtube.com/watch?v=x3TRKe9q3LY) | - | [https://www.youtube.com/watch?v=bcdf97e4fd7](https://www.youtube.com/watch?v=bcdf97e4fd7) |
+| Robert Barnes | 0 | 1 | 0 | 1 | Diesen, Mercouris | - | [https://www.youtube.com/watch?v=x3TRKe9q3LY](https://www.youtube.com/watch?v=x3TRKe9q3LY) | - | [https://www.youtube.com/watch?v=1c425ef9dc4](https://www.youtube.com/watch?v=1c425ef9dc4) |
 
 ## Cohosts
 
@@ -229,7 +229,7 @@ Deprecated compatibility note: legacy four-pillar filenames and pillar fields ma
 - Mercouris (Statecraft): 178 episodes, 1 guests, 0 expert-lens raw inputs
 - Crooke (Process): 0 episodes, 0 guests, 24 expert-lens raw inputs
 - Parsi (Scope): 0 episodes, 0 guests, 7 expert-lens raw inputs
-- Pape (Escalation): 0 episodes, 0 guests, 42 expert-lens raw inputs
+- Pape (Escalation): 0 episodes, 0 guests, 43 expert-lens raw inputs
 - Ritter (Mechanics): 0 episodes, 0 guests, 33 expert-lens raw inputs
 
 ## Source Provenance
@@ -238,10 +238,10 @@ Deprecated compatibility note: legacy four-pillar filenames and pillar fields ma
 - Diesen: diesen-january/index.json
 - Davis: davis-january/index.json
 - Mercouris: Alexander Mercouris / The Duran; raw-input/mercouris-duran
-- Crooke: strategy-notebook raw-input and historical expert context
-- Parsi: strategy-notebook raw-input and historical expert context
-- Pape: strategy-notebook raw-input and historical expert context
-- Ritter: strategy-notebook raw-input and historical expert context
+- Crooke: strategy-codex raw-input and historical expert context
+- Parsi: strategy-codex raw-input and historical expert context
+- Pape: strategy-codex raw-input and historical expert context
+- Ritter: strategy-codex raw-input and historical expert context
 
 ## Notes
 

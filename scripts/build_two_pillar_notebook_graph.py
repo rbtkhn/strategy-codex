@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Build a polyphonic cognition-stream graph for the strategy notebook.
+"""Build a polyphonic cognition-stream graph for strategy-codex.
 
-This is a WORK-only, notebook-facing derived artifact. It consumes the public
+This is a WORK-only strategy-codex derived artifact. It consumes the public
 YouTube crawl indices already present on disk, folds them into one graph, and
 emits a JSON graph plus a Markdown companion view focused on a count-neutral
 lattice of cognition streams. The current lattice has eight streams:
@@ -46,7 +46,7 @@ DEFAULT_DW_INDEX = REPO_ROOT / ".codex-tmp" / "dialogue-works-full-latest" / "in
 DEFAULT_DIESEN_INDEX = REPO_ROOT / ".codex-tmp" / "diesen-january" / "index.json"
 DEFAULT_DAVIS_INDEX = REPO_ROOT / ".codex-tmp" / "davis-january" / "index.json"
 DEFAULT_RAW_INPUT_ROOT = (
-    REPO_ROOT / "docs" / "skill-work" / "work-strategy" / "strategy-notebook" / "raw-input"
+    REPO_ROOT / "codex" / "raw-input"
 )
 DEFAULT_OUT_DIR = REPO_ROOT / "artifacts" / "skill-work" / "work-strategy" / "interview-graph"
 DEFAULT_OUT_JSON = DEFAULT_OUT_DIR / "cognition-streams-graph.json"
@@ -126,7 +126,7 @@ EXPERT_LENS_STREAMS = {
         "host_thread": "thread:crooke",
         "channel_url": None,
         "source_channels": [],
-        "source_label": "strategy-notebook raw-input and historical expert context",
+        "source_label": "strategy-codex raw-input and historical expert context",
     },
     "parsi": {
         "stream_id": "parsi",
@@ -139,7 +139,7 @@ EXPERT_LENS_STREAMS = {
         "host_thread": "thread:parsi",
         "channel_url": None,
         "source_channels": [],
-        "source_label": "strategy-notebook raw-input and historical expert context",
+        "source_label": "strategy-codex raw-input and historical expert context",
     },
     "pape": {
         "stream_id": "pape",
@@ -152,7 +152,7 @@ EXPERT_LENS_STREAMS = {
         "host_thread": "thread:pape",
         "channel_url": None,
         "source_channels": [],
-        "source_label": "strategy-notebook raw-input and historical expert context",
+        "source_label": "strategy-codex raw-input and historical expert context",
     },
     "ritter": {
         "stream_id": "ritter",
@@ -165,7 +165,7 @@ EXPERT_LENS_STREAMS = {
         "host_thread": "thread:ritter",
         "channel_url": None,
         "source_channels": [],
-        "source_label": "strategy-notebook raw-input and historical expert context",
+        "source_label": "strategy-codex raw-input and historical expert context",
     },
 }
 
@@ -636,12 +636,7 @@ def _count_lens_raw_inputs(raw_root: Path) -> dict[str, dict[str, object]]:
 
 def _load_thread_id_map() -> dict[str, str]:
     path = (
-        REPO_ROOT
-        / "docs"
-        / "skill-work"
-        / "work-strategy"
-        / "strategy-notebook"
-        / "strategy-commentator-threads.md"
+        REPO_ROOT / "codex" / "strategy-commentator-threads.md"
     )
     if not path.exists():
         return {}
@@ -1508,7 +1503,7 @@ def build_graph(
             "description": "Count-neutral lattice of cognition streams; current shape has eight streams but may change.",
             "analysis_mode": "contrapuntal comparison",
             "streams": stream_manifest,
-            "compatibility_note": "Legacy pillar fields remain only for older notebook wiring.",
+            "compatibility_note": "Legacy pillar fields remain only for older strategy-codex compatibility wiring.",
         },
         "window": {
             "start": window_start.isoformat(),
@@ -1660,7 +1655,7 @@ def render_markdown(graph: dict) -> str:
     lines.append(f"Window: {graph['window']['start']} to {graph['window']['end']}.")
     lines.append(
         "Deprecated compatibility note: legacy four-pillar filenames and pillar fields may appear in old wiring only; "
-        "public notebook language should use streams."
+        "public strategy-codex language should use streams."
     )
     lines.append("")
     lines.append("## Summary")
@@ -1695,7 +1690,7 @@ def render_markdown(graph: dict) -> str:
         )
     lines.append(
         "- Automation readiness: future daily stream input would need reliable source discovery, provenance capture, "
-        "dedupe, raw-input normalization, stream routing, and human review. No scheduler or automatic notebook mutation exists here."
+        "dedupe, raw-input normalization, stream routing, and human review. No scheduler or automatic strategy-codex mutation exists here."
     )
     if summary.get("status_counts"):
         lines.append(

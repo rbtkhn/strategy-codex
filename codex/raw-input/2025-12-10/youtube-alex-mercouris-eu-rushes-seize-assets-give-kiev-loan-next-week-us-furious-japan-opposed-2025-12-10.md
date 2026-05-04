@@ -1,0 +1,15 @@
+---
+ingest_date: 2026-05-02
+pub_date: 2025-12-10
+kind: transcript
+thread: mercouris
+show: Alex Mercouris
+host: Alexander Mercouris
+title: "EU Rushes Seize Assets Give Kiev Loan Next Week US Furious Japan Opposed; Zelensky Mocks US; Siversk"
+channel_url: "https://www.youtube.com/@AlexMercouris/videos"
+channel_slug: "alex-mercouris"
+source_url: "https://www.youtube.com/watch?v=AEkT3DPfVMU"
+source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
+---
+# EU Rushes Seize Assets Give Kiev Loan Next Week US Furious Japan Opposed; Zelensky Mocks US; Siversk
+
