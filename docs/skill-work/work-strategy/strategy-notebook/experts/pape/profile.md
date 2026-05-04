@@ -45,6 +45,13 @@ Promotion and refresh defaults: [strategy-expert-template.md § Voice fingerprin
 
 *Seed profile — operator extends when upgraded.*
 
+## Ingest note
+
+- Pape captures can mix `substack-post`, `transcript`, and `x-post-text`.
+- Same-day multiple captures are normal.
+- `raw-input/` remains the SSOT.
+- Slugged refined-page filenames are the safe pattern when one date has multiple items.
+
 ## Seed (index mirror — operator may extend)
 
 The block below **Rolling ingest** is replaced on each `strategy_thread.py` / `strategy_expert_corpus.py` run; edit this **Seed** section freely.

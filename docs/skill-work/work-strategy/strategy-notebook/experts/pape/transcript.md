@@ -210,6 +210,9 @@ WORK only; not Record.
 ## 2026-04-24
 - Inbox | cold: full text in [`substack-pape-2-blockades-2-clocks-2026-04-24.md`](raw-input/2026-04-24/substack-pape-2-blockades-2-clocks-2026-04-24.md) (pointer; SSOT raw-input) | thread:pape
 
+## 2026-05-03
+- Inbox | cold: full text in [`substack-pape-what-the-first-60-days-actually-changed-and-why-the-next-30-will-be-worse-2026-05-03.md`](raw-input/2026-05-03/substack-pape-what-the-first-60-days-actually-changed-and-why-the-next-30-will-be-worse-2026-05-03.md) (pointer; SSOT raw-input) | thread:pape
+
 
 
 
