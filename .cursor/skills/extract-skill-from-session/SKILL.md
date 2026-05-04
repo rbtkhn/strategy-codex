@@ -6,7 +6,7 @@ description: After a successful multi-step task or workflow in Cursor, codify it
 
 # Extract Skill From Session
 
-**Preferred activation (operator):** say **`save skill`** (or **`skill from session`**).
+**Preferred activation (operator):** say the exact phrase **`save skill`**. **Alias:** **`skill from session`**.
 
 Use this skill when the operator has just completed (or is in the middle of) a task that worked well and wants it captured as a reusable Cursor skill — the same idea as "turn this into a skill" in Claude Co-work: never repeat the instructions manually again.
 

@@ -12,7 +12,7 @@ synced_by: sync_portable_skills.py
 ---
 # Portable skills — sync to Cursor (host)
 
-**Preferred activation (operator):** say **`sync skills`**.
+**Preferred activation (operator):** say the exact phrase **`sync skills`**.
 
 Use this skill when **editing or adding** skills that follow the **portable core + host appendix** pattern: methodology lives under `skills-portable/<skill>/SKILL.md`; instance-specific paths and commands live in a separate appendix file; the editor-facing `SKILL.md` under `.cursor/skills/` is **generated** — do not hand-edit it.
 

@@ -12,7 +12,7 @@ synced_by: sync_portable_skills.py
 ---
 # Jurisdiction campaign history — framing pass
 
-**Preferred activation (operator):** say **`jurisdiction history`** (optionally with **`house`**, **`senate`**, **`governor`**, or **`stack`**).
+**Preferred activation (operator):** say the exact phrase **`jurisdiction history`**. Optional qualifiers: **`house`**, **`senate`**, **`governor`**, **`stack`**.
 
 Use this skill to turn **documented** chronologies (House CD, U.S. Senate, or governor roster) into **campaign-usable** insights: disproportion, narrative hooks, and explicit boundaries. **WORK territory only** — not Record, not Voice knowledge, not autonomous posting.
 

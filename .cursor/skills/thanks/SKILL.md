@@ -8,7 +8,7 @@ description: "DEPRECATED for grace-mar operator workflow (2026-04). Prefer Condu
 
 **Status (grace-mar):** The operator **no longer uses** **`thanks`** as a primary cadence command. **Prefer instead:** a **Conductor** pass ([`.cursor/skills/conductor/SKILL.md`](../conductor/SKILL.md) — master name, **`conductor`**, orientation + action MCQ), or **`coffee` light** / **`coffee` minimal** for thin reorientation without the full hub. This file stays **authoritative for legacy behavior** if an old thread or script still says **`thanks`**, and historical **`thanks`** lines remain valid in `work-cadence-events.md`.
 
-**Preferred activation (legacy):** say **`thanks`** — optionally **same message**, after a space or punctuation, a **short park line** (what you are leaving on the desk).
+**Preferred activation (legacy):** say the exact phrase **`thanks`** — optionally **same message**, after a space or punctuation, a **short park line** (what you are leaving on the desk).
 
 `thanks` was a **bookmark**, not gratitude training for the model. It put **pauses** in **cadence telemetry** with a **one-line anchor** without running **`dream`**. **Conductors** now cover the more interesting mid-day “shape the next move” slot; **`thanks`** is redundant for that purpose.
 

@@ -14,7 +14,7 @@ synced_by: sync_portable_skills.py
 ---
 # Ideation Engine
 
-**Preferred activation (operator):** say **`ideation engine`**, **`weekly opportunity brief`**, **`new lane ideas`**, or **`opportunity scan`**.
+**Preferred activation (operator):** say the exact phrase **`ideation engine`**. **Aliases:** **`weekly opportunity brief`**, **`new lane ideas`**, **`opportunity scan`**.
 
 Use this skill to generate grounded opportunity briefs from what already exists: active lanes, current assets, source-backed signals, operator constraints, and reusable capabilities.
 

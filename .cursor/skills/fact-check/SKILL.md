@@ -8,7 +8,7 @@ description: >-
 
 # Fact check (operator)
 
-**Preferred activation (operator):** say **`fact check`** (or **`verify this`**, **`check this claim`**).
+**Preferred activation (operator):** say the exact phrase **`fact check`**. **Aliases:** **`verify this`**, **`check this claim`**.
 
 **Default mode — triage (v1):** **fast pre-flight**, not a research memo. Prefer **one good source** + honest **Unclear** when the web is thin or noisy. **Upgrade later:** the skill can gain **standard** / **primary** depth passes if operator practice needs them — say **`fact check deep`** (or similar) when you add that tier.
 

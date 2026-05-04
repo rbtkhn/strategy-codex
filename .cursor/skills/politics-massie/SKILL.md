@@ -13,7 +13,7 @@ synced_by: sync_portable_skills.py
 ---
 # Massie X — real-time news search and draft posts
 
-**Preferred activation (operator):** say **`massie x`**.
+**Preferred activation (operator):** say the exact phrase **`massie x`**.
 
 Use this skill when drafting **suggested** X (Twitter) content for the **America First Kentucky** account (@usa_first_ky). The agent **searches the live web** for recent stories, then produces **draft-only** posts for human review. **No autonomous posting.**
 

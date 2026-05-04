@@ -14,7 +14,7 @@ tags:
 
 # skill-jiang (forward chain)
 
-**Preferred activation:** **`skill-jiang`**, **`jiang next lecture`**, **`gt forward chain`**.
+**Preferred activation (operator):** say the exact phrase **`skill-jiang`**. **Aliases:** **`jiang next lecture`**, **`gt forward chain`**.
 
 **Purpose:** Build **calibrated priors** for the **next** lecture using **only** in-repo material for episodes **≤ k**, then **score** against **k+1** and merge durable rules into [CURSOR_APPENDIX.md](CURSOR_APPENDIX.md).
 

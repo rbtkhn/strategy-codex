@@ -6,7 +6,7 @@ description: Run the work-politics weekly brief workflow with readiness checks, 
 
 # Weekly Brief Run
 
-**Preferred activation (operator):** say **`weekly brief`**.
+**Preferred activation (operator):** say the exact phrase **`weekly brief`**.
 
 Use this skill when the operator wants a disciplined weekly brief routine rather than a raw generator call.
 

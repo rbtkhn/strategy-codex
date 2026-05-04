@@ -11,7 +11,7 @@ description: >-
 
 # work-jiang feature checklist
 
-**Preferred activation (operator):** say **`jiang check`**.
+**Preferred activation (operator):** say the exact phrase **`jiang check`**.
 
 Operator- and agent-facing checklist so multi-step Jiang work stays reviewable and doesn’t fight context limits or a noisy working tree.
 

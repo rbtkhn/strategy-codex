@@ -13,7 +13,7 @@ synced_by: sync_portable_skills.py
 ---
 # Primary vs overhearing audience analysis
 
-**Preferred activation (operator):** **`primary overhearing`** (or **`audience optics`**).
+**Preferred activation (operator):** say the exact phrase **`primary overhearing`**. **Alias:** **`audience optics`**.
 
 Use for **public symbolic events**: papal or other religious leaders’ trips, major diplomatic speeches, migration or humanitarian addresses, mosque/church/synagogue visits, UN-style moral framing—not for private negotiation text unless the operator asks.
 

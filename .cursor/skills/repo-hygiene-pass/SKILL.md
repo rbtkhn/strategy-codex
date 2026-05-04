@@ -13,7 +13,7 @@ synced_by: sync_portable_skills.py
 ---
 # Repo Hygiene Pass
 
-**Preferred activation (operator):** say **`hygiene pass`**.
+**Preferred activation (operator):** say the exact phrase **`hygiene pass`**.
 
 Use this skill when the working tree has mixed changes and you want clean, intent-based commits.
 

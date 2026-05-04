@@ -6,7 +6,7 @@ description: "Bounded elicitation pass extracting tacit operator knowledge into 
 
 # Elicitation (operator knowledge extraction)
 
-**Preferred activation (operator):** say **`elicit`**, **`elicit [layer]`**, or **`elicitation pass`**.
+**Preferred activation (operator):** say the exact phrase **`elicit`**. **Aliases:** **`elicit [layer]`**, **`elicitation pass`**.
 
 Extract tacit operator knowledge into explicit, reviewable WORK artifacts. The target is **operational clarity** — not abstract self-description, not personality biography.
 
@@ -57,6 +57,18 @@ Run one layer only. Same interview discipline, scoped to that layer's file.
 ### Telemetry-grounded pass (`elicit from telemetry`)
 
 Skip the interview. Read `work-cadence-events.md`, session transcripts, and git history to populate layers from observed data. Present findings for operator review before writing.
+
+### Strategy-codex elicitation (`elicit strategy`, `elicit codex`, `elicit stream`)
+
+Run a bounded WORK-only checkpoint before a durable strategy-codex decision when the evidence is present but the operator judgment is still tacit. Use this for:
+
+- cognition stream profile calibration: `voice_note`, convergence, tension, mechanisms, failure modes, and active weave cues
+- raw-input routing: first-class stream vs supporting voice vs cold/unresolved
+- page-shape decisions before EOD compose
+- contrapuntal comparison: harmony, tension, bridge, absence, and falsifier
+- civ-mem lens selection when several historical/civilizational frames are plausible
+
+Default shape: ask 3-5 concrete MCQs or short-answer prompts, summarize the captured judgment, and wait for confirmation before writing to `/codex` surfaces. Do not run this automatically from coffee or dream; those rituals may only offer or breadcrumb it.
 
 ---
 
@@ -112,6 +124,7 @@ Skip the interview. Read `work-cadence-events.md`, session transcripts, and git 
 | **dream** | Rhythm + friction layers inform what dream should check at closeout |
 | **bridge** | Rhythm layer informs when bridge is most useful |
 | **skill-strategy** | Decisions + thresholds layers inform strategy judgment quality |
+| **strategy-codex** | Optional checkpoint for stream calibration, routing, EOD page shape, contrapuntal comparison, and civ-mem lens choice |
 | **work-cadence** | Telemetry-grounded mode reads cadence events as input |
 | **lane-survey** | Run a lane survey before creating work-elicitation if evaluating alternatives |
 

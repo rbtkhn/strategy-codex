@@ -6,7 +6,7 @@ description: "Read-only RECURSION-GATE review pass: ordered recommendations, dup
 
 # Gate Review Pass
 
-**Preferred activation (operator):** say **`gate review`**.
+**Preferred activation (operator):** say the exact phrase **`gate review`**.
 
 Use this skill when the operator wants a structured review pass over pending candidates without taking action yet.
 

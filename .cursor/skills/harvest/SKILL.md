@@ -6,7 +6,7 @@ description: "Cross-agent extraction ritual. Primary trigger: harvest. Reads the
 
 # Session Harvest (`harvest`)
 
-**Preferred activation:** say **`harvest`**. Also responds to **`session harvest`**, **`export session`**, or **`analysis handoff`**.
+**Preferred activation (operator):** say the exact phrase **`harvest`**. **Aliases:** **`session harvest`**, **`export session`**, **`analysis handoff`**.
 
 `harvest` produces a **Session Harvest Packet** — a structured markdown block the operator pastes into **another agent session that is already underway** (parallel tooling, second Cursor thread, review agent). It is **not** a replacement for **`bridge`** (fresh-thread continuity + seal + trailing `coffee`).
 

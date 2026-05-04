@@ -13,7 +13,7 @@ synced_by: sync_portable_skills.py
 ---
 # Strategy notebook — expert cross-weave
 
-**Preferred activation (operator):** **`weave <expert-a> <expert-b>`**, **`expert cross-weave`**, **`crosses:expert-a+expert-b`**.
+**Preferred activation (operator):** say the exact phrase **`weave <expert-a> <expert-b>`**. **Aliases:** **`expert cross-weave`**, **`crosses:expert-a+expert-b`**.
 
 Use this skill when two indexed **`thread:<expert_id>`** lines in the daily strategy inbox should become **one explicit Judgment seam** on a calendar **`days.md`** page — without collapsing distinct evidence chains.
 

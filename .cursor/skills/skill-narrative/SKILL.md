@@ -14,7 +14,7 @@ synced_by: sync_portable_skills.py
 ---
 # Skill-Narrative (Convergence Ledger v2)
 
-**Preferred activation (operator):** say **`narrative loop`**.
+**Preferred activation (operator):** say the exact phrase **`narrative loop`**.
 
 Use this skill to convert recent daily briefs into actionable narrative outputs while preserving a decision trail that improves future runs.
 

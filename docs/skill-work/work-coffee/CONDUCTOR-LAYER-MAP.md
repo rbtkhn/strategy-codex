@@ -1,6 +1,6 @@
 # Conductor Layer Map
 
-**Status:** WORK / operator doctrine — **not** Record, **not** gate authority. Links companion docs without replacing them.
+**Status:** WORK / operator doctrine â€” **not** Record, **not** gate authority. Links companion docs without replacing them.
 
 ---
 
@@ -21,16 +21,16 @@ The conductors are **modes of attention**, not actors with independent authority
 | Conductor | Slug | Mode | Primary Function | Typical Use |
 |-----------|------|------|------------------|-------------|
 | Toscanini | `toscanini` | Precision | Verify a receipt seam, split unsupported claims by tier, enforce discipline | Citation checks, boundary audits, unsupported claim cleanup |
-| Furtwängler | `furtwangler` | Flow | Preserve unresolved tension and organic emergence | Conflicting experts, watch markers, unresolved strategic tension |
+| FurtwÃ¤ngler | `furtwangler` | Flow | Preserve unresolved tension and organic emergence | Conflicting experts, watch markers, unresolved strategic tension |
 | Bernstein | `bernstein` | Vitality | Make stakes vivid and publicly intelligible | Reflection paragraphs, public-facing synthesis, persuasion |
 | Karajan | `karajan` | Elegance | Shape long arc, balance, polish, total effect | Monthly synthesis, balance checks, architectural polish |
 | Kleiber | `kleiber` | Selectivity | Narrow ruthlessly and refuse excess | PR triage, next-action choice, anti-sprawl decisions |
 
-Use the ASCII slug **`furtwangler`** for durable logs unless the repo already uses a different canonical slug. Display name may remain **Furtwängler**.
+Use the ASCII slug **`furtwangler`** for durable logs unless the repo already uses a different canonical slug. Display name may remain **FurtwÃ¤ngler**.
 
 **Activation regression checklist**
 
-- A bare master slug like `bernstein` or `kleiber` should open Conductor immediately on the first command.
+- A bare master slug like `toscanini`, `furtwangler`, `karajan`, `kleiber`, or `bernstein` should open Conductor immediately on the first command.
 - A resolved slug should still produce the short orientation plus the three-line action menu.
 - `coffee` hub E should continue the last logged conductor when one exists.
 
@@ -44,10 +44,10 @@ Use the ASCII slug **`furtwangler`** for durable logs unless the repo already us
 | **Strategy ritual** | [COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md](../../../codex/COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md) | Applies the five movements to strategy-notebook coffee cadence | WORK-layer ritual |
 | **Generic conductor pass** | [CONDUCTOR-PASS.md](CONDUCTOR-PASS.md) | Defines the portable cross-lane conductor pass shape | WORK-layer pass shape |
 | **Cursor conductor skill** | [`.cursor/skills/conductor/SKILL.md`](../../../.cursor/skills/conductor/SKILL.md) | Operational router for selecting conductor stance and action menu | Runtime/operator skill |
-| **Coffee hub skill** | [`.cursor/skills/coffee/SKILL.md`](../../../.cursor/skills/coffee/SKILL.md) | Main coffee hub; may route to conductor pass but has its own A–E menu | Runtime/operator skill |
+| **Coffee hub skill** | [`.cursor/skills/coffee/SKILL.md`](../../../.cursor/skills/coffee/SKILL.md) | Main coffee hub; may route to conductor pass but has its own Aâ€“E menu | Runtime/operator skill |
 | **Compiled-view recipe** | [expert-polyphony-synthesis-five-conductors.md](../work-strategy/strategy-notebook/compiled-views/recipes/expert-polyphony-synthesis-five-conductors.md) | Derived Symphony Snapshot output recipe | Derived view recipe only |
 | **Coding proposal lenses** | [conductor-proposal-lenses.md](../work-dev/conductor-proposal-lenses.md) | Translates conductor modes into coding-agent proposal shapes | Prompt convention only |
-| **Derived metrics (offline)** | [conductor-observability.md](conductor-observability.md) | Heuristic scoring + replay harness for Conductor action MCQ text — rebuildable JSON, not Record | Derived WORK observability only |
+| **Derived metrics (offline)** | [conductor-observability.md](conductor-observability.md) | Heuristic scoring + replay harness for Conductor action MCQ text â€” rebuildable JSON, not Record | Derived WORK observability only |
 
 Clarifications:
 
@@ -68,19 +68,19 @@ Define the three menu names:
 
 ### Coffee Hub Menu
 
-The **A–E** menu used by [`.cursor/skills/coffee/SKILL.md`](../../../.cursor/skills/coffee/SKILL.md) to route the operator among broad coffee-session options (**Steward / Engineer / Historian / Capitalist / Conductor**).
+The **Aâ€“E** menu used by [`.cursor/skills/coffee/SKILL.md`](../../../.cursor/skills/coffee/SKILL.md) to route the operator among broad coffee-session options (**Steward / Engineer / Historian / Capitalist / Conductor**).
 
 ### Master Selection Menu
 
-The **A–E** menu used to select a **conductor stance**: Toscanini, Furtwängler, Bernstein, Karajan, or Kleiber (often printed as the **Conductor MCQ** masters row — see [CONDUCTOR-PASS.md — Conductor MCQ](CONDUCTOR-PASS.md#conductor-mcq)).
+The **Aâ€“E** menu used to select a **conductor stance**: Toscanini, FurtwÃ¤ngler, Bernstein, Karajan, or Kleiber (often printed as the **Conductor MCQ** masters row â€” see [CONDUCTOR-PASS.md â€” Conductor MCQ](CONDUCTOR-PASS.md#conductor-mcq)).
 
 ### Conductor Action Menu
 
-The **A–C** menu used **after** a conductor stance is selected to choose the **concrete next actions** for this pass ([CONDUCTOR-PASS.md — Conductor action MCQ](CONDUCTOR-PASS.md#conductor-action-mcq)). All three options should be live choices; refusal / park / no-action is inferred from off-menu behavior rather than presented as one of the three.
+The **Aâ€“C** menu used **after** a conductor stance is selected to choose the **concrete next actions** for this pass ([CONDUCTOR-PASS.md â€” Conductor action MCQ](CONDUCTOR-PASS.md#conductor-action-mcq)). All three options should be live choices; refusal / park / no-action is inferred from off-menu behavior rather than presented as one of the three.
 
 Rules:
 
-- Never present **two unlabeled** **A–E** menus in the same output.
+- Never present **two unlabeled** **Aâ€“E** menus in the same output.
 - When two menus appear near each other, **label** them explicitly using these names (or equivalent explicit headers).
 - **Durable logs** and **file metadata** should prefer **conductor slugs**, not menu letters.
 - Letters are **UI conveniences** only.
@@ -93,13 +93,13 @@ Rules:
 | Problem Type | Default Conductor | Why |
 |--------------|-------------------|-----|
 | Unsupported claim, bad citation, loose seam | Toscanini | Verify a concrete receipt seam first, then split what is proven from what is only inferred |
-| Conflicting expert lines | Furtwängler | The tension should be preserved before synthesis |
+| Conflicting expert lines | FurtwÃ¤ngler | The tension should be preserved before synthesis |
 | Public-facing paragraph lacks force | Bernstein | Stakes and legibility need amplification |
 | Monthly or long-arc synthesis feels uneven | Karajan | Balance and total shape matter most |
 | Too many possible next actions | Kleiber | Narrowing is the work |
 | PR triage or implementation sequence is bloated | Kleiber | Refuse excess and choose one next move |
 | Boundary or authority ambiguity | Toscanini | Enforcement precedes creativity, starting with one specific artifact or claim boundary |
-| Strategy thread becoming flattened or over-smoothed | Furtwängler | Polyphony should not be prematurely resolved |
+| Strategy thread becoming flattened or over-smoothed | FurtwÃ¤ngler | Polyphony should not be prematurely resolved |
 | Notebook becoming ornate or bloated | Karajan or Kleiber | Shape or narrow depending on the failure mode |
 | Reflection section lacks human energy | Bernstein | The work needs vitality, not more scaffolding |
 
@@ -123,9 +123,9 @@ Letters may appear in user-facing menu text, but **not** as the canonical persis
 
 ## 8. Beethoven and Brahms Test Pointers
 
-The **Beethoven test** in [`../work-dev/conductor-proposal-lenses.md`](../work-dev/conductor-proposal-lenses.md) clarifies how the five conductors differ under **crisis**, **propulsion**, and **formal drama** — use it when conductor proposal styles begin to flatten in those dimensions.
+The **Beethoven test** in [`../work-dev/conductor-proposal-lenses.md`](../work-dev/conductor-proposal-lenses.md) clarifies how the five conductors differ under **crisis**, **propulsion**, and **formal drama** â€” use it when conductor proposal styles begin to flatten in those dimensions.
 
-The **Brahms test** (same file, distinct appendix) clarifies distinctions in **density**, **continuity**, **warmth**, **overlap**, and **anti-heaviness** — use it when the problem is crowded or inert texture rather than dramatic conflict.
+The **Brahms test** (same file, distinct appendix) clarifies distinctions in **density**, **continuity**, **warmth**, **overlap**, and **anti-heaviness** â€” use it when the problem is crowded or inert texture rather than dramatic conflict.
 
 Use **both** when proposals still collapse into the same generic PR shape after stance selection.
 

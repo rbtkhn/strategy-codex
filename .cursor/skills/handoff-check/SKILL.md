@@ -6,7 +6,7 @@ description: Run operator_handoff_check.py for RECURSION-GATE pending, Predictiv
 
 # Handoff Check
 
-**Preferred activation (operator):** say **`handoff check`** (or **`use handoff-check`**).
+**Preferred activation (operator):** say the exact phrase **`handoff check`**. **Alias:** **`use handoff-check`**.
 
 Use this skill when the operator wants to pause or resume work without losing the active thread.
 

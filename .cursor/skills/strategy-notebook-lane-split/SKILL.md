@@ -12,7 +12,7 @@ tags:
 
 # Strategy notebook — multi-expert lane split (refined pages)
 
-**Preferred activation (operator):** **`lane split`**, **`two-lane refined page`**, **`host + guest refined pages`**, or naming both **`expert_id`s** and the same **`pub_date`**.
+**Preferred activation (operator):** say the exact phrase **`lane split`**. **Aliases:** **`two-lane refined page`**, **`host + guest refined pages`**, or naming both **`expert_id`s** and the same **`pub_date`**.
 
 ## When to use
 

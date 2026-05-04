@@ -13,7 +13,7 @@ synced_by: sync_portable_skills.py
 ---
 # Work-jiang ingest fallback (rate limit path)
 
-**Preferred activation (operator):** say **`jiang ingest fallback`**.
+**Preferred activation (operator):** say the exact phrase **`jiang ingest fallback`**.
 
 Use this skill when ingesting a new lecture and the normal channel-wide transcript refresh is blocked (for example, repeated `429 Too Many Requests` during fetch), but you still need to complete a clean, auditable ingest now.
 

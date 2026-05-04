@@ -7,7 +7,7 @@ description: "Session-scale handoff ritual for the current workspace. Primary tr
 
 # Bridge
 
-**Preferred activation:** say **`bridge`**. Also responds to **`session handoff`**, **`close session`**, or **`transfer`**.
+**Preferred activation (operator):** say the exact phrase **`bridge`**. **Aliases:** **`session handoff`**, **`close session`**, **`transfer`**.
 
 `bridge` is the session-scale handoff. In this workspace it is **current-repo-first**: assess the active repo, recommend whether it needs commit/push, seal the agreed scope, and synthesize state into a single structured markdown block for the next fresh session or thread.
 

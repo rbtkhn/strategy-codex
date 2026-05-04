@@ -7,7 +7,7 @@ description: >-
 
 # Pros and cons (unpack a proposal)
 
-**Preferred activation (operator):** say **`unpack`** (or **`pros cons`**).
+**Preferred activation (operator):** say the exact phrase **`unpack`**. **Alias:** **`pros cons`**.
 
 Use when:
 

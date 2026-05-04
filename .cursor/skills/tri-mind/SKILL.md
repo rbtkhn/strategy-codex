@@ -8,13 +8,13 @@ description: >-
 
 # Tri-mind pass (`tri-mind`)
 
-**Preferred activation (operator):** **`tri-mind`**. **Aliases:** **`tri-frame`**, **`tutti`**, **`three minds`**, **`full tri-frame`**.
+**Preferred activation (operator):** say the exact phrase **`tri-mind`**. **Aliases:** **`tri-frame`**, **`tutti`**, **`three minds`**, **`full tri-frame`**.
 
-**Purpose:** Run **in-voice** analysis using the **Tri-Frame** minds with a **fixed letter menu** — not every pass needs all three. This is **analysis in chat** (or inbox paste) first; it is **not** a substitute for **`strategy`** unless the operator also wants notebook capture.
+**Purpose:** Run **in-voice** analysis using the **Tri-Frame** minds with a **fixed letter menu** — not every pass needs all three. This is **analysis in chat** (or inbox paste) first; it is **not** a substitute for **`strategy`** unless the operator also wants strategy-codex capture.
 
 **Design principle:** Tri-mind is the strategy **differentiator**, not the strategy **engine**. Use it when one lens is not enough, not as the default wrapper around every strategy pass.
 
-**Relation to `skill-strategy`:** [`skill-strategy`](../skill-strategy/SKILL.md) is the **lane pass** (notebook, briefs, promotion). **`tri-mind`** is **lens choreography** when the operator wants **structured** Mercouris / Mearsheimer / Barnes output. Do **not** invoke **`tri-mind`** on every `strategy` turn — [strategy-minds-granular.mdc](../../rules/strategy-minds-granular.mdc).
+**Relation to `skill-strategy`:** [`skill-strategy`](../skill-strategy/SKILL.md) is the **lane pass** (strategy-codex notebook, briefs, promotion). **`tri-mind`** is **lens choreography** when the operator wants **structured** Mercouris / Mearsheimer / Barnes output. Do **not** invoke **`tri-mind`** on every `strategy` turn — [strategy-minds-granular.mdc](../../rules/strategy-minds-granular.mdc).
 
 **Relation to LEARN MODE:** If the operator is in **LEARN MODE** (full extraction, SCHOLAR hooks, strict ordering), follow [LEARN_MODE_RULES.md](../../../docs/skill-work/work-strategy/LEARN_MODE_RULES.md) — it may **override** section ordering and depth; say so when both apply.
 
@@ -76,9 +76,9 @@ If the operator **already** included the code with the thesis (e.g. “tri-mind 
 
 | Letter | Mind | SSOT (read fingerprint here) | Fingerprint (short) |
 |--------|------|-------------------------------|---------------------|
-| **A** | Mercouris | [strategy-expert-mercouris-mind.md](../../../docs/skill-work/work-strategy/strategy-notebook/strategy-expert-mercouris-mind.md) | Legitimacy, continuity, diplomatic narrative, staging |
-| **B** | Mearsheimer | [strategy-expert-mearsheimer-mind.md](../../../docs/skill-work/work-strategy/strategy-notebook/strategy-expert-mearsheimer-mind.md) | Power, incentives, structure, security competition |
-| **C** | Barnes | [strategy-expert-barnes-mind.md](../../../docs/skill-work/work-strategy/strategy-notebook/strategy-expert-barnes-mind.md) | Liability, jurisdiction, enforceability, who pays |
+| **A** | Mercouris | [strategy-expert-mercouris-mind.md](../../../docs/skill-work/work-strategy/strategy-notebook/strategy-expert-mercouris-mind.md) | Mercouris strategy-author mind (legacy filename); legitimacy, continuity, diplomatic narrative, staging |
+| **B** | Mearsheimer | [strategy-expert-mearsheimer-mind.md](../../../docs/skill-work/work-strategy/strategy-notebook/strategy-expert-mearsheimer-mind.md) | Mearsheimer strategy-author mind (legacy filename); power, incentives, structure, security competition |
+| **C** | Barnes | [strategy-expert-barnes-mind.md](../../../docs/skill-work/work-strategy/strategy-notebook/strategy-expert-barnes-mind.md) | Barnes strategy-author mind (legacy filename); liability, jurisdiction, enforceability, who pays |
 
 Patterns and recipes: [MINDS-SKILL-STRATEGY-PATTERNS.md](../../../docs/skill-work/work-strategy/minds/MINDS-SKILL-STRATEGY-PATTERNS.md).
 

@@ -6,7 +6,7 @@ description: "Structured landscape scan before building a new work territory. Bo
 
 # Lane Survey
 
-**Preferred activation (operator):** say **`survey [lane-name]`** or **`lane survey`**.
+**Preferred activation (operator):** say the exact phrase **`lane survey`**. **Alternate form:** **`survey [lane-name]`**.
 
 Use this skill before creating a new work territory or when evaluating the landscape for an existing one. The goal is to avoid rebuilding what already exists and to enter a lane with grounded awareness of the space.
 
