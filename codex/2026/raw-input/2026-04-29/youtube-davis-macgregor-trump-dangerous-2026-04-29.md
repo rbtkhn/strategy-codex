@@ -1,7 +1,7 @@
 ---
 ingest_date: 2026-04-29
 pub_date: 2026-04-29
-thread: macgregor
+thread: davis
 kind: transcript
 show: Daniel Davis Deep Dive
 host: Daniel Davis

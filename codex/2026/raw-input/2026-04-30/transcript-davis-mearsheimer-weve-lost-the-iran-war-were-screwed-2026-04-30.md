@@ -5,7 +5,7 @@ kind: transcript
 show: Daniel Davis Deep Dive
 host: Daniel Davis
 guest: John Mearsheimer
-thread: mearsheimer
+thread: davis
 source_note: Operator-supplied cleaned transcript; canonical source URL not pinned yet.
 title_slug: transcript-davis-mearsheimer-weve-lost-the-iran-war-were-screwed-2026-04-30
 ---
