@@ -1,0 +1,204 @@
+{
+  "format": "grace-mar-runtime-bundle",
+  "version": "1.0",
+  "bundle_id": "e3651d6daa7d",
+  "generated_at": "2026-05-05T16:49:35.325552+00:00",
+  "user_id": "grace-mar",
+  "runtime_mode": "adjunct_runtime",
+  "runtime_mode_description": "Assistive runtime alongside the canonical repo.",
+  "degraded_mode": {
+    "enabled": true,
+    "reason": "intent.md missing or invalid; intent_snapshot exported with ok=false"
+  },
+  "lanes": {
+    "record": {
+      "canonical": true,
+      "paths": [
+        "record\\USER.md",
+        "record\\fork-export.json",
+        "record\\grace-mar-llm.txt"
+      ]
+    },
+    "policy": {
+      "canonical": false,
+      "note": "Canonical policy surfaces; not identity truth.",
+      "paths": [
+        "policy\\intent_snapshot.json",
+        "policy\\llms.txt",
+        "policy\\manifest.json"
+      ]
+    },
+    "runtime": {
+      "canonical": false,
+      "note": "Continuity aids only. Do not treat as Record truth.",
+      "paths": [
+        "runtime\\self-memory.md",
+        "runtime\\session-log-tail.md",
+        "runtime\\warmup.md"
+      ]
+    },
+    "audit": {
+      "canonical": false,
+      "note": "Append-only replay and provenance surfaces.",
+      "paths": [
+        "audit\\pipeline-events.jsonl",
+        "audit\\compute-ledger.jsonl",
+        "audit\\harness-events.jsonl"
+      ]
+    },
+    "fork_history": {
+      "canonical": false,
+      "note": "Fork lifecycle state, lineage tail, recent sessions — not identity truth.",
+      "paths": []
+    }
+  },
+  "canonical_instance_note": "The git-backed Grace-Mar repo remains canonical. This bundle is transport and runtime support, not a new memory authority.",
+  "freshness": {
+    "source_files": {
+      "self": {
+        "exists": false,
+        "path": "C:\\dev\\strategy-codex\\users\\grace-mar\\self.md"
+      },
+      "skills": {
+        "exists": false,
+        "path": "C:\\dev\\strategy-codex\\users\\grace-mar\\self-skills.md"
+      },
+      "self_skills": {
+        "exists": false,
+        "path": "C:\\dev\\strategy-codex\\users\\grace-mar\\self-skills.md"
+      },
+      "skill_think": {
+        "exists": false,
+        "path": "C:\\dev\\strategy-codex\\users\\grace-mar\\skill-think.md"
+      },
+      "skill_write": {
+        "exists": false,
+        "path": "C:\\dev\\strategy-codex\\users\\grace-mar\\skill-write.md"
+      },
+      "skill_steward": {
+        "exists": false,
+        "path": "C:\\dev\\strategy-codex\\users\\grace-mar\\skill-steward.md"
+      },
+      "evidence": {
+        "exists": false,
+        "path": "C:\\dev\\strategy-codex\\users\\grace-mar\\self-archive.md"
+      },
+      "self_evidence": {
+        "exists": false,
+        "path": "C:\\dev\\strategy-codex\\users\\grace-mar\\self-archive.md"
+      },
+      "library": {
+        "exists": false,
+        "path": "C:\\dev\\strategy-codex\\users\\grace-mar\\self-library.md"
+      },
+      "intent": {
+        "exists": false,
+        "path": "C:\\dev\\strategy-codex\\users\\grace-mar\\intent.md"
+      },
+      "session_log": {
+        "exists": false,
+        "path": "C:\\dev\\strategy-codex\\users\\grace-mar\\session-log.md"
+      },
+      "memory": {
+        "exists": true,
+        "path": "C:\\dev\\strategy-codex\\users\\grace-mar\\self-memory.md",
+        "size_bytes": 483,
+        "mtime": "2026-05-05T05:17:10.937109+00:00",
+        "sha256": "14868fbb45e135825f33e6a880c19038d2868a16350469dbb2cb55ce20a3a9b5"
+      },
+      "prompt": {
+        "exists": true,
+        "path": "C:\\dev\\strategy-codex\\bot\\prompt.py",
+        "size_bytes": 13788,
+        "mtime": "2026-05-05T16:49:34.940289+00:00",
+        "sha256": "e01ba88001914c3cf06cf2c2e6cccc4711e5ac20d7086317e0c7cc6348a34250"
+      }
+    },
+    "derived_files": {
+      "record\\USER.md": {
+        "exists": true,
+        "path": "C:\\dev\\strategy-codex\\runtime-bundle\\record\\USER.md",
+        "size_bytes": 97,
+        "mtime": "2026-05-05T16:49:35.325552+00:00",
+        "sha256": "33dd0e996abd398243fdcd832a79da602f728bd67363a7f8d73d5c90f65cd052"
+      },
+      "record\\fork-export.json": {
+        "exists": true,
+        "path": "C:\\dev\\strategy-codex\\runtime-bundle\\record\\fork-export.json",
+        "size_bytes": 313493,
+        "mtime": "2026-05-05T16:49:35.363692+00:00",
+        "sha256": "609f47cf3b78b3fe1f974c3b51f3a156e095e2737a9a9bd303ba6cdb23d82d7a"
+      },
+      "record\\grace-mar-llm.txt": {
+        "exists": true,
+        "path": "C:\\dev\\strategy-codex\\runtime-bundle\\record\\grace-mar-llm.txt",
+        "size_bytes": 110,
+        "mtime": "2026-05-05T16:49:35.364698+00:00",
+        "sha256": "6ba9ec7abb7a7d3366ebf73efd34bedc25d76edf9c3f491ce1f372ee79655e99"
+      },
+      "policy\\manifest.json": {
+        "exists": true,
+        "path": "C:\\dev\\strategy-codex\\runtime-bundle\\policy\\manifest.json",
+        "size_bytes": 4122,
+        "mtime": "2026-05-05T16:49:35.365653+00:00",
+        "sha256": "18f74e7cc3011e241e67a3778d7d636d2dc93b34a8dea918dbe292560665be23"
+      },
+      "policy\\llms.txt": {
+        "exists": true,
+        "path": "C:\\dev\\strategy-codex\\runtime-bundle\\policy\\llms.txt",
+        "size_bytes": 1496,
+        "mtime": "2026-05-05T16:49:35.365653+00:00",
+        "sha256": "ecd84eff3563bb3e5072ddc59f9b6d2a9e21123c24c6faa453130cdeac195f10"
+      },
+      "policy\\intent_snapshot.json": {
+        "exists": true,
+        "path": "C:\\dev\\strategy-codex\\runtime-bundle\\policy\\intent_snapshot.json",
+        "size_bytes": 289,
+        "mtime": "2026-05-05T16:49:35.365653+00:00",
+        "sha256": "e9878b685747db75423b5128662415a9dc642bc79df15389d70fc2fef66038b6"
+      },
+      "runtime\\warmup.md": {
+        "exists": true,
+        "path": "C:\\dev\\strategy-codex\\runtime-bundle\\runtime\\warmup.md",
+        "size_bytes": 233,
+        "mtime": "2026-05-05T16:49:35.397967+00:00",
+        "sha256": "c36a1eb46c195e9178b2d53252f7f518a2bac974dfef0c7b9eb2a33a8cc09126"
+      },
+      "runtime\\session-log-tail.md": {
+        "exists": true,
+        "path": "C:\\dev\\strategy-codex\\runtime-bundle\\runtime\\session-log-tail.md",
+        "size_bytes": 113,
+        "mtime": "2026-05-05T16:49:35.397967+00:00",
+        "sha256": "2c1a11c01bfe4282d8cd4f6aab6e8e4f3f536a6747560ad08b349731c68ed3d4"
+      },
+      "runtime\\self-memory.md": {
+        "exists": true,
+        "path": "C:\\dev\\strategy-codex\\runtime-bundle\\runtime\\self-memory.md",
+        "size_bytes": 573,
+        "mtime": "2026-05-05T16:49:35.397967+00:00",
+        "sha256": "cf780cd4e96924a4afa802b27a356f2c4d4dce9d89092d0df72ec5a929a05469"
+      },
+      "audit\\pipeline-events.jsonl": {
+        "exists": true,
+        "path": "C:\\dev\\strategy-codex\\runtime-bundle\\audit\\pipeline-events.jsonl",
+        "size_bytes": 1815,
+        "mtime": "2026-05-05T16:49:35.420746+00:00",
+        "sha256": "bae09be6bf9ddf6c523deaf257805d46bbe0bea2903572ae2c26938ed101fc4f"
+      },
+      "audit\\compute-ledger.jsonl": {
+        "exists": true,
+        "path": "C:\\dev\\strategy-codex\\runtime-bundle\\audit\\compute-ledger.jsonl",
+        "size_bytes": 1149,
+        "mtime": "2026-05-05T16:49:35.439814+00:00",
+        "sha256": "8fc77494787102bfa39a8edf2e01b90b22ed0cae7c1258c52b0de58809fb7bd0"
+      },
+      "audit\\harness-events.jsonl": {
+        "exists": true,
+        "path": "C:\\dev\\strategy-codex\\runtime-bundle\\audit\\harness-events.jsonl",
+        "size_bytes": 1092,
+        "mtime": "2026-05-05T16:49:35.457736+00:00",
+        "sha256": "a81902f590e6081299ef737e5d97835731f033354d0fa27342dd99093929f7d1"
+      }
+    }
+  }
+}
