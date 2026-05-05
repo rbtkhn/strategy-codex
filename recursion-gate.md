@@ -123,6 +123,45 @@ reflection_ack: heavy
 
 ## Candidates
 
+### CANDIDATE-0065 (IX-A - Fourth Lateran canon on Jews and public office; external source)
+
+```yaml
+status: pending
+timestamp: 2026-05-05T16:57:17.7883739Z
+channel_key: operator:cursor:elicit-knowledge-self-knowledge
+proposal_class: SELF_KNOWLEDGE_ADD
+source: operator - elicit knowledge receipt
+source_binding_strength: weak
+review_needed: true
+shelf_refs: []
+quiz_receipt:
+  source_kind: primary
+  citation_label: "Fourth Lateran Council canon 69"
+  visible_prompt: "In Fourth Lateran Council canon 69, what reason does the canon give for barring Jews from public office?"
+  stem_topic: "Pope Innocent III and public office restrictions on Jews"
+  selected_answer: "B - the canon says Jews are hostile to Christians and should not exercise power over them."
+  correct_answer: "B - the canon says Jews are hostile to Christians and should not exercise power over them."
+  validation_note: "Companion selected the intended answer. Binding is external-primary rather than bookshelf-anchored, so keep review-needed."
+  staged_claim: "Knows: Fourth Lateran Council canon 69 renews Toledo's restriction barring Jews from public office because it frames them as hostile to Christians."
+source_exchange:
+  operator: |
+    Elicit knowledge round on Pope Innocent III / Fourth Lateran Council canon 69.
+    Visible prompt used academic prose and did not expose internal shelf ids.
+    External source: Fourth Lateran Council canon 69, as preserved in the council text.
+mind_category: knowledge
+signal_type: operator_quiz_validated
+priority_score: 3
+summary: "IX-A: Fourth Lateran canon on Jews and public office"
+convergence: first
+profile_target: IX-A. KNOWLEDGE
+suggested_entry: "Knows: Fourth Lateran Council canon 69 renews Toledo's restriction barring Jews from public office because it frames them as hostile to Christians."
+warrant: "Keep the claim tied to the canon's own wording rather than broadening it into a general claim about Innocent III."
+prompt_section: YOUR KNOWLEDGE
+prompt_addition: none
+impact_tier: low
+envelope_class: none
+```
+
 ## Processed
 
 ### CANDIDATE-0058 (IX-A - Clausewitz on war as policy; bookshelf MCQ)
