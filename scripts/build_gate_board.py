@@ -27,8 +27,10 @@ from gate_block_parser import (  # noqa: E402
 )
 from operator_dashboard_common import extract_yaml_scalar  # noqa: E402
 from recursion_gate_review import parse_review_candidates  # noqa: E402
+
+
 def _users_dir(user_id: str, repo_root: Path) -> Path:
-    return repo_root / "users" / user_id
+    return repo_root
 
 # Pending sub-column precedence: contradiction → evidence → new → ready
 _PROVENANCE_NEEDS_EVIDENCE = 0.34
@@ -205,7 +207,7 @@ def render_board(
         "<!-- GENERATED — run: python3 scripts/build_gate_board.py -->\n\n",
         "# Gate Board\n\n",
         "**Boundary:** This is a **derived operator dashboard**. It does **not** replace "
-        f"`users/{user_id}/recursion-gate.md`, `users/{user_id}/review-queue/`, or canonical "
+        f"`{user_id}/recursion-gate.md`, `{user_id}/review-queue/`, or canonical "
         "change-review objects. **Editing this file does not change candidate status.** "
         "Status changes follow the normal gate and review flow.\n\n",
         f"- **Generated:** {generated_at}\n\n",

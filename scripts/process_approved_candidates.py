@@ -14,7 +14,7 @@ Usage:
     python scripts/process_approved_candidates.py           # dry run
     python scripts/process_approved_candidates.py --apply   # perform merge
     python scripts/process_approved_candidates.py --apply --push  # merge + git push
-    python scripts/process_approved_candidates.py -u grace-mar --generate-receipt /tmp/receipt.json --approved-by operator
+    python scripts/process_approved_candidates.py -u strategy-codex --generate-receipt /tmp/receipt.json --approved-by operator
 
 Requires repo root as cwd. For merge-from-Telegram: run this after approving in Telegram.
 """
@@ -59,8 +59,8 @@ from identity_library_boundary_rules import collect_ix_a_violations_from_self_md
 from repo_io import CANONICAL_EVIDENCE_BASENAME
 from stage_gate_candidate import PROPOSAL_CLASS_RUNTIME_OBSERVATION
 
-USER_ID = os.getenv("GRACE_MAR_USER_ID", "grace-mar").strip() or "grace-mar"
-PROFILE_DIR = REPO_ROOT / "users" / USER_ID
+USER_ID = os.getenv("GRACE_MAR_USER_ID", "strategy-codex").strip() or "strategy-codex"
+PROFILE_DIR = REPO_ROOT
 RECURSION_GATE_PATH = PROFILE_DIR / "recursion-gate.md"
 SELF_PATH = PROFILE_DIR / "self.md"
 EVIDENCE_PATH = PROFILE_DIR / CANONICAL_EVIDENCE_BASENAME
@@ -116,7 +116,7 @@ def _set_user(user_id: str) -> None:
     """Configure per-user paths for this invocation."""
     global USER_ID, PROFILE_DIR, RECURSION_GATE_PATH, SELF_PATH, EVIDENCE_PATH, INTENT_PATH, MERGE_RECEIPTS_PATH
     USER_ID = user_id.strip()
-    PROFILE_DIR = REPO_ROOT / "users" / USER_ID
+    PROFILE_DIR = REPO_ROOT
     RECURSION_GATE_PATH = PROFILE_DIR / "recursion-gate.md"
     SELF_PATH = PROFILE_DIR / "self.md"
     EVIDENCE_PATH = PROFILE_DIR / CANONICAL_EVIDENCE_BASENAME
@@ -125,9 +125,7 @@ def _set_user(user_id: str) -> None:
 
 
 def _prp_output_path() -> Path:
-    if USER_ID == "grace-mar":
-        return PRP_PATH
-    return PROFILE_DIR / f"{USER_ID}-llm.txt"
+    return PRP_PATH
 
 
 def _utc_now_iso() -> str:
@@ -896,7 +894,7 @@ def _safe_pipeline_str(s: str, max_len: int) -> str:
 
 def _record_refs_for_applied(user_id: str, surface: str, profile_target: str, proposal_class: str) -> list[str]:
     """Repo-relative paths for replay / boundary debugging (not a full merge file list)."""
-    base = f"users/{user_id}"
+    base = f"{user_id}"
     pt = (profile_target or "").upper()
     pc = (proposal_class or "").upper()
     refs: list[str] = []
@@ -1240,7 +1238,7 @@ def main() -> None:
         blocks_to_move.append(c["full_match"])
         applied_candidates.append((c, act_id, ix_entry_id))
 
-    rel_self = f"users/{USER_ID}/self.md"
+    rel_self = f"{USER_ID}/self.md"
     boundary_viol = collect_ix_a_violations_from_self_md(self_content, rel_path=rel_self)
     if boundary_viol:
         for v in boundary_viol:

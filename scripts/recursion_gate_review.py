@@ -60,10 +60,10 @@ DEFAULT_USER = DEFAULT_USER_ID
 
 
 def _fork_dir(user_id: str, repo_root: Path | None) -> Path:
-    """Users/<user_id> under repo (defaults to ``_profile_dir`` / REPO_ROOT)."""
+    """Canonical gate root under the repository root (sole-operator layout)."""
     if repo_root is None:
         return _profile_dir(user_id)
-    return repo_root.resolve() / "users" / user_id
+    return repo_root.resolve()
 
 _STOPWORDS = {
     "a",

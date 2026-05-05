@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-Generate the Grace-Mar pilot profile page.
+Generate the root profile page.
 
-Reads grace-mar profile files and produces a single HTML profile view with:
+Reads the repository-root profile files and produces a single HTML profile view with:
 - Fork summary (identity, Lexile, pipeline status)
 - RECURSION-GATE queue (candidates awaiting approval)
 - SKILLS container status (THINK, WRITE) plus adjacent work context
@@ -14,7 +14,7 @@ Usage:
     open profile/index.html
 
 The profile works as a Telegram Mini App when served over HTTPS. Configure the URL
-in @BotFather (Bot Settings → Menu Button) and set PROFILE_MINIAPP_URL in .env.
+in @BotFather (Bot Settings â†’ Menu Button) and set PROFILE_MINIAPP_URL in .env.
 """
 
 import json
@@ -29,7 +29,7 @@ except ImportError:
     from scripts.recursion_gate_review import parse_gate_pending_for_dashboard
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-PROFILE_DIR = REPO_ROOT / "users" / "grace-mar"
+PROFILE_DIR = REPO_ROOT
 PROFILE_PAGE_DIR = REPO_ROOT / "profile"
 
 
@@ -57,10 +57,10 @@ class ProfileData:
     last_pipeline_activity: str
     total_tokens: int
     tokens_today: int
-    tokens_per_ix: str  # "X" or "—" when no IX
+    tokens_per_ix: str  # "X" or "â€”" when no IX
     pipeline_applied: int
     pipeline_rejected: int
-    curation_ratio: str  # "X% human-approved" or "—"
+    curation_ratio: str  # "X% human-approved" or "â€”"
     fork_checksum: str  # from fork-manifest.json or ""
     dyad_consultations_7d: int
     dyad_integrations_7d: int
@@ -126,7 +126,7 @@ def parse_session_transcript_snapshot(content: str, limit: int = 12) -> list[dic
         re.DOTALL,
     ):
         ts, role, text = m.group(1), m.group(2).strip(), m.group(3).strip().replace("\n> ", "\n")
-        blocks.append({"timestamp": ts, "role": role, "text": text[:200] + ("…" if len(text) > 200 else "")})
+        blocks.append({"timestamp": ts, "role": role, "text": text[:200] + ("â€¦" if len(text) > 200 else "")})
     return blocks[-limit:]
 
 
@@ -269,11 +269,11 @@ def parse_seed_personality(content: str) -> list[str]:
         t = m.group(1).strip()
         if t:
             out.append(t)
-    # emotional_patterns: trigger → response
+    # emotional_patterns: trigger â†’ response
     for m in re.finditer(r'trigger:\s*(.+?)\n\s+response:\s*([^\n]+)', section_iv.group(0), re.DOTALL):
         trigger = m.group(1).strip()[:40]
         response = m.group(2).strip()[:50]
-        out.append(f"{trigger} → {response}")
+        out.append(f"{trigger} â†’ {response}")
     # humor, empathy, problem_solving one-liners
     if m := re.search(r'humor:\s*\n\s+style:\s*([^\n]+)', section_iv.group(0)):
         out.append(f"humor: {m.group(1).strip()}")
@@ -288,7 +288,7 @@ def collect_data() -> ProfileData:
     """Collect all profile page data from profile files."""
     recursion_gate_path = PROFILE_DIR / "recursion-gate.md"
     self_path = PROFILE_DIR / "self.md"
-    archive_path = PROFILE_DIR / "self-archive.md"  # canonical EVIDENCE + § VIII
+    archive_path = PROFILE_DIR / "self-archive.md"  # canonical EVIDENCE + Â§ VIII
     evidence_compat = PROFILE_DIR / "self-evidence.md"  # optional pointer / legacy
     try:
         from repo_io import resolve_surface_markdown_path
@@ -344,7 +344,7 @@ def collect_data() -> ProfileData:
         archive_for_recent = gated_viii
     recent = parse_archive(transcript_content or archive_for_recent, limit=15)
 
-    last_activity = "—"
+    last_activity = "â€”"
     if recursion_gate_path.exists():
         mtime = recursion_gate_path.stat().st_mtime
         last_activity = datetime.fromtimestamp(mtime).strftime("%Y-%m-%d")
@@ -366,7 +366,7 @@ def collect_data() -> ProfileData:
             except (json.JSONDecodeError, KeyError):
                 pass
     ix_total = self_data["ix_a_count"] + self_data["ix_b_count"] + self_data["ix_c_count"]
-    tokens_per_ix = str(total_tokens // ix_total) if ix_total and total_tokens else "—"
+    tokens_per_ix = str(total_tokens // ix_total) if ix_total and total_tokens else "â€”"
 
     events_path = PROFILE_DIR / "pipeline-events.jsonl"
     pipeline_applied = pipeline_rejected = 0
@@ -417,14 +417,14 @@ def collect_data() -> ProfileData:
                 pass
 
     total_decisions = pipeline_applied + pipeline_rejected
-    curation_ratio = f"{100 * pipeline_applied // total_decisions}% approved" if total_decisions else "—"
+    curation_ratio = f"{100 * pipeline_applied // total_decisions}% approved" if total_decisions else "â€”"
 
     manifest_path = PROFILE_DIR / "fork-manifest.json"
     fork_checksum = ""
     if manifest_path.exists():
         try:
             manifest = json.loads(manifest_path.read_text())
-            fork_checksum = manifest.get("checksum", "")[:16] + "…" if manifest.get("checksum") else ""
+            fork_checksum = manifest.get("checksum", "")[:16] + "â€¦" if manifest.get("checksum") else ""
         except (json.JSONDecodeError, KeyError):
             pass
 
@@ -564,9 +564,9 @@ def render_html(data: ProfileData) -> str:
         for e in reversed(data.recent_exchanges)
     )
 
-    k_samples = "".join(f'<li>{s}</li>' for s in data.knowledge_samples) or '<li class="meta">—</li>'
-    c_samples = "".join(f'<li>{s}</li>' for s in data.curiosity_samples) or '<li class="meta">—</li>'
-    p_samples = "".join(f'<li>{s}</li>' for s in data.personality_samples) or '<li class="meta">—</li>'
+    k_samples = "".join(f'<li>{s}</li>' for s in data.knowledge_samples) or '<li class="meta">â€”</li>'
+    c_samples = "".join(f'<li>{s}</li>' for s in data.curiosity_samples) or '<li class="meta">â€”</li>'
+    p_samples = "".join(f'<li>{s}</li>' for s in data.personality_samples) or '<li class="meta">â€”</li>'
     read_entries = [e for e in data.library_entries if e.get("engagement_status") in ("consumed", "recurring", "trusted", "primary")]
     unread_entries = [e for e in data.library_entries if e.get("engagement_status") not in ("consumed", "recurring", "trusted", "primary")]
 
@@ -581,7 +581,7 @@ def render_html(data: ProfileData) -> str:
         (f'<li class="lib-section">Read ({len(read_entries)})</li>{lib_read}'
          f'<li class="lib-section">Unread ({len(unread_entries)})</li>{lib_unread}')
         if data.library_entries
-        else '<li class="meta">—</li>'
+        else '<li class="meta">â€”</li>'
     )
 
     def _journal_entry_html(e: dict) -> str:
@@ -591,19 +591,19 @@ def render_html(data: ProfileData) -> str:
             f'<p>{p.strip()}</p>' for p in entry_text.split("\n\n") if p.strip()
         ] if entry_text else []
         if not paras:
-            paras = ['<p class="meta">—</p>']
+            paras = ['<p class="meta">â€”</p>']
         return f'<div class="journal-day"><div class="journal-date">{e["date"]}</div>{"".join(paras)}</div>'
 
     journal_html = "".join(
         _journal_entry_html(e) for e in reversed(data.journal_entries)
-    ) if data.journal_entries else '<p class="meta">—</p>'
+    ) if data.journal_entries else '<p class="meta">â€”</p>'
 
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <title>Grace-Mar — {data.name}</title>
+    <title>Grace-Mar â€” {data.name}</title>
     <style>{css}</style>
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
 </head>
@@ -611,7 +611,7 @@ def render_html(data: ProfileData) -> str:
     <div class="dash">
         <div class="header">
             <h1>{data.name}</h1>
-            <span class="meta">{data.generated_at} · grace-mar</span>
+            <span class="meta">{data.generated_at} Â· grace-mar</span>
         </div>
         <div class="row-main">
             <div class="col-left">
@@ -637,7 +637,7 @@ def render_html(data: ProfileData) -> str:
                             <p><strong>What&rsquo;s in the fork</strong></p>
                             <ul>
                                 <li>Identity, Lexile ({data.lexile_output}), IX-A/B/C counts: {data.ix_a_count} / {data.ix_b_count} / {data.ix_c_count}</li>
-                                <li>Only content that passed the gated pipeline (staged → user approval → profile update)</li>
+                                <li>Only content that passed the gated pipeline (staged â†’ user approval â†’ profile update)</li>
                             </ul>
                             <p><strong>Knowledge boundary</strong></p>
                             <ul>
@@ -645,7 +645,7 @@ def render_html(data: ProfileData) -> str:
                             </ul>
                             <p><strong>Attestation</strong></p>
                             <ul>
-                                <li>Last checksum: {data.fork_checksum or "— (run scripts/fork_checksum.py --manifest)"}</li>
+                                <li>Last checksum: {data.fork_checksum or "â€” (run scripts/fork_checksum.py --manifest)"}</li>
                                 <li>Harness: run Counterfactual Pack to verify knowledge boundary.</li>
                             </ul>
                         </div>
@@ -655,7 +655,7 @@ def render_html(data: ProfileData) -> str:
             <div class="col-right">
                 <section style="flex:1; min-height:0; overflow:hidden; display:flex; flex-direction:column;">
                     <h2>Recent exchanges</h2>
-                    <div class="panel-scroll" style="flex:1;">{exchanges_html or '<p class="meta">—</p>'}</div>
+                    <div class="panel-scroll" style="flex:1;">{exchanges_html or '<p class="meta">â€”</p>'}</div>
                 </section>
                 <section>
                     <h2>Benchmarks</h2>
@@ -768,7 +768,7 @@ def _render_dashboard(data: ProfileData) -> str:
 <body>
     <div class="header">
         <h1>Grace-Mar</h1>
-        <a href="/" class="back">← Home</a>
+        <a href="/" class="back">â† Home</a>
     </div>
     <div class="row">
 {sections_html}
@@ -793,25 +793,25 @@ def main() -> None:
     data = collect_data()
     html = render_html(data)
     PROFILE_PAGE_DIR.mkdir(exist_ok=True)
-    # grace-mar.com/profile — full profile view (identity, pipeline, SKILLS, benchmarks)
+    # grace-mar.com/profile â€” full profile view (identity, pipeline, SKILLS, benchmarks)
     profile_view_dir = PROFILE_PAGE_DIR / "profile"
     profile_view_dir.mkdir(exist_ok=True)
     (profile_view_dir / "index.html").write_text(html, encoding="utf-8")
     print(f"Profile view written to {profile_view_dir / 'index.html'}")
 
-    # grace-mar.com/dashboard — read-only view of the Grace-Mar entity
+    # grace-mar.com/dashboard â€” read-only view of the Grace-Mar entity
     dashboard_dir = PROFILE_PAGE_DIR / "dashboard"
     dashboard_dir.mkdir(exist_ok=True)
     (dashboard_dir / "index.html").write_text(_render_dashboard(data), encoding="utf-8")
     print("Dashboard written to profile/dashboard/index.html")
 
-    # grace-mar.com (root) — landing page with buttons to Profile, Telegram, WeChat, LLM (LLM copies PRP to clipboard)
+    # grace-mar.com (root) â€” landing page with buttons to Profile, Telegram, WeChat, LLM (LLM copies PRP to clipboard)
     prp_text = _read_full_prp()
     landing_html = _render_landing_page(prp_text)
     (PROFILE_PAGE_DIR / "index.html").write_text(landing_html, encoding="utf-8")
     print("Landing page written to profile/index.html")
 
-    # grace-mar.com/telegram → open Telegram chat with bot
+    # grace-mar.com/telegram â†’ open Telegram chat with bot
     telegram_bot_username = _read_telegram_bot_username()
     telegram_dir = PROFILE_PAGE_DIR / "telegram"
     telegram_dir.mkdir(exist_ok=True)
@@ -819,7 +819,7 @@ def main() -> None:
     telegram_index.write_text(_render_telegram_redirect(telegram_bot_username), encoding="utf-8")
     print(f"Telegram redirect written to {telegram_index}")
 
-    # grace-mar.com/llm → full PRP text, one-tap copy
+    # grace-mar.com/llm â†’ full PRP text, one-tap copy
     llm_dir = PROFILE_PAGE_DIR / "llm"
     llm_dir.mkdir(exist_ok=True)
     (llm_dir / "index.html").write_text(
@@ -827,7 +827,7 @@ def main() -> None:
     )
     print("LLM page written to profile/llm/index.html")
 
-    # grace-mar.com/wechat → open WeChat Official Account (redirect to configured URL)
+    # grace-mar.com/wechat â†’ open WeChat Official Account (redirect to configured URL)
     wechat_url = _read_wechat_account_url()
     wechat_dir = PROFILE_PAGE_DIR / "wechat"
     wechat_dir.mkdir(exist_ok=True)
@@ -836,7 +836,7 @@ def main() -> None:
     )
     print("WeChat page written to profile/wechat/index.html")
 
-    # grace-mar.com/playlist — placeholder for future playlist feature
+    # grace-mar.com/playlist â€” placeholder for future playlist feature
     playlist_dir = PROFILE_PAGE_DIR / "playlist"
     playlist_dir.mkdir(exist_ok=True)
     (playlist_dir / "index.html").write_text(_render_playlist_placeholder(), encoding="utf-8")
@@ -844,7 +844,7 @@ def main() -> None:
 
 
 def _read_telegram_bot_username() -> str | None:
-    """Read optional bot username from users/<profile>/telegram_bot_username.txt (one line, stripped)."""
+    """Read optional bot username from <profile>/telegram_bot_username.txt (one line, stripped)."""
     path = PROFILE_DIR / "telegram_bot_username.txt"
     if not path.exists():
         return None
@@ -876,7 +876,7 @@ def _render_telegram_redirect(bot_username: str | None) -> str:
     </style>
 </head>
 <body>
-    <p>Opening Telegram…</p>
+    <p>Opening Telegramâ€¦</p>
     <p>If nothing happens, <a href="{url}">click here to open the Grace-Mar bot</a>.</p>
     <script>window.location.href = "{url}";</script>
 </body>
@@ -895,14 +895,14 @@ def _render_telegram_redirect(bot_username: str | None) -> str:
 <body>
     <h1>Telegram bot not configured</h1>
     <p>To make <strong>grace-mar.com/telegram</strong> open your Grace-Mar bot, add your bot's username (from @BotFather) in one line to:</p>
-    <p><code>users/grace-mar/telegram_bot_username.txt</code></p>
+    <p><code>telegram_bot_username.txt</code></p>
     <p>Example: if your bot is <strong>@MyGraceMarBot</strong>, the file should contain only <code>MyGraceMarBot</code> (no @). Then regenerate the profile and redeploy.</p>
 </body>
 </html>"""
 
 
 def _read_wechat_account_url() -> str | None:
-    """Read optional WeChat Official Account URL from users/<profile>/wechat_account_url.txt (one line)."""
+    """Read optional WeChat Official Account URL from <profile>/wechat_account_url.txt (one line)."""
     path = PROFILE_DIR / "wechat_account_url.txt"
     if not path.exists():
         return None
@@ -932,7 +932,7 @@ def _render_wechat_redirect(account_url: str | None) -> str:
     </style>
 </head>
 <body>
-    <p>Opening WeChat…</p>
+    <p>Opening WeChatâ€¦</p>
     <p>If nothing happens, <a href="{account_url}">click here</a>.</p>
     <script>window.location.href = {json.dumps(account_url)};</script>
 </body>
@@ -951,8 +951,8 @@ def _render_wechat_redirect(account_url: str | None) -> str:
 <body>
     <h1>WeChat not configured</h1>
     <p>To make <strong>grace-mar.com/wechat</strong> open your Grace-Mar WeChat Official Account, add the account URL (e.g. from mp.weixin.qq.com) in one line to:</p>
-    <p><code>users/grace-mar/wechat_account_url.txt</code></p>
-    <p>Use a link that opens or promotes your Official Account (公众号). Then regenerate the profile and redeploy. See <code>bot/WECHAT-SETUP.md</code>.</p>
+    <p><code>wechat_account_url.txt</code></p>
+    <p>Use a link that opens or promotes your Official Account (å…¬ä¼—å·). Then regenerate the profile and redeploy. See <code>bot/WECHAT-SETUP.md</code>.</p>
 </body>
 </html>"""
 
@@ -964,7 +964,7 @@ def _render_playlist_placeholder() -> str:
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Playlist — Grace-Mar</title>
+    <title>Playlist â€” Grace-Mar</title>
     <style>
         body { font-family: system-ui, sans-serif; background: #1a1917; color: #9c9a96; margin: 0; padding: 2rem; min-height: 100vh; display: flex; align-items: center; justify-content: center; }
     </style>
@@ -976,7 +976,7 @@ def _render_playlist_placeholder() -> str:
 
 
 def _render_landing_page(prp_text: str = "") -> str:
-    """Landing page at grace-mar.com — design inspired by desert art: hand-drawn style, sun, mountains, horizontal bands (pink-red, orange-brown, yellow desert), camels and cacti."""
+    """Landing page at grace-mar.com â€” design inspired by desert art: hand-drawn style, sun, mountains, horizontal bands (pink-red, orange-brown, yellow desert), camels and cacti."""
     if not prp_text.strip():
         llm_block = '<a href="/llm" class="nav-link nav-llm">LLM</a>'
         llm_script = ""
@@ -1172,7 +1172,7 @@ def _render_landing_page(prp_text: str = "") -> str:
     <main class="page">
         <div class="card">
             <h1>Grace-Mar</h1>
-            <p class="tagline">Record · Voice · You</p>
+            <p class="tagline">Record Â· Voice Â· You</p>
             <nav class="nav">
                 <a href="/profile" class="nav-link nav-profile">Profile</a>
                 <a href="/dashboard" class="nav-link nav-dashboard">Dashboard</a>
@@ -1233,3 +1233,4 @@ def _render_llm_page(prp_text: str) -> str:
 
 if __name__ == "__main__":
     main()
+

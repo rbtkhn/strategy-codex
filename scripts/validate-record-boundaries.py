@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Optional YAML frontmatter on users/**/*.md — only files with --- block are checked."""
+"""Optional YAML frontmatter on *.md — only files with --- block are checked."""
 from __future__ import annotations
 
 import re
@@ -24,11 +24,9 @@ def parse_yamlish(blob: str) -> dict[str, str]:
 
 def main() -> int:
     errors: list[str] = []
-    users = ROOT / "users"
-    if not users.is_dir():
-        print("validate-record-boundaries: no users/; skip")
-        return 0
-    for md in users.rglob("*.md"):
+    for md in ROOT.rglob("*.md"):
+        if "archive" in md.parts:
+            continue
         if "node_modules" in md.parts:
             continue
         text = md.read_text(encoding="utf-8")
