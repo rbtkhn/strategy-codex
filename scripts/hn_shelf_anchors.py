@@ -16,12 +16,18 @@ import re
 import sys
 from pathlib import Path
 
-try:
-    import yaml
-except ImportError:
-    sys.exit("PyYAML required: pip install pyyaml")
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+if hasattr(sys.stderr, "reconfigure"):
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 
 REPO = Path(__file__).resolve().parent.parent
+SCRIPTS = Path(__file__).resolve().parent
+if str(SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS))
+
+from yaml_compat import safe_load_path
+
 CATALOG = (
     REPO
     / "docs"
@@ -67,7 +73,7 @@ HEADER = """# Shelf anchors by chapter (generated)
 
 
 def load_items(path: Path) -> list[dict]:
-    data = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+    data = safe_load_path(path, feature="hn_shelf_anchors.py") or {}
     items = data.get("items")
     if not isinstance(items, list):
         return []
@@ -94,7 +100,7 @@ def invert_hn_to_hnsrc(items: list[dict]) -> dict[str, list[str]]:
 def load_chapters_ordered(path: Path) -> list[dict]:
     if not path.is_file():
         return []
-    data = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+    data = safe_load_path(path, feature="hn_shelf_anchors.py") or {}
     chapters = data.get("chapters")
     if not isinstance(chapters, list):
         return []
@@ -254,13 +260,17 @@ def main() -> int:
         print(f"ERROR: missing {args.architecture}", file=sys.stderr)
         return 1
 
-    items = load_items(args.catalog)
+    try:
+        items = load_items(args.catalog)
+        chapter_rows = load_chapters_ordered(args.architecture)
+    except RuntimeError as exc:
+        print(f"ERROR: {exc}", file=sys.stderr)
+        return 2
     if not items:
         print("ERROR: no items in catalog", file=sys.stderr)
         return 1
     index = item_index(items)
     by_hn = invert_hn_to_hnsrc(items)
-    chapter_rows = load_chapters_ordered(args.architecture)
     arch_by_id = {c["id"]: c for c in chapter_rows}
     if not chapter_rows:
         print("ERROR: no chapters in book-architecture.yaml", file=sys.stderr)

@@ -19,10 +19,11 @@ import re
 import sys
 from typing import Any
 
-try:
-    import yaml
-except ImportError:
-    sys.exit("PyYAML required: pip install pyyaml")
+SCRIPTS = Path(__file__).resolve().parent
+if str(SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS))
+
+from yaml_compat import safe_load_path
 
 
 REPO = Path(__file__).resolve().parent.parent
@@ -95,7 +96,7 @@ def _slug(value: str) -> str:
 
 
 def _load_catalog(path: Path) -> dict[str, Any]:
-    return yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+    return safe_load_path(path, feature="build_bookshelf_membrane_candidates.py") or {}
 
 
 def _build_clusters(catalog: dict[str, Any]) -> list[TagCluster]:
@@ -456,7 +457,11 @@ def main() -> int:
         print(f"ERROR: --round-size must be between {MIN_ROUND_SIZE} and {MAX_ROUND_SIZE}", file=sys.stderr)
         return 1
 
-    clusters = _build_clusters(_load_catalog(args.catalog))
+    try:
+        clusters = _build_clusters(_load_catalog(args.catalog))
+    except RuntimeError as exc:
+        print(f"ERROR: {exc}", file=sys.stderr)
+        return 2
     if not clusters:
         print("ERROR: no usable tag clusters found in catalog", file=sys.stderr)
         return 1

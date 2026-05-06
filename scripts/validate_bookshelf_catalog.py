@@ -17,12 +17,18 @@ import re
 import sys
 from pathlib import Path
 
-try:
-    import yaml
-except ImportError:
-    sys.exit("PyYAML required: pip install pyyaml")
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+if hasattr(sys.stderr, "reconfigure"):
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 
 REPO = Path(__file__).resolve().parent.parent
+SCRIPTS = Path(__file__).resolve().parent
+if str(SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS))
+
+from yaml_compat import safe_load_path
+
 CATALOG = (
     REPO
     / "docs"
@@ -46,8 +52,7 @@ ERA_TO_VOLUME = {
 
 
 def load_valid_hn_ids(path: Path) -> set[str]:
-    with open(path, encoding="utf-8") as f:
-        data = yaml.safe_load(f)
+    data = safe_load_path(path, feature="validate_bookshelf_catalog.py")
     chapters = data.get("chapters") or []
     return {c["id"] for c in chapters if isinstance(c, dict) and "id" in c}
 
@@ -64,16 +69,15 @@ def validate_catalog(
 
     if not catalog_path.is_file():
         return [f"ERROR: missing {catalog_path}"], []
+    if not arch_path.is_file():
+        return [f"ERROR: missing {arch_path}"], []
 
-    data = yaml.safe_load(catalog_path.read_text(encoding="utf-8")) or {}
+    data = safe_load_path(catalog_path, feature="validate_bookshelf_catalog.py") or {}
     items = data.get("items")
     if not isinstance(items, list):
         return ["ERROR: top-level 'items' must be a list"], []
 
     valid_hn = load_valid_hn_ids(arch_path)
-    if not arch_path.is_file():
-        errors.append(f"ERROR: missing {arch_path}")
-        return errors, warnings
 
     seen_ids: set[str] = set()
     seen_pairs: dict[tuple[str, str], str] = {}
@@ -179,7 +183,11 @@ def main() -> int:
     )
     args = ap.parse_args()
 
-    errors, warnings = validate_catalog(args.catalog, args.architecture, strict=args.strict)
+    try:
+        errors, warnings = validate_catalog(args.catalog, args.architecture, strict=args.strict)
+    except RuntimeError as exc:
+        print(f"ERROR: {exc}", file=sys.stderr)
+        return 2
 
     for w in warnings:
         print(f"WARN: {w}", file=sys.stderr)

@@ -15,11 +15,6 @@ import re
 from pathlib import Path
 import sys
 
-try:
-    import yaml
-except ImportError:
-    yaml = None
-
 REPO = Path(__file__).resolve().parent.parent
 SCRIPTS = Path(__file__).resolve().parent
 if str(SCRIPTS) not in sys.path:
@@ -27,6 +22,7 @@ if str(SCRIPTS) not in sys.path:
 
 from gate_block_parser import pending_candidates_region, iter_candidate_yaml_blocks
 from repo_io import DEFAULT_PROFILE_ID, profile_dir
+from yaml_compat import has_yaml, safe_load_path, safe_load_text
 
 PLACEHOLDER_RE = re.compile(r"see source_exchange\.operator \(staged paste\)", re.IGNORECASE)
 HNSRC_RE = re.compile(r"^HNSRC-\d{4}$")
@@ -49,19 +45,19 @@ def has_ix_a_scaffold(self_md: str) -> bool:
 
 
 def _safe_yaml_load(body: str) -> dict:
-    if yaml is None:
+    if not has_yaml():
         return {}
     try:
-        data = yaml.safe_load(body) or {}
-    except yaml.YAMLError:
+        data = safe_load_text(body, feature="check_gate_merge_readiness.py") or {}
+    except Exception:
         return {}
     return data if isinstance(data, dict) else {}
 
 
 def _load_catalog_ids(catalog_path: Path) -> set[str]:
-    if yaml is None or not catalog_path.is_file():
+    if not has_yaml() or not catalog_path.is_file():
         return set()
-    data = yaml.safe_load(catalog_path.read_text(encoding="utf-8")) or {}
+    data = safe_load_path(catalog_path, feature="check_gate_merge_readiness.py") or {}
     items = data.get("items") if isinstance(data, dict) else None
     if not isinstance(items, list):
         return set()
@@ -69,9 +65,9 @@ def _load_catalog_ids(catalog_path: Path) -> set[str]:
 
 
 def _load_anchor_refs(anchors_path: Path) -> set[str]:
-    if yaml is None or not anchors_path.is_file():
+    if not has_yaml() or not anchors_path.is_file():
         return set()
-    data = yaml.safe_load(anchors_path.read_text(encoding="utf-8")) or {}
+    data = safe_load_path(anchors_path, feature="check_gate_merge_readiness.py") or {}
     anchors = data.get("anchors") if isinstance(data, dict) else None
     if not isinstance(anchors, list):
         return set()
@@ -112,7 +108,7 @@ def _receipt_binding_issues(
 ) -> tuple[list[str], list[str]]:
     blockers: list[str] = []
     warnings: list[str] = []
-    if yaml is None:
+    if not has_yaml():
         warnings.append(
             f"{cid}: PyYAML unavailable; structured bookshelf receipt checks skipped "
             "(install PyYAML or run with a runtime that has it)"
@@ -188,7 +184,7 @@ def main() -> int:
 
     blockers: list[str] = []
     warnings: list[str] = []
-    if yaml is None:
+    if not has_yaml():
         warnings.append(
             "PyYAML unavailable; catalog/anchor-backed bookshelf receipt checks will be partial "
             "(path/layout checks still run)"

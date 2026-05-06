@@ -17,12 +17,13 @@ import re
 import sys
 from pathlib import Path
 
-try:
-    import yaml
-except ImportError:
-    sys.exit("PyYAML required: pip install pyyaml")
-
 REPO = Path(__file__).resolve().parent.parent
+SCRIPTS = Path(__file__).resolve().parent
+if str(SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS))
+
+from yaml_compat import safe_load_path
+
 CATALOG = (
     REPO
     / "docs"
@@ -117,7 +118,7 @@ def format_entry(item: dict, *, include_id: bool = True) -> str:
 
 
 def load_items(path: Path) -> list[dict]:
-    data = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+    data = safe_load_path(path, feature="build_hn_bookshelf_bibliography.py") or {}
     items = data.get("items")
     if not isinstance(items, list):
         return []
@@ -201,7 +202,11 @@ def main() -> int:
         print(f"ERROR: missing {args.catalog}", file=sys.stderr)
         return 1
 
-    items = load_items(args.catalog)
+    try:
+        items = load_items(args.catalog)
+    except RuntimeError as exc:
+        print(f"ERROR: {exc}", file=sys.stderr)
+        return 2
     if not items:
         print("ERROR: no items in catalog", file=sys.stderr)
         return 1

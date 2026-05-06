@@ -12,12 +12,13 @@ import re
 import sys
 from pathlib import Path
 
-try:
-    import yaml
-except ImportError:
-    sys.exit("PyYAML required: pip install pyyaml")
-
 REPO = Path(__file__).resolve().parent.parent
+SCRIPTS = Path(__file__).resolve().parent
+if str(SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS))
+
+from yaml_compat import safe_load_path
+
 RESEARCH = REPO / "docs" / "skill-work" / "work-strategy" / "history-notebook" / "research"
 CATALOG = RESEARCH / "bookshelf-catalog.yaml"
 ANCHORS = RESEARCH / "bookshelf-quiz-anchors.yaml"
@@ -29,7 +30,7 @@ SOURCE_KINDS = {"primary", "secondary", "mixed"}
 def _load_yaml(path: Path) -> dict:
     if not path.is_file():
         raise FileNotFoundError(path)
-    data = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+    data = safe_load_path(path, feature="validate_bookshelf_quiz_anchors.py") or {}
     if not isinstance(data, dict):
         raise ValueError(f"{path}: top-level YAML must be a mapping")
     return data
@@ -101,7 +102,11 @@ def main() -> int:
     ap.add_argument("--strict", action="store_true", help="Exit non-zero on warnings as well as errors")
     args = ap.parse_args()
 
-    errors, warnings = validate(args.catalog, args.anchors)
+    try:
+        errors, warnings = validate(args.catalog, args.anchors)
+    except RuntimeError as exc:
+        print(f"ERROR: {exc}", file=sys.stderr)
+        return 2
     for w in warnings:
         print(f"WARN: {w}", file=sys.stderr)
     for e in errors:

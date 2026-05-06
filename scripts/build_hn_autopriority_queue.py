@@ -18,12 +18,13 @@ import argparse
 from pathlib import Path
 import sys
 
-try:
-    import yaml
-except ImportError:
-    sys.exit("PyYAML required: pip install pyyaml")
-
 REPO = Path(__file__).resolve().parent.parent
+SCRIPTS = Path(__file__).resolve().parent
+if str(SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS))
+
+from yaml_compat import safe_load_path
+
 ARCH_PATH = REPO / "docs" / "skill-work" / "work-strategy" / "history-notebook" / "book-architecture.yaml"
 CATALOG_PATH = (
     REPO
@@ -55,7 +56,7 @@ OUT_PATH = (
 
 
 def load_yaml(path: Path) -> dict:
-    return yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+    return safe_load_path(path, feature="build_hn_autopriority_queue.py") or {}
 
 
 def chapter_rows(arch: dict) -> list[dict]:
@@ -190,9 +191,13 @@ def main() -> int:
             print(f"ERROR: missing {p}", file=sys.stderr)
             return 1
 
-    arch = load_yaml(args.architecture)
-    catalog = load_yaml(args.catalog)
-    config = load_yaml(args.config)
+    try:
+        arch = load_yaml(args.architecture)
+        catalog = load_yaml(args.catalog)
+        config = load_yaml(args.config)
+    except RuntimeError as exc:
+        print(f"ERROR: {exc}", file=sys.stderr)
+        return 2
 
     weights = (config.get("autopriority") or {}).get("weights") or {}
     readiness_cfg = (config.get("autopriority") or {}).get("readiness") or {}
