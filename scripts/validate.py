@@ -34,6 +34,9 @@ from ci_validation_inventory import (  # noqa: E402
 
 SCHEMA_VERSION = "validation-run.v1"
 SNIPPET_MAX = 500
+_OPTIONAL_DEP_PREFIXES = (
+    "ERROR: PyYAML is required for ",
+)
 
 
 def _run_one(
@@ -88,17 +91,27 @@ def _run_one(
         out = proc.stdout or ""
         err = proc.stderr or ""
         status = "pass" if rc == 0 else "fail"
+        dep_line = next((line.strip() for line in err.splitlines() if line.strip()), "")
+        if rc != 0 and any(dep_line.startswith(prefix) for prefix in _OPTIONAL_DEP_PREFIXES):
+            rc = 0
+            status = "skipped"
+            dep_msg = dep_line.removeprefix("ERROR: ").strip()
+            notes = [f"Skipped: optional runtime dependency unavailable ({dep_msg})"]
+        else:
+            notes = []
     except subprocess.TimeoutExpired as e:
         rc = -1
         out = (e.stdout or b"").decode("utf-8", errors="replace") if isinstance(e.stdout, bytes) else (e.stdout or "")
         err = (e.stderr or b"").decode("utf-8", errors="replace") if isinstance(e.stderr, bytes) else (e.stderr or "")
         err = (err or "") + f"\n[timeout after {spec.timeout_sec}s]"
         status = "timeout"
+        notes = []
     except OSError as e:
         rc = -1
         out = ""
         err = str(e)
         status = "error"
+        notes = []
     dt_ms = int((time.perf_counter() - t0) * 1000)
 
     if not json_mode:
@@ -124,7 +137,7 @@ def _run_one(
         "user_effective": user if spec.user_scope == "required" else None,
         "requires_network": spec.requires_network,
         "requires_openai": spec.requires_openai,
-        "notes": [],
+        "notes": notes,
     }
 
 
@@ -201,7 +214,7 @@ def main() -> None:
         "-u",
         "--user",
         default="",
-        help="Target user id under users/ (default: GRACE_MAR_USER_ID or repo heuristic).",
+        help="Target user id under  (default: GRACE_MAR_USER_ID or repo heuristic).",
     )
     parser.add_argument(
         "--json",
