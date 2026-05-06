@@ -21,6 +21,8 @@ import tomllib
 from pathlib import Path
 from typing import Iterator
 
+from yaml_compat import has_yaml, safe_load_text
+
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
 # Skip very large JSON under artifacts/ (historical blobs, etc.); still counts toward summary.
@@ -133,16 +135,16 @@ def validate_pre_commit_yaml(repo_root: Path = REPO_ROOT) -> str | None:
     Parse .pre-commit-config.yaml when PyYAML is installed.
     Returns None if ok or skipped (ImportError printed by caller); error string on parse failure.
     """
-    try:
-        import yaml  # type: ignore[import-untyped]
-    except ImportError:
+    if not has_yaml():
         return None  # caller prints skip
     path = repo_root / ".pre-commit-config.yaml"
     try:
         raw = path.read_text(encoding="utf-8")
-        yaml.safe_load(raw)
+        safe_load_text(raw, feature="validate_structured_files.py")
     except OSError as e:
         return f"{path}: read error: {e}"
+    except RuntimeError as e:
+        return f"{path}: YAML parse unavailable: {e}"
     except Exception as e:
         return f"{path}: YAML parse error: {e}"
     return None
@@ -282,8 +284,7 @@ def main() -> int:
         failures.append(py_err)
 
     yaml_note = "skipped"
-    try:
-        import yaml  # noqa: F401
+    if has_yaml():
 
         y_err = validate_pre_commit_yaml(repo_root)
         if y_err:
@@ -291,7 +292,7 @@ def main() -> int:
             yaml_note = "fail"
         else:
             yaml_note = "ok"
-    except ImportError:
+    else:
         print(
             "Skip: PyYAML not installed — .pre-commit-config.yaml not parsed "
             "(install requirements-dev.txt for full checks)",
