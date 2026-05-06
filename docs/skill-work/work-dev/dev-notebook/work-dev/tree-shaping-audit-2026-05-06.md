@@ -140,6 +140,24 @@ Use this triage rule before each cleanup slice:
 
 If the answer to 3 is yes, do **not** force it into a “small cleanup commit.”
 
+## Residue triage rule
+
+Not every dirty path is the same kind of residue.
+
+Classify each remaining path into one of three buckets before you decide what to do with it:
+
+- `keep and finish`: intentional in-flight work that still belongs to the active branch
+- `park/archive`: legacy mirrors, temp worktrees, review queues, handoff artifacts, and other non-active residue
+- `ignore as generated`: rebuildable outputs and snapshots that should not be treated as feature work
+
+Practical rule:
+
+- if it is intentional and testable, keep it in the active branch slice
+- if it is useful but not active, park it
+- if it is rebuildable, leave it out of the active slice and handle it as generated
+
+This triage is what makes the tree-shaping plan safe: it protects useful work from being mistaken for clutter while still preventing parked residue from re-entering feature commits.
+
 ## Bottom line
 
 The repo is in better shape than the raw dirty-tree size suggests:
