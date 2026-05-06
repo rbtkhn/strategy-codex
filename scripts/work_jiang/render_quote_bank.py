@@ -6,9 +6,13 @@ import sys
 from collections import defaultdict
 from pathlib import Path
 
-import yaml
-
 ROOT = Path(__file__).resolve().parents[2]
+SCRIPTS_DIR = ROOT / "scripts"
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
+
+from yaml_compat import safe_load_path
+
 WORK_DIR = ROOT / "research" / "external" / "work-jiang"
 QUOTES = WORK_DIR / "metadata" / "quotes.yaml"
 CONCEPTS = WORK_DIR / "metadata" / "concepts.yaml"
@@ -19,8 +23,7 @@ ALLOWED_WITH_VERIFIED = {"draft_safe", "verified"}
 
 
 def load_yaml(path: Path) -> dict:
-    with path.open("r", encoding="utf-8") as f:
-        return yaml.safe_load(f) or {}
+    return safe_load_path(path, feature="work_jiang/render_quote_bank.py") or {}
 
 
 def main() -> int:
@@ -30,9 +33,13 @@ def main() -> int:
     allowed_statuses = ALLOWED_WITH_VERIFIED if args.include_verified else ALLOWED_DEFAULT_STATUSES
 
     errors: list[str] = []
-    qdoc = load_yaml(QUOTES)
+    try:
+        qdoc = load_yaml(QUOTES)
+        cdoc = load_yaml(CONCEPTS)
+    except RuntimeError as exc:
+        print(f"ERROR: {exc}", file=sys.stderr)
+        return 2
     quotes = qdoc.get("quotes") or []
-    cdoc = load_yaml(CONCEPTS)
     valid_concepts = {c.get("concept_id") for c in (cdoc.get("concepts") or []) if c.get("concept_id")}
 
     by_ch: dict[str, list[dict]] = defaultdict(list)

@@ -1,23 +1,31 @@
 """Render INTELLECTUAL-CHRONOLOGY.md from metadata/chronology.yaml (read-only)."""
 from __future__ import annotations
 
+import sys
 from pathlib import Path
 
-import yaml
-
 ROOT = Path(__file__).resolve().parents[2]
+SCRIPTS_DIR = ROOT / "scripts"
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
+
+from yaml_compat import safe_load_path
+
 WORK_DIR = ROOT / "research" / "external" / "work-jiang"
 CHRONO = WORK_DIR / "metadata" / "chronology.yaml"
 OUT = WORK_DIR / "INTELLECTUAL-CHRONOLOGY.md"
 
 
 def load_yaml(path: Path) -> dict:
-    with path.open("r", encoding="utf-8") as f:
-        return yaml.safe_load(f) or {}
+    return safe_load_path(path, feature="work_jiang/render_intellectual_chronology.py") or {}
 
 
 def main() -> int:
-    doc = load_yaml(CHRONO)
+    try:
+        doc = load_yaml(CHRONO)
+    except RuntimeError as exc:
+        print(f"ERROR: {exc}", file=sys.stderr)
+        return 2
     periods = doc.get("periods") or []
     lines = [
         "# Intellectual chronology — work-jiang",

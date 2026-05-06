@@ -5,9 +5,13 @@ import re
 import sys
 from pathlib import Path
 
-import yaml
-
 ROOT = Path(__file__).resolve().parents[2]
+SCRIPTS_DIR = ROOT / "scripts"
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
+
+from yaml_compat import safe_load_path
+
 WORK_DIR = ROOT / "research" / "external" / "work-jiang"
 META = WORK_DIR / "metadata" / "concepts.yaml"
 OUT = WORK_DIR / "CONCEPT-DICTIONARY.md"
@@ -18,8 +22,7 @@ def norm_term(s: str) -> str:
 
 
 def load(path: Path) -> dict:
-    with path.open("r", encoding="utf-8") as f:
-        return yaml.safe_load(f) or {}
+    return safe_load_path(path, feature="work_jiang/render_concept_dictionary.py") or {}
 
 
 def validate(concepts: list[dict]) -> list[str]:
@@ -99,7 +102,11 @@ def render(data: dict) -> str:
 
 
 def main() -> int:
-    data = load(META)
+    try:
+        data = load(META)
+    except RuntimeError as exc:
+        print(f"ERROR: {exc}", file=sys.stderr)
+        return 2
     concepts = data.get("concepts") or []
     errors = validate(concepts)
     if errors:
