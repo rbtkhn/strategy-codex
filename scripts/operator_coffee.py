@@ -37,6 +37,7 @@ _REPO = Path(__file__).resolve().parent.parent
 _SCRIPTS = Path(__file__).resolve().parent
 if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
+from repo_io import profile_dir
 MODES = ("work-start", "light", "minimal", "closeout", "reentry")
 
 
@@ -127,7 +128,7 @@ def main() -> int:
     py = sys.executable
 
     from gate_block_parser import sweep_rejected_to_processed
-    gate_path = _REPO / "users" / user / "recursion-gate.md"
+    gate_path = profile_dir(user) / "recursion-gate.md"
     swept = sweep_rejected_to_processed(gate_path)
     if swept:
         print(f"Gate cleanup: moved {len(swept)} rejected candidate(s) to Processed: {', '.join(swept)}")

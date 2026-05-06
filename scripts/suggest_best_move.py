@@ -19,6 +19,12 @@ from typing import Any
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_USER_ID = "grace-mar"
+if str(REPO_ROOT / "scripts") not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT / "scripts"))
+
+from repo_io import DEFAULT_PROFILE_ID, profile_dir
+
+DEFAULT_USER_ID = DEFAULT_PROFILE_ID
 
 STALE_THRESHOLD_DAYS = 14
 
@@ -36,9 +42,10 @@ def _load_gate_candidates(user_id: str) -> list[dict[str, Any]]:
 def _load_gate_candidates_fallback(user_id: str) -> list[dict[str, Any]]:
     """Minimal gate parsing when the full review module isn't available."""
     import re
-    gate_path = REPO_ROOT / "users" / user_id / "recursion-gate.md"
+    user_root = profile_dir(user_id)
+    gate_path = user_root / "recursion-gate.md"
     if not gate_path.exists():
-        gate_json = REPO_ROOT / "users" / user_id / "recursion-gate.json"
+        gate_json = user_root / "recursion-gate.json"
         if gate_json.exists():
             try:
                 data = json.loads(gate_json.read_text(encoding="utf-8"))

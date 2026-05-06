@@ -28,19 +28,25 @@ from typing import Any
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_USER_ID = "grace-mar"
+if str(REPO_ROOT / "scripts") not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT / "scripts"))
+
+from repo_io import DEFAULT_PROFILE_ID, profile_dir
+
+DEFAULT_USER_ID = DEFAULT_PROFILE_ID
 
 DURABLE_PATTERNS = [
-    "users/*/self.md",
-    "users/*/self-archive.md",
-    "users/*/self-skills.md",
-    "users/*/recursion-gate.md",
+    "self.md",
+    "self-archive.md",
+    "self-skills.md",
+    "recursion-gate.md",
     "bot/prompt.py",
 ]
 
 EXPLORATORY_PATTERNS = [
-    "users/*/self-memory.md",
-    "users/*/session-log.md",
-    "users/*/session-transcript.md",
+    "self-memory.md",
+    "session-log.md",
+    "session-transcript.md",
     "docs/skill-work/",
     ".cursor/",
 ]
@@ -61,7 +67,7 @@ def _parse_since(since: str) -> datetime:
 
 
 def _load_seed_registry(user_id: str) -> dict[str, list[dict[str, Any]]]:
-    path = REPO_ROOT / "users" / user_id / "seed-registry.jsonl"
+    path = profile_dir(user_id) / "seed-registry.jsonl"
     if not path.exists():
         return {}
     history: dict[str, list[dict[str, Any]]] = {}
@@ -132,9 +138,10 @@ def _count_approaching(user_id: str) -> int:
 
 
 def _count_gate_pending(user_id: str) -> int:
-    gate_path = REPO_ROOT / "users" / user_id / "recursion-gate.md"
+    user_root = profile_dir(user_id)
+    gate_path = user_root / "recursion-gate.md"
     if not gate_path.exists():
-        gate_json = REPO_ROOT / "users" / user_id / "recursion-gate.json"
+        gate_json = user_root / "recursion-gate.json"
         if gate_json.exists():
             try:
                 data = json.loads(gate_json.read_text(encoding="utf-8"))

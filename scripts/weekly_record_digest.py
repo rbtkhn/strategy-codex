@@ -28,7 +28,9 @@ _SCRIPTS = Path(__file__).resolve().parent
 if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
 
-DEFAULT_USER = "grace-mar"
+from repo_io import DEFAULT_PROFILE_ID, profile_dir
+
+DEFAULT_USER = DEFAULT_PROFILE_ID
 DEFAULT_DAYS = 7
 
 RECORD_FILES = [
@@ -46,8 +48,8 @@ RECORD_FILES = [
 def _git_log_record_commits(user_id: str, days: int) -> list[dict]:
     """Get commits touching Record files in the window."""
     since = (date.today() - timedelta(days=days)).isoformat()
-    user_dir = f"users/{user_id}/"
-    paths = [user_dir + f for f in RECORD_FILES] + ["bot/prompt.py"]
+    profile_root = profile_dir(user_id)
+    paths = [str((profile_root / f).relative_to(REPO_ROOT)) for f in RECORD_FILES] + ["bot/prompt.py"]
 
     try:
         r = subprocess.run(
@@ -79,7 +81,7 @@ def _git_log_record_commits(user_id: str, days: int) -> list[dict]:
 
 def _parse_pipeline_events(user_id: str, days: int) -> dict:
     """Count pipeline events by type in the window."""
-    events_path = REPO_ROOT / "users" / user_id / "pipeline-events.jsonl"
+    events_path = profile_dir(user_id) / "pipeline-events.jsonl"
     if not events_path.is_file():
         return {"staged": 0, "applied": 0, "rejected": 0, "total": 0}
 
@@ -112,7 +114,7 @@ def _parse_pipeline_events(user_id: str, days: int) -> dict:
 # ---------------------------------------------------------------------------
 
 def _find_evidence_path(user_id: str) -> Path | None:
-    user_dir = REPO_ROOT / "users" / user_id
+    user_dir = profile_dir(user_id)
     for name in ("self-archive.md", "self-evidence.md"):
         p = user_dir / name
         if p.is_file():
@@ -157,7 +159,7 @@ def _count_recent_evidence(user_id: str, days: int) -> dict[str, int]:
 
 def _count_ix_entries(user_id: str) -> dict[str, int]:
     """Count entries in IX-A, IX-B, IX-C (or separate files)."""
-    user_dir = REPO_ROOT / "users" / user_id
+    user_dir = profile_dir(user_id)
     counts: dict[str, int] = {"knowledge": 0, "curiosity": 0, "personality": 0}
 
     self_path = user_dir / "self.md"
@@ -196,7 +198,7 @@ def _prp_freshness(user_id: str) -> dict:
     prp_path = prp_files[0]
     try:
         prp_mtime = datetime.fromtimestamp(prp_path.stat().st_mtime)
-        self_path = REPO_ROOT / "users" / user_id / "self.md"
+        self_path = profile_dir(user_id) / "self.md"
         if self_path.is_file():
             self_mtime = datetime.fromtimestamp(self_path.stat().st_mtime)
             stale = prp_mtime < self_mtime
@@ -217,7 +219,7 @@ def _prp_freshness(user_id: str) -> dict:
 # ---------------------------------------------------------------------------
 
 def _pending_gate_count(user_id: str) -> int:
-    gate_path = REPO_ROOT / "users" / user_id / "recursion-gate.md"
+    gate_path = profile_dir(user_id) / "recursion-gate.md"
     if not gate_path.is_file():
         return 0
     content = gate_path.read_text(encoding="utf-8")
