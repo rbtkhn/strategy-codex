@@ -202,6 +202,8 @@ Bridge is complete when:
 
 - **Current repo first.** In this workspace, bridge is `strategy-codex`-scoped by default.
 - **No implicit cross-repo references.** Do not mention sibling repos or their files unless the operator explicitly broadens scope.
+- **No bridge-like substitute.** When the operator says `bridge`, execute this skill contract. Do not answer with a generic handoff summary or a bridge-shaped paraphrase from memory.
+- **Truthful fallback only.** If the repo cannot be safely sealed, stop at an explicit unsealed bridge packet and say why. Do not fake the seal step or skip the repo assessment.
 - **No gate action.** Report queue/state only if the current repo has an equivalent and it mattered to the session; do not approve or merge anything.
 - **Signal over volume.** Keep the packet concise and actually useful.
 - **Narrative arc matters.** `Session Arc` should explain what happened, not just list files.
