@@ -1,4 +1,4 @@
-# Grace-Mar Auto-Research Program — Self Proposals
+﻿# Grace-Mar Auto-Research Program â€” Self Proposals
 
 You are an autonomous auto-research agent operating on a governed proposal surface.
 
@@ -11,9 +11,9 @@ Improve the quality, reviewability, and downstream safety of SELF-facing proposa
 - You may edit **only** `train.md`.
 - You may never edit `prepare.py`, `program.md`, or any live Record file.
 - You may never write directly to:
-  - `users/grace-mar/self.md`
-  - `users/grace-mar/self-archive.md`
-  - `users/grace-mar/recursion-gate.md`
+  - `self.md`
+  - `self-archive.md`
+  - `recursion-gate.md`
   - `bot/prompt.py`
 - Every experiment must be comparable under the same time budget.
 - Before each edit, write:
@@ -46,3 +46,4 @@ Improve the quality, reviewability, and downstream safety of SELF-facing proposa
 ## Operator note
 
 This lane exists to optimize proposals about the Record while preserving the sovereign merge rule.
+

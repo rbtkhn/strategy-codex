@@ -1,4 +1,4 @@
-# COMPANION-SELF BOOTSTRAP
+﻿# COMPANION-SELF BOOTSTRAP
 
 **Use this file in the companion-self repo workspace.** Copy this file into the root of your new companion-self repository, open that repo in a new Cursor workspace, then open this file and say: *"Read companion-self-bootstrap.md and set up this repo as the companion-self template per the plan."* The agent will have full context to continue.
 
@@ -12,7 +12,7 @@
 
 - **Template:** Concept, protocol, seed-phase definition, and structure for creating a new companion self. No one's Record; no instance data.
 - **Instance:** One live companion self (Record, bot, pipeline). Created from the template when a **new user completes seed phase**. Grace-Mar is the proving ground where structural ideas are tested against real use.
-- **Creation rule:** A new companion self is **initiated only by a new user via seed phase**. No copying another repo's `users/`; no pre-filled Record.
+- **Creation rule:** A new companion self is **initiated only by a new user via seed phase**. No copying another repo's ``; no pre-filled Record.
 
 **Domains:** companion-self.com = concept/product (this template). grace-mar.com = the first instance (profile, bot, PRP).
 
@@ -40,19 +40,19 @@
 
 2. **docs/** (or single doc)
    - **Concept:** What is a companion self? (Mind + Record + Voice; cognitive fork; sovereign merge; knowledge boundary.) One to three pages. Can be extracted/simplified from grace-mar's `docs/conceptual-framework.md` and `docs/architecture.md`, generalized (no "Abby", no "6-year-old").
-   - **Protocol:** Identity Fork Protocol in short form (stage → approve → merge; agent may stage, may not merge; evidence linkage). Can be summarized from grace-mar's `docs/identity-fork-protocol.md`.
+   - **Protocol:** Identity Fork Protocol in short form (stage â†’ approve â†’ merge; agent may stage, may not merge; evidence linkage). Can be summarized from grace-mar's `docs/identity-fork-protocol.md`.
    - **Seed phase:** Definition of seed phases (what surveys, what artifacts, what creates initial SELF/SKILLS/EVIDENCE). "New instance = new user + seed phase" as the only creation path. Can be derived from grace-mar's ARCHITECTURE (Fork Lifecycle, Seeding) and OPERATOR-BRIEF.
 
-3. **Optional: users/_template/**
-   - Empty or minimal structure: self.md (template only), skills.md (template), self-evidence.md (template), recursion-gate.md (template), memory.md (template). No real data. Used as the scaffold when creating a new user directory in an instance repo. Use companion-self's `users/_template/` or derive from companion-self's schema docs (`docs/self-template.md`, `docs/evidence-template.md`, etc.).
+3. **Optional: _template/**
+   - Empty or minimal structure: self.md (template only), skills.md (template), self-evidence.md (template), recursion-gate.md (template), memory.md (template). No real data. Used as the scaffold when creating a new user directory in an instance repo. Use companion-self's `_template/` or derive from companion-self's schema docs (`docs/self-template.md`, `docs/evidence-template.md`, etc.).
 
 4. **Optional: HOW-INSTANCES-CONSUME-UPGRADES.md** (or section in README)
-   - Describe how an instance (e.g. grace-mar) merges upgrades from this template: compare and update docs (CONCEPTUAL-FRAMEWORK, IDENTITY-FORK-PROTOCOL, SELF-TEMPLATE, seed description, AGENTS governance); never overwrite the instance's `users/<id>/` Record. Optionally: list of template paths safe to copy into instances; or a small sync script idea. **Instances:** Use the merge checklist in grace-mar's [merging-from-companion-self.md](https://github.com/rbtkhn/grace-mar/blob/main/docs/merging-from-companion-self.md) when pulling upgrades.
+   - Describe how an instance (e.g. grace-mar) merges upgrades from this template: compare and update docs (CONCEPTUAL-FRAMEWORK, IDENTITY-FORK-PROTOCOL, SELF-TEMPLATE, seed description, AGENTS governance); never overwrite the instance's `` Record. Optionally: list of template paths safe to copy into instances; or a small sync script idea. **Instances:** Use the merge checklist in grace-mar's [merging-from-companion-self.md](https://github.com/rbtkhn/grace-mar/blob/main/docs/merging-from-companion-self.md) when pulling upgrades.
 
 ### Optional later
 
 - One-page static site for companion-self.com (concept + link to grace-mar.com).
-- Script or checklist: "Initialize new user from seed" (create `users/<new_id>/` from _template, run seed phase steps).
+- Script or checklist: "Initialize new user from seed" (create `<new_id>/` from _template, run seed phase steps).
 - LICENSE, CONTRIBUTING for the template repo.
 
 ---
@@ -65,13 +65,13 @@
 
 ---
 
-## 5) Merging Upgrades: Template → Instance (Grace-Mar)
+## 5) Merging Upgrades: Template â†’ Instance (Grace-Mar)
 
 When companion-self (template) is updated, grace-mar (instance) can pull those changes without overwriting its Record:
 
 - **Safe to sync from template:** Concept docs, protocol docs, SELF/SKILLS/EVIDENCE *templates* (schema/structure), seed-phase definition, template-level governance (pipeline rule, knowledge boundary). Grace-mar keeps its own copies and updates them to match the template.
-- **Never overwrite with template:** `users/grace-mar/` (the Record), instance-specific bot/config, PRP output paths.
-- **Process:** Compare template docs/templates with grace-mar's; merge changes into grace-mar's files; run validation (e.g. governance checker, validate-integrity). No automated overwrite of `users/grace-mar/`. Grace-mar's merge checklist: [docs/merging-from-companion-self.md](https://github.com/rbtkhn/grace-mar/blob/main/docs/merging-from-companion-self.md).
+- **Never overwrite with template:** `` (the Record), instance-specific bot/config, PRP output paths.
+- **Process:** Compare template docs/templates with grace-mar's; merge changes into grace-mar's files; run validation (e.g. governance checker, validate-integrity). No automated overwrite of ``. Grace-mar's merge checklist: [docs/merging-from-companion-self.md](https://github.com/rbtkhn/grace-mar/blob/main/docs/merging-from-companion-self.md).
 - **Optional:** Maintain a list of "template paths" in companion-self (e.g. `docs/conceptual-framework.md`, `docs/self-template.md`) and document in this repo that instances may copy those paths when upgrading.
 
 ---
@@ -89,10 +89,10 @@ When companion-self (template) is updated, grace-mar (instance) can pull those c
 
 When the user opens the **companion-self** repo in a new Cursor workspace and invokes you with this bootstrap:
 
-1. **Confirm context:** This repo is the companion-self **template**. The user may have copied this bootstrap from the grace-mar repo. There is no Record here; no `users/grace-mar/`.
-2. **Use the developer plan:** Follow the checklist and plan in grace-mar's [companion-self-developer-plan.md](https://github.com/rbtkhn/grace-mar/blob/main/docs/companion-self-developer-plan.md): minimal docs list, source mapping, and phased implementation (README → concept → protocol → seed → optional scaffold and upgrade guide).
+1. **Confirm context:** This repo is the companion-self **template**. The user may have copied this bootstrap from the grace-mar repo. There is no Record here; no ``.
+2. **Use the developer plan:** Follow the checklist and plan in grace-mar's [companion-self-developer-plan.md](https://github.com/rbtkhn/grace-mar/blob/main/docs/companion-self-developer-plan.md): minimal docs list, source mapping, and phased implementation (README â†’ concept â†’ protocol â†’ seed â†’ optional scaffold and upgrade guide).
 3. **Create the minimum:** README (template vs instance; new user + seed phase; link to grace-mar). One or more concept/protocol/seed docs under `docs/` (or a single concept.md). Generalize from grace-mar's concepts; remove instance-specific references.
-4. **Optional:** Add `users/_template/` with minimal SELF/SKILLS/EVIDENCE/RECURSION-GATE/MEMORY templates (structure only). Add a short HOW-INSTANCES-CONSUME-UPGRADES or merge section.
+4. **Optional:** Add `_template/` with minimal SELF/SKILLS/EVIDENCE/RECURSION-GATE/MEMORY templates (structure only). Add a short HOW-INSTANCES-CONSUME-UPGRADES or merge section.
 5. **Do not** copy the full grace-mar codebase or Record. Only what defines the template: concept, protocol, seed, and optional scaffold.
 6. **Propose before implementing:** Per user preference, show a short proposal (scope, files to create) before writing; implement after approval.
 
@@ -120,10 +120,11 @@ If you need to extract or generalize content for companion-self, the canonical s
 When resuming in a **new session** and the user says "continue template analysis" (or similar):
 
 - **If you are in the grace-mar workspace:** Re-read [docs/audit-grace-mar-vs-companion-self-template.md](docs/audit-grace-mar-vs-companion-self-template.md). Optionally re-run the audit (structure, protocol, schema paths, governance), update the audit doc for any changes, or extend analysis (e.g. gap deep-dives, template-path diff readiness). Use [docs/companion-self-developer-plan.md](docs/companion-self-developer-plan.md) and [docs/merging-from-companion-self.md](docs/merging-from-companion-self.md) for context.
-- **If you are in the companion-self workspace:** Continue from [COMPANION-SELF-DEVELOPER-PLAN](https://github.com/rbtkhn/grace-mar/blob/main/docs/companion-self-developer-plan.md) (grace-mar): next unchecked phase (A1 README → B1 concept → C1 protocol → D1 seed → E1/E2 optional). Use grace-mar as read-only reference; extract and generalize only. Propose scope before implementing.
+- **If you are in the companion-self workspace:** Continue from [COMPANION-SELF-DEVELOPER-PLAN](https://github.com/rbtkhn/grace-mar/blob/main/docs/companion-self-developer-plan.md) (grace-mar): next unchecked phase (A1 README â†’ B1 concept â†’ C1 protocol â†’ D1 seed â†’ E1/E2 optional). Use grace-mar as read-only reference; extract and generalize only. Propose scope before implementing.
 
 **Recent context (grace-mar, Feb 2026):** Audit completed (grace-mar compliant). WORK rename applied in docs; SKILLS-MODULARITY formalized (full module set, outputs as f(skill-write)). Landing page desert theme + card. Bootstrap updated for handoff.
 
 ---
 
 **End of bootstrap.** Use this file in the companion-self workspace to continue seamlessly.
+

@@ -1,39 +1,39 @@
-# Work-jiang × CIV-MEM — analytic lens
+﻿# Work-jiang Ã— CIV-MEM â€” analytic lens
 
-**Purpose:** Use **civilization-memory** framing (conditions, institutions, seams, continuity, horizons) as a **structured overlay** on Jiang operator research — **without** treating CMC essays or retrieval hits as automatic truth about his claims.
+**Purpose:** Use **civilization-memory** framing (conditions, institutions, seams, continuity, horizons) as a **structured overlay** on Jiang operator research â€” **without** treating CMC essays or retrieval hits as automatic truth about his claims.
 
-**Boundary (repeat):** [`civilization_memory`](../../../docs/skill-work/work-civ-mem/README.md) / [`docs/civilization-memory/`](../../../docs/civilization-memory/README.md) are **external reference surfaces**. They inform **how you analyze** lectures; they do **not** become companion Record unless gated. See [work-jiang.md](../../../users/grace-mar/work-jiang.md).
+**Boundary (repeat):** [`civilization_memory`](../../../docs/skill-work/work-civ-mem/README.md) / [`docs/civilization-memory/`](../../../docs/civilization-memory/README.md) are **external reference surfaces**. They inform **how you analyze** lectures; they do **not** become companion Record unless gated. See [work-jiang.md](../../../work-jiang.md).
 
 ---
 
 ## 1. Why civ-mem fits work-jiang
 
-Jiang’s Geo-Strategy material mixes **power**, **religion as institution**, **empire**, and **alliance seams** — the same family of objects civ-mem is built to hold at civilization scale. The lattice below is a **discipline for your notes**, not a verdict on Jiang.
+Jiangâ€™s Geo-Strategy material mixes **power**, **religion as institution**, **empire**, and **alliance seams** â€” the same family of objects civ-mem is built to hold at civilization scale. The lattice below is a **discipline for your notes**, not a verdict on Jiang.
 
 ---
 
-## 2. Lattice → what to look for in a lecture
+## 2. Lattice â†’ what to look for in a lecture
 
 | Lattice slot | Question for the text | Typical tags |
 |----------------|----------------------|--------------|
-| **Conditions** | What background is treated as fixed? (e.g. US military dominance, “Pax” / inequality, 1948 Israel) | `conditions`, `constraints`, `starting-assumptions` |
+| **Conditions** | What background is treated as fixed? (e.g. US military dominance, â€œPaxâ€ / inequality, 1948 Israel) | `conditions`, `constraints`, `starting-assumptions` |
 | **Institutions** | What durable bodies carry action? (church, lobby, military, alliance, school) | `institutions`, `governance`, `hierarchy` |
 | **Seams** | Where does the speaker expect **cracks**? (NATO vs US, US vs Israel, coalition legitimacy) | `seams`, `friction`, `alliance` |
 | **Continuity / memory** | What past is mobilized as authority? (scripture, founding myth, 1953, Holocaust) | `continuity`, `memory`, `founding-narrative` |
-| **Time structure** | Eschatology, election cycles, “two vs six years,” empire decline over decades | `time-horizon`, `eschatology`, `forecast-window` |
-| **Decline / stress vectors** | Overextension, debt, civil unrest — parallel to civ-mem “decline” patterns | `decline`, `overextension`, `internal-strain` |
+| **Time structure** | Eschatology, election cycles, â€œtwo vs six years,â€ empire decline over decades | `time-horizon`, `eschatology`, `forecast-window` |
+| **Decline / stress vectors** | Overextension, debt, civil unrest â€” parallel to civ-mem â€œdeclineâ€ patterns | `decline`, `overextension`, `internal-strain` |
 
-Use these in **analysis memos** and optionally in registry rows (see §4).
+Use these in **analysis memos** and optionally in registry rows (see Â§4).
 
 ---
 
-## 3. Map registries → civ-mem use
+## 3. Map registries â†’ civ-mem use
 
 | Registry | Primary civ-mem move |
 |----------|----------------------|
-| **Influence** (`influence-tracking/`) | **Attention** over time — *not* truth. Civ-mem asks: *does a spike correlate with a **condition** change* (war news, election) or with **seam** visibility* (alliance drama)? |
+| **Influence** (`influence-tracking/`) | **Attention** over time â€” *not* truth. Civ-mem asks: *does a spike correlate with a **condition** change* (war news, election) or with **seam** visibility* (alliance drama)? |
 | **Predictions** (`prediction-tracking/`) | Treat forecasts as **time-structured claims** against the world. Civ-mem adds: classify **what kind of civilizational object** is predicted (invasion = peak escalation; lobby = institution). |
-| **Divergences** (`divergence-tracking/`) | “Mainstream” = **named field consensus**; civ-mem adds: often the real argument is **which institution or seam** the field foregrounds (realist IR vs religious-network accounts). |
+| **Divergences** (`divergence-tracking/`) | â€œMainstreamâ€ = **named field consensus**; civ-mem adds: often the real argument is **which institution or seam** the field foregrounds (realist IR vs religious-network accounts). |
 
 ---
 
@@ -58,10 +58,10 @@ If empty, omit. **Do not** auto-fill from CMC retrieval without human review.
 
 ## 5. Retrieval workflow (when you use the corpus)
 
-1. **Human question** — e.g. “How does civ-mem talk about empire + religion + seam?”  
-2. **Query** — `cmc-index-search.py` or [in-repo index](../../../docs/civilization-memory/README.md) per your setup.  
-3. **Tag provenance** — `{CMC: path}` on any pasted line in drafts (see [civ-mem-draft-protocol.md](../../../docs/skill-work/work-politics/civ-mem-draft-protocol.md) for ship-bound work).  
-4. **Separate layers** — Layer A: what **Jiang said**. Layer B: what **CMC** says. Layer C: your **synthesis** (operator).
+1. **Human question** â€” e.g. â€œHow does civ-mem talk about empire + religion + seam?â€  
+2. **Query** â€” `cmc-index-search.py` or [in-repo index](../../../docs/civilization-memory/README.md) per your setup.  
+3. **Tag provenance** â€” `{CMC: path}` on any pasted line in drafts (see [civ-mem-draft-protocol.md](../../../docs/skill-work/work-politics/civ-mem-draft-protocol.md) for ship-bound work).  
+4. **Separate layers** â€” Layer A: what **Jiang said**. Layer B: what **CMC** says. Layer C: your **synthesis** (operator).
 
 ---
 
@@ -69,12 +69,12 @@ If empty, omit. **Do not** auto-fill from CMC retrieval without human review.
 
 | Slot | Geo-Strategy #2 (sketch) |
 |------|-------------------------|
-| Conditions | US empire role; Israel–Iran tension; inequality under “Pax Americana” |
-| Institutions | Church history, lobby, military–foreign-policy apparatus |
-| Seams | US–Israel friction, coalition splits, intra-Christian division on eschatology |
+| Conditions | US empire role; Israelâ€“Iran tension; inequality under â€œPax Americanaâ€ |
+| Institutions | Church history, lobby, militaryâ€“foreign-policy apparatus |
+| Seams | USâ€“Israel friction, coalition splits, intra-Christian division on eschatology |
 | Continuity | Reformation, founding migrations, 1948 |
-| Time structure | Second Coming frameworks; “more popular over time” |
-| Decline stress | Inequality → appetite for total narratives (lecture’s Q&A thread) |
+| Time structure | Second Coming frameworks; â€œmore popular over timeâ€ |
+| Decline stress | Inequality â†’ appetite for total narratives (lectureâ€™s Q&A thread) |
 
 This table belongs in an **analysis memo**, not the Voice profile, unless gated.
 
@@ -82,6 +82,7 @@ This table belongs in an **analysis memo**, not the Voice profile, unless gated.
 
 ## Related
 
-- [WORKFLOW-transcripts.md](WORKFLOW-transcripts.md) — Phase E analytic passes  
+- [WORKFLOW-transcripts.md](WORKFLOW-transcripts.md) â€” Phase E analytic passes  
 - [work-civ-mem README](../../../docs/skill-work/work-civ-mem/README.md)  
 - [Civilization memory lane (north star)](../../../docs/lanes/civilization-memory.md)  
+

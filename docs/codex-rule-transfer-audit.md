@@ -1,4 +1,4 @@
-# Codex rule transfer audit
+﻿# Codex rule transfer audit
 
 **Status:** WORK documentation. Not Record. Not a merge path.
 
@@ -29,7 +29,7 @@ Short rule: in Codex, **`AGENTS.md` and instance doctrine carry the always-on lo
 These already transfer well, or should be treated as the main cross-host doctrine:
 
 - `AGENTS.md`
-- `users/grace-mar/instance-doctrine.md`
+- `instance-doctrine.md`
 - `docs/architecture.md`
 - `docs/skill-work/work-cadence/**`
 - `docs/skill-work/work-strategy/strategy-notebook/**` when that territory is active
@@ -121,9 +121,9 @@ Do not promote verbatim:
 
 **Sharper shortlist from this file:** only three items look worth promoting next as cross-host doctrine:
 
-1. **Territory entry discipline** — belongs in `AGENTS.md` because it applies across hosts and lanes.
-2. **Short prompts are intentional** — belongs in instance doctrine because it is a durable operator preference.
-3. **Message lanes (`PLAN`, `EXECUTE`, `DOCSYNC`, `EXECUTE_LOCAL`)** — now promoted as cross-host doctrine. The prefixes are host-neutral scope signals; detailed behavior should live in `docs/operator-agent-lanes.md`, not only in `.cursor` rules.
+1. **Territory entry discipline** â€” belongs in `AGENTS.md` because it applies across hosts and lanes.
+2. **Short prompts are intentional** â€” belongs in instance doctrine because it is a durable operator preference.
+3. **Message lanes (`PLAN`, `EXECUTE`, `DOCSYNC`, `EXECUTE_LOCAL`)** â€” now promoted as cross-host doctrine. The prefixes are host-neutral scope signals; detailed behavior should live in `docs/operator-agent-lanes.md`, not only in `.cursor` rules.
 
 ### `territory-awareness.mdc`
 
@@ -174,3 +174,4 @@ Until further promotion work is done:
 - Treat `.cursor/skills/*/SKILL.md` as invocation-bound protocols.
 - Treat `.cursor/rules/*.mdc` as advisory unless explicitly read.
 - When a `.mdc` rule matters across hosts, promote the invariant into repo-neutral doctrine rather than assuming host magic.
+

@@ -1,4 +1,4 @@
-# Research-to-evidence stubs (adapter)
+﻿# Research-to-evidence stubs (adapter)
 
 **Status:** WORK/runtime tooling only. This path does **not** browse the web, run MCP servers, or merge canonical Record content.
 
@@ -21,8 +21,8 @@ Each source needs a stable **`source_id`**, **`title`**, and **either `url` or `
 
 ## Output format
 
-- **Markdown stub** under [`artifacts/evidence-stubs/`](../../artifacts/evidence-stubs/) with YAML front matter and prominent lines: **PRE-CANONICAL · WORK ARTIFACT · NOT APPROVED RECORD**.
-- **MCP execution receipt** under [`artifacts/mcp-receipts/`](../../artifacts/mcp-receipts/) using capability **`evidence_stub_operator_template`** by default — see [`docs/mcp/mcp-execution-receipts.md`](mcp-execution-receipts.md).
+- **Markdown stub** under [`artifacts/evidence-stubs/`](../../artifacts/evidence-stubs/) with YAML front matter and prominent lines: **PRE-CANONICAL Â· WORK ARTIFACT Â· NOT APPROVED RECORD**.
+- **MCP execution receipt** under [`artifacts/mcp-receipts/`](../../artifacts/mcp-receipts/) using capability **`evidence_stub_operator_template`** by default â€” see [`docs/mcp/mcp-execution-receipts.md`](mcp-execution-receipts.md).
 
 ---
 
@@ -38,8 +38,8 @@ Every run emits a **validated** receipt (`schema_version` 1) tying **`resources_
 |-------|------|
 | Research JSON | Operator-structured capture; no Record truth. |
 | Evidence stub (this adapter) | Pre-canonical markdown under `artifacts/`; labeled non-canonical. |
-| Candidate proposal | Structured YAML/text for [`recursion-gate.md`](../../users/grace-mar/recursion-gate.md) — separate step. |
-| Approved Record evidence | After companion approval / merge scripts — **not** automatic from this tool. |
+| Candidate proposal | Structured YAML/text for [`recursion-gate.md`](../../recursion-gate.md) â€” separate step. |
+| Approved Record evidence | After companion approval / merge scripts â€” **not** automatic from this tool. |
 
 `record_action` and `suggested_gate_action` values are **routing hints** only (`create_candidate_only`, `stage_for_review`, etc.); they **do not** append to EVIDENCE or `self.md`.
 
@@ -47,7 +47,7 @@ Every run emits a **validated** receipt (`schema_version` 1) tying **`resources_
 
 ## Strategy-notebook / history-notebook
 
-This adapter **does not** edit [`strategy-notebook/`](../skill-work/work-strategy/strategy-notebook/) or “history notebook” spine files. Findings may be **pasted or promoted manually** into lane notebooks after operator review—same membrane as other WORK→Record flows.
+This adapter **does not** edit [`strategy-notebook/`](../skill-work/work-strategy/strategy-notebook/) or â€œhistory notebookâ€ spine files. Findings may be **pasted or promoted manually** into lane notebooks after operator reviewâ€”same membrane as other WORKâ†’Record flows.
 
 ---
 
@@ -58,3 +58,4 @@ python3 scripts/research_to_evidence_stub.py \
   --input examples/research-evidence-input.example.json \
   --output artifacts/evidence-stubs/my-topic.md
 ```
+

@@ -1,12 +1,12 @@
-# OpenClaw Integration Guide
+﻿# OpenClaw Integration Guide
 
-**One-loop operator checklist:** [skill-work/work-dev/INTEGRATION-PROGRAM.md](skill-work/work-dev/INTEGRATION-PROGRAM.md) — read order, export, stage-only, merge, script index. **Parallel branches:** [PARALLEL-MACRO-ACTIONS.md](skill-work/work-dev/PARALLEL-MACRO-ACTIONS.md), `python scripts/integration_macro_actions.py`.
+**One-loop operator checklist:** [skill-work/work-dev/INTEGRATION-PROGRAM.md](skill-work/work-dev/INTEGRATION-PROGRAM.md) â€” read order, export, stage-only, merge, script index. **Parallel branches:** [PARALLEL-MACRO-ACTIONS.md](skill-work/work-dev/PARALLEL-MACRO-ACTIONS.md), `python scripts/integration_macro_actions.py`.
 
 How to connect GRACE-MAR (cognitive fork / Record) with OpenClaw (personal agent workspace) so that:
 - The Record feeds OpenClaw's identity layer (who it serves)
 - Session continuity spans both systems
 - OpenClaw artifacts can feed the grace-mar pipeline
-- Staging automation stays gated — companion remains the approval gate
+- Staging automation stays gated â€” companion remains the approval gate
 
 ---
 
@@ -14,9 +14,9 @@ How to connect GRACE-MAR (cognitive fork / Record) with OpenClaw (personal agent
 
 | Use Case | What it does | Permission |
 |----------|--------------|------------|
-| **Record as identity source** | Export SELF → `users/<id>/openclaw-user.md` (this repo) or OpenClaw’s `user.md` / `SOUL.md` (their filenames; conceptually the companion **self** export) | Export script (read-only) |
+| **Record as identity source** | Export SELF â†’ `openclaw-user.md` (this repo) or OpenClawâ€™s `user.md` / `SOUL.md` (their filenames; conceptually the companion **self** export) | Export script (read-only) |
 | **Session continuity** | OpenClaw reads SESSION-LOG, RECURSION-GATE, EVIDENCE | Read-only |
-| **Artifacts as evidence** | OpenClaw outputs → "we did X" → pipeline | User invokes pipeline |
+| **Artifacts as evidence** | OpenClaw outputs â†’ "we did X" â†’ pipeline | User invokes pipeline |
 | **Staging automation** | OpenClaw skill/cron stages to RECURSION-GATE | Stage only, never merge |
 
 **Invariant:** The companion is always the gate. OpenClaw can stage; it cannot merge into the Record.
@@ -25,26 +25,26 @@ How to connect GRACE-MAR (cognitive fork / Record) with OpenClaw (personal agent
 
 ### Comprehension lock-in and portability
 
-Enterprise AI products increasingly aim to become the **system of record for organizational understanding** — synthesis across CRM, code, chat, and docs. That layer is hard to export; **comprehension lock-in** is switching cost from *understanding*, not just from data tables. Grace-Mar is the **companion-scale inverse**: the **Record** (git, human-approved merges) is canonical; **OpenClaw consumes exports** (USER.md, intent snapshot, PRP) — it does not own the fork. Refresh exports after pipeline merges so downstream workspaces stay aligned; if you ever leave OpenClaw, **SELF + EVIDENCE + PRP** remain. See [design-notes §2.5](design-notes.md#25-control-grid-vs-grace-mar--sovereignty-as-positioning), [implementable-insights §10](implementable-insights.md#10-comprehension-lock-in-vs-companion-owned-synthesis).
+Enterprise AI products increasingly aim to become the **system of record for organizational understanding** â€” synthesis across CRM, code, chat, and docs. That layer is hard to export; **comprehension lock-in** is switching cost from *understanding*, not just from data tables. Grace-Mar is the **companion-scale inverse**: the **Record** (git, human-approved merges) is canonical; **OpenClaw consumes exports** (USER.md, intent snapshot, PRP) â€” it does not own the fork. Refresh exports after pipeline merges so downstream workspaces stay aligned; if you ever leave OpenClaw, **SELF + EVIDENCE + PRP** remain. See [design-notes Â§2.5](design-notes.md#25-control-grid-vs-grace-mar--sovereignty-as-positioning), [implementable-insights Â§10](implementable-insights.md#10-comprehension-lock-in-vs-companion-owned-synthesis).
 
 ### Safety story (visible state)
 
-Users fear **silent failure** — changes that felt real in chat but never became canonical. Grace-Mar’s comfort layer is **inspectable state**: **pending vs approved** in RECURSION-GATE, **merge receipts**, **last ACT-** / session merge lines, pipeline **`staged` vs `applied`** — so **OpenClaw staging** is never mistaken for **Record merge**. Strategy: **audit continuity** is a primary story, not admin trivia. See [safety-story-ux.md](skill-work/work-dev/safety-story-ux.md).
+Users fear **silent failure** â€” changes that felt real in chat but never became canonical. Grace-Marâ€™s comfort layer is **inspectable state**: **pending vs approved** in RECURSION-GATE, **merge receipts**, **last ACT-** / session merge lines, pipeline **`staged` vs `applied`** â€” so **OpenClaw staging** is never mistaken for **Record merge**. Strategy: **audit continuity** is a primary story, not admin trivia. See [safety-story-ux.md](skill-work/work-dev/safety-story-ux.md).
 
 ---
 
 ## 1. Record as Identity Source
 
-**Naming:** **SELF** / **Record** = canonical content in **`self.md`** (gated). **`SOUL.md`** and **`user.md`** here mean **optional OpenClaw-side filenames** for a **derived** export — not a second canonical Record file. See [naming-convention.md — self.md vs OpenClaw filenames](naming-convention.md#do-not-confuse-selfmd-with-openclaw-soulmd-or-usermd).
+**Naming:** **SELF** / **Record** = canonical content in **`self.md`** (gated). **`SOUL.md`** and **`user.md`** here mean **optional OpenClaw-side filenames** for a **derived** export â€” not a second canonical Record file. See [naming-convention.md â€” self.md vs OpenClaw filenames](naming-convention.md#do-not-confuse-selfmd-with-openclaw-soulmd-or-usermd).
 
-The grace-mar Record (self.md + selected SKILLS) can populate OpenClaw's `user.md` or `SOUL.md` (OpenClaw naming) so the agent knows who it serves — i.e. the companion **self** / identity slice. **In this repository** the committed export path is **`users/grace-mar/openclaw-user.md`** (same content shape; copy or symlink into OpenClaw as `user.md` if needed). See [naming-convention.md](naming-convention.md).
+The grace-mar Record (self.md + selected SKILLS) can populate OpenClaw's `user.md` or `SOUL.md` (OpenClaw naming) so the agent knows who it serves â€” i.e. the companion **self** / identity slice. **In this repository** the committed export path is **`openclaw-user.md`** (same content shape; copy or symlink into OpenClaw as `user.md` if needed). See [naming-convention.md](naming-convention.md).
 
-OpenClaw practitioners often "tell OpenClaw everything" — mission, goals, context — by hand. Grace-Mar provides a **canonical, evidence-linked identity layer** instead: the Record is the single source of truth, gated by the companion, and grows only through approved merges. Export replaces ad hoc briefing with a structured profile.
+OpenClaw practitioners often "tell OpenClaw everything" â€” mission, goals, context â€” by hand. Grace-Mar provides a **canonical, evidence-linked identity layer** instead: the Record is the single source of truth, gated by the companion, and grows only through approved merges. Export replaces ad hoc briefing with a structured profile.
 
 ### Export Script
 
 ```bash
-python scripts/export_user_identity.py --user grace-mar -o users/grace-mar/openclaw-user.md
+python scripts/export_user_identity.py --user grace-mar -o openclaw-user.md
 python scripts/export_runtime_bundle.py --user grace-mar --mode adjunct_runtime -o ./runtime-bundle
 ```
 
@@ -97,7 +97,7 @@ If used, such memory belongs in the runtime bundle's `runtime/` lane and should 
 
 | Approach | When to use |
 |----------|-------------|
-| **Manual** | Run export to `users/grace-mar/openclaw-user.md` (or `-o` elsewhere) and sync into OpenClaw’s `user.md` when profile changes |
+| **Manual** | Run export to `openclaw-user.md` (or `-o` elsewhere) and sync into OpenClawâ€™s `user.md` when profile changes |
 | **Pre-session** | Run export as part of OpenClaw startup before agent runs |
 | **Cron** | Export on commit (e.g. post-merge hook) if workspace is shared |
 
@@ -131,7 +131,7 @@ Exception: the **runtime bundle** may include bounded continuity aids such as wa
 
 ### Trajectory export (optional RL / research)
 
-For **local** tooling that expects multi-turn JSONL (e.g. [OpenClaw-RL](https://github.com/Gen-Verse/OpenClaw-RL)-style pipelines), Grace-Mar provides a **read-only** exporter — it does **not** train models or merge into the Record.
+For **local** tooling that expects multi-turn JSONL (e.g. [OpenClaw-RL](https://github.com/Gen-Verse/OpenClaw-RL)-style pipelines), Grace-Mar provides a **read-only** exporter â€” it does **not** train models or merge into the Record.
 
 ```bash
 python scripts/export_conversation_trajectories.py -u grace-mar -o /tmp/traj.jsonl
@@ -145,28 +145,28 @@ Each line: `turn`, `role`, `channel`, `text`, `ts`, `user_id`, and optionally `p
 
 ## 2. Session Continuity (Startup Checklist)
 
-**Contract framing:** Continuity is **explicit steps** (read these paths and/or run these scripts); CI keeps the proof-of-read path healthy. It is **not** an implicit promise that “the agent remembers.” See [session-continuity-contract.md](skill-work/work-dev/session-continuity-contract.md) in work-dev.
+**Contract framing:** Continuity is **explicit steps** (read these paths and/or run these scripts); CI keeps the proof-of-read path healthy. It is **not** an implicit promise that â€œthe agent remembers.â€ See [session-continuity-contract.md](skill-work/work-dev/session-continuity-contract.md) in work-dev.
 
 When running in a shared workspace or OpenClaw session, read these grace-mar files **before** starting work:
 
 | File | Purpose |
 |------|---------|
-| `users/[id]/session-log.md` | Last session summary; what happened |
-| `users/[id]/recursion-gate.md` | Any staged candidates awaiting approval |
-| `users/[id]/self-evidence.md` (last 1–2 entries) | Recent context for activities |
+| `session-log.md` | Last session summary; what happened |
+| `recursion-gate.md` | Any staged candidates awaiting approval |
+| `self-evidence.md` (last 1â€“2 entries) | Recent context for activities |
 
 ### OpenClaw Startup Additions
 
 If OpenClaw has a startup checklist (e.g. `active-tasks.md`, `HEARTBEAT.md`), add:
 
 ```
-Grace-Mar continuity (if users/grace-mar exists):
+Grace-Mar continuity (if  exists):
 - [ ] Read last SESSION-LOG entry
-- [ ] Check RECURSION-GATE — any candidates to process?
-- [ ] Skim last 1–2 EVIDENCE entries
+- [ ] Check RECURSION-GATE â€” any candidates to process?
+- [ ] Skim last 1â€“2 EVIDENCE entries
 ```
 
-This checklist supports human-in-the-loop oversight — analogous to orchestration patterns (e.g. a "chief of staff" agent checking subordinates). The companion or operator stays aware of staged work and recent evidence before OpenClaw runs.
+This checklist supports human-in-the-loop oversight â€” analogous to orchestration patterns (e.g. a "chief of staff" agent checking subordinates). The companion or operator stays aware of staged work and recent evidence before OpenClaw runs.
 
 ### Proof-of-read (optional)
 
@@ -176,7 +176,7 @@ To **log** that the recommended files were read at session start (for audit or v
 python scripts/continuity_read_log.py -u grace-mar
 ```
 
-This appends one JSONL line to `users/[id]/continuity-log.jsonl` with timestamp, `user_id`, `files_read` (session-log.md, recursion-gate.md, self-evidence.md), and `missing` if any file was absent. It does not modify the Record. Add this to your OpenClaw startup script or run it manually before starting work. Use `--dry-run` to print the payload without writing. **CI:** `tests/test_continuity_read_log.py` runs `--dry-run` for `grace-mar` on every pytest pass (push/PR) so the script and continuity paths keep working.
+This appends one JSONL line to `continuity-log.jsonl` with timestamp, `user_id`, `files_read` (session-log.md, recursion-gate.md, self-evidence.md), and `missing` if any file was absent. It does not modify the Record. Add this to your OpenClaw startup script or run it manually before starting work. Use `--dry-run` to print the payload without writing. **CI:** `tests/test_continuity_read_log.py` runs `--dry-run` for `grace-mar` on every pytest pass (push/PR) so the script and continuity paths keep working.
 
 **Session wrapper (optional):** to log continuity and then start your OpenClaw command in one step:
 
@@ -206,7 +206,7 @@ python scripts/harness_warmup.py -u grace-mar
 python scripts/harness_warmup.py -u grace-mar --tail 8
 ```
 
-Paste the markdown block into the **first message** of the session. Output includes: **pending RECURSION-GATE** candidates (IDs + summaries; scans full gate file), **last ACT-*** from EVIDENCE (date + summary), **session-log tail** (narrative lines only — skips embedded ` ``` ` YAML blocks). `--compact` = one paragraph. See script docstring for full behavior.
+Paste the markdown block into the **first message** of the session. Output includes: **pending RECURSION-GATE** candidates (IDs + summaries; scans full gate file), **last ACT-*** from EVIDENCE (date + summary), **session-log tail** (narrative lines only â€” skips embedded ` ``` ` YAML blocks). `--compact` = one paragraph. See script docstring for full behavior.
 
 If a runtime memory plugin is also active, treat it as an **adjunct continuity aid**, not as a substitute for the warmup or the canonical files on disk.
 
@@ -218,7 +218,7 @@ For OpenClaw sessions running longer than a few hours, run a **heartbeat** perio
 python scripts/openclaw_heartbeat.py -u grace-mar
 ```
 
-Output: pending candidate count, last evidence date, last session. Add to OpenClaw cron or run manually every 2–4 hours. Keeps the human gate relevant during long autonomous runs.
+Output: pending candidate count, last evidence date, last session. Add to OpenClaw cron or run manually every 2â€“4 hours. Keeps the human gate relevant during long autonomous runs.
 
 ### Workspace Layout
 
@@ -227,18 +227,18 @@ Two patterns:
 **A. grace-mar as subdir of OpenClaw**
 ```
 openclaw/
-├── user.md           # ← populated from grace-mar export
-├── active-tasks.md
-├── memory/
-└── grace-mar/        # ← symlink or copy of grace-mar repo
-    └── users/grace-mar/
+â”œâ”€â”€ user.md           # â† populated from grace-mar export
+â”œâ”€â”€ active-tasks.md
+â”œâ”€â”€ memory/
+â””â”€â”€ grace-mar/        # â† symlink or copy of grace-mar repo
+    â””â”€â”€ 
 ```
 
 **B. OpenClaw and grace-mar sibling repos**
 ```
 workspace/
-├── openclaw/
-└── grace-mar/
+â”œâ”€â”€ openclaw/
+â””â”€â”€ grace-mar/
 ```
 Export script path: `../grace-mar/scripts/export_user_identity.py`
 
@@ -246,8 +246,8 @@ Export script path: `../grace-mar/scripts/export_user_identity.py`
 
 | Topology | Grace-Mar | OpenClaw | Notes |
 |----------|-----------|----------|-------|
-| **Local–local** | On companion/operator machine | Same machine or sibling dir | Preferred. Export and handback run locally; provenance and security are simplest. |
-| **Local–VPS** | Local | OpenClaw on cloud/VPS | Export can be pulled by remote agent. Handback from VPS to Grace-Mar requires provenance metadata (`source: openclaw`) and raises trust/security questions — document the handback path and avoid staging untrusted content. |
+| **Localâ€“local** | On companion/operator machine | Same machine or sibling dir | Preferred. Export and handback run locally; provenance and security are simplest. |
+| **Localâ€“VPS** | Local | OpenClaw on cloud/VPS | Export can be pulled by remote agent. Handback from VPS to Grace-Mar requires provenance metadata (`source: openclaw`) and raises trust/security questions â€” document the handback path and avoid staging untrusted content. |
 
 When OpenClaw runs on a VPS, keys and agent state live in the cloud; injection and hijack risks are higher than on fresh local hardware. Prefer local-to-local when possible.
 
@@ -270,7 +270,7 @@ OpenClaw-produced artifacts (writing, drawings, summaries) can feed the grace-ma
 If OpenClaw writes to `outputs/` or `memory/`, you can reference:
 
 ```
-"we wrote a story — it's in openclaw/outputs/volcano-story.md"
+"we wrote a story â€” it's in openclaw/outputs/volcano-story.md"
 ```
 
 The pipeline treats this like any other "we did X" + artifact. The operator loads the file and runs analyst logic.
@@ -295,7 +295,7 @@ Inbound payloads also run an advisory constitutional check against `INTENT.md` a
 
 ### Handback shape and anchoring
 
-Unstructured opinion in the same payload as facts can **anchor** downstream behavior (e.g. “human says low risk” alongside material that should gate high). Prefer **structured fields** for classification, risk, and artifact references; put narrative opinion in a **separate labeled block** the operator can down-weight. See [work-dev agent reliability playbook](skill-work/work-dev/agent-reliability-playbook.md) and [variation-types.md](skill-work/work-dev/variation-types.md). No automated reasoning-vs-action check exists yet ([BUILD-AI-GAP-006](skill-work/work-dev/known-gaps.md)).
+Unstructured opinion in the same payload as facts can **anchor** downstream behavior (e.g. â€œhuman says low riskâ€ alongside material that should gate high). Prefer **structured fields** for classification, risk, and artifact references; put narrative opinion in a **separate labeled block** the operator can down-weight. See [work-dev agent reliability playbook](skill-work/work-dev/agent-reliability-playbook.md) and [variation-types.md](skill-work/work-dev/variation-types.md). No automated reasoning-vs-action check exists yet ([BUILD-AI-GAP-006](skill-work/work-dev/known-gaps.md)).
 
 ### Debate packet workflow (Phase C)
 
@@ -332,7 +332,7 @@ An OpenClaw skill or cron job can run signal detection and **stage** candidates 
 
 ### RECURSION-GATE Candidate Format
 
-Each candidate uses this structure (see `users/grace-mar/recursion-gate.md`):
+Each candidate uses this structure (see `recursion-gate.md`):
 
 ```yaml
 status: pending
@@ -362,18 +362,18 @@ Signal detection follows the same logic as `bot/prompt.py` ANALYST_PROMPT:
 
 | Action | Agent | User |
 |--------|-------|------|
-| Export Record → `openclaw-user.md` / OpenClaw `user.md` | ✅ (read + transform) | — |
-| Read SESSION-LOG, RECURSION-GATE, EVIDENCE | ✅ | ✅ |
-| Stage candidates to RECURSION-GATE | ✅ | ✅ |
-| Approve/reject candidates | ❌ | ✅ |
-| Merge into SELF, EVIDENCE, prompt | ❌ | ✅ |
-| Invoke "we did X" pipeline | — | ✅ (operator assists) |
+| Export Record â†’ `openclaw-user.md` / OpenClaw `user.md` | âœ… (read + transform) | â€” |
+| Read SESSION-LOG, RECURSION-GATE, EVIDENCE | âœ… | âœ… |
+| Stage candidates to RECURSION-GATE | âœ… | âœ… |
+| Approve/reject candidates | âŒ | âœ… |
+| Merge into SELF, EVIDENCE, prompt | âŒ | âœ… |
+| Invoke "we did X" pipeline | â€” | âœ… (operator assists) |
 
 ### 5.5 Security Considerations
 
-- **Third-party OpenClaw skills** — Community skills and plugins are a major attack surface. Prefer Grace-Mar's native tooling (`openclaw_hook`, `openclaw_stage`) over third-party Record-sync skills. If you use a skill for staging, audit it; better: point OpenClaw at the behavior and have it build its own version.
-- **Injection and hijack** — OpenClaw agents can be targeted (e.g. malicious sites, prompt injection). Inbound handback runs an advisory constitutional check before staging. Never auto-merge from OpenClaw; the companion gate is the defense.
-- **Local preferred** — Running OpenClaw locally (e.g. Mac Mini, Mac Studio) is generally more secure than on a VPS. See [Deployment topology](#deployment-topology-local-vs-vps) above.
+- **Third-party OpenClaw skills** â€” Community skills and plugins are a major attack surface. Prefer Grace-Mar's native tooling (`openclaw_hook`, `openclaw_stage`) over third-party Record-sync skills. If you use a skill for staging, audit it; better: point OpenClaw at the behavior and have it build its own version.
+- **Injection and hijack** â€” OpenClaw agents can be targeted (e.g. malicious sites, prompt injection). Inbound handback runs an advisory constitutional check before staging. Never auto-merge from OpenClaw; the companion gate is the defense.
+- **Local preferred** â€” Running OpenClaw locally (e.g. Mac Mini, Mac Studio) is generally more secure than on a VPS. See [Deployment topology](#deployment-topology-local-vs-vps) above.
 
 ---
 
@@ -381,20 +381,20 @@ Signal detection follows the same logic as `bot/prompt.py` ANALYST_PROMPT:
 
 **Export identity:**
 ```bash
-python scripts/export_user_identity.py --user grace-mar -o users/grace-mar/openclaw-user.md
+python scripts/export_user_identity.py --user grace-mar -o openclaw-user.md
 python scripts/export_user_identity.py --user grace-mar -o openclaw/user.md
 python integrations/openclaw_hook.py --user grace-mar --format md+manifest --emit-event
 python scripts/export_runtime_bundle.py --user grace-mar --mode adjunct_runtime -o openclaw/runtime-bundle
 ```
 
 **Session continuity (read first):**
-- `users/grace-mar/session-log.md`
-- `users/grace-mar/recursion-gate.md`
-- `users/grace-mar/self-evidence.md` (last entries)
+- `session-log.md`
+- `recursion-gate.md`
+- `self-evidence.md` (last entries)
 
 **Pipeline invocation:**
 - User: "we [did X]" [+ optional artifact path]
-- Operator: Run signal detection → stage → companion approves → merge
+- Operator: Run signal detection â†’ stage â†’ companion approves â†’ merge
 
 **Operator bot command:**
 - `/openclaw_export [format] [output_dir]`
@@ -421,11 +421,12 @@ python scripts/export_fork.py -u grace-mar -o handoff-fork.json
 
 ## Research
 
-- [work-dev/research-moonshots-237.md](skill-work/work-dev/research-moonshots-237.md) — Moonshots #237 (Alex Finn): identity, memory, security, hierarchy.
-- [work-dev/research-no-priors-karpathy-end-of-coding.md](skill-work/work-dev/research-no-priors-karpathy-end-of-coding.md) — Karpathy / No Priors: agents, claws, auto-research.
-- [work-dev/research-agent-readable-writable-commerce.md](skill-work/work-dev/research-agent-readable-writable-commerce.md) — Agent-readable / agent-writable commerce stack (McKinsey-class discourse; positioning only).
+- [work-dev/research-moonshots-237.md](skill-work/work-dev/research-moonshots-237.md) â€” Moonshots #237 (Alex Finn): identity, memory, security, hierarchy.
+- [work-dev/research-no-priors-karpathy-end-of-coding.md](skill-work/work-dev/research-no-priors-karpathy-end-of-coding.md) â€” Karpathy / No Priors: agents, claws, auto-research.
+- [work-dev/research-agent-readable-writable-commerce.md](skill-work/work-dev/research-agent-readable-writable-commerce.md) â€” Agent-readable / agent-writable commerce stack (McKinsey-class discourse; positioning only).
 
 ---
 
 *Document version: 1.0*
 *Last updated: February 2026*
+

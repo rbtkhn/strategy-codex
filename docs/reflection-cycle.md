@@ -1,6 +1,6 @@
-# Reflection & Proposal Cycle
+﻿# Reflection & Proposal Cycle
 
-Operator tool: [`scripts/reflection_cycle.py`](../scripts/reflection_cycle.py) (also `grace-mar reflect …`). It **reads** existing fork files (session transcript, pipeline events, merge receipts, gate processed section, self-evidence, etc.), optionally calls an LLM to propose **evidence-grounded** `CANDIDATE-####` blocks, writes artifacts under `users/<id>/reflection-proposals/`, and **optionally** appends pending candidates to [`recursion-gate.md`](../users/grace-mar/recursion-gate.md).
+Operator tool: [`scripts/reflection_cycle.py`](../scripts/reflection_cycle.py) (also `grace-mar reflect â€¦`). It **reads** existing fork files (session transcript, pipeline events, merge receipts, gate processed section, self-evidence, etc.), optionally calls an LLM to propose **evidence-grounded** `CANDIDATE-####` blocks, writes artifacts under `reflection-proposals/`, and **optionally** appends pending candidates to [`recursion-gate.md`](../recursion-gate.md).
 
 ## Setup
 
@@ -41,14 +41,15 @@ Use `--append-all` for up to five proposals (default append count is three). Use
 
 ## Review surfaces
 
-- **Static HTML:** `python scripts/generate_gate_dashboard.py -u grace-mar` — use the **Reflection** filter for `signal_type: reflection-cycle`.
-- **Flask:** [`apps/gate-review-app.py`](../apps/gate-review-app.py) — `/?signal=reflection` shows reflection candidates only.
+- **Static HTML:** `python scripts/generate_gate_dashboard.py -u grace-mar` â€” use the **Reflection** filter for `signal_type: reflection-cycle`.
+- **Flask:** [`apps/gate-review-app.py`](../apps/gate-review-app.py) â€” `/?signal=reflection` shows reflection candidates only.
 
 ## Pipeline events
 
-Non–dry-run with `--append` emits `reflection_cycle_run` in `pipeline-events.jsonl` (candidate id `none`, merge payload includes `reflection_cycle_id` and `proposals_created`).
+Nonâ€“dry-run with `--append` emits `reflection_cycle_run` in `pipeline-events.jsonl` (candidate id `none`, merge payload includes `reflection_cycle_id` and `proposals_created`).
 
 ## Safety
 
 - `--dry-run` writes `reflection-proposals/REFLECT-*.md` and updates `index.md` only; no gate append, no events.
 - High-risk proposals are rate-limited (see [`src/grace_mar/reflection/rate_limit.py`](../src/grace_mar/reflection/rate_limit.py)); use `--force` only when you accept bypassing caps.
+

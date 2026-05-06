@@ -84,7 +84,7 @@ Each feature set is a package: schema, scripts, documentation, tests, and manife
 - `template-manifest.json` sections: `seed_phase`, `change_review`, `record_diff_queue`, `seed_registry`, `layer_architecture`
 - Each section declares its entrypoint, schemas, scripts, config, and docs
 - Instance-specific additions (e.g. `seed_to_gate.py` in grace-mar) are separate from template-portable packages
-- Demo data (`users/demo/`) provides working examples for each package
+- Demo data (`demo/`) provides working examples for each package
 
 **Test:** When adding a new feature, does it register in `template-manifest.json` as a named section? If it's scattered across files with no manifest entry, it's not yet a package.
 

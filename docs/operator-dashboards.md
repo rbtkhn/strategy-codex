@@ -1,10 +1,10 @@
-# Operator dashboards (derived Markdown)
+﻿# Operator dashboards (derived Markdown)
 
-Grace-Mar can emit **compact, regeneratable Markdown “dashboards”** for operator navigation. They borrow the *visibility* idea from Dataview-style vault tools without making the repo an Obsidian-style truth system.
+Grace-Mar can emit **compact, regeneratable Markdown â€œdashboardsâ€** for operator navigation. They borrow the *visibility* idea from Dataview-style vault tools without making the repo an Obsidian-style truth system.
 
 ## Dashboard anti-sprawl rule
 
-Prefer **extending** an existing dashboard, **adding a registry entry**, or **adding a report, receipt, packet, or machine feed** before adding a **new** dashboard. Any new operator dashboard must be **registered** in [operator-surface-registry.md](operator-surface-registry.md) with **authority status**, **source inputs**, **operator use**, and **relationship** to existing surfaces (see §5–7 there). The full policy and preferred alternatives live in that file—not duplicated here.
+Prefer **extending** an existing dashboard, **adding a registry entry**, or **adding a report, receipt, packet, or machine feed** before adding a **new** dashboard. Any new operator dashboard must be **registered** in [operator-surface-registry.md](operator-surface-registry.md) with **authority status**, **source inputs**, **operator use**, and **relationship** to existing surfaces (see Â§5â€“7 there). The full policy and preferred alternatives live in that fileâ€”not duplicated here.
 
 Dashboards are a **stable scripted subclass** of the [Interface Artifact Protocol](skill-work/work-dev/interface-artifacts/README.md): generated operator-facing views that remain **derived** and **non-canonical** even when they become reliable enough to script and regenerate routinely.
 
@@ -15,16 +15,16 @@ Dashboards are **derived views** and can become **stale** when **source inputs**
 ## What these are
 
 - **Derived artifacts** under [`artifacts/`](../artifacts/README.md), produced by scripts:
-  - `python3 scripts/build_library_index.py` → [`artifacts/library-index.md`](../artifacts/library-index.md)
-  - `python3 scripts/build_lane_dashboards.py` → [`artifacts/lane-dashboards/README.md`](../artifacts/lane-dashboards/README.md) (optionally after `python3 scripts/build_work_lanes_dashboard.py` for JSON inputs)
-  - `python3 scripts/build_review_dashboard.py` → [`artifacts/review-dashboard.md`](../artifacts/review-dashboard.md)
-  - `python3 scripts/build_gate_board.py` → [`artifacts/gate-board.md`](../artifacts/gate-board.md) (Kanban-style; see [gate-board.md](gate-board.md))
+  - `python3 scripts/build_library_index.py` â†’ [`artifacts/library-index.md`](../artifacts/library-index.md)
+  - `python3 scripts/build_lane_dashboards.py` â†’ [`artifacts/lane-dashboards/README.md`](../artifacts/lane-dashboards/README.md) (optionally after `python3 scripts/build_work_lanes_dashboard.py` for JSON inputs)
+  - `python3 scripts/build_review_dashboard.py` â†’ [`artifacts/review-dashboard.md`](../artifacts/review-dashboard.md)
+  - `python3 scripts/build_gate_board.py` â†’ [`artifacts/gate-board.md`](../artifacts/gate-board.md) (Kanban-style; see [gate-board.md](gate-board.md))
 
 ## What they are not
 
 - **Not** canonical Record surfaces (not SELF, SELF-LIBRARY, SKILLS, or EVIDENCE).
-- **Not** a replacement for [`users/grace-mar/recursion-gate.md`](../users/grace-mar/recursion-gate.md) or structured review-queue JSON — they **summarize** and **link**, they do not hold merge authority.
-- **Not** runtime truth — [`runtime/observations/`](../runtime/observations/README.md) remains non-canonical; dashboards may quote it as **hints** only.
+- **Not** a replacement for [`recursion-gate.md`](../recursion-gate.md) or structured review-queue JSON â€” they **summarize** and **link**, they do not hold merge authority.
+- **Not** runtime truth â€” [`runtime/observations/`](../runtime/observations/README.md) remains non-canonical; dashboards may quote it as **hints** only.
 
 ## How to regenerate
 
@@ -50,12 +50,13 @@ Covered dashboard outputs also gain sibling rebuild-provenance sidecars such as
 `artifacts/review-dashboard.md.derived-rationale.json`. Those sidecars are derived metadata only;
 they do not add authority beyond the dashboard itself.
 
-**CI:** On push and pull requests to `main`, [`.github/workflows/library-index.yml`](../.github/workflows/library-index.yml) runs `build_library_index.py` and fails if `artifacts/library-index.md` is out of date — regenerate locally and commit with `self-library.md` changes.
+**CI:** On push and pull requests to `main`, [`.github/workflows/library-index.yml`](../.github/workflows/library-index.yml) runs `build_library_index.py` and fails if `artifacts/library-index.md` is out of date â€” regenerate locally and commit with `self-library.md` changes.
 
 ## Design notes
 
-- **Library index** parses the `entries:` YAML block in `users/<id>/self-library.md` (first `## Entries` fence); emitted Markdown is **dashboard-ordered** (summary → Start here → recent → compact lanes → appendix full inventory).
-- **Review dashboard** uses [`scripts/gate_block_parser.py`](../scripts/gate_block_parser.py) for fenced `### CANDIDATE-*` blocks; pending rows are any block with `status: pending` (even if misplaced relative to `## Processed` — fix the gate file when possible).
+- **Library index** parses the `entries:` YAML block in `self-library.md` (first `## Entries` fence); emitted Markdown is **dashboard-ordered** (summary â†’ Start here â†’ recent â†’ compact lanes â†’ appendix full inventory).
+- **Review dashboard** uses [`scripts/gate_block_parser.py`](../scripts/gate_block_parser.py) for fenced `### CANDIDATE-*` blocks; pending rows are any block with `status: pending` (even if misplaced relative to `## Processed` â€” fix the gate file when possible).
 - **Lane dashboards** aggregate `runtime/observations/index.jsonl` (when present) and embed or reference `artifacts/work-lanes-dashboard.json`.
 
 See also: [runtime vs Record](runtime-vs-record.md), [claude-surface-contract.md](claude-surface-contract.md) (invocation / mutation language).
+

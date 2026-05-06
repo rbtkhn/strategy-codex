@@ -1,4 +1,4 @@
-# GRACE-MAR Architecture
+﻿# GRACE-MAR Architecture
 
 **Governed by**: [GRACE-MAR-CORE v2.0](grace-mar-core.md)
 
@@ -12,50 +12,50 @@ Terminology primer: see [glossary.md](glossary.md) for canonical definitions of 
 
 ## Guarantees at a glance
 
-Skimmable summary. **Authoritative rules:** [AGENTS.md](../AGENTS.md), [instance doctrine](../users/grace-mar/instance-doctrine.md). **Tooling nuance (reliable vs adversarial):** [trust-layers.md](trust-layers.md).
+Skimmable summary. **Authoritative rules:** [AGENTS.md](../AGENTS.md), [instance doctrine](../instance-doctrine.md). **Tooling nuance (reliable vs adversarial):** [trust-layers.md](trust-layers.md).
 
-| By design we aim for… | We do **not** claim… |
+| By design we aim forâ€¦ | We do **not** claimâ€¦ |
 |------------------------|----------------------|
-| **Gated Record** — stage → companion approval → merge script; **git** as audit trail. | That **operator tools** (browser automation, MCP, pasted URLs) **cryptographically prove** what ran on an untrusted host. |
+| **Gated Record** â€” stage â†’ companion approval â†’ merge script; **git** as audit trail. | That **operator tools** (browser automation, MCP, pasted URLs) **cryptographically prove** what ran on an untrusted host. |
 | **Voice** speaks from documented Record; abstention or lookup outside boundary ([knowledge-boundary-framework.md](knowledge-boundary-framework.md)). | That **session-only** or vendor harness context equals **canonical SELF** without the pipeline. |
-| **No** sneaking undocumentable LLM facts into the profile ([AGENTS.md](../AGENTS.md)). | **Flawless** uptime of every integration — **reliability** failures are not the same as **security** guarantees. |
+| **No** sneaking undocumentable LLM facts into the profile ([AGENTS.md](../AGENTS.md)). | **Flawless** uptime of every integration â€” **reliability** failures are not the same as **security** guarantees. |
 
 ---
 
 ## Core Principle
 
-The cognitive fork records **identity** (**SELF** + **SELF-KNOWLEDGE**), **reference** (**SELF-LIBRARY**, including **CIV-MEM**), **capability** (**SKILLS**), and **evidence** — as structured, evidence-grounded data. Identity and library are **different surfaces**: domain corpora belong in SELF-LIBRARY, not in IX-A. See [boundary-self-knowledge-self-library.md](boundary-self-knowledge-self-library.md).
+The cognitive fork records **identity** (**SELF** + **SELF-KNOWLEDGE**), **reference** (**SELF-LIBRARY**, including **CIV-MEM**), **capability** (**SKILLS**), and **evidence** â€” as structured, evidence-grounded data. Identity and library are **different surfaces**: domain corpora belong in SELF-LIBRARY, not in IX-A. See [boundary-self-knowledge-self-library.md](boundary-self-knowledge-self-library.md).
 
 ```
-┌────────────────────────────────────────────────────────────────────────────┐
-│                           COGNITIVE FORK                                     │
-├──────────────────┬────────────────────┬────────────────────────────────────┤
-│      SELF        │      SKILLS        │        SELF-LIBRARY                 │
-│  identity +      │  what the Record   │  governed reference (not identity)  │
-│  SELF-KNOWLEDGE  │  can evidence      │  · return-to sources                │
-│  (IX-A/B/C)      │  they CAN DO       │  · CIV-MEM subdomain → CMC lookup   │
-├──────────────────┴────────────────────┴────────────────────────────────────┤
-│  EVIDENCE — READ/WRITE/CREATE/ACT logs (provenance, immutable where set)   │
-└────────────────────────────────────────────────────────────────────────────┘
+â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+â”‚                           COGNITIVE FORK                                     â”‚
+â”œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¬â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¬â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¤
+â”‚      SELF        â”‚      SKILLS        â”‚        SELF-LIBRARY                 â”‚
+â”‚  identity +      â”‚  what the Record   â”‚  governed reference (not identity)  â”‚
+â”‚  SELF-KNOWLEDGE  â”‚  can evidence      â”‚  Â· return-to sources                â”‚
+â”‚  (IX-A/B/C)      â”‚  they CAN DO       â”‚  Â· CIV-MEM subdomain â†’ CMC lookup   â”‚
+â”œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”´â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”´â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¤
+â”‚  EVIDENCE â€” READ/WRITE/CREATE/ACT logs (provenance, immutable where set)   â”‚
+â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
 ```
 
 ---
 
 ## State governance: proposed, interface, and canonical
 
-Companion-self–style instances are **state-governance architectures** for identity-bearing systems: they preserve a clear distinction between **draft or proposed material**, **interface-visible behavior**, and **canonical durable state**. The decisive act is not storage, retrieval, or synthesis alone—it is **legitimate incorporation** into the Record.
+Companion-selfâ€“style instances are **state-governance architectures** for identity-bearing systems: they preserve a clear distinction between **draft or proposed material**, **interface-visible behavior**, and **canonical durable state**. The decisive act is not storage, retrieval, or synthesis aloneâ€”it is **legitimate incorporation** into the Record.
 
 **Three layers**
 
 | Layer | Role | Examples |
 |-------|------|----------|
-| **Proposed** | Drafts, harvested outputs, staged candidates—not yet canonical | `recursion-gate.md` pending blocks, operator drafts, imports staged for review |
-| **Interface-visible** | How the companion experiences the system—constrained by prompt, policy, and harness | Voice (Telegram), PRP / runtime surfaces, query-time rendering |
+| **Proposed** | Drafts, harvested outputs, staged candidatesâ€”not yet canonical | `recursion-gate.md` pending blocks, operator drafts, imports staged for review |
+| **Interface-visible** | How the companion experiences the systemâ€”constrained by prompt, policy, and harness | Voice (Telegram), PRP / runtime surfaces, query-time rendering |
 | **Canonical durable** | Approved, auditable self and evidence | `self.md`, `self-skills.md`, `self-archive.md` (EVIDENCE), merged `bot/prompt.py` obligations |
 
-**Merge contract.** Only the **companion** (or the governed pipeline acting on explicit companion approval) may satisfy the contract that moves content from proposed into canonical state. See [AGENTS.md](../AGENTS.md) § Gated Pipeline — agents **stage**; they do not **merge** into SELF, EVIDENCE, or prompt without approval.
+**Merge contract.** Only the **companion** (or the governed pipeline acting on explicit companion approval) may satisfy the contract that moves content from proposed into canonical state. See [AGENTS.md](../AGENTS.md) Â§ Gated Pipeline â€” agents **stage**; they do not **merge** into SELF, EVIDENCE, or prompt without approval.
 
-**Voice as interface.** The Voice is **not** identical with selfhood: it is an **interface** over governed state plus permitted runtime reasoning. Inside the documented boundary it should be fast and useful; outside it should abstain rather than invent authority—see [knowledge-boundary-framework.md](knowledge-boundary-framework.md).
+**Voice as interface.** The Voice is **not** identical with selfhood: it is an **interface** over governed state plus permitted runtime reasoning. Inside the documented boundary it should be fast and useful; outside it should abstain rather than invent authorityâ€”see [knowledge-boundary-framework.md](knowledge-boundary-framework.md).
 
 **Anti-patterns** (how forks lose auditability when it matters most):
 
@@ -64,7 +64,7 @@ Companion-self–style instances are **state-governance architectures** for iden
 - One-off exceptions that bypass review
 - Treating runtime shortcuts or session fluency as equivalent to governed change
 
-**Method — add one boundary at a time:** (1) staging boundaries so drafts do not pretend to be canonical; (2) approval boundaries so incorporation requires an explicit contract; (3) integrity boundaries (exports, provenance, drift checks); (4) interface boundaries so the Voice stays scoped. Deeper identity-oriented capabilities belong **after** these layers exist.
+**Method â€” add one boundary at a time:** (1) staging boundaries so drafts do not pretend to be canonical; (2) approval boundaries so incorporation requires an explicit contract; (3) integrity boundaries (exports, provenance, drift checks); (4) interface boundaries so the Voice stays scoped. Deeper identity-oriented capabilities belong **after** these layers exist.
 
 > Draft is not state; retrieval is not authorization; synthesis is not incorporation; fluency is not grounding; convenience is not governance.
 
@@ -74,7 +74,7 @@ Companion-self–style instances are **state-governance architectures** for iden
 
 **Voice = model + harness.** What the companion experiences as the Voice is the underlying model plus prompt, pipeline, tools, and approval gate. Improvements to prompt, pipeline, or tooling are first-class; the model is one component. When debugging behavior, consider: model limit, prompt gap, pipeline miss, or tool/context issue. See [IMPLEMENTABLE-INSIGHTS](implementable-insights.md).
 
-**Harness lock-in (industry).** Coding and knowledge-work agents diverge less on raw model scores than on **harness**: where state lives, tool integration, session memory, trust boundary (local shell vs isolated sandbox). Teams compound workflows, skills, and verification **around** a harness; switching harnesses resets process — not just “another model.” Grace-Mar’s harness choice is **git + gated pipeline + small auditable core**: institutional memory lives in **approved Record artifacts**, not in a vendor’s session-only context; see [IMPLEMENTABLE-INSIGHTS §11](implementable-insights.md#11-harness-lock-in-and-compound-workflows). Major agent stacks converge on **decompose → parallelize → verify → iterate**; Grace-Mar maps **verify** to companion approval and **iterate** to pipeline + git history; see [design-notes §11.11](design-notes.md#1111-harness-convergence--decompose-parallelize-verify-iterate). **Component / write inventory:** [harness-inventory.md](harness-inventory.md).
+**Harness lock-in (industry).** Coding and knowledge-work agents diverge less on raw model scores than on **harness**: where state lives, tool integration, session memory, trust boundary (local shell vs isolated sandbox). Teams compound workflows, skills, and verification **around** a harness; switching harnesses resets process â€” not just â€œanother model.â€ Grace-Marâ€™s harness choice is **git + gated pipeline + small auditable core**: institutional memory lives in **approved Record artifacts**, not in a vendorâ€™s session-only context; see [IMPLEMENTABLE-INSIGHTS Â§11](implementable-insights.md#11-harness-lock-in-and-compound-workflows). Major agent stacks converge on **decompose â†’ parallelize â†’ verify â†’ iterate**; Grace-Mar maps **verify** to companion approval and **iterate** to pipeline + git history; see [design-notes Â§11.11](design-notes.md#1111-harness-convergence--decompose-parallelize-verify-iterate). **Component / write inventory:** [harness-inventory.md](harness-inventory.md).
 
 **Explicit non-goals.** Grace-Mar does not:
 - Merge into the Record without companion approval (stage only; companion merges).
@@ -99,9 +99,9 @@ Grace-Mar's harness is portable because it separates **canonical truth** from **
 
 The runtime lane is portable, but it is **not** Record truth. A downstream runtime may consume `self-memory.md` (or legacy `memory.md`) or a warmup block for continuity, yet only the Record lane defines who Grace-Mar is. This keeps runtime swaps possible without making any one harness the owner of memory.
 
-**Context Efficiency Layer (operator).** How much context to assemble for sessions and scripts—tiers (hot / warm / cold), provenance-linked compaction, and tunable budgets—is documented under [skill-work/context-efficiency-layer.md](skill-work/context-efficiency-layer.md) with [skill-work/context-compaction-protocol.md](skill-work/context-compaction-protocol.md). **JSON budgets** live in [`config/context_budgets/`](../config/context_budgets/README.md). **Derived helpers** include [skill cards](skills/skill-card-spec.md) (`build_skill_cards.py`) and [active lane compression](skill-work/active-lane-compression.md) (`compress_active_lane.py`); see [runtime vs Record](runtime-vs-record.md). It complements the harness: `session_brief.py` supports `--minimal`, `--compact`, and optional `--active-lane` with recovery paths; it does **not** change what counts as canonical Record or bypass the gate.
+**Context Efficiency Layer (operator).** How much context to assemble for sessions and scriptsâ€”tiers (hot / warm / cold), provenance-linked compaction, and tunable budgetsâ€”is documented under [skill-work/context-efficiency-layer.md](skill-work/context-efficiency-layer.md) with [skill-work/context-compaction-protocol.md](skill-work/context-compaction-protocol.md). **JSON budgets** live in [`config/context_budgets/`](../config/context_budgets/README.md). **Derived helpers** include [skill cards](skills/skill-card-spec.md) (`build_skill_cards.py`) and [active lane compression](skill-work/active-lane-compression.md) (`compress_active_lane.py`); see [runtime vs Record](runtime-vs-record.md). It complements the harness: `session_brief.py` supports `--minimal`, `--compact`, and optional `--active-lane` with recovery paths; it does **not** change what counts as canonical Record or bypass the gate.
 
-**Profile root vs `runtime-bundle/`.** For a live instance, audit and runtime files under `users/<id>/` are canonical. A **`runtime-bundle/`** subtree may mirror the same names (e.g. `runtime-bundle/audit/pipeline-events.jsonl`) for portable export. Loaders that synthesize replay views should prefer the profile root and fall back to the bundle when a root file is missing or empty, so snapshots are not double-counted.
+**Profile root vs `runtime-bundle/`.** For a live instance, audit and runtime files under `` are canonical. A **`runtime-bundle/`** subtree may mirror the same names (e.g. `runtime-bundle/audit/pipeline-events.jsonl`) for portable export. Loaders that synthesize replay views should prefer the profile root and fall back to the bundle when a root file is missing or empty, so snapshots are not double-counted.
 
 ### Runtime modes
 
@@ -123,28 +123,28 @@ The fork follows a lifecycle analogous to a software fork:
 
 ```
 SEED (Initial Fork)
-  │  Capture snapshot: identity, personality, preferences,
-  │  baselines, initial artifacts
-  │
-  ▼
+  â”‚  Capture snapshot: identity, personality, preferences,
+  â”‚  baselines, initial artifacts
+  â”‚
+  â–¼
 INTERACT (Growth Through Use)
-  │  Each session = a commit
-  │  Writing, reading, creating, answering → recorded
-  │  Containers fill, edges advance, SELF evolves
-  │
-  ▼
+  â”‚  Each session = a commit
+  â”‚  Writing, reading, creating, answering â†’ recorded
+  â”‚  Containers fill, edges advance, SELF evolves
+  â”‚
+  â–¼
 DIVERGE (Fork Develops Its Own History)
-  │  Real person grows in the real world
-  │  Fork grows through its interactions
-  │  They may drift apart — by design
-  │
-  ▼
-MERGE (Optional — Bring In New Data)
-  │  User logs new books, skills, life events
-  │  Parent reports new information (when young)
-  │  System incorporates and continues
-  │
-  ▼
+  â”‚  Real person grows in the real world
+  â”‚  Fork grows through its interactions
+  â”‚  They may drift apart â€” by design
+  â”‚
+  â–¼
+MERGE (Optional â€” Bring In New Data)
+  â”‚  User logs new books, skills, life events
+  â”‚  Parent reports new information (when young)
+  â”‚  System incorporates and continues
+  â”‚
+  â–¼
 SNAPSHOT (Preserve State at a Point in Time)
      Git tags: grace-mar-age-6, grace-mar-age-7
      Immutable. Shows who the user was at that age.
@@ -156,20 +156,20 @@ SNAPSHOT (Preserve State at a Point in Time)
 
 ## Module 1: SELF (Identity Record)
 
-Contains who the companion IS — their identity, story, and way of being in the world.
+Contains who the companion IS â€” their identity, story, and way of being in the world.
 
-**SELF-KNOWLEDGE** — The identity-facing slice of SELF (notably IX-A Knowledge, plus seed preferences/narrative): what she knows *about herself* and identity-relevant facts. **Not** long-form historical corpora or civilization reference inventories; those belong in **SELF-LIBRARY** (see Module 1b).
+**SELF-KNOWLEDGE** â€” The identity-facing slice of SELF (notably IX-A Knowledge, plus seed preferences/narrative): what she knows *about herself* and identity-relevant facts. **Not** long-form historical corpora or civilization reference inventories; those belong in **SELF-LIBRARY** (see Module 1b).
 
-**Core principle: Accurate recording.** The goal is faithful documentation of the companion's actual personality, preferences, reasoning, and voice — not an idealized or curated version. The record should capture them as they are, including quirks and imperfections.
+**Core principle: Accurate recording.** The goal is faithful documentation of the companion's actual personality, preferences, reasoning, and voice â€” not an idealized or curated version. The record should capture them as they are, including quirks and imperfections.
 
 ### Module 1b: SELF-LIBRARY (reference surface)
 
 | File / path | Role |
 |-------------|------|
-| `users/[id]/self-library.md` | Canonical **governed library**: LIB entries, scopes, lookup routing. **Reference-facing**, not identity. |
-| `users/[id]/SELF-LIBRARY/` | Navigator docs: domain index, **CIV-MEM** subdomain description (links to corpus + LIB stubs). |
+| `self-library.md` | Canonical **governed library**: LIB entries, scopes, lookup routing. **Reference-facing**, not identity. |
+| `SELF-LIBRARY/` | Navigator docs: domain index, **CIV-MEM** subdomain description (links to corpus + LIB stubs). |
 
-**CIV-MEM** — Sub-library within SELF-LIBRARY: civilizational / historical / cultural reference material (LIB rows + `docs/civilization-memory/`, hybrid encyclopedia, CMC). Routing to CMC = lookup into this domain, not into identity. See [boundary-self-knowledge-self-library.md](boundary-self-knowledge-self-library.md), [library-integration.md](library-integration.md). **Domain registry:** [self-library-domains.md](self-library-domains.md) lists installed library domains (metadata, routing, mutation policy).
+**CIV-MEM** â€” Sub-library within SELF-LIBRARY: civilizational / historical / cultural reference material (LIB rows + `docs/civilization-memory/`, hybrid encyclopedia, CMC). Routing to CMC = lookup into this domain, not into identity. See [boundary-self-knowledge-self-library.md](boundary-self-knowledge-self-library.md), [library-integration.md](library-integration.md). **Domain registry:** [self-library-domains.md](self-library-domains.md) lists installed library domains (metadata, routing, mutation policy).
 
 ### Contents
 
@@ -205,10 +205,10 @@ Simple favorites survey (5-10 minutes):
 ```
 
 Everything else is inferred from activity:
-- Linguistic style ← WRITE activities
-- Interests ← all modules
-- Personality ← observed patterns
-- Values ← THINK choices, WRITE content
+- Linguistic style â† WRITE activities
+- Interests â† all modules
+- Personality â† observed patterns
+- Values â† THINK choices, WRITE content
 
 ### Evolution
 
@@ -224,13 +224,13 @@ History is always preserved. Changes do not overwrite.
 
 ## Module 2: SKILLS (Capability Record)
 
-Contains what the companion CAN DO — capabilities that grow through authentic activity.
+Contains what the companion CAN DO â€” capabilities that grow through authentic activity.
 
 ### The Record-Bound Skill Modules
 
-Skills organize under **two Record-bound cognitive modules: THINK and WRITE**. For a formal specification of module boundaries, output functions (Voice and profile as functions of skill-write), and invariants, see [SKILLS-MODULARITY](skills-modularity.md). **Standard labels** (for APIs, docs, cross-references): **self-skill-write** and **self-skill-think**. See [ID-TAXONOMY § Standard capability labels](id-taxonomy.md#standard-capability-labels-self-skill-). These modules are objective-topic-specialized components (teacher/tutor, evaluator, record keeper) for what the Record can evidence directly.
+Skills organize under **two Record-bound cognitive modules: THINK and WRITE**. For a formal specification of module boundaries, output functions (Voice and profile as functions of skill-write), and invariants, see [SKILLS-MODULARITY](skills-modularity.md). **Standard labels** (for APIs, docs, cross-references): **self-skill-write** and **self-skill-think**. See [ID-TAXONOMY Â§ Standard capability labels](id-taxonomy.md#standard-capability-labels-self-skill-). These modules are objective-topic-specialized components (teacher/tutor, evaluator, record keeper) for what the Record can evidence directly.
 
-**THINK doctrine (intake, evidence, promotion to IX):** [skill-think README](skill-think/README.md) — complements this section without replacing SKILLS-MODULARITY.
+**THINK doctrine (intake, evidence, promotion to IX):** [skill-think README](skill-think/README.md) â€” complements this section without replacing SKILLS-MODULARITY.
 
 | Module | Function | Activities |
 |--------|----------|------------|
@@ -242,7 +242,7 @@ Skills organize under **two Record-bound cognitive modules: THINK and WRITE**. F
 Work is now a separate layer rather than a self-skill module. It lives in:
 
 - `docs/skill-work/work-*/` for reusable work territories
-- `users/[id]/work-*.md` for instance work contexts
+- `work-*.md` for instance work contexts
 
 Work territories may use broader LLM capability, external tools, APIs, and planning loops than the Record allows. They can produce artifacts, plans, and candidate proposals. But they do not write Record truth directly, and they remain gated whenever they would update SELF, EVIDENCE, or prompt.
 
@@ -283,34 +283,34 @@ THINK-specific capture contract (normative):
 
 ```
 SKILLS/
-├── WRITE/
-│   ├── vocabulary/       # Words used, range, sophistication
-│   ├── complexity/       # Sentence structure, variety
-│   ├── style/            # Narrative voice, tone
-│   ├── expression/       # Emotional content
-│   └── logic/            # Argument, sequence
-│
-├── THINK/
-│   ├── comprehension/    # Understanding content
-│   ├── inference/        # Conclusions beyond explicit
-│   ├── vocabulary/       # Words acquired
-│   └── interests/        # What they choose
-│
+â”œâ”€â”€ WRITE/
+â”‚   â”œâ”€â”€ vocabulary/       # Words used, range, sophistication
+â”‚   â”œâ”€â”€ complexity/       # Sentence structure, variety
+â”‚   â”œâ”€â”€ style/            # Narrative voice, tone
+â”‚   â”œâ”€â”€ expression/       # Emotional content
+â”‚   â””â”€â”€ logic/            # Argument, sequence
+â”‚
+â”œâ”€â”€ THINK/
+â”‚   â”œâ”€â”€ comprehension/    # Understanding content
+â”‚   â”œâ”€â”€ inference/        # Conclusions beyond explicit
+â”‚   â”œâ”€â”€ vocabulary/       # Words acquired
+â”‚   â””â”€â”€ interests/        # What they choose
+â”‚
 work/
-├── territories/         # Reusable work domains and operator doctrine
-└── contexts/            # Instance-specific work files and live execution state
+â”œâ”€â”€ territories/         # Reusable work domains and operator doctrine
+â””â”€â”€ contexts/            # Instance-specific work files and live execution state
 ```
 
 ### Activity-Based Growth
 
-The companion doesn't explicitly "teach" skills — they **do** things. Grace-Mar observes and records.
+The companion doesn't explicitly "teach" skills â€” they **do** things. Grace-Mar observes and records.
 
 ```
 Activity: Daily journal entry (WRITE)
-├── Content captured: full text
-├── Analysis: vocabulary, complexity, style, topics
-├── SELF observations: linguistic markers, emotional tone
-└── Capability claims updated: WRITE.vocabulary, WRITE.expression
+â”œâ”€â”€ Content captured: full text
+â”œâ”€â”€ Analysis: vocabulary, complexity, style, topics
+â”œâ”€â”€ SELF observations: linguistic markers, emotional tone
+â””â”€â”€ Capability claims updated: WRITE.vocabulary, WRITE.expression
 ```
 
 ### Characteristics
@@ -325,25 +325,25 @@ Activity: Daily journal entry (WRITE)
 
 ## Interaction Between Modules
 
-### SELF → SKILLS (Prediction)
+### SELF â†’ SKILLS (Prediction)
 
 - **Interests** (SELF) predict which modules develop fastest
 - **Reasoning patterns** (SELF) can shape adjacent work style and project selection
 
-### SKILLS → SELF (Inference)
+### SKILLS â†’ SELF (Inference)
 
 Each module feeds different SELF components:
 
 ```
-WRITE Activity ──→ analyst stages signals for SELF.linguistic_style
+WRITE Activity â”€â”€â†’ analyst stages signals for SELF.linguistic_style
                    analyst stages IX-B / IX-C observations when warranted
 
-THINK Activity ───→ analyst stages preferences, values, IX-B, IX-C signals
+THINK Activity â”€â”€â”€â†’ analyst stages preferences, values, IX-B, IX-C signals
 
-Work-context activity ──→ analyst stages reasoning, IX-C, and interest signals
+Work-context activity â”€â”€â†’ analyst stages reasoning, IX-C, and interest signals
 ```
 
-### The WRITE → SELF Pipeline
+### The WRITE â†’ SELF Pipeline
 
 WRITE activities can surface SELF signals through analyst staging:
 
@@ -355,7 +355,7 @@ WRITE activities can surface SELF signals through analyst staging:
 | expression | emotional or interpersonal patterns staged to `IX-C` when identity-relevant |
 | topics | interests and curiosity signals |
 
-### The THINK → SELF Pipeline
+### The THINK â†’ SELF Pipeline
 
 THINK activities can surface SELF signals through analyst staging:
 
@@ -408,11 +408,11 @@ The system should:
 
 ### Grounding Rules
 
-1. **Reference their work** — Connect to Writing Log, Creation Log
-2. **Reference their reading** — "Like in [book they read]..."
-3. **Connect to their creations** — "Your drawing of [X] showed..."
-4. **Anchor to their experiences** — "Like when you went to [place]..."
-5. **Never invent experiences** — Only reference documented evidence
+1. **Reference their work** â€” Connect to Writing Log, Creation Log
+2. **Reference their reading** â€” "Like in [book they read]..."
+3. **Connect to their creations** â€” "Your drawing of [X] showed..."
+4. **Anchor to their experiences** â€” "Like when you went to [place]..."
+5. **Never invent experiences** â€” Only reference documented evidence
 
 ---
 
@@ -423,22 +423,22 @@ The Record-bound SKILLS modules (THINK, WRITE) are **containers** that define wh
 ### The Container Model
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                   TOO ADVANCED                               │
-│              (beyond current reach)                          │
-├─────────────────────────────────────────────────────────────┤
-│ ░░░░░░░░░░░░░░░░ THE EDGE ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ │
-│   (zone of proximal development — optimal activity zone)    │
-├─────────────────────────────────────────────────────────────┤
-│                                                             │
-│              INSIDE THE CONTAINER                           │
-│           (what they already know/can do)                   │
-│                                                             │
-│   THINK: books read, vocabulary acquired                     │
-│   WRITE: words used, complexity achieved                    │
-│   Adjacent work context: approved execution evidence        │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
+â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+â”‚                   TOO ADVANCED                               â”‚
+â”‚              (beyond current reach)                          â”‚
+â”œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¤
+â”‚ â–‘â–‘â–‘â–‘â–‘â–‘â–‘â–‘â–‘â–‘â–‘â–‘â–‘â–‘â–‘â–‘ THE EDGE â–‘â–‘â–‘â–‘â–‘â–‘â–‘â–‘â–‘â–‘â–‘â–‘â–‘â–‘â–‘â–‘â–‘â–‘â–‘â–‘â–‘â–‘â–‘â–‘â–‘â–‘â–‘â–‘â–‘â–‘â–‘ â”‚
+â”‚   (zone of proximal development â€” optimal activity zone)    â”‚
+â”œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¤
+â”‚                                                             â”‚
+â”‚              INSIDE THE CONTAINER                           â”‚
+â”‚           (what they already know/can do)                   â”‚
+â”‚                                                             â”‚
+â”‚   THINK: books read, vocabulary acquired                     â”‚
+â”‚   WRITE: words used, complexity achieved                    â”‚
+â”‚   Adjacent work context: approved execution evidence        â”‚
+â”‚                                                             â”‚
+â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
 ```
 
 ### Activity Calibration
@@ -446,7 +446,7 @@ The Record-bound SKILLS modules (THINK, WRITE) are **containers** that define wh
 | Zone | What it means | System behavior |
 |------|---------------|-----------------|
 | Inside container | Already knows/can do | Reference, build on |
-| At the edge | Just beyond current level | Propose activities here — optimal |
+| At the edge | Just beyond current level | Propose activities here â€” optimal |
 | Outside container | Too advanced | Don't go here yet |
 
 ### Gap Filling
@@ -455,10 +455,10 @@ The Capability Gap Log identifies holes INSIDE the container:
 
 ```
 Container: WRITE
-  │
-  ├── Established: vocabulary, expression, topics
-  ├── GAP: sentence boundaries (should be here, developing)
-  └── Edge: paragraph structure (next to develop)
+  â”‚
+  â”œâ”€â”€ Established: vocabulary, expression, topics
+  â”œâ”€â”€ GAP: sentence boundaries (should be here, developing)
+  â””â”€â”€ Edge: paragraph structure (next to develop)
 
 System: Fill the gap before extending the edge.
 ```
@@ -467,9 +467,9 @@ System: Fill the gap before extending the edge.
 
 Activities proposed at the boundary of current capability, where the companion can succeed with guidance.
 
-- Too easy → boredom, no growth
-- Too hard → frustration, shutdown
-- At the edge → engagement, growth
+- Too easy â†’ boredom, no growth
+- Too hard â†’ frustration, shutdown
+- At the edge â†’ engagement, growth
 
 ---
 
@@ -477,22 +477,22 @@ Activities proposed at the boundary of current capability, where the companion c
 
 ### Browse the Record (Primary)
 
-> "What are [user]'s interests?" → SELF.interests
-> "Show me [user]'s writing growth" → SKILLS.WRITE trajectory
-> "What books has [user] read?" → EVIDENCE.reading_list
-> "Show me [user]'s artwork" → EVIDENCE.creation_log
+> "What are [user]'s interests?" â†’ SELF.interests
+> "Show me [user]'s writing growth" â†’ SKILLS.WRITE trajectory
+> "What books has [user] read?" â†’ EVIDENCE.reading_list
+> "Show me [user]'s artwork" â†’ EVIDENCE.creation_log
 
 ### Query Capabilities
 
-> "How well does [user] write?" → SKILLS.WRITE levels
-> "What's [user]'s reading comprehension level?" → SKILLS.THINK
-> "How creative/original is [user]?" → approved evidence and work-layer artifacts (historical BUILD creation dimensions may still inform this)
+> "How well does [user] write?" â†’ SKILLS.WRITE levels
+> "What's [user]'s reading comprehension level?" â†’ SKILLS.THINK
+> "How creative/original is [user]?" â†’ approved evidence and work-layer artifacts (historical BUILD creation dimensions may still inform this)
 
 ### Query Both (Full Profile)
 
-> "What are [user]'s cognitive strengths?" → SELF + SKILLS
-> "Where should [user] focus development?" → Gaps + edges
-> "Show me [user]'s growth trajectory" → Evidence over time
+> "What are [user]'s cognitive strengths?" â†’ SELF + SKILLS
+> "Where should [user] focus development?" â†’ Gaps + edges
+> "Show me [user]'s growth trajectory" â†’ Evidence over time
 
 ### Emulation Queries (Optional Future Feature)
 
@@ -698,7 +698,7 @@ interface CapabilityClaim {
 | Employer | None (unless granted) | Granted modules only |
 | University | None (unless granted) | Granted modules only |
 
-There is no parent mode — operators or guardians have age-appropriate access to the user's single system when the user is a minor.
+There is no parent mode â€” operators or guardians have age-appropriate access to the user's single system when the user is a minor.
 
 ---
 
@@ -710,21 +710,21 @@ GitHub repository is the authoritative record store. In this workspace, the auth
 
 ```
 GitHub Repository (rbtkhn/strategy-codex)
-├── docs/                    # Templates and governance
-├── users/
-│   └── grace-mar/
-│       ├── self.md          # Identity record
-│       ├── self-skills.md   # Capability index (legacy skills.md still resolved)
-│       ├── self-archive.md  # EVIDENCE — activity log + § VIII gated approved (canonical body)
-│       ├── self-evidence.md # Optional compatibility pointer (not the EVIDENCE body)
-│       ├── self-memory.md   # self-memory — short/medium/long continuity (optional; not part of Record)
-│       ├── session-log.md   # Interaction history
-│       ├── journal.md       # Daily highlights (public-suitable, shareable)
-│       └── artifacts/       # Raw files (writing, artwork)
-└── (future users...)
+â”œâ”€â”€ docs/                    # Templates and governance
+â”œâ”€â”€ 
+â”‚   â””â”€â”€ grace-mar/
+â”‚       â”œâ”€â”€ self.md          # Identity record
+â”‚       â”œâ”€â”€ self-skills.md   # Capability index (legacy skills.md still resolved)
+â”‚       â”œâ”€â”€ self-archive.md  # EVIDENCE â€” activity log + Â§ VIII gated approved (canonical body)
+â”‚       â”œâ”€â”€ self-evidence.md # Optional compatibility pointer (not the EVIDENCE body)
+â”‚       â”œâ”€â”€ self-memory.md   # self-memory â€” short/medium/long continuity (optional; not part of Record)
+â”‚       â”œâ”€â”€ session-log.md   # Interaction history
+â”‚       â”œâ”€â”€ journal.md       # Daily highlights (public-suitable, shareable)
+â”‚       â””â”€â”€ artifacts/       # Raw files (writing, artwork)
+â””â”€â”€ (future users...)
 ```
 
-Each `users/<id>/` directory is one fork’s isolated namespace; quotas, retention, permissions, and export/import are per-fork. See [Fork isolation and multi-tenant](fork-isolation-and-multi-tenant.md).
+Each `` directory is one forkâ€™s isolated namespace; quotas, retention, permissions, and export/import are per-fork. See [Fork isolation and multi-tenant](fork-isolation-and-multi-tenant.md).
 
 ### Version Control
 
@@ -746,11 +746,11 @@ Every session that updates user data:
 
 ### MEMORY (Self-memory)
 
-`self-memory.md` (**self-memory**; legacy `memory.md`) holds **short-, medium-, and long-horizon** continuity — session tone and thread, multi-day open loops, and long-horizon **meta/pointers** (not a second Record). **Ephemeral** here means **non-canonical and rotatable**, not “only intraday.” It is **not part of the Record**. SELF is authoritative; when MEMORY conflicts with SELF, follow SELF. Rotate or prune per horizon (see [MEMORY-TEMPLATE](memory-template.md)). Optional; the system runs normally if absent.
+`self-memory.md` (**self-memory**; legacy `memory.md`) holds **short-, medium-, and long-horizon** continuity â€” session tone and thread, multi-day open loops, and long-horizon **meta/pointers** (not a second Record). **Ephemeral** here means **non-canonical and rotatable**, not â€œonly intraday.â€ It is **not part of the Record**. SELF is authoritative; when MEMORY conflicts with SELF, follow SELF. Rotate or prune per horizon (see [MEMORY-TEMPLATE](memory-template.md)). Optional; the system runs normally if absent.
 
 ### JOURNAL (Shareable Daily Highlights)
 
-journal.md consolidates daily highlights of activity — what Grace-Mar read, wrote, created, learned. Entries are written in **first-person Grace-Mar voice** ("I learned…", "I drew…") and serve to **demonstrate and audit** the fork's linguistic fingerprint (vocabulary, sentence patterns, tone). Public-suitable; contrasts with SESSION-TRANSCRIPT (raw conversation log) and SELF-ARCHIVE (gated approved activity); both private. Sources: EVIDENCE, SESSION-LOG. See [JOURNAL-SCHEMA](journal-schema.md). Profile tab order: Knowledge | Skills | Curiosity | Personality | Library | Journal.
+journal.md consolidates daily highlights of activity â€” what Grace-Mar read, wrote, created, learned. Entries are written in **first-person Grace-Mar voice** ("I learnedâ€¦", "I drewâ€¦") and serve to **demonstrate and audit** the fork's linguistic fingerprint (vocabulary, sentence patterns, tone). Public-suitable; contrasts with SESSION-TRANSCRIPT (raw conversation log) and SELF-ARCHIVE (gated approved activity); both private. Sources: EVIDENCE, SESSION-LOG. See [JOURNAL-SCHEMA](journal-schema.md). Profile tab order: Knowledge | Skills | Curiosity | Personality | Library | Journal.
 
 ### Snapshots
 
@@ -765,7 +765,7 @@ Tags preserve the exact state at that point in time.
 
 ## Lattice Model
 
-The system can be viewed as a **lattice**: nodes (data and components) connected by bonds (flows, pipelines, linkages). The **PRP URL** serves as the primary **anchor** — a single, stable public entry point for instantiation.
+The system can be viewed as a **lattice**: nodes (data and components) connected by bonds (flows, pipelines, linkages). The **PRP URL** serves as the primary **anchor** â€” a single, stable public entry point for instantiation.
 
 ### Nodes
 
@@ -777,19 +777,19 @@ The system can be viewed as a **lattice**: nodes (data and components) connected
 | **SELF-LIBRARY** (`self-library.md`) | Reference-facing governed domains; **CIV-MEM** subdomain; bot lookup first hop |
 | **RECURSION-GATE** | Staging area before merge |
 | **prompt.py** | Emulation prompt (SYSTEM, ANALYST, LOOKUP, REPHRASE) |
-| **CMC** | CIV-MEM domain lookup (SELF-LIBRARY → CMC → LLM) |
-| **PRP** | Portable Record Prompt — pasteable identity for any LLM |
+| **CMC** | CIV-MEM domain lookup (SELF-LIBRARY â†’ CMC â†’ LLM) |
+| **PRP** | Portable Record Prompt â€” pasteable identity for any LLM |
 | **Telegram / WeChat** | Bot adapters (observation window) |
 
 ### Bonds
 
 | Bond | Flow |
 |------|------|
-| **Pipeline** | Signal detection → RECURSION-GATE → user approval → merge into SELF, EVIDENCE, prompt |
-| **PRP refresh** | Merge triggers `export_prp` → PRP file updated → anchor stays in sync with Record |
-| **Lookup flow** | User question → SELF-LIBRARY → CIV-MEM (CMC) → LLM → rephrased answer |
+| **Pipeline** | Signal detection â†’ RECURSION-GATE â†’ user approval â†’ merge into SELF, EVIDENCE, prompt |
+| **PRP refresh** | Merge triggers `export_prp` â†’ PRP file updated â†’ anchor stays in sync with Record |
+| **Lookup flow** | User question â†’ SELF-LIBRARY â†’ CIV-MEM (CMC) â†’ LLM â†’ rephrased answer |
 | **Evidence linkage** | EVIDENCE entries reference SELF; RECENT in PRP pulls from EVIDENCE |
-| **PRP → GitHub** | GITHUB CONNECTIVITY in PRP: model searches repo for system design, governance |
+| **PRP â†’ GitHub** | GITHUB CONNECTIVITY in PRP: model searches repo for system design, governance |
 
 ### The Anchor
 
@@ -800,19 +800,19 @@ The PRP URL (e.g. `https://raw.githubusercontent.com/rbtkhn/strategy-codex/main/
 | Path | What the model has |
 |------|--------------------|
 | **PRP URL only** | Persona (VOICE, KNOWLEDGE, CURIOSITY, PERSONALITY, RECENT) + GitHub search for system questions. No LIBRARY, no CMC. |
-| **Telegram / WeChat bot** | Full persona + LIBRARY → CMC lookup flow. Complete lattice access. |
+| **Telegram / WeChat bot** | Full persona + LIBRARY â†’ CMC lookup flow. Complete lattice access. |
 
 PRP-only is lightweight and pasteable anywhere; the bot offers the full observation-window experience. See [PORTABLE-RECORD-PROMPT](portable-record-prompt.md).
 
 ### Related Architectures
 
-Grace-Mar shares conceptual DNA with other patterns: **multi-agent debate before answer** (e.g. Grok 4.2 — multiple perspectives before synthesis); **society of mind** (agents greater than sum of parts); **user as final arbiter** (human gates what enters the Record). The analyst stages; the user merges. Debate and divergence are valued; convergence is gated.
+Grace-Mar shares conceptual DNA with other patterns: **multi-agent debate before answer** (e.g. Grok 4.2 â€” multiple perspectives before synthesis); **society of mind** (agents greater than sum of parts); **user as final arbiter** (human gates what enters the Record). The analyst stages; the user merges. Debate and divergence are valued; convergence is gated.
 
 ---
 
 ## Emulation Layer
 
-The cognitive fork can optionally power an **emulation** — a live conversational interface that behaves as the self would. The instance supports Telegram (`bot/bot.py`) and WeChat (`bot/wechat_bot.py`). Both share the same emulation core (`bot/core.py`) and use the SELF profile to generate responses constrained to the self's knowledge, vocabulary, and personality. **Teaching/tutoring** is one of the Voice's functions: it answers questions, explains concepts, and helps the user learn — in-character, at the Record's Lexile level, and within the knowledge boundary.
+The cognitive fork can optionally power an **emulation** â€” a live conversational interface that behaves as the self would. The instance supports Telegram (`bot/bot.py`) and WeChat (`bot/wechat_bot.py`). Both share the same emulation core (`bot/core.py`) and use the SELF profile to generate responses constrained to the self's knowledge, vocabulary, and personality. **Teaching/tutoring** is one of the Voice's functions: it answers questions, explains concepts, and helps the user learn â€” in-character, at the Record's Lexile level, and within the knowledge boundary.
 
 ### THINK/WRITE Refinement in Emulation
 
@@ -829,28 +829,28 @@ Canonical flow: **THINK -> Record -> WRITE-through-Voice**.
 
 The fork exists inside the user's mind. It is the user's mental model of the self, made explicit and structured.
 
-The emulation layer (Telegram, WeChat, or other bot adapters) is not where the fork lives — it is an **observation window**. The user selectively exposes thoughts and information to the fork's awareness through this window. The fork processes what it observes, and the user decides what takes permanent root.
+The emulation layer (Telegram, WeChat, or other bot adapters) is not where the fork lives â€” it is an **observation window**. The user selectively exposes thoughts and information to the fork's awareness through this window. The fork processes what it observes, and the user decides what takes permanent root.
 
 ```
-┌──────────────────────────────────────────────────┐
-│                  USER'S MIND                      │
-│                                                    │
-│   ┌──────────────────────────────┐                │
-│   │      COGNITIVE FORK          │                │
-│   │   (structured in self.md)    │                │
-│   └──────────────┬───────────────┘                │
-│                  │                                 │
-│          ┌───────┴───────┐                        │
-│          │  OBSERVATION   │                        │
-│          │    WINDOW      │                        │
-│          └───────┬───────┘                        │
-│                  │                                 │
-└──────────────────┼─────────────────────────────────┘
-                   │
-          ┌────────┴────────┐
-          │  Emulation Layer │
-          │ (Telegram/WeChat)│
-          └─────────────────┘
+â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+â”‚                  USER'S MIND                      â”‚
+â”‚                                                    â”‚
+â”‚   â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”                â”‚
+â”‚   â”‚      COGNITIVE FORK          â”‚                â”‚
+â”‚   â”‚   (structured in self.md)    â”‚                â”‚
+â”‚   â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¬â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜                â”‚
+â”‚                  â”‚                                 â”‚
+â”‚          â”Œâ”€â”€â”€â”€â”€â”€â”€â”´â”€â”€â”€â”€â”€â”€â”€â”                        â”‚
+â”‚          â”‚  OBSERVATION   â”‚                        â”‚
+â”‚          â”‚    WINDOW      â”‚                        â”‚
+â”‚          â””â”€â”€â”€â”€â”€â”€â”€â”¬â”€â”€â”€â”€â”€â”€â”€â”˜                        â”‚
+â”‚                  â”‚                                 â”‚
+â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¼â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
+                   â”‚
+          â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”´â”€â”€â”€â”€â”€â”€â”€â”€â”
+          â”‚  Emulation Layer â”‚
+          â”‚ (Telegram/WeChat)â”‚
+          â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
 ```
 
 The emulation layer enforces a **knowledge boundary**: the fork can only reference what has been explicitly merged into its profile. LLM world knowledge must not leak through. See [KNOWLEDGE-BOUNDARY-FRAMEWORK](knowledge-boundary-framework.md) for quantifying, describing, and treating information at the boundary.
@@ -865,54 +865,54 @@ The fork's profile grows through two independent input channels. Both feed the s
 
 ### Channel 1: Bot (Automated)
 
-**Multi-channel staging:** Telegram, WeChat, operator activity reports, and other callers share **one** `recursion-gate.md` per user. An LLM analyst (`ANALYST_PROMPT` in `bot/prompt.py`) detects profile-relevant signals and stages candidates (with `channel_key`) after bot exchanges; operator scripts may stage without the bot. **One gate, one merge path** — not Telegram-only.
+**Multi-channel staging:** Telegram, WeChat, operator activity reports, and other callers share **one** `recursion-gate.md` per user. An LLM analyst (`ANALYST_PROMPT` in `bot/prompt.py`) detects profile-relevant signals and stages candidates (with `channel_key`) after bot exchanges; operator scripts may stage without the bot. **One gate, one merge path** â€” not Telegram-only.
 
 ```
-User ↔ Bot conversation
-       │
-       ▼
+User â†” Bot conversation
+       â”‚
+       â–¼
   Analyst (LLM)
-       │
-       ▼
+       â”‚
+       â–¼
   recursion-gate.md (staged candidates)
-       │
-       ▼
+       â”‚
+       â–¼
   User approves/rejects
-       │
-       ▼
+       â”‚
+       â–¼
   self.md, self-archive.md (EVIDENCE), prompt.py updated
 ```
 
-**Multiple bots:** You can run several Telegram bots (one per person) from the same codebase and shared LLM: each process uses a different `TELEGRAM_BOT_TOKEN` and `GRACE_MAR_USER_ID`, pointing at different `users/<id>/` profiles. See [MULTI-BOT-CENTRAL-MODEL](multi-bot-central-model.md).
+**Multiple bots:** You can run several Telegram bots (one per person) from the same codebase and shared LLM: each process uses a different `TELEGRAM_BOT_TOKEN` and `GRACE_MAR_USER_ID`, pointing at different `` profiles. See [MULTI-BOT-CENTRAL-MODEL](multi-bot-central-model.md).
 
 ### Channel 2: Operator (Manual)
 
-The user brings real-world observations directly — school worksheets, art projects, overheard conversations, anything observed outside the bot. The operator (this conversation, or any session with the system maintainer) runs signal detection manually and stages candidates the same way.
+The user brings real-world observations directly â€” school worksheets, art projects, overheard conversations, anything observed outside the bot. The operator (this conversation, or any session with the system maintainer) runs signal detection manually and stages candidates the same way.
 
 ```
 User: "we learned about volcanoes today" [+ optional artifact]
-       │
-       ▼
+       â”‚
+       â–¼
   Operator runs signal detection
-       │
-       ▼
+       â”‚
+       â–¼
   recursion-gate.md (staged candidates)
-       │
-       ▼
+       â”‚
+       â–¼
   User approves/rejects
-       │
-       ▼
+       â”‚
+       â–¼
   self.md, self-archive.md (EVIDENCE), prompt.py updated
 ```
 
 ### The "we" Convention
 
-When the user says **"we [did X]"** in the operator channel, it is a **pipeline invocation**. The operator should immediately run signal detection and present staged candidates — no acknowledgment step, no waiting for a separate "process" command. The word "we" means: "I observed the self doing this; process it."
+When the user says **"we [did X]"** in the operator channel, it is a **pipeline invocation**. The operator should immediately run signal detection and present staged candidates â€” no acknowledgment step, no waiting for a separate "process" command. The word "we" means: "I observed the self doing this; process it."
 
 Examples:
-- "we learned about volcanoes today" → run pipeline
-- "we painted a pharaoh at school" → run pipeline
-- "we read a book about robots" → run pipeline
+- "we learned about volcanoes today" â†’ run pipeline
+- "we painted a pharaoh at school" â†’ run pipeline
+- "we read a book about robots" â†’ run pipeline
 
 The user's statement (and any attached artifact) serves as the evidence.
 
@@ -920,7 +920,7 @@ The user's statement (and any attached artifact) serves as the evidence.
 
 ## Gated Pipeline
 
-All profile changes — from either input channel — pass through a user-controlled gate. Nothing is committed to the fork without explicit approval.
+All profile changes â€” from either input channel â€” pass through a user-controlled gate. Nothing is committed to the fork without explicit approval.
 
 ### Signal Types
 
@@ -934,10 +934,10 @@ The analyst (automated or manual) detects three categories of signal:
 
 ### Pipeline Stages
 
-1. **Signal detection** — Identify profile-relevant information in the input
-2. **Candidate staging** — Write structured candidates to `recursion-gate.md` with analysis and recommendations
-3. **User review** — User approves, rejects, or modifies each candidate
-4. **Relay to record** — Approved candidates are merged into `self.md` (profile), **`self-archive.md`** (canonical EVIDENCE / activity log + § VIII), `bot/prompt.py` (emulation prompt), and `session-log.md` (history). This step is the **relay**: raw input has been gated and now crosses into the permanent Record.
+1. **Signal detection** â€” Identify profile-relevant information in the input
+2. **Candidate staging** â€” Write structured candidates to `recursion-gate.md` with analysis and recommendations
+3. **User review** â€” User approves, rejects, or modifies each candidate
+4. **Relay to record** â€” Approved candidates are merged into `self.md` (profile), **`self-archive.md`** (canonical EVIDENCE / activity log + Â§ VIII), `bot/prompt.py` (emulation prompt), and `session-log.md` (history). This step is the **relay**: raw input has been gated and now crosses into the permanent Record.
 
 ### Candidate Structure
 
@@ -951,13 +951,13 @@ Each candidate specifies:
 
 ### The Gate
 
-The gate is the user's discernment. The system proposes; the user disposes. This is not a technical filter — it reflects the user's judgment about what matters and what should become part of the fork's permanent record.
+The gate is the user's discernment. The system proposes; the user disposes. This is not a technical filter â€” it reflects the user's judgment about what matters and what should become part of the fork's permanent record.
 
 ---
 
 ## Three-Dimension Mind Model
 
-Post-seed growth is organized into three dimensions within Section IX of self.md. The seed baseline (Sections I–VIII) remains intact; these dimensions capture everything learned after seeding.
+Post-seed growth is organized into three dimensions within Section IX of self.md. The seed baseline (Sections Iâ€“VIII) remains intact; these dimensions capture everything learned after seeding.
 
 ### IX-A. Knowledge
 
@@ -965,22 +965,22 @@ Facts that entered the self's awareness through observation. Each entry records 
 
 ### IX-B. Curiosity
 
-Topics that caught the self's attention — what they're drawn to, what resonates. Tracked with an intensity score and the triggering signal. Distinct from seed interests (Section VI) because these emerge from post-seed observation.
+Topics that caught the self's attention â€” what they're drawn to, what resonates. Tracked with an intensity score and the triggering signal. Distinct from seed interests (Section VI) because these emerge from post-seed observation.
 
 ### IX-C. Personality (Observed)
 
-Emergent personality patterns detected through the observation window. Art media choices, speech patterns, emotional responses, value expressions, and interpersonal posture may all appear here. These are not declared traits or personality-test results — they are observed, evidence-linked, and documented with contradiction preservation when tensions appear.
+Emergent personality patterns detected through the observation window. Art media choices, speech patterns, emotional responses, value expressions, and interpersonal posture may all appear here. These are not declared traits or personality-test results â€” they are observed, evidence-linked, and documented with contradiction preservation when tensions appear.
 
 ### Multi-Dimension Signals
 
-**IX-A/B/C extraction is done by the analyst**, not by the skill modules. Skill modules update only capability (SKILLS); the analyst stages knowledge/curiosity/personality candidates for SELF. One input (e.g. art, music, journal, work artifact) can therefore feed both a skill container and SELF. See [SKILLS-TEMPLATE § III](skills-template.md#iii-skill-interactions-and-the-self).
+**IX-A/B/C extraction is done by the analyst**, not by the skill modules. Skill modules update only capability (SKILLS); the analyst stages knowledge/curiosity/personality candidates for SELF. One input (e.g. art, music, journal, work artifact) can therefore feed both a skill container and SELF. See [SKILLS-TEMPLATE Â§ III](skills-template.md#iii-skill-interactions-and-the-self).
 
 A single artifact can generate entries in all three dimensions simultaneously. For example, a painted pharaoh portrait produces:
 - **Knowledge**: Egyptian pharaohs / King Tut's death mask
 - **Curiosity**: Deepening engagement with ancient Egypt
 - **Personality**: First use of paint as art medium, bold color choices
 
-This mirrors how real cognition works — a single experience produces knowledge, interest, and identity signals at the same time.
+This mirrors how real cognition works â€” a single experience produces knowledge, interest, and identity signals at the same time.
 
 ---
 
@@ -988,7 +988,7 @@ This mirrors how real cognition works — a single experience produces knowledge
 
 ## Forced Absorption Risk
 
-**Forced absorption** is the risk that unreviewed content enters canonical state through convenience paths — passive indexing, retrieval-as-authorization, synthesis-as-incorporation, or infrastructure defaults that widen write surfaces without explicit review. The term is borrowed from financial regulation: a rule change that silently forces downstream holders to absorb risk they never agreed to. In grace-mar, the downstream holder is the Record.
+**Forced absorption** is the risk that unreviewed content enters canonical state through convenience paths â€” passive indexing, retrieval-as-authorization, synthesis-as-incorporation, or infrastructure defaults that widen write surfaces without explicit review. The term is borrowed from financial regulation: a rule change that silently forces downstream holders to absorb risk they never agreed to. In grace-mar, the downstream holder is the Record.
 
 **Standing line:** Identity never enters canonical state through convenience paths. Only governed review and authorized merge may change the Record.
 
@@ -996,12 +996,12 @@ This mirrors how real cognition works — a single experience produces knowledge
 
 | Defense | Implementation | What it prevents |
 |---------|---------------|------------------|
-| Sovereign Merge Rule | `process_approved_candidates.py` is the only merge path; AGENTS.md §2 | Direct writes to self.md, self-archive.md, bot/prompt.py |
-| Gated pipeline | `recursion-gate.md` staging → companion approval → merge script | State changes that bypass human review |
-| Integrity validator | `scripts/validate-integrity.py` — 12 check families including convenience-path audit | Untraceable candidates, orphan references, stale exports |
-| Governance checker | `scripts/governance_checker.py` — regex scan for unauthorized merge patterns | Scripts or agents that attempt direct Record writes |
-| Gate review app | `apps/gate-review-app.py` — Flask UI for inspecting pending candidates | Invisible or unreviewed queue state |
-| Derived export freshness | `validate-integrity.py` → `validate_derived_exports` | Stale runtime bundles, PRP, or manifests diverging from Record |
+| Sovereign Merge Rule | `process_approved_candidates.py` is the only merge path; AGENTS.md Â§2 | Direct writes to self.md, self-archive.md, bot/prompt.py |
+| Gated pipeline | `recursion-gate.md` staging â†’ companion approval â†’ merge script | State changes that bypass human review |
+| Integrity validator | `scripts/validate-integrity.py` â€” 12 check families including convenience-path audit | Untraceable candidates, orphan references, stale exports |
+| Governance checker | `scripts/governance_checker.py` â€” regex scan for unauthorized merge patterns | Scripts or agents that attempt direct Record writes |
+| Gate review app | `apps/gate-review-app.py` â€” Flask UI for inspecting pending candidates | Invisible or unreviewed queue state |
+| Derived export freshness | `validate-integrity.py` â†’ `validate_derived_exports` | Stale runtime bundles, PRP, or manifests diverging from Record |
 
 ### Convenience paths to watch for
 
@@ -1024,3 +1024,4 @@ Grace-Mar already functions as a governed portable working-identity system throu
 
 *Document version: 3.2*
 *Last updated: April 2026*
+

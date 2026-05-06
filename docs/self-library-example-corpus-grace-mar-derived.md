@@ -1,6 +1,6 @@
 # Example LIB corpus (grace-mar-derived) — optional reference
 
-**Not** the default for new instances. The canonical template **`users/_template/self-library.md`** ships **governance + empty `entries:`** only.
+**Not** the default for new instances. The canonical template **`_template/self-library.md`** ships **governance + empty `entries:`** only.
 
 This file preserves the previous large seed (books/stories LIB rows) from an early grace-mar-aligned export, for operators who want a **starting shelf** to trim and gate. Prefer adding rows via the pipeline when possible.
 
@@ -1562,4 +1562,4 @@ Rough totals for PD sources that have at least one entry in each maturity tier. 
 
 ---
 
-*Cloned from grace-mar. All sources are public domain (e.g. Project Gutenberg); volume/title names refer to PD collections. Entries have maturity 1–3 (young → older). Copy to `users/<new_id>/self-library.md` in an instance; add or remove entries as needed.*
+*Cloned from grace-mar. All sources are public domain (e.g. Project Gutenberg); volume/title names refer to PD collections. Entries have maturity 1–3 (young → older). Copy to `<new_id>/self-library.md` in an instance; add or remove entries as needed.*

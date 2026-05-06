@@ -36,7 +36,7 @@
       "policyMode": "Surface",
       "humanReviewRequired": false,
       "watchPatterns": [
-        "users/*/self-library.md",
+        "self-library.md",
         "scripts/build_library_index.py",
         "docs/operator-dashboards.md"
       ],
@@ -118,7 +118,7 @@
       "policyMode": "Surface",
       "humanReviewRequired": false,
       "watchPatterns": [
-        "users/*/recursion-gate.md",
+        "recursion-gate.md",
         "scripts/build_review_dashboard.py"
       ],
       "commands": [
@@ -142,7 +142,7 @@
       "policyMode": "Surface",
       "humanReviewRequired": false,
       "watchPatterns": [
-        "users/*/recursion-gate.md",
+        "recursion-gate.md",
         "scripts/build_gate_board.py"
       ],
       "commands": [
@@ -166,14 +166,14 @@
       "policyMode": "Surface",
       "humanReviewRequired": true,
       "watchPatterns": [
-        "users/*/self.md",
-        "users/*/self-archive.md",
-        "users/*/self-evidence.md",
-        "users/*/recursion-gate.md",
-        "users/*/merge-receipts.jsonl",
-        "users/*/pipeline-events.jsonl",
-        "users/*/harness-events.jsonl",
-        "users/*/session-log.md",
+        "self.md",
+        "self-archive.md",
+        "self-evidence.md",
+        "recursion-gate.md",
+        "merge-receipts.jsonl",
+        "pipeline-events.jsonl",
+        "harness-events.jsonl",
+        "session-log.md",
         "scripts/report_governance_posture.py",
         "docs/skill-work/work-dev/safety-story-ux.md",
         "docs/runtime-vs-record.md"

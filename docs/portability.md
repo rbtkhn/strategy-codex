@@ -113,14 +113,14 @@ Exports include a generation timestamp. The Record schema (SELF, SKILLS, EVIDENC
 
 | File | Role in transfer |
 |------|------------------|
-| `users/[id]/self.md` | Identity, interests, personality, IX-A/B/C |
-| `users/[id]/skills.md` | THINK and WRITE Record skill status |
-| `users/[id]/self-evidence.md` | Activity log (full fork export only) |
-| `users/[id]/self-memory.md` | Runtime continuity only; not canonical identity |
-| `users/[id]/runtime-bundle/` | Portable package for downstream runtimes; includes record/runtime/audit/policy lanes |
-| `users/[id]/emulation-bundle/` | Emulation-oriented wrapper over the existing runtime bundle plus proposal/membrane return references |
-| `users/[id]/pipeline-events.jsonl` | Audit trail for staging, merge, validation, export |
-| `users/[id]/merge-receipts.jsonl` | Merge provenance and approval replay |
+| `self.md` | Identity, interests, personality, IX-A/B/C |
+| `skills.md` | THINK and WRITE Record skill status |
+| `self-evidence.md` | Activity log (full fork export only) |
+| `self-memory.md` | Runtime continuity only; not canonical identity |
+| `runtime-bundle/` | Portable package for downstream runtimes; includes record/runtime/audit/policy lanes |
+| `emulation-bundle/` | Emulation-oriented wrapper over the existing runtime bundle plus proposal/membrane return references |
+| `pipeline-events.jsonl` | Audit trail for staging, merge, validation, export |
+| `merge-receipts.jsonl` | Merge provenance and approval replay |
 | `scripts/export_user_identity.py` | Produce identity handoff |
 | `scripts/export_fork.py` | Produce full fork handoff |
 | `scripts/export_runtime_bundle.py` | Produce runtime-neutral portability bundle |

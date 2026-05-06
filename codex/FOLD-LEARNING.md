@@ -7,13 +7,13 @@
 
 **Governed by:** [STRATEGY-NOTEBOOK-ARCHITECTURE.md](STRATEGY-NOTEBOOK-ARCHITECTURE.md) § *Compose choice and section weighting* · [daily-strategy-inbox.md](daily-strategy-inbox.md) · [NOTEBOOK-PREFERENCES.md](NOTEBOOK-PREFERENCES.md).
 
-**Boundary:** **WORK / operator coaching** — not Record, not **MEMORY**, not **RECURSION-GATE**. Data file: `users/<id>/strategy-fold-events.jsonl` (same namespace as `pipeline-events.jsonl`; different purpose).
+**Boundary:** **WORK / operator coaching** — not Record, not **MEMORY**, not **RECURSION-GATE**. Data file: `strategy-fold-events.jsonl` (same namespace as `pipeline-events.jsonl`; different purpose).
 
 ---
 
 ## Ledger file
 
-**Path:** `users/<id>/strategy-fold-events.jsonl` — one **JSON object per line** (JSONL).
+**Path:** `strategy-fold-events.jsonl` — one **JSON object per line** (JSONL).
 
 **Minimum fields (each line):**
 

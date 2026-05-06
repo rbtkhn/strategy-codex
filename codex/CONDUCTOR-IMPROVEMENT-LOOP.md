@@ -19,7 +19,7 @@
 | **Test / falsify** | What would change your mind next | **`days.md` Judgment** or a line on the page; optional **expert prediction** / falsifier rows where you already run that discipline |
 | **Escalation** | Intake only until you act | `[watch]`, `[decision]`, `[promote]` per [NOTEBOOK-PREFERENCES](NOTEBOOK-PREFERENCES.md#escalation-marker-preference) |
 | **Structure / promotion** | Reusable, staged objects | [promotion-ladder.md](../promotion-ladder.md) → [STRATEGY.md](../STRATEGY.md) when **stable** |
-| **Governance** | Durable **companion** or **merge** policy | [AGENTS.md](../../../../AGENTS.md) / `users/.../recursion-gate.md` — only when the lesson is **policy**, not a notebook preference |
+| **Governance** | Durable **companion** or **merge** policy | [AGENTS.md](../../../../AGENTS.md) / `.../recursion-gate.md` — only when the lesson is **policy**, not a notebook preference |
 | **Compression** | Turn many moves into one next motion | **dream** / **bridge**; optional **`coffee_conductor_outcome`** (see § 3) |
 
 **Rule:** A **conductor run without** a same-day (or same-session) **anchor in the notebook or an outcome line** is **orientation-only** for chat — fine for a sip, but **not** a complete loop for recursive improvement.

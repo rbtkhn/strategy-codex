@@ -1,4 +1,4 @@
-# Self Proposals Lane
+﻿# Self Proposals Lane
 
 This lane keeps the Karpathy-style auto-research loop while protecting Grace-Mar's live Record.
 
@@ -19,9 +19,9 @@ This lane keeps the Karpathy-style auto-research loop while protecting Grace-Mar
 
 These files must never be edited by the auto-research loop:
 
-- `users/grace-mar/self.md`
-- `users/grace-mar/self-archive.md`
-- `users/grace-mar/recursion-gate.md`
+- `self.md`
+- `self-archive.md`
+- `recursion-gate.md`
 - `bot/prompt.py`
 
 The only supported path into the Record remains the gate plus `scripts/process_approved_candidates.py`.
@@ -45,3 +45,4 @@ Promotion requires:
 - an explicit operator review note
 - non-scaffold grounding
 - no prior promotion recorded on the artifact
+

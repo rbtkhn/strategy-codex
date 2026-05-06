@@ -1,6 +1,6 @@
-# Cursor Automation prompt — integrity summary (Grace-Mar)
+﻿# Cursor Automation prompt â€” integrity summary (Grace-Mar)
 
-**Use when:** A **weekly** (or **manual**) run is configured to **summarize** derived-export / **integrity** health — **read-only**; no commits of regen in this pass.
+**Use when:** A **weekly** (or **manual**) run is configured to **summarize** derived-export / **integrity** health â€” **read-only**; no commits of regen in this pass.
 
 **Product trigger (operator configures in Cursor):** e.g. *Scheduled* (weekly) or *workflow_dispatch* equivalent for the automation product.
 
@@ -18,22 +18,22 @@ Include [../cursor-safe-automation-contract.md](../cursor-safe-automation-contra
 
 ## Your task
 
-1. In the **checked-out** repo for this run, if the environment allows, run **read-only** checks appropriate to the operator’s selection. Prefer:
+1. In the **checked-out** repo for this run, if the environment allows, run **read-only** checks appropriate to the operatorâ€™s selection. Prefer:
    - `python scripts/validate-integrity.py --user grace-mar --json` (or `python3` as on PATH), **or** interpret a **pasted** output if the operator runs it elsewhere.
 2. If **integrity** reports failures, list **drift** categories (e.g. manifest, PRP, runtime bundle) in plain language, using **only** what the log shows.
-3. Suggest **exact** next commands the **operator** can run in a dev shell, e.g. from [work-cadence README — stale derived](https://github.com/rbtkhn/grace-mar/blob/main/docs/skill-work/work-cadence/README.md#when-integrity-reports-stale-derived-exports):
+3. Suggest **exact** next commands the **operator** can run in a dev shell, e.g. from [work-cadence README â€” stale derived](https://github.com/rbtkhn/grace-mar/blob/main/docs/skill-work/work-cadence/README.md#when-integrity-reports-stale-derived-exports):
    - `bash scripts/regen_grace_mar_derived.sh`
    - `python3 scripts/validate-integrity.py --user grace-mar --json`
-4. **Do not** `git commit` regen. **Do not** modify `users/grace-mar/manifest.json`, `grace-mar-llm.txt`, or bundle files in this automation.
+4. **Do not** `git commit` regen. **Do not** modify `manifest.json`, `grace-mar-llm.txt`, or bundle files in this automation.
 
-**If the sandbox cannot run Python** — say so and ask the operator to **paste** `validate-integrity` output, or mark **uncertain**.
+**If the sandbox cannot run Python** â€” say so and ask the operator to **paste** `validate-integrity` output, or mark **uncertain**.
 
 ## Expected output format
 
 ```markdown
-### Integrity summary (automated) — for operator
+### Integrity summary (automated) â€” for operator
 
-**Integrity status:** [pass / fail / unable to run — reason]
+**Integrity status:** [pass / fail / unable to run â€” reason]
 
 **Drift detected:** [bullet list from tool output, or "none" or "see pasted log"]
 
@@ -44,4 +44,5 @@ Include [../cursor-safe-automation-contract.md](../cursor-safe-automation-contra
 **Governance note:** Read-only; not Record merge, not regen commit. Operator owns regen and commits.
 ```
 
-**Related:** [work-cadence — stale derived](https://github.com/rbtkhn/grace-mar/blob/main/docs/skill-work/work-cadence/README.md#when-integrity-reports-stale-derived-exports) · [docs/automation/cursor-automations.md](../cursor-automations.md) · [README.md](../README.md)
+**Related:** [work-cadence â€” stale derived](https://github.com/rbtkhn/grace-mar/blob/main/docs/skill-work/work-cadence/README.md#when-integrity-reports-stale-derived-exports) Â· [docs/automation/cursor-automations.md](../cursor-automations.md) Â· [README.md](../README.md)
+

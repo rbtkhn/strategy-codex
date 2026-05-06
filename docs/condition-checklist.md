@@ -8,7 +8,7 @@
 
 ## Pre-merge (Record / profile / prompt)
 
-Before merging any change into `users/[id]/self.md`, `users/[id]/self-evidence.md`, `users/[id]/self-archive.md`, `bot/prompt.py`, or PRP exports:
+Before merging any change into `self.md`, `self-evidence.md`, `self-archive.md`, `bot/prompt.py`, or PRP exports:
 
 - [ ] **All Record changes came from RECURSION-GATE** — No direct merge to SELF, EVIDENCE, or prompt without staged candidates.
 - [ ] **Companion (or delegated human) approved** — Merge authority is human-only; no autonomous merge.

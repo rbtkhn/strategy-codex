@@ -1,10 +1,10 @@
-# Harness Event Replay — product spec (north star)
+﻿# Harness Event Replay â€” product spec (north star)
 
-Grace-Mar treats **Voice as model + harness** and expects debugging to separate **model limit, prompt gap, pipeline miss, or tool/context issue** ([architecture.md](architecture.md)). The system is split into **record, runtime, audit, and policy** lanes—not one opaque memory store. The audit lane already anchors concrete files: `pipeline-events.jsonl`, `merge-receipts.jsonl`, `compute-ledger.jsonl`, `harness-events.jsonl`, `fork-manifest.json` ([harness-inventory.md](harness-inventory.md)). That layout is the architectural placeholder for **causal replay**.
+Grace-Mar treats **Voice as model + harness** and expects debugging to separate **model limit, prompt gap, pipeline miss, or tool/context issue** ([architecture.md](architecture.md)). The system is split into **record, runtime, audit, and policy** lanesâ€”not one opaque memory store. The audit lane already anchors concrete files: `pipeline-events.jsonl`, `merge-receipts.jsonl`, `compute-ledger.jsonl`, `harness-events.jsonl`, `fork-manifest.json` ([harness-inventory.md](harness-inventory.md)). That layout is the architectural placeholder for **causal replay**.
 
-**Harness Event Replay** (full vision) reconstructs *why* a specific **answer**, **staged proposal**, or **merge recommendation** happened by replaying the **prompt context**, **active runtime aids**, **routing decisions**, **evidence references**, **validator results**, and **gate actions** that shaped the outcome. It is a **causal debugger** for the harness—not a generic log viewer.
+**Harness Event Replay** (full vision) reconstructs *why* a specific **answer**, **staged proposal**, or **merge recommendation** happened by replaying the **prompt context**, **active runtime aids**, **routing decisions**, **evidence references**, **validator results**, and **gate actions** that shaped the outcome. It is a **causal debugger** for the harnessâ€”not a generic log viewer.
 
-Grace-Mar is a **governed cognitive fork**: the Record exposes **SELF, SELF-LIBRARY, SKILLS, and EVIDENCE** as first-class surfaces, and profile changes flow through **signal detection → candidate staging → review → integration**. When something goes wrong, the question is not only “what did the model think?” but **which part of the harness produced this outcome?** ([conceptual framework / AGENTS guardrails](conceptual-framework.md))
+Grace-Mar is a **governed cognitive fork**: the Record exposes **SELF, SELF-LIBRARY, SKILLS, and EVIDENCE** as first-class surfaces, and profile changes flow through **signal detection â†’ candidate staging â†’ review â†’ integration**. When something goes wrong, the question is not only â€œwhat did the model think?â€ but **which part of the harness produced this outcome?** ([conceptual framework / AGENTS guardrails](conceptual-framework.md))
 
 Ontology work (SELF-KNOWLEDGE vs SELF-LIBRARY, CIV-MEM routing) makes replay especially valuable for **boundary** questions:
 
@@ -38,7 +38,7 @@ For any **event ID** (once the envelope exists end-to-end):
 
 ### 1. Answer replay
 
-**Question:** “Why did Grace-Mar say this?”
+**Question:** â€œWhy did Grace-Mar say this?â€
 
 Reconstruct: user input; loaded **record** snippets; loaded **runtime** snippets; routing path; tool / lookup results; **prompt assembly**; model output; post-processing.
 
@@ -46,7 +46,7 @@ This is the highest-trust surface for the **live companion** experience. **Today
 
 ### 2. Proposal replay
 
-**Question:** “Why was this candidate written to `recursion-gate.md`?”
+**Question:** â€œWhy was this candidate written to `recursion-gate.md`?â€
 
 Reconstruct: source signal; classifier / analyst output; proposed category; evidence links; diff target; confidence; validator warnings; how the approval inbox displayed it.
 
@@ -54,7 +54,7 @@ Best for **misclassification** and **bad staging**. **Today:** `replay_harness_e
 
 ### 3. Merge replay
 
-**Question:** “Why did this change land in SELF, SELF-LIBRARY, or SKILLS?”
+**Question:** â€œWhy did this change land in SELF, SELF-LIBRARY, or SKILLS?â€
 
 Reconstruct: approved candidate; reviewer action; `process_approved_candidates` actions; files touched; merge receipt; optional git commit trail.
 
@@ -73,8 +73,8 @@ A single **append-only event envelope** across pipeline steps would unify correl
   "fork_id": "grace-mar",
   "timestamp": "2026-03-20T14:12:03Z",
   "input_ref": "msg_abc123",
-  "record_refs": ["users/grace-mar/self.md#IX-A"],
-  "library_refs": ["users/grace-mar/self-library.md#CIV-MEM"],
+  "record_refs": ["self.md#IX-A"],
+  "library_refs": ["self-library.md#CIV-MEM"],
   "runtime_refs": ["self-memory.md#tail"],
   "policy_refs": ["intent.md"],
   "routing": {
@@ -98,7 +98,7 @@ A **replay viewer** (CLI or static page) resolves this envelope into a **human-r
 Start with a **single event page** (or markdown report):
 
 - **Header:** event type, time, fork, outcome  
-- **Timeline:** input → routing → evidence → prompt context → output → validation → review  
+- **Timeline:** input â†’ routing â†’ evidence â†’ prompt context â†’ output â†’ validation â†’ review  
 - **Panels:** Record, Library, Runtime, Policy  
 - **Diff box:** what changed or would have changed  
 - **Why box:** short natural-language explanation (generated or templated)
@@ -110,8 +110,8 @@ Start with a **single event page** (or markdown report):
 Implemented artifacts (compact interpretation over raw JSONL; does **not** replace append-only logs):
 
 - **Schemas:** `schema-registry/harness-replay-event.v1.json`, `schema-registry/answer-provenance.v1.json` (mirrors under `docs/schemas/`).
-- **Code:** `src/grace_mar/replay/` — loaders prefer `users/<id>/` audit files and fall back to `runtime-bundle/audit/` when root files are missing or empty; `build_report` powers `scripts/replay_harness_event.py`; `build_replay_events` / `infer_answer_provenance` / `replay_provenance_summary` feed **Streamlit** (`apps/metrics-dashboard.py` — “Replay and Provenance”) and **`scripts/session_brief.py`** summaries.
-- **Derived JSON (optional):** `python scripts/session_brief.py -u <id> --write-replay-artifacts` writes timestamped files under `users/<id>/artifacts/replay/` (not Record truth).
+- **Code:** `src/grace_mar/replay/` â€” loaders prefer `` audit files and fall back to `runtime-bundle/audit/` when root files are missing or empty; `build_report` powers `scripts/replay_harness_event.py`; `build_replay_events` / `infer_answer_provenance` / `replay_provenance_summary` feed **Streamlit** (`apps/metrics-dashboard.py` â€” â€œReplay and Provenanceâ€) and **`scripts/session_brief.py`** summaries.
+- **Derived JSON (optional):** `python scripts/session_brief.py -u <id> --write-replay-artifacts` writes timestamped files under `artifacts/replay/` (not Record truth).
 
 **Answer-level replay** remains limited until prompt assembly and message correlation IDs are logged; v1 emphasizes **proposal / merge / pipeline** visibility and **heuristic** lane mix (see `weights_are_heuristic` on answer-provenance).
 
@@ -122,11 +122,11 @@ Implemented artifacts (compact interpretation over raw JSONL; does **not** repla
 | Proposal / merge correlation | Candidate ID + gate YAML + pipeline + harness + receipts | Same, plus cross-step refs (`parent_event_id`, etc.) |
 | Answer replay | Not built; transcript optional | Full prompt assembly + routing + tools |
 | Validator linkage | Manual follow-up | `validator_refs` in envelope |
-| Event ID | **`event_id`** on new `pipeline-events.jsonl` and `harness-events.jsonl` lines (`evt_YYYYMMDD_HHMMSS_<hex>`), plus **`fork_id`**, **`envelope_version`**, optional **`replay_mode`** (`proposal` \| `merge` \| `gate` \| `debate` \| `dyad` \| `policy`) | Richer envelope with `record_refs`, `routing`, … |
-| Staged → merge chain | **`parent_event_id`** on `applied` / `approved` / `rejected` lines when a matching prior **`staged`** row has **`event_id`**; **`candidate_ref`** (`recursion-gate.md#CANDIDATE-…`) on staged, gate, and applied | Full graph in one envelope |
+| Event ID | **`event_id`** on new `pipeline-events.jsonl` and `harness-events.jsonl` lines (`evt_YYYYMMDD_HHMMSS_<hex>`), plus **`fork_id`**, **`envelope_version`**, optional **`replay_mode`** (`proposal` \| `merge` \| `gate` \| `debate` \| `dyad` \| `policy`) | Richer envelope with `record_refs`, `routing`, â€¦ |
+| Staged â†’ merge chain | **`parent_event_id`** on `applied` / `approved` / `rejected` lines when a matching prior **`staged`** row has **`event_id`**; **`candidate_ref`** (`recursion-gate.md#CANDIDATE-â€¦`) on staged, gate, and applied | Full graph in one envelope |
 | Merge batch (harness) | **`applied_pipeline_event_ids`** and **`staged_parent_event_ids`** on `merge_applied` (after per-candidate `applied` lines are written) | Single batch points at pipeline ids |
-| Record surfaces (applied) | **`record_refs`**: repo-relative paths (`users/<id>/self.md#IX-…`, `self-evidence.md`, optional `self-library.md` / `skills.md` from `proposal_class`) | Boundary / “where did this write?” debugging |
-| CLI | **`replay_harness_event.py --event-id evt_…`** — resolves one pipeline row, harness rows that reference it, then candidate follow-on if `candidate_id` is present | Paste id from JSONL without knowing candidate id |
+| Record surfaces (applied) | **`record_refs`**: repo-relative paths (`self.md#IX-â€¦`, `self-evidence.md`, optional `self-library.md` / `skills.md` from `proposal_class`) | Boundary / â€œwhere did this write?â€ debugging |
+| CLI | **`replay_harness_event.py --event-id evt_â€¦`** â€” resolves one pipeline row, harness rows that reference it, then candidate follow-on if `candidate_id` is present | Paste id from JSONL without knowing candidate id |
 
 Emitted by: `scripts/emit_pipeline_event.py`, `bot/core.emit_pipeline_event`, `scripts/harness_events.append_harness_event`, `scripts/process_approved_candidates.py` (`append_pipeline_event`). Older JSONL lines omit these fields; readers should treat them as optional.
 
@@ -136,16 +136,17 @@ Operational doc: [harness-replay.md](harness-replay.md).
 
 ## Why this matters
 
-Institutional memory lives in **approved Record artifacts** and **git + gated pipeline + small auditable core**—not session-only vendor memory. Harness Event Replay makes that design **inspectable**, not only asserted in prose.
+Institutional memory lives in **approved Record artifacts** and **git + gated pipeline + small auditable core**â€”not session-only vendor memory. Harness Event Replay makes that design **inspectable**, not only asserted in prose.
 
-**Priority:** High—improves **trust**, **debuggability**, and **governance clarity** together.
+**Priority:** Highâ€”improves **trust**, **debuggability**, and **governance clarity** together.
 
 ---
 
 ## Related
 
-- [harness-replay.md](harness-replay.md) — CLI replay (audit + gate)  
-- [boundary-review-queue.md](boundary-review-queue.md) — boundary classification product  
-- [boundary-self-knowledge-self-library.md](boundary-self-knowledge-self-library.md) — SELF vs SELF-LIBRARY  
-- [harness-inventory.md](harness-inventory.md) — lanes and audit files  
-- [architecture.md](architecture.md) — harness and boundaries  
+- [harness-replay.md](harness-replay.md) â€” CLI replay (audit + gate)  
+- [boundary-review-queue.md](boundary-review-queue.md) â€” boundary classification product  
+- [boundary-self-knowledge-self-library.md](boundary-self-knowledge-self-library.md) â€” SELF vs SELF-LIBRARY  
+- [harness-inventory.md](harness-inventory.md) â€” lanes and audit files  
+- [architecture.md](architecture.md) â€” harness and boundaries  
+

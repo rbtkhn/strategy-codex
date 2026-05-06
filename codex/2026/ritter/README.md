@@ -4,7 +4,7 @@
 
 ## Shelf
 
-- Profile: [ritter-profile.md](ritter-profile.md)
+- Profile: [ritter-profile.md](../../profiles/ritter-profile.md)
 - Consolidation note: [ritter-lane-consolidation-2026-05.md](ritter-lane-consolidation-2026-05.md)
 - Monthly book: [ritter-book-2026-04.md](ritter-book-2026-04.md)
 - Daily chapter seed: [ritter-chapter-2026-04-01.md](ritter-chapter-2026-04-01.md)

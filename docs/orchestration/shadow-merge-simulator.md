@@ -12,7 +12,7 @@
 | **Inputs** | `--candidate CANDIDATE-NNNN`, or `--proposal-file` (JSON aligned with [`schema-registry/recursion-gate-candidate.schema.json`](../../schema-registry/recursion-gate-candidate.schema.json)), or direct proposal (`--target-surface` + `--proposal-summary` + `--proposed-change`) |
 | **Outputs** | A Markdown **Shadow Merge Report** under `artifacts/shadow-merges/` (default) or `--output` |
 | **Mutation scope** | Writes **only** the report file (and stderr log line). No gate merge, no Record writes. |
-| **Canonical Record access** | Read-only (`users/<id>/recursion-gate.md`, optional runtime observation ledger for envelope signals) |
+| **Canonical Record access** | Read-only (`recursion-gate.md`, optional runtime observation ledger for envelope signals) |
 | **Typical next step** | Operator review, then gate decision or surface reclassification |
 | **Do not use for** | Approval, merge, or silent promotion of runtime material into canonical Record |
 
@@ -22,7 +22,7 @@ The simulator writes a **Shadow Merge Report** (Markdown) that previews **likely
 
 ## Non-goals
 
-- **Not** a merge tool. It does not run `process_approved_candidates.py`, edit `users/<id>/self.md`, `self-archive.md`, `self-skills.md`, SELF-LIBRARY files, `recursion-gate.md`, or `bot/prompt.py`.
+- **Not** a merge tool. It does not run `process_approved_candidates.py`, edit `self.md`, `self-archive.md`, `self-skills.md`, SELF-LIBRARY files, `recursion-gate.md`, or `bot/prompt.py`.
 - **Not** an approval mechanism. Output is **operator-readable simulation** only.
 - **Not** line-perfect diffs across the repo (v1 uses heuristics).
 

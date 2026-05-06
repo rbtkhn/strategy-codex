@@ -1,4 +1,4 @@
-# Known-path workflow fitness test
+﻿# Known-path workflow fitness test
 
 **Purpose:** Checklist for deciding whether a recurring Grace-Mar process is eligible for **known-path** treatment (documented assistance within explicit authority), versus staying **manual**, **narrower**, or **open-ended**.
 
@@ -8,7 +8,7 @@
 
 ## Fitness test summary
 
-Answer the **required questions** below. If **any** required answer is “no” or unknown, the workflow is **not** eligible as a full known-path workflow until scope is tightened. Then apply **disqualifiers** and **checks**. End with a **final classification**.
+Answer the **required questions** below. If **any** required answer is â€œnoâ€ or unknown, the workflow is **not** eligible as a full known-path workflow until scope is tightened. Then apply **disqualifiers** and **checks**. End with a **final classification**.
 
 ---
 
@@ -25,13 +25,13 @@ Answer the **required questions** below. If **any** required answer is “no” 
 
 ### 3. Stable output
 
-- Does the workflow produce a **predictable output type** (e.g. “draft markdown in path X”, “candidate block for recursion-gate”, “receipt JSON”)?
+- Does the workflow produce a **predictable output type** (e.g. â€œdraft markdown in path Xâ€, â€œcandidate block for recursion-gateâ€, â€œreceipt JSONâ€)?
 - Can a **human** distinguish a **good** output from a **bad** output using criteria written in the workflow doc?
 
 ### 4. Known reviewer
 
 - **Who** reviews the output?
-- Is there a **named human** or **explicit role** (e.g. “operator”, “companion”) responsible for **final judgment**?
+- Is there a **named human** or **explicit role** (e.g. â€œoperatorâ€, â€œcompanionâ€) responsible for **final judgment**?
 
 ### 5. Authority class
 
@@ -40,7 +40,7 @@ Answer the **required questions** below. If **any** required answer is “no” 
 
 ### 6. No durable bypass
 
-- Does the workflow **preserve** [recursion-gate](../../../users/grace-mar/recursion-gate.md) and Record boundaries?
+- Does the workflow **preserve** [recursion-gate](../../../recursion-gate.md) and Record boundaries?
 - Does it **avoid** writing directly to **canonical** SELF, EVIDENCE, SKILLS, prompt, or merging candidates without **human approval** and the **documented merge path**?
 
 ### 7. Load-lift
@@ -64,7 +64,7 @@ If **any** of these apply, the workflow is **not** eligible as a known-path work
 - **Long-horizon autonomous operation** (runs unattended across days without human checkpoints).
 - **Durable Record writes** without human approval and the normal merge pipeline.
 - **Ambiguous ownership** (no named reviewer).
-- **Unknown or drifting input surfaces** (“whatever is in the repo”).
+- **Unknown or drifting input surfaces** (â€œwhatever is in the repoâ€).
 - **No measurable review burden** estimate (cannot do load-lift).
 - **No clear good/bad output** standard.
 - **Sensitive connector or repo access** without an explicit **maximum_action** and authority alignment.
@@ -82,7 +82,7 @@ If **any** of these apply, the workflow is **not** eligible as a known-path work
 
 - **Manual time saved** per run (or per week): documented number or range.
 - **Review time** expected: documented.
-- **Acceptable if:** inequality “saved ≥ review + coordination overhead” or explicit operator exception (documented).
+- **Acceptable if:** inequality â€œsaved â‰¥ review + coordination overheadâ€ or explicit operator exception (documented).
 - **Retire if:** false positives, review fatigue, or drift in inputs/outputs.
 - After a pilot or when comparing runs, optionally record a [Load-Lift Receipt](load-lift-receipts.md) (time fields + `decision`); not required for a **paper** fitness test, **recommended** before `status: active`.
 
@@ -91,14 +91,14 @@ If **any** of these apply, the workflow is **not** eligible as a known-path work
 ## Reviewer check
 
 - Reviewer name or role is **in the workflow doc**.
-- Escalation path exists if the reviewer is unavailable (e.g. “defer run”, not “auto-approve”).
+- Escalation path exists if the reviewer is unavailable (e.g. â€œdefer runâ€, not â€œauto-approveâ€).
 
 ---
 
 ## Output check
 
 - Output **path or artifact type** is fixed in the doc.
-- **Good / bad** examples or a short rubric exist (can be in “Example run” section).
+- **Good / bad** examples or a short rubric exist (can be in â€œExample runâ€ section).
 
 ---
 
@@ -135,3 +135,4 @@ Pick **one**:
 8. **Failure visibility:** Errors and bad outputs detectable within one run or review cycle.
 
 Then confirm **no disqualifiers** and assign a **final classification** above.
+

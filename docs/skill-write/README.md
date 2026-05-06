@@ -8,7 +8,7 @@
 
 | Layer | Location | Role |
 |-------|----------|------|
-| **Companion WRITE (Record)** | `users/[id]/skill-write.md` (and related evidence) | What the fork **demonstrates** — samples, YAML, capability trajectory; feeds **Voice** / linguistic layer per skills-modularity §4. |
+| **Companion WRITE (Record)** | `skill-write.md` (and related evidence) | What the fork **demonstrates** — samples, YAML, capability trajectory; feeds **Voice** / linguistic layer per skills-modularity §4. |
 | **skill-write doctrine (this hub)** | `docs/skill-write/*.md` | **Operator preferences** and **drafting craft** — how agent-assisted drafts are shaped for **Locals / X / YouTube comments** (above), plus ledes, closers, density; update when your taste changes. |
 | **CIV-MIND-BARNES / tri-mind Barnes** | `docs/skill-work/work-strategy/strategy-notebook/experts/barnes/mind.md` (via [minds/README.md](../skill-work/work-strategy/minds/README.md)) | **WORK/strategy** analysis voice — **orthogonal** to **VivaBarnesLaw Locals** paste-up defaults; see [write-operator-preferences.md](write-operator-preferences.md) (*Not the same as*). |
 
@@ -23,6 +23,9 @@
 | [`.cursor/skills/skill-write/SKILL.md`](../../.cursor/skills/skill-write/SKILL.md) | **Cursor skill entry** — triggers **`write`**, **`skill-write`**, **`publish`**; compound **`strategy write`** loads **skill-strategy + skill-write** |
 | [write-operator-preferences.md](write-operator-preferences.md) | **SSOT for operator writing preferences** — living list; start here (includes **tri-mind → public copy** handoff, **Chat delivery**, **Locals vs CIV-MIND-BARNES**, **substance-first ledes with images**) |
 | [grace-mar-locals-voice.md](grace-mar-locals-voice.md) | **Grace‑Mar** house style for **Locals** (VivaBarnes / Duran): do / do not, gears, prudence; not default tri-mind Barnes |
+| [locals-analysis-to-post-recipe.md](locals-analysis-to-post-recipe.md) | Canonical **analysis → Locals** production recipe: choose one angle, reduce to one claim spine, curate proof, draft, ship |
+| [locals-post-scaffold.md](locals-post-scaffold.md) | Reusable drafting scaffold for transcript- and analysis-derived Locals posts |
+| [locals-barnes-arc-worked-example.md](locals-barnes-arc-worked-example.md) | Reference implementation: Barnes/Davis arc turned into one medium **VivaBarnesLaw** Locals post, with optional X / PH follow-ons |
 | [brief-vs-spec.md](brief-vs-spec.md) | **Brief vs spec** — when to use a WORK job brief for writing / strategy / delegation vs a system spec for implementation |
 | [write-no-abstract-stacked-closers.md](write-no-abstract-stacked-closers.md) | Craft: avoid bloaty abstract stacked closers in short public copy |
 | [write-memorable-closer.md](write-memorable-closer.md) | Craft: end on one strong sentence that encapsulates the core argument |
@@ -44,5 +47,16 @@
 
 - [skills-modularity.md](../skills-modularity.md) — WRITE module, Voice as f(skill-write)
 - [skills-template.md](../skills-template.md) — skill file shape
-- Instance WRITE evidence: `users/[id]/skill-write.md` (or split per template); see [canonical-paths.md](../canonical-paths.md)
+- Instance WRITE evidence: `skill-write.md` (or split per template); see [canonical-paths.md](../canonical-paths.md)
 - Topic-first ledes (Cursor): [.cursor/rules/drafting-topic-lede.mdc](../../.cursor/rules/drafting-topic-lede.mdc)
+
+## Locals workflow
+
+For **VivaBarnesLaw / Duran** posts built from strategy analysis, `skill-write` now includes:
+- voice and craft rules
+- the shipping checklist
+- a canonical **analysis → Locals** recipe
+- a reusable scaffold
+- a worked Barnes/Davis example
+
+That means `docs/skill-write/` is now the canonical home for the **Locals production workflow**, not only for style calibration.

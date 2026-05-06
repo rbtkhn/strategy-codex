@@ -1,6 +1,6 @@
-# Pipeline Map
+﻿# Pipeline Map
 
-**Purpose:** Diagram the feedback loops that feed the cognitive fork — which modules feed which, where data is transformed, and where loops exist or are missing.
+**Purpose:** Diagram the feedback loops that feed the cognitive fork â€” which modules feed which, where data is transformed, and where loops exist or are missing.
 
 **See also:** [architecture.md](architecture.md), [grace-mar.mdc](../.cursor/rules/grace-mar.mdc), [CONTRADICTION-ENGINE-SPEC.md](CONTRADICTION-ENGINE-SPEC.md) (identity-diff at the gate)
 
@@ -9,32 +9,32 @@
 ## Overview
 
 ```
-┌─────────────────────────────────────────────────────────────────────────────────┐
-│                           INPUT CHANNELS                                         │
-├─────────────────────────────────┬───────────────────────────────────────────────┤
-│  Channel 1: Bot (Automated)     │  Channel 2: Operator (Manual)                  │
-│  Telegram → Analyst → PENDING   │  "We [did X]" → Cursor → PENDING               │
-└────────────────┬────────────────┴───────────────────────┬───────────────────────┘
-                 │                                        │
-                 └────────────────────┬───────────────────┘
-                                      ▼
-                         ┌─────────────────────────┐
-                         │     RECURSION-GATE      │
-                         │  (integration moment:   │
-                         │   user approve/reject)  │
-                         └────────────┬────────────┘
-                                      │ approved
-                                      ▼
-┌─────────────────────────────────────────────────────────────────────────────────┐
-│                           INTEGRATION                                            │
-│  self.md  │  self-evidence.md (ACT-*)  │  session-log.md  │  bot/prompt.py              │
-└─────────────────────────────────────────────────────────────────────────────────┘
-                                      │
-                                      ▼
-┌─────────────────────────────────────────────────────────────────────────────────┐
-│                           FORK STATE                                             │
-│  SELF (IX-A/B/C)  │  SKILLS (THINK/WRITE/WORK)  │  EVIDENCE (module logs)  │
-└─────────────────────────────────────────────────────────────────────────────────┘
+â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+â”‚                           INPUT CHANNELS                                         â”‚
+â”œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¬â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¤
+â”‚  Channel 1: Bot (Automated)     â”‚  Channel 2: Operator (Manual)                  â”‚
+â”‚  Telegram â†’ Analyst â†’ PENDING   â”‚  "We [did X]" â†’ Cursor â†’ PENDING               â”‚
+â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¬â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”´â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¬â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
+                 â”‚                                        â”‚
+                 â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¬â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
+                                      â–¼
+                         â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+                         â”‚     RECURSION-GATE      â”‚
+                         â”‚  (integration moment:   â”‚
+                         â”‚   user approve/reject)  â”‚
+                         â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¬â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
+                                      â”‚ approved
+                                      â–¼
+â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+â”‚                           INTEGRATION                                            â”‚
+â”‚  self.md  â”‚  self-evidence.md (ACT-*)  â”‚  session-log.md  â”‚  bot/prompt.py              â”‚
+â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
+                                      â”‚
+                                      â–¼
+â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+â”‚                           FORK STATE                                             â”‚
+â”‚  SELF (IX-A/B/C)  â”‚  SKILLS (THINK/WRITE/WORK)  â”‚  EVIDENCE (module logs)  â”‚
+â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
 ```
 
 ---
@@ -47,26 +47,26 @@
 
 The **recursive learning process** is:
 
-1. **Input** — Activity (conversation, artifact, "we did X") enters the system.
-2. **Signal detection** — Analyst compares input to current Record; identifies new knowledge, curiosity, personality.
-3. **Staging** — Candidates written to RECURSION-GATE.
-4. **Integration moment** — User approves or rejects.
-5. **Merge** — Approved content integrated into SELF, EVIDENCE, prompt.
-6. **Updated Record** — Fork state now reflects the new content.
-7. **Cycle repeats** — Next input is analyzed *against the updated Record* (dedup, richer context). Voice responses use the updated profile. Proposed activities (future) could use SKILLS container edge.
+1. **Input** â€” Activity (conversation, artifact, "we did X") enters the system.
+2. **Signal detection** â€” Analyst compares input to current Record; identifies new knowledge, curiosity, personality.
+3. **Staging** â€” Candidates written to RECURSION-GATE.
+4. **Integration moment** â€” User approves or rejects.
+5. **Merge** â€” Approved content integrated into SELF, EVIDENCE, prompt.
+6. **Updated Record** â€” Fork state now reflects the new content.
+7. **Cycle repeats** â€” Next input is analyzed *against the updated Record* (dedup, richer context). Voice responses use the updated profile. Proposed activities (future) could use SKILLS container edge.
 
-**Recursion** = The output of step 6 becomes input to step 1 (indirectly): the Record influences what gets detected (analyst dedup), what the Voice says (SYSTEM_PROMPT), and—when implemented—what activities get proposed (container edge).
+**Recursion** = The output of step 6 becomes input to step 1 (indirectly): the Record influences what gets detected (analyst dedup), what the Voice says (SYSTEM_PROMPT), andâ€”when implementedâ€”what activities get proposed (container edge).
 
 ### Current vs. Full Recursion
 
 | Loop | Status | Description |
 |------|--------|-------------|
-| **Forward** (input → Record) | ✅ Implemented | Activity → detect → stage → approve → merge |
-| **Record → Voice** | ✅ Implemented | Prompt embeds Record; Voice speaks from it |
-| **Record → Analyst** | ✅ Implemented | Dedup list prevents re-staging known content |
-| **Record → Proposed activities** | ❌ Not implemented | SKILLS container edge could drive "propose activity at edge" |
+| **Forward** (input â†’ Record) | âœ… Implemented | Activity â†’ detect â†’ stage â†’ approve â†’ merge |
+| **Record â†’ Voice** | âœ… Implemented | Prompt embeds Record; Voice speaks from it |
+| **Record â†’ Analyst** | âœ… Implemented | Dedup list prevents re-staging known content |
+| **Record â†’ Proposed activities** | âŒ Not implemented | SKILLS container edge could drive "propose activity at edge" |
 
-The edge→quest loop (Record proposes activities at the container boundary) would close the recursion: the Record would influence *what the companion is invited to do next*, creating new input. See Gaps below.
+The edgeâ†’quest loop (Record proposes activities at the container boundary) would close the recursion: the Record would influence *what the companion is invited to do next*, creating new input. See Gaps below.
 
 ### Cybernetic Framing
 
@@ -78,21 +78,21 @@ The pipeline is a **cybernetic loop** (Wiener): feedback corrects drift. Entropy
 
 ```
 User message (Telegram)
-        │
-        ▼
-┌───────────────────┐
-│  Grace-Mar reply  │  ← SYSTEM_PROMPT (SELF, SKILLS, EVIDENCE inline)
-└─────────┬─────────┘
-          │
-          ├──[if lookup triggered]──► LIBRARY reference lane first → if hit: REPHRASE; if miss: LOOKUP_PROMPT → REPHRASE_PROMPT → reply
-          │
-          ▼
-┌───────────────────┐
-│  Analyst (async)  │  ← ANALYST_PROMPT, compares to profile for dedup
-└─────────┬─────────┘
-          │
-          ├──[signal found]──► stage_candidate() → recursion-gate.md **before** `## Processed`
-          └──[NONE]──────────► (no staging)
+        â”‚
+        â–¼
+â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+â”‚  Grace-Mar reply  â”‚  â† SYSTEM_PROMPT (SELF, SKILLS, EVIDENCE inline)
+â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¬â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
+          â”‚
+          â”œâ”€â”€[if lookup triggered]â”€â”€â–º LIBRARY reference lane first â†’ if hit: REPHRASE; if miss: LOOKUP_PROMPT â†’ REPHRASE_PROMPT â†’ reply
+          â”‚
+          â–¼
+â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+â”‚  Analyst (async)  â”‚  â† ANALYST_PROMPT, compares to profile for dedup
+â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¬â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
+          â”‚
+          â”œâ”€â”€[signal found]â”€â”€â–º stage_candidate() â†’ recursion-gate.md **before** `## Processed`
+          â””â”€â”€[NONE]â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â–º (no staging)
 ```
 
 **Bot feeds:** SELF (IX-A Knowledge, IX-B Curiosity, IX-C Personality) via lookup and conversation signals. Does **not** directly feed SKILLS modules or EVIDENCE module logs (THINK/WRITE/WORK).
@@ -105,86 +105,86 @@ User message (Telegram)
 
 ```
 User says "we [did X]" (Cursor)
-        │
-        ▼
-┌───────────────────┐
-│  Signal detection │  Manual analysis — identify knowledge, curiosity, personality
-│  (human + AI)     │
-└─────────┬─────────┘
-          │
-          ▼
-┌───────────────────┐
-│  Stage candidate  │  Write to recursion-gate.md with analysis
-└─────────┬─────────┘
-          │
-          ▼
+        â”‚
+        â–¼
+â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+â”‚  Signal detection â”‚  Manual analysis â€” identify knowledge, curiosity, personality
+â”‚  (human + AI)     â”‚
+â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¬â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
+          â”‚
+          â–¼
+â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+â”‚  Stage candidate  â”‚  Write to recursion-gate.md with analysis
+â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¬â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
+          â”‚
+          â–¼
     [same integration as Channel 1]
 ```
 
-**Operator feeds:** Any observed activity — school work, art, overheard moments, real-world events. Same destination: RECURSION-GATE → SELF, EVIDENCE (ACT-*), etc.
+**Operator feeds:** Any observed activity â€” school work, art, overheard moments, real-world events. Same destination: RECURSION-GATE â†’ SELF, EVIDENCE (ACT-*), etc.
 
 ---
 
 ## Pillar Evidence Flows
 
-### WRITE (EVIDENCE § II. WRITING LOG)
+### WRITE (EVIDENCE Â§ II. WRITING LOG)
 
 ```
 Physical artifact (handwritten)
-        │
-        ▼
-┌───────────────────┐
-│  User captures    │  Photograph → save to artifacts/
-│  (manual)         │  Add entry to self-evidence.md Writing Log
-└─────────┬─────────┘
-          │
-          ├──► skills.md WRITE (vocabulary, complexity, style)
-          └──► SELF.linguistic_style, SELF.interests, SELF.emotional_patterns
+        â”‚
+        â–¼
+â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+â”‚  User captures    â”‚  Photograph â†’ save to artifacts/
+â”‚  (manual)         â”‚  Add entry to self-evidence.md Writing Log
+â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¬â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
+          â”‚
+          â”œâ”€â”€â–º skills.md WRITE (vocabulary, complexity, style)
+          â””â”€â”€â–º SELF.linguistic_style, SELF.interests, SELF.emotional_patterns
 ```
 
 **Automation:** None. Fully manual. No bot feed.
 
 ---
 
-### READ (EVIDENCE § I. READING LIST)
+### READ (EVIDENCE Â§ I. READING LIST)
 
 ```
 Books / articles consumed
-        │
-        ▼
-┌───────────────────┐
-│  User logs        │  Add entry to self-evidence.md Reading List (READ-*)
-│  (manual)         │
-└─────────┬─────────┘
-          │
-          ├──► skills.md THINK (comprehension, vocabulary, interests)  ← direct
-          │
-          └──► SELF IX-A/B/C  ← NOT automatic; only via RECURSION-GATE + approve
+        â”‚
+        â–¼
+â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+â”‚  User logs        â”‚  Add entry to self-evidence.md Reading List (READ-*)
+â”‚  (manual)         â”‚
+â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¬â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
+          â”‚
+          â”œâ”€â”€â–º skills.md THINK (comprehension, vocabulary, interests)  â† direct
+          â”‚
+          â””â”€â”€â–º SELF IX-A/B/C  â† NOT automatic; only via RECURSION-GATE + approve
 ```
 
 **Do not assume** logging READ-* or updating THINK also updates SELF.IX. For identity lines (what she *knows* about the book, sustained curiosity, stance), stage separate candidates and approve. Full ritual: [we-read-think-self-pipeline.md](we-read-think-self-pipeline.md).
 
 **Operator convention:** When the operator says **"we finished [book]"** or **"we read [title]"**, treat it as a pipeline invocation. Run signal detection and stage a candidate that can create a READ-* entry (or a LEARN-* / curiosity candidate that references the book so THINK and SELF.IX can be updated on approval). Do not ignore book-completion signals.
 
-**Minimal READ entry shape** (for staged candidates): `id: READ-XXXX`, `title`, `date`, `evidence_tier` (e.g. 4 OBSERVED), and 1–2 comprehension or interest notes. See [evidence-template.md](evidence-template.md) § III for full structure.
+**Minimal READ entry shape** (for staged candidates): `id: READ-XXXX`, `title`, `date`, `evidence_tier` (e.g. 4 OBSERVED), and 1â€“2 comprehension or interest notes. See [evidence-template.md](evidence-template.md) Â§ III for full structure.
 
-**Automation:** None for bot. Operator-triggered: "we finished [X]" / "we read [X]" → stage READ or LEARN candidate. **Gap:** Bot conversations about books could feed interest signals, but those go to SELF IX-B (curiosity), not to THINK module. No structured READ evidence from bot.
+**Automation:** None for bot. Operator-triggered: "we finished [X]" / "we read [X]" â†’ stage READ or LEARN candidate. **Gap:** Bot conversations about books could feed interest signals, but those go to SELF IX-B (curiosity), not to THINK module. No structured READ evidence from bot.
 
 ---
 
-### WORK creation (EVIDENCE § III. CREATION LOG — BUILD container)
+### WORK creation (EVIDENCE Â§ III. CREATION LOG â€” BUILD container)
 
 ```
 Physical artifact (artwork, collage, etc.)
-        │
-        ▼
-┌───────────────────┐
-│  User captures    │  Photograph → save to artifacts/
-│  (manual)         │  Add entry to self-evidence.md Creation Log
-└─────────┬─────────┘
-          │
-          ├──► skills.md BUILD (originality, elaboration, flexibility)
-          └──► SELF.reasoning_patterns, SELF.interests
+        â”‚
+        â–¼
+â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+â”‚  User captures    â”‚  Photograph â†’ save to artifacts/
+â”‚  (manual)         â”‚  Add entry to self-evidence.md Creation Log
+â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¬â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
+          â”‚
+          â”œâ”€â”€â–º skills.md BUILD (originality, elaboration, flexibility)
+          â””â”€â”€â–º SELF.reasoning_patterns, SELF.interests
 ```
 
 **Automation:** None. Fully manual. No bot feed.
@@ -193,14 +193,14 @@ Physical artifact (artwork, collage, etc.)
 
 ## Canonical Artifact Taxonomy
 
-When saving retained visual evidence under `users/grace-mar/artifacts/`, default to these high-frequency classes:
+When saving retained visual evidence under `artifacts/`, default to these high-frequency classes:
 
 | Class | Typical examples | Usual evidence surface |
 |------|-------------------|------------------------|
-| **Writing sample** | journal page, story, copied text, reflection, school writing | `WRITE-*` entry in EVIDENCE § II |
-| **Drawing / illustration** | free drawing, character art, imaginative scene | `CREATE-*` entry in EVIDENCE § III |
+| **Writing sample** | journal page, story, copied text, reflection, school writing | `WRITE-*` entry in EVIDENCE Â§ II |
+| **Drawing / illustration** | free drawing, character art, imaginative scene | `CREATE-*` entry in EVIDENCE Â§ III |
 | **Worksheet / school page** | science worksheet, reading response, vocabulary page | Usually `WRITE-*`; sometimes `ACT-*` if the artifact supports multiple signals |
-| **Craft / collage / physical project** | collage, cutout, 3D craft, poster | `CREATE-*` entry in EVIDENCE § III |
+| **Craft / collage / physical project** | collage, cutout, 3D craft, poster | `CREATE-*` entry in EVIDENCE Â§ III |
 | **Multi-page packet** | booklet, worksheet sequence, multi-page assignment | One parent `ACT-*` plus linked `WRITE-*` / `CREATE-*` entries as needed |
 | **Scratch / whiteboard thinking** | planning page, labeling exercise, rough problem-solving | `WRITE-*` or `ACT-*` depending on whether text or process is primary |
 | **Reading-adjacent artifact** | book response page, read-aloud follow-up, favorite-book drawing | `WRITE-*`, `CREATE-*`, or `ACT-*` depending on dominant modality |
@@ -210,7 +210,7 @@ When saving retained visual evidence under `users/grace-mar/artifacts/`, default
 
 ### Naming convention
 
-- Save files in lowercase under `users/grace-mar/artifacts/`.
+- Save files in lowercase under `artifacts/`.
 - Prefer existing evidence IDs in filenames when known:
   - `write-0007-title-slug.png`
   - `create-0011-title-slug.jpg`
@@ -224,7 +224,7 @@ When saving retained visual evidence under `users/grace-mar/artifacts/`, default
 
 ---
 
-## SELF ← Pillar Feedback (from ARCHITECTURE)
+## SELF â† Pillar Feedback (from ARCHITECTURE)
 
 | Pillar activity | Feeds SELF |
 |-----------------|------------|
@@ -236,14 +236,14 @@ When saving retained visual evidence under `users/grace-mar/artifacts/`, default
 
 ## Integration Step (File Update Protocol)
 
-The approval step is the **integration moment** — the conscious gate where the companion (Mind) chooses what enters the Record. When candidates are **approved**, merge into **all** of:
+The approval step is the **integration moment** â€” the conscious gate where the companion (Mind) chooses what enters the Record. When candidates are **approved**, merge into **all** of:
 
 | File | Update |
 |------|--------|
-| `users/[id]/self.md` | IX-A, IX-B, IX-C entries (merged) |
-| `users/[id]/self-evidence.md` | New ACT-* in Activity Log |
-| `users/[id]/recursion-gate.md` | Move candidate to Processed |
-| `users/[id]/session-log.md` | Session record |
+| `self.md` | IX-A, IX-B, IX-C entries (merged) |
+| `self-evidence.md` | New ACT-* in Activity Log |
+| `recursion-gate.md` | Move candidate to Processed |
+| `session-log.md` | Session record |
 | `bot/prompt.py` | YOUR KNOWLEDGE, YOUR CURIOSITY, YOUR PERSONALITY + analyst dedup list |
 
 ---
@@ -252,10 +252,10 @@ The approval step is the **integration moment** — the conscious gate where the
 
 | Gap | Description | Potential fix |
 |-----|-------------|---------------|
-| **THINK has no bot feed** | Bot conversations mention books, but THINK module (comprehension, vocabulary) has no automated input. Reading List is empty. | Add analyst signal for "book discussed" → stage candidate that could create READ-* or link to interest. Or: operator workflow for "we finished [book]." |
-| **WRITE / WORK (creation) fully manual** | No automation for artifact capture. User must photograph, save, and write EVIDENCE entry. | Optional: upload flow (e.g. Telegram photo → staging for EVIDENCE), or template script for new WRITE/WORK entries. |
-| **Edge → quest feedback** | Container edge (SKILLS) could drive "propose activity" but there is no automated quest generator. | Future: script that reads SKILLS, infers edge, outputs suggested activities. |
-| ~~No pipeline event log~~ | ~~Staging and approval implicit in file edits~~ | ✅ Implemented: `pipeline-events.jsonl` — bot emits `staged`; operator runs `emit_pipeline_event.py applied CANDIDATE-XX` when processing. |
+| **THINK has no bot feed** | Bot conversations mention books, but THINK module (comprehension, vocabulary) has no automated input. Reading List is empty. | Add analyst signal for "book discussed" â†’ stage candidate that could create READ-* or link to interest. Or: operator workflow for "we finished [book]." |
+| **WRITE / WORK (creation) fully manual** | No automation for artifact capture. User must photograph, save, and write EVIDENCE entry. | Optional: upload flow (e.g. Telegram photo â†’ staging for EVIDENCE), or template script for new WRITE/WORK entries. |
+| **Edge â†’ quest feedback** | Container edge (SKILLS) could drive "propose activity" but there is no automated quest generator. | Future: script that reads SKILLS, infers edge, outputs suggested activities. |
+| ~~No pipeline event log~~ | ~~Staging and approval implicit in file edits~~ | âœ… Implemented: `pipeline-events.jsonl` â€” bot emits `staged`; operator runs `emit_pipeline_event.py applied CANDIDATE-XX` when processing. |
 
 ---
 
@@ -273,13 +273,14 @@ python scripts/run_counterfactual_harness.py
 
 | Loop | Exists? | Frequency |
 |------|---------|-----------|
-| Bot → Analyst → PENDING → Integration → SELF, prompt | ✅ Yes | Per exchange (when signal found) |
-| Operator → PENDING → Integration → SELF, EVIDENCE | ✅ Yes | Per "we [did X]" |
-| WRITE artifact → EVIDENCE → SKILLS, SELF | ✅ Yes | Manual, per artifact |
-| READ artifact → EVIDENCE → SKILLS, SELF | ⚠️ Sparse | Manual, 0 entries so far |
-| WORK (creation) artifact → EVIDENCE → SKILLS, SELF | ✅ Yes | Manual, per artifact |
-| SKILLS/edge → propose activity → artifact → EVIDENCE | ❌ No | Not implemented. Would close recursive loop. |
+| Bot â†’ Analyst â†’ PENDING â†’ Integration â†’ SELF, prompt | âœ… Yes | Per exchange (when signal found) |
+| Operator â†’ PENDING â†’ Integration â†’ SELF, EVIDENCE | âœ… Yes | Per "we [did X]" |
+| WRITE artifact â†’ EVIDENCE â†’ SKILLS, SELF | âœ… Yes | Manual, per artifact |
+| READ artifact â†’ EVIDENCE â†’ SKILLS, SELF | âš ï¸ Sparse | Manual, 0 entries so far |
+| WORK (creation) artifact â†’ EVIDENCE â†’ SKILLS, SELF | âœ… Yes | Manual, per artifact |
+| SKILLS/edge â†’ propose activity â†’ artifact â†’ EVIDENCE | âŒ No | Not implemented. Would close recursive loop. |
 
 ---
 
 *Last updated: February 2026*
+

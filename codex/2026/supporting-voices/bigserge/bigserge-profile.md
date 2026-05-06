@@ -1,9 +1,9 @@
-# Strategy expert — `bigserge`
+# Strategy expert Ã¢â‚¬â€ `bigserge`
 <!-- word_count: 685 -->
 
 WORK only; not Record.
 
-**Canonical index:** [strategy-commentator-threads.md](../../strategy-commentator-threads.md) — **`bigserge`** lane.
+**Canonical index:** [strategy-commentator-threads.md](../../strategy-commentator-threads.md) Ã¢â‚¬â€ **`bigserge`** lane.
 
 ---
 
@@ -13,55 +13,55 @@ WORK only; not Record.
 |-------|-------|
 | **Name** | Big Serge |
 | **expert_id** | `bigserge` |
-| **Role** | *Big Serge Thought* — long-form **strategy / war studies** on Substack: **campaign** and **theater-level** synthesis, often beside **open-source** and **media** threads; **Eastern Europe** and **great-power war** weeks are common but **not** exclusive. |
+| **Role** | *Big Serge Thought* Ã¢â‚¬â€ long-form **strategy / war studies** on Substack: **campaign** and **theater-level** synthesis, often beside **open-source** and **media** threads; **Eastern Europe** and **great-power war** weeks are common but **not** exclusive. |
 | **Default grep tags** | `Big Serge`, `bigserge`, `witte_sergei`, `Big Serge Thought` in cold |
-| **Typical pairings** | × `berletic`, × `ritter`, × `johnson`, × `baud`, × `mercouris` |
+| **Typical pairings** | Ãƒâ€” `berletic`, Ãƒâ€” `ritter`, Ãƒâ€” `johnson`, Ãƒâ€” `baud`, Ãƒâ€” `mercouris` |
 | **Notebook-use tags** | `narrate`, `validate` |
 
 <a id="voice-fingerprint-compact"></a>
 
-## Voice fingerprint (compact) — Tier B
+## Voice fingerprint (compact) Ã¢â‚¬â€ Tier B
 
 | Field | Value |
 |-------|-------|
 | **Voice tier** | `B` |
-| **Voice fingerprint — last reviewed** | `2026-04` |
+| **Voice fingerprint Ã¢â‚¬â€ last reviewed** | `2026-04` |
 
-Promotion and refresh defaults: [strategy-expert-template.md § Voice fingerprint (compact)](strategy-expert-template.md#voice-fingerprint-compact).
+Promotion and refresh defaults: [strategy-expert-template.md Ã‚Â§ Voice fingerprint (compact)](strategy-expert-template.md#voice-fingerprint-compact).
 
 ## Convergence fingerprint
 
 ### Recurrent convergences
 
-- `bigserge` + **campaign narrative** and **operations-of-war** framing — a **second read** on the same week’s **maps and headlines** that **`berletic`** or **`ritter`** treat with different tools (essay synthesis vs throughput or sea-control mechanics).
+- `bigserge` + **campaign narrative** and **operations-of-war** framing Ã¢â‚¬â€ a **second read** on the same weekÃ¢â‚¬â„¢s **maps and headlines** that **`berletic`** or **`ritter`** treat with different tools (essay synthesis vs throughput or sea-control mechanics).
 
 ### Convergence conditions
 
-- Useful when the notebook needs a **dated Substack spine** for **“how does this week’s fighting read as a story?”** beside **material** and **institutional** lanes — **tier** stays **secondary** unless a claim is pinned to a named primary.
+- Useful when the notebook needs a **dated Substack spine** for **Ã¢â‚¬Å“how does this weekÃ¢â‚¬â„¢s fighting read as a story?Ã¢â‚¬Â** beside **material** and **institutional** lanes Ã¢â‚¬â€ **tier** stays **secondary** unless a claim is pinned to a named primary.
 
 ## Tension fingerprint
 
 ### Recurrent tensions
 
-- `bigserge` × **wire-only Judgment** — long-form register blends **interpretation**, **selected** OSINT, and **outlet** cites; **do not** merge into **official** ORBAT or **classified** claims without a **seam** and **verify** tier.
+- `bigserge` Ãƒâ€” **wire-only Judgment** Ã¢â‚¬â€ long-form register blends **interpretation**, **selected** OSINT, and **outlet** cites; **do not** merge into **official** ORBAT or **classified** claims without a **seam** and **verify** tier.
 
 ### Tension conditions
 
-- Tensions spike when **forward-looking** **battle** or **breakthrough** theses run **ahead** of **imagery**, **wire**, or **named** sources — preserve **hypothesis-grade** labels.
+- Tensions spike when **forward-looking** **battle** or **breakthrough** theses run **ahead** of **imagery**, **wire**, or **named** sources Ã¢â‚¬â€ preserve **hypothesis-grade** labels.
 
 ## Signature mechanisms
 
-- **Theater-level stack:** Essays that **string** operations, politics, and **narrative** momentum — strong **reading list** surface, not a substitute for **primary** **order-of-battle** pulls.
-- **Campaign arc framing** — explicit **interpretive** layer; pair with **`johnson`** / **`ritter`** **mechanics** or **`baud`** **law-of-war** reads only with **labeled** comparison.
+- **Theater-level stack:** Essays that **string** operations, politics, and **narrative** momentum Ã¢â‚¬â€ strong **reading list** surface, not a substitute for **primary** **order-of-battle** pulls.
+- **Campaign arc framing** Ã¢â‚¬â€ explicit **interpretive** layer; pair with **`johnson`** / **`ritter`** **mechanics** or **`baud`** **law-of-war** reads only with **labeled** comparison.
 
 ## Failure modes / overreads
 
-- **Brand vs biography:** attribution is to the **public** **Substack** and **X** persona — keep **epistemic** modesty on **identity** claims beyond what the operator has **sourced**.
-- **Narrative gravity:** vivid **campaign** language is **register**, not **confirmed** **front lines** — **do not** collapse into **`ritter`** **sea-control** or **`berletic`** **production** **counts** without a seam.
+- **Brand vs biography:** attribution is to the **public** **Substack** and **X** persona Ã¢â‚¬â€ keep **epistemic** modesty on **identity** claims beyond what the operator has **sourced**.
+- **Narrative gravity:** vivid **campaign** language is **register**, not **confirmed** **front lines** Ã¢â‚¬â€ **do not** collapse into **`ritter`** **sea-control** or **`berletic`** **production** **counts** without a seam.
 
 ## Recurrent claims
 
-- **War-in-progress** weeks read as **contests of narrative** and **tempo** as much as **static** maps — operator must **verify** **material** legs per claim.
+- **War-in-progress** weeks read as **contests of narrative** and **tempo** as much as **static** maps Ã¢â‚¬â€ operator must **verify** **material** legs per claim.
 
 ## Predictive drift / accuracy notes
 
@@ -69,7 +69,7 @@ Promotion and refresh defaults: [strategy-expert-template.md § Voice fingerprin
 
 ## Active weave cues
 
-- Pull when **`thread:bigserge`** ingests land in the inbox or **`raw-input`** captures anchor a **§1e** week and you need a **single-voice essay seam** beside **`mercouris`** or **`berletic`**.
+- Pull when **`thread:bigserge`** ingests land in the inbox or **`raw-input`** captures anchor a **Ã‚Â§1e** week and you need a **single-voice essay seam** beside **`mercouris`** or **`berletic`**.
 
 ## Archive / backfill note
 
@@ -88,28 +88,28 @@ Where **their** commentary is published and accessible (**no Wikipedia**). Re-ve
 2. https://bigserge.substack.com/feed
 3. https://x.com/witte_sergei
 
-## Seed (index mirror — operator may extend)
+## Seed (index mirror Ã¢â‚¬â€ operator may extend)
 
 ### Commentator row (from index)
 
 | expert_id | Name | Role (one line) | Default grep tag | Typical `batch-analysis` pairings |
 |-----------|--------|-----------------|------------------|-----------------------------------|
-| `bigserge` | Big Serge ([`@witte_sergei`](https://x.com/witte_sergei); *Big Serge Thought*) | **Substack** long-form **strategy / war studies** — **campaign** and **theater-level** synthesis, **OSINT- and media-thread** reads; **not** a wire or ORBAT primary | `Big Serge`, `bigserge`, `witte_sergei`, or `Big Serge Thought` in cold | × `berletic`, × `ritter`, × `johnson`, × `baud`, × `mercouris` |
+| `bigserge` | Big Serge ([`@witte_sergei`](https://x.com/witte_sergei); *Big Serge Thought*) | **Substack** long-form **strategy / war studies** Ã¢â‚¬â€ **campaign** and **theater-level** synthesis, **OSINT- and media-thread** reads; **not** a wire or ORBAT primary | `Big Serge`, `bigserge`, `witte_sergei`, or `Big Serge Thought` in cold | Ãƒâ€” `berletic`, Ãƒâ€” `ritter`, Ãƒâ€” `johnson`, Ãƒâ€” `baud`, Ãƒâ€” `mercouris` |
 
-### Quantitative metrics (illustrative — from index)
+### Quantitative metrics (illustrative Ã¢â‚¬â€ from index)
 
 | expert_id | SCI | AD | CTC | Plain-language note (Predictive History reader) |
 |-----------|-----|----|-----|--------------------------------------------------|
-| `bigserge` | 0.72 | 0.34 | 0.60 | Long-form war-studies register on Substack—campaign framing and narrative-of-operations that readers recognize week to week. Event-linked claims often need wire or imagery to close. Pairs naturally with industrial-capacity and ORBAT lanes as interpretive tension, not as duplicate primaries. |
+| `bigserge` | 0.72 | 0.34 | 0.60 | Long-form war-studies register on SubstackÃ¢â‚¬â€campaign framing and narrative-of-operations that readers recognize week to week. Event-linked claims often need wire or imagery to close. Pairs naturally with industrial-capacity and ORBAT lanes as interpretive tension, not as duplicate primaries. |
 
 ---
 
 **Companion files:** [`transcript.md`](transcript.md) (7-day rolling verbatim) and [`thread.md`](thread.md) (distilled analytical thread).
 
-## Knot-use guidance
+## Page-use guidance
 
-*Seed — extend when this lane anchors a knot.*
+*Seed Ã¢â‚¬â€ extend when this lane anchors a Page.*
 
 ## History resonance defaults
 
-*Seed — optional PH / book hooks.*
+*Seed Ã¢â‚¬â€ optional PH / book hooks.*

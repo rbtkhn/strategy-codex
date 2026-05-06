@@ -1,10 +1,10 @@
-# North star — Record (companion / Grace-Mar)
+﻿# North star â€” Record (companion / Grace-Mar)
 
-**Lane:** Abby’s Record, Voice, gated pipeline — not operator politics, not civ-mem drafts.
+**Lane:** Abbyâ€™s Record, Voice, gated pipeline â€” not operator politics, not civ-mem drafts.
 
 ## Done looks like (this month)
 
-- Gate queue **not silently growing** — pending reviewed or deferred with a note.
+- Gate queue **not silently growing** â€” pending reviewed or deferred with a note.
 - Voice answers stay inside **documented** knowledge; abstention when outside.
 - Nothing merged into SELF / EVIDENCE / prompt **without** companion approval.
 
@@ -17,11 +17,12 @@
 
 | What | Where |
 |------|--------|
-| Staging | `users/grace-mar/recursion-gate.md` |
-| Identity + IX | `users/grace-mar/self.md` |
-| Activity log | `users/grace-mar/self-evidence.md` |
-| Continuity / tone (non-Record) | `users/grace-mar/self-memory.md` — short/medium/long horizons; rotatable |
+| Staging | `recursion-gate.md` |
+| Identity + IX | `self.md` |
+| Activity log | `self-evidence.md` |
+| Continuity / tone (non-Record) | `self-memory.md` â€” short/medium/long horizons; rotatable |
 
 ## Weekly minimum
 
-See [WEEKLY-RHYTHM.md](WEEKLY-RHYTHM.md) § Record.
+See [WEEKLY-RHYTHM.md](WEEKLY-RHYTHM.md) Â§ Record.
+

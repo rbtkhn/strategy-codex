@@ -29,6 +29,8 @@ The EOD session is where **capture is promoted into judgment**. It should **synt
 
 **Optional pre-Stage 0 orientation:** run `python3 scripts/strategy_console.py --mode eod` to refresh [`strategy-console/console-view.md`](strategy-console/console-view.md). This is a derived orientation surface only. It may suggest a conservative EOD route, but it does **not** replace the evidence pile, MCQ choices, or authorized drafting process.
 
+**Optional elicitation checkpoint:** If the evidence pile is available but the decision is blocked by tacit operator judgment, run a bounded `skill-elicitation` checkpoint before drafting. Use it only for stream ownership, raw-input routing, page-shape choice, contrapuntal comparison, or civ-mem lens selection. The checkpoint may clarify the next menu answer; it does **not** auto-compose prose, mutate `/codex`, or replace the operator's EOD choices.
+
 ---
 
 ## Stage 0 — Build the evidence pile
@@ -220,7 +222,8 @@ Fastest path — use when the operator wants fewer forks:
 4. If routing is ambiguous, keep it **cold** rather than forcing the wrong author lane.  
 5. Keep menus **short and tailored**; do not show giant universal menus every time.  
 6. Favor **one strong page** over many shallow ones.  
-7. End with a clean **recovery point** for tomorrow (`### Foresight` or one-line chat stub).
+7. If a menu answer depends on operator judgment that is not yet explicit, offer one bounded `skill-elicitation` checkpoint rather than forcing a lane or page shape.
+8. End with a clean **recovery point** for tomorrow (`### Foresight` or one-line chat stub).
 
 ---
 

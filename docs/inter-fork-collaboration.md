@@ -23,7 +23,7 @@ This keeps collaboration additive while preserving the existing **Sovereign Merg
 
 Grace-Mar already has:
 
-- strong **fork isolation** under `users/<fork_id>/`
+- strong **fork isolation** under `<fork_id>/`
 - strong **single-fork governance** through `recursion-gate.md` and the change-review queue
 - a **cross-instance boundary** doctrine for separate repos
 
@@ -87,7 +87,7 @@ Typical fits:
 
 Recipient-owned destination:
 
-- `users/<recipient>/recursion-gate.md`
+- `<recipient>/recursion-gate.md`
 
 ### 2. Change Proposal review
 
@@ -101,7 +101,7 @@ Typical fits:
 
 Recipient-owned destination:
 
-- `users/<recipient>/review-queue/proposals/`
+- `<recipient>/review-queue/proposals/`
 - plus queue / event-log updates inside the recipient review queue
 
 This path must reuse [schema-registry/change-proposal.v1.json](../schema-registry/change-proposal.v1.json), not invent a second proposal format.

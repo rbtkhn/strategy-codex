@@ -24,7 +24,7 @@ A companion should earn its identity slowly, under review, from evidence, before
 
 ## Storage
 
-`users/<id>/seed-registry.jsonl` -- append-only JSONL. Each line is a seed-claim snapshot. The latest line per `seed_id` is the current state. Full history is preserved (every status change appends a new line), enabling timeline reconstruction.
+`seed-registry.jsonl` -- append-only JSONL. Each line is a seed-claim snapshot. The latest line per `seed_id` is the current state. Full history is preserved (every status change appends a new line), enabling timeline reconstruction.
 
 ---
 

@@ -142,7 +142,7 @@ Same as today: **only what is in the Record**. Knowledge boundary applies. The f
 | `miniapp/index.html` | Q&A UI; would add interview variant or query param |
 | `apps/miniapp_server.py` | Serves UI + `/api/ask`; would add token resolution, interview channel |
 | `bot/core.py` | `get_response`, `run_lookup`; channel_key drives archive behavior |
-| `users/[id]/self.md` | Identity source for fork |
+| `self.md` | Identity source for fork |
 
 ---
 

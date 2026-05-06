@@ -4,7 +4,7 @@
 
 ## Shelf
 
-- Profile: [mercouris-profile.md](mercouris-profile.md)
+- Profile: [mercouris-profile.md](../../profiles/mercouris-profile.md)
 - Monthly book: [mercouris-book-2026-04.md](mercouris-book-2026-04.md)
 - Daily chapter seed: [mercouris-chapter-2026-04-01.md](mercouris-chapter-2026-04-01.md)
 - Thread compatibility file: [mercouris-thread.md](mercouris-thread.md)

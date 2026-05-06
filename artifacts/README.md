@@ -1,10 +1,10 @@
 # Repository artifacts (derived)
 
-This tree holds **rebuildable, non-canonical** outputs from operator scripts. Nothing here is **Record truth**; recovery always points back to source files under `users/`, `docs/`, `skills-portable/`, etc.
+This tree holds **rebuildable, non-canonical** outputs from operator scripts. Nothing here is **Record truth**; recovery always points back to source files under ``, `docs/`, `skills-portable/`, etc.
 
 **Operator surface taxonomy:** Generated and operator-facing paths are classified in [docs/operator-surface-registry.md](../docs/operator-surface-registry.md). New dashboard-like artifacts should be registered there (and satisfy the **dashboard anti-sprawl policy** there) before being treated as part of the stable operator interface.
 
-**Staleness:** Artifacts are often **generated snapshots**. If a file has **no** generation time or **unclear** source declaration, treat freshness as **unknown** or **possibly stale** and **verify** against the governing source files (e.g. `users/<id>/`, gate file) before relying on it for load-bearing operator decisions. Convention and levels: [docs/operator-surface-staleness.md](../docs/operator-surface-staleness.md).
+**Staleness:** Artifacts are often **generated snapshots**. If a file has **no** generation time or **unclear** source declaration, treat freshness as **unknown** or **possibly stale** and **verify** against the governing source files (e.g. ``, gate file) before relying on it for load-bearing operator decisions. Convention and levels: [docs/operator-surface-staleness.md](../docs/operator-surface-staleness.md).
 
 **Structured-file validation:** Parses committed JSON under `artifacts/` (skipping very large blobs), `schema-registry/`, and workflow examples; validates `pyproject.toml`, `.pre-commit-config.yaml` when PyYAML is available; checks critical relative links in operator/workflow READMEs. Does not change doctrine.
 
@@ -59,7 +59,7 @@ When in doubt, commit the source doctrine, script, test, or receipt that proves 
 | `artifacts/work-strategy/strategy-notebook/` | `scripts/strategy_page.py`, `scripts/compile_strategy_view.py`, `scripts/build_strategy_notebook_graph.py` | **Derived** JSONL receipts, `graph.json`, and `views/` for the strategy-notebook lane — not SSOT; see [work-strategy/strategy-notebook/README.md](work-strategy/strategy-notebook/README.md), [docs/runtime-vs-record.md](../docs/runtime-vs-record.md). |
 | `artifacts/strategy-runs/`, `artifacts/run-receipts/` | `scripts/strategy_run.py` | **Derived** per-run `state.json` and event receipts — session envelope for work-strategy, not SSOT; see [STRATEGY-RUN-ARCHITECTURE.md](../docs/skill-work/work-strategy/STRATEGY-RUN-ARCHITECTURE.md), [docs/run-contract.md](../docs/run-contract.md). |
 | `artifacts/strategy-run-report.md` | `scripts/build_strategy_run_report.py` | **Derived** markdown table of recent runs; delete and rebuild. |
-| `artifacts/library-index.md` | `scripts/build_library_index.py` | **Derived** scan-first dashboard (at-a-glance, Start here, recent, compact by lane + appendix inventory) from `users/<id>/self-library.md` entries YAML — not SELF-LIBRARY truth; regenerate after library edits. See [docs/operator-dashboards.md](../docs/operator-dashboards.md). |
+| `artifacts/library-index.md` | `scripts/build_library_index.py` | **Derived** scan-first dashboard (at-a-glance, Start here, recent, compact by lane + appendix inventory) from `self-library.md` entries YAML — not SELF-LIBRARY truth; regenerate after library edits. See [docs/operator-dashboards.md](../docs/operator-dashboards.md). |
 | `artifacts/lane-dashboards/README.md` | `scripts/build_lane_dashboards.py` | **Derived** lane/runtime snapshot (+ optional `work-lanes-dashboard.json`). Not canonical. |
 | `artifacts/memory/memory-observability.md`, `artifacts/memory/memory-observability.json` | `scripts/build_memory_observability.py` | **Derived** continuity observability over cadence and handoff surfaces. Not Record and not MEMORY; coffee/dream may surface only a one-line non-blocking status from it. |
 | `artifacts/review-dashboard.md` | `scripts/build_review_dashboard.py` | **Derived** view of `recursion-gate.md` — does not replace the gate file. |
@@ -84,7 +84,7 @@ When in doubt, commit the source doctrine, script, test, or receipt that proves 
 | `artifacts/handoffs/` | `checkpoint_session.py`, `build_handoff_packet.py` | **Runtime** session checkpoints and handoff packets — not Record; [folder README](handoffs/README.md), [long-horizon doctrine](../docs/runtime/long-horizon-work.md). |
 | `prepared-context/last-budget-builds.json` | `build_budgeted_context.py` | **Optional** per-lane receipt for last budgeted build (repo root); see [context-budgeting.md](../docs/runtime/context-budgeting.md). |
 
-**Companion-specific large blobs** (e.g. under `users/<id>/artifacts/`) follow separate rules in `.gitignore` and instance docs — not this folder.
+**Companion-specific large blobs** (e.g. under `artifacts/`) follow separate rules in `.gitignore` and instance docs — not this folder.
 
 ## Regeneration contract
 

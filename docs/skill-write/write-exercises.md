@@ -2,7 +2,7 @@
 
 **Purpose:** Add a lightweight exercise layer to WRITE so public-copy preferences and writing capability are both sharpened through repeated use.
 
-**Fits current doctrine:** The docs in `docs/skill-write/` remain the hub for operator preferences and drafting craft. Companion WRITE in the Record (`users/[id]/skill-write.md`) remains the capability-facing evidence layer. These exercises target the **operator publishing** layer — Locals, X, YouTube comments — not the companion's developmental writing trajectory.
+**Fits current doctrine:** The docs in `docs/skill-write/` remain the hub for operator preferences and drafting craft. Companion WRITE in the Record (`skill-write.md`) remains the capability-facing evidence layer. These exercises target the **operator publishing** layer — Locals, X, YouTube comments — not the companion's developmental writing trajectory.
 
 ## Principles
 
@@ -124,6 +124,57 @@ Run a final pre-flight test.
 - flagged issues (if any)
 - suggested fix for each
 - clean-to-ship judgment
+
+### 7. `analysis_to_locals`
+
+Convert a strategy analysis into one medium Locals post.
+
+**Goal:** Prove that a notebook-quality analysis can be turned into a forum-quality post without becoming either a memo or a quote heap.
+
+**Prompt:**
+
+> Starting from this strategy analysis, produce one medium VivaBarnesLaw Locals post.
+>
+> Requirements:
+> - one public-facing claim
+> - one main argument spine
+> - medium quote density
+> - declarative closer
+
+**Return:**
+- chosen angle
+- core claim
+- quote set
+- final paste-ready post
+- what was removed from the source analysis
+
+**Optional Barnes sample prompt:**
+
+> Turn the Barnes/Davis arc analysis into one medium VivaBarnesLaw post centered on the shift from betrayal critique to capture critique to incapacity critique, with Vance rising as the internal brake.
+
+### 8. `quote_discipline`
+
+Control direct quotation in an analysis-derived post.
+
+**Goal:** Show that quote density is a deliberate choice rather than an accident of drafting.
+
+**Prompt:**
+
+> Write three versions of this Locals post:
+> - minimal quote density
+> - medium quote density
+> - heavy quote density
+>
+> Then choose the best version for VivaBarnesLaw and explain why.
+
+**Return:**
+- all three versions
+- selected best version
+- why the other two are weaker
+
+**Optional Barnes sample prompt:**
+
+> Use the Barnes/Davis Trump/Vance arc and show why medium quote density is the right default for a post built around a shift over time.
 
 ---
 

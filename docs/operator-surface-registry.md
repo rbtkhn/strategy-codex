@@ -1,10 +1,10 @@
-# Operator surface registry
+﻿# Operator surface registry
 
 ## 1. Purpose
 
 Grace-Mar uses many **generated and semi-generated** operator-facing outputs under `artifacts/`, in `docs/workflows/`, and alongside scripts: dashboards, indexes, reports, receipts, packets, sidecars, and machine feeds. They make review, lane work, and governance **easier to inspect** without opening every source file.
 
-This document is a **taxonomy and registry**: it classifies those **operator surfaces** and states their **authority status**. It is **governance and navigation**—not a new capability, not a dashboard, and not a second truth for the Record or the gate.
+This document is a **taxonomy and registry**: it classifies those **operator surfaces** and states their **authority status**. It is **governance and navigation**â€”not a new capability, not a dashboard, and not a second truth for the Record or the gate.
 
 **Single source of truth for build lines:** Producer commands and policy per path remain in [artifacts/README.md](../artifacts/README.md) (Path / Produced by / Policy table) and, for covered targets, per-artifact `*.derived-rationale.json` sidecars next to generated files. This registry **does not** replace that inventory; it **classifies and links** it.
 
@@ -36,25 +36,25 @@ A **companion** file to another artifact (often machine-readable provenance; e.g
 
 ### Machine feed
 
-JSON or structured output **primarily** for scripts, tools, or downstream views—not a narrative operator page by itself.
+JSON or structured output **primarily** for scripts, tools, or downstream viewsâ€”not a narrative operator page by itself.
 
 ### Lane-local surface
 
-A surface **scoped to one** work lane or territory (e.g. work-dev, work-strategy) rather than a single global “home.”
+A surface **scoped to one** work lane or territory (e.g. work-dev, work-strategy) rather than a single global â€œhome.â€
 
 ## 3. Authority status
 
 | Status | Meaning |
 |--------|--------|
 | `canonical` | Durable source of truth (rare for `artifacts/`; use only when doctrine explicitly names a path as canonical). |
-| `derived_non_authoritative` | Regenerated from sources; **not** Record; does not override `users/<id>/self.md` or gate. |
-| `advisory` | Guidance, partner-facing summary, or posture text—**not** merge authority. |
+| `derived_non_authoritative` | Regenerated from sources; **not** Record; does not override `self.md` or gate. |
+| `advisory` | Guidance, partner-facing summary, or posture textâ€”**not** merge authority. |
 | `review_support` | Supports review (e.g. gate snapshots); **not** a substitute for `recursion-gate.md`. |
 | `machine_feed` | Structured feed for tooling; same non-authority as other derived outputs unless stated otherwise. |
 | `deprecated` | Superseded or kept only for migration; do not treat as current without checking `notes` / `supersedes`. |
 | `unknown_needs_classification` | Reserved for **rare** use when ownership or producer is unclear after inspection. |
 
-**Default for most `artifacts/`:** `derived_non_authoritative`, `advisory`, `review_support`, or `machine_feed`—**not** canonical.
+**Default for most `artifacts/`:** `derived_non_authoritative`, `advisory`, `review_support`, or `machine_feed`â€”**not** canonical.
 
 ## 4. Registry fields
 
@@ -64,25 +64,25 @@ When recording a surface in the table below (or in a future JSON instance valida
 |-------|------|
 | `surface_id` | Stable id (e.g. `library-index`, `work-lanes-json`). |
 | `path` | Repo-relative path. |
-| `class` | One of the surface classes in §2. |
+| `class` | One of the surface classes in Â§2. |
 | `owner_lane` | Primary work lane or `multi` / `operator` / `docs` as appropriate. |
 | `producer` | Script or doc author; for details see [artifacts README](../artifacts/README.md). |
 | `source_inputs` | What it reads (paths, inboxes, runtime files). |
-| `authority_status` | One of §3. |
+| `authority_status` | One of Â§3. |
 | `canonical_surfaces_touched` | `false` for almost all operator surfaces: does not modify Record by itself. |
 | `rebuild_command` | **Prefer:** sidecar or [artifacts README](../artifacts/README.md); or `regenerate_all_derived.py` where applicable. |
-| `staleness_check` | How to know it is stale; see [operator-surface-staleness.md](operator-surface-staleness.md) (§3–§4). |
+| `staleness_check` | How to know it is stale; see [operator-surface-staleness.md](operator-surface-staleness.md) (Â§3â€“Â§4). |
 | `operator_use` | What decision or inspection this supports. |
 | `related_surfaces` | Sibling paths, feed + dashboard pairs, or docs. |
 | `supersedes` | If this surface replaced another id. |
 | `notes` | Drift, CI, or lane caveats. |
-| `staleness_level` (optional) | One of: `current_declared`, `current_unknown`, `stale_possible`, `stale_likely`, `historical_only` — see [operator-surface-staleness.md](operator-surface-staleness.md) §4. For JSON instances, see [operator-surface.v1.json](../schema-registry/operator-surface.v1.json). |
+| `staleness_level` (optional) | One of: `current_declared`, `current_unknown`, `stale_possible`, `stale_likely`, `historical_only` â€” see [operator-surface-staleness.md](operator-surface-staleness.md) Â§4. For JSON instances, see [operator-surface.v1.json](../schema-registry/operator-surface.v1.json). |
 | `last_generated` (optional) | ISO-8601-ish string when the surface or an operator last knew generation time (machine or human). |
-| `freshness_notes` (optional) | Free text: cadence, CI, or “verify after X”. |
+| `freshness_notes` (optional) | Free text: cadence, CI, or â€œverify after Xâ€. |
 
 ### Staleness expectations
 
-Every registered surface should **eventually** declare **freshness expectations** (or point here). **Optional** metadata `staleness_level`, `last_generated`, and `freshness_notes` may be added to JSON registry entries (schema) or to this doc over time; **this PR does not require** every row in the §5 table to list them.
+Every registered surface should **eventually** declare **freshness expectations** (or point here). **Optional** metadata `staleness_level`, `last_generated`, and `freshness_notes` may be added to JSON registry entries (schema) or to this doc over time; **this PR does not require** every row in the Â§5 table to list them.
 
 **Convention:** [operator-surface-staleness.md](operator-surface-staleness.md) defines levels, a standard **staleness note** blockquote, and the rule that **staleness does not change authority**.
 
@@ -92,15 +92,15 @@ Every registered surface should **eventually** declare **freshness expectations*
 |-------|-----------------|---------------------|
 | dashboard, index | `stale_possible` | After listed **source inputs** change without regen |
 | report | `stale_possible` or `historical_only` | After new runs or new source data; old run = historical |
-| receipt | `historical_only` | Receipts are run records; not “refreshed” in place |
+| receipt | `historical_only` | Receipts are run records; not â€œrefreshedâ€ in place |
 | packet | `stale_possible` | If bound item or evidence changed |
 | sidecar | follows paired artifact | Regenerate when parent artifact regen required |
 | machine feed | `stale_possible` | When upstream JSON/inputs change |
 | lane_local_surface | `stale_possible` | Lane inputs or regen script path change |
 
-**Honesty:** If rebuild command or last run time is **unknown**, use `current_unknown` or leave freshness fields empty until known—**do not** guess timestamps.
+**Honesty:** If rebuild command or last run time is **unknown**, use `current_unknown` or leave freshness fields empty until knownâ€”**do not** guess timestamps.
 
-**Path note:** `artifacts/strategy-run-report.md` is **registered** when the script is used to generate it; the file may be **absent** until a run—do not add an empty file just to “have” a surface.
+**Path note:** `artifacts/strategy-run-report.md` is **registered** when the script is used to generate it; the file may be **absent** until a runâ€”do not add an empty file just to â€œhaveâ€ a surface.
 
 ## 5. Registered surfaces (major)
 
@@ -108,9 +108,9 @@ Authoritative **producer and policy** rows: [artifacts/README.md](../artifacts/R
 
 | Surface | Class | Owner lane | Authority status | Source inputs (summary) | Rebuild / producer ref | Operator use | Related surfaces |
 |--------|-------|------------|------------------|---------------------------|-------------------------|--------------|------------------|
-| `artifacts/library-index.md` | dashboard | work-strategy / library | derived_non_authoritative | `users/<id>/self-library.md` `entries` YAML | [artifacts README — row](../artifacts/README.md) + `build_library_index.py` | At-a-glance library + lane appendix | [operator-dashboards](operator-dashboards.md), sidecar if present |
+| `artifacts/library-index.md` | dashboard | work-strategy / library | derived_non_authoritative | `self-library.md` `entries` YAML | [artifacts README â€” row](../artifacts/README.md) + `build_library_index.py` | At-a-glance library + lane appendix | [operator-dashboards](operator-dashboards.md), sidecar if present |
 | `artifacts/lane-dashboards/README.md` | dashboard | multi / operator | derived_non_authoritative | Lane configs, `work-lanes-dashboard.json` when used | [artifacts README](../artifacts/README.md), `build_lane_dashboards.py` | Lane health / runtime snapshot | `work-lanes-dashboard.json` |
-| `artifacts/review-dashboard.md` | dashboard | review / gate | review_support | Fenced `CANDIDATE-*` in `recursion-gate.md` (parse) | `build_review_dashboard.py` | Pending / processed gate overview | [users/…/recursion-gate.md](../users/grace-mar/recursion-gate.md) (authoritative) |
+| `artifacts/review-dashboard.md` | dashboard | review / gate | review_support | Fenced `CANDIDATE-*` in `recursion-gate.md` (parse) | `build_review_dashboard.py` | Pending / processed gate overview | [â€¦/recursion-gate.md](../recursion-gate.md) (authoritative) |
 | `artifacts/gate-board.md` | dashboard | review / gate | review_support | Same gate file | `build_gate_board.py` | Kanban-style candidate view | `review-dashboard`, gate file |
 | `artifacts/governance-posture.md` | report | operator / safety | advisory | Config + policy inputs per script | `report_governance_posture.py` | Triad, gate, audit one-pager | [safety-story-ux](skill-work/work-dev/safety-story-ux.md) |
 | `artifacts/work-lanes-dashboard.json` | machine_feed | work / multi | machine_feed | WORK telemetry / observations | `build_work_lanes_dashboard.py` | Input to lane dashboard script | `lane-dashboards/README.md` |
@@ -126,12 +126,12 @@ Authoritative **producer and policy** rows: [artifacts/README.md](../artifacts/R
 | `artifacts/workflow-depth/` | machine_feed + index | prepared_context / work | machine_feed | depth receipts / JSONL | [runtime doc](../runtime/workflow-depth/README.md) | depth tier audit | [workflow-depth-contract](runtime/workflow-depth-contract.md) |
 | `artifacts/forecast/` | report + machine_feed | work-forecast (when used) | derived_non_authoritative | baselines / operator messages | `run_forecast_baselines.py` | Forecast artifacts | [forecast policy](../artifacts/forecast/README.md) |
 | `artifacts/uncertainty-reports/` | report + sidecar | work-strategy / runtime | advisory | uncertainty envelope JSON (optional) | operator / CI optional | Envelope legibility | [folder README](../artifacts/uncertainty-reports/README.md) |
-| `docs/workflows/known-path-workflows/` | index + registry (docs) | `multi` (workflows) | derived_non_authoritative (docs) | n/a (documentation SSOT) | human edits + PR | Known-path **eligibility** and templates | this file §8, [README](workflows/known-path-workflows/README.md) |
+| `docs/workflows/known-path-workflows/` | index + registry (docs) | `multi` (workflows) | derived_non_authoritative (docs) | n/a (documentation SSOT) | human edits + PR | Known-path **eligibility** and templates | this file Â§8, [README](workflows/known-path-workflows/README.md) |
 | `docs/workflows/known-path-workflows/load-lift-receipts.md` | report (doctrine) + receipt spec | `multi` | derived_non_authoritative | n/a | human | Load-lift evaluation spec | [schema](../schema-registry/load-lift-receipt.v1.json), [examples](workflows/known-path-workflows/examples/) |
 
-Rows **omit** one-off or rarely used paths; add them via PR when a surface becomes part of the default operator path. **Not listed as separate rows:** `work-dev/rebuild-receipts/`, `derived-regeneration-manifest.json`—covered by [derived regeneration](skill-work/work-dev/derived-regeneration.md) and [artifacts README](../artifacts/README.md).
+Rows **omit** one-off or rarely used paths; add them via PR when a surface becomes part of the default operator path. **Not listed as separate rows:** `work-dev/rebuild-receipts/`, `derived-regeneration-manifest.json`â€”covered by [derived regeneration](skill-work/work-dev/derived-regeneration.md) and [artifacts README](../artifacts/README.md).
 
-**`unknown_needs_classification`:** none for the table above at registration time; use sparingly (1–3 items repo-wide) only when a path’s producer is genuinely unclear.
+**`unknown_needs_classification`:** none for the table above at registration time; use sparingly (1â€“3 items repo-wide) only when a pathâ€™s producer is genuinely unclear.
 
 ## 6. Dashboard anti-sprawl policy
 
@@ -140,16 +140,16 @@ Rows **omit** one-off or rarely used paths; add them via PR when a surface becom
 1. It **consolidates or replaces** an existing operator dashboard.
 2. It is a **new section** of an existing dashboard (same file or clearly linked file family).
 3. It is **explicitly lane-local** and named as such in path or title (e.g. under `artifacts/work-dev/` for work-dev only).
-4. It is **registered** in this document with **owner lane**, **source inputs**, **rebuild or producer ref**, **authority status**, and **relationship** to existing surfaces in §5 (and a row in [artifacts README](../artifacts/README.md) when the artifact is build-generated).
+4. It is **registered** in this document with **owner lane**, **source inputs**, **rebuild or producer ref**, **authority status**, and **relationship** to existing surfaces in Â§5 (and a row in [artifacts README](../artifacts/README.md) when the artifact is build-generated).
 
 **Additional rules for any new dashboard-like surface**
 
-- State **which operator decision** it supports (review, triage, navigation, not “truth”).
+- State **which operator decision** it supports (review, triage, navigation, not â€œtruthâ€).
 - State **which surface it does not replace** (e.g. not `recursion-gate.md`, not SELF).
 - Declare **human-facing**, **machine-facing**, or **both** (e.g. JSON + `.md` pair is common).
-- Declare **staleness** or regen expectation (CI, manual command, or “after X edits”).
+- Declare **staleness** or regen expectation (CI, manual command, or â€œafter X editsâ€).
 - **Do not** imply **merge** authority for the gate or Record.
-- **Do not** become a second source of truth for gate contents or `users/<id>/` canonical files.
+- **Do not** become a second source of truth for gate contents or `` canonical files.
 
 **Complexity-reduction default:** if a proposed surface would mainly restate an existing dashboard, report, or index, route it through the existing surface first. Add a section, a row, or a receipt before adding a new file family. New files should explain why consolidation was insufficient.
 
@@ -161,7 +161,7 @@ Before adding a new dashboard, prefer in order when possible:
 - A new **receipt** type (load-lift, execution, run) with existing receipt doctrine.
 - A **report** or one-off Markdown under an existing **lane** `artifacts/` subtree with clear doc link.
 - A **packet** (review) or **sidecar** (provenance).
-- A **machine feed** (JSON) without a new narrative dashboard—consume from scripts or a single existing view.
+- A **machine feed** (JSON) without a new narrative dashboardâ€”consume from scripts or a single existing view.
 - Improving **this registry** or **links** from an existing surface.
 - Improving the **known-path** workflow doc or a **load-lift** example (see [load-lift-receipts](workflows/known-path-workflows/load-lift-receipts.md)).
 
@@ -174,16 +174,17 @@ Before adding a new dashboard, prefer in order when possible:
 - A **section** of an existing lane or operator surface; or
 - A **review packet** or **report**.
 
-Add a **dedicated Known-path workflow dashboard** only if **this registry** plus existing surfaces **and** load-lift/review flows prove insufficient—then register it under §5–6 like any other dashboard.
+Add a **dedicated Known-path workflow dashboard** only if **this registry** plus existing surfaces **and** load-lift/review flows prove insufficientâ€”then register it under Â§5â€“6 like any other dashboard.
 
 ## 9. Related docs
 
-- [Operator surface staleness](operator-surface-staleness.md) — levels, note format, anti-authority rule.
-- [Operator dashboards (derived Markdown)](operator-dashboards.md) — regeneration order, CI, design notes.
-- [Artifacts (derived) README](../artifacts/README.md) — Path → producer → policy table.
-- [Runtime vs Record](runtime-vs-record.md) — non-canonical boundary.
-- [Authority map](authority-map.md) — normative **policy language**; this registry does not extend write classes.
+- [Operator surface staleness](operator-surface-staleness.md) â€” levels, note format, anti-authority rule.
+- [Operator dashboards (derived Markdown)](operator-dashboards.md) â€” regeneration order, CI, design notes.
+- [Artifacts (derived) README](../artifacts/README.md) â€” Path â†’ producer â†’ policy table.
+- [Runtime vs Record](runtime-vs-record.md) â€” non-canonical boundary.
+- [Authority map](authority-map.md) â€” normative **policy language**; this registry does not extend write classes.
 
 ---
 
-**Operator surfaces** is the **umbrella** term. Not every file under `artifacts/` is a “dashboard”; use the class names in §2.
+**Operator surfaces** is the **umbrella** term. Not every file under `artifacts/` is a â€œdashboardâ€; use the class names in Â§2.
+

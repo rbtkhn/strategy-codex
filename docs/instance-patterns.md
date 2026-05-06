@@ -96,7 +96,7 @@ Full governed workflow (identity-diff UI, resolution types, temporal merge, audi
 
 **Use when:** You want formation work to be **inspectable** before activation.
 
-**Pattern:** Keep `users/<id>/seed-phase/` (or a repo-local `seed-phase/` directory) with the canonical JSON set + `seed_dossier.md` **outside** merged Record files until readiness **pass**. Point operators at [seed-phase-artifacts.md](seed-phase-artifacts.md) and validate with `scripts/validate-seed-phase.py`.
+**Pattern:** Keep `seed-phase/` (or a repo-local `seed-phase/` directory) with the canonical JSON set + `seed_dossier.md` **outside** merged Record files until readiness **pass**. Point operators at [seed-phase-artifacts.md](seed-phase-artifacts.md) and validate with `scripts/validate-seed-phase.py`.
 
 ---
 

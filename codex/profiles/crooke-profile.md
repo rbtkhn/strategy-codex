@@ -1,7 +1,13 @@
 # Strategy expert — `crooke`
 <!-- word_count: 361 -->
 
-**Canonical index:** [strategy-commentator-threads.md](strategy-commentator-threads.md) — **`crooke`** lane.
+**Canonical index:** [strategy-commentator-threads.md](../strategy-commentator-threads.md) — **`crooke`** lane.
+
+---
+
+## Introduction
+
+Alastair Crooke is a diplomacy-and-spoiler lane used when the notebook needs Levant, Tehran, or Islamabad "room" reads rather than purely military or institutional scoring. This profile keeps the lane legible as a public-source hub and a compact orientation surface for Crooke-specific analysis.
 
 ## Identity
 
@@ -23,7 +29,7 @@
 | **Voice tier** | `B` |
 | **Voice fingerprint — last reviewed** | `2026-04` |
 
-Promotion and refresh defaults: [strategy-expert-template.md § Voice fingerprint (compact)](strategy-expert-template.md#voice-fingerprint-compact).
+Promotion and refresh defaults: [strategy-expert-template.md § Voice fingerprint (compact)](../strategy-expert-template.md#voice-fingerprint-compact).
 
 ## Convergence fingerprint
 
@@ -61,14 +67,21 @@ The block below **Rolling ingest** is replaced on each `strategy_thread.py` / `s
 |-----------|-----|----|-----|--------------------------------------------------|
 | `crooke` | 0.75 | 0.39 | 0.70 | Levant room and spoiler logic hang together as a worldview. Spoiler readings often stay open until events force a fork. He appears often enough next to other specialists that the bridge score stays solid. |
 
-### Published sources (operator web index)
+## Links
 
-Where **their** commentary is published and accessible (**no Wikipedia**). Re-verify handles and media URLs before cite-grade use outside this notebook.
+### Social media
 
-1. https://conflictsforum.org/
-2. https://substack.com/@alastaircrooke
-3. https://conflictsforum.substack.com/
+- None currently tracked.
+
+### Substack
+
+- https://substack.com/@alastaircrooke
+- https://conflictsforum.substack.com/
+
+### Other links
+
+- https://conflictsforum.org/
 
 ---
 
-**Companion files:** [`transcript.md`](transcript.md) (7-day rolling verbatim) and [`thread.md`](thread.md) (distilled analytical thread).
+**Companion files:** [crooke-transcript.md](../2026/crooke/crooke-transcript.md) (7-day rolling verbatim) and [crooke-thread.md](../2026/crooke/crooke-thread.md) (distilled analytical thread).

@@ -17,7 +17,7 @@
 - **Writes** — What files, issues, PR bodies, or branches are written (“none” is valid).
 - **External side effects** — e.g. Slack post, email, Pages deploy, third-party API call.
 - **Memory use** — Will the tool persist PR/issue/log text in product memory? (Default: no per [contract](cursor-safe-automation-contract.md) §10.)
-- **Protected paths touched?** — Yes/no for `users/**/self.md`, `self-archive.md`, `recursion-gate.md` (as mutable content), `session-log.md`, `bot/prompt.py`, Record/EVIDENCE. If **yes**, default **R5** or **blocked** unless a documented policy carves a narrow exception.
+- **Protected paths touched?** — Yes/no for `self.md`, `self-archive.md`, `recursion-gate.md` (as mutable content), `session-log.md`, `bot/prompt.py`, Record/EVIDENCE. If **yes**, default **R5** or **blocked** unless a documented policy carves a narrow exception.
 - **Candidate class (R0–R5)** — Final class after review.
 - **Why this class** — 2–4 sentences mapping behavior to the policy table.
 - **Allowed unattended behavior** — What may run without a human in the loop per invocation (for that surface **context**).

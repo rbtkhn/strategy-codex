@@ -1,7 +1,13 @@
 # Strategy expert — `pape`
 <!-- word_count: 366 -->
 
-**Canonical index:** [strategy-commentator-threads.md](strategy-commentator-threads.md) — **`pape`** lane.
+**Canonical index:** [strategy-commentator-threads.md](../strategy-commentator-threads.md) — **`pape`** lane.
+
+---
+
+## Introduction
+
+Robert Pape is the escalation-trap lane: a mechanism-heavy source for demand ladders, ratchets, and commitment traps rather than generic pundit commentary. This profile keeps his public writing and posting surfaces together so Substack, X, and institutional material can all feed the same lane cleanly.
 
 ## Identity
 
@@ -23,7 +29,7 @@
 | **Voice tier** | `B` |
 | **Voice fingerprint — last reviewed** | `2026-04` |
 
-Promotion and refresh defaults: [strategy-expert-template.md § Voice fingerprint (compact)](strategy-expert-template.md#voice-fingerprint-compact).
+Promotion and refresh defaults: [strategy-expert-template.md § Voice fingerprint (compact)](../strategy-expert-template.md#voice-fingerprint-compact).
 
 ## Convergence fingerprint
 
@@ -50,7 +56,7 @@ Promotion and refresh defaults: [strategy-expert-template.md § Voice fingerprin
 - Pape captures can mix `substack-post`, `transcript`, and `x-post-text`.
 - Same-day multiple captures are normal.
 - `raw-input/` remains the SSOT.
-- Slugged refined-page filenames are the safe pattern when one date has multiple items.
+- Slugged codex-page filenames are the safe pattern when one date has multiple items.
 
 ## Seed (index mirror — operator may extend)
 
@@ -68,16 +74,22 @@ The block below **Rolling ingest** is replaced on each `strategy_thread.py` / `s
 |-----------|-----|----|-----|--------------------------------------------------|
 | `pape` | 0.81 | 0.55 | 0.77 | Escalation-as-trap is a named mechanism—demands, ratchets, staged branches—so the reader can see what would count as a test. When those pieces are written down clearly, time can actually grade the claim. That same clarity makes him a natural partner in “fork A vs fork B” discussions. |
 
-### Published sources (operator web index)
+## Links
 
-Where **their** commentary is published and accessible (**no Wikipedia**). Re-verify handles and media URLs before cite-grade use outside this notebook.
+### Social media
 
-1. https://x.com/ProfessorPape
-2. https://cpost.uchicago.edu/people/profile/robert_pape/
-3. https://escalationtrap.substack.com/
+- https://x.com/ProfessorPape
+
+### Substack
+
+- https://escalationtrap.substack.com/
+
+### Other links
+
+- https://cpost.uchicago.edu/people/profile/robert_pape/
 
 **Automation target:** public X profile crawl via [`scripts/backfill_pape_x_raw_input.py`](../../../../../scripts/backfill_pape_x_raw_input.py) or the generic [`scripts/backfill_x_profile_raw_input.py`](../../../../../scripts/backfill_x_profile_raw_input.py) with `--profile-url https://x.com/ProfessorPape --thread pape`; Substack year backfill via [`scripts/backfill_pape_substack_raw_input.py`](../../../../../scripts/backfill_pape_substack_raw_input.py) or the generic [`scripts/backfill_substack_raw_input.py`](../../../../../scripts/backfill_substack_raw_input.py) with `--hostname escalationtrap.substack.com --thread pape`. Treat the archive as a discovery index, not a completeness target: backfill the substantial posts you want preserved, and leave lighter/archive-only items out when that is the better editorial call.
 
 ---
 
-**Companion files:** [`strategy-expert-pape-transcript.md`](strategy-expert-pape-transcript.md) (7-day rolling verbatim) and [`strategy-expert-pape-thread.md`](strategy-expert-pape-thread.md) (distilled analytical thread).
+**Companion files:** [pape-transcript.md](../2026/pape/pape-transcript.md) (7-day rolling verbatim) and [pape-thread.md](../2026/pape/pape-thread.md) (distilled analytical thread).

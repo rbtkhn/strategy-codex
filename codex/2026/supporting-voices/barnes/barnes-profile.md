@@ -92,7 +92,7 @@ Headings-only pointers into the mapped corpus in [`strategy-expert-barnes-mind.m
   - Hormuz story touches executive TS, Disclose.tv-class chains, JDVance cards, or domestic sell of foreign policy.
   - You name 1776 Law Center, Citizens of '76, or the annual convention.
 
-## Knot-use guidance
+## Page-use guidance
 
 - Best for: mechanism pages on liability, watch pages on prosecutorial moves, case pages contrasting Barnes vs Pape audience hypotheses.
 - 1776 / convention material: Links/Open and coalition-mechanism framing - not ORBAT or theater-order stand-ins.

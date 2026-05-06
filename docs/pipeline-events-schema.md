@@ -1,6 +1,6 @@
 # Pipeline events (`pipeline-events.jsonl`)
 
-Append-only JSON lines: gate lifecycle, dyad hooks, maintenance. **Canonical path:** `users/<id>/pipeline-events.jsonl`.
+Append-only JSON lines: gate lifecycle, dyad hooks, maintenance. **Canonical path:** `pipeline-events.jsonl`.
 
 ## Common fields
 

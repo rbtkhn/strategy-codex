@@ -54,7 +54,7 @@ The formal schema is at [`schema-registry/working-identity-candidate.v1.json`](.
 
 1. **Extract** — Use the [extraction prompt pack](extraction-prompt-pack.md) or manual observation to produce candidates
 2. **Normalize** — Structure each item as a working-identity candidate per the schema
-3. **Stage** — Add candidates to `users/<id>/recursion-gate.md` with `candidate_type: identity_update` (or the appropriate type) and `territory: portable-working-identity`
+3. **Stage** — Add candidates to `recursion-gate.md` with `candidate_type: identity_update` (or the appropriate type) and `territory: portable-working-identity`
 4. **Review** — Companion reviews each candidate, approves, rejects, or modifies
 5. **Merge** — Approved candidates are merged via `scripts/process_approved_candidates.py` into the appropriate Record surface
 

@@ -3,9 +3,13 @@
 
 WORK only; not Record.
 
-**Canonical index:** [strategy-commentator-threads.md](strategy-commentator-threads.md) - **`alkorshid`** lane.
+**Canonical index:** [strategy-commentator-threads.md](../strategy-commentator-threads.md) - **`alkorshid`** lane.
 
 ---
+
+## Introduction
+
+Nima Alkorshid is the Dialogue Works host lane: a long-form interviewer whose value in strategy-codex is part discovery surface, part framing surface. This profile keeps the host identity, public publishing links, and routing context visible so host-led episodes do not collapse into guest-only analysis.
 
 ## Identity
 
@@ -27,7 +31,7 @@ WORK only; not Record.
 | **Voice tier** | `B` |
 | **Voice fingerprint - last reviewed** | `2026-04` |
 
-Promotion and refresh defaults: [strategy-expert-template.md section Voice fingerprint (compact)](strategy-expert-template.md#voice-fingerprint-compact).
+Promotion and refresh defaults: [strategy-expert-template.md section Voice fingerprint (compact)](../strategy-expert-template.md#voice-fingerprint-compact).
 
 ## Convergence fingerprint
 
@@ -57,13 +61,20 @@ Promotion and refresh defaults: [strategy-expert-template.md section Voice finge
 1. `https://www.youtube.com/@dialogueworks01/videos` -> `thread: alkorshid`
 2. Graph-first YouTube queue: [`youtube-transcript-queue.md`](../../raw-input/youtube-transcript-queue.md) and [`scripts/backfill_youtube_channel_raw_input.py`](../../../../../scripts/backfill_youtube_channel_raw_input.py)
 
-## Published sources (operator web index)
+## Links
 
-Where Dialogue Works / host content is published (no Wikipedia). Re-verify URLs before cite-grade use.
+### Social media
 
-1. https://www.youtube.com/@dialogueworks01 - Dialogue Works (YouTube)
-2. https://www.podchaser.com/podcasts/dialogue-works-5841625 - podcast index (metadata)
-3. https://shows.acast.com/dialogueworks - Acast show page (when cite-grade episode URLs are needed)
+- https://www.youtube.com/@dialogueworks01 - Dialogue Works (YouTube)
+
+### Substack
+
+- None currently tracked.
+
+### Other links
+
+- https://www.podchaser.com/podcasts/dialogue-works-5841625 - podcast index (metadata)
+- https://shows.acast.com/dialogueworks - Acast show page
 
 ## Dialogue Works episode inventory
 

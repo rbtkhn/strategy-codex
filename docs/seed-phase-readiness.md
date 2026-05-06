@@ -75,8 +75,8 @@ After strict validation passes, operators may generate **supporting** artifacts 
 
 | Step | Command | Notes |
 |------|---------|--------|
-| Confidence radar | `python3 scripts/generate-confidence-report.py users/<id>/seed-phase` | Requires **plotly**; see `scripts/requirements-seed-phase-dashboard.txt`. PNG needs **kaleido**. |
-| Birth certificate | `python3 scripts/generate-birth-certificate.py users/<id>/seed-phase --private-key …` | Deterministic **genesis hash** over all schema-backed seed JSON files; **Ed25519** PEM or env `SEED_BIRTH_CERT_PRIVATE_KEY_PATH`. Demo-only: `--insecure-generate-ephemeral-key`. |
+| Confidence radar | `python3 scripts/generate-confidence-report.py seed-phase` | Requires **plotly**; see `scripts/requirements-seed-phase-dashboard.txt`. PNG needs **kaleido**. |
+| Birth certificate | `python3 scripts/generate-birth-certificate.py seed-phase --private-key …` | Deterministic **genesis hash** over all schema-backed seed JSON files; **Ed25519** PEM or env `SEED_BIRTH_CERT_PRIVATE_KEY_PATH`. Demo-only: `--insecure-generate-ephemeral-key`. |
 
 These outputs do **not** replace companion or operator approval of `seed_dossier.md` or the readiness decision in `seed_readiness.json`. They are optional provenance and reporting aids.
 
@@ -84,7 +84,7 @@ These outputs do **not** replace companion or operator approval of `seed_dossier
 
 ## Activation rule (normative)
 
-**Activation** = creating or promoting a live `users/<id>/` tree with bot/pipeline attached. It is **forbidden** until:
+**Activation** = creating or promoting a live `` tree with bot/pipeline attached. It is **forbidden** until:
 
 1. `seed_readiness.json` exists with `decision` ∈ {`pass`, `conditional_pass`} per policy above, and  
 2. `seed_dossier.md` is reviewed and signed off by operator (and guardian when applicable), and  

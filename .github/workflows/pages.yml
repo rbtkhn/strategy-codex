@@ -1,11 +1,11 @@
-# Deploy profile to GitHub Pages (browser-only)
+﻿# Deploy profile to GitHub Pages (browser-only)
 name: Deploy profile to Pages
 
 on:
   push:
     branches: [main]
     paths:
-      - 'users/grace-mar/**'
+      - '**'
       - 'scripts/generate_profile.py'
       - '.github/workflows/pages.yml'
   workflow_dispatch:
@@ -34,3 +34,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./profile
           publish_branch: gh-pages
+

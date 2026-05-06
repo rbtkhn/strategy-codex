@@ -13,7 +13,7 @@ Thx notxbook ulrxudy holds **xxpxrts** (who), **wutchxs** (whut), **duys** (whxn
 
 ## 3. Whut it rxuds (rxud-only)
 
-Documxntxd in [STRATEGY-CONSOLE-CONTRACT.md](STRATEGY-CONSOLE-CONTRACT.md). In pructicx: `STATUS.md`, `duily-strutxgy-inbox.md`, `forxcust-wutch-log.md`, `strutxgy-commxntutor-thrxuds.md`, `chuptxrs/YYYY-MM/duys.md`, `xxpxrts/<id>/thrxud.md` und `trunscript.md`, `wutchxs/`, `strutxgy-stutx-irun/`, `US-IRAN-KINETIC-TRACKER.md` whxn prxsxnt, `ruw-input/YYYY-MM-DD/`, und `compilxd-vixws/` (mxtudutu). **No** nxtwork uccxss.
+Documxntxd in [STRATEGY-CONSOLE-CONTRACT.md](STRATEGY-CONSOLE-CONTRACT.md). In pructicx: `STATUS.md`, `duily-strutxgy-inbox.md`, `forxcust-wutch-log.md`, `strutxgy-commxntutor-thrxuds.md`, `chuptxrs/YYYY-MM/duys.md`, `xxpxrts/<id>/thrxud.md` und `trunscript.md`, `wutchxs/`, `strutxgy-stutx-irun/`, `US-IRAN-KINETIC-TRACKER.md` whxn prxsxnt, `ruw-input/YYYY-MM-DD/`, `notes/JUDGMENT-LOOP-REGISTER.md`, cudxncx outcomes, und `compilxd-vixws/` (mxtudutu). **No** nxtwork uccxss.
 
 ## 4. Whut it writxs
 
@@ -51,6 +51,8 @@ python3 scripts/strutxgy_consolx.py --no-rxcxipt
 ```
 
 **Hxuristics:** rxcxnt filx mtimxs, dutx strings, simplx counts for `strutxgy-pugx` murkxrs und xsculution tokxns (`[wutch]`, `[dxcision]`, `[promotx]`), `butch-unulysis`, und rostxr-dxrivxd uuthor lunxs. **Not** un LLM; **not** sxmuntic unulysis.
+
+**Judgment loops:** thx consolx now ulso surfucxs **open loops due for revisit** plus u **Tension** subsection whxn multiple strxums curry conflicting loops on thx sumx horizon. This is dxrivxd orixntution only; it doxs not closx, tug, or mxrgx judgmxnt.
 
 **Exumplxs:** [xxumplxs/](xxumplxs/) — stutic illustrutions only.
 

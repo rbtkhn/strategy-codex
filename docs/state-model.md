@@ -1,4 +1,4 @@
-# State model
+﻿# State model
 
 Companion-Self uses a **three-layer** model for where information lives and how it may change. It makes explicit what is otherwise easy to blur in agentic systems: **raw inputs**, **operational context for reasoning**, and **durable governed commitments**.
 
@@ -61,10 +61,10 @@ Durable state that affects future companion behavior and commitments **after** v
 The **three layers** above are **conceptual** and bind governance (what may become Record, how drafts move). They are **not** fully mirrored as a working tree at the **repository root**.
 
 - **[`evidence/`](../evidence/)** and **[`prepared-context/`](../prepared-context/)** at the top level of this repo exist as **minimal placeholders** (so the directories stay tracked). They are **not** the primary dump for operator uploads or MCP capture in grace-mar.
-- **WORK and advisor evidence** usually lives under **territory paths** — for example [`docs/skill-work/work-cici/evidence/`](skill-work/work-cici/evidence/) — with policy on each territory’s [`evidence/README.md`](skill-work/work-cici/evidence/README.md).
-- **Governed Record state** lives under **`users/<id>/`** (e.g. `users/grace-mar/`) per instance doctrine, not under generic root folders.
+- **WORK and advisor evidence** usually lives under **territory paths** â€” for example [`docs/skill-work/work-cici/evidence/`](skill-work/work-cici/evidence/) â€” with policy on each territoryâ€™s [`evidence/README.md`](skill-work/work-cici/evidence/README.md).
+- **Governed Record state** lives under **``** (e.g. ``) per instance doctrine, not under generic root folders.
 
-This layout avoids confusing this instance with a **small OB1 instance repo** (e.g. [Cici](https://github.com/Xavier-x01/Cici)) that intentionally adds a **Phase 1** tree (`evidence/`, `proposals/`, `users/<instance>/`) in one place. For a side-by-side conceptual map of OB1 vs Cici vs grace-mar, see [OB1 bridge mapping — Conceptual map](integrations/ob1/mapping.md#conceptual-map-ob1-cici-grace-mar).
+This layout avoids confusing this instance with a **small OB1 instance repo** (e.g. [Cici](https://github.com/Xavier-x01/Cici)) that intentionally adds a **Phase 1** tree (`evidence/`, `proposals/`, `<instance>/`) in one place. For a side-by-side conceptual map of OB1 vs Cici vs grace-mar, see [OB1 bridge mapping â€” Conceptual map](integrations/ob1/mapping.md#conceptual-map-ob1-cici-grace-mar).
 
 ---
 
@@ -74,10 +74,11 @@ This template also uses **Record** and **Voice** in [concept.md](concept.md):
 
 | State model layer | Typical instance mapping |
 |-------------------|---------------------------|
-| **Evidence** | Raw session transcripts, uploads, operator logs, external docs, unmerged intake — before or outside the gated Record. |
-| **Prepared context** | Analyst drafts, PRP bundles, normalized markdown for tools, retrieval chunks, **self-memory** (ephemeral continuity — not the Record). |
+| **Evidence** | Raw session transcripts, uploads, operator logs, external docs, unmerged intake â€” before or outside the gated Record. |
+| **Prepared context** | Analyst drafts, PRP bundles, normalized markdown for tools, retrieval chunks, **self-memory** (ephemeral continuity â€” not the Record). |
 | **Governed state** | **Record** (e.g. `self.md`, split SELF files, skills, **EVIDENCE** spine after merge), approved seed outputs at activation, outcomes of **change review**. |
 
-**Voice** renders the Record when queried; it is not a fourth layer — it reflects **governed state** under the knowledge boundary.
+**Voice** renders the Record when queried; it is not a fourth layer â€” it reflects **governed state** under the knowledge boundary.
 
 See also: [evidence-layer.md](evidence-layer.md), [prepared-context-layer.md](prepared-context-layer.md), [governed-state-layer.md](governed-state-layer.md), [prepared-context-doctrine.md](prepared-context-doctrine.md), [evidence-to-context-pipeline.md](evidence-to-context-pipeline.md).
+

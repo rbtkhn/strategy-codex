@@ -19,7 +19,7 @@
 
 | # | Deliverable | Purpose |
 |---|-------------|---------|
-| 5 | **users/_template/** | Minimal scaffold: self.md, skills.md, self-evidence.md, recursion-gate.md, self-memory.md (structure only, no real data). Used when creating a new user dir in an instance. |
+| 5 | **_template/** | Minimal scaffold: self.md, skills.md, self-evidence.md, recursion-gate.md, self-memory.md (structure only, no real data). Used when creating a new user dir in an instance. |
 | 6 | **HOW-INSTANCES-CONSUME-UPGRADES.md** | How an instance (e.g. grace-mar) pulls upgrades from this template; link to grace-mar's [MERGING-FROM-COMPANION-SELF](merging-from-companion-self.md). Optionally: list of template paths. |
 
 ### Optional later (not minimal)
@@ -40,8 +40,8 @@ All minimal docs can be **extracted and generalized** from grace-mar. Do not cop
 | Concept | `docs/conceptual-framework.md`, `docs/architecture.md` | Remove "Abby", age ("6-year-old"), grace-mar-specific examples. Keep: Record, Voice, fork, knowledge boundary, dyad. |
 | Protocol | `docs/identity-fork-protocol.md` | Summarize; keep stage → approve → merge, evidence linkage, agent may not merge. |
 | Seed phase | `docs/architecture.md` (Fork Lifecycle, Seeding), `docs/operator-brief.md` | Describe phases, surveys, artifacts, what creates initial SELF/SKILLS/EVIDENCE. No operator-specific workflow. |
-| users/_template/* | `docs/self-template.md`, `docs/skills-template.md`, `docs/evidence-template.md`, `docs/memory-template.md` | Render as minimal empty or scaffold files (structure only). |
-| HOW-INSTANCES-CONSUME-UPGRADES | This repo's `docs/merging-from-companion-self.md` | Invert perspective: "Instances pull from here. Safe paths: … Never overwrite: users/<id>/." Link to grace-mar merge checklist. |
+| _template/* | `docs/self-template.md`, `docs/skills-template.md`, `docs/evidence-template.md`, `docs/memory-template.md` | Render as minimal empty or scaffold files (structure only). |
+| HOW-INSTANCES-CONSUME-UPGRADES | This repo's `docs/merging-from-companion-self.md` | Invert perspective: "Instances pull from here. Safe paths: … Never overwrite: ." Link to grace-mar merge checklist. |
 
 ---
 
@@ -81,13 +81,13 @@ All minimal docs can be **extracted and generalized** from grace-mar. Do not cop
 
 ### Phase E: Optional scaffold and upgrade guide
 
-- [ ] **E1. users/_template/** (optional)
-  - Create `users/_template/` with minimal self.md, skills.md, self-evidence.md, recursion-gate.md, self-memory.md.
+- [ ] **E1. _template/** (optional)
+  - Create `_template/` with minimal self.md, skills.md, self-evidence.md, recursion-gate.md, self-memory.md.
   - Content: structure/headings only (or placeholders). No real data. Use companion-self's docs/*-template.md as the schema source.
   - **Done when:** Copying this directory gives a valid empty user scaffold.
 
 - [ ] **E2. HOW-INSTANCES-CONSUME-UPGRADES.md** (optional)
-  - Short doc: instances pull from this template; safe to sync (concept, protocol, schema templates); never overwrite `users/<id>/`. Link to grace-mar's [MERGING-FROM-COMPANION-SELF](https://github.com/rbtkhn/grace-mar/blob/main/docs/merging-from-companion-self.md).
+  - Short doc: instances pull from this template; safe to sync (concept, protocol, schema templates); never overwrite ``. Link to grace-mar's [MERGING-FROM-COMPANION-SELF](https://github.com/rbtkhn/grace-mar/blob/main/docs/merging-from-companion-self.md).
   - Optionally list template paths (same list as in MERGING-FROM-COMPANION-SELF §1).
   - **Done when:** An instance operator knows how to pull upgrades.
 
@@ -114,7 +114,7 @@ companion-self/
 │   ├── identity-fork-protocol.md# C1 (or section in CONCEPT)
 │   ├── SEED-PHASE.md             # D1 (or section elsewhere)
 │   └── HOW-INSTANCES-CONSUME-UPGRADES.md  # E2 optional
-└── users/
+└── 
     └── _template/               # E1 optional
         ├── self.md
         ├── skills.md
@@ -135,7 +135,7 @@ Companion-self is **minimally viable** when:
 4. Seed phase is defined (how a new instance is created).
 5. Repo contains no bot code, no Record data, no instance config.
 
-Optional: `users/_template/` scaffold and HOW-INSTANCES-CONSUME-UPGRADES complete the picture for instance operators and new-user creation.
+Optional: `_template/` scaffold and HOW-INSTANCES-CONSUME-UPGRADES complete the picture for instance operators and new-user creation.
 
 ---
 

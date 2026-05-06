@@ -17,8 +17,8 @@ This is a **reference** sequence. The dependable part is **data + schema + valid
 1. **Identify relevant evidence** — paths, session ids, artifacts, or validation output that motivate a material change.
 2. **Normalize or stage** — keep provenance; use [Prepared Context Layer](../prepared-context-layer.md) when structuring for operators or tools.
 3. **Classify affected scopes** — map to `primaryScope` / `secondaryScopes` ([change-types.md](../change-types.md)).
-4. **Draft a Change Proposal v1** — JSON under `users/<id>/review-queue/proposals/` ([state-proposals.md](../state-proposals.md)).
-5. **Validate** — `python3 scripts/validate-change-review.py users/<id>/review-queue`.
+4. **Draft a Change Proposal v1** — JSON under `review-queue/proposals/` ([state-proposals.md](../state-proposals.md)).
+5. **Validate** — `python3 scripts/validate-change-review.py review-queue`.
 6. **Route into review** — queue index, event log, lifecycle ([change-review-lifecycle.md](../change-review-lifecycle.md)).
 
 ---

@@ -32,6 +32,8 @@ strategy-notebook/
 
 ## Default operating path (SSOT)
 
+**Strategy-state model (short):** In strategy-codex, **knowledge** means governed understanding and owned judgment; **library** means the governed reference world; **memory** means resumable continuity; **archive** means the governed evidence and provenance spine. In practice, `raw-input/` is archive-adjacent capture, codex-pages bridge archive toward knowledge, `strategy-page` blocks are the main knowledge-production surface, and `days.md` is primarily memory.
+
 **Two-layer SSOT (capture vs notebook work):** **[`raw-input/`](raw-input/README.md)** holds the **literal** author/host/guest text (archived capture). **codex-pages** in the owning **`codex/<year>/<channel>/`** folder per [`strategy-codex-template-page.md`](strategy-codex-template-page.md) are the **default handle** for **strategy-page**, **`thread`**, and **`days.md`** ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â lane, sibling links, and **`### Verbatim`** on the page. **Disputes on wording** ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ correct **`raw-input/`** and the pageÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢s **`### Verbatim`** together. **Disputes on judgment** ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ **`### Reflection` / `### Predictive Outlook`** and downstream compose, not a second paraphrase of the raw in **`thread`**.
 
 ### Flow
@@ -43,7 +45,7 @@ strategy-notebook/
 3. **Optionally mark** reusable material with lightweight escalation cues (`[watch]`, `[decision]`, `[promote]`) ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â definitions and sparing-use rules: [NOTEBOOK-PREFERENCES.md#escalation-marker-preference](NOTEBOOK-PREFERENCES.md#escalation-marker-preference).
 4. **Escalate artifacts** ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â watch support, analogy audit, or a **decision point** ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â only when a signal is maturing and **real options** are needed.
 5. **Touch [STRATEGY.md](../STRATEGY.md)** only when a watch, analogy line, operator log arc, or doctrine note has **stabilized** (promotion ladder).
-6. **Do not** update Record, SELF, EVIDENCE, or Voice from this lane.
+6. **Do not** update Record, legacy SELF surfaces, archive / EVIDENCE surfaces, or Voice from this lane.
 
 **Author predictions ledger (optional):** Falsifiable **`pred_id`** adjudication rows and the **`topic_slug` registry** live in [`strategy-expert-predictions.md`](strategy-expert-predictions.md). Run [`validate_expert_predictions.py`](../../../../scripts/validate_expert_predictions.py) from repo root to check roster **`expert_id`**s and registry slugs; CI runs the same check (**Tests** workflow ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â *Validate strategy author predictions ledger*).
 
@@ -82,7 +84,7 @@ Older grep/git and JSONL fields may keep `fold` (e.g. `fold_kind` in [FOLD-LEARN
 | Layer | Location in file | Who maintains | Purpose |
 |-------|------------------|----------------|---------|
 | **Journal layer ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â Narrative** | **Above** `<!-- strategy-expert-thread:start -->` | Operator / assistant | **Page-composed months (default):** each **`## YYYY-MM`** segment is **composed from** that monthÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢s thread-embedded **`strategy-page`** blocks (`date=` in that `YYYY-MM`) ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â running prose, **blockquotes** of author lines lifted from those pages, and **bookends** (short **lede** after the month heading; short **closer** after the last page in the month: synthesis, **Open** pins, **verify** pins). **Judgment** remains in **`### Reflection` / `### Predictive Outlook`** on each page; the month layer **aggregates** without replacing pages as the locus of analysis. **Durable bulk verbatim** for the author is **[`raw-input/`](raw-input/README.md)** (and the pages); the **7-day** **`transcript.md`** and **machine layer** are **triage/echo** ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â the journal is **not** a long paraphrase of the rolling transcript or a second full essay parallel to the page set. **Verbatim-forward** still applies to **quote-led** months: pull quotes **from `### Chronicle` (or in-page `>` markers) inside those `strategy-page` fences** by default, not by re-mining **`transcript.md`** for month bookends (see [strategy-expert-template.md](strategy-expert-template.md) ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ Thread ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â quote selection rubric). Heading **`## Journal layer ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â Narrative (operator)`**; dated **`## YYYY-MM`** segments. The **`thread`** script **never overwrites** this layer. If empty, a one-line stub is fine. |
-| **Machine layer ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â Extraction** | **Between** `<!-- strategy-expert-thread:start -->` and `<!-- strategy-expert-thread:end -->` | `strategy_expert_corpus.py` on each **`thread`** run | **`## Machine layer ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â Extraction (script-maintained)`** with **`### Recent transcript material`**, **`### Recent raw-input (lane)`** (on-disk + inbox **`raw-input/ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¦`**, de-duped by path; disk first), **`### Page references`**, and optional **Legacy file-index rows** if `knot-index.yaml` still lists rows. Overwritten each run. |
+| **Machine layer ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â Extraction** | **Between** `<!-- strategy-expert-thread:start -->` and `<!-- strategy-expert-thread:end -->` | `strategy_expert_corpus.py` on each **`thread`** run | **`## Machine layer ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â Extraction (script-maintained)`** with **`### Recent transcript material`**, **`### Recent raw-input (lane)`** (on-disk + inbox **`raw-input/ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¦`**, de-duped by path; disk first), **`### Page references`**, and optional **Legacy page-index rows** if `page index` still lists rows. Overwritten each run. |
 | **Optional ledger** | **After** `<!-- strategy-expert-thread:end -->` | Operator or future tooling | Optional fenced **`thread-ledger`** YAML/JSON ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â **not** touched by the default extractor unless a future script is added. |
 
 **2026 month segments (operator index ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â inside the journal layer):** **`Segment 1`** = **January 2026** (`## 2026-01`); **`Segment 2`** = **February 2026** (`## 2026-02`); **`Segment 3`** = **March 2026** (`## 2026-03`); **`Segment 4`** = **April 2026** (`## 2026-04`, **ongoing**). Later months continue as **`## YYYY-MM`** headings in order. These **month segments** are **not** the machine layer.
@@ -298,7 +300,7 @@ The word **ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã¢â�
 
 **`dream` (night close):** End-of-day maintenance **does not** obligate strategy-notebook production. `auto_dream.py` may still report `strategy_notebook_missing_day_headers` as **FYI**; treat it as optional telemetry unless you adopt calendar-strict habits again. Default **notebook pages** are composed in the **EOD strategy session**; **`dream`** may still **explicitly** direct notebook work in-thread ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â see [.cursor/skills/dream/SKILL.md](../../../../.cursor/skills/dream/SKILL.md) ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ *strategy-codex*.
 
-**SELF-LIBRARY mirror:** Canonical files live here under `docs/skill-work/work-strategy/strategy-notebook/`. A symlink under `users/<id>/SELF-LIBRARY/strategy-notebook` is **convenience** only ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â keep mirrors in sync with edits to the canonical tree.
+**Legacy library mirror:** Canonical files live here under `docs/skill-work/work-strategy/strategy-notebook/`. A symlink under `SELF-LIBRARY/strategy-notebook` is a legacy convenience surface only ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â keep mirrors in sync with edits to the canonical tree.
 
 <a id="eod-mcq-protocol-v1"></a>
 
@@ -611,9 +613,9 @@ An **EOD compose pass** is a **promotion decision**: which scratch lines (and **
 
 **Operator test (one screen):** If someone read **only** this day block, what would they **know**, **believe with what caveats**, and **still need to check**? ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â **Signal** / **Judgment** / **Open** carry those three loads; **Links** carry **how to check**.
 
-**Optional compose ledger (recursive learning):** *Legacy:* ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã¢â‚¬Å“weave ledgerÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â. Append-only JSONL + CLI under `users/<id>/strategy-fold-events.jsonl` ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â compression proxies and optional self-ratings; **not** Record. CLI filenames still use **`fold`** for backward compatibility. See [FOLD-LEARNING.md](FOLD-LEARNING.md).
+**Optional compose ledger (recursive learning):** *Legacy:* ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã¢â‚¬Å“weave ledgerÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â. Append-only JSONL + CLI under `strategy-fold-events.jsonl` ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â compression proxies and optional self-ratings; **not** Record. CLI filenames still use **`fold`** for backward compatibility. See [FOLD-LEARNING.md](FOLD-LEARNING.md).
 
-**Legacy index file:** [knot-index.yaml](knot-index.yaml) is **not** used for live inventory (typically empty). **Machine inventory** of pages is derived from author threads (`discover_pages` / **`### Page references`** in the machine layer) and optional **`validate_strategy_pages.py`**.
+**Legacy index file:** [page index](page index) is **not** used for live inventory (typically empty). **Machine inventory** of pages is derived from author threads (`discover_pages` / **`### Page references`** in the machine layer) and optional **`validate_strategy_pages.py`**.
 
 **Optional tag pass (mental shorthand, not schema):** `watch`, `analogy`, `framework`, `defer` ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â operator labels only; not machine-enforced.
 
@@ -745,5 +747,7 @@ Recipes: [`compiled-views/recipes/expert-polyphony-synthesis-five-conductors.md`
 
 - **Not** Voice knowledge, **not** SELF ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â promote only via RECURSION-GATE if something should enter Record.
 - CMC `MEMÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ*` shards live in civilization_memory; this notebook may **cite** paths, not duplicate corpus authority.
+
+
 
 

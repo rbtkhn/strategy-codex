@@ -40,7 +40,7 @@ As the fork grows, the main risk is **right data, wrong surface** (identity vs l
 
 ### Phase B2 — partially shipped
 
-- **Persisted boundary classification** — each pending candidate may have `users/<id>/review-queue/boundary-classifications/CANDIDATE-*.json` (`schema-registry/boundary-classification.v1.json`), refreshed when `parse_review_candidates` runs. Classifier logic lives in `src/grace_mar/merge/boundary_classifier.py`.
+- **Persisted boundary classification** — each pending candidate may have `review-queue/boundary-classifications/CANDIDATE-*.json` (`schema-registry/boundary-classification.v1.json`), refreshed when `parse_review_candidates` runs. Classifier logic lives in `src/grace_mar/merge/boundary_classifier.py`.
 - **API** — `items_normalized` from `/api/candidates` includes `boundary_confidence`, `boundary_confidence_score`, `boundary_misfiled_warning`, `boundary_hint_reasons`, and `suggested_reclassify_proposal_class` (one-click target class).
 - **Gate-review app** — cards show the same boundary hint block as the Approval Inbox (target → suggested, misfiled text, reasons) plus **Apply suggested class** when the suggested `proposal_class` differs from the current row.
 - **Reclassify audit** — `gate_reclassified` pipeline events include `boundary_classification_rel_path` pointing at the on-disk artifact path.
@@ -66,7 +66,7 @@ Every item keeps **evidence links** (`evidence_id`, `intake_evidence_id`, ACT-*)
 
 1. **Routine:** Candidate stays in **`recursion-gate.md`**; companion approves or rejects; merge via `process_approved_candidates.py` (or equivalent).
 2. **Boundary ambiguity:** Use **`proposal_class`**, **boundary hints** (`recursion_gate_review`), and the Approval Inbox to **reclassify** before merge.
-3. **Material change** (contradiction, cross-surface move needing audit, policy/prompt shift): **Escalate** to **`users/<id>/review-queue/`** — structured proposals, decisions, diffs — per companion-self [change-review](https://github.com/rbtkhn/companion-self/blob/main/docs/change-review.md) semantics. Optional bridge: `python3 scripts/export_gate_to_review_queue.py --user <id> --candidate-id <id>`.
+3. **Material change** (contradiction, cross-surface move needing audit, policy/prompt shift): **Escalate** to **`review-queue/`** — structured proposals, decisions, diffs — per companion-self [change-review](https://github.com/rbtkhn/companion-self/blob/main/docs/change-review.md) semantics. Optional bridge: `python3 scripts/export_gate_to_review_queue.py --user <id> --candidate-id <id>`.
 
 Escalation **does not** auto-merge; it adds **process** before governed state changes. See [identity-fork-protocol.md](identity-fork-protocol.md) §4.3.
 

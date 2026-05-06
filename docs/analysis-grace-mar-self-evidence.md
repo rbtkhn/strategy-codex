@@ -1,10 +1,10 @@
-# Analysis: Grace-Mar Evidence Module and Redundancy Audit
+﻿# Analysis: Grace-Mar Evidence Module and Redundancy Audit
 
 > Compatibility note: references in this audit to `self-skill-work` reflect the older taxonomy. Current canon keeps `CREATE-*` / `ACT-*` evidence and historical BUILD references, but work now lives in a separate execution layer rather than in the self-skill set.
 
-**Purpose:** Analyze the Record's **evidence** layer — scope, terminology, linkage to SELF/SKILLS — and audit `users/grace-mar` for redundant or overlapping files.
+**Purpose:** Analyze the Record's **evidence** layer â€” scope, terminology, linkage to SELF/SKILLS â€” and audit `` for redundant or overlapping files.
 
-**Sources:** `users/grace-mar/self-evidence.md`, `docs/id-taxonomy.md`, `docs/evidence-template.md`, `docs/conceptual-framework.md`  
+**Sources:** `self-evidence.md`, `docs/id-taxonomy.md`, `docs/evidence-template.md`, `docs/conceptual-framework.md`  
 **Date:** 2026-02-26
 
 ---
@@ -29,7 +29,7 @@ There is no **self-evidence** label. The Record module that holds raw activity i
 | IV. Media Log | MEDIA-* | Movies, shows, games |
 | V. Activity Log | ACT-* | Bot exchanges, lookups, physical artifacts |
 
-Raw evidence → pipeline → SELF/SKILLS. EVIDENCE is canonical; SELF and SKILLS derive from it.
+Raw evidence â†’ pipeline â†’ SELF/SKILLS. EVIDENCE is canonical; SELF and SKILLS derive from it.
 
 ---
 
@@ -38,7 +38,7 @@ Raw evidence → pipeline → SELF/SKILLS. EVIDENCE is canonical; SELF and SKILL
 | File | Role | Scope | Part of Record? |
 |------|------|-------|-----------------|
 | **self-evidence.md** | Raw activity logs (READ, WRITE, CREATE, MEDIA, ACT) | Entry-level | Yes |
-| **session-log.md** | Session chronicle — dates, participants, what was merged | Session-level | Yes |
+| **session-log.md** | Session chronicle â€” dates, participants, what was merged | Session-level | Yes |
 | **session-transcript.md** | Raw conversation log for operator continuity | Real-time append | No |
 | **self-archive.md** | Gated log of approved activity (voice, non-voice) | Merge-time append | Yes |
 | **journal.md** | Curated daily highlights, first-person, public-suitable | Derived from evidence | Yes |
@@ -46,10 +46,10 @@ Raw evidence → pipeline → SELF/SKILLS. EVIDENCE is canonical; SELF and SKILL
 
 **Distinctions:**
 
-- **self-evidence.md** vs **journal.md** — Evidence holds raw entries; journal is curated first-person summary with `source_id` links. Journal derives from evidence. Different format and purpose.
-- **session-log.md** vs **self-evidence.md** — Session-log is session grain (what happened in session X); evidence is entry grain (ACT-0001, WRITE-0006). Different grain; session-log references evidence IDs.
-- **session-transcript.md** vs **self-archive.md** — Session-transcript is real-time operator continuity; self-archive is gated subset appended on merge. Approved exchanges appear in both at different stages; different lifecycles (transcript can rotate; archive is permanent).
-- **companion-context.md** — Human companion context (artistic style, personality). Derived from ACT-0036. Working file for operator; not part of child's Record.
+- **self-evidence.md** vs **journal.md** â€” Evidence holds raw entries; journal is curated first-person summary with `source_id` links. Journal derives from evidence. Different format and purpose.
+- **session-log.md** vs **self-evidence.md** â€” Session-log is session grain (what happened in session X); evidence is entry grain (ACT-0001, WRITE-0006). Different grain; session-log references evidence IDs.
+- **session-transcript.md** vs **self-archive.md** â€” Session-transcript is real-time operator continuity; self-archive is gated subset appended on merge. Approved exchanges appear in both at different stages; different lifecycles (transcript can rotate; archive is permanent).
+- **companion-context.md** â€” Human companion context (artistic style, personality). Derived from ACT-0036. Working file for operator; not part of child's Record.
 
 ---
 
@@ -72,36 +72,36 @@ Raw evidence → pipeline → SELF/SKILLS. EVIDENCE is canonical; SELF and SKILL
 
 | File | Purpose | Redundancy |
 |------|---------|------------|
-| session-transcript.md | Raw conversation log, operator continuity | None — different lifecycle from self-archive |
+| session-transcript.md | Raw conversation log, operator continuity | None â€” different lifecycle from self-archive |
 | self-memory.md | Self-memory: short/medium/long continuity; non-Record, rotatable | None |
-| companion-context.md | Companion artistic style, personality | None — human context, not Record |
+| companion-context.md | Companion artistic style, personality | None â€” human context, not Record |
 
 ### Seed / Survey
 
 | File | Purpose | Redundancy |
 |------|---------|------------|
-| survey-capture.md | Seed survey capture template (Q1–Q4 preferences) | None — template for capture; data merged to self.md |
-| seed-phase-2-survey.md | Artistic style survey | None — distinct instrument |
-| seed-phase-3-survey.md | Later survey | None — distinct instrument |
+| survey-capture.md | Seed survey capture template (Q1â€“Q4 preferences) | None â€” template for capture; data merged to self.md |
+| seed-phase-2-survey.md | Artistic style survey | None â€” distinct instrument |
+| seed-phase-3-survey.md | Later survey | None â€” distinct instrument |
 
 ### Pipeline / Ledger
 
 | File | Purpose | Redundancy |
 |------|---------|------------|
 | pipeline-events.jsonl | Append-only pipeline audit (staged, applied, rejected) | None |
-| merge-receipts.jsonl | Merge run receipts (approved_by, checksum, candidates) | None — different detail from pipeline-events |
+| merge-receipts.jsonl | Merge run receipts (approved_by, checksum, candidates) | None â€” different detail from pipeline-events |
 | compute-ledger.jsonl | Token usage | None |
 
 ### Exports / Derived Outputs
 
 | File | Purpose | Redundancy |
 |------|---------|------------|
-| llms.txt | PRP anchor for LLM instantiation | By design — copy for consumption |
+| llms.txt | PRP anchor for LLM instantiation | By design â€” copy for consumption |
 | curriculum_profile.json | Curriculum export | By design |
 | symbolic_identity.json | Symbolic identity export | By design |
 | fork-manifest.json | Fork manifest | By design |
 | manifest.json | Manifest export | By design |
-| users/grace-mar/openclaw-user.md | OpenClaw export | By design — regenerable from SELF |
+| openclaw-user.md | OpenClaw export | By design â€” regenerable from SELF |
 
 Exports duplicate content by design; they are outputs for different consumers. Not redundant in the problematic sense.
 
@@ -117,7 +117,8 @@ Exports duplicate content by design; they are outputs for different consumers. N
 
 ## 4. Conclusion
 
-- **No problematic redundancy** — Canonical Record files (evidence, session-log, self-archive, journal) have distinct roles and grain.
-- **"Self-evidence"** — Not a standard term; use **EVIDENCE** for the Record's activity log.
-- **Exports** — Derived copies by design; not redundancy issues.
-- **One-off artifacts** — `analysis-homework-samples-2026-02-24.md`, `audit-grok-transcript-2026-02-24.md`, `notes/2026-02-25-telegram-log.md` are candidates for archival or pruning after use, not for deletion as redundant.
+- **No problematic redundancy** â€” Canonical Record files (evidence, session-log, self-archive, journal) have distinct roles and grain.
+- **"Self-evidence"** â€” Not a standard term; use **EVIDENCE** for the Record's activity log.
+- **Exports** â€” Derived copies by design; not redundancy issues.
+- **One-off artifacts** â€” `analysis-homework-samples-2026-02-24.md`, `audit-grok-transcript-2026-02-24.md`, `notes/2026-02-25-telegram-log.md` are candidates for archival or pruning after use, not for deletion as redundant.
+

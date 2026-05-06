@@ -1,7 +1,13 @@
 # Strategy expert - `diesen`
 <!-- word_count: 486 -->
 
-**Canonical index:** [strategy-commentator-threads.md](strategy-commentator-threads.md) - **`diesen`** lane.
+**Canonical index:** [strategy-commentator-threads.md](../strategy-commentator-threads.md) - **`diesen`** lane.
+
+---
+
+## Introduction
+
+Glenn Diesen is the multipolar-and-Eurasia discourse lane: useful when the notebook needs a distinct non-Western institutional frame that is adjacent to, but not identical with, classical U.S. structural realism. This profile keeps his public source surfaces and lane ownership visible so guest-stream material can still resolve back to the Diesen channel cleanly.
 
 ## Identity
 
@@ -23,7 +29,7 @@
 | **Voice tier** | `B` |
 | **Voice fingerprint - last reviewed** | `2026-04` |
 
-Promotion and refresh defaults: [strategy-expert-template.md section Voice fingerprint (compact)](strategy-expert-template.md#voice-fingerprint-compact).
+Promotion and refresh defaults: [strategy-expert-template.md section Voice fingerprint (compact)](../strategy-expert-template.md#voice-fingerprint-compact).
 
 ## Convergence fingerprint
 
@@ -61,14 +67,22 @@ The block below **Rolling ingest** is replaced on each `strategy_thread.py` / `s
 |-----------|-----|----|-----|--------------------------------------------------|
 | `diesen` | 0.77 | 0.43 | 0.79 | Multipolar language is clearly his own - not a copy of standard U.S. structural realism - so you can tell when Diesen is speaking. Closure looks like his peer group: partly about time and evidence. He is frequently read alongside other realist anchors when the week demands comparison. |
 
-### Published sources (operator web index)
+## Links
 
-Where their commentary is published and accessible (no Wikipedia). Re-verify handles and media URLs before cite-grade use outside this notebook.
+### Social media
 
-1. https://www.usn.no/english/about/contact-us/employees/diesen
-2. https://eng.globalaffairs.ru/authors/diesen/
-3. https://x.com/Glenn_Diesen
-4. https://www.rt.com/podcast/627315-diesen-ukraine-situation-bad/
+- https://x.com/Glenn_Diesen
+- https://www.youtube.com/@GDiesen1
+
+### Substack
+
+- None currently tracked.
+
+### Other links
+
+- https://www.usn.no/english/about/contact-us/employees/diesen
+- https://eng.globalaffairs.ru/authors/diesen/
+- https://www.rt.com/podcast/627315-diesen-ukraine-situation-bad/
 
 ## Archive / backfill note
 
@@ -234,4 +248,4 @@ User-supplied Glenn Diesen / Max Blumenthal episode URLs added outside the page 
 
 ---
 
-**Companion files:** [`strategy-expert-diesen-transcript.md`](strategy-expert-diesen-transcript.md) (7-day rolling verbatim) and [`strategy-expert-diesen-thread.md`](strategy-expert-diesen-thread.md) (distilled analytical thread).
+**Companion files:** [diesen-transcript.md](../2026/diesen/diesen-transcript.md) (7-day rolling verbatim) and [diesen-thread.md](../2026/diesen/diesen-thread.md) (distilled analytical thread).

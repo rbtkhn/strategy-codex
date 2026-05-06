@@ -52,16 +52,16 @@ recursion-gate.md  ──adapter──▶  identity-diff JSON  ──renderer─
 
 ```bash
 # Render from a directory of identity-diff JSON files
-python3 scripts/render_record_diff_queue.py users/demo/review-queue/diffs/
+python3 scripts/render_record_diff_queue.py demo/review-queue/diffs/
 
 # Render from specific files
 python3 scripts/render_record_diff_queue.py diff-a.json diff-b.json
 
 # Write output to file
-python3 scripts/render_record_diff_queue.py --output queue.md users/demo/review-queue/diffs/
+python3 scripts/render_record_diff_queue.py --output queue.md demo/review-queue/diffs/
 
 # Output as JSON array (for programmatic consumption)
-python3 scripts/render_record_diff_queue.py --json users/demo/review-queue/diffs/
+python3 scripts/render_record_diff_queue.py --json demo/review-queue/diffs/
 
 # Instance-specific: render from recursion-gate (grace-mar)
 python3 scripts/render_record_diff_queue.py --from-gate -u grace-mar

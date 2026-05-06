@@ -1,4 +1,4 @@
-# Tacit capture (Grace-Mar)
+﻿# Tacit capture (Grace-Mar)
 
 **Runtime / WORK only.** Markdown-first intake for lived observations, normalized to JSON, then optional **review-only** candidate objects. **Not** SELF, SELF-LIBRARY, SKILLS, EVIDENCE, or Voice prompt truth.
 
@@ -22,10 +22,10 @@ tags: [negotiation, pattern]
 
 ## Raw note
 
-Freeform text…
+Freeform textâ€¦
 ```
 
-- **`intended_destination`:** pipe-separated tokens (`moonshot`, `skill`, `library`, `work`, `unknown`, …). Drives deterministic candidate types.
+- **`intended_destination`:** pipe-separated tokens (`moonshot`, `skill`, `library`, `work`, `unknown`, â€¦). Drives deterministic candidate types.
 - **`confidence` / `privacy`:** `low|medium|high` and `private|shareable`.
 
 ---
@@ -45,14 +45,14 @@ python3 scripts/tacit/generate_tacit_candidates.py \
 python3 scripts/tacit/render_tacit_candidates_md.py runtime/tacit/candidates/*.json -o /tmp/candidates.md
 ```
 
-**Fixtures (CI):** `tests/tacit/fixtures/inbox/demo-note.md` → golden JSON under `tests/tacit/fixtures/expected/`.
+**Fixtures (CI):** `tests/tacit/fixtures/inbox/demo-note.md` â†’ golden JSON under `tests/tacit/fixtures/expected/`.
 
 ---
 
 ## Recursion-gate boundary
 
 - Outputs stay under **`runtime/tacit/`** or **WORK** mission folders until you **manually** promote content.
-- **Do not** append to `users/<id>/recursion-gate.md` from these scripts (e.g. [`recursion-gate.md`](../users/grace-mar/recursion-gate.md) for grace-mar).
+- **Do not** append to `recursion-gate.md` from these scripts (e.g. [`recursion-gate.md`](../recursion-gate.md) for grace-mar).
 - Optional [`render_tacit_candidates_md.py`](../../scripts/tacit/render_tacit_candidates_md.py) is for **copy-paste** only.
 - Durable Record changes still require companion approval and `process_approved_candidates.py` per [AGENTS.md](../AGENTS.md).
 
@@ -61,7 +61,7 @@ python3 scripts/tacit/render_tacit_candidates_md.py runtime/tacit/candidates/*.j
 ## SELF vs MEMORY
 
 - **SELF (`self.md`):** IX / self-knowledge updates **only** via gate + merge. This pipeline **does not** write `self.md`.
-- **MEMORY (`self-memory.md`):** Optional continuity; **not** authoritative vs SELF. You may **manually** log follow-ups; no automatic tacit → MEMORY link in v1.
+- **MEMORY (`self-memory.md`):** Optional continuity; **not** authoritative vs SELF. You may **manually** log follow-ups; no automatic tacit â†’ MEMORY link in v1.
 
 ---
 
@@ -97,8 +97,9 @@ See [candidate-types.md](candidate-types.md).
 
 ## Implementation status (v1)
 
-**Implemented:** normalize → index append → deterministic candidates → optional markdown render; mission WORK tree under `work-moonshots/missions/`; `--include-mission` on `build_budgeted_context.py`; tests under `tests/tacit/`.
+**Implemented:** normalize â†’ index append â†’ deterministic candidates â†’ optional markdown render; mission WORK tree under `work-moonshots/missions/`; `--include-mission` on `build_budgeted_context.py`; tests under `tests/tacit/`.
 
 **Intentionally deferred:** LLM enrichment; automatic `recursion-gate.md` staging; optional exporter from tacit into `runtime/observations` for unified ranking.
 
 **Governance:** No writes to SELF, EVIDENCE, SKILLS, or `bot/prompt.py`; gate merge path unchanged.
+

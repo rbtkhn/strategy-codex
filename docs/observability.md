@@ -26,7 +26,7 @@ A governed companion system should not rely on **agent self-reporting alone**. O
 
 | Surface | Typical source |
 |---------|----------------|
-| Proposal queue summary | `users/<id>/review-queue/proposals/*.json` (Change Proposal v1) |
+| Proposal queue summary | `review-queue/proposals/*.json` (Change Proposal v1) |
 | Validation status | Subprocess runs of `validate-change-review.py` (and optionally `validate-seed-phase.py`) |
 | Change-type summary | `changeType` field on proposals |
 | Touched surfaces | `targetSurface`, `primaryScope`, `secondaryScopes` |
@@ -58,10 +58,10 @@ The observability layer should help answer:
 
 ```bash
 python3 scripts/build-observability-report.py
-python3 scripts/build-observability-report.py --review-root users/_template/review-queue --skip-seed-validation
+python3 scripts/build-observability-report.py --review-root _template/review-queue --skip-seed-validation
 ```
 
-Default **`--review-root`** is **`users/demo/review-queue`**. Output: **`users/demo/observability/observability-report.json`** (directory created if missing).
+Default **`--review-root`** is **`demo/review-queue`**. Output: **`demo/observability/observability-report.json`** (directory created if missing).
 
 **Policy (template):** The demo report is **intended to be committed** when regenerated after meaningful demo or script changes so operators and CI can diff it. Regenerate with the script; do not hand-edit as source of truth. If an instance prefers not to commit reports, gitignore `**/observability-report.json` locally and document that choice.
 

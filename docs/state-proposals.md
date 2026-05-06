@@ -9,8 +9,8 @@ Companion-Self template · Meaningful post-seed revision as a structured object
 In this template, a **state proposal** is the **human name** for a JSON document that validates against **Change Proposal v1**:
 
 - **Schema:** [`schema-registry/change-proposal.v1.json`](../schema-registry/change-proposal.v1.json)
-- **On disk:** one file per proposal under `users/<id>/review-queue/proposals/` (see [`users/_template/review-queue/README.md`](../users/_template/review-queue/README.md))
-- **Validation:** `python3 scripts/validate-change-review.py users/<id>/review-queue`
+- **On disk:** one file per proposal under `review-queue/proposals/` (see [`_template/review-queue/README.md`](../_template/review-queue/README.md))
+- **Validation:** `python3 scripts/validate-change-review.py review-queue`
 
 It is **not** a separate schema or a parallel format. Do not invent a second proposal JSON shape.
 

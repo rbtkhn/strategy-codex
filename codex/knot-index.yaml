@@ -1,22 +1,5 @@
-# knot-index.yaml — LEGACY registry (WORK only; not Record).
-#
-# **Deprecated:** Primary strategy units are **thread-embedded pages** (`<!-- strategy-page:start`
-# … in `experts/<id>/thread.md`). This file is kept for tooling compatibility; `knots` may be empty.
-# Historical rows lived in git before knot retirement.
-#
-# Validate: `python3 scripts/validate_knot_index.py` (from repo root).
-#
-# schema_version — bump when fields change (tooling). v3: `weave_label` renamed to `knot_label`.
-#   v4: optional gamification / seam fields: `weave_count`, `seam_integrity`, `qoi_check`, `kac_check`.
-#
-# knots[]: (legacy schema — optional rows)
-#   path         (string, required) — repo-relative path to the knot markdown file (unique)
-#   date         (string, required) — YYYY-MM-DD calendar day
-#   knot_label   (string, optional) — stable short id (kebab-case)
-#   clusters     (list of string, optional)
-#   patterns     (list of string, optional)
-#   note         (string, optional)
+# legacy page index (retired)
 
-schema_version: 4
+This file is a neutral archival marker for the old knot registry. It is not live inventory.
 
-knots: []
+Live page inventory now comes from expert threads, `strategy-page` blocks, and the current page/watch surface.

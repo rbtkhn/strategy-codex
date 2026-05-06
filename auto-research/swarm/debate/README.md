@@ -9,8 +9,8 @@ not merge anything. It writes derived review artifacts only.
 
 - keep debate advisory and rebuildable
 - review accepted artifacts or sandbox-adjacent outputs only
-- write outputs under `users/<id>/derived/debate/`
-- do not append directly to `users/<id>/recursion-gate.md`
+- write outputs under `derived/debate/`
+- do not append directly to `recursion-gate.md`
 - do not create a new canonical memory surface
 - prefer deterministic review functions over opaque prompt theater
 

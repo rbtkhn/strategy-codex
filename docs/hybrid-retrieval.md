@@ -39,7 +39,7 @@ All lexical scores are min-max normalised to 0-1 within each query's result set 
 | Surface | Data source | Lexical method | Recency source |
 |---|---|---|---|
 | `prepared_context` | `runtime/observations/index.jsonl` | `search_scoring.score_observation()` (keyword + tag + confidence) | Observation timestamp |
-| `evidence_lookup` | `users/<id>/self-archive.md` | `search_evidence.search()` (TF-IDF + cosine) | Entry date |
+| `evidence_lookup` | `self-archive.md` | `search_evidence.search()` (TF-IDF + cosine) | Entry date |
 | `artifact_lookup` | `artifacts/**/*.{md,json,yaml}` | TF-IDF cosine over tokenised file content | File mtime |
 | `notebook_lookup` | `docs/skill-work/work-strategy/strategy-notebook/chapters/**/*.md` | TF-IDF cosine over tokenised file content | File mtime |
 

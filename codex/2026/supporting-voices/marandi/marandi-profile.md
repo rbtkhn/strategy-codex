@@ -1,7 +1,7 @@
-# Strategy expert — `marandi`
+# Strategy expert Ã¢â‚¬â€ `marandi`
 <!-- word_count: 393 -->
 
-**Canonical index:** [strategy-commentator-threads.md](strategy-commentator-threads.md) — **`marandi`** lane.
+**Canonical index:** [strategy-commentator-threads.md](strategy-commentator-threads.md) Ã¢â‚¬â€ **`marandi`** lane.
 
 ## Identity
 
@@ -11,41 +11,41 @@
 | **expert_id** | `marandi` |
 | **Role** | Iranian English long-form: negotiation **process**, red lines, legitimacy register |
 | **Default grep tags** | `IRAN`, `TEHRAN`, or `Marandi` in cold |
-| **Typical pairings** | × `ritter`, × `parsi`, × `rome-ecumenical` (Pontifex / Marandi Easter) |
+| **Typical pairings** | Ãƒâ€” `ritter`, Ãƒâ€” `parsi`, Ãƒâ€” `rome-ecumenical` (Pontifex / Marandi Easter) |
 | **Notebook-use tags** | `negotiate`, `narrate` |
 
 <a id="voice-fingerprint-compact"></a>
 
-## Voice fingerprint (compact) — Tier B
+## Voice fingerprint (compact) Ã¢â‚¬â€ Tier B
 
 | Field | Value |
 |-------|-------|
 | **Voice tier** | `B` |
-| **Voice fingerprint — last reviewed** | `2026-04` |
+| **Voice fingerprint Ã¢â‚¬â€ last reviewed** | `2026-04` |
 
-Promotion and refresh defaults: [strategy-expert-template.md § Voice fingerprint (compact)](strategy-expert-template.md#voice-fingerprint-compact).
+Promotion and refresh defaults: [strategy-expert-template.md Ã‚Â§ Voice fingerprint (compact)](strategy-expert-template.md#voice-fingerprint-compact).
 
 ## Convergence fingerprint
 
-*Seed profile — operator extends when this lane is upgraded to a full cognitive profile.*
+*Seed profile Ã¢â‚¬â€ operator extends when this lane is upgraded to a full cognitive profile.*
 
 ## Tension fingerprint
 
-*Seed profile — operator extends when upgraded.*
+*Seed profile Ã¢â‚¬â€ operator extends when upgraded.*
 
 ## Signature mechanisms
 
-*Seed profile — operator extends when upgraded.*
+*Seed profile Ã¢â‚¬â€ operator extends when upgraded.*
 
 ## Failure modes / overreads
 
-*Seed profile — operator extends when upgraded.*
+*Seed profile Ã¢â‚¬â€ operator extends when upgraded.*
 
 ## Active weave cues
 
-*Seed profile — operator extends when upgraded.*
+*Seed profile Ã¢â‚¬â€ operator extends when upgraded.*
 
-## Seed (index mirror — operator may extend)
+## Seed (index mirror Ã¢â‚¬â€ operator may extend)
 
 The block below **Rolling ingest** is replaced on each `strategy_thread.py` / `strategy_expert_corpus.py` run; edit this **Seed** section freely.
 
@@ -53,13 +53,13 @@ The block below **Rolling ingest** is replaced on each `strategy_thread.py` / `s
 
 | expert_id | Name | Role (one line) | Default grep tag | Typical `batch-analysis` pairings |
 |-----------|--------|-----------------|------------------|-----------------------------------|
-| `marandi` | Seyed Mohammad Marandi | Iranian English long-form: negotiation **process**, red lines, legitimacy register | `IRAN`, `TEHRAN`, or `Marandi` in cold | × `ritter`, × `parsi`, × `rome-ecumenical` (Pontifex / Marandi Easter) |
+| `marandi` | Seyed Mohammad Marandi | Iranian English long-form: negotiation **process**, red lines, legitimacy register | `IRAN`, `TEHRAN`, or `Marandi` in cold | Ãƒâ€” `ritter`, Ãƒâ€” `parsi`, Ãƒâ€” `rome-ecumenical` (Pontifex / Marandi Easter) |
 
-### Quantitative metrics (illustrative — from index)
+### Quantitative metrics (illustrative Ã¢â‚¬â€ from index)
 
 | expert_id | SCI | AD | CTC | Plain-language note (Predictive History reader) |
 |-----------|-----|----|-----|--------------------------------------------------|
-| `marandi` | 0.78 | 0.42 | 0.71 | He usually sounds like one kind of speaker: negotiation, red lines, and how the Islamic Republic wants to be heard. Many of his strongest claims only settle when the diplomatic music stops, so “who was right?” often stays open. In the notebook he keeps showing up next to other Iran-facing voices, which is why the “bridge” score runs high. |
+| `marandi` | 0.78 | 0.42 | 0.71 | He usually sounds like one kind of speaker: negotiation, red lines, and how the Islamic Republic wants to be heard. Many of his strongest claims only settle when the diplomatic music stops, so Ã¢â‚¬Å“who was right?Ã¢â‚¬Â often stays open. In the notebook he keeps showing up next to other Iran-facing voices, which is why the Ã¢â‚¬Å“bridgeÃ¢â‚¬Â score runs high. |
 
 ### Published sources (operator web index)
 
@@ -67,7 +67,7 @@ Where **their** commentary is published and accessible (**no Wikipedia**). Re-ve
 
 1. https://x.com/s_m_marandi
 2. https://profile.ut.ac.ir/en/~mmarandi
-3. https://www.middleeasteye.net/users/seyed-mohammad-marandi
+3. https://www.middleeasteye.net/seyed-mohammad-marandi
 
 **Automation target:** public X profile crawl via [`scripts/backfill_marandi_x_raw_input.py`](../../../../../scripts/backfill_marandi_x_raw_input.py) or the generic [`scripts/backfill_x_profile_raw_input.py`](../../../../../scripts/backfill_x_profile_raw_input.py) with `--profile-url https://x.com/s_m_marandi --thread marandi`.
 

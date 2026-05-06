@@ -12,8 +12,8 @@ Two reference trees in this repo:
 
 | Tree | Purpose |
 |------|---------|
-| `users/_template/seed-phase/` | Scaffold: placeholders for new runs. |
-| `users/demo/seed-phase/` | Synthetic completed example for docs, validation, and UI demos. |
+| `_template/seed-phase/` | Scaffold: placeholders for new runs. |
+| `demo/seed-phase/` | Synthetic completed example for docs, validation, and UI demos. |
 
 ---
 
@@ -33,8 +33,8 @@ Two reference trees in this repo:
 | `seed_trial_report.json` | 6 | Trial results, stability and safety scores. |
 | `seed_readiness.json` | 7 | Gate decision, stage_completion, blocking/non-blocking issues. |
 | `seed_confidence_map.json` | 7 | Aggregated confidence_map + band constants. |
-| `work_dev_seed.json` | (parallel) | Development / technical-systems context seed; governs promotion into `users/<id>/work-dev.md`. |
-| `work_business_seed.json` | (parallel) | Business / commercial / venture context seed; governs promotion into `users/<id>/work-business.md`. |
+| `work_dev_seed.json` | (parallel) | Development / technical-systems context seed; governs promotion into `work-dev.md`. |
+| `work_business_seed.json` | (parallel) | Business / commercial / venture context seed; governs promotion into `work-business.md`. |
 | `seed_constitution.json` | (derived) | Offline-synthesized constitution from other seed JSON (`scripts/generate-constitution.py`); optional input to Voice self-critique via `runtime_config.json` — not merged into SELF without the gated pipeline. |
 | `seed_dossier.md` | 7 | Human-readable summary for sign-off. |
 
@@ -70,7 +70,7 @@ It begins **blank** in the template and is populated only when seed-survey evide
 
 **Boundary notes**
 
-- `work-dev.md` is a **user module** under `users/<id>/`.
+- `work-dev.md` is a **user module** under ``.
 - It is **not** the operator-facing `docs/skill-work/work-dev/` tree (integration, OpenClaw, exports).
 - It is **not** `self-skill-work`, which tracks **skill claims** rather than development-context preferences.
 
@@ -106,7 +106,7 @@ It begins **blank** in the template and is populated only when seed-survey evide
 
 **Boundary notes**
 
-- `work-business.md` is a **user module** under `users/<id>/`.
+- `work-business.md` is a **user module** under ``.
 - It is **not** the operator-facing `docs/skill-work/work-business/` tree (research docs, Grace Gems, deep dives).
 - It is **not** `self-skill-work`, which tracks **skill claims** rather than commercial-context preferences.
 
@@ -123,8 +123,8 @@ Each artifact has a schema under [schema-registry/](https://github.com/rbtkhn/co
 ## Validation
 
 ```bash
-python3 scripts/validate-seed-phase.py users/demo/seed-phase
-python3 scripts/validate-seed-phase.py users/_template/seed-phase --allow-placeholders
+python3 scripts/validate-seed-phase.py demo/seed-phase
+python3 scripts/validate-seed-phase.py _template/seed-phase --allow-placeholders
 ```
 
 See [seed-phase-validation.md](seed-phase-validation.md).
@@ -134,7 +134,7 @@ See [seed-phase-validation.md](seed-phase-validation.md).
 ## Regenerating the dossier
 
 ```bash
-python3 scripts/generate-seed-dossier.py users/demo/seed-phase
+python3 scripts/generate-seed-dossier.py demo/seed-phase
 ```
 
 ---

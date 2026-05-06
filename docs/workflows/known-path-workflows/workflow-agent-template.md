@@ -1,4 +1,4 @@
-# Workflow registration template
+﻿# Workflow registration template
 
 Copy this file to a new path under `docs/workflows/known-path-workflows/` (or a lane-specific doc tree if policy allows), replace placeholders, and run the [workflow fitness test](workflow-fitness-test.md) before setting `status` to `active`.
 
@@ -24,9 +24,9 @@ related_existing_surfaces:
 ---
 ```
 
-**`cadence` values (suggested):** `daily`, `weekly`, `monthly`, `event_driven`, `operator_invoked` (use **snake_case** in machine-facing YAML; prose may spell out “operator-invoked”).
+**`cadence` values (suggested):** `daily`, `weekly`, `monthly`, `event_driven`, `operator_invoked` (use **snake_case** in machine-facing YAML; prose may spell out â€œoperator-invokedâ€).
 
-**`authority_class` values (normative):** `read_only` | `draftable` | `review_required` | `human_only` | `ephemeral_only` — see [authority map](../../authority-map.md).
+**`authority_class` values (normative):** `read_only` | `draftable` | `review_required` | `human_only` | `ephemeral_only` â€” see [authority map](../../authority-map.md).
 
 ---
 
@@ -38,7 +38,7 @@ _Why this workflow exists and what problem it solves._
 
 ## 2. Known path
 
-_Numbered or bulleted steps. No vague “analyze the repo.” Each step names inputs and outputs._
+_Numbered or bulleted steps. No vague â€œanalyze the repo.â€ Each step names inputs and outputs._
 
 ## 3. Inputs
 
@@ -46,7 +46,7 @@ _List paths, inboxes, scripts, or runtime surfaces read. Link to docs or `config
 
 ## 4. Output
 
-_Describe artifact type, default path, and how “good” is verified._
+_Describe artifact type, default path, and how â€œgoodâ€ is verified._
 
 ## 5. Human reviewer
 
@@ -59,7 +59,7 @@ _Name or role, expected review time, escalation if unavailable._
 
 ## 7. Non-authority statement
 
-This workflow may draft, summarize, route, or prepare reviewable material only within its declared **authority class**. It does **not** bypass [recursion-gate](../../../users/grace-mar/recursion-gate.md), does **not** write directly to durable Record surfaces (`self.md`, `self-archive.md`, `self-skills.md`, `bot/prompt.py`, or other canonical paths except through the governed merge path), and does **not** promote candidates without **human approval**.
+This workflow may draft, summarize, route, or prepare reviewable material only within its declared **authority class**. It does **not** bypass [recursion-gate](../../../recursion-gate.md), does **not** write directly to durable Record surfaces (`self.md`, `self-archive.md`, `self-skills.md`, `bot/prompt.py`, or other canonical paths except through the governed merge path), and does **not** promote candidates without **human approval**.
 
 ## 8. Load-lift evaluation
 
@@ -96,7 +96,7 @@ After **trial runs** or when moving toward `status: active`, consider emitting a
 
 ## 11. Promotion path
 
-_Exact handoff: e.g. “stage `CANDIDATE-XXXX` in recursion-gate” or “open PR”; link to [AGENTS.md](../../../AGENTS.md) merge rules._
+_Exact handoff: e.g. â€œstage `CANDIDATE-XXXX` in recursion-gateâ€ or â€œopen PRâ€; link to [AGENTS.md](../../../AGENTS.md) merge rules._
 
 ## 12. Example run
 
@@ -105,3 +105,4 @@ _One short fictional or redacted walkthrough._
 ---
 
 **Schema:** When this frontmatter is expressed as JSON for tooling, validate against [`schema-registry/known-path-workflow.v1.json`](../../../schema-registry/known-path-workflow.v1.json) (Draft 2020-12; optional keys `related_existing_surfaces`, `load_lift_metrics`, `promotion_path`).
+

@@ -2,7 +2,7 @@
 
 Companion-Self template · Governed self-revision doctrine (v1 entrypoint)
 
-**Machine validation:** [change-review-validation.md](change-review-validation.md) — schema checks, reference integrity, and Markdown diff generation for `users/<id>/review-queue/`.
+**Machine validation:** [change-review-validation.md](change-review-validation.md) — schema checks, reference integrity, and Markdown diff generation for `review-queue/`.
 
 **Gate vs change-review:** [gate-vs-change-review.md](gate-vs-change-review.md) — when to use the recursion gate vs the review queue.
 
@@ -12,7 +12,7 @@ Companion-Self template · Governed self-revision doctrine (v1 entrypoint)
 
 ## State proposal object
 
-Meaningful post-seed revision should be represented as a **state proposal**: a JSON file that validates as **Change Proposal v1** under `users/<id>/review-queue/proposals/`, not as a vague “memory update” with no durable object.
+Meaningful post-seed revision should be represented as a **state proposal**: a JSON file that validates as **Change Proposal v1** under `review-queue/proposals/`, not as a vague “memory update” with no durable object.
 
 See:
 

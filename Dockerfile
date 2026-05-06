@@ -16,7 +16,7 @@ RUN pip install --no-cache-dir -r bot/requirements.txt
 COPY bot/ bot/
 COPY scripts/ scripts/
 COPY miniapp/ miniapp/
-COPY users/ users/
+COPY  
 COPY apps/ apps/
 
 EXPOSE 5000 5001

@@ -1,7 +1,13 @@
 # Strategy expert — `ritter`
 <!-- word_count: 416 -->
 
-**Canonical index:** [strategy-commentator-threads.md](strategy-commentator-threads.md) — **`ritter`** lane.
+**Canonical index:** [strategy-commentator-threads.md](../strategy-commentator-threads.md) — **`ritter`** lane.
+
+---
+
+## Introduction
+
+Scott Ritter is the military-dissent and operational-mechanics lane: especially useful when the notebook needs blockade logic, sea-control framing, and force-structure arguments grounded in a strongly voiced dissent register. This profile keeps his major publishing surfaces together so site, Substack, social, and video sources can all feed one lane.
 
 ## Identity
 
@@ -23,7 +29,7 @@
 | **Voice tier** | `B` |
 | **Voice fingerprint — last reviewed** | `2026-04` |
 
-Promotion and refresh defaults: [strategy-expert-template.md § Voice fingerprint (compact)](strategy-expert-template.md#voice-fingerprint-compact).
+Promotion and refresh defaults: [strategy-expert-template.md § Voice fingerprint (compact)](../strategy-expert-template.md#voice-fingerprint-compact).
 
 ## Convergence fingerprint
 
@@ -61,14 +67,20 @@ The block below **Rolling ingest** is replaced on each `strategy_thread.py` / `s
 |-----------|-----|----|-----|--------------------------------------------------|
 | `ritter` | 0.82 | 0.48 | 0.74 | His lane is recognizable—sea control, blockade mechanics, the military story under the headlines—so he does not drift into generic punditry as often. Operational claims need time and evidence to judge, so verdicts arrive slowly. He is often placed beside diplomats or lawyers of war in the same week’s analysis, which raises the “compares with others” score. |
 
-### Published sources (operator web index)
+## Links
 
-Where **their** commentary is published and accessible (**no Wikipedia**). Re-verify handles and media URLs before cite-grade use outside this notebook.
+### Social media
 
-1. https://x.com/RealScottRitter
-2. https://scottritter.com/
-3. https://scottritter.substack.com/
-4. https://www.youtube.com/@therealscottritter
+- https://x.com/RealScottRitter
+- https://www.youtube.com/@therealscottritter
+
+### Substack
+
+- https://scottritter.substack.com/
+
+### Other links
+
+- https://scottritter.com/
 
 ## Archive / backfill note
 
@@ -81,4 +93,4 @@ Where **their** commentary is published and accessible (**no Wikipedia**). Re-ve
 
 ---
 
-**Companion files:** [`transcript.md`](transcript.md) (7-day rolling verbatim), [`thread.md`](thread.md) (analytical thread — multi-month during phased split), and [`ritter-thread-2026-01.md`](ritter-thread-2026-01.md) (January 2026 monthly chapter; canonical for that month when present).
+**Companion files:** [ritter-transcript.md](../2026/ritter/ritter-transcript.md) (7-day rolling verbatim), [ritter-thread.md](../2026/ritter/ritter-thread.md) (analytical thread — multi-month during phased split), and [ritter-thread-2026-01.md](../2026/ritter/ritter-thread-2026-01.md) (January 2026 monthly chapter; canonical for that month when present).

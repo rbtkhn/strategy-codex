@@ -1,16 +1,16 @@
-# Expert thread — `bigserge`
+# Expert thread Ã¢â‚¬â€ `bigserge`
 <!-- word_count: 225 -->
 
 WORK only; not Record.
 
 **Source:** Distilled from [`transcript.md`](transcript.md) (what the expert said recently) and relevant pages (where that material was used in strategy work).
-**Process:** `python3 scripts/strategy_thread.py` triages inbox → transcript, then fills **only** the **machine layer** between the **strategy-expert-thread** HTML start and end comments. Operator / assistant maintains the **journal layer** above the start marker in **readable prose** (optional **ledger** after the end marker).
-**Updated:** Narrative — when you distill; **machine layer** — when you run **`thread`**.
+**Process:** `python3 scripts/strategy_thread.py` triages inbox Ã¢â€ â€™ transcript, then fills **only** the **machine layer** between the **strategy-expert-thread** HTML start and end comments. Operator / assistant maintains the **journal layer** above the start marker in **readable prose** (optional **ledger** after the end marker).
+**Updated:** Narrative Ã¢â‚¬â€ when you distill; **machine layer** Ã¢â‚¬â€ when you run **`thread`**.
 **Companion files:** [`profile.md`](profile.md) and [`transcript.md`](transcript.md).
 
 ---
 
-## Journal layer — Narrative (operator)
+## Journal layer Ã¢â‚¬â€ Narrative (operator)
 
 _Write here in full sentences. Dated arcs are welcome._
 
@@ -18,15 +18,15 @@ _Write here in full sentences. Dated arcs are welcome._
 
 ### Machine hint / opt-out
 
-`python3 scripts/validate_strategy_expert_threads.py` — see [strategy-expert-thread-journal-layer.mdc](../../../../.cursor/rules/strategy-expert-thread-journal-layer.mdc).
+`python3 scripts/validate_strategy_expert_threads.py` Ã¢â‚¬â€ see [strategy-expert-thread-journal-layer.mdc](../../../../.cursor/rules/strategy-expert-thread-journal-layer.mdc).
 
 ## 2026-04
 
-**Seed:** Expert lane opened for **Big Serge** (*Big Serge Thought* on Substack; X [`@witte_sergei`](https://x.com/witte_sergei)) — long-form **war studies / campaign** essays. Use **`batch-analysis`** when folding beside **`berletic`**, **`ritter`**, **`johnson`**, **`baud`**, or **`mercouris`** — **tier** and **seam** discipline; not a wire or ORBAT primary.
+**Seed:** Expert lane opened for **Big Serge** (*Big Serge Thought* on Substack; X [`@witte_sergei`](https://x.com/witte_sergei)) Ã¢â‚¬â€ long-form **war studies / campaign** essays. Use **`batch-analysis`** when folding beside **`berletic`**, **`ritter`**, **`johnson`**, **`baud`**, or **`mercouris`** Ã¢â‚¬â€ **tier** and **seam** discipline; not a wire or ORBAT primary.
 
 ---
 <!-- strategy-expert-thread:start -->
-## Machine layer — Extraction (script-maintained)
+## Machine layer Ã¢â‚¬â€ Extraction (script-maintained)
 
 _Auto-generated from `transcript.md` + **on-disk** and **inbox** `raw-input/` (de-duped union) + `strategy-page` blocks + optional legacy on-disk index rows. **Journal layer** (narrative) lives **above** the **strategy-expert-thread** start HTML comment. The machine-layer HTML block is replaced on each `thread` run._
 

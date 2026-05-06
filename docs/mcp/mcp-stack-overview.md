@@ -6,7 +6,7 @@
 
 ## Purpose
 
-Grace-Mar separates **tool-shaped capabilities** (registry classes, lanes, receipts) from **canonical Record authority** (`users/*/`, gate, merge scripts). The pieces below form a **consistent governance stack**: declare posture in YAML, bind lanes to authority surfaces, audit and risk-scan before admission, and emit **execution receipts** for offline/work artifacts — including adapters that perform **bounded local filesystem** operations under explicit allowlists.
+Grace-Mar separates **tool-shaped capabilities** (registry classes, lanes, receipts) from **canonical Record authority** (``, gate, merge scripts). The pieces below form a **consistent governance stack**: declare posture in YAML, bind lanes to authority surfaces, audit and risk-scan before admission, and emit **execution receipts** for offline/work artifacts — including adapters that perform **bounded local filesystem** operations under explicit allowlists.
 
 ---
 
@@ -40,6 +40,8 @@ Grace-Mar separates **tool-shaped capabilities** (registry classes, lanes, recei
 ---
 
 ## Related docs
+
+- **[`agent-substrate.md`](../agent-substrate.md)** - broader architecture framing for Grace-Mar as a governed personal agent substrate.
 
 - **[`mcp-governance-runbook.md`](mcp-governance-runbook.md)** — operator sequence and one-shot **`scripts/run_mcp_governance_checks.py`** demo.
 - Per-topic docs linked from **[`governed-mcp-layer.md`](governed-mcp-layer.md)** (execution receipts, manifest admission, mock harness, local adapters, risk scanner).

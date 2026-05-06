@@ -1,4 +1,4 @@
-# Memory Brief → Gate Candidate Demo
+﻿# Memory Brief â†’ Gate Candidate Demo
 
 This walkthrough shows how Grace-Mar turns runtime observations into bounded context and, only if warranted, into a reviewable gate candidate.
 
@@ -14,7 +14,7 @@ Grace-Mar separates runtime memory from canonical Record truth. This flow shows 
 - build prepared context
 - stage a candidate **only** for review (optional, explicit operator choice)
 
-For a single command that bundles search → timeline → bounded expansion into one Markdown file, see `scripts/runtime/memory_brief.py` and [read-hints.md](../runtime/read-hints.md). This document spells out **each script** so the orchestration is visible.
+For a single command that bundles search â†’ timeline â†’ bounded expansion into one Markdown file, see `scripts/runtime/memory_brief.py` and [read-hints.md](../runtime/read-hints.md). This document spells out **each script** so the orchestration is visible.
 
 ## Scenario
 
@@ -22,7 +22,7 @@ You are working in `work-strategy` and want to revisit a recurring theme: cleane
 
 You need a ledger with relevant observations (see `scripts/runtime/log_observation.py` and [runtime/observations/README.md](../../runtime/observations/README.md)). Replace placeholders like `<best_obs_id>` with IDs from your search results.
 
-## Step 1 — Search runtime observations
+## Step 1 â€” Search runtime observations
 
 ```bash
 python3 scripts/runtime/lane_search.py \
@@ -37,7 +37,7 @@ python3 scripts/runtime/lane_search.py \
 - Scored lines you can scan quickly.
 - One likely **anchor** observation to inspect in context (top hit or best match).
 
-## Step 2 — Inspect timeline context
+## Step 2 â€” Inspect timeline context
 
 ```bash
 python3 scripts/runtime/lane_timeline.py \
@@ -51,7 +51,7 @@ python3 scripts/runtime/lane_timeline.py \
 - Surrounding observations in chronological order (same lane by default).
 - Enough context to see whether the idea is isolated or recurring.
 
-## Step 3 — Expand selected observations
+## Step 3 â€” Expand selected observations
 
 ```bash
 python3 scripts/runtime/expand_observations.py \
@@ -66,7 +66,7 @@ python3 scripts/runtime/expand_observations.py \
 - Richer detail for a few chosen observations only (stdout unless you add `-o` / `--output`).
 - Source refs, tags, notes, contradictions if present on those rows.
 
-## Step 4 — Build bounded prepared context
+## Step 4 â€” Build bounded prepared context
 
 ```bash
 python3 scripts/prepared_context/build_context_from_observations.py \
@@ -84,9 +84,9 @@ python3 scripts/prepared_context/build_context_from_observations.py \
 
 Treat the file as operator scratch unless you intentionally commit it.
 
-## Step 5 — Decide whether a gate candidate is warranted
+## Step 5 â€” Decide whether a gate candidate is warranted
 
-Only run this if observations converge on a **durable** change worth companion review — not for every lookup.
+Only run this if observations converge on a **durable** change worth companion review â€” not for every lookup.
 
 ```bash
 python3 scripts/runtime/stage_candidate_from_observations.py \
@@ -105,9 +105,9 @@ python3 scripts/runtime/stage_candidate_from_observations.py \
 
 **Expected result:**
 
-- A new **`### CANDIDATE-NNNN`** block in `users/grace-mar/recursion-gate.md` with YAML `status: pending` (pending review; see [provenance-staging.md](../runtime/provenance-staging.md)).
+- A new **`### CANDIDATE-NNNN`** block in `recursion-gate.md` with YAML `status: pending` (pending review; see [provenance-staging.md](../runtime/provenance-staging.md)).
 - Explicit provenance (`source_observation_ids`, etc.).
-- **No** automatic mutation of SKILLS, SELF, or other Record surfaces — `RUNTIME_OBSERVATION_PROPOSAL` candidates follow the merge-skip path until a human applies the change after approval.
+- **No** automatic mutation of SKILLS, SELF, or other Record surfaces â€” `RUNTIME_OBSERVATION_PROPOSAL` candidates follow the merge-skip path until a human applies the change after approval.
 
 Default user id is `grace-mar` (or `GRACE_MAR_USER_ID`); `-u` makes the fork explicit.
 
@@ -125,10 +125,10 @@ If you think in Claude Code terms, this flow is roughly:
 | Phase | Claude Code mental model | This demo |
 |-------|--------------------------|-----------|
 | Entry | command / workflow | shell steps from repo root |
-| Recall | memory lookup | `lane_search` → `lane_timeline` |
+| Recall | memory lookup | `lane_search` â†’ `lane_timeline` |
 | Focus | context narrowing | `expand_observations` on chosen IDs |
 | Bundle | bounded context artifact | `build_context_from_observations` |
-| Handoff | review queue | optional `stage_candidate_from_observations` → gate |
+| Handoff | review queue | optional `stage_candidate_from_observations` â†’ gate |
 
 In Grace-Mar terms, the important distinction is that **runtime assistance does not bypass the gate**.
 
@@ -142,8 +142,9 @@ In Grace-Mar terms, the important distinction is that **runtime assistance does 
 | [scripts/prepared_context/build_context_from_observations.py](../../scripts/prepared_context/build_context_from_observations.py) | Prepared-context Markdown |
 | [scripts/runtime/stage_candidate_from_observations.py](../../scripts/runtime/stage_candidate_from_observations.py) | Provenance-backed gate staging |
 | `prepared-context/runtime-observation-context.md` | Example output path (operator-local unless committed) |
-| `users/grace-mar/recursion-gate.md` | Approval Inbox target when staging |
+| `recursion-gate.md` | Approval Inbox target when staging |
 
 ## Boundary reminder
 
 This demo does **not** update SELF, SELF-LIBRARY, SKILLS, or EVIDENCE directly. It shows how runtime memory can **support** reviewable change without becoming governed truth on its own.
+

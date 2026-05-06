@@ -51,7 +51,7 @@ python3 scripts/good-morning-brief.py --skip-warmup-prompt      # non-interactiv
 
 ---
 
-## Paths created (under `users/<id>/`)
+## Paths created (under ``)
 
 | Path | Record? | Notes |
 |------|---------|--------|
@@ -69,7 +69,7 @@ There is **no** top-level `Record/` directory; evidence spine is `self-archive.m
 
 ## Validators (seed wizard step)
 
-When `self.md`, `self-archive.md`, and `recursion-gate.md` all exist under `users/<id>/`, the wizard runs:
+When `self.md`, `self-archive.md`, and `recursion-gate.md` all exist under ``, the wizard runs:
 
 - `python3 scripts/validate-integrity.py --user <id>` (optional `--require-proposal-class`)
 - `python3 scripts/governance_checker.py`

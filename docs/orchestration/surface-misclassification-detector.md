@@ -9,7 +9,7 @@
 | **Surface type** | Workflow / operator tooling (read-only) |
 | **Primary purpose** | Assess whether a proposal appears to target the wrong Grace-Mar **canonical surface** |
 | **When to use** | Before approving or heavily editing a candidate whose surface placement feels uncertain |
-| **Inputs** | `--candidate CANDIDATE-NNNN` (pending block in `users/<id>/recursion-gate.md`), `--proposal-file` (schema-aligned JSON), or direct proposal (`--target-surface` + `--proposal-summary` + `--proposed-change`) |
+| **Inputs** | `--candidate CANDIDATE-NNNN` (pending block in `recursion-gate.md`), `--proposal-file` (schema-aligned JSON), or direct proposal (`--target-surface` + `--proposal-summary` + `--proposed-change`) |
 | **Outputs** | A Markdown **Classification Risk Report** under `artifacts/classification-reports/` (default) or `--output` |
 | **Mutation scope** | Writes **only** the report file. No gate merge, no Record writes. |
 | **Canonical Record access** | Read-only gate + optional JSON; no gate-state mutation |
@@ -30,7 +30,7 @@ A proposal can be plausible and still be **mis-aimed** at the wrong ontological 
 
 ## Live repo integration
 
-- **Canonical inbox:** `users/<id>/recursion-gate.md` via [`parse_review_candidates`](../../scripts/recursion_gate_review.py) — **not** a repo-root `recursion-gate.md`.
+- **Canonical inbox:** `recursion-gate.md` via [`parse_review_candidates`](../../scripts/recursion_gate_review.py) — **not** a repo-root `recursion-gate.md`.
 - When a gate row is loaded, optional **`boundary_review`** (misfile hints from [`recursion_gate_review.py`](../../scripts/recursion_gate_review.py)) is included in the report.
 
 ## What it does

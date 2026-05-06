@@ -1,11 +1,11 @@
-<!-- GENERATED — run: python3 scripts/build_lane_dashboards.py -->
+﻿<!-- GENERATED â€” run: python3 scripts/build_lane_dashboards.py -->
 
 # Lane dashboards (aggregate)
 
 **Derived operator artifact.** Work territories do not redefine the Record; this file only surfaces runtime + WORK telemetry for navigation.
 
 - **Generated:** 2026-04-24T16:19:11Z
-- **Ledger:** `/Users/robertkuhne/Documents/grace-mar/runtime/observations/index.jsonl` (missing — no runtime observations yet)
+- **Ledger:** `/Users/robertkuhne/Documents/grace-mar/runtime/observations/index.jsonl` (missing â€” no runtime observations yet)
 
 ## work-lanes-dashboard.json snapshot
 
@@ -213,7 +213,7 @@ From `artifacts/work-lanes-dashboard.json` (run `build_work_lanes_dashboard.py` 
       },
       "governance": {
         "recursion_gate_pending_status_count": 1,
-        "gate_path": "/Users/robertkuhne/Documents/grace-mar/users/grace-mar/recursion-gate.md"
+        "gate_path": "/Users/robertkuhne/Documents/grace-mar/recursion-gate.md"
       },
       "pressure_signals": [
         "high_coffee_volume"
@@ -249,7 +249,7 @@ From `artifacts/work-lanes-dashboard.json` (run `build_work_lanes_dashboard.py` 
 
 ## Long-horizon checkpoints and handoffs
 
-**Runtime work layer** — not Record. See `docs/runtime/long-horizon-work.md`. Heuristics below are **legibility hints** for operators.
+**Runtime work layer** â€” not Record. See `docs/runtime/long-horizon-work.md`. Heuristics below are **legibility hints** for operators.
 
 - **Stale (idle):** latest checkpoint file mtime older than **7 days**.
 - **Stale (drift):** newest runtime observation for the lane is **newer** than the checkpoint `Built:` timestamp (parsed when present; else file mtime).
@@ -262,14 +262,14 @@ From `artifacts/work-lanes-dashboard.json` (run `build_work_lanes_dashboard.py` 
 
 ## Context efficiency (budgeted builds)
 
-Per-lane receipts from `build_budgeted_context.py`. Not Record truth — see [`docs/runtime/context-budgeting.md`](../../docs/runtime/context-budgeting.md).
+Per-lane receipts from `build_budgeted_context.py`. Not Record truth â€” see [`docs/runtime/context-budgeting.md`](../../docs/runtime/context-budgeting.md).
 
 - **Receipt file:** `prepared-context/last-budget-builds.json`
 
 ### work-strategy
 
 - **Last build:** `/private/tmp/budget-wd-demo.md`
-- **Budget class:** `medium` — **budget target (chars):** `2500`
+- **Budget class:** `medium` â€” **budget target (chars):** `2500`
 - **Policy mode:** `operator_only`
 - **Built:** 2026-04-19T23:20:35Z
 - **Exclusions occurred:** no
@@ -280,8 +280,9 @@ _No observations in ledger._ Operator: `python3 scripts/runtime/log_observation.
 
 ## Active lane compression / context memos
 
-_`artifacts/context/` is gitignored by default — regenerate with `scripts/compress_active_lane.py`. Listing skipped here._
+_`artifacts/context/` is gitignored by default â€” regenerate with `scripts/compress_active_lane.py`. Listing skipped here._
 
 ## Per-lane split (future)
 
 Optional follow-up: `artifacts/lane-dashboards/work-strategy.md` from the same inputs.
+

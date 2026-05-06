@@ -11,7 +11,7 @@ A single browser page (served by the Mini App server) with four tabs:
 | Tab | Purpose |
 |-----|--------|
 | **Observe** | Submit an observation (same pipeline as saying "we did X" in Telegram). Text is sent to the analyst; any staged candidate appears in the Gate tab. No need to open or edit `recursion-gate.md`. |
-| **Upload** | Upload a file to `users/<id>/artifacts/` and optionally add a note. The note is submitted as an observation so the analyst can stage a candidate linking the artifact. |
+| **Upload** | Upload a file to `artifacts/` and optionally add a note. The note is submitted as an observation so the analyst can stage a candidate linking the artifact. |
 | **Gate** | View pending candidates; Approve / Reject / Quick merge. After approval, **Merge approved (companion)** / **(all)** / **(work-politics territory only)** runs `process_approved_candidates` on the server — same as the CLI receipt flow, without pasting commands. |
 | **Timeline** | Read-only view of recent pipeline events (staged, applied, etc.) from `pipeline-events.jsonl`. Fork history at a glance without opening markdown. |
 

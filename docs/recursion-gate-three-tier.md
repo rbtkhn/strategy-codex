@@ -2,6 +2,8 @@
 
 **Purpose:** Operator-facing spec for **how traffic moves through** `recursion-gate.md` without changing the **Sovereign Merge Rule**: the companion (or delegated human) approves; `process_approved_candidates.py` is the merge boundary. This doc names **lanes** (Tier 1–3); it does not replace [gate-vs-change-review.md](gate-vs-change-review.md) or [identity-fork-protocol.md](identity-fork-protocol.md).
 
+**Alias note:** `knowledge-gate` is a human-friendly synonym for `recursion-gate`; both names refer to the same approval membrane and the same canonical file path.
+
 ---
 
 ## Constitutional invariants
@@ -60,13 +62,13 @@ Do **not** conflate **`manual_escalate`** with “must leave the gate.” Escala
 | Situation | Where it lives | Typical action |
 |-----------|----------------|----------------|
 | **Gate-heavy** — `manual_escalate`, contradictions, duplicate hints, advisory | Still **`recursion-gate.md`** | Resolve, reject, or defer; use gate review UI / dashboard filters ([apps/gate-review-app.py](../apps/gate-review-app.py)) as available. |
-| **Change-review** — cross-surface, policy/prompt shifts, proposal-scale, audit trail | **`users/<id>/review-queue/`** | Export via CLI (below); validate queue. |
+| **Change-review** — cross-surface, policy/prompt shifts, proposal-scale, audit trail | **`review-queue/`** | Export via CLI (below); validate queue. |
 
 **Open change-review (grace-mar CLI):**
 
 ```bash
 python3 scripts/export_gate_to_review_queue.py --user <fork_id> --candidate-id CANDIDATE-XXXX
-python3 scripts/validate-change-review.py users/<fork_id>/review-queue --allow-empty
+python3 scripts/validate-change-review.py <fork_id>/review-queue --allow-empty
 ```
 
 There is **no** `/escalate` Telegram command in the reference bot; use the CLI (or Operator Console / review surfaces that call the same tooling) until a dedicated command exists.

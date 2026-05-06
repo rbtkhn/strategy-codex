@@ -1,4 +1,4 @@
-# Auto-Research
+﻿# Auto-Research
 
 This directory holds transcript-faithful auto-research scaffolds adapted to Grace-Mar's governance model.
 
@@ -11,7 +11,7 @@ That means:
 - `train.md` is the only editable surface inside a lane.
 - `prepare.py` is protected and evaluates proposals in a sandbox.
 - winning experiments are archived as accepted proposal artifacts
-- promotion to `users/grace-mar/recursion-gate.md` is explicit and reviewable
+- promotion to `recursion-gate.md` is explicit and reviewable
 
 The live merge path remains unchanged:
 
@@ -22,4 +22,5 @@ The live merge path remains unchanged:
 
 ## First lane
 
-`self-proposals/` is the first lane. It optimizes gate-ready proposal drafts for SELF-facing changes without touching `users/grace-mar/self.md`.
+`self-proposals/` is the first lane. It optimizes gate-ready proposal drafts for SELF-facing changes without touching `self.md`.
+

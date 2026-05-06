@@ -25,10 +25,10 @@ Portable working identity maps to four layers. Each layer has a canonical Grace-
 
 | Layer | What it captures | Grace-Mar surface |
 |---|---|---|
-| **Domain encoding** | Reference knowledge, domain corpora, governed sources | SELF-LIBRARY (`users/<id>/self-library.md`, CIV-MEM scopes) |
-| **Workflow calibration** | How the operator works: skills, lane defaults, prepared context, tool patterns | SKILLS (`users/<id>/self-skills.md`) + `prepared-context/` + `docs/skill-work/` lanes |
-| **Behavioral calibration** | Identity, personality, knowledge, curiosity — who the companion is | SELF (`users/<id>/self.md`, IX-A / IX-B / IX-C) |
-| **Artifact / demonstrated capability** | Evidence of what happened, what was produced, what was observed | EVIDENCE (`users/<id>/self-archive.md`) + artifact exports |
+| **Domain encoding** | Reference knowledge, domain corpora, governed sources | SELF-LIBRARY (`self-library.md`, CIV-MEM scopes) |
+| **Workflow calibration** | How the operator works: skills, lane defaults, prepared context, tool patterns | SKILLS (`self-skills.md`) + `prepared-context/` + `docs/skill-work/` lanes |
+| **Behavioral calibration** | Identity, personality, knowledge, curiosity — who the companion is | SELF (`self.md`, IX-A / IX-B / IX-C) |
+| **Artifact / demonstrated capability** | Evidence of what happened, what was produced, what was observed | EVIDENCE (`self-archive.md`) + artifact exports |
 
 ---
 

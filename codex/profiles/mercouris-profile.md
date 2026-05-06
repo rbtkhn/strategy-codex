@@ -3,9 +3,13 @@
 
 WORK only; not Record.
 
-**Canonical index:** [strategy-commentator-threads.md](strategy-commentator-threads.md) — **`mercouris`** lane.
+**Canonical index:** [strategy-commentator-threads.md](../strategy-commentator-threads.md) — **`mercouris`** lane.
 
 ---
+
+## Introduction
+
+Alexander Mercouris is the long-form diplomatic-and-narrative synthesis lane: especially useful when strategy-codex needs institutional "room," chronology, and legitimacy framing rather than only battlefield mechanics. This profile keeps the public source surfaces, channel identity, and routing context together so Mercouris material stays easy to cite and compose from.
 
 ## Identity
 
@@ -27,13 +31,13 @@ WORK only; not Record.
 | **Voice tier** | `B` |
 | **Voice fingerprint — last reviewed** | `2026-04` |
 
-Promotion and refresh defaults: [strategy-expert-template.md § Voice fingerprint (compact)](strategy-expert-template.md#voice-fingerprint-compact).
+Promotion and refresh defaults: [strategy-expert-template.md § Voice fingerprint (compact)](../strategy-expert-template.md#voice-fingerprint-compact).
 
 ## Tri-Frame mind (lens card — headings only)
 
-**Long-form fingerprint:** [`strategy-expert-mercouris-mind.md`](strategy-expert-mercouris-mind.md) (SSOT). [`minds/CIV-MIND-MERCOURIS.md`](minds/CIV-MIND-MERCOURIS.md) **redirects** here for stable links.
+**Long-form fingerprint:** [mercouris-mind.md](../2026/mercouris/mercouris-mind.md) (SSOT). [minds/CIV-MIND-MERCOURIS.md](../minds/CIV-MIND-MERCOURIS.md) **redirects** here for stable links.
 
-Headings-only pointers into the mapped corpus in [`strategy-expert-mercouris-mind.md`](strategy-expert-mercouris-mind.md) for **in-voice** passes; **not** a substitute for **Duran-primary** Judgment. Read that file for full **LINGUISTIC FINGERPRINT** prose.
+Headings-only pointers into the mapped corpus in [mercouris-mind.md](../2026/mercouris/mercouris-mind.md) for **in-voice** passes; **not** a substitute for **Duran-primary** Judgment. Read that file for full **LINGUISTIC FINGERPRINT** prose.
 
 | Lens section (in mind file) | Use |
 |---------------------------------|-----|
@@ -90,7 +94,7 @@ Headings-only pointers into the mapped corpus in [`strategy-expert-mercouris-min
 - Pull this expert into weave when:
   - **Mercouris × Mearsheimer**-class splits (legitimacy vs structure), **Islamabad** narrative, or **Lebanon**/**Hormuz** **room** tests — see prior **`strategy-page`** scaffolds in **`thread.md`** under **`## YYYY-MM`** (git history has old `chapters/…/knots/` files).
 
-## Knot-use guidance
+## Page-use guidance
 
 - Best for: **synthesis**, **institutional narrative**, **Tri-mind** **Mercouris** block; **link hubs** to Duran episodes when pinned.
 - Usually insufficient alone for: **hull counts**, **domestic liability**, **EU legal speech-act** accountability — pair per index.
@@ -100,14 +104,23 @@ Headings-only pointers into the mapped corpus in [`strategy-expert-mercouris-min
 - Typical HN chapter families: **Byzantine ritual**, **Venetian network resilience** — only when notebook already cited.
 - Typical mechanism hooks: **late Soviet administrative hollowing** — thin cite when `CASE-XXXX` bound.
 
-## Published sources (operator web index)
+## Links
 
-1. https://www.youtube.com/@AlexMercouris
-2. https://www.youtube.com/@TheDuran
-3. https://theduran.com/
-4. https://x.com/AMercouris
-5. https://odysee.com/@AlexanderMercouris:a
-6. https://www.barstandardsboard.org.uk/disciplinary_finding/76984.html — **UK bar professional determination** (primary for status narrative; not geopolitical analysis)
+### Social media
+
+- https://www.youtube.com/@AlexMercouris
+- https://www.youtube.com/@TheDuran
+- https://x.com/AMercouris
+- https://odysee.com/@AlexanderMercouris:a
+
+### Substack
+
+- None currently tracked.
+
+### Other links
+
+- https://theduran.com/
+- https://www.barstandardsboard.org.uk/disciplinary_finding/76984.html - UK bar professional determination
 
 ## Seed (index mirror — operator may extend)
 
@@ -127,4 +140,5 @@ The block below **Rolling ingest** is replaced on each `strategy_thread.py` / `s
 
 ---
 
-**Companion files:** [`strategy-expert-mercouris-transcript.md`](strategy-expert-mercouris-transcript.md) (7-day rolling verbatim), [`strategy-expert-mercouris-thread.md`](strategy-expert-mercouris-thread.md) (distilled analytical thread), [`strategy-expert-mercouris-mind.md`](strategy-expert-mercouris-mind.md) (long-form mind).
+**Companion files:** [mercouris-transcript.md](../2026/mercouris/mercouris-transcript.md) (7-day rolling verbatim), [mercouris-thread.md](../2026/mercouris/mercouris-thread.md) (distilled analytical thread), [mercouris-mind.md](../2026/mercouris/mercouris-mind.md) (long-form mind).
+

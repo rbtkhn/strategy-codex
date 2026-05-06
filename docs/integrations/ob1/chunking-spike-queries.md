@@ -1,4 +1,4 @@
-# OB1 Chunking Spike — Query Baseline
+﻿# OB1 Chunking Spike â€” Query Baseline
 
 Purpose: fixed retrieval baseline for the OB1 chunking spike across `full_file`, `per_section`, and `per_entry`.
 
@@ -10,9 +10,9 @@ Purpose: fixed retrieval baseline for the OB1 chunking spike across `full_file`,
 
 ## Test set (10 fixed queries)
 
-Anchors match current `users/grace-mar/self.md` section headings (reseeded April 2026). If `self.md` structure changes again, update this table in the same PR.
+Anchors match current `self.md` section headings (reseeded April 2026). If `self.md` structure changes again, update this table in the same PR.
 
-| # | Query | Expected source in `users/grace-mar/self.md` |
+| # | Query | Expected source in `self.md` |
 |---|---|---|
 | 1 | What work rhythm, decision style, and quality bar are documented? | `## II. PREFERENCES` |
 | 2 | What family profile is recorded (including explicit empties)? | `## III. FAMILY` |
@@ -39,7 +39,7 @@ For each run, score all 10 queries with the rubric above and compute:
 - Precision proxy (`total / 10`)
 - Notes on repeated misses (if any)
 
-## First pass worksheet — `full_file`
+## First pass worksheet â€” `full_file`
 
 Status: blocked pending exporter implementation (`scripts/export_open_brain_bundle.py` is not present in this repo yet).
 
@@ -68,7 +68,7 @@ Result summary:
 - Precision proxy: `__`
 - Repeated misses:
 
-## Second pass worksheet — `per_section`
+## Second pass worksheet â€” `per_section`
 
 Status: blocked pending exporter implementation (`scripts/export_open_brain_bundle.py` is not present in this repo yet).
 
@@ -97,7 +97,7 @@ Result summary:
 - Precision proxy: `__`
 - Repeated misses:
 
-## Third pass worksheet — `per_entry`
+## Third pass worksheet â€” `per_entry`
 
 Status: blocked pending exporter implementation (`scripts/export_open_brain_bundle.py` is not present in this repo yet).
 
@@ -125,3 +125,4 @@ Result summary:
 - Total score: `__/10`
 - Precision proxy: `__`
 - Repeated misses:
+

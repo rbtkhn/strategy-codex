@@ -1,12 +1,12 @@
-# Authority map
+﻿# Authority map
 
-Companion-Self template · Who may change what
+Companion-Self template Â· Who may change what
 
 ---
 
 ## Why this exists
 
-Not every surface should be writable by the same runtime. The template distinguishes **read-only**, **draftable**, **review-required**, **human-only**, and **ephemeral-only** behavior so operators and agents do not silently widen write authority “because it was faster.”
+Not every surface should be writable by the same runtime. The template distinguishes **read-only**, **draftable**, **review-required**, **human-only**, and **ephemeral-only** behavior so operators and agents do not silently widen write authority â€œbecause it was faster.â€
 
 Machine-readable defaults: [`config/authority-map.json`](../config/authority-map.json) (schema [`schema-registry/authority-map.v1.json`](../schema-registry/authority-map.v1.json)). Lookup helper: `scripts/check-authority.py --surface <key>` (authority class only). Structured recommendations: `python3 scripts/check-authority.py --surface <key> --json` (includes Comprehension Envelope + Reflection Gate hints; see below).
 
@@ -28,25 +28,25 @@ Machine-readable defaults: [`config/authority-map.json`](../config/authority-map
 
 The config file uses a **single flat map** for simplicity. Keys mix **different dimensions** on purpose; interpret each key with the dimension below.
 
-### State layers (evidence → governed)
+### State layers (evidence â†’ governed)
 
-- **`evidence`** — Evidence layer inputs (see [evidence-layer.md](evidence-layer.md)).
-- **`prepared_context`** — Prepared context layer (see [prepared-context-layer.md](prepared-context-layer.md)).
-- **`governed_state`** — Durable Record and governed files (see [governed-state-layer.md](governed-state-layer.md)).
+- **`evidence`** â€” Evidence layer inputs (see [evidence-layer.md](evidence-layer.md)).
+- **`prepared_context`** â€” Prepared context layer (see [prepared-context-layer.md](prepared-context-layer.md)).
+- **`governed_state`** â€” Durable Record and governed files (see [governed-state-layer.md](governed-state-layer.md)).
 
 ### Formation and review artifacts
 
-- **`seed_phase_artifacts`** — Pre-activation JSON under `users/<id>/seed-phase/`; changes affect activation readiness.
+- **`seed_phase_artifacts`** â€” Pre-activation JSON under `seed-phase/`; changes affect activation readiness.
 
 ### Change scopes (align with [change-types.md](change-types.md) / `primaryScope`)
 
-- **`identity`**, **`curiosity`**, **`pedagogy`**, **`expression`**, **`memory_governance`**, **`safety`** — durable commitment areas; high-trust zones may be `human_only` or `review_required` per config.
+- **`identity`**, **`curiosity`**, **`pedagogy`**, **`expression`**, **`memory_governance`**, **`safety`** â€” durable commitment areas; high-trust zones may be `human_only` or `review_required` per config.
 
 ### Operator cadence packets (non-Record)
 
-- **`bridge_packets`**, **`harvest_packets`** — Session handoff / harvest artifacts under skill-work cadence docs; **ephemeral_only** in the default map (see [work-cadence README](skill-work/work-cadence/README.md)).
+- **`bridge_packets`**, **`harvest_packets`** â€” Session handoff / harvest artifacts under skill-work cadence docs; **ephemeral_only** in the default map (see [work-cadence README](skill-work/work-cadence/README.md)).
 
-**Rule:** Automation should not treat every key as the same kind of “surface.” Use this section when wiring tools.
+**Rule:** Automation should not treat every key as the same kind of â€œsurface.â€ Use this section when wiring tools.
 
 ---
 
@@ -58,7 +58,7 @@ Transition into governed state must respect the authority map and the gated pipe
 
 ## Relationship to Comprehension Envelope and Reflection Gates
 
-Write **authority class** (per surface key) is the **policy** layer: who may change what. **Comprehension Envelope** and **Reflection Gates** (see [governance/comprehension-envelope-gate.md](governance/comprehension-envelope-gate.md) and [users/grace-mar/recursion-gate.md](users/grace-mar/recursion-gate.md)) are the **staging** layer: how much deliberate review and proof accompany a candidate before promotion.
+Write **authority class** (per surface key) is the **policy** layer: who may change what. **Comprehension Envelope** and **Reflection Gates** (see [governance/comprehension-envelope-gate.md](governance/comprehension-envelope-gate.md) and [recursion-gate.md](recursion-gate.md)) are the **staging** layer: how much deliberate review and proof accompany a candidate before promotion.
 
 **Single derivation (SSOT in code):** [`scripts/authority_comprehension_defaults.py`](../scripts/authority_comprehension_defaults.py) maps each **authority class** to recommended **`impact_tier`**, **`envelope_class`**, and **`recommended_reflection_gate`** (aligned with `none` \| `optional` \| `required` and Light/Heavy gate labels). **Companion may override** these in candidate YAML when context demands it.
 
@@ -76,9 +76,10 @@ Write **authority class** (per surface key) is the **policy** layer: who may cha
 
 ## Related
 
-- [template-instance-contract.md](template-instance-contract.md) — instance may extend tooling but should not silently widen agent writes
-- [source-of-truth.md](source-of-truth.md) — precedence when layers disagree
+- [template-instance-contract.md](template-instance-contract.md) â€” instance may extend tooling but should not silently widen agent writes
+- [source-of-truth.md](source-of-truth.md) â€” precedence when layers disagree
 
 ---
 
-Companion-Self template · Authority map v1
+Companion-Self template Â· Authority map v1
+

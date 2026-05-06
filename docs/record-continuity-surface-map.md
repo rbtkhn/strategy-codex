@@ -6,11 +6,11 @@ Grace-Mar uses several adjacent surfaces that can look similar during a working 
 
 | Surface | Canonical path | Authority | Primary job | Do not use it for |
 |---------|----------------|-----------|-------------|-------------------|
-| SELF | `users/[id]/self.md` | Durable Record | Identity, SELF-KNOWLEDGE, curiosity, personality | Session notes, draft facts, reference corpora |
-| SELF-LIBRARY | `users/[id]/self-library.md` | Durable governed reference | Return-to sources, governed shelves, CIV-MEM and operator-book routing | Short-lived session continuity or identity claims |
-| EVIDENCE | `users/[id]/self-archive.md` | Durable Record | Activity log, artifact spine, approved evidence | Scratch notes or ungated conclusions |
-| self-memory | `users/[id]/self-memory.md` | Runtime continuity, non-Record | Rotatable short/medium/long session context, process pointers, open loops | Durable facts, identity, reference corpora, evidence |
-| self-history | `users/[id]/self-history.md` | Derived, non-Record | Dense dual log from WORK history plus gate-approved companion stream | New facts, pending candidates, merge decisions |
+| SELF | `self.md` | Durable Record | Identity, SELF-KNOWLEDGE, curiosity, personality | Session notes, draft facts, reference corpora |
+| SELF-LIBRARY | `self-library.md` | Durable governed reference | Return-to sources, governed shelves, CIV-MEM and operator-book routing | Short-lived session continuity or identity claims |
+| EVIDENCE | `self-archive.md` | Durable Record | Activity log, artifact spine, approved evidence | Scratch notes or ungated conclusions |
+| self-memory | `self-memory.md` | Runtime continuity, non-Record | Rotatable short/medium/long session context, process pointers, open loops | Durable facts, identity, reference corpora, evidence |
+| self-history | `self-history.md` | Derived, non-Record | Dense dual log from WORK history plus gate-approved companion stream | New facts, pending candidates, merge decisions |
 
 ## Routing Rule
 

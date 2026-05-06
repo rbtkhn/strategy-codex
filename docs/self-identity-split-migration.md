@@ -15,7 +15,7 @@ Purpose: propagate the template split safely in the instance without risky direc
 ## Recommended rollout
 
 1. **Contract first** (done): update protocol/path docs so split is recognized.
-2. **Scaffold**: add `users/<id>/self-identity.md` only when companion approves activation for that instance.
+2. **Scaffold**: add `self-identity.md` only when companion approves activation for that instance.
 3. **Gated reclassification**:
    - New identity-commitment signals stage to `self-identity.md` targets.
    - Knowledge facts continue to stage to IX-A / self-knowledge.

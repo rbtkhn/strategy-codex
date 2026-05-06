@@ -1,4 +1,4 @@
-# Coding-agent patch intake (adapter)
+﻿# Coding-agent patch intake (adapter)
 
 **Status:** WORK/runtime tooling only. This script **does not** invoke Cursor, Claude Code, shell agents, live MCP servers, or GitHub; it **does not** apply patches or merge pull requests.
 
@@ -6,10 +6,10 @@
 
 ## Why this workbench exists
 
-Coding assistants routinely emit summaries of edits (“files touched”, “tests run”). Those summaries are **not** governance artifacts by themselves. This adapter turns **structured intake JSON** into:
+Coding assistants routinely emit summaries of edits (â€œfiles touchedâ€, â€œtests runâ€). Those summaries are **not** governance artifacts by themselves. This adapter turns **structured intake JSON** into:
 
-1. A **Markdown patch-review packet** under [`artifacts/patch-intake/`](../../artifacts/patch-intake/) — labeled **candidate proposal**, **not merged**, **not approved Record**.
-2. An **MCP execution receipt** under [`artifacts/mcp-receipts/`](../../artifacts/mcp-receipts/) with capability **`coding_agent_patch_intake`** — receipts are audit metadata only ([`mcp-execution-receipts.md`](mcp-execution-receipts.md)).
+1. A **Markdown patch-review packet** under [`artifacts/patch-intake/`](../../artifacts/patch-intake/) â€” labeled **candidate proposal**, **not merged**, **not approved Record**.
+2. An **MCP execution receipt** under [`artifacts/mcp-receipts/`](../../artifacts/mcp-receipts/) with capability **`coding_agent_patch_intake`** â€” receipts are audit metadata only ([`mcp-execution-receipts.md`](mcp-execution-receipts.md)).
 
 That preserves visibility without handing agents implicit merge authority.
 
@@ -29,10 +29,10 @@ Substring scans reject narratives implying **canonical approval**, **approved Re
 ## Output format
 
 - **Markdown packet** with YAML front matter (`mcp_receipt_id`, `intake_status`, etc.) and a banner line:  
-  **`CANDIDATE PROPOSAL · WORK ARTIFACT · NOT MERGED · NOT APPROVED RECORD`**
-- **Risk classification** per touched path (`CRITICAL` … `LOW`): canonical **`users/grace-mar/`** Record gates, secrets/env material (blocked posture), MCP/config hotspots (**HIGH**), common tooling dirs (**MEDIUM**), docs/readme-style (**LOW**). **`HIGH` surfaces alone do not fail intake** — they raise classification visibility.
+  **`CANDIDATE PROPOSAL Â· WORK ARTIFACT Â· NOT MERGED Â· NOT APPROVED RECORD`**
+- **Risk classification** per touched path (`CRITICAL` â€¦ `LOW`): canonical **``** Record gates, secrets/env material (blocked posture), MCP/config hotspots (**HIGH**), common tooling dirs (**MEDIUM**), docs/readme-style (**LOW**). **`HIGH` surfaces alone do not fail intake** â€” they raise classification visibility.
 
-When **`files_touched`** lists any **`CRITICAL`** path (including canonical Record paths), the receipt **`result.status`** is **`blocked`**, **`intake_status`** is **`blocked`**, and the packet includes a **BLOCKED — DO NOT MERGE AS-IS** recommendation. **`governance.canonical_record_touched`** is **`true`** only when canonical **`users/grace-mar`** Record-shaped paths appear (not merely `.env`-style CRITICAL exposure alone).
+When **`files_touched`** lists any **`CRITICAL`** path (including canonical Record paths), the receipt **`result.status`** is **`blocked`**, **`intake_status`** is **`blocked`**, and the packet includes a **BLOCKED â€” DO NOT MERGE AS-IS** recommendation. **`governance.canonical_record_touched`** is **`true`** only when canonical **``** Record-shaped paths appear (not merely `.env`-style CRITICAL exposure alone).
 
 ---
 
@@ -57,15 +57,16 @@ Each successful write emits a validated receipt with **`capability.id`** **`codi
 
 | Concept | Role |
 |---------|------|
-| **Patch-review packet** (this adapter) | Human-readable WORK summary + risk labels — **not** approval. |
+| **Patch-review packet** (this adapter) | Human-readable WORK summary + risk labels â€” **not** approval. |
 | **Candidate proposal** | Capability posture (`candidate_proposal` lane); still **not** merged Record truth. |
-| **Gate candidate** | Companion-reviewed YAML/text destined for [`users/grace-mar/recursion-gate.md`](../../users/grace-mar/recursion-gate.md) **pipeline**, staged deliberately — adapter never edits this file. |
-| **Approved merge** | Companion-approved **`process_approved_candidates.py`** apply only — outside this tool. |
+| **Gate candidate** | Companion-reviewed YAML/text destined for [`recursion-gate.md`](../../recursion-gate.md) **pipeline**, staged deliberately â€” adapter never edits this file. |
+| **Approved merge** | Companion-approved **`process_approved_candidates.py`** apply only â€” outside this tool. |
 
-**Agents ≠ authority.** Paste structured intake JSON here **after** the assistant responds so operators retain classification + receipts **without** conflating model narration with governance outcomes.
+**Agents â‰  authority.** Paste structured intake JSON here **after** the assistant responds so operators retain classification + receipts **without** conflating model narration with governance outcomes.
 
 ---
 
 ## Related registry row
 
-[`coding_agent_patch_intake`](../../config/mcp-capabilities.yaml) — proposes **diff-shaped work** in worktrees only in governed MCP narratives; this repo implements the **offline intake packet + receipt** subset without calling remote helpers.
+[`coding_agent_patch_intake`](../../config/mcp-capabilities.yaml) â€” proposes **diff-shaped work** in worktrees only in governed MCP narratives; this repo implements the **offline intake packet + receipt** subset without calling remote helpers.
+

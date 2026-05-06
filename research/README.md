@@ -1,4 +1,4 @@
-# Research and experiments
+﻿# Research and experiments
 
 Content here is **not** part of the production gated pipeline unless explicitly promoted into `scripts/`, `bot/`, or `docs/`.
 
@@ -10,4 +10,5 @@ Content here is **not** part of the production gated pipeline unless explicitly 
 | [repos/](repos/) | Nested checkouts or vendor trees (e.g. civilization_memory). |
 | [pilot-notes/](pilot-notes/) | Early pilot notes. |
 
-Keep production paths at the repository root focused on the active instance (`users/grace-mar/`), `apps/`, `bot/`, `scripts/`, and `tests/`.
+Keep production paths at the repository root focused on the active instance (``), `apps/`, `bot/`, `scripts/`, and `tests/`.
+

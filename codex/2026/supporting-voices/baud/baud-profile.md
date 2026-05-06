@@ -1,9 +1,9 @@
-# Strategy expert — `baud`
+# Strategy expert Ã¢â‚¬â€ `baud`
 <!-- word_count: 419 -->
 
 WORK only; not Record.
 
-**Canonical index:** [strategy-commentator-threads.md](strategy-commentator-threads.md) — **`baud`** lane.
+**Canonical index:** [strategy-commentator-threads.md](strategy-commentator-threads.md) Ã¢â‚¬â€ **`baud`** lane.
 
 ## Identity
 
@@ -11,41 +11,41 @@ WORK only; not Record.
 |-------|-------|
 | **Name** | Jacques Baud |
 | **expert_id** | `baud` |
-| **Role** | **NATO / UN / intelligence-adjacent** framing: **law-of-war**, **HUMINT vs OSINT** limits, **European security** and **cross-theater** reads; **convergence vs tension** between **official narrative** and **evidential** claims — **complements** **ORBAT** lanes without duplicating them |
+| **Role** | **NATO / UN / intelligence-adjacent** framing: **law-of-war**, **HUMINT vs OSINT** limits, **European security** and **cross-theater** reads; **convergence vs tension** between **official narrative** and **evidential** claims Ã¢â‚¬â€ **complements** **ORBAT** lanes without duplicating them |
 | **Default grep tags** | `Baud`, `NATO`, `UN`, or `EU` in cold |
-| **Typical pairings** | × `ritter`, × `macgregor`, × `davis`, × `barnes` |
+| **Typical pairings** | Ãƒâ€” `ritter`, Ãƒâ€” `macgregor`, Ãƒâ€” `davis`, Ãƒâ€” `barnes` |
 | **Notebook-use tags** | `validate`, `authorize` |
 
 <a id="voice-fingerprint-compact"></a>
 
-## Voice fingerprint (compact) — Tier B
+## Voice fingerprint (compact) Ã¢â‚¬â€ Tier B
 
 | Field | Value |
 |-------|-------|
 | **Voice tier** | `B` |
-| **Voice fingerprint — last reviewed** | `2026-04` |
+| **Voice fingerprint Ã¢â‚¬â€ last reviewed** | `2026-04` |
 
-Promotion and refresh defaults: [strategy-expert-template.md § Voice fingerprint (compact)](strategy-expert-template.md#voice-fingerprint-compact).
+Promotion and refresh defaults: [strategy-expert-template.md Ã‚Â§ Voice fingerprint (compact)](strategy-expert-template.md#voice-fingerprint-compact).
 
 ## Convergence fingerprint
 
-*Seed profile — operator extends when this lane is upgraded to a full cognitive profile.*
+*Seed profile Ã¢â‚¬â€ operator extends when this lane is upgraded to a full cognitive profile.*
 
 ## Tension fingerprint
 
-*Seed profile — operator extends when upgraded.*
+*Seed profile Ã¢â‚¬â€ operator extends when upgraded.*
 
 ## Signature mechanisms
 
-*Seed profile — operator extends when upgraded.*
+*Seed profile Ã¢â‚¬â€ operator extends when upgraded.*
 
 ## Failure modes / overreads
 
-*Seed profile — operator extends when upgraded.*
+*Seed profile Ã¢â‚¬â€ operator extends when upgraded.*
 
 ## Active weave cues
 
-*Seed profile — operator extends when upgraded.*
+*Seed profile Ã¢â‚¬â€ operator extends when upgraded.*
 
 ### Published sources (operator web index)
 
@@ -55,7 +55,7 @@ Promotion and refresh defaults: [strategy-expert-template.md § Voice fingerprin
 
 _Re-verify handles, **Postil** author index, and book **ISBN** URLs before cite-grade use; add primary **X** or **Substack** when the operator pins the canonical social._
 
-## Seed (index mirror — operator may extend)
+## Seed (index mirror Ã¢â‚¬â€ operator may extend)
 
 The block below **Rolling ingest** is replaced on each `strategy_thread.py` / `strategy_expert_corpus.py` run; edit this **Seed** section freely.
 
@@ -63,9 +63,9 @@ The block below **Rolling ingest** is replaced on each `strategy_thread.py` / `s
 
 | expert_id | Name | Role (one line) | Default grep tag | Typical `batch-analysis` pairings |
 |-----------|--------|-----------------|------------------|-----------------------------------|
-| `baud` | Jacques Baud | **NATO / UN / intelligence-adjacent** framing: **law-of-war**, **HUMINT vs OSINT** limits, **European security** and **cross-theater** reads; **convergence vs tension** between **official narrative** and **evidential** claims — **complements** **ORBAT** lanes without duplicating them | `Baud`, `NATO`, `UN`, or `EU` in cold | × `ritter`, × `macgregor`, × `davis`, × `barnes` |
+| `baud` | Jacques Baud | **NATO / UN / intelligence-adjacent** framing: **law-of-war**, **HUMINT vs OSINT** limits, **European security** and **cross-theater** reads; **convergence vs tension** between **official narrative** and **evidential** claims Ã¢â‚¬â€ **complements** **ORBAT** lanes without duplicating them | `Baud`, `NATO`, `UN`, or `EU` in cold | Ãƒâ€” `ritter`, Ãƒâ€” `macgregor`, Ãƒâ€” `davis`, Ãƒâ€” `barnes` |
 
-### Quantitative metrics (illustrative — from index)
+### Quantitative metrics (illustrative Ã¢â‚¬â€ from index)
 
 | expert_id | SCI | AD | CTC | Plain-language note (Predictive History reader) |
 |-----------|-----|----|-----|--------------------------------------------------|

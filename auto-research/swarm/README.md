@@ -9,7 +9,7 @@ them into the live gate only through the shared artifact-promotion helper.
 ## Contract
 
 - keep experiments and read models under `auto-research/swarm/`
-- do not append ad hoc content to `users/<id>/recursion-gate.md`
+- do not append ad hoc content to `recursion-gate.md`
 - do not emit custom gate-only events in place of `staged`
 - keep promotion explicit and operator-mediated
 - keep swarm state off the child Voice surface

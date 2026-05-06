@@ -3,9 +3,13 @@
 
 WORK only; not Record.
 
-**Canonical index:** [strategy-commentator-threads.md](strategy-commentator-threads.md) — **`davis`** lane.
+**Canonical index:** [strategy-commentator-threads.md](../strategy-commentator-threads.md) — **`davis`** lane.
 
 ---
+
+## Introduction
+
+Daniel Davis is the restraint-and-military-realism lane: a veteran analyst used when the notebook needs force limits, escalation costs, and negotiation clocks rather than abstract policy rhetoric. This profile keeps his public publishing surfaces together so the lane can be cited and backfilled cleanly across video, institutional, and book contexts.
 
 ## Identity
 
@@ -27,7 +31,7 @@ WORK only; not Record.
 | **Voice tier** | `B` |
 | **Voice fingerprint — last reviewed** | `2026-04` |
 
-Promotion and refresh defaults: [strategy-expert-template.md § Voice fingerprint (compact)](strategy-expert-template.md#voice-fingerprint-compact).
+Promotion and refresh defaults: [strategy-expert-template.md § Voice fingerprint (compact)](../strategy-expert-template.md#voice-fingerprint-compact).
 
 ## Convergence fingerprint
 
@@ -83,7 +87,7 @@ Promotion and refresh defaults: [strategy-expert-template.md § Voice fingerprin
   - **Hormuz**, **ceasefire**, **“last best chance”**, or **executive vs Congress** war-powers heat is live.
   - You need a **B-plane** that is **not** ORBAT-only (`ritter`) and **not** pure diplomatic “room” (`mercouris`) — **macro hurt + negotiation clock**.
 
-## Knot-use guidance
+## Page-use guidance
 
 - Best used for: **mechanism + restraint** pages, **case** pages on escalation vs negotiation, **watch** pages on ultimatum deadlines.
 - Usually insufficient alone for: **pure sea-control mechanics**, **EU speech-act** coalitions, **domestic liability** chains — pair per index.
@@ -93,14 +97,23 @@ Promotion and refresh defaults: [strategy-expert-template.md § Voice fingerprin
 - Typical HN chapter families: deferred — use when Islamabad/Hormuz case index rows are load-bearing.
 - Typical mechanism hooks: **commitment expansion**, **chokepoint coercion** — thin cite only when `CASE-XXXX` already in Judgment.
 
-## Published sources (operator web index)
+## Links
 
-1. https://www.defensepriorities.org/people/davis/
-2. https://www.youtube.com/@DanielDavisDeepDive
-3. https://x.com/DanielLDavis1
-4. https://www.amazon.com/dp/B08KHGDQRK — *The Eleventh Hour in 2020 America* (2020)
-5. https://www.ridenhour.org/recipients/davis — Ridenhour Prize (corroboration of 2012 reporting arc)
-6. https://www.nytimes.com/2012/02/06/world/asia/army-colonel-challenges-pentagons-afghanistan-claims.html — context on 2012 report (paywalled; tier verify)
+### Social media
+
+- https://www.youtube.com/@DanielDavisDeepDive
+- https://x.com/DanielLDavis1
+
+### Substack
+
+- None currently tracked.
+
+### Other links
+
+- https://www.defensepriorities.org/people/davis/
+- https://www.amazon.com/dp/B08KHGDQRK - *The Eleventh Hour in 2020 America* (2020)
+- https://www.ridenhour.org/recipients/davis - Ridenhour Prize
+- https://www.nytimes.com/2012/02/06/world/asia/army-colonel-challenges-pentagons-afghanistan-claims.html - context on 2012 Afghanistan reporting
 
 ## Seed (index mirror — operator may extend)
 
@@ -120,7 +133,7 @@ The block below **Rolling ingest** is replaced on each `strategy_thread.py` / `s
 
 ---
 
-**Companion files:** [`strategy-expert-davis-transcript.md`](strategy-expert-davis-transcript.md) (7-day rolling verbatim) and [`strategy-expert-davis-thread.md`](strategy-expert-davis-thread.md) (distilled analytical thread).
+**Companion files:** [davis-transcript.md](../2026/davis/davis-transcript.md) (7-day rolling verbatim) and [davis-thread.md](../2026/davis/davis-thread.md) (distilled analytical thread).
 
 ## Archive / backfill note
 
@@ -131,3 +144,4 @@ The block below **Rolling ingest** is replaced on each `strategy_thread.py` / `s
 - Public X profile crawl via [`scripts/backfill_davis_x_raw_input.py`](../../../../../scripts/backfill_davis_x_raw_input.py) or the generic [`scripts/backfill_x_profile_raw_input.py`](../../../../../scripts/backfill_x_profile_raw_input.py) with `--profile-url https://x.com/DanielLDavis1 --thread davis`.
 - Defense Priorities author-page crawl via [`scripts/backfill_davis_defensepriorities_raw_input.py`](../../../../../scripts/backfill_davis_defensepriorities_raw_input.py) or the generic [`scripts/backfill_author_page_raw_input.py`](../../../../../scripts/backfill_author_page_raw_input.py) with `--author-url https://www.defensepriorities.org/people/daniel-davis/ --domain defensepriorities.org --publication defensepriorities.org --thread davis`.
 - YouTube transcript crawl via [`scripts/backfill_davis_youtube_raw_input.py`](../../../../../scripts/backfill_davis_youtube_raw_input.py) or the generic [`scripts/backfill_youtube_channel_raw_input.py`](../../../../../scripts/backfill_youtube_channel_raw_input.py) with `--channel-url https://www.youtube.com/@DanielDavisDeepDive/videos --channel-slug daniel-davis-deep-dive --show "Daniel Davis Deep Dive" --host "Daniel Davis" --thread davis --file-prefix youtube-daniel-davis-deep-dive`.
+

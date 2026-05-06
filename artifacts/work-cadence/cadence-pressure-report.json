@@ -1,4 +1,4 @@
-{
+﻿{
   "schemaVersion": "1.0.0-cadence-pressure",
   "generatedAt": "2026-04-11T04:25:43.178083+00:00",
   "user_id": "grace-mar",
@@ -45,9 +45,10 @@
   },
   "governance": {
     "recursion_gate_pending_status_count": 1,
-    "gate_path": "/Users/robertkuhne/Documents/grace-mar/users/grace-mar/recursion-gate.md"
+    "gate_path": "/Users/robertkuhne/Documents/grace-mar/recursion-gate.md"
   },
   "pressure_signals": [
     "high_coffee_volume"
   ]
 }
+

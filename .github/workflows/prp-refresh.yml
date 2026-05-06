@@ -5,8 +5,8 @@ on:
   push:
     branches: [main]
     paths:
-      - 'users/**/self.md'
-      - 'users/**/self-evidence.md'
+      - 'self.md'
+      - 'self-evidence.md'
       - 'bot/prompt.py'
 
 permissions:

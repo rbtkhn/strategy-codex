@@ -28,7 +28,7 @@
       "name": "LIB entries (self-library.md)",
       "what": "Active LIB rows in YAML: return-to sources, canon, influence, and scoped shelves (Theology, History, etc.) excluding pure CIV-MEM routing which is civ_mem.",
       "surface": "record_library",
-      "surface_detail": "users/[id]/self-library.md Entries YAML",
+      "surface_detail": "self-library.md Entries YAML",
       "authority": "canonical",
       "invocation": "query_triggered",
       "invocation_detail": "Analyst summary of LIB text in lookup flow before CMC/web; see library-integration.md",

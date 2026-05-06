@@ -18,7 +18,7 @@ This document is **normative** for Grace-Mar’s **uncertainty envelope** ([`sch
 
 - **[`AGENTS.md`](../AGENTS.md) — Knowledge boundary:** The envelope makes **epistemic status** visible; it does not replace abstention in the Voice or LLM layer.
 - **[`docs/prepared-context-doctrine.md`](prepared-context-doctrine.md):** Prepared context is optimized for reasoning and **must not** be mistaken for the Record. The uncertainty section makes that **explicit per bundle**.
-- **[`docs/runtime/read-hints.md`](runtime/read-hints.md)** and runtime tooling docs: Higher-level tools remain **scaffolding**; the ledger does not auto-stage into `users/<id>/recursion-gate.md`.
+- **[`docs/runtime/read-hints.md`](runtime/read-hints.md)** and runtime tooling docs: Higher-level tools remain **scaffolding**; the ledger does not auto-stage into `recursion-gate.md`.
 
 ## Distinction from seed-phase confidence
 

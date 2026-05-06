@@ -19,8 +19,8 @@
 
 ## Clear objectives (Bloom: “what done looks like”)
 
-- Tie to **founding intent** when present: `users/<id>/reflection-proposals/SEED-founding-intent.md`
-- Tie to **seed** when present: `users/<id>/seed/minimal-core.json` ([seed-phase-wizard.md](../../../docs/seed-phase-wizard.md))
+- Tie to **founding intent** when present: `reflection-proposals/SEED-founding-intent.md`
+- Tie to **seed** when present: `seed/minimal-core.json` ([seed-phase-wizard.md](../../../docs/seed-phase-wizard.md))
 
 **This sprint’s objectives (3 bullets max):**
 
@@ -49,14 +49,14 @@ If work is **ready to build on**, run compression:
 
 ```bash
 python3 scripts/jiang-compress.py -u <id> --input <path-to-artifact.md>
-# Optional: --print-gate-stub  then paste into users/<id>/recursion-gate.md if SELF/EVIDENCE should change
+# Optional: --print-gate-stub  then paste into recursion-gate.md if SELF/EVIDENCE should change
 ```
 
 ---
 
 ## Evidence and traceability
 
-- **Activity / ACT / READ ids:** cite `users/<id>/self-evidence.md`, `self-archive.md`, or artifact paths under `users/<id>/artifacts/`
+- **Activity / ACT / READ ids:** cite `self-evidence.md`, `self-archive.md`, or artifact paths under `artifacts/`
 - **Do not** reference fictional paths (`self-evidence/` as a folder, `gate-guardian`, template-only scripts)
 
 ---
@@ -64,7 +64,7 @@ python3 scripts/jiang-compress.py -u <id> --input <path-to-artifact.md>
 ## Gate and merge
 
 - **WORK-only** updates in `research/external/work-jiang/` may need **no** gate
-- **Record changes** → stage in `users/<id>/recursion-gate.md`, companion approval, then [process_approved_candidates.py](../../../scripts/process_approved_candidates.py) (do not hand-edit SELF/EVIDENCE per AGENTS.md)
+- **Record changes** → stage in `recursion-gate.md`, companion approval, then [process_approved_candidates.py](../../../scripts/process_approved_candidates.py) (do not hand-edit SELF/EVIDENCE per AGENTS.md)
 
 ---
 

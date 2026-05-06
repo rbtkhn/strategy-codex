@@ -1,8 +1,8 @@
-# Jiang ideas — influence over time (operator tracking)
+﻿# Jiang ideas â€” influence over time (operator tracking)
 
-**Purpose:** Build a **repeatable, evidence-style trail** of how **public engagement** with Jiang’s material on a given surface (here: **@PredictiveHistory** videos) **changes over time**. This is **operator research** for the book/site lane — **not** Voice knowledge until merged through the gate.
+**Purpose:** Build a **repeatable, evidence-style trail** of how **public engagement** with Jiangâ€™s material on a given surface (here: **@PredictiveHistory** videos) **changes over time**. This is **operator research** for the book/site lane â€” **not** Voice knowledge until merged through the gate.
 
-**What we are *not* claiming:** “Influence” here means **observable proxies** (counts, growth rates), not proof of causal impact on policy or belief. Qualitative signals (press, citations, comment themes) can be added **manually** in `notes/`.
+**What we are *not* claiming:** â€œInfluenceâ€ here means **observable proxies** (counts, growth rates), not proof of causal impact on policy or belief. Qualitative signals (press, citations, comment themes) can be added **manually** in `notes/`.
 
 ---
 
@@ -22,7 +22,7 @@ Each snapshot run records, per video (when available from `yt-dlp`):
 
 **Artifacts:**
 
-- **`snapshots/video-metrics.jsonl`** — one JSON object per line per run; **append-only**; git tracks history.
+- **`snapshots/video-metrics.jsonl`** â€” one JSON object per line per run; **append-only**; git tracks history.
 - Optional: export charts from JSONL in a spreadsheet or notebook outside the repo.
 
 ---
@@ -32,8 +32,8 @@ Each snapshot run records, per video (when available from `yt-dlp`):
 Use `notes/YYYY-MM-influence.md` (create when needed) for:
 
 - Media mentions, interviews, reposts by identifiable accounts  
-- Recurring **comment themes** (if you sample comments — do not paste large copyrighted text into the repo without a clear fair-use / research rationale)  
-- Your own **hypotheses** about *why* a metric moved (election cycle, war news, algorithm, etc.) — label as **hypothesis**.
+- Recurring **comment themes** (if you sample comments â€” do not paste large copyrighted text into the repo without a clear fair-use / research rationale)  
+- Your own **hypotheses** about *why* a metric moved (election cycle, war news, algorithm, etc.) â€” label as **hypothesis**.
 
 ---
 
@@ -69,12 +69,13 @@ Requires **`yt-dlp`** on PATH (same stack as channel transcript tooling).
 
 ## CIV-MEM lens
 
-Engagement metrics measure **attention**, not wisdom. Through the [CIV-MEM lattice](../CIV-MEM-LENS.md), ask whether spikes align with **condition** shifts (crisis, election) or **seam** visibility (alliance splits) — still descriptive, not proof of claim accuracy.
+Engagement metrics measure **attention**, not wisdom. Through the [CIV-MEM lattice](../CIV-MEM-LENS.md), ask whether spikes align with **condition** shifts (crisis, election) or **seam** visibility (alliance splits) â€” still descriptive, not proof of claim accuracy.
 
 ## Related
 
-- [Prediction tracking](../prediction-tracking/README.md) — **forecast accuracy** (separate from attention metrics)  
-- [Divergence tracking](../divergence-tracking/README.md) — **vs named mainstream** (orthogonal to views/likes)  
-- [work-jiang.md](../../../users/grace-mar/work-jiang.md) — project purpose  
-- [CHANNEL-VIDEO-INDEX.md](../../youtube-channels/predictive-history/CHANNEL-VIDEO-INDEX.md) — full video list for choosing IDs  
-- [WORKFLOW-transcripts.md](../WORKFLOW-transcripts.md) — transcript + analysis workflow  
+- [Prediction tracking](../prediction-tracking/README.md) â€” **forecast accuracy** (separate from attention metrics)  
+- [Divergence tracking](../divergence-tracking/README.md) â€” **vs named mainstream** (orthogonal to views/likes)  
+- [work-jiang.md](../../../work-jiang.md) â€” project purpose  
+- [CHANNEL-VIDEO-INDEX.md](../../youtube-channels/predictive-history/CHANNEL-VIDEO-INDEX.md) â€” full video list for choosing IDs  
+- [WORKFLOW-transcripts.md](../WORKFLOW-transcripts.md) â€” transcript + analysis workflow  
+

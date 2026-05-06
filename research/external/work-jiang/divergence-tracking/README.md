@@ -1,10 +1,10 @@
-# Jiang lectures — divergences from mainstream views
+﻿# Jiang lectures â€” divergences from mainstream views
 
-**Purpose:** When building the book/site, mark where Jiang’s **stated claims** **depart** from **named** mainstream or consensus positions — without treating “mainstream” as morally true or false. This is **operator research** (clarity + fair comparison), **not** Voice knowledge until merged through the gate.
+**Purpose:** When building the book/site, mark where Jiangâ€™s **stated claims** **depart** from **named** mainstream or consensus positions â€” without treating â€œmainstreamâ€ as morally true or false. This is **operator research** (clarity + fair comparison), **not** Voice knowledge until merged through the gate.
 
-**Volume II (Civilization):** The second book pass for that strand is **Part II — Divergence**, not prediction adjudication. See [`book/PART-II-CIVILIZATION-DIVERGENCE.md`](../book/PART-II-CIVILIZATION-DIVERGENCE.md) and [`CHAPTER-DIVERGENCE-BOX.md`](../CHAPTER-DIVERGENCE-BOX.md).
+**Volume II (Civilization):** The second book pass for that strand is **Part II â€” Divergence**, not prediction adjudication. See [`book/PART-II-CIVILIZATION-DIVERGENCE.md`](../book/PART-II-CIVILIZATION-DIVERGENCE.md) and [`CHAPTER-DIVERGENCE-BOX.md`](../CHAPTER-DIVERGENCE-BOX.md).
 
-**Hard rule:** Always tag **whose** mainstream you mean (jurisdiction, discipline, or institution). “Mainstream” without a scope is vague.
+**Hard rule:** Always tag **whose** mainstream you mean (jurisdiction, discipline, or institution). â€œMainstreamâ€ without a scope is vague.
 
 ---
 
@@ -13,9 +13,9 @@
 | `divergence_type` | Meaning | Compare carefully |
 |-------------------|---------|-------------------|
 | `empirical` | Fact claims (dates, who could read scripture, vote counts) | Primary sources + specialists |
-| `interpretive` | Causation, motivation, “what drives” policy | Competing IR / history models |
-| `pedagogical_compression` | Simplification for class (not offered as journal-grade) | Label explicitly; not “wrong,” **compressed** |
-| `normative` | What *should* happen (justice, “evil,” strategy) | Separate from predictive claims |
+| `interpretive` | Causation, motivation, â€œwhat drivesâ€ policy | Competing IR / history models |
+| `pedagogical_compression` | Simplification for class (not offered as journal-grade) | Label explicitly; not â€œwrong,â€ **compressed** |
+| `normative` | What *should* happen (justice, â€œevil,â€ strategy) | Separate from predictive claims |
 
 ---
 
@@ -32,11 +32,11 @@
 
 ## How to write a good row
 
-1. **`jiang_claim`** — Short, fair paraphrase (can quote transcript in `lecture_ref`).  
-2. **`mainstream_anchor`** — Name the consensus: e.g. “typical US diplomatic history undergraduate narrative,” “Catholic teaching today on scripture access,” “mainstream IR (structural realism) on Middle East alliances.”  
-3. **`mainstream_summary`** — One or two sentences; avoid straw men.  
-4. **`evidence_notes`** — What would falsify your labeling of “mainstream” or refine the divergence.  
-5. **`sources_mainstream`** — URLs or citations (optional but encouraged for non-obvious claims).  
+1. **`jiang_claim`** â€” Short, fair paraphrase (can quote transcript in `lecture_ref`).  
+2. **`mainstream_anchor`** â€” Name the consensus: e.g. â€œtypical US diplomatic history undergraduate narrative,â€ â€œCatholic teaching today on scripture access,â€ â€œmainstream IR (structural realism) on Middle East alliances.â€  
+3. **`mainstream_summary`** â€” One or two sentences; avoid straw men.  
+4. **`evidence_notes`** â€” What would falsify your labeling of â€œmainstreamâ€ or refine the divergence.  
+5. **`sources_mainstream`** â€” URLs or citations (optional but encouraged for non-obvious claims).  
 
 ---
 
@@ -58,17 +58,18 @@ Fields (typical):
 
 ## Relation to other lanes
 
-- **[Prediction tracking](../prediction-tracking/README.md)** — Did a **forecast** land? Divergence tracking asks: **does the thesis match how a field usually explains the same topic?**  
-- **[Influence tracking](../influence-tracking/README.md)** — Attention, not truth.  
-- **CIV-MEM / analysis memos** — Divergence rows can point to `analysis/*-analysis.md` for full argument maps.
+- **[Prediction tracking](../prediction-tracking/README.md)** â€” Did a **forecast** land? Divergence tracking asks: **does the thesis match how a field usually explains the same topic?**  
+- **[Influence tracking](../influence-tracking/README.md)** â€” Attention, not truth.  
+- **CIV-MEM / analysis memos** â€” Divergence rows can point to `analysis/*-analysis.md` for full argument maps.
 
 ## CIV-MEM lens
 
-“Mainstream” often differs by **which institution or seam** a discipline foregrounds (e.g. realist IR vs religious-network causality). Use [CIV-MEM-LENS.md](../CIV-MEM-LENS.md) to state **both** Jiang’s **seam/institution emphasis** and the comparator field’s — reduces straw-man comparisons.
+â€œMainstreamâ€ often differs by **which institution or seam** a discipline foregrounds (e.g. realist IR vs religious-network causality). Use [CIV-MEM-LENS.md](../CIV-MEM-LENS.md) to state **both** Jiangâ€™s **seam/institution emphasis** and the comparator fieldâ€™s â€” reduces straw-man comparisons.
 
 ---
 
 ## Related
 
 - [WORKFLOW-transcripts.md](../WORKFLOW-transcripts.md)  
-- [users/grace-mar/work-jiang.md](../../../users/grace-mar/work-jiang.md)  
+- [work-jiang.md](../../../work-jiang.md)  
+

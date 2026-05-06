@@ -1,10 +1,10 @@
-# Workflow catalog (Grace-Mar)
+﻿# Workflow catalog (Grace-Mar)
 
-**Purpose:** One page of **links** to concrete workflows — similar to browsing recipes in OB1 — without replacing lane READMEs or scripts.
+**Purpose:** One page of **links** to concrete workflows â€” similar to browsing recipes in OB1 â€” without replacing lane READMEs or scripts.
 
 > Grace-Mar is not just a memory layer; it is a **governed companion record**. Entry anchors: **Library, Skills, Evidence, Workflows, Dashboard, Approval Inbox**.
 
-**Approval Inbox** = pending candidates in [`users/grace-mar/recursion-gate.md`](../users/grace-mar/recursion-gate.md) (canonical name: **recursion-gate**).
+**Approval Inbox** = pending candidates in [`recursion-gate.md`](../recursion-gate.md) (canonical name: **recursion-gate**).
 
 ---
 
@@ -19,11 +19,11 @@
 - Dev journal: [work-dev/dev-notebook/work-dev/journal/README.md](skill-work/work-dev/dev-notebook/work-dev/journal/README.md) (see also [dev-journal pointer](skill-work/work-dev/dev-journal/README.md)).
 - Cici notebook: [work-cici/cici-notebook/README.md](skill-work/work-cici/cici-notebook/README.md).
 
-## Read → Think → SELF
+## Read â†’ Think â†’ SELF
 
 - [we-read-think-self-pipeline.md](we-read-think-self-pipeline.md)
 
-## Bridge → prepared context → gate
+## Bridge â†’ prepared context â†’ gate
 
 - [openclaw-integration.md](openclaw-integration.md)
 - [gate-vs-change-review.md](gate-vs-change-review.md)
@@ -36,11 +36,11 @@
 ## Work-dev verification
 
 - [work-dev/README.md](skill-work/work-dev/README.md), [workspace.md](skill-work/work-dev/workspace.md)
-- Integrity: `scripts/validate-integrity.py` — [development-handoff.md](development-handoff.md)
+- Integrity: `scripts/validate-integrity.py` â€” [development-handoff.md](development-handoff.md)
 
 ## Approval review (Approval Inbox)
 
-- Pending queue: [`users/grace-mar/recursion-gate.md`](../users/grace-mar/recursion-gate.md)
+- Pending queue: [`recursion-gate.md`](../recursion-gate.md)
 - App: [apps/gate-review-app.py](../apps/gate-review-app.py)
 - Operator habits: [operator-brief.md](operator-brief.md)
 - Tiered traffic: [recursion-gate-three-tier.md](recursion-gate-three-tier.md)
@@ -52,11 +52,12 @@
 
 ## Known-path workflow registry
 
-- [Known-path workflows](workflows/known-path-workflows/README.md) — eligibility, fitness test, and templates for **repeatable** processes with explicit reviewer and **authority_class** (draft / review only; **no** merge shortcut). **Different axis** from [runtime workflow depth](runtime/workflow-depth-contract.md) (tier / observability for execution depth).
+- [Known-path workflows](workflows/known-path-workflows/README.md) â€” eligibility, fitness test, and templates for **repeatable** processes with explicit reviewer and **authority_class** (draft / review only; **no** merge shortcut). **Different axis** from [runtime workflow depth](runtime/workflow-depth-contract.md) (tier / observability for execution depth).
 
 ---
 
 ## See also
 
-- [start-here-ob1-users.md](start-here-ob1-users.md) — OB1-oriented map
-- [imports-and-capture.md](imports-and-capture.md) — capture safety boundary
+- [start-here-ob1-users.md](start-here-ob1-users.md) â€” OB1-oriented map
+- [imports-and-capture.md](imports-and-capture.md) â€” capture safety boundary
+

@@ -3,9 +3,13 @@
 
 WORK only; not Record.
 
-**Canonical index:** [strategy-commentator-threads.md](strategy-commentator-threads.md) — **`parsi`** lane.
+**Canonical index:** [strategy-commentator-threads.md](../strategy-commentator-threads.md) — **`parsi`** lane.
 
 ---
+
+## Introduction
+
+Trita Parsi is the diplomacy-and-restraint lane for U.S.-Iran, sanctions, and negotiation architecture, especially when beltway policy framing needs to be held alongside regional consequences. This profile keeps his public publishing surfaces together so Quincy, personal, and book-linked material all resolve into one lane.
 
 ## Identity
 
@@ -27,7 +31,7 @@ WORK only; not Record.
 | **Voice tier** | `B` |
 | **Voice fingerprint — last reviewed** | `2026-04` |
 
-Promotion and refresh defaults: [strategy-expert-template.md § Voice fingerprint (compact)](strategy-expert-template.md#voice-fingerprint-compact).
+Promotion and refresh defaults: [strategy-expert-template.md § Voice fingerprint (compact)](../strategy-expert-template.md#voice-fingerprint-compact).
 
 ## Convergence fingerprint
 
@@ -79,7 +83,7 @@ Promotion and refresh defaults: [strategy-expert-template.md § Voice fingerprin
 - Pull this expert into weave when:
   - **EU naming**, **Kallas-class** speech acts, or **“international law”** rhetoric needs a **Beltway–Brussels** lane beside **U.S. Congress** (`davis`) or **Holy See** moral register (**seam**, not merge).
 
-## Knot-use guidance
+## Page-use guidance
 
 - Best for: **synthesis** on diplomacy vs escalation, **link hubs** on Quincy primaries, **case** pages on JCPOA-scale bargains.
 - Usually insufficient alone for: **ORBAT**, **domestic liability** (`barnes`), **faith-legitimacy** (`rome-*`) — pair per architecture.
@@ -89,15 +93,24 @@ Promotion and refresh defaults: [strategy-expert-template.md § Voice fingerprin
 - Typical HN chapter families: deferred unless Iran negotiation arcs are already case-indexed.
 - Typical mechanism hooks: alliance stress, commitment expansion — cite `CASE-XXXX` only when merged in Judgment elsewhere.
 
-## Published sources (operator web index)
+## Links
 
-1. https://www.tritaparsi.com/
-2. https://quincyinst.org/author/parsi/
-3. https://responsiblestatecraft.org/author/tparsi/
-4. https://x.com/tparsi
-5. https://www.losinganenemy.com/
-6. https://quincyinst.org/research/trump-2-0-restraint-foreign-policy-recommendations-for-trumps-second-term/ — example research page (verify current URL)
-7. Yale University Press — book catalogue entries for *Treacherous Alliance*, *A Single Roll of the Dice*, *Losing an Enemy* (publisher as authority for bibliographic facts)
+### Social media
+
+- https://x.com/tparsi
+
+### Substack
+
+- None currently tracked.
+
+### Other links
+
+- https://www.tritaparsi.com/
+- https://quincyinst.org/author/parsi/
+- https://responsiblestatecraft.org/author/tparsi/
+- https://www.losinganenemy.com/
+- https://quincyinst.org/research/trump-2-0-restraint-foreign-policy-recommendations-for-trumps-second-term/
+- Yale University Press - book catalogue entries for *Treacherous Alliance*, *A Single Roll of the Dice*, *Losing an Enemy*
 
 ## Seed (index mirror — operator may extend)
 
@@ -117,7 +130,7 @@ The block below **Rolling ingest** is replaced on each `strategy_thread.py` / `s
 
 ---
 
-**Companion files:** [`strategy-expert-parsi-transcript.md`](strategy-expert-parsi-transcript.md) (7-day rolling verbatim) and [`strategy-expert-parsi-thread.md`](strategy-expert-parsi-thread.md) (distilled analytical thread).
+**Companion files:** [parsi-transcript.md](../2026/parsi/parsi-transcript.md) (7-day rolling verbatim) and [parsi-thread.md](../2026/parsi/parsi-thread.md) (distilled analytical thread).
 
 ## Archive / backfill note
 
@@ -127,3 +140,4 @@ The block below **Rolling ingest** is replaced on each `strategy_thread.py` / `s
 
 - Public X profile crawl via [`scripts/backfill_parsi_x_raw_input.py`](../../../../../scripts/backfill_parsi_x_raw_input.py) or the generic [`scripts/backfill_x_profile_raw_input.py`](../../../../../scripts/backfill_x_profile_raw_input.py) with `--profile-url https://x.com/tparsi --thread parsi`.
 - Responsible Statecraft author-page crawl via [`scripts/backfill_parsi_responsiblestatecraft_raw_input.py`](../../../../../scripts/backfill_parsi_responsiblestatecraft_raw_input.py) or the generic [`scripts/backfill_responsiblestatecraft_author_raw_input.py`](../../../../../scripts/backfill_responsiblestatecraft_author_raw_input.py) with `--author-url https://responsiblestatecraft.org/author/tparsi/ --thread parsi`.
+

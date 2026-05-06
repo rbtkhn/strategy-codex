@@ -116,7 +116,7 @@ TEMPLATES (SELF-TEMPLATE, SKILLS-TEMPLATE, EVIDENCE-TEMPLATE)
 • Define structure for companion files
 • Subordinate to GRACE-MAR-CORE
 
-USER FILES (users/[id]/self.md, skills.md, self-evidence.md)
+USER FILES (self.md, skills.md, self-evidence.md)
 • Individual companion data
 • Governed by templates
 • Stored in GitHub (authoritative)
@@ -281,7 +281,7 @@ LAYER 2 — RECORD-BOUND CAPABILITY DATA (Required)
 
 LAYER 2B — WORK / EXECUTION CONTEXT (Separate from SKILLS)
 • Work territories (`docs/skill-work/work-*/`): reusable execution domains
-• Instance work contexts (`users/[id]/work-*.md`): live planning, delivery, and tool-using work
+• Instance work contexts (`work-*.md`): live planning, delivery, and tool-using work
 • Historical BUILD references remain valid for compatibility and older evidence
 
 LAYER 3 — DERIVED ANALYTICS (Optional)

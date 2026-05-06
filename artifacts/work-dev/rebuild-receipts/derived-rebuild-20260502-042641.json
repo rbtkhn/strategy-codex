@@ -1,4 +1,4 @@
-{
+﻿{
   "receiptKind": "derived_rebuild",
   "receiptId": "drb-20260502-042641",
   "createdAt": "2026-05-02T04:26:41Z",
@@ -57,10 +57,10 @@
     "scripts/youtube_transcripts/cli.py",
     "scripts/youtube_transcripts/discovery.py",
     "tests/test_update_diesen_ledger.py",
-    "users/grace-mar/review-queue/boundary-classifications/CANDIDATE-0042.json",
-    "users/grace-mar/review-queue/boundary-classifications/CANDIDATE-0043.json",
-    "users/grace-mar/review-queue/boundary-classifications/CANDIDATE-0044.json",
-    "users/grace-mar/review-queue/boundary-classifications/CANDIDATE-0045.json"
+    "review-queue/boundary-classifications/CANDIDATE-0042.json",
+    "review-queue/boundary-classifications/CANDIDATE-0043.json",
+    "review-queue/boundary-classifications/CANDIDATE-0044.json",
+    "review-queue/boundary-classifications/CANDIDATE-0045.json"
   ],
   "targets": [
     {
@@ -92,3 +92,4 @@
   "recordAuthority": "none",
   "gateEffect": "none"
 }
+
