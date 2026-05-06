@@ -94,3 +94,7 @@ Products that advertise **100% local** models, **Docker** sandboxes, or **chat v
 ---
 
 *Informed by industry discourse on enterprise agent adoption: environments and engineering basics compound; hype without structure does not.*
+
+## Related framing
+
+- [semantic-work-primitives.md](semantic-work-primitives.md) - access / meaning / authority framing for why environment quality matters more than raw tool reach.
