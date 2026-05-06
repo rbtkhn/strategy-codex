@@ -2,7 +2,7 @@
 """
 Operational snapshot for bridge \"Since last bridge\" deltas.
 
-Writes users/<id>/daily-handoff/last-bridge-state.json after a successful
+Writes daily-handoff/last-bridge-state.json after a successful
 bridge (post-push). Not Record truth. Optional --print-delta emits markdown
 bullets comparing previous state to current on-disk/git snapshot.
 
@@ -28,6 +28,11 @@ DEFAULT_USER = os.getenv("GRACE_MAR_USER_ID", "grace-mar")
 STATE_NAME = "last-bridge-state.json"
 TERRITORY_GLOB = "docs/skill-work/work-*/work-*-history.md"
 TERRITORY_RECENCY_DAYS = 7
+
+try:
+    from repo_io import profile_dir
+except ImportError:
+    from scripts.repo_io import profile_dir
 
 
 def _read_text(path: Path) -> str:
@@ -148,9 +153,9 @@ def _resolve_companion_self(repo_root: Path) -> Path | None:
 
 
 def capture_state(repo_root: Path, user_id: str) -> dict[str, Any]:
-    users_dir = repo_root / "users" / user_id
-    handoff_dir = users_dir / "daily-handoff"
-    gate_path = users_dir / "recursion-gate.md"
+    user_root = profile_dir(user_id)
+    handoff_dir = user_root / "daily-handoff"
+    gate_path = user_root / "recursion-gate.md"
     gate_text = _read_text(gate_path)
     companion = _resolve_companion_self(repo_root)
 
@@ -234,8 +239,7 @@ def main() -> int:
     args = ap.parse_args()
     user = args.user.strip()
     repo_root = args.repo_root.resolve()
-    users_dir = repo_root / "users" / user
-    handoff_dir = users_dir / "daily-handoff"
+    handoff_dir = profile_dir(user) / "daily-handoff"
     state_path = handoff_dir / STATE_NAME
 
     cur = capture_state(repo_root, user)

@@ -27,6 +27,11 @@ DEFAULT_USER = "grace-mar"
 DEFAULT_MD = REPO_ROOT / "artifacts" / "memory" / "memory-observability.md"
 DEFAULT_JSON = REPO_ROOT / "artifacts" / "memory" / "memory-observability.json"
 
+try:
+    from repo_io import profile_dir
+except ImportError:
+    from scripts.repo_io import profile_dir
+
 STATUS_ORDER = {"ok": 0, "watch": 1, "stale": 2, "missing": 3}
 DEFERRED_V2 = [
     "learning signals",
@@ -94,7 +99,7 @@ def _read_json(path: Path) -> tuple[dict[str, Any] | None, str | None]:
     if not path.is_file():
         return None, "missing file"
     try:
-        data = json.loads(path.read_text(encoding="utf-8"))
+        data = json.loads(path.read_text(encoding="utf-8-sig"))
     except (OSError, json.JSONDecodeError) as exc:
         return None, f"unparseable: {exc}"
     if not isinstance(data, dict):
@@ -132,13 +137,14 @@ def build_report(user_id: str = DEFAULT_USER, *, now: datetime | None = None) ->
     cadence_age = _age_hours(last_cadence, now)
     cadence_status = _classify_age(cadence_age, ok_h=24, watch_h=72)
 
-    last_dream_path = REPO_ROOT / "users" / user_id / "last-dream.json"
+    user_root = profile_dir(user_id)
+    last_dream_path = user_root / "last-dream.json"
     last_dream, dream_err = _read_json(last_dream_path)
     last_dream_dt = _parse_iso_datetime(str(last_dream.get("generated_at"))) if last_dream else None
     dream_age = _age_hours(last_dream_dt, now)
     dream_status = "missing" if dream_err else _classify_age(dream_age, ok_h=36, watch_h=96)
 
-    handoff_dir = REPO_ROOT / "users" / user_id / "daily-handoff"
+    handoff_dir = user_root / "daily-handoff"
     night_path = handoff_dir / "night-handoff.json"
     night_handoff, night_err = _read_json(night_path)
     night_dt = None

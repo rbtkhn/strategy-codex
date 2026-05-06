@@ -35,6 +35,11 @@ from pathlib import Path
 from typing import Any, Dict, List, Tuple
 
 _REPO = Path(__file__).resolve().parent.parent
+try:
+    from repo_io import profile_dir
+except ImportError:
+    from scripts.repo_io import profile_dir
+
 MODES = ("standard", "light", "deep", "closeout")
 STATE_NAME = "last-coffee-state.json"
 CONTEXT_NAME = ".coffee-run-context.json"
@@ -217,7 +222,7 @@ def main() -> int:
     p = argparse.ArgumentParser(
         description="Coffee — consolidated morning cadence runner for companion-self instances."
     )
-    p.add_argument("--user", required=True, help="Instance user id (users/<id>/)")
+    p.add_argument("--user", required=True, help="Instance user id ()")
     p.add_argument(
         "--mode",
         "-m",
@@ -260,7 +265,7 @@ def main() -> int:
     args = p.parse_args()
     user = args.user
     py = sys.executable
-    user_dir = _REPO / "users" / user
+    user_dir = profile_dir(user)
     handoff_dir = user_dir / "daily-handoff"
     state_path = handoff_dir / STATE_NAME
     context_path = handoff_dir / CONTEXT_NAME

@@ -23,6 +23,11 @@ from pathlib import Path
 
 _REPO = Path(__file__).resolve().parent.parent
 
+try:
+    from repo_io import profile_dir
+except ImportError:
+    from scripts.repo_io import profile_dir
+
 
 def _run(argv: list[str]) -> int:
     print(f"\n{'=' * 60}\n$ {' '.join(argv)}\n{'=' * 60}\n", flush=True)
@@ -75,7 +80,7 @@ def _classify_worktree(status_out: str, diff_out: str) -> tuple[str, str]:
 
 
 def _merge_worktree_into_handoff(user_id: str) -> None:
-    handoff_path = _REPO / "users" / user_id / "daily-handoff" / "night-handoff.json"
+    handoff_path = profile_dir(user_id) / "daily-handoff" / "night-handoff.json"
     if not handoff_path.is_file():
         return
     try:
@@ -107,7 +112,7 @@ def main() -> int:
     p.add_argument(
         "--user",
         required=True,
-        help="Instance user id (users/<id>/)",
+        help="Instance user id ()",
     )
     p.add_argument(
         "--mode",

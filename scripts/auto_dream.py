@@ -30,7 +30,7 @@ from fork_config import load_fork_config
 from emit_pipeline_event import append_pipeline_event
 from log_cadence_event import append_cadence_event, resolve_cursor_model
 from harness_warmup import _pending_candidates
-from repo_io import resolve_self_memory_path
+from repo_io import profile_dir, resolve_self_memory_path
 
 try:
     from dream_catchup import catch_up_window_dict, missing_strategy_notebook_days
@@ -38,9 +38,17 @@ except ImportError:
     from scripts.dream_catchup import catch_up_window_dict, missing_strategy_notebook_days  # type: ignore
 
 LAST_DREAM_FILENAME = "last-dream.json"
+NIGHT_HANDOFF_FILENAME = "night-handoff.json"
 # 3 = v2 handoff + optional last_coffee_echo; smart collapse is client-side (operator_daily_warmup), not in JSON.
 HANDOFF_SCHEMA_VERSION = 3
 VALID_PHASES = ("both", "recent", "structural")
+
+
+def _user_root(users_dir: Path, user_id: str) -> Path:
+    """Resolve the effective profile root for default vs legacy/test layouts."""
+    if users_dir.resolve() == DEFAULT_USERS_DIR.resolve():
+        return profile_dir(user_id)
+    return users_dir / user_id
 
 
 def _classify_worktree_grace(status_out: str, diff_out: str) -> tuple[str, str]:
@@ -267,7 +275,7 @@ def maintain_self_memory(
     users_dir: Path = DEFAULT_USERS_DIR,
     apply: bool = True,
 ) -> MemoryMaintenanceResult:
-    user_dir = users_dir / user_id
+    user_dir = _user_root(users_dir, user_id)
     user_dir.mkdir(parents=True, exist_ok=True)
     memory_path = resolve_self_memory_path(user_dir)
     before = memory_path.read_text(encoding="utf-8") if memory_path.exists() else ""
@@ -535,8 +543,78 @@ def _write_last_dream_handoff(
     handoff["worktreeState"] = wt_state
     handoff["worktreeAdvice"] = wt_adv
 
-    path = users_dir / user_id / LAST_DREAM_FILENAME
+    path = _user_root(users_dir, user_id) / LAST_DREAM_FILENAME
     path.write_text(json.dumps(handoff, indent=2) + "\n", encoding="utf-8")
+    return path
+
+
+def _write_night_handoff(
+    summary: dict[str, Any],
+    *,
+    users_dir: Path = DEFAULT_USERS_DIR,
+    user_id: str = DEFAULT_USER,
+) -> Path:
+    """Write the compact night-to-morning handoff used by cadence coffee.
+
+    This is an operational continuity artifact, not Record truth. The live
+    coffee consumer currently depends only on a small subset of fields, so keep
+    this export intentionally minimal and derived from the richer last-dream
+    handoff.
+    """
+    from datetime import datetime, timezone
+
+    user_root = _user_root(users_dir, user_id)
+    handoff_dir = user_root / "daily-handoff"
+    handoff_dir.mkdir(parents=True, exist_ok=True)
+    generated_at = datetime.now(timezone.utc).isoformat()
+    generated_date = generated_at[:10]
+
+    payload: dict[str, Any] = {
+        "generated_at": generated_at,
+        "date": generated_date,
+        "user_id": user_id,
+        "ok": bool(summary.get("ok", False)),
+        "integrity_ok": bool((summary.get("integrity") or {}).get("ok")),
+        "governance_ok": bool((summary.get("governance") or {}).get("ok")),
+        "quietRun": False,
+        "topActionReason": "",
+        "worktreeState": "",
+        "worktreeAdvice": "",
+    }
+
+    reason = (summary.get("execution_path_suggestion_reason") or "").strip()
+    tomorrow = str(summary.get("tomorrow_inherits") or "").strip()
+    if tomorrow:
+        payload["tomorrow_inherits"] = tomorrow
+    if reason:
+        payload["topActionReason"] = reason
+    elif tomorrow:
+        payload["topActionReason"] = "Carry-forward from dream execution-path / tomorrow_inherits."
+    else:
+        payload["topActionReason"] = "Dream digest and followups shaped priorities; see last-dream.json."
+
+    if summary.get("execution_paths") is not None:
+        payload["execution_paths"] = summary["execution_paths"]
+        payload["suggested_execution_path_index"] = summary.get("suggested_execution_path_index", 0)
+
+    artifact_drafts = summary.get("artifact_drafts") or []
+    digest = summary.get("contradiction_digest") or {}
+    counts = digest.get("relation_counts") or {}
+    followups = list(summary.get("extra_followups") or [])
+    payload["quietRun"] = (
+        bool(payload["ok"])
+        and int(digest.get("reviewable_count", 0) or 0) == 0
+        and int(counts.get("contradiction", 0) or 0) == 0
+        and len(artifact_drafts) == 0
+        and len(followups) == 0
+    )
+
+    wt_state, wt_adv = _git_worktree_triage_grace()
+    payload["worktreeState"] = wt_state
+    payload["worktreeAdvice"] = wt_adv
+
+    path = handoff_dir / NIGHT_HANDOFF_FILENAME
+    path.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
     return path
 
 
@@ -725,7 +803,7 @@ def run_auto_dream(
         coffee_rollup = _apply_coffee_rollup_budget(coffee_rollup_raw, dream_budget)
         dc = summary.get("contradiction_digest") or {}
         rel_counts = dc.get("relation_counts") or {}
-        gate_path = users_dir / user_id / "recursion-gate.md"
+        gate_path = _user_root(users_dir, user_id) / "recursion-gate.md"
         gate_text = gate_path.read_text(encoding="utf-8") if gate_path.is_file() else ""
         gate_pending_count = len(_pending_candidates(gate_text, "all"))
         fork_cfg = load_fork_config()
@@ -823,7 +901,7 @@ def run_auto_dream(
         summary["extra_followups"] = extra_followups
 
         try:
-            ledger_path = users_dir / user_id / "compute-ledger.jsonl"
+            ledger_path = _user_root(users_dir, user_id) / "compute-ledger.jsonl"
             if ledger_path.exists():
                 import json as _json
                 from datetime import datetime as _dt, timezone as _tz
@@ -856,7 +934,13 @@ def run_auto_dream(
             user_id=user_id,
             cursor_model=cm,
         )
+        night_handoff_path = _write_night_handoff(
+            summary,
+            users_dir=users_dir,
+            user_id=user_id,
+        )
         summary["handoff_path"] = str(handoff_path)
+        summary["night_handoff_path"] = str(night_handoff_path)
         summary["agent_surface"] = {"cursor_model": cm}
 
         digest = summary.get("contradiction_digest") or {}
