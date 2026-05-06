@@ -17,6 +17,7 @@ Use this skill when the operator wants to elicit historical knowledge from `self
 ### Grace-mar operator defaults (docsync 2026-05)
 
 - **Suggest this workflow liberally** when IX-A-shaped material, reading-heavy sessions, or strategy analysis surface testable factual claims - this is the **default** recurring knowledge-elicitation modality for self-knowledge **recursion** (not novelty content).
+- **Encoded workflow first:** When the operator asks for bookshelf knowledge or source-bound elicitation, use this scripted path before improvising with freeform prompts. Only deviate if the anchor set is missing, broken, or explicitly out of scope, and say why.
 - **Source-linked questions by default:** every MCQ must come from `bookshelf-quiz-anchors.yaml`, which maps academic prompt labels to concrete `self-library-bookshelf` items behind the scenes. Prefer primary-source anchors when they can support the topic; use secondary works only as context or when no suitable primary anchor is present.
 - **Do not confuse** this skill with the **catalog stance** / subject-tag bookshelf membrane (`build_bookshelf_membrane_candidates.py`, `bookshelf-membrane-round.json`: "enduring vs active" on clusters like Rome or poetry). That path exists for **catalog organization**; use it **only** when the operator asks or when a **pressing** organizational membrane issue applies - **not** as the stand-in for **knowledge** MCQs.
 
