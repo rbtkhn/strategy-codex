@@ -26,6 +26,7 @@ if str(SCRIPTS) not in sys.path:
     sys.path.insert(0, str(SCRIPTS))
 
 from gate_block_parser import pending_candidates_region, iter_candidate_yaml_blocks
+from repo_io import DEFAULT_PROFILE_ID, profile_dir
 
 PLACEHOLDER_RE = re.compile(r"see source_exchange\.operator \(staged paste\)", re.IGNORECASE)
 HNSRC_RE = re.compile(r"^HNSRC-\d{4}$")
@@ -111,6 +112,12 @@ def _receipt_binding_issues(
 ) -> tuple[list[str], list[str]]:
     blockers: list[str] = []
     warnings: list[str] = []
+    if yaml is None:
+        warnings.append(
+            f"{cid}: PyYAML unavailable; structured bookshelf receipt checks skipped "
+            "(install PyYAML or run with a runtime that has it)"
+        )
+        return blockers, warnings
 
     shelf_refs = data.get("shelf_refs")
     if shelf_refs is None:
@@ -150,7 +157,7 @@ def _receipt_binding_issues(
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
-    ap.add_argument("-u", "--user", default="grace-mar")
+    ap.add_argument("-u", "--user", default=DEFAULT_PROFILE_ID)
     ap.add_argument("--strict", action="store_true", help="Exit non-zero when any blocker exists")
     ap.add_argument("--gate", type=Path, default=None, help="Explicit recursion-gate.md path")
     ap.add_argument("--self", dest="self_path", type=Path, default=None, help="Explicit self.md path")
@@ -166,8 +173,9 @@ def main() -> int:
     )
     args = ap.parse_args()
 
-    gate_path = args.gate or (REPO / "users" / args.user / "recursion-gate.md")
-    self_path = args.self_path or (REPO / "users" / args.user / "self.md")
+    user_root = profile_dir(args.user)
+    gate_path = args.gate or (user_root / "recursion-gate.md")
+    self_path = args.self_path or (user_root / "self.md")
     if not gate_path.is_file():
         print(f"ERROR: missing gate file: {gate_path}")
         return 1
@@ -180,6 +188,11 @@ def main() -> int:
 
     blockers: list[str] = []
     warnings: list[str] = []
+    if yaml is None:
+        warnings.append(
+            "PyYAML unavailable; catalog/anchor-backed bookshelf receipt checks will be partial "
+            "(path/layout checks still run)"
+        )
 
     if not has_ix_a_scaffold(self_md):
         blockers.append("self.md IX-A scaffold missing `Facts (LEARN-nnn)` entries block")

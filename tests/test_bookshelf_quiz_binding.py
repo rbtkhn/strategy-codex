@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import importlib
 import subprocess
 import sys
 from pathlib import Path
@@ -112,6 +113,37 @@ prompt_addition: none
 """
 
 
+ADAMS_CANDIDATE = """
+status: pending
+channel_key: operator:cursor:bookshelf-mcq-self-knowledge
+proposal_class: SELF_KNOWLEDGE_ADD
+source: operator - bookshelf MCQ receipt
+source_binding_strength: strong
+review_needed: false
+shelf_refs: [HNSRC-0269, HNSRC-0270]
+quiz_receipt:
+  source_kind: primary
+  citation_label: "John Adams, Revolutionary Writings"
+  visible_prompt: "Drawing on John Adams's revolutionary writings, which institutional design did he most strongly favor for a free republic?"
+  stem_topic: "John Adams on mixed constitutional design"
+  selected_answer: "C - a mixed constitution with bicameral legislature, executive, and independent judiciary."
+  correct_answer: "C - a mixed constitution with bicameral legislature, executive, and independent judiciary."
+  validation_note: "Companion selected the intended answer. Binding is strong to the Adams primary-source shelf anchor."
+  staged_claim: "Knows: John Adams favored a mixed constitutional order with a bicameral legislature, executive, and independent judiciary."
+source_exchange:
+  operator: |
+    Bookshelf quiz round on John Adams. Visible quiz prompt used academic prose and did not expose internal shelf ids.
+    Source context: John Adams, Revolutionary Writings.
+mind_category: knowledge
+signal_type: operator_quiz_validated
+summary: "IX-A: John Adams on mixed constitutional design"
+profile_target: IX-A. KNOWLEDGE
+suggested_entry: "Knows: John Adams favored a mixed constitutional order with a bicameral legislature, executive, and independent judiciary."
+prompt_section: YOUR KNOWLEDGE
+prompt_addition: none
+"""
+
+
 def test_committed_quiz_anchors_validate() -> None:
     result = subprocess.run(
         [PY, str(VALIDATE), "--catalog", str(CATALOG), "--anchors", str(ANCHORS)],
@@ -191,3 +223,47 @@ entries:
     assert "shelf_refs:" not in self_out
     assert "quiz_receipt:" not in self_out
     assert "Knows: the Melian Dialogue" in self_out
+
+
+def test_john_adams_anchor_lookup_preflight_and_receipt_extraction() -> None:
+    anchors_text = ANCHORS.read_text(encoding="utf-8")
+    assert "id: bq-john-adams-revolutionary-writings" in anchors_text
+    assert "source_kind: primary" in anchors_text
+    assert "shelf_refs: [HNSRC-0269, HNSRC-0270]" in anchors_text
+
+    result = _run_check(ADAMS_CANDIDATE)
+    assert result.returncode == 0, result.stderr + result.stdout
+
+    import process_approved_candidates as pac
+
+    receipt = pac._extract_approval_receipt(ADAMS_CANDIDATE)
+    assert "shelf_refs: [HNSRC-0269, HNSRC-0270]" in receipt
+    assert "quiz_receipt:" in receipt
+    assert 'citation_label: "John Adams, Revolutionary Writings"' in receipt
+    assert "staged_claim:" in receipt
+
+
+def test_bookshelf_receipt_checks_degrade_to_warning_without_pyyaml(monkeypatch) -> None:
+    import check_gate_merge_readiness as cgr
+
+    cgr = importlib.reload(cgr)
+    monkeypatch.setattr(cgr, "yaml", None)
+    blockers, warnings = cgr._receipt_binding_issues(
+        "CANDIDATE-0060",
+        {
+            "shelf_refs": ["HNSRC-0269", "HNSRC-0270"],
+            "quiz_receipt": {
+                "source_kind": "primary",
+                "citation_label": "John Adams, Revolutionary Writings",
+                "stem_topic": "John Adams on mixed constitutional design",
+                "selected_answer": "C",
+                "correct_answer": "C",
+                "validation_note": "validated",
+                "staged_claim": "Knows: John Adams favored a mixed constitutional order.",
+            },
+        },
+        catalog_ids={"HNSRC-0269", "HNSRC-0270"},
+        anchor_refs={"HNSRC-0269", "HNSRC-0270"},
+    )
+    assert blockers == []
+    assert any("PyYAML unavailable" in w for w in warnings)
