@@ -9,6 +9,11 @@ import sys
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
+SCRIPTS = Path(__file__).resolve().parent
+if str(SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS))
+
+from yaml_compat import safe_load_path
 
 
 def main() -> int:
@@ -26,11 +31,6 @@ def main() -> int:
     args = ap.parse_args()
 
     try:
-        import yaml  # type: ignore[import-untyped]
-    except ImportError:
-        print("error: PyYAML required (pip install pyyaml)", file=sys.stderr)
-        return 1
-    try:
         import jsonschema
     except ImportError:
         print("error: jsonschema required", file=sys.stderr)
@@ -39,7 +39,11 @@ def main() -> int:
     if not args.yaml.is_file():
         print(f"error: missing {args.yaml}", file=sys.stderr)
         return 1
-    data = yaml.safe_load(args.yaml.read_text(encoding="utf-8"))
+    try:
+        data = safe_load_path(args.yaml, feature="validate_work_strategy_sources.py")
+    except RuntimeError as exc:
+        print(f"error: {exc}", file=sys.stderr)
+        return 1
     schema = json.loads(args.schema.read_text(encoding="utf-8"))
     jsonschema.Draft202012Validator(schema).validate(data)
     print(f"ok: {args.yaml} ({len(data.get('sources', []))} sources)")

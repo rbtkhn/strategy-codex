@@ -14,19 +14,19 @@ from pathlib import Path
 from typing import Any
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
+SCRIPTS = Path(__file__).resolve().parent
+if str(SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS))
+
+from yaml_compat import safe_load_path
+
 MANIFEST_REL = Path("config/operator_shell_manifest.yaml")
 ALLOWED_TOP = frozenset({"artifacts", "docs"})
 REQUIRED_ENTRY_KEYS = frozenset({"id", "title", "path"})
 
 
 def _load_yaml(path: Path) -> Any:
-    try:
-        import yaml  # type: ignore[import-untyped]
-    except ImportError as e:
-        raise SystemExit(
-            "PyYAML is required (pip install pyyaml). " + str(e)
-        ) from e
-    return yaml.safe_load(path.read_text(encoding="utf-8"))
+    return safe_load_path(path, feature="validate_operator_shell_manifest.py")
 
 
 def _path_errors(repo_root: Path, rel: str, *, field: str) -> list[str]:

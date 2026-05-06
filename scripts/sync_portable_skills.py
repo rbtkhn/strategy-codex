@@ -17,17 +17,18 @@ import sys
 from pathlib import Path
 
 _REPO = Path(__file__).resolve().parent.parent
+_SCRIPTS = Path(__file__).resolve().parent
+if str(_SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(_SCRIPTS))
+
+from yaml_compat import safe_dump, safe_load_path, safe_load_text
+
 _MANIFEST = _REPO / "skills-portable" / "manifest.yaml"
 _GENERATOR = "sync_portable_skills.py"
 
 
 def _load_yaml(path: Path) -> dict:
-    try:
-        import yaml  # type: ignore
-    except ImportError:
-        print("PyYAML required: pip install pyyaml", file=sys.stderr)
-        sys.exit(1)
-    data = yaml.safe_load(path.read_text(encoding="utf-8"))
+    data = safe_load_path(path, feature="sync_portable_skills.py")
     return data if isinstance(data, dict) else {}
 
 
@@ -40,9 +41,7 @@ def _split_frontmatter(text: str) -> tuple[dict, str]:
     raw = m.group(1)
     body = text[m.end() :]
     try:
-        import yaml  # type: ignore
-
-        meta = yaml.safe_load(raw)
+        meta = safe_load_text(raw, feature="sync_portable_skills.py")
         return (meta if isinstance(meta, dict) else {}), body
     except Exception as e:
         print(f"YAML frontmatter parse error: {e}", file=sys.stderr)
@@ -50,11 +49,10 @@ def _split_frontmatter(text: str) -> tuple[dict, str]:
 
 
 def _dump_frontmatter(meta: dict) -> str:
-    import yaml  # type: ignore
-
     # Wide width so `description` stays one physical line (hosts break on wrapped YAML).
-    s = yaml.dump(
+    s = safe_dump(
         meta,
+        feature="sync_portable_skills.py",
         default_flow_style=False,
         sort_keys=False,
         allow_unicode=True,

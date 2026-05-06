@@ -19,6 +19,12 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
+SCRIPTS = Path(__file__).resolve().parent
+if str(SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS))
+
+from yaml_compat import safe_load_path, safe_load_text
+
 MANIFEST = REPO_ROOT / "skills-portable" / "manifest.yaml"
 SCHEMA_PATH = REPO_ROOT / "schema-registry" / "skill-card.v1.json"
 RUNTIME_SNIPPET_MAX = 800
@@ -26,12 +32,7 @@ OPERATOR_VIEW_MAX = 1200
 
 
 def _load_manifest() -> list[dict]:
-    try:
-        import yaml  # type: ignore
-    except ImportError:
-        print("PyYAML required: pip install pyyaml", file=sys.stderr)
-        sys.exit(1)
-    raw = yaml.safe_load(MANIFEST.read_text(encoding="utf-8"))
+    raw = safe_load_path(MANIFEST, feature="build_skill_cards.py")
     skills = raw.get("skills") if isinstance(raw, dict) else None
     if not isinstance(skills, list):
         return []
@@ -46,9 +47,7 @@ def _split_frontmatter(text: str) -> tuple[dict, str]:
         return {}, text
     body = text[m.end() :]
     try:
-        import yaml  # type: ignore
-
-        meta = yaml.safe_load(m.group(1))
+        meta = safe_load_text(m.group(1), feature="build_skill_cards.py")
         return (meta if isinstance(meta, dict) else {}), body
     except Exception:
         return {}, text
