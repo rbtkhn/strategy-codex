@@ -21,7 +21,7 @@ This document defines the Record schema, recursion-gate shape, and API contracts
 | **STEWARD** | self-skill-steward.md | Governance literacy — gate participation, boundary vocabulary; evidence links. Does not grant merge authority. |
 | **self-evidence** | self-evidence.md | Activity log entries: `id`, `date`, `summary`, `skill_tag` (THINK \| WRITE \| WORK \| STEWARD). |
 
-All Record files live under `users/<id>/`. Split growth files (`self-knowledge`, `self-identity`, `self-curiosity`, `self-personality`) are the source of truth for post-seed growth.
+All Record files live under ``. Split growth files (`self-knowledge`, `self-identity`, `self-curiosity`, `self-personality`) are the source of truth for post-seed growth.
 
 ---
 
@@ -82,7 +82,7 @@ Array of candidates. Each candidate:
 | created_at | string | ISO date or timestamp. |
 | status | string | "pending" until approved/rejected. |
 
-**Format:** `users/<id>/recursion-gate.json` — JSON array, append-only on stage. Candidates are removed on approve (merge) or reject.
+**Format:** `recursion-gate.json` — JSON array, append-only on stage. Candidates are removed on approve (merge) or reject.
 
 ### Default skill → dimension mapping
 
@@ -165,7 +165,7 @@ Instances may extend the template (e.g. add skills, evidence count, or screen_ti
 
 ## Seed-phase artifact schemas
 
-**Seed phase** artifacts are **pre-activation** formation outputs. They are **distinct** from instance Record schemas (`self.md`, `self-evidence`, IX files). They live under `users/_template/seed-phase/` (scaffold), `users/demo/seed-phase/` (synthetic example), or an instance-managed directory **before** `users/<id>/` is activated.
+**Seed phase** artifacts are **pre-activation** formation outputs. They are **distinct** from instance Record schemas (`self.md`, `self-evidence`, IX files). They live under `_template/seed-phase/` (scaffold), `demo/seed-phase/` (synthetic example), or an instance-managed directory **before** `` is activated.
 
 JSON Schemas (Draft 2020-12) in `schema-registry/`:
 
@@ -207,4 +207,4 @@ These schemas govern proposed changes, decisions, visible diffs, review queues, 
 
 Doctrine and lifecycle: [change-review.md](change-review.md), [change-review-lifecycle.md](change-review-lifecycle.md). `template-manifest.json` lists these under `change_review.schemas`.
 
-**Validation:** `python3 scripts/validate-change-review.py users/demo/change-review` — uses Draft 2020-12 validators via `jsonschema` (install from `scripts/requirements-seed-phase.txt`). Demo artifacts live under `users/demo/change-review/`.
+**Validation:** `python3 scripts/validate-change-review.py demo/change-review` — uses Draft 2020-12 validators via `jsonschema` (install from `scripts/requirements-seed-phase.txt`). Demo artifacts live under `demo/change-review/`.

@@ -22,6 +22,12 @@ from __future__ import annotations
 
 import unicodedata
 from typing import Any
+from pathlib import Path
+
+from strategy_notebook.judgment_loops import (
+    build_judgment_loop_report,
+    format_due_open_loops_markdown,
+)
 
 MENU_PICK_TO_CONDUCTOR = {
     "D1": "toscanini",
@@ -166,7 +172,11 @@ def build_conductor_mcq_for_user(user_id: str) -> str:
 
     dream: dict[str, Any] | None = None
     try:
-        p = Path(__file__).resolve().parent.parent / "users" / user_id / "last-dream.json"
+        try:
+            from repo_io import profile_dir
+        except ImportError:
+            from scripts.repo_io import profile_dir
+        p = profile_dir(user_id) / "last-dream.json"
         if p.is_file():
             dream = json.loads(p.read_text(encoding="utf-8"))
     except (OSError, json.JSONDecodeError, TypeError):
@@ -185,6 +195,32 @@ def build_conductor_mcq_for_user(user_id: str) -> str:
         focus_text=focus,
         recommended_slug=rec_slug,
     )
+
+
+def build_conductor_revisit_block(
+    user_id: str,
+    *,
+    notebook_root: str | Path | None = None,
+    max_loops: int = 4,
+) -> str:
+    """Compact due/open judgment-loop surfacing for conductor orientation.
+
+    This is advisory WORK scaffolding only. It surfaces derived revisit pressure
+    and polyphonic tension; it does not resolve judgments or write outcomes.
+    """
+    root = Path(notebook_root) if notebook_root is not None else Path(__file__).resolve().parent.parent / "codex"
+    report = build_judgment_loop_report(root, user_id=user_id)
+    lines = [
+        "**Open loops due for revisit** â€” derived from pages, the judgment-loop register, and cadence outcomes.",
+    ]
+    lines.extend(
+        format_due_open_loops_markdown(
+            report,
+            max_loops=max_loops,
+            include_tension=True,
+        )
+    )
+    return "\n".join(lines)
 
 
 def resolve_d_conductor(

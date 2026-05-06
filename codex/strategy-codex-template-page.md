@@ -22,6 +22,22 @@ Never use bare **page** where the contrast matters. In those cases, say **codex-
 
 Raw wording lives in `raw-input/`; pages are the first analytical layer above literal capture.
 
+## State model
+
+Use this strategy-state split consistently:
+
+- **Knowledge** = governed understanding and owned judgment
+- **Library** = governed reference world and return-to sources
+- **Memory** = resumable continuity and open-loop state
+- **Archive** = governed evidence and provenance spine
+
+Notebook mapping:
+
+- `raw-input/` is archive-adjacent literal capture
+- `codex-page` bridges archive toward knowledge
+- `strategy-page` is the primary knowledge-production surface
+- `days.md` is primarily memory, though it may compress knowledge
+
 ## Judgment loop
 
 Every substantive analytical page should leave behind a compact, revisitable judgment loop:
@@ -41,7 +57,7 @@ This is the notebook's defense against `T + C` drift: evidence alone is not enou
 
 WORK only; not Record.
 
-Use this when the standalone page should stand on its own outside the thread while preserving a direct citation handle back to `raw-input/`.
+Use this when the standalone page should stand on its own outside the thread while preserving a direct citation handle back to `raw-input/`. In the state model, the codex-page is the main archive-to-knowledge bridge.
 
 **Location and naming rules:**
 
@@ -97,7 +113,7 @@ WORK only; not Record.
 - **Supporting raw-input:** [raw-input/YYYY-MM-DD/<slug>.md](...)  <!-- optional; keep the set small -->
 ```
 
-**Rule of use:** codex-pages are source/verbatim support and durable citation handles for `thread`, `days.md`, and later synthesis. They do not replace the main analytical role of `strategy-page` blocks.
+**Rule of use:** codex-pages are source/verbatim support, durable citation handles, and the main archive-to-knowledge bridge for `thread`, `days.md`, and later synthesis. They do not replace the main analytical role of `strategy-page` blocks.
 
 ---
 
@@ -148,7 +164,7 @@ This block is required for normal strategy-page writing. It should not be replac
 <!-- strategy-page:end -->
 ```
 
-**Rule of use:** the strategy-page is the notebook's primary composed analytical unit. Use codex-pages to support and cite it, not to compete with it. If a page truly carries no live call, keep it transcript-only / codex-page-only or state a minimal call such as "this frame remains tentative pending X."
+**Rule of use:** the strategy-page is the notebook's primary composed analytical unit and its main knowledge-production surface. Use codex-pages to support and cite it, not to compete with it. If a page truly carries no live call, keep it transcript-only / codex-page-only or state a minimal call such as "this frame remains tentative pending X."
 
 ---
 

@@ -7,11 +7,11 @@
 | **Filename** | `work-<territory>-history.md` (e.g. `work-dev-history.md`, `work-politics-history.md`) |
 | **Location** | `docs/skill-work/<territory>/` alongside that territory’s README and `*-sources.md` (if present) |
 | **Content** | Dated sections under **Log**; short bullets; optional SHAs and paths |
-| **Not** | Record truth, Voice knowledge, or automatic pipeline output. **Not** a substitute for `users/[id]/session-log.md` or RECURSION-GATE. |
+| **Not** | Record truth, Voice knowledge, or automatic pipeline output. **Not** a substitute for `session-log.md` or RECURSION-GATE. |
 
 **Fence:** History files document **what the operator did or noted in this lane** — not what is canonically true. Facts about the companion belong in the gated Record; integration status belongs in tables such as [work-dev/integration-status.md](work-dev/integration-status.md).
 
-**Relation to operator rhythm:** Sessions opened with **`coffee`** follow [coffee](../../.cursor/skills/coffee/SKILL.md); legacy **`hey`** still works as an alias. There is **no** dedicated instance-wide **`work-memory.md`** file: append **per-territory** milestones under **`docs/skill-work/work-*/*-history.md`**. Raw continuity and **`[WORK-choice]`** blocks may still go to **`users/[id]/session-transcript.md`** (see `log_operator_choice.py`). **`*-history.md`** is **per-lane** breadcrumbs (e.g. “ingested Karpathy digest,” “weekly brief run,” “Jiang CI change”) so ML or humans can scan **where** work landed without merging lanes.
+**Relation to operator rhythm:** Sessions opened with **`coffee`** follow [coffee](../../.cursor/skills/coffee/SKILL.md); legacy **`hey`** still works as an alias. There is **no** dedicated instance-wide **`work-memory.md`** file: append **per-territory** milestones under **`docs/skill-work/work-*/*-history.md`**. Raw continuity and **`[WORK-choice]`** blocks may still go to **`session-transcript.md`** (see `log_operator_choice.py`). **`*-history.md`** is **per-lane** breadcrumbs (e.g. “ingested Karpathy digest,” “weekly brief run,” “Jiang CI change”) so ML or humans can scan **where** work landed without merging lanes.
 
 **Existing logs:**
 
@@ -42,4 +42,4 @@
 
 **Cross-reference:** Authorized sources lists — [work-modules-sources-principle.md](work-modules-sources-principle.md).
 
-**Optional downstream rollup:** Per-instance **`users/[id]/self-history.md`** may **densely aggregate** these territory logs into one timeline alongside a **gate-approved companion** thread — **derived**, not Record; see [canonical-paths.md](../canonical-paths.md) and **AGENTS.md** § 11a. Regenerate log bodies with **`python3 scripts/draft_self_history.py -u <id>`** (default: print to stdout; **`--write`** replaces log sections; **`--companion-style per-act --max N`** for line-by-line ACT index).
+**Optional downstream rollup:** Per-instance **`self-history.md`** may **densely aggregate** these territory logs into one timeline alongside a **gate-approved companion** thread — **derived**, not Record; see [canonical-paths.md](../canonical-paths.md) and **AGENTS.md** § 11a. Regenerate log bodies with **`python3 scripts/draft_self_history.py -u <id>`** (default: print to stdout; **`--write`** replaces log sections; **`--companion-style per-act --max N`** for line-by-line ACT index).

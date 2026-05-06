@@ -20,6 +20,10 @@
 - [supporting-voices/](supporting-voices/) — useful voices outside the eight-stream scaffold.
 - [civ-mem-resonance-2026-04.md](civ-mem-resonance-2026-04.md) — monthly civ-mem lattice note.
 
+## Lane-to-corpus policy
+
+These eight cognition streams are notebook-first lanes over shared intake by default. See [../LANE-TO-CORPUS-PROMOTION-POLICY.md](../LANE-TO-CORPUS-PROMOTION-POLICY.md) for the strict rule that governs when a lane should stay on the shared substrate and when it may justify promotion to a dedicated external corpus.
+
 ## Civ-Mem Discipline
 
 Civ-mem remains a strategy lens, not a duplicate corpus. Use compact fields in author books, chapters, and pages: mechanisms, civ-mem lenses, historical resonance, fit/mismatch/falsifier, and open analogy risk.

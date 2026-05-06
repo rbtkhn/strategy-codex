@@ -195,13 +195,13 @@ Rules:
 |---|------|
 | 1 | Open **Cici’s `companion-xavier` instance repository** in Cursor (her companion Record repo, not grace-mar; she may use another repo name). |
 | 2 | Open her repo `README.md` (instance root); read top to bottom. |
-| 3 | Open `users/xavier/self.md`. Skim — **IX empty** until gate merges survey outputs. |
+| 3 | Open `xavier/self.md`. Skim — **IX empty** until gate merges survey outputs. |
 | 4 | Command palette → Terminal → `pwd` / `ls` (or `dir` on Windows). |
 | 5 | `python3 --version` — if missing, note for companion before installing runtimes. |
-| 6 | Quick open **her** `users/xavier/recursion-gate.md` — read **Candidates** header. |
+| 6 | Quick open **her** `xavier/recursion-gate.md` — read **Candidates** header. |
 | 7 | Open [LANES.md](LANES.md) — WORK vs Record once. |
 | 8 | Ask the AI to summarize **her** repo’s `AGENTS.md` (or the companion-self template copy): what may the agent do without approval vs what requires approval? |
 | 9 | Optional: run harness + warmup from **her** repo root; paste output to a scratch note. |
-| 10 | Add one line to **her** `users/xavier/session-log.md`: date + “Session 0 complete; first coffee tasks 1–10 done.” |
+| 10 | Add one line to **her** `xavier/session-log.md`: date + “Session 0 complete; first coffee tasks 1–10 done.” |
 
 **Operator:** Pair first run with a short screen share if steps 4–6 stall.

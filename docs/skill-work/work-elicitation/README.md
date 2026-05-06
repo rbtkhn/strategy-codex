@@ -2,7 +2,7 @@
 
 **Objective:** Bounded WORK lane for extracting tacit operator knowledge into structured, review-first artifacts.
 
-_Not:_ Record truth; not Voice knowledge; not a substitute for `users/<id>/self.md` or RECURSION-GATE queue.
+_Not:_ Record truth; not Voice knowledge; not a substitute for `self.md` or RECURSION-GATE queue.
 
 ---
 
@@ -42,7 +42,7 @@ This lane tries to make five classes of tacit knowledge more explicit:
 
 ### Governing gate
 
-Default: `users/<id>/recursion-gate.md` with `territory: work-elicitation` when staging companion-facing facts.
+Default: `recursion-gate.md` with `territory: work-elicitation` when staging companion-facing facts.
 
 ### Membrane (downstream lanes)
 

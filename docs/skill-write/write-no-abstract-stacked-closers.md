@@ -4,7 +4,7 @@
 
 **Relation to [write-operator-preferences.md](write-operator-preferences.md):** This file is one **craft slice** under operator writing preferences. The hub README explains **companion** `skill-write.md` vs **docs/skill-write** doctrine.
 
-**Relation to Record:** This is **craft guidance** for operator/agent drafting. It does not change gated merge rules or what may enter `users/[id]/skill-write.md` as evidence.
+**Relation to Record:** This is **craft guidance** for operator/agent drafting. It does not change gated merge rules or what may enter `skill-write.md` as evidence.
 
 ---
 

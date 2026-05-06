@@ -1,6 +1,6 @@
-# work-dream
+﻿# work-dream
 
-**Purpose:** Operator-facing doctrine, boundaries, and evolution history for Grace-Mar's `dream` ritual — the end-of-day consolidation pass. The executable trigger surface lives in [.cursor/skills/dream/SKILL.md](../../../.cursor/skills/dream/SKILL.md).
+**Purpose:** Operator-facing doctrine, boundaries, and evolution history for Grace-Mar's `dream` ritual â€” the end-of-day consolidation pass. The executable trigger surface lives in [.cursor/skills/dream/SKILL.md](../../../.cursor/skills/dream/SKILL.md).
 
 **Not** Record truth. **Not** MEMORY. **Not** a second merge path.
 
@@ -12,10 +12,10 @@
 |------|-------------|
 | **Consolidation architecture** | Defines the shape of end-of-day maintenance: memory normalization, integrity, governance, contradiction digest, artifact drafts. |
 | **Night-to-morning handoff** | Documents the `last-dream.json` data contract that bridges dream output to coffee Step 1. |
-| **Strategy notebook (LIB-0153)** | **`dream` does not** own notebook production. Fold runs in **`strategy`** or on explicit **fold**; `auto_dream.py` may report **`strategy_notebook_missing_day_headers`** as optional FYI. See [STRATEGY-NOTEBOOK-ARCHITECTURE.md](../work-strategy/strategy-notebook/STRATEGY-NOTEBOOK-ARCHITECTURE.md) § *Entry model* and [.cursor/skills/dream/SKILL.md](../../.cursor/skills/dream/SKILL.md) § *Strategy notebook*. |
-| **Cici notebook (LIB-0154)** | Dream **initiates generation** of the calendar day’s [`cici-notebook`](../work-cici/cici-notebook/) file via [`cici_journal_ob1_digest.py`](../../../scripts/cici_journal_ob1_digest.py) `--write` (GitHub network; optional token). Not her Record; WORK lane. See dream SKILL § *Cici notebook*. |
+| **Strategy notebook (LIB-0153)** | **`dream` does not** own notebook production. Fold runs in **`strategy`** or on explicit **fold**; `auto_dream.py` may report **`strategy_notebook_missing_day_headers`** as optional FYI. See [STRATEGY-NOTEBOOK-ARCHITECTURE.md](../work-strategy/strategy-notebook/STRATEGY-NOTEBOOK-ARCHITECTURE.md) Â§ *Entry model* and [.cursor/skills/dream/SKILL.md](../../.cursor/skills/dream/SKILL.md) Â§ *Strategy notebook*. |
+| **Cici notebook (LIB-0154)** | Dream **initiates generation** of the calendar dayâ€™s [`cici-notebook`](../work-cici/cici-notebook/) file via [`cici_journal_ob1_digest.py`](../../../scripts/cici_journal_ob1_digest.py) `--write` (GitHub network; optional token). Not her Record; WORK lane. See dream SKILL Â§ *Cici notebook*. |
 | **Boundary surface** | Explains what belongs in WORK-only docs/history versus what must escalate to `RECURSION-GATE`. |
-| **Choreography with coffee** | Holds the rationale for the dream→coffee pairing: sequence, timing, data flow. |
+| **Choreography with coffee** | Holds the rationale for the dreamâ†’coffee pairing: sequence, timing, data flow. |
 
 ---
 
@@ -24,12 +24,12 @@
 | Layer | Role |
 |-------|------|
 | **[`.cursor/skills/dream/SKILL.md`](../../../.cursor/skills/dream/SKILL.md)** | Executable contract: triggers, Step 0 rhythm depth, `auto_dream.py`, night-close reply shape, guardrails. |
-| **`work-dream/` (this doc)** | Doctrine, boundaries, history — read when evolving the ritual, not for every run. |
-| **Scripts** | `scripts/auto_dream.py`, `users/<id>/last-dream.json` — machine handoff; not Record. |
+| **`work-dream/` (this doc)** | Doctrine, boundaries, history â€” read when evolving the ritual, not for every run. |
+| **Scripts** | `scripts/auto_dream.py`, `last-dream.json` â€” machine handoff; not Record. |
 
-**Cadence alignment:** Step 0 line counts for dream live in [work-cadence README — Step 0 recent rhythm](../work-cadence/README.md#step-0-recent-rhythm-companion-facing) (dream = **4 default / 8 full closeout**).
+**Cadence alignment:** Step 0 line counts for dream live in [work-cadence README â€” Step 0 recent rhythm](../work-cadence/README.md#step-0-recent-rhythm-companion-facing) (dream = **4 default / 8 full closeout**).
 
-**Simplified return contract:** Night-close chat uses a **short default brief** (Recent rhythm, run status, closing sentence) plus optional **Details** only when load-bearing. **`tomorrow_inherits`** is the primary human “tomorrow” hint; execution-path / coffee letter is secondary. See the skill — *Step 0*, *What to return*, *Five-second closeout*, *When `--strict` halts*.
+**Simplified return contract:** Night-close chat uses a **short default brief** (Recent rhythm, run status, closing sentence) plus optional **Details** only when load-bearing. **`tomorrow_inherits`** is the primary human â€œtomorrowâ€ hint; execution-path / coffee letter is secondary. See the skill â€” *Step 0*, *What to return*, *Five-second closeout*, *When `--strict` halts*.
 
 This split mirrors `work-coffee`: the skill stays optimized for invocation; this territory holds longer-form doctrine and history.
 
@@ -45,9 +45,9 @@ Keep changes in docs/history only when they are about:
 - strict mode behavior and when to use it
 - handoff contract shape (`last-dream.json` fields)
 - contradiction digest integration
-- dream→coffee choreography
+- dreamâ†’coffee choreography
 
-Stage to **`users/grace-mar/recursion-gate.md`** only when a `work-dream` insight would change governed behavior, such as:
+Stage to **`recursion-gate.md`** only when a `work-dream` insight would change governed behavior, such as:
 
 - durable prompt or policy behavior
 - changes to how integrity/governance checks affect the Record
@@ -61,25 +61,25 @@ This territory never creates a second merge path. `RECURSION-GATE` remains the m
 
 ```
 auto_dream.py
-  ├─ dream_catchup.py              since-previous-dream window + strategy-notebook gap list
-  ├─ maintain_self_memory()        normalize self-memory.md
-  ├─ validate-integrity.py         integrity checks (--json)
-  ├─ governance_checker.py         governance scan
-  ├─ contradiction_digest.py       derived contradiction digest
-  │    └─ write_artifact_drafts()  optional artifact drafts
-  ├─ config/context_budgets/dream.json   write-path caps (via context_budget.py)
-  ├─ emit_pipeline_event.py        maintenance event
-  └─ _write_last_dream_handoff()   writes last-dream.json (includes dream_catchup when ok)
+  â”œâ”€ dream_catchup.py              since-previous-dream window + strategy-notebook gap list
+  â”œâ”€ maintain_self_memory()        normalize self-memory.md
+  â”œâ”€ validate-integrity.py         integrity checks (--json)
+  â”œâ”€ governance_checker.py         governance scan
+  â”œâ”€ contradiction_digest.py       derived contradiction digest
+  â”‚    â””â”€ write_artifact_drafts()  optional artifact drafts
+  â”œâ”€ config/context_budgets/dream.json   write-path caps (via context_budget.py)
+  â”œâ”€ emit_pipeline_event.py        maintenance event
+  â””â”€ _write_last_dream_handoff()   writes last-dream.json (includes dream_catchup when ok)
 operator_daily_warmup.py           reads coffee.json for collapsed Last dream display
 audit_context_tax.py               approximate ritual paste line/char counts
 
-Strategy notebook (work-strategy) — not a subprocess inside auto_dream.py; use
+Strategy notebook (work-strategy) â€” not a subprocess inside auto_dream.py; use
 `dream_catchup` from `--json` / `last-dream.json` for local dates + missing `##` headers; agent stubs per dream SKILL.
 
-Cici notebook (work-cici) — `cici_journal_ob1_digest.py --catch-up-from-last-dream --write` (network); same date window as `dream_catchup`.
+Cici notebook (work-cici) â€” `cici_journal_ob1_digest.py --catch-up-from-last-dream --write` (network); same date window as `dream_catchup`.
 ```
 
-**Bundle:** `operator_end_of_day.py` runs `auto_dream.py` then `operator_handoff_check.py` — night-side counterpart to `operator_reentry_stack.py`.
+**Bundle:** `operator_end_of_day.py` runs `auto_dream.py` then `operator_handoff_check.py` â€” night-side counterpart to `operator_reentry_stack.py`.
 
 **Strict mode:** `--strict` tightens integrity parity, contradiction classification, and failure states. Same ritual, sharper posture. Use at end of week or after unusual maintenance events.
 
@@ -87,7 +87,7 @@ Cici notebook (work-cici) — `cici_journal_ob1_digest.py --catch-up-from-last-d
 
 ## Handoff contract
 
-`last-dream.json` (written to `users/grace-mar/`) contains:
+`last-dream.json` (written to ``) contains:
 
 | Field | Type | Purpose |
 |-------|------|---------|
@@ -101,10 +101,10 @@ Cici notebook (work-cici) — `cici_journal_ob1_digest.py --catch-up-from-last-d
 | `artifact_draft_count` | int | Artifact drafts generated |
 | `promotable_draft_count` | int | Drafts ready for promotion |
 | `followups` | string[] | Human-readable follow-up items for morning |
-| `coffee_rollup_24h` | object | Rolling 24h summary of `coffee` lines from [`work-cadence-events.md`](../work-cadence/work-cadence-events.md) (`count`, `by_mode`, `by_picked`, `picks`, `first_ts`, `last_ts`, `runs`, …) |
+| `coffee_rollup_24h` | object | Rolling 24h summary of `coffee` lines from [`work-cadence-events.md`](../work-cadence/work-cadence-events.md) (`count`, `by_mode`, `by_picked`, `picks`, `first_ts`, `last_ts`, `runs`, â€¦) |
 | `conductor_rollup_24h` | object | Rolling 24h summary of Conductor `coffee_pick conductor=...` and `coffee_conductor_outcome` lines. Includes `last_master`, `completed_passes`, `orientation_only`, `off_menu_refusals`, recent `commits`, recent `falsifiers`, and one compact `echo` for morning coffee. WORK telemetry only; not Record. |
 | `execution_paths` | object[] | Three deterministic morning paths (`today_field`, `build`, `steward`) with `first_move`, `stop_rule`, `signals_used` |
-| `suggested_execution_path_index` | int | 0–2; **Steward (2)** if integrity or governance failed this run, else **Steward** if gate pending > `max_pending_candidates` in `config/fork-config.json`, else **calendar** `(tomorrow_tm_yday - 1) % 3` |
+| `suggested_execution_path_index` | int | 0â€“2; **Steward (2)** if integrity or governance failed this run, else **Steward** if gate pending > `max_pending_candidates` in `config/fork-config.json`, else **calendar** `(tomorrow_tm_yday - 1) % 3` |
 | `execution_path_suggestion_reason` | string | `integrity_or_governance_fail` \| `gate_backlog` \| `calendar_mod3` |
 | `tomorrow_inherits` | string | One-line operational hint for morning (not policy or Record) |
 | `civmem_echoes` | object[] | Token-overlap hits from in-repo [`docs/civilization-memory/`](../../civilization-memory/README.md) (count capped by `config/context_budgets/dream.json`); each echo includes `analogy_label`, optional `specificity_pass`, `score` |
@@ -116,13 +116,13 @@ Cici notebook (work-cici) — `cici_journal_ob1_digest.py --catch-up-from-last-d
 
 **Context budgets:** Write-path caps and suppress rules live in [`config/context_budgets/dream.json`](../../../config/context_budgets/dream.json); display defaults for the collapsed Last dream block live in [`config/context_budgets/coffee.json`](../../../config/context_budgets/coffee.json). See [`config/context_budgets/README.md`](../../../config/context_budgets/README.md).
 
-**Doctrine:** Dream suggestions (paths, civ-mem, rollup) are **operational hints only** — not truth, not priority, not a substitute for gate review, integrity, companion approval, or operator judgment. Cadence artifacts are not a shadow Record.
+**Doctrine:** Dream suggestions (paths, civ-mem, rollup) are **operational hints only** â€” not truth, not priority, not a substitute for gate review, integrity, companion approval, or operator judgment. Cadence artifacts are not a shadow Record.
 
 **Conductor compression:** Dream may compress the day's Conductor passes into `conductor_rollup_24h`, then coffee may render one **Conductor echo** line. This is deliberately compression, not continuation: dream does not generate fresh Conductor options, does not auto-compose notebooks, and treats off-menu/no-action outcomes as parked/refused telemetry rather than as a fourth choice.
 
 Clients should **ignore unknown keys** on future dream versions.
 
-Coffee Step 1 (`operator_daily_warmup.py`) reads this file and renders a **collapsed** **"Last dream (night handoff)"** block by default (`--verbose-dream` for full detail; `--show-civ-mem` / `--show-rollup` opt into extra collapsed lines; defaults from `coffee.json`). The file is classified as runtime noise in `operator_handoff_check.py` — it does not need to be committed.
+Coffee Step 1 (`operator_daily_warmup.py`) reads this file and renders a **collapsed** **"Last dream (night handoff)"** block by default (`--verbose-dream` for full detail; `--show-civ-mem` / `--show-rollup` opt into extra collapsed lines; defaults from `coffee.json`). The file is classified as runtime noise in `operator_handoff_check.py` â€” it does not need to be committed.
 
 **Strict halt:** When `auto_dream.py --strict` stops early on integrity/governance failure, a new `last-dream.json` may not be written; morning pickup can reflect an older handoff until the next successful run.
 
@@ -132,10 +132,10 @@ Coffee Step 1 (`operator_daily_warmup.py`) reads this file and renders a **colla
 
 `work-dream` does **not** replace any existing continuity surface.
 
-- **Raw continuity:** `users/<id>/session-transcript.md`
+- **Raw continuity:** `session-transcript.md`
 - **Lane breadcrumbs:** `docs/skill-work/work-dream/work-dream-history.md`
-- **Optional continuity memory:** `users/grace-mar/self-memory.md`
-- **Governed durable changes:** `users/grace-mar/recursion-gate.md`
+- **Optional continuity memory:** `self-memory.md`
+- **Governed durable changes:** `recursion-gate.md`
 
 ---
 
@@ -157,7 +157,7 @@ In scope:
 - maintenance semantics and strict mode
 - contradiction digest integration
 - handoff contract design
-- dream→coffee choreography
+- dreamâ†’coffee choreography
 - night-side operator ergonomics
 
 Out of scope:
@@ -166,3 +166,4 @@ Out of scope:
 - Record merges or prompt edits without the gate
 - generic repo hygiene (coffee B / handoff-check)
 - work-politics or other territory content
+

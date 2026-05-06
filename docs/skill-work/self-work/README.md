@@ -1,20 +1,20 @@
-# self-work — territory (WORK coordination)
+﻿# self-work â€” territory (WORK coordination)
 
-**Template path:** [companion-self `docs/skill-work/self-work/README.md`](https://github.com/rbtkhn/companion-self/blob/main/docs/skill-work/self-work/README.md) — reconcile with `scripts/template_diff.py --use-manifest` after upstream edits.
+**Template path:** [companion-self `docs/skill-work/self-work/README.md`](https://github.com/rbtkhn/companion-self/blob/main/docs/skill-work/self-work/README.md) â€” reconcile with `scripts/template_diff.py --use-manifest` after upstream edits.
 
-**Purpose:** One **cross-lane dashboard** per fork: `users/<id>/self-work.md` — **objectives**, **active threads**, **history**, **strategy**. **Not** [IX-A/B/C](../../self-template.md) identity content (that stays in `self.md` + gate).
+**Purpose:** One **cross-lane dashboard** per fork: `self-work.md` â€” **objectives**, **active threads**, **history**, **strategy**. **Not** [IX-A/B/C](../../self-template.md) identity content (that stays in `self.md` + gate).
 
 ## Clarity: skill-work vs self-work vs self.md
 
 | Surface | Role | Example |
 |---------|------|---------|
-| **`docs/skill-work/`** | Many **territories** — deep lane docs (`work-politics`, `work-dev`, …) | SMM handbook, integration README |
-| **`self-work.md`** | **One** operator thread per fork — cross-lane steering | “This month: Xavier seed + client floor + template upgrade order” |
-| **`self.md`** | **Record** — SELF-KNOWLEDGE (IX), identity | Survey → gate → merge |
+| **`docs/skill-work/`** | Many **territories** â€” deep lane docs (`work-politics`, `work-dev`, â€¦) | SMM handbook, integration README |
+| **`self-work.md`** | **One** operator thread per fork â€” cross-lane steering | â€œThis month: Xavier seed + client floor + template upgrade orderâ€ |
+| **`self.md`** | **Record** â€” SELF-KNOWLEDGE (IX), identity | Survey â†’ gate â†’ merge |
 
 **Anti-patterns:** Long procedures **only** in `self-work` (belongs under **skill-work**). Duplicating a cross-lane story in every lane README (belongs in **`self-work`** or you drift).
 
-**Decision rule:** Lane-specific → that `work-*` doc. Cross-lane sequencing → `self-work.md`. Identity facts → `self.md` + gate.
+**Decision rule:** Lane-specific â†’ that `work-*` doc. Cross-lane sequencing â†’ `self-work.md`. Identity facts â†’ `self.md` + gate.
 
 ---
 
@@ -29,6 +29,7 @@ Includes:
 - optional daily aggregator (`SYNC-DAILY.template.md`, training mode)
 - enablement runbook (`ENABLE-SYNC-PACK.md`)
 
-**Instance file:** [users/grace-mar/self-work.md](../../../users/grace-mar/self-work.md) (grace-mar). Other companions keep `self-work.md` in **their own** instance repos.
+**Instance file:** [self-work.md](../../../self-work.md) (grace-mar). Other companions keep `self-work.md` in **their own** instance repos.
 
-**Upstream:** companion-self should carry `users/_template/self-work.md` when a default starter is promoted; template [self-work README](https://github.com/rbtkhn/companion-self/blob/main/docs/skill-work/self-work/README.md) is canonical for portable doctrine (clarity table, sync-pack pointer).
+**Upstream:** companion-self should carry `_template/self-work.md` when a default starter is promoted; template [self-work README](https://github.com/rbtkhn/companion-self/blob/main/docs/skill-work/self-work/README.md) is canonical for portable doctrine (clarity table, sync-pack pointer).
+

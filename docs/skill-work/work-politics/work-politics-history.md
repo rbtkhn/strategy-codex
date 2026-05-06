@@ -1,8 +1,8 @@
-# work-politics-history — operator log
+﻿# work-politics-history â€” operator log
 
-> **Append-only** log for the **work-politics** territory (briefs, campaign assets, WPC, KY-4 / Massie lane). **Not** Record truth; **not** companion [self-memory](../../../users/grace-mar/self-memory.md). **Rotatable.**
+> **Append-only** log for the **work-politics** territory (briefs, campaign assets, WPC, KY-4 / Massie lane). **Not** Record truth; **not** companion [self-memory](../../../self-memory.md). **Rotatable.**
 
-**Distinct from:** [work-politics-sources.md](work-politics-sources.md). **Operator rhythm:** [coffee](../../../.cursor/skills/coffee/SKILL.md) (**`coffee`**; legacy **`hey`** still works). **Per-lane log:** this file — [work-modules-history-principle.md](../work-modules-history-principle.md).
+**Distinct from:** [work-politics-sources.md](work-politics-sources.md). **Operator rhythm:** [coffee](../../../.cursor/skills/coffee/SKILL.md) (**`coffee`**; legacy **`hey`** still works). **Per-lane log:** this file â€” [work-modules-history-principle.md](../work-modules-history-principle.md).
 
 ## How to append
 
@@ -12,3 +12,4 @@
 ## Log
 
 _(Append below this line.)_
+

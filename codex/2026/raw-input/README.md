@@ -18,6 +18,8 @@
 
 Short version: **Crooke essay -> Crooke. Diesen x Crooke transcript -> Diesen. Davis x Crooke transcript -> Davis.**
 
+Implementation rule: for host-led interviews, `thread:` follows the **host / interviewer stream**, not the guest. Keep the guest visible in the title, body, and `guest:` metadata, but do not create a guest-owned raw-input file by default just because the guest is notable.
+
 
 **Capture-type calibration (essay / transcript / social / wire–PDF):** For **type-specific** defaults — **`kind:`**, **`thread:`**, inbox stub shape, refined-page **`### Verbatim`** expectations — see **[`CAPTURE-TYPES.md`](CAPTURE-TYPES.md)** (grep-friendly **`##`** headings). Operator + assistant ingest should align that doc with the scaffold in [strategy-codex-template-raw-input.md](../../strategy-codex-template-raw-input.md) and [refined-page-template.md](../refined-page-template.md).
 

@@ -28,11 +28,11 @@ It is not legal policy and not Record truth.
 - Not good enough when: Judgment merges distinct actors into one position ("Iran says"); Links are missing primaries; Open items are vague ("follow up on this")
 - Typical acceptable imperfection: some Links may be `verify:` stubs awaiting URL confirmation; Open items may be speculative
 
-### Synthesis knot
+### Synthesis page
 
-- Name: strategy-notebook-knot-*.md
-- Good enough means: thesis is falsifiable; page type is marked; Judgment section has at least one named tension; connections to sister knots are wired in knot-connections.yaml
-- Not good enough when: thesis is a summary rather than a claim; no connections to existing knots; clusters/patterns not indexed in knot-index.yaml
+- Name: strategy-notebook-page-*.md
+- Good enough means: thesis is falsifiable; page type is marked; Judgment section has at least one named tension; connections to sister pages are wired in the page index
+- Not good enough when: thesis is a summary rather than a claim; no connections to existing pages; clusters/patterns not indexed in a page index
 - Typical acceptable imperfection: some "Weak bridge" connections may be provisional
 
 ### Script / parser

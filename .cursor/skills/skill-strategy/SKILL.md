@@ -289,10 +289,10 @@ When writing **for** `strategy` **into repo files**, generate **one of three sha
 During an **EOD compose** pass, when a page is created or revised, the skill may:
 
 1. Inspect adjacent pages from the same day, same watch cluster, or same mechanism pattern (grep **`strategy-page`** **`id=`** / **`watch=`** across expert threads).
-2. Propose one or two candidate edges in [`knot-connections.yaml`](../../../docs/skill-work/work-strategy/strategy-notebook/knot-connections.yaml) (**deprecated schema;** may be repurposed for page ids) with relation type and reason.
+2. Propose one or two candidate edges in the current page/watch surface with relation type and reason.
 3. Add edges **only** on explicit operator intent — do not auto-append.
 
-Validate after any edit: `python3 scripts/validate_knot_connections.py` (no-op when empty).
+Validate against the current notebook page/watch validator after any edit.
 
 ## Frontier guard
 
@@ -473,3 +473,6 @@ If the pass is **Islamabad / Gulf / Iran** but **no** lecture applies, use **one
 
 - **WORK only** — not Record, not Voice knowledge unless material goes through RECURSION-GATE per `AGENTS.md`.
 - Do **not** merge profile or gate candidates from this skill; staging only if the operator runs pipeline/gate workflow elsewhere.
+
+
+

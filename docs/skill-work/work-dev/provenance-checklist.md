@@ -1,4 +1,4 @@
-# work-dev provenance checklist
+﻿# work-dev provenance checklist
 
 Repeatable verification path for the core `work-dev` invariant:
 
@@ -10,7 +10,7 @@ OpenClaw may export and stage, but it must remain stage-only and auditable.
 
 1. Run:
    `python integrations/openclaw_hook.py --user grace-mar --format md+manifest --emit-event`
-2. Confirm a `runtime_compat_export` event appears in `users/grace-mar/pipeline-events.jsonl`.
+2. Confirm a `runtime_compat_export` event appears in `pipeline-events.jsonl`.
 3. Confirm harness audit also records the export if harness events are enabled.
 
 ## Handback check
@@ -22,7 +22,7 @@ OpenClaw may export and stage, but it must remain stage-only and auditable.
 
 ## Gate candidate check
 
-1. Open `users/grace-mar/recursion-gate.md`.
+1. Open `recursion-gate.md`.
 2. Confirm a new pending candidate exists before `## Processed`.
 3. Check whether OpenClaw-specific provenance survived into the candidate block:
    - source marker
@@ -46,3 +46,4 @@ OpenClaw may export and stage, but it must remain stage-only and auditable.
 ## Guardrail
 
 If provenance cannot survive from export/handback through review and merge, the integration is operationally weaker than the doctrine implies.
+

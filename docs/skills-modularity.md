@@ -17,7 +17,7 @@ The Record (and the companion self) is composed of the following modules. Togeth
 | **self-knowledge** | self.md IX-A | Facts that entered awareness (post-seed knowledge) |
 | **self-personality** | self.md IX-C | Observed behavioral patterns, values, speech traits, art style |
 | **self-curiosity** | self.md IX-B | Topics that catch attention (post-seed curiosity) |
-| **self-library** | users/[id]/self-library.md | Curated return-to store of references, canon works, and influential media; reference lane is query-first for answers |
+| **self-library** | self-library.md | Curated return-to store of references, canon works, and influential media; reference lane is query-first for answers |
 | **self-skill-think** | self-skills.md THINK container | Intake, learning, comprehension (multimodal) |
 | **self-skill-write** | self-skills.md WRITE container | Production (text, journal, stories); linguistic style source |
 | **self-skill-work** | self-skill-work.md (split template) or embedded | Making and doing — objectives and project capability ([concept.md](concept.md) §4) |
@@ -38,7 +38,7 @@ Additional Record components (self-archive, self-memory, evidence logs) are defi
 | **WORK** | self-skill-work | WORK container, CREATE-/ACT- as appropriate | Making and doing; project objectives and tasks |
 | **STEWARD** | self-skill-steward | STEWARD section / file | Governance literacy — participation at the gate; evidenced, tier-sensitive |
 
-The **formal minimal pair** for Voice linguistics and core capability indexing remains **THINK** and **WRITE**. **WORK** and **STEWARD** are **additional Record-bound capability surfaces** on the companion-self **split template** (and may appear as sections or sibling files under `users/[id]/` per instance layout). All follow the same boundary: capability and evidence in SKILLS; IX-A/B/C only via analyst/operator staging → gate → approval.
+The **formal minimal pair** for Voice linguistics and core capability indexing remains **THINK** and **WRITE**. **WORK** and **STEWARD** are **additional Record-bound capability surfaces** on the companion-self **split template** (and may appear as sections or sibling files under `` per instance layout). All follow the same boundary: capability and evidence in SKILLS; IX-A/B/C only via analyst/operator staging → gate → approval.
 
 **Current shape guidance:** WRITE currently works best as a single pure capability container. THINK may include clearly labeled contextual domain overlays and goal-interpretation overlays when they help adjacent work contexts read the skill state, but those overlays do not create new self-skills. STEWARD should stay **coaching-oriented** — not a compliance scorecard.
 
@@ -47,7 +47,7 @@ The **formal minimal pair** for Voice linguistics and core capability indexing r
 | Surface | Standard label | Location | Scope |
 |---------|----------------|----------|-------|
 | Work territory | `work-territory` | `docs/skill-work/work-*/` | Reusable execution domain, prompts, doctrine, and operator workflow |
-| Instance work context | `work-context` | `users/[id]/work-*.md` | Live project state, goals, planning, and delivery context |
+| Instance work context | `work-context` | `work-*.md` | Live project state, goals, planning, and delivery context |
 
 **Historical compatibility:** `BUILD` remains a legacy compatibility term in older docs, evidence references, and analyses. `CREATE-*` and `ACT-*` remain valid evidence IDs and are not renamed by this refactor.
 

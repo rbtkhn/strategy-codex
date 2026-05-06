@@ -63,15 +63,15 @@ _(Append below this line.)_
     assert not out
 
 
-def test_render_thread_extraction_includes_transcript_and_knots() -> None:
+def test_render_thread_extraction_includes_transcript_and_pages() -> None:
     text = render_thread_extraction(
         "mearsheimer",
         transcript_lines=["- `transcript line`"],
-        knot_refs=[
+        page_refs=[
             {
                 "path": "chapters/k.md",
                 "date": "2026-04-13",
-                "knot_label": "weave",
+                "page_label": "weave",
                 "note": "test",
             }
         ],
@@ -85,7 +85,7 @@ def test_render_thread_extraction_includes_raw_input_pointers() -> None:
     text = render_thread_extraction(
         "davis",
         transcript_lines=[],
-        knot_refs=[],
+        page_refs=[],
         page_blocks=[],
         raw_input_lane_lines=["- [a.md](raw-input/2026-04-24/a.md)"],
     )
@@ -99,7 +99,7 @@ def test_render_thread_extraction_raw_input_lane_suffices_without_transcript() -
     text = render_thread_extraction(
         "davis",
         transcript_lines=[],
-        knot_refs=[],
+        page_refs=[],
         page_blocks=[],
         raw_input_lane_lines=["- [b.md](raw-input/2026-04-24/b.md) _on-disk_"],
     )
@@ -133,16 +133,16 @@ def test_collect_inbox_raw_input_pointers_respects_thread_tag_and_month(
 
 
 def test_rebuild_threads_returns_one_path_per_canonical_expert(tmp_path: Path) -> None:
-    knot = tmp_path / "knot-index.yaml"
-    knot.write_text("knots: []\n", encoding="utf-8")
-    paths = rebuild_threads(out_dir=tmp_path, knot_index_path=knot, dry_run=True)
+    page_index = tmp_path / "page-index.yaml"
+    page_index.write_text("pages: []\n", encoding="utf-8")
+    paths = rebuild_threads(out_dir=tmp_path, page_index_path=page_index, dry_run=True)
     assert len(paths) == len(CANONICAL_EXPERT_IDS)
     assert all(p.name == "thread.md" for p in paths)
 
 
 def test_rebuild_threads_monthly_extra_paths_for_expert_with_month_files(tmp_path: Path) -> None:
-    knot = tmp_path / "knot-index.yaml"
-    knot.write_text("knots: []\n", encoding="utf-8")
+    page_index = tmp_path / "page-index.yaml"
+    page_index.write_text("pages: []\n", encoding="utf-8")
     nb = tmp_path
     eid = "pape"
     d = nb / "experts" / eid
@@ -170,7 +170,7 @@ def test_rebuild_threads_monthly_extra_paths_for_expert_with_month_files(tmp_pat
             encoding="utf-8",
         )
 
-    paths = rebuild_threads(out_dir=nb, knot_index_path=knot, dry_run=True)
+    paths = rebuild_threads(out_dir=nb, page_index_path=page_index, dry_run=True)
     assert len(paths) == len(CANONICAL_EXPERT_IDS)
     month_re = re.compile(r"-thread-\d{4}-\d{2}\.md$")
     pape_monthly = [p for p in paths if p.parent.name == eid and month_re.search(p.name)]

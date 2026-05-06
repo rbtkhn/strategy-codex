@@ -1,4 +1,4 @@
-# Cursor Automations — prompt pack (Strategy-Codex)
+﻿# Cursor Automations â€” prompt pack (Strategy-Codex)
 
 This folder holds **operator-facing** prompt templates and policy for [Cursor Automations](https://cursor.com/docs/cloud-agent/automations). **These files are not live automations.** Enabling a cloud agent in the Cursor product is a separate step; this repo only documents **how** to do it safely.
 
@@ -17,11 +17,11 @@ That keeps Automations from becoming a second CI system. Deterministic checks st
 
 ## Doctrine and boundaries
 
-- [AGENTS.md](../../AGENTS.md) — agents may **stage**; they may **not** merge without companion approval; routing vs accountability.
-- [docs/runtime-vs-record.md](../runtime-vs-record.md) — what is operator/runtime scaffolding vs Record-adjacent.
-- [users/grace-mar/instance-doctrine.md](../../users/grace-mar/instance-doctrine.md) — modes, file update protocol, merge via `process_approved_candidates.py` only when the operator runs it.
+- [AGENTS.md](../../AGENTS.md) â€” agents may **stage**; they may **not** merge without companion approval; routing vs accountability.
+- [docs/runtime-vs-record.md](../runtime-vs-record.md) â€” what is operator/runtime scaffolding vs Record-adjacent.
+- [instance-doctrine.md](../../instance-doctrine.md) â€” modes, file update protocol, merge via `process_approved_candidates.py` only when the operator runs it.
 
-## What’s in this folder
+## Whatâ€™s in this folder
 
 | File | Role |
 |------|------|
@@ -29,7 +29,7 @@ That keeps Automations from becoming a second CI system. Deterministic checks st
 | [cursor-ci-failure-triage.md](cursor-ci-failure-triage.md) | **Operator guide** for the first live automation: triggers, allow/deny, failure taxonomy, **canonical comment template**. |
 | [cursor-pr-onboarding.md](cursor-pr-onboarding.md) | **Operator guide** for PR onboarding: triggers, lane/sensitive heuristics, **canonical PR comment template**. |
 | [cursor-safe-automation-contract.md](cursor-safe-automation-contract.md) | **Paste** at the top of any Automation prompt. |
-| [automation-readiness-policy.md](automation-readiness-policy.md) | **Readiness classes (R0–R5)**, **authority** rules, **surfaces** (local vs CI vs Cursor). |
+| [automation-readiness-policy.md](automation-readiness-policy.md) | **Readiness classes (R0â€“R5)**, **authority** rules, **surfaces** (local vs CI vs Cursor). |
 | [automation-readiness-ledger.md](automation-readiness-ledger.md) | **Table** of **current** **scripts**, **workflows**, **rituals**, **Cursor** **candidates** by **class** **(advisory** **).** |
 | [automation-classification-template.md](automation-classification-template.md) | **Form** for **proposing** **new** **automation**; **checklist** **before** **enable**. |
 | [prompts/](prompts/) | **Paste-ready** prompts per use case. |
@@ -40,8 +40,8 @@ That keeps Automations from becoming a second CI system. Deterministic checks st
 |-------|--------|--------------------------------------|
 | 1. CI failure triage | [cursor-ci-failure-triage.md](cursor-ci-failure-triage.md) (guide) + [prompts/cursor-ci-failure-triage.md](prompts/cursor-ci-failure-triage.md) (paste) | Workflow completed with failure |
 | 2. PR onboarding | [cursor-pr-onboarding.md](cursor-pr-onboarding.md) (guide) + [prompts/cursor-pr-onboarding.md](prompts/cursor-pr-onboarding.md) (paste) | PR opened, synchronized, or reopened |
-| 3. Integrity summary | [cursor-integrity-summary.md](cursor-integrity-summary.md) (guide) + [prompts/cursor-integrity-summary.md](prompts/cursor-integrity-summary.md) (paste) | Weekly schedule (or manual) — report only |
-| 4. Gate queue nudge | [prompts/cursor-gate-queue-nudge.md](prompts/cursor-gate-queue-nudge.md) | Weekly schedule — **medium priority**; not recommended as first live automation |
+| 3. Integrity summary | [cursor-integrity-summary.md](cursor-integrity-summary.md) (guide) + [prompts/cursor-integrity-summary.md](prompts/cursor-integrity-summary.md) (paste) | Weekly schedule (or manual) â€” report only |
+| 4. Gate queue nudge | [prompts/cursor-gate-queue-nudge.md](prompts/cursor-gate-queue-nudge.md) | Weekly schedule â€” **medium priority**; not recommended as first live automation |
 
 **Rituals unchanged:** `coffee`, `dream`, `bridge`, **Steward / gate review**, and **companion approval** for merges remain **human/operator** responsibilities. Automations may **remind** or **summarize**; they do **not** complete those rituals.
 
@@ -53,7 +53,7 @@ A broader opportunity probe (friction list, CI inventory) lives in [docs/skill-w
 
 ## Automation readiness
 
-Before adding or enabling a new automation (Cursor, CI-adjacent, or scheduled), classify it with [automation-readiness-policy.md](automation-readiness-policy.md) (R0–R5) and either cite a row in [automation-readiness-ledger.md](automation-readiness-ledger.md) or add one using [automation-classification-template.md](automation-classification-template.md). The ledger and template are **advisory** until a workflow or runbook references them. For the meaning of “unattended” on **local** vs **GitHub CI** vs **Cursor**, see [Surfaces: who runs what](automation-readiness-policy.md#surfaces-who-runs-what-unattended) in the policy.
+Before adding or enabling a new automation (Cursor, CI-adjacent, or scheduled), classify it with [automation-readiness-policy.md](automation-readiness-policy.md) (R0â€“R5) and either cite a row in [automation-readiness-ledger.md](automation-readiness-ledger.md) or add one using [automation-classification-template.md](automation-classification-template.md). The ledger and template are **advisory** until a workflow or runbook references them. For the meaning of â€œunattendedâ€ on **local** vs **GitHub CI** vs **Cursor**, see [Surfaces: who runs what](automation-readiness-policy.md#surfaces-who-runs-what-unattended) in the policy.
 
 <a id="first-live-automation-ci-failure-triage"></a>
 
@@ -62,8 +62,8 @@ Before adding or enabling a new automation (Cursor, CI-adjacent, or scheduled), 
 **Recommended first** because it is **event-bounded** (runs only after a failure), **read-only** (comments / report text, not commits), and **complements** existing GitHub Actions without duplicating pass/fail logic.
 
 1. **Operator guide** (setup, taxonomy, **canonical** PR comment template): [cursor-ci-failure-triage.md](cursor-ci-failure-triage.md)
-2. **Paste prompt** (bounded identity + procedure; references the guide’s template): [prompts/cursor-ci-failure-triage.md](prompts/cursor-ci-failure-triage.md)
-3. **Design context:** [cursor-automations.md § Recommended first live automation](cursor-automations.md#recommended-first-live-automation)
+2. **Paste prompt** (bounded identity + procedure; references the guideâ€™s template): [prompts/cursor-ci-failure-triage.md](prompts/cursor-ci-failure-triage.md)
+3. **Design context:** [cursor-automations.md Â§ Recommended first live automation](cursor-automations.md#recommended-first-live-automation)
 
 **This does not** enable an automation in GitHub or in the repo; it documents how to configure one in the Cursor product.
 
@@ -71,10 +71,11 @@ Before adding or enabling a new automation (Cursor, CI-adjacent, or scheduled), 
 
 ## PR onboarding comment
 
-**Recommended second** live automation (after [CI failure triage](#first-live-automation-ci-failure-triage)). It **reduces PR cognitive load** by summarizing **shape**, **likely lane**, **sensitive** paths, and **checks to watch** before the operator **reads the full diff** or waits on **all** **green** checks — a **narration** layer only; it does **not** replace [lane-pr-hint](https://github.com/rbtkhn/strategy-codex/blob/main/.github/workflows/lane-pr-hint.yml) or [lane-scope](https://github.com/rbtkhn/strategy-codex/blob/main/.github/workflows/lane-scope.yml) **enforcement**.
+**Recommended second** live automation (after [CI failure triage](#first-live-automation-ci-failure-triage)). It **reduces PR cognitive load** by summarizing **shape**, **likely lane**, **sensitive** paths, and **checks to watch** before the operator **reads the full diff** or waits on **all** **green** checks â€” a **narration** layer only; it does **not** replace [lane-pr-hint](https://github.com/rbtkhn/strategy-codex/blob/main/.github/workflows/lane-pr-hint.yml) or [lane-scope](https://github.com/rbtkhn/strategy-codex/blob/main/.github/workflows/lane-scope.yml) **enforcement**.
 
 1. **Operator guide** (triggers, allow/deny, **canonical** PR comment **template**): [cursor-pr-onboarding.md](cursor-pr-onboarding.md)
 2. **Paste prompt** (identity + procedure; **exact** [template](cursor-pr-onboarding.md#output-comment-format) by reference): [prompts/cursor-pr-onboarding.md](prompts/cursor-pr-onboarding.md)
 3. **Design context:** [trigger map](cursor-automations.md#trigger-map) in [cursor-automations.md](cursor-automations.md)
 
 **This does not** enable an automation; it documents Cursor **product** configuration. **No** **labels**, **merges**, or **auto**-**fixes** from the bot.
+

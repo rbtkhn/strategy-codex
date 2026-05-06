@@ -4,7 +4,7 @@ preferred_activation: skill-write
 description: >-
   Primary activation tokens (strong): skill-write, strategy write, publish to Locals, VivaBarnesLaw / Duran, X trim, PH comment — then read docs/skill-write/write-operator-preferences.md + write-shipping-checklist.md.
   Weak alias: bare "write" (ambiguous with code tasks) — use strong tokens when you mean operator public copy.
-  Operator public copy for Locals (VivaBarnesLaw, Duran), X, Predictive History comments. Compound: strategy write / strategy + write in the same turn — load skill-strategy for substance and this hub for paste-ready prose (topic-first ledes, memorable declarative closers, checklist). VivaBarnesLaw Locals defaults are NOT CIV-MIND-BARNES / tri-mind voice unless explicitly requested. Copy paired with an image: substance-first lede; no screenshot/posting/grab meta unless caption requested.
+  Operator public copy for Locals (VivaBarnesLaw, Duran), X, Predictive History comments. Compound: strategy write / strategy + write in the same turn — load skill-strategy for substance and this hub for paste-ready prose (topic-first ledes, memorable declarative closers, checklist). VivaBarnesLaw Locals defaults are NOT CIV-MIND-BARNES / tri-mind voice unless explicitly requested. Copy paired with an image: substance-first lede; no screenshot/posting/grab meta unless caption requested. For analysis-derived Locals posts, use the recipe + scaffold under docs/skill-write and default to one medium post with medium quote density.
 ---
 
 # skill-write — operator publishing
@@ -14,6 +14,12 @@ description: >-
 **Locals (Grace‑Mar voice):** [`docs/skill-write/grace-mar-locals-voice.md`](../../../docs/skill-write/grace-mar-locals-voice.md) (optional; use when calibrating **VivaBarnesLaw / Duran** as **Grace‑Mar**, not default tri-mind)
 
 **Pre-flight:** [`docs/skill-write/write-shipping-checklist.md`](../../../docs/skill-write/write-shipping-checklist.md)
+
+**Analysis → Locals recipe:** [`docs/skill-write/locals-analysis-to-post-recipe.md`](../../../docs/skill-write/locals-analysis-to-post-recipe.md)
+
+**Locals scaffold:** [`docs/skill-write/locals-post-scaffold.md`](../../../docs/skill-write/locals-post-scaffold.md)
+
+**Worked example:** [`docs/skill-write/locals-barnes-arc-worked-example.md`](../../../docs/skill-write/locals-barnes-arc-worked-example.md)
 
 **Hub index:** [`docs/skill-write/README.md`](../../../docs/skill-write/README.md)
 
@@ -25,6 +31,13 @@ description: >-
 | **`strategy`** + **`write`** / **`publish`** in the **same** request | Run **[`skill-strategy`](../skill-strategy/SKILL.md)** for **substance** **and** this hub for **public surface** prose — **both**, not strategy alone. |
 | Bare **`write`** (coding context) | **Not** this skill by default — clarify or use **`skill-write`**. |
 | **Locals** / **VivaBarnesLaw** | Forum craft per hub — **not** default [`CIV-MIND-BARNES`](../../../docs/skill-work/work-strategy/strategy-notebook/experts/barnes/mind.md) linguistic fingerprint (that is **tri-mind / WORK** unless explicitly requested). |
+
+For **analysis-derived Locals** drafts, the standard workflow now includes:
+- voice and craft rules
+- shipping checklist
+- analysis-to-Locals recipe
+- reusable scaffold
+- worked example
 
 ## Relation to `skill-strategy`
 

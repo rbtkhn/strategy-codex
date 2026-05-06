@@ -1,4 +1,4 @@
-# STRATEGY-CODEX BOOTSTRAP
+﻿# STRATEGY-CODEX BOOTSTRAP
 
 Session bootstrap for continuing work in `strategy-codex` in a new agent conversation. The file name is historical; the repo identity is now `strategy-codex`, while Grace-Mar remains an embedded live instance inside the tree.
 
@@ -6,7 +6,7 @@ Session bootstrap for continuing work in `strategy-codex` in a new agent convers
 
 ## Session focus: full-repo optimization (advanced LLM)
 
-Use this when starting a **new session with a stronger model** to refactor, dedupe, document, or harden the **whole repository** — not a single feature thread. In this repo, that means `strategy-codex` first, with Grace-Mar runtime and Record surfaces treated as embedded instance material rather than the repo's public identity.
+Use this when starting a **new session with a stronger model** to refactor, dedupe, document, or harden the **whole repository** â€” not a single feature thread. In this repo, that means `strategy-codex` first, with Grace-Mar runtime and Record surfaces treated as embedded instance material rather than the repo's public identity.
 
 ### Paste into message 1 (clean context)
 
@@ -23,31 +23,31 @@ Paste both outputs (or the full non-compact block). **Canonical state is on disk
 |---|------|-----|
 | 1 | `AGENTS.md` | Sovereign merge, knowledge boundary, Lexile, MEMORY vs Record, file-update protocol |
 | 2 | `docs/harness-inventory.md` | What may write where; bot/core audit; two doors / one book |
-| 3 | `docs/architecture.md` (§ System boundaries) | Voice = model + harness; non-goals |
-| 4 | `docs/identity-fork-protocol.md` | Stage → approve → merge; never direct SELF/EVIDENCE without gate |
-| 5 | `docs/development-handoff.md` | Current engineering state; don’t contradict without updating |
+| 3 | `docs/architecture.md` (Â§ System boundaries) | Voice = model + harness; non-goals |
+| 4 | `docs/identity-fork-protocol.md` | Stage â†’ approve â†’ merge; never direct SELF/EVIDENCE without gate |
+| 5 | `docs/development-handoff.md` | Current engineering state; donâ€™t contradict without updating |
 | 6 | `docs/readme.md` | Doc map |
 
-Skim as needed: `docs/conceptual-framework.md` (triadic cognition, companion), `docs/chat-first-design.md` (chat is product; operator dashboards optional). **After shared reading:** [we-read-think-self-pipeline.md](docs/we-read-think-self-pipeline.md) (READ/THINK vs RECURSION-GATE → IX).
+Skim as needed: `docs/conceptual-framework.md` (triadic cognition, companion), `docs/chat-first-design.md` (chat is product; operator dashboards optional). **After shared reading:** [we-read-think-self-pipeline.md](docs/we-read-think-self-pipeline.md) (READ/THINK vs RECURSION-GATE â†’ IX).
 
-**Procedure vs doctrine (two spines):** [start-here.md § Procedure vs doctrine](../docs/start-here.md#procedure-vs-doctrine-two-spines) — **bootstrap and warmup** are session procedure and **weather**; **AGENTS**, **architecture**, and **instance doctrine** are durable policy. Stack them; do not substitute one for the other.
+**Procedure vs doctrine (two spines):** [start-here.md Â§ Procedure vs doctrine](../docs/start-here.md#procedure-vs-doctrine-two-spines) â€” **bootstrap and warmup** are session procedure and **weather**; **AGENTS**, **architecture**, and **instance doctrine** are durable policy. Stack them; do not substitute one for the other.
 
-**Operator structure:** `docs/lanes/README.md` (north star per lane) + `docs/lanes/WEEKLY-RHYTHM.md` (weekly checklist). **Library wiring:** `docs/library-integration.md` · `python3 scripts/library_shelf_summary.py -u grace-mar`
+**Operator structure:** `docs/lanes/README.md` (north star per lane) + `docs/lanes/WEEKLY-RHYTHM.md` (weekly checklist). **Library wiring:** `docs/library-integration.md` Â· `python3 scripts/library_shelf_summary.py -u grace-mar`
 
-### Non-negotiables for “optimization”
+### Non-negotiables for â€œoptimizationâ€
 
-- **Do not** merge into `users/*/self.md`, `self-evidence.md`, or `bot/prompt.py` without companion approval (stage only).
+- **Do not** merge into `self.md`, `self-evidence.md`, or `bot/prompt.py` without companion approval (stage only).
 - **Do not** add undocumented facts into the Record or SYSTEM prompt (knowledge boundary).
 - **Do not** raise Lexile ceiling without writing-sample evidence (AGENTS.md).
 - **Do not** bypass pre-commit: Record-facing edits in gated paths need commit message **`[gated-merge]`** (or hook will block).
-- **Preserve** contradiction + provenance; don’t flatten tensions in companion files.
+- **Preserve** contradiction + provenance; donâ€™t flatten tensions in companion files.
 - **Prefer** small PR-sized commits; run checks below before claiming done.
 
 ### Contextual stewardship (operator)
 
 - **Human** holds load-bearing context (tacit boundaries, what must not be crossed); new agent threads **do not** inherit institutional memory.
-- **Encoded judgment** = RECURSION-GATE + pipeline / merge receipts + **tests** (e.g. counterfactual harness, voice checks, `validate-integrity`) — not bigger prompts alone.
-- **Warmup / pasted digests** = orientation only; canonical truth remains `users/grace-mar/*.md` and `AGENTS.md`.
+- **Encoded judgment** = RECURSION-GATE + pipeline / merge receipts + **tests** (e.g. counterfactual harness, voice checks, `validate-integrity`) â€” not bigger prompts alone.
+- **Warmup / pasted digests** = orientation only; canonical truth remains `*.md` and `AGENTS.md`.
 
 ### Safe optimization targets (high value, low sovereignty risk)
 
@@ -55,7 +55,7 @@ Skim as needed: `docs/conceptual-framework.md` (triadic cognition, companion), `
 - **Duplication:** shared helpers in `scripts/`, repeated patterns in `bot/`
 - **Docs:** drift, broken links, single source of truth (link to harness-inventory instead of copying policy)
 - **Operator ergonomics:** scripts/README, Makefile or task list, typing/lint on `bot/core.py` (behavior unchanged)
-- **Dependencies:** `bot/requirements.txt` pin audit; security warnings only — don’t swap stack without handoff note
+- **Dependencies:** `bot/requirements.txt` pin audit; security warnings only â€” donâ€™t swap stack without handoff note
 
 ### Verify after substantive changes
 
@@ -73,7 +73,7 @@ If **validate-integrity** reports stale derived exports or runtime bundle, run:
 python3 scripts/fork_checksum.py -u grace-mar --manifest && \
 python3 scripts/export_manifest.py -u grace-mar && \
 python3 scripts/export_prp.py -u grace-mar -n Robert -o grace-mar-llm.txt && \
-python3 scripts/export_runtime_bundle.py -u grace-mar -o users/grace-mar/runtime-bundle
+python3 scripts/export_runtime_bundle.py -u grace-mar -o runtime-bundle
 ```
 
 When **editorial or lane work** and **regeneration-only** changes land in the same session, prefer **separate commits** for derived exports (PRP, manifest, runtime bundle, ledger) so review and handoff stay scannable.
@@ -82,18 +82,18 @@ End of session: update **`docs/development-handoff.md`**, commit, push if reques
 
 ---
 
-**Default session focus — work-dev (continue here):**
-1. Read §1 (first-run checklist).
-2. Read **`docs/skill-work/work-dev/README.md`** — objective, companion gate invariant, principles (merges former work-build-ai).
-3. Read **`docs/skill-work/work-dev/INTEGRATION-PROGRAM.md`** — one-loop read / export / stage-only / merge; optional **`docs/skill-work/work-dev/PARALLEL-MACRO-ACTIONS.md`** if running parallel agent branches (`python scripts/integration_macro_actions.py`).
-4. Read **`docs/openclaw-integration.md`** — export, session continuity, inbound staging, staging automation.
+**Default session focus â€” work-dev (continue here):**
+1. Read Â§1 (first-run checklist).
+2. Read **`docs/skill-work/work-dev/README.md`** â€” objective, companion gate invariant, principles (merges former work-build-ai).
+3. Read **`docs/skill-work/work-dev/INTEGRATION-PROGRAM.md`** â€” one-loop read / export / stage-only / merge; optional **`docs/skill-work/work-dev/PARALLEL-MACRO-ACTIONS.md`** if running parallel agent branches (`python scripts/integration_macro_actions.py`).
+4. Read **`docs/openclaw-integration.md`** â€” export, session continuity, inbound staging, staging automation.
 5. Skim **`integrations/openclaw_hook.py`**, **`integrations/openclaw_stage.py`**, **`scripts/export_user_identity.py`**.
 6. Optional: **`docs/skill-work/work-dev/economic-benchmarks.md`**, **`research-moonshots-237.md`**.
-7. Use §5 OpenClaw commands and §6 work-dev / OpenClaw file map below.
+7. Use Â§5 OpenClaw commands and Â§6 work-dev / OpenClaw file map below.
 
 **Other session focus:**
-- If **work-jiang** (Jiang book/site operator lane), read **`bootstrap/work-jiang-bootstrap.md`** then `research/external/work-jiang/README.md` § Boundaries and the work-jiang feature checklist skill.
-- If **extension-focused** (not work-dev), read §1 then **extension/readme.md** and skim `extension/`. Use §5 Extension commands and §6 Extension file map below.
+- If **work-jiang** (Jiang book/site operator lane), read **`bootstrap/work-jiang-bootstrap.md`** then `research/external/work-jiang/README.md` Â§ Boundaries and the work-jiang feature checklist skill.
+- If **extension-focused** (not work-dev), read Â§1 then **extension/readme.md** and skim `extension/`. Use Â§5 Extension commands and Â§6 Extension file map below.
 
 ---
 
@@ -101,8 +101,8 @@ End of session: update **`docs/development-handoff.md`**, commit, push if reques
 
 Commits and pushes apply to **the repository whose root you are in**. Do not assume two checkouts match.
 
-- **This repo** (`strategy-codex`) — active development tree for strategy, civ-mem, notebook, bot, docs, and scripts. It still contains the Grace-Mar instance under `users/grace-mar/` plus related runtime/export surfaces.
-- **`companion-self`** (template / upstream) — **separate clone**. Its `main`, remotes, and PRs refer to **that** tree only. Before merging or pushing there, run `git status`, `git remote -v`, and `git branch --show-current` **in that directory**.
+- **This repo** (`strategy-codex`) â€” active development tree for strategy, civ-mem, notebook, bot, docs, and scripts. It still contains the Grace-Mar instance under `` plus related runtime/export surfaces.
+- **`companion-self`** (template / upstream) â€” **separate clone**. Its `main`, remotes, and PRs refer to **that** tree only. Before merging or pushing there, run `git status`, `git remote -v`, and `git branch --show-current` **in that directory**.
 - **Nested vs sibling:** If the template clone lives **inside** this repo (e.g. `strategy-codex/companion-self`) or as a **sibling** folder, note the path in [`docs/development-handoff.md`](docs/development-handoff.md) (Current Baseline) or paste it at session start so the next thread does not guess which tree is authoritative.
 
 **Session paste (run in the clone you are editing):**
@@ -116,14 +116,14 @@ pwd && git rev-parse --show-toplevel && git branch --show-current && git remote 
 
 ## Re-entry stack (operator)
 
-For a **cold Cursor thread** when instance state matters (gate, pipeline, `users/grace-mar/`, handoff):
+For a **cold Cursor thread** when instance state matters (gate, pipeline, ``, handoff):
 
 | Step | Command / pointer |
 |------|-------------------|
-| One paste (overlapping summaries by design) | `python3 scripts/operator_reentry_stack.py -u grace-mar` — add `--compact` for a shorter harness tail |
+| One paste (overlapping summaries by design) | `python3 scripts/operator_reentry_stack.py -u grace-mar` â€” add `--compact` for a shorter harness tail |
 | One-line snapshot | `python3 scripts/harness_warmup.py -u grace-mar --receipt` (optional `--territory work-politics` or `companion`) |
-| Coffee (work-start + signing-off; same **A–E** hub) | `.cursor/skills/coffee/SKILL.md` — **A** Steward, **B** Engineer, **C** Historian, **D** Capitalist, **E** Conductor; **standalone conductors** ([conductor skill](../.cursor/skills/conductor/SKILL.md)); legacy **A–G** tables in [menu-reference.md](../docs/skill-work/work-coffee/menu-reference.md) for workload mapping |
-| Optional GWS | `docs/skill-work/work-dev/google-workspace-cli-operator.md` — attach `.cursor/rules/gws-cli-recipes.mdc` when using `gws` |
+| Coffee (work-start + signing-off; same **Aâ€“E** hub) | `.cursor/skills/coffee/SKILL.md` â€” **A** Steward, **B** Engineer, **C** Historian, **D** Capitalist, **E** Conductor; **standalone conductors** ([conductor skill](../.cursor/skills/conductor/SKILL.md)); legacy **Aâ€“G** tables in [menu-reference.md](../docs/skill-work/work-coffee/menu-reference.md) for workload mapping |
+| Optional GWS | `docs/skill-work/work-dev/google-workspace-cli-operator.md` â€” attach `.cursor/rules/gws-cli-recipes.mdc` when using `gws` |
 | VS Code / Cursor Tasks | Copy tasks from `docs/skill-work/work-dev/cursor-vscode-grace-mar-tasks.json` into your local `.vscode/tasks.json` (`.vscode/` is gitignored here) |
 
 ---
@@ -135,24 +135,24 @@ For a **cold Cursor thread** when instance state matters (gate, pipeline, `users
 3. Read `docs/identity-fork-protocol.md` (canonical protocol contract).
 4. Run `git status` and note uncommitted work.
 5. Read `docs/development-handoff.md` (current state and next tasks).
-6. **work-dev** — Read `docs/skill-work/work-dev/README.md`, then **`docs/skill-work/work-dev/INTEGRATION-PROGRAM.md`** (single-loop spec); then `docs/openclaw-integration.md` if continuing integration work. For parallel branches, see **`docs/skill-work/work-dev/PARALLEL-MACRO-ACTIONS.md`**.
-7. **Companion-self audit** — Read `docs/audit-companion-self.md` (concept alignment: companion self, self-* taxonomy, triadic cognition). Optionally read `docs/audit-grace-mar-vs-companion-self-template.md` (instance vs template repo). Note any drift; if material changes have been made since the audit date, re-run or update the audit.
+6. **work-dev** â€” Read `docs/skill-work/work-dev/README.md`, then **`docs/skill-work/work-dev/INTEGRATION-PROGRAM.md`** (single-loop spec); then `docs/openclaw-integration.md` if continuing integration work. For parallel branches, see **`docs/skill-work/work-dev/PARALLEL-MACRO-ACTIONS.md`**.
+7. **Companion-self audit** â€” Read `docs/audit-companion-self.md` (concept alignment: companion self, self-* taxonomy, triadic cognition). Optionally read `docs/audit-grace-mar-vs-companion-self-template.md` (instance vs template repo). Note any drift; if material changes have been made since the audit date, re-run or update the audit.
 
 If working on companion profile operations (not work-dev), also read:
-- `users/grace-mar/recursion-gate.md`
-- `users/grace-mar/self.md`
-- `users/grace-mar/self-evidence.md`
-- `users/grace-mar/pipeline-events.jsonl`
+- `recursion-gate.md`
+- `self.md`
+- `self-evidence.md`
+- `pipeline-events.jsonl`
 
 ---
 
 ## 2) Non-Negotiable Rules
 
-- **Triadic cognition** — **Mind** (human, conscious, sovereign), **RECORD** (Grace-Mar), **VOICE** (Grace-Mar): a **triad** (synonym: tricameral mind). Mind holds authority; the Record reflects; the Voice speaks when queried. Grace-Mar serves the companion; the companion serves Grace-Mar. See AGENTS.md and `docs/conceptual-framework.md` §8.
+- **Triadic cognition** â€” **Mind** (human, conscious, sovereign), **RECORD** (Grace-Mar), **VOICE** (Grace-Mar): a **triad** (synonym: tricameral mind). Mind holds authority; the Record reflects; the Voice speaks when queried. Grace-Mar serves the companion; the companion serves Grace-Mar. See AGENTS.md and `docs/conceptual-framework.md` Â§8.
 - Sovereign Merge Rule: **agent may stage; agent may not merge without explicit companion approval**.
 - Knowledge boundary: no undocumented facts enter the Record.
 - Evidence linkage: profile claims must trace to evidence artifacts.
-- Record authority: `SELF/SKILLS/EVIDENCE` are canonical; MEMORY is **non-Record** and **rotatable** (short/medium/long horizons — “ephemeral” means not gated truth, not “only short-term”).
+- Record authority: `SELF/SKILLS/EVIDENCE` are canonical; MEMORY is **non-Record** and **rotatable** (short/medium/long horizons â€” â€œephemeralâ€ means not gated truth, not â€œonly short-termâ€).
 - Preserve contradictions with provenance; do not flatten tension.
 
 ---
@@ -160,7 +160,7 @@ If working on companion profile operations (not work-dev), also read:
 ## 3) Current System Snapshot
 
 ### Product state
-- Active instance (`grace-mar`), **moment of cognitive bifurcation** (Seed Phase 7, 2026-02-27) — graduated to emergent cognition. Gated pipeline live.
+- Active instance (`grace-mar`), **moment of cognitive bifurcation** (Seed Phase 7, 2026-02-27) â€” graduated to emergent cognition. Gated pipeline live.
 - Telegram bot operational with operator tooling (`/status`, `/intent_audit`, `/intent_review`).
 - Intent layer active (`INTENT` schema + snapshot export + advisory conflict detection).
 - OpenClaw integration supports outbound export and inbound stage-only handback.
@@ -171,9 +171,9 @@ If working on companion profile operations (not work-dev), also read:
 - Curiosity probe workflow used to stage/merge IX-B growth signals.
 
 ### work-dev (active continuation)
-- **Territory:** `docs/skill-work/work-dev/` — Record ↔ OpenClaw; stage-only handback; companion gate invariant (never control-grid). Merges former work-build-ai.
-- **One-loop spec:** `docs/skill-work/work-dev/INTEGRATION-PROGRAM.md` — read order, export, stage, merge, script index.
-- **Parallel macro-actions:** `docs/skill-work/work-dev/PARALLEL-MACRO-ACTIONS.md` — `python scripts/integration_macro_actions.py branches|checklist`.
+- **Territory:** `docs/skill-work/work-dev/` â€” Record â†” OpenClaw; stage-only handback; companion gate invariant (never control-grid). Merges former work-build-ai.
+- **One-loop spec:** `docs/skill-work/work-dev/INTEGRATION-PROGRAM.md` â€” read order, export, stage, merge, script index.
+- **Parallel macro-actions:** `docs/skill-work/work-dev/PARALLEL-MACRO-ACTIONS.md` â€” `python scripts/integration_macro_actions.py branches|checklist`.
 - **Next:** See `docs/development-handoff.md`; extend hooks, staging automation, benchmarks, or Moonshots takeaways as handoff specifies.
 
 ---
@@ -182,14 +182,14 @@ If working on companion profile operations (not work-dev), also read:
 
 When loaded in a fresh session, offer these options:
 
-1. **work-dev** (default — OpenClaw integration, export, staging, session continuity; read work-dev README + **INTEGRATION-PROGRAM** + openclaw-integration)
+1. **work-dev** (default â€” OpenClaw integration, export, staging, session continuity; read work-dev README + **INTEGRATION-PROGRAM** + openclaw-integration)
 2. **Run session** (chat-first companion interaction; no auto-merge)
 3. **Pipeline operations** (stage/review/apply approved candidates)
 4. **Intent governance** (audit/review/debate packet workflows)
 5. **Browser extension** (transcript handback, Save to Record, popup/context menu, handback server)
 6. **Business docs** (plan/prospectus/white-paper alignment)
 7. **Other** (companion-defined task)
-8. **Full-repo optimization** (advanced model — read **Session focus: full-repo optimization** at top of this file; fresh-judge + harness-inventory first)
+8. **Full-repo optimization** (advanced model â€” read **Session focus: full-repo optimization** at top of this file; fresh-judge + harness-inventory first)
 
 Wait for companion selection before large changes.
 
@@ -219,7 +219,7 @@ python3 scripts/process_approved_candidates.py -u grace-mar --territory work-pol
 python3 scripts/process_approved_candidates.py -u grace-mar --territory work-politics --apply --approved-by <name> --receipt /tmp/work-politics-receipt.json
 ```
 
-**Atomic orchestration (optional):** same merge semantics as `--quick` / gate quick-merge — `scripts/atomic_integrate.py` adds preflight, disk backup under `users/<id>/.integration-backups/`, optional `validate-integrity.py` after success, and a JSON receipt under `users/<id>/integration-receipts/`. Example (candidate must already be `approved` in the gate):
+**Atomic orchestration (optional):** same merge semantics as `--quick` / gate quick-merge â€” `scripts/atomic_integrate.py` adds preflight, disk backup under `.integration-backups/`, optional `validate-integrity.py` after success, and a JSON receipt under `integration-receipts/`. Example (candidate must already be `approved` in the gate):
 
 ```bash
 python3 scripts/atomic_integrate.py -u grace-mar --candidate-id CANDIDATE-XXXX --approved-by <name> --apply
@@ -229,7 +229,7 @@ python3 scripts/atomic_integrate.py -u grace-mar --candidate-id CANDIDATE-XXXX -
 **Verify receipt vs disk (optional):** confirm files still match `after_hashes` from a successful integration receipt:
 
 ```bash
-python3 scripts/verify_integration_receipt.py --receipt users/grace-mar/integration-receipts/integration-receipt-*.json
+python3 scripts/verify_integration_receipt.py --receipt integration-receipts/integration-receipt-*.json
 # Compare to a committed revision instead of working tree:
 python3 scripts/verify_integration_receipt.py --receipt path/to/receipt.json --git-ref HEAD
 ```
@@ -248,7 +248,7 @@ python3 scripts/governance_checker.py
 pip install pre-commit && pre-commit install && pre-commit install --hook-type commit-msg   # optional: block Record edits without [gated-merge]
 ```
 
-### Harness warmup (any agent session — paste into first message)
+### Harness warmup (any agent session â€” paste into first message)
 ```bash
 python3 scripts/harness_warmup.py -u grace-mar
 python3 scripts/harness_warmup.py -u grace-mar --fresh-judge   # clean context for new thread / advanced model
@@ -258,7 +258,7 @@ python3 scripts/generate_gate_dashboard.py -u grace-mar   # pending queue HTML (
 echo "paste text" | python3 scripts/stage_gate_candidate.py -u grace-mar   # stage stdin as pending candidate (approve + merge separately)
 ```
 
-**Operator rhythm — `coffee`:** First message of the day can be just that; the agent should run [coffee skill](.cursor/skills/coffee/SKILL.md) (`operator_daily_warmup.py` + `harness_warmup.py` when state matters). Legacy **`hey`** still works, but **`coffee`** is canonical. **Daily brief:** generate with `python3 scripts/generate_work_politics_daily_brief.py -u grace-mar -o docs/skill-work/work-strategy/daily-brief-$(date +%Y-%m-%d).md` (output stem **`daily-brief-` + ISO date + `.md`**, e.g. `daily-brief-2026-03-29.md`) **only when the operator chooses coffee menu C — Strategy (daily brief)** (see [daily-brief-template.md](docs/skill-work/work-strategy/daily-brief-template.md)); Step 1 does **not** run the generator. Return warmup snapshot + (after **C** — Strategy (daily brief)) brief path + headline/next-action summary. `operator_daily_warmup.py` includes a **pipeline velocity** line (merge/approval counts); after bursts of merges, run `python3 scripts/operator_depth_hint.py -u grace-mar` to emit a harness hint when velocity crosses a new tier (see `docs/skill-work/work-dev/README.md`).
+**Operator rhythm â€” `coffee`:** First message of the day can be just that; the agent should run [coffee skill](.cursor/skills/coffee/SKILL.md) (`operator_daily_warmup.py` + `harness_warmup.py` when state matters). Legacy **`hey`** still works, but **`coffee`** is canonical. **Daily brief:** generate with `python3 scripts/generate_work_politics_daily_brief.py -u grace-mar -o docs/skill-work/work-strategy/daily-brief-$(date +%Y-%m-%d).md` (output stem **`daily-brief-` + ISO date + `.md`**, e.g. `daily-brief-2026-03-29.md`) **only when the operator chooses coffee menu C â€” Strategy (daily brief)** (see [daily-brief-template.md](docs/skill-work/work-strategy/daily-brief-template.md)); Step 1 does **not** run the generator. Return warmup snapshot + (after **C** â€” Strategy (daily brief)) brief path + headline/next-action summary. `operator_daily_warmup.py` includes a **pipeline velocity** line (merge/approval counts); after bursts of merges, run `python3 scripts/operator_depth_hint.py -u grace-mar` to emit a harness hint when velocity crosses a new tier (see `docs/skill-work/work-dev/README.md`).
 
 **Ranked morning forks:** `python3 scripts/suggest_morning_forks.py -u grace-mar` (or `--markdown` / `-o docs/skill-work/work-strategy/morning-forks-$(date +%Y-%m-%d).md`). Ritual CLI: `python3 scripts/good-morning-brief.py` embeds the same top-3 block. Menu conventions: [docs/skill-work/work-menu-conventions.md](docs/skill-work/work-menu-conventions.md). Log a pick: `python3 scripts/log_operator_choice.py -u grace-mar --context GOOD_MORNING --picked 1`.
 
@@ -283,54 +283,54 @@ python3 scripts/export_prp.py -u grace-mar -n Robert -o grace-mar-llm.txt
 ```bash
 # Run handback server (required for Save to Record + transcript handback)
 python3 scripts/handback_server.py
-# Load unpacked: chrome://extensions → Developer mode → Load unpacked → select extension/
+# Load unpacked: chrome://extensions â†’ Developer mode â†’ Load unpacked â†’ select extension/
 ```
-- Extension lives in `extension/`. Popup: Save to Record, Save transcript (paste → /handback). Context menu: Save to Record, Save transcript to Record (selection → /handback).
+- Extension lives in `extension/`. Popup: Save to Record, Save transcript (paste â†’ /handback). Context menu: Save to Record, Save transcript to Record (selection â†’ /handback).
 - See `extension/readme.md` for setup, settings (stage URL, API key, user_id, queue retry).
 
 ---
 
 ## 6) Primary File Map
 
-- `AGENTS.md` — development guardrails and policy.
-- `docs/readme.md` — canonical doc map.
-- `docs/identity-fork-protocol.md` — protocol compact.
-- `docs/architecture.md` — system implementation model.
-- `docs/white-paper.md` — narrative + technical thesis.
-- `docs/business-plan.md` — execution/commercial operating plan.
-- `docs/business-prospectus.md` — concise investor summary.
-- `docs/business-roadmap.md` — strategic priorities and metrics.
-- `docs/development-handoff.md` — latest engineering handoff.
-- `docs/audit-companion-self.md` — companion-self concept alignment (run as part of bootstrap; re-run after concept/taxonomy changes).
-- `docs/design-notes.md` §11.9 — intent gap, three questions before approve / long agent runs.
-- `docs/design-notes.md` §11.10 — rejection as skill; encode taste via gate + calibrate_from_miss.
-- `docs/design-notes.md` §11.11 — harness convergence (verify loop; labs’ shared pattern).
-- `docs/audit-grace-mar-vs-companion-self-template.md` — instance vs template ([github.com/rbtkhn/companion-self](https://github.com/rbtkhn/companion-self)); re-run after structure/protocol changes.
-- `users/grace-mar/*` — active instance Record files.
+- `AGENTS.md` â€” development guardrails and policy.
+- `docs/readme.md` â€” canonical doc map.
+- `docs/identity-fork-protocol.md` â€” protocol compact.
+- `docs/architecture.md` â€” system implementation model.
+- `docs/white-paper.md` â€” narrative + technical thesis.
+- `docs/business-plan.md` â€” execution/commercial operating plan.
+- `docs/business-prospectus.md` â€” concise investor summary.
+- `docs/business-roadmap.md` â€” strategic priorities and metrics.
+- `docs/development-handoff.md` â€” latest engineering handoff.
+- `docs/audit-companion-self.md` â€” companion-self concept alignment (run as part of bootstrap; re-run after concept/taxonomy changes).
+- `docs/design-notes.md` Â§11.9 â€” intent gap, three questions before approve / long agent runs.
+- `docs/design-notes.md` Â§11.10 â€” rejection as skill; encode taste via gate + calibrate_from_miss.
+- `docs/design-notes.md` Â§11.11 â€” harness convergence (verify loop; labsâ€™ shared pattern).
+- `docs/audit-grace-mar-vs-companion-self-template.md` â€” instance vs template ([github.com/rbtkhn/companion-self](https://github.com/rbtkhn/companion-self)); re-run after structure/protocol changes.
+- `*` â€” active instance Record files.
 
 **Harness hybrid (plan in one tool, build in another):**
-- `docs/harness-handoff.md` — handoff = commits + warmup paste; never state only in chat.
-- `docs/harness-inventory.md` — components, write surfaces, two doors / one book; **start here for repo-wide refactors**.
+- `docs/harness-handoff.md` â€” handoff = commits + warmup paste; never state only in chat.
+- `docs/harness-inventory.md` â€” components, write surfaces, two doors / one book; **start here for repo-wide refactors**.
 
 **work-dev / OpenClaw (default continuation):**
-- `docs/skill-work/work-dev/README.md` — territory objective; companion gate invariant; principles; quick ref commands.
-- `docs/skill-work/work-dev/INTEGRATION-PROGRAM.md` — **single-page loop:** read order → export → stage-only → merge; script index.
-- `docs/skill-work/work-dev/PARALLEL-MACRO-ACTIONS.md` — parallel agent branches; `python scripts/integration_macro_actions.py`.
-- `docs/skill-work/work-dev/economic-benchmarks.md` — cost/value/gate health metrics.
-- `docs/skill-work/work-dev/research-moonshots-237.md` — identity, memory, hierarchy; actionable takeaways.
-- `docs/openclaw-integration.md` — canonical integration guide (export, session continuity, inbound staging, staging automation).
-- `integrations/openclaw_hook.py` — outbound export (Record → `users/<id>/openclaw-user.md` / OpenClaw identity files); md+manifest, json+md; emits pipeline event.
-- `integrations/openclaw_stage.py` — inbound staging (OpenClaw output → /stage); advisory constitutional check; stage-only, never merge.
-- `scripts/export_user_identity.py` — identity-only (**self**) export for `users/<id>/openclaw-user.md` (OpenClaw: user.md / SOUL.md as needed).
-- `integrations/export_hook.py` — shared export logic; openclaw target.
-- Session continuity: read `users/grace-mar/session-log.md`, `recursion-gate.md`, last EVIDENCE before OpenClaw sessions.
+- `docs/skill-work/work-dev/README.md` â€” territory objective; companion gate invariant; principles; quick ref commands.
+- `docs/skill-work/work-dev/INTEGRATION-PROGRAM.md` â€” **single-page loop:** read order â†’ export â†’ stage-only â†’ merge; script index.
+- `docs/skill-work/work-dev/PARALLEL-MACRO-ACTIONS.md` â€” parallel agent branches; `python scripts/integration_macro_actions.py`.
+- `docs/skill-work/work-dev/economic-benchmarks.md` â€” cost/value/gate health metrics.
+- `docs/skill-work/work-dev/research-moonshots-237.md` â€” identity, memory, hierarchy; actionable takeaways.
+- `docs/openclaw-integration.md` â€” canonical integration guide (export, session continuity, inbound staging, staging automation).
+- `integrations/openclaw_hook.py` â€” outbound export (Record â†’ `openclaw-user.md` / OpenClaw identity files); md+manifest, json+md; emits pipeline event.
+- `integrations/openclaw_stage.py` â€” inbound staging (OpenClaw output â†’ /stage); advisory constitutional check; stage-only, never merge.
+- `scripts/export_user_identity.py` â€” identity-only (**self**) export for `openclaw-user.md` (OpenClaw: user.md / SOUL.md as needed).
+- `integrations/export_hook.py` â€” shared export logic; openclaw target.
+- Session continuity: read `session-log.md`, `recursion-gate.md`, last EVIDENCE before OpenClaw sessions.
 
 **Extension (when focus is browser extension):**
-- `extension/readme.md` — setup, behavior, settings.
-- `extension/manifest.json` — version, permissions, background/popup/context menu.
-- `extension/background.js` — handback/stage URLs, message handling, context menu, queue/retry.
-- `extension/popup.html` / `extension/popup.js` — toolbar UI (Save to Record, Save transcript, Retry Queue, Settings).
-- `scripts/handback_server.py` — local server for `/stage` and `/handback` (default 127.0.0.1:5050).
+- `extension/readme.md` â€” setup, behavior, settings.
+- `extension/manifest.json` â€” version, permissions, background/popup/context menu.
+- `extension/background.js` â€” handback/stage URLs, message handling, context menu, queue/retry.
+- `extension/popup.html` / `extension/popup.js` â€” toolbar UI (Save to Record, Save transcript, Retry Queue, Settings).
+- `scripts/handback_server.py` â€” local server for `/stage` and `/handback` (default 127.0.0.1:5050).
 
 ---
 
@@ -341,9 +341,10 @@ Before ending a development session:
 1. Update `docs/development-handoff.md` with what changed and what is next.
 2. Ensure PRP is regenerated if Record/prompt changed.
 3. Run integrity/governance checks if changes touched pipeline logic.
-4. If concept, taxonomy, or template-facing structure changed, update or re-run the companion-self audit(s) (see §1 step 6 and §6 file map).
+4. If concept, taxonomy, or template-facing structure changed, update or re-run the companion-self audit(s) (see Â§1 step 6 and Â§6 file map).
 5. Confirm commit/push status if the companion requested version control actions.
 
 ---
 
-END OF FILE — GRACE-MAR BOOTSTRAP
+END OF FILE â€” GRACE-MAR BOOTSTRAP
+

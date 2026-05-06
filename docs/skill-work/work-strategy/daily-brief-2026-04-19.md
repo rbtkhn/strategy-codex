@@ -1,24 +1,24 @@
-# Daily brief — work-politics & work-strategy
+﻿# Daily brief â€” work-politics & work-strategy
 
 **Date:** 2026-04-19  
 **Assembled:** 2026-04-19 14:22 UTC  
 **Recency window (RSS):** last **36h** (undated items may appear)  
 **Config:** `docs/skill-work/work-strategy/daily-brief-config.json`  
-**§1f:** Grok **Daily Strategic Brief** (2026-04-19) merged — triage + `strategy + verify` rows; full paste archived under §**1f-b** `<details>`.
+**Â§1f:** Grok **Daily Strategic Brief** (2026-04-19) merged â€” triage + `strategy + verify` rows; full paste archived under Â§**1f-b** `<details>`.
 
 _Operator WORK product. Complete synthesis below; cite sources before any public use._
 
 ## 1. Work-politics snapshot
 
-- **Primary:** May 19, 2026 — **days until:** 29
+- **Primary:** May 19, 2026 â€” **days until:** 29
 - **Work-politics gate:** 0 pending candidate(s)
 
 ### Upcoming (from calendar)
 
-- ****Apr 20, 2026**** — **Voter registration deadline** (in-person and mail; mail = postmark) — Push registration in-district; remind supporters.
-- ****May 5, 2026**** — Mail-in absentee ballot request portal closes — Voters who need absentee must request by this date.
-- ****May 7, 2026**** — **FEC pre-primary report due** — Covers period Apr 1–Apr 29. Registration/certification & overnight mail deadline May 4.
-- ****May 19, 2026**** — **Primary election day** — Polls open; final GOTV.
+- ****Apr 20, 2026**** â€” **Voter registration deadline** (in-person and mail; mail = postmark) â€” Push registration in-district; remind supporters.
+- ****May 5, 2026**** â€” Mail-in absentee ballot request portal closes â€” Voters who need absentee must request by this date.
+- ****May 7, 2026**** â€” **FEC pre-primary report due** â€” Covers period Apr 1â€“Apr 29. Registration/certification & overnight mail deadline May 4.
+- ****May 19, 2026**** â€” **Primary election day** â€” Polls open; final GOTV.
 
 ### Territory signals (from docs)
 
@@ -30,82 +30,82 @@ _Operator WORK product. Complete synthesis below; cite sources before any public
 
 ## 1b. Work-strategy focus
 
-_From `docs/skill-work/work-strategy/daily-brief-focus.md` § Active focus._
+_From `docs/skill-work/work-strategy/daily-brief-focus.md` Â§ Active focus._
 
-- **Civilizational / geopolitics operator ledger:** [STRATEGY.md](STRATEGY.md) — long-horizon CORE + heuristics + §IV operator strategy log (WORK-only; gate only when promoting to Record or milestones).
+- **Civilizational / geopolitics operator ledger:** [STRATEGY.md](STRATEGY.md) â€” long-horizon CORE + heuristics + Â§IV operator strategy log (WORK-only; gate only when promoting to Record or milestones).
 - Campaign/companion positioning: portable Record, human-only merge, Voice boundary.
-- OpenClaw ↔ repo handback and export provenance (see [work-dev workspace](../work-dev/workspace.md)).
+- OpenClaw â†” repo handback and export provenance (see [work-dev workspace](../work-dev/workspace.md)).
 - AI-in-schools and identity-substrate narrative vs Alpha-style bundles (see [work-alpha-school](../work-alpha-school/README.md), [work-dev offers](../work-dev/offers.md)).
 - Optional: federal / state AI governance headlines when relevant to offers or civ-mem work.
-- Long-form tech discourse (GTC-class, Moonshots-class): themes distilled in [external-tech-scan.md](external-tech-scan.md) — use for **strategy vocabulary** and **keyword-season** tuning in [daily-brief-config.json](daily-brief-config.json); **not** unsourced brief facts.
-- **Vladimir Putin / Kremlin (primary strategy thread):** **Voice** = **President of Russia** **remarks**, **Kremlin** events, **calls**, **transcripts**. **Hub** = [daily-brief-putin-watch.md](daily-brief-putin-watch.md) — **Coffee menu C — Strategy (daily brief)** fills **§1d** (rolling **48h** + **URLs** + **native** triangulation when load-bearing); Step 1 does not run this pass. **Notebook weaving** = [strategy-notebook/chapters/YYYY-MM/meta.md](strategy-notebook/chapters/2026-04/meta.md) § **Vladimir Putin / Kremlin thread** + [NOTEBOOK-PREFERENCES.md](strategy-notebook/NOTEBOOK-PREFERENCES.md) row — separate **Kremlin-primary** wording from **wire** **paraphrase**; do not merge **personality** **headlines** with **U.S.** **channel** **scope** without verify. **When Putin is a watch:** refresh the month link if the active `meta.md` chapter changes.
-- **JD Vance / VP channel (primary strategy thread):** **Voice** = Vice President **remarks**, **travel**, **White House** readouts. **Hub** = [daily-brief-jd-vance-watch.md](daily-brief-jd-vance-watch.md) — **Coffee menu C — Strategy (daily brief)** fills **§1e** (rolling **48h** + **URLs**); Step 1 does not run this pass. **Notebook weaving** = [strategy-notebook/chapters/YYYY-MM/meta.md](strategy-notebook/chapters/2026-04/meta.md) § **JD Vance thread** + [NOTEBOOK-PREFERENCES.md](strategy-notebook/NOTEBOOK-PREFERENCES.md) row — tag **delegation role** vs **atmospheric** quote; do not merge **VP** **tone** with **Islamabad** **scope** facts without **official** alignment. **When Vance is a watch:** refresh the month link if the active `meta.md` chapter changes.
-- **PRC / Beijing (primary strategy thread):** **Voice** = **MFA** and **party–state** readouts (**summits**, **ministry** lines, major **official** English pages). **Hub** = [daily-brief-prc-watch.md](daily-brief-prc-watch.md) — **Coffee menu C — Strategy (daily brief)** fills **§1g** (rolling **48h** + **URLs** + **Mandarin** triangulation when load-bearing; in generated briefs **§1g** follows **§1f** weak signal); Step 1 does not run this pass. **Notebook weaving** = [strategy-notebook/chapters/YYYY-MM/meta.md](strategy-notebook/chapters/2026-04/meta.md) § **PRC / Beijing thread** + [NOTEBOOK-PREFERENCES.md](strategy-notebook/NOTEBOOK-PREFERENCES.md) row — separate **MFA-primary** wording from **Western** “China” **analysis**; do not merge **narrative** **headlines** with **negotiation** **terms** without verify. **When PRC is a watch:** refresh the month link if the active `meta.md` chapter changes.
-- **Islamic Republic of Iran (primary strategy thread):** **Voice** = **Iranian state** lines (**MFA**, **presidency**, **IRNA** / major wires). **Hub** = [daily-brief-iran-watch.md](daily-brief-iran-watch.md) — **Coffee menu C — Strategy (daily brief)** fills **§1h** (rolling **48h** + **URLs** + **Persian** triangulation when load-bearing; in generated briefs **§1h** follows **§1g**); Step 1 does not run this pass. **Notebook weaving** = [strategy-notebook/chapters/YYYY-MM/meta.md](strategy-notebook/chap
+- Long-form tech discourse (GTC-class, Moonshots-class): themes distilled in [external-tech-scan.md](external-tech-scan.md) â€” use for **strategy vocabulary** and **keyword-season** tuning in [daily-brief-config.json](daily-brief-config.json); **not** unsourced brief facts.
+- **Vladimir Putin / Kremlin (primary strategy thread):** **Voice** = **President of Russia** **remarks**, **Kremlin** events, **calls**, **transcripts**. **Hub** = [daily-brief-putin-watch.md](daily-brief-putin-watch.md) â€” **Coffee menu C â€” Strategy (daily brief)** fills **Â§1d** (rolling **48h** + **URLs** + **native** triangulation when load-bearing); Step 1 does not run this pass. **Notebook weaving** = [strategy-notebook/chapters/YYYY-MM/meta.md](strategy-notebook/chapters/2026-04/meta.md) Â§ **Vladimir Putin / Kremlin thread** + [NOTEBOOK-PREFERENCES.md](strategy-notebook/NOTEBOOK-PREFERENCES.md) row â€” separate **Kremlin-primary** wording from **wire** **paraphrase**; do not merge **personality** **headlines** with **U.S.** **channel** **scope** without verify. **When Putin is a watch:** refresh the month link if the active `meta.md` chapter changes.
+- **JD Vance / VP channel (primary strategy thread):** **Voice** = Vice President **remarks**, **travel**, **White House** readouts. **Hub** = [daily-brief-jd-vance-watch.md](daily-brief-jd-vance-watch.md) â€” **Coffee menu C â€” Strategy (daily brief)** fills **Â§1e** (rolling **48h** + **URLs**); Step 1 does not run this pass. **Notebook weaving** = [strategy-notebook/chapters/YYYY-MM/meta.md](strategy-notebook/chapters/2026-04/meta.md) Â§ **JD Vance thread** + [NOTEBOOK-PREFERENCES.md](strategy-notebook/NOTEBOOK-PREFERENCES.md) row â€” tag **delegation role** vs **atmospheric** quote; do not merge **VP** **tone** with **Islamabad** **scope** facts without **official** alignment. **When Vance is a watch:** refresh the month link if the active `meta.md` chapter changes.
+- **PRC / Beijing (primary strategy thread):** **Voice** = **MFA** and **partyâ€“state** readouts (**summits**, **ministry** lines, major **official** English pages). **Hub** = [daily-brief-prc-watch.md](daily-brief-prc-watch.md) â€” **Coffee menu C â€” Strategy (daily brief)** fills **Â§1g** (rolling **48h** + **URLs** + **Mandarin** triangulation when load-bearing; in generated briefs **Â§1g** follows **Â§1f** weak signal); Step 1 does not run this pass. **Notebook weaving** = [strategy-notebook/chapters/YYYY-MM/meta.md](strategy-notebook/chapters/2026-04/meta.md) Â§ **PRC / Beijing thread** + [NOTEBOOK-PREFERENCES.md](strategy-notebook/NOTEBOOK-PREFERENCES.md) row â€” separate **MFA-primary** wording from **Western** â€œChinaâ€ **analysis**; do not merge **narrative** **headlines** with **negotiation** **terms** without verify. **When PRC is a watch:** refresh the month link if the active `meta.md` chapter changes.
+- **Islamic Republic of Iran (primary strategy thread):** **Voice** = **Iranian state** lines (**MFA**, **presidency**, **IRNA** / major wires). **Hub** = [daily-brief-iran-watch.md](daily-brief-iran-watch.md) â€” **Coffee menu C â€” Strategy (daily brief)** fills **Â§1h** (rolling **48h** + **URLs** + **Persian** triangulation when load-bearing; in generated briefs **Â§1h** follows **Â§1g**); Step 1 does not run this pass. **Notebook weaving** = [strategy-notebook/chapters/YYYY-MM/meta.md](strategy-notebook/chap
 
-## 1c. Two horizons — fast vs slow
+## 1c. Two horizons â€” fast vs slow
 
-**Fast (same brief):** §**2** RSS headlines + §**1** snapshot — news cycle, principal-adjacent hooks, scored **W / S / G**.
+**Fast (same brief):** Â§**2** RSS headlines + Â§**1** snapshot â€” news cycle, principal-adjacent hooks, scored **W / S / G**.
 
-**Slow (work-jiang):** lecture extractions, compression JSON, comparative sweeps — **structural** context; not a substitute for dated facts. Prefer [SELF-LIBRARY](../../../users/grace-mar/self-library.md) entries (e.g. reference / `lookup_priority`) when library-first lookup applies.
+**Slow (work-jiang):** lecture extractions, compression JSON, comparative sweeps â€” **structural** context; not a substitute for dated facts. Prefer [SELF-LIBRARY](../../../self-library.md) entries (e.g. reference / `lookup_priority`) when library-first lookup applies.
 
-_From `docs/skill-work/work-strategy/daily-brief-jiang-layer.md` § Active work-jiang hooks._
+_From `docs/skill-work/work-strategy/daily-brief-jiang-layer.md` Â§ Active work-jiang hooks._
 
-- _Edit between brief runs. **SELF-LIBRARY (Predictive History):** [LIB-0149](../../../users/grace-mar/self-library.md#operator-analytical-books) — `lookup_priority: preferred`; canonical URL in YAML → [BOOK-ARCHITECTURE.md](../../../research/external/work-jiang/BOOK-ARCHITECTURE.md)._
-- [BOOK-ARCHITECTURE.md](../../../research/external/work-jiang/BOOK-ARCHITECTURE.md) — multivolume spine; Volume I Geo-Strategy (Part I ch01–ch20, Part II prediction adjudication).
-- [STATUS.md](../../../research/external/work-jiang/STATUS.md) — corpus counts, **missing analysis** backlog, `outline_in_progress`, production nudges.
-- [CHAPTER-QUEUE.md](../../../research/external/work-jiang/CHAPTER-QUEUE.md) — next chapter front (queue vs blockers).
-- [lectures/](../../../research/external/work-jiang/lectures/) — curated lecture bodies for slow-layer pull quotes / compressions.
-- [COMPRESSION-ENGINE.md](../work-jiang/COMPRESSION-ENGINE.md) — lane doc when running `jiang-compress` / JSON outputs (`research/external/work-jiang/compressions/<slug>-YYYYMMDD.json`).
+- _Edit between brief runs. **SELF-LIBRARY (Predictive History):** [LIB-0149](../../../self-library.md#operator-analytical-books) â€” `lookup_priority: preferred`; canonical URL in YAML â†’ [BOOK-ARCHITECTURE.md](../../../research/external/work-jiang/BOOK-ARCHITECTURE.md)._
+- [BOOK-ARCHITECTURE.md](../../../research/external/work-jiang/BOOK-ARCHITECTURE.md) â€” multivolume spine; Volume I Geo-Strategy (Part I ch01â€“ch20, Part II prediction adjudication).
+- [STATUS.md](../../../research/external/work-jiang/STATUS.md) â€” corpus counts, **missing analysis** backlog, `outline_in_progress`, production nudges.
+- [CHAPTER-QUEUE.md](../../../research/external/work-jiang/CHAPTER-QUEUE.md) â€” next chapter front (queue vs blockers).
+- [lectures/](../../../research/external/work-jiang/lectures/) â€” curated lecture bodies for slow-layer pull quotes / compressions.
+- [COMPRESSION-ENGINE.md](../work-jiang/COMPRESSION-ENGINE.md) â€” lane doc when running `jiang-compress` / JSON outputs (`research/external/work-jiang/compressions/<slug>-YYYYMMDD.json`).
 
 _Product / integration context: [work-dev/workspace.md](../work-dev/workspace.md), [work-strategy/README.md](README.md)._
 
-## 1d. Putin — last 48 hours
+## 1d. Putin â€” last 48 hours
 
-_Filled at **good morning** per [daily-brief-putin-watch.md](daily-brief-putin-watch.md): web scan (Kremlin schedule/transcripts, Reuters, BBC, TASS/RIA as needed), **48h** rolling window, **bullets + URLs**. RSS §2 does not replace this pass. If blank, paste after generate or re-run morning assembly._
+_Filled at **good morning** per [daily-brief-putin-watch.md](daily-brief-putin-watch.md): web scan (Kremlin schedule/transcripts, Reuters, BBC, TASS/RIA as needed), **48h** rolling window, **bullets + URLs**. RSS Â§2 does not replace this pass. If blank, paste after generate or re-run morning assembly._
 
-## 1e. JD Vance — last 48 hours
+## 1e. JD Vance â€” last 48 hours
 
-_Filled at **good morning** per [daily-brief-jd-vance-watch.md](daily-brief-jd-vance-watch.md): web scan (VP office / White House readouts, Congress if relevant, major wires), **48h** rolling window, **bullets + URLs**. RSS §2 may surface Vance-adjacent headlines; it does not replace this pass. If blank, paste after generate or re-run morning assembly._
+_Filled at **good morning** per [daily-brief-jd-vance-watch.md](daily-brief-jd-vance-watch.md): web scan (VP office / White House readouts, Congress if relevant, major wires), **48h** rolling window, **bullets + URLs**. RSS Â§2 may surface Vance-adjacent headlines; it does not replace this pass. If blank, paste after generate or re-run morning assembly._
 
-## 1f. Weak signal + strategic digest (LLM / paste — same artifact as generator)
+## 1f. Weak signal + strategic digest (LLM / paste â€” same artifact as generator)
 
-**Confidence:** **low** on any **unsourced number, vessel name, vote schedule, inventory volume, or sortie percentage** inside the digest until matched to **primaries or twin wires** ([NOTEBOOK-PREFERENCES.md](strategy-notebook/NOTEBOOK-PREFERENCES.md) § Daily brief supplements).
+**Confidence:** **low** on any **unsourced number, vessel name, vote schedule, inventory volume, or sortie percentage** inside the digest until matched to **primaries or twin wires** ([NOTEBOOK-PREFERENCES.md](strategy-notebook/NOTEBOOK-PREFERENCES.md) Â§ Daily brief supplements).
 
-### 1f-a. Native weak signal (this brief’s RSS + wire pass)
+### 1f-a. Native weak signal (this briefâ€™s RSS + wire pass)
 
-- **Medium / low confidence — Lebanon / Israel line under stress:** §**2** carries **Le Monde** live **Middle East** stack (Trump **Islamabad** delegation **Monday**) alongside **France 24** Arabic reporting on **Lebanon** **soldier** death and **truce** fears — **pattern** fits **negotiation–field** **lag** (signals vs **local** **kinetic** **receipts**) more than a single settled **ceasefire** fact set. **Falsifier:** **UNIFIL**/**IDF**/**LAF** **timed** readouts **paired with** wire **location** **tags**; **do not** treat Grok **“day-2 zero violations”** as **tier-A** without those rows.
+- **Medium / low confidence â€” Lebanon / Israel line under stress:** Â§**2** carries **Le Monde** live **Middle East** stack (Trump **Islamabad** delegation **Monday**) alongside **France 24** Arabic reporting on **Lebanon** **soldier** death and **truce** fears â€” **pattern** fits **negotiationâ€“field** **lag** (signals vs **local** **kinetic** **receipts**) more than a single settled **ceasefire** fact set. **Falsifier:** **UNIFIL**/**IDF**/**LAF** **timed** readouts **paired with** wire **location** **tags**; **do not** treat Grok **â€œday-2 zero violationsâ€** as **tier-A** without those rows.
 
-### 1f-b. Grok daily strategic brief — **2026-04-19** (operator paste)
+### 1f-b. Grok daily strategic brief â€” **2026-04-19** (operator paste)
 
-**Source:** Grok **Daily Strategic Brief** — **Sunday 2026-04-19** (full text in `<details>` below). **Not** Voice knowledge; **not** tier-A until **strategy + verify** rows clear.
+**Source:** Grok **Daily Strategic Brief** â€” **Sunday 2026-04-19** (full text in `<details>` below). **Not** Voice knowledge; **not** tier-A until **strategy + verify** rows clear.
 
-**One-line coherence (hypothesis):** Grok strings **Israel–Lebanon ceasefire day-2 + UNIFIL 14 km**, **Oman weekend talks + IAEA sequencing leak**, **Hungary/COREPER + €18 bn Ukraine facility tranche Apr 28**, **Kerch anchorage vessel damage + ferry closure**, **U.S. SPR physical lift + IEA synchronized releases**, and **Russian glide-bomb ~70% cap** into a **“diffusion–compression / material arithmetic”** frame: **pauses** and **institutional** **velocity** in one layer versus **attritional** **downtime** and **finite** **buffers** in others.
+**One-line coherence (hypothesis):** Grok strings **Israelâ€“Lebanon ceasefire day-2 + UNIFIL 14 km**, **Oman weekend talks + IAEA sequencing leak**, **Hungary/COREPER + â‚¬18 bn Ukraine facility tranche Apr 28**, **Kerch anchorage vessel damage + ferry closure**, **U.S. SPR physical lift + IEA synchronized releases**, and **Russian glide-bomb ~70% cap** into a **â€œdiffusionâ€“compression / material arithmeticâ€** frame: **pauses** and **institutional** **velocity** in one layer versus **attritional** **downtime** and **finite** **buffers** in others.
 
-**Relation to prior §1f family:** Continues **2026-04-16**/**17**/**18** digest **architecture** (cross-theater **compression**, **Gulf** technicals, **EU** execution) with **Sunday** metrics on **Lebanon** compliance, **Kerch** logistics, and **SPR** **loading** — **all** **Q** until **primaries** land.
+**Relation to prior Â§1f family:** Continues **2026-04-16**/**17**/**18** digest **architecture** (cross-theater **compression**, **Gulf** technicals, **EU** execution) with **Sunday** metrics on **Lebanon** compliance, **Kerch** logistics, and **SPR** **loading** â€” **all** **Q** until **primaries** land.
 
-**Triage — paste claims vs verify gate (Q = needs primary):**
+**Triage â€” paste claims vs verify gate (Q = needs primary):**
 
 | Cluster | Disposition | Notes |
 |--------|-------------|--------|
-| **Lebanon** — **day-2** ceasefire; **UNIFIL** **14 km** north of **Litani**; **zero** violations **24h** | **Q** | Align **directionally** with §**2** **Middle East** cluster; **distances**/**counts** = **UNIFIL**/official **verification** |
-| **Oman** — talks **day-2**; draft **IAEA** **3.67%** + **non-oil** sanctions **first**; oil deferred | **Q** | Anonymous **sequencing** tier; pair **[islamabad-operator-index.md](islamabad-operator-index.md)** + **§1h** **MFA** — **no** merge with **Hormuz** field reporting **without** joint readout |
-| **Hungary / EU** — **COREPER** **Monday** language; **€18 bn** tranche **queued** **Apr 28** | **Q** | **Brussels** + **Budapest** primaries; **do not** cite **€18 bn** mechanics as Record **until** **Commission**/**Council** **text** |
-| **Ukraine** — **Kerch** **eastern anchorage**; **two** support **vessels**; **48h** **ferry** closure | **Q** | **OSINT**/telemetry-heavy; triangulate **MoD**/**regional** wires |
-| **SPR / IEA** — **3.2M** bbl **lift** loading; **18M** bbl **partner** releases **mid-week** | **Q** | **DOE**/**IEA** **primary**; reconcile **barrel** **counts** to **press** **releases** |
-| **Russia** — glide-bomb **sorties** **70%** of **pre-adjustment** | **Q** | **MoD** **verbatim** + **independent** **battlefield** **indicators** |
-| **Cross-domain “diffusion–compression”** | **Hypothesis** | Notebook **Judgment** **only** with **plane-tagged** URLs per thread |
+| **Lebanon** â€” **day-2** ceasefire; **UNIFIL** **14 km** north of **Litani**; **zero** violations **24h** | **Q** | Align **directionally** with Â§**2** **Middle East** cluster; **distances**/**counts** = **UNIFIL**/official **verification** |
+| **Oman** â€” talks **day-2**; draft **IAEA** **3.67%** + **non-oil** sanctions **first**; oil deferred | **Q** | Anonymous **sequencing** tier; pair **[islamabad-operator-index.md](islamabad-operator-index.md)** + **Â§1h** **MFA** â€” **no** merge with **Hormuz** field reporting **without** joint readout |
+| **Hungary / EU** â€” **COREPER** **Monday** language; **â‚¬18 bn** tranche **queued** **Apr 28** | **Q** | **Brussels** + **Budapest** primaries; **do not** cite **â‚¬18 bn** mechanics as Record **until** **Commission**/**Council** **text** |
+| **Ukraine** â€” **Kerch** **eastern anchorage**; **two** support **vessels**; **48h** **ferry** closure | **Q** | **OSINT**/telemetry-heavy; triangulate **MoD**/**regional** wires |
+| **SPR / IEA** â€” **3.2M** bbl **lift** loading; **18M** bbl **partner** releases **mid-week** | **Q** | **DOE**/**IEA** **primary**; reconcile **barrel** **counts** to **press** **releases** |
+| **Russia** â€” glide-bomb **sorties** **70%** of **pre-adjustment** | **Q** | **MoD** **verbatim** + **independent** **battlefield** **indicators** |
+| **Cross-domain â€œdiffusionâ€“compressionâ€** | **Hypothesis** | Notebook **Judgment** **only** with **plane-tagged** URLs per thread |
 
 <details>
-<summary>Full Grok paste (archival — same text operator provided)</summary>
+<summary>Full Grok paste (archival â€” same text operator provided)</summary>
 
-Daily Strategic Brief – April 19, 2026 (Sunday)
+Daily Strategic Brief â€“ April 19, 2026 (Sunday)
 
 1. Executive Summary
 
-The 24-hour cycle has shifted the post-ceasefire and post-Hungarian realignment phase from signaling to measurable execution while the attritional mechanics in Ukraine and the Gulf technical track have produced incremental but asymmetric results. The Israel-Lebanon ceasefire completed its second full day with UNIFIL-verified Hezbollah repositioning 14 km north of the Litani and zero violations; Oman technical delegations extended their session into a second day, leaking a provisional sequencing draft that ties IAEA-verified enrichment rollback to phased sanctions relief on non-oil sectors first. Hungarian COREPER proxies (pre-vote coordination) confirmed Monday sanctions language will pass without reservation, while the first €18 bn tranche of the Ukraine facility is now queued for disbursement by April 28. Ukrainian forces conducted a precision follow-on strike on the Kerch Strait’s eastern anchorage, producing confirmed structural damage to two support vessels and forcing a 48-hour closure of the primary ferry route; Russian MoD reported no major barrage overnight but confirmed glide-bomb sortie rates remain capped at 70% of pre-adjustment levels. US DOE confirmed the first SPR physical lift (3.2 million barrels) has begun loading at Gulf Coast terminals, with IEA partners signaling synchronized releases totaling 18 million barrels by mid-week. Forward energy curves showed modest easing in June contracts but persistent backwardation in Q3.
+The 24-hour cycle has shifted the post-ceasefire and post-Hungarian realignment phase from signaling to measurable execution while the attritional mechanics in Ukraine and the Gulf technical track have produced incremental but asymmetric results. The Israel-Lebanon ceasefire completed its second full day with UNIFIL-verified Hezbollah repositioning 14 km north of the Litani and zero violations; Oman technical delegations extended their session into a second day, leaking a provisional sequencing draft that ties IAEA-verified enrichment rollback to phased sanctions relief on non-oil sectors first. Hungarian COREPER proxies (pre-vote coordination) confirmed Monday sanctions language will pass without reservation, while the first â‚¬18 bn tranche of the Ukraine facility is now queued for disbursement by April 28. Ukrainian forces conducted a precision follow-on strike on the Kerch Straitâ€™s eastern anchorage, producing confirmed structural damage to two support vessels and forcing a 48-hour closure of the primary ferry route; Russian MoD reported no major barrage overnight but confirmed glide-bomb sortie rates remain capped at 70% of pre-adjustment levels. US DOE confirmed the first SPR physical lift (3.2 million barrels) has begun loading at Gulf Coast terminals, with IEA partners signaling synchronized releases totaling 18 million barrels by mid-week. Forward energy curves showed modest easing in June contracts but persistent backwardation in Q3.
 
-These movements lock in the diffusion-compression pattern without resolution: Middle East pauses continue to generate reconstitution windows that Moscow is absorbing rather than exploiting aggressively; European institutional momentum has now translated electoral change into near-term aid velocity; Gulf technical progress remains narrow and reversible. Material constraints—logistics downtime, finite SPR inventories, and sequenced sanctions relief—are dictating the pace of diplomatic and operational calendars. No theater has seen a breakout, yet the interplay between verified ceasefire compliance, Ukrainian deep-strike efficacy, and SPR flow rates is visibly tightening the sustainment horizon for all actors. Monday’s COREPER votes and any Oman readout will test whether technical sequencing can survive domestic legitimacy pressures before Russian operational caps erode further.
+These movements lock in the diffusion-compression pattern without resolution: Middle East pauses continue to generate reconstitution windows that Moscow is absorbing rather than exploiting aggressively; European institutional momentum has now translated electoral change into near-term aid velocity; Gulf technical progress remains narrow and reversible. Material constraintsâ€”logistics downtime, finite SPR inventories, and sequenced sanctions reliefâ€”are dictating the pace of diplomatic and operational calendars. No theater has seen a breakout, yet the interplay between verified ceasefire compliance, Ukrainian deep-strike efficacy, and SPR flow rates is visibly tightening the sustainment horizon for all actors. Mondayâ€™s COREPER votes and any Oman readout will test whether technical sequencing can survive domestic legitimacy pressures before Russian operational caps erode further.
 
 2. Top 5 to 10 Developments
 
@@ -115,7 +115,7 @@ What happened: UNIFIL confirmed Hezbollah units have withdrawn an additional 14 
 
 Why it matters: The pause has now survived its first high-risk weekend window, reducing immediate escalation risk and freeing operational bandwidth on multiple fronts.
 
-Deeper significance: This operationalizes the transactional de-escalation ladder—US mediation has produced verifiable physical separation without requiring formal disarmament or Iranian supply-line concessions. It creates a measurable window for reconstitution that actors on all sides are already pricing into planning. Institutional meaning: verification mechanisms (UNIFIL + bilateral channels) are functioning under real-time scrutiny, a rare recent success for ad-hoc great-power mediation.
+Deeper significance: This operationalizes the transactional de-escalation ladderâ€”US mediation has produced verifiable physical separation without requiring formal disarmament or Iranian supply-line concessions. It creates a measurable window for reconstitution that actors on all sides are already pricing into planning. Institutional meaning: verification mechanisms (UNIFIL + bilateral channels) are functioning under real-time scrutiny, a rare recent success for ad-hoc great-power mediation.
 
 What to watch next: UNIFIL day-3 compliance metrics; any Israeli statements conditioning permanent truce language on Hezbollah rearmament timelines; Iranian or Hezbollah framing of the withdrawal.
 
@@ -125,15 +125,15 @@ What happened: Delegations remained in session through the weekend; sourcing ind
 
 Why it matters: First indication of structured sequencing rather than all-or-nothing linkage.
 
-Deeper significance: Reflects the material pressure forcing incrementalism—both sides need fiscal breathing room but cannot concede core legitimacy issues in one step. The weekend extension itself signals that technical gaps are narrow enough to justify continued engagement rather than walk-away. Fits the longer pattern where chokepoint diplomacy proceeds in layers calibrated to domestic audience management.
+Deeper significance: Reflects the material pressure forcing incrementalismâ€”both sides need fiscal breathing room but cannot concede core legitimacy issues in one step. The weekend extension itself signals that technical gaps are narrow enough to justify continued engagement rather than walk-away. Fits the longer pattern where chokepoint diplomacy proceeds in layers calibrated to domestic audience management.
 
 What to watch next: Any Monday joint statement or further leaks on verification protocols and oil-sector timelines; Israeli commentary on Hezbollah linkage; physical IAEA access metrics.
 
 Development 3: Hungarian COREPER proxies lock in Monday sanctions passage
 
-What happened: Pre-vote coordination among Tisza-aligned representatives confirmed the May sanctions package language will advance without reservation; the first €18 bn Ukraine facility tranche is now administratively queued for April 28 disbursement.
+What happened: Pre-vote coordination among Tisza-aligned representatives confirmed the May sanctions package language will advance without reservation; the first â‚¬18 bn Ukraine facility tranche is now administratively queued for April 28 disbursement.
 
-Why it matters: Hungary’s realignment has moved from ratification to EU-internal execution in under seven days.
+Why it matters: Hungaryâ€™s realignment has moved from ratification to EU-internal execution in under seven days.
 
 Deeper significance: Demonstrates the speed at which material-driven electoral outcomes can rewire consensus machinery once veto infrastructure is dismantled. Institutional meaning: EU decision velocity is now visibly conditional on domestic energy-price mandates rather than ideological permanence.
 
@@ -145,7 +145,7 @@ What happened: Verified telemetry and OSINT imagery confirmed strikes on two sup
 
 Why it matters: Sustains cumulative pressure on Russian southern logistics exactly as Middle East pauses potentially free reconstitution bandwidth.
 
-Deeper significance: Operationalizes the attritional inversion at the margin—Ukrainian systems continue to impose asymmetric downtime costs that Russian industrial output and sanctions workarounds have not yet offset. This is the battlefield counterpart to European aid acceleration: diffusion advantages compound when legacy infrastructure is already stretched thin.
+Deeper significance: Operationalizes the attritional inversion at the marginâ€”Ukrainian systems continue to impose asymmetric downtime costs that Russian industrial output and sanctions workarounds have not yet offset. This is the battlefield counterpart to European aid acceleration: diffusion advantages compound when legacy infrastructure is already stretched thin.
 
 What to watch next: Satellite confirmation of vessel repair timelines; Russian operational indicators (glide-bomb sortie resumption or EW program acceleration).
 
@@ -161,7 +161,7 @@ What to watch next: Loading and delivery confirmation timelines; forward-curve r
 
 Development 6: Russian MoD confirms sustained glide-bomb sortie cap
 
-What happened: Follow-up statement acknowledged glide-bomb operations remain at 70% of pre-adjustment levels, citing “technical regrouping and maintenance cycles” without linking to Ukrainian strikes.
+What happened: Follow-up statement acknowledged glide-bomb operations remain at 70% of pre-adjustment levels, citing â€œtechnical regrouping and maintenance cyclesâ€ without linking to Ukrainian strikes.
 
 Why it matters: Public acknowledgment of operational constraint persisting beyond the initial 72-hour window.
 
@@ -181,19 +181,19 @@ Lebanon ceasefire compliance + Oman sequencing leak + Hungarian COREPER lock-in 
 
 5. Weak Signals and Early Warnings
 
-UNIFIL-verified 14 km repositioning within 48 hours—early indicator of compliance incentives outweighing rearmament risks.
+UNIFIL-verified 14 km repositioning within 48 hoursâ€”early indicator of compliance incentives outweighing rearmament risks.
 
-Oman draft explicitly sequencing non-oil relief first—controlled signal that oil-sector relief remains the hardest legitimacy red line.
+Oman draft explicitly sequencing non-oil relief firstâ€”controlled signal that oil-sector relief remains the hardest legitimacy red line.
 
-Hungarian tranche queuing for April 28—speed of administrative execution as legitimacy reset indicator.
+Hungarian tranche queuing for April 28â€”speed of administrative execution as legitimacy reset indicator.
 
-Russian glide-bomb cap persisting without linkage to Ukrainian activity—doctrinal lag now publicly normalized.
+Russian glide-bomb cap persisting without linkage to Ukrainian activityâ€”doctrinal lag now publicly normalized.
 
-SPR loading beginning on weekend—possible acceleration to front-load relief before Q3 backwardation deepens.
+SPR loading beginning on weekendâ€”possible acceleration to front-load relief before Q3 backwardation deepens.
 
 6. Geopolitics and Security
 
-US mediation has produced verifiable Middle East separation while Ukrainian deep strikes maintain pressure on Russian southern infrastructure. Russian reconstitution window is being absorbed into capped operations rather than territorial momentum. European aid velocity via Hungarian alignment offsets some of the financing asymmetry created by the premium. China’s gray-zone posture remains in background exploitation mode. Security dilemma loop is asymmetric: pauses in one theater generate operational breathing room in another without breaking the attritional equilibrium.
+US mediation has produced verifiable Middle East separation while Ukrainian deep strikes maintain pressure on Russian southern infrastructure. Russian reconstitution window is being absorbed into capped operations rather than territorial momentum. European aid velocity via Hungarian alignment offsets some of the financing asymmetry created by the premium. Chinaâ€™s gray-zone posture remains in background exploitation mode. Security dilemma loop is asymmetric: pauses in one theater generate operational breathing room in another without breaking the attritional equilibrium.
 
 7. Politics and Institutions
 
@@ -201,7 +201,7 @@ Hungarian COREPER lock-in and tranche queuing mark the operational phase of EU r
 
 8. Economics, Finance, and Material Constraints
 
-SPR physical loading provides near-term inventory relief calibrated to IMF-modeled drag; Ukrainian strikes impose reconstruction and closure costs Russia offsets only partially via windfall revenue. Hungarian aid acceleration narrows Ukraine’s financing gap. Constraint: reconstitution tempos (vessels, glide-bomb fleets, energy inventories) continue to lag attrition and drawdown rates across theaters.
+SPR physical loading provides near-term inventory relief calibrated to IMF-modeled drag; Ukrainian strikes impose reconstruction and closure costs Russia offsets only partially via windfall revenue. Hungarian aid acceleration narrows Ukraineâ€™s financing gap. Constraint: reconstitution tempos (vessels, glide-bomb fleets, energy inventories) continue to lag attrition and drawdown rates across theaters.
 
 9. Technology and AI
 
@@ -209,7 +209,7 @@ Ukrainian precision strike on Kerch anchorage reinforces the benchmark role of r
 
 10. Narrative and Media
 
-Tisza-aligned channels framed COREPER progress as “European reset delivered.” Trump administration highlighted Lebanon repositioning as mediation success. Iranian and Russian statements emphasized “defensive continuity.” EU planning adopted technocratic sequencing language. Narrative lag behind quantities (repositioning km, closure hours, loading barrels, sortie percentages) continues to widen.
+Tisza-aligned channels framed COREPER progress as â€œEuropean reset delivered.â€ Trump administration highlighted Lebanon repositioning as mediation success. Iranian and Russian statements emphasized â€œdefensive continuity.â€ EU planning adopted technocratic sequencing language. Narrative lag behind quantities (repositioning km, closure hours, loading barrels, sortie percentages) continues to widen.
 
 11. Three-Mind Layer
 
@@ -235,107 +235,107 @@ Russian glide-bomb sortie resumption metrics or EW announcements.
 
 13. Bottom Line
 
-The second full day of the Lebanon ceasefire, combined with Oman’s provisional sequencing draft, Hungarian tranche queuing, and sustained Ukrainian pressure on Kerch logistics, has produced measurable execution across diplomatic, institutional, and battlefield domains. SPR physical lifts quantify the material counter-move to the premium, yet Russian operational caps and Ukrainian downtime imposition illustrate the attritional arithmetic that continues to compress sustainment horizons. Monday’s COREPER votes and any Oman readout will determine whether technical and institutional momentum can lock in before reconstitution windows allow Russian tempo recovery. Highest-signal variables remain the falsifiable quantities: repositioning distances, closure hours, loading barrels, sortie percentages, and sequencing language. Physics, fiscal buffers, and institutional execution continue to lead; narratives follow.
+The second full day of the Lebanon ceasefire, combined with Omanâ€™s provisional sequencing draft, Hungarian tranche queuing, and sustained Ukrainian pressure on Kerch logistics, has produced measurable execution across diplomatic, institutional, and battlefield domains. SPR physical lifts quantify the material counter-move to the premium, yet Russian operational caps and Ukrainian downtime imposition illustrate the attritional arithmetic that continues to compress sustainment horizons. Mondayâ€™s COREPER votes and any Oman readout will determine whether technical and institutional momentum can lock in before reconstitution windows allow Russian tempo recovery. Highest-signal variables remain the falsifiable quantities: repositioning distances, closure hours, loading barrels, sortie percentages, and sequencing language. Physics, fiscal buffers, and institutional execution continue to lead; narratives follow.
 
-_(Three-mind block in paste is notebook meta — use in-repo [strategy-notebook/minds/](strategy-notebook/minds/) for authentic voice, not as wire.)_
+_(Three-mind block in paste is notebook meta â€” use in-repo [strategy-notebook/minds/](strategy-notebook/minds/) for authentic voice, not as wire.)_
 
 </details>
 
 <a id="strategy-verify-2026-04-19"></a>
 
-### strategy + verify — Grok supplemental cluster (2026-04-19)
+### strategy + verify â€” Grok supplemental cluster (2026-04-19)
 
-**Assistant triage pass:** Fast web + §**2** cross-read — **not** a primary-doc audit. **Confidence:** triage **low–medium**; escalate for ship-tier Judgment.
+**Assistant triage pass:** Fast web + Â§**2** cross-read â€” **not** a primary-doc audit. **Confidence:** triage **lowâ€“medium**; escalate for ship-tier Judgment.
 
 | Sub-claim | Verdict | Notes |
 |-----------|---------|--------|
-| **Lebanon** pause **day-2** + **UNIFIL** **14 km** + **zero** violations | **Tension** | §**2** [France 24 Arabic — Lebanon soldier / truce fears](https://www.france24.com/ar/%D9%81%D9%8A%D8%AF%D9%8A%D9%88/20260419-%D9%84%D8%A8%D9%86%D8%A7%D9%86-%D9%85%D9%82%D8%AA%D9%84-%D8%AC%D9%86%D8%AF%D9%8A-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A-%D9%88%D9%85%D8%AE%D8%A7%D9%88%D9%81-%D9%85%D9%86-%D8%B3%D9%82%D9%88%D8%B7-%D8%A7%D9%84%D9%87%D8%AF%D9%86%D8%A9) **does not** support a clean **“zero violations”** read same window. UN mission copy through **2026-03** frames **violations on all sides** ([UN peacekeeping — Lebanon](http://peacekeeping.un.org/en/lebanon-peacekeepers-concerned-over-ceasefire-violations-all-sides-0)). **14 km** metric still needs **same-day UNIFIL** primary. |
-| **Islamabad** **Monday** delegation / **Iran** talks (Trump exec line) | **Supported** (headline) | Aligns with §**2** (e.g. [The Hill — Islamabad / ceasefire](https://thehill.com/homenews/administration/5838330-trump-iran-ceasefire-islamabad-talks/)); triangulated by [Geo.tv — negotiators Monday Islamabad](https://www.geo.tv/latest/660726-us-negotiators-will-be-in-islamabad-on-monday-for-iran-talks-confirms-trump). **Does not** verify Grok’s downstream **Oman**/**Kerch**/**SPR** bundle. |
+| **Lebanon** pause **day-2** + **UNIFIL** **14 km** + **zero** violations | **Tension** | Â§**2** [France 24 Arabic â€” Lebanon soldier / truce fears](https://www.france24.com/ar/%D9%81%D9%8A%D8%AF%D9%8A%D9%88/20260419-%D9%84%D8%A8%D9%86%D8%A7%D9%86-%D9%85%D9%82%D8%AA%D9%84-%D8%AC%D9%86%D8%AF%D9%8A-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A-%D9%88%D9%85%D8%AE%D8%A7%D9%88%D9%81-%D9%85%D9%86-%D8%B3%D9%82%D9%88%D8%B7-%D8%A7%D9%84%D9%87%D8%AF%D9%86%D8%A9) **does not** support a clean **â€œzero violationsâ€** read same window. UN mission copy through **2026-03** frames **violations on all sides** ([UN peacekeeping â€” Lebanon](http://peacekeeping.un.org/en/lebanon-peacekeepers-concerned-over-ceasefire-violations-all-sides-0)). **14 km** metric still needs **same-day UNIFIL** primary. |
+| **Islamabad** **Monday** delegation / **Iran** talks (Trump exec line) | **Supported** (headline) | Aligns with Â§**2** (e.g. [The Hill â€” Islamabad / ceasefire](https://thehill.com/homenews/administration/5838330-trump-iran-ceasefire-islamabad-talks/)); triangulated by [Geo.tv â€” negotiators Monday Islamabad](https://www.geo.tv/latest/660726-us-negotiators-will-be-in-islamabad-on-monday-for-iran-talks-confirms-trump). **Does not** verify Grokâ€™s downstream **Oman**/**Kerch**/**SPR** bundle. |
 | **Oman** **sequencing** **leak** (**3.67%**, **non-oil** first) | **Unclear** | Anonymous; needs **joint readout** or **IAEA**/negotiation **primary**. |
-| **Hungary** **COREPER** **Monday** + **€18 bn** **Apr 28** | **Unclear** | **Council**/**Commission** **instrument** + **Hungarian** **domestic** **source**. |
+| **Hungary** **COREPER** **Monday** + **â‚¬18 bn** **Apr 28** | **Unclear** | **Council**/**Commission** **instrument** + **Hungarian** **domestic** **source**. |
 | **Kerch** **anchorage** / **48h** **ferry** | **Unclear** | **OSINT**/**MoD**/**regional** wire triangulation still required. |
-| **SPR** **3.2M** + **IEA** **18M** | **Tension** | April **2026** trade press describes **SPR loans/releases** amid Iran tensions (e.g. [World Oil — second tranche loan](https://www.worldoil.com/news/2026/4/12/u-s-loans-8-5-mmbbl-from-spr-in-second-release-amid-iran-war/)), not a lock on Grok’s exact **“3.2M loading”** sentence — pull **DOE**/**IEA** **press** for the specific figure before Links-grade merge. |
+| **SPR** **3.2M** + **IEA** **18M** | **Tension** | April **2026** trade press describes **SPR loans/releases** amid Iran tensions (e.g. [World Oil â€” second tranche loan](https://www.worldoil.com/news/2026/4/12/u-s-loans-8-5-mmbbl-from-spr-in-second-release-amid-iran-war/)), not a lock on Grokâ€™s exact **â€œ3.2M loadingâ€** sentence â€” pull **DOE**/**IEA** **press** for the specific figure before Links-grade merge. |
 | **Glide-bomb** **70%** cap | **Unclear** | **MoD** verbatim + independent **sortie** proxy. |
-| **Cross-theater “diffusion–compression”** synthesis | **Hypothesis** | **Judgment** only with **per-plane** **URLs** |
+| **Cross-theater â€œdiffusionâ€“compressionâ€** synthesis | **Hypothesis** | **Judgment** only with **per-plane** **URLs** |
 
-**Seam:** Same discipline as **04-17**/**04-18** — **three** **Iran-facing** **channels** can stay **parallel** (**FM**, **field**, **legislative**); **Grok** adds **EU**/**Ukraine**/**energy** planes — **no** single merged **Judgment** until receipts clear.
+**Seam:** Same discipline as **04-17**/**04-18** â€” **three** **Iran-facing** **channels** can stay **parallel** (**FM**, **field**, **legislative**); **Grok** adds **EU**/**Ukraine**/**energy** planes â€” **no** single merged **Judgment** until receipts clear.
 
-## 1g. PRC — last 48 hours (People’s Republic of China)
+## 1g. PRC â€” last 48 hours (Peopleâ€™s Republic of China)
 
-_Filled per [daily-brief-prc-watch.md](daily-brief-prc-watch.md) + [daily-brief-native-international-pass.md](daily-brief-native-international-pass.md): web scan (MFA, major state wires, cross-check Reuters), **48h** rolling window, **bullets + URLs**; add **Mandarin-primary** line when PRC is load-bearing. RSS §2 does not replace this pass. If blank, paste after generate or re-run morning assembly._
+_Filled per [daily-brief-prc-watch.md](daily-brief-prc-watch.md) + [daily-brief-native-international-pass.md](daily-brief-native-international-pass.md): web scan (MFA, major state wires, cross-check Reuters), **48h** rolling window, **bullets + URLs**; add **Mandarin-primary** line when PRC is load-bearing. RSS Â§2 does not replace this pass. If blank, paste after generate or re-run morning assembly._
 
-## 1h. IRI — last 48 hours (Islamic Republic of Iran)
+## 1h. IRI â€” last 48 hours (Islamic Republic of Iran)
 
-_Filled per [daily-brief-iran-watch.md](daily-brief-iran-watch.md) + [daily-brief-native-international-pass.md](daily-brief-native-international-pass.md): web scan (MFA, IRNA/Tasnim as needed, cross-check Reuters), **48h** rolling window, **bullets + URLs**; add **Persian-primary** line when Iran / Islamabad is load-bearing. Complements [islamabad-operator-index.md](islamabad-operator-index.md) (bargaining framework)—this block is **Tehran state voice**. RSS §2 does not replace this pass. If blank, paste after generate or re-run morning assembly._
+_Filled per [daily-brief-iran-watch.md](daily-brief-iran-watch.md) + [daily-brief-native-international-pass.md](daily-brief-native-international-pass.md): web scan (MFA, IRNA/Tasnim as needed, cross-check Reuters), **48h** rolling window, **bullets + URLs**; add **Persian-primary** line when Iran / Islamabad is load-bearing. Complements [islamabad-operator-index.md](islamabad-operator-index.md) (bargaining framework)â€”this block is **Tehran state voice**. RSS Â§2 does not replace this pass. If blank, paste after generate or re-run morning assembly._
 
 ## 2. Headlines (ingested RSS)
 
-_Fetch failed for: Reuters — World._
+_Fetch failed for: Reuters â€” World._
 
-Ranked by **W+S+G** (global keyword lists + per-`locale` maps for W/S; **G** = `geo_military_keyword_phrases`) then recency. Each feed is **recency-sorted** then **capped** (`ingest_caps`: per-feed `max_items` and/or `tier` → `max_items_by_tier`; CLI `--max-per-feed N` overrides all feeds). Optional **same-story** grouping uses `story_anchor_phrases` overlap (Jaccard + shared anchors). Tune phrases in config JSON.
+Ranked by **W+S+G** (global keyword lists + per-`locale` maps for W/S; **G** = `geo_military_keyword_phrases`) then recency. Each feed is **recency-sorted** then **capped** (`ingest_caps`: per-feed `max_items` and/or `tier` â†’ `max_items_by_tier`; CLI `--max-per-feed N` overrides all feeds). Optional **same-story** grouping uses `story_anchor_phrases` overlap (Jaccard + shared anchors). Tune phrases in config JSON.
 
 _Same-story clusters use anchor overlap on titles (proper nouns / crisis terms); not neural / semantic dedupe._
 
 #### Same-story (multilingual)
 
-**guerre · iran · krieg · moyen-orient · trump** — _8 sources_
+**guerre Â· iran Â· krieg Â· moyen-orient Â· trump** â€” _8 sources_
 
-- **[W:7 S:0 G:0]** [EN DIRECT, guerre au Moyen-Orient : Donald Trump annonce l’envoi lundi d’une délégation au Pakistan pour de nouveaux échanges avec l’Iran, et réitère sa menace de « détruire » des infrastructures iraniennes](https://www.lemonde.fr/international/live/2026/04/19/en-direct-guerre-au-moyen-orient-donald-trump-annonce-l-envoi-lundi-d-une-delegation-au-pakistan-pour-de-nouveaux-echanges-avec-l-iran-et-reitere-sa-menace-de-detruire-des-infrastructures-iraniennes_6679867_3210.html) — _Le Monde — français (France / monde)_ · _fr_ · _2026-04-19 14:42 UTC_
-- **Also** — [Iran-Krieg: Donald Trump kündigt weitere Verhandlungen in Pakistan an](https://www.spiegel.de/ausland/iran-krieg-donald-trump-kuendigt-weitere-verhandlungen-in-pakistan-an-a-328e6db7-b4cf-4908-94f0-37894eb2341c#ref=rss) — _Der Spiegel — Deutsch (Schlagzeilen)_ · _de_ · _W:5 S:0 G:0_ · _2026-04-19 14:39 UTC_
-- **Also** — [Trump accuses Iran of violating ceasefire, announces Monday talks in Islamabad](https://thehill.com/homenews/administration/5838330-trump-iran-ceasefire-islamabad-talks/) — _The Hill — politics_ · _W:2 S:0 G:1_ · _2026-04-19 13:06 UTC_
-- **Also** — [Sunday shows preview: Donald Trump, Iran spar over Strait of Hormuz control as ceasefire deadline nears](https://thehill.com/homenews/sunday-talk-shows/5838036-trump-iran-negotiations-ceasefire/) — _The Hill — politics_ · _W:2 S:0 G:1_ · _2026-04-18 22:01 UTC_
-- **Also** — [Pope Leo and President Trump Clash Over Iran War](https://www.today.com/video/pope-leo-and-president-trump-clash-over-iran-war-261666885930) — _NBC News — politics_ · _W:2 S:0 G:0_ · _2026-04-19 13:17 UTC_
+- **[W:7 S:0 G:0]** [EN DIRECT, guerre au Moyen-OrientÂ : Donald Trump annonce lâ€™envoi lundi dâ€™une dÃ©lÃ©gation au Pakistan pour de nouveaux Ã©changes avec lâ€™Iran, et rÃ©itÃ¨re sa menace de Â«Â dÃ©truireÂ Â» des infrastructures iraniennes](https://www.lemonde.fr/international/live/2026/04/19/en-direct-guerre-au-moyen-orient-donald-trump-annonce-l-envoi-lundi-d-une-delegation-au-pakistan-pour-de-nouveaux-echanges-avec-l-iran-et-reitere-sa-menace-de-detruire-des-infrastructures-iraniennes_6679867_3210.html) â€” _Le Monde â€” franÃ§ais (France / monde)_ Â· _fr_ Â· _2026-04-19 14:42 UTC_
+- **Also** â€” [Iran-Krieg: Donald Trump kÃ¼ndigt weitere Verhandlungen in Pakistan an](https://www.spiegel.de/ausland/iran-krieg-donald-trump-kuendigt-weitere-verhandlungen-in-pakistan-an-a-328e6db7-b4cf-4908-94f0-37894eb2341c#ref=rss) â€” _Der Spiegel â€” Deutsch (Schlagzeilen)_ Â· _de_ Â· _W:5 S:0 G:0_ Â· _2026-04-19 14:39 UTC_
+- **Also** â€” [Trump accuses Iran of violating ceasefire, announces Monday talks in Islamabad](https://thehill.com/homenews/administration/5838330-trump-iran-ceasefire-islamabad-talks/) â€” _The Hill â€” politics_ Â· _W:2 S:0 G:1_ Â· _2026-04-19 13:06 UTC_
+- **Also** â€” [Sunday shows preview: Donald Trump, Iran spar over Strait of Hormuz control as ceasefire deadline nears](https://thehill.com/homenews/sunday-talk-shows/5838036-trump-iran-negotiations-ceasefire/) â€” _The Hill â€” politics_ Â· _W:2 S:0 G:1_ Â· _2026-04-18 22:01 UTC_
+- **Also** â€” [Pope Leo and President Trump Clash Over Iran War](https://www.today.com/video/pope-leo-and-president-trump-clash-over-iran-war-261666885930) â€” _NBC News â€” politics_ Â· _W:2 S:0 G:0_ Â· _2026-04-19 13:17 UTC_
 
 #### Other headlines
 
-- **[W:5 S:0 G:1]** [EN DIRECT, guerre en Ukraine : Volodymyr Zelensky estime qu’assouplir les sanctions contre le pétrole russe fournira à Moscou « de l’argent qui se transformera directement en nouvelles frappes »](https://www.lemonde.fr/international/live/2026/04/19/en-direct-guerre-en-ukraine-volodymyr-zelensky-estime-qu-assouplir-les-sanctions-contre-le-petrole-russe-fournira-a-moscou-de-l-argent-qui-se-transformera-directement-en-nouvelles-frappes_6681322_3210.html) — _Le Monde — français (France / monde)_ · _fr_ · _2026-04-19 14:04 UTC_
-- **[W:0 S:4 G:0]** [School choice is booming in Iowa. Are students better off?](https://www.npr.org/2026/04/19/nx-s1-5683199/education-school-choice-iowa-students-charter-school-cedar-rapids) — _NPR — national news_ · _2026-04-19 05:00 UTC_
-- **[W:3 S:0 G:0]** [تغطية مستمرة: ترامب يعلن إرسال وفد إلى إسلام آباد الإثنين لاستئناف المباحثات بشأن إنهاء الحرب مع إيران](https://www.france24.com/ar/%D8%A7%D9%84%D8%B4%D8%B1%D9%82-%D8%A7%D9%84%D8%A3%D9%88%D8%B3%D8%B7/20260419-%D9%85%D8%A8%D8%A7%D8%B4%D8%B1-%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D9%85%D8%AD%D8%A7%D8%AF%D8%AB%D8%A7%D8%AA-%D9%85%D8%B6%D9%8A%D9%82-%D9%87%D8%B1%D9%85%D8%B2-%D8%A7%D9%84%D9%86%D9%88%D9%88%D9%8A-%D8%AC%D9%86%D9%88%D8%A8-%D9%84%D8%A8%D9%86%D8%A7%D9%86-%D8%AD%D8%B2%D8%A8-%D8%A7%D9%84%D9%84%D9%87-%D8%A7%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84) — _France 24 — العربية (MENA)_ · _ar_ · _2026-04-19 14:13 UTC_
-- **[W:3 S:0 G:0]** [En Nouvelle-Calédonie, à l’approche des élections provinciales, le camp non-indépendantiste se divise](https://www.lemonde.fr/politique/article/2026/04/19/en-nouvelle-caledonie-a-l-approche-des-elections-provinciales-le-camp-non-independantiste-se-divise_6681463_823448.html) — _Le Monde — français (France / monde)_ · _fr_ · _2026-04-19 15:56 UTC_
-- **[W:3 S:0 G:0]** [Sen. Elizabeth Warren rallies with Graham Platner in Maine's Democratic Senate primary](https://www.nbcnews.com/politics/2026-election/elizabeth-warren-graham-platner-maine-democratic-senate-primary-rcna340795) — _NBC News — politics_ · _2026-04-19 00:34 UTC_
-- **[W:2 S:1 G:0]** [Appeals court allows White House ballroom construction to continue into June](https://www.nbcnews.com/politics/trump-administration/appeals-court-construction-trump-white-house-ballroom-rcna340814) — _NBC News — politics_ · _2026-04-18 21:59 UTC_
-- **[W:2 S:0 G:1]** [Zelensky condemns US extension of Russian sanctions waiver](https://www.bbc.com/news/articles/c248m3z49j1o?at_medium=RSS&at_campaign=rss) — _BBC News — World_ · _2026-04-19 09:55 UTC_
-- **[W:2 S:0 G:1]** [De Japón a Cuba: qué tan eficaces fueron históricamente los bloqueos navales como el de EE. UU. a Irán](https://www.bbc.com/mundo/articles/c2ev2m2nmkgo?at_medium=RSS&at_campaign=rss) — _BBC Mundo — español (Américas / global)_ · _es_ · _2026-04-19 03:32 UTC_
-- **[W:2 S:0 G:1]** [Irán vuelve a cerrar el estrecho de Ormuz tras acusar a EE.UU. de cometer actos de "piratería" con su bloqueo naval](https://www.bbc.com/mundo/articles/c3v6yn213eno?at_medium=RSS&at_campaign=rss) — _BBC Mundo — español (Américas / global)_ · _es_ · _2026-04-18 22:20 UTC_
-- **[W:2 S:0 G:0]** [Romane Dicko, échoue à remporter un sixième titre de championne d’Europe de judo, mais se console avec la médaille de bronze](https://www.lemonde.fr/sport/article/2026/04/19/romane-dicko-echoue-a-remporter-un-sixieme-titre-de-championne-d-europe-de-judo-mais-se-console-avec-la-medaille-de-bronze_6681465_3242.html) — _Le Monde — français (France / monde)_ · _fr_ · _2026-04-19 16:15 UTC_
-- **[W:2 S:0 G:0]** [Heino in Brandenburg: Sänger klagt gegen AfD-Wahlwerbung](https://www.spiegel.de/panorama/leute/heino-in-brandenburg-saenger-klagt-gegen-afd-wahlwerbung-a-651aae3a-60cb-4669-a061-6e70bd6757bc#ref=rss) — _Der Spiegel — Deutsch (Schlagzeilen)_ · _de_ · _2026-04-19 15:06 UTC_
-- **[W:2 S:0 G:0]** [Winning the war in Ukraine is about more than just numbers](https://thehill.com/opinion/international/5836821-ukraine-russia-war-impact/) — _The Hill — politics_ · _2026-04-19 13:00 UTC_
-- **[W:2 S:0 G:0]** [Ukraine: Ermittlungen nach Schießerei in Kyjiw – Verletzte und ein Toter durch Drohnen](https://www.spiegel.de/ausland/ukraine-ermittlungen-nach-schiesserei-in-kyjiw-verletzte-und-ein-toter-durch-drohnen-a-eea4a874-07d7-4870-8349-f9a3a680db27#ref=rss) — _Der Spiegel — Deutsch (Schlagzeilen)_ · _de_ · _2026-04-19 14:49 UTC_
-- **[W:2 S:0 G:0]** [لبنان: مقتل جندي إسرائيلي ومخاوف من سقوط الهدنة](https://www.france24.com/ar/%D9%81%D9%8A%D8%AF%D9%8A%D9%88/20260419-%D9%84%D8%A8%D9%86%D8%A7%D9%86-%D9%85%D9%82%D8%AA%D9%84-%D8%AC%D9%86%D8%AF%D9%8A-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A-%D9%88%D9%85%D8%AE%D8%A7%D9%88%D9%81-%D9%85%D9%86-%D8%B3%D9%82%D9%88%D8%B7-%D8%A7%D9%84%D9%87%D8%AF%D9%86%D8%A9) — _France 24 — العربية (MENA)_ · _ar_ · _2026-04-19 12:40 UTC_
-- **[W:2 S:0 G:0]** [Trump’s profane crusade is taking America down a dark path](https://thehill.com/opinion/white-house/5836320-trump-war-rhetoric-danger/) — _The Hill — politics_ · _2026-04-19 12:00 UTC_
+- **[W:5 S:0 G:1]** [EN DIRECT, guerre en UkraineÂ : Volodymyr Zelensky estime quâ€™assouplir les sanctions contre le pÃ©trole russe fournira Ã  Moscou Â«Â de lâ€™argent qui se transformera directement en nouvelles frappesÂ Â»](https://www.lemonde.fr/international/live/2026/04/19/en-direct-guerre-en-ukraine-volodymyr-zelensky-estime-qu-assouplir-les-sanctions-contre-le-petrole-russe-fournira-a-moscou-de-l-argent-qui-se-transformera-directement-en-nouvelles-frappes_6681322_3210.html) â€” _Le Monde â€” franÃ§ais (France / monde)_ Â· _fr_ Â· _2026-04-19 14:04 UTC_
+- **[W:0 S:4 G:0]** [School choice is booming in Iowa. Are students better off?](https://www.npr.org/2026/04/19/nx-s1-5683199/education-school-choice-iowa-students-charter-school-cedar-rapids) â€” _NPR â€” national news_ Â· _2026-04-19 05:00 UTC_
+- **[W:3 S:0 G:0]** [ØªØºØ·ÙŠØ© Ù…Ø³ØªÙ…Ø±Ø©: ØªØ±Ø§Ù…Ø¨ ÙŠØ¹Ù„Ù† Ø¥Ø±Ø³Ø§Ù„ ÙˆÙØ¯ Ø¥Ù„Ù‰ Ø¥Ø³Ù„Ø§Ù… Ø¢Ø¨Ø§Ø¯ Ø§Ù„Ø¥Ø«Ù†ÙŠÙ† Ù„Ø§Ø³ØªØ¦Ù†Ø§Ù Ø§Ù„Ù…Ø¨Ø§Ø­Ø«Ø§Øª Ø¨Ø´Ø£Ù† Ø¥Ù†Ù‡Ø§Ø¡ Ø§Ù„Ø­Ø±Ø¨ Ù…Ø¹ Ø¥ÙŠØ±Ø§Ù†](https://www.france24.com/ar/%D8%A7%D9%84%D8%B4%D8%B1%D9%82-%D8%A7%D9%84%D8%A3%D9%88%D8%B3%D8%B7/20260419-%D9%85%D8%A8%D8%A7%D8%B4%D8%B1-%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D9%85%D8%AD%D8%A7%D8%AF%D8%AB%D8%A7%D8%AA-%D9%85%D8%B6%D9%8A%D9%82-%D9%87%D8%B1%D9%85%D8%B2-%D8%A7%D9%84%D9%86%D9%88%D9%88%D9%8A-%D8%AC%D9%86%D9%88%D8%A8-%D9%84%D8%A8%D9%86%D8%A7%D9%86-%D8%AD%D8%B2%D8%A8-%D8%A7%D9%84%D9%84%D9%87-%D8%A7%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84) â€” _France 24 â€” Ø§Ù„Ø¹Ø±Ø¨ÙŠØ© (MENA)_ Â· _ar_ Â· _2026-04-19 14:13 UTC_
+- **[W:3 S:0 G:0]** [En Nouvelle-CalÃ©donie, Ã  lâ€™approche des Ã©lections provinciales, le camp non-indÃ©pendantiste se divise](https://www.lemonde.fr/politique/article/2026/04/19/en-nouvelle-caledonie-a-l-approche-des-elections-provinciales-le-camp-non-independantiste-se-divise_6681463_823448.html) â€” _Le Monde â€” franÃ§ais (France / monde)_ Â· _fr_ Â· _2026-04-19 15:56 UTC_
+- **[W:3 S:0 G:0]** [Sen. Elizabeth Warren rallies with Graham Platner in Maine's Democratic Senate primary](https://www.nbcnews.com/politics/2026-election/elizabeth-warren-graham-platner-maine-democratic-senate-primary-rcna340795) â€” _NBC News â€” politics_ Â· _2026-04-19 00:34 UTC_
+- **[W:2 S:1 G:0]** [Appeals court allows White House ballroom construction to continue into June](https://www.nbcnews.com/politics/trump-administration/appeals-court-construction-trump-white-house-ballroom-rcna340814) â€” _NBC News â€” politics_ Â· _2026-04-18 21:59 UTC_
+- **[W:2 S:0 G:1]** [Zelensky condemns US extension of Russian sanctions waiver](https://www.bbc.com/news/articles/c248m3z49j1o?at_medium=RSS&at_campaign=rss) â€” _BBC News â€” World_ Â· _2026-04-19 09:55 UTC_
+- **[W:2 S:0 G:1]** [De JapÃ³n a Cuba: quÃ© tan eficaces fueron histÃ³ricamente los bloqueos navales como el de EE.â€¯UU. a IrÃ¡n](https://www.bbc.com/mundo/articles/c2ev2m2nmkgo?at_medium=RSS&at_campaign=rss) â€” _BBC Mundo â€” espaÃ±ol (AmÃ©ricas / global)_ Â· _es_ Â· _2026-04-19 03:32 UTC_
+- **[W:2 S:0 G:1]** [IrÃ¡n vuelve a cerrar el estrecho de Ormuz tras acusar a EE.UU. de cometer actos de "piraterÃ­a" con su bloqueo naval](https://www.bbc.com/mundo/articles/c3v6yn213eno?at_medium=RSS&at_campaign=rss) â€” _BBC Mundo â€” espaÃ±ol (AmÃ©ricas / global)_ Â· _es_ Â· _2026-04-18 22:20 UTC_
+- **[W:2 S:0 G:0]** [Romane Dicko, Ã©choue Ã  remporter un sixiÃ¨me titre de championne dâ€™Europe de judo, mais se console avec la mÃ©daille de bronze](https://www.lemonde.fr/sport/article/2026/04/19/romane-dicko-echoue-a-remporter-un-sixieme-titre-de-championne-d-europe-de-judo-mais-se-console-avec-la-medaille-de-bronze_6681465_3242.html) â€” _Le Monde â€” franÃ§ais (France / monde)_ Â· _fr_ Â· _2026-04-19 16:15 UTC_
+- **[W:2 S:0 G:0]** [Heino in Brandenburg: SÃ¤nger klagt gegen AfD-Wahlwerbung](https://www.spiegel.de/panorama/leute/heino-in-brandenburg-saenger-klagt-gegen-afd-wahlwerbung-a-651aae3a-60cb-4669-a061-6e70bd6757bc#ref=rss) â€” _Der Spiegel â€” Deutsch (Schlagzeilen)_ Â· _de_ Â· _2026-04-19 15:06 UTC_
+- **[W:2 S:0 G:0]** [Winning the war in Ukraine is about more than just numbers](https://thehill.com/opinion/international/5836821-ukraine-russia-war-impact/) â€” _The Hill â€” politics_ Â· _2026-04-19 13:00 UTC_
+- **[W:2 S:0 G:0]** [Ukraine: Ermittlungen nach SchieÃŸerei in Kyjiw â€“ Verletzte und ein Toter durch Drohnen](https://www.spiegel.de/ausland/ukraine-ermittlungen-nach-schiesserei-in-kyjiw-verletzte-und-ein-toter-durch-drohnen-a-eea4a874-07d7-4870-8349-f9a3a680db27#ref=rss) â€” _Der Spiegel â€” Deutsch (Schlagzeilen)_ Â· _de_ Â· _2026-04-19 14:49 UTC_
+- **[W:2 S:0 G:0]** [Ù„Ø¨Ù†Ø§Ù†: Ù…Ù‚ØªÙ„ Ø¬Ù†Ø¯ÙŠ Ø¥Ø³Ø±Ø§Ø¦ÙŠÙ„ÙŠ ÙˆÙ…Ø®Ø§ÙˆÙ Ù…Ù† Ø³Ù‚ÙˆØ· Ø§Ù„Ù‡Ø¯Ù†Ø©](https://www.france24.com/ar/%D9%81%D9%8A%D8%AF%D9%8A%D9%88/20260419-%D9%84%D8%A8%D9%86%D8%A7%D9%86-%D9%85%D9%82%D8%AA%D9%84-%D8%AC%D9%86%D8%AF%D9%8A-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A-%D9%88%D9%85%D8%AE%D8%A7%D9%88%D9%81-%D9%85%D9%86-%D8%B3%D9%82%D9%88%D8%B7-%D8%A7%D9%84%D9%87%D8%AF%D9%86%D8%A9) â€” _France 24 â€” Ø§Ù„Ø¹Ø±Ø¨ÙŠØ© (MENA)_ Â· _ar_ Â· _2026-04-19 12:40 UTC_
+- **[W:2 S:0 G:0]** [Trumpâ€™s profane crusadeÂ is taking America down a dark path](https://thehill.com/opinion/white-house/5836320-trump-war-rhetoric-danger/) â€” _The Hill â€” politics_ Â· _2026-04-19 12:00 UTC_
 
 ## 2a. Geopolitical & military (G-ranked)
 
-_**G** = matches on `geo_military_keyword_phrases` (+ optional locale lists in config). Supports triangulation and war-powers messaging — **verify** claims against primary sources._
+_**G** = matches on `geo_military_keyword_phrases` (+ optional locale lists in config). Supports triangulation and war-powers messaging â€” **verify** claims against primary sources._
 
-- **[W:0 S:0 G:2]** [North Korea launches ballistic missiles toward sea](https://www.npr.org/2026/04/18/nx-s1-5789939/north-korea-ballistic-missiles) — _NPR — national news_ · _2026-04-18 20:54 UTC_
-- **[W:5 S:0 G:1]** [EN DIRECT, guerre en Ukraine : Volodymyr Zelensky estime qu’assouplir les sanctions contre le pétrole russe fournira à Moscou « de l’argent qui se transformera directement en nouvelles frappes »](https://www.lemonde.fr/international/live/2026/04/19/en-direct-guerre-en-ukraine-volodymyr-zelensky-estime-qu-assouplir-les-sanctions-contre-le-petrole-russe-fournira-a-moscou-de-l-argent-qui-se-transformera-directement-en-nouvelles-frappes_6681322_3210.html) — _Le Monde — français (France / monde)_ · _fr_ · _2026-04-19 14:04 UTC_
-- **[W:2 S:0 G:1]** [Trump accuses Iran of violating ceasefire, announces Monday talks in Islamabad](https://thehill.com/homenews/administration/5838330-trump-iran-ceasefire-islamabad-talks/) — _The Hill — politics_ · _2026-04-19 13:06 UTC_
-- **[W:2 S:0 G:1]** [Zelensky condemns US extension of Russian sanctions waiver](https://www.bbc.com/news/articles/c248m3z49j1o?at_medium=RSS&at_campaign=rss) — _BBC News — World_ · _2026-04-19 09:55 UTC_
-- **[W:2 S:0 G:1]** [De Japón a Cuba: qué tan eficaces fueron históricamente los bloqueos navales como el de EE. UU. a Irán](https://www.bbc.com/mundo/articles/c2ev2m2nmkgo?at_medium=RSS&at_campaign=rss) — _BBC Mundo — español (Américas / global)_ · _es_ · _2026-04-19 03:32 UTC_
-- **[W:2 S:0 G:1]** [Irán vuelve a cerrar el estrecho de Ormuz tras acusar a EE.UU. de cometer actos de "piratería" con su bloqueo naval](https://www.bbc.com/mundo/articles/c3v6yn213eno?at_medium=RSS&at_campaign=rss) — _BBC Mundo — español (Américas / global)_ · _es_ · _2026-04-18 22:20 UTC_
-- **[W:2 S:0 G:1]** [Sunday shows preview: Donald Trump, Iran spar over Strait of Hormuz control as ceasefire deadline nears](https://thehill.com/homenews/sunday-talk-shows/5838036-trump-iran-negotiations-ceasefire/) — _The Hill — politics_ · _2026-04-18 22:01 UTC_
-- **[W:1 S:0 G:1]** [Iranian armed forces remain ‘ready’ despite peace talks with US: Iranian parliament speaker](https://thehill.com/policy/international/5838304-iran-us-peace-talks/) — _The Hill — politics_ · _2026-04-19 12:03 UTC_
-- **[W:1 S:0 G:1]** [Stop managing NATO. Start rebalancing it.](https://www.defenseone.com/ideas/2026/04/nato-rebalance/412956/) — _Defense One — All_ · _2026-04-19 08:00 UTC_
-- **[W:1 S:0 G:1]** [Ask HN: How did you land your first projects as a solo engineer/consultant?](https://news.ycombinator.com/item?id=47822940) — _Hacker News — front page_ · _2026-04-19 09:17 UTC_
-- **[W:1 S:0 G:1]** [Australia's most-decorated soldier vows to fight war crime charges](https://www.bbc.com/news/articles/cy91r7ww3weo?at_medium=RSS&at_campaign=rss) — _BBC News — World_ · _2026-04-19 05:12 UTC_
+- **[W:0 S:0 G:2]** [North Korea launches ballistic missiles toward sea](https://www.npr.org/2026/04/18/nx-s1-5789939/north-korea-ballistic-missiles) â€” _NPR â€” national news_ Â· _2026-04-18 20:54 UTC_
+- **[W:5 S:0 G:1]** [EN DIRECT, guerre en UkraineÂ : Volodymyr Zelensky estime quâ€™assouplir les sanctions contre le pÃ©trole russe fournira Ã  Moscou Â«Â de lâ€™argent qui se transformera directement en nouvelles frappesÂ Â»](https://www.lemonde.fr/international/live/2026/04/19/en-direct-guerre-en-ukraine-volodymyr-zelensky-estime-qu-assouplir-les-sanctions-contre-le-petrole-russe-fournira-a-moscou-de-l-argent-qui-se-transformera-directement-en-nouvelles-frappes_6681322_3210.html) â€” _Le Monde â€” franÃ§ais (France / monde)_ Â· _fr_ Â· _2026-04-19 14:04 UTC_
+- **[W:2 S:0 G:1]** [Trump accuses Iran of violating ceasefire, announces Monday talks in Islamabad](https://thehill.com/homenews/administration/5838330-trump-iran-ceasefire-islamabad-talks/) â€” _The Hill â€” politics_ Â· _2026-04-19 13:06 UTC_
+- **[W:2 S:0 G:1]** [Zelensky condemns US extension of Russian sanctions waiver](https://www.bbc.com/news/articles/c248m3z49j1o?at_medium=RSS&at_campaign=rss) â€” _BBC News â€” World_ Â· _2026-04-19 09:55 UTC_
+- **[W:2 S:0 G:1]** [De JapÃ³n a Cuba: quÃ© tan eficaces fueron histÃ³ricamente los bloqueos navales como el de EE.â€¯UU. a IrÃ¡n](https://www.bbc.com/mundo/articles/c2ev2m2nmkgo?at_medium=RSS&at_campaign=rss) â€” _BBC Mundo â€” espaÃ±ol (AmÃ©ricas / global)_ Â· _es_ Â· _2026-04-19 03:32 UTC_
+- **[W:2 S:0 G:1]** [IrÃ¡n vuelve a cerrar el estrecho de Ormuz tras acusar a EE.UU. de cometer actos de "piraterÃ­a" con su bloqueo naval](https://www.bbc.com/mundo/articles/c3v6yn213eno?at_medium=RSS&at_campaign=rss) â€” _BBC Mundo â€” espaÃ±ol (AmÃ©ricas / global)_ Â· _es_ Â· _2026-04-18 22:20 UTC_
+- **[W:2 S:0 G:1]** [Sunday shows preview: Donald Trump, Iran spar over Strait of Hormuz control as ceasefire deadline nears](https://thehill.com/homenews/sunday-talk-shows/5838036-trump-iran-negotiations-ceasefire/) â€” _The Hill â€” politics_ Â· _2026-04-18 22:01 UTC_
+- **[W:1 S:0 G:1]** [Iranian armed forces remain â€˜readyâ€™ despite peace talks with US: Iranian parliament speaker](https://thehill.com/policy/international/5838304-iran-us-peace-talks/) â€” _The Hill â€” politics_ Â· _2026-04-19 12:03 UTC_
+- **[W:1 S:0 G:1]** [Stop managing NATO. Start rebalancing it.](https://www.defenseone.com/ideas/2026/04/nato-rebalance/412956/) â€” _Defense One â€” All_ Â· _2026-04-19 08:00 UTC_
+- **[W:1 S:0 G:1]** [Ask HN: How did you land your first projects as a solo engineer/consultant?](https://news.ycombinator.com/item?id=47822940) â€” _Hacker News â€” front page_ Â· _2026-04-19 09:17 UTC_
+- **[W:1 S:0 G:1]** [Australia's most-decorated soldier vows to fight war crime charges](https://www.bbc.com/news/articles/cy91r7ww3weo?at_medium=RSS&at_campaign=rss) â€” _BBC News â€” World_ Â· _2026-04-19 05:12 UTC_
 
-## 2b. Civ-mem depth hooks (in-repo essays — not breaking news)
+## 2b. Civ-mem depth hooks (in-repo essays â€” not breaking news)
 
-_Token overlap against `docs/civilization-memory/` (build: `python3 scripts/build_civmem_inrepo_index.py build`). **Historical / structural** depth only — not a substitute for dated news. See [civ-mem-draft-protocol](../work-politics/civ-mem-draft-protocol.md). Public copy still needs human approval._
+_Token overlap against `docs/civilization-memory/` (build: `python3 scripts/build_civmem_inrepo_index.py build`). **Historical / structural** depth only â€” not a substitute for dated news. See [civ-mem-draft-protocol](../work-politics/civ-mem-draft-protocol.md). Public copy still needs human approval._
 
-- **{CMC: `minds/CIV–MIND–MEARSHEIMER.md`}** (overlap 2) — _CIV–MIND–MEARSHEIMER — v3.4 Civilizational Memory Codex · Advisory Mind John J. Mearsheimer Cognitive–Linguistic Signature Layer Simplified Polyphony Architecture Status: ACTIVE · CANONICAL · LOCKED Class: MIND (ADVIS..._
-- **{CMC: `minds/CIV–MIND–MERCOURIS.md`}** (overlap 2) — _CIV–MIND–MERCOURIS — v3.4 Civilizational Memory Codex · Primary Mind Alexander Mercouris Cognitive–Linguistic Signature Layer Simplified Polyphony Architecture · Proportional Blend Law Status: ACTIVE · CANONICAL · LOC..._
-- **{CMC: `minds/CIV–MIND–BARNES.md`}** (overlap 1) — _CIV–MIND–BARNES — v3.4 Civilizational Memory Codex · Liability/Mechanism Perspective Robert Barnes Cognitive–Linguistic Signature Layer Constitutional North Star · Personal Liability · Institutional Defection · Mechan..._
+- **{CMC: `minds/CIVâ€“MINDâ€“MEARSHEIMER.md`}** (overlap 2) â€” _CIVâ€“MINDâ€“MEARSHEIMER â€” v3.4 Civilizational Memory Codex Â· Advisory Mind John J. Mearsheimer Cognitiveâ€“Linguistic Signature Layer Simplified Polyphony Architecture Status: ACTIVE Â· CANONICAL Â· LOCKED Class: MIND (ADVIS..._
+- **{CMC: `minds/CIVâ€“MINDâ€“MERCOURIS.md`}** (overlap 2) â€” _CIVâ€“MINDâ€“MERCOURIS â€” v3.4 Civilizational Memory Codex Â· Primary Mind Alexander Mercouris Cognitiveâ€“Linguistic Signature Layer Simplified Polyphony Architecture Â· Proportional Blend Law Status: ACTIVE Â· CANONICAL Â· LOC..._
+- **{CMC: `minds/CIVâ€“MINDâ€“BARNES.md`}** (overlap 1) â€” _CIVâ€“MINDâ€“BARNES â€” v3.4 Civilizational Memory Codex Â· Liability/Mechanism Perspective Robert Barnes Cognitiveâ€“Linguistic Signature Layer Constitutional North Star Â· Personal Liability Â· Institutional Defection Â· Mechan..._
 
-## 3. Lead themes (auto-stub — replace after reading)
+## 3. Lead themes (auto-stub â€” replace after reading)
 
 ### Work-politics / campaign angle
-- EN DIRECT, guerre au Moyen-Orient : Donald Trump annonce l’envoi lundi d’une délégation au Pakistan pour de nouveaux échanges avec l’Iran, et réitère sa menace de « détruire » des infrastructures iraniennes
-- EN DIRECT, guerre en Ukraine : Volodymyr Zelensky estime qu’assouplir les sanctions contre le pétrole russe fournira à Moscou « de l’argent qui se transformera directement en nouvelles frappes »
-- تغطية مستمرة: ترامب يعلن إرسال وفد إلى إسلام آباد الإثنين لاستئناف المباحثات بشأن إنهاء الحرب مع إيران
+- EN DIRECT, guerre au Moyen-OrientÂ : Donald Trump annonce lâ€™envoi lundi dâ€™une dÃ©lÃ©gation au Pakistan pour de nouveaux Ã©changes avec lâ€™Iran, et rÃ©itÃ¨re sa menace de Â«Â dÃ©truireÂ Â» des infrastructures iraniennes
+- EN DIRECT, guerre en UkraineÂ : Volodymyr Zelensky estime quâ€™assouplir les sanctions contre le pÃ©trole russe fournira Ã  Moscou Â«Â de lâ€™argent qui se transformera directement en nouvelles frappesÂ Â»
+- ØªØºØ·ÙŠØ© Ù…Ø³ØªÙ…Ø±Ø©: ØªØ±Ø§Ù…Ø¨ ÙŠØ¹Ù„Ù† Ø¥Ø±Ø³Ø§Ù„ ÙˆÙØ¯ Ø¥Ù„Ù‰ Ø¥Ø³Ù„Ø§Ù… Ø¢Ø¨Ø§Ø¯ Ø§Ù„Ø¥Ø«Ù†ÙŠÙ† Ù„Ø§Ø³ØªØ¦Ù†Ø§Ù Ø§Ù„Ù…Ø¨Ø§Ø­Ø«Ø§Øª Ø¨Ø´Ø£Ù† Ø¥Ù†Ù‡Ø§Ø¡ Ø§Ù„Ø­Ø±Ø¨ Ù…Ø¹ Ø¥ÙŠØ±Ø§Ù†
 
-**Replace:** 2–3 sentences for principal, district, opposition narrative.
+**Replace:** 2â€“3 sentences for principal, district, opposition narrative.
 
 ### Work-strategy angle (product / governance / tech)
 
@@ -343,13 +343,13 @@ _Token overlap against `docs/civilization-memory/` (build: `python3 scripts/buil
 - Appeals court allows White House ballroom construction to continue into June
 - Show HN: Prompt-to-Excalidraw demo with Gemma 4 E2B in the browser (3.1GB)
 
-**Replace:** 2–3 sentences for Record/Voice positioning, OpenClaw, schools, or policy hooks.
+**Replace:** 2â€“3 sentences for Record/Voice positioning, OpenClaw, schools, or policy hooks.
 
 ### Slow structural layer (work-jiang)
 
-_Not dated news — patterns from lecture extractions, `jiang-compress` JSON, comparative sweeps. Connect to **§1c** hooks when drafting campaign or opposition copy; cite sources if anything ships publicly._
+_Not dated news â€” patterns from lecture extractions, `jiang-compress` JSON, comparative sweeps. Connect to **Â§1c** hooks when drafting campaign or opposition copy; cite sources if anything ships publicly._
 
-**Replace:** 2–3 sentences — which slow pattern applies to today’s **W** angle, or why none does.
+**Replace:** 2â€“3 sentences â€” which slow pattern applies to todayâ€™s **W** angle, or why none does.
 
 ## 4. Triangulation (when lead is political)
 
@@ -359,7 +359,7 @@ For **campaign-facing** copy, use [work-politics analytical-lenses](../work-poli
 |---|---|---|
 | _TBD_ | _TBD_ | _TBD_ |
 
-**Product / strategy thread:** _TBD (no three-lens requirement — use work-dev + INTENT as needed)._
+**Product / strategy thread:** _TBD (no three-lens requirement â€” use work-dev + INTENT as needed)._
 
 ## 5. Operator synthesis
 
@@ -387,3 +387,4 @@ Thread **Context Efficiency Layer** when assembling follow-up context: prefer ho
 ---
 
 _Generated by `scripts/generate_work_politics_daily_brief.py` (legacy alias: `generate_wap_daily_brief.py`); config `docs/skill-work/work-strategy/daily-brief-config.json`._
+

@@ -64,6 +64,7 @@ def test_strategy_console_writes_console_view(minimal_notebook: Path) -> None:
     assert "## What changed" in text
     assert "### Input gaps" in text
     assert "## Expert thread movement" in text
+    assert "## Open loops due for revisit" in text
     assert "## Tonight review queue" in text
     assert "`ztest`" in text
 

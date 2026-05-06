@@ -30,7 +30,7 @@ Only then treat it as **prompt / model** behavior.
 
 Rob Pike’s rule applies here as: **structure the repo so algorithms (and agents) stay obvious.**
 
-- **Authoritative:** `users/[id]/self.md`, `recursion-gate.md`, `self-evidence.md` (per [AGENTS](../../../AGENTS.md) and the gated pipeline).
+- **Authoritative:** `self.md`, `recursion-gate.md`, `self-evidence.md` (per [AGENTS](../../../AGENTS.md) and the gated pipeline).
 - **Non-Record continuity:** `self-memory.md` (short/medium/long horizons; rotatable; legacy `memory.md`), chat — **not** Record truth until merged through the gate.
 
 Clever retrieval does not replace **clean canonical files** and **explicit staging**.

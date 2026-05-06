@@ -103,9 +103,9 @@ Add a minimal **file-based** governed-state structure. Use existing naming conve
 
 - `evidence/`
 - `prepared-context/`
-- `users/_template/`
-- `users/demo/` or another minimal example instance if appropriate
-- `users/<instance>/...` for governed state surfaces
+- `_template/`
+- `demo/` or another minimal example instance if appropriate
+- `<instance>/...` for governed state surfaces
 - `config/` or another suitable place for authority / runtime doctrine
 - `bridges/supabase/` if that fits naturally
 - `.github/workflows/` additions if validation is added
@@ -172,7 +172,7 @@ At minimum:
 - Create one or more seed artifacts, such as: `seed_intent.json`, readiness check placeholder(s), validation script(s)
 - Make clear that new instances should be initialized through **Seed Phase**, not by copying real user data
 
-If it fits the repo naturally, create: `users/_template/`, a minimal demo or sample instance scaffold, a simple validation or readiness script.
+If it fits the repo naturally, create: `_template/`, a minimal demo or sample instance scaffold, a simple validation or readiness script.
 
 ### G. A minimal authority-map stub
 

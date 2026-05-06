@@ -1,11 +1,11 @@
-# Cadence ↔ governance bridge
+﻿# Cadence â†” governance bridge
 
 **Purpose:** Connect **ritual telemetry** ([work-cadence-events.md](work-cadence-events.md)) with **governance pressure** (pending gate work) without confusing cadence with merge authority.
 
 ## Scripts
 
-- [audit_cadence_rhythm.py](../../scripts/audit_cadence_rhythm.py) — rhythm summary (existing).
-- **`--pressure-report`** — writes `artifacts/work-cadence/cadence-pressure-report.json`, combining rhythm + `status: pending` counts in [`users/grace-mar/recursion-gate.md`](../../../users/grace-mar/recursion-gate.md).
+- [audit_cadence_rhythm.py](../../scripts/audit_cadence_rhythm.py) â€” rhythm summary (existing).
+- **`--pressure-report`** â€” writes `artifacts/work-cadence/cadence-pressure-report.json`, combining rhythm + `status: pending` counts in [`recursion-gate.md`](../../../recursion-gate.md).
 
 ## Authority
 
@@ -15,3 +15,4 @@
 
 - [cadence-pressure-signals.md](cadence-pressure-signals.md)
 - [WORK-LAYER-HARDENING-ROADMAP.md](../WORK-LAYER-HARDENING-ROADMAP.md)
+

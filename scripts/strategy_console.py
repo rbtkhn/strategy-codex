@@ -25,6 +25,10 @@ from strategy_notebook.receipts import (  # noqa: E402
     append_receipt,
     rel_posix,
 )
+from strategy_notebook.judgment_loops import (  # noqa: E402
+    build_judgment_loop_report,
+    format_due_open_loops_markdown,
+)
 
 # Heuristic windows
 RECENT_HOURS_DEFAULT = 72
@@ -475,6 +479,13 @@ def build_markdown(ctx: BuildContext) -> str:
 
     st_rows = state_watch_rows(ctx)
     tens = marker_scan(ctx)
+    loop_report = build_judgment_loop_report(
+        ctx.notebook_root,
+        today=ctx.today,
+    )
+    loop_lines = format_due_open_loops_markdown(loop_report)
+    loop_count = len(loop_report["loops"])
+    tension_count = len(loop_report["tensions"])
 
     inbox_path = ctx.notebook_root / "daily-strategy-inbox.md"
     itext = safe_read_text(inbox_path, 2_000_000) or ""
@@ -622,6 +633,18 @@ def build_markdown(ctx: BuildContext) -> str:
     lines.extend(
         [
             "",
+            "## Open loops due for revisit",
+            "",
+            f"- Derived loop count: {loop_count}",
+            f"- Derived tension group count: {tension_count}",
+            f"- Latest continuity date scanned: {loop_report.get('latest_continuity_date') or 'none'}",
+            "",
+        ]
+    )
+    lines.extend(loop_lines)
+    lines.extend(
+        [
+            "",
             "## Recommended EOD route",
             "",
             f"- Session type: {rec['session']}",
@@ -680,12 +703,8 @@ def main() -> int:
     p.add_argument(
         "--notebook-dir",
         type=Path,
-        default=REPO_ROOT
-        / "docs"
-        / "skill-work"
-        / "work-strategy"
-        / "strategy-notebook",
-        help="Path to strategy-notebook root.",
+        default=REPO_ROOT / "codex",
+        help="Path to strategy-codex / strategy-notebook root.",
     )
     p.add_argument(
         "--recent-hours",

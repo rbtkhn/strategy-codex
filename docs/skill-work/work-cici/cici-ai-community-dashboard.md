@@ -124,6 +124,8 @@ Each completed weekly dashboard row should either link to a weekly governance re
 
 - The first scholarship message produced five visible applicant introductions with GitHub accounts shared: Jon, Jayr, Xavier, Pango, and Troy. Treat this as early funnel activation, not proof of OB1 fork or first task completion.
 - The new next-steps message clarifies the roles of OB1 and Cici: member-owned workspace versus community guide/reference path.
+- Live GitHub review shows the cohort is past pure sign-up mode: Troy, Ka Kyle, Pango, Ell, Kekervs, Han nah, and Xavier all have visible fork activity, while `jiaj259` and `salajosefinosys` still need handle cleanup before we trust the mapping.
+- The latest 48-hour sweep adds fresh motion from `salajosefinojr-sys`, `Adelle-sims`, `jhon-ell16`, `PenguinPH739`, `nana-rpix`, and `Xavier-x01`; `jiaj259` is still unresolved and the quieter accounts remain on the follow-up list rather than the active-change list.
 
 ### What needs a simpler prompt
 
@@ -137,7 +139,7 @@ Each completed weekly dashboard row should either link to a weekly governance re
 
 | Experiment | Expected signal | Measurement window | Stop condition | Follow-up action |
 | :--- | :--- | :--- | :--- | :--- |
-|  |  |  |  |  |
+| Individual OB1 instance buildout, then shared `cici-ai` OB1, then public-use `cici-ai` | Phase 1: each member builds their own OB1 instance with GitHub-visible progress; Phase 2: the cohort opens a shared `cici-ai` OB1 instance for collective use; Phase 3: a public-use `cici-ai` variation is produced, calibrated for the Philippines first and adaptable elsewhere | About 1 month for Phase 1; Phase 2 and Phase 3 follow after the individual phase is materially complete | Do not open the shared instance until the individual phase has enough repo evidence; do not shift to the public-use variant until the shared instance is stable enough to support reuse | Draft the shared-instance onboarding / contribution plan, then the public-use adaptation plan |
 
 ## 8. Boundary reminder
 

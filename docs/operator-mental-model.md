@@ -61,7 +61,7 @@ The operator goal is not full awareness. It is enough orientation to avoid accid
 
 | Surface | Trust it for | Do not treat it as |
 |---------|--------------|--------------------|
-| **Record** (`users/<id>/self*.md`, `self-archive.md`) | Canonical companion state after approval | A place for ad-hoc operator notes |
+| **Record** (`self*.md`, `self-archive.md`) | Canonical companion state after approval | A place for ad-hoc operator notes |
 | **Gate** (`recursion-gate.md`) | Pending proposed Record changes | Approval, rejection, or merge by itself |
 | **WORK docs** (`docs/skill-work/work-*`) | Operator planning, execution, strategy, lane doctrine | Companion identity truth |
 | **Runtime / MEMORY** | Continuity, handoff, session weather | Durable Record authority |
@@ -88,4 +88,4 @@ Follow-up lanes can address pruning, demos, and test hardening. This page exists
 
 ## Authority
 
-Policy: [AGENTS.md](../AGENTS.md). Instance modes: `users/<id>/instance-doctrine.md`.
+Policy: [AGENTS.md](../AGENTS.md). Instance modes: `instance-doctrine.md`.

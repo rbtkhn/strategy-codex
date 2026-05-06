@@ -1,9 +1,12 @@
 # Grace-Mar Record — Agent Manifest
 
 User: grace-mar
-Checksum: e86d57c629edd422402093be6925d79085c4c039fb4c3d40758192ee715aa5cd
-Generated: 2026-05-01T22:55:29.368926
+Checksum: f4a4ba13c365c9187b8c723cf9d959701eb16a6cad451cfff3e038a8092dda1a
+Generated: 2026-05-04T23:18:21.312256
 Runtime mode: adjunct_runtime
+
+## Degraded Mode
+- enabled: true (intent.md missing or invalid; policy export remains advisory-only until intent is restored)
 
 ## Readable
 Agents may read (for personalization, session continuity):
@@ -44,7 +47,7 @@ Agents may stage candidates only. Merge requires user approval.
 
 ## Exports
 
-  users/grace-mar/openclaw-user.md: python scripts/export_user_identity.py -u grace-mar -o users/grace-mar/openclaw-user.md
+  grace-mar/openclaw-user.md: python scripts/export_user_identity.py -u grace-mar -o grace-mar/openclaw-user.md
   manifest: python scripts/export_manifest.py -u grace-mar
   fork_json: python scripts/export_fork.py -o fork-export.json
   intent_snapshot: python scripts/export_intent_snapshot.py -u grace-mar

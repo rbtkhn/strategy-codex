@@ -1,0 +1,49 @@
+Grace-Mar paths and strategy-notebook routing for `last30days`.
+
+| Topic | Path |
+|-------|------|
+| Portable core | [skills-portable/last30days/SKILL.md](../../../skills-portable/last30days/SKILL.md) |
+| Portable skills schema | [skills-portable/_schema.md](../../../skills-portable/_schema.md) |
+| Portable skills manifest | [skills-portable/manifest.yaml](../../../skills-portable/manifest.yaml) |
+| Governance contract | [AGENTS.md](../../../AGENTS.md) |
+| Knowledge boundary | [docs/knowledge-boundary-framework.md](../../../docs/knowledge-boundary-framework.md) |
+| Runtime vs Record | [docs/runtime-vs-record.md](../../../docs/runtime-vs-record.md) |
+| Runtime complements | [docs/runtime/runtime-complements.md](../../../docs/runtime/runtime-complements.md) |
+| MCP overview | [docs/mcp/mcp-stack-overview.md](../../../docs/mcp/mcp-stack-overview.md) |
+| Strategy notebook hub | [docs/skill-work/work-strategy/strategy-notebook/README.md](../../../docs/skill-work/work-strategy/strategy-notebook/README.md) |
+| Strategy notebook contract | [docs/skill-work/work-strategy/strategy-notebook/NOTEBOOK-CONTRACT.md](../../../docs/skill-work/work-strategy/strategy-notebook/NOTEBOOK-CONTRACT.md) |
+| Strategy daily inbox | [docs/skill-work/work-strategy/strategy-notebook/daily-strategy-inbox.md](../../../docs/skill-work/work-strategy/strategy-notebook/daily-strategy-inbox.md) |
+| Research skill example | [docs/skills/research/last30days.md](../../../docs/skills/research/last30days.md) |
+
+## Grace-Mar defaults
+
+- Treat `last30days` as a **WORK methodology skill**. It does not add a CLI, connector, scheduler, API credential flow, or live MCP server.
+- Default strategy-notebook integration is **inbox-first**: produce a short brief, provenance log, and one optional paste-ready inbox line.
+- Do **not** edit the daily inbox, `days.md`, author threads, `strategy-page` blocks, protected Record files, or prompt unless the operator explicitly requests a separate governed edit.
+- Require primary attribution before recommending `thread:<expert_id>`. Otherwise use topical tags, `verify:` tails, or a watch item.
+- Keep weak social/media claims in `Debates / Conflicts` unless the operator explicitly asks for a review stub.
+
+## Workflow hooks
+
+Use the relationship map in [docs/skills/research/last30days.md](../../../docs/skills/research/last30days.md): **manual** is primary, **coffee** may offer it under Historian/Intel, **conductor** may use it as one action-menu option, and **dream** may leave one tomorrow breadcrumb. None of those hooks run research, append inbox lines, or stage material automatically.
+
+## Artifact and review routes
+
+When the operator asks for an artifact, prefer:
+
+```text
+artifacts/research/last30days/<slug>.md
+artifacts/research/last30days/<slug>.json
+```
+
+When the operator asks for stage-only material, prepare an inspectable review artifact or stub and state that it is **not** canonical truth. Use existing Grace-Mar staging/evidence-stub scripts only in a separate explicit execution step, after confirming the target surface.
+
+## Strategy inbox line
+
+Use the local one-liner shape:
+
+```text
+<source> | cold: <attribution-safe claim> // hook: <why it matters today> | <URL or locator> | verify:<status tags>
+```
+
+Recommended strategy tags include topic tags such as `IRAN`, `US-RU`, `NUC`, `ENERGY`, `SANCTIONS`, `NATO`, plus `verify:primary`, `verify:pending-primary`, `verify:most-recent-found`, or `verify:low-confidence` as appropriate.

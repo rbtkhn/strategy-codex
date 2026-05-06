@@ -41,7 +41,7 @@ The transcript says **`claude/personalize-cici-instance-YT0ER`** and **`docs/per
 From [commit file list](https://github.com/Xavier-x01/Cici/commit/5337b1ce2c58edd9fb02d6feb0b6461e1c1fb711):
 
 - **`CLAUDE.md`:** New **`## Session Behavior`** — (a) restate branch/remote before git advice; link to `docs/personal/intentions-and-preferences.md`; (b) at most one challenge per decision point, then follow Xavier unless policy/secrets block.
-- **`proposals/queue/prop-20260413-001-voice-from-personal-doc.json`:** Status **`proposed`**; target **`users/cici/governed-state/voice/`**; evidence refs include **planned** intentions doc + **`CLAUDE.md#session-behavior`**.
+- **`proposals/queue/prop-20260413-001-voice-from-personal-doc.json`:** Status **`proposed`**; target **`cici/governed-state/voice/`**; evidence refs include **planned** intentions doc + **`CLAUDE.md#session-behavior`**.
 
 Validator: session reports **pass** (one **warning** on `target_surface` path pattern — same class as other examples).
 
@@ -59,7 +59,7 @@ Validator: session reports **pass** (one **warning** on `target_surface` path pa
 **Next mechanical steps (priority order):**
 
 1. **Merge or add** `docs/personal/intentions-and-preferences.md` to **`main`** (from personalize branch or paste) so **`CLAUDE.md`** link resolves.
-2. **Xavier reviews** `prop-20260413-001` — approve → promote to `users/cici/governed-state/voice/` per repo protocol, or reject/defer with notes.
+2. **Xavier reviews** `prop-20260413-001` — approve → promote to `cici/governed-state/voice/` per repo protocol, or reject/defer with notes.
 3. Optionally **rebase or close** stale local assumptions: always **`git fetch origin`** before believing “branch missing.”
 
 ---

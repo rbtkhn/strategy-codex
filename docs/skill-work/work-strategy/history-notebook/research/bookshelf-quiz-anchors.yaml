@@ -147,3 +147,13 @@ anchors:
       - natural rights
       - limited government and republican restraint
       - popular sovereignty and civic liberty
+
+  - id: bq-madison-writings
+    shelf_refs: [HNSRC-0107]
+    source_kind: primary
+    citation_label: "Madison, Writings"
+    visible_prompt_label: "Madison's writings"
+    quiz_uses:
+      - faction and representation
+      - constitutional design
+      - checks and balances

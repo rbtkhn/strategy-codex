@@ -35,6 +35,15 @@ description: "Conductor: work-devÃ¢â‚¬â€œassociated execution Ã¢â�
 | **Close (optional):** [CONDUCTOR-IMPROVEMENT-LOOP](../../../docs/skill-work/work-strategy/strategy-notebook/CONDUCTOR-IMPROVEMENT-LOOP.md) Ã‚Â· [CONDUCTOR-CLOSE-TEMPLATE](../../../docs/skill-work/work-strategy/strategy-notebook/CONDUCTOR-CLOSE-TEMPLATE.md) Ã‚Â· `coffee_conductor_outcome` with `conductor=<slug>` + `verdict=` + `notebook_ref=` or `falsify=` | Treat log lines as full memory. |
 | **Conductor action MCQ (required** unless **orientation only** / **no action menu**): for **every** resolved slug, **not** only **Kleiber** Ã¢â‚¬â€ **three** **A-C** **next** **moves** for **this** `conductor`; each line = **concrete** path, edit, or bounded inspection target; ground in **current** **repo** Ã¢â‚¬â€ **strategy-notebook** (e.g. `chapters/Ã¢â‚¬Â¦/days.md`, weave, `strategy-state-iran/`) and/or [workspace.md](../../../docs/skill-work/work-dev/workspace.md) + [dev-notebook](../../../docs/skill-work/work-dev/dev-notebook/README.md) when **ship**-heavy. Do **not** spend one of the three options on refusal/no-action; if the operator does anything other than choose one of the three, treat and log that as refusal / park / no-action. See **Ã‚Â§ Conductor action MCQ** below. | Generic lists; re-list **ToscaniniÃ¢â‚¬Â¦Bernstein** as if they were Ã¢â‚¬Å“actions.Ã¢â‚¬Â |
 
+## Cleanup-family discipline
+
+When a Conductor turn becomes cleanup or hardening work, declare the family before touching files and keep the slice coherent.
+
+- Name the family first: validation family, root-layout migration, YAML dependency handling, dirty-tree triage, or similar.
+- Check candidate files for unrelated local edits before using them as "easy wins". Prefer `git status --short`, `git diff --stat`, and targeted diffs.
+- Treat mixed-churn files as holdouts by default. Audit-first or skip-first is better than opportunistic cleanup.
+- If the pass stops telling one story, split it. Do not widen one cleanup wedge until it absorbs multiple unrelated problem classes.
+
 ## One-liner commands
 
 ```bash

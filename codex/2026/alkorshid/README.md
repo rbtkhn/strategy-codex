@@ -4,7 +4,7 @@
 
 ## Shelf
 
-- Profile: [alkorshid-profile.md](alkorshid-profile.md)
+- Profile: [alkorshid-profile.md](../../profiles/alkorshid-profile.md)
 - Monthly book: [alkorshid-book-2026-04.md](alkorshid-book-2026-04.md)
 - Daily chapter seed: [alkorshid-chapter-2026-04-01.md](alkorshid-chapter-2026-04-01.md)
 - Thread compatibility file: [alkorshid-thread.md](alkorshid-thread.md)

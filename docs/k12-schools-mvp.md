@@ -8,7 +8,7 @@
 
 | In scope | Out of scope (MVP) |
 |----------|-------------------|
-| Per-student `users/<student_id>/` tree | Deep SIS grade passback |
+| Per-student `<student_id>/` tree | Deep SIS grade passback |
 | Roster-driven provisioning | Full SSO (optional phase 1.5) |
 | Org id + admin roster list | District-wide RFP automation |
 | Merge authority policy (documented) | Custom LMS plugins |
@@ -21,11 +21,11 @@
 | Approach | MVP |
 |----------|-----|
 | **Input** | CSV: `student_id, display_name, grade, parent_email, merge_authority_role` (or minimal: id + name) |
-| **Process** | Script or operator run: copy `users/_template/` → `users/<org_slug>_<student_id>/` (or `users/<student_id>/` with org in metadata) |
+| **Process** | Script or operator run: copy `_template/` → `<org_slug>_<student_id>/` (or `<student_id>/` with org in metadata) |
 | **Bind Voice** | Telegram: parent links child bot session per onboarding doc; or school-issued invite |
 | **Idempotency** | Re-run safe: skip if user dir exists |
 
-**Existing anchors:** [companion-self-developer-plan.md](companion-self-developer-plan.md), `users/_template/`.
+**Existing anchors:** [companion-self-developer-plan.md](companion-self-developer-plan.md), `_template/`.
 
 ---
 

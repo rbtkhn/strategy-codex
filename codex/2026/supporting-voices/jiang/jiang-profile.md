@@ -1,11 +1,11 @@
-# Strategy expert — Jiang Xueqin (`jiang`)
+# Strategy expert Ã¢â‚¬â€ Jiang Xueqin (`jiang`)
 <!-- word_count: 686 -->
 
 WORK only; not Record.
 
-**Canonical index:** [strategy-commentator-threads.md](strategy-commentator-threads.md) — **`jiang`** lane.
+**Canonical index:** [strategy-commentator-threads.md](strategy-commentator-threads.md) Ã¢â‚¬â€ **`jiang`** lane.
 
-**Routing rule:** Predictive History is the sole upstream for notebook-facing Jiang ingest. PH-derived material may inform strategy-notebook only through this expert lane. Direct PH → knot routing is disallowed; route PH notes through inbox with `thread:jiang`, then weave on operator intent.
+**Routing rule:** Predictive History is the sole upstream for notebook-facing Jiang ingest. PH-derived material may inform strategy-notebook only through this expert lane. Direct PH Ã¢â€ â€™ strategy-page routing is disallowed; route PH notes through inbox with `thread:jiang`, then weave on operator intent.
 
 ---
 
@@ -22,21 +22,21 @@ WORK only; not Record.
 
 <a id="voice-fingerprint-compact"></a>
 
-## Voice fingerprint (compact) — Tier B
+## Voice fingerprint (compact) Ã¢â‚¬â€ Tier B
 
 | Field | Value |
 |-------|-------|
 | **Voice tier** | `B` |
-| **Voice fingerprint — last reviewed** | `2026-04` |
+| **Voice fingerprint Ã¢â‚¬â€ last reviewed** | `2026-04` |
 
-Promotion and refresh defaults: [strategy-expert-template.md § Voice fingerprint (compact)](strategy-expert-template.md#voice-fingerprint-compact).
+Promotion and refresh defaults: [strategy-expert-template.md Ã‚Â§ Voice fingerprint (compact)](strategy-expert-template.md#voice-fingerprint-compact).
 
 ## Convergence fingerprint
 
 ### Recurrent convergences
 
-- `jiang` + `mearsheimer` — great-power structural analysis; both use game-theory framing to explain state behavior
-- `jiang` + `diesen` — multipolar civilizational framing; both treat Western-centric frameworks as insufficient for Eurasian dynamics
+- `jiang` + `mearsheimer` Ã¢â‚¬â€ great-power structural analysis; both use game-theory framing to explain state behavior
+- `jiang` + `diesen` Ã¢â‚¬â€ multipolar civilizational framing; both treat Western-centric frameworks as insufficient for Eurasian dynamics
 
 ### Convergence conditions
 
@@ -49,8 +49,8 @@ Promotion and refresh defaults: [strategy-expert-template.md § Voice fingerprin
 
 ### Recurrent tensions
 
-- `jiang` x `barnes` — civilizational game-theory vs domestic U.S. legal/liability framing; different time horizons and different planes
-- `jiang` x `ritter` — long-arc mechanism analysis vs near-term operational/military detail; PH lectures rarely address current ORBAT
+- `jiang` x `barnes` Ã¢â‚¬â€ civilizational game-theory vs domestic U.S. legal/liability framing; different time horizons and different planes
+- `jiang` x `ritter` Ã¢â‚¬â€ long-arc mechanism analysis vs near-term operational/military detail; PH lectures rarely address current ORBAT
 
 ### Tension conditions
 
@@ -61,9 +61,9 @@ Promotion and refresh defaults: [strategy-expert-template.md § Voice fingerprin
 
 ## Signature mechanisms
 
-- **Civilizational game-theory** — state behavior as iterated strategic interaction across civilizational time scales
-- **Petrodollar / financial architecture** — monetary and energy systems as structural constraints on geopolitics
-- **Historical pattern extraction** — recurring civilizational dynamics (rise, overextension, adaptation) as predictive templates
+- **Civilizational game-theory** Ã¢â‚¬â€ state behavior as iterated strategic interaction across civilizational time scales
+- **Petrodollar / financial architecture** Ã¢â‚¬â€ monetary and energy systems as structural constraints on geopolitics
+- **Historical pattern extraction** Ã¢â‚¬â€ recurring civilizational dynamics (rise, overextension, adaptation) as predictive templates
 
 ## Recurrent claims
 
@@ -75,7 +75,7 @@ Promotion and refresh defaults: [strategy-expert-template.md § Voice fingerprin
 
 - Long-horizon framing can underweight near-term agency and contingency
 - Civilizational-scale patterns may not map cleanly to specific current crises without mediation through expert lanes closer to the event
-- PH lectures are the operator's curated interpretation of Jiang's material — distinguish between Jiang's claims and operator's extraction
+- PH lectures are the operator's curated interpretation of Jiang's material Ã¢â‚¬â€ distinguish between Jiang's claims and operator's extraction
 
 ## Predictive drift / accuracy notes
 
@@ -84,15 +84,15 @@ Promotion and refresh defaults: [strategy-expert-template.md § Voice fingerprin
 ## Active weave cues
 
 - Pull this expert into weave when:
-  - A knot is exploring long-horizon mechanism or civilizational pattern
+  - A page is exploring long-horizon mechanism or civilizational pattern
   - The inbox has PH-derived material tagged `thread:jiang`
   - History resonance from the history notebook connects to a PH lecture mechanism
   - The operator explicitly invokes Jiang resonance during a strategy pass
 
-## Knot-use guidance
+## Page-use guidance
 
 - Best used for: Mechanism pages (civilizational dynamics), Thesis pages (long-arc claims), History resonance grounding
-- Usually insufficient alone for: Watch pages (near-term events), Case pages requiring current-events detail, any knot needing wire-tier verification
+- Usually insufficient alone for: Watch pages (near-term events), Case pages requiring current-events detail, any Page needing wire-tier verification
 
 ## History resonance defaults
 
@@ -108,7 +108,7 @@ Promotion and refresh defaults: [strategy-expert-template.md § Voice fingerprin
 
 Jiang Xueqin's Predictive History lectures are the **work-jiang** book spine. The operator's curated lecture bodies live under `research/external/work-jiang/lectures/`; raw caption pulls from `research/external/youtube-channels/predictive-history/transcripts/` diff against those before quotations ship.
 
-This expert lane is the **mandatory membrane** for PH → strategy-notebook. PH material that has not been routed through `thread:jiang` and this file may not directly shape knots.
+This expert lane is the **mandatory membrane** for PH Ã¢â€ â€™ strategy-notebook. PH material that has not been routed through `thread:jiang` and this file may not directly shape strategy pages.
 
 See: [work-jiang README](../../../../research/external/work-jiang/README.md), [daily-brief-jiang-layer.md](../../daily-brief-jiang-layer.md), [LEARN_MODE_RULES.md](../../LEARN_MODE_RULES.md).
 

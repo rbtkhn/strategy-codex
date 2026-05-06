@@ -2,7 +2,7 @@
 
 **Purpose:** First-class **operator + agent** documentation for the **THINK** capability module — intake, learning, and evidenced cognitive growth — **without** duplicating [skills-modularity.md](../skills-modularity.md) or [conceptual-framework.md](../conceptual-framework.md).
 
-**Territory:** Record-bound **SKILLS** (THINK), not SELF identity, not WORK execution. Per-instance prose lives under `users/[id]/` (e.g. `skill-think.md` or `self-skill-think.md` — see [think-purpose-and-boundary.md](think-purpose-and-boundary.md)).
+**Territory:** Record-bound **SKILLS** (THINK), not SELF identity, not WORK execution. Per-instance prose lives under `` (e.g. `skill-think.md` or `self-skill-think.md` — see [think-purpose-and-boundary.md](think-purpose-and-boundary.md)).
 
 ## Contents
 

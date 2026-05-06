@@ -1,6 +1,6 @@
-{
+﻿{
   "version": 1,
-  "ssot_note": "Phase A: companion index to prose in users/grace-mar/skill-think.md — update both when adding claims.",
+  "ssot_note": "Phase A: companion index to prose in skill-think.md â€” update both when adding claims.",
   "claims": [
     {
       "id": "THINK-001",
@@ -16,3 +16,4 @@
     }
   ]
 }
+

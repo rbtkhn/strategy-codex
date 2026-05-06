@@ -45,7 +45,7 @@ A **weekly** (or **manual**) **read-only** **clerk** **summarizes** **integrity*
 ## Prohibited behavior
 
 - **No** `git` **commit**, **push**, or **branch** **create**.
-- **No** **in-repo** **file** **edits** (including `users/**`, `bot/prompt.py`, `grace-mar-llm.txt`, manifest, **bundle** **JSON**).
+- **No** **in-repo** **file** **edits** (including `**`, `bot/prompt.py`, `grace-mar-llm.txt`, manifest, **bundle** **JSON**).
 - **No** `bash scripts/regen_grace_mar_derived.sh` (or any **regen** / **export** **that** **writes** **artifacts**) **from** the **automation** **run** — **suggest** **to** the **operator** only.
 - **No** `process_approved_candidates.py` (any **mode**); **no** **`CANDIDATE-*`** **changes**; **no** **edits** to **`recursion-gate.md`** (this is **not** the [gate queue nudge](prompts/cursor-gate-queue-nudge.md) prompt).
 - **No** **mutating** **shell** **commands** in the **cloud** **environment** **unless** a **future** allowlist **explicitly** **permits** **only** true **read-only** **introspection**.

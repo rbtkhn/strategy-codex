@@ -1,28 +1,28 @@
-# Review orchestrator (bounded review prep)
+﻿# Review orchestrator (bounded review prep)
 
 The **review orchestrator** is a **read-only** helper that runs a small, explicit **multi-pass** workflow over a proposed change and emits a single **Markdown review packet** for the operator. It **parallelizes review structure, not authority**: it does **not** replace companion gate review, does **not** merge into the Record, and does **not** auto-approve candidates.
 
-**Canonical gate truth** remains [`users/<id>/recursion-gate.md`](../../users/grace-mar/recursion-gate.md). For a read-only gate backlog pass, use [`.cursor/skills/gate-review-pass/SKILL.md`](../../.cursor/skills/gate-review-pass/SKILL.md). For a **non-mutating** counterfactual preview of likely Record/downstream effects before approving a high-impact candidate, see the [Shadow Merge Simulator](shadow-merge-simulator.md). For an advisory **surface placement** check (claimed vs content signals), see the [Surface Misclassification Detector](surface-misclassification-detector.md).
+**Canonical gate truth** remains [`recursion-gate.md`](../../recursion-gate.md). For a read-only gate backlog pass, use [`.cursor/skills/gate-review-pass/SKILL.md`](../../.cursor/skills/gate-review-pass/SKILL.md). For a **non-mutating** counterfactual preview of likely Record/downstream effects before approving a high-impact candidate, see the [Shadow Merge Simulator](shadow-merge-simulator.md). For an advisory **surface placement** check (claimed vs content signals), see the [Surface Misclassification Detector](surface-misclassification-detector.md).
 
 ## What it does
 
 Four passes plus synthesis (see script output):
 
-1. **Evidence pass** — observation count, `source_refs`, recency, **evidence sufficiency** (reuses [PR 1 uncertainty envelope](../abstention-policy.md)).
-2. **Contradiction pass** — `contradiction_refs` on observations, or gate conflict / constitution / duplicate hints for candidate mode.
-3. **Boundary pass** — pre-gate: work-layer vs Record-target heuristics; candidate mode: `boundary_review`, `profile_target`, `territory`, `risk_tier` from [`scripts/recursion_gate_review.py`](../../scripts/recursion_gate_review.py) parsing.
-4. **Promotion-risk pass** — fabricated-history risk, promotion recommendation, envelope reasons, scope/prematurity.
-5. **Synthesis** — recommended action (`allow` | `allow_with_review` | `hold` | `block`) aligned with the envelope (advisory).
-6. **Operator questions** — concrete follow-ups.
+1. **Evidence pass** â€” observation count, `source_refs`, recency, **evidence sufficiency** (reuses [PR 1 uncertainty envelope](../abstention-policy.md)).
+2. **Contradiction pass** â€” `contradiction_refs` on observations, or gate conflict / constitution / duplicate hints for candidate mode.
+3. **Boundary pass** â€” pre-gate: work-layer vs Record-target heuristics; candidate mode: `boundary_review`, `profile_target`, `territory`, `risk_tier` from [`scripts/recursion_gate_review.py`](../../scripts/recursion_gate_review.py) parsing.
+4. **Promotion-risk pass** â€” fabricated-history risk, promotion recommendation, envelope reasons, scope/prematurity.
+5. **Synthesis** â€” recommended action (`allow` | `allow_with_review` | `hold` | `block`) aligned with the envelope (advisory).
+6. **Operator questions** â€” concrete follow-ups.
 
 ## Task anchor (required)
 
-Every invocation must include **`--task-anchor`** with a short description of the operator’s original question or constraint for this review. The packet includes a **`## Task Anchor`** section (task, optional constraint, and **active scope**) so long reviews do not silently drift from intent.
+Every invocation must include **`--task-anchor`** with a short description of the operatorâ€™s original question or constraint for this review. The packet includes a **`## Task Anchor`** section (task, optional constraint, and **active scope**) so long reviews do not silently drift from intent.
 
-- **`--constraint-anchor`** — optional extra boundary (e.g. abstention, “do not broaden”).
-- **`--active-scope`** — optional human-readable scope string. If omitted, scope is **derived** from lane, observation ids, or candidate id (see script).
+- **`--constraint-anchor`** â€” optional extra boundary (e.g. abstention, â€œdo not broadenâ€).
+- **`--active-scope`** â€” optional human-readable scope string. If omitted, scope is **derived** from lane, observation ids, or candidate id (see script).
 
-Optional **`--receipt-out PATH`** writes a **JSON sidecar** for audit (not canonical Record truth): `run_id`, `built`, `mode`, `target`, `anchor`, **`phase_anchor_checks`** (per-pass drift strings, PR 2), **`phase_sequence`** (six named phases with `phase_id`, `title`, `status`, `summary`, `halt_recommended`, `halt_reason`), and `non_canonical: true`. Phases match the Markdown sections in order: retrieval (Evidence) → invalidators (Contradiction) → boundary → promotion risk → synthesis → operator questions.
+Optional **`--receipt-out PATH`** writes a **JSON sidecar** for audit (not canonical Record truth): `run_id`, `built`, `mode`, `target`, `anchor`, **`phase_anchor_checks`** (per-pass drift strings, PR 2), **`phase_sequence`** (six named phases with `phase_id`, `title`, `status`, `summary`, `halt_recommended`, `halt_reason`), and `non_canonical: true`. Phases match the Markdown sections in order: retrieval (Evidence) â†’ invalidators (Contradiction) â†’ boundary â†’ promotion risk â†’ synthesis â†’ operator questions.
 
 ## Modes
 
@@ -92,13 +92,13 @@ python3 scripts/runtime/review_orchestrator.py \
 
 ## Policy mode envelope
 
-Every packet includes a **Policy mode envelope** section (from `--policy-mode` or `GRACE_MAR_POLICY_MODE`, default `operator_only`) so promotion advice is read next to declared governance posture — see [policy-modes.md](../policy-modes.md).
+Every packet includes a **Policy mode envelope** section (from `--policy-mode` or `GRACE_MAR_POLICY_MODE`, default `operator_only`) so promotion advice is read next to declared governance posture â€” see [policy-modes.md](../policy-modes.md).
 
 ## Optional: budgeted context hint
 
 Pass **`--context-mode compact|medium|deep`** to append a **Suggested budgeted context** section with a copy-paste command for [`build_budgeted_context.py`](../../scripts/prepared_context/build_budgeted_context.py). This does **not** run the script; it links review prep to explicit context budgeting ([context-budgeting.md](../runtime/context-budgeting.md)). The suggested command includes `--policy-mode` matching the active envelope when possible.
 
-Alternatively, pass **`--workflow-depth`** / **`--depth`** (`shallow` … `auto`) to suggest the same script with **workflow depth** instead of `--mode` (requires the same **`--task-anchor`** you already pass). If both `--workflow-depth` and `--context-mode` are set, **workflow depth wins** and a notice is printed to stderr — hints only, no execution.
+Alternatively, pass **`--workflow-depth`** / **`--depth`** (`shallow` â€¦ `auto`) to suggest the same script with **workflow depth** instead of `--mode` (requires the same **`--task-anchor`** you already pass). If both `--workflow-depth` and `--context-mode` are set, **workflow depth wins** and a notice is printed to stderr â€” hints only, no execution.
 
 | Depth (hint) | Typical review prep |
 |----------------|---------------------|
@@ -112,18 +112,19 @@ See [workflow-depth.md](../runtime/workflow-depth.md) and [workflow-depth-contra
 
 ## Relation to other docs
 
-- **PR 1 abstention / uncertainty:** [abstention-policy.md](../abstention-policy.md) — envelope rules.
+- **PR 1 abstention / uncertainty:** [abstention-policy.md](../abstention-policy.md) â€” envelope rules.
 - **Runtime vs Record:** [memory-retrieval.md](../runtime/memory-retrieval.md).
 - **Context budgeting:** [context-budgeting.md](../runtime/context-budgeting.md).
-- **Narrative walkthrough (memory brief → gate):** [memory-brief-to-gate-demo.md](memory-brief-to-gate-demo.md).
+- **Narrative walkthrough (memory brief â†’ gate):** [memory-brief-to-gate-demo.md](memory-brief-to-gate-demo.md).
 
 ## What not to use it for
 
-- Replacing companion judgment or the **approve → `process_approved_candidates.py`** pipeline.
+- Replacing companion judgment or the **approve â†’ `process_approved_candidates.py`** pipeline.
 - Autonomous mutation of `self.md`, EVIDENCE, or gate files.
-- A general-purpose multi-agent “team” — this is a **structured checklist** in Markdown form.
+- A general-purpose multi-agent â€œteamâ€ â€” this is a **structured checklist** in Markdown form.
 
 ## See also
 
 - [`scripts/runtime/review_orchestrator.py`](../../scripts/runtime/review_orchestrator.py) (source)
 - [`scripts/runtime/score_evidence_sufficiency.py`](../../scripts/runtime/score_evidence_sufficiency.py)
+

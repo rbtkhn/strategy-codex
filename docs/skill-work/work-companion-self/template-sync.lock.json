@@ -569,332 +569,332 @@
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "fc4449c9482885a3a524e3c488cfa0f8ddd6d4b9"
   },
-  "users/_template/recursion-gate.md": {
+  "_template/recursion-gate.md": {
     "instance_sha": "f9afac9c5d1a2134d4bccb9943e66ec805eed4f1",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "f9afac9c5d1a2134d4bccb9943e66ec805eed4f1"
   },
-  "users/_template/review-queue/README.md": {
+  "_template/review-queue/README.md": {
     "instance_sha": "5e714d35b0ee11813621a805c1326917d91a0fed",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "5e714d35b0ee11813621a805c1326917d91a0fed"
   },
-  "users/_template/review-queue/change_event_log.json": {
+  "_template/review-queue/change_event_log.json": {
     "instance_sha": "cce07175d8c1380685d66e290cc5465867ed988c",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "cce07175d8c1380685d66e290cc5465867ed988c"
   },
-  "users/_template/review-queue/change_review_queue.json": {
+  "_template/review-queue/change_review_queue.json": {
     "instance_sha": "f563c24a90083a3104ab944e09e983ac3d53486d",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "f563c24a90083a3104ab944e09e983ac3d53486d"
   },
-  "users/_template/review-queue/decisions/.gitkeep": {
+  "_template/review-queue/decisions/.gitkeep": {
     "instance_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
   },
-  "users/_template/review-queue/diffs/.gitkeep": {
+  "_template/review-queue/diffs/.gitkeep": {
     "instance_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
   },
-  "users/_template/review-queue/proposals/.gitkeep": {
+  "_template/review-queue/proposals/.gitkeep": {
     "instance_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
   },
-  "users/_template/seed-phase/README.md": {
+  "_template/seed-phase/README.md": {
     "instance_sha": "7145bc9aebdb7f6bd978315a7c859fa9cd63481f",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "7145bc9aebdb7f6bd978315a7c859fa9cd63481f"
   },
-  "users/_template/seed-phase/memory_ops_contract.json": {
+  "_template/seed-phase/memory_ops_contract.json": {
     "instance_sha": "f91a45f716b9e965ab9a076c4ffee6cfff42fb86",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "f91a45f716b9e965ab9a076c4ffee6cfff42fb86"
   },
-  "users/_template/seed-phase/seed-phase-manifest.json": {
+  "_template/seed-phase/seed-phase-manifest.json": {
     "instance_sha": "0fcce613a6e86b64b773913a90d9ad1c371d9492",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "0fcce613a6e86b64b773913a90d9ad1c371d9492"
   },
-  "users/_template/seed-phase/seed_confidence_map.json": {
+  "_template/seed-phase/seed_confidence_map.json": {
     "instance_sha": "50b026d17d40469900be39b3bdd6583f87a755d9",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "50b026d17d40469900be39b3bdd6583f87a755d9"
   },
-  "users/_template/seed-phase/seed_constitution.json": {
+  "_template/seed-phase/seed_constitution.json": {
     "instance_sha": "8bde0adf851c0eaaff33a8e1fabb911bc1541b7c",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "8bde0adf851c0eaaff33a8e1fabb911bc1541b7c"
   },
-  "users/_template/seed-phase/seed_curiosity.json": {
+  "_template/seed-phase/seed_curiosity.json": {
     "instance_sha": "8bf26b87b339751dd5acbf9982561b8ffb75b01e",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "8bf26b87b339751dd5acbf9982561b8ffb75b01e"
   },
-  "users/_template/seed-phase/seed_dossier.md": {
+  "_template/seed-phase/seed_dossier.md": {
     "instance_sha": "3fef08412887e5446294f17d77d90c77b416fcb2",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "3fef08412887e5446294f17d77d90c77b416fcb2"
   },
-  "users/_template/seed-phase/seed_expression.json": {
+  "_template/seed-phase/seed_expression.json": {
     "instance_sha": "712424d5df05f7555a4d46425c1360a55e2ca1f2",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "712424d5df05f7555a4d46425c1360a55e2ca1f2"
   },
-  "users/_template/seed-phase/seed_identity.json": {
+  "_template/seed-phase/seed_identity.json": {
     "instance_sha": "a189277a4d062f9b4b4da9b6e143ef712a5b70bd",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "a189277a4d062f9b4b4da9b6e143ef712a5b70bd"
   },
-  "users/_template/seed-phase/seed_intake.json": {
+  "_template/seed-phase/seed_intake.json": {
     "instance_sha": "54fa230bfb23d0da039d0af70a51f32fc541098a",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "54fa230bfb23d0da039d0af70a51f32fc541098a"
   },
-  "users/_template/seed-phase/seed_intent.json": {
+  "_template/seed-phase/seed_intent.json": {
     "instance_sha": "0ba996ba7cfdb14f2297a06e5da970aece4543e2",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "0ba996ba7cfdb14f2297a06e5da970aece4543e2"
   },
-  "users/_template/seed-phase/seed_memory_contract.json": {
+  "_template/seed-phase/seed_memory_contract.json": {
     "instance_sha": "bc74ba0aa5611bda651c676ff5b7c0ab1b6a2bb3",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "bc74ba0aa5611bda651c676ff5b7c0ab1b6a2bb3"
   },
-  "users/_template/seed-phase/seed_pedagogy.json": {
+  "_template/seed-phase/seed_pedagogy.json": {
     "instance_sha": "ecbdf5ab0da5c07f94c807d85f7bf4fdc578392b",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "ecbdf5ab0da5c07f94c807d85f7bf4fdc578392b"
   },
-  "users/_template/seed-phase/seed_readiness.json": {
+  "_template/seed-phase/seed_readiness.json": {
     "instance_sha": "82fc2e590ce4a143d82a24188a62dfa9236e75a5",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "82fc2e590ce4a143d82a24188a62dfa9236e75a5"
   },
-  "users/_template/seed-phase/seed_trial_report.json": {
+  "_template/seed-phase/seed_trial_report.json": {
     "instance_sha": "6bf218284041e79c613bfde5a8ab2bc856d8b2bd",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "6bf218284041e79c613bfde5a8ab2bc856d8b2bd"
   },
-  "users/_template/seed-phase/work_business_seed.json": {
+  "_template/seed-phase/work_business_seed.json": {
     "instance_sha": "13c11d5dc27ece94aa4cd4b1c52f4e41861db4f5",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "13c11d5dc27ece94aa4cd4b1c52f4e41861db4f5"
   },
-  "users/_template/seed-phase/work_dev_seed.json": {
+  "_template/seed-phase/work_dev_seed.json": {
     "instance_sha": "f378aecb4555e6a0ef9ac3f17494c166555b3bc9",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "f378aecb4555e6a0ef9ac3f17494c166555b3bc9"
   },
-  "users/_template/self-curiosity.md": {
+  "_template/self-curiosity.md": {
     "instance_sha": "15e5402db89040edf5f7f30b62dec1cfd74e4cb0",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "15e5402db89040edf5f7f30b62dec1cfd74e4cb0"
   },
-  "users/_template/self-evidence.md": {
+  "_template/self-evidence.md": {
     "instance_sha": "63a9375c629a32eab9496af05c12373152c6bc4a",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "63a9375c629a32eab9496af05c12373152c6bc4a"
   },
-  "users/_template/self-identity.md": {
+  "_template/self-identity.md": {
     "instance_sha": "545563fc1b51a2befda1783893e9159acaa8cf6f",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "545563fc1b51a2befda1783893e9159acaa8cf6f"
   },
-  "users/_template/self-knowledge.md": {
+  "_template/self-knowledge.md": {
     "instance_sha": "5ed5818c571edde79f17c89da6a4c0aa9dfbd512",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "5ed5818c571edde79f17c89da6a4c0aa9dfbd512"
   },
-  "users/_template/self-library.md": {
+  "_template/self-library.md": {
     "instance_sha": "2576858f2e26bd05e2a049f5abdea49633bcb5e2",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "2576858f2e26bd05e2a049f5abdea49633bcb5e2"
   },
-  "users/_template/self-memory.md": {
+  "_template/self-memory.md": {
     "instance_sha": "ccd46727b6fd06b9094d76745aab17ee50a9d685",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "ccd46727b6fd06b9094d76745aab17ee50a9d685"
   },
-  "users/_template/self-personality.md": {
+  "_template/self-personality.md": {
     "instance_sha": "154f575c98a5937498852560da143bafc94c3016",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "154f575c98a5937498852560da143bafc94c3016"
   },
-  "users/_template/self-skill-steward.md": {
+  "_template/self-skill-steward.md": {
     "instance_sha": "4726690671de6185392b5aceb71d9ed7468ded9d",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "4726690671de6185392b5aceb71d9ed7468ded9d"
   },
-  "users/_template/self-skill-think.md": {
+  "_template/self-skill-think.md": {
     "instance_sha": "76b44da5d9816329d519d8a8bc18be6b17c0d7c0",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "76b44da5d9816329d519d8a8bc18be6b17c0d7c0"
   },
-  "users/_template/self-skill-work.md": {
+  "_template/self-skill-work.md": {
     "instance_sha": "2f8598a965f7eadd9520fc01d0e9cb74b9fc5b2b",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "2f8598a965f7eadd9520fc01d0e9cb74b9fc5b2b"
   },
-  "users/_template/self-skill-write.md": {
+  "_template/self-skill-write.md": {
     "instance_sha": "3e1250b18c3d01ff422b9b68eb16680b9fc85ee7",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "3e1250b18c3d01ff422b9b68eb16680b9fc85ee7"
   },
-  "users/_template/self-work.md": {
+  "_template/self-work.md": {
     "instance_sha": "dc8335b86f9c0720ed935b98e69b22084a423ad4",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "dc8335b86f9c0720ed935b98e69b22084a423ad4"
   },
-  "users/_template/self.md": {
+  "_template/self.md": {
     "instance_sha": "97a2723692de3e644b8c8d9a26ea7bdf36e0e1ae",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "97a2723692de3e644b8c8d9a26ea7bdf36e0e1ae"
   },
-  "users/_template/work-business.md": {
+  "_template/work-business.md": {
     "instance_sha": "86216bfdb3e8d634694d14c574b940a056fbb739",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "86216bfdb3e8d634694d14c574b940a056fbb739"
   },
-  "users/_template/work-dev.md": {
+  "_template/work-dev.md": {
     "instance_sha": "767d7e1e9527a929ef7325ac324468a869d5d269",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "767d7e1e9527a929ef7325ac324468a869d5d269"
   },
-  "users/demo/observability/observability-report.json": {
+  "demo/observability/observability-report.json": {
     "instance_sha": "e948cb776f4795ef4cb8e284f8d70150ae7a789c",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "8adcc5359bb986df5c7e8eaf01b989d44381ad78"
   },
-  "users/demo/review-queue/README.md": {
+  "demo/review-queue/README.md": {
     "instance_sha": "ffe38336d8270a17284e56432ccb5ebdb0bc2324",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "ffe38336d8270a17284e56432ccb5ebdb0bc2324"
   },
-  "users/demo/review-queue/change_event_log.json": {
+  "demo/review-queue/change_event_log.json": {
     "instance_sha": "6d849de2056dcc9b3617c7fa6b9a3ee77fa97c7d",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "6d849de2056dcc9b3617c7fa6b9a3ee77fa97c7d"
   },
-  "users/demo/review-queue/change_review_queue.json": {
+  "demo/review-queue/change_review_queue.json": {
     "instance_sha": "6660ca4131258b24bbfff01b0ce7c11f55f011be",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "6660ca4131258b24bbfff01b0ce7c11f55f011be"
   },
-  "users/demo/review-queue/decisions/decision-demo-001.json": {
+  "demo/review-queue/decisions/decision-demo-001.json": {
     "instance_sha": "415522485588179285d5623292d59ccf064d3221",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "415522485588179285d5623292d59ccf064d3221"
   },
-  "users/demo/review-queue/derived/pedagogy-draft-v2.json": {
+  "demo/review-queue/derived/pedagogy-draft-v2.json": {
     "instance_sha": "89b47f8bb485989c5659835f8241286a1124c1e7",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "89b47f8bb485989c5659835f8241286a1124c1e7"
   },
-  "users/demo/review-queue/diffs/diff-001.json": {
+  "demo/review-queue/diffs/diff-001.json": {
     "instance_sha": "752e3717bda56f253b1aac0f16d85a9da2ec6af8",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "752e3717bda56f253b1aac0f16d85a9da2ec6af8"
   },
-  "users/demo/review-queue/diffs/diff-002.json": {
+  "demo/review-queue/diffs/diff-002.json": {
     "instance_sha": "9a52b625c2965894bb8b3e9b70e00a89bc1ca323",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "9a52b625c2965894bb8b3e9b70e00a89bc1ca323"
   },
-  "users/demo/review-queue/proposals/proposal-demo-001.json": {
+  "demo/review-queue/proposals/proposal-demo-001.json": {
     "instance_sha": "af75ed5284d3a6a49d70ad3c38772c0d4b29e308",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "af75ed5284d3a6a49d70ad3c38772c0d4b29e308"
   },
-  "users/demo/seed-phase/README.md": {
+  "demo/seed-phase/README.md": {
     "instance_sha": "45e92fe3bd82669b7d3822370c5e1fd9e93048ee",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "45e92fe3bd82669b7d3822370c5e1fd9e93048ee"
   },
-  "users/demo/seed-phase/memory_ops_contract.json": {
+  "demo/seed-phase/memory_ops_contract.json": {
     "instance_sha": "8b0875f615300b4b80f0f2b7003941ed9fa2f1eb",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "8b0875f615300b4b80f0f2b7003941ed9fa2f1eb"
   },
-  "users/demo/seed-phase/seed-phase-manifest.json": {
+  "demo/seed-phase/seed-phase-manifest.json": {
     "instance_sha": "cf7fea17dbac174aa90f77fbcdd1790726d98c7b",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "cf7fea17dbac174aa90f77fbcdd1790726d98c7b"
   },
-  "users/demo/seed-phase/seed_confidence_map.json": {
+  "demo/seed-phase/seed_confidence_map.json": {
     "instance_sha": "f58b23025a0a495886c0be688c652394b4a21f68",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "f58b23025a0a495886c0be688c652394b4a21f68"
   },
-  "users/demo/seed-phase/seed_constitution.json": {
+  "demo/seed-phase/seed_constitution.json": {
     "instance_sha": "a21c0d423cef4bb741087cdf57e1b9ac36eb6418",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "a21c0d423cef4bb741087cdf57e1b9ac36eb6418"
   },
-  "users/demo/seed-phase/seed_curiosity.json": {
+  "demo/seed-phase/seed_curiosity.json": {
     "instance_sha": "f4225fcf252f16ad3f0782028713407d1ddee790",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "f4225fcf252f16ad3f0782028713407d1ddee790"
   },
-  "users/demo/seed-phase/seed_dossier.md": {
+  "demo/seed-phase/seed_dossier.md": {
     "instance_sha": "b45614617f481ae4cad99b66ad7f78f72a214698",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "b45614617f481ae4cad99b66ad7f78f72a214698"
   },
-  "users/demo/seed-phase/seed_expression.json": {
+  "demo/seed-phase/seed_expression.json": {
     "instance_sha": "8957436ea1cbab7bb2546488d593afeab8b881da",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "8957436ea1cbab7bb2546488d593afeab8b881da"
   },
-  "users/demo/seed-phase/seed_identity.json": {
+  "demo/seed-phase/seed_identity.json": {
     "instance_sha": "5e87baa62caca0ef1666f1fbbca1d0ad16a1d4ca",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "5e87baa62caca0ef1666f1fbbca1d0ad16a1d4ca"
   },
-  "users/demo/seed-phase/seed_intake.json": {
+  "demo/seed-phase/seed_intake.json": {
     "instance_sha": "e8796fc46a1638b75e78ffd92c279797625bd5b8",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "e8796fc46a1638b75e78ffd92c279797625bd5b8"
   },
-  "users/demo/seed-phase/seed_intent.json": {
+  "demo/seed-phase/seed_intent.json": {
     "instance_sha": "0ba996ba7cfdb14f2297a06e5da970aece4543e2",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "0ba996ba7cfdb14f2297a06e5da970aece4543e2"
   },
-  "users/demo/seed-phase/seed_memory_contract.json": {
+  "demo/seed-phase/seed_memory_contract.json": {
     "instance_sha": "6930903b3755fdad0c2f9e84d13eb87168c38f1d",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "6930903b3755fdad0c2f9e84d13eb87168c38f1d"
   },
-  "users/demo/seed-phase/seed_pedagogy.json": {
+  "demo/seed-phase/seed_pedagogy.json": {
     "instance_sha": "2c76a81eaa939a891564b457426b45f6ea6848c1",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "2c76a81eaa939a891564b457426b45f6ea6848c1"
   },
-  "users/demo/seed-phase/seed_readiness.json": {
+  "demo/seed-phase/seed_readiness.json": {
     "instance_sha": "fb7442c18aace1a3ed5dbb6fae53f33ca1681f09",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "fb7442c18aace1a3ed5dbb6fae53f33ca1681f09"
   },
-  "users/demo/seed-phase/seed_trial_report.json": {
+  "demo/seed-phase/seed_trial_report.json": {
     "instance_sha": "72e3f01df79cab0adbd9a7fd5854fbf4001fc84c",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "72e3f01df79cab0adbd9a7fd5854fbf4001fc84c"
   },
-  "users/demo/seed-phase/work_business_seed.json": {
+  "demo/seed-phase/work_business_seed.json": {
     "instance_sha": "bc793959370d6a626c77c8ae645559f7993e503d",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "bc793959370d6a626c77c8ae645559f7993e503d"
   },
-  "users/demo/seed-phase/work_dev_seed.json": {
+  "demo/seed-phase/work_dev_seed.json": {
     "instance_sha": "96e161d23301350fe951748460ecab173f947c13",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "96e161d23301350fe951748460ecab173f947c13"
   },
-  "users/demo/seed-registry.jsonl": {
+  "demo/seed-registry.jsonl": {
     "instance_sha": "27f08a2ce7c70432b1a4e00c8a8796c467ff3ce9",
     "synced_at": "2026-04-06T22:22:09",
     "template_sha": "27f08a2ce7c70432b1a4e00c8a8796c467ff3ce9"

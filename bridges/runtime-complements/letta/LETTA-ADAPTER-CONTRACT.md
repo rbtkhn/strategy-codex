@@ -27,7 +27,7 @@ Runtime complement only.
 ## Prohibited actions
 
 - No canonical Record writes
-- No direct edits to `users/` Record trees for bulk or surreptitious ingest
+- No direct edits to `` Record trees for bulk or surreptitious ingest
 - No direct edits to canonical identity, evidence, skill, or library files
   (e.g. `self.md`, `self-archive.md`, `self-skills.md`, `self-library.md`) —
   see [runtime complements doctrine](../../../docs/runtime/runtime-complements.md)

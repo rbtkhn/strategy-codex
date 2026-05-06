@@ -12,7 +12,7 @@ PDF export of a **Claude Code** session on **[Cici](https://github.com/Xavier-x0
 ## Session flow (from text extract)
 
 1. **Prompt pasted:** Develop Cici toward Xavier’s **intentions, personality, skills, preferences** via durable/reviewable paths (`proposals/`, `authority-map`, `docs/personal/`), not bulk governed-state edits without proposals.
-2. **Orientation (agent):** Summarized **locked vs open** — `users/cici/governed-state/identity/instance.json` as floor; six surfaces (`voice/`, `memory-policy/`, etc.) **stubbed**; `docs/personal/README.md` present; **`intentions-and-preferences.md`** did not exist yet at time of session; **proposal queue** empty except README; write rules: may stage **`proposals/queue/`** and **`docs/personal/`**, not **`users/cici/governed-state/<surface>/`** without approved proposal.
+2. **Orientation (agent):** Summarized **locked vs open** — `cici/governed-state/identity/instance.json` as floor; six surfaces (`voice/`, `memory-policy/`, etc.) **stubbed**; `docs/personal/README.md` present; **`intentions-and-preferences.md`** did not exist yet at time of session; **proposal queue** empty except README; write rules: may stage **`proposals/queue/`** and **`docs/personal/`**, not **`cici/governed-state/<surface>/`** without approved proposal.
 3. **Questions → answers (Xavier):**
    - **Q1 Intentions (30-day):** *(c)* governed-state bootstrap as frame, *(b)* daily capture as proof-of-work.
    - **Q2 Pushback style:** Flag disagreement **briefly**, then **follow her lead**.

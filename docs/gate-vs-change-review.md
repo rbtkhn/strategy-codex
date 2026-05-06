@@ -19,7 +19,7 @@ The gate answers: *“Should this observation become part of the governed Record
 
 ## Change-review queue (material escalation)
 
-**`users/<id>/review-queue/`** holds **material** post-seed changes that need more than a single approve line:
+**`review-queue/`** holds **material** post-seed changes that need more than a single approve line:
 
 - contradictions or revisions to durable commitments, safety, or memory governance
 - cross-surface moves (identity vs SELF-LIBRARY vs CIV-MEM) that deserve an audit trail
@@ -77,7 +77,7 @@ python3 scripts/export_gate_to_review_queue.py --user <fork_id> --candidate-id C
 That writes a proposal JSON, a **`derived/`** snapshot, and updates the queue and event log. Validate with:
 
 ```bash
-python3 scripts/validate-change-review.py users/<fork_id>/review-queue --allow-empty
+python3 scripts/validate-change-review.py <fork_id>/review-queue --allow-empty
 ```
 
 Use `--allow-empty` while **decisions/** and/or **diffs/** are still empty. When **proposals/** and **diffs/** both have files but **decisions/** is still empty, prefer `--allow-missing-decisions` for stricter checks without stub decision files. See [change-review-validation.md](change-review-validation.md).

@@ -54,7 +54,7 @@ The strategy lane also uses **strategy-internal crossing tokens** (`seam:ritter+
 ## Disallowed flows
 
 - **THINK, WRITE, work-strategy → SELF (automatic)** — No automatic merge into SELF from any module or territory. SELF remains gated.
-- **WRITE doctrine → Companion WRITE capability** — Operator preferences in `docs/skill-write/` do not automatically become Record capability claims in `users/[id]/skill-write.md`.
+- **WRITE doctrine → Companion WRITE capability** — Operator preferences in `docs/skill-write/` do not automatically become Record capability claims in `skill-write.md`.
 - **work-strategy → Record truth** — No direct writes from work territory into Record skill containers without an explicit staged update step.
 
 ---

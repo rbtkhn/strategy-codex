@@ -56,7 +56,7 @@ When `hybrid_retrieve.py` searches a 155 KB file (e.g. strategy-notebook `days.m
 | `artifact_lookup` | `artifacts/` | Yes — `.md` and `.txt` files over 4 KB |
 | `notebook_lookup` | `docs/skill-work/work-strategy/strategy-notebook/chapters/` | Yes — `.md` and `.txt` files over 4 KB |
 | `prepared_context` | `runtime/observations/index.jsonl` | No — already entry-level via observation store |
-| `evidence_lookup` | `users/<id>/self-archive.md` | No — already entry-level via evidence parser |
+| `evidence_lookup` | `self-archive.md` | No — already entry-level via evidence parser |
 
 ## Usage
 

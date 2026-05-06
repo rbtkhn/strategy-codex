@@ -29,9 +29,9 @@ Use:
 
 ```bash
 pip install -r scripts/requirements-seed-phase.txt
-python3 scripts/validate-change-review.py users/demo/review-queue
-python3 scripts/validate-change-review.py users/_template/review-queue --allow-empty
-python3 scripts/validate-change-review.py users/<fork_id>/review-queue --allow-missing-decisions
+python3 scripts/validate-change-review.py demo/review-queue
+python3 scripts/validate-change-review.py _template/review-queue --allow-empty
+python3 scripts/validate-change-review.py <fork_id>/review-queue --allow-missing-decisions
 ```
 
 ### What the validator checks
@@ -64,7 +64,7 @@ Each `proposalId` listed in the queue must correspond to an actual proposal JSON
 
 #### 4. Event-log references exist
 
-Each event `ref` should point to an existing file when the ref is file-backed (paths relative to the review-queue directory, or repo-root paths such as `users/demo/...`).
+Each event `ref` should point to an existing file when the ref is file-backed (paths relative to the review-queue directory, or repo-root paths such as `demo/...`).
 
 #### 5. Decisions point to real proposals
 
@@ -98,7 +98,7 @@ Strict mode without flags requires at least one file in all three directories. `
 
 ### Demo mode
 
-The `users/demo/review-queue/` directory should validate in strict mode without `--allow-empty`.
+The `demo/review-queue/` directory should validate in strict mode without `--allow-empty`.
 
 The demo is intended to remain a living worked example of:
 
@@ -115,15 +115,15 @@ The demo is intended to remain a living worked example of:
 Use:
 
 ```bash
-python3 scripts/generate-identity-diff.py users/demo/review-queue/diffs/diff-001.json
+python3 scripts/generate-identity-diff.py demo/review-queue/diffs/diff-001.json
 ```
 
 To write a Markdown file:
 
 ```bash
 python3 scripts/generate-identity-diff.py \
-  users/demo/review-queue/diffs/diff-001.json \
-  --output users/demo/review-queue/identity_diff.md
+  demo/review-queue/diffs/diff-001.json \
+  --output demo/review-queue/identity_diff.md
 ```
 
 This generator creates a readable before/after review surface from the structured diff artifact.

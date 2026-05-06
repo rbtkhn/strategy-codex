@@ -1,4 +1,4 @@
-# Layer Architecture
+﻿# Layer Architecture
 
 **Companion-Self template -- Four-layer instruction model**
 
@@ -21,7 +21,7 @@ The instruction architecture splits into four layers. Later layers may narrow bu
 | Layer | Canonical location | Scope | Reload frequency |
 |-------|-------------------|-------|-----------------|
 | **1. Core Doctrine** | `AGENTS.md` | State separation, authority classes, promotion law, knowledge boundary, gated pipeline, terminology, permission boundaries | Always loaded |
-| **2. Instance Doctrine** | `users/[id]/instance-doctrine.md` | Operating modes, repo structure, file update protocol, success metrics, prompt architecture | Always loaded for the active instance |
+| **2. Instance Doctrine** | `instance-doctrine.md` | Operating modes, repo structure, file update protocol, success metrics, prompt architecture | Always loaded for the active instance |
 | **3. Lane Overlays** | `docs/skill-work/work-*/` | Per-lane focus, ledger, history, framing, background context | Loaded when the lane is active |
 | **4. Mode Overlays** | `.cursor/skills/*/SKILL.md` | Cadence rituals (coffee, dream, bridge, harvest, thanks), review passes, specialized workflows | Loaded when the mode is triggered |
 
@@ -31,9 +31,9 @@ The instruction architecture splits into four layers. Later layers may narrow bu
 
 ```
 Core Doctrine (always)
-  └── Instance Doctrine (always for active instance)
-        ├── Lane Overlay (when lane is active)
-        └── Mode Overlay (when mode is triggered)
+  â””â”€â”€ Instance Doctrine (always for active instance)
+        â”œâ”€â”€ Lane Overlay (when lane is active)
+        â””â”€â”€ Mode Overlay (when mode is triggered)
 ```
 
 **Narrowing rule:** Each layer may add constraints or specifics. No layer may loosen or contradict a higher layer. If a lane overlay says "allow X" but core doctrine says "never X," core doctrine wins.
@@ -47,7 +47,7 @@ Core Doctrine (always)
 | Knowledge boundary rule | Core | "Never merge facts the companion didn't provide" |
 | Gated pipeline law | Core | "The agent may stage. It may not merge." |
 | Merge script paths | Instance | `python scripts/process_approved_candidates.py --apply` |
-| Repository tree | Instance | `users/grace-mar/self.md`, `bot/prompt.py` |
+| Repository tree | Instance | `self.md`, `bot/prompt.py` |
 | Success metric commands | Instance | `python scripts/run_voice_benchmark.py` |
 | Lane-specific strategy | Lane | `docs/skill-work/work-politics/STRATEGY.md` |
 | Lane history log | Lane | `docs/skill-work/work-dev/work-dev-history.md` |
@@ -59,9 +59,9 @@ Core Doctrine (always)
 ## For template instances
 
 companion-self provides:
-- `AGENTS.md` — core doctrine (template version, near-identical across instances)
-- `users/_template/instance-doctrine.md` — scaffold with placeholder sections
-- `users/demo/instance-doctrine.md` — demo content
+- `AGENTS.md` â€” core doctrine (template version, near-identical across instances)
+- `_template/instance-doctrine.md` â€” scaffold with placeholder sections
+- `demo/instance-doctrine.md` â€” demo content
 - Lane overlay structure in `docs/skill-work/work-template/`
 - Mode overlay structure in `.cursor/skills/`
 
@@ -71,6 +71,7 @@ When `companion_factory.py` creates a new instance, it copies the template scaff
 
 ## Cross-references
 
-- [AGENTS.md](../AGENTS.md) — Core Doctrine (Layer 1)
-- [architectural-principles.md](architectural-principles.md) — Named design principles including this layer model
-- [docs/skill-work/work-template/MAPPING.md](skill-work/work-template/MAPPING.md) — Lane overlay mapping
+- [AGENTS.md](../AGENTS.md) â€” Core Doctrine (Layer 1)
+- [architectural-principles.md](architectural-principles.md) â€” Named design principles including this layer model
+- [docs/skill-work/work-template/MAPPING.md](skill-work/work-template/MAPPING.md) â€” Lane overlay mapping
+

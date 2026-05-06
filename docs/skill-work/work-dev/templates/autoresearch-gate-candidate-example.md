@@ -1,4 +1,4 @@
-# Autoresearch Gate Candidate Example
+﻿# Autoresearch Gate Candidate Example
 
 **Status:** Example only. **Not** staged. **Not** approved. Paste or adapt only through the normal Grace-Mar gate process.
 
@@ -58,4 +58,5 @@ status: "pending human review"
 
 ## Guardrail
 
-Rejected or inconclusive runs remain WORK-only unless the human separately chooses to stage and approve an EVIDENCE entry. This example does not authorize any direct edit to `users/grace-mar/recursion-gate.md` or Record files.
+Rejected or inconclusive runs remain WORK-only unless the human separately chooses to stage and approve an EVIDENCE entry. This example does not authorize any direct edit to `recursion-gate.md` or Record files.
+

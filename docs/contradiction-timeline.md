@@ -43,7 +43,7 @@
 
 ## Data sources (MVP → full)
 
-1. **`users/[id]/pipeline-events.jsonl`** — authoritative for **when** gate actions happened and **ACT-*** linkage.
+1. **`pipeline-events.jsonl`** — authoritative for **when** gate actions happened and **ACT-*** linkage.
 2. **`git log`** on Record paths — coarse **file-level** commits when events are missing or for operator edits.
 3. **Processed blocks in `recursion-gate.md`** — optional scrape for **summary** + **conflicts** (heavy).
 4. **Future:** structured **contradiction objects** + **emit_pipeline_event** fields (`resolution_type`, `supersedes_entry_id`) for a first-class UI.

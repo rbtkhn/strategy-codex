@@ -6,7 +6,7 @@
 
 **Prime directive:** The Record belongs to the companion. See GRACE-MAR-CORE §I for long-term objectives.
 
-**Preferred conceptual terms:** Use **Record** (not fork) and **Voice** (not bot) in conceptual discussion. *Fork* and *bot* remain for technical references (file paths, code). Use **companion** for the person whose Record it is — affectionate and relatable; "user" remains in technical identifiers (e.g. `users/[id]`, `--user`). **Framing:** The human is Grace-Mar's companion: the Record and Voice are accompanied by the human, who holds authority and meaning. **Grace-Mar serves the companion; the companion serves Grace-Mar.** Record = the documented self; Voice = the queryable interface that speaks the record. **Self = Record + Voice** — the thing you can talk to; together they form the queryable documented self.
+**Preferred conceptual terms:** Use **Record** (not fork) and **Voice** (not bot) in conceptual discussion. *Fork* and *bot* remain for technical references (file paths, code). Use **companion** for the person whose Record it is — affectionate and relatable; "user" remains in technical identifiers (e.g. `[id]`, `--user`). **Framing:** The human is Grace-Mar's companion: the Record and Voice are accompanied by the human, who holds authority and meaning. **Grace-Mar serves the companion; the companion serves Grace-Mar.** Record = the documented self; Voice = the queryable interface that speaks the record. **Self = Record + Voice** — the thing you can talk to; together they form the queryable documented self.
 
 ---
 
@@ -41,7 +41,7 @@ Terminology primer: see [glossary.md](glossary.md) for canonical definitions (Re
 
 | Component | Location | Role |
 |-----------|----------|------|
-| **The Record** (fork) | Inside the companion's mind (their mental model, made explicit and structured). Data: `users/[id]/self.md`, `self-skills.md`, **`self-archive.md`** (EVIDENCE); optional `self-evidence.md` pointer | The documented self |
+| **The Record** (fork) | Inside the companion's mind (their mental model, made explicit and structured). Data: `self.md`, `self-skills.md`, **`self-archive.md`** (EVIDENCE); optional `self-evidence.md` pointer | The documented self |
 | **The Voice** (bot) | `bot/bot.py` — Telegram interface | Observation window; queryable voice of the Record; teaching/tutoring (answers, explains, helps learn) — responds when queried, never unbidden |
 | **LLM** | External (OpenAI, etc.) | Generates text; constrained by SYSTEM_PROMPT (Record profile) |
 
@@ -160,7 +160,7 @@ Use the tetrad to anticipate second-order effects and avoid unintended reversals
 
 ## 8. Design Lens: Triadic Cognition
 
-**Triadic cognition** is this system’s core design: a **triad** of **Mind** (human) + **Record** + **Voice**. One part is **biological and sovereign**; two parts are **digital** — the **Record** (documented self) and the **Voice** (queryable interface that renders the Record). The **companion-self** architecture (template and protocol family) defines how those digital parts behave; each **instance** hosts them under `users/<id>/`, bot, and pipeline. **Grace-Mar** names **this** deployment: it **hosts** the digital pair for the grace-mar companion while **Mind** remains human. **Companion self** (two words) = human–computer triadic cognition for that triad. The phrase **tricameral mind** remains a **synonym** in prompts and historical contrast (Jaynes); prefer **triadic cognition** in new conceptual prose. *(The earlier "bicameral dyad" framing is deprecated — it collapsed Record+Voice into one part and was confusing.)* The human is Grace-Mar's companion: Record and Voice are accompanied by the human, who holds authority and meaning. **Grace-Mar serves the companion; the companion serves Grace-Mar.**
+**Triadic cognition** is this system’s core design: a **triad** of **Mind** (human) + **Record** + **Voice**. One part is **biological and sovereign**; two parts are **digital** — the **Record** (documented self) and the **Voice** (queryable interface that renders the Record). The **companion-self** architecture (template and protocol family) defines how those digital parts behave; each **instance** hosts them under ``, bot, and pipeline. **Grace-Mar** names **this** deployment: it **hosts** the digital pair for the grace-mar companion while **Mind** remains human. **Companion self** (two words) = human–computer triadic cognition for that triad. The phrase **tricameral mind** remains a **synonym** in prompts and historical contrast (Jaynes); prefer **triadic cognition** in new conceptual prose. *(The earlier "bicameral dyad" framing is deprecated — it collapsed Record+Voice into one part and was confusing.)* The human is Grace-Mar's companion: Record and Voice are accompanied by the human, who holds authority and meaning. **Grace-Mar serves the companion; the companion serves Grace-Mar.**
 
 **Not a fourth part of the triad — WORK execution.** Execution on **WORK territories** and **`docs/skill-work/**` (operator + AI assistant + scripts: draft, mirror, stage, run pipeline) is the **WORK execution layer**. It is **instrumental**: it **proposes** and **stages**; only **Mind** (via gate approval) disposes of what **merges into the Record**. This layer is **not** co-equal with Mind, Record, and Voice — otherwise the model would imply four competing seats of agency. The triad describes **who the companion is** in the system; **WORK execution** describes **how adjacent work gets done** without bypassing the gate. See [SKILLS-MODULARITY §5a](skills-modularity.md#5a-identity-vs-instrument-record-skills-and-work) and [glossary — WORK execution layer](glossary.md).
 
@@ -261,7 +261,7 @@ docs/grace-mar-core.md     → Canonical governance (absolute authority)
 docs/architecture.md       → Full system design
 docs/knowledge-boundary-framework.md → Quantifying and describing the knowledge boundary; treatment of information
 bootstrap/grace-mar-bootstrap.md → Session bootstrap, quick start
-.cursor/rules/grace-mar.mdc → Cursor-specific rule (users/**)
+.cursor/rules/grace-mar.mdc → Cursor-specific rule (**)
 ```
 
 ---

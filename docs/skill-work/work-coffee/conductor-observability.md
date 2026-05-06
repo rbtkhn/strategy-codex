@@ -10,7 +10,7 @@ This slice scores **Conductor action MCQ** text blocks with deterministic **heur
 
 - Scores are **stylistic and overlap proxies** (discrimination, grounding, actionability, slug-aligned fidelity hints).
 - They do **not** validate factual correctness, policy compliance, or operator approval.
-- **No automation** merges scores into `recursion-gate.md`, `users/**`, or the Voice prompt.
+- **No automation** merges scores into `recursion-gate.md`, `**`, or the Voice prompt.
 
 ## Regeneration
 

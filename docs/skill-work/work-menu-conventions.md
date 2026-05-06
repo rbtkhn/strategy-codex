@@ -1,6 +1,6 @@
-# WORK menu conventions (Cursor operator)
+﻿# WORK menu conventions (Cursor operator)
 
-**Purpose:** When you are in **work-strategy**, **work-politics**, **work-jiang**, or **work-dev**, the assistant ends most substantive turns with **labeled forks** (multiple choice). This doc names the **shape** so menus stay **useful, grounded, and pivot-only** (no faux “done”).
+**Purpose:** When you are in **work-strategy**, **work-politics**, **work-jiang**, or **work-dev**, the assistant ends most substantive turns with **labeled forks** (multiple choice). This doc names the **shape** so menus stay **useful, grounded, and pivot-only** (no faux â€œdoneâ€).
 
 **Rule source:** [`.cursor/rules/operator-style.mdc`](../../.cursor/rules/operator-style.mdc) (always-on).
 
@@ -8,7 +8,7 @@
 
 ## 1. Real forks only
 
-Each option must be a **different next move** (different file, command, lane, or depth). Avoid filler (“continue”, “nothing else”) — work **switches**, it does not terminate in-menu.
+Each option must be a **different next move** (different file, command, lane, or depth). Avoid filler (â€œcontinueâ€, â€œnothing elseâ€) â€” work **switches**, it does not terminate in-menu.
 
 ---
 
@@ -16,7 +16,7 @@ Each option must be a **different next move** (different file, command, lane, or
 
 When a fork touches the **Record** or **gate**, include at least one **explicit anchor** per option where helpful:
 
-- `` `users/grace-mar/recursion-gate.md` `` and **`CANDIDATE-XXXX`** when relevant
+- `` `recursion-gate.md` `` and **`CANDIDATE-XXXX`** when relevant
 - Repo-relative paths: `` `docs/skill-work/...` ``, `` `scripts/....py` ``
 - Links to GitHub are fine for **read-only** context; **canonical edits** stay in this repo
 
@@ -28,9 +28,9 @@ This turns selection into **grounded** handoff without bypassing **RECURSION-GAT
 
 Optional short tags on each line, **clearly heuristic** (not estimates of wall-clock certainty):
 
-- **Time:** `~15m`, `~45m` — rough order of magnitude
-- **Leverage:** `high-leverage`, `hygiene`, `deep` — qualitative
-- **Do not** present uncalibrated **percentages** as oracle metrics (e.g. fake “gate merge probability %”) unless a **defined script** computes them
+- **Time:** `~15m`, `~45m` â€” rough order of magnitude
+- **Leverage:** `high-leverage`, `hygiene`, `deep` â€” qualitative
+- **Do not** present uncalibrated **percentages** as oracle metrics (e.g. fake â€œgate merge probability %â€) unless a **defined script** computes them
 
 ---
 
@@ -45,15 +45,15 @@ Keep menu letters as UI conveniences. Durable logs should still use conductor sl
 ## 4. Combo and hybrid options
 
 - The operator may answer **`A+C`** (or similar); the assistant executes both compatible branches.
-- When two options combine naturally, you may add one line: **Combo:** `B + half of D` — *brief label explaining the merge* (still one human pick; do not develop the combo content until selected).
-- **`F` — All (strategy-notebook hygiene bundle):** In one pass — (1) **verify hooks** / Primary-pull targets in `daily-strategy-inbox.md`, (2) **MINDS** cross-pointer to dated mind-file addenda (e.g. `CIV-MIND-MERCOURIS.md` **III.M**), (3) **Carry** lines that tie inbox ↔ mind. **Exclude** weaving scratch into `chapters/YYYY-MM/days.md` unless **`dream`** or **explicit operator direction** — early **weave** risks duplicate **Judgment** before **Links** verify.
-- **`strategy + verify`** — **Work-strategy** fork: same intent as **`strategy`** / **`strategy ingest`**, plus a **triage fact-check** ([`.cursor/skills/fact-check/SKILL.md`](../../.cursor/skills/fact-check/SKILL.md)) and/or **web pass** on **load-bearing** claims — especially **rosters**, **dates**, and **stats** from **transcripts**. Land outcomes in **`daily-strategy-inbox.md`** (**`verify:`**, **Primary pulls**) and, when folding, **`### Web verification`** / **`### References`** in `days.md` — not **`### Reflection`** without sources. Spec: [`.cursor/skills/skill-strategy/SKILL.md`](../../.cursor/skills/skill-strategy/SKILL.md) (**Modes** → **+ verify**, **Transcript / analyst capture**); architecture: [STRATEGY-NOTEBOOK-ARCHITECTURE.md](work-strategy/strategy-notebook/STRATEGY-NOTEBOOK-ARCHITECTURE.md) § *skill-strategy modes and verification passes*.
+- When two options combine naturally, you may add one line: **Combo:** `B + half of D` â€” *brief label explaining the merge* (still one human pick; do not develop the combo content until selected).
+- **`F` â€” All (strategy-notebook hygiene bundle):** In one pass â€” (1) **verify hooks** / Primary-pull targets in `daily-strategy-inbox.md`, (2) **MINDS** cross-pointer to dated mind-file addenda (e.g. `CIV-MIND-MERCOURIS.md` **III.M**), (3) **Carry** lines that tie inbox â†” mind. **Exclude** weaving scratch into `chapters/YYYY-MM/days.md` unless **`dream`** or **explicit operator direction** â€” early **weave** risks duplicate **Judgment** before **Links** verify.
+- **`strategy + verify`** â€” **Work-strategy** fork: same intent as **`strategy`** / **`strategy ingest`**, plus a **triage fact-check** ([`.cursor/skills/fact-check/SKILL.md`](../../.cursor/skills/fact-check/SKILL.md)) and/or **web pass** on **load-bearing** claims â€” especially **rosters**, **dates**, and **stats** from **transcripts**. Land outcomes in **`daily-strategy-inbox.md`** (**`verify:`**, **Primary pulls**) and, when folding, **`### Web verification`** / **`### References`** in `days.md` â€” not **`### Reflection`** without sources. Spec: [`.cursor/skills/skill-strategy/SKILL.md`](../../.cursor/skills/skill-strategy/SKILL.md) (**Modes** â†’ **+ verify**, **Transcript / analyst capture**); architecture: [STRATEGY-NOTEBOOK-ARCHITECTURE.md](work-strategy/strategy-notebook/STRATEGY-NOTEBOOK-ARCHITECTURE.md) Â§ *skill-strategy modes and verification passes*.
 
 ---
 
 ## 5. Optional confidence / LLM assist (off by default)
 
-If the operator enables an **experimental** “confidence” or “explain first” mode:
+If the operator enables an **experimental** â€œconfidenceâ€ or â€œexplain firstâ€ mode:
 
 - Any numeric score is **assistant uncertainty**, not ground truth.
 - Prefer a **one-sentence** rationale over blocking the whole menu.
@@ -72,9 +72,9 @@ If the operator enables an **experimental** “confidence” or “explain first
 python3 scripts/log_operator_choice.py -u grace-mar --context WORK --picked A --tags "~20m,gate" --note "optional"
 ```
 
-Appends `### [WORK-choice]` blocks to **`users/<id>/session-transcript.md`** (operator continuity, not gated Record).
+Appends `### [WORK-choice]` blocks to **`session-transcript.md`** (operator continuity, not gated Record).
 
-**`coffee` session trail:** Sessions started with **`coffee`** (work-start vs signing-off Step 1; optional light, minimal, survey; legacy **`hey`** still works) can leave traces in **`users/<id>/session-transcript.md`** (raw lines and **`[WORK-choice]`** via `log_operator_choice.py`) and/or dated bullets under **`docs/skill-work/work-*/*-history.md`** (per-lane milestones — [work-modules-history-principle.md](work-modules-history-principle.md)). Distinct from **`self-memory.md`** (companion continuity). See [canonical paths](../canonical-paths.md).
+**`coffee` session trail:** Sessions started with **`coffee`** (work-start vs signing-off Step 1; optional light, minimal, survey; legacy **`hey`** still works) can leave traces in **`session-transcript.md`** (raw lines and **`[WORK-choice]`** via `log_operator_choice.py`) and/or dated bullets under **`docs/skill-work/work-*/*-history.md`** (per-lane milestones â€” [work-modules-history-principle.md](work-modules-history-principle.md)). Distinct from **`self-memory.md`** (companion continuity). See [canonical paths](../canonical-paths.md).
 
 **Aggregate after ~30 days:**
 
@@ -83,18 +83,18 @@ python3 scripts/menu_choice_evolution.py -u grace-mar --days 30
 python3 scripts/menu_choice_evolution.py -u grace-mar --days 30 --print-gate-stub
 ```
 
-The gate stub is **stdout only** — paste and edit **`CANDIDATE-XXXX`** before any merge.
+The gate stub is **stdout only** â€” paste and edit **`CANDIDATE-XXXX`** before any merge.
 
-**Strategy ingest session receipt (optional):** End-of-session tally for **X / transcript ingests** without duplicating full lines in `session-transcript.md` — the **SSOT** for paste-ready lines stays [strategy-notebook/daily-strategy-inbox.md](work-strategy/strategy-notebook/daily-strategy-inbox.md). Example:
+**Strategy ingest session receipt (optional):** End-of-session tally for **X / transcript ingests** without duplicating full lines in `session-transcript.md` â€” the **SSOT** for paste-ready lines stays [strategy-notebook/daily-strategy-inbox.md](work-strategy/strategy-notebook/daily-strategy-inbox.md). Example:
 
 ```bash
 python3 scripts/log_operator_choice.py -u grace-mar --context WORK --picked strategy-ingest \
   --tags "count=7" --note "see daily-strategy-inbox 2026-04-12"
 ```
 
-`--note` is truncated at **500 characters** by the script — use a **pointer** (date / file), not a full paste dump. First-class `--context INGEST` is **not** required; `WORK` + `picked` + tags is enough for aggregation.
+`--note` is truncated at **500 characters** by the script â€” use a **pointer** (date / file), not a full paste dump. First-class `--context INGEST` is **not** required; `WORK` + `picked` + tags is enough for aggregation.
 
-**Strategy weave ledger (optional):** After weaving [strategy-notebook/daily-strategy-inbox.md](work-strategy/strategy-notebook/daily-strategy-inbox.md) into `chapters/YYYY-MM/days.md`, append one JSONL event (compression proxies, optional ratings) — not session-transcript, not MEMORY:
+**Strategy weave ledger (optional):** After weaving [strategy-notebook/daily-strategy-inbox.md](work-strategy/strategy-notebook/daily-strategy-inbox.md) into `chapters/YYYY-MM/days.md`, append one JSONL event (compression proxies, optional ratings) â€” not session-transcript, not MEMORY:
 
 ```bash
 python3 scripts/log_strategy_fold.py -u grace-mar --notebook-date 2026-04-13 --fold-kind manual \
@@ -104,13 +104,13 @@ python3 scripts/report_strategy_fold_learning.py -u grace-mar --days 30
 
 Spec: [FOLD-LEARNING.md](work-strategy/strategy-notebook/FOLD-LEARNING.md).
 
-**Strategy context (cold start):** `python3 scripts/strategy_context.py -u grace-mar` prints one **≤120-word** re-entry paragraph (notebook **Open**, inbox, daily brief §1b, STRATEGY / promotion ladder / commentator index) or **`--compact`** path/status lines; **`--meta`** / **`--minds`** add month **`meta.md`** and Tri-Frame **`minds/outputs`** pointers; **`--recent N`** or **`--history`** (N=20) appends **lightweight history** (fold JSONL + filtered WORK-choice + optional **`--recent-git K`**); **`--log`** appends a **`WORK-choice`** receipt to **`session-transcript.md`** via `log_operator_choice.py` (pointer-only note). See [work-strategy README — `strategy-context`](work-strategy/README.md#strategy-session-helpers-skill-strategy).
+**Strategy context (cold start):** `python3 scripts/strategy_context.py -u grace-mar` prints one **â‰¤120-word** re-entry paragraph (notebook **Open**, inbox, daily brief Â§1b, STRATEGY / promotion ladder / commentator index) or **`--compact`** path/status lines; **`--meta`** / **`--minds`** add month **`meta.md`** and Tri-Frame **`minds/outputs`** pointers; **`--recent N`** or **`--history`** (N=20) appends **lightweight history** (fold JSONL + filtered WORK-choice + optional **`--recent-git K`**); **`--log`** appends a **`WORK-choice`** receipt to **`session-transcript.md`** via `log_operator_choice.py` (pointer-only note). See [work-strategy README â€” `strategy-context`](work-strategy/README.md#strategy-session-helpers-skill-strategy).
 
 ---
 
 ## 7. Multi-agent fork generation (experimental)
 
-See [work-strategy/multi-agent-fork-generator.md](work-strategy/multi-agent-fork-generator.md) — optional two-pass / subagent pattern; human still chooses one branch.
+See [work-strategy/multi-agent-fork-generator.md](work-strategy/multi-agent-fork-generator.md) â€” optional two-pass / subagent pattern; human still chooses one branch.
 
 ---
 
@@ -122,10 +122,11 @@ Dated WORK outputs (daily brief, weekly scaffold, newsletter digest, optional `m
 
 ## See also
 
-- **`strategy + verify`** (named fork) — §4 **Combo and hybrid options** above; full spec under **work-strategy** in [skill-strategy SKILL](../../.cursor/skills/skill-strategy/SKILL.md).
-- **Fixed session menu (`coffee` — same **A–E** hub for work-start and signing-off; legacy **hey** still works):** not the 3–5 WORK pattern — canonical hub: **A** Steward, **B** Engineer, **C** Historian, **D** Capitalist, **E** Conductor. **Symphony masters** are **not** five hub lines — [conductor skill](../../../.cursor/skills/conductor/SKILL.md). **C** exits the coffee hub by default unless **`stay in coffee`**; **skills** / **meta:** say with **B — Engineer**. Legacy **A–G** workload table for mapping: [menu-reference.md](../work-coffee/menu-reference.md). Roles: [.cursor/skills/coffee/SKILL.md](../../../.cursor/skills/coffee/SKILL.md).
-- [Operator–agent lanes](../../operator-agent-lanes.md)
+- **`strategy + verify`** (named fork) â€” Â§4 **Combo and hybrid options** above; full spec under **work-strategy** in [skill-strategy SKILL](../../.cursor/skills/skill-strategy/SKILL.md).
+- **Fixed session menu (`coffee` â€” same **Aâ€“E** hub for work-start and signing-off; legacy **hey** still works):** not the 3â€“5 WORK pattern â€” canonical hub: **A** Steward, **B** Engineer, **C** Historian, **D** Capitalist, **E** Conductor. **Symphony masters** are **not** five hub lines â€” [conductor skill](../../../.cursor/skills/conductor/SKILL.md). **C** exits the coffee hub by default unless **`stay in coffee`**; **skills** / **meta:** say with **B â€” Engineer**. Legacy **Aâ€“G** workload table for mapping: [menu-reference.md](../work-coffee/menu-reference.md). Roles: [.cursor/skills/coffee/SKILL.md](../../../.cursor/skills/coffee/SKILL.md).
+- [Operatorâ€“agent lanes](../../operator-agent-lanes.md)
 - [Coffee skill](../../../.cursor/skills/coffee/SKILL.md)
 - [Work territory history logs](work-modules-history-principle.md) (`docs/skill-work/work-*/*-history.md`)
-- [Bootstrap — coffee](../../../bootstrap/grace-mar-bootstrap.md)
+- [Bootstrap â€” coffee](../../../bootstrap/grace-mar-bootstrap.md)
 - [Date and time formats](../date-time-conventions.md)
+

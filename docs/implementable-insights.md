@@ -13,7 +13,7 @@ Concrete takeaways from external discourse (Claws, AGI/harness discussions) that
 | 3 | No autonomous merge or open-ended agent goals — only reflect Record + stage. |
 | 4 | New channel → follow **[adding-a-channel](adding-a-channel.md)**. |
 | 5 | Prefer **scripts/docs** over bloating core; run **governance_checker** before big prompt changes. |
-| 6 | New instance → clone + **`users/[id]`**; optional features = **skills**. |
+| 6 | New instance → clone + **`[id]`**; optional features = **skills**. |
 | 7 | On model/agent upgrades: keep **gate + knowledge boundary + abstention**. |
 | 8 | Lookups: **`report_lookup_sources.py`** · stale pending: **`operator_blocker_report.py`** · dedup hints: **`pending_dedup_hint.py`** |
 | 9 | Small merges, short pipeline — run harness often. |
@@ -103,7 +103,7 @@ Concrete takeaways from external discourse (Claws, AGI/harness discussions) that
 **Insight:** Clone → add user dir → run pipeline = base fork. Optional "skills" (docs + scripts) add capabilities (channels, exports, probes) without baking them into core.
 
 **Implementable actions:**
-- Document fork path in README or [PORTABILITY](portability.md): clone, create `users/[id]`, run pipeline; optional skills = listed in docs.
+- Document fork path in README or [PORTABILITY](portability.md): clone, create `[id]`, run pipeline; optional skills = listed in docs.
 - New features that are optional (e.g. a new export, a new channel) should be addable via a skill doc + minimal code, not mandatory core.
 
 **Status:** PORTABILITY and repo layout support this; ADDING-A-CHANNEL is one skill template.

@@ -12,7 +12,7 @@ Last Update: March 2026
 
 ## I. PURPOSE
 
-The MEMORY module (**self-memory**, canonical file **`self-memory.md`** under `users/[id]/`; legacy **`memory.md`** is still read by tooling until migrated — see [canonical-paths.md](canonical-paths.md)) holds **continuity context** at **three horizons** — short, medium, and long — used to prime the Voice and improve continuity. Content is **mostly chronological**: within each horizon, entries read as a **time-ordered prose thread** (what happened lately, what is open now). That is a **slim** chronology — not **multicategory** structured evidence (no READ-/ACT- sections, no artifact spine). MEMORY is **not part of the Record**. It refines; it does not override SELF.
+The MEMORY module (**self-memory**, canonical file **`self-memory.md`** under ``; legacy **`memory.md`** is still read by tooling until migrated — see [canonical-paths.md](canonical-paths.md)) holds **continuity context** at **three horizons** — short, medium, and long — used to prime the Voice and improve continuity. Content is **mostly chronological**: within each horizon, entries read as a **time-ordered prose thread** (what happened lately, what is open now). That is a **slim** chronology — not **multicategory** structured evidence (no READ-/ACT- sections, no artifact spine). MEMORY is **not part of the Record**. It refines; it does not override SELF.
 
 **“Ephemeral” in governance docs** means **outside the gated Record** and **intended to be rotated or pruned** — **not** a synonym for “short-term only.” All three horizons (including **long**) are still MEMORY, not SELF; **long** is for **meta** (pointers, habits, where truth lives), not for smuggling durable identity or facts without the gate.
 
@@ -73,7 +73,7 @@ Document policy in the file header / **Long-term** block. Optional: `expires: YY
 
 `python3 scripts/prune_self_memory.py -u <id> --dry-run` then `--apply`
 
-Removed text is written to **`users/<id>/artifacts/memory-prune/`**. With **`--archive`**, the same excerpt is also appended under **`self-archive.md` § IX** (continuity housekeeping — not a substitute for gated merges). This does **not** bypass RECURSION-GATE for identity or knowledge claims; it preserves **continuity buffer** text that would otherwise be discarded.
+Removed text is written to **`artifacts/memory-prune/`**. With **`--archive`**, the same excerpt is also appended under **`self-archive.md` § IX** (continuity housekeeping — not a substitute for gated merges). This does **not** bypass RECURSION-GATE for identity or knowledge claims; it preserves **continuity buffer** text that would otherwise be discarded.
 
 The Voice loads horizons in order (**short → medium → long**) with **per-section line caps** in code to limit prompt size.
 

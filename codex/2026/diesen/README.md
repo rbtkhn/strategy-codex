@@ -4,7 +4,7 @@
 
 ## Shelf
 
-- Profile: [diesen-profile.md](diesen-profile.md)
+- Profile: [diesen-profile.md](../../profiles/diesen-profile.md)
 - Monthly book: [diesen-book-2026-04.md](diesen-book-2026-04.md)
 - Daily chapter seed: [diesen-chapter-2026-04-01.md](diesen-chapter-2026-04-01.md)
 - Thread compatibility file: [diesen-thread.md](diesen-thread.md)

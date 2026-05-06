@@ -1,8 +1,8 @@
-# WORK-TEMPLATE — Generic WORK territory pattern library
+﻿# WORK-TEMPLATE â€” Generic WORK territory pattern library
 
 **Status:** Template / scaffold  
 **Scope:** Reusable architecture for any WORK territory (`work-strategy`, `work-politics`, `work-dev`, future `work-*` lanes).  
-**Boundary:** WORK only. No direct Record, SELF, EVIDENCE, or Voice writes. Promotion beyond WORK requires the lane’s gate and companion approval where Record or Voice are affected.
+**Boundary:** WORK only. No direct Record, SELF, EVIDENCE, or Voice writes. Promotion beyond WORK requires the laneâ€™s gate and companion approval where Record or Voice are affected.
 
 **Relation to MV checklist:** **Tier 0** onboarding steps live in [work-template.md](../work-template.md) (README + history + registry). This folder is the **deeper pattern library** (ledger, daily surface, emerging patterns, multi-frame review).
 
@@ -28,21 +28,21 @@ Copy-paste stubs for new `work-*` lanes: [lane-contract.template.md](lane-contra
 
 ## Glossary (lifecycle)
 
-- **Promoted-to-ledger:** A pattern, heuristic, or watch is recorded in the lane’s **WORK-LEDGER** (or lane-specific equivalent such as [STRATEGY.md](../work-strategy/STRATEGY.md)). Still WORK-only.  
+- **Promoted-to-ledger:** A pattern, heuristic, or watch is recorded in the laneâ€™s **WORK-LEDGER** (or lane-specific equivalent such as [STRATEGY.md](../work-strategy/STRATEGY.md)). Still WORK-only.  
 - **Promoted-to-Record:** Content crosses into **SELF**, **EVIDENCE**, or **prompt** only via **RECURSION-GATE** + companion approval + `process_approved_candidates.py` per [AGENTS.md](../../AGENTS.md).
 
-Do not use **“promoted”** alone when both meanings could apply; specify ledger vs Record.
+Do not use **â€œpromotedâ€** alone when both meanings could apply; specify ledger vs Record.
 
 ---
 
 ## Core design principles
 
-1. **Boundary first** — WORK lanes do not directly overwrite Record, SELF, EVIDENCE, or Voice; all promotion beyond WORK is gated. See [BOUNDARY.md](BOUNDARY.md).  
-2. **One daily horizon** — Compact daily surface for operator review; distinguish **fast** inputs from **slow** background context.  
-3. **Emerging patterns over premature certainty** — Early, incomplete patterns that might matter; test before promotion. See [emerging-patterns.md](emerging-patterns.md).  
-4. **Multiple frames before synthesis** — Important questions through more than one frame; preserve productive tensions when useful. See [multi-frame-review.md](multi-frame-review.md).  
-5. **Compounding lane memory** — Local ledger for heuristics, watches, experiments, execution memory. See [WORK-LEDGER.md](WORK-LEDGER.md).  
-6. **Promotion and retirement discipline** — Lifecycle states; retire weak or falsified patterns honestly.  
+1. **Boundary first** â€” WORK lanes do not directly overwrite Record, SELF, EVIDENCE, or Voice; all promotion beyond WORK is gated. See [BOUNDARY.md](BOUNDARY.md).  
+2. **One daily horizon** â€” Compact daily surface for operator review; distinguish **fast** inputs from **slow** background context.  
+3. **Emerging patterns over premature certainty** â€” Early, incomplete patterns that might matter; test before promotion. See [emerging-patterns.md](emerging-patterns.md).  
+4. **Multiple frames before synthesis** â€” Important questions through more than one frame; preserve productive tensions when useful. See [multi-frame-review.md](multi-frame-review.md).  
+5. **Compounding lane memory** â€” Local ledger for heuristics, watches, experiments, execution memory. See [WORK-LEDGER.md](WORK-LEDGER.md).  
+6. **Promotion and retirement discipline** â€” Lifecycle states; retire weak or falsified patterns honestly.  
 
 ---
 
@@ -51,24 +51,24 @@ Do not use **“promoted”** alone when both meanings could apply; specify ledg
 | Tier | Name | Artifacts |
 |------|------|-----------|
 | **0** | **Minimum viable lane** | [work-template.md](../work-template.md): `work-<id>/README.md`, `work-<id>-history.md`, register in [skill-work README](../README.md) and [work-modules-history-principle](../work-modules-history-principle.md). |
-| **1** | **Minimal architecture** | [BOUNDARY.md](BOUNDARY.md) (or excerpt in README) + [WORK-LEDGER.md](WORK-LEDGER.md) + [daily-brief-template.md](daily-brief-template.md) (semantic section titles — no fixed § numbers). |
+| **1** | **Minimal architecture** | [BOUNDARY.md](BOUNDARY.md) (or excerpt in README) + [WORK-LEDGER.md](WORK-LEDGER.md) + [daily-brief-template.md](daily-brief-template.md) (semantic section titles â€” no fixed Â§ numbers). |
 | **2** | **Signals + frames** | Tier 1 + [emerging-patterns.md](emerging-patterns.md), [emerging-pattern-template.md](emerging-pattern-template.md), [framing-audit-template.md](framing-audit-template.md), [multi-frame-review.md](multi-frame-review.md). |
-| **3** | **Full** | Tier 2 + [background-context.md](background-context.md), [lane-cadence.md](lane-cadence.md) (not `cadence.md` — avoids confusion with [work-cadence/](../work-cadence/) telemetry territory), plus optional [weekly-review.md](weekly-review.md), [experiment-log.md](experiment-log.md), [promotion-rules.md](promotion-rules.md). |
+| **3** | **Full** | Tier 2 + [background-context.md](background-context.md), [lane-cadence.md](lane-cadence.md) (not `cadence.md` â€” avoids confusion with [work-cadence/](../work-cadence/) telemetry territory), plus optional [weekly-review.md](weekly-review.md), [experiment-log.md](experiment-log.md), [promotion-rules.md](promotion-rules.md). |
 
-Lanes may stop at any tier. Do not copy nine files into a thin lane “because the template said required.”
+Lanes may stop at any tier. Do not copy nine files into a thin lane â€œbecause the template said required.â€
 
 ---
 
 ## Canonical operating loop
 
-1. **Ingest** — Headlines, repos, notes, events, tickets, memos, conversations, task outputs (lane-specific).  
-2. **Lane snapshot** — Compact operator view of the lane today.  
-3. **Background context** — Slower-moving context that interprets current inputs ([background-context.md](background-context.md)).  
-4. **Emerging pattern check** — One or more early patterns worth monitoring when credible.  
-5. **Framing audit** — Test important frames, analogies, or models before relying on them ([framing-audit-template.md](framing-audit-template.md)).  
-6. **Multi-frame review** — Multiple perspectives on the same problem before synthesis (frames defined per lane — see [MAPPING.md](MAPPING.md)).  
-7. **Synthesis** — What matters, what is uncertain, what to do next, what to watch.  
-8. **Promotion / retirement** — Durable items into the ledger; retire falsified or exhausted items.  
+1. **Ingest** â€” Headlines, repos, notes, events, tickets, memos, conversations, task outputs (lane-specific).  
+2. **Lane snapshot** â€” Compact operator view of the lane today.  
+3. **Background context** â€” Slower-moving context that interprets current inputs ([background-context.md](background-context.md)).  
+4. **Emerging pattern check** â€” One or more early patterns worth monitoring when credible.  
+5. **Framing audit** â€” Test important frames, analogies, or models before relying on them ([framing-audit-template.md](framing-audit-template.md)).  
+6. **Multi-frame review** â€” Multiple perspectives on the same problem before synthesis (frames defined per lane â€” see [MAPPING.md](MAPPING.md)).  
+7. **Synthesis** â€” What matters, what is uncertain, what to do next, what to watch.  
+8. **Promotion / retirement** â€” Durable items into the ledger; retire falsified or exhausted items.  
 
 ---
 
@@ -78,9 +78,9 @@ Lanes may stop at any tier. Do not copy nine files into a thin lane “because t
 |-----------|-------------|
 | **A. Boundary contract** | What the lane is for; what it may write; what it may not; how promotion works; which gate applies. |
 | **B. Daily horizon** | Lane snapshot, focus, fast vs slow, optional emerging-pattern block, synthesis, next actions. |
-| **C. Emerging-pattern lifecycle** | watch → escalating → **promoted-to-ledger** or **retired** (align status labels with lane habits). |
+| **C. Emerging-pattern lifecycle** | watch â†’ escalating â†’ **promoted-to-ledger** or **retired** (align status labels with lane habits). |
 | **D. Framing audit** | Test whether a proposed framing is useful before it hardens into doctrine. |
-| **E. Multi-frame review** | At least 2–3 recurrent frames; **definitions** live in a lane manifest or table, not duplicated in the procedure doc. |
+| **E. Multi-frame review** | At least 2â€“3 recurrent frames; **definitions** live in a lane manifest or table, not duplicated in the procedure doc. |
 | **F. Lane ledger** | Compounding WORK-local memory. |
 
 ---
@@ -93,18 +93,18 @@ Lanes may stop at any tier. Do not copy nine files into a thin lane “because t
 | **work-dev** | Architecture / product / tooling shifts | Benchmark or architecture comparison audit | Product / architecture / operations | Debt, constraints, roadmap, platform state ([workspace.md](../work-dev/workspace.md)) |
 | **work-politics** | Coalition / narrative / campaign shifts | Electoral or institutional precedent audit | Persuasion / coalition / institutional ([analytical-lenses/manifest.md](../work-politics/analytical-lenses/manifest.md)) | District, donors, legal timing, coalition structure |
 
-**External companion / advisor lanes** (supporting **another** person’s instance or governed workspace from grace-mar) need **stricter Record-boundary language** than a normal in-repo WORK lane: never host their canonical Record, never copy `users/grace-mar/**` outward, and keep promotion paths pointed at **their** gate. Pattern: [external-companion-workspace-template.md](external-companion-workspace-template.md).
+**External companion / advisor lanes** (supporting **another** personâ€™s instance or governed workspace from grace-mar) need **stricter Record-boundary language** than a normal in-repo WORK lane: never host their canonical Record, never copy `**` outward, and keep promotion paths pointed at **their** gate. Pattern: [external-companion-workspace-template.md](external-companion-workspace-template.md).
 
-**Lane → file mapping:** [MAPPING.md](MAPPING.md).
+**Lane â†’ file mapping:** [MAPPING.md](MAPPING.md).
 
 ---
 
 ## Repo machinery (light touch)
 
-- **Gate / Record:** [AGENTS.md](../../AGENTS.md) — merge only via script after companion approval.  
+- **Gate / Record:** [AGENTS.md](../../AGENTS.md) â€” merge only via script after companion approval.  
 - **Operator menus:** [work-menu-conventions.md](../work-menu-conventions.md).  
 - **Lane prefixes:** [operator-agent-lanes.md](../../operator-agent-lanes.md).  
-- **Coffee / daily brief habit:** [.cursor/skills/coffee/SKILL.md](../../../.cursor/skills/coffee/SKILL.md), [work-coffee/README.md](../work-coffee/README.md) — e.g. work-strategy combined brief is **coffee menu C — Strategy (daily brief)** (generator does not run in coffee Step 1).  
+- **Coffee / daily brief habit:** [.cursor/skills/coffee/SKILL.md](../../../.cursor/skills/coffee/SKILL.md), [work-coffee/README.md](../work-coffee/README.md) â€” e.g. work-strategy combined brief is **coffee menu C â€” Strategy (daily brief)** (generator does not run in coffee Step 1).  
 - **PR labels:** Many lanes use [LANE-CI.md](../work-strategy/LANE-CI.md)-style labeling; mirror per lane.  
 
 ---
@@ -113,10 +113,10 @@ Lanes may stop at any tier. Do not copy nine files into a thin lane “because t
 
 | File | Tier | Role |
 |------|------|------|
-| [README.md](README.md) | — | This index |
-| [external-companion-workspace-template.md](external-companion-workspace-template.md) | — (additive) | Advisor lane for **another** companion’s instance—Record boundaries, mirror rules, promotion path |
+| [README.md](README.md) | â€” | This index |
+| [external-companion-workspace-template.md](external-companion-workspace-template.md) | â€” (additive) | Advisor lane for **another** companionâ€™s instanceâ€”Record boundaries, mirror rules, promotion path |
 | [BOUNDARY.md](BOUNDARY.md) | 1+ | Copy-paste boundary checklist |
-| [MAPPING.md](MAPPING.md) | — | Existing lanes ↔ template concepts |
+| [MAPPING.md](MAPPING.md) | â€” | Existing lanes â†” template concepts |
 | [WORK-LEDGER.md](WORK-LEDGER.md) | 1+ | Generic ledger scaffold |
 | [daily-brief-template.md](daily-brief-template.md) | 1+ | Semantic daily surface (example mapping for work-strategy) |
 | [emerging-patterns.md](emerging-patterns.md) | 2+ | Generic emerging-pattern discipline |
@@ -141,7 +141,7 @@ Retire when falsifier hits, recurrence stops, explanatory power drops, or a stro
 
 ## Standard
 
-Observe early → frame carefully → compare honestly → synthesize slowly → promote selectively → retire cleanly.
+Observe early â†’ frame carefully â†’ compare honestly â†’ synthesize slowly â†’ promote selectively â†’ retire cleanly.
 
 ---
 
@@ -151,7 +151,7 @@ Any WORK territory that creates **ongoing obligations** (active artifacts, exter
 
 ### 1. Quantitative success criteria
 
-Define how you know the lane or artifact is working. At least 2–3 measurable targets before shipping. Examples: retrieval precision, review time budget, propagation reach, signal-to-noise ratio. Without numbers, "success" is unfalsifiable.
+Define how you know the lane or artifact is working. At least 2â€“3 measurable targets before shipping. Examples: retrieval precision, review time budget, propagation reach, signal-to-noise ratio. Without numbers, "success" is unfalsifiable.
 
 **Template:**
 
@@ -171,7 +171,7 @@ List recurring maintenance tasks that prevent silent degradation. Each task need
 
 ### 3. Deprecation / retirement path
 
-Document what happens when the lane, artifact, or dependency is abandoned. The answer should be "cleanup, not migration" — if retiring a lane requires a complex data migration, the architecture has a coupling problem.
+Document what happens when the lane, artifact, or dependency is abandoned. The answer should be "cleanup, not migration" â€” if retiring a lane requires a complex data migration, the architecture has a coupling problem.
 
 **Template:**
 
@@ -191,3 +191,4 @@ Name the boundary that prevents incremental expansion beyond the lane's original
 ---
 
 **Reference implementation:** [work-strategy/](../work-strategy/README.md).
+

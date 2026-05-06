@@ -45,7 +45,7 @@ After merge, **high-impact gate candidates** can carry a **short, structured Com
 
 | Choice | Primary for PR1 | Rationale |
 |--------|------------------|-----------|
-| **Markdown** — `### Comprehension Envelope` under each `### CANDIDATE-XXXX` block in `users/<id>/recursion-gate.md` | **Yes** | Companion-facing, matches current staging; no schema migration. |
+| **Markdown** — `### Comprehension Envelope` under each `### CANDIDATE-XXXX` block in `recursion-gate.md` | **Yes** | Companion-facing, matches current staging; no schema migration. |
 | **JSON** — optional fields on `review-queue/proposals/*.json` | **Defer** | Add in a follow-on PR once heading shape is stable; avoid double validation. |
 
 **Source of truth for PR1:** the **gate markdown file**. Proposals may later mirror envelope text; until then, escalations exported to change-review carry gate context in the export flow as today.
@@ -90,7 +90,7 @@ Authoring rules: 1–2 sentences per bullet; concrete surfaces; `unknown` allowe
 | Area | Files |
 |------|--------|
 | Doctrine | This file; [comprehension-envelope-gate.md](comprehension-envelope-gate.md) (vocabulary + mapping); link from [recursion-gate-three-tier.md](../recursion-gate-three-tier.md) |
-| Template | [users/_template/recursion-gate.md](../../users/_template/recursion-gate.md); optional instance README under `users/` |
+| Template | [_template/recursion-gate.md](../../_template/recursion-gate.md); optional instance README under `` |
 | Validation | [validate_gate_comprehension_envelope.py](../../scripts/validate_gate_comprehension_envelope.py) (presence for `envelope_class: required`; `--strict` optional) |
 | UI | [apps/gate-review-app.py](../../apps/gate-review-app.py) (follow-on PR) |
 | Schema | [schema-registry/change-proposal.v1.json](../../schema-registry/change-proposal.v1.json) (defer) |
@@ -115,9 +115,9 @@ Authoring rules: 1–2 sentences per bullet; concrete surfaces; `unknown` allowe
 - **Acceptance:** Doc merged; See also link; no contradictions with IFP / gate-vs-change-review.
 - **Anti-goals:** No template edits; no validator.
 
-### PR2 — Template: stub + `users/_template` + guidance
+### PR2 — Template: stub + `_template` + guidance
 
-- **Purpose:** Add Comprehension Envelope stub and `envelope_class` guidance to [users/_template/recursion-gate.md](../../users/_template/recursion-gate.md) and short operator blurb in docs.
+- **Purpose:** Add Comprehension Envelope stub and `envelope_class` guidance to [_template/recursion-gate.md](../../_template/recursion-gate.md) and short operator blurb in docs.
 - **Why second:** New instances get correct shape.
 - **Capability:** Copy-paste correctness.
 - **Acceptance:** Template renders; examples for `none` vs `required` classes.

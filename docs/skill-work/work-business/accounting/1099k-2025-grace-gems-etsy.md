@@ -1,9 +1,9 @@
-# Form 1099-K (2025) — Grace Gems / Etsy
+﻿# Form 1099-K (2025) â€” Grace Gems / Etsy
 
 **Status:** WORK-business reference only. **Not** Record truth. **No** tax or legal advice.  
 **PII:** This file intentionally has **no** TINs, SSNs, or account numbers. Keep the original paper/PDF with your tax records.
 
-**Source:** IRS Form 1099-K, tax year **2025**, third-party network (Etsy) — amounts transcribed from the operator’s copy for reconciliation with Etsy seller reports and `users/grace-mar/business-ledger.jsonl`.
+**Source:** IRS Form 1099-K, tax year **2025**, third-party network (Etsy) â€” amounts transcribed from the operatorâ€™s copy for reconciliation with Etsy seller reports and `business-ledger.jsonl`.
 
 ---
 
@@ -19,7 +19,7 @@
 
 ---
 
-## Box 5 — Monthly gross (2025)
+## Box 5 â€” Monthly gross (2025)
 
 | Month | Code | Amount (USD) |
 |-------|------|--------------|
@@ -45,7 +45,8 @@
 
 **1099-K Box 1a** is **TPSO gross** on the network. It will **not** match:
 
-- Etsy Shop Manager “net sales” (refunds, remitted sales tax, etc.), or  
+- Etsy Shop Manager â€œnet salesâ€ (refunds, remitted sales tax, etc.), or  
 - **Bank deposits** (Etsy withholds fees, ads, shipping labels, etc., before payout).
 
-Use this doc as one leg of a three-way tie-out: **1099-K ↔ Etsy annual/summary reports ↔ bank ledger** (see [accounting README](README.md) and `import_bank_csv.py --audit-etsy`).
+Use this doc as one leg of a three-way tie-out: **1099-K â†” Etsy annual/summary reports â†” bank ledger** (see [accounting README](README.md) and `import_bank_csv.py --audit-etsy`).
+

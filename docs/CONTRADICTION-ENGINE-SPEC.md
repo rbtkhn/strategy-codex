@@ -104,7 +104,7 @@ Classify each staged candidate against relevant active entries:
 ### 6.1 Canonical
 Per instance layout (see [instance-patterns.md](instance-patterns.md)):
 
-- `users/<id>/recursion-gate.md` **or** `users/<id>/recursion-gate.json`
+- `recursion-gate.md` **or** `recursion-gate.json`
 - SELF: `self.md` and/or `self-knowledge.md`, `self-identity.md`, `self-curiosity.md`, `self-personality.md`
 - `self-evidence.md`
 - skill files as used (`self-skill-think.md`, etc.)
@@ -113,10 +113,10 @@ Per instance layout (see [instance-patterns.md](instance-patterns.md)):
 ### 6.2 Derived
 Sidecar artifacts, e.g.:
 
-- `users/<id>/derived/conflicts/CONFLICT-0001.json`
-- `users/<id>/derived/conflict-index.json`
+- `derived/conflicts/CONFLICT-0001.json`
+- `derived/conflict-index.json`
 
-Prefer **gitignore** on `users/*/derived/`. Rebuild from queue + profile. Never outrank canonical files.
+Prefer **gitignore** on `derived/`. Rebuild from queue + profile. Never outrank canonical files.
 
 ---
 
@@ -225,7 +225,7 @@ Never silently change Voice/emulation prompt. Preview prompt impact; operator mu
 - This spec  
 - Reference: Grace-Mar [CONTRADICTION-ENGINE-FLOW](https://github.com/rbtkhn/grace-mar/blob/main/docs/CONTRADICTION-ENGINE-FLOW.md), [conflict-object.schema.json](https://github.com/rbtkhn/grace-mar/blob/main/docs/schemas/conflict-object.schema.json)  
 - Optional: `scripts/build_conflict_index.py`, `resolve_conflict.py`, `render_conflict_cards.py`  
-- `users/<id>/derived/conflicts/` (gitignored)  
+- `derived/conflicts/` (gitignored)  
 - Extend gate parser, merge tooling, dashboard generators per instance
 
 ---

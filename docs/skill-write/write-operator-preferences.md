@@ -17,7 +17,7 @@
 
 | Surface | What it holds |
 |--------|----------------|
-| **`users/[id]/skill-write.md`** | **Companion Record** — demonstrated production, samples, YAML capability evidence; feeds Voice / linguistic layer per [skills-modularity](../skills-modularity.md). |
+| **`skill-write.md`** | **Companion Record** — demonstrated production, samples, YAML capability evidence; feeds Voice / linguistic layer per [skills-modularity](../skills-modularity.md). |
 | **This file + siblings under `docs/skill-write/`** | **Operator preferences and craft rules** — how you want drafts shaped when working with agents; does not require gate merge to update (docs lane). |
 | **CIV-MIND-BARNES / `tri-mind` Barnes block** | **WORK/strategy** lens and **authentic voice** per [`minds/README.md`](../skill-work/work-strategy/minds/README.md) — **not** the default register for **VivaBarnesLaw Locals** posts. **Locals** drafts follow **this hub** (topic-first, closers, plain exposition). Mind-voice is for analysis passes unless you ask to adapt it. |
 
@@ -132,6 +132,17 @@ Skill-write handoff commonly starts from:
 ### From analysis to public copy
 
 **`tri-mind`** is **WORK / strategy** lens choreography—not skill-write by itself. When you turn **any** of the sources above into **Locals / X / Predictive History comments**, apply **this hub**—especially **topic-first ledes** and **no abstract stacked closers**—and trim in-voice analysis into publishable prose. Mind stubs for fingerprinting: [minds/README.md](../skill-work/work-strategy/minds/README.md).
+
+For **Locals** specifically, the standard path is now documented in [locals-analysis-to-post-recipe.md](locals-analysis-to-post-recipe.md) and [locals-post-scaffold.md](locals-post-scaffold.md). The default public output is **one medium post** with **one thesis spine** and **medium quote density**, not a notebook recap or dated table pasted into forum prose.
+
+### Quote use on Locals
+
+- **Locals posts built from transcript analysis should be claim-led and quote-supported.**
+- **Default quote density:** **medium**.
+- Use **short, strategic quotes** that mark the strongest turns in the argument.
+- If the post is about a **shift over time**, the prose should narrate the arc and the quotes should punctuate the turning points.
+- If the post is making an **interpretive synthesis** rather than restating one decisive line, signal that lightly where useful instead of pretending the synthesis is self-evident.
+- Direct quotation is a **proof tool**, not the main structure of the post.
 
 ### Add your own
 

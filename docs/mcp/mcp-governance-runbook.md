@@ -1,6 +1,6 @@
-# MCP governance runbook
+﻿# MCP governance runbook
 
-**Purpose:** Run the **governed MCP toolchain** in a safe order using **committed examples only** — **no live MCP servers**, **no credentials**, **no network**, **no shell beyond `python` invoking repo scripts**. Canonical Record files under **`users/grace-mar/`** are not written by these steps.
+**Purpose:** Run the **governed MCP toolchain** in a safe order using **committed examples only** â€” **no live MCP servers**, **no credentials**, **no network**, **no shell beyond `python` invoking repo scripts**. Canonical Record files under **``** are not written by these steps.
 
 **Automation:** From repo root:
 
@@ -8,7 +8,7 @@
 python3 scripts/run_mcp_governance_checks.py
 ```
 
-Writes an aggregated report to **`artifacts/mcp-governance-demo-report.md`**, audit outputs under **`artifacts/mcp-governance-demo/`**, and adapter packets under each script’s required bucket using **`governance-demo-*`** filenames (see table below).
+Writes an aggregated report to **`artifacts/mcp-governance-demo-report.md`**, audit outputs under **`artifacts/mcp-governance-demo/`**, and adapter packets under each scriptâ€™s required bucket using **`governance-demo-*`** filenames (see table below).
 
 **Related:** **[`mcp-stack-overview.md`](mcp-stack-overview.md)**, **[`governed-mcp-layer.md`](governed-mcp-layer.md)**.
 
@@ -50,7 +50,7 @@ python3 scripts/mcp_risk_scan.py \
   --json artifacts/mcp-governance-demo/risk-report.json
 ```
 
-Exit code **`1`** when the scan reports **`pass=false`** — treat as failure for governance gates.
+Exit code **`1`** when the scan reports **`pass=false`** â€” treat as failure for governance gates.
 
 | Adapter / tool | Demo output path |
 |----------------|------------------|
@@ -71,7 +71,7 @@ python3 scripts/mcp_manifest_admission.py \
 
 ### 5. Mock execution harness (example)
 
-Uses **shell-blocked** fixture (aligns with “no shell execution” messaging):
+Uses **shell-blocked** fixture (aligns with â€œno shell executionâ€ messaging):
 
 ```bash
 python3 scripts/mcp_mock_harness.py \
@@ -95,7 +95,7 @@ python3 scripts/mcp_local_index.py \
   --output artifacts/mcp-local-index/governance-demo-index.md
 ```
 
-### 8. Optional — research → evidence stub (example)
+### 8. Optional â€” research â†’ evidence stub (example)
 
 If [`examples/research-evidence-input.example.json`](../../examples/research-evidence-input.example.json) exists:
 
@@ -105,7 +105,7 @@ python3 scripts/research_to_evidence_stub.py \
   --output artifacts/evidence-stubs/governance-demo-stub.md
 ```
 
-### 9. Optional — coding-agent patch intake (example)
+### 9. Optional â€” coding-agent patch intake (example)
 
 If [`examples/coding-agent-patch-intake.example.json`](../../examples/coding-agent-patch-intake.example.json) exists:
 
@@ -125,8 +125,9 @@ Adapters and harness steps emit JSON under **`artifacts/mcp-receipts/`**. The or
 
 ## Boundaries (all steps)
 
-- **No live MCP server execution** — subprocesses invoke **Python scripts** only.
-- **No credentials** and **no network** — tooling is local repo config + filesystem under policy.
-- **No canonical Record mutation** — adapters do not merge gate candidates or edit **`users/grace-mar/`** identity surfaces by design (see per-adapter docs).
+- **No live MCP server execution** â€” subprocesses invoke **Python scripts** only.
+- **No credentials** and **no network** â€” tooling is local repo config + filesystem under policy.
+- **No canonical Record mutation** â€” adapters do not merge gate candidates or edit **``** identity surfaces by design (see per-adapter docs).
 
 Passing this runbook **does not** authorize arbitrary MCP integration; live MCP remains a **separate** operator decision.
+

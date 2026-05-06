@@ -20,7 +20,7 @@ schema:
     canonical files.
   inputs:
     - { name: user_id, type: string, required: true, description: "Fork identifier (e.g. grace-mar)" }
-    - { name: output_dir, type: path, required: false, description: "Destination directory; defaults to users/[id]/" }
+    - { name: output_dir, type: path, required: false, description: "Destination directory; defaults to " }
     - { name: format, type: enum, required: false, description: "md | md+manifest | json+md | full-prp | fork-json" }
     - { name: destination, type: enum, required: false, description: "local | post" }
     - { name: post_url, type: url, required: false, description: "POST endpoint when destination=post" }
@@ -48,7 +48,7 @@ failure_policy:
   known_failure_modes:
     - { mode: export_exit_nonzero, description: "Underlying export script fails", mitigation: "Check export script logs; verify user directory exists" }
     - { mode: post_network_error, description: "HTTP POST to destination fails", mitigation: "Retry manually; check URL and network" }
-    - { mode: missing_user_dir, description: "users/[id]/ does not exist", mitigation: "Verify user_id; run seed if new instance" }
+    - { mode: missing_user_dir, description: " does not exist", mitigation: "Verify user_id; run seed if new instance" }
 
 cost:
   hint: negligible

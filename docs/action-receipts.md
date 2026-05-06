@@ -38,7 +38,7 @@ When an instance or tool needs a machine schema, prefer **`schema-registry/actio
 
 ## Instances
 
-Instances may log receipts under `users/<id>/`, JSONL streams, or operator folders. The template does not require a single path until emitters exist.
+Instances may log receipts under ``, JSONL streams, or operator folders. The template does not require a single path until emitters exist.
 
 ---
 

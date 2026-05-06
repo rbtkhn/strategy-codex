@@ -4,7 +4,7 @@
 
 ## Shelf
 
-- Profile: [crooke-profile.md](crooke-profile.md)
+- Profile: [crooke-profile.md](../../profiles/crooke-profile.md)
 - Monthly book: [crooke-book-2026-04.md](crooke-book-2026-04.md)
 - Daily chapter seed: [crooke-chapter-2026-04-01.md](crooke-chapter-2026-04-01.md)
 - Thread compatibility file: [crooke-thread.md](crooke-thread.md)

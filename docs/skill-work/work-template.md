@@ -2,7 +2,7 @@
 
 **Purpose:** Checklist and README skeleton for adding a **new** WORK territory under `docs/skill-work/work-<name>/`. Reduces drift (missing history, unclear boundaries, wrong gate expectations).
 
-**Not:** A replacement for [companion-self](https://github.com/rbtkhn/companion-self) `users/_template/` (that scaffolds **instances**, not skill-work lanes). **Not** Record truth.
+**Not:** A replacement for [companion-self](https://github.com/rbtkhn/companion-self) `_template/` (that scaffolds **instances**, not skill-work lanes). **Not** Record truth.
 
 **Full WORK architecture (tiers, ledger, daily surface, emerging patterns, multi-frame review):** [work-template/README.md](work-template/README.md) — pattern library for lanes that want more than this minimum checklist.
 
@@ -58,7 +58,7 @@ Copy into `README.md` and replace placeholders.
 
 **Objective:** _One sentence — what this lane is for._
 
-_Not:_ Record truth; not Voice knowledge; not a substitute for `users/<id>/self.md` or RECURSION-GATE queue (unless you document explicit gate use).
+_Not:_ Record truth; not Voice knowledge; not a substitute for `self.md` or RECURSION-GATE queue (unless you document explicit gate use).
 
 ---
 

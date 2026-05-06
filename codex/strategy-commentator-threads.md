@@ -1,4 +1,4 @@
-﻿# Strategy cognition streams / routing handles (index)
+# Strategy cognition streams / routing handles (index)
 <!-- word_count: 5754 -->
 
 **Purpose:** Stable **routing handles** for recurring cognition-stream ingests so `batch-analysis` lines can name **divergence and correlation** without re-deriving the roster each session. The public scaffold is **polyphonic cognition streams** (see [COGNITION-STREAMS.md](COGNITION-STREAMS.md)); the same **`thread:<expert_id>`** on **different dates** remains the low-level **join key** for **accuracy** checks and **opinion drift**. **WORK only** - not Record.
@@ -13,6 +13,8 @@
 
 **Public cognition-stream lattice:** The notebook's visible stream model is a count-neutral lattice of equal interpretive voices. The current streams are `Alkorshid` -> `Synthesis`, `Diesen` -> `Order`, `Davis` -> `Conflict`, `Mercouris` -> `Statecraft`, `Crooke` -> `Process`, `Parsi` -> `Scope`, `Pape` -> `Escalation`, and `Ritter` -> `Mechanics`. Use these labels in notebook prose and `batch-analysis` framing when the stream model should be explicit; keep `thread:<expert_id>` routing unchanged for scripts and provenance.
 
+**Lane-to-corpus boundary:** These eight cognition streams are internal notebook lanes, not external corpora by default. Shared intake remains the norm; promote a lane to a dedicated external corpus only under the strict rule in [LANE-TO-CORPUS-PROMOTION-POLICY.md](LANE-TO-CORPUS-PROMOTION-POLICY.md).
+
 **Topic tags vs cognition streams vs thread handles (mental model):** Three layers - not mutually exclusive.
 
 - **Topic tags** — *what* the material is about: recurring **substantive** lanes (Islamabad arc, Hormuz, Lebanon vs nuclear, U.S. domestic liability, Rome / legitimacy, …). These show up as **grep tags** (`IRAN`, `JDVance`, `ROME`, `narrative-escalation`, …) or linked docs ([rome-persia-legitimacy-signal-check.md](rome-persia-legitimacy-signal-check.md), [trump-religion-papacy-arc.md](trump-religion-papacy-arc.md)).
@@ -21,16 +23,16 @@
 
 **How to use:** When appending a paste-ready line in [daily-strategy-inbox.md](daily-strategy-inbox.md), add **`thread:<expert_id>`** to the **`verify:`** tail **only** when the **cold** line attributes speech or analysis to the **Name** in that commentator’s row. Pair ingests in **`batch-analysis | YYYY-MM-DD | …`** using **Typical pairings**.
 
-**Compatibility files (per-folder model):** Each indexed stream handle has its own folder under **`experts/<expert_id>/`** with companion files. The folder name is a legacy-compatible routing handle, not proof that "expert thread" is still the public model:
+**Compatibility files (mixed location model):** Each indexed stream handle keeps a year-independent channel profile plus time-scoped companion files. The old `experts/<expert_id>/` wording is legacy-compatible routing language, not the current canonical profile home:
 
-- **`experts/<expert_id>/profile.md`** — **cognitive profile** (operator-authored, stable). Identity, convergence/tension fingerprints, signature mechanisms, failure modes, weave cues, published sources.
+- **`codex/profiles/<channel>-profile.md`** — **cognitive profile** (operator-authored, stable, year-independent). Identity, convergence/tension fingerprints, signature mechanisms, failure modes, weave cues, introduction, and link hub.
 - **`experts/<expert_id>/transcript.md`** — **7-day rolling verbatim** (appended automatically by triage from inbox `thread:` lines, operator-editable for clarity, pruned after 7 days).
 - **`experts/<expert_id>/thread.md`** — **distilled analytical thread** with **journal layer** (operator narrative by month chapter) and **machine layer** (script-maintained extraction between HTML markers); **pages** (marker-fenced blocks) live inside month chapters — see [STRATEGY-NOTEBOOK-ARCHITECTURE.md](STRATEGY-NOTEBOOK-ARCHITECTURE.md) § *Thread (terminology)* and [watches/README.md](watches/README.md).
 - **`experts/<expert_id>/mind.md`** *(optional)* — extended CIV-MIND profile (currently: `barnes`, `mearsheimer`, `mercouris`).
 
 Run operator **`thread`**: **`bin/thread`** or **`python3 scripts/strategy_thread.py`** (from repo root) — automatically triages inbox to transcripts, then extracts transcript + `strategy-page` material for thread distillation. **Not Record**. Legacy path [`expert-ingest-corpus/README.md`](expert-ingest-corpus/README.md) redirects here. *Notebook contract (inbox → weave → `days.md`):* [STRATEGY-NOTEBOOK-ARCHITECTURE.md](STRATEGY-NOTEBOOK-ARCHITECTURE.md#expert-choreography) § **Expert choreography**. Operator **`thread`** vs **`weave`:** [STRATEGY-NOTEBOOK-ARCHITECTURE.md](STRATEGY-NOTEBOOK-ARCHITECTURE.md) § *Thread (terminology)*.
 
-**Published outlets (starter list):** Each **`experts/<expert_id>/profile.md`** **Seed** includes **`### Published sources (operator web index)`** — at least three **content** URLs (X / Substack / outlet / institutional host; **no Wikipedia**); re-verify handles and media URLs before cite-grade use.
+**Published outlets (starter list):** Each **`codex/profiles/<channel>-profile.md`** includes **`## Links`** with **`### Social media`**, **`### Substack`**, and **`### Other links`** — at least three useful source surfaces when available; re-verify handles and media URLs before cite-grade use.
 
 **Wires and outlets (no author `thread:`):** A **wire**, **pool paragraph**, or **outlet summary** is **not** an indexed author unless the cold line names **that person** as the speaker or author. Use **`verify:wire-RSS`** (and topic grep tags) **without** **`thread:<expert_id>`**; optional **`membrane:single`** when the line must **not** imply **`batch-analysis`** membership for author threads.
 
@@ -46,7 +48,7 @@ Run operator **`thread`**: **`bin/thread`** or **`python3 scripts/strategy_threa
 
 ## Notebook-use tags (reverse index)
 
-**Purpose:** Cross-cutting **usage** tags — answers “how might the notebook use this voice?” (open a frame, read talks, check plausibility, etc.). **Source of truth:** the **`Notebook-use tags`** field in each [`experts/<expert_id>/profile.md`](experts/mercouris/profile.md) profile (Identity table row or **`## Notebook-use tags`** section). This subsection is a **convenience mirror** for shortlists.
+**Purpose:** Cross-cutting **usage** tags — answers “how might the notebook use this voice?” (open a frame, read talks, check plausibility, etc.). **Source of truth:** the **`Notebook-use tags`** field in each [channel profile](mercouris/mercouris-profile.md) (Identity table row or equivalent profile section). This subsection is a **convenience mirror** for shortlists.
 
 **Guardrail:** Tags are **notebook-use families**, not ideological classes, not maintenance tiers, and **not** substitutes for **`expert_id`**, **Role**, **Default grep tags**, or **Typical pairings**. An expert may appear under **multiple** tags.
 

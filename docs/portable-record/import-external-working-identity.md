@@ -39,7 +39,7 @@ python3 scripts/import_working_identity_candidates.py \
 
 ## What the script produces
 
-1. **CANDIDATE blocks** in `users/<id>/recursion-gate.md` — one block per normalized item, inserted before `## Processed` using the existing staging infrastructure
+1. **CANDIDATE blocks** in `recursion-gate.md` — one block per normalized item, inserted before `## Processed` using the existing staging infrastructure
 2. **Import digest** at `artifacts/portable-record/import-digest-YYYY-MM-DD.md` — a read-only summary listing all staged candidates with their id, claim, target surface, and sensitivity class
 
 ### Default field values

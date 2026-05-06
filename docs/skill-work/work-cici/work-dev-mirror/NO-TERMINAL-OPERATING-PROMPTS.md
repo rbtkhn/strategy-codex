@@ -8,8 +8,8 @@ Copy and paste these into Cursor chat.
 
 ```text
 Read these files and give me a continuity brief:
-- **Her repo** `users/xavier/session-log.md`
-- **Her repo** `users/xavier/recursion-gate.md`
+- **Her repo** `xavier/session-log.md`
+- **Her repo** `xavier/recursion-gate.md`
 
 Output:
 1) what is in progress
@@ -24,7 +24,7 @@ Output:
 Use my latest notes to draft recursion-gate candidates only.
 
 Rules:
-- edit only **her** `users/xavier/recursion-gate.md`
+- edit only **her** `xavier/recursion-gate.md`
 - do not edit self.md or self-evidence.md
 - mark uncertainty clearly
 - include concise rationale and provenance hints

@@ -8,7 +8,7 @@ WORK only; not Record.
 **Length:** Target **≤ 2000 words** per ingest block; whole file soft **≤ 20000 words** after prune (7-day window makes overrun unlikely).
 **Retention:** 7-day rolling window; date sections older than 7 days are pruned automatically.
 **Editing:** Operator may lightly edit for clarity after triage. Edits are preserved across triage runs (append-only, not overwrite).
-**Companion files:** [`strategy-expert-mercouris.md`](strategy-expert-mercouris.md) (profile), [`strategy-expert-mercouris-thread.md`](strategy-expert-mercouris-thread.md) (distilled thread), [`strategy-expert-mercouris-mind.md`](strategy-expert-mercouris-mind.md) (long-form mind).
+**Companion files:** [mercouris-profile.md](../../mercouris/mercouris-profile.md) (profile), [mercouris-thread.md](mercouris-thread.md) (distilled thread), [mercouris-mind.md](mercouris-mind.md) (long-form mind).
 **Operator draft (Hormuz):** [`hormuz-strait-transit-agreement-v0.md`](../../hormuz-strait-transit-agreement-v0.md) — v0 **HSTA** strawman (≤300 words); long **HRTF** v2.1 [hormuz-reciprocal-transit-deescalation-framework-v2-1.md](../../hormuz-reciprocal-transit-deescalation-framework-v2-1.md); hook [sea-blockade 2026-04-25](../../raw-input/2026-04-25/transcript-duran-mercouris-cristoforu-sea-blockade-iran-2026-04-25.md).
 
 ---

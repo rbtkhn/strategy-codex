@@ -1,44 +1,46 @@
-﻿# Strategy cognition stream templates (WORK only)
+# Strategy cognition stream templates (WORK only)
 <!-- word_count: concise bundle -->
 
 **Single source** for the six on-disk surfaces each cognition-stream routing handle uses:
-profile, thread, transcript, refined page, strategy page, and mind.
+profile, thread, transcript, codex-page, strategy page, and mind.
 
-**Notebook contract:** [NOTEBOOK-CONTRACT.md](NOTEBOOK-CONTRACT.md)
+**Notebook contract:** [NOTEBOOK-CONTRACT.md](NOTEBOOK-CONTRACT.md)  
 **Thread contract:** [THREAD-CONTRACT.md](THREAD-CONTRACT.md)
 
-**Jump:** [Profile](#profile-template) · [Thread](#thread-template) · [Transcript](#transcript-template) · [Refined page](#refined-page-template) · [Strategy page](#strategy-page-template) · [Mind](#mind-template)
+**Jump:** [Profile](#profile-template) · [Thread](#thread-template) · [Transcript](#transcript-template) · [codex-page](#codex-page-template) · [Strategy page](#strategy-page-template) · [Mind](#mind-template)
 
 ---
 
 <a id="profile-template"></a>
 
-## Profile → `strategy-expert-<expert_id>.md`
+## Profile -> `strategy-expert-<expert_id>.md`
 
 # Strategy cognition stream profile - <Stream / full name> (`<expert_id>`)
 
 WORK only; not Record.
 
-Use the profile as the compact stream index: interpretive voice, role, pairings, voice tier, and high-level failure modes. `expert_id` remains the routing/provenance handle.
+This section is now a compatibility redirect.
 
-**Minimal shape:**
+**Canonical scaffold:** [strategy-codex-template-profile.md](strategy-codex-template-profile.md)
 
-- Identity table
-- Voice fingerprint / tier
-- Convergence and tension sketch
-- Signature mechanisms / recurrent claims
-- Failure modes / drift notes
-- Published sources / seed notes
+Use the canonical profile template for the actual profile shape, including:
 
-Companion files: thread, transcript, refined page, strategy page, mind.
+- `## Introduction`
+- `## Identity`
+- `## Links`
+- optional downstream voice, automation, ledger, and seed sections
+
+Profiles are durable lane surfaces, not year-volume artifacts. Teach the canonical profile as year-independent even if some live files still exist under `2026/<channel>/` during migration.
+
+Companion files: thread, transcript, codex-page, strategy page, mind.
 
 ---
 
 <a id="thread-template"></a>
 
-## Thread → `experts/<expert_id>/<expert_id>-thread-YYYY-MM.md`
+## Thread -> `experts/<expert_id>/<expert_id>-thread-YYYY-MM.md`
 
-# Cognition stream thread handle — `<expert_id>`
+# Cognition stream thread handle - `<expert_id>`
 
 WORK only; not Record.
 
@@ -52,7 +54,7 @@ The thread file is the month-bounded continuity surface for a cognition stream. 
 
 **Core rules:**
 
-- Compose the month from that month’s `strategy-page` set.
+- Compose the month from that month's `strategy-page` set.
 - Keep the journal above the machine block.
 - Keep one file per month when possible; legacy `thread.md` only while migrating.
 - Use `thread-page` links to track continuity, not to duplicate page prose.
@@ -63,7 +65,7 @@ Companion files: profile, transcript, mind, and page surfaces.
 
 ### Thread-embedded `strategy-page` blocks
 
-Use the `strategy-page` fence in the monthly thread file for the month’s main analytical pages. The canonical scaffold for the fence is the `Strategy page` section below.
+Use the `strategy-page` fence in the monthly thread file for the month's main analytical pages. The canonical scaffold for the fence is the `Strategy page` section below.
 
 Machine extraction lives between the `<!-- strategy-expert-thread:start -->` and `<!-- strategy-expert-thread:end -->` comments.
 
@@ -71,9 +73,9 @@ Machine extraction lives between the `<!-- strategy-expert-thread:start -->` and
 
 <a id="transcript-template"></a>
 
-## Transcript → `experts/<expert_id>/transcript.md`
+## Transcript -> `experts/<expert_id>/transcript.md`
 
-# Cognition stream transcript — `<expert_id>`
+# Cognition stream transcript - `<expert_id>`
 
 WORK only; not Record.
 
@@ -86,100 +88,47 @@ It may contain:
 
 When the full capture already lives in `raw-input/`, the transcript can stay empty or pointer-only.
 
-Companion files: profile, thread, mind, and refined pages.
+Companion files: profile, thread, mind, and codex-pages.
 
 ---
 
-<a id="refined-page-template"></a>
+<a id="codex-page-template"></a>
 
-## Refined page → `experts/<expert_id>/<expert_id>-page-YYYY-MM-DD.md`
+## codex-page -> `codex/<year>/<channel>/<expert_id>-page-YYYY-MM-DD.md`
 
-# Cognition stream refined page — `<expert_id>`
+# Cognition stream codex-page - `<expert_id>`
 
 WORK only; not Record.
 
-This is the standalone analytical page shape.
+This section is now a compatibility redirect.
 
-**Notebook contract:** [NOTEBOOK-CONTRACT.md](NOTEBOOK-CONTRACT.md)
+**Canonical scaffold:** [strategy-codex-template-page.md#codex-page---codexyearchannelexpert_id-page-yyyy-mm-ddmd](strategy-codex-template-page.md#codex-page---codexyearchannelexpert_id-page-yyyy-mm-ddmd)
 
-**Surface rules:**
-
-- `### Verbatim` is the curated quote body from `raw-input/`
-- `### Reflection` is operator analysis
-- `### Predictive Outlook` is the stream voice's tracked predictions, status, and brief notes tied to the routing handle
-- `### Appendix` is machinery only
-
-Use this when the page should stand on its own outside the thread.
-
-**Skeleton:**
-
-```markdown
-# <Stream / author> refined page — YYYY-MM-DD
-WORK only; not Record.
-
-**Cognition stream:** `<expert_id>` · **Published:** YYYY-MM-DD · **Artifact:** refined page.
-
----
-
-### Verbatim
-
-### Reflection
-
-### Predictive Outlook
-
----
-
-### Appendix
-```
+Use the canonical page template for the actual codex-page shape.
 
 ---
 
 <a id="strategy-page-template"></a>
 
-## Strategy page → thread-fence page
+## Strategy page -> thread-fence page
 
-# Cognition stream strategy page — `<expert_id>`
+# Cognition stream strategy page - `<expert_id>`
 
 WORK only; not Record.
 
-This is the thread-embedded analytical page shape.
+This section is now a compatibility redirect.
 
-**Thread contract:** [THREAD-CONTRACT.md](THREAD-CONTRACT.md)
+**Canonical scaffold:** [strategy-codex-template-page.md#strategy-page---thread-fence-page](strategy-codex-template-page.md#strategy-page---thread-fence-page)
 
-**Surface rules:**
-
-- `### Chronicle` is the curated quote body
-- `### Reflection` is operator analysis
-- `### Predictive Outlook` is the stream voice's tracked predictions, status, and brief notes tied to the routing handle
-- `### Appendix` is machinery only
-
-Use this inside `experts/<expert_id>/<expert_id>-thread-YYYY-MM.md` or legacy `thread.md`.
-
-**Skeleton:**
-
-```markdown
-<!-- strategy-page:start id="<kebab-id>" date="YYYY-MM-DD" watch="<optional-watch-slug>" -->
-### Page: <human title>
-
-### Chronicle
-
-### Reflection
-
-### Predictive Outlook
-
----
-
-### Appendix
-<!-- strategy-page:end -->
-```
+Use the canonical page template for the actual strategy-page fence shape.
 
 ---
 
 <a id="mind-template"></a>
 
-## Mind → `strategy-expert-<expert_id>-mind.md`
+## Mind -> `strategy-expert-<expert_id>-mind.md`
 
-# Cognition stream mind — `<expert_id>`
+# Cognition stream mind - `<expert_id>`
 
 WORK only; not Record.
 

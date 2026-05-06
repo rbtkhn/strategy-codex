@@ -1,4 +1,4 @@
-{
+﻿{
   "schemaVersion": "1.0.0-work-lanes-dashboard",
   "generatedAt": "2026-04-24T16:19:10.931129+00:00",
   "recordMergeAuthority": "RECURSION-GATE and companion approval only \u2014 never implied by lane metrics.",
@@ -199,7 +199,7 @@
       },
       "governance": {
         "recursion_gate_pending_status_count": 1,
-        "gate_path": "/Users/robertkuhne/Documents/grace-mar/users/grace-mar/recursion-gate.md"
+        "gate_path": "/Users/robertkuhne/Documents/grace-mar/recursion-gate.md"
       },
       "pressure_signals": [
         "high_coffee_volume"
@@ -231,3 +231,4 @@
     }
   }
 }
+

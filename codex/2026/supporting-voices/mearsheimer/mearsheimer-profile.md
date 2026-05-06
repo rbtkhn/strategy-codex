@@ -1,7 +1,7 @@
-# Strategy expert — `mearsheimer`
+# Strategy expert Ã¢â‚¬â€ `mearsheimer`
 <!-- word_count: 480 -->
 
-**Canonical index:** [strategy-commentator-threads.md](strategy-commentator-threads.md) — **`mearsheimer`** lane.
+**Canonical index:** [strategy-commentator-threads.md](strategy-commentator-threads.md) Ã¢â‚¬â€ **`mearsheimer`** lane.
 
 ## Identity
 
@@ -11,21 +11,21 @@
 | **expert_id** | `mearsheimer` |
 | **Role** | **Offensive realism**: security dilemma, Israel structural, great-power geometry |
 | **Default grep tags** | `MEARSHEIMER` or `Mearsheimer` in cold |
-| **Typical pairings** | × `davis`, × `mercouris`, × `diesen`, × `sachs` |
+| **Typical pairings** | Ãƒâ€” `davis`, Ãƒâ€” `mercouris`, Ãƒâ€” `diesen`, Ãƒâ€” `sachs` |
 | **Notebook-use tags** | `orient`, `historicize` |
 
 <a id="voice-fingerprint-compact"></a>
 
-## Voice fingerprint (compact) — Tier B
+## Voice fingerprint (compact) Ã¢â‚¬â€ Tier B
 
 | Field | Value |
 |-------|-------|
 | **Voice tier** | `B` |
-| **Voice fingerprint — last reviewed** | `2026-04` |
+| **Voice fingerprint Ã¢â‚¬â€ last reviewed** | `2026-04` |
 
-Promotion and refresh defaults: [strategy-expert-template.md § Voice fingerprint (compact)](strategy-expert-template.md#voice-fingerprint-compact).
+Promotion and refresh defaults: [strategy-expert-template.md Ã‚Â§ Voice fingerprint (compact)](strategy-expert-template.md#voice-fingerprint-compact).
 
-## Tri-Frame mind (lens card — headings only)
+## Tri-Frame mind (lens card Ã¢â‚¬â€ headings only)
 
 **Long-form fingerprint:** [`strategy-expert-mearsheimer-mind.md`](strategy-expert-mearsheimer-mind.md) (SSOT). [`minds/CIV-MIND-MEARSHEIMER.md`](minds/CIV-MIND-MEARSHEIMER.md) **redirects** here for stable links.
 
@@ -34,31 +34,31 @@ Headings-only pointers into the mapped corpus in [`strategy-expert-mearsheimer-m
 | Lens section (in mind file) | Use |
 |---------------------------------|-----|
 | **Purpose** | When tri-mind Mearsheimer is the requested register |
-| **LINGUISTIC FINGERPRINT** | Cadence, is–isn't clarity — authentic-voice discipline |
+| **LINGUISTIC FINGERPRINT** | Cadence, isÃ¢â‚¬â€œisn't clarity Ã¢â‚¬â€ authentic-voice discipline |
 | **Contrast / pivot tables** | Where this lens diverges from compressed notebook Judgment |
 | **Domain relevance** | Great-power geometry, security dilemma, offshore balancing |
 
 ## Convergence fingerprint
 
-*Seed profile — operator extends when this lane is upgraded to a full cognitive profile.*
+*Seed profile Ã¢â‚¬â€ operator extends when this lane is upgraded to a full cognitive profile.*
 
 ## Tension fingerprint
 
-*Seed profile — operator extends when upgraded.*
+*Seed profile Ã¢â‚¬â€ operator extends when upgraded.*
 
 ## Signature mechanisms
 
-*Seed profile — operator extends when upgraded.*
+*Seed profile Ã¢â‚¬â€ operator extends when upgraded.*
 
 ## Failure modes / overreads
 
-*Seed profile — operator extends when upgraded.*
+*Seed profile Ã¢â‚¬â€ operator extends when upgraded.*
 
 ## Active weave cues
 
-*Seed profile — operator extends when upgraded.*
+*Seed profile Ã¢â‚¬â€ operator extends when upgraded.*
 
-## Seed (index mirror — operator may extend)
+## Seed (index mirror Ã¢â‚¬â€ operator may extend)
 
 The block below **Rolling ingest** is replaced on each `strategy_thread.py` / `strategy_expert_corpus.py` run; edit this **Seed** section freely.
 
@@ -66,9 +66,9 @@ The block below **Rolling ingest** is replaced on each `strategy_thread.py` / `s
 
 | expert_id | Name | Role (one line) | Default grep tag | Typical `batch-analysis` pairings |
 |-----------|--------|-----------------|------------------|-----------------------------------|
-| `mearsheimer` | John Mearsheimer | **Offensive realism**: security dilemma, Israel structural, great-power geometry | `MEARSHEIMER` or `Mearsheimer` in cold | × `davis`, × `mercouris`, × `diesen`, × `sachs` |
+| `mearsheimer` | John Mearsheimer | **Offensive realism**: security dilemma, Israel structural, great-power geometry | `MEARSHEIMER` or `Mearsheimer` in cold | Ãƒâ€” `davis`, Ãƒâ€” `mercouris`, Ãƒâ€” `diesen`, Ãƒâ€” `sachs` |
 
-### Quantitative metrics (illustrative — from index)
+### Quantitative metrics (illustrative Ã¢â‚¬â€ from index)
 
 | expert_id | SCI | AD | CTC | Plain-language note (Predictive History reader) |
 |-----------|-----|----|-----|--------------------------------------------------|

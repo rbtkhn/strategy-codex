@@ -40,7 +40,7 @@ These are **intentionally not** `YYYY-MM-DD` in one token; changing them would b
 |---------|------|
 | **`YYYYMMDD`** | Compact **day** in ids and filenames where punctuation is awkward (e.g. session ids `SES-YYYYMMDD-NNN`, some task/event prefixes, compression JSON `*-YYYYMMDD.json` per work-jiang docs). |
 | **`YYYYMMDD_HHMMSS`** or **`YYYYMMDDTHHMMSSZ`** | Sortable **one-blob** stamps (backups, envelopes). |
-| **`YYYY/MM/`** directories | **Sharding** for session manifests under `users/[id]/sessions/` (year and month segments; still year-first). See [fork-lifecycle.md](fork-lifecycle.md). |
+| **`YYYY/MM/`** directories | **Sharding** for session manifests under `sessions/` (year and month segments; still year-first). See [fork-lifecycle.md](fork-lifecycle.md). |
 | **`YYYY-Www`** | **ISO week** labels where the unit is a week, not a calendar day (e.g. analytics). |
 
 ---

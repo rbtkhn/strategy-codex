@@ -19,7 +19,7 @@
 | **READ-** | Evidence | self-archive.md § I. READING LIST | Books, articles consumed |
 | **CREATE-** | Evidence | self-archive.md § III. CREATION LOG | Artwork, collages, creative output |
 | **MEDIA-** | Evidence | self-archive.md § IV. MEDIA LOG | Movies, shows, games (survey + mentions) |
-| **LIB-** | Library | users/[id]/self-library.md | Approved library entries spanning references, canon works, and influential media |
+| **LIB-** | Library | self-library.md | Approved library entries spanning references, canon works, and influential media |
 
 ---
 
@@ -43,7 +43,7 @@ Canonical labels for the separate work / execution layer:
 | Standard label | Scope | Location | Description |
 |----------------|-------|----------|-------------|
 | **work-territory** | Reusable execution domain | `docs/skill-work/work-*/` | A self-contained work domain such as `work-dev`, `work-politics`, or `work-human-teacher` |
-| **work-context** | Instance-specific work state | `users/[id]/work-*.md` | Live instance work files such as `work-alpha-school.md`, `work-jiang.md`; separate from SKILLS |
+| **work-context** | Instance-specific work state | `work-*.md` | Live instance work files such as `work-alpha-school.md`, `work-jiang.md`; separate from SKILLS |
 
 **Historical compatibility:** `BUILD` remains an internal legacy term attached to older docs, evidence, and analyses. `CREATE-*` and `ACT-*` remain valid evidence IDs and are not renamed by this taxonomy change.
 
@@ -55,9 +55,9 @@ Canonical labels for key self-scoped files (APIs, docs, cross-references):
 
 | Standard label | File | Description |
 |----------------|------|-------------|
-| **self-library** | users/[id]/self-library.md | **SELF-LIBRARY** — reference-facing governed domains (not SELF-KNOWLEDGE); **CIV-MEM** = sub-library (scopes + corpus); gated pipeline |
+| **self-library** | self-library.md | **SELF-LIBRARY** — reference-facing governed domains (not SELF-KNOWLEDGE); **CIV-MEM** = sub-library (scopes + corpus); gated pipeline |
 | **self-archive** | On-disk **`self-archive.md`** | **Canonical EVIDENCE file:** full activity log + **`self-archive.md` § VIII** (gated approved). **Chronological** across entries; **expansive, multicategory, multimodal** (typed sections, ids, media, artifacts). Optional `self-evidence.md` = compatibility pointer only. |
-| **self-memory** | users/[id]/self-memory.md (legacy: `memory.md`) | **Short / medium / long** horizons for continuity (see [memory-template.md](memory-template.md)); **governance-ephemeral** = outside gated Record, rotatable — **not** “short-term only”; **chronological** prose; **narrower** than self-archive (no multicategory evidence spine); optional; Voice loads short→long with caps |
+| **self-memory** | self-memory.md (legacy: `memory.md`) | **Short / medium / long** horizons for continuity (see [memory-template.md](memory-template.md)); **governance-ephemeral** = outside gated Record, rotatable — **not** “short-term only”; **chronological** prose; **narrower** than self-archive (no multicategory evidence spine); optional; Voice loads short→long with caps |
 
 Use these with **self-skill-write**, **self-skill-think**, and (when present) **self-skill-work** / **self-skill-steward** for a consistent self-scoped vocabulary. Use **work-territory** / **work-context** when referring to the separate execution layer.
 
@@ -70,7 +70,7 @@ Use these rules everywhere docs list companion-self components (the `self-*` sta
 | **Standard labels** | Lowercase, hyphenated, **bold** when listing components | **self-knowledge**, **self-identity**, **self-curiosity**, **self-personality**, **self-skill-think**, **self-skill-write**, **self-skill-work**, **self-skill-steward**, **self-archive**, **self-library**, **self-memory**, **self-moonshots**, **self-voice** |
 | **Formal Record surfaces** (disambiguation) | ALL CAPS with hyphen | **SELF-KNOWLEDGE** (identity-facing IX-A), **SELF-LIBRARY** (reference-facing `self-library.md`), **SELF** (identity + IX in `self.md`), **SELF-ARCHIVE** (gated approved log — `self-archive.md` § VIII; full EVIDENCE on disk) |
 | **On-disk paths** | Monospace, always lowercase filenames | `self.md`, `self-identity.md` (optional split surface), `self-library.md`, `self-evidence.md`, `self-archive.md`, `self-moonshots.md` (PMOS staging) |
-| **Planned WORK coordination** | Not part of companion self; same label shape as other `self-*` files | **`self-work`** → `users/[id]/self-work.md` (operator coordination; **not** SELF-KNOWLEDGE) |
+| **Planned WORK coordination** | Not part of companion self; same label shape as other `self-*` files | **`self-work`** → `self-work.md` (operator coordination; **not** SELF-KNOWLEDGE) |
 
 **Do not** use sentence case (**Self-voice**) or mixed-case (**Self-Knowledge**) for standard labels. **Voice** and **Record** remain capitalized when meaning the product interfaces (triadic cognition / triad), not as `self-voice` spelled with two capitals.
 

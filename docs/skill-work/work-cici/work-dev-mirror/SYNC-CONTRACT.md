@@ -101,7 +101,7 @@ Then manually review candidate files before mirroring into `work-cici/work-dev-m
 ## Safety rules
 
 - Sync into `work-cici/work-dev-mirror/*` only.
-- Do not write to **`her`** `users/xavier/self.md` during sync.
-- If sync implies identity changes, stage candidates in **`her`** `users/xavier/recursion-gate.md`.
+- Do not write to **`her`** `xavier/self.md` during sync.
+- If sync implies identity changes, stage candidates in **`her`** `xavier/recursion-gate.md`.
 - Human review required before finalizing consequential wording changes.
 

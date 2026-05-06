@@ -5,7 +5,7 @@
 
 **Last audited:** 2026-05-01 Ã¢â‚¬â€ YouTube index-only crawl with metadata enrichment.
 
-**Routing reminder:** For symmetric expert mirroring, same-episode ingests should carry **`thread:<guest>`** plus **`thread:alkorshid`** where host prompts matter Ã¢â‚¬â€ see [`experts/alkorshid/profile.md`](../experts/alkorshid/profile.md).
+**Routing reminder:** For symmetric expert mirroring, same-episode ingests should carry **`thread:<guest>`** plus **`thread:alkorshid`** where host prompts matter Ã¢â‚¬â€ see [alkorshid-profile.md](../../alkorshid/alkorshid-profile.md).
 
 | pub_date | Title | Guest | URL | Routing / note | raw-input |
 |----------|-------|-------|-----|----------------|-----------|

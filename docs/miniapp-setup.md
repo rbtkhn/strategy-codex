@@ -91,7 +91,7 @@ ngrok http 5000
 
 ### Archive (session transcript)
 
-Mini App exchanges are appended to `users/<user>/session-transcript.md` (real-time log, same policy as Telegram). SELF-ARCHIVE is updated only when candidates are merged via `process_approved_candidates` (gated). No GitHub token is required for archiving.
+Mini App exchanges are appended to `<user>/session-transcript.md` (real-time log, same policy as Telegram). SELF-ARCHIVE is updated only when candidates are merged via `process_approved_candidates` (gated). No GitHub token is required for archiving.
 
 On Render, the filesystem is ephemeral, so SESSION-TRANSCRIPT written by the Mini App is lost between deploys unless you add a separate step to persist it (e.g. push to repo). Local dev writes to disk as usual.
 

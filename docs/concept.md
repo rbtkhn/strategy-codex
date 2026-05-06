@@ -133,7 +133,7 @@ Instances should support: (1) **Reversibility** — rollback or undo of Record c
 
 | Component | In an instance |
 |-----------|----------------|
-| **Record** | `users/<id>/self.md`, `self-knowledge.md`, `self-curiosity.md`, `self-personality.md`, `self-skill-think.md`, `self-skill-write.md`, `self-skill-work.md`, `self-skill-steward.md` (optional split), self-evidence.md |
+| **Record** | `self.md`, `self-knowledge.md`, `self-curiosity.md`, `self-personality.md`, `self-skill-think.md`, `self-skill-write.md`, `self-skill-work.md`, `self-skill-steward.md` (optional split), self-evidence.md |
 | **Voice** | Bot or other interface (lives in the instance repo; not in this template) |
 | **Staging** | recursion-gate — candidates at the gate, before merge. To process the gate: [Identity Fork Protocol](identity-fork-protocol.md) § Process the gate. |
 | **Ephemeral context** | self-memory.md (optional; not part of the Record) |

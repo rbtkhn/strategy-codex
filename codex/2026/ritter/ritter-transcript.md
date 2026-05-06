@@ -7,7 +7,7 @@ WORK only; not Record.
 **Length:** Target **≤ 2000 words** per ingest block; whole file soft **≤ 20000 words** after prune (7-day window makes overrun unlikely).
 **Retention:** 7-day rolling window; date sections older than 7 days are pruned automatically.
 **Editing:** Operator may lightly edit for clarity after triage. Edits are preserved across triage runs (append-only, not overwrite).
-**Companion files:** [`profile.md`](profile.md) (profile), [`thread.md`](thread.md) and [`ritter-thread-2026-01.md`](ritter-thread-2026-01.md) (analytical thread / monthly January chapter).
+**Companion files:** [ritter-profile.md](../../ritter/ritter-profile.md) (profile), [ritter-thread.md](ritter-thread.md) and [ritter-thread-2026-01.md](ritter-thread-2026-01.md) (analytical thread / monthly January chapter).
 
 ---
 

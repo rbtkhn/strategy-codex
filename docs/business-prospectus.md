@@ -1,8 +1,8 @@
-# Grace-Mar — Business Prospectus
+﻿# Grace-Mar â€” Business Prospectus
 
 **Identity Infrastructure for the Agent Web**
 
-*Version 1.1 · February 2026*
+*Version 1.1 Â· February 2026*
 
 ---
 
@@ -10,16 +10,16 @@
 
 Grace-Mar defines the **Identity Fork Protocol (IFP)** and ships a reference implementation for user-owned, evidence-grounded identity. The protocol contribution is: schema + gate + evidence linkage + export.
 
-**Core doctrine — The Sovereign Merge Rule:** *The agent may stage. It may not merge.* The user (or explicitly delegated human) is the merge authority.
+**Core doctrine â€” The Sovereign Merge Rule:** *The agent may stage. It may not merge.* The user (or explicitly delegated human) is the merge authority.
 
 **Business focus (next 18 months):**
 - **Primary wedge:** Hosted B2C product for homeschool and microschool families.
-- **Secondary wedge:** 1-2 institutional pilots (school/platform integration). **Colorado K-12:** commercial offer **Rocky Record** ([rocky-record-service-brief.md](rocky-record-service-brief.md)) — charters, microschools, private; DPA + counsel before paid pilots.
+- **Secondary wedge:** 1-2 institutional pilots (school/platform integration). **Colorado K-12:** commercial offer **Rocky Record** ([rocky-record-service-brief.md](rocky-record-service-brief.md)) â€” charters, microschools, private; DPA + counsel before paid pilots.
 - **Deferred monetization:** Certification only after independent adoption appears.
 
 This sequencing reduces execution risk and creates proof before broad platform claims.
 
-**See also:** [Business Plan](business-plan.md) · [White Paper](white-paper.md) · [Business Roadmap](business-roadmap.md)
+**See also:** [Business Plan](business-plan.md) Â· [White Paper](white-paper.md) Â· [Business Roadmap](business-roadmap.md)
 
 ---
 
@@ -128,7 +128,7 @@ These are planning assumptions, not validated outcomes. Prospectus updates shoul
 | Protocol + architecture | Implemented |
 | grace-mar instance | Active |
 | Gate + pipeline | Live in reference implementation |
-| Export surfaces | Implemented (`users/grace-mar/openclaw-user.md`, PRP, manifest) |
+| Export surfaces | Implemented (`openclaw-user.md`, PRP, manifest) |
 
 ### Proof Pack to Publish (investor/integration readiness)
 
@@ -226,4 +226,5 @@ Certification is intentionally deferred until ecosystem demand exists. When acti
 
 ---
 
-*Grace-Mar · A cognitive fork — versioned, evidence-grounded, user-owned*
+*Grace-Mar Â· A cognitive fork â€” versioned, evidence-grounded, user-owned*
+

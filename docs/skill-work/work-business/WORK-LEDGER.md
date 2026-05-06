@@ -1,6 +1,6 @@
-# WORK-LEDGER — work-business
+﻿# WORK-LEDGER â€” work-business
 
-**Status:** WORK only — judgment / compounding layer for business planning, accounting, and marketing.
+**Status:** WORK only â€” judgment / compounding layer for business planning, accounting, and marketing.
 **Scaffold source:** [work-template/WORK-LEDGER.md](../work-template/WORK-LEDGER.md).
 **Canonical daily surface:** [README.md](README.md); navigation via contents table there.
 
@@ -33,7 +33,7 @@
 
 ### Current focus
 
-- Grace Gems (Etsy) — accounting setup, marketing plan, operational docs.
+- Grace Gems (Etsy) â€” accounting setup, marketing plan, operational docs.
 - Accounting infrastructure: ledger, chart of accounts, summary scripts.
 
 ### Active priorities / capabilities / constraints
@@ -51,17 +51,17 @@
 
 ## II-A. ACTIVE WATCHES
 
-**Entry format:** Watch · First noticed · Current status · Latest evidence · Framing note · Primary implication · Contradiction / caution.
+**Entry format:** Watch Â· First noticed Â· Current status Â· Latest evidence Â· Framing note Â· Primary implication Â· Contradiction / caution.
 
 **Entries**
 
 - **Watch:** Ledger staleness guardrail
 - **First noticed:** 2026-04-06
 - **Current status:** watch
-- **Latest evidence:** `users/grace-mar/business-ledger.jsonl` — if no new transaction for 30+ days, flag for operator review.
+- **Latest evidence:** `business-ledger.jsonl` â€” if no new transaction for 30+ days, flag for operator review.
 - **Framing note:** Regular transaction recording is the foundation; everything else (P&L, tax prep, budget tracking) depends on it.
 - **Primary implication:** Stale ledger means financial picture is incomplete.
-- **Contradiction / caution:** Low-volume months are normal for seasonal businesses; staleness ≠ inactivity.
+- **Contradiction / caution:** Low-volume months are normal for seasonal businesses; staleness â‰  inactivity.
 
 - **Watch:** Tax prep deadline awareness
 - **First noticed:** 2026-04-06
@@ -74,10 +74,10 @@
 - **Watch:** Marketing plan freshness
 - **First noticed:** 2026-04-06
 - **Current status:** watch
-- **Latest evidence:** [grace-gems/marketing-plan.md](grace-gems/marketing-plan.md) — review quarterly; update before seasonal peaks.
+- **Latest evidence:** [grace-gems/marketing-plan.md](grace-gems/marketing-plan.md) â€” review quarterly; update before seasonal peaks.
 - **Framing note:** Marketing plans that don't reflect current Etsy algorithm or ad performance drift into fiction.
 - **Primary implication:** Outdated plans waste ad spend.
-- **Contradiction / caution:** Plan freshness ≠ plan quality; a stable plan with good metrics doesn't need churn.
+- **Contradiction / caution:** Plan freshness â‰  plan quality; a stable plan with good metrics doesn't need churn.
 
 ---
 
@@ -96,3 +96,4 @@ Prefer [work-business-history.md](work-business-history.md) for dated milestones
 ## V. PROMOTION / RETIREMENT RECORD
 
 - *(empty until used)*
+

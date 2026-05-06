@@ -6,7 +6,7 @@ WORK only; not Record.
 **Source:** Human **narrative journal** (below) + [`strategy-expert-ritter-transcript.md`](strategy-expert-ritter-transcript.md) (verbatim ingests) + relevant **`strategy-page`** work (where this expert’s material was used).
 **Process:** `python3 scripts/strategy_thread.py` triages inbox → transcript, then fills **only** the **machine layer** between the **strategy-expert-thread** HTML start and end comments. Operator / assistant maintains the **journal layer** above the start marker in **readable prose** (optional **ledger** after the end marker).
 **Updated:** Narrative — when you distill; **machine layer** — when you run **`thread`**.
-**Companion files:** [`strategy-expert-ritter.md`](strategy-expert-ritter.md) (profile) and [`strategy-expert-ritter-transcript.md`](strategy-expert-ritter-transcript.md) (7-day verbatim).
+**Companion files:** [ritter-profile.md](../../ritter/ritter-profile.md) (profile) and [ritter-transcript.md](ritter-transcript.md) (7-day verbatim).
 
 ---
 ## Journal layer — Narrative (operator)

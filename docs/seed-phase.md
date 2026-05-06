@@ -6,7 +6,7 @@
 
 ## Purpose
 
-**Seed phase** is the **structured formation pipeline** that runs **before** a new companion instance is **activated**. It produces **inspectable JSON artifacts**, **confidence signals**, and a **readiness decision**. It is the **only** sanctioned creation path: no copying another repo’s `users/` and no pre-filled live Record.
+**Seed phase** is the **structured formation pipeline** that runs **before** a new companion instance is **activated**. It produces **inspectable JSON artifacts**, **confidence signals**, and a **readiness decision**. It is the **only** sanctioned creation path: no copying another repo’s `` and no pre-filled live Record.
 
 ---
 
@@ -67,7 +67,7 @@ An instance is **activated** only when:
 2. `seed_readiness.json` records an allowed decision (`pass` or `conditional_pass` per policy).  
 3. `seed_dossier.md` is reviewed and operator (and guardian if applicable) sign off.  
 
-Only **then** may `users/<birth-name>/` be created or promoted with the live pipeline. Merging into SELF / IX / evidence follows the **[identity-fork-protocol.md](identity-fork-protocol.md)** after activation.
+Only **then** may `<birth-name>/` be created or promoted with the live pipeline. Merging into SELF / IX / evidence follows the **[identity-fork-protocol.md](identity-fork-protocol.md)** after activation.
 
 ---
 
@@ -132,7 +132,7 @@ Why this matters: the repo already treats seed phase as a defined artifact pipel
 | Location | Role |
 |----------|------|
 | **This template repo** | Defines protocol, schemas, `_template` scaffold, `demo` example, validation scripts. |
-| **Instance repo** (e.g. Grace-Mar) | Holds real `users/<id>/`; may run operator wizards; must align with template schema versions when syncing upgrades. |
+| **Instance repo** (e.g. Grace-Mar) | Holds real ``; may run operator wizards; must align with template schema versions when syncing upgrades. |
 
 ---
 
@@ -150,8 +150,8 @@ Why this matters: the repo already treats seed phase as a defined artifact pipel
 | Validator | `scripts/validate-seed-phase.py` |
 | Dossier generator | `scripts/generate-seed-dossier.py` |
 | Cursor pack from intake | Optional `cursor_operator_profile` on `seed_intake.json` — [cursor-pack-from-seed.md](cursor-pack-from-seed.md) |
-| Template scaffold | `users/_template/seed-phase/` |
-| Demo example | `users/demo/seed-phase/` |
+| Template scaffold | `_template/seed-phase/` |
+| Demo example | `demo/seed-phase/` |
 
 ---
 

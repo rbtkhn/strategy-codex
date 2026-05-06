@@ -12,7 +12,7 @@
 |-------|-----------------|----------------|
 | Morning brief | `cd /path/to/grace-mar && python3 scripts/generate_wap_daily_brief.py -u grace-mar -o docs/skill-work/work-strategy/daily-brief-$(date +%Y-%m-%d).md` | Writes markdown under `docs/`; no SELF/EVIDENCE merge |
 | Daily loop scaffold | `cd /path/to/grace-mar && python3 scripts/scaffold_daily_loop_brief.py morning` | Writes only under [america-first-ky/](.) |
-| Loop pipeline event | `cd /path/to/grace-mar && python3 scripts/emit_loop_event.py --phase started territory=wap` | Appends JSONL to `users/<user>/pipeline-events.jsonl` only |
+| Loop pipeline event | `cd /path/to/grace-mar && python3 scripts/emit_loop_event.py --phase started territory=wap` | Appends JSONL to `<user>/pipeline-events.jsonl` only |
 | Stress-test brief | `cd /path/to/grace-mar && python3 scripts/scaffold_stress_test_brief.py war-powers-vote` | Same folder as daily scaffold |
 
 Replace `/path/to/grace-mar` with your clone path (or `$HOME/Documents/grace-mar`).
@@ -60,5 +60,5 @@ python3 scripts/emit_pipeline_event.py -u grace-mar loop_cycle_started none terr
 
 ## Non-goals
 
-- Do **not** run `process_approved_candidates.py` or edit `users/` from cron without explicit human approval design.
+- Do **not** run `process_approved_candidates.py` or edit `` from cron without explicit human approval design.
 - Do **not** paste shell blocks that append to `governance_checker.py` or `skills.md` — see [AGENT-SESSION-BRIEF.md](AGENT-SESSION-BRIEF.md).

@@ -14,12 +14,12 @@ These change only through the **gated pipeline** and companion-approved merge ([
 
 | Surface | On-disk anchors (typical) | Holds |
 |---------|---------------------------|--------|
-| **SELF** | `users/<id>/self.md` | Identity, SELF-KNOWLEDGE (IX-A/B/C), narrative |
-| **SELF-LIBRARY** | `users/<id>/self-library.md` | Governed reference, CIV-MEM scopes |
-| **SKILLS** | `users/<id>/self-skills.md` | Capability index (THINK / WRITE / WORK skills as documented) |
-| **EVIDENCE** | `users/<id>/self-archive.md` | Activity log, artifacts log, approved evidence |
+| **SELF** | `self.md` | Identity, SELF-KNOWLEDGE (IX-A/B/C), narrative |
+| **SELF-LIBRARY** | `self-library.md` | Governed reference, CIV-MEM scopes |
+| **SKILLS** | `self-skills.md` | Capability index (THINK / WRITE / WORK skills as documented) |
+| **EVIDENCE** | `self-archive.md` | Activity log, artifacts log, approved evidence |
 
-**Approval Inbox:** `users/<id>/recursion-gate.md` — staging only until processed.
+**Approval Inbox:** `recursion-gate.md` — staging only until processed.
 
 ---
 
@@ -34,10 +34,10 @@ These change only through the **gated pipeline** and companion-approved merge ([
 | Kind | Examples | Rule |
 |------|------------|------|
 | **Session / harness paste** | Warmup output, operator menus, chat context | Weather, not policy; do not treat as SELF |
-| **MEMORY** | `users/<id>/self-memory.md` | Continuity; **not** a substitute for gated facts |
+| **MEMORY** | `self-memory.md` | Continuity; **not** a substitute for gated facts |
 | **Skill cards** | `artifacts/skill-cards/*.json` from [`build_skill_cards.py`](../scripts/build_skill_cards.py) | Derived from portable skills; [spec](skills/skill-card-spec.md) |
 | **Active lane compression** | `artifacts/context/active-lane-*.md` from [`compress_active_lane.py`](../scripts/compress_active_lane.py) | Points back to lane README and `self-work.md`; [doc](skill-work/active-lane-compression.md) |
-| **Vector index** | `users/<id>/.chroma` | Retrieval aid; rebuild from Record |
+| **Vector index** | `.chroma` | Retrieval aid; rebuild from Record |
 | **Runtime observations ledger** | `runtime/observations/index.jsonl` | Append-only work-lane notes; [README](../runtime/observations/README.md); not Record |
 | **Tacit capture** | `runtime/tacit/` (`inbox/`, `normalized/`, `candidates/`, optional `index.jsonl`) | Markdown intake → JSON → review-only candidates; [README](../runtime/tacit/README.md), [doc](tacit-capture/README.md); not Record |
 | **Retrieval-miss ledger** | `runtime/retrieval-misses/index.jsonl` | Append-only retrieval-miss log for debugging; [doc](retrieval-miss-ledger.md); not Record |

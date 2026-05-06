@@ -20,7 +20,7 @@
 |------|---------|
 | **SELF** | The canonical **identity surface** of the fork: personality, style, values, preferences, boundaries, narrative continuity, post-seed IX-A/B/C. |
 | **SELF-KNOWLEDGE** | The **identity-facing knowledge** in SELF — what the companion knows *about herself*: biographical continuity, preferences, values, identity-relevant facts (including facts she learned that matter to *who she is* in-character). Physically: primarily `self.md` IX-A (and seed sections), not domain corpora. |
-| **SELF-LIBRARY** | The **governed reference layer** attached to the fork: structured return-to sources, domain shelves, and scoped lookup entries. Physically: `users/[id]/self-library.md` (Entries YAML) plus navigator docs under `SELF-LIBRARY/`. **Not identity.** |
+| **SELF-LIBRARY** | The **governed reference layer** attached to the fork: structured return-to sources, domain shelves, and scoped lookup entries. Physically: `self-library.md` (Entries YAML) plus navigator docs under `SELF-LIBRARY/`. **Not identity.** |
 | **CIV-MEM** | **Civilizational-memory domain** — historical, geopolitical, cultural, and related **reference material** carried as LIB rows + hybrid corpus paths. A **sub-library of SELF-LIBRARY**, not an extension of SELF-KNOWLEDGE. |
 
 ---

@@ -19,7 +19,7 @@ Agents and platforms need identity data to personalize and to act on behalf of u
 
 This document is the **canonical protocol specification**. Implementations and extensions reference it for mechanism; governance is in GRACE-MAR-CORE.
 
-The **Identity Fork Protocol (IFP)** defines a standard for companion-owned, evidence-grounded identity records that agents and platforms can consume without owning. It is vendor-neutral: no single platform controls identity. The companion is the gate.
+The **Identity Fork Protocol (IFP)** defines a standard for companion-owned, evidence-grounded identity records that agents and platforms can consume without owning. It is vendor-neutral: no single platform controls identity. The companion is the gate. **`knowledge-gate` and `recursion-gate` are synonyms for the same human approval membrane; the canonical file path remains `recursion-gate.md`.**
 
 **Scope:**
 - Identity schema (who they are + what they can do) and **SELF-LIBRARY** as reference surface (gated separately in review semantics via `proposal_class`)
@@ -66,7 +66,7 @@ This mirrors contextual engineering in AI-assisted coding: the model writes only
 
 **Continual learning** is implemented as human-gated writes to SELF and EVIDENCE; the model does not self-edit memory or weights. The only way new knowledge or personality enters the Record is via staging and companion-approved merge.
 
-**Companion review as test suite.** In knowledge work there is no compiler: the human at the gate is the **test suite** for whether a candidate is safe to merge. Implementations benefit from **explicit binary checks** at approve time (scope, contradiction, evidence linkage, correct target surface) — see template guidance in `users/_template/recursion-gate.md` — so approval is **faster and more reliable** than vague “looks good,” without relaxing the Sovereign Merge Rule.
+**Companion review as test suite.** In knowledge work there is no compiler: the human at the gate is the **test suite** for whether a candidate is safe to merge. Implementations benefit from **explicit binary checks** at approve time (scope, contradiction, evidence linkage, correct target surface) — see template guidance in `_template/recursion-gate.md` — so approval is **faster and more reliable** than vague “looks good,” without relaxing the Sovereign Merge Rule.
 
 ---
 
@@ -160,9 +160,11 @@ Implementations may warn when `mind_category: knowledge` candidates look like do
 
 **Gate vs change-review:** The recursion gate is the **default** path for candidate lines. The **change-review queue** is for escalated, material edits (contradictions, cross-surface moves, policy shifts). See [gate-vs-change-review.md](gate-vs-change-review.md).
 
+**Alias rule:** In operator speech and docs, `knowledge-gate` may be used interchangeably with `recursion-gate`; do not create a separate approval mechanism or separate canonical file for the alias.
+
 ### 4.1.1 Canonical Change Review Object
 
-Every materially important governed change can be represented as **one normalized review object** (operator UIs such as `apps/gate-review-app.py`, JSON under `schema-registry/change-*.v1.json`, and `users/<id>/review-queue/`). That object ties together:
+Every materially important governed change can be represented as **one normalized review object** (operator UIs such as `apps/gate-review-app.py`, JSON under `schema-registry/change-*.v1.json`, and `review-queue/`). That object ties together:
 
 - **Scope** — what kind of change it is (`primaryScope`, `changeType`, and gate `proposal_class` / mind semantics)
 - **Target surface** — where it should land (`self`, `self_library`, `civ_mem`, `skills`, `evidence`, `work_layer`)
@@ -175,7 +177,7 @@ Every materially important governed change can be represented as **one normalize
 
 **RECURSION-GATE** stays the default staging source of truth for candidates. Normalization maps gate rows + boundary hints onto this object without replacing companion sovereignty or the merge script.
 
-**Boundary classification artifacts:** Pending candidates may have a versioned JSON snapshot under `users/<id>/review-queue/boundary-classifications/` (schema `schema-registry/boundary-classification.v1.json`), refreshed when review parsers run. This complements ephemeral `boundary_review` on API rows and supports audit (`gate_reclassified` events reference the relative path).
+**Boundary classification artifacts:** Pending candidates may have a versioned JSON snapshot under `review-queue/boundary-classifications/` (schema `schema-registry/boundary-classification.v1.json`), refreshed when review parsers run. This complements ephemeral `boundary_review` on API rows and supports audit (`gate_reclassified` events reference the relative path).
 
 ### 4.2 Review Checklist (before approving)
 

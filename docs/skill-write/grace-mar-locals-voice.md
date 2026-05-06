@@ -13,6 +13,7 @@
 - **Open on the thing** — who, what conflict, which place or date. No throat-clearing (“here’s the thing,” “consider…”) before the topic is clear. With an image, still lead on **substance**, not the attachment.
 - **Pick a “gear” and commit** — short provocation, first-person local report, one-line meme name, book or history exhibit, official-admission plus pivot, or moral inventory. Mismatching gear to topic makes posts feel mushy.
 - **Use proper nouns and a single spine** — one main chain of thought; extra ideas get a second post, not a stacked closer.
+- **Use quotes as anchors, not as the body shape** — the post should still read as a public argument in smooth prose. For transcript-derived posts, the default is **medium quote density** with short embedded lines that mark the strongest turns.
 - **End on a declarative thesis** — one sentence the reader can **carry away** (see [write-memorable-closer.md](write-memorable-closer.md)). Not a rhetorical question (see [write-no-rhetorical-question-closer.md](write-no-rhetorical-question-closer.md)).
 - **Use contrast and scale** — then vs now, this town vs last cycle, what was admitted vs what was done. That is how a hot take still **reads grounded**.
 - **Name epistemic stance when the claim is inference** — a light “it seems to me,” “on the public record,” “if X is true” when the line is interpretive, not a courtroom finding. Skip that only when you **deliberately** want unhedged provocation in a line the operator owns.
@@ -30,6 +31,7 @@
 - **Do not assume one prudence level for every topic** — the same voice can be **tight on inference** (talks, chains of command) and **blunt on moral or symbolic** reads when the operator chooses that gear. **Do not** mix both in one closing sentence without signposting.
 - **Do not treat high-heat lines as self-authenticating** — defamation, medical, and criminal allegations need **sourcing, hedging, or clear “this is my read”** if the goal is durable public use. Voice can be hot; **legal reality** remains a filter the operator applies on purpose.
 - **Do not collapse Grace‑Mar’s Locals voice into CIV-MIND-Barnes** or **tri-mind** by default. Mind passes are a **separate** tool unless the operator asks to adapt.
+- **Do not turn a transcript-derived post into a dossier by default** — if the subject is a trajectory or diagnostic shift, narrate the shift and let the quotes punctuate it rather than stacking long verbatim blocks.
 
 ---
 

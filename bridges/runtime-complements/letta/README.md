@@ -1,4 +1,4 @@
-# Letta runtime complement adapter
+﻿# Letta runtime complement adapter
 
 ## Status
 
@@ -13,7 +13,7 @@ Optional, file-based, **runtime-only**, **non-canonical**. This is not a live Le
 ## Boundary rule
 
 > Letta may remember inside Letta.  
-> Grace-Mar remembers only through the **gate** ([`recursion-gate.md`](../../../users/grace-mar/recursion-gate.md) and companion-approved merge; see [AGENTS.md](../../../AGENTS.md)).
+> Grace-Mar remembers only through the **gate** ([`recursion-gate.md`](../../../recursion-gate.md) and companion-approved merge; see [AGENTS.md](../../../AGENTS.md)).
 
 ## Suggested memory block labels (Letta-local)
 
@@ -24,7 +24,7 @@ Optional, file-based, **runtime-only**, **non-canonical**. This is not a live Le
 
 These are **not** Record surfaces. Do not treat them as SELF, EVIDENCE, SKILLS, or SELF-LIBRARY.
 
-**Promotion (short):** Letta summary → **inbox** + **receipt** → **human review** → optional **recursion-gate** → normal approved merge.
+**Promotion (short):** Letta summary â†’ **inbox** + **receipt** â†’ **human review** â†’ optional **recursion-gate** â†’ normal approved merge.
 
 Full contract: [LETTA-ADAPTER-CONTRACT](LETTA-ADAPTER-CONTRACT.md).
 
@@ -67,4 +67,5 @@ A bare `python3 scripts/runtime/letta_import_summary.py` uses the same example b
 
 - [runtime complements (membrane)](../../../docs/runtime/runtime-complements.md)
 - [LETTA-ADAPTER-CONTRACT](LETTA-ADAPTER-CONTRACT.md)
-- [letta-seed.example.json](letta-seed.example.json) · [letta-session-summary.example.json](letta-session-summary.example.json)
+- [letta-seed.example.json](letta-seed.example.json) Â· [letta-session-summary.example.json](letta-session-summary.example.json)
+

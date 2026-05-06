@@ -45,7 +45,7 @@ If there is **no** PR (e.g. failed push to `main`), do **not** require opening a
 ## Prohibited behavior
 
 - No `git` **commits** or **pushes**; no file **edits** in the repo.
-- No edits to `users/**/self.md`, `self-archive.md`, `recursion-gate.md`, `session-log.md`, or `bot/prompt.py`.
+- No edits to `self.md`, `self-archive.md`, `recursion-gate.md`, `session-log.md`, or `bot/prompt.py`.
 - No `process_approved_candidates.py` (any apply path).
 - No approving, rejecting, renumbering, or staging **`CANDIDATE-*`** lines.
 - No **mutating** shell commands in the environment (suggest only; operator runs locally).

@@ -1,4 +1,4 @@
-# Runtime Complements
+﻿# Runtime Complements
 
 ## Status
 
@@ -15,7 +15,7 @@ canonical **Record**.
 ## Core rule
 
 > External runtimes may remember for themselves.  
-> Grace-Mar remembers only through the **gate** ([`recursion-gate.md`](../../users/grace-mar/recursion-gate.md) → companion-approved merge; see [AGENTS.md](../../AGENTS.md)).
+> Grace-Mar remembers only through the **gate** ([`recursion-gate.md`](../../recursion-gate.md) â†’ companion-approved merge; see [AGENTS.md](../../AGENTS.md)).
 
 Runtime complements may **accelerate** context, continuity, and interaction.
 They may not become **memory**, **evidence**, or **identity** until **staged**,
@@ -50,7 +50,7 @@ They may not:
 
 ## Allowed reads
 
-Conservative, explicit surfaces only (no whole-repo scans of `users/<id>/` Record trees unless the operator or an approved export script names paths):
+Conservative, explicit surfaces only (no whole-repo scans of `` Record trees unless the operator or an approved export script names paths):
 
 - **Approved export bundles** under [`runtime/runtime-complements/exports/`](../../runtime/runtime-complements/exports/) (JSON produced by the export script)
 - **Selected docs** included via `--include-doc` on the export script (operator-chosen, repo-relative paths)
@@ -58,22 +58,22 @@ Conservative, explicit surfaces only (no whole-repo scans of `users/<id>/` Recor
 - **Strategy notebook** derived or orientation docs (e.g. [strategy-console README](../skill-work/work-strategy/strategy-notebook/strategy-console/README.md)) only when path-listed in a bundle
 - Public **doctrine** / **architecture** files used as membrane context, when explicitly included
 
-Direct reads of **Record** files by an external process should be avoided; prefer **export bundles** and operator-approved file lists. This doc does not grant permission to scrape `users/` for bulk ingest.
+Direct reads of **Record** files by an external process should be avoided; prefer **export bundles** and operator-approved file lists. This doc does not grant permission to scrape `` for bulk ingest.
 
 ## Allowed writes
 
 Runtime complements (and the import script in this repo) may write **only** to:
 
-- `runtime/runtime-complements/inbox/` — imported observations (JSON)
-- `runtime/runtime-complements/receipts/` — import receipts (JSON, schema: [`runtime-complement-receipt.v1.json`](../../schema-registry/runtime-complement-receipt.v1.json))
-- `runtime/runtime-complements/exports/` — **export** bundles (JSON) from the export script
-- `runtime/runtime-complements/examples/` — committed **examples** only (not live vendor secrets)
+- `runtime/runtime-complements/inbox/` â€” imported observations (JSON)
+- `runtime/runtime-complements/receipts/` â€” import receipts (JSON, schema: [`runtime-complement-receipt.v1.json`](../../schema-registry/runtime-complement-receipt.v1.json))
+- `runtime/runtime-complements/exports/` â€” **export** bundles (JSON) from the export script
+- `runtime/runtime-complements/examples/` â€” committed **examples** only (not live vendor secrets)
 
-They may **not** write into **canonical Record** paths (`users/<id>/self.md`, `self-archive.md`, `self-skills.md`, `self-library.md` contents, `recursion-gate.md` except by normal human-driven edits, `bot/prompt.py`, etc.).
+They may **not** write into **canonical Record** paths (`self.md`, `self-archive.md`, `self-skills.md`, `self-library.md` contents, `recursion-gate.md` except by normal human-driven edits, `bot/prompt.py`, etc.).
 
 ## Export path
 
-**Grace-Mar–approved context** → **export bundle** (JSON) under `exports/` → consumed by a runtime complement (off-repo or local harness).
+**Grace-Marâ€“approved context** â†’ **export bundle** (JSON) under `exports/` â†’ consumed by a runtime complement (off-repo or local harness).
 
 See [`scripts/runtime/export_runtime_context.py`](../../scripts/runtime/export_runtime_context.py).
 
@@ -89,14 +89,14 @@ No new merge API: promotion follows the same **gated pipeline** as any other pro
 
 Every imported runtime observation should have a **receipt** (see schema) with at least:
 
-- **source** runtime label (`letta`, `mem0`, `openmemory`, `thoth`, `other`, …)
+- **source** runtime label (`letta`, `mem0`, `openmemory`, `thoth`, `other`, â€¦)
 - **source session / conversation id** if available (optional `source_session_id` in receipt)
 - **timestamp** (`generated_at`)
 - **import mode** (e.g. observation vs session summary)
 - **files written** (inbox + receipt paths)
-- **canonical surfaces not touched** — `canonical_surfaces_touched: false` for compliant imports
-- **promotion status** — default `runtime_only` until a human moves toward gate staging
-- **human review required** — default **true**
+- **canonical surfaces not touched** â€” `canonical_surfaces_touched: false` for compliant imports
+- **promotion status** â€” default `runtime_only` until a human moves toward gate staging
+- **human review required** â€” default **true**
 
 ## Vendor examples (non-binding)
 
@@ -104,7 +104,7 @@ Every imported runtime observation should have a **receipt** (see schema) with a
 |--------|------|------|
 | **Letta** | Stateful session runtime, bot continuity, multi-turn context | Example only; **no** live integration in the membrane v1 PR |
 | **Mem0 / OpenMemory** | Fast recall, personalization **cache** outside Record | Example only; **verify** any suggestion against on-disk **WORK/Record** |
-| **Thoth-style local assistant** | Local-first “propose then approve” UX pattern | **Inspiration** for routing; does **not** change Grace-Mar’s **recursion-gate** mechanics |
+| **Thoth-style local assistant** | Local-first â€œpropose then approveâ€ UX pattern | **Inspiration** for routing; does **not** change Grace-Marâ€™s **recursion-gate** mechanics |
 
 These are **illustrations**, not dependencies or endorsements. Future adapters may call
 the same import/export CLIs with JSON payloads.
@@ -119,4 +119,5 @@ Runtime complements may **accelerate** context, continuity, and interaction.
 They may not become **memory**, **evidence**, or **identity** until **staged**,
 **reviewed**, and **merged** through Grace-Mar's **existing gate**.
 
-**See also:** [runtime-vs-record.md](../runtime-vs-record.md) · [runtime/complements README](../../runtime/runtime-complements/README.md)
+**See also:** [runtime-vs-record.md](../runtime-vs-record.md) Â· [runtime/complements README](../../runtime/runtime-complements/README.md)
+

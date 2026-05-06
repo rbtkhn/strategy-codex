@@ -1,4 +1,4 @@
-# work-politics workspace
+﻿# work-politics workspace
 
 Canonical operator entrypoint for the territory.
 
@@ -20,10 +20,10 @@ Use this file when you want one place to understand:
 | **Campaign status** | Principal, phase, days until primary, next critical dates | `principal-profile.md`, `calendar-2026.md` |
 | **Active clients** | Multi-client consulting view: who is active, jurisdiction, channel_key | [clients/](clients/) + per-client sheets |
 | **Compliance blockers** | Per-jurisdiction open items before new paid work | [compliance-checklist.md](compliance-checklist.md) + client templates |
-| **Territory blockers** | Stale docs, placeholder-heavy research surfaces, missing work-politics gate rhythm | Derived from `calendar-2026.md`, `opposition-brief.md`, `principal-profile.md`, `revenue-log.md`, `brief-source-registry.md`, `content-queue.md`, `users/grace-mar/recursion-gate.md` |
-| **Pending work-politics gate items** | Work-politics-only `RECURSION-GATE` review | `users/grace-mar/recursion-gate.md` via territory filter |
+| **Territory blockers** | Stale docs, placeholder-heavy research surfaces, missing work-politics gate rhythm | Derived from `calendar-2026.md`, `opposition-brief.md`, `principal-profile.md`, `revenue-log.md`, `brief-source-registry.md`, `content-queue.md`, `recursion-gate.md` |
+| **Pending work-politics gate items** | Work-politics-only `RECURSION-GATE` review | `recursion-gate.md` via territory filter |
 | **Brief readiness** | What sources feed the weekly brief and what still needs checking | `brief-source-registry.md` |
-| **Long-form narrative (TCN)** | Tucker Carlson Network **curated transcripts** for **war-powers / Iran / GOP–media** framing (not wire truth) | [work-politics-sources.md](work-politics-sources.md) § Tucker Carlson Network · [tucker-carlson-book/README.md](../../../research/external/youtube-channels/tucker-carlson-book/README.md) |
+| **Long-form narrative (TCN)** | Tucker Carlson Network **curated transcripts** for **war-powers / Iran / GOPâ€“media** framing (not wire truth) | [work-politics-sources.md](work-politics-sources.md) Â§ Tucker Carlson Network Â· [tucker-carlson-book/README.md](../../../research/external/youtube-channels/tucker-carlson-book/README.md) |
 | **Content queue** | X / content workflow state for `@usa_first_ky` | `content-queue.md` |
 | **Revenue / offer state** | Revenue totals, BTC/SMM commitments, active commercial surfaces | `revenue-log.md`, `fiverr-microtask-100.md`, `account-x.md` |
 | **Outreach learning** | Offer framing, proof, target segments, funnel, and objections | `outreach-workspace.md`, `offers.md`, `proof-ledger.md`, `target-registry.md`, `outreach-funnel.md`, `objection-log.md` |
@@ -40,10 +40,10 @@ Use this file when you want one place to understand:
 | `compliance-checklist.md` | Pre-engagement gates (FEC, state, FARA, intl) |
 | `clients/` | Per-client index; [clients/massie-ky4.md](clients/massie-ky4.md) = primary client |
 | `brief-source-registry.md` | Structured intake and freshness tracker for weekly brief inputs |
-| `work-politics-sources.md` | Operator list of channels / podcasts for work-politics framing (not cited brief sources by default); **§ Tucker Carlson Network** = primary hook to **[tucker-carlson-book](../../../research/external/youtube-channels/tucker-carlson-book/README.md)** |
+| `work-politics-sources.md` | Operator list of channels / podcasts for work-politics framing (not cited brief sources by default); **Â§ Tucker Carlson Network** = primary hook to **[tucker-carlson-book](../../../research/external/youtube-channels/tucker-carlson-book/README.md)** |
 | `content-queue.md` | Structured X/content operations queue |
 | `weekly-brief-template.md` | Output shape for the campaign brief |
-| `civ-mem-draft-protocol.md` | Civ-mem → speech/policy; human-always-approves gates |
+| `civ-mem-draft-protocol.md` | Civ-mem â†’ speech/policy; human-always-approves gates |
 | `prep-before-call-abc.md` | A/B/C prep template (legitimacy, structure, liability) before high-stakes calls/decisions; fixed perspectives, tensions preserved |
 | `polyphonic-cognition-protocol-skill.md` | Loadable protocol for agents/humans: fixed A/B/C/D, instinct-as-input, contradiction badge, no write unless relay |
 | `clawhub-polyphonic-cognition/` | ClawHub publishable bundle: skill.yaml, SKILL.md, clawhub.json, README, SECURITY; instructions-only, no permissions |
@@ -61,7 +61,7 @@ Use this file when you want one place to understand:
 | [actionable-features-and-insights.md](../work-dev/actionable-features-and-insights.md) | Actionable features (instinct-as-input, reversibility, contradiction badge, post-decision), copy snippets, process items; priority order (**work-dev**) |
 | `civ-mem-test-run-*.md` | Dated test runs (DRAFT until signed) |
 | `principal-profile.md` | Principal baseline |
-| `principal-portrait-literary-sketch.md` | Optional long-form literary portrait (WORK); tone / narrative reference — not factual baseline |
+| `principal-portrait-literary-sketch.md` | Optional long-form literary portrait (WORK); tone / narrative reference â€” not factual baseline |
 | `opposition-brief.md` | Living opposition tracker |
 | `calendar-2026.md` | Election and compliance calendar |
 | `revenue-log.md` | Revenue and allocation continuity |
@@ -76,7 +76,7 @@ Use this file when you want one place to understand:
 
 ## Operating rhythm
 
-1. **"We did X" → stage** — After calls, readings, decisions, milestones, say "we did X" so the agent stages to RECURSION-GATE; the gate stays current. See [we-did-x-habit.md](../../we-did-x-habit.md).
+1. **"We did X" â†’ stage** â€” After calls, readings, decisions, milestones, say "we did X" so the agent stages to RECURSION-GATE; the gate stays current. See [we-did-x-habit.md](../../we-did-x-habit.md).
 2. Refresh `brief-source-registry.md` before the weekly brief.
 3. Review `content-queue.md` before asking for post drafts.
 4. Use the work-politics dashboard/operator surface for territory blockers and next actions.
@@ -88,3 +88,4 @@ Use this file when you want one place to understand:
 ## Guardrail
 
 This workspace is a `WORK` surface. It does not create a second queue, and it does not change the gated merge rule.
+

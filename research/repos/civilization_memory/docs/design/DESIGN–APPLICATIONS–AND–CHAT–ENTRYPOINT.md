@@ -141,7 +141,7 @@ A module for **classroom history and culture teachers** that:
 - **Engine invocation:** Call the same logic that Cursor uses (or an API that wraps it): load CORE/SCHOLAR/STATE, MEM SCAN, run mode contract, produce response. No new “brain”; only a new way to invoke it.
 - **Egress:** Format response (e.g. markdown → plain or platform-safe markdown), respect length limits if any, and send back to the chat provider.
 - **Safety and scope:** Decide which modes and actions are allowed from chat (e.g. LEARN and STATE read-only by default; WRITE or STATE updates only with explicit user confirmation or role). No silent governance or MEM writes unless explicitly gated.
-- **Auth and rate limiting:** Per platform: authenticate users/bots; rate limit to avoid abuse and cost.
+- **Auth and rate limiting:** Per platform: authenticate bots; rate limit to avoid abuse and cost.
 
 This does not specify implementation (hosting, queue, API shape); it only lists **logical** components so that “chat as entry point” can be discussed or implemented later without re-deriving requirements.
 

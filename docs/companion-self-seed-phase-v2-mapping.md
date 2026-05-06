@@ -1,8 +1,8 @@
-# Companion-self Seed Phase v2 ↔ Grace-Mar instance tools
+﻿# Companion-self Seed Phase v2 â†” Grace-Mar instance tools
 
 ## Purpose
 
-Align mental models between the **template** ([companion-self](https://github.com/rbtkhn/companion-self) Seed Phase v2) and **Grace-Mar**’s operator-facing [seed-phase-wizard.md](seed-phase-wizard.md) / `scripts/seed-phase-wizard.py`. The template owns **schemas and stages**; the instance owns **live paths** and **operator workflow**.
+Align mental models between the **template** ([companion-self](https://github.com/rbtkhn/companion-self) Seed Phase v2) and **Grace-Mar**â€™s operator-facing [seed-phase-wizard.md](seed-phase-wizard.md) / `scripts/seed-phase-wizard.py`. The template owns **schemas and stages**; the instance owns **live paths** and **operator workflow**.
 
 ---
 
@@ -10,16 +10,16 @@ Align mental models between the **template** ([companion-self](https://github.co
 
 | Surface | Repo | Role |
 |---------|------|------|
-| Seed Phase v2 JSON artifacts | companion-self `users/_template/seed-phase/`, `users/demo/seed-phase/` | Pre-activation **formation** package; schemas in `schema-registry/seed-*.v1.json`. |
-| `seed-phase-wizard.py` | grace-mar | Interactive **instance** bootstrap: `reflection-proposals/`, `users/<id>/seed/minimal-core.json`, `self-memory.md` tone — **does not** replace template seed JSON set. |
+| Seed Phase v2 JSON artifacts | companion-self `_template/seed-phase/`, `demo/seed-phase/` | Pre-activation **formation** package; schemas in `schema-registry/seed-*.v1.json`. |
+| `seed-phase-wizard.py` | grace-mar | Interactive **instance** bootstrap: `reflection-proposals/`, `seed/minimal-core.json`, `self-memory.md` tone â€” **does not** replace template seed JSON set. |
 
 Neither replaces the other: the template defines **portable, validatable** artifacts; Grace-Mar defines **live operator workflow** under canonical instance paths.
 
 ---
 
-## Why Grace-Mar has historical “seed” language
+## Why Grace-Mar has historical â€œseedâ€ language
 
-Grace-Mar’s README and session history sometimes describe seeding as **six thematic phases** (identity, personality, academics, creativity, writing voice, core personality) plus a **bifurcation** milestone. That narrative predates the template’s **numbered 0–7** stage list. **Canonical alignment** for new docs and audits uses **Seed Phase v2** stages in [companion-self `docs/seed-phase-stages.md`](https://github.com/rbtkhn/companion-self/blob/main/docs/seed-phase-stages.md). The old six-phase story is **legacy color**, not a second protocol.
+Grace-Marâ€™s README and session history sometimes describe seeding as **six thematic phases** (identity, personality, academics, creativity, writing voice, core personality) plus a **bifurcation** milestone. That narrative predates the templateâ€™s **numbered 0â€“7** stage list. **Canonical alignment** for new docs and audits uses **Seed Phase v2** stages in [companion-self `docs/seed-phase-stages.md`](https://github.com/rbtkhn/companion-self/blob/main/docs/seed-phase-stages.md). The old six-phase story is **legacy color**, not a second protocol.
 
 ---
 
@@ -42,7 +42,7 @@ Activation still follows the **sovereign merge** and instance pipeline; this tab
 
 ## Which files correspond to which stages
 
-Rough correspondence (instance today — not a one-to-one file rename):
+Rough correspondence (instance today â€” not a one-to-one file rename):
 
 | Template artifact | Grace-Mar analogue (today) | Notes |
 |-------------------|----------------------------|--------|
@@ -50,7 +50,7 @@ Rough correspondence (instance today — not a one-to-one file rename):
 | `seed_identity.json` | `SEED-founding-intent.md` + SELF baseline (post-gate) | Template artifact is **pre**-Record; SELF merge is **post**-activation gate. |
 | `seed_curiosity.json` | IX-B seeds via pipeline | Same separation: formation vs merged Record. |
 | `seed_pedagogy.json` / `seed_expression.json` | Voice/prompt stance (post-merge) + operator reflection | Largely **post-activation** in grace-mar; template front-loads scaffolds. |
-| `seed_memory_contract.json` | [memory-template.md](memory-template.md) + policy in AGENTS / operator practice | Instance MEMORY is **non-Record** / rotatable (short–long horizons); rules align to template. |
+| `seed_memory_contract.json` | [memory-template.md](memory-template.md) + policy in AGENTS / operator practice | Instance MEMORY is **non-Record** / rotatable (shortâ€“long horizons); rules align to template. |
 | `seed_trial_report.json` | Operator trials + bot conversation (informal) | Template encodes structured trials; instance may adopt JSON when syncing. |
 | `seed_readiness.json` / dossier | Operator judgment + RECURSION-GATE | Template encodes **explicit** readiness JSON; instance may adopt when syncing docs. |
 
@@ -58,7 +58,7 @@ Rough correspondence (instance today — not a one-to-one file rename):
 
 ## What remains instance-specific
 
-- **Paths:** `users/grace-mar/…`, `reflection-proposals/`, `SEED-PHASE-COMPLETED.json`, validators (`validate-integrity.py`, `governance_checker.py`).
+- **Paths:** `â€¦`, `reflection-proposals/`, `SEED-PHASE-COMPLETED.json`, validators (`validate-integrity.py`, `governance_checker.py`).
 - **Wizard behavior:** Interactive prompts; optional `--require-proposal-class` for CI parity.
 - **Historical milestones:** Bifurcation date and six-phase language live in **narrative**; they do not override template stage numbering for **compatibility** work.
 
@@ -69,14 +69,15 @@ Rough correspondence (instance today — not a one-to-one file rename):
 When merging from companion-self ([MERGING-FROM-COMPANION-SELF](merging-from-companion-self.md)):
 
 1. Pull `docs/seed-phase*.md`, `schema-registry/seed-*.v1.json`, and validation scripts if instances should reuse them.
-2. Do **not** overwrite `users/grace-mar/` with template seed-phase **demo** data.
-3. Optionally add a `users/grace-mar/seed-phase/` (or repo-local) directory for a **real** run, validated with `validate-seed-phase.py` copied from template.
+2. Do **not** overwrite `` with template seed-phase **demo** data.
+3. Optionally add a `seed-phase/` (or repo-local) directory for a **real** run, validated with `validate-seed-phase.py` copied from template.
 
 ---
 
 ## See also
 
-- [seed-phase-wizard.md](seed-phase-wizard.md) — scripts and paths  
-- [MERGING-FROM-COMPANION-SELF](merging-from-companion-self.md) — template sync  
+- [seed-phase-wizard.md](seed-phase-wizard.md) â€” scripts and paths  
+- [MERGING-FROM-COMPANION-SELF](merging-from-companion-self.md) â€” template sync  
 
-*Living note · update when wizard emits template-aligned JSON.*
+*Living note Â· update when wizard emits template-aligned JSON.*
+

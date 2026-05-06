@@ -8,7 +8,7 @@
   "canonical_surfaces_touched": false,
   "rebuild_command": "python3 scripts/build_gate_board.py",
   "inputs": [
-    "users/*/recursion-gate.md",
+    "recursion-gate.md",
     "scripts/build_gate_board.py"
   ],
   "rationale": "Translate gate candidate state into a dashboard board for operator triage without changing candidate status or merge authority.",

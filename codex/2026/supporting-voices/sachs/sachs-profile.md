@@ -27,7 +27,7 @@ WORK only; not Record.
 | **Voice tier** | `B` |
 | **Voice fingerprint - last reviewed** | `2026-04` |
 
-Promotion and refresh defaults: [strategy-expert-template.md § Voice fingerprint (compact)](strategy-expert-template.md#voice-fingerprint-compact).
+Promotion and refresh defaults: [strategy-expert-template.md Ã‚Â§ Voice fingerprint (compact)](strategy-expert-template.md#voice-fingerprint-compact).
 
 ## Convergence fingerprint
 
@@ -77,7 +77,7 @@ Promotion and refresh defaults: [strategy-expert-template.md § Voice fingerprin
 - Pull this expert into weave when:
   - Diesen x Sachs multipolar episodes, IMF growth downgrades, or UN-class development hooks sit beside Hormuz headlines - orthogonal to ORBAT unless evidence couples.
 
-## Knot-use guidance
+## Page-use guidance
 
 - Best for: synthesis on macro-institutions, link hubs for SDSN/UN reports, tension pages beside `mearsheimer` or `mercouris`.
 - Usually insufficient alone for: tanker AIS, domestic liability - pair.

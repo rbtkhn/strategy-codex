@@ -1,12 +1,12 @@
-# Governed eval harness (runtime-only)
+﻿# Governed eval harness (runtime-only)
 
-**What this is:** A **lightweight, local-first** pass that scores **governed quality** of runtime behavior using **execution receipts** as the primary input. It helps operators and CI see whether runs stayed inside boundary, held appropriate epistemic posture, and aligned with policy metadata — **not** a substitute for a raw-LLM “intelligence” benchmark.
+**What this is:** A **lightweight, local-first** pass that scores **governed quality** of runtime behavior using **execution receipts** as the primary input. It helps operators and CI see whether runs stayed inside boundary, held appropriate epistemic posture, and aligned with policy metadata â€” **not** a substitute for a raw-LLM â€œintelligenceâ€ benchmark.
 
 **Not:**
 
 - **Not** SELF, EVIDENCE, SKILLS, or gate truth.  
-- **Not** merge authority — results do **not** approve candidates, bypass [RECURSION-GATE](../../users/grace-mar/recursion-gate.md), or change durable Record behavior.  
-- **Not** an IQ or capability test — scores are **receipt-grounded heuristics** and optional `expected` rubric checks from fixtures.
+- **Not** merge authority â€” results do **not** approve candidates, bypass [RECURSION-GATE](../../recursion-gate.md), or change durable Record behavior.  
+- **Not** an IQ or capability test â€” scores are **receipt-grounded heuristics** and optional `expected` rubric checks from fixtures.
 
 **Primary inputs (receipts):** Validated JSON on disk per [`execution-receipt.v1.json`](../../schema-registry/execution-receipt.v1.json), usually under `runtime/runtime-worker/receipts/<run_id>.json`. The harness **does not** scrape free-form logs; it only reads those receipt files (plus small fixture sidecars for golden checks).
 
@@ -29,7 +29,7 @@ python3 scripts/evals/run_governed_eval.py --fixture tests/governed_eval/fixture
 python3 scripts/evals/run_governed_eval.py --fixtures-dir tests/governed_eval/fixtures --validate-receipt
 ```
 
-**Options:** `--repo-root` (default: repository root), `--receipts-dir` (default: `runtime/runtime-worker/receipts` — used when a fixture provides `receipt_run_id` instead of `receipt_path`), `--validate-receipt` (validates each receipt with `jsonschema` when installed), `--output` (optional file for JSON; default stdout).
+**Options:** `--repo-root` (default: repository root), `--receipts-dir` (default: `runtime/runtime-worker/receipts` â€” used when a fixture provides `receipt_run_id` instead of `receipt_path`), `--validate-receipt` (validates each receipt with `jsonschema` when installed), `--output` (optional file for JSON; default stdout).
 
 ## Fixture format (JSON)
 
@@ -48,7 +48,7 @@ Reports validate [`governed-eval-result.v1.json`](../../schema-registry/governed
 
 | Field | Role |
 |-------|------|
-| `run_id` | Same as the evaluated receipt’s `run_id` (traceability to that receipt). |
+| `run_id` | Same as the evaluated receiptâ€™s `run_id` (traceability to that receipt). |
 | `fixture_id` | From the fixture file. |
 | `setup` | `task_type` (from `worker_route.task_type`), `task_subtype` (top-level receipt), `model_tier` (from `model_policy.allowed_tier` or null). |
 | `scores` | Five axes (each number 0..1 or `null` if unscored in v1 heuristics). |
@@ -81,4 +81,5 @@ The checked-in `gov_eval_*.json` receipts illustrate: runtime-vs-Record path con
 
 - No live provider calls required to produce a report.  
 - No automatic merge, staging, or gate resolution.  
-- No claim that a higher `total` means a “smarter” model.
+- No claim that a higher `total` means a â€œsmarterâ€ model.
+

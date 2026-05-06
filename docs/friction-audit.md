@@ -1,4 +1,4 @@
-# Friction Audit
+﻿# Friction Audit
 
 **Purpose:** Identify the top friction points in the current workflow, rank them by impact and effort, and prioritize interventions.
 
@@ -8,9 +8,9 @@
 
 ## Scoring
 
-- **Impact:** 1–5 (1 = minor annoyance, 5 = blocks or heavily discourages use)
-- **Effort:** 1–5 (1 = quick fix, 5 = major build)
-- **Priority:** Impact ÷ Effort (higher = tackle first)
+- **Impact:** 1â€“5 (1 = minor annoyance, 5 = blocks or heavily discourages use)
+- **Effort:** 1â€“5 (1 = quick fix, 5 = major build)
+- **Priority:** Impact Ã· Effort (higher = tackle first)
 
 ---
 
@@ -18,13 +18,13 @@
 
 ### 1. Process the review queue
 
-**What it is:** User opens recursion-gate.md, changes `status: pending` to `approved` or `rejected` for each candidate, then tells the assistant **"approve"** — the agent immediately merges (one gate, no separate "process the review queue" step).
+**What it is:** User opens recursion-gate.md, changes `status: pending` to `approved` or `rejected` for each candidate, then tells the assistant **"approve"** â€” the agent immediately merges (one gate, no separate "process the review queue" step).
 
-**Impact:** 4 — If queue grows (e.g., after a long bot session), review becomes tedious. Skipping leaves orphaned candidates. No batch actions.
+**Impact:** 4 â€” If queue grows (e.g., after a long bot session), review becomes tedious. Skipping leaves orphaned candidates. No batch actions.
 
-**Effort:** 2 — Could add: (a) CLI/dashboard for approve-all / reject-all with filters, (b) priority-sorted view (already have priority_score), (c) "quick approve" for high-confidence candidates.
+**Effort:** 2 â€” Could add: (a) CLI/dashboard for approve-all / reject-all with filters, (b) priority-sorted view (already have priority_score), (c) "quick approve" for high-confidence candidates.
 
-**Priority:** 4 ÷ 2 = **2.0**
+**Priority:** 4 Ã· 2 = **2.0**
 
 **Planned intervention:** Web dashboard (approved improvement #4) with approve/reject UI. Shorter term: document that candidates can be sorted by priority_score when reviewing in Cursor.
 
@@ -34,15 +34,15 @@
 
 **What it is:** To log a writing sample or artwork, the user must: (1) photograph or scan, (2) save to `artifacts/`, (3) create or extend the self-evidence.md entry (YAML structure, analysis). No upload flow, no templates.
 
-**Canonical save rule:** Store retained visuals in `users/grace-mar/artifacts/` with evidence-aware lowercase names (`write-0007-title-slug.png`, `create-0011-title-slug.jpg`, `act-0045-title-slug-page-1.png`). See `pipeline-map.md` for the current artifact taxonomy and class guidance.
+**Canonical save rule:** Store retained visuals in `artifacts/` with evidence-aware lowercase names (`write-0007-title-slug.png`, `create-0011-title-slug.jpg`, `act-0045-title-slug-page-1.png`). See `pipeline-map.md` for the current artifact taxonomy and class guidance.
 
-**Impact:** 5 — This is the main blocker for WRITE and WORK (creation) evidence. High cognitive load: user must know the schema and write YAML.
+**Impact:** 5 â€” This is the main blocker for WRITE and WORK (creation) evidence. High cognitive load: user must know the schema and write YAML.
 
-**Effort:** 3 — Options: (a) Telegram bot photo upload → staging area with minimal metadata, (b) template script that scaffolds a new WRITE-* or CREATE-* entry from filename + prompts for key fields, (c) web form for artifact + metadata.
+**Effort:** 3 â€” Options: (a) Telegram bot photo upload â†’ staging area with minimal metadata, (b) template script that scaffolds a new WRITE-* or CREATE-* entry from filename + prompts for key fields, (c) web form for artifact + metadata.
 
-**Priority:** 5 ÷ 3 = **1.67**
+**Priority:** 5 Ã· 3 = **1.67**
 
-**Planned intervention:** Template script (low effort) for new WRITE/CREATE entries. Longer term: optional bot or web upload flow. **Implemented:** `scripts/scaffold_evidence_entry.py` — pass artifact path, `--kind write|create`, `--title` (and optional `--context`, `--evidence-tier`); script infers next ID and prints a YAML block for pasting into self-evidence.md (or use `--output` to append to a staging file).
+**Planned intervention:** Template script (low effort) for new WRITE/CREATE entries. Longer term: optional bot or web upload flow. **Implemented:** `scripts/scaffold_evidence_entry.py` â€” pass artifact path, `--kind write|create`, `--title` (and optional `--context`, `--evidence-tier`); script infers next ID and prints a YAML block for pasting into self-evidence.md (or use `--output` to append to a staging file).
 
 ---
 
@@ -50,11 +50,11 @@
 
 **What it is:** When processing approved candidates, the assistant must update self.md, self-evidence.md (ACT-*), recursion-gate.md, session-log.md, and bot/prompt.py in one atomic pass. Any omission causes inconsistency.
 
-**Impact:** 3 — Error-prone. One missed file = drift. Human must verify.
+**Impact:** 3 â€” Error-prone. One missed file = drift. Human must verify.
 
-**Effort:** 3 — Could add: (a) integration script that takes approved candidate IDs and performs all updates, (b) validator that checks consistency post-integration, (c) single "process" command that reads RECURSION-GATE and applies changes.
+**Effort:** 3 â€” Could add: (a) integration script that takes approved candidate IDs and performs all updates, (b) validator that checks consistency post-integration, (c) single "process" command that reads RECURSION-GATE and applies changes.
 
-**Priority:** 3 ÷ 3 = **1.0**
+**Priority:** 3 Ã· 3 = **1.0**
 
 **Planned intervention:** Integration script (see approved improvement #5 Integrity-by-default). Reduces manual edit surface.
 
@@ -64,13 +64,13 @@
 
 **What it is:** After a bot conversation, the user may want to review what happened. self-archive.md holds the gated approved log; session-transcript.md has the raw log. There's no summary, no "what's new in PENDING," no diff of profile changes. User must read archive + RECURSION-GATE manually.
 
-**Impact:** 3 — Slows "what did we learn?" reflection. Hard to spot missed signals or duplicates.
+**Impact:** 3 â€” Slows "what did we learn?" reflection. Hard to spot missed signals or duplicates.
 
-**Effort:** 2 — Could add: (a) session summary script (last N messages, new candidates staged), (b) "since last commit" diff for SELF/SKILLS.
+**Effort:** 2 â€” Could add: (a) session summary script (last N messages, new candidates staged), (b) "since last commit" diff for SELF/SKILLS.
 
-**Priority:** 3 ÷ 2 = **1.5**
+**Priority:** 3 Ã· 2 = **1.5**
 
-**Planned intervention:** Session summary script or dashboard view. Low effort, high clarity. **Implemented:** `scripts/operator_gate_snapshot.py` — run at start of session for pending count, last N candidate IDs with one-line summary, and last ACT date in EVIDENCE. See [operator-weekly-review.md](operator-weekly-review.md) step 2.
+**Planned intervention:** Session summary script or dashboard view. Low effort, high clarity. **Implemented:** `scripts/operator_gate_snapshot.py` â€” run at start of session for pending count, last N candidate IDs with one-line summary, and last ACT date in EVIDENCE. See [operator-weekly-review.md](operator-weekly-review.md) step 2.
 
 ---
 
@@ -78,11 +78,11 @@
 
 **What it is:** Reading List in EVIDENCE is empty. No flow exists for "we finished a book" or "we read X." User would need to add READ-* entry manually with full schema (title, author, evidence_tier, comprehension, etc.).
 
-**Impact:** 4 — THINK module is underfed. Architecture expects THINK → SELF.interests, SKILLS.THINK, but there's no habit or tool.
+**Impact:** 4 â€” THINK module is underfed. Architecture expects THINK â†’ SELF.interests, SKILLS.THINK, but there's no habit or tool.
 
-**Effort:** 2 — Options: (a) minimal READ template (title, date, tier, 1–2 comprehension notes), (b) "we finished [book]" operator flow that stages a READ candidate for RECURSION-GATE, (c) analyst could flag book mentions in bot → stage as curiosity/knowledge (already happens for interest) but not as structured READ evidence.
+**Effort:** 2 â€” Options: (a) minimal READ template (title, date, tier, 1â€“2 comprehension notes), (b) "we finished [book]" operator flow that stages a READ candidate for RECURSION-GATE, (c) analyst could flag book mentions in bot â†’ stage as curiosity/knowledge (already happens for interest) but not as structured READ evidence.
 
-**Priority:** 4 ÷ 2 = **2.0**
+**Priority:** 4 Ã· 2 = **2.0**
 
 **Planned intervention:** Minimal READ entry template + operator "we [read/finished X]" convention. Document in Pipeline Map and grace-mar rule.
 
@@ -113,10 +113,11 @@
 
 ## Recommended Order of Intervention
 
-1. **Quick wins (effort 1–2):** READ template + "we finished [book]" convention; session summary script.
-2. **Medium (effort 2–3):** Review queue UI (dashboard); artifact template script.
+1. **Quick wins (effort 1â€“2):** READ template + "we finished [book]" convention; session summary script.
+2. **Medium (effort 2â€“3):** Review queue UI (dashboard); artifact template script.
 3. **Structural (effort 3+):** Integration script; upload flow.
 
 ---
 
 *Document version: 1.0*
+

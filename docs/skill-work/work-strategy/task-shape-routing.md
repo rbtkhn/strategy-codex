@@ -1,6 +1,6 @@
 # Task-shape routing (work-strategy)
 
-**Lane:** WORK (`work-strategy`) — **not** durable Record. Task-shape routing produces **derived** classification JSON and metadata only; it does **not** grant permission to merge into [`users/`](../../../users/) or alter Voice surfaces.
+**Lane:** WORK (`work-strategy`) — **not** durable Record. Task-shape routing produces **derived** classification JSON and metadata only; it does **not** grant permission to merge into [``](../../../) or alter Voice surfaces.
 
 ## What task-shape routing is
 

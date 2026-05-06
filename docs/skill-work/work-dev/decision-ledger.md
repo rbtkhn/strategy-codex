@@ -1,4 +1,4 @@
-# Decision Ledger
+﻿# Decision Ledger
 
 **Status:** WORK-only operator ledger. Not Record, not gate authority, not companion identity.
 
@@ -8,9 +8,9 @@ This ledger records durable operator decisions about architecture, runtime, work
 
 - Use this file for architecture/runtime/workflow decisions that should survive a session.
 - Do not use it for companion identity facts, EVIDENCE, SELF-KNOWLEDGE, or Voice truth.
-- If a decision would change Record truth, stage it through `users/grace-mar/recursion-gate.md`.
+- If a decision would change Record truth, stage it through `recursion-gate.md`.
 - If a decision creates or updates a reference source, route it through SELF-LIBRARY governance.
-- If a decision is short-lived session state, keep it in `users/grace-mar/self-memory.md` instead.
+- If a decision is short-lived session state, keep it in `self-memory.md` instead.
 
 ## Entry Format
 
@@ -37,3 +37,4 @@ This ledger records durable operator decisions about architecture, runtime, work
 - Keep entries concise; link out to richer specs rather than turning this ledger into a design doc.
 - Use `revisit` when the decision still matters but the original rationale is under stress.
 - Derived summary target: `decision-ledger-summary`.
+

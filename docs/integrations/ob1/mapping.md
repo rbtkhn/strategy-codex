@@ -1,4 +1,4 @@
-# OB1 Bridge — Canonical Mapping Specification
+﻿# OB1 Bridge â€” Canonical Mapping Specification
 
 Defines the object schemas for both bridge directions. Every field has a definition, a type, and a note on whether it is required or optional.
 
@@ -8,7 +8,7 @@ Defines the object schemas for both bridge directions. Every field has a definit
 
 ## Conceptual map (OB1, Cici, grace-mar)
 
-This section is **not** part of the bridge object schemas. It orients operators and advisors so **upstream OB1**, **Xavier’s instance repo (Cici)**, and **grace-mar** are not conflated.
+This section is **not** part of the bridge object schemas. It orients operators and advisors so **upstream OB1**, **Xavierâ€™s instance repo (Cici)**, and **grace-mar** are not conflated.
 
 **One-line stack:** OB1 is the **shared memory substrate**; Cici is a **personal governed instance** on top of that substrate; grace-mar is the most ambitious attempt in this family to turn that general area into a **full cognitive-governance architecture** (Record theory, gate, four surfaces, not just memory tooling).
 
@@ -16,25 +16,25 @@ This section is **not** part of the bridge object schemas. It orients operators 
 
 | Repo | Primary role |
 |------|----------------|
-| **[OB1](https://github.com/NateBJones-Projects/OB1)** (upstream) | Public **memory substrate** — Supabase + pgvector + MCP, extensions/recipes/skills/dashboards as a **contribution ecosystem**. Not a cognitive-fork Record system. |
-| **[Cici](https://github.com/Xavier-x01/Cici)** (external instance) | **Personal OB1 instance layer** — config/docs in git; durable captured memory in private Supabase. Phase 1 adds **git-first governed state** (evidence / prepared context / `users/<instance>/governed-state`, proposals). |
-| **grace-mar** (this repo) | **Governed cognitive-architecture instance** — four Record surfaces (SELF, SELF-LIBRARY, SKILLS, EVIDENCE), RECURSION-GATE, Voice, work territories; [state model](../../state-model.md) three layers **in doctrine**, not necessarily the same paths as Cici. |
+| **[OB1](https://github.com/NateBJones-Projects/OB1)** (upstream) | Public **memory substrate** â€” Supabase + pgvector + MCP, extensions/recipes/skills/dashboards as a **contribution ecosystem**. Not a cognitive-fork Record system. |
+| **[Cici](https://github.com/Xavier-x01/Cici)** (external instance) | **Personal OB1 instance layer** â€” config/docs in git; durable captured memory in private Supabase. Phase 1 adds **git-first governed state** (evidence / prepared context / `<instance>/governed-state`, proposals). |
+| **grace-mar** (this repo) | **Governed cognitive-architecture instance** â€” four Record surfaces (SELF, SELF-LIBRARY, SKILLS, EVIDENCE), RECURSION-GATE, Voice, work territories; [state model](../../state-model.md) three layers **in doctrine**, not necessarily the same paths as Cici. |
 
-**Where “governed truth” is supposed to live**
+**Where â€œgoverned truthâ€ is supposed to live**
 
 | Repo | Canonical durable truth | Operational / derivative |
 |------|-------------------------|---------------------------|
-| **OB1** (platform) | User’s **thoughts** in **their** Postgres (typical deployment); repo holds **contributions**, not personal memory. | Edge functions, dashboards, recipes — deployment-specific. |
+| **OB1** (platform) | Userâ€™s **thoughts** in **their** Postgres (typical deployment); repo holds **contributions**, not personal memory. | Edge functions, dashboards, recipes â€” deployment-specific. |
 | **Cici** | **Git-managed governed state** per [Cici doctrine](https://github.com/Xavier-x01/Cici/blob/main/docs/governed-state-doctrine.md) (if git and Supabase diverge, **governed files win**). | Supabase as **operational bridge** (search, MCP, etc.). |
-| **grace-mar** | **Record** under `users/grace-mar/` (and gated merge path) — **companion-self** authority model. | MEMORY, WORK drafts, exports; OB1 downstream of export is **not** canonical for identity. |
+| **grace-mar** | **Record** under `` (and gated merge path) â€” **companion-self** authority model. | MEMORY, WORK drafts, exports; OB1 downstream of export is **not** canonical for identity. |
 
-**Structural caution:** Cici’s Phase 1 **folder names** resemble grace-mar’s **state-model vocabulary** (evidence, prepared context, governed state). In grace-mar, **root** [`evidence/`](../../../evidence/) and [`prepared-context/`](../../../prepared-context/) are **reserved placeholders** only — see [state model § Repo layout](../../state-model.md#repo-layout-grace-mar). Territory-scoped evidence (e.g. work-cici) lives under `docs/skill-work/.../evidence/`. **Do not** assume Cici-style routing exists at the repo root without reading those docs.
+**Structural caution:** Ciciâ€™s Phase 1 **folder names** resemble grace-marâ€™s **state-model vocabulary** (evidence, prepared context, governed state). In grace-mar, **root** [`evidence/`](../../../evidence/) and [`prepared-context/`](../../../prepared-context/) are **reserved placeholders** only â€” see [state model Â§ Repo layout](../../state-model.md#repo-layout-grace-mar). Territory-scoped evidence (e.g. work-cici) lives under `docs/skill-work/.../evidence/`. **Do not** assume Cici-style routing exists at the repo root without reading those docs.
 
 ---
 
-## Direction A: companion-self → OB1 (export object)
+## Direction A: companion-self â†’ OB1 (export object)
 
-Each exported chunk produces one **export object** — a content file plus a metadata sidecar. The manifest lists all objects in the bundle.
+Each exported chunk produces one **export object** â€” a content file plus a metadata sidecar. The manifest lists all objects in the bundle.
 
 ### Export object fields
 
@@ -42,7 +42,7 @@ Each exported chunk produces one **export object** — a content file plus a met
 |-------|------|----------|------------|
 | `source_system` | string | yes | Always `"companion-self"`. Identifies the origin system. |
 | `user_id` | string | yes | The companion-self user directory name (e.g. `"grace-mar"`). |
-| `source_path` | string | yes | Repo-relative path of the source file (e.g. `"users/grace-mar/self.md"`). |
+| `source_path` | string | yes | Repo-relative path of the source file (e.g. `"self.md"`). |
 | `surface_class` | string | yes | Semantic classification of the source surface. One of: `identity`, `evidence`, `skills`, `memory`, `work`, `archive`. See surface class table below. |
 | `content_type` | string | yes | MIME-like type of the exported content. Typically `"text/markdown"` or `"application/json"`. |
 | `git_commit` | string | yes | The git commit SHA at export time. Ties the export to an auditable repo state. |
@@ -57,12 +57,12 @@ Each exported chunk produces one **export object** — a content file plus a met
 
 | `surface_class` | Source paths | Trust tier | Notes |
 |-----------------|-------------|------------|-------|
-| `identity` | `self.md` (§I-IX) | A | Core Record — companion-approved identity |
+| `identity` | `self.md` (Â§I-IX) | A | Core Record â€” companion-approved identity |
 | `evidence` | `self-archive.md` (EVIDENCE) | A | Immutable dated entries (ACT, READ, WRITE, CREATE, MEDIA) |
-| `skills` | `self-skills.md` | A | Capability claims — upgrade only, never downgrade |
+| `skills` | `self-skills.md` | A | Capability claims â€” upgrade only, never downgrade |
 | `memory` | `self-memory.md` | B | Ephemeral continuity, not durable Record; excluded by default |
 | `work` | `work-*.md`, `docs/skill-work/` | C | Operator work product; mixed trust; excluded by default |
-| `archive` | Artifacts under `users/<id>/artifacts/` | A | Companion-produced artifacts (drawings, writing samples) |
+| `archive` | Artifacts under `artifacts/` | A | Companion-produced artifacts (drawings, writing samples) |
 
 ### Manifest schema
 
@@ -81,9 +81,9 @@ The `manifest.json` file in the export bundle root:
 
 ---
 
-## Direction B: OB1 → companion-self (import proposal object)
+## Direction B: OB1 â†’ companion-self (import proposal object)
 
-Each OB1 thought that passes grounding filters produces one **proposal object** — a structured record staged for human review. The proposal object is the canonical form; any rendered markdown summary is derived from it.
+Each OB1 thought that passes grounding filters produces one **proposal object** â€” a structured record staged for human review. The proposal object is the canonical form; any rendered markdown summary is derived from it.
 
 ### Import proposal fields
 
@@ -131,13 +131,13 @@ Duplicates are logged and skipped, not staged.
 
 For any piece of data that crosses the bridge, the provenance chain must be reconstructable:
 
-**Export (CS → OB1):**
-`self.md §IX-A` → `export_open_brain_bundle.py` → `ob1-export/self.identity.md` + `self.identity.meta.json` → OB1 recipe ingest → OB1 thought
+**Export (CS â†’ OB1):**
+`self.md Â§IX-A` â†’ `export_open_brain_bundle.py` â†’ `ob1-export/self.identity.md` + `self.identity.meta.json` â†’ OB1 recipe ingest â†’ OB1 thought
 
 At each step: `source_path`, `git_commit`, `fingerprint_sha256`, `exported_at`.
 
-**Import (OB1 → CS):**
-OB1 thought → `import_ob1_to_proposals.py` → proposal object (JSON) → operator review → RECURSION-GATE candidate → `process_approved_candidates.py` → `self.md`
+**Import (OB1 â†’ CS):**
+OB1 thought â†’ `import_ob1_to_proposals.py` â†’ proposal object (JSON) â†’ operator review â†’ RECURSION-GATE candidate â†’ `process_approved_candidates.py` â†’ `self.md`
 
 At each step: `ob1_thought_id`, `captured_at`, `imported_at`, `trust_tier`, `grounding_score`, `review_status`.
 
@@ -145,17 +145,17 @@ At each step: `ob1_thought_id`, `captured_at`, `imported_at`, `trust_tier`, `gro
 
 ## Chunking guidance (Phase 1 export)
 
-The `chunk_strategy` field determines how source files are split for OB1 ingest. Choosing wrong causes poor retrieval quality — the single most common failure point in personal RAG systems.
+The `chunk_strategy` field determines how source files are split for OB1 ingest. Choosing wrong causes poor retrieval quality â€” the single most common failure point in personal RAG systems.
 
 | Strategy | When to use | Risk |
 |----------|-------------|------|
 | `full_file` | Short files (< 2,000 tokens): `self-skills.md`, individual artifacts | Safe default; fails on long files (embedding dilution) |
-| `per_section` | Structured files with clear headings: `self.md` (§I through §IX), `self-archive.md` (per category) | Good balance; requires reliable heading detection |
+| `per_section` | Structured files with clear headings: `self.md` (Â§I through Â§IX), `self-archive.md` (per category) | Good balance; requires reliable heading detection |
 | `per_entry` | Log-shaped files with dated entries: `self-archive.md` EVIDENCE entries (ACT-*, READ-*, etc.) | Highest granularity; best for retrieval precision; may lose cross-entry context |
 
-**Blocking prerequisite (PR 4):** Before shipping the exporter, run a **chunking spike** — export one real `self.md` under each strategy, ingest into OB1, run 10 retrieval test queries, and measure precision. Do not ship without this data. See [architecture.md](architecture.md) § Known technical risks.
+**Blocking prerequisite (PR 4):** Before shipping the exporter, run a **chunking spike** â€” export one real `self.md` under each strategy, ingest into OB1, run 10 retrieval test queries, and measure precision. Do not ship without this data. See [architecture.md](architecture.md) Â§ Known technical risks.
 
-**Near-miss deduplication:** When content is reformatted or lightly edited between exports, `fingerprint_sha256` changes even though the semantic content is the same. The `stable_id` (derived from `source_path` + `surface_class`) handles update-in-place for the same source. For content that moved between files, dedup relies on the OB1-side recipe to detect near-duplicates by embedding similarity — this is outside the bridge's scope but should be noted in the operator runbook.
+**Near-miss deduplication:** When content is reformatted or lightly edited between exports, `fingerprint_sha256` changes even though the semantic content is the same. The `stable_id` (derived from `source_path` + `surface_class`) handles update-in-place for the same source. For content that moved between files, dedup relies on the OB1-side recipe to detect near-duplicates by embedding similarity â€” this is outside the bridge's scope but should be noted in the operator runbook.
 
 ---
 
@@ -166,4 +166,5 @@ Repeated export runs with the same source content must produce identical output:
 - Same `fingerprint_sha256` values
 - Same manifest content (modulo `exported_at` timestamp)
 
-The `exported_at` field is metadata, not content — it should not affect fingerprints. If determinism breaks, the likely cause is non-deterministic file walking order or timestamp leakage into content fields. The export test suite (PR 5) must include a "run twice, diff output" test.
+The `exported_at` field is metadata, not content â€” it should not affect fingerprints. If determinism breaks, the likely cause is non-deterministic file walking order or timestamp leakage into content fields. The export test suite (PR 5) must include a "run twice, diff output" test.
+

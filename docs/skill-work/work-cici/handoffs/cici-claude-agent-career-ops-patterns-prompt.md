@@ -66,7 +66,7 @@ Respect **PLAN / EXECUTE / DOCSYNC / EXECUTE_LOCAL** as in the **discipline** ag
 
 - Copying **career-ops** whole-cloth into Cici (wrong domain, huge deps).
 - Adding **Playwright / Chromium** for “because career-ops had it” without a **named** Cici use case.
-- **Batch** runs that **touch** `users/cici/governed-state/**` without **approval** and **echo**.
+- **Batch** runs that **touch** `cici/governed-state/**` without **approval** and **echo**.
 ```
 
 ---

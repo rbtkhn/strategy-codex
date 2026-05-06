@@ -1,4 +1,4 @@
-# MCP mock execution harness
+﻿# MCP mock execution harness
 
 **Status:** WORK-layer fixture runner only. **`scripts/mcp_mock_harness.py`** does **not** execute MCP servers, load credentials, open network connections, run shell commands, or enable integrations.
 
@@ -8,7 +8,7 @@
 
 ## Why this harness exists
 
-Grace-Mar already maintains capability classes, authority bindings, risk policy, and MCP receipts for planning. Before anyone considers **live** MCP wiring, the mock harness lets operators replay **MCP-shaped** tool calls against **local JSON fixtures**: same registry lookup, binding summary, and risk scoring overlay—without a running server.
+Grace-Mar already maintains capability classes, authority bindings, risk policy, and MCP receipts for planning. Before anyone considers **live** MCP wiring, the mock harness lets operators replay **MCP-shaped** tool calls against **local JSON fixtures**: same registry lookup, binding summary, and risk scoring overlayâ€”without a running server.
 
 Mock execution answers: **Given a declared capability id and mock access posture, does the fixture stay within registry limits, and what does the risk scanner say when we overlay the mock request onto the simulated capability row?**
 
@@ -18,7 +18,7 @@ Mock execution answers: **Given a declared capability id and mock access posture
 
 | Aspect | [`mcp_manifest_admission.py`](../../scripts/mcp_manifest_admission.py) | Mock harness (`mcp_mock_harness.py`) |
 |--------|----------------------------------------------------------------------|--------------------------------------|
-| Input | Declared **server manifest** (YAML/JSON) — tools/permissions narrative | **Single mock run** — explicit tool name, mock request/response, governance flags |
+| Input | Declared **server manifest** (YAML/JSON) â€” tools/permissions narrative | **Single mock run** â€” explicit tool name, mock request/response, governance flags |
 | Classification | Infers best-matching capability id from heuristics | **`run.capability_id`** must match a registry id exactly |
 | Receipt **`capability.id`** | **`mcp_manifest_admission`** | **`mcp_mock_harness`** |
 
@@ -47,15 +47,15 @@ Validated against **[`schemas/mcp-mock-run.v1.json`](../../schemas/mcp-mock-run.
 - **`mock_response`:** `status`, `summary`, `data`
 - **`governance_expectations`:** review flags plus **`durable_state_write_attempted`** and **`canonical_record_touched`** (must remain **`false`** for harness acceptance)
 
-**Resource strings** must be **`mock://...`** URIs or repo-relative paths (no `..`, no absolute paths, no `http(s)://`, no `users/grace-mar/`).
+**Resource strings** must be **`mock://...`** URIs or repo-relative paths (no `..`, no absolute paths, no `http(s)://`, no ``).
 
 ---
 
 ## Output format
 
 1. **Markdown packet** under **`artifacts/mcp-mock-runs/`** with YAML front matter (`receipt_id`, `mock_run_id`, `simulated_capability_id`) and banner line:
-   `MOCK MCP RUN · WORK ARTIFACT · NO LIVE SERVER · NOT APPROVED INTEGRATION`
-2. **MCP execution receipt** JSON (`capability.id` = **`mcp_mock_harness`**, **`output_lane`:** **`work_artifact`**) — receipt **`access`** fields follow the **adapter** registry row (network/credential **`none`**), not the simulated GitHub read posture.
+   `MOCK MCP RUN Â· WORK ARTIFACT Â· NO LIVE SERVER Â· NOT APPROVED INTEGRATION`
+2. **MCP execution receipt** JSON (`capability.id` = **`mcp_mock_harness`**, **`output_lane`:** **`work_artifact`**) â€” receipt **`access`** fields follow the **adapter** registry row (network/credential **`none`**), not the simulated GitHub read posture.
 
 ---
 
@@ -92,3 +92,4 @@ python3 scripts/mcp_mock_harness.py \
 ```
 
 See **[`artifacts/mcp-mock-runs/README.md`](../../artifacts/mcp-mock-runs/README.md)** for bucket policy.
+

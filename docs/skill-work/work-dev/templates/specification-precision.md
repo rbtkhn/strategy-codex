@@ -24,7 +24,7 @@ What **must be true** when this work is done — no vibes.
 
 | Kind | Paths / artifacts |
 |------|-------------------|
-| **Persistent (always-on)** | e.g. canonical `users/<id>/session-log.md`, `recursion-gate.md`, export bundle paths per [session-continuity-contract.md](../session-continuity-contract.md) |
+| **Persistent (always-on)** | e.g. canonical `session-log.md`, `recursion-gate.md`, export bundle paths per [session-continuity-contract.md](../session-continuity-contract.md) |
 | **Per-run (on demand)** | Specific files, tickets, or data objects for this task only |
 
 **Rule:** Do not treat chat history or vendor UI as canonical; **git-tracked** sources win.

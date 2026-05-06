@@ -1,10 +1,10 @@
-# work-dev workspace
+﻿# work-dev workspace
 
 Canonical operator entrypoint for the `work-dev` territory.
 
 Use this file when you want one place to understand:
 
-- what parts of the Grace-Mar ↔ OpenClaw integration are real today
+- what parts of the Grace-Mar â†” OpenClaw integration are real today
 - what is only documented or aspirational
 - where provenance or observability is weak
 - how the territory could become a real business
@@ -12,7 +12,7 @@ Use this file when you want one place to understand:
 
 ## Related territory: template sync (not OpenClaw)
 
-**[`work-companion-self`](../work-companion-self/README.md)** — grace-mar ↔ companion-self drift, `template_diff.py`, manifest audits, upstream PRs. Use that folder for **template governance**; use **this** folder for **OpenClaw / exports / continuity / CI**. See also [MERGING-FROM-COMPANION-SELF](../../merging-from-companion-self.md).
+**[`work-companion-self`](../work-companion-self/README.md)** â€” grace-mar â†” companion-self drift, `template_diff.py`, manifest audits, upstream PRs. Use that folder for **template governance**; use **this** folder for **OpenClaw / exports / continuity / CI**. See also [MERGING-FROM-COMPANION-SELF](../../merging-from-companion-self.md).
 
 ---
 
@@ -21,15 +21,16 @@ Use this file when you want one place to understand:
 | Area | Current state |
 |------|---------------|
 | **Identity export** | Implemented through `integrations/openclaw_hook.py` and the runtime bundle export path |
-| **Stage-only handback** | Implemented through `integrations/openclaw_stage.py` → `/stage` |
+| **Stage-only handback** | Implemented through `integrations/openclaw_stage.py` â†’ `/stage` |
 | **Pipeline-level export audit** | Implemented via `runtime_compat_export` events and harness events |
 | **Constitution advisory event** | Implemented via `intent_constitutional_critique` event emission |
 | **End-to-end provenance** | Implemented: OpenClaw payload (source=openclaw_stage) flows as staging_meta into gate; candidate blocks carry candidate_source, artifact_*, constitution_*; recursion_gate_review parses them for review/benchmarks |
-| **Session continuity receipts** | **Implemented contract:** [session-continuity-contract.md](session-continuity-contract.md) — files + `continuity_preflight.py` / `verify_continuity_receipt.py` + handback enforcement; not “agent remembers.” OpenClaw `/stage` requires a fresh valid receipt. |
+| **Session continuity receipts** | **Implemented contract:** [session-continuity-contract.md](session-continuity-contract.md) â€” files + `continuity_preflight.py` / `verify_continuity_receipt.py` + handback enforcement; not â€œagent remembers.â€ OpenClaw `/stage` requires a fresh valid receipt. |
 | **Session continuity event logging** | **Partial observability:** denial/block events can append to local `runtime/observability/continuity_blocks.jsonl`; the feed is gitignored unless exported and remains an observability surface, not an operational guarantee. |
 | **Derived regeneration foundation** | **Partial:** repo-owned [derived-regeneration.md](derived-regeneration.md) now includes a phase-1 change detector, regeneration entrypoint, rebuild receipts, a generated target manifest, and rebuild-health telemetry for a small initial target set. Runtime-triggered rebuild requests remain explicitly deferred. |
+| **YouTube / transcript tooling** | **Partial:** the active seam is split across `scripts/youtube_transcripts/*`, `scripts/backfill_*_youtube_raw_input.py`, `scripts/build_dialogue_works_metadata_index.py`, and `scripts/assess_session_load.py`; keep it as its own commit bucket instead of folding it into docs-only cleanup. |
 
-**Mirror (OpenClaw surfaces):** Full rows—including compute-ledger (**`partial`**), local topology (**`implemented`**), and VPS caveat (**`documented_only`**)—live in [`integration-status.md`](integration-status.md); this summary stays headline-only.
+**Mirror (OpenClaw surfaces):** Full rowsâ€”including compute-ledger (**`partial`**), local topology (**`implemented`**), and VPS caveat (**`documented_only`**)â€”live in [`integration-status.md`](integration-status.md); this summary stays headline-only.
 
 ---
 
@@ -39,17 +40,17 @@ Use this file when you want one place to understand:
 |------|------|
 | `README.md` | Territory doctrine, scope, and invariants |
 | `../work-companion-self/README.md` | Template sync, audit reports, reconciliation-code audit guidance |
-| `INTEGRATION-PROGRAM.md` | Single-page OpenClaw ⟷ Grace-Mar loop (read / export / stage / merge) |
+| `INTEGRATION-PROGRAM.md` | Single-page OpenClaw âŸ· Grace-Mar loop (read / export / stage / merge) |
 | `PARALLEL-MACRO-ACTIONS.md` | Parallel macro-action branches + merge order discipline |
-| `three-compounding-loops.md` | Record vs WORK vs CI loops — how compounding works and where drafts must not become canon |
-| `compound-loop.md` | Coding-agent compound loop (Plan → Execute → Review → Compound → Gate); WORK notes under `compound-notes/`; no auto-Record |
+| `three-compounding-loops.md` | Record vs WORK vs CI loops â€” how compounding works and where drafts must not become canon |
+| `compound-loop.md` | Coding-agent compound loop (Plan â†’ Execute â†’ Review â†’ Compound â†’ Gate); WORK notes under `compound-notes/`; no auto-Record |
 | `integration-status.md` | Honest implemented/partial/documented-only status table |
 | `known-gaps.md` | Current spec-to-implementation gaps and suggested fixes |
 | `provenance-checklist.md` | Repeatable verification path for export, handback, and audit |
 | `economic-benchmarks.md` | Metrics and instrumentation reality |
 | `../../openclaw-integration.md` | Full integration guide and architecture-level contract |
 | `research-moonshots-237.md` | Research notes and ecosystem framing |
-| `research-no-priors-karpathy-end-of-coding.md` | No Priors / Karpathy — agents, claws, auto-research; links to work-dev transcripts + work-dev takeaways |
+| `research-no-priors-karpathy-end-of-coding.md` | No Priors / Karpathy â€” agents, claws, auto-research; links to work-dev transcripts + work-dev takeaways |
 | `research-agent-readable-writable-commerce.md` | McKinsey / agent commerce / readable-writable stack; transcript under `research/external/work-dev/transcripts/` |
 | `offers.md` | Business-layer offers and commercial framing |
 | `target-registry.md` | Buyer segments for the business layer |
@@ -57,16 +58,16 @@ Use this file when you want one place to understand:
 | `session-continuity-contract.md` | Explicit continuity steps vs implicit memory (files, scripts, CI) |
 | `continuity-observability.md` | Export path for continuity-block runtime residue into a WORK-derived operator artifact |
 | `safety-story-ux.md` | Visible pipeline state as user-facing safety story (pending/approved, receipts, staged vs merged) |
-| `external-signals.md` | Transcript/keynote-class discourse → work-dev lens (OpenClaw, trust, inference); pairs with work-strategy `external-tech-scan.md` |
+| `external-signals.md` | Transcript/keynote-class discourse â†’ work-dev lens (OpenClaw, trust, inference); pairs with work-strategy `external-tech-scan.md` |
 | `work-dev-sources.md` | Authorized sources list for work-dev framing (not integration truth); see [work-modules-sources-principle.md](../work-modules-sources-principle.md); parallel: [../work-politics/work-politics-sources.md](../work-politics/work-politics-sources.md) |
-| `../work-career/README.md` | **AI career prep (operator lane):** manual job JSON/CSV, skill worksheet, opportunity-review template; `scripts/work_career/` — not Record truth |
-| `creative-pipeline.md` | **Agent-augmented creative workflow:** brief template, `DESIGN.md`, `scripts/validate-design-md.py`, artifacts under `users/grace-mar/artifacts/creative/` — not Record truth until gated |
-| `agentic-environment-principles.md` | Environment-first debugging; §5 **a/b/c** (residency + roles, bounded runtime, pipeline vs local memory) |
+| `../work-career/README.md` | **AI career prep (operator lane):** manual job JSON/CSV, skill worksheet, opportunity-review template; `scripts/work_career/` â€” not Record truth |
+| `creative-pipeline.md` | **Agent-augmented creative workflow:** brief template, `DESIGN.md`, `scripts/validate-design-md.py`, artifacts under `artifacts/creative/` â€” not Record truth until gated |
+| `agentic-environment-principles.md` | Environment-first debugging; Â§5 **a/b/c** (residency + roles, bounded runtime, pipeline vs local memory) |
 | `agent-surface-template.yaml` | Structured checklist: runtime / orchestration / interface + Grace-Mar trust; optional `agent_species`; `scripts/work_dev/agent_surface_checklist.py` |
 | `managed-agent-design.md` | Think-lane design: persistent-agent lifecycle using existing primitives (sandbox adapter, agent-surface-template, gate); operator runbook; steward boundary review |
 | `engagement-model.md` | Commercial packaging and sequencing |
 | `delivery-playbook.md` | Service delivery phases |
-| `claude-code-wat-crosswalk.md` | WAT / agentic IDE ↔ delivery, reliability, handover |
+| `claude-code-wat-crosswalk.md` | WAT / agentic IDE â†” delivery, reliability, handover |
 | `partner-channel.md` | Borrowed-authority / partner growth path |
 | `objection-log.md` | Positioning and market-learning log |
 | `../../crypto-roadmap.md` | Future authority, settlement, and access layer across territories |
@@ -120,13 +121,14 @@ Crypto belongs adjacent to these lanes as a future **authority / settlement / ac
 2. ~~Mark benchmark rows as instrumented, manual, planned, or blocked instead of implying they all exist today.~~ Done (see `economic-benchmarks.md` definitions and tables).
 3. ~~CI wiring for `continuity_read_log.py`~~ Done (`tests/test_continuity_read_log.py`). ~~Optional: OpenClaw startup wrapper~~ `scripts/openclaw_session_continuity.sh` appends JSONL then runs the rest of the command. Receipt enforcement is now the stronger operational contract; continuity block logging remains local observability.
 4. ~~Refresh stale derived exports (`manifest.json`, `llms.txt`, `intent_snapshot.json`, `fork-manifest.json`, PRP, runtime bundle). Validator flags these; run `refresh_derived_exports.py` after confirming no Record changes are pending.~~ Done (2026-04-12: `refresh_derived_exports.py -u grace-mar`; commit `3a17caf`).
-5. ~~Pick only between BUILD-AI-GAP-005 and BUILD-AI-GAP-006 as the next blocker~~ — Incremental slice landed: matrix `--check` + pytest drift on `handback_tail_stress.matrix.md`, optional `staged_risk_tier` narrative guard in `validate_handback_analysis.py` (commit `aa1417c`). Both gaps remain `partial` (client tail YAMLs; full semantic alignment; wiring `staged_risk_tier` from `/stage` when ready). **GAP-007:** dashboard + harness + **Tests workflow smoke** (`evaluate_autonomy_tiers.py` → `insufficient_data` cold path) — see `autonomy/tier_policy.md`; gap stays **`partial`** until operator habit / optional UI. **Choose next wedge:** deeper tail scenarios (**GAP-005/006**) or **OB1 chunking** (#6) when bridge exporter / PR4 is queued.
+5. ~~Pick only between BUILD-AI-GAP-005 and BUILD-AI-GAP-006 as the next blocker~~ â€” Incremental slice landed: matrix `--check` + pytest drift on `handback_tail_stress.matrix.md`, optional `staged_risk_tier` narrative guard in `validate_handback_analysis.py` (commit `aa1417c`). Both gaps remain `partial` (client tail YAMLs; full semantic alignment; wiring `staged_risk_tier` from `/stage` when ready). **GAP-007:** dashboard + harness + **Tests workflow smoke** (`evaluate_autonomy_tiers.py` â†’ `insufficient_data` cold path) â€” see `autonomy/tier_policy.md`; gap stays **`partial`** until operator habit / optional UI. **Choose next wedge:** deeper tail scenarios (**GAP-005/006**) or **OB1 chunking** (#6) when bridge exporter / PR4 is queued.
 6. **Derived regeneration roadmap:** keep [derived-regeneration.md](derived-regeneration.md) as the repo-owned phase map. Next wedges, in order: deepen the rebuild foundation (manifest breadth + stronger incremental ordering), then **GAP-005**, **GAP-006**, **GAP-007**, then richer rebuild-health summaries, then any runtime rebuild-request channel.
-7. OB1 chunking spike — when demand materializes: export one real `self.md` under each strategy, measure retrieval precision, pick the winner. Blocking prerequisite for the bridge exporter (PR 4). See `docs/integrations/ob1/architecture.md` § Known technical risks.
-8. Apply risk-mitigation template (success criteria, sustainment, deprecation, scope creep) to remaining uncovered territories: ~~`work-politics`~~ (**done 2026-04-18** — see `docs/skill-work/work-politics/README.md` § *Risk mitigation (template — Tier 1+)*), ~~`work-civ-mem`~~ (**done 2026-04-18** — see `docs/skill-work/work-civ-mem/README.md` § *Risk mitigation (template — Tier 1+)*), ~~`work-cici`~~ (**done 2026-04-15** — see `docs/skill-work/work-cici/README.md` § *Risk mitigation (template — Tier 1+)*). Template: `docs/skill-work/work-template/README.md` § Risk-mitigation checklist. **Lane sweep complete** — use template when adding new long-lived WORK territories.
+7. OB1 chunking spike â€” when demand materializes: export one real `self.md` under each strategy, measure retrieval precision, pick the winner. Blocking prerequisite for the bridge exporter (PR 4). See `docs/integrations/ob1/architecture.md` Â§ Known technical risks.
+8. Apply risk-mitigation template (success criteria, sustainment, deprecation, scope creep) to remaining uncovered territories: ~~`work-politics`~~ (**done 2026-04-18** â€” see `docs/skill-work/work-politics/README.md` Â§ *Risk mitigation (template â€” Tier 1+)*), ~~`work-civ-mem`~~ (**done 2026-04-18** â€” see `docs/skill-work/work-civ-mem/README.md` Â§ *Risk mitigation (template â€” Tier 1+)*), ~~`work-cici`~~ (**done 2026-04-15** â€” see `docs/skill-work/work-cici/README.md` Â§ *Risk mitigation (template â€” Tier 1+)*). Template: `docs/skill-work/work-template/README.md` Â§ Risk-mitigation checklist. **Lane sweep complete** â€” use template when adding new long-lived WORK territories.
 
 ---
 
 ## Guardrail
 
 This workspace is for operator truth, not marketing truth. If a capability is only documented, say so plainly.
+

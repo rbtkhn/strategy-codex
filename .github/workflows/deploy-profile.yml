@@ -1,13 +1,13 @@
-# Deploy profile to GitHub Pages (grace-mar.com)
+﻿# Deploy profile to GitHub Pages (grace-mar.com)
 # Uses official actions: upload-pages-artifact + deploy-pages.
-# In repo Settings → Pages, set Source to "GitHub Actions" for this workflow.
+# In repo Settings â†’ Pages, set Source to "GitHub Actions" for this workflow.
 name: Deploy profile to Pages
 
 on:
   push:
     branches: [main]
     paths:
-      - 'users/grace-mar/**'
+      - '**'
       - 'scripts/generate_profile.py'
       - 'profile/CNAME'
       - '.github/workflows/deploy-profile.yml'
@@ -52,3 +52,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deploy
         uses: actions/deploy-pages@v4
+

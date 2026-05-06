@@ -1,4 +1,4 @@
-# Performance budgets and SLOs
+﻿# Performance budgets and SLOs
 
 **Purpose:** Document expected performance for the [performance test suite](../scripts/run_perf_suite.py). Tune thresholds after establishing baselines on a **reference machine** (document class, CPU, disk) and `OPENAI_MODEL`.
 
@@ -10,7 +10,7 @@
 # Tier 1 only (CI, no API key)
 python scripts/run_perf_suite.py --tier 1 -u grace-mar
 
-# Tiers 1–2 (local I/O)
+# Tiers 1â€“2 (local I/O)
 python scripts/run_perf_suite.py --tier 2 -u grace-mar
 
 # Tier 3 (requires OPENAI_API_KEY)
@@ -27,10 +27,10 @@ python scripts/run_perf_suite.py --tier 5
 python scripts/run_perf_suite.py --tier 1 --check-baseline
 
 # Write JSON artifact
-python scripts/run_perf_suite.py --tier 1 2 -o users/grace-mar/artifacts/perf-results.json
+python scripts/run_perf_suite.py --tier 1 2 -o artifacts/perf-results.json
 ```
 
-**Nightly / manual:** Run tiers 1–3 weekly or before releases; store `-o` JSON for trending. CI runs tier 1 only.
+**Nightly / manual:** Run tiers 1â€“3 weekly or before releases; store `-o` JSON for trending. CI runs tier 1 only.
 
 ### Baseline regression check (pre-release / after perf work)
 
@@ -86,9 +86,10 @@ Adjust [scripts/perf/baselines.json](../scripts/perf/baselines.json) after measu
 
 ## Alignment
 
-- [economic-benchmarks.md](skill-work/work-build-ai/economic-benchmarks.md) — export latency can be filled from tier 2 timings.
-- [AGENTS.md](../AGENTS.md) — success metrics row for perf suite.
+- [economic-benchmarks.md](skill-work/work-build-ai/economic-benchmarks.md) â€” export latency can be filled from tier 2 timings.
+- [AGENTS.md](../AGENTS.md) â€” success metrics row for perf suite.
 
 ---
 
 *Reference: establish baselines on your hardware, commit updated `baselines.json`, then tighten SLOs gradually.*
+

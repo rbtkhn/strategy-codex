@@ -15,7 +15,7 @@
 
 ## Xavier instance (external repository)
 
-- Seed survey, `users/xavier/`, gate, and Voice live in **her** repo — see [INSTANCE-PATHS.md](INSTANCE-PATHS.md). Do not paste secrets or grace-mar Record paths into shared advisor docs ([LEAKAGE-CHECKLIST.md](LEAKAGE-CHECKLIST.md)).
+- Seed survey, `xavier/`, gate, and Voice live in **her** repo — see [INSTANCE-PATHS.md](INSTANCE-PATHS.md). Do not paste secrets or grace-mar Record paths into shared advisor docs ([LEAKAGE-CHECKLIST.md](LEAKAGE-CHECKLIST.md)).
 
 ---
 

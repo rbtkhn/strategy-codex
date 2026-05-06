@@ -1,10 +1,10 @@
-# Analysis: Grace-Mar Skill-Work (BUILD Container)
+﻿# Analysis: Grace-Mar Skill-Work (BUILD Container)
 
 > Legacy analysis note: this file analyzes the older `self-skill-work` / `BUILD` model as it existed in the Record. Current canon treats work as a separate execution layer. Preserve this analysis for history; do not use it as the current taxonomy source.
 
-**Purpose:** Analyze the **self-skill-work** dimension (BUILD container) of the Grace-Mar Record — scope, evidence linkage, dimensions, and alignment with SKILLS-MODULARITY and ID-TAXONOMY.
+**Purpose:** Analyze the **self-skill-work** dimension (BUILD container) of the Grace-Mar Record â€” scope, evidence linkage, dimensions, and alignment with SKILLS-MODULARITY and ID-TAXONOMY.
 
-**Source:** `users/grace-mar/skills.md` § BUILD Container; `users/grace-mar/self-evidence.md` § III. CREATION LOG, § V. ACTIVITY LOG.  
+**Source:** `skills.md` Â§ BUILD Container; `self-evidence.md` Â§ III. CREATION LOG, Â§ V. ACTIVITY LOG.  
 **Standard label:** self-skill-work. Internal identifier: BUILD container; evidence: CREATE-nnn, ACT-nnn.  
 **Date:** 2026-02-26
 
@@ -26,7 +26,7 @@ Per SKILLS-MODULARITY: WORK = making, planning, execution, exchange, creation. I
 ## 2. Current BUILD Container State
 
 ```yaml
-status: ACTIVE (creation dimensions from CREATE-0001–0008; planning/execution from ACT-0035 BUILD probe)
+status: ACTIVE (creation dimensions from CREATE-0001â€“0008; planning/execution from ACT-0035 BUILD probe)
 
 # Creation (merged from IMAGINE)
 originality_level: 4
@@ -73,7 +73,7 @@ companion_creative_context: pencil/pen on paper; most days; finishes pieces; sha
 | ID | Type | Dimensions probed | Summary |
 |----|------|-------------------|---------|
 | ACT-0035 | build_probe | planning, execution, making, elaboration, flexibility, decision_making, originality | 8 Record-grounded MC questions; planning (drawing, lemonade stand) correct; execution (Lego next step) correct; making (instructions + box) A+C; elaboration/flexibility/decision/originality confirmed |
-| ACT-0036 | companion_artistic_style_survey | companion context | Companion (operator) artistic style — pencil/pen, most days, finishes, shares, playful; feeds companion_creative_context in BUILD |
+| ACT-0036 | companion_artistic_style_survey | companion context | Companion (operator) artistic style â€” pencil/pen, most days, finishes, shares, playful; feeds companion_creative_context in BUILD |
 
 ---
 
@@ -83,17 +83,17 @@ companion_creative_context: pencil/pen on paper; most days; finishes pieces; sha
 
 | Dimension | Level | Evidence | Notes |
 |-----------|-------|----------|-------|
-| **Originality** | 4 | CREATE-0001 (text-only Chinese story → full visual), CREATE-0004 (fully original ocean), CREATE-0006 (self on moon), BUILD probe | Novel combinations; crosses stories; invents scenes |
-| **Elaboration** | 4 | CREATE-0001–0004, 0006, 0008; BUILD probe (scarf, eyelashes, whole world) | Detailed; signature choices (striped bands, eyelashes); full environments |
-| **Flexibility** | 3 | CREATE-0001–0008; BUILD probe (add one thing not in book) | Works within constraints; own choices; CREATE-0005 (collage, architecture) shows high flexibility |
+| **Originality** | 4 | CREATE-0001 (text-only Chinese story â†’ full visual), CREATE-0004 (fully original ocean), CREATE-0006 (self on moon), BUILD probe | Novel combinations; crosses stories; invents scenes |
+| **Elaboration** | 4 | CREATE-0001â€“0004, 0006, 0008; BUILD probe (scarf, eyelashes, whole world) | Detailed; signature choices (striped bands, eyelashes); full environments |
+| **Flexibility** | 3 | CREATE-0001â€“0008; BUILD probe (add one thing not in book) | Works within constraints; own choices; CREATE-0005 (collage, architecture) shows high flexibility |
 
 ### 4.2 Planning / execution / making (evidenced by probe)
 
 | Dimension | Level | Evidence | Notes |
 |-----------|-------|----------|-------|
-| **Planning** | 1–2 | ACT-0035 (drawing: get materials first; lemonade stand: lemonade first) | Can order steps for familiar tasks |
+| **Planning** | 1â€“2 | ACT-0035 (drawing: get materials first; lemonade stand: lemonade first) | Can order steps for familiar tasks |
 | **Execution** | 1 | ACT-0035 (Lego: go to step 5 after step 4) | Next step in sequence |
-| **Making** | 1 | ACT-0035 (Legos — follow instructions + look at box) | Follows instructions; methodical |
+| **Making** | 1 | ACT-0035 (Legos â€” follow instructions + look at box) | Follows instructions; methodical |
 | **Decision-making** | 1 | ACT-0035 (why pick deer: kind, brave, beautiful) | Can give reason for choice |
 
 ### 4.3 Gaps (null or not yet evidenced)
@@ -110,8 +110,8 @@ companion_creative_context: pencil/pen on paper; most days; finishes pieces; sha
 | Relationship | How |
 |--------------|-----|
 | **SELF (IX-A/B/C)** | Analyst stages knowledge/curiosity/personality from CREATE/ACT; WORK does not stage. CREATE entries yield self_signals (interests, values, personality) that go to SELF via pipeline. |
-| **self-skill-write** | Text integration in art (labels, signatures) — WRITE and WORK overlap at artifact level. |
-| **self-skill-think** | Source stories (Nine-Colored Deer, Lilo & Stitch) feed creation; THINK intake → WORK output. |
+| **self-skill-write** | Text integration in art (labels, signatures) â€” WRITE and WORK overlap at artifact level. |
+| **self-skill-think** | Source stories (Nine-Colored Deer, Lilo & Stitch) feed creation; THINK intake â†’ WORK output. |
 | **companion_creative_context** | ACT-0036 (companion artistic style) informs household creative environment; not the child's capability but context. |
 
 ---
@@ -123,8 +123,8 @@ companion_creative_context: pencil/pen on paper; most days; finishes pieces; sha
 
 **Potential growth areas:**
 - Narrative creation from prompts (not yet evidenced)
-- Financial (allowance, budgeting) — SKILLS-TEMPLATE WORK scope
-- Collaboration (teamwork, role clarity) — BUILD probe has collaboration dimension
+- Financial (allowance, budgeting) â€” SKILLS-TEMPLATE WORK scope
+- Collaboration (teamwork, role clarity) â€” BUILD probe has collaboration dimension
 - Planning level 2+ (multi-step projects, timelines)
 
 ---
@@ -132,9 +132,10 @@ companion_creative_context: pencil/pen on paper; most days; finishes pieces; sha
 ## 7. Summary
 
 - **Creation (originality, elaboration, flexibility):** Strong evidence from 8 CREATE entries; Creativity Profile and signatures well documented.
-- **Planning/execution/making:** Evidenced by BUILD probe (ACT-0035); levels 1–2 for planning, 1 for execution and making.
-- **Decision-making:** Level 1 — can give reasons for choices.
+- **Planning/execution/making:** Evidenced by BUILD probe (ACT-0035); levels 1â€“2 for planning, 1 for execution and making.
+- **Decision-making:** Level 1 â€” can give reasons for choices.
 - **Financial, collaboration:** Not yet evidenced.
 - **Companion creative context:** ACT-0036 provides household artistic style; informs environment, not child capability.
 
 All claims are evidence-linked. No capability claim without traceable CREATE-* or ACT-*.
+

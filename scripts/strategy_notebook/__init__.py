@@ -1,5 +1,9 @@
 """Strategy notebook extension: receipts, graph scaffolds (WORK only; not Record)."""
 
+from .judgment_loops import (
+    build_judgment_loop_report,
+    format_due_open_loops_markdown,
+)
 from .receipts import (
     NotebookReceipt,
     PageOperation,
@@ -8,6 +12,8 @@ from .receipts import (
 )
 
 __all__ = [
+    "build_judgment_loop_report",
+    "format_due_open_loops_markdown",
     "NotebookReceipt",
     "PageOperation",
     "append_receipt",

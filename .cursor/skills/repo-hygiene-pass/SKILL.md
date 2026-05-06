@@ -72,6 +72,7 @@ Use when a grouped commit needs correction without history rewrite:
 
 - Do not rewrite or revert unrelated user changes.
 - Do not force-push or run destructive reset flows.
+- Local Git writes are fine in this repo (`git add`, `git commit`, `git switch`, `git branch`); keep `git push` manual and separately approved.
 - Keep generated churn in separate commits from logic/docs changes.
 - If uncertain whether a file is scratch or real, ask before excluding.
 

@@ -1,4 +1,4 @@
-# Rejection Feedback — Learning from Pipeline Rejections
+﻿# Rejection Feedback â€” Learning from Pipeline Rejections
 
 **Purpose:** Capture optional "why" when rejecting pipeline candidates. Use this feedback to refine the analyst and reduce future low-signal staging.
 
@@ -19,7 +19,7 @@
    {"ts": "...", "event": "rejected", "candidate_id": "CANDIDATE-0045", "rejection_reason": "too trivial"}
    ```
 
-4. **Operator workflow**: When processing the review queue manually, you can add `summary:` to rejected blocks in RECURSION-GATE (e.g. "Barbie — watched during sleepover; user rejected"). For programmatic capture, use `/reject` with reason or run:
+4. **Operator workflow**: When processing the review queue manually, you can add `summary:` to rejected blocks in RECURSION-GATE (e.g. "Barbie â€” watched during sleepover; user rejected"). For programmatic capture, use `/reject` with reason or run:
    ```
    python scripts/emit_pipeline_event.py rejected CANDIDATE-0045 rejection_reason="too trivial"
    ```
@@ -31,7 +31,7 @@
 Periodically review rejections with reasons:
 
 ```bash
-grep '"event":"rejected"' users/grace-mar/pipeline-events.jsonl | grep rejection_reason
+grep '"event":"rejected"' pipeline-events.jsonl | grep rejection_reason
 ```
 
 Consider:
@@ -39,12 +39,13 @@ Consider:
 - Tightening the Rules section ("Only flag GENUINE signals...")
 - Updating the dedup list or priority_score guidance
 
-Do not over-tighten — some rejections are subjective. Use feedback to reduce clear false positives (trivial, already-known, not-a-signal).
+Do not over-tighten â€” some rejections are subjective. Use feedback to reduce clear false positives (trivial, already-known, not-a-signal).
 
 ---
 
 ## See Also
 
-- AGENTS.md § Gated Pipeline
+- AGENTS.md Â§ Gated Pipeline
 - pipeline-map.md
 - bot/prompt.py (ANALYST_PROMPT)
+

@@ -11,7 +11,7 @@ fields:
   generated_at: { type: string, example: "2026-04-24T12:00:00Z" }
   mode: { type: string, enum: [eod, morning, crisis] }
   watch_filter: { type: string, nullable: true, example: "iran" }
-  notebook_root: { type: string, example: "docs/skill-work/work-strategy/strategy-notebook" }
+  notebook_root: { type: string, example: "codex" }
   current_month: { type: string, example: "2026-04" }
   current_day: { type: string, example: "2026-04-24" }
   output_status: { type: string, enum: [ok, degraded] }
@@ -53,6 +53,17 @@ fields:
       decision_question: { type: string }
       source_signals: { type: string }
       recommended_eod_route: { type: string }
+
+  open_loops_due_for_revisit:
+    derived_loop_count: { type: integer, description: "Total due/open loops surfaced in the run" }
+    derived_tension_group_count: { type: integer, description: "Polyphonic tension groups surfaced in the run" }
+    latest_continuity_date: { type: string, nullable: true, description: "Newest days.md date used for staleness heuristics" }
+    loops:
+      type: list
+      item: { type: string, description: "Compact due/open loop line with call, revisit text, and suggested next action" }
+    tension:
+      type: list
+      item: { type: string, description: "Cross-stream tension line when conflicting loops share a topic or horizon" }
 
   recommended_eod_route:
     session_type: { type: string, description: "MCQ menu 1 style recommendation" }

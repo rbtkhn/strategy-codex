@@ -1,8 +1,8 @@
-# CI, generated HTML, and releases
+﻿# CI, generated HTML, and releases
 
 ## Profile site (`profile/`)
 
-- **Workflow:** [.github/workflows/deploy-profile.yml](../../.github/workflows/deploy-profile.yml) runs `python scripts/generate_profile.py` on pushes that touch `users/grace-mar/**`, `scripts/generate_profile.py`, or `profile/CNAME`.
+- **Workflow:** [.github/workflows/deploy-profile.yml](../../.github/workflows/deploy-profile.yml) runs `python scripts/generate_profile.py` on pushes that touch `**`, `scripts/generate_profile.py`, or `profile/CNAME`.
 - **Committed HTML:** The repo may still contain pre-generated `profile/**/index.html` for deploy simplicity; the workflow refreshes them before Pages upload.
 - **Operator:** After local Record edits, run `python scripts/generate_profile.py` if you need matching HTML before push.
 
@@ -19,3 +19,4 @@
 ## Editable Python package
 
 - CI may run `pip install -e .` to verify [pyproject.toml](../../pyproject.toml) and the `grace-mar` CLI; see [.github/workflows/test.yml](../../.github/workflows/test.yml).
+

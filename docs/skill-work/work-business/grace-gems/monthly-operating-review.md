@@ -1,4 +1,4 @@
-# Grace Gems - monthly operating review
+﻿# Grace Gems - monthly operating review
 
 **Status:** WORK-only operator checklist. Not accounting, tax, legal, or Record truth.
 **Cadence:** Once per month, preferably near month close or before a seasonal peak.
@@ -22,7 +22,7 @@ The review is complete when each movement has either an update, a parked note, o
 - [roadmap.md](roadmap.md)
 - [../accounting/README.md](../accounting/README.md)
 - [../accounting/chart-of-accounts.md](../accounting/chart-of-accounts.md)
-- `users/grace-mar/business-ledger.jsonl`
+- `business-ledger.jsonl`
 - Etsy shop dashboard / stats / conversations / listings
 - Receipts, payout records, ad spend, supply purchases, layaway notes
 
@@ -84,3 +84,4 @@ Append a short note to [../work-business-history.md](../work-business-history.md
 - Do not stage Record candidates unless the companion explicitly wants a business milestone captured.
 - Do not treat this checklist as tax or legal advice.
 - Do not optimize every surface every month; one real follow-up is enough if the business is quiet.
+

@@ -1,11 +1,11 @@
-# Intersignal Integration Guide
+﻿# Intersignal Integration Guide
 
 How to connect Grace-Mar (Record / Identity Fork Protocol) with Intersignal (The Braid, Mesh Cache, Familiar nodes) so that:
 
 - The Record serves as the **identity source** for Familiar nodes
 - **Consent-bound, traceable identity** aligns with IFP's evidence linkage
 - **Session continuity** spans both systems
-- **Staging contract** — Braid agents may stage to RECURSION-GATE; they may not merge
+- **Staging contract** â€” Braid agents may stage to RECURSION-GATE; they may not merge
 
 ---
 
@@ -13,10 +13,10 @@ How to connect Grace-Mar (Record / Identity Fork Protocol) with Intersignal (The
 
 | Use Case | What it does | Permission |
 |----------|--------------|------------|
-| **Record as identity source** | Export SELF → symbolic JSON (Familiar-ready) | Export script (read-only) |
+| **Record as identity source** | Export SELF â†’ symbolic JSON (Familiar-ready) | Export script (read-only) |
 | **Cache-level symbolic sharing** | Structured identity primitives for Mesh Cache | Export script |
 | **Session continuity** | Intersignal reads SESSION-LOG, RECURSION-GATE, EVIDENCE | Read-only |
-| **Artifacts as evidence** | Familiar outputs → "we did X" → pipeline | User invokes pipeline |
+| **Artifacts as evidence** | Familiar outputs â†’ "we did X" â†’ pipeline | User invokes pipeline |
 | **Staging** | Braid agents stage to RECURSION-GATE | Stage only, never merge |
 
 **Invariant:** The user is always the gate. Intersignal agents may stage; they cannot merge into the Record.
@@ -27,10 +27,10 @@ How to connect Grace-Mar (Record / Identity Fork Protocol) with Intersignal (The
 
 **Intersignal** ([intersignal.org](https://intersignal.org)) builds:
 
-- **The Braid** — Protocol for multi-AI communication across local and cloud; no central servers
-- **IMTP (Intermodel Telepathy Protocol)** — Real-time collaboration between disparate AIs
-- **Mesh Cache** — Lightweight indexing layer; unified memory, cross-device state, cache-level symbolic sharing
-- **Familiar nodes** — AI agents with traceable identities, consent-bound
+- **The Braid** â€” Protocol for multi-AI communication across local and cloud; no central servers
+- **IMTP (Intermodel Telepathy Protocol)** â€” Real-time collaboration between disparate AIs
+- **Mesh Cache** â€” Lightweight indexing layer; unified memory, cross-device state, cache-level symbolic sharing
+- **Familiar nodes** â€” AI agents with traceable identities, consent-bound
 
 Grace-Mar provides the **identity substrate** Familiar nodes need: who the person is, grounded in evidence, user-approved.
 
@@ -47,7 +47,7 @@ python scripts/export_symbolic.py -u grace-mar
 python scripts/export_symbolic.py -u grace-mar -o ../intersignal-mesh/
 ```
 
-Output: `symbolic_identity.json` — structured primitives (interests, values, IX-A/B/C summaries, evidence anchors, checksum).
+Output: `symbolic_identity.json` â€” structured primitives (interests, values, IX-A/B/C summaries, evidence anchors, checksum).
 
 ### Schema (Cache-Oriented)
 
@@ -77,9 +77,9 @@ When running Familiar nodes that consume the Record, read these **before** start
 
 | File | Purpose |
 |------|---------|
-| `users/[id]/session-log.md` | Last session; what happened |
-| `users/[id]/recursion-gate.md` | Staged candidates awaiting approval |
-| `users/[id]/self-evidence.md` (last 1–2 entries) | Recent activity context |
+| `session-log.md` | Last session; what happened |
+| `recursion-gate.md` | Staged candidates awaiting approval |
+| `self-evidence.md` (last 1â€“2 entries) | Recent activity context |
 
 ---
 
@@ -87,8 +87,8 @@ When running Familiar nodes that consume the Record, read these **before** start
 
 Braid agents and Familiar nodes may:
 
-- **Read** — SELF, SKILLS, EVIDENCE, manifest, symbolic export
-- **Stage** — Append candidates to RECURSION-GATE in the documented format
+- **Read** â€” SELF, SKILLS, EVIDENCE, manifest, symbolic export
+- **Stage** â€” Append candidates to RECURSION-GATE in the documented format
 
 Braid agents may **not**:
 
@@ -104,10 +104,10 @@ Braid agents may **not**:
 
 ```
 workspace/
-├── intersignal/          # Braid, Mesh Cache, Familiar nodes
-│   └── identity/         # symbolic_identity.json, manifest.json
-└── grace-mar/
-    └── users/grace-mar/
+â”œâ”€â”€ intersignal/          # Braid, Mesh Cache, Familiar nodes
+â”‚   â””â”€â”€ identity/         # symbolic_identity.json, manifest.json
+â””â”€â”€ grace-mar/
+    â””â”€â”€ 
 ```
 
 Export path: `../grace-mar/scripts/export_symbolic.py`
@@ -136,3 +136,4 @@ When The Braid SDK and identity schema are released:
 
 *Document version: 1.0*
 *Last updated: February 2026*
+

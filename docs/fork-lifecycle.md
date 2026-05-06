@@ -1,6 +1,6 @@
 # Fork lifecycle (fork history)
 
-Grace-Mar treats each cognitive fork under `users/<fork_id>/` as a **versioned, evidence-grounded record** with an explicit lifecycle.
+Grace-Mar treats each cognitive fork under `<fork_id>/` as a **versioned, evidence-grounded record** with an explicit lifecycle.
 
 ## Concepts
 

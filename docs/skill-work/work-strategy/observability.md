@@ -72,7 +72,7 @@ python3 scripts/work_strategy/summarize_carry_receipts.py \
   --markdown-out runtime/work-strategy/observability/summary.md
 ```
 
-Optional: `--last N` (per artifact class, most recent by timestamp), `--since YYYY-MM-DD`, `--json` (stdout). Outputs must not target forbidden roots (`users/**`, blocked `bot/` files); the script refuses those paths.
+Optional: `--last N` (per artifact class, most recent by timestamp), `--since YYYY-MM-DD`, `--json` (stdout). Outputs must not target forbidden roots (`**`, blocked `bot/` files); the script refuses those paths.
 
 ### Runtime vs Record reminder
 

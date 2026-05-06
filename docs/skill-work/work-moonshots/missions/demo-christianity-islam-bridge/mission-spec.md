@@ -1,10 +1,10 @@
-# Mission — Christianity–Islam civilizational bridge (demo)
+﻿# Mission â€” Christianityâ€“Islam civilizational bridge (demo)
 
-**WORK / demo mission.** Aligns with [self-moonshots.md](../../../../../users/grace-mar/self-moonshots.md) MS-001 staging. Not Record truth until promoted via gate.
+**WORK / demo mission.** Aligns with [self-moonshots.md](../../../../../self-moonshots.md) MS-001 staging. Not Record truth until promoted via gate.
 
 ## Mission name
 
-Christianity–Islam civilizational bridge (Eastern Mediterranean lens)
+Christianityâ€“Islam civilizational bridge (Eastern Mediterranean lens)
 
 ## Mission statement
 
@@ -20,7 +20,7 @@ Utopian sloganeering with no contact with power, interest, or trade-offs.
 
 ## Time horizon
 
-12–24 months (review quarterly).
+12â€“24 months (review quarterly).
 
 ## Constraints
 
@@ -29,7 +29,7 @@ Utopian sloganeering with no contact with power, interest, or trade-offs.
 
 ## Forbidden shortcuts
 
-- Declaring “unity” without naming who holds power and what could break.
+- Declaring â€œunityâ€ without naming who holds power and what could break.
 
 ## Governing doctrine
 
@@ -56,3 +56,4 @@ explore
 ## Review cadence
 
 Quarterly using mission-review-template.md
+

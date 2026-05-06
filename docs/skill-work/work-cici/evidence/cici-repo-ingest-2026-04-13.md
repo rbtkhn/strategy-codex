@@ -15,8 +15,8 @@ Operator snapshot of the **public GitHub** view of **[Cici](https://github.com/X
 - **Positioning:** **Xavier’s personal Open Brain instance** — config and documentation; **no server code** in-repo; upstream **OB1**; **BrewMind** as business brand; AI memory via **private Supabase** (see `docs/personal/README.md` for workflow notes — not reproduced here).
 - **Open Brain (OB1):** Self-owned persistent memory — **Supabase** + **MCP**; vendor-neutral clients; vector search; dedup fingerprinting; rough cost note at personal scale.
 - **Architecture (diagram):** AI clients → MCP (HTTP) → Supabase Edge Function (`open-brain-mcp`) → PostgreSQL (`thoughts`, pgvector, RLS) → OpenRouter for embeddings/models.
-- **Governed State Model (Phase 1):** Git-first durable truth — **Evidence** (`evidence/`) → **Prepared context** (`prepared-context/`) → **Governed state** (`users/cici/governed-state/`); **`proposals/`** queue; owner approves. Pointers: `docs/governed-state-doctrine.md`, `docs/migration-compatibility.md`.
-- **Repository layout (abbreviated):** `CLAUDE.md`, `README.md`, `evidence/`, `prepared-context/`, `users/` (`_template`, `cici/`), `proposals/` (+ schemas, queue/approved/rejected), `config/authority-map.json`, `bridges/supabase/`, `docs/*`, `scripts/validate-governed-state.py`.
+- **Governed State Model (Phase 1):** Git-first durable truth — **Evidence** (`evidence/`) → **Prepared context** (`prepared-context/`) → **Governed state** (`cici/governed-state/`); **`proposals/`** queue; owner approves. Pointers: `docs/governed-state-doctrine.md`, `docs/migration-compatibility.md`.
+- **Repository layout (abbreviated):** `CLAUDE.md`, `README.md`, `evidence/`, `prepared-context/`, `` (`_template`, `cici/`), `proposals/` (+ schemas, queue/approved/rejected), `config/authority-map.json`, `bridges/supabase/`, `docs/*`, `scripts/validate-governed-state.py`.
 - **Languages (GitHub):** Python **100%** (linguist bar — reflects scripts/validation, not OB1 Edge runtime).
 
 ## Screenshots (this folder)

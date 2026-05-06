@@ -18,7 +18,7 @@ Use them for **long reads**, **handoff**, and **browsing** — not to replace on
 | **By watch** (pages grouped by `watch=`) | `python3 scripts/strategy_watch.py` / `... --watch <id>` / `... --tensions-only` / `... --json` | Cross-expert positions; [watches — Recovery quick path](../watches/README.md#recovery-quick-path) |
 | **By expert** (polyphony bundle) | `python3 scripts/compile_strategy_view.py --notebook-dir docs/skill-work/work-strategy/strategy-notebook` with optional `--experts id1,id2` | Dated `expert-polyphony-synthesis-*.md` under this folder (gitignored by default) |
 | **Recent chronology** | Tail of active [`chapters/YYYY-MM/days.md`](../chapters/2026-04/days.md), [STATUS.md](../STATUS.md), [daily-strategy-inbox.md](../daily-strategy-inbox.md) | **SSOT** for “what we committed this month” — not a compiled file |
-| **Tensions** | `python3 scripts/strategy_watch.py --tensions-only` (optional `knot-connections.yaml` relations) | Does not replace reading expert threads |
+| **Tensions** | `python3 scripts/strategy_watch.py --tensions-only` (optional `current page relation surface` relations) | Does not replace reading expert threads |
 
 **Stable artifacts:** prefer **a few** dated bundles + [recipes/](recipes/) over ad-hoc copies.
 
@@ -63,3 +63,4 @@ Optional: `--date YYYY-MM-DD`, `--out path`, `--experts mercouris,marandi`.
 - [SYNTHESIS-OPERATING-MODEL.md § Operator as conductor](../SYNTHESIS-OPERATING-MODEL.md#8-operator-as-conductor)
 - Recipes: [`recipes/expert-polyphony-synthesis-five-conductors.md`](recipes/expert-polyphony-synthesis-five-conductors.md) (003, preferred) · [`recipes/expert-polyphony-synthesis.md`](recipes/expert-polyphony-synthesis.md) (001, starter)
 - Examples: [`examples/expert-polyphony-synthesis-EXAMPLE.md`](examples/expert-polyphony-synthesis-EXAMPLE.md), [`examples/conductor-eod-session-EXAMPLE.md`](examples/conductor-eod-session-EXAMPLE.md)
+

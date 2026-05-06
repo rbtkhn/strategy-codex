@@ -8,7 +8,7 @@
 
 ## Current state
 
-System state lives in **markdown files** under `users/[id]/`:
+System state lives in **markdown files** under ``:
 
 - **self.md** — identity, three-dimension mind (IX-A, IX-B, IX-C); YAML-like blocks.
 - **self-evidence.md** — activity log (ACT-*, READ-*, WRITE-*, CREATE-*); structured blocks.

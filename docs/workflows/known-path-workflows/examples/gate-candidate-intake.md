@@ -1,4 +1,4 @@
----
+﻿---
 workflow_id: gate-candidate-intake
 title: Gate Candidate Intake
 status: example
@@ -8,7 +8,7 @@ reviewer: human operator
 cadence: weekly
 trigger: "Weekly steward pass or operator-invoked after batch WORK edits"
 authority_class: review_required
-maximum_action: "Prepare candidate summaries and suggested YAML blocks for human paste into recursion-gate; never append to users/*/recursion-gate.md without operator action."
+maximum_action: "Prepare candidate summaries and suggested YAML blocks for human paste into recursion-gate; never append to recursion-gate.md without operator action."
 input_surfaces:
   - docs/skill-work/work-*/**/*-history.md
   - artifacts/
@@ -25,7 +25,7 @@ load_lift_metrics:
   review_time_minutes: 25
   missed_signal_check: true
   false_promotion_check: true
-promotion_path: "Operator pastes or edits users/grace-mar/recursion-gate.md; companion approves; merge via scripts/process_approved_candidates.py per AGENTS.md."
+promotion_path: "Operator pastes or edits recursion-gate.md; companion approves; merge via scripts/process_approved_candidates.py per AGENTS.md."
 ---
 
 # Gate Candidate Intake (example)
@@ -34,14 +34,14 @@ promotion_path: "Operator pastes or edits users/grace-mar/recursion-gate.md; com
 
 ## Purpose
 
-Scan **eligible WORK artifacts** (lane histories, derived summaries, notebook captures) for **signals that might become** `CANDIDATE-XXXX` blocks, prepare **summaries and draft YAML**, and **route them for operator review**—without writing to the canonical gate file or merging.
+Scan **eligible WORK artifacts** (lane histories, derived summaries, notebook captures) for **signals that might become** `CANDIDATE-XXXX` blocks, prepare **summaries and draft YAML**, and **route them for operator review**â€”without writing to the canonical gate file or merging.
 
 ## Known path
 
 1. Enumerate **read-only** inputs listed in `input_surfaces` for the chosen window (no writes).
-2. For each plausible signal, draft a **candidate block** (id placeholder, summary, suggested `kind`, **no** `status: pending` applied to disk by automation unless policy explicitly allows scripted append—default: **operator pastes**).
+2. For each plausible signal, draft a **candidate block** (id placeholder, summary, suggested `kind`, **no** `status: pending` applied to disk by automation unless policy explicitly allows scripted appendâ€”default: **operator pastes**).
 3. Produce a **single review packet** (Markdown or text) listing: suggested id, one-line summary, evidence paths, channel_key if applicable.
-4. Operator **edits** [`users/grace-mar/recursion-gate.md`](../../../../users/grace-mar/recursion-gate.md) or defers.
+4. Operator **edits** [`recursion-gate.md`](../../../../recursion-gate.md) or defers.
 5. No `process_approved_candidates.py` until companion approval exists.
 
 ## Inputs
@@ -56,7 +56,7 @@ Scan **eligible WORK artifacts** (lane histories, derived summaries, notebook ca
 
 - **Type:** Review packet (Markdown list of proposed candidates + evidence links).
 - **Good output:** Each row links to files/lines; disambiguates companion vs operator channel; no auto-append to gate.
-- **Bad output:** Silent writes to `recursion-gate.md`, or “approve” language without companion action.
+- **Bad output:** Silent writes to `recursion-gate.md`, or â€œapproveâ€ language without companion action.
 
 ## Human reviewer
 
@@ -84,3 +84,4 @@ Scan **eligible WORK artifacts** (lane histories, derived summaries, notebook ca
 ## Example run
 
 _After a week of strategy ingests, assistant lists three hypothetical candidates with paths to `raw-input/` files. Operator pastes one into `recursion-gate.md` as `CANDIDATE-00XX`, rejects two. No script touches the gate file._
+

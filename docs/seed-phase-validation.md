@@ -25,16 +25,16 @@ Optional (not required for `validate-seed-phase.py`):
 
 ## Commands
 
-**Strict mode** (CI and `users/demo/seed-phase`):
+**Strict mode** (CI and `demo/seed-phase`):
 
 ```bash
-python3 scripts/validate-seed-phase.py users/demo/seed-phase
+python3 scripts/validate-seed-phase.py demo/seed-phase
 ```
 
-**Placeholder mode** (`users/_template/seed-phase`): validates file presence, JSON parse, and manifest consistency; **skips** full schema validation so `TODO` strings and incomplete enums are allowed.
+**Placeholder mode** (`_template/seed-phase`): validates file presence, JSON parse, and manifest consistency; **skips** full schema validation so `TODO` strings and incomplete enums are allowed.
 
 ```bash
-python3 scripts/validate-seed-phase.py users/_template/seed-phase --allow-placeholders
+python3 scripts/validate-seed-phase.py _template/seed-phase --allow-placeholders
 ```
 
 ---
@@ -52,7 +52,7 @@ python3 scripts/validate-seed-phase.py users/_template/seed-phase --allow-placeh
 ## Regenerate dossier (demo)
 
 ```bash
-python3 scripts/generate-seed-dossier.py users/demo/seed-phase
+python3 scripts/generate-seed-dossier.py demo/seed-phase
 ```
 
 ---
@@ -63,7 +63,7 @@ Reads `seed_confidence_map.json` and writes `confidence-report.html` under the s
 
 ```bash
 pip install -r scripts/requirements-seed-phase-dashboard.txt
-python3 scripts/generate-confidence-report.py users/demo/seed-phase
+python3 scripts/generate-confidence-report.py demo/seed-phase
 ```
 
 ---
@@ -77,7 +77,7 @@ Computes a deterministic **genesis hash** over all strict-validated JSON artifac
 
 ```bash
 pip install -r scripts/requirements-seed-phase-signing.txt
-python3 scripts/generate-birth-certificate.py users/demo/seed-phase --private-key /secure/path/ed25519.pem
+python3 scripts/generate-birth-certificate.py demo/seed-phase --private-key /secure/path/ed25519.pem
 ```
 
 `template_version` on the certificate is read from **`template-manifest.json`** at the repo root.
@@ -86,7 +86,7 @@ python3 scripts/generate-birth-certificate.py users/demo/seed-phase --private-ke
 
 ## Companion factory CLI (optional)
 
-Creates **`output-dir/<instance_name>/`** by copying a **template** checkout, then seeds **`users/<instance_name>/seed-phase/`** from **`users/_template/seed-phase/`**. Use a clean **companion-self** template tree as `--template`; avoid pointing at a private instance repo if it contains live Record data you do not want duplicated.
+Creates **`output-dir/<instance_name>/`** by copying a **template** checkout, then seeds **`<instance_name>/seed-phase/`** from **`_template/seed-phase/`**. Use a clean **companion-self** template tree as `--template`; avoid pointing at a private instance repo if it contains live Record data you do not want duplicated.
 
 ```bash
 python3 scripts/companion_factory.py new my-instance \
@@ -103,13 +103,13 @@ The command prints the exact **`validate-seed-phase.py`** invocation for the new
 After strict validation succeeds, synthesize and validate the constitution JSON (deterministic, no LLM in the generator):
 
 ```bash
-python3 scripts/generate-constitution.py users/demo/seed-phase
-python3 scripts/validate-constitution.py users/demo/seed-phase
+python3 scripts/generate-constitution.py demo/seed-phase
+python3 scripts/validate-constitution.py demo/seed-phase
 ```
 
 `validate-seed-phase.py` does **not** run the generator (avoid subprocess coupling in CI). Treat **generate → validate constitution** as a separate operator step when refreshing the artifact.
 
-**Voice runtime:** Optional self-critique reads `users/<id>/seed-phase/seed_constitution.json` and repo-root `runtime_config.json` (`constitutional_critique.enabled`, default false). Nested **`voice_avatar`** (STT/TTS placeholders, avatar, `latency_mode`) is documented in [voice-runtime-config.md](voice-runtime-config.md). Metrics append to `users/<id>/<metrics_filename>` when logging is on (JSONL; may be ingested alongside other observability pipelines).
+**Voice runtime:** Optional self-critique reads `seed-phase/seed_constitution.json` and repo-root `runtime_config.json` (`constitutional_critique.enabled`, default false). Nested **`voice_avatar`** (STT/TTS placeholders, avatar, `latency_mode`) is documented in [voice-runtime-config.md](voice-runtime-config.md). Metrics append to `<metrics_filename>` when logging is on (JSONL; may be ingested alongside other observability pipelines).
 
 ---
 

@@ -27,9 +27,11 @@ Editing rule:
 
 If a document needs both names, make the compatibility status explicit rather than silently swapping terms.
 
-**Why this matters:** Future agents need one clean distinction before they write: use raw-input and codex-pages to preserve and cite what was said; use cognition streams to choose the interpretive lane; use thread-embedded `strategy-page` blocks to compose what the notebook thinks. That split keeps evidence, routing, continuity, and judgment from collapsing into one ambiguous file.
+**Why this matters:** Future agents need one clean distinction before they write: use raw-input and codex-pages to preserve and cite what was said; use cognition streams to choose the interpretive lane; use thread-embedded `strategy-page` blocks to compose what the notebook thinks. That split keeps archive, routing, continuity, and judgment from collapsing into one ambiguous file.
 
-**Judgment loop:** strategy-codex should compound durable judgment, not just evidence surfaces. Every substantive analytical page should leave behind a compact loop: **Call**, **Falsifier**, and **Revisit**. Later `days.md` continuity should say whether the earlier call **held**, **weakened**, **broke**, or is **still open**. See [strategy-codex-template-page.md](strategy-codex-template-page.md) and [notes/TCLD-AUDIT-STRATEGY-CODEX.md](notes/TCLD-AUDIT-STRATEGY-CODEX.md).
+**Strategy-state model:** strategy-codex uses a four-part state split. **Knowledge** = governed understanding and owned judgment. **Library** = governed reference world and return-to sources. **Memory** = resumable continuity and open-loop state. **Archive** = governed evidence and provenance spine. In notebook terms: `raw-input/` is archive-adjacent literal capture, codex-pages bridge archive toward knowledge, `strategy-page` blocks are the main knowledge-production surface, and `days.md` is primarily memory.
+
+**Judgment loop:** strategy-codex should compound durable judgment, not just archive surfaces. Every substantive analytical page should leave behind a compact loop: **Call**, **Falsifier**, and **Revisit**. Later `days.md` continuity should say whether the earlier call **held**, **weakened**, **broke**, or is **still open**. See [strategy-codex-template-page.md](strategy-codex-template-page.md) and [notes/TCLD-AUDIT-STRATEGY-CODEX.md](notes/TCLD-AUDIT-STRATEGY-CODEX.md).
 
 **Brief advisory:** Before composing a major strategy page or public-facing synthesis, write or infer a WORK job brief: audience, objective, evidence surface, success criteria, and acceptance check. This is a drift-control aid, not a requirement for every page and not a substitute for the page/thread contract.
 
@@ -68,7 +70,7 @@ The thread index **does not duplicate** the page. It answers: *why does this pag
 
 **Continuity review rule:** when a later day materially updates an earlier page or day-level judgment, record whether that earlier call **held**, **weakened**, **broke**, or is **still open**. Keep this lightweight and prose-native; do not turn every day into a ledger entry.
 
-**Source-first ingest:** `raw-input/` may hold transcripts, essays, posts, bundles, or other captures even when the speaker or outlet does **not** map to an existing author folder. Keep it unthreaded unless later routing assigns it to an existing lane.
+**Source-first ingest:** `raw-input/` may hold transcripts, essays, posts, bundles, or other captures even when the speaker or outlet does **not** map to an existing author folder. Treat it as archive-adjacent capture, not knowledge by itself, and keep it unthreaded unless later routing assigns it to an existing lane.
 
 **Selective backfill rule:** When using archive or feed discovery to populate `raw-input/`, treat the archive as a discovery index, not a completeness mandate. Backfill the substantial items you want preserved; leave light, repetitive, or low-signal archive-visible items out when that is the better editorial choice.
 
@@ -100,7 +102,7 @@ When several authors address the same page, the **same `id=`** appears in each a
 
 ## codex-pages (standalone `*-page-*.md`)
 
-**Standalone codex-pages** use the canonical section in [strategy-codex-template-page.md](strategy-codex-template-page.md#codex-page---codexyearchannelexpert_id-page-yyyy-mm-ddmd). They are **source/verbatim support and citation handles** for `thread` / `days.md` / analysis, not the primary composed analysis unit. Keep **`### Verbatim`** as the quote body, with **`### Reflection`** / **`### Predictive Outlook`** available for local judgment on that capture. `### Predictive Outlook` must include the compact **Call / Falsifier / Revisit** block. Target the readable-body balance in the canonical template: **~70-80%** in `### Verbatim`, as guidance rather than a hard threshold.
+**Standalone codex-pages** use the canonical section in [strategy-codex-template-page.md](strategy-codex-template-page.md#codex-page---codexyearchannelexpert_id-page-yyyy-mm-ddmd). They are the notebook's main **archive -> knowledge** bridge: source/verbatim support and citation handles for `thread` / `days.md` / analysis, not the primary composed analysis unit. Keep **`### Verbatim`** as the quote body, with **`### Reflection`** / **`### Predictive Outlook`** available for local judgment on that capture. `### Predictive Outlook` must include the compact **Call / Falsifier / Revisit** block. Target the readable-body balance in the canonical template: **~70-80%** in `### Verbatim`, as guidance rather than a hard threshold.
 
 Each codex-page must declare one **Primary raw-input** source in `### Appendix`. A small **Supporting raw-input** set is allowed when nearby captures materially support the same page.
 

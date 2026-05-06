@@ -1,4 +1,4 @@
-# Interface Artifact Examples
+﻿# Interface Artifact Examples
 
 These examples show how interface artifacts help the operator inspect or navigate a surface without becoming canonical truth.
 
@@ -46,7 +46,7 @@ Preview a more inspectable review surface before deciding whether it should beco
 
 **Inputs**  
 
-- `users/grace-mar/recursion-gate.md`
+- `recursion-gate.md`
 - existing review dashboard concepts
 - optional candidate summary rows or derived JSON prepared in WORK
 
@@ -82,7 +82,7 @@ Give the operator a navigable map of library clusters, reading lanes, or themati
 
 **Inputs**  
 
-- `users/grace-mar/self-library.md`
+- `self-library.md`
 - existing library index or derived library outputs
 
 **Generated artifact**  
@@ -119,3 +119,4 @@ Across all three examples:
 - the artifact may be inspected through Workbench
 - the artifact may suggest a real next move
 - the artifact cannot silently become Record truth, gate authority, or external proof
+

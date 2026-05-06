@@ -99,6 +99,8 @@ The notebook is strongest when it acts as a **judgment compounding machine**:
 
 Without steps 4-6, the repo is at risk of becoming a high-status research warehouse.
 
+Derived revisit surfacing reduces the notebook's own thin-ice exposure because it makes old calls visible again at the moment they are most likely to matter. Instead of rewarding archive accumulation alone, the system starts rewarding consequence-tracking, falsification visibility, and cross-stream tension handling. That moves the notebook away from passive strategic theater and closer to a live judgment instrument.
+
 ## Operational implications
 
 - **`raw-input/` success:** lower friction, higher fidelity, less duplicated search labor

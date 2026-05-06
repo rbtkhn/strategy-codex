@@ -12,7 +12,7 @@
 **Typical next step:** gate review and user decision  
 **Do not use for:** auto-promoting runtime memory into canonical Record  
 
-Runtime observations in `runtime/observations/index.jsonl` are **work memory**, not Record truth. When a companion or operator wants to propose a durable change, they can **stage** a reviewable candidate in `users/<id>/recursion-gate.md` with explicit lineage from selected observations.
+Runtime observations in `runtime/observations/index.jsonl` are **work memory**, not Record truth. When a companion or operator wants to propose a durable change, they can **stage** a reviewable candidate in `recursion-gate.md` with explicit lineage from selected observations.
 
 This closes the loop: **search → timeline → expansion → staging → Approval Inbox → (optional) merge**.
 
