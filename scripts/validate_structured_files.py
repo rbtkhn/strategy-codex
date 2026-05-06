@@ -50,7 +50,7 @@ _INLINE_LINK_RE = re.compile(r"(?<!\!)\[[^\]]*\]\(([^)]+)\)")
 def validate_json_file(path: Path) -> str | None:
     """Return an error string if JSON cannot be parsed; None if ok."""
     try:
-        text = path.read_text(encoding="utf-8")
+        text = path.read_text(encoding="utf-8-sig")
     except OSError as e:
         return f"{path}: read error: {e}"
     try:
