@@ -349,7 +349,7 @@ class TestWatch:
 
     def test_watch_detail(self, notebook_with_pages: Path):
         from strategy_watch import watch_detail
-        connections_path = notebook_with_pages / "knot-connections.yaml"
+        connections_path = notebook_with_pages / "page-relations.yaml"
         connections_path.write_text(
             "schema_version: 1\nconnections: []\n", encoding="utf-8"
         )
@@ -360,7 +360,7 @@ class TestWatch:
 
     def test_tension_detection(self, notebook_with_pages: Path):
         from strategy_watch import find_tensions_for_watch, _load_tensions
-        connections_path = notebook_with_pages / "knot-connections.yaml"
+        connections_path = notebook_with_pages / "page-relations.yaml"
         connections_path.write_text(textwrap.dedent("""\
             schema_version: 1
             connections:

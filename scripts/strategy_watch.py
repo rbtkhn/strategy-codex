@@ -2,9 +2,8 @@
 """Watch tool: cross-expert page views grouped by watch tags.
 
 Reads pages from expert thread files (via ``strategy_page_reader``),
-groups them by ``watch=`` attributes, and uses the optional connection file
-(``knot-connections.yaml`` on disk) tension relations to surface cross-expert
-disagreements.
+groups them by ``watch=`` attributes, and uses the optional page-relations
+file to surface cross-expert tensions.
 
 Usage::
 
@@ -23,10 +22,10 @@ import json
 import sys
 from pathlib import Path
 
-import yaml
-
 REPO_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO_ROOT / "scripts"))
+
+from yaml_compat import safe_load_path
 
 from strategy_page_reader import (
     PageBlock,
@@ -38,7 +37,7 @@ from strategy_page_reader import (
 DEFAULT_NOTEBOOK = (
     REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook"
 )
-DEFAULT_CONNECTIONS = DEFAULT_NOTEBOOK / "knot-connections.yaml"
+DEFAULT_CONNECTIONS = DEFAULT_NOTEBOOK / "page-relations.yaml"
 
 
 # ---------------------------------------------------------------------------
@@ -49,7 +48,7 @@ def _load_tensions(connections_path: Path) -> list[dict]:
     """Load tension relations from the optional connections YAML."""
     if not connections_path.is_file():
         return []
-    data = yaml.safe_load(connections_path.read_text(encoding="utf-8"))
+    data = safe_load_path(connections_path, feature="strategy_watch.py")
     if not data:
         return []
     return [
@@ -59,14 +58,12 @@ def _load_tensions(connections_path: Path) -> list[dict]:
 
 
 def _page_id_to_source_basename(page_id: str, pages: list[PageBlock]) -> str | None:
-    """Return basename from **Source page:** or legacy **Source knot:** in page body."""
+    """Return basename from **Source page:** in page body."""
     for p in pages:
         if p.id == page_id:
             for line in p.content.splitlines():
                 if line.startswith("**Source page:**"):
                     return line.split("**Source page:**", 1)[1].strip()
-                if line.startswith("**Source knot:**"):
-                    return line.split("**Source knot:**", 1)[1].strip()
     return None
 
 
@@ -214,27 +211,31 @@ def main() -> int:
     ap.add_argument("--connections", type=Path, default=DEFAULT_CONNECTIONS)
     args = ap.parse_args()
 
-    if args.watch:
-        detail = watch_detail(args.watch, args.notebook, args.connections)
-        if args.json:
-            print(json.dumps(detail, indent=2, ensure_ascii=False))
+    try:
+        if args.watch:
+            detail = watch_detail(args.watch, args.notebook, args.connections)
+            if args.json:
+                print(json.dumps(detail, indent=2, ensure_ascii=False))
+            else:
+                print(format_detail_markdown(detail))
         else:
-            print(format_detail_markdown(detail))
-    else:
-        watches = list_watches(args.notebook)
-        if args.tensions_only:
-            tensions = _load_tensions(args.connections)
-            tension_watches: set[str] = set()
-            for t in tensions:
-                for w in t.get("warrant", []):
-                    if w.startswith("shared-watch:"):
-                        tension_watches.add(w.split(":", 1)[1])
-            watches = [w for w in watches if w["watch"] in tension_watches]
+            watches = list_watches(args.notebook)
+            if args.tensions_only:
+                tensions = _load_tensions(args.connections)
+                tension_watches: set[str] = set()
+                for t in tensions:
+                    for w in t.get("warrant", []):
+                        if w.startswith("shared-watch:"):
+                            tension_watches.add(w.split(":", 1)[1])
+                watches = [w for w in watches if w["watch"] in tension_watches]
 
-        if args.json:
-            print(json.dumps(watches, indent=2, ensure_ascii=False))
-        else:
-            print(format_watches_markdown(watches))
+            if args.json:
+                print(json.dumps(watches, indent=2, ensure_ascii=False))
+            else:
+                print(format_watches_markdown(watches))
+    except RuntimeError as exc:
+        print(f"ERROR: {exc}", file=sys.stderr)
+        return 2
 
     return 0
 

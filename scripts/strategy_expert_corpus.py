@@ -1,19 +1,19 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """Extract raw material for per-expert thread distillation.
 
 Reads from ``strategy-expert-<id>-transcript.md`` (recent verbatim),
-**inbox lines** that link ``raw-input/…`` for the same ``thread:<id>`` lane,
+**inbox lines** that link ``raw-input/â€¦`` for the same ``thread:<id>`` lane,
 ``strategy-page`` blocks, optional legacy on-disk index rows; writes structured
 extraction to ``strategy-expert-<id>-thread.md`` between script markers.
 
-The output is **raw material** for assistant refinement — the assistant
+The output is **raw material** for assistant refinement â€” the assistant
 distills it into a curated analytical thread (convergences, tensions,
 drift, page impact).
 
 **Two-step ``thread`` flow:**
 
-1. ``strategy_expert_transcript.py`` triages inbox → transcripts (automatic)
-2. This script extracts transcript + page material → thread files
+1. ``strategy_expert_transcript.py`` triages inbox â†’ transcripts (automatic)
+2. This script extracts transcript + page material â†’ thread files
 3. Assistant refines the extraction into curated thread prose
 
 Imported by ``strategy_expert_transcript.py`` for shared constants and
@@ -26,12 +26,17 @@ from __future__ import annotations
 
 import argparse
 import re
+import sys
 from collections import defaultdict
 from dataclasses import dataclass
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
-import yaml
+SCRIPTS = Path(__file__).resolve().parent
+if str(SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS))
+
+from yaml_compat import safe_load_path
 
 from strategy_page_reader import discover_pages
 
@@ -48,8 +53,8 @@ DEFAULT_INBOX = (
 DEFAULT_OUT_DIR = (
     REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook"
 )
-DEFAULT_KNOT_INDEX = (
-    REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook/knot-index.yaml"
+DEFAULT_PAGE_INDEX = (
+    REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook/page-index.yaml"
 )
 
 CANONICAL_EXPERT_IDS: tuple[str, ...] = (
@@ -116,7 +121,7 @@ def collect_inbox_raw_input_pointers(
     """List markdown bullets for `raw-input/` paths on inbox lines for this `thread:` lane.
 
     When `month_filter_ym` is set (e.g. ``2026-04``), only paths whose folder date
-    starts with that year-month are included (for monthly `…-thread-YYYY-MM.md` machine
+    starts with that year-month are included (for monthly `â€¦-thread-YYYY-MM.md` machine
     blocks). When unset (legacy single `thread.md`), all matching pointers are listed
     up to `max_lines`.
     """
@@ -148,7 +153,7 @@ def collect_inbox_raw_input_pointers(
             if target.is_file():
                 out.append(f"- [{name}]({rel})")
             else:
-                out.append(f"- `{rel}` _(not found under strategy-notebook — verify path)_")
+                out.append(f"- `{rel}` _(not found under strategy-notebook â€” verify path)_")
             if len(out) >= max_lines:
                 return out
     return out
@@ -182,7 +187,7 @@ def expert_id_from_thread_path(path: Path) -> str | None:
 
 
 def month_thread_paths_by_month(notebook_dir: Path, expert_id: str) -> dict[str, Path]:
-    """Map ``YYYY-MM`` → thread path; prefer ``experts/<id>/`` over flat root."""
+    """Map ``YYYY-MM`` â†’ thread path; prefer ``experts/<id>/`` over flat root."""
     by_m: dict[str, Path] = {}
     expert_dir = notebook_dir / "experts" / expert_id
     if expert_dir.is_dir():
@@ -323,19 +328,19 @@ CORPUS_MARKER_END = "<!-- strategy-expert-corpus:end -->"
 
 _RE_ACCUM = re.compile(r"\*\*Accumulator for:\*\*\s*(\d{4}-\d{2}-\d{2})")
 _RE_BUNDLE = re.compile(r"<!--\s*brief-handoff-bundle:\s*(\d{4}-\d{2}-\d{2})")
-_RE_PRIOR = re.compile(r"\*\*Prior scratch —\s*(\d{4}-\d{2}-\d{2})")
+_RE_PRIOR = re.compile(r"\*\*Prior scratch â€”\s*(\d{4}-\d{2}-\d{2})")
 _RE_FOLDED = re.compile(r"\*\*Folded\s*\((\d{4}-\d{2}-\d{2})\)")
-_RE_PREP = re.compile(r"### Prep —\s*(\d{4}-\d{2}-\d{2})")
+_RE_PREP = re.compile(r"### Prep â€”\s*(\d{4}-\d{2}-\d{2})")
 _RE_RETAINED = re.compile(
     r"### Retained reference \((\d{4}-\d{2}-\d{2})(?:\s+fold)?\)"
 )
 _RE_THREAD = re.compile(r"thread:([a-z][a-z0-9]*(?:-[a-z][a-z0-9]*)*)")
-# Verify-tail expert tag (see daily-strategy-inbox.md): ``| thread:<id> |`` — not hook prose ``**`thread:davis`**``.
+# Verify-tail expert tag (see daily-strategy-inbox.md): ``| thread:<id> |`` â€” not hook prose ``**`thread:davis`**``.
 _RE_THREAD_PIPE = re.compile(
     r"\|\s*thread:([a-z][a-z0-9]*(?:-[a-z][a-z0-9]*)*)\s*\|"
 )
 _RE_PUBLISHED = re.compile(r"published:(\d{4}-\d{2}-\d{2})")
-# Dated `## YYYY-MM-DD` scratch subsection (inbox) — same pattern as transcript date headings.
+# Dated `## YYYY-MM-DD` scratch subsection (inbox) â€” same pattern as transcript date headings.
 _RE_DATE_HEADING = re.compile(r"^## (\d{4}-\d{2}-\d{2})\s*$")
 
 # Policy: long-form captures per ingest; 7-day prune keeps whole files near this band.
@@ -386,7 +391,7 @@ def ingest_thread_slugs(line: str) -> list[str]:
     if m_end and m_end.group(1) in _EXPERT_IDS_SET:
         return [m_end.group(1)]
     # Backtick synthetic rows (e.g. ``batch-analysis``) often contain ``thread:`` in prose;
-    # do not fall back to naive findall — avoids false routes.
+    # do not fall back to naive findall â€” avoids false routes.
     if line.lstrip().startswith("`"):
         return []
     return [s for s in _RE_THREAD.findall(line) if s in _EXPERT_IDS_SET]
@@ -528,18 +533,18 @@ def verify_index_alignment(
         )
     if set(main_rows.keys()) != expected:
         raise SystemExit(
-            "Parsed commentator rows do not cover all CANONICAL_EXPERT_IDS — "
+            "Parsed commentator rows do not cover all CANONICAL_EXPERT_IDS â€” "
             f"got {sorted(main_rows.keys())!r}"
         )
     if tuple(order) != CANONICAL_EXPERT_IDS:
         raise SystemExit(
-            "Commentator table row order differs from CANONICAL_EXPERT_IDS tuple — "
+            "Commentator table row order differs from CANONICAL_EXPERT_IDS tuple â€” "
             f"parsed order: {order!r}"
         )
 
 
 # ---------------------------------------------------------------------------
-# Inbox extraction — kept for strategy_expert_transcript.py import
+# Inbox extraction â€” kept for strategy_expert_transcript.py import
 # ---------------------------------------------------------------------------
 
 def _continuation_stops_thread_block(line: str) -> bool:
@@ -664,37 +669,37 @@ def read_transcript_content(transcript_path: Path) -> list[str]:
 
 
 # ---------------------------------------------------------------------------
-# Knot scanning
+# Page scanning
 # ---------------------------------------------------------------------------
 
-def find_knot_references(
+def find_page_references(
     expert_id: str,
     *,
-    knot_index_path: Path,
+    page_index_path: Path,
 ) -> list[dict]:
-    """Find knots that reference this expert (via clusters or file content)."""
-    if not knot_index_path.is_file():
+    """Find pages that reference this expert (via clusters or file content)."""
+    if not page_index_path.is_file():
         return []
 
     try:
-        data = yaml.safe_load(knot_index_path.read_text(encoding="utf-8"))
+        data = safe_load_path(page_index_path, feature="strategy_expert_corpus.py")
     except Exception:
         return []
 
-    if not data or "knots" not in data:
+    if not data or "pages" not in data:
         return []
 
     refs: list[dict] = []
-    for knot in data["knots"]:
-        clusters = knot.get("clusters", []) or []
+    for page in data["pages"]:
+        clusters = page.get("clusters", []) or []
         if expert_id in clusters:
-            refs.append(knot)
+            refs.append(page)
             continue
-        knot_path = REPO_ROOT / knot.get("path", "")
-        if knot_path.is_file():
-            content = knot_path.read_text(encoding="utf-8")
+        page_path = REPO_ROOT / page.get("path", "")
+        if page_path.is_file():
+            content = page_path.read_text(encoding="utf-8")
             if f"thread:{expert_id}" in content or f"`{expert_id}`" in content:
-                refs.append(knot)
+                refs.append(page)
 
     return refs
 
@@ -707,22 +712,22 @@ def render_thread_extraction(
     expert_id: str,
     *,
     transcript_lines: list[str],
-    knot_refs: list[dict],
+    page_refs: list[dict],
     page_blocks: list | None = None,
     raw_input_lane_lines: list[str] | None = None,
 ) -> str:
     """Render machine-layer content between -thread.md markers (overwrite each run).
 
     Human narrative belongs *above* THREAD_MARKER_START in the file; see
-    STRATEGY-NOTEBOOK-ARCHITECTURE.md § Thread (two layers).
+    STRATEGY-NOTEBOOK-ARCHITECTURE.md Â§ Thread (two layers).
     """
     page_blocks = page_blocks or []
     raw_input_lane_lines = raw_input_lane_lines or []
     parts: list[str] = []
-    parts.append("## Machine layer — Extraction (script-maintained)\n")
+    parts.append("## Machine layer â€” Extraction (script-maintained)\n")
     parts.append(
         "_Auto-generated from `transcript.md` + **on-disk** and **inbox** `raw-input/` "
-        "(de-duped union) + `strategy-page` blocks + optional legacy on-disk index rows. "
+        "(de-duped union) + `strategy-page` blocks + optional page index rows. "
         "**Journal layer** (narrative) lives **above** the **strategy-expert-thread** "
         "start HTML comment. The machine-layer HTML block is replaced on each `thread` run._\n"
     )
@@ -736,7 +741,7 @@ def render_thread_extraction(
     if raw_input_lane_lines:
         parts.append("### Recent raw-input (lane)\n")
         parts.append(
-            "_Union of **on-disk** `raw-input/…` files tagged with this expert’s `thread:` "
+            "_Union of **on-disk** `raw-input/â€¦` files tagged with this expertâ€™s `thread:` "
             "and **inbox** lines (same paths de-duped; disk line kept first)._\n"
         )
         for line in raw_input_lane_lines:
@@ -747,29 +752,28 @@ def render_thread_extraction(
         parts.append("### Page references\n")
         for pb in page_blocks:
             w = f" watch=`{pb.watch}`" if pb.watch else ""
-            parts.append(f"- **{pb.id}** — {pb.date}{w}")
+            parts.append(f"- **{pb.id}** â€” {pb.date}{w}")
         parts.append("")
 
-    if knot_refs:
-        parts.append("### Legacy file-index rows (optional)\n")
+    if page_refs:
+        parts.append("### Page index rows (optional)\n")
         parts.append(
-            "_On-disk index only; prefer **Page references** above._\n"
+            "_On-disk page index only; prefer **Page references** above._\n"
         )
-        for knot in knot_refs:
-            knot_path = knot.get("path", "?")
-            knot_date = knot.get("date", "?")
-            knot_label = knot.get("knot_label", "")
-            note = knot.get("note", "")
-            label_str = f" ({knot_label})" if knot_label else ""
-            note_str = f" — {note}" if note else ""
-            basename = Path(knot_path).name
-            parts.append(f"- [{basename}]({basename}) {knot_date}{label_str}{note_str}")
+        for page in page_refs:
+            page_path = page.get("path", "?")
+            page_date = page.get("date", "?")
+            page_label = page.get("page_label", "")
+            note = page.get("note", "")
+            label_str = f" ({page_label})" if page_label else ""
+            note_str = f" â€” {note}" if note else ""
+            basename = Path(page_path).name
+            parts.append(f"- [{basename}]({basename}) {page_date}{label_str}{note_str}")
         parts.append("")
-
     if (
         not transcript_lines
         and not raw_input_lane_lines
-        and not knot_refs
+        and not page_refs
         and not page_blocks
     ):
         parts.append(
@@ -820,19 +824,19 @@ def write_thread_file(
 def rebuild_threads(
     *,
     out_dir: Path,
-    knot_index_path: Path,
+    page_index_path: Path,
     dry_run: bool = False,
 ) -> list[Path]:
-    """Extract transcript + knot material → thread files for all experts.
+    """Extract transcript + page material â†’ thread files for all experts.
 
     When any ``<expert_id>-thread-YYYY-MM.md`` exists for an expert (in-folder or flat),
-    machine layers are written **per month**; legacy knot references attach to the
+    machine layers are written **per month**; page index rows attach to the
     **current UTC calendar month** file only. Otherwise behavior is unchanged (single
     ``thread.md``).
     """
     written: list[Path] = []
     today_ym = datetime.now(timezone.utc).date().strftime("%Y-%m")
-    from strategy_raw_input_index import (  # noqa: PLC0415 — lazy (avoid import cycle)
+    from strategy_raw_input_index import (  # noqa: PLC0415 â€” lazy (avoid import cycle)
         discover_raw_input_bullets_for_expert,
         merge_raw_input_bullet_lines,
     )
@@ -857,12 +861,12 @@ def rebuild_threads(
                 out_dir, expert_id, month_filter_ym=None
             )
             lane = merge_raw_input_bullet_lines(disk_b, inb)
-            knot_refs = find_knot_references(expert_id, knot_index_path=knot_index_path)
+            page_refs = find_page_references(expert_id, page_index_path=page_index_path)
             page_blocks = discover_pages(legacy_thread, expert_id=expert_id)
             inner = render_thread_extraction(
                 expert_id,
                 transcript_lines=transcript_lines,
-                knot_refs=knot_refs,
+                page_refs=page_refs,
                 page_blocks=page_blocks,
                 raw_input_lane_lines=lane,
             )
@@ -873,7 +877,7 @@ def rebuild_threads(
 
         by_m_transcript = parse_transcript_by_month(transcript_path)
         months = sorted(set(mmap.keys()) | set(by_m_transcript.keys()))
-        knot_refs_all = find_knot_references(expert_id, knot_index_path=knot_index_path)
+        page_refs_all = find_page_references(expert_id, page_index_path=page_index_path)
 
         for ym in months:
             dest = mmap.get(ym)
@@ -890,13 +894,13 @@ def rebuild_threads(
                 out_dir, expert_id, month_filter_ym=ym
             )
             lane = merge_raw_input_bullet_lines(disk_b, inb)
-            pages = discover_pages(dest, expert_id=expert_id) if dest.is_file() else []
-            knots = knot_refs_all if ym == today_ym else []
+            page_blocks = discover_pages(dest, expert_id=expert_id) if dest.is_file() else []
+            page_refs = page_refs_all if ym == today_ym else []
             inner = render_thread_extraction(
                 expert_id,
                 transcript_lines=tlines,
-                knot_refs=knots,
-                page_blocks=pages,
+                page_refs=page_refs,
+                page_blocks=page_blocks,
                 raw_input_lane_lines=lane,
             )
             if not dry_run:
@@ -915,17 +919,17 @@ def main() -> int:
         help="Directory containing expert files",
     )
     p.add_argument(
-        "--knot-index",
+        "--page-index",
         type=Path,
-        default=DEFAULT_KNOT_INDEX,
-        help="Path to legacy on-disk index file (default: knot-index.yaml)",
+        default=DEFAULT_PAGE_INDEX,
+        help="Path to on-disk page index file (default: page-index.yaml)",
     )
     p.add_argument("--dry-run", action="store_true", help="Parse only; do not write files")
     args = p.parse_args()
 
     paths = rebuild_threads(
         out_dir=args.out,
-        knot_index_path=args.knot_index,
+        page_index_path=args.page_index,
         dry_run=args.dry_run,
     )
     for path in paths:
@@ -935,3 +939,4 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+
