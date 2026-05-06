@@ -12,6 +12,7 @@ if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
 
 from youtube_transcripts.hashing import compute_content_hash, normalize_for_hash, strip_transcript_header
+from youtube_transcripts.index_rows import load_index_videos, normalize_upload_date
 from youtube_transcripts.quality import compute_quality, tier_from_parts
 
 
@@ -59,3 +60,37 @@ def test_retry_call_succeeds_first_try() -> None:
 
     assert retry_call(ok, max_attempts=3) == 42
     assert n["c"] == 1
+
+
+def test_normalize_upload_date_variants() -> None:
+    assert normalize_upload_date("20260503") == "2026-05-03"
+    assert normalize_upload_date("2026-05-03") == "2026-05-03"
+    assert normalize_upload_date("2026-05-03T12:34:56Z") == "2026-05-03"
+    assert normalize_upload_date("") is None
+
+
+def test_load_index_videos_normalizes_rows(tmp_path: Path) -> None:
+    index_path = tmp_path / "index.json"
+    index_path.write_text(
+        """
+{
+  "videos": [
+    {
+      "video_id": "abc123",
+      "title": "Example title",
+      "upload_date": "20260503",
+      "url": "https://www.youtube.com/watch?v=abc123",
+      "status": "listed_only",
+      "duration_seconds": "321"
+    }
+  ]
+}
+""".strip(),
+        encoding="utf-8",
+    )
+    videos = load_index_videos(index_path)
+    assert len(videos) == 1
+    assert videos[0]["video_id"] == "abc123"
+    assert videos[0]["upload_date"] == "2026-05-03"
+    assert videos[0]["status"] == "listed_only"
+    assert videos[0]["duration_seconds"] == "321"

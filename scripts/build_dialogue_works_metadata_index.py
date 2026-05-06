@@ -18,7 +18,7 @@ import re
 import subprocess
 import sys
 from dataclasses import dataclass
-from datetime import date, datetime
+from datetime import date
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -27,6 +27,7 @@ if str(SCRIPTS_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPTS_DIR))
 
 from fetch_strategy_raw_input import _slugify  # noqa: E402
+from youtube_transcripts.index_rows import load_index_videos  # noqa: E402
 
 CHANNEL_URL = "https://www.youtube.com/@dialogueworks01/videos"
 START_DATE = date(2026, 1, 1)
@@ -80,32 +81,15 @@ def infer_routing_note(guest: str, title: str) -> str:
             return route
     return "host-hub"
 
-
-def _normalize_date(raw: str | None) -> str | None:
-    s = (raw or "").strip()
-    if not s:
-        return None
-    if re.fullmatch(r"\d{8}", s):
-        return f"{s[:4]}-{s[4:6]}-{s[6:8]}"
-    if re.fullmatch(r"\d{4}-\d{2}-\d{2}", s):
-        return s
-    try:
-        return datetime.fromisoformat(s.replace("Z", "+00:00")).date().isoformat()
-    except ValueError:
-        return None
-
-
 def load_crawl_rows(index_path: Path, *, start_date: date) -> list[dict[str, str]]:
-    payload = json.loads(index_path.read_text(encoding="utf-8"))
     rows: list[dict[str, str]] = []
     cutoff = start_date.isoformat()
-    # yt-dlp channel listings are newest-first, so once we pass the cutoff date we can stop.
-    for v in payload.get("videos") or []:
-        upload_date = _normalize_date(str(v.get("upload_date") or ""))
+    for v in load_index_videos(index_path):
+        upload_date = str(v.get("upload_date") or "")
         if not upload_date:
             continue
         if upload_date < cutoff:
-            break
+            continue
         rows.append(
             {
                 "video_id": str(v.get("video_id") or "").strip(),

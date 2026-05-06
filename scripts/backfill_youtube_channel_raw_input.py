@@ -28,20 +28,7 @@ if str(SCRIPTS_DIR) not in sys.path:
 
 from fetch_strategy_raw_input import _slugify  # noqa: E402
 from youtube_transcripts.metadata import fetch_metadata_ytdlp  # noqa: E402
-
-
-def _normalize_date(raw: str | None) -> str | None:
-    s = (raw or "").strip()
-    if not s:
-        return None
-    if re.fullmatch(r"\d{8}", s):
-        return f"{s[:4]}-{s[4:6]}-{s[6:8]}"
-    if re.fullmatch(r"\d{4}-\d{2}-\d{2}", s):
-        return s
-    try:
-        return datetime.fromisoformat(s.replace("Z", "+00:00")).date().isoformat()
-    except ValueError:
-        return None
+from youtube_transcripts.index_rows import load_index_videos, normalize_upload_date  # noqa: E402
 
 
 def _split_transcript_body(text: str) -> str:
@@ -136,8 +123,7 @@ def convert_index_to_raw_input(
     if not index_path.exists():
         print(f"Missing index: {index_path}", file=sys.stderr)
         return 1
-    data = json.loads(index_path.read_text(encoding="utf-8"))
-    videos = data.get("videos") or []
+    videos = load_index_videos(index_path)
     raw_root = notebook_root / "raw-input"
     written = 0
 
@@ -151,7 +137,7 @@ def convert_index_to_raw_input(
             allowed_statuses.add("listed_only")
         if status not in allowed_statuses:
             continue
-        upload_date = _normalize_date(str(v.get("upload_date") or ""))
+        upload_date = normalize_upload_date(str(v.get("upload_date") or ""))
         if not upload_date:
             print(f"skip {v.get('video_id')}: missing upload_date", file=sys.stderr)
             continue
@@ -331,7 +317,7 @@ def backfill_channel(
                 vid, meta = _fetch(video)
                 if not isinstance(meta, dict) or not meta:
                     continue
-                upload_date = _normalize_date(str(meta.get("upload_date") or ""))
+                upload_date = normalize_upload_date(str(meta.get("upload_date") or ""))
                 if upload_date:
                     video["upload_date"] = upload_date.replace("-", "")
                 title = str(meta.get("title") or "").strip()
@@ -349,7 +335,7 @@ def backfill_channel(
                         if video["video_id"] != vid:
                             continue
                         if isinstance(meta, dict) and meta:
-                            upload_date = _normalize_date(str(meta.get("upload_date") or ""))
+                            upload_date = normalize_upload_date(str(meta.get("upload_date") or ""))
                             if upload_date:
                                 video["upload_date"] = upload_date.replace("-", "")
                             title = str(meta.get("title") or "").strip()
@@ -361,7 +347,7 @@ def backfill_channel(
                         break
         selected_videos: list[dict[str, str]] = []
         for video in enriched:
-            upload_date = _normalize_date(str(video.get("upload_date") or ""))
+            upload_date = normalize_upload_date(str(video.get("upload_date") or ""))
             if stop_before_date and upload_date:
                 try:
                     if date.fromisoformat(upload_date) < stop_before_date:
@@ -401,7 +387,7 @@ def backfill_channel(
         for i, v in enumerate(videos, start=1):
             title = (v["title"] or "").replace("|", "\\|")
             md_lines.append(
-                f"| {i} | `{v['video_id']}` | {title} | {_normalize_date(v.get('upload_date') or '') or ''} | {v.get('duration_seconds') or ''} | {v['url']} |"
+                f"| {i} | `{v['video_id']}` | {title} | {normalize_upload_date(str(v.get('upload_date') or '')) or ''} | {v.get('duration_seconds') or ''} | {v['url']} |"
             )
         (work_dir / "CHANNEL-VIDEO-INDEX.md").write_text("\n".join(md_lines) + "\n", encoding="utf-8")
         print(
