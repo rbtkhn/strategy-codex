@@ -27,6 +27,10 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_USERS_DIR = REPO_ROOT / "users"
 DEFAULT_USER = os.getenv("GRACE_MAR_USER_ID", "grace-mar")
+sys.path.insert(0, str(REPO_ROOT / "scripts"))
+from repo_io import DEFAULT_PROFILE_ID, profile_dir
+
+DEFAULT_USER = os.getenv("GRACE_MAR_USER_ID", DEFAULT_PROFILE_ID)
 
 STOP_WORDS = frozenset(
     "a an the is are was were be been being have has had do does did will would "
@@ -56,6 +60,10 @@ class SearchResult:
     entry: EvidenceEntry
     score: float
     matched_terms: list[str] = field(default_factory=list)
+
+
+def _profile_root(users_dir: Path, user: str) -> Path:
+    return profile_dir(user) if users_dir == DEFAULT_USERS_DIR else users_dir / user
 
 
 def _tokenize(text: str) -> list[str]:
@@ -256,7 +264,7 @@ def search(
 
 def _load_graph(users_dir: Path, user: str) -> dict | None:
     """Load evidence-graph.json if it exists."""
-    graph_path = users_dir / user / "evidence-graph.json"
+    graph_path = _profile_root(users_dir, user) / "evidence-graph.json"
     if not graph_path.exists():
         return None
     try:
@@ -363,7 +371,7 @@ def main() -> int:
     ap.add_argument("--stats", action="store_true", help="Show index stats and exit")
     args = ap.parse_args()
 
-    archive_path = args.users_dir / args.user / "self-archive.md"
+    archive_path = _profile_root(args.users_dir, args.user) / "self-archive.md"
     if not archive_path.exists():
         print(f"Evidence file not found: {archive_path}", file=sys.stderr)
         return 1

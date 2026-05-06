@@ -18,6 +18,10 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 _SRC = REPO_ROOT / "src"
 if str(_SRC) not in sys.path:
     sys.path.insert(0, str(_SRC))
+if str(REPO_ROOT / "scripts") not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT / "scripts"))
+
+from repo_io import DEFAULT_PROFILE_ID, profile_dir  # noqa: E402
 
 from grace_mar.observability.workflow_events import (  # noqa: E402
     event_from_change_proposal,
@@ -110,7 +114,7 @@ def main() -> int:
                 sources_used.append(str(p.relative_to(root)))
 
     # Change proposals (per-file)
-    for prop in sorted((root / "users").glob("*/review-queue/proposals/*.json")):
+    for prop in sorted((profile_dir(DEFAULT_PROFILE_ID) / "review-queue" / "proposals").glob("*.json")):
         doc = _read_json(prop)
         if doc:
             events.append(
@@ -119,7 +123,7 @@ def main() -> int:
             sources_used.append(str(prop.relative_to(root)))
 
     # Observability report aggregate (when no proposals or as supplement)
-    for obs in (root / "users").glob("*/observability/observability-report.json"):
+    for obs in (profile_dir(DEFAULT_PROFILE_ID) / "observability").glob("observability-report.json"):
         doc = _read_json(obs)
         if doc:
             events.append(

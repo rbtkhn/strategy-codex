@@ -21,18 +21,19 @@ if str(_WJ_SCRIPTS) not in sys.path:
 _SCRIPTS_ROOT = ROOT / "scripts"
 if str(_SCRIPTS_ROOT) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS_ROOT))
+from repo_io import DEFAULT_PROFILE_ID, profile_dir
 STATE_PATH = WORK_DIR / "metadata" / "comparative_sweep_state.yaml"
 ANALYSIS_DIR = WORK_DIR / "analysis"
 CLAIMS_PATH = WORK_DIR / "claims" / "registry" / "claims.jsonl"
-GATE_STAGING = ROOT / "users" / "grace-mar" / "recursion-gate-staging"
-DEFAULT_GATE_USER = "grace-mar"
+GATE_STAGING = profile_dir(DEFAULT_PROFILE_ID) / "recursion-gate-staging"
+DEFAULT_GATE_USER = DEFAULT_PROFILE_ID
 
 
 def _paste_snippet_markdown(ts: str, ts_full: str, sweep_md_rel: str, *, user_id: str) -> str:
     """Canonical ### CANDIDATE-* block for pasting into recursion-gate (next id from current gate)."""
     from stage_gate_candidate import next_candidate_id
 
-    gate_path = ROOT / "users" / user_id / "recursion-gate.md"
+    gate_path = profile_dir(user_id) / "recursion-gate.md"
     content = (
         gate_path.read_text(encoding="utf-8")
         if gate_path.is_file()

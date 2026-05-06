@@ -22,6 +22,7 @@ if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
 
 from gate_block_parser import mean_pending_provenance_from_path  # noqa: E402
+from repo_io import DEFAULT_PROFILE_ID, profile_dir  # noqa: E402
 
 from work_dev.dashboard_models import DashboardSummary  # noqa: E402
 from work_dev.evaluate_autonomy_tiers import shadow_autonomy_snapshot  # noqa: E402
@@ -142,9 +143,10 @@ def provenance_score_from_recursion_gate(gate_path: Path) -> float | None:
 
 def build_dashboard(*, user_id: str, repo_root: Path) -> DashboardSummary:
     cp = repo_root / "docs" / "skill-work" / "work-dev" / "control-plane"
-    pe = repo_root / "users" / user_id / "pipeline-events.jsonl"
+    user_root = profile_dir(user_id)
+    pe = user_root / "pipeline-events.jsonl"
     obs = repo_root / "runtime" / "observability"
-    gate_path = repo_root / "users" / user_id / "recursion-gate.md"
+    gate_path = user_root / "recursion-gate.md"
 
     integ = _count_integration_status(cp)
     pe_counts = _count_pipeline_events(pe)
@@ -216,7 +218,7 @@ def render_markdown(d: DashboardSummary) -> str:
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="Build work-dev dashboard artifacts.")
-    ap.add_argument("-u", "--user", default="grace-mar")
+    ap.add_argument("-u", "--user", default=DEFAULT_PROFILE_ID)
     ap.add_argument("--repo-root", type=Path, default=REPO_ROOT)
     args = ap.parse_args()
     root = args.repo_root.resolve()

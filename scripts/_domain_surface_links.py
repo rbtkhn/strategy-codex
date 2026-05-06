@@ -1,4 +1,4 @@
-"""
+﻿"""
 Rebase markdown links in DOMAIN wisdom surfaces from _template/DOMAIN.md placeholders
 to paths relative to the output file. Shared by create-domain.py and migrate-to-domain-surface.py.
 """
@@ -7,6 +7,13 @@ from __future__ import annotations
 
 import os
 from pathlib import Path
+import sys
+
+ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT / "scripts") not in sys.path:
+    sys.path.insert(0, str(ROOT / "scripts"))
+
+from repo_io import profile_dir
 
 # Template literals (must match _template/DOMAIN.md)
 _TEMPLATE_HREF_AGENTS = "../AGENTS.md"
@@ -26,11 +33,11 @@ def rebase_domain_surface_markdown(
     out_dir = output_file.parent.resolve()
     rr = repo_root.resolve()
     agents_s = _relpath_posix(rr / "AGENTS.md", out_dir)
-    self_s = _relpath_posix(rr / "users" / user_id / "self.md", out_dir)
+    self_s = _relpath_posix(profile_dir(user_id) / "self.md", out_dir)
     content = content.replace(f"]({_TEMPLATE_HREF_AGENTS})", f"]({agents_s})")
-    content = content.replace("](../users/grace-mar/self.md)", f"]({self_s})")
+    content = content.replace("](../self.md)", f"]({self_s})")
     if user_id != "grace-mar":
-        content = content.replace(f"](../users/{user_id}/self.md)", f"]({self_s})")
+        content = content.replace(f"](../{user_id}/self.md)", f"]({self_s})")
     return content
 
 
@@ -44,5 +51,6 @@ def assert_domain_surface_links_rebased(content: str, output_file: Path | None =
     if "/docs/skill-work/" in path_s.replace("\\", "/"):
         if f"]({_TEMPLATE_HREF_AGENTS})" in content:
             raise ValueError("unrebased AGENTS.md link (../AGENTS.md) still in content")
-        if "](../users/" in content and "self.md)" in content:
-            raise ValueError("unrebased users/.../self.md link still in content")
+        if "](../" in content and "self.md)" in content:
+            raise ValueError("unrebased .../self.md link still in content")
+

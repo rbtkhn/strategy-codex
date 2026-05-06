@@ -25,6 +25,9 @@ for path in (REPO_ROOT / "scripts", SELF_PROPOSALS_DIR):
 
 from gate_block_parser import iter_candidate_yaml_blocks, split_gate_sections
 from proposal_io import validate_grounding, validate_payload
+from repo_io import DEFAULT_PROFILE_ID, profile_dir
+
+DEFAULT_USER = DEFAULT_PROFILE_ID
 
 _STOPWORDS = {
     "a",
@@ -57,6 +60,10 @@ _STOPWORDS = {
     "you",
     "your",
 }
+
+
+def _profile_root(users_dir: Path, user_id: str) -> Path:
+    return profile_dir(user_id) if users_dir == DEFAULT_USERS_DIR else users_dir / user_id
 
 
 def _read(path: Path) -> str:
@@ -152,8 +159,9 @@ def _word_present(word: str, text: str) -> bool:
 
 
 def _parse_candidate_rows(users_dir: Path, user_id: str) -> tuple[list[dict[str, Any]], str]:
-    gate_path = users_dir / user_id / "recursion-gate.md"
-    self_text = _read(users_dir / user_id / "self.md")
+    user_root = _profile_root(users_dir, user_id)
+    gate_path = user_root / "recursion-gate.md"
+    self_text = _read(user_root / "self.md")
     active, _ = split_gate_sections(_read(gate_path))
     rows: list[dict[str, Any]] = []
     for candidate_id, title, yaml_body in iter_candidate_yaml_blocks(active):
@@ -303,7 +311,7 @@ def _classify_relation(
 
 
 def default_digest_path(*, users_dir: Path = DEFAULT_USERS_DIR, user_id: str = DEFAULT_USER) -> Path:
-    return users_dir / user_id / "derived" / "contradictions" / "auto-dream-digest.json"
+    return _profile_root(users_dir, user_id) / "derived" / "contradictions" / "auto-dream-digest.json"
 
 
 def generate_contradiction_digest(
@@ -514,7 +522,7 @@ def main() -> int:
     parser.add_argument("--user", "-u", default=DEFAULT_USER, help="User id (default: grace-mar)")
     parser.add_argument("--users-dir", type=Path, default=DEFAULT_USERS_DIR, help="Users directory root")
     parser.add_argument("--json", action="store_true", help="Emit the digest JSON to stdout")
-    parser.add_argument("--write-derived", action="store_true", help="Write users/<id>/derived/contradictions digest")
+    parser.add_argument("--write-derived", action="store_true", help="Write derived/contradictions digest")
     parser.add_argument(
         "--write-artifact-drafts",
         action="store_true",

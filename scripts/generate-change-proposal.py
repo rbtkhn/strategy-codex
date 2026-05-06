@@ -7,7 +7,7 @@ Replace placeholder priorStateRef / proposedStateRef (and refine other fields)
 before treating the proposal as merge-ready.
 
 Validate with:
-  python3 scripts/validate-change-review.py users/<id>/review-queue
+  python3 scripts/validate-change-review.py review-queue
 """
 
 from __future__ import annotations
@@ -18,9 +18,14 @@ import re
 import uuid
 from datetime import datetime, timezone
 from pathlib import Path
+import sys
 
 
 ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT / "scripts") not in sys.path:
+    sys.path.insert(0, str(ROOT / "scripts"))
+
+from repo_io import profile_dir
 SAFE_ID = re.compile(r"^proposal-[a-zA-Z0-9._-]+$")
 
 
@@ -135,7 +140,7 @@ def main() -> int:
     parser.add_argument(
         "--output-dir",
         default="",
-        help="Directory for the JSON file (default: users/<user-slug>/review-queue/proposals)",
+        help="Directory for the JSON file (default: <user-slug>/review-queue/proposals)",
     )
     args = parser.parse_args()
 
@@ -144,7 +149,7 @@ def main() -> int:
         print("ERROR: proposalId must match ^proposal-[a-zA-Z0-9._-]+$", flush=True)
         return 1
 
-    out_dir = Path(args.output_dir) if args.output_dir else ROOT / "users" / args.user_slug / "review-queue" / "proposals"
+    out_dir = Path(args.output_dir) if args.output_dir else profile_dir(args.user_slug) / "review-queue" / "proposals"
     out_dir.mkdir(parents=True, exist_ok=True)
 
     supporting: list[dict[str, str]] = []

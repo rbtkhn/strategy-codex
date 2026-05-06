@@ -32,6 +32,7 @@ DEFAULT_USERS_DIR = REPO_ROOT / "users"
 DEFAULT_USER = os.getenv("GRACE_MAR_USER_ID", "grace-mar")
 
 sys.path.insert(0, str(REPO_ROOT / "scripts"))
+from repo_io import DEFAULT_PROFILE_ID, profile_dir
 from search_evidence import (
     EvidenceEntry,
     parse_evidence,
@@ -39,6 +40,12 @@ from search_evidence import (
     _build_tfidf,
     _cosine,
 )
+
+DEFAULT_USER = os.getenv("GRACE_MAR_USER_ID", DEFAULT_PROFILE_ID)
+
+
+def _profile_root(users_dir: Path, user: str) -> Path:
+    return profile_dir(user) if users_dir == DEFAULT_USERS_DIR else users_dir / user
 
 
 @dataclass
@@ -234,10 +241,11 @@ def main() -> int:
     ap.add_argument("--json", action="store_true", help="Print full graph JSON to stdout")
     ap.add_argument("--stats", action="store_true", help="Print stats only")
     ap.add_argument("-o", "--output", type=Path, default=None,
-                    help="Write graph JSON to file (default: users/<id>/evidence-graph.json)")
+                    help="Write graph JSON to file (default: evidence-graph.json)")
     args = ap.parse_args()
 
-    archive_path = args.users_dir / args.user / "self-archive.md"
+    user_root = _profile_root(args.users_dir, args.user)
+    archive_path = user_root / "self-archive.md"
     if not archive_path.exists():
         print(f"Evidence file not found: {archive_path}", file=sys.stderr)
         return 1
@@ -252,7 +260,7 @@ def main() -> int:
         print(format_stats(graph))
         return 0
 
-    out_path = args.output or (args.users_dir / args.user / "evidence-graph.json")
+    out_path = args.output or (user_root / "evidence-graph.json")
     if not args.json:
         out_path.write_text(json.dumps(graph, indent=2) + "\n", encoding="utf-8")
         print(f"Wrote {out_path} ({graph['node_count']} nodes, {graph['edge_count']} edges)")

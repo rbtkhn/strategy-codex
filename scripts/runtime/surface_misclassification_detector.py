@@ -2,7 +2,7 @@
 """
 Surface Misclassification Detector — advisory ontology check for gate proposals.
 
-Reads pending candidates from users/<id>/recursion-gate.md (or JSON / direct args).
+Reads pending candidates from recursion-gate.md (or JSON / direct args).
 Does not rewrite targets, mutate Record surfaces, or change gate state.
 
 See docs/orchestration/surface-misclassification-detector.md.
@@ -27,6 +27,7 @@ _RUNTIME = Path(__file__).resolve().parent
 for _p in (_SCRIPTS, _RUNTIME):
     if str(_p) not in sys.path:
         sys.path.insert(0, str(_p))
+from repo_io import DEFAULT_PROFILE_ID, profile_dir
 
 from recursion_gate_review import (
     _extract_block,
@@ -34,7 +35,7 @@ from recursion_gate_review import (
     parse_review_candidates,
 )
 
-DEFAULT_USER = "grace-mar"
+DEFAULT_USER = DEFAULT_PROFILE_ID
 CANONICAL_SURFACES = ("SELF", "SELF-LIBRARY", "SKILLS", "EVIDENCE")
 
 SURFACE_SIGNALS = {
@@ -158,7 +159,7 @@ def proposal_from_gate_row(
     repo_root: Path | None,
 ) -> Proposal:
     root = repo_root.resolve() if repo_root else REPO_ROOT
-    gate_rel = (root / "users" / user_id / "recursion-gate.md").relative_to(root)
+    gate_rel = (profile_dir(user_id) / "recursion-gate.md").relative_to(root)
     yaml_target = _extract_scalar(raw_block, "target_surface")
     proposal_summary = (
         _extract_scalar(raw_block, "proposal_summary").strip() or (row.get("summary") or "").strip()
