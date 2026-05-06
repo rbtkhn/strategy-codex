@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Append or update a seed claim in users/<id>/seed-registry.jsonl.
+Append or update a seed claim in seed-registry.jsonl.
 
 Template-portable (companion-self + grace-mar).
 
@@ -29,7 +29,12 @@ from pathlib import Path
 from typing import Any
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_USER_ID = "grace-mar"
+if str(REPO_ROOT / "scripts") not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT / "scripts"))
+
+from repo_io import DEFAULT_PROFILE_ID, profile_dir
+
+DEFAULT_USER_ID = DEFAULT_PROFILE_ID
 
 STATUS_ORDER = [
     "observed", "weak_signal", "recurring", "candidate",
@@ -43,7 +48,7 @@ SENSITIVITIES = ["standard", "elevated", "high"]
 
 
 def registry_path(user_id: str = DEFAULT_USER_ID) -> Path:
-    return REPO_ROOT / "users" / user_id / "seed-registry.jsonl"
+    return profile_dir(user_id) / "seed-registry.jsonl"
 
 
 def _load_latest(user_id: str) -> dict[str, dict[str, Any]]:

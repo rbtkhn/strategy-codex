@@ -5,9 +5,9 @@ Validate Comprehension Envelope + Reflection Gates (v1) for pending candidates.
 Markdown-first: envelope lives below the ```yaml fence in the same ### CANDIDATE- section.
 Does not judge prose quality. Does not invoke process_approved_candidates.py.
 
-- envelope_class: required → non-empty Comprehension Envelope (strict-eligible)
-- impact_tier high|boundary (Heavy Gate) → advisory warnings for class, envelope, bullets
-- impact_tier medium (Light Gate) → optional advisory if envelope missing
+- envelope_class: required -> non-empty Comprehension Envelope (strict-eligible)
+- impact_tier high|boundary (Heavy Gate) -> advisory warnings for class, envelope, bullets
+- impact_tier medium (Light Gate) -> optional advisory if envelope missing
 
 Default: print warnings to stderr, exit 0.
 With --strict: exit 1 if strict-eligible problems exist (envelope required but missing/empty).
@@ -27,9 +27,9 @@ except ImportError:
     from scripts.gate_block_parser import pending_candidates_region
 
 try:
-    from repo_io import REPO_ROOT, profile_dir
+    from repo_io import REPO_ROOT, profile_dir, DEFAULT_PROFILE_ID
 except ImportError:
-    from scripts.repo_io import REPO_ROOT, profile_dir
+    from scripts.repo_io import REPO_ROOT, profile_dir, DEFAULT_PROFILE_ID
 
 
 def _scalar(yaml_body: str, key: str) -> str:
@@ -117,7 +117,7 @@ def validate_gate(gate_path: Path) -> tuple[list[str], list[str]]:
         has_env = _envelope_present_and_non_empty(section)
         env_text = _envelope_body(section)
 
-        # Legacy strict: envelope_class required → must have envelope
+        # Legacy strict: envelope_class required -> must have envelope
         if env_class == "required" and not has_env:
             strict_problems.append(
                 f"{cid}: envelope_class is required but Comprehension Envelope is missing "
@@ -168,8 +168,8 @@ def main() -> int:
     ap.add_argument(
         "-u",
         "--user",
-        default="grace-mar",
-        help="User id under users/ (default: grace-mar)",
+        default=DEFAULT_PROFILE_ID,
+        help="User id under  (default: grace-mar)",
     )
     ap.add_argument(
         "--gate",
@@ -187,8 +187,6 @@ def main() -> int:
         gate_path = args.gate
     else:
         gate_path = profile_dir(args.user) / "recursion-gate.md"
-        if not gate_path.is_file():
-            gate_path = REPO_ROOT / "users" / args.user / "recursion-gate.md"
 
     strict_problems, advisory = validate_gate(gate_path)
     for p in strict_problems:

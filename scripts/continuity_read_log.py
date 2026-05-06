@@ -3,7 +3,7 @@
 Session continuity proof-of-read — log that recommended Grace-Mar files were read at startup.
 
 Run before or at the start of an OpenClaw (or other harness) session. Appends one JSONL line
-to users/[id]/continuity-log.jsonl with timestamp and which files were read. Does not modify
+to continuity-log.jsonl with timestamp and which files were read. Does not modify
 the Record; the log is for audit and verification only.
 
 Usage:
@@ -21,7 +21,12 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_USER = os.getenv("GRACE_MAR_USER_ID", "grace-mar").strip() or "grace-mar"
+if str(REPO_ROOT / "scripts") not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT / "scripts"))
+
+from repo_io import DEFAULT_PROFILE_ID, profile_dir
+
+DEFAULT_USER = os.getenv("GRACE_MAR_USER_ID", DEFAULT_PROFILE_ID).strip() or DEFAULT_PROFILE_ID
 
 FILES = ["session-log.md", "recursion-gate.md", "self-archive.md"]
 
@@ -34,10 +39,7 @@ def main() -> int:
     parser.add_argument("--dry-run", action="store_true", help="Print payload only; do not write log")
     args = parser.parse_args()
 
-    user_dir = REPO_ROOT / "users" / args.user
-    if not user_dir.exists():
-        print(f"User dir not found: {user_dir}", file=sys.stderr)
-        return 1
+    user_dir = profile_dir(args.user)
 
     read_ok: list[str] = []
     missing: list[str] = []

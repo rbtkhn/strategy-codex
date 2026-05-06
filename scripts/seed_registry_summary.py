@@ -23,12 +23,17 @@ from pathlib import Path
 from typing import Any
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_USER_ID = "grace-mar"
+if str(REPO_ROOT / "scripts") not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT / "scripts"))
+
+from repo_io import DEFAULT_PROFILE_ID, profile_dir
+
+DEFAULT_USER_ID = DEFAULT_PROFILE_ID
 
 
 def load_latest(user_id: str) -> dict[str, dict[str, Any]]:
     """Load the latest snapshot per seed_id (last-write-wins in JSONL)."""
-    path = REPO_ROOT / "users" / user_id / "seed-registry.jsonl"
+    path = profile_dir(user_id) / "seed-registry.jsonl"
     if not path.exists():
         return {}
     latest: dict[str, dict[str, Any]] = {}

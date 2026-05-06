@@ -19,8 +19,13 @@ from datetime import datetime
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-USER_ID = os.getenv("GRACE_MAR_USER_ID", "grace-mar").strip() or "grace-mar"
-RECURSION_GATE_PATH = REPO_ROOT / "users" / USER_ID / "recursion-gate.md"
+if str(REPO_ROOT / "scripts") not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT / "scripts"))
+
+from repo_io import DEFAULT_PROFILE_ID, profile_dir
+
+USER_ID = os.getenv("GRACE_MAR_USER_ID", DEFAULT_PROFILE_ID).strip() or DEFAULT_PROFILE_ID
+RECURSION_GATE_PATH = profile_dir(USER_ID) / "recursion-gate.md"
 
 WE_DID_PATTERN = re.compile(r'[Ww]e\s+did\s+\[([^\]]+)\]\.?', re.IGNORECASE)
 
@@ -66,7 +71,7 @@ def stage_we_did_to_recursion_gate(
     if not items:
         return []
 
-    gate_path = REPO_ROOT / "users" / user_id / "recursion-gate.md"
+    gate_path = profile_dir(user_id) / "recursion-gate.md"
     content = _read(gate_path)
     if not content:
         return []
@@ -144,7 +149,7 @@ def main() -> None:
 
     for s in staged:
         print(f"Staged {s['id']}: We did [{s['x']}]", file=sys.stderr if not args.dry_run else sys.stdout)
-    gate_path = REPO_ROOT / "users" / args.user / "recursion-gate.md"
+    gate_path = profile_dir(args.user) / "recursion-gate.md"
     if args.dry_run:
         print("(dry run — no changes written)", file=sys.stderr)
     else:

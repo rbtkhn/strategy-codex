@@ -27,10 +27,11 @@ from gate_block_parser import (  # noqa: E402
 )
 from operator_dashboard_common import extract_yaml_scalar  # noqa: E402
 from recursion_gate_review import parse_review_candidates  # noqa: E402
+from repo_io import DEFAULT_PROFILE_ID, profile_dir  # noqa: E402
 
 
 def _users_dir(user_id: str, repo_root: Path) -> Path:
-    return repo_root
+    return profile_dir(user_id)
 
 # Pending sub-column precedence: contradiction → evidence → new → ready
 _PROVENANCE_NEEDS_EVIDENCE = 0.34
@@ -244,7 +245,7 @@ def main() -> int:
     ap = argparse.ArgumentParser(
         description="Build gate-board.md Kanban view from recursion-gate.md (read-only)."
     )
-    ap.add_argument("-u", "--user", default="grace-mar")
+    ap.add_argument("-u", "--user", default=DEFAULT_PROFILE_ID)
     ap.add_argument("--repo-root", type=Path, default=REPO_ROOT)
     ap.add_argument(
         "--output",

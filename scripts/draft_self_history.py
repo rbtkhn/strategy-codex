@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-Draft WORK / COMPANION markdown blocks for users/<id>/self-history.md from:
+Draft WORK / COMPANION markdown blocks for self-history.md from:
   - docs/skill-work/work-*/*-history.md (## Log bullets)
-  - users/<id>/self-archive.md § V ACTIVITY LOG (YAML activities)
+  - self-archive.md § V ACTIVITY LOG (YAML activities)
 
 Default: print drafted log sections to stdout. Use --write to replace log sections in self-history.md.
 
@@ -22,6 +22,10 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SKILL_WORK = REPO_ROOT / "docs" / "skill-work"
+if str(REPO_ROOT / "scripts") not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT / "scripts"))
+
+from repo_io import DEFAULT_PROFILE_ID, profile_dir
 
 LOG_HEADING = "## Log — WORK (aggregate)"
 COMPANION_HEADING = "## Log — COMPANION (gate-approved)"
@@ -69,7 +73,7 @@ def companion_monthly_lines(activities: list[tuple[str, str, str, str]]) -> list
         ids = sorted(by_month[ym], key=lambda x: int(x.split("-")[1]))
         lines.append(
             f"- **COMPANION: {ym}** — {len(ids)} activities in `self-archive.md` § V "
-            f"(`{ids[0]}`–`{ids[-1]}`). Canonical: `users/<id>/self-archive.md` **§ V. ACTIVITY LOG**."
+            f"(`{ids[0]}`–`{ids[-1]}`). Canonical: `self-archive.md` **§ V. ACTIVITY LOG**."
         )
     return lines
 
@@ -145,7 +149,7 @@ def render_log_sections(
     max_n: int | None,
     user_id: str,
 ) -> str:
-    archive_path = REPO_ROOT / "users" / user_id / "self-archive.md"
+    archive_path = profile_dir(user_id) / "self-archive.md"
     if not archive_path.is_file():
         activities: list[tuple[str, str, str, str]] = []
     else:
@@ -159,7 +163,7 @@ def render_log_sections(
         clines = companion_per_act_lines(activities, max_n=max_n)
 
     # Substitute user id in companion lines for display
-    clines = [s.replace("users/<id>/", f"users/{user_id}/") for s in clines]
+    clines = [s.replace("", f"{user_id}/") for s in clines]
 
     parts = [
         LOG_HEADING,
@@ -178,7 +182,7 @@ def render_log_sections(
 
 
 def write_self_history(user_id: str, new_log_block: str) -> Path:
-    path = REPO_ROOT / "users" / user_id / "self-history.md"
+    path = profile_dir(user_id) / "self-history.md"
     if not path.is_file():
         raise SystemExit(f"missing {path}")
     full = path.read_text(encoding="utf-8")
@@ -192,7 +196,7 @@ def write_self_history(user_id: str, new_log_block: str) -> Path:
 
 def main() -> None:
     ap = argparse.ArgumentParser(description="Draft self-history WORK/COMPANION log sections.")
-    ap.add_argument("-u", "--user", default="grace-mar", help="Fork id under users/")
+    ap.add_argument("-u", "--user", default=DEFAULT_PROFILE_ID, help="Fork id under ")
     ap.add_argument(
         "--companion-style",
         choices=("month", "per-act"),

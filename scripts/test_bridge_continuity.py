@@ -24,7 +24,12 @@ from pathlib import Path
 from typing import Any
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_USER = os.getenv("GRACE_MAR_USER_ID", "grace-mar")
+if str(REPO_ROOT / "scripts") not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT / "scripts"))
+
+from repo_io import DEFAULT_PROFILE_ID, profile_dir
+
+DEFAULT_USER = os.getenv("GRACE_MAR_USER_ID", DEFAULT_PROFILE_ID)
 
 TERRITORY_GLOB = "docs/skill-work/work-*/work-*-history.md"
 RECENCY_DAYS = 7
@@ -124,13 +129,13 @@ def _git_log(repo_root: Path, count: int = 5) -> list[dict[str, str]]:
 
 
 def capture_snapshot(repo_root: Path, user_id: str) -> dict[str, Any]:
-    users_dir = repo_root / "users" / user_id
-    gate_text = _read_optional(users_dir / "recursion-gate.md")
-    mem_text = _read_optional(users_dir / "self-memory.md")
+    user_root = profile_dir(user_id)
+    gate_text = _read_optional(user_root / "recursion-gate.md")
+    mem_text = _read_optional(user_root / "self-memory.md")
 
     return {
         "gate_pending": _pending_candidates(gate_text),
-        "dream": _dream_handoff(users_dir / "last-dream.json"),
+        "dream": _dream_handoff(user_root / "last-dream.json"),
         "territories": _recent_territories(repo_root),
         "memory_pointers": _memory_long_term(mem_text),
         "commits": _git_log(repo_root),

@@ -13,7 +13,13 @@ import re
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
-GATE = REPO / "users" / "grace-mar" / "recursion-gate.md"
+import sys
+if str(REPO / "scripts") not in sys.path:
+    sys.path.insert(0, str(REPO / "scripts"))
+
+from repo_io import DEFAULT_PROFILE_ID, profile_dir
+
+GATE = profile_dir(DEFAULT_PROFILE_ID) / "recursion-gate.md"
 
 
 REPAIRED_BLOCKS = {

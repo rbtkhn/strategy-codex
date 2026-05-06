@@ -52,7 +52,14 @@ def _load_pipeline_events(user_dir: Path) -> list[dict]:
 
 
 def _git_record_log(user_id: str, limit: int) -> list[tuple[str, str]]:
-    rel = [f"users/{user_id}/{f}" for f in RECORD_FILES]
+    user_root = profile_dir(user_id)
+    rel = []
+    for name in RECORD_FILES:
+        path = user_root / name
+        try:
+            rel.append(str(path.relative_to(REPO_ROOT)))
+        except ValueError:
+            rel.append(str(path))
     try:
         r = subprocess.run(
             [

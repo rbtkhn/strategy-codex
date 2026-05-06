@@ -30,6 +30,10 @@ from datetime import datetime
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
+if str(REPO_ROOT / "scripts") not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT / "scripts"))
+
+from repo_io import DEFAULT_PROFILE_ID, profile_dir
 
 try:
     from pipeline_event_envelope import ENVELOPE_VERSION, new_pipeline_event_id
@@ -46,7 +50,7 @@ def append_pipeline_event(
     extras: dict[str, str] | None = None,
 ) -> dict:
     """
-    Append one JSON line to users/<user_id>/pipeline-events.jsonl.
+    Append one JSON line to <user_id>/pipeline-events.jsonl.
     Returns the full event dict (includes event_id). Prefer this over subprocess from
     process_approved_candidates so callers can correlate IDs.
     """
@@ -65,7 +69,7 @@ def append_pipeline_event(
     event.setdefault("event_id", new_pipeline_event_id(fork))
     event.setdefault("fork_id", fork)
     event.setdefault("envelope_version", ENVELOPE_VERSION)
-    events_path = REPO_ROOT / "users" / user_id / "pipeline-events.jsonl"
+    events_path = profile_dir(user_id) / "pipeline-events.jsonl"
     events_path.parent.mkdir(parents=True, exist_ok=True)
     with open(events_path, "a", encoding="utf-8") as f:
         f.write(json.dumps(event, ensure_ascii=False) + "\n")
@@ -77,7 +81,7 @@ def main() -> None:
     parser.add_argument(
         "--user",
         "-u",
-        default=(os.getenv("GRACE_MAR_USER_ID", "grace-mar").strip() or "grace-mar"),
+        default=(os.getenv("GRACE_MAR_USER_ID", DEFAULT_PROFILE_ID).strip() or DEFAULT_PROFILE_ID),
         help="User id (default: GRACE_MAR_USER_ID or grace-mar)",
     )
     parser.add_argument("event_type", help="Event name (approved/rejected/applied/validation_failed/maintenance/...)")

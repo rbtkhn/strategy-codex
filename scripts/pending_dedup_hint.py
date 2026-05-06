@@ -18,6 +18,10 @@ import sys
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
+if str(REPO_ROOT / "scripts") not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT / "scripts"))
+
+from repo_io import DEFAULT_PROFILE_ID, profile_dir
 
 
 def _read(path: Path) -> str:
@@ -53,7 +57,7 @@ def _extract_pending(pr: str) -> list[dict]:
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="Pending candidate dedup hints (read-only)")
-    ap.add_argument("-u", "--user", default="grace-mar")
+    ap.add_argument("-u", "--user", default=DEFAULT_PROFILE_ID)
     ap.add_argument(
         "--min-similarity",
         type=float,
@@ -61,7 +65,7 @@ def main() -> int:
         help="Min Jaccard(word) similarity to flag pair (default 0.35)",
     )
     args = ap.parse_args()
-    pr_path = REPO_ROOT / "users" / args.user / "recursion-gate.md"
+    pr_path = profile_dir(args.user) / "recursion-gate.md"
     pr = _read(pr_path)
     pending = _extract_pending(pr)
     if len(pending) < 2:
