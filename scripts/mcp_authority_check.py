@@ -23,6 +23,7 @@ _SCRIPTS = Path(__file__).resolve().parent
 if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
 
+from yaml_compat import safe_load_path  # noqa: E402
 from mcp_capability_audit import (  # noqa: E402
     _implies_shell_execution_allowed,
     _write_capable,
@@ -63,11 +64,7 @@ def _git_short_hash(cwd: Path) -> str:
 
 
 def load_yaml(path: Path) -> Any:
-    try:
-        import yaml
-    except ImportError as e:
-        raise RuntimeError("PyYAML required (pip install -r requirements-dev.txt)") from e
-    return yaml.safe_load(path.read_text(encoding="utf-8"))
+    return safe_load_path(path, feature="mcp_authority_check.py")
 
 
 def load_authority_map(path: Path) -> dict[str, Any]:

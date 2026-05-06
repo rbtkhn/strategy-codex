@@ -21,9 +21,13 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-import yaml
-
 REPO_ROOT = Path(__file__).resolve().parent.parent
+SCRIPTS = Path(__file__).resolve().parent
+if str(SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS))
+
+from yaml_compat import safe_load_path
+
 LANES_PATH = REPO_ROOT / "lanes.yaml"
 
 
@@ -78,7 +82,7 @@ def _forbidden_hit(path: str, patterns: list[str]) -> bool:
 
 def load_lanes(path: Path | None = None) -> dict[str, Any]:
     p = path or LANES_PATH
-    data = yaml.safe_load(p.read_text(encoding="utf-8"))
+    data = safe_load_path(p, feature="check_lane_scope.py")
     if not isinstance(data, dict) or "lanes" not in data:
         raise ValueError("lanes.yaml must contain top-level 'lanes'")
     return data

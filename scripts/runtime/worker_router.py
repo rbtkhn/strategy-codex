@@ -10,7 +10,15 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
-from worker_registry import get_routed_workers, get_shared_workers, load_registry, validate_entrypoints
+try:
+    from worker_registry import get_routed_workers, get_shared_workers, load_registry, validate_entrypoints
+except ModuleNotFoundError:  # pragma: no cover - package-style import path
+    from runtime.worker_registry import (
+        get_routed_workers,
+        get_shared_workers,
+        load_registry,
+        validate_entrypoints,
+    )
 
 # task_type (CLI) → routed_workers key in registry.yaml
 TASK_TYPE_TO_ROUTED: dict[str, str] = {

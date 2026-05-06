@@ -19,6 +19,12 @@ from pathlib import Path
 from typing import Any
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
+_SCRIPTS = Path(__file__).resolve().parent
+if str(_SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(_SCRIPTS))
+
+from yaml_compat import safe_load_path
+
 DEFAULT_CONFIG = REPO_ROOT / "config" / "mcp-capabilities.yaml"
 DEFAULT_SCHEMA = REPO_ROOT / "schemas" / "mcp-capability.v1.json"
 DEFAULT_OUTPUT = REPO_ROOT / "artifacts" / "mcp-capability-report.md"
@@ -48,14 +54,7 @@ def _safe_rel(path: Path, root: Path) -> Path | str:
 
 
 def load_yaml(path: Path) -> Any:
-    try:
-        import yaml
-    except ImportError as e:
-        raise RuntimeError(
-            "PyYAML required (pip install -r requirements-dev.txt)"
-        ) from e
-    text = path.read_text(encoding="utf-8")
-    return yaml.safe_load(text)
+    return safe_load_path(path, feature="mcp_capability_audit.py")
 
 
 def validate_document(doc: Any, schema_path: Path) -> None:

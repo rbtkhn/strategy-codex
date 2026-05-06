@@ -11,7 +11,15 @@ import json
 from pathlib import Path
 from typing import Any
 
+import sys
+
 REPO_ROOT = Path(__file__).resolve().parent.parent
+_SCRIPTS = Path(__file__).resolve().parent
+if str(_SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(_SCRIPTS))
+
+from yaml_compat import safe_load_path
+
 CAPABILITIES_PATH = REPO_ROOT / "config" / "mcp-capabilities.yaml"
 BINDINGS_PATH = REPO_ROOT / "config" / "mcp-authority-bindings.yaml"
 RECEIPT_SCHEMA_PATH = REPO_ROOT / "schemas" / "mcp-execution-receipt.v1.json"
@@ -21,11 +29,7 @@ _CRED_RANK: dict[str, int] = {"none": 0, "optional": 1, "required": 2}
 
 
 def load_yaml(path: Path) -> Any:
-    try:
-        import yaml
-    except ImportError as e:
-        raise RuntimeError("PyYAML required (pip install -r requirements-dev.txt)") from e
-    return yaml.safe_load(path.read_text(encoding="utf-8"))
+    return safe_load_path(path, feature="mcp_receipt_lib.py")
 
 
 def validate_json_schema(instance: Any, schema_path: Path = RECEIPT_SCHEMA_PATH) -> None:

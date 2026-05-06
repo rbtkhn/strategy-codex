@@ -6,8 +6,15 @@ Does not execute entrypoints — validates repo-relative paths exist.
 
 from __future__ import annotations
 
+import sys
 from pathlib import Path
 from typing import Any
+
+_SCRIPTS = Path(__file__).resolve().parent.parent
+if str(_SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(_SCRIPTS))
+
+from yaml_compat import safe_load_path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 _REGISTRY_REL = Path("config/runtime_workers/registry.yaml")
@@ -19,15 +26,10 @@ def registry_path(repo_root: Path | None = None) -> Path:
 
 
 def load_registry(repo_root: Path | None = None) -> dict[str, Any]:
-    try:
-        import yaml
-    except ImportError as e:  # pragma: no cover
-        raise SystemExit("PyYAML is required to load the worker registry") from e
-
     path = registry_path(repo_root)
     if not path.is_file():
         raise FileNotFoundError(f"worker registry missing: {path}")
-    data = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+    data = safe_load_path(path, feature="runtime/worker_registry.py") or {}
     if not isinstance(data, dict):
         raise ValueError("registry root must be a mapping")
     return data

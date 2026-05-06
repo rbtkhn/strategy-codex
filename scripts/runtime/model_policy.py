@@ -8,11 +8,17 @@ Does not invoke providers or change Record / RECURSION-GATE.
 from __future__ import annotations
 
 import os
+import sys
 from pathlib import Path
 from typing import Any
 
 _MODEL_TIERS_REL = Path("config/model_routing/model_tiers.yaml")
 _TASK_POLICY_REL = Path("config/model_routing/task_policy.yaml")
+_SCRIPTS = Path(__file__).resolve().parent.parent
+if str(_SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(_SCRIPTS))
+
+from yaml_compat import safe_load_path
 
 
 def _norm_token(s: str | None) -> str | None:
@@ -23,13 +29,9 @@ def _norm_token(s: str | None) -> str | None:
 
 
 def _load_yaml(path: Path) -> dict[str, Any]:
-    try:
-        import yaml
-    except ImportError as e:  # pragma: no cover
-        raise SystemExit("PyYAML is required to load model routing config") from e
     if not path.is_file():
         raise FileNotFoundError(f"model routing config missing: {path}")
-    data = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+    data = safe_load_path(path, feature="runtime/model_policy.py") or {}
     if not isinstance(data, dict):
         raise ValueError(f"expected mapping in {path}")
     return data

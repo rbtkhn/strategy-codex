@@ -6,10 +6,19 @@ Overlays are not a second router; task_type still resolves via worker_router.res
 
 from __future__ import annotations
 
+import sys
 from pathlib import Path
 from typing import Any
 
-from worker_router import TASK_TYPE_TO_ROUTED
+_SCRIPTS = Path(__file__).resolve().parent.parent
+if str(_SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(_SCRIPTS))
+
+from yaml_compat import safe_load_path
+try:
+    from worker_router import TASK_TYPE_TO_ROUTED
+except ModuleNotFoundError:  # pragma: no cover - package-style import path
+    from runtime.worker_router import TASK_TYPE_TO_ROUTED
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 _OVERLAYS_REL = Path("config/runtime_workers/overlays.yaml")
@@ -44,15 +53,10 @@ def overlays_path(repo_root: Path | None = None) -> Path:
 
 
 def load_overlays(repo_root: Path | None = None) -> dict[str, Any]:
-    try:
-        import yaml
-    except ImportError as e:  # pragma: no cover
-        raise SystemExit("PyYAML is required to load runtime worker overlays") from e
-
     path = overlays_path(repo_root)
     if not path.is_file():
         raise FileNotFoundError(f"worker overlays missing: {path}")
-    data = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+    data = safe_load_path(path, feature="runtime/worker_overlays.py") or {}
     if not isinstance(data, dict):
         raise OverlayConfigError("overlays root must be a mapping")
     return data
