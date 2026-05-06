@@ -7,7 +7,7 @@
 - Declared paths resolve where expected (artifacts vs sources behaviour differs by validator — see script output).
 - Text/markdown artifacts have enough substance for review under a simple word-count heuristic (default threshold: 50 words per text artifact for “non-trivial”).
 - Optional gate snippet presence when requested.
-- Derived JSON output paths stay outside forbidden Record-adjacent locations (`users/**`, selected `bot/` files).
+- Derived JSON output paths stay outside forbidden Record-adjacent locations (`**`, selected `bot/` files).
 - Light scans for explicit placeholder / tension markers (surfaced as `needs_review`, not hidden).
 
 **What it does not validate**
@@ -15,7 +15,7 @@
 - Correctness of judgment, forecasts, or notebook weave quality.
 - Alignment with `skill-strategy`, STRATEGY promotion rules, or VERIFY tiers.
 - Gate staging, merges, or RECURSION-GATE semantics (validators never auto-edit `recursion-gate.md`).
-- Identity-facing Record truth under `users/**` (validators **read** WORK paths only; they do **not** write canonical Record).
+- Identity-facing Record truth under `**` (validators **read** WORK paths only; they do **not** write canonical Record).
 
 **Statuses**
 

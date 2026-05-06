@@ -23,7 +23,7 @@ This folder holds **submodules** that support WORK, the Record, and instances: r
 | **[work-cici](work-cici/)** | Advisor/project module for Cici, formerly Xavier — contracts, runbooks, content plans, work profile, SMM rubric, journal, BrewMind pilot materials, mirrors, handoffs, and operator artifacts; Cursor **`skill-cici`**. Not Cici’s Record repo; not Record truth. |
 | **[work-coffee](work-coffee/)** | Operator cadence ritual architecture — `coffee` design, menu reference, activation/re-entry/signing-off ergonomics; executable trigger in `.cursor/skills/coffee/SKILL.md`. |
 | **[work-civ-mem](work-civ-mem/)** | Stewardship surface for the `civilization_memory` repository — drift audit, contribution prep, workflow clarity; not a replacement for civ-mem internal STATE/SCHOLAR. |
-| **[work-moonshots](work-moonshots/)** | PMOS v0.1 — moonshot program **template** + lane README; staging surface is `users/[id]/self-moonshots.md`; see [moonshot-operating-model.md](../moonshot-operating-model.md). **+** [Moonshot Orchestration](work-moonshots/moonshot-orchestration/README.md) (WORK-only maps, tiers, dashboard). **+** [career triad lens](work-moonshots/career-triad-lens.md) (Founder / Joiner / Investor). |
+| **[work-moonshots](work-moonshots/)** | PMOS v0.1 — moonshot program **template** + lane README; staging surface is `self-moonshots.md`; see [moonshot-operating-model.md](../moonshot-operating-model.md). **+** [Moonshot Orchestration](work-moonshots/moonshot-orchestration/README.md) (WORK-only maps, tiers, dashboard). **+** [career triad lens](work-moonshots/career-triad-lens.md) (Founder / Joiner / Investor). |
 
 ---
 

@@ -1,6 +1,6 @@
 # Agent prompt: Execute (Grace-Mar work-dev)
 
-**Boundary:** Do not mutate canonical Record surfaces (SELF, SKILLS, EVIDENCE, Library, `users/*` identity files). If durable learning is needed, add a [compound note](../compound-note-template.md) or `gate_candidate` **recommendation** only.
+**Boundary:** Do not mutate canonical Record surfaces (SELF, SKILLS, EVIDENCE, Library, `*` identity files). If durable learning is needed, add a [compound note](../compound-note-template.md) or `gate_candidate` **recommendation** only.
 
 ## Your job
 

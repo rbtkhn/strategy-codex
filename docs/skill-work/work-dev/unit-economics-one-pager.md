@@ -1,15 +1,15 @@
-# Unit Economics — One Companion Instance
+﻿# Unit Economics â€” One Companion Instance
 
 **Territory:** work-dev
 **Status:** Draft from live ledger data
 **Date:** 2026-04-06
-**Source:** `users/grace-mar/compute-ledger.jsonl` (96 rows, 2026-02-21 through 2026-04-06)
+**Source:** `compute-ledger.jsonl` (96 rows, 2026-02-21 through 2026-04-06)
 
 ---
 
 ## What does one companion instance cost to run?
 
-Grace-Mar is the first and only live instance. The compute ledger has been instrumented since February 21, 2026 — 45 days of data across 4 active bot sessions and ongoing integration operations.
+Grace-Mar is the first and only live instance. The compute ledger has been instrumented since February 21, 2026 â€” 45 days of data across 4 active bot sessions and ongoing integration operations.
 
 ---
 
@@ -27,7 +27,7 @@ The bot has two LLM paths per companion message: the **main** path (Voice emulat
 | **Total** | | **62** | **128,703** | **2,133** | **130,836** |
 
 **Per-session average** (4 sessions): ~32,700 tokens/session.
-**Per-message average** (31 main calls): ~4,200 tokens/message (prompt-heavy — the system prompt carries the full Record).
+**Per-message average** (31 main calls): ~4,200 tokens/message (prompt-heavy â€” the system prompt carries the full Record).
 
 ### Estimated API cost (at current OpenAI pricing)
 
@@ -68,7 +68,7 @@ Integration operations are free (no LLM calls). Cost is disk I/O and optional ne
 | Runtime bundle (export) | ~580 KB | Regenerated, not cumulative |
 | **Total repo** | ~50 MB | Mostly docs/scripts, not user data |
 
-User data is kilobytes. The repo is dominated by documentation, scripts, and research — not companion state.
+User data is kilobytes. The repo is dominated by documentation, scripts, and research â€” not companion state.
 
 ---
 
@@ -102,7 +102,7 @@ The system is extremely cheap to run per instance. The cost bottleneck is operat
 
 1. **Margins are not the problem.** At $0.01/message, the LLM cost of a companion instance is negligible even at scale. The system prompt is large (~2,300 tokens for a young Record) and will grow, but gpt-4o-mini for the analyst path keeps the per-message overhead minimal.
 
-2. **The scaling constraint is operator labor, not compute.** Every instance needs a human who reviews candidates, maintains the gate, and makes judgment calls about what enters the Record. That's the governance promise — but it means scaling to 1,000 instances requires either (a) paid operators, (b) companion self-service (the companion reviews their own gate), or (c) reduced gate frequency.
+2. **The scaling constraint is operator labor, not compute.** Every instance needs a human who reviews candidates, maintains the gate, and makes judgment calls about what enters the Record. That's the governance promise â€” but it means scaling to 1,000 instances requires either (a) paid operators, (b) companion self-service (the companion reviews their own gate), or (c) reduced gate frequency.
 
 3. **The system already instruments its own cost.** The compute ledger, pipeline events, and cadence events provide full observability. An investor can see exactly what running one instance costs, down to the token.
 
@@ -112,11 +112,11 @@ The system is extremely cheap to run per instance. The cost bottleneck is operat
 
 ## Cross-references
 
-- [economic-benchmarks.md](economic-benchmarks.md) — Integration cost instrumentation
-- [compute-ledger.jsonl](../../../users/grace-mar/compute-ledger.jsonl) — Raw data
-- `python scripts/compute_ledger_summary.py -u grace-mar` — Live rollup
-- [offers.md](offers.md) — Business-layer offers
-- [positioning-governed-state-os.md](positioning-governed-state-os.md) — Strategic framing
+- [economic-benchmarks.md](economic-benchmarks.md) â€” Integration cost instrumentation
+- [compute-ledger.jsonl](../../../compute-ledger.jsonl) â€” Raw data
+- `python scripts/compute_ledger_summary.py -u grace-mar` â€” Live rollup
+- [offers.md](offers.md) â€” Business-layer offers
+- [positioning-governed-state-os.md](positioning-governed-state-os.md) â€” Strategic framing
 
 ---
 
@@ -125,3 +125,4 @@ The system is extremely cheap to run per instance. The cost bottleneck is operat
 | Date | Change |
 |------|--------|
 | 2026-04-06 | Initial draft from 96-row ledger (45 days of data). |
+

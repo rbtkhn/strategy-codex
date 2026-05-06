@@ -81,14 +81,14 @@ If the transcript file is **absent**, rely on visible thread + disk only.
 
 Resolve **`<id>`** from the instance (default **`grace-mar`** in this repo). Read (do not ask — just read):
 
-1. **`users/<id>/self-memory.md`** — pointers, open loops, calibrations
-2. **`users/<id>/recursion-gate.md`** — pending candidates (ids, summaries; **do not** merge)
-3. **`users/<id>/last-dream.json`** — last dream summary (hints only)
+1. **`self-memory.md`** — pointers, open loops, calibrations
+2. **`recursion-gate.md`** — pending candidates (ids, summaries; **do not** merge)
+3. **`last-dream.json`** — last dream summary (hints only)
 4. **`docs/skill-work/work-coffee/work-coffee-history.md`**
 5. **`docs/skill-work/work-dream/work-dream-history.md`**
 6. **`docs/skill-work/work-politics/work-politics-history.md`** — if present
 7. **`docs/skill-work/work-dev/work-dev-history.md`** — if present
-8. **`users/<id>/session-transcript.md`** — if **missing**, skip. If **present**, read per **Thread depth and honesty** (default **tail 200 lines**; **deep** = full file or last 500 if huge).
+8. **`session-transcript.md`** — if **missing**, skip. If **present**, read per **Thread depth and honesty** (default **tail 200 lines**; **deep** = full file or last 500 if huge).
 
 Also run in **this** repo:
 

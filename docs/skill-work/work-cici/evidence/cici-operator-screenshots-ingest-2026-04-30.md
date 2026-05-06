@@ -18,11 +18,11 @@ The 2026-04-24 screenshot captures a Cici repo thread about adding/refining a ja
 
 Observed points from the screenshot:
 
-- The assistant checks repository state before changes and notes `scripts/janitor/` and `users/cici/governed-state/operations/` did not initially exist.
+- The assistant checks repository state before changes and notes `scripts/janitor/` and `cici/governed-state/operations/` did not initially exist.
 - The safety model distinguishes governed persistent state from transient operational data.
 - A "governed first, delete second" rule is articulated: preserve rows tagged as governed/persistent/unknown and delete only records explicitly tagged transient.
 - A dry-run mode is introduced before live delete behavior.
-- The thread references `scripts/janitor/purge_transient.py` and `users/cici/governed-state/operations/janitor-spec.md`.
+- The thread references `scripts/janitor/purge_transient.py` and `cici/governed-state/operations/janitor-spec.md`.
 - The assistant states the files were committed/pushed to a branch and later describes the dry-run behavior: list candidate rows and require `--execute` for real deletion.
 - Safety rationale: Git remains the source of truth for doctrine/specs; Supabase is treated as operational runtime state.
 

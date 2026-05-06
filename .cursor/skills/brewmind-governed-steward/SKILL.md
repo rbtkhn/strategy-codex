@@ -28,7 +28,7 @@ description: "BrewMind × Cici: route business facts through evidence → prepar
 |---------------|-----------------|-------------------------|
 | Raw note, screenshot, call log, “someone said …” | `evidence/` | Summarize in `prepared-context/` when decision-ready |
 | Pricing, hours, partner terms, public promise, membership rules | **Never** only chat | **`proposals/queue/`** JSON + schema — owner reviews |
-| Approved durable business fact | `users/cici/governed-state/` (per authority map) | Only **after** explicit approve + validate |
+| Approved durable business fact | `cici/governed-state/` (per authority map) | Only **after** explicit approve + validate |
 
 **Supabase / MCP “thoughts”** = **operational memory**. **Git governed state** = **durable, reviewable business record** in-repo. Promote on purpose; do not duplicate blindly.
 

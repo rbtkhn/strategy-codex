@@ -39,7 +39,7 @@ These are **different slices**; the carry harness does not replace observability
 - Expected artifact paths exist?
 - For Markdown/text artifacts: **word count** ≥ **50** (heuristic for “non-trivial”)?
 - If `--gate-snippet` was passed: snippet non-empty?
-- Output receipt path **not** under forbidden canonical roots (`users/**`, specific `bot/` files)?
+- Output receipt path **not** under forbidden canonical roots (`**`, specific `bot/` files)?
 - This script **never** writes to Record surfaces or `recursion-gate.md`; it may include **gate-ready paste text inside the receipt only** as captured from your snippet file.
 
 ---
@@ -49,7 +49,7 @@ These are **different slices**; the carry harness does not replace observability
 - Prove strategic correctness or falsify geopolitical claims.
 - Merge, approve, or stage `RECURSION-GATE` candidates.
 - Call an LLM or the network.
-- Replace [`scripts/emit_work_strategy_gate_paste_snippet.py`](../../../scripts/emit_work_strategy_gate_paste_snippet.py) (that script may write **staging** paste files under `users/` when **you** run it operator-side).
+- Replace [`scripts/emit_work_strategy_gate_paste_snippet.py`](../../../scripts/emit_work_strategy_gate_paste_snippet.py) (that script may write **staging** paste files under `` when **you** run it operator-side).
 
 ---
 

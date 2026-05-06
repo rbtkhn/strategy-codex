@@ -1,4 +1,4 @@
-Grace-Mar routing and source notes for this repository.
+﻿Grace-Mar routing and source notes for this repository.
 
 ## Routing
 
@@ -23,7 +23,7 @@ Use these as source lanes:
 ## Approval Boundary
 
 - Approval memos are WORK artifacts by default.
-- Do not edit `users/grace-mar/recursion-gate.md` directly.
+- Do not edit `recursion-gate.md` directly.
 - Do not edit Record files from this skill.
 - If the operator asks to stage something, prepare a draft for the normal Grace-Mar gate process; do not merge.
 
@@ -35,3 +35,4 @@ For a standard invocation, produce:
 2. Top 3 opportunity briefs,
 3. one recommended operator move,
 4. no more than one optional follow-up question.
+

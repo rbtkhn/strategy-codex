@@ -1,21 +1,21 @@
-# Bookshelf runbook (History Notebook)
+﻿# Bookshelf runbook (History Notebook)
 
-**WORK only;** not Record. This runbook describes **Bookshelf** (collection name: **self-library-bookshelf**) — the **title-level seed catalog** (`bookshelf-catalog.yaml`) for the operator’s physical library (target ~500 works) that **informs** [History Notebook](../README.md) chapter drafting. **Human overview (Bookshelf vs operator books):** [BOOKSHELF.md](BOOKSHELF.md). **Self-library container:** [LIB-0158 — Bookshelf](../../../../users/grace-mar/self-library.md#bookshelf) (owned print catalog — separate from [LIB-0156](../../../../users/grace-mar/self-library.md#operator-analytical-books) operator-authored chapters). It does **not** replace:
+**WORK only;** not Record. This runbook describes **Bookshelf** (collection name: **self-library-bookshelf**) â€” the **title-level seed catalog** (`bookshelf-catalog.yaml`) for the operatorâ€™s physical library (target ~500 works) that **informs** [History Notebook](../README.md) chapter drafting. **Human overview (Bookshelf vs operator books):** [BOOKSHELF.md](BOOKSHELF.md). **Self-library container:** [LIB-0158 â€” Bookshelf](../../../../self-library.md#bookshelf) (owned print catalog â€” separate from [LIB-0156](../../../../self-library.md#operator-analytical-books) operator-authored chapters). It does **not** replace:
 
-- [`book-architecture.yaml`](../book-architecture.yaml) — chapter SSOT  
-- [`cross-book-map.yaml`](../cross-book-map.yaml) — Predictive History ↔ HN coverage truth  
-- [`STATUS.md`](../STATUS.md) — **distillation queue** for the **next `hn-*` chapters to draft**
+- [`book-architecture.yaml`](../book-architecture.yaml) â€” chapter SSOT  
+- [`cross-book-map.yaml`](../cross-book-map.yaml) â€” Predictive History â†” HN coverage truth  
+- [`STATUS.md`](../STATUS.md) â€” **distillation queue** for the **next `hn-*` chapters to draft**
 
 ## What the Bookshelf files are
 
 | Artifact | Role |
 |----------|------|
-| [`bookshelf-catalog.yaml`](bookshelf-catalog.yaml) | Bibliographic rows (`HNSRC-*`), **era** (+ optional **eras**), optional hints to `hn-*` and PH — **planning shelf** |
-| [VOL-I-LIBRARY-SCAFFOLD.md](VOL-I-LIBRARY-SCAFFOLD.md) | Vol I only: **chapter × shelf** matrix + gap notes (drafting aid; not chapter SSOT) |
-| **HN chapters** (`chapters/`, `hn-*`) | Operator-distilled ~500–1000w prose — **deliverable** |
+| [`bookshelf-catalog.yaml`](bookshelf-catalog.yaml) | Bibliographic rows (`HNSRC-*`), **era** (+ optional **eras**), optional hints to `hn-*` and PH â€” **planning shelf** |
+| [VOL-I-LIBRARY-SCAFFOLD.md](VOL-I-LIBRARY-SCAFFOLD.md) | Vol I only: **chapter Ã— shelf** matrix + gap notes (drafting aid; not chapter SSOT) |
+| **HN chapters** (`chapters/`, `hn-*`) | Operator-distilled ~500â€“1000w prose â€” **deliverable** |
 | **STATUS.md** | Single queue for **which chapter to write next**; link from strategy-notebook `meta.md` |
 
-**Rule:** Catalog rows **do not** automatically update `cross-book-map.yaml`. When a thesis/concept row moves toward `partial` / `full`, follow [STATUS.md § Coverage coupling](../STATUS.md) and the [README PH wiring checklist](../README.md#ph-wiring--addresses-all-of-jiangs-theories).
+**Rule:** Catalog rows **do not** automatically update `cross-book-map.yaml`. When a thesis/concept row moves toward `partial` / `full`, follow [STATUS.md Â§ Coverage coupling](../STATUS.md) and the [README PH wiring checklist](../README.md#ph-wiring--addresses-all-of-jiangs-theories).
 
 ## Era upload order
 
@@ -23,7 +23,7 @@ Process the shelf in this **fixed sequence** (batches of **five titles** within 
 
 1. **ancient**
 2. **medieval**
-3. **colonial** (operator label; maps mainly to early modern / maritime–colonial themes in Vol III)
+3. **colonial** (operator label; maps mainly to early modern / maritimeâ€“colonial themes in Vol III)
 4. **industrial**
 5. **modern**
 
@@ -35,29 +35,29 @@ Process the shelf in this **fixed sequence** (batches of **five titles** within 
 | `industrial` | `vol-iv` |
 | `modern` | `vol-v` |
 
-**Multiple temporal categories:** When a work **logically belongs** in more than one bucket (e.g. Gibbon’s narrative spans late antiquity and medieval Europe), set **`eras`** to the full list and keep **`era`** as the **primary** bucket (upload order, default shelf file). Example: `era: medieval` + `eras: [ancient, medieval]`. Omit **`eras`** when a single category is enough.
+**Multiple temporal categories:** When a work **logically belongs** in more than one bucket (e.g. Gibbonâ€™s narrative spans late antiquity and medieval Europe), set **`eras`** to the full list and keep **`era`** as the **primary** bucket (upload order, default shelf file). Example: `era: medieval` + `eras: [ancient, medieval]`. Omit **`eras`** when a single category is enough.
 
 ### Era boundaries (Bookshelf rule)
 
-**Year labels:** use **BC** and **AD** (traditional system), not BCE or CE — see [STYLE-GUIDE § Dating](../STYLE-GUIDE.md#dating-years).
+**Year labels:** use **BC** and **AD** (traditional system), not BCE or CE â€” see [STYLE-GUIDE Â§ Dating](../STYLE-GUIDE.md#dating-years).
 
-**`ancient` ends with the fall of the Roman Empire in the West** (traditional **~476 AD**). Works whose main subject is **late Roman decline, the fall itself, or the last generations of the Western imperial order** stay **`era: ancient`** — they close the ancient arc; they are not “misplaced” medieval.
+**`ancient` ends with the fall of the Roman Empire in the West** (traditional **~476 AD**). Works whose main subject is **late Roman decline, the fall itself, or the last generations of the Western imperial order** stay **`era: ancient`** â€” they close the ancient arc; they are not â€œmisplacedâ€ medieval.
 
-**`medieval`** begins with the **post-476 AD** formations and parallel stories you shelve next (e.g. Ostrogothic Italy, Byzantine empire as medieval frame, Islamic expansion, medieval church and states — aligned to History Notebook Vol II and your upload order).
+**`medieval`** begins with the **post-476 AD** formations and parallel stories you shelve next (e.g. Ostrogothic Italy, Byzantine empire as medieval frame, Islamic expansion, medieval church and states â€” aligned to History Notebook Vol II and your upload order).
 
-**`medieval` ends with the fall of Constantinople** (traditional **1453 AD**), matching [History Notebook Vol II](../README.md) (476 AD–1453 AD). Works centered on **late Byzantine** or the **1453** transition may use **`eras: [medieval, colonial]`** (or **`notes`**) when the narrative runs into early modern **Ottoman** or maritime Europe — pick primary **`era`** for shelf sort.
+**`medieval` ends with the fall of Constantinople** (traditional **1453 AD**), matching [History Notebook Vol II](../README.md) (476 ADâ€“1453 AD). Works centered on **late Byzantine** or the **1453** transition may use **`eras: [medieval, colonial]`** (or **`notes`**) when the narrative runs into early modern **Ottoman** or maritime Europe â€” pick primary **`era`** for shelf sort.
 
-**`colonial`** (operator label → Vol III) picks up **post-1453** maritime–colonial themes for this book; use **`notes`** when a title straddles 1453.
+**`colonial`** (operator label â†’ Vol III) picks up **post-1453** maritimeâ€“colonial themes for this book; use **`notes`** when a title straddles 1453.
 
-**`colonial` ends** with the **Congress of Vienna** settlement (traditional **1815 AD**), matching [History Notebook Vol III](../README.md) (1453 AD–1815 AD). Works whose narrative crosses into **industrial** war or state formation (e.g. long 18th–19th-century arcs) may use **`eras: [colonial, industrial]`** (or **`notes`**) — pick primary **`era`** for shelf sort.
+**`colonial` ends** with the **Congress of Vienna** settlement (traditional **1815 AD**), matching [History Notebook Vol III](../README.md) (1453 ADâ€“1815 AD). Works whose narrative crosses into **industrial** war or state formation (e.g. long 18thâ€“19th-century arcs) may use **`eras: [colonial, industrial]`** (or **`notes`**) â€” pick primary **`era`** for shelf sort.
 
 **`industrial`** (Vol IV) picks up **post-1815** themes for this book; use **`notes`** when a title straddles 1815.
 
-**`industrial` ends with the end of the Second World War** (traditional **1945 AD**), matching [History Notebook Vol IV](../README.md) (1815 AD–1945 AD). Works whose narrative crosses into the **modern** order (Cold War, decolonization, post-1945 institutions) may use **`eras: [industrial, modern]`** (or **`notes`**) — pick primary **`era`** for shelf sort.
+**`industrial` ends with the end of the Second World War** (traditional **1945 AD**), matching [History Notebook Vol IV](../README.md) (1815 ADâ€“1945 AD). Works whose narrative crosses into the **modern** order (Cold War, decolonization, post-1945 institutions) may use **`eras: [industrial, modern]`** (or **`notes`**) â€” pick primary **`era`** for shelf sort.
 
 **`modern`** (Vol V) picks up **post-1945** themes for this book; use **`notes`** when a title straddles 1945.
 
-If a title straddles (e.g. one volume covers 400–600 AD, or 1400–1500 AD across 1453, or 1750–1850 AD across 1815, or 1930–1960 AD across 1945), set **`eras`** when multiple buckets apply; use **`notes`** for nuance; pick one **`era`** as primary for batch/sort, or split editions later.
+If a title straddles (e.g. one volume covers 400â€“600 AD, or 1400â€“1500 AD across 1453, or 1750â€“1850 AD across 1815, or 1930â€“1960 AD across 1945), set **`eras`** when multiple buckets apply; use **`notes`** for nuance; pick one **`era`** as primary for batch/sort, or split editions later.
 
 ## Per-batch workflow (five titles)
 
@@ -65,20 +65,20 @@ If a title straddles (e.g. one volume covers 400–600 AD, or 1400–1500 AD acr
 2. Add five new `items` in `bookshelf-catalog.yaml` (or paste a block for the agent to merge):
    - Next sequential `id`: `HNSRC-NNNN`.
    - Required: `title`, `author`, **`era`**.
-   - Optional: `eras`, `year`, `isbn`, `added_batch`, `tags`, `hn_volume`, `primary_arc`, `candidate_hn_chapters`, `ph_thesis_hints`, `ph_concept_hints`, `notes`, and (for formal bibliography) `cite_as`, `place`, `publisher`, `edition`, `series`, `editor`, `translator` — see YAML header in `bookshelf-catalog.yaml`.
+   - Optional: `eras`, `year`, `isbn`, `added_batch`, `tags`, `hn_volume`, `primary_arc`, `candidate_hn_chapters`, `ph_thesis_hints`, `ph_concept_hints`, `notes`, and (for formal bibliography) `cite_as`, `place`, `publisher`, `edition`, `series`, `editor`, `translator` â€” see YAML header in `bookshelf-catalog.yaml`.
 3. **Validate and refresh exports:**
    - `python3 scripts/validate_bookshelf_catalog.py` (use `--strict` in CI if wired).
-   - `python3 scripts/build_hn_bookshelf_bibliography.py` — updates [bibliography/REFERENCES-shelf-by-era.md](bibliography/REFERENCES-shelf-by-era.md) and [bibliography/REFERENCES-shelf-by-hnsrc-id.md](bibliography/REFERENCES-shelf-by-hnsrc-id.md) (CI: `--check` — [test workflow](../../../../.github/workflows/test.yml)).
-   - `python3 scripts/hn_shelf_anchors.py` — updates [SHELF-ANCHORS-BY-CHAPTER.md](SHELF-ANCHORS-BY-CHAPTER.md) (CI: `--check`). After `candidate_hn_chapters` or [book-architecture.yaml](../book-architecture.yaml) chapter list changes, run this too.
+   - `python3 scripts/build_hn_bookshelf_bibliography.py` â€” updates [bibliography/REFERENCES-shelf-by-era.md](bibliography/REFERENCES-shelf-by-era.md) and [bibliography/REFERENCES-shelf-by-hnsrc-id.md](bibliography/REFERENCES-shelf-by-hnsrc-id.md) (CI: `--check` â€” [test workflow](../../../../.github/workflows/test.yml)).
+   - `python3 scripts/hn_shelf_anchors.py` â€” updates [SHELF-ANCHORS-BY-CHAPTER.md](SHELF-ANCHORS-BY-CHAPTER.md) (CI: `--check`). After `candidate_hn_chapters` or [book-architecture.yaml](../book-architecture.yaml) chapter list changes, run this too.
    - If chapter prose/status changed, refresh agentic reports too (queue/provenance/red-team): see [AGENTIC-MVP-RUNBOOK.md](AGENTIC-MVP-RUNBOOK.md).
 4. **Within-era pass:** dedupe, cluster tags, adjust `candidate_hn_chapters` only as **planning** hints.
-5. **When an era slice feels complete:** optional short summary in this file (dated bullet) or in git commit message — not required for v1.
+5. **When an era slice feels complete:** optional short summary in this file (dated bullet) or in git commit message â€” not required for v1.
 
 ## Relation to SELF-LIBRARY (`LIB-*`)
 
-Promoting a work to the global companion library ([`docs/library-schema.md`](../../../../library-schema.md)) is **optional**. If you add a `lib_id` on a catalog row, keep `self-library.md` as SSOT for the `LIB-*` entry; the catalog row is a **History-Notebook–scoped** mirror for drafting.
+Promoting a work to the global companion library ([`docs/library-schema.md`](../../../../library-schema.md)) is **optional**. If you add a `lib_id` on a catalog row, keep `self-library.md` as SSOT for the `LIB-*` entry; the catalog row is a **History-Notebookâ€“scoped** mirror for drafting.
 
-## Phase 2 — full text (not implemented yet)
+## Phase 2 â€” full text (not implemented yet)
 
 When you upload **whole book text** (PDF, EPUB, or extracted markdown):
 
@@ -113,4 +113,5 @@ python3 scripts/validate_bookshelf_catalog.py
 python3 scripts/validate_bookshelf_catalog.py --strict
 ```
 
-Checks: unique `HNSRC-*` ids, required `era`, `candidate_hn_chapters` ⊆ `book-architecture.yaml`, duplicate `(title, author)` warnings.
+Checks: unique `HNSRC-*` ids, required `era`, `candidate_hn_chapters` âŠ† `book-architecture.yaml`, duplicate `(title, author)` warnings.
+

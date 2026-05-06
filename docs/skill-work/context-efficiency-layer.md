@@ -92,7 +92,7 @@ See **§ Multi-form retrieval (RFC)** below.
 
 **Option A — Metadata on chunks:** Extend chunking / index build to attach `surface`, `tier_hint`, or `form` so retrieval can filter or rank. Touches [`bot/retriever`](../../bot/retriever.py) (and chunk pipeline) and index build.
 
-**Option B — Sidecar summaries:** Operator-maintained or script-generated summary files under `docs/` or `users/<id>/`, keyed by source path; retrieval returns path + sidecar unless “full” requested.
+**Option B — Sidecar summaries:** Operator-maintained or script-generated summary files under `docs/` or ``, keyed by source path; retrieval returns path + sidecar unless “full” requested.
 
 **Rule:** No silent LLM summarization of Record into “truth”; provenance links required.
 

@@ -1,6 +1,6 @@
-# Moonshot program — template
+﻿# Moonshot program â€” template
 
-**WORK / staging.** Copy into `users/<id>/self-moonshots.md`, a mission folder under [`missions/`](missions/README.md), or a month folder. **Not** Record until promoted through the gate.
+**WORK / staging.** Copy into `self-moonshots.md`, a mission folder under [`missions/`](missions/README.md), or a month folder. **Not** Record until promoted through the gate.
 
 ## Header (required)
 
@@ -15,17 +15,17 @@
 
 ### Goal
 
-One paragraph: what “done” looks like (measurable where possible).
+One paragraph: what â€œdoneâ€ looks like (measurable where possible).
 
 ### Why (alignment)
 
-Why this moonshot matters — ties to **SELF** IX-B / IX-C themes without assuming merge (staging language OK).
+Why this moonshot matters â€” ties to **SELF** IX-B / IX-C themes without assuming merge (staging language OK).
 
 ### Success metrics
 
 | Metric | Target | How measured |
 |--------|--------|----------------|
-| … | … | … |
+| â€¦ | â€¦ | â€¦ |
 
 ### Failure or stop conditions
 
@@ -38,7 +38,7 @@ When you would **pause**, **pivot**, or **archive** this moonshot (concrete sign
 
 ### Baseline (optional)
 
-Where things stand today — **no** medical, legal, or financial claims without professional context; **no** fabricated numbers. If you cite **EVIDENCE**, point to **merged** `self-archive.md` entries or staged facts—nothing here **auto-merges** into EVIDENCE.
+Where things stand today â€” **no** medical, legal, or financial claims without professional context; **no** fabricated numbers. If you cite **EVIDENCE**, point to **merged** `self-archive.md` entries or staged factsâ€”nothing here **auto-merges** into EVIDENCE.
 
 ### Related WORK surfaces (optional)
 
@@ -47,16 +47,16 @@ Link-only; all **non-canonical** until promoted through the gate.
 | Kind | Where to link |
 |------|----------------|
 | Mission-scale spec | `missions/<slug>/mission-spec.md` ([mission-spec-template.md](mission-spec-template.md)) |
-| Tacit / experiments | [tacit-capture](../../tacit-capture/README.md) → normalized → candidates → mission `intake/` |
+| Tacit / experiments | [tacit-capture](../../tacit-capture/README.md) â†’ normalized â†’ candidates â†’ mission `intake/` |
 | Strategy experts (threads) | `docs/skill-work/work-strategy/strategy-notebook/experts/<name>/` (WORK; not Voice Record) |
 
-Do **not** treat helpers, bots, or “sub-agents” as bypassing **recursion-gate** or merge scripts.
+Do **not** treat helpers, bots, or â€œsub-agentsâ€ as bypassing **recursion-gate** or merge scripts.
 
 ### Experiments (n=1 loop)
 
 | Week / date | Hypothesis | Action | Result | Next |
 |-------------|------------|--------|--------|------|
-| … | … | … | … | … |
+| â€¦ | â€¦ | â€¦ | â€¦ | â€¦ |
 
 ### Cross-moonshot links (optional)
 
@@ -65,7 +65,7 @@ Do **not** treat helpers, bots, or “sub-agents” as bypassing **recursion-gat
 
 ### Operator snapshot (optional, manual)
 
-Simple table you fill by hand—**not** auto-generated Record truth.
+Simple table you fill by handâ€”**not** auto-generated Record truth.
 
 | Field | Value |
 |-------|--------|
@@ -78,9 +78,10 @@ Simple table you fill by hand—**not** auto-generated Record truth.
 When ready to merge durable lines into **SELF** or a dated line into **EVIDENCE:**
 
 1. Open **`recursion-gate.md`** with a `CANDIDATE-*` block (see [moonshot-operating-model.md](../../moonshot-operating-model.md#example-recursion-gate-block-moonshot-promotion)).
-2. Companion sets `status: approved` and runs `process_approved_candidates.py --apply` per [instance-doctrine.md](../../../users/grace-mar/instance-doctrine.md).
+2. Companion sets `status: approved` and runs `process_approved_candidates.py --apply` per [instance-doctrine.md](../../../instance-doctrine.md).
 
 ### Security / discipline
 
 - **No** API keys, passwords, or raw credentials.
 - **No** unfounded legal, medical, or financial advice; cite professional sources when load-bearing.
+

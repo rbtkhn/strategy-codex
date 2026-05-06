@@ -45,7 +45,7 @@ Evolving an OB1 deployment toward companion-self–grade governance is **increme
 
 | System | Canonical shape (relevant here) |
 |--------|----------------------------------|
-| **companion-self** | Git repo: `users/<id>/self.md`, `self-archive.md`, `recursion-gate.md`, `session-log.md`, `bot/prompt.py`, optional `self-memory.md` — **human-gated Record** in markdown. |
+| **companion-self** | Git repo: `self.md`, `self-archive.md`, `recursion-gate.md`, `session-log.md`, `bot/prompt.py`, optional `self-memory.md` — **human-gated Record** in markdown. |
 | **OB1** | **Supabase + thoughts** (and related), vector search, MCP — exports/recipes produce **portable dumps** (JSON, markdown) depending on upstream tooling. |
 
 Grace-mar already has **read-only exports** for other runtimes (`docs/openclaw-integration.md`); there is **no** current bidirectional OB1 script in this repo.
@@ -81,7 +81,7 @@ flowchart LR
 
 **Tier 1 — Export bundle + OB1-native ingest (best first ship)**
 
-- Script walks `users/<id>/`, emits deterministic files + metadata sidecars (source path, ACT-/READ- ids, git hash).
+- Script walks ``, emits deterministic files + metadata sidecars (source path, ACT-/READ- ids, git hash).
 - User runs an OB1 **recipe** (or adapted Obsidian-style importer) so embeddings stay in OB1’s pipeline.
 
 **Tier 2 — Direct Supabase insert**
@@ -134,7 +134,7 @@ flowchart LR
 **Optional — MEMORY / WORK (non-Record)**
 
 - Append to **`self-memory.md`** only per `docs/memory-template.md` (ephemeral, non-authoritative); OB1-sourced lines are **pointers**, not new SELF facts.
-- **WORK** markdown (e.g. `users/<id>/work-*.md`) can hold methodology mirrors — not Record until gated.
+- **WORK** markdown (e.g. `work-*.md`) can hold methodology mirrors — not Record until gated.
 
 **Tier 2 — Suggest EVIDENCE-shaped entries**
 
@@ -143,7 +143,7 @@ flowchart LR
 ### Governance (OB1 → CS) — non-negotiables
 
 - **Canonical truth:** **companion-self Record wins** for identity; OB1 is **source material**.
-- **Knowledge boundary:** OB1 text may include model fluff — apply the same **grounded** checklist as any candidate (`users/<id>/recursion-gate.md`).
+- **Knowledge boundary:** OB1 text may include model fluff — apply the same **grounded** checklist as any candidate (`recursion-gate.md`).
 - **No automatic loop:** No unattended OB1 ↔ git sync — avoids drift and merge pain.
 
 ---

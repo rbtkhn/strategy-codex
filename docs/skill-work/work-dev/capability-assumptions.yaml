@@ -1,4 +1,4 @@
-# Capability assumptions — rolling disruption sensor
+﻿# Capability assumptions â€” rolling disruption sensor
 #
 # Structured list of assumptions the system currently depends on.
 # detect_capability_shift.py fetches public changelogs and diffs
@@ -6,15 +6,15 @@
 # compressed a gap the system was built on.
 #
 # Two source categories:
-#   model     — LLM provider changelogs (capability shifts in the models themselves)
-#   ecosystem — frameworks, platforms, and adjacent systems (capability shifts in tooling)
+#   model     â€” LLM provider changelogs (capability shifts in the models themselves)
+#   ecosystem â€” frameworks, platforms, and adjacent systems (capability shifts in tooling)
 #
 # Usage:
 #   python scripts/detect_capability_shift.py                    # all sources
 #   python scripts/detect_capability_shift.py --category model   # model providers only
 #   python scripts/detect_capability_shift.py --category ecosystem  # frameworks only
 #
-# Read-only audit artifact — not Record truth.
+# Read-only audit artifact â€” not Record truth.
 
 sources:
   # --- Model providers ---
@@ -104,10 +104,10 @@ assumptions:
   - id: ASSUME-004
     assumption: "Models hallucinate frequently enough that a human gate is required for Record integrity"
     keywords: ["hallucination", "factual accuracy", "grounding", "faithful", "reliability", "truthful"]
-    affects: ["users/grace-mar/recursion-gate.md", "docs/identity-fork-protocol.md"]
+    affects: ["recursion-gate.md", "docs/identity-fork-protocol.md"]
     gap_ids: []
     last_validated: 2026-04-07
-    notes: "The gated pipeline (stage → approve → merge) exists partly because models invent facts. If hallucination rates drop to near-zero with citations, the gate UX could loosen (but companion sovereignty remains)."
+    notes: "The gated pipeline (stage â†’ approve â†’ merge) exists partly because models invent facts. If hallucination rates drop to near-zero with citations, the gate UX could loosen (but companion sovereignty remains)."
 
   - id: ASSUME-005
     assumption: "No model offers built-in structured knowledge management with version control"
@@ -189,7 +189,7 @@ assumptions:
     affects: ["docs/architecture.md", "bridges/"]
     gap_ids: []
     last_validated: 2026-04-07
-    notes: "GroupChat-as-auditable-tool is deferred because AutoGen/CrewAI pull heavy transitive dependencies. If a framework ships stdlib-only multi-agent, or a model provider builds agent teams into the API itself, revisit the deferral. Scion (GoogleCloudPlatform/scion) takes a container-isolation approach (Go binary, git worktrees, no Python deps) — different axis than framework deps but relevant if container-based agent isolation becomes standard."
+    notes: "GroupChat-as-auditable-tool is deferred because AutoGen/CrewAI pull heavy transitive dependencies. If a framework ships stdlib-only multi-agent, or a model provider builds agent teams into the API itself, revisit the deferral. Scion (GoogleCloudPlatform/scion) takes a container-isolation approach (Go binary, git worktrees, no Python deps) â€” different axis than framework deps but relevant if container-based agent isolation becomes standard."
 
   - id: ASSUME-014
     assumption: "Model abstention behavior on out-of-scope queries is stable across versions"
@@ -215,3 +215,4 @@ assumptions:
     gap_ids: []
     last_validated: 2026-04-15
     notes: "Labs now ship vertical variants (e.g. GPT-5.4-Cyber, Anthropic Mythos) with different safety profiles. Grace-mar uses the general API model; if the provider routes traffic to a variant or changes the default, boundary behavior may shift. Track variant announcements via the detector; run boundary regression when a variant matches the provider grace-mar depends on."
+

@@ -4,7 +4,7 @@
 
 Work-jiang-only changes should carry GitHub label **`lane/work-jiang`**. Same mechanics as other lanes: see [.github/pull_request_template.md](../../../.github/pull_request_template.md).
 
-If a PR touches **both** this lane and companion Record paths (e.g. `users/**`, `bot/prompt.py`) or work-dev integration paths, add **`lane/cross`** and a non-empty **Cross-lane justification** in the PR body.
+If a PR touches **both** this lane and companion Record paths (e.g. `**`, `bot/prompt.py`) or work-dev integration paths, add **`lane/cross`** and a non-empty **Cross-lane justification** in the PR body.
 
 ## What “strict gate parsing” applies to
 
@@ -23,7 +23,7 @@ See [`scripts/gate_block_parser.py`](../../../scripts/gate_block_parser.py) (sha
 
 ## Optional JSON sidecars
 
-`users/<id>/gate-staging/*.json` sidecars are produced when the **bot / handback** stages with the canonical shape. They are **gitignored** and are not emitted by work-jiang transcript tooling unless you stage through that path.
+`gate-staging/*.json` sidecars are produced when the **bot / handback** stages with the canonical shape. They are **gitignored** and are not emitted by work-jiang transcript tooling unless you stage through that path.
 
 ## Summary
 

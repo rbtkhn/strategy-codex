@@ -16,7 +16,7 @@
 
 - `README.md`, `INDEX.md`, `LANES.md`, and `SYNC-DAILY.md` are Cici-first with explicit **Legacy note: formerly Xavier** fencing.
 - Remaining `Xavier` mentions in the first-wave set are classified as:
-  - legacy continuity labels (`work-xavier`, template path `users/xavier/`)
+  - legacy continuity labels (`work-xavier`, template path `xavier/`)
   - immutable historical audit references in `POST-RENAME-AUDIT.md`
   - compatibility names for scripts/files that remain intentionally unchanged
 
@@ -28,7 +28,7 @@
 
 | Category | Examples | Status |
 |---|---|---|
-| Legacy continuity labels | `work-xavier`, `users/xavier/`, `formerly Xavier` | Allowed |
+| Legacy continuity labels | `work-xavier`, `xavier/`, `formerly Xavier` | Allowed |
 | Compatibility filenames | `xavier-instance-two-step.md`, `build_xavier_handbook_bundle.py` | Allowed |
 | Historical audits/logs | `POST-RENAME-AUDIT.md` table and validation notes | Allowed |
 | Immutable evidence/source names | external handles/titles, archived captures | Allowed |

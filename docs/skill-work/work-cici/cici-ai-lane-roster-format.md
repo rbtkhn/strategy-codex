@@ -50,6 +50,8 @@ Members may contribute to more than one lane. The roster should make that easy t
 
 Lane assignments above are provisional contribution lanes, not permanent roles. They reflect current repo signals and can move as members contribute.
 
+Current operating sequence: members first build their own OB1 instance with GitHub-visible progress, then the cohort opens a shared `cici-ai` OB1 instance for collective use, and after that the project produces a public-use `cici-ai` variation calibrated for the Philippines first and adaptable elsewhere.
+
 ---
 
 ## Suggested status flow

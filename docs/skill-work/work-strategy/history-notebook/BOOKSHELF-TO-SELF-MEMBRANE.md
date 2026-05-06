@@ -1,4 +1,4 @@
-# Bookshelf to Self-Knowledge Membrane
+﻿# Bookshelf to Self-Knowledge Membrane
 
 WORK-only implementation contract for promoting validated bookshelf signals into draft Record candidates.
 
@@ -30,7 +30,7 @@ This membrane is integrated into `coffee` as a fixed branch under `E` (system ch
   - work artifact report
   - draft candidate blocks (pending; not auto-inserted in gate)
 - Prohibited:
-  - direct writes to `users/grace-mar/recursion-gate.md` unless explicitly requested
+  - direct writes to `recursion-gate.md` unless explicitly requested
   - any direct merge into `self.md`, `self-archive.md`, or prompt files
 
 ## Tier Rules
@@ -104,3 +104,4 @@ python3 scripts/build_bookshelf_membrane_candidates.py --responses-file docs/ski
 
 - Narnia/boxed-set and other edition-ambiguous holdings may be used for quiz context but should not receive bibliographic certainty claims unless edition identity is confirmed.
 - Membrane output is advisory-to-gate, never a substitute for companion approval.
+

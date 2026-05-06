@@ -18,7 +18,7 @@ Open Brain here means the common pattern: **capture → embed → retrieve** (e.
 | **Who owns “truth”** | You; database is **source** for captured rows | **Companion** (human) via **approval**; SELF is authoritative | **Operator** rotatable prose; **loses** to SELF if they conflict | **Operator**; not identity truth |
 | **How something becomes official** | Insert / capture pipeline (config + keys) | **Stage** → **`recursion-gate.md`** → **approve** → merge script (SELF, EVIDENCE, prompt, etc.) | Write in MEMORY file; **never** bypasses gate into SELF | Commit WORK markdown; **no** automatic promotion to Record |
 | **How AI is supposed to use it** | **Tools** (MCP) **search** and **add** rows | **Voice** **reads** merged profile; **abstains** outside boundary; lookup when offered | **Continuity** for sessions — not a fact source for identity | **Assistants** draft; **stage** to gate — **not** merge |
-| **Typical mistake** | Assuming **retrieval rank** = **importance** or **consent** | **Hand-editing** `self.md` or skipping gate | Treating MEMORY as **substitute Record** | Pasting **instance A** `users/` into **instance B** |
+| **Typical mistake** | Assuming **retrieval rank** = **importance** or **consent** | **Hand-editing** `self.md` or skipping gate | Treating MEMORY as **substitute Record** | Pasting **instance A** `` into **instance B** |
 | **Tooling seat (optional)** | MCP server + client connectors | **Voice** (emulation) + **bot** prompts; merge **scripts** | N/A | **Cursor / work agents** — [AGENTS.md](../../../AGENTS.md) “WORK execution layer” vs triad |
 
 ---
@@ -51,7 +51,7 @@ If you are used to “everything searchable is fair game for the model,” **pau
 - Do **not** treat **embedding similarity** or **RAG** hits as **consent** to merge **facts** or **personality** into the Record.
 - Do **not** **replace** the **recursion gate** with “the AI **remembered** it from a vector database.”
 - Do **not** connect **MCP**, **Cursor**, or other tools to **silent writes** into **SELF**, **EVIDENCE**, or **`bot/prompt.py`** — use staging + companion-approved merge per [AGENTS.md](../../../AGENTS.md).
-- Do **not** **copy** another instance’s **`users/<id>/`** tree into yours (e.g. grace-mar into a new companion). See [LEAKAGE-CHECKLIST.md](../work-cici/LEAKAGE-CHECKLIST.md) for advisor-side wording.
+- Do **not** **copy** another instance’s **``** tree into yours (e.g. grace-mar into a new companion). See [LEAKAGE-CHECKLIST.md](../work-cici/LEAKAGE-CHECKLIST.md) for advisor-side wording.
 
 ---
 

@@ -1,4 +1,4 @@
-# Continuity Observability
+﻿# Continuity Observability
 
 **Status:** WORK / runtime observability. **Not** Record. **Not** EVIDENCE. **Not** merge authority.
 
@@ -22,10 +22,10 @@ The exporter reads the local JSONL feed and writes a derived Markdown summary fo
 
 The export path does not touch:
 
-- `users/grace-mar/self.md`
-- `users/grace-mar/self-archive.md`
-- `users/grace-mar/recursion-gate.md`
-- `users/grace-mar/session-log.md`
+- `self.md`
+- `self-archive.md`
+- `recursion-gate.md`
+- `session-log.md`
 - `bot/prompt.py`
 
 ## Retention
@@ -41,3 +41,4 @@ Treat continuity event logging as stronger than local residue only after one of 
 - a dashboard or receipt family that consumes the export without changing Record authority
 
 Until then, the status remains `partial`.
+

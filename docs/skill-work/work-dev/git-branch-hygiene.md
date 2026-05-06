@@ -47,6 +47,8 @@ If you are unsure, the **prescription** is: **one sentence** — “No action,�
 
 ---
 
+**Local Git writes:** `git add`, `git commit`, `git switch`, and `git branch` are normal local hygiene steps; `git push` remains a separate publish action and should stay manual/separately approved.
+
 ## See also
 
 - [session-continuity-contract.md](session-continuity-contract.md) — continuity is not agent memory.

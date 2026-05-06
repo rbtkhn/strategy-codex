@@ -57,7 +57,7 @@ Use [README](README.md) for narrative order; this table is a flat lookup.
 | [work-cici-sources.md](work-cici-sources.md) | Authorized sources index (feeds, URLs, pointers — [principle](../work-modules-sources-principle.md)) |
 | [LANE-CI.md](LANE-CI.md) | PR label `lane/work-cici`, cross-lane + gate notes, [drift guard](LANE-CI.md#drift-guard) |
 | [WORK-LEDGER.md](WORK-LEDGER.md) | Compounding watches + [**medium-term roadmap** (§ II-B)](WORK-LEDGER.md#ii-b-medium-term-roadmap) + pointers ([work-template](../work-template/WORK-LEDGER.md) scaffold) |
-| [INSTANCE-PATHS.md](INSTANCE-PATHS.md) | Where her `users/xavier/` and seed survey live (**not** in grace-mar) |
+| [INSTANCE-PATHS.md](INSTANCE-PATHS.md) | Where her `xavier/` and seed survey live (**not** in grace-mar) |
 | [xavier-instance-two-step.md](xavier-instance-two-step.md) | **Instance checklist:** template → clone → Claude Code; then Seed Phase + validation (with operator) |
 | [SEED-MANIFEST.md](SEED-MANIFEST.md) | What ships where (grace-mar mirror vs her `companion-xavier` repo) |
 | [LEAKAGE-CHECKLIST.md](LEAKAGE-CHECKLIST.md) | Pre-merge / handoff checks (no grace-mar Record in her tree) |
@@ -101,5 +101,5 @@ Use [README](README.md) for narrative order; this table is a flat lookup.
 | [brewmind-market-research-philippines-ai-content.md](brewmind-market-research-philippines-ai-content.md) | PH internet AI narrative: policy, BPO, social, courses; gaps vs BrewMind |
 | [brewmind-partner-survey-restaurants.md](brewmind-partner-survey-restaurants.md) | F&B field: **5 verbal questions** + pamphlet; relationship-first (companion + BrewMind) |
 | [brewmind-b2b-prospects.md](brewmind-b2b-prospects.md) | B2B prospect worksheet (verified pipeline table + unverified Claude appendix) |
-| **Her instance (external repo)** | Seed survey, `users/xavier/`, gate — **not** paths inside grace-mar; create from [companion-self](https://github.com/rbtkhn/companion-self) |
+| **Her instance (external repo)** | Seed survey, `xavier/`, gate — **not** paths inside grace-mar; create from [companion-self](https://github.com/rbtkhn/companion-self) |
 | **Business intake** [../work-business/xavier/README.md](../work-business/xavier/README.md) | WORK-only starter pack in grace-mar |

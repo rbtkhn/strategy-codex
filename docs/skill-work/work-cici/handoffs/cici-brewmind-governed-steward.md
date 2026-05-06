@@ -36,7 +36,7 @@ BrewMind business facts: route through evidence → proposals → governed state
 |---------------|-----------------|-------------------------|
 | Raw note, screenshot, call log, “someone said …” | `evidence/` | Summarize in `prepared-context/` when decision-ready |
 | Pricing, hours, partner terms, public promise, membership rules | **Never** only chat | **`proposals/queue/`** JSON + schema — you review |
-| Approved durable business fact | `users/cici/governed-state/` (per authority map) | Only **after** explicit approve + validate |
+| Approved durable business fact | `cici/governed-state/` (per authority map) | Only **after** explicit approve + validate |
 
 **Supabase / MCP “thoughts”** = **operational memory**. **Git governed state** = **durable** in-repo record. Promote on purpose; do not duplicate blindly.
 

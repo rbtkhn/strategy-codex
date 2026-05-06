@@ -23,7 +23,7 @@ Text extracted with `textutil -convert txt` on macOS; RTF preserved.
 **Executed in session:**
 
 1. Draft proposal **`prop-20260421-001-source-priority-policy`** → queue JSON.  
-2. User **approve** → promote → **`users/cici/governed-state/source-priority/policy.json`** (tier definitions, hierarchy, conflict rules, agent obligations); surface **stub → active**; event `evt-20260421-001`.  
+2. User **approve** → promote → **`cici/governed-state/source-priority/policy.json`** (tier definitions, hierarchy, conflict rules, agent obligations); surface **stub → active**; event `evt-20260421-001`.  
 3. Branch **`claude/plan-next-feature-bxJXH`** — direct push to **`main`** blocked by **branch protection** → **PR #3** opened → user **squash-merge** → **`4dba0f3`**.
 
 **Related commits on `main` after the merge (per API, newer first):**

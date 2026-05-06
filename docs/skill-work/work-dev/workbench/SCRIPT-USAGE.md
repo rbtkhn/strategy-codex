@@ -46,7 +46,7 @@ On success, stdout prints `ok: workbench receipt is valid` and the process exits
 ## What these scripts are not
 
 - **Not** gate automation — no YAML candidates, no `process_approved_candidates`.
-- **Not** EVIDENCE or SELF — receipts stay in `artifacts/…` or a path you choose with `--output` (the generator refuses to write to `users/**/self.md`, `self-archive.md`, `self-library.md`, or `recursion-gate.md` by basename).
+- **Not** EVIDENCE or SELF — receipts stay in `artifacts/…` or a path you choose with `--output` (the generator refuses to write to `self.md`, `self-archive.md`, `self-library.md`, or `recursion-gate.md` by basename).
 
 ## Also see
 

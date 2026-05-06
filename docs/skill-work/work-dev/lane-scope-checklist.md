@@ -1,4 +1,4 @@
-# Work-Dev Lane Scope Checklist
+﻿# Work-Dev Lane Scope Checklist
 
 Use this before opening a PR or committing in `work-dev` lane.
 
@@ -15,7 +15,7 @@ Use this before opening a PR or committing in `work-dev` lane.
 - Run targeted tests for changed `work-dev` scripts/docs.
 - Mechanical check (see repo root [`lanes.yaml`](../../../lanes.yaml)):
   - `python scripts/check_lane_scope.py --lane work-dev --diff origin/main...HEAD`
-  - Override only with `--allow-cross-lane --justification "…"`.
+  - Override only with `--allow-cross-lane --justification "â€¦"`.
 - Infer lane from paths: `python scripts/infer_lane_from_paths.py path1 path2`
 
 ## Path ownership hints
@@ -30,7 +30,7 @@ Typical `work-dev` paths:
 Potential cross-lane bleed to watch:
 
 - `research/external/work-jiang/`
-- `users/grace-mar/work-jiang.md`
+- `work-jiang.md`
 - `scripts/work_jiang/`
 
 ## Commit hygiene
@@ -38,3 +38,4 @@ Potential cross-lane bleed to watch:
 - Use a lane-scoped commit title (example: `work-dev: ...`).
 - In commit body, name any intentional cross-lane exceptions explicitly.
 - If cross-lane changes appear accidentally, unstage and split before commit.
+

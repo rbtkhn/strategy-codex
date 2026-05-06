@@ -25,7 +25,7 @@ Index (tri-frame expert bundles): [`docs/skill-work/work-strategy/minds/README.m
 ### 1.2 `skill-strategy` (strategy pass)
 
 - **Skill:** `.cursor/skills/skill-strategy/SKILL.md` — trigger: **`strategy`**, **`strategy pass`**, **`work-strategy`**.
-- **Primary write surface:** `docs/skill-work/work-strategy/strategy-notebook/` — knots (`chapters/YYYY-MM/knots/strategy-notebook-knot-*.md`) are the atomic pages; `days.md` tracks chronology and continuity (+ `meta.md` for month-level theme).
+- **Primary write surface:** `docs/skill-work/work-strategy/strategy-notebook/` — pages (`chapters/YYYY-MM/pages/strategy-notebook-page-*.md`) are the atomic units; `days.md` tracks chronology and continuity (+ `meta.md` for month-level theme).
 - **Architecture:** `docs/skill-work/work-strategy/strategy-notebook/STRATEGY-NOTEBOOK-ARCHITECTURE.md` — Chronicle / Reflection / References / Foresight / optional verify, PH **`### Jiang resonance`**, weak-signal discipline, cross-artifact alignment (planes / lenses).
 - **Promotion:** `STRATEGY.md` only when arcs **stabilize** (not every day).
 
@@ -97,3 +97,5 @@ Your brainstorm should **elaborate and extend** this — new combinations, clear
 **End of prompt.** Return your brainstorm to the operator in whatever channel they specified; if committing to the repo, prefer a dated note under `docs/skill-work/work-strategy/` or an append to `strategy-notebook/chapters/YYYY-MM/days.md` only when the operator asks.
 
 **Consolidated pattern note (repo):** [MINDS-SKILL-STRATEGY-PATTERNS.md](MINDS-SKILL-STRATEGY-PATTERNS.md) — v1 advisory manual derived from brainstorms; extend that file rather than duplicating long pattern prose here.
+
+

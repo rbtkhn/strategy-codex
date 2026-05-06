@@ -1,12 +1,12 @@
-# WORK-LEDGER — work-dev
+﻿# WORK-LEDGER â€” work-dev
 
-**Status:** WORK only — optional **judgment / compounding** layer.  
+**Status:** WORK only â€” optional **judgment / compounding** layer.  
 **Scaffold source:** [work-template/WORK-LEDGER.md](../work-template/WORK-LEDGER.md).  
 **Canonical operator surface:** [workspace.md](workspace.md) stays first for day-to-day state and next actions.
 
 **Rule:** Additive-first. Do not silently rewrite durable lane memory. Preserve contradictions, revisions, and retirements explicitly.
 
-**Governance — §V vs II-A / III-A / IV:** Treat **II-A**, **III-A**, and **IV** as systems of record for those entry types. Use **§V** only as a sparse changelog (pointers, dates, why) — do not duplicate full watch rows in II-A and V.
+**Governance â€” Â§V vs II-A / III-A / IV:** Treat **II-A**, **III-A**, and **IV** as systems of record for those entry types. Use **Â§V** only as a sparse changelog (pointers, dates, why) â€” do not duplicate full watch rows in II-A and V.
 
 **Not:** Record truth; not a substitute for [INTEGRATION-PROGRAM.md](INTEGRATION-PROGRAM.md), [openclaw-integration.md](../../openclaw-integration.md), or the companion gate. Promotion to SELF / EVIDENCE / prompt only via **RECURSION-GATE** + companion approval + merge script per [AGENTS.md](../../AGENTS.md).
 
@@ -17,17 +17,17 @@
 ### Territory identity
 
 - **Lane name:** work-dev  
-- **Purpose:** Connect Grace-Mar (Record + Voice) with OpenClaw — identity export, session continuity, handback, **stage-only** automation — companion always gate.  
+- **Purpose:** Connect Grace-Mar (Record + Voice) with OpenClaw â€” identity export, session continuity, handback, **stage-only** automation â€” companion always gate.  
 - **Primary operator use-case:** Integration health, export/handback rhythm, portability vs vendor lock-in for documented identity.  
 - **Boundary summary:** OpenClaw may **stage**; it must **not merge** into the Record. Companion sovereignty is non-negotiable. See [README.md](README.md) **Invariant** and **Principles**.  
-- **Promotion gate:** `users/grace-mar/recursion-gate.md` for anything crossing into Record/Voice; lane docs are git/PR workflow unless a milestone is explicitly gated (see README).
+- **Promotion gate:** `recursion-gate.md` for anything crossing into Record/Voice; lane docs are git/PR workflow unless a milestone is explicitly gated (see README).
 
 ### Decision style
 
 - **Default mode:** Spec- and contract-first ([INTEGRATION-PROGRAM.md](INTEGRATION-PROGRAM.md), [session-continuity-contract.md](session-continuity-contract.md)).  
 - **Preferred synthesis style:** Pointer-heavy; long doctrine stays in linked files.  
-- **Escalation threshold:** When integration state diverges from docs — refresh [integration-status.md](integration-status.md) / [known-gaps.md](known-gaps.md) or [workspace.md](workspace.md).  
-- **Known failure modes:** Draft-as-truth, silent merge assumptions, treating OpenClaw memory as authoritative over the gated Record — see [three-compounding-loops.md](three-compounding-loops.md).
+- **Escalation threshold:** When integration state diverges from docs â€” refresh [integration-status.md](integration-status.md) / [known-gaps.md](known-gaps.md) or [workspace.md](workspace.md).  
+- **Known failure modes:** Draft-as-truth, silent merge assumptions, treating OpenClaw memory as authoritative over the gated Record â€” see [three-compounding-loops.md](three-compounding-loops.md).
 
 ---
 
@@ -35,7 +35,7 @@
 
 ### Current focus
 
-- See **[workspace.md](workspace.md)** — live priorities and blockers.
+- See **[workspace.md](workspace.md)** â€” live priorities and blockers.
 
 ### Active priorities
 
@@ -51,13 +51,13 @@
 
 ### Active constraints
 
-- Companion gate; stage-only for OpenClaw; knowledge boundary for Voice — [README.md](README.md) **Principles**.
+- Companion gate; stage-only for OpenClaw; knowledge boundary for Voice â€” [README.md](README.md) **Principles**.
 
 ---
 
 ## II-A. ACTIVE WATCHES
 
-*(Emerging technical / integration patterns worth monitoring. **Do not fabricate** — add only when grounded in [integration-status.md](integration-status.md), [known-gaps.md](known-gaps.md), or [workspace.md](workspace.md).)*
+*(Emerging technical / integration patterns worth monitoring. **Do not fabricate** â€” add only when grounded in [integration-status.md](integration-status.md), [known-gaps.md](known-gaps.md), or [workspace.md](workspace.md).)*
 
 **Entry format**
 
@@ -81,15 +81,15 @@
 
 ### Stable heuristics
 
-- See [README.md](README.md) § **Principles** and [three-compounding-loops.md](three-compounding-loops.md).
+- See [README.md](README.md) Â§ **Principles** and [three-compounding-loops.md](three-compounding-loops.md).
 
 ### Repeated lessons
 
-- _TBD — append with dates when recurring integration lessons stabilize._
+- _TBD â€” append with dates when recurring integration lessons stabilize._
 
 ### Known anti-patterns
 
-- _TBD — link to agent-reliability / safety-story docs when filing._
+- _TBD â€” link to agent-reliability / safety-story docs when filing._
 
 ### Deprecated / retired models
 
@@ -99,7 +99,7 @@
 
 ## III-A. FRAMING WATCHLIST
 
-*(Benchmarks, architecture comparisons, positioning frames — e.g. before major integration bets.)*
+*(Benchmarks, architecture comparisons, positioning frames â€” e.g. before major integration bets.)*
 
 **Entry format**
 
@@ -170,9 +170,10 @@
 
 ### Promotion conditions
 
-- **To this ledger:** recurring operator judgment worth tracking — cite evidence.  
+- **To this ledger:** recurring operator judgment worth tracking â€” cite evidence.  
 - **To Record:** RECURSION-GATE + companion approval only.
 
 ### Retirement conditions
 
-- Watch falsified or absorbed into a stronger tracked item — log briefly in §V if useful.
+- Watch falsified or absorbed into a stronger tracked item â€” log briefly in Â§V if useful.
+

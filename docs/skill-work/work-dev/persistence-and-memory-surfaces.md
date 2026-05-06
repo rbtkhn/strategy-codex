@@ -22,7 +22,7 @@
 | **Repo / CI** | Tests, governance scripts | Engineers | Yes | **No** — Loop 3 (machinery), not companion identity |
 | **Exports** (PRP, `USER.md`, runtime bundle) | **Read-only** snapshots of Record for tools | `export_prp.py`, `export_user_identity.py`, `export_runtime_bundle.py`, OpenClaw hooks | Yes | N/A — **derived**, refresh after merge |
 
-**Canonical EVIDENCE body:** `users/[id]/self-archive.md` (see [canonical-paths.md](../../canonical-paths.md)). Some docs still mention `self-evidence.md` as a compatibility pointer.
+**Canonical EVIDENCE body:** `self-archive.md` (see [canonical-paths.md](../../canonical-paths.md)). Some docs still mention `self-evidence.md` as a compatibility pointer.
 
 ---
 
@@ -41,7 +41,7 @@ These are **hypotheses** for operator time saved — not measured defaults. Vali
 | Mechanism | What improves | How to quantify (assumption-labeled) |
 |-----------|---------------|--------------------------------------|
 | **Clear persistence map** | Less time re-explaining context; fewer mistakes from “the AI remembers” | *If* operators lose ~15–30 min/session to context re-wiring, reducing that **2–4 sessions/month** saves ~**30–120 min/month** (hypothesis). |
-| **Binary gate checks** ([`users/_template/recursion-gate.md`](../../../users/_template/recursion-gate.md)) | Fewer bad merges and post-merge repair | *If* one bad merge/month costs ~45–90 min to unwind, cutting incidence **50%** saves ~**22–45 min/month** (hypothesis). |
+| **Binary gate checks** ([`_template/recursion-gate.md`](../../../_template/recursion-gate.md)) | Fewer bad merges and post-merge repair | *If* one bad merge/month costs ~45–90 min to unwind, cutting incidence **50%** saves ~**22–45 min/month** (hypothesis). |
 | **Delegation spec + checkpoints** ([delegation-spec-external-agents.md](delegation-spec-external-agents.md)) | Less black-box delegation rework | *If* a high-stakes task **fully redoes** ~20% of the time at ~1–2 hr each, structured checkpoints target that tail — track **redo rate** before/after. |
 | **Loop clarity** ([three-compounding-loops.md](three-compounding-loops.md)) | Less “WORK draft mistaken for Record” cleanup | Qualitative + **incident count** (drafts that reached SELF without gate). |
 

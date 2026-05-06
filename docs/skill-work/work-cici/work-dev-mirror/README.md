@@ -24,7 +24,7 @@ Use this to learn disciplined agent operations without requiring deep terminal o
   - companion approval gate for Record merges
   - visible provenance and continuity
 
-Do not treat this mirror as authorization to edit `users/xavier/self.md` directly.
+Do not treat this mirror as authorization to edit `xavier/self.md` directly.
 
 ---
 

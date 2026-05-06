@@ -2,7 +2,7 @@
 
 Use inside this repo: **Grace-Mar** (`grace-mar`).
 
-**Boundary:** Do not mutate canonical Record surfaces (SELF, SKILLS, EVIDENCE, Library, `users/*` identity files). If something should become durable, capture it as a [compound note](../compound-note-template.md) or `gate_candidate` **recommendation** only—no merge or self-approval.
+**Boundary:** Do not mutate canonical Record surfaces (SELF, SKILLS, EVIDENCE, Library, `*` identity files). If something should become durable, capture it as a [compound note](../compound-note-template.md) or `gate_candidate` **recommendation** only—no merge or self-approval.
 
 ## Your job
 

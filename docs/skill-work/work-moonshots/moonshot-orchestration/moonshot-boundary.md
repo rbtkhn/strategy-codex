@@ -1,12 +1,12 @@
-# Moonshot — boundaries
+﻿# Moonshot â€” boundaries
 
 **Status:** WORK only. Re-read [README](README.md) for lane status.
 
 ## Immutable boundaries
 
 - This module **never** auto-writes to **SELF**, **SELF-LIBRARY**, **SKILLS**, or **EVIDENCE**.  
-- This module **never** **merge**-authorizes; only **inbox** + **human** + [recursion-gate](../../../../users/grace-mar/recursion-gate.md) per [AGENTS.md](../../../../AGENTS.md).  
-- **No** Merkle or cryptographic “proof of contribution” — auditability is **provenance + markdown**, not hash theatrics.  
+- This module **never** **merge**-authorizes; only **inbox** + **human** + [recursion-gate](../../../../recursion-gate.md) per [AGENTS.md](../../../../AGENTS.md).  
+- **No** Merkle or cryptographic â€œproof of contributionâ€ â€” auditability is **provenance + markdown**, not hash theatrics.  
 - **No** affiliation claims with external orgs, prizes, or programs unless **evidenced** and **gated** like any other serious claim.  
 - **No** new canonical **SKILLS** ID from this PR; not **SKILL-0018** or any auto-numbered skill.
 
@@ -18,7 +18,7 @@
 
 ## External infrastructure rule
 
-- **Observe** and **classify** only in WORK. **Joining**, **deploying to**, or **contracting** external infrastructure (vendors, swarms, hosted agents) is **out of scope** for automation here and requires **explicit** human decision — **not** implied by a filled map or Tier 1 headline.
+- **Observe** and **classify** only in WORK. **Joining**, **deploying to**, or **contracting** external infrastructure (vendors, swarms, hosted agents) is **out of scope** for automation here and requires **explicit** human decision â€” **not** implied by a filled map or Tier 1 headline.
 
 ## Record promotion rule
 
@@ -26,7 +26,7 @@
 
 ## Hype-control rule
 
-- **Tier 3** or **Tier 4** (see [moonshot-source-policy.md](moonshot-source-policy.md)) may **inspire a watch** or a **narrative sketch**; they **do not** justify **capability** claims, **funding** asks, or **public** “we will” without **stronger** evidence.
+- **Tier 3** or **Tier 4** (see [moonshot-source-policy.md](moonshot-source-policy.md)) may **inspire a watch** or a **narrative sketch**; they **do not** justify **capability** claims, **funding** asks, or **public** â€œwe willâ€ without **stronger** evidence.
 
 ## Human authority rule
 
@@ -46,3 +46,4 @@
 - **WORK** may **not** **autonomously** join **external** infrastructure.  
 - **Tier 3** or **Tier 4** **inspiration** cannot **justify** **execution** without **stronger** evidence.  
 - **Any** **candidate** update to **SELF-LIBRARY**, **SKILLS**, or **EVIDENCE** must be **separately** **staged** through **gate** review.
+

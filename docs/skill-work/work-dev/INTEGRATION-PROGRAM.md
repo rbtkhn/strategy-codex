@@ -20,9 +20,9 @@ Run in this order so **staged vs canonical** stays mentally straight:
 
 | Step | Source | Why |
 |------|--------|-----|
-| 1 | `users/[id]/session-log.md` | What happened last |
-| 2 | `users/[id]/recursion-gate.md` | Pending candidates (not yet Record) |
-| 3 | `users/[id]/self-evidence.md` (last 1–2 ACT blocks) | Recent approved activity |
+| 1 | `session-log.md` | What happened last |
+| 2 | `recursion-gate.md` | Pending candidates (not yet Record) |
+| 3 | `self-evidence.md` (last 1–2 ACT blocks) | Recent approved activity |
 
 Optional proof-of-read:
 

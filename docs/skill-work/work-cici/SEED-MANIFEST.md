@@ -1,8 +1,8 @@
 # SEED-MANIFEST — work-cici (grace-mar) vs Cici’s companion instance (often `companion-xavier` on GitHub)
 
-**work-cici** (this folder in grace-mar): advisor / operator module — mirrors, contracts, runbooks, content plans. **Does not** contain her `users/xavier/` Record.
+**work-cici** (this folder in grace-mar): advisor / operator module — mirrors, contracts, runbooks, content plans. **Does not** contain her `xavier/` Record.
 
-**companion-xavier** (her GitHub repo): sovereign instance — seed survey, `users/xavier/` (or template id), gate, exports. Bootstrapped from [companion-self](https://github.com/rbtkhn/companion-self).
+**companion-xavier** (her GitHub repo): sovereign instance — seed survey, `xavier/` (or template id), gate, exports. Bootstrapped from [companion-self](https://github.com/rbtkhn/companion-self).
 
 | Ship unit | Where | Notes |
 |-----------|--------|------|

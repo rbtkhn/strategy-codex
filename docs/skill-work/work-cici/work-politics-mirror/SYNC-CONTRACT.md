@@ -101,7 +101,7 @@ Review candidates manually before mirroring.
 ## Safety rules
 
 - Sync only into `work-cici/work-politics-mirror/*` unless explicitly requested.
-- No direct writes to **`her`** `users/xavier/self.md` during sync.
-- If sync insight implies identity update, stage via **`her`** `users/xavier/recursion-gate.md`.
+- No direct writes to **`her`** `xavier/self.md` during sync.
+- If sync insight implies identity update, stage via **`her`** `xavier/recursion-gate.md`.
 - Human approval remains required for public ship decisions.
 

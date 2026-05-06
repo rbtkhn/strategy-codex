@@ -8,7 +8,7 @@ Canonical legacy fence phrase: **Legacy note: formerly Xavier.**
 |---|---|---|---|
 | `README.md` | active prose mentions of Xavier in sync/session sections | Active-state text | Keep lane Cici-first; retain Xavier only in explicit legacy alias and compatibility notes. |
 | `INDEX.md` | rows with historical filename references | Historical reference | Keep only where tied to actual legacy filenames; avoid active-role wording. |
-| `LANES.md` | `users/xavier/` template path | Historical reference | Keep with explicit template-path explanation (not lane identity). |
+| `LANES.md` | `xavier/` template path | Historical reference | Keep with explicit template-path explanation (not lane identity). |
 | `SYNC-DAILY.md` | `xavier only`, `xavier-readiness` | Active-state text | Rewrite to Cici/advisor wording, preserve continuity note only. |
 | `POST-RENAME-AUDIT.md` | legacy classification table | Historical reference | Keep and tighten as migration history container. |
 | `TERMS-XAVIER.md`, `COMPANION-XAVIER-*`, `xavier-*.md` filenames | Legacy filenames | Historical reference | Keep names for compatibility, add one-line rationale where surfaced. |

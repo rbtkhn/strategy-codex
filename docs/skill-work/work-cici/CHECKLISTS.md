@@ -1,4 +1,4 @@
-# Checklists — Xavier Ops
+﻿# Checklists â€” Xavier Ops
 
 ---
 
@@ -43,5 +43,6 @@ Run this for war powers, transparency spikes, and correction-context posts.
 - [ ] New identity content staged in `recursion-gate.md`
 - [ ] Candidate approvals captured before merge
 - [ ] Merge uses approved script flow only
-- [ ] No copied prose from `users/grace-mar/**`
+- [ ] No copied prose from `**`
+
 

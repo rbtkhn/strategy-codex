@@ -17,7 +17,7 @@
 
 ## What this lane may not write
 
-- **No direct edits** to `users/<id>/self.md`, `self-archive.md`, `bot/prompt.py`, or merge from gate without companion approval and `process_approved_candidates.py`.  
+- **No direct edits** to `self.md`, `self-archive.md`, `bot/prompt.py`, or merge from gate without companion approval and `process_approved_candidates.py`.  
 - **No** treating WORK drafts as Record truth or Voice knowledge until gated and merged.  
 
 ## Promotion paths
@@ -27,7 +27,7 @@
 
 ## Governing gate
 
-- **Default:** `users/<id>/recursion-gate.md` with appropriate `territory` / `channel_key` per lane (see lane `LANE-CI.md` or README).  
+- **Default:** `recursion-gate.md` with appropriate `territory` / `channel_key` per lane (see lane `LANE-CI.md` or README).  
 - **Lane-specific:** _(e.g. work-politics `territory: work-politics`; work-strategy milestones via `emit_work_strategy_gate_paste_snippet.py` — document in lane README.)_  
 
 ## Operator standard

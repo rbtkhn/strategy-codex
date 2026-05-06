@@ -1,11 +1,11 @@
-# Day 1 (No Terminal) — Xavier
+﻿# Day 1 (No Terminal) â€” Xavier
 
 **Rule:** No terminal commands required in this flow.  
 **Target session length:** 30-45 minutes.
 
 ---
 
-## Step 1 — Open the right docs
+## Step 1 â€” Open the right docs
 
 Open and read in order:
 1. [README.md](README.md)
@@ -14,9 +14,9 @@ Open and read in order:
 
 ---
 
-## Step 2 — Complete Session 0 capture
+## Step 2 â€” Complete Session 0 capture
 
-**In Xavier’s `companion-xavier` repo** (see [INSTANCE-PATHS.md](INSTANCE-PATHS.md)). Open:
+**In Xavierâ€™s `companion-xavier` repo** (see [INSTANCE-PATHS.md](INSTANCE-PATHS.md)). Open:
 - `docs/seed-survey/seed-survey-initiation.md` (read only; path may match template layout)
 - `docs/seed-survey/seed-survey-capture.md` (edit here)
 
@@ -25,14 +25,14 @@ Do not edit initiation file.
 
 ---
 
-## Step 3 — Ask Cursor AI to stage candidates (copy/paste prompt)
+## Step 3 â€” Ask Cursor AI to stage candidates (copy/paste prompt)
 
 ```text
 Help me stage Session 0 outputs safely.
 
 Inputs (paths relative to **her** repo root):
 - docs/seed-survey/seed-survey-capture.md
-- users/xavier/recursion-gate.md
+- xavier/recursion-gate.md
 
 Tasks:
 1) Read my capture answers.
@@ -42,14 +42,14 @@ Tasks:
 5) Show me the diff before finalizing.
 
 Rules:
-- No content copied from users/grace-mar/**
+- No content copied from **
 - No hand-merge into self.md
 - Stop and ask me before write actions
 ```
 
 ---
 
-## Step 4 — Initialize business workspace (no terminal)
+## Step 4 â€” Initialize business workspace (no terminal)
 
 Open `docs/skill-work/work-business/xavier/README.md`, then ask Cursor AI:
 
@@ -69,19 +69,19 @@ Rules:
 
 ---
 
-## Step 5 — Review checklist before saving
+## Step 5 â€” Review checklist before saving
 
 - [ ] Candidates are in `recursion-gate.md` only
 - [ ] `self.md` unchanged
-- [ ] No references to `users/grace-mar/**`
+- [ ] No references to `**`
 - [ ] Language is factual and reviewable
 
 ---
 
-## Step 6 — Log completion
+## Step 6 â€” Log completion
 
 Add one line to **her** repo:
-- `users/xavier/session-log.md`
+- `xavier/session-log.md`
 
 Template:
 - `YYYY-MM-DD: Day 1 no-terminal onboarding complete; Session 0 captured; candidates staged; work-business/xavier starter pack initialized.`
@@ -94,4 +94,5 @@ If any step is unclear for more than 10 minutes:
 1. Pause
 2. Ask companion for live walkthrough
 3. Do not improvise merge or posting
+
 

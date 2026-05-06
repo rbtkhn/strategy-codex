@@ -1,7 +1,7 @@
-# Technical Comparison: Grace-Mar Identity Fork Protocol (IFP) vs. ClawSouls / SoulClaw / SoulSpec
+﻿# Technical Comparison: Grace-Mar Identity Fork Protocol (IFP) vs. ClawSouls / SoulClaw / SoulSpec
 
 **Report as of:** 2026-04-24  
-**Territory:** WORK / dev-notebook spec capture — **not** SELF, **not** EVIDENCE, **not** Voice knowledge.  
+**Territory:** WORK / dev-notebook spec capture â€” **not** SELF, **not** EVIDENCE, **not** Voice knowledge.  
 **Scope:** Third-party and ecosystem behavior described here is based on **operator research and public material as of the report date**; it is not continuous verification. For the IFP overview, see [identity-fork-protocol-ifp-2026-04-24.md](identity-fork-protocol-ifp-2026-04-24.md).
 
 ---
@@ -17,14 +17,14 @@
 
 | Aspect | ClawSouls / SoulSpec / SoulClaw | Grace-Mar IFP |
 |--------|----------------------------------|-----------------|
-| **Core Files** | `soul.json` (metadata) + `SOUL.md` (personality, principles, boundaries) + `IDENTITY.md`, `STYLE.md`, `AGENTS.md` | Structured Record directories: `users/<id>/self.md`, `SELF-LIBRARY/`, `SKILLS/`, `EVIDENCE/` (plus supporting docs) — see repo layout, not a literal re-list here |
+| **Core Files** | `soul.json` (metadata) + `SOUL.md` (personality, principles, boundaries) + `IDENTITY.md`, `STYLE.md`, `AGENTS.md` | Structured Record directories: `self.md`, `SELF-LIBRARY/`, `SKILLS/`, `EVIDENCE/` (plus supporting docs) â€” see repo layout, not a literal re-list here |
 | **Format** | Lightweight Markdown package (Soul Spec v0.5) | Plain Markdown + git (human-readable, versioned) |
 | **Loading** | Injected fresh **every session** (tiered bootstrap in SoulClaw for token savings) | Canonical Record is the single source of truth; runtime complements use explicit exports |
 | **Mutability** | T0 identity (`SOUL.md`/`IDENTITY.md`) declared immutable in SoulClaw; requires human authorization | Strictly immutable without human/companion merge via recursion-gate |
 
 ## 3. Forking Model
 
-- **ClawSouls**: Fully git-native and marketplace-driven. Users `npx clawsouls install <soul>`, fork the soul directory, edit, and `npx clawsouls publish`. 80–200+ community souls. Explicit "Agent Identity Fork" problem acknowledged in their blog (divergence of cloned personas via unique memories/experiences). Supports symmetric/asymmetric/cascading forks with optional sync policies.
+- **ClawSouls**: Fully git-native and marketplace-driven. Users `npx clawsouls install <soul>`, fork the soul directory, edit, and `npx clawsouls publish`. 80â€“200+ community souls. Explicit "Agent Identity Fork" problem acknowledged in their blog (divergence of cloned personas via unique memories/experiences). Supports symmetric/asymmetric/cascading forks with optional sync policies.
 - **IFP**: Git-style forking of the entire personal **human** Record. Any fork can diverge safely; merges are deliberate and governed. Designed for adversarial portability (e.g., handoff to another runtime or human fork).
 
 **Distinction**: ClawSouls forks *agent personas* for sharing/swarming. IFP forks *human identity* for sovereignty and recovery.
@@ -36,7 +36,7 @@
   - SoulClaw adds auto-promotion rules (frequency, rule-based) + weekly human review for T1 core memory.
   - T0 Soul remains human-authorized only.
   - No hard "agents stage only" rule; agents participate in their own memory curation via tools.
-- **IFP (Sovereign Merge Rule)**: Absolute invariant — **agents/runtimes may only stage proposals** (inbox, recursion-gate candidates). Human or human-gated companion performs **all** merges into canonical Record. No agent write access to SELF/EVIDENCE/SKILLS.
+- **IFP (Sovereign Merge Rule)**: Absolute invariant â€” **agents/runtimes may only stage proposals** (inbox, recursion-gate candidates). Human or human-gated companion performs **all** merges into canonical Record. No agent write access to SELF/EVIDENCE/SKILLS.
 
 This is IFP's strongest innovation: mechanical enforcement of human sovereignty where ClawSouls relies on softer human-review prompts + SoulScan validation.
 
@@ -74,7 +74,7 @@ IFP provides stronger auditability and rebuildability guarantees.
 
 ## Summary of Innovations in Grace-Mar IFP
 
-ClawSouls excels at **agent personality portability and consistency** — a mature, community-driven system for building lively, shareable AI souls with practical memory tiers and drift controls. It is the strongest existing implementation of persistent agent identity via Markdown.
+ClawSouls excels at **agent personality portability and consistency** â€” a mature, community-driven system for building lively, shareable AI souls with practical memory tiers and drift controls. It is the strongest existing implementation of persistent agent identity via Markdown.
 
 **IFP's unique innovations** (none of which appear in ClawSouls or SoulSpec):
 
@@ -86,7 +86,7 @@ ClawSouls excels at **agent personality portability and consistency** — a matu
 In short: ClawSouls solves "how do we give agents a consistent soul?"  
 IFP solves "how do we keep the *human's* identity sovereign when surrounded by powerful agents?"
 
-They are complementary rather than competitive — a SoulClaw-style persona could run safely *inside* an IFP runtime complement, with proposals staged for human review.
+They are complementary rather than competitive â€” a SoulClaw-style persona could run safely *inside* an IFP runtime complement, with proposals staged for human review.
 
 Would you like a side-by-side code/schema example, a proposed integration path, or deeper dive into any axis?
 
@@ -96,8 +96,9 @@ Would you like a side-by-side code/schema example, a proposed integration path, 
 
 - [IFP spec capture (2026-04-24)](identity-fork-protocol-ifp-2026-04-24.md)
 - [AGENTS.md](../../../../../AGENTS.md)
-- [Recursion gate](../../../../../users/grace-mar/recursion-gate.md)
+- [Recursion gate](../../../../../recursion-gate.md)
 - [Workbench](../../workbench/README.md)
 - [Interface artifacts / derived-output policy](../../interface-artifacts/README.md)
 - [work-dev README (territory)](../../README.md)
 - [known-gaps / control plane](../../known-gaps.md)
+

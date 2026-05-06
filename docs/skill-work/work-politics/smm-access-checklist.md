@@ -25,7 +25,7 @@
 | 1 | Companion confirms Xavier is invited as **beta tester + operator-in-training** (feedback on onboarding/UX; optional sharing of process-level notes — not required private Record content). | [ ] |
 | 2 | Agree **minimum viable @usa_first_ky** (queue updates, calendar obligations) so companion-self time is **scheduled**, not only “when X is quiet.” | [ ] |
 | 3 | Share link to template repo: [github.com/rbtkhn/companion-self](https://github.com/rbtkhn/companion-self) and (if helpful) [grace-mar vs companion-self](../../grace-mar-vs-companion-self.md). | [ ] |
-| 4 | Xavier: GitHub account; **fork or template** [companion-self](https://github.com/rbtkhn/companion-self) into **her own repo** (sovereign remote); clone locally; follow bootstrap — **own** `users/<id>/` only, never operator’s grace-mar Record. | [ ] |
+| 4 | Xavier: GitHub account; **fork or template** [companion-self](https://github.com/rbtkhn/companion-self) into **her own repo** (sovereign remote); clone locally; follow bootstrap — **own** `` only, never operator’s grace-mar Record. | [ ] |
 
 ---
 

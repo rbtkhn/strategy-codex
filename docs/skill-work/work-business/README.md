@@ -1,6 +1,6 @@
-# work-business
+﻿# work-business
 
-**Template mirror:** [companion-self `work-business/README.md`](https://github.com/rbtkhn/companion-self/blob/main/docs/skill-work/work-business/README.md) — grace-mar adds instance-specific ventures and accounting; diff is expected; align shared boilerplate when syncing.
+**Template mirror:** [companion-self `work-business/README.md`](https://github.com/rbtkhn/companion-self/blob/main/docs/skill-work/work-business/README.md) â€” grace-mar adds instance-specific ventures and accounting; diff is expected; align shared boilerplate when syncing.
 
 **Objective:** Business planning, accounting, marketing, and market research for **operator-owned ventures** (Grace Gems, future ventures). Supports strategy, operations, financial tracking, and positioning. **WORK only**; not Record truth. Any merge to Record goes through RECURSION-GATE + companion approval.
 
@@ -28,9 +28,9 @@
 |------------|---------|
 | **This README** | Territory scope, purpose, boundaries. |
 | **[WORK-LEDGER.md](WORK-LEDGER.md)** | Compounding watches + pointers ([work-template](../work-template/WORK-LEDGER.md) scaffold). |
-| **[accounting/](accounting/)** | **Accounting surface** — ledger, chart of accounts, tax prep workflow. Entry: [accounting/README.md](accounting/README.md). |
-| **[marketing/](marketing/)** | **Marketing surface** — per-venture plans, shared principles. Entry: [marketing/README.md](marketing/README.md). |
-| **[grace-gems/](grace-gems/)** | **Grace Gems** (Etsy) — shop context, roadmap, agent-encoding, message-assist, market research, marketing plan, workflow reminders. Entry: [grace-gems/README.md](grace-gems/README.md). |
+| **[accounting/](accounting/)** | **Accounting surface** â€” ledger, chart of accounts, tax prep workflow. Entry: [accounting/README.md](accounting/README.md). |
+| **[marketing/](marketing/)** | **Marketing surface** â€” per-venture plans, shared principles. Entry: [marketing/README.md](marketing/README.md). |
+| **[grace-gems/](grace-gems/)** | **Grace Gems** (Etsy) â€” shop context, roadmap, agent-encoding, message-assist, market research, marketing plan, workflow reminders. Entry: [grace-gems/README.md](grace-gems/README.md). |
 | **[grace-gems/monthly-operating-review.md](grace-gems/monthly-operating-review.md)** | Grace Gems monthly review checklist: books, shop health, marketing, and tax/compliance readiness. |
 | **[xavier/](xavier/)** | Xavier business intake workspace (WORK-only starter pack). |
 | **[worldland-decentralized-ai-mainnet-2026-03.md](worldland-decentralized-ai-mainnet-2026-03.md)** | Deep research: WorldLand / LiberVance (March 2026). |
@@ -47,14 +47,15 @@
 
 | File | Purpose |
 |------|---------|
-| `users/grace-mar/business-ledger.jsonl` | Append-only transaction log |
+| `business-ledger.jsonl` | Append-only transaction log |
 | `schema-registry/business-transaction.v1.json` | Transaction schema (instance-specific) |
 
 ---
 
 ## Cross-references
 
-- [work-grace-gems](../work-grace-gems/README.md) — Legacy path; redirects to **grace-gems** above.
-- [work-strategy](../work-strategy/) — Shared daily horizon, pipeline, [common-inputs](../work-strategy/common-inputs.md).
-- [work-dev](../work-dev/) — OpenClaw, identity export, handback; potential integration with business research outputs.
-- [AGENTS.md](../../../AGENTS.md) — Knowledge boundary, gated pipeline, no direct Record writes.
+- [work-grace-gems](../work-grace-gems/README.md) â€” Legacy path; redirects to **grace-gems** above.
+- [work-strategy](../work-strategy/) â€” Shared daily horizon, pipeline, [common-inputs](../work-strategy/common-inputs.md).
+- [work-dev](../work-dev/) â€” OpenClaw, identity export, handback; potential integration with business research outputs.
+- [AGENTS.md](../../../AGENTS.md) â€” Knowledge boundary, gated pipeline, no direct Record writes.
+

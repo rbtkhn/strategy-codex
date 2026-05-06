@@ -1,4 +1,4 @@
----
+﻿---
 name: ideation-engine
 preferred_activation: ideation engine
 description: Generate approval-first Top 3 opportunity briefs from existing lanes, current assets, and source-backed signals for a solo operator.
@@ -195,7 +195,7 @@ Use these as source lanes:
 ## Approval Boundary
 
 - Approval memos are WORK artifacts by default.
-- Do not edit `users/grace-mar/recursion-gate.md` directly.
+- Do not edit `recursion-gate.md` directly.
 - Do not edit Record files from this skill.
 - If the operator asks to stage something, prepare a draft for the normal Grace-Mar gate process; do not merge.
 
@@ -207,3 +207,4 @@ For a standard invocation, produce:
 2. Top 3 opportunity briefs,
 3. one recommended operator move,
 4. no more than one optional follow-up question.
+

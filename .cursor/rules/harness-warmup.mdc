@@ -1,5 +1,5 @@
----
-description: Run harness warmup at start of Grace-Mar sessions — repo state for blank chats
+﻿---
+description: Run harness warmup at start of Grace-Mar sessions â€” repo state for blank chats
 alwaysApply: true
 ---
 
@@ -9,7 +9,7 @@ New Cursor threads have **no memory** of `recursion-gate`, `self-archive` (EVIDE
 
 ## When to run
 
-At the **start of a new chat** when work touches **instance state** (pipeline, RECURSION-GATE, Voice, OpenClaw handoff, `users/grace-mar/`, bootstrap continuation):
+At the **start of a new chat** when work touches **instance state** (pipeline, RECURSION-GATE, Voice, OpenClaw handoff, ``, bootstrap continuation):
 
 1. Run from repo root:
    ```bash
@@ -19,15 +19,15 @@ At the **start of a new chat** when work touches **instance state** (pipeline, R
 
 2. **Include the command output** in your reply (paste verbatim or as a fenced markdown block) so the thread carries the same snapshot.
 
-**Optional one-line snapshot (not a second mandatory ritual):** When the operator wants a single grounded line (e.g. "receipt" / "heartbeat line"), run `python3 scripts/harness_warmup.py -u grace-mar --receipt` (combine with `--territory` as needed). **Do not** require this as the first line of every reply — that duplicates **coffee** and conflicts with harness skip cases and PLAN-default in operator-style.
+**Optional one-line snapshot (not a second mandatory ritual):** When the operator wants a single grounded line (e.g. "receipt" / "heartbeat line"), run `python3 scripts/harness_warmup.py -u grace-mar --receipt` (combine with `--territory` as needed). **Do not** require this as the first line of every reply â€” that duplicates **coffee** and conflicts with harness skip cases and PLAN-default in operator-style.
 
 **One-command re-entry paste:** `python3 scripts/operator_reentry_stack.py -u grace-mar` runs handoff check, then `operator_daily_warmup` (`coffee` Step 1), then harness (add `--compact` for a shorter harness tail). Output overlaps by design; use for cold threads, not minimal noise.
 
-**`coffee`:** Follow `.cursor/skills/coffee/SKILL.md` — single source of truth for triggers, Step 1 scripts (work-start vs signing-off weight), Step 2 **A–E** hub (**no** micro-hints line under the menu), cadence modifiers (`light`, `minimal`, `survey`), and re-offer rules. **Hub E — Conductor** vs standalone **`conductor`** — [conductor skill](../../.cursor/skills/conductor/SKILL.md), [CONDUCTOR-PASS](../../docs/skill-work/work-coffee/CONDUCTOR-PASS.md). Legacy **`hey`** still works. **Step 0 recent rhythm:** plain prose **with concrete details** from the last four log lines (not generic filler); **do not** put **timestamps** in that prose; do not lead with raw `key=value`; script output below carries the rest.
+**`coffee`:** Follow `.cursor/skills/coffee/SKILL.md` â€” single source of truth for triggers, Step 1 scripts (work-start vs signing-off weight), Step 2 **Aâ€“E** hub (**no** micro-hints line under the menu), cadence modifiers (`light`, `minimal`, `survey`), and re-offer rules. **Hub E â€” Conductor** vs standalone **`conductor`** â€” [conductor skill](../../.cursor/skills/conductor/SKILL.md), [CONDUCTOR-PASS](../../docs/skill-work/work-coffee/CONDUCTOR-PASS.md). Legacy **`hey`** still works. **Step 0 recent rhythm:** plain prose **with concrete details** from the last four log lines (not generic filler); **do not** put **timestamps** in that prose; do not lead with raw `key=value`; script output below carries the rest.
 
-**Menu anchor (one line, optional with warmup paste):** **`coffee` Step 2** — **A** Steward, **B** Engineer, **C** Historian, **D** Capitalist, **E** Conductor. **Conductors:** hub **E** after **`coffee`**, or standalone (master name / `conductor`). Use when a thread is operator-cadence cold; not required on every run.
+**Menu anchor (one line, optional with warmup paste):** **`coffee` Step 2** â€” **A** Steward, **B** Engineer, **C** Historian, **D** Capitalist, **E** Conductor. **Conductors:** hub **E** after **`coffee`**, or standalone (master name / `conductor`). Use when a thread is operator-cadence cold; not required on every run.
 
-**`dream` (end-of-day maintenance):** Follow `.cursor/skills/dream/SKILL.md` — bounded maintenance pass (memory normalization, integrity, governance, contradiction digest). Usually once per day near end of day. **End-of-day bundle:** `python3 scripts/operator_end_of_day.py -u grace-mar` runs dream + handoff-check in one pass.
+**`dream` (end-of-day maintenance):** Follow `.cursor/skills/dream/SKILL.md` â€” bounded maintenance pass (memory normalization, integrity, governance, contradiction digest). Usually once per day near end of day. **End-of-day bundle:** `python3 scripts/operator_end_of_day.py -u grace-mar` runs dream + handoff-check in one pass.
 
 ## When you may skip
 
@@ -39,9 +39,10 @@ At the **start of a new chat** when work touches **instance state** (pipeline, R
 
 `bootstrap/grace-mar-bootstrap.md` = **procedure** (what to read, work-dev, commands). Warmup = **current state** (pending candidates, last ACT, session tail). They stack: bootstrap orients; warmup grounds.
 
-**Stewardship:** Treat warmup output as a **weather report**, not policy — policy lives in `AGENTS.md`, RECURSION-GATE, and companion-approved merges. The collapsed **Last dream** block and any path / civ-mem hints are **operational weather**, not authoritative routing.
+**Stewardship:** Treat warmup output as a **weather report**, not policy â€” policy lives in `AGENTS.md`, RECURSION-GATE, and companion-approved merges. The collapsed **Last dream** block and any path / civ-mem hints are **operational weather**, not authoritative routing.
 
 ## Do not
 
-- Merge or stage from warmup output — it's read-only context.
-- Treat warmup text as Record truth; canonical files remain `users/grace-mar/*.md`.
+- Merge or stage from warmup output â€” it's read-only context.
+- Treat warmup text as Record truth; canonical files remain `*.md`.
+

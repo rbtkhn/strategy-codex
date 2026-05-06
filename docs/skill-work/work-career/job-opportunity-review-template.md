@@ -1,6 +1,6 @@
-# Job opportunity review — DRAFT (operator)
+﻿# Job opportunity review â€” DRAFT (operator)
 
-**Status:** Draft — not submitted. Do **not** treat as Voice or Record truth. When ready, paste a tightened block into [recursion-gate.md](../../../users/grace-mar/recursion-gate.md) **Candidates** only if the companion uses the gate for career decisions; otherwise keep this file in [reflection-proposals](../../../users/grace-mar/reflection-proposals/) or [recursion-gate-staging](../../../users/grace-mar/recursion-gate-staging/).
+**Status:** Draft â€” not submitted. Do **not** treat as Voice or Record truth. When ready, paste a tightened block into [recursion-gate.md](../../../recursion-gate.md) **Candidates** only if the companion uses the gate for career decisions; otherwise keep this file in [reflection-proposals](../../../reflection-proposals/) or [recursion-gate-staging](../../../recursion-gate-staging/).
 
 ---
 
@@ -43,7 +43,7 @@
 
 ## Failure pattern check (see checklist)
 
-Review [failure-pattern-checklist.md](../../../users/grace-mar/recursion-gate-staging/failure-pattern-checklist.md) and note any mitigations:
+Review [failure-pattern-checklist.md](../../../recursion-gate-staging/failure-pattern-checklist.md) and note any mitigations:
 
 - Context degradation / spec drift / sycophantic confirmation / tool misuse / cascade / silent failure / blast radius / reversibility / frequency / verifiability
 
@@ -52,11 +52,12 @@ Review [failure-pattern-checklist.md](../../../users/grace-mar/recursion-gate-st
 ## Verification
 
 - **Scripts or docs reviewed:**
-- **Token or cost note** (if relevant): `python3 scripts/token_economics.py --tokens … --config …`
+- **Token or cost note** (if relevant): `python3 scripts/token_economics.py --tokens â€¦ --config â€¦`
 
 ---
 
 ## Next action
 
-- [ ] Save copy as `DRAFT-…` under reflection-proposals or recursion-gate-staging
+- [ ] Save copy as `DRAFT-â€¦` under reflection-proposals or recursion-gate-staging
 - [ ] Companion / operator sign-off before external submit
+

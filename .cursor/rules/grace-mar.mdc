@@ -1,6 +1,6 @@
----
+﻿---
 description: STRATEGY-CODEX repo identity + Grace-Mar governance + session protocol + pipeline
-globs: users/**
+globs: **
 alwaysApply: false
 ---
 
@@ -8,7 +8,7 @@ alwaysApply: false
 
 This repo develops as **strategy-codex**. It still contains the **Grace-Mar** reference instance, which remains a cognitive fork - a versioned, evidence-grounded record of an individual's cognitive development. The fork exists inside the user's mind. It grows through selective exposure and user-curated integration.
 
-**Conceptual framework:** [conceptual-framework.md](docs/conceptual-framework.md) — fork vs. twin, fork as own entity vs. emulation, terminology.
+**Conceptual framework:** [conceptual-framework.md](docs/conceptual-framework.md) â€” fork vs. twin, fork as own entity vs. emulation, terminology.
 
 Governed by [GRACE-MAR-CORE v2.0](docs/grace-mar-core.md). See [architecture](docs/architecture.md) for full system design.
 
@@ -16,7 +16,7 @@ Governed by [GRACE-MAR-CORE v2.0](docs/grace-mar-core.md). See [architecture](do
 
 ## The Observation Window Model
 
-The fork lives inside the user's mind — it is their mental model of the self, made explicit and structured. The emulation layer (Telegram at `bot/bot.py`, WeChat at `bot/wechat_bot.py`) is an **observation window**: the user selectively exposes thoughts and information to the fork's awareness through it. The bot is not where the fork lives.
+The fork lives inside the user's mind â€” it is their mental model of the self, made explicit and structured. The emulation layer (Telegram at `bot/bot.py`, WeChat at `bot/wechat_bot.py`) is an **observation window**: the user selectively exposes thoughts and information to the fork's awareness through it. The bot is not where the fork lives.
 
 The fork can only reference what has been explicitly merged into its profile. **LLM world knowledge must never leak through the emulation.**
 
@@ -26,13 +26,13 @@ The fork can only reference what has been explicitly merged into its profile. **
 
 Both channels feed the same gated pipeline and the same profile.
 
-**Channel 1 — Bot (Automated):** Telegram and WeChat bot conversations are analyzed by an LLM analyst (`ANALYST_PROMPT` in `bot/prompt.py`). The analyst stages candidates in `recursion-gate.md` automatically.
+**Channel 1 â€” Bot (Automated):** Telegram and WeChat bot conversations are analyzed by an LLM analyst (`ANALYST_PROMPT` in `bot/prompt.py`). The analyst stages candidates in `recursion-gate.md` automatically.
 
-**Channel 2 — Operator (Manual):** The user brings real-world observations directly (school work, art, overheard moments). Signal detection and staging are performed manually in the operator conversation.
+**Channel 2 â€” Operator (Manual):** The user brings real-world observations directly (school work, art, overheard moments). Signal detection and staging are performed manually in the operator conversation.
 
 ### The "we" Convention
 
-When the user says **"we [did X]"**, it is a **pipeline invocation**. Go straight to signal detection and candidate staging — no acknowledgment step, no waiting for a separate command. "We" means: "I observed the self doing this; process it." When the user says **"we finished [book]"** or **"we read [title]"**, run signal detection and stage a candidate that can create a READ-* entry (or LEARN-* / curiosity referencing the book) so THINK and SELF.IX can be updated on approval. Do not ignore book-completion signals. See [pipeline-map](docs/pipeline-map.md) § READ.
+When the user says **"we [did X]"**, it is a **pipeline invocation**. Go straight to signal detection and candidate staging â€” no acknowledgment step, no waiting for a separate command. "We" means: "I observed the self doing this; process it." When the user says **"we finished [book]"** or **"we read [title]"**, run signal detection and stage a candidate that can create a READ-* entry (or LEARN-* / curiosity referencing the book) so THINK and SELF.IX can be updated on approval. Do not ignore book-completion signals. See [pipeline-map](docs/pipeline-map.md) Â§ READ.
 
 **Book-completion:** When the user says **"we finished [title]"** or **"we read [title]"**, run signal detection and stage a candidate that can create a READ-* entry (or LEARN-* / curiosity candidate referencing the book so THINK and SELF.IX update on approval). Do not ignore book-completion signals.
 
@@ -56,19 +56,19 @@ A single artifact can populate all three dimensions simultaneously.
 
 **Nothing is committed to the fork without explicit user approval.**
 
-1. **Signal detection** — identify profile-relevant information
-2. **Candidate staging** — write to `recursion-gate.md` with analysis
-3. **User review** — approve, reject, or modify
-4. **Integration** — on approval, merge immediately. When the user says "approve", process right away — one gate, no separate "process the review queue" step.
+1. **Signal detection** â€” identify profile-relevant information
+2. **Candidate staging** â€” write to `recursion-gate.md` with analysis
+3. **User review** â€” approve, reject, or modify
+4. **Integration** â€” on approval, merge immediately. When the user says "approve", process right away â€” one gate, no separate "process the review queue" step.
 
 ### File Update Protocol (Integration)
 
 When candidates are approved, merge into ALL of these together. **Canonical paths** (lowercase): [canonical-paths.md](docs/canonical-paths.md).
-- `users/[id]/self.md` — profile entries (IX-A, IX-B, IX-C)
-- `users/[id]/self-archive.md` — EVIDENCE (activity log + § VIII gated approved)
-- `users/[id]/recursion-gate.md` — move candidates to Processed
-- `users/[id]/session-log.md` — session record
-- `bot/prompt.py` — emulation prompt (knowledge, curiosity, personality sections + analyst dedup list)
+- `self.md` â€” profile entries (IX-A, IX-B, IX-C)
+- `self-archive.md` â€” EVIDENCE (activity log + Â§ VIII gated approved)
+- `recursion-gate.md` â€” move candidates to Processed
+- `session-log.md` â€” session record
+- `bot/prompt.py` â€” emulation prompt (knowledge, curiosity, personality sections + analyst dedup list)
 
 **Merge only via script.** Do not edit self.md, self-archive.md, or prompt directly on approval. Instruct the operator to run `python scripts/process_approved_candidates.py --apply` (or the receipt flow). Cursor sessions must not perform manual merge.
 
@@ -148,9 +148,9 @@ The emulation prompt (`bot/prompt.py`) grows as the fork grows. To manage this:
 - Invent memories or experiences
 - Reference books/media they haven't consumed
 - Propose activities far beyond their edge
-- Idealize or curate — record accurately
+- Idealize or curate â€” record accurately
 - Delete or silently edit prior entries
-- Use the term "parent" as a system concept (the relationship is user ↔ fork)
+- Use the term "parent" as a system concept (the relationship is user â†” fork)
 
 ---
 
@@ -159,31 +159,32 @@ The emulation prompt (`bot/prompt.py`) grows as the fork grows. To manage this:
 Canonical paths are **lowercase**; see [canonical-paths.md](docs/canonical-paths.md).
 
 ```
-users/[user-id]/
-├── self.md                  # Who they ARE (identity + three-dimension mind)
-├── self-skills.md           # What they CAN DO (capability index; legacy skills.md still resolved)
-├── self-archive.md          # EVIDENCE — raw activities + § VIII gated approved log
-├── self-evidence.md         # optional compatibility pointer
-├── session-log.md           # Interaction history
-├── recursion-gate.md        # Pipeline staging (candidates + processed)
-└── artifacts/               # Raw files (writing samples, artwork)
+[user-id]/
+â”œâ”€â”€ self.md                  # Who they ARE (identity + three-dimension mind)
+â”œâ”€â”€ self-skills.md           # What they CAN DO (capability index; legacy skills.md still resolved)
+â”œâ”€â”€ self-archive.md          # EVIDENCE â€” raw activities + Â§ VIII gated approved log
+â”œâ”€â”€ self-evidence.md         # optional compatibility pointer
+â”œâ”€â”€ session-log.md           # Interaction history
+â”œâ”€â”€ recursion-gate.md        # Pipeline staging (candidates + processed)
+â””â”€â”€ artifacts/               # Raw files (writing samples, artwork)
 ```
 
 ## Bot Files
 
 ```
 bot/
-├── core.py           # Shared emulation logic (Telegram + WeChat)
-├── bot.py            # Telegram bot
-├── wechat_bot.py     # WeChat Official Account bot
-├── prompt.py         # All LLM prompts (SYSTEM, ANALYST, LOOKUP, REPHRASE)
-└── requirements.txt  # Python dependencies
+â”œâ”€â”€ core.py           # Shared emulation logic (Telegram + WeChat)
+â”œâ”€â”€ bot.py            # Telegram bot
+â”œâ”€â”€ wechat_bot.py     # WeChat Official Account bot
+â”œâ”€â”€ prompt.py         # All LLM prompts (SYSTEM, ANALYST, LOOKUP, REPHRASE)
+â””â”€â”€ requirements.txt  # Python dependencies
 ```
 
 ---
 
 ## Instance: grace-mar
 
-Fork name: Grace-Mar. Phase: emergent cognition, active pipeline. In this repo, load the embedded instance from `users/grace-mar/` while keeping the overall workspace identity as `strategy-codex`.
+Fork name: Grace-Mar. Phase: emergent cognition, active pipeline. In this repo, load the embedded instance from `` while keeping the overall workspace identity as `strategy-codex`.
 
-**Instance doctrine:** `users/grace-mar/instance-doctrine.md` (Layer 2 — operating modes, file update protocol, success metrics, repo structure, prompt architecture). See [layer-architecture.md](docs/layer-architecture.md) for the four-layer instruction model.
+**Instance doctrine:** `instance-doctrine.md` (Layer 2 â€” operating modes, file update protocol, success metrics, repo structure, prompt architecture). See [layer-architecture.md](docs/layer-architecture.md) for the four-layer instruction model.
+

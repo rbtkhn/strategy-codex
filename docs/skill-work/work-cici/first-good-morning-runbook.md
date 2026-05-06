@@ -1,6 +1,6 @@
-# First Good Morning Runbook — Cici
+﻿# First Good Morning Runbook â€” Cici
 
-**Scope:** First-ever load of **Cici’s companion instance repo** (often named `companion-xavier` on GitHub) by a new Cursor user. Advisor docs (`work-cici` in grace-mar) live **here**; her Record lives **there**. See [INSTANCE-PATHS.md](INSTANCE-PATHS.md).  
+**Scope:** First-ever load of **Ciciâ€™s companion instance repo** (often named `companion-xavier` on GitHub) by a new Cursor user. Advisor docs (`work-cici` in grace-mar) live **here**; her Record lives **there**. See [INSTANCE-PATHS.md](INSTANCE-PATHS.md).  
 **Goal:** Safe orientation, Session 0 completion, and correct gate workflow.
 
 ---
@@ -17,7 +17,7 @@ Do:
 Do not:
 - publish content
 - hand-edit identity truth into `self.md`
-- copy any `users/grace-mar/**` content into Cici instance paths (e.g. template `users/xavier/`)
+- copy any `**` content into Cici instance paths (e.g. template `xavier/`)
 
 ---
 
@@ -34,13 +34,13 @@ You are not expected to know Cursor yet.
 Your only goal today is to understand the structure and complete first setup safely.
 
 ### What this space is
-- **Grace-mar** holds `docs/skill-work/work-cici/` — operator/advisor module for your coach (optional reading).
-- **Your repo:** instance files live under `users/xavier/` (see template / [INSTANCE-PATHS.md](INSTANCE-PATHS.md)).
+- **Grace-mar** holds `docs/skill-work/work-cici/` â€” operator/advisor module for your coach (optional reading).
+- **Your repo:** instance files live under `xavier/` (see template / [INSTANCE-PATHS.md](INSTANCE-PATHS.md)).
 - The fork starts blank by design.
 
 ### What this space is not
-- It is not Grace-Mar’s Record.
-- Do not copy `users/grace-mar/**` into Cici instance files (template `users/xavier/`).
+- It is not Grace-Marâ€™s Record.
+- Do not copy `**` into Cici instance files (template `xavier/`).
 - Durable identity updates go through the gate pipeline only.
 
 ### Non-negotiables
@@ -48,8 +48,8 @@ Your only goal today is to understand the structure and complete first setup saf
 - No autonomous posting.
 - No hand-merge into `self.md`.
 
-### Tooling — Open Brain / MCP / capture + search (operator)
-If she uses **capture + embeddings + semantic search** or **MCP** alongside this repo: **nothing** may **silently write** identity truth under `users/xavier/` (or `self.md` / EVIDENCE / `bot/prompt.py`) **except** through **recursion-gate** → her approval → `process_approved_candidates.py`. Retrieval rank ≠ merge consent. Full map: [companion-self-for-open-brain-users.md](../work-companion-self/companion-self-for-open-brain-users.md).
+### Tooling â€” Open Brain / MCP / capture + search (operator)
+If she uses **capture + embeddings + semantic search** or **MCP** alongside this repo: **nothing** may **silently write** identity truth under `xavier/` (or `self.md` / EVIDENCE / `bot/prompt.py`) **except** through **recursion-gate** â†’ her approval â†’ `process_approved_candidates.py`. Retrieval rank â‰  merge consent. Full map: [companion-self-for-open-brain-users.md](../work-companion-self/companion-self-for-open-brain-users.md).
 
 ---
 
@@ -80,9 +80,9 @@ If unclear at any step, pause and ask before posting or merging.
 | 4 | Open `docs/skill-work/work-cici/SESSION-0-OPERATOR.md` | Xavier + Operator | [ ] |
 | 5 | Complete **her repo** `docs/seed-survey/seed-survey-capture.md` rows (Q1-31) | Xavier | [ ] |
 | 5a | Initialize `docs/skill-work/work-business/xavier/` starter pack from survey + business docs | Xavier + Operator | [ ] |
-| 5b | If **Open Brain–style** tooling (capture / RAG / MCP): confirm no auto-writes into `users/xavier/**` except via **gate** + approval + merge script; skim [companion-self-for-open-brain-users.md](../work-companion-self/companion-self-for-open-brain-users.md) | Operator | [ ] |
-| 6 | Confirm no hand-edits to `users/xavier/self.md` | Operator | [ ] |
-| 7 | Stage first candidate set in `users/xavier/recursion-gate.md` | Operator | [ ] |
+| 5b | If **Open Brainâ€“style** tooling (capture / RAG / MCP): confirm no auto-writes into `xavier/**` except via **gate** + approval + merge script; skim [companion-self-for-open-brain-users.md](../work-companion-self/companion-self-for-open-brain-users.md) | Operator | [ ] |
+| 6 | Confirm no hand-edits to `xavier/self.md` | Operator | [ ] |
+| 7 | Stage first candidate set in `xavier/recursion-gate.md` | Operator | [ ] |
 | 8 | Xavier reviews/approves candidates | Xavier | [ ] |
 | 9 | Run merge script only after approval | Operator | [ ] |
 | 10 | Add session-log line: first hey complete | Xavier | [ ] |
@@ -94,8 +94,8 @@ If unclear at any step, pause and ask before posting or merging.
 ### Required file path sequence (**her repo** root)
 1. `docs/seed-survey/seed-survey-initiation.md`
 2. `docs/seed-survey/seed-survey-capture.md`
-3. `users/xavier/recursion-gate.md`
-4. `users/xavier/session-log.md`
+3. `xavier/recursion-gate.md`
+4. `xavier/session-log.md`
 
 ### Merge command (only after candidate approval)
 ```bash
@@ -122,4 +122,5 @@ Escalate immediately if:
 - stress/confusion with Cursor blocks setup progress
 
 If blocked for more than 10 minutes, switch to screen-share and continue live.
+
 
