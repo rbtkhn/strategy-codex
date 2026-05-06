@@ -17,12 +17,13 @@ from pathlib import Path
 import re
 import sys
 
-try:
-    import yaml
-except ImportError:
-    sys.exit("PyYAML required: pip install pyyaml")
-
 REPO = Path(__file__).resolve().parent.parent
+SCRIPTS = Path(__file__).resolve().parent
+if str(SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS))
+
+from yaml_compat import safe_load_path
+
 ARCH_PATH = REPO / "docs" / "skill-work" / "work-strategy" / "history-notebook" / "book-architecture.yaml"
 CATALOG_PATH = (
     REPO
@@ -55,7 +56,7 @@ SENTENCE_SPLIT = re.compile(r"(?<=[.!?])\s+")
 
 
 def load_yaml(path: Path) -> dict:
-    return yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+    return safe_load_path(path, feature="build_hn_provenance_packets.py") or {}
 
 
 def chapter_rows(arch: dict) -> list[dict]:
@@ -176,13 +177,19 @@ def main() -> int:
             print(f"ERROR: missing {p}", file=sys.stderr)
             return 1
 
-    arch = load_yaml(args.architecture)
+    try:
+        arch = load_yaml(args.architecture)
+        catalog = load_yaml(args.catalog)
+        config = load_yaml(args.config)
+    except RuntimeError as exc:
+        print(f"ERROR: {exc}", file=sys.stderr)
+        return 2
     rows = chapter_rows(arch)
     if not rows:
         print("ERROR: no chapters found in book-architecture", file=sys.stderr)
         return 1
-    anchors = anchor_map(load_yaml(args.catalog))
-    cfg = load_yaml(args.config)
+    anchors = anchor_map(catalog)
+    cfg = config
     prov_cfg = (cfg.get("provenance") or {})
     conf_rules = prov_cfg.get("confidence_rules") or {}
     defaults = prov_cfg.get("default_open_verification_tasks") or []
