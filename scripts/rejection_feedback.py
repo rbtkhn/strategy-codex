@@ -9,7 +9,7 @@ from __future__ import annotations
 import re
 from typing import Any
 
-import yaml
+from yaml_compat import safe_load_text
 
 REJECTION_CATEGORIES: dict[str, str] = {
     "routing_error": "Signal misclassified, low quality, or duplicate",
@@ -25,8 +25,10 @@ _ALLOWED = frozenset(REJECTION_CATEGORIES)
 
 def _yaml_safe(blob: str) -> dict[str, Any]:
     try:
-        data = yaml.safe_load(blob) or {}
-    except yaml.YAMLError:
+        data = safe_load_text(blob, feature="rejection_feedback.py") or {}
+    except RuntimeError:
+        return {}
+    except Exception:
         return {}
     return data if isinstance(data, dict) else {}
 

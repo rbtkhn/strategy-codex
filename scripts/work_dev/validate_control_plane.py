@@ -13,14 +13,17 @@ import json
 import sys
 from pathlib import Path
 
-import yaml
-
 try:
     import jsonschema
 except ImportError:
     jsonschema = None  # type: ignore
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
+_SCRIPTS = Path(__file__).resolve().parent.parent
+if str(_SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(_SCRIPTS))
+
+from yaml_compat import safe_load_path
 
 FILES = (
     ("integration_status.yaml", "integration_status.schema.json", "items"),
@@ -63,7 +66,11 @@ def main() -> int:
         if not spath.is_file():
             errors.append(f"missing schema {spath.relative_to(root)}")
             continue
-        data = yaml.safe_load(ypath.read_text(encoding="utf-8"))
+        try:
+            data = safe_load_path(ypath, feature="work_dev/validate_control_plane.py")
+        except RuntimeError as exc:
+            print(f"ERROR: {exc}", file=sys.stderr)
+            return 2
         schema = json.loads(spath.read_text(encoding="utf-8"))
         if jsonschema is not None:
             try:
@@ -75,7 +82,7 @@ def main() -> int:
                 errors.append(f"{yaml_name}: expected version 1 object")
 
     # Reload integration ids and cross-refs
-    integ = yaml.safe_load((control_plane / "integration_status.yaml").read_text(encoding="utf-8"))
+    integ = safe_load_path(control_plane / "integration_status.yaml", feature="work_dev/validate_control_plane.py")
     for it in integ.get("items") or []:
         iid = it.get("id")
         if isinstance(iid, str):
@@ -86,7 +93,7 @@ def main() -> int:
             if isinstance(rel, str) and not _skip_path_check(rel) and not path_exists(root, rel):
                 errors.append(f"missing source_of_truth path: {rel}")
 
-    gaps = yaml.safe_load((control_plane / "known_gaps.yaml").read_text(encoding="utf-8"))
+    gaps = safe_load_path(control_plane / "known_gaps.yaml", feature="work_dev/validate_control_plane.py")
     gap_ids: set[str] = set()
     for g in gaps.get("items") or []:
         gid = g.get("id")
@@ -98,7 +105,7 @@ def main() -> int:
             if rid and rid not in integration_ids:
                 errors.append(f"gap {gid} references unknown integration id: {rid}")
 
-    tr = yaml.safe_load((control_plane / "target_registry.yaml").read_text(encoding="utf-8"))
+    tr = safe_load_path(control_plane / "target_registry.yaml", feature="work_dev/validate_control_plane.py")
     sids: set[str] = set()
     for seg in tr.get("segments") or []:
         sid = seg.get("id")
@@ -107,7 +114,7 @@ def main() -> int:
                 errors.append(f"duplicate segment id: {sid}")
             sids.add(sid)
 
-    pl = yaml.safe_load((control_plane / "proof_ledger.yaml").read_text(encoding="utf-8"))
+    pl = safe_load_path(control_plane / "proof_ledger.yaml", feature="work_dev/validate_control_plane.py")
     pids: set[str] = set()
     for e in pl.get("entries") or []:
         pid = e.get("id")

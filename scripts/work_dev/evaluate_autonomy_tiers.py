@@ -8,12 +8,16 @@ from __future__ import annotations
 
 import argparse
 import json
+import sys
 from pathlib import Path
 from typing import Any
 
-import yaml
-
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
+_SCRIPTS = Path(__file__).resolve().parent.parent
+if str(_SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(_SCRIPTS))
+
+from yaml_compat import safe_load_path
 DEFAULT_LOG = REPO_ROOT / "runtime" / "autonomy" / "shadow_decisions.jsonl"
 DEFAULT_THRESHOLDS = REPO_ROOT / "docs" / "skill-work" / "work-dev" / "autonomy" / "tier_thresholds.yaml"
 
@@ -60,7 +64,10 @@ def format_autonomy_warmup_line(repo_root: Path | None = None) -> str | None:
 
 
 def load_tier_config(thresholds_path: Path, profile: str) -> dict[str, Any]:
-    raw = yaml.safe_load(thresholds_path.read_text(encoding="utf-8")) or {}
+    raw = safe_load_path(
+        thresholds_path,
+        feature="work_dev/evaluate_autonomy_tiers.py",
+    ) or {}
     tiers = raw.get("tiers") or {}
     if profile not in tiers:
         known = ", ".join(sorted(tiers)) or "(none)"
@@ -139,14 +146,17 @@ def main() -> int:
         help="Path to tier_thresholds.yaml",
     )
     args = ap.parse_args()
-    print(
-        evaluate(
+    try:
+        result = evaluate(
             args.log,
             window=args.window,
             profile=args.profile,
             thresholds_path=args.thresholds,
         )
-    )
+    except RuntimeError as exc:
+        print(f"ERROR: {exc}")
+        return 2
+    print(result)
     return 0
 
 

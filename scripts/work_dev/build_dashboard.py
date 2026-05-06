@@ -15,32 +15,22 @@ from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
 
-try:
-    import yaml
-except ModuleNotFoundError:  # pragma: no cover - dependency fallback
-    yaml = None
-
 _SCRIPTS = Path(__file__).resolve().parent.parent
 if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
 
 from gate_block_parser import mean_pending_provenance_from_path  # noqa: E402
 from repo_io import DEFAULT_PROFILE_ID, profile_dir  # noqa: E402
+from yaml_compat import safe_load_path  # noqa: E402
 
 from work_dev.dashboard_models import DashboardSummary  # noqa: E402
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 
 
-def _require_yaml() -> None:
-    if yaml is None:
-        raise RuntimeError("PyYAML is required for work_dev/build_dashboard.py")
-
-
 def _count_integration_status(control_plane: Path) -> dict[str, int]:
-    _require_yaml()
     p = control_plane / "integration_status.yaml"
-    data = yaml.safe_load(p.read_text(encoding="utf-8"))
+    data = safe_load_path(p, feature="work_dev/build_dashboard.py")
     c: Counter[str] = Counter()
     for it in data.get("items") or []:
         st = str(it.get("status") or "unknown")
@@ -87,9 +77,8 @@ def count_jsonl_events(path: Path, *, event_name: str | None = None) -> int:
 
 
 def _open_gap_ids(control_plane: Path) -> list[str]:
-    _require_yaml()
     p = control_plane / "known_gaps.yaml"
-    data = yaml.safe_load(p.read_text(encoding="utf-8"))
+    data = safe_load_path(p, feature="work_dev/build_dashboard.py")
     out: list[str] = []
     for g in data.get("items") or []:
         if str(g.get("status") or "") == "open":
@@ -241,7 +230,11 @@ def main() -> int:
     ap.add_argument("--repo-root", type=Path, default=REPO_ROOT)
     args = ap.parse_args()
     root = args.repo_root.resolve()
-    d = build_dashboard(user_id=args.user.strip(), repo_root=root)
+    try:
+        d = build_dashboard(user_id=args.user.strip(), repo_root=root)
+    except RuntimeError as exc:
+        print(f"ERROR: {exc}", file=sys.stderr)
+        return 2
     art = root / "artifacts"
     art.mkdir(parents=True, exist_ok=True)
     (art / "work_dev_dashboard.json").write_text(

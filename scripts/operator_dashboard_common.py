@@ -6,7 +6,7 @@ import re
 from pathlib import Path
 from typing import Any
 
-import yaml
+from yaml_compat import safe_load_text
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
@@ -42,8 +42,10 @@ def load_self_library_entries(repo_root: Path, user_id: str) -> list[dict[str, A
         return []
     block = text[j:k]
     try:
-        data = yaml.safe_load(block)
-    except yaml.YAMLError:
+        data = safe_load_text(block, feature="operator_dashboard_common.load_self_library_entries") or {}
+    except RuntimeError:
+        return []
+    except Exception:
         return []
     if not isinstance(data, dict):
         return []
