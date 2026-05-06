@@ -3,7 +3,7 @@
 Emit a canonical ### CANDIDATE-* snippet for work-strategy milestones (RECURSION-GATE paste).
 
 Default rows match existing gate convention: territory: work-politics, channel_key: operator:work-strategy.
-Writes users/<user>/recursion-gate-staging/work-strategy-<date>.paste-snippet.md.
+Writes <user>/recursion-gate-staging/work-strategy-<date>.paste-snippet.md.
 See docs/skill-work/work-strategy/LANE-CI.md.
 """
 
@@ -19,6 +19,7 @@ _SCRIPTS = REPO_ROOT / "scripts"
 if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
 
+from repo_io import profile_dir  # noqa: E402
 from stage_gate_candidate import next_candidate_id  # noqa: E402
 
 DEFAULT_USER = "grace-mar"
@@ -33,7 +34,7 @@ def build_snippet(
     territory: str,
     summary: str,
 ) -> str:
-    gate_path = REPO_ROOT / "users" / user_id / "recursion-gate.md"
+    gate_path = profile_dir(user_id) / "recursion-gate.md"
     content = (
         gate_path.read_text(encoding="utf-8")
         if gate_path.is_file()
@@ -86,7 +87,7 @@ def main() -> int:
     now = datetime.now(timezone.utc)
     ts_date = now.strftime("%Y-%m-%d")
     ts_full = now.strftime("%Y-%m-%dT%H:%M:%SZ")
-    out_dir = args.staging_dir or (REPO_ROOT / "users" / uid / "recursion-gate-staging")
+    out_dir = args.staging_dir or (profile_dir(uid) / "recursion-gate-staging")
     out_dir.mkdir(parents=True, exist_ok=True)
     path = out_dir / f"work-strategy-{ts_date}.paste-snippet.md"
     path.write_text(

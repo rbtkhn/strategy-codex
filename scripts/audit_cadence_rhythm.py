@@ -1,12 +1,12 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """
-Cadence rhythm auditor — read-only discipline audit of cadence events.
+Cadence rhythm auditor â€” read-only discipline audit of cadence events.
 
 Parses work-cadence-events.md and reports dream frequency, bridge coverage,
 coffee cadence, and longest gap.  Exposes compute_rhythm_summary() for
 import by harness_warmup.py.
 
-Read-only operator tooling — no file writes.
+Read-only operator tooling â€” no file writes.
 
 Usage:
   python scripts/audit_cadence_rhythm.py -u grace-mar
@@ -25,12 +25,18 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 EVENTS_PATH = REPO_ROOT / "docs" / "skill-work" / "work-cadence" / "work-cadence-events.md"
-DEFAULT_GATE_PATH = REPO_ROOT / "users" / "grace-mar" / "recursion-gate.md"
+
+try:
+    from repo_io import profile_dir
+except ImportError:
+    from scripts.repo_io import profile_dir
+
+DEFAULT_GATE_PATH = profile_dir("grace-mar") / "recursion-gate.md"
 
 import re
 
 _EVENT_LINE_RE = re.compile(
-    r"- \*\*(\d{4}-\d{2}-\d{2}) (\d{2}:\d{2}) UTC\*\* — (\w+) \(([^)]+)\)"
+    r"- \*\*(\d{4}-\d{2}-\d{2}) (\d{2}:\d{2}) UTC\*\* â€” (\w+) \(([^)]+)\)"
 )
 
 
@@ -358,7 +364,7 @@ def compute_conductor_audit(
 
 
 def format_summary(s: dict) -> str:
-    lines = [f"Cadence rhythm ({s['user_id']}) — last {s['days']} days"]
+    lines = [f"Cadence rhythm ({s['user_id']}) â€” last {s['days']} days"]
 
     if s["event_count"] == 0:
         lines.append("  (no cadence events in window)")
@@ -368,7 +374,7 @@ def format_summary(s: dict) -> str:
     dream_line = f"  dream: {d['count']} runs"
     if d["last"]:
         dream_line += f", last {d['last'][:10]} ({d['days_ago']}d ago)"
-    dream_line += " — " + ("OK" if d["ok"] else "DRIFT")
+    dream_line += " â€” " + ("OK" if d["ok"] else "DRIFT")
     lines.append(dream_line)
 
     b = s["bridge"]
@@ -381,14 +387,14 @@ def format_summary(s: dict) -> str:
 
     c = s["coffee"]
     coffee_line = f"  coffee: {c['count']} runs, avg {c['per_active_day']}/active-day"
-    coffee_line += " — " + ("OK" if c["ok"] else "LOW")
+    coffee_line += " â€” " + ("OK" if c["ok"] else "LOW")
     lines.append(coffee_line)
 
     g = s["longest_gap"]
     gap_line = f"  longest gap: {g['hours']}h"
     if g["start"] and g["end"]:
         gap_line += f" ({g['start'][:10]} to {g['end'][:10]})"
-    gap_line += " — " + ("OK" if g["ok"] else "LONG")
+    gap_line += " â€” " + ("OK" if g["ok"] else "LONG")
     lines.append(gap_line)
 
     mt = s.get("model_tier", {})
@@ -411,11 +417,11 @@ def format_discipline_one_liner(s: dict) -> str:
     if s["discipline"] == "HEALTHY":
         return f"Cadence discipline ({s['days']}d): HEALTHY"
     issues_str = "; ".join(s["issues"][:3])
-    return f"Cadence discipline ({s['days']}d): {issues_str} — DRIFT"
+    return f"Cadence discipline ({s['days']}d): {issues_str} â€” DRIFT"
 
 
 def format_conductor_audit(summary: dict) -> str:
-    lines = [f"5-conductor audit ({summary['user_id']}) â€” last {summary['days']} days"]
+    lines = [f"5-conductor audit ({summary['user_id']}) Ã¢â‚¬â€ last {summary['days']} days"]
     if summary["event_count"] == 0:
         lines.append("  (no cadence events in window)")
         return "\n".join(lines)
@@ -508,7 +514,7 @@ def compute_cadence_pressure_report(
 def format_tier_report(s: dict) -> str:
     """Standalone model-tier distribution report."""
     mt = s.get("model_tier", {})
-    lines = [f"Model tier distribution ({s['user_id']}) — last {s['days']} days"]
+    lines = [f"Model tier distribution ({s['user_id']}) â€” last {s['days']} days"]
     if mt.get("total", 0) == 0:
         lines.append("  (no events in window)")
         return "\n".join(lines)
@@ -522,7 +528,7 @@ def format_tier_report(s: dict) -> str:
 
 
 def main() -> int:
-    ap = argparse.ArgumentParser(description="Cadence rhythm auditor — discipline summary.")
+    ap = argparse.ArgumentParser(description="Cadence rhythm auditor â€” discipline summary.")
     ap.add_argument("-u", "--user", default=os.getenv("GRACE_MAR_USER_ID", "grace-mar"))
     ap.add_argument("--days", type=int, default=14, help="Look-back window in days (default 14)")
     ap.add_argument("--json", action="store_true", help="Output JSON instead of text")
@@ -540,7 +546,7 @@ def main() -> int:
         "--gate-path",
         type=Path,
         default=DEFAULT_GATE_PATH,
-        help="recursion-gate.md path for pending count (default: users/grace-mar/recursion-gate.md)",
+        help="recursion-gate.md path for pending count (default: recursion-gate.md)",
     )
     args = ap.parse_args()
 
@@ -577,3 +583,4 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+

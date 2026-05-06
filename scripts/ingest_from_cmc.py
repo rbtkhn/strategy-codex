@@ -28,6 +28,10 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_USER_ID = os.getenv("GRACE_MAR_USER_ID", "grace-mar").strip() or "grace-mar"
+if str(REPO_ROOT / "scripts") not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT / "scripts"))
+
+from repo_io import profile_dir
 
 
 def _get_cmc_path() -> Path | None:
@@ -166,7 +170,7 @@ def stage_insights(
         print("error: CMC repo not found. Set CIVILIZATION_MEMORY_PATH or clone to research/repos/civilization_memory/", file=sys.stderr)
         return []
 
-    gate_path = REPO_ROOT / "users" / user_id / "recursion-gate.md"
+    gate_path = profile_dir(user_id) / "recursion-gate.md"
     scholar_files = _scholar_files(cmc_root, civilization)
 
     if not scholar_files:

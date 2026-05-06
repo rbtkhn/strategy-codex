@@ -2,7 +2,7 @@
 """
 Boundary coverage — entity and IX counts from self.md.
 
-Parses users/[id]/self.md and reports:
+Parses self.md and reports:
 - Entity counts per category (movies, books, places, foods, activities, etc.)
 - IX-A / IX-B / IX-C entry counts (post-seed growth dimensions)
 
@@ -17,10 +17,11 @@ Usage:
 import argparse
 import re
 import sys
-from pathlib import Path
 
-REPO_ROOT = Path(__file__).resolve().parent.parent
-USERS_DIR = REPO_ROOT / "users"
+try:
+    from repo_io import profile_dir
+except ImportError:
+    from scripts.repo_io import profile_dir
 
 
 def _count_entries(content: str, prefix: str) -> int:
@@ -81,7 +82,7 @@ def _extract_favorites(content: str) -> dict[str, int]:
 
 def run(user_id: str = "grace-mar", json_out: bool = False) -> dict:
     """Compute boundary coverage for user. Returns dict of counts."""
-    self_path = USERS_DIR / user_id / "self.md"
+    self_path = profile_dir(user_id) / "self.md"
     if not self_path.exists():
         raise SystemExit(f"self.md not found: {self_path}")
 

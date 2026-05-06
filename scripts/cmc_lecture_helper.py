@@ -24,6 +24,10 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_USER_ID = os.getenv("GRACE_MAR_USER_ID", "grace-mar").strip() or "grace-mar"
+if str(REPO_ROOT / "scripts") not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT / "scripts"))
+
+from repo_io import profile_dir
 
 REFLECTION_PROMPT_TEMPLATE = """## CMC Lecture Reflection
 
@@ -153,7 +157,7 @@ def _next_candidate_id(gate_path: Path) -> str:
 
 def stage_to_gate(user_id: str, reflection: str, source_name: str, dry_run: bool = False) -> str | None:
     """Stage the reflection as a SKILLS/THINK candidate."""
-    gate_path = REPO_ROOT / "users" / user_id / "recursion-gate.md"
+    gate_path = profile_dir(user_id) / "recursion-gate.md"
     cid = _next_candidate_id(gate_path)
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 

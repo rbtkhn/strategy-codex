@@ -11,7 +11,7 @@ Usage:
     OPENAI_API_KEY=... python apps/miniapp_server.py
 
 Set PORT (default 5000) for hosting. Enable CORS if Mini App is on a different origin.
-Real-time exchanges are appended to users/<user>/session-transcript.md (same as Telegram).
+Real-time exchanges are appended to <user>/session-transcript.md (same as Telegram).
 SELF-ARCHIVE is updated only when candidates are merged via process_approved_candidates (gated).
 For Telegram webhook: TELEGRAM_BOT_TOKEN, WEBHOOK_BASE_URL (or RENDER_EXTERNAL_URL on Render).
 Family hub: FAMILY_APP_TOKEN, routes /app, /api/family/*.
@@ -41,7 +41,7 @@ load_dotenv(REPO_ROOT / "bot" / ".env")
 
 USER_ID = os.getenv("GRACE_MAR_USER_ID", "grace-mar").strip() or "grace-mar"
 sys.path.insert(0, str(REPO_ROOT / "scripts"))
-from repo_io import assert_canonical_record_layout  # noqa: E402
+from repo_io import assert_canonical_record_layout, profile_dir  # noqa: E402
 
 assert_canonical_record_layout(USER_ID, context="miniapp_server")
 
@@ -74,7 +74,7 @@ app = Flask(
 )
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-4o")
-USER_DIR = REPO_ROOT / "users" / USER_ID
+USER_DIR = profile_dir(USER_ID)
 ARTIFACTS_DIR = USER_DIR / "artifacts"
 SESSION_TRANSCRIPT_PATH = USER_DIR / "session-transcript.md"
 RECURSION_GATE_PATH = USER_DIR / "recursion-gate.md"
@@ -490,7 +490,7 @@ def operator_observations():
 
 @app.route("/operator/artifacts", methods=["POST"])
 def operator_artifacts():
-    """Upload a file to users/<id>/artifacts/ and optionally submit an observation. No markdown editing."""
+    """Upload a file to artifacts/ and optionally submit an observation. No markdown editing."""
     ok, err = _operator_auth()
     if not ok:
         return err

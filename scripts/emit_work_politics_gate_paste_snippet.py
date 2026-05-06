@@ -2,7 +2,7 @@
 """
 Emit a canonical ### CANDIDATE-* markdown snippet for work-politics (RECURSION-GATE paste).
 
-Writes users/<user>/recursion-gate-staging/work-politics-<date>.paste-snippet.md.
+Writes <user>/recursion-gate-staging/work-politics-<date>.paste-snippet.md.
 Does not modify recursion-gate.md. See docs/skill-work/work-politics/LANE-CI.md.
 """
 
@@ -18,6 +18,7 @@ _SCRIPTS = REPO_ROOT / "scripts"
 if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
 
+from repo_io import profile_dir  # noqa: E402
 from stage_gate_candidate import next_candidate_id  # noqa: E402
 
 DEFAULT_USER = "grace-mar"
@@ -31,7 +32,7 @@ def build_snippet(
     channel_key: str,
     summary: str,
 ) -> str:
-    gate_path = REPO_ROOT / "users" / user_id / "recursion-gate.md"
+    gate_path = profile_dir(user_id) / "recursion-gate.md"
     content = (
         gate_path.read_text(encoding="utf-8")
         if gate_path.is_file()
@@ -78,7 +79,7 @@ def main() -> int:
         "--staging-dir",
         type=Path,
         default=None,
-        help="Override output directory (default: users/<user>/recursion-gate-staging)",
+        help="Override output directory (default: <user>/recursion-gate-staging)",
     )
     args = ap.parse_args()
     uid = args.user.strip() or DEFAULT_USER
@@ -87,7 +88,7 @@ def main() -> int:
     ts_full = now.strftime("%Y-%m-%dT%H:%M:%SZ")
     out_dir = args.staging_dir
     if out_dir is None:
-        out_dir = REPO_ROOT / "users" / uid / "recursion-gate-staging"
+        out_dir = profile_dir(uid) / "recursion-gate-staging"
     out_dir.mkdir(parents=True, exist_ok=True)
     path = out_dir / f"work-politics-{ts_date}.paste-snippet.md"
     text = build_snippet(
