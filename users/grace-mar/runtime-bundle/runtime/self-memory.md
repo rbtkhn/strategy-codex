@@ -1,8 +1,12 @@
+# MEMORY SNAPSHOT
+
+> Non-canonical runtime continuity aid. This is not Record truth.
+
 # MEMORY - Self-memory (short / medium / long)
 
 > Not part of the Record. SELF is authoritative. "Ephemeral" = non-gated and rotatable, not "only short-term." See docs/memory-template.md v2.0 (three horizons).
 
-Last rotated: 2026-05-06
+Last rotated: 2026-05-04
 
 ## Short-term
 
