@@ -36,6 +36,12 @@ def main() -> int:
         return 0
     parser = argparse.ArgumentParser(description="Assert canonical root paths exist.")
     parser.add_argument(
+        "--user",
+        "-u",
+        default="",
+        help="Ignored compatibility option for unified validators that always pass a user id.",
+    )
+    parser.add_argument(
         "--strict",
         action="store_true",
         help="Also require self-evidence.md (optional compatibility pointer)",

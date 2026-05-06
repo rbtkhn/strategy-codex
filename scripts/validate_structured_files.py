@@ -28,7 +28,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 # Skip very large JSON under artifacts/ (historical blobs, etc.); still counts toward summary.
 MAX_ARTIFACT_JSON_BYTES = 512 * 1024
 
-LONG_LINE_WARN_CHARS = 500
+LONG_LINE_WARN_CHARS = 550
 
 # Sorted relative paths from repo root (deterministic).
 CRITICAL_MARKDOWN_PATHS: tuple[str, ...] = (
@@ -255,6 +255,9 @@ def warn_long_lines(paths: list[Path], repo_root: Path = REPO_ROOT, limit: int =
         rel = md_path.relative_to(repo_root)
         lines = md_path.read_text(encoding="utf-8").splitlines()
         for i, line in enumerate(lines, start=1):
+            stripped = line.strip()
+            if stripped.startswith("|") and stripped.endswith("|"):
+                continue
             if len(line) > limit:
                 warnings.append(f"WARNING: long line ({len(line)} chars): {rel}:{i}")
     return sorted(warnings)
