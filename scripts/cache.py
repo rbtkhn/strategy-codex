@@ -6,17 +6,24 @@ Import when run as ``python3 scripts/<tool>.py`` (``scripts/`` on sys.path):
 
 from __future__ import annotations
 
+import json
 from functools import lru_cache
 from pathlib import Path
 
-import orjson
+try:
+    import orjson  # type: ignore
+except ModuleNotFoundError:  # pragma: no cover - dependency fallback
+    orjson = None
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
 
 @lru_cache(maxsize=None)
 def _cached_json(path_key: str) -> object:
-    return orjson.loads(Path(path_key).read_bytes())
+    path = Path(path_key)
+    if orjson is not None:
+        return orjson.loads(path.read_bytes())
+    return json.loads(path.read_text(encoding="utf-8"))
 
 
 def load_json_file(path: Path) -> object:

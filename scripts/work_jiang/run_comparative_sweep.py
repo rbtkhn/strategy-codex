@@ -11,7 +11,10 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-import yaml
+try:
+    import yaml
+except ModuleNotFoundError:  # pragma: no cover - dependency fallback
+    yaml = None
 
 ROOT = Path(__file__).resolve().parents[2]
 WORK_DIR = ROOT / "research" / "external" / "work-jiang"
@@ -27,6 +30,11 @@ ANALYSIS_DIR = WORK_DIR / "analysis"
 CLAIMS_PATH = WORK_DIR / "claims" / "registry" / "claims.jsonl"
 GATE_STAGING = profile_dir(DEFAULT_PROFILE_ID) / "recursion-gate-staging"
 DEFAULT_GATE_USER = DEFAULT_PROFILE_ID
+
+
+def _require_yaml() -> None:
+    if yaml is None:
+        raise RuntimeError("PyYAML is required for work_jiang/run_comparative_sweep.py")
 
 
 def _paste_snippet_markdown(ts: str, ts_full: str, sweep_md_rel: str, *, user_id: str) -> str:
@@ -89,6 +97,7 @@ def main() -> int:
     parser.add_argument("--since", type=str, default="", help="Only include files modified after this ISO date (optional)")
     args = parser.parse_args()
 
+    _require_yaml()
     state: dict = {}
     if STATE_PATH.exists():
         state = yaml.safe_load(STATE_PATH.read_text(encoding="utf-8")) or {}

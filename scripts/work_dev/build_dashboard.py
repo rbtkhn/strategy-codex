@@ -15,7 +15,10 @@ from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
 
-import yaml
+try:
+    import yaml
+except ModuleNotFoundError:  # pragma: no cover - dependency fallback
+    yaml = None
 
 _SCRIPTS = Path(__file__).resolve().parent.parent
 if str(_SCRIPTS) not in sys.path:
@@ -25,12 +28,17 @@ from gate_block_parser import mean_pending_provenance_from_path  # noqa: E402
 from repo_io import DEFAULT_PROFILE_ID, profile_dir  # noqa: E402
 
 from work_dev.dashboard_models import DashboardSummary  # noqa: E402
-from work_dev.evaluate_autonomy_tiers import shadow_autonomy_snapshot  # noqa: E402
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 
 
+def _require_yaml() -> None:
+    if yaml is None:
+        raise RuntimeError("PyYAML is required for work_dev/build_dashboard.py")
+
+
 def _count_integration_status(control_plane: Path) -> dict[str, int]:
+    _require_yaml()
     p = control_plane / "integration_status.yaml"
     data = yaml.safe_load(p.read_text(encoding="utf-8"))
     c: Counter[str] = Counter()
@@ -79,6 +87,7 @@ def count_jsonl_events(path: Path, *, event_name: str | None = None) -> int:
 
 
 def _open_gap_ids(control_plane: Path) -> list[str]:
+    _require_yaml()
     p = control_plane / "known_gaps.yaml"
     data = yaml.safe_load(p.read_text(encoding="utf-8"))
     out: list[str] = []
@@ -142,6 +151,16 @@ def provenance_score_from_recursion_gate(gate_path: Path) -> float | None:
 
 
 def build_dashboard(*, user_id: str, repo_root: Path) -> DashboardSummary:
+    try:
+        from work_dev.evaluate_autonomy_tiers import shadow_autonomy_snapshot  # noqa: E402
+    except ModuleNotFoundError:
+        def shadow_autonomy_snapshot(_repo_root: Path) -> dict[str, object]:
+            return {
+                "line_count": 0,
+                "tier_status": "dependency_missing",
+                "profile": "low_risk_staging_suggestions",
+            }
+
     cp = repo_root / "docs" / "skill-work" / "work-dev" / "control-plane"
     user_root = profile_dir(user_id)
     pe = user_root / "pipeline-events.jsonl"
