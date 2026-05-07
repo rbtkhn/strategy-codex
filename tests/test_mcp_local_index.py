@@ -1,4 +1,4 @@
-"""Tests for scripts/mcp_local_index.py — allowlist, traversal, receipts."""
+﻿"""Tests for scripts/mcp_local_index.py â€” allowlist, traversal, receipts."""
 
 from __future__ import annotations
 
@@ -27,7 +27,7 @@ def _minimal_allowlist_yaml(max_bytes: int = 250_000) -> dict:
         "version": 1,
         "allowed_roots": ["docs/"],
         "blocked_roots": [
-            "users/grace-mar/",
+            "",
             ".git/",
             "secrets/",
             "private/",
@@ -123,7 +123,7 @@ def test_valid_docs_dir_index_generates_packet(monkeypatch: pytest.MonkeyPatch, 
     assert outp is not None
     body = outp.read_text(encoding="utf-8")
     banner = (
-        "LOCAL READ-ONLY DIRECTORY INDEX · WORK ARTIFACT · NO NETWORK · NO CREDENTIALS · "
+        "LOCAL READ-ONLY DIRECTORY INDEX Â· WORK ARTIFACT Â· NO NETWORK Â· NO CREDENTIALS Â· "
         "NOT APPROVED INTEGRATION"
     )
     assert banner in body
@@ -153,7 +153,7 @@ def test_dotdot_path_fails(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> N
 
 
 def test_users_grace_mar_fails(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
-    doc = _base_doc("users/grace-mar/")
+    doc = _base_doc("")
     assert _run(monkeypatch, tmp_path, doc)[0] == 1
 
 
@@ -341,3 +341,4 @@ def test_repo_example_cli_smoke() -> None:
     assert "LOCAL READ-ONLY DIRECTORY INDEX" in body
     assert "mcp-local-index-adapter.md" in body or "docs/mcp" in body
     out_md.unlink(missing_ok=True)
+

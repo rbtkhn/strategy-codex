@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
 """
-Shared I/O and path helpers for Grace-Mar scripts.
+Shared I/O and path helpers for strategy-codex scripts.
 
-Single place for REPO_ROOT, fork namespace (users/<id>), default fork id, and
-optional per-fork config. Designed for multi-tenant boundaries: each fork is
-isolated under its own directory; quotas, retention, and permissions are
-per-fork. See docs/fork-isolation-and-multi-tenant.md.
+The repository now uses a sole-operator layout: canonical Record surfaces live
+at the repository root. This module remains the single place for REPO_ROOT and
+the canonical path helpers used by scripts and docs.
 """
 
 import json
@@ -14,11 +13,12 @@ from pathlib import Path
 from typing import Any
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-USERS_DIR = REPO_ROOT / "users"
-DEFAULT_USER_ID = (os.getenv("GRACE_MAR_USER_ID", "grace-mar").strip() or "grace-mar")
+DEFAULT_PROFILE_ID = (os.getenv("GRACE_MAR_USER_ID", "strategy-codex").strip() or "strategy-codex")
+# Back-compat alias for scripts that still import the older constant name.
+DEFAULT_USER_ID = DEFAULT_PROFILE_ID
 
-# Authoritative on-disk names under users/<id>/. Docs may say SELF/EVIDENCE as concepts;
-# filenames are always these. See docs/canonical-paths.md.
+# Authoritative on-disk names live at the repository root. Docs may say SELF/EVIDENCE
+# as concepts; filenames are always these. See docs/canonical-paths.md.
 CANONICAL_EVIDENCE_BASENAME = "self-archive.md"
 CANONICAL_RECORD_FILES_REQUIRED: tuple[str, ...] = (
     "self.md",
@@ -35,45 +35,34 @@ def read_path(path: Path) -> str:
 
 
 def profile_dir(user_id: str) -> Path:
-    """Return users/<user_id> directory under repo root (fork namespace root)."""
-    return REPO_ROOT / "users" / user_id
+    """Return the canonical repository-root profile directory."""
+    return REPO_ROOT
 
 
 def fork_root(fork_id: str) -> Path:
-    """Alias for profile_dir: the filesystem root for this fork. All fork data lives under this path."""
+    """Alias for profile_dir: the filesystem root for the sole operator profile."""
     return profile_dir(fork_id)
 
 
 def list_forks() -> list[str]:
     """
-    Discover fork IDs by scanning users/ for directories that contain at least one
-    canonical fork file (self.md or recursion-gate.md). Ignores non-directories and
-    hidden dirs. Order is arbitrary.
+    Return the sole operator profile identifier when the canonical root files exist.
     """
-    if not USERS_DIR.exists():
-        return []
-    out = []
-    for path in USERS_DIR.iterdir():
-        if not path.is_dir() or path.name.startswith("."):
-            continue
-        if (path / "self.md").exists() or (path / "recursion-gate.md").exists():
-            out.append(path.name)
-    return sorted(out)
+    if (REPO_ROOT / "self.md").exists() or (REPO_ROOT / "recursion-gate.md").exists():
+        return [DEFAULT_PROFILE_ID]
+    return []
 
 
 def fork_config_path(fork_id: str) -> Path:
-    """Path to optional per-fork config (JSON). Schema: docs/fork-isolation-and-multi-tenant.md §7."""
-    return fork_root(fork_id) / "fork-config.json"
+    """Path to optional profile config (JSON)."""
+    return REPO_ROOT / "fork-config.json"
 
 
 def missing_canonical_record_files(user_id: str) -> list[str]:
     """
-    Return basenames missing under users/<user_id>/. Empty list if all required exist.
-    If the user directory does not exist, returns a single sentinel entry.
+    Return basenames missing under the repository root. Empty list if all required exist.
     """
     root = profile_dir(user_id)
-    if not root.is_dir():
-        return ["<users/{0}/ directory missing>".format(user_id)]
     return [name for name in CANONICAL_RECORD_FILES_REQUIRED if not (root / name).is_file()]
 
 
@@ -157,17 +146,16 @@ def self_skills_layout_warnings(user_dir: Path) -> list[str]:
         return []
     legacy = user_dir / "skills.md"
     canon = user_dir / "self-skills.md"
-    rel = user_dir.name
     out: list[str] = []
     if legacy.is_file() and canon.is_file():
         out.append(
-            f"users/{rel}: both skills.md and self-skills.md exist; readers prefer self-skills.md. "
+            "repository root: both skills.md and self-skills.md exist; readers prefer self-skills.md. "
             "Remove skills.md after confirming content is merged."
         )
     elif legacy.is_file() and not canon.is_file():
         out.append(
-            f"users/{rel}: legacy skills.md present; rename to self-skills.md "
-            f"(e.g. python scripts/migrate_legacy_user_filenames.py --user {rel} --apply)."
+            "repository root: legacy skills.md present; rename to self-skills.md "
+            "(e.g. python scripts/migrate_legacy_user_filenames.py --apply)."
         )
     return out
 
@@ -185,9 +173,9 @@ def enforce_canonical_self_skills_layout(user_dir: Path) -> None:
     canon = user_dir / "self-skills.md"
     if legacy.is_file() and not canon.is_file():
         raise RuntimeError(
-            f"Grace-Mar: GRACE_MAR_REQUIRE_CANONICAL_SELF_SKILLS=1 but users/{user_dir.name}/ "
+            "strategy-codex: GRACE_MAR_REQUIRE_CANONICAL_SELF_SKILLS=1 but the repository root "
             "has skills.md without self-skills.md. Migrate: "
-            f"python scripts/migrate_legacy_user_filenames.py --user {user_dir.name} --apply"
+            "python scripts/migrate_legacy_user_filenames.py --apply"
         )
 
 
@@ -203,23 +191,17 @@ def assert_canonical_record_layout(user_id: str, *, context: str = "") -> None:
     missing = missing_canonical_record_files(user_id)
     if missing:
         ctx = f" ({context})" if context else ""
-        fix = (
-            "See docs/canonical-paths.md. If you have legacy uppercase filenames, run:\n"
-            f"  python scripts/migrate_legacy_user_filenames.py --user {user_id} --dry-run\n"
-            f"  python scripts/migrate_legacy_user_filenames.py --user {user_id} --apply"
-        )
+        fix = "See docs/canonical-paths.md. If you have legacy uppercase filenames, migrate them to the root-level canonical names."
         raise RuntimeError(
-            f"Grace-Mar: canonical Record files missing for GRACE_MAR_USER_ID={user_id!r}: {missing}.{ctx}\n{fix}"
+            f"strategy-codex: canonical Record files missing at the repository root: {missing}.{ctx}\n{fix}"
         )
     enforce_canonical_self_skills_layout(profile_dir(user_id))
 
 
 def load_fork_config(fork_id: str) -> dict[str, Any] | None:
     """
-    Load optional per-fork config from users/<fork_id>/fork-config.json.
-    Returns None if file missing or invalid. Callers can use this for quotas,
-    retention overrides, and display_name. Schema and defaults are in
-    docs/fork-isolation-and-multi-tenant.md.
+    Load optional profile config from the repository root.
+    Returns None if file missing or invalid.
     """
     path = fork_config_path(fork_id)
     if not path.exists():

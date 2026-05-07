@@ -1,4 +1,4 @@
-"""Tests for scripts/mcp_manifest_admission.py — classification, gates, receipts."""
+﻿"""Tests for scripts/mcp_manifest_admission.py â€” classification, gates, receipts."""
 
 from __future__ import annotations
 
@@ -48,7 +48,7 @@ def test_infer_github_readonly_mapping() -> None:
 
     manifest = _minimal_manifest()
     manifest["server"]["description"] = (
-        "Read GitHub repository metadata — proposal-only manifest entry."
+        "Read GitHub repository metadata â€” proposal-only manifest entry."
     )
     manifest["permissions"]["network_access"] = "read"
     manifest["permissions"]["credential_requirements"] = "required"
@@ -103,7 +103,7 @@ def test_users_grace_mar_path_blocked_locally() -> None:
     import mcp_manifest_admission as mma
 
     manifest = _minimal_manifest()
-    manifest["permissions"]["reads"] = ["users/grace-mar/self.md"]
+    manifest["permissions"]["reads"] = ["self.md"]
 
     reasons = mma.admission_local_blockers(manifest)
     assert any("users_grace_mar" in r for r in reasons)
@@ -240,7 +240,7 @@ def test_github_readonly_example_packet_success(monkeypatch: pytest.MonkeyPatch,
 
     assert mma.main() == 0
     body = out.read_text(encoding="utf-8")
-    assert "MCP ADMISSION REVIEW · WORK ARTIFACT · NOT ENABLED · NOT APPROVED INTEGRATION" in body
+    assert "MCP ADMISSION REVIEW Â· WORK ARTIFACT Â· NOT ENABLED Â· NOT APPROVED INTEGRATION" in body
     assert "github_readonly" in body
 
     receipts = list(rec_dir.glob("*.json"))
@@ -273,3 +273,4 @@ def test_example_yaml_optional_cli_smoke() -> None:
     body = out_md.read_text(encoding="utf-8")
     assert "MCP ADMISSION REVIEW" in body
     out_md.unlink(missing_ok=True)
+

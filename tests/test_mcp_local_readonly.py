@@ -1,4 +1,4 @@
-"""Tests for scripts/mcp_local_readonly.py — allowlist, reads, receipts."""
+﻿"""Tests for scripts/mcp_local_readonly.py â€” allowlist, reads, receipts."""
 
 from __future__ import annotations
 
@@ -27,7 +27,7 @@ def _minimal_allowlist_yaml(max_bytes: int = 250_000) -> dict:
         "version": 1,
         "allowed_roots": ["docs/"],
         "blocked_roots": [
-            "users/grace-mar/",
+            "",
             ".git/",
             "secrets/",
             "private/",
@@ -115,7 +115,7 @@ def test_valid_docs_read_generates_packet(monkeypatch: pytest.MonkeyPatch, tmp_p
     assert code == 0
     assert outp is not None
     body = outp.read_text(encoding="utf-8")
-    assert "LOCAL READ-ONLY MCP-SHAPED RUN · WORK ARTIFACT · NO NETWORK · NO CREDENTIALS · NOT APPROVED INTEGRATION" in body
+    assert "LOCAL READ-ONLY MCP-SHAPED RUN Â· WORK ARTIFACT Â· NO NETWORK Â· NO CREDENTIALS Â· NOT APPROVED INTEGRATION" in body
     assert "NO NETWORK" in body and "NO CREDENTIALS" in body and "NOT APPROVED INTEGRATION" in body
     assert "receipt_id:" in body
 
@@ -161,7 +161,7 @@ def test_users_grace_mar_fails(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) 
         "request": {
             "id": "bad",
             "declared_intent": "x",
-            "path": "users/grace-mar/self.md",
+            "path": "self.md",
             "include_excerpt": False,
             "max_excerpt_chars": 0,
         },
@@ -325,3 +325,4 @@ def test_repo_example_cli_smoke() -> None:
     body = out_md.read_text(encoding="utf-8")
     assert "governed-mcp-layer.md" in body
     out_md.unlink(missing_ok=True)
+

@@ -1,4 +1,4 @@
-"""Tests for scripts/mcp_risk_scan.py — scoring, hard blockers, PROHIBITED_BY_POLICY nuance."""
+﻿"""Tests for scripts/mcp_risk_scan.py â€” scoring, hard blockers, PROHIBITED_BY_POLICY nuance."""
 
 from __future__ import annotations
 
@@ -122,7 +122,7 @@ def test_canonical_record_writes_block(policy_doc: dict) -> None:
     from mcp_risk_scan import evaluate_capability, scan_passes
 
     cap = _base_capability("canon")
-    cap["writes"] = ["users/grace-mar/self.md"]
+    cap["writes"] = ["self.md"]
     f = evaluate_capability(cap, policy_doc)
     assert "write_users_grace_mar_self_md" in f["hard_blockers"]
     assert not scan_passes([f])
@@ -203,3 +203,4 @@ def test_live_registry_scan_passes() -> None:
     assert jp.is_file()
     data = json.loads(jp.read_text(encoding="utf-8"))
     assert data["pass"] is True
+
