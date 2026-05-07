@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0-derived-regeneration-manifest",
-  "generatedAt": "2026-05-02T04:26:31Z",
+  "generatedAt": "2026-05-07T15:05:17Z",
   "recordAuthority": "none",
   "gateEffect": "none",
   "targets": [
@@ -27,6 +27,33 @@
       "dependsOn": [],
       "ownedOutputPatterns": [
         "artifacts/work-dev/derived-regeneration-manifest.json"
+      ]
+    },
+    {
+      "targetId": "rebuild-health-summary",
+      "description": "Derived health summary of repo-owned rebuild receipts",
+      "producerScript": "scripts/report_rebuild_health.py",
+      "policyMode": "Surface",
+      "humanReviewRequired": false,
+      "watchPatterns": [
+        "artifacts/work-dev/rebuild-receipts/**",
+        "artifacts/work-dev/derived-regeneration-manifest.json",
+        "scripts/report_rebuild_health.py"
+      ],
+      "commands": [
+        "python3 scripts/report_rebuild_health.py"
+      ],
+      "outputs": [
+        "artifacts/work-dev/rebuild-health/summary.json"
+      ],
+      "rationaleSidecars": [
+        "artifacts/work-dev/rebuild-health/summary.json.derived-rationale.json"
+      ],
+      "dependsOn": [
+        "derived-regeneration-manifest"
+      ],
+      "ownedOutputPatterns": [
+        "artifacts/work-dev/rebuild-health/summary.json"
       ]
     },
     {

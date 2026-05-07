@@ -54,6 +54,7 @@ Current initial target set:
 First target-coverage expansion:
 
 - work-dev compound / Autoresearch operator summaries
+- rebuild-health summary from receipt history
 
 This is a **small initial set**, not a claim that all rebuildable surfaces are already orchestrated.
 
@@ -72,6 +73,7 @@ These are deliberately separate:
 - derived-artifact rationale sidecars are about **rebuild provenance**
 - rebuild receipts are about **what happened during a run**
 - the manifest is about **declared target coverage**
+- the health summary is about **aggregated receipt visibility** across recent runs
 
 ## Strategy-codex boundary
 
@@ -197,6 +199,7 @@ Next wedges:
 - expand target coverage only where source -> artifact mapping is clear
 - deepen the generated dependency manifest
 - strengthen topological incremental ordering and downstream expansion
+- keep the rebuild-health summary target downstream of the manifest so it can report on actual receipt-backed runs
 - **Sequence each expansion:** (1) register the new target in the generated manifest (run `build_derived_regeneration_manifest.py` so the artifact is declared); (2) confirm `canonical_change_detector.py` lists the canonical sources for that target; (3) run `regenerate_all_derived.py --changed --incremental --dry-run` and only then treat the target as live for non-dry runs.
 - keep optional git hooks as wrappers later, not the primary contract
 

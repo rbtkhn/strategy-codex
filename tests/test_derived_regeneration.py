@@ -1,4 +1,4 @@
-"""Tests for repo-owned derived regeneration helpers and scripts."""
+﻿"""Tests for repo-owned derived regeneration helpers and scripts."""
 
 from __future__ import annotations
 
@@ -39,18 +39,26 @@ def _run(args: list[str | Path], *, check: bool = True) -> subprocess.CompletedP
 
 
 def test_select_targets_for_self_library_change() -> None:
-    selected = select_targets_for_paths(["users/grace-mar/self-library.md"])
+    selected = select_targets_for_paths(["self-library.md"])
     ids = {target.target_id for target in selected}
     assert "library-index" in ids
     assert "review-dashboard" not in ids
 
 
 def test_select_targets_for_recursion_gate_change() -> None:
-    selected = select_targets_for_paths(["users/grace-mar/recursion-gate.md"])
+    selected = select_targets_for_paths(["recursion-gate.md"])
     ids = {target.target_id for target in selected}
     assert "review-dashboard" in ids
     assert "gate-board" in ids
     assert "governance-posture" in ids
+
+
+def test_select_targets_for_rebuild_receipt_change() -> None:
+    selected = select_targets_for_paths(
+        ["artifacts/work-dev/rebuild-receipts/derived-rebuild-20260424-120000.json"]
+    )
+    ids = {target.target_id for target in selected}
+    assert "rebuild-health-summary" in ids
 
 
 def test_change_detector_json_reports_matching_target() -> None:
@@ -58,12 +66,12 @@ def test_change_detector_json_reports_matching_target() -> None:
         [
             CHANGE_DETECTOR,
             "--paths",
-            "users/grace-mar/self-library.md",
+            "self-library.md",
             "--json",
         ]
     )
     payload = json.loads(proc.stdout)
-    assert payload["changedPaths"] == ["users/grace-mar/self-library.md"]
+    assert payload["changedPaths"] == ["self-library.md"]
     target_ids = {row["targetId"] for row in payload["targets"]}
     assert "library-index" in target_ids
 
@@ -81,7 +89,7 @@ def test_regenerate_all_derived_dry_run_writes_receipt(tmp_path: Path) -> None:
         [
             REGEN,
             "--paths",
-            "users/grace-mar/self-library.md",
+            "self-library.md",
             "--dry-run",
             "--receipt-output",
             receipt,
@@ -107,14 +115,14 @@ def test_build_rationale_payload_uses_sidecar_contract() -> None:
         user="grace-mar",
         artifact_path="artifacts/library-index.md",
         generated_at="2026-04-24T12:00:00Z",
-        matched_paths=["users/grace-mar/self-library.md"],
+        matched_paths=["self-library.md"],
     )
     assert payload["producer_script"] == "scripts/build_library_index.py"
     assert payload["policy_mode"] == "Surface"
     assert payload["canonical_surfaces_touched"] is False
     assert payload["artifact_path"] == "artifacts/library-index.md"
     assert payload["rebuild_command"] == "python3 scripts/build_library_index.py"
-    assert payload["inputs"] == ["users/grace-mar/self-library.md"]
+    assert payload["inputs"] == ["self-library.md"]
     assert payload["human_review_required"] is False
 
 
@@ -123,7 +131,11 @@ def test_build_manifest_payload_has_dependency_data() -> None:
     assert payload["schemaVersion"] == "1.0.0-derived-regeneration-manifest"
     targets = {row["targetId"]: row for row in payload["targets"]}
     assert "derived-regeneration-manifest" in targets
+    assert "rebuild-health-summary" in targets
     assert targets["lane-dashboards"]["dependsOn"] == ["work-lanes-dashboard-json"]
+    assert targets["rebuild-health-summary"]["dependsOn"] == [
+        "derived-regeneration-manifest"
+    ]
     assert targets["library-index"]["policyMode"] == "Surface"
     assert targets["library-index"]["rationaleSidecars"] == [
         "artifacts/library-index.md.derived-rationale.json"
@@ -186,6 +198,7 @@ def test_report_rebuild_health_summarizes_receipts(tmp_path: Path) -> None:
 def test_target_registry_contains_expected_foundation_targets() -> None:
     expected = {
         "derived-regeneration-manifest",
+        "rebuild-health-summary",
         "library-index",
         "work-lanes-dashboard-json",
         "lane-dashboards",
@@ -201,3 +214,11 @@ def test_sidecar_path_suffix() -> None:
     assert sidecar_path_for_artifact("artifacts/review-dashboard.md") == (
         "artifacts/review-dashboard.md.derived-rationale.json"
     )
+
+
+def test_incremental_ordering_keeps_health_after_manifest() -> None:
+    selected = [TARGETS_BY_ID["derived-regeneration-manifest"]]
+    expanded = expand_with_downstream(selected)
+    ids = [target.target_id for target in topologically_sort_targets(expanded)]
+    assert ids.index("derived-regeneration-manifest") < ids.index("rebuild-health-summary")
+
