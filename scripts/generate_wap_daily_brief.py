@@ -1052,7 +1052,7 @@ def build_daily_brief(
             "**Fast (same brief):** §**2** RSS headlines + §**1** snapshot — news cycle, principal-adjacent hooks, scored **W / S / G**.",
             "",
             "**Slow (work-jiang):** lecture extractions, compression JSON, comparative sweeps — **structural** context; not a substitute for dated facts. "
-            f"Prefer [SELF-LIBRARY](../../../users/{user_id}/self-library.md) entries (e.g. reference / `lookup_priority`) when library-first lookup applies.",
+            f"Prefer [SELF-LIBRARY](../../../{user_id}/self-library.md) entries (e.g. reference / `lookup_priority`) when library-first lookup applies.",
             "",
             "_From `docs/skill-work/work-strategy/daily-brief-jiang-layer.md` § Active work-jiang hooks._",
             "",
