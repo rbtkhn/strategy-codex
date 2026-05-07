@@ -1,9 +1,9 @@
----
+﻿---
 ingest_date: 2026-05-02
 pub_date: 2026-04-02
 kind: transcript
 thread: mercouris
-show: Alex Mercouris
+show: Mercouris
 host: Alexander Mercouris
 title: "Russia China Act As Trump Iran War Address Fails; Russia Saudi Talks China 5 Point Plan Markets Fall"
 channel_url: "https://www.youtube.com/@AlexMercouris/videos"
@@ -12,4 +12,5 @@ source_url: "https://www.youtube.com/watch?v=nC5IAxI8D3U"
 source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Russia China Act As Trump Iran War Address Fails; Russia Saudi Talks China 5 Point Plan Markets Fall
+
 

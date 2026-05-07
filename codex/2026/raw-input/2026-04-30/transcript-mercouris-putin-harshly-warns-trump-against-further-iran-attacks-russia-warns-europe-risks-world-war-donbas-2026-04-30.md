@@ -2,7 +2,7 @@
 ingest_date: 2026-04-30
 pub_date: 2026-04-30
 kind: transcript
-show: YouTube
+show: Mercouris
 host: Alexander Mercouris
 guest: null
 thread: mercouris
@@ -190,3 +190,4 @@ title_slug: transcript-mercouris-putin-harshly-warns-trump-against-further-iran-
 **Alexander Mercouris:** Now this is we're now going to finish today's program. Let me remind you again to tick the like button and to check your subscription to this channel. Also, please remember to look us up on our various platforms, Locals, Rumble and, and Substack, and also to support us by Patreon and SubscribeStar and via our shop links under this video. I expect that in future programs I'm going to be discussing less the situation in the Middle East and I'm going to come closer to home and talk about what looks to me now the very rapidly developing crisis that we're seeing play out in Europe. But this is for another day.
 
 **Alexander Mercouris:** Let me remind you again says that I'll be back tomorrow and until then have a very good day.
+

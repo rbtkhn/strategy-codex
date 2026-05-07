@@ -1,9 +1,9 @@
----
+﻿---
 ingest_date: 2026-05-02
 pub_date: 2026-03-12
 kind: transcript
 thread: mercouris
-show: Alex Mercouris
+show: Mercouris
 host: Alexander Mercouris
 guest: Iran Leader
 title: "Iran Leader: Keep Hormuz Closed; Tankers Destroyed Oil Surges US No Plan; Moscow: UK Behind Bryansk"
@@ -13,4 +13,5 @@ source_url: "https://www.youtube.com/watch?v=hbl3tuy-CA4"
 source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Iran Leader: Keep Hormuz Closed; Tankers Destroyed Oil Surges US No Plan; Moscow: UK Behind Bryansk
+
 

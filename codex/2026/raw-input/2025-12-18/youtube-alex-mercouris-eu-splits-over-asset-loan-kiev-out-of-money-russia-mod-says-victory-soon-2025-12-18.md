@@ -1,9 +1,9 @@
----
+﻿---
 ingest_date: 2026-05-02
 pub_date: 2025-12-18
 kind: transcript
 thread: mercouris
-show: Alex Mercouris
+show: Mercouris
 host: Alexander Mercouris
 title: "EU Splits Over Asset Loan; Kiev Out Of Money; Russia MoD Says Victory Soon; MI6 Threatens Dirty War"
 channel_url: "https://www.youtube.com/@AlexMercouris/videos"
@@ -12,4 +12,5 @@ source_url: "https://www.youtube.com/watch?v=xZg1_YZDLbQ"
 source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # EU Splits Over Asset Loan; Kiev Out Of Money; Russia MoD Says Victory Soon; MI6 Threatens Dirty War
+
 
