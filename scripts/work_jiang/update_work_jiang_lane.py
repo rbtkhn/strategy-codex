@@ -8,7 +8,7 @@ from pathlib import Path
 import yaml
 
 ROOT = Path(__file__).resolve().parents[2]
-WORK_DIR = ROOT / "research" / "external" / "work-jiang"
+WORK_DIR = ROOT / "codex" / "predictive-history"
 LANE = ROOT / "users" / "grace-mar" / "work-jiang.md"
 
 
@@ -82,3 +82,4 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+

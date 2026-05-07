@@ -1,0 +1,4410 @@
+# Machine-readable book architecture for work-jiang (Geo-Strategy corpus → book/site).
+# Multivolume umbrella: Predictive History — one volume per lecture series.
+# Top-level project + book: Volume I (Geo-Strategy) — SSOT for render_book_architecture.py,
+# validate_work_jiang drift checks, CHAPTER-QUEUE, etc.
+# Nested: volume_2_civilization (civ-chNN), volume_3_secret_history (sh-chNN), volume_4_game_theory (gt-chNN), volume_5_great_books (gb-chNN), volume_6_interviews (vi-chNN), volume_7_essays (es-chNN).
+# volume_4_game_theory: Game Theory book-track — see codex/predictive-history/volume-iv-book-track-conventions.md.
+# volume_5_great_books: Great Books book-track — see codex/predictive-history/volume-v-book-track-conventions.md.
+# volume_6_interviews: Interviews book-track — see codex/predictive-history/volume-vi-book-track-conventions.md.
+# volume_7_essays: Substack essays book-track — see codex/predictive-history/volume-vii-book-track-conventions.md.
+# Render: python scripts/work_jiang/render_book_architecture.py
+
+project:
+  id: work-jiang
+  series_title: "Predictive History"
+  volume:
+    number: 1
+    lecture_series: "Geo-Strategy"
+  title: "Predictive History, Volume 1: Geo-Strategy"
+  thesis_one_sentence: "Jiang offers a civilizational philosophy that links culture, power, education, and historical agency into one system."
+  promise_paragraph: >
+    Part I follows Jiang’s Geo-Strategy lectures in order: one chapter per class session
+    (twenty lectures in the extended classroom arc), transcript-backed, with the same cumulative
+    arc as the original teaching.
+    Each Part I chapter ends with at least three clearly stated predictions drawn from the
+    registry (prediction_id + short claim) for that lecture.
+    Part II, after Chapter 20, uses a deep web and news search against the prediction registry
+    to adjudicate each claim where evidence allows: triangulation across independent sources,
+    time-stamped reporting, and explicit handling of claim types (event vs conditional vs trend
+    vs interpretive). It closes with an overall evaluation of how the lecture series’s
+    forecasts held up—without pretending philosophy reduces to a ledger.
+  audience:
+    primary: "serious general readers interested in history, philosophy, and geopolitics"
+    secondary:
+      - "researchers of civilizational thought"
+      - "readers of Jiang's channel seeking a structured path that mirrors the classroom order"
+  channel_context:
+    platform: YouTube
+    handle: "@PredictiveHistory"
+    subscribers_at_snapshot: 2_110_000
+    snapshot_date: "2026-03-24"
+    avg_views_per_video: 480_000
+    growth_note: "~2,100 new subs/day; 820K gained in last 30 days"
+    niche_position: "Fastest-rising long-form history/geopolitics lecture channel"
+  status: outline_in_progress
+
+# Convention for prose drafts: see CHAPTER-PREDICTION-BOX.md
+chapter_end_predictions:
+  min_per_chapter: 3
+  registry_path: prediction-tracking/registry/predictions.jsonl
+  instruction: >
+    End each Part I chapter with a boxed subsection "Predictions (this lecture)" listing
+    the three prediction_ids below (or more if added later), each with one-sentence claim_summary.
+
+part_2:
+  title: "Part II — Analyzing Jiang's predictions"
+  after_chapter: ch20
+  description: >
+    Deep web and news search against the Part I prediction registry: for each claim, gather
+    time-stamped, citable reporting and triangulate across independent lines of evidence where
+    stakes warrant. Score resolved vs pending vs not evaluable; separate antecedent and
+    consequent for conditional claims; weight trend and interpretive claims by explicit
+    metrics or label them honestly. Record internal tensions between chapters. Finish with an
+    overall evaluation—coverage, hit rate where adjudicable, and what would update confidence
+    in the framework as a whole.
+
+book:
+  chapters:
+    - id: ch01
+      title: "Geo-Strategy #1: Iran’s Strategy Matrix"
+      purpose: "Book chapter for lecture 1 — asymmetry, strategy matrix, Operation True Promise."
+      kind: exposition
+      priority: high
+      target_words: 2800
+      source_ids: [geo-01]
+      analysis_ids: []
+      prediction_ids: [jiang-GS01-001, jiang-GS01-002, jiang-GS01-003]
+      divergence_ids: []
+      applications: []
+      status: analysis_complete
+      owner: operator
+      sprint: "2026-W13"
+      blocking:
+        - "Close analysis gap for geo-01"
+      next_action: "Draft ch01 prose from outline (hook + spine §1–6)"
+      outline_path: "chapters/ch01/outline.md"
+      draft_path: "chapters/ch01/draft.md"
+      analysis_ready: false
+      quotes_ready: true
+      requires_prediction_review: false
+    - id: ch02
+      title: "Geo-Strategy #2: Christian Zionism and the Middle East Conflict"
+      purpose: "Book chapter for lecture 2 — Christianity, end-times frames, Israel lobby thread."
+      kind: exposition
+      priority: high
+      target_words: 2800
+      source_ids: [geo-02]
+      analysis_ids: []
+      prediction_ids: [jiang-GS02-001, jiang-GS02-002, jiang-GS02-003]
+      divergence_ids: []
+      applications: []
+      status: analysis_complete
+      owner: operator
+      sprint: "2026-W14"
+      blocking: []
+      next_action: "Assemble excerpts and argument spine"
+      outline_path: "chapters/ch02/outline.md"
+      draft_path: "chapters/ch02/draft.md"
+      analysis_ready: true
+      quotes_ready: true
+      requires_prediction_review: false
+    - id: ch03
+      title: "Geo-Strategy #3: How Empire Is Destroying America"
+      purpose: "Book chapter for lecture 3 — empire, dollar, financialization, Iran war arc."
+      kind: exposition
+      priority: high
+      target_words: 2800
+      source_ids: [geo-03]
+      analysis_ids: []
+      prediction_ids: [jiang-GS03-001, jiang-GS03-002, jiang-GS03-003]
+      divergence_ids: []
+      applications: []
+      status: analysis_complete
+      owner: operator
+      sprint: "2026-W14"
+      blocking: []
+      next_action: "Assemble excerpts and argument spine"
+      outline_path: "chapters/ch03/outline.md"
+      draft_path: "chapters/ch03/draft.md"
+      analysis_ready: true
+      quotes_ready: true
+      requires_prediction_review: false
+    - id: ch04
+      title: "Geo-Strategy #4: Saudi Arabia’s Trump Card Against Iran"
+      purpose: "Book chapter for lecture 4 — Saudi–Iran rivalry and regional frame."
+      kind: exposition
+      priority: high
+      target_words: 2800
+      source_ids: [geo-04]
+      analysis_ids: []
+      prediction_ids: [jiang-GS04-001, jiang-GS04-002, jiang-GS04-003]
+      divergence_ids: []
+      applications: []
+      status: analysis_complete
+      owner: operator
+      sprint: "2026-W14"
+      blocking: []
+      next_action: "Assemble excerpts and argument spine"
+      outline_path: "chapters/ch04/outline.md"
+      draft_path: "chapters/ch04/draft.md"
+      analysis_ready: true
+      quotes_ready: true
+      requires_prediction_review: false
+    - id: ch05
+      title: "Geo-Strategy #5: Why Trump Will Win (And Pick Nikki Haley as VP)"
+      purpose: "Book chapter for lecture 5 — electoral prediction and coalition logic."
+      kind: exposition
+      priority: high
+      target_words: 2800
+      source_ids: [geo-05]
+      analysis_ids: []
+      prediction_ids: [jiang-GS05-001, jiang-GS05-002, jiang-GS05-003]
+      divergence_ids: []
+      applications: []
+      status: analysis_complete
+      owner: operator
+      sprint: "2026-W14"
+      blocking: []
+      next_action: "Assemble excerpts and argument spine"
+      outline_path: "chapters/ch05/outline.md"
+      draft_path: "chapters/ch05/draft.md"
+      analysis_ready: true
+      quotes_ready: true
+      requires_prediction_review: false
+    - id: ch06
+      title: "Geo-Strategy #6: America’s Imperial Hubris"
+      purpose: "Book chapter for lecture 6 — military culture, shock-and-awe, path dependence."
+      kind: exposition
+      priority: high
+      target_words: 2800
+      source_ids: [geo-06]
+      analysis_ids: []
+      prediction_ids: [jiang-GS06-001, jiang-GS06-002, jiang-GS06-003]
+      divergence_ids: []
+      applications: []
+      status: analysis_complete
+      owner: operator
+      sprint: "2026-W14"
+      blocking: []
+      next_action: "Assemble excerpts and argument spine"
+      outline_path: "chapters/ch06/outline.md"
+      draft_path: "chapters/ch06/draft.md"
+      analysis_ready: true
+      quotes_ready: true
+      requires_prediction_review: false
+    - id: ch07
+      title: "Geo-Strategy #7: Who Killed Iranian President Ebrahim Raisi?"
+      purpose: "Book chapter for lecture 7 — epistemic limits, accident vs adversary readings."
+      kind: analysis
+      priority: high
+      target_words: 2800
+      source_ids: [geo-07]
+      analysis_ids: []
+      prediction_ids: [jiang-GS07-001, jiang-GS07-002, jiang-GS07-003]
+      divergence_ids: []
+      applications: []
+      status: analysis_complete
+      owner: operator
+      sprint: "2026-W14"
+      blocking: []
+      next_action: "Assemble excerpts and argument spine"
+      outline_path: "chapters/ch07/outline.md"
+      draft_path: "chapters/ch07/draft.md"
+      analysis_ready: true
+      quotes_ready: true
+      requires_prediction_review: false
+    - id: ch08
+      title: "Geo-Strategy #8: The Iran Trap"
+      purpose: "Book chapter for lecture 8 — drivers toward war, scenario and trap logic."
+      kind: analysis
+      priority: high
+      target_words: 2800
+      source_ids: [geo-08]
+      analysis_ids: []
+      prediction_ids: [jiang-GS08-001, jiang-GS08-002, jiang-GS08-003]
+      divergence_ids: []
+      applications: []
+      status: analysis_complete
+      owner: operator
+      sprint: "2026-W14"
+      blocking: []
+      next_action: "Assemble excerpts and argument spine"
+      outline_path: "chapters/ch08/outline.md"
+      draft_path: "chapters/ch08/draft.md"
+      analysis_ready: true
+      quotes_ready: true
+      requires_prediction_review: false
+    - id: ch09
+      title: "Geo-Strategy #9: Putin’s War for the Soul of Russia"
+      purpose: "Book chapter for lecture 9 — mobilization, sovereignty narrative, Russia frame."
+      kind: analysis
+      priority: high
+      target_words: 2800
+      source_ids: [geo-09]
+      analysis_ids: []
+      prediction_ids: [jiang-GS09-001, jiang-GS09-002, jiang-GS09-003]
+      divergence_ids: []
+      applications: []
+      status: analysis_complete
+      owner: operator
+      sprint: "2026-W14"
+      blocking: []
+      next_action: "Assemble excerpts and argument spine"
+      outline_path: "chapters/ch09/outline.md"
+      draft_path: "chapters/ch09/draft.md"
+      analysis_ready: true
+      quotes_ready: true
+      requires_prediction_review: false
+    - id: ch10
+      title: "Geo-Strategy #10: Putin’s Strategic Imagination"
+      purpose: "Book chapter for lecture 10 — strategic imagination, historical analogy, forecasts."
+      kind: analysis
+      priority: high
+      target_words: 2800
+      source_ids: [geo-10]
+      analysis_ids: []
+      prediction_ids: [jiang-GS10-001, jiang-GS10-002, jiang-GS10-003]
+      divergence_ids: []
+      applications: []
+      status: analysis_complete
+      owner: operator
+      sprint: "2026-W14"
+      blocking: []
+      next_action: "Assemble excerpts and argument spine"
+      outline_path: "chapters/ch10/outline.md"
+      draft_path: "chapters/ch10/draft.md"
+      analysis_ready: true
+      quotes_ready: true
+      requires_prediction_review: false
+    - id: ch11
+      title: "Geo-Strategy #11: The Second American Civil War"
+      purpose: "Book chapter for lecture 11 — polarization, violence culture, civil-war framing."
+      kind: analysis
+      priority: high
+      target_words: 2800
+      source_ids: [geo-11]
+      analysis_ids: []
+      prediction_ids: [jiang-GS11-001, jiang-GS11-002, jiang-GS11-003]
+      divergence_ids: []
+      applications: []
+      status: analysis_complete
+      owner: operator
+      sprint: "2026-W14"
+      blocking: []
+      next_action: "Assemble excerpts and argument spine"
+      outline_path: "chapters/ch11/outline.md"
+      draft_path: "chapters/ch11/draft.md"
+      analysis_ready: true
+      quotes_ready: true
+      requires_prediction_review: false
+    - id: ch12
+      title: "Geo-Strategy #12: Psychohistory (The Science of Imagining the Future)"
+      purpose: "Book chapter for lecture 12 — psychohistory metaphor, AI, hope, method (mid-series pivot before extended arc)."
+      kind: analysis
+      priority: high
+      target_words: 2800
+      source_ids: [geo-12]
+      analysis_ids: []
+      prediction_ids: [jiang-GS12-001, jiang-GS12-002, jiang-GS12-003]
+      divergence_ids: []
+      applications: []
+      status: analysis_complete
+      owner: operator
+      sprint: "2026-W14"
+      blocking: []
+      next_action: "Assemble excerpts and argument spine"
+      outline_path: "chapters/ch12/outline.md"
+      draft_path: "chapters/ch12/draft.md"
+      analysis_ready: true
+      quotes_ready: true
+      requires_prediction_review: false
+    - id: ch13
+      title: "Geo-Strategy #13: US-Iran War Incoming"
+      purpose: "Book chapter for lecture 13 — regime-change template, Iran asymmetry, game-theory pivot in public method."
+      kind: analysis
+      priority: high
+      target_words: 2800
+      source_ids: [geo-13]
+      analysis_ids: []
+      prediction_ids: [jiang-GS13-001, jiang-GS13-002, jiang-GS13-003]
+      divergence_ids: []
+      applications: []
+      status: analysis_complete
+      owner: operator
+      sprint: "2026-W14"
+      blocking: []
+      next_action: "Assemble excerpts and argument spine"
+      outline_path: "chapters/ch13/outline.md"
+      draft_path: "chapters/ch13/draft.md"
+      analysis_ready: true
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: ch14
+      title: "Geo-Strategy #14: WWIII Begins, Let's Game Theory"
+      purpose: "Book chapter for lecture 14 — escalation ladder, ground-troop trap, game-theoretic player map after strikes."
+      kind: analysis
+      priority: high
+      target_words: 2800
+      source_ids: [geo-14]
+      analysis_ids: []
+      prediction_ids: [jiang-GS14-001, jiang-GS14-002, jiang-GS14-003]
+      divergence_ids: []
+      applications: []
+      status: analysis_missing
+      owner: operator
+      sprint: TBD
+      blocking:
+        - "Complete analysis memo for geo-14"
+      next_action: "CIV-MEM / PSY-HIST analysis pass; then outline"
+      outline_path: "chapters/ch14/outline.md"
+      draft_path: "chapters/ch14/draft.md"
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: ch15
+      title: "Geo-Strategy #15: The Messianic Calling"
+      purpose: "Book chapter for lecture 15 — Trump, Khamenei, Netanyahu as messianic actors; ceasefire as narrative war."
+      kind: analysis
+      priority: high
+      target_words: 2800
+      source_ids: [geo-15]
+      analysis_ids: []
+      prediction_ids: [jiang-GS15-001, jiang-GS15-002, jiang-GS15-003]
+      divergence_ids: []
+      applications: []
+      status: analysis_missing
+      owner: operator
+      sprint: TBD
+      blocking:
+        - "Complete analysis memo for geo-15"
+      next_action: "CIV-MEM / PSY-HIST analysis pass; then outline"
+      outline_path: "chapters/ch15/outline.md"
+      draft_path: "chapters/ch15/draft.md"
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: ch16
+      title: "Geo-Strategy #16: Newton's Divine Plan"
+      purpose: "Book chapter for lecture 16 — Christian Zionism intellectual line; Iranian restraint as escalation strategy; temple/eschatology frame."
+      kind: analysis
+      priority: high
+      target_words: 2800
+      source_ids: [geo-16]
+      analysis_ids: []
+      prediction_ids: [jiang-GS16-001, jiang-GS16-002, jiang-GS16-003]
+      divergence_ids: []
+      applications: []
+      status: analysis_missing
+      owner: operator
+      sprint: TBD
+      blocking:
+        - "Complete analysis memo for geo-16"
+      next_action: "CIV-MEM / PSY-HIST analysis pass; then outline"
+      outline_path: "chapters/ch16/outline.md"
+      draft_path: "chapters/ch16/draft.md"
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: ch17
+      title: "Geo-Strategy #17: The Universal Law of Game Theory"
+      purpose: "Book chapter for lecture 17 — game theory as civilizational force; Christian Zionism power after Newton frame."
+      kind: analysis
+      priority: high
+      target_words: 2800
+      source_ids: [geo-17]
+      analysis_ids: []
+      prediction_ids: [jiang-GS17-001, jiang-GS17-002, jiang-GS17-003]
+      divergence_ids: []
+      applications: []
+      status: analysis_missing
+      owner: operator
+      sprint: TBD
+      blocking:
+        - "Complete analysis memo for geo-17"
+      next_action: "CIV-MEM / PSY-HIST analysis pass; then outline"
+      outline_path: "chapters/ch17/outline.md"
+      draft_path: "chapters/ch17/draft.md"
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: ch18
+      title: "Geo-Strategy #18: Is Putin the Ubermensch?"
+      purpose: "Book chapter for lecture 18 — Israel–Iran strike chatter, Ukraine ultimatum, NATO resupply; Putin as world-historical figure."
+      kind: analysis
+      priority: high
+      target_words: 2800
+      source_ids: [geo-18]
+      analysis_ids: []
+      prediction_ids: [jiang-GS18-001, jiang-GS18-002, jiang-GS18-003]
+      divergence_ids: []
+      applications: []
+      status: analysis_missing
+      owner: operator
+      sprint: TBD
+      blocking:
+        - "Complete analysis memo for geo-18"
+      next_action: "CIV-MEM / PSY-HIST analysis pass; then outline"
+      outline_path: "chapters/ch18/outline.md"
+      draft_path: "chapters/ch18/draft.md"
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: ch19
+      title: "Geo-Strategy #19: When Eschatologies Converge"
+      purpose: "Book chapter for lecture 19 — hybrid warfare (mostly unseen); regime-change commitment; eschatological stacks."
+      kind: analysis
+      priority: high
+      target_words: 2800
+      source_ids: [geo-19]
+      analysis_ids: []
+      prediction_ids: [jiang-GS19-001, jiang-GS19-002, jiang-GS19-003]
+      divergence_ids: []
+      applications: []
+      status: analysis_missing
+      owner: operator
+      sprint: TBD
+      blocking:
+        - "Complete analysis memo for geo-19"
+      next_action: "CIV-MEM / PSY-HIST analysis pass; then outline"
+      outline_path: "chapters/ch19/outline.md"
+      draft_path: "chapters/ch19/draft.md"
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: ch20
+      title: "Geo-Strategy #20 (END): Why the West Is Doomed"
+      purpose: "Book chapter for lecture 20 — Volume I extended finale: Western collapse thesis, demographic/immigration stress, elite dynamics."
+      kind: analysis
+      priority: high
+      target_words: 2800
+      source_ids: [geo-20]
+      analysis_ids: []
+      prediction_ids: [jiang-GS20-001, jiang-GS20-002, jiang-GS20-003]
+      divergence_ids: []
+      applications: []
+      status: analysis_missing
+      owner: operator
+      sprint: TBD
+      blocking:
+        - "Complete analysis memo for geo-20"
+      next_action: "CIV-MEM / PSY-HIST analysis pass; then outline"
+      outline_path: "chapters/ch20/outline.md"
+      draft_path: "chapters/ch20/draft.md"
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+
+appendix:
+  items:
+    - id: app-a
+      title: "Prediction scorecard"
+      source: prediction-tracking
+    - id: app-b
+      title: "Divergence from mainstream interpretations"
+      source: divergence-tracking
+
+website:
+  sections:
+    - id: web-home
+      title: "Overview"
+    - id: web-thesis
+      title: "Core thesis"
+    - id: web-predictions
+      title: "Predictions"
+
+# --- Volume II (Civilization) — nested book-track; see codex/predictive-history/volume-ii-book-track-conventions.md ---
+
+volume_2_civilization:
+  project:
+    id: work-jiang-volume-2
+    series_title: Predictive History
+    volume:
+      number: 2
+      lecture_series: Civilization
+    title: 'Predictive History, Volume 2: Civilization'
+    thesis_one_sentence: TBD — set when Volume II Part I book thesis is drafted (lecture-faithful arc; see book/VOLUME-II-CIVILIZATION.md).
+    promise_paragraph: Part I follows Jiang's Civilization lectures in classroom order, transcript-backed (`lectures/civilization-*.md`, registry `civ-*` in `metadata/sources.yaml`). Each Part I chapter ends with a Divergence box (not a prediction scorecard). Part II applies historiographic divergence methods — see book/PART-II-CIVILIZATION-DIVERGENCE.md.
+    audience:
+      primary: serious general readers interested in history, philosophy, and civilizational argument
+      secondary:
+      - readers following the Civilization classroom series on @PredictiveHistory
+    channel_context:
+      platform: YouTube
+      handle: '@PredictiveHistory'
+      status: book_track_wired
+  chapter_end_divergence:
+    registry_path: divergence-tracking/registry/divergences.jsonl
+    instruction: End each Part I chapter with a boxed subsection per CHAPTER-DIVERGENCE-BOX.md — divergence IDs from divergences.jsonl where linked; not chapter_end_predictions (Volume I only).
+  part_2:
+    title: Part II — Divergence (Civilization)
+    after_chapter: civ-ch60
+    description: Historiography and divergence — how Jiang's claims compare to named mainstream or contested positions, using divergence-tracking and book/PART-II-CIVILIZATION-DIVERGENCE.md. Not a forecast scorecard.
+  book:
+    chapters:
+    - id: civ-ch01
+      title: 'Civilization #1: Explaining Humanity''s Transition to Agriculture'
+      purpose: Book chapter for Civilization lecture 1 — Volume II Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md.
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - civ-01
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for civ-01; then draft chapter outline
+      outline_path: chapters-volume-ii/civ-ch01/outline.md
+      draft_path: chapters-volume-ii/civ-ch01/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: civ-ch02
+      title: 'Civilization #2: Religion and the Dawn of Society'
+      purpose: Book chapter for Civilization lecture 2 — Volume II Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md.
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - civ-02
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for civ-02; then draft chapter outline
+      outline_path: chapters-volume-ii/civ-ch02/outline.md
+      draft_path: chapters-volume-ii/civ-ch02/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: civ-ch03
+      title: 'Civilization #3: The Religious Imagination'
+      purpose: Book chapter for Civilization lecture 3 — Volume II Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md.
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - civ-03
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for civ-03; then draft chapter outline
+      outline_path: chapters-volume-ii/civ-ch03/outline.md
+      draft_path: chapters-volume-ii/civ-ch03/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: civ-ch04
+      title: 'Civilization #4: The Paradise Lost of Marija Gimbutas'
+      purpose: Book chapter for Civilization lecture 4 — Volume II Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md.
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - civ-04
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for civ-04; then draft chapter outline
+      outline_path: chapters-volume-ii/civ-ch04/outline.md
+      draft_path: chapters-volume-ii/civ-ch04/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: civ-ch05
+      title: 'Civilization #5: The Yamnaya Conquest of Europe'
+      purpose: Book chapter for Civilization lecture 5 — Volume II Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md.
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - civ-05
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for civ-05; then draft chapter outline
+      outline_path: chapters-volume-ii/civ-ch05/outline.md
+      draft_path: chapters-volume-ii/civ-ch05/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: civ-ch06
+      title: 'Civilization #6: Elite Overproduction and the Bronze Age Collapse'
+      purpose: Book chapter for Civilization lecture 6 — Volume II Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md.
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - civ-06
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for civ-06; then draft chapter outline
+      outline_path: chapters-volume-ii/civ-ch06/outline.md
+      draft_path: chapters-volume-ii/civ-ch06/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: civ-ch07
+      title: 'Civilization #7: Homer''s Iliad and the Birth of Greek Civilization'
+      purpose: Book chapter for Civilization lecture 7 — Volume II Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md.
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - civ-07
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for civ-07; then draft chapter outline
+      outline_path: chapters-volume-ii/civ-ch07/outline.md
+      draft_path: chapters-volume-ii/civ-ch07/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: civ-ch08
+      title: 'Civilization #8: Rat Utopia and the Peloponnesian War'
+      purpose: Book chapter for Civilization lecture 8 — Volume II Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md.
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - civ-08
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for civ-08; then draft chapter outline
+      outline_path: chapters-volume-ii/civ-ch08/outline.md
+      draft_path: chapters-volume-ii/civ-ch08/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: civ-ch09
+      title: 'Civilization #9: Aeschylus, Sophocles, and Euripides as Prophets of Democracy'
+      purpose: Book chapter for Civilization lecture 9 — Volume II Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md.
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - civ-09
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for civ-09; then draft chapter outline
+      outline_path: chapters-volume-ii/civ-ch09/outline.md
+      draft_path: chapters-volume-ii/civ-ch09/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: civ-ch10
+      title: 'Civilization #10: The Trial of Socrates and Plato''s Allegory of the Cave'
+      purpose: Book chapter for Civilization lecture 10 — Volume II Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md.
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - civ-10
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for civ-10; then draft chapter outline
+      outline_path: chapters-volume-ii/civ-ch10/outline.md
+      draft_path: chapters-volume-ii/civ-ch10/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: civ-ch11
+      title: 'Civilization #11: The Greatness of Philip II of Macedon'
+      purpose: Book chapter for Civilization lecture 11 — Volume II Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md.
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - civ-11
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for civ-11; then draft chapter outline
+      outline_path: chapters-volume-ii/civ-ch11/outline.md
+      draft_path: chapters-volume-ii/civ-ch11/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: civ-ch12
+      title: 'Civilization #12: The Tyranny of Alexander the Great'
+      purpose: Book chapter for Civilization lecture 12 — Volume II Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md.
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - civ-12
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for civ-12; then draft chapter outline
+      outline_path: chapters-volume-ii/civ-ch12/outline.md
+      draft_path: chapters-volume-ii/civ-ch12/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: civ-ch13
+      title: 'Civilization #13: Aristotle and the Greek Legacy'
+      purpose: Book chapter for Civilization lecture 13 — Volume II Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md.
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - civ-13
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for civ-13; then draft chapter outline
+      outline_path: chapters-volume-ii/civ-ch13/outline.md
+      draft_path: chapters-volume-ii/civ-ch13/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: civ-ch14
+      title: 'Civilization #14: Hannibal Barca, Lucius Brutus, and the Triumph of Rome'
+      purpose: Book chapter for Civilization lecture 14 — Volume II Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md.
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - civ-14
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for civ-14; then draft chapter outline
+      outline_path: chapters-volume-ii/civ-ch14/outline.md
+      draft_path: chapters-volume-ii/civ-ch14/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: civ-ch15
+      title: 'Civilization #15: The Myth-Making Genius of Julius Caesar'
+      purpose: Book chapter for Civilization lecture 15 — Volume II Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md.
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - civ-15
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for civ-15; then draft chapter outline
+      outline_path: chapters-volume-ii/civ-ch15/outline.md
+      draft_path: chapters-volume-ii/civ-ch15/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: civ-ch16
+      title: 'Civilization #16: Julius Caesar''s Will and Octavian''s Birth of Empire'
+      purpose: Book chapter for Civilization lecture 16 — Volume II Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md.
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - civ-16
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for civ-16; then draft chapter outline
+      outline_path: chapters-volume-ii/civ-ch16/outline.md
+      draft_path: chapters-volume-ii/civ-ch16/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: civ-ch17
+      title: 'Civilization #17: Homer, Virgil, and the War for the Soul of Rome'
+      purpose: Book chapter for Civilization lecture 17 — Volume II Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md.
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - civ-17
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for civ-17; then draft chapter outline
+      outline_path: chapters-volume-ii/civ-ch17/outline.md
+      draft_path: chapters-volume-ii/civ-ch17/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: civ-ch18
+      title: 'Civilization #18: The Great Pyramid as Ancient Egypt''s Manhattan Project'
+      purpose: Book chapter for Civilization lecture 18 — Volume II Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md.
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - civ-18
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for civ-18; then draft chapter outline
+      outline_path: chapters-volume-ii/civ-ch18/outline.md
+      draft_path: chapters-volume-ii/civ-ch18/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: civ-ch19
+      title: 'Civilization #19: Gilgamesh and Mesopotamia''s Quest for Immortality'
+      purpose: Book chapter for Civilization lecture 19 — Volume II Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md.
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - civ-19
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for civ-19; then draft chapter outline
+      outline_path: chapters-volume-ii/civ-ch19/outline.md
+      draft_path: chapters-volume-ii/civ-ch19/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: civ-ch20
+      title: 'Civilization #20: The Proto-Buddhists of the Indus Valley (Harappan) Civilization'
+      purpose: Book chapter for Civilization lecture 20 — Volume II Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md.
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - civ-20
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for civ-20; then draft chapter outline
+      outline_path: chapters-volume-ii/civ-ch20/outline.md
+      draft_path: chapters-volume-ii/civ-ch20/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: civ-ch21
+      title: 'Civilization #21: The Apology of King David of Israel'
+      purpose: Book chapter for Civilization lecture 21 — Volume II Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md.
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - civ-21
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for civ-21; then draft chapter outline
+      outline_path: chapters-volume-ii/civ-ch21/outline.md
+      draft_path: chapters-volume-ii/civ-ch21/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: civ-ch22
+      title: 'Civilization #22: The Literary Genesis of the Yahwist'
+      purpose: Book chapter for Civilization lecture 22 — Volume II Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md.
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - civ-22
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for civ-22; then draft chapter outline
+      outline_path: chapters-volume-ii/civ-ch22/outline.md
+      draft_path: chapters-volume-ii/civ-ch22/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: civ-ch23
+      title: 'Civilization #23: Cyrus the Great as Messiah'
+      purpose: Book chapter for Civilization lecture 23 — Volume II Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md.
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - civ-23
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for civ-23; then draft chapter outline
+      outline_path: chapters-volume-ii/civ-ch23/outline.md
+      draft_path: chapters-volume-ii/civ-ch23/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: civ-ch24
+      title: 'Civilization #24: Resurrecting the Gnostic Jesus'
+      purpose: Book chapter for Civilization lecture 24 — Volume II Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md.
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - civ-24
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for civ-24; then draft chapter outline
+      outline_path: chapters-volume-ii/civ-ch24/outline.md
+      draft_path: chapters-volume-ii/civ-ch24/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: civ-ch25
+      title: 'Civilization #25: Paul of Tarsus, Messiah of Rome'
+      purpose: Book chapter for Civilization lecture 25 — Volume II Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md.
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - civ-25
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for civ-25; then draft chapter outline
+      outline_path: chapters-volume-ii/civ-ch25/outline.md
+      draft_path: chapters-volume-ii/civ-ch25/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: civ-ch26
+      title: 'Civilization #26: Constantine''s Monotheistic Revolution'
+      purpose: Book chapter for Civilization lecture 26 — Volume II Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md.
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - civ-26
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for civ-26; then draft chapter outline
+      outline_path: chapters-volume-ii/civ-ch26/outline.md
+      draft_path: chapters-volume-ii/civ-ch26/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: civ-ch27
+      title: 'Civilization #27: Augustine''s Empire of God'
+      purpose: Book chapter for Civilization lecture 27 — Volume II Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md.
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - civ-27
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for civ-27; then draft chapter outline
+      outline_path: chapters-volume-ii/civ-ch27/outline.md
+      draft_path: chapters-volume-ii/civ-ch27/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: civ-ch28
+      title: 'Civilization #28: Muhammad''s Revolution of God'
+      purpose: Book chapter for Civilization lecture 28 — Volume II Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md.
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - civ-28
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for civ-28; then draft chapter outline
+      outline_path: chapters-volume-ii/civ-ch28/outline.md
+      draft_path: chapters-volume-ii/civ-ch28/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: civ-ch29
+      title: 'Civilization #29: Dante''s Divine Comedy and the Liberation of the Human Imagination'
+      purpose: Book chapter for Civilization lecture 29 — Volume II Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md.
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - civ-29
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for civ-29; then draft chapter outline
+      outline_path: chapters-volume-ii/civ-ch29/outline.md
+      draft_path: chapters-volume-ii/civ-ch29/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: civ-ch30
+      title: 'Civilization #30: Dante as the Second Coming of Homer'
+      purpose: Book chapter for Civilization lecture 30 — Volume II Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md.
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - civ-30
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for civ-30; then draft chapter outline
+      outline_path: chapters-volume-ii/civ-ch30/outline.md
+      draft_path: chapters-volume-ii/civ-ch30/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: civ-ch31
+      title: 'Civilization #31: The Oceanic Currents of History'
+      purpose: Book chapter for Civilization lecture 31 — Volume II Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md.
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - civ-31
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for civ-31; then draft chapter outline
+      outline_path: chapters-volume-ii/civ-ch31/outline.md
+      draft_path: chapters-volume-ii/civ-ch31/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: civ-ch32
+      title: 'Civilization #32: Rome''s Rise, Fall, and Legacy'
+      purpose: Book chapter for Civilization lecture 32 — Volume II Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md.
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - civ-32
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for civ-32; then draft chapter outline
+      outline_path: chapters-volume-ii/civ-ch32/outline.md
+      draft_path: chapters-volume-ii/civ-ch32/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: civ-ch33
+      title: 'Civilization #33: The Rise and Fall of the Byzantine Empire'
+      purpose: Book chapter for Civilization lecture 33 — Volume II Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md.
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - civ-33
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for civ-33; then draft chapter outline
+      outline_path: chapters-volume-ii/civ-ch33/outline.md
+      draft_path: chapters-volume-ii/civ-ch33/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: civ-ch34
+      title: 'Civilization #34: The Useful Fiction of the Holy Roman Empire'
+      purpose: Book chapter for Civilization lecture 34 — Volume II Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md.
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - civ-34
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for civ-34; then draft chapter outline
+      outline_path: chapters-volume-ii/civ-ch34/outline.md
+      draft_path: chapters-volume-ii/civ-ch34/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: civ-ch35
+      title: 'Civilization #35: The Viking Legacy'
+      purpose: Book chapter for Civilization lecture 35 — Volume II Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md.
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - civ-35
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for civ-35; then draft chapter outline
+      outline_path: chapters-volume-ii/civ-ch35/outline.md
+      draft_path: chapters-volume-ii/civ-ch35/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: civ-ch36
+      title: 'Civilization #36: Memory of the Norse'
+      purpose: Book chapter for Civilization lecture 36 — Volume II Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md.
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - civ-36
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for civ-36; then draft chapter outline
+      outline_path: chapters-volume-ii/civ-ch36/outline.md
+      draft_path: chapters-volume-ii/civ-ch36/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: civ-ch37
+      title: 'Civilization #37: The Golden Age of Islam'
+      purpose: Book chapter for Civilization lecture 37 — Volume II Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md.
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - civ-37
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for civ-37; then draft chapter outline
+      outline_path: chapters-volume-ii/civ-ch37/outline.md
+      draft_path: chapters-volume-ii/civ-ch37/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: civ-ch38
+      title: 'Civilization #38: Twilight of the Middle Kingdom'
+      purpose: Book chapter for Civilization lecture 38 — Volume II Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md.
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - civ-38
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for civ-38; then draft chapter outline
+      outline_path: chapters-volume-ii/civ-ch38/outline.md
+      draft_path: chapters-volume-ii/civ-ch38/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: civ-ch39
+      title: 'Civilization #39: Genghis Khan, World Shatterer'
+      purpose: Book chapter for Civilization lecture 39 — Volume II Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md.
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - civ-39
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for civ-39; then draft chapter outline
+      outline_path: chapters-volume-ii/civ-ch39/outline.md
+      draft_path: chapters-volume-ii/civ-ch39/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: civ-ch40
+      title: 'Civilization #40: Church and Empire'
+      purpose: Book chapter for Civilization lecture 40 — Volume II Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md.
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - civ-40
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for civ-40; then draft chapter outline
+      outline_path: chapters-volume-ii/civ-ch40/outline.md
+      draft_path: chapters-volume-ii/civ-ch40/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: civ-ch41
+      title: 'Civilization #41: Dante''s Quiet Revolution'
+      purpose: Book chapter for Civilization lecture 41 — Volume II Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md.
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - civ-41
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for civ-41; then draft chapter outline
+      outline_path: chapters-volume-ii/civ-ch41/outline.md
+      draft_path: chapters-volume-ii/civ-ch41/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: civ-ch42
+      title: 'Civilization #42: The Protestant Reformation and the Birth of Capitalism'
+      purpose: Book chapter for Civilization lecture 42 — Volume II Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md.
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - civ-42
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for civ-42; then draft chapter outline
+      outline_path: chapters-volume-ii/civ-ch42/outline.md
+      draft_path: chapters-volume-ii/civ-ch42/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: civ-ch43
+      title: 'Civilization #43: The Structure of Scientific Revolutions'
+      purpose: Book chapter for Civilization lecture 43 — Volume II Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md.
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - civ-43
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for civ-43; then draft chapter outline
+      outline_path: chapters-volume-ii/civ-ch43/outline.md
+      draft_path: chapters-volume-ii/civ-ch43/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: civ-ch44
+      title: 'Civilization #44: The Spanish Conquest of the New World'
+      purpose: Book chapter for Civilization lecture 44 — Volume II Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md.
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - civ-44
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for civ-44; then draft chapter outline
+      outline_path: chapters-volume-ii/civ-ch44/outline.md
+      draft_path: chapters-volume-ii/civ-ch44/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: civ-ch45
+      title: 'Civilization #45: The Gunpowder Revolution'
+      purpose: Book chapter for Civilization lecture 45 — Volume II Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md.
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - civ-45
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for civ-45; then draft chapter outline
+      outline_path: chapters-volume-ii/civ-ch45/outline.md
+      draft_path: chapters-volume-ii/civ-ch45/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: civ-ch46
+      title: 'Civilization #46: The Revolution of Reason'
+      purpose: Book chapter for Civilization lecture 46 — Volume II Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md.
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - civ-46
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for civ-46; then draft chapter outline
+      outline_path: chapters-volume-ii/civ-ch46/outline.md
+      draft_path: chapters-volume-ii/civ-ch46/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: civ-ch47
+      title: 'Civilization #47: The Passion of Robespierre'
+      purpose: Book chapter for Civilization lecture 47 — Volume II Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md.
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - civ-47
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for civ-47; then draft chapter outline
+      outline_path: chapters-volume-ii/civ-ch47/outline.md
+      draft_path: chapters-volume-ii/civ-ch47/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: civ-ch48
+      title: 'Civilization #48: Napoleon''s Empire of Myth'
+      purpose: Book chapter for Civilization lecture 48 — Volume II Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md.
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - civ-48
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for civ-48; then draft chapter outline
+      outline_path: chapters-volume-ii/civ-ch48/outline.md
+      draft_path: chapters-volume-ii/civ-ch48/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: civ-ch49
+      title: 'Civilization #49: The Dutch Golden Age and the Rise of the Middle Class'
+      purpose: Book chapter for Civilization lecture 49 — Volume II Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md.
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - civ-49
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for civ-49; then draft chapter outline
+      outline_path: chapters-volume-ii/civ-ch49/outline.md
+      draft_path: chapters-volume-ii/civ-ch49/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: civ-ch50
+      title: 'Civilization #50: Rule, Britannia!'
+      purpose: Book chapter for Civilization lecture 50 — Volume II Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md.
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - civ-50
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for civ-50; then draft chapter outline
+      outline_path: chapters-volume-ii/civ-ch50/outline.md
+      draft_path: chapters-volume-ii/civ-ch50/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: civ-ch51
+      title: 'Civilization #51: Shakespeare''s Language of Empire'
+      purpose: Book chapter for Civilization lecture 51 — Volume II Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md.
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - civ-51
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for civ-51; then draft chapter outline
+      outline_path: chapters-volume-ii/civ-ch51/outline.md
+      draft_path: chapters-volume-ii/civ-ch51/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: civ-ch52
+      title: 'Civilization #52: Empire of Democracy'
+      purpose: Book chapter for Civilization lecture 52 — Volume II Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md.
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - civ-52
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for civ-52; then draft chapter outline
+      outline_path: chapters-volume-ii/civ-ch52/outline.md
+      draft_path: chapters-volume-ii/civ-ch52/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: civ-ch53
+      title: 'Civilization #53: Dostoevsky and the Soul of Russia'
+      purpose: Book chapter for Civilization lecture 53 — Volume II Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md.
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - civ-53
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for civ-53; then draft chapter outline
+      outline_path: chapters-volume-ii/civ-ch53/outline.md
+      draft_path: chapters-volume-ii/civ-ch53/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: civ-ch54
+      title: 'Civilization #54: The German Will to Power'
+      purpose: Book chapter for Civilization lecture 54 — Volume II Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md.
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - civ-54
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for civ-54; then draft chapter outline
+      outline_path: chapters-volume-ii/civ-ch54/outline.md
+      draft_path: chapters-volume-ii/civ-ch54/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: civ-ch55
+      title: 'Civilization #55: Kant, Hegel, and the Theory of Everything'
+      purpose: Book chapter for Civilization lecture 55 — Volume II Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md.
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - civ-55
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for civ-55; then draft chapter outline
+      outline_path: chapters-volume-ii/civ-ch55/outline.md
+      draft_path: chapters-volume-ii/civ-ch55/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: civ-ch56
+      title: 'Civilization #56: What Marx Got Wrong'
+      purpose: Book chapter for Civilization lecture 56 — Volume II Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md.
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - civ-56
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for civ-56; then draft chapter outline
+      outline_path: chapters-volume-ii/civ-ch56/outline.md
+      draft_path: chapters-volume-ii/civ-ch56/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: civ-ch57
+      title: 'Civilization #57: How Modernism Ruined Everything (Re-upload AUDIO FIXED -- Thanks to Gabriel Bessa)'
+      purpose: Book chapter for Civilization lecture 57 — Volume II Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md.
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - civ-57
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for civ-57; then draft chapter outline
+      outline_path: chapters-volume-ii/civ-ch57/outline.md
+      draft_path: chapters-volume-ii/civ-ch57/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: civ-ch58
+      title: 'Civilization #58: Birth of the Nation-State'
+      purpose: Book chapter for Civilization lecture 58 — Volume II Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md.
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - civ-58
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for civ-58; then draft chapter outline
+      outline_path: chapters-volume-ii/civ-ch58/outline.md
+      draft_path: chapters-volume-ii/civ-ch58/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: civ-ch59
+      title: 'Civilization #59: The Man of Steel'
+      purpose: Book chapter for Civilization lecture 59 — Volume II Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md.
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - civ-59
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for civ-59; then draft chapter outline
+      outline_path: chapters-volume-ii/civ-ch59/outline.md
+      draft_path: chapters-volume-ii/civ-ch59/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: civ-ch60
+      title: 'Civilization #60: The Decline and Fall of the American Empire'
+      purpose: Book chapter for Civilization lecture 60 — Volume II Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md.
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - civ-60
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for civ-60; then draft chapter outline
+      outline_path: chapters-volume-ii/civ-ch60/outline.md
+      draft_path: chapters-volume-ii/civ-ch60/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+
+# --- Volume III (Secret History) — nested book-track; see codex/predictive-history/volume-iii-book-track-conventions.md ---
+
+volume_3_secret_history:
+  project:
+    id: work-jiang-volume-3
+    series_title: Predictive History
+    volume:
+      number: 3
+      lecture_series: Secret History
+    title: 'Predictive History, Volume 3: Secret History'
+    thesis_one_sentence: TBD — set when Volume III Part I book thesis is drafted (lecture-faithful arc; see book/VOLUME-III-SECRET-HISTORY.md).
+    promise_paragraph: Part I follows Jiang's Secret History lectures in classroom order, transcript-backed (`lectures/secret-history-*.md`, registry `sh-*` in `metadata/sources.yaml`). Each Part I chapter ends with a Divergence box (mirrors Volume II; not a Geo-style prediction scorecard). Part II method remains operator-chosen — see book/VOLUME-III-SECRET-HISTORY.md.
+    audience:
+      primary: serious general readers interested in history, philosophy, power, and narrative
+      secondary:
+      - readers following the Secret History classroom series on @PredictiveHistory
+    channel_context:
+      platform: YouTube
+      handle: '@PredictiveHistory'
+      status: book_track_wired
+  chapter_end_divergence:
+    registry_path: divergence-tracking/registry/divergences.jsonl
+    instruction: End each Part I chapter with a boxed subsection per CHAPTER-DIVERGENCE-BOX.md — divergence IDs from divergences.jsonl where linked; not chapter_end_predictions (Volume I only).
+  part_2:
+    title: Part II — method TBD (Secret History)
+    after_chapter: sh-ch28
+    description: Operator locks evaluation mode in book/VOLUME-III-SECRET-HISTORY.md (divergence-first default for Part I boxes; Part II may add adjudication or hybrid).
+  book:
+    chapters:
+    - id: sh-ch01
+      title: 'Secret History #1: How Power Works (4K Re-Upload with Audio Fixed)'
+      purpose: Book chapter for Secret History lecture 1 — Volume III Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume III policy).
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - sh-01
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for sh-01; then draft chapter outline
+      outline_path: chapters-volume-iii/sh-ch01/outline.md
+      draft_path: chapters-volume-iii/sh-ch01/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: sh-ch02
+      title: 'Secret History #2: How Societies Collapse'
+      purpose: Book chapter for Secret History lecture 2 — Volume III Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume III policy).
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - sh-02
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for sh-02; then draft chapter outline
+      outline_path: chapters-volume-iii/sh-ch02/outline.md
+      draft_path: chapters-volume-iii/sh-ch02/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: sh-ch03
+      title: 'Secret History #3: Death by Gerontocracy'
+      purpose: Book chapter for Secret History lecture 3 — Volume III Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume III policy).
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - sh-03
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for sh-03; then draft chapter outline
+      outline_path: chapters-volume-iii/sh-ch03/outline.md
+      draft_path: chapters-volume-iii/sh-ch03/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: sh-ch04
+      title: 'Secret History #4: How Evil Triumphs'
+      purpose: Book chapter for Secret History lecture 4 — Volume III Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume III policy).
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - sh-04
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for sh-04; then draft chapter outline
+      outline_path: chapters-volume-iii/sh-ch04/outline.md
+      draft_path: chapters-volume-iii/sh-ch04/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: sh-ch05
+      title: 'Secret History #5: The Birth of Evil'
+      purpose: Book chapter for Secret History lecture 5 — Volume III Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume III policy).
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - sh-05
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for sh-05; then draft chapter outline
+      outline_path: chapters-volume-iii/sh-ch05/outline.md
+      draft_path: chapters-volume-iii/sh-ch05/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: sh-ch06
+      title: 'Secret History #6: The Psychology of Evil (Graphic and Disturbing, Viewer Discretion Advised)'
+      purpose: Book chapter for Secret History lecture 6 — Volume III Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume III policy).
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - sh-06
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for sh-06; then draft chapter outline
+      outline_path: chapters-volume-iii/sh-ch06/outline.md
+      draft_path: chapters-volume-iii/sh-ch06/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: sh-ch07
+      title: 'Secret History #7: Death by Meritocracy'
+      purpose: Book chapter for Secret History lecture 7 — Volume III Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume III policy).
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - sh-07
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for sh-07; then draft chapter outline
+      outline_path: chapters-volume-iii/sh-ch07/outline.md
+      draft_path: chapters-volume-iii/sh-ch07/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: sh-ch08
+      title: 'Secret History #8: Death by Bureaucracy'
+      purpose: Book chapter for Secret History lecture 8 — Volume III Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume III policy).
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - sh-08
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for sh-08; then draft chapter outline
+      outline_path: chapters-volume-iii/sh-ch08/outline.md
+      draft_path: chapters-volume-iii/sh-ch08/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: sh-ch09
+      title: 'Secret History #9: The Theory of Everything'
+      purpose: Book chapter for Secret History lecture 9 — Volume III Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume III policy).
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - sh-09
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for sh-09; then draft chapter outline
+      outline_path: chapters-volume-iii/sh-ch09/outline.md
+      draft_path: chapters-volume-iii/sh-ch09/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: sh-ch10
+      title: 'Secret History #10: The Conspiracy of Evil'
+      purpose: Book chapter for Secret History lecture 10 — Volume III Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume III policy).
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - sh-10
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for sh-10; then draft chapter outline
+      outline_path: chapters-volume-iii/sh-ch10/outline.md
+      draft_path: chapters-volume-iii/sh-ch10/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: sh-ch11
+      title: 'Secret History #11: Dawn of the Human Imagination'
+      purpose: Book chapter for Secret History lecture 11 — Volume III Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume III policy).
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - sh-11
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for sh-11; then draft chapter outline
+      outline_path: chapters-volume-iii/sh-ch11/outline.md
+      draft_path: chapters-volume-iii/sh-ch11/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: sh-ch12
+      title: 'Secret History #12: Heaven on Earth'
+      purpose: Book chapter for Secret History lecture 12 — Volume III Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume III policy).
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - sh-12
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for sh-12; then draft chapter outline
+      outline_path: chapters-volume-iii/sh-ch12/outline.md
+      draft_path: chapters-volume-iii/sh-ch12/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: sh-ch13
+      title: 'Secret History #13: Mandate of Heaven'
+      purpose: Book chapter for Secret History lecture 13 — Volume III Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume III policy).
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - sh-13
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for sh-13; then draft chapter outline
+      outline_path: chapters-volume-iii/sh-ch13/outline.md
+      draft_path: chapters-volume-iii/sh-ch13/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: sh-ch14
+      title: 'Secret History #14: Legacy of the Steppes'
+      purpose: Book chapter for Secret History lecture 14 — Volume III Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume III policy).
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - sh-14
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for sh-14; then draft chapter outline
+      outline_path: chapters-volume-iii/sh-ch14/outline.md
+      draft_path: chapters-volume-iii/sh-ch14/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: sh-ch15
+      title: 'Secret History #15: Capital and the Bronze Age Collapse'
+      purpose: Book chapter for Secret History lecture 15 — Volume III Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume III policy).
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - sh-15
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for sh-15; then draft chapter outline
+      outline_path: chapters-volume-iii/sh-ch15/outline.md
+      draft_path: chapters-volume-iii/sh-ch15/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: sh-ch16
+      title: 'Secret History #16: The Big Bang of Greek Civilization'
+      purpose: Book chapter for Secret History lecture 16 — Volume III Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume III policy).
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - sh-16
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for sh-16; then draft chapter outline
+      outline_path: chapters-volume-iii/sh-ch16/outline.md
+      draft_path: chapters-volume-iii/sh-ch16/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: sh-ch17
+      title: 'Secret History #17: Literary Genesis'
+      purpose: Book chapter for Secret History lecture 17 — Volume III Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume III policy).
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - sh-17
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for sh-17; then draft chapter outline
+      outline_path: chapters-volume-iii/sh-ch17/outline.md
+      draft_path: chapters-volume-iii/sh-ch17/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: sh-ch18
+      title: 'Secret History #18: Thus Spoke Zarathustra'
+      purpose: Book chapter for Secret History lecture 18 — Volume III Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume III policy).
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - sh-18
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for sh-18; then draft chapter outline
+      outline_path: chapters-volume-iii/sh-ch18/outline.md
+      draft_path: chapters-volume-iii/sh-ch18/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: sh-ch19
+      title: 'Secret History #19: Dawn of the Jews'
+      purpose: Book chapter for Secret History lecture 19 — Volume III Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume III policy).
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - sh-19
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for sh-19; then draft chapter outline
+      outline_path: chapters-volume-iii/sh-ch19/outline.md
+      draft_path: chapters-volume-iii/sh-ch19/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: sh-ch20
+      title: 'Secret History #20: The Hellenistic World'
+      purpose: Book chapter for Secret History lecture 20 — Volume III Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume III policy).
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - sh-20
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for sh-20; then draft chapter outline
+      outline_path: chapters-volume-iii/sh-ch20/outline.md
+      draft_path: chapters-volume-iii/sh-ch20/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: sh-ch21
+      title: 'Secret History #21: Roman Anti-Civilization'
+      purpose: Book chapter for Secret History lecture 21 — Volume III Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume III policy).
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - sh-21
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for sh-21; then draft chapter outline
+      outline_path: chapters-volume-iii/sh-ch21/outline.md
+      draft_path: chapters-volume-iii/sh-ch21/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: sh-ch22
+      title: 'Secret History #22: The Divine Spark of Jesus'
+      purpose: Book chapter for Secret History lecture 22 — Volume III Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume III policy).
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - sh-22
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for sh-22; then draft chapter outline
+      outline_path: chapters-volume-iii/sh-ch22/outline.md
+      draft_path: chapters-volume-iii/sh-ch22/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: sh-ch23
+      title: 'Secret History #23: The Organization of Evil'
+      purpose: Book chapter for Secret History lecture 23 — Volume III Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume III policy).
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - sh-23
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for sh-23; then draft chapter outline
+      outline_path: chapters-volume-iii/sh-ch23/outline.md
+      draft_path: chapters-volume-iii/sh-ch23/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: sh-ch24
+      title: 'Secret History #24: Empire of Church'
+      purpose: Book chapter for Secret History lecture 24 — Volume III Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume III policy).
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - sh-24
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for sh-24; then draft chapter outline
+      outline_path: chapters-volume-iii/sh-ch24/outline.md
+      draft_path: chapters-volume-iii/sh-ch24/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: sh-ch25
+      title: 'Secret History #25: Capital of Evil'
+      purpose: Book chapter for Secret History lecture 25 — Volume III Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume III policy).
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - sh-25
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for sh-25; then draft chapter outline
+      outline_path: chapters-volume-iii/sh-ch25/outline.md
+      draft_path: chapters-volume-iii/sh-ch25/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: sh-ch26
+      title: 'Secret History #26: Faith of Evil'
+      purpose: Book chapter for Secret History lecture 26 — Volume III Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume III policy).
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - sh-26
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for sh-26; then draft chapter outline
+      outline_path: chapters-volume-iii/sh-ch26/outline.md
+      draft_path: chapters-volume-iii/sh-ch26/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: sh-ch27
+      title: 'Secret History #27: Empire of Evil'
+      purpose: Book chapter for Secret History lecture 27 — Volume III Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume III policy).
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - sh-27
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for sh-27; then draft chapter outline
+      outline_path: chapters-volume-iii/sh-ch27/outline.md
+      draft_path: chapters-volume-iii/sh-ch27/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: sh-ch28
+      title: 'Secret History #28: Pax Judaica'
+      purpose: Book chapter for Secret History lecture 28 — Volume III Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume III policy).
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - sh-28
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for sh-28; then draft chapter outline
+      outline_path: chapters-volume-iii/sh-ch28/outline.md
+      draft_path: chapters-volume-iii/sh-ch28/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+
+# --- Volume IV (Game Theory) — nested book-track; see codex/predictive-history/volume-iv-book-track-conventions.md ---
+
+volume_4_game_theory:
+  project:
+    id: work-jiang-volume-4
+    series_title: Predictive History
+    volume:
+      number: 4
+      lecture_series: Game Theory
+    title: 'Predictive History, Volume 4: Game Theory'
+    thesis_one_sentence: TBD — set when Volume IV Part I book thesis is drafted (lecture-faithful arc; see book/VOLUME-IV-GAME-THEORY.md).
+    promise_paragraph: Part I follows Jiang's Game Theory lectures in classroom order, transcript-backed (`lectures/game-theory-*.md`, registry `gt-*` in `metadata/sources.yaml`). Each Part I chapter ends with a Divergence box by default (Part II method operator-locked — see book/VOLUME-IV-GAME-THEORY.md).
+    audience:
+      primary: serious general readers interested in history, philosophy, strategy, and incentives
+      secondary:
+      - readers following the Game Theory classroom series on @PredictiveHistory
+    channel_context:
+      platform: YouTube
+      handle: '@PredictiveHistory'
+      status: book_track_wired
+  chapter_end_divergence:
+    registry_path: divergence-tracking/registry/divergences.jsonl
+    instruction: End each Part I chapter with a boxed subsection per CHAPTER-DIVERGENCE-BOX.md — divergence IDs from divergences.jsonl where linked; not chapter_end_predictions (Volume I only) unless Part II policy adopts prediction adjudication.
+  part_2:
+    title: Part II — method TBD (Game Theory)
+    after_chapter: gt-ch22
+    description: Operator locks evaluation mode in book/VOLUME-IV-GAME-THEORY.md (divergence-first default for Part I boxes).
+  book:
+    chapters:
+    - id: gt-ch01
+      title: 'Game Theory #1: The Dating Game'
+      purpose: Book chapter for Game Theory lecture 1 — Volume IV Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume IV default).
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - gt-01
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for gt-01; then draft chapter outline
+      outline_path: chapters-volume-iv/gt-ch01/outline.md
+      draft_path: chapters-volume-iv/gt-ch01/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: gt-ch02
+      title: 'Game Theory #2: Why Schools Suck'
+      purpose: Book chapter for Game Theory lecture 2 — Volume IV Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume IV default).
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - gt-02
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for gt-02; then draft chapter outline
+      outline_path: chapters-volume-iv/gt-ch02/outline.md
+      draft_path: chapters-volume-iv/gt-ch02/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: gt-ch03
+      title: 'Game Theory #3: Rich Dad, Poor Dad'
+      purpose: Book chapter for Game Theory lecture 3 — Volume IV Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume IV default).
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - gt-03
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for gt-03; then draft chapter outline
+      outline_path: chapters-volume-iv/gt-ch03/outline.md
+      draft_path: chapters-volume-iv/gt-ch03/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: gt-ch04
+      title: 'Game Theory #4: The Immigration Trap'
+      purpose: Book chapter for Game Theory lecture 4 — Volume IV Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume IV default).
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - gt-04
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for gt-04; then draft chapter outline
+      outline_path: chapters-volume-iv/gt-ch04/outline.md
+      draft_path: chapters-volume-iv/gt-ch04/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: gt-ch05
+      title: 'Game Theory #5: The World Game'
+      purpose: Book chapter for Game Theory lecture 5 — Volume IV Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume IV default).
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - gt-05
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for gt-05; then draft chapter outline
+      outline_path: chapters-volume-iv/gt-ch05/outline.md
+      draft_path: chapters-volume-iv/gt-ch05/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: gt-ch06
+      title: 'Game Theory #6: The World''s Bank'
+      purpose: Book chapter for Game Theory lecture 6 — Volume IV Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume IV default).
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - gt-06
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for gt-06; then draft chapter outline
+      outline_path: chapters-volume-iv/gt-ch06/outline.md
+      draft_path: chapters-volume-iv/gt-ch06/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: gt-ch07
+      title: 'Game Theory #7: America''s Game'
+      purpose: Book chapter for Game Theory lecture 7 — Volume IV Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume IV default).
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - gt-07
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for gt-07; then draft chapter outline
+      outline_path: chapters-volume-iv/gt-ch07/outline.md
+      draft_path: chapters-volume-iv/gt-ch07/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: gt-ch08
+      title: 'Game Theory #8: Communist Specter'
+      purpose: Book chapter for Game Theory lecture 8 — Volume IV Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume IV default).
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - gt-08
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for gt-08; then draft chapter outline
+      outline_path: chapters-volume-iv/gt-ch08/outline.md
+      draft_path: chapters-volume-iv/gt-ch08/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: gt-ch09
+      title: 'Game Theory #9: The US-Iran War'
+      purpose: Book chapter for Game Theory lecture 9 — Volume IV Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume IV default).
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - gt-09
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for gt-09; then draft chapter outline
+      outline_path: chapters-volume-iv/gt-ch09/outline.md
+      draft_path: chapters-volume-iv/gt-ch09/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: gt-ch10
+      title: 'Game Theory #10: The Law of Asymmetry'
+      purpose: Book chapter for Game Theory lecture 10 — Volume IV Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume IV default).
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - gt-10
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for gt-10; then draft chapter outline
+      outline_path: chapters-volume-iv/gt-ch10/outline.md
+      draft_path: chapters-volume-iv/gt-ch10/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: gt-ch11
+      title: 'Game Theory #11: The Law of Escalation'
+      purpose: Book chapter for Game Theory lecture 11 — Volume IV Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume IV default).
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - gt-11
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for gt-11; then draft chapter outline
+      outline_path: chapters-volume-iv/gt-ch11/outline.md
+      draft_path: chapters-volume-iv/gt-ch11/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: gt-ch12
+      title: 'Game Theory #12: The Law of Eschatological Convergence'
+      purpose: Book chapter for Game Theory lecture 12 — Volume IV Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume IV default).
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - gt-12
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for gt-12; then draft chapter outline
+      outline_path: chapters-volume-iv/gt-ch12/outline.md
+      draft_path: chapters-volume-iv/gt-ch12/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: gt-ch13
+      title: 'Game Theory #13: Epstein''s World'
+      purpose: Book chapter for Game Theory lecture 13 — Volume IV Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume IV default).
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - gt-13
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for gt-13; then draft chapter outline
+      outline_path: chapters-volume-iv/gt-ch13/outline.md
+      draft_path: chapters-volume-iv/gt-ch13/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: gt-ch14
+      title: 'Game Theory #14: The Law of Proximity'
+      purpose: Book chapter for Game Theory lecture 14 — Volume IV Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume IV default).
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - gt-14
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for gt-14; then draft chapter outline
+      outline_path: chapters-volume-iv/gt-ch14/outline.md
+      draft_path: chapters-volume-iv/gt-ch14/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: gt-ch15
+      title: 'Game Theory #15: The Return of History'
+      purpose: Book chapter for Game Theory lecture 15 — Volume IV Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume IV default).
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - gt-15
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for gt-15; then draft chapter outline
+      outline_path: chapters-volume-iv/gt-ch15/outline.md
+      draft_path: chapters-volume-iv/gt-ch15/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: gt-ch16
+      title: 'Game Theory #16: Pax Judaica Rising'
+      purpose: Book chapter for Game Theory lecture 16 — Volume IV Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume IV default).
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - gt-16
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for gt-16; then draft chapter outline
+      outline_path: chapters-volume-iv/gt-ch16/outline.md
+      draft_path: chapters-volume-iv/gt-ch16/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: gt-ch17
+      title: 'Game Theory #17: The Great Reset'
+      purpose: Book chapter for Game Theory lecture 17 — Volume IV Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume IV default).
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - gt-17
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for gt-17; then draft chapter outline
+      outline_path: chapters-volume-iv/gt-ch17/outline.md
+      draft_path: chapters-volume-iv/gt-ch17/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: gt-ch18
+      title: 'Game Theory #18: Trump World Order'
+      purpose: Book chapter for Game Theory lecture 18 — Volume IV Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume IV default).
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - gt-18
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Draft chapter outline in chapters-volume-iv/gt-ch18/outline.md
+      outline_path: chapters-volume-iv/gt-ch18/outline.md
+      draft_path: chapters-volume-iv/gt-ch18/draft.md
+      analysis_ready: true
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: gt-ch19
+      title: 'Game Theory #19: The Hollywood-Pentagon Complex'
+      purpose: Book chapter for Game Theory lecture 19 — Volume IV Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume IV default).
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - gt-19
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Draft chapter outline in chapters-volume-iv/gt-ch19/outline.md
+      outline_path: chapters-volume-iv/gt-ch19/outline.md
+      draft_path: chapters-volume-iv/gt-ch19/draft.md
+      analysis_ready: true
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: gt-ch20
+      title: 'Game Theory #20: Mid-Term Examination'
+      purpose: Book chapter for Game Theory lecture 20 — midterm Q&A on US–Iran ceasefire framing, Mosaic defense, eschatology/agents, China thesis, and audience economics questions; Volume IV Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md.
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - gt-20
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for gt-20; then draft chapter outline in chapters-volume-iv/gt-ch20/outline.md
+      outline_path: chapters-volume-iv/gt-ch20/outline.md
+      draft_path: chapters-volume-iv/gt-ch20/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: gt-ch21
+      title: 'Game Theory #21: World War Trump'
+      purpose: Book chapter for Game Theory lecture 21 — US–Iran ceasefire / empire frame; refinery-shock narrative; NDS (Jan 2026) read-through; choke-point strategy vs China; Iran as Russia–China corridor leverage; draft / surveillance / technate hooks; Volume IV Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md.
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - gt-21
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Expand analysis memo beyond stub; draft chapter outline in chapters-volume-iv/gt-ch21/outline.md
+      outline_path: chapters-volume-iv/gt-ch21/outline.md
+      draft_path: chapters-volume-iv/gt-ch21/draft.md
+      analysis_ready: true
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: gt-ch22
+      title: 'Game Theory #22: Twilight of the Nation-State'
+      purpose: Book chapter for Game Theory lecture 22 — warfare typology (nation-state → 21st-c. population-pressure strategy); US–Iran forecast; primary readings (Rousseau, Fichte, Bismarck, Mussolini); eschatology counter; Volume IV Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md.
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - gt-22
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Expand analysis memo beyond stub; draft chapter outline in chapters-volume-iv/gt-ch22/outline.md
+      outline_path: chapters-volume-iv/gt-ch22/outline.md
+      draft_path: chapters-volume-iv/gt-ch22/draft.md
+      analysis_ready: true
+      quotes_ready: false
+      requires_prediction_review: false
+
+volume_5_great_books:
+  project:
+    id: work-jiang-volume-5
+    series_title: Predictive History
+    volume:
+      number: 5
+      lecture_series: Great Books
+    title: 'Predictive History, Volume 5: Great Books'
+    thesis_one_sentence: TBD — set when Volume V Part I book thesis is drafted (lecture-faithful arc; see book/VOLUME-V-GREAT-BOOKS.md).
+    promise_paragraph: Part I follows Jiang's Great Books lectures in classroom order, transcript-backed (`lectures/great-books-*.md`, registry `gb-*` in `metadata/sources.yaml`). Each Part I chapter ends with a Divergence box by default (Part II method operator-locked — see book/VOLUME-V-GREAT-BOOKS.md).
+    audience:
+      primary: serious general readers interested in history, philosophy, literature, and consciousness
+      secondary:
+      - readers following the Great Books classroom series on @PredictiveHistory
+    channel_context:
+      platform: YouTube
+      handle: '@PredictiveHistory'
+      status: book_track_wired
+  chapter_end_divergence:
+    registry_path: divergence-tracking/registry/divergences.jsonl
+    instruction: End each Part I chapter with a boxed subsection per CHAPTER-DIVERGENCE-BOX.md — divergence IDs from divergences.jsonl where linked; not chapter_end_predictions (Volume I only) unless Part II policy adopts prediction adjudication.
+  part_2:
+    title: Part II — method TBD (Great Books)
+    after_chapter: gb-ch09
+    description: Operator locks evaluation mode in book/VOLUME-V-GREAT-BOOKS.md (divergence-first default for Part I boxes).
+  book:
+    chapters:
+    - id: gb-ch01
+      title: 'Great Books #1: Secrets of the Universe'
+      purpose: Book chapter for Great Books lecture 1 — Volume V Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume V default).
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - gb-01
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for gb-01; then draft chapter outline
+      outline_path: chapters-volume-v/gb-ch01/outline.md
+      draft_path: chapters-volume-v/gb-ch01/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: gb-ch02
+      title: 'Great Books #2: Homer and the Invention of the Human'
+      purpose: Book chapter for Great Books lecture 2 — Volume V Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume V default).
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - gb-02
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for gb-02; then draft chapter outline
+      outline_path: chapters-volume-v/gb-ch02/outline.md
+      draft_path: chapters-volume-v/gb-ch02/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: gb-ch03
+      title: 'Great Books #3: Poets and Prophets'
+      purpose: Book chapter for Great Books lecture 3 — Volume V Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume V default).
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - gb-03
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for gb-03; then draft chapter outline
+      outline_path: chapters-volume-v/gb-ch03/outline.md
+      draft_path: chapters-volume-v/gb-ch03/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: gb-ch04
+      title: 'Great Books #4: The Conscious Universe'
+      purpose: Book chapter for Great Books lecture 4 — Volume V Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume V default).
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - gb-04
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for gb-04; then draft chapter outline
+      outline_path: chapters-volume-v/gb-ch04/outline.md
+      draft_path: chapters-volume-v/gb-ch04/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: gb-ch05
+      title: 'Great Books #5: The Odyssey'
+      purpose: Book chapter for Great Books lecture 5 — Volume V Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume V default).
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - gb-05
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for gb-05; then draft chapter outline
+      outline_path: chapters-volume-v/gb-ch05/outline.md
+      draft_path: chapters-volume-v/gb-ch05/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: gb-ch06
+      title: 'Great Books #6: The Intimacy of Love'
+      purpose: Book chapter for Great Books lecture 6 — Volume V Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume V default).
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - gb-06
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for gb-06; then draft chapter outline
+      outline_path: chapters-volume-v/gb-ch06/outline.md
+      draft_path: chapters-volume-v/gb-ch06/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: gb-ch07
+      title: 'Great Books #7: The Anti-Homer'
+      purpose: Book chapter for Great Books lecture 7 — Volume V Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume V default).
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - gb-07
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for gb-07; then draft chapter outline
+      outline_path: chapters-volume-v/gb-ch07/outline.md
+      draft_path: chapters-volume-v/gb-ch07/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: gb-ch08
+      title: 'Great Books #8: The Poetry of Empire'
+      purpose: Book chapter for Great Books lecture 8 — Volume V Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume V default).
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - gb-08
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for gb-08; then draft chapter outline
+      outline_path: chapters-volume-v/gb-ch08/outline.md
+      draft_path: chapters-volume-v/gb-ch08/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: gb-ch09
+      title: 'Great Books #9: Dante (Re-Upload with Audio Fixed)'
+      purpose: Book chapter for Great Books lecture 9 — Volume V Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume V default).
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - gb-09
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for gb-09; then draft chapter outline
+      outline_path: chapters-volume-v/gb-ch09/outline.md
+      draft_path: chapters-volume-v/gb-ch09/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+
+volume_6_interviews:
+  project:
+    id: work-jiang-volume-6
+    series_title: Predictive History
+    volume:
+      number: 6
+      lecture_series: Interviews
+    title: 'Predictive History, Volume 6: Interviews'
+    thesis_one_sentence: TBD — set when Volume VI Part I book thesis is drafted (interview-faithful arc; see book/VOLUME-VI-INTERVIEWS.md).
+    promise_paragraph: Part I follows Jiang's long-form interview corpus in publication order, transcript-backed (`lectures/interviews-*.md`, registry `vi-*` in `metadata/sources.yaml`). Each Part I chapter ends with a Divergence box by default (Part II method operator-locked — see book/VOLUME-VI-INTERVIEWS.md).
+    audience:
+      primary: serious general readers interested in geopolitics, dialogue format, and cross-host comparison
+      secondary:
+      - listeners following Predictive History interview releases on YouTube
+    channel_context:
+      platform: YouTube
+      handle: '@PredictiveHistory'
+      status: book_track_wired
+  chapter_end_divergence:
+    registry_path: divergence-tracking/registry/divergences.jsonl
+    instruction: End each Part I chapter with a boxed subsection per CHAPTER-DIVERGENCE-BOX.md — divergence IDs from divergences.jsonl where linked; not chapter_end_predictions (Volume I only) unless Part II policy adopts prediction adjudication.
+  part_2:
+    title: Part II — method TBD (Interviews)
+    after_chapter: vi-ch15
+    description: Operator locks evaluation mode in book/VOLUME-VI-INTERVIEWS.md (divergence-first default for Part I boxes).
+  book:
+    chapters:
+    - id: vi-ch01
+      title: 'Interviews #1: Cyrus Janssen — The World Is About to Change'
+      purpose: Book chapter for Interviews episode 1 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - vi-01
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for vi-01; then draft chapter outline
+      outline_path: chapters-volume-vi/vi-ch01/outline.md
+      draft_path: chapters-volume-vi/vi-ch01/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: vi-ch02
+      title: 'Interviews #2: Glenn Diesen — The West''s Civilizational Collapse'
+      purpose: Book chapter for Interviews episode 2 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - vi-02
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for vi-02; then draft chapter outline
+      outline_path: chapters-volume-vi/vi-ch02/outline.md
+      draft_path: chapters-volume-vi/vi-ch02/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: vi-ch03
+      title: 'Interviews #3: Glenn Diesen — Predictions for 2026 (Empire, Rivalry & Collapse)'
+      purpose: Book chapter for Interviews episode 3 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - vi-03
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for vi-03; then draft chapter outline
+      outline_path: chapters-volume-vi/vi-ch03/outline.md
+      draft_path: chapters-volume-vi/vi-ch03/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: vi-ch04
+      title: 'Interviews #4: Danny Haiphong — Predictions for 2026: Trump, Iran & Empire Collapse'
+      purpose: Book chapter for Interviews episode 4 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
+      kind: exposition
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - vi-04
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for vi-04; then draft chapter outline
+      outline_path: chapters-volume-vi/vi-ch04/outline.md
+      draft_path: chapters-volume-vi/vi-ch04/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: vi-ch05
+      title: 'Interviews #5: Dimitri Lascaris — Trump’s War on Iran, Davos, Canada–China'
+      purpose: Book chapter for Interviews episode 5 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - vi-05
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for vi-05; then draft chapter outline
+      outline_path: chapters-volume-vi/vi-ch05/outline.md
+      draft_path: chapters-volume-vi/vi-ch05/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: vi-ch06
+      title: 'Interviews #6: Glenn Diesen — Great Power Wars Over a New World Order'
+      purpose: Book chapter for Interviews episode 6 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - vi-06
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for vi-06; then draft chapter outline
+      outline_path: chapters-volume-vi/vi-ch06/outline.md
+      draft_path: chapters-volume-vi/vi-ch06/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: vi-ch07
+      title: 'Interviews #7: Breaking Points (Krystal & Saagar) — US WILL LOSE Iran War'
+      purpose: Book chapter for Interviews episode 7 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - vi-07
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for vi-07; then draft chapter outline
+      outline_path: chapters-volume-vi/vi-ch07/outline.md
+      draft_path: chapters-volume-vi/vi-ch07/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: vi-ch08
+      title: 'Interviews #8: Nima (Dialogue Works) — The Iran War: The Watershed Moment That Changed the Middle East Forever'
+      purpose: Book chapter for Interviews episode 8 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - vi-08
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for vi-08; then draft chapter outline
+      outline_path: chapters-volume-vi/vi-ch08/outline.md
+      draft_path: chapters-volume-vi/vi-ch08/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: vi-ch09
+      title: 'Interviews #9: SNEAKO — The End of the World'
+      purpose: Book chapter for Interviews episode 9 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - vi-09
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for vi-09; then draft chapter outline
+      outline_path: chapters-volume-vi/vi-ch09/outline.md
+      draft_path: chapters-volume-vi/vi-ch09/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: vi-ch10
+      title: 'Interviews #10: Endgame — Our True Wealth Is Our Consciousness'
+      purpose: Book chapter for Interviews episode 10 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - vi-10
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for vi-10; then draft chapter outline
+      outline_path: chapters-volume-vi/vi-ch10/outline.md
+      draft_path: chapters-volume-vi/vi-ch10/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: vi-ch11
+      title: 'Interviews #11: Tucker Carlson — Iran War, Energy, and Global Order'
+      purpose: Book chapter for Interviews episode 11 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - vi-11
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for vi-11; then draft chapter outline
+      outline_path: chapters-volume-vi/vi-ch11/outline.md
+      draft_path: chapters-volume-vi/vi-ch11/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: vi-ch12
+      title: 'Interviews #12: Jay Shapiro — Painful Personal Path, Truth and Myth, Internet Fame'
+      purpose: Book chapter for Interviews episode 12 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - vi-12
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for vi-12; then draft chapter outline
+      outline_path: chapters-volume-vi/vi-ch12/outline.md
+      draft_path: chapters-volume-vi/vi-ch12/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: vi-ch13
+      title: 'Interviews #13: Patrick Bet-David — Jiang Xueqin Finally Breaks His Silence (PBD Podcast #772)'
+      purpose: Book chapter for Interviews episode 13 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - vi-13
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for vi-13; then draft chapter outline
+      outline_path: chapters-volume-vi/vi-ch13/outline.md
+      draft_path: chapters-volume-vi/vi-ch13/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: vi-ch14
+      title: 'Interviews #14: Glenn Diesen — The Iran War & the Battle for the Petrodollar'
+      purpose: Book chapter for Interviews episode 14 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - vi-14
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for vi-14; then draft chapter outline
+      outline_path: chapters-volume-vi/vi-ch14/outline.md
+      draft_path: chapters-volume-vi/vi-ch14/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: vi-ch15
+      title: 'Interviews #15: Sneako — Jiang Xueqin & Aleksandr Dugin (Eschatology & Geopolitics)'
+      purpose: Book chapter for Interviews episode 15 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - vi-15
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for vi-15; then draft chapter outline
+      outline_path: chapters-volume-vi/vi-ch15/outline.md
+      draft_path: chapters-volume-vi/vi-ch15/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+
+# --- Volume VII — Essays (Predictive History on Substack) — book-track wired; see codex/predictive-history/volume-vii-book-track-conventions.md ---
+volume_7_essays:
+  project:
+    id: work-jiang-volume-7
+    series_title: Predictive History
+    volume:
+      number: 7
+      corpus: Essays (Predictive History newsletter on Substack)
+    title: 'Predictive History, Volume 7: Essays'
+    thesis_one_sentence: TBD — set when Volume VII Part I book thesis is drafted (essay-faithful arc; publication order; see book/VOLUME-VII-ESSAYS.md).
+    promise_paragraph: Part I follows Jiang's Predictive History newsletter essays in publication order, text-backed (`substack/essays/<slug>.md`; registry `es-*` in `metadata/sources.yaml`). Each Part I chapter ends with a Divergence box by default (Part II method operator-locked — see book/VOLUME-VII-ESSAYS.md).
+    audience:
+      primary: serious general readers interested in history, philosophy, and geopolitics
+      secondary:
+      - readers following Predictive History on Substack
+    channel_context:
+      platform: Substack
+      publication: https://predictivehistory.substack.com/
+      status: book_track_wired
+  chapter_end_divergence:
+    registry_path: divergence-tracking/registry/divergences.jsonl
+    instruction: End each Part I chapter with a boxed subsection per CHAPTER-DIVERGENCE-BOX.md — divergence IDs from divergences.jsonl where linked; not chapter_end_predictions (Volume I only) unless Part II policy adopts prediction adjudication.
+  part_2:
+    title: Part II — method TBD (Essays)
+    after_chapter: es-ch35
+    description: Operator locks evaluation mode in book/VOLUME-VII-ESSAYS.md (divergence-first default for Part I boxes).
+  book:
+    chapters:
+    - id: es-ch01
+      title: Vision, Mission, Goals
+      purpose: Book chapter for essay 1 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - es-01
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for es-01; then draft chapter outline
+      outline_path: chapters-volume-vii/es-ch01/outline.md
+      draft_path: chapters-volume-vii/es-ch01/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: es-ch02
+      title: '"Continuity of Government" is a Joke. Here''s Why.'
+      purpose: Book chapter for essay 2 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - es-02
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for es-02; then draft chapter outline
+      outline_path: chapters-volume-vii/es-ch02/outline.md
+      draft_path: chapters-volume-vii/es-ch02/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: es-ch03
+      title: The Third Coming
+      purpose: Book chapter for essay 3 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - es-03
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for es-03; then draft chapter outline
+      outline_path: chapters-volume-vii/es-ch03/outline.md
+      draft_path: chapters-volume-vii/es-ch03/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: es-ch04
+      title: 'The Secret History of the World #1: The Cost of Money'
+      purpose: Book chapter for essay 4 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - es-04
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for es-04; then draft chapter outline
+      outline_path: chapters-volume-vii/es-ch04/outline.md
+      draft_path: chapters-volume-vii/es-ch04/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: es-ch05
+      title: 'The Secret History of the World #2: Measuring the Resilience of Societies'
+      purpose: Book chapter for essay 5 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - es-05
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for es-05; then draft chapter outline
+      outline_path: chapters-volume-vii/es-ch05/outline.md
+      draft_path: chapters-volume-vii/es-ch05/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: es-ch06
+      title: 'The Secret History of the World #3: The Corporate Re-Structuring of Canada'
+      purpose: Book chapter for essay 6 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - es-06
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for es-06; then draft chapter outline
+      outline_path: chapters-volume-vii/es-ch06/outline.md
+      draft_path: chapters-volume-vii/es-ch06/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: es-ch07
+      title: 'The Secret History of the World #4: Enter Epstein Island'
+      purpose: Book chapter for essay 7 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - es-07
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for es-07; then draft chapter outline
+      outline_path: chapters-volume-vii/es-ch07/outline.md
+      draft_path: chapters-volume-vii/es-ch07/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: es-ch08
+      title: 'The Secret History of the World #5: The Poetry of Transgression'
+      purpose: Book chapter for essay 8 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - es-08
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for es-08; then draft chapter outline
+      outline_path: chapters-volume-vii/es-ch08/outline.md
+      draft_path: chapters-volume-vii/es-ch08/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: es-ch09
+      title: 'The Secret History of the World #6: Manchurian Candidates'
+      purpose: Book chapter for essay 9 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - es-09
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for es-09; then draft chapter outline
+      outline_path: chapters-volume-vii/es-ch09/outline.md
+      draft_path: chapters-volume-vii/es-ch09/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: es-ch10
+      title: 'Secret History #7: The Voyage Home'
+      purpose: Book chapter for essay 10 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - es-10
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for es-10; then draft chapter outline
+      outline_path: chapters-volume-vii/es-ch10/outline.md
+      draft_path: chapters-volume-vii/es-ch10/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: es-ch11
+      title: Tipping Point USA
+      purpose: Book chapter for essay 11 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - es-11
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for es-11; then draft chapter outline
+      outline_path: chapters-volume-vii/es-ch11/outline.md
+      draft_path: chapters-volume-vii/es-ch11/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: es-ch12
+      title: I Have Questions about Tyler Robinson
+      purpose: Book chapter for essay 12 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - es-12
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for es-12; then draft chapter outline
+      outline_path: chapters-volume-vii/es-ch12/outline.md
+      draft_path: chapters-volume-vii/es-ch12/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: es-ch13
+      title: '"Predictive History" Reading List'
+      purpose: Book chapter for essay 13 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - es-13
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for es-13; then draft chapter outline
+      outline_path: chapters-volume-vii/es-ch13/outline.md
+      draft_path: chapters-volume-vii/es-ch13/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: es-ch14
+      title: What Can Be Done?
+      purpose: Book chapter for essay 14 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - es-14
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for es-14; then draft chapter outline
+      outline_path: chapters-volume-vii/es-ch14/outline.md
+      draft_path: chapters-volume-vii/es-ch14/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: es-ch15
+      title: The Empire Goes to War
+      purpose: Book chapter for essay 15 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - es-15
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for es-15; then draft chapter outline
+      outline_path: chapters-volume-vii/es-ch15/outline.md
+      draft_path: chapters-volume-vii/es-ch15/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: es-ch16
+      title: War Machine USA
+      purpose: Book chapter for essay 16 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - es-16
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for es-16; then draft chapter outline
+      outline_path: chapters-volume-vii/es-ch16/outline.md
+      draft_path: chapters-volume-vii/es-ch16/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: es-ch17
+      title: Why I Refuse to Get Rich
+      purpose: Book chapter for essay 17 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - es-17
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for es-17; then draft chapter outline
+      outline_path: chapters-volume-vii/es-ch17/outline.md
+      draft_path: chapters-volume-vii/es-ch17/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: es-ch18
+      title: 'Secret History #8: The Rise of the American Kakistocracy'
+      purpose: Book chapter for essay 18 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - es-18
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for es-18; then draft chapter outline
+      outline_path: chapters-volume-vii/es-ch18/outline.md
+      draft_path: chapters-volume-vii/es-ch18/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: es-ch19
+      title: The Limits of Pax Judaica
+      purpose: Book chapter for essay 19 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - es-19
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for es-19; then draft chapter outline
+      outline_path: chapters-volume-vii/es-ch19/outline.md
+      draft_path: chapters-volume-vii/es-ch19/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: es-ch20
+      title: 'Secret History #9: The War of Heaven and Hell'
+      purpose: Book chapter for essay 20 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - es-20
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for es-20; then draft chapter outline
+      outline_path: chapters-volume-vii/es-ch20/outline.md
+      draft_path: chapters-volume-vii/es-ch20/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: es-ch21
+      title: 'Secret History #10: The Great Revealing'
+      purpose: Book chapter for essay 21 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - es-21
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for es-21; then draft chapter outline
+      outline_path: chapters-volume-vii/es-ch21/outline.md
+      draft_path: chapters-volume-vii/es-ch21/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: es-ch22
+      title: Blowback Venezuela
+      purpose: Book chapter for essay 22 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - es-22
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for es-22; then draft chapter outline
+      outline_path: chapters-volume-vii/es-ch22/outline.md
+      draft_path: chapters-volume-vii/es-ch22/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: es-ch23
+      title: Minnesota Burning
+      purpose: Book chapter for essay 23 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - es-23
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for es-23; then draft chapter outline
+      outline_path: chapters-volume-vii/es-ch23/outline.md
+      draft_path: chapters-volume-vii/es-ch23/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: es-ch24
+      title: Iran, Greenland, and Canada
+      purpose: Book chapter for essay 24 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - es-24
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for es-24; then draft chapter outline
+      outline_path: chapters-volume-vii/es-ch24/outline.md
+      draft_path: chapters-volume-vii/es-ch24/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: es-ch25
+      title: Carney’s Speech and Trump’s Letter
+      purpose: Book chapter for essay 25 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - es-25
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for es-25; then draft chapter outline
+      outline_path: chapters-volume-vii/es-ch25/outline.md
+      draft_path: chapters-volume-vii/es-ch25/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: es-ch26
+      title: Twilight of the Liberal Elite
+      purpose: Book chapter for essay 26 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - es-26
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for es-26; then draft chapter outline
+      outline_path: chapters-volume-vii/es-ch26/outline.md
+      draft_path: chapters-volume-vii/es-ch26/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: es-ch27
+      title: Welcome to the Rupture
+      purpose: Book chapter for essay 27 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - es-27
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for es-27; then draft chapter outline
+      outline_path: chapters-volume-vii/es-ch27/outline.md
+      draft_path: chapters-volume-vii/es-ch27/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: es-ch28
+      title: Countdown to Iran
+      purpose: Book chapter for essay 28 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - es-28
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for es-28; then draft chapter outline
+      outline_path: chapters-volume-vii/es-ch28/outline.md
+      draft_path: chapters-volume-vii/es-ch28/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: es-ch29
+      title: World War III Begins
+      purpose: Book chapter for essay 29 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - es-29
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for es-29; then draft chapter outline
+      outline_path: chapters-volume-vii/es-ch29/outline.md
+      draft_path: chapters-volume-vii/es-ch29/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: es-ch30
+      title: The Acceleration
+      purpose: Book chapter for essay 30 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - es-30
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for es-30; then draft chapter outline
+      outline_path: chapters-volume-vii/es-ch30/outline.md
+      draft_path: chapters-volume-vii/es-ch30/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: es-ch31
+      title: Vietnam Redux
+      purpose: Book chapter for essay 31 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - es-31
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for es-31; then draft chapter outline
+      outline_path: chapters-volume-vii/es-ch31/outline.md
+      draft_path: chapters-volume-vii/es-ch31/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: es-ch32
+      title: The US-Iran End Game
+      purpose: Book chapter for essay 32 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - es-32
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for es-32; then draft chapter outline
+      outline_path: chapters-volume-vii/es-ch32/outline.md
+      draft_path: chapters-volume-vii/es-ch32/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: es-ch33
+      title: World War Trump
+      purpose: Book chapter for essay 33 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - es-33
+      analysis_ids: []
+      prediction_ids:
+      - jiang-ES33-001
+      - jiang-ES33-002
+      - jiang-ES33-003
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Draft chapter outline; wire quotes + comparative layer; adjudicate jiang-ES33-* per rubric
+      outline_path: chapters-volume-vii/es-ch33/outline.md
+      draft_path: chapters-volume-vii/es-ch33/draft.md
+      analysis_ready: true
+      quotes_ready: false
+      requires_prediction_review: true
+    - id: es-ch34
+      title: The US-Iran War, Round Two
+      purpose: Book chapter for essay 34 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - es-34
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for es-34; then draft chapter outline
+      outline_path: chapters-volume-vii/es-ch34/outline.md
+      draft_path: chapters-volume-vii/es-ch34/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+    - id: es-ch35
+      title: The Trump New Deal
+      purpose: Book chapter for essay 35 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
+      kind: analysis
+      priority: medium
+      target_words: 2800
+      source_ids:
+      - es-35
+      analysis_ids: []
+      prediction_ids: []
+      divergence_ids: []
+      applications: []
+      status: outline_pending
+      owner: operator
+      sprint: TBD
+      blocking: []
+      next_action: Complete analysis memo for es-35; then draft chapter outline
+      outline_path: chapters-volume-vii/es-ch35/outline.md
+      draft_path: chapters-volume-vii/es-ch35/draft.md
+      analysis_ready: false
+      quotes_ready: false
+      requires_prediction_review: false
+

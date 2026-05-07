@@ -20,7 +20,7 @@
 | work-dev | [work-dev/work-dev-history.md](work-dev/work-dev-history.md) |
 | work-coffee | [work-coffee/work-coffee-history.md](work-coffee/work-coffee-history.md) |
 | work-politics | [work-politics/work-politics-history.md](work-politics/work-politics-history.md) |
-| work-jiang | [work-jiang/work-jiang-history.md](work-jiang/work-jiang-history.md) |
+| work-jiang | [codex/predictive-history/work-jiang-history.md](../../codex/predictive-history/work-jiang-history.md) |
 | work-strategy | [work-strategy/work-strategy-history.md](work-strategy/work-strategy-history.md) |
 | work-business | [work-business/work-business-history.md](work-business/work-business-history.md) |
 | work-career | [work-career/work-career-history.md](work-career/work-career-history.md) |

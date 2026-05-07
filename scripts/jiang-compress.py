@@ -3,7 +3,7 @@
 Jiang Compression Engine v1 — grace-mar
 
 Compresses a work artifact into a small JSON pack under
-research/external/work-jiang/compressions/. Uses users/<id>/seed/minimal-core.json
+codex/predictive-history/compressions/. Uses seed/minimal-core.json
 and reflection-proposals for founding intent / daily intention links.
 
 Does not write RECURSION-GATE.md or SELF — use --print-gate-stub and paste manually
@@ -33,9 +33,9 @@ if str(_SCRIPTS) not in sys.path:
 from repo_io import DEFAULT_USER_ID
 
 CATEGORIES = frozenset({"operational", "analytical", "synthesis", "other"})
-WORK_JIANG = Path("research/external/work-jiang")
+WORK_JIANG = Path("codex/predictive-history")
 COMPRESSIONS = WORK_JIANG / "compressions"
-SCHEMA_REL = "research/external/work-jiang/schemas/jiang-compression-v1.schema.json"
+SCHEMA_REL = "codex/predictive-history/schemas/jiang-compression-v1.schema.json"
 
 
 class Colors:

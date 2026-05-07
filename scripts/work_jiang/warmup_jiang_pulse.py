@@ -4,7 +4,7 @@ Read-only 'momentum' snippets for operator hey (work-start and closeout) — Pre
 
 Pulls `users/<id>/work-jiang.md` **Instance work context (YAML)** (see skills-modularity §2a) plus
 STATUS / CHAPTER-QUEUE hints and rotates optional sparks from
-research/external/work-jiang/metadata/warmup-sparks.yaml (operator-editable).
+codex/predictive-history/metadata/warmup-sparks.yaml (operator-editable).
 
 Does not write the Record or touch the gate.
 """
@@ -18,7 +18,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-WORK_DIR = ROOT / "research" / "external" / "work-jiang"
+WORK_DIR = ROOT / "codex" / "predictive-history"
 SPARKS_PATH = WORK_DIR / "metadata" / "warmup-sparks.yaml"
 STATUS_PATH = WORK_DIR / "STATUS.md"
 CHAPTER_QUEUE_PATH = WORK_DIR / "CHAPTER-QUEUE.md"
@@ -48,7 +48,7 @@ DEFAULT_MORNING_SPARKS = [
 DEFAULT_NIGHT_SPARKS = [
     "Name one concrete thing that moved Predictive History forward today (file, validator, note—anything).",
     "What should the next session open on in the Jiang lane—one line?",
-    "One sentence you're glad is documented somewhere in research/external/work-jiang/ tonight.",
+    "One sentence you're glad is documented somewhere in codex/predictive-history/ tonight.",
 ]
 
 
@@ -180,7 +180,7 @@ def build_morning_pulse_lines(user_id: str) -> list[str]:
     lines.extend(
         [
             "",
-            f"- **Dive:** [`research/external/work-jiang/README.md`](research/external/work-jiang/README.md) · "
+            f"- **Dive:** [`codex/predictive-history/README.md`](../../../codex/predictive-history/README.md) · "
             f"verify block in `.cursor/skills/work-jiang-feature-checklist/SKILL.md` after metadata edits.",
             "",
         ]
