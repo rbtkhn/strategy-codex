@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Append a task event to work-jiang/tasks.jsonl.
+Append a task event to codex/predictive-history/tasks.jsonl.
 
 Each line records a lifecycle transition for a task: created, claimed,
 submitted, merged, or cancelled.  Append-only; current state is derived
@@ -136,7 +136,7 @@ def list_tasks(status_filter: str | None = None) -> None:
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Append task events to work-jiang/tasks.jsonl."
+        description="Append task events to codex/predictive-history/tasks.jsonl."
     )
     parser.add_argument(
         "action",

@@ -16,11 +16,11 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 BLIND = (
     ROOT
-    / "research/external/work-jiang/prediction-tracking/lecture-forward-chain-gt-BLIND-prefix-only.md"
+    / "codex/predictive-history/prediction-tracking/lecture-forward-chain-gt-BLIND-prefix-only.md"
 )
 JSONL = (
     ROOT
-    / "research/external/work-jiang/prediction-tracking/registry/lecture-forward-chain-blind-prefix-only.jsonl"
+    / "codex/predictive-history/prediction-tracking/registry/lecture-forward-chain-blind-prefix-only.jsonl"
 )
 MARKER = "<!-- END_ROUNDS -->"
 

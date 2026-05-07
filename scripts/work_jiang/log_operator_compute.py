@@ -1,7 +1,7 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """Append one JSON line to work-jiang operator compute ledger (tokens / API estimates).
 
-Optional mirror to users/<id>/compute-ledger.jsonl (same shape as Voice/bot runs) for unified reporting.
+Optional mirror to compute-ledger.jsonl (same shape as Voice/bot runs) for unified reporting.
 """
 from __future__ import annotations
 
@@ -24,7 +24,7 @@ def main() -> int:
     parser.add_argument(
         "--mirror-grace-mar-ledger",
         action="store_true",
-        help="Also append a line to users/grace-mar/compute-ledger.jsonl (operator:work-jiang channel_key).",
+        help="Also append a line to compute-ledger.jsonl (operator:work-jiang channel_key).",
     )
     args = parser.parse_args()
 
@@ -64,3 +64,4 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+

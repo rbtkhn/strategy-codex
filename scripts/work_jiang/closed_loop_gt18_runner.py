@@ -14,7 +14,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-SCRATCH = ROOT / "research/external/work-jiang/prediction-tracking/scratch"
+SCRATCH = ROOT / "codex/predictive-history/prediction-tracking/scratch"
 BUNDLE_PY = ROOT / "scripts/work_jiang/forward_chain_blind_bundle.py"
 
 
