@@ -30,6 +30,17 @@ quality_level: draft
 
 Lecture argues US conduct in the Iran war window is **Hollywood-shaped**: leadership and PAO culture prioritize **optics** (“no man behind,” rescue narratives) over **economics, organization, and logistics**—the three factors the speaker treats as war-winning. It develops a **skeptical reading** of a high-profile **pilot rescue** (F-15 down, C-130 losses, forward strip) as potentially masking a **failed ground operation** aligned with leaked **uranium-seizure** planning (Axios / *Washington Post* threads cited in speech). It ties **Pentagon–Hollywood co-production** (Saving Private Ryan, Black Hawk Down, Jessica Lynch; Connor Mayers summary) to **mutual capture**: entertainment scripts train public appetite and, per speaker, **reverse-indoctrinate** planners toward movie-logic. **Choke-point maritime control** (Panama, Hormuz, Malacca, Greenland frame) and **fertilizer / famine** stressors appear as structural stakes in the same arc.
 
+## CIV-MEM bridge (reference spine)
+
+| Field | Notes |
+|------|-------|
+| Paths | `docs/civilization-memory/` seam, institution, and decline material to be chosen on full pass |
+| Case families | Maritime choke points, imperial logistics, media-state capture |
+| Alignment notes | The lecture's frame is already structural: institutions, logistics, propaganda, and decline all sit inside the civ-mem lattice |
+| Mismatch notes | Do not treat the speaker's operational speculation as proof of a civilizational template |
+| Bridge paragraph | CIV-MEM helps interpret the lecture as a contest over seams, institutions, and long-horizon stress rather than a one-off rescue story |
+| Confidence | medium |
+
 ## Next step
 
 Deepen memo with **claim-level** bullets, registry hooks (`claims.jsonl` / predictions), and **CIV-MEM** crosswalk when operator schedules a full analysis pass.

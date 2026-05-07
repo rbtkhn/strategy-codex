@@ -1,5 +1,7 @@
 # Predictive History
 
+Public intake command: `predictive-history`. Legacy `work-jiang` remains as a compatibility alias and internal wrapper name.
+
 Operator project — **Jiang** (separate from SKILLS). See [skill-think](skill-think.md), [skill-write](skill-write.md), [work-alpha-school](work-alpha-school.md).
 
 ## Purpose
@@ -19,7 +21,7 @@ Operator project — **Jiang** (separate from SKILLS). See [skill-think](skill-t
 **Method (operator work, not Voice knowledge until merged through the gate):**
 
 1. **Lecture transcripts** — primary text: systematic capture and close reading of his talks (e.g. channel pulls under `research/external/youtube-channels/predictive-history/`), tagged and excerpted for themes, definitions, and internal consistency.
-2. **[CIV-MEM](../../docs/skill-work/work-civ-mem/README.md)** — civilizational / strategic / governance vocabulary and frames from the civilization_memory stewardship lane: use as an **analytic lattice** (conditions, seams, multi-perspective structure) to organize and stress-test philosophical claims without collapsing them into politics alone.
+2. **[CIV-MEM](../../docs/skill-work/work-civ-mem/README.md)** — civilizational / strategic / governance vocabulary and frames from the civilization_memory stewardship lane: use as an **analytic lattice** and **reference spine** (conditions, seams, multi-perspective structure) to organize and stress-test philosophical claims without collapsing them into politics alone.
 3. **Current-events scans** — periodic passes (news, briefs, operator skills such as pulse/search workflows) to **ground** the philosophy: where the abstract system meets concrete episodes, and what would need to be said in a given moment.
 4. **Compressions** — After a large artifact or handoff, run `python3 scripts/jiang-compress.py -u grace-mar` to emit a labeled JSON pack under `codex/predictive-history/compressions/` (operator checklist + optional gate stub; not Record). See [COMPRESSION-ENGINE](./COMPRESSION-ENGINE.md).
 
@@ -90,7 +92,7 @@ life_mission_ref: "self.md § VI VALUES (life_mission)"
 Repo-local material (operator research; not Voice knowledge until merged):
 
 - [work-jiang (research)](./README.md) — curated lecture notes + transcripts
-  - [Transcript intake & analysis workflow](./WORKFLOW-transcripts.md) — acquire, normalize, structured extraction, CIV-MEM passes, memo template
+ - [Transcript intake & analysis workflow](./WORKFLOW-transcripts.md) — acquire, normalize, structured extraction, CIV-MEM passes, bridge fields, memo template
   - [Influence tracking](./influence-tracking/README.md) — longitudinal views/likes/comment counts via `scripts/snapshot_youtube_video_metrics.py` + optional monthly notes
   - [Prediction tracking](./prediction-tracking/README.md) — forecast-like claims in `registry/predictions.jsonl`; resolve vs dated evidence (orthogonal to “influence”); structural next-lecture chain + **skill-jiang** pointer in same README and [skill-jiang.md](./skill-jiang.md)
   - [Divergence tracking](./divergence-tracking/README.md) — where claims differ from **named** mainstream/consensus views; `registry/divergences.jsonl`
@@ -98,4 +100,4 @@ Repo-local material (operator research; not Voice knowledge until merged):
   - Book/site production: [STATUS](./STATUS.md), [BOOK-ARCHITECTURE](./BOOK-ARCHITECTURE.md), [THESIS-MAP](./THESIS-MAP.md), [CHAPTER-QUEUE](./CHAPTER-QUEUE.md), [CONCEPT-DICTIONARY](./CONCEPT-DICTIONARY.md), [CLAIMS-OVERVIEW](./CLAIMS-OVERVIEW.md), [evidence-packs](./evidence-packs/); comparative layer: [QUOTE-BANK](./QUOTE-BANK.md), [COUNTER-READINGS](./COUNTER-READINGS.md), [INTELLECTUAL-CHRONOLOGY](./INTELLECTUAL-CHRONOLOGY.md)
 - `research/external/youtube-channels/predictive-history/` — machine transcripts + `index.json` for channel pulls
 - [work-civ-mem](../../docs/skill-work/work-civ-mem/README.md) — stewardship surface for civilization_memory; use for analytic frames and CIV-MEM ↔ text crosswalks
-  - [CIV-MEM lens (work-jiang)](./CIV-MEM-LENS.md) — lattice mapped to lectures + registries; CMC as reference, not Record
+  - [CIV-MEM reference spine (work-jiang)](./CIV-MEM-LENS.md) — lattice mapped to lectures + registries; use bridge fields in analysis sidecars; CMC as reference, not Record

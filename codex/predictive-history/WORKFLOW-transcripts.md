@@ -4,6 +4,8 @@
 
 Operator research for the Jiang book/site lane. **Not** Record truth until merged through the gate. See [codex/predictive-history/README-operator.md](./README-operator.md) for project purpose.
 
+Public corpus name: Predictive History. Legacy `work-jiang` wording remains only as a compatibility alias in older paths and wrappers.
+
 ---
 
 ## 1. What this workflow produces
@@ -165,7 +167,7 @@ Fill the **analysis memo** (see appendix template) with:
 - **References** â€” events, books, wars, other lectures (internal cross-links by slug or video_id).  
 - **Open questions** â€” what is left ambiguous or deferred to â€œfuture class.â€
 
-**Machine-readable JSON (recommended for LLM + registries):** add a sidecar `analysis/<video_id>-<slug>-analysis.json` per [lecture-analysis-json-schema.md](./lecture-analysis-json-schema.md). Validate with:
+**Machine-readable JSON (recommended for LLM + registries):** add a sidecar `analysis/<video_id>-<slug>-analysis.json` per [lecture-analysis-json-schema.md](./lecture-analysis-json-schema.md). Include the structured `civ_mem` bridge fields there so the sidecar can carry paths, case families, alignment/mismatch notes, and the short bridge paragraph. Validate with:
 
 ```bash
 python3 scripts/work_jiang/validate_lecture_analysis_json.py path/to/-analysis.json
@@ -182,7 +184,7 @@ Optional: `python3 scripts/work_jiang/ingest_analysis_json_to_staging.py` to dra
 Run any subset per video; order is flexible.
 
 1. **Internal consistency** â€” Do definitions stay stable? Do later claims depend on earlier ones?  
-2. **CIV-MEM lattice** â€” Follow [CIV-MEM-LENS.md](CIV-MEM-LENS.md): **conditions**, **institutions**, **seams**, **continuity/memory**, **time structure**, **decline/stress**, then **multi-perspective**. [work-civ-mem](../../docs/skill-work/work-civ-mem/README.md) / [`docs/civilization-memory/`](../../docs/civilization-memory/README.md) are **retrieval surfaces** for analogy and vocabulary â€” not automatic truth; tag `{CMC: path}` if corpus text enters a shippable draft ([civ-mem-draft-protocol](../../docs/skill-work/work-politics/civ-mem-draft-protocol.md)).  
+2. **CIV-MEM lattice** â€” Follow [CIV-MEM-LENS.md](CIV-MEM-LENS.md): **conditions**, **institutions**, **seams**, **continuity/memory**, **time structure**, **decline/stress**, then **multi-perspective**. [work-civ-mem](../../docs/skill-work/work-civ-mem/README.md) / [`docs/civilization-memory/`](../../docs/civilization-memory/README.md) are **retrieval surfaces** for analogy and vocabulary â€” not automatic truth. For comparison passes, always consult civ-mem, then write a short bridge paragraph plus path refs in the memo or JSON sidecar. If relevance is weak, set confidence low and say so explicitly; do not force a match. Tag `{CMC: path}` if corpus text enters a shippable draft ([civ-mem-draft-protocol](../../docs/skill-work/work-politics/civ-mem-draft-protocol.md)).  
 3. **PSY-HIST lattice** â€” Follow [PSY-HIST-LENS.md](PSY-HIST-LENS.md): **macro variables**, **psychological inertia**, **cycle phase**, **Seldon crisis**, **predictability horizon**, **steering levers**, **validation protocol**. Dual-lens with CIV-MEM; see dual-lens workflow below.  
 4. **Current-events grounding (optional)** â€” One short paragraph: where abstract claims meet a concrete episode; flag **ship** vs **draft** if anything could become public copy.  
 5. **Book/site placement** â€” Outline hook: which chapter or site section this feeds; duplicates or contradictions vs other memos.
@@ -240,7 +242,7 @@ Before treating a memo as â€œdone for this sprintâ€:
 
 ## Internal tensions (if any)
 
-## CIV-MEM lattice (full)
+## CIV-MEM lattice (reference spine)
 
 | Slot | Notes |
 |------|--------|
@@ -251,6 +253,17 @@ Before treating a memo as â€œdone for this sprintâ€:
 | Time structure | |
 | Decline / stress | |
 | Multi-perspective | |
+
+## CIV-MEM bridge
+
+| Field | Notes |
+|-------|-------|
+| Paths | |
+| Case families | |
+| Alignment notes | |
+| Mismatch notes | |
+| Bridge paragraph | |
+| Confidence | |
 
 ## Cross-refs (other lectures / memos)
 

@@ -42,6 +42,7 @@ transcript-pipeline = [
 
 [project.scripts]
 grace-mar = "grace_mar.cli:main"
+predictive-history = "grace_mar.predictive_history:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]

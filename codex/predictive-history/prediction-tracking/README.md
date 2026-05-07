@@ -101,7 +101,7 @@ Cross-lecture **mechanisms / scripts** (not single-shot forecasts) live in [`../
 
 ## CIV-MEM lens
 
-Classify predictions by **what kind of civilizational object** is at stake (invasion, institution, seam-opening). See [CIV-MEM-LENS.md](../CIV-MEM-LENS.md) Â§3â€“4. Optional `civ_mem` object on rows documents **time structure** and **institutions** under review.
+Classify predictions by **what kind of civilizational object** is at stake (invasion, institution, seam-opening). See [CIV-MEM-LENS.md](../CIV-MEM-LENS.md) Â§3â€“4. Optional `civ_mem` object on rows documents **paths**, **case families**, **alignment / mismatch**, **bridge paragraph**, **time structure**, and **institutions** under review.
 
 ---
 

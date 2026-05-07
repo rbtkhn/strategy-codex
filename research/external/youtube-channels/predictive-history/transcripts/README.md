@@ -38,4 +38,4 @@ python3 scripts/fetch_youtube_channel_transcripts.py \
 
 ## Using with work-jiang
 
-See [ASR-VERIFICATION-RUBRIC.md](../../../external/work-jiang/ASR-VERIFICATION-RUBRIC.md) and [WORKFLOW-transcripts.md](../../../external/work-jiang/WORKFLOW-transcripts.md): compare **raw `.txt`** ↔ **curated `lectures/*.md`** for names, numbers, and anything promoted to `metadata/quotes.yaml`.
+See [ASR-VERIFICATION-RUBRIC.md](../../../external/codex/predictive-history/ASR-VERIFICATION-RUBRIC.md) and [WORKFLOW-transcripts.md](../../../external/codex/predictive-history/WORKFLOW-transcripts.md): compare **raw `.txt`** ↔ **curated `lectures/*.md`** for names, numbers, and anything promoted to `metadata/quotes.yaml`.

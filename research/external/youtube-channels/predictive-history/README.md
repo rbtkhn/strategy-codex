@@ -1,12 +1,14 @@
 # Predictive History — external transcripts
 
+Public intake command: `predictive-history`. Legacy `work-jiang` is retained only as a compatibility alias in older docs and wrappers.
+
 **Purpose:** Operator research corpus (YouTube captions). **Not** part of the companion Record; do not merge into SELF or treat as Voice knowledge.
 
 ---
 
 ## Work-strategy wiring
 
-**Predictive History** is the **default bulk transcript spine** for **[work-strategy](../../../../docs/skill-work/work-strategy/README.md)** — long-horizon lectures, game-theory arcs, and civilization framing that feed **Perceiver**, **LEARN MODE**, and **current-events** synthesis. **Curated, operator-clean lecture bodies** live under [work-jiang/lectures/](../../work-jiang/lectures/) (see [work-jiang README](../../work-jiang/README.md)); **raw caption pulls** from this folder diff against those before quotations ship.
+**Predictive History** is the **default bulk transcript spine** for **[work-strategy](../../../../docs/skill-work/work-strategy/README.md)** — long-horizon lectures, game-theory arcs, and civilization framing that feed **Perceiver**, **LEARN MODE**, and **current-events** synthesis. **Curated, operator-clean lecture bodies** live under [codex/predictive-history/lectures/](../../../../codex/predictive-history/lectures/) (see [Predictive History README](../../../../codex/predictive-history/README.md)); **raw caption pulls** from this folder diff against those before quotations ship.
 
 | Doc / path | Role |
 |------------|------|
@@ -15,7 +17,7 @@
 | [current-events-analysis.md](../../../../docs/skill-work/work-strategy/current-events-analysis.md) | Perceiver → hooks → synthesis; PH `.txt` is valid step-1 input |
 | [LEARN_MODE_RULES.md](../../../../docs/skill-work/work-strategy/LEARN_MODE_RULES.md) | Extraction format when learning from PH-scale transcripts |
 | [daily-brief-jiang-layer.md](../../../../docs/skill-work/work-strategy/daily-brief-jiang-layer.md) | **§1c** slow layer; PH lectures are the usual **work-jiang** book spine |
-| [work-jiang-sources.md](../../../../docs/skill-work/work-jiang/work-jiang-sources.md) | Canonical channel URL + index/transcript CLI notes |
+| [work-jiang-sources.md](../../../../codex/predictive-history/work-jiang-sources.md) | Canonical channel URL + index/transcript CLI notes |
 
 **Strategy-codex membrane:** Predictive History remains an upstream work-strategy transcript spine. For strategy-codex-facing use, PH material must be mediated through the Jiang strategy-author lane (`strategy-expert-jiang` in the current filename contract) before weave. Direct PH → knot routing is disallowed. See [strategy-notebook/README.md](../../../../docs/skill-work/work-strategy/strategy-notebook/README.md) § **Predictive History routing rule**.
 
@@ -40,10 +42,10 @@
 
 ## Raw transcripts (ASR audit trail)
 
-Fetched caption text is written under [`transcripts/`](transcripts/) as `*.txt`. Those files are **gitignored** to avoid huge commits; keep them **on your machine** (or CI artifact) to diff against curated `work-jiang/lectures/*.md` and to verify lines before they become book quotations.
+Fetched caption text is written under [`transcripts/`](transcripts/) as `*.txt`. Those files are **gitignored** to avoid huge commits; keep them **on your machine** (or CI artifact) to diff against curated `../../../../codex/predictive-history/lectures/*.md` and to verify lines before they become book quotations.
 
 - **Layout and commands:** [transcripts/README.md](transcripts/README.md)
-- **When to verify:** [work-jiang/ASR-VERIFICATION-RUBRIC.md](../../work-jiang/ASR-VERIFICATION-RUBRIC.md) (in-repo path: `research/external/work-jiang/ASR-VERIFICATION-RUBRIC.md`)
+- **When to verify:** [codex/predictive-history/ASR-VERIFICATION-RUBRIC.md](../../../../codex/predictive-history/ASR-VERIFICATION-RUBRIC.md) (in-repo path: `codex/predictive-history/ASR-VERIFICATION-RUBRIC.md`)
 
 You can still commit **`index.json`** and **`transcript_manifest.json`** as lightweight pointers and dedup state.
 

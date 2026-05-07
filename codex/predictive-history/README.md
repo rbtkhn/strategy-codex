@@ -1,5 +1,7 @@
 # Predictive History
 
+Public intake command: `predictive-history`. Legacy `work-jiang` remains as a compatibility alias and internal wrapper name.
+
 **Primary purpose:** Build the book **Predictive History** and propagate its ideas. Everything else in this tree is **derivative or supportive** of that purpose.
 
 **Discoverability:** The same tree is linked from **`SELF-LIBRARY/predictive-history`** (repo-relative symlink) for agents and tools that prioritize the companion tree.
@@ -30,7 +32,7 @@ Operator-curated **source texts** for the Jiang book/site project (not Voice kno
 | Lecture analysis JSON schema | [lecture-analysis-json-schema.md](./lecture-analysis-json-schema.md) |
 | Registry query DB (SQLite, generated) | [registry/README.md](registry/README.md) â€” rebuild from JSONL |
 | Optional GPU / API / env | [OFFLOAD-ENV.md](OFFLOAD-ENV.md) |
-| CIV-MEM analytic lens (conditions, institutions, seams) | [CIV-MEM-LENS.md](CIV-MEM-LENS.md) |
+| CIV-MEM reference spine (conditions, institutions, seams, bridge) | [CIV-MEM-LENS.md](CIV-MEM-LENS.md) |
 | PSY-HIST analytic lens (prediction, cycles, steering) | [PSY-HIST-LENS.md](PSY-HIST-LENS.md) |
 | Dual-lens workflow (CIV-MEM + PSY-HIST) | [WORKFLOW-transcripts.md](WORKFLOW-transcripts.md) Â§ Dual-lens |
 | Influence over time (metrics snapshots) | [influence-tracking/README.md](influence-tracking/README.md) |

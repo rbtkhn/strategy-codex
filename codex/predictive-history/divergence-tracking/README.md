@@ -64,7 +64,7 @@ Fields (typical):
 
 ## CIV-MEM lens
 
-â€œMainstreamâ€ often differs by **which institution or seam** a discipline foregrounds (e.g. realist IR vs religious-network causality). Use [CIV-MEM-LENS.md](../CIV-MEM-LENS.md) to state **both** Jiangâ€™s **seam/institution emphasis** and the comparator fieldâ€™s â€” reduces straw-man comparisons.
+â€œMainstreamâ€ often differs by **which institution or seam** a discipline foregrounds (e.g. realist IR vs religious-network causality). Use [CIV-MEM-LENS.md](../CIV-MEM-LENS.md) to state **both** the lecture's **seam/institution emphasis** and the comparator fieldâ€™s, then add the short civ-mem bridge if relevant - this reduces straw-man comparisons.
 
 ---
 
