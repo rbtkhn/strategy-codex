@@ -1,20 +1,20 @@
-# Runtime complements (membrane v1)
+﻿# Runtime complements (membrane v1)
 
-**Status:** **Runtime-only** — not the Record, not a substitute for the gate. See [docs/runtime/runtime-complements.md](../../docs/runtime/runtime-complements.md).
+**Status:** **Runtime-only** - not the Record, not a substitute for the gate. See [docs/runtime/runtime-complements.md](../../docs/runtime/runtime-complements.md).
 
 ## Layout
 
 | Path | Role |
 |------|------|
-| `exports/` | Generated **context bundles** (JSON) for external runtimes — produced by the export script |
-| `inbox/` | **Imported** observations from runtimes (JSON) — produced by the import script |
-| `receipts/` | **Receipts** proving each import (JSON) — [schema](../../schema-registry/runtime-complement-receipt.v1.json) |
-| `examples/` | **Sample** payloads; not live secrets — safe to commit |
+| `exports/` | Generated **context bundles** (JSON) for external runtimes - produced by the export script |
+| `inbox/` | **Imported** observations from runtimes (JSON) - produced by the import script |
+| `receipts/` | **Receipts** proving each import (JSON) - [schema](../../schema-registry/runtime-complement-receipt.v1.json) |
+| `examples/` | **Sample** payloads; not live secrets - safe to commit |
 
 **Guardrails:** Files here are **not** canonical truth. Inbox files are **candidate** material.
 
 **Promotion** to SELF, EVIDENCE, SKILLS, or the Voice goes only through the **existing**
-[recursion-gate](../../users/grace-mar/recursion-gate.md) and companion-approved merge. This
+[recursion-gate](../../recursion-gate.md) and companion-approved merge. This
 directory is **not** a second Record.
 
 ## Export (bundle for a runtime)
@@ -46,8 +46,9 @@ Both **inbox** and **receipts** paths are printed. **`canonical_surfaces_touched
 
 - Do not treat `inbox/` as merged evidence.
 - Do not point vendor SDKs at `users/` for direct write.
-- Do not add Docker or required cloud services here — this folder is a **file-based membrane** only in v1.
+- Do not add Docker or required cloud services here - this folder is a **file-based membrane** only in v1.
 
 ## See also
 
 - [import_runtime_observation.py](../../scripts/runtime/import_runtime_observation.py) · [export_runtime_context.py](../../scripts/runtime/export_runtime_context.py) · [runtime-complements.md](../../docs/runtime/runtime-complements.md)
+

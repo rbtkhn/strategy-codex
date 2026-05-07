@@ -1,4 +1,4 @@
-{
+﻿{
   "run_id": "gov_eval_record_truth_confusion",
   "timestamp": "2026-04-10T12:00:00Z",
   "task_mode": "inspect_work_area",
@@ -23,7 +23,7 @@
   },
   "artifacts": {
     "trace_path": "runtime/runtime-worker/traces/index.jsonl",
-    "proposal_path": "users/grace-mar/self.md"
+    "proposal_path": "self.md"
   },
   "outcome": {
     "status": "ok",
@@ -39,3 +39,4 @@
   "scope_verification": null,
   "non_canonical": true
 }
+

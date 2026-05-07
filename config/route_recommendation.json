@@ -111,7 +111,7 @@
     },
     "governance_review": {
       "label": "governance_review",
-      "recommended_path": "`users/<id>/recursion-gate.md` staging + companion review; merge only via `scripts/process_approved_candidates.py` per `AGENTS.md`. No ad-hoc `self.md` edits.",
+      "recommended_path": "`recursion-gate.md` staging + companion review; merge only via `scripts/process_approved_candidates.py` per `AGENTS.md`. No ad-hoc `self.md` edits.",
       "runner_up_path": "research_to_artifact: if the only output is WORK-layer notes that never touch SELF/EVIDENCE.",
       "keywords": [
         "recursion-gate",
@@ -156,7 +156,7 @@
     "research_to_artifact": "List primary sources (URLs or repo paths) and the intended notebook or doc section; add verify tags where claims bite.",
     "recurring_workflow": "Specify frequency, owner, and which existing skill or cadence runner it resembles (coffee, weekly brief, dream).",
     "system_native_action": "Pick the nearest named skill/script from docs; if touching Record staging, gate only—no direct merges.",
-    "governance_review": "Stage `CANDIDATE-*` in `users/<id>/recursion-gate.md` with evidence; companion approves before `process_approved_candidates.py`.",
+    "governance_review": "Stage `CANDIDATE-*` in `recursion-gate.md` with evidence; companion approves before `process_approved_candidates.py`.",
     "unclear": "Add one sentence each: outcome, lane (strategy vs dev vs gate), and whether anything must enter SELF or EVIDENCE."
   },
   "unclear_max_words": 5,

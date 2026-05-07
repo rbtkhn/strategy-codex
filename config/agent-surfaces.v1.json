@@ -7,18 +7,18 @@
       "status": "implemented",
       "category": "external_runtime",
       "reads": [
-        "users/[id]/SELF.md",
-        "users/[id]/EVIDENCE/",
-        "users/[id]/session-log.md",
-        "users/[id]/INTENT.md"
+        "SELF.md",
+        "EVIDENCE/",
+        "session-log.md",
+        "INTENT.md"
       ],
       "writes": [
-        "users/[id]/openclaw-user.md",
-        "users/[id]/runtime-bundle/",
-        "users/[id]/intent_snapshot.json",
+        "openclaw-user.md",
+        "runtime-bundle/",
+        "intent_snapshot.json",
         "pipeline-events.jsonl",
         "harness-events.jsonl",
-        "users/[id]/compute-ledger.jsonl"
+        "compute-ledger.jsonl"
       ],
       "canonical_record_access": "read-only",
       "merge_authority": "none",
@@ -35,13 +35,13 @@
       "category": "external_handback_agent",
       "reads": [
         "runtime/continuity/receipts/",
-        "users/[id]/INTENT.md"
+        "INTENT.md"
       ],
       "writes": [
-        "users/[id]/recursion-gate.md",
+        "recursion-gate.md",
         "pipeline-events.jsonl",
         "harness-events.jsonl",
-        "users/[id]/compute-ledger.jsonl"
+        "compute-ledger.jsonl"
       ],
       "canonical_record_access": "none",
       "merge_authority": "none",
@@ -57,10 +57,10 @@
       "status": "partial",
       "category": "portable_emulation_runtime",
       "reads": [
-        "users/[id]/SELF.md",
-        "users/[id]/EVIDENCE/",
-        "users/[id]/SKILLS/",
-        "users/[id]/INTENT.md"
+        "SELF.md",
+        "EVIDENCE/",
+        "SKILLS/",
+        "INTENT.md"
       ],
       "writes": [
         "artifacts/portability/emulation/"
@@ -167,7 +167,7 @@
       ],
       "writes": [
         "pipeline-events.jsonl",
-        "users/[id]/compute-ledger.jsonl"
+        "compute-ledger.jsonl"
       ],
       "canonical_record_access": "read-only",
       "merge_authority": "none",

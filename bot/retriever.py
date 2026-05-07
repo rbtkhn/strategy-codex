@@ -34,7 +34,7 @@ USER_ID = os.getenv("GRACE_MAR_USER_ID", "grace-mar").strip() or "grace-mar"
 
 
 def _resolve_profile_dir() -> Path:
-    """Default: repo users/<USER_ID>. Override: absolute path via GRACE_MAR_PROFILE_DIR (git snapshot / simulation)."""
+    """Default: repo root profile. Override: absolute path via GRACE_MAR_PROFILE_DIR (git snapshot / simulation)."""
     override = os.getenv("GRACE_MAR_PROFILE_DIR", "").strip()
     if override:
         return Path(override).expanduser().resolve()
@@ -163,7 +163,7 @@ def load_record_chunks() -> list[tuple[str, str]]:
     """Load all chunks from SELF, SKILLS, EVIDENCE.
 
     Caching: in-process (``GRACE_MAR_RETRIEVER_CACHE=0`` disables); optional disk
-    pickle under ``users/<id>/.cache/retriever_chunks.pkl`` (``GRACE_MAR_RETRIEVER_DISK_CACHE=0`` disables).
+    pickle under ``.cache/retriever_chunks.pkl`` (``GRACE_MAR_RETRIEVER_DISK_CACHE=0`` disables).
     """
     global _chunks_cache, _chunks_mtime, _chunks_inv
     paths = _all_record_paths()

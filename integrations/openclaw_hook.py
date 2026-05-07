@@ -223,7 +223,7 @@ def run_openclaw_export(
 def main() -> int:
     parser = argparse.ArgumentParser(description="Export Grace-Mar Record for OpenClaw")
     parser.add_argument("--user", "-u", default="grace-mar", help="User id")
-    parser.add_argument("--output", "-o", default=None, help="Output directory (default: users/[id]/)")
+    parser.add_argument("--output", "-o", default=None, help="Output directory (default: repo root)")
     parser.add_argument(
         "--format",
         choices=["md", "md+manifest", "json+md", "full-prp", "fork-json"],

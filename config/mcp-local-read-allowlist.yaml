@@ -1,4 +1,4 @@
-# Grace-Mar — local read-only MCP-shaped adapter allowlist (planning-only).
+﻿# Grace-Mar â€” local read-only MCP-shaped adapter allowlist (planning-only).
 # Consumed by scripts/mcp_local_readonly.py. Paths are repo-relative POSIX with trailing slashes for roots.
 
 version: 1
@@ -37,3 +37,4 @@ blocked_name_patterns:
   - "*.key"
 
 max_file_bytes: 250000
+
