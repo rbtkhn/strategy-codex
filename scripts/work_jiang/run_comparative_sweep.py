@@ -67,7 +67,7 @@ def _paste_snippet_markdown(ts: str, ts_full: str, sweep_md_rel: str, *, user_id
             f"summary: {safe_summary}",
             "```",
             "",
-            "_Edit before paste. Docs: docs/skill-work/work-jiang/LANE-CI.md_",
+            "_Edit before paste. Docs: codex/predictive-history/LANE-CI.md_",
             "",
         ]
     )
@@ -97,7 +97,11 @@ def main() -> int:
     parser.add_argument("--since", type=str, default="", help="Only include files modified after this ISO date (optional)")
     args = parser.parse_args()
 
-    _require_yaml()
+    try:
+        _require_yaml()
+    except RuntimeError as exc:
+        print(f"ERROR: {exc}", file=sys.stderr)
+        return 2
     state: dict = {}
     if STATE_PATH.exists():
         state = yaml.safe_load(STATE_PATH.read_text(encoding="utf-8")) or {}

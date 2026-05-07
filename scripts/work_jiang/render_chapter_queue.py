@@ -69,7 +69,7 @@ def main() -> int:
         lines2 = _render_queue_lines(
             "CHAPTER QUEUE — Volume II (Civilization)",
             "Nested `volume_2_civilization.book.chapters` — see "
-            "`docs/skill-work/work-jiang/volume-ii-book-track-conventions.md`.",
+            "`codex/predictive-history/volume-ii-book-track-conventions.md`.",
             ch2,
         )
         lines2.append(
@@ -86,7 +86,7 @@ def main() -> int:
         lines3 = _render_queue_lines(
             "CHAPTER QUEUE — Volume III (Secret History)",
             "Nested `volume_3_secret_history.book.chapters` — see "
-            "`docs/skill-work/work-jiang/volume-iii-book-track-conventions.md`.",
+            "`codex/predictive-history/volume-iii-book-track-conventions.md`.",
             ch3,
         )
         lines3.append(
@@ -103,7 +103,7 @@ def main() -> int:
         lines4 = _render_queue_lines(
             "CHAPTER QUEUE — Volume IV (Game Theory)",
             "Nested `volume_4_game_theory.book.chapters` — see "
-            "`docs/skill-work/work-jiang/volume-iv-book-track-conventions.md`.",
+            "`codex/predictive-history/volume-iv-book-track-conventions.md`.",
             ch4,
         )
         lines4.append(
@@ -120,7 +120,7 @@ def main() -> int:
         lines5 = _render_queue_lines(
             "CHAPTER QUEUE — Volume V (Great Books)",
             "Nested `volume_5_great_books.book.chapters` — see "
-            "`docs/skill-work/work-jiang/volume-v-book-track-conventions.md`.",
+            "`codex/predictive-history/volume-v-book-track-conventions.md`.",
             ch5,
         )
         lines5.append(
@@ -137,7 +137,7 @@ def main() -> int:
         lines6 = _render_queue_lines(
             "CHAPTER QUEUE — Volume VI (Interviews)",
             "Nested `volume_6_interviews.book.chapters` — see "
-            "`docs/skill-work/work-jiang/volume-vi-book-track-conventions.md`.",
+            "`codex/predictive-history/volume-vi-book-track-conventions.md`.",
             ch6,
         )
         lines6.append(
@@ -154,7 +154,7 @@ def main() -> int:
         lines7 = _render_queue_lines(
             "CHAPTER QUEUE — Volume VII (Essays)",
             "Nested `volume_7_essays.book.chapters` — see "
-            "`docs/skill-work/work-jiang/volume-vii-book-track-conventions.md`.",
+            "`codex/predictive-history/volume-vii-book-track-conventions.md`.",
             ch7,
         )
         lines7.append(

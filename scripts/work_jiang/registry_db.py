@@ -61,13 +61,13 @@ def rebuild_from_jsonl(
     db_path: Path | None = None,
 ) -> None:
     pred_p = predictions_path or (
-        ROOT / "research/external/work-jiang/prediction-tracking/registry/predictions.jsonl"
+        ROOT / "codex/predictive-history/prediction-tracking/registry/predictions.jsonl"
     )
     div_p = divergences_path or (
-        ROOT / "research/external/work-jiang/divergence-tracking/registry/divergences.jsonl"
+        ROOT / "codex/predictive-history/divergence-tracking/registry/divergences.jsonl"
     )
     pat_p = patterns_path or (
-        ROOT / "research/external/work-jiang/pattern-tracking/registry/patterns.jsonl"
+        ROOT / "codex/predictive-history/pattern-tracking/registry/patterns.jsonl"
     )
     conn = connect(db_path)
     init_schema(conn)
@@ -147,7 +147,7 @@ def _env_prefer_sqlite() -> bool:
 def load_predictions_for_link(*, prefer_sqlite: bool | None = None) -> list[dict]:
     """Load prediction rows for link_supporting_registries (JSONL canonical; optional SQLite read)."""
     prefer = _env_prefer_sqlite() if prefer_sqlite is None else prefer_sqlite
-    pred_p = ROOT / "research/external/work-jiang/prediction-tracking/registry/predictions.jsonl"
+    pred_p = ROOT / "codex/predictive-history/prediction-tracking/registry/predictions.jsonl"
     if prefer and DEFAULT_DB.exists():
         conn = connect()
         out: list[dict] = []
@@ -169,7 +169,7 @@ def load_predictions_for_link(*, prefer_sqlite: bool | None = None) -> list[dict
 def load_patterns_for_link(*, prefer_sqlite: bool | None = None) -> list[dict]:
     """Load pattern rows for link_supporting_registries (JSONL canonical; optional SQLite read)."""
     prefer = _env_prefer_sqlite() if prefer_sqlite is None else prefer_sqlite
-    pat_p = ROOT / "research/external/work-jiang/pattern-tracking/registry/patterns.jsonl"
+    pat_p = ROOT / "codex/predictive-history/pattern-tracking/registry/patterns.jsonl"
     if prefer and DEFAULT_DB.exists():
         conn = connect()
         cur = conn.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='patterns'")
@@ -194,7 +194,7 @@ def load_patterns_for_link(*, prefer_sqlite: bool | None = None) -> list[dict]:
 def load_divergences_for_link(*, prefer_sqlite: bool | None = None) -> list[dict]:
     """Load divergence rows for link_supporting_registries (JSONL canonical; optional SQLite read)."""
     prefer = _env_prefer_sqlite() if prefer_sqlite is None else prefer_sqlite
-    div_p = ROOT / "research/external/work-jiang/divergence-tracking/registry/divergences.jsonl"
+    div_p = ROOT / "codex/predictive-history/divergence-tracking/registry/divergences.jsonl"
     if prefer and DEFAULT_DB.exists():
         conn = connect()
         out: list[dict] = []

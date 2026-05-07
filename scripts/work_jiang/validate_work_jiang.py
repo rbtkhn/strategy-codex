@@ -1,4 +1,4 @@
-"""Validate work-jiang metadata consistency."""
+﻿"""Validate work-jiang metadata consistency."""
 from __future__ import annotations
 
 import argparse
@@ -38,10 +38,10 @@ VALID_STATUSES = [
 ]
 
 FORBIDDEN_EXPORT_PREFIXES = [
-    "users/grace-mar/self.md",
-    "users/grace-mar/self-archive.md",
-    "users/grace-mar/self-evidence.md",
-    "users/grace-mar/recursion-gate.md",
+    "self.md",
+    "self-archive.md",
+    "self-evidence.md",
+    "recursion-gate.md",
 ]
 
 
@@ -118,7 +118,7 @@ def _scan_rendered_status_drift(
             if exp is not None and val != exp:
                 errors.append(
                     f"{path_name} status for {current_cid} is {val!r}, "
-                    f"book-architecture.yaml has {exp!r} — re-run renderers"
+                    f"book-architecture.yaml has {exp!r} â€” re-run renderers"
                 )
             current_cid = None
 
@@ -291,7 +291,7 @@ def check_membrane(errors: list[str]) -> None:
             if prefix in text:
                 errors.append(
                     f"scripts/work_jiang/{py_path.name} contains forbidden path "
-                    f"prefix {prefix!r} — work-jiang must not write to Record"
+                    f"prefix {prefix!r} â€” work-jiang must not write to Record"
                 )
 
 
@@ -514,3 +514,4 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+
