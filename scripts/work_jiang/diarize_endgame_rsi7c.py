@@ -132,7 +132,7 @@ def rebuild_lecture(lecture_path: Path) -> None:
 
 
 def main() -> None:
-    out = Path("research/external/work-jiang/lectures/interviews-10-endgame-our-true-wealth-is-our-consciousness.md")
+    out = Path("codex/predictive-history/lectures/interviews-10-endgame-our-true-wealth-is-our-consciousness.md")
     if len(sys.argv) > 1:
         out = Path(sys.argv[1])
     rebuild_lecture(out)

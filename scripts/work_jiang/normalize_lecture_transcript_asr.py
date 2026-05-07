@@ -14,10 +14,10 @@ Interviews (``interviews-*.md``, Volume VI) use the common tier only unless exte
 Examples::
 
     python3 scripts/work_jiang/normalize_lecture_transcript_asr.py \\
-      research/external/work-jiang/lectures/civilization-11-....md
+      codex/predictive-history/lectures/civilization-11-....md
 
     python3 scripts/work_jiang/normalize_lecture_transcript_asr.py \\
-      research/external/work-jiang/lectures/civilization-11-....md --write
+      codex/predictive-history/lectures/civilization-11-....md --write
 """
 
 from __future__ import annotations
@@ -86,7 +86,7 @@ def run_file(
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("path", type=Path, help="Curated lecture .md under work-jiang/lectures/")
+    parser.add_argument("path", type=Path, help="Curated lecture .md under codex/predictive-history/lectures/")
     parser.add_argument(
         "--series",
         choices=(
