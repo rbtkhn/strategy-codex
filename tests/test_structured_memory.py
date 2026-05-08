@@ -58,6 +58,20 @@ def test_build_capture_record_uses_title_and_compatibility() -> None:
     assert record["body"].startswith("We decided")
 
 
+def test_build_tool_payload_accepts_capture_observation() -> None:
+    payload = structured_memory.build_tool_payload(
+        "capture_observation",
+        user_id="grace-mar",
+        session_id="SES-20260507-001",
+        text="A runtime observation worth keeping.",
+        metadata={"source": "rg"},
+    )
+    assert payload["tool"] == "capture_observation"
+    assert payload["surface_key"] == "thinking"
+    assert payload["legacy_surface_key"] == "prepared_context"
+    assert payload["session_id"] == "SES-20260507-001"
+
+
 def test_build_session_event_maps_legacy_surface() -> None:
     event = structured_memory.build_session_event(
         "prompt_submit",

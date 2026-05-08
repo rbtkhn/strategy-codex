@@ -16,6 +16,11 @@ The repo-local implementation keeps two boundaries clear:
 2. **OB1 remains a mixed-trust runtime.** The live Supabase bridge may store
    structured memory, but it does not replace the Record or the repo gate.
 
+The runtime-only helper in `src/grace_mar/runtime/runtime_memory.py` is
+adjacent to this bridge contract. It shapes session briefs, runtime
+observations, and retrieval feedback for Strategy Codex workflows, but it does
+not define a separate OB1 integration path or a second memory ontology.
+
 ---
 
 ## Structured surfaces
@@ -59,6 +64,7 @@ The live MCP Edge Function exposes the following tools:
 - `start_session`
 - `standup`
 - `capture`
+- `capture_observation`
 - `capture_decision`
 - `capture_brag`
 - `wrap_up`
@@ -76,6 +82,8 @@ The live MCP Edge Function exposes the following tools:
 - `wrap_up` closes the session and records the wrap-up event.
 - `standup` and `get_briefing` render the live structured surfaces into a
   compact or full markdown brief.
+- `capture_observation` is the explicit runtime-observation alias for generic
+  capture payloads.
 - `capture_decision` writes to `decisions`.
 - `capture_brag` writes to `brags`.
 - `capture` routes content using explicit surface hints first, then heuristic
@@ -115,4 +123,3 @@ identity store.
   compatibility views or wrappers.
 - Do not add autonomous sync between OB1 and the Record. The bridge is still
   operator-initiated and observable.
-

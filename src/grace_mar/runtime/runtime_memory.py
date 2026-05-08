@@ -3,15 +3,21 @@
 This module intentionally stays non-canonical: it builds operational payloads
 for session continuity, retrieval feedback, and briefings, but it never claims
 Record authority.
+
+Boundary note:
+- ``structured_memory.py`` is the OB1 bridge contract and session/capture
+  router.
+- This module is the Strategy Codex runtime-only payload layer.
+- Both may render briefs and route captures, but only the bridge owns the OB1
+  integration contract.
 """
 
 from __future__ import annotations
 
-from dataclasses import dataclass
 from datetime import datetime, timezone
 from hashlib import sha256
 from pathlib import Path
-from typing import Any, Iterable, Mapping, Sequence
+from typing import Any, Mapping, Sequence
 
 
 RUNTIME_USE_CASES: tuple[dict[str, Any], ...] = (
@@ -203,6 +209,27 @@ def capture_tool_use(
     )
 
 
+def capture_observation(
+    content: str,
+    *,
+    instance_id: str,
+    session_id: str,
+    lane: str = "",
+    metadata: Mapping[str, Any] | None = None,
+    related_record_path: str = "",
+) -> dict[str, Any]:
+    return build_runtime_observation(
+        content,
+        instance_id=instance_id,
+        source="observation",
+        session_id=session_id,
+        lane=lane,
+        metadata=metadata,
+        related_record_path=related_record_path,
+        observation_type="observation",
+    )
+
+
 def capture_decision(
     content: str,
     *,
@@ -313,4 +340,3 @@ def build_wrap_up_session(
         "next_entrypoint": next_entrypoint,
         "ended_at": _utc_now(),
     }
-

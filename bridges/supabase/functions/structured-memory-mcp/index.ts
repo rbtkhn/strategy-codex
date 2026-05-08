@@ -10,6 +10,7 @@ type ToolName =
   | "start_session"
   | "standup"
   | "capture"
+  | "capture_observation"
   | "capture_decision"
   | "capture_brag"
   | "wrap_up"
@@ -363,6 +364,20 @@ async function handleCapture(request: ToolRequest) {
   return { ...result, route };
 }
 
+async function handleObservation(request: ToolRequest) {
+  const body = (request.text ?? "").trim();
+  return writeStructuredEntry(
+    {
+      ...request,
+      session_id: sessionIdOrDefault(request),
+      tool: "capture_observation",
+    },
+    routeSurface(body, request.surface_hint).surfaceKey,
+    body,
+    request.title,
+  );
+}
+
 async function handleDecision(request: ToolRequest) {
   const body = (request.text ?? "").trim();
   return writeStructuredEntry({ ...request, session_id: sessionIdOrDefault(request) }, "decisions", body, request.title);
@@ -414,6 +429,8 @@ async function handleRequest(request: ToolRequest) {
   switch (request.tool) {
     case "capture":
       return handleCapture(request);
+    case "capture_observation":
+      return handleObservation(request);
     case "capture_decision":
       return handleDecision(request);
     case "capture_brag":

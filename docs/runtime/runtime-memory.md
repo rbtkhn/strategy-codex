@@ -20,6 +20,8 @@ not to create another Record.
 - Runtime memory stores observations, continuity, and retrieval feedback.
 - Retrieval misses are operational feedback, not identity claims.
 - Sync receipts are audit trails for Git-to-runtime propagation, not approval.
+- This runtime layer is adjunct to the OB1 structured-memory bridge; it does
+  not define a second bridge contract or a second Record.
 
 ## Repo-local implementation
 
@@ -31,6 +33,10 @@ They build payloads for:
 - `sessions`
 - `retrieval_misses`
 - `sync_receipts`
+
+The MCP-facing alias `capture_observation` maps onto the runtime observation
+builder so generic runtime captures can stay explicit without changing the OB1
+bridge contract.
 
 They also produce a compact session-start brief from:
 
@@ -52,5 +58,5 @@ They also produce a compact session-start brief from:
 
 The OB1 structured-memory bridge remains a separate integration contract.
 This runtime layer is smaller and more local: it supports Strategy Codex's own
-session continuity and retrieval workflow without becoming canonical storage.
-
+session continuity and retrieval workflow without becoming canonical storage or
+duplicating the bridge contract.

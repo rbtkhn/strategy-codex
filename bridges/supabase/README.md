@@ -33,6 +33,7 @@ The MCP-facing tools are thin adapters:
 
 - `start_session`
 - `standup`
+- `capture_observation`
 - `capture_decision`
 - `capture_brag`
 - `wrap_up`
@@ -42,4 +43,3 @@ The MCP-facing tools are thin adapters:
 The live deployment should not replace the repo's current session lifecycle or
 briefing helpers. It should reuse them conceptually and preserve backward
 compatibility with older `evidence / prepared_context / governed_state` callers.
-

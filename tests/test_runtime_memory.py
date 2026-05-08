@@ -40,6 +40,23 @@ def test_session_start_brief_reads_continuity_files(monkeypatch) -> None:
 
 
 def test_capture_observation_has_fingerprint_and_session() -> None:
+    obs = runtime_memory.capture_observation(
+        "The search found the missing transcript.",
+        instance_id="grace-mar",
+        session_id="SES-20260507-001",
+        lane="work-dev",
+        metadata={"tool": "rg"},
+        related_record_path="docs/runtime/memory-retrieval.md",
+    )
+    assert obs["instance_id"] == "grace-mar"
+    assert obs["source"] == "observation"
+    assert obs["session_id"] == "SES-20260507-001"
+    assert obs["lane"] == "work-dev"
+    assert obs["metadata"] == {"tool": "rg"}
+    assert len(obs["fingerprint"]) == 64
+
+
+def test_capture_tool_use_has_fingerprint_and_session() -> None:
     obs = runtime_memory.capture_tool_use(
         "The search found the missing transcript.",
         instance_id="grace-mar",

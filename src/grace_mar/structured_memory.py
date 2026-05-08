@@ -524,6 +524,8 @@ def build_tool_payload(
         }
     if tool in {"capture_decision", "capture_brag"}:
         surface_hint = "decisions" if tool == "capture_decision" else "brags"
+    elif tool == "capture_observation":
+        surface_hint = None
     record = build_capture_record(
         text,
         surface_hint=surface_hint,
