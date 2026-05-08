@@ -68,6 +68,20 @@ Optional local override file (gitignored): **`fetch-sources.local.json`** — me
 **Backfill / mirror (no network):** [`scripts/populate_strategy_raw_input.py`](../../../../scripts/populate_strategy_raw_input.py) copies **on-disk** **`experts/<id>/transcript.md`** sections and verbatim sidecars into **`raw-input/`** — **not** Cursor agent JSONL (see [§ Three capture channels](#three-capture-channels-normative-vs-recovery)). Run after local edits when you want a unified archive layout.
 
 **Backfill source registry:** before adding another `backfill_*` wrapper, check [BACKFILL-SOURCES.md](BACKFILL-SOURCES.md). It classifies generic source families, source-specific adapters, and recovery-only scripts so the notebook can reduce wrapper sprawl without deleting useful tools prematurely.
+**Short-form bundle backfill (screenshots / OCR):** [`scripts/backfill_shortform_bundle_raw_input.py`](../../../../scripts/backfill_shortform_bundle_raw_input.py) packages multiple short posts from one account or source stream into a single `kind: shortform-bundle` file. Put the OCR'd bundle body in `--body-file`, repeat `--screenshot` for provenance refs, and pin `--platform`, `--account`, and optional `--thread` as needed. Example:
+
+```bash
+python3 scripts/backfill_shortform_bundle_raw_input.py \
+  --pub-date 2026-05-07 \
+  --platform threads \
+  --account @example \
+  --profile-url https://threads.net/@example \
+  --thread example \
+  --body-file /path/to/ocr.md \
+  --screenshot /path/to/shot-1.png \
+  --screenshot /path/to/shot-2.png \
+  --apply
+```
 
 **Substack year backfill (full post body):** [`scripts/backfill_substack_raw_input.py`](../../../../scripts/backfill_substack_raw_input.py) — paginates `api/v1/archive`, fetches `api/v1/posts/{slug}`, writes `raw-input/<date>/substack-*.md` with optional YAML `thread: simplicius` (or other id). Treat the archive as a discovery index, not a completeness mandate: backfill the substantial posts you want preserved, and leave light or repetitive archive-visible items out when that is the better editorial call. Example:
 `python3 scripts/backfill_substack_raw_input.py --hostname simplicius76.substack.com --year 2026 --thread simplicius --apply`
@@ -142,7 +156,7 @@ ingest_date: YYYY-MM-DD
 pub_date: YYYY-MM-DD
 thread: expert_id
 source_url: https://...
-kind: transcript | paste-bundle | screenshot-list | x-screenshots-index | x-post-text | mixed | substack-post
+kind: transcript | paste-bundle | screenshot-list | x-screenshots-index | x-post-text | shortform-bundle | mixed | substack-post
 ---
 
 # Human-readable title
@@ -151,6 +165,8 @@ kind: transcript | paste-bundle | screenshot-list | x-screenshots-index | x-post
 ```
 
 `thread:` may be omitted for non-expert material (e.g. raw wire paste with no `thread:` lane yet). When **`thread:`** is present for an **interview**, it should name the **owning host / interviewer stream**, not every notable guest mentioned in the capture. **`pub_date`** is the calendar day the source went public (live, YouTube/Substack publish, RSS `pubDate`, etc.), distinct from **`ingest_date`** (when you saved or ingested the file into this tree). **On disk,** the parent folder `raw-input/YYYY-MM-DD/` **should match `pub_date`** once known (or **`_aired-pending/`** until then). The legacy key **`published_date`** is **removed** from this tree; use **`pub_date`** only. RSS triage reads **`pub_date`**, then **`ingest_date`**, then the folder name. Prefer **`kind: x-post-text`** when you paste X copy directly; legacy screenshot captures are indexed as **`x-screenshots-index`** (links to `assets/**/*.png`, no OCR).
+
+For bundled short-form posts captured from screenshots or OCR, use **`kind: shortform-bundle`**. That is the generic daily bundle format for one source account or stream when you want one file to hold multiple short posts, with OCR text in the body and screenshots preserved as provenance. Existing `x-post-bundle` captures remain valid legacy files, but new generic bundles should use `shortform-bundle`.
 
 ## Harvest / backfill
 

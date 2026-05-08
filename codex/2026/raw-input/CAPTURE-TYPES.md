@@ -61,19 +61,19 @@ Long-form prose from a **single primary author** or outlet voice: Substack posts
 
 ## Social
 
-Short-form or **threaded** social text: X/Twitter, Bluesky, **Locals**, Truth Social, etc. May include **screenshot indexes** when OCR text is unavailable.
+Short-form or **threaded** social text: X/Twitter, Bluesky, **Locals**, Truth Social, Threads, etc. May include **screenshot indexes** when OCR text is unavailable.
 
 | Axis | Guidance |
 |------|----------|
 | **Typical sources** | Copy-paste posts; thread exports; Locals HTML paste; **public profile crawl** / explicit status URLs; **screenshot rolls** with filenames under **`assets/`**. |
-| **`kind:`** | Prefer **`x-post-text`** for direct post text paste; **`paste-bundle`** for mixed clips; **`mixed`** for hybrid; **`screenshot-list`** / **`x-screenshots-index`** when **no** extractable speech text ([README.md — kinds table](README.md)). |
+| **`kind:`** | Prefer **`x-post-text`** for a single direct X post paste; prefer **`shortform-bundle`** for multiple short posts from one account or source stream in a day; use **`paste-bundle`** for mixed clips; **`mixed`** for hybrid; **`screenshot-list`** / **`x-screenshots-index`** when **no** extractable speech text ([README.md — kinds table](README.md)). |
 | **`thread:`** | Often **topic- or operator-routed** rather than classic commentator; set **`thread:`** when a named lane applies; else omit / **`membrane:single`**. |
-| **Raw body** | Ordered posts with separators (`---` or **`Post N`**); **stable URL per post** when available; capture **time of snapshot** in **`note:`** if deletion risk. |
-| **Mechanical inbox stub** | Platform + handle + **`pub_date`** (post day) + **`partial`** vs **`full`** + **`verify:`** for breaking claims + **`not-Record`**. Flag **`screenshot-capture-tier`** or **`operator-pasted-transcript`** as appropriate. **`grep:`** handle + first distinctive phrase + date. |
+| **Raw body** | Ordered posts with separators (`---` or **`Post N`**) for bundles; **stable URL per post** when available; for `shortform-bundle`, keep OCR text as the main body and preserve screenshot provenance in a manifest or appendix section. Capture **time of snapshot** in **`note:`** if deletion risk. |
+| **Mechanical inbox stub** | Platform + handle + **`pub_date`** (post day) + **`partial`** vs **`full`** + **`verify:`** for breaking claims + **`not-Record`**. Flag **`screenshot-capture-tier`** or **`operator-pasted-transcript`** as appropriate. For `shortform-bundle`, include the source platform and bundle count in the stub. **`grep:`** handle + first distinctive phrase + date. |
 | **Refined `### Selected Passages`** | Short posts may **fit full** Selected Passages; long threads → **selected posts** + Appendix pointer to raw bundle. |
 | **Pitfalls** | **Deleted posts** (SSOT is “what we captured”); character-limit noise; mixing **hot takes** with wire facts without tier tags. |
 
-**`grep:` keywords (optional tail):** `x-post`, `Locals`, `thread`, `screenshot`, `partial`.
+**`grep:` keywords (optional tail):** `x-post`, `shortform-bundle`, `Locals`, `thread`, `screenshot`, `partial`.
 
 ---
 

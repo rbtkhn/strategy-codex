@@ -204,3 +204,27 @@ def test_collect_rss_thread_ingests_respects_cutoff(tmp_path: Path) -> None:
         raw_root, cutoff=date(2026, 1, 13), expert_ids_set=frozenset({"e"})
     )
     assert got == {}
+
+
+def test_collect_rss_thread_ingests_includes_shortform_bundle(tmp_path: Path) -> None:
+    raw_root = tmp_path / "raw-input"
+    day = raw_root / "2026-05-07"
+    day.mkdir(parents=True)
+    day.joinpath("bundle.md").write_text(
+        "---\n"
+        "ingest_date: 2026-05-07\n"
+        "pub_date: 2026-05-07\n"
+        "kind: shortform-bundle\n"
+        "thread: e\n"
+        "source_url: https://example.com/profile\n"
+        "---\n\n"
+        "# Example short-form bundle\n\n"
+        "Post one\n",
+        encoding="utf-8",
+    )
+    got = collect_rss_thread_ingests(
+        raw_root, cutoff=date(2026, 5, 1), expert_ids_set=frozenset({"e"})
+    )
+    assert "e" in got
+    assert date(2026, 5, 7) in got["e"]
+    assert any("Example short-form bundle" in ln for ln in got["e"][date(2026, 5, 7)])
