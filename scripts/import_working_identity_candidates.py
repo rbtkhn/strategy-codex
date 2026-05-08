@@ -8,12 +8,12 @@ candidates are non-canonical until reviewed and approved through the gated pipel
 
 Usage:
 
-  python3 scripts/import_working_identity_candidates.py -u grace-mar -f extract.json
-  python3 scripts/import_working_identity_candidates.py -u grace-mar -f extract.json --source-tool ChatGPT
-  python3 scripts/import_working_identity_candidates.py -u grace-mar -f extract.json --dry-run
+  python3 scripts/import_working_identity_candidates.py -u strategy-codex -f extract.json
+  python3 scripts/import_working_identity_candidates.py -u strategy-codex -f extract.json --source-tool ChatGPT
+  python3 scripts/import_working_identity_candidates.py -u strategy-codex -f extract.json --dry-run
 
 Outputs:
-  - CANDIDATE blocks staged in users/<id>/recursion-gate.md
+  - CANDIDATE blocks staged in recursion-gate.md
   - Human-review digest in artifacts/portable-record/import-digest-YYYY-MM-DD.md
 """
 
@@ -36,8 +36,9 @@ from stage_gate_candidate import (  # noqa: E402
     insert_before_processed,
     next_candidate_id,
 )
+from repo_io import DEFAULT_PROFILE_ID, profile_dir  # noqa: E402
 
-DEFAULT_USER = "grace-mar"
+DEFAULT_USER = DEFAULT_PROFILE_ID
 
 LAYER_TO_SURFACE: dict[str, str] = {
     "domain_encoding": "SELF-LIBRARY",
@@ -266,7 +267,7 @@ def main() -> int:
     timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     date_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
-    gate_path = REPO_ROOT / "users" / args.user / "recursion-gate.md"
+    gate_path = profile_dir(args.user) / "recursion-gate.md"
     if not gate_path.is_file():
         print(f"Error: recursion-gate.md not found: {gate_path}", file=sys.stderr)
         return 1

@@ -22,6 +22,7 @@ DEFAULT_USER_ID = DEFAULT_PROFILE_ID
 CANONICAL_EVIDENCE_BASENAME = "self-archive.md"
 CANONICAL_RECORD_FILES_REQUIRED: tuple[str, ...] = (
     "self.md",
+    "self-knowledge.md",
     CANONICAL_EVIDENCE_BASENAME,
     "recursion-gate.md",
 )

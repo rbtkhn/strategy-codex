@@ -17,9 +17,9 @@ Writes all candidates in a single atomic gate update.
 Stages only; Record files are unchanged until companion approval and merge.
 
 Usage:
-    python scripts/batch_ingest_observations.py -u grace-mar < observations.txt
-    python scripts/batch_ingest_observations.py -u grace-mar -f notes.txt
-    python scripts/batch_ingest_observations.py -u grace-mar --dry-run < notes.txt
+    python scripts/batch_ingest_observations.py -u strategy-codex < observations.txt
+    python scripts/batch_ingest_observations.py -u strategy-codex -f notes.txt
+    python scripts/batch_ingest_observations.py -u strategy-codex --dry-run < notes.txt
 """
 
 from __future__ import annotations
@@ -50,7 +50,9 @@ try:
 except ImportError:
     _HAS_STAGE = False
 
-DEFAULT_USER = "grace-mar"
+from repo_io import DEFAULT_PROFILE_ID, profile_dir
+
+DEFAULT_USER = DEFAULT_PROFILE_ID
 
 CATEGORY_MAP = {
     "knowledge": {
@@ -258,7 +260,7 @@ def batch_ingest(
 
     Returns list of dicts with id, category, body, convergence per observation.
     """
-    gate_path = REPO_ROOT / "users" / user_id / "recursion-gate.md"
+    gate_path = profile_dir(user_id) / "recursion-gate.md"
     if not gate_path.is_file():
         print(f"ERROR: {gate_path} not found", file=sys.stderr)
         return []

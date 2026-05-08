@@ -4,15 +4,14 @@ Generate a read-only HTML dashboard of pending RECURSION-GATE candidates.
 
 One book (recursion-gate.md), human door (this page). Run after gate changes:
 
-    python scripts/generate_gate_dashboard.py -u grace-mar
-    open users/grace-mar/gate-dashboard.html
+    python scripts/generate_gate_dashboard.py -u strategy-codex
+    open gate-dashboard.html
 """
 
 from __future__ import annotations
 
 import argparse
 import html
-import os
 import re
 import sys
 from datetime import datetime, timezone
@@ -25,13 +24,14 @@ if str(_SCRIPTS) not in sys.path:
 
 from recursion_gate_territory import TERRITORY_WORK_POLITICS
 from recursion_gate_review import parse_review_candidates
+from repo_io import DEFAULT_PROFILE_ID, profile_dir
 
-DEFAULT_USER = os.getenv("GRACE_MAR_USER_ID", "grace-mar").strip() or "grace-mar"
+DEFAULT_USER = DEFAULT_PROFILE_ID
 
 
 def _age_label(age_days: int | None) -> str:
     if age_days is None:
-        return "—"
+        return "-"
     return f"{age_days}d"
 
 
@@ -60,8 +60,8 @@ def build_html(user_id: str, rows: list[dict], gate_rel: str) -> str:
       <p class="summary">{html.escape(r['summary'] or '(no summary)')}</p>
       {duplicate_note}
       <footer>
-        <span class="meta">{html.escape(r['channel_key'] or '—')}</span>
-        <span class="meta">{html.escape(r['timestamp'] or '—')}</span>
+        <span class="meta">{html.escape(r['channel_key'] or '-')}</span>
+        <span class="meta">{html.escape(r['timestamp'] or '-')}</span>
       </footer>
     </article>"""
         )
@@ -73,7 +73,7 @@ def build_html(user_id: str, rows: list[dict], gate_rel: str) -> str:
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>RECURSION-GATE pending — {html.escape(user_id)}</title>
+  <title>RECURSION-GATE pending - {html.escape(user_id)}</title>
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;1,9..40,400&family=Fraunces:ital,opsz,wght@0,9..72,600;1,9..72,600&display=swap" rel="stylesheet"/>
   <style>
@@ -176,7 +176,7 @@ def build_html(user_id: str, rows: list[dict], gate_rel: str) -> str:
 </head>
 <body>
   <h1>Pending candidates</h1>
-  <p class="sub">Read-only view of <code>{html.escape(gate_rel)}</code> · edit status in the markdown file, then merge. Generated {html.escape(gen)}</p>
+  <p class="sub">Read-only view of <code>{html.escape(gate_rel)}</code> - edit status in the markdown file, then merge. Generated {html.escape(gen)}</p>
   <div class="stats">
     <span class="stat"><strong>{n}</strong> pending</span>
     <span class="stat">Work-politics <strong>{politics_n}</strong></span>
@@ -193,7 +193,7 @@ def build_html(user_id: str, rows: list[dict], gate_rel: str) -> str:
   <div class="grid" id="grid">
 {rows_html}
   </div>
-  <p class="foot">Grace-Mar harness — human door only. Voice stages here; companion approves. Regenerate: <code>python scripts/generate_gate_dashboard.py -u {html.escape(user_id)}</code></p>
+  <p class="foot">Grace-Mar harness - human door only. Voice stages here; companion approves. Regenerate: <code>python scripts/generate_gate_dashboard.py -u {html.escape(user_id)}</code></p>
   <script>
     document.querySelectorAll('.filters button').forEach(function(btn) {{
       btn.addEventListener('click', function() {{
@@ -222,16 +222,16 @@ def build_html(user_id: str, rows: list[dict], gate_rel: str) -> str:
 def main() -> int:
     ap = argparse.ArgumentParser(description="Generate gate-dashboard.html from recursion-gate.md")
     ap.add_argument("-u", "--user", default=DEFAULT_USER)
-    ap.add_argument("-o", "--output", default=None, help="Output path (default users/<id>/gate-dashboard.html)")
+    ap.add_argument("-o", "--output", default=None, help="Output path (default gate-dashboard.html)")
     args = ap.parse_args()
-    user_dir = REPO_ROOT / "users" / args.user
+    user_dir = profile_dir(args.user)
     gate = user_dir / "recursion-gate.md"
     if not gate.exists():
         print(f"Missing {gate}", file=sys.stderr)
         return 1
     rows = [row for row in parse_review_candidates(args.user) if row.get("status") == "pending"]
     out = Path(args.output) if args.output else user_dir / "gate-dashboard.html"
-    gate_rel = f"users/{args.user}/recursion-gate.md"
+    gate_rel = gate.relative_to(REPO_ROOT).as_posix()
     out.write_text(build_html(args.user, rows, gate_rel), encoding="utf-8")
     print(out)
     return 0

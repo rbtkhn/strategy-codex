@@ -22,6 +22,7 @@ if str(_SCRIPTS) not in sys.path:
 
 from gate_block_parser import iter_candidate_yaml_blocks  # noqa: E402
 from rejection_feedback import REJECTION_CATEGORIES, infer_rejection_category  # noqa: E402
+from repo_io import DEFAULT_PROFILE_ID, profile_dir  # noqa: E402
 
 
 def _is_rejected(yaml_body: str) -> bool:
@@ -77,7 +78,12 @@ def recommendations(stats: dict[str, Any]) -> list[str]:
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="Analyze rejected gate candidates for routing feedback.")
-    ap.add_argument("-u", "--user", default="grace-mar", help="User id under users/ (default grace-mar)")
+    ap.add_argument(
+        "-u",
+        "--user",
+        default=DEFAULT_PROFILE_ID,
+        help="Profile id for canonical root surfaces (default from GRACE_MAR_USER_ID or strategy-codex)",
+    )
     ap.add_argument("--gate", type=Path, default=None, help="Explicit path to recursion-gate.md")
     ap.add_argument(
         "--output-json",
@@ -90,7 +96,7 @@ def main() -> int:
 
     gate = args.gate
     if gate is None:
-        gate = REPO_ROOT / "users" / args.user.strip() / "recursion-gate.md"
+        gate = profile_dir(args.user.strip()) / "recursion-gate.md"
     if not gate.is_file():
         print(f"gate file not found: {gate}", file=sys.stderr)
         return 2

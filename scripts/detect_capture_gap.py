@@ -15,9 +15,9 @@ Exposes detect_gap() for import by auto_dream.py, harness_warmup.py, and
 assess_session_load.py.
 
 Usage:
-    python scripts/detect_capture_gap.py -u grace-mar
-    python scripts/detect_capture_gap.py -u grace-mar --json
-    python scripts/detect_capture_gap.py -u grace-mar --notice 5 --warning 10 --alert 21
+    python scripts/detect_capture_gap.py -u strategy-codex
+    python scripts/detect_capture_gap.py -u strategy-codex --json
+    python scripts/detect_capture_gap.py -u strategy-codex --notice 5 --warning 10 --alert 21
 """
 
 from __future__ import annotations
@@ -31,16 +31,21 @@ from datetime import date, datetime, timezone
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
+_SCRIPTS = Path(__file__).resolve().parent
+if str(_SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(_SCRIPTS))
 
-DEFAULT_USER = "grace-mar"
+from repo_io import DEFAULT_PROFILE_ID, profile_dir
+
+DEFAULT_USER = DEFAULT_PROFILE_ID
 DEFAULT_NOTICE = 7
 DEFAULT_WARNING = 14
 DEFAULT_ALERT = 30
 
 
 def _find_evidence_path(user_id: str) -> Path | None:
-    """Auto-detect Evidence file: self-archive.md (grace-mar) or self-evidence.md."""
-    user_dir = REPO_ROOT / "users" / user_id
+    """Auto-detect Evidence file: self-archive.md or self-evidence.md."""
+    user_dir = profile_dir(user_id)
     for name in ("self-archive.md", "self-evidence.md"):
         p = user_dir / name
         if p.is_file():
@@ -78,7 +83,7 @@ def _parse_latest_evidence(evidence_path: Path) -> tuple[str | None, str | None]
 
 def _parse_last_merge(user_id: str) -> str | None:
     """Find the most recent 'applied' event date in pipeline-events.jsonl."""
-    events_path = REPO_ROOT / "users" / user_id / "pipeline-events.jsonl"
+    events_path = profile_dir(user_id) / "pipeline-events.jsonl"
     if not events_path.is_file():
         return None
 
@@ -103,7 +108,7 @@ def _parse_last_merge(user_id: str) -> str | None:
 
 def _pending_count(user_id: str) -> int:
     """Count pending candidates in recursion-gate.md."""
-    gate_path = REPO_ROOT / "users" / user_id / "recursion-gate.md"
+    gate_path = profile_dir(user_id) / "recursion-gate.md"
     if not gate_path.is_file():
         return 0
     content = gate_path.read_text(encoding="utf-8")
