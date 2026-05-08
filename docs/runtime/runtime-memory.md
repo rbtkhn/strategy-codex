@@ -42,6 +42,10 @@ The runtime helper also renders `get_briefing(...)` and `standup(...)` briefs
 from structured memory surfaces, mirroring the bridge-facing briefing shape
 without becoming the bridge contract itself.
 
+The session closeout path is exposed as `wrap_up(...)`, which returns the same
+runtime-only payload as `build_wrap_up_session(...)` but reads like the rest of
+the runtime API.
+
 They also produce a compact session-start brief from:
 
 - `session-log.md`

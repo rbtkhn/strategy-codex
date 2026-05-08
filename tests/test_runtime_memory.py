@@ -144,7 +144,15 @@ def test_retrieval_miss_record_contains_context() -> None:
 
 
 def test_wrap_up_and_sync_receipt_shapes() -> None:
-    wrap = runtime_memory.build_wrap_up_session(
+    wrap = runtime_memory.wrap_up(
+        instance_id="grace-mar",
+        session_id="SES-20260507-004",
+        lane="work-dev",
+        summary="Closed the runtime-memory wedge.",
+        open_loops=["Push docs"],
+        next_entrypoint="docs/runtime/runtime-memory.md",
+    )
+    legacy_wrap = runtime_memory.build_wrap_up_session(
         instance_id="grace-mar",
         session_id="SES-20260507-004",
         lane="work-dev",
@@ -161,5 +169,6 @@ def test_wrap_up_and_sync_receipt_shapes() -> None:
 
     assert wrap["status"] == "ended"
     assert wrap["open_loops"] == ["Push docs"]
+    assert legacy_wrap["summary"] == wrap["summary"]
     assert receipt["git_commit_sha"] == "abc123"
     assert receipt["surfaces"] == ["self.md", "self-archive.md"]

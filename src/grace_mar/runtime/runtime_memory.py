@@ -427,3 +427,26 @@ def build_wrap_up_session(
         "next_entrypoint": next_entrypoint,
         "ended_at": _utc_now(),
     }
+
+
+def wrap_up(
+    *,
+    instance_id: str,
+    session_id: str,
+    lane: str = "",
+    status: str = "ended",
+    summary: str = "",
+    open_loops: Sequence[str] | None = None,
+    next_entrypoint: str = "",
+) -> dict[str, Any]:
+    """Runtime alias for the session wrap-up payload."""
+
+    return build_wrap_up_session(
+        instance_id=instance_id,
+        session_id=session_id,
+        lane=lane,
+        status=status,
+        summary=summary,
+        open_loops=open_loops,
+        next_entrypoint=next_entrypoint,
+    )
