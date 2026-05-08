@@ -91,13 +91,13 @@ def build_emulation_envelope(
     return {
         "$schema": "schema-registry/emulation-bundle-envelope.v1.json",
         "schemaVersion": "1.0.0",
-        "format": "grace-mar-emulation-bundle",
+        "format": "strategy-codex-emulation-bundle",
         "generatedAt": generated_at,
         "userId": user_id,
         "runtimeMode": runtime_mode,
         "runtimeBundlePath": "bundle.json",
         "references": {
-            "prpPath": "record/grace-mar-llm.txt",
+            "prpPath": "record/self-llm.txt",
             "forkExportPath": "record/fork-export.json",
             "authorityMapPath": "policy/authority-map.json",
             "changeProposalSchemaPath": "policy/change-proposal.v1.json",
@@ -127,7 +127,7 @@ def build_emulation_envelope(
 
 def export_emulation_bundle(
     *,
-    user_id: str = "grace-mar",
+    user_id: str = "strategy-codex",
     output_dir: Path | None = None,
     runtime_mode: str = "portable_bundle_only",
     include_user_json: bool = False,
@@ -199,12 +199,12 @@ def export_emulation_bundle(
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Export an emulation-oriented Grace-Mar bundle")
-    parser.add_argument("--user", "-u", default="grace-mar", help="User id")
+    parser.add_argument("--user", "-u", default="strategy-codex", help="Profile id")
     parser.add_argument(
         "--output",
         "-o",
         default="",
-        help="Output directory (default: users/[id]/emulation-bundle)",
+        help="Output directory (default: emulation-bundle)",
     )
     parser.add_argument(
         "--mode",

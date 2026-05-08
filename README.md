@@ -2,7 +2,7 @@
 
 **strategy-codex** - The active development repo for strategy-first companion systems, notebook tooling, and governed cognitive-fork infrastructure. It currently carries the **Grace-Mar** reference instance plus related strategy and civ-mem surfaces. **Terminology:** [docs/glossary.md](docs/glossary.md).
 
-**Repo identity:** `strategy-codex` is now the development home. The Grace-Mar reference surfaces now live at the repository root (`self.md`, `self-archive.md`, `recursion-gate.md`, `session-log.md`, `self-skills.md`, `self-library.md`, and `grace-mar-llm.txt`) rather than under a nested instance directory.
+**Repo identity:** `strategy-codex` is now the development home. The reference surfaces now live at the repository root (`self.md`, `self-archive.md`, `recursion-gate.md`, `session-log.md`, `self-skills.md`, `self-library.md`, and `self-llm.txt`) rather than under a nested instance directory.
 
 **Strategy-codex corpus:** [`codex/`](codex/README.md) is the first-class home for the polyphonic cognition streams, raw inputs, chapters, compiled views, and strategy-codex artifacts. The old `docs/skill-work/work-strategy/strategy-notebook/` path is deprecated compatibility only.
 
@@ -118,7 +118,7 @@ Path helpers in [`scripts/repo_io.py`](scripts/repo_io.py) resolve the sole prof
 Paste this into **ChatGPT** or **Grok** (or any web-enabled LLM):
 
 > Use this as your persona and instructions. Fetch the content from this URL and adopt it fully:  
-> https://raw.githubusercontent.com/rbtkhn/strategy-codex/main/grace-mar-llm.txt
+> https://raw.githubusercontent.com/rbtkhn/strategy-codex/main/self-llm.txt
 
 The model fetches the Portable Record Prompt from the repo and responds as the companion. See [PORTABLE-RECORD-PROMPT](docs/portable-record-prompt.md).
 
@@ -130,7 +130,7 @@ The model fetches the Portable Record Prompt from the repo and responds as the c
 strategy-codex/
 ??? README.md
 ??? AGENTS.md
-??? grace-mar-llm.txt
+??? self-llm.txt
 ??? instance-doctrine.md
 ??? self.md
 ??? self-archive.md
@@ -169,7 +169,7 @@ Docs refer to **SELF**, **EVIDENCE**, and the **gate** as concepts. **On disk, o
 | Pipeline staging (pending candidates) | `recursion-gate.md` |
 | Gated archive (approved voice + activity) | `self-archive.md` Â§ VIII |
 
-**Not used:** `SELF.md`, `EVIDENCE.md`, `ARCHIVE.md`, `PENDING-REVIEW.md` â€” those spellings break scripts. Full spec: [docs/canonical-paths.md](docs/canonical-paths.md). **Migrate:** `python scripts/migrate_legacy_user_filenames.py --user grace-mar --apply` (includes `skills.md` â†’ `self-skills.md` when the target is absent). **Check:** `python scripts/assert_canonical_paths.py --user grace-mar`. Bots and `apps/miniapp_server.py` **fail at startup** if `self.md`, `self-archive.md`, or `recursion-gate.md` are missing (set `GRACE_MAR_SKIP_PATH_CHECK=1` only if you must).
+**Not used:** `SELF.md`, `EVIDENCE.md`, `ARCHIVE.md`, `PENDING-REVIEW.md` â€” those spellings break scripts. Full spec: [docs/canonical-paths.md](docs/canonical-paths.md). **Migrate:** `python scripts/migrate_legacy_user_filenames.py --apply` (includes `skills.md` â†’ `self-skills.md` when the target is absent). **Check:** `python scripts/assert_canonical_paths.py`. Bots and `apps/miniapp_server.py` **fail at startup** if `self.md`, `self-archive.md`, or `recursion-gate.md` are missing (set `GRACE_MAR_SKIP_PATH_CHECK=1` only if you must).
 
 ## Key Documents
 
@@ -244,10 +244,8 @@ The Record is user-owned. When changing schools, the user brings their Record. G
 Compute a checksum of the fork state (SELF + EVIDENCE + prompt) and optionally write a manifest for the profile Disclosure view:
 
 ```bash
-python scripts/fork_checksum.py                    # Print checksum (default: GRACE_MAR_USER_ID or grace-mar)
-python scripts/fork_checksum.py -u grace-mar       # Checksum for 
+python scripts/fork_checksum.py                    # Print checksum (default: strategy-codex)
 python scripts/fork_checksum.py --manifest         # Write fork-manifest.json
-python scripts/fork_checksum.py -u grace-mar --manifest
 ```
 
 Export the fork to JSON with the same ontology as [architecture.md](docs/architecture.md): top-level **`self`** (full identity markdown), **`self_knowledge`** (IX-A slice = SELF-KNOWLEDGE), **`self_library`** (with nested **`civ_mem`** = CIV-MEM subdomain of SELF-LIBRARY), **`skills`**, **`evidence`**, plus **`library.raw`** when using full export. See `scripts/export_fork.py` (`version` 1.1+).
@@ -255,7 +253,7 @@ Export the fork to JSON with the same ontology as [architecture.md](docs/archite
 **Unified CLI (preferred):** [`scripts/export.py`](scripts/export.py) dispatches to the legacy scripts without changing behavior â€” see [docs/EXPORT-CLI.md](docs/EXPORT-CLI.md).
 
 ```bash
-python scripts/export.py fork --                       # Print JSON to stdout (default user: grace-mar)
+python scripts/export.py fork --                       # Print JSON to stdout (default profile: strategy-codex)
 python scripts/export.py fork -- -o fork-export.json
 python scripts/export.py fork -- --no-raw -o summary.json
 python scripts/export.py fork -- --format coach-handoff -o coach-handoff.json
@@ -273,10 +271,10 @@ python scripts/export_fork.py --format coach-handoff -o coach-handoff.json  # JS
 Export a runtime-neutral bundle with explicit `record`, `runtime`, `audit`, and `policy` lanes:
 
 ```bash
-python scripts/export.py bundle -- -u grace-mar
-python scripts/export.py bundle -- -u grace-mar --mode primary_runtime -o /tmp/runtime-bundle
-python scripts/export_runtime_bundle.py -u grace-mar
-python scripts/export_runtime_bundle.py -u grace-mar --mode primary_runtime -o /tmp/runtime-bundle
+python scripts/export.py bundle --
+python scripts/export.py bundle -- --mode primary_runtime -o /tmp/runtime-bundle
+python scripts/export_runtime_bundle.py
+python scripts/export_runtime_bundle.py --mode primary_runtime -o /tmp/runtime-bundle
 ```
 
 ## Uniqueness measurement
@@ -320,10 +318,10 @@ See [docs/pdf-setup.md](docs/pdf-setup.md) for full options.
 ## Agent Manifest & Metrics
 
 ```bash
-python3 scripts/export_manifest.py -u grace-mar   # manifest.json + llms.txt
+python3 scripts/export_manifest.py                # manifest.json + llms.txt
 python3 scripts/metrics.py                        # Pipeline health, IX counts
 python3 scripts/governance_checker.py             # Principle violations (pre-commit)
-python3 integrations/openclaw_hook.py -u grace-mar -o ../openclaw/   # OpenClaw export
+python3 integrations/openclaw_hook.py -o ../openclaw/   # OpenClaw export
 ```
 
 ## Validation and Session Support
@@ -332,12 +330,12 @@ python3 integrations/openclaw_hook.py -u grace-mar -o ../openclaw/   # OpenClaw 
 
 ```bash
 pip install -r requirements-dev.txt
-python3 scripts/assert_canonical_paths.py --user grace-mar
-python3 scripts/validate-integrity.py --user grace-mar --json
+python3 scripts/assert_canonical_paths.py
+python3 scripts/validate-integrity.py --json
 python3 -m pytest tests/ -v --tb=short
 ```
 
-`validate-integrity.py` includes **SELF-KNOWLEDGE vs SELF-LIBRARY** checks (IX-A corpus-style violations) and validates **`proposal_class`** on gate candidates when present. GitHub Actions runs `--require-proposal-class` for `grace-mar`; locally, add the same flag for strict queues ([IFP Â§3.5](docs/identity-fork-protocol.md)). **Merge-time:** `process_approved_candidates.py --apply` refuses to write if the merged `self.md` would violate IX-A boundary rules. Standalone: `python3 scripts/validate_identity_library_boundary.py -u grace-mar`.
+`validate-integrity.py` includes **SELF-KNOWLEDGE vs SELF-LIBRARY** checks (IX-A corpus-style violations) and validates **`proposal_class`** on gate candidates when present. GitHub Actions runs `--require-proposal-class` for the root profile; locally, add the same flag for strict queues ([IFP Â§3.5](docs/identity-fork-protocol.md)). **Merge-time:** `process_approved_candidates.py --apply` refuses to write if the merged `self.md` would violate IX-A boundary rules. Standalone: `python3 scripts/validate_identity_library_boundary.py`.
 
 **Performance (tier 1, CI):** `python scripts/run_perf_local.py` or covered by `pytest tests/test_perf_local.py`. Tiers 2â€“5 (exports, LLM, HTTP, load): [docs/perf-budgets.md](docs/perf-budgets.md).
 
@@ -350,8 +348,8 @@ python scripts/validate-integrity.py
 **Record index** â€” fast local search over SELF, EVIDENCE, RECURSION-GATE (analyst dedup, PRP retrieval):
 
 ```bash
-python scripts/index_record.py build -u grace-mar
-python scripts/index_record.py query "space Jupiter" -u grace-mar
+python scripts/index_record.py build
+python scripts/index_record.py query "space Jupiter"
 ```
 
 **Session briefing** â€” run before a tutoring session for pending count, recent activity, and suggested wisdom questions:
@@ -363,11 +361,11 @@ python scripts/session_brief.py
 **Seed phase & hey** â€” operator bootstrap and short daily ritual (does not merge the Record; use RECURSION-GATE for durable truth):
 
 ```bash
-python3 scripts/seed-phase-wizard.py -u grace-mar
-python3 scripts/good-morning-brief.py -u grace-mar
+python3 scripts/seed-phase-wizard.py
+python3 scripts/good-morning-brief.py
 ```
 
-See [docs/seed-phase-wizard.md](docs/seed-phase-wizard.md). Full stack: [.cursor/skills/coffee/SKILL.md](.cursor/skills/coffee/SKILL.md) and `python3 scripts/harness_warmup.py -u grace-mar`.
+See [docs/seed-phase-wizard.md](docs/seed-phase-wizard.md). Full stack: [.cursor/skills/coffee/SKILL.md](.cursor/skills/coffee/SKILL.md) and `python3 scripts/harness_warmup.py`.
 
 **Seed Phase regression tests:** `pip install -r scripts/requirements-seed-phase.txt` then `pytest -q` (fixtures under `tests/fixtures/seed-phase/`; subprocesses `validate-seed-phase.py`, `generate-seed-dossier.py`, `check-seed-consistency.py`). Strict validation needs `jsonschema`.
 

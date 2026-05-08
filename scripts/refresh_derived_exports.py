@@ -7,8 +7,8 @@ manual refresh is mainly for local edits, CI, or recovery when `validate-integri
 
 Same order as `process_approved_candidates.py` post-merge exports (post-merge also re-runs PRP + subset refresh).
 
-  python3 scripts/refresh_derived_exports.py -u grace-mar
-  python3 scripts/validate-integrity.py --user grace-mar
+  python3 scripts/refresh_derived_exports.py
+  python3 scripts/validate-integrity.py --json
 """
 
 from __future__ import annotations
@@ -20,25 +20,29 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
+from repo_io import profile_dir
+
 
 def _prp_output_path(user_id: str) -> Path:
-    if user_id == "grace-mar":
-        return REPO_ROOT / "grace-mar-llm.txt"
-    return REPO_ROOT / "users" / user_id / f"{user_id}-llm.txt"
+    if profile_dir(user_id) == REPO_ROOT:
+        return REPO_ROOT / "self-llm.txt"
+    return profile_dir(user_id) / f"{user_id}-llm.txt"
 
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Regenerate manifest, PRP, fork manifest, runtime bundle.")
-    parser.add_argument("-u", "--user", default="grace-mar", help="User id")
+    parser.add_argument("-u", "--user", default="strategy-codex", help="Profile id")
     args = parser.parse_args()
-    uid = args.user.strip() or "grace-mar"
-    profile = REPO_ROOT / "users" / uid
+    uid = args.user.strip() or "strategy-codex"
+    profile = profile_dir(uid)
     py = sys.executable
 
     steps: list[list[str]] = [
         [
             py,
-            str(REPO_ROOT / "scripts" / "export_prp.py"),
+            str(REPO_ROOT / "scripts" / "export.py"),
+            "prp",
+            "--",
             "-u",
             uid,
             "-n",
@@ -46,11 +50,13 @@ def main() -> int:
             "-o",
             str(_prp_output_path(uid)),
         ],
-        [py, str(REPO_ROOT / "scripts" / "export_manifest.py"), "-u", uid, "-o", str(profile)],
+        [py, str(REPO_ROOT / "scripts" / "export.py"), "manifest", "--", "-u", uid, "-o", str(profile)],
         [py, str(REPO_ROOT / "scripts" / "fork_checksum.py"), "-u", uid, "--manifest"],
         [
             py,
-            str(REPO_ROOT / "scripts" / "export_runtime_bundle.py"),
+            str(REPO_ROOT / "scripts" / "export.py"),
+            "bundle",
+            "--",
             "-u",
             uid,
             "-o",

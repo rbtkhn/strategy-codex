@@ -63,10 +63,11 @@ USER_ID = os.getenv("GRACE_MAR_USER_ID", "strategy-codex").strip() or "strategy-
 PROFILE_DIR = REPO_ROOT
 RECURSION_GATE_PATH = PROFILE_DIR / "recursion-gate.md"
 SELF_PATH = PROFILE_DIR / "self.md"
+SELF_KNOWLEDGE_PATH = PROFILE_DIR / "self-knowledge.md"
 EVIDENCE_PATH = PROFILE_DIR / CANONICAL_EVIDENCE_BASENAME
 INTENT_PATH = PROFILE_DIR / "intent.md"
 PROMPT_PATH = REPO_ROOT / "bot" / "prompt.py"
-PRP_PATH = REPO_ROOT / "grace-mar-llm.txt"
+PRP_PATH = REPO_ROOT / "self-llm.txt"
 MERGE_RECEIPTS_PATH = PROFILE_DIR / "merge-receipts.jsonl"
 MIN_EVIDENCE_TIER = 3
 
@@ -114,11 +115,12 @@ def _next_id(content: str, prefix: str) -> str:
 
 def _set_user(user_id: str) -> None:
     """Configure per-user paths for this invocation."""
-    global USER_ID, PROFILE_DIR, RECURSION_GATE_PATH, SELF_PATH, EVIDENCE_PATH, INTENT_PATH, MERGE_RECEIPTS_PATH
+    global USER_ID, PROFILE_DIR, RECURSION_GATE_PATH, SELF_PATH, SELF_KNOWLEDGE_PATH, EVIDENCE_PATH, INTENT_PATH, MERGE_RECEIPTS_PATH
     USER_ID = user_id.strip()
     PROFILE_DIR = REPO_ROOT
     RECURSION_GATE_PATH = PROFILE_DIR / "recursion-gate.md"
     SELF_PATH = PROFILE_DIR / "self.md"
+    SELF_KNOWLEDGE_PATH = PROFILE_DIR / "self-knowledge.md"
     EVIDENCE_PATH = PROFILE_DIR / CANONICAL_EVIDENCE_BASENAME
     INTENT_PATH = PROFILE_DIR / "intent.md"
     MERGE_RECEIPTS_PATH = PROFILE_DIR / "merge-receipts.jsonl"
@@ -739,11 +741,12 @@ def _append_session_log_for_merge(candidate_ids: list[str], approved_by: str) ->
 def merge_candidate_in_memory(
     c: dict,
     self_content: str,
+    self_knowledge_content: str,
     evidence_content: str,
     prompt_content: str,
     today: str,
     evidence_tier: int,
-) -> tuple[str, str, str, str, str]:
+) -> tuple[str, str, str, str, str, str]:
     """Merge one candidate into in-memory content; returns contents + act_id + ix_entry_id (LEARN/CUR/PER)."""
 
     prompt_merge_mode = (c.get("prompt_merge_mode") or "").strip().lower()
@@ -797,7 +800,7 @@ def merge_candidate_in_memory(
         warrant_line = f"    warrant: \"{w[:200].replace(chr(34), chr(39))}\"\n"
     entry_id: str
     if "knowledge" in cat or "IX-A" in c["profile_target"]:
-        entry_id = _next_id(self_content, "LEARN")
+        entry_id = _next_id(self_knowledge_content, "LEARN")
         new_entry = f'''  - id: {entry_id}
     date: {today}
     topic: "{safe_entry}"
@@ -806,7 +809,7 @@ def merge_candidate_in_memory(
 {intake_line}{warrant_line}    provenance: human_approved
 
 '''
-        self_content = insert_ix_a_entry(self_content, new_entry)
+        self_knowledge_content = insert_ix_a_entry(self_knowledge_content, new_entry)
     elif "curiosity" in cat or "IX-B" in c["profile_target"]:
         entry_id = _next_id(self_content, "CUR")
         new_entry = f'''  - id: {entry_id}
@@ -834,7 +837,7 @@ def merge_candidate_in_memory(
 
     # 3. Update prompt.py: optional rebuild from IX, else append-style addition
     if prompt_merge_mode == "rebuild_ix":
-        prompt_content = rebuild_observation_sections_from_self(prompt_content, self_content)
+        prompt_content = rebuild_observation_sections_from_self(prompt_content, self_knowledge_content)
     elif c["prompt_addition"] and c["prompt_addition"].lower() != "none":
         prompt_section = c.get("prompt_section") or ""
         if not prompt_section:
@@ -849,7 +852,7 @@ def merge_candidate_in_memory(
             prompt_section,
             c["prompt_addition"],
         )
-    return self_content, evidence_content, prompt_content, act_id, entry_id
+    return self_content, self_knowledge_content, evidence_content, prompt_content, act_id, entry_id
 
 
 def move_to_processed(content: str, candidate_blocks: list[str]) -> str:
@@ -901,7 +904,7 @@ def _record_refs_for_applied(user_id: str, surface: str, profile_target: str, pr
     if any(tok in pc for tok in ("SELF_LIBRARY", "CIV_MEM", "LIBRARY_")):
         refs.append(f"{base}/self-library.md")
     if surface == "SELF_KNOWLEDGE" or "IX-A" in pt:
-        refs.append(f"{base}/self.md#IX-A")
+        refs.append(f"{base}/self-knowledge.md#IX-A")
     elif surface == "SELF_CURIOSITY" or "IX-B" in pt:
         refs.append(f"{base}/self.md#IX-B")
     else:
@@ -1034,7 +1037,7 @@ def _refresh_derived_exports_preflight() -> None:
 
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--user", "-u", default=USER_ID, help="User id (default: GRACE_MAR_USER_ID or grace-mar)")
+    ap.add_argument("--user", "-u", default=USER_ID, help="Profile id (default: GRACE_MAR_USER_ID or strategy-codex)")
     ap.add_argument("--apply", action="store_true", help="Perform merge (default: dry run)")
     ap.add_argument("--push", action="store_true", help="Git add, commit, push after merge")
     ap.add_argument("--approved-by", default="", help="Human approver id/name (required for --apply)")
@@ -1166,12 +1169,14 @@ def main() -> None:
 
     today = datetime.now().strftime("%Y-%m-%d")
     self_content = _read(SELF_PATH)
+    self_knowledge_content = _read(SELF_KNOWLEDGE_PATH) or self_content
     evidence_content = _read(EVIDENCE_PATH)
     prompt_content = _read(PROMPT_PATH)
     pending_content = _read(RECURSION_GATE_PATH)
     # Keep pre-merge state for rollback; avoid re-reading files later
     original_files = {
         SELF_PATH: self_content,
+        SELF_KNOWLEDGE_PATH: self_knowledge_content,
         EVIDENCE_PATH: evidence_content,
         PROMPT_PATH: prompt_content,
         RECURSION_GATE_PATH: pending_content,
@@ -1232,14 +1237,14 @@ def main() -> None:
                 f"rule={conflict.get('rule_id')} source={candidate_source} "
                 f"strategy={conflict.get('conflict_strategy')} reason={conflict.get('reason')}"
             )
-        self_content, evidence_content, prompt_content, act_id, ix_entry_id = merge_candidate_in_memory(
-            c, self_content, evidence_content, prompt_content, today, evidence_tier=min_tier
+        self_content, self_knowledge_content, evidence_content, prompt_content, act_id, ix_entry_id = merge_candidate_in_memory(
+            c, self_content, self_knowledge_content, evidence_content, prompt_content, today, evidence_tier=min_tier
         )
         blocks_to_move.append(c["full_match"])
         applied_candidates.append((c, act_id, ix_entry_id))
 
-    rel_self = f"{USER_ID}/self.md"
-    boundary_viol = collect_ix_a_violations_from_self_md(self_content, rel_path=rel_self)
+    rel_self_knowledge = f"{USER_ID}/self-knowledge.md"
+    boundary_viol = collect_ix_a_violations_from_self_md(self_knowledge_content, rel_path=rel_self_knowledge)
     if boundary_viol:
         for v in boundary_viol:
             print(v, file=sys.stderr)
@@ -1269,6 +1274,7 @@ def main() -> None:
 
     file_plan = {
         SELF_PATH: self_content,
+        SELF_KNOWLEDGE_PATH: self_knowledge_content,
         EVIDENCE_PATH: evidence_content,
         PROMPT_PATH: prompt_content,
         RECURSION_GATE_PATH: pending_content,
@@ -1384,18 +1390,18 @@ def main() -> None:
         # Downstream harness drift: repo PRP already regenerated above; copied USER.md / OpenClaw dir may lag.
         if args.export_openclaw:
             print(
-                "grace-mar: merge complete — PRP updated in-repo; OpenClaw export ran (--export-openclaw).",
+                "strategy-codex: merge complete — PRP updated in-repo; OpenClaw export ran (--export-openclaw).",
                 file=sys.stderr,
             )
         else:
             print(
-                "grace-mar: merge complete — PRP updated in-repo. If you use OpenClaw or any external copy of "
+                "strategy-codex: merge complete — PRP updated in-repo. If you use OpenClaw or any external copy of "
                 "OpenClaw USER.md / identity export, refresh or it is stale: "
                 f"python3 integrations/openclaw_hook.py --user {USER_ID} --format md+manifest --emit-event",
                 file=sys.stderr,
             )
             print(
-                "grace-mar: commit with [gated-merge] in the message (pre-commit commit-msg hook), "
+                "strategy-codex: commit with [gated-merge] in the message (pre-commit commit-msg hook), "
                 "or ALLOW_GATED_RECORD_EDIT=1 for emergency only.",
                 file=sys.stderr,
             )
@@ -1403,6 +1409,7 @@ def main() -> None:
         _emit_validation_failure(None, f"merge_apply_failed_or_rolled_back: {e}", args.approved_by.strip())
         rollback_plan = {
             SELF_PATH: original_files[SELF_PATH],
+            SELF_KNOWLEDGE_PATH: original_files[SELF_KNOWLEDGE_PATH],
             EVIDENCE_PATH: original_files[EVIDENCE_PATH],
             PROMPT_PATH: original_files[PROMPT_PATH],
             RECURSION_GATE_PATH: original_files[RECURSION_GATE_PATH],

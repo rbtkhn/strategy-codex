@@ -1,6 +1,6 @@
 ﻿# Prompt parity for IX-A / IX-B / IX-C (Voice and analyst)
 
-**Purpose:** Operator-facing truth about how **Section IX** entries in [`self.md`](../self.md) relate to **[`bot/prompt.py`](../bot/prompt.py)** (`SYSTEM_PROMPT`, `ANALYST_PROMPT`), merge tooling, and harnessesâ€”especially **drift** when `self.md` changes without matching prompt edits.
+**Purpose:** Operator-facing truth about how **Section IX** entries in [`self-knowledge.md`](../self-knowledge.md) and [`self.md`](../self.md) relate to **[`bot/prompt.py`](../bot/prompt.py)** (`SYSTEM_PROMPT`, `ANALYST_PROMPT`), merge tooling, and harnessesâ€”especially **drift** when the knowledge split changes without matching prompt edits.
 
 **Scope:** Documentation only. Does not change merge behavior or prompts.
 
@@ -12,10 +12,10 @@
 
 | Layer | Role |
 |-------|------|
-| **`self.md`** | **Canonical Record** for merged IX-A (Knowledge), IX-B (Curiosity), IX-C (Personality) YAML lists. |
-| **`scripts/process_approved_candidates.py`** | On approved merge, updates `self.md`, evidence, and optionally **`bot/prompt.py`** (see below). |
+| **`self-knowledge.md`** | **Canonical Record** for merged IX-A (Knowledge) YAML list; `self.md` keeps the overview shell while IX-B/IX-C remain in `self.md` during the transition. |
+| **`scripts/process_approved_candidates.py`** | On approved merge, updates `self-knowledge.md`, evidence, and optionally **`bot/prompt.py`** (see below). `self.md` keeps the compact overview shell. |
 | **`bot/prompt.py`** | **`SYSTEM_PROMPT`** â€” Voice emulation inline text; **`ANALYST_PROMPT`** â€” signal detection and **deduplication** against embedded IX snapshots. |
-| **`python scripts/export_prp.py -u grace-mar -o grace-mar-llm.txt`** | Compact PRP export; [instance doctrine](../instance-doctrine.md) expects refresh after SELF/prompt merges when output changes. |
+| **`python scripts/export_prp.py -o self-llm.txt`** | Compact PRP export; [instance doctrine](../instance-doctrine.md) expects refresh after SELF/prompt merges when output changes. |
 
 Nothing in the Voice runtime reads `self.md` directly at inference time; the **prompt strings** are what the model sees unless RAG / lookup paths add context.
 
@@ -23,13 +23,13 @@ Nothing in the Voice runtime reads `self.md` directly at inference time; the **p
 
 ## Two prompt surfaces (both can drift)
 
-1. **`SYSTEM_PROMPT`** â€” What the **Voice** uses in chat: narrative identity, **Curiosity** / **Personality** (and related) lines under **`## RECORD STATE`** in the current grace-mar layout.
+1. **`SYSTEM_PROMPT`** â€” What the **Voice** uses in chat: narrative identity, **Curiosity** / **Personality** (and related) lines under **`## RECORD STATE`** in the current root layout.
 
 2. **`ANALYST_PROMPT`** â€” Embeds **### IX-A / IX-B / IX-C** blocks so the analyst can **deduplicate** staging against â€œwhatâ€™s already in the profile.â€
 
-These are **separate copies** of IX-shaped text. Updating **`self.md`** alone does **not** automatically refresh both unless the merge path or a manual edit brings them in sync.
+These are **separate copies** of IX-shaped text. Updating **`self-knowledge.md`** alone does **not** automatically refresh both unless the merge path or a manual edit brings them in sync.
 
-**Honest default:** After IX merges that should affect dedup, verify **`ANALYST_PROMPT`**â€™s IX blocks match **`self.md`** (or accept stale dedup until updated).
+**Honest default:** After IX-A merges that should affect dedup, verify **`ANALYST_PROMPT`**â€™s IX-A block matches **`self-knowledge.md`** (or accept stale dedup until updated).
 
 ---
 
@@ -43,9 +43,9 @@ That function **only replaces** spans bounded by these **exact** headers in **`S
 - `## YOUR CURIOSITY (what catches your attention)` â†’ next `## YOUR PERSONALITY (observed)`
 - `## YOUR PERSONALITY (observed)` â†’ next `## IMPORTANT CONSTRAINTS`
 
-It rebuilds bullets from **`self.md`** YAML: IX-A **Facts** `topic:` lines, IX-B `topic:` lines, IX-C `observation:` lines. If a header is **missing**, that span is **skipped** (no error).
+It rebuilds bullets from **`self-knowledge.md`** YAML for IX-A `topic:` lines and from **`self.md`** YAML for IX-B `topic:` / IX-C `observation:` lines. If a header is **missing**, that span is **skipped** (no error).
 
-**grace-mar today:** [`bot/prompt.py`](../bot/prompt.py) uses **`## RECORD STATE`** with narrative **Curiosity** / **Personality** lists, **not** the `YOUR KNOWLEDGE` / `YOUR CURIOSITY` / `YOUR PERSONALITY` header triple above. So **`rebuild_ix` does not rewrite the current default `SYSTEM_PROMPT` layout** unless the prompt file is refactored to include those headers.
+**Current layout today:** [`bot/prompt.py`](../bot/prompt.py) uses **`## RECORD STATE`** with narrative **Curiosity** / **Personality** lists, **not** the `YOUR KNOWLEDGE` / `YOUR CURIOSITY` / `YOUR PERSONALITY` header triple above. So **`rebuild_ix` does not rewrite the current default `SYSTEM_PROMPT` layout** unless the prompt file is refactored to include those headers.
 
 **Implication:** Do **not** assume a merge with `rebuild_ix` updated the visible Voice narrative unless youâ€™ve confirmed the header layout matches [`prompt_sync.py`](../src/grace_mar/merge/prompt_sync.py).
 
@@ -53,14 +53,14 @@ It rebuilds bullets from **`self.md`** YAML: IX-A **Facts** `topic:` lines, IX-B
 
 ---
 
-## Drift checklist (after IX-B / IX-Câ€“affecting merges)
+## Drift checklist (after IX-A / IX-B / IX-C-affecting merges)
 
 Use this when you need **prompt parity** with the Record:
 
-1. **`self.md`** â€” IX-B / IX-C entries merged as intended (YAML ids, `topic:` / `observation:`, provenance).
-2. **`bot/prompt.py` â€” `SYSTEM_PROMPT`** â€” Narrative under **`## RECORD STATE`** (or your future section layout) reflects new curiosity/personality lines **if** the Voice should speak them.
-3. **`bot/prompt.py` â€” `ANALYST_PROMPT`** â€” **### IX-B** / **### IX-C** (and IX-A if present) blocks match **`self.md`** enough that staging dedup is not wrong.
-4. **PRP** â€” Run `python scripts/export_prp.py -u grace-mar -o grace-mar-llm.txt` (or repo default); commit if diff (per [instance doctrine](../instance-doctrine.md)).
+1. **`self-knowledge.md`** â€” IX-A entries merged as intended (YAML ids, `topic:`, provenance).
+2. **`self.md`** â€” compact overview shell remains in sync with the split; IX-B / IX-C entries stay aligned where present.
+3. **`bot/prompt.py` â€” `SYSTEM_PROMPT`** â€” Narrative under **`## RECORD STATE`** (or your future section layout) reflects new curiosity/personality lines **if** the Voice should speak them.
+4. **PRP** â€” Run `python scripts/export_prp.py -o self-llm.txt` (or repo default); commit if diff (per [instance doctrine](../instance-doctrine.md)).
 5. **Harnesses (optional but relevant)** â€” Counterfactual / voice / **judgment probes** import prompt text from **`prompt.py`**; rerun when you care about regression signal after prompt edits.
 
 ---
@@ -76,7 +76,7 @@ Use this when you need **prompt parity** with the Record:
 
 ## Probes and harnesses
 
-[`scripts/run_judgment_probes.py`](../scripts/run_judgment_probes.py) imports **`SYSTEM_PROMPT`** from [`bot/prompt.py`](../bot/prompt.py). Scores reflect **embedded prompt text**, not a live read of **`self.md`**. If **`SYSTEM_PROMPT`** lags **`self.md`**, probes measure **prompt**, not the Record aloneâ€”fix parity before inferring â€œRecord regression.â€
+[`scripts/run_judgment_probes.py`](../scripts/run_judgment_probes.py) imports **`SYSTEM_PROMPT`** from [`bot/prompt.py`](../bot/prompt.py). Scores reflect **embedded prompt text**, not a live read of the Record. If **`SYSTEM_PROMPT`** lags the relevant Record surfaces, probes measure **prompt**, not the Record aloneâ€”fix parity before inferring â€œRecord regression.â€
 
 ---
 
@@ -94,4 +94,13 @@ When IX lists grow, [instance doctrine](../instance-doctrine.md) calls for **sum
 - [instance-doctrine.md â€” Prompt Architecture](../instance-doctrine.md#prompt-architecture-botpromptpy)
 - [AGENTS.md â€” Three-Dimension Mind Model](../AGENTS.md) (repository structure section)
 - [src/grace_mar/merge/prompt_sync.py](../src/grace_mar/merge/prompt_sync.py) â€” rebuild and append helpers
+
+
+
+
+
+
+
+
+
 

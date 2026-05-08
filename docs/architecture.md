@@ -51,7 +51,7 @@ Companion-selfâ€“style instances are **state-governance architectures** for
 |-------|------|----------|
 | **Proposed** | Drafts, harvested outputs, staged candidatesâ€”not yet canonical | `recursion-gate.md` pending blocks, operator drafts, imports staged for review |
 | **Interface-visible** | How the companion experiences the systemâ€”constrained by prompt, policy, and harness | Voice (Telegram), PRP / runtime surfaces, query-time rendering |
-| **Canonical durable** | Approved, auditable self and evidence | `self.md`, `self-skills.md`, `self-archive.md` (EVIDENCE), merged `bot/prompt.py` obligations |
+| **Canonical durable** | Approved, auditable self and evidence | `self.md` (identity shell / overview), `self-knowledge.md` (IX-A), `self-skills.md`, `self-archive.md` (EVIDENCE), merged `bot/prompt.py` obligations |
 
 **Merge contract.** Only the **companion** (or the governed pipeline acting on explicit companion approval) may satisfy the contract that moves content from proposed into canonical state. See [AGENTS.md](../AGENTS.md) Â§ Gated Pipeline â€” agents **stage**; they do not **merge** into SELF, EVIDENCE, or prompt without approval.
 
@@ -793,7 +793,7 @@ The system can be viewed as a **lattice**: nodes (data and components) connected
 
 ### The Anchor
 
-The PRP URL (e.g. `https://raw.githubusercontent.com/rbtkhn/strategy-codex/main/grace-mar-llm.txt`) is the **anchor**: one-fetch instantiation, portable, refreshable. The anchor stays fixed; the lattice grows as SELF, EVIDENCE, LIBRARY, and SKILLS evolve. Post-merge PRP refresh keeps the anchor aligned with the Record.
+The PRP URL (e.g. `https://raw.githubusercontent.com/rbtkhn/strategy-codex/main/self-llm.txt`) is the **anchor**: one-fetch instantiation, portable, refreshable. The anchor stays fixed; the lattice grows as SELF, EVIDENCE, LIBRARY, and SKILLS evolve. Post-merge PRP refresh keeps the anchor aligned with the Record.
 
 ### Two Instantiation Paths
 
@@ -928,7 +928,7 @@ The analyst (automated or manual) detects three categories of signal:
 
 | Category | What it captures | Profile target |
 |----------|-----------------|----------------|
-| **Knowledge** | Facts entering the self's awareness | IX-A in self.md |
+| **Knowledge** | Facts entering the self's awareness | IX-A in self-knowledge.md |
 | **Curiosity** | Topics that catch attention, engagement signals | IX-B in self.md |
 | **Personality** | Behavioral patterns, speech traits, values, art style | IX-C in self.md |
 
@@ -937,7 +937,7 @@ The analyst (automated or manual) detects three categories of signal:
 1. **Signal detection** â€” Identify profile-relevant information in the input
 2. **Candidate staging** â€” Write structured candidates to `recursion-gate.md` with analysis and recommendations
 3. **User review** â€” User approves, rejects, or modifies each candidate
-4. **Relay to record** â€” Approved candidates are merged into `self.md` (profile), **`self-archive.md`** (canonical EVIDENCE / activity log + Â§ VIII), `bot/prompt.py` (emulation prompt), and `session-log.md` (history). This step is the **relay**: raw input has been gated and now crosses into the permanent Record.
+4. **Relay to record** â€” Approved candidates are merged into `self.md` (profile shell), `self-knowledge.md` (IX-A), **`self-archive.md`** (canonical EVIDENCE / activity log + Â§ VIII), `bot/prompt.py` (emulation prompt), and `session-log.md` (history). This step is the **relay**: raw input has been gated and now crosses into the permanent Record.
 
 ### Candidate Structure
 
@@ -945,7 +945,7 @@ Each candidate specifies:
 - `mind_category`: knowledge, curiosity, or personality
 - `signal_type`: the specific type of signal detected
 - `summary`: what was observed
-- `profile_target`: which section of self.md it updates
+- `profile_target`: which section of self.md / `self-knowledge.md` it updates
 - `suggested_entry`: the proposed profile text
 - `prompt_section`: which part of the emulation prompt to update
 
@@ -957,7 +957,7 @@ The gate is the user's discernment. The system proposes; the user disposes. This
 
 ## Three-Dimension Mind Model
 
-Post-seed growth is organized into three dimensions within Section IX of self.md. The seed baseline (Sections Iâ€“VIII) remains intact; these dimensions capture everything learned after seeding.
+Post-seed growth is organized into three dimensions across `self-knowledge.md`, `self.md` (overview shell), and the other IX surfaces. The seed baseline (Sections Iâ€“VIII) remains intact; these dimensions capture everything learned after seeding.
 
 ### IX-A. Knowledge
 
@@ -1024,4 +1024,8 @@ Grace-Mar already functions as a governed portable working-identity system throu
 
 *Document version: 3.2*
 *Last updated: April 2026*
+
+
+
+
 

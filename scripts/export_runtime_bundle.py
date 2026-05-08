@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Export a runtime-neutral Grace-Mar bundle.
+Export a runtime-neutral strategy-codex bundle.
 
 The bundle separates canonical Record surfaces from runtime continuity and audit:
   - record/
@@ -9,9 +9,9 @@ The bundle separates canonical Record surfaces from runtime continuity and audit
   - audit/
 
 Usage:
-    python scripts/export_runtime_bundle.py -u grace-mar
-    python scripts/export_runtime_bundle.py -u grace-mar -o /tmp/runtime-bundle
-    python scripts/export_runtime_bundle.py -u grace-mar --mode primary_runtime --include-user-json
+    python scripts/export_runtime_bundle.py
+    python scripts/export_runtime_bundle.py -o /tmp/runtime-bundle
+    python scripts/export_runtime_bundle.py --mode primary_runtime --include-user-json
 """
 
 from __future__ import annotations
@@ -168,7 +168,7 @@ def _memory_snapshot(user_id: str) -> str:
 
 
 def export_runtime_bundle(
-    user_id: str = "grace-mar",
+    user_id: str = "strategy-codex",
     output_dir: Path | None = None,
     runtime_mode: str = "adjunct_runtime",
     include_user_json: bool = False,
@@ -197,7 +197,11 @@ def export_runtime_bundle(
         _write_json(record_dir / "USER.json", export_user_identity_json(user_id))
 
     _write_json(record_dir / "fork-export.json", export_fork(user_id=user_id, include_raw=True))
-    _write_text(record_dir / "grace-mar-llm.txt", export_prp(user_id=user_id))
+    prp_path = record_dir / "self-llm.txt"
+    _write_text(prp_path, export_prp(user_id=user_id))
+    legacy_prp_path = record_dir / "grace-mar-llm.txt"
+    if legacy_prp_path.exists():
+        legacy_prp_path.unlink()
 
     manifest = generate_manifest(user_id=user_id, runtime_mode=runtime_mode)
     _write_json(policy_dir / "manifest.json", manifest)
@@ -248,7 +252,7 @@ def export_runtime_bundle(
     derived_paths = [
         record_dir / "USER.md",
         record_dir / "fork-export.json",
-        record_dir / "grace-mar-llm.txt",
+        record_dir / "self-llm.txt",
         policy_dir / "manifest.json",
         policy_dir / "llms.txt",
         policy_dir / "intent_snapshot.json",
@@ -310,7 +314,7 @@ def export_runtime_bundle(
             pass
 
     bundle_payload = {
-        "format": "grace-mar-runtime-bundle",
+        "format": "strategy-codex-runtime-bundle",
         "version": "1.0",
         "bundle_id": bundle_id,
         "generated_at": generated_at,
@@ -414,8 +418,8 @@ def main() -> None:
         stacklevel=1,
     )
     parser = argparse.ArgumentParser(description="Export a runtime-neutral Grace-Mar bundle")
-    parser.add_argument("--user", "-u", default="grace-mar", help="User id")
-    parser.add_argument("--output", "-o", default="", help="Output directory (default: users/[id]/runtime-bundle)")
+    parser.add_argument("--user", "-u", default="strategy-codex", help="Profile id")
+    parser.add_argument("--output", "-o", default="", help="Output directory (default: runtime-bundle)")
     parser.add_argument(
         "--mode",
         choices=sorted(RUNTIME_MODES.keys()),

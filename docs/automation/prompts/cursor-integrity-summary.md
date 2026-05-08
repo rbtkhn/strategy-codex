@@ -19,12 +19,12 @@ Include [../cursor-safe-automation-contract.md](../cursor-safe-automation-contra
 ## Your task
 
 1. In the **checked-out** repo for this run, if the environment allows, run **read-only** checks appropriate to the operatorâ€™s selection. Prefer:
-   - `python scripts/validate-integrity.py --user grace-mar --json` (or `python3` as on PATH), **or** interpret a **pasted** output if the operator runs it elsewhere.
+   - `python scripts/validate-integrity.py --json` (or `python3` as on PATH), **or** interpret a **pasted** output if the operator runs it elsewhere.
 2. If **integrity** reports failures, list **drift** categories (e.g. manifest, PRP, runtime bundle) in plain language, using **only** what the log shows.
 3. Suggest **exact** next commands the **operator** can run in a dev shell, e.g. from [work-cadence README â€” stale derived](https://github.com/rbtkhn/grace-mar/blob/main/docs/skill-work/work-cadence/README.md#when-integrity-reports-stale-derived-exports):
    - `bash scripts/regen_grace_mar_derived.sh`
-   - `python3 scripts/validate-integrity.py --user grace-mar --json`
-4. **Do not** `git commit` regen. **Do not** modify `manifest.json`, `grace-mar-llm.txt`, or bundle files in this automation.
+   - `python3 scripts/validate-integrity.py --json`
+4. **Do not** `git commit` regen. **Do not** modify `manifest.json`, `self-llm.txt`, or bundle files in this automation.
 
 **If the sandbox cannot run Python** â€” say so and ask the operator to **paste** `validate-integrity` output, or mark **uncertain**.
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Export the grace-mar Record to a Portable Record Prompt (PRP) — a single
+Export the strategy-codex Record to a Portable Record Prompt (PRP) — a single
 compact, pasteable prompt for any LLM. Encodes voice, knowledge, personality,
 recent activity, and a compact WRITE capability bridge.
 
@@ -9,9 +9,9 @@ invariant 15) and sideload output (CONCEPTUAL-FRAMEWORK §9). Use for memorial/
 legacy fork, admissions handoff, or "paste into any LLM" scenarios.
 
 Usage:
-    python scripts/export_prp.py -u grace-mar
-    python scripts/export_prp.py -u grace-mar -o prompt.txt
-    python scripts/export_prp.py -u grace-mar -n Robert -o grace-mar-llm.txt   # canonical anchor file
+    python scripts/export_prp.py
+    python scripts/export_prp.py -o prompt.txt
+    python scripts/export_prp.py -n Robert -o self-llm.txt   # canonical anchor file
 """
 
 import argparse
@@ -351,12 +351,12 @@ def _query_aware_recent(evidence_path: Path, query: str) -> dict[str, list[str]]
     return out
 
 
-def export_prp(user_id: str = "grace-mar", name_override: str | None = None, query: str | None = None) -> str:
+def export_prp(user_id: str = "strategy-codex", name_override: str | None = None, query: str | None = None) -> str:
     """
     Build the Portable Record Prompt (PRP) from self.md and self-archive.md (EVIDENCE).
 
     Args:
-        user_id: User profile id (e.g. grace-mar).
+        user_id: User profile id (single-operator repo default: strategy-codex).
         name_override: If set, use this name instead of the Record's name (e.g. "Abby" for prototype).
         query: If set, RECENT section uses query-aware retrieval instead of recency.
 
@@ -369,18 +369,23 @@ def export_prp(user_id: str = "grace-mar", name_override: str | None = None, que
         else REPO_ROOT / "users" / user_id
     )
     self_content = _read(profile_dir / "self.md")
+    self_knowledge_content = _read(profile_dir / "self-knowledge.md")
+    combined_self_content = self_content + ("\n\n" + self_knowledge_content if self_knowledge_content.strip() else "")
     skill_write_content = _read(profile_dir / "skill-write.md")
     evidence_content = _read(profile_dir / "self-archive.md") or _read(profile_dir / "self-evidence.md")
 
-    if not self_content:
-        return f"# Portable Record Prompt — {user_id}\n\nNo self.md found at {profile_dir / 'self.md'}.\n"
+    if not combined_self_content.strip():
+        return (
+            f"# Portable Record Prompt — {user_id}\n\n"
+            f"No self.md or self-knowledge.md found at {profile_dir / 'self.md'}.\n"
+        )
 
     sections = _parse_self_sections(self_content)
     identity = _extract_identity(sections)
     prefs = _extract_preferences(sections)
     linguistic = _extract_linguistic(sections)
     personality = _extract_personality(sections)
-    ix_a = _extract_ix_a(self_content)
+    ix_a = _extract_ix_a(combined_self_content)
     ix_b = _extract_ix_b(self_content)
     ix_c = _extract_ix_c_observations(self_content)
     write_profile = _extract_write_profile(skill_write_content)
@@ -448,7 +453,7 @@ def export_prp(user_id: str = "grace-mar", name_override: str | None = None, que
         "",
         "## GITHUB CONNECTIVITY (key vector)",
         "",
-        f"When the user asks about something NOT in your Record (e.g. Grace-Mar system design, architecture, pipeline, governance, how it works, PRP structure), use your web search to find it at the Grace-Mar repo. Base URL: {GRACE_MAR_GITHUB}",
+        f"When the user asks about something NOT in your Record (e.g. system design, architecture, pipeline, governance, how it works, PRP structure), use your web search to find it at the strategy-codex repo. Base URL: {GRACE_MAR_GITHUB}",
         "",
         "Key paths (search or navigate): docs/architecture.md (system design), docs/portable-record-prompt.md (PRP structure), docs/grace-mar-core.md (governance), docs/conceptual-framework.md (Record vs Voice, triadic cognition), docs/identity-fork-protocol.md (pipeline, merge). readme.md for overview.",
         "",
@@ -482,7 +487,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(
         description="Export Record to Portable Record Prompt (pasteable into any LLM)"
     )
-    parser.add_argument("--user", "-u", default="grace-mar", help="User id")
+    parser.add_argument("--user", "-u", default="strategy-codex", help="Profile id")
     parser.add_argument("--output", "-o", default=None, help="Output file (default: stdout)")
     parser.add_argument("--name", "-n", default=None, help="Override display name (e.g. Abby for prototype)")
     parser.add_argument("--query", "-q", default=None,
@@ -492,6 +497,10 @@ def main() -> None:
     if args.output:
         out_path = Path(args.output)
         out_path.write_text(content, encoding="utf-8")
+        if out_path.name == "self-llm.txt":
+            legacy_path = out_path.with_name("grace-mar-llm.txt")
+            if legacy_path.exists():
+                legacy_path.unlink()
         print(f"Wrote {args.output}", file=__import__("sys").stderr)
     else:
         print(content)

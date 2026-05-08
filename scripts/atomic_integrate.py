@@ -4,7 +4,7 @@ Atomic integration orchestration for Grace-Mar.
 
 Delegates the real merge to scripts/process_approved_candidates.py (--quick). This script
 adds: preflight checks, disk backups of canonical files before merge, optional post-merge
-integrity validation, and a JSON receipt under users/<id>/integration-receipts/.
+integrity validation, and a JSON receipt under integration-receipts/.
 
 Does not duplicate IX/EVIDENCE/prompt semantics — canonical merge remains process_approved_candidates.
 """
@@ -36,7 +36,7 @@ from repo_io import (  # noqa: E402
 )
 
 UTC = timezone.utc
-USER_ID_DEFAULT = (os.getenv("GRACE_MAR_USER_ID", "grace-mar").strip() or "grace-mar")
+USER_ID_DEFAULT = (os.getenv("GRACE_MAR_USER_ID", "strategy-codex").strip() or "strategy-codex")
 BOT_PROMPT = REPO_ROOT / "bot" / "prompt.py"
 
 
@@ -49,8 +49,8 @@ def sha256_text(text: str) -> str:
 
 
 def _prp_path(user_id: str) -> Path:
-    if user_id == "grace-mar":
-        return REPO_ROOT / "grace-mar-llm.txt"
+    if user_id == "strategy-codex":
+        return REPO_ROOT / "self-llm.txt"
     return profile_dir(user_id) / f"{user_id}-llm.txt"
 
 
@@ -300,7 +300,7 @@ def parse_args() -> argparse.Namespace:
     p = argparse.ArgumentParser(
         description="Orchestrate merge via process_approved_candidates --quick with backups and receipt.",
     )
-    p.add_argument("--user-id", "-u", default=USER_ID_DEFAULT, help="Fork id (default GRACE_MAR_USER_ID)")
+    p.add_argument("--user-id", "-u", default=USER_ID_DEFAULT, help="Profile id (default GRACE_MAR_USER_ID)")
     p.add_argument("--candidate-id", required=True, help="CANDIDATE-XXXX to merge (must be approved)")
     p.add_argument(
         "--approved-by",

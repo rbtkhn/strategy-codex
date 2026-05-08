@@ -2,7 +2,7 @@
 
 **Purpose:** One entrypoint that **dispatches** to existing `scripts/export_*.py` modules via subprocess (v1). Does not reimplement fork loading.
 
-**Default user (M1):** If the child invocation has no `-u` / `--user`, `export.py` injects `-u` using, in order: explicit `export.py -u`, then `GRACE_MAR_USER_ID`, then repo heuristic (`grace-mar` when `` exists, else `_template`).
+**Default profile (M1):** If the child invocation has no `-u` / `--user`, `export.py` injects `-u` using, in order: explicit `export.py -u`, then `GRACE_MAR_USER_ID`, then repo heuristic (`strategy-codex` when `self.md` exists, else `_template`).
 
 **Forwarding (M2):** Use `--` to pass flags to the target script verbatim:
 
@@ -23,10 +23,10 @@ Omitting `--` still forwards any tokens after the subcommand (e.g. `export.py fo
 
 | Before | After |
 |--------|--------|
-| `python scripts/export_fork.py -u grace-mar -o x.json` | `python scripts/export.py fork -- -u grace-mar -o x.json` |
-| `python scripts/export_prp.py -u grace-mar` | `python scripts/export.py prp --` (or add `-o` after `--`) |
-| `python scripts/export_runtime_bundle.py -u grace-mar` | `python scripts/export.py bundle --` or `python scripts/export.py all --` |
-| `python scripts/export_emulation_bundle.py -u grace-mar` | `python scripts/export.py emulation --` |
+| `python scripts/export_fork.py` | `python scripts/export.py fork -- -o x.json` |
+| `python scripts/export_prp.py` | `python scripts/export.py prp --` (or add `-o` after `--`) |
+| `python scripts/export_runtime_bundle.py` | `python scripts/export.py bundle --` or `python scripts/export.py all --` |
+| `python scripts/export_emulation_bundle.py` | `python scripts/export.py emulation --` |
 
 Legacy scripts remain; they may emit `DeprecationWarning` when run as `__main__`.
 

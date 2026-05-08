@@ -24,7 +24,7 @@ Human output prints an **Identity / library boundary** section first; JSON inclu
 
 Usage:
   python scripts/validate-integrity.py
-  python scripts/validate-integrity.py --user grace-mar
+  python scripts/validate-integrity.py --json
   python scripts/validate-integrity.py --users-dir users --json
 
 Exit:
@@ -50,7 +50,7 @@ from validate_identity_library_boundary import (
     collect_self_library_file_warnings,
 )
 from validate_library_domain_registry import validate_library_domain_registry
-from repo_io import resolve_surface_markdown_path, self_skills_layout_warnings
+from repo_io import DEFAULT_PROFILE_ID, profile_dir, resolve_surface_markdown_path, self_skills_layout_warnings
 
 ALLOWED_PROPOSAL_CLASS = frozenset({
     "SELF_KNOWLEDGE_ADD",
@@ -135,9 +135,8 @@ def parse_yaml_entries(block: str) -> list[dict]:
 
 def _iter_user_dirs(users_dir: Path, user: str | None) -> list[Path]:
     if user:
-        target = users_dir / user
-        return [target] if target.is_dir() else []
-    return [p for p in users_dir.iterdir() if p.is_dir()]
+        return [profile_dir(user)]
+    return [profile_dir(DEFAULT_PROFILE_ID)]
 
 
 def _safe_read(path: Path) -> str:
@@ -430,7 +429,11 @@ def validate_derived_exports(user_dirs: list[Path]) -> list[str]:
         source_mtimes = [p.stat().st_mtime for p in source_paths if p.exists()]
         latest_source = max(source_mtimes, default=0)
 
-        prp_path = REPO_ROOT / "grace-mar-llm.txt" if user_dir.name == "grace-mar" else user_dir / f"{user_dir.name}-llm.txt"
+        prp_path = REPO_ROOT / "self-llm.txt" if user_dir == REPO_ROOT else user_dir / f"{user_dir.name}-llm.txt"
+        if not prp_path.exists() and user_dir == REPO_ROOT:
+            legacy_prp = REPO_ROOT / "grace-mar-llm.txt"
+            if legacy_prp.exists():
+                prp_path = legacy_prp
         derived_paths = [
             user_dir / "manifest.json",
             user_dir / "llms.txt",

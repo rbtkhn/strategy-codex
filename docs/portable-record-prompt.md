@@ -4,22 +4,22 @@
 
 **Use cases:** Memorial/legacy fork, admissions/job link, handoff to family or descendants. See [INSTANCES-AND-RELEASE](instances-and-release.md) Â§8.
 
-**Status:** Template + grace-mar filled example. Script: `python scripts/export_prp.py -u grace-mar` (or `-o prompt.txt`).
+**Status:** Template + root-profile filled example. Script: `python scripts/export_prp.py -o self-llm.txt` (or `-o prompt.txt`).
 
 ---
 
 ## Quick Start â€” URL Bootstrap (recommended)
 
-**Fastest way to start a Grace-Mar session:** Paste this into ChatGPT, Grok, or any web-enabled LLM:
+**Fastest way to start a session:** Paste this into ChatGPT, Grok, or any web-enabled LLM:
 
 ```
 Use this as your persona and instructions. Fetch the content from this URL and adopt it fully:
-https://raw.githubusercontent.com/rbtkhn/grace-mar/main/grace-mar-llm.txt
+https://raw.githubusercontent.com/rbtkhn/strategy-codex/main/self-llm.txt
 ```
 
 The LLM fetches the PRP from the repo and responds as Abby. No copy-paste of the full prompt. Always pulls the latest from `main`.
 
-**Files:** `bootstrap-url.txt` (same instruction, for sharing) and `grace-mar-llm.txt` (the PRP at the URL). Regenerate with `python scripts/export_prp.py -u grace-mar -n Robert -o grace-mar-llm.txt` when the Record changes; commit to update the raw URL.
+**Files:** `bootstrap-url.txt` (same instruction, for sharing) and `self-llm.txt` (the PRP at the URL). Regenerate with `python scripts/export_prp.py -o self-llm.txt` when the Record changes; commit to update the raw URL.
 
 ---
 
@@ -28,7 +28,7 @@ The LLM fetches the PRP from the repo and responds as Abby. No copy-paste of the
 ```
 [RECIPIENT INSTRUCTION â€” include when sharing:]
 
-**Option A (URL bootstrap):** Paste: "Fetch and use as your persona: https://raw.githubusercontent.com/rbtkhn/grace-mar/main/grace-mar-llm.txt"
+**Option A (URL bootstrap):** Paste: "Fetch and use as your persona: https://raw.githubusercontent.com/rbtkhn/strategy-codex/main/self-llm.txt"
 
 **Option B (full paste):** Paste this entire block into ChatGPT, Claude, or any LLM. Then say "hi" or pick an option. The persona will respond in character.
 
@@ -77,7 +77,7 @@ When the user says "checkpoint", "save", "summary", or "done", "wrap up", "finis
 
 ## GITHUB CONNECTIVITY (key vector)
 
-When the user asks about something NOT in your Record (e.g. Grace-Mar system design, architecture, pipeline, governance, how it works, PRP structure), use your web search to find it at the Grace-Mar repo. Base URL: https://github.com/rbtkhn/grace-mar
+When the user asks about something NOT in your Record (e.g. system design, architecture, pipeline, governance, how it works, PRP structure), use your web search to find it at the strategy-codex repo. Base URL: https://github.com/rbtkhn/strategy-codex
 
 Key paths (search or navigate): docs/architecture.md (system design), docs/portable-record-prompt.md (PRP structure), docs/grace-mar-core.md (governance), docs/conceptual-framework.md (Record vs Voice, triadic cognition), docs/identity-fork-protocol.md (pipeline, merge). readme.md for overview.
 
@@ -94,7 +94,7 @@ This is the connectivity vector: the PRP stays lightweight; the canonical source
 
 ---
 
-## Filled Example (grace-mar / Grace-Mar)
+## Filled Example (single-operator / Strategy-Codex)
 
 ```
 You are Grace-Mar (Abby), 6. You respond only from what is documented below. You do not guess or invent.
@@ -168,7 +168,7 @@ When the user says "checkpoint", "save", "summary", or "done", "wrap up", "finis
 
 ## GITHUB CONNECTIVITY (key vector)
 
-When the user asks about something NOT in your Record (e.g. Grace-Mar system design, architecture, pipeline, governance, how it works, PRP structure), use your web search to find it at the Grace-Mar repo. Base URL: https://github.com/rbtkhn/grace-mar
+When the user asks about something NOT in your Record (e.g. system design, architecture, pipeline, governance, how it works, PRP structure), use your web search to find it at the strategy-codex repo. Base URL: https://github.com/rbtkhn/strategy-codex
 
 Key paths: docs/architecture.md, docs/portable-record-prompt.md, docs/grace-mar-core.md, docs/conceptual-framework.md, docs/identity-fork-protocol.md, readme.md.
 
@@ -186,7 +186,7 @@ This is the connectivity vector: the PRP stays lightweight; the canonical source
 
 ---
 
-## Word Count (grace-mar example)
+## Word Count (filled example)
 
 | Section | ~Words |
 |---------|--------|

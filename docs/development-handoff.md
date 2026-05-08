@@ -1,4 +1,4 @@
-﻿# Strategy-Codex Development Handoff
+# Strategy-Codex Development Handoff
 
 Use this file to resume development quickly in a new agent conversation.
 
@@ -25,8 +25,8 @@ Last updated: 2026-03-28
 - **work-jiang:** Volume VII Substack essays + `essay-*` analysis memos (prior commits on `main`).
 - **Work-politics / strategy:** `daily-brief-2026-03-28.md`; `polling-and-markets.md` **Last checked** refreshed.
 - **Gate:** 0 pending (confirm in `recursion-gate.md`).
-- **Jiang lane:** `OUTLINE_ACTIVE` â€” suggested next lever: ch01 chapter outline (`research/external/work-jiang/STATUS.md`).
-- **Re-entry:** `python3 scripts/operator_reentry_stack.py -u grace-mar` (handoff + `operator_daily_warmup` + harness; optional `--compact`) or run scripts individually; one-line snapshot: `python3 scripts/harness_warmup.py -u grace-mar --receipt`. Work-politics pulse: `python3 scripts/operator_work_politics_pulse.py -u grace-mar`. Index: `bootstrap/grace-mar-bootstrap.md` Â§ Re-entry stack.
+- **Jiang lane:** `OUTLINE_ACTIVE` â€” suggested next lever: ch01 chapter outline (`codex/predictive-history/STATUS.md`).
+- **Re-entry:** `python3 scripts/operator_reentry_stack.py` (handoff + `operator_daily_warmup` + harness; optional `--compact`) or run scripts individually; one-line snapshot: `python3 scripts/harness_warmup.py --receipt`. Work-politics pulse: `python3 scripts/operator_work_politics_pulse.py`. Index: `bootstrap/grace-mar-bootstrap.md` Â§ Re-entry stack.
 
 ---
 
@@ -107,7 +107,7 @@ Last updated: 2026-03-28
 ### CI + PRP workflow hardening (2026-03-13)
 - **`.github/workflows/governance.yml`** â€” Added `validate-integrity.py --json` to the no-secrets governance CI path so routine push/PR checks cover both policy scan and canonical Record integrity.
 - **`.github/workflows/prp-refresh.yml`** â€” Fixed trigger paths to canonical lowercase `self.md` / `self-evidence.md`, added explicit `contents: write`, and aligned the auto-generated commit message with gated PRP policy via `[gated-merge]`.
-- **Verification baseline** â€” `python3 scripts/governance_checker.py` and `python3 scripts/validate-integrity.py --user grace-mar --json` both passed locally after the CI/doc changes.
+- **Verification baseline** â€” `python3 scripts/governance_checker.py` and `python3 scripts/validate-integrity.py --json` both passed locally after the CI/doc changes.
 
 ### Naming guard consolidation (2026-03-13)
 - **`scripts/check_deprecated_naming.py`** â€” Centralized the deprecated legacy-name scan in a repo script so CI and local hooks share one rule.
@@ -245,7 +245,7 @@ Last updated: 2026-03-28
 - **INTENT-driven proposals** â€” session_brief loads intent.md primary goal and displays in Suggested Activities section.
 
 ### Proactive proposal + low-friction approval (2026-03-09)
-- **Proposal brief** â€” `scripts/proposal_brief.py`: 3â€“5 activities from IX-A/B/C, LIBRARY, gaps, INTENT. Usage: `python scripts/proposal_brief.py -u grace-mar -n 5`.
+- **Proposal brief** â€” `scripts/proposal_brief.py`: 3â€“5 activities from IX-A/B/C, LIBRARY, gaps, INTENT. Usage: `python scripts/proposal_brief.py -n 5`.
 - **Low-friction approval** â€” Operator one-tap: âœ… Approve in /review or `/approve CANDIDATE-XXX` merges immediately when candidate is low-risk (single IX target, no conflicts, no advisory_flagged). Set `GRACE_MAR_OPERATOR_NAME` for audit. Doc: feedback-loops Â§ Low-friction approval.
 - **process_approved_candidates --quick** â€” `--quick CANDIDATE-XXX --approved-by <name>` for single-candidate merge without receipt file.
 
@@ -406,21 +406,21 @@ See DESIGN-NOTES Â§11.8 for slightly expanded commentary.
 ```bash
 git status
 python3 scripts/metrics.py
-python3 scripts/session_brief.py --user grace-mar
-python3 scripts/validate-integrity.py --user grace-mar --json
+python3 scripts/session_brief.py
+python3 scripts/validate-integrity.py --json
 python3 scripts/governance_checker.py
 ```
 
 If profile or prompt changed:
 
 ```bash
-python3 scripts/export_prp.py -u grace-mar -n Robert -o grace-mar-llm.txt
+python3 scripts/export_prp.py -o self-llm.txt
 ```
 
 If **validate-integrity** reports stale derived exports or runtime bundle:
 
 ```bash
-python3 scripts/refresh_derived_exports.py -u grace-mar
+python3 scripts/refresh_derived_exports.py
 ```
 
 (This runs `export_prp`, `export_manifest`, `fork_checksum --manifest`, and `export_runtime_bundle` in the same order as `process_approved_candidates.py` after a merge.)

@@ -8,11 +8,11 @@ the fork's documented state at a given moment.
 Usage:
     python scripts/fork_checksum.py
     python scripts/fork_checksum.py -u <fork_id>
-    python scripts/fork_checksum.py --append   # Append to users/<id>/fork-checksum-log.txt
-    python scripts/fork_checksum.py --manifest  # Write users/<id>/fork-manifest.json
-    python scripts/fork_checksum.py -u grace-mar --manifest
+    python scripts/fork_checksum.py --append   # Append to fork-checksum-log.txt
+    python scripts/fork_checksum.py --manifest  # Write fork-manifest.json
+    python scripts/fork_checksum.py --manifest
 
-Default user: GRACE_MAR_USER_ID or grace-mar.
+Default profile: GRACE_MAR_USER_ID or strategy-codex.
 """
 
 from __future__ import annotations
@@ -34,7 +34,7 @@ from repo_io import profile_dir as _profile_dir
 
 
 def _default_user_id() -> str:
-    return (os.getenv("GRACE_MAR_USER_ID", "grace-mar").strip() or "grace-mar")
+    return (os.getenv("GRACE_MAR_USER_ID", "strategy-codex").strip() or "strategy-codex")
 
 
 def _read(path: Path) -> str:
@@ -50,9 +50,10 @@ def _canonicalize(text: str) -> bytes:
 
 
 def compute_checksum(pd: Path) -> str:
-    """Compute SHA-256 of fork state for users/<id>/."""
+    """Compute SHA-256 of fork state for ."""
     parts = []
     parts.append(_read(pd / "self.md"))
+    parts.append(_read(pd / "self-knowledge.md"))
     parts.append(_read(pd / "self-archive.md") or _read(pd / "self-evidence.md"))
     # Key prompt sections that embed fork state (shared bot — same extract for all forks)
     prompt_path = BOT_DIR / "prompt.py"
@@ -82,7 +83,7 @@ def _pipeline_stats(pd: Path) -> tuple[int, int, str]:
     applied = rejected = 0
     last_ts = ""
     if events_path.exists():
-        for line in events_path.read_text().strip().splitlines():
+        for line in events_path.read_text(encoding="utf-8").strip().splitlines():
             if not line:
                 continue
             try:
@@ -103,7 +104,10 @@ def _pipeline_stats(pd: Path) -> tuple[int, int, str]:
 def write_manifest(pd: Path, checksum: str) -> None:
     """Write fork-manifest.json with checksum, IX counts, pipeline stats."""
     self_content = _read(pd / "self.md")
+    self_knowledge_content = _read(pd / "self-knowledge.md")
     ix_a, ix_b, ix_c = _ix_counts(self_content)
+    if self_knowledge_content.strip():
+        ix_a = _ix_counts(self_knowledge_content)[0]
     pipeline_applied, pipeline_rejected, last_applied_ts = _pipeline_stats(pd)
     manifest = {
         "user_id": pd.name,
@@ -128,12 +132,12 @@ def main() -> None:
         "-u",
         "--user",
         default=_default_user_id(),
-        help="Fork id under users/<id>/ (default: GRACE_MAR_USER_ID or grace-mar)",
+        help="Profile id (default: GRACE_MAR_USER_ID or strategy-codex)",
     )
     parser.add_argument("--append", "-a", action="store_true", help="Append to fork-checksum-log.txt")
     parser.add_argument("--manifest", "-m", action="store_true", help="Write fork-manifest.json")
     args = parser.parse_args()
-    uid = (args.user or "").strip() or "grace-mar"
+    uid = (args.user or "").strip() or "strategy-codex"
     pd = _profile_dir(uid)
     checksum = compute_checksum(pd)
     print(checksum)

@@ -288,6 +288,7 @@ def collect_data() -> ProfileData:
     """Collect all profile page data from profile files."""
     recursion_gate_path = PROFILE_DIR / "recursion-gate.md"
     self_path = PROFILE_DIR / "self.md"
+    self_knowledge_path = PROFILE_DIR / "self-knowledge.md"
     archive_path = PROFILE_DIR / "self-archive.md"  # canonical EVIDENCE + Â§ VIII
     evidence_compat = PROFILE_DIR / "self-evidence.md"  # optional pointer / legacy
     try:
@@ -308,6 +309,8 @@ def collect_data() -> ProfileData:
 
     pending_content = recursion_gate_path.read_text() if recursion_gate_path.exists() else ""
     self_content = self_path.read_text() if self_path.exists() else ""
+    self_knowledge_content = self_knowledge_path.read_text() if self_knowledge_path.exists() else ""
+    combined_self_content = self_content + ("\n\n" + self_knowledge_content if self_knowledge_content.strip() else "")
     evidence_content = archive_path.read_text() if archive_path.exists() else ""
     if not evidence_content.strip() and evidence_compat.exists():
         evidence_content = evidence_compat.read_text()
@@ -322,10 +325,10 @@ def collect_data() -> ProfileData:
     pending_count, pending_candidates = parse_gate_pending_for_dashboard(pending_content)
     session_snapshot = parse_session_transcript_snapshot(transcript_content, limit=12)
     health_fitness_summary = parse_health_fitness_summary(health_fitness_content)
-    self_data = parse_self(self_content)
+    self_data = parse_self(combined_self_content)
     evidence_data = parse_evidence(evidence_content)
     skills_summary = parse_skills(skills_content)
-    knowledge_samples, curiosity_ix, personality_ix = parse_ix_samples(self_content)
+    knowledge_samples, curiosity_ix, personality_ix = parse_ix_samples(combined_self_content)
     seed_interests = parse_seed_interests(self_content)
     seed_personality = parse_seed_personality(self_content)
     # Merge seed + post-seed: seed first (from detailed phases), then IX (pipeline growth)
@@ -1188,8 +1191,12 @@ def _render_landing_page(prp_text: str = "") -> str:
 
 
 def _read_full_prp() -> str:
-    """Read full PRP text from grace-mar-llm.txt (repo root)."""
-    path = REPO_ROOT / "grace-mar-llm.txt"
+    """Read full PRP text from self-llm.txt (repo root)."""
+    path = REPO_ROOT / "self-llm.txt"
+    if not path.exists():
+        legacy = REPO_ROOT / "grace-mar-llm.txt"
+        if legacy.exists():
+            path = legacy
     if path.exists():
         return path.read_text(encoding="utf-8").strip()
     return ""
@@ -1200,7 +1207,7 @@ def _render_llm_page(prp_text: str) -> str:
     if not prp_text:
         return """<!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>PRP</title></head>
-<body><pre style="margin:0;padding:1rem;white-space:pre-wrap;word-break:break-word;font:1rem/1.5 system-ui,sans-serif;">PRP not generated. Run: python scripts/export_prp.py -u grace-mar -n Robert -o grace-mar-llm.txt</pre></body>
+<body><pre style="margin:0;padding:1rem;white-space:pre-wrap;word-break:break-word;font:1rem/1.5 system-ui,sans-serif;">PRP not generated. Run: python scripts/export_prp.py -o self-llm.txt</pre></body>
 </html>"""
     escaped = prp_text.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
     clipboard_js = json.dumps(prp_text)
@@ -1233,4 +1240,3 @@ def _render_llm_page(prp_text: str) -> str:
 
 if __name__ == "__main__":
     main()
-

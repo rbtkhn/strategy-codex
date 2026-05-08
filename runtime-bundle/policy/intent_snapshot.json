@@ -1,8 +1,8 @@
 {
   "ok": false,
-  "user_id": "grace-mar",
-  "generated_at": "2026-05-06T08:12:53.330346",
-  "error": "missing intent.md at C:\\dev\\strategy-codex\\users\\grace-mar\\intent.md",
+  "user_id": "strategy-codex",
+  "generated_at": "2026-05-08T09:22:09.436598",
+  "error": "missing intent.md at C:\\dev\\strategy-codex\\users\\strategy-codex\\intent.md",
   "goals": {},
   "tradeoff_rules": [],
   "escalation_rules": [],

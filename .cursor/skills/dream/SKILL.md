@@ -94,7 +94,7 @@ python3 auto-research/swarm/orchestrator.py dream
 **End-of-day bundle (optional):** To run dream + handoff-check in one pass (night-side equivalent of `operator_reentry_stack.py`):
 
 ```bash
-python3 scripts/operator_end_of_day.py -u grace-mar
+python3 scripts/operator_end_of_day.py
 ```
 
 **civ-mem checkout vs CI pin (optional):** When the dayâ€™s work leaned on tri-frame civ-mem routing, `bash scripts/check_civ_mem_upstream_pin.sh` checks that `research/repos/civilization_memory` `HEAD` matches the SHA in `docs/ci/civilization_memory_upstream.env`. No local checkout prints a skip line and exits successfully; a mismatch exits non-zero so you can re-clone or checkout the pinned commit before the next strategy pass.
@@ -222,7 +222,7 @@ If **strict** dream halts for the **same** integrity or governance **reason** mo
 - Do not let `dream` become an autonomous merge agent.
 - Prefer bounded maintenance over speculative semantic intervention.
 - A quiet run is normal; do not manufacture significance.
-- If **integrity** fails with **stale derived export** (not contradictions), refresh exports: `bash scripts/regen_grace_mar_derived.sh` from repo root, then `python3 scripts/validate-integrity.py --user grace-mar --json` â€” see [`docs/skill-work/work-cadence/README.md`](../../../docs/skill-work/work-cadence/README.md) Â§ *When integrity reports stale derived exports*.
+- If **integrity** fails with **stale derived export** (not contradictions), refresh exports: `python3 scripts/refresh_derived_exports.py` from repo root, then `python3 scripts/validate-integrity.py --json` â€” see [`docs/skill-work/work-cadence/README.md`](../../../docs/skill-work/work-cadence/README.md) Â§ *When integrity reports stale derived exports*.
 
 ## Strategy notebook (LIB-0153) â€” optional FYI; **not** owned by `dream`
 
@@ -321,7 +321,7 @@ Usually one `dream` session per day is normal.
 | End of day, keeping session | `dream` alone |
 | Mid-day, closing session | `bridge` alone (no dream needed) |
 
-**One-command bundle:** `python3 scripts/operator_end_of_day.py -u grace-mar` runs dream + handoff-check. If also closing the session, say `bridge` afterward.
+**One-command bundle:** `python3 scripts/operator_end_of_day.py` runs dream + handoff-check. If also closing the session, say `bridge` afterward.
 
 **Morning pickup:** `operator_daily_warmup.py` reads `last-dream.json` and displays a **collapsed** â€œLast dreamâ€ block by default (a **one-line quiet handoff** when there is nothing to flag; a fuller â€œnight handoffâ€ when there are signals). Optional **`--verbose-dream`** expands paths, civ-mem snippets, followups, and still appends any **`last_coffee_echo`** line.
 

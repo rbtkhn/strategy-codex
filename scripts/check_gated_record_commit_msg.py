@@ -3,9 +3,9 @@
 commit-msg hook: staged changes to gated Record paths require an explicit token.
 
 Gated paths (pipeline merge targets + PRP anchor + canonical skills/library):
-  users/*/self.md, self-evidence.md, self-archive.md, self-skills.md, skills.md, self-library.md, merge-receipts.jsonl
+  self.md, self-evidence.md, self-archive.md, self-skills.md, skills.md, self-library.md, merge-receipts.jsonl
   bot/prompt.py
-  grace-mar-llm.txt, users/*/*-llm.txt
+  self-llm.txt, *-llm.txt
 
 Allow commit if message contains [gated-merge], process_approved_candidates, MERGE-RECEIPT:, or SNAPSHOT:.
 Emergency: ALLOW_GATED_RECORD_EDIT=1

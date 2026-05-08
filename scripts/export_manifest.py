@@ -1,17 +1,17 @@
 #!/usr/bin/env python3
 """
-Generate agent-consumable manifest (llms.txt-style) for Grace-Mar Record.
+Generate agent-consumable manifest (llms.txt-style) for the single-operator Record.
 
 Enables discoverability: agents can query what's readable/writable without full access.
 Aligns with white paper: "Future: Agent manifest — llms.txt-style discoverability."
 
 Outputs:
-  - users/[id]/manifest.json — Machine-readable (readable/writable surfaces, checksum, schema hints)
-  - users/[id]/llms.txt — Human- and agent-readable discoverability file
+  - manifest.json — Machine-readable (readable/writable surfaces, checksum, schema hints)
+  - llms.txt — Human- and agent-readable discoverability file
 
 Usage:
-    python scripts/export_manifest.py --user grace-mar
-    python scripts/export_manifest.py -u grace-mar -o ../openclaw/
+    python scripts/export_manifest.py
+    python scripts/export_manifest.py -o ../openclaw/
 """
 
 import argparse
@@ -63,7 +63,7 @@ RUNTIME_MODES = {
 }
 
 
-def generate_manifest(user_id: str = "grace-mar", runtime_mode: str = "adjunct_runtime") -> dict:
+def generate_manifest(user_id: str = "strategy-codex", runtime_mode: str = "adjunct_runtime") -> dict:
     """
     Build agent manifest: readable/writable surfaces, schema hints, checksum.
 
@@ -126,7 +126,7 @@ def generate_manifest(user_id: str = "grace-mar", runtime_mode: str = "adjunct_r
                     "SKILLS/*",
                     "EVIDENCE/*",
                     "LIBRARY/entries",
-                    "PRP/grace-mar-llm.txt",
+                    "PRP/self-llm.txt",
                 ],
             },
             "runtime": {
@@ -172,9 +172,9 @@ def generate_manifest(user_id: str = "grace-mar", runtime_mode: str = "adjunct_r
             "RECURSION-GATE": {"type": "object", "description": "Staging area; format documented in AGENTS.md"},
         },
         "exports": {
-            f"users/{user_id}/openclaw-user.md": "python scripts/export_user_identity.py -u "
+            f"{user_id}/openclaw-user.md": "python scripts/export_user_identity.py -u "
             + user_id
-            + f" -o users/{user_id}/openclaw-user.md",
+            + f" -o {user_id}/openclaw-user.md",
             "manifest": "python scripts/export_manifest.py -u " + user_id,
             "fork_json": "python scripts/export_fork.py -o fork-export.json",
             "intent_snapshot": "python scripts/export_intent_snapshot.py -u " + user_id,
@@ -187,7 +187,7 @@ def generate_manifest(user_id: str = "grace-mar", runtime_mode: str = "adjunct_r
             "manifest.json",
             "llms.txt",
             "intent_snapshot.json",
-            "grace-mar-llm.txt",
+            "self-llm.txt",
             "fork-manifest.json",
         ],
         "intent_snapshot": intent_snapshot,
@@ -259,7 +259,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(
         description="Generate agent-consumable manifest for Grace-Mar Record"
     )
-    parser.add_argument("--user", "-u", default="grace-mar", help="User id")
+    parser.add_argument("--user", "-u", default="strategy-codex", help="Profile id")
     parser.add_argument(
         "--runtime-mode",
         choices=sorted(RUNTIME_MODES.keys()),
@@ -267,7 +267,7 @@ def main() -> None:
         help="Declared runtime mode for exported manifest",
     )
     parser.add_argument(
-        "--output", "-o", default=None, help="Output directory (default: users/[id]/)"
+        "--output", "-o", default=None, help="Output directory (default: )"
     )
     parser.add_argument(
         "--llms-txt", action="store_true", default=True, help="Write llms.txt (default: true)"

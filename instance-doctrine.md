@@ -1,6 +1,6 @@
-﻿# Instance Doctrine â€” grace-mar
+# Instance Doctrine â€” single operator
 
-> Instance-specific operating rules for the grace-mar companion fork. This file is **Layer 2** in the [four-layer instruction architecture](../../docs/layer-architecture.md). Core doctrine lives in [AGENTS.md](../../AGENTS.md); this file may narrow but never contradict it.
+> Instance-specific operating rules for the single-operator companion fork. This file is **Layer 2** in the [four-layer instruction architecture](../../docs/layer-architecture.md). Core doctrine lives in [AGENTS.md](../../AGENTS.md); this file may narrow but never contradict it.
 
 ---
 
@@ -46,7 +46,7 @@ What "good" looks like for Grace-Mar:
 | **Continuity fidelity** | Bridge round-trip >= 80% | `python scripts/test_bridge_continuity.py` or `pytest tests/test_bridge_continuity.py` â€” no LLM needed; run before bridge format changes |
 | **Performance suite** | Local micro-benchmarks + optional I/O/LLM/HTTP tiers | `python scripts/run_perf_local.py` or `pytest tests/test_perf_local.py` (tier 1 in CI); full: `python scripts/run_perf_suite.py --tier 1 2 3`; see [perf-budgets.md](../../docs/perf-budgets.md) |
 | **Judgment probes** | Voice makes value-aligned choices under ambiguity, reflects IX-C tensions | `python scripts/run_judgment_probes.py` â€” 8 probes targeting documented personality tensions; committed/trait_aligned/tension_preserved/age_appropriate scoring; use `-o results.json` for trending |
-| **Identity delta** | Profile changes do not degrade Voice quality | `python scripts/eval_identity_delta.py -u grace-mar` â€” runs judgment + voice benchmarks, computes deltas against saved baseline; run after gate merges |
+| **Identity delta** | Profile changes do not degrade Voice quality | `python scripts/eval_identity_delta.py` â€” runs judgment + voice benchmarks, computes deltas against saved baseline; run after gate merges |
 
 ---
 
@@ -66,7 +66,7 @@ When pipeline candidates are approved, **merge** into all of these together. **M
 | `session-log.md` | New session record; pipeline merges append lines under `## Pipeline merge (automated)` |
 | `bot/prompt.py` | Update relevant prompt sections + analyst dedup list |
 | `pipeline-events.jsonl` | Append `applied` event per candidate: `python scripts/emit_pipeline_event.py applied CANDIDATE-XXXX evidence_id=ACT-YYYY` |
-| **PRP** | Regenerate: `python scripts/export_prp.py -u grace-mar -o grace-mar-llm.txt` (or repo default). Commit if changed. Keeps anchor in sync with Record. |
+| **PRP** | Regenerate: `python scripts/export_prp.py -o self-llm.txt` (or repo default). Commit if changed. Keeps anchor in sync with Record. |
 
 **Real-time log vs gated approved log:** The bot and Mini App append to `session-transcript.md` (raw conversation log for operator continuity). The **gated approved log** is **not** written in real time; it is appended only when candidates are merged â€” as **`self-archive.md` Â§ VIII** (same gate as SELF/EVIDENCE). It holds voice-related approved summaries and other merge-line activity. Optional **`self-evidence.md`** is a **compatibility pointer** only; see [canonical-paths.md](../../docs/canonical-paths.md).
 
@@ -93,7 +93,7 @@ Four prompts, each with a distinct role:
 
 The `SYSTEM_PROMPT` contains the self's knowledge, curiosity, and personality inline. It grows as content is merged into the fork. Apply summarization tiers to manage token count.
 
-**IX parity (operator):** `SYSTEM_PROMPT` and `ANALYST_PROMPT` both embed IX-shaped text; either can drift from `self.md` if not updated with merges. Full checklist, `rebuild_ix` behavior, and grace-mar **`## RECORD STATE`** vs rebuild headers: [**docs/prompt-ix-sync.md**](../../docs/prompt-ix-sync.md).
+**IX parity (operator):** `SYSTEM_PROMPT` and `ANALYST_PROMPT` both embed IX-shaped text; either can drift from `self.md` if not updated with merges. Full checklist, `rebuild_ix` behavior, and root **`## RECORD STATE`** vs rebuild headers: [**docs/prompt-ix-sync.md**](../../docs/prompt-ix-sync.md).
 
 **Summarization tiers (when IX lists grow):** Compress by category; preserve **warrants** and **IX-C tensions** where probes depend on them; keep **ANALYST** IX blocks accurate enough for **dedup** even if **SYSTEM_PROMPT** is tighter prose.
 
@@ -104,7 +104,7 @@ The `SYSTEM_PROMPT` contains the self's knowledge, curiosity, and personality in
 **Canonical user paths** (lowercase filenames): [docs/canonical-paths.md](../../docs/canonical-paths.md). **Dated filenames and CLI dates:** [docs/date-time-conventions.md](../../docs/date-time-conventions.md).
 
 ```
-grace-mar/
+repo-root/
 â”œâ”€â”€ AGENTS.md                    # Core doctrine (Layer 1)
 â”œâ”€â”€ README.md                    # Project overview
 â”œâ”€â”€ bootstrap/grace-mar-bootstrap.md  # Session bootstrap for Cursor
@@ -126,14 +126,14 @@ grace-mar/
 â”‚   â”œâ”€â”€ wechat-setup.md         # WeChat integration setup guide
 â”‚   â””â”€â”€ requirements.txt        # Python dependencies
 â””â”€â”€ 
-    â””â”€â”€ grace-mar/              # Active instance (first companion)
+    â””â”€â”€ repo-root/              # Active instance root (single operator)
         â”œâ”€â”€ instance-doctrine.md  # Instance-specific operating rules (Layer 2)
         â”œâ”€â”€ self.md             # Identity + three-dimension mind
         â”œâ”€â”€ self-skills.md      # Capability index (Claims, Gaps, Struggles, Milestones); legacy `skills.md` resolved until migrated
         â”œâ”€â”€ skill-think.md      # THINK, MATH, CHINESE containers
         â”œâ”€â”€ skill-write.md      # WRITE container
         â”œâ”€â”€ work-alpha-school.md # WORK context (separate from SKILLS)
-        â”œâ”€â”€ work-jiang.md        # WORK â€” Jiang project
+        â”œâ”€â”€ codex/predictive-history/README-operator.md        # WORK â€” Jiang project
         â”œâ”€â”€ self-archive.md          # EVIDENCE â€” activity log + Â§ VIII gated approved
         â”œâ”€â”€ self-evidence.md         # optional compatibility pointer (canonical body is self-archive.md)
         â”œâ”€â”€ self-library.md     # SELF-LIBRARY â€” reference-facing governed domains; CIV-MEM subdomain; not SELF-KNOWLEDGE

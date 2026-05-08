@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """
 Unified export CLI (v1): subprocess dispatch to scripts/export_*.py.
 
@@ -9,11 +9,11 @@ Export classes: [docs/portable-record/export-contract.md](../docs/portable-recor
   python scripts/export.py [-u USER] --export-class {tool_bootstrap|full|task_limited|capability|emulation} [-- EXTRA...]
 
 When EXTRA omits -u/--user, this CLI prepends -u <resolved> (env GRACE_MAR_USER_ID, else
-repo default: grace-mar when users/grace-mar exists, else _template).
+repo default: strategy-codex when the root profile exists, else _template).
 
 G1: ``all`` forwards to export_runtime_bundle.py only (same as bundle).
 
-Non-goals: export_view, export_gate_… — use those scripts directly.
+Non-goals: export_view, export_gate_â€¦ â€” use those scripts directly.
 """
 
 from __future__ import annotations
@@ -44,7 +44,7 @@ EXPORT_CLASS_ROUTES: dict[str, tuple[str, list[str]]] = {
 }
 
 EXPORT_CLASS_UNSUPPORTED: dict[str, str] = {
-    "internal": "not exportable by definition — internal-only content stays in the governed Record",
+    "internal": "not exportable by definition â€” internal-only content stays in the governed Record",
 }
 
 ALL_EXPORT_CLASSES = sorted(set(EXPORT_CLASS_ROUTES) | set(EXPORT_CLASS_UNSUPPORTED))
@@ -54,8 +54,8 @@ def _default_user_id() -> str:
     env = __import__("os").environ.get("GRACE_MAR_USER_ID", "").strip()
     if env:
         return env
-    if (REPO_ROOT / "users" / "grace-mar").is_dir():
-        return "grace-mar"
+    if (REPO_ROOT / "self.md").is_file():
+        return "strategy-codex"
     return "_template"
 
 
@@ -132,8 +132,8 @@ def _print_help() -> None:
         f"""usage: python scripts/export.py [-u USER] {{fork|prp|identity|manifest|bundle|emulation|all}} [-- EXTRA...]
        python scripts/export.py [-u USER] --export-class {{tool_bootstrap|full|task_limited|capability|emulation}} [-- EXTRA...]
 
-Unified export CLI — runs the existing script under scripts/ via subprocess.
-Resolved default user when the child argv has no -u: GRACE_MAR_USER_ID, else {du!r} (repo heuristic).
+Unified export CLI â€” runs the existing script under scripts/ via subprocess.
+Resolved default profile when the child argv has no -u: GRACE_MAR_USER_ID, else {du!r} (repo heuristic).
 
 Subcommands:
   fork      -> export_fork.py
@@ -158,10 +158,10 @@ Examples:
   python scripts/export.py fork -- -o out.json
   python scripts/export.py --export-class tool_bootstrap -- -o prompt.txt
   python scripts/export.py --export-class full -- -o /tmp/bundle
-  python scripts/export.py -u grace-mar --export-class task_limited -- -o handoff.json
+  python scripts/export.py --export-class task_limited -- -o handoff.json
   python scripts/export.py --export-class emulation -- -o /tmp/emulation-bundle
 
-Non-goals: export_view, export_gate_to_review_queue, … (invoke those scripts directly).
+Non-goals: export_view, export_gate_to_review_queue, â€¦ (invoke those scripts directly).
 """
     )
 
@@ -170,7 +170,7 @@ def _run_child(script_name: str, child_argv: list[str]) -> int:
     script_path = SCRIPTS_DIR / script_name
     if not script_path.is_file():
         print(
-            f"export.py: missing {script_path.relative_to(REPO_ROOT)} — "
+            f"export.py: missing {script_path.relative_to(REPO_ROOT)} â€” "
             "see docs/EXPORT-CLI.md if this is a template checkout without export modules.",
             file=sys.stderr,
         )
@@ -223,3 +223,4 @@ def main() -> int:
 
 if __name__ == "__main__":
     sys.exit(main())
+

@@ -1,10 +1,10 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """
 Generate a stop/resume handoff summary for the current repo state.
 
 Includes a dedicated RECURSION-GATE section: pending counts by territory (work-politics vs
 companion), up to a capped list of pending candidate IDs and summaries, and proposed next
-steps to review/approve/merge via process_approved_candidates (read-only — this script does
+steps to review/approve/merge via process_approved_candidates (read-only â€” this script does
 not merge). Intended for good-night / handoff-check workflows.
 """
 
@@ -39,17 +39,17 @@ except ImportError:
     build_night_pulse_lines = None  # type: ignore[misc, assignment]
 
 RUNTIME_NOISE_MARKERS = (
-    "users/grace-mar/pipeline-events.jsonl",
-    "users/grace-mar/harness-events.jsonl",
-    "users/grace-mar/last-dream.json",
+    "pipeline-events.jsonl",
+    "harness-events.jsonl",
+    "last-dream.json",
     "runtime-bundle/runtime/",
     "runtime-bundle/audit/",
 )
 
-# Regenerated exports / integrity-adjacent — batch-commit or refresh; not "lane editorial" work.
+# Regenerated exports / integrity-adjacent â€” batch-commit or refresh; not "lane editorial" work.
 EXPORT_CHURN_MARKERS = (
     "compute-ledger.jsonl",
-    "grace-mar-llm.txt",
+    "self-llm.txt",
     "fork-manifest.json",
     "/manifest.json",
     "/llms.txt",
@@ -96,20 +96,20 @@ def _classify_change(path_line: str) -> tuple[str, str]:
         or "generate_wap_weekly_brief.py" in path
     ):
         return "work_politics_lane", path
-    if path.startswith("users/") or "recursion_gate" in path or path == "bot/prompt.py":
+    if path.startswith("") or "recursion_gate" in path or path == "bot/prompt.py":
         return "record_pipeline", path
     return "repo_misc", path
 
 
 def _gate_detail_lines(recursion_gate_md: str, user_id: str) -> list[str]:
     """Human-readable pending queue + proposed merge steps (read-only; does not merge)."""
-    gate_rel = f"users/{user_id}/recursion-gate.md"
+    gate_rel = f"{user_id}/recursion-gate.md"
     politics_rows, companion_rows = pending_by_territory(recursion_gate_md)
     total = len(politics_rows) + len(companion_rows)
     lines: list[str] = [
         "## RECURSION-GATE (pending)",
         "",
-        f"- **Total pending:** {total} (work-politics: {len(politics_rows)} · companion: {len(companion_rows)})",
+        f"- **Total pending:** {total} (work-politics: {len(politics_rows)} Â· companion: {len(companion_rows)})",
         f"- **Canonical file:** `{gate_rel}`",
         "",
     ]
@@ -142,11 +142,11 @@ def _gate_detail_lines(recursion_gate_md: str, user_id: str) -> list[str]:
     for label, row in combined:
         if shown >= _GATE_PENDING_DISPLAY_CAP:
             rest = total - shown
-            lines.append(f"- _… and {rest} more — open `{gate_rel}` for full list._")
+            lines.append(f"- _â€¦ and {rest} more â€” open `{gate_rel}` for full list._")
             break
         cid = row.get("id") or "?"
         summary = (row.get("summary") or "(no summary)")[:160]
-        lines.append(f"- **{cid}** [{label}] — {summary}")
+        lines.append(f"- **{cid}** [{label}] â€” {summary}")
         shown += 1
     lines.extend(
         [
@@ -183,16 +183,16 @@ def _active_thread(meaningful_changes: list[str], gate_pending: int, politics_bl
         if gate_pending:
             return (
                 "gate continuity",
-                "Start with `python3 scripts/operator_gate_review_pass.py -u grace-mar` to review pending candidates.",
+                "Start with `python3 scripts/operator_gate_review_pass.py` to review pending candidates.",
             )
         if politics_blockers:
             return (
                 "work-politics lane",
-                "Start with `python3 scripts/operator_work_politics_pulse.py -u grace-mar` and address the first blocker.",
+                "Start with `python3 scripts/operator_work_politics_pulse.py` and address the first blocker.",
             )
         return (
             "stable baseline",
-            "Start with `python3 scripts/operator_daily_warmup.py -u grace-mar` and choose the next highest-value task.",
+            "Start with `python3 scripts/operator_daily_warmup.py` and choose the next highest-value task.",
         )
     if dominant == "operator_workflow":
         return (
@@ -202,7 +202,7 @@ def _active_thread(meaningful_changes: list[str], gate_pending: int, politics_bl
     if dominant == "work_politics_lane":
         return (
             "work-politics lane",
-            "Resume work-politics work with `python3 scripts/operator_work_politics_pulse.py -u grace-mar` and then run the brief workflow if ready.",
+            "Resume work-politics work with `python3 scripts/operator_work_politics_pulse.py` and then run the brief workflow if ready.",
         )
     if dominant == "record_pipeline":
         return (
@@ -211,11 +211,11 @@ def _active_thread(meaningful_changes: list[str], gate_pending: int, politics_bl
         )
     return (
         "mixed repo maintenance",
-        "Start with `python3 scripts/operator_daily_warmup.py -u grace-mar` and sort local changes into one active thread.",
+        "Start with `python3 scripts/operator_daily_warmup.py` and sort local changes into one active thread.",
     )
 
 
-def build_handoff_check(user_id: str = "grace-mar") -> str:
+def build_handoff_check(user_id: str = "strategy-codex") -> str:
     user_dir = USERS_DIR / user_id
     recursion_gate = _read(user_dir / "recursion-gate.md")
     evidence = _read(user_dir / "self-archive.md") or _read(user_dir / "self-evidence.md")
@@ -258,12 +258,12 @@ def build_handoff_check(user_id: str = "grace-mar") -> str:
         try:
             lines.extend(build_night_pulse_lines(user_id))
         except Exception:
-            lines.append("## Predictive History — night closeout")
+            lines.append("## Predictive History â€” night closeout")
             lines.append("")
             lines.append("_Jiang night pulse skipped (could not read work-jiang paths)._")
             lines.append("")
     else:
-        lines.append("## Predictive History — night closeout")
+        lines.append("## Predictive History â€” night closeout")
         lines.append("")
         lines.append(
             "_Run `python3 scripts/work_jiang/warmup_jiang_pulse.py -u %s --night` if import failed._" % user_id
@@ -292,7 +292,7 @@ def build_handoff_check(user_id: str = "grace-mar") -> str:
     lines.extend(["", "## Derived / export churn", ""])
     if export_churn:
         lines.append(
-            "_Regenerated or integrity-adjacent files — often safe to batch-commit separately "
+            "_Regenerated or integrity-adjacent files â€” often safe to batch-commit separately "
             "from editorial work, or refresh via bootstrap verify block (`export_prp`, "
             "`export_manifest`, `validate-integrity`)._"
         )
@@ -334,7 +334,7 @@ def build_handoff_check(user_id: str = "grace-mar") -> str:
 def main() -> int:
     _configure_utf8_stdio()
     parser = argparse.ArgumentParser(description="Generate a handoff summary for Grace-Mar.")
-    parser.add_argument("--user", "-u", default="grace-mar", help="User id")
+    parser.add_argument("--user", "-u", default="strategy-codex", help="Profile id")
     args = parser.parse_args()
     print(build_handoff_check(user_id=args.user))
     return 0
@@ -342,3 +342,4 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+

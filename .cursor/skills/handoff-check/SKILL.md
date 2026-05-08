@@ -1,4 +1,4 @@
-﻿---
+---
 name: handoff-check
 preferred_activation: handoff check
 description: Run operator_handoff_check.py for RECURSION-GATE pending, Predictive History night closeout, commits, worktree noise, re-entry prompt â€” read-only. On **coffee** with **signing-off** intent, this script (or `operator_coffee.py --mode closeout`) is **coffee Step 1**; **Step 2** is the **same** fixed **Aâ€“E** hub as work-start â€” **A â€” Steward** without gate/template split â†’ **system pick**. See [coffee/SKILL.md](../coffee/SKILL.md) and [menu-reference â€” signing-off intent](../../../docs/skill-work/work-coffee/menu-reference.md#signing-off-intent). Also use when resuming work or checking safe-to-ignore before commit/push.
@@ -27,7 +27,7 @@ python3 scripts/operator_handoff_check.py -u grace-mar
 Summarize:
 
 - **RECURSION-GATE** â€” pending totals (work-politics vs companion), listed items if any (script caps long queues), and the scriptâ€™s **proposed** processing steps (`operator_gate_review_pass` â†’ approve/reject in-file â†’ `process_approved_candidates.py`); remind that **merge requires companion approval**
-- **Predictive History (work-jiang)** â€” **`## Predictive History â€” night closeout`**: where the lane rests, suggested first lever tomorrow, rotating **Spark** (edit `research/external/work-jiang/metadata/warmup-sparks.yaml`), optional rebuild ritual; still read-only / not Record
+- **Predictive History (work-jiang)** â€” **`## Predictive History â€” night closeout`**: where the lane rests, suggested first lever tomorrow, rotating **Spark** (edit `codex/predictive-history/metadata/warmup-sparks.yaml`), optional rebuild ritual; still read-only / not Record
 - recently committed work
 - meaningful local changes still in progress
 - **`## Derived / export churn`** â€” PRP, manifest, ledger, etc. (regenerate or batch-commit vs editorial work)

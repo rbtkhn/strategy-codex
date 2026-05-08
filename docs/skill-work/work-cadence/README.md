@@ -1,6 +1,6 @@
 ﻿# work-cadence
 
-**Purpose:** Template-level doctrine, boundaries, and architecture for the daily cadence triad â€” `coffee` (orientation), `dream` (consolidation), and `bridge` (session handoff) â€” plus **`conductor`** (mid-day emphasis / Symphony or execution recursion; not a `coffee` hub letter) and **`harvest`** as **operator tools on other axes** (harvest: cross-agent extraction; on demand, not a fourth clock). **`thanks`** remains in the repo as a **deprecated** grace-mar operator beat (legacy telemetry only) â€” see `.cursor/skills/thanks/SKILL.md`. Executable triggers: `.cursor/skills/coffee/SKILL.md`, `.cursor/skills/conductor/SKILL.md`, `.cursor/skills/dream/SKILL.md`, `.cursor/skills/bridge/SKILL.md`, `.cursor/skills/harvest/SKILL.md`, and `.cursor/skills/thanks/SKILL.md` (legacy).
+**Purpose:** Template-level doctrine, boundaries, and architecture for the daily cadence triad â€” `coffee` (orientation), `dream` (consolidation), and `bridge` (session handoff) â€” plus **`conductor`** (mid-day emphasis / Symphony or execution recursion; not a `coffee` hub letter) and **`harvest`** as **operator tools on other axes** (harvest: cross-agent extraction; on demand, not a fourth clock). **`thanks`** remains in the repo as a **deprecated** operator beat (legacy telemetry only) â€” see `.cursor/skills/thanks/SKILL.md`. Executable triggers: `.cursor/skills/coffee/SKILL.md`, `.cursor/skills/conductor/SKILL.md`, `.cursor/skills/dream/SKILL.md`, `.cursor/skills/bridge/SKILL.md`, `.cursor/skills/harvest/SKILL.md`, and `.cursor/skills/thanks/SKILL.md` (legacy).
 
 **Record boundary:** **Cadence events** (`work-cadence-events.md`), **which rituals you run**, and **command preferences** are **WORK** â€” primarily **`docs/skill-work/`** (this territory, `work-coffee/`, related skills) and **work-dev** (scripts, `log_cadence_event.py`, `operator_coffee.py`, harness/reentry wiring). They are **not** SELF **IX-C personality**; do not mirror cadence telemetry into the Record except via an explicit gated edit (e.g. removing a misplaced IX-C line).
 
@@ -14,7 +14,7 @@
 
 | Role | Description |
 |------|-------------|
-| **Cadence architecture** | Defines the shape of daily rhythm: coffee (orientation, repeated), conductor (mid-day depth; optional), dream (consolidation, once), bridge (session carry-forward), harvest (cross-agent packet; midstream import). **`thanks`** deprecated as primary beat (grace-mar). |
+| **Cadence architecture** | Defines the shape of daily rhythm: coffee (orientation, repeated), conductor (mid-day depth; optional), dream (consolidation, once), bridge (session carry-forward), harvest (cross-agent packet; midstream import). **`thanks`** deprecated as primary beat. |
 | **Night-to-morning handoff** | Documents the `daily-handoff/night-handoff.json` data contract that bridges dream output to coffee Step 1. |
 | **Cadence event audit** | Append-only telemetry via `work-cadence-events.md` and `scripts/log_cadence_event.py` (optional **`harvest`** kind for consistency). |
 | **Boundary surface** | Explains what belongs in operational/ephemeral surfaces versus what must escalate to the gate. |
@@ -24,25 +24,25 @@
 
 ## When integrity reports stale derived exports
 
-Commits that change profile surfaces, `bot/prompt.py`, or related inputs can leave **derived** files older than sources: `manifest.json`, `llms.txt`, `intent_snapshot.json`, `fork-manifest.json`, repo-root `grace-mar-llm.txt`, and `runtime-bundle/bundle.json`. `validate-integrity.py` and `auto_dream.py` then report **integrity** failure until exports are refreshed.
+Commits that change profile surfaces, `bot/prompt.py`, or related inputs can leave **derived** files older than sources: `manifest.json`, `llms.txt`, `intent_snapshot.json`, `fork-manifest.json`, repo-root `self-llm.txt`, and `runtime-bundle/bundle.json`. `validate-integrity.py` and `auto_dream.py` then report **integrity** failure until exports are refreshed.
 
-**Recovery (grace-mar),** from repo root:
+**Recovery (root profile),** from repo root:
 
 ```bash
 bash scripts/regen_grace_mar_derived.sh
-python3 scripts/validate-integrity.py --user grace-mar --json
+python3 scripts/validate-integrity.py --json
 ```
 
-The script runs, in order: `export_manifest.py`, `fork_checksum.py --manifest`, `export_prp.py` (writes `grace-mar-llm.txt`), `export_runtime_bundle.py`. See [`scripts/regen_grace_mar_derived.sh`](../../../scripts/regen_grace_mar_derived.sh).
+The script runs, in order: `export.py manifest`, `fork_checksum.py --manifest`, `export.py prp` (writes `self-llm.txt`), `export.py bundle`. See [`scripts/refresh_derived_exports.py`](../../../scripts/refresh_derived_exports.py).
 
 ---
 
-## Reading the audit file (demo vs grace-mar)
+## Reading the audit file (demo vs root profile)
 
-[`work-cadence-events.md`](work-cadence-events.md) is **append-all**: lines may include **`(demo)`** (fixtures, harness, or CLI defaults) alongside **`(grace-mar)`** operator cadence.
+[`work-cadence-events.md`](work-cadence-events.md) is **append-all**: lines may include **`(demo)`** (fixtures, harness, or CLI defaults) alongside **root-profile** operator cadence.
 
-- **Scripts** that compute session load, rhythm, or coffee rollup **filter by user id** â€” see [`scripts/audit_cadence_rhythm.py`](../../../scripts/audit_cadence_rhythm.py) `parse_events`. Lines with **`dream (demo)`** do **not** affect grace-mar metrics.
-- **Manual review** of the raw file: restrict to **`grace-mar`** lines (e.g. search for `(grace-mar)`) so harness noise is not mistaken for companion dream failures.
+- **Scripts** that compute session load, rhythm, or coffee rollup **filter by profile id** â€” see [`scripts/audit_cadence_rhythm.py`](../../../scripts/audit_cadence_rhythm.py) `parse_events`. Lines with **`dream (demo)`** do **not** affect root-profile metrics.
+- **Manual review** of the raw file: restrict to the active profile lines so harness noise is not mistaken for companion dream failures.
 - **`demo`** rows are not the companionâ€™s cadence.
 
 ---
@@ -83,7 +83,7 @@ When the operator explicitly invokes a named cadence ritual such as `coffee`, `d
 |------|--------|-------------|-------------------|
 | **coffee** | Hours (framing) | Reorientation: grounding, priorities, menu of next forks | Many per day |
 | **conductor** | Minutesâ€“hours | **Symphony / execution** emphasis: master pick, orientation, Conductor action MCQ, optional close; `coffee_pick` / `coffee_conductor_outcome` â€” see `conductor` SKILL + CONDUCTOR-PASS | As needed |
-| **thanks** | â€” | **Deprecated (grace-mar operator workflow).** Legacy: two-block pause + `thanks` telemetry. Prefer **conductor** or **`coffee` light/minimal**. | Legacy only |
+| **thanks** | â€” | **Deprecated operator workflow.** Legacy: two-block pause + `thanks` telemetry. Prefer **conductor** or **`coffee` light/minimal**. | Legacy only |
 | **dream** | Day (residue) | Consolidation: memory normalize, integrity/governance, contradiction digest, night handoff | Usually once |
 | **bridge** | Session (context) | Seal: commit/push where appropriate, transfer prompt for the **next** Cursor thread | Per session close |
 | **harvest** | Cross-thread (import) | Ship dense substance **into** a session that is already running â€” not a clock | On demand |
@@ -108,7 +108,7 @@ Signing-off **`coffee`** (closeout mode) is a **lighter** alternative to `bridge
 
 ### Data flow between beats (what crosses the boundary)
 
-1. **Dream â†’ morning coffee:** `daily-handoff/night-handoff.json` and, in grace-mar-style instances, `last-dream.json` â€” collapsed â€œLast dreamâ€ in warmup unless verbose flags are used.
+1. **Dream â†’ morning coffee:** `daily-handoff/night-handoff.json` and, in root-profile style instances, `last-dream.json` â€” collapsed â€œLast dreamâ€ in warmup unless verbose flags are used.
 2. **Bridge â†’ next thread:** Transfer prompt (packet contract) â€” ends with a lone **`coffee`** line for cold start when that contract applies.
 3. **All beats â†’ audit trail:** [work-cadence-events.md](work-cadence-events.md) â€” one append-only line per successful leaf run (`scripts/log_cadence_event.py`). This file is **operator ephemera**: rhythm telemetry, not Record.
 
@@ -199,7 +199,7 @@ Each clock needs its own ritual because the failure modes are different. Reorien
 - **Packet contract:** [harvest-packet-contract.md](harvest-packet-contract.md) (section headings; **no** trailing `coffee` â€” contrast [bridge-packet-contract.md](bridge-packet-contract.md))
 - **Optional script:** `scripts/session_harvest.py` â€” checklist + template + optional `--log` â†’ `log_cadence_event.py --kind harvest`
 
-**Instances:** Built-from-template repos (e.g. grace-mar) reconcile cadence doc drift via their own upgrade workflow; the template remains the structural home for the skill and contract.
+**Instances:** Built-from-template repos reconcile cadence doc drift via their own upgrade workflow; the template remains the structural home for the skill and contract.
 
 ---
 
@@ -309,7 +309,7 @@ This territory never creates a merge path. The instance's gate remains the membr
 
 Instances built from this template may extend cadence with:
 
-- **Custom menu systems** (e.g. grace-mar's A-H multi-choice pattern)
+- **Custom menu systems** (e.g. the older A-H multi-choice pattern)
 - **Additional maintenance passes** (e.g. integrity checks, contradiction digest, memory normalization)
 - **Territory-specific tracks** (e.g. work-politics, Predictive History)
 - **Instance-specific runners** (replacing or wrapping the template runners)
@@ -363,7 +363,7 @@ Which on-disk surfaces each ritual reads, writes, and whether companion approval
 
 **Default:** If in doubt, `bridge`. It commits, pushes, and produces a transfer prompt. If it's also end of day, run `dream` first.
 
-**Workspace note for strategy-codex:** In this repo, bridge is **current-repo-first** and **codex-only by default**. It should assess and seal `strategy-codex` unless the operator explicitly broadens scope. Do not drag `grace-mar` or `companion-self` into a bridge packet from this workspace by default.
+**Workspace note for strategy-codex:** In this repo, bridge is **current-repo-first** and **codex-only by default**. It should assess and seal `strategy-codex` unless the operator explicitly broadens scope. Do not drag legacy instance names or `companion-self` into a bridge packet from this workspace by default.
 
 ---
 
@@ -405,7 +405,7 @@ When a cadence run produces unexpected output, check these in order:
 
 ## Closing the troubleshooting loop (doc-only)
 
-If the **same** troubleshooting bullet applies **twice in a short window**, add **one line** to the relevant **SKILL** or **packet contract** and optionally a **pointer** back into the subsection above. Instances that mirror grace-mar may align prose with grace-mar `docs/skill-work/work-cadence/README.md` Â§ *Closing the troubleshooting loop*.
+If the **same** troubleshooting bullet applies **twice in a short window**, add **one line** to the relevant **SKILL** or **packet contract** and optionally a **pointer** back into the subsection above. Instances that mirror this repo may align prose with this `docs/skill-work/work-cadence/README.md` Â§ *Closing the troubleshooting loop*.
 
 ---
 
@@ -424,7 +424,7 @@ If the **same** troubleshooting bullet applies **twice in a short window**, add 
 ## Adjacent surfaces
 
 - [.cursor/skills/coffee/SKILL.md](../../../.cursor/skills/coffee/SKILL.md) â€” coffee trigger
-- [.cursor/skills/thanks/SKILL.md](../../../.cursor/skills/thanks/SKILL.md) â€” **`thanks`** **deprecated** (grace-mar); legacy micro-pause spec
+- [.cursor/skills/thanks/SKILL.md](../../../.cursor/skills/thanks/SKILL.md) â€” **`thanks`** **deprecated**; legacy micro-pause spec
 - [.cursor/skills/conductor/SKILL.md](../../../.cursor/skills/conductor/SKILL.md) â€” Conductor sessions (preferred mid-day depth)
 - [.cursor/skills/dream/SKILL.md](../../../.cursor/skills/dream/SKILL.md) â€” dream trigger
 - [.cursor/skills/bridge/SKILL.md](../../../.cursor/skills/bridge/SKILL.md) â€” bridge trigger
