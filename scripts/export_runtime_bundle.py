@@ -35,6 +35,7 @@ try:
     from export_user_identity import export_user_identity, export_user_identity_json
     from harness_events import append_harness_event
     from recursion_gate_review import parse_review_candidates
+    from repo_io import profile_dir as canonical_profile_dir
     from repo_io import resolve_self_memory_path, resolve_surface_markdown_path
 except ImportError:
     from scripts.export_fork import export_fork
@@ -44,6 +45,7 @@ except ImportError:
     from scripts.export_user_identity import export_user_identity, export_user_identity_json
     from scripts.harness_events import append_harness_event
     from scripts.recursion_gate_review import parse_review_candidates
+    from scripts.repo_io import profile_dir as canonical_profile_dir
     from scripts.repo_io import resolve_self_memory_path, resolve_surface_markdown_path
 
 
@@ -106,7 +108,9 @@ def _file_meta(path: Path) -> dict:
 
 
 def _profile_dir(user_id: str) -> Path:
-    return REPO_ROOT / "users" / user_id
+    if REPO_ROOT == Path(__file__).resolve().parent.parent:
+        return canonical_profile_dir(user_id)
+    return REPO_ROOT
 
 
 def _default_output_dir(user_id: str) -> Path:

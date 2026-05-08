@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Append-only harness audit stream: users/<id>/harness-events.jsonl
+Append-only harness audit stream: harness-events.jsonl
 
 Not part of the Record. Used for operator replay (merge, OpenClaw export) without
 merging chat context. Complements pipeline-events.jsonl (pipeline-focused).
@@ -15,15 +15,19 @@ from pathlib import Path
 
 try:
     from pipeline_event_envelope import ENVELOPE_VERSION, new_pipeline_event_id
+    from repo_io import profile_dir as canonical_profile_dir
 except ImportError:
     from scripts.pipeline_event_envelope import ENVELOPE_VERSION, new_pipeline_event_id
+    from scripts.repo_io import profile_dir as canonical_profile_dir
 
 _lock = threading.Lock()
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
 
 def harness_events_path(user_id: str) -> Path:
-    return REPO_ROOT / "users" / user_id / "harness-events.jsonl"
+    if REPO_ROOT == Path(__file__).resolve().parent.parent:
+        return canonical_profile_dir(user_id) / "harness-events.jsonl"
+    return REPO_ROOT / "harness-events.jsonl"
 
 
 def append_harness_event(

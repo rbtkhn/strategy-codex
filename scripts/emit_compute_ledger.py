@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Append one integration/export row to users/<id>/compute-ledger.jsonl.
+Append one integration/export row to compute-ledger.jsonl.
 
 Extends the Voice ledger shape with optional integration fields (operation, runtime, wall_ms, …).
 
@@ -19,6 +19,11 @@ from pathlib import Path
 from typing import Any
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
+
+try:
+    from repo_io import profile_dir as canonical_profile_dir
+except ImportError:
+    from scripts.repo_io import profile_dir as canonical_profile_dir
 
 
 def _integration_token_fields_from_env() -> dict[str, Any]:
@@ -59,7 +64,10 @@ def append_integration_ledger(
     extra: dict[str, Any] | None = None,
 ) -> None:
     root = repo_root or REPO_ROOT
-    path = root / "users" / user_id / "compute-ledger.jsonl"
+    if repo_root is None and root == REPO_ROOT:
+        path = canonical_profile_dir(user_id) / "compute-ledger.jsonl"
+    else:
+        path = root / "compute-ledger.jsonl"
     channel_key = os.getenv("GRACE_MAR_LEDGER_CHANNEL_KEY", f"{runtime}:integration")
     rec: dict[str, Any] = {
         "ts": datetime.now(timezone.utc).isoformat(),
