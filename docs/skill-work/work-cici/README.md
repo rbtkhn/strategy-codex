@@ -2,6 +2,8 @@
 
 ## Purpose
 
+**Cici AI** is the active human-facing name for this lane; `work-cici` remains the canonical path for compatibility.
+
 `work-cici` is a WORK territory in the grace-mar repo for coordinating advisor/project work with Cici, formerly tracked as Xavier. It preserves the prior Xavier / BrewMind / SMM materials while normalizing the active workspace name to Cici.
 
 This folder is the **operator/advisor layer:** contracts, mirrors, runbooks, content plans, operator navigation, work profile, capability rubric, handoffs, evidence pointers, and BrewMind pilot materials.
@@ -10,15 +12,15 @@ It is not Ciciâ€™s sovereign Record repository and not a canonical Record s
 
 ## Rename note
 
-This lane was previously named `work-xavier`. It has been renamed to `work-cici`. Older files may retain **Xavier** in filenames or historical notes when they refer to prior artifacts, continuity records, or legacy naming. **Active** references should prefer **Cici** unless the historical filename, artifact title, or **archived note** requires **Xavier**.
+This lane was previously named `work-xavier`. It has been renamed to `work-cici`. Older files may retain **Xavier** in filenames or historical notes when they refer to prior artifacts, continuity records, or legacy naming. **Active** references should prefer **Cici AI** in user-facing copy and **Cici** in general prose unless the historical filename, artifact title, or **archived note** requires **Xavier**.
 
-**Legacy note: formerly Xavier.**
+**Legacy note: formerly Xavier. Active display name: Cici AI.**
 
 ## Naming and continuity
 
-- **Cici** is the active lane name.
+- **Cici AI** is the active human-facing lane name.
 - **Xavier** may appear in legacy filenames, historical notes, and older artifacts.
-- **`work-cici`** is the Grace-Mar advisor/project workspace.
+- **`work-cici`** is the Grace-Mar advisor/project workspace and canonical path.
 - Ciciâ€™s **actual governed instance**, if any, lives in **her own repository** (companion / template fork â€” see the section *Her instance repository* below).
 - **This folder must not host Ciciâ€™s Record.** Her cognitive-fork Record lives only under `` in **her** instance repo, behind **her** gate and merge script.
 - Legacy script names such as `build_xavier_handbook_bundle.py` may remain until a separate compatibility-safe rename PR.
@@ -63,7 +65,8 @@ Ciciâ€™s **companion** or **chosen instance** repository (Identity Fork Pro
 
 **Daily sync surface (advisor view):** [SYNC-DAILY.md](SYNC-DAILY.md). **Mirrors:** [work-dev-mirror/README.md](work-dev-mirror/README.md), [work-politics-mirror/README.md](work-politics-mirror/README.md).
 
-**Operator observations (progress / evidence):** [cici-progress-log.md](cici-progress-log.md) â€” qualitative notes, hypotheses, coaching hooks; artifacts in [evidence/](evidence/). **Milestones + dated pointers:** [work-cici-history.md](work-cici-history.md).
+**Operator observations (progress / evidence):** [cici-progress-log.md](cici-progress-log.md) â€” qualitative notes, hypotheses, coaching hooks; artifacts in [evidence/](evidence/). **Milestones + dated pointers:** [work-cici-history.md](work-cici-history.md).  
+**Beginner daily journal:** [daily-journal/README.md](daily-journal/README.md) â€” the uniform semi-automated daily journal pattern for OB1 members.
 
 **BrewMind (Philippines pilot):** [brewmind-philippines-onboarding-guide.md](brewmind-philippines-onboarding-guide.md) â€” bundle hub for strategy, brand, field script, and PH market notes ([INDEX.md](INDEX.md) lists all BrewMind WORK files).
 

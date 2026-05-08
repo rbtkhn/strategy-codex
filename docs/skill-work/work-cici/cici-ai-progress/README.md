@@ -20,6 +20,8 @@ This lane turns Telegram introductions and GitHub activity into a clear operator
 - Add first-task completion fields for the five first-wave applicants.
 - Define the first simple proof packet task.
 - Decide the scholarship readiness threshold and review cadence.
+- Standardize the beginner daily journal flow for all OB1 members.
+- Keep the journal system as a guidance package in `work-cici`; do not imply ownership of any OB1 repo.
 
 ## Next action
 
@@ -31,6 +33,7 @@ Update the community dashboard with a lane-owned applicant table: name, country,
 - [cici-ai-lane-roster-format.md](../cici-ai-lane-roster-format.md)
 - [cici-ai-first-task-proof-packet.md](../cici-ai-first-task-proof-packet.md)
 - [cici-ai-daily-report-template.md](../cici-ai-daily-report-template.md)
+- [daily-journal/README.md](../daily-journal/README.md)
 - [cici-ai-weekly-governance-review-template.md](../cici-ai-weekly-governance-review-template.md)
 - [reviews/README.md](../reviews/README.md)
 - [evidence/cici-ai-first-applicant-wave-2026-04-30.md](../evidence/cici-ai-first-applicant-wave-2026-04-30.md)
