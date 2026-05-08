@@ -83,6 +83,8 @@ python3 scripts/backfill_shortform_bundle_raw_input.py \
   --apply
 ```
 
+For X-specific bundles, [`scripts/backfill_x_shortform_bundle_raw_input.py`](../../../../scripts/backfill_x_shortform_bundle_raw_input.py) keeps the `platform` pinned to `x` and defaults `--profile-url` to `https://x.com/<account>`, so you only need to provide the account plus bundle inputs.
+
 **Substack year backfill (full post body):** [`scripts/backfill_substack_raw_input.py`](../../../../scripts/backfill_substack_raw_input.py) — paginates `api/v1/archive`, fetches `api/v1/posts/{slug}`, writes `raw-input/<date>/substack-*.md` with optional YAML `thread: simplicius` (or other id). Treat the archive as a discovery index, not a completeness mandate: backfill the substantial posts you want preserved, and leave light or repetitive archive-visible items out when that is the better editorial call. Example:
 `python3 scripts/backfill_substack_raw_input.py --hostname simplicius76.substack.com --year 2026 --thread simplicius --apply`
 
