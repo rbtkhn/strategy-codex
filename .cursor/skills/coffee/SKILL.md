@@ -2,14 +2,14 @@
 name: coffee
 preferred_activation: coffee
 requires: [handoff-check]
-description: "Grace-Mar operator cadence and tempo. Primary trigger: coffee. Step 2 = hub AÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œE only (Steward / Engineer / Strategist / Capitalist / Conductor). Standalone Conductor (master name or conductor skill) remains separate from the hub list. Before Step 1, Recent rhythm. Signing-off: same AÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œE menu; closeout in Step 1. Coffee also acts as the default checkpointed re-entry ritual."
+description: "Grace-Mar operator cadence and tempo. Primary trigger: coffee. Step 2 = hub A-D only (Steward / Engineer / Strategist / Capitalist). Standalone Conductor (master name or conductor skill) remains separate from the hub list. Before Step 1, Recent rhythm. Signing-off: same A-D menu; closeout in Step 1. Coffee also acts as the default checkpointed re-entry ritual."
 ---
 
 # Coffee
 
 **Preferred activation (operator):** say the exact phrase **`coffee`**. Legacy **`hey`** still works as a compatibility alias, but **`coffee`** is the canonical trigger now.
 
-**Signing-off intent** (end of session, wrapping the day, stepping away) uses the **same** **`coffee`** trigger and the **same** **A, B, C, D, E** hub menu. There is **no** separate closeout branch or closeout-only menu item. **Step 1** switches to handoff-weighted output when intent is signing off; **Step 2** is unchanged.
+**Signing-off intent** (end of session, wrapping the day, stepping away) uses the **same** **`coffee`** trigger and the **same** **A, B, C, D** hub menu. There is **no** separate closeout branch or closeout-only menu item. **Step 1** switches to handoff-weighted output when intent is signing off; **Step 2** is unchanged.
 
 `coffee` is not a startup ceremony. `coffee` is a **repeatable sip of coherence**.
 
@@ -19,7 +19,7 @@ Multiple `coffee` sessions per day are normal. That is not redundancy; it is the
 
 `coffee` is also the default checkpointed re-entry ritual. In a fresh chat, it should resume from the most recent authoritative checkpoint on disk, using cadence and handoff state to recover orientation. If more than one plausible checkpoint exists, prefer the latest on-disk authority and surface the ambiguity instead of guessing. This is a checkpoint, not a transfer seal: it restores continuity, but it does not commit, push, or generate a bridge packet.
 
-**Coffee Hub Menu (terminology):** **`coffee` Step 2** fixed **AÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œE** hub (**Steward / Engineer / Strategist / Capitalist / Conductor**) is the **Coffee Hub Menu**. When routing continues into **Conductor**, resolution uses the **Master Selection Menu** (masters **A.ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œE.** ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â Toscanini ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¦ Bernstein) and then typically the **Conductor Action Menu** (three repo-grounded next moves ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â [CONDUCTOR-PASS ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â Conductor action MCQ](../../../docs/skill-work/work-coffee/CONDUCTOR-PASS.md#conductor-action-mcq)). Layer map: [CONDUCTOR-LAYER-MAP.md](../../../docs/skill-work/work-coffee/CONDUCTOR-LAYER-MAP.md).
+**Coffee Hub Menu (terminology):** **`coffee` Step 2** fixed **A-D** hub (**Steward / Engineer / Strategist / Capitalist**) is the **Coffee Hub Menu**. **Conductor** is separate and routes directly by master name, `conductor`, or the standalone conductor skill. When routing continues into **Conductor**, resolution uses the **Master Selection Menu** (masters **A.?E.** ? Toscanini ? Bernstein) and then typically the **Conductor Action Menu** (three repo-grounded next moves ? [CONDUCTOR-PASS ? Conductor action MCQ](../../../docs/skill-work/work-coffee/CONDUCTOR-PASS.md#conductor-action-mcq)). Layer map: [CONDUCTOR-LAYER-MAP.md](../../../docs/skill-work/work-coffee/CONDUCTOR-LAYER-MAP.md).
 
 ## Guardrails
 
@@ -47,9 +47,9 @@ Multiple `coffee` sessions per day are normal. That is not redundancy; it is the
 
 ## Conductor session (outside `coffee` hub menu)
 
-Use this path when the operator wants **Conductor** **without** going through **`coffee` Step 2 hub letter E**.
+Use this path when the operator wants **Conductor** without going through the coffee hub.
 
-The **five masters** (**Toscanini**, **FurtwÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¤ngler**, **Karajan**, **Kleiber**, **Bernstein**) are **not** listed as separate lines on the **`coffee`** hub ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â hub **E** is the **single** in-`coffee` slot for **Conductor continuation** after **`coffee`** Step 1. Call masters **directly** (this section) when **`coffee`** was not opened or when the operator prefers **`conductor`** / master name **instead** of **`coffee`**.
+The **five masters** (**Toscanini**, **Furtw?ngler**, **Karajan**, **Kleiber**, **Bernstein**) are **not** listed as separate lines on the **`coffee`** hub. Call masters **directly** (this section) when **`coffee`** was not opened or when the operator prefers **`conductor`** / master name instead of **`coffee`**.
 
 **Triggers (examples):** master name or prefix (**`toscanini`**, **`furtwangler`**, **`karajan`**, **`kleiber`**, **`bernstein`**), **`conductor`** with optional fragment, or plain language (**"Toscanini pass"**, **"run Kleiber on the notebook"**). If intent is unclear, ask once. **Legacy:** bare **`D`** + fragment still resolves like a conductor turn when the message is clearly conductor-only (no **`coffee`**).
 
@@ -59,9 +59,9 @@ The **five masters** (**Toscanini**, **FurtwÃƒÆ’Ã†â€™Ãƒâ€šÃ�
 
 **Standalone Conductor** (no **`coffee`** in this turn): show **`build_conductor_mcq_for_user('strategy-codex')`** when the master is **not** yet disambiguated; resolve via `resolve_d_conductor` + [work-cadence-events.md](../../../docs/skill-work/work-cadence/work-cadence-events.md).
 
-**After `conductor=<slug>` resolves** (standalone pick **or** **`coffee` hub E** auto-continue per [**ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ Hub E**](#hub-e-auto-continue)): deliver the **short** orientation in [CONDUCTOR-PASS.md](../../../docs/skill-work/work-coffee/CONDUCTOR-PASS.md) and [COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md](../../../codex/COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md). **Then, always** deliver the **Conductor action MCQ** ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â **three** **A-C** repo-grounded next moves ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â per [CONDUCTOR-PASS ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â Conductor action MCQ](../../../docs/skill-work/work-coffee/CONDUCTOR-PASS.md#conductor-action-mcq) and [conductor skill](../conductor/SKILL.md). **Skip** the action menu **only** if the operator said **"orientation only"** / **"no action menu"** in the same turn.
+**After `conductor=<slug>` resolves** (standalone pick only): deliver the **short** orientation in [CONDUCTOR-PASS.md](../../../docs/skill-work/work-coffee/CONDUCTOR-PASS.md) and [COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md](../../../codex/COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md). **Then, always** deliver the **Conductor action MCQ** ? **three** **A-C** repo-grounded next moves ? per [CONDUCTOR-PASS ? Conductor action MCQ](../../../docs/skill-work/work-coffee/CONDUCTOR-PASS.md#conductor-action-mcq) and [conductor skill](../conductor/SKILL.md). **Skip** the action menu **only** if the operator said **"orientation only"** / **"no action menu"** in the same turn.
 
-**Logging:** `log_cadence_event.py --kind coffee_pick -u strategy-codex --ok --kv picked=conductor conductor=<slug>` (e.g. `karajan`, `toscanini`). **Legacy** lines may still use `picked=D`; both are fine for rollups. **`coffee` hub letter E** uses **`picked=E conductor=<slug>`** with **`<slug>`** the resolved conductor (**auto-continued** **or** chosen after Masters MCQ) ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â see [ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ Cadence audit](#cadence-audit). **Do not** append a separate **`coffee`** event unless they actually ran `coffee` Step 1.
+**Logging:** `log_cadence_event.py --kind coffee_pick -u strategy-codex --ok --kv picked=conductor conductor=<slug>` (e.g. `karajan`, `toscanini`). **Legacy** lines may still use `picked=D`; both are fine for rollups. **Do not** append a separate **`coffee`** event unless they actually ran `coffee` Step 1.
 
 **Conductor close (optimal loop):** Same as before ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â [CONDUCTOR-CLOSE-TEMPLATE.md](../../../docs/skill-work/work-strategy/strategy-notebook/CONDUCTOR-CLOSE-TEMPLATE.md) in **`days.md`** / page **Reflection**, or **`coffee_conductor_outcome`** ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â [CONDUCTOR-IMPROVEMENT-LOOP.md](../../../docs/skill-work/work-strategy/strategy-notebook/CONDUCTOR-IMPROVEMENT-LOOP.md). For auditability, every new outcome line should carry **`conductor=<slug>`** and **`verdict=`**, plus **`notebook_ref=`** or **`falsify=`** (both preferred). If a pass ended without that line, log a repair outcome on the next turn rather than leaving the close implicit.
 
@@ -71,14 +71,14 @@ The **five masters** (**Toscanini**, **FurtwÃƒÆ’Ã†â€™Ãƒâ€šÃ�
 
 <a id="hub-e-auto-continue"></a>
 
-**Hub E (`coffee` Step 2) ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â automatic continuation:** When the operator chooses **E ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â Conductor** after **`coffee`** Step 1, **`last_logged_conductor`** from cadence (**`coffee_pick`** with **`conductor=`**) is the **default resolved slug**.
+**Standalone Conductor continuation:** When the operator chooses a master directly after **`coffee`** Step 1, **`last_logged_conductor`** from cadence (**`coffee_pick`** with **`conductor=`**) is the default resolved slug.
 
-- **If a slug exists:** **Continue that master immediately** ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â short orientation + **Conductor action MCQ** for that slug. **Do not** paste the **Masters MCQ** (`build_conductor_mcq_for_user`) row **unless** the operator asks to switch masters in the same turn (e.g. master name / prefix, ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã¢â‚¬Å“mastersÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â, ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã¢â‚¬Å“pick a cardÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â, ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã¢â‚¬Å“switchÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â) **or** cadence has **no** qualifying prior conductor.
-- **If no slug exists:** Paste **`build_conductor_mcq_for_user('strategy-codex')`** **or** prompt once for master name / **`conductor`** ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â **do not** invent a default.
+- **If a slug exists:** **Continue that master immediately** ? short orientation + **Conductor action MCQ** for that slug. **Do not** paste the **Masters MCQ** (`build_conductor_mcq_for_user`) row unless the operator asks to switch masters in the same turn (e.g. master name / prefix, ?masters?, ?pick a card?, ?switch?) or cadence has no qualifying prior conductor.
+- **If no slug exists:** Paste **`build_conductor_mcq_for_user('strategy-codex')`** or prompt once for master name / **`conductor`** ? do **not** invent a default.
 
-Optional **one line** after auto-continue prose: *Say a master name or ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã¢â‚¬Å“mastersÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â to open the five-master row instead.*
+Optional **one line** after auto-continue prose: *Say a master name or ?masters? to open the five-master row instead.*
 
-**Letter-collision:** If both the **coffee hub** and a **Conductor action MCQ** appear in one reply, **label** them ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â e.g. **`Coffee hub ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â Reply AÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œE`** vs **`Conductor action MCQ ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â Reply AÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œC (this pass)`** ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â and never use bare ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã¢â‚¬Å“pick **E**ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â without naming which menu ([CONDUCTOR-PASS.md](../../../docs/skill-work/work-coffee/CONDUCTOR-PASS.md)).
+**Letter-collision:** If both the **coffee hub** and a **Conductor action MCQ** appear in one reply, **label** them explicitly. The coffee hub no longer has an E slot, so never use bare **`pick E`** at the coffee level. If Conductor is being invoked, say that directly and name the menu ([CONDUCTOR-PASS.md](../../../docs/skill-work/work-coffee/CONDUCTOR-PASS.md)).
 
 ---
 
@@ -100,21 +100,21 @@ When the operator begins with **`coffee`** (or clearly the same intent; legacy *
 If the file is missing or empty below the anchor, state that under **Recent rhythm** and continue Step 1.
 
 ### Step 1 ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â Automated actions (one flow, two weights)
-
+### Strategist C — decision framing and next move
 **Detect intent**
+**Operator intent (grace-mar default):** **coffee → C — Strategist** does **not** auto-run daily brief and does **not** auto-offer archived Tri-Frame. It presents exactly three strategic options:
 
-- **Signing off / closeout / end of session / wrapping the day** ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ use **closeout-weighted Step 1** below.
-- Otherwise ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ **work-start Step 1** (scale with explicit phrases or weekday cadence).
+- **A. I will identify the real decision hiding inside the request so we stop solving the wrong problem.**
+- **B. I will weigh the strongest paths and the tradeoff that matters most so the choice is easier to make.**
+- **C. I will recommend the best next move and the reason it wins so you can act without second-guessing.**
 
-**Work-start Step 1** ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â run the consolidated coffee script (preferred):
+**C-A Civ-mem bridge scan** owns the grounding pass: identify the live civ-mem spine, the memory cues that matter, and the constraint map that should stay visible.
 
-```bash
-python3 scripts/operator_coffee.py -u strategy-codex                   # work-start (default)
-python3 scripts/operator_coffee.py -u strategy-codex --mode light      # lighter pass
-python3 scripts/operator_coffee.py -u strategy-codex --mode minimal    # compact harness only
-python3 scripts/operator_coffee.py -u strategy-codex --mode reentry    # cold-thread full stack
-```
+**C-B Abundance-pack OS** owns the packaging pass: convert the grounded prompt into an abundance-pack-ready shape without losing the operator's real constraints.
 
+**C-C Bridge idea pack** owns the combined pass: civ-mem first, abundance-pack OS second, then a compact bridge pack with the best next move.
+
+If **C-C Bridge idea pack** is blocked by tacit operator judgment, offer one bounded skill-elicitation checkpoint and then return to the bridge path. Do not ask elicitation questions from the coffee hub itself. Archived Tri-Frame minds **Barnes → Mearsheimer → Mercouris** stay in the legacy reference docs, not the live coffee C first screen.
 **Signing-off Step 1** ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â handoff-weighted (same trigger **`coffee`**, not a second ritual name):
 
 ```bash
@@ -141,19 +141,19 @@ For cadence tables and explicit phrase definitions (`coffee light`, `coffee mini
 
 ### Multiple coffees per day
 
-The operator may say **`coffee`** **more than once per calendar day** for reorientation. This is normal. Each new `coffee` runs Step 1 again and starts a new **A, B, C, D, E** cycle. If **`coffee`** arrives mid-hub, treat it as a **reorientation restart**: run Step 1 again, then offer a fresh menu.
+The operator may say **`coffee`** **more than once per calendar day** for reorientation. This is normal. Each new `coffee` runs Step 1 again and starts a new **A, B, C, D** cycle. If **`coffee`** arrives mid-hub, treat it as a **reorientation restart**: run Step 1 again, then offer a fresh menu.
 
 <a id="coffee-step-2-hub"></a>
 
-### Step 2 ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â Hub menu (five lines only)
+### Step 2 ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â Hub menu (four lines only)
 
-Immediately **after** Step 1 content, output the **hub** menu ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â **five lines** (**AÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œE**).
+Immediately **after** Step 1 content, output the **hub** menu ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â **four lines** (**AÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œE**).
 
-**One option per line:** Each hub letter is **its own line** ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â **`A.` ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¦ `E.`** as **five separate lines**, not multiple letters on one line and not a single paragraph listing AÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œE. (Sub-menus inside **D** **Capitalist** forks or **Steward** branches are separate from this rule when you open a follow-up.)
+**One option per line:** Each hub letter is **its own line** ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â **`A.` ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¦ `E.`** as **four separate lines**, not multiple letters on one line and not a single paragraph listing AÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œE. (Sub-menus inside **D** **Capitalist** forks or **Steward** branches are separate from this rule when you open a follow-up.)
 
-**Letter-collision:** The **Symphony masters** disambiguation row (**masters A.ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œE.**) and the **Conductor action MCQ** (**three actions A-C** for the resolved slug) use **the same letter range** as the hub. When **both** a **coffee hub** menu and a **Conductor action MCQ** could appear in one reply, **label** them explicitly ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â see [CONDUCTOR-PASS.md](../../../docs/skill-work/work-coffee/CONDUCTOR-PASS.md). **Do not** reuse bare ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã¢â‚¬Å“pick **E**ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â without naming which menu.
+**Letter-collision:** The **Symphony masters** disambiguation row (**masters A.?E.**) and the **Conductor action MCQ** (**three actions A-C** for the resolved slug) use **the same letter range** as the standalone Conductor menus. When **both** a **coffee hub** menu and a **Conductor action MCQ** could appear in one reply, **label** them explicitly ? see [CONDUCTOR-PASS.md](../../../docs/skill-work/work-coffee/CONDUCTOR-PASS.md). **Do not** reuse bare **`pick E`** without naming which menu.
 
-**Do not** append the **masters** **MCQ** row **under** the five hub lines; masters disambiguation belongs to **Conductor** turns ([ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ Conductor session (outside `coffee` hub menu)](#conductor-only-no-coffee), [CONDUCTOR-PASS.md](../../../docs/skill-work/work-coffee/CONDUCTOR-PASS.md)). **After hub E is chosen:** when **`last_logged_conductor`** resolves, **skip** the **Masters MCQ** ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â deliver orientation + **Conductor action MCQ** immediately ([**ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ Hub E ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â automatic continuation**](#hub-e-auto-continue)).
+**Do not** append the **masters** **MCQ** row **under** the four hub lines; masters disambiguation belongs to **Conductor** turns ([? Conductor session (outside `coffee` hub menu)](#conductor-only-no-coffee), [CONDUCTOR-PASS.md](../../../docs/skill-work/work-coffee/CONDUCTOR-PASS.md)).
 
 **Do not** add micro-hints, fork shorthand, or F/G/Xavier/Dev tags **under** the hub list.
 
@@ -164,10 +164,10 @@ A. Steward
 B. Engineer
 C. Strategist
 D. Capitalist ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â <one short line: work-business / grace-gems / commercial angle / bookshelf product or teaching use>
-E. Conductor
+<!-- Conductor is standalone only and does not appear as a coffee hub letter. -->
 ```
 
-**Hub line E:** **`E ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â Conductor`** only ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â **do not** preview **`last_logged_conductor`** in the hub menu copy. **`operator_coffee.py`** Step 1 prints a script section headed like `Coffee hub Step 2 ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â hub **E**` whose body is **`format_coffee_hub_e_line`** output (label only). Auto-continue behavior is unchanged ([**ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ Hub E ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â automatic continuation**](#hub-e-auto-continue)).
+**Hub lines end at D:** the coffee hub is four lines only. Conductor is standalone and does not appear as a coffee hub letter.
 
 **Filling D ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â Capitalist:** **work-business**, **grace-gems**, revenue/offers framing; **work-cici** when business/teaching-commercial; one prescribed next step. Bookshelf belongs here only when the use is **commercial / teaching / product packaging**. **Self-knowledge elicit knowledge** belongs under **C ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â Strategist**.
 
@@ -190,11 +190,11 @@ E. Conductor
 
 **Write-shaped** work is **not** an extra letter ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â it defaults under **D** when skill-write/commercial, or when the operator says **`write`** / **`skill-write`** without **`coffee`**. State it plainly in the angle-bracket line; **do not** add a separate ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã¢â‚¬Å“micro-hintsÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â row.
 
-**Filling E ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â Conductor:** Hub line is **`E ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â Conductor`** only (no last-master preview). **When the operator picks hub E:** **[`last_logged_conductor`](#hub-e-auto-continue)** **defaults** the session ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â **orientation + Conductor action MCQ** for that slug **without** interposing the **Masters MCQ**, unless cadence has **no** prior **`coffee_pick` `conductor=`** **or** the operator asks to switch masters (name / ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã¢â‚¬Å“mastersÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â / ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã¢â‚¬Å“pick a cardÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â). **If no slug:** paste **`build_conductor_mcq_for_user`** **or** prompt once ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â **do not** invent a default master.
+**Standalone Conductor:** the coffee hub ends at D. Direct Conductor activation uses a master name, `conductor`, or the standalone conductor skill.
 
 **Step 1 context for B / D:** `operator_coffee.py` prints **`Lane context (for hub B / D ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â Engineer & Capitalist hints)`** ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â two lines from `scripts/coffee_lane_next_hints.py` (work-cici + work-dev). Use when choosing **B**, **D**, or when wording those lines.
 
-**Step 1 context for hub E:** After lane hints, **`operator_coffee.py`** prints the script block that includes **`format_coffee_hub_e_line`** output ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â a single **label** line **`E ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â Conductor`** for Step 2 (no last-master preview on that line).
+**Step 1 context for standalone Conductor:** After lane hints, `operator_coffee.py` prints the four-line coffee hub only; Conductor is handled separately.
 
 **Default recommendation line:** Step 1 may print `Session load: ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¦ (recommended: X)` and `Recommended default: X ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â say "go" to accept, or pick another hub letter.` (**A** / **B** / **C**). When present, surface that recommended default once before or after the hub menu. The fixed hub menu still remains five lines only. For **Conductor** emphasis outside the hub, say **once** that **`conductor`** / master name works **without** opening **`coffee`** ([ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ Conductor session](#conductor-only-no-coffee)). **Not** micro-hints under the hub list.
 
@@ -204,21 +204,23 @@ E. Conductor
 
 - **B. Engineer** ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â **work-dev + skills/meta** (not git/ship or full membrane audits ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â those are **A**): `docs/skill-work/work-dev/` + [work-dev-sources.md](../../../docs/skill-work/work-dev/work-dev-sources.md); **skills / meta** when **`skills`** / **`meta`** with **B**. **work-cici** ops when engineering-shaped. **When hub B is chosen:** After **one short orientation line**, deliver **Engineer next moves** ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â **3ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ5 options** labeled **A through E** (**or AÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œD** if four), **each option its own line**, under an explicit heading such as **`Engineer menu ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â reply AÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œE`** ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â **not** `B1`ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ`B5` and not unlabeled lists. Each new submenu **restarts letters from A**; disambiguate from the **Coffee hub** with the menu title (same idea as **letter-collision** labeling for Conductor action MCQ vs hub). Each line is a **repo-grounded** plausible next step (work-dev wedge, script, CI, **skills** path) ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â **enumeration only** until the operator picks. Use Step 1 **`Lane context (for hub B / D)`** and [workspace.md](../../../docs/skill-work/work-dev/workspace.md) ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ **Next actions** when helpful. **Detail:** [menu-reference ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ Engineer (B) ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â detailed scope](../../../docs/skill-work/work-coffee/menu-reference.md#build-b--detailed-scope) *(legacy letter **Build** / old hub **A**).*
 
-- **C. Strategist** ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â Opens exactly three actionable options and nothing else. Do **not** auto-run the daily brief or auto-offer archived Tri-Frame before this submenu. Output:
+- **C. Strategist** ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â Opens exactly three bridge options and nothing else. Do **not** auto-run the daily brief or auto-offer archived Tri-Frame before this submenu. Output:
   - `Strategist menu ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â reply AÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œC`
   - `A. Intel ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â daily brief / current-events watch`
   - `B. Elicit knowledge ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â self-knowledge MCQs ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ IX-A candidates`
-  - `C. Bridge idea pack ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â History Notebook / Predictive History with archived Tri-Frame lenses`
+  - `C. Bridge idea pack ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â civ-mem first, then abundance-pack OS; return three bridge ideas and one recommended next move`
 
-  **C-A Intel** owns the daily brief path: generator and/or `daily-brief-YYYY-MM-DD.md`, **ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§1d** / **ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§1e** / **ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§1g** / **ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§1h** (PRC / IRI when load-bearing), optional **KY-4** (Polymarket, polls, Massie X per cadence), and optional **`last30days` frontier check** when the operator wants one fresh, source-dated scan for today's inbox. Do **not** auto-run `last30days` from coffee Step 1 or merely because C-A is opened; offer or run it only when the operator chooses Intel and the frontier is stale / explicitly requested. Output remains a short brief + optional `daily-strategy-inbox.md` one-liner, not a `days.md` / thread / gate edit. **C-B Elicit knowledge** uses [.cursor/skills/elicit-knowledge/SKILL.md](../bookshelf-knowledge-mcq-to-gate/SKILL.md): default **6** source-bound, topic-anchored MCQs from `bookshelf-quiz-anchors.yaml`, with academic inline citations visible to the operator and hidden `self-library-bookshelf` receipts in the gate, **at most two** date-primary stems, strictness default **top2**, and stage candidates only through `recursion-gate.md`; never merge without approval. **C-C Bridge idea pack** owns the next `hn-*` selection and neutral-spine setup for History Notebook / Predictive History. If the operator wants a full synthesis pass after the spine is chosen, use [daily-brief-minds-menu.md](../../../docs/skill-work/work-strategy/daily-brief-minds-menu.md) and the polyphony workflow. When C-C is blocked by ambiguous stream ownership, page shape, raw-input routing, or civ-mem lens choice, offer one bounded `skill-elicitation` checkpoint; do not run it automatically and do not add another coffee hub option. **Companion survey** still lives under C when invoked by `coffee survey`. *(Legacy hub **C ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â Strategist (bridge pack)**.)*
+  **C-A Civ-mem bridge scan** owns the daily brief path: generator and/or `daily-brief-YYYY-MM-DD.md`, **ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§1d** / **ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§1e** / **ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§1g** / **ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§1h** (PRC / IRI when load-bearing), optional **KY-4** (Polymarket, polls, Massie X per cadence), and optional **`last30days` frontier check** when the operator wants one fresh, source-dated scan for today's inbox. Do **not** auto-run `last30days` from coffee Step 1 or merely because C-A is opened; offer or run it only when the operator chooses Intel and the frontier is stale / explicitly requested. Output remains a short brief + optional `daily-strategy-inbox.md` one-liner, not a `days.md` / thread / gate edit. **C-B Abundance-pack OS** uses [.cursor/skills/elicit-knowledge/SKILL.md](../bookshelf-knowledge-mcq-to-gate/SKILL.md): default **6** source-bound, topic-anchored MCQs from `bookshelf-quiz-anchors.yaml`, with academic inline citations visible to the operator and hidden `self-library-bookshelf` receipts in the gate, **at most two** date-primary stems, strictness default **top2**, and stage candidates only through `recursion-gate.md`; never merge without approval. **C-C Bridge idea pack** owns the next `hn-*` selection and neutral-spine setup for History Notebook / Predictive History. If the operator wants a full synthesis pass after the spine is chosen, use [daily-brief-minds-menu.md](../../../docs/skill-work/work-strategy/daily-brief-minds-menu.md) and the polyphony workflow. When C-C is blocked by ambiguous stream ownership, page shape, raw-input routing, or civ-mem lens choice, offer one bounded `skill-elicitation` checkpoint; do not run it automatically and do not add another coffee hub option. **Companion survey** still lives under C when invoked by `coffee survey`. *(Legacy hub **C ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â Strategist (bridge pack)**.)*
 
 - **D. Capitalist** ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â **work-business**, **grace-gems**, revenue/offers; **work-cici** when business/teaching-commercial angle; bookshelf only for commercial / teaching / product packaging or scripted catalog stance membrane; **not** IX-A bookshelf recursion. **One** prescribed next step.
 
-- **E. Conductor** ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â **`coffee` hub E** **[auto-continues](#hub-e-auto-continue)** **`last_logged_conductor`** (orientation + **Conductor action MCQ**); hub menu line is **Conductor** only. **Not** a substitute for standalone **`conductor`** when **`coffee`** was not invoked.
+- **Conductor** ? standalone only; not part of the coffee hub.
 
-**Exit / re-offer:** After **A**, **B**, **D**, or **E**, re-offer the full **coffee** hub **AÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œE** **after** the **current** branch settles ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â **except:** when **hub E** yielded **orientation + Conductor action MCQ**, **do not** paste **coffee hub** **AÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œE** in that **same** reply ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â wait for **Reply AÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œC** against **Conductor action MCQ** (**label menus** ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â [ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ Letter-collision](#coffee-step-2-hub)); re-offer **coffee hub** on the following turn (or after Conductor closes) unless the operator exited **`coffee`**. After **C**, **exit** to normal workflow unless **`stay in coffee`**. After **A** (Steward), see [menu-reference ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ Steward follow-up fork](../../../docs/skill-work/work-coffee/menu-reference.md#steward-follow-up-fork-implement-now-vs-later) *(legacy docs may still say **B** for Steward ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â read **A**).* Synonyms **`A+ship`** / **`EXECUTE`** ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â°Ãƒâ€¹Ã¢â‚¬Â  **Implement now** on steward track. **Decision-fatigue rule:** after a hub branch opens one submenu, the next assistant turn should execute the selected item, recommend one default, or report the blocker rather than opening another broad menu.
+**Composition benchmark note:** Coffee only routes to Conductor/Kleiber; it does **not** run benchmarks directly or add a standalone benchmark hub item. In V1, Strategy-codex composition benchmarks run only from the resolved **Kleiber** Conductor action menu as fixed option **C** (`Run composition benchmark`) per [kleiber-composition-benchmark.md](../../../docs/skill-work/work-dev/kleiber-composition-benchmark.md).
 
-Legacy **AÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œG** detail tables in [menu-reference.md](../../../docs/skill-work/work-coffee/menu-reference.md) still describe **workloads**; map letters: old **Daily Brief ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ C-A Intel**, old **self-knowledge elicit knowledge ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ C-B Elicit knowledge**, old **Book / Jiang / Predictive History → C-C Bridge idea pack**, **Build ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ B**, **Steward ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ A**, commercial / teaching bookshelf uses ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ **D**, and **Symphony conductors ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ E** on hub after **`coffee`**, or **standalone** **`conductor`** / master name without **`coffee`**.
+**Exit / re-offer:** After **A**, **B**, or **D**, re-offer the full **coffee** hub **A?D** after the current branch settles. If a standalone Conductor turn was opened, stay on the Conductor track rather than re-offering coffee in the same reply. After **C**, exit to normal workflow unless **`stay in coffee`**. After **A** (Steward), see [menu-reference ? Steward follow-up fork](../../../docs/skill-work/work-coffee/menu-reference.md#steward-follow-up-fork-implement-now-vs-later) *(legacy docs may still say **B** for Steward ? read **A**).* Synonyms **`A+ship`** / **`EXECUTE`** ? **Implement now** on steward track. **Decision-fatigue rule:** after a hub branch opens one submenu, the next assistant turn should execute the selected item, recommend one default, or report the blocker rather than opening another broad menu.
+
+Legacy **AÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œG** detail tables in [menu-reference.md](../../../docs/skill-work/work-coffee/menu-reference.md) still describe **workloads**; map letters: old **Daily Brief ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ C-A Civ-mem bridge scan**, old **self-knowledge elicit knowledge ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ C-B Abundance-pack OS**, old **Book / Jiang / Predictive History → C-C Bridge idea pack**, **Build ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ B**, **Steward ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ A**, commercial / teaching bookshelf uses ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ **D**, and **Symphony conductors ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ E** on hub after **`coffee`**, or **standalone** **`conductor`** / master name without **`coffee`**.
 
 **Done when:** The operator has picked **AÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œE** (or combo), the selected branch has been executed, and the re-offer or exit rule has been applied.
 
@@ -236,7 +238,7 @@ Each successful coffee run appends one line to `docs/skill-work/work-cadence/wor
 
 **After the operator states their menu letter** (and steward track if **A**), the assistant may append a **`coffee_pick`** cadence line (same file) for rollup:  
 `python3 scripts/log_cadence_event.py --kind coffee_pick -u strategy-codex --ok --kv picked=A steward=gate --cursor-model "<from Cursor UI>"`  
-(`steward=` only when `picked=A`; values: `gate`, `template`, `integrity`, `git`, `both`, or `all`.) For **hub** picks: **`picked=A`..`E`**. **`picked=E`** should include **`conductor=<slug>`** when the Conductor master is resolved. For **Conductor sessions** outside hub letter picks: **`picked=conductor`** with **`conductor=<single-slug>`** ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â **no** `+` in new logs. Legacy files may still contain **`picked=D`** + `conductor=` or older shapes. **Optional closure after a conductor run:** `python3 scripts/log_cadence_event.py --kind coffee_conductor_outcome -u strategy-codex --ok --kv verdict=watch conductor=kleiber notebook_ref=docs/path.md` (see [CONDUCTOR-IMPROVEMENT-LOOP.md](../../../docs/skill-work/work-strategy/strategy-notebook/CONDUCTOR-IMPROVEMENT-LOOP.md) ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 3 for `notebook_ref` / `falsify` examples). Optional: `scripts/log_operator_choice.py --context COFFEE --picked A` for `session-transcript.md`.
+(`steward=` only when `picked=A`; values: `gate`, `template`, `integrity`, `git`, `both`, or `all`.) For **hub** picks: **`picked=A`..`D`**. For **Conductor sessions** outside hub letter picks: **`picked=conductor`** with **`conductor=<single-slug>`** ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â **no** `+` in new logs. Legacy files may still contain **`picked=D`** + `conductor=` or older shapes. **Optional closure after a conductor run:** `python3 scripts/log_cadence_event.py --kind coffee_conductor_outcome -u strategy-codex --ok --kv verdict=watch conductor=kleiber notebook_ref=docs/path.md` (see [CONDUCTOR-IMPROVEMENT-LOOP.md](../../../docs/skill-work/work-strategy/strategy-notebook/CONDUCTOR-IMPROVEMENT-LOOP.md) ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 3 for `notebook_ref` / `falsify` examples). Optional: `scripts/log_operator_choice.py --context COFFEE --picked A` for `session-transcript.md`.
 
 ## Related files
 
