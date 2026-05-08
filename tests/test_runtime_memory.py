@@ -39,6 +39,35 @@ def test_session_start_brief_reads_continuity_files(monkeypatch) -> None:
     assert "session-continuity-contract.md" in brief["markdown"]
 
 
+def test_get_briefing_renders_sections() -> None:
+    brief = runtime_memory.get_briefing(
+        {
+            "north_star": [{"title": "Goal", "body": "Finish the memory bridge."}],
+            "active_projects": [{"body": "Wire the session lifecycle hooks."}],
+            "decisions": [{"body": "Keep the old path compatible."}],
+            "brags": [{"body": "Shipped the first scaffold."}],
+            "thinking": [{"body": "Need a clean routing contract."}],
+            "session_events": [{"body": "session_start at 09:00Z"}],
+        },
+        session_manifest={
+            "session_id": "SES-20260507-001",
+            "fork_id": "grace-mar",
+            "started_at": "2026-05-07T09:00:00Z",
+            "ended_at": "",
+        },
+    )
+
+    assert "# Briefing" in brief
+    assert "## Session" in brief
+    assert "## North Star" in brief
+    assert "## Active Projects" in brief
+    assert "## Decisions" in brief
+    assert "## Brags" in brief
+    assert "## Thinking" in brief
+    assert "## Session Events" in brief
+    assert "north_star / active_projects / decisions -> governed_state" in brief
+
+
 def test_capture_observation_has_fingerprint_and_session() -> None:
     obs = runtime_memory.capture_observation(
         "The search found the missing transcript.",

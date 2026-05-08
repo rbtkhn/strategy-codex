@@ -38,6 +38,10 @@ The MCP-facing alias `capture_observation` maps onto the runtime observation
 builder so generic runtime captures can stay explicit without changing the OB1
 bridge contract.
 
+The runtime helper also renders `get_briefing(...)` and `standup(...)` briefs
+from structured memory surfaces, mirroring the bridge-facing briefing shape
+without becoming the bridge contract itself.
+
 They also produce a compact session-start brief from:
 
 - `session-log.md`

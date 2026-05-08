@@ -41,7 +41,7 @@ These change only through the **gated pipeline** and companion-approved merge ([
 | **Runtime observations ledger** | `runtime/observations/index.jsonl` | Append-only work-lane notes; [README](../runtime/observations/README.md); not Record |
 | **Tacit capture** | `runtime/tacit/` (`inbox/`, `normalized/`, `candidates/`, optional `index.jsonl`) | Markdown intake → JSON → review-only candidates; [README](../runtime/tacit/README.md), [doc](tacit-capture/README.md); not Record |
 | **Retrieval-miss ledger** | `runtime/retrieval-misses/index.jsonl` | Append-only retrieval-miss log for debugging; [doc](retrieval-miss-ledger.md); not Record |
-| **Runtime memory payloads** | `src/grace_mar/runtime/runtime_memory.py` | Strategy Codex runtime-only payload builders for continuity and retrieval; adjunct to the OB1 bridge; [doc](runtime/runtime-memory.md); not Record |
+| **Runtime memory payloads** | `src/grace_mar/runtime/runtime_memory.py` | Strategy Codex runtime-only payload builders for continuity, retrieval, and briefing; adjunct to the OB1 bridge; [doc](runtime/runtime-memory.md); not Record |
 | **Hybrid retrieval** | `scripts/runtime/hybrid_retrieve.py` | Non-canonical ranked search across surfaces; [doc](hybrid-retrieval.md); not Record |
 | **Chunk indexes** | `runtime/chunks/**/*.chunks.jsonl` | Generated retrieval-aid chunks; rebuildable; [doc](chunked-retrieval.md); not Record |
 | **Runtime worker** | `runtime/runtime-worker/` (`proposals/`, `traces/index.jsonl`, `receipts/`) | Disposable inspect / optional LLM summary; [doc](runtime-worker.md), [execution receipts](runtime/execution-receipts.md); not Record |

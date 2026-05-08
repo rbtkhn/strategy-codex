@@ -159,6 +159,93 @@ def build_session_start_brief(
     }
 
 
+def build_briefing(
+    structured_state: Mapping[str, Sequence[Mapping[str, Any] | str]] | None = None,
+    *,
+    session_manifest: Mapping[str, Any] | None = None,
+    title: str = "Briefing",
+    compact: bool = False,
+) -> str:
+    """Render a runtime briefing from structured memory surfaces.
+
+    This mirrors the bridge-shaped briefing output, but it stays local and
+    runtime-only so the helper can be reused without pulling in the OB1 edge
+    function contract.
+    """
+
+    state = structured_state or {}
+    lines: list[str] = [f"# {title}", ""]
+
+    if session_manifest:
+        lines.extend(["## Session", f"- session_id: {session_manifest.get('session_id', '')}"])
+        if session_manifest.get("fork_id"):
+            lines.append(f"- fork_id: {session_manifest.get('fork_id', '')}")
+        if session_manifest.get("started_at"):
+            lines.append(f"- started_at: {session_manifest.get('started_at', '')}")
+        if session_manifest.get("ended_at"):
+            lines.append(f"- ended_at: {session_manifest.get('ended_at', '')}")
+        lines.append("")
+
+    def render_items(heading: str, items: Sequence[Mapping[str, Any] | str] | None) -> None:
+        rendered: list[str] = []
+        for item in items or ():
+            if isinstance(item, str):
+                body = item.strip()
+                if body:
+                    rendered.append(f"- {body}")
+                continue
+            title_text = str(item.get("title") or item.get("name") or "").strip()
+            body = str(item.get("body") or item.get("content") or item.get("text") or "").strip()
+            if not body and title_text:
+                body = title_text
+                title_text = ""
+            if title_text and body and title_text.lower() != body.lower():
+                rendered.append(f"- {title_text} â€” {body}")
+            elif body or title_text:
+                rendered.append(f"- {body or title_text}")
+        if rendered:
+            lines.extend([f"## {heading}", *rendered, ""])
+
+    render_items("North Star", state.get("north_star"))
+    render_items("Active Projects", state.get("active_projects"))
+    render_items("Decisions", state.get("decisions"))
+    render_items("Brags", state.get("brags"))
+    render_items("Thinking", state.get("thinking"))
+    if not compact:
+        render_items("Session Events", state.get("session_events"))
+
+    lines.extend(
+        [
+            "## Compatibility Map",
+            "- north_star / active_projects / decisions -> governed_state",
+            "- brags / thinking -> prepared_context",
+            "- session_events -> evidence",
+            "",
+            "## Next Step",
+            "- Use this as the live briefing surface for the next session.",
+            "",
+        ]
+    )
+
+    return "\n".join(lines).rstrip() + "\n"
+
+
+def get_briefing(
+    structured_state: Mapping[str, Sequence[Mapping[str, Any] | str]] | None = None,
+    *,
+    session_manifest: Mapping[str, Any] | None = None,
+) -> str:
+    return build_briefing(structured_state, session_manifest=session_manifest, title="Briefing")
+
+
+def standup(
+    structured_state: Mapping[str, Sequence[Mapping[str, Any] | str]] | None = None,
+    *,
+    session_manifest: Mapping[str, Any] | None = None,
+) -> str:
+    return build_briefing(structured_state, session_manifest=session_manifest, title="Standup", compact=True)
+
+
 def build_runtime_observation(
     content: str,
     *,
