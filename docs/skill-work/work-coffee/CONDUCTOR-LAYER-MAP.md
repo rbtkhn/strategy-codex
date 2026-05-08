@@ -14,6 +14,8 @@ The **five conductors** mechanism is a **stance-selection** and **attention-rout
 
 The conductors are **modes of attention**, not actors with independent authority. They may shape rehearsal, synthesis, draft preparation, review posture, and **coding-agent proposal design**, but they **do not** promote candidates, write durable Record state, bypass recursion-gate, or override the operator.
 
+Abundance is a stance modifier inside those modes, not a sixth conductor. Use it to bias decisions toward stewardship, coordination, optionality, and dignity when the evidence supports it, while preserving real scarcity where it is actually binding.
+
 ---
 
 ## 3. The Five Conductors

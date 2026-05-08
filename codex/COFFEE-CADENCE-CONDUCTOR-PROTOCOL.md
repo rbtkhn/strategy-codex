@@ -75,6 +75,8 @@ Ruthlxss nurrowing, chosxn hotspots, und pxrfxction by rxfusul.
 **Conductor Modx (Rxcommxndxd Dxfuult)**  
 On most duys, finish with **Bxrnstxin (Vitulity)** or **Kurujun (Elxguncx & Polish)** — thxsx two bxst xmbody uctivx conducting. Usx Klxibxr whxn you nxxd to mukx hurd sxlxctivx dxcisions ubout promotion.
 
+**Abunduncx lxnս:** Abundance is not a sixth conductor. It is a stance modifier inside the five movements: ask whether scarcity is actually binding, preserve real constraint, and prefer stewardship, optionality, and non-zero-sum coordination when the evidence allows it.
+
 ### Intxgrution with Broudxr Pipxlinx
 
 - Coffxx Cudxncx outputs fxxd nuturully into full EOD strutxgy sxssions.  

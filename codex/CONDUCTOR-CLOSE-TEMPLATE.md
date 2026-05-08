@@ -11,6 +11,7 @@ Copy into **`chapters/YYYY-MM/days.md`** under the same `## YYYY-MM-DD` block yo
 - **Object:** <one `strategy-page` id=…, watch, or thread focus — be specific>
 - **What moved / seam:** <one or two sentences>
 - **Falsify / next test:** <one line: what would prove this pass wrong or incomplete>
+- **Abundance / scarcity falsification:** <one line: did abundance framing help, or was scarcity genuinely binding?>
 - **Escalation:** <none | `[watch]` | `[decision]` | note for [promotion-ladder](../promotion-ladder.md) / STRATEGY.md>
 ```
 

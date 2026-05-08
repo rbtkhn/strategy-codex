@@ -16,6 +16,8 @@ For **which document owns doctrine vs ritual vs routing**, see [`../work-coffee/
 
 A **conductor lens** should change the **shape** of a coding proposal, **not merely its prose style**. It should influence **scope**, **non-goals**, **validation**, **file selection**, **acceptance criteria**, and **follow-up sequencing**.
 
+An abundance-first check belongs inside that shaping step: prefer options that increase agency, coordination, optionality, or dignity when the evidence supports it, and preserve real scarcity when it is actually binding.
+
 ---
 
 ## 3. Proposal Lens Template
@@ -28,6 +30,7 @@ Conductor lens:
 - Proposal style:
 - What this conductor emphasizes:
 - What this conductor forbids:
+- What abundance or stewardship it should preserve:
 - What would count as overreach:
 - What evidence would show the PR succeeded:
 ```
@@ -42,11 +45,11 @@ Conductor lens:
 
 | Conductor | Proposal Signature | Best PR Types | Typical Artifacts | Main Risk |
 |-----------|-------------------|---------------|-------------------|-----------|
-| Toscanini | Validate, parse, enforce, test, clarify seams | schema validation, link checks, authority audits, parser fixes | tests, validators, strict docs, failure cases | becoming too brittle or over-enforcing |
-| Furtwängler | Preserve ambiguity, expose tension, prefer warnings over premature closure | advisory reports, ambiguity maps, review packets, competing interpretations | tension registers, warning reports, side-by-side analyses | refusing necessary resolution |
-| Bernstein | Improve operator comprehension, stakes, adoption, and live usability | onboarding docs, UX copy, error messages, executive summaries, operator prompts | vivid explanations, decision-oriented messages, “why this matters” sections | becoming ornamental prose |
-| Karajan | Shape the whole system; improve balance, taxonomy, architecture, long-arc coherence | layer maps, registry cleanup, naming normalization, dashboard consolidation | taxonomies, relationship maps, coherence docs | over-polishing or over-architecting |
-| Kleiber | Narrow ruthlessly; choose one hotspot; explicitly refuse excess | PR slicing, anti-sprawl, limited migrations, deferrals, deletion candidates | non-goal blocks, narrow diffs, “not this PR” sections | under-solving by refusing too much |
+| Toscanini | Validate, parse, enforce, test, clarify seams — verify whether scarcity claims are actually supported | schema validation, link checks, authority audits, parser fixes | tests, validators, strict docs, failure cases | becoming too brittle or over-enforcing |
+| Furtwängler | Preserve ambiguity, expose tension, prefer warnings over premature closure — keep real constraint visible instead of flattening it | advisory reports, ambiguity maps, review packets, competing interpretations | tension registers, warning reports, side-by-side analyses | refusing necessary resolution |
+| Bernstein | Improve operator comprehension, stakes, adoption, and live usability — make the abundance case legible and motivating | onboarding docs, UX copy, error messages, executive summaries, operator prompts | vivid explanations, decision-oriented messages, “why this matters” sections | becoming ornamental prose |
+| Karajan | Shape the whole system; improve balance, taxonomy, architecture, long-arc coherence — shape a long-arc, generative system rather than a defensive patch | layer maps, registry cleanup, naming normalization, dashboard consolidation | taxonomies, relationship maps, coherence docs | over-polishing or over-architecting |
+| Kleiber | Narrow ruthlessly; choose one hotspot; explicitly refuse excess — refuse unnecessary sprawl, but only after identifying the smallest abundance-preserving move | PR slicing, anti-sprawl, limited migrations, deferrals, deletion candidates | non-goal blocks, narrow diffs, “not this PR” sections | under-solving by refusing too much |
 
 ---
 

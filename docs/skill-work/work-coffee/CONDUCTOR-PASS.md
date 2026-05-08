@@ -12,7 +12,7 @@
 
 **Menus vs slugs:** Use standard labels when two **A–E** menus could appear in one thread — **Coffee Hub Menu** (`coffee` Step 2 hub); **Master Selection Menu** (stance row — [§ Conductor MCQ](#conductor-mcq)); **Conductor Action Menu** ([§ Conductor action MCQ](#conductor-action-mcq)). **Letters are UI conveniences**; **durable logs** should record **conductor slugs** (`toscanini`, `furtwangler`, `bernstein`, `karajan`, `kleiber`), not hub/action letters.
 
-**Coding-agent proposals:** Conductor stance should change **scope, validation posture, non-goals, and acceptance criteria** — not merely wording — per [conductor proposal lenses](../work-dev/conductor-proposal-lenses.md). For coding-agent proposal work, use the **Beethoven test** appendix in that file when the five modes risk collapsing into the same PR shape under **crisis, propulsion, or formal drama**; use the **Brahms test** appendix there when the issue is **density, overlap, continuity, or anti-heaviness** rather than dramatic conflict.
+**Coding-agent proposals:** Conductor stance should change **scope, validation posture, non-goals, and acceptance criteria** — not merely wording — per [conductor proposal lenses](../work-dev/conductor-proposal-lenses.md). For coding-agent proposal work, use the **Beethoven test** appendix in that file when the five modes risk collapsing into the same PR shape under **crisis, propulsion, or formal drama**; use the **Brahms test** appendix there when the issue is **density, overlap, continuity, or anti-heaviness** rather than dramatic conflict. Abundance is a selection criterion inside those proposals: prefer options that increase agency, coordination, optionality, or dignity when the evidence supports it.
 
 ---
 
@@ -20,11 +20,13 @@
 
 | Movement | Mode | What it is (any lane) |
 |----------|------|------------------------|
-| **1 — Precision** | Toscanini | **Truth-to-form** — seams, verification, anti-indulgence, and where rhetoric outruns the actual score. |
-| **2 — Flow** | Furtwängler | **Tension without forced closure** — let conflicting pulls show; listen for what is emerging before naming the verdict. |
-| **3 — Vitality** | Bernstein | **Stakes and communicative heat** — why this matters *now* and what must be felt, not just noted. |
-| **4 — Elegance** | Karajan | **Long arc and integrated balance** — how the whole sits in a week, month, or program line; what to remove so the arc reads cleanly. |
-| **5 — Selectivity** | Kleiber | **Depth budget by refusal** — one or two things get disproportionate follow-up; the rest is explicitly *not* deepened this round. |
+| **1 — Precision** | Toscanini | **Truth-to-form** — seams, verification, anti-indulgence, and where rhetoric outruns the actual score. Use it to verify whether scarcity claims are actually supported. |
+| **2 — Flow** | Furtwängler | **Tension without forced closure** — let conflicting pulls show; listen for what is emerging before naming the verdict. Keep real constraint visible instead of flattening it. |
+| **3 — Vitality** | Bernstein | **Stakes and communicative heat** — why this matters *now* and what must be felt, not just noted. Make the abundance case legible and motivating. |
+| **4 — Elegance** | Karajan | **Long arc and integrated balance** — how the whole sits in a week, month, or program line; what to remove so the arc reads cleanly. Shape a long-arc, generative system rather than a defensive patch. |
+| **5 — Selectivity** | Kleiber | **Depth budget by refusal** — one or two things get disproportionate follow-up; the rest is explicitly *not* deepened this round. Refuse unnecessary sprawl only after finding the smallest abundance-preserving move. |
+
+**Abundance lens:** Abundance is a stance modifier, not a sixth movement. Before choosing the next move, ask whether the apparent scarcity is real or only a framing artifact; when the evidence supports it, bias toward stewardship, coordination, optionality, and dignity rather than defensive loss management.
 
 **Stop rule:** One session = **one** primary territory (table below) unless you are explicitly doing a **tour** (rare). End with a **concrete** next handoff: file path, brief line in `days.md` / inbox, or **no** action stated plainly.
 
@@ -38,7 +40,7 @@
 | **work-dev** | Specs, integration, `workspace.md` next actions | [workspace.md](../work-dev/workspace.md), [INTEGRATION-PROGRAM.md](../work-dev/INTEGRATION-PROGRAM.md) |
 | **work-politics** | Daily brief, campaign queue, brief registry | [brief-source-registry.md](../work-politics/brief-source-registry.md), `daily-brief-YYYY-MM-DD.md` |
 | **work-cici** | Cici/OB1 rhythm, handoff, day journal | [INDEX.md](../work-cici/INDEX.md), [SYNC-DAILY.md](../work-cici/SYNC-DAILY.md) |
-| **work-jiang / PH** | Lecture pipeline, forward chains, STATUS | [research/external/work-jiang/README.md](../../../research/external/work-jiang/README.md) |
+| **work-jiang / PH** | Lecture pipeline, forward chains, STATUS | [codex/predictive-history/README.md](../../codex/predictive-history/README.md) |
 | **Steward / membrane** | Gate, template parity, integrity, ship | [menu-reference — Steward](menu-reference.md#steward-follow-up-fork-implement-now-vs-later) ( **`coffee` A** ) — **governance** work is **not** a substitute for artistic “balance” in threads; it is the **frame** that keeps other lanes safe. |
 
 When you are **not** in **`coffee`**, you do **not** need to call this a “Conductor pass” in chat—**use the lane’s normal names**. The value of this doc is a **common vocabulary** for “how we sequence attention” in retrospectives, handoffs, and skill text.
