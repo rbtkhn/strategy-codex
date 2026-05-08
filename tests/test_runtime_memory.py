@@ -13,6 +13,17 @@ if str(SRC) not in sys.path:
 from grace_mar.runtime import runtime_memory  # noqa: E402
 
 
+def test_runtime_use_cases_list_the_expected_workflow_surfaces() -> None:
+    names = [case["name"] for case in runtime_memory.RUNTIME_USE_CASES]
+    assert names == [
+        "session_start_briefing",
+        "post_tool_context_capture",
+        "decision_capture",
+        "retrieval_miss_logging",
+        "wrap_up_handoff",
+    ]
+
+
 def test_session_start_brief_reads_continuity_files(monkeypatch) -> None:
     contents = {
         (REPO_ROOT / "session-log.md").resolve(): "session log\nline 2\n",
@@ -66,6 +77,20 @@ def test_get_briefing_renders_sections() -> None:
     assert "## Thinking" in brief
     assert "## Session Events" in brief
     assert "north_star / active_projects / decisions -> governed_state" in brief
+
+
+def test_standup_omits_session_events() -> None:
+    standup = runtime_memory.standup(
+        {
+            "thinking": [{"body": "Keep the wedge small."}],
+            "session_events": [{"body": "session_start at 09:00Z"}],
+        },
+        session_manifest={"session_id": "SES-20260507-002"},
+    )
+
+    assert "# Standup" in standup
+    assert "## Thinking" in standup
+    assert "## Session Events" not in standup
 
 
 def test_capture_observation_has_fingerprint_and_session() -> None:

@@ -27,6 +27,18 @@ not to create another Record.
 
 The runtime helpers live in `src/grace_mar/runtime/runtime_memory.py`.
 
+### Helper map
+
+- `build_session_start_brief(...)` -> session start briefing
+- `capture_observation(...)` -> post-tool context capture
+- `capture_decision(...)` -> decision capture
+- `capture_brag(...)` -> brag / performance capture
+- `log_retrieval_miss(...)` -> retrieval miss logging
+- `get_briefing(...)` -> full briefing surface
+- `standup(...)` -> compact briefing surface
+- `wrap_up(...)` -> session closeout payload
+- `build_sync_receipt(...)` -> Git-to-runtime audit receipt
+
 They build payloads for:
 
 - `runtime_observations`
