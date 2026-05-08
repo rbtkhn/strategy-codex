@@ -25,6 +25,11 @@ Xavier’s OB1 **instance** repo **[Xavier-x01/Cici](https://github.com/Xavier-x
 
 This constraint is non-negotiable. Every document, script, and test in this integration must preserve it.
 
+The local repo now carries a reference scaffold for a structured-memory MCP
+bridge under `bridges/supabase/` and the contract doc
+[structured-memory-mcp.md](structured-memory-mcp.md). Those files define the
+live-memory extension point without turning OB1 into the Record.
+
 ---
 
 ## Documents
@@ -35,6 +40,7 @@ This constraint is non-negotiable. Every document, script, and test in this inte
 | [adr-asymmetric-bridge.md](adr-asymmetric-bridge.md) | Architecture Decision Record: why asymmetric, why stage-only return |
 | [operator-runbook.md](operator-runbook.md) | Manual operator workflows for export and import-staging |
 | [mapping.md](mapping.md) | Canonical object schemas for export bundles and import proposals; **conceptual map** [OB1, Cici, grace-mar](mapping.md#conceptual-map-ob1-cici-grace-mar) |
+| [structured-memory-mcp.md](structured-memory-mcp.md) | Structured memory bridge contract: session lifecycle hooks, routing, compatibility views, and MCP tool names |
 | [trust-tiers.md](trust-tiers.md) | Trust classification system with handling rules per tier |
 
 ### Upstream OB1 (reference spot-check)

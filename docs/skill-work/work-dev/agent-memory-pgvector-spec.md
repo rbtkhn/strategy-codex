@@ -2,7 +2,7 @@
 
 **Territory:** work-dev (WORK / infrastructure). **Not** companion Record; facts about the companion still use RECURSION-GATE. **Companion:** [AGENTS.md](../../../AGENTS.md), [openclaw-integration.md](../../openclaw-integration.md).
 
-**Implements:** the flaw-fix plan for persistent chunked memory (hybrid retrieval, audit trail, reflection governance, dual-repo scope). **Canonical SQL:** [sql/agent_memory_v1_initial.sql](sql/agent_memory_v1_initial.sql).
+**Implements:** the flaw-fix plan for persistent chunked memory (hybrid retrieval, audit trail, reflection governance, dual-repo scope). **Canonical SQL:** [sql/agent_memory_v1_initial.sql](sql/agent_memory_v1_initial.sql). **Structured-memory v2 bridge contract:** [../../integrations/ob1/structured-memory-mcp.md](../../integrations/ob1/structured-memory-mcp.md).
 
 ---
 
@@ -195,3 +195,4 @@ Dual-repo rules in [docs/operator-agent-lanes.md](../../operator-agent-lanes.md)
 | Date | Change |
 |------|--------|
 | 2026-04-04 | Initial spec + `sql/agent_memory_v1_initial.sql` from flaw-fix plan. |
+| 2026-05-07 | Added cross-reference to the structured-memory MCP bridge contract and live scaffold. |
