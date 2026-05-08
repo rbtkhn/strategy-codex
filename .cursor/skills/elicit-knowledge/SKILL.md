@@ -69,8 +69,8 @@ Each staged candidate should include:
 ## Commands
 
 ```bash
-python3 scripts/check_gate_merge_readiness.py -u grace-mar
-python3 scripts/check_gate_merge_readiness.py -u grace-mar --strict
+python3 scripts/check_gate_merge_readiness.py -u strategy-codex
+python3 scripts/check_gate_merge_readiness.py -u strategy-codex --strict
 ```
 
 ## Fail conditions (must fix before approval recommendation)

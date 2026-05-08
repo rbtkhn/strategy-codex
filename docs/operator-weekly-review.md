@@ -2,7 +2,7 @@
 
 **Purpose:** Recommended rhythm for operators to maintain the pipeline and keep the Record current. Adapted from Second Brain patterns — see [SECOND-BRAIN-PATTERNS](second-brain-patterns.md) §4.
 
-**Governed by:** [GRACE-MAR-CORE v2.0](grace-mar-core.md)
+**Governed by:** the single-operator core
 
 ---
 
@@ -21,7 +21,7 @@ Block time weekly — e.g. Sunday evening or Monday morning. All steps optional 
 | 5 | **Intake vs IX (when you read/studied with the companion)** — (1) Log **READ-*** (or relevant evidence) and update **skill-think** if needed. (2) **Separately** stage/approve **RECURSION-GATE** candidates for IX-A/B/C if you want those facts or interests in SELF. THINK does not auto-merge to IX. See [we-read-think-self-pipeline.md](we-read-think-self-pipeline.md). | ~5 min |
 | 6 | **Optional: Gap Hunter** — When reviewing an exchange, ask: *What's missing in the Record for this exchange?* Surfaces candidates the analyst might have missed. Stage to RECURSION-GATE if you find gaps. | ~5 min |
 | 7 | **Optional: PRP refresh** — If merges were applied, run `python scripts/export_prp.py -o self-llm.txt` and commit. Keeps the anchor in sync. | ~2 min |
-| 8 | **Optional: Template sync** — When companion-self (template) has been updated, pull upgrades into grace-mar per [MERGING-FROM-COMPANION-SELF](merging-from-companion-self.md): diff template paths, merge into grace-mar's docs, validate, log the sync. Not needed every week; do when template or instance governance changes. | ~10 min |
+| 8 | **Optional: Template sync** — When companion-self (template) has been updated, pull upgrades into the single-operator repo per [MERGING-FROM-COMPANION-SELF](merging-from-companion-self.md): diff template paths, merge into the repo's docs, validate, log the sync. Not needed every week; do when template or instance governance changes. | ~10 min |
 | 9 | **Optional: Growth / density pulse** — `python scripts/measure_growth_and_density.py` (add `--min-avg-words N` for automation). Optional: `python scripts/measure_uniqueness.py`. | ~2 min |
 
 ---

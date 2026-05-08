@@ -17,10 +17,10 @@ Use this skill when the operator wants to pause or resume work without losing th
 ## Default command
 
 ```bash
-python3 scripts/operator_handoff_check.py -u grace-mar
+python3 scripts/operator_handoff_check.py -u strategy-codex
 ```
 
-**Cold-thread stack (optional):** `python3 scripts/operator_reentry_stack.py -u grace-mar` runs handoff check, then `operator_daily_warmup.py`, then `harness_warmup.py` (add `--compact` for a shorter harness). **One-line snapshot:** `python3 scripts/harness_warmup.py -u grace-mar --receipt`. See `bootstrap/grace-mar-bootstrap.md` Â§ Re-entry stack.
+**Cold-thread stack (optional):** `python3 scripts/operator_reentry_stack.py -u strategy-codex` runs handoff check, then `operator_daily_warmup.py`, then `harness_warmup.py` (add `--compact` for a shorter harness). **One-line snapshot:** `python3 scripts/harness_warmup.py -u strategy-codex --receipt`. See the legacy re-entry stack notes.
 
 ## What to return
 

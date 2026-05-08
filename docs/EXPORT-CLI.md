@@ -2,7 +2,7 @@
 
 **Purpose:** One entrypoint that **dispatches** to existing `scripts/export_*.py` modules via subprocess (v1). Does not reimplement fork loading.
 
-**Default profile (M1):** If the child invocation has no `-u` / `--user`, `export.py` injects `-u` using, in order: explicit `export.py -u`, then `GRACE_MAR_USER_ID`, then repo heuristic (`strategy-codex` when `self.md` exists, else `_template`).
+**Default profile (M1):** If the child invocation has no `-u` / `--user`, `export.py` injects `-u` using, in order: explicit `export.py -u`, then the configured root profile id, then repo heuristic (`strategy-codex` when `self.md` exists, else `_template`).
 
 **Forwarding (M2):** Use `--` to pass flags to the target script verbatim:
 

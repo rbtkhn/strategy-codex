@@ -47,10 +47,10 @@ When a Conductor turn becomes cleanup or hardening work, declare the family befo
 ## One-liner commands
 
 ```bash
-python3 -c "from scripts.cadence_conductor_resolution import build_conductor_mcq_for_user; print(build_conductor_mcq_for_user('grace-mar'))"
-python3 -c "from scripts.cadence_conductor_resolution import build_conductor_revisit_block; print(build_conductor_revisit_block('grace-mar'))"
-python3 scripts/log_cadence_event.py --kind coffee_pick -u grace-mar --ok --kv picked=conductor conductor=<slug> --cursor-model "<from Cursor UI>"
-python3 scripts/log_cadence_event.py --kind coffee_conductor_outcome -u grace-mar --ok --kv verdict=watch conductor=kleiber notebook_ref=<path-or-fragment>
+python3 -c "from scripts.cadence_conductor_resolution import build_conductor_mcq_for_user; print(build_conductor_mcq_for_user('strategy-codex'))"
+python3 -c "from scripts.cadence_conductor_resolution import build_conductor_revisit_block; print(build_conductor_revisit_block('strategy-codex'))"
+python3 scripts/log_cadence_event.py --kind coffee_pick -u strategy-codex --ok --kv picked=conductor conductor=<slug> --cursor-model "<from Cursor UI>"
+python3 scripts/log_cadence_event.py --kind coffee_conductor_outcome -u strategy-codex --ok --kv verdict=watch conductor=kleiber notebook_ref=<path-or-fragment>
 ```
 
 ## Related

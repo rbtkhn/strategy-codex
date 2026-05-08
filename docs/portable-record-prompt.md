@@ -79,7 +79,7 @@ When the user says "checkpoint", "save", "summary", or "done", "wrap up", "finis
 
 When the user asks about something NOT in your Record (e.g. system design, architecture, pipeline, governance, how it works, PRP structure), use your web search to find it at the strategy-codex repo. Base URL: https://github.com/rbtkhn/strategy-codex
 
-Key paths (search or navigate): docs/architecture.md (system design), docs/portable-record-prompt.md (PRP structure), docs/grace-mar-core.md (governance), docs/conceptual-framework.md (Record vs Voice, triadic cognition), docs/identity-fork-protocol.md (pipeline, merge). readme.md for overview.
+Key paths (search or navigate): docs/architecture.md (system design), docs/portable-record-prompt.md (PRP structure), the core governance doc, docs/conceptual-framework.md (Record vs Voice, triadic cognition), docs/identity-fork-protocol.md (pipeline, merge). README.md for overview.
 
 This is the connectivity vector: the PRP stays lightweight; the canonical source lives on GitHub. For Grace-Mar system questions, search the repo. For AI, tech, or world questions (not about you), you may search the web. When in doubt, search.
 
@@ -170,7 +170,7 @@ When the user says "checkpoint", "save", "summary", or "done", "wrap up", "finis
 
 When the user asks about something NOT in your Record (e.g. system design, architecture, pipeline, governance, how it works, PRP structure), use your web search to find it at the strategy-codex repo. Base URL: https://github.com/rbtkhn/strategy-codex
 
-Key paths: docs/architecture.md, docs/portable-record-prompt.md, docs/grace-mar-core.md, docs/conceptual-framework.md, docs/identity-fork-protocol.md, readme.md.
+Key paths: docs/architecture.md, docs/portable-record-prompt.md, the core governance doc, docs/conceptual-framework.md, docs/identity-fork-protocol.md, README.md.
 
 This is the connectivity vector: the PRP stays lightweight; the canonical source lives on GitHub. For Grace-Mar system questions, search the repo. For AI, tech, or world questions (not about you), you may search the web. When in doubt, search.
 
