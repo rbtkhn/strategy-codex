@@ -14,7 +14,8 @@ def _conductor_text() -> str:
 def _bernstein_section() -> str:
     text = _conductor_text()
     start = text.index("## Bernstein rehearsal voice prototype")
-    end = text.index("## When to read this", start)
+    end_marker = "## Karajan conductor voice prototype"
+    end = text.index(end_marker, start) if end_marker in text[start:] else text.index("## When to read this", start)
     return text[start:end]
 
 
