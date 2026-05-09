@@ -105,16 +105,17 @@ def test_karajan_guardrails_reject_biographical_caricature() -> None:
         assert phrase in section
 
 
-def test_karajan_examples_pin_three_contexts_and_three_action_options() -> None:
+def test_karajan_examples_pin_three_contexts_and_four_movement_options() -> None:
     section = _karajan_section()
 
     assert "**Technical/code example**" in section
     assert "**Documentation/governance example**" in section
     assert "**Strategy/workflow example**" in section
-    assert section.count("**Conductor action MCQ - Reply A-C for this `karajan` pass**") == 3
-    assert section.count("\nA. ") == 3
-    assert section.count("\nB. ") == 3
-    assert section.count("\nC. ") == 3
+    assert section.count("**Conductor action MCQ - Reply A-D for this `karajan` pass**") == 3
+    assert section.count("\nA. Allegro: ") == 3
+    assert section.count("\nB. Andante: ") == 3
+    assert section.count("\nC. Scherzo: ") == 3
+    assert section.count("\nD. Finale: ") == 3
 
 
 def test_non_prototype_conductor_shape_hints_remain_concise() -> None:

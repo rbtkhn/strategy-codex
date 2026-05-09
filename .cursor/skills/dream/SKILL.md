@@ -120,7 +120,7 @@ This is a maintenance pass, not a merge pass.
 
 **Conductor compression:** Successful dream handoff may also include **`conductor_rollup_24h`**: a WORK-only compression of recent Conductor picks and outcomes (`last_master`, `completed_passes`, `orientation_only`, `off_menu_refusals`, recent commits/falsifiers, and a one-line echo for coffee). This is compression, not continuation: dream does not generate fresh Conductor options, does not auto-compose notebooks, and treats off-menu/no-action outcomes as parked/refused telemetry rather than as another menu choice.
 
-**Kleiber benchmark carry-forward:** Dream may carry forward composition benchmark residue only when a Kleiber benchmark result is `Open`, `Broke`, or `Weakened` twice on the same scoring dimension. Dream does **not** generate benchmark prompts, run benchmarks, or add a benchmark route outside Kleiber option C. Protocol: [kleiber-composition-benchmark.md](../../../docs/skill-work/work-dev/kleiber-composition-benchmark.md).
+**Kleiber benchmark carry-forward:** Dream may carry forward composition benchmark residue only when a Kleiber benchmark result is `Open`, `Broke`, or `Weakened` twice on the same scoring dimension. Dream does **not** generate benchmark prompts, run benchmarks, or add a benchmark route outside Kleiber **D. Finale**. Protocol: [kleiber-composition-benchmark.md](../../../docs/skill-work/work-dev/kleiber-composition-benchmark.md).
 
 ## What to return
 
@@ -305,13 +305,13 @@ Usually one `dream` session per day is normal.
 
 ## Cadence choreography
 
-`coffee`, `dream`, and `bridge` form Grace-Mar's cadence triad. **Mid-day depth:** **`coffee` hub E â€” Conductor** after **`coffee`** Step 1, or **standalone** **Conductor** ([conductor SKILL](../conductor/SKILL.md)) via master name / **`conductor`** without opening **`coffee`** â€” orientation + action MCQ + optional close. **`thanks`** is **deprecated** as a primary operator beat ([thanks SKILL](../thanks/SKILL.md)); prefer **conductor** or **`coffee` light/minimal** for pauses and re-grounding.
+`coffee`, `dream`, and `bridge` form Grace-Mar's cadence triad. **Mid-day depth:** **standalone** **Conductor** ([conductor SKILL](../conductor/SKILL.md)) via master name / **`conductor`** without opening **`coffee`** - orientation + Conductor Action Menu + optional close. The Coffee Hub Menu remains A-D and does not run benchmarks. **`thanks`** is **deprecated** as a primary operator beat ([thanks SKILL](../thanks/SKILL.md)); prefer **conductor** or **`coffee` light/minimal** for pauses and re-grounding.
 
 | Time | Ritual | What it does |
 |------|--------|-------------|
 | **Morning** | `coffee` (work-start) | Read dream handoff, grounding scripts, fixed coffee menu (**Aâ€“E**) |
 | **During day** | `coffee` (reorientation) | Re-sip as needed â€” many per day is normal |
-| **During day** | `conductor` / hub **E** (Symphony / execution emphasis) | Master pick â†’ orientation â†’ Conductor action MCQ; `coffee_pick` + optional `coffee_conductor_outcome` â€” see [CONDUCTOR-PASS.md](../../../docs/skill-work/work-coffee/CONDUCTOR-PASS.md) |
+| **During day** | `conductor` / master name (Symphony / execution emphasis) | Master pick -> orientation -> Conductor Action Menu; `coffee_pick` + optional `coffee_conductor_outcome` - see [CONDUCTOR-PASS.md](../../../docs/skill-work/work-coffee/CONDUCTOR-PASS.md) |
 | **End of day** | `dream` | Memory normalization, integrity, governance, contradiction digest; optional strategy-notebook **FYI** + **Cici notebook** day file generation (see Â§Â§ Strategy notebook, Cici notebook) |
 | **Session close** | `bridge` | Seal repos (commit/push), synthesize transfer prompt for next session |
 

@@ -11,7 +11,7 @@ docs/skill-work/work-dev/kleiber-composition-benchmark.md
 V1 benchmark execution route:
 
 ```text
-Kleiber Conductor action menu -> C. Run composition benchmark
+Kleiber Conductor Action Menu -> D. Finale: Run composition benchmark
 ```
 
 Coffee may route to Kleiber, and dream may carry forward eligible results, but neither runs benchmarks directly.

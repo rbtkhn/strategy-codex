@@ -13,8 +13,8 @@ Kleiber owns this benchmark because the work needs selectivity: one bounded harn
 V1 benchmarks run from exactly one place:
 
 ```text
-Conductor action MCQ - Reply A-C for this kleiber pass
-C. Run composition benchmark - execute one Strategy-codex composition benchmark and close with Held / Weakened / Broke / Open
+Conductor action MCQ - Reply A-D for this kleiber pass
+D. Finale: Run composition benchmark - execute one Strategy-codex composition benchmark and close with Held / Weakened / Broke / Open
 ```
 
 Coffee may route to Conductor/Kleiber, but coffee does not run benchmarks directly. Dream may carry forward benchmark results, but dream does not generate or run benchmarks.

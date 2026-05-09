@@ -102,22 +102,23 @@ def test_kleiber_guardrails_reject_caricature_and_evasive_whimsy() -> None:
         "Do not invent quotes or lean on specific cultural references as costume",
         "No whimsy without falsification",
         "Avoid heavy literary allusion in v1",
-        "the three A-C choices must remain concrete",
+        "the four A-D movement choices must remain concrete",
     ]
     for phrase in guardrails:
         assert phrase in section
 
 
-def test_kleiber_examples_pin_three_contexts_and_three_action_options() -> None:
+def test_kleiber_examples_pin_three_contexts_and_four_movement_options() -> None:
     section = _kleiber_section()
 
     assert "**Technical/code example**" in section
     assert "**Documentation/governance example**" in section
     assert "**Strategy/workflow example**" in section
-    assert section.count("**Conductor action MCQ - Reply A-C for this `kleiber` pass**") == 3
-    assert section.count("\nA. ") == 3
-    assert section.count("\nB. ") == 3
-    assert section.count("\nC. ") == 3
+    assert section.count("**Conductor action MCQ - Reply A-D for this `kleiber` pass**") == 3
+    assert section.count("\nA. Allegro: ") == 3
+    assert section.count("\nB. Andante: ") == 3
+    assert section.count("\nC. Scherzo: ") == 3
+    assert section.count("\nD. Finale: ") == 3
 
 
 def test_concise_non_voice_rows_remain_unchanged() -> None:

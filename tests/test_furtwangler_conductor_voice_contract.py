@@ -118,22 +118,23 @@ def test_furtwangler_guardrails_reject_vague_depth_and_false_closure() -> None:
         "Do not romanticize ambiguity",
         "If evidence decides the issue, let Toscanini win",
         "the function is unresolved tension before synthesis",
-        "The A-C menu must remain concrete",
+        "The A-D movement menu must remain concrete",
     ]
     for phrase in guardrails:
         assert phrase in section
 
 
-def test_furtwangler_examples_pin_three_contexts_and_three_action_options() -> None:
+def test_furtwangler_examples_pin_three_contexts_and_four_movement_options() -> None:
     section = _furtwangler_section()
 
     assert "**Technical/code example**" in section
     assert "**Documentation/governance example**" in section
     assert "**Strategy/workflow example**" in section
-    assert section.count("**Conductor action MCQ - Reply A-C for this `furtwangler` pass**") == 3
-    assert section.count("\nA. ") == 3
-    assert section.count("\nB. ") == 3
-    assert section.count("\nC. ") == 3
+    assert section.count("**Conductor action MCQ - Reply A-D for this `furtwangler` pass**") == 3
+    assert section.count("\nA. Allegro: ") == 3
+    assert section.count("\nB. Andante: ") == 3
+    assert section.count("\nC. Scherzo: ") == 3
+    assert section.count("\nD. Finale: ") == 3
 
 
 def test_all_five_voice_prototypes_are_present_with_stable_rows() -> None:

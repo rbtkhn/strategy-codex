@@ -68,16 +68,17 @@ def test_bernstein_musicology_is_clarity_first_not_caricature() -> None:
     assert "state it plainly" in section
 
 
-def test_bernstein_examples_pin_three_contexts_and_three_action_options() -> None:
+def test_bernstein_examples_pin_three_contexts_and_four_movement_options() -> None:
     section = _bernstein_section()
 
     assert "**Technical/code example**" in section
     assert "**Documentation/governance example**" in section
     assert "**Strategy/workflow example**" in section
-    assert section.count('**Conductor action MCQ - Reply A-C for this `bernstein` pass**') == 3
-    assert section.count("\nA. ") == 3
-    assert section.count("\nB. ") == 3
-    assert section.count("\nC. ") == 3
+    assert section.count('**Conductor action MCQ - Reply A-D for this `bernstein` pass**') == 3
+    assert section.count("\nA. Allegro: ") == 3
+    assert section.count("\nB. Andante: ") == 3
+    assert section.count("\nC. Scherzo: ") == 3
+    assert section.count("\nD. Finale: ") == 3
 
 
 def test_other_conductor_shape_hints_remain_concise() -> None:

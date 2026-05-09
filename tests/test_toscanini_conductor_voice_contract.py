@@ -125,16 +125,17 @@ def test_toscanini_guardrails_reject_abusive_caricature() -> None:
         assert phrase in section
 
 
-def test_toscanini_examples_pin_three_contexts_and_three_action_options() -> None:
+def test_toscanini_examples_pin_three_contexts_and_four_movement_options() -> None:
     section = _toscanini_section()
 
     assert "**Technical/code example**" in section
     assert "**Documentation/governance example**" in section
     assert "**Strategy/workflow example**" in section
-    assert section.count("**Conductor action MCQ - Reply A-C for this `toscanini` pass**") == 3
-    assert section.count("\nA. ") == 3
-    assert section.count("\nB. ") == 3
-    assert section.count("\nC. ") == 3
+    assert section.count("**Conductor action MCQ - Reply A-D for this `toscanini` pass**") == 3
+    assert section.count("\nA. Allegro: ") == 3
+    assert section.count("\nB. Andante: ") == 3
+    assert section.count("\nC. Scherzo: ") == 3
+    assert section.count("\nD. Finale: ") == 3
 
 
 def test_all_five_voice_prototypes_are_present_and_rows_remain() -> None:

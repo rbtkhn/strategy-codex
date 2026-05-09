@@ -1,8 +1,8 @@
-# Conductor pass (generic) Ã¢â‚¬â€ five movements, any territory
+# Conductor pass (generic) - five masters, any territory
 
 **Status:** WORK (operator pattern). **Not** Record. **Not** a merge or gate substitute.
 
-**Purpose:** A **territory-agnostic** description of the **conductor** role in GraceÃ¢â‚¬â€˜Mar: the operator sets **emphasis, tempo, and depth**; tools and file trees do **not** replace judgment. The **five movement** map (Precision Ã¢â€ â€™ Ã¢â‚¬Â¦ Ã¢â€ â€™ Selectivity) is **portable**Ã¢â‚¬â€it describes **modes of attention**, not one folder.
+**Purpose:** A **territory-agnostic** description of the **conductor** role in Grace-Mar: the operator sets **emphasis, tempo, and depth**; tools and file trees do **not** replace judgment. The **five-master** map (Precision through Selectivity) is portable: it describes **modes of attention**, not one folder.
 
 The coffee hub now ends at **D**. You may still open **Conductor** **without** `coffee`: invoke a master **directly** (**`toscanini`**, **`karajan`**, **`bernstein`**, ?), say **`conductor`** + optional fragment, or use [`.cursor/skills/conductor/SKILL.md`](../../../.cursor/skills/conductor/SKILL.md) ? same resolution as [coffee SKILL ? Conductor session (outside `coffee` hub menu)](../../../.cursor/skills/coffee/SKILL.md#conductor-only-no-coffee). Strategy-notebook SSOT for the embodied ritual: [COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md](../work-strategy/strategy-notebook/COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md). This file remains the **shared spine** for cross-lane analogy.
 
@@ -10,13 +10,13 @@ The coffee hub now ends at **D**. You may still open **Conductor** **without** `
 
 **Layer map:** [CONDUCTOR-LAYER-MAP.md](CONDUCTOR-LAYER-MAP.md) Ã¢â‚¬â€ distinguishes synthesis theory, strategy-notebook ritual, **this** generic cross-lane pass, Cursor skills, compiled-view recipes, and coding-agent proposal lenses. **This file** defines the **generic cross-lane conductor pass** shape.
 
-**Menus vs slugs:** Use standard labels when two **AÃ¢â‚¬â€œE** menus could appear in one thread Ã¢â‚¬â€ **Coffee Hub Menu** (`coffee` Step 2 hub); **Master Selection Menu** (stance row Ã¢â‚¬â€ [Ã‚Â§ Conductor MCQ](#conductor-mcq)); **Conductor Action Menu** ([Ã‚Â§ Conductor action MCQ](#conductor-action-mcq)). **Letters are UI conveniences**; **durable logs** should record **conductor slugs** (`toscanini`, `furtwangler`, `bernstein`, `karajan`, `kleiber`), not hub/action letters.
+**Menus vs slugs:** Use standard labels when multiple lettered menus could appear in one thread: **Coffee Hub Menu** (`coffee` Step 2 hub, A-D), **Master Selection Menu** (stance row, A-E; [Conductor MCQ](#conductor-mcq)), and **Conductor Action Menu** (movement row, A-D; [Conductor action MCQ](#conductor-action-mcq)). **Letters are UI conveniences**; **durable logs** should record **conductor slugs** (`toscanini`, `furtwangler`, `bernstein`, `karajan`, `kleiber`), not hub/action letters.
 
 **Coding-agent proposals:** Conductor stance should change **scope, validation posture, non-goals, and acceptance criteria** Ã¢â‚¬â€ not merely wording Ã¢â‚¬â€ per [conductor proposal lenses](../work-dev/conductor-proposal-lenses.md). For coding-agent proposal work, use the **Beethoven test** appendix in that file when the five modes risk collapsing into the same PR shape under **crisis, propulsion, or formal drama**; use the **Brahms test** appendix there when the issue is **density, overlap, continuity, or anti-heaviness** rather than dramatic conflict. Abundance is a selection criterion inside those proposals: prefer options that increase agency, coordination, optionality, or dignity when the evidence supports it.
 
 ---
 
-## The five movements (abstraction)
+## The five master modes (abstraction)
 
 | Movement | Mode | What it is (any lane) |
 |----------|------|------------------------|
@@ -80,17 +80,23 @@ Each printed option includes a **continuity** tail: last `coffee_pick` slug, opt
 
 <a id="conductor-action-mcq"></a>
 
-#### Conductor action MCQ (second **A-C** Ã¢â‚¬â€ **required**)
+#### Conductor action MCQ (second **A-D** - **required**)
 
-**Kleiber composition benchmark:** In V1, Strategy-codex composition benchmarks are owned only by **Kleiber**. When the resolved slug is `kleiber`, reserve **Conductor action MCQ option C** for: `C. Run composition benchmark - execute one Strategy-codex composition benchmark and close with Held / Weakened / Broke / Open`. Do not add benchmark routes to Toscanini, FurtwÃƒÂ¤ngler, Karajan, or Bernstein. Coffee may route to Kleiber; dream may carry forward eligible benchmark results; neither runs benchmarks directly. Protocol: [kleiber-composition-benchmark.md](../work-dev/kleiber-composition-benchmark.md).
+**Kleiber composition benchmark:** In V1, Strategy-codex composition benchmarks are owned only by **Kleiber**. When the resolved slug is `kleiber`, reserve **Conductor Action Menu option D / Finale** for: `D. Finale: Run composition benchmark - execute one Strategy-codex composition benchmark and close with Held / Weakened / Broke / Open`. Do not add benchmark routes to Toscanini, FurtwÃƒÂ¤ngler, Karajan, or Bernstein. Coffee may route to Kleiber; dream may carry forward eligible benchmark results; neither runs benchmarks directly. Protocol: [kleiber-composition-benchmark.md](../work-dev/kleiber-composition-benchmark.md).
 
-**Operator line:** Conductor offers **three decisive choices**; off-menu behavior is the refusal / park / no-action signal. When one action is clearly strongest, add one nearby line: **`Recommended default: <letter> ? <one-line reason>`**. This is decision support only; it does not add a fourth option or change refusal handling.
+**Operator line:** Conductor offers **four movement-labeled choices**; off-menu behavior is the refusal / park / no-action signal. When one action is clearly strongest, add one nearby line: **`Recommended default: <letter> - <one-line reason>`**. This is decision support only; it does not add another option or change refusal handling.
 
-**Not** another **A.Ã¢â‚¬â€œE.** that names **ToscaniniÃ¢â‚¬Â¦Bernstein** Ã¢â‚¬â€ it is a **new** **three-line** list **after** the master is resolved, with **this** passÃ¢â‚¬â„¢s **repo** next moves. Label it **`Conductor action MCQ`** and instruct **Reply A-C** for **this** pass. Each line is a **concrete, repo-grounded**, affirmative next move with **verbs and constraints** that match the **active** `conductor` slug (see [`.cursor/skills/conductor/SKILL.md`](../../../.cursor/skills/conductor/SKILL.md) **Conductor action MCQ**). Do **not** spend one of the three options on refusal / no-action; if the operator does anything other than choose **A**, **B**, or **C**, record that as refusal / park / no-action in the outcome. **Omit** only if the operator says **"orientation only"** or **"no action menu"** in the same turn. **Kleiber** is not the only mode that gets a menu; **Bernstein, Toscanini,** etc. all get **their own** three options Ã¢â‚¬â€ same **A-C** letters; letter-set reuse order is **coffee** hub **AÃ¢â‚¬â€œE**, optional **Masters MCQ** row **if** shown, then **Conductor action MCQ**.
+**Not** another **A-E** row that names **Toscanini through Bernstein**; it is a **new** **four-line** movement list **after** the master is resolved, with **this** pass's **repo** next moves. Label it **`Conductor Action Menu`** and instruct **Reply A-D** for **this** pass. Each line is a **concrete, repo-grounded**, affirmative next move with **verbs and constraints** that match the **active** `conductor` slug (see [`.cursor/skills/conductor/SKILL.md`](../../../.cursor/skills/conductor/SKILL.md) **Conductor action MCQ**). Do **not** spend one of the four options on refusal / no-action; if the operator does anything other than choose **A**, **B**, **C**, or **D**, record that as refusal / park / no-action in the outcome. **Omit** only if the operator says **"orientation only"** or **"no action menu"** in the same turn. **Kleiber** is not the only mode that gets a menu; **Bernstein, Toscanini,** etc. all get **their own** four movement options with the same **A-D** letters; letter-set reuse order is **Coffee Hub Menu**, optional **Master Selection Menu** row **if** shown, then **Conductor Action Menu**.
+
+Movement meanings:
+- **A. Allegro** - decisive entry; name the live thrust, seam, or correction.
+- **B. Andante** - slower listening; inspect evidence, tension, arc, or hidden dependency.
+- **C. Scherzo** - bounded probe; test, stress, falsify, or make the small lively intervention.
+- **D. Finale** - durable seal; close, score, log, carry forward, or benchmark.
 
 **Outside `coffee`:** the operator issues the conductor pick **without** running `coffee` Step 0?1. Resolution, orientation, and **`coffee_pick`** logging match [coffee ? Conductor session](../../../.cursor/skills/coffee/SKILL.md#conductor-only-no-coffee); do **not** require Recent rhythm or `operator_coffee.py` for that turn.
 
-**`last30days` as one possible action:** When the active object is a current-events / strategy-notebook question and the frontier is stale, one of the three action choices may be a bounded **`last30days`** scan. Keep it master-shaped: **Toscanini** verifies source dates and falsifiers; **FurtwÃƒÂ¤ngler** maps live conflicts without closing them; **Bernstein** extracts the one fresh signal that clarifies stakes; **Karajan** checks month-arc fit; **Kleiber** narrows to one query only. It remains non-mutating unless the operator separately asks to append an inbox line or prepare a review artifact.
+**`last30days` as one possible action:** When the active object is a current-events / strategy-notebook question and the frontier is stale, one of the four movement choices may be a bounded **`last30days`** scan. Keep it master-shaped: **Toscanini** verifies source dates and falsifiers; **FurtwÃƒÂ¤ngler** maps live conflicts without closing them; **Bernstein** extracts the one fresh signal that clarifies stakes; **Karajan** checks month-arc fit; **Kleiber** narrows to one query only. It remains non-mutating unless the operator separately asks to append an inbox line or prepare a review artifact.
 
 **Due/open loop surfacing:** When the notebook already carries `Call / Falsifier / Revisit` blocks, the pass may surface a short **Open loops due for revisit** block before the action MCQ. Keep it derived and advisory: prefer current-lane loops first, include a **Tension** sub-section only when multiple streams carry materially conflicting open loops, and treat the surfacing as orientation rather than auto-resolution.
 
