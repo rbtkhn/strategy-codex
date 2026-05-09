@@ -4,6 +4,8 @@ Status: governed pilot
 
 Purpose: admit Printing Press `scrape-creators` as a WORK-layer acquisition adapter for public YouTube transcript and video metadata. This is for the Strategy-Codex cognition stream: transcript capture, Perceiver, LEARN MODE, current-events analysis, and optional strategy-notebook raw input. It is not Record truth, not Voice knowledge, and not a merge path.
 
+Root bootstrap: [Printing Press integration](../README.md).
+
 ## V1 boundary
 
 Allowed:
