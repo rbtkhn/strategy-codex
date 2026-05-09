@@ -22,6 +22,15 @@ def parse_yamlish(blob: str) -> dict[str, str]:
     return d
 
 
+def read_markdown_utf8(path: Path) -> tuple[str | None, str | None]:
+    try:
+        return path.read_text(encoding="utf-8"), None
+    except UnicodeDecodeError as exc:
+        return None, f"not valid utf-8 ({exc})"
+    except OSError as exc:
+        return None, f"cannot read ({exc})"
+
+
 def main() -> int:
     errors: list[str] = []
     for md in ROOT.rglob("*.md"):
@@ -29,17 +38,21 @@ def main() -> int:
             continue
         if "node_modules" in md.parts:
             continue
-        text = md.read_text(encoding="utf-8")
+        rel = md.relative_to(ROOT)
+        text, read_error = read_markdown_utf8(md)
+        if read_error:
+            errors.append(f"{rel}: {read_error}")
+            continue
         m = FM.match(text)
         if not m:
             continue
         data = parse_yamlish(m.group(1))
         cat = data.get("category")
         if cat not in ALLOWED:
-            errors.append(f"{md.relative_to(ROOT)}: bad category {cat!r}")
+            errors.append(f"{rel}: bad category {cat!r}")
         miss = sorted(REQUIRED - set(data.keys()))
         if miss:
-            errors.append(f"{md.relative_to(ROOT)}: missing {miss}")
+            errors.append(f"{rel}: missing {miss}")
     if errors:
         print("\n".join(errors))
         return 1
