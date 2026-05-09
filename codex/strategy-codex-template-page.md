@@ -49,6 +49,19 @@ Every substantive analytical page should leave behind a compact, revisitable jud
 
 This is the notebook's defense against `T + C` drift: evidence alone is not enough if the page leaves no way to revisit what it claimed.
 
+## Current-world source discipline
+
+For strategy-pages that lean on current-world claims, carry forward the CM-1 benchmark lesson: a fluent page is not necessarily a grounded page.
+
+Include, in `### Chronicle`, `### Reflection`, or `### Appendix` as appropriate:
+
+- **Source mode:** `prompt_only`, `source_pack`, or `live_lookup`
+- **Verified vs interpretation:** one line separating what the sources establish from what the page infers
+- **Weakest factual link:** one line naming the current claim most likely to break
+- **Source-sensitive loop:** Call / Falsifier / Revisit should change when source evidence changes the frame
+
+Do not promote current-company, current-event, deployment, casualty, market, or capability claims into `### Reflection` without source support appropriate to the page's source mode.
+
 ---
 
 ## codex-page -> `codex/<year>/<channel>/<expert_id>-page-YYYY-MM-DD.md`
@@ -111,6 +124,8 @@ WORK only; not Record.
 
 - **Primary raw-input:** [raw-input/YYYY-MM-DD/<slug>.md](...)
 - **Supporting raw-input:** [raw-input/YYYY-MM-DD/<slug>.md](...)  <!-- optional; keep the set small -->
+- **Source mode:** <prompt_only | source_pack | live_lookup>  <!-- current-world pages only -->
+- **Weakest factual link:** <one claim most likely to break>  <!-- current-world pages only -->
 ```
 
 **Rule of use:** codex-pages are source/verbatim support, durable citation handles, and the main archive-to-knowledge bridge for `thread`, `days.md`, and later synthesis. They do not replace the main analytical role of `strategy-page` blocks.
@@ -161,6 +176,9 @@ This block is required for normal strategy-page writing. It should not be replac
 ---
 
 ### Appendix
+- **Source mode:** <prompt_only | source_pack | live_lookup>  <!-- current-world pages only -->
+- **Verified vs interpretation:** <one-line distinction>  <!-- current-world pages only -->
+- **Weakest factual link:** <one claim most likely to break>  <!-- current-world pages only -->
 <!-- strategy-page:end -->
 ```
 

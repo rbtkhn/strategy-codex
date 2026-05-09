@@ -29,6 +29,13 @@ Use this for the daily continuity block composed during the strategy session.
 - `### Reflection`
 - `### References`
 
+**Current-world continuity rule:** If the chapter summarizes or carries forward current-world strategy-pages, preserve the source discipline that made the page revisitable:
+
+- name any load-bearing `source_mode` (`prompt_only`, `source_pack`, or `live_lookup`)
+- keep verified evidence separate from interpretation
+- carry forward the weakest factual link when it remains unresolved
+- note whether the day's Call / Falsifier / Revisit held, weakened, broke, or remains open
+
 **Optional sections when the day genuinely needs them:**
 
 - `### Open`
@@ -46,6 +53,12 @@ Use this for the daily continuity block composed during the strategy session.
 ### Reflection
 
 ### References
+
+<!-- Current-world carry-forward, when relevant:
+- **Source mode:** <prompt_only | source_pack | live_lookup>
+- **Weakest factual link:** <one claim most likely to break>
+- **Judgment status:** <held | weakened | broke | open>
+-->
 ```
 
 **Rule of use:** chapters hold chronology and continuity. They should point toward page-level work, not duplicate whole page bodies.

@@ -120,6 +120,8 @@ This is a maintenance pass, not a merge pass.
 
 **Conductor compression:** Successful dream handoff may also include **`conductor_rollup_24h`**: a WORK-only compression of recent Conductor picks and outcomes (`last_master`, `completed_passes`, `orientation_only`, `off_menu_refusals`, recent commits/falsifiers, and a one-line echo for coffee). This is compression, not continuation: dream does not generate fresh Conductor options, does not auto-compose notebooks, and treats off-menu/no-action outcomes as parked/refused telemetry rather than as another menu choice.
 
+**Kleiber benchmark carry-forward:** Dream may carry forward composition benchmark residue only when a Kleiber benchmark result is `Open`, `Broke`, or `Weakened` twice on the same scoring dimension. Dream does **not** generate benchmark prompts, run benchmarks, or add a benchmark route outside Kleiber option C. Protocol: [kleiber-composition-benchmark.md](../../../docs/skill-work/work-dev/kleiber-composition-benchmark.md).
+
 ## What to return
 
 Use a **short default brief** every time. Add **Details** only when load-bearing (failure, noteworthy counts, operator asked) â€” do not fill every optional slot on a quiet run.

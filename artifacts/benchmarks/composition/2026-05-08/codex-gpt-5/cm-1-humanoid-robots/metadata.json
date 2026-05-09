@@ -1,0 +1,14 @@
+{
+  "benchmark_id": "cm-1-humanoid-robots",
+  "prompt_version": "composition-benchmark-v1/cm-1-humanoid-robots-v1",
+  "rubric_version": "cm-1-rubric-v1",
+  "model": "Codex GPT-5",
+  "provider": "OpenAI",
+  "model_version": "unknown",
+  "run_date": "2026-05-08",
+  "temperature": "unknown",
+  "seed": "unavailable",
+  "source_mode": "prompt_only",
+  "evaluator": "Codex",
+  "notes": "First Kleiber option C benchmark run. Prompt-only mode; no live company-status claims were independently verified."
+}

@@ -53,6 +53,8 @@ strategy-notebook/
 
 **Judgment loop rule:** The notebook should not stop at capture plus elegant synthesis. For substantive analytical writing, use a compact loop: **Call**, **Falsifier**, and **Revisit** on the page; later `days.md` continuity should note whether the earlier judgment **held**, **weakened**, **broke**, or is **still open**. This is the core defense against `T + C` drift described in [notes/TCLD-AUDIT-STRATEGY-CODEX.md](notes/TCLD-AUDIT-STRATEGY-CODEX.md).
 
+**Current-world source discipline:** The CM-1 benchmark loop established a normal writing rule, not only a benchmark rule: a fluent page can hold as composition while leaving factual grounding untested. For current-world `strategy-page` and `days.md` chapter composition, preserve **source mode**, separate **verified evidence vs interpretation**, name the **weakest factual link**, and let **Call / Falsifier / Revisit** change when source evidence changes the frame. See [strategy-codex-template-page.md](strategy-codex-template-page.md) and [strategy-codex-template-chapter.md](strategy-codex-template-chapter.md).
+
 **Default output path (chat / assistant):** chat ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ inbox / **`raw-input/`** ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ **author-thread pages + `days.md` continuity only in the end-of-day strategy session** (unless breaking glass) ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â same discipline as [Author choreography](#expert-choreography) *Output path (default)* below.
 
 <a id="weave-terminology"></a>
@@ -410,7 +412,7 @@ Dashed edge: operator-authored [history-notebook](../history-notebook/README.md)
 | Prediction registry | Optional **Bets / watches** in `meta.md` or month-end box in `days.md` |
 | Corpus + adjudication | Links to briefs, `STRATEGY.md`, Islamabad paths ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â **WORK only** |
 
-**Maintenance:** When you move the active month in this notebook or change Predictive History queue / volume emphasis, update **`chapters/YYYY-MM/meta.md` ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ Polyphony** and **`research/external/work-jiang/operator-polyphony.md`** in the **same session** so LIB-0153 and LIB-0149 stay parallel. Do **not** put the polyphony overlay only in `work-jiang/STATUS.md` ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â that file is **generated** by `scripts/work_jiang/render_status_dashboard.py`.
+**Maintenance:** When you move the active month in this notebook or change Predictive History queue / volume emphasis, update **`chapters/YYYY-MM/meta.md` ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ Polyphony** and **`codex/predictive-history/operator-polyphony.md`** in the **same session** so LIB-0153 and LIB-0149 stay parallel. Do **not** put the polyphony overlay only in `codex/predictive-history/STATUS.md` ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â that file is **generated** by `scripts/work_jiang/render_status_dashboard.py`.
 
 ## Parallel to History notebook (LIB-0156)
 
@@ -708,7 +710,7 @@ Pedagogical shorthand only ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ã�
   - **Barnes (optional):** liability, mechanism, who pays / whoÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢s exposed ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â *whatÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢s binding in budgets, law, and domestic price?*
 - **Tension line (one sentence):** Where the Mercouris and Mearsheimer readings **disagree by design** this month ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â leave unresolved unless a `strategy` pass **promotes** a settled watch to STRATEGY.md.
 - **Update cadence:** When the monthÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢s arc shifts (ceasefire scope, Hormuz metrics, Islamabad round) or after a **tri-frame** / heavy lens week ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â not necessarily every day.
-- **Parallel PH overlay:** Keep in sync with [`research/external/work-jiang/operator-polyphony.md`](../../../../research/external/work-jiang/operator-polyphony.md) (same section structure); see **Parallel to Predictive History** table above.
+- **Parallel PH overlay:** Keep in sync with [`codex/predictive-history/operator-polyphony.md`](../../../codex/predictive-history/operator-polyphony.md) (same section structure); see **Parallel to Predictive History** table above.
 - **[STATUS.md](STATUS.md):** operator-maintained pointer to the **last daily entry** for quick re-entry.
 
 **Month boundaries**
