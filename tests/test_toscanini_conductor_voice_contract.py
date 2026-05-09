@@ -19,7 +19,11 @@ def _section(heading: str, next_heading: str) -> str:
 
 
 def _toscanini_section() -> str:
-    return _section("## Toscanini conductor voice prototype", "## Bernstein rehearsal voice prototype")
+    return _section("## Toscanini conductor voice prototype", "## Furtwangler conductor voice prototype")
+
+
+def _furtwangler_section() -> str:
+    return _section("## Furtwangler conductor voice prototype", "## Bernstein rehearsal voice prototype")
 
 
 def _bernstein_section() -> str:
@@ -133,13 +137,13 @@ def test_toscanini_examples_pin_three_contexts_and_three_action_options() -> Non
     assert section.count("\nC. ") == 3
 
 
-def test_furtwangler_remains_only_concise_non_prototype_row() -> None:
+def test_all_five_voice_prototypes_are_present_and_rows_remain() -> None:
     text = _conductor_text()
 
     assert "## Toscanini conductor voice prototype" in text
+    assert "## Furtwangler conductor voice prototype" in text
     assert "## Bernstein rehearsal voice prototype" in text
     assert "## Karajan conductor voice prototype" in text
     assert "## Kleiber conductor voice prototype" in text
-    assert "## Furtwangler conductor voice prototype" not in text
     assert "| **furtwangler** | Hold the tension open, resist false closure" in text
     assert "| **toscanini** | Verify the seam, pin the receipt, and force the claim back to the evidence" in text
