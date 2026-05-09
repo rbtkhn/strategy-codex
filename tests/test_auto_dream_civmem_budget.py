@@ -15,6 +15,20 @@ if str(SCRIPTS) not in sys.path:
 import auto_dream  # noqa: E402
 
 
+@pytest.fixture(autouse=True)
+def _no_frontier_network(monkeypatch: pytest.MonkeyPatch) -> None:
+    monkeypatch.setattr(
+        auto_dream,
+        "build_frontier_source_hint",
+        lambda: {
+            "source_id": "the-innermost-loop",
+            "source_name": "The Innermost Loop",
+            "source_mode": "live_lookup",
+            "status": "unavailable",
+        },
+    )
+
+
 def _minimal_user(tmp_path: Path) -> Path:
     users_dir = tmp_path / "users"
     ud = users_dir / "demo"

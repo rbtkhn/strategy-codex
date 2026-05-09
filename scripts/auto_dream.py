@@ -26,6 +26,7 @@ from contradiction_digest import default_digest_path, generate_contradiction_dig
 from dream_civmem_echoes import CIVMEM_DISCLAIMER, compute_civmem_echoes
 from dream_coffee_rollup import build_last_coffee_echo, rollup_coffee_24h, rollup_conductor_24h
 from dream_execution_paths import build_execution_paths, format_tomorrow_inherits_line
+from dream_innermost_loop_hint import build_frontier_source_hint, format_frontier_source_followup
 from fork_config import load_fork_config
 from emit_pipeline_event import append_pipeline_event
 from log_cadence_event import append_cadence_event, resolve_cursor_model
@@ -507,6 +508,8 @@ def _write_last_dream_handoff(
         handoff["capture_gap"] = summary["capture_gap"]
     if summary.get("capability_shift"):
         handoff["capability_shift"] = summary["capability_shift"]
+    if summary.get("frontier_source_hint"):
+        handoff["frontier_source_hint"] = summary["frontier_source_hint"]
     if summary.get("dream_catchup"):
         handoff["dream_catchup"] = summary["dream_catchup"]
     lce = summary.get("last_coffee_echo")
@@ -898,6 +901,21 @@ def run_auto_dream(
                         "Run: python3 scripts/runtime/boundary_regression.py"
                     )
 
+        try:
+            frontier_hint = build_frontier_source_hint()
+        except Exception as exc:
+            frontier_hint = {
+                "source_id": "the-innermost-loop",
+                "source_name": "The Innermost Loop",
+                "source_mode": "live_lookup",
+                "status": "unavailable",
+                "error": f"{type(exc).__name__}: {str(exc)[:180]}",
+            }
+        summary["frontier_source_hint"] = frontier_hint
+        frontier_followup = format_frontier_source_followup(frontier_hint)
+        if frontier_followup:
+            extra_followups.append(frontier_followup)
+
         summary["extra_followups"] = extra_followups
 
         try:
@@ -1102,6 +1120,13 @@ def format_auto_dream_summary(summary: dict[str, Any]) -> str:
             f"capability shift [{cs.get('category', 'model')}]: "
             f"{cs.get('sources_checked', 0)}/{cs.get('sources_total', 0)} sources — {status}"
         )
+    fsh = summary.get("frontier_source_hint") or {}
+    if fsh:
+        if fsh.get("status") == "ok":
+            title = str(fsh.get("title") or "untitled")[:120]
+            lines.append(f"AI frontier watch: The Innermost Loop latest - {title}")
+        else:
+            lines.append("AI frontier watch: The Innermost Loop unavailable")
     dc = summary.get("dream_catchup") or {}
     if dc.get("error"):
         lines.append(f"dream catch-up: error — {dc['error']}")

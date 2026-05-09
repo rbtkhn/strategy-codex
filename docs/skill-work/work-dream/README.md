@@ -111,12 +111,15 @@ Cici notebook (work-cici) â€” `cici_journal_ob1_digest.py --catch-up-from-l
 | `civmem_disclaimer` | string | States analogical / non-Record scope |
 | `civmem_index_missing` | boolean | True when the in-repo civ-mem index file is absent |
 | `civmem_suppressed_reason` | string | Present when echoes were cleared by budget or checks (e.g. `disabled_by_budget`, `suppressed_integrity_fail`, `suppressed_governance_alert`) |
+| `frontier_source_hint` | object | Metadata-only AI frontier watch from The Innermost Loop RSS (`title`, `url`, `published_at`, `status`, `source_mode=live_lookup`). Dream does not store the post body, generate a summary, create raw-input, or compose strategy from it. |
 
 **Civ-mem query source:** Echoes are computed from the **pre-persist** self-memory snapshot used in the same `auto_dream` run (`memory_result.before`), which can differ from on-disk `self-memory.md` after normalization writes in that run.
 
 **Context budgets:** Write-path caps and suppress rules live in [`config/context_budgets/dream.json`](../../../config/context_budgets/dream.json); display defaults for the collapsed Last dream block live in [`config/context_budgets/coffee.json`](../../../config/context_budgets/coffee.json). See [`config/context_budgets/README.md`](../../../config/context_budgets/README.md).
 
 **Doctrine:** Dream suggestions (paths, civ-mem, rollup) are **operational hints only** â€” not truth, not priority, not a substitute for gate review, integrity, companion approval, or operator judgment. Cadence artifacts are not a shadow Record.
+
+**AI frontier watch:** Dream may read the latest The Innermost Loop RSS metadata and carry it into `frontier_source_hint` / `followups` as a next-day watch signal. This is deliberately metadata-only. If the post looks strategically important, the next-day route is Coffee C / strategy source hygiene, where raw-input or source-pack treatment can happen explicitly.
 
 **Conductor compression:** Dream may compress the day's Conductor passes into `conductor_rollup_24h`, then coffee may render one **Conductor echo** line. This is deliberately compression, not continuation: dream does not generate fresh Conductor options, does not auto-compose notebooks, and treats off-menu/no-action outcomes as parked/refused telemetry rather than as a fourth choice.
 

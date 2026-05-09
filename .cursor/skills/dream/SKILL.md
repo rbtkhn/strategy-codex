@@ -120,6 +120,8 @@ This is a maintenance pass, not a merge pass.
 
 **Conductor compression:** Successful dream handoff may also include **`conductor_rollup_24h`**: a WORK-only compression of recent Conductor picks and outcomes (`last_master`, `completed_passes`, `orientation_only`, `off_menu_refusals`, recent commits/falsifiers, and a one-line echo for coffee). This is compression, not continuation: dream does not generate fresh Conductor options, does not auto-compose notebooks, and treats off-menu/no-action outcomes as parked/refused telemetry rather than as another menu choice.
 
+**AI frontier watch:** Successful dream may include **`frontier_source_hint`** from The Innermost Loop RSS. This is metadata-only (`title`, `url`, `published_at`, `status`, `source_mode=live_lookup`) and exists only to help tomorrow notice a possible AI-frontier seam. Dream does **not** read the full post, generate a summary, create raw-input/source-pack material, compose strategy pages/chapters, or treat the source as Record authority. If the post matters, route tomorrow through Coffee C / strategy source hygiene.
+
 **Kleiber benchmark carry-forward:** Dream may carry forward composition benchmark residue only when a Kleiber benchmark result is `Open`, `Broke`, or `Weakened` twice on the same scoring dimension. Dream does **not** generate benchmark prompts, run benchmarks, or add a benchmark route outside Kleiber **D. Finale**. Protocol: [kleiber-composition-benchmark.md](../../../docs/skill-work/work-dev/kleiber-composition-benchmark.md).
 
 ## What to return
@@ -145,6 +147,7 @@ Include only what matters this run:
 - **`dream_catchup`:** local dates, `strategy_notebook_missing_day_headers`, timezone, `previous_dream_generated_at` â€” FYI for calendar coverage; drives Cici notebook `--catch-up-from-last-dream` (operational; not Record)
 - Coffee **24h rollup**, **execution paths** + suggested index, **civ-mem echoes** (with **â€œAnalogy candidate only â€” not evidence, not recommendation, not Recordâ€** when cited)
 - **Capability shift** (sources, REVIEW / monitor alerts)
+- **AI frontier watch:** latest The Innermost Loop metadata when present; treat as a tomorrow source-hygiene cue, not a completed reading.
 - **Strategy notebook** / **Cici notebook** / **Dev journal:** one line each when relevant (strategy-notebook **deferred** unless operator asked **`strategy page`**, **`strategy page compose`**, or **EOD notebook compose** in-thread; Cici notebook per Â§ below)
 - **`last30days` breadcrumb (advisory only):** If strategy residue needs fresh external provenance, mention at most **one** tomorrow query; see the strategy-notebook behavior below.
 - **`skill-elicitation` breadcrumb (advisory only):** If strategy residue needs operator judgment before it can be routed or composed, mention at most **one** tomorrow checkpoint, such as stream profile calibration, page shape, raw-input routing, contrapuntal comparison, or civ-mem lens choice. Do not ask the questions inside `dream`.

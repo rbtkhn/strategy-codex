@@ -155,6 +155,20 @@ Last rotated: 2026-01-01
     monkeypatch.setattr(auto_dream, "_run_text_command", lambda *args, **kwargs: (0, "Governance check: OK", ""))
     monkeypatch.setattr(
         auto_dream,
+        "build_frontier_source_hint",
+        lambda: {
+            "source_id": "the-innermost-loop",
+            "source_name": "The Innermost Loop",
+            "source_mode": "live_lookup",
+            "status": "ok",
+            "title": "A frontier post",
+            "url": "https://theinnermostloop.substack.com/p/frontier",
+            "published_at": "2026-05-09T12:30:00+00:00",
+            "guidance": "AI frontier watch: latest The Innermost Loop post is available.",
+        },
+    )
+    monkeypatch.setattr(
+        auto_dream,
         "append_pipeline_event",
         lambda user_id, event_type, candidate_id, merge=None, extras=None: events.append(
             {
@@ -190,6 +204,8 @@ Last rotated: 2026-01-01
     assert handoff.get("agent_surface", {}).get("cursor_model") == "unknown"
     assert handoff.get("handoffSchemaVersion") == 3
     assert "conductor_rollup_24h" in handoff
+    assert handoff.get("frontier_source_hint", {}).get("title") == "A frontier post"
+    assert any("AI frontier watch" in item for item in handoff.get("followups", []))
     assert summary.get("agent_surface", {}).get("cursor_model") == "unknown"
 
 
@@ -304,6 +320,15 @@ def test_format_auto_dream_summary_headline_prefix():
         "integrity": {"ok": True},
         "governance": {"ok": True},
         "contradiction_digest": {"relation_counts": {}, "reviewable_count": 0},
+        "frontier_source_hint": {
+            "source_id": "the-innermost-loop",
+            "source_name": "The Innermost Loop",
+            "source_mode": "live_lookup",
+            "status": "ok",
+            "title": "Latest frontier note",
+            "url": "https://theinnermostloop.substack.com/p/latest",
+            "published_at": "2026-05-09T12:30:00+00:00",
+        },
         "handoff_path": str(ROOT / "users" / "grace-mar" / "last-dream.json"),
     }
     out = auto_dream.format_auto_dream_summary(summary)
@@ -311,6 +336,7 @@ def test_format_auto_dream_summary_headline_prefix():
     assert first.startswith("Dream: ok ")
     assert "handoff=yes" in first
     assert "autoDream status" in out
+    assert "AI frontier watch: The Innermost Loop latest" in out
 
 
 def test_format_auto_dream_summary_strict_headline_halted():
