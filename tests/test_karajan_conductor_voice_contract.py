@@ -19,7 +19,7 @@ def _section(heading: str, next_heading: str) -> str:
 
 
 def _karajan_section() -> str:
-    return _section("## Karajan conductor voice prototype", "## When to read this")
+    return _section("## Karajan conductor voice prototype", "## Kleiber conductor voice prototype")
 
 
 def _bernstein_section() -> str:
