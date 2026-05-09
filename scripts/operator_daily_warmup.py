@@ -48,6 +48,14 @@ try:
 except ImportError:
     build_morning_pulse_lines = None  # type: ignore[misc, assignment]
 
+try:
+    from strategy_return_hint import format_strategy_return_lines
+except ImportError:
+    try:
+        from scripts.strategy_return_hint import format_strategy_return_lines
+    except ImportError:
+        format_strategy_return_lines = None  # type: ignore[assignment]
+
 LAST_DREAM_FILENAME = "last-dream.json"
 
 
@@ -527,6 +535,29 @@ def build_operator_daily_warmup(
         if menu_hint:
             lines.append("")
             lines.append(menu_hint)
+
+    lines.append("")
+    if format_strategy_return_lines is not None:
+        try:
+            lines.extend(format_strategy_return_lines(REPO_ROOT))
+        except Exception as exc:
+            lines.extend(
+                [
+                    "## Strategy return (Coffee C)",
+                    "",
+                    f"- Strategy return skipped: {exc.__class__.__name__}; Coffee C remains manual/read-only.",
+                    "",
+                ]
+            )
+    else:
+        lines.extend(
+            [
+                "## Strategy return (Coffee C)",
+                "",
+                "- Strategy return unavailable: helper import failed; Coffee C remains manual/read-only.",
+                "",
+            ]
+        )
 
     lines.append("")
     if build_morning_pulse_lines is not None:

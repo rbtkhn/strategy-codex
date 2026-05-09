@@ -24,6 +24,18 @@ def test_build_operator_daily_warmup_includes_depth_and_polling_reminder(
     monkeypatch.setattr(odw, "_session_lines_tail", lambda *_: ["tail one", "tail two"])
     monkeypatch.setattr(odw, "_integrity_errors", lambda _: [])
     monkeypatch.setattr(odw, "_git_status_lines", lambda: [])
+    monkeypatch.setattr(
+        odw,
+        "format_strategy_return_lines",
+        lambda _repo: [
+            "## Strategy return (Coffee C)",
+            "",
+            "- Live seam: test seam",
+            "- Inbox triage: ready=1, verify=0, raw-input gap=0, carry=0; active chapter=2026-04",
+            "- Suggested C move: compose-read - review synthesis-ready clusters for page/chapter use.",
+            "",
+        ],
+    )
     monkeypatch.setattr(odw, "velocity_oneliner", lambda _: "Pipeline velocity (7d): 5 merge(s), 0 approval(s) — tier L1 active.")
     monkeypatch.setattr(odw, "load_fork_config", lambda: {"max_pending_candidates": 10})
     monkeypatch.setattr(
@@ -42,6 +54,8 @@ def test_build_operator_daily_warmup_includes_depth_and_polling_reminder(
 
     assert "## Pipeline velocity (operator depth)" in warmup
     assert "tier L1 active" in warmup
-    assert "## Coffee — KY-4 polling + prediction markets" in warmup
+    assert "KY-4 polling + prediction markets" in warmup
     assert "Polymarket" in warmup
     assert "polling-and-markets.md" in warmup
+    assert "## Strategy return (Coffee C)" in warmup
+    assert "Suggested C move: compose-read" in warmup
