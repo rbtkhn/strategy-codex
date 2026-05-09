@@ -15,9 +15,9 @@ Think top-down; **stop** when the dayâ€™s job is done â€” do not fill 
 
 | Level | Name | What it is | Required? |
 |-------|------|--------------|-----------|
-| **L0** | **Intent** | One line: *what decision or warrant this page must support* (draft Islamabad graf, rank a spoiler risk, close an Open, etc.) | Implicit; state in **`### Reflection`** if unclear |
+| **L0** | **Intent** | One line: *what decision or warrant this page must support* (draft Islamabad graf, rank a spoiler risk, close an Open, etc.) | Implicit; state in **`### Judgment`** if unclear |
 | **L1** | **Inputs** | Briefs, transcript digests, sessions, wires, framework files â€” **sources**, not the notebook | Never paste full sources in-page |
-| **L2** | **Spine** | **`### Chronicle`** (what crossed the threshold) + **`### Reflection`** (cross-cutting inference) + **`### References`** (paths out) + **`### Predictive Outlook`** | **Yes** for a substantive day; Signal may be â€œnothing crossed thresholdâ€ |
+| **L2** | **Spine** | **`### Signal`** (what crossed the threshold) + **`### Judgment`** (cross-cutting inference) + **`### References`** (paths out) + **`### Prediction`** | **Yes** for a substantive day; Signal may be "nothing crossed threshold" |
 | **L3** | **Overlays** | Optional: **`### Jiang resonance`**, **`### History resonance`**, **`### Analogy / tension`**, **`### Web verification`**, minds (in-page or Links-only), **`### Bets / watches`** | **Opt-in** per day |
 | **L4** | **Promotion** | [STRATEGY.md](../STRATEGY.md) watches / Â§IV â€” **only** when the operator asks | Not daily |
 
@@ -46,7 +46,7 @@ These are **outcome sketches**, not a second L2 spec. **EOD default loop** (capt
 
 | Shape | You can stop whenâ€¦ |
 |-------|--------------------|
-| **Thin day** | Inbox (and `raw-input/` if used) holds the day; **either** a very short `days.md` block (Chronicle/Reflection/References present but may be one line each) **or** explicit deferral; **no** new `strategy-page` required. |
+| **Thin day** | Inbox (and source capture if used) holds the day; **either** a very short strategy-chapter block (Signal/Judgment/References present but may be one line each) **or** explicit deferral; **no** new `strategy-page` required. |
 | **Normal day** | One composed **`## YYYY-MM-DD`** in `days.md` with L2 spine satisfied for that day; **at most one** new or revised `strategy-page` if judgment needed it. |
 | **High-signal / crisis** | Same **stop rule** as normal â€” you do **not** owe every overlay (L3). Heavier **Signal** / **Links**; optional [EOD-MCQ-PROTOCOL](EOD-MCQ-PROTOCOL.md) or session type **C** only if bulk demands it. Still: one primary thesis, avoid duplicate narratives. |
 
@@ -56,7 +56,7 @@ These are **outcome sketches**, not a second L2 spec. **EOD default loop** (capt
 
 | Kind of material | Primary home | Never |
 |------------------|--------------|--------|
-| Raw quotes, long transcript lines | **Outboard** + one **Links** line | In Chronicle/Reflection as walls |
+| Raw quotes, long transcript lines | **Outboard** + one **Links** line | In Signal/Judgment as walls |
 | Same fact from three wires | **Signal** (one bullet) or merge per tier B | Three bullets repeating one fact |
 | Your operative thesis | **Judgment** | Split across Signal and Judgment as duplicate K |
 | File paths, digests, frameworks | **`### References`** | Orphan URLs in Judgment |
@@ -124,7 +124,7 @@ This counters the failure mode of **wiki-style synthesis** that smooths contradi
    Name genuine cross-author alignments when warranted. Surface contradictions; use **Analogy / tension** or a **tension line** in monthly `meta.md`. Format for synthesis artifacts can be: **Issue / Voice A / Voice B / Implication** â€” leave unresolved unless promoted.
 
 4. **Operator as conductor (human-in-the-loop)**  
-Primary conducting moment: **EOD strategy session** (â€œstrategy pageâ€, â€œnotebook composeâ€, â€œclose the strategy dayâ€). `strategy-page` blocks use **Chronicle / Reflection / Predictive Outlook** with substantive prose. Judgment is cross-cutting inference â€” not a second recap of briefs. Promotion is gated (`[promote]`, recursion-gate).
+Primary conducting moment: **EOD strategy session** ("strategy page", "notebook compose", "close the strategy day"). New strategy-pages are standalone stream-level files using **Signal / Judgment / Prediction** with substantive prose. Judgment is cross-cutting inference, not a second recap of briefs. Promotion is gated (`[promote]`, recursion-gate).
 
 5. **Verification and traceability**  
    Proper nouns, dates, stats, disputed claims get `verify:` and **Web verification** / **Links** as appropriate. Dual-track seams (web facts vs CIV-MEM patterns) stay visible.
@@ -164,7 +164,7 @@ Layered wikis and undifferentiated â€œconsensusâ€ synthesis tend to **f
 **Conductor** (you set balance, tempo, promotion â€” not another part):
 
 - **End-of-day strategy session** â€” the real podium: `skill-strategy` / notebook compose, **page-shape menu**, then edits to **`days.md`** and **`strategy-page`** blocks.
-- **Journal layer only** â€” substantive **Chronicle / Reflection / References / Predictive Outlook** (and overlays) **above** `<!-- strategy-author-thread:start -->`. You do **not** conduct by hand-editing the **Machine** fence.
+- **Journal layer only** — substantive **Signal / Judgment / References / Prediction** (and overlays) **above** `<!-- strategy-author-thread:start -->`. You do **not** conduct by hand-editing the **Machine** fence.
 - **Markers** â€” `[watch]`, `[decision]`, `[promote]` and your **promotion** choices (`STRATEGY.md`, gate) â€” rehearsal vs performance.
 - **Meta â€œbatonâ€** â€” `NOTEBOOK-PREFERENCES.md`, `meta.md`, this architecture/synthesis doc set â€” cadence and emphasis across the month.
 - **Compiled views** â€” you decide whether to **generate**, **fill**, or **discard** a snapshot; scripts **bundle**; they do **not** replace your judgment in the threads.
@@ -174,7 +174,7 @@ Layered wikis and undifferentiated â€œconsensusâ€ synthesis tend to **f
 During or after an EOD session:
 
 - Review the **score** (Machine extractions + transcripts as needed).
-- Compose or revise **`strategy-page`** blocks in the **Journal layer** â€” **Chronicle / Reflection / Predictive Outlook**; substantive prose; verbatim-forward scaffolds where appropriate.
+- Compose or revise standalone **`strategy-page`** files — **Signal / Judgment / Prediction**; substantive prose; quote-supported scaffolds where appropriate. Threads index and contextualize pages rather than storing new page bodies.
 - Set **emphasis**: which threads weigh more this month; which tensions get a **tension line** in `meta.md`; which convergences are strong enough to name.
 - Use markers: `[watch]`, `[decision]`, `[promote]` per your governance.
 - Run **verification** when claims bite; keep **dual-track** seams visible.
@@ -281,7 +281,7 @@ Historical accounts emphasize **flamboyance, pedagogy, and communicative force**
 | 1 | **Pulse first** | Ask what the living urgency of this day or block actually is. |
 | 2 | **Public intelligibility** | Write so an informed outsider could feel why the issue matters, not just track the source list. |
 | 3 | **Heat with score discipline** | Bring vividness and operator voice without inventing facts or flattening the polyphony. |
-| 4 | **Story-bearing transitions** | Make Chronicle â†’ Reflection â†’ Predictive Outlook feel like one carried argument rather than three bins. |
+| 4 | **Story-bearing transitions** | Make Signal -> Judgment -> Prediction feel like one carried argument rather than three bins. |
 | 5 | **Pedagogic generosity** | Surface the stakes in language that teaches, not merely signals insider belonging. |
 
 **Takeaway:** Use Bernstein when the work needs **urgency, communicability, and living pulse** without losing the underlying score.

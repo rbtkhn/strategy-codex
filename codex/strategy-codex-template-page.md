@@ -1,192 +1,91 @@
-# Strategy-codex template - page
+# Strategy-codex template - strategy-page
 <!-- word_count: canonical scaffold -->
 
 WORK only; not Record.
 
-**Purpose:** Canonical page template for strategy-codex. This file owns the two page-shaped analytical surfaces:
-
-- **codex-page** = standalone source-support page in the owning year/channel folder
-- **strategy-page** = thread-embedded analytical page inside a month thread
+**Purpose:** Canonical template for a standalone **strategy-page**: a stream-level analytical object that can be read as public-draft prose while retaining source receipts.
 
 **Companion contracts:** [NOTEBOOK-CONTRACT.md](NOTEBOOK-CONTRACT.md) · [THREAD-CONTRACT.md](THREAD-CONTRACT.md)
 
-## Page family
+## Glossary
 
-Use this naming split consistently:
+- **Strategy-page:** a standalone analytical object for one cognition stream.
+- **Strategy-chapter:** a daily synthesis across relevant cognition streams and strategy-pages.
+- **Strategy-book:** a month-level synthesis and coordination surface.
+- **Source capture:** literal source material; it is evidence, not a strategy-page.
 
-- **Page** = the general analytical unit in strategy-codex.
-- **codex-page** = the standalone citation/support page for one primary capture.
-- **strategy-page** = the thread-embedded analytical page composed during the strategy session.
+## Location and naming
 
-Never use bare **page** where the contrast matters. In those cases, say **codex-page** or **strategy-page** explicitly.
+Store new strategy-pages as standalone files:
 
-Raw wording lives in `raw-input/`; pages are the first analytical layer above literal capture.
-
-## State model
-
-Use this strategy-state split consistently:
-
-- **Knowledge** = governed understanding and owned judgment
-- **Library** = governed reference world and return-to sources
-- **Memory** = resumable continuity and open-loop state
-- **Archive** = governed evidence and provenance spine
-
-Notebook mapping:
-
-- `raw-input/` is archive-adjacent literal capture
-- `codex-page` bridges archive toward knowledge
-- `strategy-page` is the primary knowledge-production surface
-- `days.md` is primarily memory, though it may compress knowledge
-
-## Judgment loop
-
-Every substantive analytical page should leave behind a compact, revisitable judgment loop:
-
-1. make or refine a call
-2. name a falsifier
-3. name a revisit trigger or horizon
-4. later record whether the call held, weakened, broke, or remains open
-
-This is the notebook's defense against `T + C` drift: evidence alone is not enough if the page leaves no way to revisit what it claimed.
-
-## Current-world source discipline
-
-For strategy-pages that lean on current-world claims, carry forward the CM-1 benchmark lesson: a fluent page is not necessarily a grounded page.
-
-Include, in `### Chronicle`, `### Reflection`, or `### Appendix` as appropriate:
-
-- **Source mode:** `prompt_only`, `source_pack`, or `live_lookup`
-- **Verified vs interpretation:** one line separating what the sources establish from what the page infers
-- **Weakest factual link:** one line naming the current claim most likely to break
-- **Source-sensitive loop:** Call / Falsifier / Revisit should change when source evidence changes the frame
-
-Do not promote current-company, current-event, deployment, casualty, market, or capability claims into `### Reflection` without source support appropriate to the page's source mode.
-
----
-
-## codex-page -> `codex/<year>/<channel>/<expert_id>-page-YYYY-MM-DD.md`
-
-# Cognition stream codex-page - `<expert_id>`
-
-WORK only; not Record.
-
-Use this when the standalone page should stand on its own outside the thread while preserving a direct citation handle back to `raw-input/`. In the state model, the codex-page is the main archive-to-knowledge bridge.
-
-**Location and naming rules:**
-
-- Store the file in the owning year/channel folder, for example `codex/2026/mercouris/mercouris-page-2026-05-01.md`.
-- Keep expert-first basenames: `<expert_id>-page-YYYY-MM-DD.md`.
-- When more than one same-day page is needed, use `<expert_id>-page-YYYY-MM-DD-<slug>.md`.
-- One raw-input capture usually feeds one primary codex-page, but multiple codex-pages may cite the same raw-input file when host/guest or channel ownership splits are intentional.
-
-**Surface rules:**
-
-- `### Verbatim` = curated excerpts from one primary raw-input source
-- `### Reflection` = operator analysis grounded in that capture
-- `### Predictive Outlook` = the compact judgment-loop surface for the stream
-- `### Appendix` = source wiring and continuity machinery
-
-**Predictive Outlook minimum:** use a short three-line block:
-
-```markdown
-- **Call:** <one short expectation / interpretation / warning>
-- **Falsifier:** <one observation that would weaken or overturn the call>
-- **Revisit:** <one date, event trigger, or condition>
+```text
+codex/<year>/<stream>/<stream>-page-YYYY-MM-DD[-slug].md
 ```
 
-This block is required for substantive codex-pages. Keep it compact; codex-pages remain mostly evidence-forward.
+Examples:
 
-**Readable-body balance:** target roughly `~70-80%` of readable body weight in `### Verbatim`. This is a guidance band, not a hard fail threshold.
+- `codex/2026/mercouris/mercouris-page-2026-05-01.md`
+- `codex/2026/pape/pape-page-2026-05-01-escalation-trap.md`
 
-**Skeleton:**
+The old distinction between `codex-page` and thread-fenced `strategy-page` is legacy compatibility only. Existing files and `<!-- strategy-page:start ... -->` blocks remain readable/importable, but new writing should use the standalone strategy-page shape above.
 
-```markdown
-# <Stream / author> codex-page - YYYY-MM-DD
-WORK only; not Record.
+## Public-draft body rules
 
-**Cognition stream:** `<expert_id>` · **Published:** YYYY-MM-DD · **Artifact:** codex-page.
+The body should be readable by an outside audience. Avoid backend jargon in body prose, including `civ-mem`, `WORK`, `Record`, `raw-input`, `source_mode`, `strategy-codex`, and internal path talk. Internal paths and process terms belong only in `### Sources`, examples, or tooling docs.
 
----
+Prefer bullet-point argumentation supported by source material:
 
-### Verbatim
+- `### Signal` and major `### Judgment` bullets should be supported by a verbatim quote, explicit source fact, or explicit inference.
+- When quoting, use 1-3 full sentences.
+- If no source text exists, do not fabricate quotes; use prompt premises or source facts and label them plainly.
 
-### Reflection
+Every strategy-page should use historical-pattern reasoning, but it should appear as public analysis rather than backend language. A brief argument bullet can satisfy this when the analogy is not load-bearing; use the phrase "historical pattern" only when it improves clarity.
 
-### Predictive Outlook
+## Required sections
 
-- **Call:** <one short expectation / interpretation / warning>
-- **Falsifier:** <one observation that would weaken or overturn the call>
-- **Revisit:** <one date, event trigger, or condition>
+- `### Signal` = evidence-rich threshold section: what made the page worth writing.
+- `### Judgment` = argument-step reasoning, with live tensions preserved.
+- `### Prediction` = up to three revisitable loops when claims are separable.
+- `### Sources` = source links or receipts only.
 
----
-
-### Appendix
-
-- **Primary raw-input:** [raw-input/YYYY-MM-DD/<slug>.md](...)
-- **Supporting raw-input:** [raw-input/YYYY-MM-DD/<slug>.md](...)  <!-- optional; keep the set small -->
-- **Source mode:** <prompt_only | source_pack | live_lookup>  <!-- current-world pages only -->
-- **Weakest factual link:** <one claim most likely to break>  <!-- current-world pages only -->
-```
-
-**Rule of use:** codex-pages are source/verbatim support, durable citation handles, and the main archive-to-knowledge bridge for `thread`, `days.md`, and later synthesis. They do not replace the main analytical role of `strategy-page` blocks.
-
----
-
-## strategy-page -> thread-fence page
-
-# Cognition stream strategy-page - `<expert_id>`
-
-WORK only; not Record.
-
-Use this inside `experts/<expert_id>/<expert_id>-thread-YYYY-MM.md` or legacy `thread.md`.
-
-**Surface rules:**
-
-- `### Chronicle` = curated quote body or distilled evidentiary line
-- `### Reflection` = operator analysis
-- `### Predictive Outlook` = the required judgment-loop surface
-- `### Appendix` = machinery only
-
-**Predictive Outlook minimum:** use the same short three-line block:
+Prediction loops use this shape:
 
 ```markdown
-- **Call:** <one short forward-looking or interpretive claim>
+- **Prediction:** <falsifiable expectation or interpretive claim>
 - **Falsifier:** <what would weaken or overturn it>
-- **Revisit:** <date, event, or threshold that should trigger review>
+- **Revisit:** <date, event, or threshold>
 ```
 
-This block is required for normal strategy-page writing. It should not be replaced by vague future-looking filler.
-
-**Skeleton:**
+## Skeleton
 
 ```markdown
-<!-- strategy-page:start id="<kebab-id>" date="YYYY-MM-DD" watch="<optional-watch-slug>" -->
-### Page: <human title>
+# <Public title>
 
-### Chronicle
+**Date:** YYYY-MM-DD
+**Status:** Draft strategy-page
+**Stream:** <stream>
 
-### Reflection
+### Signal
 
-### Predictive Outlook
+- <Source claim or observation that crossed the threshold. Include a 1-3 sentence quote when source text exists.>
 
-- **Call:** <one short forward-looking or interpretive claim>
+### Judgment
+
+- <Argument step supported by quote, source fact, or explicit inference.>
+- <Historical-pattern reasoning in public prose, if it sharpens the judgment.>
+- <Tension, mismatch, or weakest part of the claim.>
+
+### Prediction
+
+- **Prediction:** <falsifiable expectation or interpretive claim>
 - **Falsifier:** <what would weaken or overturn it>
-- **Revisit:** <date, event, or threshold that should trigger review>
+- **Revisit:** <date, event, or threshold>
 
----
+### Sources
 
-### Appendix
-- **Source mode:** <prompt_only | source_pack | live_lookup>  <!-- current-world pages only -->
-- **Verified vs interpretation:** <one-line distinction>  <!-- current-world pages only -->
-- **Weakest factual link:** <one claim most likely to break>  <!-- current-world pages only -->
-<!-- strategy-page:end -->
+- <source link or receipt>
 ```
 
-**Rule of use:** the strategy-page is the notebook's primary composed analytical unit and its main knowledge-production surface. Use codex-pages to support and cite it, not to compete with it. If a page truly carries no live call, keep it transcript-only / codex-page-only or state a minimal call such as "this frame remains tentative pending X."
+## Relationship to chapters and books
 
----
-
-## Relationship to other templates
-
-- Month continuity and chapter rhythm belong to [strategy-codex-template-book.md](strategy-codex-template-book.md) and [strategy-codex-template-chapter.md](strategy-codex-template-chapter.md).
-- Legacy file-contract references to `strategy-expert-template.md` may persist while links are being updated.
+Strategy-pages carry stream-level analysis. Strategy-chapters synthesize multiple strategy-pages across the day. Strategy-books coordinate the month.

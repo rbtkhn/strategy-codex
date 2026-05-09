@@ -1,70 +1,86 @@
-# Strategy-codex template - chapter
+# Strategy-codex template - strategy-chapter
 <!-- word_count: canonical scaffold -->
 
 WORK only; not Record.
 
-**Purpose:** Canonical chapter template for strategy-codex. A **chapter** is the day-bounded continuity unit inside a book/month.
+**Purpose:** Canonical template for a **strategy-chapter**: the daily synthesis across relevant cognition streams and strategy-pages.
 
 **Companion contracts:** [NOTEBOOK-CONTRACT.md](NOTEBOOK-CONTRACT.md) · [STRATEGY-NOTEBOOK-ARCHITECTURE.md](STRATEGY-NOTEBOOK-ARCHITECTURE.md)
 
 ## Chapter role
 
-- **Book** = month-level synthesis and index surface.
-- **Chapter** = daily composition surface.
-- **Page** = analytical unit cited or composed within the chapter's day.
+- **Strategy-page** = stream-level analytical object.
+- **Strategy-chapter** = daily synthesis across streams.
+- **Strategy-book** = month-level synthesis and coordination surface.
+- **Source capture** = literal source material, not a page.
 
-The chapter file is normally the active month's `chapters/YYYY-MM/days.md`, with one or more dated sections inside it.
+The chapter file remains:
 
-## Chapter block -> `chapters/YYYY-MM/days.md`
+```text
+codex/<year>/chapters/<YYYY-MM>/days.md
+```
 
-# Chapter block - `YYYY-MM-DD`
+Each `## YYYY-MM-DD` block is one strategy-chapter. Default length is 1200-2000 words when the day synthesizes many pages.
 
-WORK only; not Record.
+## Public-draft body rules
 
-Use this for the daily continuity block composed during the strategy session.
+The body should be readable by an outside audience. Avoid backend jargon in body prose, including `civ-mem`, `WORK`, `Record`, `raw-input`, `source_mode`, `strategy-codex`, and internal path talk. Internal paths and process terms belong in `### References`.
 
-**Minimum sections:**
+Prefer bullet-point synthesis supported by the pages being synthesized:
 
-- `### Chronicle`
-- `### Reflection`
-- `### References`
+- Quote from already-captured strategy-page or source material when a quotation clarifies the signal.
+- Use 1-3 full sentences when quoting.
+- Do not re-quote large source blocks in the chapter.
 
-**Current-world continuity rule:** If the chapter summarizes or carries forward current-world strategy-pages, preserve the source discipline that made the page revisitable:
+## Required sections
 
-- name any load-bearing `source_mode` (`prompt_only`, `source_pack`, or `live_lookup`)
-- keep verified evidence separate from interpretation
-- carry forward the weakest factual link when it remains unresolved
-- note whether the day's Call / Falsifier / Revisit held, weakened, broke, or remains open
+- `### Signal` = 3-7 top cross-stream signals, deduped and thresholded.
+- `### Judgment` = synthesis plus seams; preserve contradictions between streams rather than smoothing them away.
+- `### Prediction` = carry forward only the 1-3 most important page predictions, contradictions, or open loops.
+- `### References` = compact "Pages synthesized" list plus source links.
 
-**Optional sections when the day genuinely needs them:**
+Prediction loops use this shape:
 
-- `### Open`
-- `### Bets`
-- `### Jiang`
-- `### History resonance`
+```markdown
+- **Prediction:** <falsifiable expectation or interpretive claim>
+- **Falsifier:** <what would weaken or overturn it>
+- **Revisit:** <date, event, or threshold>
+```
 
-**Skeleton:**
+## Skeleton
 
 ```markdown
 ## YYYY-MM-DD
 
-### Chronicle
+**Status:** Draft strategy-chapter
 
-### Reflection
+### Signal
+
+- <Top cross-stream signal, with a short quote if it sharpens the point.>
+- <Second signal.>
+
+### Judgment
+
+- <Daily synthesis across streams.>
+- <Seam or contradiction that should remain visible.>
+
+### Prediction
+
+- **Prediction:** <most important carried-forward expectation or interpretive claim>
+- **Falsifier:** <what would weaken or overturn it>
+- **Revisit:** <date, event, or threshold>
 
 ### References
 
-<!-- Current-world carry-forward, when relevant:
-- **Source mode:** <prompt_only | source_pack | live_lookup>
-- **Weakest factual link:** <one claim most likely to break>
-- **Judgment status:** <held | weakened | broke | open>
--->
-```
+**Pages synthesized:**
 
-**Rule of use:** chapters hold chronology and continuity. They should point toward page-level work, not duplicate whole page bodies.
+- [<strategy-page title>](../../<stream>/<stream>-page-YYYY-MM-DD.md)
+
+**Sources:**
+
+- <source link or receipt>
+```
 
 ## Relationship to pages and books
 
-- Pull evidence from `raw-input/` and page work.
-- Name or link page ids when a page is load-bearing for the day.
-- Let the month/book layer summarize the chapter set rather than bloating the chapter with month-scale recap.
+Strategy-chapters coordinate the day. They should synthesize strategy-pages, not duplicate each page body. Let the strategy-book summarize the month rather than bloating the chapter with month-scale recap.

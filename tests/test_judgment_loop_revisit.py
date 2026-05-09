@@ -66,6 +66,37 @@ Commodity pain will harden into a blockade calendar rather than easing into dipl
     assert "Update register status" in loop.suggested_next_action or "tag outcome" in loop.suggested_next_action
 
 
+def test_build_judgment_loop_report_accepts_prediction_field(tmp_path: Path) -> None:
+    nb = tmp_path / "codex"
+    _write(
+        nb / "2026" / "pape" / "pape-page-2026-04-10-test.md",
+        """# Pape strategy-page - 2026-04-10
+
+### Signal
+
+- A shipping disruption moved from background risk to active strategic signal.
+
+### Judgment
+
+- The market signal matters because it can discipline the diplomatic calendar.
+
+### Prediction
+
+- **Prediction:** The pressure thesis will remain live through late April.
+- **Falsifier:** Shipping normalizes before the end of April.
+- **Revisit:** 2026-04-20
+""",
+    )
+    _write(nb / "2026" / "chapters" / "2026-04" / "days.md", "## 2026-04-28\n")
+
+    report = build_judgment_loop_report(nb, today=date(2026, 5, 4), user_id="grace-mar")
+
+    loops = report["loops"]
+    assert loops
+    assert loops[0].call == "The pressure thesis will remain live through late April."
+    assert loops[0].falsifier == "Shipping normalizes before the end of April."
+
+
 def test_build_judgment_loop_report_detects_polyphonic_tension(tmp_path: Path) -> None:
     nb = tmp_path / "codex"
     _write(

@@ -32,7 +32,7 @@ RE_DATE = re.compile(r"\b(20\d{2}-\d{2}-\d{2})\b")
 RE_MD_LINK = re.compile(r"\[[^\]]+\]\(([^)]+)\)")
 RE_HEADING = re.compile(r"^#\s+(.+)$", re.MULTILINE)
 RE_FIELD_LINE = re.compile(r"^\s*-\s+\*\*(?P<key>[^*]+)\*\*:\s*(?P<value>.+?)\s*$")
-RE_BOLD_FIELD = re.compile(r"\*\*(Call|Falsifier|Revisit|Status|Outcome note|Reference):\*\*\s*(.+)")
+RE_BOLD_FIELD = re.compile(r"\*\*(Call|Prediction|Falsifier|Revisit|Status|Outcome note|Reference):\*\*\s*(.+)")
 
 OPEN_STATUSES = {"open", "still open"}
 RESOLVED_STATUSES = {"held", "weakened", "broke", "superseded"}
@@ -307,17 +307,19 @@ def _parse_loop_from_sections(
     page_date: str | None,
     sections: dict[str, str],
 ) -> JudgmentLoop | None:
-    predictive = sections.get("predictive outlook", "")
-    reflection = sections.get("reflection", "")
+    predictive = sections.get("prediction") or sections.get("predictive outlook") or ""
+    reflection = sections.get("judgment") or sections.get("reflection") or ""
     foresight = (
+        sections.get("prediction")
+        or sections.get("predictive outlook")
+        or
         sections.get("foresight / verify")
         or sections.get("foresight")
-        or sections.get("predictive outlook")
         or ""
     )
 
     explicit_fields = _extract_field_block(predictive)
-    call = explicit_fields.get("call", "")
+    call = explicit_fields.get("prediction") or explicit_fields.get("call", "")
     falsifier = explicit_fields.get("falsifier", "")
     revisit = explicit_fields.get("revisit", "")
     confidence = "explicit"
@@ -428,7 +430,7 @@ def _iter_register_loops(notebook_root: Path) -> list[JudgmentLoop]:
             page_id=_slugify(label),
             watch=None,
             page_date=header_match.group("date"),
-            call=fields.get("call", ""),
+            call=fields.get("prediction") or fields.get("call", ""),
             falsifier=fields.get("falsifier", ""),
             revisit=fields.get("revisit", ""),
             confidence="register",
@@ -642,7 +644,7 @@ def format_due_open_loops_markdown(
         path = loop.source_path
         lines.append(
             f"- **{loop.stream}** â€” `{state}` â€” `{path}` â€” "
-            f"Call: {loop.call} "
+            f"Prediction: {loop.call} "
             f"Revisit: {loop.revisit or 'not explicit'} "
             f"Next: {loop.suggested_next_action}"
         )

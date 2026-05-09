@@ -27,7 +27,7 @@ from grace_mar.observability.metric_contract import WORKFLOW_METRIC_KEY, fill_co
 OUT = REPO_ROOT / "artifacts/work-strategy/strategy-observability.json"
 
 STRATEGY_ROOT = REPO_ROOT / "docs/skill-work/work-strategy"
-NB_ROOT = STRATEGY_ROOT / "strategy-notebook"
+NB_ROOT = REPO_ROOT / "codex"
 
 
 def _count_dated_entries(days_path: Path) -> tuple[int, list[str]]:
@@ -40,7 +40,7 @@ def _count_dated_entries(days_path: Path) -> tuple[int, list[str]]:
 
 
 def _section_density(days_path: Path) -> dict:
-    """Per-entry average of key sections present (Chronicle, Reflection, References, Foresight)."""
+    """Per-entry average of key sections present (Signal, Judgment, References, Prediction)."""
     if not days_path.is_file():
         return {"entries": 0, "avg_sections": 0.0}
     text = days_path.read_text(encoding="utf-8", errors="replace")
@@ -51,13 +51,13 @@ def _section_density(days_path: Path) -> dict:
     total = 0
     for entry in entries:
         slots = 0
-        if "### Chronicle" in entry or "### Signal" in entry:
+        if "### Signal" in entry or "### Chronicle" in entry:
             slots += 1
-        if "### Reflection" in entry or "### Judgment" in entry:
+        if "### Judgment" in entry or "### Reflection" in entry:
             slots += 1
         if "### References" in entry or "### Links" in entry:
             slots += 1
-        if "### Foresight" in entry or "### Open" in entry:
+        if "### Prediction" in entry or "### Foresight" in entry or "### Open" in entry:
             slots += 1
         total += slots
     return {
@@ -86,12 +86,17 @@ def _links_density(days_path: Path) -> float:
 
 
 def _open_carry_forward(days_path: Path) -> int:
-    """Count Foresight (or legacy Open) sections that mention verify/deferred/? etc."""
+    """Count Prediction/Foresight/Open sections that mention verify/deferred/? etc."""
     if not days_path.is_file():
         return 0
     text = days_path.read_text(encoding="utf-8", errors="replace")
     open_blocks = re.findall(
+        r"### Prediction\n(.*?)(?=\n### |\n## |\Z)", text, re.DOTALL
+    )
+    open_blocks.extend(
+        re.findall(
         r"### Foresight\n(.*?)(?=\n### |\n## |\Z)", text, re.DOTALL
+        )
     )
     open_blocks.extend(
         re.findall(r"### Open\n(.*?)(?=\n### |\n## |\Z)", text, re.DOTALL)
@@ -170,13 +175,13 @@ def main() -> int:
         density = _section_density(days_file)
         links_avg = _links_density(days_file)
         open_carry = _open_carry_forward(days_file)
-        knots_dir = days_file.parent / "knots"
-        knot_count = len(list(knots_dir.glob("strategy-notebook-knot-*.md"))) if knots_dir.is_dir() else 0
+        pages_dir = days_file.parent / "pages"
+        page_count = len(list(pages_dir.glob("strategy-notebook-page-*.md"))) if pages_dir.is_dir() else 0
         total_entries += count
         month_summaries[month] = {
             "dated_entries": count,
-            "legacy_chapter_stubs": knot_count,
-            "knot_pages": knot_count,
+            "legacy_chapter_stubs": page_count,
+            "page_pages": page_count,
             "avg_sections_per_entry": density["avg_sections"],
             "avg_links_per_entry": links_avg,
             "open_carry_forward": open_carry,
@@ -204,7 +209,7 @@ def main() -> int:
             },
         },
         "interpretation": {
-            "avg_sections_per_entry": "4.0 = Chronicle/Reflection/References/Foresight (or legacy headings) present; <3.0 = sections skipped regularly",
+            "avg_sections_per_entry": "4.0 = Signal/Judgment/References/Prediction present; legacy Chronicle/Reflection/Foresight/Open also count; <3.0 = sections skipped regularly",
             "avg_links_per_entry": ">2 healthy; <1 = judgment may be under-cited",
             "open_carry_forward": "High = active threads; very high relative to entries = unresolved debt",
             "inbox_pending_lines": "0 = clean; >30 = overdue weave; >50 = prune candidate",

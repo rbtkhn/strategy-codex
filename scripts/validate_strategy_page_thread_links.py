@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
-"""Validate bindings between standalone expert pages and expert thread files.
+"""Validate bindings between standalone strategy-pages and stream thread files.
 
 WORK only; not Record.
 
 This is an adoption validator for the page-thread binding contract:
 
-- Pages / Work Product are standalone ``experts/<id>/<id>-page-YYYY-MM-DD*.md``.
+- Strategy-pages are standalone ``<stream>/<stream>-page-YYYY-MM-DD*.md``.
 - Thread / Continuity is the matching monthly thread file
-  ``experts/<id>/<id>-thread-YYYY-MM.md`` or legacy ``experts/<id>/thread.md``.
+  ``<stream>/<stream>-thread-YYYY-MM.md`` or legacy ``<stream>/thread.md``.
 - Page appendix metadata may declare Thread file / Thread month / Thread role /
   Continuity delta.
 - Thread month segments may include a compact ``### Pages / Work Product`` index.
@@ -28,7 +28,7 @@ from pathlib import Path
 from typing import Any
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-NOTEBOOK_DIR = REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook"
+NOTEBOOK_DIR = REPO_ROOT / "codex"
 THREAD_MARKER_START = "<!-- strategy-expert-thread:start -->"
 VALID_ROLES = {
     "new-thesis",
@@ -92,12 +92,31 @@ def page_title(text: str, fallback: str) -> str:
     return m.group(1).strip()
 
 
+def _stream_dirs(notebook_dir: Path) -> list[Path]:
+    skip = {"chapters", "raw-input", "compiled-views", "demo-runs", "notes", "watches"}
+    dirs = [
+        p
+        for p in sorted(notebook_dir.glob("20[0-9][0-9]/*"))
+        if p.is_dir() and p.name not in skip
+    ]
+    dirs.extend(
+        p
+        for p in sorted(notebook_dir.glob("20[0-9][0-9]/supporting-voices/*"))
+        if p.is_dir()
+    )
+    # Legacy docs notebook layout.
+    experts_dir = notebook_dir / "experts"
+    dirs.extend(
+        p
+        for p in sorted(experts_dir.iterdir() if experts_dir.is_dir() else [])
+        if p.is_dir() and not p.name.startswith(".")
+    )
+    return dirs
+
+
 def discover_pages(notebook_dir: Path, expert_filter: str = "", month_filter: str = "") -> list[PageInfo]:
     pages: list[PageInfo] = []
-    experts_dir = notebook_dir / "experts"
-    for expert_dir in sorted(experts_dir.iterdir() if experts_dir.is_dir() else []):
-        if not expert_dir.is_dir() or expert_dir.name.startswith("."):
-            continue
+    for expert_dir in _stream_dirs(notebook_dir):
         expert_id = expert_dir.name
         if expert_filter and expert_id != expert_filter:
             continue
@@ -124,10 +143,13 @@ def discover_pages(notebook_dir: Path, expert_filter: str = "", month_filter: st
 
 
 def expected_thread_file(page: PageInfo, notebook_dir: Path) -> Path:
-    expert_dir = notebook_dir / "experts" / page.expert_id
+    expert_dir = page.path.parent
     monthly = expert_dir / f"{page.expert_id}-thread-{page.month}.md"
     if monthly.is_file():
         return monthly
+    named = expert_dir / f"{page.expert_id}-thread.md"
+    if named.is_file():
+        return named
     return expert_dir / "thread.md"
 
 

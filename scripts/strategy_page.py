@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""Compose a new page for named experts and insert it into their thread files.
+"""Compose standalone strategy-page scaffolds for named streams.
 
 The **page** command is the Ship-lane complement to **weave** (Think lane).
-It creates a marker-fenced page block in each named expert's thread file
-under the current ``## YYYY-MM`` chapter.
+New strategy-pages are standalone files in the owning stream folder. Legacy
+thread-fenced page insertion remains available behind ``--legacy-thread-fence``
+for compatibility with older notebook material.
 
 Usage::
 
@@ -49,7 +50,7 @@ DEFAULT_INBOX = (
     / "docs/skill-work/work-strategy/strategy-notebook/daily-strategy-inbox.md"
 )
 DEFAULT_NOTEBOOK = (
-    REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook"
+    REPO_ROOT / "codex"
 )
 
 PAGE_MARKER_START = '<!-- strategy-page:start id="{id}" date="{date}" watch="{watch}" -->'
@@ -123,6 +124,88 @@ def build_page_block(
     return "\n".join(lines)
 
 
+def _slugify(value: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "-", value.lower()).strip("-")
+
+
+def page_path_for_stream(
+    notebook_root: Path,
+    stream_id: str,
+    page_date: str,
+    page_id: str,
+    *,
+    explicit_id: bool,
+) -> Path:
+    """Return the preferred standalone strategy-page path for a stream."""
+    year = page_date[:4]
+    stream_slug = _slugify(stream_id)
+    stem = f"{stream_slug}-page-{page_date}"
+    if explicit_id:
+        suffix = _slugify(page_id)
+        if suffix and suffix not in {stream_slug, page_date, f"{stream_slug}-{page_date}"}:
+            stem = f"{stem}-{suffix}"
+    return notebook_root / year / stream_slug / f"{stem}.md"
+
+
+def build_strategy_page_document(
+    *,
+    stream_id: str,
+    page_date: str,
+    page_id: str,
+    watch: str,
+    streams: list[str],
+    inbox_lines: list[str],
+) -> str:
+    """Render a public-draft standalone strategy-page scaffold."""
+    also_in = [e for e in streams if e != stream_id]
+    title = page_id.replace("-", " ").strip().title() or f"{stream_id} strategy-page"
+    lines = [
+        f"# {title}",
+        "",
+        f"**Date:** {page_date}",
+        "**Status:** Draft strategy-page",
+        f"**Stream:** {stream_id}",
+    ]
+    if watch:
+        lines.append(f"**Watch:** {watch}")
+    if also_in:
+        lines.append(f"**Related streams:** {', '.join(also_in)}")
+    lines.extend(
+        [
+            "",
+            "### Signal",
+            "",
+            "- Replace this with the source claim or observation that made the page worth writing. When source text exists, support the bullet with 1-3 full quoted sentences.",
+            "",
+        ]
+    )
+    if inbox_lines:
+        lines.append("- Candidate source prompts from inbox:")
+        for il in inbox_lines[:10]:
+            lines.append(f"  - {il}")
+        lines.append("")
+    lines.extend(
+        [
+            "### Judgment",
+            "",
+            "- Replace this with the first argument step. Support major claims with a quote, source fact, or explicit inference.",
+            "- Include historical-pattern reasoning in public prose when it sharpens the judgment; do not use backend labels.",
+            "",
+            "### Prediction",
+            "",
+            "- **Prediction:** <falsifiable expectation or interpretive claim>",
+            "- **Falsifier:** <what would weaken or overturn it>",
+            "- **Revisit:** <date, event, or threshold>",
+            "",
+            "### Sources",
+            "",
+            "- <source link or receipt>",
+            "",
+        ]
+    )
+    return "\n".join(lines)
+
+
 # ---------------------------------------------------------------------------
 # Thread file insertion
 # ---------------------------------------------------------------------------
@@ -173,6 +256,16 @@ def insert_page(thread_path: Path, month: str, page_block: str, dry_run: bool) -
     return f"{label} page '{month_heading}' in {thread_path}"
 
 
+def write_standalone_page(path: Path, content: str, dry_run: bool) -> str:
+    label = "would write" if dry_run else "wrote"
+    if not dry_run:
+        path.parent.mkdir(parents=True, exist_ok=True)
+        if path.exists():
+            return f"skip (strategy-page already exists): {path}"
+        path.write_text(content, encoding="utf-8")
+    return f"{label} standalone strategy-page: {path}"
+
+
 # ---------------------------------------------------------------------------
 # CLI
 # ---------------------------------------------------------------------------
@@ -194,6 +287,11 @@ def main() -> int:
     ap.add_argument("--inbox", type=Path, default=DEFAULT_INBOX)
     ap.add_argument("--notebook", type=Path, default=DEFAULT_NOTEBOOK)
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument(
+        "--legacy-thread-fence",
+        action="store_true",
+        help="Use the old thread-fenced strategy-page insertion path.",
+    )
     ap.add_argument(
         "--operation",
         choices=[e.value for e in PageOperation],
@@ -229,26 +327,46 @@ def main() -> int:
         sources_read.append(rel_posix(REPO_ROOT, args.inbox.resolve()))
     outputs_touched: list[str] = []
     for eid in expert_ids:
-        page_block = build_page_block(
-            page_id=page_id,
-            page_date=page_date,
-            watch=args.watch,
-            experts=expert_ids,
-            current_expert=eid,
-            inbox_lines=inbox_lines,
-        )
-        thread_path = thread_path_for_page_month(args.notebook, eid, month)
-        thread_path = thread_path.resolve()
-        sources_read.append(rel_posix(REPO_ROOT, thread_path))
-        result = insert_page(thread_path, month, page_block, args.dry_run)
-        if not args.dry_run:
-            outputs_touched.append(rel_posix(REPO_ROOT, thread_path))
+        if args.legacy_thread_fence:
+            page_block = build_page_block(
+                page_id=page_id,
+                page_date=page_date,
+                watch=args.watch,
+                experts=expert_ids,
+                current_expert=eid,
+                inbox_lines=inbox_lines,
+            )
+            thread_path = thread_path_for_page_month(args.notebook, eid, month)
+            thread_path = thread_path.resolve()
+            sources_read.append(rel_posix(REPO_ROOT, thread_path))
+            result = insert_page(thread_path, month, page_block, args.dry_run)
+            if not args.dry_run:
+                outputs_touched.append(rel_posix(REPO_ROOT, thread_path))
+        else:
+            page_path = page_path_for_stream(
+                args.notebook.resolve(),
+                eid,
+                page_date,
+                page_id,
+                explicit_id=bool(args.page_id),
+            )
+            content = build_strategy_page_document(
+                stream_id=eid,
+                page_date=page_date,
+                page_id=page_id,
+                watch=args.watch,
+                streams=expert_ids,
+                inbox_lines=inbox_lines,
+            )
+            result = write_standalone_page(page_path, content, args.dry_run)
+            if not args.dry_run and page_path.exists():
+                outputs_touched.append(rel_posix(REPO_ROOT, page_path))
         print(f"  {result}")
 
     if args.dry_run:
-        print(f"\nDry run: page '{page_id}' for {', '.join(expert_ids)} (not written)")
+        print(f"\nDry run: strategy-page '{page_id}' for {', '.join(expert_ids)} (not written)")
     else:
-        print(f"\nCreated page '{page_id}' for {', '.join(expert_ids)}")
+        print(f"\nCreated strategy-page '{page_id}' for {', '.join(expert_ids)}")
 
     if not args.no_receipt:
         ts = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
@@ -263,7 +381,11 @@ def main() -> int:
             decision=(
                 "dry-run new strategy-page scaffolds (not written)"
                 if args.dry_run
-                else "inserted new strategy-page scaffolds"
+                else (
+                    "inserted legacy thread-fenced strategy-page scaffolds"
+                    if args.legacy_thread_fence
+                    else "wrote standalone strategy-page scaffolds"
+                )
             ),
             details={
                 "page_id": page_id,

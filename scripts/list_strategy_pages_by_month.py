@@ -6,10 +6,10 @@ validators: monthly file preferred over legacy ``thread.md`` for the same
 ``id=``). Filters by ``date=`` prefix ``YYYY-MM``.
 
 Optional ``--chronicle-snippets`` extracts **advisory** candidates from each
-page body: first non-empty paragraph under ``### Chronicle`` (dumb parse) and
-lines that look like markdown blockquotes (``>``). **Never** auto-inserts into
-the thread; selection still follows the rubric in ``strategy-expert-template.md``
-(Thread).
+page body: first non-empty paragraph under ``### Signal`` or legacy
+``### Chronicle`` (dumb parse) and lines that look like markdown blockquotes
+(``>``). **Never** auto-inserts into the thread; selection still follows the
+rubric in ``strategy-expert-template.md`` (Thread).
 
 Usage (repo root)::
 
@@ -38,26 +38,26 @@ from strategy_page_reader import PageBlock, discover_all_pages  # noqa: E402
 NOTEBOOK_DIR = REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook"
 
 YM_RE = re.compile(r"^\d{4}-\d{2}$")
-# Chronicle body: from ### Chronicle through the next ### heading or EOF
-RE_CHRONICLE = re.compile(
-    r"^###\s+Chronicle\s*$(.*?)(?=^###\s+|\Z)",
+# Signal body, with Chronicle as legacy fallback: from heading through next ### or EOF.
+RE_SIGNAL_OR_CHRONICLE = re.compile(
+    r"^###\s+(?:Signal|Chronicle)\s*$(.*?)(?=^###\s+|\Z)",
     re.IGNORECASE | re.MULTILINE | re.DOTALL,
 )
 MAX_PARA_CHARS = 500
 MAX_BQ = 20
 
 
-def _chronicle_section(content: str) -> str:
-    m = RE_CHRONICLE.search(content)
+def _signal_section(content: str) -> str:
+    m = RE_SIGNAL_OR_CHRONICLE.search(content)
     if not m:
         return ""
     return m.group(1).strip()
 
 
-def _first_paragraph(chronicle: str) -> str:
-    if not chronicle:
+def _first_paragraph(signal: str) -> str:
+    if not signal:
         return ""
-    parts = re.split(r"\n\s*\n", chronicle)
+    parts = re.split(r"\n\s*\n", signal)
     for p in parts:
         t = p.strip()
         if not t:
@@ -69,9 +69,9 @@ def _first_paragraph(chronicle: str) -> str:
     return ""
 
 
-def _blockquote_lines(chronicle: str) -> list[str]:
+def _blockquote_lines(signal: str) -> list[str]:
     out: list[str] = []
-    for line in chronicle.splitlines():
+    for line in signal.splitlines():
         s = line.strip()
         if s.startswith(">"):
             inner = s[1:].strip() if len(s) > 1 else ""
@@ -81,17 +81,19 @@ def _blockquote_lines(chronicle: str) -> list[str]:
 
 
 def chronicle_snippets_from_page_content(content: str) -> dict[str, Any]:
-    ch = _chronicle_section(content)
-    if not ch:
+    sig = _signal_section(content)
+    if not sig:
         return {
+            "signal_found": False,
             "chronicle_found": False,
             "first_paragraph": "",
             "blockquotes": [],
         }
     return {
+        "signal_found": True,
         "chronicle_found": True,
-        "first_paragraph": _first_paragraph(ch),
-        "blockquotes": _blockquote_lines(ch),
+        "first_paragraph": _first_paragraph(sig),
+        "blockquotes": _blockquote_lines(sig),
     }
 
 
@@ -127,7 +129,7 @@ def main() -> int:
     ap.add_argument(
         "--chronicle-snippets",
         action="store_true",
-        help="Advisory: first Chronicle paragraph + blockquote lines per page (dumb parse).",
+        help="Advisory: first Signal/Chronicle paragraph + blockquote lines per page (dumb parse).",
     )
     ap.add_argument(
         "--json",
@@ -200,8 +202,8 @@ def main() -> int:
             sn = chronicle_snippets_from_page_content(pb.content)
             print()
             print(f"### {eid} / {pb.id} / {pb.date}")
-            if not sn.get("chronicle_found"):
-                print("(no `### Chronicle` section parsed in fence body — check heading spelling.)")
+            if not sn.get("signal_found"):
+                print("(no `### Signal` or legacy `### Chronicle` section parsed in fence body — check heading spelling.)")
                 continue
             fp = sn.get("first_paragraph") or ""
             if fp:
@@ -212,7 +214,7 @@ def main() -> int:
                 for b in bqs:
                     print(f"  - {b}")
             if not fp and not bqs:
-                print("(Chronicle section empty or only whitespace after parse.)")
+                print("(Signal/Chronicle section empty or only whitespace after parse.)")
     return 0
 
 

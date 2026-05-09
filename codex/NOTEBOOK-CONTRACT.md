@@ -7,9 +7,9 @@ WORK only; not Record.
 
 ## Center of gravity
 
-- **Cognition streams** are the top-level analytical scaffold; **pages** are the primary composed family; legacy **`thread:<expert_id>`** handles remain routing/provenance joins; **raw-input** is the literal SSOT.
+- **Cognition streams** are the top-level analytical scaffold; **strategy-pages** are standalone stream-level analytical objects; **strategy-chapters** are daily synthesis across streams; legacy **`thread:<expert_id>`** handles remain routing/provenance joins; **raw-input** is the literal SSOT.
 - The canonical scaffold shapes now live in [strategy-codex-template-raw-input.md](strategy-codex-template-raw-input.md), [strategy-codex-template-page.md](strategy-codex-template-page.md), [strategy-codex-template-chapter.md](strategy-codex-template-chapter.md), and [strategy-codex-template-book.md](strategy-codex-template-book.md). Legacy `strategy-expert-template.md` anchors remain compatibility redirects while links are updated.
-- Month continuity in the thread journal layer is a short bookended synthesis of that month's `strategy-page` set. See [COGNITION-STREAMS.md](COGNITION-STREAMS.md), [STRATEGY-NOTEBOOK-ARCHITECTURE.md](STRATEGY-NOTEBOOK-ARCHITECTURE.md#thread-terminology), and the thread section of [strategy-expert-template.md](strategy-expert-template.md#thread-template).
+- Month continuity in the thread journal layer is a short bookended synthesis and index of that month's standalone strategy-page set. See [COGNITION-STREAMS.md](COGNITION-STREAMS.md), [STRATEGY-NOTEBOOK-ARCHITECTURE.md](STRATEGY-NOTEBOOK-ARCHITECTURE.md#thread-terminology), and the thread section of [strategy-expert-template.md](strategy-expert-template.md#thread-template).
 
 ## Compatibility naming
 
@@ -27,11 +27,11 @@ Editing rule:
 
 If a document needs both names, make the compatibility status explicit rather than silently swapping terms.
 
-**Why this matters:** Future agents need one clean distinction before they write: use raw-input and codex-pages to preserve and cite what was said; use cognition streams to choose the interpretive lane; use thread-embedded `strategy-page` blocks to compose what the notebook thinks. That split keeps archive, routing, continuity, and judgment from collapsing into one ambiguous file.
+**Why this matters:** Future agents need one clean distinction before they write: source capture preserves what was said; strategy-pages make stream-level judgment; strategy-chapters synthesize the day. Legacy `codex-page` language and thread-fenced `strategy-page` blocks remain readable/importable, but they are not the preferred shape for new writing.
 
-**Strategy-state model:** strategy-codex uses a four-part state split. **Knowledge** = governed understanding and owned judgment. **Library** = governed reference world and return-to sources. **Memory** = resumable continuity and open-loop state. **Archive** = governed evidence and provenance spine. In notebook terms: `raw-input/` is archive-adjacent literal capture, codex-pages bridge archive toward knowledge, `strategy-page` blocks are the main knowledge-production surface, and `days.md` is primarily memory.
+**Strategy-state model:** strategy-codex uses a four-part state split. **Knowledge** = governed understanding and owned judgment. **Library** = governed reference world and return-to sources. **Memory** = resumable continuity and open-loop state. **Archive** = governed evidence and provenance spine. In notebook terms: source capture is archive-adjacent literal capture, standalone strategy-pages bridge archive toward knowledge, and strategy-chapters are daily memory/synthesis.
 
-**Judgment loop:** strategy-codex should compound durable judgment, not just archive surfaces. Every substantive analytical page should leave behind a compact loop: **Call**, **Falsifier**, and **Revisit**. Later `days.md` continuity should say whether the earlier call **held**, **weakened**, **broke**, or is **still open**. See [strategy-codex-template-page.md](strategy-codex-template-page.md) and [notes/TCLD-AUDIT-STRATEGY-CODEX.md](notes/TCLD-AUDIT-STRATEGY-CODEX.md).
+**Judgment loop:** strategy-codex should compound durable judgment, not just archive surfaces. Every substantive strategy-page should leave behind a compact loop: **Prediction**, **Falsifier**, and **Revisit**. Later strategy-chapter continuity should say whether the earlier prediction **held**, **weakened**, **broke**, or is **still open**. Legacy **Call / Falsifier / Revisit** loops remain parseable. See [strategy-codex-template-page.md](strategy-codex-template-page.md) and [notes/TCLD-AUDIT-STRATEGY-CODEX.md](notes/TCLD-AUDIT-STRATEGY-CODEX.md).
 
 **Brief advisory:** Before composing a major strategy page or public-facing synthesis, write or infer a WORK job brief: audience, objective, evidence surface, success criteria, and acceptance check. This is a drift-control aid, not a requirement for every page and not a substitute for the page/thread contract.
 
@@ -43,7 +43,7 @@ If a document needs both names, make the compatibility status explicit rather th
 
 **Author surfaces are siblings, not a hierarchy:** **Thread / Continuity** tracks temporal narrative and analytical continuity; **Pages / Work Product** are focused author-associated analytical objects. Keep a small bidirectional index, but do not duplicate the page.
 
-**Standalone codex-pages** use these continuity bullets in `### Appendix`:
+Standalone strategy-pages may use these continuity bullets in `### Sources` when stream indexing needs them:
 
 ```markdown
 - **Primary raw-input:** [raw-input/YYYY-MM-DD/<slug>.md](...)
@@ -66,9 +66,9 @@ If a document needs both names, make the compatibility status explicit rather th
 
 The thread index **does not duplicate** the page. It answers: *why does this page matter to this author's temporal continuity?*
 
-**Drafting flow:** before picking the excerpt body for a codex-page, reduce the prior month thread files into a bounded context packet. The packet is a compose aid only: it orients quote selection and synthesis, while `raw-input/` remains the literal SSOT.
+**Drafting flow:** before picking the Signal body for a strategy-page, reduce the prior month thread files into a bounded context packet. The packet is a compose aid only: it orients quote selection and synthesis, while source capture remains the literal SSOT.
 
-**Continuity review rule:** when a later day materially updates an earlier page or day-level judgment, record whether that earlier call **held**, **weakened**, **broke**, or is **still open**. Keep this lightweight and prose-native; do not turn every day into a ledger entry.
+**Continuity review rule:** when a later day materially updates an earlier strategy-page or day-level judgment, record whether that earlier prediction **held**, **weakened**, **broke**, or is **still open**. Keep this lightweight and prose-native; do not turn every day into a ledger entry.
 
 **Source-first ingest:** `raw-input/` may hold transcripts, essays, posts, bundles, or other captures even when the speaker or outlet does **not** map to an existing author folder. Treat it as archive-adjacent capture, not knowledge by itself, and keep it unthreaded unless later routing assigns it to an existing lane.
 
@@ -82,8 +82,8 @@ Use this file as the routing hub. If another notebook document appears to duplic
 |-------|-----------------|
 | Cognition stream scaffold | [COGNITION-STREAMS.md](COGNITION-STREAMS.md) |
 | Raw-input scaffold | [strategy-codex-template-raw-input.md](strategy-codex-template-raw-input.md) |
-| Fence syntax, page template | [strategy-codex-template-page.md#strategy-page---thread-fence-page](strategy-codex-template-page.md#strategy-page---thread-fence-page) |
-| codex-page scaffold | [strategy-codex-template-page.md#codex-page---codexyearchannelexpert_id-page-yyyy-mm-ddmd](strategy-codex-template-page.md#codex-page---codexyearchannelexpert_id-page-yyyy-mm-ddmd) |
+| Strategy-page scaffold | [strategy-codex-template-page.md](strategy-codex-template-page.md) |
+| Legacy fenced page parser | [validate_strategy_pages.py](../../scripts/validate_strategy_pages.py) |
 | Chapter scaffold | [strategy-codex-template-chapter.md](strategy-codex-template-chapter.md) |
 | Book scaffold | [strategy-codex-template-book.md](strategy-codex-template-book.md) |
 | Thread layers (journal vs machine), parse contract | [STRATEGY-NOTEBOOK-ARCHITECTURE.md § Thread](STRATEGY-NOTEBOOK-ARCHITECTURE.md#thread-terminology) |
@@ -100,15 +100,11 @@ Use this file as the routing hub. If another notebook document appears to duplic
 
 When several authors address the same page, the **same `id=`** appears in each author's **thread file for that month** (see [watches/README.md](watches/README.md)). This is **intentional** duplication for per-lane reading; **not** multiple competing sources of truth.
 
-## codex-pages (standalone `*-page-*.md`)
+## Strategy-pages (standalone `*-page-*.md`)
 
-**Standalone codex-pages** use the canonical section in [strategy-codex-template-page.md](strategy-codex-template-page.md#codex-page---codexyearchannelexpert_id-page-yyyy-mm-ddmd). They are the notebook's main **archive -> knowledge** bridge: source/verbatim support and citation handles for `thread` / `days.md` / analysis, not the primary composed analysis unit. Keep **`### Verbatim`** as the quote body, with **`### Reflection`** / **`### Predictive Outlook`** available for local judgment on that capture. `### Predictive Outlook` must include the compact **Call / Falsifier / Revisit** block. Target the readable-body balance in the canonical template: **~70-80%** in `### Verbatim`, as guidance rather than a hard threshold.
+New strategy-pages use the canonical scaffold in [strategy-codex-template-page.md](strategy-codex-template-page.md). They are standalone stream-level analytical objects with `Signal / Judgment / Prediction / Sources`.
 
-Each codex-page must declare one **Primary raw-input** source in `### Appendix`. A small **Supporting raw-input** set is allowed when nearby captures materially support the same page.
-
-**Primary composed analysis** lives in thread-embedded **`strategy-page`** blocks during the EOD strategy session. Those pages also carry the compact **Call / Falsifier / Revisit** block so the notebook can revisit what it actually claimed. Codex-pages should make the evidence easier to cite and route; they do not replace the `strategy-page` fence as the notebook's analytical unit.
-
-**Rule of shape:** one file per publication day by default, with `-<slug>` splitting when needed. Keep `### Appendix` for machinery only. The raw file under `raw-input/` remains the full capture.
+Legacy `codex-page` files and thread-fenced `strategy-page` blocks remain readable/importable. Do not rewrite the existing corpus just to rename those artifacts; prefer the standalone strategy-page shape for new work.
 
 ## Optional stronger tracking
 

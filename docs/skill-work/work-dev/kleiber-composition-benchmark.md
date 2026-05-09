@@ -43,7 +43,7 @@ Every run should record:
 
 | Field | Requirement |
 |-------|-------------|
-| `benchmark_id` | One of `task-4`, `task-6`, `task-10`, `cm-1-humanoid-robots` |
+| `benchmark_id` | One of `task-4`, `task-6`, `task-10`, `cm-1-humanoid-robots`, `cm-2-dopamine-flow-ai-creation` |
 | `prompt_version` | Use `composition-benchmark-v1` plus task-specific ID |
 | `rubric_version` | Use `composition-rubric-v1` or `cm-1-rubric-v1` |
 | `model` | Public model name as displayed by the provider |
@@ -66,7 +66,7 @@ Every current-world composition benchmark must include:
 - one line separating verified evidence from interpretation
 - one line naming the weakest factual link
 - no current-company or current-event claim unless supported by the selected source mode
-- Call / Falsifier / Revisit that changes when source evidence changes the frame
+- Prediction / Falsifier / Revisit that changes when source evidence changes the frame
 
 This checklist is the permanent lesson from the first CM-1 recursion: a page can hold as composition while still leaving factual grounding untested. Future Strategy-codex benchmark runs must preserve that distinction instead of treating a fluent page as a fully grounded page.
 
@@ -154,6 +154,43 @@ Style rules:
 Write the full strategy-page now.
 ```
 
+### Task CM-2 - Dopamine, Flow, and AI-Augmented Creation
+
+**Target:** `strategy-page`
+
+**Secondary target:** `strategy-chapter` or short `strategy-book` synthesis
+
+```prompt
+You are operating inside a governed strategy writing system. Write a complete strategy-page on the following topic.
+
+Topic: The intense dopamine feedback loops created by AI tools in creative and strategic work, and their implications for judgment, quality, and long-term human flourishing.
+
+Requirements:
+- Use historical-pattern reasoning as a mechanism, not decoration.
+- Do not use backend jargon such as civ-mem, WORK, Record, raw-input, source_mode, or strategy-codex in the body prose.
+- Explicitly perform the historical-pattern sequence in public-facing prose:
+  1. State the historical or civilizational pattern or precedent.
+  2. Explain why it appears to fit the current AI-augmented workflow situation.
+  3. Explain where and why it may not fit under changed technological conditions.
+  4. State what would falsify the analogy.
+  5. Show how this analysis changes or sharpens the strategic prediction.
+
+Follow the official strategy-page template:
+- Signal
+- Judgment
+- Prediction with explicit Prediction, Falsifier, and Revisit
+- Sources if useful
+
+Style rules:
+- Prefer bullet points.
+- Because this is prompt-only, do not invent verbatim quotes. Use prompt premises and clearly separate empirical-style claims from interpretation.
+- Label analogy strength clearly: illustrative, mechanistic, or strong parallel.
+- Preserve live tensions; do not resolve the dopamine/flow dilemma with easy optimism or pessimism.
+- Maximum 650 words.
+
+Write the full strategy-page now.
+```
+
 ## Template Wiring
 
 V1 is wired to these canonical templates:
@@ -186,6 +223,17 @@ Score each dimension from 1 to 5. Each score must include a one-sentence rationa
 | Strategic impact | Civ-mem clearly sharpens the Call | Mildly relevant to judgment | No impact on strategic judgment |
 | Tension preservation | Contradictions remain visible | Some flattening | Forced consensus |
 | Labeling discipline | Analogy strength explicitly labeled | Inconsistent labeling | No strength label |
+
+## CM-2 Historical-Pattern Rubric
+
+| Dimension | 5 | 3 | 1 |
+|-----------|---|---|---|
+| Template discipline | Uses Signal / Judgment / Prediction cleanly | Uses most required sections | Ignores or distorts template |
+| Historical-pattern mechanism | Historical pattern actively sharpens the strategy | Pattern is present but mostly illustrative | Superficial name-dropping |
+| Fit / mismatch balance | Nuanced similarities and changed conditions both shown | Basic comparison | Only fit or only mismatch |
+| Falsifier quality | Concrete, testable falsifier | Vague falsifier | No meaningful falsifier |
+| Tension preservation | Holds dopamine benefit vs. judgment risk honestly | Mildly acknowledges tension | Forces easy resolution |
+| Strategic prediction quality | Actionable prediction and revisit discipline | General advice | Vague or preachy |
 
 ## Closeout Mapping
 
