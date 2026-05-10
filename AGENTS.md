@@ -56,7 +56,7 @@ Four modes: **Session** (conversational, no merges â€” default), **Pipeline
 
 ### Default WORK lane (operator)
 
-Unless the operator **explicitly** names another territory (e.g. **work-dev**, **work-politics**, **work-cici**), assistants should treat the session as **work-strategy** by default: [work-strategy](docs/skill-work/work-strategy/) discipline, **skill-strategy** boundaries, strategy-notebook (inbox, `days.md`, expert threads) and verify tier. Other lanes apply when the task clearly belongs there or the operator labels it. Technical execution (fixes, scripts, CI) may still run under that default unless the operator asks for **hands-only** implementation with no strategy framing.
+Unless the operator **explicitly** names another territory (e.g. **work-dev**, **work-politics**, **work-cici**), assistants should treat the session as **work-strategy** by default: [work-strategy](docs/skill-work/work-strategy/) discipline, **skill-strategy** boundaries, the **codex-first daily judgment surface** (inbox, `days.md`, expert threads), and verify tier. Other lanes apply when the task clearly belongs there or the operator labels it. Technical execution (fixes, scripts, CI) may still run under that default unless the operator asks for **hands-only** implementation with no strategy framing.
 
 ---
 

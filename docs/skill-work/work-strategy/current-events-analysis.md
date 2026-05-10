@@ -16,9 +16,9 @@ Its purpose is not merely to summarize events. Its purpose is to convert current
 - loose historical analogy
 - synthesis before the analytical seams are visible
 
-This workflow should remain compatible with the broader work-strategy lane, where the strategy notebook is the primary daily judgment artifact and where all outputs remain WORK-only unless separately reviewed.
+This workflow should remain compatible with the broader work-strategy lane, where the **codex daily judgment surface** is the primary daily judgment artifact and where all outputs remain WORK-only unless separately reviewed.
 
-The **default destination** of this workflow is a **strategy-notebook** entry (after weave from [daily-strategy-inbox.md](strategy-notebook/daily-strategy-inbox.md) when capture started there). Other outputs are optional escalations from that notebook-first path.
+The **default destination** of this workflow is a **codex** entry (after weave from [daily-strategy-inbox.md](../../../codex/daily-strategy-inbox.md) when capture started there). Other outputs are optional escalations from that codex-first path.
 
 See:
 - [README.md](README.md)
@@ -30,7 +30,7 @@ See:
 
 1. Neutral fact summary
 2. Event classification
-3. **Strategy-notebook** entry (synthesized judgment — typically after **inbox** capture and **explicit weave** per [STRATEGY-NOTEBOOK-ARCHITECTURE.md](strategy-notebook/STRATEGY-NOTEBOOK-ARCHITECTURE.md#default-operating-path-ssot))
+3. **Codex daily judgment** entry (synthesized judgment — typically after **inbox** capture and **explicit weave** per [STRATEGY-NOTEBOOK-ARCHITECTURE.md](../../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md#default-operating-path-ssot))
 4. Optional resonance note / analogy audit / watch support
 5. Decision point only if escalation and real options are present
 6. Optional recursion-gate staging only if explicitly requested
@@ -69,7 +69,7 @@ A run may produce one or more of the following:
 - resonance note
 - analogy audit
 - watch support note
-- strategy-notebook entry
+- codex daily judgment entry
 - decision-point support
 - synthesis block
 - optional deliberation receipt
@@ -337,7 +337,7 @@ First stop for reusable historical and civilizational cases.
 ### [promotion-ladder.md](promotion-ladder.md)
 Defines how a case hit becomes resonance, audit, watch support, decision support, or doctrine.
 
-### [strategy-notebook/](strategy-notebook/README.md)
+### [../../../codex/](../../../codex/README.md)
 Primary daily judgment surface where many outputs should ultimately land.
 
 ### [history-notebook/](history-notebook/README.md)
