@@ -49,6 +49,8 @@ flowchart TD
 
 **Full pass:** the same, plus an explicit **test** line and, when the arc deserves it, **ladder** / **STRATEGY**; **gate** only when the update is **governed** behavior.
 
+**Writing-practice closes:** If a conductor pass exposes repeated public-writing friction, use the close to name a **Friction / rule candidate** before changing doctrine. The first durable home is usually [write-operator-preferences.md](../docs/skill-write/write-operator-preferences.md) or [write-shipping-checklist.md](../docs/skill-write/write-shipping-checklist.md), not Record surfaces. The future check should be concrete: would this proposed rule have prevented the session drag without adding needless process?
+
 ---
 
 ## 3. Optional cadence closure — `coffee_conductor_outcome`
@@ -61,6 +63,12 @@ python3 scripts/log_cadence_event.py --kind coffee_conductor_outcome -u grace-ma
 ```
 
 **`verdict=`** (examples): `watch` · `promote` · `shelf` · `no_action` — see [work-cadence-events.md header](../../work-cadence/work-cadence-events.md). For new logs, include **`conductor=<slug>`** every time, plus **`notebook_ref=`** or **`falsify=`** so the close stays attributable from the ledger alone. If the session ended without that shape, add a repair outcome on the next turn instead of leaving the close implicit.
+
+For writing-friction outcomes, interpret verdicts narrowly:
+
+- `verdict=watch` — the friction is visible but needs another recurrence before becoming a rule.
+- `verdict=promote` — propose a WORK-layer docs-rule patch; this does **not** mutate the Record.
+- `verdict=shelf` — the friction was contextual and should not become doctrine.
 
 **Documented optional `kv` (no script schema required; keep values short, token-safe):**
 

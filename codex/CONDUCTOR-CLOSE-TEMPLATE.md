@@ -13,6 +13,7 @@ Copy into **`chapters/YYYY-MM/days.md`** under the same `## YYYY-MM-DD` block yo
 - **Falsify / next test:** <one line: what would prove this pass wrong or incomplete>
 - **Abundance / scarcity falsification:** <one line: did abundance framing help, or was scarcity genuinely binding?>
 - **Escalation:** <none | `[watch]` | `[decision]` | note for [promotion-ladder](../promotion-ladder.md) / STRATEGY.md>
+- **Friction / rule candidate (optional):** <what failed; home = skill-write | conductor | strategy-template | none; future check = would this rule have prevented today's drag?>
 ```
 
 **Lightest valid line** (if you only have thirty seconds): keep **Stance**, **Object**, and **Falsify** as a single **bulleted** line each.

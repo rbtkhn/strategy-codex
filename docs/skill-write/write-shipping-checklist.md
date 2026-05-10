@@ -21,4 +21,13 @@
 | **7. Lexile** | **Companion Lexile does not apply** to operator copy unless you ask to align. See [write-operator-preferences.md](write-operator-preferences.md) (*Companion Lexile / Voice*). |
 | **8. Claims** | If stakes need **verification**, say so or run **fact-check** / web pass — do not ship uncertain numbers as fact. |
 
+## Recursive friction checks
+
+Use these checks when a draft follows a difficult revision loop:
+
+- **Revision echo:** If the operator asks for a revision of paste-ready public copy, return the **full revised artifact**, not just the changed paragraph, bullet, or delta.
+- **Causal chronology:** If the claim is causal or sequential, the bullets follow the actual logic in order rather than clustering sources thematically.
+- **Source constraints:** Before source-heavy drafting, lock any operator constraints: source class, date range, quote length, quote continuity, and max reuse per source.
+- **Quote clarity:** Explain non-obvious quoted terms in prose, e.g. that a rabbinic "seventh year" reference means the shemittah cycle.
+
 **Not a substitute for** companion **Record** / **gate** rules; this is **operator publishing** hygiene only.

@@ -63,6 +63,17 @@ When the agent drafts **paste-ready** operator public copy (**Locals**, **X**, *
 
 When your **taste or doctrine** changes: update **`docs/skill-write/`** (especially this file) **and** the relevant **`.cursor/rules/`** files **together**, so SSOT prose and Cursor enforcement stay aligned — not one without the other.
 
+### Writing friction -> rule proposal
+
+When the operator corrects the same public-writing behavior **twice** in one session or across nearby sessions, treat it as a WORK-layer improvement signal:
+
+- Name the repeated friction plainly, e.g. **delta-only revision**, **weak causal chronology**, **unclear source constraints**, or **quote term left unexplained**.
+- Propose a concrete rule update and show the **exact wording** that would be added to `docs/skill-write/` or a conductor close template.
+- Default to **suggest patch only**. Do not edit docs automatically unless the operator accepts the rule or explicitly asks for implementation.
+- If accepted, keep the rule in WORK-layer writing/conductor docs. Do **not** promote it into Record surfaces.
+- Use the next comparable draft as the falsification check: would the proposed rule have prevented the prior drag without adding needless process?
+- When the operator asks for a **revision** of paste-ready public copy, provide the **full revised artifact**, not only the changed paragraph, bullet, or delta.
+
 ## Preferences (living list)
 
 Edit and extend this section as your taste evolves.
