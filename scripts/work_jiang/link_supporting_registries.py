@@ -12,7 +12,7 @@ from pathlib import Path
 import yaml
 
 ROOT = Path(__file__).resolve().parents[2]
-WORK_DIR = ROOT / "research" / "external" / "work-jiang"
+WORK_DIR = ROOT / "codex" / "predictive-history"
 
 _SCRIPTS_WJ = ROOT / "scripts" / "work_jiang"
 if str(_SCRIPTS_WJ) not in sys.path:

@@ -12,7 +12,7 @@ from pathlib import Path
 import yaml
 
 ROOT = Path(__file__).resolve().parents[2]
-WORK_DIR = ROOT / "research" / "external" / "work-jiang"
+WORK_DIR = ROOT / "codex" / "predictive-history"
 ANALYSIS_DIR = WORK_DIR / "analysis"
 SOURCES_PATH = WORK_DIR / "metadata" / "sources.yaml"
 SOURCE_MAP_PATH = WORK_DIR / "metadata" / "source-map.yaml"

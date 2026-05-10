@@ -5,7 +5,7 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-WORK_DIR = ROOT / "research" / "external" / "work-jiang"
+WORK_DIR = ROOT / "codex" / "predictive-history"
 REG = WORK_DIR / "counter-readings" / "registry" / "counter-readings.jsonl"
 OUT = WORK_DIR / "COUNTER-READINGS.md"
 

@@ -24,7 +24,7 @@ _WJ_DIR = Path(__file__).resolve().parent
 _SCRIPTS = _WJ_DIR.parent
 ROOT = _SCRIPTS.parent
 
-WORK_JIANG = ROOT / "research" / "external" / "work-jiang"
+WORK_JIANG = ROOT / "codex" / "predictive-history"
 LECTURES = WORK_JIANG / "lectures"
 DEFAULT_TRANSCRIPT_ROOT = (
     ROOT / "research" / "external" / "youtube-channels" / "predictive-history"

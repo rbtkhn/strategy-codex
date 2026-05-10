@@ -11,7 +11,7 @@ if str(SCRIPTS_DIR) not in sys.path:
 
 from yaml_compat import safe_load_path
 
-WORK_DIR = ROOT / "research" / "external" / "work-jiang"
+WORK_DIR = ROOT / "codex" / "predictive-history"
 CHRONO = WORK_DIR / "metadata" / "chronology.yaml"
 OUT = WORK_DIR / "INTELLECTUAL-CHRONOLOGY.md"
 

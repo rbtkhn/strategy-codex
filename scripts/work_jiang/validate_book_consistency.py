@@ -28,7 +28,7 @@ _SCRIPTS_WJ = Path(__file__).resolve().parent
 if str(_SCRIPTS_WJ) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS_WJ))
 
-WORK_JIANG = REPO_ROOT / "research" / "external" / "work-jiang"
+WORK_JIANG = REPO_ROOT / "codex" / "predictive-history"
 ARCH_PATH = WORK_JIANG / "metadata" / "book-architecture.yaml"
 PREDICTIONS_PATH = WORK_JIANG / "prediction-tracking" / "registry" / "predictions.jsonl"
 DIVERGENCES_PATH = WORK_JIANG / "divergence-tracking" / "registry" / "divergences.jsonl"

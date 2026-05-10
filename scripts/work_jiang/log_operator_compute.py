@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Append one JSON line to work-jiang operator compute ledger (tokens / API estimates).
 
 Optional mirror to compute-ledger.jsonl (same shape as Voice/bot runs) for unified reporting.
@@ -11,7 +11,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-LEDGER = ROOT / "research" / "external" / "work-jiang" / "operator-compute-ledger.jsonl"
+LEDGER = ROOT / "codex" / "predictive-history" / "operator-compute-ledger.jsonl"
 
 
 def main() -> int:

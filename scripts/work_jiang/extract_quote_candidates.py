@@ -18,7 +18,7 @@ from pathlib import Path
 import yaml
 
 ROOT = Path(__file__).resolve().parents[2]
-WORK_DIR = ROOT / "research" / "external" / "work-jiang"
+WORK_DIR = ROOT / "codex" / "predictive-history"
 LECTURES = WORK_DIR / "lectures"
 ANALYSIS = WORK_DIR / "analysis"
 METADATA = WORK_DIR / "metadata"

@@ -1,98 +1,128 @@
 generated_from:
-- lectures/geo-strategy-01-iran-strategy-matrix-2024-04-24.md
-- lectures/geo-strategy-02-christian-zionism-middle-east-conflict.md
-- lectures/geo-strategy-03-how-empire-is-destroying-america.md
-- lectures/geo-strategy-04-saudi-arabia-trump-card-against-iran.md
-- lectures/geo-strategy-05-why-trump-will-win-nikki-haley-vp.md
-- lectures/geo-strategy-06-americas-imperial-hubris.md
-- lectures/geo-strategy-07-who-killed-iranian-president-ebrahim-raisi.md
-- lectures/geo-strategy-08-the-iran-trap.md
-- lectures/geo-strategy-09-putins-war-for-the-soul-of-russia.md
-- lectures/geo-strategy-10-putins-strategic-imagination.md
-- lectures/geo-strategy-11-the-second-american-civil-war.md
-- lectures/geo-strategy-12-psychohistory-the-science-of-imagining-the-future.md
-- lectures/geo-strategy-13-us-iran-war-incoming.md
-- lectures/geo-strategy-14-wwiii-begins-lets-game-theory.md
-- lectures/geo-strategy-15-the-messianic-calling.md
-- lectures/geo-strategy-16-newtons-divine-plan.md
-- lectures/geo-strategy-17-the-universal-law-of-game-theory.md
-- lectures/geo-strategy-18-is-putin-the-ubermensch.md
-- lectures/geo-strategy-19-when-eschatologies-converge.md
-- lectures/geo-strategy-20-why-the-west-is-doomed.md
-- analysis/0aASxQrJYuo-game-theory-16-analysis.md
-- analysis/0rIgZD-tk3s-interviews-08-analysis.md
-- analysis/2K2nQsTTjQE-interviews-11-analysis.md
-- analysis/4Ql24Z8SIeE-interviews-07-analysis.md
-- analysis/7y_hbz6loEo-geo-strategy-08-analysis.md
-- analysis/80jUKe0blAQ-interviews-06-analysis.md
-- analysis/8XdL-7tAqnU-geo-strategy-13-analysis.md
-- analysis/AEPSUC-UQ5k-geo-strategy-09-analysis.md
-- analysis/B_al2wgk49Y-geo-strategy-10-analysis.md
-- analysis/EBWTRvjZ1dw-great-books-07-analysis.md
-- analysis/Ft2CuowGuYc-great-books-02-analysis.md
-- analysis/GSSIm9xNRAE-interviews-02-analysis.md
-- analysis/Go1bMQKnJBQ-geo-strategy-11-analysis.md
-- analysis/H5lCJ0D4DpY-interviews-04-analysis.md
-- analysis/JieFC4Yww4o-geo-strategy-06-analysis.md
-- analysis/Jjqf9T59uY0-civilization-01-analysis.md
-- analysis/LctUcVqhhns-geo-strategy-04-analysis.md
-- analysis/LsRGvKxfLts-geo-strategy-07-analysis.md
-- analysis/ORyCS0r2Tpg-interviews-03-analysis.md
-- analysis/TsD-8FGA84A-great-books-01-analysis.md
-- analysis/XRP407WsA0w-great-books-03-analysis.md
-- analysis/XRk5VSEzJ4Y-interviews-01-analysis.md
-- analysis/YXTRlvFIRt8-great-books-08-analysis.md
-- analysis/_blj8zKdKgA-geo-strategy-03-analysis.md
-- analysis/aS-NfPSPMu8-great-books-06-analysis.md
-- analysis/cvI8rukoda8-civilization-20-analysis.md
-- analysis/dkzr5A8IlLA-great-books-04-analysis.md
-- analysis/essay-blowback-venezuela-analysis.md
-- analysis/essay-carneys-speech-and-trumps-letter-analysis.md
-- analysis/essay-continuity-of-government-is-a-joke-analysis.md
-- analysis/essay-countdown-to-iran-analysis.md
-- analysis/essay-i-have-questions-about-tyler-robinson-analysis.md
-- analysis/essay-iran-greenland-and-canada-analysis.md
-- analysis/essay-minnesota-burning-analysis.md
-- analysis/essay-predictive-history-reading-list-analysis.md
-- analysis/essay-secret-history-10-the-great-revealing-analysis.md
-- analysis/essay-secret-history-7-the-voyage-home-analysis.md
-- analysis/essay-secret-history-8-the-rise-of-the-american-kakistocracy-analysis.md
-- analysis/essay-the-acceleration-analysis.md
-- analysis/essay-the-empire-goes-to-war-analysis.md
-- analysis/essay-the-limits-of-pax-judaica-analysis.md
-- analysis/essay-the-secret-history-of-the-world-1-analysis.md
-- analysis/essay-the-secret-history-of-the-world-2-analysis.md
-- analysis/essay-the-secret-history-of-the-world-3-analysis.md
-- analysis/essay-the-secret-history-of-the-world-4-analysis.md
-- analysis/essay-the-secret-history-of-the-world-5-analysis.md
-- analysis/essay-the-secret-history-of-the-world-6-analysis.md
-- analysis/essay-the-third-coming-analysis.md
-- analysis/essay-the-us-iran-end-game-analysis.md
-- analysis/essay-tipping-point-usa-analysis.md
-- analysis/essay-twilight-of-the-liberal-elite-analysis.md
-- analysis/essay-vietnam-redux-analysis.md
-- analysis/essay-vision-mission-goals-analysis.md
-- analysis/essay-war-machine-usa-analysis.md
-- analysis/essay-welcome-to-the-rupture-analysis.md
-- analysis/essay-what-can-be-done-analysis.md
-- analysis/essay-why-i-refuse-to-get-rich-analysis.md
-- analysis/essay-world-war-iii-begins-analysis.md
-- analysis/exRK-85630k-geo-strategy-05-analysis.md
-- analysis/gXlcR7uHHdA-great-books-05-analysis.md
-- analysis/hE4l9WyLF3U-game-theory-01-analysis.md
-- analysis/lkKrZq4YdqY-geo-strategy-02-analysis.md
-- analysis/lt8XLz78ZvY-secret-history-01-analysis.md
-- analysis/o1DElACHNRo-interviews-09-analysis.md
-- analysis/rsi7cDRUrmE-interviews-10-analysis.md
-- analysis/s_k6esWheqA-geo-strategy-12-psychohistory-analysis.md
-- analysis/uHIdRgFypNo-interviews-05-analysis.md
-- analysis/xEEpOxqdU5E-geo-strategy-01-analysis.md
+- lectures\geo-strategy-01-iran-strategy-matrix-2024-04-24.md
+- lectures\geo-strategy-02-christian-zionism-middle-east-conflict.md
+- lectures\geo-strategy-03-how-empire-is-destroying-america.md
+- lectures\geo-strategy-04-saudi-arabia-trump-card-against-iran.md
+- lectures\geo-strategy-05-why-trump-will-win-nikki-haley-vp.md
+- lectures\geo-strategy-06-americas-imperial-hubris.md
+- lectures\geo-strategy-07-who-killed-iranian-president-ebrahim-raisi.md
+- lectures\geo-strategy-08-the-iran-trap.md
+- lectures\geo-strategy-09-putins-war-for-the-soul-of-russia.md
+- lectures\geo-strategy-10-putins-strategic-imagination.md
+- lectures\geo-strategy-11-the-second-american-civil-war.md
+- lectures\geo-strategy-12-psychohistory-the-science-of-imagining-the-future.md
+- lectures\geo-strategy-13-us-iran-war-incoming.md
+- lectures\geo-strategy-14-wwiii-begins-lets-game-theory.md
+- lectures\geo-strategy-15-the-messianic-calling.md
+- lectures\geo-strategy-16-newtons-divine-plan.md
+- lectures\geo-strategy-17-the-universal-law-of-game-theory.md
+- lectures\geo-strategy-18-is-putin-the-ubermensch.md
+- lectures\geo-strategy-19-when-eschatologies-converge.md
+- lectures\geo-strategy-20-why-the-west-is-doomed.md
+- analysis\0aASxQrJYuo-game-theory-16-analysis.md
+- analysis\0HYET47Cc-E-game-theory-19-analysis.md
+- analysis\0rIgZD-tk3s-interviews-08-analysis.md
+- analysis\2K2nQsTTjQE-interviews-11-analysis.md
+- analysis\35HRPLVyF0g-game-theory-04-analysis.md
+- analysis\4EZUrGPgAos-great-books-09-analysis.md
+- analysis\4Ql24Z8SIeE-interviews-07-analysis.md
+- analysis\7y_hbz6loEo-geo-strategy-08-analysis.md
+- analysis\80jUKe0blAQ-interviews-06-analysis.md
+- analysis\8XdL-7tAqnU-geo-strategy-13-analysis.md
+- analysis\_blj8zKdKgA-geo-strategy-03-analysis.md
+- analysis\AEPSUC-UQ5k-geo-strategy-09-analysis.md
+- analysis\aQSDSqdlFxk-game-theory-13-analysis.md
+- analysis\aS-NfPSPMu8-great-books-06-analysis.md
+- analysis\axqDLhWs93Q-game-theory-08-analysis.md
+- analysis\B_al2wgk49Y-geo-strategy-10-analysis.md
+- analysis\CbamEcNuDXo-game-theory-06-analysis.md
+- analysis\cvI8rukoda8-civilization-20-analysis.md
+- analysis\dkzr5A8IlLA-great-books-04-analysis.md
+- analysis\EBWTRvjZ1dw-great-books-07-analysis.md
+- analysis\essay-blowback-venezuela-analysis.md
+- analysis\essay-carneys-speech-and-trumps-letter-analysis.md
+- analysis\essay-continuity-of-government-is-a-joke-analysis.md
+- analysis\essay-countdown-to-iran-analysis.md
+- analysis\essay-i-have-questions-about-tyler-robinson-analysis.md
+- analysis\essay-iran-greenland-and-canada-analysis.md
+- analysis\essay-minnesota-burning-analysis.md
+- analysis\essay-predictive-history-reading-list-analysis.md
+- analysis\essay-secret-history-10-the-great-revealing-analysis.md
+- analysis\essay-secret-history-10-the-war-of-heaven-analysis.md
+- analysis\essay-secret-history-7-the-voyage-home-analysis.md
+- analysis\essay-secret-history-8-the-rise-of-the-american-kakistocracy-analysis.md
+- analysis\essay-the-acceleration-analysis.md
+- analysis\essay-the-empire-goes-to-war-analysis.md
+- analysis\essay-the-limits-of-pax-judaica-analysis.md
+- analysis\essay-the-secret-history-of-the-world-1-analysis.md
+- analysis\essay-the-secret-history-of-the-world-2-analysis.md
+- analysis\essay-the-secret-history-of-the-world-3-analysis.md
+- analysis\essay-the-secret-history-of-the-world-4-analysis.md
+- analysis\essay-the-secret-history-of-the-world-5-analysis.md
+- analysis\essay-the-secret-history-of-the-world-6-analysis.md
+- analysis\essay-the-third-coming-analysis.md
+- analysis\essay-the-trump-new-deal-analysis.md
+- analysis\essay-the-us-iran-end-game-analysis.md
+- analysis\essay-the-us-iran-war-round-two-analysis.md
+- analysis\essay-tipping-point-usa-analysis.md
+- analysis\essay-twilight-of-the-liberal-elite-analysis.md
+- analysis\essay-vietnam-redux-analysis.md
+- analysis\essay-vision-mission-goals-analysis.md
+- analysis\essay-war-machine-usa-analysis.md
+- analysis\essay-welcome-to-the-rupture-analysis.md
+- analysis\essay-what-can-be-done-analysis.md
+- analysis\essay-why-i-refuse-to-get-rich-analysis.md
+- analysis\essay-world-war-iii-begins-analysis.md
+- analysis\essay-world-war-trump-analysis.md
+- analysis\exRK-85630k-geo-strategy-05-analysis.md
+- analysis\Ft2CuowGuYc-great-books-02-analysis.md
+- analysis\fz-Dan7NRss-game-theory-11-analysis.md
+- analysis\Go1bMQKnJBQ-geo-strategy-11-analysis.md
+- analysis\GSSIm9xNRAE-interviews-02-analysis.md
+- analysis\gXlcR7uHHdA-great-books-05-analysis.md
+- analysis\H5lCJ0D4DpY-interviews-04-analysis.md
+- analysis\hE4l9WyLF3U-game-theory-01-analysis.md
+- analysis\ijnkCt1QK6k-game-theory-07-analysis.md
+- analysis\JieFC4Yww4o-geo-strategy-06-analysis.md
+- analysis\jIS2eB-rGv0-game-theory-09-analysis.md
+- analysis\Jjqf9T59uY0-civilization-01-analysis.md
+- analysis\kS-muAuq62E-game-theory-02-analysis.md
+- analysis\LctUcVqhhns-geo-strategy-04-analysis.md
+- analysis\lkKrZq4YdqY-geo-strategy-02-analysis.md
+- analysis\LsRGvKxfLts-geo-strategy-07-analysis.md
+- analysis\lt8XLz78ZvY-secret-history-01-analysis.md
+- analysis\MX93U4KzA28-game-theory-03-analysis.md
+- analysis\n44OF1Y7zgo-interviews-15-analysis.md
+- analysis\N4cs-8mrP_s-geo-strategy-14-analysis.md
+- analysis\nOQqGy4boBY-game-theory-14-analysis.md
+- analysis\o1DElACHNRo-interviews-09-analysis.md
+- analysis\oErKnj_uyPA-interviews-12-analysis.md
+- analysis\ORyCS0r2Tpg-interviews-03-analysis.md
+- analysis\P_DHMUdOVdo-interviews-14-analysis.md
+- analysis\rsi7cDRUrmE-interviews-10-analysis.md
+- analysis\s_k6esWheqA-geo-strategy-12-psychohistory-analysis.md
+- analysis\spg58Glfz68-game-theory-12-analysis.md
+- analysis\t5oisJiorsU-game-theory-10-analysis.md
+- analysis\Ts-AA6LQf6I-game-theory-21-analysis.md
+- analysis\TsD-8FGA84A-great-books-01-analysis.md
+- analysis\txgPfnXgzcE-game-theory-22-analysis.md
+- analysis\ue8y5e3HnHE-game-theory-20-analysis.md
+- analysis\uHIdRgFypNo-interviews-05-analysis.md
+- analysis\VbowBTJWKBo-game-theory-17-analysis.md
+- analysis\Wio--7_GIOs-interviews-13-analysis.md
+- analysis\xEEpOxqdU5E-geo-strategy-01-analysis.md
+- analysis\XRk5VSEzJ4Y-interviews-01-analysis.md
+- analysis\xrmERlHUqBk-game-theory-18-analysis.md
+- analysis\XRP407WsA0w-great-books-03-analysis.md
+- analysis\ybufqRY77PQ-game-theory-05-analysis.md
+- analysis\YXTRlvFIRt8-great-books-08-analysis.md
+- analysis\zAer-Mqe7tQ-game-theory-15-analysis.md
 concepts:
 - concept_id: civ-formation
-  total_mentions_estimated: 38
+  total_mentions_estimated: 40
   by_phrase:
     civilizational formation: 0
-    formation: 38
+    formation: 40
     civilization formation: 0
 - concept_id: strategic-imagination
   total_mentions_estimated: 18
@@ -100,34 +130,34 @@ concepts:
     strategic imagination: 9
     great-power imagination: 0
 - concept_id: asymmetrical-warfare
-  total_mentions_estimated: 20
+  total_mentions_estimated: 32
   by_phrase:
     asymmetrical warfare: 10
-    asymmetric warfare: 0
-    asymmetry: 10
+    asymmetric warfare: 1
+    asymmetry: 21
 - concept_id: christian-zionism
   total_mentions_estimated: 139
   by_phrase:
     Christian Zionism: 53
     dispensational: 33
 - concept_id: empire-order
-  total_mentions_estimated: 437
+  total_mentions_estimated: 478
   by_phrase:
-    empire: 397
-    imperial: 30
-    Pax Americana: 8
+    empire: 425
+    imperial: 40
+    Pax Americana: 11
     empire defense: 2
 - concept_id: financialization-empire
-  total_mentions_estimated: 29
+  total_mentions_estimated: 33
   by_phrase:
     financialization: 14
-    dollar system: 1
+    dollar system: 5
 - concept_id: saudi-iran-axis
-  total_mentions_estimated: 192
+  total_mentions_estimated: 196
   by_phrase:
     Saudi Arabia vs Iran: 0
-    Saudi: 174
-    Gulf: 14
+    Saudi: 175
+    Gulf: 17
     axis of resistance: 4
 - concept_id: electoral-coalition
   total_mentions_estimated: 55
@@ -137,11 +167,11 @@ concepts:
     VP pick: 0
     Haley: 55
 - concept_id: empire-hubris
-  total_mentions_estimated: 69
+  total_mentions_estimated: 78
   by_phrase:
-    imperial hubris: 6
-    hubris: 51
-    shock and awe: 6
+    imperial hubris: 7
+    hubris: 58
+    shock and awe: 7
     Millennium Challenge: 6
 - concept_id: iran-strategy-matrix
   total_mentions_estimated: 18
@@ -156,30 +186,30 @@ concepts:
     True Promise: 9
     April 2024 strikes: 0
 - concept_id: raisi-scenario
-  total_mentions_estimated: 50
+  total_mentions_estimated: 51
   by_phrase:
     Raisi helicopter incident: 0
     Raisi: 21
-    IRGC: 28
+    IRGC: 29
     helicopter crash: 1
 - concept_id: iran-trap
-  total_mentions_estimated: 16
+  total_mentions_estimated: 17
   by_phrase:
     Iran trap: 4
     invasion scenario: 0
-    regime change: 12
+    regime change: 13
 - concept_id: putinism-soul
-  total_mentions_estimated: 286
+  total_mentions_estimated: 290
   by_phrase:
     Putinism and the soul of Russia: 0
-    Putin: 262
-    consumerism: 21
+    Putin: 264
+    consumerism: 23
     soul of Russia: 3
 - concept_id: stalin-game-theory
-  total_mentions_estimated: 126
+  total_mentions_estimated: 202
   by_phrase:
     Stalin and game theory: 0
-    game theory: 65
+    game theory: 141
     Stalin: 61
     strategic patience: 0
 - concept_id: second-civil-war
@@ -197,104 +227,104 @@ concepts:
     supervised learning: 0
     forecasting AI: 0
 - concept_id: education-narrative
-  total_mentions_estimated: 72
+  total_mentions_estimated: 97
   by_phrase:
     education and narrative: 0
-    education: 13
+    education: 16
     narrative formation: 0
-    school: 59
+    school: 81
 - concept_id: religious-legitimacy
-  total_mentions_estimated: 14
+  total_mentions_estimated: 19
   by_phrase:
     religious legitimacy: 0
-    theology: 6
-    sacred: 5
+    theology: 9
+    sacred: 7
     dispensational premillennialism: 3
 - concept_id: middle-east-alliance
-  total_mentions_estimated: 171
+  total_mentions_estimated: 172
   by_phrase:
     Middle East alliances: 0
     Israel Lobby: 21
-    allies: 24
+    allies: 25
     Saudi Arabia: 126
 untracked_high_frequency_tokens:
 - token: okay
   count: 2878
 - token: right
-  count: 737
+  count: 738
 - token: it's
   count: 566
 - token: people
-  count: 517
+  count: 519
 - token: that's
   count: 517
 - token: world
-  count: 413
-- token: does
-  count: 406
+  count: 435
 - token: substack
-  count: 376
-- token: want
-  count: 352
-- token: first
-  count: 326
+  count: 425
+- token: does
+  count: 407
 - token: analysis
-  count: 297
+  count: 377
+- token: want
+  count: 354
+- token: first
+  count: 332
 - token: really
   count: 286
 - token: sense
   count: 284
 - token: going
-  count: 280
-- token: united
-  count: 267
+  count: 281
 - token: china
-  count: 264
+  count: 276
 - token: states
-  count: 263
+  count: 269
+- token: united
+  count: 268
 - token: know
   count: 241
+- token: military
+  count: 239
 - token: there's
   count: 236
-- token: military
+- token: three
   count: 230
+- token: lectures
+  count: 229
+- token: against
+  count: 224
+- token: canonical
+  count: 223
 - token: thing
   count: 222
 - token: don't
   count: 220
-- token: three
-  count: 218
 - token: they're
   count: 214
-- token: against
-  count: 213
 - token: think
   count: 210
+- token: series
+  count: 205
+- token: candidates
+  count: 204
+- token: time
+  count: 200
 - token: understand
   count: 196
-- token: time
+- token: claims
+  count: 196
+- token: video
   count: 195
-- token: lectures
-  count: 178
+- token: next
+  count: 186
+- token: essays
+  count: 180
+- token: thesis
+  count: 179
+- token: essay
+  count: 174
 - token: much
-  count: 169
+  count: 172
 - token: you're
   count: 169
-- token: question
-  count: 166
-- token: problem
-  count: 163
-- token: ukraine
-  count: 163
-- token: canonical
-  count: 162
-- token: essays
-  count: 161
-- token: next
-  count: 160
-- token: essay
-  count: 157
-- token: guys
-  count: 156
-- token: believe
-  count: 154

@@ -21,7 +21,7 @@ import yaml
 _WJ = Path(__file__).resolve().parent
 ROOT = _WJ.parent.parent
 
-WORK_JIANG = ROOT / "research" / "external" / "work-jiang"
+WORK_JIANG = ROOT / "codex" / "predictive-history"
 PENDING_DIR = WORK_JIANG / "analysis" / "pending"
 ANALYSIS_DIR = WORK_JIANG / "analysis"
 SOURCES_YAML = WORK_JIANG / "metadata" / "sources.yaml"

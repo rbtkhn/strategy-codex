@@ -7,7 +7,7 @@ from pathlib import Path
 import yaml
 
 ROOT = Path(__file__).resolve().parents[2]
-WORK_DIR = ROOT / "research" / "external" / "work-jiang"
+WORK_DIR = ROOT / "codex" / "predictive-history"
 ARCH_PATH = WORK_DIR / "metadata" / "book-architecture.yaml"
 OUT = WORK_DIR / "CHAPTER-QUEUE.md"
 OUT_VOL2 = WORK_DIR / "CHAPTER-QUEUE-VOLUME-II.md"

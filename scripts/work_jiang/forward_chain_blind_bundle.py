@@ -33,7 +33,7 @@ import sys
 from pathlib import Path
 
 _ROOT = Path(__file__).resolve().parents[2]
-_DEFAULT_LECTURES = _ROOT / "research" / "external" / "work-jiang" / "lectures"
+_DEFAULT_LECTURES = _ROOT / "codex" / "predictive-history" / "lectures"
 _DEFAULT_SCRATCH = (
     _ROOT
     / "research"

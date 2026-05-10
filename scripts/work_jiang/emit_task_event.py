@@ -30,7 +30,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
-WORK_JIANG = REPO_ROOT / "research" / "external" / "work-jiang"
+WORK_JIANG = REPO_ROOT / "codex" / "predictive-history"
 TASKS_PATH = WORK_JIANG / "tasks.jsonl"
 
 VALID_EVENTS = {"created", "claimed", "submitted", "merged", "cancelled"}

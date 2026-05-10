@@ -21,7 +21,7 @@ from pathlib import Path
 import yaml
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
-WORK_JIANG = REPO_ROOT / "research" / "external" / "work-jiang"
+WORK_JIANG = REPO_ROOT / "codex" / "predictive-history"
 ARCH_PATH = WORK_JIANG / "metadata" / "book-architecture.yaml"
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))

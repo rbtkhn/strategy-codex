@@ -7,7 +7,7 @@ from pathlib import Path
 import yaml
 
 ROOT = Path(__file__).resolve().parents[2]
-WORK_DIR = ROOT / "research" / "external" / "work-jiang"
+WORK_DIR = ROOT / "codex" / "predictive-history"
 ANALYSIS_DIR = WORK_DIR / "analysis"
 PENDING_DIR = WORK_DIR / "analysis" / "pending"
 OUT = WORK_DIR / "ANALYSIS-BACKLOG.md"

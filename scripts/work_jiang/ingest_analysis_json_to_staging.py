@@ -14,7 +14,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-WORK_DIR = ROOT / "research" / "external" / "work-jiang"
+WORK_DIR = ROOT / "codex" / "predictive-history"
 _WJ_SCRIPTS = Path(__file__).resolve().parent
 if str(_WJ_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_WJ_SCRIPTS))

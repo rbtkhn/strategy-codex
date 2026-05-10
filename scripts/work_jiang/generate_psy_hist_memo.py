@@ -29,7 +29,7 @@ ROOT = _WJ.parent.parent
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-WORK_JIANG = ROOT / "research" / "external" / "work-jiang"
+WORK_JIANG = ROOT / "codex" / "predictive-history"
 SOURCES_YAML = WORK_JIANG / "metadata" / "sources.yaml"
 PSYHIST_LENS = WORK_JIANG / "PSY-HIST-LENS.md"
 PENDING_DIR = WORK_JIANG / "analysis" / "pending"

@@ -7,7 +7,7 @@ from pathlib import Path
 import yaml
 
 ROOT = Path(__file__).resolve().parents[2]
-WORK_DIR = ROOT / "research" / "external" / "work-jiang"
+WORK_DIR = ROOT / "codex" / "predictive-history"
 LECTURES = WORK_DIR / "lectures"
 ESSAYS_DIR = WORK_DIR / "substack" / "essays"
 ANALYSIS = WORK_DIR / "analysis"
@@ -68,6 +68,10 @@ def analysis_for_video(analysis_by_vid: dict[str, Path], video_id: str | None) -
     if not video_id:
         return None
     return analysis_by_vid.get(video_id)
+
+
+def rel(path: Path) -> str:
+    return path.relative_to(WORK_DIR).as_posix()
 
 
 _SOURCE_KEY_ORDER = (
@@ -188,14 +192,14 @@ def main() -> int:
         source_id = f"geo-{ep:02d}"
         vid = extract_video_id_from_lecture(lecture)
         matched, analysis_status = analysis_for_source(vid, source_id)
-        analysis_path = str(matched.relative_to(WORK_DIR)) if matched else None
+        analysis_path = rel(matched) if matched else None
         sources.append(
             {
                 "source_id": source_id,
                 "video_id": vid,
                 "title": title_from_lecture(lecture),
                 "canonical_url": f"https://www.youtube.com/watch?v={vid}" if vid else "",
-                "lecture_path": str(lecture.relative_to(WORK_DIR)),
+                "lecture_path": rel(lecture),
                 "analysis_path": analysis_path,
                 "series": "geo-strategy",
                 "episode": ep,
@@ -233,14 +237,14 @@ def main() -> int:
         source_id = f"civ-{ep:02d}"
         vid = extract_video_id_from_lecture(lecture)
         matched, analysis_status = analysis_for_source(vid, source_id)
-        analysis_path = str(matched.relative_to(WORK_DIR)) if matched else None
+        analysis_path = rel(matched) if matched else None
         sources.append(
             {
                 "source_id": source_id,
                 "video_id": vid,
                 "title": title_from_lecture(lecture),
                 "canonical_url": f"https://www.youtube.com/watch?v={vid}" if vid else "",
-                "lecture_path": str(lecture.relative_to(WORK_DIR)),
+                "lecture_path": rel(lecture),
                 "analysis_path": analysis_path,
                 "series": "civilization",
                 "episode": ep,
@@ -266,14 +270,14 @@ def main() -> int:
         source_id = f"sh-{ep:02d}"
         vid = extract_video_id_from_lecture(lecture)
         matched, analysis_status = analysis_for_source(vid, source_id)
-        analysis_path = str(matched.relative_to(WORK_DIR)) if matched else None
+        analysis_path = rel(matched) if matched else None
         sources.append(
             {
                 "source_id": source_id,
                 "video_id": vid,
                 "title": title_from_lecture(lecture),
                 "canonical_url": f"https://www.youtube.com/watch?v={vid}" if vid else "",
-                "lecture_path": str(lecture.relative_to(WORK_DIR)),
+                "lecture_path": rel(lecture),
                 "analysis_path": analysis_path,
                 "series": "secret-history",
                 "episode": ep,
@@ -299,14 +303,14 @@ def main() -> int:
         source_id = f"gt-{ep:02d}"
         vid = extract_video_id_from_lecture(lecture)
         matched, analysis_status = analysis_for_source(vid, source_id)
-        analysis_path = str(matched.relative_to(WORK_DIR)) if matched else None
+        analysis_path = rel(matched) if matched else None
         sources.append(
             {
                 "source_id": source_id,
                 "video_id": vid,
                 "title": title_from_lecture(lecture),
                 "canonical_url": f"https://www.youtube.com/watch?v={vid}" if vid else "",
-                "lecture_path": str(lecture.relative_to(WORK_DIR)),
+                "lecture_path": rel(lecture),
                 "analysis_path": analysis_path,
                 "series": "game-theory",
                 "episode": ep,
@@ -332,14 +336,14 @@ def main() -> int:
         source_id = f"gb-{ep:02d}"
         vid = extract_video_id_from_lecture(lecture)
         matched, analysis_status = analysis_for_source(vid, source_id)
-        analysis_path = str(matched.relative_to(WORK_DIR)) if matched else None
+        analysis_path = rel(matched) if matched else None
         sources.append(
             {
                 "source_id": source_id,
                 "video_id": vid,
                 "title": title_from_lecture(lecture),
                 "canonical_url": f"https://www.youtube.com/watch?v={vid}" if vid else "",
-                "lecture_path": str(lecture.relative_to(WORK_DIR)),
+                "lecture_path": rel(lecture),
                 "analysis_path": analysis_path,
                 "series": "great-books",
                 "episode": ep,
@@ -365,7 +369,7 @@ def main() -> int:
         source_id = f"vi-{ep:02d}"
         vid = extract_video_id_from_lecture(lecture)
         matched, analysis_status = analysis_for_source(vid, source_id)
-        analysis_path = str(matched.relative_to(WORK_DIR)) if matched else None
+        analysis_path = rel(matched) if matched else None
         tx_pending = (not vid) or interviews_transcript_still_placeholder(lecture)
         sources.append(
             {
@@ -373,7 +377,7 @@ def main() -> int:
                 "video_id": vid or "",
                 "title": title_from_lecture(lecture),
                 "canonical_url": f"https://www.youtube.com/watch?v={vid}" if vid else "",
-                "lecture_path": str(lecture.relative_to(WORK_DIR)),
+                "lecture_path": rel(lecture),
                 "analysis_path": analysis_path,
                 "series": "interviews",
                 "episode": ep,
@@ -422,8 +426,8 @@ def main() -> int:
         slug = row["slug"]
         apath = essay_analysis_by_slug.get(slug)
         analysis_status = "complete" if apath else "missing"
-        analysis_path = str(apath.relative_to(WORK_DIR)) if apath else None
-        lecture_path = str(row["path"].relative_to(WORK_DIR))
+        analysis_path = rel(apath) if apath else None
+        lecture_path = rel(row["path"])
         sources.append(
             {
                 "source_id": source_id,

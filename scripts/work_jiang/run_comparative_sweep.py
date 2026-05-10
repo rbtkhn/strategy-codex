@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Comparative sweep: summarize new analysis JSON sidecars vs claims registry; emit operator memo + gate staging YAML.
-Does not call LLMs by default. Does not merge into recursion-gate.md automatically.
+Comparative sweep: summarize new analysis JSON sidecars vs claims registry; emit operator memo + staging YAML.
+Does not call LLMs by default. Does not merge into the Record gate automatically.
 """
 from __future__ import annotations
 
@@ -17,19 +17,14 @@ except ModuleNotFoundError:  # pragma: no cover - dependency fallback
     yaml = None
 
 ROOT = Path(__file__).resolve().parents[2]
-WORK_DIR = ROOT / "research" / "external" / "work-jiang"
+WORK_DIR = ROOT / "codex" / "predictive-history"
 _WJ_SCRIPTS = ROOT / "scripts" / "work_jiang"
 if str(_WJ_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_WJ_SCRIPTS))
-_SCRIPTS_ROOT = ROOT / "scripts"
-if str(_SCRIPTS_ROOT) not in sys.path:
-    sys.path.insert(0, str(_SCRIPTS_ROOT))
-from repo_io import DEFAULT_PROFILE_ID, profile_dir
 STATE_PATH = WORK_DIR / "metadata" / "comparative_sweep_state.yaml"
 ANALYSIS_DIR = WORK_DIR / "analysis"
 CLAIMS_PATH = WORK_DIR / "claims" / "registry" / "claims.jsonl"
-GATE_STAGING = profile_dir(DEFAULT_PROFILE_ID) / "recursion-gate-staging"
-DEFAULT_GATE_USER = DEFAULT_PROFILE_ID
+GATE_STAGING = ROOT / "recursion-gate-staging"
 
 
 def _require_yaml() -> None:
@@ -37,17 +32,9 @@ def _require_yaml() -> None:
         raise RuntimeError("PyYAML is required for work_jiang/run_comparative_sweep.py")
 
 
-def _paste_snippet_markdown(ts: str, ts_full: str, sweep_md_rel: str, *, user_id: str) -> str:
-    """Canonical ### CANDIDATE-* block for pasting into recursion-gate (next id from current gate)."""
-    from stage_gate_candidate import next_candidate_id
-
-    gate_path = profile_dir(user_id) / "recursion-gate.md"
-    content = (
-        gate_path.read_text(encoding="utf-8")
-        if gate_path.is_file()
-        else "## Candidates\n\n## Processed\n"
-    )
-    cid = next_candidate_id(content)
+def _paste_snippet_markdown(ts: str, ts_full: str, sweep_md_rel: str) -> str:
+    """Draft ### CANDIDATE-* block; operator assigns the final id during gate review."""
+    cid = "CANDIDATE-XXXX"
     summary = (
         f"work-jiang comparative sweep {ts}: see {sweep_md_rel}; replace with concrete gate YAML after review."
     )
@@ -162,7 +149,7 @@ def main() -> int:
     gate_body = "\n".join(
         [
             f"# Draft gate blocks — work-jiang sweep {ts}",
-            "# Paste into recursion-gate.md Candidates after review.",
+            "# Paste into Candidates after operator review.",
             "",
             "blocks:",
             "  - id: work-jiang-sweep-placeholder",
@@ -185,7 +172,7 @@ def main() -> int:
     GATE_STAGING.mkdir(parents=True, exist_ok=True)
     gate_yaml.write_text(gate_body + "\n", encoding="utf-8")
     paste_md.write_text(
-        _paste_snippet_markdown(ts, ts_full, sweep_md_rel, user_id=DEFAULT_GATE_USER),
+        _paste_snippet_markdown(ts, ts_full, sweep_md_rel),
         encoding="utf-8",
     )
 

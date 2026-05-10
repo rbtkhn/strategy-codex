@@ -16,7 +16,7 @@ from pathlib import Path
 import yaml
 
 ROOT = Path(__file__).resolve().parents[2]
-WORK = ROOT / "research" / "external" / "work-jiang"
+WORK = ROOT / "codex" / "predictive-history"
 
 # Episodes 1–7 exposition; 8+ analysis. Priority: all analysis = medium until
 # chapter-quote-links + counter-reading-links cover the chapter (validate_comparative_layer).

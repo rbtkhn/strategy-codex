@@ -37,7 +37,7 @@ from channel_video_lookup import (  # noqa: E402
     youtube_title_to_slug,
 )
 
-WORK_JIANG = ROOT / "research" / "external" / "work-jiang"
+WORK_JIANG = ROOT / "codex" / "predictive-history"
 LECTURES = WORK_JIANG / "lectures"
 DEFAULT_TRANSCRIPT_ROOT = (
     ROOT / "research" / "external" / "youtube-channels" / "predictive-history"

@@ -6,7 +6,7 @@ from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-WORK_DIR = ROOT / "research" / "external" / "work-jiang"
+WORK_DIR = ROOT / "codex" / "predictive-history"
 CLAIMS = WORK_DIR / "claims" / "registry" / "claims.jsonl"
 OUT = WORK_DIR / "CLAIMS-OVERVIEW.md"
 

@@ -6,7 +6,7 @@ import sqlite3
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-DEFAULT_DB = ROOT / "research" / "external" / "work-jiang" / "registry" / "work_jiang_metrics.sqlite"
+DEFAULT_DB = ROOT / "codex" / "predictive-history" / "registry" / "work_jiang_metrics.sqlite"
 
 
 def connect(db_path: Path | None = None) -> sqlite3.Connection:

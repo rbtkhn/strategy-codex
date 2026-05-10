@@ -15,7 +15,7 @@ from pathlib import Path
 import yaml
 
 ROOT = Path(__file__).resolve().parents[2]
-WORK_DIR = ROOT / "research" / "external" / "work-jiang"
+WORK_DIR = ROOT / "codex" / "predictive-history"
 META = WORK_DIR / "metadata" / "concepts.yaml"
 OUT = WORK_DIR / "metadata" / "concept-mentions.yaml"
 

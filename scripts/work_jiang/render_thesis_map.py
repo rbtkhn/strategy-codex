@@ -11,7 +11,7 @@ if str(SCRIPTS_DIR) not in sys.path:
 
 from yaml_compat import safe_load_path
 
-WORK_DIR = ROOT / "research" / "external" / "work-jiang"
+WORK_DIR = ROOT / "codex" / "predictive-history"
 META = WORK_DIR / "metadata" / "thesis-map.yaml"
 OUT = WORK_DIR / "THESIS-MAP.md"
 

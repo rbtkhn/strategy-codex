@@ -9,7 +9,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-WORK_JIANG = ROOT / "research" / "external" / "work-jiang"
+WORK_JIANG = ROOT / "codex" / "predictive-history"
 PATTERNS_PATH = WORK_JIANG / "pattern-tracking" / "registry" / "patterns.jsonl"
 PREDICTIONS_PATH = WORK_JIANG / "prediction-tracking" / "registry" / "predictions.jsonl"
 

@@ -38,7 +38,7 @@ from youtube_transcripts.hashing import strip_transcript_header  # noqa: E402
 
 from asr_light_clean import detect_series_from_basename, normalize_transcript_text  # noqa: E402
 
-WORK_JIANG = ROOT / "research" / "external" / "work-jiang"
+WORK_JIANG = ROOT / "codex" / "predictive-history"
 LECTURES = WORK_JIANG / "lectures"
 VERBATIM = WORK_JIANG / "verbatim-transcripts"
 DEFAULT_TRANSCRIPT_ROOT = (

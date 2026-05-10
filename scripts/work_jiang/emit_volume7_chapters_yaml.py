@@ -17,7 +17,7 @@ from pathlib import Path
 import yaml
 
 ROOT = Path(__file__).resolve().parents[2]
-WORK = ROOT / "research" / "external" / "work-jiang"
+WORK = ROOT / "codex" / "predictive-history"
 
 
 def main() -> int:

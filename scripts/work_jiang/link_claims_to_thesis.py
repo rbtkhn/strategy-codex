@@ -8,7 +8,7 @@ from pathlib import Path
 import yaml
 
 ROOT = Path(__file__).resolve().parents[2]
-WORK_DIR = ROOT / "research" / "external" / "work-jiang"
+WORK_DIR = ROOT / "codex" / "predictive-history"
 THESIS = WORK_DIR / "metadata" / "thesis-map.yaml"
 CLAIMS = WORK_DIR / "claims" / "registry" / "claims.jsonl"
 OUT = WORK_DIR / "metadata" / "thesis-claim-links.yaml"

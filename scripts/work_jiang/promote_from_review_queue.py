@@ -16,7 +16,7 @@ import sys
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
-WORK_JIANG = REPO_ROOT / "research" / "external" / "work-jiang"
+WORK_JIANG = REPO_ROOT / "codex" / "predictive-history"
 REVIEW_QUEUE = WORK_JIANG / "review-queue"
 ARCHIVE = REVIEW_QUEUE / "archive"
 

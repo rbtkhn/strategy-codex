@@ -9,7 +9,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-DEFAULT_DB = ROOT / "research" / "external" / "work-jiang" / "registry" / "work_jiang_metrics.sqlite"
+DEFAULT_DB = ROOT / "codex" / "predictive-history" / "registry" / "work_jiang_metrics.sqlite"
 
 
 def main() -> int:

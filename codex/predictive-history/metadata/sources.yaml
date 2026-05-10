@@ -2832,5 +2832,5 @@ sources:
   status:
     transcript: complete
     curated_lecture: complete
-    analysis: not_started
+    analysis: complete
     chapter_mapping: complete

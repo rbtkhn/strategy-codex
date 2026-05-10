@@ -1,4 +1,4 @@
-﻿"""Validate work-jiang metadata consistency."""
+"""Validate work-jiang metadata consistency."""
 from __future__ import annotations
 
 import argparse
@@ -13,7 +13,7 @@ _SCRIPTS = Path(__file__).resolve().parent
 if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
 from arch_chapters import all_chapter_ids, all_chapters_flat, top_level_chapters  # noqa: E402
-WORK_DIR = ROOT / "research" / "external" / "work-jiang"
+WORK_DIR = ROOT / "codex" / "predictive-history"
 LECTURES = WORK_DIR / "lectures"
 ANALYSIS = WORK_DIR / "analysis"
 QUOTES = WORK_DIR / "metadata" / "quotes.yaml"
@@ -118,7 +118,7 @@ def _scan_rendered_status_drift(
             if exp is not None and val != exp:
                 errors.append(
                     f"{path_name} status for {current_cid} is {val!r}, "
-                    f"book-architecture.yaml has {exp!r} â€” re-run renderers"
+                    f"book-architecture.yaml has {exp!r} — re-run renderers"
                 )
             current_cid = None
 
@@ -291,7 +291,7 @@ def check_membrane(errors: list[str]) -> None:
             if prefix in text:
                 errors.append(
                     f"scripts/work_jiang/{py_path.name} contains forbidden path "
-                    f"prefix {prefix!r} â€” work-jiang must not write to Record"
+                    f"prefix {prefix!r} — work-jiang must not write to Record"
                 )
 
 
