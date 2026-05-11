@@ -26,6 +26,19 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Validate Predictive History boundary
+        run: |
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            python3 scripts/validate_predictive_history_boundary.py --diff "${{ github.event.pull_request.base.sha }}...${{ github.event.pull_request.head.sha }}"
+          else
+            BEFORE="${{ github.event.before }}"
+            if [ -n "$BEFORE" ] && [ "$BEFORE" != "0000000000000000000000000000000000000000" ]; then
+              python3 scripts/validate_predictive_history_boundary.py --diff "${BEFORE}...${{ github.sha }}"
+            else
+              echo "Skipping diff-based PH boundary check for zero-before push."
+            fi
+          fi
+
       - name: Install dependencies
         run: |
           pip install -r requirements.txt

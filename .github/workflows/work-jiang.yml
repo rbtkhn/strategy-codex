@@ -1,22 +1,32 @@
-# Validate work-jiang metadata, registries, and generated markdown (Geo-Strategy lane).
-name: work-jiang
+# Predictive History is now external-only; this workflow protects the boundary.
+name: predictive-history-boundary
 
 on:
   push:
     branches: [main]
     paths:
-      - "research/external/work-jiang/**"
+      - "codex/predictive-history/**"
+      - "research/external/youtube-channels/predictive-history/**"
+      - "docs/predictive-history-external-boundary.md"
+      - "docs/skill-work/work-strategy/daily-brief-jiang-layer.md"
+      - "docs/skill-work/work-strategy/predictive-history-review-packets.md"
       - "scripts/work_jiang/**"
+      - "scripts/validate_predictive_history_boundary.py"
       - ".github/workflows/work-jiang.yml"
   pull_request:
     branches: [main]
     paths:
-      - "research/external/work-jiang/**"
+      - "codex/predictive-history/**"
+      - "research/external/youtube-channels/predictive-history/**"
+      - "docs/predictive-history-external-boundary.md"
+      - "docs/skill-work/work-strategy/daily-brief-jiang-layer.md"
+      - "docs/skill-work/work-strategy/predictive-history-review-packets.md"
       - "scripts/work_jiang/**"
+      - "scripts/validate_predictive_history_boundary.py"
       - ".github/workflows/work-jiang.yml"
 
 jobs:
-  validate:
+  boundary:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -26,26 +36,21 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install PyYAML
-        run: pip install "pyyaml>=6.0"
-
-      - name: Install pytest (lecture-analysis unit tests)
+      - name: Install pytest
         run: pip install "pytest>=7.0"
 
-      - name: Rebuild work-jiang (registry, renders, validators)
-        run: python3 scripts/work_jiang/rebuild_all.py
+      - name: Validate Predictive History boundary
+        run: |
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            python3 scripts/validate_predictive_history_boundary.py --diff "${{ github.event.pull_request.base.sha }}...${{ github.event.pull_request.head.sha }}"
+          else
+            BEFORE="${{ github.event.before }}"
+            if [ -n "$BEFORE" ] && [ "$BEFORE" != "0000000000000000000000000000000000000000" ]; then
+              python3 scripts/validate_predictive_history_boundary.py --diff "${BEFORE}...${{ github.sha }}"
+            else
+              echo "Skipping diff-based PH boundary check for zero-before push."
+            fi
+          fi
 
-      - name: Validate lecture analysis JSON fixture
-        run: python3 scripts/work_jiang/validate_lecture_analysis_json.py research/external/work-jiang/fixtures/lecture_analysis_valid_min.json
-
-      - name: Pytest lecture analysis JSON
-        run: pytest tests/test_lecture_analysis_json.py -q
-
-      - name: Rebuild registry SQLite (materialized)
-        run: python3 scripts/work_jiang/rebuild_registry_db.py
-
-      - name: Check registry DB
-        run: python3 scripts/work_jiang/rebuild_registry_db.py --check
-
-      - name: Source coverage (warnings only)
-        run: python3 scripts/work_jiang/check_source_coverage.py
+      - name: Pytest Predictive History boundary
+        run: pytest tests/test_validate_predictive_history_boundary.py -q

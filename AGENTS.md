@@ -1,4 +1,4 @@
-﻿# AGENTS.md â€” AI Coding Assistant Guardrails
+# AGENTS.md â€” AI Coding Assistant Guardrails
 
 This file defines rules for any AI coding assistant working on this repository.
 
@@ -58,6 +58,8 @@ Four modes: **Session** (conversational, no merges â€” default), **Pipeline
 
 Unless the operator **explicitly** names another territory (e.g. **work-dev**, **work-politics**, **work-cici**), assistants should treat the session as **work-strategy** by default: [work-strategy](docs/skill-work/work-strategy/) discipline, **skill-strategy** boundaries, strategy-notebook (inbox, `days.md`, expert threads) and verify tier. Other lanes apply when the task clearly belongs there or the operator labels it. Technical execution (fixes, scripts, CI) may still run under that default unless the operator asks for **hands-only** implementation with no strategy framing.
 
+**Predictive History boundary:** The canonical writable Predictive History repo is **[`rbtkhn/predictive-history`](https://github.com/rbtkhn/predictive-history)**. Inside `strategy-codex`, any material under `codex/predictive-history/` or `research/external/youtube-channels/predictive-history/` is **frozen migration residue / reference only** unless a boundary-maintenance doc explicitly says otherwise. Assistants may **observe, review, and critique** Predictive History from this repo, but must **not** create, update, or regenerate PH corpus/manuscript content here. See [docs/predictive-history-external-boundary.md](docs/predictive-history-external-boundary.md).
+
 ---
 
 ## Layer Architecture
@@ -71,7 +73,7 @@ This system uses a **four-layer instruction architecture**. Later layers may nar
 | **3. Lane Overlays** | `docs/skill-work/work-*/` | work-dev, work-politics, work-business, work-jiang, seed-phase |
 | **4. Mode Overlays** | `.cursor/skills/*/SKILL.md` | coffee, **conductor**, dream, bridge, harvest, thanks (deprecated operator beat â€” prefer conductor / coffee light), gate-review, strategy, skill-write, tri-mind, and other listed skills |
 
-**`coffee` menu:** **A**, **B**, **C**, **D**, **E** (hub â€” **E** = Conductor continuation after Step 1; five Symphony masters are **not** five hub lines). **Aâ€“D:** Steward, Engineer, Historian, Capitalist (quiz, **self-skill-write**, PRP, commercial/cici slices, etc.). **Standalone Conductor:** master name, **`conductor`**, or **`.cursor/skills/conductor/SKILL.md`** without **`coffee`** â€” **masters Conductor MCQ** (**A.â€“E.**) from `build_conductor_mcq_for_user` when disambiguation is needed; **`coffee_pick`** prefers **`picked=conductor`** + **`conductor=<slug>`** or **`picked=E`** + **`conductor=<slug>`** (legacy **`picked=D`** still appears in old logs). See `.cursor/skills/coffee/SKILL.md` (Step 2 + Â§ *Conductor session (outside `coffee` hub menu)*), **`.cursor/skills/conductor/SKILL.md`**, [CONDUCTOR-PASS.md#conductor-mcq](docs/skill-work/work-coffee/CONDUCTOR-PASS.md#conductor-mcq), and [COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md](docs/skill-work/work-strategy/strategy-notebook/COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md). **Durable close** after Conductor (not log-only): [CONDUCTOR-IMPROVEMENT-LOOP.md](docs/skill-work/work-strategy/strategy-notebook/CONDUCTOR-IMPROVEMENT-LOOP.md), [CONDUCTOR-CLOSE-TEMPLATE.md](docs/skill-work/work-strategy/strategy-notebook/CONDUCTOR-CLOSE-TEMPLATE.md).
+**`coffee` menu:** **A**, **B**, **C**, **D** (hub only: Steward, Engineer, Strategist, Capitalist). **Conductor is standalone and name-only:** invoke **`toscanini`**, **`furtwangler`**, **`karajan`**, **`kleiber`**, **`bernstein`**, or **`conductor <name>`**; bare **`conductor`** should ask for one of those names. There is no lettered conductor chooser. After a conductor name resolves, emit only the **Conductor Action Menu**: exactly four movement-labeled **A-D** next moves for that named conductor. **`coffee_pick`** prefers **`picked=conductor`** + **`conductor=<slug>`** (legacy **`picked=D`**, **`picked=E`**, and **`D1`..`D5`** may remain in old logs as read-only compatibility). See `.cursor/skills/coffee/SKILL.md`, **`.cursor/skills/conductor/SKILL.md`**, and [CONDUCTOR-PASS.md](docs/skill-work/work-coffee/CONDUCTOR-PASS.md). **Durable close** after Conductor (not log-only): [CONDUCTOR-IMPROVEMENT-LOOP.md](docs/skill-work/work-strategy/strategy-notebook/CONDUCTOR-IMPROVEMENT-LOOP.md), [CONDUCTOR-CLOSE-TEMPLATE.md](docs/skill-work/work-strategy/strategy-notebook/CONDUCTOR-CLOSE-TEMPLATE.md).
 
 **Conductor clarity (WORK):** [CONDUCTOR-LAYER-MAP.md](docs/skill-work/work-coffee/CONDUCTOR-LAYER-MAP.md) disambiguates theory vs ritual vs Cursor skills vs compiled-view recipes vs coding-agent lenses (three named menus; **slugs** in durable logs, not **Aâ€“E** letters). Coding-agent proposal shapes and **Beethoven / Brahms** interpretive tests: [conductor-proposal-lenses.md](docs/skill-work/work-dev/conductor-proposal-lenses.md). Neither document is Record authority.
 
@@ -245,4 +247,3 @@ Instance-specific. See [instance-doctrine.md](instance-doctrine.md) for the full
 - Call the Voice an "oracle" or the Record "commanding" â€” use mirror, reflect, voice, record
 - Let terminology drift â€” when editing CONCEPTUAL-FRAMEWORK, AGENTS, or templates, prefer Record (not fork) and Voice (not bot) in conceptual prose; correct inconsistencies
 - **Do not** use legacy on-disk names (`SELF.md`, `EVIDENCE.md`, `PENDING-REVIEW.md`, â€¦) â€” canonical paths are **`self.md`**, **`self-skills.md`** (capability index; legacy `skills.md` until migrated), **`self-archive.md`** (EVIDENCE), **`recursion-gate.md`** ([canonical-paths.md](docs/canonical-paths.md))
-

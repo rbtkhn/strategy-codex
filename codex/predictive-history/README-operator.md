@@ -2,13 +2,18 @@
 
 Public intake command: `predictive-history`. Legacy `work-jiang` remains as a compatibility alias and internal wrapper name.
 
+> [!IMPORTANT]
+> **Freeze status:** Predictive History canonical edits now belong in **[`rbtkhn/predictive-history`](https://github.com/rbtkhn/predictive-history)**. The `codex/predictive-history/` tree inside `strategy-codex` is **frozen migration residue / historical reference only** during episode-by-episode migration. Do not treat it as a live writable lane. Boundary doctrine: [docs/predictive-history-external-boundary.md](../../docs/predictive-history-external-boundary.md).
+
 Operator project — **Jiang** (separate from SKILLS). See [skill-think](skill-think.md), [skill-write](skill-write.md), [work-alpha-school](work-alpha-school.md).
 
 ## Purpose
 
-**Deliver a book and/or website** under the multivolume title **Predictive History** (one volume per primary corpus—lecture series for Volumes I–V; **Volume VI — Interviews** for long-form dialogue on any channel) that articulates and analyzes **Jiang’s unique philosophy** — clear enough for readers to understand the system, and analytic enough to show how claims connect and where they meet the world. Current repo tranche: **Volume 1 — Geo-Strategy**.
+This file now documents the **local review/stewardship boundary** around a frozen historical PH tree. The canonical multivolume build has moved to the external repo; `strategy-codex` may only observe, review, and critique migrated PH work.
 
-**Canonical library index:** The book is catalogued in [self-library](self-library.md) as **LIB-0149** (SELF-LIBRARY is reference-facing; the working manuscript and research corpus stay under `codex/predictive-history/` until material is merged through the gate).
+Historical purpose of this local tree was to deliver a multivolume **Predictive History** book/site corpus. That canonical build now lives externally; this repo may only observe, review, and critique migrated PH work.
+
+**Canonical library index:** The book is catalogued in [self-library](self-library.md) as **LIB-0149** (SELF-LIBRARY is reference-facing; the local `codex/predictive-history/` tree is now frozen reference residue rather than the working manuscript).
 
 **Design lens:** Alpha-style mastery vocabulary (gates, “no Swiss cheese,” 2-hour pacing) mapped to this fork’s gate and WORK tools — [alpha-mastery-adaptation.md](../../docs/alpha-mastery-adaptation.md).
 
@@ -16,24 +21,26 @@ Operator project — **Jiang** (separate from SKILLS). See [skill-think](skill-t
 
 **Cursor skill — forward lecture chain:** [skill-jiang.md](./skill-jiang.md) (predict next episode from prefix only; Volume IV bake-off log under `prediction-tracking/`).
 
-**Publishing (serial releases, one repo):** [PUBLISHING.md](./book/PUBLISHING.md) — ship **one volume at a time**; assume readers **may have prior volumes**; **cross-volume references** allowed; **all corpora** stay in `codex/predictive-history/`.
+**Publishing (historical local note):** [PUBLISHING.md](./book/PUBLISHING.md) documents the earlier single-repo local model; it is no longer the canonical writable workflow for current PH work.
 
 **Method (operator work, not Voice knowledge until merged through the gate):**
 
 1. **Lecture transcripts** — primary text: systematic capture and close reading of his talks (e.g. channel pulls under `research/external/youtube-channels/predictive-history/`), tagged and excerpted for themes, definitions, and internal consistency.
 2. **[CIV-MEM](../../docs/skill-work/work-civ-mem/README.md)** — civilizational / strategic / governance vocabulary and frames from the civilization_memory stewardship lane: use as an **analytic lattice** and **reference spine** (conditions, seams, multi-perspective structure) to organize and stress-test philosophical claims without collapsing them into politics alone.
 3. **Current-events scans** — periodic passes (news, briefs, operator skills such as pulse/search workflows) to **ground** the philosophy: where the abstract system meets concrete episodes, and what would need to be said in a given moment.
-4. **Compressions** — After a large artifact or handoff, run `python3 scripts/jiang-compress.py -u grace-mar` to emit a labeled JSON pack under `codex/predictive-history/compressions/` (operator checklist + optional gate stub; not Record). See [COMPRESSION-ENGINE](./COMPRESSION-ENGINE.md).
+4. **Compressions** — Historical local mechanism only. Do not emit new canonical PH packs into `codex/predictive-history/compressions/` from this repo.
 
 Nothing in this file is Record truth for the Voice until merged through the gated pipeline. Human-gated.
 
 **Membrane (normative):** [codex/predictive-history/README.md § Boundaries](./README.md#boundaries-membrane) — research corpus vs Record, candidates vs quotes, validators as gate.
 
-**Repo CI:** PRs that only touch work-jiang paths should use label **`lane/work-jiang`**. When pasting into `recursion-gate.md`, use the canonical **`### CANDIDATE-*`** block shape (see [work-jiang lane + gate CI](./LANE-CI.md)).
+**Repo CI:** Local CI now protects the Predictive History freeze boundary rather than rebuilding PH here. When pasting into `recursion-gate.md`, use the canonical **`### CANDIDATE-*`** block shape (see [work-jiang lane + gate CI](./LANE-CI.md)).
 
 ---
 
 ## Context objectives
+
+Current objective is boundary-safe review, not local PH production. Use this repo to critique externally migrated material, preserve migration traceability, and keep strategy-facing Jiang routing legible without reviving the old writable lane.
 
 - Maintain a **canonical transcript set** and a working **outline / thesis map** for the book or site.
 - Run **civ-mem-informed analysis** on clusters of transcript material (themes, tensions, dependencies).

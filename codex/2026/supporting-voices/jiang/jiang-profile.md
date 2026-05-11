@@ -7,6 +7,8 @@ WORK only; not Record.
 
 **Routing rule:** Predictive History is the sole upstream for notebook-facing Jiang ingest. PH-derived material may inform strategy-notebook only through this expert lane. Direct PH Ã¢â€ â€™ strategy-page routing is disallowed; route PH notes through inbox with `thread:jiang`, then weave on operator intent.
 
+**External PH boundary:** Canonical Predictive History edits now happen in the external `rbtkhn/predictive-history` repo. This profile may still route PH-derived material into notebook review, but `strategy-codex` only observes and critiques that external work.
+
 ---
 
 ## Identity
@@ -106,11 +108,13 @@ Promotion and refresh defaults: [strategy-expert-template.md Ã‚Â§ Voice fin
 
 ## Seed
 
-Jiang Xueqin's Predictive History lectures are the **work-jiang** book spine. The operator's curated lecture bodies live under `research/external/work-jiang/lectures/`; raw caption pulls from `research/external/youtube-channels/predictive-history/transcripts/` diff against those before quotations ship.
+Predictive History canonical curation now lives in the external repo. Local `codex/predictive-history/lectures/` and `research/external/youtube-channels/predictive-history/transcripts/` paths are frozen migration/reference surfaces only.
+
+Jiang Xueqin's Predictive History lectures are the **work-jiang** book spine. The operator's curated lecture bodies live under `codex/predictive-history/lectures/`; raw caption pulls from `research/external/youtube-channels/predictive-history/transcripts/` diff against those before quotations ship.
 
 This expert lane is the **mandatory membrane** for PH Ã¢â€ â€™ strategy-notebook. PH material that has not been routed through `thread:jiang` and this file may not directly shape strategy pages.
 
-See: [work-jiang README](../../../../research/external/work-jiang/README.md), [daily-brief-jiang-layer.md](../../daily-brief-jiang-layer.md), [LEARN_MODE_RULES.md](../../LEARN_MODE_RULES.md).
+See: [work-jiang README](../../../codex/predictive-history/README.md), [daily-brief-jiang-layer.md](../../daily-brief-jiang-layer.md), [LEARN_MODE_RULES.md](../../LEARN_MODE_RULES.md).
 
 ---
 

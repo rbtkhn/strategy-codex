@@ -1,6 +1,6 @@
 # work-strategy — transcript ingest (operator)
 
-**Purpose:** Hold **raw or lightly curated transcripts** that feed the **work-strategy** pipeline ([current-events-analysis.md](../../../../docs/skill-work/work-strategy/current-events-analysis.md) step 1 **Perceiver**, [persuasive-content-pipeline.md](../../../../docs/skill-work/work-strategy/persuasive-content-pipeline.md), [LEARN_MODE_RULES.md](../../../../docs/skill-work/work-strategy/LEARN_MODE_RULES.md)), **separate from** the companion **Record** and **separate from** [work-jiang](../../../work-jiang/README.md) lecture corpora.
+**Purpose:** Hold **raw or lightly curated transcripts** that feed the **work-strategy** pipeline ([current-events-analysis.md](../../../../docs/skill-work/work-strategy/current-events-analysis.md) step 1 **Perceiver**, [persuasive-content-pipeline.md](../../../../docs/skill-work/work-strategy/persuasive-content-pipeline.md), [LEARN_MODE_RULES.md](../../../../docs/skill-work/work-strategy/LEARN_MODE_RULES.md)), **separate from** the companion **Record** and **separate from** the frozen local Predictive History residue in this repo.
 
 **Not Voice knowledge** until anything is merged through **RECURSION-GATE** per [AGENTS.md](../../../../AGENTS.md).
 
@@ -8,9 +8,11 @@
 
 ## Predictive History (work-strategy default channel)
 
+Predictive History ingest is now **external-only**. The local [predictive-history README](../../youtube-channels/predictive-history/README.md) is a **legacy snapshot reference**, not an active sync target. Bring new PH material into `strategy-codex` as bounded review packets or externally prepared snapshots, then digest or comment on it here without reviving the local PH lane.
+
 **[predictive-history/README.md](../../youtube-channels/predictive-history/README.md)** is the **primary** repo path for **syncing** the Predictive History YouTube channel into `transcripts/*.txt` + `index.json`. That tree is **work-strategy–first**; see [common-inputs.md § PH](../../../../docs/skill-work/work-strategy/common-inputs.md).
 
-**Flow:** Pull captions with the PH README CLI → diff / verify against [work-jiang/lectures/](../../../work-jiang/lectures/) curated `.md` when quoting → optional **digest** `.md` **here** for one-off Perceiver runs or analyst registry rows.
+**Flow:** Pull captions with the PH README CLI → diff / verify against [codex/predictive-history/lectures/](../../../codex/predictive-history/lectures/) curated `.md` when quoting → optional **digest** `.md` **here** for one-off Perceiver runs or analyst registry rows.
 
 ---
 

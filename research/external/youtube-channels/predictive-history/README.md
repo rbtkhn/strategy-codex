@@ -2,13 +2,16 @@
 
 Public intake command: `predictive-history`. Legacy `work-jiang` is retained only as a compatibility alias in older docs and wrappers.
 
-**Purpose:** Operator research corpus (YouTube captions). **Not** part of the companion Record; do not merge into SELF or treat as Voice knowledge.
+> [!IMPORTANT]
+> **Legacy snapshot only:** this folder is a frozen local Predictive History transcript snapshot inside `strategy-codex`. Canonical Predictive History work now belongs in **[`rbtkhn/predictive-history`](https://github.com/rbtkhn/predictive-history)**. Do **not** refresh or extend this tree as if it were the active ingest lane. Use it only for migration lookup, legacy comparison, and bounded review context. Review interface: [docs/skill-work/work-strategy/predictive-history-review-packets.md](../../../../docs/skill-work/work-strategy/predictive-history-review-packets.md).
+
+**Purpose:** legacy local operator research snapshot (YouTube captions). **Not** part of the companion Record; do not merge into SELF or treat as Voice knowledge.
 
 ---
 
 ## Work-strategy wiring
 
-**Predictive History** is the **default bulk transcript spine** for **[work-strategy](../../../../docs/skill-work/work-strategy/README.md)** — long-horizon lectures, game-theory arcs, and civilization framing that feed **Perceiver**, **LEARN MODE**, and **current-events** synthesis. **Curated, operator-clean lecture bodies** live under [codex/predictive-history/lectures/](../../../../codex/predictive-history/lectures/) (see [Predictive History README](../../../../codex/predictive-history/README.md)); **raw caption pulls** from this folder diff against those before quotations ship.
+Historically, this was the **default bulk transcript spine** for **[work-strategy](../../../../docs/skill-work/work-strategy/README.md)** — long-horizon lectures, game-theory arcs, and civilization framing that feed **Perceiver**, **LEARN MODE**, and **current-events** synthesis. During migration it remains a **read-only legacy snapshot**. Any current canonical PH curation happens in the external repo, not here.
 
 | Doc / path | Role |
 |------------|------|
@@ -19,7 +22,7 @@ Public intake command: `predictive-history`. Legacy `work-jiang` is retained onl
 | [daily-brief-jiang-layer.md](../../../../docs/skill-work/work-strategy/daily-brief-jiang-layer.md) | **§1c** slow layer; PH lectures are the usual **work-jiang** book spine |
 | [work-jiang-sources.md](../../../../codex/predictive-history/work-jiang-sources.md) | Canonical channel URL + index/transcript CLI notes |
 
-**Strategy-codex membrane:** Predictive History remains an upstream work-strategy transcript spine. For strategy-codex-facing use, PH material must be mediated through the Jiang strategy-author lane (`strategy-expert-jiang` in the current filename contract) before weave. Direct PH → knot routing is disallowed. See [strategy-notebook/README.md](../../../../docs/skill-work/work-strategy/strategy-notebook/README.md) § **Predictive History routing rule**.
+**Strategy-codex membrane:** Predictive History remains an upstream work-strategy transcript spine, but this local tree is now **read-only legacy residue**. For strategy-codex-facing use, PH material must be mediated through the Jiang strategy-author lane (`strategy-expert-jiang` in the current filename contract) before weave. Direct PH → knot routing is disallowed. See [strategy-notebook/README.md](../../../../docs/skill-work/work-strategy/strategy-notebook/README.md) § **Predictive History routing rule**.
 
 ---
 
@@ -59,14 +62,14 @@ You can still commit **`index.json`** and **`transcript_manifest.json`** as ligh
 | `WHISPER_CPP_BIN` | Path to whisper.cpp CLI (default `whisper-cli`) |
 | `WHISPER_CPP_MODEL` | Path to `.bin` model (required for tier 3) |
 
-## Full channel listing (no downloads)
+## Full channel listing (historical snapshot)
 
 Human-readable table of **all** videos on the channel (regenerate after new uploads):
 
 - [CHANNEL-VIDEO-INDEX.md](CHANNEL-VIDEO-INDEX.md) — full table: `video_id`, title, duration, watch URL.
 - **`index.json`** — same listing in JSON (`--index-only` writes both files).
 
-Refresh listing from YouTube (no transcript downloads):
+Historical local command (do **not** use this repo as the active refresh target anymore):
 
 ```bash
 python3 scripts/fetch_youtube_channel_transcripts.py --index-only \
@@ -76,7 +79,9 @@ python3 scripts/fetch_youtube_channel_transcripts.py --index-only \
 
 The entry script adds `scripts/` to `sys.path` so `youtube_transcripts` imports resolve.
 
-## Generate / refresh (sync CLI)
+## Generate / refresh (sync CLI) — deprecated for `strategy-codex`
+
+The commands below are retained only as historical documentation of the old local ingest flow. New Predictive History ingest should happen outside `strategy-codex`, with results brought back here only as review packets or bounded snapshots.
 
 From repo root (install deps: `pip install -e ".[youtube-research]"`):
 
