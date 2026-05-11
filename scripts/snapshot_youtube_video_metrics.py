@@ -5,17 +5,18 @@ Append one JSON line per video per run to a .jsonl file for longitudinal trackin
 does not download video or full comment threads.
 
   python3 scripts/snapshot_youtube_video_metrics.py --video-id lkKrZq4YdqY \\
-    --jsonl research/external/work-jiang/influence-tracking/snapshots/video-metrics.jsonl
+    --jsonl codex/predictive-history/influence-tracking/snapshots/video-metrics.jsonl
 """
 
 from __future__ import annotations
 
 import argparse
 import json
-import subprocess
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
+
+from youtube_transcripts.ytdlp_adapter import YtDlpError, fetch_video_metadata_subprocess, get_version
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
@@ -28,23 +29,10 @@ def _watch_url(video_id: str) -> str:
 
 
 def _fetch_metadata(url: str) -> dict:
-    cmd = [
-        "yt-dlp",
-        "--quiet",
-        "--no-warnings",
-        "--skip-download",
-        "--no-write-comments",
-        "--dump-single-json",
-        url,
-    ]
-    proc = subprocess.run(cmd, capture_output=True, text=True)
-    if proc.returncode != 0:
-        raise RuntimeError(proc.stderr or proc.stdout or "yt-dlp failed")
-    line = proc.stdout.strip().splitlines()
-    raw = line[-1] if line else ""
-    if not raw.startswith("{"):
-        raise RuntimeError("yt-dlp did not return JSON")
-    return json.loads(raw)
+    try:
+        return fetch_video_metadata_subprocess(url, mode="binary")
+    except YtDlpError as exc:
+        raise RuntimeError(str(exc)) from exc
 
 
 def _snapshot_record(d: dict, *, tool_version: str) -> dict:
@@ -69,13 +57,10 @@ def _snapshot_record(d: dict, *, tool_version: str) -> dict:
 
 
 def _yt_dlp_version() -> str:
-    proc = subprocess.run(["yt-dlp", "--version"], capture_output=True, text=True)
-    if proc.returncode == 0:
-        return proc.stdout.strip()
-    return "unknown"
+    return get_version(mode="binary")
 
 
-def main() -> int:
+def main(argv: list[str] | None = None) -> int:
     p = argparse.ArgumentParser(description="Append YouTube public metrics to JSONL.")
     p.add_argument(
         "--video-id",
@@ -89,7 +74,7 @@ def main() -> int:
         type=Path,
         help="Append-only JSONL path (e.g. influence-tracking/snapshots/video-metrics.jsonl)",
     )
-    args = p.parse_args()
+    args = p.parse_args(argv)
     out = args.jsonl
     if not out.is_absolute():
         out = REPO_ROOT / out

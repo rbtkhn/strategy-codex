@@ -1,24 +1,10 @@
 from __future__ import annotations
 
 import json
-import re
-from datetime import datetime
 from pathlib import Path
 from typing import Any
 
-
-def normalize_upload_date(raw: str | None) -> str | None:
-    s = (raw or "").strip()
-    if not s:
-        return None
-    if re.fullmatch(r"\d{8}", s):
-        return f"{s[:4]}-{s[4:6]}-{s[6:8]}"
-    if re.fullmatch(r"\d{4}-\d{2}-\d{2}", s):
-        return s
-    try:
-        return datetime.fromisoformat(s.replace("Z", "+00:00")).date().isoformat()
-    except ValueError:
-        return None
+from youtube_transcripts.ytdlp_adapter import normalize_upload_date
 
 
 def load_index_videos(index_path: Path) -> list[dict[str, Any]]:

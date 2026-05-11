@@ -12,14 +12,14 @@ from __future__ import annotations
 
 import argparse
 import html
-import json
 import re
-import subprocess
 import sys
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Callable
 from urllib.parse import parse_qs, urlparse
+
+from youtube_transcripts.ytdlp_adapter import YtDlpError, fetch_video_metadata_subprocess
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 NOTEBOOK_ROOT = REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook"
@@ -100,30 +100,13 @@ def normalize_pub_date(value: str | None) -> str | None:
 
 
 def fetch_youtube_metadata(video_id: str) -> dict | None:
-    url = canonical_watch_url(video_id)
-    cmd = [
-        sys.executable,
-        "-m",
-        "yt_dlp",
-        "--quiet",
-        "--no-warnings",
-        "--skip-download",
-        "--no-write-comments",
-        "--dump-single-json",
-        url,
-    ]
-    proc = subprocess.run(cmd, capture_output=True, text=True)
-    if proc.returncode != 0:
-        return None
-    raw = proc.stdout.strip().splitlines()
-    if not raw:
-        return None
-    payload = raw[-1]
-    if not payload.startswith("{"):
-        return None
     try:
-        data = json.loads(payload)
-    except json.JSONDecodeError:
+        data = fetch_video_metadata_subprocess(
+            video_id,
+            mode="module",
+            python_cmd=sys.executable,
+        )
+    except YtDlpError:
         return None
     title = normalize_text(str(data.get("title") or ""))
     pub_date = normalize_pub_date(str(data.get("upload_date") or ""))

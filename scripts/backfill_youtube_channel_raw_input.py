@@ -29,6 +29,7 @@ if str(SCRIPTS_DIR) not in sys.path:
 from fetch_strategy_raw_input import _slugify  # noqa: E402
 from youtube_transcripts.metadata import fetch_metadata_ytdlp  # noqa: E402
 from youtube_transcripts.index_rows import load_index_videos, normalize_upload_date  # noqa: E402
+from youtube_transcripts.ytdlp_adapter import YtDlpError, compact_upload_date, list_channel_entries_subprocess  # noqa: E402
 
 
 def _split_transcript_body(text: str) -> str:
@@ -204,49 +205,32 @@ def _direct_channel_index(
 ) -> list[dict[str, str]]:
     """Use yt-dlp directly to list videos on a channel page."""
     python_cmd = shutil.which("python") or sys.executable
-    cmd = [
-        python_cmd,
-        "-m",
-        "yt_dlp",
-        "--flat-playlist",
-        "--skip-download",
-        "--dump-single-json",
-        "--playlist-end",
-        str(max(1, limit)),
-        channel_url,
-    ]
-    proc = subprocess.run(cmd, cwd=str(REPO_ROOT), capture_output=True, text=True)
-    if proc.returncode != 0:
-        raise RuntimeError(
-            "yt-dlp channel listing failed:\n"
-            f"{proc.stderr.strip() or proc.stdout.strip() or channel_url}"
-        )
     try:
-        payload = json.loads(proc.stdout)
-    except json.JSONDecodeError as exc:
-        raise RuntimeError(
-            "yt-dlp channel listing returned non-JSON output:\n"
-            f"{proc.stdout.strip()[:1000]}"
-        ) from exc
-    entries = payload.get("entries") or []
+        entries = list_channel_entries_subprocess(
+            channel_url,
+            limit=limit,
+            cwd=REPO_ROOT,
+            python_cmd=python_cmd,
+        )
+    except YtDlpError as exc:
+        message = str(exc)
+        if "did not return JSON" in message or "invalid JSON" in message:
+            raise RuntimeError(
+                "yt-dlp channel listing returned non-JSON output:\n"
+                f"{message}"
+            ) from exc
+        raise RuntimeError(f"yt-dlp channel listing failed:\n{message or channel_url}") from exc
+
     rows: list[dict[str, str]] = []
-    seen: set[str] = set()
     for entry in entries:
-        if not entry:
-            continue
-        video_id = str(entry.get("id") or "").strip()
-        if not video_id or video_id in seen:
-            continue
-        seen.add(video_id)
-        title = str(entry.get("title") or "").strip()
-        url = str(entry.get("url") or entry.get("webpage_url") or "").strip()
+        video_id = entry["id"]
         rows.append(
             {
                 "video_id": video_id,
-                "title": title or video_id,
+                "title": entry["title"],
                 "upload_date": "",
                 "duration_seconds": "",
-                "url": url or f"https://www.youtube.com/watch?v={video_id}",
+                "url": entry["url"],
                 "transcript_file": None,
                 "status": "listed_only",
                 "language": None,
@@ -317,9 +301,9 @@ def backfill_channel(
                 vid, meta = _fetch(video)
                 if not isinstance(meta, dict) or not meta:
                     continue
-                upload_date = normalize_upload_date(str(meta.get("upload_date") or ""))
+                upload_date = compact_upload_date(str(meta.get("upload_date") or ""))
                 if upload_date:
-                    video["upload_date"] = upload_date.replace("-", "")
+                    video["upload_date"] = upload_date
                 title = str(meta.get("title") or "").strip()
                 if title:
                     video["title"] = title
@@ -335,9 +319,9 @@ def backfill_channel(
                         if video["video_id"] != vid:
                             continue
                         if isinstance(meta, dict) and meta:
-                            upload_date = normalize_upload_date(str(meta.get("upload_date") or ""))
+                            upload_date = compact_upload_date(str(meta.get("upload_date") or ""))
                             if upload_date:
-                                video["upload_date"] = upload_date.replace("-", "")
+                                video["upload_date"] = upload_date
                             title = str(meta.get("title") or "").strip()
                             if title:
                                 video["title"] = title

@@ -11,6 +11,7 @@ if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
 
 from backfill_youtube_channel_raw_input import (  # noqa: E402
+    _direct_channel_index,
     backfill_channel,
     convert_index_to_raw_input,
     infer_guest_from_title,
@@ -193,6 +194,44 @@ def test_backfill_channel_index_only_single_worker_enriches_metadata(tmp_path: P
     matches = list((nb_root / "raw-input" / "2026-05-03").glob("youtube-example-*.md"))
     assert len(matches) == 1
     assert "# Title for abc123def45" in matches[0].read_text(encoding="utf-8")
+
+
+def test_direct_channel_index_routes_through_adapter(monkeypatch) -> None:
+    calls: dict[str, object] = {}
+
+    def fake_list(channel_url: str, *, limit: int, cwd: Path, python_cmd: str) -> list[dict[str, str]]:
+        calls["channel_url"] = channel_url
+        calls["limit"] = limit
+        calls["cwd"] = cwd
+        calls["python_cmd"] = python_cmd
+        return [
+            {
+                "id": "abc123def45",
+                "title": "Example title",
+                "upload_date": "",
+                "duration": "",
+                "url": "https://www.youtube.com/watch?v=abc123def45",
+            }
+        ]
+
+    monkeypatch.setattr("backfill_youtube_channel_raw_input.list_channel_entries_subprocess", fake_list)
+    rows = _direct_channel_index(channel_url="https://www.youtube.com/@Example/videos", limit=3)
+
+    assert calls["channel_url"] == "https://www.youtube.com/@Example/videos"
+    assert calls["limit"] == 3
+    assert rows == [
+        {
+            "video_id": "abc123def45",
+            "title": "Example title",
+            "upload_date": "",
+            "duration_seconds": "",
+            "url": "https://www.youtube.com/watch?v=abc123def45",
+            "transcript_file": None,
+            "status": "listed_only",
+            "language": None,
+            "error": None,
+        }
+    ]
 
 
 def test_backfill_channel_transcript_mode_uses_python_cmd(tmp_path: Path, monkeypatch) -> None:

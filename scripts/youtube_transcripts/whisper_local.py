@@ -7,36 +7,16 @@ import subprocess
 import tempfile
 from pathlib import Path
 
-try:
-    import yt_dlp
-except ImportError:
-    yt_dlp = None  # type: ignore
+from youtube_transcripts.ytdlp_adapter import YtDlpError, download_audio_wav
 
 
 def _download_audio_wav(video_id: str, out_wav: Path) -> str | None:
-    if yt_dlp is None:
-        return "yt-dlp not installed"
-    url = f"https://www.youtube.com/watch?v={video_id}"
     out_dir = out_wav.parent
     stem = out_wav.stem
-    opts: dict = {
-        "quiet": True,
-        "no_warnings": True,
-        "format": "bestaudio/best",
-        "outtmpl": str(out_dir / f"{stem}.%(ext)s"),
-        "postprocessors": [
-            {
-                "key": "FFmpegExtractAudio",
-                "preferredcodec": "wav",
-            }
-        ],
-        "ignoreerrors": False,
-    }
     try:
-        with yt_dlp.YoutubeDL(opts) as ydl:
-            ydl.download([url])
-    except Exception as e:
-        return str(e)
+        download_audio_wav(video_id, out_wav)
+    except YtDlpError as exc:
+        return str(exc)
     if out_wav.exists():
         return None
     alt = out_dir / f"{stem}.wav"

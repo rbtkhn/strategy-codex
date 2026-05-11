@@ -8,56 +8,35 @@ import urllib.error
 import urllib.parse
 import urllib.request
 
-try:
-    import yt_dlp
-except ImportError:
-    yt_dlp = None  # type: ignore
-
-from youtube_transcripts.retry import retry_call
+from youtube_transcripts.ytdlp_adapter import (
+    caption_language_fields,
+    fetch_video_metadata_import,
+    normalize_duration_seconds,
+    normalize_title,
+)
 
 
 def fetch_metadata_ytdlp(video_id: str, *, max_attempts: int = 4) -> dict[str, object]:
     """Full extract_info for one video (not flat)."""
-    if yt_dlp is None:
-        return {}
-    url = f"https://www.youtube.com/watch?v={video_id}"
-
-    def _one() -> dict[str, object]:
-        opts: dict = {
-            "quiet": True,
-            "no_warnings": True,
-            "skip_download": True,
-            "ignoreerrors": False,
-        }
-        with yt_dlp.YoutubeDL(opts) as ydl:
-            info = ydl.extract_info(url, download=False)
-        if not isinstance(info, dict):
-            return {}
-        return info
-
     try:
-        return retry_call(_one, max_attempts=max_attempts)
+        return fetch_video_metadata_import(video_id, max_attempts=max_attempts)
     except Exception:
         return {}
 
 
 def ytdlp_to_record(info: dict[str, object]) -> dict[str, object]:
     """Normalize yt-dlp info dict for manifest."""
-    dur = info.get("duration")
-    subs = info.get("subtitles") or {}
-    auto_s = info.get("automatic_captions") or {}
-    manual_langs = list(subs.keys()) if isinstance(subs, dict) else []
-    auto_langs = list(auto_s.keys()) if isinstance(auto_s, dict) else []
+    captions = caption_language_fields(info)
     return {
-        "duration_seconds": int(dur) if dur is not None else None,
+        "duration_seconds": normalize_duration_seconds(info.get("duration")),
         "upload_date": (info.get("upload_date") or "") or None,
-        "title": (info.get("title") or "") or None,
-        "channel": (info.get("channel") or info.get("uploader") or "") or None,
+        "title": normalize_title(info.get("title")) or None,
+        "channel": normalize_title(info.get("channel") or info.get("uploader")) or None,
         "was_live": bool(info.get("was_live") or info.get("is_live")),
         "availability": (info.get("availability") or "") or None,
         "metadata_source": "yt-dlp",
-        "caption_manual_langs": manual_langs[:40],
-        "caption_auto_langs": auto_langs[:40],
+        "caption_manual_langs": captions["caption_manual_langs"],
+        "caption_auto_langs": captions["caption_auto_langs"],
     }
 
 

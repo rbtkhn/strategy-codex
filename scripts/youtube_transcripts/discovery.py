@@ -4,12 +4,7 @@ import re
 from datetime import date
 from pathlib import Path
 
-try:
-    import yt_dlp
-except ImportError:
-    yt_dlp = None  # type: ignore
-
-from youtube_transcripts.retry import retry_call
+from youtube_transcripts.ytdlp_adapter import YtDlpError, list_videos_flat
 
 
 def _normalize_url_line(line: str) -> str | None:
@@ -50,62 +45,19 @@ def list_videos(
     List videos using yt-dlp flat extraction (channel, playlist, or single video URL).
     Returns dicts: id, title, upload_date, duration (string), url.
     """
-    if yt_dlp is None:
-        raise RuntimeError("Missing dependency: pip install yt-dlp")
-
     url = url_or_id.strip()
     vid = extract_video_id(url)
     if vid and "youtube.com" not in url and "youtu.be" not in url and "playlist" not in url:
-        # Bare 11-char id — treat as watch URL
         url = f"https://www.youtube.com/watch?v={vid}"
-
-    def _extract() -> list[dict[str, str]]:
-        opts: dict = {
-            "quiet": True,
-            "no_warnings": True,
-            "extract_flat": True,
-            "skip_download": True,
-            "ignoreerrors": True,
-        }
-        if playlist_items:
-            opts["playlist_items"] = playlist_items
-        if limit is not None and limit > 0:
-            opts["playlistend"] = limit
-        with yt_dlp.YoutubeDL(opts) as ydl:
-            info = ydl.extract_info(url, download=False)
-        entries = info.get("entries")
-        if entries is None:
-            entries = []
-        # Single video (not a playlist)
-        if not entries and isinstance(info, dict) and info.get("id"):
-            entries = [info]
-        out: list[dict[str, str]] = []
-        cutoff = stop_before_date.isoformat() if stop_before_date else None
-        for e in entries:
-            if not e:
-                continue
-            eid = e.get("id") or ""
-            if not eid:
-                continue
-            upload_date = (e.get("upload_date") or "").strip()
-            if cutoff and upload_date and len(upload_date) >= 8:
-                normalized_date = (
-                    f"{upload_date[:4]}-{upload_date[4:6]}-{upload_date[6:8]}"
-                    if re.fullmatch(r"\d{8}", upload_date)
-                    else upload_date
-                )
-                if normalized_date < cutoff:
-                    break
-            dur = e.get("duration")
-            out.append(
-                {
-                    "id": eid,
-                    "title": (e.get("title") or "").strip() or eid,
-                    "upload_date": upload_date,
-                    "duration": str(dur) if dur is not None else "",
-                    "url": f"https://www.youtube.com/watch?v={eid}",
-                }
-            )
-        return out
-
-    return retry_call(_extract, max_attempts=max_attempts)
+    try:
+        return list_videos_flat(
+            url,
+            limit=limit,
+            playlist_items=playlist_items,
+            stop_before_date=stop_before_date,
+            max_attempts=max_attempts,
+        )
+    except YtDlpError as exc:
+        if "not installed" in str(exc):
+            raise RuntimeError("Missing dependency: pip install yt-dlp") from exc
+        raise
