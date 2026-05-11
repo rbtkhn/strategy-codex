@@ -3,8 +3,8 @@
 Session load assessment — aggregate cadence, gate, capture gap, and dream
 quality signals into a cognitive load level for the operator.
 
-Designed to annotate the fixed coffee menu with per-option cost hints and a
-recommended pick (A / B / C only — not D / E).
+Designed to annotate the fixed coffee hub with per-option cost hints and a
+recommended pick (A / B / C only, from the A-D hub).
 
 Exposes assess_load() for import by operator_coffee.py.
 
@@ -74,9 +74,11 @@ def _collect_gate_depth(user_id: str) -> dict | None:
     if not gate_path.is_file():
         return None
     content = gate_path.read_text(encoding="utf-8")
-    processed = re.search(r"^## Processed\s*$", content, re.MULTILINE)
-    section = content[:processed.start()] if processed else content
-    pending = len(re.findall(r"status:\s*pending", section))
+    try:
+        from gate_block_parser import iter_candidate_yaml_blocks, pending_candidates_region
+    except ImportError:
+        from scripts.gate_block_parser import iter_candidate_yaml_blocks, pending_candidates_region
+    pending = len(list(iter_candidate_yaml_blocks(pending_candidates_region(content))))
     return {"pending": pending}
 
 
@@ -222,14 +224,10 @@ def _compute_option_weights(
     weights: dict[str, dict[str, str]] = {
         "A": {"cost": "light", "note": "Steward — gate / template / integrity / git"},
         "B": {"cost": "moderate", "note": "Engineer — work-dev + skills"},
-        "C": {"cost": "light", "note": "Historian — intel / bookshelf quiz / notebook"},
+        "C": {"cost": "light", "note": "Strategist - intel / bookshelf quiz / notebook"},
         "D": {
             "cost": "moderate",
             "note": "Capitalist — work-business / grace-gems / bookshelf product use / commercial cici",
-        },
-        "E": {
-            "cost": "moderate",
-            "note": "Conductor — hub continuation (resolve slug); standalone conductor outside hub",
         },
     }
 
@@ -256,16 +254,16 @@ def _pick_recommendation(
     """Select the recommended option and reason (A / B / C only; see coffee SKILL)."""
     w = {k: weights[k] for k in ("A", "B", "C") if k in weights}
     if load_level == "heavy":
-        return "C", "heavy load — historian submenu keeps the next move bounded"
+        return "C", "heavy load - strategist submenu keeps the next move bounded"
     if load_level == "moderate":
         light_options = [k for k, v in w.items() if v["cost"] == "light"]
         if "A" in light_options:
             return "A", "moderate load — bounded steward pass clears cognitive debt"
-        return "C", "moderate load — historian submenu matches current pace"
+        return "C", "moderate load - strategist submenu matches current pace"
     moderate_options = [k for k, v in w.items() if v["cost"] in ("light", "moderate")]
     if "C" in moderate_options:
-        return "C", "light load — good conditions for historian intel / quiz / notebook"
-    return "B", "light load — good conditions for engineer / build work"
+        return "C", "light load - good conditions for strategist intel / quiz / notebook"
+    return "B", "light load - good conditions for engineer / build work"
 
 
 # ---------------------------------------------------------------------------
@@ -323,13 +321,12 @@ def format_annotated_menu(result: dict) -> str:
     labels = {
         "A": "Steward",
         "B": "Engineer",
-        "C": "Historian",
+        "C": "Strategist",
         "D": "Capitalist",
-        "E": "Conductor",
     }
 
     lines = []
-    for letter in ("A", "B", "C", "D", "E"):
+    for letter in ("A", "B", "C", "D"):
         w = weights.get(letter, {"cost": "?", "note": ""})
         label = labels[letter]
         tag = f"({w['cost']})"

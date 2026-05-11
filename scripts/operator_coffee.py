@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Consolidated coffee Step 1 — single entry point for all warmup modes.
+Consolidated coffee Step 1 - single entry point for all warmup modes.
 
 Replaces the need for the agent (or operator) to choose between
 operator_daily_warmup, harness_warmup, operator_handoff_check, and
@@ -13,7 +13,7 @@ Modes
   work-start  Full work-start coffee: daily warmup + harness warmup + branch snapshot
   light       Lighter pass: daily warmup + compact harness + one-line branch
   minimal     Minimal pass: compact harness only (no daily warmup unless --include-warmup)
-  closeout    Signing-off Step 1: handoff check (gate, PH closeout, commits, worktree) — same coffee A–E menu after; not a separate ritual
+  closeout    Signing-off Step 1: handoff check (gate, PH closeout, commits, worktree) - same coffee A-D hub menu after; conductor remains name-only
   reentry     Cold-thread stack: handoff + daily warmup + harness (same as operator_reentry_stack)
 
 Usage
@@ -77,14 +77,14 @@ def _branch_snapshot() -> str:
     return (
         f"Branch snapshot:\n{status_out}\n\n"
         f"Branches:\n{branch_out}\n\n"
-        f"Non-main branches: {len(non_main)} — review per git-branch-hygiene.md."
+        f"Non-main branches: {len(non_main)} - review per git-branch-hygiene.md."
     )
 
 
 def main() -> int:
     _configure_utf8_stdio()
     p = argparse.ArgumentParser(
-        description="Consolidated coffee Step 1 — single entry point for all warmup modes."
+        description="Consolidated coffee Step 1 - single entry point for all warmup modes."
     )
     p.add_argument("-u", "--user", default="grace-mar", help="User id (default: grace-mar)")
     p.add_argument(
@@ -194,12 +194,12 @@ def main() -> int:
 
     try:
         from coffee_lane_next_hints import format_lane_next_hints
-        print(f"\n{'=' * 60}\n$ Lane context (for hub B / D — Engineer & Capitalist hints)\n{'=' * 60}\n", flush=True)
+        print(f"\n{'=' * 60}\n$ Lane context (for hub B / D - Engineer & Capitalist hints)\n{'=' * 60}\n", flush=True)
         print(format_lane_next_hints(_REPO))
     except Exception:
         try:
             from scripts.coffee_lane_next_hints import format_lane_next_hints
-            print(f"\n{'=' * 60}\n$ Lane context (for hub B / D — Engineer & Capitalist hints)\n{'=' * 60}\n", flush=True)
+            print(f"\n{'=' * 60}\n$ Lane context (for hub B / D - Engineer & Capitalist hints)\n{'=' * 60}\n", flush=True)
             print(format_lane_next_hints(_REPO))
         except Exception:
             pass
@@ -225,7 +225,7 @@ def main() -> int:
 
         print(
             f"\n{'=' * 60}\n"
-            f"$ Coffee hub Step 2 — hub **E** label (paste into reply)\n"
+            f"$ Standalone Conductor note (not a coffee hub line)\n"
             f"{'=' * 60}\n",
             flush=True,
         )
@@ -236,7 +236,7 @@ def main() -> int:
 
             print(
                 f"\n{'=' * 60}\n"
-                f"$ Coffee hub Step 2 — hub **E** label (paste into reply)\n"
+                f"$ Standalone Conductor note (not a coffee hub line)\n"
                 f"{'=' * 60}\n",
                 flush=True,
             )
