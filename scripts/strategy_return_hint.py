@@ -12,6 +12,7 @@ import argparse
 import re
 import sys
 from dataclasses import dataclass
+from datetime import date
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -38,6 +39,7 @@ class StrategyReturnHint:
     suggested_move: str
     active_chapter: str | None = None
     active_days_path: str | None = None
+    raw_input_gap_urls: tuple[str, ...] = ()
 
     def markdown_lines(self) -> list[str]:
         chapter_tail = ""
@@ -164,11 +166,11 @@ def _url_has_raw_pointer_in_row(url: str, pointer_rows: set[str]) -> bool:
     return any(url in row for row in pointer_rows)
 
 
-def raw_input_gap_count(live_text: str, raw_root: Path) -> int:
+def raw_input_gap_urls(live_text: str, raw_root: Path) -> tuple[str, ...]:
     inbox_urls = {u for u in urls_from_text(live_text) if article_capture_candidate(u)}
     raw_urls = source_urls_from_raw(raw_root)
     pointer_rows = raw_input_pointer_rows(live_text)
-    gaps = 0
+    gaps: set[str] = set()
     for inbox_url in inbox_urls:
         if _url_has_raw_pointer_in_row(inbox_url, pointer_rows):
             continue
@@ -181,8 +183,23 @@ def raw_input_gap_count(live_text: str, raw_root: Path) -> int:
             for ru in raw_urls
         )
         if not matched:
-            gaps += 1
-    return gaps
+            gaps.add(inbox_url)
+    return tuple(sorted(gaps))
+
+
+def raw_input_gap_count(live_text: str, raw_root: Path) -> int:
+    return len(raw_input_gap_urls(live_text, raw_root))
+
+
+def accumulator_drift_days(accumulator_date: str | None, *, today: date | None = None) -> int | None:
+    if accumulator_date is None:
+        return None
+    today = today or date.today()
+    try:
+        parsed = date.fromisoformat(accumulator_date)
+    except ValueError:
+        return None
+    return (today - parsed).days
 
 
 def classify_lines(live_text: str) -> tuple[int, int, int, str]:
@@ -245,7 +262,8 @@ def build_strategy_return_hint(
 
     live_text = live_accumulator_text(read_text(inbox))
     ready, verify, carry, live_seam = classify_lines(live_text)
-    gaps = raw_input_gap_count(live_text, raw)
+    gap_urls = raw_input_gap_urls(live_text, raw)
+    gaps = len(gap_urls)
     active = active_chapter_from_status(read_text(status))
     days = resolve_active_days_path(repo_root, active)
     days_rel = None
@@ -259,6 +277,7 @@ def build_strategy_return_hint(
         ready=ready,
         verify=verify,
         raw_input_gap=gaps,
+        raw_input_gap_urls=gap_urls,
         carry=carry,
         suggested_move=suggested_c_move(raw_input_gap=gaps, verify=verify, ready=ready),
         active_chapter=active,

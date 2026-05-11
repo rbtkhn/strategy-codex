@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Strategy Return Dashboard</title>
+  <style>
+    :root {
+      --ink: #1f2523;
+      --muted: #66716c;
+      --paper: #f6f0e5;
+      --panel: #fffaf0;
+      --line: #d7c9b2;
+      --accent: #b4512a;
+      --accent-2: #255f6b;
+      --warn: #8a3d22;
+      --ok: #496c45;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at top left, rgba(180, 81, 42, 0.16), transparent 32rem),
+        linear-gradient(135deg, #f9f4ea 0%, var(--paper) 48%, #ebe1d0 100%);
+      font-family: Georgia, "Times New Roman", serif;
+      line-height: 1.5;
+    }
+    main { max-width: 1120px; margin: 0 auto; padding: 40px 22px 60px; }
+    header {
+      display: grid;
+      gap: 18px;
+      padding: 28px;
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      background: rgba(255, 250, 240, 0.86);
+      box-shadow: 0 24px 80px rgba(77, 55, 34, 0.14);
+    }
+    .eyebrow { color: var(--accent); font: 700 0.78rem/1.2 ui-monospace, "SFMono-Regular", Consolas, monospace; letter-spacing: 0.12em; text-transform: uppercase; }
+    h1 { margin: 0; font-size: clamp(2.2rem, 7vw, 5.5rem); line-height: 0.94; letter-spacing: -0.055em; }
+    h2 { margin: 0 0 10px; font-size: 1.18rem; }
+    .lede { max-width: 850px; margin: 0; color: #3d4642; font-size: 1.08rem; }
+    .warning-strip {
+      padding: 12px 14px;
+      border-radius: 14px;
+      background: #ffe8d8;
+      color: #6a2e1a;
+      font-weight: 700;
+    }
+    .move {
+      margin: 24px 0;
+      padding: 22px;
+      border-left: 8px solid var(--accent);
+      border-radius: 18px;
+      background: var(--panel);
+    }
+    .move p { margin: 0; font-size: clamp(1.2rem, 3vw, 2rem); font-weight: 700; }
+    .grid { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 14px; margin: 22px 0; }
+    .card {
+      grid-column: span 2;
+      min-height: 155px;
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: rgba(255, 250, 240, 0.9);
+    }
+    .card span { display: block; color: var(--muted); font: 700 0.75rem/1.2 ui-monospace, Consolas, monospace; text-transform: uppercase; letter-spacing: 0.1em; }
+    .card strong { display: block; margin: 8px 0; font-size: clamp(2rem, 5vw, 4rem); line-height: 0.95; color: var(--accent-2); }
+    .card p { margin: 0; color: var(--muted); }
+    .gap strong, .warning strong { color: var(--warn); }
+    .panel {
+      margin-top: 18px;
+      padding: 22px;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: rgba(255, 250, 240, 0.88);
+    }
+    .panel.warning { border-color: #d2997d; background: #fff2e9; }
+    .panel.calm { border-color: #b7c9ad; background: #f2f7ec; }
+    code {
+      padding: 0.1rem 0.28rem;
+      border-radius: 0.35rem;
+      background: rgba(31, 37, 35, 0.08);
+      font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
+      font-size: 0.9em;
+    }
+    .source-list { columns: 2; padding-left: 1.2rem; }
+    footer { margin-top: 28px; color: var(--muted); font-size: 0.92rem; }
+    @media (max-width: 760px) {
+      main { padding: 20px 14px 40px; }
+      header { padding: 20px; }
+      .grid { grid-template-columns: 1fr; }
+      .card { grid-column: span 1; }
+      .source-list { columns: 1; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="eyebrow">Derived Strategy-codex Operator View</div>
+      <h1>Strategy Return Dashboard</h1>
+      <p class="lede">A static HTML reading layer for Coffee C. It visualizes the existing Strategy return hint; it does not replace Markdown, raw-input, strategy pages, chapters, or governed Record surfaces.</p>
+      <div class="warning-strip">Non-canonical / derived / rebuildable. No files were mutated by this dashboard.</div>
+    </header>
+
+    <section class="move">
+      <h2>Suggested Coffee C Move</h2>
+      <p>source hygiene first - close raw-input gaps before composing.</p>
+    </section>
+
+    <section class="panel">
+      <h2>Live Seam</h2>
+      <p>- YT | cold: **Robert Pape** Ã— **Ryan Grim** (*Breaking Points* â€” *Why a Nuclear Iran Is Inevitable*) â€” **aired** **2026-04-29** â€” U.S. â€œlost controlâ€ Iran-war thesis +...</p>
+    </section>
+
+    <section class="grid" aria-label="Strategy return cards">
+      <article class="card ready"><span>Ready</span><strong>61</strong><p>Synthesis-ready clusters: batch-analysis, page-ready, strategy-page, compose-read, or weave.</p></article>
+<article class="card verify"><span>Verify</span><strong>258</strong><p>Lines carrying verify pressure or pending-primary language.</p></article>
+<article class="card gap"><span>Raw-input gap</span><strong>8</strong><p>Article-like URLs not matched to raw-input source_url or same-row raw-input pointer.</p></article>
+<article class="card carry"><span>Carry</span><strong>21</strong><p>Open loop, revisit, falsifier, carry, or live-tension signals.</p></article>
+<article class="card chapter"><span>Active chapter</span><strong>2026-04</strong><p>codex/2026/chapters/2026-04/days.md</p></article>
+<article class="card freshness"><span>Accumulator drift</span><strong>+12d</strong><p>stale - accumulator is 12 day(s) behind today</p></article>
+<article class="card freshness"><span>Accumulator</span><strong>2026-04-29</strong><p>stale - accumulator is 12 day(s) behind today</p></article>
+    </section>
+
+    
+        <section class="panel warning">
+          <h2>Source Hygiene Panel</h2>
+          <p><strong>8</strong> possible raw-input gap(s) remain after ignoring placeholder YouTube IDs and rows with same-line raw-input pointers.</p>
+          <ul class="source-list">
+            <li><code>https://scottritter.substack.com/p/the-consequences-of-incompetence</code></li>
+<li><code>https://www.youtube.com/watch?v=6kqD_urUtjA</code></li>
+<li><code>https://www.youtube.com/watch?v=7hRlKqCWRl8</code></li>
+<li><code>https://www.youtube.com/watch?v=P_DHMUdOVdo</code></li>
+<li><code>https://www.youtube.com/watch?v=Ts-AA6LQf6I</code></li>
+<li><code>https://www.youtube.com/watch?v=VHXJxEU7Ses</code></li>
+<li><code>https://www.youtube.com/watch?v=geWpX8w7BNU</code></li>
+<li><code>https://www.youtube.com/watch?v=n44OF1Y7zgo</code></li>
+          </ul>
+          <p>Use Coffee C to close source hygiene before page or chapter composition.</p>
+        </section>
+        
+
+    <section class="panel">
+      <h2>Provenance</h2>
+      <p><strong>Generated:</strong> 2026-05-11T09:20:00-06:00</p>
+      <p><strong>Active chapter:</strong> 2026-04</p>
+      <p><strong>Sources read:</strong></p>
+      <ul class="source-list">
+        <li><code>codex/daily-strategy-inbox.md</code></li>
+<li><code>codex/STATUS.md</code></li>
+<li><code>codex/2026/raw-input</code></li>
+<li><code>scripts/strategy_return_hint.py</code></li>
+<li><code>codex/2026/chapters/2026-04/days.md</code></li>
+      </ul>
+    </section>
+
+    <footer>
+      <p>Regenerate with <code>python scripts/render_strategy_return_dashboard.py</code>. This artifact is a view, not the score.</p>
+    </footer>
+  </main>
+</body>
+</html>

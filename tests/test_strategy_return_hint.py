@@ -59,6 +59,7 @@ _(Append below this line during the day.)_
     assert hint.active_chapter == "2026-04"
     assert hint.active_days_path == "codex/2026/chapters/2026-04/days.md"
     assert hint.suggested_move.startswith("source hygiene first")
+    assert hint.raw_input_gap_urls == ("https://example.substack.com/p/unmatched",)
 
 
 def test_raw_input_gap_matches_source_url_slug(tmp_path: Path) -> None:
@@ -76,6 +77,13 @@ body
     live = "- source | https://example.substack.com/p/robot-labor-shock?utm_source=test"
 
     assert srh.raw_input_gap_count(live, raw_root) == 0
+
+
+def test_accumulator_drift_days_tracks_behind_and_future() -> None:
+    assert srh.accumulator_drift_days(None) is None
+    assert srh.accumulator_drift_days("2026-05-09", today=srh.date(2026, 5, 9)) == 0
+    assert srh.accumulator_drift_days("2026-05-08", today=srh.date(2026, 5, 9)) == 1
+    assert srh.accumulator_drift_days("2026-05-10", today=srh.date(2026, 5, 9)) == -1
 
 
 def test_raw_input_gap_ignores_tbd_and_nearby_raw_pointer(tmp_path: Path) -> None:
