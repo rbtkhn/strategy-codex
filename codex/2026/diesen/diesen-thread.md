@@ -97,6 +97,8 @@ If pages named this expert during 2026-03, the narrative should eventually say *
 - [strength: medium] **Synthesis:** [Substack Ã¢â‚¬â€ Iran war accelerating end of U.S. dominance](https://glenndiesen.substack.com/p/iran-war-is-accelerating-the-end) Ã¢â‚¬â€ **operator-authored** Ã¢â‚¬â€ tier **B** for causal claims until **cited** primaries align.
 
 Canonical page paths and raw ingest lines live in **Segment 2** below (regenerated each **`thread`** run).
+
+Predictive History interview copies now also sit in the Diesen raw-input shelf for 2025-11-24, 2026-01-05, 2026-01-26, and 2026-04-11, so the lane reads as a continuous arc rather than a one-off April flare.
 <!-- backfill:diesen:start -->
 ## Backfilled historical arc (reconstructed from notebook artifacts)
 
@@ -114,6 +116,12 @@ Canonical page paths and raw ingest lines live in **Segment 2** below (regenerat
 
 - **2026-01-14** (index) Ã¢â‚¬â€ Macgregor Ã¢â‚¬â€ rising war risks Ã¢â‚¬â€ Singju transcript.  
   _Source:_ web: `https://singjupost.com/greater-eurasia-podcast-w-macgregor-on-rising-war-risks-transcript/`
+
+- **2026-01-26** â€” Predictive History raw-input copy â€” *Great Power Wars Over a New World Order* â€” Glenn Diesen x Jiang Xueqin.  
+  _Source:_ [transcript-diesen-jiang-great-power-wars-new-world-order-2026-01-26.md](../raw-input/2026-01-26/transcript-diesen-jiang-great-power-wars-new-world-order-2026-01-26.md) · [YouTube](https://www.youtube.com/watch?v=80jUKe0blAQ)
+
+- **2026-01-05** â€” Predictive History raw-input copy â€” *Predictions for 2026 (Empire, Rivalry & Collapse)* â€” Glenn Diesen x Jiang Xueqin.  
+  _Source:_ [transcript-diesen-jiang-predictions-2026-empire-rivalry-collapse-2026-01-05.md](../raw-input/2026-01-05/transcript-diesen-jiang-predictions-2026-empire-rivalry-collapse-2026-01-05.md) · [YouTube](https://www.youtube.com/watch?v=ORyCS0r2Tpg)
 
 ### 2026-02
 
@@ -142,6 +150,9 @@ Canonical page paths and raw ingest lines live in **Segment 2** below (regenerat
 
 
 ### 2026-04
+
+- **2026-04-11** â€” Predictive History raw-input copy â€” *The Iran War & the Battle for the Petrodollar* â€” Glenn Diesen x Jiang Xueqin.  
+  _Source:_ [transcript-diesen-jiang-iran-war-battle-petrodollar-2026-04-11.md](../raw-input/2026-04-11/transcript-diesen-jiang-iran-war-battle-petrodollar-2026-04-11.md) · [YouTube](https://www.youtube.com/watch?v=P_DHMUdOVdo)
 
 - **2026-04** Ã¢â‚¬â€ Ledger mirror 1 (partial month).  
   _Source:_ web: `https://www.youtube.com/watch?v=P_DHMUdOVdo`
