@@ -206,6 +206,8 @@ If pages named this expert during 2026-04, the narrative should eventually say *
 - [strength: medium] **Parallel:** `ritter-blockade-hormuz-weave` Ã¢â‚¬â€ blockade mechanics + sister Pages Ã¢â‚¬â€ seam not merge.
 - [strength: medium] **Continuity Ã¢â‚¬â€ IRI FM primary (not `thread:marandi`):** **FM Araghchi** **2026-04-17** (**06:45** @araghchi) Ã¢â‚¬â€ **official** **Hormuz** / **ceasefire remainder** line Ã¢â‚¬â€ **same object** as **04-16** Breaking Points **register** (Hormuz control, no toll-free lane) but **diplomatic** **IRI** **voice**, not Marandi transcript. **Seam** to Marandi **red-line** vocabulary; **do not** merge voices. Brief: [daily-brief-2026-04-17.md](../daily-brief-2026-04-17.md) **Ã‚Â§1h**.
 
+ - [strength: medium] **Packet:** [marandi-page-2026-04-21-blockade-islamabad-hormuz.md](marandi-page-2026-04-21-blockade-islamabad-hormuz.md) + [marandi-source-hygiene-2026-04-21-blockade-islamabad-hormuz.md](marandi-source-hygiene-2026-04-21-blockade-islamabad-hormuz.md) — compact page + hygiene fence for the April 21 Dialogue Works blockade / Islamabad seam; use for **register** and **red-line** reuse, not as a settled fact page.
+
 ---
 <!-- strategy-page:start id="marandi-ritter-mercouris-hormuz-scaffold" date="2026-04-13" watch="hormuz" -->
 ### Page: marandi-ritter-mercouris-hormuz-scaffold
