@@ -97,4 +97,11 @@ skills:
     verify_forbidden_substrings:
       - users/grace-mar/
       - process_approved_candidates
+  - name: packet-before-synthesis
+    source: packet-before-synthesis/SKILL.md
+    appendix: .cursor/skills/packet-before-synthesis/CURSOR_APPENDIX.md
+    target: .cursor/skills/packet-before-synthesis/SKILL.md
+    verify_forbidden_substrings:
+      - users/grace-mar/
+      - process_approved_candidates
 
