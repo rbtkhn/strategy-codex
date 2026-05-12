@@ -2,6 +2,8 @@
 
 **Purpose:** A source-hygiene packet is a compact WORK-layer packaging move for a live seam that is strategically useful but not yet clean enough to compose directly into `days.md`, a weave, or a stronger notebook judgment.
 
+Interpretive companion: [packet-before-synthesis-doctrine.md](packet-before-synthesis-doctrine.md) - use the doctrine note for packet-first tempo, dual-register maturity, and anti-flattening judgment; keep this file for packet shape and procedure.
+
 **Output shape:** usually a **pair**:
 
 - one **refined page** that extracts the seam’s reusable mechanism, process, or register

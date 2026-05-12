@@ -18,6 +18,10 @@
 
 **Source-hygiene packets (optional):** [source-hygiene-packets.md](source-hygiene-packets.md) â€” compact operator recipe for turning a live seam into a refined page + hygiene companion before heavier notebook composition.
 
+**Packet-before-synthesis doctrine (optional):** [packet-before-synthesis-doctrine.md](packet-before-synthesis-doctrine.md) â€” slower strategist rule for when mixed seams should be packeted before synthesis, including the dual-register maturity sequence for official-primary lines and attributed gloss.
+
+**Packet crosswalk (optional):** [packet-crosswalk.md](packet-crosswalk.md) â€” quick chooser linking mechanism / process / register packets and dual-register maturity to their actual notebook moves.
+
 **Carry-stack observability (optional):** [observability.md](observability.md#carry-stack-observability-pr-5) â€” regenerable JSON/Markdown aggregate over runtime receipts/reports (`scripts/work_strategy/summarize_carry_receipts.py`); process metrics only.
 
 **Bottom line:** **`skill-strategy`** is not loose â€œanalysisâ€; it is **governed strategic accumulation** â€” preserving an operatorâ€™s evolving **geopoliticalâ€“historical judgment** in a **bounded WORK layer**, with **explicit seams** (/codex, inbox, `crosses:` / `seam:` / PH overlays), **explicit promotion rules** ([STRATEGY.md](STRATEGY.md), month `meta.md` when arcs stabilize), and **explicit distance** from identity-facing Record. In strategy-codex terms, the active quartet is **knowledge / library / memory / archive**: `days.md` and open-loop continuity are memory, `raw-input/` is archive-adjacent capture, and notebook judgment remains separate from both.
@@ -114,6 +118,8 @@ Quick index for **Capture**-adjacent surfaces: **narrative register**, **Grok-st
 | **[authorized-sources.yaml](authorized-sources.yaml)** | Machine-readable source registry: 6 source classes, artifact eligibility per source, trust tiers (1â€“4), review rules, maintenance policy. 16 sources (primary, data, reporting, analyst, transcript, operator note). Pairs with [brief-source-registry.md](brief-source-registry.md) (human policy) and [work-strategy-sources.md](work-strategy-sources.md) (URL catalog). |
 | **[source-tiers.md](source-tiers.md)** | Trust tier meanings + phased enforcement. |
 | **[source-hygiene-packets.md](source-hygiene-packets.md)** | Recipe for refined-page + source-hygiene-note packet pairs; use when a seam is strategically useful but still mixed in evidence quality. |
+| **[packet-before-synthesis-doctrine.md](packet-before-synthesis-doctrine.md)** | Durable doctrine note for slower packet-first strategist tempo: mechanism / process / register reuse, anti-flattening discipline, and the dual-register maturity rule. |
+| **[packet-crosswalk.md](packet-crosswalk.md)** | Compact chooser mapping packet type to notebook move: mechanism, process, register, and the dual-register maturity check. |
 | **[observability.md](observability.md)** | Notebook hygiene metrics (`build_strategy_observability.py`) **and** carry-stack runtime summaries (`summarize_carry_receipts.py`). |
 | **[strategy-health.md](strategy-health.md)** | How to read observability numbers. |
 | **[../WORK-LAYER-HARDENING-ROADMAP.md](../WORK-LAYER-HARDENING-ROADMAP.md)** | Full work-layer sequencing (strategy â†’ dev â†’ cadence â†’ dashboard). |

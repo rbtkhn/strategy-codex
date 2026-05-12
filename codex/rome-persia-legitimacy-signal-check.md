@@ -5,6 +5,36 @@
 
 **Seam (do not collapse):** **Legitimacy / audience plane** (who may shame whom; moral high-ground framing) **≠** **hard security plane** (Hormuz, Islamabad terms, sanctions, force). This file scores the **first**; it does **not** predict the **second**.
 
+## Dual-register maturity for this seam
+
+Apply the packet-before-synthesis rule here as well.
+
+Do not collapse the following into one "Iran says" legitimacy line:
+
+- **official-primary**: Pezeshkian's own post to `@Pontifex`
+- **elite English-facing gloss**: Marandi or similar regime-adjacent commentary using Christian honorifics, Easter language, or Pope-respect framing toward Western audiences
+
+These are related, but they are not the same object.
+
+Use this maturity sequence:
+
+1. **Official-primary anchor**
+   The presidential post is the formal state-facing legitimacy signal.
+2. **Attributed elite gloss**
+   A Marandi-style long-form closing or interview register can strengthen the seam, but only as an attributed second layer.
+3. **Institutional corroboration**
+   Vatican-side acknowledgment, a second Iranian institutional repeat, or repeated Presidency/MFA usage is what matures the wedge beyond a one-off symbolic gesture.
+4. **Only then broaden the claim**
+   Until that point, preserve the seam as a legitimacy possibility, not as a settled Rome-Tehran alignment fact.
+
+This means the notebook should distinguish:
+
+- **state dignity signal**
+- **elite translation for Western Christian audiences**
+- **institutional uptake or silence**
+
+The wedge strengthens only when those layers start to align across more than one object.
+
 ---
 
 ## Thesis (narrow, falsifiable)
