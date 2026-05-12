@@ -1,4 +1,4 @@
-﻿# work-strategy
+# work-strategy
 
 **Identity (one sentence):** This lane does one thing no other surface does â€” **cross-territory governed accumulation of judgment** with civilizational depth and explicit distance from Record truth.
 
@@ -23,6 +23,8 @@
 **Purpose:** Cross-territory **operator strategy** â€” how political consulting ([work-politics](../work-politics/README.md)), integration / portability ([work-dev](../work-dev/README.md)), and other WORK lanes share a single **daily horizon** without mixing into SELF or Voice. The **[/codex](../../../codex/README.md)** is the **primary** artifact where daily cross-territory judgment is captured; other files here support ingest, frameworks, or optional stitch to [STRATEGY.md](STRATEGY.md).
 
 **Not** a replacement for territory READMEs. **Not** Record truth. Companion gate and knowledge boundary rules still apply.
+
+Predictive History is the public corpus name for the slow transcript spine; `work-jiang` remains only as a legacy compatibility label in older paths and wrappers.
 
 ## Forecast integration
 
@@ -86,12 +88,12 @@ Quick index for **Capture**-adjacent surfaces: **narrative register**, **Grok-st
 |----------|------|
 | **[Strategy session helpers (`skill-strategy`)](#strategy-session-helpers-skill-strategy)** | Compact index subsection **above** (`strategy-context`, **`strategy_thread`** / operator **`thread`**, Grok layer, Trump arc, Romeâ€“Persia signal check, narrative stub, skill-strategy SKILL). |
 | **[common-inputs.md](common-inputs.md)** | Shared inputs into work-politics and work-strategy (event ingest, RSS, neutral fact summary, three lenses, gate, operator). |
-| **Transcript ingest** | [research/external/work-strategy/transcripts/README.md](../../../research/external/work-strategy/transcripts/README.md) â€” raw or digest `.md`/`.txt` for Perceiver / current-events / LEARN MODE. **Bulk PH pulls:** [predictive-history/README.md](../../../research/external/youtube-channels/predictive-history/README.md) (work-strategyâ€“first â€” [common-inputs Â§ PH](common-inputs.md)). |
+| **Transcript ingest** | [research/external/work-strategy/transcripts/README.md](../../../research/external/work-strategy/transcripts/README.md) â€” raw or digest `.md`/`.txt` for Perceiver / current-events / LEARN MODE. **Predictive History:** use external-canonical material plus bounded review packets/snapshots; the local [predictive-history/README.md](../../../research/external/youtube-channels/predictive-history/README.md) is a frozen historical reference, not an active sync target. |
 | **[external-tech-scan.md](external-tech-scan.md)** | Curated **themes** from long-form tech/business discourse (e.g. GTC, podcasts) â€” strategy vs work-politics angles; **work-dev integration lens:** [../work-dev/external-signals.md](../work-dev/external-signals.md). **Not** canonical news. |
 | **[daily-brief-config.json](daily-brief-config.json)** | Feeds (`locale` per feed) + global + per-locale keyword lists (`pol_keyword_phrases_by_locale`, legacy `wap_keyword_phrases_by_locale`, and `strategy_keyword_phrases_by_locale`) for `generate_work_politics_daily_brief.py` â€” **W+S** scoring only; no translation API. **`ingest_caps`** + per-feed **`tier`** (1â€“3) and optional **`max_items`** cap each feed **before** ranking (newest first), so one noisy RSS does not dominate. Optional **`story_dedupe`** clusters headlines that share enough `story_anchor_phrases` overlap (Jaccard + shared anchors) so the same crisis in EN/FR/DE/ES/AR does not flood Â§2; tune thresholds or pass `--no-story-dedupe` for a flat list. CLI **`--max-per-feed N`** overrides every feedâ€™s cap. |
 | **[daily-brief-focus.md](daily-brief-focus.md)** | Operator-maintained bullets: what the strategy lane is watching (product, partners, policy). |
 | **[daily-brief-native-international-pass.md](daily-brief-native-international-pass.md)** | **Native-language triangulation** for international load-bearing stories (Â§1d / Â§1e / Â§1g / Â§1h + coffee C); one native bullet per jurisdiction alongside wires. |
-| **[daily-brief-jiang-layer.md](daily-brief-jiang-layer.md)** | **Slow layer** pointers (work-jiang) embedded in the daily brief as **Â§1c** â€” compressions, sweep snippets, lecture tracks; not breaking news. |
+| **[daily-brief-jiang-layer.md](daily-brief-jiang-layer.md)** | **Slow layer** pointers for external Predictive History review and historical Jiang references embedded in the daily brief as **Â§1c** â€” not breaking news and not a signal to restart local PH production. |
 | **[daily-brief-template.md](daily-brief-template.md)** | Spec for the combined daily brief output. |
 | **[daily-brief-minds-config.json](daily-brief-minds-config.json)** | Optional Tri-Frame **scaffold** overlays after the daily brief (Barnes / Mearsheimer / Mercouris); strategy-expert **`-mind.md`** paths (SSOT); outputs under [minds/outputs](minds/outputs). See [minds/DAILY-BRIEF-MINDS-WORKFLOW.md](minds/DAILY-BRIEF-MINDS-WORKFLOW.md). |
 | **[daily-brief-minds-menu.md](daily-brief-minds-menu.md)** | Human-readable Aâ€“D menus per mind (program order B â†’ M â†’ M). |
@@ -132,10 +134,10 @@ Quick index for **Capture**-adjacent surfaces: **narrative register**, **Grok-st
 | **[work-moonshots/](../work-moonshots/README.md)** | **work-moonshots** lane â€” PMOS templates + [Moonshot Orchestration](../work-moonshots/moonshot-orchestration/README.md) (maps, source tiers, dashboard, optional gated proposals). Not Record. |
 | **[work-strategy-rome/](work-strategy-rome/README.md)** | WORK project: Vatican / papal soft power and moral-diplomatic signals vs multipolar and Western-legitimacy themes ([manifest](work-strategy-rome/manifest.md), pre-skill [ROME-PASS](work-strategy-rome/ROME-PASS.md)). |
 | **[founding-influences-graeco-roman-vs-english.md](founding-influences-graeco-roman-vs-english.md)** | Working paper: classical-republic vs English constitutional idiom on a 32-unit founding corpus (rubric + lexical methods; `scripts/founding_lexical_compare.py`). Not Record. |
-| **[islamabad-operator-index.md](islamabad-operator-index.md)** | **Islamabad bundle â€” operator index:** single bookmark listing all Islamabad artifacts (this lane + [work-jiang intake](../../../research/external/work-jiang/intake/Islamabad-5-point-reconciliation-plan-with-jiang-commentary.md)). **Not** work-cici. WORK only. |
+| **[islamabad-operator-index.md](islamabad-operator-index.md)** | **Islamabad bundle â€” operator index:** single bookmark listing all Islamabad artifacts (this lane + [Predictive History intake](../../../codex/predictive-history/intake/Islamabad-5-point-reconciliation-plan-with-jiang-commentary.md)). **Not** work-cici. WORK only. |
 | **[islamabad-framework.md](islamabad-framework.md)** | **Islamabad Framework** â€” diplomatic working document (not treaty): six sections, formal register, Â§6 implementation sequence, dual-audience architecture. WORK only. |
 | **[islamabad-framework-summary.md](islamabad-framework-summary.md)** | **Islamabad Framework â€” summary**: short cover note (~150 words) for social media, email, and channel propagation. Preserves the Leo XIV named reference. WORK only. |
-| **[islamabad-framework-operator-edition.md](islamabad-framework-operator-edition.md)** | Same framework â€” **operator edition**: annexes, Jiang commentary block, Leo XIV rhetoric blend, rubric / phase notes, distribution checklist. See [us-framed-five-point-gulf-peace-framework-2026-04-08.md](us-framed-five-point-gulf-peace-framework-2026-04-08.md) and [work-jiang intake](../../../research/external/work-jiang/intake/Islamabad-5-point-reconciliation-plan-with-jiang-commentary.md). WORK only. |
+| **[islamabad-framework-operator-edition.md](islamabad-framework-operator-edition.md)** | Same framework â€” **operator edition**: annexes, Jiang commentary block, Leo XIV rhetoric blend, rubric / phase notes, distribution checklist. See [us-framed-five-point-gulf-peace-framework-2026-04-08.md](us-framed-five-point-gulf-peace-framework-2026-04-08.md) and [Predictive History intake](../../../codex/predictive-history/intake/Islamabad-5-point-reconciliation-plan-with-jiang-commentary.md). WORK only. |
 
 ---
 

@@ -10,9 +10,9 @@
 
 Predictive History ingest is now **external-only**. The local [predictive-history README](../../youtube-channels/predictive-history/README.md) is a **legacy snapshot reference**, not an active sync target. Bring new PH material into `strategy-codex` as bounded review packets or externally prepared snapshots, then digest or comment on it here without reviving the local PH lane.
 
-**[predictive-history/README.md](../../youtube-channels/predictive-history/README.md)** is the **primary** repo path for **syncing** the Predictive History YouTube channel into `transcripts/*.txt` + `index.json`. That tree is **work-strategy–first**; see [common-inputs.md § PH](../../../../docs/skill-work/work-strategy/common-inputs.md).
+**Historical reference only:** [predictive-history/README.md](../../youtube-channels/predictive-history/README.md) documents the old local sync surface. Do **not** treat it as the active place to refresh the channel from inside `strategy-codex`.
 
-**Flow:** Pull captions with the PH README CLI → diff / verify against [codex/predictive-history/lectures/](../../../codex/predictive-history/lectures/) curated `.md` when quoting → optional **digest** `.md` **here** for one-off Perceiver runs or analyst registry rows.
+**Current flow:** prepare or fetch Predictive History material in the external canonical repo, then bring bounded snapshots, excerpts, or review packets into `strategy-codex` for digesting, critique, or strategy commentary. When quoting legacy local lecture material, verify it against the frozen [codex/predictive-history/lectures/](../../../codex/predictive-history/lectures/) snapshot and treat that check as historical reference, not canonical maintenance.
 
 ---
 
@@ -73,7 +73,7 @@ Lens pass (optional — pick one, combine, or skip):
 ## How to ingest
 
 1. **Manual paste** — Drop text into a new `.md` or `.txt`; add source line at top.
-2. **YouTube (same tooling as other lanes)** — For **Predictive History** channel videos, use [youtube-channels/predictive-history/README.md](../../youtube-channels/predictive-history/README.md) and `scripts/fetch_youtube_channel_transcripts.py` (raw usually under `youtube-channels/predictive-history/transcripts/`, often gitignored). For **work-strategy-only** sources (e.g. GTC panels, strategy podcasts), either copy the fetched `.txt` here with a note **or** add a channel folder under `research/external/youtube-channels/` following that README’s pattern.
+2. **YouTube (same tooling as other lanes)** — For **Predictive History** channel videos, fetch or prepare material in the external canonical repo first, then copy bounded snapshots or review artifacts here when `strategy-codex` needs to analyze them. For **work-strategy-only** sources (e.g. GTC panels, strategy podcasts), either copy the fetched `.txt` here with a note **or** add a channel folder under `research/external/youtube-channels/` following the shared YouTube tooling pattern.
 3. **Downstream** — Run **Perceiver** (neutral fact summary ≤200 words) from the file; then [current-events-analysis.md](../../../../docs/skill-work/work-strategy/current-events-analysis.md) (energy hook if relevant → lenses → synthesis). Log outcomes in **STRATEGY.md** §III / §IV (operator strategy log) when useful.
 4. **Same turn — lens menu** — Present **[Three minds lens offer](#three-minds-lens-offer-after-every-ingest)** in chat (see table row above). **Skip** only if the operator said **no menu** / **no options** for that turn.
 

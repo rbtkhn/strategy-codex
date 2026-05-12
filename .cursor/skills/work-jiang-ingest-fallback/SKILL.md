@@ -1,7 +1,7 @@
 ---
 name: work-jiang-ingest-fallback
 preferred_activation: jiang ingest fallback
-description: Recover lecture ingest when channel-wide transcript fetch hits rate limits by using a targeted local index row, then ingest and validate in a bounded pass.
+description: Historical fallback for legacy local Jiang ingest when reviewing frozen PH residue. Canonical new Predictive History ingest now belongs in the external repo, not strategy-codex.
 portable: true
 version: 0.1.0
 tags:
@@ -13,12 +13,15 @@ synced_by: sync_portable_skills.py
 ---
 # Work-jiang ingest fallback (rate limit path)
 
+This skill is now **legacy-reference only** inside `strategy-codex`. Use it only when an explicit boundary-maintenance or migration-history task needs to inspect the old local ingest path. For normal new Predictive History work, ingest in [`rbtkhn/predictive-history`](https://github.com/rbtkhn/predictive-history) and bring the result here as a bounded review packet or snapshot.
+
 **Preferred activation (operator):** say the exact phrase **`jiang ingest fallback`**.
 
 Use this skill when ingesting a new lecture and the normal channel-wide transcript refresh is blocked (for example, repeated `429 Too Many Requests` during fetch), but you still need to complete a clean, auditable ingest now.
 
 ## When to run
 
+- A boundary-maintenance task explicitly requires checking how the old local ingest path behaved.
 - New lecture ingest is blocked by rate limits during full channel fetch.
 - Episode metadata is known (title + video id), but local index is stale.
 - You want a narrow fallback that preserves normal ingest and validation steps.
@@ -55,6 +58,7 @@ Use this skill when ingesting a new lecture and the normal channel-wide transcri
 ## Guardrails
 
 - Do not treat fallback index files as canonical source registry.
+- Do not use this skill to resume routine local Predictive History production in `strategy-codex`.
 - Do not skip validation just because ingest succeeded.
 - Keep commits focused: exclude unrelated local noise from the ingest commit.
 - This is WORK-lane operational tooling, not Record merge flow.
@@ -84,10 +88,10 @@ Grace-mar paths and commands for this repository (from `.cursor/skills/work-jian
 
 | Topic | Path |
 |--------|------|
-| Work-jiang lane guide | [research/external/work-jiang/README.md](../../../research/external/work-jiang/README.md) |
-| Transcript workflow | [research/external/work-jiang/WORKFLOW-transcripts.md](../../../research/external/work-jiang/WORKFLOW-transcripts.md) |
-| Intake directory | [research/external/work-jiang/intake/](../../../research/external/work-jiang/intake/) |
-| Lectures directory | [research/external/work-jiang/lectures/](../../../research/external/work-jiang/lectures/) |
+| Work-jiang lane guide | [codex/predictive-history/README.md](../../codex/predictive-history/README.md) |
+| Transcript workflow | [codex/predictive-history/WORKFLOW-transcripts.md](../../codex/predictive-history/WORKFLOW-transcripts.md) |
+| Intake directory | [codex/predictive-history/intake/](../../codex/predictive-history/intake/) |
+| Lectures directory | [codex/predictive-history/lectures/](../../codex/predictive-history/lectures/) |
 | Canonical checklists | [work-jiang-feature-checklist](../work-jiang-feature-checklist/SKILL.md) |
 | Ingest command script | [scripts/work_jiang/ingest_lecture.py](../../../scripts/work_jiang/ingest_lecture.py) |
 | Validation scripts | [scripts/work_jiang/validate_work_jiang.py](../../../scripts/work_jiang/validate_work_jiang.py), [validate_argument_layer.py](../../../scripts/work_jiang/validate_argument_layer.py), [validate_comparative_layer.py](../../../scripts/work_jiang/validate_comparative_layer.py) |
