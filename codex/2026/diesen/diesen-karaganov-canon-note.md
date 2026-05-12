@@ -1,0 +1,69 @@
+# Diesen × Karaganov canon note
+
+WORK only; not Record.
+
+Purpose: compact reuse note for the `Diesen × Karaganov` run inside the Diesen stream. This is not a substitute for the raw-input files. It exists so future routing can quickly answer: which Karaganov guest episodes matter most inside this stream, what kind of lane this is, and which file to open first.
+
+## Why this guest run matters
+
+Sergey Karaganov matters here less as a generic Russia commentator than as a Russian elite strategic and civilizational voice for:
+
+- deterrence doctrine and nuclear-threshold argument
+- Greater Eurasia and Siberization
+- post-West Russian identity framing
+- the fusion of civilizational vocabulary with hard-security escalation logic
+
+Inside the Diesen stream, that makes the run especially useful when the notebook needs continuity between:
+
+- elite Russian deterrence discourse
+- Eurasian and post-European identity claims
+- civilizational framing and present war-escalation argument
+
+## Canon set
+
+Current canonical `Diesen × Karaganov` raw-inputs on disk:
+
+| Rank | Date | Title | Why it matters most |
+|---|---|---|---|
+| 1 | 2026-05-10 | *Sergey Karaganov on World War, Nuclear Doctrine, Europe, and Russia's Future* | Best single mature anchor. It combines his deterrence doctrine, world-war framing, anti-Europe escalation logic, and Russia's future in one file. Open this first. |
+| 2 | 2025-12-25 | *Sergey Karaganov: Confronting Europe, Pivot to East & Nuclear War* | Best hard-security and Europe-escalation file; strongest on the direct nuclear-threshold and anti-European-war argument. |
+| 3 | 2025-05-14 | *Sergey Karaganov: Russia's Eurasian Future & Spiritual Revival* | Best civilizational and Siberization base text; strongest for Greater Eurasia, spiritual framing, and the post-European identity lane. |
+
+## Open first
+
+If the operator needs only one file:
+
+- open [youtube-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md](/C:/dev/strategy-codex/codex/2026/raw-input/2026-05-10/youtube-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md)
+
+If the operator needs the best paired read:
+
+- open [youtube-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md](/C:/dev/strategy-codex/codex/2026/raw-input/2026-05-10/youtube-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md)
+- then [transcript-diesen-karaganov-russias-eurasian-future-spiritual-revival-2025-05-14.md](/C:/dev/strategy-codex/codex/2025/raw-input/2025-05-14/transcript-diesen-karaganov-russias-eurasian-future-spiritual-revival-2025-05-14.md)
+
+That pair gives the clearest combination of:
+
+- deterrence doctrine
+- world-war and escalation framing
+- Eurasian and civilizational identity architecture
+
+## Routing use
+
+Use this guest canon when a Diesen ingest or batch pass is doing one or more of the following:
+
+- invoking Russian elite deterrence or nuclear-threshold discourse
+- tracing Greater Eurasia or Siberization as identity and strategy language
+- linking present war-escalation argument to post-West Russian civilizational framing
+- pressure-testing Western or realist lanes against internal Russian elite strategic vocabulary
+
+Typical pairings around the guest lane:
+
+- `diesen`
+- `mearsheimer`
+- `mercouris`
+- `crooke`
+
+## Boundaries
+
+- Karaganov is especially valuable as a carrier of elite Russian strategic and civilizational vocabulary, not as a neutral documentary source.
+- This guest run is strongest on doctrine, identity, and strategic imagination, not on narrow battlefield detail.
+- The underlying files are operator-pasted or operator-shaped transcript captures, not a uniform external corpus with one transcript-processing method.

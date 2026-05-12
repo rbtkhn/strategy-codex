@@ -1,4 +1,4 @@
-# Portable skills → Cursor assembly (see scripts/sync_portable_skills.py)
+# Portable skills -> Cursor assembly (see scripts/sync_portable_skills.py)
 skills:
   - name: politics-massie
     source: politics-massie/SKILL.md
@@ -70,3 +70,31 @@ skills:
     verify_forbidden_substrings:
       - users/grace-mar/
       - process_approved_candidates
+  - name: abundance-native-ventures
+    source: abundance-native-ventures/SKILL.md
+    appendix: .cursor/skills/abundance-native-ventures/CURSOR_APPENDIX.md
+    target: .cursor/skills/abundance-native-ventures/SKILL.md
+    verify_forbidden_substrings:
+      - process_approved_candidates
+  - name: last30days
+    source: last30days/SKILL.md
+    appendix: .cursor/skills/last30days/CURSOR_APPENDIX.md
+    target: .cursor/skills/last30days/SKILL.md
+    verify_forbidden_substrings:
+      - users/grace-mar/
+      - process_approved_candidates
+  - name: youtube-raw-input-transcript
+    source: youtube-raw-input-transcript/SKILL.md
+    appendix: .cursor/skills/youtube-raw-input-transcript/CURSOR_APPENDIX.md
+    target: .cursor/skills/youtube-raw-input-transcript/SKILL.md
+    verify_forbidden_substrings:
+      - users/grace-mar/
+      - process_approved_candidates
+  - name: strategy-notebook-guest-canon-note
+    source: strategy-notebook-guest-canon-note/SKILL.md
+    appendix: .cursor/skills/strategy-notebook-guest-canon-note/CURSOR_APPENDIX.md
+    target: .cursor/skills/strategy-notebook-guest-canon-note/SKILL.md
+    verify_forbidden_substrings:
+      - users/grace-mar/
+      - process_approved_candidates
+
