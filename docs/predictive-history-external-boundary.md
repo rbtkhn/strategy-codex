@@ -54,3 +54,5 @@ The standard interface from Predictive History into `strategy-codex` is a **revi
 - strategy/notebook commentary
 
 It may not patch the external project from here.
+
+For a compact operator/public handoff summary of the boundary shift, see [predictive-history-boundary-handoff.md](predictive-history-boundary-handoff.md).

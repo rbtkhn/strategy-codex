@@ -2,6 +2,8 @@
 
 Use this file when `strategy-codex` is reviewing work from the external [predictive-history](https://github.com/rbtkhn/predictive-history) repo.
 
+For the broader ownership and migration summary behind this packet contract, see [../../predictive-history-boundary-handoff.md](../../predictive-history-boundary-handoff.md).
+
 ## Packet contract
 
 Each packet should include:
