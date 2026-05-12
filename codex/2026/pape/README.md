@@ -10,6 +10,7 @@
 - Daily chapter seed: [pape-chapter-2026-04-01.md](pape-chapter-2026-04-01.md)
 - Thread compatibility file: [pape-thread.md](pape-thread.md)
 - Transcript compatibility file: [pape-transcript.md](pape-transcript.md)
+- Source-hygiene note: [pape-source-hygiene-2026-04-29-pape-grim.md](pape-source-hygiene-2026-04-29-pape-grim.md)
 
 ## Civ-Mem Spine
 

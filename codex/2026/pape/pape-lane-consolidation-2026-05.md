@@ -42,7 +42,7 @@ with emphasis on the dense February-May 2026 war arc.
 - `2026-04-02` - crisis acceleration and political choice remain central.
 - `2026-04-16` through `2026-04-18` - transcript snapshots carry live continuity into the lane.
 - `2026-04-20` through `2026-04-24` - collapse, zero-sum escalation ladders, and dual-clock / blockade logic make time pressure and logistical exposure more explicit.
-- `2026-04-29` - the YouTube capture pushes the lane toward nuclear-risk framing.
+- `2026-04-29` - the YouTube capture pushes the lane toward nuclear-risk framing, with a dedicated source-hygiene companion note separating mechanism reuse from heavier factual claims.
 
 ### 2026-05
 

@@ -69,6 +69,7 @@ with emphasis on:
 - `2026-04-14` — The ceasefire is read as having shifted leverage back toward Trump in the short term, because Iran needs more than a mere pause and still seeks sanctions relief plus durable settlement.
 - `2026-04-17` / `2026-04-18` — transcript snapshots emphasize Pakistan mediation, Lebanon ceasefire linkage, sabotage risks, and Parsi’s process-oriented reading of Iran–U.S. bargaining.
 - `2026-04-20` — X bundle shows diaspora critique, Trump conduct critique, GCC/Islamabad/Hormuz process attention, and Europe/Israel legitimacy language.
+- `2026-04-21` — the ceasefire / Hormuz X cluster is best treated as a process-and-language seam; a dedicated source-hygiene note keeps “indefinite” and unstable-equilibrium wording from hardening into fact-tier claims too early.
 - `2026-04-25` through `2026-04-28` — transcript snapshots continue the same cluster: unstable equilibrium, no-deal/no-war possibilities, sanctions relief stakes, EU–Israel moves, and Trump/Barnes process/psych seams.
 
 ### 2026-05
