@@ -1,4 +1,4 @@
-# Diesen × Macgregor canon note
+# Diesen × Macgregor speaker arc
 
 WORK only; not Record.
 
@@ -19,7 +19,7 @@ Inside the Diesen stream, that makes the run especially useful when the notebook
 - Macgregor's harsher force-balance and logistics language
 - Europe-theater and Gulf-theater arguments about imperial exhaustion
 
-## Canon set
+## Arc set
 
 Selected canonical `Diesen × Macgregor` raw-inputs on disk:
 
@@ -47,7 +47,7 @@ That pair gives the clearest combination of:
 
 ## Routing use
 
-Use this guest canon when a Diesen ingest or batch pass is doing one or more of the following:
+Use this guest speaker arc when a Diesen ingest or batch pass is doing one or more of the following:
 
 - translating broad geopolitical decline into logistics and force-structure limits
 - testing whether U.S. or NATO power projection is materially sustainable
@@ -64,5 +64,5 @@ Typical pairings around the guest lane:
 ## Boundaries
 
 - This guest run is still thin; it is a valid lane note, not yet a deep canon shelf.
-- An additional Diesen × Macgregor file exists under `_aired-pending`, but it is excluded from the canon set until a publish date is pinned and it is promoted into the canonical date tree.
+- An additional Diesen × Macgregor file exists under `_aired-pending`, but it is excluded from the arc set until a publish date is pinned and it is promoted into the canonical date tree.
 - Prefer this guest run when the notebook needs force-balance severity, logistics burden, or imperial-distance framing, not when it needs neutral documentary or fine-grained operational verification.

@@ -49,7 +49,7 @@ That pattern happened often enough to treat it as a real system behavior rather 
 
 ### Durable outputs created or sharpened in this wave
 
-- guest canon note skill and multiple `Diesen × guest` canon notes
+- guest speaker-arc skill and multiple `Diesen × guest` speaker arcs
 - source-hygiene packet family in `Pape`, `Parsi`, `Marandi`, and later `Davis`
 - packet-first doctrine family:
   - recipe

@@ -1,0 +1,65 @@
+# Diesen × Freeman speaker arc
+
+**Why this guest run matters**
+
+The `Diesen × Freeman` lane matters because it gives the Diesen stream a distinct **career-diplomat / statecraft-memory** register that is different from both the more structural-realist `Mearsheimer` lane and the higher-variance civilizational or debt-war framing in `Jiang`. Freeman is most useful when the notebook needs a voice for:
+
+- inconclusive or performative diplomacy
+- alliance-material framing rather than pure moral language
+- U.S.–China order talk and maritime-order transition
+- long-horizon imperial decline without collapsing immediately into eschatology or pure operations talk
+
+In this stream he often sits on the seam between:
+
+- **institutional / diplomatic decay**
+- **Hormuz / blockade / sea-power transition**
+- **order-language** around multipolarity, the petrodollar, and NATO or Atlantic decline
+
+He is not the lane for wire-grade ORBAT or shipping arithmetic. He is the lane for **how a retired diplomat narrates the strategic meaning of those events**.
+
+## Arc set
+
+1. [transcript-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md](/C:/dev/strategy-codex/codex/2026/raw-input/2026-05-06/transcript-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md)  
+   Best mature anchor. Strongest full statement of the **sea-power → land-power** transition, Hormuz checkmate logic, petrodollar fragility, and post-hegemonic order consequences.
+
+2. [freeman-diesen-2026-04-18-verbatim.md](/C:/dev/strategy-codex/codex/2026/raw-input/2026-04-18/freeman-diesen-2026-04-18-verbatim.md)  
+   Best first anchor for the **Islamabad / performative diplomacy / door-vs-padlock** vocabulary. Strong on the “fantasy foreign policy” and “no meeting of minds” frame that later becomes the stream’s characteristic Freeman seam.
+
+## Open first
+
+Open **2026-05-06** first when you want the cleanest statement of why Freeman matters in the Diesen stream.
+
+Open **2026-04-18** first when you specifically need:
+
+- Islamabad as performative diplomacy
+- Hormuz “door / padlock” language
+- Freeman’s role in the April Iran/Hormuz weave
+
+## Best paired read
+
+Best paired read: [diesen-matlock-speaker-arc.md](/C:/dev/strategy-codex/codex/2026/diesen/diesen-matlock-speaker-arc.md)
+
+Why: Matlock gives the **Cold War settlement / anti-NATO-expansion** memory lane; Freeman gives the **maritime order / diplomatic decay / U.S.–China order talk** lane. They are adjacent but not redundant.
+
+Second-best paired read: [diesen-jiang-speaker-arc.md](/C:/dev/strategy-codex/codex/2026/diesen/diesen-jiang-speaker-arc.md)
+
+Why: Jiang and Freeman can touch the same order-transition terrain, but Freeman is steadier and more statecraft-coded while Jiang is more speculative and high-variance.
+
+## Routing use
+
+Use `Diesen × Freeman` when the notebook needs:
+
+- a diplomatic-memory voice on why talks are performative or inconclusive
+- a long-horizon read on maritime dominance breaking down
+- U.S.–China / multipolarity framing that is less ideological than `Jiang`
+- a seam between Hormuz mechanics and global-order interpretation
+
+## Boundary
+
+Do not overuse Freeman as:
+
+- a wire substitute for fleet, cargo, or blockade facts
+- a direct proxy for Tehran or Gulf-state internal signaling
+- a pure civ-mem or prophetic voice
+
+He is strongest as a **career-diplomat order interpreter**, not as a primary on-the-ground verifier.

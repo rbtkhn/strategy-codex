@@ -2,7 +2,7 @@ Grace-mar paths and commands for this repository (from `.cursor/skills/strategy-
 
 | Topic | Path |
 |--------|------|
-| Existing stream-local canon notes | [codex/2026/diesen/](../../codex/2026/diesen/) |
+| Existing stream-local speaker arcs | [codex/2026/diesen/](../../codex/2026/diesen/) |
 | Lattice speakers roster | [codex/COGNITION-LATTICE-SPEAKERS.md](../../codex/COGNITION-LATTICE-SPEAKERS.md) |
 | Thread handle roster | [codex/strategy-commentator-threads.md](../../codex/strategy-commentator-threads.md) |
 | Portable skill manifest | [skills-portable/manifest.yaml](../../../skills-portable/manifest.yaml) |
@@ -11,11 +11,11 @@ Grace-mar paths and commands for this repository (from `.cursor/skills/strategy-
 
 **Repo notes**
 
-- In this repo, guest canon notes belong to the **host stream** unless an existing taxonomy explicitly says otherwise.
+- In this repo, guest speaker arcs belong to the **host stream** unless an existing taxonomy explicitly says otherwise.
 - Current reference pattern:
-  - [diesen-matlock-canon-note.md](../../codex/2026/diesen/diesen-matlock-canon-note.md)
-  - [diesen-jiang-canon-note.md](../../codex/2026/diesen/diesen-jiang-canon-note.md)
-- The lattice and `thread:` roster may cite the canon note, but the note itself should not invent a new shelf or corpus boundary.
+  - [diesen-matlock-speaker-arc.md](../../codex/2026/diesen/diesen-matlock-speaker-arc.md)
+  - [diesen-jiang-speaker-arc.md](../../codex/2026/diesen/diesen-jiang-speaker-arc.md)
+- The lattice and `thread:` roster may cite the speaker arc, but the note itself should not invent a new shelf or corpus boundary.
 
 **Common local command pattern**
 

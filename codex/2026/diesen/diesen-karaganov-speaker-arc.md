@@ -1,4 +1,4 @@
-# Diesen × Karaganov canon note
+# Diesen × Karaganov speaker arc
 
 WORK only; not Record.
 
@@ -19,7 +19,7 @@ Inside the Diesen stream, that makes the run especially useful when the notebook
 - Eurasian and post-European identity claims
 - civilizational framing and present war-escalation argument
 
-## Canon set
+## Arc set
 
 Current canonical `Diesen × Karaganov` raw-inputs on disk:
 
@@ -48,7 +48,7 @@ That pair gives the clearest combination of:
 
 ## Routing use
 
-Use this guest canon when a Diesen ingest or batch pass is doing one or more of the following:
+Use this guest speaker arc when a Diesen ingest or batch pass is doing one or more of the following:
 
 - invoking Russian elite deterrence or nuclear-threshold discourse
 - tracing Greater Eurasia or Siberization as identity and strategy language

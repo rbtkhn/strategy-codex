@@ -1,4 +1,4 @@
-# Diesen × Mearsheimer canon note
+# Diesen × Mearsheimer speaker arc
 
 WORK only; not Record.
 
@@ -19,7 +19,7 @@ Inside the Diesen stream, that makes the run especially useful when the notebook
 - Mearsheimer's structural-realist architecture
 - specific theaters like Ukraine, Iran, and NATO decline
 
-## Canon set
+## Arc set
 
 Selected canonical `Diesen × Mearsheimer` raw-inputs on disk:
 
@@ -50,7 +50,7 @@ That pair gives the clearest combination of:
 
 ## Routing use
 
-Use this guest canon when a Diesen ingest or batch pass is doing one or more of the following:
+Use this guest speaker arc when a Diesen ingest or batch pass is doing one or more of the following:
 
 - translating a crisis into great-power-geometry terms
 - tracing NATO expansion or security-dilemma logic into present conflict

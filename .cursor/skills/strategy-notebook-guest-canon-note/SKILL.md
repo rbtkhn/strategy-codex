@@ -1,20 +1,22 @@
 ---
 name: strategy-notebook-guest-canon-note
-preferred_activation: guest canon note
-description: 'Create a host-stream guest canon note from repeated host x guest raw-inputs: rank the key episodes, explain the lane, place the note inside the host stream, and wire lattice or thread surfaces to cite it without inventing a new category.'
+preferred_activation: speaker arc
+description: 'Create a host-stream guest speaker arc from repeated host x guest raw-inputs: rank the key episodes, explain the lane, place the note inside the host stream, and wire lattice or thread surfaces to cite it without inventing a new category.'
 portable: true
 version: 0.1.0
 tags:
 - operator
 - strategy-notebook
-- canon-note
+- speaker-arc
 - guest-lane
 portable_source: skills-portable/strategy-notebook-guest-canon-note/SKILL.md
 synced_by: sync_portable_skills.py
 ---
-# Strategy notebook guest canon note
+# Strategy notebook guest speaker arc
 
-**Preferred activation (operator):** say **`guest canon note`**.
+**Preferred activation (operator):** say **`speaker arc`**.
+
+**Compatibility note:** The portable skill slug remains `strategy-notebook-guest-canon-note` for manifest and sync stability. In live notebook language, use **speaker arc**.
 
 Use this skill when a recurring guest run inside a host stream has become important enough to deserve a compact, reusable note that future routing can cite.
 
@@ -24,7 +26,7 @@ Use this skill when a recurring guest run inside a host stream has become import
 - The guest lane is clearly useful, but not a new lattice category by itself.
 - The notebook needs a durable answer to:
   - why this guest run matters
-  - which episodes are canonical
+  - which episodes anchor the arc
   - which file to open first
   - how the lane should be routed or paired
 - A lattice row or thread handle should cite a compact note instead of re-explaining the lane each time.
@@ -51,18 +53,18 @@ Use this skill when a recurring guest run inside a host stream has become import
      - the best paired read
    - Say plainly why each ranked file matters.
 
-4. **Write the canon note**
+4. **Write the speaker arc**
    - Keep it compact and reusable.
    - Use this shape:
      - title
      - `WORK only; not Record.`
      - purpose paragraph
      - `## Why this guest run matters`
-     - `## Canon set`
+     - `## Arc set`
      - `## Open first`
      - `## Routing use`
      - `## Boundaries`
-   - In the canon table, include:
+   - In the arc table, include:
      - rank
      - date
      - title
@@ -76,7 +78,7 @@ Use this skill when a recurring guest run inside a host stream has become import
 6. **Wire the notebook surfaces**
    - Add a citation from the guest row in `COGNITION-LATTICE-SPEAKERS.md` when the guest belongs in the lattice.
    - Add or refine the `thread:<expert_id>` row in `strategy-commentator-threads.md`.
-   - Point those surfaces at the canon note instead of duplicating the long explanation everywhere.
+   - Point those surfaces at the speaker arc instead of duplicating the long explanation everywhere.
 
 7. **Keep boundaries honest**
    - Say what the guest lane is good for.
@@ -85,7 +87,7 @@ Use this skill when a recurring guest run inside a host stream has become import
 
 ## Placement rule
 
-- Preferred home: `codex/<year>/<host-stream>/<host>-<guest>-canon-note.md`
+- Preferred home: `codex/<year>/<host-stream>/<host>-<guest>-speaker-arc.md`
 - The note belongs to the **host stream**.
 - The lattice and thread surfaces may cite the note.
 - The note itself should not silently redefine the lattice.
@@ -93,14 +95,14 @@ Use this skill when a recurring guest run inside a host stream has become import
 ## Guardrails
 
 - Do not create a new ontology shelf just because a guest feels important.
-- Do not confuse a guest canon note with a raw-input, profile, or corpus boundary.
+- Do not confuse a guest speaker arc with a raw-input, profile, or corpus boundary.
 - Do not rank by charisma, novelty, or word count alone.
 - Do not overclaim certainty; if the lane is speculative or high-variance, say so.
 - Do not flatten the guest into a generic ideology label when a more precise lane description is available.
 
 ## Success condition
 
-The result is a compact host-stream canon note that future routing can cite directly, plus any needed lattice or thread pointers, without creating taxonomic drift.
+The result is a compact host-stream speaker arc that future routing can cite directly, plus any needed lattice or thread pointers, without creating taxonomic drift.
 
 
 ## Cursor / grace-mar instance
@@ -109,7 +111,7 @@ Grace-mar paths and commands for this repository (from `.cursor/skills/strategy-
 
 | Topic | Path |
 |--------|------|
-| Existing stream-local canon notes | [codex/2026/diesen/](../../codex/2026/diesen/) |
+| Existing stream-local speaker arcs | [codex/2026/diesen/](../../codex/2026/diesen/) |
 | Lattice speakers roster | [codex/COGNITION-LATTICE-SPEAKERS.md](../../codex/COGNITION-LATTICE-SPEAKERS.md) |
 | Thread handle roster | [codex/strategy-commentator-threads.md](../../codex/strategy-commentator-threads.md) |
 | Portable skill manifest | [skills-portable/manifest.yaml](../../../skills-portable/manifest.yaml) |
@@ -118,11 +120,11 @@ Grace-mar paths and commands for this repository (from `.cursor/skills/strategy-
 
 **Repo notes**
 
-- In this repo, guest canon notes belong to the **host stream** unless an existing taxonomy explicitly says otherwise.
+- In this repo, guest speaker arcs belong to the **host stream** unless an existing taxonomy explicitly says otherwise.
 - Current reference pattern:
-  - [diesen-matlock-canon-note.md](../../codex/2026/diesen/diesen-matlock-canon-note.md)
-  - [diesen-jiang-canon-note.md](../../codex/2026/diesen/diesen-jiang-canon-note.md)
-- The lattice and `thread:` roster may cite the canon note, but the note itself should not invent a new shelf or corpus boundary.
+  - [diesen-matlock-speaker-arc.md](../../codex/2026/diesen/diesen-matlock-speaker-arc.md)
+  - [diesen-jiang-speaker-arc.md](../../codex/2026/diesen/diesen-jiang-speaker-arc.md)
+- The lattice and `thread:` roster may cite the speaker arc, but the note itself should not invent a new shelf or corpus boundary.
 
 **Common local command pattern**
 

@@ -1,4 +1,4 @@
-# Diesen × Matlock canon note
+# Diesen × Matlock speaker arc
 
 WORK only; not Record.
 
@@ -19,7 +19,7 @@ Inside the Diesen stream, that makes the run especially useful when the notebook
 - 1990s settlement choices
 - later Ukraine or NATO escalation arguments
 
-## Canon set
+## Arc set
 
 Current canonical `Diesen × Matlock` raw-inputs on disk:
 
@@ -50,7 +50,7 @@ That pair gives the clearest combination of:
 
 ## Routing use
 
-Use this guest canon when a Diesen ingest or batch pass is doing one or more of the following:
+Use this guest speaker arc when a Diesen ingest or batch pass is doing one or more of the following:
 
 - invoking Reagan/Bush-era negotiation memory
 - contrasting negotiated settlement with victory mythology

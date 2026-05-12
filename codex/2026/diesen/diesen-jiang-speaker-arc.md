@@ -1,4 +1,4 @@
-# Diesen × Jiang canon note
+# Diesen × Jiang speaker arc
 
 WORK only; not Record.
 
@@ -19,7 +19,7 @@ Inside the Diesen stream, that makes the run especially useful when the notebook
 - a bridge between geopolitical events and empire-decline narratives
 - a pressure test for conventional U.S.-China, Iran, and global-order assumptions
 
-## Canon set
+## Arc set
 
 Current canonical `Diesen × Jiang` raw-inputs on disk:
 
@@ -50,7 +50,7 @@ That pair gives the clearest combination of:
 
 ## Routing use
 
-Use this guest canon when a Diesen ingest or batch pass is doing one or more of the following:
+Use this guest speaker arc when a Diesen ingest or batch pass is doing one or more of the following:
 
 - linking geopolitical crises to imperial debt and financial absorption claims
 - framing world conflict as system-maintenance rather than only regional escalation

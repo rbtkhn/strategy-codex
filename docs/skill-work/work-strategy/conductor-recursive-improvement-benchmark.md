@@ -87,7 +87,7 @@ Count examples like:
 
 - new pages
 - source-hygiene notes
-- canon notes
+- speaker arcs
 - doctrine notes
 - crosswalks
 - skills
@@ -122,7 +122,7 @@ Examples:
 
 - "best re-entry point" stated in a README
 - crosswalk added
-- canon note cited from lattice/thread surfaces
+- speaker arc cited from lattice/thread surfaces
 - router note for half-remembered future operator
 
 ### 6. Publish completion rate

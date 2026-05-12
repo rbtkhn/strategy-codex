@@ -1,4 +1,4 @@
-# Diesen × Ritter canon note
+# Diesen × Ritter speaker arc
 
 WORK only; not Record.
 
@@ -19,7 +19,7 @@ Inside the Diesen stream, that makes the run especially useful when the notebook
 - concrete military or maritime mechanics from Ritter
 - cross-theater linkage between Europe and the Gulf
 
-## Canon set
+## Arc set
 
 Current canonical `Diesen × Ritter` raw-inputs on disk:
 
@@ -47,7 +47,7 @@ That pair gives the clearest combination of:
 
 ## Routing use
 
-Use this guest canon when a Diesen ingest or batch pass is doing one or more of the following:
+Use this guest speaker arc when a Diesen ingest or batch pass is doing one or more of the following:
 
 - linking maritime or blockade mechanics to wider order-level claims
 - testing geopolitical rhetoric against operational or retaliatory means
