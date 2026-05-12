@@ -26,6 +26,10 @@
 
 **When elegance becomes dangerous (optional):** [when-elegance-becomes-dangerous.md](when-elegance-becomes-dangerous.md) â€” notebook-philosophy note on when smooth synthesis starts distorting layered seams and packet-first discipline should interrupt it.
 
+**Conductor recursive-improvement benchmark (optional):** [conductor-recursive-improvement-benchmark.md](conductor-recursive-improvement-benchmark.md) â€” scorecard and formulas for testing whether named conductor stances plus the four-movement arc are increasing recursive self-improvement power.
+
+**Conductor arc impact journal (optional):** [conductor-arc-impact-journal.md](conductor-arc-impact-journal.md) â€” append-only narrative ledger for benchmark windows, provisional scores, and what changed.
+
 **Carry-stack observability (optional):** [observability.md](observability.md#carry-stack-observability-pr-5) â€” regenerable JSON/Markdown aggregate over runtime receipts/reports (`scripts/work_strategy/summarize_carry_receipts.py`); process metrics only.
 
 **Bottom line:** **`skill-strategy`** is not loose â€œanalysisâ€; it is **governed strategic accumulation** â€” preserving an operatorâ€™s evolving **geopoliticalâ€“historical judgment** in a **bounded WORK layer**, with **explicit seams** (/codex, inbox, `crosses:` / `seam:` / PH overlays), **explicit promotion rules** ([STRATEGY.md](STRATEGY.md), month `meta.md` when arcs stabilize), and **explicit distance** from identity-facing Record. In strategy-codex terms, the active quartet is **knowledge / library / memory / archive**: `days.md` and open-loop continuity are memory, `raw-input/` is archive-adjacent capture, and notebook judgment remains separate from both.
@@ -125,6 +129,8 @@ Quick index for **Capture**-adjacent surfaces: **narrative register**, **Grok-st
 | **[packet-before-synthesis-doctrine.md](packet-before-synthesis-doctrine.md)** | Durable doctrine note for slower packet-first strategist tempo: mechanism / process / register reuse, anti-flattening discipline, and the dual-register maturity rule. |
 | **[packet-crosswalk.md](packet-crosswalk.md)** | **Best re-entry point** for this family: compact chooser mapping packet type to notebook move, then routing to the recipe, doctrine, or philosophy note as needed. |
 | **[when-elegance-becomes-dangerous.md](when-elegance-becomes-dangerous.md)** | Philosophy note for seam-first writing: when attractive synthesis becomes smoother than reality and should be interrupted by packet-first discipline. |
+| **[conductor-recursive-improvement-benchmark.md](conductor-recursive-improvement-benchmark.md)** | Benchmark spec for measuring whether conductor stances plus the four-movement arc are increasing recursive self-improvement power over time. |
+| **[conductor-arc-impact-journal.md](conductor-arc-impact-journal.md)** | Narrative benchmark ledger for conductor-wave, monthly, and quarterly impact reviews. |
 | **[observability.md](observability.md)** | Notebook hygiene metrics (`build_strategy_observability.py`) **and** carry-stack runtime summaries (`summarize_carry_receipts.py`). |
 | **[strategy-health.md](strategy-health.md)** | How to read observability numbers. |
 | **[../WORK-LAYER-HARDENING-ROADMAP.md](../WORK-LAYER-HARDENING-ROADMAP.md)** | Full work-layer sequencing (strategy â†’ dev â†’ cadence â†’ dashboard). |
