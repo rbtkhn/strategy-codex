@@ -20,24 +20,6 @@ The risk is highest when a sentence:
 
 In those moments, the notebook does not become sharper. It becomes smoother than reality.
 
-## The sequence that taught this
-
-This doctrine emerged from one sustained seam-first sequence:
-
-1. **Source-hygiene packets**
-   - Pape, Parsi, and Marandi made clear that different seams carry different kinds of value:
-     - mechanism
-     - process
-     - register
-2. **Packet-before-synthesis doctrine**
-   - the notebook needed a slower rule for when those seams should be preserved before being composed
-3. **Dual-register maturity rule**
-   - the Araghchi / Marandi Hormuz object showed that official-primary lines and commentator gloss cannot be collapsed honestly on day one
-4. **Rome-Persia stress test**
-   - the doctrine survived a move from hard-security material into symbolic legitimacy and historical-reach pressure
-
-So the lesson is not merely tactical. It is philosophical:
-
 **The notebook must sometimes protect reality from synthesis rather than celebrate synthesis as the final form of understanding.**
 
 ## What dangerous elegance looks like

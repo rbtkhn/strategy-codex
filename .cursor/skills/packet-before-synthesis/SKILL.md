@@ -58,7 +58,6 @@ Some seams should first become **disciplined potential**:
      - factual closure is incomplete
      - rhetoric itself is informative
      - symbolic or historical reach is outrunning evidence maturity
-   - If the seam is already clean, fully pinned, and not layered, packet work may be unnecessary.
 
 4. **Preserve the seam in the right shape**
    - Build or refine:
@@ -127,7 +126,7 @@ The packet-first move is:
    - third-party institutional uptake
 4. keep the notebook claim narrow until that maturity arrives
 
-The better interim sentence is something like:
+The better interim sentence is:
 
 - "A possible Rome-Persia legitimacy wedge is emerging, but the current evidence is still layered: one official dignity signal, one elite-English translation, and no fully mature institutional uptake yet."
 

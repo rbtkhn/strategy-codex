@@ -22,6 +22,8 @@
 
 **Packet crosswalk (optional):** [packet-crosswalk.md](packet-crosswalk.md) â€” quick chooser linking mechanism / process / register packets and dual-register maturity to their actual notebook moves.
 
+**Best re-entry point for half-remembered packet work:** [packet-crosswalk.md](packet-crosswalk.md) â€” start here if you remember the packet-first idea but not which file you need; it routes quickly to the recipe, doctrine, or philosophy layer without rereading the whole stack.
+
 **When elegance becomes dangerous (optional):** [when-elegance-becomes-dangerous.md](when-elegance-becomes-dangerous.md) â€” notebook-philosophy note on when smooth synthesis starts distorting layered seams and packet-first discipline should interrupt it.
 
 **Carry-stack observability (optional):** [observability.md](observability.md#carry-stack-observability-pr-5) â€” regenerable JSON/Markdown aggregate over runtime receipts/reports (`scripts/work_strategy/summarize_carry_receipts.py`); process metrics only.
@@ -121,7 +123,7 @@ Quick index for **Capture**-adjacent surfaces: **narrative register**, **Grok-st
 | **[source-tiers.md](source-tiers.md)** | Trust tier meanings + phased enforcement. |
 | **[source-hygiene-packets.md](source-hygiene-packets.md)** | Recipe for refined-page + source-hygiene-note packet pairs; use when a seam is strategically useful but still mixed in evidence quality. |
 | **[packet-before-synthesis-doctrine.md](packet-before-synthesis-doctrine.md)** | Durable doctrine note for slower packet-first strategist tempo: mechanism / process / register reuse, anti-flattening discipline, and the dual-register maturity rule. |
-| **[packet-crosswalk.md](packet-crosswalk.md)** | Compact chooser mapping packet type to notebook move: mechanism, process, register, and the dual-register maturity check. |
+| **[packet-crosswalk.md](packet-crosswalk.md)** | **Best re-entry point** for this family: compact chooser mapping packet type to notebook move, then routing to the recipe, doctrine, or philosophy note as needed. |
 | **[when-elegance-becomes-dangerous.md](when-elegance-becomes-dangerous.md)** | Philosophy note for seam-first writing: when attractive synthesis becomes smoother than reality and should be interrupted by packet-first discipline. |
 | **[observability.md](observability.md)** | Notebook hygiene metrics (`build_strategy_observability.py`) **and** carry-stack runtime summaries (`summarize_carry_receipts.py`). |
 | **[strategy-health.md](strategy-health.md)** | How to read observability numbers. |
