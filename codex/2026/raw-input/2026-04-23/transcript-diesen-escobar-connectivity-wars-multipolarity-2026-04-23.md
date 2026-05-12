@@ -9,7 +9,8 @@ thread: diesen
 guest_speaker: pepe_escobar
 kind: cleaned-transcript
 editorial_note: Inferred speaker labels from dialogue.
-canonical_url: TBD
+source_url: https://www.youtube.com/watch?v=XzzDdssl_rw
+canonical_url: https://www.youtube.com/watch?v=XzzDdssl_rw
 ---
 
 # Pepe Escobar: Connectivity Wars — The U.S. War on Multipolarity

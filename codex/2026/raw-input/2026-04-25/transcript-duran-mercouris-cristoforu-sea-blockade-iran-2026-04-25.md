@@ -6,6 +6,8 @@ show: Mercouris
 speakers: Alex Christoforou, Alexander Mercouris
 thread: mercouris
 source_note: User-supplied cleaned YouTube transcript; pin canonical The Duran watch URL when known.
+source_url: https://www.youtube.com/watch?v=XZL0HiFch10
+canonical_url: https://www.youtube.com/watch?v=XZL0HiFch10
 title_slug: sea-blockade-trap-iran-2026-04-25
 ---
 

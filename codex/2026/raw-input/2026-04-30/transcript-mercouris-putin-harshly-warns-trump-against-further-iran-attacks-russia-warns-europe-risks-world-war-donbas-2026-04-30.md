@@ -7,6 +7,8 @@ host: Alexander Mercouris
 guest: null
 thread: mercouris
 source_note: Operator-supplied cleaned transcript; canonical source URL not pinned yet.
+source_url: https://www.youtube.com/watch?v=YLjZXnUqkPg
+canonical_url: https://www.youtube.com/watch?v=YLjZXnUqkPg
 title_slug: transcript-mercouris-putin-harshly-warns-trump-against-further-iran-attacks-russia-warns-europe-risks-world-war-donbas-2026-04-30
 ---
 # Clean Unabridged Transcript: Putin Harshly Warns Trump Against Further Iran Attacks; Russia Warns Europe Risks World War; Donbas

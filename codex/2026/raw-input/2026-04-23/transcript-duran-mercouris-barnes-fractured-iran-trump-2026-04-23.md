@@ -5,11 +5,12 @@ ingested: "2026-04-25"
 show: The Duran
 source: operator_file
 operator_source: /Users/robertkuhne/Documents/mercouris-barnes-2026-04-23.md
+source_url: https://www.youtube.com/watch?v=XNq8TjkMeSc
 participants: [mercouris, barnes, christoforou]
 threads: [mercouris, barnes]
 kind: speaker-labeled-transcript
 editorial_note: Best-effort speaker labels from auto-caption; confidence varies per section.
-canonical_url: TBD
+canonical_url: https://www.youtube.com/watch?v=XNq8TjkMeSc
 ---
 
 # Clean Best-Effort Speaker-Labeled Transcript

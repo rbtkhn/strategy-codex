@@ -7,7 +7,8 @@ operator_source: /Users/robertkuhne/Documents/davis-barnes-2026-04-24.md
 threads: [davis, barnes]
 kind: cleaned-transcript
 editorial_note: Speaker labels from context; not independent fact-check per source file.
-canonical_url: TBD
+source_url: https://www.youtube.com/watch?v=Pcd4tM5ai6o
+canonical_url: https://www.youtube.com/watch?v=Pcd4tM5ai6o
 ---
 
 # Clean Transcript

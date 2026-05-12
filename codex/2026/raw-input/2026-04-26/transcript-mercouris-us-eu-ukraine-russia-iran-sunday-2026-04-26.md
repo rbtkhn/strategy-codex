@@ -7,7 +7,8 @@ host: Alexander Mercouris
 thread: mercouris
 operator_source: /Users/robertkuhne/Documents/mercouris-2026-04-26.md
 source_note: Operator cleaned YouTube transcript paste; pin canonical The Duran watch URL when known.
-canonical_url: TBD
+source_url: https://www.youtube.com/watch?v=Ao0O9HQnYJg
+canonical_url: https://www.youtube.com/watch?v=Ao0O9HQnYJg
 title_slug: mercouris-us-eu-ukraine-russia-iran-sunday-2026-04-26
 editorial_note: ASR/heuristic typos in source (e.g. Lavrovv, equilibr-) preserved; Mercouris misspeaks Spectator vs Economist once in voice â€” verbatim.
 ---

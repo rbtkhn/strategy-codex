@@ -8,6 +8,8 @@ guest: Larry Johnson
 thread: johnson
 source_note: Operator-supplied cleaned transcript; canonical source URL not pinned yet.
 title_slug: transcript-diesen-johnson-iran-winning-2026-04-30
+source_url: https://www.youtube.com/watch?v=ptmxmBOVgSI
+canonical_url: https://www.youtube.com/watch?v=ptmxmBOVgSI
 ---
 # Larry Johnson: U.S. Desperation Grows as Iran Is Winning
 

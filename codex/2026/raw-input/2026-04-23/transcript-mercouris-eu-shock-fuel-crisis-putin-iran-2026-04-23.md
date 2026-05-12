@@ -5,7 +5,8 @@ ingested: "2026-04-25"
 thread: mercouris
 source: operator_paste
 show: Mercouris
-canonical_url: TBD
+source_url: https://www.youtube.com/watch?v=KkCN_rOxT1I
+canonical_url: https://www.youtube.com/watch?v=KkCN_rOxT1I
 ---
 
 # Transcript (verbatim â€” operator paste)

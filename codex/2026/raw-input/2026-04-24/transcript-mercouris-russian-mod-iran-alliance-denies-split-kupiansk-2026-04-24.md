@@ -6,6 +6,8 @@ show: Mercouris
 host: Alexander Mercouris
 thread: mercouris
 source_note: Operator YouTube transcript paste; pin canonical The Duran watch URL.
+source_url: https://www.youtube.com/watch?v=LmJWmgtsaps
+canonical_url: https://www.youtube.com/watch?v=LmJWmgtsaps
 title_slug: mercouris-russian-mod-iran-alliance-iran-denies-split-kupiansk-2026-04-24
 ---
 

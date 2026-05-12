@@ -7,7 +7,8 @@ operator_source: /Users/robertkuhne/Documents/davis-2026-04-23.md
 show: YouTube (Deep Dive / Daniel Davis — confirm channel)
 thread: davis
 kind: cleaned-transcript
-canonical_url: TBD
+source_url: https://www.youtube.com/watch?v=z55m32KAD_0
+canonical_url: https://www.youtube.com/watch?v=z55m32KAD_0
 ---
 
 # Cleaned Transcript: (2) Trump Says He's Got 'All the Time in the World' /Lt Col Daniel Davis - YouTube

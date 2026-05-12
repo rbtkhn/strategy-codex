@@ -7,7 +7,8 @@ operator_source: /Users/robertkuhne/Documents/davis-crooke-2026-04-23.md
 threads: [davis, crooke]
 kind: cleaned-transcript
 editorial_note: Speaker sections inferred from dialogue; caption cleanup.
-canonical_url: TBD
+source_url: https://www.youtube.com/watch?v=EoLvGxJkNHQ
+canonical_url: https://www.youtube.com/watch?v=EoLvGxJkNHQ
 ---
 
 # Alastair Crooke: Iranians Only Getting Tougher w/ Lt. Col. Daniel Davis

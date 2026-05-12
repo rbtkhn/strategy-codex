@@ -8,7 +8,8 @@ guest: Alastair Crooke
 threads: [diesen, crooke]
 kind: cleaned-transcript
 editorial_note: Cleaned transcript with speaker names supplied by operator (Glenn Diesen, Alastair Crooke).
-canonical_url: TBD
+source_url: https://www.youtube.com/watch?v=OW3_a-oUrVQ
+canonical_url: https://www.youtube.com/watch?v=OW3_a-oUrVQ
 ---
 
 > Note: This is a cleaned, best-effort transcript. Obvious artifacts were removed conservatively while preserving the substance.
