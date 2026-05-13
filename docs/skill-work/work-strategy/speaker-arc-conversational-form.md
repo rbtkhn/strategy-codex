@@ -118,6 +118,10 @@ The term also improves the feel of the notebook.
 
 That better matches what these objects are actually doing.
 
+## Generalization
+
+For the rule about when a notebook form has truly generalized beyond its founding stream, see [when-a-notebook-form-has-generalized.md](when-a-notebook-form-has-generalized.md).
+
 ## Practical test
 
 Use the term **speaker arc** when all of the following are true:
