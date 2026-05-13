@@ -51,7 +51,7 @@ Scott Horton stays out of the roster because the corpus treats him as host-side,
 | Martin Armstrong | `Armstrong` | Jermy, Diesen, Sachs, Pape | Cycle timing and debt-war-commodity convergence claims. | [lattice](COGNITION-STREAMS.md) / [threads](strategy-commentator-threads.md) |
 | Seyed Mohammad Marandi | `Marandi` | Ritter, Parsi, Mercouris, Davis | Negotiation, red lines, and legitimacy register. | [lattice](COGNITION-STREAMS.md) / [threads](strategy-commentator-threads.md) / [speaker arc](2026/alkorshid/alkorshid-marandi-speaker-arc.md) |
 | Max Blumenthal | `MaxBlumenthal` | Mate, Parsi, Mercouris, Marandi, Freeman | Elite-access critique and Lebanon or Gulf narrative framing. | [lattice](COGNITION-STREAMS.md) / [threads](strategy-commentator-threads.md) |
-| Robert Barnes | `barnes_law` | Pape, Davis, Johnson | Domestic liability, coalition sell, and executive chain analysis. | [lattice](COGNITION-STREAMS.md) / [threads](strategy-commentator-threads.md) |
+| Robert Barnes | `barnes_law` | Pape, Davis, Johnson | Domestic liability, coalition sell, and executive chain analysis. | [lattice](COGNITION-STREAMS.md) / [threads](strategy-commentator-threads.md) / [Davis arc](2026/davis/davis-barnes-speaker-arc.md) |
 | Robert Pape | `ProfessorPape` | Davis, Barnes, Mearsheimer | Escalation trap and commitment-ratchet framing on demands. | [lattice](COGNITION-STREAMS.md) / [threads](strategy-commentator-threads.md) |
 
 Use this roster when you want to find the recurring speaker fast, then jump back to the stream scaffold or routing table for the deeper thread and provenance rules.
