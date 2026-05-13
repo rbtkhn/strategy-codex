@@ -90,6 +90,13 @@ skills:
     verify_forbidden_substrings:
       - users/grace-mar/
       - process_approved_candidates
+  - name: cognition-streams
+    source: cognition-streams/SKILL.md
+    appendix: .cursor/skills/cognition-streams/CURSOR_APPENDIX.md
+    target: .cursor/skills/cognition-streams/SKILL.md
+    verify_forbidden_substrings:
+      - users/grace-mar/
+      - process_approved_candidates
   - name: strategy-notebook-guest-canon-note
     source: strategy-notebook-guest-canon-note/SKILL.md
     appendix: .cursor/skills/strategy-notebook-guest-canon-note/CURSOR_APPENDIX.md

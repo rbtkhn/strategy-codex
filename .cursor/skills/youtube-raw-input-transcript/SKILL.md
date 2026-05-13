@@ -1,0 +1,128 @@
+---
+name: youtube-raw-input-transcript
+preferred_activation: youtube transcript
+description: Extract YouTube metadata and captions, then materialize a canonical raw-input transcript with conservative provenance, speaker normalization, and date-safe frontmatter.
+portable: true
+version: 0.1.0
+tags:
+- operator
+- raw-input
+- youtube
+- transcript
+portable_source: skills-portable/youtube-raw-input-transcript/SKILL.md
+synced_by: sync_portable_skills.py
+---
+# YouTube raw-input transcript
+
+**Preferred activation (operator):** say **`youtube transcript`**.
+
+Use this skill when a YouTube episode should become a canonical transcript artifact, especially when there is no human-cleaned transcript yet and the best available source is YouTube captions.
+
+## Layering rule
+
+- Use **`youtube transcript`** when the operator already has a specific URL or episode in hand.
+- Do **not** use this as the first move for the four-stream daily roster check.
+- When the task is "what did Diesen, Davis, Mercouris, and Dialogue Works upload today?", start with **`cognition streams`** and let it pass approved URLs down to this workflow.
+
+## When to run
+
+- A user provides a YouTube URL and wants a transcript saved into canonical raw-input.
+- You need to confirm title, publication date, and channel before naming the file.
+- The available source is auto-captions or subtitles rather than an operator-pasted cleaned transcript.
+- A prior transcript exists but needs provenance-safe normalization or re-materialization.
+
+## Workflow
+
+1. **Resolve metadata first**
+   - Extract video id, title, upload date, and channel before writing any file.
+   - Treat the user-provided date as authoritative if they explicitly give one; otherwise use video metadata.
+   - Do not infer dates from similar past episodes or title motifs.
+
+2. **Acquire the best subtitle source available**
+   - Prefer the original-language subtitle track if available (for example `en-orig` before fallback `en`).
+   - If `yt-dlp` is not on `PATH`, try the Python module path.
+   - Save subtitle artifacts locally so the extraction path is auditable.
+
+3. **Choose the right transcript class**
+   - Use `cleaned_transcript` only when the user supplies cleaned dialogue or a human-cleaned source.
+   - Use `auto_subtitles_vtt` when you materialize raw captions with minimal intervention.
+   - Use `speaker_normalized_from_auto_subtitles` when you perform best-effort turn assignment and sentence cleanup from captions.
+
+4. **Materialize the canonical raw-input file**
+   - Write the file into the canonical date folder using the published date.
+   - Include frontmatter with `ingest_date`, `pub_date`, `thread`, `title`, `source_url`, `source_type`, `transcript_type`, and a plain-language `editorial_note`.
+   - Make the note explicit about whether the transcript is operator-pasted, auto-extracted, or best-effort normalized.
+
+5. **Normalize conservatively**
+   - Remove timing markup, duplicate carryover lines, and obvious caption artifacts.
+   - Reflow fragments into readable paragraphs.
+   - Assign speaker labels only where confidence is reasonable from interview structure.
+   - Preserve uncertainty rather than inventing fluent but unsupported dialogue.
+
+6. **Verify before declaring success**
+   - Check the top metadata block, opening lines, and closing lines.
+   - Make sure title, date, guest, and transcript type all agree with the extraction path.
+   - If the output still has substantial caption noise, say so clearly.
+
+## Guardrails
+
+- Never present auto-captions as human-verified verbatim text.
+- Never silently upgrade `auto_subtitles_vtt` into `cleaned_transcript`.
+- Never infer a date from thematic similarity to another episode when metadata or user instruction is available.
+- Keep provenance explicit enough that a later operator can distinguish:
+  - operator-pasted cleaned transcript
+  - raw subtitle extraction
+  - best-effort speaker normalization
+- Prefer conservative speaker labeling over false precision.
+
+## Output classes
+
+- **Minimal capture:** canonical raw-input with metadata plus raw or lightly deduped caption text.
+- **Speaker-normalized:** readable interview turns from auto-captions with explicit best-effort provenance.
+- **Cleaned transcript:** only when a human-cleaned transcript is supplied.
+
+## Command pattern (host-agnostic)
+
+```bash
+# Metadata
+python -m yt_dlp --skip-download --print "%(id)s\n%(title)s\n%(upload_date)s\n%(channel)s" "<youtube-url>"
+
+# Subtitle extraction
+python -m yt_dlp --skip-download --write-auto-sub --sub-langs "en.*" --sub-format vtt -o "<temp-dir>/%(id)s.%(ext)s" "<youtube-url>"
+```
+
+## Success condition
+
+The result is a date-correct, provenance-safe raw-input transcript file that future ingest or analysis can trust without confusing subtitle extraction for a human-cleaned source.
+
+
+## Cursor / grace-mar instance
+
+Grace-mar paths and commands for this repository (from `.cursor/skills/youtube-raw-input-transcript/`).
+
+| Topic | Path |
+|--------|------|
+| Canonical raw-input tree | [codex/](../../codex/) |
+| Date-bucket target pattern | `codex/YYYY/raw-input/YYYY-MM-DD/` |
+| Existing Diesen examples | [codex/2026/raw-input/2026-04-19/](../../codex/2026/raw-input/2026-04-19/) · [codex/2026/raw-input/2026-05-11/](../../codex/2026/raw-input/2026-05-11/) |
+| Temp subtitle cache | [\.codex-tmp/yt-dlp/](../../.codex-tmp/yt-dlp/) |
+| Portable skill manifest | [skills-portable/manifest.yaml](../../../skills-portable/manifest.yaml) |
+| Sync script | [scripts/sync_portable_skills.py](../../../scripts/sync_portable_skills.py) |
+| Skill validator | [scripts/validate_skills.py](../../../scripts/validate_skills.py) |
+
+**Repo notes**
+
+- In this repo, `thread` is usually the host lane such as `diesen`, `mercouris`, or `davis`.
+- Prefer `python -m yt_dlp` if `yt-dlp` is not on `PATH`.
+- Preserve explicit `editorial_note` language:
+  - `Operator-pasted cleaned transcript.`
+  - `Auto-captions extracted with yt_dlp from YouTube VTT (en-orig).`
+  - `Best-effort speaker normalization and sentence polishing from YouTube auto-captions extracted with yt_dlp (en-orig). Not human-verified verbatim.`
+
+**Common local command pattern**
+
+```powershell
+python -m yt_dlp --skip-download --print "%(id)s`n%(title)s`n%(upload_date)s`n%(channel)s" "<youtube-url>"
+
+python -m yt_dlp --skip-download --write-auto-sub --sub-langs "en.*" --sub-format vtt -o "C:\dev\strategy-codex\.codex-tmp\yt-dlp\%(id)s.%(ext)s" "<youtube-url>"
+```
