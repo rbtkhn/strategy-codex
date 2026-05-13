@@ -10,22 +10,22 @@ This run is most useful when the notebook needs:
 
 - the strongest recurring Marandi formulation of **Hormuz as leverage rather than mere shipping fact**
 - repeated framing of **UAE / GCC complicity** and differentiated Gulf-state treatment
-- a current-events lane for **Islamabad, ceasefire, siege, and postwar security architecture**
-- an English-facing record of how a regime-adjacent voice narrates **restraint, retaliation, and legitimacy**
+- a current-events lane for **Islamabad, ceasefire, siege, and regional security-architecture claims**
+- an English-facing record of how a regime-adjacent voice narrates **retaliation, restraint claims, and legitimacy**
 
 What makes this a real speaker arc rather than just repeated guest appearances is that the same shape keeps returning:
 
 - Alkorshid asks from the pressure front of the current crisis
 - Marandi answers in a red-line / legitimacy / strategic-endurance register
-- the lane repeatedly converts live incidents into a broader claim about who may transit, who counts as complicit, and what a post-U.S. regional order should look like
+- the lane repeatedly converts live incidents into broader claims about who may transit, who counts as complicit, and what a post-U.S. regional order could look like
 
 ## Arc set
 
 1. [transcript-alkorshid-marandi-hormuz-uae-china-2026-05-05.md](/C:/dev/strategy-codex/codex/2026/raw-input/2026-05-05/transcript-alkorshid-marandi-hormuz-uae-china-2026-05-05.md)  
-   Best mature anchor. Strongest full statement of selective Hormuz passage, UAE exposure, siege logic, and why Iran treats time as being on its side.
+   Best mature anchor. Strong on selective Hormuz passage, UAE exposure, siege logic, and why Iran treats time as being on its side.
 
 2. [youtube-nima-alkorshid-marandi-hormuz-uae-ceasefire-occupied-country-2026-05-09.md](/C:/dev/strategy-codex/codex/2026/raw-input/2026-05-09/youtube-nima-alkorshid-marandi-hormuz-uae-ceasefire-occupied-country-2026-05-09.md)  
-   Best culmination file. Strong on the claim that Hormuz has permanently changed and that a postwar regional security architecture should exclude the United States.
+   Best culmination file. Strong on the claim that Hormuz has fundamentally changed and that a regional security architecture should exclude the United States.
 
 3. [transcript-marandi-dialogue-works-trump-plan-dead-after-strike-2026-04-28.md](/C:/dev/strategy-codex/codex/2026/raw-input/2026-04-28/transcript-marandi-dialogue-works-trump-plan-dead-after-strike-2026-04-28.md)  
    Best siege-war and collapse-language file. Useful for Trump-collapse narratives, waiting-game logic, and the difference between Iran enduring pain and the U.S. imposing pain on everyone else.
@@ -40,8 +40,8 @@ Open **2026-05-05** first when you want the clearest statement of what this host
 Open **2026-05-09** first when the notebook specifically needs:
 
 - the strongest “new security architecture” language
-- the argument that Hormuz has changed permanently
-- the fuller postwar regional-order claim
+- the argument that Hormuz has changed fundamentally
+- the fuller regional-order claim
 
 Open **2026-04-21** first when the question is about:
 
@@ -55,7 +55,9 @@ Best paired read: [diesen-freeman-speaker-arc.md](/C:/dev/strategy-codex/codex/2
 
 Why: Freeman gives the steadier diplomatic-memory and order-interpretation lane; Marandi on Dialogue Works gives the sharper Tehran-facing red-line and legitimacy lane. They often touch the same terrain, but from very different speaking positions.
 
-Second-best paired read: [diesen-freeman-speaker-arc.md](/C:/dev/strategy-codex/codex/2026/diesen/diesen-freeman-speaker-arc.md) and the main [Marandi thread row](../../strategy-commentator-threads.md) together, when you need the distinction between stream-local host × guest contour and the broader recurring Marandi voice across the notebook.
+Second-best paired read: [diesen-ritter-speaker-arc.md](/C:/dev/strategy-codex/codex/2026/diesen/diesen-ritter-speaker-arc.md)
+
+Why: Ritter gives the more operational and coercive-mechanics lane on some of the same crisis terrain. Marandi on Dialogue Works gives the legitimacy, red-line, and political-endurance lane. Together they make the register split especially visible.
 
 ## Routing use
 
