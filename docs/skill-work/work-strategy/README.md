@@ -38,6 +38,8 @@
 
 **yt-dlp ingest quality rubric (optional):** [ytdlp-ingest-quality-rubric.md](ytdlp-ingest-quality-rubric.md) â€” compact four-part scorecard for discovery, subtitle extraction, provenance wrapper quality, and index sync.
 
+**Repo self-perception (optional):** [repo-self-perception.md](repo-self-perception.md) â€” distinguishes absent corpus, partial corpus, and unrecognized corpus, and treats inventory drift as one case of broader self-description lag.
+
 **Carry-stack observability (optional):** [observability.md](observability.md#carry-stack-observability-pr-5) â€” regenerable JSON/Markdown aggregate over runtime receipts/reports (`scripts/work_strategy/summarize_carry_receipts.py`); process metrics only.
 
 **Bottom line:** **`skill-strategy`** is not loose â€œanalysisâ€; it is **governed strategic accumulation** â€” preserving an operatorâ€™s evolving **geopoliticalâ€“historical judgment** in a **bounded WORK layer**, with **explicit seams** (/codex, inbox, `crosses:` / `seam:` / PH overlays), **explicit promotion rules** ([STRATEGY.md](STRATEGY.md), month `meta.md` when arcs stabilize), and **explicit distance** from identity-facing Record. In strategy-codex terms, the active quartet is **knowledge / library / memory / archive**: `days.md` and open-loop continuity are memory, `raw-input/` is archive-adjacent capture, and notebook judgment remains separate from both.
