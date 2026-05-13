@@ -9,16 +9,30 @@
 
 **Unlisted speakers / no lane yet:** If a capture is worth keeping but the speaker or outlet does **not** map to an existing expert folder, still ingest it here as source-first raw input. Leave **`thread:`** out unless you later decide to route it into an existing lane.
 
-## Interview ownership (host-stream default)
+## Interview ownership (designated stream vs outside-channel split)
 
 - **Direct authored material** -- essays, newsletters, signed Substack posts, official statements -- stays with the **author** stream.
-- **Interviewer-led material** -- interviews, panels, podcasts, and host-framed YouTube transcripts -- belongs to the **interviewer / host cognition stream** when a lane owner is needed.
-- **Guests still matter:** keep them visible in titles, body text, refined pages, `crosses:` relationships, and later synthesis.
-- **Do not** create duplicate guest-owned raw-input files or guest-lane pointer files by default just because a notable guest appears. Only do that when the operator explicitly wants a second ownership surface.
+- **Designated-stream interviews** -- interviews, panels, podcasts, and host-framed YouTube transcripts on a **designated cognition stream** such as Diesen, Davis, Mercouris, or Dialogue Works -- belong to the **host / interviewer cognition stream** by default.
+- **Outside-channel expert captures** -- interviews on channels that are **not** designated cognition streams -- should usually be owned by the **guest / recurring expert lane** when that guest already has a real notebook lane (for example `pape`, `ritter`, `parsi`, `marandi`).
+- **Guests and hosts still matter:** keep both visible in titles, body text, refined pages, `crosses:` relationships, and later synthesis.
+- **Do not** create duplicate host-owned and guest-owned raw-input files by default just because both sides are notable. Only do that when the operator explicitly wants a second ownership surface.
 
-Short version: **Crooke essay -> Crooke. Diesen x Crooke transcript -> Diesen. Davis x Crooke transcript -> Davis.**
+Short version:
 
-Implementation rule: for host-led interviews, `thread:` follows the **host / interviewer stream**, not the guest. Keep the guest visible in the title, body, and `guest:` metadata, but do not create a guest-owned raw-input file by default just because the guest is notable.
+- **Crooke essay -> Crooke**
+- **Diesen x Crooke transcript -> Diesen**
+- **Davis x Crooke transcript -> Davis**
+- **Mario Nawfal x Pape transcript -> Pape**
+- **outside channel x Ritter transcript -> Ritter**
+
+Implementation rule:
+
+- for **designated host-stream interviews**, `thread:` follows the **host / interviewer stream**
+- for **outside-channel expert captures**, `thread:` follows the **guest / expert lane**
+
+The filename should teach the same rule. If the designated stream owns the capture, the host stream goes first. If the host is only an outside container, put the **expert first** and retain the outside host in `show`, `host`, `channel_slug`, and title context.
+
+For the compact strategy-language version of this rule, see [raw-input-lane-ownership.md](../../../docs/skill-work/work-strategy/raw-input-lane-ownership.md).
 
 
 **Capture-type calibration (essay / transcript / social / wire–PDF):** For **type-specific** defaults — **`kind:`**, **`thread:`**, inbox stub shape, refined-page **`### Verbatim`** expectations — see **[`CAPTURE-TYPES.md`](CAPTURE-TYPES.md)** (grep-friendly **`##`** headings). Operator + assistant ingest should align that doc with the scaffold in [strategy-codex-template-raw-input.md](../../strategy-codex-template-raw-input.md) and [refined-page-template.md](../refined-page-template.md).

@@ -140,3 +140,5 @@ That hierarchy should keep future routing clean.
 ## Further gloss
 
 If you want the philosophical layer rather than the structural distinction, read [speaker-arc-conversational-form.md](speaker-arc-conversational-form.md).
+
+If you need the boundary between `speaker arc` host-locality and raw-input ingest ownership, read [raw-input-ownership-vs-speaker-arc.md](raw-input-ownership-vs-speaker-arc.md).

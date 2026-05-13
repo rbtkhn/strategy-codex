@@ -36,6 +36,10 @@ Use this skill when a YouTube episode should become a canonical transcript artif
    - Extract video id, title, upload date, and channel before writing any file.
    - Treat the user-provided date as authoritative if they explicitly give one; otherwise use video metadata.
    - Do not infer dates from similar past episodes or title motifs.
+   - Decide ownership before naming the file:
+     - if the upload belongs to a designated cognition stream such as Diesen, Davis, Mercouris, or Dialogue Works, use the host stream as the owning lane
+     - if the upload is on an outside channel and the recurring guest already has a real notebook lane such as `pape` or `ritter`, use the guest lane as the owning lane
+   - The filename should teach that ownership rule. Keep the outside host visible, but do not let an incidental channel displace the notebook owner.
 
 2. **Acquire the best subtitle source available**
    - Prefer the original-language subtitle track if available (for example `en-orig` before fallback `en`).
@@ -51,6 +55,7 @@ Use this skill when a YouTube episode should become a canonical transcript artif
    - Write the file into the canonical date folder using the published date.
    - Include frontmatter with `ingest_date`, `pub_date`, `thread`, `title`, `source_url`, `source_type`, `transcript_type`, and a plain-language `editorial_note`.
    - Make the note explicit about whether the transcript is operator-pasted, auto-extracted, or best-effort normalized.
+   - Keep `show`, `host`, `guest`, and `channel_slug` explicit when present so host context is preserved even when the expert lane owns the filename.
 
 5. **Normalize conservatively**
    - Remove timing markup, duplicate carryover lines, and obvious caption artifacts.
@@ -68,6 +73,7 @@ Use this skill when a YouTube episode should become a canonical transcript artif
 - Never present auto-captions as human-verified verbatim text.
 - Never silently upgrade `auto_subtitles_vtt` into `cleaned_transcript`.
 - Never infer a date from thematic similarity to another episode when metadata or user instruction is available.
+- Never let an outside host channel silently take ownership from a recurring expert lane when the notebook clearly treats the guest as the real owner of the capture.
 - Keep provenance explicit enough that a later operator can distinguish:
   - operator-pasted cleaned transcript
   - raw subtitle extraction
