@@ -134,3 +134,7 @@ When all three exist:
 - **speaker arc** = compact interpretive lane layer
 
 That hierarchy should keep future routing clean.
+
+## Further gloss
+
+If you want the philosophical layer rather than the structural distinction, read [speaker-arc-conversational-form.md](speaker-arc-conversational-form.md).

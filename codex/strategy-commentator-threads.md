@@ -137,7 +137,7 @@ Run operator **`thread`**: **`bin/thread`** or **`python3 scripts/strategy_threa
 
 | expert_id | Name | Role (one line) | Default grep tag | Typical `batch-analysis` pairings |
 |-----------|--------|-----------------|------------------|-----------------------------------|
-| `marandi` | Seyed Mohammad Marandi | Iranian English long-form: negotiation **process**, red lines, legitimacy register | `IRAN`, `TEHRAN`, or `Marandi` in cold | × `ritter`, × `parsi`, × `rome-ecumenical` (Pontifex / Marandi Easter) |
+| `marandi` | Seyed Mohammad Marandi | Iranian English long-form: negotiation **process**, red lines, legitimacy register. Guest speaker-arc inside Alkorshid stream: [alkorshid-marandi-speaker-arc.md](2026/alkorshid/alkorshid-marandi-speaker-arc.md) | `IRAN`, `TEHRAN`, or `Marandi` in cold | × `ritter`, × `parsi`, × `rome-ecumenical` (Pontifex / Marandi Easter) |
 | `ritter` | Scott Ritter | U.S. **military dissent**: Hormuz **sea control**, blockade ops, Vance frame; **faith-politics** register when **Ritter** is the speaking expert. Guest speaker-arc inside Diesen stream: [diesen-ritter-speaker-arc.md](2026/diesen/diesen-ritter-speaker-arc.md) | `JDVance`, `IRAN`, or `Ritter` | × `marandi`, × `barnes`, × `rome-invective` (split from ecumenical) |
 | `parsi` | Trita Parsi (`@tparsi`) | Beltway-facing **Lebanon vs nuclear** scope; “mask” thesis | `IRAN` + Parsi in cold | × `holy-see-moral` (Pontifex Lebanon), × `marandi`, × `macgregor` |
 | `barnes` | Robert Barnes (`@barnes_law`) | **Domestic liability** pole on Hormuz / executive TS chain | `JDVance` or `barnes` in cold | × `pape`; **topic** forks (JTN-style “card” vs satirical spiral) in **`batch-analysis`** without a second expert |
