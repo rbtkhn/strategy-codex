@@ -20,6 +20,8 @@ Use this skill for the **daily stream check / daily ingest routine** across a fi
 
 Use the single-URL YouTube transcript workflow for one-off URLs. Use this skill when the operator wants the **daily roster**.
 
+For the higher-level notebook meaning of this routine, see [cognition-streams-daily-aperture.md](../../docs/skill-work/work-strategy/cognition-streams-daily-aperture.md).
+
 ## Layering rule
 
 - Start with **`cognition streams`** when the task is "what went up today across the tracked streams?"

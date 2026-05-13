@@ -21,6 +21,8 @@ Use this skill for the **daily stream check / daily ingest routine** across a fi
 
 Use the single-URL YouTube transcript workflow for one-off URLs. Use this skill when the operator wants the **daily roster**.
 
+For the higher-level notebook meaning of this routine, see [cognition-streams-daily-aperture.md](../../docs/skill-work/work-strategy/cognition-streams-daily-aperture.md).
+
 ## Layering rule
 
 - Start with **`cognition streams`** when the task is "what went up today across the tracked streams?"
@@ -188,6 +190,7 @@ Grace-mar paths and commands for this repository (from `.cursor/skills/cognition
 | Date-bucket target pattern | `codex/YYYY/raw-input/YYYY-MM-DD/` |
 | Existing lower-layer ingest skill | [skills-portable/youtube-raw-input-transcript/SKILL.md](../../../skills-portable/youtube-raw-input-transcript/SKILL.md) |
 | Generated lower-layer Cursor skill | [\.cursor/skills/youtube-raw-input-transcript/SKILL.md](../youtube-raw-input-transcript/SKILL.md) |
+| Philosophical gloss | [docs/skill-work/work-strategy/cognition-streams-daily-aperture.md](../../../docs/skill-work/work-strategy/cognition-streams-daily-aperture.md) |
 | Temp daily discovery cache | [\.codex-tmp/](../../.codex-tmp/) |
 | Temp subtitle cache | [\.codex-tmp/yt-dlp/](../../.codex-tmp/yt-dlp/) |
 | Portable skill manifest | [skills-portable/manifest.yaml](../../../skills-portable/manifest.yaml) |
