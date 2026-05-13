@@ -3,7 +3,7 @@
 
 **Purpose:** Metadata-only index of **Dialogue Works** (host **Nima Alkhorshid**) from the public YouTube crawl starting at **`2026-01-01`** through the latest upload returned by the crawl. Transcript bodies are not backfilled in this pass. **WORK only** Ã¢â‚¬â€ not Record.
 
-**Last audited:** 2026-05-01 Ã¢â‚¬â€ YouTube index-only crawl with metadata enrichment.
+**Last audited:** 2026-05-12 Ã¢â‚¬â€ YouTube index-only crawl plus targeted inventory reconciliation against captured raw-input files.
 
 **Routing reminder:** For symmetric expert mirroring, same-episode ingests should carry **`thread:<guest>`** plus **`thread:alkorshid`** where host prompts matter Ã¢â‚¬â€ see [alkorshid-profile.md](../../alkorshid/alkorshid-profile.md).
 
@@ -29,6 +29,8 @@
 ## Manual additions
 
 User-supplied Dialogue Works rows added outside the January crawl snapshot. Some rows are mirrored in the crawl table; all others are marked `needs capture` until mirrored into `raw-input/`.
+
+2026-05-12 reconciliation note: this appendix now includes the captured `Baud` rows for 2026-05-04 and 2026-05-11, which were on disk after the last crawl snapshot but had not yet been reflected here.
 
 | pub_date | Title | Guest | URL | Routing / note | raw-input |
 |----------|-------|-------|-----|----------------|-----------|
@@ -158,3 +160,5 @@ User-supplied Dialogue Works rows added outside the January crawl snapshot. Some
 | 2026-05-01 | Amb. Chas Freeman: Israelâ€™s Grand Plan Collapsed in Record Time | Amb. Chas Freeman | [https://www.youtube.com/watch?v=xjRDqdqEl4Y](https://www.youtube.com/watch?v=xjRDqdqEl4Y) | thread: freeman | needs capture |
 | 2026-05-01 | Larry C. Johnson & Col. Wilkerson: Itâ€™s Over: Iran Just Wiped Out Trumpâ€™s Blockade - War IMMINENT | Larry C. Johnson & Col. Wilkerson | [https://www.youtube.com/watch?v=Y5Ij0cWArw0](https://www.youtube.com/watch?v=Y5Ij0cWArw0) | thread: johnson | needs capture |
 | 2026-05-01 | Prof. Ted Postol: How Iran War Bankrupted the US & Israeli Military | Prof. Ted Postol | [https://www.youtube.com/watch?v=qSmvkuSjGOY](https://www.youtube.com/watch?v=qSmvkuSjGOY) | thread: postol | needs capture |
+| 2026-05-04 | Col. Jacques Baud: Project Freedom, Hormuz blockade, and Chinese sanctions | Col. Jacques Baud | [https://www.youtube.com/watch?v=_GNFo2d4c2w](https://www.youtube.com/watch?v=_GNFo2d4c2w) | thread: baud | mirrored |
+| 2026-05-11 | Hormuz, Iran, France, and the New Security Architecture | Col. Jacques Baud | [https://www.youtube.com/watch?v=5D-OD0iezZ8](https://www.youtube.com/watch?v=5D-OD0iezZ8) | thread: baud | mirrored |
