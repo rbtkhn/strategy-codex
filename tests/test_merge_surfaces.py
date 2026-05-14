@@ -80,6 +80,36 @@ entries:
 (empty)
 """
 
+SELF_OVERVIEW_FIXTURE = """# SELF
+
+## IX-A. KNOWLEDGE
+
+This file is the compact overview shell. The active knowledge archive lives in self-knowledge.md.
+
+## IX-B. CURIOSITY
+
+```yaml
+entries:
+```
+
+## IX-C. PERSONALITY
+
+```yaml
+entries:
+```
+"""
+
+SELF_KNOWLEDGE_FIXTURE = """# SELF-KNOWLEDGE
+
+## IX-A. KNOWLEDGE
+
+#### Facts (LEARN-nnn)
+
+```yaml
+entries:
+```
+"""
+
 
 def test_insert_ix_a_targets_facts_block_not_books() -> None:
     from grace_mar.merge.self_ix import insert_ix_a_entry
@@ -153,18 +183,61 @@ def test_rebuild_prompt_from_self_min_fixture() -> None:
     assert "stay six" in out
 
 
+def test_merge_candidate_writes_ix_a_to_self_knowledge_only() -> None:
+    import process_approved_candidates as pac
+
+    candidate = {
+        "id": "CANDIDATE-1000",
+        "block": """### CANDIDATE-1000
+```yaml
+status: pending
+mind_category: knowledge
+profile_target: IX-A. KNOWLEDGE
+prompt_section: YOUR KNOWLEDGE
+prompt_addition: none
+suggested_entry: "Knows: the test fact lives in self-knowledge."
+summary: "IX-A split test"
+source_exchange:
+  operator: "test"
+```""",
+        "mind_category": "knowledge",
+        "profile_target": "IX-A. KNOWLEDGE",
+        "suggested_entry": "Knows: the test fact lives in self-knowledge.",
+        "summary": "IX-A split test",
+        "prompt_section": "YOUR KNOWLEDGE",
+        "prompt_addition": "none",
+        "warrant": "",
+    }
+
+    self_out, knowledge_out, _evidence_out, _prompt_out, _act_id, _entry_id = pac.merge_candidate_in_memory(
+        candidate,
+        SELF_OVERVIEW_FIXTURE,
+        SELF_KNOWLEDGE_FIXTURE,
+        EVIDENCE_FIXTURE,
+        "",
+        "2026-05-07",
+        3,
+    )
+    assert "self-knowledge.md" in self_out or "compact overview" in self_out
+    assert "Knows: the test fact lives in self-knowledge." not in self_out
+    assert "Knows: the test fact lives in self-knowledge." in knowledge_out
+    assert "LEARN-0001" in knowledge_out
+
+
 @pytest.mark.skipif(not (REPO_ROOT / "bot" / "prompt.py").exists(), reason="prompt fixture missing")
 def test_rebuild_ix_on_real_prompt_smoke() -> None:
     from grace_mar.merge.prompt_sync import rebuild_observation_sections_from_self
 
     prompt = (REPO_ROOT / "bot" / "prompt.py").read_text(encoding="utf-8")
-    self_md = (REPO_ROOT / "users" / "grace-mar" / "self.md").read_text(encoding="utf-8")
+    self_md = (REPO_ROOT / "self.md").read_text(encoding="utf-8")
+    self_knowledge_path = REPO_ROOT / "self-knowledge.md"
+    self_knowledge_md = self_knowledge_path.read_text(encoding="utf-8") if self_knowledge_path.exists() else self_md
     m = prompt.find('SYSTEM_PROMPT = """')
     assert m != -1
     start = prompt.find('"""', m) + 3
     end = prompt.find('"""', start)
     body = prompt[start:end]
-    rebuilt = rebuild_observation_sections_from_self(body, self_md)
+    rebuilt = rebuild_observation_sections_from_self(body, self_knowledge_md)
     assert "## IMPORTANT CONSTRAINTS" in rebuilt
     assert "## RECORD STATE" in rebuilt or "## YOUR KNOWLEDGE" in rebuilt
     assert len(rebuilt) > 500

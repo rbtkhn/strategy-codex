@@ -30,7 +30,7 @@ def test_can_transition_seed_to_interact():
 
 
 def test_ensure_fork_state_roundtrip(tmp_path, monkeypatch):
-    # Use tmp repo layout: tmp_path/users/u/
+    # Use tmp repo layout: tmp_path/u/
     root = tmp_path
     uid = "test-fork"
     monkeypatch.chdir(root)

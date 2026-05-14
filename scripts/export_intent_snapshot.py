@@ -2,12 +2,12 @@
 """
 Export user intent rules as machine-readable JSON.
 
-Reads users/[id]/intent.md and writes a structured intent snapshot for
+Reads intent.md and writes a structured intent snapshot for
 agent consumption and intent-aware validation.
 
 Usage:
     python scripts/export_intent_snapshot.py --user grace-mar
-    python scripts/export_intent_snapshot.py -u grace-mar -o users/grace-mar/intent_snapshot.json
+    python scripts/export_intent_snapshot.py -u grace-mar -o intent_snapshot.json
 """
 
 import argparse

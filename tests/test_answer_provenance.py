@@ -37,7 +37,7 @@ def test_classify_record_backed():
     row = {
         "event": "applied",
         "candidate_id": "CANDIDATE-0001",
-        "record_refs": ["users/x/self.md"],
+        "record_refs": ["x/self.md"],
     }
     assert classify_pipeline_row_provenance(row) == "record_backed"
 
@@ -65,7 +65,7 @@ def test_build_replay_events_validates(tmp_path: Path, hre_validator):
                 "ts": "2026-03-30T12:00:00",
                 "event_id": "evt_test_001",
                 "candidate_id": "CANDIDATE-0099",
-                "record_refs": ["users/test-user/self.md"],
+                "record_refs": ["test-user/self.md"],
             }
         )
         + "\n",
@@ -83,7 +83,7 @@ def test_infer_answer_provenance_validates(tmp_path: Path, ap_validator):
     uid = tmp_path / "repo" / "users" / "u2"
     uid.mkdir(parents=True)
     lines = [
-        {"event": "applied", "ts": "2026-03-30T10:00:00", "record_refs": ["users/u2/self.md"]},
+        {"event": "applied", "ts": "2026-03-30T10:00:00", "record_refs": ["u2/self.md"]},
         {"event": "staged", "ts": "2026-03-30T11:00:00", "candidate_id": "CANDIDATE-1"},
     ]
     (uid / "pipeline-events.jsonl").write_text(

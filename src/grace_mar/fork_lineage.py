@@ -1,5 +1,5 @@
 """
-Append-only fork lineage ledger: users/<fork_id>/fork-lineage.jsonl
+Append-only fork lineage ledger: <fork_id>/fork-lineage.jsonl
 """
 
 from __future__ import annotations

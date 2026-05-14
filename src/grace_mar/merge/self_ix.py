@@ -1,14 +1,14 @@
-"""Insert IX-A / IX-B / IX-C YAML list items into self.md fenced blocks."""
+"""Insert IX-A / IX-B / IX-C YAML list items into the relevant fenced blocks."""
 
 from __future__ import annotations
 
 import re
 
-# IX-A: LEARN entries live under #### Facts (LEARN-nnn), not the earlier books_read block.
+# IX-A: LEARN entries live under #### Facts (LEARN-nnn), typically in self-knowledge.md.
 # Close the list at the *Facts* block only: the fence immediately before `## IX-B`, so
 # a later `` ```yaml ``/`` entries:`` block under IX-B is never conflated with IX-A.
 IX_A_FACTS_ENTRIES = re.compile(
-    r"(#### Facts \(LEARN-nnn\)\s*\n\n```yaml\n)(entries:\s*\n)([\s\S]*?)(?=```\s*\n+(?:---\s*\n+)*#+\s*IX-B\.\s*CURIOSITY)",
+    r"(#### Facts \(LEARN-nnn\)\s*\n\n```yaml\n)(entries:\s*\n)([\s\S]*?)(?=```\s*(?:\n+(?:---\s*\n+)*#+\s*IX-B\.\s*CURIOSITY|\s*$))",
     re.DOTALL,
 )
 # `##` / `###` profiles; end IX-B list at the fence before IX-C.

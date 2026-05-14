@@ -325,7 +325,7 @@ def _recovery_link_lines(user_name: str, *, compact: bool) -> list[str]:
     key = "show_recovery_links_compact" if compact else "show_recovery_links_minimal"
     if not get_bool(budget, key, True):
         return []
-    base = f"users/{user_name}"
+    base = f"{user_name}"
     lines: list[str] = [
         "",
         "## Recovery links (source paths)",

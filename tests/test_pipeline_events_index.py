@@ -11,7 +11,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 
 @pytest.fixture
 def tmp_user_profile(tmp_path, monkeypatch):
-    """Minimal users/<id>/ tree with gate + pipeline-events.jsonl."""
+    """Minimal  tree with gate + pipeline-events.jsonl."""
     uid = "perf-test-user"
     ud = tmp_path / "users" / uid
     ud.mkdir(parents=True)

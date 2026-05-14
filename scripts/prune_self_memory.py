@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-Prune users/<id>/self-memory.md when it exceeds a character budget (larger than
+Prune self-memory.md when it exceeds a character budget (larger than
 strategy / Xavier inbox buffers). Removed text is written to
-users/<id>/artifacts/memory-prune/ and optionally appended to self-archive.md
+artifacts/memory-prune/ and optionally appended to self-archive.md
 § IX (continuity housekeeping), not merged via the gate.
 
 Operator-run; does not replace process_approved_candidates for Record merges.

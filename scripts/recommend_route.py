@@ -337,7 +337,7 @@ def main(argv: list[str] | None = None) -> int:
             out_path = root / "artifacts" / "route-recommendations" / day / f"{ts}-{slug}.md"
 
         if is_forbidden_record_path(out_path, root):
-            print("Refused: output path is forbidden (users/, bot escapes, …).", file=sys.stderr)
+            print("Refused: output path is forbidden (, bot escapes, …).", file=sys.stderr)
             return 1
         out_path.parent.mkdir(parents=True, exist_ok=True)
         out_path.write_text(body, encoding="utf-8")
@@ -350,4 +350,3 @@ def main(argv: list[str] | None = None) -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

@@ -63,7 +63,7 @@ def preview_candidate_impact(
     surface = _classify_surface(cat, pt)
     prompt_eff = _prompt_effect(candidate)
 
-    base = f"users/{user_id}"
+    base = f"{user_id}"
     files: list[str] = []
     sections: list[str] = []
 

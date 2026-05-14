@@ -111,7 +111,7 @@ def _cmd_transition(args: argparse.Namespace) -> int:
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="Fork lifecycle (fork history)")
-    ap.add_argument("-u", "--user", default="grace-mar", help="Fork id under users/")
+    ap.add_argument("-u", "--user", default="grace-mar", help="Fork id under ")
 
     sub = ap.add_subparsers(dest="cmd", required=True)
 

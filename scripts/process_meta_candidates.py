@@ -3,11 +3,11 @@
 Parse and validate META_INFRA candidates in recursion-gate.md; optional sandbox apply + perf.
 
 Phase A (default): list META blocks, validate allowlist + diff presence, optionally write JSON reports
-under users/<id>/artifacts/meta-reports/.
+under artifacts/meta-reports/.
 
 Phase B (--sandbox): copy repo to a temp directory, git apply --check / apply, run
 run_perf_suite tier 1-2 with --check-baseline and validate-integrity; write reports and
-copy unified diff to users/<id>/artifacts/meta-patches/ for manual git apply on the real tree.
+copy unified diff to artifacts/meta-patches/ for manual git apply on the real tree.
 
 Does NOT modify recursion-gate.md. Does NOT commit. See docs/meta-class-proposals.md.
 
@@ -62,11 +62,11 @@ def _norm_rel(p: str) -> str:
 
 
 def is_allowlisted_path(rel: str) -> bool:
-    """True if rel is under allowed infra dirs (or meta-diff artifact under users/.../artifacts/meta-diffs/)."""
+    """True if rel is under allowed infra dirs (or meta-diff artifact under .../artifacts/meta-diffs/)."""
     r = _norm_rel(rel)
     if ".." in r or r.startswith("/"):
         return False
-    if r.startswith("users/") and "/artifacts/meta-diffs/" in r:
+    if r.startswith("") and "/artifacts/meta-diffs/" in r:
         return True
     return any(r.startswith(prefix) for prefix in ALLOWLIST_PREFIXES)
 
@@ -297,7 +297,7 @@ def _write_patch_artifact(user_id: str, cid: str, diff_text: str) -> Path:
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="META_INFRA gate candidate validation and optional sandbox checks.")
-    ap.add_argument("-u", "--user", default="grace-mar", help="Fork id under users/")
+    ap.add_argument("-u", "--user", default="grace-mar", help="Fork id under ")
     ap.add_argument("--write-report", action="store_true", help="Write meta-reports/*.json per candidate")
     ap.add_argument("--sandbox", action="store_true", help="Run git apply + perf + integrity in temp copy (slow)")
     ap.add_argument("--only", default="", help="Process only this CANDIDATE id (e.g. CANDIDATE-0090)")

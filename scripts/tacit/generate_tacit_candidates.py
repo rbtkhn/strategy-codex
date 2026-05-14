@@ -30,7 +30,7 @@ def _surface(ctype: str, lane: str) -> str:
     m = {
         "moonshot_insight_candidate": "docs/skill-work/work-moonshots/missions/ (pick or create slug)",
         "skill_candidate": "skills-portable/ or .cursor/skills/ (operator choice)",
-        "library_candidate": "users/<id>/SELF-LIBRARY/ (gate if promoted)",
+        "library_candidate": "SELF-LIBRARY/ (gate if promoted)",
         "work_doctrine_candidate": f"docs/skill-work/{lane}/ (WORK)",
     }
     return m[ctype]

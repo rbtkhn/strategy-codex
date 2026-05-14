@@ -78,7 +78,7 @@ def test_peer_review_overclaim_flagged(tmp_path: Path) -> None:
             "stated_coverage": {"files_claimed": 100, "source": "proposal_regex"},
             "coverage_ratio": 0.01,
             "status": "overclaim_suspected",
-            "warnings": ["stated file count (100) exceeds opened count (1) — overclaim"],
+            "warnings": ["stated file count (100) exceeds opened count (1) â€” overclaim"],
         },
     }
     (wh / "receipts" / "draft_x.json").write_text(json.dumps(rec, indent=2), encoding="utf-8")
@@ -120,7 +120,7 @@ def test_peer_review_draft_mentions_self_flagged(tmp_path: Path) -> None:
     (wh / "receipts" / "draft_y.json").write_text(
         json.dumps({**rec, "run_id": "draft_y"}), encoding="utf-8"
     )
-    (wh / "proposals" / "draft_y.md").write_text("see users/grace-mar/self.md", encoding="utf-8")
+    (wh / "proposals" / "draft_y.md").write_text("see self.md", encoding="utf-8")
     env = {**os.environ, "GRACE_MAR_RUNTIME_WORKER_HOME": str(wh)}
     r = subprocess.run(
         [

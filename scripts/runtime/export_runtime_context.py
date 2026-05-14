@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Create a safe export bundle JSON for external runtime complements (membrane v1).
 
-Stdlib only. Does not read users/, recursion-gate, or Record trees unless
+Stdlib only. Does not read , recursion-gate, or Record trees unless
 explicitly listed via --include-doc.
 
 Output: runtime/runtime-complements/exports/

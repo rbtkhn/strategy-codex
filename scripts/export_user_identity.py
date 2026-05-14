@@ -5,9 +5,9 @@ Export the grace-mar Record (SELF) to OpenClaw identity markdown.
 Output is often named USER.md or SOUL.md in OpenClaw docs (external naming);
 conceptually this is the companion **self** / identity export.
 
-Reads users/[id]/self.md and produces a condensed, agent-friendly markdown
+Reads self.md and produces a condensed, agent-friendly markdown
 file suitable for OpenClaw's identity layer. Use this so the agent knows
-who it serves — identity, preferences, interests, values, personality,
+who it serves â€” identity, preferences, interests, values, personality,
 and post-seed growth (IX-A, IX-B, IX-C).
 
 This export is intentionally identity-facing. Capability truth belongs to
@@ -16,7 +16,7 @@ USER.md as if it were personality.
 
 Usage:
     python scripts/export_user_identity.py --user grace-mar
-    python scripts/export_user_identity.py -u grace-mar -o users/grace-mar/openclaw-user.md
+    python scripts/export_user_identity.py -u grace-mar -o openclaw-user.md
     python scripts/export_user_identity.py -u grace-mar -o ../openclaw/USER.md
 """
 
@@ -58,14 +58,14 @@ def export_user_identity(user_id: str = "grace-mar") -> str:
     self_path = profile_dir / "self.md"
     self_raw = _read(self_path)
     if not self_raw:
-        return f"# USER — {user_id}\n\nNo self.md found at {self_path}.\n"
+        return f"# USER â€” {user_id}\n\nNo self.md found at {self_path}.\n"
 
     out_lines = [
-        "# USER — Grace-Mar Record Export",
+        "# USER â€” Grace-Mar Record Export",
         "",
         "> Identity source for OpenClaw. Exported from grace-mar Record (self.md).",
         "> Capability surfaces (THINK / WRITE) are intentionally omitted here; keep identity and capability separate.",
-        "> Update by re-running: `python scripts/export_user_identity.py -u grace-mar -o users/grace-mar/openclaw-user.md`",
+        "> Update by re-running: `python scripts/export_user_identity.py -u grace-mar -o openclaw-user.md`",
         "",
         "---",
         "",

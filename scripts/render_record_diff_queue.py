@@ -8,10 +8,10 @@ Each diff card shows: Scope, Prior State, Proposed State, Evidence,
 Why It Matters, Confidence Delta, Conflict Note, Recommended Action.
 
 Usage:
-  python3 scripts/render_record_diff_queue.py users/demo/review-queue/diffs/
+  python3 scripts/render_record_diff_queue.py demo/review-queue/diffs/
   python3 scripts/render_record_diff_queue.py diff-a.json diff-b.json
-  python3 scripts/render_record_diff_queue.py --output queue.md users/demo/review-queue/diffs/
-  python3 scripts/render_record_diff_queue.py --json users/demo/review-queue/diffs/
+  python3 scripts/render_record_diff_queue.py --output queue.md demo/review-queue/diffs/
+  python3 scripts/render_record_diff_queue.py --json demo/review-queue/diffs/
   python3 scripts/render_record_diff_queue.py --from-gate -u grace-mar
 """
 

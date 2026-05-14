@@ -108,7 +108,7 @@ def collect_bundle(
         prefix = raw[: len(raw) - len(tail)]
         start_line = prefix.count("\n") + 1 if tail else 1
         end_line = start_line + len(lines) - 1 if lines else start_line
-        rel = f"users/{user_id}/session-transcript.md"
+        rel = f"{user_id}/session-transcript.md"
         bundle.slices.append(
             TextSlice(rel, start_line, end_line, "\n".join(lines), note="tail for lookback")
         )
@@ -120,15 +120,15 @@ def collect_bundle(
             continue
         lines = _read_lines(p)
         chunk, start, end = _tail_lines(lines, max_jsonl_lines)
-        rel = f"users/{user_id}/{name}"
+        rel = f"{user_id}/{name}"
         bundle.slices.append(TextSlice(rel, start, end, "\n".join(chunk), note=f"last {len(chunk)} lines"))
 
     # EVIDENCE (self-archive.md) — last ~120 lines; legacy self-evidence.md if archive missing
     ev_path = profile / "self-archive.md"
-    ev_rel = f"users/{user_id}/self-archive.md"
+    ev_rel = f"{user_id}/self-archive.md"
     if not ev_path.exists():
         ev_path = profile / "self-evidence.md"
-        ev_rel = f"users/{user_id}/self-evidence.md"
+        ev_rel = f"{user_id}/self-evidence.md"
     if ev_path.exists():
         lines = _read_lines(ev_path)
         chunk, start, end = _tail_lines(lines, 120)
@@ -153,7 +153,7 @@ def collect_bundle(
                 proc = proc[: proc_cap] + "\n… [truncated processed section]"
             bundle.slices.append(
                 TextSlice(
-                    f"users/{user_id}/recursion-gate.md",
+                    f"{user_id}/recursion-gate.md",
                     1,
                     1,
                     "## Processed (excerpt)\n" + proc,
@@ -173,7 +173,7 @@ def collect_bundle(
             lines = text.splitlines()
             bundle.slices.append(
                 TextSlice(
-                    f"users/{user_id}/{jname}",
+                    f"{user_id}/{jname}",
                     1,
                     len(lines),
                     text,
@@ -192,7 +192,7 @@ def collect_bundle(
         lines = excerpt.splitlines()
         bundle.slices.append(
             TextSlice(
-                f"users/{user_id}/self-library.md",
+                f"{user_id}/self-library.md",
                 1,
                 len(lines),
                 "\n".join(lines),
@@ -206,7 +206,7 @@ def collect_bundle(
         lines = _read_lines(jpath)
         chunk, start, end = _tail_lines(lines, 80)
         bundle.slices.append(
-            TextSlice(f"users/{user_id}/journal.md", start, end, "\n".join(chunk), note="journal tail")
+            TextSlice(f"{user_id}/journal.md", start, end, "\n".join(chunk), note="journal tail")
         )
 
     # Negative learning
@@ -218,7 +218,7 @@ def collect_bundle(
         ls = raw.splitlines()
         bundle.slices.append(
             TextSlice(
-                f"users/{user_id}/reflection-proposals/negative-examples.md",
+                f"{user_id}/reflection-proposals/negative-examples.md",
                 1,
                 len(ls),
                 raw,

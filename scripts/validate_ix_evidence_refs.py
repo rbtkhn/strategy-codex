@@ -37,7 +37,7 @@ def _collect_ids(yaml_chunk: str, key: str) -> set[str]:
 
 def main() -> int:
     p = argparse.ArgumentParser(description=__doc__)
-    p.add_argument("-u", "--user", default="grace-mar", help="users/<id>/")
+    p.add_argument("-u", "--user", default="grace-mar", help="")
     args = p.parse_args()
     base = REPO / "users" / args.user
     self_path = base / "self.md"

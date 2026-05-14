@@ -53,7 +53,7 @@ def test_verify_receipt_ttl_expired(tmp_path: Path) -> None:
                 "user_id": "u",
                 "runtime": "openclaw",
                 "created_at": old,
-                "required_paths": [{"path": "users/u/a.md", "sha256": h}],
+                "required_paths": [{"path": "u/a.md", "sha256": h}],
                 "reader": {"tool": "t", "version": "1"},
             }
         ),

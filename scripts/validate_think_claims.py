@@ -6,7 +6,7 @@ optional prose anchor check for THINK- ids.
 
 Usage:
   python3 scripts/validate_think_claims.py
-  python3 scripts/validate_think_claims.py --skill-think-md users/grace-mar/skill-think.md
+  python3 scripts/validate_think_claims.py --skill-think-md skill-think.md
 """
 
 from __future__ import annotations

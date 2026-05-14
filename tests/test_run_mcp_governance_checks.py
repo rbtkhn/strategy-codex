@@ -36,7 +36,7 @@ def test_subprocess_uses_shell_false_only() -> None:
 def test_operator_record_path_not_embedded_in_script() -> None:
     """Avoid hardcoding instance paths; orchestrator targets artifacts only."""
     src = (REPO_ROOT / "scripts" / "run_mcp_governance_checks.py").read_text(encoding="utf-8")
-    assert "users/grace-mar" not in src
+    assert "" not in src
 
 
 def test_no_http_urls_in_executable_logic() -> None:

@@ -2,7 +2,7 @@
 """
 Run governed MCP tooling against committed examples; write aggregated Markdown report.
 
-No live MCP servers. Uses subprocess with shell=False only. Does not write canonical Record paths under `users/`.
+No live MCP servers. Uses subprocess with shell=False only. Does not write canonical Record paths under ``.
 See docs/mcp/mcp-governance-runbook.md.
 """
 
@@ -337,7 +337,7 @@ def main() -> int:
             "- **Network:** none — subprocesses run repo tooling on local files.",
             "- **Shell:** `subprocess.run(..., shell=False)` only; no shell DSL.",
             "- **Canonical Record mutation:** none — orchestrator does not write companion identity files or gate surfaces.",
-            "- **Companion users/ tree write:** none (orchestrator emits only `artifacts/` outputs).",
+            "- **Companion  tree write:** none (orchestrator emits only `artifacts/` outputs).",
             "",
             "## Summary",
             "",

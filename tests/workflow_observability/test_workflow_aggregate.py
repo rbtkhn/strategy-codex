@@ -39,16 +39,16 @@ def test_aggregate_events_counts_by_workflow_type() -> None:
                 "targetSurface": "SELF",
                 "supportingEvidence": [],
             },
-            source_path="users/demo/review-queue/proposals/p1.json",
+            source_path="demo/review-queue/proposals/p1.json",
             batch_id="t1",
         ),
         event_from_observability_report_aggregate(
             {
                 "generatedAt": "2026-01-02T00:00:00Z",
-                "reviewRoot": "users/demo/review-queue",
+                "reviewRoot": "demo/review-queue",
                 "staleReviewCount": 0,
             },
-            source_path="users/demo/observability/observability-report.json",
+            source_path="demo/observability/observability-report.json",
             batch_id="t1",
         ),
     ]

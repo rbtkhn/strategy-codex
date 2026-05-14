@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """
-Scaffold a WRITE-* or CREATE-* evidence block for users/<id>/self-archive.md (canonical EVIDENCE).
+Scaffold a WRITE-* or CREATE-* evidence block for self-archive.md (canonical EVIDENCE).
 
 Given an artifact path (and optional title, context, evidence_tier), generates the correct
 YAML block. Infers next ID from existing id: WRITE-N / id: CREATE-N in that file.
 Follows docs/pipeline-map.md artifact naming and docs/evidence-template.md structure.
 
 Usage:
-  python scripts/scaffold_evidence_entry.py --artifact users/grace-mar/artifacts/write-0007-my-story.png --kind write --title "My story"
+  python scripts/scaffold_evidence_entry.py --artifact artifacts/write-0007-my-story.png --kind write --title "My story"
   python scripts/scaffold_evidence_entry.py --artifact artifacts/create-0011-something.jpg --kind create --title "Something" --evidence-tier 4
   python scripts/scaffold_evidence_entry.py -a artifacts/write-0008.png -k write -t "Journal" --output /tmp/new_entry.yaml
 
@@ -107,7 +107,7 @@ def main() -> None:
     ap.add_argument(
         "-a", "--artifact",
         required=True,
-        help="Path to artifact file (e.g. artifacts/write-0007-title.png or users/grace-mar/artifacts/create-0011.jpg)",
+        help="Path to artifact file (e.g. artifacts/write-0007-title.png or artifacts/create-0011.jpg)",
     )
     ap.add_argument(
         "-k", "--kind",

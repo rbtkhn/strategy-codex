@@ -24,11 +24,11 @@ from conflict_check import (  # noqa: E402
 
 def main() -> None:
     print("=" * 60)
-    print("Grace-Mar — conflict check demo (personality opposites)")
+    print("Grace-Mar â€” conflict check demo (personality opposites)")
     print("=" * 60)
     summary = _load_self_personality_summary()
-    preview = (summary[:200] + "…") if len(summary) > 200 else summary
-    print("\n1) Personality text loaded from users/grace-mar/self.md (traits + IX-C):")
+    preview = (summary[:200] + "â€¦") if len(summary) > 200 else summary
+    print("\n1) Personality text loaded from self.md (traits + IX-C):")
     print(f"   ({len(summary)} chars) {preview!r}\n")
 
     # Candidate that should clash if profile has "independent"
@@ -36,14 +36,14 @@ def main() -> None:
 mind_category: personality
 suggested_ix_section: IX-C
 summary: Observed dependent behavior in group work; prefers heavy scaffolding
-suggested_entry: "Often relies on partner prompts before starting — dependent in pairs"
+suggested_entry: "Often relies on partner prompts before starting â€” dependent in pairs"
 """.strip()
 
     print("2) Staged candidate YAML (personality, implies 'dependent'):")
     print("   " + "\n   ".join(clash_yaml.split("\n")) + "\n")
 
     conflicts = check_conflicts(clash_yaml)
-    print(f"3) check_conflicts() → {len(conflicts)} hit(s)")
+    print(f"3) check_conflicts() â†’ {len(conflicts)} hit(s)")
     for c in conflicts:
         print(f"   - rule={c['rule']} pair={c['pair']}")
         print(f"     {c['existing_hint']} vs {c['new_hint']}")
@@ -60,7 +60,7 @@ suggested_entry: "Independent self-starter on long projects"
     print("\n5) Control candidate (reinforces 'independent'):")
     print("   " + "\n   ".join(safe_yaml.split("\n")))
     safe = check_conflicts(safe_yaml)
-    print(f"   → {len(safe)} conflict(s) (expected 0)\n")
+    print(f"   â†’ {len(safe)} conflict(s) (expected 0)\n")
 
     print("=" * 60)
     print("Done. Staging path: bot/core.py uses this before recursion-gate append.")

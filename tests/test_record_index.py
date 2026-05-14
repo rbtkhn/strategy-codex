@@ -73,20 +73,20 @@ three
 
 
 @pytest.mark.skipif(
-    not (REPO / "users/grace-mar/self-archive.md").is_file(),
+    not (REPO / "self-archive.md").is_file(),
     reason="grace-mar EVIDENCE file not present",
 )
 def test_grace_mar_evidence_index_covers_main_sections():
-    raw = (REPO / "users/grace-mar/self-archive.md").read_text(encoding="utf-8")
+    raw = (REPO / "self-archive.md").read_text(encoding="utf-8")
     idx = build_evidence_index(raw)
     for r in ("I", "II", "V", "VIII"):
         assert r in idx.section_spans, f"missing section {r}"
-    # entry_spans may be empty after a reseed — presence of sections is the structural gate
+    # entry_spans may be empty after a reseed â€” presence of sections is the structural gate
     assert isinstance(idx.entry_spans, dict)
 
 
 def test_grace_mar_recency_scan_regions():
-    raw = (REPO / "users/grace-mar/self-archive.md").read_text(encoding="utf-8")
+    raw = (REPO / "self-archive.md").read_text(encoding="utf-8")
     idx = build_evidence_index(raw)
     frags = [slice_evidence_section(raw, idx, r) for r in ("II", "III", "V")]
     joined = "\n\n".join(f for f in frags if f.strip())

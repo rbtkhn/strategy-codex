@@ -13,8 +13,8 @@ from process_meta_candidates import (
 def test_allowlist_accepts_scripts_config_bot():
     assert is_allowlisted_path("scripts/foo.py")
     assert is_allowlisted_path("config/fork-config.json")
-    assert is_allowlisted_path("users/grace-mar/artifacts/meta-diffs/x.patch")
-    assert not is_allowlisted_path("users/grace-mar/self.md")
+    assert is_allowlisted_path("artifacts/meta-diffs/x.patch")
+    assert not is_allowlisted_path("self.md")
     assert not is_allowlisted_path("../escape")
 
 
@@ -85,9 +85,9 @@ def test_extract_meta_with_inline_diff():
 def test_validate_rejects_bad_target():
     c = {
         "id": "CANDIDATE-0091",
-        "meta_targets": ["users/grace-mar/self.md"],
-        "diff_text": """--- a/users/grace-mar/self.md
-+++ b/users/grace-mar/self.md
+        "meta_targets": ["self.md"],
+        "diff_text": """--- a/self.md
++++ b/self.md
 @@ -1 +1 @@
 -x
 +y

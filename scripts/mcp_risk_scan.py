@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """
-MCP capability risk / permission scanner — reads registry + policy YAML only.
+MCP capability risk / permission scanner â€” reads registry + policy YAML only.
 
 Does not execute MCP servers, use credentials, or invoke network tools.
 
 Exit codes:
-  0 — no hard blockers on admission-eligible capabilities (non-prohibition stance).
-  1 — validation failure, or any hard blocker on a capability that is not
+  0 â€” no hard blockers on admission-eligible capabilities (non-prohibition stance).
+  1 â€” validation failure, or any hard blocker on a capability that is not
       PROHIBITED_BY_POLICY only.
 
 See docs/mcp/mcp-risk-permission-scanner.md.
@@ -23,6 +23,11 @@ from pathlib import Path
 from typing import Any
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
+_SCRIPTS = Path(__file__).resolve().parent
+if str(_SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(_SCRIPTS))
+
+from yaml_compat import safe_load_path
 
 DEFAULT_CAPABILITIES = REPO_ROOT / "config" / "mcp-capabilities.yaml"
 DEFAULT_CAPABILITY_SCHEMA = REPO_ROOT / "schemas" / "mcp-capability.v1.json"
@@ -60,9 +65,9 @@ _CREDENTIAL_EXFIL = (
     "steal_token",
 )
 _CANONICAL_WRITE_FRAGMENTS = (
-    "users/grace-mar/self.md",
-    "users/grace-mar/self-archive",
-    "users/grace-mar/recursion-gate",
+    "self.md",
+    "self-archive",
+    "recursion-gate",
 )
 _MEMORY_WRITE_FRAGMENTS = (
     "upsert",
@@ -106,11 +111,7 @@ def _git_short_hash(cwd: Path) -> str:
 
 
 def load_yaml(path: Path) -> Any:
-    try:
-        import yaml
-    except ImportError as e:
-        raise RuntimeError("PyYAML required (pip install -r requirements-dev.txt)") from e
-    return yaml.safe_load(path.read_text(encoding="utf-8"))
+    return safe_load_path(path, feature="mcp_risk_scan.py")
 
 
 def validate_json_schema(instance: Any, schema_path: Path) -> None:
@@ -234,7 +235,7 @@ def evaluate_capability(cap: dict[str, Any], policy: dict[str, Any]) -> dict[str
     elif loc == "hybrid":
         bump("hybrid")
 
-    # Shell / SCM / memory patterns — score only from permissive surfaces (allowed + writes).
+    # Shell / SCM / memory patterns â€” score only from permissive surfaces (allowed + writes).
     shell_surface = allowed_writes_hay
     if not prohibited_stance:
         if cap.get("category") == "shell":
@@ -299,7 +300,7 @@ def evaluate_capability(cap: dict[str, Any], policy: dict[str, Any]) -> dict[str
 
     if canonical_record_in_writes(cap):
         wh = _hay(cap.get("writes") or [])
-        if "users/grace-mar/self.md" in wh:
+        if "self.md" in wh:
             hard_blockers.append("write_users_grace_mar_self_md")
         if "self-archive" in wh:
             hard_blockers.append("write_users_grace_mar_self_archive_md")
@@ -401,9 +402,9 @@ def build_markdown(
         [
             "## Final status",
             "",
-            "**PASS** — no hard blockers on admission-eligible capabilities."
+            "**PASS** â€” no hard blockers on admission-eligible capabilities."
             if passes
-            else "**FAIL** — hard blockers present; fix registry or classify as prohibited-only before admission.",
+            else "**FAIL** â€” hard blockers present; fix registry or classify as prohibited-only before admission.",
             "",
             "## Capability findings",
             "",

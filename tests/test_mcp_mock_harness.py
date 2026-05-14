@@ -1,4 +1,4 @@
-"""Tests for scripts/mcp_mock_harness.py — fixtures, enforcement, receipts."""
+"""Tests for scripts/mcp_mock_harness.py â€” fixtures, enforcement, receipts."""
 
 from __future__ import annotations
 
@@ -72,7 +72,7 @@ def test_github_readonly_mock_run_packet_and_receipt(monkeypatch: pytest.MonkeyP
     code, outp, rec_dir = _run_harness(monkeypatch, tmp_path, doc)
     assert code == 0
     body = outp.read_text(encoding="utf-8")
-    assert "MOCK MCP RUN · WORK ARTIFACT · NO LIVE SERVER · NOT APPROVED INTEGRATION" in body
+    assert "MOCK MCP RUN Â· WORK ARTIFACT Â· NO LIVE SERVER Â· NOT APPROVED INTEGRATION" in body
     assert "NO LIVE SERVER" in body and "NOT APPROVED INTEGRATION" in body
     assert "receipt_id:" in body
     assert "github_readonly" in body
@@ -144,7 +144,7 @@ def test_dotdot_path_fails(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> N
 
 def test_users_grace_mar_path_fails(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     doc = _base_github_good()
-    doc["mock_request"]["resources_read"] = ["users/grace-mar/self.md"]
+    doc["mock_request"]["resources_read"] = ["self.md"]
     code, _, _ = _run_harness(monkeypatch, tmp_path, doc)
     assert code == 1
 

@@ -70,7 +70,7 @@ def test_render_receipt_includes_yaml_and_sections():
 
 
 def test_forbidden_under_users_returns_true():
-    """Staging derived receipts under ``users/*`` is forbidden."""
+    """Staging derived receipts under ``*`` is forbidden."""
     mod, repo = _load_module()
     under_users = repo / "users" / "grace-mar" / "hypothetical-route-receipt.md"
     assert mod.is_forbidden_record_path(under_users, repo) is True
@@ -84,4 +84,3 @@ def test_work_strategy_lane_hint_boosts_scores():
     a = mod.score_shapes(blob, cfg, None)["research_to_artifact"]
     b = mod.score_shapes(blob, cfg, "work-strategy")["research_to_artifact"]
     assert b >= a
-

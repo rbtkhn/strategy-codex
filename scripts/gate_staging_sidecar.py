@@ -2,7 +2,7 @@
 """
 Optional JSON sidecar per staged candidate for analytics (does not replace recursion-gate.md).
 
-Writes users/<user_id>/gate-staging/<CANDIDATE-id>.json — gitignored by default.
+Writes <user_id>/gate-staging/<CANDIDATE-id>.json — gitignored by default.
 """
 
 from __future__ import annotations

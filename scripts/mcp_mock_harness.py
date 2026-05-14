@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-MCP mock execution harness — fixture JSON → Markdown packet + MCP receipt (no live MCP).
+MCP mock execution harness â€” fixture JSON â†’ Markdown packet + MCP receipt (no live MCP).
 
 Does not execute MCP servers, use credentials, invoke network/shell, or enable integrations.
 See docs/mcp/mcp-mock-execution-harness.md.
@@ -60,7 +60,7 @@ _SHELL_NEEDLES = (
 )
 _COMMAND_NEEDLES = ("execute_command", "run_command")
 
-BANNER = "MOCK MCP RUN · WORK ARTIFACT · NO LIVE SERVER · NOT APPROVED INTEGRATION"
+BANNER = "MOCK MCP RUN Â· WORK ARTIFACT Â· NO LIVE SERVER Â· NOT APPROVED INTEGRATION"
 
 
 def _lte_rank(value: str, cap_max: str, ranks: dict[str, int]) -> bool:
@@ -90,8 +90,8 @@ def validate_resource_token(s: str, *, ctx: str) -> None:
     tl = t.lower()
     if "http://" in tl or "https://" in tl:
         raise ValueError(f"{ctx}: http/https URLs not allowed ({t!r})")
-    if "users/grace-mar" in tl:
-        raise ValueError(f"{ctx}: users/grace-mar paths not allowed ({t!r})")
+    if "" in tl:
+        raise ValueError(f"{ctx}:  paths not allowed ({t!r})")
     if tl.startswith("mock:"):
         norm = t.replace("\\", "/")
         parts = [p for p in norm.split("/") if p]
@@ -196,7 +196,7 @@ def resolve_mock_run_destination(repo_root: Path, output: Path | None) -> Path:
         raise ValueError(f"output must be under {bucket} (got {resolved})") from e
     rp = rel_to_repo.parts
     if len(rp) >= 2 and rp[0].lower() == "users" and rp[1].lower() == "grace-mar":
-        raise ValueError("refusing output path under users/grace-mar/")
+        raise ValueError("refusing output path under ")
     return resolved
 
 
@@ -233,7 +233,7 @@ def render_markdown(
         "",
         f"> {BANNER}",
         "",
-        f"MCP receipt JSON (repo-relative): `artifacts/mcp-receipts/{receipt_filename}` — packet path: `{packet_rel}`",
+        f"MCP receipt JSON (repo-relative): `artifacts/mcp-receipts/{receipt_filename}` â€” packet path: `{packet_rel}`",
         "",
         "## Run",
         "",
@@ -321,7 +321,7 @@ def render_markdown(
 
 
 def main() -> int:
-    ap = argparse.ArgumentParser(description="Mock MCP execution harness — fixture JSON to packet + receipt.")
+    ap = argparse.ArgumentParser(description="Mock MCP execution harness â€” fixture JSON to packet + receipt.")
     ap.add_argument("--input", type=Path, required=True)
     ap.add_argument("--output", type=Path, default=None)
     ap.add_argument("--repo-root", type=Path, default=REPO_ROOT)
@@ -422,7 +422,7 @@ def main() -> int:
 
     decl = doc["run"]["declared_intent"].strip()
     if len(decl) > 400:
-        decl = decl[:399] + "…"
+        decl = decl[:399] + "â€¦"
 
     net_a = adapter_cap["network_access"]
     cred_a = adapter_cap["credential_requirements"]

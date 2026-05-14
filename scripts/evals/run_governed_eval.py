@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Governed eval harness — receipt-driven advisory scores (runtime-only).
+Governed eval harness â€” receipt-driven advisory scores (runtime-only).
 
 Reads execution receipts from disk (default: runtime/runtime-worker/receipts/).
 Does not merge, stage, or alter RECURSION-GATE / Record surfaces.
@@ -19,9 +19,9 @@ RESULT_SCHEMA_PATH = REPO_ROOT / "schema-registry" / "governed-eval-result.v1.js
 EXECUTION_RECEIPT_SCHEMA_PATH = REPO_ROOT / "schema-registry" / "execution-receipt.v1.json"
 
 _FORBIDDEN_SUBSTRINGS = (
-    "users/grace-mar/self.md",
-    "users/grace-mar/recursion-gate.md",
-    "users/grace-mar/self-archive.md",
+    "self.md",
+    "recursion-gate.md",
+    "self-archive.md",
     "bot/prompt.py",
 )
 

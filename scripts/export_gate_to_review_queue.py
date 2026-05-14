@@ -2,7 +2,7 @@
 """
 Bridge: copy a RECURSION-GATE candidate into the material change-review queue.
 
-Reads users/<id>/recursion-gate.md via gate_block_parser, writes:
+Reads recursion-gate.md via gate_block_parser, writes:
   - review-queue/proposals/proposal-gate-<id>.json
   - review-queue/derived/gate-escalation-<id>.json  (proposedStateRef target)
   - updates change_review_queue.json and change_event_log.json
@@ -114,7 +114,7 @@ def main() -> int:
     }
     derived_path.write_text(json.dumps(derived_doc, indent=2) + "\n", encoding="utf-8")
 
-    prior_ref = f"users/{user}/recursion-gate.md#{cid}"
+    prior_ref = f"{user}/recursion-gate.md#{cid}"
     proposal: Dict[str, Any] = {
         "schemaVersion": "1.0.0",
         "proposalId": proposal_id,

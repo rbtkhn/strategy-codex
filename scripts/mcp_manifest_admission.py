@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-MCP server manifest admission — classify declared manifests vs Grace-Mar capability registry.
+MCP server manifest admission â€” classify declared manifests vs Grace-Mar capability registry.
 
 Does not execute MCP servers, use credentials, or enable integrations. See
 docs/mcp/mcp-manifest-admission.md.
@@ -39,6 +39,7 @@ from mcp_receipt_lib import (  # noqa: E402
     validate_mcp_receipt,
 )
 from mcp_risk_scan import evaluate_capability  # noqa: E402
+from yaml_compat import safe_dump, safe_load_text  # noqa: E402
 
 DEFAULT_POLICY = REPO_ROOT / "config" / "mcp-risk-policy.yaml"
 MANIFEST_SCHEMA_PATH = REPO_ROOT / "schemas" / "mcp-server-manifest.v1.json"
@@ -81,11 +82,7 @@ def _posix_under_repo(repo_root: Path, path: Path) -> str:
 def load_manifest(path: Path) -> dict[str, Any]:
     text = path.read_text(encoding="utf-8")
     if path.suffix.lower() in (".yaml", ".yml"):
-        try:
-            import yaml
-        except ImportError as e:
-            raise RuntimeError("PyYAML required") from e
-        data = yaml.safe_load(text)
+        data = safe_load_text(text, feature="mcp_manifest_admission.py")
     else:
         data = json.loads(text)
     if not isinstance(data, dict):
@@ -164,7 +161,7 @@ def admission_local_blockers(manifest: dict[str, Any]) -> list[str]:
     if any(n in ah for n in ("credential_exfiltration", "steal_token", "exfiltrate")):
         reasons.append("credential_exfiltration_in_allowed_actions")
 
-    if "users/grace-mar" in blob:
+    if "" in blob:
         reasons.append("users_grace_mar_path_in_manifest_permissions")
 
     if any(x in wh + ah for x in _DB_WRITE_NEEDLES):
@@ -185,7 +182,7 @@ def admission_local_blockers(manifest: dict[str, Any]) -> list[str]:
 def infer_matched_capability_id(manifest: dict[str, Any]) -> tuple[str, str]:
     """
     Return (registry_capability_id, rationale_snippet).
-    Uses conservative keyword routing — unmatched → NEEDS_MANUAL.
+    Uses conservative keyword routing â€” unmatched â†’ NEEDS_MANUAL.
     """
     srv = manifest["server"]
     perm = manifest["permissions"]
@@ -199,10 +196,10 @@ def infer_matched_capability_id(manifest: dict[str, Any]) -> tuple[str, str]:
     blob = desc + " " + ah_h + " " + rh_h + " " + wh_h
 
     if any(n in ah_h for n in _SHELL_NEEDLES + _COMMAND_NEEDLES):
-        return "shell_execution_prohibited", "shell/command verbs in allowed_actions → prohibition template"
+        return "shell_execution_prohibited", "shell/command verbs in allowed_actions â†’ prohibition template"
 
     if any(x in ah_h + wh_h for x in _MEMORY_NEEDLES):
-        return "memory_external_prohibited_by_default", "memory/upsert-style verbs → prohibited-memory template"
+        return "memory_external_prohibited_by_default", "memory/upsert-style verbs â†’ prohibited-memory template"
 
     scmish = any(k in blob for k in ("github", " git", "repo", "pull request", " scm"))
     if scmish or net in ("read", "full"):
@@ -303,7 +300,7 @@ def resolve_admission_destination(repo_root: Path, output: Path | None) -> Path:
         raise ValueError(f"output must be under {bucket} (got {resolved})") from e
     rp = rel_to_repo.parts
     if len(rp) >= 2 and rp[0].lower() == "users" and rp[1].lower() == "grace-mar":
-        raise ValueError("refusing output path under users/grace-mar/")
+        raise ValueError("refusing output path under ")
     return resolved
 
 
@@ -322,11 +319,6 @@ def render_markdown(
     packet_rel: str,
     capability_id: str,
 ) -> str:
-    try:
-        import yaml
-    except ImportError as e:
-        raise RuntimeError("PyYAML required") from e
-
     ts = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     fm: dict[str, Any] = {
         "adapter": "mcp_manifest_admission.py",
@@ -337,14 +329,19 @@ def render_markdown(
         "admission_status": admission_status,
         "generated_at_utc": ts,
     }
-    header = "---\n" + yaml.safe_dump(fm, sort_keys=False, allow_unicode=True) + "---\n"
+    header = "---\n" + safe_dump(
+        fm,
+        feature="mcp_manifest_admission.py",
+        sort_keys=False,
+        allow_unicode=True,
+    ) + "---\n"
 
     lines = [
         header,
         "",
-        "> **MCP ADMISSION REVIEW · WORK ARTIFACT · NOT ENABLED · NOT APPROVED INTEGRATION**",
+        "> **MCP ADMISSION REVIEW Â· WORK ARTIFACT Â· NOT ENABLED Â· NOT APPROVED INTEGRATION**",
         "",
-        f"MCP receipt JSON (repo-relative): `artifacts/mcp-receipts/{receipt_filename}` — packet path: `{packet_rel}`",
+        f"MCP receipt JSON (repo-relative): `artifacts/mcp-receipts/{receipt_filename}` â€” packet path: `{packet_rel}`",
         "",
         "## Server",
         "",
@@ -417,7 +414,7 @@ def render_markdown(
 
 
 def main() -> int:
-    ap = argparse.ArgumentParser(description="MCP manifest admission — classify manifests without executing MCP.")
+    ap = argparse.ArgumentParser(description="MCP manifest admission â€” classify manifests without executing MCP.")
     ap.add_argument("--input", type=Path, required=True)
     ap.add_argument("--output", type=Path, default=None)
     ap.add_argument("--repo-root", type=Path, default=REPO_ROOT)
@@ -466,7 +463,7 @@ def main() -> int:
         syn = overlay_manifest_on_capability(matched_cap, manifest)
         risk_finding = evaluate_capability(syn, policy_doc)
 
-    binding_txt = "_No matched capability — binding unresolved._"
+    binding_txt = "_No matched capability â€” binding unresolved._"
     if matched_cap:
         try:
             lm = bindings_lane_map(bind_doc)
@@ -547,7 +544,7 @@ def main() -> int:
 
     decl = manifest["operator"]["intended_use"].strip()
     if len(decl) > 400:
-        decl = decl[:399] + "…"
+        decl = decl[:399] + "â€¦"
 
     result_status = "blocked" if admission_blocked else "success"
     summary = "Generated MCP manifest admission packet."

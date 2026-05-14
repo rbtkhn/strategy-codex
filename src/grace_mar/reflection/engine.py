@@ -38,7 +38,7 @@ Return a JSON object with exactly these keys:
 - "qualitative_insights": array of short strings (patterns, gaps, contradictions)
 - "proposals": array of at most {max_p} objects, each with:
   - "summary": string (one line)
-  - "suggested_entry": string (what would enter the Record or operator note — multiline ok in JSON string)
+  - "suggested_entry": string (what would enter the Record or operator note â€” multiline ok in JSON string)
   - "mind_category": "knowledge" | "curiosity" | "personality"
   - "profile_target": string (IX-A / IX-B / IX-C style)
   - "prompt_section": string (YOUR KNOWLEDGE / YOUR CURIOSITY / YOUR PERSONALITY)
@@ -119,10 +119,10 @@ def run_reflection_engine(
                     "profile_target": "IX-A. KNOWLEDGE",
                     "prompt_section": "YOUR KNOWLEDGE",
                     "prompt_addition": "none",
-                    "source_exchange": "Dry-run stub — no model call.",
+                    "source_exchange": "Dry-run stub â€” no model call.",
                     "evidence_citations": [
-                        "users/grace-mar/session-transcript.md:lines 1-2 (placeholder)",
-                        "users/grace-mar/pipeline-events.jsonl:tail (placeholder)",
+                        "session-transcript.md:lines 1-2 (placeholder)",
+                        "pipeline-events.jsonl:tail (placeholder)",
                     ],
                     "rationale": "Placeholder for CI and local testing without API costs.",
                     "confidence": 0.1,

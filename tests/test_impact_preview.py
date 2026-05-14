@@ -13,7 +13,7 @@ sys.path.insert(0, str(REPO_ROOT / "src"))
 from grace_mar.merge.impact_preview import format_impact_summary, preview_candidate_impact
 
 USER = "grace-mar"
-BASE = f"users/{USER}"
+BASE = f"{USER}"
 
 
 def _candidate(**overrides) -> dict:

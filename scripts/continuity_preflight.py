@@ -38,7 +38,7 @@ def build_receipt(
     required_names = ("session-log.md", "recursion-gate.md", "self-archive.md")
     entries: list[dict[str, str]] = []
     for name in required_names:
-        rel = f"users/{user_id}/{name}"
+        rel = f"{user_id}/{name}"
         p = repo_root / rel
         if not p.is_file():
             errors.append(f"missing: {rel}")

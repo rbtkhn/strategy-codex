@@ -111,7 +111,7 @@ def _forbidden_repo_write(rel: str) -> bool:
     rel = rel.replace("\\", "/")
     if rel in ("bot/prompt.py", "bot/bot.py", "bot/wechat_bot.py"):
         return True
-    if not rel.startswith("users/"):
+    if not rel.startswith(""):
         return False
     name = rel.rsplit("/", 1)[-1]
     return name in (

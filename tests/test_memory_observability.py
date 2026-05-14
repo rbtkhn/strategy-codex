@@ -52,7 +52,7 @@ def test_render_markdown_has_exactly_one_recommended_next_action():
             },
             "last_dream": {
                 "name": "last dream",
-                "path": "users/grace-mar/last-dream.json",
+                "path": "last-dream.json",
                 "status": "ok",
                 "observed_at": now.isoformat(),
                 "age_hours": 0,
@@ -60,7 +60,7 @@ def test_render_markdown_has_exactly_one_recommended_next_action():
             },
             "night_handoff": {
                 "name": "night handoff",
-                "path": "users/grace-mar/daily-handoff/night-handoff.json",
+                "path": "daily-handoff/night-handoff.json",
                 "status": "missing",
                 "observed_at": None,
                 "age_hours": None,
@@ -68,7 +68,7 @@ def test_render_markdown_has_exactly_one_recommended_next_action():
             },
             "bridge_state": {
                 "name": "bridge state",
-                "path": "users/grace-mar/daily-handoff/last-bridge-state.json",
+                "path": "daily-handoff/last-bridge-state.json",
                 "status": "watch",
                 "observed_at": None,
                 "age_hours": None,

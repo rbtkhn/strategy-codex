@@ -2,19 +2,19 @@
 """
 Verify an atomic integration receipt against the repo working tree or a git revision.
 
-Receipts are written by scripts/atomic_integrate.py (JSON under users/<id>/integration-receipts/).
+Receipts are written by scripts/atomic_integrate.py (JSON under integration-receipts/).
 Each receipt stores before_hashes and after_hashes: maps of repo-relative POSIX paths to sha256
 of UTF-8 file contents (same convention as atomic_integrate).
 
 Usage:
-  python scripts/verify_integration_receipt.py --receipt users/grace-mar/integration-receipts/integration-receipt-....json
+  python scripts/verify_integration_receipt.py --receipt integration-receipts/integration-receipt-....json
   python scripts/verify_integration_receipt.py --receipt path/to/receipt.json --expect before
   python scripts/verify_integration_receipt.py --receipt path/to/receipt.json --git-ref HEAD
 
 Exit:
-  0 — all listed paths match
-  1 — mismatch or error
-  2 — receipt cannot be verified (e.g. empty after_hashes when mode=after)
+  0 â€” all listed paths match
+  1 â€” mismatch or error
+  2 â€” receipt cannot be verified (e.g. empty after_hashes when mode=after)
 """
 
 from __future__ import annotations
@@ -71,7 +71,7 @@ def verify_hashes(
                 content = _read_git_show(git_ref, rel, repo_root)
             else:
                 if not path.is_file():
-                    errors.append(f"{rel}: missing on disk (expected {want[:12]}…)")
+                    errors.append(f"{rel}: missing on disk (expected {want[:12]}â€¦)")
                     continue
                 content = _read_worktree(path)
         except FileNotFoundError as e:
@@ -79,7 +79,7 @@ def verify_hashes(
             continue
         got = sha256_text(content)
         if got != want:
-            errors.append(f"{rel}: sha256 mismatch (want {want[:16]}… got {got[:16]}…)")
+            errors.append(f"{rel}: sha256 mismatch (want {want[:16]}â€¦ got {got[:16]}â€¦)")
     if errors:
         return False, errors
     return True, [f"OK: {len(expected)} path(s) match"]

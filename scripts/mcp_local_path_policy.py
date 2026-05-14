@@ -1,7 +1,7 @@
 """
 Shared path policy for local MCP adapters (allowlist + repo containment).
 
-Used by mcp_local_readonly.py and mcp_local_index.py — keep rejection rules aligned.
+Used by mcp_local_readonly.py and mcp_local_index.py â€” keep rejection rules aligned.
 """
 
 from __future__ import annotations
@@ -61,8 +61,8 @@ def resolve_target_under_allowlist(
     rel_join = "/".join(parts) if parts else ""
 
     low_rel = rel_join.lower()
-    if low_rel.startswith("users/grace-mar/") or low_rel == "users/grace-mar":
-        raise ValueError("path cannot reference users/grace-mar")
+    if low_rel.startswith("") or low_rel == "":
+        raise ValueError("path cannot reference ")
 
     candidate = (repo_root / Path(*parts)) if parts else repo_root
     try:

@@ -1,5 +1,5 @@
 """
-Snapshot manifests under users/<fork_id>/snapshots/<tag>.json
+Snapshot manifests under <fork_id>/snapshots/<tag>.json
 """
 
 from __future__ import annotations

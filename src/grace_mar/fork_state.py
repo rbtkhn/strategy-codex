@@ -1,5 +1,5 @@
 """
-Durable fork lifecycle state: users/<fork_id>/fork_state.json
+Durable fork lifecycle state: <fork_id>/fork_state.json
 """
 
 from __future__ import annotations

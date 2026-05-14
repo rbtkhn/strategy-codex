@@ -26,16 +26,16 @@ CANONICAL_RECORD_FILES = {
 }
 
 CANONICAL_RECORD_PATHS = {
-    "users/grace-mar/self.md",
-    "users/grace-mar/self-archive.md",
-    "users/grace-mar/self-skills.md",
-    "users/grace-mar/recursion-gate.md",
-    "users/grace-mar/session-log.md",
+    "self.md",
+    "self-archive.md",
+    "self-skills.md",
+    "recursion-gate.md",
+    "session-log.md",
     "bot/prompt.py",
 }
 
 
-# ── PR 3.1: prepared-context output contains boundary disclaimer ─────
+# â”€â”€ PR 3.1: prepared-context output contains boundary disclaimer â”€â”€â”€â”€â”€
 
 def test_budgeted_context_contains_boundary_disclaimer(tmp_path: Path) -> None:
     """Prepared-context output must include non-canonical boundary notice."""
@@ -71,7 +71,7 @@ def test_budgeted_context_contains_boundary_disclaimer(tmp_path: Path) -> None:
     )
 
 
-# ── PR 3.2: retrieval results must not include canonical Record paths ─
+# â”€â”€ PR 3.2: retrieval results must not include canonical Record paths â”€
 
 def test_retrieval_excludes_canonical_record_paths(tmp_path: Path) -> None:
     """Hybrid retrieval must never return paths to governed Record files."""
@@ -103,7 +103,7 @@ def test_retrieval_excludes_canonical_record_paths(tmp_path: Path) -> None:
             )
 
 
-# ── PR 3.3: active-lane compression output goes to artifacts/ ────────
+# â”€â”€ PR 3.3: active-lane compression output goes to artifacts/ â”€â”€â”€â”€â”€â”€â”€â”€
 
 def test_compress_active_lane_writes_to_artifacts(tmp_path: Path) -> None:
     """compress_active_lane.py default output must be under artifacts/."""
@@ -137,7 +137,7 @@ def test_compress_active_lane_writes_to_artifacts(tmp_path: Path) -> None:
             )
 
 
-# ── PR 3.4: active-lane compression never includes Record content ────
+# â”€â”€ PR 3.4: active-lane compression never includes Record content â”€â”€â”€â”€
 
 def test_compress_active_lane_no_record_content(tmp_path: Path) -> None:
     """Compressed lane output must not contain self.md sensitive content."""
@@ -172,7 +172,7 @@ def test_compress_active_lane_no_record_content(tmp_path: Path) -> None:
         )
 
 
-# ── PR 3.5: skill-card output stays under artifacts/ ─────────────────
+# â”€â”€ PR 3.5: skill-card output stays under artifacts/ â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 def test_skill_cards_output_under_artifacts(tmp_path: Path) -> None:
     """build_skill_cards writes only to artifacts/skill-cards, not Record."""
@@ -196,7 +196,7 @@ def test_skill_cards_output_under_artifacts(tmp_path: Path) -> None:
         )
 
 
-# ── PR 3.6: receipt file is non-canonical ─────────────────────────────
+# â”€â”€ PR 3.6: receipt file is non-canonical â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 def test_budget_receipt_not_canonical(tmp_path: Path) -> None:
     """Budget receipt must write to prepared-context/, not a Record surface."""
@@ -233,7 +233,7 @@ def test_budget_receipt_not_canonical(tmp_path: Path) -> None:
         )
 
 
-# ── PR 3.7: observation store writes stay in runtime/ ─────────────────
+# â”€â”€ PR 3.7: observation store writes stay in runtime/ â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 def test_observation_store_writes_only_to_runtime() -> None:
     """Observation store paths must resolve under runtime/observations/."""

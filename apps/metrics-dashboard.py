@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Interactive metrics dashboard — pipeline health, Record completeness, optional growth/density.
+Interactive metrics dashboard â€” pipeline health, Record completeness, optional growth/density.
 
 Run from repo root: streamlit run apps/metrics-dashboard.py
 Deploy on Render as a web service (streamlit run --server.port 8501 apps/metrics-dashboard.py).
@@ -42,7 +42,7 @@ with col2:
     if health.approval_rate is not None:
         st.metric("Approval rate", f"{100 * health.approval_rate:.0f}%")
 with col3:
-    st.metric("Days since last activity", f"{health.days_since_last_activity:.1f}" if health.days_since_last_activity is not None else "—")
+    st.metric("Days since last activity", f"{health.days_since_last_activity:.1f}" if health.days_since_last_activity is not None else "â€”")
     if health.last_applied_ts:
         st.caption(f"Last applied: {health.last_applied_ts[:19]}")
 
@@ -58,7 +58,7 @@ try:
     fig.update_layout(barmode="group", title="IX dimension counts", height=300)
     st.plotly_chart(fig, use_container_width=True)
 except ImportError:
-    st.write(f"**IX-A:** {rec.ix_a} · **IX-B:** {rec.ix_b} · **IX-C:** {rec.ix_c} · **Total:** {rec.total_ix}")
+    st.write(f"**IX-A:** {rec.ix_a} Â· **IX-B:** {rec.ix_b} Â· **IX-C:** {rec.ix_c} Â· **Total:** {rec.total_ix}")
 
 drift = compute_intent_drift(window_days=30)
 if drift.total_conflicts > 0:
@@ -106,7 +106,7 @@ except Exception as e:
 st.subheader("Replay and provenance")
 st.caption(
     "Synthesis from audit JSONL (profile root, runtime-bundle fallback). "
-    "Weights are heuristic — not per-message model attribution. See docs/harness-replay-spec.md."
+    "Weights are heuristic â€” not per-message model attribution. See docs/harness-replay-spec.md."
 )
 try:
     from repo_io import profile_dir
@@ -143,4 +143,4 @@ try:
 except Exception as e:
     st.warning(f"Replay / provenance: {e}")
 
-st.caption("Data from users/grace-mar (recursion-gate, self.md, pipeline-events). Regenerate profile for latest.")
+st.caption("Data from  (recursion-gate, self.md, pipeline-events). Regenerate profile for latest.")

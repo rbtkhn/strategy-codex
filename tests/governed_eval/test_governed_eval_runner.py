@@ -93,7 +93,7 @@ def test_boundary_obedience_zero_when_canonical_path_in_artifact() -> None:
     mod = _load_governed_eval_module()
     receipt = json.loads(RECEIPT_RECORD_TRUTH.read_text(encoding="utf-8"))
     art = dict(receipt["artifacts"])
-    art["proposal_path"] = "users/grace-mar/self.md"
+    art["proposal_path"] = "self.md"
     rec = {**receipt, "artifacts": art}
     report = mod.build_report(
         receipt=rec,
@@ -109,7 +109,7 @@ def test_epistemic_notes_trigger_boundary_when_record_path() -> None:
     mod = _load_governed_eval_module()
     receipt = json.loads(RECEIPT_RECORD_TRUTH.read_text(encoding="utf-8"))
     epi = dict(receipt["epistemic"])
-    epi["notes"] = "see users/grace-mar/recursion-gate.md for context"
+    epi["notes"] = "see recursion-gate.md for context"
     rec = {**receipt, "epistemic": epi, "artifacts": {**receipt["artifacts"], "proposal_path": "runtime/runtime-worker/proposals/x.md"}}
     report = mod.build_report(
         receipt=rec,

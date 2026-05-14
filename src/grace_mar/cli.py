@@ -14,8 +14,9 @@ def main() -> int:
         print(
             "Usage: grace-mar <command> [args...]\n\n"
             "Commands:\n"
-            "  warmup   → scripts/harness_warmup.py (e.g. grace-mar warmup -u grace-mar)\n"
-            "  reflect  → scripts/reflection_cycle.py (evidence-grounded gate proposals)\n",
+            "  warmup              -> scripts/harness_warmup.py\n"
+            "  reflect             -> scripts/reflection_cycle.py\n"
+            "  predictive-history  -> scripts/predictive-history.py\n",
             file=sys.stderr,
         )
         return 0 if argv and argv[0] in ("-h", "--help") else 2
@@ -28,6 +29,9 @@ def main() -> int:
         return subprocess.call([sys.executable, str(script), *rest])
     if cmd == "reflect":
         script = root / "scripts" / "reflection_cycle.py"
+        return subprocess.call([sys.executable, str(script), *rest])
+    if cmd == "predictive-history":
+        script = root / "scripts" / "predictive-history.py"
         return subprocess.call([sys.executable, str(script), *rest])
 
     print(f"Unknown command: {cmd}", file=sys.stderr)

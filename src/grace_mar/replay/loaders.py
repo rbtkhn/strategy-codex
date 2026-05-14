@@ -1,8 +1,8 @@
 """
 Load audit-lane JSONL and related files with profile-root precedence over runtime-bundle.
 
-Canonical live instance: read from ``users/<id>/*.jsonl`` first. If a file is missing or
-empty, fall back to ``users/<id>/runtime-bundle/...`` mirrors (portable export layout).
+Canonical live instance: read from ``*.jsonl`` first. If a file is missing or
+empty, fall back to ``runtime-bundle/...`` mirrors (portable export layout).
 """
 
 from __future__ import annotations

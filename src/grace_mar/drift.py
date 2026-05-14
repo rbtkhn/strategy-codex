@@ -1,5 +1,5 @@
 """
-Heuristic drift scoring — users/<fork_id>/drift-report.json
+Heuristic drift scoring — <fork_id>/drift-report.json
 """
 
 from __future__ import annotations

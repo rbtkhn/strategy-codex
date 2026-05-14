@@ -187,7 +187,7 @@ def main() -> int:
     ap = argparse.ArgumentParser(
         description="Staleness scorer for pending RECURSION-GATE candidates."
     )
-    ap.add_argument("-u", "--user", default="grace-mar", help="Fork id under users/")
+    ap.add_argument("-u", "--user", default="grace-mar", help="Fork id under ")
     ap.add_argument("--dry-run", action="store_true", help="Print preview; do not write")
     args = ap.parse_args()
 

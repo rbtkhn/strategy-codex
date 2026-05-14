@@ -63,7 +63,7 @@ def _valid_docs_contract() -> dict:
             "proposal_schema_ref": "policy/change-proposal.v1.json",
             "authority_map_ref": "policy/authority-map.json",
             "import_path_ref": "scripts/runtime/import_runtime_observation.py",
-            "review_path_ref": "users/grace-mar/recursion-gate.md",
+            "review_path_ref": "recursion-gate.md",
         },
         "audit": {
             "manifest": "manifest.json",

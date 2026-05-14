@@ -138,7 +138,7 @@ def _search_evidence(
         final = hs.combine_scores(norm_lex, sem, rec, weights=weights, semantic_active=sem_active)
 
         results.append(hs.HybridResult(
-            path=f"users/{user}/self-archive.md:{hit.entry.line_start}-{hit.entry.line_end}",
+            path=f"{user}/self-archive.md:{hit.entry.line_start}-{hit.entry.line_end}",
             label=f"{hit.entry.entry_id} — {hit.entry.title}",
             retrieval_surface="evidence_lookup",
             lexical_score=norm_lex,

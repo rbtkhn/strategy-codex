@@ -3,7 +3,7 @@ Optional constitutional self-critique pass after the main Voice reply.
 
 Governance: Does not add Record facts. Operator enables via runtime_config.json
 (copy from runtime_config.example.json). Constitution text comes from
-users/<id>/seed-phase/seed_constitution.json (seed-phase artifact), not from
+seed-phase/seed_constitution.json (seed-phase artifact), not from
 LLM invention. Disabled by default (constitutional_critique.enabled: false).
 
 See docs/seed-phase-validation.md and runtime_config.example.json.

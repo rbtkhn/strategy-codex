@@ -246,7 +246,7 @@ def write_replay_artifacts(
     out_dir: Path | None = None,
 ) -> tuple[Path | None, Path | None]:
     """
-    Write timestamped JSON artifacts under users/<id>/artifacts/replay/ (derived only).
+    Write timestamped JSON artifacts under artifacts/replay/ (derived only).
     Returns (replay_path, provenance_path) or None if skipped.
     """
     base = out_dir or (user_dir / "artifacts" / "replay")

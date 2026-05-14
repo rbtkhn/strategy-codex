@@ -15,7 +15,7 @@ def test_record_refs_ix_a_knowledge():
     fn = getattr(pac, "_record_refs_for_applied")
     refs = fn("grace-mar", "SELF_KNOWLEDGE", "IX-A. KNOWLEDGE", "SELF_KNOWLEDGE_ADD")
     joined = " ".join(refs)
-    assert "self.md#IX-A" in joined
+    assert "self-knowledge.md#IX-A" in joined
     assert "self-archive.md" in joined
 
 

@@ -61,10 +61,10 @@ def build_governance_posture_markdown(
     """Build Markdown body for the governance posture one-pager.
 
     If ``profile_override`` is set (e.g. in tests), file-presence rows use that directory
-    instead of ``users/<user_id>/`` under the real repo.
+    instead of ``<user_id>/`` under the real repo.
     """
     uid = user_id.strip() or "grace-mar"
-    base = f"users/{uid}"
+    base = f"{uid}"
     prof = profile_override if profile_override is not None else profile_dir(uid)
     ts = generated_at_utc or datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     gref = git_ref if git_ref is not None else _git_short_hash(repo_root)
@@ -135,14 +135,14 @@ def build_governance_posture_markdown(
             "Replace the user id if needed.\n\n",
             "```bash\n",
             f"python3 scripts/validate-integrity.py --user {uid}\n",
-            f"python3 scripts/run_voice_benchmark.py -o users/{uid}/artifacts/voice_benchmark_results.json\n",
+            f"python3 scripts/run_voice_benchmark.py -o {uid}/artifacts/voice_benchmark_results.json\n",
             f"python3 scripts/replay_harness_event.py -u {uid} --candidate CANDIDATE-0000   # example; use a real id\n",
             f"python3 scripts/report_governance_posture.py -u {uid}\n",
             "```\n\n",
             "Further reading: [voice-benchmark-suite.md](../docs/voice-benchmark-suite.md), "
             "[openclaw-integration.md](../docs/openclaw-integration.md).\n\n",
             "---\n\n",
-            "_Operator / audit lane only. For identity truth, use approved Record files under `users/`. "
+            "_Operator / audit lane only. For identity truth, use approved Record files under ``. "
             "This file is derived and safe to regenerate._\n",
         ]
     )
@@ -151,7 +151,7 @@ def build_governance_posture_markdown(
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="Write governance-posture.md (generated operator summary).")
-    ap.add_argument("-u", "--user", default="grace-mar", help="User id (fork under users/)")
+    ap.add_argument("-u", "--user", default="grace-mar", help="User id (fork under )")
     ap.add_argument(
         "-o",
         "--output",

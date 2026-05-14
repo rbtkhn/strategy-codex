@@ -3,7 +3,7 @@
 Build a ChromaDB vector index from Record (SELF, SKILLS, EVIDENCE) for semantic lookup.
 
 Run after merge or when Record changes: python scripts/index_record.py -u grace-mar
-Requires OPENAI_API_KEY and chromadb. Index is stored under users/<id>/.chroma (gitignored).
+Requires OPENAI_API_KEY and chromadb. Index is stored under .chroma (gitignored).
 
 This is **not** the Tier 1.3 keyword retriever used in chat grounding — that is
 ``bot.retriever.load_record_chunks`` / ``retrieve`` (lexical scoring, optional

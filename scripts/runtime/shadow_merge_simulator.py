@@ -124,7 +124,7 @@ PROPAGATION_HINTS: dict[str, list[str]] = {
         "Voice calibration paths may shift if IX slices change.",
     ],
     "SELF-LIBRARY": [
-        "Library retrieval and reference ranking may shift (`users/<id>/self-library.md`, index builds).",
+        "Library retrieval and reference ranking may shift (`self-library.md`, index builds).",
         "Domain shelves and return-to sources may surface differently.",
     ],
     "SKILLS": [
@@ -410,7 +410,7 @@ def _surface_diff_lines(
 
     elif surface == "SKILLS":
         if primary == "SKILLS" or "SKILL" in pc.upper():
-            lines.append("Expected: `users/<id>/self-skills.md` capability lines or skill-card sources.")
+            lines.append("Expected: `self-skills.md` capability lines or skill-card sources.")
             lines.append("- Regenerate skill cards after merge: `python scripts/build_skill_cards.py` → `artifacts/skill-cards/`.")
         else:
             lines.append("No SKILLS file change expected unless proposal explicitly targets capability index.")

@@ -20,15 +20,15 @@ from gated_record_rules import allowed_gated_commit_message, is_gated_record_pat
 @pytest.mark.parametrize(
     "rel,expected",
     [
-        ("users/grace-mar/self.md", True),
-        ("users/grace-mar/self-archive.md", True),
-        ("users/grace-mar/merge-receipts.jsonl", True),
-        ("users/grace-mar/grace-mar-llm.txt", True),
+        ("self.md", True),
+        ("self-archive.md", True),
+        ("merge-receipts.jsonl", True),
+        ("grace-mar-llm.txt", True),
         ("bot/prompt.py", True),
         ("grace-mar-llm.txt", True),
         ("docs/foo.md", False),
-        ("users/grace-mar/self-memory.md", False),
-        ("users/grace-mar/recursion-gate.md", False),
+        ("self-memory.md", False),
+        ("recursion-gate.md", False),
     ],
 )
 def test_is_gated_record_path(rel: str, expected: bool) -> None:

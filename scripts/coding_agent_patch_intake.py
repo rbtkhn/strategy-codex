@@ -66,10 +66,10 @@ MERGE_AUTHORITY_DENYLIST = (
 # Canonical Record paths under grace-mar instance (normalized posix, lower).
 RECORD_CRITICAL_PATHS = frozenset(
     {
-        "users/grace-mar/self.md",
-        "users/grace-mar/self-archive.md",
-        "users/grace-mar/recursion-gate.md",
-        "users/grace-mar/evidence.md",
+        "self.md",
+        "self-archive.md",
+        "recursion-gate.md",
+        "evidence.md",
     }
 )
 
@@ -143,7 +143,7 @@ def classify_risk(norm: str) -> str:
     parts = n.split("/")
     basename = parts[-1] if parts else ""
 
-    # CRITICAL — Record-shaped + env + secrets dir + key material (overlap with validate)
+    # CRITICAL â€” Record-shaped + env + secrets dir + key material (overlap with validate)
     if n in RECORD_CRITICAL_PATHS:
         return "CRITICAL"
     if ".env" in parts or n.endswith("/.env") or basename == ".env":
@@ -284,9 +284,9 @@ def render_markdown(
     lines = [
         header,
         "",
-        "> **CANDIDATE PROPOSAL · WORK ARTIFACT · NOT MERGED · NOT APPROVED RECORD**",
+        "> **CANDIDATE PROPOSAL Â· WORK ARTIFACT Â· NOT MERGED Â· NOT APPROVED RECORD**",
         "",
-        f"MCP receipt JSON (repo-relative): `artifacts/mcp-receipts/{receipt_filename}` — packet path: `{packet_repo_rel}`",
+        f"MCP receipt JSON (repo-relative): `artifacts/mcp-receipts/{receipt_filename}` â€” packet path: `{packet_repo_rel}`",
         "",
         "## Agent",
         "",
@@ -364,7 +364,7 @@ def render_markdown(
             "",
             "## Governance notes",
             "",
-            "This packet is **not** a merge, **not** gate approval, and **not** canonical Record mutation. Promotion follows companion review and [`recursion-gate.md`](../../users/grace-mar/recursion-gate.md) conventions.",
+            "This packet is **not** a merge, **not** gate approval, and **not** canonical Record mutation. Promotion follows companion review and [`recursion-gate.md`](../../recursion-gate.md) conventions.",
             "",
             "## Recommendation",
             "",
@@ -373,14 +373,14 @@ def render_markdown(
     if blocked:
         lines.extend(
             [
-                "**BLOCKED — DO NOT MERGE AS-IS.** At least one touched path is classified **CRITICAL** (canonical Record surface, secret-like path, or equivalent). Remove or redirect those changes before any staging.",
+                "**BLOCKED â€” DO NOT MERGE AS-IS.** At least one touched path is classified **CRITICAL** (canonical Record surface, secret-like path, or equivalent). Remove or redirect those changes before any staging.",
                 "",
             ]
         )
     else:
         lines.extend(
             [
-                "**Ready for human review** — classify findings above; merge authority stays outside this adapter.",
+                "**Ready for human review** â€” classify findings above; merge authority stays outside this adapter.",
                 "",
             ]
         )
@@ -406,7 +406,7 @@ def resolve_packet_destination(repo_root: Path, output: Path | None) -> Path:
         raise ValueError(f"output must be under {bucket} (got {resolved})") from e
     rp = rel_to_repo.parts
     if len(rp) >= 2 and rp[0].lower() == "users" and rp[1].lower() == "grace-mar":
-        raise ValueError("refusing output path under users/grace-mar/")
+        raise ValueError("refusing output path under ")
     for p in resolved.parts:
         if "self-archive" in p.lower():
             raise ValueError("refusing output path touching self-archive")
@@ -531,7 +531,7 @@ def main() -> int:
 
     decl = raw["task"]["operator_intent"]
     if len(decl) > 400:
-        decl = decl[:399] + "…"
+        decl = decl[:399] + "â€¦"
 
     receipt = build_receipt(
         cap=cap,

@@ -1,4 +1,4 @@
-"""Tests for scripts/coding_agent_patch_intake.py — intake validation, risk tiers, receipt emission."""
+"""Tests for scripts/coding_agent_patch_intake.py â€” intake validation, risk tiers, receipt emission."""
 
 from __future__ import annotations
 
@@ -172,7 +172,7 @@ def test_high_path_classifies_but_succeeds(monkeypatch: pytest.MonkeyPatch, tmp_
 def test_critical_record_path_blocked_with_gate_touch(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     doc = _minimal_doc()
     doc["files_touched"] = [
-        {"path": "users/grace-mar/self.md", "change_type": "modified"}
+        {"path": "self.md", "change_type": "modified"}
     ]
     code, pkt_path, rec_dir = _run_main(tmp_path, monkeypatch, doc, [])
     assert code == 0

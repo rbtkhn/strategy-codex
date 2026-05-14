@@ -1,4 +1,4 @@
-"""Prompt.py updates: append bullets (legacy) or rebuild YOUR * sections from self.md IX."""
+"""Prompt.py updates: append bullets (legacy) or rebuild YOUR * sections from self-knowledge."""
 
 from __future__ import annotations
 
@@ -131,7 +131,7 @@ def rebuild_observation_sections_from_self(prompt_content: str, self_content: st
     }
 
     note = (
-        "(Regenerated from self.md IX list entries — pipeline `rebuild_ix`. "
+        "(Regenerated from self-knowledge.md / self.md IX list entries — pipeline `rebuild_ix`. "
         "Narrative bullets are not preserved in this mode.)\n\n"
     )
 

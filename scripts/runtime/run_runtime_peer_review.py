@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Runtime worker peer review — heuristic pass on a draft proposal + execution receipt.
+Runtime worker peer review â€” heuristic pass on a draft proposal + execution receipt.
 
 Distinct from review_orchestrator.py (observations / gate packet path). Runtime-only;
 does not merge, stage, or alter RECURSION-GATE.
@@ -27,9 +27,9 @@ PEER_SCHEMA_PATH = REPO_ROOT / "schema-registry" / "runtime-peer-review.v1.json"
 EXECUTION_RECEIPT_SCHEMA_PATH = REPO_ROOT / "schema-registry" / "execution-receipt.v1.json"
 
 _FORBIDDEN_HINTS = (
-    "users/grace-mar/self.md",
-    "users/grace-mar/recursion-gate.md",
-    "users/grace-mar/self-archive.md",
+    "self.md",
+    "recursion-gate.md",
+    "self-archive.md",
     "bot/prompt.py",
 )
 

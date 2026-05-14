@@ -25,12 +25,14 @@ def collect_identity_library_violations(
     repo_root: Path | None = None,
 ) -> list[str]:
     """
-    Return human-readable violation strings for self.md IX-A in user_dir.
+    Return human-readable violation strings for self-knowledge.md IX-A in user_dir.
     Empty if OK.
     """
     repo_root = repo_root or REPO
     rel = lambda p: str(p.relative_to(repo_root)).replace("\\", "/")
-    path = user_dir / "self.md"
+    path = user_dir / "self-knowledge.md"
+    if not path.is_file():
+        path = user_dir / "self.md"
     if not path.is_file():
         return []
     text = path.read_text(encoding="utf-8", errors="replace")

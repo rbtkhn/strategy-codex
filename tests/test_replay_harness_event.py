@@ -53,7 +53,7 @@ def test_build_report_unknown_event_id() -> None:
     assert "No pipeline row" in text or "no pipeline row" in text.lower()
 
 
-@pytest.mark.skipif(not (ROOT / "users/grace-mar/recursion-gate.md").is_file(), reason="no grace-mar profile")
+@pytest.mark.skipif(not (ROOT / "recursion-gate.md").is_file(), reason="no grace-mar profile")
 def test_build_report_grace_mar_known_candidate() -> None:
     text = build_report(ROOT / "users" / "grace-mar", candidate_id="CANDIDATE-0089")
     assert "CANDIDATE-0089" in text

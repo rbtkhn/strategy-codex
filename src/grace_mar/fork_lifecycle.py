@@ -39,7 +39,7 @@ def _session_id_for_today(repo_root: Path, fork_id: str) -> str:
 
 
 def session_manifest_path(repo_root: Path, fork_id: str, session_id: str) -> Path:
-    # SES-YYYYMMDD-NNN -> users/.../sessions/YYYY/MM/session-SES-....json
+    # SES-YYYYMMDD-NNN -> .../sessions/YYYY/MM/session-SES-....json
     m = re.match(r"SES-(\d{4})(\d{2})(\d{2})-", session_id)
     if not m:
         y, mo, d = _today_ymd()[:4], _today_ymd()[4:6], _today_ymd()[6:8]

@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-Local repo-scoped read-only adapter — bounded UTF-8 file read + Markdown packet + MCP receipt.
+Local repo-scoped read-only adapter â€” bounded UTF-8 file read + Markdown packet + MCP receipt.
 
-Does not execute MCP servers, use credentials, invoke network/shell, or read users/grace-mar/.
+Does not execute MCP servers, use credentials, invoke network/shell, or read .
 See docs/mcp/mcp-local-readonly-adapter.md.
 
   python3 scripts/mcp_local_readonly.py \\
@@ -53,7 +53,7 @@ DEFAULT_CAPABILITY_ID = "filesystem_readonly"
 DEFAULT_RECEIPT_DIR = REPO_ROOT / "artifacts" / "mcp-receipts"
 
 BANNER = (
-    "LOCAL READ-ONLY MCP-SHAPED RUN · WORK ARTIFACT · NO NETWORK · NO CREDENTIALS · NOT APPROVED INTEGRATION"
+    "LOCAL READ-ONLY MCP-SHAPED RUN Â· WORK ARTIFACT Â· NO NETWORK Â· NO CREDENTIALS Â· NOT APPROVED INTEGRATION"
 )
 
 
@@ -97,7 +97,7 @@ def resolve_packet_destination(repo_root: Path, output: Path | None) -> Path:
         raise ValueError(f"output must be under {bucket} (got {resolved})") from e
     rp = rel_to_repo.parts
     if len(rp) >= 2 and rp[0].lower() == "users" and rp[1].lower() == "grace-mar":
-        raise ValueError("refusing output path under users/grace-mar/")
+        raise ValueError("refusing output path under ")
     return resolved
 
 
@@ -136,7 +136,7 @@ def render_markdown(
         "",
         f"> {BANNER}",
         "",
-        f"MCP receipt JSON (repo-relative): `artifacts/mcp-receipts/{receipt_filename}` — packet path: `{packet_rel}`",
+        f"MCP receipt JSON (repo-relative): `artifacts/mcp-receipts/{receipt_filename}` â€” packet path: `{packet_rel}`",
         "",
         "## Request",
         "",
@@ -185,7 +185,7 @@ def render_markdown(
             "- **Network:** none (local read adapter only).",
             "- **Credentials:** none.",
             "- **Shell:** not invoked.",
-            "- **Canonical Record:** not read and not modified (`users/grace-mar/` blocked by allowlist).",
+            "- **Canonical Record:** not read and not modified (`` blocked by allowlist).",
             "- **Integration approval:** this packet does **not** approve general MCP integration.",
             "",
             "## Receipt note",
@@ -198,7 +198,7 @@ def render_markdown(
 
 
 def main() -> int:
-    ap = argparse.ArgumentParser(description="Local read-only MCP-shaped adapter — bounded UTF-8 read + packet + receipt.")
+    ap = argparse.ArgumentParser(description="Local read-only MCP-shaped adapter â€” bounded UTF-8 read + packet + receipt.")
     ap.add_argument("--input", type=Path, required=True)
     ap.add_argument("--output", type=Path, default=None)
     ap.add_argument("--repo-root", type=Path, default=REPO_ROOT)
@@ -312,7 +312,7 @@ def main() -> int:
 
     decl = req["declared_intent"].strip()
     if len(decl) > 400:
-        decl = decl[:399] + "…"
+        decl = decl[:399] + "â€¦"
 
     net_a = cap["network_access"]
     cred_a = cap["credential_requirements"]

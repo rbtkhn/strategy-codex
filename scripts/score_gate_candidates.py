@@ -197,7 +197,7 @@ def main() -> int:
     parser = argparse.ArgumentParser(
         description="Insert heuristic Auto-score blockquotes into recursion-gate.md (active section)."
     )
-    parser.add_argument("-u", "--user", default="grace-mar", help="Fork id under users/")
+    parser.add_argument("-u", "--user", default="grace-mar", help="Fork id under ")
     parser.add_argument(
         "--threshold",
         type=float,

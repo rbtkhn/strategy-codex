@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-Local repo-scoped read-only directory index — metadata-only Markdown packet + MCP receipt.
+Local repo-scoped read-only directory index â€” metadata-only Markdown packet + MCP receipt.
 
-Does not execute MCP servers, use credentials, invoke network/shell, or read users/grace-mar/.
+Does not execute MCP servers, use credentials, invoke network/shell, or read .
 See docs/mcp/mcp-local-index-adapter.md.
 
   python3 scripts/mcp_local_index.py \\
@@ -56,7 +56,7 @@ DEFAULT_CAPABILITY_ID = "filesystem_readonly"
 DEFAULT_RECEIPT_DIR = REPO_ROOT / "artifacts" / "mcp-receipts"
 
 BANNER = (
-    "LOCAL READ-ONLY DIRECTORY INDEX · WORK ARTIFACT · NO NETWORK · NO CREDENTIALS · NOT APPROVED INTEGRATION"
+    "LOCAL READ-ONLY DIRECTORY INDEX Â· WORK ARTIFACT Â· NO NETWORK Â· NO CREDENTIALS Â· NOT APPROVED INTEGRATION"
 )
 
 
@@ -84,7 +84,7 @@ def resolve_packet_destination(repo_root: Path, output: Path | None) -> Path:
         raise ValueError(f"output must be under {bucket} (got {resolved})") from e
     rp = rel_to_repo.parts
     if len(rp) >= 2 and rp[0].lower() == "users" and rp[1].lower() == "grace-mar":
-        raise ValueError("refusing output path under users/grace-mar/")
+        raise ValueError("refusing output path under ")
     return resolved
 
 
@@ -187,10 +187,10 @@ def collect_entries(
             {
                 "path": rel_final,
                 "kind": kind,
-                "ext": ext or "—",
-                "size": size_b if is_file else "—",
-                "lines": lines_cell if is_file else "—",
-                "sha256": hash_cell if is_file else "—",
+                "ext": ext or "â€”",
+                "size": size_b if is_file else "â€”",
+                "lines": lines_cell if is_file else "â€”",
+                "sha256": hash_cell if is_file else "â€”",
             }
         )
         emitted += 1
@@ -290,7 +290,7 @@ def render_markdown(
         "",
         f"> {BANNER}",
         "",
-        f"MCP receipt JSON (repo-relative): `artifacts/mcp-receipts/{receipt_filename}` — packet path: `{packet_rel}`",
+        f"MCP receipt JSON (repo-relative): `artifacts/mcp-receipts/{receipt_filename}` â€” packet path: `{packet_rel}`",
         "",
         "## Declared intent",
         "",
@@ -353,7 +353,7 @@ def render_markdown(
             "- **Network:** none.",
             "- **Credentials:** none.",
             "- **Shell:** not invoked.",
-            "- **Canonical Record:** not read or modified (`users/grace-mar/` blocked).",
+            "- **Canonical Record:** not read or modified (`` blocked).",
             "- **File contents:** not emitted (metadata only).",
             "- **Integration approval:** this packet does **not** approve general MCP integration.",
             "",
@@ -367,7 +367,7 @@ def render_markdown(
 
 
 def main() -> int:
-    ap = argparse.ArgumentParser(description="Local read-only directory index — metadata packet + MCP receipt.")
+    ap = argparse.ArgumentParser(description="Local read-only directory index â€” metadata packet + MCP receipt.")
     ap.add_argument("--input", type=Path, required=True)
     ap.add_argument("--output", type=Path, default=None)
     ap.add_argument("--repo-root", type=Path, default=REPO_ROOT)
@@ -480,7 +480,7 @@ def main() -> int:
 
     decl = req["declared_intent"].strip()
     if len(decl) > 400:
-        decl = decl[:399] + "…"
+        decl = decl[:399] + "â€¦"
 
     net_a = cap["network_access"]
     cred_a = cap["credential_requirements"]

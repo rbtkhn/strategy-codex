@@ -34,7 +34,7 @@ def test_collect_bundle_has_slices():
     assert b.user_id == "grace-mar"
     assert len(b.slices) >= 1
     ctx = b.as_prompt_context(50_000)
-    assert "users/grace-mar" in ctx or len(ctx) == 0
+    assert "" in ctx or len(ctx) == 0
 
 
 def test_build_reflection_candidate_block_shape():
@@ -49,8 +49,8 @@ def test_build_reflection_candidate_block_shape():
         "prompt_addition": "none",
         "source_exchange": "Operator narrative.",
         "evidence_citations": [
-            "users/grace-mar/session-transcript.md:lines 10-20",
-            "users/grace-mar/pipeline-events.jsonl:tail",
+            "session-transcript.md:lines 10-20",
+            "pipeline-events.jsonl:tail",
         ],
         "rationale": "Because excerpts show pattern X.",
         "confidence": 0.75,

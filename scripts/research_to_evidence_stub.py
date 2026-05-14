@@ -104,7 +104,7 @@ def resolve_stub_destination(
         ) from e
     rp = rel_to_repo.parts
     if len(rp) >= 2 and rp[0].lower() == "users" and rp[1].lower() == "grace-mar":
-        raise ValueError("refusing output path under users/grace-mar/")
+        raise ValueError("refusing output path under ")
     for p in resolved.parts:
         if "self-archive" in p.lower():
             raise ValueError("refusing output path touching self-archive")
@@ -156,9 +156,9 @@ def render_markdown(
     lines = [
         header,
         "",
-        "> **PRE-CANONICAL · WORK ARTIFACT · NOT APPROVED RECORD**",
+        "> **PRE-CANONICAL Â· WORK ARTIFACT Â· NOT APPROVED RECORD**",
         "",
-        f"MCP receipt JSON (repo-relative path): `artifacts/mcp-receipts/{receipt_filename}` — stub path: `{stub_repo_rel}`",
+        f"MCP receipt JSON (repo-relative path): `artifacts/mcp-receipts/{receipt_filename}` â€” stub path: `{stub_repo_rel}`",
         "",
         "## Topic",
         "",
@@ -180,7 +180,7 @@ def render_markdown(
         )
     lines.extend(["", "### Source detail", ""])
     for s in doc["sources"]:
-        lines.append(f"#### {s['source_id']} — {s['title']}")
+        lines.append(f"#### {s['source_id']} â€” {s['title']}")
         lines.append("")
         if s.get("accessed_at_utc"):
             lines.append(f"- Accessed (UTC): {s['accessed_at_utc']}")
@@ -323,7 +323,7 @@ def main() -> int:
 
     decl = raw["operator_intent"]
     if len(decl) > 400:
-        decl = decl[:399] + "…"
+        decl = decl[:399] + "â€¦"
 
     receipt = build_receipt(
         cap=cap,

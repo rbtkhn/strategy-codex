@@ -48,7 +48,7 @@ def load_record_slices_for_lesson(
             "error": "ERR_USER_NOT_FOUND",
             "slices": {},
             "provenance": {},
-            "warnings": [f"users/{user_id}/ is not a directory"],
+            "warnings": [f"{user_id}/ is not a directory"],
         }
 
     self_raw = read_path(user_dir / "self.md")
@@ -87,17 +87,17 @@ def load_record_slices_for_lesson(
     slices["self_skills"] = s_skills
 
     provenance["self"] = {
-        "source": f"users/{user_id}/self.md",
+        "source": f"{user_id}/self.md",
         "char_count": len(s_self),
         "truncated": tr_self,
     }
     provenance["skill_think"] = {
-        "source": f"users/{user_id}/skill-think.md",
+        "source": f"{user_id}/skill-think.md",
         "char_count": len(s_think),
         "truncated": tr_think,
     }
     provenance["self_skills"] = {
-        "source": f"users/{user_id}/self-skills.md (or legacy skills.md)",
+        "source": f"{user_id}/self-skills.md (or legacy skills.md)",
         "char_count": len(s_skills),
         "truncated": tr_skills,
     }

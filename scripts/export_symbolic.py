@@ -149,7 +149,7 @@ def main() -> None:
         description="Export Record to symbolic JSON for Intersignal Familiar nodes"
     )
     parser.add_argument("--user", "-u", default="grace-mar", help="User id")
-    parser.add_argument("--output", "-o", default=None, help="Output directory (default: users/[id]/)")
+    parser.add_argument("--output", "-o", default=None, help="Output directory (default: )")
     args = parser.parse_args()
 
     data = export_symbolic(user_id=args.user)

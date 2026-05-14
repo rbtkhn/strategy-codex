@@ -3,7 +3,7 @@
 
 Focuses on failure modes observed in bookshelf MCQ -> IX-A flows:
 - placeholder suggested_entry
-- missing IX-A scaffold in self.md
+- missing IX-A scaffold in self-knowledge.md
 - missing topic anchor in source_exchange for IX-A candidates
 - methodology-style wording in IX-A suggested_entry
 """
@@ -172,6 +172,7 @@ def main() -> int:
     user_root = profile_dir(args.user)
     gate_path = args.gate or (user_root / "recursion-gate.md")
     self_path = args.self_path or (user_root / "self.md")
+    self_knowledge_path = user_root / "self-knowledge.md"
     if not gate_path.is_file():
         print(f"ERROR: missing gate file: {gate_path}")
         return 1
@@ -181,6 +182,7 @@ def main() -> int:
 
     gate = gate_path.read_text(encoding="utf-8")
     self_md = self_path.read_text(encoding="utf-8")
+    self_knowledge_md = self_knowledge_path.read_text(encoding="utf-8") if self_knowledge_path.is_file() else self_md
 
     blockers: list[str] = []
     warnings: list[str] = []
@@ -190,8 +192,8 @@ def main() -> int:
             "(path/layout checks still run)"
         )
 
-    if not has_ix_a_scaffold(self_md):
-        blockers.append("self.md IX-A scaffold missing `Facts (LEARN-nnn)` entries block")
+    if not has_ix_a_scaffold(self_knowledge_md):
+        blockers.append("self-knowledge.md IX-A scaffold missing `Facts (LEARN-nnn)` entries block")
     catalog_ids = _load_catalog_ids(args.catalog)
     anchor_refs = _load_anchor_refs(args.quiz_anchors)
 

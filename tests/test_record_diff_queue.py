@@ -183,7 +183,7 @@ class TestRenderer:
     def test_collect_diffs_from_demo_dir(self):
         from render_record_diff_queue import collect_diffs
 
-        diffs = collect_diffs(["users/demo/review-queue/diffs/"])
+        diffs = collect_diffs(["demo/review-queue/diffs/"])
         assert len(diffs) >= 2
         ids = {d["diffId"] for d in diffs}
         assert "diff-001" in ids
@@ -265,7 +265,7 @@ class TestCLI:
     def test_renderer_on_demo_data(self):
         result = subprocess.run(
             [sys.executable, str(ROOT / "scripts" / "render_record_diff_queue.py"),
-             "users/demo/review-queue/diffs/"],
+             "demo/review-queue/diffs/"],
             capture_output=True, text=True, cwd=str(ROOT),
         )
         assert result.returncode == 0
@@ -276,7 +276,7 @@ class TestCLI:
     def test_renderer_json_mode(self):
         result = subprocess.run(
             [sys.executable, str(ROOT / "scripts" / "render_record_diff_queue.py"),
-             "--json", "users/demo/review-queue/diffs/"],
+             "--json", "demo/review-queue/diffs/"],
             capture_output=True, text=True, cwd=str(ROOT),
         )
         assert result.returncode == 0
@@ -288,7 +288,7 @@ class TestCLI:
         out = tmp_path / "queue.md"
         result = subprocess.run(
             [sys.executable, str(ROOT / "scripts" / "render_record_diff_queue.py"),
-             "--output", str(out), "users/demo/review-queue/diffs/"],
+             "--output", str(out), "demo/review-queue/diffs/"],
             capture_output=True, text=True, cwd=str(ROOT),
         )
         assert result.returncode == 0

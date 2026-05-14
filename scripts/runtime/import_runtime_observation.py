@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Import a JSON payload from a runtime into runtime-complements/inbox + receipt (membrane v1).
 
-Stdlib only. Does not touch users/, recursion-gate, or bot/prompt.
+Stdlib only. Does not touch , recursion-gate, or bot/prompt.
 """
 
 from __future__ import annotations

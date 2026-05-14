@@ -34,7 +34,7 @@ def test_build_governance_posture_contains_core_sections(tmp_path: Path) -> None
     assert "## No silent merge" in md
     assert "## Inspectability" in md
     assert "## Audit file presence" in md
-    assert f"users/{uid}/recursion-gate.md" in md
+    assert f"{uid}/recursion-gate.md" in md
     assert "present" in md
     assert "validate-integrity.py" in md
     assert "run_voice_benchmark.py" in md
