@@ -24,12 +24,14 @@ try:
     from harness_warmup import _pending_candidates, _read, _session_lines_tail
     from operator_daily_warmup import _format_last_dream_block, _read_last_dream
     from operator_depth_hint import velocity_oneliner
+    from repo_io import DEFAULT_USER_ID, profile_dir
     from work_politics_ops import get_work_politics_snapshot
 except ImportError:
     from scripts.context_budget import get_int, load_context_budget
     from scripts.harness_warmup import _pending_candidates, _read, _session_lines_tail
     from scripts.operator_daily_warmup import _format_last_dream_block, _read_last_dream
     from scripts.operator_depth_hint import velocity_oneliner
+    from scripts.repo_io import DEFAULT_USER_ID, profile_dir
     from scripts.work_politics_ops import get_work_politics_snapshot
 
 USERS_DIR = REPO_ROOT / "users"
@@ -45,7 +47,7 @@ def _count_block(label: str, text: str) -> dict[str, object]:
 
 
 def build_context_tax_report(*, user_id: str) -> dict[str, object]:
-    user_dir = USERS_DIR / user_id
+    user_dir = profile_dir(user_id)
     coffee_budget = load_context_budget("coffee")
     tail_n = get_int(coffee_budget, "max_session_tail_lines", 3)
 
@@ -99,7 +101,7 @@ def build_context_tax_report(*, user_id: str) -> dict[str, object]:
 
 def main() -> int:
     p = argparse.ArgumentParser(description="Audit approximate context tax for operator warmup surfaces.")
-    p.add_argument("-u", "--user", default="grace-mar", help="User id")
+    p.add_argument("-u", "--user", default=DEFAULT_USER_ID, help=f"User id (default: {DEFAULT_USER_ID})")
     p.add_argument("--json", action="store_true", help="Emit JSON report")
     args = p.parse_args()
     report = build_context_tax_report(user_id=args.user)

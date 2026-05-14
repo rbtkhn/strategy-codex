@@ -9,8 +9,8 @@ import by harness_warmup.py.
 Read-only operator tooling â€” no file writes.
 
 Usage:
-  python scripts/audit_cadence_rhythm.py -u grace-mar
-  python scripts/audit_cadence_rhythm.py -u grace-mar --days 14 --json
+  python scripts/audit_cadence_rhythm.py -u strategy-codex
+  python scripts/audit_cadence_rhythm.py -u strategy-codex --days 14 --json
 """
 
 from __future__ import annotations
@@ -27,20 +27,20 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 EVENTS_PATH = REPO_ROOT / "docs" / "skill-work" / "work-cadence" / "work-cadence-events.md"
 
 try:
-    from repo_io import profile_dir
+    from repo_io import DEFAULT_USER_ID, profile_dir
 except ImportError:
-    from scripts.repo_io import profile_dir
+    from scripts.repo_io import DEFAULT_USER_ID, profile_dir
 
-DEFAULT_GATE_PATH = profile_dir("grace-mar") / "recursion-gate.md"
+DEFAULT_GATE_PATH = profile_dir(DEFAULT_USER_ID) / "recursion-gate.md"
 
 import re
 
 _EVENT_LINE_RE = re.compile(
-    r"- \*\*(\d{4}-\d{2}-\d{2}) (\d{2}:\d{2}) UTC\*\* â€” (\w+) \(([^)]+)\)"
+    r"- \*\*(\d{4}-\d{2}-\d{2}) (\d{2}:\d{2}) UTC\*\* (?:—|â€”|-) (\w+) \(([^)]+)\)"
 )
 
 
-_KV_RE = re.compile(r"(\w+)=(\S+)")
+_KV_START_RE = re.compile(r"(\w+)=")
 KNOWN_CONDUCTOR_SLUGS = frozenset(
     {"toscanini", "furtwangler", "karajan", "kleiber", "bernstein"}
 )
@@ -71,9 +71,25 @@ def parse_events(
             )
         except ValueError:
             continue
-        kv = dict(_KV_RE.findall(line.strip()))
+        kv = _parse_kv_payload(line.strip())
         events.append({"dt": dt, "kind": kind, "user": user, "line": line.strip(), "kv": kv})
     return events
+
+
+def _parse_kv_payload(line: str) -> dict[str, str]:
+    """Parse space-delimited key=value payloads while preserving spaces inside values."""
+    matches = list(_KV_START_RE.finditer(line))
+    if not matches:
+        return {}
+    kv: dict[str, str] = {}
+    for idx, match in enumerate(matches):
+        key = match.group(1)
+        value_start = match.end()
+        value_end = matches[idx + 1].start() if idx + 1 < len(matches) else len(line)
+        value = line[value_start:value_end].strip()
+        if value:
+            kv[key] = value
+    return kv
 
 
 def _normalize_conductor_slug(value: str | None) -> str:
@@ -529,7 +545,7 @@ def format_tier_report(s: dict) -> str:
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="Cadence rhythm auditor â€” discipline summary.")
-    ap.add_argument("-u", "--user", default=os.getenv("GRACE_MAR_USER_ID", "grace-mar"))
+    ap.add_argument("-u", "--user", default=os.getenv("GRACE_MAR_USER_ID", DEFAULT_USER_ID))
     ap.add_argument("--days", type=int, default=14, help="Look-back window in days (default 14)")
     ap.add_argument("--json", action="store_true", help="Output JSON instead of text")
     ap.add_argument("--tier-report", action="store_true", help="Standalone model-tier distribution")

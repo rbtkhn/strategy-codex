@@ -18,12 +18,12 @@ Modes
 
 Usage
 -----
-    python3 scripts/operator_coffee.py -u grace-mar                     # default: work-start
-    python3 scripts/operator_coffee.py -u grace-mar --mode light
-    python3 scripts/operator_coffee.py -u grace-mar --mode closeout
-    python3 scripts/operator_coffee.py -u grace-mar --mode reentry --compact
-    python3 scripts/operator_coffee.py -u grace-mar --verbose-dream   # full last-dream block in daily warmup
-    CURSOR_MODEL="Sonnet" python3 scripts/operator_coffee.py -u grace-mar   # cadence audit parity (optional)
+    python3 scripts/operator_coffee.py                                  # default: strategy-codex work-start
+    python3 scripts/operator_coffee.py -u strategy-codex --mode light
+    python3 scripts/operator_coffee.py -u strategy-codex --mode closeout
+    python3 scripts/operator_coffee.py -u strategy-codex --mode reentry --compact
+    python3 scripts/operator_coffee.py -u strategy-codex --verbose-dream   # full last-dream block in daily warmup
+    CURSOR_MODEL="Sonnet" python3 scripts/operator_coffee.py -u strategy-codex   # cadence audit parity (optional)
 """
 
 from __future__ import annotations
@@ -37,7 +37,7 @@ _REPO = Path(__file__).resolve().parent.parent
 _SCRIPTS = Path(__file__).resolve().parent
 if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
-from repo_io import profile_dir
+from repo_io import DEFAULT_USER_ID, profile_dir
 MODES = ("work-start", "light", "minimal", "closeout", "reentry")
 
 
@@ -86,7 +86,7 @@ def main() -> int:
     p = argparse.ArgumentParser(
         description="Consolidated coffee Step 1 - single entry point for all warmup modes."
     )
-    p.add_argument("-u", "--user", default="grace-mar", help="User id (default: grace-mar)")
+    p.add_argument("-u", "--user", default=DEFAULT_USER_ID, help=f"User id (default: {DEFAULT_USER_ID})")
     p.add_argument(
         "--mode", "-m",
         choices=MODES,

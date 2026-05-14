@@ -8,6 +8,8 @@
 
 Distinct modes govern what the agent may do. Avoid mixing them.
 
+**Active identity:** In this repository, default all operator work to `strategy-codex`. Mentions of `grace-mar`, `Grace-Mar`, or `companion-self` in older docs, examples, paths, or archived reports are legacy context unless the operator explicitly asks for that migration/archive lane. Do not infer companion-self template sync from a bare Steward, coffee, integrity, or boundary request.
+
 | Mode | Purpose | Agent behavior |
 |------|---------|----------------|
 | **Session** | Interactive conversation with companion | Respond as Voice; propose activities. Do not merge. Do not stage unless "we [did X]" triggers pipeline. |
@@ -31,7 +33,7 @@ When in doubt, default to Session (conversational, no merges).
 
 ## Success Metrics (Targeting System)
 
-What "good" looks like for Grace-Mar:
+What "good" looks like for the strategy-codex embedded Record/runtime:
 
 | Metric | Target | How to verify |
 |--------|--------|---------------|
@@ -130,8 +132,8 @@ repo-root/
         â”œâ”€â”€ instance-doctrine.md  # Instance-specific operating rules (Layer 2)
         â”œâ”€â”€ self.md             # Identity + three-dimension mind
         â”œâ”€â”€ self-skills.md      # Capability index (Claims, Gaps, Struggles, Milestones); legacy `skills.md` resolved until migrated
-        â”œâ”€â”€ skill-think.md      # THINK, MATH, CHINESE containers
-        â”œâ”€â”€ skill-write.md      # WRITE container
+        â”œâ”€â”€ skill-think.md      # THINK container (repo-specific root filename; conceptual label: self-skill-think)
+        â”œâ”€â”€ skill-write.md      # WRITE container (repo-specific root filename; conceptual label: self-skill-write)
         â”œâ”€â”€ work-alpha-school.md # WORK context (separate from SKILLS)
         â”œâ”€â”€ codex/predictive-history/README-operator.md        # WORK â€” Jiang project
         â”œâ”€â”€ self-archive.md          # EVIDENCE â€” activity log + Â§ VIII gated approved

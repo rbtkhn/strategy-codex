@@ -15,7 +15,6 @@ from typing import Any
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_USERS_DIR = REPO_ROOT / "users"
-DEFAULT_USER = "grace-mar"
 
 for path in (REPO_ROOT / "scripts",):
     path_str = str(path)
@@ -31,7 +30,9 @@ from fork_config import load_fork_config
 from emit_pipeline_event import append_pipeline_event
 from log_cadence_event import append_cadence_event, resolve_cursor_model
 from harness_warmup import _pending_candidates
-from repo_io import profile_dir, resolve_self_memory_path
+from repo_io import DEFAULT_USER_ID, profile_dir, resolve_self_memory_path
+
+DEFAULT_USER = DEFAULT_USER_ID
 
 try:
     from dream_catchup import catch_up_window_dict, missing_strategy_notebook_days
@@ -53,7 +54,7 @@ def _user_root(users_dir: Path, user_id: str) -> Path:
 
 
 def _classify_worktree_grace(status_out: str, diff_out: str) -> tuple[str, str]:
-    """Read-only triage for last-dream.json (no commits). Mirrors companion-self cadence-dream."""
+    """Read-only triage for last-dream.json (no commits). Strategy-codex local cadence helper."""
     combined = f"{status_out}\n{diff_out}".lower()
     if "unmerged" in combined or "both modified" in combined:
         return (
@@ -1143,7 +1144,7 @@ def format_auto_dream_summary(summary: dict[str, Any]) -> str:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Run bounded self-memory maintenance and contradiction digest refresh.")
-    parser.add_argument("--user", "-u", default=DEFAULT_USER, help="User id (default: grace-mar)")
+    parser.add_argument("--user", "-u", default=DEFAULT_USER, help=f"User id (default: {DEFAULT_USER})")
     parser.add_argument("--users-dir", type=Path, default=DEFAULT_USERS_DIR, help="Users directory root")
     parser.add_argument("--json", action="store_true", help="Emit JSON summary")
     parser.add_argument("--dry-run", action="store_true", help="Do not write self-memory, derived digest, or events")

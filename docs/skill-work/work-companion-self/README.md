@@ -1,5 +1,7 @@
 ﻿# Skill-work-companion-self
 
+> **Strategy-codex status:** This territory is legacy/archive context. Do not use it as an active `coffee` / Steward default, and do not route current strategy-codex boundary hygiene through companion-self template sync unless the operator explicitly asks for that obsolete migration lane.
+
 **Objective:** Eventually enable Grace-Mar to autonomously manage and improve the companion-self codebase â€” and to maintain proper sync between companion-self and grace-mar.
 
 Companion-self is both the **concept** (companion's self + self that companions, self-* taxonomy, triadic cognition) and the **template repo** ([github.com/rbtkhn/companion-self](https://github.com/rbtkhn/companion-self)). Grace-Mar is a private instance and working tool built from that template. This submodule scopes: (1) **sync** â€” keeping grace-mar aligned with companion-self; (2) **contribution back** â€” proposing improvements upstream.
@@ -92,7 +94,7 @@ This track is **discretionary** â€” unlike Track 1 and 2, it is not a recur
 
 ## Reconciliation code audit (upstream and downstream)
 
-Any **template + boundary audit** (including [coffee](../../../.cursor/skills/coffee/SKILL.md) **A**; legacy hey **A** still works) should end with an explicit **reconciliation code** subsection â€” not only doc drift. **Reconciliation code** means scripts, validators, CI recipes, manifest/index tooling, or hooks that **compare, merge, validate, or sync** template â†” instance.
+When the operator explicitly invokes this legacy territory for a **template + boundary audit**, end with an explicit **reconciliation code** subsection â€” not only doc drift. Do not infer this path from bare [coffee](../../../.cursor/skills/coffee/SKILL.md) **A**. **Reconciliation code** means scripts, validators, CI recipes, manifest/index tooling, or hooks that **compare, merge, validate, or sync** template â†” instance.
 
 | Direction | Question | Be specific |
 |-----------|----------|-------------|
