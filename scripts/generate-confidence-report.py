@@ -3,7 +3,7 @@
 Generate a confidence dashboard (Plotly radar HTML) from seed_confidence_map.json.
 
 Usage:
-  python3 scripts/generate-confidence-report.py users/demo/seed-phase
+  python3 scripts/generate-confidence-report.py demo/seed-phase
 
 Optional deps: pip install -r scripts/requirements-seed-phase-dashboard.txt
 Without plotly: script exits 1 with install hint.

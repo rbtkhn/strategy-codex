@@ -127,7 +127,7 @@ def synthesize_constitution(seed_dir: Path) -> dict:
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="Generate seed_constitution.json from seed-phase directory")
-    ap.add_argument("directory", type=Path, help="e.g. users/demo/seed-phase")
+    ap.add_argument("directory", type=Path, help="e.g. demo/seed-phase")
     args = ap.parse_args()
     seed_dir = (REPO_ROOT / args.directory).resolve() if not args.directory.is_absolute() else args.directory
     if not seed_dir.is_dir():

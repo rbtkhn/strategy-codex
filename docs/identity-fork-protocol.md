@@ -278,7 +278,7 @@ These are **packaging modes**, not autonomy modes. They may change export depth,
 
 IFP is **not a competitor** to AI schools or platforms. It is the identity layer that prevents vendor lock-in.
 
-- **Alpha, Prisma, Synthesis** — Consumers of identity; they teach, IFP records
+- **AI school, Prisma, Synthesis** — Consumers of identity; they teach, IFP records
 - **Families** — Own the Record; platforms consume it with consent
 - **Agents** — Query identity for personalization; never own it
 

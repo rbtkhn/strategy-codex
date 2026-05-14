@@ -126,7 +126,7 @@ def growth_from_git(self_path: Path) -> list[tuple[str, int, int, int]]:
         seen.add(commit)
         try:
             show = subprocess.run(
-                ["git", "show", f"{commit}:users/grace-mar/self.md"],
+                ["git", "show", f"{commit}:self.md"],
                 cwd=REPO_ROOT,
                 capture_output=True,
                 text=True,
@@ -150,7 +150,7 @@ def main() -> None:
         "--user",
         "-u",
         default="",
-        help="User id under users/ (default: GRACE_MAR_USER_ID or grace-mar if present, else _template).",
+        help="User id under  (default: GRACE_MAR_USER_ID or grace-mar if present, else _template).",
     )
     parser.add_argument(
         "--min-avg-words",
@@ -207,7 +207,7 @@ def main() -> None:
         by_channel[e["channel"]] += 1
     a, b, c = by_channel["A"], by_channel["B"], by_channel["C"]
     total_ix = a + b + c
-    balance = f"{a}:{b}:{c}" if total_ix else "—"
+    balance = f"{a}:{b}:{c}" if total_ix else "â€”"
 
     # Git history (optional)
     git_history = growth_from_git(self_path)
@@ -228,7 +228,7 @@ def main() -> None:
         first = git_history[-1]
         last = git_history[0]
         delta = (last[1] + last[2] + last[3]) - (first[1] + first[2] + first[3])
-        print(f"Git history:          {first[0]} → {last[0]}, ΔIX = {delta}")
+        print(f"Git history:          {first[0]} â†’ {last[0]}, Î”IX = {delta}")
 
     print("\nCognitive density")
     print("-" * 30)

@@ -1,7 +1,7 @@
 system_name: grace-mar
 canonical_truth_source:
-  - users/grace-mar/self.md
-  - users/grace-mar/self-library.md
+  - self.md
+  - self-library.md
 runtimes:
   - openclaw
 handback_path:

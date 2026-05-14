@@ -1,4 +1,4 @@
-"""Subprocess tests for scripts/generate-seed-dossier.py (tmp dirs only — never users/demo)."""
+"""Subprocess tests for scripts/generate-seed-dossier.py (tmp dirs only — never demo)."""
 
 from __future__ import annotations
 

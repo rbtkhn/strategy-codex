@@ -1,12 +1,8 @@
 {
   "folders": [
     {
-      "name": "grace-mar",
+      "name": "strategy-codex",
       "path": "."
-    },
-    {
-      "name": "companion-self",
-      "path": "companion-self"
     }
   ],
   "settings": {}

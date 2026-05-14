@@ -69,7 +69,7 @@ def main() -> None:
                 except Exception:
                     pass
 
-    print("Done. Open users/{}/session-transcript.md and recursion-gate.md in Cursor.".format(args.user))
+    print("Done. Open {}/session-transcript.md and recursion-gate.md in Cursor.".format(args.user))
 
 
 if __name__ == "__main__":

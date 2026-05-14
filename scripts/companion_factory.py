@@ -3,11 +3,11 @@
 Create a new governed instance directory tree from a companion-self template checkout.
 
 This is not a substitute for ``git clone`` + remote setup; it copies a local template
-root to a new folder and seeds ``users/<instance>/seed-phase/`` from
-``users/_template/seed-phase/``.
+root to a new folder and seeds ``<instance>/seed-phase/`` from
+``_template/seed-phase/``.
 
 **Warning:** Running with ``--template`` pointing at a private **instance** repo (e.g.
-grace-mar with live ``users/<id>/``) may copy Record data. Prefer a clean **template**
+grace-mar with live ````) may copy Record data. Prefer a clean **template**
 checkout (companion-self) as ``--template``.
 
 Usage:
@@ -16,7 +16,7 @@ Usage:
       --output-dir /path/to/parent
 
 Next step (printed after success):
-  python3 scripts/validate-seed-phase.py users/<instance>/seed-phase --allow-placeholders
+  python3 scripts/validate-seed-phase.py <instance>/seed-phase --allow-placeholders
 """
 
 from __future__ import annotations
@@ -98,7 +98,7 @@ def cmd_new(instance_name: str, template: Path, output_dir: Path) -> int:
     }
     (dest / "instance-metadata.json").write_text(json.dumps(meta, indent=2) + "\n", encoding="utf-8")
 
-    rel_seed = f"users/{instance_name}/seed-phase"
+    rel_seed = f"{instance_name}/seed-phase"
     print(f"Created instance at {dest}")
     print("Next:")
     print(f"  cd {dest}")
@@ -111,7 +111,7 @@ def main() -> int:
     sub = ap.add_subparsers(dest="command", required=True)
 
     new_p = sub.add_parser("new", help="Copy template to a new instance directory")
-    new_p.add_argument("instance_name", help="New user id / folder name under users/")
+    new_p.add_argument("instance_name", help="New user id / folder name under ")
     new_p.add_argument(
         "--template",
         type=Path,

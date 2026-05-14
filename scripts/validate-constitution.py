@@ -3,7 +3,7 @@
 Validate seed_constitution.json (JSON Schema + policy hints).
 
 Usage:
-  python3 scripts/validate-constitution.py users/demo/seed-phase
+  python3 scripts/validate-constitution.py demo/seed-phase
 """
 
 from __future__ import annotations

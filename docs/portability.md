@@ -55,7 +55,7 @@ What the companion gives to the new school depends on integration depth.
 | **Emulation-ready bundle** | Runtime bundle + PRP + fork export + authority map + change-proposal return contract | `python scripts/export.py emulation -- --mode portable_bundle_only -o handoff-emulation-bundle` |
 | **Light handoff** | Identity + SKILLS summary | Run `export_user_identity`; optionally append SKILLS container status (edges, gaps) from skills.md |
 
-**Recommended default:** Identity export (`export_user_identity`) is sufficient for most schools (Alpha/Incept, tutors, onboarding). Use full fork when the school needs full evidence history.
+**Recommended default:** Identity export (`export_user_identity`) is sufficient for most schools (school platform, tutors, onboarding). Use full fork when the school needs full evidence history.
 
 ### Runtime modes
 

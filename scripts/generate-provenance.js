@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Summarize mtimes for markdown under users/ and docs/ only.
+ * Summarize mtimes for markdown under  and docs/ only.
  */
 const fs = require("fs");
 const path = require("path");

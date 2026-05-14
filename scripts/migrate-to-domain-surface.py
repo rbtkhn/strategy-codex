@@ -172,7 +172,7 @@ def main() -> int:
         '--user-id',
         type=str,
         default='grace-mar',
-        help='users/<id>/self.md link target (default grace-mar)',
+        help='self.md link target (default grace-mar)',
     )
     args = parser.parse_args()
 

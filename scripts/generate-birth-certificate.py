@@ -6,8 +6,8 @@ Genesis hash: SHA-256 of UTF-8 newlines joining canonical JSON (sort_keys, compa
 for each file in seed_phase_artifacts.SCHEMA_BY_FILE order.
 
 Usage:
-  python3 scripts/generate-birth-certificate.py users/demo/seed-phase
-  python3 scripts/generate-birth-certificate.py users/demo/seed-phase \\
+  python3 scripts/generate-birth-certificate.py demo/seed-phase
+  python3 scripts/generate-birth-certificate.py demo/seed-phase \\
       --private-key path/to/ed25519.pem
 
 Env:
@@ -76,7 +76,7 @@ def _load_ed25519_private_key(pem_path: Path):
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="Generate signed seed birth certificate.")
-    ap.add_argument("directory", type=Path, help="seed-phase directory, e.g. users/demo/seed-phase")
+    ap.add_argument("directory", type=Path, help="seed-phase directory, e.g. demo/seed-phase")
     ap.add_argument(
         "--private-key",
         type=Path,

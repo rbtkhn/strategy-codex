@@ -7,7 +7,7 @@ agent rules. Not a substitute for human design review or RECURSION-GATE.
 
 Usage:
   python3 scripts/validate-design-md.py
-  python3 scripts/validate-design-md.py --file users/grace-mar/DESIGN.md --strict
+  python3 scripts/validate-design-md.py --file DESIGN.md --strict
 """
 
 from __future__ import annotations
@@ -182,7 +182,7 @@ def main() -> int:
     parser.add_argument(
         "--file",
         type=Path,
-        default=ROOT / "users/grace-mar/DESIGN.md",
+        default=ROOT / "DESIGN.md",
         help="Path to DESIGN.md",
     )
     parser.add_argument(

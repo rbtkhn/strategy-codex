@@ -79,4 +79,4 @@ def test_save_file_writes_relative_message(tmp_path, capsys):
     mod.save_file(target, "body\n", repo_root=repo)
     assert target.read_text(encoding="utf-8") == "body\n"
     out = capsys.readouterr().out
-    assert "users/u1/reflection-proposals/x.md" in out.replace("\\", "/")
+    assert "u1/reflection-proposals/x.md" in out.replace("\\", "/")

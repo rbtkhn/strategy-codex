@@ -3,8 +3,8 @@
 Validate seed-phase artifact directories against schema-registry JSON Schemas.
 
 Usage:
-  python3 scripts/validate-seed-phase.py users/demo/seed-phase
-  python3 scripts/validate-seed-phase.py users/_template/seed-phase --allow-placeholders
+  python3 scripts/validate-seed-phase.py demo/seed-phase
+  python3 scripts/validate-seed-phase.py _template/seed-phase --allow-placeholders
 """
 
 from __future__ import annotations
@@ -29,7 +29,7 @@ REQUIRED_FILES = [
 
 def main() -> None:
     ap = argparse.ArgumentParser(description="Validate seed-phase artifact directory")
-    ap.add_argument("directory", type=Path, help="e.g. users/demo/seed-phase")
+    ap.add_argument("directory", type=Path, help="e.g. demo/seed-phase")
     ap.add_argument(
         "--allow-placeholders",
         action="store_true",

@@ -120,17 +120,17 @@ lanes:
       - "grace-mar-bootstrap.md"
       - "bootstrap/grace-mar-bootstrap.md"
     forbidden_paths:
-      - "docs/skill-work/work-jiang/**"
-      - "research/external/work-jiang/**"
+      - "codex/predictive-history/**"
+      - "codex/predictive-history/**"
       - "scripts/work_jiang/**"
-      - "users/*/work-jiang.md"
+      - "codex/predictive-history/README-operator.md"
 
   work-jiang:
     owned_paths:
-      - "docs/skill-work/work-jiang/**"
-      - "research/external/work-jiang/**"
+      - "codex/predictive-history/**"
+      - "codex/predictive-history/**"
       - "scripts/work_jiang/**"
-      - "users/*/work-jiang.md"
+      - "codex/predictive-history/README-operator.md"
       - ".github/workflows/work-jiang.yml"
       - "tests/test_work_jiang*.py"
     allowed_shared_paths:
@@ -138,8 +138,8 @@ lanes:
       - ".github/workflows/lane-scope.yml"
       - ".github/pull_request_template.md"
     forbidden_paths:
-      - "users/grace-mar/self.md"
-      - "users/grace-mar/self-evidence.md"
+      - "self.md"
+      - "self-evidence.md"
       - "bot/prompt.py"
 
   work-cici:
@@ -208,7 +208,7 @@ lanes:
 
   companion-record:
     owned_paths:
-      - "users/**"
+      - "**"
       - "bot/prompt.py"
       - "bot/bot.py"
       - "bot/wechat_bot.py"
@@ -229,7 +229,7 @@ lanes:
       - "docs/**"
       - "bot/requirements.txt"
     forbidden_paths:
-      - "research/external/work-jiang/**"
+      - "codex/predictive-history/**"
 
   infra:
     owned_paths:

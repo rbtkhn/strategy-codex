@@ -1,10 +1,10 @@
 # Plan Mission: [Concise Task Title]
 
-**Date:** YYYY-MM-DD  
-**Version:** 1.0  
-**Origin Plan-for-Plan:** plan-for-plan-YYYY-MM-DD-[slug].md  
-**Author / Operator:** [Your Name]  
-**Lane / Territory:** work-dev | work-strategy | work-[other]  
+**Date:** YYYY-MM-DD
+**Version:** 1.0
+**Origin Plan-for-Plan:** plan-for-plan-YYYY-MM-DD-[slug].md
+**Author / Operator:** [Your Name]
+**Lane / Territory:** work-dev | work-strategy | work-[other]
 **Status:** Draft -> Reviewed -> Approved -> Executing -> Complete
 
 ## 1. Objective
@@ -46,23 +46,32 @@
 - Per-token leverage: Is this high-value thinking or high-volume noise?
 - Recursive self-improvement impact: How does this help the system improve itself?
 
-## 7. File Changes & Artifacts
+## 7. Agentic Risk & Safety Review
+Complete this section for any task involving agents, tools, delegated execution, automation, skill admission, external integrations, or write-capable workflows. If not applicable, write `not_applicable` with one sentence explaining why.
+
+- **Human-context vs agent-context:** What can a human see or do that the agent cannot? What context is intentionally withheld from the agent?
+- **Permission scope and blast radius:** What files, tools, credentials, surfaces, or lanes can the agent touch? What is the worst credible failure if compromised or confused?
+- **Audit receipts:** Which existing receipt surfaces will show intent, tools/actions, model/runtime, and outcome (for example: git history, `pipeline-events.jsonl`, `merge-receipts.jsonl`, cadence events, compute ledger, sandbox receipts, runtime observability)?
+- **Revocation / stop path:** Who can halt the agent or workflow, how, and how quickly?
+- **Pressure default:** Under deadline pressure, does the system deny, stay read-only, or escalate to the gate/operator rather than widening access?
+
+## 8. File Changes & Artifacts
 **Files to Create / Modify:**
 - `path/to/file1.md` -> [purpose]
 
 **Files to Stage for Gate Review:**
 - List of proposed Record updates
 
-## 8. Testing & Validation Plan
+## 9. Testing & Validation Plan
 - Unit / integration tests
 - Consistency checks against self.md, AGENTS.md, recursion-gate.md
 - Manual gate review checklist
 
-## 9. Risks & Mitigations
+## 10. Risks & Mitigations
 - Risk -> Mitigation
 - Gate rejection risk -> ...
 
-## 10. Gate Preparation
+## 11. Gate Preparation
 - Proposed changes to `recursion-gate.md`
 - Evidence links
 - Summary of impact on the Record

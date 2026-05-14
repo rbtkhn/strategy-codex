@@ -2,7 +2,7 @@
 """
 Seed Phase Wizard — grace-mar adapted
 
-Interactive operator bootstrap under users/<id>/ (reflection-proposals, seed/,
+Interactive operator bootstrap under  (reflection-proposals, seed/,
 self-memory.md touches). Does **not** write SELF or EVIDENCE: durable facts enter only
 through RECURSION-GATE and approval per docs/identity-fork-protocol.md.
 
@@ -102,10 +102,10 @@ def run_validators(repo: Path, user_id: str, *, require_proposal_class: bool) ->
     miss = missing_canonical_record_files(user_id)
     if miss:
         print(
-            f"{Colors.WARNING}Skipping integrity/governance: users/{user_id}/ not ready — "
+            f"{Colors.WARNING}Skipping integrity/governance: {user_id}/ not ready — "
             f"missing: {', '.join(miss)}{Colors.ENDC}"
         )
-        print("Complete users/_template scaffold or copy from docs/self-template.md, then re-run.")
+        print("Complete _template scaffold or copy from docs/self-template.md, then re-run.")
         return
 
     cmd_i = [
@@ -156,7 +156,7 @@ def run_wizard(
     print(f"{Colors.ENDC}")
 
     print(
-        "Creates operator seed artifacts under users/<id>/. "
+        "Creates operator seed artifacts under . "
         "Does not merge into self.md or self-archive.md — use RECURSION-GATE.\n"
     )
 
@@ -164,7 +164,7 @@ def run_wizard(
         print("Run from the grace-mar repo root.")
         sys.exit(1)
 
-    instance = ask("Companion instance id (directory under users/)", user_id).strip() or user_id
+    instance = ask("Companion instance id (directory under )", user_id).strip() or user_id
     profile = user_profile_dir(repo_root, instance)
     profile.mkdir(parents=True, exist_ok=True)
     (profile / "reflection-proposals").mkdir(parents=True, exist_ok=True)
@@ -260,7 +260,7 @@ def run_wizard(
     print("     SEED PHASE COMPLETED (operator artifacts only)")
     print("=" * 50)
     print(f"{Colors.ENDC}")
-    print(f"Instance **{instance}** — artifacts under users/{instance}/.")
+    print(f"Instance **{instance}** — artifacts under {instance}/.")
     print("Durable Record changes still require companion approval through the gate.\n")
 
 
@@ -270,7 +270,7 @@ def main() -> None:
         "-u",
         "--user",
         default=os.getenv("GRACE_MAR_USER_ID", DEFAULT_USER_ID).strip() or DEFAULT_USER_ID,
-        help="Fork id (users/<id>/)",
+        help="Fork id ()",
     )
     ap.add_argument(
         "--require-proposal-class",

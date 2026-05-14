@@ -1,4 +1,4 @@
-﻿# STRATEGY-CODEX BOOTSTRAP
+# STRATEGY-CODEX BOOTSTRAP
 
 Session bootstrap for continuing work in `strategy-codex` in a new agent conversation. The file name is historical; the repo identity is now `strategy-codex`, while Grace-Mar remains an embedded live instance inside the tree.
 
@@ -92,7 +92,7 @@ End of session: update **`docs/development-handoff.md`**, commit, push if reques
 7. Use Â§5 OpenClaw commands and Â§6 work-dev / OpenClaw file map below.
 
 **Other session focus:**
-- If **work-jiang** (Jiang book/site operator lane), read **`bootstrap/work-jiang-bootstrap.md`** then `research/external/work-jiang/README.md` Â§ Boundaries and the work-jiang feature checklist skill.
+- If **work-jiang** (Jiang book/site operator lane), read **`bootstrap/work-jiang-bootstrap.md`** then `codex/predictive-history/README.md` Â§ Boundaries and the work-jiang feature checklist skill.
 - If **extension-focused** (not work-dev), read Â§1 then **extension/readme.md** and skim `extension/`. Use Â§5 Extension commands and Â§6 Extension file map below.
 
 ---
@@ -347,4 +347,3 @@ Before ending a development session:
 ---
 
 END OF FILE â€” GRACE-MAR BOOTSTRAP
-

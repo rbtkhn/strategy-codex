@@ -72,7 +72,7 @@ def test_validate_rejects_users_prefix(tmp_path: Path) -> None:
             entries:
               - id: bad
                 title: Bad
-                path: users/grace-mar/self.md
+                path: self.md
             """
         ),
     )

@@ -7,7 +7,7 @@ from tests.conftest import REPO_ROOT, copy_fixture, repo_python, run_cmd
 
 def test_demo_seed_phase_passes_strict_validation() -> None:
     result = run_cmd(
-        [repo_python(), "scripts/validate-seed-phase.py", "users/demo/seed-phase"],
+        [repo_python(), "scripts/validate-seed-phase.py", "demo/seed-phase"],
         cwd=REPO_ROOT,
     )
     assert result.returncode == 0, result.stderr or result.stdout
@@ -18,7 +18,7 @@ def test_template_seed_phase_passes_placeholder_validation() -> None:
         [
             repo_python(),
             "scripts/validate-seed-phase.py",
-            "users/_template/seed-phase",
+            "_template/seed-phase",
             "--allow-placeholders",
         ],
         cwd=REPO_ROOT,

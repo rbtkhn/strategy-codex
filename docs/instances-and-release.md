@@ -27,7 +27,7 @@ An instance of Grace-Mar "released into cyberspace" is therefore: **a Voice inst
 ### 2.1 Authorized, Bounded
 
 - **Export to school** — Identity or full-fork export for admission, tutoring, or curriculum. Consumer is a known institution; use is read-only or limited (e.g., "tailor lessons to this profile"). No Voice instance; no autonomous action.
-- **Export to trusted agent** — e.g., OpenClaw or Alpha reads the Record to "know who it serves." The agent uses the data; the canonical Record and gate remain with the user. Export is input, not an acting instance.
+- **Export to trusted agent** — e.g., OpenClaw or AI school reads the Record to "know who it serves." The agent uses the data; the canonical Record and gate remain with the user. Export is input, not an acting instance.
 
 ### 2.2 Unauthorized or Uncontrolled
 
@@ -110,7 +110,7 @@ These five use cases are design priorities for multiple-instance deployment. All
 | 1 | **Admissions / job link** | Applicant shares a read-only interview link. Reviewer asks; fork responds in applicant's voice. No merge back. | User shares; time-limited token; canonical Record stays with user. See [ADMISSIONS-LINK-USE-CASE](admissions-link-use-case.md). |
 | 2 | **Family mesh** | Mom, Dad, Child each have a Record. Each has a Voice. "Ask Dad's fork" or "what does Mom's Record say about our trip?" | Multi-tenant; each user owns their Record; cross-queries need consent. See [MULTI-BOT-CENTRAL-MODEL](multi-bot-central-model.md) for multiple Telegram bots on one codebase. |
 | 3 | **Memorial / legacy fork** | "Grandpa's fork" — read-only instance from his Record for family to query. No merge; no gate. Instance as living archive. | Deceased; executor or family controls deployment. **Premortem consent** (digital legacy research): user should explicitly opt in before death ("my Record may be shared with family after I die"). Named steward; document how to revoke or retire. Fits "shareable Portable Record Prompt" (CONCEPTUAL-FRAMEWORK invariant 15). |
-| 4 | **Tutor / curriculum personalization** | Alpha or Khan reads the Record (or runs a shadow instance) to tailor lessons. Identity substrate for education. | Platform consumes with consent; no merge into Record. Aligns with DESIGN-NOTES positioning (identity for AI schools). |
+| 4 | **Tutor / curriculum personalization** | AI school or Khan reads the Record (or runs a shadow instance) to tailor lessons. Identity substrate for education. | Platform consumes with consent; no merge into Record. Aligns with DESIGN-NOTES positioning (identity for AI schools). |
 | 5 | **Age-based handoff / milestone portfolio** | "Me at 6" vs. "me at 12" — separate snapshots for school handoff or growth display. Same person; different snapshots. | User exports snapshot per context; both read-only. Fits divergence-by-design and portability. |
 
 ---

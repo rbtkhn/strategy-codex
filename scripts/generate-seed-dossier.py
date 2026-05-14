@@ -3,7 +3,7 @@
 Generate seed_dossier.md from seed JSON artifacts in a directory.
 
 Usage:
-  python3 scripts/generate-seed-dossier.py users/demo/seed-phase
+  python3 scripts/generate-seed-dossier.py demo/seed-phase
 """
 
 from __future__ import annotations
