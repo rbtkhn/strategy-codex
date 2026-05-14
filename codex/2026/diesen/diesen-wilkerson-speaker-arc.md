@@ -48,7 +48,20 @@ Fresh live search shows that the `Diesen x Wilkerson` lane is broader than the c
 This means the lane should be read two ways:
 
 - on disk, it already has a real late-spring shape
+- on disk, 2025 now also has a materially thick late-year continuation rather than only an early and mid-year core
 - in the stream, it is a broader 2026 imperial-decline run than the current materialized subset alone suggests
+
+### 2025 densification
+
+The 2025 Diesen shelf is now materially thicker than the original Wilkerson backfill showed. In addition to the already-materialized `2025-02-15`, `2025-04-27`, `2025-06-16`, and `2025-07-30` files, the fuller 2025 continuation now includes:
+
+- `2025-08-21` *Defeated & Divided - NATO's Existential Crisis*
+- `2025-09-12` *America Is Retrenching & Alliances Fall Apart*
+- `2025-10-10` *The Path From Forever Wars to Nuclear War*
+- `2025-12-03` *Legitimacy of the U.S. Empire Collapses*
+- `2025-12-24` *Economic Collapse Will End the U.S. Empire*
+
+That means the Diesen-side Wilkerson branch is not just an early and mid-2025 precursor. It already has a substantial late-2025 imperial-decline continuation on disk.
 
 ## Open first
 

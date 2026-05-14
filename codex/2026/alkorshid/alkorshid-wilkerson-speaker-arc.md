@@ -39,6 +39,16 @@ Fresh live search shows that the `Dialogue Works x Wilkerson` lane is broader th
 
 There are also mixed Johnson/Wilkerson Dialogue Works episodes in the same window, but the four entries above are the clearest single-guest lane surface for helix purposes.
 
+### 2025 densification
+
+The 2025 Dialogue Works shelf was already real, but it is now clearer on disk as a long live-pressure continuation rather than a few isolated warning shots. In addition to the already-materialized `2025-01-11`, `2025-01-18`, `2025-05-30`, `2025-10-14`, `2025-11-04`, `2025-12-02`, and `2025-12-30` files, the fuller 2025 lane now also includes:
+
+- `2025-10-01` *Warning Signs: Is the United States on the Path to Disaster?*
+- `2025-11-18` *Epstein Files - NATO's Moves ALL FALLING APART - Iran closer to Russia*
+- `2025-12-16` *The Alarms Are Blazing Red - The U.S. Is Heading Straight Into This*
+
+That makes the second-half 2025 Dialogue Works Wilkerson run feel materially dense, not merely sufficient.
+
 ## Open first
 
 Open [transcript-alkorshid-wilkerson-hormuz-blockade-2026-05-05.md](/C:/dev/strategy-codex/codex/2026/raw-input/2026-05-05/transcript-alkorshid-wilkerson-hormuz-blockade-2026-05-05.md) first when you want the cleanest materialized statement of why this host x guest run matters on its own.

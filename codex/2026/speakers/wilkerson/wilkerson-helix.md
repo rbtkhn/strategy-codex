@@ -10,7 +10,7 @@ The Wilkerson helix is currently a **double helix**: one imperial-decline and mi
 
 These arcs should be read together because they are not merely repeated appearances, but two distinct host transformations of the same underlying voice. Read together, they show more of Wilkerson's usable range than either lane can carry alone, even though a Davis strand is absent in fresh live search.
 
-This two-strand structure is not just a 2026 shelf artifact. The same `Diesen + Dialogue Works` pairing is already materially real in 2025, so the better cross-year reading is stable double-helix continuity rather than an object waiting to become something else.
+This two-strand structure is not just a 2026 shelf artifact. The same `Diesen + Dialogue Works` pairing is already materially real in 2025, and the late-2025 shelf is thicker than the earlier minimal backfill showed, so the better cross-year reading is stable double-helix continuity rather than an object waiting to become something else.
 
 ## The two strands
 
