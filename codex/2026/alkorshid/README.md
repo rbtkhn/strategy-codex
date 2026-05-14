@@ -7,6 +7,13 @@
 - Profile: [alkorshid-profile.md](../../profiles/alkorshid-profile.md)
 - Monthly book: [alkorshid-book-2026-04.md](alkorshid-book-2026-04.md)
 - Daily chapter seed: [alkorshid-chapter-2026-04-01.md](alkorshid-chapter-2026-04-01.md)
+- Speaker arcs:
+  - [alkorshid-crooke-speaker-arc.md](alkorshid-crooke-speaker-arc.md)
+  - [alkorshid-johnson-speaker-arc.md](alkorshid-johnson-speaker-arc.md)
+  - [alkorshid-freeman-speaker-arc.md](alkorshid-freeman-speaker-arc.md)
+  - [alkorshid-marandi-speaker-arc.md](alkorshid-marandi-speaker-arc.md)
+  - [alkorshid-ritter-speaker-arc.md](alkorshid-ritter-speaker-arc.md)
+  - [alkorshid-baud-speaker-arc.md](alkorshid-baud-speaker-arc.md)
 - Thread compatibility file: [alkorshid-thread.md](alkorshid-thread.md)
 - Transcript compatibility file: [alkorshid-transcript.md](alkorshid-transcript.md)
 

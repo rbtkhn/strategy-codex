@@ -9,6 +9,8 @@
 - Daily chapter seed: [diesen-chapter-2026-04-01.md](diesen-chapter-2026-04-01.md)
 - Thread compatibility file: [diesen-thread.md](diesen-thread.md)
 - Transcript compatibility file: [diesen-transcript.md](diesen-transcript.md)
+- Speaker arc: [diesen-crooke-speaker-arc.md](diesen-crooke-speaker-arc.md)
+- Speaker arc: [diesen-johnson-speaker-arc.md](diesen-johnson-speaker-arc.md)
 
 ## Civ-Mem Spine
 
