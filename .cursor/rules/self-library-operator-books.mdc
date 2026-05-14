@@ -1,4 +1,4 @@
-﻿---
+---
 description: Hyphenated predictive-history and strategy-codex (legacy strategy-notebook) SELF-LIBRARY operator books (LIB-0149, LIB-0153), not alternate trees or STRATEGY.md
 alwaysApply: true
 ---
@@ -7,7 +7,7 @@ alwaysApply: true
 
 ## `predictive-history`
 
-When the operator writes **`predictive-history`** (hyphenated) or clearly means **the SELF-LIBRARY Predictive History book**, interpret that as **LIB-0149**: the multivolume operator corpus under **`research/external/work-jiang/`**, indexed from **`SELF-LIBRARY/predictive-history`** (symlink). Use **`BOOK-ARCHITECTURE.md`**, **`STATUS.md`**, and the lecture/analysis tree there â€” not a different project.
+When the operator writes **`predictive-history`** (hyphenated) or clearly means **the SELF-LIBRARY Predictive History book**, interpret that as **LIB-0149**: the multivolume operator corpus under **`codex/predictive-history/`**, indexed from **`SELF-LIBRARY/predictive-history`** (symlink). Use **`BOOK-ARCHITECTURE.md`**, **`STATUS.md`**, and the lecture/analysis tree there â€” not a different project.
 
 **Do not** resolve **`predictive-history`** to **`research/external/youtube-channels/predictive-history/`** (that is **LIB-0151**, the YouTube transcript library). For that bundle, use explicit wording: **Predictive History YouTube transcript library**, **LIB-0151**, or the full path **`youtube-channels/predictive-history`**.
 
@@ -20,4 +20,3 @@ When the operator writes **`strategy-codex`** (preferred, hyphenated), uses the 
 **Do not** treat **`strategy-codex`** / **`strategy-notebook`** as **`STRATEGY.md`** (work-strategy milestone / watches ledger â€” different file, optional promotion target from the notebook). Do not substitute the whole **`work-strategy/`** lane for the notebook unless the operator names that scope.
 
 If scope is ambiguous, ask once or default to **LIB-0153** when one of those hyphenated forms appears.
-

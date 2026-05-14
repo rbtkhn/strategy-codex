@@ -1,4 +1,4 @@
-﻿# WORK menu conventions (Cursor operator)
+# WORK menu conventions (Cursor operator)
 
 **Purpose:** When you are in **work-strategy**, **work-politics**, **work-jiang**, or **work-dev**, the assistant ends most substantive turns with **labeled forks** (multiple choice). This doc names the **shape** so menus stay **useful, grounded, and pivot-only** (no faux â€œdoneâ€).
 
@@ -129,4 +129,3 @@ Dated WORK outputs (daily brief, weekly scaffold, newsletter digest, optional `m
 - [Work territory history logs](work-modules-history-principle.md) (`docs/skill-work/work-*/*-history.md`)
 - [Bootstrap â€” coffee](../../../bootstrap/grace-mar-bootstrap.md)
 - [Date and time formats](../date-time-conventions.md)
-

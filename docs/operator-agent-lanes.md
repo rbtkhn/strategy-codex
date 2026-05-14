@@ -1,4 +1,4 @@
-﻿# Operatorâ€“agent message lanes
+# Operatorâ€“agent message lanes
 
 **Purpose:** Use one explicit **lane prefix** at the start of a message (or in the first line) so **plan-only** work, **full ship** (through push), **docs-only** sync, or **local commit without push** is unambiguous for the agentâ€”especially when Cursor **plan mode** is active.
 
@@ -49,7 +49,7 @@ If there is **no** prefix and intent is **unclear**, the agent should default to
 Scope rules for this repo (instance + operator lanes), complementary to [AGENTS.md](../AGENTS.md) merge authority.
 
 - **Feature branch per theme** â€” For non-trivial or multi-file work, use a dedicated branch so `main` stays easy to fast-forward and PRs stay reviewable. Trivial one-file fixes on `main` remain fine when the operator prefers.
-- **Scoped staging** â€” When the task is narrow, stage by path or `git add -p`. Mixing `*`, `research/external/work-jiang/*`, `bot/`, and broad `docs/*` in one commit without operator intent is a **review hazard**; split or call it out in the commit message.
+- **Scoped staging** â€” When the task is narrow, stage by path or `git add -p`. Mixing `*`, `codex/predictive-history/*`, `bot/`, and broad `docs/*` in one commit without operator intent is a **review hazard**; split or call it out in the commit message.
 - **Before push (collaborative remotes)** â€” If others may have pushed, run `git fetch` and reconcile (`git pull --rebase` or merge) before `git push` to avoid a surprise â€œfetch firstâ€ rejection.
 - **After `git push` of a branch other than `main`** â€” Emit a **GitHub compare URL** so the operator can open a PR without the `gh` CLI:
   - `https://github.com/<owner>/<repo>/compare/<base>...<head>`
@@ -112,4 +112,3 @@ They **stack**: you can be in **Think** cognitively and still send **`PLAN`** so
 - [Operator style](../.cursor/rules/operator-style.mdc) (always-on; links here) â€” includes **WORK modules â€” multiple choice**: labeled next-step options on most turns when working in work-strategy / work-politics / work-jiang / work-dev unless the operator opts out or a fixed menu (e.g. `coffee`) already applies. **Rationale** (in-rule): lower operator cognitive load (selection vs path enumeration) and use assistant **parallel cognition** to prefetch plausible branches. **No faux â€œdoneâ€** in those menus â€” work **switches**, it does not end; options are pivots to other real work.
 - [Operator cognition â€” North star](lanes/operator-cognition.md)
 - [Bootstrap â€” Working trees and authority](../bootstrap/grace-mar-bootstrap.md#working-trees-and-authority)
-

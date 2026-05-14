@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Append one strategy-notebook fold event to users/<id>/strategy-fold-events.jsonl.
+Append one strategy-notebook fold event to strategy-fold-events.jsonl.
 
 Legacy name; the current operator command is 'weave'. Script and JSONL field names
 retain 'fold' for backward compatibility.
@@ -103,7 +103,7 @@ def main() -> int:
     ap.add_argument("-u", "--user", default=os.getenv("GRACE_MAR_USER_ID", DEFAULT_USER_ID).strip() or DEFAULT_USER_ID)
     ap.add_argument("--notebook-date", required=True, help="YYYY-MM-DD (target ## in days.md)")
     ap.add_argument("--fold-kind", required=True, choices=sorted(FOLD_KINDS))
-    ap.add_argument("--jsonl", type=Path, default=None, help="Override ledger path (default: users/<id>/strategy-fold-events.jsonl)")
+    ap.add_argument("--jsonl", type=Path, default=None, help="Override ledger path (default: strategy-fold-events.jsonl)")
     ap.add_argument("--inbox-chars", type=int, default=None, metavar="N")
     ap.add_argument("--days-delta-chars", type=int, default=None, metavar="N")
     ap.add_argument("--counts-json", default="", help='JSON object, e.g. \'{"signal_bullets":3,"judgment_bullets":2}\'')

@@ -36,8 +36,8 @@ def test_word_count_basic() -> None:
 @pytest.mark.parametrize(
     "rel",
     [
-        "users/grace-mar/x.json",
-        "users/foo/bar.txt",
+        "x.json",
+        "foo/bar.txt",
     ],
 )
 def test_is_forbidden_record_path_users(rel: str) -> None:
@@ -193,4 +193,3 @@ def test_inspect_artifact(tmp_path: Path) -> None:
     obs = carry.inspect_artifact(p, tmp_path)
     assert obs["exists"] is True
     assert obs["word_count"] == 60
-

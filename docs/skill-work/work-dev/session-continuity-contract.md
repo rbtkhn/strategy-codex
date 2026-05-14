@@ -1,4 +1,4 @@
-﻿# Session continuity â€” explicit contract, not implicit memory
+# Session continuity â€” explicit contract, not implicit memory
 
 **Purpose:** Treat **continuity as a written contract** â€” specific files, optional scripts, and CI â€” **not** as â€œthe agent should remember last time.â€ LLM sessions and harnesses **do not** carry repo state unless you **load** it.
 
@@ -28,7 +28,7 @@ For user id `[id]` (e.g. `grace-mar`), **before** substantive work in a shared w
 |------|------|
 | `session-log.md` | What happened last; session narrative |
 | `recursion-gate.md` | Staged candidates; approval queue |
-| `self-evidence.md` | Recent ACT- entries (skim last 1â€“2) |
+| `self-archive.md` | Recent ACT- / gated-approved activity entries (skim the last 1â€“2 relevant blocks); fall back to `self-evidence.md` only for legacy or pre-migration layouts |
 
 **Contract:** Continuity means **these paths were consulted** (by a human or by a tool that ingests them), not that a model â€œfelt caught up.â€
 
@@ -49,7 +49,7 @@ Full checklist and OpenClaw patterns: [openclaw-integration.md Â§ Session cont
 
 | Check | What it guarantees |
 |-------|---------------------|
-| `pytest tests/test_continuity_read_log.py` | `continuity_read_log.py` exits 0 on `--dry-run` for `grace-mar`, and `session-log.md`, `recursion-gate.md`, `self-evidence.md` exist under ``. |
+| `pytest tests/test_continuity_read_log.py` | `continuity_read_log.py` exits 0 on `--dry-run` for `grace-mar`, and the continuity surfaces (`session-log.md`, `recursion-gate.md`, canonical evidence path) exist under ``. |
 
 **Contract:** The **proof-of-read script and paths** do not silently rot. It does **not** prove an operator read anything â€” only that the **automation contract** remains valid in the repo.
 
@@ -76,4 +76,3 @@ If a **runtime** memory plugin is used, treat it as **adjunct** â€” bounded
 ## Guardrail
 
 `continuity_read_log.py` checks **file presence** and optional logging; it does **not** verify a human or model **understood** contents. The **companion gate** remains the authority for what enters SELF/EVIDENCE.
-

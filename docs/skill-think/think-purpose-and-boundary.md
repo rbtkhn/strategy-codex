@@ -1,4 +1,4 @@
-﻿# THINK â€” purpose and boundary
+# THINK â€” purpose and boundary
 
 ## What THINK is
 
@@ -35,4 +35,3 @@ See [canonical-paths.md](../canonical-paths.md) and [id-taxonomy.md](../id-taxon
 ## Lexile / Voice
 
 Fork output language remains subject to instance **Lexile** and prompt policy when THINK-derived lines are promoted into **SELF** or **prompt** â€” see [AGENTS.md](../../AGENTS.md).
-

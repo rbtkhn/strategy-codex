@@ -53,7 +53,7 @@ def test_minimal_task_and_artifact_subprocess(tmp_path: Path) -> None:
     assert data["schema_version"] == "work-strategy-review-packet.v1"
     assert data["review_readiness"]["status"] == "needs_review"
     body = md.read_text(encoding="utf-8")
-    for label in ("## A —", "## B —", "## C —", "## D —", "## E —", "## F —", "## G —", "## H —", "## I —", "## J —"):
+    for label in ("## A â€”", "## B â€”", "## C â€”", "## D â€”", "## E â€”", "## F â€”", "## G â€”", "## H â€”", "## I â€”", "## J â€”"):
         assert label in body
 
 
@@ -109,7 +109,7 @@ def test_with_task_shape_report(tmp_path: Path) -> None:
 
 
 def test_forbidden_out_under_users(tmp_path: Path) -> None:
-    out_path = REPO_ROOT / "users/grace-mar/__review_packet_forbidden_test__.json"
+    out_path = REPO_ROOT / "__review_packet_forbidden_test__.json"
     cmd = [
         sys.executable,
         str(_scripts_ws() / "build_review_packet.py"),
@@ -216,5 +216,5 @@ def test_render_has_standard_headings() -> None:
         markdown_out=None,
     )
     md = brp.render_review_packet_markdown(pkt)
-    assert "## A — Task statement" in md
-    assert "## J — Why this is not canonical" in md
+    assert "## A â€” Task statement" in md
+    assert "## J â€” Why this is not canonical" in md

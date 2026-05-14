@@ -8,9 +8,9 @@ optional **inbox** / **session-transcript** / **artifacts**, plus linked commit
 lines. See docs/skill-work/work-cici/cici-notebook/README.md.
 
 Environment:
-  GITHUB_TOKEN — optional; raises unauthenticated rate limits (60/hr/IP).
-  CICI_JOURNAL_FULL_DAY_SYNTHESIS — if set to 1/true/yes/on, same as --full-day-synthesis.
-    (Alias: XAVIER_JOURNAL_FULL_DAY_SYNTHESIS — accepted for older shells and notes.)
+  GITHUB_TOKEN â€” optional; raises unauthenticated rate limits (60/hr/IP).
+  CICI_JOURNAL_FULL_DAY_SYNTHESIS â€” if set to 1/true/yes/on, same as --full-day-synthesis.
+    (Alias: XAVIER_JOURNAL_FULL_DAY_SYNTHESIS â€” accepted for older shells and notes.)
 
 Usage:
   python3 scripts/cici_journal_ob1_digest.py
@@ -169,7 +169,7 @@ _RE_CONV_COMMIT = re.compile(
 _RE_DATE_ONLY = re.compile(r"^(\d{4}-\d{2}-\d{2})\.md$")
 _RE_LEGACY = re.compile(r"^(\d{4}-\d{2}-\d{2})-day-(\d+)\.md$")
 _RE_TITLE_DAY = re.compile(
-    r"^#\s+(?:Cici|Xavier)\s+(?:journal|notebook)\s+—\s+Day\s+(\d+)\s*$",
+    r"^#\s+(?:Cici|Xavier)\s+(?:journal|notebook)\s+â€”\s+Day\s+(\d+)\s*$",
     re.MULTILINE,
 )
 _RE_BODY_JOURNAL_DAY = re.compile(r"\*\*Journal day:\*\*\s*(\d+)")
@@ -220,7 +220,7 @@ def _conventional_kind(short_message: str) -> str:
 
 
 def _overview_markdown(commits: list[CommitLine], branch: str) -> list[str]:
-    """Deterministic synthesis from commit messages — no LLM."""
+    """Deterministic synthesis from commit messages â€” no LLM."""
     if not commits:
         return [
             "No commits on this branch in the activity window. If you expected activity, "
@@ -231,7 +231,7 @@ def _overview_markdown(commits: list[CommitLine], branch: str) -> list[str]:
     for c in commits:
         k = _conventional_kind(c.short_message)
         kinds[k] = kinds.get(k, 0) + 1
-    kind_parts = [f"{k} ×{v}" for k, v in sorted(kinds.items(), key=lambda x: (-x[1], x[0]))]
+    kind_parts = [f"{k} Ã—{v}" for k, v in sorted(kinds.items(), key=lambda x: (-x[1], x[0]))]
     unique_msgs = list(dict.fromkeys(c.short_message for c in commits))
     out: list[str] = [
         f"**{n} commit(s)** on `{branch}` in this calendar window.",
@@ -244,7 +244,7 @@ def _overview_markdown(commits: list[CommitLine], branch: str) -> list[str]:
     for msg in unique_msgs[:cap]:
         out.append(f"- {msg}")
     if len(unique_msgs) > cap:
-        out.append(f"- …and {len(unique_msgs) - cap} more distinct line(s).")
+        out.append(f"- â€¦and {len(unique_msgs) - cap} more distinct line(s).")
     return out
 
 
@@ -390,7 +390,7 @@ def extract_strategy_notebook_day_block(
     if len(block) > max_chars:
         block = (
             block[: max_chars - 80].rstrip()
-            + f"\n\n…(truncated at {max_chars} chars — see `{rel}`)"
+            + f"\n\nâ€¦(truncated at {max_chars} chars â€” see `{rel}`)"
         )
     return block, rel
 
@@ -427,9 +427,9 @@ def extract_session_transcript_for_day(
     blob = "\n\n".join(segments)
     lines_out = blob.splitlines()
     if len(lines_out) > max_lines:
-        blob = "\n".join(lines_out[:max_lines]) + f"\n\n…({len(lines_out) - max_lines} more lines truncated)"
+        blob = "\n".join(lines_out[:max_lines]) + f"\n\nâ€¦({len(lines_out) - max_lines} more lines truncated)"
     if len(blob) > max_chars:
-        blob = blob[: max_chars - 20] + "\n\n…(truncated)"
+        blob = blob[: max_chars - 20] + "\n\nâ€¦(truncated)"
     return blob
 
 
@@ -477,7 +477,7 @@ def collect_day_context(
                 stderr.write(f"Note: strategy-notebook file not found: `{sn_src}`\n")
             else:
                 stderr.write(
-                    f"Note: no `## {day.isoformat()}` section in `{sn_src}` — "
+                    f"Note: no `## {day.isoformat()}` section in `{sn_src}` â€” "
                     "add a strategy pass for this date or capture geo/transcript in inbox.\n"
                 )
     return DayContext(
@@ -509,7 +509,7 @@ def build_markdown(
 
     repo_url = f"https://github.com/{owner}/{repo}"
     lines = [
-        f"# Cici notebook — Day {journal_day}",
+        f"# Cici notebook â€” Day {journal_day}",
         "",
         f"**Date:** {day_label.isoformat()}  ",
         f"**Journal day:** {journal_day} (OB1-focused learning)  ",
@@ -580,16 +580,16 @@ def build_markdown(
     if not commits:
         lines.extend(
             [
-                "*No commit rows — window empty or API returned none.*",
+                "*No commit rows â€” window empty or API returned none.*",
                 "",
             ]
         )
     else:
         for c in commits:
             if c.html_url:
-                lines.append(f"- [`{c.sha}`]({c.html_url}) — {c.short_message}")
+                lines.append(f"- [`{c.sha}`]({c.html_url}) â€” {c.short_message}")
             else:
-                lines.append(f"- `{c.sha}` — {c.short_message}")
+                lines.append(f"- `{c.sha}` â€” {c.short_message}")
         lines.append("")
     return "\n".join(lines)
 
@@ -654,7 +654,7 @@ def main() -> None:
         "--session-transcript-path",
         type=Path,
         default=DEFAULT_SESSION_TRANSCRIPT,
-        help="Path to session-transcript.md (default: users/grace-mar/session-transcript.md)",
+        help="Path to session-transcript.md (default: session-transcript.md)",
     )
     ap.add_argument(
         "--repo-root",
@@ -665,7 +665,7 @@ def main() -> None:
     ap.add_argument(
         "--include-strategy-notebook",
         action="store_true",
-        help="Include the ## YYYY-MM-DD block from strategy-notebook chapters/…/days.md (geopolitical synthesis)",
+        help="Include the ## YYYY-MM-DD block from strategy-notebook chapters/â€¦/days.md (geopolitical synthesis)",
     )
     ap.add_argument(
         "--strategy-notebook-max-chars",

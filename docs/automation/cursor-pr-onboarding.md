@@ -1,4 +1,4 @@
-﻿# Cursor PR Onboarding Comment
+# Cursor PR Onboarding Comment
 
 **Status:** **WORK** documentation. This page does **not** enable a [Cursor Automation](https://cursor.com/docs/cloud-agent/automations) in the repo. It describes a **read-only** PR **briefing** for the **operator**. **Doctrine:** [AGENTS.md](../../AGENTS.md) (routing, no merge) Â· [cursor-safe-automation-contract.md](cursor-safe-automation-contract.md).
 
@@ -67,7 +67,7 @@ This automation **narrates** and **orients** the operator. It is **not** a secon
 | `docs/skill-work/work-dev/**` | work-dev | Technical execution / architecture / work-dev **control** plane. |
 | `docs/skill-work/work-strategy/**` | work-strategy | Strategy notebook, geopolitical **WORK** |
 | `docs/skill-work/work-cici/**` | work-cici | Cici-related **WORK** |
-| `docs/skill-work/work-jiang/**` or `research/external/work-jiang/**` | work-jiang | Jiang / Predictive History lane; [work-jiang](https://github.com/rbtkhn/strategy-codex/blob/main/.github/workflows/work-jiang.yml) may path-filter |
+| `codex/predictive-history/**` or `codex/predictive-history/**` | work-jiang | Jiang / Predictive History lane; [work-jiang](https://github.com/rbtkhn/strategy-codex/blob/main/.github/workflows/work-jiang.yml) may path-filter |
 | `**` | **Record-sensitive** | Treat as **protected**; **companion** / gate **governance** applies to merges |
 | `bot/prompt.py` | **prompt-sensitive** | High caution; often **gated** commit expectations |
 | `scripts/**` | tooling / runtime | [test.yml](https://github.com/rbtkhn/strategy-codex/blob/main/.github/workflows/test.yml) and **governance** / **harness** may apply |
@@ -101,12 +101,12 @@ The automationâ€™s **PR comment** should follow this **shape**. The paste p
 ```markdown
 ### PR onboarding
 
-**PR shape:**  
-**Likely lane:**  
-**Sensitive paths:**  
-**Checks to watch:**  
-**Possible gated-record concern:**  
-**Operator next step:**  
+**PR shape:**
+**Likely lane:**
+**Sensitive paths:**
+**Checks to watch:**
+**Possible gated-record concern:**
+**Operator next step:**
 
 **Boundary note:** This is an onboarding comment only. It did not approve, merge, edit files, change labels, process the gate, or run mutating commands.
 ```
@@ -123,4 +123,3 @@ The automationâ€™s **PR comment** should follow this **shape**. The paste p
 **See also:** [README â€” PR onboarding comment](README.md#pr-onboarding-comment) Â· [cursor-automations.md](cursor-automations.md)
 
 **Maintenance:** Reconcile the **lane** table and workflow names with [lanes.yaml](https://github.com/rbtkhn/strategy-codex/blob/main/lanes.yaml) and [`.github/workflows/`](https://github.com/rbtkhn/strategy-codex/tree/main/.github/workflows) when they change. *Last reviewed: 2026-04.*
-

@@ -80,7 +80,7 @@ def render_markdown(
         "<!-- GENERATED — run: python3 scripts/build_review_dashboard.py -->\n\n",
         "# Review dashboard (Approval Inbox)\n\n",
         "**Derived operator artifact.** Not canonical; does not replace "
-        f"`users/{user_id}/recursion-gate.md`. Regenerate after gate edits.\n\n",
+        f"`{user_id}/recursion-gate.md`. Regenerate after gate edits.\n\n",
         f"- **Generated:** {generated_at}\n",
         f"- **Pending count:** {len(pending)}\n\n",
         "## Pending candidates\n\n",

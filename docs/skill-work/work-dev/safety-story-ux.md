@@ -20,7 +20,7 @@ Many operators carry a **production database** mental model: *something importan
 | **Staged vs merged** | Did OpenClaw (or the analyst) only **stage**, or did a merge **write** SELF/EVIDENCE? | Staging ≠ merge: handback ends in RECURSION-GATE; merge is `process_approved_candidates.py` (see AGENTS.md). **Chat is not proof.** |
 | **Receipts** | What batch just landed, and with what checksums? | `merge-receipts.jsonl` (append-only audit) |
 | **Pipeline events** | When did **staged** vs **applied** happen, and can they be linked? | `pipeline-events.jsonl` — e.g. `parent_event_id` linking rows |
-| **Last merge footprint** | What ACT- or session line proves the last integration moment? | `self-evidence.md` (ACT-*), `session-log.md` pipeline merge section |
+| **Last merge footprint** | What ACT- or session line proves the last integration moment? | `self-archive.md` (ACT-* / gated-approved trail), `session-log.md` pipeline merge section |
 | **Harness / replay** | Can we re-run or explain a merge from events? | `harness-events.jsonl`, tools like `replay_harness_event.py` (where documented) |
 
 **Partner-facing line:** *We separate “suggested” from “committed” — and we keep receipts so you’re not guessing from chat.*

@@ -1,4 +1,4 @@
-﻿---
+---
 name: ideation-engine
 preferred_activation: ideation engine
 description: Generate approval-first Top 3 opportunity briefs from existing lanes, current assets, and source-backed signals for a solo operator.
@@ -14,7 +14,7 @@ synced_by: sync_portable_skills.py
 ---
 # Ideation Engine
 
-**Preferred activation (operator):** say the exact phrase **`ideation engine`**. **Aliases:** **`weekly opportunity brief`**, **`new lane ideas`**, **`opportunity scan`**.
+**Preferred activation (operator):** say **`ideation engine`**, **`weekly opportunity brief`**, **`new lane ideas`**, or **`opportunity scan`**.
 
 Use this skill to generate grounded opportunity briefs from what already exists: active lanes, current assets, source-backed signals, operator constraints, and reusable capabilities.
 
@@ -170,7 +170,7 @@ Do not assume those skills exist unless the host provides them.
 
 ## Cursor / grace-mar instance
 
-Grace-Mar routing and source notes for this repository.
+﻿Grace-Mar routing and source notes for this repository.
 
 ## Routing
 
@@ -207,4 +207,3 @@ For a standard invocation, produce:
 2. Top 3 opportunity briefs,
 3. one recommended operator move,
 4. no more than one optional follow-up question.
-

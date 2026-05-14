@@ -1,4 +1,4 @@
-﻿# Work-Dev Lane Scope Checklist
+# Work-Dev Lane Scope Checklist
 
 Use this before opening a PR or committing in `work-dev` lane.
 
@@ -29,8 +29,8 @@ Typical `work-dev` paths:
 
 Potential cross-lane bleed to watch:
 
-- `research/external/work-jiang/`
-- `work-jiang.md`
+- `codex/predictive-history/`
+- `codex/predictive-history/README-operator.md`
 - `scripts/work_jiang/`
 
 ## Commit hygiene
@@ -38,4 +38,3 @@ Potential cross-lane bleed to watch:
 - Use a lane-scoped commit title (example: `work-dev: ...`).
 - In commit body, name any intentional cross-lane exceptions explicitly.
 - If cross-lane changes appear accidentally, unstage and split before commit.
-

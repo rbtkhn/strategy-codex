@@ -14,7 +14,7 @@ YouTube channels, podcasts, newsletters, and **web** surfaces (e.g. prediction m
 
 | Use in work-politics | Point to |
 |----------------------|----------|
-| **Iran / Hormuz / war powers** narrative environment (base + media) | Book **§ GyYy-QmxttU** monologue digest; **§ 2K2nQsTTjQE** Jiang interview (also [work-jiang Interviews #11](../../../research/external/work-jiang/lectures/interviews-11-tucker-carlson-iran-war-and-global-order.md)) |
+| **Iran / Hormuz / war powers** narrative environment (base + media) | Book **§ GyYy-QmxttU** monologue digest; **§ 2K2nQsTTjQE** Jiang interview (also [work-jiang Interviews #11](../../codex/predictive-history/lectures/interviews-11-tucker-carlson-iran-war-and-global-order.md)) |
 | **Theological / cultural** split re war & public religion (ROME-PASS cross-read) | [ROME-PASS Tucker exemplar](../work-strategy/work-strategy-rome/notes/exemplars/2026-04-01-rome-pass-exemplar-tucker-carlson-gyYy-QmxttU.md) + book monologue file |
 | Long-form **opinion** framing (not wire verification) | Any book `transcripts/*.md` — **triangulate** with [analytical-lenses/manifest.md](analytical-lenses/manifest.md) before client-facing or posted copy |
 

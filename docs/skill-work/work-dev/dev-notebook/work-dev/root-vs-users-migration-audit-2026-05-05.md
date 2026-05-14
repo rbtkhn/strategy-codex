@@ -39,7 +39,7 @@ The expected repo-root counterparts are present for the major deleted `users/gra
 - `pipeline-events.jsonl`
 - `fork_state.json`
 - `fork-lineage.jsonl`
-- `work-jiang.md`
+- `codex/predictive-history/README-operator.md`
 - plus related root runtime / audit files
 
 That strongly suggests a **real root-layout migration**, not accidental disappearance.

@@ -4,6 +4,16 @@
 
 ---
 
+## 0. Agentic safety invariant
+
+The model is not enough. Once a workflow can use tools, delegate work, write files, persist across sessions, or touch external systems, safety depends on **permissions, boundaries, receipts, revocability, and default behavior under pressure**.
+
+- Treat **human-context** and **agent-context** separately: agents do not inherit the operator's screen, judgment, private knowledge, or implicit boundaries.
+- Every write-capable or delegated agent surface needs a declared permission scope, blast radius, audit receipt surface, and stop path.
+- Under deadline pressure, default to **deny, read-only, or escalate** rather than widening access because the model appears competent.
+
+---
+
 ## 1. Reframe the sell
 
 - **Not:** “We need a better agent / prompt.”
@@ -41,10 +51,10 @@ Clever retrieval does not replace **clean canonical files** and **explicit stagi
 
 Highest-leverage moves in this territory stay **boring**:
 
-- Gate hygiene and merge discipline  
-- Continuity contract and handback provenance  
-- Lane scope and CI  
-- Dashboard and observability feeds  
+- Gate hygiene and merge discipline
+- Continuity contract and handback provenance
+- Lane scope and CI
+- Dashboard and observability feeds
 
 Complex multi-agent topologies are optional; **companion sovereignty + audit trail** are not.
 
@@ -75,7 +85,7 @@ Products that advertise **100% local** models, **Docker** sandboxes, or **chat v
 
 ## Checklist artifact (machine-readable)
 
-- **[agent-surface-template.yaml](agent-surface-template.yaml)** — three axes (runtime, orchestration, interface) plus **Grace-Mar** trust fields (Record authority, staging, gate, continuity). Optional **`agent_species`**: `coding_harness` | `dark_factory` | `auto_research` | `workflow_orchestration` (do not mix species with the wrong workload).
+- **[agent-surface-template.yaml](agent-surface-template.yaml)** — three axes (runtime, orchestration, interface) plus **Grace-Mar** trust fields (Record authority, staging, gate, continuity) and agentic safety fields (context boundary, permission scope, audit receipts, revocation path, pressure default). Optional **`agent_species`**: `coding_harness` | `dark_factory` | `auto_research` | `workflow_orchestration` (do not mix species with the wrong workload).
 - **CLI:** `python scripts/work_dev/agent_surface_checklist.py` prints the template; `--validate path.yaml` checks required keys and validates `agent_species` when set.
 
 ---
@@ -89,6 +99,7 @@ Products that advertise **100% local** models, **Docker** sandboxes, or **chat v
 - [INTEGRATION-PROGRAM.md](INTEGRATION-PROGRAM.md) — one-loop export → stage → merge.
 - [openclaw-integration.md](../../openclaw-integration.md) — full integration guide.
 - [runtime/observability/README.md](../../../runtime/observability/README.md) — JSONL feeds and producers.
+- [agentic-receipt-map.md](agentic-receipt-map.md) — existing WORK-layer receipt surfaces and the future universal Agent Action Log gap.
 - [managed-agent-design.md](managed-agent-design.md) — persistent-agent lifecycle, operator runbook, steward boundary review.
 
 ---

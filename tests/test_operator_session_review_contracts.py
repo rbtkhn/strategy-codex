@@ -71,7 +71,7 @@ def test_date_time_conventions_iso_utc():
 
 
 def test_grace_mar_recursion_gate_parseable():
-    gate = REPO / "users/grace-mar/recursion-gate.md"
+    gate = REPO / "recursion-gate.md"
     if not gate.is_file():
         pytest.skip("grace-mar recursion-gate absent")
     text = gate.read_text(encoding="utf-8")

@@ -31,7 +31,7 @@ ALLOWS: tuple[str, ...] = (
     "legacy Xavier",
     "Xavier-x01",
     "work-xavier",
-    "users/xavier",
+    "xavier",
     "xavier-",
     "TERMS-XAVIER",
     "COMPANION-XAVIER",

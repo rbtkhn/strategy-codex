@@ -50,7 +50,7 @@ Some seams should first become **disciplined potential**:
    - Ask whether the seam contains:
      - an **official-primary** line
      - plus an **attributed gloss**, interpreter layer, or elite-English translation
-   - If yes, do not collapse them into one “state says” or “position is” sentence yet.
+   - If yes, do not collapse them into one â€œstate saysâ€ or â€œposition isâ€ sentence yet.
 
 3. **Decide whether to packet first**
    - Use packet-first discipline when:
@@ -74,7 +74,7 @@ Some seams should first become **disciplined potential**:
 
 6. **Protect against historical overreach**
    - If the seam tempts a broad historical or civilizational claim, require an intermediate maturity ladder first.
-   - Symbolic diplomacy, legitimacy gestures, and audience-facing moral language should not jump directly to “alignment,” “uniqueness,” or “civilizational turn” without layered support.
+   - Symbolic diplomacy, legitimacy gestures, and audience-facing moral language should not jump directly to â€œalignment,â€ â€œuniqueness,â€ or â€œcivilizational turnâ€ without layered support.
 
 ## Minimal operator test
 
@@ -92,7 +92,7 @@ If `5` is yes, stop and packet first.
 
 - **Mechanism:** [pape-page-2026-04-29-youtube-pape-grim-nuclear-iran-inevitable.md](../../codex/2026/pape/pape-page-2026-04-29-youtube-pape-grim-nuclear-iran-inevitable.md)
 - **Process:** [parsi-page-2026-04-21-x-ceasefire-hormuz-cluster.md](../../codex/2026/parsi/parsi-page-2026-04-21-x-ceasefire-hormuz-cluster.md)
-- **Register:** [marandi-page-2026-04-21-blockade-islamabad-hormuz.md](../../codex/2026/supporting-voices/marandi/marandi-page-2026-04-21-blockade-islamabad-hormuz.md)
+- **Register:** [marandi-page-2026-04-21-blockade-islamabad-hormuz.md](../../codex/2026/speakers/marandi/marandi-page-2026-04-21-blockade-islamabad-hormuz.md)
 - **Dual-register hard-security seam:** [packet-before-synthesis-doctrine.md](../../docs/skill-work/work-strategy/packet-before-synthesis-doctrine.md)
 - **Dual-register legitimacy seam:** [rome-persia-legitimacy-signal-check.md](../../codex/rome-persia-legitimacy-signal-check.md)
 

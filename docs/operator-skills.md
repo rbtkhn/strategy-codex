@@ -43,7 +43,7 @@ Each `.cursor/skills/*/SKILL.md` declares YAML **`preferred_activation`** (one o
 | Skill | Purpose | Default command |
 |------|---------|-----------------|
 | `coffee` | **Step 1** work-start warmup + harness + branch snapshot + lane context; **Step 2** fixed **A-D** Coffee Hub Menu: **A** Steward, **B** Engineer, **C** Strategist, **D** Capitalist. Conductor is standalone via `conductor` / master name and may route to the four-movement Conductor Action Menu after master selection. | **`operator_coffee.py`** (modes) + agent steps |
-| `conductor` | **Conductor** - work-dev execution spine + Symphony pointers: `build_conductor_mcq_for_user`, orientation + **`coffee_pick`**, four-movement Conductor Action Menu, optional [CONDUCTOR-IMPROVEMENT-LOOP](skill-work/work-strategy/strategy-notebook/CONDUCTOR-IMPROVEMENT-LOOP.md) close. Bare master slugs (**toscanini / furtwangler / karajan / kleiber / bernstein**) are first-turn activations. | Agent: `.cursor/skills/conductor/SKILL.md` + `log_cadence_event.py` when logging |
+| `conductor` | **Conductor** - work-dev execution spine + Symphony pointers: `build_conductor_mcq_for_user`, orientation + **`coffee_pick`**, four-movement Conductor Action Menu, optional [CONDUCTOR-IMPROVEMENT-LOOP](../codex/CONDUCTOR-IMPROVEMENT-LOOP.md) close. Bare master slugs (**toscanini / furtwangler / karajan / kleiber / bernstein**) are first-turn activations. | Agent: `.cursor/skills/conductor/SKILL.md` + `log_cadence_event.py` when logging |
 | `thanks` | **Deprecated** ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â use **conductor** or **`coffee` light/minimal** for mid-day beats. Legacy micro-pause: optional **park** + **`thanks`** line in [work-cadence-events.md](skill-work/work-cadence/work-cadence-events.md) | Same command if explicitly invoked (agent: `.cursor/skills/thanks/SKILL.md`) |
 | `weekly-brief-run` | Weekly brief readiness pass plus scaffold generation for `work-politics` | `python3 scripts/operator_weekly_brief_run.py -u grace-mar` |
 | `gate-review-pass` | Recommendation-oriented review pass over pending `RECURSION-GATE` candidates | `python3 scripts/operator_gate_review_pass.py -u grace-mar` |
@@ -175,5 +175,3 @@ Use `weekly-brief-run` when the first two workflows say the territory is ready t
 - work-politics remains a `WORK` surface; Record changes still require staged approval and merge flow.
 - `weekly-brief-run` produces a first-pass scaffold, not final-use campaign output.
 - `handoff-check` should treat runtime audit noise separately from meaningful worktree changes.
-
-

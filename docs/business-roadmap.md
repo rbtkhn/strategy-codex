@@ -26,7 +26,7 @@
 | Exit case study | [k12-pilot-case-study-TEMPLATE.md](k12-pilot-case-study-TEMPLATE.md) | After pilot |
 
 **Dual positioning:**
-- **Supplemental** — Works alongside Alpha (and similar AI schools). Alpha teaches; Grace-Mar records. Record feeds Incept for personalization.
+- **Supplemental** — Works alongside AI school (and similar AI schools). AI school teaches; Grace-Mar records. Record feeds Incept for personalization.
 - **Low-cost alternative** — Open-source. Families outside $40K–$75K tuition run Grace-Mar + Khan/IXL + lightweight structure.
 
 See [Design Notes](design-notes.md) for full white-paper narrative and differentiation table.
@@ -37,7 +37,7 @@ See [Design Notes](design-notes.md) for full white-paper narrative and different
 
 | Path | Value | Use Case | Monetization |
 |------|-------|----------|--------------|
-| **Supplemental** | Add Record layer to Alpha | Alpha parent wants portable, evidence-grounded Record | Integration license; subscription for Record hosting + Alpha-compatible export |
+| **Supplemental** | Add Record layer to AI school | AI-school family wants portable, evidence-grounded Record | Integration license; subscription for Record hosting + school-compatible export |
 | **Low-cost alternative** | Same architecture at $0 software | Family wants fork, cannot afford $40K+/year | Open core free; optional hosted service, support, premium export |
 | **B2B (AI schools)** | Identity substrate for platforms | School integrates Record as identity layer | Platform license, API fees, white-label |
 | **Infrastructure** | Open schema, protocol, trust primitives | Others build Grace-Mar-compatible systems | Reference implementation, certification, ecosystem revenue share |
@@ -54,9 +54,9 @@ See [Design Notes](design-notes.md) for full white-paper narrative and different
 | 2 | Homeschool-focused documentation: "Using Grace-Mar without a school" |
 | 3 | Elevate "we did X" as first-class ritual in UX/docs — recognition, celebration, accountability loop |
 | 4 | Session continuity + RECURSION-GATE as lightweight accountability for homeschool |
-| 5 | Alpha/Incept integration path — Record as identity feed |
+| 5 | school platform integration path — Record as identity feed |
 
-**Design target:** Homeschool is the primary gap (Alpha homeschool = 1x). Grace-Mar + Khan/IXL + lightweight structure = low-cost alternative. Record feeds motivation; "we did X" provides ritual.
+**Design target:** Homeschool is the primary gap (AI school homeschool = 1x). Grace-Mar + Khan/IXL + lightweight structure = low-cost alternative. Record feeds motivation; "we did X" provides ritual.
 
 ---
 
@@ -110,7 +110,7 @@ Not essential to system operation; required for go-to-market in child/minor segm
 | [Design Notes](design-notes.md) | White paper input, positioning, agent-web insights |
 | [Competitive Analysis](competitive-analysis.md) | Market landscape |
 | [Differentiation](differentiation.md) | Competitive moats |
-| [Market Research Alpha/Khan](market-research-alpha-khan.md) | Alpha alternatives, cost comparison |
+| [Market Research AI school/Khan](k12-market-research-2026.md) | AI school alternatives, cost comparison |
 | [K-12 pilot playbook](k12-schools-pilot-playbook.md) | Schools SKU, metrics, phases |
 | [K-12 MVP](k12-schools-mvp.md) | Roster, admin, merge policy, bulk export |
 | [K-12 compliance](k12-compliance-checklist.md) | FERPA/COPPA draft checklist |

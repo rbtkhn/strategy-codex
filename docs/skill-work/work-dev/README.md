@@ -1,4 +1,4 @@
-﻿# work-dev
+# work-dev
 
 **Template mirror:** [companion-self `work-dev/README.md`](https://github.com/rbtkhn/companion-self/blob/main/docs/skill-work/work-dev/README.md) â€” grace-mar merges former work-build-ai here; reconcile opening sections when syncing portable doctrine.
 
@@ -296,7 +296,7 @@ not evidence truth. **External runtimes** do not gain merge authority.
 1. **Companion sovereignty** â€” Merge authority stays with the companion. OpenClaw stages; companion approves.
 2. **Knowledge boundary** â€” Voice responses use only what is documented in the Record. No LLM inference into identity facts.
 3. **Stage-only automation** â€” OpenClaw skills may read, analyze, and stage candidates. They may not merge into SELF, EVIDENCE, or prompt.
-4. **Session continuity** â€” **Contract, not vibes:** read `session-log.md`, `recursion-gate.md`, and recent `self-evidence.md` (or run `continuity_read_log.py` / `harness_warmup.py` as documented). Do not assume the agent remembers; see [session-continuity-contract.md](session-continuity-contract.md).
+4. **Session continuity** â€” **Contract, not vibes:** read `session-log.md`, `recursion-gate.md`, and recent `self-archive.md` activity (fall back to `self-evidence.md` only for legacy layouts), or run `continuity_read_log.py` / `harness_warmup.py` as documented. Do not assume the agent remembers; see [session-continuity-contract.md](session-continuity-contract.md).
 5. **Handback provenance** â€” Inbound staging includes advisory constitutional check against INTENT; events emitted for audit.
 6. **Portable synthesis** â€” Merge-approved truth in-repo; refresh exports after merges so OpenClaw never becomes the only place â€œwho the companion isâ€ lives.
 7. **Agent reliability** â€” Do not treat chain-of-thought or internal traces as audit. For consequential agent work outside the companion Voice, use **tail scenarios**, **factorial variations**, and **deterministic checks** (see [agent-reliability-playbook.md](agent-reliability-playbook.md)).
@@ -343,4 +343,3 @@ Other work territories (e.g. [work-politics](../work-politics/README.md)) share 
 - [Architecture](../../architecture.md) â€” Record structure, harness
 - [AGENTS.md](../../../AGENTS.md) â€” Knowledge boundary, gated pipeline
 - [INTENT](../../intent-template.md) â€” Constitutional context for handback
-

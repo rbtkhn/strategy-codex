@@ -1,10 +1,10 @@
 # WeChat Integration Setup
 
-Grace-Mar can run as a WeChat Official Account (公众号) bot alongside Telegram. Both use the same emulation core and share the same profile, archive, and pipeline.
+Grace-Mar can run as a WeChat Official Account (å…¬ä¼—å·) bot alongside Telegram. Both use the same emulation core and share the same profile, archive, and pipeline.
 
 ## Prerequisites
 
-1. A WeChat Official Account (subscribe account 订阅号 or service account 服务号)
+1. A WeChat Official Account (subscribe account è®¢é˜…å· or service account æœåŠ¡å·)
 2. A server with a public HTTPS URL (WeChat requires HTTPS for callbacks)
 3. Python 3.10+
 
@@ -12,12 +12,12 @@ Grace-Mar can run as a WeChat Official Account (公众号) bot alongside Telegra
 
 1. Go to [https://mp.weixin.qq.com](https://mp.weixin.qq.com) and register
 2. Complete verification (required for callback configuration)
-3. In **Development** → **Basic Configuration**:
+3. In **Development** â†’ **Basic Configuration**:
    - Note your **AppID** and **AppSecret**
    - Set **Server URL** to `https://your-domain/wechat` (must be HTTPS)
    - Set **Token** to a random string you choose (e.g. `grace-mar-callback-2024`)
-   - For **Encoding Mode**, choose **Plain** (明文) for simplicity, or **Compatible** if you need encryption
-4. Click **Submit** to verify — WeChat will send a GET request; the bot must return the `echostr` parameter
+   - For **Encoding Mode**, choose **Plain** (æ˜Žæ–‡) for simplicity, or **Compatible** if you need encryption
+4. Click **Submit** to verify â€” WeChat will send a GET request; the bot must return the `echostr` parameter
 
 ## Step 2: Configure Environment
 
@@ -51,18 +51,18 @@ Set **Server URL** in the WeChat console to your public URL, e.g.:
 
 WeChat will verify the URL by sending a GET request. The bot responds with `echostr` to confirm.
 
-**Note:** The profile at **grace-mar.com/wechat** (the website path) can redirect users to your WeChat Official Account page. Add your account URL (e.g. from mp.weixin.qq.com) in one line to `users/grace-mar/WECHAT_ACCOUNT_URL.txt`, then regenerate the profile and redeploy. Visitors to grace-mar.com/wechat will be redirected to that URL.
+**Note:** The profile at **grace-mar.com/wechat** (the website path) can redirect users to your WeChat Official Account page. Add your account URL (e.g. from mp.weixin.qq.com) in one line to `WECHAT_ACCOUNT_URL.txt`, then regenerate the profile and redeploy. Visitors to grace-mar.com/wechat will be redirected to that URL.
 
 ## Commands (WeChat has no slash commands)
 
 Users can type these to emulate `/start` and `/reset`:
 
-- **Start**: `start`, `开始`, `hello`, `hi`, `你好`
-- **Reset**: `reset`, `重置`, `forget`
+- **Start**: `start`, `å¼€å§‹`, `hello`, `hi`, `ä½ å¥½`
+- **Reset**: `reset`, `é‡ç½®`, `forget`
 
 ## Architecture
 
-- **Same core**: Both Telegram and WeChat use `bot/core.py` — identical emulation, lookup, and analyst behavior
+- **Same core**: Both Telegram and WeChat use `bot/core.py` â€” identical emulation, lookup, and analyst behavior
 - **Separate conversations**: Telegram and WeChat users have isolated conversation history (scoped by `telegram:{id}` vs `wechat:{openid}`)
 - **Shared archive**: All exchanges are logged to SESSION-TRANSCRIPT in real time; SELF-ARCHIVE is updated only on merge (gated), with channel tags
 - **Shared pipeline**: Analyst-staged candidates from either channel go to the same `recursion-gate.md`

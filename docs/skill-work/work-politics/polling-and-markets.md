@@ -21,7 +21,7 @@
 
 Run this block **only** when:
 
-- The operator chose **coffee menu C — Strategy (daily brief)** (intel path — not survey-only; legacy **hey** still works), **or**
+- The operator chose **coffee menu C — Strategist (bridge pack)** (intel path — not survey-only; legacy **hey** still works), **or**
 - The operator explicitly requested KY-4 / Polymarket / polls in the **same** message as coffee, **or**
 - They asked ad hoc for a markets/polls refresh outside coffee.
 

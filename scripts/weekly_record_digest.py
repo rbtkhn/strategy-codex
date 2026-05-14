@@ -35,6 +35,7 @@ DEFAULT_DAYS = 7
 
 RECORD_FILES = [
     "self.md",
+    "self-knowledge.md",
     "self-archive.md",
     "self-evidence.md",
     "recursion-gate.md",
@@ -162,17 +163,22 @@ def _count_ix_entries(user_id: str) -> dict[str, int]:
     user_dir = profile_dir(user_id)
     counts: dict[str, int] = {"knowledge": 0, "curiosity": 0, "personality": 0}
 
+    knowledge_path = user_dir / "self-knowledge.md"
+    if knowledge_path.is_file():
+        content = knowledge_path.read_text(encoding="utf-8")
+        counts["knowledge"] = len(re.findall(r"(?:LEARN|KNOW)-\d+", content))
+    elif (user_dir / "self.md").is_file():
+        content = (user_dir / "self.md").read_text(encoding="utf-8")
+        counts["knowledge"] = len(re.findall(r"(?:LEARN|KNOW)-\d+", content))
+
     self_path = user_dir / "self.md"
     if self_path.is_file():
         content = self_path.read_text(encoding="utf-8")
-        counts["knowledge"] = len(re.findall(r"(?:LEARN|KNOW)-\d+", content))
         counts["curiosity"] = len(re.findall(r"CUR-\d+", content))
         counts["personality"] = len(re.findall(r"PER-\d+", content))
         if any(v > 0 for v in counts.values()):
             return counts
-
     for filename, key in [
-        ("self-knowledge.md", "knowledge"),
         ("self-curiosity.md", "curiosity"),
         ("self-personality.md", "personality"),
     ]:
@@ -199,11 +205,13 @@ def _prp_freshness(user_id: str) -> dict:
     try:
         prp_mtime = datetime.fromtimestamp(prp_path.stat().st_mtime)
         self_path = profile_dir(user_id) / "self.md"
+        knowledge_path = profile_dir(user_id) / "self-knowledge.md"
+        mtimes = []
         if self_path.is_file():
-            self_mtime = datetime.fromtimestamp(self_path.stat().st_mtime)
-            stale = prp_mtime < self_mtime
-        else:
-            stale = None
+            mtimes.append(datetime.fromtimestamp(self_path.stat().st_mtime))
+        if knowledge_path.is_file():
+            mtimes.append(datetime.fromtimestamp(knowledge_path.stat().st_mtime))
+        stale = prp_mtime < max(mtimes) if mtimes else None
         return {
             "exists": True,
             "path": str(prp_path.name),

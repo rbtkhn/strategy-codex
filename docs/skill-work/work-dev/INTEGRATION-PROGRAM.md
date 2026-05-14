@@ -2,7 +2,7 @@
 
 **Purpose:** Single canonical **operator program** for how OpenClaw and repo agents interact with Grace-Mar: **read order**, **export**, **stage-only handback**, and **merge** (human/operator only). This compresses behavior scattered across [openclaw-integration.md](../../openclaw-integration.md), hooks, and skills into one checklist-shaped doc — **not** a replacement for the full guide.
 
-**Audience:** Operator, Cursor/Codex/Claude sessions, OpenClaw startup scripts.  
+**Audience:** Operator, Cursor/Codex/Claude sessions, OpenClaw startup scripts.
 **Invariant:** Companion is always the gate. **Stage ≠ merge.**
 
 **Related:** [PARALLEL-MACRO-ACTIONS.md](PARALLEL-MACRO-ACTIONS.md) (non-interfering branches), [session-continuity-contract.md](session-continuity-contract.md), [safety-story-ux.md](safety-story-ux.md).
@@ -22,7 +22,7 @@ Run in this order so **staged vs canonical** stays mentally straight:
 |------|--------|-----|
 | 1 | `session-log.md` | What happened last |
 | 2 | `recursion-gate.md` | Pending candidates (not yet Record) |
-| 3 | `self-evidence.md` (last 1–2 ACT blocks) | Recent approved activity |
+| 3 | `self-archive.md` (last 1–2 relevant ACT / gated-approved blocks; fall back to `self-evidence.md` only for legacy layouts) | Recent approved activity |
 
 Optional proof-of-read:
 

@@ -1,8 +1,8 @@
 # K-12 schools — pilot playbook (companion-self type)
 
-**SKU:** **Companion-self for Schools (Pilot)**  
-**Commercial name (Colorado):** **[Rocky Record](rocky-record-service-brief.md)** — customer-facing brief, tiers, deliverables.  
-**Geography (target):** **Colorado-first** — see [k12-schools-colorado.md](k12-schools-colorado.md) (ICP, CO compliance, GTM). Multi-state after CO reference pilot(s).  
+**SKU:** **Companion-self for Schools (Pilot)**
+**Commercial name (Colorado):** **[Rocky Record](rocky-record-service-brief.md)** — customer-facing brief, tiers, deliverables.
+**Geography (target):** **Colorado-first** — see [k12-schools-colorado.md](k12-schools-colorado.md) (ICP, CO compliance, GTM). Multi-state after CO reference pilot(s).
 **Purpose:** Run 1–2 institutional pilots per [business-prospectus.md](business-prospectus.md); align with [business-roadmap.md](business-roadmap.md). Not a curriculum product — **identity Record + sovereign merge + Voice + export**.
 
 ---
@@ -13,7 +13,7 @@
 
 **Solution:** One **Record** per student — knowledge, curiosity, personality, skills, evidence — updated only when a **human approves** (parent and/or educator). A **Voice** answers from that Record only. **Exports** feed tutors, IEP teams, and next year’s teacher.
 
-**What we are not:** Replacing Khan, IXL, Alpha, or your SIS. We **record**; you **teach**.
+**What we are not:** Replacing Khan, IXL, AI school, or your SIS. We **record**; you **teach**.
 
 **Pilot ask:** Fixed cohort, fixed term, fixed fee. **Colorado pilots:** align vendor contract with HB 16-1423 / SB 24-041 per counsel ([k12-schools-colorado.md](k12-schools-colorado.md)). Success = measurable gate use + export use + zero critical privacy incident. See [k12-compliance-checklist.md](k12-compliance-checklist.md) before scale.
 
@@ -77,5 +77,5 @@ Failure to hit metrics → lessons learned doc; optional extension SOW.
 | [k12-pilot-agreement-template.md](k12-pilot-agreement-template.md) | SOW + signing readiness |
 | [using-grace-mar-without-a-school.md](using-grace-mar-without-a-school.md) | Family-facing loop (“we did X”, /review) |
 | [portability.md](portability.md) | Export shapes |
-| [market-research-alpha-khan.md](market-research-alpha-khan.md) | Supplemental positioning |
+| [k12-market-research-2026.md](k12-market-research-2026.md) | Supplemental positioning |
 | [k12-market-research-2026.md](k12-market-research-2026.md) | Competitors, pedagogy, 10 features |

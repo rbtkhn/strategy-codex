@@ -1,4 +1,4 @@
-"""Active lane compression — paths and payload shape."""
+"""Active lane compression â€” paths and payload shape."""
 
 from __future__ import annotations
 
@@ -18,7 +18,7 @@ def test_work_strategy_lane_payload():
     assert "relevant_source_paths" in p
     paths = p["relevant_source_paths"]
     assert any("docs/skill-work/work-strategy/" in x for x in paths)
-    assert any("users/grace-mar/self-work.md" in x for x in paths)
+    assert any("self-work.md" in x for x in paths)
 
     md = compress_active_lane.build_active_lane_markdown(p)
     assert "work-strategy" in md

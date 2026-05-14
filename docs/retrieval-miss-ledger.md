@@ -58,7 +58,7 @@ python scripts/runtime/log_retrieval_miss.py \
   --surface prepared_context \
   --query "Jiang lecture on sovereignty" \
   --failure-class vocabulary_mismatch \
-  --expected-target "research/external/work-jiang/lectures/vol-iii/lecture-42.md" \
+  --expected-target "codex/predictive-history/lectures/vol-iii/lecture-42.md" \
   --notes "Query used 'sovereignty'; content indexed under 'zhuquan' (主权)" \
   --lane work-jiang \
   --recorded-by operator
@@ -82,10 +82,10 @@ python scripts/runtime/summarize_retrieval_misses.py --json
   "timestamp": "2026-04-14T14:30:22Z",
   "retrieval_surface": "prepared_context",
   "query": "Jiang lecture on sovereignty",
-  "expected_target": "research/external/work-jiang/lectures/vol-iii/lecture-42.md",
+  "expected_target": "codex/predictive-history/lectures/vol-iii/lecture-42.md",
   "failure_class": "vocabulary_mismatch",
   "notes": "Query used 'sovereignty'; content indexed under 'zhuquan'",
-  "related_paths": ["research/external/work-jiang/lectures/vol-iii/"],
+  "related_paths": ["codex/predictive-history/lectures/vol-iii/"],
   "lane_or_context": "work-jiang",
   "recorded_by": "operator"
 }

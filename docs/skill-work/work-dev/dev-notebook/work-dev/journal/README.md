@@ -1,4 +1,4 @@
-﻿# Dev journal â€” work-dev learning log
+# Dev journal â€” work-dev learning log
 
 **Parent:** [Work notebook (multi-lane)](../../README.md) â†’ **work-dev** lane â€” this subfolder is the **day-scale journal**; other lanes hold prompts/specs by territory. **Lane index (map + history):** [../README.md](../README.md).
 
@@ -49,12 +49,11 @@
 
 **When** you run [`.cursor/skills/conductor/SKILL.md`](../../../../../../.cursor/skills/conductor/SKILL.md) (or **`conductor`**) on **work-dev** **objects** (harness, export, `workspace` wedge, derived regen), **land** a **durable** pass in this folder:
 
-- Add **`### Conductor close`** to the **day file** you are closing (`YYYY-MM-DD-day-NN.md`) using the same bullet **shape** as [CONDUCTOR-CLOSE-TEMPLATE.md](../../../../work-strategy/strategy-notebook/CONDUCTOR-CLOSE-TEMPLATE.md) (**Stance / conductor**, **Object**, **What moved / seam**, **Falsify / next test**, **Escalation**). Strategy **chapters/â€¦/days.md** is **not** the home for this lane â€” **this** **journal** (or a **spec** under [dev-notebook/work-dev/](../)) is.
-- **Optional** cadence only: `coffee_conductor_outcome` with `notebook_ref=` â†’ path to this file â€” [CONDUCTOR-IMPROVEMENT-LOOP.md](../../../../work-strategy/strategy-notebook/CONDUCTOR-IMPROVEMENT-LOOP.md) Â§ 3.
+- Add **`### Conductor close`** to the **day file** you are closing (`YYYY-MM-DD-day-NN.md`) using the same bullet **shape** as [CONDUCTOR-CLOSE-TEMPLATE.md](../../../../../../codex/CONDUCTOR-CLOSE-TEMPLATE.md) (**Stance / conductor**, **Object**, **What moved / seam**, **Falsify / next test**, **Escalation**). Strategy **chapters/â€¦/days.md** is **not** the home for this lane â€” **this** **journal** (or a **spec** under [dev-notebook/work-dev/](../)) is.
+- **Optional** cadence only: `coffee_conductor_outcome` with `notebook_ref=` â†’ path to this file â€” [CONDUCTOR-IMPROVEMENT-LOOP.md](../../../../../../codex/CONDUCTOR-IMPROVEMENT-LOOP.md) Â§ 3.
 
 **Kleiber** **action** **MCQ** options may **point** at [workspace.md](../../../workspace.md) and concrete paths under `dev-notebook/work-dev/`.
 
 ### Optional habit telemetry
 
 Light **follow-through** discipline (tomorrow line, blocker carryover, friction resolution) without turning this into a dashboard: [journal-metrics-habit.md](../../../../journal-metrics-habit.md). **Phase 0** = weekly 5â€‘minute check; **Phase 1** = optional YAML frontmatter. Rhythm snapshot (filename dates): `python3 scripts/journal_habit_snapshot.py`.
-

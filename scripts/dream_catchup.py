@@ -5,7 +5,7 @@ Computes which local calendar dates need strategy-notebook + cici-notebook produ
 when moving from the last successful dream handoff to now.
 
 Semantics:
-- Read ``users/<id>/last-dream.json`` ``generated_at`` **before** a new dream overwrites it.
+- Read ``last-dream.json`` ``generated_at`` **before** a new dream overwrites it.
 - Local dates to cover: all dates **strictly after** the local calendar date of that
   timestamp, through **today** in the operator timezone (inclusive).
 - If there is no prior handoff (first dream): **today only** in that timezone.

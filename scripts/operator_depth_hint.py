@@ -3,8 +3,8 @@
 Operator "trap door" hint: when pipeline velocity (approvals / merges) crosses tiers,
 emit a single harness-events line pointing at work-dev depth docs.
 
-Reads users/<id>/pipeline-events.jsonl (event approved | applied). Deduplicates via
-users/<id>/.operator_depth_hint_state.json so we only escalate when tier *increases*
+Reads pipeline-events.jsonl (event approved | applied). Deduplicates via
+.operator_depth_hint_state.json so we only escalate when tier *increases*
 (L1 → L2 → L3), not on every run.
 
 Not part of the Record. Operator / work-dev surface only.

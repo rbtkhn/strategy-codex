@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Heuristic: among users/**/*.md, fraction containing 'must-persist' (case-insensitive).
+Heuristic: among *.md, fraction containing 'must-persist' (case-insensitive).
 Document the convention in docs/system-tensions-and-mysteries.md or skill-work docs.
 """
 from __future__ import annotations

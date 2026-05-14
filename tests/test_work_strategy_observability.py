@@ -96,11 +96,11 @@ def test_forbidden_out_users() -> None:
         "--runtime-root",
         "runtime/work-strategy",
         "--out",
-        "users/grace-mar/__obs_test__.json",
+        "__obs_test__.json",
     ]
     r = subprocess.run(cmd, cwd=REPO_ROOT, capture_output=True, text=True)
     assert r.returncode == 2
-    assert not (REPO_ROOT / "users/grace-mar/__obs_test__.json").exists()
+    assert not (REPO_ROOT / "__obs_test__.json").exists()
 
 
 def test_json_stdout_valid(tmp_path: Path) -> None:

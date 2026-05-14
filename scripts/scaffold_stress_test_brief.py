@@ -3,7 +3,7 @@
 Copy the America First KY stress-test brief template to a dated WORK file.
 
 Writes under docs/skill-work/work-politics/america-first-ky/ only.
-Does not touch users/, self-evidence, or Record files.
+Does not touch , self-evidence, or Record files.
 
 Usage:
   python scripts/scaffold_stress_test_brief.py war-powers-vote

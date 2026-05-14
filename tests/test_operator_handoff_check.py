@@ -56,4 +56,4 @@ channel_key: telegram:1
     assert "CANDIDATE-0998" in joined and "Work-politics" in joined
     assert "CANDIDATE-0999" in joined and "Companion" in joined
     assert "complete processing" in joined
-    assert "users/test-user/recursion-gate.md" in joined
+    assert "test-user/recursion-gate.md" in joined

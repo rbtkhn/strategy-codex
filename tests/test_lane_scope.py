@@ -26,7 +26,7 @@ from infer_lane_from_paths import infer_dominant  # noqa: E402
 def test_path_matches_glob_starstar() -> None:
     assert path_matches_glob("docs/skill-work/work-dev/README.md", "docs/skill-work/work-dev/**")
     assert path_matches_glob("docs/skill-work/work-dev/a/b.md", "docs/skill-work/work-dev/**")
-    assert not path_matches_glob("docs/skill-work/work-jiang/x.md", "docs/skill-work/work-dev/**")
+    assert not path_matches_glob("codex/predictive-history/x.md", "docs/skill-work/work-dev/**")
     assert path_matches_glob("tests/test_work_jiang_foo.py", "tests/test_work_jiang*.py")
 
 
@@ -47,7 +47,7 @@ def test_check_lane_forbidden_work_jiang() -> None:
     doc = load_lanes(REPO_ROOT / "lanes.yaml")
     code, msgs = check_lane(
         "work-dev",
-        ["research/external/work-jiang/metadata/sources.yaml"],
+        ["codex/predictive-history/metadata/sources.yaml"],
         doc,
         allow_cross_lane=False,
         justification="",
@@ -117,7 +117,7 @@ def test_infer_mixed_two_lanes() -> None:
         infer_dominant(
             [
                 "docs/skill-work/work-dev/README.md",
-                "research/external/work-jiang/README.md",
+                "codex/predictive-history/README.md",
             ],
             doc,
         )
@@ -148,7 +148,7 @@ def test_infer_unclassified() -> None:
 def test_check_any_lane_matches_work_jiang() -> None:
     doc = load_lanes(REPO_ROOT / "lanes.yaml")
     code, msgs, _matched = check_any_lane(
-        ["research/external/work-jiang/metadata/sources.yaml"],
+        ["codex/predictive-history/metadata/sources.yaml"],
         doc,
     )
     assert code == 0
@@ -160,7 +160,7 @@ def test_check_any_lane_mixed_fails() -> None:
     code, _, _matched = check_any_lane(
         [
             "docs/skill-work/work-dev/README.md",
-            "research/external/work-jiang/README.md",
+            "codex/predictive-history/README.md",
         ],
         doc,
     )

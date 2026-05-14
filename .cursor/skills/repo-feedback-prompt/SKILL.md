@@ -13,7 +13,7 @@ synced_by: sync_portable_skills.py
 ---
 # Repo Feedback Prompt
 
-**Preferred activation (operator):** say the exact phrase **`repo feedback prompt`**. **Aliases:** **`OSS feedback prompt`**, **`constructive GitHub prompt`**.
+**Preferred activation (operator):** say **`repo feedback prompt`**, **`OSS feedback prompt`**, or **`constructive GitHub prompt`**.
 
 Use this skill when you have **reviewed someone else’s public repo** and want a **maintainer-ready message** that suggests improvements **without** generic praise, **false gaps**, or scope creep.
 

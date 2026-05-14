@@ -6,8 +6,8 @@ and subprocess validation results.
 Reads proposal fields: status, primaryScope, secondaryScopes, targetSurface, changeType,
 supportingEvidence[].type, createdAt.
 
-Default review root: users/demo/review-queue
-Default output: users/demo/observability/observability-report.json
+Default review root: demo/review-queue
+Default output: demo/observability/observability-report.json
 
 Validates output against schema-registry/observability-report.v1.json when present and jsonschema is installed.
 """
@@ -87,23 +87,23 @@ def main() -> int:
     parser = argparse.ArgumentParser(description="Build observability-report.json for a review-queue tree.")
     parser.add_argument(
         "--review-root",
-        default="users/demo/review-queue",
-        help="Path to review-queue directory (default: users/demo/review-queue)",
+        default="demo/review-queue",
+        help="Path to review-queue directory (default: demo/review-queue)",
     )
     parser.add_argument(
         "--output",
         default="",
-        help="Output JSON path (default: users/demo/observability/observability-report.json)",
+        help="Output JSON path (default: demo/observability/observability-report.json)",
     )
     parser.add_argument(
         "--skip-seed-validation",
         action="store_true",
-        help="Do not run validate-seed-phase.py on users/demo/seed-phase",
+        help="Do not run validate-seed-phase.py on demo/seed-phase",
     )
     parser.add_argument(
         "--seed-phase-dir",
-        default="users/demo/seed-phase",
-        help="Seed phase dir for optional validation (default: users/demo/seed-phase)",
+        default="demo/seed-phase",
+        help="Seed phase dir for optional validation (default: demo/seed-phase)",
     )
     parser.add_argument(
         "--stale-days",
@@ -124,7 +124,7 @@ def main() -> int:
         print(f"ERROR: proposals directory not found: {proposals_dir}", file=sys.stderr)
         return 1
 
-    out_path = Path(args.output) if args.output else ROOT / "users/demo/observability/observability-report.json"
+    out_path = Path(args.output) if args.output else ROOT / "demo/observability/observability-report.json"
     out_path = out_path.resolve()
     out_path.parent.mkdir(parents=True, exist_ok=True)
 

@@ -11,7 +11,7 @@
 | **K-12 interoperability** (Project Unicorn, Ed-Fi, LEA exchange) | Districts optimize SIS/LMS pipes, not child-owned **narrative identity**. Gap: long-horizon, family/school-approved profile outside a single LMS. |
 | **CLR 2.0 / Open Badges 3.0 (1EdTech, 2025)** | Sector moving toward **verifiable portable credentials**. Record + evidence can **align later** with CLR-style exports without becoming a full credential platform on day one. |
 | **Learner Information Framework** | Cross-system learner data location — this product is the **human-gated story + curiosity + personality** layer many stacks omit. |
-| **AI schools + adaptive apps** (Alpha, Khan, IXL) | Teaching layer crowded; **identity + consent + export** comparatively weak ([market-research-alpha-khan.md](market-research-alpha-khan.md)). **Supplemental** positioning: they teach; we **record**. |
+| **AI schools + adaptive apps** (AI school, Khan, IXL) | Teaching layer crowded; **identity + consent + export** comparatively weak ([k12-market-research-2026.md](k12-market-research-2026.md)). **Supplemental** positioning: they teach; we **record**. |
 
 **Colorado procurement:** Charters often use **BuyQ** (GPO), **CSP-style** budgets; microschools emphasize **competency + individual learner profiles** — fit for Record + evidence story. Large district RFPs = later wave.
 
@@ -78,7 +78,7 @@
 | Doc | Role |
 |-----|------|
 | [competitive-analysis.md](competitive-analysis.md) | Grace-Mar vs market |
-| [market-research-alpha-khan.md](market-research-alpha-khan.md) | Alpha / Khan wedge |
+| [k12-market-research-2026.md](k12-market-research-2026.md) | AI school / Khan wedge |
 | [business-prospectus.md](business-prospectus.md) | Pilots, pricing bands |
 | [k12-schools-pilot-playbook.md](k12-schools-pilot-playbook.md) | SKU, metrics |
 | [k12-schools-mvp.md](k12-schools-mvp.md) | Technical MVP |

@@ -2,7 +2,7 @@
 """
 Emit artifacts/library-index.md — derived operator dashboard from SELF-LIBRARY entries in self-library.md.
 
-Does not modify users/*/self-library.md or any Record file.
+Does not modify self-library.md or any Record file.
 """
 
 from __future__ import annotations
@@ -50,7 +50,7 @@ def _git_last_commit_iso_for_file(repo_root: Path, rel_path: str) -> str | None:
 
 def _generated_at_stamp(repo_root: Path, user_id: str) -> str:
     """Stable for a given git commit: last commit time on self-library.md, else UTC now."""
-    rel = f"users/{user_id}/self-library.md"
+    rel = f"{user_id}/self-library.md"
     iso = _git_last_commit_iso_for_file(repo_root, rel)
     if iso:
         try:
@@ -139,7 +139,7 @@ def render_markdown(
         "<!-- GENERATED — run: python3 scripts/build_library_index.py -->\n\n",
         "# Library index — operator dashboard (SELF-LIBRARY)\n\n",
         "**Derived artifact — not canonical.** Regenerate after editing "
-        f"[users/{user_id}/self-library.md](users/{user_id}/self-library.md). "
+        f"[{user_id}/self-library.md]({user_id}/self-library.md). "
         "Canonical library truth stays in that file and in [docs/library-schema.md](../docs/library-schema.md).\n\n",
     ]
 

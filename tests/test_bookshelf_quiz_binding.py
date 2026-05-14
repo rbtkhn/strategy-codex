@@ -207,9 +207,19 @@ def test_ix_a_merge_remains_prose_only() -> None:
         "prompt_section": "YOUR KNOWLEDGE",
         "prompt_addition": "none",
     }
-    self_out, _evidence_out, _prompt_out, _act_id, _entry_id = pac.merge_candidate_in_memory(
+    self_out, knowledge_out, _evidence_out, _prompt_out, _act_id, _entry_id = pac.merge_candidate_in_memory(
         candidate,
         SELF_FIXTURE,
+        """# SELF-KNOWLEDGE
+
+## IX-A. KNOWLEDGE
+
+#### Facts (LEARN-nnn)
+
+```yaml
+entries:
+```
+""",
         """## V. ACTIVITY LOG
 
 ```yaml
@@ -222,7 +232,8 @@ entries:
     )
     assert "shelf_refs:" not in self_out
     assert "quiz_receipt:" not in self_out
-    assert "Knows: the Melian Dialogue" in self_out
+    assert "Knows: the Melian Dialogue" not in self_out
+    assert "Knows: the Melian Dialogue" in knowledge_out
 
 
 def test_john_adams_anchor_lookup_preflight_and_receipt_extraction() -> None:
@@ -247,7 +258,7 @@ def test_bookshelf_receipt_checks_degrade_to_warning_without_pyyaml(monkeypatch)
     import check_gate_merge_readiness as cgr
 
     cgr = importlib.reload(cgr)
-    monkeypatch.setattr(cgr, "yaml", None)
+    monkeypatch.setattr(cgr, "has_yaml", lambda: False)
     blockers, warnings = cgr._receipt_binding_issues(
         "CANDIDATE-0060",
         {

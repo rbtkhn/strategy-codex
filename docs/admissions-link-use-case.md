@@ -43,14 +43,14 @@ The reviewer wants to **get to know the applicant** beyond static materials (ré
 
 ```
 Applicant's Record (SELF, SKILLS, EVIDENCE)
-         │
-         ▼
+         â”‚
+         â–¼
     Q&A / Interview API
-         │
-         ▼
+         â”‚
+         â–¼
    Web UI (chat interface)
-         │
-         ▼
+         â”‚
+         â–¼
    Reviewer (browser)
 ```
 
@@ -96,7 +96,7 @@ Same as today: **only what is in the Record**. Knowledge boundary applies. The f
 ### Positioning
 - **Tagline:** "Apply with your cognitive fork. Let them meet the real you."
 - **Differentiator:** Interactive identity layer — not just documents, but a conversation.
-- **Audience:** Schools (Alpha, Incept, selective admissions), employers (especially roles where fit and character matter), scholarships.
+- **Audience:** Schools (AI school, Incept, selective admissions), employers (especially roles where fit and character matter), scholarships.
 
 ### Age / maturity
 - Current instance (grace-mar) is a 6-year-old. The use case scales: high school, college, job applicants. Voice and depth of the Record grow with the person.
@@ -106,7 +106,7 @@ Same as today: **only what is in the Record**. Knowledge boundary applies. The f
 
 ## Implementation Plan (Phased)
 
-### Phase 1 — Foundation ✓
+### Phase 1 — Foundation âœ“
 - [x] Extend miniapp/server to accept interview mode via URL: `/i/<token>`, `/me/<user_id>`, `?mode=interview`, or `?t=<token>`.
 - [x] Interview sessions use `channel_key: interview`; exchanges are **not** archived (read-only for reviewer).
 - [x] Interview landing shows different intro: "This is Grace-Mar's cognitive fork... Ask anything to get to know her. Your questions are not saved."

@@ -18,7 +18,7 @@ Grace-Mar has **three** places where value can **compound** over time. Each has 
 
 ## Loop 1 — Record (companion truth)
 
-**What compounds:** `self.md`, `self-evidence.md`, approved IX entries, gated updates to the Voice prompt.
+**What compounds:** `self.md`, `self-archive.md` (canonical EVIDENCE body), approved IX entries, gated updates to the Voice prompt.
 
 **Shape:** Signals are **staged** in `recursion-gate.md`; on approval, **`process_approved_candidates.py`** merges across the declared files. EVIDENCE entries are append-only once captured.
 

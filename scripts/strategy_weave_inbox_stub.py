@@ -24,7 +24,7 @@ import sys
 
 
 def _build_basename(date: str, page_id: str) -> str:
-    return f"strategy-notebook-knot-{date}-{page_id}.md"
+    return f"strategy-notebook-page-{date}-{page_id}.md"
 
 
 def main() -> int:
@@ -32,11 +32,10 @@ def main() -> int:
     ap.add_argument("--date", required=True, help="Calendar day YYYY-MM-DD")
     ap.add_argument(
         "--page-id",
-        "--knot-label",
         required=True,
         dest="page_id",
         metavar="ID",
-        help="Page id / basename slug (kebab-case; legacy index filename on disk is unchanged).",
+        help="Page id / basename slug (kebab-case).",
     )
     ap.add_argument(
         "--cold",

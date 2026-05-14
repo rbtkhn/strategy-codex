@@ -5,7 +5,7 @@ Validates doc paths, visualizer files, committed fixture shape, static HTML smok
 (``smoke_strategy_visualizer.py``), example workbench receipts (delegates to
 ``validate_workbench_receipt``), and optionally ``generate_strategy_notebook_visualizer_fixture.py --check``.
 
-Does not read or write users/, recursion-gate, or Record. Does not stage or merge.
+Does not read or write , recursion-gate, or Record. Does not stage or merge.
 Standard library only.
 """
 

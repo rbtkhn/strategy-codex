@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Append one transaction row to users/<id>/business-ledger.jsonl.
+Append one transaction row to business-ledger.jsonl.
 
 Instance-specific (grace-mar). Not template-portable.
 

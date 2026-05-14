@@ -71,7 +71,7 @@ def _argv_validate_skills(_user: str) -> list[str]:
 
 
 def _argv_seed_phase_template(_user: str) -> list[str]:
-    return ["users/_template/seed-phase", "--allow-placeholders"]
+    return ["_template/seed-phase", "--allow-placeholders"]
 
 
 ALL_CHECKS: tuple[CheckSpec, ...] = (

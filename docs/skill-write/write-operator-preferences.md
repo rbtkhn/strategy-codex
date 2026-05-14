@@ -138,7 +138,7 @@ Skill-write handoff commonly starts from:
 - **`tri-mind`** — [`.cursor/skills/tri-mind/SKILL.md`](../../.cursor/skills/tri-mind/SKILL.md)
 - **Strategy notebook / inbox** — [`daily-strategy-inbox.md`](../skill-work/work-strategy/strategy-notebook/daily-strategy-inbox.md), `chapters/YYYY-MM/days.md` when used
 - **Work-politics daily brief** — generator and lane per [work-strategy README](../skill-work/work-strategy/README.md) / coffee **C**
-- **Predictive History / work-jiang** — lecture hooks, analysis memos under [`research/external/work-jiang/`](../../research/external/work-jiang/) and [youtube-channels/predictive-history](../../research/external/youtube-channels/predictive-history/README.md) when the piece ties to corpus
+- **Predictive History / work-jiang** — lecture hooks, analysis memos under [`codex/predictive-history/`](../../codex/predictive-history/) and [youtube-channels/predictive-history](../../research/external/youtube-channels/predictive-history/README.md) when the piece ties to corpus
 
 ### From analysis to public copy
 

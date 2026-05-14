@@ -16,14 +16,14 @@ difficulty:
 mastery:
   in_lesson_success_percent: [80, 85]
   advance_threshold_percent: 90
-  description: "Per segment: aim for 80–85% success; don't advance until ~90% mastery. (Bloom, Alpha, IXL)"
+  description: "Per segment: aim for 80–85% success; don't advance until ~90% mastery. (Bloom, AI school, IXL)"
 
 session:
   segments_count: 4
   segment_minutes: [25, 30]
   activity_minutes: [10, 15]
   total_hours: 2
-  description: "4 segments of ~25–30 min; 10–15 min per activity; 2-hour ceiling. (Alpha, CLT)"
+  description: "4 segments of ~25–30 min; 10–15 min per activity; 2-hour ceiling. (AI school, CLT)"
 
 # Constraint architecture: musts, must_nots, preferences, escalation.
 # Aligns with 2026 prompting framework (specification engineering); evidence-first.

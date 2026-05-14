@@ -25,13 +25,14 @@ The repo already has substantial agentic infrastructure. A managed-agent lifecyc
 | Authority classes | [sandbox-adapter-spec.md](sandbox-adapter-spec.md) | Three tiers: `operator`, `agent_supervised`, `agent_autonomous` — with escalation rules, receipt emission, and Record-access controls |
 | Environment principles | [agentic-environment-principles.md](agentic-environment-principles.md) | Debug order (environment before prompt), bounded execution (§5b), pipeline discipline (§5c: local memory is not the Record) |
 | Agent surface template | [agent-surface-template.yaml](agent-surface-template.yaml) | Structured evaluation: runtime placement, orchestration, interface, Grace-Mar trust fields, `agent_species` |
+| Agentic receipt map | [agentic-receipt-map.md](agentic-receipt-map.md) | Existing WORK-layer audit surfaces and the future universal Agent Action Log gap |
 | Runtime-vs-Record boundary | [runtime-vs-record.md](../../runtime-vs-record.md) | Canonical map: what is governed (SELF, SKILLS, EVIDENCE, SELF-LIBRARY) vs runtime-only (session paste, MEMORY, skill cards, observations ledger) |
 | Governance unbundling | [governance-unbundling.md](../../governance-unbundling.md) | Routing (automatable) vs sensemaking (human) vs accountability (human) — agents may route; they may not sense-make or merge |
 | Gated pipeline | [AGENTS.md](../../../AGENTS.md) §2 | Sovereign merge rule: stage to recursion-gate, companion approves, `process_approved_candidates.py --apply` |
 | Compute ledger | [sandbox-adapter-spec.md](sandbox-adapter-spec.md) §Data shapes | Per-invocation cost and outcome tracking via `append_integration_ledger()` |
 | Conceptual invariants | [conceptual-framework.md](../../conceptual-framework.md) §8, invariant 38 | WORK execution is instrumental (not a fourth triad seat); reactive now, agentic later; extra guardrail design required for agentic capabilities |
 
-**What is missing:** An explicit lifecycle (spin-up → observe → pause → shutdown) and an operator runbook that ties these primitives together for persistent agents.
+**What is missing:** An explicit lifecycle (spin-up → observe → pause/revoke → shutdown), a declared review cadence, and an operator runbook that ties these primitives together for persistent agents.
 
 ---
 
@@ -64,7 +65,13 @@ The operator fills out an `agent-surface-template.yaml` manifest for the agent, 
 
 - **`agent_species`** — one of the four existing values (`coding_harness`, `dark_factory`, `auto_research`, `workflow_orchestration`)
 - **`runtime.placement`** — where the agent runs (local, cloud, hybrid)
+- **`context.human_context` / `context.agent_context`** — what remains human-only vs what the agent can actually see
+- **`permissions.authority_class`** — operator, supervised agent, autonomous agent, or not applicable
+- **`permissions.blast_radius`** — worst credible failure if compromised or confused
 - **`grace_mar.merge_requires_companion_gate`** — always `true` for managed agents
+- **`audit.receipt_surfaces`** and **`audit.review_cadence`** — where receipts land and how often a human checks them
+- **`revocation.stop_path`** — exact halt/shutdown path before operation begins
+- **`pressure_default`** — deny/escalate/read-only behavior under deadline pressure
 - **Purpose statement** — a concrete, documented reason for spinning up this agent (what WORK territory it serves, what it produces, how long it should run)
 
 The manifest lives in the WORK territory and is **not** a Record artifact.
@@ -77,6 +84,8 @@ The agent executes under one of the sandbox-adapter authority classes:
 - **`agent_autonomous`** — restricted to pre-approved task types; no Record write; timeout enforced; receipts auto-flagged for review. Typical for overnight monitors, scheduled digest builders.
 
 Every invocation produces a `SandboxReceipt` per the adapter spec. Cost rows append to the compute ledger.
+
+If authority, scope, receipts, or source access become uncertain during a run, the pressure default is deny/read-only and escalate to the operator rather than widening access.
 
 ### 3. Observe
 
@@ -122,6 +131,11 @@ Operational discipline for managed agents. These are **operator responsibilities
 
 - [ ] Purpose documented in the manifest (what, why, how long, which WORK territory)
 - [ ] Authority class selected (`agent_supervised` or `agent_autonomous`)
+- [ ] Human-context vs agent-context boundary declared
+- [ ] Permission scope, denied actions, and blast radius declared
+- [ ] Review cadence declared before first run
+- [ ] Revocation path documented (command/process/owner to halt the agent) and tested if practical
+- [ ] Pressure default declared: deny, read-only, or escalate if scope/auth/source is uncertain
 - [ ] Sandbox backend chosen and healthy (`health()` check passes)
 - [ ] Compute budget estimated (cost ceiling in the ledger)
 - [ ] Observability feed confirmed (JSONL path exists, dashboard accessible)
@@ -131,9 +145,10 @@ Operational discipline for managed agents. These are **operator responsibilities
 - [ ] Receipts accumulating in `pipeline-events.jsonl` or `sandbox-receipts.jsonl`
 - [ ] Compute ledger rows within budget
 - [ ] No Record access beyond declared `record_access` level
+- [ ] Revocation path remains reachable; halt if receipts fail or scope widens
 - [ ] Periodic operator review of output artifacts (cadence depends on agent species)
 
-### Pause
+### Pause / revoke
 
 - [ ] Agent halted cleanly (no orphaned processes or connections)
 - [ ] State files preserved (not deleted until explicitly retired)
@@ -144,6 +159,7 @@ Operational discipline for managed agents. These are **operator responsibilities
 - [ ] Final summary log: what the agent accomplished, open questions, suggested follow-ups
 - [ ] State files archived or deleted per operator judgment
 - [ ] Compute ledger reconciled (total cost, total invocations, outcome quality)
+- [ ] Stop/revocation receipt written with reason and final state
 - [ ] Any valuable output staged to recursion-gate or archived in WORK territory
 - [ ] Manifest updated with shutdown date and reason
 
@@ -236,6 +252,7 @@ No new species value is needed. The template's Grace-Mar trust fields (`record_a
 ## Cross-references
 
 - [sandbox-adapter-spec.md](sandbox-adapter-spec.md) — authority classes, receipts, compute ledger
+- [agentic-receipt-map.md](agentic-receipt-map.md) — existing WORK-layer receipt surfaces and universal action-log gap
 - [agentic-environment-principles.md](agentic-environment-principles.md) — environment-first, bounded execution, pipeline discipline
 - [agent-surface-template.yaml](agent-surface-template.yaml) — structured evaluation template
 - [runtime-vs-record.md](../../runtime-vs-record.md) — canonical vs runtime boundary
@@ -249,4 +266,5 @@ No new species value is needed. The template's Grace-Mar trust fields (`record_a
 
 | Date | Change |
 |------|--------|
+| 2026-05-11 | Added agentic safety fields, revocation path, pressure default, review cadence, and receipt-map link. |
 | 2026-04-14 | Initial design doc from managed-agent proposal analysis. Think lane; not governance. |

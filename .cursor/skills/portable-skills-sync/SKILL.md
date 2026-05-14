@@ -1,4 +1,4 @@
-﻿---
+---
 name: portable-skills-sync
 preferred_activation: sync skills
 description: 'Sync portable skill cores into generated host Cursor SKILL.md files: manifest-driven assembly, optional host appendix, verify step before write. Triggers: skills-portable edit, manifest.yaml, CURSOR_APPENDIX, portable pipeline, run sync, verify portable skills.'
@@ -10,20 +10,20 @@ tags:
 portable_source: skills-portable/portable-skills-sync/SKILL.md
 synced_by: sync_portable_skills.py
 ---
-# Portable skills â€” sync to Cursor (host)
+# Portable skills — sync to Cursor (host)
 
-**Preferred activation (operator):** say the exact phrase **`sync skills`**.
+**Preferred activation (operator):** say **`sync skills`**.
 
-Use this skill when **editing or adding** skills that follow the **portable core + host appendix** pattern: methodology lives under `skills-portable/<skill>/SKILL.md`; instance-specific paths and commands live in a separate appendix file; the editor-facing `SKILL.md` under `.cursor/skills/` is **generated** â€” do not hand-edit it.
+Use this skill when **editing or adding** skills that follow the **portable core + host appendix** pattern: methodology lives under `skills-portable/<skill>/SKILL.md`; instance-specific paths and commands live in a separate appendix file; the editor-facing `SKILL.md` under `.cursor/skills/` is **generated** — do not hand-edit it.
 
 ## Layout (generic)
 
 | Piece | Role |
 |-------|--------|
-| `skills-portable/<skill>/SKILL.md` | **Portable core** â€” frontmatter (`portable: true`, `name`, one-line `description`, `version`, optional `tags`) + methodology. **No** instance user directories or gated merge script names in the body (your manifest may forbid substrings â€” see verify step). |
-| `.cursor/skills/<skill>/CURSOR_APPENDIX.md` | **Host-only** â€” real paths, doc links, commands for **this** clone. |
-| `skills-portable/manifest.yaml` | **Registry** â€” maps `source`, optional `appendix`, `target`, and optional `verify_forbidden_substrings` for the portable **body** only. |
-| `.cursor/skills/<skill>/SKILL.md` | **Output** â€” frontmatter gains `portable_source` and `synced_by`; body = core + `## Cursor / â€¦ instance` + appendix. |
+| `skills-portable/<skill>/SKILL.md` | **Portable core** — frontmatter (`portable: true`, `name`, one-line `description`, `version`, optional `tags`) + methodology. **No** instance user directories or gated merge script names in the body (your manifest may forbid substrings — see verify step). |
+| `.cursor/skills/<skill>/CURSOR_APPENDIX.md` | **Host-only** — real paths, doc links, commands for **this** clone. |
+| `skills-portable/manifest.yaml` | **Registry** — maps `source`, optional `appendix`, `target`, and optional `verify_forbidden_substrings` for the portable **body** only. |
+| `.cursor/skills/<skill>/SKILL.md` | **Output** — frontmatter gains `portable_source` and `synced_by`; body = core + `## Cursor / … instance` + appendix. |
 
 ## When to run
 
@@ -34,7 +34,7 @@ Use this skill when **editing or adding** skills that follow the **portable core
 ## Workflow
 
 1. **Edit** the portable core and/or appendix; add or adjust a **manifest** entry if the skill is new.
-2. **Verify** (no writes): run the repoâ€™s sync script with `--verify`. Fix any reported issues (forbidden substring in portable body, multi-line `description`, missing `portable: true`).
+2. **Verify** (no writes): run the repo’s sync script with `--verify`. Fix any reported issues (forbidden substring in portable body, multi-line `description`, missing `portable: true`).
 3. **Sync**: run the same script without `--verify` to write targets.
 4. **Commit** together: portable `SKILL.md`, appendix, `manifest.yaml`, and generated `.cursor/skills/.../SKILL.md` (plus any doc cross-links you touched).
 
@@ -51,20 +51,20 @@ python3 scripts/sync_portable_skills.py --skill <skill-name>
 
 ## Guardrails
 
-- **Never** edit the generated `.cursor/skills/<skill>/SKILL.md` by hand â€” the next sync will overwrite it.
-- **Drift tax:** The **canonical** file for each listed skill is **`skills-portable/<skill>/SKILL.md`** (plus `CURSOR_APPENDIX.md`). Hand-fixing only the generated host `SKILL.md` **without** editing the portable core produces **silent divergence** until the next sync â€” treat that as a process bug, not a shortcut.
+- **Never** edit the generated `.cursor/skills/<skill>/SKILL.md` by hand — the next sync will overwrite it.
+- **Drift tax:** The **canonical** file for each listed skill is **`skills-portable/<skill>/SKILL.md`** (plus `CURSOR_APPENDIX.md`). Hand-fixing only the generated host `SKILL.md` **without** editing the portable core produces **silent divergence** until the next sync — treat that as a process bug, not a shortcut.
 - Keep **policy and Record merge** details out of the portable core; they belong in host docs or the appendix.
 - If `--verify` fails on **description**, ensure the YAML `description` value is a **single line** (no literal newline inside the string).
 
 ## Related concepts
 
-- **Discovery ladder:** pointer backlog â†’ `_drafts/` â†’ portable core + manifest (see your repoâ€™s `skills-portable/README.md` if present).
+- **Discovery ladder:** pointer backlog → `_drafts/` → portable core + manifest (see your repo’s `skills-portable/README.md` if present).
 - **Extract from session:** turning a thread into a new skill often starts a draft under `_drafts/` before manifest registration.
 
 
 ## Cursor / grace-mar instance
 
-Grace-mar paths and doc links for this repository (from `.cursor/skills/portable-skills-sync/`).
+﻿Grace-mar paths and doc links for this repository (from `.cursor/skills/portable-skills-sync/`).
 
 | Topic | Path |
 |--------|------|
@@ -81,4 +81,3 @@ Grace-mar paths and doc links for this repository (from `.cursor/skills/portable
 **Verify defaults (this manifest):** portable bodies must not contain the substrings `` or `process_approved_candidates` â€” keep those in this appendix or other host docs, not in `skills-portable/*/SKILL.md` bodies.
 
 **Pilot reference:** [politics-massie](../politics-massie/SKILL.md) (generated) and `skills-portable/politics-massie/SKILL.md` (source).
-
