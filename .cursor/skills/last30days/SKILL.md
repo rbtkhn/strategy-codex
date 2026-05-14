@@ -14,7 +14,7 @@ synced_by: sync_portable_skills.py
 ---
 # Last 30 Days Research
 
-**Preferred activation (operator):** say the exact phrase **`last30days`**. **Aliases:** **`research last30days`**, **`last 30 days research`**.
+**Preferred activation:** say **`last30days`**, **`research last30days`**, or **`last 30 days research`** with a query.
 
 Use this skill when the operator wants a recent-topic research brief that is time-bounded, provenance-rich, and careful about what is known, disputed, or only suggested by weak signals.
 

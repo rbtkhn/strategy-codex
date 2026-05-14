@@ -41,30 +41,42 @@ Use this skill when a YouTube episode should become a canonical transcript artif
      - if the upload belongs to a designated cognition stream such as Diesen, Davis, Mercouris, or Dialogue Works, use the host stream as the owning lane
      - if the upload is on an outside channel and the recurring guest already has a real notebook lane such as `pape` or `ritter`, use the guest lane as the owning lane
    - The filename should teach that ownership rule. Keep the outside host visible, but do not let an incidental channel displace the notebook owner.
+   - If the URL appears to be a same-day companion clip cut from a longer same-channel upload, do **not** materialize it by default. Prefer the longer parent interview or episode unless the operator explicitly asks for the companion clip anyway.
 
 2. **Acquire the best subtitle source available**
    - Prefer the original-language subtitle track if available (for example `en-orig` before fallback `en`).
+   - When using `yt-dlp`, prefer a wildcard language request such as `en.*` so the extractor can recover `en-orig` and related English variants instead of failing on a too-literal language list.
    - If `yt-dlp` is not on `PATH`, try the Python module path.
    - Save subtitle artifacts locally so the extraction path is auditable.
+   - If the repo's normal transcript path reports errors such as `no vtt subtitle file produced` or a language-specific fetch failure even though `--list-subs` shows English auto-captions, retry with a direct `yt-dlp` subtitle pull before giving up.
 
-3. **Choose the right transcript class**
+3. **Use tranche mode when the operator has a vetted batch**
+   - If the operator already has an approved set of exact watch URLs, treat the task as a targeted tranche rather than a channel crawl.
+   - Resolve metadata per URL, pull subtitles per URL, and then materialize the resulting batch into canonical date folders.
+   - Do not fall back to broad channel slicing when the real task is "capture these exact episodes."
+
+4. **Choose the right transcript class**
    - Use `cleaned_transcript` only when the user supplies cleaned dialogue or a human-cleaned source.
    - Use `auto_subtitles_vtt` when you materialize raw captions with minimal intervention.
    - Use `speaker_normalized_from_auto_subtitles` when you perform best-effort turn assignment and sentence cleanup from captions.
 
-4. **Materialize the canonical raw-input file**
+5. **Materialize the canonical raw-input file**
    - Write the file into the canonical date folder using the published date.
    - Include frontmatter with `ingest_date`, `pub_date`, `thread`, `title`, `source_url`, `source_type`, `transcript_type`, and a plain-language `editorial_note`.
    - Make the note explicit about whether the transcript is operator-pasted, auto-extracted, or best-effort normalized.
    - Keep `show`, `host`, `guest`, and `channel_slug` explicit when present so host context is preserved even when the expert lane owns the filename.
 
-5. **Normalize conservatively**
+6. **Normalize conservatively**
    - Remove timing markup, duplicate carryover lines, and obvious caption artifacts.
+   - Remove extraction headers such as `Kind:` / `Language:` when they are not part of the episode itself.
+   - Collapse repeated consecutive caption triplets or other obvious auto-caption duplication.
+   - Normalize obvious HTML entities or transcript wrapper artifacts without pretending the result is human-cleaned.
    - Reflow fragments into readable paragraphs.
    - Assign speaker labels only where confidence is reasonable from interview structure.
+   - Normalize recurring guest names conservatively when the lane identity is already established, for example keeping `Seyed M. Marandi` stable instead of preserving every caption-side variant.
    - Preserve uncertainty rather than inventing fluent but unsupported dialogue.
 
-6. **Verify before declaring success**
+7. **Verify before declaring success**
    - Check the top metadata block, opening lines, and closing lines.
    - Make sure title, date, guest, and transcript type all agree with the extraction path.
    - If the output still has substantial caption noise, say so clearly.
@@ -75,6 +87,7 @@ Use this skill when a YouTube episode should become a canonical transcript artif
 - Never silently upgrade `auto_subtitles_vtt` into `cleaned_transcript`.
 - Never infer a date from thematic similarity to another episode when metadata or user instruction is available.
 - Never let an outside host channel silently take ownership from a recurring expert lane when the notebook clearly treats the guest as the real owner of the capture.
+- Never record an obvious same-day companion clip when a longer same-channel parent episode exists, unless the operator explicitly overrides that default.
 - Keep provenance explicit enough that a later operator can distinguish:
   - operator-pasted cleaned transcript
   - raw subtitle extraction
@@ -95,6 +108,9 @@ python -m yt_dlp --skip-download --print "%(id)s\n%(title)s\n%(upload_date)s\n%(
 
 # Subtitle extraction
 python -m yt_dlp --skip-download --write-auto-sub --sub-langs "en.*" --sub-format vtt -o "<temp-dir>/%(id)s.%(ext)s" "<youtube-url>"
+
+# Direct fallback when the normal pipeline misses visible English auto-captions
+python -m yt_dlp --skip-download --write-auto-subs --sub-langs "en.*,en,en-US,en-orig" --sub-format vtt -o "<temp-dir>/%(id)s.%(ext)s" "<youtube-url>"
 ```
 
 ## Success condition

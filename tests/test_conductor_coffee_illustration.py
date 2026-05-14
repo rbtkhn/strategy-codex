@@ -1,5 +1,5 @@
 """
-Illustrations for coffee conductor helpers (hub **E** / standalone **`conductor`**).
+Illustrations for coffee conductor helpers (name-only standalone **`conductor`**).
 
 Helper signals still matter: the log can show which conductor was picked most recently,
 and dream/load can still point elsewhere (e.g. **Bernstein** when ``recommended: C``).
@@ -18,6 +18,7 @@ from scripts.cadence_conductor_resolution import (
     d2_conductor_from_menu_recommendation,
     d2_conductor_resolved,
     focus_for_d1_continuation,
+    format_coffee_hub_e_line,
     format_conductor_mcq_block,
     last_coffee_pick_conductor_event,
     last_logged_conductor,
@@ -69,7 +70,7 @@ def test_illustration_menu_round_trip_is_stable():
 
 def test_resolve_d_bare_uses_last():
     slug, err = resolve_d_conductor("", last_conductor_slug="bernstein")
-    assert err is None and slug == "bernstein"
+    assert slug is None and err == "no_prior"
     _s, err2 = resolve_d_conductor("", last_conductor_slug=None)
     assert err2 == "no_prior"
 
@@ -77,35 +78,47 @@ def test_resolve_d_bare_uses_last():
 def test_resolve_d_prefix():
     assert resolve_d_conductor("bern", last_conductor_slug=None) == ("bernstein", None)
     assert resolve_d_conductor("kar", last_conductor_slug=None) == ("karajan", None)
+    assert resolve_d_conductor("karajan", last_conductor_slug=None) == ("karajan", None)
+    assert resolve_d_conductor("kleiber", last_conductor_slug=None) == ("kleiber", None)
     assert resolve_d_conductor("k", last_conductor_slug=None)[1] == "ambiguous"
+    assert resolve_d_conductor("conductor", last_conductor_slug=None) == (None, "no_match")
 
 
-def test_resolve_d_mcq_single_letter():
-    """Conductor MCQ **A**–**E** override single-char prefix rules (e.g. B = Furtwängler)."""
-    assert resolve_d_conductor("B", last_conductor_slug=None) == ("furtwangler", None)
-    assert resolve_d_conductor("b", last_conductor_slug=None) == ("furtwangler", None)
-    assert conductor_submenu_letter_to_slug("D") == "kleiber"
+def test_resolve_d_single_letters_do_not_select_masters():
+    """Master-selection letters are deprecated; letters only select resolved actions."""
+    assert resolve_d_conductor("B", last_conductor_slug=None) == (None, "no_match")
+    assert resolve_d_conductor("b", last_conductor_slug=None) == (None, "no_match")
+    assert conductor_submenu_letter_to_slug("D") is None
     assert conductor_submenu_letter_to_slug("x") is None
 
 
-def test_format_conductor_mcq_continuity_and_lines():
+def test_format_conductor_name_prompt_has_no_master_rows():
     text = format_conductor_mcq_block(
         last_slug="kleiber",
         focus_text="iran/hormuz",
         recommended_slug="karajan",
     )
-    assert "**A.** **Toscanini**" in text
-    assert "**D.** **Kleiber**" in text
+    assert "Name a conductor:" in text
+    assert "toscanini" in text
+    assert "karajan" in text
     assert "iran/hormuz" in text
-    assert "pivot from last **Kleiber**" in text or "pivot from" in text
-    assert text.count("**A.**") == 1
-    assert text.count("**E.**") == 1
+    assert "Last conductor: **Kleiber**." in text
+    assert "System hint: **Karajan**." in text
+    assert "**A.**" not in text
+    assert "**E.**" not in text
 
 
 def test_build_conductor_mcq_for_user_runs():
     s = build_conductor_mcq_for_user("grace-mar")
-    assert "Conductor MCQ" in s
-    assert "**E.** **Bernstein**" in s
+    assert "Name a conductor:" in s
+    assert "**E.** **Bernstein**" not in s
+
+
+def test_removed_coffee_hub_e_helper_is_name_only():
+    s = format_coffee_hub_e_line("grace-mar")
+    assert "Conductor is standalone" in s
+    assert "**E" not in s
+    assert "bernstein" in s
 
 
 def test_illustration_three_kleiber_repetition():

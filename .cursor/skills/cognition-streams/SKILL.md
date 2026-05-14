@@ -17,7 +17,7 @@ synced_by: sync_portable_skills.py
 
 **Preferred activation (operator):** say **`cognition streams`**.
 
-Use this skill for the **daily stream check / daily ingest routine** across a fixed cognition-stream watchlist. It discovers today's uploads, filters likely highlight clips, presents a list-first view, and materializes only the operator-approved subset into canonical `raw-input`.
+Use this skill for the **daily stream check / daily ingest routine** across a fixed cognition-stream watchlist. It discovers today's uploads, filters likely highlight clips and same-day companion clips, presents a list-first view, and materializes only the operator-approved subset into canonical `raw-input`.
 
 Use the single-URL YouTube transcript workflow for one-off URLs. Use this skill when the operator wants the **daily roster**.
 
@@ -28,6 +28,7 @@ For the higher-level notebook meaning of this routine, see [cognition-streams-da
 - Start with **`cognition streams`** when the task is "what went up today across the tracked streams?"
 - Start with **`youtube transcript`** when the task is "turn this specific YouTube URL into canonical raw-input."
 - If the daily roster check produces approved URLs, hand each selected item down to the lower-layer YouTube transcript workflow for the actual materialization step.
+- If the operator approves a guest-and-host backlog such as `Glenn x Marandi`, treat that as a valid batched handoff shape and pass the exact approved URLs down as one tranche.
 
 ## When to run
 
@@ -59,6 +60,8 @@ If a stream has no upload on the target day, say so explicitly.
 
 1. **Discover today's uploads**
    - Query the tracked channels for the operator's local day.
+   - Prefer the channel's **uploads playlist / channel-id feed** over a handle-based `/videos` page.
+   - Treat a handle page as a fallback only; some channels can undercount, mis-order, or hide same-day uploads there.
    - Normalize each result into:
      - stream / channel
      - title
@@ -66,12 +69,14 @@ If a stream has no upload on the target day, say so explicitly.
      - exact `pub_date`
      - duration
    - Keep the discovery pass separate from materialization.
+   - Preserve a local **discovery receipt** for the day so later audits can compare what the channel exposed against what was materialized.
 
 2. **Run the highlight-clip filter**
    - Classify items into:
      - **Main uploads**
      - **Suspected clips / highlights**
-   - Use a **conservative keep** bias: auto-hide only obvious clips, Shorts, teasers, and repost fragments.
+     - **Upcoming / not-yet-aired**
+   - Use a **conservative keep** bias for borderline material, but treat obvious same-day companion clips as a default no-ingest class.
 
 3. **Present a list-first view**
    - Show the **Main uploads** first.
@@ -88,6 +93,7 @@ If a stream has no upload on the target day, say so explicitly.
      - fetch the best subtitle source available
      - preserve extraction receipts locally
      - write canonical date-folder raw-input
+   - When the approved subset is really a guest-host tranche rather than "today's whole roster," preserve that exact tranche shape instead of reopening discovery or broad channel slicing.
 
 6. **Default transcript class**
    - Default to `auto_subtitles_vtt`.
@@ -115,6 +121,13 @@ Classify as **suspected clip** when any of these are true:
   - `excerpt`
 - the title explicitly says it is from another episode, such as `from today's show`, `from my interview with`, `full interview here`, or `watch full episode`
 - description or metadata clearly identifies repost / excerpt packaging
+- the item appears to be a same-day companion clip cut from a longer upload on the same channel
+
+Classify as **upcoming / not-yet-aired** when:
+
+- the YouTube object is a scheduled live event or premiere
+- the extractor reports that the live event has not begun yet
+- the object has no stable aired runtime and should not yet be treated as part of the day's ingestable corpus
 
 ### Soft suspicion signals
 
@@ -125,6 +138,23 @@ Mark as **suspected clip** when multiple weaker signals stack:
 - title is all-caps hook language with no guest/topic structure
 - duplicate same-day subject with a longer same-channel upload
 - description links to a separate full episode as the parent object
+
+### Companion-clip rule
+
+Treat a shorter same-day upload as a **companion clip** when all or nearly all of the following are true:
+
+- the same channel has a longer upload with the same guest or same substantive topic on the same day
+- the shorter item's title reads like a narrowed thesis, punchier hook, or extracted sub-claim from the longer upload
+- the runtime is materially shorter than the longer same-day upload
+- the shorter item does not look like an independent house-style episode in its own right
+
+Default policy:
+
+- **do not record companion clips**
+- show them only in the hidden `Suspected clips / highlights` bucket
+- materialize them only if the operator explicitly overrides that default
+
+For recurring cases like `Davis x Crooke`, assume the longer same-day interview is the canonical daily object unless there is strong evidence the shorter file is a genuinely separate episode.
 
 Short duration alone is **not** enough when the item still looks like a complete house-style upload.
 
@@ -145,6 +175,31 @@ Use light priors, but do not build separate policy trees:
 - **Daniel Davis:** legitimate uploads can be short topical monologues; duration alone is unreliable and should not override normal standalone title structure
 - **Mercouris:** usually long monologues; short uploads are more suspicious
 - **Dialogue Works:** titles may be dramatic, and some legitimate interviews can still be relatively short; title sensationalism or a 10-15 minute runtime alone is not enough
+
+### Discovery-source discipline
+
+Use this priority order:
+
+1. **Channel uploads playlist / channel-id feed**
+2. **Channel RSS feed** when the latest window is enough
+3. **Handle-based `/videos` page** only as fallback
+4. **Local inventory / prior receipts** only as audit aid, not as the primary truth source
+
+Rationale:
+
+- handle pages can undercount or reorder uploads on some channels
+- high-volume channels can mix shorts, clips, livestream placeholders, and main uploads in unstable ways
+- a preserved daily receipt lets you distinguish "not ingested yet" from "not actually published" later
+
+### Audit discipline
+
+When checking whether a day is complete:
+
+- reconcile by **`source_url` / YouTube id**, not by filename alone
+- use frontmatter identity (`show`, `channel_slug`, `source_url`) before filename heuristics
+- treat outside-channel collabs as separate from the four-stream watchlist even if the guest/host overlaps
+- never claim a day is "complete" unless the discovery receipt and the local materialized set have both been checked
+- when you need a computed score, repair queue, and durable receipts, run `python scripts/cognition_streams_audit.py --start YYYY-MM-DD --end YYYY-MM-DD --recent-start YYYY-MM-DD` against the active `/codex/<year>` notebook root
 
 ## Output shape
 
@@ -171,6 +226,7 @@ After operator selection, report only the approved items being materialized and 
 ## Guardrails
 
 - Never silently discard borderline items.
+- Do not record same-day companion clips by default.
 - Never auto-materialize everything by default.
 - Never treat clip suspicion as certainty.
 - Never silently promote subtitle-derived outputs into stronger transcript classes.

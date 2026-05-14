@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
-Resolve coffee-conductor helpers for the **single D — Conductor** menu line.
+Resolve coffee-conductor helpers for the **single D â€” Conductor** menu line.
 
-The Step 2 menu uses one **D**; the same resolution applies when the operator
+The live UI no longer has a lettered conductor chooser. Operators invoke a conductor by name (`toscanini`, `furtwangler`, `karajan`, `kleiber`, or `bernstein`), then receive the resolved A-D Conductor Action Menu.
 invokes **D** / a name fragment **without** a full **coffee** session (see
-``.cursor/skills/coffee/SKILL.md`` § *Conductor only*). The five masters are
-disambiguated by the **Conductor MCQ** letters **A.–E.**, by ``conductor=`` (cadence log), by **last pick** (bare **D**), or by **name prefix** after **D** in chat. Use ``format_conductor_mcq_block`` / ``build_conductor_mcq_for_user`` for the five selectable rows + continuity.
+``.cursor/skills/coffee/SKILL.md`` Â§ *Conductor only*). The five masters are
+Legacy ``D1``..``D5`` and old cadence lines are still recognized for log continuity, but helper output must not emit lettered conductor choices.
 
 Legacy ``D1``..``D5`` in old logs are still recognized.
 
@@ -36,30 +36,30 @@ MENU_PICK_TO_CONDUCTOR = {
     "D4": "karajan",
     "D5": "kleiber",
 }
-# Display order in coffee menu text (Toscanini / Furtwängler / Karajan / Kleiber / Bernstein)
+# Display order in coffee menu text (Toscanini / FurtwÃ¤ngler / Karajan / Kleiber / Bernstein)
 _CONDUCTOR_MENU: list[tuple[str, str]] = [
     ("Toscanini", "toscanini"),
-    ("Furtwängler", "furtwangler"),
+    ("FurtwÃ¤ngler", "furtwangler"),
     ("Karajan", "karajan"),
     ("Kleiber", "kleiber"),
     ("Bernstein", "bernstein"),
 ]
 KNOWN_CONDUCTOR_SLUGS = frozenset(s for _n, s in _CONDUCTOR_MENU)
 
-# Conductor MCQ: one row of **A**–**E** (not main `coffee` menu letters). Fixed order =
-# menu order (Toscanini … Bernstein).
+# Deprecated master-selection row. Kept only so old log helpers can import
+# a stable shape; do not emit these letters in user-facing prompts.
 _CONDUCTOR_MCQ_ROWS: tuple[tuple[str, str, str, str], ...] = (
-    ("A", "toscanini", "Toscanini", "Precision — verify claims and seams; cut flourish that outruns the material."),
-    ("B", "furtwangler", "Furtwängler", "Flow — hold tension open; listen for the line under the line before closing."),
-    ("C", "karajan", "Karajan", "Elegance — long-arc balance and proportion; remove what blurs the whole."),
-    ("D", "kleiber", "Kleiber", "Selectivity — one or two deep hotspots; refuse the rest explicitly this round."),
-    ("E", "bernstein", "Bernstein", "Vitality — stakes, pulse, and language that can carry heat live."),
+    ("A", "toscanini", "Toscanini", "Precision â€” verify claims and seams; cut flourish that outruns the material."),
+    ("B", "furtwangler", "FurtwÃ¤ngler", "Flow â€” hold tension open; listen for the line under the line before closing."),
+    ("C", "karajan", "Karajan", "Elegance â€” long-arc balance and proportion; remove what blurs the whole."),
+    ("D", "kleiber", "Kleiber", "Selectivity â€” one or two deep hotspots; refuse the rest explicitly this round."),
+    ("E", "bernstein", "Bernstein", "Vitality â€” stakes, pulse, and language that can carry heat live."),
 )
 CONDUCTOR_SUBMENU_LETTER_TO_SLUG: dict[str, str] = {
     letter: slug for letter, slug, _name, _attr in _CONDUCTOR_MCQ_ROWS
 }
 
-# Legacy: D1..D5 → different letters; new logs use picked=D with conductor=.
+# Legacy: D1..D5 â†’ different letters; new logs use picked=D with conductor=.
 CONDUCTOR_TO_MENU_PICK = {slug: pick for pick, slug in MENU_PICK_TO_CONDUCTOR.items()}
 
 # Legacy logs may still contain ``picked=D`` from the older single-line conductor menu.
@@ -91,9 +91,9 @@ def _strip_accents(s: str) -> str:
 
 
 def conductor_submenu_letter_to_slug(letter: str) -> str | None:
-    """Map **Conductor MCQ** letter **A**–**E** to slug. Not main-menu **A**–**E**."""
-    k = str(letter).strip().upper()[:1]
-    return CONDUCTOR_SUBMENU_LETTER_TO_SLUG.get(k)
+    """Deprecated: master letters no longer resolve to conductor slugs."""
+    _ = letter
+    return None
 
 
 def _display_name_for_slug(slug: str) -> str:
@@ -133,30 +133,28 @@ def format_conductor_mcq_block(
     focus_text: str | None = None,
     recommended_slug: str | None = None,
 ) -> str:
-    """Return the 5-line **Conductor MCQ** (markdown) with attribute + continuity kickers."""
+    """Return the compatibility name prompt; no lettered master rows are emitted."""
+    names = ", ".join(slug for _display, slug in _CONDUCTOR_MENU)
     lines: list[str] = [
-        "**Conductor MCQ** — letters **A**–**E** name the five masters (*not* the same letters as the **`coffee` hub** menu **A–E** — hub uses Steward/Engineer/Historian/Capitalist/Conductor). "
-        "Reply with one letter, a name prefix (`klei`, `tos`, …), **`conductor`**, or **`coffee`** hub **E** after Step 1 to continue.",
+        f"Name a conductor: {names}.",
+        "Letters select only actions after a conductor is resolved; they do not select a conductor.",
     ]
     if focus_text and str(focus_text).strip():
         lines.append(
-            f"*Last cadence `focus` / `arc`:* **{str(focus_text).strip()}**"
+            f"Last cadence `focus` / `arc`: **{str(focus_text).strip()}**"
         )
-    for letter, slug, display, attr in _CONDUCTOR_MCQ_ROWS:
-        kick = _continuity_kicker(
-            slug,
-            last_slug=last_slug,
-            recommended_slug=recommended_slug,
-        )
-        lines.append(f"**{letter}.** **{display}** — {attr} *({kick})*")
+    if last_slug:
+        lines.append(f"Last conductor: **{_display_name_for_slug(last_slug)}**.")
+    if recommended_slug:
+        lines.append(f"System hint: **{_display_name_for_slug(recommended_slug)}**.")
     return "\n".join(lines)
 
 
 def build_conductor_mcq_for_user(user_id: str) -> str:
-    """Load cadence (optional dream + session load) and format the Masters Conductor MCQ.
+    """Load cadence (optional dream + session load) and format a name-only prompt.
 
-    When ``coffee`` hub E auto-continues ``last_logged_conductor``, skip calling this
-    (see coffee SKILL § Hub E — auto-continue does not use Masters MCQ when slug exists).
+    Compatibility wrapper for the old master-MCQ helper. It must not emit A-E
+    conductor-selection rows.
     """
     import json
     from pathlib import Path
@@ -211,7 +209,7 @@ def build_conductor_revisit_block(
     root = Path(notebook_root) if notebook_root is not None else Path(__file__).resolve().parent.parent / "codex"
     report = build_judgment_loop_report(root, user_id=user_id)
     lines = [
-        "**Open loops due for revisit** â€” derived from pages, the judgment-loop register, and cadence outcomes.",
+        "**Open loops due for revisit** Ã¢â‚¬â€ derived from pages, the judgment-loop register, and cadence outcomes.",
     ]
     lines.extend(
         format_due_open_loops_markdown(
@@ -228,18 +226,18 @@ def resolve_d_conductor(
     *,
     last_conductor_slug: str | None = None,
 ) -> tuple[str | None, str | None]:
-    """Resolve **D** in operator chat: empty fragment → last logged conductor; else prefix match on slug or name.
+    """Resolve a conductor name fragment.
 
-    A **single** character **A**–**E** is the Conductor MCQ row (not main-menu letters).
+    Bare ``conductor`` / empty fragments are incomplete in the live UI. Single
+    letters no longer resolve masters; A-D are reserved for a resolved action
+    menu, and E is not a conductor pick.
     Returns ``(slug, err)`` with ``err`` in ``(None, "no_prior", "no_match", "ambiguous")``.
     """
     frag = (name_fragment or "").strip()
     if not frag:
-        if last_conductor_slug and str(last_conductor_slug).strip():
-            return normalize_conductor_slug(str(last_conductor_slug)), None
         return None, "no_prior"
-    if len(frag) == 1 and frag.upper() in CONDUCTOR_SUBMENU_LETTER_TO_SLUG:
-        return CONDUCTOR_SUBMENU_LETTER_TO_SLUG[frag.upper()], None
+    if len(frag) == 1 and frag.upper() in {"A", "B", "C", "D", "E"}:
+        return None, "no_match"
     frag_l = frag.lower()
     fstrip = _strip_accents(frag).lower()
     matches: list[str] = []
@@ -302,16 +300,13 @@ def last_logged_conductor(events: list[dict[str, Any]]) -> str | None:
 
 
 def format_coffee_hub_e_line(user_id: str) -> str:
-    """One **coffee hub Step 2** line for hub **E — Conductor** (label only).
+    """Compatibility helper for the removed coffee conductor hub line.
 
-    Does **not** preview the last logged master in the hub menu. Auto-continue when
-    the operator picks **E** still uses ``last_logged_conductor(parse_events(user_id))``
-    (same SSOT as Conductor resolution); that slug is **not** shown on this line.
-
-    ``user_id`` is retained for API stability; it is unused for the label string.
+    New UI must not emit an E conductor option. Return a name-only instruction
+    so accidental callers remain safe.
     """
     _ = user_id
-    return "**E — Conductor**"
+    return "Conductor is standalone: name toscanini, furtwangler, karajan, kleiber, or bernstein."
 
 
 def focus_for_last_conductor(events: list[dict[str, Any]]) -> str | None:
@@ -328,9 +323,9 @@ def focus_for_last_conductor(events: list[dict[str, Any]]) -> str | None:
 
 
 def recommended_conductor_from_menu_recommendation(letter: str) -> str:
-    """Map session-load ``recommended`` hub letter (A/B/C) to conductor slug; unknown → ``furtwangler``.
+    """Map session-load ``recommended`` hub letter (A/B/C) to conductor slug; unknown â†’ ``furtwangler``.
 
-    Aligns with coffee hub: **A** Steward → **kleiber**; **B** Engineer → **toscanini**; **C** Historian → **bernstein**.
+    Aligns with coffee hub: **A** Steward â†’ **kleiber**; **B** Engineer â†’ **toscanini**; **C** Historian â†’ **bernstein**.
     """
     m = {"A": "kleiber", "B": "toscanini", "C": "bernstein"}
     key = str(letter).strip().upper()[:1]
@@ -379,10 +374,10 @@ def system_recommended_conductor(
 ) -> str:
     """Layered conductor recommendation from dream + load signals.
 
-    Order: (1) risky worktree / ``worktreeAdvice`` → **toscanini**;
-    (2) ``tomorrow_inherits`` or steward-style hint → **kleiber**;
-    (3) long-arc / balance hints → **karajan**;
-    (4) ``assess["recommended"]`` → hub A/B/C map (Steward/Engineer/Historian);
+    Order: (1) risky worktree / ``worktreeAdvice`` â†’ **toscanini**;
+    (2) ``tomorrow_inherits`` or steward-style hint â†’ **kleiber**;
+    (3) long-arc / balance hints â†’ **karajan**;
+    (4) ``assess["recommended"]`` â†’ hub A/B/C map (Steward/Engineer/Historian);
     (5) **furtwangler**.
     """
     if dream:

@@ -142,3 +142,4 @@ The conductor mechanism is **work-layer attention routing** and **prompt discipl
 ## 10. Maintenance Rule
 
 Future conductor-related docs should **link back to this layer map** when they introduce menu choices, conductor slugs, compiled conductor outputs, or coding-agent proposal lenses.
+

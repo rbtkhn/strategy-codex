@@ -51,6 +51,7 @@ KNOWN_CONDUCTOR_SLUGS = frozenset(
 CONDUCTOR_PICKED_VALUES = frozenset(
     {"conductor", "E", "D", "D1", "D2", "D3", "D4", "D5"}
 )
+FREE_TEXT_KV_KEYS = frozenset({"falsify"})
 
 HEADER = (
     "# Cadence events\n"
@@ -312,6 +313,23 @@ def append_cadence_event(
     return events_path
 
 
+def parse_cli_kv_groups(groups: list[list[str]]) -> dict[str, str]:
+    """Parse ``--kv`` tokens, preserving unquoted free-text continuations for selected keys."""
+    kv_dict: dict[str, str] = {}
+    current_key: str | None = None
+    for item in [entry for group in groups for entry in group]:
+        if "=" in item:
+            k, v = item.split("=", 1)
+            kv_dict[k] = v
+            current_key = k if k in FREE_TEXT_KV_KEYS else None
+            continue
+        if current_key:
+            kv_dict[current_key] = f"{kv_dict[current_key]} {item}".strip()
+            continue
+        kv_dict[item] = "true"
+    return kv_dict
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--kind", required=True, choices=KINDS, help="Cadence type")
@@ -346,13 +364,7 @@ def main() -> int:
     )
     args = ap.parse_args()
 
-    kv_dict: dict[str, str] = {}
-    for item in [entry for group in args.kv for entry in group]:
-        if "=" in item:
-            k, v = item.split("=", 1)
-            kv_dict[k] = v
-        else:
-            kv_dict[item] = "true"
+    kv_dict = parse_cli_kv_groups(args.kv)
 
     path = append_cadence_event(
         args.kind,

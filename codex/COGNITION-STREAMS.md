@@ -8,6 +8,26 @@ Strategy-codex is scaffolded around **polyphonic cognition streams**: durable in
 
 The current lattice has eight streams: `Alkorshid`, `Diesen`, `Davis`, `Mercouris`, `Crooke`, `Parsi`, `Pape`, and `Ritter`. The count is not permanent; filenames, schemas, and public doctrine should stay count-neutral.
 
+Quick lookup: if you just need the eight-stream roster, start with [COGNITION-STREAMS-POINTER.md](COGNITION-STREAMS-POINTER.md). If you need recurring speakers by name, use [COGNITION-LATTICE-SPEAKERS.md](COGNITION-LATTICE-SPEAKERS.md).
+
+## Access and visibility doctrine
+
+The stream layer depends on an access layer, but it is not identical to it.
+
+- `raw-input/`, discovery receipts, ledgers, and repair queues are **visibility substrate**
+- cognition streams are **interpretive voices**
+
+The distinction matters because access technology will change faster than stream doctrine.
+
+Within the next few years, authenticated browser agents, multimodal video understanding, longer-context reasoning, and connector-mediated retrieval may make parts of the current ingest workflow obsolete. The stream model should therefore stay anchored in:
+
+- provenance
+- stable routing
+- cross-stream comparability
+- explicit trust thresholds
+
+and should avoid becoming overcommitted to any one brittle extraction method.
+
 ## Stream Model
 
 A cognition stream is the top-level analytical unit. It carries:
@@ -17,6 +37,8 @@ A cognition stream is the top-level analytical unit. It carries:
 - **Source habits:** where the stream is usually fed from, including host channels, essays, interviews, transcripts, or operator-supplied captures.
 - **Contrapuntal relations:** harmony, tension, bridges, absences, and falsifiers against other streams.
 - **Automation readiness:** enough routing structure that future daily stream input can become reliable when tooling improves.
+
+Each stream should be understood as a voice that can survive changes in the access layer. The notebook's durable asset is not a scraper or one channel-discovery trick; it is the trust contract that lets a voice remain legible when the access path changes.
 
 Do not treat streams as a hierarchy. A host/channel stream and an expert-lens stream can be equally central even when their source surfaces differ.
 
@@ -74,6 +96,8 @@ Minimum future requirements:
 - human review before notebook mutation
 
 Until those are feasible, daily capture remains operator-guided: inbox first, raw-input when warranted, then end-of-day composition.
+
+Recent audit work adds one more rule: visibility automation should mature before judgment automation. The notebook should first get better at showing what is present, absent, hidden, and unresolved, and only later get stronger at ranking significance or suggesting interpretation.
 
 ## Derived Graph
 

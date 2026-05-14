@@ -538,3 +538,6 @@ _(Append below this line.)_
 - **2026-05-14 00:28 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=codex model_tier=unknown picked=A steward=template
 - **2026-05-14 00:49 UTC** — coffee (strategy-codex) ok=true mode=minimal cursor_model=unknown model_tier=unknown
 - **2026-05-14 04:29 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown verdict=verified conductor=kleiber notebook_ref=codex/CONDUCTOR-IMPROVEMENT-LOOP.md falsify=focused-warmup-conductor-tests-fail
+- **2026-05-14 06:20 UTC** — dream (strategy-codex) ok=false mode=default cursor_model=unknown model_tier=unknown phase=both integrity=fail governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=true handoff_written=true
+- **2026-05-14 12:37 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-05-14 13:23 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=codex model_tier=unknown conductor=toscanini verdict=sufficient-answer-stop falsify=conductor-menu-added-after-task-already-complete

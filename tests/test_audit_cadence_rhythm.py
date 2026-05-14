@@ -9,7 +9,7 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO_ROOT / "scripts"))
 
-from audit_cadence_rhythm import compute_conductor_audit, format_conductor_audit
+from audit_cadence_rhythm import compute_conductor_audit, format_conductor_audit, parse_events
 
 
 def _write_events(path: Path, body: str) -> Path:
@@ -94,3 +94,20 @@ _(Append below this line.)_
     text = format_conductor_audit(summary)
     assert "5-conductor audit" in text
     assert "kleiber: picks=1 explicit_outcomes=1 inferred_outcomes=0 legacy_partial=0" in text
+
+
+def test_conductor_audit_preserves_multiword_falsify_value(tmp_path: Path) -> None:
+    events = _write_events(
+        tmp_path / "cadence.md",
+        """# Cadence events
+
+_(Append below this line.)_
+- **2026-05-01 10:00 UTC** — coffee_pick (grace-mar) ok=true picked=conductor conductor=karajan
+- **2026-05-01 10:05 UTC** — coffee_conductor_outcome (grace-mar) ok=true verdict=watch conductor=karajan notebook_ref=docs/a.md falsify=If the accumulator date changes on refresh, the read was stale.
+""",
+    )
+    parsed = parse_events("grace-mar", events_path=events)
+
+    assert parsed[1]["kv"]["falsify"] == (
+        "If the accumulator date changes on refresh, the read was stale."
+    )

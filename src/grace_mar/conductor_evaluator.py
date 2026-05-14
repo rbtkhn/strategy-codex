@@ -45,7 +45,7 @@ def _line_has_weak_opener(line: str) -> bool:
         "reflect"
     )
 _PATHISH = re.compile(
-    r"(?:docs/|scripts/|users/|[\w\-]+\.md|`[^`]+`|work-[a-z\-]+)",
+    r"(?:docs/|scripts/||[\w\-]+\.md|`[^`]+`|work-[a-z\-]+)",
     re.IGNORECASE,
 )
 # Conductor MCQ lines match `format_conductor_mcq_block`: `**` + letter + `.**` + body (period before closing bold). Plain `A. body` lines also match.

@@ -345,6 +345,8 @@ D. Finale: Run composition benchmark - execute one Strategy-codex composition be
 
 **Durable close means** the pass leaves a same-session notebook/close-template anchor or a `coffee_conductor_outcome` with `conductor=<slug>`, `verdict=`, and `notebook_ref=` or `falsify=`; orientation plus chat menu alone is not a closed improvement loop.
 
+**Behavioral commitments vs durable evidence:** A resolved action menu item may be satisfied entirely in chat when the item is a behavior commitment, distinction, or acknowledgement rather than a repo artifact. If the operator later asks whether every selected item was implemented, report which items were chat-level behavior and which left durable evidence; only notebook/close-template anchors or `coffee_conductor_outcome` lines count as durable closes.
+
 ## Cleanup-family discipline
 
 When a Conductor turn becomes cleanup or hardening work, declare the family before touching files and keep the slice coherent.
