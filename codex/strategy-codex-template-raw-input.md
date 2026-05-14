@@ -41,7 +41,7 @@ Use this for a literal capture file:
 ingest_date: YYYY-MM-DD
 pub_date: YYYY-MM-DD
 source_url: https://...
-kind: transcript | paste-bundle | rss-item | x-post-text | mixed
+kind: transcript | paste-bundle | rss-item | x-post-text | shortform-bundle | mixed
 thread: expert_id
 ---
 

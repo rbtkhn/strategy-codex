@@ -84,6 +84,134 @@ TOPIC_STOPWORDS = {
     "2025",
     "same",
     "day",
+    "abstract",
+    "after",
+    "before",
+    "bearing",
+    "bridges",
+    "capture",
+    "carries",
+    "chapter",
+    "choreography",
+    "cites",
+    "clean",
+    "commentary",
+    "counts",
+    "cross",
+    "crosses",
+    "default",
+    "definition",
+    "delegation",
+    "episode",
+    "explicit",
+    "first",
+    "frame",
+    "language",
+    "links",
+    "operator",
+    "planes",
+    "primary",
+    "promoting",
+    "refined",
+    "single",
+    "speech",
+    "still",
+    "tracks",
+    "verify",
+    "weave",
+}
+DOMAIN_ANCHORS = {
+    "alliance",
+    "analogy",
+    "analytic",
+    "audience",
+    "blockade",
+    "casualty",
+    "centcom",
+    "chain",
+    "clock",
+    "clocks",
+    "collapse",
+    "commodity",
+    "control",
+    "currency",
+    "dated",
+    "diplomacy",
+    "energy",
+    "false",
+    "falsifiers",
+    "framing",
+    "ground",
+    "history",
+    "hormuz",
+    "israel",
+    "judgment",
+    "lebanon",
+    "legitimacy",
+    "markets",
+    "means",
+    "mearsheimer",
+    "merge",
+    "military",
+    "official",
+    "orbat",
+    "pape",
+    "primaries",
+    "canonical",
+    "ritter",
+    "serious",
+    "source",
+    "verify",
+}
+CONFLICT_FAMILY_SPECS = {
+    "hormuz-blockade-bargaining": {
+        "topic": "Hormuz / blockade mechanics vs bargaining logic",
+        "anchors": {
+            "blockade",
+            "hormuz",
+            "energy",
+            "commodity",
+            "currency",
+            "centcom",
+            "chain",
+            "control",
+        },
+        "required_any": {"hormuz", "blockade", "commodity", "energy", "currency", "centcom"},
+    },
+    "trap-ratchet-offramp": {
+        "topic": "Trap / ratchet vs third-party off-ramp",
+        "anchors": {
+            "alliance",
+            "audience",
+            "legitimacy",
+            "merge",
+            "primaries",
+            "dated",
+            "canonical",
+            "false",
+        },
+        "required_any": {"alliance", "audience", "legitimacy", "primaries"},
+    },
+    "material-clocks-structural-incentives": {
+        "topic": "Material clocks vs structural incentives",
+        "anchors": {"mearsheimer", "clock", "clocks", "falsifiers", "judgment"},
+        "required_any": {"mearsheimer", "clock", "clocks"},
+    },
+    "operational-vs-theory": {
+        "topic": "Operational claims vs theory / analogy",
+        "anchors": {"analytic", "orbat", "ground", "military", "casualty", "history", "falsifiers", "analogy", "means"},
+        "required_any": {"analytic", "orbat", "ground", "military", "casualty"},
+    },
+    "lebanon-israel-ceasefire-scope": {
+        "topic": "Lebanon / Israel / ceasefire scope",
+        "anchors": {"lebanon", "israel", "diplomacy", "official", "framing"},
+        "required_any": {"lebanon", "israel"},
+    },
+    "market-relief-vs-war-risk": {
+        "topic": "Market relief vs next-phase war risk",
+        "anchors": {"markets", "serious", "diplomacy"},
+        "required_any": {"markets", "serious"},
+    },
 }
 
 
@@ -123,6 +251,9 @@ class TensionGroup:
     shared_horizon: str
     loops: list[JudgmentLoop]
     suggested_next_action: str
+    family_key: str | None = None
+    anchor_keys: tuple[str, ...] = ()
+    suppressed_duplicates: int = 0
 
 
 def _clean_text(text: str) -> str:
@@ -249,6 +380,17 @@ def _topic_keys(loop: JudgmentLoop) -> set[str]:
             if len(token) > 4 and token not in TOPIC_STOPWORDS:
                 keys.add(token)
     return keys
+
+
+def _conflict_families_for_keys(keys: set[str]) -> dict[str, set[str]]:
+    families: dict[str, set[str]] = {}
+    anchored_keys = keys & DOMAIN_ANCHORS
+    for family_key, spec in CONFLICT_FAMILY_SPECS.items():
+        shared = anchored_keys & spec["anchors"]
+        required_any = set(spec.get("required_any", set()))
+        if shared and (not required_any or shared & required_any):
+            families[family_key] = shared
+    return families
 
 
 def _build_loop(
@@ -536,37 +678,61 @@ def _derive_due_state(loop: JudgmentLoop, today: date, latest_continuity: date |
 
 def _build_tension_groups(loops: list[JudgmentLoop]) -> list[TensionGroup]:
     candidates = [loop for loop in loops if loop.derived_state in {"due", "open"}]
-    groups: dict[str, list[JudgmentLoop]] = {}
+    groups: dict[str, dict[str, object]] = {}
     for i, left in enumerate(candidates):
         for right in candidates[i + 1 :]:
             if left.stream == right.stream:
                 continue
-            if not (left.topic_keys & right.topic_keys):
-                continue
             if {left.polarity, right.polarity} != {"positive", "negative"}:
                 continue
-            topic = sorted(left.topic_keys & right.topic_keys)[0]
-            groups.setdefault(topic, [])
-            if left not in groups[topic]:
-                groups[topic].append(left)
-            if right not in groups[topic]:
-                groups[topic].append(right)
+            shared_keys = left.topic_keys & right.topic_keys
+            if not shared_keys:
+                continue
+
+            left_families = _conflict_families_for_keys(left.topic_keys)
+            right_families = _conflict_families_for_keys(right.topic_keys)
+            for family_key in sorted(set(left_families) & set(right_families)):
+                family_anchors = shared_keys & left_families[family_key] & right_families[family_key]
+                if not family_anchors:
+                    continue
+                bucket = groups.setdefault(
+                    family_key,
+                    {
+                        "loops": [],
+                        "anchors": set(),
+                        "pair_count": 0,
+                    },
+                )
+                bucket["pair_count"] = int(bucket["pair_count"]) + 1
+                cast_anchors: set[str] = bucket["anchors"]  # type: ignore[assignment]
+                cast_anchors.update(family_anchors)
+                cast_loops: list[JudgmentLoop] = bucket["loops"]  # type: ignore[assignment]
+                if left not in cast_loops:
+                    cast_loops.append(left)
+                if right not in cast_loops:
+                    cast_loops.append(right)
 
     tensions: list[TensionGroup] = []
-    for topic, grouped_loops in sorted(groups.items()):
+    for family_key, grouped in sorted(groups.items()):
+        grouped_loops: list[JudgmentLoop] = grouped["loops"]  # type: ignore[assignment]
         if len(grouped_loops) < 2:
             continue
         shared_horizon = next(
             (loop.page_date for loop in grouped_loops if loop.page_date),
             "",
         )
+        anchors = tuple(sorted(grouped["anchors"]))  # type: ignore[arg-type]
+        pair_count = int(grouped["pair_count"])
         tensions.append(
             TensionGroup(
-                group_id=f"tension-{_slugify(topic)}",
-                topic=topic,
+                group_id=f"tension-{family_key}",
+                topic=str(CONFLICT_FAMILY_SPECS[family_key]["topic"]),
                 shared_horizon=shared_horizon,
                 loops=sorted(grouped_loops, key=lambda loop: (loop.stream, loop.title)),
                 suggested_next_action="Compare side-by-side in days.md or month continuity; keep both open until the trigger resolves.",
+                family_key=family_key,
+                anchor_keys=anchors,
+                suppressed_duplicates=max(pair_count - 1, 0),
             )
         )
     return tensions
@@ -654,8 +820,14 @@ def format_due_open_loops_markdown(
             stream_bits = " vs ".join(f"`{loop.stream}`" for loop in tension.loops[:4])
             call_bits = " / ".join(_clean_text(loop.call)[:90] for loop in tension.loops[:2])
             horizon = tension.shared_horizon or "shared trigger not explicit"
+            duplicate_note = ""
+            if tension.suppressed_duplicates:
+                duplicate_note = f" (+{tension.suppressed_duplicates} collapsed duplicate pair"
+                if tension.suppressed_duplicates != 1:
+                    duplicate_note += "s"
+                duplicate_note += ")"
             lines.append(
                 f"- **{tension.topic}** â€” {stream_bits} â€” horizon: {horizon} â€” "
-                f"{call_bits} â€” Next: {tension.suggested_next_action}"
+                f"{call_bits}{duplicate_note} â€” Next: {tension.suggested_next_action}"
             )
     return lines

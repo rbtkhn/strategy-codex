@@ -2,7 +2,7 @@
 
 **WORK only** — operator analytic digest; not wire-verified fact, not Record. **Cleaned transcript** as provided; closing super-chats omitted in source.
 
-**Skill-strategy processing:** Three **orthogonal** analytic dimensions (below) + **quantitative** tags. Cross-links: [strategy-notebook April 2026](strategy-notebook/chapters/2026-04/meta.md), [flashpoint / Hormuz metrics discipline](strategy-notebook/chapters/2026-04/days.md), [Islamabad intake commentary](../../../research/external/work-jiang/intake/Islamabad-5-point-reconciliation-plan-with-jiang-commentary.md).
+**Skill-strategy processing:** Three **orthogonal** analytic dimensions (below) + **quantitative** tags. Cross-links: [strategy-notebook April 2026](strategy-notebook/chapters/2026-04/meta.md), [flashpoint / Hormuz metrics discipline](strategy-notebook/chapters/2026-04/days.md), [Islamabad intake commentary](../../codex/predictive-history/intake/Islamabad-5-point-reconciliation-plan-with-jiang-commentary.md).
 
 ---
 

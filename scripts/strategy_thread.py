@@ -59,8 +59,8 @@ DEFAULT_INBOX = (
 DEFAULT_OUT_DIR = (
     REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook"
 )
-DEFAULT_KNOT_INDEX = (
-    REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook/knot-index.yaml"
+DEFAULT_PAGE_INDEX = (
+    REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook/page-index.yaml"
 )
 
 
@@ -98,7 +98,7 @@ def main() -> int:
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument("--inbox", type=Path, default=DEFAULT_INBOX)
     p.add_argument("--out", type=Path, default=DEFAULT_OUT_DIR)
-    p.add_argument("--knot-index", type=Path, default=DEFAULT_KNOT_INDEX)
+    p.add_argument("--page-index", type=Path, default=DEFAULT_PAGE_INDEX)
     p.add_argument("--days", type=int, default=7)
     p.add_argument("--today", help="Override today (YYYY-MM-DD)")
     p.add_argument("--dry-run", action="store_true")
@@ -120,12 +120,12 @@ def main() -> int:
     for path in transcript_paths:
         print(f"  transcript: {path.relative_to(REPO_ROOT)}")
 
-    # Step 2: Extract transcript + knots + pages → thread files
+    # Step 2: Extract transcript + page-index rows + pages → thread files
     print("--- Step 2: Extraction (transcripts + pages → threads) ---")
     from strategy_expert_corpus import rebuild_threads
     thread_paths = rebuild_threads(
         out_dir=args.out,
-        knot_index_path=args.knot_index,
+        page_index_path=args.page_index,
         dry_run=args.dry_run,
     )
     for path in thread_paths:

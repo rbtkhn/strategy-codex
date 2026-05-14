@@ -408,12 +408,12 @@ Optional full-text index: `python3 scripts/build_civmem_upstream_index.py build`
 
 | Need | Path |
 |------|------|
-| Book / volume map | [research/external/work-jiang/BOOK-ARCHITECTURE.md](../../../research/external/work-jiang/BOOK-ARCHITECTURE.md) and volume-specific `book/VOLUME-*.md` |
-| Queue / status | [research/external/work-jiang/STATUS.md](../../../research/external/work-jiang/STATUS.md) |
-| Lecture + digest | [research/external/work-jiang/lectures/](../../../research/external/work-jiang/lectures/) |
-| Episode analysis stubs | [research/external/work-jiang/analysis/](../../../research/external/work-jiang/analysis/) |
+| Book / volume map | [codex/predictive-history/BOOK-ARCHITECTURE.md](../../codex/predictive-history/BOOK-ARCHITECTURE.md) and volume-specific `book/VOLUME-*.md` |
+| Queue / status | [codex/predictive-history/STATUS.md](../../codex/predictive-history/STATUS.md) |
+| Lecture + digest | [codex/predictive-history/lectures/](../../codex/predictive-history/lectures/) |
+| Episode analysis stubs | [codex/predictive-history/analysis/](../../codex/predictive-history/analysis/) |
 | Channel pulls / ingest wiring | [research/external/youtube-channels/predictive-history/README.md](../../../research/external/youtube-channels/predictive-history/README.md); [common-inputs § PH](../../../docs/skill-work/work-strategy/common-inputs.md) |
-| Islamabad × Jiang | [research/external/work-jiang/intake/](../../../research/external/work-jiang/intake/) (e.g. five-point + commentary) |
+| Islamabad × Jiang | [codex/predictive-history/intake/](../../codex/predictive-history/intake/) (e.g. five-point + commentary) |
 
 **Write surface — `### Jiang resonance (optional)`** in the day’s `days.md` block: one tight line with **series + episode** (e.g. Game Theory #20, `ue8y5e3HnHE`) or **lecture filename stem**, plus **Links** to the curated lecture and any **analysis** file. That is the **explicit wire** from PH into the notebook (see [STRATEGY-NOTEBOOK-ARCHITECTURE.md](../../../docs/skill-work/work-strategy/strategy-notebook/STRATEGY-NOTEBOOK-ARCHITECTURE.md) § Parallel to Predictive History).
 
@@ -473,6 +473,3 @@ If the pass is **Islamabad / Gulf / Iran** but **no** lecture applies, use **one
 
 - **WORK only** — not Record, not Voice knowledge unless material goes through RECURSION-GATE per `AGENTS.md`.
 - Do **not** merge profile or gate candidates from this skill; staging only if the operator runs pipeline/gate workflow elsewhere.
-
-
-

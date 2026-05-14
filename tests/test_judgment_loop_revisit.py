@@ -134,8 +134,107 @@ Institutional pressure is moving toward a negotiated stabilization path.
     tensions = report["tensions"]
     assert tensions
     tension = tensions[0]
+    assert tension.topic == "Hormuz / blockade mechanics vs bargaining logic"
     assert {loop.stream for loop in tension.loops} == {"pape", "diesen"}
     assert "Compare side-by-side" in tension.suggested_next_action
+
+
+def test_build_judgment_loop_report_ignores_scaffold_word_overlap_without_anchor(tmp_path: Path) -> None:
+    nb = tmp_path / "codex"
+    _write(
+        nb / "2026" / "pape" / "pape-page-2026-04-10-weave.md",
+        """# Pape codex-page - 2026-04-10
+
+### Reflection
+
+The page keeps returning to weave language and abstract framing.
+
+### Predictive Outlook
+
+- **Call:** The weave will stabilize before the abstract frame breaks.
+- **Falsifier:** The abstract frame collapses first.
+- **Revisit:** 2026-04-20
+""",
+    )
+    _write(
+        nb / "2026" / "diesen" / "diesen-page-2026-04-10-weave.md",
+        """# Diesen codex-page - 2026-04-10
+
+### Reflection
+
+The same weave language now points toward a break in the frame.
+
+### Predictive Outlook
+
+- **Call:** The weave will break before the abstract frame stabilizes.
+- **Falsifier:** The abstract frame holds steady.
+- **Revisit:** 2026-04-20
+""",
+    )
+    _write(nb / "2026" / "chapters" / "2026-04" / "days.md", "## 2026-04-20\n")
+
+    report = build_judgment_loop_report(nb, today=date(2026, 5, 4), user_id="grace-mar")
+
+    assert report["tensions"] == []
+
+
+def test_build_judgment_loop_report_collapses_duplicate_topics_into_family(tmp_path: Path) -> None:
+    nb = tmp_path / "codex"
+    _write(
+        nb / "2026" / "pape" / "pape-page-2026-04-10-hormuz.md",
+        """# Pape codex-page - 2026-04-10
+
+### Reflection
+
+Blockade pressure is intensifying around Hormuz and energy chokepoints.
+
+### Predictive Outlook
+
+- **Call:** Hormuz blockade pressure is likely to escalate before talks stabilize.
+- **Falsifier:** A durable shipping corridor reopens without new military signaling.
+- **Revisit:** 2026-04-20
+""",
+    )
+    _write(
+        nb / "2026" / "diesen" / "diesen-page-2026-04-10-hormuz.md",
+        """# Diesen codex-page - 2026-04-10
+
+### Reflection
+
+Commodity pressure is moving toward a negotiated stabilization path.
+
+### Predictive Outlook
+
+- **Call:** Commodity and Hormuz pressure are likely to stabilize through diplomacy before a renewed clash.
+- **Falsifier:** Shipping seizures resume and talks collapse.
+- **Revisit:** 2026-04-20
+""",
+    )
+    _write(
+        nb / "2026" / "ritter" / "ritter-page-2026-04-12-hormuz.md",
+        """# Ritter codex-page - 2026-04-12
+
+### Reflection
+
+Currency and energy stress still point toward an escalation track.
+
+### Predictive Outlook
+
+- **Call:** Currency and energy strain around Hormuz are likely to widen before diplomacy can hold.
+- **Falsifier:** Talks lock in a stable corridor and market relief persists.
+- **Revisit:** 2026-04-22
+""",
+    )
+    _write(nb / "2026" / "chapters" / "2026-04" / "days.md", "## 2026-04-22\n")
+
+    report = build_judgment_loop_report(nb, today=date(2026, 5, 4), user_id="grace-mar")
+
+    tensions = report["tensions"]
+    assert len(tensions) == 1
+    tension = tensions[0]
+    assert tension.topic == "Hormuz / blockade mechanics vs bargaining logic"
+    assert {loop.stream for loop in tension.loops} == {"pape", "diesen", "ritter"}
+    assert tension.suppressed_duplicates >= 1
 
 
 def test_build_conductor_revisit_block_formats_tension(tmp_path: Path) -> None:

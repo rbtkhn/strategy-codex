@@ -17,13 +17,13 @@
 
 | Surface | URL | Notes |
 |--------|-----|-------|
-| MFA — press conferences / spokes | [fmprc.gov.cn](https://www.fmprc.gov.cn/) | Primary for diplomatic wording (EN / 中文) |
+| MFA — press conferences / spokes | [fmprc.gov.cn](https://www.fmprc.gov.cn/) | Primary for diplomatic wording (EN / ä¸­æ–‡) |
 | Xinhua (English) | [english.news.cn](http://www.news.cn/english/) | State news; label as such |
 | PRC embassy / mission (when U.S.–China day) | mission-specific | Readouts, statements |
 | Reuters — China | [reuters.com/world/china](https://www.reuters.com/world/china/) | Cross-check time and phrasing |
 | Caixin Global / SCMP | independent HK/region English | Use with **independence** note vs state wire |
 
-**Native-language triangulation:** When the **PRC** thread is load-bearing, add **at least one Mandarin-primary line** (MFA Chinese, Xinhua 中文, People’s Daily 人民网 as needed) per [daily-brief-native-international-pass.md](daily-brief-native-international-pass.md) — not optional for full §1g passes on active **U.S.–China**, **cross-strait**, or **Indo-Pacific** crisis days.
+**Native-language triangulation:** When the **PRC** thread is load-bearing, add **at least one Mandarin-primary line** (MFA Chinese, Xinhua ä¸­æ–‡, People’s Daily äººæ°‘ç½‘ as needed) per [daily-brief-native-international-pass.md](daily-brief-native-international-pass.md) — not optional for full §1g passes on active **U.S.–China**, **cross-strait**, or **Indo-Pacific** crisis days.
 
 ## Guardrails
 

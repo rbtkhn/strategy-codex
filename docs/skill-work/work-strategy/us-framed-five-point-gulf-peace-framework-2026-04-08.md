@@ -7,7 +7,7 @@
 **Related:**
 
 - [Triangulation stub — Iran war (Pape × Postol)](triangulation-iran-war-pape-postol-stub.md) (technical and energy–nuclear threads).
-- [Consolidated 5-point reconciliation plan — Islamabad + Jiang commentary](../../../research/external/work-jiang/intake/Islamabad-5-point-reconciliation-plan-with-jiang-commentary.md) (merged 10/15 framing, legal reconciliation, corpus-conditioned overlay).
+- [Consolidated 5-point reconciliation plan — Islamabad + Jiang commentary](../../codex/predictive-history/intake/Islamabad-5-point-reconciliation-plan-with-jiang-commentary.md) (merged 10/15 framing, legal reconciliation, corpus-conditioned overlay).
 - [The Islamabad Framework (public, 2026-04-08)](islamabad-framework.md) (preamble + five paragraphs).
 - [The Islamabad Framework — operator edition (2026-04-08)](islamabad-framework-operator-edition.md) (spine + annexes + rubric).
 

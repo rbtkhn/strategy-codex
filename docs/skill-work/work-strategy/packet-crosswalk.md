@@ -1,4 +1,4 @@
-# Packet crosswalk
+﻿# Packet crosswalk
 
 WORK only; not Record.
 
@@ -70,7 +70,7 @@ Typical notebook move:
 
 Working examples:
 
-- [marandi-page-2026-04-21-blockade-islamabad-hormuz.md](../../../codex/2026/supporting-voices/marandi/marandi-page-2026-04-21-blockade-islamabad-hormuz.md)
+- [marandi-page-2026-04-21-blockade-islamabad-hormuz.md](../../../codex/2026/speakers/marandi/marandi-page-2026-04-21-blockade-islamabad-hormuz.md)
 - [rome-persia-legitimacy-signal-check.md](../../../codex/rome-persia-legitimacy-signal-check.md)
 
 ## Dual-register maturity check
@@ -99,8 +99,8 @@ before the seam has actually matured enough to carry that sentence honestly.
 
 Working examples:
 
-- [packet-before-synthesis-doctrine.md](packet-before-synthesis-doctrine.md) — Araghchi / Marandi
-- [rome-persia-legitimacy-signal-check.md](../../../codex/rome-persia-legitimacy-signal-check.md) — Pezeshkian / elite-English legitimacy gloss
+- [packet-before-synthesis-doctrine.md](packet-before-synthesis-doctrine.md) â€” Araghchi / Marandi
+- [rome-persia-legitimacy-signal-check.md](../../../codex/rome-persia-legitimacy-signal-check.md) â€” Pezeshkian / elite-English legitimacy gloss
 
 ## Minimal selection rule
 
@@ -111,3 +111,4 @@ Ask in this order:
 3. If yes, can I safely compose now, or do I need packet-first maturity discipline?
 
 If the answer to `3` is uncertain, stop and preserve the seam in layered form first.
+

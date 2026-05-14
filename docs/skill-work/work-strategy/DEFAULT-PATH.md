@@ -24,6 +24,8 @@ Open **two files**, scan **one**:
 
 If a daily brief exists for today (`daily-brief-YYYY-MM-DD.md`), skim its lead.
 
+Access warning: thin capture is not the same as a thin field. Do not infer silence, convergence, or a simplified score until access failure or undercapture has been ruled out.
+
 **Time:** <1 minute.
 
 ### 2. Write the inbox (Capture)

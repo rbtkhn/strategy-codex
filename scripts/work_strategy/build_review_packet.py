@@ -215,7 +215,7 @@ def derive_review_readiness(
 
     if json_out_forbidden or markdown_out_forbidden:
         return "fail", fmt_parts(
-            "Review packet output path is under a forbidden root (users/ or blocked bot files)."
+            "Review packet output path is under a forbidden root ( or blocked bot files)."
         )
 
     if carry_receipt and carry_receipt.get("result") == "fail":

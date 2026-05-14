@@ -30,3 +30,18 @@ In that sense, the filter is a restraint device. It protects the notebook from c
 - excerpt velocity for genuine daily movement
 
 So `main uploads` versus `suspected clips` is best understood as an operator attention policy: first look goes to the most likely primary daily objects, while borderline items remain visible but secondary.
+
+One practical consequence now follows from that principle:
+
+- **same-day companion clips should not be recorded by default**
+
+If a channel publishes a longer primary interview and then a shorter same-day cut built from that same appearance, the notebook should treat the longer file as the daily object and the shorter file as packaging unless the operator explicitly wants the cut preserved anyway.
+
+That rule protects the corpus from a subtle distortion:
+
+- one conversation looking like two episodes
+- the more reusable full object being diluted by its own promotional fragments
+- the archive silently overcounting recurrence
+
+So the discipline is not only about what gets first attention.
+It is also about what deserves to become durable raw-input at all.

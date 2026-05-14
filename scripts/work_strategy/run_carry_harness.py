@@ -145,7 +145,7 @@ def build_receipt(
         "record_boundary": {
             "canonical_paths_written": [],
             "canonical_write_violation": output_forbidden,
-            "notes": "Harness does not write users/, bot/prompt.py, bot/bot.py, bot/wechat_bot.py."
+            "notes": "Harness does not write , bot/prompt.py, bot/bot.py, bot/wechat_bot.py."
             + (" Attempted forbidden receipt path." if output_forbidden else ""),
         },
         "result": result,

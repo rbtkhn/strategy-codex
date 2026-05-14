@@ -5,7 +5,7 @@ The fixture is intentionally small: it indexes dates, raw-input files, and
 per-expert file groups. The browser fetches the selected Markdown file directly
 from the local HTTP server, so the JSON does not duplicate the notebook body.
 
-WORK only. Does not touch Record, gate, or users/ paths.
+WORK only. Does not touch Record, gate, or  paths.
 """
 
 from __future__ import annotations

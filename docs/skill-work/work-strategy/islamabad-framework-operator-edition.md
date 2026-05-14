@@ -10,7 +10,7 @@
 
 **Related / lineage:**
 
-- [Consolidated 5-point reconciliation plan — Islamabad + Jiang commentary](../../../research/external/work-jiang/intake/Islamabad-5-point-reconciliation-plan-with-jiang-commentary.md) (editorial source for spine + commentary).
+- [Consolidated 5-point reconciliation plan — Islamabad + Jiang commentary](../../codex/predictive-history/intake/Islamabad-5-point-reconciliation-plan-with-jiang-commentary.md) (editorial source for spine + commentary).
 - [U.S.-framed five-point Gulf peace framework (2026-04-08)](us-framed-five-point-gulf-peace-framework-2026-04-08.md) (source for U.S. annex specifics and precedent columns — precedents not duplicated here).
 - [Triangulation stub — Iran war (Pape × Postol)](triangulation-iran-war-pape-postol-stub.md) (technical / energy–nuclear threads).
 
@@ -243,7 +243,7 @@ For **editorial discipline**, tie each commentary bullet to specific lecture fil
 
 - **B1:** Islamabad plan text **only** (commitments + legal reconciliation from intake — **excluding** commentary and annexes).  
 - **B2:** [U.S.-framed five-point](us-framed-five-point-gulf-peace-framework-2026-04-08.md) as published (commitments + legal/transparency; precedents not scored).  
-- **B3:** Full [Islamabad + Jiang intake](../../../research/external/work-jiang/intake/Islamabad-5-point-reconciliation-plan-with-jiang-commentary.md) (plan + commentary; **no** U.S. annex, **no** optimized enhancements).  
+- **B3:** Full [Islamabad + Jiang intake](../../codex/predictive-history/intake/Islamabad-5-point-reconciliation-plan-with-jiang-commentary.md) (plan + commentary; **no** U.S. annex, **no** optimized enhancements).  
 - **S1:** **This synthesized document** (spine + Annex A + Annex B + commentary + phase note).
 
 ### Score table (integers 1–5)

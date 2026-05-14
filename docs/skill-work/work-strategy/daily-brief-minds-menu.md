@@ -1,6 +1,6 @@
 # Daily Brief Minds Menu
 
-Rendered prompts in operator chat or sidecar scaffolds should use each mind’s **linguistic fingerprint** (see **LINGUISTIC FINGERPRINT** in the trimmed stubs under [`strategy-notebook/minds/`](strategy-notebook/minds/) — `CIV-MIND-BARNES.md`, `CIV-MIND-MEARSHEIMER.md`, `CIV-MIND-MERCOURIS.md`). Order for optional Tri-Frame passes: **Barnes → Mearsheimer → Mercouris**.
+Rendered prompts in operator chat or sidecar scaffolds should use each mind’s **linguistic fingerprint** (see **LINGUISTIC FINGERPRINT** in the trimmed stubs under [`strategy-notebook/minds/`](strategy-notebook/minds/) — `CIV-MIND-BARNES.md`, `CIV-MIND-MEARSHEIMER.md`, `CIV-MIND-MERCOURIS.md`). Order for optional archived Tri-Frame passes: **Barnes → Mearsheimer → Mercouris**.
 
 After generating [`daily-brief-YYYY-MM-DD.md`](daily-brief-template.md) (same directory), choose one or more mind overlays via `scripts/generate_wap_daily_brief.py` (see [`minds/DAILY-BRIEF-MINDS-WORKFLOW.md`](minds/DAILY-BRIEF-MINDS-WORKFLOW.md)).
 

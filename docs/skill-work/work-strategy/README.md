@@ -54,6 +54,14 @@
 
 Predictive History is the public corpus name for the slow transcript spine; `work-jiang` remains only as a legacy compatibility label in older paths and wrappers.
 
+**Cognition streams coverage ledger (optional):** [cognition-streams-coverage-ledger.md](cognition-streams-coverage-ledger.md) - machine-shaped row schema, formulas, and thresholds for automating month or window completeness checks across the four tracked channels.
+
+**Cognition streams audit command (optional):** [cognition-streams-watchlist.json](cognition-streams-watchlist.json) plus `python scripts/cognition_streams_audit.py --start YYYY-MM-DD --end YYYY-MM-DD --recent-start YYYY-MM-DD` - advisory automation that emits discovery receipts, coverage ledgers, summary JSON, and a ranked repair queue without performing ingest.
+
+**Advisory automation maturity classes (optional):** [advisory-automation-visibility-vs-judgment.md](advisory-automation-visibility-vs-judgment.md) - visibility-first doctrine for automation that should illuminate the field and expose repair before attempting stronger judgment.
+
+**Future of ingestion obsolescence (optional):** [future-of-ingestion-obsolescence.md](future-of-ingestion-obsolescence.md) - what parts of today's cognition-streams ingest stack are likely to age badly within 24 months, and what trust/provenance layers are worth building because they should survive the shift to agentic access.
+
 ## Forecast integration
 
 Forecast artifacts from [`docs/skill-work/work-forecast/`](../work-forecast/README.md) may be referenced inside work-strategy as planning inputs.
