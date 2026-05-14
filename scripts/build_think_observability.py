@@ -25,8 +25,12 @@ CLAIMS_PATH = REPO_ROOT / "artifacts/skill-think/think-claims.json"
 OUT_PATH = REPO_ROOT / "artifacts/skill-think/think-observability.json"
 
 
+def _load_json_file(path: Path):
+    return json.loads(path.read_text(encoding="utf-8-sig"))
+
+
 def main() -> int:
-    data = json.loads(CLAIMS_PATH.read_text(encoding="utf-8"))
+    data = _load_json_file(CLAIMS_PATH)
     claims = data.get("claims", [])
     today = date.today()
     cutoff = today - timedelta(days=30)

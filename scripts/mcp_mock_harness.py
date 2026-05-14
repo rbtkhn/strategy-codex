@@ -59,6 +59,15 @@ _SHELL_NEEDLES = (
     "interactive_terminal",
 )
 _COMMAND_NEEDLES = ("execute_command", "run_command")
+_CANONICAL_RECORD_PATHS = {
+    "self.md",
+    "self-archive.md",
+    "self-memory.md",
+    "self-skills.md",
+    "recursion-gate.md",
+    "session-log.md",
+    "bot/prompt.py",
+}
 
 BANNER = "MOCK MCP RUN Â· WORK ARTIFACT Â· NO LIVE SERVER Â· NOT APPROVED INTEGRATION"
 
@@ -82,6 +91,13 @@ def load_mock_run(path: Path) -> dict[str, Any]:
     return doc
 
 
+def _is_canonical_record_path(token: str) -> bool:
+    norm = token.replace("\\", "/").strip().lower().lstrip("./")
+    if norm.startswith("users/grace-mar/"):
+        return True
+    return norm in _CANONICAL_RECORD_PATHS
+
+
 def validate_resource_token(s: str, *, ctx: str) -> None:
     """Reject unsafe resources; allow mock:// URIs or repo-relative fixture paths."""
     t = s.strip()
@@ -90,14 +106,14 @@ def validate_resource_token(s: str, *, ctx: str) -> None:
     tl = t.lower()
     if "http://" in tl or "https://" in tl:
         raise ValueError(f"{ctx}: http/https URLs not allowed ({t!r})")
-    if "" in tl:
-        raise ValueError(f"{ctx}:  paths not allowed ({t!r})")
     if tl.startswith("mock:"):
         norm = t.replace("\\", "/")
         parts = [p for p in norm.split("/") if p]
         if ".." in parts:
             raise ValueError(f"{ctx}: mock URI must not contain .. ({t!r})")
         return
+    if _is_canonical_record_path(t):
+        raise ValueError(f"{ctx}: canonical Record paths not allowed ({t!r})")
     if len(t) >= 2 and t[1] == ":":
         raise ValueError(f"{ctx}: absolute paths not allowed ({t!r})")
     if t.startswith("/"):

@@ -28,6 +28,10 @@ _FORBIDDEN_SUBSTRINGS = (
 _TIER_USEFULNESS = {"A": 0.35, "B": 0.55, "C": 0.85, "D": 0.5, "X": 0.0}
 
 
+def _load_json_file(path: Path) -> Any:
+    return json.loads(path.read_text(encoding="utf-8-sig"))
+
+
 def _artifact_paths(receipt: dict[str, Any]) -> str:
     art = receipt.get("artifacts") or {}
     p1 = str(art.get("trace_path") or "")
@@ -145,7 +149,7 @@ def _validate(instance: dict[str, Any], schema_path: Path) -> None:
         import jsonschema
     except ImportError:
         return
-    schema = json.loads(schema_path.read_text(encoding="utf-8"))
+    schema = _load_json_file(schema_path)
     jsonschema.Draft202012Validator(schema).validate(instance)
 
 
@@ -160,7 +164,7 @@ def _receipt_path_for_fixture(repo_root: Path, fixture: dict[str, Any], receipts
 
 
 def _load_fixture_file(path: Path) -> dict[str, Any]:
-    return json.loads(path.read_text(encoding="utf-8"))
+    return _load_json_file(path)
 
 
 def _run_one(
@@ -175,7 +179,7 @@ def _run_one(
     receipt_file = _receipt_path_for_fixture(repo_root, data, receipts_dir)
     if not receipt_file.is_file():
         raise FileNotFoundError(f"receipt not found: {receipt_file}")
-    receipt = json.loads(receipt_file.read_text(encoding="utf-8"))
+    receipt = _load_json_file(receipt_file)
     if validate_receipt:
         _validate(receipt, EXECUTION_RECEIPT_SCHEMA_PATH)
     rel_posix = receipt_file.resolve().relative_to(repo_root).as_posix()

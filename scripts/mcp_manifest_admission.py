@@ -70,6 +70,15 @@ _COMMAND_NEEDLES = ("execute_command", "run_command")
 _MERGE_TOKENS = ("merge_to_main", "force_push", "bypass_review")
 _DB_WRITE_NEEDLES = ("insert", "update", "delete", "ddl", "upsert")
 _MEMORY_NEEDLES = ("upsert_embedding", "vector", "embedding_store", "thoughts_row")
+_CANONICAL_RECORD_PATHS = {
+    "self.md",
+    "self-archive.md",
+    "self-memory.md",
+    "self-skills.md",
+    "recursion-gate.md",
+    "session-log.md",
+    "bot/prompt.py",
+}
 
 
 def _posix_under_repo(repo_root: Path, path: Path) -> str:
@@ -142,6 +151,14 @@ def _hay(xs: list[str] | None) -> str:
     return " ".join(xs or []).lower()
 
 
+def _mentions_canonical_record_path(xs: list[str] | None) -> bool:
+    for x in xs or []:
+        norm = str(x).replace("\\", "/").strip().lower().lstrip("./")
+        if norm.startswith("users/grace-mar/") or norm in _CANONICAL_RECORD_PATHS:
+            return True
+    return False
+
+
 def admission_local_blockers(manifest: dict[str, Any]) -> list[str]:
     """Hard admission rules before registry classification."""
     reasons: list[str] = []
@@ -161,7 +178,9 @@ def admission_local_blockers(manifest: dict[str, Any]) -> list[str]:
     if any(n in ah for n in ("credential_exfiltration", "steal_token", "exfiltrate")):
         reasons.append("credential_exfiltration_in_allowed_actions")
 
-    if "" in blob:
+    if _mentions_canonical_record_path(
+        list(perm.get("allowed_actions") or []) + list(perm.get("reads") or []) + list(perm.get("writes") or [])
+    ):
         reasons.append("users_grace_mar_path_in_manifest_permissions")
 
     if any(x in wh + ah for x in _DB_WRITE_NEEDLES):

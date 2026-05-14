@@ -22,6 +22,10 @@ DEFAULT_CLAIMS = REPO_ROOT / "artifacts/skill-think/think-claims.json"
 SCHEMA_PATH = REPO_ROOT / "schemas/skill_think/think_claims.schema.json"
 
 
+def _load_json_file(path: Path):
+    return json.loads(path.read_text(encoding="utf-8-sig"))
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument(
@@ -46,8 +50,8 @@ def main() -> int:
     if not args.claims.is_file():
         print(f"error: missing {args.claims}", file=sys.stderr)
         return 1
-    data = json.loads(args.claims.read_text(encoding="utf-8"))
-    schema = json.loads(SCHEMA_PATH.read_text(encoding="utf-8"))
+    data = _load_json_file(args.claims)
+    schema = _load_json_file(SCHEMA_PATH)
     jsonschema.Draft202012Validator(schema).validate(data)
 
     prose = ""

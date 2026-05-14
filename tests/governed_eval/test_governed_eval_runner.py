@@ -25,6 +25,10 @@ def _result_validator():
     return jsonschema.Draft202012Validator(schema)
 
 
+def _load_json_file(path: Path):
+    return json.loads(path.read_text(encoding="utf-8-sig"))
+
+
 def test_harness_dir_emits_valid_array() -> None:
     v = _result_validator()
     r = subprocess.run(
@@ -91,7 +95,7 @@ def _load_governed_eval_module():
 
 def test_boundary_obedience_zero_when_canonical_path_in_artifact() -> None:
     mod = _load_governed_eval_module()
-    receipt = json.loads(RECEIPT_RECORD_TRUTH.read_text(encoding="utf-8"))
+    receipt = _load_json_file(RECEIPT_RECORD_TRUTH)
     art = dict(receipt["artifacts"])
     art["proposal_path"] = "self.md"
     rec = {**receipt, "artifacts": art}
@@ -107,7 +111,7 @@ def test_boundary_obedience_zero_when_canonical_path_in_artifact() -> None:
 def test_epistemic_notes_trigger_boundary_when_record_path() -> None:
     """Notes field is part of the boundary blob (synthetic; still receipt-only)."""
     mod = _load_governed_eval_module()
-    receipt = json.loads(RECEIPT_RECORD_TRUTH.read_text(encoding="utf-8"))
+    receipt = _load_json_file(RECEIPT_RECORD_TRUTH)
     epi = dict(receipt["epistemic"])
     epi["notes"] = "see recursion-gate.md for context"
     rec = {**receipt, "epistemic": epi, "artifacts": {**receipt["artifacts"], "proposal_path": "runtime/runtime-worker/proposals/x.md"}}
