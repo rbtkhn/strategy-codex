@@ -106,44 +106,44 @@ Canonical page paths and raw ingest lines live in **Segment 2** below (regenerat
 
 ### 2026-01
 
-- **2026-01-30** (index) Ã¢â‚¬â€ Marandi on overwhelming retaliation Ã¢â‚¬â€ Greater Eurasia Ã¢â‚¬â€ YouTube.  
+- **2026-01-30** (index) Ã¢â‚¬â€ Marandi on overwhelming retaliation Ã¢â‚¬â€ Greater Eurasia Ã¢â‚¬â€ YouTube.
   _Source:_ web: `https://www.youtube.com/watch?v=I6XHVDtHRX4`
 
-- **2026-01** Ã¢â‚¬â€ Greater Eurasia Ã¢â‚¬â€ Iran civil unrest Ã¢â‚¬â€ Singju transcript (Marandi).  
+- **2026-01** Ã¢â‚¬â€ Greater Eurasia Ã¢â‚¬â€ Iran civil unrest Ã¢â‚¬â€ Singju transcript (Marandi).
   _Source:_ web: `https://singjupost.com/greater-eurasia-podcast-w-seyed-m-marandi-on-irans-civil-unrest-transcript/`
 
-- **2026-01-14** (index) Ã¢â‚¬â€ Macgregor Ã¢â‚¬â€ rising war risks Ã¢â‚¬â€ Singju transcript.  
+- **2026-01-14** (index) Ã¢â‚¬â€ Macgregor Ã¢â‚¬â€ rising war risks Ã¢â‚¬â€ Singju transcript.
   _Source:_ web: `https://singjupost.com/greater-eurasia-podcast-w-macgregor-on-rising-war-risks-transcript/`
 
 ### 2026-02
 
-- **2026-02-22** (class) Ã¢â‚¬â€ UN Security Council Ã¢â‚¬â€ media manipulation Ukraine war Ã¢â‚¬â€ Brave New Europe / Podscan.  
+- **2026-02-22** (class) Ã¢â‚¬â€ UN Security Council Ã¢â‚¬â€ media manipulation Ukraine war Ã¢â‚¬â€ Brave New Europe / Podscan.
   _Source:_ web: `https://braveneweurope.com/diesen-at-the-un-security-council-media-manipulation-in-the-ukraine-war`
 
-- **2026-02-24** (class) Ã¢â‚¬â€ NATOÃ¢â‚¬â„¢s war of choice / Istanbul sabotage Ã¢â‚¬â€ Podscan.  
+- **2026-02-24** (class) Ã¢â‚¬â€ NATOÃ¢â‚¬â„¢s war of choice / Istanbul sabotage Ã¢â‚¬â€ Podscan.
   _Source:_ web: `https://www.podscan.fm/podcasts/diesen-greater-eurasia-podcast/episodes/diesen-natos-war-of-choice-the-sabotage-of-the-istanbul-negotiations`
 
-- **2026-02** Ã¢â‚¬â€ Marandi Ã¢â‚¬â€ War for Survival Ã¢â‚¬â€ Podscan.  
+- **2026-02** Ã¢â‚¬â€ Marandi Ã¢â‚¬â€ War for Survival Ã¢â‚¬â€ Podscan.
   _Source:_ web: `https://www.podscan.fm/podcasts/diesen-greater-eurasia-podcast/episodes/seyed-m-marandi-war-for-survival-irans-strategy-as-war-is-imminent`
 
 ### 2026-03
 
-- **2026-03** Ã¢â‚¬â€ IranÃ¢â‚¬â„¢s Military Strategy and U.S. Miscalculations Ã¢â‚¬â€ Brave New Europe.  
+- **2026-03** Ã¢â‚¬â€ IranÃ¢â‚¬â„¢s Military Strategy and U.S. Miscalculations Ã¢â‚¬â€ Brave New Europe.
   _Source:_ web: `https://braveneweurope.com/seyed-m-marandi-diesen-irans-military-strategy-and-u-s-miscalculations`
 
-- **2026-03** Ã¢â‚¬â€ Iran Rejects Ceasefire Ã¢â‚¬â€ Demands New Status Quo Ã¢â‚¬â€ Brave New Europe.  
+- **2026-03** Ã¢â‚¬â€ Iran Rejects Ceasefire Ã¢â‚¬â€ Demands New Status Quo Ã¢â‚¬â€ Brave New Europe.
   _Source:_ web: `https://braveneweurope.com/seyed-m-marandi-diesen-iran-rejects-ceasefire-demands-new-status-quo`
 
-- **2026-03-21** (class) Ã¢â‚¬â€ Mercouris Ã¢â‚¬â€ Iran war transforms Ukraine war Ã¢â‚¬â€ Podscan.  
+- **2026-03-21** (class) Ã¢â‚¬â€ Mercouris Ã¢â‚¬â€ Iran war transforms Ukraine war Ã¢â‚¬â€ Podscan.
   _Source:_ web: `https://www.podscan.fm/podcasts/diesen-greater-eurasia-podcast/episodes/mercouris-iran-war-transforms-ukraine-war`
 
-- **2026-03** Ã¢â‚¬â€ Substack Ã¢â‚¬â€ Iran war accelerating end of U.S. dominance.  
+- **2026-03** Ã¢â‚¬â€ Substack Ã¢â‚¬â€ Iran war accelerating end of U.S. dominance.
   _Source:_ web: `https://glenndiesen.substack.com/p/iran-war-is-accelerating-the-end`
 
 
 ### 2026-04
 
-- **2026-04** Ã¢â‚¬â€ Ledger mirror 1 (partial month).  
+- **2026-04** Ã¢â‚¬â€ Ledger mirror 1 (partial month).
   _Source:_ web: `https://www.youtube.com/watch?v=P_DHMUdOVdo`
 
 <!-- backfill:diesen:end -->
@@ -212,7 +212,7 @@ See [`days.md` Ã‚Â§ Signal Ã¢â‚¬â€ `diesen` Ãƒâ€” `sachs`
 
 ### References
 
-- **PH vi-14 (lecture):** [interviews-14-diesen-iran-war-petrodollar.md](../../../../../../../research/external/work-jiang/lectures/interviews-14-diesen-iran-war-petrodollar.md) Ã‚Â· [YouTube](https://www.youtube.com/watch?v=P_DHMUdOVdo)
+- **PH vi-14 (lecture):** [interviews-14-diesen-iran-war-petrodollar.md](../../../../../../codex/predictive-history/lectures/interviews-14-diesen-iran-war-petrodollar.md) Ã‚Â· [YouTube](https://www.youtube.com/watch?v=P_DHMUdOVdo)
 - **Diesen Ãƒâ€” Sachs (blockade episode):** [YouTube](https://www.youtube.com/watch?v=S6mlCuvKKIQ)
 
 ### Receipt
@@ -221,7 +221,7 @@ Pins keep **Glenn Diesen**Ã¢â‚¬â„¢s **PH vi-14** lane and the **Glenn 
 
 | Pin | Target | URL |
 |-----|--------|-----|
-| **1** | PH vi-14 lecture (repo body + watch link) | [lecture `.md`](../../../../../../../research/external/work-jiang/lectures/interviews-14-diesen-iran-war-petrodollar.md) Ã‚Â· [YouTube `P_DHMUdOVdo`](https://www.youtube.com/watch?v=P_DHMUdOVdo) |
+| **1** | PH vi-14 lecture (repo body + watch link) | [lecture `.md`](../../../../../../codex/predictive-history/lectures/interviews-14-diesen-iran-war-petrodollar.md) Ã‚Â· [YouTube `P_DHMUdOVdo`](https://www.youtube.com/watch?v=P_DHMUdOVdo) |
 | **2** | Diesen Ãƒâ€” Sachs episode (same-day **`thread:diesen` + `thread:sachs`**) | [YouTube `S6mlCuvKKIQ`](https://www.youtube.com/watch?v=S6mlCuvKKIQ) |
 | **3** | Inbox **`batch-analysis`** spine (`crosses:diesen+sachs`) | [daily-strategy-inbox.md](../../../daily-strategy-inbox.md) Ã¢â‚¬â€ search `Diesen Ãƒâ€” Sachs` / `crosses:diesen+sachs` |
 

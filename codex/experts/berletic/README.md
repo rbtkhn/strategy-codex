@@ -1,5 +1,5 @@
 # Deprecated pointer: berletic
 
-This supporting voice moved to [`../../2026/supporting-voices/berletic/`](../../2026/supporting-voices/berletic/).
+This speaker folder moved to [`../../2026/speakers/berletic/`](../../2026/speakers/berletic/).
 
 Do not add new work under `codex/experts/berletic/`.

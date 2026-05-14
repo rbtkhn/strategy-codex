@@ -38,7 +38,7 @@ Jiang is the exception/template, not the default commentator-lane model.
 - recurring evidence-pack and chapter workflow
 - clear payoff from chronology, quote discipline, and cross-episode tracking
 
-That is why Jiang justifies a dedicated external corpus at `research/external/work-jiang/`. The eight commentator lanes do **not** inherit that shape automatically.
+That is why Jiang justifies a dedicated external corpus at `codex/predictive-history/`. The eight commentator lanes do **not** inherit that shape automatically.
 
 ## Promotion rule
 

@@ -1,5 +1,5 @@
 # Deprecated pointer: greenwald
 
-This supporting voice moved to [`../../2026/supporting-voices/greenwald/`](../../2026/supporting-voices/greenwald/).
+This speaker folder moved to [`../../2026/speakers/greenwald/`](../../2026/speakers/greenwald/).
 
 Do not add new work under `codex/experts/greenwald/`.

@@ -1,5 +1,5 @@
 # Deprecated pointer: sachs
 
-This supporting voice moved to [`../../2026/supporting-voices/sachs/`](../../2026/supporting-voices/sachs/).
+This speaker folder moved to [`../../2026/speakers/sachs/`](../../2026/speakers/sachs/).
 
 Do not add new work under `codex/experts/sachs/`.

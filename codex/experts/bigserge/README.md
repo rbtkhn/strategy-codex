@@ -1,5 +1,5 @@
 # Deprecated pointer: bigserge
 
-This supporting voice moved to [`../../2026/supporting-voices/bigserge/`](../../2026/supporting-voices/bigserge/).
+This speaker folder moved to [`../../2026/speakers/bigserge/`](../../2026/speakers/bigserge/).
 
 Do not add new work under `codex/experts/bigserge/`.

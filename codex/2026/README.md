@@ -15,10 +15,23 @@
 
 ## Shared Layers
 
-- [raw-input/](raw-input/) — shared source layer for transcripts, posts, and bundled inputs.
-- [chapters/](chapters/) — legacy month/day continuity, retained inside the 2026 volume.
-- [supporting-voices/](supporting-voices/) — useful voices outside the eight-stream scaffold.
-- [civ-mem-resonance-2026-04.md](civ-mem-resonance-2026-04.md) — monthly civ-mem lattice note.
+- [raw-input/](raw-input/) - shared source layer for transcripts, posts, and bundled inputs.
+- [chapters/](chapters/) - legacy month/day continuity, retained inside the 2026 volume.
+- [speakers/](speakers/) - speaker objects outside the eight-stream scaffold.
+- [civ-mem-resonance-2026-04.md](civ-mem-resonance-2026-04.md) - monthly civ-mem lattice note.
+
+`raw-input/` should be read as access substrate, not as a voice plane by itself.
+
+## Access-layer lesson
+
+Recent cognition-stream audit work clarified a useful boundary for this volume:
+
+- the lattice is made of voices
+- the access layer is made of discovery, receipts, ledgers, and repair logic
+
+Those layers must stay distinct.
+
+If a source surface becomes brittle or partially inaccessible, that is a visibility problem first, not immediate evidence that a voice has gone quiet or that the lattice has simplified. The right response is to improve provenance and repair visibility before drawing stronger synthesis conclusions.
 
 ## Lane-to-corpus policy
 

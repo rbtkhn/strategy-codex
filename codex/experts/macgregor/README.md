@@ -1,5 +1,5 @@
 # Deprecated pointer: macgregor
 
-This supporting voice moved to [`../../2026/supporting-voices/macgregor/`](../../2026/supporting-voices/macgregor/).
+This speaker folder moved to [`../../2026/speakers/macgregor/`](../../2026/speakers/macgregor/).
 
 Do not add new work under `codex/experts/macgregor/`.

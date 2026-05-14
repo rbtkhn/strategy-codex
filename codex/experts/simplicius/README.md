@@ -1,5 +1,5 @@
 # Deprecated pointer: simplicius
 
-This supporting voice moved to [`../../2026/supporting-voices/simplicius/`](../../2026/supporting-voices/simplicius/).
+This speaker folder moved to [`../../2026/speakers/simplicius/`](../../2026/speakers/simplicius/).
 
 Do not add new work under `codex/experts/simplicius/`.

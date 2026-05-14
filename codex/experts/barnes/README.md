@@ -1,5 +1,5 @@
 # Deprecated pointer: barnes
 
-This supporting voice moved to [`../../2026/supporting-voices/barnes/`](../../2026/supporting-voices/barnes/).
+This speaker folder moved to [`../../2026/speakers/barnes/`](../../2026/speakers/barnes/).
 
 Do not add new work under `codex/experts/barnes/`.

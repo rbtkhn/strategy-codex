@@ -1,5 +1,5 @@
 # Deprecated pointer: baud
 
-This supporting voice moved to [`../../2026/supporting-voices/baud/`](../../2026/supporting-voices/baud/).
+This speaker folder moved to [`../../2026/speakers/baud/`](../../2026/speakers/baud/).
 
 Do not add new work under `codex/experts/baud/`.

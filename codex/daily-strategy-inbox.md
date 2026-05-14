@@ -1,4 +1,4 @@
-﻿# Daily strategy inbox (accumulator)
+# Daily strategy inbox (accumulator)
 <!-- word_count: 36300 -->
 
 **Purpose:** **Append-only** scratch surface for the **current local calendar day** while you run **`strategy`**, read briefs, or capture links. Polished prose is **not** required â€” bullets, paste, URLs, half-sentences.
@@ -46,7 +46,7 @@
 1. **Cold** â€” minimal, attribution-safe paraphrase: who said what, what artifact (post, wire, video), **without** folding in notebook-specific framing.
 2. **Hook** â€” one short clause: **why this line exists today** (tie to brief Â§, Judgment fork, batch-analysis theme, or â€œfiling for verifyâ€).
 
-**Pattern:**  
+**Pattern:**
 `source-token | cold: <clause> // hook: <clause> | URL | verify:â€¦`
 
 **When to use:** Busy news days, nested QTs, or any ingest where you want **grep** to separate **source fact** from **operator placement**. When the ingest is trivial or cold/hook would duplicate each other, keep a **single** gist (original shape).
@@ -74,7 +74,7 @@ When the operator captures **two or more** excerpts in one pass, **items stay se
 
 **Lightweight forms** (pick one):
 
-- **Single metadata line:**  
+- **Single metadata line:**
   `batch-analysis | YYYY-MM-DD | <short theme> | <1â€“2 clauses: tension-first; optional *weak* convergence if clearly labeled>`
 
 - **Mini-block** (slightly more room, still bounded):
@@ -632,7 +632,7 @@ Larry Johnson: All right, my brother. Weâ€™ll see you later
 
 - **Brief:** [daily-brief-2026-04-12.md](../daily-brief-2026-04-12.md) â€” fill Â§1d / Â§1e / Â§1f / Â§1g / Â§1h as needed; **JD Vance** lane ties to Islamabad / no-deal frame.
 - **Notebook page:** `## 2026-04-12` is in [`chapters/2026-04/days.md`](chapters/2026-04/days.md) â€” **Accumulator** (above this Prep block) holds paste ingests; **tri-mind overlap scan** (below) and **Locals** (next subsections) align with **Chronicle / Reflection** there; meta Â§ **Hormuz / Lebanon / pauseâ‰ settlement**.
-- **PH hook:** `research/external/work-jiang/lectures/game-theory-11-the-law-of-escalation.md` Â· `game-theory-20-mid-term-examination.md` (paths only; cite at a glance in Judgment).
+- **PH hook:** `codex/predictive-history/lectures/game-theory-11-the-law-of-escalation.md` Â· `game-theory-20-mid-term-examination.md` (paths only; cite at a glance in Judgment).
 - **Weave:** Inbox â†’ `days.md` at **`dream`** or when you **explicitly** direct (**`weave`**; not on ingest alone).
 
 ### Locals â€” merged tri-mind paste (~150w, 2026-04-12)
@@ -711,19 +711,19 @@ Islamabad and **Hormuz** coverage this week is carrying **three** **audience** s
 
 ### Strategy ingest â€” work-jiang PH Volume VI (2026-04-14)
 
-**Corpus:** [LIB-0149](../../../../self-library.md#operator-analytical-books) â€” curated lectures + analysis memos under `research/external/work-jiang/` (`vi-14`, `vi-15`).
+**Corpus:** [LIB-0149](../../../../self-library.md#operator-analytical-books) â€” curated lectures + analysis memos under `codex/predictive-history/` (`vi-14`, `vi-15`).
 
-`YT | cold: Jiang Ã— Glenn Diesen â€” Iran war as petrodollar / Treasury stress / Hormuzâ€“Malacca chokepoint story; Islamabad 10-point frame vs US walk-away; maritime â€œtollâ€ extraction // hook: **vi-14** for Â§1c Jiang layer + Islamabad / energy spine; cite lecture not headlines | https://www.youtube.com/watch?v=P_DHMUdOVdo | verify:work-jiang-vi-14+../../../../research/external/work-jiang/lectures/interviews-14-diesen-iran-war-petrodollar.md | thread:diesen`
+`YT | cold: Jiang Ã— Glenn Diesen â€” Iran war as petrodollar / Treasury stress / Hormuzâ€“Malacca chokepoint story; Islamabad 10-point frame vs US walk-away; maritime â€œtollâ€ extraction // hook: **vi-14** for Â§1c Jiang layer + Islamabad / energy spine; cite lecture not headlines | https://www.youtube.com/watch?v=P_DHMUdOVdo | verify:work-jiang-vi-14+../../../codex/predictive-history/lectures/interviews-14-diesen-iran-war-petrodollar.md | thread:diesen`
 
-`YT | cold: Jiang Ã— Sneako Ã— Dugin â€” eschatology stack (Scofield / Calvinism / Orthodox + traditionalist); Eurasian multipolarity vs US debt; Chabad as **convergence** not sole driver; katechon / antichrist closing // hook: **vi-15** tri-voice overlay; `narrative-escalation` | https://www.youtube.com/watch?v=n44OF1Y7zgo | verify:work-jiang-vi-15+thread:jiang+../../../../research/external/work-jiang/lectures/interviews-15-sneako-jiang-dugin-eschatology.md`
+`YT | cold: Jiang Ã— Sneako Ã— Dugin â€” eschatology stack (Scofield / Calvinism / Orthodox + traditionalist); Eurasian multipolarity vs US debt; Chabad as **convergence** not sole driver; katechon / antichrist closing // hook: **vi-15** tri-voice overlay; `narrative-escalation` | https://www.youtube.com/watch?v=n44OF1Y7zgo | verify:work-jiang-vi-15+thread:jiang+../../../codex/predictive-history/lectures/interviews-15-sneako-jiang-dugin-eschatology.md`
 
 `batch-analysis | 2026-04-14 | vi-14 Diesen + vi-15 Sneako/Dugin | **Tension-first:** same weekâ€™s **USâ€“Iran** arc read through **petrodollar / chokepoint mechanics** (Diesen session) vs **theologicalâ€“civilizational** stack (Dugin session), with Jiang bridging **1694â†’Enlightenment genealogy** and **China materialist** drag on â€œantichristâ€ urgencyâ€”**do not** merge causal chains in one Judgment. *Weak bridge:* **Islamabad negotiators as visible layer / scapegoat** motif appears in **both**â€”still verify each factual chain against primaries before folding.`
 
 ### Strategy ingest â€” work-jiang PH Volume IV (2026-04-28)
 
-**Corpus:** [LIB-0149](../../../../self-library.md#operator-analytical-books) â€” **`gt-21`** transcript + analysis stub under `research/external/work-jiang/`.
+**Corpus:** [LIB-0149](../../../../self-library.md#operator-analytical-books) â€” **`gt-21`** transcript + analysis stub under `codex/predictive-history/`.
 
-`YT | cold: Jiang â€” Game Theory #21 *World War Trump* â€” Iran-war / Islamabad ceiling vs US â€œempire maintenanceâ€ frame; chokepoints (Hormuz, Malacca, Panama, Gibraltar); Jan 2026 strategy-doc read-through; wartime economy / draft overlay // hook: **gt-21** for Â§1c Jiang layer + Hormuzâ€“Islamabad continuity; cite transcript not headlines | https://www.youtube.com/watch?v=Ts-AA6LQf6I | verify:work-jiang-gt-21+../../../../research/external/work-jiang/lectures/game-theory-21-world-war-trump.md | thread:jiang`
+`YT | cold: Jiang â€” Game Theory #21 *World War Trump* â€” Iran-war / Islamabad ceiling vs US â€œempire maintenanceâ€ frame; chokepoints (Hormuz, Malacca, Panama, Gibraltar); Jan 2026 strategy-doc read-through; wartime economy / draft overlay // hook: **gt-21** for Â§1c Jiang layer + Hormuzâ€“Islamabad continuity; cite transcript not headlines | https://www.youtube.com/watch?v=Ts-AA6LQf6I | verify:work-jiang-gt-21+../../../codex/predictive-history/lectures/game-theory-21-world-war-trump.md | thread:jiang`
 
 ### Author-thread continuity (2026-04-12 â†’ 2026-04-14)
 
@@ -993,4 +993,3 @@ _Subsection title date = **scratch / batch label** (same family as **Accumulator
 ## 2026-01-03
 
 - SS | cold: **Scott Ritter** â€” *Russia's Dark Sage* (Substack **2026-01-03** operator voice) â€” **Karaganov** **Ã—** **US** **as** **untrustworthy** **partner** **(post-Budapest** **summit** **collapse** **+** **Rosneft/Lukoil** **sanctions);** **Maduro** **Caracas** **raid** **read** **as** **sanctionsâ†’elite** **leverage** **/** **regime-change** **corollary** **â†’** **parallel** **US** **play** **vs** **Russia;** **Witkoffâ€“Dmitriev** **transactional** **track** **as** **economic** **expectations** **among** **Russian** **elites** **/** **â€œhoney** **trapâ€** **thesis** **vs** **Putin** **root-causes** **demands;** **claimed** **Valdai** **drone** **swarm** **as** **humiliation** **/** **weak-leader** **narrative** **+** **Zelensky** **Maduro-precedent** **cue;** **closes** **with** **Russophobia** **renunciation** **as** **precondition** **for** **normalization** **(advocacy** **tier)** // hook: **retro** **ingest** **â€”** **trust** **/** **elite** **buy-in** **/** **sanctions** **geometry** **(essay** **â‰ ** **wire);** **full** **text** **[`raw-input/2026-01-03/substack-ritter-russia-dark-sage-karaganov-2026-01-03.md`](raw-input/2026-01-03/substack-ritter-russia-dark-sage-karaganov-2026-01-03.md)** | https://scottritter.substack.com/p/russias-dark-sage | verify:primary-Substack+full-text+raw-input+published:2026-01-03+UI-date-may-differ | thread:ritter | KREMLIN | US-RU | grep:Ritter+Karaganov+Dark+Sage+Maduro+Witkoff+Dmitriev
-
