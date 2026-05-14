@@ -62,4 +62,4 @@ Use for **public symbolic events**: papal or other religious leaders’ trips, m
 ## Related (optional handoffs)
 
 - **fact-check** — When claims about what was said or signed need web verification.
-- **skill-strategy** — When the operator wants the same insight folded into strategy-notebook judgment with civ-mem grounding.
+- **skill-strategy** — When the operator wants the same insight folded into strategy-codex judgment with civ-mem grounding.
