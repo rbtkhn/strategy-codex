@@ -42,12 +42,12 @@ Use the ASCII slug **`furtwangler`** for durable logs unless the repo already us
 
 | Layer | File | Role | Authority |
 |-------|------|------|-----------|
-| **Synthesis theory** | [SYNTHESIS-OPERATING-MODEL.md](../work-strategy/strategy-notebook/SYNTHESIS-OPERATING-MODEL.md) | Defines the operator-as-conductor model and polyphonic synthesis principle | Theory / doctrine only |
-| **Strategy ritual** | [COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md](../../../codex/COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md) | Applies the five conductor modes to strategy-notebook cadence | work-layer ritual |
+| **Synthesis theory** | [SYNTHESIS-OPERATING-MODEL.md](../../../codex/SYNTHESIS-OPERATING-MODEL.md) | Defines the operator-as-conductor model and polyphonic synthesis principle | Theory / doctrine only |
+| **Strategy ritual** | [COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md](../../../codex/COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md) | Applies the five conductor modes to strategy-codex cadence | work-layer ritual |
 | **Generic conductor pass** | [CONDUCTOR-PASS.md](CONDUCTOR-PASS.md) | Defines the portable cross-lane conductor pass shape | work-layer pass shape |
 | **Cursor conductor skill** | [`.cursor/skills/conductor/SKILL.md`](../../../.cursor/skills/conductor/SKILL.md) | Operational router for selecting conductor stance and action menu | Runtime/operator skill |
 | **Coffee hub skill** | [`.cursor/skills/coffee/SKILL.md`](../../../.cursor/skills/coffee/SKILL.md) | Main coffee hub; may route to conductor pass but has its own A-D menu | Runtime/operator skill |
-| **Compiled-view recipe** | [expert-polyphony-synthesis-five-conductors.md](../work-strategy/strategy-notebook/compiled-views/recipes/expert-polyphony-synthesis-five-conductors.md) | Derived Symphony Snapshot output recipe | Derived view recipe only |
+| **Compiled-view recipe** | [expert-polyphony-synthesis-five-conductors.md](../../../codex/compiled-views/recipes/expert-polyphony-synthesis-five-conductors.md) | Derived Symphony Snapshot output recipe | Derived view recipe only |
 | **Coding proposal lenses** | [conductor-proposal-lenses.md](../work-dev/conductor-proposal-lenses.md) | Translates conductor modes into coding-agent proposal shapes | Prompt convention only |
 | **Derived metrics (offline)** | [conductor-observability.md](conductor-observability.md) | Heuristic scoring + replay harness for Conductor Action Menu text; rebuildable JSON, not Record | Derived work-layer observability only |
 
@@ -55,7 +55,7 @@ Clarifications:
 
 - No single layer replaces the others.
 - The layer map exists to prevent accidental conflation.
-- The strategy-notebook ritual remains the most concrete **notebook-specific** implementation.
+- The strategy-codex ritual remains the most concrete **strategy-specific** implementation.
 - The generic conductor pass is the reusable **cross-lane** abstraction.
 - The Cursor skill is **operational routing**, not doctrine.
 - The coffee hub has its **own** menu and may route **into** conductor work.
@@ -72,9 +72,9 @@ Define the three menu names:
 
 The **A-D** menu used by [`.cursor/skills/coffee/SKILL.md`](../../../.cursor/skills/coffee/SKILL.md) to route the operator among broad coffee-session options (**Steward / Engineer / Strategist / Capitalist**). Conductor is invoked separately by master name, `conductor`, or the standalone conductor skill.
 
-### Master Selection Menu
+### Name-Only Conductor Selection
 
-The **A-E** menu used to select a **conductor stance**: Toscanini, Furtwangler, Bernstein, Karajan, or Kleiber (often printed as the **Conductor MCQ** masters row; see [CONDUCTOR-PASS.md - Conductor MCQ](CONDUCTOR-PASS.md#conductor-mcq)).
+The former **A-E** conductor chooser is retired. Conductors are selected only by name: `toscanini`, `furtwangler`, `karajan`, `kleiber`, or `bernstein`.
 
 ### Conductor Action Menu
 
@@ -102,7 +102,7 @@ Rules:
 | PR triage or implementation sequence is bloated | Kleiber | Refuse excess and choose one next move |
 | Boundary or authority ambiguity | Toscanini | Enforcement precedes creativity, starting with one specific artifact or claim boundary |
 | Strategy thread becoming flattened or over-smoothed | Furtwangler | Polyphony should not be prematurely resolved |
-| Notebook becoming ornate or bloated | Karajan or Kleiber | Shape or narrow depending on the failure mode |
+| Strategy-codex output becoming ornate or bloated | Karajan or Kleiber | Shape or narrow depending on the failure mode |
 | Reflection section lacks human energy | Bernstein | The work needs vitality, not more scaffolding |
 
 ---

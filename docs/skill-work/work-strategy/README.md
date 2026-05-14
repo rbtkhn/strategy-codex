@@ -1,5 +1,7 @@
 # work-strategy
 
+**Naming:** `strategy-codex` is the active operator surface. The canonical corpus lives under root [`/codex`](../../../codex/README.md). `strategy-notebook` is a deprecated compatibility namespace for old links, script aliases, fixtures, and historical logs; do not add new canonical material there.
+
 **Identity (one sentence):** This lane does one thing no other surface does â€” **cross-territory governed accumulation of judgment** with civilizational depth and explicit distance from Record truth.
 
 **Default path (fast start):** [DEFAULT-PATH.md](DEFAULT-PATH.md) â€” three moves for a normal pass; everything else is optional. Start there if the full skill file feels heavy.

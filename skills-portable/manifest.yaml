@@ -49,6 +49,7 @@ skills:
     verify_forbidden_substrings:
       - users/grace-mar/
       - process_approved_candidates
+  # Legacy compatibility slug. Active concept: strategy-codex-expert-cross-weave.
   - name: strategy-notebook-expert-cross-weave
     source: strategy-notebook-expert-cross-weave/SKILL.md
     appendix: .cursor/skills/strategy-notebook-expert-cross-weave/CURSOR_APPENDIX.md
@@ -97,6 +98,7 @@ skills:
     verify_forbidden_substrings:
       - users/grace-mar/
       - process_approved_candidates
+  # Legacy compatibility slug. Active concept: strategy-codex-guest-canon-note.
   - name: strategy-notebook-guest-canon-note
     source: strategy-notebook-guest-canon-note/SKILL.md
     appendix: .cursor/skills/strategy-notebook-guest-canon-note/CURSOR_APPENDIX.md

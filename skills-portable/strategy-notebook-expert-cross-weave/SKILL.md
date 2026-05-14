@@ -1,16 +1,19 @@
 ---
 name: strategy-notebook-expert-cross-weave
 preferred_activation: weave expert cross
-description: "Fold two strategy-notebook expert-thread ingests into one days.md seam (Chronicle/Reflection/References/Open), optional batch-analysis rows and chapter meta grep anchor; WORK lane only."
+description: "Legacy alias for strategy-codex expert cross-weave: fold two expert-thread ingests into one days.md seam (Chronicle/Reflection/References/Open), optional batch-analysis rows and chapter meta grep anchor; WORK lane only."
 portable: true
 version: 0.1.0
 tags:
   - operator
   - work-strategy
-  - strategy-notebook
+  - strategy-codex
+  - strategy-notebook-legacy
 ---
 
-# Strategy notebook — expert cross-weave
+# Strategy-codex expert cross-weave
+
+**Naming:** This portable skill keeps the legacy slug `strategy-notebook-expert-cross-weave` for compatibility. The active concept is **strategy-codex expert cross-weave** and canonical corpus paths live under `/codex`.
 
 **Preferred activation (operator):** **`weave <expert-a> <expert-b>`**, **`expert cross-weave`**, **`crosses:expert-a+expert-b`**.
 
@@ -55,7 +58,7 @@ Under **`chapters/YYYY-MM/days.md`**, in the correct **`## YYYY-MM-DD`** block:
 
 - One **grep anchor** line under **April arc** (or the month’s one-screen summary): the exact **`batch-analysis`** stub ↔ **`days.md`** section anchor — helps humans and search.
 
-### 5) **`STATUS.md`** (strategy-notebook)
+### 5) **`STATUS.md`** (strategy-codex)
 
 - Bump **Last substantive entry** when this weave closes real notebook work (compound line is fine if a larger same-week entry already exists).
 
@@ -67,6 +70,6 @@ Under **`chapters/YYYY-MM/days.md`**, in the correct **`## YYYY-MM-DD`** block:
 
 ## See also
 
-- Strategy notebook architecture — daily inbox contract, entry model, output path.
+- Strategy-codex architecture — daily inbox contract, entry model, output path.
 - **Expert-thread continuity** section in **`daily-strategy-inbox.md`**.
 - **`strategy-commentator-threads.md`** — stable **`expert_id`** and crossing rules.

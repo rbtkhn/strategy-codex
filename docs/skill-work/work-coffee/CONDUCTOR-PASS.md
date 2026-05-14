@@ -4,11 +4,11 @@
 
 **Purpose:** A **territory-agnostic** description of the **conductor** role in strategy-codex: the operator sets **emphasis, tempo, and depth**; tools and file trees do **not** replace judgment. The **five-master** map (Precision through Selectivity) is portable: it describes **modes of attention**, not one folder.
 
-The coffee hub now ends at **D**. You may still open **Conductor** **without** `coffee`: invoke a conductor directly (`toscanini`, `furtwangler`, `karajan`, `kleiber`, or `bernstein`), or say **`conductor <name>`**. Bare **`conductor`** asks for one of those names. Strategy-notebook SSOT for the embodied ritual: [COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md](../work-strategy/strategy-notebook/COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md). This file remains the **shared spine** for cross-lane analogy.
+The coffee hub now ends at **D**. You may still open **Conductor** **without** `coffee`: invoke a conductor directly (`toscanini`, `furtwangler`, `karajan`, `kleiber`, or `bernstein`), or say **`conductor <name>`**. Bare **`conductor`** asks for one of those names. Strategy-codex SSOT for the embodied ritual: [COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md](../../../codex/COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md). `strategy-notebook` is legacy compatibility language only. This file remains the **shared spine** for cross-lane analogy.
 
-**Relationship to synthesis doctrine:** The same **figures ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ GraceÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬ËœMar anchor** table lives in [SYNTHESIS-OPERATING-MODEL.md](../work-strategy/strategy-notebook/SYNTHESIS-OPERATING-MODEL.md#techniques-inspired-by-the-masters) (*Techniques inspired by the masters*). These three documents are **consistent**, not competitive: **SYNTHESIS-OM** = theory; this page = **cross-lane** pass shape; **COFFEE-CADENCE** = **notebook** timeboxed ritual and seeds.
+**Relationship to synthesis doctrine:** The same **figures ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ GraceÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬ËœMar anchor** table lives in [SYNTHESIS-OPERATING-MODEL.md](../../../codex/SYNTHESIS-OPERATING-MODEL.md#techniques-inspired-by-the-masters) (*Techniques inspired by the masters*). These three documents are **consistent**, not competitive: **SYNTHESIS-OM** = theory; this page = **cross-lane** pass shape; **COFFEE-CADENCE** = **strategy-codex** timeboxed ritual and seeds.
 
-**Layer map:** [CONDUCTOR-LAYER-MAP.md](CONDUCTOR-LAYER-MAP.md) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â distinguishes synthesis theory, strategy-notebook ritual, **this** generic cross-lane pass, Cursor skills, compiled-view recipes, and coding-agent proposal lenses. **This file** defines the **generic cross-lane conductor pass** shape.
+**Layer map:** [CONDUCTOR-LAYER-MAP.md](CONDUCTOR-LAYER-MAP.md) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â distinguishes synthesis theory, strategy-codex ritual, **this** generic cross-lane pass, Cursor skills, compiled-view recipes, and coding-agent proposal lenses. **This file** defines the **generic cross-lane conductor pass** shape.
 
 **Menus vs slugs:** Use standard labels when multiple lettered menus could appear in one thread: **Coffee Hub Menu** (`coffee` Step 2 hub, A-D) and **Conductor Action Menu** (movement row, A-D; [Conductor action MCQ](#conductor-action-mcq)). There is no lettered conductor chooser; conductor stances are invoked by name only. **Durable logs** should record **conductor slugs** (`toscanini`, `furtwangler`, `bernstein`, `karajan`, `kleiber`), not hub/action letters.
 
@@ -42,7 +42,7 @@ The coffee hub now ends at **D**. You may still open **Conductor** **without** `
 
 | Territory | ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œScoreÃƒÂ¢Ã¢â€šÂ¬Ã‚Â to conduct | First anchor (illustrative) |
 |-----------|--------------------|-----------------------------|
-| **Strategy notebook** ( **Conductor session** ? master name / `conductor` skill ) | Expert/voice **threads**, **Machine** + **Journal**, `strategy-page`, `days.md` / `meta.md` | [COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md](../work-strategy/strategy-notebook/COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md) |
+| **Strategy-codex** ( **Conductor session** ? master name / `conductor` skill ) | Expert/voice **threads**, **Machine** + **Journal**, `strategy-page`, `days.md` / `meta.md` | [COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md](../../../codex/COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md) |
 | **work-dev** | Specs, integration, `workspace.md` next actions | [workspace.md](../work-dev/workspace.md), [INTEGRATION-PROGRAM.md](../work-dev/INTEGRATION-PROGRAM.md) |
 | **work-politics** | Daily brief, campaign queue, brief registry | [brief-source-registry.md](../work-politics/brief-source-registry.md), `daily-brief-YYYY-MM-DD.md` |
 | **work-cici** | Cici/OB1 rhythm, handoff, day journal | [INDEX.md](../work-cici/INDEX.md), [SYNC-DAILY.md](../work-cici/SYNC-DAILY.md) |
@@ -56,7 +56,7 @@ When you are **not** in **`coffee`**, you do **not** need to call this a ÃƒÂ�
 <a id="conductor-d-menu"></a>
 <a id="conductor-d1-d5"></a>
 
-## Conductor session (strategy-notebook) ?????????????????? standalone only
+## Conductor session (strategy-codex) ?????????????????? standalone only
 
 **`coffee` Step 2** is **A?D**. Conductor is standalone only and does not continue from coffee Step 1.
 
@@ -82,7 +82,7 @@ Continuity may mention the last `coffee_pick` slug, optional `focus` / `arc`, an
 
 **How the operator picks:** A **master name / prefix** in the message, or **`conductor <name>`**. Bare **`conductor`** asks for a name. If two prefix fragments match, ask for a longer fragment or the full conductor name. Single-character **A-D** belongs only to the resolved Conductor Action Menu; **E** is not a live conductor pick.
 
-**On pick,** give the usual **short** Conductor orientation ([COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md](../work-strategy/strategy-notebook/COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md)).
+**On pick,** give the usual **short** Conductor orientation ([COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md](../../../codex/COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md)).
 
 <a id="conductor-action-mcq"></a>
 
@@ -102,7 +102,7 @@ Movement meanings:
 
 **Outside `coffee`:** the operator issues the conductor pick **without** running `coffee` Step 0?1. Resolution, orientation, and **`coffee_pick`** logging match [coffee ? Conductor session](../../../.cursor/skills/coffee/SKILL.md#conductor-only-no-coffee); do **not** require Recent rhythm or `operator_coffee.py` for that turn.
 
-**`last30days` as one possible action:** When the active object is a current-events / strategy-notebook question and the frontier is stale, one of the four movement choices may be a bounded **`last30days`** scan. Keep it master-shaped: **Toscanini** verifies source dates and falsifiers; **FurtwÃƒÆ’Ã‚Â¤ngler** maps live conflicts without closing them; **Bernstein** extracts the one fresh signal that clarifies stakes; **Karajan** checks month-arc fit; **Kleiber** narrows to one query only. It remains non-mutating unless the operator separately asks to append an inbox line or prepare a review artifact.
+**`last30days` as one possible action:** When the active object is a current-events / strategy-codex question and the frontier is stale, one of the four movement choices may be a bounded **`last30days`** scan. Keep it master-shaped: **Toscanini** verifies source dates and falsifiers; **FurtwÃƒÆ’Ã‚Â¤ngler** maps live conflicts without closing them; **Bernstein** extracts the one fresh signal that clarifies stakes; **Karajan** checks month-arc fit; **Kleiber** narrows to one query only. It remains non-mutating unless the operator separately asks to append an inbox line or prepare a review artifact.
 
 **Due/open loop surfacing:** When the notebook already carries `Call / Falsifier / Revisit` blocks, the pass may surface a short **Open loops due for revisit** block before the action MCQ. Keep it derived and advisory: prefer current-lane loops first, include a **Tension** sub-section only when multiple streams carry materially conflicting open loops, and treat the surfacing as orientation rather than auto-resolution.
 

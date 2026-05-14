@@ -62,6 +62,18 @@ def test_count_expert_rows_sample():
     assert count_expert_table_rows(sample) == 2
 
 
+def test_strategy_context_uses_strategy_codex_canonical_dir():
+    from scripts.strategy_context import (
+        LEGACY_STRATEGY_NOTEBOOK_DIR,
+        NOTEBOOK,
+        STRATEGY_CODEX_DIR,
+    )
+
+    assert NOTEBOOK == STRATEGY_CODEX_DIR
+    assert STRATEGY_CODEX_DIR.name == "codex"
+    assert LEGACY_STRATEGY_NOTEBOOK_DIR.name == "strategy-notebook"
+
+
 def test_strategy_context_smoke_compact():
     r = subprocess.run(
         [
@@ -240,7 +252,7 @@ def test_strategy_context_recent_smoke():
         text=True,
     )
     assert r.returncode == 0, r.stderr
-    assert "Notebook 2026-04-13" in r.stdout
+    assert "strategy-codex" in r.stdout
     # Recent activity section only appears when events exist for the date window
     if "### Recent strategy activity (lightweight)" in r.stdout:
         assert "WORK-choice" in r.stdout or "git" in r.stdout

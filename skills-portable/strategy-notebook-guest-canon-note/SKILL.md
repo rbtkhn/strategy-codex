@@ -6,16 +6,17 @@ portable: true
 version: 0.1.0
 tags:
   - operator
-  - strategy-notebook
+  - strategy-codex
+  - strategy-notebook-legacy
   - speaker-arc
   - guest-lane
 ---
 
-# Strategy notebook guest speaker arc
+# Strategy-codex guest speaker arc
 
 **Preferred activation (operator):** say **`speaker arc`**.
 
-**Compatibility note:** The portable skill slug remains `strategy-notebook-guest-canon-note` for manifest and sync stability. In live notebook language, use **speaker arc**.
+**Compatibility note:** The portable skill slug remains `strategy-notebook-guest-canon-note` for manifest and sync stability. In live strategy-codex language, use **speaker arc**; `strategy-notebook` is legacy compatibility language only.
 
 Use this skill when a recurring guest run inside a host stream has become important enough to deserve a compact, reusable note that future routing can cite.
 

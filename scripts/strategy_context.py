@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Re-entry context for work-strategy: synthesize notebook day + inbox + brief + index pointers.
+Re-entry context for work-strategy: synthesize strategy-codex day + inbox + brief + index pointers.
 
 Read-only by default. Optional --log appends a WORK-choice receipt to session-transcript.md
 via scripts/log_operator_choice.py (same mechanism as work-menu-conventions).
@@ -38,7 +38,10 @@ if str(_SCRIPTS) not in sys.path:
 from repo_io import DEFAULT_USER_ID, profile_dir, read_path  # noqa: E402
 
 STRATEGY_DIR = REPO_ROOT / "docs" / "skill-work" / "work-strategy"
-NOTEBOOK = STRATEGY_DIR / "strategy-notebook"
+STRATEGY_CODEX_DIR = REPO_ROOT / "codex"
+LEGACY_STRATEGY_NOTEBOOK_DIR = STRATEGY_DIR / "strategy-notebook"
+# Deprecated compatibility alias. New code should use STRATEGY_CODEX_DIR.
+NOTEBOOK = STRATEGY_CODEX_DIR
 DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 ACCUM_RE = re.compile(
     r"^\*\*Accumulator for:\*\*\s*(\d{4}-\d{2}-\d{2})\b", re.MULTILINE
@@ -468,14 +471,14 @@ def build_paragraph(
     parts: list[str] = []
     if day_block is None:
         parts.append(
-            f"No `## {day}` section in `{days_path.relative_to(REPO_ROOT)}` yet—add or fold inbox into this calendar day before treating the notebook as current."
+            f"No `## {day}` section in `{days_path.relative_to(REPO_ROOT)}` yet—add or fold inbox into this calendar day before treating strategy-codex as current."
         )
     else:
         ob = ", ".join(open_bullets[:3]) if open_bullets else "(no ### Open bullets parsed)"
         if len(open_bullets) > 3:
             ob += "; further items in ### Open."
         parts.append(
-            f"Notebook {day}: Open queue highlights—{ob}"
+            f"strategy-codex {day}: Open queue highlights—{ob}"
         )
     inbox_note = []
     if accum:
