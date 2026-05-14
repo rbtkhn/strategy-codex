@@ -38,18 +38,34 @@ def _read_worktree(path: Path) -> str:
     return path.read_text(encoding="utf-8")
 
 
+def _worktree_path(repo_root: Path, rel: str) -> Path:
+    path = repo_root / rel
+    if path.is_file():
+        return path
+    legacy = repo_root / "users" / rel
+    if legacy.is_file():
+        return legacy
+    return path
+
+
 def _read_git_show(ref: str, rel_posix: str, repo_root: Path) -> str:
-    spec = f"{ref}:{rel_posix}"
-    proc = subprocess.run(
-        ["git", "show", spec],
-        cwd=str(repo_root),
-        capture_output=True,
-        text=True,
-        timeout=60,
-    )
-    if proc.returncode != 0:
-        raise FileNotFoundError(proc.stderr.strip() or f"git show {spec} failed")
-    return proc.stdout
+    candidates = [rel_posix]
+    if not rel_posix.startswith("users/"):
+        candidates.append(f"users/{rel_posix}")
+    last_error = ""
+    for rel in candidates:
+        spec = f"{ref}:{rel}"
+        proc = subprocess.run(
+            ["git", "show", spec],
+            cwd=str(repo_root),
+            capture_output=True,
+            text=True,
+            timeout=60,
+        )
+        if proc.returncode == 0:
+            return proc.stdout
+        last_error = proc.stderr.strip() or f"git show {spec} failed"
+    raise FileNotFoundError(last_error)
 
 
 def verify_hashes(
@@ -65,7 +81,7 @@ def verify_hashes(
     """
     errors: list[str] = []
     for rel, want in sorted(expected.items()):
-        path = repo_root / rel
+        path = _worktree_path(repo_root, rel)
         try:
             if git_ref:
                 content = _read_git_show(git_ref, rel, repo_root)

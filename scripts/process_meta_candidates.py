@@ -66,7 +66,7 @@ def is_allowlisted_path(rel: str) -> bool:
     r = _norm_rel(rel)
     if ".." in r or r.startswith("/"):
         return False
-    if r.startswith("") and "/artifacts/meta-diffs/" in r:
+    if r.startswith("artifacts/meta-diffs/"):
         return True
     return any(r.startswith(prefix) for prefix in ALLOWLIST_PREFIXES)
 

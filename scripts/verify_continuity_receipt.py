@@ -20,6 +20,16 @@ def sha256_file_bytes(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
+def _resolve_receipt_path(repo_root: Path, rel: str) -> Path:
+    path = repo_root / rel
+    if path.is_file():
+        return path
+    legacy = repo_root / "users" / rel
+    if legacy.is_file():
+        return legacy
+    return path
+
+
 def _parse_ts(s: str) -> datetime | None:
     s = s.strip()
     if s.endswith("Z"):
@@ -84,7 +94,7 @@ def verify_receipt_file(
     for item in data["required_paths"]:
         rel = str(item["path"]).replace("\\", "/")
         want = str(item["sha256"])
-        p = repo_root / rel
+        p = _resolve_receipt_path(repo_root, rel)
         if not p.is_file():
             return False, f"missing file: {rel}"
         got = sha256_file_bytes(p)

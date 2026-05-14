@@ -24,6 +24,20 @@ def sha256_file_text(path: Path) -> str:
     return hashlib.sha256(raw).hexdigest()
 
 
+def _record_path(repo_root: Path, user_id: str, name: str) -> tuple[Path, str]:
+    """Resolve canonical root layout with users/<id> compatibility."""
+    candidates: list[Path] = []
+    if user_id == "grace-mar":
+        candidates.append(repo_root / name)
+    candidates.append(repo_root / "users" / user_id / name)
+    candidates.append(repo_root / user_id / name)
+    for p in candidates:
+        if p.is_file():
+            return p, p.relative_to(repo_root).as_posix()
+    fallback = candidates[0]
+    return fallback, fallback.relative_to(repo_root).as_posix()
+
+
 def build_receipt(
     *,
     user_id: str,
@@ -34,12 +48,10 @@ def build_receipt(
 ) -> tuple[dict, list[str]]:
     """Return receipt dict and list of error strings (empty if ok)."""
     errors: list[str] = []
-    user_dir = repo_root / "users" / user_id
     required_names = ("session-log.md", "recursion-gate.md", "self-archive.md")
     entries: list[dict[str, str]] = []
     for name in required_names:
-        rel = f"{user_id}/{name}"
-        p = repo_root / rel
+        p, rel = _record_path(repo_root, user_id, name)
         if not p.is_file():
             errors.append(f"missing: {rel}")
             continue
