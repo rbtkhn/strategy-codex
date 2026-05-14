@@ -5,6 +5,7 @@
 ## Shelf
 
 - Profile: [pape-profile.md](../../profiles/pape-profile.md)
+- Speaker object: [pape-speaker-object.md](../speakers/pape/pape-speaker-object.md)
 - Consolidation note: [pape-lane-consolidation-2026-05.md](pape-lane-consolidation-2026-05.md)
 - Monthly book: [pape-book-2026-04.md](pape-book-2026-04.md)
 - Daily chapter seed: [pape-chapter-2026-04-01.md](pape-chapter-2026-04-01.md)
