@@ -21,6 +21,8 @@ Multiple `coffee` sessions per day are normal. That is not redundancy; it is the
 
 **Coffee Hub Menu (terminology):** **`coffee` Step 2** fixed **A-D** hub (**Steward / Engineer / Strategist / Capitalist**) is the **Coffee Hub Menu**. **Conductor** is separate and routes directly by conductor name: `toscanini`, `furtwangler`, `karajan`, `kleiber`, or `bernstein`. Bare `conductor` is incomplete and should ask for one of those names. Once a conductor name resolves, emit the **Conductor Action Menu**: four movement-labeled **A-D** repo-grounded next moves; see [CONDUCTOR-PASS - Conductor action MCQ](../../../docs/skill-work/work-coffee/CONDUCTOR-PASS.md#conductor-action-mcq). Layer map: [CONDUCTOR-LAYER-MAP.md](../../../docs/skill-work/work-coffee/CONDUCTOR-LAYER-MAP.md).
 
+**Legacy label compatibility:** Older checks and notes may say **`C. Strategy (daily brief)`**. Treat that as the current **C. Strategist** branch: strategy lane, daily-brief/intel when explicitly requested, then exit to normal workflow unless the operator says **`stay in coffee`**.
+
 ## Guardrails
 
 - Do not turn `coffee` into a heavy maintenance ritual by default.

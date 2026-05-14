@@ -109,7 +109,7 @@ def _gate_detail_lines(recursion_gate_md: str, user_id: str) -> list[str]:
     lines: list[str] = [
         "## RECURSION-GATE (pending)",
         "",
-        f"- **Total pending:** {total} (work-politics: {len(politics_rows)} Â· companion: {len(companion_rows)})",
+        f"- **Total pending:** {total} (work-politics: {len(politics_rows)} · companion: {len(companion_rows)})",
         f"- **Canonical file:** `{gate_rel}`",
         "",
     ]

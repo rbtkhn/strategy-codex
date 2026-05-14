@@ -32,7 +32,7 @@ The sections below retain **legacy A?G workload detail** (seven letters) for **s
 
 ### Bare **`compass`** vs **`coffee`** then **`C`**
 
-**Full ritual:** Say **coffee** (Step 1 scripts + full menu), then choose **C** when you want the Strategist submenu: **A Civ-mem bridge scan**, **B Abundance-pack OS**, or **C Bridge idea pack**. **Bare compass** (or strategy without opening **coffee**) means **strategy lane only**ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Âagents may deliver work-strategy / **ROME-PASS** content **without** re-running Step 1 unless you ask for **coffee** first, **stay in coffee**, or a cold-thread stack (**operator_coffee.py --mode reentry**).
+**Full ritual:** Say **coffee** (Step 1 scripts + full menu), then choose **C** when you want the Strategist submenu: **A Civ-mem bridge scan**, **B Abundance-pack OS**, or **C Bridge idea pack**. **Bare `compass`** (or strategy without opening **coffee**) means **strategy lane only**ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Âagents may deliver work-strategy / **ROME-PASS** content **without** re-running Step 1 unless you ask for **coffee** first, **stay in coffee**, or a cold-thread stack (**operator_coffee.py --mode reentry**).
 
 ---
 

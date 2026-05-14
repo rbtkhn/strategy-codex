@@ -35,6 +35,8 @@ def lanes_matching_path(path: str, lanes_doc: dict) -> list[str]:
         owned = list(cfg.get("owned_paths") or [])
         if any(path_matches_glob(path, p) for p in owned):
             hits.append(name)
+    if len(hits) > 1 and "companion-record" in hits:
+        hits = [h for h in hits if h != "companion-record"]
     return hits
 
 

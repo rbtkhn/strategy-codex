@@ -26,7 +26,14 @@ SCRIPTS = Path(__file__).resolve().parent
 if str(SCRIPTS) not in sys.path:
     sys.path.insert(0, str(SCRIPTS))
 
-from yaml_compat import safe_load_path
+try:
+    from yaml_compat import safe_load_path
+except ImportError:  # pragma: no cover - copied-script compatibility
+    import yaml
+
+    def safe_load_path(path: Path, *, feature: str) -> Any:
+        with path.open("r", encoding="utf-8") as f:
+            return yaml.safe_load(f)
 
 LANES_PATH = REPO_ROOT / "lanes.yaml"
 
