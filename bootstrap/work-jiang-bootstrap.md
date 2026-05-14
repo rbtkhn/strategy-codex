@@ -1,8 +1,8 @@
-﻿# WORK-JIANG BOOTSTRAP
+# WORK-JIANG BOOTSTRAP
 
 Session bootstrap for continuing **work-jiang** (operator research lane: Jiang book/site) in a **new agent conversation**.
 
-**Canonical membrane:** [research/external/work-jiang/README.md Â§ Boundaries (membrane)](../research/external/work-jiang/README.md#boundaries-membrane) â€” research vs Record, candidates vs quotes, validators as gate.
+**Canonical membrane:** [codex/predictive-history/README.md Â§ Boundaries (membrane)](../codex/predictive-history/README.md#boundaries-membrane) â€” research vs Record, candidates vs quotes, validators as gate.
 
 **Skill:** [.cursor/skills/work-jiang-feature-checklist/SKILL.md](../.cursor/skills/work-jiang-feature-checklist/SKILL.md) â€” branch hygiene, verify block, CI, data model.
 
@@ -12,13 +12,13 @@ Session bootstrap for continuing **work-jiang** (operator research lane: Jiang b
 
 State **Ship** vs **Think** and the concrete goal (e.g. â€œextend chronology for geo-08â€, â€œfix validate_comparative_layer failureâ€).
 
-If the thread may touch **``** (SELF, RECURSION-GATE, pipeline, `work-jiang.md` beyond navigation), also run and paste:
+If the thread may touch **``** (SELF, RECURSION-GATE, pipeline, `codex/predictive-history/README-operator.md` beyond navigation), also run and paste:
 
 ```bash
 python3 scripts/harness_warmup.py -u grace-mar --compact
 ```
 
-Pure edits under `research/external/work-jiang/` and `scripts/work_jiang/` alone usually do not require warmup; use it when gate or Record state matters.
+Pure edits under `codex/predictive-history/` and `scripts/work_jiang/` alone usually do not require warmup; use it when gate or Record state matters.
 
 ---
 
@@ -26,14 +26,14 @@ Pure edits under `research/external/work-jiang/` and `scripts/work_jiang/` alone
 
 | # | File | Why |
 |---|------|-----|
-| 1 | [research/external/work-jiang/README.md](../research/external/work-jiang/README.md) | Production pipeline, Â§ Boundaries, comparative vs argument layer |
+| 1 | [codex/predictive-history/README.md](../codex/predictive-history/README.md) | Production pipeline, Â§ Boundaries, comparative vs argument layer |
 | 2 | [.cursor/skills/work-jiang-feature-checklist/SKILL.md](../.cursor/skills/work-jiang-feature-checklist/SKILL.md) | Verify block, phased commits, guardrails |
-| 3 | [work-jiang.md](../work-jiang.md) | Operator purpose; WORK container; links into research tree |
+| 3 | [codex/predictive-history/README-operator.md](../codex/predictive-history/README-operator.md) | Operator purpose; WORK container; links into research tree |
 | 4 | [AGENTS.md](../AGENTS.md) | If merging Record: sovereign merge, no direct SELF/EVIDENCE without approval + script |
-| 5 | [docs/skill-work/work-jiang/volume-ii-book-track-conventions.md](../docs/skill-work/work-jiang/volume-ii-book-track-conventions.md) | When editing **Volume II** (`civ-chNN`, `BOOK-ARCHITECTURE-VOLUME-II.md`, `CHAPTER-QUEUE-VOLUME-II.md`) |
-| 6 | [docs/skill-work/work-jiang/volume-iii-book-track-conventions.md](../docs/skill-work/work-jiang/volume-iii-book-track-conventions.md) | When editing **Volume III** (`sh-chNN`, `BOOK-ARCHITECTURE-VOLUME-III.md`, `CHAPTER-QUEUE-VOLUME-III.md`) |
+| 5 | [codex/predictive-history/volume-ii-book-track-conventions.md](../codex/predictive-history/volume-ii-book-track-conventions.md) | When editing **Volume II** (`civ-chNN`, `BOOK-ARCHITECTURE-VOLUME-II.md`, `CHAPTER-QUEUE-VOLUME-II.md`) |
+| 6 | [codex/predictive-history/volume-iii-book-track-conventions.md](../codex/predictive-history/volume-iii-book-track-conventions.md) | When editing **Volume III** (`sh-chNN`, `BOOK-ARCHITECTURE-VOLUME-III.md`, `CHAPTER-QUEUE-VOLUME-III.md`) |
 
-Skim as needed: `.github/workflows/work-jiang.yml` (generator order), `research/external/work-jiang/WORKFLOW-transcripts.md` (intake).
+Skim as needed: `.github/workflows/work-jiang.yml` (generator order), `codex/predictive-history/WORKFLOW-transcripts.md` (intake).
 
 ---
 
@@ -46,7 +46,7 @@ Skim as needed: `.github/workflows/work-jiang.yml` (generator order), `research/
 
 ## Canonical verify block (repo root)
 
-After metadata, generator, or validator script changes, run the full block from the **work-jiang feature checklist** skill (same as [README production pipeline](../research/external/work-jiang/README.md#production-pipeline-book--site) through `validate_comparative_layer.py`). Trim only if the task truly skips comparative layer; otherwise run end-to-end to avoid drift.
+After metadata, generator, or validator script changes, run the full block from the **work-jiang feature checklist** skill (same as [README production pipeline](../codex/predictive-history/README.md#production-pipeline-book--site) through `validate_comparative_layer.py`). Trim only if the task truly skips comparative layer; otherwise run end-to-end to avoid drift.
 
 Minimum when you touched **claims/concepts/packs only:**
 
@@ -70,7 +70,7 @@ Add comparative validators when quotes, counter-readings, or chronology YAML cha
 ## End of session
 
 - Short note: **what landed**, **what is uncommitted**, **one re-entry command** (often the verify block).
-- If production paths or membrane rules changed, update `research/external/work-jiang/README.md` Â§ Boundaries or pipeline; optional touch `docs/development-handoff.md` only if engineering-wide state shifted.
+- If production paths or membrane rules changed, update `codex/predictive-history/README.md` Â§ Boundaries or pipeline; optional touch `docs/development-handoff.md` only if engineering-wide state shifted.
 
 ---
 

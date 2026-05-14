@@ -62,7 +62,7 @@ def test_write_compression_json_writes_expected_keys(tmp_path):
         category="analytical",
         one_sentence="Shipped the test.",
         actions=["Run validators"],
-        linked=["research/external/work-jiang/STATUS.md"],
+        linked=["codex/predictive-history/STATUS.md"],
         minimal_core=json.loads((repo / "users" / "u1" / "seed" / "minimal-core.json").read_text()),
         intent_link=None,
     )
@@ -73,7 +73,7 @@ def test_write_compression_json_writes_expected_keys(tmp_path):
     assert data["userId"] == "u1"
     assert data["category"] == "analytical"
     assert data["executableNextActions"] == ["Run validators"]
-    assert data["linkedEvidence"] == ["research/external/work-jiang/STATUS.md"]
+    assert data["linkedEvidence"] == ["codex/predictive-history/STATUS.md"]
     assert not (repo / "users" / "u1" / "self.md").exists()
 
 
@@ -84,7 +84,7 @@ def test_build_gate_stub_contains_compression_path():
         title="T",
         category="operational",
         one_sentence="Summary here.",
-        output_rel="research/external/work-jiang/compressions/t-20260101.json",
+        output_rel="codex/predictive-history/compressions/t-20260101.json",
     )
     assert "CANDIDATE-JIANG-COMPRESS" in text
     assert "recursion-gate.md" in text

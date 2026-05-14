@@ -1,28 +1,28 @@
-# COFFEE (daily rhythm) — Cici instance (`fork_id` / template id: xavier, **her repo**)
+# COFFEE (daily rhythm) â€” Cici instance (`fork_id` / template id: xavier, **her repo**)
 
-*Filename `GOOD-MORNING.md` is legacy; grace-mar operator activation is **coffee** (work-start vs **signing-off** intent — same **A–E** menu: Build, Steward, Strategy/daily brief, Conductor, system choice), with legacy **hey** still accepted — mirror the current vocabulary in chat.*
+*Filename `GOOD-MORNING.md` is legacy; grace-mar operator activation is **coffee** (work-start vs **signing-off** intent - same **A-D** menu: Steward, Engineer, Historian, Capitalist), with standalone name-only Conductor and legacy **hey** still accepted - mirror the current vocabulary in chat.*
 
-**Where Record paths live:** [INSTANCE-PATHS.md](INSTANCE-PATHS.md). Run harness / integrity / gate steps **in Cici’s `companion-xavier` instance repository** (or her chosen repo name), not in grace-mar.
+**Where Record paths live:** [INSTANCE-PATHS.md](INSTANCE-PATHS.md). Run harness / integrity / gate steps **in Ciciâ€™s `companion-xavier` instance repository** (or her chosen repo name), not in grace-mar.
 
 **First-ever session?** Start with [DAY-1-NO-TERMINAL.md](DAY-1-NO-TERMINAL.md), then [first-good-morning-runbook.md](first-good-morning-runbook.md), then return here for normal rhythm.
 
-**Prerequisite:** **Session 0** complete — seed survey MCQ in **her repo** (all MCQs answered and saved). **Do not** start the ten beginner tasks until Session 0 is done.
+**Prerequisite:** **Session 0** complete â€” seed survey MCQ in **her repo** (all MCQs answered and saved). **Do not** start the ten beginner tasks until Session 0 is done.
 
 ## Daily rhythm (shape)
 
-Mirror grace-mar **coffee** cadence in *shape* — edit for **Cici’s** lanes (companion-self build + EA/SMM client work when applicable):
+Mirror grace-mar **coffee** cadence in *shape* â€” edit for **Ciciâ€™s** lanes (companion-self build + EA/SMM client work when applicable):
 
 1. Optional: `python3 scripts/operator_daily_warmup.py -u xavier` (if bundled in template).
-2. `python3 scripts/harness_warmup.py -u xavier` — gate / session tail snapshot.
-3. `python3 scripts/validate-integrity.py --user xavier --json` — review issues.
-4. Skim **work-politics** content queue / client block if active — [work-politics README](../work-politics/README.md).
-5. Run daily `work-dev` mirror sync check — [work-dev-mirror/SYNC-CONTRACT.md](work-dev-mirror/SYNC-CONTRACT.md).
-6. Run daily `work-politics` mirror sync check — [work-politics-mirror/SYNC-CONTRACT.md](work-politics-mirror/SYNC-CONTRACT.md).
-7. Update unified sync snapshot — [SYNC-DAILY.md](SYNC-DAILY.md).
+2. `python3 scripts/harness_warmup.py -u xavier` â€” gate / session tail snapshot.
+3. `python3 scripts/validate-integrity.py --user xavier --json` â€” review issues.
+4. Skim **work-politics** content queue / client block if active â€” [work-politics README](../work-politics/README.md).
+5. Run daily `work-dev` mirror sync check â€” [work-dev-mirror/SYNC-CONTRACT.md](work-dev-mirror/SYNC-CONTRACT.md).
+6. Run daily `work-politics` mirror sync check â€” [work-politics-mirror/SYNC-CONTRACT.md](work-politics-mirror/SYNC-CONTRACT.md).
+7. Update unified sync snapshot â€” [SYNC-DAILY.md](SYNC-DAILY.md).
 8. Run template-alignment sync check against [self-work/sync-pack](../self-work/sync-pack/README.md).
 9. Publish final daily run plan in [DAILY-OPS-CARD.md](DAILY-OPS-CARD.md).
 
-**Distinguish:** “Coffee” here = **her** Record + **her** work stack. Massie/client material is **WORK**, not SELF.
+**Distinguish:** â€œCoffeeâ€ here = **her** Record + **her** work stack. Massie/client material is **WORK**, not SELF.
 
 ## Required daily output: work-dev sync check
 
@@ -97,7 +97,7 @@ Each `coffee` should include:
 
 - `template upstream:` repo + ref used for this check
 - `template sync alignment status:` aligned / minor drift / major drift
-- any drift found between Cici’s work-cici mirrors and template sync-pack expectations
+- any drift found between Ciciâ€™s work-cici mirrors and template sync-pack expectations
 - up to 3 proposed alignment edits (paths only) for same-day or weekly batch
 - one template-alignment block updated in [SYNC-DAILY.md](SYNC-DAILY.md)
 
@@ -187,21 +187,21 @@ Rules:
 - keep plan runnable in 90 minutes total
 ```
 
-## First coffee — ten beginner tasks
+## First coffee â€” ten beginner tasks
 
 **Prerequisite:** Session 0 (MCQ) **complete.**
 
 | # | Task |
 |---|------|
-| 1 | Open **Cici’s `companion-xavier` instance repository** in Cursor (her companion Record repo, not grace-mar; she may use another repo name). |
+| 1 | Open **Ciciâ€™s `companion-xavier` instance repository** in Cursor (her companion Record repo, not grace-mar; she may use another repo name). |
 | 2 | Open her repo `README.md` (instance root); read top to bottom. |
-| 3 | Open `xavier/self.md`. Skim — **IX empty** until gate merges survey outputs. |
-| 4 | Command palette → Terminal → `pwd` / `ls` (or `dir` on Windows). |
-| 5 | `python3 --version` — if missing, note for companion before installing runtimes. |
-| 6 | Quick open **her** `xavier/recursion-gate.md` — read **Candidates** header. |
-| 7 | Open [LANES.md](LANES.md) — WORK vs Record once. |
-| 8 | Ask the AI to summarize **her** repo’s `AGENTS.md` (or the companion-self template copy): what may the agent do without approval vs what requires approval? |
+| 3 | Open `xavier/self.md`. Skim â€” **IX empty** until gate merges survey outputs. |
+| 4 | Command palette â†’ Terminal â†’ `pwd` / `ls` (or `dir` on Windows). |
+| 5 | `python3 --version` â€” if missing, note for companion before installing runtimes. |
+| 6 | Quick open **her** `xavier/recursion-gate.md` â€” read **Candidates** header. |
+| 7 | Open [LANES.md](LANES.md) â€” WORK vs Record once. |
+| 8 | Ask the AI to summarize **her** repoâ€™s `AGENTS.md` (or the companion-self template copy): what may the agent do without approval vs what requires approval? |
 | 9 | Optional: run harness + warmup from **her** repo root; paste output to a scratch note. |
-| 10 | Add one line to **her** `xavier/session-log.md`: date + “Session 0 complete; first coffee tasks 1–10 done.” |
+| 10 | Add one line to **her** `xavier/session-log.md`: date + â€œSession 0 complete; first coffee tasks 1â€“10 done.â€ |
 
-**Operator:** Pair first run with a short screen share if steps 4–6 stall.
+**Operator:** Pair first run with a short screen share if steps 4â€“6 stall.

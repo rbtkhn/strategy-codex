@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Append missing ## Pipeline merge (automated) lines to users/<id>/session-log.md
+Append missing ## Pipeline merge (automated) lines to session-log.md
 from pipeline-events.jsonl "applied" events.
 
 Matches the line format produced by process_approved_candidates._append_session_log_for_merge:
@@ -183,12 +183,12 @@ def run(user_id: str, *, apply: bool, events_path: Path | None) -> int:
 
 def main() -> int:
     p = argparse.ArgumentParser(description=__doc__)
-    p.add_argument("-u", "--user", default="grace-mar", help="Fork id under users/")
+    p.add_argument("-u", "--user", default="grace-mar", help="Fork id under ")
     p.add_argument(
         "--events",
         type=Path,
         default=None,
-        help="Override path to pipeline-events.jsonl (default: users/<id>/pipeline-events.jsonl)",
+        help="Override path to pipeline-events.jsonl (default: pipeline-events.jsonl)",
     )
     p.add_argument(
         "--apply",

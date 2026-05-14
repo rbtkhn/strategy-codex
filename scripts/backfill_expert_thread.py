@@ -15,7 +15,7 @@ Design goals
 - Prefer primary notebook artifacts in this repo:
     * strategy-expert-<expert_id>-transcript.md
     * chapters/YYYY-MM/days.md
-    * chapters/YYYY-MM/knots/strategy-notebook-knot-*.md
+    * chapters/YYYY-MM/pages/strategy-notebook-page-*.md
     * git log (best-effort, no content invention)
 
 Typical use
@@ -84,7 +84,7 @@ DEFAULT_ALIASES = {
 }
 
 DATE_HEADING_RE = re.compile(r"^##\s+(\d{4}-\d{2}-\d{2})\s*$", re.MULTILINE)
-KNOT_DATE_RE = re.compile(r"strategy-notebook-knot-(\d{4}-\d{2}-\d{2})-")
+PAGE_DATE_RE = re.compile(r"strategy-notebook-page-(\d{4}-\d{2}-\d{2})-")
 WHITESPACE_RE = re.compile(r"\s+")
 BULLET_RE = re.compile(r"^\s*[-*]\s+(.*\S)\s*$")
 HEADING_RE = re.compile(r"^\s*#{1,6}\s+")
@@ -421,8 +421,8 @@ def collect_days_evidence(
     return out
 
 
-def knot_date_from_path(path: Path) -> Optional[date]:
-    m = KNOT_DATE_RE.search(path.name)
+def page_date_from_path(path: Path) -> Optional[date]:
+    m = PAGE_DATE_RE.search(path.name)
     if not m:
         return None
     try:
@@ -431,13 +431,13 @@ def knot_date_from_path(path: Path) -> Optional[date]:
         return None
 
 
-def collect_knot_evidence(
+def collect_page_evidence(
     expert_id: str, aliases: list[str], start: date, end: date
 ) -> list[Evidence]:
-    """Knots live under chapters/YYYY-MM/knots/ (not notebook root)."""
+    """Pages live under chapters/YYYY-MM/pages/ (not notebook root)."""
     out: list[Evidence] = []
-    for path in sorted(CHAPTERS_DIR.rglob("strategy-notebook-knot-*.md")):
-        d = knot_date_from_path(path)
+    for path in sorted(CHAPTERS_DIR.rglob("strategy-notebook-page-*.md")):
+        d = page_date_from_path(path)
         if d is None or not (start <= d <= end):
             continue
         text = ensure_text(path)
@@ -447,13 +447,13 @@ def collect_knot_evidence(
         summary = best_summary_from_block(text)
         if not summary:
             summary = truncate(
-                path.stem.replace("strategy-notebook-knot-", "").replace("-", " "),
+                path.stem.replace("strategy-notebook-page-", "").replace("-", " "),
                 180,
             )
         out.append(
             Evidence(
                 event_date=d.isoformat(),
-                source_type="knot",
+                source_type="page",
                 path=path.relative_to(REPO_ROOT).as_posix(),
                 title=path.name,
                 summary=summary,
@@ -605,7 +605,7 @@ def build_report(
     evidence: list[Evidence] = []
     evidence.extend(collect_transcript_evidence(expert_id, aliases, start, end))
     evidence.extend(collect_days_evidence(expert_id, aliases, start, end))
-    evidence.extend(collect_knot_evidence(expert_id, aliases, start, end))
+    evidence.extend(collect_page_evidence(expert_id, aliases, start, end))
     evidence.extend(git_mentions_for_expert(expert_id, aliases, start, end))
     if supplement:
         evidence.extend(supplement)

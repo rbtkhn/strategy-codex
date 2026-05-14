@@ -22,6 +22,7 @@ This lane turns Telegram introductions and GitHub activity into a clear operator
 - Decide the scholarship readiness threshold and review cadence.
 - Standardize the beginner daily journal flow for all OB1 members.
 - Keep the journal system as a guidance package in `work-cici`; do not imply ownership of any OB1 repo.
+- Compare the public GitHub coordination pattern with the login-gated app path and decide which one should be the default.
 
 ## Next action
 
@@ -34,6 +35,7 @@ Update the community dashboard with a lane-owned applicant table: name, country,
 - [cici-ai-first-task-proof-packet.md](../cici-ai-first-task-proof-packet.md)
 - [cici-ai-daily-report-template.md](../cici-ai-daily-report-template.md)
 - [daily-journal/README.md](../daily-journal/README.md)
+- [public-github-coordination-pattern.md](public-github-coordination-pattern.md)
 - [cici-ai-weekly-governance-review-template.md](../cici-ai-weekly-governance-review-template.md)
 - [reviews/README.md](../reviews/README.md)
 - [evidence/cici-ai-first-applicant-wave-2026-04-30.md](../evidence/cici-ai-first-applicant-wave-2026-04-30.md)

@@ -5,6 +5,8 @@ This helper uses the public Substack archive as a discovery layer and writes
 Crooke raw-input files when the archive or post API exposes usable text. It is
 designed for the paid-Substack case where the public archive can confirm the
 post exists, but the full body may still require manual capture.
+Use targeted ``--url`` / ``--slug`` captures by default; the public archive is
+not a raw-input backlog.
 
 WORK only; not Record.
 
@@ -36,6 +38,7 @@ if str(_SCRIPTS) not in sys.path:
 from backfill_substack_raw_input import (  # noqa: E402
     _fetch_json,
     _post_day_utc,
+    _slug_from_url,
     _slugify,
     _strip_html,
 )
@@ -215,12 +218,24 @@ def run(
     apply: bool,
     limit: int,
     check_existing: bool,
+    slugs: list[str] | None = None,
+    urls: list[str] | None = None,
 ) -> int:
     raw_root = raw_root.resolve()
-    posts = _archive_items(hostname, year=year, limit=limit)
+    target_slugs = list(slugs or [])
+    target_slugs.extend(_slug_from_url(u) for u in (urls or []))
+    target_slugs = list(dict.fromkeys(s.strip() for s in target_slugs if s.strip()))
+    posts = (
+        [{"slug": slug} for slug in target_slugs]
+        if target_slugs
+        else _archive_items(hostname, year=year, limit=limit)
+    )
     existing = _load_existing_keys(raw_root, thread=thread)
 
-    print(f"Crooke archive discovery: {len(posts)} post(s) found for {hostname} in {year}")
+    if target_slugs:
+        print(f"Crooke targeted capture: {len(posts)} post(s) for {hostname}")
+    else:
+        print(f"Crooke archive discovery: {len(posts)} post(s) found for {hostname} in {year}")
     if check_existing:
         print(f"Existing Crooke raw-input keys: {len(existing)}")
 
@@ -228,22 +243,6 @@ def run(
     matched = 0
     for post in posts:
         slug = str(post.get("slug") or "").strip()
-        title = str(post.get("title") or slug or "untitled").strip()
-        canonical = post.get("canonical_url") or f"https://{hostname.rstrip('/')}/p/{slug}"
-        day = _post_day_utc(post["post_date"])
-        dest = raw_root / day.isoformat() / f"substack-crooke-{_slugify(slug, max_len=60)}-{day.isoformat()}.md"
-
-        key_candidates = {
-            _normalize_url(str(canonical)),
-            _normalize_url(str(post.get("url") or "")),
-            slug,
-            title.lower(),
-        }
-        if existing.intersection(key_candidates):
-            matched += 1
-            print(f"  matched: {day.isoformat()} {title}")
-            continue
-
         try:
             detail = _fetch_json(f"https://{hostname.rstrip('/')}/api/v1/posts/{slug}")
         except Exception as e:  # pragma: no cover - network dependent
@@ -251,6 +250,22 @@ def run(
             continue
         if not isinstance(detail, dict):
             print(f"  skip {slug}: unexpected detail payload")
+            continue
+
+        title = str(detail.get("title") or post.get("title") or slug or "untitled").strip()
+        canonical = detail.get("canonical_url") or post.get("canonical_url") or f"https://{hostname.rstrip('/')}/p/{slug}"
+        day = _post_day_utc(detail.get("post_date") or post.get("post_date") or "")
+        dest = raw_root / day.isoformat() / f"substack-crooke-{_slugify(slug, max_len=60)}-{day.isoformat()}.md"
+        key_candidates = {
+            _normalize_url(str(canonical)),
+            _normalize_url(str(detail.get("url") or "")),
+            _normalize_url(str(post.get("url") or "")),
+            slug,
+            title.lower(),
+        }
+        if existing.intersection(key_candidates):
+            matched += 1
+            print(f"  matched: {day.isoformat()} {title}")
             continue
 
         body_text = str(detail.get("body_html") or "")
@@ -290,7 +305,24 @@ def main() -> int:
     ap.add_argument("--limit", type=int, default=50, help="Archive page size")
     ap.add_argument("--apply", action="store_true", help="Write files")
     ap.add_argument("--check-existing", action="store_true", help="Report matches against existing raw-input")
+    ap.add_argument("--slug", action="append", default=[], help="Target one Conflicts Forum post slug; repeatable")
+    ap.add_argument("--url", action="append", default=[], help="Target one Conflicts Forum /p/<slug> URL; repeatable")
+    ap.add_argument(
+        "--archive-scan",
+        action="store_true",
+        help="Explicitly scan the archive; Crooke archive posts are not all raw-input candidates",
+    )
     args = ap.parse_args()
+
+    if not args.slug and not args.url and not args.archive_scan:
+        print(
+            "Refusing broad Crooke archive scan by default. "
+            "Use --url/--slug for a specific substantive post, or add "
+            "--archive-scan for intentional discovery. Notifications, previews, "
+            "and interview pointers are not raw-input backlog.",
+            file=sys.stderr,
+        )
+        return 2
 
     ingest = (
         datetime.strptime(args.ingest_date, "%Y-%m-%d").date()
@@ -307,6 +339,8 @@ def main() -> int:
         apply=args.apply,
         limit=max(1, min(args.limit, 50)),
         check_existing=args.check_existing,
+        slugs=args.slug,
+        urls=args.url,
     )
 
 

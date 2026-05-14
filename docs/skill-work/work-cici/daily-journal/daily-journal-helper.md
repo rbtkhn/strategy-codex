@@ -12,6 +12,16 @@ If you want a simple semi-automated helper, use [scripts/cici_daily_journal_help
 4. Save it as `docs/personal/daily-journal/YYYY-MM-DD.md`.
 5. Commit and push the file to GitHub.
 
+## Example input
+
+```text
+worked on: reviewed the template and set up the journal folder
+changed: added a daily helper script
+blocked: still learning the commit flow
+next: draft today's entry and save it
+evidence: script path scripts/cici_daily_journal_helper.py
+```
+
 ## What to collect before drafting
 
 - one or two repo links

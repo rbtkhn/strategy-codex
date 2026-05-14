@@ -3,9 +3,11 @@
 from __future__ import annotations
 
 import shutil
+import sys
 from datetime import date, datetime
 from pathlib import Path
 
+import scripts.backfill_ritter_x_raw_input as ritter_x
 from scripts.backfill_x_profile_raw_input import (
     _build_doc,
     _extract_status_text,
@@ -108,3 +110,12 @@ def test_run_writes_status_files_from_explicit_urls(monkeypatch) -> None:
         assert "Hello\nworld" in text or "Hello world" in text
     finally:
         shutil.rmtree(tmpdir, ignore_errors=True)
+
+
+def test_ritter_x_wrapper_refuses_profile_scan_by_default(monkeypatch, capsys) -> None:
+    monkeypatch.setattr(sys, "argv", ["backfill_ritter_x_raw_input.py"])
+
+    assert ritter_x.main() == 2
+    err = capsys.readouterr().err
+    assert "Refusing broad Ritter X profile scan by default" in err
+    assert "not raw-input backlog" in err

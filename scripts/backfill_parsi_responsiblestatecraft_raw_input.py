@@ -2,8 +2,8 @@
 """Backfill Parsi Responsible Statecraft articles into raw-input/.
 
 Thin wrapper around ``backfill_responsiblestatecraft_author_raw_input.py``
-with Parsi defaults. Treat the public archive as a discovery index, not a
-completeness mandate.
+with Parsi defaults. Use targeted ``--article-url`` captures by default; the
+author page is a discovery surface, not a raw-input backlog.
 WORK only; not Record.
 """
 
@@ -30,9 +30,25 @@ def main() -> int:
     ap.add_argument("--root", type=Path, default=DEFAULT_RAW_ROOT)
     ap.add_argument("--ingest-date", type=str, default=None, help="YYYY-MM-DD ingest_date in frontmatter")
     ap.add_argument("--thread", type=str, default=DEFAULT_THREAD)
+    ap.add_argument("--article-url", action="append", default=[], help="Explicit Responsible Statecraft article URL; repeatable")
+    ap.add_argument(
+        "--author-scan",
+        action="store_true",
+        help="Explicitly scan the author page; Parsi author pages are not raw-input backlog",
+    )
     ap.add_argument("--apply", action="store_true")
     ap.add_argument("--limit", type=int, default=50)
     args = ap.parse_args()
+
+    if not args.article_url and not args.author_scan:
+        print(
+            "Refusing broad Parsi Responsible Statecraft author scan by default. "
+            "Use --article-url for a specific substantive article, or add "
+            "--author-scan for intentional discovery. Author-page links are not "
+            "raw-input backlog.",
+            file=sys.stderr,
+        )
+        return 2
 
     ingest = (
         datetime.strptime(args.ingest_date, "%Y-%m-%d").date()
@@ -47,6 +63,7 @@ def main() -> int:
         thread=args.thread,
         apply=args.apply,
         limit=max(1, min(args.limit, 100)),
+        article_urls=args.article_url or None,
     )
 
 

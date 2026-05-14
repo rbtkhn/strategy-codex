@@ -2,8 +2,9 @@
 """Backfill Scott Ritter Substack into strategy-notebook raw-input/.
 
 Thin wrapper around ``backfill_substack_raw_input.py`` with Ritter defaults.
-Treat the public archive as a discovery index, not a completeness mandate:
-backfill the substantial posts you want preserved, not every light archive item.
+Use targeted ``--url`` / ``--slug`` captures by default. The archive may include
+announcements, links, replays, and pointers whose substance belongs in a
+transcript or another primary raw-input instead.
 WORK only; not Record.
 """
 
@@ -31,9 +32,26 @@ def main() -> int:
     ap.add_argument("--root", type=Path, default=DEFAULT_RAW_ROOT)
     ap.add_argument("--ingest-date", type=str, default=None, help="YYYY-MM-DD ingest_date in frontmatter")
     ap.add_argument("--thread", type=str, default=DEFAULT_THREAD)
+    ap.add_argument("--slug", action="append", default=[], help="Target one Ritter Substack post slug; repeatable")
+    ap.add_argument("--url", action="append", default=[], help="Target one Ritter Substack /p/<slug> URL; repeatable")
+    ap.add_argument(
+        "--archive-scan",
+        action="store_true",
+        help="Explicitly scan the archive; Ritter archive posts are not all raw-input candidates",
+    )
     ap.add_argument("--apply", action="store_true")
     ap.add_argument("--limit", type=int, default=30)
     args = ap.parse_args()
+
+    if not args.slug and not args.url and not args.archive_scan:
+        print(
+            "Refusing broad Ritter archive scan by default. "
+            "Use --url/--slug for a specific substantive post, or add "
+            "--archive-scan for intentional discovery. Notifications, replays, "
+            "and interview pointers are not raw-input backlog.",
+            file=sys.stderr,
+        )
+        return 2
 
     ingest = (
         datetime.strptime(args.ingest_date, "%Y-%m-%d").date()
@@ -49,6 +67,9 @@ def main() -> int:
         thread=args.thread,
         apply=args.apply,
         limit=max(1, min(args.limit, 50)),
+        slugs=args.slug,
+        urls=args.url,
+        publication_slug=args.thread,
     )
 
 

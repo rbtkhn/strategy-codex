@@ -34,7 +34,7 @@ This book is indexed for **work-politics** as **long-form narrative ingest** (Ir
 |----------|------|
 | [tucker-carlson/](../tucker-carlson/README.md) | Curated **channel index** (working spine); link **processed** bodies. |
 | [work-strategy/transcripts/](../../work-strategy/transcripts/) | Canonical **monologue digests** (e.g. `GyYy-QmxttU`). |
-| [work-jiang/lectures/](../../work-jiang/lectures/) | **Interviews #11** (Tucker × Jiang) lives here as Predictive History lecture spine. |
+| [codex/predictive-history/lectures/](../../codex/predictive-history/lectures/) | **Interviews #11** (Tucker × Jiang) lives here as Predictive History lecture spine. |
 
 When you **edit** a file that has a `canonical` path in its YAML front matter, consider **re-copying** into this book or editing the canonical file first, then refreshing the book copy — otherwise the two can drift.
 

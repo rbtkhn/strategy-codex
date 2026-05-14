@@ -24,6 +24,7 @@ import argparse
 import json
 import re
 import textwrap
+from urllib.parse import urlparse
 import urllib.error
 import urllib.request
 from datetime import date, datetime, timezone
@@ -41,6 +42,21 @@ import sys
 
 sys.path.insert(0, str(REPO_ROOT / "scripts"))
 from fetch_strategy_raw_input import _slugify  # noqa: E402
+
+
+def _host_slug(host: str) -> str:
+    first = host.split(".", 1)[0].strip().lower()
+    if first.startswith("simplicius"):
+        return "simplicius"
+    return _slugify(first, max_len=32) or "substack"
+
+
+def _slug_from_url(url: str) -> str:
+    parsed = urlparse(url.strip())
+    parts = [p for p in parsed.path.split("/") if p]
+    if len(parts) >= 2 and parts[0] == "p":
+        return parts[1]
+    raise ValueError(f"Cannot extract Substack slug from URL: {url}")
 
 
 def _strip_html(html: str) -> str:
@@ -136,6 +152,9 @@ def run(
     thread: str | None,
     apply: bool,
     limit: int,
+    slugs: list[str] | None = None,
+    urls: list[str] | None = None,
+    publication_slug: str | None = None,
 ) -> int:
     raw_root = raw_root.resolve()
     collected: list[dict] = []
@@ -143,36 +162,45 @@ def run(
     host = hostname.strip().rstrip("/")
     if host.startswith("https://"):
         host = host[len("https://") :]
+    file_prefix = _slugify(publication_slug or _host_slug(host), max_len=32)
 
-    while True:
-        url = f"https://{host}/api/v1/archive?sort=new&offset={offset}&limit={limit}"
-        try:
-            batch = _fetch_json(url)
-        except (urllib.error.URLError, json.JSONDecodeError, TimeoutError) as e:
-            print(f"ERROR archive offset={offset}: {e}")
-            break
-        if not isinstance(batch, list) or not batch:
-            break
-        for item in batch:
-            if not isinstance(item, dict):
-                continue
+    target_slugs = list(slugs or [])
+    target_slugs.extend(_slug_from_url(u) for u in (urls or []))
+    target_slugs = list(dict.fromkeys(s.strip() for s in target_slugs if s.strip()))
+
+    if target_slugs:
+        ordered = [{"slug": slug, "post_date": ""} for slug in target_slugs]
+        print(f"Targeting {len(ordered)} post(s) for {host}")
+    else:
+        while True:
+            url = f"https://{host}/api/v1/archive?sort=new&offset={offset}&limit={limit}"
             try:
-                d = _post_day_utc(item["post_date"])
-            except (KeyError, ValueError):
-                continue
-            if d.year == year:
-                collected.append(item)
-        if all(_post_day_utc(x["post_date"]) < date(year, 1, 1) for x in batch if "post_date" in x):
-            break
-        offset += len(batch)
+                batch = _fetch_json(url)
+            except (urllib.error.URLError, json.JSONDecodeError, TimeoutError) as e:
+                print(f"ERROR archive offset={offset}: {e}")
+                break
+            if not isinstance(batch, list) or not batch:
+                break
+            for item in batch:
+                if not isinstance(item, dict):
+                    continue
+                try:
+                    d = _post_day_utc(item["post_date"])
+                except (KeyError, ValueError):
+                    continue
+                if d.year == year:
+                    collected.append(item)
+            if all(_post_day_utc(x["post_date"]) < date(year, 1, 1) for x in batch if "post_date" in x):
+                break
+            offset += len(batch)
 
-    # Dedupe by slug, sort by date
-    by_slug: dict[str, dict] = {}
-    for item in collected:
-        by_slug[item["slug"]] = item
-    ordered = sorted(by_slug.values(), key=lambda x: x["post_date"])
+        # Dedupe by slug, sort by date
+        by_slug: dict[str, dict] = {}
+        for item in collected:
+            by_slug[item["slug"]] = item
+        ordered = sorted(by_slug.values(), key=lambda x: x["post_date"])
 
-    print(f"Found {len(ordered)} post(s) in {year} for {host}")
+        print(f"Found {len(ordered)} post(s) in {year} for {host}")
 
     for post in ordered:
         slug = post["slug"]
@@ -185,8 +213,8 @@ def run(
         if not isinstance(detail, dict):
             continue
         body_html = detail.get("body_html") or ""
-        day = _post_day_utc(post["post_date"])
-        fname = f"substack-simplicius-{_slugify(slug, max_len=60)}-{day.isoformat()}.md"
+        day = _post_day_utc(detail.get("post_date") or post.get("post_date") or "")
+        fname = f"substack-{file_prefix}-{_slugify(slug, max_len=60)}-{day.isoformat()}.md"
         dest = raw_root / day.isoformat() / fname
         content = _build_doc(
             post=detail,
@@ -218,6 +246,9 @@ def main() -> int:
     ap.add_argument("--root", type=Path, default=DEFAULT_RAW_ROOT)
     ap.add_argument("--ingest-date", type=str, default=None, help="YYYY-MM-DD ingest_date in frontmatter")
     ap.add_argument("--thread", type=str, default=None, help="expert_id for YAML thread: (e.g. simplicius)")
+    ap.add_argument("--slug", action="append", default=[], help="Target one Substack post slug; repeatable")
+    ap.add_argument("--url", action="append", default=[], help="Target one Substack /p/<slug> URL; repeatable")
+    ap.add_argument("--publication-slug", default=None, help="Filename prefix after substack-")
     ap.add_argument("--apply", action="store_true")
     ap.add_argument("--limit", type=int, default=30, help="archive page size")
     args = ap.parse_args()
@@ -236,6 +267,9 @@ def main() -> int:
         thread=args.thread,
         apply=args.apply,
         limit=max(1, min(args.limit, 50)),
+        slugs=args.slug,
+        urls=args.url,
+        publication_slug=args.publication_slug,
     )
 
 

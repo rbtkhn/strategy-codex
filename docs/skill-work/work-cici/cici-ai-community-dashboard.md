@@ -43,6 +43,7 @@ The first team message frames the cohort as a 10-scholarship opportunity for AI-
 - [evidence/cici-operator-screenshots-ingest-2026-04-30.md](evidence/cici-operator-screenshots-ingest-2026-04-30.md)
 - [handoffs/cici-cici-ai-launch-instructions.md](handoffs/cici-cici-ai-launch-instructions.md)  
 - [cici-pilot-propagation-low-cost-operator.md](cici-pilot-propagation-low-cost-operator.md)  
+- Treasury / payment rail note: `1NzCF9NTqU25NvX9KfXE9zoH1wEadkmjWJ`
 
 Weekly review instances: [reviews/](reviews/).
 

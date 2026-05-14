@@ -24,11 +24,11 @@ tags:
 
 ## Canonical workflow (prefix-only calibration)
 
-Use this loop for **honest** recursive calibration. Committed audit: **[`lecture-forward-chain-gt-BLIND-prefix-only.md`](../../../research/external/work-jiang/prediction-tracking/lecture-forward-chain-gt-BLIND-prefix-only.md)** (`run_mode: prefix_only`). Machine tail: **[`registry/lecture-forward-chain-blind-prefix-only.jsonl`](../../../research/external/work-jiang/prediction-tracking/registry/lecture-forward-chain-blind-prefix-only.jsonl)**.
+Use this loop for **honest** recursive calibration. Committed audit: **[`lecture-forward-chain-gt-BLIND-prefix-only.md`](../../codex/predictive-history/prediction-tracking/lecture-forward-chain-gt-BLIND-prefix-only.md)** (`run_mode: prefix_only`). Machine tail: **[`registry/lecture-forward-chain-blind-prefix-only.jsonl`](../../codex/predictive-history/prediction-tracking/registry/lecture-forward-chain-blind-prefix-only.jsonl)**.
 
 For blind round **R** (prefix **1…R**, predict episode **R+1**):
 
-1. **Ingest** — **Prior round** in the **prefix-only** BLIND only: **Scores**, **Adjustment**, **miss_taxonomy**. Plus **`scratch/gt-series-model.md`**. Do **not** use [`lecture-forward-chain-gt-BLIND.md`](../../../research/external/work-jiang/prediction-tracking/lecture-forward-chain-gt-BLIND.md) (historical batch / oracle replay) as a hypothesis source.
+1. **Ingest** — **Prior round** in the **prefix-only** BLIND only: **Scores**, **Adjustment**, **miss_taxonomy**. Plus **`scratch/gt-series-model.md`**. Do **not** use [`lecture-forward-chain-gt-BLIND.md`](../../codex/predictive-history/prediction-tracking/lecture-forward-chain-gt-BLIND.md) (historical batch / oracle replay) as a hypothesis source.
 2. **Bundle** — Emit `scratch/gt-prefix-R.md`:
    - **R = 1:** `bundle --prefix-end 1` (optional `--closed-loop` is a no-op for gate).
    - **R ≥ 2:** `bundle --closed-loop --prefix-end R …` after prior **`advance`** and non-empty series model.
@@ -45,15 +45,15 @@ For blind round **R** (prefix **1…R**, predict episode **R+1**):
 
 ```bash
 python3 scripts/work_jiang/forward_chain_blind_bundle.py bundle \
-  --prefix-end R -o research/external/work-jiang/prediction-tracking/scratch/gt-prefix-R.md
+  --prefix-end R -o codex/predictive-history/prediction-tracking/scratch/gt-prefix-R.md
 # R ≥ 10: add --trim-at-full-transcript
 # R ≥ 2: add --closed-loop after prior advance + model
 
 python3 scripts/work_jiang/forward_chain_blind_bundle.py reveal --episode $((R+1)) \
-  --require-prediction-path research/external/work-jiang/prediction-tracking/scratch/gt-predict-$(($R+1)).md
+  --require-prediction-path codex/predictive-history/prediction-tracking/scratch/gt-predict-$(($R+1)).md
 ```
 
-Retrospective narrative (not a substitute for blind evidence): [`lecture-forward-chain-gt-01-18.md`](../../../research/external/work-jiang/prediction-tracking/lecture-forward-chain-gt-01-18.md).
+Retrospective narrative (not a substitute for blind evidence): [`lecture-forward-chain-gt-01-18.md`](../../codex/predictive-history/prediction-tracking/lecture-forward-chain-gt-01-18.md).
 
 ---
 
@@ -71,7 +71,7 @@ Retrospective narrative (not a substitute for blind evidence): [`lecture-forward
 
 When the operator invokes **skill-jiang**, **closed-loop**, **blind forward chain**, or edits **prediction-tracking** blind artifacts, the assistant **must**:
 
-1. **Prefix-only predictions:** Draft **`gt-predict-(k+1).md` only from** the current **`gt-prefix-k.md`** bundle (plus **prior round** in **prefix-only** BLIND and **`gt-series-model.md`**). **Do not** use: memory of Volume IV order, **any** prediction/resolution text from [`lecture-forward-chain-gt-BLIND.md`](../../../research/external/work-jiang/prediction-tracking/lecture-forward-chain-gt-BLIND.md), **glob/list** of `lectures/game-theory-*.md` for unopened episodes, **YouTube/metadata** for the next title, or training priors about “what usually comes next.”
+1. **Prefix-only predictions:** Draft **`gt-predict-(k+1).md` only from** the current **`gt-prefix-k.md`** bundle (plus **prior round** in **prefix-only** BLIND and **`gt-series-model.md`**). **Do not** use: memory of Volume IV order, **any** prediction/resolution text from [`lecture-forward-chain-gt-BLIND.md`](../../codex/predictive-history/prediction-tracking/lecture-forward-chain-gt-BLIND.md), **glob/list** of `lectures/game-theory-*.md` for unopened episodes, **YouTube/metadata** for the next title, or training priors about “what usually comes next.”
 
 2. **No arc-oracle closure:** Finishing **N rounds** or running **bulk scripts** is **not** permission to **shape hypotheses to match known lecture titles**. **Oracle / smoke** runs must be **explicit** and labeled **`run_mode: oracle_replay`** in BLIND; do **not** claim **prefix-only calibration**.
 
@@ -95,7 +95,7 @@ For **K ≥ 2**, **`bundle --closed-loop`** requires:
 ```bash
 python3 scripts/work_jiang/forward_chain_blind_bundle.py advance --completed-round 1
 python3 scripts/work_jiang/forward_chain_blind_bundle.py bundle --closed-loop \
-  --prefix-end 2 -o research/external/work-jiang/prediction-tracking/scratch/gt-prefix-2.md
+  --prefix-end 2 -o codex/predictive-history/prediction-tracking/scratch/gt-prefix-2.md
 ```
 
 Optional: `--closed-loop-state PATH`, `--series-model PATH` (also on `advance`).
@@ -104,7 +104,7 @@ Optional: `--closed-loop-state PATH`, `--series-model PATH` (also on `advance`).
 
 ## Anti-leak checklist (before predicting episode k+1)
 
-- [ ] Open **only** `research/external/work-jiang/lectures/<series>-NN-*.md` for **NN ≤ k**.
+- [ ] Open **only** `codex/predictive-history/lectures/<series>-NN-*.md` for **NN ≤ k**.
 - [ ] Do **not** open lecture **NN > k**; do **not** read `analysis/*` for episode **> k**.
 - [ ] Do **not** use `metadata/sources.yaml` or `CHANNEL-VIDEO-INDEX.md` to learn **unopened** titles.
 - [ ] Do **not** use Web / YouTube for **next title** during **backtest** chain.
@@ -181,9 +181,9 @@ With **gt-18** in prefix: one prediction **before** new ingest; resolve when shi
 
 ## Reference paths (grace-mar)
 
-- Lectures: `research/external/work-jiang/lectures/game-theory-NN-*.md`
-- Volume spec: `research/external/work-jiang/book/VOLUME-IV-GAME-THEORY.md`
-- Transcript workflow: `research/external/work-jiang/WORKFLOW-transcripts.md`
+- Lectures: `codex/predictive-history/lectures/game-theory-NN-*.md`
+- Volume spec: `codex/predictive-history/book/VOLUME-IV-GAME-THEORY.md`
+- Transcript workflow: `codex/predictive-history/WORKFLOW-transcripts.md`
 - **Canonical blind log:** `prediction-tracking/lecture-forward-chain-gt-BLIND-prefix-only.md`
 - **Canonical blind JSONL:** `prediction-tracking/registry/lecture-forward-chain-blind-prefix-only.jsonl`
 - Historical blind log: `prediction-tracking/lecture-forward-chain-gt-BLIND.md`

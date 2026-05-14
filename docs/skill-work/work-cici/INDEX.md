@@ -1,5 +1,9 @@
 # work-cici — quick index
 
+Canonical path: `work-cici`; visible project name: **Cici AI**.
+
+Abundance Pack pointer: [abundance-pack.md](abundance-pack.md).
+
 Use [README](README.md) for narrative order; this table is a flat lookup.
 
 **Rename / continuity:** Lane was **work-xavier**; **Legacy note: formerly Xavier**. See [README — Rename note](README.md#rename-note),

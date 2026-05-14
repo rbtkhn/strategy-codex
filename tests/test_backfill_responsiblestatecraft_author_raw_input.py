@@ -3,9 +3,12 @@
 from __future__ import annotations
 
 import shutil
+import sys
 from datetime import date
 from pathlib import Path
 
+import scripts.backfill_parsi_responsiblestatecraft_raw_input as parsi_rs
+import scripts.backfill_parsi_x_raw_input as parsi_x
 from scripts.backfill_responsiblestatecraft_author_raw_input import (
     _author_handle,
     _build_doc,
@@ -115,3 +118,24 @@ def test_run_writes_article_files_from_explicit_urls(monkeypatch) -> None:
         assert "Trump's failed use of force" in text
     finally:
         shutil.rmtree(tmpdir, ignore_errors=True)
+
+
+def test_parsi_responsible_statecraft_wrapper_refuses_author_scan_by_default(
+    monkeypatch,
+    capsys,
+) -> None:
+    monkeypatch.setattr(sys, "argv", ["backfill_parsi_responsiblestatecraft_raw_input.py"])
+
+    assert parsi_rs.main() == 2
+    err = capsys.readouterr().err
+    assert "Refusing broad Parsi Responsible Statecraft author scan by default" in err
+    assert "not raw-input backlog" in err
+
+
+def test_parsi_x_wrapper_refuses_profile_scan_by_default(monkeypatch, capsys) -> None:
+    monkeypatch.setattr(sys, "argv", ["backfill_parsi_x_raw_input.py"])
+
+    assert parsi_x.main() == 2
+    err = capsys.readouterr().err
+    assert "Refusing broad Parsi X profile scan by default" in err
+    assert "not raw-input backlog" in err
