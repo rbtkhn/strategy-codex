@@ -17,6 +17,7 @@ ALLOWED_SHAPES = {
     "stream-native",
     "stream-anchored",
     "stream-anchored-with-cross-host-reinforcement",
+    "cross-host-reinforced",
     "single-helix",
     "double-helix",
     "triple-helix",
@@ -39,6 +40,12 @@ SHAPE_PHRASES = {
     "stream-anchored-with-cross-host-reinforcement": (
         "stream-anchored speaker object with cross-host reinforcement",
         "stream anchored speaker object with cross host reinforcement",
+    ),
+    "cross-host-reinforced": (
+        "cross-host reinforced speaker object",
+        "cross host reinforced speaker object",
+        "cross-host reinforced commentary object",
+        "cross host reinforced commentary object",
     ),
     "single-helix": (
         "single-helix",

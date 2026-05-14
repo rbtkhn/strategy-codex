@@ -119,6 +119,38 @@ Example is a universal theory.
     assert "unsupported object shape `universal-theory`" in result.stderr
 
 
+def test_accepts_cross_host_reinforced_shape(tmp_path: Path) -> None:
+    speakers_dir = tmp_path / "speakers"
+    speaker_dir = speakers_dir / "example"
+    speaker_dir.mkdir(parents=True)
+    (speaker_dir / "example-speaker-object.md").write_text(
+        """# Example speaker object
+
+WORK only; not Record.
+
+object_shape: cross-host-reinforced
+
+## Object shape
+
+Example is a cross-host reinforced speaker object.
+
+## Open first
+
+- open [example.md](example.md)
+
+## Boundaries
+
+- Not a provenance ledger.
+""",
+        encoding="utf-8",
+    )
+
+    result = run_validator(speakers_dir)
+
+    assert result.returncode == 0, result.stderr
+    assert "validate_speaker_objects: OK" in result.stderr
+
+
 def test_rejects_ambiguous_inferred_shape(tmp_path: Path) -> None:
     speakers_dir = tmp_path / "speakers"
     speaker_dir = speakers_dir / "example"
