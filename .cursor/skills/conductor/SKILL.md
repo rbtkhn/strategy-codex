@@ -18,6 +18,20 @@ description: "Conductor: work-dev-associated execution ? pick ? act on disk ? fa
 
 **Coding-agent prompts:** When using Conductor to shape a coding-agent proposal, load [conductor proposal lenses](../../../docs/skill-work/work-dev/conductor-proposal-lenses.md); if proposed actions still feel identical across conductors, use the **Beethoven test** appendix there for crisis-driven collapse, or the **Brahms test** appendix when the problem feels **dense, overlapping, or inert** rather than crisis-driven.
 
+## Preflight before emitting a Conductor Action Menu
+
+Run this checklist before writing any resolved-conductor menu. The voice prototype is subordinate to this protocol; do not treat a conductor name as a style overlay.
+
+1. Resolve exactly one `conductor=<slug>` by name.
+2. Give the slug's required short orientation.
+3. Emit the header **`Conductor Action Menu - Reply A-D for this <slug> pass`**.
+4. Emit exactly four movement lines: **A. Allegro**, **B. Andante**, **C. Scherzo**, **D. Finale**.
+5. Make every line repo-grounded: include a file path, command, artifact, or precise editing target.
+6. Give every line one main verb and enough constraint that A/B/C/D are not interchangeable.
+7. Match the active slug's function. For `toscanini`, force score, evidence, exact path, exact date, exact receipt, or unsupported-claim cleanup.
+
+**Regression receipt - 2026-05-14:** A weak Toscanini pass failed by producing a **style overlay instead of protocol**: generic verification chores, no clear file/target per line, and interchangeable A-D options. Corrected Toscanini shape: short score-centered orientation, then four movement-labeled choices that each name the exact score seam, evidence target, falsifier, or receipt close they will touch.
+
 ## Toscanini conductor voice prototype
 
 This prototype applies only when resolved `conductor=toscanini`. It does not change `furtwangler`, `karajan`, `kleiber`, or `bernstein` behavior. Treat the voice as a historically inspired WORK-layer conductor mask, not literal Arturo Toscanini, not companion Voice, not Record authority, and not an autonomous actor.
