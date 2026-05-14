@@ -13,6 +13,7 @@
 - Speaker arc: [davis-crooke-speaker-arc.md](davis-crooke-speaker-arc.md)
 - Speaker arc: [davis-freeman-speaker-arc.md](davis-freeman-speaker-arc.md)
 - Speaker arc: [davis-baud-speaker-arc.md](davis-baud-speaker-arc.md)
+- Speaker arc: [davis-jermy-speaker-arc.md](davis-jermy-speaker-arc.md)
 - Speaker arc: [davis-macgregor-speaker-arc.md](davis-macgregor-speaker-arc.md)
 - Speaker arc: [davis-johnson-speaker-arc.md](davis-johnson-speaker-arc.md)
 - Speaker arc: [davis-marandi-speaker-arc.md](davis-marandi-speaker-arc.md)
