@@ -28,6 +28,18 @@ ROOT = Path(__file__).resolve().parents[1]
 REQUIRED_FIELDS = {"schemaVersion", "diffId", "userSlug", "category", "before", "after", "changeSummary", "evidenceRefs"}
 
 
+def resolve_input_path(path: str) -> Path:
+    """Resolve legacy demo paths through the active users/demo fixture tree."""
+    raw = Path(path)
+    target = raw if raw.is_absolute() else ROOT / raw
+    if target.exists() or raw.is_absolute():
+        return target
+    norm = raw.as_posix().strip("/")
+    if norm == "demo" or norm.startswith("demo/"):
+        return ROOT / "users" / norm
+    return target
+
+
 def load_diff(path: Path) -> dict[str, Any] | None:
     try:
         with path.open("r", encoding="utf-8") as f:
@@ -46,7 +58,7 @@ def collect_diffs(paths: list[str]) -> list[dict[str, Any]]:
     """Collect identity-diff JSON files from paths (files or directories)."""
     diffs: list[dict[str, Any]] = []
     for p in paths:
-        target = Path(p) if Path(p).is_absolute() else ROOT / p
+        target = resolve_input_path(p)
         if target.is_dir():
             for f in sorted(target.glob("*.json")):
                 d = load_diff(f)
