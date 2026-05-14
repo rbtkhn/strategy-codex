@@ -106,6 +106,16 @@ Canonical example:
 
 - If `rg` / ripgrep is unavailable and the session keeps falling back to slower PowerShell search, fix the local `rg` path or install rather than quietly absorbing the latency tax.
 
+### Commit/push auth boundary
+
+Treat `git commit` and `git push` as different execution boundaries. Commit is local repo state; push crosses host SSH identity, sandbox elevation, and GitHub authorization.
+
+- Codex may commit from chat when the staged diff is scoped and the operator asks.
+- Codex may push from chat when the operator explicitly asks, the branch/ahead count has been disclosed, and SSH identity is explicit enough for the chat-side shell.
+- If push auth fails, preserve the commit and diagnose host identity plumbing instead of treating the repo work as failed.
+
+Operational note: [codex-chat-push-auth-boundary.md](codex-chat-push-auth-boundary.md).
+
 ### Truthful skip over fake completion
 
 For schema-bearing, governance-bearing, or control-plane inputs, prefer explicit local skips over weak fake fallbacks.
@@ -140,6 +150,7 @@ Use [postmortem-to-skill-feedback-loop.md](postmortem-to-skill-feedback-loop.md)
 |------------|---------|
 | **[gap-classification.md](gap-classification.md)** | Severity / status vocabulary for [known-gaps.md](known-gaps.md). |
 | **[claim-proof-standard.md](claim-proof-standard.md)** | Implemented capabilities must cite tests, scripts, receipts, or demos. |
+| **[codex-chat-push-auth-boundary.md](codex-chat-push-auth-boundary.md)** | Commit vs push boundary for Codex chat, PowerShell, SSH config, sandbox elevation, and remote receipts. |
 | **[../../doctrine-drift-radar.md](../../doctrine-drift-radar.md)** | **Doctrine Drift Radar** â€” read-only drift audit for high-leverage authority and governance slips across scripts, docs, and derived artifacts. |
 | **[../../counterfactual-fork-simulator.md](../../counterfactual-fork-simulator.md)** | **Counterfactual Fork Simulator** â€” scratch-only governance foresight report for proposed changes before they enter the normal gate path. |
 | **[../../authority-values.md](../../authority-values.md)** | **Authority Values** â€” shared vocabulary for non-authority fields used by diagnostics, portable emulation, counterfactual simulation, interface artifacts, and agent surfaces. |
