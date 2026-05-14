@@ -75,13 +75,12 @@ ABSTAIN_MARKERS = (
 def _materialize_git_ref(*, repo_root: Path, git_ref: str, user_id: str, dest: Path) -> None:
     """Write files from `git show` into dest (profile root: contains self.md)."""
     dest.mkdir(parents=True, exist_ok=True)
-    rel_base = f"users/{user_id}"
+    rel_base = f"{user_id}"
     names = [
         "self.md",
         "skill-think.md",
         "skill-write.md",
         "skill-steward.md",
-        "work-alpha-school.md",
         "work-jiang.md",
     ]
     for name in names:
@@ -286,12 +285,12 @@ def main() -> int:
     ap.add_argument("--parallel", type=int, default=3, help="Max concurrent LLM calls")
     ap.add_argument("--max-wall-seconds", type=float, default=180.0)
     ap.add_argument("--max-tokens", type=int, default=350)
-    ap.add_argument("--git-ref", default=None, help="Git ref (tag/commit) to materialize users/<user>/ into a temp profile")
+    ap.add_argument("--git-ref", default=None, help="Git ref (tag/commit) to materialize <user>/ into a temp profile")
     ap.add_argument(
         "--output",
         "-o",
         default=None,
-        help="Report markdown path (default: users/<user>/artifacts/simulation-reports/YYYY-MM-DD_sim.md)",
+        help="Report markdown path (default: <user>/artifacts/simulation-reports/YYYY-MM-DD_sim.md)",
     )
     ap.add_argument("--use-chroma", action="store_true", help="Merge Chroma snippets when index + OPENAI_API_KEY exist")
     ap.add_argument("--auto-stage", action="store_true", help="Stage full report to recursion-gate as SIMULATION_RESULT")

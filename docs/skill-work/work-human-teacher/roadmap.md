@@ -27,7 +27,6 @@
 |-------------|-------------|
 | **Human-teacher objectives doc** | Done. [human-teacher-objectives.md](human-teacher-objectives.md): (1) read skill-think; (2) modulate focus; (3) gate content; (4) respect identity; (5) structure+execution, evidence-first, augmentation (All-In synthesis). |
 | **Operator checklist** | Pre-session: "What's the edge today? Any resistance notes? Today's focus?" Post-session: "Log what we did — we did X." (Included in human-teacher-objectives.md.) |
-| **Alpha-school recursion** | Explicitly reference alpha-school methods (2-hour block, 4 segments, 90% mastery, vocabulary in context) when human-teacher uses them. Document in alpha-school-reference. |
 
 **Output:** `docs/skill-work/work-human-teacher/human-teacher-objectives.md` (or section in README).
 
@@ -35,16 +34,15 @@
 
 ## Phase 3 — Enhanced generator
 
-**Scope:** Generator improvements for flexibility and alpha-school alignment.
+**Scope:** Generator improvements for flexibility and mastery-learning alignment.
 
 | Deliverable | Description |
 |-------------|-------------|
 | **Tier support** | `--tier elementary` (one prompt = full day) vs `--tier specialized` (one prompt = one subject/session, more Record excerpt). Grace-mar instance is elementary. |
-| **Alpha-school integration** | Optional `--alpha-school` flag: include 2-hour design, segment timing, mastery threshold (90%), block composition from alpha-school-benchmarks.yaml. |
 | **Focus override** | `--focus reading|math|work|integrated` — emphasize one area when human wants to modulate. |
 | **Rules appendix** | Generator pulls rules from a config or doc (vocabulary in context, 4 MC options when stuck, one-line log per activity) so updates propagate without code change. |
 
-**Script:** `scripts/generate_lesson_prompt.py` — add args, read alpha-school YAML when requested.
+**Script:** `scripts/generate_lesson_prompt.py` — add args, read mastery-learning YAML when requested.
 
 ---
 
@@ -81,8 +79,7 @@
 | Phase | Scope | Key deliverables |
 |-------|-------|------------------|
 | **1 — Foundation** | Record-derived prompts, one per day | generate_lesson_prompt.py, walkthrough, sample |
-| **2 — Human-teacher objectives** | Formalize operator pattern | human-teacher-objectives.md, checklist, alpha-school recursion |
-| **3 — Enhanced generator** | Tier, alpha-school, focus override | Script args, rules config |
+| **3 — Enhanced generator** | Tier, mastery-learning, focus override | Script args, rules config |
 | **4 — Formative loop** | Transcript → skill-think | Checkpoint handback, structured log, post-merge reminder |
 | **5 — Agentic proposals** | Voice proposes focus | Proactive suggestions, resistance-aware, generator integration |
 
@@ -90,7 +87,7 @@
 
 ## Related
 
-- [Educational software history (1995–2025)](../educational-software-history-insights.md) — Cross-platform insights (Duolingo, Khan Academy, Alpha School, Khanmigo, etc.) mapped to formative loop, one prompt per day, tutor-as-guide, 4-option rule.
+- [Educational software history (1995–2025)](../educational-software-history-insights.md) — Cross-platform insights (Duolingo, Khan Academy, mastery-learning school, Khanmigo, etc.) mapped to formative loop, one prompt per day, tutor-as-guide, 4-option rule.
 
 ---
 
@@ -100,4 +97,4 @@
 2. **Gated pipeline** — Evidence ("we did X") stages; companion approves merge.
 3. **Companion sovereignty** — Human-teacher and agentic proposals support; they do not compel.
 4. **Meet where they are** — Respect resistance, deflection, pace. (AGENTS rule 7.)
-5. **Recursion** — Alpha-school supplies methods; human-teacher applies them; Record evidence feeds back. Alpha-school does not write into Record.
+5. **Recursion** — mastery-learning supplies methods; human-teacher applies them; Record evidence feeds back. mastery-learning does not write into Record.

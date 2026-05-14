@@ -5,7 +5,7 @@ Preserved for reference. See archive/companion-freeze-abby-2026-04-14/ for conte
 
 Generate a one-prompt-per-day lesson for the human companion to paste into ChatGPT or Grok.
 
-Reads the Record (`self.md`, `skill-think.md`) plus separate work context (`work-alpha-school.md`), extracts IX-A/B, edge, work goals,
+Reads the Record (`self.md`, `skill-think.md`) plus adjacent lesson work context when present, extracts IX-A/B, edge, work goals,
 and fills the minimal prompt shape from docs/skill-work/work-lesson-generation-walkthrough.md §3.
 
 Design: structure+execution (human provides structure via prompt; LLM executes), evidence-first
@@ -16,7 +16,6 @@ Usage:
     python scripts/generate_lesson_prompt.py -u grace-mar
     python scripts/generate_lesson_prompt.py -u grace-mar -o docs/skill-work/sample-lesson-prompt-grace-mar.txt
     python scripts/generate_lesson_prompt.py -u grace-mar -n Robert -o lesson.txt
-    python scripts/generate_lesson_prompt.py -u grace-mar --alpha-school --focus reading
     python scripts/generate_lesson_prompt.py -u grace-mar --tier specialized --focus math
 """
 
@@ -303,29 +302,6 @@ def _load_lesson_rules_config() -> dict:
     return out
 
 
-def _load_alpha_school_block() -> dict:
-    """Load two_hour_block from alpha-school-benchmarks.yaml."""
-    path = SKILL_WORK_DIR / "work-alpha-school" / "alpha-school-benchmarks.yaml"
-    if not path.exists():
-        return {}
-    content = _read(path)
-    block = re.search(r"two_hour_block:\s*\n((?:\s+[\w_]+:.*\n?)+)", content)
-    if not block:
-        return {}
-    section = block.group(1)
-    out = {}
-    m = re.search(r"segment_minutes:\s*\[(\d+),\s*(\d+)\]", section)
-    if m:
-        out["segment_minutes"] = [int(m.group(1)), int(m.group(2))]
-    m = re.search(r"mastery_threshold_percent:\s*(\d+)", section)
-    if m:
-        out["mastery_threshold_percent"] = int(m.group(1))
-    m = re.search(r"in_lesson_success_rate_percent:\s*\[(\d+),\s*(\d+)\]", section)
-    if m:
-        out["in_lesson_success_rate_percent"] = [int(m.group(1)), int(m.group(2))]
-    return out
-
-
 def _extract_lexile(self_content: str) -> str:
     m = re.search(r"lexile_output:\s*[\"']?(\d+)L", self_content)
     return m.group(1) + "L" if m else "600L"
@@ -339,7 +315,6 @@ def _extract_lexile_input(self_content: str) -> str:
 def generate_lesson_prompt(
     user_id: str = "grace-mar",
     name_override: str | None = None,
-    alpha_school: bool = False,
     focus: str | None = None,
     tier: str = "elementary",
 ) -> str:
@@ -347,7 +322,7 @@ def generate_lesson_prompt(
     profile_dir = REPO_ROOT / "users" / user_id
     self_content = _read(profile_dir / "self.md")
     think_content = _read(profile_dir / "skill-think.md")
-    work_content = _read(profile_dir / "work-alpha-school.md")
+    work_content = _read(profile_dir / "work-human-teacher.md")
 
     if not self_content:
         return f"# Lesson Prompt — {user_id}\n\nNo self.md found at {profile_dir / 'self.md'}.\n"
@@ -374,9 +349,8 @@ def generate_lesson_prompt(
     lexile_input = _extract_lexile_input(self_content)
 
     # Build prompt body (everything below ---)
-    alpha_note = " Alpha-school design: 4 segments of 25–30 min, 90% mastery to advance, 80–85% in-lesson success." if alpha_school else ""
     lines = [
-        f"You are a patient tutor for {name} (Grace-Mar), a {age}-year-old girl in {grade}. She speaks {languages}. Use ONLY the information below. Speak at her level: short sentences, simple words (Lexile ~{lexile} output). This prompt is for the whole day — run 3–5 short activities in this thread, up to 2 hours total screen-based learning.{alpha_note}",
+        f"You are a patient tutor for {name} (Grace-Mar), a {age}-year-old girl in {grade}. She speaks {languages}. Use ONLY the information below. Speak at her level: short sentences, simple words (Lexile ~{lexile} output). This prompt is for the whole day — run 3–5 short activities in this thread, up to 2 hours total screen-based learning.",
         "",
         "WHO SHE IS",
         who_she_is,
@@ -449,7 +423,7 @@ def generate_lesson_prompt(
         "RULES",
     ])
 
-    # Rules: constraints (musts, must_nots, preferences, escalation) preferred; else flat rules_list; else alpha-school defaults
+    # Rules: constraints (musts, must_nots, preferences, escalation) preferred; else flat rules_list; else built-in lesson defaults
     rules_config = rules_cfg
     if rules_config.get("musts") or rules_config.get("must_nots"):
         for section, key in [
@@ -467,9 +441,8 @@ def generate_lesson_prompt(
         for r in rules_config["rules_list"]:
             lines.append(f"- {r}")
     else:
-        alpha_block = _load_alpha_school_block() if alpha_school else {}
-        in_lesson = alpha_block.get("in_lesson_success_rate_percent", [80, 85])
-        mastery_pct = alpha_block.get("mastery_threshold_percent", 90)
+        in_lesson = [80, 85]
+        mastery_pct = 90
         lines.extend([
             f"- One question or prompt at a time. If she's stuck or misses a question, give a hint from the Record and try again before moving on. Aim for {in_lesson[0]}–{in_lesson[1]}% success within each segment. Don't advance to a new segment until she shows ~{mastery_pct}% mastery on the current one.",
             "- Do not add facts, stories, or topics not listed above.",
@@ -501,7 +474,6 @@ def main() -> None:
     parser.add_argument("--user", "-u", default="grace-mar", help="User id")
     parser.add_argument("--output", "-o", default=None, help="Output file (default: stdout)")
     parser.add_argument("--name", "-n", default=None, help="Override display name (e.g. Abby)")
-    parser.add_argument("--alpha-school", action="store_true", help="Include Alpha School design (2-hour block, mastery thresholds)")
     parser.add_argument("--focus", choices=["reading", "math", "work", "integrated"], default=None, help="Emphasize one area today")
     parser.add_argument("--tier", choices=["elementary", "specialized"], default="elementary", help="elementary=one prompt per day; specialized=per subject")
     args = parser.parse_args()
@@ -509,7 +481,6 @@ def main() -> None:
     content = generate_lesson_prompt(
         user_id=args.user,
         name_override=args.name,
-        alpha_school=args.alpha_school,
         focus=args.focus,
         tier=args.tier,
     )

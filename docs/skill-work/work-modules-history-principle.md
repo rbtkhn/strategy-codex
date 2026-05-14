@@ -30,7 +30,6 @@
 | work-human-teacher | [work-human-teacher/work-human-teacher-history.md](work-human-teacher/work-human-teacher-history.md) |
 | work-cici | [work-cici/work-cici-history.md](work-cici/work-cici-history.md) |
 | work-civ-mem | [work-civ-mem/work-civ-mem-history.md](work-civ-mem/work-civ-mem-history.md) |
-| work-alpha-school | [work-alpha-school/work-alpha-school-history.md](work-alpha-school/work-alpha-school-history.md) |
 | work-elicitation | [work-elicitation/work-elicitation-history.md](work-elicitation/work-elicitation-history.md) |
 | work-cadence | [work-cadence/work-cadence-events.md](work-cadence/work-cadence-events.md) *(per-run telemetry, not design history)* |
 

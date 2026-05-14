@@ -50,7 +50,6 @@ SKILLS_PATHS = [
     PROFILE_DIR / "skill-steward.md",
 ]
 WORK_PATHS = [
-    PROFILE_DIR / "work-alpha-school.md",
     PROFILE_DIR / "work-jiang.md",
 ]
 EVIDENCE_PATH = PROFILE_DIR / CANONICAL_EVIDENCE_BASENAME

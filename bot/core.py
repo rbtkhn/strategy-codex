@@ -1,8 +1,8 @@
-"""
+﻿"""
 Shared emulation core for Grace-Mar.
 
 Used by both the Telegram and WeChat bots. Handles LLM conversation,
-lookup, analyst, archive, and rate limiting. Channel-agnostic — callers
+lookup, analyst, archive, and rate limiting. Channel-agnostic â€” callers
 pass a channel_key (e.g. "telegram:123" or "wechat:oABC123") to scope
 conversations and rate limits.
 
@@ -69,7 +69,7 @@ except (ImportError, AttributeError):
     try:
         from prompt import HOMEWORK_PROMPT  # type: ignore[attr-defined]
     except (ImportError, AttributeError):
-        HOMEWORK_PROMPT = None  # dormant — removed during adult reseed
+        HOMEWORK_PROMPT = None  # dormant â€” removed during adult reseed
 
 load_dotenv()
 
@@ -129,8 +129,8 @@ USER_ID = os.getenv("GRACE_MAR_USER_ID", "grace-mar").strip() or "grace-mar"
 PROFILE_DIR = Path(__file__).resolve().parent.parent / "users" / USER_ID
 SELF_PATH = PROFILE_DIR / "self.md"
 EVIDENCE_PATH = PROFILE_DIR / CANONICAL_EVIDENCE_BASENAME
-EVIDENCE_REPO_REL_PATH = f"users/{USER_ID}/{CANONICAL_EVIDENCE_BASENAME}"  # GitHub Contents API
-# Real-time conversation log (operator continuity). Gated § VIII is written only on merge.
+EVIDENCE_REPO_REL_PATH = f"{USER_ID}/{CANONICAL_EVIDENCE_BASENAME}"  # GitHub Contents API
+# Real-time conversation log (operator continuity). Gated Â§ VIII is written only on merge.
 SESSION_TRANSCRIPT_PATH = PROFILE_DIR / "session-transcript.md"
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN", "").strip()
 GRACE_MAR_REPO = os.getenv("GRACE_MAR_REPO", "rbtkhn/grace-mar").strip()
@@ -206,7 +206,7 @@ LOOKUP_TRIGGER = "do you want me to look it up"
 AFFIRMATIVE_WORDS = {"yes", "yeah", "yea", "yep", "sure", "ok", "okay", "please", "ya", "y"}
 AFFIRMATIVE_PHRASES = {"look it up", "go ahead", "do it", "go for it", "find out", "tell me", "look up", "yes please"}
 
-# "We did X" — activity report from operator. Triggers pipeline staging.
+# "We did X" â€” activity report from operator. Triggers pipeline staging.
 WE_DID_PATTERN = re.compile(
     r"^we\s+(drew|wrote|made|learned|read|painted|built|created|did|watched|played)\b",
     re.IGNORECASE,
@@ -241,23 +241,23 @@ def _should_run_analyst(user_message: str, channel_key: str) -> tuple[bool, str]
     return True, ""
 
 
-# Bare "checkpoint" in conversation — companion requests checkpoint save; stage to pipeline and archive.
+# Bare "checkpoint" in conversation â€” companion requests checkpoint save; stage to pipeline and archive.
 CHECKPOINT_REQUEST_PATTERN = re.compile(r"^checkpoint\s*[!?.,]*$", re.IGNORECASE)
 
 # Transcript sent to pipeline for checkpoint: last N exchanges, or max chars (abridged).
 MAX_CHECKPOINT_EXCHANGES = 25
 MAX_CHECKPOINT_TRANSCRIPT_CHARS = 5000
 
-# Pasted checkpoint from external LLM (ChatGPT, PRP, etc.) — route to pipeline.
+# Pasted checkpoint from external LLM (ChatGPT, PRP, etc.) â€” route to pipeline.
 CHECKPOINT_MARKERS = re.compile(
-    r"(?i)(checkpoint\s*[–:-]|abby\s+checkpoint|here[\'s]?\s*(is|my)\s+checkpoint|"
+    r"(?i)(checkpoint\s*[â€“:-]|abby\s+checkpoint|here[\'s]?\s*(is|my)\s+checkpoint|"
     r"summary\s+of\s+what\s+we|topics\s+covered|checkpoint\s+saved)"
 )
 
 _client: OpenAI | None = None
 conversations: dict[str, list[dict]] = defaultdict(list)
 pending_lookups: dict[str, str] = {}
-# Agentic: after lookup, Voice proposes "add to record?" — companion says yes → stage
+# Agentic: after lookup, Voice proposes "add to record?" â€” companion says yes â†’ stage
 pending_lookup_save: dict[str, tuple[str, str]] = {}
 
 
@@ -295,7 +295,7 @@ def _format_checkpoint_transcript(history: list[dict]) -> str:
         first_br = transcript.find("\n\n")
         if first_br > 0:
             transcript = transcript[first_br:].strip()
-        transcript = "(abridged — most recent only)\n\n" + transcript
+        transcript = "(abridged â€” most recent only)\n\n" + transcript
     return transcript
 
 
@@ -423,19 +423,19 @@ def _load_library() -> list[dict]:
     return entries
 
 
-# self-memory.md (legacy: memory.md) — three horizons (docs/memory-template.md). Order and caps limit prompt size.
+# self-memory.md (legacy: memory.md) â€” three horizons (docs/memory-template.md). Order and caps limit prompt size.
 _MEMORY_HORIZON_ORDER = ("short", "medium", "long")
 _MEMORY_HORIZON_LABELS = {
     "short": "Short-term (session / day)",
-    "medium": "Medium-term (days–weeks)",
-    "long": "Long-term (meta — pointers and process, not durable Record facts)",
+    "medium": "Medium-term (daysâ€“weeks)",
+    "long": "Long-term (meta â€” pointers and process, not durable Record facts)",
 }
 _MEMORY_MAX_LINES = {"short": 45, "medium": 28, "long": 18}
 
 # Invalidated when self-memory path mtime/size changes (see scripts/record_index.py).
 _MEMORY_INDEX_CACHE: tuple[float, int, MemoryHorizonIndex] | None = None
 
-# Evidence retrieval cache — invalidated when self-archive.md mtime/size changes.
+# Evidence retrieval cache â€” invalidated when self-archive.md mtime/size changes.
 _EVIDENCE_ENTRIES_CACHE: tuple[float, int, list] | None = None
 EVIDENCE_RETRIEVAL_ENABLED = os.getenv("EVIDENCE_RETRIEVAL_ENABLED", "1").strip() == "1"
 EVIDENCE_RETRIEVAL_TOP_K = 3
@@ -519,12 +519,12 @@ def _load_memory_appendix() -> str:
 
     resistance_hint = ""
     if "## Resistance Notes" in block or "## resistance notes" in block.lower():
-        resistance_hint = " If Resistance Notes list topics: do not bring them up unprompted. If the user raises them, meet them where they are—change topic or offer alternatives if they seem resistant. Do not push."
+        resistance_hint = " If Resistance Notes list topics: do not bring them up unprompted. If the user raises them, meet them where they areâ€”change topic or offer alternatives if they seem resistant. Do not push."
     return """
 
-## SESSION CONTEXT (ephemeral — SELF is authoritative)
+## SESSION CONTEXT (ephemeral â€” SELF is authoritative)
 
-The following is ephemeral session context in time horizons (short → long). Long-term here means session habits and pointers — not a substitute for SELF. Use it to refine tone and continuity. If it conflicts with SELF, follow SELF. Do not cite factual content from this section as Record truth.
+The following is ephemeral session context in time horizons (short â†’ long). Long-term here means session habits and pointers â€” not a substitute for SELF. Use it to refine tone and continuity. If it conflicts with SELF, follow SELF. Do not cite factual content from this section as Record truth.
 """ + resistance_hint + """
 
 """ + block
@@ -593,7 +593,7 @@ def _retrieve_evidence(user_message: str) -> str:
             break
         snippet = r.entry.text[:400].replace("\n", " ").strip()
         if len(r.entry.text) > 400:
-            snippet += "…"
+            snippet += "â€¦"
         line = f"- **{r.entry.entry_id}** ({r.entry.date}): {snippet}"
         if total_chars + len(line) > EVIDENCE_RETRIEVAL_MAX_CHARS:
             break
@@ -603,7 +603,7 @@ def _retrieve_evidence(user_message: str) -> str:
     if not lines:
         return ""
     return (
-        "\n\n## RELEVANT EVIDENCE (retrieved — not exhaustive)\n\n"
+        "\n\n## RELEVANT EVIDENCE (retrieved â€” not exhaustive)\n\n"
         "Evidence entries from the Record that may be relevant to this message. "
         "Use only as supporting context. SELF remains authoritative.\n\n"
     ) + "\n".join(lines)
@@ -619,7 +619,7 @@ def _load_recency_context() -> str:
         ix_a = re.search(r"### IX-A\. KNOWLEDGE.*?```yaml\n(.*?)```", content, re.DOTALL)
         if ix_a:
             entries = ix_a.group(1).strip()
-            # Take last ~12 entries (most recent) — entries start with "  - id:"
+            # Take last ~12 entries (most recent) â€” entries start with "  - id:"
             lines = entries.split("\n")
             blocks: list[str] = []
             current: list[str] = []
@@ -657,7 +657,7 @@ def _load_recency_context() -> str:
     if EVIDENCE_PATH.exists():
         content = EVIDENCE_PATH.read_text(encoding="utf-8")
         ev_idx = build_evidence_index(content)
-        # Limit scan to Writing / Creation / Activity sections (skip I, IV, VI–VIII) for speed on large files
+        # Limit scan to Writing / Creation / Activity sections (skip I, IV, VIâ€“VIII) for speed on large files
         frags = [
             slice_evidence_section(content, ev_idx, r)
             for r in ("II", "III", "V")
@@ -849,11 +849,11 @@ def start_homework_session(channel_key: str) -> tuple[str | None, str | None]:
             "last_active_at": time.time(),
         }
         q0 = normalized[0]
-        msg = f"homework time! 🎯 one at a time — tap A, B, C, or D!\n\n"
+        msg = f"homework time! ðŸŽ¯ one at a time â€” tap A, B, C, or D!\n\n"
         if total_correct_ever >= HOMEWORK_MILESTONE:
-            msg += f"you've got {total_correct_ever} right total — you're a champ! 🏆\n\n"
+            msg += f"you've got {total_correct_ever} right total â€” you're a champ! ðŸ†\n\n"
         elif total_correct_ever > 0:
-            msg += f"({total_correct_ever} right so far — {HOMEWORK_MILESTONE} = champ! 🏆)\n\n"
+            msg += f"({total_correct_ever} right so far â€” {HOMEWORK_MILESTONE} = champ! ðŸ†)\n\n"
         msg += f"Question 1 of {len(normalized)}!\n\n{q0['q']}\n\n" + "\n".join(q0["options"])
         return msg, None
     except Exception:
@@ -889,20 +889,20 @@ def process_homework_answer(channel_key: str, user_reply: str) -> tuple[str, boo
         session["streak"] += 1
         streak = session["streak"]
         if streak >= 3:
-            feedback = "yes! 🔥 " + str(streak) + " in a row!"
+            feedback = "yes! ðŸ”¥ " + str(streak) + " in a row!"
         elif streak >= 2:
-            feedback = "yes! 2 in a row! 🌟"
+            feedback = "yes! 2 in a row! ðŸŒŸ"
         else:
-            feedback = "yes! 🎉"
+            feedback = "yes! ðŸŽ‰"
     else:
         session["streak"] = 0
         correct_opt = next(o for o in q["options"] if o.upper().startswith(correct_letter))
         correct_text = correct_opt.split(")", 1)[1].strip()
         hint = q.get("hint") or ""
         if hint:
-            feedback = f"here's a hint: {hint}\n\nnot quite — it's {correct_letter}) {correct_text}"
+            feedback = f"here's a hint: {hint}\n\nnot quite â€” it's {correct_letter}) {correct_text}"
         else:
-            feedback = f"not quite — it's {correct_letter}) {correct_text}"
+            feedback = f"not quite â€” it's {correct_letter}) {correct_text}"
     session["idx"] += 1
     if session["idx"] >= len(questions):
         # Session done
@@ -913,9 +913,9 @@ def process_homework_answer(channel_key: str, user_reply: str) -> tuple[str, boo
         end_homework_session(channel_key)
         msg = feedback + f"\n\nall done! {correct_in}/{total_in} right!"
         if total_ever >= HOMEWORK_MILESTONE:
-            msg += f" you've got {total_ever} total — champ! 🏆"
+            msg += f" you've got {total_ever} total â€” champ! ðŸ†"
         elif total_ever > 0:
-            msg += f" ({total_ever} total — {HOMEWORK_MILESTONE} = champ! 🏆)"
+            msg += f" ({total_ever} total â€” {HOMEWORK_MILESTONE} = champ! ðŸ†)"
         msg += "\n\nwant more? tap Homework again!"
         return msg, True, False
     # Next question
@@ -1049,7 +1049,7 @@ def _lookup(question: str, channel_key: str = "unknown") -> str:
 
 
 def _lookup_with_library_first(question: str, channel_key: str = "unknown") -> tuple[str, str]:
-    """Run lookup (library → CMC → full). Returns (answer, lookup_source). lookup_source: library|cmc|full."""
+    """Run lookup (library â†’ CMC â†’ full). Returns (answer, lookup_source). lookup_source: library|cmc|full."""
     lib_answer = _library_lookup(question, channel_key)
     if lib_answer:
         logger.info("LIBRARY: hit for %s", question[:50])
@@ -1158,7 +1158,7 @@ def analyze_exchange(user_message: str, assistant_message: str, channel_key: str
             return False
         staged = _stage_candidate(analysis, user_message, assistant_message, channel_key)
         if staged:
-            logger.info("ANALYST: signal detected — staged candidate")
+            logger.info("ANALYST: signal detected â€” staged candidate")
         else:
             logger.warning("ANALYST: signal detected but candidate failed schema validation")
         return staged
@@ -1208,14 +1208,14 @@ def _pipeline_event_fields_from_candidate_yaml(yaml_blob: str) -> dict[str, obje
         v = m.group(1).strip()
         if len(v) >= 2 and v[0] in "\"'" and v[-1] == v[0]:
             v = v[1:-1]
-        out[key] = (v[: maxlen - 1] + "…") if len(v) > maxlen else v
+        out[key] = (v[: maxlen - 1] + "â€¦") if len(v) > maxlen else v
     sm = re.search(r"^summary:\s*(.+)$", yaml_blob, re.MULTILINE)
     if sm:
         s = sm.group(1).strip()
         if len(s) >= 2 and s[0] in "\"'" and s[-1] == s[0]:
             s = s[1:-1]
         s = s.replace("\n", " ").replace("\r", " ").strip()
-        out["summary_snippet"] = (s[:279] + "…") if len(s) > 280 else s
+        out["summary_snippet"] = (s[:279] + "â€¦") if len(s) > 280 else s
     return out
 
 
@@ -1380,8 +1380,8 @@ def stage_last_exchange(channel_key: str) -> tuple[bool, str]:
     staged = analyze_exchange(user_msg, assistant_msg, channel_key)
     count = len(get_pending_candidates())
     if staged:
-        return True, f"i staged that. you have {count} thing{'s' if count != 1 else ''} to review — type /review to see them."
-    return True, f"i looked at that — no new signal to add right now. (you still have {count} in review — /review)"
+        return True, f"i staged that. you have {count} thing{'s' if count != 1 else ''} to review â€” type /review to see them."
+    return True, f"i looked at that â€” no new signal to add right now. (you still have {count} in review â€” /review)"
 
 
 def get_pending_candidates() -> list[dict]:
@@ -1421,7 +1421,7 @@ def quick_merge_candidate(candidate_id: str, approved_by: str) -> tuple[bool, st
     Run process_approved_candidates --quick for a single candidate.
     Candidate must already be approved (status updated). Returns (ok, message).
     """
-    repo_root = RECURSION_GATE_PATH.parent.parent  # users/grace-mar -> repo root
+    repo_root = RECURSION_GATE_PATH.parent.parent  #  -> repo root
     result = subprocess.run(
         [
             sys.executable,
@@ -1968,7 +1968,7 @@ def reclassify_gate_candidate(
         kwargs["parent_event_id"] = parent
     fork_slug = RECURSION_GATE_PATH.parent.name
     kwargs["boundary_classification_rel_path"] = (
-        f"users/{fork_slug}/review-queue/boundary-classifications/{candidate_id}.json"
+        f"{fork_slug}/review-queue/boundary-classifications/{candidate_id}.json"
     )
     emit_pipeline_event("gate_reclassified", candidate_id, **kwargs)
     return True
@@ -2082,17 +2082,17 @@ def get_response(channel_key: str, user_message: str) -> str:
     except Exception as e:
         logger.debug("chat_store compact check: %s", e)
 
-    # "We did X" — activity report from operator; run pipeline, skip chat.
+    # "We did X" â€” activity report from operator; run pipeline, skip chat.
     if WE_DID_PATTERN.search(user_message.strip()):
         archive("ACTIVITY REPORT", channel_key, user_message)
         staged = analyze_activity_report(user_message, channel_key)
         emit_pipeline_event("dyad:activity_report", None, channel_key=channel_key, replay_mode="dyad")
         count = len(get_pending_candidates())
         if staged:
-            return f"got it! i added that to your record. you have {count} thing{'s' if count != 1 else ''} to review — type /review to see them."
+            return f"got it! i added that to your record. you have {count} thing{'s' if count != 1 else ''} to review â€” type /review to see them."
         return "ok i wrote that down. nothing new to add to your profile right now, but it's in the log! type /review to see what's waiting."
 
-    # "checkpoint" — companion requests checkpoint save; send transcript (since session/last checkpoint) to pipeline and SELF-ARCHIVE.
+    # "checkpoint" â€” companion requests checkpoint save; send transcript (since session/last checkpoint) to pipeline and SELF-ARCHIVE.
     if CHECKPOINT_REQUEST_PATTERN.search(user_message.strip()):
         archive("USER", channel_key, user_message)
         transcript = _format_checkpoint_transcript(history)
@@ -2102,19 +2102,19 @@ def get_response(channel_key: str, user_message: str) -> str:
                 + transcript
             )
         else:
-            synthetic = "we did a checkpoint — companion requested to save state; no conversation since session start yet."
+            synthetic = "we did a checkpoint â€” companion requested to save state; no conversation since session start yet."
         staged = analyze_activity_report(synthetic, channel_key)
         emit_pipeline_event("dyad:checkpoint_request", None, channel_key=channel_key, replay_mode="dyad")
         count = len(get_pending_candidates())
         reply = (
-            f"got it! i added a checkpoint to your record. you have {count} thing{'s' if count != 1 else ''} to review — type /review"
+            f"got it! i added a checkpoint to your record. you have {count} thing{'s' if count != 1 else ''} to review â€” type /review"
             if staged
             else "ok i wrote that checkpoint down. nothing new to add to your profile right now, but it's in the log! type /review to see what's waiting."
         )
         archive("GRACE-MAR", channel_key, reply)
         return reply
 
-    # Pasted checkpoint — long message with checkpoint markers; route to pipeline.
+    # Pasted checkpoint â€” long message with checkpoint markers; route to pipeline.
     stripped = user_message.strip()
     if len(stripped) >= 400 and CHECKPOINT_MARKERS.search(stripped):
         synthetic = f"we did a chat in an external LLM (ChatGPT, Claude, PRP, etc). here is the checkpoint or transcript:\n\n{stripped}"
@@ -2123,7 +2123,7 @@ def get_response(channel_key: str, user_message: str) -> str:
         emit_pipeline_event("dyad:checkpoint_handback", None, channel_key=channel_key, replay_mode="dyad")
         count = len(get_pending_candidates())
         if staged:
-            return f"got it! i read that checkpoint and added it to your record. you have {count} thing{'s' if count != 1 else ''} to review — type /review"
+            return f"got it! i read that checkpoint and added it to your record. you have {count} thing{'s' if count != 1 else ''} to review â€” type /review"
         return "ok i read that checkpoint. nothing new to add to your profile right now, but it's in the log! type /review to see what's waiting."
 
     normalized = user_message.strip().lower().rstrip("!.,")
@@ -2131,12 +2131,12 @@ def get_response(channel_key: str, user_message: str) -> str:
         p in normalized for p in AFFIRMATIVE_PHRASES
     )
 
-    # Agentic: companion said yes to "add to record?" after a lookup — stage and return
+    # Agentic: companion said yes to "add to record?" after a lookup â€” stage and return
     if channel_key in pending_lookup_save and is_affirmative:
         question, answer = pending_lookup_save.pop(channel_key)
         if not _check_rate_limit(channel_key, "analyst", tokens=1):
             return "i'm a little tired right now. can we add it later?"
-        short_answer = (answer[:200] + "…") if len(answer) > 200 else answer
+        short_answer = (answer[:200] + "â€¦") if len(answer) > 200 else answer
         synthetic = f"we looked up '{question}' and learned: {short_answer}"
         staged = analyze_activity_report(synthetic, channel_key)
         emit_pipeline_event(
@@ -2149,7 +2149,7 @@ def get_response(channel_key: str, user_message: str) -> str:
         count = len(get_pending_candidates())
         archive("USER", channel_key, user_message)
         archive("GRACE-MAR (lookup save)", channel_key, "added to review")
-        reply = f"got it! i added it to your record. you have {count} thing{'s' if count != 1 else ''} to review — type /review to see them."
+        reply = f"got it! i added it to your record. you have {count} thing{'s' if count != 1 else ''} to review â€” type /review to see them."
         archive("GRACE-MAR", channel_key, reply)
         return reply
 
@@ -2280,7 +2280,7 @@ def transcribe_voice(audio_bytes: bytes, channel_key: str = "telegram") -> str |
 
 
 def run_export_curriculum(user_id: str | None = None, audience: str | None = None) -> str:
-    """Export Record to curriculum JSON. Returns JSON string for sharing. Audience: alpha-school or None."""
+    """Export Record to curriculum JSON. Returns JSON string for sharing."""
     import sys
     repo_root = Path(__file__).resolve().parent.parent
     sys.path.insert(0, str(repo_root / "scripts"))
@@ -2386,11 +2386,12 @@ def reset_conversation(channel_key: str) -> None:
 
 def get_greeting() -> str:
     return (
-        "hi! i'm grace-mar — i remember what you've learned and what you've done. "
-        "when something cool happens, say \"we did X\" and i'll add it — then /review to see what's waiting. "
+        "hi! i'm grace-mar â€” i remember what you've learned and what you've done. "
+        "when something cool happens, say \"we did X\" and i'll add it â€” then /review to see what's waiting. "
         "do you want to talk? i like stories and science and drawing!"
     )
 
 
 def get_reset_message() -> str:
     return "ok i forgot everything! let's start over. what do you want to talk about?"
+

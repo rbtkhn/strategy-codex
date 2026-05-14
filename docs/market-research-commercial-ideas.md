@@ -81,7 +81,7 @@
 
 **Idea:** **Curriculum that reads the Record**: generate modules/plans from IX-A/B/C and skill gaps; market as "curriculum that knows your kid — because you approved what goes in." Revenue: premium tier (hosted family + curriculum) or one-time curriculum pack. Differentiator: curriculum is driven by the *same* evidence-grounded Record the family owns.
 
-**Fit:** Builds on existing generate_curriculum, load_alpha_school_benchmarks; aligns with "low-cost alternative" and homeschool wedge.
+**Fit:** Builds on existing generate_curriculum, load_mastery_learning_benchmarks; aligns with "low-cost alternative" and homeschool wedge.
 
 **Effort:** Medium (bundle packaging, UX for "curriculum from Record"); part of roadmap #12.
 

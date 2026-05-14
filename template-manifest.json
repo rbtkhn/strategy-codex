@@ -127,27 +127,12 @@
     },
     {
       "path": "docs/long-term-objective.md",
-      "description": "Permanent system rules (democratize Alpha-style education; sovereignty; knowledge boundary).",
+      "description": "Permanent system rules (democratize mastery learning; sovereignty; knowledge boundary).",
       "optional": false
     },
     {
       "path": "docs/skill-work/README.md",
-      "description": "Skill-work parent index (submodules: skill-work-alpha-school, skill-work-human-teacher).",
-      "optional": true
-    },
-    {
-      "path": "docs/skill-work/skill-work-alpha-school/alpha-school-reference.md",
-      "description": "Alpha School reference (skill-work-alpha-school submodule): benchmarks, 2-hour screen-time target, equivalent metrics.",
-      "optional": false
-    },
-    {
-      "path": "docs/skill-work/skill-work-alpha-school/alpha-school-benchmarks.yaml",
-      "description": "Structured Alpha benchmarks (YAML) with evidence IDs; optional comparison targets.",
-      "optional": true
-    },
-    {
-      "path": "docs/skill-work/skill-work-alpha-school/insights-alpha-moonshots-233-for-business.md",
-      "description": "Alpha/Moonshots #233 insights for business plan and white paper (skill-work-alpha-school submodule).",
+      "description": "Skill-work parent index (submodules including skill-work-human-teacher).",
       "optional": true
     },
     {
@@ -287,7 +272,7 @@
     },
     {
       "path": "schema-registry/observability-report.v1.json",
-      "description": "JSON Schema for users/demo/observability/observability-report.json.",
+      "description": "JSON Schema for demo/observability/observability-report.json.",
       "optional": true
     },
     {
@@ -306,82 +291,82 @@
       "optional": false
     },
     {
-      "path": "users/_template/self.md",
+      "path": "_template/self.md",
       "description": "SELF schema/structure scaffold for new users only.",
       "optional": false
     },
     {
-      "path": "users/_template/self-knowledge.md",
+      "path": "_template/self-knowledge.md",
       "description": "IX-A: what they've learned (self-knowledge) scaffold.",
       "optional": false
     },
     {
-      "path": "users/_template/self-identity.md",
+      "path": "_template/self-identity.md",
       "description": "Durable identity commitments scaffold (identity, boundaries, role commitments).",
       "optional": false
     },
     {
-      "path": "users/_template/self-curiosity.md",
+      "path": "_template/self-curiosity.md",
       "description": "IX-B: what they're curious about (self-curiosity) scaffold.",
       "optional": false
     },
     {
-      "path": "users/_template/self-personality.md",
+      "path": "_template/self-personality.md",
       "description": "IX-C: voice, preferences, values (self-personality) scaffold.",
       "optional": false
     },
     {
-      "path": "users/_template/self-skill-think.md",
+      "path": "_template/self-skill-think.md",
       "description": "THINK (self-skill-think) scaffold.",
       "optional": false
     },
     {
-      "path": "users/_template/self-skill-write.md",
+      "path": "_template/self-skill-write.md",
       "description": "WRITE (self-skill-write) scaffold.",
       "optional": false
     },
     {
-      "path": "users/_template/self-skill-work.md",
+      "path": "_template/self-skill-work.md",
       "description": "WORK (self-skill-work) scaffold.",
       "optional": false
     },
     {
-      "path": "users/_template/self-skill-steward.md",
+      "path": "_template/self-skill-steward.md",
       "description": "STEWARD (self-skill-steward) scaffold — governance literacy and gate participation.",
       "optional": false
     },
     {
-      "path": "users/_template/self-work.md",
+      "path": "_template/self-work.md",
       "description": "Cross-lane self-work control-plane scaffold.",
       "optional": false
     },
     {
-      "path": "users/_template/self-evidence.md",
+      "path": "_template/self-evidence.md",
       "description": "Evidence schema/structure scaffold.",
       "optional": false
     },
     {
-      "path": "users/_template/recursion-gate.md",
+      "path": "_template/recursion-gate.md",
       "description": "Recursive-gate staging scaffold (candidates at the gate).",
       "optional": false
     },
     {
-      "path": "users/_template/self-memory.md",
+      "path": "_template/self-memory.md",
       "description": "Ephemeral context scaffold.",
       "optional": true
     },
     {
-      "path": "users/_template/self-library.md",
+      "path": "_template/self-library.md",
       "description": "SELF-LIBRARY scaffold: governance + empty entries; reference-facing shelf (not IX-A).",
       "optional": true
     },
     {
-      "path": "users/_template/work-business.md",
+      "path": "_template/work-business.md",
       "description": "WORK user module: business/commercial context; seeded via work_business_seed.json (not docs/skill-work/work-business/).",
       "optional": false
     },
     {
-      "path": "users/_template/work-dev.md",
+      "path": "_template/work-dev.md",
       "description": "WORK user module: development/technical context; seeded via work_dev_seed.json (not docs/skill-work/work-dev/).",
       "optional": false
     },
@@ -407,7 +392,7 @@
     },
     {
       "path": "scripts/validate-record-boundaries.py",
-      "description": "Validates optional YAML frontmatter on users/**/*.md when present.",
+      "description": "Validates optional YAML frontmatter on *.md when present.",
       "optional": false
     },
     {
@@ -422,12 +407,12 @@
     },
     {
       "path": "scripts/generate-provenance.js",
-      "description": "Writes state/provenance/record-docs-summary.json for users/ and docs/ (output gitignored).",
+      "description": "Writes state/provenance/record-docs-summary.json for  and docs/ (output gitignored).",
       "optional": true
     },
     {
       "path": "scripts/truth-density-score.py",
-      "description": "Heuristic must-persist token density under users/.",
+      "description": "Heuristic must-persist token density under .",
       "optional": true
     },
     {
@@ -447,7 +432,7 @@
     },
     {
       "path": "scripts/validate-change-review.py",
-      "description": "Validates users/<id>/review-queue trees against change-review schemas (strict or --allow-empty for template scaffold).",
+      "description": "Validates review-queue trees against change-review schemas (strict or --allow-empty for template scaffold).",
       "optional": false
     },
     {
@@ -557,7 +542,7 @@
     },
     {
       "path": "scripts/companion_factory.py",
-      "description": "Copy template root to a new instance directory and seed users/<id>/seed-phase from _template.",
+      "description": "Copy template root to a new instance directory and seed seed-phase from _template.",
       "optional": true
     },
     {
@@ -586,172 +571,172 @@
       "optional": true
     },
     {
-      "path": "users/_template/seed-phase/README.md",
+      "path": "_template/seed-phase/README.md",
       "description": "Seed-phase artifact scaffold README (pre-activation).",
       "optional": false
     },
     {
-      "path": "users/_template/seed-phase/seed-phase-manifest.json",
+      "path": "_template/seed-phase/seed-phase-manifest.json",
       "description": "Seed-phase manifest placeholder.",
       "optional": false
     },
     {
-      "path": "users/_template/seed-phase/seed_intake.json",
+      "path": "_template/seed-phase/seed_intake.json",
       "description": "Seed intake placeholder.",
       "optional": false
     },
     {
-      "path": "users/_template/seed-phase/seed_intent.json",
+      "path": "_template/seed-phase/seed_intent.json",
       "description": "Seed intent placeholder (purpose, workflows, review zones).",
       "optional": false
     },
     {
-      "path": "users/_template/seed-phase/seed_identity.json",
+      "path": "_template/seed-phase/seed_identity.json",
       "description": "Seed identity placeholder.",
       "optional": false
     },
     {
-      "path": "users/_template/seed-phase/seed_curiosity.json",
+      "path": "_template/seed-phase/seed_curiosity.json",
       "description": "Seed curiosity placeholder.",
       "optional": false
     },
     {
-      "path": "users/_template/seed-phase/seed_pedagogy.json",
+      "path": "_template/seed-phase/seed_pedagogy.json",
       "description": "Seed pedagogy placeholder.",
       "optional": false
     },
     {
-      "path": "users/_template/seed-phase/seed_expression.json",
+      "path": "_template/seed-phase/seed_expression.json",
       "description": "Seed expression placeholder.",
       "optional": false
     },
     {
-      "path": "users/_template/seed-phase/seed_memory_contract.json",
+      "path": "_template/seed-phase/seed_memory_contract.json",
       "description": "Seed memory contract placeholder.",
       "optional": false
     },
     {
-      "path": "users/_template/seed-phase/memory_ops_contract.json",
+      "path": "_template/seed-phase/memory_ops_contract.json",
       "description": "MemoryOps contract placeholder (taxonomy, retention, rights, drift).",
       "optional": false
     },
     {
-      "path": "users/_template/seed-phase/seed_trial_report.json",
+      "path": "_template/seed-phase/seed_trial_report.json",
       "description": "Seed trial report placeholder.",
       "optional": false
     },
     {
-      "path": "users/_template/seed-phase/seed_readiness.json",
+      "path": "_template/seed-phase/seed_readiness.json",
       "description": "Seed readiness placeholder.",
       "optional": false
     },
     {
-      "path": "users/_template/seed-phase/seed_confidence_map.json",
+      "path": "_template/seed-phase/seed_confidence_map.json",
       "description": "Seed confidence map placeholder.",
       "optional": false
     },
     {
-      "path": "users/_template/seed-phase/work_business_seed.json",
+      "path": "_template/seed-phase/work_business_seed.json",
       "description": "Work-business seed placeholder (promotes to work-business.md on activation).",
       "optional": false
     },
     {
-      "path": "users/_template/seed-phase/work_dev_seed.json",
+      "path": "_template/seed-phase/work_dev_seed.json",
       "description": "Work-dev seed placeholder (promotes to work-dev.md on activation).",
       "optional": false
     },
     {
-      "path": "users/_template/seed-phase/seed_constitution.json",
+      "path": "_template/seed-phase/seed_constitution.json",
       "description": "Seed constitution (governance hierarchy + optional self-critique protocol).",
       "optional": false
     },
     {
-      "path": "users/_template/seed-phase/seed_dossier.md",
+      "path": "_template/seed-phase/seed_dossier.md",
       "description": "Seed dossier placeholder.",
       "optional": false
     },
     {
-      "path": "users/demo/seed-phase/README.md",
+      "path": "demo/seed-phase/README.md",
       "description": "Demo seed-phase README (synthetic).",
       "optional": false
     },
     {
-      "path": "users/demo/seed-phase/seed-phase-manifest.json",
+      "path": "demo/seed-phase/seed-phase-manifest.json",
       "description": "Demo seed-phase manifest.",
       "optional": false
     },
     {
-      "path": "users/demo/seed-phase/seed_intake.json",
+      "path": "demo/seed-phase/seed_intake.json",
       "description": "Demo seed intake.",
       "optional": false
     },
     {
-      "path": "users/demo/seed-phase/seed_intent.json",
+      "path": "demo/seed-phase/seed_intent.json",
       "description": "Demo seed intent.",
       "optional": false
     },
     {
-      "path": "users/demo/seed-phase/seed_identity.json",
+      "path": "demo/seed-phase/seed_identity.json",
       "description": "Demo seed identity.",
       "optional": false
     },
     {
-      "path": "users/demo/seed-phase/seed_curiosity.json",
+      "path": "demo/seed-phase/seed_curiosity.json",
       "description": "Demo seed curiosity.",
       "optional": false
     },
     {
-      "path": "users/demo/seed-phase/seed_pedagogy.json",
+      "path": "demo/seed-phase/seed_pedagogy.json",
       "description": "Demo seed pedagogy.",
       "optional": false
     },
     {
-      "path": "users/demo/seed-phase/seed_expression.json",
+      "path": "demo/seed-phase/seed_expression.json",
       "description": "Demo seed expression.",
       "optional": false
     },
     {
-      "path": "users/demo/seed-phase/seed_memory_contract.json",
+      "path": "demo/seed-phase/seed_memory_contract.json",
       "description": "Demo seed memory contract.",
       "optional": false
     },
     {
-      "path": "users/demo/seed-phase/memory_ops_contract.json",
+      "path": "demo/seed-phase/memory_ops_contract.json",
       "description": "Demo MemoryOps contract.",
       "optional": false
     },
     {
-      "path": "users/demo/seed-phase/seed_trial_report.json",
+      "path": "demo/seed-phase/seed_trial_report.json",
       "description": "Demo seed trial report.",
       "optional": false
     },
     {
-      "path": "users/demo/seed-phase/seed_readiness.json",
+      "path": "demo/seed-phase/seed_readiness.json",
       "description": "Demo seed readiness.",
       "optional": false
     },
     {
-      "path": "users/demo/seed-phase/seed_confidence_map.json",
+      "path": "demo/seed-phase/seed_confidence_map.json",
       "description": "Demo seed confidence map.",
       "optional": false
     },
     {
-      "path": "users/demo/seed-phase/work_business_seed.json",
+      "path": "demo/seed-phase/work_business_seed.json",
       "description": "Demo work-business seed (synthetic).",
       "optional": false
     },
     {
-      "path": "users/demo/seed-phase/work_dev_seed.json",
+      "path": "demo/seed-phase/work_dev_seed.json",
       "description": "Demo work-dev seed (synthetic).",
       "optional": false
     },
     {
-      "path": "users/demo/seed-phase/seed_constitution.json",
+      "path": "demo/seed-phase/seed_constitution.json",
       "description": "Demo seed constitution (synthetic).",
       "optional": false
     },
     {
-      "path": "users/demo/seed-phase/seed_dossier.md",
+      "path": "demo/seed-phase/seed_dossier.md",
       "description": "Demo seed dossier.",
       "optional": false
     },
@@ -761,67 +746,67 @@
       "optional": false
     },
     {
-      "path": "users/_template/review-queue/README.md",
+      "path": "_template/review-queue/README.md",
       "description": "Template review-queue scaffold README.",
       "optional": false
     },
     {
-      "path": "users/_template/review-queue/change_review_queue.json",
+      "path": "_template/review-queue/change_review_queue.json",
       "description": "Template change-review queue placeholder.",
       "optional": false
     },
     {
-      "path": "users/_template/review-queue/change_event_log.json",
+      "path": "_template/review-queue/change_event_log.json",
       "description": "Template change event log placeholder.",
       "optional": false
     },
     {
-      "path": "users/_template/review-queue/proposals/.gitkeep",
+      "path": "_template/review-queue/proposals/.gitkeep",
       "description": "Tracks empty proposals directory in template scaffold.",
       "optional": false
     },
     {
-      "path": "users/_template/review-queue/decisions/.gitkeep",
+      "path": "_template/review-queue/decisions/.gitkeep",
       "description": "Tracks empty decisions directory in template scaffold.",
       "optional": false
     },
     {
-      "path": "users/_template/review-queue/diffs/.gitkeep",
+      "path": "_template/review-queue/diffs/.gitkeep",
       "description": "Tracks empty diffs directory in template scaffold.",
       "optional": false
     },
     {
-      "path": "users/demo/review-queue/README.md",
+      "path": "demo/review-queue/README.md",
       "description": "Demo review-queue README (synthetic).",
       "optional": false
     },
     {
-      "path": "users/demo/review-queue/change_review_queue.json",
+      "path": "demo/review-queue/change_review_queue.json",
       "description": "Demo change-review queue JSON.",
       "optional": false
     },
     {
-      "path": "users/demo/review-queue/change_event_log.json",
+      "path": "demo/review-queue/change_event_log.json",
       "description": "Demo change event log JSON.",
       "optional": false
     },
     {
-      "path": "users/demo/review-queue/proposals/proposal-demo-001.json",
+      "path": "demo/review-queue/proposals/proposal-demo-001.json",
       "description": "Demo change proposal JSON.",
       "optional": false
     },
     {
-      "path": "users/demo/review-queue/decisions/decision-demo-001.json",
+      "path": "demo/review-queue/decisions/decision-demo-001.json",
       "description": "Demo change decision JSON.",
       "optional": false
     },
     {
-      "path": "users/demo/review-queue/diffs/diff-001.json",
+      "path": "demo/review-queue/diffs/diff-001.json",
       "description": "Demo identity diff JSON (extended with recommendedAction and whyItMatters).",
       "optional": false
     },
     {
-      "path": "users/demo/review-queue/diffs/diff-002.json",
+      "path": "demo/review-queue/diffs/diff-002.json",
       "description": "Demo identity diff JSON with conflict note (curiosity upgrade scenario).",
       "optional": false
     },
@@ -836,12 +821,12 @@
       "optional": false
     },
     {
-      "path": "users/demo/review-queue/derived/pedagogy-draft-v2.json",
+      "path": "demo/review-queue/derived/pedagogy-draft-v2.json",
       "description": "Demo proposed-state stub referenced by proposal.",
       "optional": false
     },
     {
-      "path": "users/demo/observability/observability-report.json",
+      "path": "demo/observability/observability-report.json",
       "description": "Demo observability report; regenerate with scripts/build-observability-report.py.",
       "optional": true
     },
@@ -921,8 +906,8 @@
     "renderer": "scripts/render_record_diff_queue.py",
     "schema": "schema-registry/identity-diff.v1.json",
     "demo_diffs": [
-      "users/demo/review-queue/diffs/diff-001.json",
-      "users/demo/review-queue/diffs/diff-002.json"
+      "demo/review-queue/diffs/diff-001.json",
+      "demo/review-queue/diffs/diff-002.json"
     ]
   },
   "seed_registry": {
@@ -951,7 +936,7 @@
       "docs/seed-timeline.md",
       "docs/seed-phase-doctrine.md"
     ],
-    "demo_data": "users/demo/seed-registry.jsonl"
+    "demo_data": "demo/seed-registry.jsonl"
   },
   "layer_architecture": {
     "version": "1.0.0",
@@ -960,9 +945,10 @@
       "docs/layer-architecture.md"
     ],
     "instance_doctrine": {
-      "template": "users/_template/instance-doctrine.md",
-      "demo": "users/demo/instance-doctrine.md",
-      "grace_mar": "users/grace-mar/instance-doctrine.md"
+      "template": "_template/instance-doctrine.md",
+      "demo": "demo/instance-doctrine.md",
+      "grace_mar": "instance-doctrine.md"
     }
   }
 }
+

@@ -30,8 +30,8 @@ _Operator WORK product. Complete synthesis below; cite sources before any public
 _From `docs/skill-work/work-strategy/daily-brief-focus.md` § Active focus._
 
 - Campaign/companion positioning: portable Record, human-only merge, Voice boundary.
-- OpenClaw ↔ repo handback and export provenance (see [work-dev workspace](../work-dev/workspace.md)).
-- AI-in-schools and identity-substrate narrative vs Alpha-style bundles (see [work-alpha-school](../work-alpha-school/README.md), [work-dev offers](../work-dev/offers.md)).
+- OpenClaw â†” repo handback and export provenance (see [work-dev workspace](../work-dev/workspace.md)).
+- AI-in-schools and identity-substrate narrative vs school bundles (see [work-dev offers](../work-dev/offers.md)).
 - Optional: federal / state AI governance headlines when relevant to offers or civ-mem work.
 - Long-form tech discourse (GTC-class, Moonshots-class): themes distilled in [external-tech-scan.md](external-tech-scan.md) — use for **strategy vocabulary** and **keyword-season** tuning in [daily-brief-config.json](daily-brief-config.json); **not** unsourced brief facts.
 
@@ -39,7 +39,7 @@ _Product / integration context: [work-dev/workspace.md](../work-dev/workspace.md
 
 ## 2. Headlines (ingested RSS)
 
-_Fetch failed for: Reuters — World, BBC News — World, Defense One — All, NPR — national news, NBC News — politics, The Hill — politics, Roll Call — Congress, Le Monde — français (France / monde), Der Spiegel — Deutsch (Schlagzeilen), BBC Mundo — español (Américas / global), France 24 — العربية (MENA), Hacker News — front page._
+_Fetch failed for: Reuters — World, BBC News — World, Defense One — All, NPR — national news, NBC News — politics, The Hill — politics, Roll Call — Congress, Le Monde — franÃ§ais (France / monde), Der Spiegel — Deutsch (Schlagzeilen), BBC Mundo — espaÃ±ol (Américas / global), France 24 — Ø§Ù„Ø¹Ø±Ø¨ÙŠØ© (MENA), Hacker News — front page._
 
 _No items parsed or all outside recency window._ Try `--max-age-hours` or check feed URLs.
 

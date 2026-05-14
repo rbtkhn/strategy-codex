@@ -69,9 +69,9 @@ Benchmarks to track personalized growth, engagement, formative loop health, and 
 |--------|-------------|--------|
 | Prompts generated per week | Generator invocations | Generator logs (add instrumentation) |
 | Focus distribution | `--focus reading|math|work|integrated` usage | Generator logs |
-| Alpha-school flag usage | `--alpha-school` invocations when available | Generator logs |
+| mastery-learning flag usage | `--mastery-learning` invocations when available | Generator logs |
 
-### Alpha-school alignment (when `--alpha-school` is used)
+### mastery-learning alignment (when `--mastery-learning` is used)
 
 | Metric | Description | Source |
 |--------|-------------|--------|
@@ -84,5 +84,5 @@ Benchmarks to track personalized growth, engagement, formative loop health, and 
 ## Instrumentation Notes
 
 - **recursion-gate.md** — Add `source: lesson` (or `source: transcript_handback`) to candidates staged from lesson "we did X" or transcript paste so lesson-sourced metrics can be filtered.
-- **generate_lesson_prompt.py** — Add optional `--log` or emit events to record: timestamp, `--focus`, `--alpha-school`, `-u` user. Write to `pipeline-events.jsonl` or a dedicated `lesson-generator-events.jsonl`.
+- **generate_lesson_prompt.py** — Add optional `--log` or emit events to record: timestamp, `--focus`, `--mastery-learning`, `-u` user. Write to `pipeline-events.jsonl` or a dedicated `lesson-generator-events.jsonl`.
 - **Aggregation script** — Optional: `scripts/human_teacher_benchmarks.py` to summarize IX growth, evidence rate, lesson-sourced merge rate, handback latency, skill-think changes from the above sources.

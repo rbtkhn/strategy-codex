@@ -31,8 +31,8 @@ _Operator WORK product. Complete synthesis below; cite sources before any public
 _From `docs/skill-work/work-strategy/daily-brief-focus.md` § Active focus._
 
 - Campaign/companion positioning: portable Record, human-only merge, Voice boundary.
-- OpenClaw ↔ repo handback and export provenance (see [work-dev workspace](../work-dev/workspace.md)).
-- AI-in-schools and identity-substrate narrative vs Alpha-style bundles (see [work-alpha-school](../work-alpha-school/README.md), [work-dev offers](../work-dev/offers.md)).
+- OpenClaw â†” repo handback and export provenance (see [work-dev workspace](../work-dev/workspace.md)).
+- AI-in-schools and identity-substrate narrative vs school bundles (see [work-dev offers](../work-dev/offers.md)).
 - Optional: federal / state AI governance headlines when relevant to offers or civ-mem work.
 - Long-form tech discourse (GTC-class, Moonshots-class): themes distilled in [external-tech-scan.md](external-tech-scan.md) — use for **strategy vocabulary** and **keyword-season** tuning in [daily-brief-config.json](daily-brief-config.json); **not** unsourced brief facts.
 
@@ -58,15 +58,15 @@ _Same-story clusters use anchor overlap on titles (proper nouns / crisis terms);
 
 #### Other headlines
 
-- **[W:6 S:0 G:0]** [EN DIRECT, guerre en Ukraine : tandis que le président ukrainien Zelensky est en Arabie saoudite, le ministre des affaires étrangères russe, Sergueï Lavrov, accordera une interview au « 20 heures » de France 2](https://www.lemonde.fr/international/live/2026/03/26/en-direct-guerre-en-ukraine-tandis-que-le-president-ukrainien-zelensky-est-en-arabie-saoudite-le-ministre-des-affaires-etrangeres-russe-serguei-lavrov-accordera-une-interview-au-20-heures-de-france-2_6673450_3210.html) — _Le Monde — français (France / monde)_ · _fr_ · _2026-03-26 19:47 UTC_
-- **[W:4 S:0 G:0]** [Iran-News heute: Berichte über US-Pläne eines »finalen Schlags« – was steckt dahinter?](https://www.spiegel.de/ausland/iran-news-heute-teheran-will-laut-abbas-araghchi-keine-verhandlungen-mit-den-usa-a-61992055-24e6-44f3-b39c-e65d3e25099e#ref=rss) — _Der Spiegel — Deutsch (Schlagzeilen)_ · _de_ · _2026-03-26 18:44 UTC_
-- **[W:4 S:0 G:0]** [El rechazo de Irán a dialogar con EE.UU. refleja una profunda desconfianza en Trump](https://www.bbc.com/mundo/articles/cx2eqd4vv4wo?at_medium=RSS&at_campaign=rss) — _BBC Mundo — español (Américas / global)_ · _es_ · _2026-03-26 12:15 UTC_
+- **[W:6 S:0 G:0]** [EN DIRECT, guerre en Ukraine : tandis que le président ukrainien Zelensky est en Arabie saoudite, le ministre des affaires étrangÃ¨res russe, SergueÃ¯ Lavrov, accordera une interview au Â« 20 heures Â» de France 2](https://www.lemonde.fr/international/live/2026/03/26/en-direct-guerre-en-ukraine-tandis-que-le-president-ukrainien-zelensky-est-en-arabie-saoudite-le-ministre-des-affaires-etrangeres-russe-serguei-lavrov-accordera-une-interview-au-20-heures-de-france-2_6673450_3210.html) — _Le Monde — franÃ§ais (France / monde)_ · _fr_ · _2026-03-26 19:47 UTC_
+- **[W:4 S:0 G:0]** [Iran-News heute: Berichte Ã¼ber US-PlÃ¤ne eines Â»finalen SchlagsÂ« – was steckt dahinter?](https://www.spiegel.de/ausland/iran-news-heute-teheran-will-laut-abbas-araghchi-keine-verhandlungen-mit-den-usa-a-61992055-24e6-44f3-b39c-e65d3e25099e#ref=rss) — _Der Spiegel — Deutsch (Schlagzeilen)_ · _de_ · _2026-03-26 18:44 UTC_
+- **[W:4 S:0 G:0]** [El rechazo de IrÃ¡n a dialogar con EE.UU. refleja una profunda desconfianza en Trump](https://www.bbc.com/mundo/articles/cx2eqd4vv4wo?at_medium=RSS&at_campaign=rss) — _BBC Mundo — espaÃ±ol (Américas / global)_ · _es_ · _2026-03-26 12:15 UTC_
 - **[W:1 S:1 G:2]** [Lessons from Ukraine are shaping US Army's drones, training, comms](https://www.defenseone.com/defense-systems/2026/03/army-needs-more-realistic-drone-training-more-versatile-drones/412389/) — _Defense One — All_ · _2026-03-25 19:33 UTC_
-- **[W:3 S:0 G:0]** [Mohamed El-Erian zum Irankrieg: »Der Geist der Inflation ist aus der Flasche«](https://www.spiegel.de/wirtschaft/iran-krieg-folgen-der-geist-der-inflation-ist-aus-der-flasche-a-dfcdd9b4-f07f-4cc5-8cc0-060c29874407#ref=rss) — _Der Spiegel — Deutsch (Schlagzeilen)_ · _de_ · _2026-03-26 20:06 UTC_
+- **[W:3 S:0 G:0]** [Mohamed El-Erian zum Irankrieg: Â»Der Geist der Inflation ist aus der FlascheÂ«](https://www.spiegel.de/wirtschaft/iran-krieg-folgen-der-geist-der-inflation-ist-aus-der-flasche-a-dfcdd9b4-f07f-4cc5-8cc0-060c29874407#ref=rss) — _Der Spiegel — Deutsch (Schlagzeilen)_ · _de_ · _2026-03-26 20:06 UTC_
 - **[W:3 S:0 G:0]** [Rationing power and diluting petrol - how African countries are coping with effects of Iran war](https://www.bbc.com/news/articles/cq8wkq1n9epo?at_medium=RSS&at_campaign=rss) — _BBC News — World_ · _2026-03-26 17:57 UTC_
-- **[W:3 S:0 G:0]** [دول تشجع واشنطن وتل أبيب على مواصلة الحرب ضد إيران.. ما موقف دول الخليج العربي؟](https://www.france24.com/ar/%D9%81%D9%8A%D8%AF%D9%8A%D9%88/20260326-%D8%AF%D9%88%D9%84-%D8%AA%D8%B4%D8%AC%D8%B9-%D9%88%D8%A7%D8%B4%D9%86%D8%B7%D9%86-%D9%88%D8%AA%D9%84-%D8%A3%D8%A8%D9%8A%D8%A8-%D8%B9%D9%84%D9%89-%D9%85%D9%88%D8%A7%D8%B5%D9%84%D8%A9-%D8%A7%D9%84%D8%AD%D8%B1%D8%A8-%D8%B6%D8%AF-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D9%85%D8%A7-%D9%85%D9%88%D9%82%D9%81-%D8%AF%D9%88%D9%84-%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A) — _France 24 — العربية (MENA)_ · _ar_ · _2026-03-26 16:07 UTC_
+- **[W:3 S:0 G:0]** [Ø¯ÙˆÙ„ ØªØ´Ø¬Ø¹ ÙˆØ§Ø´Ù†Ø·Ù† ÙˆØªÙ„ Ø£Ø¨ÙŠØ¨ Ø¹Ù„Ù‰ Ù…ÙˆØ§ØµÙ„Ø© Ø§Ù„Ø­Ø±Ø¨ Ø¶Ø¯ Ø¥ÙŠØ±Ø§Ù†.. Ù…Ø§ Ù…ÙˆÙ‚Ù Ø¯ÙˆÙ„ Ø§Ù„Ø®Ù„ÙŠØ¬ Ø§Ù„Ø¹Ø±Ø¨ÙŠØŸ](https://www.france24.com/ar/%D9%81%D9%8A%D8%AF%D9%8A%D9%88/20260326-%D8%AF%D9%88%D9%84-%D8%AA%D8%B4%D8%AC%D8%B9-%D9%88%D8%A7%D8%B4%D9%86%D8%B7%D9%86-%D9%88%D8%AA%D9%84-%D8%A3%D8%A8%D9%8A%D8%A8-%D8%B9%D9%84%D9%89-%D9%85%D9%88%D8%A7%D8%B5%D9%84%D8%A9-%D8%A7%D9%84%D8%AD%D8%B1%D8%A8-%D8%B6%D8%AF-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D9%85%D8%A7-%D9%85%D9%88%D9%82%D9%81-%D8%AF%D9%88%D9%84-%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A) — _France 24 — Ø§Ù„Ø¹Ø±Ø¨ÙŠØ© (MENA)_ · _ar_ · _2026-03-26 16:07 UTC_
 - **[W:3 S:0 G:0]** [Russia bans Oscar-winning film 'Mr Nobody Against Putin'](https://www.bbc.com/news/articles/cly97ddwgeko?at_medium=RSS&at_campaign=rss) — _BBC News — World_ · _2026-03-26 13:18 UTC_
-- **[W:3 S:0 G:0]** [Cómo China se preparó durante años para una crisis de petróleo mundial y cuál es su punto débil](https://www.bbc.com/mundo/articles/c3w3e840x8qo?at_medium=RSS&at_campaign=rss) — _BBC Mundo — español (Américas / global)_ · _es_ · _2026-03-26 10:39 UTC_
+- **[W:3 S:0 G:0]** [CÃ³mo China se preparÃ³ durante aÃ±os para una crisis de petrÃ³leo mundial y cuÃ¡l es su punto débil](https://www.bbc.com/mundo/articles/c3w3e840x8qo?at_medium=RSS&at_campaign=rss) — _BBC Mundo — espaÃ±ol (Américas / global)_ · _es_ · _2026-03-26 10:39 UTC_
 - **[W:2 S:1 G:0]** [US prosecutors argue Maduro 'plundered' Venezuelan wealth in court battle over legal fees](https://www.bbc.com/news/articles/c4g8wxyq7v5o?at_medium=RSS&at_campaign=rss) — _BBC News — World_ · _2026-03-26 18:49 UTC_
 - **[W:2 S:0 G:1]** [Zelensky visits Saudi Arabia after offering Ukraine's drone expertise](https://www.bbc.com/news/articles/cx2r4wxdw3no?at_medium=RSS&at_campaign=rss) — _BBC News — World_ · _2026-03-26 18:24 UTC_
 - **[W:2 S:0 G:1]** [Senators request two companies preserve communications with Corey Lewandowski](https://www.nbcnews.com/politics/trump-administration/democratic-senators-want-two-companies-preserve-communications-corey-l-rcna265152) — _NBC News — politics_ · _2026-03-25 20:54 UTC_
@@ -99,9 +99,9 @@ _Token overlap against `docs/civilization-memory/` (build: `python3 scripts/buil
 ## 3. Lead themes (auto-stub — replace after reading)
 
 ### Work-politics / campaign angle
-- EN DIRECT, guerre en Ukraine : tandis que le président ukrainien Zelensky est en Arabie saoudite, le ministre des affaires étrangères russe, Sergueï Lavrov, accordera une interview au « 20 heures » de France 2
-- Iran-News heute: Berichte über US-Pläne eines »finalen Schlags« – was steckt dahinter?
-- El rechazo de Irán a dialogar con EE.UU. refleja una profunda desconfianza en Trump
+- EN DIRECT, guerre en Ukraine : tandis que le président ukrainien Zelensky est en Arabie saoudite, le ministre des affaires étrangÃ¨res russe, SergueÃ¯ Lavrov, accordera une interview au Â« 20 heures Â» de France 2
+- Iran-News heute: Berichte Ã¼ber US-PlÃ¤ne eines Â»finalen SchlagsÂ« – was steckt dahinter?
+- El rechazo de IrÃ¡n a dialogar con EE.UU. refleja una profunda desconfianza en Trump
 
 **Replace:** 2–3 sentences for principal, district, opposition narrative.
 

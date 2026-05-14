@@ -1,4 +1,4 @@
-﻿# Daily brief â€” work-politics & work-strategy
+# Daily brief Ã¢â‚¬” work-politics & work-strategy
 
 **Date:** 2026-03-28  
 **Assembled:** 2026-03-28 11:52 UTC  
@@ -9,15 +9,15 @@ _Operator WORK product. Complete synthesis below; cite sources before any public
 
 ## 1. Work-politics snapshot
 
-- **Primary:** May 19, 2026 â€” **days until:** 51
+- **Primary:** May 19, 2026 Ã¢â‚¬” **days until:** 51
 - **Work-politics gate:** 0 pending candidate(s)
 
 ### Upcoming (from calendar)
 
-- ****Apr 20, 2026**** â€” **Voter registration deadline** (in-person and mail; mail = postmark) â€” Push registration in-district; remind supporters.
-- ****May 5, 2026**** â€” Mail-in absentee ballot request portal closes â€” Voters who need absentee must request by this date.
-- ****May 7, 2026**** â€” **FEC pre-primary report due** â€” Covers period Apr 1â€“Apr 29. Registration/certification & overnight mail deadline May 4.
-- ****May 19, 2026**** â€” **Primary election day** â€” Polls open; final GOTV.
+- ****Apr 20, 2026**** Ã¢â‚¬” **Voter registration deadline** (in-person and mail; mail = postmark) Ã¢â‚¬” Push registration in-district; remind supporters.
+- ****May 5, 2026**** Ã¢â‚¬” Mail-in absentee ballot request portal closes Ã¢â‚¬” Voters who need absentee must request by this date.
+- ****May 7, 2026**** Ã¢â‚¬” **FEC pre-primary report due** Ã¢â‚¬” Covers period Apr 1Ã¢â‚¬“Apr 29. Registration/certification & overnight mail deadline May 4.
+- ****May 19, 2026**** Ã¢â‚¬” **Primary election day** Ã¢â‚¬” Polls open; final GOTV.
 
 ### Territory signals (from docs)
 
@@ -27,109 +27,109 @@ _Operator WORK product. Complete synthesis below; cite sources before any public
 
 ## 1b. Work-strategy focus
 
-_From `docs/skill-work/work-strategy/daily-brief-focus.md` Â§ Active focus._
+_From `docs/skill-work/work-strategy/daily-brief-focus.md` Ã‚§ Active focus._
 
 - Campaign/companion positioning: portable Record, human-only merge, Voice boundary.
-- OpenClaw â†” repo handback and export provenance (see [work-dev workspace](../work-dev/workspace.md)).
-- AI-in-schools and identity-substrate narrative vs Alpha-style bundles (see [work-alpha-school](../work-alpha-school/README.md), [work-dev offers](../work-dev/offers.md)).
+- OpenClaw Ã¢â€ ” repo handback and export provenance (see [work-dev workspace](../work-dev/workspace.md)).
+- AI-in-schools and identity-substrate narrative vs school bundles (see [work-dev offers](../work-dev/offers.md)).
 - Optional: federal / state AI governance headlines when relevant to offers or civ-mem work.
-- Long-form tech discourse (GTC-class, Moonshots-class): themes distilled in [external-tech-scan.md](external-tech-scan.md) â€” use for **strategy vocabulary** and **keyword-season** tuning in [daily-brief-config.json](daily-brief-config.json); **not** unsourced brief facts.
+- Long-form tech discourse (GTC-class, Moonshots-class): themes distilled in [external-tech-scan.md](external-tech-scan.md) Ã¢â‚¬” use for **strategy vocabulary** and **keyword-season** tuning in [daily-brief-config.json](daily-brief-config.json); **not** unsourced brief facts.
 
-## 1c. Two horizons â€” fast vs slow
+## 1c. Two horizons Ã¢â‚¬” fast vs slow
 
-**Fast (same brief):** Â§**2** RSS headlines + Â§**1** snapshot â€” news cycle, principal-adjacent hooks, scored **W / S / G**.
+**Fast (same brief):** Ã‚§**2** RSS headlines + Ã‚§**1** snapshot Ã¢â‚¬” news cycle, principal-adjacent hooks, scored **W / S / G**.
 
-**Slow (work-jiang):** lecture extractions, compression JSON, comparative sweeps â€” **structural** context; not a substitute for dated facts. Prefer [SELF-LIBRARY](../../../self-library.md) entries (e.g. reference / `lookup_priority`) when library-first lookup applies.
+**Slow (work-jiang):** lecture extractions, compression JSON, comparative sweeps Ã¢â‚¬” **structural** context; not a substitute for dated facts. Prefer [SELF-LIBRARY](../../../self-library.md) entries (e.g. reference / `lookup_priority`) when library-first lookup applies.
 
-_From `docs/skill-work/work-strategy/daily-brief-jiang-layer.md` Â§ Active work-jiang hooks._
+_From `docs/skill-work/work-strategy/daily-brief-jiang-layer.md` Ã‚§ Active work-jiang hooks._
 
 - _Edit this section between brief runs. List repo-relative paths or one-line labels._
-- _Example:_ `research/external/work-jiang/compressions/<slug>-YYYYMMDD.json`
-- _Example:_ `research/external/work-jiang/**/*.paste-snippet.md` (paste the exact path you used)
-- _Example:_ [COMPRESSION-ENGINE.md](../work-jiang/COMPRESSION-ENGINE.md) â€” last run: _date_
+- _Example:_ `codex/predictive-history/compressions/<slug>-YYYYMMDD.json`
+- _Example:_ `codex/predictive-history/**/*.paste-snippet.md` (paste the exact path you used)
+- _Example:_ [COMPRESSION-ENGINE.md](../codex/predictive-history/COMPRESSION-ENGINE.md) Ã¢â‚¬” last run: _date_
 - ---
 
 _Product / integration context: [work-dev/workspace.md](../work-dev/workspace.md), [work-strategy/README.md](README.md)._
 
-## 1d. Putin â€” last 48 hours
+## 1d. Putin Ã¢â‚¬” last 48 hours
 
-_Window ~2026-03-26 12:00 UTC â†’ 2026-03-28 20:00 UTC (menu C refresh). Operator WORK; cite before public use. Procedure: [daily-brief-putin-watch.md](daily-brief-putin-watch.md)._
+_Window ~2026-03-26 12:00 UTC Ã¢â€ ’ 2026-03-28 20:00 UTC (menu C refresh). Operator WORK; cite before public use. Procedure: [daily-brief-putin-watch.md](daily-brief-putin-watch.md)._
 
-- **2026-03-28 â€” Murmansk (International Arctic Forum context per Reuters):** Speaking to seamen, Putin floated a **temporary international administration** for Ukraine â€” â€œunder the auspices of the **U.N., the United States, European countries and our partners**â€ â€” to hold **elections** and install a government â€œenjoying the trust of the people,â€ then negotiate a **peace treaty**. He said Russia favors peaceful settlement â€œ**but not at our expense**,â€ that Russian forces hold the **â€œstrategic initiativeâ€** along the line of contact, and that he believes **Trump â€œsincerelyâ€** wants to end the war. He also said Russia is ready to cooperate with **many countries, including North Korea**, to help end the war (Western/Ukrainian reporting on DPRK troops is contested). Same-day reporting also quotes him vowing to **bolster the Navy** and cites work on a **long-term shipbuilding strategy** (e.g. to 2050). [Reuters](https://www.reuters.com/world/europe/putin-suggests-possibility-placing-ukraine-under-temporary-administration-2025-03-27/) (dateline Mar 28, 2026; URL slug dated 2025) Â· [TASS](https://tass.com/defense/1935465) (state wire; Navy emphasis).
-- **2026-03-28 â€” International reaction (same news cycle as Ukraine proposal):** UN Secretary-General **AntÃ³nio Guterres** dismissed the **temporary external governance** idea for Ukraine, stressing respect for Ukraineâ€™s **legitimate government** (per wire summaries of his remarks). [Anadolu Agency](https://www.aa.com.tr/en/americas/un-chief-dismisses-putins-temporary-governance-proposal-in-ukraine/3522784)
-- **2026-03-27 â€” National Guard (Rosgvardiya):** Putin told the service to **react promptly** to current threats and coordinate with the armed forces and regions. [RIA Novosti (RU)](https://ria.ru/20260327/putin-2083391282.html).
-- **2026-03-27 â€” Security Council:** Videoconference with **permanent members**; Kremlin published a **transcript** (European relations and Ukraine on the agenda per listing). [Kremlin.ru transcript page](http://kremlin.ru/events/president/transcripts/79425).
-- **2026-03-26 â€” RSPP congress:** Emphasis on **sovereignty**, **macroeconomic stability** despite restrictions, honoring **budget commitments to citizens**, and **trust-based** governmentâ€“business ties amid global uncertainty. [TASS](https://tass.com/economy/2107609).
+- **2026-03-28 Ã¢â‚¬” Murmansk (International Arctic Forum context per Reuters):** Speaking to seamen, Putin floated a **temporary international administration** for Ukraine Ã¢â‚¬” “under the auspices of the **U.N., the United States, European countries and our partners**” Ã¢â‚¬” to hold **elections** and install a government “enjoying the trust of the people,” then negotiate a **peace treaty**. He said Russia favors peaceful settlement “**but not at our expense**,” that Russian forces hold the **“strategic initiative”** along the line of contact, and that he believes **Trump “sincerely”** wants to end the war. He also said Russia is ready to cooperate with **many countries, including North Korea**, to help end the war (Western/Ukrainian reporting on DPRK troops is contested). Same-day reporting also quotes him vowing to **bolster the Navy** and cites work on a **long-term shipbuilding strategy** (e.g. to 2050). [Reuters](https://www.reuters.com/world/europe/putin-suggests-possibility-placing-ukraine-under-temporary-administration-2025-03-27/) (dateline Mar 28, 2026; URL slug dated 2025) Ã‚· [TASS](https://tass.com/defense/1935465) (state wire; Navy emphasis).
+- **2026-03-28 Ã¢â‚¬” International reaction (same news cycle as Ukraine proposal):** UN Secretary-General **AntÃƒÂ³nio Guterres** dismissed the **temporary external governance** idea for Ukraine, stressing respect for Ukraine’s **legitimate government** (per wire summaries of his remarks). [Anadolu Agency](https://www.aa.com.tr/en/americas/un-chief-dismisses-putins-temporary-governance-proposal-in-ukraine/3522784)
+- **2026-03-27 Ã¢â‚¬” National Guard (Rosgvardiya):** Putin told the service to **react promptly** to current threats and coordinate with the armed forces and regions. [RIA Novosti (RU)](https://ria.ru/20260327/putin-2083391282.html).
+- **2026-03-27 Ã¢â‚¬” Security Council:** Videoconference with **permanent members**; Kremlin published a **transcript** (European relations and Ukraine on the agenda per listing). [Kremlin.ru transcript page](http://kremlin.ru/events/president/transcripts/79425).
+- **2026-03-26 Ã¢â‚¬” RSPP congress:** Emphasis on **sovereignty**, **macroeconomic stability** despite restrictions, honoring **budget commitments to citizens**, and **trust-based** governmentÃ¢â‚¬“business ties amid global uncertainty. [TASS](https://tass.com/economy/2107609).
 
 ## 2. Headlines (ingested RSS)
 
-_Fetch failed for: Reuters â€” World._
+_Fetch failed for: Reuters Ã¢â‚¬” World._
 
-Ranked by **W+S+G** (global keyword lists + per-`locale` maps for W/S; **G** = `geo_military_keyword_phrases`) then recency. Each feed is **recency-sorted** then **capped** (`ingest_caps`: per-feed `max_items` and/or `tier` â†’ `max_items_by_tier`; CLI `--max-per-feed N` overrides all feeds). Optional **same-story** grouping uses `story_anchor_phrases` overlap (Jaccard + shared anchors). Tune phrases in config JSON.
+Ranked by **W+S+G** (global keyword lists + per-`locale` maps for W/S; **G** = `geo_military_keyword_phrases`) then recency. Each feed is **recency-sorted** then **capped** (`ingest_caps`: per-feed `max_items` and/or `tier` Ã¢â€ ’ `max_items_by_tier`; CLI `--max-per-feed N` overrides all feeds). Optional **same-story** grouping uses `story_anchor_phrases` overlap (Jaccard + shared anchors). Tune phrases in config JSON.
 
 _Same-story clusters use anchor overlap on titles (proper nouns / crisis terms); not neural / semantic dedupe._
 
 #### Same-story (multilingual)
 
-**iran Â· senate Â· trump** â€” _6 sources_
+**iran Ã‚· senate Ã‚· trump** Ã¢â‚¬” _6 sources_
 
-- **[W:4 S:0 G:0]** [Live updates: House tees up vote on DHS stopgap after rejecting Senate bill; Trump orders TSA paid](https://thehill.com/homenews/administration/5802558-live-updates-trump-dhs-shutdown-tsa-iran/) â€” _The Hill â€” politics_ Â· _2026-03-27 22:25 UTC_
-- **Also** â€” [House Republicans pass DHS funding bill that Senate Democrats call 'dead on arrival'](https://www.nbcnews.com/politics/trump-administration/trump-johnson-dhs-house-rebels-senate-bill-ice-cbp-rcna265507) â€” _NBC News â€” politics_ Â· _W:4 S:0 G:0_ Â· _2026-03-27 17:48 UTC_
-- **Also** â€” [Iran war splits older and younger conservatives - as pressure builds for Trump to find exit ramp](https://www.bbc.com/news/articles/cjd8e4px12ro?at_medium=RSS&at_campaign=rss) â€” _BBC News â€” World_ Â· _W:3 S:0 G:0_ Â· _2026-03-28 00:05 UTC_
-- **Also** â€” [Rifts over Iran, but unity for Trump: Takeaways from CPAC 2026](https://www.npr.org/2026/03/28/nx-s1-5764275/cpac-2026) â€” _NPR â€” national news_ Â· _W:2 S:0 G:0_ Â· _2026-03-28 06:00 UTC_
-- **Also** â€” [Trump sells Iran war at Saudi investment forum in Miami, warning Cuba is â€˜nextâ€™](https://thehill.com/homenews/administration/5805278-trump-saudi-forum-cuba-iran/) â€” _The Hill â€” politics_ Â· _W:2 S:0 G:0_ Â· _2026-03-27 23:43 UTC_
+- **[W:4 S:0 G:0]** [Live updates: House tees up vote on DHS stopgap after rejecting Senate bill; Trump orders TSA paid](https://thehill.com/homenews/administration/5802558-live-updates-trump-dhs-shutdown-tsa-iran/) Ã¢â‚¬” _The Hill Ã¢â‚¬” politics_ Ã‚· _2026-03-27 22:25 UTC_
+- **Also** Ã¢â‚¬” [House Republicans pass DHS funding bill that Senate Democrats call 'dead on arrival'](https://www.nbcnews.com/politics/trump-administration/trump-johnson-dhs-house-rebels-senate-bill-ice-cbp-rcna265507) Ã¢â‚¬” _NBC News Ã¢â‚¬” politics_ Ã‚· _W:4 S:0 G:0_ Ã‚· _2026-03-27 17:48 UTC_
+- **Also** Ã¢â‚¬” [Iran war splits older and younger conservatives - as pressure builds for Trump to find exit ramp](https://www.bbc.com/news/articles/cjd8e4px12ro?at_medium=RSS&at_campaign=rss) Ã¢â‚¬” _BBC News Ã¢â‚¬” World_ Ã‚· _W:3 S:0 G:0_ Ã‚· _2026-03-28 00:05 UTC_
+- **Also** Ã¢â‚¬” [Rifts over Iran, but unity for Trump: Takeaways from CPAC 2026](https://www.npr.org/2026/03/28/nx-s1-5764275/cpac-2026) Ã¢â‚¬” _NPR Ã¢â‚¬” national news_ Ã‚· _W:2 S:0 G:0_ Ã‚· _2026-03-28 06:00 UTC_
+- **Also** Ã¢â‚¬” [Trump sells Iran war at Saudi investment forum in Miami, warning Cuba is Ã¢â‚¬Ëœnext’](https://thehill.com/homenews/administration/5805278-trump-saudi-forum-cuba-iran/) Ã¢â‚¬” _The Hill Ã¢â‚¬” politics_ Ã‚· _W:2 S:0 G:0_ Ã‚· _2026-03-27 23:43 UTC_
 
-**Ø¥Ø³Ø±Ø§Ø¦ÙŠÙ„ Â· Ø¥ÙŠØ±Ø§Ù†** â€” _2 sources_
+**Ã˜Â¥Ã˜Â³Ã˜Â±Ã˜§Ã˜Â¦Ã™Å Ã™â€ž Ã‚· Ã˜Â¥Ã™Å Ã˜Â±Ã˜§Ã™â€ ** Ã¢â‚¬” _2 sources_
 
-- **[W:2 S:0 G:0]** [Ù„Ù…Ø§Ø°Ø§ Ù‚ØµÙØª Ø¥Ø³Ø±Ø§Ø¦ÙŠÙ„ Ù…ØµÙ†Ø¹ Ø§Ù„ÙƒØ¹ÙƒØ© Ø§Ù„ØµÙØ±Ø§Ø¡ ÙÙŠ Ù…Ø­Ø§ÙØ¸Ø© ÙŠØ²Ø¯ Ø§Ù„Ø¥ÙŠØ±Ø§Ù†ÙŠØ©ØŸ](https://www.france24.com/ar/%D9%81%D9%8A%D8%AF%D9%8A%D9%88/20260328-%D9%84%D9%85%D8%A7%D8%B0%D8%A7-%D9%82%D8%B5%D9%81%D8%AA-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84-%D9%85%D8%B5%D9%86%D8%B9-%D8%A7%D9%84%D9%83%D8%B9%D9%83%D8%A9-%D8%A7%D9%84%D8%B5%D9%81%D8%B1%D8%A7%D8%A1-%D9%81%D9%8A-%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A9-%D9%8A%D8%B2%D8%AF-%D8%A7%D9%84%D8%A5%D9%8A%D8%B1%D8%A7%D9%86%D9%8A%D8%A9) â€” _France 24 â€” Ø§Ù„Ø¹Ø±Ø¨ÙŠØ© (MENA)_ Â· _ar_ Â· _2026-03-28 10:56 UTC_
-- **Also** â€” [Ø¥Ø³Ø±Ø§Ø¦ÙŠÙ„ ØªÙ‚ØµÙ Ù…ÙØ§Ø¹Ù„ Ø¢Ø±Ø§Ùƒ Ù„Ù„Ù…Ø§Ø¡ Ø§Ù„Ø«Ù‚ÙŠÙ„ ÙÙŠ ÙˆØ³Ø· Ø¥ÙŠØ±Ø§Ù†](https://www.france24.com/ar/%D9%81%D9%8A%D8%AF%D9%8A%D9%88/20260328-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84-%D8%AA%D9%82%D8%B5%D9%81-%D9%85%D9%81%D8%A7%D8%B9%D9%84-%D8%A2%D8%B1%D8%A7%D9%83-%D9%84%D9%84%D9%85%D8%A7%D8%A1-%D8%A7%D9%84%D8%AB%D9%82%D9%8A%D9%84-%D9%81%D9%8A-%D9%88%D8%B3%D8%B7-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86) â€” _France 24 â€” Ø§Ù„Ø¹Ø±Ø¨ÙŠØ© (MENA)_ Â· _ar_ Â· _W:2 S:0 G:0_ Â· _2026-03-28 09:30 UTC_
+- **[W:2 S:0 G:0]** [Ã™â€žÃ™…Ã˜§Ã˜Â°Ã˜§ Ã™â€šÃ˜ÂµÃ™ÂÃ˜Âª Ã˜Â¥Ã˜Â³Ã˜Â±Ã˜§Ã˜Â¦Ã™Å Ã™â€ž Ã™…Ã˜ÂµÃ™â€ Ã˜Â¹ Ã˜§Ã™â€žÃ™Æ’Ã˜Â¹Ã™Æ’Ã˜Â© Ã˜§Ã™â€žÃ˜ÂµÃ™ÂÃ˜Â±Ã˜§Ã˜Â¡ Ã™ÂÃ™Å  Ã™…Ã˜Â­Ã˜§Ã™ÂÃ˜Â¸Ã˜Â© Ã™Å Ã˜Â²Ã˜Â¯ Ã˜§Ã™â€žÃ˜Â¥Ã™Å Ã˜Â±Ã˜§Ã™â€ Ã™Å Ã˜Â©Ã˜Å¸](https://www.france24.com/ar/%D9%81%D9%8A%D8%AF%D9%8A%D9%88/20260328-%D9%84%D9%85%D8%A7%D8%B0%D8%A7-%D9%82%D8%B5%D9%81%D8%AA-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84-%D9%85%D8%B5%D9%86%D8%B9-%D8%A7%D9%84%D9%83%D8%B9%D9%83%D8%A9-%D8%A7%D9%84%D8%B5%D9%81%D8%B1%D8%A7%D8%A1-%D9%81%D9%8A-%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A9-%D9%8A%D8%B2%D8%AF-%D8%A7%D9%84%D8%A5%D9%8A%D8%B1%D8%A7%D9%86%D9%8A%D8%A9) Ã¢â‚¬” _France 24 Ã¢â‚¬” Ã˜§Ã™â€žÃ˜Â¹Ã˜Â±Ã˜Â¨Ã™Å Ã˜Â© (MENA)_ Ã‚· _ar_ Ã‚· _2026-03-28 10:56 UTC_
+- **Also** Ã¢â‚¬” [Ã˜Â¥Ã˜Â³Ã˜Â±Ã˜§Ã˜Â¦Ã™Å Ã™â€ž Ã˜ÂªÃ™â€šÃ˜ÂµÃ™Â Ã™…Ã™ÂÃ˜§Ã˜Â¹Ã™â€ž Ã˜Â¢Ã˜Â±Ã˜§Ã™Æ’ Ã™â€žÃ™â€žÃ™…Ã˜§Ã˜Â¡ Ã˜§Ã™â€žÃ˜Â«Ã™â€šÃ™Å Ã™â€ž Ã™ÂÃ™Å  Ã™Ë†Ã˜Â³Ã˜· Ã˜Â¥Ã™Å Ã˜Â±Ã˜§Ã™â€ ](https://www.france24.com/ar/%D9%81%D9%8A%D8%AF%D9%8A%D9%88/20260328-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84-%D8%AA%D9%82%D8%B5%D9%81-%D9%85%D9%81%D8%A7%D8%B9%D9%84-%D8%A2%D8%B1%D8%A7%D9%83-%D9%84%D9%84%D9%85%D8%A7%D8%A1-%D8%A7%D9%84%D8%AB%D9%82%D9%8A%D9%84-%D9%81%D9%8A-%D9%88%D8%B3%D8%B7-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86) Ã¢â‚¬” _France 24 Ã¢â‚¬” Ã˜§Ã™â€žÃ˜Â¹Ã˜Â±Ã˜Â¨Ã™Å Ã˜Â© (MENA)_ Ã‚· _ar_ Ã‚· _W:2 S:0 G:0_ Ã‚· _2026-03-28 09:30 UTC_
 
 #### Other headlines
 
-- **[W:5 S:0 G:0]** [3 grÃ¡ficos clave que encienden las alarmas para Trump por la guerra en IrÃ¡n](https://www.bbc.com/mundo/articles/clyenx9pw31o?at_medium=RSS&at_campaign=rss) â€” _BBC Mundo â€” espaÃ±ol (AmÃ©ricas / global)_ Â· _es_ Â· _2026-03-27 19:25 UTC_
-- **[W:4 S:0 G:0]** [EN DIRECT, guerre enÂ UkraineÂ : une frappe russe sur Odessa a fait auÂ moins deux morts etÂ douze blessÃ©s](https://www.lemonde.fr/international/live/2026/03/28/en-direct-guerre-en-ukraine-une-frappe-russe-sur-odessa-a-fait-au-moins-deux-morts-et-douze-blesses_6673450_3210.html) â€” _Le Monde â€” franÃ§ais (France / monde)_ Â· _fr_ Â· _2026-03-28 12:05 UTC_
-- **[W:4 S:0 G:0]** [Los hutÃ­es lanzan misiles desde Yemen contra Israel, ampliando la guerra en Medio Oriente](https://www.bbc.com/mundo/articles/cj37nnpez4jo?at_medium=RSS&at_campaign=rss) â€” _BBC Mundo â€” espaÃ±ol (AmÃ©ricas / global)_ Â· _es_ Â· _2026-03-28 10:45 UTC_
-- **[W:4 S:0 G:0]** [House Republicans reject Senate deal, prolonging partial US government shutdown](https://www.bbc.com/news/articles/cgj052l1j2no?at_medium=RSS&at_campaign=rss) â€” _BBC News â€” World_ Â· _2026-03-28 08:38 UTC_
-- **[W:4 S:0 G:0]** [Iran-News heute: Was ein Kriegseintritt der Huthis bedeuten wÃ¼rde](https://www.spiegel.de/ausland/iran-news-heute-rubio-glaubt-der-krieg-sei-in-wochen-nicht-in-monaten-vorbei-a-624b1930-db95-4f39-a268-b36194b96f4f#ref=rss) â€” _Der Spiegel â€” Deutsch (Schlagzeilen)_ Â· _de_ Â· _2026-03-28 09:06 UTC_
-- **[W:2 S:2 G:0]** ['Memory of a generation': China mourns the sudden death of a controversial education influencer](https://www.bbc.com/news/articles/c15dz7ql59yo?at_medium=RSS&at_campaign=rss) â€” _BBC News â€” World_ Â· _2026-03-27 23:19 UTC_
-- **[W:2 S:0 G:2]** [Houthis threaten to join Iran war if these 3 red lines crossed](https://thehill.com/policy/international/5805195-houthi-threat-us-israel-iran/) â€” _The Hill â€” politics_ Â· _2026-03-27 22:35 UTC_
-- **[W:2 S:0 G:2]** [Iran is adopting Russian drone tactics, Ukrainian troops say](https://www.defenseone.com/threats/2026/03/iran-adopting-russian-drone-tactics-ukrainian-troops-say/412434/) â€” _Defense One â€” All_ Â· _2026-03-27 06:27 UTC_
-- **[W:3 S:0 G:0]** [House Republicans flee Congress in record numbers amid growing dysfunction](https://thehill.com/homenews/house/5805206-house-republicans-retiring-2026/) â€” _The Hill â€” politics_ Â· _2026-03-28 10:00 UTC_
-- **[W:3 S:0 G:0]** [Gaza peace doubts deepen as attention shifts to Iran](https://www.bbc.com/news/articles/crr10v5p7lgo?at_medium=RSS&at_campaign=rss) â€” _BBC News â€” World_ Â· _2026-03-28 06:00 UTC_
-- **[W:3 S:0 G:0]** ["Mi hija estÃ¡ bajo los escombros": dentro de TeherÃ¡n, donde las vÃ­ctimas civiles aumentan por la guerra](https://www.bbc.com/mundo/articles/c705kp42507o?at_medium=RSS&at_campaign=rss) â€” _BBC Mundo â€” espaÃ±ol (AmÃ©ricas / global)_ Â· _es_ Â· _2026-03-28 00:08 UTC_
-- **[W:2 S:1 G:0]** [Democrats demand answers on sanctioned Russian lawmakers visiting Capitol](https://thehill.com/homenews/house/5805300-democrats-question-russian-lawmakers-us-capitol-visit/) â€” _The Hill â€” politics_ Â· _2026-03-28 00:31 UTC_
-- **[W:2 S:0 G:1]** [Senate agrees to fund DHS, except ICE and CBP, in bid to end extreme airport delays](https://www.nbcnews.com/politics/congress/senate-agrees-fund-dhs-ice-border-patrol-bid-shutdown-tsa-pay-delays-rcna265108) â€” _NBC News â€” politics_ Â· _2026-03-27 07:16 UTC_
+- **[W:5 S:0 G:0]** [3 grÃƒÂ¡ficos clave que encienden las alarmas para Trump por la guerra en IrÃƒÂ¡n](https://www.bbc.com/mundo/articles/clyenx9pw31o?at_medium=RSS&at_campaign=rss) Ã¢â‚¬” _BBC Mundo Ã¢â‚¬” espaÃƒÂ±ol (AmÃƒÂ©ricas / global)_ Ã‚· _es_ Ã‚· _2026-03-27 19:25 UTC_
+- **[W:4 S:0 G:0]** [EN DIRECT, guerre enÃ‚ UkraineÃ‚ : une frappe russe sur Odessa a fait auÃ‚ moins deux morts etÃ‚ douze blessÃƒÂ©s](https://www.lemonde.fr/international/live/2026/03/28/en-direct-guerre-en-ukraine-une-frappe-russe-sur-odessa-a-fait-au-moins-deux-morts-et-douze-blesses_6673450_3210.html) Ã¢â‚¬” _Le Monde Ã¢â‚¬” franÃƒ§ais (France / monde)_ Ã‚· _fr_ Ã‚· _2026-03-28 12:05 UTC_
+- **[W:4 S:0 G:0]** [Los hutÃƒÂ­es lanzan misiles desde Yemen contra Israel, ampliando la guerra en Medio Oriente](https://www.bbc.com/mundo/articles/cj37nnpez4jo?at_medium=RSS&at_campaign=rss) Ã¢â‚¬” _BBC Mundo Ã¢â‚¬” espaÃƒÂ±ol (AmÃƒÂ©ricas / global)_ Ã‚· _es_ Ã‚· _2026-03-28 10:45 UTC_
+- **[W:4 S:0 G:0]** [House Republicans reject Senate deal, prolonging partial US government shutdown](https://www.bbc.com/news/articles/cgj052l1j2no?at_medium=RSS&at_campaign=rss) Ã¢â‚¬” _BBC News Ã¢â‚¬” World_ Ã‚· _2026-03-28 08:38 UTC_
+- **[W:4 S:0 G:0]** [Iran-News heute: Was ein Kriegseintritt der Huthis bedeuten wÃƒÂ¼rde](https://www.spiegel.de/ausland/iran-news-heute-rubio-glaubt-der-krieg-sei-in-wochen-nicht-in-monaten-vorbei-a-624b1930-db95-4f39-a268-b36194b96f4f#ref=rss) Ã¢â‚¬” _Der Spiegel Ã¢â‚¬” Deutsch (Schlagzeilen)_ Ã‚· _de_ Ã‚· _2026-03-28 09:06 UTC_
+- **[W:2 S:2 G:0]** ['Memory of a generation': China mourns the sudden death of a controversial education influencer](https://www.bbc.com/news/articles/c15dz7ql59yo?at_medium=RSS&at_campaign=rss) Ã¢â‚¬” _BBC News Ã¢â‚¬” World_ Ã‚· _2026-03-27 23:19 UTC_
+- **[W:2 S:0 G:2]** [Houthis threaten to join Iran war if these 3 red lines crossed](https://thehill.com/policy/international/5805195-houthi-threat-us-israel-iran/) Ã¢â‚¬” _The Hill Ã¢â‚¬” politics_ Ã‚· _2026-03-27 22:35 UTC_
+- **[W:2 S:0 G:2]** [Iran is adopting Russian drone tactics, Ukrainian troops say](https://www.defenseone.com/threats/2026/03/iran-adopting-russian-drone-tactics-ukrainian-troops-say/412434/) Ã¢â‚¬” _Defense One Ã¢â‚¬” All_ Ã‚· _2026-03-27 06:27 UTC_
+- **[W:3 S:0 G:0]** [House Republicans flee Congress in record numbers amid growing dysfunction](https://thehill.com/homenews/house/5805206-house-republicans-retiring-2026/) Ã¢â‚¬” _The Hill Ã¢â‚¬” politics_ Ã‚· _2026-03-28 10:00 UTC_
+- **[W:3 S:0 G:0]** [Gaza peace doubts deepen as attention shifts to Iran](https://www.bbc.com/news/articles/crr10v5p7lgo?at_medium=RSS&at_campaign=rss) Ã¢â‚¬” _BBC News Ã¢â‚¬” World_ Ã‚· _2026-03-28 06:00 UTC_
+- **[W:3 S:0 G:0]** ["Mi hija estÃƒÂ¡ bajo los escombros": dentro de TeherÃƒÂ¡n, donde las vÃƒÂ­ctimas civiles aumentan por la guerra](https://www.bbc.com/mundo/articles/c705kp42507o?at_medium=RSS&at_campaign=rss) Ã¢â‚¬” _BBC Mundo Ã¢â‚¬” espaÃƒÂ±ol (AmÃƒÂ©ricas / global)_ Ã‚· _es_ Ã‚· _2026-03-28 00:08 UTC_
+- **[W:2 S:1 G:0]** [Democrats demand answers on sanctioned Russian lawmakers visiting Capitol](https://thehill.com/homenews/house/5805300-democrats-question-russian-lawmakers-us-capitol-visit/) Ã¢â‚¬” _The Hill Ã¢â‚¬” politics_ Ã‚· _2026-03-28 00:31 UTC_
+- **[W:2 S:0 G:1]** [Senate agrees to fund DHS, except ICE and CBP, in bid to end extreme airport delays](https://www.nbcnews.com/politics/congress/senate-agrees-fund-dhs-ice-border-patrol-bid-shutdown-tsa-pay-delays-rcna265108) Ã¢â‚¬” _NBC News Ã¢â‚¬” politics_ Ã‚· _2026-03-27 07:16 UTC_
 
 ## 2a. Geopolitical & military (G-ranked)
 
-_**G** = matches on `geo_military_keyword_phrases` (+ optional locale lists in config). Supports triangulation and war-powers messaging â€” **verify** claims against primary sources._
+_**G** = matches on `geo_military_keyword_phrases` (+ optional locale lists in config). Supports triangulation and war-powers messaging Ã¢â‚¬” **verify** claims against primary sources._
 
-- **[W:2 S:0 G:2]** [Houthis threaten to join Iran war if these 3 red lines crossed](https://thehill.com/policy/international/5805195-houthi-threat-us-israel-iran/) â€” _The Hill â€” politics_ Â· _2026-03-27 22:35 UTC_
-- **[W:2 S:0 G:2]** [Iran is adopting Russian drone tactics, Ukrainian troops say](https://www.defenseone.com/threats/2026/03/iran-adopting-russian-drone-tactics-ukrainian-troops-say/412434/) â€” _Defense One â€” All_ Â· _2026-03-27 06:27 UTC_
-- **[W:0 S:0 G:2]** [More Columbia-class submarines?](https://www.defenseone.com/defense-systems/2026/03/more-columbia-class-submarines/412469/) â€” _Defense One â€” All_ Â· _2026-03-27 17:13 UTC_
-- **[W:2 S:0 G:1]** [Senate agrees to fund DHS, except ICE and CBP, in bid to end extreme airport delays](https://www.nbcnews.com/politics/congress/senate-agrees-fund-dhs-ice-border-patrol-bid-shutdown-tsa-pay-delays-rcna265108) â€” _NBC News â€” politics_ Â· _2026-03-27 07:16 UTC_
-- **[W:1 S:0 G:1]** [U.S. troops injured in attack on Saudi base as the war reaches one month](https://www.npr.org/2026/03/28/nx-s1-5764720/iran-war-one-month) â€” _NPR â€” national news_ Â· _2026-03-28 05:38 UTC_
-- **[W:1 S:0 G:1]** [Iranian attack injures 10 Americans on base in Saudi Arabia](https://thehill.com/policy/defense/5805412-iranian-attack-saudi-base-injures-us-troops/) â€” _The Hill â€” politics_ Â· _2026-03-28 02:46 UTC_
-- **[W:0 S:1 G:1]** [Judge blocks Pentagon's Anthropic ban, calling it illegal retaliation](https://www.defenseone.com/policy/2026/03/judge-pentagon-anthropic-ban-retaliation/412463/) â€” _Defense One â€” All_ Â· _2026-03-27 14:04 UTC_
+- **[W:2 S:0 G:2]** [Houthis threaten to join Iran war if these 3 red lines crossed](https://thehill.com/policy/international/5805195-houthi-threat-us-israel-iran/) Ã¢â‚¬” _The Hill Ã¢â‚¬” politics_ Ã‚· _2026-03-27 22:35 UTC_
+- **[W:2 S:0 G:2]** [Iran is adopting Russian drone tactics, Ukrainian troops say](https://www.defenseone.com/threats/2026/03/iran-adopting-russian-drone-tactics-ukrainian-troops-say/412434/) Ã¢â‚¬” _Defense One Ã¢â‚¬” All_ Ã‚· _2026-03-27 06:27 UTC_
+- **[W:0 S:0 G:2]** [More Columbia-class submarines?](https://www.defenseone.com/defense-systems/2026/03/more-columbia-class-submarines/412469/) Ã¢â‚¬” _Defense One Ã¢â‚¬” All_ Ã‚· _2026-03-27 17:13 UTC_
+- **[W:2 S:0 G:1]** [Senate agrees to fund DHS, except ICE and CBP, in bid to end extreme airport delays](https://www.nbcnews.com/politics/congress/senate-agrees-fund-dhs-ice-border-patrol-bid-shutdown-tsa-pay-delays-rcna265108) Ã¢â‚¬” _NBC News Ã¢â‚¬” politics_ Ã‚· _2026-03-27 07:16 UTC_
+- **[W:1 S:0 G:1]** [U.S. troops injured in attack on Saudi base as the war reaches one month](https://www.npr.org/2026/03/28/nx-s1-5764720/iran-war-one-month) Ã¢â‚¬” _NPR Ã¢â‚¬” national news_ Ã‚· _2026-03-28 05:38 UTC_
+- **[W:1 S:0 G:1]** [Iranian attack injures 10 Americans on base in Saudi Arabia](https://thehill.com/policy/defense/5805412-iranian-attack-saudi-base-injures-us-troops/) Ã¢â‚¬” _The Hill Ã¢â‚¬” politics_ Ã‚· _2026-03-28 02:46 UTC_
+- **[W:0 S:1 G:1]** [Judge blocks Pentagon's Anthropic ban, calling it illegal retaliation](https://www.defenseone.com/policy/2026/03/judge-pentagon-anthropic-ban-retaliation/412463/) Ã¢â‚¬” _Defense One Ã¢â‚¬” All_ Ã‚· _2026-03-27 14:04 UTC_
 
-## 2b. Civ-mem depth hooks (in-repo essays â€” not breaking news)
+## 2b. Civ-mem depth hooks (in-repo essays Ã¢â‚¬” not breaking news)
 
-_Token overlap against `docs/civilization-memory/` (build: `python3 scripts/build_civmem_inrepo_index.py build`). **Historical / structural** depth only â€” not a substitute for dated news. See [civ-mem-draft-protocol](../work-politics/civ-mem-draft-protocol.md). Public copy still needs human approval._
+_Token overlap against `docs/civilization-memory/` (build: `python3 scripts/build_civmem_inrepo_index.py build`). **Historical / structural** depth only Ã¢â‚¬” not a substitute for dated news. See [civ-mem-draft-protocol](../work-politics/civ-mem-draft-protocol.md). Public copy still needs human approval._
 
-- **{CMC: `minds/CIVâ€“MINDâ€“MEARSHEIMER.md`}** (overlap 2) â€” _CIVâ€“MINDâ€“MEARSHEIMER â€” v3.4 Civilizational Memory Codex Â· Advisory Mind John J. Mearsheimer Cognitiveâ€“Linguistic Signature Layer Simplified Polyphony Architecture Status: ACTIVE Â· CANONICAL Â· LOCKED Class: MIND (ADVIS..._
-- **{CMC: `minds/CIVâ€“MINDâ€“MERCOURIS.md`}** (overlap 2) â€” _CIVâ€“MINDâ€“MERCOURIS â€” v3.4 Civilizational Memory Codex Â· Primary Mind Alexander Mercouris Cognitiveâ€“Linguistic Signature Layer Simplified Polyphony Architecture Â· Proportional Blend Law Status: ACTIVE Â· CANONICAL Â· LOC..._
-- **{CMC: `minds/README.md`}** (overlap 1) â€” _**Purpose:** This folder holds the **three mind profiles** ported from upstream CMC (`research/repos/civilization_memory/docs/templates/`). They are the **specific implementation** of polyphonic cognition in civ-mem: ..._
-- **{CMC: `notes/research-brief-condition-in-the-traditions.md`}** (overlap 1) â€” _**Purpose:** Map where Christianity, Islam, Judaism, Hinduism, and Buddhism **explicitly or implicitly** say that something must hold **before** the awaited future (return, restoration, judgment, moksha, nirvana, etc...._
-- **{CMC: `minds/CIVâ€“MINDâ€“BARNES.md`}** (overlap 1) â€” _CIVâ€“MINDâ€“BARNES â€” v3.4 Civilizational Memory Codex Â· Liability/Mechanism Perspective Robert Barnes Cognitiveâ€“Linguistic Signature Layer Constitutional North Star Â· Personal Liability Â· Institutional Defection Â· Mechan..._
+- **{CMC: `minds/CIVÃ¢â‚¬“MINDÃ¢â‚¬“MEARSHEIMER.md`}** (overlap 2) Ã¢â‚¬” _CIVÃ¢â‚¬“MINDÃ¢â‚¬“MEARSHEIMER Ã¢â‚¬” v3.4 Civilizational Memory Codex Ã‚· Advisory Mind John J. Mearsheimer CognitiveÃ¢â‚¬“Linguistic Signature Layer Simplified Polyphony Architecture Status: ACTIVE Ã‚· CANONICAL Ã‚· LOCKED Class: MIND (ADVIS..._
+- **{CMC: `minds/CIVÃ¢â‚¬“MINDÃ¢â‚¬“MERCOURIS.md`}** (overlap 2) Ã¢â‚¬” _CIVÃ¢â‚¬“MINDÃ¢â‚¬“MERCOURIS Ã¢â‚¬” v3.4 Civilizational Memory Codex Ã‚· Primary Mind Alexander Mercouris CognitiveÃ¢â‚¬“Linguistic Signature Layer Simplified Polyphony Architecture Ã‚· Proportional Blend Law Status: ACTIVE Ã‚· CANONICAL Ã‚· LOC..._
+- **{CMC: `minds/README.md`}** (overlap 1) Ã¢â‚¬” _**Purpose:** This folder holds the **three mind profiles** ported from upstream CMC (`research/repos/civilization_memory/docs/templates/`). They are the **specific implementation** of polyphonic cognition in civ-mem: ..._
+- **{CMC: `notes/research-brief-condition-in-the-traditions.md`}** (overlap 1) Ã¢â‚¬” _**Purpose:** Map where Christianity, Islam, Judaism, Hinduism, and Buddhism **explicitly or implicitly** say that something must hold **before** the awaited future (return, restoration, judgment, moksha, nirvana, etc...._
+- **{CMC: `minds/CIVÃ¢â‚¬“MINDÃ¢â‚¬“BARNES.md`}** (overlap 1) Ã¢â‚¬” _CIVÃ¢â‚¬“MINDÃ¢â‚¬“BARNES Ã¢â‚¬” v3.4 Civilizational Memory Codex Ã‚· Liability/Mechanism Perspective Robert Barnes CognitiveÃ¢â‚¬“Linguistic Signature Layer Constitutional North Star Ã‚· Personal Liability Ã‚· Institutional Defection Ã‚· Mechan..._
 
-## 3. Lead themes (auto-stub â€” replace after reading)
+## 3. Lead themes (auto-stub Ã¢â‚¬” replace after reading)
 
 ### Work-politics / campaign angle
-- 3 grÃ¡ficos clave que encienden las alarmas para Trump por la guerra en IrÃ¡n
+- 3 grÃƒÂ¡ficos clave que encienden las alarmas para Trump por la guerra en IrÃƒÂ¡n
 - Live updates: House tees up vote on DHS stopgap after rejecting Senate bill; Trump orders TSA paid
-- EN DIRECT, guerre enÂ UkraineÂ : une frappe russe sur Odessa a fait auÂ moins deux morts etÂ douze blessÃ©s
+- EN DIRECT, guerre enÃ‚ UkraineÃ‚ : une frappe russe sur Odessa a fait auÃ‚ moins deux morts etÃ‚ douze blessÃƒÂ©s
 
-**Replace:** 2â€“3 sentences for principal, district, opposition narrative.
+**Replace:** 2Ã¢â‚¬“3 sentences for principal, district, opposition narrative.
 
 ### Work-strategy angle (product / governance / tech)
 
@@ -137,13 +137,13 @@ _Token overlap against `docs/civilization-memory/` (build: `python3 scripts/buil
 - 'Memory of a generation': China mourns the sudden death of a controversial education influencer
 - Democrats demand answers on sanctioned Russian lawmakers visiting Capitol
 
-**Replace:** 2â€“3 sentences for Record/Voice positioning, OpenClaw, schools, or policy hooks.
+**Replace:** 2Ã¢â‚¬“3 sentences for Record/Voice positioning, OpenClaw, schools, or policy hooks.
 
 ### Slow structural layer (work-jiang)
 
-_Not dated news â€” patterns from lecture extractions, `jiang-compress` JSON, comparative sweeps. Connect to **Â§1c** hooks when drafting campaign or opposition copy; cite sources if anything ships publicly._
+_Not dated news Ã¢â‚¬” patterns from lecture extractions, `jiang-compress` JSON, comparative sweeps. Connect to **Ã‚§1c** hooks when drafting campaign or opposition copy; cite sources if anything ships publicly._
 
-**Replace:** 2â€“3 sentences â€” which slow pattern applies to todayâ€™s **W** angle, or why none does.
+**Replace:** 2Ã¢â‚¬“3 sentences Ã¢â‚¬” which slow pattern applies to today’s **W** angle, or why none does.
 
 ## 4. Triangulation (when lead is political)
 
@@ -153,7 +153,7 @@ For **campaign-facing** copy, use [work-politics analytical-lenses](../work-poli
 |---|---|---|
 | _TBD_ | _TBD_ | _TBD_ |
 
-**Product / strategy thread:** _TBD (no three-lens requirement â€” use work-dev + INTENT as needed)._
+**Product / strategy thread:** _TBD (no three-lens requirement Ã¢â‚¬” use work-dev + INTENT as needed)._
 
 ## 5. Operator synthesis
 

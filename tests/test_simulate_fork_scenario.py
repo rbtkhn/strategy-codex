@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import importlib
 import sys
+import types
 from pathlib import Path
 from unittest.mock import MagicMock, patch
 
@@ -15,6 +16,16 @@ if str(SCRIPTS) not in sys.path:
     sys.path.insert(0, str(SCRIPTS))
 if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
+
+if "openai" not in sys.modules:
+    openai_stub = types.ModuleType("openai")
+    openai_stub.OpenAI = object
+    sys.modules["openai"] = openai_stub
+
+if "dotenv" not in sys.modules:
+    dotenv_stub = types.ModuleType("dotenv")
+    dotenv_stub.load_dotenv = lambda *args, **kwargs: None
+    sys.modules["dotenv"] = dotenv_stub
 
 
 def _minimal_profile(tmp_path: Path) -> Path:
@@ -28,7 +39,6 @@ def _minimal_profile(tmp_path: Path) -> Path:
         "self-skills.md",
         "skill-think.md",
         "skill-steward.md",
-        "work-alpha-school.md",
         "work-jiang.md",
         "self-archive.md",
     ):

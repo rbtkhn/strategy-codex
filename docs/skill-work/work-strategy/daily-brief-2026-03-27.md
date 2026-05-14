@@ -31,8 +31,8 @@ _Operator WORK product. Complete synthesis below; cite sources before any public
 _From `docs/skill-work/work-strategy/daily-brief-focus.md` § Active focus._
 
 - Campaign/companion positioning: portable Record, human-only merge, Voice boundary.
-- OpenClaw ↔ repo handback and export provenance (see [work-dev workspace](../work-dev/workspace.md)).
-- AI-in-schools and identity-substrate narrative vs Alpha-style bundles (see [work-alpha-school](../work-alpha-school/README.md), [work-dev offers](../work-dev/offers.md)).
+- OpenClaw â†” repo handback and export provenance (see [work-dev workspace](../work-dev/workspace.md)).
+- AI-in-schools and identity-substrate narrative vs school bundles (see [work-dev offers](../work-dev/offers.md)).
 - Optional: federal / state AI governance headlines when relevant to offers or civ-mem work.
 - Long-form tech discourse (GTC-class, Moonshots-class): themes distilled in [external-tech-scan.md](external-tech-scan.md) — use for **strategy vocabulary** and **keyword-season** tuning in [daily-brief-config.json](daily-brief-config.json); **not** unsourced brief facts.
 
@@ -56,26 +56,26 @@ _Same-story clusters use anchor overlap on titles (proper nouns / crisis terms);
 - **Also** — [Senate votes to fund most of DHS. And, Trump extends Iran's deadline to reopen strait](https://www.npr.org/2026/03/27/g-s1-115433/up-first-newsletter-dhs-funding-iran-strait-of-hormuz-cpac) — _NPR — national news_ · _W:3 S:0 G:0_ · _2026-03-27 07:33 UTC_
 - **Also** — [Why Trump needs Congress on Iran in more ways than one: From the Politics Desk](https://www.nbcnews.com/politics/politics-news/trump-needs-congress-iran-ways-one-politics-desk-rcna265354) — _NBC News — politics_ · _W:3 S:0 G:0_ · _2026-03-26 21:23 UTC_
 
-**إسرائيل · إيران** — _2 sources_
+**Ø¥Ø³Ø±Ø§Ø¦ÙŠÙ„ · Ø¥ÙŠØ±Ø§Ù†** — _2 sources_
 
-- **[W:2 S:0 G:0]** [ريبورتاج: اعتراض الصواريخ العنقودية الإيرانية.. معضلة أمام منظومة الدفاع الإسرائيلية؟](https://www.france24.com/ar/%D8%A7%D9%84%D8%B4%D8%B1%D9%82-%D8%A7%D9%84%D8%A3%D9%88%D8%B3%D8%B7/20260327-%D8%B1%D9%8A%D8%A8%D9%88%D8%B1%D8%AA%D8%A7%D8%AC-%D8%A7%D8%B9%D8%AA%D8%B1%D8%A7%D8%B6-%D8%B5%D9%88%D8%A7%D8%B1%D9%8A%D8%AE-%D8%B9%D9%86%D9%82%D9%88%D8%AF%D9%8A%D8%A9-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86%D9%8A%D8%A9-%D9%85%D9%86%D8%B8%D9%88%D9%85%D8%A9-%D8%AF%D9%81%D8%A7%D8%B9-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A%D8%A9-%D8%A3%D8%B3%D9%84%D8%AD%D8%A9-%D9%85%D8%AD%D8%B8%D9%88%D8%B1%D8%A9) — _France 24 — العربية (MENA)_ · _ar_ · _2026-03-27 13:40 UTC_
-- **Also** — [رشقات صاروخية من حزب الله وإيران على إسرائيل.. ماذا عن وضع الجيش الإسرائيلي؟](https://www.france24.com/ar/%D9%81%D9%8A%D8%AF%D9%8A%D9%88/20260327-%D8%B1%D8%B4%D9%82%D8%A7%D8%AA-%D8%B5%D8%A7%D8%B1%D9%88%D8%AE%D9%8A%D8%A9-%D9%85%D9%86-%D8%AD%D8%B2%D8%A8-%D8%A7%D9%84%D9%84%D9%87-%D9%88%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D8%B9%D9%84%D9%89-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84-%D9%85%D8%A7%D8%B0%D8%A7-%D8%B9%D9%86-%D9%88%D8%B6%D8%B9-%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D8%A7%D9%84%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A) — _France 24 — العربية (MENA)_ · _ar_ · _W:2 S:0 G:0_ · _2026-03-27 13:36 UTC_
+- **[W:2 S:0 G:0]** [Ø±ÙŠØ¨ÙˆØ±ØªØ§Ø¬: Ø§Ø¹ØªØ±Ø§Ø¶ Ø§Ù„ØµÙˆØ§Ø±ÙŠØ® Ø§Ù„Ø¹Ù†Ù‚ÙˆØ¯ÙŠØ© Ø§Ù„Ø¥ÙŠØ±Ø§Ù†ÙŠØ©.. Ù…Ø¹Ø¶Ù„Ø© Ø£Ù…Ø§Ù… Ù…Ù†Ø¸ÙˆÙ…Ø© Ø§Ù„Ø¯ÙØ§Ø¹ Ø§Ù„Ø¥Ø³Ø±Ø§Ø¦ÙŠÙ„ÙŠØ©ØŸ](https://www.france24.com/ar/%D8%A7%D9%84%D8%B4%D8%B1%D9%82-%D8%A7%D9%84%D8%A3%D9%88%D8%B3%D8%B7/20260327-%D8%B1%D9%8A%D8%A8%D9%88%D8%B1%D8%AA%D8%A7%D8%AC-%D8%A7%D8%B9%D8%AA%D8%B1%D8%A7%D8%B6-%D8%B5%D9%88%D8%A7%D8%B1%D9%8A%D8%AE-%D8%B9%D9%86%D9%82%D9%88%D8%AF%D9%8A%D8%A9-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86%D9%8A%D8%A9-%D9%85%D9%86%D8%B8%D9%88%D9%85%D8%A9-%D8%AF%D9%81%D8%A7%D8%B9-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A%D8%A9-%D8%A3%D8%B3%D9%84%D8%AD%D8%A9-%D9%85%D8%AD%D8%B8%D9%88%D8%B1%D8%A9) — _France 24 — Ø§Ù„Ø¹Ø±Ø¨ÙŠØ© (MENA)_ · _ar_ · _2026-03-27 13:40 UTC_
+- **Also** — [Ø±Ø´Ù‚Ø§Øª ØµØ§Ø±ÙˆØ®ÙŠØ© Ù…Ù† Ø­Ø²Ø¨ Ø§Ù„Ù„Ù‡ ÙˆØ¥ÙŠØ±Ø§Ù† Ø¹Ù„Ù‰ Ø¥Ø³Ø±Ø§Ø¦ÙŠÙ„.. Ù…Ø§Ø°Ø§ Ø¹Ù† ÙˆØ¶Ø¹ Ø§Ù„Ø¬ÙŠØ´ Ø§Ù„Ø¥Ø³Ø±Ø§Ø¦ÙŠÙ„ÙŠØŸ](https://www.france24.com/ar/%D9%81%D9%8A%D8%AF%D9%8A%D9%88/20260327-%D8%B1%D8%B4%D9%82%D8%A7%D8%AA-%D8%B5%D8%A7%D8%B1%D9%88%D8%AE%D9%8A%D8%A9-%D9%85%D9%86-%D8%AD%D8%B2%D8%A8-%D8%A7%D9%84%D9%84%D9%87-%D9%88%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D8%B9%D9%84%D9%89-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84-%D9%85%D8%A7%D8%B0%D8%A7-%D8%B9%D9%86-%D9%88%D8%B6%D8%B9-%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D8%A7%D9%84%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A) — _France 24 — Ø§Ù„Ø¹Ø±Ø¨ÙŠØ© (MENA)_ · _ar_ · _W:2 S:0 G:0_ · _2026-03-27 13:36 UTC_
 
 #### Other headlines
 
-- **[W:5 S:0 G:0]** [EN DIRECT, guerre en Ukraine : Kiev poursuit ses frappes contre des ports russes de la Baltique](https://www.lemonde.fr/international/live/2026/03/27/en-direct-guerre-en-ukraine-kiev-poursuit-ses-frappes-contre-des-ports-russes-de-la-baltique_6673450_3210.html) — _Le Monde — français (France / monde)_ · _fr_ · _2026-03-27 13:32 UTC_
-- **[W:1 S:4 G:0]** [OpenAI abandonne finalement le « mode adulte » et les tchats érotiques dans ChatGPT](https://www.lemonde.fr/pixels/article/2026/03/27/openai-abandonne-finalement-le-mode-adulte-et-les-tchats-erotiques-dans-chatgpt_6674545_4408996.html) — _Le Monde — français (France / monde)_ · _fr_ · _2026-03-27 12:12 UTC_
+- **[W:5 S:0 G:0]** [EN DIRECT, guerre en Ukraine : Kiev poursuit ses frappes contre des ports russes de la Baltique](https://www.lemonde.fr/international/live/2026/03/27/en-direct-guerre-en-ukraine-kiev-poursuit-ses-frappes-contre-des-ports-russes-de-la-baltique_6673450_3210.html) — _Le Monde — franÃ§ais (France / monde)_ · _fr_ · _2026-03-27 13:32 UTC_
+- **[W:1 S:4 G:0]** [OpenAI abandonne finalement le Â« mode adulte Â» et les tchats érotiques dans ChatGPT](https://www.lemonde.fr/pixels/article/2026/03/27/openai-abandonne-finalement-le-mode-adulte-et-les-tchats-erotiques-dans-chatgpt_6674545_4408996.html) — _Le Monde — franÃ§ais (France / monde)_ · _fr_ · _2026-03-27 12:12 UTC_
 - **[W:2 S:0 G:2]** [Iran is adopting Russian drone tactics, Ukrainian troops say](https://www.defenseone.com/threats/2026/03/iran-adopting-russian-drone-tactics-ukrainian-troops-say/412434/) — _Defense One — All_ · _2026-03-27 06:27 UTC_
 - **[W:3 S:0 G:0]** [Lobbyists edge out lawmakers in charity hockey showdown](https://thehill.com/blogs/in-the-know/5803938-lobbyists-beat-lawmakers-congressional-hockey-challenge-2026/) — _The Hill — politics_ · _2026-03-27 13:50 UTC_
-- **[W:3 S:0 G:0]** [Ukraine-Krieg: Wolodymyr Selenskyj schließt Flugabwehr-Abkommen mit Saudi-Arabien](https://www.spiegel.de/ausland/ukraine-krieg-wolodymyr-selenskyj-schliesst-luftabwehr-abkommen-mit-saudi-arabien-a-81101d6b-817e-4219-a2af-1fba9596850b#ref=rss) — _Der Spiegel — Deutsch (Schlagzeilen)_ · _de_ · _2026-03-27 14:16 UTC_
+- **[W:3 S:0 G:0]** [Ukraine-Krieg: Wolodymyr Selenskyj schlieÃŸt Flugabwehr-Abkommen mit Saudi-Arabien](https://www.spiegel.de/ausland/ukraine-krieg-wolodymyr-selenskyj-schliesst-luftabwehr-abkommen-mit-saudi-arabien-a-81101d6b-817e-4219-a2af-1fba9596850b#ref=rss) — _Der Spiegel — Deutsch (Schlagzeilen)_ · _de_ · _2026-03-27 14:16 UTC_
 - **[W:3 S:0 G:0]** [Rationing power and diluting petrol - how African countries are coping with effects of Iran war](https://www.bbc.com/news/articles/cq8wkq1n9epo?at_medium=RSS&at_campaign=rss) — _BBC News — World_ · _2026-03-27 10:58 UTC_
 - **[W:2 S:1 G:0]** [UN human rights chief calls on US to conclude probe into Iran school strike](https://www.bbc.com/news/articles/c75kzk3lgl5o?at_medium=RSS&at_campaign=rss) — _BBC News — World_ · _2026-03-27 13:25 UTC_
 - **[W:2 S:0 G:1]** [Senate agrees to fund DHS, except ICE and CBP, in bid to end extreme airport delays](https://www.nbcnews.com/politics/congress/senate-agrees-fund-dhs-ice-border-patrol-bid-shutdown-tsa-pay-delays-rcna265108) — _NBC News — politics_ · _2026-03-27 07:16 UTC_
 - **[W:1 S:1 G:1]** [Judge blocks Pentagon's Anthropic blacklisting for now](https://www.nbcnews.com/news/us-news/anthropic-trump-national-security-rcna265399) — _NBC News — politics_ · _2026-03-27 00:28 UTC_
 - **[W:0 S:0 G:3]** [The Army wants to use bullets, mortars, and artillery to take out small drones](https://www.defenseone.com/technology/2026/03/army-wants-use-bullets-mortars-and-artillery-rounds-take-out-small-drones/412392/) — _Defense One — All_ · _2026-03-26 03:41 UTC_
 - **[W:2 S:0 G:0]** [House Democrats appear ready to back Senate DHS funding deal](https://thehill.com/homenews/house/5804047-house-democrats-dhs-funding-senate-deal/) — _The Hill — politics_ · _2026-03-27 14:08 UTC_
-- **[W:2 S:0 G:0]** [رد من الحرس الثوري الإيراني على تصريحات ترامب.. وتهديد للإمارات والبحرين](https://www.france24.com/ar/%D9%81%D9%8A%D8%AF%D9%8A%D9%88/20260327-%D8%B1%D8%AF-%D9%85%D9%86-%D8%A7%D9%84%D8%AD%D8%B1%D8%B3-%D8%A7%D9%84%D8%AB%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A5%D9%8A%D8%B1%D8%A7%D9%86%D9%8A-%D8%B9%D9%84%D9%89-%D8%AA%D8%B5%D8%B1%D9%8A%D8%AD%D8%A7%D8%AA-%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D9%88%D8%AA%D9%87%D8%AF%D9%8A%D8%AF-%D9%84%D9%84%D8%A5%D9%85%D8%A7%D8%B1%D8%A7%D8%AA-%D9%88%D8%A7%D9%84%D8%A8%D8%AD%D8%B1%D9%8A%D9%86) — _France 24 — العربية (MENA)_ · _ar_ · _2026-03-27 13:28 UTC_
-- **[W:2 S:0 G:0]** [اتهامات لروسيا بمساعدة إيران في هجماتها.. كيف؟](https://www.france24.com/ar/%D9%81%D9%8A%D8%AF%D9%8A%D9%88/20260327-%D8%A7%D8%AA%D9%87%D8%A7%D9%85%D8%A7%D8%AA-%D9%84%D8%B1%D9%88%D8%B3%D9%8A%D8%A7-%D8%A8%D9%85%D8%B3%D8%A7%D8%B9%D8%AF%D8%A9-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D9%81%D9%8A-%D9%87%D8%AC%D9%85%D8%A7%D8%AA%D9%87%D8%A7-%D9%83%D9%8A%D9%81) — _France 24 — العربية (MENA)_ · _ar_ · _2026-03-27 13:16 UTC_
+- **[W:2 S:0 G:0]** [Ø±Ø¯ Ù…Ù† Ø§Ù„Ø­Ø±Ø³ Ø§Ù„Ø«ÙˆØ±ÙŠ Ø§Ù„Ø¥ÙŠØ±Ø§Ù†ÙŠ Ø¹Ù„Ù‰ ØªØµØ±ÙŠØ­Ø§Øª ØªØ±Ø§Ù…Ø¨.. ÙˆØªÙ‡Ø¯ÙŠØ¯ Ù„Ù„Ø¥Ù…Ø§Ø±Ø§Øª ÙˆØ§Ù„Ø¨Ø­Ø±ÙŠÙ†](https://www.france24.com/ar/%D9%81%D9%8A%D8%AF%D9%8A%D9%88/20260327-%D8%B1%D8%AF-%D9%85%D9%86-%D8%A7%D9%84%D8%AD%D8%B1%D8%B3-%D8%A7%D9%84%D8%AB%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A5%D9%8A%D8%B1%D8%A7%D9%86%D9%8A-%D8%B9%D9%84%D9%89-%D8%AA%D8%B5%D8%B1%D9%8A%D8%AD%D8%A7%D8%AA-%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D9%88%D8%AA%D9%87%D8%AF%D9%8A%D8%AF-%D9%84%D9%84%D8%A5%D9%85%D8%A7%D8%B1%D8%A7%D8%AA-%D9%88%D8%A7%D9%84%D8%A8%D8%AD%D8%B1%D9%8A%D9%86) — _France 24 — Ø§Ù„Ø¹Ø±Ø¨ÙŠØ© (MENA)_ · _ar_ · _2026-03-27 13:28 UTC_
+- **[W:2 S:0 G:0]** [Ø§ØªÙ‡Ø§Ù…Ø§Øª Ù„Ø±ÙˆØ³ÙŠØ§ Ø¨Ù…Ø³Ø§Ø¹Ø¯Ø© Ø¥ÙŠØ±Ø§Ù† ÙÙŠ Ù‡Ø¬Ù…Ø§ØªÙ‡Ø§.. ÙƒÙŠÙØŸ](https://www.france24.com/ar/%D9%81%D9%8A%D8%AF%D9%8A%D9%88/20260327-%D8%A7%D8%AA%D9%87%D8%A7%D9%85%D8%A7%D8%AA-%D9%84%D8%B1%D9%88%D8%B3%D9%8A%D8%A7-%D8%A8%D9%85%D8%B3%D8%A7%D8%B9%D8%AF%D8%A9-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D9%81%D9%8A-%D9%87%D8%AC%D9%85%D8%A7%D8%AA%D9%87%D8%A7-%D9%83%D9%8A%D9%81) — _France 24 — Ø§Ù„Ø¹Ø±Ø¨ÙŠØ© (MENA)_ · _ar_ · _2026-03-27 13:16 UTC_
 
 ## 2a. Geopolitical & military (G-ranked)
 
@@ -102,7 +102,7 @@ _Token overlap against `docs/civilization-memory/` (build: `python3 scripts/buil
 ## 3. Lead themes (auto-stub — replace after reading)
 
 ### Work-politics / campaign angle
-- EN DIRECT, guerre en Ukraine : Kiev poursuit ses frappes contre des ports russes de la Baltique
+- EN DIRECT, guerre en Ukraine : Kiev poursuit ses frappes contre des ports russes de la Baltique
 - House Democrat: Trump administration not providing ‘satisfactory answers’ on Iran
 - Lobbyists edge out lawmakers in charity hockey showdown
 
@@ -110,7 +110,7 @@ _Token overlap against `docs/civilization-memory/` (build: `python3 scripts/buil
 
 ### Work-strategy angle (product / governance / tech)
 
-- OpenAI abandonne finalement le « mode adulte » et les tchats érotiques dans ChatGPT
+- OpenAI abandonne finalement le Â« mode adulte Â» et les tchats érotiques dans ChatGPT
 - UN human rights chief calls on US to conclude probe into Iran school strike
 - Judge blocks Pentagon's Anthropic blacklisting for now
 

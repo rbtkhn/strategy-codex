@@ -6,18 +6,18 @@ These objectives are **permanent system rules**. They exist to **prevent intenti
 
 ---
 
-## 1. Democratize Alpha-style education
+## 1. Democratize mastery-learning education
 
-**Democratize Alpha-style education:** deliver the same *kind* of outcomes (mastery-based progress, ~2-hour academic coverage, life skills, motivation, portable identity) at a **fraction of the cost** and **without requiring a physical school or in-room guides**.
+**Democratize mastery-learning education:** deliver the same *kind* of outcomes (mastery-based progress, ~2-hour academic coverage, life skills, motivation, portable identity) at a **fraction of the cost** and **without requiring a physical school or in-room guides**.
 
-- **Equivalence, not replication** — We aim for comparable outcomes (mastery, evidence, “time back,” identity), not Alpha’s delivery (no Timeback clone, no $40K tuition, no guide-in-the-room assumption).
+- **Equivalence, not replication** — We aim for comparable outcomes (mastery, evidence, “time back,” identity), not an AI school’s delivery (no Timeback clone, no $40K tuition, no guide-in-the-room assumption).
 - **Record as the spine** — The Record is the portable identity layer: what they know, what they care about, what they can do. Evidence-gated and exportable so any curriculum or tutor can plug in. That is what scales without the school building.
 - **Reduce overload and anxiety** — A single spine and a clear "what's next" (edge) give learners and caregivers one place for identity and progress instead of scattered tools, reducing overload and anxiety.
 - **Sovereignty and evidence** — Learning and identity stay under the learner’s (or explicitly delegated human’s) control. Human-approval gate for all modifications to skill and self containers; no silent writes. See [IDENTITY-FORK-PROTOCOL](identity-fork-protocol.md), [CONCEPT](concept.md) §6.
 
-**Equity:** Equity is framed as **adequacy** (every learner reaches a sufficient level to participate meaningfully) **plus growth**; the Record supports both. “Top 1%” in the Alpha reference is a **comparison target** for what’s possible, not a requirement for every learner.
+**Equity:** Equity is framed as **adequacy** (every learner reaches a sufficient level to participate meaningfully) **plus growth**; the Record supports both. “Top 1%” in the mastery-learning reference is a **comparison target** for what’s possible, not a requirement for every learner.
 
-**One line:** Make Alpha-style learning and identity available to many more people via Record + pipeline + low-cost tools, without the school or the budget.
+**One line:** Make mastery-learning learning and identity available to many more people via Record + pipeline + low-cost tools, without the school or the budget.
 
 ---
 
@@ -59,4 +59,3 @@ If a proposal would drift the system away from any of these objectives, flag it 
 ## Reference
 
 - [CONCEPT](concept.md) — Core idea, education structure, invariants.
-- [SKILL-WORK-ALPHA-SCHOOL: Alpha School reference](skill-work/skill-work-alpha-school/alpha-school-reference.md) — Benchmarks, 2-hour screen-time target, and equivalent metrics (consolidated in the skill-work submodule: skill-work-alpha-school).

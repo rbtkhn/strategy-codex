@@ -20,7 +20,6 @@ def minimal_user_dir(tmp_path, monkeypatch):
         "skill-think.md",
         "skill-write.md",
         "skill-steward.md",
-        "work-alpha-school.md",
         "work-jiang.md",
         "self-archive.md",
     ):
@@ -45,7 +44,7 @@ def minimal_user_dir(tmp_path, monkeypatch):
             ud / "skill-steward.md",
         ],
     )
-    monkeypatch.setattr(retriever, "WORK_PATHS", [ud / "work-alpha-school.md", ud / "work-jiang.md"])
+    monkeypatch.setattr(retriever, "WORK_PATHS", [ud / "work-jiang.md"])
     monkeypatch.setattr(retriever, "EVIDENCE_PATH", ud / "self-archive.md")
     monkeypatch.setattr(retriever, "DISK_CACHE_PATH", ud / ".cache" / "retriever_chunks.pkl")
     retriever._chunks_cache = None

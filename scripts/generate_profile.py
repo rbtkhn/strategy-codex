@@ -431,7 +431,7 @@ def collect_data() -> ProfileData:
         except (json.JSONDecodeError, KeyError):
             pass
 
-    work_content = (PROFILE_DIR / "work-alpha-school.md").read_text() if (PROFILE_DIR / "work-alpha-school.md").exists() else ""
+    work_content = ""
     skills_content_no_work = "\n".join(p.read_text() for p in skills_paths if p.exists())
     raw_files = {
         "self": self_content,

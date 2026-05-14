@@ -354,8 +354,8 @@ def _checkpoint_to_github() -> tuple[bool, str]:
     """
     repo_root = Path(__file__).resolve().parent.parent
     files = [
-        f"users/{USER_ID}/session-transcript.md",
-        f"users/{USER_ID}/recursion-gate.md",
+        f"{USER_ID}/session-transcript.md",
+        f"{USER_ID}/recursion-gate.md",
     ]
     for f in files:
         if not (repo_root / f).exists():
@@ -649,15 +649,11 @@ async def log_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
 
 async def export_curriculum_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Export curriculum profile (JSON) — shareable for adaptive curriculum engines."""
-    args = context.args or []
-    audience = "alpha-school" if "alpha" in " ".join(args).lower() else None
     try:
-        content = await _run_blocking(run_export_curriculum, None, audience)
+        content = await _run_blocking(run_export_curriculum, None, None)
         buf = BytesIO(content.encode("utf-8"))
         buf.seek(0)
         caption = "Curriculum profile — curiosity, knowledge, skills edge, evidence anchors."
-        if audience:
-            caption += " (alpha-school context included)"
         await update.message.reply_document(
             document=buf,
             filename="curriculum_profile.json",

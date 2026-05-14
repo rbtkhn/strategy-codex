@@ -1,4 +1,4 @@
-﻿# Daily brief â€” work-politics & work-strategy
+# Daily brief Ã¢â‚¬” work-politics & work-strategy
 
 **Date:** 2026-04-13  
 **Assembled:** 2026-04-14 15:35 UTC  
@@ -9,15 +9,15 @@ _Operator WORK product. Complete synthesis below; cite sources before any public
 
 ## 1. Work-politics snapshot
 
-- **Primary:** May 19, 2026 â€” **days until:** 34
+- **Primary:** May 19, 2026 Ã¢â‚¬” **days until:** 34
 - **Work-politics gate:** 0 pending candidate(s)
 
 ### Upcoming (from calendar)
 
-- ****Apr 20, 2026**** â€” **Voter registration deadline** (in-person and mail; mail = postmark) â€” Push registration in-district; remind supporters.
-- ****May 5, 2026**** â€” Mail-in absentee ballot request portal closes â€” Voters who need absentee must request by this date.
-- ****May 7, 2026**** â€” **FEC pre-primary report due** â€” Covers period Apr 1â€“Apr 29. Registration/certification & overnight mail deadline May 4.
-- ****May 19, 2026**** â€” **Primary election day** â€” Polls open; final GOTV.
+- ****Apr 20, 2026**** Ã¢â‚¬” **Voter registration deadline** (in-person and mail; mail = postmark) Ã¢â‚¬” Push registration in-district; remind supporters.
+- ****May 5, 2026**** Ã¢â‚¬” Mail-in absentee ballot request portal closes Ã¢â‚¬” Voters who need absentee must request by this date.
+- ****May 7, 2026**** Ã¢â‚¬” **FEC pre-primary report due** Ã¢â‚¬” Covers period Apr 1Ã¢â‚¬“Apr 29. Registration/certification & overnight mail deadline May 4.
+- ****May 19, 2026**** Ã¢â‚¬” **Primary election day** Ã¢â‚¬” Polls open; final GOTV.
 
 ### Territory signals (from docs)
 
@@ -29,131 +29,131 @@ _Operator WORK product. Complete synthesis below; cite sources before any public
 
 ## 1b. Work-strategy focus
 
-_From `docs/skill-work/work-strategy/daily-brief-focus.md` Â§ Active focus._
+_From `docs/skill-work/work-strategy/daily-brief-focus.md` Ã‚§ Active focus._
 
-- **Civilizational / geopolitics operator ledger:** [STRATEGY.md](STRATEGY.md) â€” long-horizon CORE + heuristics + Â§IV operator strategy log (WORK-only; gate only when promoting to Record or milestones).
+- **Civilizational / geopolitics operator ledger:** [STRATEGY.md](STRATEGY.md) Ã¢â‚¬” long-horizon CORE + heuristics + Ã‚§IV operator strategy log (WORK-only; gate only when promoting to Record or milestones).
 - Campaign/companion positioning: portable Record, human-only merge, Voice boundary.
-- OpenClaw â†” repo handback and export provenance (see [work-dev workspace](../work-dev/workspace.md)).
-- AI-in-schools and identity-substrate narrative vs Alpha-style bundles (see [work-alpha-school](../work-alpha-school/README.md), [work-dev offers](../work-dev/offers.md)).
+- OpenClaw Ã¢â€ ” repo handback and export provenance (see [work-dev workspace](../work-dev/workspace.md)).
+- AI-in-schools and identity-substrate narrative vs school bundles (see [work-dev offers](../work-dev/offers.md)).
 - Optional: federal / state AI governance headlines when relevant to offers or civ-mem work.
-- Long-form tech discourse (GTC-class, Moonshots-class): themes distilled in [external-tech-scan.md](external-tech-scan.md) â€” use for **strategy vocabulary** and **keyword-season** tuning in [daily-brief-config.json](daily-brief-config.json); **not** unsourced brief facts.
-- **Vladimir Putin / Kremlin (primary strategy thread):** **Voice** = **President of Russia** **remarks**, **Kremlin** events, **calls**, **transcripts**. **Hub** = [daily-brief-putin-watch.md](daily-brief-putin-watch.md) â€” **Coffee menu C â€” Strategy (daily brief)** fills **Â§1d** (rolling **48h** + **URLs** + **native** triangulation when load-bearing); Step 1 does not run this pass. **Notebook weaving** = [strategy-notebook/chapters/YYYY-MM/meta.md](strategy-notebook/chapters/2026-04/meta.md) Â§ **Vladimir Putin / Kremlin thread** + [NOTEBOOK-PREFERENCES.md](strategy-notebook/NOTEBOOK-PREFERENCES.md) row â€” separate **Kremlin-primary** wording from **wire** **paraphrase**; do not merge **personality** **headlines** with **U.S.** **channel** **scope** without verify. **When Putin is a watch:** refresh the month link if the active `meta.md` chapter changes.
-- **JD Vance / VP channel (primary strategy thread):** **Voice** = Vice President **remarks**, **travel**, **White House** readouts. **Hub** = [daily-brief-jd-vance-watch.md](daily-brief-jd-vance-watch.md) â€” **Coffee menu C â€” Strategy (daily brief)** fills **Â§1e** (rolling **48h** + **URLs**); Step 1 does not run this pass. **Notebook weaving** = [strategy-notebook/chapters/YYYY-MM/meta.md](strategy-notebook/chapters/2026-04/meta.md) Â§ **JD Vance thread** + [NOTEBOOK-PREFERENCES.md](strategy-notebook/NOTEBOOK-PREFERENCES.md) row â€” tag **delegation role** vs **atmospheric** quote; do not merge **VP** **tone** with **Islamabad** **scope** facts without **official** alignment. **When Vance is a watch:** refresh the month link if the active `meta.md` chapter changes.
-- **PRC / Beijing (primary strategy thread):** **Voice** = **MFA** and **partyâ€“state** readouts (**summits**, **ministry** lines, major **official** English pages). **Hub** = [daily-brief-prc-watch.md](daily-brief-prc-watch.md) â€” **Coffee menu C â€” Strategy (daily brief)** fills **Â§1g** (rolling **48h** + **URLs** + **Mandarin** triangulation when load-bearing; in generated briefs **Â§1g** follows **Â§1f** weak signal); Step 1 does not run this pass. **Notebook weaving** = [strategy-notebook/chapters/YYYY-MM/meta.md](strategy-notebook/chapters/2026-04/meta.md) Â§ **PRC / Beijing thread** + [NOTEBOOK-PREFERENCES.md](strategy-notebook/NOTEBOOK-PREFERENCES.md) row â€” separate **MFA-primary** wording from **Western** â€œChinaâ€ **analysis**; do not merge **narrative** **headlines** with **negotiation** **terms** without verify. **When PRC is a watch:** refresh the month link if the active `meta.md` chapter changes.
-- **Islamic Republic of Iran (primary strategy thread):** **Voice** = **Iranian state** lines (**MFA**, **presidency**, **IRNA** / major wires). **Hub** = [daily-brief-iran-watch.md](daily-brief-iran-watch.md) â€” **Coffee menu C â€” Strategy (daily brief)** fills **Â§1h** (rolling **48h** + **URLs** + **Persian** triangulation when load-bearing; in generated briefs **Â§1h** follows **Â§1g**); Step 1 does not run this pass. **Notebook weaving** = [strategy-notebook/chapters/YYYY-MM/meta.md](strategy-notebook/chap
+- Long-form tech discourse (GTC-class, Moonshots-class): themes distilled in [external-tech-scan.md](external-tech-scan.md) Ã¢â‚¬” use for **strategy vocabulary** and **keyword-season** tuning in [daily-brief-config.json](daily-brief-config.json); **not** unsourced brief facts.
+- **Vladimir Putin / Kremlin (primary strategy thread):** **Voice** = **President of Russia** **remarks**, **Kremlin** events, **calls**, **transcripts**. **Hub** = [daily-brief-putin-watch.md](daily-brief-putin-watch.md) Ã¢â‚¬” **Coffee menu C Ã¢â‚¬” Strategy (daily brief)** fills **Ã‚§1d** (rolling **48h** + **URLs** + **native** triangulation when load-bearing); Step 1 does not run this pass. **Notebook weaving** = [strategy-notebook/chapters/YYYY-MM/meta.md](strategy-notebook/chapters/2026-04/meta.md) Ã‚§ **Vladimir Putin / Kremlin thread** + [NOTEBOOK-PREFERENCES.md](strategy-notebook/NOTEBOOK-PREFERENCES.md) row Ã¢â‚¬” separate **Kremlin-primary** wording from **wire** **paraphrase**; do not merge **personality** **headlines** with **U.S.** **channel** **scope** without verify. **When Putin is a watch:** refresh the month link if the active `meta.md` chapter changes.
+- **JD Vance / VP channel (primary strategy thread):** **Voice** = Vice President **remarks**, **travel**, **White House** readouts. **Hub** = [daily-brief-jd-vance-watch.md](daily-brief-jd-vance-watch.md) Ã¢â‚¬” **Coffee menu C Ã¢â‚¬” Strategy (daily brief)** fills **Ã‚§1e** (rolling **48h** + **URLs**); Step 1 does not run this pass. **Notebook weaving** = [strategy-notebook/chapters/YYYY-MM/meta.md](strategy-notebook/chapters/2026-04/meta.md) Ã‚§ **JD Vance thread** + [NOTEBOOK-PREFERENCES.md](strategy-notebook/NOTEBOOK-PREFERENCES.md) row Ã¢â‚¬” tag **delegation role** vs **atmospheric** quote; do not merge **VP** **tone** with **Islamabad** **scope** facts without **official** alignment. **When Vance is a watch:** refresh the month link if the active `meta.md` chapter changes.
+- **PRC / Beijing (primary strategy thread):** **Voice** = **MFA** and **partyÃ¢â‚¬“state** readouts (**summits**, **ministry** lines, major **official** English pages). **Hub** = [daily-brief-prc-watch.md](daily-brief-prc-watch.md) Ã¢â‚¬” **Coffee menu C Ã¢â‚¬” Strategy (daily brief)** fills **Ã‚§1g** (rolling **48h** + **URLs** + **Mandarin** triangulation when load-bearing; in generated briefs **Ã‚§1g** follows **Ã‚§1f** weak signal); Step 1 does not run this pass. **Notebook weaving** = [strategy-notebook/chapters/YYYY-MM/meta.md](strategy-notebook/chapters/2026-04/meta.md) Ã‚§ **PRC / Beijing thread** + [NOTEBOOK-PREFERENCES.md](strategy-notebook/NOTEBOOK-PREFERENCES.md) row Ã¢â‚¬” separate **MFA-primary** wording from **Western** “China” **analysis**; do not merge **narrative** **headlines** with **negotiation** **terms** without verify. **When PRC is a watch:** refresh the month link if the active `meta.md` chapter changes.
+- **Islamic Republic of Iran (primary strategy thread):** **Voice** = **Iranian state** lines (**MFA**, **presidency**, **IRNA** / major wires). **Hub** = [daily-brief-iran-watch.md](daily-brief-iran-watch.md) Ã¢â‚¬” **Coffee menu C Ã¢â‚¬” Strategy (daily brief)** fills **Ã‚§1h** (rolling **48h** + **URLs** + **Persian** triangulation when load-bearing; in generated briefs **Ã‚§1h** follows **Ã‚§1g**); Step 1 does not run this pass. **Notebook weaving** = [strategy-notebook/chapters/YYYY-MM/meta.md](strategy-notebook/chap
 
-## 1c. Two horizons â€” fast vs slow
+## 1c. Two horizons Ã¢â‚¬” fast vs slow
 
-**Fast (same brief):** Â§**2** RSS headlines + Â§**1** snapshot â€” news cycle, principal-adjacent hooks, scored **W / S / G**.
+**Fast (same brief):** Ã‚§**2** RSS headlines + Ã‚§**1** snapshot Ã¢â‚¬” news cycle, principal-adjacent hooks, scored **W / S / G**.
 
-**Slow (work-jiang):** lecture extractions, compression JSON, comparative sweeps â€” **structural** context; not a substitute for dated facts. Prefer [SELF-LIBRARY](../../../self-library.md) entries (e.g. reference / `lookup_priority`) when library-first lookup applies.
+**Slow (work-jiang):** lecture extractions, compression JSON, comparative sweeps Ã¢â‚¬” **structural** context; not a substitute for dated facts. Prefer [SELF-LIBRARY](../../../self-library.md) entries (e.g. reference / `lookup_priority`) when library-first lookup applies.
 
-_From `docs/skill-work/work-strategy/daily-brief-jiang-layer.md` Â§ Active work-jiang hooks._
+_From `docs/skill-work/work-strategy/daily-brief-jiang-layer.md` Ã‚§ Active work-jiang hooks._
 
-- _Edit between brief runs. **SELF-LIBRARY (Predictive History):** [LIB-0149](../../../self-library.md#operator-analytical-books) â€” `lookup_priority: preferred`; canonical URL in YAML â†’ [BOOK-ARCHITECTURE.md](../../../research/external/work-jiang/BOOK-ARCHITECTURE.md)._
-- [BOOK-ARCHITECTURE.md](../../../research/external/work-jiang/BOOK-ARCHITECTURE.md) â€” multivolume spine; Volume I Geo-Strategy (Part I ch01â€“ch20, Part II prediction adjudication).
-- [STATUS.md](../../../research/external/work-jiang/STATUS.md) â€” corpus counts, **missing analysis** backlog, `outline_in_progress`, production nudges.
-- [CHAPTER-QUEUE.md](../../../research/external/work-jiang/CHAPTER-QUEUE.md) â€” next chapter front (queue vs blockers).
-- [lectures/](../../../research/external/work-jiang/lectures/) â€” curated lecture bodies for slow-layer pull quotes / compressions.
-- [COMPRESSION-ENGINE.md](../work-jiang/COMPRESSION-ENGINE.md) â€” lane doc when running `jiang-compress` / JSON outputs (`research/external/work-jiang/compressions/<slug>-YYYYMMDD.json`).
+- _Edit between brief runs. **SELF-LIBRARY (Predictive History):** [LIB-0149](../../../self-library.md#operator-analytical-books) Ã¢â‚¬” `lookup_priority: preferred`; canonical URL in YAML Ã¢â€ ’ [BOOK-ARCHITECTURE.md](../../codex/predictive-history/BOOK-ARCHITECTURE.md)._
+- [BOOK-ARCHITECTURE.md](../../codex/predictive-history/BOOK-ARCHITECTURE.md) Ã¢â‚¬” multivolume spine; Volume I Geo-Strategy (Part I ch01Ã¢â‚¬“ch20, Part II prediction adjudication).
+- [STATUS.md](../../codex/predictive-history/STATUS.md) Ã¢â‚¬” corpus counts, **missing analysis** backlog, `outline_in_progress`, production nudges.
+- [CHAPTER-QUEUE.md](../../codex/predictive-history/CHAPTER-QUEUE.md) Ã¢â‚¬” next chapter front (queue vs blockers).
+- [lectures/](../../codex/predictive-history/lectures/) Ã¢â‚¬” curated lecture bodies for slow-layer pull quotes / compressions.
+- [COMPRESSION-ENGINE.md](../codex/predictive-history/COMPRESSION-ENGINE.md) Ã¢â‚¬” lane doc when running `jiang-compress` / JSON outputs (`codex/predictive-history/compressions/<slug>-YYYYMMDD.json`).
 
 _Product / integration context: [work-dev/workspace.md](../work-dev/workspace.md), [work-strategy/README.md](README.md)._
 
-## 1d. Putin â€” last 48 hours
+## 1d. Putin Ã¢â‚¬” last 48 hours
 
-_Filled at **good morning** per [daily-brief-putin-watch.md](daily-brief-putin-watch.md): web scan (Kremlin schedule/transcripts, Reuters, BBC, TASS/RIA as needed), **48h** rolling window, **bullets + URLs**. RSS Â§2 does not replace this pass. If blank, paste after generate or re-run morning assembly._
+_Filled at **good morning** per [daily-brief-putin-watch.md](daily-brief-putin-watch.md): web scan (Kremlin schedule/transcripts, Reuters, BBC, TASS/RIA as needed), **48h** rolling window, **bullets + URLs**. RSS Ã‚§2 does not replace this pass. If blank, paste after generate or re-run morning assembly._
 
-## 1e. JD Vance â€” last 48 hours
+## 1e. JD Vance Ã¢â‚¬” last 48 hours
 
-_Filled at **good morning** per [daily-brief-jd-vance-watch.md](daily-brief-jd-vance-watch.md): web scan (VP office / White House readouts, Congress if relevant, major wires), **48h** rolling window, **bullets + URLs**. RSS Â§2 may surface Vance-adjacent headlines; it does not replace this pass. If blank, paste after generate or re-run morning assembly._
+_Filled at **good morning** per [daily-brief-jd-vance-watch.md](daily-brief-jd-vance-watch.md): web scan (VP office / White House readouts, Congress if relevant, major wires), **48h** rolling window, **bullets + URLs**. RSS Ã‚§2 may surface Vance-adjacent headlines; it does not replace this pass. If blank, paste after generate or re-run morning assembly._
 
 ## 1f. Weak signal worth watching
 
 _Operator block per [weak-signal-template.md](weak-signal-template.md) and [weak-signals.md](weak-signals.md). One compact weak signal when a credible candidate exists (low/medium confidence only). If nothing clears the bar, use: **No credible weak signal exceeded the threshold today.** When a historical parallel is in play, summarize a short analogy audit ([analogy-audit-template.md](analogy-audit-template.md)) here._
 
-## 1g. PRC â€” last 48 hours (Peopleâ€™s Republic of China)
+## 1g. PRC Ã¢â‚¬” last 48 hours (People’s Republic of China)
 
-_Filled per [daily-brief-prc-watch.md](daily-brief-prc-watch.md) + [daily-brief-native-international-pass.md](daily-brief-native-international-pass.md): web scan (MFA, major state wires, cross-check Reuters), **48h** rolling window, **bullets + URLs**; add **Mandarin-primary** line when PRC is load-bearing. RSS Â§2 does not replace this pass. If blank, paste after generate or re-run morning assembly._
+_Filled per [daily-brief-prc-watch.md](daily-brief-prc-watch.md) + [daily-brief-native-international-pass.md](daily-brief-native-international-pass.md): web scan (MFA, major state wires, cross-check Reuters), **48h** rolling window, **bullets + URLs**; add **Mandarin-primary** line when PRC is load-bearing. RSS Ã‚§2 does not replace this pass. If blank, paste after generate or re-run morning assembly._
 
-## 1h. IRI â€” last 48 hours (Islamic Republic of Iran)
+## 1h. IRI Ã¢â‚¬” last 48 hours (Islamic Republic of Iran)
 
-_Filled per [daily-brief-iran-watch.md](daily-brief-iran-watch.md) + [daily-brief-native-international-pass.md](daily-brief-native-international-pass.md): web scan (MFA, IRNA/Tasnim as needed, cross-check Reuters), **48h** rolling window, **bullets + URLs**; add **Persian-primary** line when Iran / Islamabad is load-bearing. Complements [islamabad-operator-index.md](islamabad-operator-index.md) (bargaining framework)â€”this block is **Tehran state voice**. RSS Â§2 does not replace this pass. If blank, paste after generate or re-run morning assembly._
+_Filled per [daily-brief-iran-watch.md](daily-brief-iran-watch.md) + [daily-brief-native-international-pass.md](daily-brief-native-international-pass.md): web scan (MFA, IRNA/Tasnim as needed, cross-check Reuters), **48h** rolling window, **bullets + URLs**; add **Persian-primary** line when Iran / Islamabad is load-bearing. Complements [islamabad-operator-index.md](islamabad-operator-index.md) (bargaining framework)Ã¢â‚¬”this block is **Tehran state voice**. RSS Ã‚§2 does not replace this pass. If blank, paste after generate or re-run morning assembly._
 
 ## 2. Headlines (ingested RSS)
 
-_Fetch failed for: Reuters â€” World._
+_Fetch failed for: Reuters Ã¢â‚¬” World._
 
-Ranked by **W+S+G** (global keyword lists + per-`locale` maps for W/S; **G** = `geo_military_keyword_phrases`) then recency. Each feed is **recency-sorted** then **capped** (`ingest_caps`: per-feed `max_items` and/or `tier` â†’ `max_items_by_tier`; CLI `--max-per-feed N` overrides all feeds). Optional **same-story** grouping uses `story_anchor_phrases` overlap (Jaccard + shared anchors). Tune phrases in config JSON.
+Ranked by **W+S+G** (global keyword lists + per-`locale` maps for W/S; **G** = `geo_military_keyword_phrases`) then recency. Each feed is **recency-sorted** then **capped** (`ingest_caps`: per-feed `max_items` and/or `tier` Ã¢â€ ’ `max_items_by_tier`; CLI `--max-per-feed N` overrides all feeds). Optional **same-story** grouping uses `story_anchor_phrases` overlap (Jaccard + shared anchors). Tune phrases in config JSON.
 
 _Same-story clusters use anchor overlap on titles (proper nouns / crisis terms); not neural / semantic dedupe._
 
 #### Same-story (multilingual)
 
-**biden Â· congress Â· iran Â· trump** â€” _6 sources_
+**biden Ã‚· congress Ã‚· iran Ã‚· trump** Ã¢â‚¬” _6 sources_
 
-- **[W:3 S:0 G:0]** [Pelosi says Trumpâ€™s pope outburst, Jesus post worthy â€˜of a diagnosisâ€™](https://thehill.com/homenews/house/5830337-nancy-pelosi-donald-trump-pope-leo-xiv-iran-war/) â€” _The Hill â€” politics_ Â· _2026-04-14 15:04 UTC_
-- **Also** â€” [Eric Swalwell will resign from Congress. And, Trump feuds with Pope Leo over Iran War](https://www.npr.org/2026/04/14/g-s1-117363/up-first-newsletter-eric-swalwell-strait-of-hormuz-pope-leo-trump-section-702-foreign-intelligence-surveillance-act) â€” _NPR â€” national news_ Â· _W:3 S:0 G:0_ Â· _2026-04-14 07:27 UTC_
-- **Also** â€” [Trump's Iran war deepens the GOP's midterm challenges: From the Politics Desk](https://www.nbcnews.com/politics/politics-news/trumps-iran-war-deepens-gops-midterm-challenges-politics-desk-rcna331609) â€” _NBC News â€” politics_ Â· _W:3 S:0 G:0_ Â· _2026-04-13 21:00 UTC_
-- **Also** â€” [Former Biden official says Trumpâ€™s blockade â€˜might be helpfulâ€™ in negotiations](https://thehill.com/policy/defense/5830333-us-blockade-strait-hormuz-iran-john-kirby/) â€” _The Hill â€” politics_ Â· _W:2 S:0 G:1_ Â· _2026-04-14 14:53 UTC_
-- **Also** â€” [U.S. and Iran could hold new peace talks as soon as this week, sources say](https://www.nbcnews.com/world/iran/us-iran-new-peace-talks-trump-vance-hormuz-nuclear-enrichment-rcna331669) â€” _NBC News â€” politics_ Â· _W:2 S:0 G:0_ Â· _2026-04-14 13:25 UTC_
+- **[W:3 S:0 G:0]** [Pelosi says Trump’s pope outburst, Jesus post worthy Ã¢â‚¬Ëœof a diagnosis’](https://thehill.com/homenews/house/5830337-nancy-pelosi-donald-trump-pope-leo-xiv-iran-war/) Ã¢â‚¬” _The Hill Ã¢â‚¬” politics_ Ã‚· _2026-04-14 15:04 UTC_
+- **Also** Ã¢â‚¬” [Eric Swalwell will resign from Congress. And, Trump feuds with Pope Leo over Iran War](https://www.npr.org/2026/04/14/g-s1-117363/up-first-newsletter-eric-swalwell-strait-of-hormuz-pope-leo-trump-section-702-foreign-intelligence-surveillance-act) Ã¢â‚¬” _NPR Ã¢â‚¬” national news_ Ã‚· _W:3 S:0 G:0_ Ã‚· _2026-04-14 07:27 UTC_
+- **Also** Ã¢â‚¬” [Trump's Iran war deepens the GOP's midterm challenges: From the Politics Desk](https://www.nbcnews.com/politics/politics-news/trumps-iran-war-deepens-gops-midterm-challenges-politics-desk-rcna331609) Ã¢â‚¬” _NBC News Ã¢â‚¬” politics_ Ã‚· _W:3 S:0 G:0_ Ã‚· _2026-04-13 21:00 UTC_
+- **Also** Ã¢â‚¬” [Former Biden official says Trump’s blockade Ã¢â‚¬Ëœmight be helpful’ in negotiations](https://thehill.com/policy/defense/5830333-us-blockade-strait-hormuz-iran-john-kirby/) Ã¢â‚¬” _The Hill Ã¢â‚¬” politics_ Ã‚· _W:2 S:0 G:1_ Ã‚· _2026-04-14 14:53 UTC_
+- **Also** Ã¢â‚¬” [U.S. and Iran could hold new peace talks as soon as this week, sources say](https://www.nbcnews.com/world/iran/us-iran-new-peace-talks-trump-vance-hormuz-nuclear-enrichment-rcna331669) Ã¢â‚¬” _NBC News Ã¢â‚¬” politics_ Ã‚· _W:2 S:0 G:0_ Ã‚· _2026-04-14 13:25 UTC_
 
-**Ø¥Ø³Ø±Ø§Ø¦ÙŠÙ„ Â· ÙˆØ§Ø´Ù†Ø·Ù†** â€” _2 sources_
+**Ã˜Â¥Ã˜Â³Ã˜Â±Ã˜§Ã˜Â¦Ã™Å Ã™â€ž Ã‚· Ã™Ë†Ã˜§Ã˜Â´Ã™â€ Ã˜·Ã™â€ ** Ã¢â‚¬” _2 sources_
 
-- **[W:3 S:0 G:0]** [Ù…ÙØ§ÙˆØ¶Ø§Øª Ù…Ø±ØªÙ‚Ø¨Ø© Ø¨ÙˆØ§Ø´Ù†Ø·Ù† Ø¨ÙŠÙ† Ù„Ø¨Ù†Ø§Ù† ÙˆØ¥Ø³Ø±Ø§Ø¦ÙŠÙ„ ÙˆØºØ§Ø±Ø§Øª ÙˆÙ…Ø¹Ø§Ø±Ùƒ Ø´Ø±Ø³Ø© ÙÙŠ Ø¨Ù†Øª Ø¬Ø¨ÙŠÙ„](https://www.france24.com/ar/%D9%81%D9%8A%D8%AF%D9%8A%D9%88/20260414-%D9%85%D9%81%D8%A7%D9%88%D8%B6%D8%A7%D8%AA-%D9%85%D8%B1%D8%AA%D9%82%D8%A8%D8%A9-%D8%A8%D9%88%D8%A7%D8%B4%D9%86%D8%B7%D9%86-%D8%A8%D9%8A%D9%86-%D9%84%D8%A8%D9%86%D8%A7%D9%86-%D9%88%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84-%D9%88%D8%BA%D8%A7%D8%B1%D8%A7%D8%AA-%D9%88%D9%85%D8%B9%D8%A7%D8%B1%D9%83-%D8%B4%D8%B1%D8%B3%D8%A9-%D9%81%D9%8A-%D8%A8%D9%86%D8%AA-%D8%AC%D8%A8%D9%8A%D9%84) â€” _France 24 â€” Ø§Ù„Ø¹Ø±Ø¨ÙŠØ© (MENA)_ Â· _ar_ Â· _2026-04-14 14:46 UTC_
-- **Also** â€” [Ù…Ø­Ø§Ø¯Ø«Ø§Øª Ù…Ø¨Ø§Ø´Ø±Ø© Ø¨ÙŠÙ† Ù„Ø¨Ù†Ø§Ù† ÙˆØ¥Ø³Ø±Ø§Ø¦ÙŠÙ„ ÙÙŠ ÙˆØ§Ø´Ù†Ø·Ù†.. Ù„Ù‚Ø§Ø¡ Ø¯Ø¨Ù„ÙˆÙ…Ø§Ø³ÙŠ ØªØ§Ø±ÙŠØ®ÙŠ ÙÙŠ Ù…Ø±Ø­Ù„Ø© Ø­Ø±Ø¬Ø©!](https://www.france24.com/ar/%D8%A8%D8%B1%D8%A7%D9%85%D8%AC/%D8%B6%D9%8A%D9%81-%D8%A7%D9%84%D9%8A%D9%88%D9%85/20260414-%D9%85%D8%AD%D8%A7%D8%AF%D8%AB%D8%A7%D8%AA-%D9%85%D8%A8%D8%A7%D8%B4%D8%B1%D8%A9-%D8%A8%D9%8A%D9%86-%D9%84%D8%A8%D9%86%D8%A7%D9%86-%D9%88%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84-%D9%81%D9%8A-%D9%88%D8%A7%D8%B4%D9%86%D8%B7%D9%86-%D9%84%D9%82%D8%A7%D8%A1-%D8%AF%D8%A8%D9%84%D9%88%D9%85%D8%A7%D8%B3%D9%8A-%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE%D9%8A-%D9%81%D9%8A-%D9%85%D8%B1%D8%AD%D9%84%D8%A9-%D8%AD%D8%B1%D8%AC%D8%A9) â€” _France 24 â€” Ø§Ù„Ø¹Ø±Ø¨ÙŠØ© (MENA)_ Â· _ar_ Â· _W:3 S:0 G:0_ Â· _2026-04-14 14:22 UTC_
+- **[W:3 S:0 G:0]** [Ã™…Ã™ÂÃ˜§Ã™Ë†Ã˜Â¶Ã˜§Ã˜Âª Ã™…Ã˜Â±Ã˜ÂªÃ™â€šÃ˜Â¨Ã˜Â© Ã˜Â¨Ã™Ë†Ã˜§Ã˜Â´Ã™â€ Ã˜·Ã™â€  Ã˜Â¨Ã™Å Ã™â€  Ã™â€žÃ˜Â¨Ã™â€ Ã˜§Ã™â€  Ã™Ë†Ã˜Â¥Ã˜Â³Ã˜Â±Ã˜§Ã˜Â¦Ã™Å Ã™â€ž Ã™Ë†Ã˜ÂºÃ˜§Ã˜Â±Ã˜§Ã˜Âª Ã™Ë†Ã™…Ã˜Â¹Ã˜§Ã˜Â±Ã™Æ’ Ã˜Â´Ã˜Â±Ã˜Â³Ã˜Â© Ã™ÂÃ™Å  Ã˜Â¨Ã™â€ Ã˜Âª Ã˜Â¬Ã˜Â¨Ã™Å Ã™â€ž](https://www.france24.com/ar/%D9%81%D9%8A%D8%AF%D9%8A%D9%88/20260414-%D9%85%D9%81%D8%A7%D9%88%D8%B6%D8%A7%D8%AA-%D9%85%D8%B1%D8%AA%D9%82%D8%A8%D8%A9-%D8%A8%D9%88%D8%A7%D8%B4%D9%86%D8%B7%D9%86-%D8%A8%D9%8A%D9%86-%D9%84%D8%A8%D9%86%D8%A7%D9%86-%D9%88%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84-%D9%88%D8%BA%D8%A7%D8%B1%D8%A7%D8%AA-%D9%88%D9%85%D8%B9%D8%A7%D8%B1%D9%83-%D8%B4%D8%B1%D8%B3%D8%A9-%D9%81%D9%8A-%D8%A8%D9%86%D8%AA-%D8%AC%D8%A8%D9%8A%D9%84) Ã¢â‚¬” _France 24 Ã¢â‚¬” Ã˜§Ã™â€žÃ˜Â¹Ã˜Â±Ã˜Â¨Ã™Å Ã˜Â© (MENA)_ Ã‚· _ar_ Ã‚· _2026-04-14 14:46 UTC_
+- **Also** Ã¢â‚¬” [Ã™…Ã˜Â­Ã˜§Ã˜Â¯Ã˜Â«Ã˜§Ã˜Âª Ã™…Ã˜Â¨Ã˜§Ã˜Â´Ã˜Â±Ã˜Â© Ã˜Â¨Ã™Å Ã™â€  Ã™â€žÃ˜Â¨Ã™â€ Ã˜§Ã™â€  Ã™Ë†Ã˜Â¥Ã˜Â³Ã˜Â±Ã˜§Ã˜Â¦Ã™Å Ã™â€ž Ã™ÂÃ™Å  Ã™Ë†Ã˜§Ã˜Â´Ã™â€ Ã˜·Ã™â€ .. Ã™â€žÃ™â€šÃ˜§Ã˜Â¡ Ã˜Â¯Ã˜Â¨Ã™â€žÃ™Ë†Ã™…Ã˜§Ã˜Â³Ã™Å  Ã˜ÂªÃ˜§Ã˜Â±Ã™Å Ã˜Â®Ã™Å  Ã™ÂÃ™Å  Ã™…Ã˜Â±Ã˜Â­Ã™â€žÃ˜Â© Ã˜Â­Ã˜Â±Ã˜Â¬Ã˜Â©!](https://www.france24.com/ar/%D8%A8%D8%B1%D8%A7%D9%85%D8%AC/%D8%B6%D9%8A%D9%81-%D8%A7%D9%84%D9%8A%D9%88%D9%85/20260414-%D9%85%D8%AD%D8%A7%D8%AF%D8%AB%D8%A7%D8%AA-%D9%85%D8%A8%D8%A7%D8%B4%D8%B1%D8%A9-%D8%A8%D9%8A%D9%86-%D9%84%D8%A8%D9%86%D8%A7%D9%86-%D9%88%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84-%D9%81%D9%8A-%D9%88%D8%A7%D8%B4%D9%86%D8%B7%D9%86-%D9%84%D9%82%D8%A7%D8%A1-%D8%AF%D8%A8%D9%84%D9%88%D9%85%D8%A7%D8%B3%D9%8A-%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE%D9%8A-%D9%81%D9%8A-%D9%85%D8%B1%D8%AD%D9%84%D8%A9-%D8%AD%D8%B1%D8%AC%D8%A9) Ã¢â‚¬” _France 24 Ã¢â‚¬” Ã˜§Ã™â€žÃ˜Â¹Ã˜Â±Ã˜Â¨Ã™Å Ã˜Â© (MENA)_ Ã‚· _ar_ Ã‚· _W:3 S:0 G:0_ Ã‚· _2026-04-14 14:22 UTC_
 
-**hezbollah Â· israel Â· lebanon** â€” _2 sources_
+**hezbollah Ã‚· israel Ã‚· lebanon** Ã¢â‚¬” _2 sources_
 
-- **[W:1 S:0 G:1]** [Rubio hosts Israel-Lebanon talks spurned by Hezbollah: What to know](https://thehill.com/policy/international/5830233-israel-lebanon-diplomatic-talks-rubio/) â€” _The Hill â€” politics_ Â· _2026-04-14 14:09 UTC_
-- **Also** â€” [Israel and Lebanon set to meet for first direct talks in more than 30 years](https://www.npr.org/2026/04/14/nx-s1-5784551/lebanon-israel-talks) â€” _NPR â€” national news_ Â· _W:1 S:0 G:0_ Â· _2026-04-14 07:27 UTC_
+- **[W:1 S:0 G:1]** [Rubio hosts Israel-Lebanon talks spurned by Hezbollah: What to know](https://thehill.com/policy/international/5830233-israel-lebanon-diplomatic-talks-rubio/) Ã¢â‚¬” _The Hill Ã¢â‚¬” politics_ Ã‚· _2026-04-14 14:09 UTC_
+- **Also** Ã¢â‚¬” [Israel and Lebanon set to meet for first direct talks in more than 30 years](https://www.npr.org/2026/04/14/nx-s1-5784551/lebanon-israel-talks) Ã¢â‚¬” _NPR Ã¢â‚¬” national news_ Ã‚· _W:1 S:0 G:0_ Ã‚· _2026-04-14 07:27 UTC_
 
 #### Other headlines
 
-- **[W:6 S:0 G:1]** [Por quÃ© el bloqueo naval a IrÃ¡n es una jugada arriesgada de Trump (y quÃ© rol puede jugar China para que funcione)](https://www.bbc.com/mundo/articles/cz90qzpjxwxo?at_medium=RSS&at_campaign=rss) â€” _BBC Mundo â€” espaÃ±ol (AmÃ©ricas / global)_ Â· _es_ Â· _2026-04-14 03:31 UTC_
-- **[W:4 S:0 G:1]** [En quÃ© consiste el bloqueo naval impuesto por Trump a IrÃ¡n en el estrecho de Ormuz que entrÃ³ en vigor este lunes](https://www.bbc.com/mundo/articles/c87w5lzyxgdo?at_medium=RSS&at_campaign=rss) â€” _BBC Mundo â€” espaÃ±ol (AmÃ©ricas / global)_ Â· _es_ Â· _2026-04-13 18:34 UTC_
-- **[W:3 S:0 G:1]** [Konflikt mit Iran um StraÃŸe von Hormus: Saudi-Arabien drÃ¤ngt offenbar auf Ende der US-Blockade](https://www.spiegel.de/ausland/konflikt-mit-iran-um-strasse-von-hormus-saudi-arabien-draengt-offenbar-auf-ende-der-us-blockade-a-899c9ae5-d77b-484a-8671-1dcd85da2df1#ref=rss) â€” _Der Spiegel â€” Deutsch (Schlagzeilen)_ Â· _de_ Â· _2026-04-14 16:20 UTC_
-- **[W:3 S:0 G:1]** [US blockade of Iran ports irresponsible and dangerous, China says](https://www.bbc.com/news/articles/c78lleelxj4o?at_medium=RSS&at_campaign=rss) â€” _BBC News â€” World_ Â· _2026-04-14 14:18 UTC_
-- **[W:3 S:0 G:1]** [This week: Iran war powers and expulsion talk](https://rollcall.com/2026/04/13/this-week-iran-war-powers-and-expulsion-talk/) â€” _Roll Call â€” Congress_
-- **[W:3 S:0 G:0]** [Iran-Krieg - IWF: Internationaler WÃ¤hrungsfonds senkt weltweite Wachstumserwartung](https://www.spiegel.de/wirtschaft/iran-krieg-iwf-internationaler-waehrungsfonds-senkt-weltweite-wachstumserwartung-a-92c69b54-f568-41e6-8455-5359506f7504#ref=rss) â€” _Der Spiegel â€” Deutsch (Schlagzeilen)_ Â· _de_ Â· _2026-04-14 16:18 UTC_
-- **[W:3 S:0 G:0]** [Los 3 temas clave en el centro de la disputa entre Trump y el papa LeÃ³n XIV](https://www.bbc.com/mundo/articles/cjr9qvxxel2o?at_medium=RSS&at_campaign=rss) â€” _BBC Mundo â€” espaÃ±ol (AmÃ©ricas / global)_ Â· _es_ Â· _2026-04-13 21:54 UTC_
-- **[W:2 S:0 G:1]** [Trump's Blockade: The Lights Are Going Out in Cuba](https://www.spiegel.de/international/world/trumps-blockade-the-lights-are-going-out-in-cuba-a-936fdecc-18e2-4700-83bd-d8ae417c7ec6#ref=rss) â€” _Der Spiegel â€” Deutsch (Schlagzeilen)_ Â· _de_ Â· _2026-04-14 17:10 UTC_
-- **[W:2 S:0 G:1]** [NewsNation and The Hill to carry California gubernatorial primary debate](https://thehill.com/homenews/pr/5830223-newsnation-the-hill-california-gubernatorial-primary-debate-2026/) â€” _The Hill â€” politics_ Â· _2026-04-14 14:04 UTC_
-- **[W:1 S:2 G:0]** [Sixteen injured after ex-student opens fire at high school in Turkey](https://www.bbc.com/news/articles/c2k33xk24nyo?at_medium=RSS&at_campaign=rss) â€” _BBC News â€” World_ Â· _2026-04-14 13:23 UTC_
-- **[W:2 S:0 G:0]** [Accusers seek justice after unwanted explicit messages from Congressman Eric Swalwell](https://www.bbc.com/news/articles/c78rr9r4e5po?at_medium=RSS&at_campaign=rss) â€” _BBC News â€” World_ Â· _2026-04-14 15:20 UTC_
+- **[W:6 S:0 G:1]** [Por quÃƒÂ© el bloqueo naval a IrÃƒÂ¡n es una jugada arriesgada de Trump (y quÃƒÂ© rol puede jugar China para que funcione)](https://www.bbc.com/mundo/articles/cz90qzpjxwxo?at_medium=RSS&at_campaign=rss) Ã¢â‚¬” _BBC Mundo Ã¢â‚¬” espaÃƒÂ±ol (AmÃƒÂ©ricas / global)_ Ã‚· _es_ Ã‚· _2026-04-14 03:31 UTC_
+- **[W:4 S:0 G:1]** [En quÃƒÂ© consiste el bloqueo naval impuesto por Trump a IrÃƒÂ¡n en el estrecho de Ormuz que entrÃƒÂ³ en vigor este lunes](https://www.bbc.com/mundo/articles/c87w5lzyxgdo?at_medium=RSS&at_campaign=rss) Ã¢â‚¬” _BBC Mundo Ã¢â‚¬” espaÃƒÂ±ol (AmÃƒÂ©ricas / global)_ Ã‚· _es_ Ã‚· _2026-04-13 18:34 UTC_
+- **[W:3 S:0 G:1]** [Konflikt mit Iran um StraÃƒÅ¸e von Hormus: Saudi-Arabien drÃƒÂ¤ngt offenbar auf Ende der US-Blockade](https://www.spiegel.de/ausland/konflikt-mit-iran-um-strasse-von-hormus-saudi-arabien-draengt-offenbar-auf-ende-der-us-blockade-a-899c9ae5-d77b-484a-8671-1dcd85da2df1#ref=rss) Ã¢â‚¬” _Der Spiegel Ã¢â‚¬” Deutsch (Schlagzeilen)_ Ã‚· _de_ Ã‚· _2026-04-14 16:20 UTC_
+- **[W:3 S:0 G:1]** [US blockade of Iran ports irresponsible and dangerous, China says](https://www.bbc.com/news/articles/c78lleelxj4o?at_medium=RSS&at_campaign=rss) Ã¢â‚¬” _BBC News Ã¢â‚¬” World_ Ã‚· _2026-04-14 14:18 UTC_
+- **[W:3 S:0 G:1]** [This week: Iran war powers and expulsion talk](https://rollcall.com/2026/04/13/this-week-iran-war-powers-and-expulsion-talk/) Ã¢â‚¬” _Roll Call Ã¢â‚¬” Congress_
+- **[W:3 S:0 G:0]** [Iran-Krieg - IWF: Internationaler WÃƒÂ¤hrungsfonds senkt weltweite Wachstumserwartung](https://www.spiegel.de/wirtschaft/iran-krieg-iwf-internationaler-waehrungsfonds-senkt-weltweite-wachstumserwartung-a-92c69b54-f568-41e6-8455-5359506f7504#ref=rss) Ã¢â‚¬” _Der Spiegel Ã¢â‚¬” Deutsch (Schlagzeilen)_ Ã‚· _de_ Ã‚· _2026-04-14 16:18 UTC_
+- **[W:3 S:0 G:0]** [Los 3 temas clave en el centro de la disputa entre Trump y el papa LeÃƒÂ³n XIV](https://www.bbc.com/mundo/articles/cjr9qvxxel2o?at_medium=RSS&at_campaign=rss) Ã¢â‚¬” _BBC Mundo Ã¢â‚¬” espaÃƒÂ±ol (AmÃƒÂ©ricas / global)_ Ã‚· _es_ Ã‚· _2026-04-13 21:54 UTC_
+- **[W:2 S:0 G:1]** [Trump's Blockade: The Lights Are Going Out in Cuba](https://www.spiegel.de/international/world/trumps-blockade-the-lights-are-going-out-in-cuba-a-936fdecc-18e2-4700-83bd-d8ae417c7ec6#ref=rss) Ã¢â‚¬” _Der Spiegel Ã¢â‚¬” Deutsch (Schlagzeilen)_ Ã‚· _de_ Ã‚· _2026-04-14 17:10 UTC_
+- **[W:2 S:0 G:1]** [NewsNation and The Hill to carry California gubernatorial primary debate](https://thehill.com/homenews/pr/5830223-newsnation-the-hill-california-gubernatorial-primary-debate-2026/) Ã¢â‚¬” _The Hill Ã¢â‚¬” politics_ Ã‚· _2026-04-14 14:04 UTC_
+- **[W:1 S:2 G:0]** [Sixteen injured after ex-student opens fire at high school in Turkey](https://www.bbc.com/news/articles/c2k33xk24nyo?at_medium=RSS&at_campaign=rss) Ã¢â‚¬” _BBC News Ã¢â‚¬” World_ Ã‚· _2026-04-14 13:23 UTC_
+- **[W:2 S:0 G:0]** [Accusers seek justice after unwanted explicit messages from Congressman Eric Swalwell](https://www.bbc.com/news/articles/c78rr9r4e5po?at_medium=RSS&at_campaign=rss) Ã¢â‚¬” _BBC News Ã¢â‚¬” World_ Ã‚· _2026-04-14 15:20 UTC_
 
 ## 2a. Geopolitical & military (G-ranked)
 
-_**G** = matches on `geo_military_keyword_phrases` (+ optional locale lists in config). Supports triangulation and war-powers messaging â€” **verify** claims against primary sources._
+_**G** = matches on `geo_military_keyword_phrases` (+ optional locale lists in config). Supports triangulation and war-powers messaging Ã¢â‚¬” **verify** claims against primary sources._
 
-- **[W:6 S:0 G:1]** [Por quÃ© el bloqueo naval a IrÃ¡n es una jugada arriesgada de Trump (y quÃ© rol puede jugar China para que funcione)](https://www.bbc.com/mundo/articles/cz90qzpjxwxo?at_medium=RSS&at_campaign=rss) â€” _BBC Mundo â€” espaÃ±ol (AmÃ©ricas / global)_ Â· _es_ Â· _2026-04-14 03:31 UTC_
-- **[W:4 S:0 G:1]** [En quÃ© consiste el bloqueo naval impuesto por Trump a IrÃ¡n en el estrecho de Ormuz que entrÃ³ en vigor este lunes](https://www.bbc.com/mundo/articles/c87w5lzyxgdo?at_medium=RSS&at_campaign=rss) â€” _BBC Mundo â€” espaÃ±ol (AmÃ©ricas / global)_ Â· _es_ Â· _2026-04-13 18:34 UTC_
-- **[W:3 S:0 G:1]** [Konflikt mit Iran um StraÃŸe von Hormus: Saudi-Arabien drÃ¤ngt offenbar auf Ende der US-Blockade](https://www.spiegel.de/ausland/konflikt-mit-iran-um-strasse-von-hormus-saudi-arabien-draengt-offenbar-auf-ende-der-us-blockade-a-899c9ae5-d77b-484a-8671-1dcd85da2df1#ref=rss) â€” _Der Spiegel â€” Deutsch (Schlagzeilen)_ Â· _de_ Â· _2026-04-14 16:20 UTC_
-- **[W:3 S:0 G:1]** [US blockade of Iran ports irresponsible and dangerous, China says](https://www.bbc.com/news/articles/c78lleelxj4o?at_medium=RSS&at_campaign=rss) â€” _BBC News â€” World_ Â· _2026-04-14 14:18 UTC_
-- **[W:3 S:0 G:1]** [This week: Iran war powers and expulsion talk](https://rollcall.com/2026/04/13/this-week-iran-war-powers-and-expulsion-talk/) â€” _Roll Call â€” Congress_
-- **[W:2 S:0 G:1]** [Trump's Blockade: The Lights Are Going Out in Cuba](https://www.spiegel.de/international/world/trumps-blockade-the-lights-are-going-out-in-cuba-a-936fdecc-18e2-4700-83bd-d8ae417c7ec6#ref=rss) â€” _Der Spiegel â€” Deutsch (Schlagzeilen)_ Â· _de_ Â· _2026-04-14 17:10 UTC_
-- **[W:2 S:0 G:1]** [Former Biden official says Trumpâ€™s blockade â€˜might be helpfulâ€™ in negotiations](https://thehill.com/policy/defense/5830333-us-blockade-strait-hormuz-iran-john-kirby/) â€” _The Hill â€” politics_ Â· _2026-04-14 14:53 UTC_
-- **[W:2 S:0 G:1]** [NewsNation and The Hill to carry California gubernatorial primary debate](https://thehill.com/homenews/pr/5830223-newsnation-the-hill-california-gubernatorial-primary-debate-2026/) â€” _The Hill â€” politics_ Â· _2026-04-14 14:04 UTC_
-- **[W:1 S:0 G:1]** [Rubio hosts Israel-Lebanon talks spurned by Hezbollah: What to know](https://thehill.com/policy/international/5830233-israel-lebanon-diplomatic-talks-rubio/) â€” _The Hill â€” politics_ Â· _2026-04-14 14:09 UTC_
-- **[W:1 S:0 G:1]** [Greek police using masked migrants to forcibly push other migrants back across border](https://www.bbc.com/news/articles/c86vpq42dl0o?at_medium=RSS&at_campaign=rss) â€” _BBC News â€” World_ Â· _2026-04-14 05:02 UTC_
-- **[W:0 S:0 G:1]** [US Blockade of Strait of Hormuz Begins Amid New Push for Talks](https://www.today.com/video/us-blockade-of-strait-of-hormuz-begins-amid-new-push-for-talks-261312581896) â€” _NBC News â€” politics_ Â· _2026-04-14 11:22 UTC_
-- **[W:0 S:0 G:1]** [How the Army is preparing to bring its first tiltrotor aircraft online](https://www.defenseone.com/defense-systems/2026/04/how-army-preparing-bring-its-first-tiltrotor-aircraft-online/412808/) â€” _Defense One â€” All_ Â· _2026-04-13 16:00 UTC_
+- **[W:6 S:0 G:1]** [Por quÃƒÂ© el bloqueo naval a IrÃƒÂ¡n es una jugada arriesgada de Trump (y quÃƒÂ© rol puede jugar China para que funcione)](https://www.bbc.com/mundo/articles/cz90qzpjxwxo?at_medium=RSS&at_campaign=rss) Ã¢â‚¬” _BBC Mundo Ã¢â‚¬” espaÃƒÂ±ol (AmÃƒÂ©ricas / global)_ Ã‚· _es_ Ã‚· _2026-04-14 03:31 UTC_
+- **[W:4 S:0 G:1]** [En quÃƒÂ© consiste el bloqueo naval impuesto por Trump a IrÃƒÂ¡n en el estrecho de Ormuz que entrÃƒÂ³ en vigor este lunes](https://www.bbc.com/mundo/articles/c87w5lzyxgdo?at_medium=RSS&at_campaign=rss) Ã¢â‚¬” _BBC Mundo Ã¢â‚¬” espaÃƒÂ±ol (AmÃƒÂ©ricas / global)_ Ã‚· _es_ Ã‚· _2026-04-13 18:34 UTC_
+- **[W:3 S:0 G:1]** [Konflikt mit Iran um StraÃƒÅ¸e von Hormus: Saudi-Arabien drÃƒÂ¤ngt offenbar auf Ende der US-Blockade](https://www.spiegel.de/ausland/konflikt-mit-iran-um-strasse-von-hormus-saudi-arabien-draengt-offenbar-auf-ende-der-us-blockade-a-899c9ae5-d77b-484a-8671-1dcd85da2df1#ref=rss) Ã¢â‚¬” _Der Spiegel Ã¢â‚¬” Deutsch (Schlagzeilen)_ Ã‚· _de_ Ã‚· _2026-04-14 16:20 UTC_
+- **[W:3 S:0 G:1]** [US blockade of Iran ports irresponsible and dangerous, China says](https://www.bbc.com/news/articles/c78lleelxj4o?at_medium=RSS&at_campaign=rss) Ã¢â‚¬” _BBC News Ã¢â‚¬” World_ Ã‚· _2026-04-14 14:18 UTC_
+- **[W:3 S:0 G:1]** [This week: Iran war powers and expulsion talk](https://rollcall.com/2026/04/13/this-week-iran-war-powers-and-expulsion-talk/) Ã¢â‚¬” _Roll Call Ã¢â‚¬” Congress_
+- **[W:2 S:0 G:1]** [Trump's Blockade: The Lights Are Going Out in Cuba](https://www.spiegel.de/international/world/trumps-blockade-the-lights-are-going-out-in-cuba-a-936fdecc-18e2-4700-83bd-d8ae417c7ec6#ref=rss) Ã¢â‚¬” _Der Spiegel Ã¢â‚¬” Deutsch (Schlagzeilen)_ Ã‚· _de_ Ã‚· _2026-04-14 17:10 UTC_
+- **[W:2 S:0 G:1]** [Former Biden official says Trump’s blockade Ã¢â‚¬Ëœmight be helpful’ in negotiations](https://thehill.com/policy/defense/5830333-us-blockade-strait-hormuz-iran-john-kirby/) Ã¢â‚¬” _The Hill Ã¢â‚¬” politics_ Ã‚· _2026-04-14 14:53 UTC_
+- **[W:2 S:0 G:1]** [NewsNation and The Hill to carry California gubernatorial primary debate](https://thehill.com/homenews/pr/5830223-newsnation-the-hill-california-gubernatorial-primary-debate-2026/) Ã¢â‚¬” _The Hill Ã¢â‚¬” politics_ Ã‚· _2026-04-14 14:04 UTC_
+- **[W:1 S:0 G:1]** [Rubio hosts Israel-Lebanon talks spurned by Hezbollah: What to know](https://thehill.com/policy/international/5830233-israel-lebanon-diplomatic-talks-rubio/) Ã¢â‚¬” _The Hill Ã¢â‚¬” politics_ Ã‚· _2026-04-14 14:09 UTC_
+- **[W:1 S:0 G:1]** [Greek police using masked migrants to forcibly push other migrants back across border](https://www.bbc.com/news/articles/c86vpq42dl0o?at_medium=RSS&at_campaign=rss) Ã¢â‚¬” _BBC News Ã¢â‚¬” World_ Ã‚· _2026-04-14 05:02 UTC_
+- **[W:0 S:0 G:1]** [US Blockade of Strait of Hormuz Begins Amid New Push for Talks](https://www.today.com/video/us-blockade-of-strait-of-hormuz-begins-amid-new-push-for-talks-261312581896) Ã¢â‚¬” _NBC News Ã¢â‚¬” politics_ Ã‚· _2026-04-14 11:22 UTC_
+- **[W:0 S:0 G:1]** [How the Army is preparing to bring its first tiltrotor aircraft online](https://www.defenseone.com/defense-systems/2026/04/how-army-preparing-bring-its-first-tiltrotor-aircraft-online/412808/) Ã¢â‚¬” _Defense One Ã¢â‚¬” All_ Ã‚· _2026-04-13 16:00 UTC_
 
-## 2b. Civ-mem depth hooks (in-repo essays â€” not breaking news)
+## 2b. Civ-mem depth hooks (in-repo essays Ã¢â‚¬” not breaking news)
 
-_Token overlap against `docs/civilization-memory/` (build: `python3 scripts/build_civmem_inrepo_index.py build`). **Historical / structural** depth only â€” not a substitute for dated news. See [civ-mem-draft-protocol](../work-politics/civ-mem-draft-protocol.md). Public copy still needs human approval._
+_Token overlap against `docs/civilization-memory/` (build: `python3 scripts/build_civmem_inrepo_index.py build`). **Historical / structural** depth only Ã¢â‚¬” not a substitute for dated news. See [civ-mem-draft-protocol](../work-politics/civ-mem-draft-protocol.md). Public copy still needs human approval._
 
-- **{CMC: `minds/CIVâ€“MINDâ€“MEARSHEIMER.md`}** (overlap 2) â€” _CIVâ€“MINDâ€“MEARSHEIMER â€” v3.4 Civilizational Memory Codex Â· Advisory Mind John J. Mearsheimer Cognitiveâ€“Linguistic Signature Layer Simplified Polyphony Architecture Status: ACTIVE Â· CANONICAL Â· LOCKED Class: MIND (ADVIS..._
-- **{CMC: `minds/CIVâ€“MINDâ€“MERCOURIS.md`}** (overlap 2) â€” _CIVâ€“MINDâ€“MERCOURIS â€” v3.4 Civilizational Memory Codex Â· Primary Mind Alexander Mercouris Cognitiveâ€“Linguistic Signature Layer Simplified Polyphony Architecture Â· Proportional Blend Law Status: ACTIVE Â· CANONICAL Â· LOC..._
-- **{CMC: `notes/civ-mem-state-vs-scholar.md`}** (overlap 1) â€” _**Purpose:** Clarify the distinction between **STATE** and **SCHOLAR** in the civilization_memory (CMC) model. These are internal operating modes of the *upstream* CMC system (e.g. `research/repos/civilization_memory`..._
+- **{CMC: `minds/CIVÃ¢â‚¬“MINDÃ¢â‚¬“MEARSHEIMER.md`}** (overlap 2) Ã¢â‚¬” _CIVÃ¢â‚¬“MINDÃ¢â‚¬“MEARSHEIMER Ã¢â‚¬” v3.4 Civilizational Memory Codex Ã‚· Advisory Mind John J. Mearsheimer CognitiveÃ¢â‚¬“Linguistic Signature Layer Simplified Polyphony Architecture Status: ACTIVE Ã‚· CANONICAL Ã‚· LOCKED Class: MIND (ADVIS..._
+- **{CMC: `minds/CIVÃ¢â‚¬“MINDÃ¢â‚¬“MERCOURIS.md`}** (overlap 2) Ã¢â‚¬” _CIVÃ¢â‚¬“MINDÃ¢â‚¬“MERCOURIS Ã¢â‚¬” v3.4 Civilizational Memory Codex Ã‚· Primary Mind Alexander Mercouris CognitiveÃ¢â‚¬“Linguistic Signature Layer Simplified Polyphony Architecture Ã‚· Proportional Blend Law Status: ACTIVE Ã‚· CANONICAL Ã‚· LOC..._
+- **{CMC: `notes/civ-mem-state-vs-scholar.md`}** (overlap 1) Ã¢â‚¬” _**Purpose:** Clarify the distinction between **STATE** and **SCHOLAR** in the civilization_memory (CMC) model. These are internal operating modes of the *upstream* CMC system (e.g. `research/repos/civilization_memory`..._
 
-## 3. Lead themes (auto-stub â€” replace after reading)
+## 3. Lead themes (auto-stub Ã¢â‚¬” replace after reading)
 
 ### Work-politics / campaign angle
-- Por quÃ© el bloqueo naval a IrÃ¡n es una jugada arriesgada de Trump (y quÃ© rol puede jugar China para que funcione)
-- En quÃ© consiste el bloqueo naval impuesto por Trump a IrÃ¡n en el estrecho de Ormuz que entrÃ³ en vigor este lunes
-- Konflikt mit Iran um StraÃŸe von Hormus: Saudi-Arabien drÃ¤ngt offenbar auf Ende der US-Blockade
+- Por quÃƒÂ© el bloqueo naval a IrÃƒÂ¡n es una jugada arriesgada de Trump (y quÃƒÂ© rol puede jugar China para que funcione)
+- En quÃƒÂ© consiste el bloqueo naval impuesto por Trump a IrÃƒÂ¡n en el estrecho de Ormuz que entrÃƒÂ³ en vigor este lunes
+- Konflikt mit Iran um StraÃƒÅ¸e von Hormus: Saudi-Arabien drÃƒÂ¤ngt offenbar auf Ende der US-Blockade
 
-**Replace:** 2â€“3 sentences for principal, district, opposition narrative.
+**Replace:** 2Ã¢â‚¬“3 sentences for principal, district, opposition narrative.
 
 ### Work-strategy angle (product / governance / tech)
 
@@ -161,13 +161,13 @@ _Token overlap against `docs/civilization-memory/` (build: `python3 scripts/buil
 - 2 local TV giants merged. Then a court stepped in
 - Are you paying taxes on phantom gains this year? Congress should abolish them.
 
-**Replace:** 2â€“3 sentences for Record/Voice positioning, OpenClaw, schools, or policy hooks.
+**Replace:** 2Ã¢â‚¬“3 sentences for Record/Voice positioning, OpenClaw, schools, or policy hooks.
 
 ### Slow structural layer (work-jiang)
 
-_Not dated news â€” patterns from lecture extractions, `jiang-compress` JSON, comparative sweeps. Connect to **Â§1c** hooks when drafting campaign or opposition copy; cite sources if anything ships publicly._
+_Not dated news Ã¢â‚¬” patterns from lecture extractions, `jiang-compress` JSON, comparative sweeps. Connect to **Ã‚§1c** hooks when drafting campaign or opposition copy; cite sources if anything ships publicly._
 
-**Replace:** 2â€“3 sentences â€” which slow pattern applies to todayâ€™s **W** angle, or why none does.
+**Replace:** 2Ã¢â‚¬“3 sentences Ã¢â‚¬” which slow pattern applies to today’s **W** angle, or why none does.
 
 ## 4. Triangulation (when lead is political)
 
@@ -177,7 +177,7 @@ For **campaign-facing** copy, use [work-politics analytical-lenses](../work-poli
 |---|---|---|
 | _TBD_ | _TBD_ | _TBD_ |
 
-**Product / strategy thread:** _TBD (no three-lens requirement â€” use work-dev + INTENT as needed)._
+**Product / strategy thread:** _TBD (no three-lens requirement Ã¢â‚¬” use work-dev + INTENT as needed)._
 
 ## 5. Operator synthesis
 
@@ -214,12 +214,12 @@ The ingest spine is split across three load-bearing planes: Hormuz / Iran
 coercion framing, European domestic political shock (Hungary), and renewed
 Ukraine kinetic reporting after an Orthodox Easter pause. Papal friction with
 Trump over Iran appears as a parallel legitimacy-media lane. Actor-primary
-passes in Â§1dâ€“Â§1h remain unfilled, so this layer stays wire-first and
+passes in Ã‚§1dÃ¢â‚¬“Ã‚§1h remain unfilled, so this layer stays wire-first and
 explicitly seam-marked.
 
 ### Top developments
 
-#### Development 1 â€” Hormuz coercion frame plus third-party pushback language
+#### Development 1 Ã¢â‚¬” Hormuz coercion frame plus third-party pushback language
 
 ##### What happened
 
@@ -239,7 +239,7 @@ logistics reality.
 
 ##### What to watch next
 
-Whether the narrative shifts from â€œannouncement / threatâ€ to sustained
+Whether the narrative shifts from “announcement / threat” to sustained
 interdiction patterns with checkable operational receipts.
 
 **Evidence status:** Multi-source (wire-grade)  
@@ -247,14 +247,14 @@ interdiction patterns with checkable operational receipts.
 - https://www.lemonde.fr/international/live/2026/04/13/en-direct-guerre-au-moyen-orient-les-etats-unis-veulent-bloquer-les-ports-d-iran-des-lundi-la-chine-et-la-turquie-reclament-la-reouverture-du-detroit-d-ormuz_6676633_3210.html  
 - https://www.bbc.com/mundo/articles/c87w5lzyxgdo?at_medium=RSS&at_campaign=rss  
 - https://www.npr.org/2026/04/13/g-s1-117236/trump-says-u-s-will-blockade-iranian-ports-and-orban-loses-hungarian-election  
-**Seam / tension:** â€œBlockadeâ€ language in headlines can run ahead of what is
+**Seam / tension:** “Blockade” language in headlines can run ahead of what is
 operationally confirmed; treat kinetic claims as hypothesis until primaries.
 
-#### Development 2 â€” Hungary election shock as EU alignment / veto politics hinge
+#### Development 2 Ã¢â‚¬” Hungary election shock as EU alignment / veto politics hinge
 
 ##### What happened
 
-Multiple outlets report opposition victory and end of a long OrbÃ¡n tenure,
+Multiple outlets report opposition victory and end of a long OrbÃƒÂ¡n tenure,
 bundled in the same ingest window as Iran escalation headlines.
 
 ##### Why it matters
@@ -264,7 +264,7 @@ election shocks faster than Middle East timelines adjust.
 
 ##### Deeper significance
 
-This is a classic â€œtwo-crisis calendar collisionâ€ day: markets and diplomacy
+This is a classic “two-crisis calendar collision” day: markets and diplomacy
 get repriced while domestic media still anchors on U.S. Iran politics.
 
 ##### What to watch next
@@ -277,10 +277,10 @@ plus any immediate EU Council / sanctions-process language.
 - https://www.bbc.com/mundo/articles/cly7xjewqjgo?at_medium=RSS&at_campaign=rss  
 - https://www.lemonde.fr/international/live/2026-04-13/en-direct-elections-en-hongrie-peter-magyar-apres-sa-victoire-electorale-face-a-viktor-orban-promet-de-gouverner-pour-tous-les-hongrois_6679608_3210.html  
 - https://www.npr.org/2026/04/13/g-s1-117236/trump-says-u-s-will-blockade-iranian-ports-and-orban-loses-hungarian-election  
-**Seam / tension:** Western wire â€œmeaningâ€ can outpace what Hungarian domestic
+**Seam / tension:** Western wire “meaning” can outpace what Hungarian domestic
 coalition bargaining actually permits; keep policy claims conditional.
 
-#### Development 3 â€” Ukraine drone war resumes after Easter pause (parallel risk channel)
+#### Development 3 Ã¢â‚¬” Ukraine drone war resumes after Easter pause (parallel risk channel)
 
 ##### What happened
 
@@ -306,7 +306,7 @@ remains elevated.
 **Primary links:**  
 - https://www.lemonde.fr/international/live/2026-04-13/en-direct-guerre-en-ukraine-moscou-et-kiev-reprennent-leurs-attaques-de-drones-apres-un-court-cessez-le-feu-pour-la-paque-orthodoxe_6679492_3210.html  
 **Seam / tension:** Single live-desk line is not yet a closed ORBAT picture;
-battle geometry remains `[UNVERIFIED â€” no primary found]` beyond the headline
+battle geometry remains `[UNVERIFIED Ã¢â‚¬” no primary found]` beyond the headline
 claim.
 
 ### Chronicle vs noise
@@ -319,23 +319,23 @@ claim.
 
 #### Noise
 
-- Standalone â€œexplainerâ€ and hot-take pieces without new procedural facts
+- Standalone “explainer” and hot-take pieces without new procedural facts
 - Distant kinetic stories that do not change KY-4 messaging constraints unless
   tied to a campaign hook
 
 ### Cross-domain synthesis
 
-The dayâ€™s risk is **calendar stacking**: Hormuz coercion narrative, EU domestic
+The day’s risk is **calendar stacking**: Hormuz coercion narrative, EU domestic
 realignment, and Ukraine kinetic re-entry can each move markets and alliances
 on different clocks.  
-**Seam / tension:** Do not let one theater â€œexplainâ€ the other without receipts.
+**Seam / tension:** Do not let one theater “explain” the other without receipts.
 
 ### Watchlist for tomorrow
 
 - Any operational confirmation pattern distinct from headline blockade language
 - Coalition and EU policy signals after Hungary turnover
 - Ukraine tempo indicators independent of Middle East headlines
-- Congressional procedural movement beyond â€œtalkâ€ lines
+- Congressional procedural movement beyond “talk” lines
 
 ### Bottom line
 
@@ -359,7 +359,7 @@ what is proven vs priced vs merely loud.
 - Hungary: distinguish election reporting from first government policy acts
 - Ukraine: confirm drone-exchange claims beyond a single live-desk entry
 - Oil: any numeric market claim needs exchange/contract primary or
-  `[UNVERIFIED â€” no primary found]`
+  `[UNVERIFIED Ã¢â‚¬” no primary found]`
 
 **Conflict check**
 
@@ -367,7 +367,7 @@ what is proven vs priced vs merely loud.
   kinetic signals unless the brief names all three planes explicitly.
 ## 8. Quality rubric footer (optional)
 
-| Criterion | Score (0â€“2) |
+| Criterion | Score (0Ã¢â‚¬“2) |
 |---|---:|
 | Epistemic discipline | 2 |
 | Plane separation | 2 |

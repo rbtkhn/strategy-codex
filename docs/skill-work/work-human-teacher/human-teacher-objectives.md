@@ -81,9 +81,8 @@ State the session goal with enough context that the task is plausibly solvable w
 
 ---
 
-## 5. Alpha-School Recursion
+## 5. mastery-learning Recursion
 
-When human-teacher uses Alpha School methods (2-hour block, 4 segments, 90% mastery, vocabulary in context), reference [alpha-school-reference](../work-alpha-school/alpha-school-reference.md). Document any alpha-school-specific adaptations in session notes or MEMORY.
 
 ---
 

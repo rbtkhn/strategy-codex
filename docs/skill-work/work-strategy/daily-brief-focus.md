@@ -10,8 +10,8 @@ Edit this list when your **strategy lane** shifts (product, partnerships, policy
 
 - **Civilizational / geopolitics operator ledger:** [STRATEGY.md](STRATEGY.md) — long-horizon CORE + heuristics + §IV operator strategy log (WORK-only; gate only when promoting to Record or milestones).
 - Campaign/companion positioning: portable Record, human-only merge, Voice boundary.
-- OpenClaw ↔ repo handback and export provenance (see [work-dev workspace](../work-dev/workspace.md)).
-- AI-in-schools and identity-substrate narrative vs Alpha-style bundles (see [work-alpha-school](../work-alpha-school/README.md), [work-dev offers](../work-dev/offers.md)).
+- OpenClaw â†” repo handback and export provenance (see [work-dev workspace](../work-dev/workspace.md)).
+- AI-in-schools and identity-substrate narrative vs school bundles (see [work-dev offers](../work-dev/offers.md)).
 - Optional: federal / state AI governance headlines when relevant to offers or civ-mem work.
 - Long-form tech discourse (GTC-class, Moonshots-class): themes distilled in [external-tech-scan.md](external-tech-scan.md) — use for **strategy vocabulary** and **keyword-season** tuning in [daily-brief-config.json](daily-brief-config.json); **not** unsourced brief facts.
 - **Vladimir Putin / Kremlin (primary strategy thread):** **Voice** = **President of Russia** **remarks**, **Kremlin** events, **calls**, **transcripts**. **Hub** = [daily-brief-putin-watch.md](daily-brief-putin-watch.md) — **Coffee menu C — Strategy (daily brief)** fills **§1d** (rolling **48h** + **URLs** + **native** triangulation when load-bearing); Step 1 does not run this pass. **Notebook weaving** = [strategy-notebook/chapters/YYYY-MM/meta.md](strategy-notebook/chapters/2026-04/meta.md) § **Vladimir Putin / Kremlin thread** + [NOTEBOOK-PREFERENCES.md](strategy-notebook/NOTEBOOK-PREFERENCES.md) row — separate **Kremlin-primary** wording from **wire** **paraphrase**; do not merge **personality** **headlines** with **U.S.** **channel** **scope** without verify. **When Putin is a watch:** refresh the month link if the active `meta.md` chapter changes.

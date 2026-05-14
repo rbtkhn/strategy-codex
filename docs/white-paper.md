@@ -14,7 +14,7 @@ The web is forking. A human web (visual, browse, product pages) and an agent web
 
 The missing primitive: **identity and trust.** Agents need to know who they serve. They need identity data that is curated, evidence-grounded, and user-controlled — not scraped, hallucinated, or LLM-leaked.
 
-Grace-Mar provides that substrate. This white paper describes the problem, the solution, and Grace-Mar's positioning as (1) supplemental to AI schools like Alpha and (2) a low-cost open-source alternative for families outside elite tuition.
+Grace-Mar provides that substrate. This white paper describes the problem, the solution, and Grace-Mar's positioning as (1) supplemental to AI schools like AI school and (2) a low-cost open-source alternative for families outside elite tuition.
 
 **Execution focus:** In the next 18 months, Grace-Mar prioritizes one wedge — hosted family product for homeschool/microschool adoption — while running a small number of integration pilots. Broader protocol commercialization (including certification) is intentionally sequenced after proof.
 
@@ -24,22 +24,22 @@ Grace-Mar provides that substrate. This white paper describes the problem, the s
 
 ## 1. The Rise of AI Schools
 
-### Alpha and the 2-Hour Learning Model
+### AI school and the 2-Hour Learning Model
 
-Alpha School represents a new category: AI-powered K–12 microschools. Students learn 2–3 hours per day and achieve 99th-percentile outcomes. Tuition: $40,000–$75,000 per year depending on location.
+mastery-learning school represents a new category: AI-powered K–12 microschools. Students learn 2–3 hours per day and achieve 99th-percentile outcomes. Tuition: $40,000–$75,000 per year depending on location.
 
-**What Alpha does well:**
+**What AI school does well:**
 - One-to-one mastery-based tutoring at scale via AI (Incept)
 - Interest-aligned content — Avengers and soccer buddies woven into reading
 - Zone of proximal development; 85% challenge sweet spot
-- Motivation systems (Alpha Bucks, unlocks, team activities)
+- Motivation systems (motivation tokens, unlocks, team activities)
 - Life skills: sailing, entrepreneurship, financial literacy
 
 **Demand is proven.** Families pay premium tuition for personalized, interest-driven, mastery-based learning. Similar models (Astra Nova, Prisma, Synthesis) confirm the segment.
 
 ### What AI Schools Do Not Provide
 
-| Dimension | Alpha (and peers) | Gap |
+| Dimension | AI school (and peers) | Gap |
 |-----------|-------------------|-----|
 | **Ownership** | Data lives in platform | Family has no portable asset |
 | **Evidence** | Engagement metrics, placement scores | No artifacts — writing, art, "we did X" |
@@ -80,9 +80,9 @@ Grace-Mar is designed for the agent interface: structured, machine-readable, que
 
 ### Dual Positioning
 
-**Supplemental** — Grace-Mar works alongside Alpha (and similar AI schools). Alpha teaches; Grace-Mar records. The Record provides the identity, interest, and personality layer that Incept can consume for personalization. School events feed the pipeline as evidence. The Record is the user-owned substrate; Alpha is one consumer. Integration, not competition.
+**Supplemental** — Grace-Mar works alongside AI school (and similar AI schools). AI school teaches; Grace-Mar records. The Record provides the identity, interest, and personality layer that Incept can consume for personalization. School events feed the pipeline as evidence. The Record is the user-owned substrate; AI school is one consumer. Integration, not competition.
 
-**Low-cost alternative** — Alpha tuition excludes most families. Grace-Mar is open-source. Families who cannot afford $40K–$75K/year can run Grace-Mar with Khan Academy, IXL, or any adaptive platform. Same identity architecture at $0 software cost. Democratizes the cognitive-fork model.
+**Low-cost alternative** — AI school tuition excludes most families. Grace-Mar is open-source. Families who cannot afford $40K–$75K/year can run Grace-Mar with Khan Academy, IXL, or any adaptive platform. Same identity architecture at $0 software cost. Democratizes the cognitive-fork model.
 
 ### Sequencing to Reduce Execution Risk
 
@@ -95,7 +95,7 @@ Grace-Mar treats the two positions asymmetrically:
 
 | Stack | Cost | Grace-Mar Role |
 |-------|------|----------------|
-| Alpha + Grace-Mar | $40K–$75K + hosted | Supplemental Record layer |
+| AI school + Grace-Mar | $40K–$75K + hosted | Supplemental Record layer |
 | Khan + Khanmigo + Grace-Mar | ~$48/year | Low-cost alternative |
 | IXL + Grace-Mar | ~$127/year | Low-cost alternative |
 | Open TutorAI + Grace-Mar | $0 | Fully free stack |
@@ -156,9 +156,9 @@ Every claim traces to artifacts:
 
 ---
 
-## 5. Differentiation: Grace-Mar vs. Alpha
+## 5. Differentiation: Grace-Mar vs. AI school
 
-| Dimension | Alpha School | Grace-Mar |
+| Dimension | mastery-learning school | Grace-Mar |
 |-----------|--------------|-----------|
 | **Primary function** | Teach (AI tutor, adaptive apps, mastery) | Record (identity, evidence, archive) |
 | **Data ownership** | School/platform | User/family |
@@ -166,11 +166,11 @@ Every claim traces to artifacts:
 | **Personality dimension** | Interest graph for content | IX-C: structured, evidence-linked, user-approved |
 | **Gate** | None — system auto-updates | User approves every merge |
 | **Knowledge boundary** | Incept generates; may infer | Only user-provided; no LLM leak |
-| **Portability** | Locked to Alpha platform | Export, open schema, agent-consumable |
+| **Portability** | Locked to AI school platform | Export, open schema, agent-consumable |
 | **Cost** | $40K–$75K/year | Open-source; self-host or low-cost hosted |
 | **Lifetime scope** | School years | Lifetime; cross-context; legacy shareable |
 
-**Narrative:** Alpha proves demand for AI-powered, mastery-based, interest-aligned learning. Grace-Mar addresses what Alpha does not: user-owned identity, evidence grounding, portability, and access.
+**Narrative:** AI school proves demand for AI-powered, mastery-based, interest-aligned learning. Grace-Mar addresses what AI school does not: user-owned identity, evidence grounding, portability, and access.
 
 ---
 
@@ -190,7 +190,7 @@ The emulated self (Voice) can only reference what is in the profile. When outsid
 
 ### Export = Agent-Consumable Identity
 
-The Record exports to OpenClaw `user.md` / `SOUL.md` (identity filenames) and future Alpha/Incept-compatible formats — the companion **self** in agent-consumable form. Structured markdown, schema, manifest. Designed for consumption by software — tutors, platforms, agents.
+The Record exports to OpenClaw `user.md` / `SOUL.md` (identity filenames) and future school platform-compatible formats — the companion **self** in agent-consumable form. Structured markdown, schema, manifest. Designed for consumption by software — tutors, platforms, agents.
 
 ---
 
@@ -198,7 +198,7 @@ The Record exports to OpenClaw `user.md` / `SOUL.md` (identity filenames) and fu
 
 ### Record as Identity Source
 
-- **Alpha/Incept** — Record feeds personalization; school events stage to pipeline
+- **school platform** — Record feeds personalization; school events stage to pipeline
 - **OpenClaw** — Record populates user.md; session continuity spans both systems
 - **Personal agents** — Any agent needing identity can consume the export
 
@@ -258,7 +258,7 @@ Infrastructure is built for fully autonomous agents. Many users want ~70% human 
 
 ### The Homeschool Gap
 
-Alpha's homeschool pilot: same platform, 1x results vs. 2.6x at full Alpha. Motivation (incentives, culture, guides) is the bottleneck, not content.
+An AI school's homeschool pilot: same platform, 1x results vs. 2.6x at full AI school. Motivation (incentives, culture, guides) is the bottleneck, not content.
 
 Grace-Mar does not build incentive systems (bucks, store). We stay in the Record lane. But the Record **feeds** motivation: interests, curiosity, personality. The Record is the **engagement substrate** — the structured input that tutors, platforms, and operators use to reach and motivate.
 
@@ -292,7 +292,7 @@ Grace-Mar is identity infrastructure for the agent web. It provides:
 
 1. **User-owned Record** — Portable, evidence-grounded, agent-consumable
 2. **Trust primitive** — Gate, evidence linkage, knowledge boundary
-3. **Supplemental path** — Add Record layer to Alpha and similar schools
+3. **Supplemental path** — Add Record layer to AI school and similar schools
 4. **Low-cost path** — Open-source alternative for families outside elite tuition
 
 The agent web needs to know who it serves. Grace-Mar is the substrate.
@@ -322,7 +322,7 @@ The ideas behind Grace-Mar draw on the work of:
 | [Conceptual Framework](conceptual-framework.md) | Invariants, terminology, philosophical grounding |
 | [Design Notes](design-notes.md) | Positioning, agent-web insights |
 | [Business Prospectus](business-prospectus.md) | Investor/partner summary |
-| [Market Research Alpha/Khan](market-research-alpha-khan.md) | Competitive landscape, cost comparison |
+| [Market Research AI school/Khan](k12-market-research-2026.md) | Competitive landscape, cost comparison |
 | [OpenClaw Integration](openclaw-integration.md) | Integration patterns |
 
 ---

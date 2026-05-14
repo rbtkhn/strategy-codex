@@ -1,4 +1,4 @@
-﻿# Daily brief â€” work-politics & work-strategy
+# Daily brief Ã¢â‚¬” work-politics & work-strategy
 
 **Date:** 2026-04-14  
 **Assembled:** 2026-04-14 15:41 UTC  
@@ -9,15 +9,15 @@ _Operator WORK product. Complete synthesis below; cite sources before any public
 
 ## 1. Work-politics snapshot
 
-- **Primary:** May 19, 2026 â€” **days until:** 34
+- **Primary:** May 19, 2026 Ã¢â‚¬” **days until:** 34
 - **Work-politics gate:** 0 pending candidate(s)
 
 ### Upcoming (from calendar)
 
-- ****Apr 20, 2026**** â€” **Voter registration deadline** (in-person and mail; mail = postmark) â€” Push registration in-district; remind supporters.
-- ****May 5, 2026**** â€” Mail-in absentee ballot request portal closes â€” Voters who need absentee must request by this date.
-- ****May 7, 2026**** â€” **FEC pre-primary report due** â€” Covers period Apr 1â€“Apr 29. Registration/certification & overnight mail deadline May 4.
-- ****May 19, 2026**** â€” **Primary election day** â€” Polls open; final GOTV.
+- ****Apr 20, 2026**** Ã¢â‚¬” **Voter registration deadline** (in-person and mail; mail = postmark) Ã¢â‚¬” Push registration in-district; remind supporters.
+- ****May 5, 2026**** Ã¢â‚¬” Mail-in absentee ballot request portal closes Ã¢â‚¬” Voters who need absentee must request by this date.
+- ****May 7, 2026**** Ã¢â‚¬” **FEC pre-primary report due** Ã¢â‚¬” Covers period Apr 1Ã¢â‚¬“Apr 29. Registration/certification & overnight mail deadline May 4.
+- ****May 19, 2026**** Ã¢â‚¬” **Primary election day** Ã¢â‚¬” Polls open; final GOTV.
 
 ### Territory signals (from docs)
 
@@ -29,101 +29,101 @@ _Operator WORK product. Complete synthesis below; cite sources before any public
 
 ## 1b. Work-strategy focus
 
-_From `docs/skill-work/work-strategy/daily-brief-focus.md` Â§ Active focus._
+_From `docs/skill-work/work-strategy/daily-brief-focus.md` Ã‚§ Active focus._
 
-- **Civilizational / geopolitics operator ledger:** [STRATEGY.md](STRATEGY.md) â€” long-horizon CORE + heuristics + Â§IV operator strategy log (WORK-only; gate only when promoting to Record or milestones).
+- **Civilizational / geopolitics operator ledger:** [STRATEGY.md](STRATEGY.md) Ã¢â‚¬” long-horizon CORE + heuristics + Ã‚§IV operator strategy log (WORK-only; gate only when promoting to Record or milestones).
 - Campaign/companion positioning: portable Record, human-only merge, Voice boundary.
-- OpenClaw â†” repo handback and export provenance (see [work-dev workspace](../work-dev/workspace.md)).
-- AI-in-schools and identity-substrate narrative vs Alpha-style bundles (see [work-alpha-school](../work-alpha-school/README.md), [work-dev offers](../work-dev/offers.md)).
+- OpenClaw Ã¢â€ ” repo handback and export provenance (see [work-dev workspace](../work-dev/workspace.md)).
+- AI-in-schools and identity-substrate narrative vs school bundles (see [work-dev offers](../work-dev/offers.md)).
 - Optional: federal / state AI governance headlines when relevant to offers or civ-mem work.
-- Long-form tech discourse (GTC-class, Moonshots-class): themes distilled in [external-tech-scan.md](external-tech-scan.md) â€” use for **strategy vocabulary** and **keyword-season** tuning in [daily-brief-config.json](daily-brief-config.json); **not** unsourced brief facts.
-- **Vladimir Putin / Kremlin (primary strategy thread):** **Voice** = **President of Russia** **remarks**, **Kremlin** events, **calls**, **transcripts**. **Hub** = [daily-brief-putin-watch.md](daily-brief-putin-watch.md) â€” **Coffee menu C â€” Strategy (daily brief)** fills **Â§1d** (rolling **48h** + **URLs** + **native** triangulation when load-bearing); Step 1 does not run this pass. **Notebook weaving** = [strategy-notebook/chapters/YYYY-MM/meta.md](strategy-notebook/chapters/2026-04/meta.md) Â§ **Vladimir Putin / Kremlin thread** + [NOTEBOOK-PREFERENCES.md](strategy-notebook/NOTEBOOK-PREFERENCES.md) row â€” separate **Kremlin-primary** wording from **wire** **paraphrase**; do not merge **personality** **headlines** with **U.S.** **channel** **scope** without verify. **When Putin is a watch:** refresh the month link if the active `meta.md` chapter changes.
-- **JD Vance / VP channel (primary strategy thread):** **Voice** = Vice President **remarks**, **travel**, **White House** readouts. **Hub** = [daily-brief-jd-vance-watch.md](daily-brief-jd-vance-watch.md) â€” **Coffee menu C â€” Strategy (daily brief)** fills **Â§1e** (rolling **48h** + **URLs**); Step 1 does not run this pass. **Notebook weaving** = [strategy-notebook/chapters/YYYY-MM/meta.md](strategy-notebook/chapters/2026-04/meta.md) Â§ **JD Vance thread** + [NOTEBOOK-PREFERENCES.md](strategy-notebook/NOTEBOOK-PREFERENCES.md) row â€” tag **delegation role** vs **atmospheric** quote; do not merge **VP** **tone** with **Islamabad** **scope** facts without **official** alignment. **When Vance is a watch:** refresh the month link if the active `meta.md` chapter changes.
-- **PRC / Beijing (primary strategy thread):** **Voice** = **MFA** and **partyâ€“state** readouts (**summits**, **ministry** lines, major **official** English pages). **Hub** = [daily-brief-prc-watch.md](daily-brief-prc-watch.md) â€” **Coffee menu C â€” Strategy (daily brief)** fills **Â§1g** (rolling **48h** + **URLs** + **Mandarin** triangulation when load-bearing; in generated briefs **Â§1g** follows **Â§1f** weak signal); Step 1 does not run this pass. **Notebook weaving** = [strategy-notebook/chapters/YYYY-MM/meta.md](strategy-notebook/chapters/2026-04/meta.md) Â§ **PRC / Beijing thread** + [NOTEBOOK-PREFERENCES.md](strategy-notebook/NOTEBOOK-PREFERENCES.md) row â€” separate **MFA-primary** wording from **Western** â€œChinaâ€ **analysis**; do not merge **narrative** **headlines** with **negotiation** **terms** without verify. **When PRC is a watch:** refresh the month link if the active `meta.md` chapter changes.
-- **Islamic Republic of Iran (primary strategy thread):** **Voice** = **Iranian state** lines (**MFA**, **presidency**, **IRNA** / major wires). **Hub** = [daily-brief-iran-watch.md](daily-brief-iran-watch.md) â€” **Coffee menu C â€” Strategy (daily brief)** fills **Â§1h** (rolling **48h** + **URLs** + **Persian** triangulation when load-bearing; in generated briefs **Â§1h** follows **Â§1g**); Step 1 does not run this pass. **Notebook weaving** = [strategy-notebook/chapters/YYYY-MM/meta.md](strategy-notebook/chapters/2026-04/meta.md) Â§ **Islamic Republic of Iran thread** + [NOTEBOOK-PREFERENCES.md](strategy-notebook/NOTEBOOK-PREFERENCES.md) row â€” separate **Persian-primary** wording from **wire** **paraphrase**; do not merge **Tehran** **tone** with **Islamabad** **scope** facts without verify. **When IRI is a watch:** refresh the month link if the active `meta.md` chapter changes.
+- Long-form tech discourse (GTC-class, Moonshots-class): themes distilled in [external-tech-scan.md](external-tech-scan.md) Ã¢â‚¬” use for **strategy vocabulary** and **keyword-season** tuning in [daily-brief-config.json](daily-brief-config.json); **not** unsourced brief facts.
+- **Vladimir Putin / Kremlin (primary strategy thread):** **Voice** = **President of Russia** **remarks**, **Kremlin** events, **calls**, **transcripts**. **Hub** = [daily-brief-putin-watch.md](daily-brief-putin-watch.md) Ã¢â‚¬” **Coffee menu C Ã¢â‚¬” Strategy (daily brief)** fills **Ã‚§1d** (rolling **48h** + **URLs** + **native** triangulation when load-bearing); Step 1 does not run this pass. **Notebook weaving** = [strategy-notebook/chapters/YYYY-MM/meta.md](strategy-notebook/chapters/2026-04/meta.md) Ã‚§ **Vladimir Putin / Kremlin thread** + [NOTEBOOK-PREFERENCES.md](strategy-notebook/NOTEBOOK-PREFERENCES.md) row Ã¢â‚¬” separate **Kremlin-primary** wording from **wire** **paraphrase**; do not merge **personality** **headlines** with **U.S.** **channel** **scope** without verify. **When Putin is a watch:** refresh the month link if the active `meta.md` chapter changes.
+- **JD Vance / VP channel (primary strategy thread):** **Voice** = Vice President **remarks**, **travel**, **White House** readouts. **Hub** = [daily-brief-jd-vance-watch.md](daily-brief-jd-vance-watch.md) Ã¢â‚¬” **Coffee menu C Ã¢â‚¬” Strategy (daily brief)** fills **Ã‚§1e** (rolling **48h** + **URLs**); Step 1 does not run this pass. **Notebook weaving** = [strategy-notebook/chapters/YYYY-MM/meta.md](strategy-notebook/chapters/2026-04/meta.md) Ã‚§ **JD Vance thread** + [NOTEBOOK-PREFERENCES.md](strategy-notebook/NOTEBOOK-PREFERENCES.md) row Ã¢â‚¬” tag **delegation role** vs **atmospheric** quote; do not merge **VP** **tone** with **Islamabad** **scope** facts without **official** alignment. **When Vance is a watch:** refresh the month link if the active `meta.md` chapter changes.
+- **PRC / Beijing (primary strategy thread):** **Voice** = **MFA** and **partyÃ¢â‚¬“state** readouts (**summits**, **ministry** lines, major **official** English pages). **Hub** = [daily-brief-prc-watch.md](daily-brief-prc-watch.md) Ã¢â‚¬” **Coffee menu C Ã¢â‚¬” Strategy (daily brief)** fills **Ã‚§1g** (rolling **48h** + **URLs** + **Mandarin** triangulation when load-bearing; in generated briefs **Ã‚§1g** follows **Ã‚§1f** weak signal); Step 1 does not run this pass. **Notebook weaving** = [strategy-notebook/chapters/YYYY-MM/meta.md](strategy-notebook/chapters/2026-04/meta.md) Ã‚§ **PRC / Beijing thread** + [NOTEBOOK-PREFERENCES.md](strategy-notebook/NOTEBOOK-PREFERENCES.md) row Ã¢â‚¬” separate **MFA-primary** wording from **Western** “China” **analysis**; do not merge **narrative** **headlines** with **negotiation** **terms** without verify. **When PRC is a watch:** refresh the month link if the active `meta.md` chapter changes.
+- **Islamic Republic of Iran (primary strategy thread):** **Voice** = **Iranian state** lines (**MFA**, **presidency**, **IRNA** / major wires). **Hub** = [daily-brief-iran-watch.md](daily-brief-iran-watch.md) Ã¢â‚¬” **Coffee menu C Ã¢â‚¬” Strategy (daily brief)** fills **Ã‚§1h** (rolling **48h** + **URLs** + **Persian** triangulation when load-bearing; in generated briefs **Ã‚§1h** follows **Ã‚§1g**); Step 1 does not run this pass. **Notebook weaving** = [strategy-notebook/chapters/YYYY-MM/meta.md](strategy-notebook/chapters/2026-04/meta.md) Ã‚§ **Islamic Republic of Iran thread** + [NOTEBOOK-PREFERENCES.md](strategy-notebook/NOTEBOOK-PREFERENCES.md) row Ã¢â‚¬” separate **Persian-primary** wording from **wire** **paraphrase**; do not merge **Tehran** **tone** with **Islamabad** **scope** facts without verify. **When IRI is a watch:** refresh the month link if the active `meta.md` chapter changes.
 
-## 1c. Two horizons â€” fast vs slow
+## 1c. Two horizons Ã¢â‚¬” fast vs slow
 
-**Fast (same brief):** Â§**2** RSS headlines + Â§**1** snapshot â€” news cycle, principal-adjacent hooks, scored **W / S / G**.
+**Fast (same brief):** Ã‚§**2** RSS headlines + Ã‚§**1** snapshot Ã¢â‚¬” news cycle, principal-adjacent hooks, scored **W / S / G**.
 
-**Slow (work-jiang):** lecture extractions, compression JSON, comparative sweeps â€” **structural** context; not a substitute for dated facts. Prefer [SELF-LIBRARY](../../../self-library.md) entries (e.g. reference / `lookup_priority`) when library-first lookup applies.
+**Slow (work-jiang):** lecture extractions, compression JSON, comparative sweeps Ã¢â‚¬” **structural** context; not a substitute for dated facts. Prefer [SELF-LIBRARY](../../../self-library.md) entries (e.g. reference / `lookup_priority`) when library-first lookup applies.
 
-_From `docs/skill-work/work-strategy/daily-brief-jiang-layer.md` Â§ Active work-jiang hooks._
+_From `docs/skill-work/work-strategy/daily-brief-jiang-layer.md` Ã‚§ Active work-jiang hooks._
 
-- _Edit between brief runs. **SELF-LIBRARY (Predictive History):** [LIB-0149](../../../self-library.md#operator-analytical-books) â€” `lookup_priority: preferred`; canonical URL in YAML â†’ [BOOK-ARCHITECTURE.md](../../../research/external/work-jiang/BOOK-ARCHITECTURE.md)._
-- [BOOK-ARCHITECTURE.md](../../../research/external/work-jiang/BOOK-ARCHITECTURE.md) â€” multivolume spine; Volume I Geo-Strategy (Part I ch01â€“ch20, Part II prediction adjudication).
-- [STATUS.md](../../../research/external/work-jiang/STATUS.md) â€” corpus counts, **missing analysis** backlog, `outline_in_progress`, production nudges.
-- [CHAPTER-QUEUE.md](../../../research/external/work-jiang/CHAPTER-QUEUE.md) â€” next chapter front (queue vs blockers).
-- [lectures/](../../../research/external/work-jiang/lectures/) â€” curated lecture bodies for slow-layer pull quotes / compressions.
-- [COMPRESSION-ENGINE.md](../work-jiang/COMPRESSION-ENGINE.md) â€” lane doc when running `jiang-compress` / JSON outputs (`research/external/work-jiang/compressions/<slug>-YYYYMMDD.json`).
+- _Edit between brief runs. **SELF-LIBRARY (Predictive History):** [LIB-0149](../../../self-library.md#operator-analytical-books) Ã¢â‚¬” `lookup_priority: preferred`; canonical URL in YAML Ã¢â€ ’ [BOOK-ARCHITECTURE.md](../../codex/predictive-history/BOOK-ARCHITECTURE.md)._
+- [BOOK-ARCHITECTURE.md](../../codex/predictive-history/BOOK-ARCHITECTURE.md) Ã¢â‚¬” multivolume spine; Volume I Geo-Strategy (Part I ch01Ã¢â‚¬“ch20, Part II prediction adjudication).
+- [STATUS.md](../../codex/predictive-history/STATUS.md) Ã¢â‚¬” corpus counts, **missing analysis** backlog, `outline_in_progress`, production nudges.
+- [CHAPTER-QUEUE.md](../../codex/predictive-history/CHAPTER-QUEUE.md) Ã¢â‚¬” next chapter front (queue vs blockers).
+- [lectures/](../../codex/predictive-history/lectures/) Ã¢â‚¬” curated lecture bodies for slow-layer pull quotes / compressions.
+- [COMPRESSION-ENGINE.md](../codex/predictive-history/COMPRESSION-ENGINE.md) Ã¢â‚¬” lane doc when running `jiang-compress` / JSON outputs (`codex/predictive-history/compressions/<slug>-YYYYMMDD.json`).
 
 _Product / integration context: [work-dev/workspace.md](../work-dev/workspace.md), [work-strategy/README.md](README.md)._
 
-## 1d. Putin â€” last 48 hours
+## 1d. Putin Ã¢â‚¬” last 48 hours
 
-_Filled at **good morning** per [daily-brief-putin-watch.md](daily-brief-putin-watch.md): web scan (Kremlin schedule/transcripts, Reuters, BBC, TASS/RIA as needed), **48h** rolling window, **bullets + URLs**. RSS Â§2 does not replace this pass. If blank, paste after generate or re-run morning assembly._
+_Filled at **good morning** per [daily-brief-putin-watch.md](daily-brief-putin-watch.md): web scan (Kremlin schedule/transcripts, Reuters, BBC, TASS/RIA as needed), **48h** rolling window, **bullets + URLs**. RSS Ã‚§2 does not replace this pass. If blank, paste after generate or re-run morning assembly._
 
-**Watch pass (supersedes tri-mind T2 stub â€” Russian MFA via TASS/RIA, 2026-04-14):**
+**Watch pass (supersedes tri-mind T2 stub Ã¢â‚¬” Russian MFA via TASS/RIA, 2026-04-14):**
 
-- **Lavrov â€” Araghchi (14 Apr):** Russian MFA statement (TASS): Araghchi briefed on **Iranâ€“US talks in Islamabad (11 Apr)**; Lavrov stressed preventing **resumption of armed confrontation**, reiterated no **military solution**, recalled Russiaâ€™s initiative for a **Persian Gulf security concept** (regional states plus non-regional actors that can support talks); Moscow welcomed Iranâ€™s willingness to pursue diplomacy addressing **root causes**, long-term stability, **legitimate interests of Iran and neighbors**. [TASS](https://www.tass.com/politics/2116501)
-- **Lavrov â€” Abdullah bin Zayed (14 Apr):** MFA readout (RIA): exchanged views postâ€“Islamabad talks; **immediate cessation and non-resumption of all hostilities**; continued political/diplomatic efforts on crisis following **unprovoked attack by the United States and Israel on Iran** (MFA wording). [RIA Novosti](https://ria.ru/20260414/lavrov-2086967480.html)
-- **Lavrov â€” Hakan Fidan (14 Apr):** MFA readout (RIA): discussed **paths out of the crisis** after US/Israel military action against Iran; **Moscow and Ankara** expressed readiness to support **peaceful settlement**. English [TASS](https://www.tass.com/politics/2116699) lede is **Ukraine / Istanbul**-heavy; pair with RIA for the **Iran** paragraph. [RIA Novosti](https://ria.ru/20260414/lavrov-2086963679.html)
-- **Lavrov â€” UAE (7 Apr)** â€” earlier Gulf escalation tranche (not the same calendar call as 14 Apr): [TASS](https://www.tass.com/politics/2113083)
+- **Lavrov Ã¢â‚¬” Araghchi (14 Apr):** Russian MFA statement (TASS): Araghchi briefed on **IranÃ¢â‚¬“US talks in Islamabad (11 Apr)**; Lavrov stressed preventing **resumption of armed confrontation**, reiterated no **military solution**, recalled Russia’s initiative for a **Persian Gulf security concept** (regional states plus non-regional actors that can support talks); Moscow welcomed Iran’s willingness to pursue diplomacy addressing **root causes**, long-term stability, **legitimate interests of Iran and neighbors**. [TASS](https://www.tass.com/politics/2116501)
+- **Lavrov Ã¢â‚¬” Abdullah bin Zayed (14 Apr):** MFA readout (RIA): exchanged views postÃ¢â‚¬“Islamabad talks; **immediate cessation and non-resumption of all hostilities**; continued political/diplomatic efforts on crisis following **unprovoked attack by the United States and Israel on Iran** (MFA wording). [RIA Novosti](https://ria.ru/20260414/lavrov-2086967480.html)
+- **Lavrov Ã¢â‚¬” Hakan Fidan (14 Apr):** MFA readout (RIA): discussed **paths out of the crisis** after US/Israel military action against Iran; **Moscow and Ankara** expressed readiness to support **peaceful settlement**. English [TASS](https://www.tass.com/politics/2116699) lede is **Ukraine / Istanbul**-heavy; pair with RIA for the **Iran** paragraph. [RIA Novosti](https://ria.ru/20260414/lavrov-2086963679.html)
+- **Lavrov Ã¢â‚¬” UAE (7 Apr)** Ã¢â‚¬” earlier Gulf escalation tranche (not the same calendar call as 14 Apr): [TASS](https://www.tass.com/politics/2113083)
 
 **Gap:** No **Kremlin.ru** Putin appearance block pasted in this pass; add **President** schedule/transcripts when the watch template requires them.
 
-## 1e. JD Vance â€” last 48 hours
+## 1e. JD Vance Ã¢â‚¬” last 48 hours
 
-_Filled at **good morning** per [daily-brief-jd-vance-watch.md](daily-brief-jd-vance-watch.md): web scan (VP office / White House readouts, Congress if relevant, major wires), **48h** rolling window, **bullets + URLs**. RSS Â§2 may surface Vance-adjacent headlines; it does not replace this pass. If blank, paste after generate or re-run morning assembly._
+_Filled at **good morning** per [daily-brief-jd-vance-watch.md](daily-brief-jd-vance-watch.md): web scan (VP office / White House readouts, Congress if relevant, major wires), **48h** rolling window, **bullets + URLs**. RSS Ã‚§2 may surface Vance-adjacent headlines; it does not replace this pass. If blank, paste after generate or re-run morning assembly._
 
 **Watch pass (supersedes tri-mind stub):**
 
-- **Delegation composition (wire relay):** TASS summarizes **CNN**: **JD Vance** expected to lead a **next round** of Iran talks if held; **Witkoff** and **Kushner** also remain on the delegation; notes **Islamabad (11 Apr)** talks did not yield a long-term settlement. **Tier:** secondary (TASS â†’ CNN) â€” open [CNN](https://edition.cnn.com/) original before any public copy. [TASS](https://www.tass.com/world/2117093)
-- **â€œNext moveâ€ framing (PRC MFA cross-read):** At the **14 Apr** MFA briefing, an AFP question quotes **Vance** as saying it is **up to Iran** to make the next move toward restarting talks; **Guo Jiakun** responds with ceasefire fragility and **political/diplomatic** resolution priority. [PRC MFA (EN)](https://www.fmprc.gov.cn/eng/xw/fyrbt/202604/t20260414_11891740.html)
+- **Delegation composition (wire relay):** TASS summarizes **CNN**: **JD Vance** expected to lead a **next round** of Iran talks if held; **Witkoff** and **Kushner** also remain on the delegation; notes **Islamabad (11 Apr)** talks did not yield a long-term settlement. **Tier:** secondary (TASS Ã¢â€ ’ CNN) Ã¢â‚¬” open [CNN](https://edition.cnn.com/) original before any public copy. [TASS](https://www.tass.com/world/2117093)
+- **“Next move” framing (PRC MFA cross-read):** At the **14 Apr** MFA briefing, an AFP question quotes **Vance** as saying it is **up to Iran** to make the next move toward restarting talks; **Guo Jiakun** responds with ceasefire fragility and **political/diplomatic** resolution priority. [PRC MFA (EN)](https://www.fmprc.gov.cn/eng/xw/fyrbt/202604/t20260414_11891740.html)
 - **Enrichment horizon numbers (e.g. 20y vs 5y):** remain **journalism-grade** until a **U.S. or IRI primary** cites the exact terms; not closed in this pass.
 
 ## 1f. Weak signal worth watching
 
 _Operator block per [weak-signal-template.md](weak-signal-template.md) and [weak-signals.md](weak-signals.md). One compact weak signal when a credible candidate exists (low/medium confidence only). If nothing clears the bar, use: **No credible weak signal exceeded the threshold today.** When a historical parallel is in play, summarize a short analogy audit ([analogy-audit-template.md](analogy-audit-template.md)) here._
 
-## 1g. PRC â€” last 48 hours (Peopleâ€™s Republic of China)
+## 1g. PRC Ã¢â‚¬” last 48 hours (People’s Republic of China)
 
-_Filled per [daily-brief-prc-watch.md](daily-brief-prc-watch.md) + [daily-brief-native-international-pass.md](daily-brief-native-international-pass.md): web scan (MFA, major state wires, cross-check Reuters), **48h** rolling window, **bullets + URLs**; add **Mandarin-primary** line when PRC is load-bearing. RSS Â§2 does not replace this pass. If blank, paste after generate or re-run morning assembly._
+_Filled per [daily-brief-prc-watch.md](daily-brief-prc-watch.md) + [daily-brief-native-international-pass.md](daily-brief-native-international-pass.md): web scan (MFA, major state wires, cross-check Reuters), **48h** rolling window, **bullets + URLs**; add **Mandarin-primary** line when PRC is load-bearing. RSS Ã‚§2 does not replace this pass. If blank, paste after generate or re-run morning assembly._
 
 **Watch pass (supersedes tri-mind T2 + T4 stubs):**
 
-- **Xi â€” Sheikh Khaled bin Mohamed bin Zayed (14 Apr, Beijing):** **Four-point** proposal on Gulf/Middle East stability: **peaceful coexistence** and a **common, comprehensive, cooperative and sustainable** regional security architecture; **national sovereignty** (territorial integrity, safety of personnel/facilities); **international rule of law** / UN-centered system / UN Charter; **development and security** coordinated â€” China offers **modernization** opportunities to regional states. Crown Prince: UAE values Chinaâ€™s constructive role; **ceasefire**, regional peace, **international shipping security**, **energy security**. [Xinhua](https://english.news.cn/20260414/020925990d2a4f4486ae77e3be4f688f/c.html) Â· [PRC MFA (ZH page)](https://www.mfa.gov.cn/web/wjdt_674879/gjldrhd_674881/202604/t20260414_11891401.shtml)
-- **Guo Jiakun (14 Apr) â€” USCENTCOM â€œblockadeâ€:** China says the move **aggravates confrontation**, **undermines the fragile ceasefire**, and **jeopardizes safe passage** through Hormuz; urges honoring ceasefire and **peace talks**. [PRC MFA (EN transcript)](https://www.fmprc.gov.cn/eng/xw/fyrbt/202604/t20260414_11891740.html)
-- **Guo (14 Apr) â€” alleged arms to Iran and 50% tariff threat:** military-export reports **â€œpurely fabricatedâ€**; **if the U.S. goes ahead with tariff hikes on China on that basis, China will respond with countermeasures** (transcript wording). Same file as above. **Note:** Mercouris **â€œrare earthsâ€** detail is **not** in this MFA excerpt â€” add **Mandarin-primary** scrape if industrial countermeasures must be quoted precisely.
+- **Xi Ã¢â‚¬” Sheikh Khaled bin Mohamed bin Zayed (14 Apr, Beijing):** **Four-point** proposal on Gulf/Middle East stability: **peaceful coexistence** and a **common, comprehensive, cooperative and sustainable** regional security architecture; **national sovereignty** (territorial integrity, safety of personnel/facilities); **international rule of law** / UN-centered system / UN Charter; **development and security** coordinated Ã¢â‚¬” China offers **modernization** opportunities to regional states. Crown Prince: UAE values China’s constructive role; **ceasefire**, regional peace, **international shipping security**, **energy security**. [Xinhua](https://english.news.cn/20260414/020925990d2a4f4486ae77e3be4f688f/c.html) Ã‚· [PRC MFA (ZH page)](https://www.mfa.gov.cn/web/wjdt_674879/gjldrhd_674881/202604/t20260414_11891401.shtml)
+- **Guo Jiakun (14 Apr) Ã¢â‚¬” USCENTCOM “blockade”:** China says the move **aggravates confrontation**, **undermines the fragile ceasefire**, and **jeopardizes safe passage** through Hormuz; urges honoring ceasefire and **peace talks**. [PRC MFA (EN transcript)](https://www.fmprc.gov.cn/eng/xw/fyrbt/202604/t20260414_11891740.html)
+- **Guo (14 Apr) Ã¢â‚¬” alleged arms to Iran and 50% tariff threat:** military-export reports **“purely fabricated”**; **if the U.S. goes ahead with tariff hikes on China on that basis, China will respond with countermeasures** (transcript wording). Same file as above. **Note:** Mercouris **“rare earths”** detail is **not** in this MFA excerpt Ã¢â‚¬” add **Mandarin-primary** scrape if industrial countermeasures must be quoted precisely.
 - **Weapons smear (13 Apr):** Xinhua brief on **prudent/responsible** military export controls. [Xinhua](https://english.news.cn/20260413/84bb8f9509014707b7766c30f44e8b1f/c.html)
 
-## 1h. IRI â€” last 48 hours (Islamic Republic of Iran)
+## 1h. IRI Ã¢â‚¬” last 48 hours (Islamic Republic of Iran)
 
-_Filled per [daily-brief-iran-watch.md](daily-brief-iran-watch.md) + [daily-brief-native-international-pass.md](daily-brief-native-international-pass.md): web scan (MFA, IRNA/Tasnim as needed, cross-check Reuters), **48h** rolling window, **bullets + URLs**; add **Persian-primary** line when Iran / Islamabad is load-bearing. Complements [islamabad-operator-index.md](islamabad-operator-index.md) (bargaining framework)â€”this block is **Tehran state voice**. RSS Â§2 does not replace this pass. If blank, paste after generate or re-run morning assembly._
+_Filled per [daily-brief-iran-watch.md](daily-brief-iran-watch.md) + [daily-brief-native-international-pass.md](daily-brief-native-international-pass.md): web scan (MFA, IRNA/Tasnim as needed, cross-check Reuters), **48h** rolling window, **bullets + URLs**; add **Persian-primary** line when Iran / Islamabad is load-bearing. Complements [islamabad-operator-index.md](islamabad-operator-index.md) (bargaining framework)Ã¢â‚¬”this block is **Tehran state voice**. RSS Ã‚§2 does not replace this pass. If blank, paste after generate or re-run morning assembly._
 
-**Watch pass (supersedes tri-mind stub â€” IRI primaries still to pin):**
+**Watch pass (supersedes tri-mind stub Ã¢â‚¬” IRI primaries still to pin):**
 
-- **Araghchi â€” Lavrov (14 Apr):** First-pass **substance** appears in **Russian MFA** text (Â§1d): Araghchi briefed on **Islamabad (11 Apr)**; Russian side characterizes Iran as seeking **root-causes** diplomacy. **Pull** matching **en.mfa.ir** / **IRNA** / **Tasnim** dated lines for **Tehran-native** wording on the same call â€” not yet pasted here.
-- **Gap:** Condolences re **Kharrazi** and other Iranian-only lines may appear in fuller MFA releases; **verify** against **Iranian** primary when the dayâ€™s thesis turns on exact Persian quotes.
+- **Araghchi Ã¢â‚¬” Lavrov (14 Apr):** First-pass **substance** appears in **Russian MFA** text (Ã‚§1d): Araghchi briefed on **Islamabad (11 Apr)**; Russian side characterizes Iran as seeking **root-causes** diplomacy. **Pull** matching **en.mfa.ir** / **IRNA** / **Tasnim** dated lines for **Tehran-native** wording on the same call Ã¢â‚¬” not yet pasted here.
+- **Gap:** Condolences re **Kharrazi** and other Iranian-only lines may appear in fuller MFA releases; **verify** against **Iranian** primary when the day’s thesis turns on exact Persian quotes.
 
 ## 2. Headlines (ingested RSS)
 
 _`--no-fetch`: RSS skipped._
 
-## 3. Lead themes (auto-stub â€” replace after reading)
+## 3. Lead themes (auto-stub Ã¢â‚¬” replace after reading)
 
 ### Work-politics / campaign angle
-_No W-scored headlines â€” pull from principal X, local news, [brief-source-registry](../work-politics/brief-source-registry.md)._
+_No W-scored headlines Ã¢â‚¬” pull from principal X, local news, [brief-source-registry](../work-politics/brief-source-registry.md)._
 
 ### Work-strategy angle (product / governance / tech)
 
-_No S-scored headlines â€” scan [work-dev/integration-status](../work-dev/integration-status.md) or add feeds._
+_No S-scored headlines Ã¢â‚¬” scan [work-dev/integration-status](../work-dev/integration-status.md) or add feeds._
 
 ### Slow structural layer (work-jiang)
 
-_Not dated news â€” patterns from lecture extractions, `jiang-compress` JSON, comparative sweeps. Connect to **Â§1c** hooks when drafting campaign or opposition copy; cite sources if anything ships publicly._
+_Not dated news Ã¢â‚¬” patterns from lecture extractions, `jiang-compress` JSON, comparative sweeps. Connect to **Ã‚§1c** hooks when drafting campaign or opposition copy; cite sources if anything ships publicly._
 
-**Replace:** 2â€“3 sentences â€” which slow pattern applies to todayâ€™s **W** angle, or why none does.
+**Replace:** 2Ã¢â‚¬“3 sentences Ã¢â‚¬” which slow pattern applies to today’s **W** angle, or why none does.
 
 ## 4. Triangulation (when lead is political)
 
@@ -133,7 +133,7 @@ For **campaign-facing** copy, use [work-politics analytical-lenses](../work-poli
 |---|---|---|
 | _TBD_ | _TBD_ | _TBD_ |
 
-**Product / strategy thread:** _TBD (no three-lens requirement â€” use work-dev + INTENT as needed)._
+**Product / strategy thread:** _TBD (no three-lens requirement Ã¢â‚¬” use work-dev + INTENT as needed)._
 
 ## 5. Operator synthesis
 
@@ -170,15 +170,15 @@ The in-brief signal set is centered on Hormuz blockade pressure, U.S.
 Congressional war-powers framing, and diplomacy around Lebanon/Israel channels.
 An IMF downgrade line is present in wire coverage, but the brief does not
 contain primary WEO tables or audited battlefield metrics; those remain open
-until actor-channel passes in Â§1d-Â§1h are filled.
+until actor-channel passes in Ã‚§1d-Ã‚§1h are filled.
 
 ### Top developments
 
-#### Development 1 â€” Hormuz blockade has moved from threat framing to active operations framing
+#### Development 1 Ã¢â‚¬” Hormuz blockade has moved from threat framing to active operations framing
 
 ##### What happened
 
-Multiple sources in Â§2 and Â§2a describe a live U.S. blockade frame in Hormuz
+Multiple sources in Ã‚§2 and Ã‚§2a describe a live U.S. blockade frame in Hormuz
 plus immediate diplomatic and shipping pressure responses.
 
 ##### Why it matters
@@ -203,7 +203,7 @@ solidifies into broader market and alliance commitments.
 - https://rollcall.com/2026/04/13/this-week-iran-war-powers-and-expulsion-talk/  
 **Seam / tension:** Live-desk and opinion pieces dominate parts of the stack; hard operational confirmation still needs actor-primary passes.
 
-#### Development 2 â€” IMF downgrade signal is present, but quantified macro transmission remains unverified in-file
+#### Development 2 Ã¢â‚¬” IMF downgrade signal is present, but quantified macro transmission remains unverified in-file
 
 ##### What happened
 
@@ -229,9 +229,9 @@ signals in the next cycle.
 **Evidence status:** Single-source  
 **Primary links:**  
 - https://www.spiegel.de/wirtschaft/iran-krieg-iwf-internationaler-waehrungsfonds-senkt-weltweite-wachstumserwartung-a-92c69b54-f568-41e6-8455-5359506f7504#ref=rss  
-**Seam / tension:** This brief has no primary IMF tables or quoted release text; quantified deltas remain `[UNVERIFIED â€” no primary found]` in-file.
+**Seam / tension:** This brief has no primary IMF tables or quoted release text; quantified deltas remain `[UNVERIFIED Ã¢â‚¬” no primary found]` in-file.
 
-#### Development 3 â€” U.S. domestic political risk around Iran has intensified in media-congress channels
+#### Development 3 Ã¢â‚¬” U.S. domestic political risk around Iran has intensified in media-congress channels
 
 ##### What happened
 
@@ -274,18 +274,18 @@ crystallizes into procedural action or remains media pressure.
 
 ### Cross-domain synthesis
 
-This briefâ€™s strongest convergent signal is not a single battlefield metric but
+This brief’s strongest convergent signal is not a single battlefield metric but
 a three-way coupling: Hormuz risk narrative, U.S. domestic political pressure,
 and early macro-constraint signaling (IMF wire line).  
 **Seam / tension:** Macro and battlefield quant claims are still weaker than
 policy/discourse evidence in this file; do not over-close the synthesis until
-Â§1d-Â§1h are filled with actor-primary material.
+Ã‚§1d-Ã‚§1h are filled with actor-primary material.
 
 ### Watchlist for tomorrow
 
 - Any primary IMF release tables or official language that resolves current `[UNVERIFIED]` macro deltas
 - Confirmed movement on U.S. war-powers procedural track (committee or floor pathway)
-- Actor-primary updates in Â§1d-Â§1h for Russia, VP channel, PRC, and IRI
+- Actor-primary updates in Ã‚§1d-Ã‚§1h for Russia, VP channel, PRC, and IRI
 - Shipping/diplomacy updates that either harden or soften Hormuz blockade posture
 
 ### Bottom line
@@ -300,7 +300,7 @@ precision claims remain conditional until primary-source passes close them.
 
 - Le Monde live | Iran-linked ships + Hormuz blockade frame + Lebanon/Israel talks in Washington // sea-lane + diplomacy stack | https://www.lemonde.fr/international/live/2026-04-14/en-direct-guerre-au-moyen-orient-washington-s-apprete-a-accueillir-les-pourparlers-de-paix-entre-le-liban-et-israel_6679867_3210.html | verify:wire-RSS | membrane:pair
 - BBC Mundo | Hormuz blockade explainer + China role line // third-party positioning | https://www.bbc.com/mundo/articles/cz90qzpjxwxo?at_medium=RSS&at_campaign=rss | verify:wire-RSS | membrane:single
-- BBC News | MFA-class attribution line â€œChina saysâ€ on Iran ports blockade // PRC reaction lane | https://www.bbc.com/news/articles/c78lleelxj4o?at_medium=RSS&at_campaign=rss | verify:wire-RSS | membrane:single
+- BBC News | MFA-class attribution line “China says” on Iran ports blockade // PRC reaction lane | https://www.bbc.com/news/articles/c78lleelxj4o?at_medium=RSS&at_campaign=rss | verify:wire-RSS | membrane:single
 - Spiegel | IMF lowers global growth expectations (Iran war context) // macro constraint hint | https://www.spiegel.de/wirtschaft/iran-krieg-iwf-internationaler-waehrungsfonds-senkt-weltweite-wachstumserwartung-a-92c69b54-f568-41e6-8455-5359506f7504#ref=rss | verify:wire-RSS | membrane:single
 - Roll Call | Iran war powers + expulsion talk // Congressional procedure pressure | https://rollcall.com/2026/04/13/this-week-iran-war-powers-and-expulsion-talk/ | verify:wire-RSS | membrane:single
 - Le Monde live | Druzhba repair promise affecting Hungary oil supply // energy-route seam | https://www.lemonde.fr/international/live/2026-04-14/en-direct-guerre-en-ukraine-volodymyr-zelensky-promet-une-reparation-d-ici-a-la-fin-d-avril-de-l-oleoduc-droujba-qui-fournit-en-petrole-russe-la-hongrie_6679492_3210.html | verify:wire-RSS
@@ -308,7 +308,7 @@ precision claims remain conditional until primary-source passes close them.
 **Verify queue**
 
 - IMF: pull primary WEO / IMF press materials; until then keep macro deltas as
-  `[UNVERIFIED â€” no primary found]`
+  `[UNVERIFIED Ã¢â‚¬” no primary found]`
 - Hormuz: separate announced posture vs confirmed interdiction outcomes
 - Lebanon/Israel talks: confirm who is at table vs who is absent/spurning
 - Druzhba/Hungary line: confirm operational repair timeline vs headline promise
@@ -316,12 +316,12 @@ precision claims remain conditional until primary-source passes close them.
 **Conflict check**
 
 - Apr 14 emphasizes Hormuz + Congressional pressure + IMF wire hint; compare to
-  Apr 13â€™s stronger Hungary-turnover cluster to avoid â€œsingle-spine amnesiaâ€
+  Apr 13’s stronger Hungary-turnover cluster to avoid “single-spine amnesia”
   across days.
 
 ## 8. Quality rubric footer (optional)
 
-| Criterion | Score (0â€“2) |
+| Criterion | Score (0Ã¢â‚¬“2) |
 |---|---:|
 | Epistemic discipline | 2 |
 | Plane separation | 2 |

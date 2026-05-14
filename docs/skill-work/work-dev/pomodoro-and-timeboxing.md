@@ -1,7 +1,6 @@
 # Pomodoro and timeboxing (operator playbook)
 
-**Purpose:** Optional **WORK** guidance for structuring **focused intervals** inside the **~2-hour screen-based learning ceiling** described in [alpha-school-reference](../skill-work-alpha-school/alpha-school-reference.md) and [alpha-mastery-adaptation](../../alpha-mastery-adaptation.md). This doc is **operator doctrine**, not Record truth and not a product spec.
-
+**Purpose:** Optional **WORK** guidance for structuring **focused intervals** inside the **~2-hour screen-based learning ceiling** described in 
 **Audience:** Operators using **work-dev**, deep coding blocks, or **Record-derived lesson** threads who want a simple, widely known time-management pattern.
 
 **Disclaimer:** Interval lengths are **choices**, not medical or ergonomic advice. Adjust to your context, energy, and accessibility needs.
@@ -30,11 +29,11 @@ The **Pomodoro Technique** (popularized by Francesco Cirillo) names focused work
 
 The template’s **2 hours** is a **ceiling** for screen-based academic work, not a quota to fill. One way to map classic Pomodoros:
 
-- **4 × 25 min** focused work ≈ **100 minutes**
-- **3 × 5 min** short breaks (between those four blocks) ≈ **15 minutes**
-- **1 × 15–25 min** longer break after the fourth block ≈ **15–25 minutes**
+- **4 Ã— 25 min** focused work â‰ˆ **100 minutes**
+- **3 Ã— 5 min** short breaks (between those four blocks) â‰ˆ **15 minutes**
+- **1 Ã— 15–25 min** longer break after the fourth block â‰ˆ **15–25 minutes**
 
-**Total ≈ 130–140 minutes**, i.e. in the same **order of magnitude** as a **2-hour design block** including breaks. Operators may use **fewer** Pomodoros, **shorter** breaks, or **shorter** focus intervals to stay **under** 120 minutes of clock time if that is the day’s goal.
+**Total â‰ˆ 130–140 minutes**, i.e. in the same **order of magnitude** as a **2-hour design block** including breaks. Operators may use **fewer** Pomodoros, **shorter** breaks, or **shorter** focus intervals to stay **under** 120 minutes of clock time if that is the day’s goal.
 
 ---
 
@@ -81,8 +80,7 @@ Link courses as **reference**; any structured pathway in-repo belongs in separat
 
 ## Related docs
 
-- [alpha-school-reference.md](../skill-work-alpha-school/alpha-school-reference.md) — 2-hour target, Record-driven prompts
-- [alpha-mastery-adaptation.md](../../alpha-mastery-adaptation.md) — Pomodoro-style blocks in the Alpha analogy table
+- - [bloom-mastery-adaptation.md](../../bloom-mastery-adaptation.md) — Pomodoro-style blocks in the AI school analogy table
 - [schema-record-api.md](../../schema-record-api.md) — minimal lesson prompt shape
 - [work-lesson-generation-walkthrough.md](../work-lesson-generation-walkthrough.md) — how lesson prompts are built
 - [delegation-spec-external-agents.md](delegation-spec-external-agents.md) — external agent delegation outline (separate concern)

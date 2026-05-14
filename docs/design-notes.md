@@ -2,7 +2,7 @@
 
 **Purpose:** Capture design insights, positioning, and implications derived from build-pattern research and agent-infrastructure analysis. Use for future white paper, business proposal, and investor narrative.
 
-**Sources:** Build-pattern transcript (architecture portable, principles scale, agent-maintainable, infrastructure); Infrastructure transcript (agent web fork, trust primitive, structured interfaces); Alpha School interview (AI schools, 2-hour learning, identity vs. teaching layer); ACX review of Alpha School (incentives as bottleneck, homeschool gap, platform vs. bundle); Visual AI transcript (Stop Treating Image Generation Like a Design Tool — infrastructure vs point solution); **Intent engineering** ("Prompt Engineering Is Dead. Context Engineering Is Dying. What Comes Next Changes Everything." — YouTube transcript, 2026: context tells agents what to know, intent tells agents what to want; Grace-Mar's INTENT layer = intent engineering at companion scale); **Catherine Fitts** (Epstein, CIA Black Budget, the Control Grid, and the Banks' Role in War — YouTube transcript, 2026: control grid vs sovereignty; §2.5); **Enterprise context / comprehension lock-in** (OpenAI Leaked GPT-5.4 / AI lock-in — YouTube transcript, 2026: synthesis layer, retrieval at scale, comprehension lock-in vs data portability; §2.5); **Harness lock-in** (Claude Code vs Codex — YouTube transcript, 2026: harness vs model, compound workflows, repo vs agent memory; §2.6); **Harness convergence** (4 labs same structure / jaggedness vs harness — YouTube transcript, 2026: decompose, parallelize, verify, iterate; sniff check; §11.11); **Rejection as AI skill** (Stop accepting output that "looks right" — YouTube transcript, 2026: recognition, articulation, encoding; taste as durable constraints; §11.10); **AI safety / intent gap** (Claude blackmail / optimization framing — YouTube transcript, 2026: instrumental convergence, scheming as efficient path, emergent institutional safety, intent engineering vs output-only prompts; §11.9); Po-Shen Loh (CMU — trust networks, rural potential, "great = care + think"); Boris Cherny / Claude Code (Lenny's Podcast — coding solved, latent demand, generalists); Bitcoin whitepaper (canonical spec structure, abstract/conclusion, protocol over org); Federalist Papers (spec vs. commentary, interpretation as legacy). See also §11 (Research & Model Landscape), §11.6 (Landscape: capital allocation & agent scale), §11.7 (Intent engineering), §11.9 (intent gap), §11.10 (rejection / encoded taste), §11.11 (harness convergence / verify loop).
+**Sources:** Build-pattern transcript (architecture portable, principles scale, agent-maintainable, infrastructure); Infrastructure transcript (agent web fork, trust primitive, structured interfaces); mastery-learning school interview (AI schools, 2-hour learning, identity vs. teaching layer); ACX review of mastery-learning school (incentives as bottleneck, homeschool gap, platform vs. bundle); Visual AI transcript (Stop Treating Image Generation Like a Design Tool — infrastructure vs point solution); **Intent engineering** ("Prompt Engineering Is Dead. Context Engineering Is Dying. What Comes Next Changes Everything." — YouTube transcript, 2026: context tells agents what to know, intent tells agents what to want; Grace-Mar's INTENT layer = intent engineering at companion scale); **Catherine Fitts** (Epstein, CIA Black Budget, the Control Grid, and the Banks' Role in War — YouTube transcript, 2026: control grid vs sovereignty; §2.5); **Enterprise context / comprehension lock-in** (OpenAI Leaked GPT-5.4 / AI lock-in — YouTube transcript, 2026: synthesis layer, retrieval at scale, comprehension lock-in vs data portability; §2.5); **Harness lock-in** (Claude Code vs Codex — YouTube transcript, 2026: harness vs model, compound workflows, repo vs agent memory; §2.6); **Harness convergence** (4 labs same structure / jaggedness vs harness — YouTube transcript, 2026: decompose, parallelize, verify, iterate; sniff check; §11.11); **Rejection as AI skill** (Stop accepting output that "looks right" — YouTube transcript, 2026: recognition, articulation, encoding; taste as durable constraints; §11.10); **AI safety / intent gap** (Claude blackmail / optimization framing — YouTube transcript, 2026: instrumental convergence, scheming as efficient path, emergent institutional safety, intent engineering vs output-only prompts; §11.9); Po-Shen Loh (CMU — trust networks, rural potential, "great = care + think"); Boris Cherny / Claude Code (Lenny's Podcast — coding solved, latent demand, generalists); Bitcoin whitepaper (canonical spec structure, abstract/conclusion, protocol over org); Federalist Papers (spec vs. commentary, interpretation as legacy). See also §11 (Research & Model Landscape), §11.6 (Landscape: capital allocation & agent scale), §11.7 (Intent engineering), §11.9 (intent gap), §11.10 (rejection / encoded taste), §11.11 (harness convergence / verify loop).
 
 **Status:** Draft. Refine as instance progresses and market conditions evolve.
 
@@ -30,7 +30,7 @@ The gap: **identity and trust.** Agents need to know who they serve. They need i
 
 ### Solution
 
-Grace-Mar provides the **identity substrate for the agent web** and for **AI schools like Alpha**: a structured, evidence-grounded Record of who a person is, with a gated pipeline that ensures only user-approved content enters. Grace-Mar positions as **(1) supplemental** to Alpha — the Record layer Alpha does not provide — and **(2) low-cost open-source alternative** for families outside $40K–$75K/year tuition. The Record can be exported, queried, and consumed by agents and school platforms as a trusted source of identity.
+Grace-Mar provides the **identity substrate for the agent web** and for **AI schools like AI school**: a structured, evidence-grounded Record of who a person is, with a gated pipeline that ensures only user-approved content enters. Grace-Mar positions as **(1) supplemental** to AI school — the Record layer AI school does not provide — and **(2) low-cost open-source alternative** for families outside $40K–$75K/year tuition. The Record can be exported, queried, and consumed by agents and school platforms as a trusted source of identity.
 
 ### Positioning
 
@@ -149,17 +149,17 @@ Grace-Mar is **identity infrastructure for the agent web**, not:
 
 *Design filter:* Does this serve identity, evidence, portability, or access? If not, it's out of scope. "Near zero cost" favors open-source and self-host over paid tiers.
 
-### 4.3 White Paper Focus: Alpha School Differentiation + Dual Positioning
+### 4.3 White Paper Focus: mastery-learning school Differentiation + Dual Positioning
 
 **The business plan and white paper should center on two positioning angles:**
 
-1. **Supplemental** — Grace-Mar works *alongside* Alpha (and similar AI schools). Alpha teaches; Grace-Mar records. The Record provides the identity, interest, and personality layer that Alpha's Incept engine can consume for personalization. School platform events feed the pipeline as evidence. The Record is the user-owned substrate; Alpha is one consumer. Integration, not competition.
+1. **Supplemental** — Grace-Mar works *alongside* AI school (and similar AI schools). AI school teaches; Grace-Mar records. The Record provides the identity, interest, and personality layer that An AI school's Incept engine can consume for personalization. School platform events feed the pipeline as evidence. The Record is the user-owned substrate; AI school is one consumer. Integration, not competition.
 
-2. **Low-cost open-source alternative** — Alpha tuition: $40K–$75K/year. Grace-Mar is open-source. Families who cannot afford Alpha can run Grace-Mar on their own: Record + Voice + pipeline + export. Use with Khan Academy, IXL, or any adaptive platform. Grace-Mar provides the identity architecture and evidence grounding; the family supplies the tools. Democratizes the cognitive-fork model for families outside elite private-school economics.
+2. **Low-cost open-source alternative** — AI school tuition: $40K–$75K/year. Grace-Mar is open-source. Families who cannot afford AI school can run Grace-Mar on their own: Record + Voice + pipeline + export. Use with Khan Academy, IXL, or any adaptive platform. Grace-Mar provides the identity architecture and evidence grounding; the family supplies the tools. Democratizes the cognitive-fork model for families outside elite private-school economics.
 
-**Differentiation table (Grace-Mar vs. Alpha):**
+**Differentiation table (Grace-Mar vs. AI school):**
 
-| Dimension | Alpha School | Grace-Mar |
+| Dimension | mastery-learning school | Grace-Mar |
 |-----------|--------------|-----------|
 | **Primary function** | Teach (AI tutor, adaptive apps, mastery) | Record (identity, evidence, archive) |
 | **Data ownership** | School/platform | User/family |
@@ -167,47 +167,47 @@ Grace-Mar is **identity infrastructure for the agent web**, not:
 | **Personality dimension** | Interest graph for content | IX-C: structured, evidence-linked, user-approved |
 | **Gate** | None — system auto-updates | User approves every merge |
 | **Knowledge boundary** | Incept generates; may infer | Only user-provided; no LLM leak |
-| **Portability** | Locked to Alpha platform | Export, open schema, agent-consumable |
+| **Portability** | Locked to AI school platform | Export, open schema, agent-consumable |
 | **Cost** | $40K–$75K/year | Open-source; self-host or low-cost hosted |
 | **Lifetime scope** | School years | Lifetime; cross-context; legacy shareable |
 
-**White paper narrative:** Alpha proves demand for AI-powered, mastery-based, interest-aligned learning. Grace-Mar addresses what Alpha does not: user-owned identity, evidence grounding, portability, and access. For Alpha families — add Grace-Mar as the Record layer. For everyone else — use Grace-Mar as the low-cost open-source core.
+**White paper narrative:** AI school proves demand for AI-powered, mastery-based, interest-aligned learning. Grace-Mar addresses what AI school does not: user-owned identity, evidence grounding, portability, and access. For AI-school families — add Grace-Mar as the Record layer. For everyone else — use Grace-Mar as the low-cost open-source core.
 
 ### 4.4 Moat
 
 | Moat | Description |
 |------|-------------|
-| **Evidence grounding** | Every claim traces to artifacts. Alpha and similar platforms use engagement metrics, not user-curated evidence. |
+| **Evidence grounding** | Every claim traces to artifacts. AI school and similar platforms use engagement metrics, not user-curated evidence. |
 | **Gate as trust boundary** | User sovereignty is architectural, not config. Schools auto-update; Grace-Mar never does. |
-| **Agent-native interface** | Record is structured for consumption; export, schema, manifest. Alpha's profile is proprietary. |
+| **Agent-native interface** | Record is structured for consumption; export, schema, manifest. An AI school's profile is proprietary. |
 | **Portable architecture** | Principles and schema can be adopted; Grace-Mar can be the reference implementation. |
 | **Open-source + low-cost** | No $40K+ tuition. Families, homeschoolers, and resource-constrained schools can adopt. |
 
-### 4.5 Motivation and Engagement (ACX / Alpha Insight)
+### 4.5 Motivation and Engagement (ACX / AI school Insight)
 
-Alpha's homeschool pilot: same platform, 1x results vs. 2.6x at full Alpha. Motivation (incentives, culture, guides) is the bottleneck, not content. Grace-Mar does not build incentive systems (bucks, store); we stay in the Record lane. But the Record *feeds* motivation: interests, curiosity, personality. Position the Record as **engagement substrate** — the structured input that tutors, platforms, and operators use to motivate. "We did X" is a lightweight motivation primitive: recognition, celebration, accountability. Evidence-grounding = confidence-grounding (artifacts → "you did this" → grounded self-view).
+An AI school's homeschool pilot: same platform, 1x results vs. 2.6x at full AI school. Motivation (incentives, culture, guides) is the bottleneck, not content. Grace-Mar does not build incentive systems (bucks, store); we stay in the Record lane. But the Record *feeds* motivation: interests, curiosity, personality. Position the Record as **engagement substrate** — the structured input that tutors, platforms, and operators use to motivate. "We did X" is a lightweight motivation primitive: recognition, celebration, accountability. Evidence-grounding = confidence-grounding (artifacts → "you did this" → grounded self-view).
 
 ### 4.6 Integration Surface
 
 Grace-Mar exposes:
-- **Identity export** — `export_user_identity.py` → `openclaw-user.md` or OpenClaw `SOUL.md` / `user.md` (and Alpha/Incept-compatible format); conceptually the **self** export.
+- **Identity export** — `export_user_identity.py` → `openclaw-user.md` or OpenClaw `SOUL.md` / `user.md` (and school platform-compatible format); conceptually the **self** export.
 - **Staging contract** — RECURSION-GATE format; agents may stage, never merge.
 - **Session continuity** — SESSION-LOG, RECURSION-GATE, EVIDENCE as startup checklist.
 - **Future: Agent manifest** — llms.txt-style discoverability: what's readable, writable, schema.
-- **Future: AI school integration** — Record feeds Incept/Alpha; school events stage to RECURSION-GATE.
+- **Future: AI school integration** — Record feeds school platform; school events stage to RECURSION-GATE.
 
 ---
 
 ## 5. White Paper Section Outlines
 
-*Focus: Differentiation with Alpha School; supplemental + low-cost open-source alternative.*
+*Focus: Differentiation with mastery-learning school; supplemental + low-cost open-source alternative.*
 
-### 5.1 The Rise of AI Schools (Alpha and the 2-Hour Learning Model)
+### 5.1 The Rise of AI Schools (AI school and the 2-Hour Learning Model)
 
-- Alpha School: AI tutor, mastery-based, interest-aligned, 99th percentile, $40K–$75K tuition.
+- mastery-learning school: AI tutor, mastery-based, interest-aligned, 99th percentile, $40K–$75K tuition.
 - Demand proven: personalized learning, zone of proximal development, motivation systems.
-- What Alpha does well: teaching, placement, content generation, tracking.
-- What Alpha does not provide: user-owned identity, evidence grounding, portability, low-cost access.
+- What AI school does well: teaching, placement, content generation, tracking.
+- What AI school does not provide: user-owned identity, evidence grounding, portability, low-cost access.
 
 ### 5.2 The Identity Gap
 
@@ -218,7 +218,7 @@ Grace-Mar exposes:
 
 ### 5.3 Grace-Mar: Supplemental and Alternative
 
-- **Supplemental:** Grace-Mar as identity layer for Alpha. Record feeds Incept; school events feed pipeline. User owns the Record; Alpha consumes it. Integration, not competition.
+- **Supplemental:** Grace-Mar as identity layer for AI school. Record feeds Incept; school events feed pipeline. User owns the Record; AI school consumes it. Integration, not competition.
 - **Low-cost alternative:** Open-source. Run Record + Voice + pipeline with Khan Academy, IXL, or any adaptive platform. Same identity architecture at $0 software cost. Democratizes the cognitive-fork model.
 
 ### 5.4 The Grace-Mar Model
@@ -228,7 +228,7 @@ Grace-Mar exposes:
 - Gated pipeline: capture → stage → approve → merge.
 - Evidence grounding: every claim traces to artifacts.
 
-### 5.5 Differentiation Table (vs. Alpha)
+### 5.5 Differentiation Table (vs. AI school)
 
 - Ownership, evidence source, gate, portability, cost, lifetime scope. (See §4.3.)
 
@@ -241,7 +241,7 @@ Grace-Mar exposes:
 
 ### 5.7 Integration and Ecosystem
 
-- Record as identity source (Alpha/Incept, OpenClaw, personal agents).
+- Record as identity source (school platform, OpenClaw, personal agents).
 - School events → staging → user approval → merge.
 - Future: API, SDK, agent manifest.
 
@@ -255,15 +255,15 @@ Grace-Mar exposes:
 
 ## 6. Business Proposal Angles
 
-*Center on: supplemental to Alpha + low-cost open-source alternative.*
+*Center on: supplemental to AI school + low-cost open-source alternative.*
 
-### 6.1 Supplemental (Alpha Families)
+### 6.1 Supplemental (AI-school families)
 
-- **Value:** Add user-owned Record layer to Alpha (or similar AI school). Record feeds Incept for personalization; school events feed pipeline. Family owns identity; school consumes it.
-- **Use case:** Operator (e.g. Alpha parent) wants portable, evidence-grounded Record; wants to approve what enters.
-- **Monetization:** Integration license to Alpha; or subscription for Record hosting + export to Alpha-compatible format.
+- **Value:** Add user-owned Record layer to AI school (or similar AI school). Record feeds Incept for personalization; school events feed pipeline. Family owns identity; school consumes it.
+- **Use case:** Operator (e.g. AI-school family) wants portable, evidence-grounded Record; wants to approve what enters.
+- **Monetization:** Integration license to AI school; or subscription for Record hosting + export to school-compatible format.
 
-### 6.2 Low-Cost Open-Source Alternative (Families Outside Alpha Economics)
+### 6.2 Low-Cost Open-Source Alternative (Families Outside AI school Economics)
 
 - **Value:** Same identity architecture at $0 software cost. Run Grace-Mar with Khan Academy, IXL, Trilogy, or any adaptive platform. Homeschoolers, public-school families, resource-constrained schools.
 - **Use case:** Family wants cognitive fork, evidence grounding, Voice — cannot afford $40K–$75K/year.
@@ -271,7 +271,7 @@ Grace-Mar exposes:
 
 ### 6.3 B2B (AI School Platforms)
 
-- **Value:** Identity substrate for Alpha, and future AI schools. Record schema + export + staging contract.
+- **Value:** Identity substrate for AI school, and future AI schools. Record schema + export + staging contract.
 - **Use case:** School integrates Grace-Mar as identity layer; events stage to RECURSION-GATE; family approves.
 - **Monetization:** Platform license, API fees, white-label.
 
@@ -289,7 +289,7 @@ Grace-Mar exposes:
 
 ---
 
-## 7. Development Roadmap Additions (ACX / Alpha Insight)
+## 7. Development Roadmap Additions (ACX / AI school Insight)
 
 | Priority | Item |
 |----------|------|
@@ -299,7 +299,7 @@ Grace-Mar exposes:
 | 4 | Session continuity + RECURSION-GATE as lightweight accountability for homeschool (review prompts, "we did X" reminders) |
 | 5 | Explicit "evidence-grounding = confidence-grounding" in CONCEPTUAL-FRAMEWORK (done) |
 
-**Design target:** Homeschool is the primary gap (Alpha homeschool = 1x). Grace-Mar + Khan/IXL + lightweight structure = low-cost alternative. Record feeds motivation; "we did X" provides ritual.
+**Design target:** Homeschool is the primary gap (AI school homeschool = 1x). Grace-Mar + Khan/IXL + lightweight structure = low-cost alternative. Record feeds motivation; "we did X" provides ritual.
 
 **WORK module:** Third SKILLS module (making, planning, execution, exchange, creation, exploration). Folds in former BUSINESS and IMAGINE. Internal identifier: BUILD container. Each module is an objective-topic-specialized sub-agent (teacher/tutor, evaluator, record keeper). Starts from zero; grows with pipeline input (human-gated). Supports zero-human business vision. See SKILLS-TEMPLATE, ARCHITECTURE.
 
@@ -339,9 +339,9 @@ Grace-Mar exposes:
 | [OPENCLAW-INTEGRATION](openclaw-integration.md) | Integration patterns, staging contract |
 | [COMPETITIVE-ANALYSIS](competitive-analysis.md) | Market landscape |
 | [DIFFERENTIATION](differentiation.md) | Competitive moats |
-| [MARKET-RESEARCH-ALPHA-KHAN](market-research-alpha-khan.md) | Deep research: Alpha alternatives, Khan Academy, cost comparison |
-| [Alpha School](https://alpha.school/) | AI school reference; 2-hour learning, Incept, Trilogy |
-| [ACX: Your Review — Alpha School](https://www.astralcodexten.com/p/your-review-alpha-school) | Incentives as bottleneck; homeschool gap; platform vs. bundle |
+| [K12-MARKET-RESEARCH-2026](k12-market-research-2026.md) | Deep research: AI school alternatives, Khan Academy, cost comparison |
+| [mastery-learning school](https://AI school.school/) | mastery-learning reference; 2-hour learning, Incept, Trilogy |
+| [ACX: Your Review — mastery-learning school](https://www.astralcodexten.com/p/your-review-mastery-learning) | Incentives as bottleneck; homeschool gap; platform vs. bundle |
 
 ---
 
@@ -555,7 +555,7 @@ Before approve or before a big agent run, answer briefly:
 | Productivity gains bounded by that team | Order-of-magnitude expansion of what's automatable |
 | Tool improves people who use it | Infrastructure changes what systems can build |
 
-**Grace-Mar application:** 30% = Record as operator dashboard or journal. 300% = Record as identity substrate for Alpha, Khan, OpenClaw, future agents — exported, queried, consumed. Position for 300%.
+**Grace-Mar application:** 30% = Record as operator dashboard or journal. 300% = Record as identity substrate for AI school, Khan, OpenClaw, future agents — exported, queried, consumed. Position for 300%.
 
 ### 12.4 Five Audit Questions (Adapted for Identity)
 

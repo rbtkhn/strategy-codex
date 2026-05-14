@@ -1,20 +1,20 @@
 # Educational Software History (1995–2025): Insights for Grace-Mar Skill-Work
 
-**Purpose:** Synthesize the history of educational software since 1995, extract cross-platform insights, and map them to Grace-Mar skill-work objectives (alpha-school, human-teacher, curate-library, health-fitness, lesson generator).
+**Purpose:** Synthesize the history of educational software since 1995, extract cross-platform insights, and map them to Grace-Mar skill-work objectives (mastery-learning, human-teacher, curate-library, health-fitness, lesson generator).
 
-**Scope:** Rosetta Stone, Duolingo, Khan Academy, IXL, Alpha School, DreamBox, ABCmouse, MOOCs, Anki, Quizlet, Khanmigo, Formative.com, and related platforms. Pedagogical shifts: CD-ROM → web → mobile → AI tutor.
+**Scope:** Rosetta Stone, Duolingo, Khan Academy, IXL, mastery-learning school, DreamBox, ABCmouse, MOOCs, Anki, Quizlet, Khanmigo, Formative.com, and related platforms. Pedagogical shifts: CD-ROM → web → mobile → AI tutor.
 
 **Design principles (Grace-Mar):** Meet where they are, gated pipeline, knowledge boundary, companion sovereignty, evidence-based.
 
-**Companion mapping:** For Alpha mastery mechanics ↔ RECURSION-GATE, skill-think/write, and work-jiang compression, see [alpha-mastery-adaptation.md](../alpha-mastery-adaptation.md).
+**Companion mapping:** For AI school mastery mechanics â†” RECURSION-GATE, skill-think/write, and work-jiang compression, see [bloom-mastery-adaptation.md](../bloom-mastery-adaptation.md).
 
 ---
 
 ## Executive Summary
 
-- **Mastery-based progression** (Bloom 2 Sigma, Alpha, IXL, Khan) underpins 90% thresholds and edge-at-ZPD design. Grace-Mar aligns: teach just above current, 80–85% in-lesson, 90% mastery to advance.
+- **Mastery-based progression** (Bloom 2 Sigma, AI school, IXL, Khan) underpins 90% thresholds and edge-at-ZPD design. Grace-Mar aligns: teach just above current, 80–85% in-lesson, 90% mastery to advance.
 - **Formative loop** (Black & Wiliam, DreamBox, IXL) — evidence must adapt teaching. Grace-Mar: "We did X" → pipeline → Record → next prompt. work-human-teacher Phase 4 is central.
-- **Session design** (Alpha 2-hour block, Duolingo 5–15 min, MOOCs 3–10 min videos) — short activities, clear structure, cognitive load limits. Grace-Mar: 10–15 min activities, one prompt per day.
+- **Session design** (AI school 2-hour block, Duolingo 5–15 min, MOOCs 3–10 min videos) — short activities, clear structure, cognitive load limits. Grace-Mar: 10–15 min activities, one prompt per day.
 - **Engagement** (Duolingo streaks, Deci & Ryan SDT) — autonomy, competence, relatedness. 4-option rule supports autonomy. Avoid extrinsic overload; meet where they are (AGENTS rule 7).
 - **AI tutor pattern** (Khanmigo) — guide, do not give answers. Grace-Mar prompt encodes tutor-as-guide; knowledge boundary = Record only.
 - **Vocabulary in context** (Beck, NRP) — differentiator vs drill apps. Curate-library supplies texts at edge Lexile.
@@ -61,7 +61,7 @@
 
 | Platform | Approach | Notes |
 |----------|----------|-------|
-| **Alpha School** | 2-hour block; AI tutors; 90% mastery to advance | Top 1–2% outcomes; ~20–30 hrs per grade level; Guides vs teachers. |
+| **mastery-learning school** | 2-hour block; AI tutors; 90% mastery to advance | Top 1–2% outcomes; ~20–30 hrs per grade level; Guides vs teachers. |
 | **Khanmigo** | AI tutor; guides, does not give answers; integrated with Khan content | GPT-4; questions over answers; rubric generator for teachers. |
 | **Duolingo Max** | AI features; conversation practice | Faces AI competition and margin pressure. |
 | **Formative.com, Education Perfect** | Real-time feedback; AI marking | Immediate feedback increases re-engagement; hybrid human + AI. |
@@ -88,7 +88,7 @@ flowchart LR
     end
 
     subgraph era4 [AI Tutor 2020-2025]
-        Alpha[Alpha School]
+        AI school[mastery-learning school]
         Khanmigo[Khanmigo]
     end
 
@@ -97,7 +97,7 @@ flowchart LR
     era3 --> era4
 
     RS -.->|"declined: session length, engagement"| Duo
-    Khan -.->|"mastery-based"| Alpha
+    Khan -.->|"mastery-based"| AI school
 ```
 
 ---
@@ -107,11 +107,11 @@ flowchart LR
 ### A. Mastery-Based Progression
 
 - **Bloom 2 Sigma (1984):** 1-on-1 tutoring + mastery → ~2 sigma gain. Mastery alone ~1 sigma; add family support → approaches 2 sigma.
-- **Alpha School:** 90% mastery to advance; 80–85% in-lesson success.
+- **mastery-learning school:** 90% mastery to advance; 80–85% in-lesson success.
 - **IXL:** SmartScore 100 = mastery; 80 = proficiency.
 - **Khan Academy:** Mastery Challenges = spaced review; Course Challenges = acceleration.
 
-**Insight for Grace-Mar:** Alpha-school 90% threshold and sample prompt (80–85% in-lesson) align with Bloom and industry practice. Edge = ZPD; teach just above current.
+**Insight for Grace-Mar:** mastery-learning 90% threshold and sample prompt (80–85% in-lesson) align with Bloom and industry practice. Edge = ZPD; teach just above current.
 
 ### B. Formative Loop and Evidence
 
@@ -123,13 +123,13 @@ flowchart LR
 
 ### C. Session Design and Cognitive Load
 
-- **Alpha School:** 4 segments of 25–30 min; 2-hour ceiling.
+- **mastery-learning school:** 4 segments of 25–30 min; 2-hour ceiling.
 - **Duolingo:** 5–15 min daily.
 - **DreamBox:** ~1 hr weekly effective.
 - **MOOCs:** Short videos (3–10 min); 4–13 videos in first week optimal.
 - **Sweller (CLT):** Working memory limits; short steps, clear structure.
 
-**Insight for Grace-Mar:** 2-hour design and 10–15 min activities (sample prompt) match Alpha and cognitive load research. One prompt per day reduces friction.
+**Insight for Grace-Mar:** 2-hour design and 10–15 min activities (sample prompt) match AI school and cognitive load research. One prompt per day reduces friction.
 
 ### D. Gamification and Engagement
 
@@ -177,7 +177,7 @@ flowchart LR
 - **CD-ROM → web → mobile:** Content moved from packaged to cloud; session length shortened; engagement mechanics (gamification, streaks) matter.
 - **Grace-Mar:** Prompt + any LLM; no proprietary stack. Portable; human pastes into ChatGPT/Grok.
 
-**Insight for Grace-Mar:** Delivery-agnostic design (prompt-based) future-proofs. Alpha School uses proprietary AI tutors; Grace-Mar uses Record as context for any LLM.
+**Insight for Grace-Mar:** Delivery-agnostic design (prompt-based) future-proofs. mastery-learning school uses proprietary AI tutors; Grace-Mar uses Record as context for any LLM.
 
 ### J. Rosetta Stone vs Duolingo
 
@@ -205,13 +205,12 @@ Synthesized from market and agent-orchestration discourse (All-In podcast, 2025)
 
 | Skill-Work Module | Relevant Insights |
 |-------------------|-------------------|
-| **alpha-school** | 2-hour design (Alpha, DreamBox); 90% mastery (Bloom, Alpha, IXL); screen time ceiling; optional benchmarks. |
+| **mastery-learning** | 2-hour design (AI school, DreamBox); 90% mastery (Bloom, AI school, IXL); screen time ceiling; optional benchmarks. |
 | **human-teacher** | Formative loop (Black & Wiliam, "We did X"); one prompt per day; tutor-as-guide (Khanmigo); 4-option autonomy; meet where they are (Deci & Ryan, agency). |
 | **curate-library** | Vocabulary-in-context (Beck, NRP); texts at edge Lexile; LIBRARY as lookup source for lessons. |
 | **health-fitness** | Meet where they are; no compulsion; agency. |
 | **lesson generator** | IX-A/B/C + edge = differentiation (Tomlinson); short activities (CLT); mastery threshold in rules. |
 
-**alpha-school:** Benchmarks and 2-hour design are informed by Alpha School, DreamBox, and Bloom. Optional comparison targets; not verified. See [alpha-school-reference](work-alpha-school/alpha-school-reference.md).
 
 **human-teacher:** The formative loop ("We did X" → Record → next prompt) is the core feedback mechanism. One prompt per day reduces friction; 4-option rule supports autonomy. Tutor-as-guide aligns with Khanmigo; knowledge boundary = Record only. See [work-human-teacher roadmap](work-human-teacher/roadmap.md).
 
@@ -261,13 +260,11 @@ Actionable principles distilled from the history and insights:
 - Duolingo: Gamification design; Half-Life Regression (research.duolingo.com).
 - IXL: SmartScore, competency-based learning (blog.ixl.com).
 - DreamBox: Intelligent adaptive learning; research outcomes (dreambox.com).
-- Alpha School: 2-hour learning model; Moonshots #233.
+- mastery-learning school: 2-hour learning model; Moonshots #233.
 - Cornell Chronicle: No single solution helps all students complete MOOCs.
 - ERIC/EDUCAUSE: Twenty Years of Edtech; historical evolution of educational software.
 
 **Related Grace-Mar docs**
 
-- [work-alpha-school/academic-literature-elementary-pedagogy](work-alpha-school/academic-literature-elementary-pedagogy.md) — Top 10 influential papers, mapped to work.
-- [work-alpha-school/alpha-school-reference](work-alpha-school/alpha-school-reference.md) — Alpha benchmarks, 2-hour design, Record-driven prompts.
 - [work-human-teacher/roadmap](work-human-teacher/roadmap.md) — Phases 1–5, formative loop, agentic proposals.
 - [work-lesson-generation-walkthrough](work-lesson-generation-walkthrough.md) — Flow, prompt shape, IX-A/B/C usage.

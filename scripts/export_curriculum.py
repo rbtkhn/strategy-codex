@@ -10,13 +10,11 @@ Provides a snapshot for homeschool bots, Glide/Zapier stacks, Khan, IXL, etc.:
 Usage:
     python scripts/export_curriculum.py -u grace-mar
     python scripts/export_curriculum.py -u grace-mar -o ../curriculum-stack/
-    python scripts/export_curriculum.py -u grace-mar --audience alpha-school  # add alpha-school context
 """
 
 import argparse
 import json
 import re
-import sys
 from datetime import datetime
 from pathlib import Path
 
@@ -134,16 +132,6 @@ def _library_titles(library_content: str, limit: int = 15) -> list[dict]:
     return entries
 
 
-def _load_alpha_school_context() -> dict | None:
-    """Load alpha-school target market, success metrics, and design params for alpha-school audience."""
-    sys.path.insert(0, str(REPO_ROOT / "scripts"))
-    try:
-        from load_alpha_school_benchmarks import load_alpha_school_benchmarks
-        return load_alpha_school_benchmarks()
-    except ImportError:
-        return None
-
-
 def export_curriculum(
     user_id: str = "grace-mar",
     audience: str | None = None,
@@ -161,7 +149,6 @@ def export_curriculum(
             profile_dir / "skill-steward.md",
         ]
     )
-    work_content = _read(profile_dir / "work-alpha-school.md")
     evidence_content = _read(profile_dir / "self-archive.md")
     library_content = _read(profile_dir / "self-library.md")
 
@@ -188,7 +175,6 @@ def export_curriculum(
     lexile = _extract_lexile(self_content)
     access_needs = _extract_access_needs(self_content, lexile)
     skills_edge = _extract_skills_edge(skills_content)
-    work_edge = _extract_skills_edge(work_content).get("work")
     evidence_anchors = _evidence_anchors(evidence_content)
     library = _library_titles(library_content)
 
@@ -206,21 +192,11 @@ def export_curriculum(
         "curiosity": ix["ix_b"],
         "personality": ix["ix_c"][:10],
         "skills_edge": skills_edge,
-        "work_context_edge": work_edge,
+        "work_context_edge": None,
         "interests": interests,
         "evidence_anchors": evidence_anchors,
         "library": library,
     }
-
-    if audience == "alpha-school":
-        alpha = _load_alpha_school_context()
-        if alpha:
-            data["alpha_school_context"] = {
-                "target_market": alpha.get("target_market", []),
-                "success_metrics": alpha.get("success_metrics", []),
-                "screen_time_target_minutes": alpha.get("screen_time_target_minutes", 120),
-                "value_creation_description": alpha.get("value_creation_description"),
-            }
 
     return data
 
@@ -230,8 +206,8 @@ def main() -> None:
         description="Export Record to curriculum-oriented JSON for adaptive curriculum engines"
     )
     parser.add_argument("--user", "-u", default="grace-mar", help="User id")
-    parser.add_argument("--output", "-o", default=None, help="Output directory (default: users/[id]/)")
-    parser.add_argument("--audience", "-a", default=None, help="Audience: alpha-school (add target_market, success_metrics, screen_time_target)")
+    parser.add_argument("--output", "-o", default=None, help="Output directory (default: )")
+    parser.add_argument("--audience", "-a", default=None, help="Optional export audience label")
     args = parser.parse_args()
 
     data = export_curriculum(user_id=args.user, audience=args.audience)

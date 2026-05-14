@@ -2,7 +2,7 @@
 """
 Generate homeschool curriculum: HTML modules (with optional quiz links) + optional PDF.
 
-Uses Record (IX-B curiosity, IX-A knowledge) and load_alpha_school_benchmarks for structure.
+Uses Record (IX-B curiosity and IX-A knowledge) for structure.
 Output: curriculum/ directory with index.html and module-*.html; optional curriculum.pdf via Pandoc.
 
 Usage:
