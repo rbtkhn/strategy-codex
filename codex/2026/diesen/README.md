@@ -11,6 +11,7 @@
 - Transcript compatibility file: [diesen-transcript.md](diesen-transcript.md)
 - Speaker arc: [diesen-crooke-speaker-arc.md](diesen-crooke-speaker-arc.md)
 - Speaker arc: [diesen-johnson-speaker-arc.md](diesen-johnson-speaker-arc.md)
+- Speaker arc: [diesen-marandi-speaker-arc.md](diesen-marandi-speaker-arc.md)
 - Speaker arc: [diesen-baud-speaker-arc.md](diesen-baud-speaker-arc.md)
 - Speaker arc: [diesen-wilkerson-speaker-arc.md](diesen-wilkerson-speaker-arc.md)
 
