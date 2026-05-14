@@ -16,6 +16,12 @@ Kleiber Conductor Action Menu -> D. Finale: Run composition benchmark
 
 Coffee may route to Kleiber, and dream may carry forward eligible results, but neither runs benchmarks directly.
 
+For session-level evaluation of whether the AI loop improved creative agency rather than merely producing a polished artifact, use:
+
+```text
+docs/skill-work/work-strategy/dopamine-flow-agency-benchmark.md
+```
+
 ## Suggested Layout
 
 ```text

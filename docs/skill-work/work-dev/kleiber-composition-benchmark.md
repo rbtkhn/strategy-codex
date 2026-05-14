@@ -45,7 +45,7 @@ Every run should record:
 |-------|-------------|
 | `benchmark_id` | One of `task-4`, `task-6`, `task-10`, `cm-1-humanoid-robots`, `cm-2-dopamine-flow-ai-creation` |
 | `prompt_version` | Use `composition-benchmark-v1` plus task-specific ID |
-| `rubric_version` | Use `composition-rubric-v1` or `cm-1-rubric-v1` |
+| `rubric_version` | Use `composition-rubric-v1`, `cm-1-rubric-v1`, or `cm-2-rubric-v2` |
 | `model` | Public model name as displayed by the provider |
 | `provider` | Model provider |
 | `model_version` | Exact version or release label when available |
@@ -160,6 +160,8 @@ Write the full strategy-page now.
 
 **Secondary target:** `strategy-chapter` or short `strategy-book` synthesis
 
+**Benchmark intent:** CM-2 is a writing benchmark, not a session-agency benchmark. It tests whether the model can produce public-facing strategic prose about dopamine, flow, judgment, and AI-assisted creation while preserving source limits, tension, historical-pattern discipline, and a concrete counter-practice. For the separate question of whether an AI interaction improved the operator's creative agency, use `docs/skill-work/work-strategy/dopamine-flow-agency-benchmark.md`.
+
 ```prompt
 You are operating inside a governed strategy writing system. Write a complete strategy-page on the following topic.
 
@@ -168,12 +170,15 @@ Topic: The intense dopamine feedback loops created by AI tools in creative and s
 Requirements:
 - Use historical-pattern reasoning as a mechanism, not decoration.
 - Do not use backend jargon such as civ-mem, WORK, Record, raw-input, source_mode, or strategy-codex in the body prose.
+- Use one coherent historical-pattern family as the main mechanism. Supporting examples are allowed, but they must not replace the main analogy.
 - Explicitly perform the historical-pattern sequence in public-facing prose:
   1. State the historical or civilizational pattern or precedent.
   2. Explain why it appears to fit the current AI-augmented workflow situation.
   3. Explain where and why it may not fit under changed technological conditions.
   4. State what would falsify the analogy.
   5. Show how this analysis changes or sharpens the strategic prediction.
+- Name the counter-practice implied by the analysis. It should be concrete enough that a creator, team, or evaluator could try it in a workflow.
+- Do not imply that a polished AI-generated artifact proves improved human agency. Keep composition quality separate from claims about the user's judgment, autonomy, or long-term creative flourishing.
 
 Follow the official strategy-page template:
 - Signal
@@ -186,6 +191,7 @@ Style rules:
 - Because this is prompt-only, do not invent verbatim quotes. Use prompt premises and clearly separate empirical-style claims from interpretation.
 - Label analogy strength clearly: illustrative, mechanistic, or strong parallel.
 - Preserve live tensions; do not resolve the dopamine/flow dilemma with easy optimism or pessimism.
+- Keep the public prose forceful but non-hypey: no generic "AI will transform creativity" conclusion unless the preceding analysis earns it.
 - Maximum 650 words.
 
 Write the full strategy-page now.
@@ -226,6 +232,8 @@ Score each dimension from 1 to 5. Each score must include a one-sentence rationa
 
 ## CM-2 Historical-Pattern Rubric
 
+Use `cm-2-rubric-v2` for new CM-2 runs. Older runs may remain on `cm-2-rubric-v1` if their metadata already records that version.
+
 | Dimension | 5 | 3 | 1 |
 |-----------|---|---|---|
 | Template discipline | Uses Signal / Judgment / Prediction cleanly | Uses most required sections | Ignores or distorts template |
@@ -234,6 +242,18 @@ Score each dimension from 1 to 5. Each score must include a one-sentence rationa
 | Falsifier quality | Concrete, testable falsifier | Vague falsifier | No meaningful falsifier |
 | Tension preservation | Holds dopamine benefit vs. judgment risk honestly | Mildly acknowledges tension | Forces easy resolution |
 | Strategic prediction quality | Actionable prediction and revisit discipline | General advice | Vague or preachy |
+| Counter-practice architecture | Names a concrete workflow counter-practice and shows why it follows from the analogy | Names a general remedy | No practical counter-practice |
+| Agency boundary discipline | Keeps artifact quality separate from claims about human agency and judgment improvement | Boundary is implied but not explicit | Treats polish or output volume as proof of agency |
+
+### CM-2 shape checks
+
+Before scoring a CM-2 run `Held`, verify:
+
+- the body uses one main historical-pattern family, not a decorative list of unrelated precedents
+- the counter-practice is named and operational enough to be tried
+- the prediction / falsifier / revisit tests the judgment pattern, not only output volume
+- source-mode limits remain visible when the run is `prompt_only`
+- the run does not confuse composition quality with the session-level agency benchmark
 
 ## Closeout Mapping
 
