@@ -10,6 +10,8 @@ The Wilkerson helix is currently a **double helix**: one imperial-decline and mi
 
 These arcs should be read together because they are not merely repeated appearances, but two distinct host transformations of the same underlying voice. Read together, they show more of Wilkerson's usable range than either lane can carry alone, even though a Davis strand is absent in fresh live search.
 
+This two-strand structure is not just a 2026 shelf artifact. The same `Diesen + Dialogue Works` pairing is already materially real in 2025, so the better cross-year reading is stable double-helix continuity rather than an object waiting to become something else.
+
 ## The two strands
 
 | Host lane | Distinct register | What it reveals best |
@@ -45,3 +47,7 @@ Use this helix note when the notebook is doing one or more of the following:
 - Do not quietly promote this to a three-strand object while `Davis x Wilkerson` remains absent in fresh live search.
 - This note is not a generic Wilkerson profile; it is a host-transformation note.
 - Prefer the host-local arc when the task is stream-specific; use the helix when the task is comparative.
+
+## Phase note
+
+This helix is not year-segmented. For the cross-year clarification that Wilkerson remains a strong **double helix across both 2025 and 2026**, see [wilkerson-cross-year-note.md](/C:/dev/strategy-codex/codex/2026/supporting-voices/wilkerson/wilkerson-cross-year-note.md).
