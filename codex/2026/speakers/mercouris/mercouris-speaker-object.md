@@ -2,6 +2,8 @@
 
 WORK only; not Record.
 
+object_shape: stream-native
+
 Purpose: define Mercouris as a first-class speaker object without forcing him into the wrong shape. Unlike Crooke or Ritter, whose most useful speaker notes are cross-host helixes, Mercouris is primarily a stream-anchored speaker object whose main body already exists as the native [mercouris cognition stream](/C:/dev/strategy-codex/codex/2026/mercouris/README.md).
 
 ## Core claim
@@ -33,7 +35,7 @@ This is a different kind of strength from broad helix spread. It is a depth-firs
 
 ## Object shape
 
-Mercouris should currently be read as a **single-helix or stream-native speaker object** whose primary utility comes from one very thick host-native lane.
+Mercouris should currently be read as a **stream-native speaker object** whose primary utility comes from one very thick host-native lane. He has a single-helix quality because one host-native lane carries unusual depth, but the declared object shape is stream-native rather than a separate helix classification.
 
 That is not a lesser classification. Single, double, and triple speaker-helixes each have inherent utility. Mercouris's value presently lies in:
 

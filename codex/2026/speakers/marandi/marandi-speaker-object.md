@@ -2,6 +2,8 @@
 
 WORK only; not Record.
 
+object_shape: triple-helix
+
 Purpose: define Marandi as a first-class speaker object in a way that sits above the host-local arcs without flattening them. Unlike Mercouris, whose main body is a native cognition stream, Marandi is best read as a **helix-first speaker object**: his importance becomes most legible when multiple host transformations are read together.
 
 ## Core claim

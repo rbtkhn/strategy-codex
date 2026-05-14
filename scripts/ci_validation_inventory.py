@@ -74,6 +74,10 @@ def _argv_seed_phase_template(_user: str) -> list[str]:
     return ["_template/seed-phase", "--allow-placeholders"]
 
 
+def _argv_validate_speaker_objects(_user: str) -> list[str]:
+    return []
+
+
 ALL_CHECKS: tuple[CheckSpec, ...] = (
     CheckSpec(
         id="assert_canonical_paths",
@@ -197,6 +201,16 @@ ALL_CHECKS: tuple[CheckSpec, ...] = (
         timeout_sec=180.0,
         ci_source="",
     ),
+    CheckSpec(
+        id="validate_speaker_objects",
+        label="Speaker-object routing notes",
+        script_relpath="scripts/validate_speaker_objects.py",
+        argv_builder=_argv_validate_speaker_objects,
+        user_scope="ignored",
+        groups=frozenset({"experimental"}),
+        timeout_sec=60.0,
+        ci_source="",
+    ),
 )
 
 
@@ -233,7 +247,7 @@ def checks_for_group(group: str) -> list[CheckSpec]:
     if g == "expensive":
         return [by_id["measure_uniqueness"]]
     if g == "experimental":
-        order = ["validate_skills", "validate_seed_phase_template"]
+        order = ["validate_skills", "validate_seed_phase_template", "validate_speaker_objects"]
         return [by_id[i] for i in order]
     out = [c for c in ALL_CHECKS if g in c.groups]
     return sorted(out, key=lambda x: x.id)
