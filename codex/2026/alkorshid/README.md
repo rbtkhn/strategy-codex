@@ -12,6 +12,7 @@
   - [alkorshid-johnson-speaker-arc.md](alkorshid-johnson-speaker-arc.md)
   - [alkorshid-freeman-speaker-arc.md](alkorshid-freeman-speaker-arc.md)
   - [alkorshid-marandi-speaker-arc.md](alkorshid-marandi-speaker-arc.md)
+  - [alkorshid-postol-speaker-arc.md](alkorshid-postol-speaker-arc.md)
   - [alkorshid-ritter-speaker-arc.md](alkorshid-ritter-speaker-arc.md)
   - [alkorshid-baud-speaker-arc.md](alkorshid-baud-speaker-arc.md)
   - [alkorshid-wilkerson-speaker-arc.md](alkorshid-wilkerson-speaker-arc.md)

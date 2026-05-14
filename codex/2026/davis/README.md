@@ -17,6 +17,7 @@
 - Speaker arc: [davis-johnson-speaker-arc.md](davis-johnson-speaker-arc.md)
 - Speaker arc: [davis-marandi-speaker-arc.md](davis-marandi-speaker-arc.md)
 - Speaker arc: [davis-mearsheimer-speaker-arc.md](davis-mearsheimer-speaker-arc.md)
+- Speaker arc: [davis-postol-speaker-arc.md](davis-postol-speaker-arc.md)
 - Speaker arc: [davis-ritter-speaker-arc.md](davis-ritter-speaker-arc.md)
 - Refined page: [davis-page-2026-04-17-pool-vs-truth-social-dual-register.md](davis-page-2026-04-17-pool-vs-truth-social-dual-register.md)
 - Source-hygiene note: [davis-source-hygiene-2026-04-17-us-executive-dual-register.md](davis-source-hygiene-2026-04-17-us-executive-dual-register.md)
