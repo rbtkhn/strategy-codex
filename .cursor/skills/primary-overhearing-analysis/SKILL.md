@@ -63,7 +63,7 @@ Use for **public symbolic events**: papal or other religious leaders’ trips, m
 ## Related (optional handoffs)
 
 - **fact-check** — When claims about what was said or signed need web verification.
-- **skill-strategy** — When the operator wants the same insight folded into strategy-notebook judgment with civ-mem grounding.
+- **skill-strategy** — When the operator wants the same insight folded into strategy-codex judgment with civ-mem grounding.
 
 
 ## Cursor / grace-mar instance
@@ -75,6 +75,6 @@ Grace-mar paths (from `.cursor/skills/primary-overhearing-analysis/`).
 | Portable core | [skills-portable/primary-overhearing-analysis/SKILL.md](../../../skills-portable/primary-overhearing-analysis/SKILL.md) |
 | Manifest | [skills-portable/manifest.yaml](../../../skills-portable/manifest.yaml) |
 | Sync | [scripts/sync_portable_skills.py](../../../scripts/sync_portable_skills.py) |
-| Strategy notebook (optional weave) | [docs/skill-work/work-strategy/strategy-notebook/STRATEGY-NOTEBOOK-ARCHITECTURE.md](../../../docs/skill-work/work-strategy/strategy-notebook/STRATEGY-NOTEBOOK-ARCHITECTURE.md) |
+| Strategy-codex architecture (optional weave) | [codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md](../../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md) |
 
 **Instance note:** Vatican or state **primary** sources (e.g. press.vatican.va) beat unattributed recap for quotes and dates when the operator wants verification.
