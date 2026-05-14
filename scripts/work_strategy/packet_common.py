@@ -39,10 +39,16 @@ def is_forbidden_record_path(path: Path, repo_root: Path) -> bool:
     except ValueError:
         return False
     rel_s = rel.as_posix()
+    if rel_s.startswith("runtime/work-strategy/"):
+        return False
+    if rel_s.startswith((".codex-test-temp/", ".codex-tmp/", ".pytest-temp/", ".tmp-pytest-")):
+        return False
+    if rel_s.startswith("_pytest_basetemp/"):
+        return False
     forbidden_exact = {"bot/prompt.py", "bot/bot.py", "bot/wechat_bot.py"}
     if rel_s in forbidden_exact:
         return True
-    return False
+    return True
 
 
 def is_text_like(path: Path) -> bool:

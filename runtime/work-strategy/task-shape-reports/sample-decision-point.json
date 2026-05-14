@@ -1,0 +1,39 @@
+{
+  "schema_version": "work-strategy-task-shape-report.v1",
+  "run_id": "sample-decision-point",
+  "created_at": "2026-01-01T00:00:00+00:00",
+  "lane": "work-strategy",
+  "input": {
+    "task_path": "examples/work-strategy/task-shapes/sample-decision-point.md",
+    "inline_text_provided": false,
+    "source_paths": [],
+    "config_path": "config/work_strategy_task_shapes.yaml"
+  },
+  "classification": {
+    "primary_shape": "decision_point",
+    "confidence": "high",
+    "matched_signals": [
+      "decision"
+    ],
+    "secondary_candidates": [],
+    "notes": "Sample task-shape fixture for review-packet tests."
+  },
+  "shape_contract": {
+    "required_inputs": [
+      "task"
+    ],
+    "expected_outputs": [
+      "decision",
+      "rationale"
+    ],
+    "validator_emphasis": [
+      "reviewability"
+    ],
+    "review_posture": "standard"
+  },
+  "record_boundary": {
+    "canonical_paths_written": [],
+    "canonical_write_violation": false,
+    "notes": "Sample WORK task-shape report; not Record."
+  }
+}

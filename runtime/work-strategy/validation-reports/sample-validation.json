@@ -1,0 +1,56 @@
+{
+  "schema_version": "work-strategy-validation-report.v1",
+  "run_id": "sample-validation",
+  "created_at": "2026-01-01T00:00:00+00:00",
+  "lane": "work-strategy",
+  "target": {
+    "task": "examples/work-strategy/carry-harness/sample-task.md",
+    "sources": [],
+    "artifacts": [
+      "examples/work-strategy/carry-harness/sample-artifact.md"
+    ],
+    "gate_snippet": null,
+    "validation_out": "runtime/work-strategy/validation-reports/sample-validation.json"
+  },
+  "validators": [
+    {
+      "id": "unresolved_marker_scan",
+      "label": "Unresolved marker scan",
+      "status": "pass",
+      "details": "",
+      "subject_paths": [
+        "examples/work-strategy/carry-harness/sample-artifact.md"
+      ]
+    },
+    {
+      "id": "contradiction_marker_scan",
+      "label": "Contradiction marker scan",
+      "status": "pass",
+      "details": "",
+      "subject_paths": [
+        "examples/work-strategy/carry-harness/sample-artifact.md"
+      ]
+    },
+    {
+      "id": "task_shape_expectations",
+      "label": "Task-shape expectations",
+      "status": "pass",
+      "details": "",
+      "subject_paths": [
+        "examples/work-strategy/carry-harness/sample-task.md"
+      ]
+    }
+  ],
+  "summary": {
+    "status": "pass",
+    "passed": 3,
+    "failed": 0,
+    "needs_review": 0,
+    "notes": "Sample validation fixture for review-packet tests."
+  },
+  "record_boundary": {
+    "canonical_paths_written": [],
+    "canonical_write_violation": false,
+    "notes": "Sample WORK validation report; not Record."
+  }
+}

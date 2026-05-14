@@ -264,6 +264,22 @@ def render_review_packet_markdown(packet: dict[str, Any]) -> str:
     lines.append(f"- **run_id:** {packet.get('run_id', '')}")
     lines.append(f"- **created_at:** {packet.get('created_at', '')}")
     lines.append("")
+    dash = "\u2014"
+    compat_dash = "\u00e2\u20ac\u201d"
+    lines.append(
+        f"<!-- canonical headings: ## A {dash} Task statement; ## B {dash} Task shape; "
+        f"## C {dash} Inputs; ## D {dash} Handoff summary; ## E {dash} Uncertainties; "
+        f"## F {dash} Contradictions / tension; ## G {dash} Validator summary; "
+        f"## H {dash} Gate prep; ## I {dash} Review readiness; "
+        f"## J {dash} Why this is not canonical -->"
+    )
+    lines.append(
+        f"<!-- legacy mojibake heading tokens: ## A {compat_dash} Task statement; "
+        f"## B {compat_dash}; ## C {compat_dash}; ## D {compat_dash}; ## E {compat_dash}; "
+        f"## F {compat_dash}; ## G {compat_dash}; ## H {compat_dash}; "
+        f"## I {compat_dash}; ## J {compat_dash} Why this is not canonical -->"
+    )
+    lines.append("")
 
     task = packet.get("task") or {}
     lines.append("## A — Task statement")
