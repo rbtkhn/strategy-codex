@@ -5,8 +5,14 @@
 ## Shelf
 
 - Profile: [mercouris-profile.md](../../profiles/mercouris-profile.md)
-- Monthly book: [mercouris-book-2026-04.md](mercouris-book-2026-04.md)
-- Daily chapter seed: [mercouris-chapter-2026-04-01.md](mercouris-chapter-2026-04-01.md)
+- Speaker object: [mercouris-speaker-object.md](../speakers/mercouris/mercouris-speaker-object.md)
+- Current monthly book: [mercouris-book-2026-05.md](mercouris-book-2026-05.md)
+- Latest frontier pages:
+  - [mercouris-page-2026-05-08-to-2026-05-12.md](mercouris-page-2026-05-08-to-2026-05-12.md)
+  - [mercouris-page-2026-05-04-to-2026-05-07.md](mercouris-page-2026-05-04-to-2026-05-07.md)
+  - [mercouris-page-2026-04-30-to-2026-05-02.md](mercouris-page-2026-04-30-to-2026-05-02.md)
+- Previous monthly book: [mercouris-book-2026-04.md](mercouris-book-2026-04.md)
+- Legacy chapter seed: [mercouris-chapter-2026-04-01.md](mercouris-chapter-2026-04-01.md)
 - Thread compatibility file: [mercouris-thread.md](mercouris-thread.md)
 - Transcript compatibility file: [mercouris-transcript.md](mercouris-transcript.md)
 
