@@ -14,6 +14,7 @@
   - [alkorshid-marandi-speaker-arc.md](alkorshid-marandi-speaker-arc.md)
   - [alkorshid-ritter-speaker-arc.md](alkorshid-ritter-speaker-arc.md)
   - [alkorshid-baud-speaker-arc.md](alkorshid-baud-speaker-arc.md)
+  - [alkorshid-wilkerson-speaker-arc.md](alkorshid-wilkerson-speaker-arc.md)
 - Thread compatibility file: [alkorshid-thread.md](alkorshid-thread.md)
 - Transcript compatibility file: [alkorshid-transcript.md](alkorshid-transcript.md)
 
