@@ -5,7 +5,7 @@
 > handoff artifacts or `session-transcript.md`.
 >
 > **Format:** `- **YYYY-MM-DD HH:MM UTC** — kind (user) key=value …` (machine-audit line).
-> **coffee_conductor_outcome** — optional closure after a conductor run (**verdict=** e.g. watch / promote / shelf / no_action); optional **notebook_ref=**, **falsify=**, **conductor=** (see [CONDUCTOR-IMPROVEMENT-LOOP](../work-strategy/strategy-notebook/CONDUCTOR-IMPROVEMENT-LOOP.md) § 3).
+> **coffee_conductor_outcome** — optional closure after a conductor run (**verdict=** e.g. watch / promote / shelf / no_action); optional **notebook_ref=**, **falsify=**, **conductor=** (see [CONDUCTOR-IMPROVEMENT-LOOP](../../../codex/CONDUCTOR-IMPROVEMENT-LOOP.md) § 3).
 > **coffee_pick** may include optional **focus=** or **arc=** (named work object).
 > **Companion-facing:** Skills read this file and speak **Recent rhythm** in chat — plain
 > language, concrete specifics, no clock times in that prose. See [work-cadence README](README.md).
@@ -504,3 +504,37 @@ _(Append below this line.)_
 - **2026-05-06 06:00 UTC** — dream (grace-mar) ok=false mode=default cursor_model=unknown model_tier=unknown phase=both integrity=fail governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=true handoff_written=true
 - **2026-05-06 14:10 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
 - **2026-05-06 14:37 UTC** — dream (grace-mar) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false handoff_written=true
+- **2026-05-07 05:19 UTC** — dream (grace-mar) ok=false mode=default cursor_model=unknown model_tier=unknown phase=both integrity=fail governance=pass mem_changed=false reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=true handoff_written=true
+- **2026-05-07 14:52 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-05-08 04:15 UTC** — coffee (grace-mar) ok=true mode=minimal cursor_model=unknown model_tier=unknown
+- **2026-05-08 05:55 UTC** — dream (grace-mar) ok=false mode=default cursor_model=unknown model_tier=unknown phase=both integrity=fail governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=true handoff_written=true
+- **2026-05-08 17:00 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-05-08 19:16 UTC** — coffee (strategy-codex) ok=true mode=reentry cursor_model=unknown model_tier=unknown
+- **2026-05-08 20:43 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-05-09 01:40 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-05-09 05:39 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-05-09 06:23 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=furtwangler cursor-model=codex
+- **2026-05-09 06:24 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown conductor=furtwangler verdict=source-pack-held-tension-preserved notebook_ref=artifacts/benchmarks/composition/2026-05-08/codex-gpt-5-source-pack/cm-1-humanoid-robots/furtwangler-close-after-source-pack.md falsify=held-score-treated-as-final-domain-settlement
+- **2026-05-09 06:30 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown conductor=furtwangler verdict=revisit-register-noise-audited notebook_ref=artifacts/skill-work/work-strategy/revisit-register-audit-2026-05-09.md falsify=treating-107-generated-groups-as-107-real-conflicts
+- **2026-05-09 07:02 UTC** — dream (grace-mar) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
+- **2026-05-09 15:18 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-05-09 15:19 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=codex model_tier=unknown picked=A steward=gate
+- **2026-05-09 16:47 UTC** — dream (demo) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false handoff_written=true
+- **2026-05-09 16:48 UTC** — dream (demo) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false handoff_written=true
+- **2026-05-09 16:49 UTC** — dream (demo) ok=false mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=fail mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=true handoff_written=true
+- **2026-05-10 14:42 UTC** — dream (grace-mar) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
+- **2026-05-11 00:25 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-05-11 00:31 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=codex model_tier=unknown picked=A steward=integrity
+- **2026-05-11 00:33 UTC** — coffee (strategy-codex) ok=true mode=minimal cursor_model=unknown model_tier=unknown
+- **2026-05-11 04:22 UTC** — coffee (strategy-codex) ok=true mode=minimal cursor_model=unknown model_tier=unknown
+- **2026-05-11 04:49 UTC** — dream (grace-mar) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=false reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
+- **2026-05-11 20:13 UTC** — coffee_conductor_outcome (grace-mar) ok=true cursor_model=unknown model_tier=unknown verdict=watch conductor=karajan notebook_ref=codex/daily-strategy-inbox.md falsify=If the accumulator date or raw-input gap list changes on the next refresh, this long-arc read was stale.
+- **2026-05-11 22:53 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown verdict=youtube-adapter-arc-held conductor=karajan notebook_ref=a7eba9f1 falsify=If a=true future=true YouTube=true caller=true reintroduces=true direct=true yt-dlp=true execution=true or=true duplicate=true normalization=true outside=true ytdlp_adapter.py this=true centralization=true arc=true did=true not=true hold.=true
+- **2026-05-12 06:21 UTC** — dream (grace-mar) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
+- **2026-05-12 15:38 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-05-13 05:47 UTC** — dream (grace-mar) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=false reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
+- **2026-05-13 14:41 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-05-14 00:25 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-05-14 00:28 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=codex model_tier=unknown picked=A steward=template
+- **2026-05-14 00:49 UTC** — coffee (strategy-codex) ok=true mode=minimal cursor_model=unknown model_tier=unknown
+- **2026-05-14 04:29 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown verdict=verified conductor=kleiber notebook_ref=codex/CONDUCTOR-IMPROVEMENT-LOOP.md falsify=focused-warmup-conductor-tests-fail

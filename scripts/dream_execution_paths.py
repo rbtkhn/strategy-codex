@@ -6,9 +6,9 @@ from __future__ import annotations
 from datetime import datetime, timedelta, timezone
 from typing import Any
 
-# Stable order from build_execution_paths — maps first three hub letters A/B/C (see coffee SKILL).
+# Stable order from build_execution_paths: maps first three hub letters A/B/C (see coffee SKILL).
 _COFFEE_LETTER_AND_LABEL: dict[str, tuple[str, str]] = {
-    "today_field": ("C", "Historian"),
+    "today_field": ("C", "Strategist"),
     "build": ("B", "Engineer"),
     "steward": ("A", "Steward"),
 }
@@ -18,8 +18,8 @@ def coffee_menu_hint_from_dream(dream: dict[str, Any]) -> str | None:
     """
     One-line hint for the next coffee Step 2 menu from last-dream.json.
 
-    Maps execution_paths[suggested_execution_path_index] to **A / B / C** only
-    (Historian, Engineer, Steward). Operational hint — not policy or Record.
+    Maps execution_paths[suggested_execution_path_index] to A/B/C only
+    (Strategist, Engineer, Steward). Operational hint - not policy or Record.
     """
     paths = dream.get("execution_paths")
     if not isinstance(paths, list) or not paths:
@@ -33,7 +33,7 @@ def coffee_menu_hint_from_dream(dream: dict[str, Any]) -> str | None:
     letter, label = _COFFEE_LETTER_AND_LABEL.get(pid, ("?", "?"))
     if letter == "?":
         # Fallback: positional 0/1/2 matches build_execution_paths order.
-        fallbacks = (("C", "Historian"), ("B", "Engineer"), ("A", "Steward"))
+        fallbacks = (("C", "Strategist"), ("B", "Engineer"), ("A", "Steward"))
         letter, label = fallbacks[idx] if idx < len(fallbacks) else ("A", "Steward")
 
     reason = str(dream.get("execution_path_suggestion_reason") or "").strip()
@@ -45,7 +45,7 @@ def coffee_menu_hint_from_dream(dream: dict[str, Any]) -> str | None:
         why = "calendar rotation"
 
     return (
-        f"- **Dream → coffee menu:** lean **{letter} — {label}** — {why}; "
+        f"- **Dream -> coffee menu:** lean **{letter} - {label}** - {why}; "
         "operational hint only (not policy or Record)."
     )
 
@@ -92,9 +92,7 @@ def build_execution_paths(
     if coffee_count_24h >= 5:
         signals_field.append("reentry_heavy")
 
-    first_build = (
-        f"python3 scripts/validate-integrity.py --user {user_id} --json"
-    )
+    first_build = f"python3 scripts/validate-integrity.py --user {user_id} --json"
     stop_build = "Integrity passes; then optional: python3 scripts/refresh_derived_exports.py -u {uid}".format(
         uid=user_id
     )
@@ -109,8 +107,8 @@ def build_execution_paths(
         signals_build.append("governance_fail")
         stop_build = "Read governance_checker.py stdout from dream JSON; fix blocking issues."
 
-    first_steward = f"Read users/{user_id}/recursion-gate.md; optional: python3 scripts/operator_gate_review_pass.py -u {user_id}"
-    stop_steward = "Top 1–3 candidates reviewed or explicitly deferred."
+    first_steward = f"Read {user_id}/recursion-gate.md; optional: python3 scripts/operator_gate_review_pass.py -u {user_id}"
+    stop_steward = "Top 1-3 candidates reviewed or explicitly deferred."
     signals_steward: list[str] = []
     if reviewable_count > 0 or contradiction_count > 0:
         signals_steward.append("digest_hot")
@@ -123,8 +121,8 @@ def build_execution_paths(
         {
             "id": "today_field",
             "title": "Daily Brief (generator + watch slices; optional KY-4 intel when chosen)",
-            "first_move": f"python3 scripts/operator_coffee.py -u {user_id} — then coffee menu C — Historian",
-            "stop_rule": "One slice: daily brief path opened or optional intel pass started — enough for first block.",
+            "first_move": f"python3 scripts/operator_coffee.py -u {user_id} - then coffee menu C - Strategist",
+            "stop_rule": "One slice: daily brief path opened or optional intel pass started - enough for first block.",
             "signals_used": signals_field,
         },
         {
@@ -157,14 +155,12 @@ def format_tomorrow_inherits_line(
     title = str(p.get("title") or p.get("id") or "execution path")
     if suggestion_reason == "integrity_or_governance_fail":
         return (
-            f"Tomorrow inherits (hint): **{title}** — integrity or governance did not fully pass this dream; "
+            f"Tomorrow inherits (hint): **{title}** - integrity or governance did not fully pass this dream; "
             "not policy or Record."
         )
     if suggestion_reason == "gate_backlog":
         return (
-            f"Tomorrow inherits (hint): **{title}** — gate backlog over `max_pending_candidates`; "
+            f"Tomorrow inherits (hint): **{title}** - gate backlog over `max_pending_candidates`; "
             "not policy or Record."
         )
-    return (
-        f"Tomorrow inherits (hint): **{title}** — calendar rotation; not policy or Record."
-    )
+    return f"Tomorrow inherits (hint): **{title}** - calendar rotation; not policy or Record."

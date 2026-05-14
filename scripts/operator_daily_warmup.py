@@ -103,12 +103,12 @@ def _agent_surface_line_from_dream(dream: dict) -> str | None:
     raw = str(surf.get("cursor_model") or "").strip()
     if not raw:
         return None
-    display = raw if len(raw) <= 160 else raw[:159] + "â€¦"
+    display = raw if len(raw) <= 160 else raw[:159] + "..."
     return f"- Agent surface: **Cursor model:** {display}"
 
 
 def should_collapse_dream_handoff(dream: dict, *, verbose_dream: bool = False) -> bool:
-    """True when the handoff is a quiet, no-signal run â€” show one-line summary in morning coffee."""
+    """True when the handoff is a quiet, no-signal run - show one-line summary in morning coffee."""
     if verbose_dream:
         return False
     if "quietRun" in dream and dream.get("quietRun") is False:
@@ -136,7 +136,7 @@ def _short_tomorrow_inherits(dream: dict, *, max_len: int = 110) -> str:
     t = raw.replace("**", "").replace("`", "")
     t = " ".join(t.split())
     if len(t) > max_len:
-        return t[: max_len - 1] + "â€¦"
+        return t[: max_len - 1] + "..."
     return t
 
 
@@ -150,10 +150,10 @@ def _last_coffee_echo_bullets(dream: dict) -> list[str]:
         return []
     # Avoid repeating huge highlights (rollup caps at 160; enforce here too)
     if len(high) > 160:
-        high = high[:159] + "â€¦"
+        high = high[:159] + "..."
     cond = (le.get("conductor") or "").strip()
     label = cond if cond else "coffee"
-    return [f"- Dream picked up yesterdayâ€™s {label} coffee â€” {high}"]
+    return [f"- Dream picked up yesterday's {label} coffee - {high}"]
 
 
 def _conductor_echo_bullets(dream: dict) -> list[str]:
@@ -222,14 +222,14 @@ def _format_last_dream_block(
             cnt = int(cr.get("count") or 0)
             modes = cr.get("by_mode") or {}
             by_picked = cr.get("by_picked") or {}
-            mode_s = ", ".join(f"{k}={v}" for k, v in sorted(modes.items())) if modes else "â€”"
+            mode_s = ", ".join(f"{k}={v}" for k, v in sorted(modes.items())) if modes else "-"
             picked_s = ""
             if by_picked:
                 picked_s = "; menu picks: " + ", ".join(
                     f"{k}={v}" for k, v in sorted(by_picked.items())
                 )
-            first = cr.get("first_ts") or "â€”"
-            last = cr.get("last_ts") or "â€”"
+            first = cr.get("first_ts") or "-"
+            last = cr.get("last_ts") or "-"
             note = cr.get("note")
             extra = f" ({note})" if note else ""
             lines.append(
@@ -244,7 +244,7 @@ def _format_last_dream_block(
             for i, p in enumerate(paths):
                 if not isinstance(p, dict):
                     continue
-                mark = " â€” **suggested tomorrow**" if i == idx else ""
+                mark = " - **suggested tomorrow**" if i == idx else ""
                 title = p.get("title") or p.get("id") or "path"
                 fm = str(p.get("first_move") or "").strip()
                 if fm:
@@ -266,7 +266,7 @@ def _format_last_dream_block(
                 ov = e.get("overlap", "")
                 pth = e.get("path", "")
                 lbl = str(e.get("analogy_label") or "").strip()
-                lbl_s = f" â€” {lbl}" if lbl else ""
+                lbl_s = f" - {lbl}" if lbl else ""
                 lines.append(f"  - overlap={ov} `{pth}`{lbl_s}")
 
         followups = dream.get("followups") or []
@@ -287,7 +287,7 @@ def _format_last_dream_block(
         ]
         short = _short_tomorrow_inherits(dream)
         out.append(
-            f"- Last dream (quiet handoff) â€” integrity: {integ}; governance: {gov}; "
+            f"- Last dream (quiet handoff) - integrity: {integ}; governance: {gov}; "
             f"contradictions: {cc}; tomorrow inherits: {short}"
         )
         out.extend(_last_coffee_echo_bullets(dream))
@@ -310,21 +310,21 @@ def _format_last_dream_block(
     tar = str(dream.get("topActionReason") or "").strip()
     if tar:
         body.append(
-            f"- Top-action reason: {tar[:200]}{'â€¦' if len(tar) > 200 else ''}"
+            f"- Top-action reason: {tar[:200]}{'...' if len(tar) > 200 else ''}"
         )
     wt = str(dream.get("worktreeState") or "").strip()
     if wt:
         wadv = str(dream.get("worktreeAdvice") or "").strip()
         body.append(
             f"- Worktree: {wt}"
-            + (f" â€” {wadv[:140]}{'â€¦' if len(wadv) > 140 else ''}" if wadv else "")
+            + (f" - {wadv[:140]}{'...' if len(wadv) > 140 else ''}" if wadv else "")
         )
     if show_rollup:
         cr = dream.get("coffee_rollup_24h")
         if isinstance(cr, dict):
             cnt = int(cr.get("count") or 0)
             modes = cr.get("by_mode") or {}
-            mode_s = ", ".join(f"{k}={v}" for k, v in sorted(modes.items())) if modes else "â€”"
+            mode_s = ", ".join(f"{k}={v}" for k, v in sorted(modes.items())) if modes else "-"
             body.append(f"- Coffee (24h rollup): {cnt} run(s); modes: {mode_s}")
     if tomorrow:
         body.append(f"- {tomorrow}")
@@ -345,22 +345,22 @@ def _format_last_dream_block(
     if show_civ_mem:
         suppressed = str(dream.get("civmem_suppressed_reason") or "").strip()
         if suppressed:
-            body.append(f"- Civ-mem: suppressed ({suppressed}) â€” not Record.")
+            body.append(f"- Civ-mem: suppressed ({suppressed}) - not Record.")
         else:
             echoes = dream.get("civmem_echoes") or []
             civ_missing = dream.get("civmem_index_missing")
             if civ_missing:
                 body.append(
-                    "- Civ-mem: index missing (optional build) â€” no analogy echoes; not Record."
+                    "- Civ-mem: index missing (optional build) - no analogy echoes; not Record."
                 )
             elif isinstance(echoes, list) and echoes:
                 body.append(
-                    f"- Civ-mem: {len(echoes)} analogy candidate(s) above overlap threshold â€” "
+                    f"- Civ-mem: {len(echoes)} analogy candidate(s) above overlap threshold - "
                     "not evidence or Record; use `--verbose-dream` for path/snippet."
                 )
             else:
                 body.append(
-                    "- Civ-mem: no echoes above overlap threshold â€” not Record."
+                    "- Civ-mem: no echoes above overlap threshold - not Record."
                 )
     body.extend(_last_coffee_echo_bullets(dream))
     body.extend(_conductor_echo_bullets(dream))
@@ -502,7 +502,7 @@ def build_operator_daily_warmup(
     ]
     if max_pending is not None and len(pending_all) > int(max_pending):
         lines.append(
-            f"- **Gate backlog:** {len(pending_all)} pending exceeds `max_pending_candidates` ({max_pending}) in `config/fork-config.json` â€” review or merge soon."
+            f"- **Gate backlog:** {len(pending_all)} pending exceeds `max_pending_candidates` ({max_pending}) in `config/fork-config.json` - review or merge soon."
         )
     lines.extend(
         [
@@ -569,12 +569,12 @@ def build_operator_daily_warmup(
         try:
             lines.extend(build_morning_pulse_lines(user_id))
         except Exception:
-            lines.append("## Predictive History â€” morning momentum")
+            lines.append("## Predictive History - morning momentum")
             lines.append("")
             lines.append("_Jiang pulse skipped (could not read work-jiang paths)._")
             lines.append("")
     else:
-        lines.append("## Predictive History â€” morning momentum")
+        lines.append("## Predictive History - morning momentum")
         lines.append("")
         lines.append("_Run `python3 scripts/work_jiang/warmup_jiang_pulse.py -u %s` if import failed._" % user_id)
         lines.append("")
@@ -624,7 +624,7 @@ def build_operator_daily_warmup(
     lines.extend(
         [
             "",
-            "## Coffee â€” KY-4 polling + prediction markets (lazy)",
+            "## Coffee - KY-4 polling + prediction markets (lazy)",
             "",
             "- With **coffee** (legacy `hey`): **Polymarket** + independent poll **web search** + Massie X run **only** after **menu C - Strategist** (or explicit same-message request), per `docs/skill-work/work-politics/polling-and-markets.md` - **not** in Step 1. This script does not fetch markets; follow the skill after this command.",
             "",

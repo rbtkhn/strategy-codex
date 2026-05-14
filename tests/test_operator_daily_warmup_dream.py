@@ -62,7 +62,7 @@ def test_quiet_handoff_one_line() -> None:
     lines = odu._format_last_dream_block(_quiet_dream(), verbose_dream=False)
     text = "\n".join(lines)
     assert "quiet handoff" in text
-    assert "Last dream (quiet handoff) —" in text
+    assert "Last dream (quiet handoff) -" in text
     assert "integrity: pass" in text
     assert "tomorrow inherits:" in text
     assert odu.should_collapse_dream_handoff(_quiet_dream(), verbose_dream=False) is True
@@ -76,7 +76,7 @@ def test_quiet_handoff_includes_coffee_echo_line() -> None:
     }
     lines = odu._format_last_dream_block(d, verbose_dream=False)
     text = "\n".join(lines)
-    assert "Dream picked up yesterday’s" in text
+    assert "Dream picked up yesterday's" in text
     assert "toscanini" in text
 
 
@@ -143,7 +143,7 @@ def test_verbose_appends_coffee_echo_line() -> None:
     }
     lines = odu._format_last_dream_block(d, verbose_dream=True)
     text = "\n".join(lines)
-    assert "Dream picked up yesterday’s" in text
+    assert "Dream picked up yesterday's" in text
     assert "A short echo line for tests" in text
 
 
@@ -200,7 +200,7 @@ def test_coffee_menu_hint_maps_paths() -> None:
     }
     hint = coffee_menu_hint_from_dream(d)
     assert hint is not None
-    assert "**B — Steward**" in hint
+    assert "**A - Steward**" in hint
     assert "gate backlog" in hint
 
 
@@ -215,7 +215,7 @@ def test_coffee_menu_hint_unknown_id_falls_back_to_index() -> None:
     }
     hint = coffee_menu_hint_from_dream(d)
     assert hint is not None
-    assert "**A — Build**" in hint
+    assert "**B - Engineer**" in hint
 
 
 def test_coffee_menu_hint_returns_none_without_paths() -> None:

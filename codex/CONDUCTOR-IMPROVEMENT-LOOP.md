@@ -1,28 +1,28 @@
-# Conductor — operator improvement loop (SSOT)
-<!-- word_count: 558 -->
+# Conductor - operator improvement loop (SSOT)
+<!-- word_count: 650 -->
 
-**Status:** WORK (operator discipline). **Not** Record. **Not** a merge or gate substitute. **Not** a second strategy pipeline beside [STRATEGY-NOTEBOOK-ARCHITECTURE.md](STRATEGY-NOTEBOOK-ARCHITECTURE.md).
+**Status:** WORK (operator discipline). **Not** Record. **Not** a merge or gate substitute. **Not** a second strategy pipeline beside the strategy-notebook architecture.
 
-**Purpose:** Name the **closed loop** from a **Conductor** stance (`coffee` hub **E** / `coffee_pick` with **`picked=E` `conductor=`** or **`picked=conductor`**) to **durable, testable** notebook output and optional promotion. Append-only [cadence lines](../../work-cadence/work-cadence-events.md) record *that* a pick happened; they do **not** by themselves store **what changed** in the work.
+**Purpose:** Name the **closed loop** from a standalone **Conductor** stance (`coffee_pick` with **`picked=conductor` `conductor=<slug>`**; older `picked=D` / `picked=E` rows are read-only compatibility) to **durable, testable** notebook output and optional promotion. Append-only [cadence lines](../docs/skill-work/work-cadence/work-cadence-events.md) record *that* a pick happened; they do **not** by themselves store **what changed** in the work.
 
-**Related:** [CONDUCTOR-CLOSE-TEMPLATE.md](CONDUCTOR-CLOSE-TEMPLATE.md) (paste block) · [COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md](COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md) (ritual) · [CONDUCTOR-PASS.md](../../work-coffee/CONDUCTOR-PASS.md) (menu) · [promotion-ladder.md](../promotion-ladder.md) · [NOTEBOOK-PREFERENCES.md](NOTEBOOK-PREFERENCES.md#escalation-marker-preference) · [AGENTS.md](../../../../AGENTS.md) (governance boundary) · [`.cursor/skills/coffee/SKILL.md`](../../../../.cursor/skills/coffee/SKILL.md) (Cursor ritual).
+**Related:** [CONDUCTOR-CLOSE-TEMPLATE.md](CONDUCTOR-CLOSE-TEMPLATE.md) (paste block) | [COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md](COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md) (ritual) | [CONDUCTOR-PASS.md](../docs/skill-work/work-coffee/CONDUCTOR-PASS.md) (menu) | [NOTEBOOK-PREFERENCES.md](NOTEBOOK-PREFERENCES.md#escalation-marker-preference) | [AGENTS.md](../AGENTS.md) (governance boundary) | [`.cursor/skills/coffee/SKILL.md`](../.cursor/skills/coffee/SKILL.md) (Cursor ritual).
 
 ---
 
-## 1. Layer map (where each kind of “memory” lives)
+## 1. Layer Map
 
 | Layer | What it is | Where in this repo |
-|-------|------------|----------------------|
-| **Signal / stance** | Which conductor; continuity | [work-cadence-events.md](../../work-cadence/work-cadence-events.md) — `coffee_pick` with `picked=E` `conductor=<slug>` or `picked=conductor` `conductor=<slug>`; optional `focus=` / `arc=` |
-| **Machine / extraction** | Ingest, transcript echoes, page refs | Expert `thread.md` **machine layer**; `raw-input/`; [STRATEGY-NOTEBOOK-ARCHITECTURE.md](STRATEGY-NOTEBOOK-ARCHITECTURE.md) |
-| **Journal / judgment** | Synthesis, stakes, open seams | `strategy-page` in `experts/<id>/thread.md`, **`chapters/YYYY-MM/days.md`**, journal layer prose |
-| **Test / falsify** | What would change your mind next | **`days.md` Judgment** or a line on the page; optional **expert prediction** / falsifier rows where you already run that discipline |
-| **Escalation** | Intake only until you act | `[watch]`, `[decision]`, `[promote]` per [NOTEBOOK-PREFERENCES](NOTEBOOK-PREFERENCES.md#escalation-marker-preference) |
-| **Structure / promotion** | Reusable, staged objects | [promotion-ladder.md](../promotion-ladder.md) → [STRATEGY.md](../STRATEGY.md) when **stable** |
-| **Governance** | Durable **companion** or **merge** policy | [AGENTS.md](../../../../AGENTS.md) / `.../recursion-gate.md` — only when the lesson is **policy**, not a notebook preference |
-| **Compression** | Turn many moves into one next motion | **dream** / **bridge**; optional **`coffee_conductor_outcome`** (see § 3) |
+|-------|------------|--------------------|
+| **Signal / stance** | Which conductor; continuity | [work-cadence-events.md](../docs/skill-work/work-cadence/work-cadence-events.md) - new `coffee_pick` rows use `picked=conductor` `conductor=<slug>`; optional `focus=` / `arc=`; legacy `picked=D` / `picked=E` is read-only compatibility |
+| **Machine / extraction** | Ingest, transcript echoes, page refs | Expert `thread.md` machine layer; `raw-input/`; strategy-notebook architecture |
+| **Journal / judgment** | Synthesis, stakes, open seams | `strategy-page` in `experts/<id>/thread.md`, `chapters/YYYY-MM/days.md`, journal layer prose |
+| **Test / falsify** | What would change your mind next | `days.md` Judgment or a line on the page; optional expert prediction / falsifier rows where you already run that discipline |
+| **Escalation** | Intake only until you act | `[watch]`, `[decision]`, `[promote]` per [NOTEBOOK-PREFERENCES.md](NOTEBOOK-PREFERENCES.md#escalation-marker-preference) |
+| **Structure / promotion** | Reusable, staged objects | `promotion-ladder` / STRATEGY when stable |
+| **Governance** | Durable companion or merge policy | [AGENTS.md](../AGENTS.md) / `recursion-gate.md` - only when the lesson is policy, not a notebook preference |
+| **Compression** | Turn many moves into one next motion | `dream` / `bridge`; optional `coffee_conductor_outcome` (see section 3) |
 
-**Rule:** A **conductor run without** a same-day (or same-session) **anchor in the notebook or an outcome line** is **orientation-only** for chat — fine for a sip, but **not** a complete loop for recursive improvement.
+**Rule:** A conductor run without a same-day or same-session anchor in the notebook or an outcome line is **orientation-only** for chat - fine for a sip, but **not** a complete loop for recursive improvement.
 
 **Coffee / dream contract:** `coffee` owns stance selection and action-menu execution; `dream` owns compression. A `coffee_pick` with `picked=conductor conductor=<slug>` is enough for tomorrow's coffee to remember the latest stance, but it is not enough for dream to call the pass complete. Dream may carry the stance forward as `orientation_only`; only a notebook/page close or `coffee_conductor_outcome` with `conductor=<slug>`, `verdict=`, and `notebook_ref=` or `falsify=` counts as a closed conductor pass in `conductor_rollup_24h`.
 
@@ -32,11 +32,11 @@
 
 ---
 
-## 2. The loop (mermaid)
+## 2. The Loop
 
 ```mermaid
 flowchart TD
-  pick["coffee_pick: picked=E conductor=slug"]
+  pick["coffee_pick: picked=conductor conductor=slug"]
   work["Write or revise: days.md, strategy-page, or thread journal"]
   test["One falsify or next-check line"]
   mark["Optional: watch / decision / promote"]
@@ -51,37 +51,40 @@ flowchart TD
   promote --> gate
 ```
 
-**Minimum “closed” pass:** **pick** + **at least one** of: (a) a **Conductor close** in `chapters/YYYY-MM/days.md` for that day (use [CONDUCTOR-CLOSE-TEMPLATE.md](CONDUCTOR-CLOSE-TEMPLATE.md)), or (b) a **`coffee_conductor_outcome`** line with `conductor=<slug>` + `verdict=` (§ 3).
+**Minimum closed pass:** **pick** plus at least one of:
 
-**Full pass:** the same, plus an explicit **test** line and, when the arc deserves it, **ladder** / **STRATEGY**; **gate** only when the update is **governed** behavior.
+- A **Conductor close** in `chapters/YYYY-MM/days.md` for that day, or in a `strategy-page` Reflection, using [CONDUCTOR-CLOSE-TEMPLATE.md](CONDUCTOR-CLOSE-TEMPLATE.md).
+- A `coffee_conductor_outcome` line with `conductor=<slug>`, `verdict=`, and `notebook_ref=` or `falsify=`.
+
+**Full pass:** the same, plus an explicit test line and, when the arc deserves it, ladder / STRATEGY; gate only when the update is governed behavior.
 
 **Writing-practice closes:** If a conductor pass exposes repeated public-writing friction, use the close to name a **Friction / rule candidate** before changing doctrine. The first durable home is usually [write-operator-preferences.md](../docs/skill-write/write-operator-preferences.md) or [write-shipping-checklist.md](../docs/skill-write/write-shipping-checklist.md), not Record surfaces. The future check should be concrete: would this proposed rule have prevented the session drag without adding needless process?
 
 ---
 
-## 3. Optional cadence closure — `coffee_conductor_outcome`
+## 3. Cadence Closure
 
-After the conductor **orientation** and **notebook** touch (or explicit choice to **shelf** with no file edit that day), you may append a **single** line via:
+After the conductor orientation and notebook touch, or explicit choice to shelf with no file edit that day, you may append a single line:
 
 ```bash
 python3 scripts/log_cadence_event.py --kind coffee_conductor_outcome -u grace-mar --ok \
   --kv verdict=watch conductor=kleiber notebook_ref=chapters/2026-04/days.md
 ```
 
-**`verdict=`** (examples): `watch` · `promote` · `shelf` · `no_action` — see [work-cadence-events.md header](../../work-cadence/work-cadence-events.md). For new logs, include **`conductor=<slug>`** every time, plus **`notebook_ref=`** or **`falsify=`** so the close stays attributable from the ledger alone. If the session ended without that shape, add a repair outcome on the next turn instead of leaving the close implicit.
+`verdict=` examples: `watch`, `promote`, `shelf`, `no_action`. For new logs, include `conductor=<slug>` every time, plus `notebook_ref=` or `falsify=` so the close stays attributable from the ledger alone. If the session ended without that shape, add a repair outcome on the next turn instead of leaving the close implicit.
 
 For writing-friction outcomes, interpret verdicts narrowly:
 
-- `verdict=watch` — the friction is visible but needs another recurrence before becoming a rule.
-- `verdict=promote` — propose a WORK-layer docs-rule patch; this does **not** mutate the Record.
-- `verdict=shelf` — the friction was contextual and should not become doctrine.
+- `verdict=watch` - the friction is visible but needs another recurrence before becoming a rule.
+- `verdict=promote` - propose a WORK-layer docs-rule patch; this does **not** mutate the Record.
+- `verdict=shelf` - the friction was contextual and should not become doctrine.
 
-**Documented optional `kv` (no script schema required; keep values short, token-safe):**
+Documented optional keys:
 
 | Key | Use |
 |-----|-----|
 | `notebook_ref` | Path or fragment pointer, e.g. `chapters/2026-04/days.md` or a `strategy-page` `id=` |
-| `falsify` | One line: what observation would **contradict** the pass |
+| `falsify` | One line: what observation would contradict the pass |
 | `conductor` | Slug if not obvious from the immediately preceding `coffee_pick` |
 
 Example:
@@ -93,19 +96,19 @@ python3 scripts/log_cadence_event.py --kind coffee_conductor_outcome -u grace-ma
   --kv "falsify=If Hormuz commercial traffic returns without commensurate IRI comms, revisit narrow thread choice."
 ```
 
-(Use quoting if `falsify` contains spaces; [`log_cadence_event.py`](../../../../scripts/log_cadence_event.py) parses `--kv key=value` pairs.)
+Use quoting if `falsify` contains spaces; [log_cadence_event.py](../scripts/log_cadence_event.py) parses `--kv key=value` pairs.
 
 ---
 
-## 4. What this is not
+## 4. What This Is Not
 
-- **Not** automatic promotion from cadence; **not** a substitute for **EOD** `strategy page` when the day’s substance needs a full compose.
-- **Not** the **BrewMind / Cici** governed-state pipeline — keep boundaries unless you **explicitly** bridge.
-- **Not** Record truth; companion-facing authority stays on-disk per **AGENTS** and the gate.
+- Not automatic promotion from cadence; not a substitute for EOD `strategy page` when the day's substance needs a full compose.
+- Not the BrewMind / Cici governed-state pipeline; keep boundaries unless you explicitly bridge.
+- Not Record truth; companion-facing authority stays on-disk per AGENTS and the gate.
 
 ---
 
-## 5. See also
+## 5. See Also
 
-- [COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md](COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md) — five movements, seeds only.
-- [FOLD-LEARNING.md](FOLD-LEARNING.md) — optional weave learning stream (separate from this loop).
+- [COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md](COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md) - five movements, seeds only.
+- [FOLD-LEARNING.md](FOLD-LEARNING.md) - optional weave learning stream, separate from this loop.

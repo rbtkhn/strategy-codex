@@ -64,3 +64,11 @@ def test_conductor_loop_wires_coffee_pick_to_dream_rollup_contract() -> None:
     assert "orientation-only" in coffee
     assert "completed_passes" in dream
     assert "orientation_only" in dream
+
+
+def test_conductor_loop_ssot_prefers_new_name_only_cadence_shape() -> None:
+    loop = (REPO_ROOT / "codex/CONDUCTOR-IMPROVEMENT-LOOP.md").read_text(encoding="utf-8")
+
+    assert "picked=conductor" in loop
+    assert "picked=E conductor=slug" not in loop
+    assert "coffee` hub **E**" not in loop
