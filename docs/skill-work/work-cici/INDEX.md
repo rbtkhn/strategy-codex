@@ -107,3 +107,4 @@ Use [README](README.md) for narrative order; this table is a flat lookup.
 | [brewmind-b2b-prospects.md](brewmind-b2b-prospects.md) | B2B prospect worksheet (verified pipeline table + unverified Claude appendix) |
 | **Her instance (external repo)** | Seed survey, `xavier/`, gate — **not** paths inside grace-mar; create from [companion-self](https://github.com/rbtkhn/companion-self) |
 | **Business intake** [../work-business/xavier/README.md](../work-business/xavier/README.md) | WORK-only starter pack in grace-mar |
+| [member-profiles/README.md](member-profiles/README.md) | **Member profiles** - standardized form for team obligations, value, support threshold, and evidence |

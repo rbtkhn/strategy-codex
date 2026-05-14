@@ -148,3 +148,4 @@ Per [work-template/README.md](../work-template/README.md) Â§ *Risk-mitigation 
 
 > Any workflow that copies **gated Record** prose (`self.md`, `self-archive.md`, `recursion-gate.md` merges) from **grace-mar** into **Cici** / her companion instance (`companion-xavier` or her chosen repo name) **without** her gate requires a **new plan** and explicit consent â€” not an incremental doc edit. This laneâ€™s charter is **advisor + WORK execution**, not hosting her fork.
 
+**Member profiles:** [member-profiles/README.md](member-profiles/README.md) for the standardized profile form and Xavier's filled profile.

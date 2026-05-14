@@ -541,3 +541,5 @@ _(Append below this line.)_
 - **2026-05-14 06:20 UTC** — dream (strategy-codex) ok=false mode=default cursor_model=unknown model_tier=unknown phase=both integrity=fail governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=true handoff_written=true
 - **2026-05-14 12:37 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
 - **2026-05-14 13:23 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=codex model_tier=unknown conductor=toscanini verdict=sufficient-answer-stop falsify=conductor-menu-added-after-task-already-complete
+- **2026-05-14 23:24 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-05-14 23:50 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown verdict=worktree-arcs-ranked conductor=karajan notebook_ref=artifacts/review-packets/karajan-worktree-steward-review-2026-05-14.md falsify=If the next staged commit mixes PH corpus runtime exports protected Record surfaces or cache churn with the cici member-profile slice this hierarchy failed.
