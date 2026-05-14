@@ -14,6 +14,12 @@ The coffee hub now ends at **D**. You may still open **Conductor** **without** `
 
 **Coding-agent proposals:** Conductor stance should change **scope, validation posture, non-goals, and acceptance criteria** ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â not merely wording ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â per [conductor proposal lenses](../work-dev/conductor-proposal-lenses.md). For coding-agent proposal work, use the **Beethoven test** appendix in that file when the five modes risk collapsing into the same PR shape under **crisis, propulsion, or formal drama**; use the **Brahms test** appendix there when the issue is **density, overlap, continuity, or anti-heaviness** rather than dramatic conflict. Abundance is a selection criterion inside those proposals: prefer options that increase agency, coordination, optionality, or dignity when the evidence supports it.
 
+**Protocol tension receipt - 2026-05-14:** Furtwangler trace of [`.cursor/skills/conductor/SKILL.md`](../../../.cursor/skills/conductor/SKILL.md) against this file found the recurring failure mode: the Cursor skill carried vivid conductor voice prototypes close to the top, while this shared pass defines the required shape. That ordering can make an assistant perform a **style overlay** instead of the protocol: resolve one `conductor=<slug>`, give the short orientation, then emit the repo-grounded **Conductor Action Menu**. Long-arc rule: conductor voice is subordinate to this shared pass shape; if persona and action-menu discipline pull apart, preserve the tension long enough to restore the required menu before adding color.
+
+**Routing continuity note - 2026-05-14:** Read the three live routing surfaces as one line, not competing menus. [AGENTS.md](../../../AGENTS.md) is the always-on Layer-1 contract: coffee hub is **A-D** only, Conductor is standalone/name-only, and resolved Conductor always emits a four-movement **A-D** action menu. [`.cursor/skills/coffee/SKILL.md`](../../../.cursor/skills/coffee/SKILL.md) protects the checkpoint/hub boundary: do not run `coffee` machinery or add conductor as a hub letter when the operator named a conductor. [`.cursor/skills/conductor/SKILL.md`](../../../.cursor/skills/conductor/SKILL.md) is the resolved-mode router: apply the active slug's orientation, then produce concrete repo-grounded movement choices. If these surfaces seem to diverge, preserve Layer-1 and this shared pass shape first; treat coffee and conductor skill text as narrower overlays.
+
+**Why name-only matters:** A conductor name is an operator-chosen stance, not another multiple-choice layer. Keeping conductor selection name-only preserves operator agency, prevents the coffee hub from growing a hidden fifth branch, and reserves **A-D** for the only place letters help: choosing concrete movement actions after the stance is already resolved. The meaning of the ritual is not "pick a personality"; it is "choose a mode of attention, then move on disk with that mode made audible."
+
 ---
 
 ## The five master modes (abstraction)
@@ -108,10 +114,10 @@ Movement meanings:
 
 Cadence lines alone are **insufficient** to store *what* improved in the work. **After** orientation and the prescribed notebook actions, the operator (or agent, with the operatorÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢s OK) should **close** the pass with at least one of:
 
-1. A **Conductor close** in **`chapters/YYYY-MM/days.md`** (or a `strategy-page` **Reflection**), using the paste block in [CONDUCTOR-CLOSE-TEMPLATE.md](../work-strategy/strategy-notebook/CONDUCTOR-CLOSE-TEMPLATE.md) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â *stance, object, falsify / next test, escalation*; or
+1. A **Conductor close** in **`chapters/YYYY-MM/days.md`** (or a `strategy-page` **Reflection**), using the paste block in [CONDUCTOR-CLOSE-TEMPLATE.md](../../../codex/CONDUCTOR-CLOSE-TEMPLATE.md) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â *stance, object, falsify / next test, escalation*; or
 2. **`coffee_conductor_outcome`** in [work-cadence-events.md](../work-cadence/work-cadence-events.md) with `conductor=<slug>` + `verdict=` and `notebook_ref=` or `falsify=` (both preferred). If the pass closed without that line, add a repair outcome on the next turn rather than leaving attribution implicit.
 
-**SSOT (layer map, mermaid, gate boundary):** [CONDUCTOR-IMPROVEMENT-LOOP.md](../work-strategy/strategy-notebook/CONDUCTOR-IMPROVEMENT-LOOP.md). **Not** Record; **not** a substitute for full **EOD** `strategy page` when the day needs a real compose.
+**SSOT (layer map, mermaid, gate boundary):** [CONDUCTOR-IMPROVEMENT-LOOP.md](../../../codex/CONDUCTOR-IMPROVEMENT-LOOP.md). **Not** Record; **not** a substitute for full **EOD** `strategy page` when the day needs a real compose.
 
 ---
 
@@ -125,6 +131,6 @@ Cadence lines alone are **insufficient** to store *what* improved in the work. *
 
 ## See also
 
-- [CONDUCTOR-IMPROVEMENT-LOOP.md](../work-strategy/strategy-notebook/CONDUCTOR-IMPROVEMENT-LOOP.md) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â operator **improvement loop** (conductor + notebook + promotion + gate when policy).
+- [CONDUCTOR-IMPROVEMENT-LOOP.md](../../../codex/CONDUCTOR-IMPROVEMENT-LOOP.md) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â operator **improvement loop** (conductor + notebook + promotion + gate when policy).
 - [menu-reference.md](menu-reference.md) - **`coffee` A-D** hub + **standalone Conductor** (`#conductor-fork-d-menu` anchors legacy disambiguation notes).
 - [work-coffee README](README.md) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â territory role of `work-coffee`.

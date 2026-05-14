@@ -181,6 +181,7 @@ def test_parse_coffee_pick_in_rollup(tmp_path: Path) -> None:
     md = """- **2026-04-02 14:00 UTC** — coffee (grace-mar) ok=true mode=work-start
 - **2026-04-02 14:05 UTC** — coffee_pick (grace-mar) ok=true picked=E steward=gate
 - **2026-04-02 15:00 UTC** — coffee_pick (grace-mar) ok=true picked=A
+- **2026-04-02 15:05 UTC** — coffee_pick (grace-mar) ok=true picked=conductor conductor=kleiber
 """
     p = tmp_path / "cadence.md"
     p.write_text(md, encoding="utf-8")
@@ -188,8 +189,26 @@ def test_parse_coffee_pick_in_rollup(tmp_path: Path) -> None:
     r = rollup_coffee_24h(user_id="grace-mar", now_utc=now, events_path=p)
     assert r["by_picked"]["E"] == 1
     assert r["by_picked"]["A"] == 1
-    assert len(r["picks"]) == 2
-    assert r["picks"][-1].get("menu_label") == "A"
+    assert r["by_picked"]["conductor"] == 1
+    assert len(r["picks"]) == 3
+    assert r["picks"][-1].get("picked") == "conductor"
+    assert r["picks"][-1].get("conductor") == "kleiber"
+
+
+def test_last_coffee_echo_sees_new_style_conductor_pick(tmp_path: Path) -> None:
+    md = """- **2026-04-02 14:00 UTC** — coffee (grace-mar) ok=true mode=work-start
+- **2026-04-02 14:05 UTC** — coffee_pick (grace-mar) ok=true picked=conductor conductor=bernstein
+"""
+    p = tmp_path / "cadence.md"
+    p.write_text(md, encoding="utf-8")
+    now = datetime(2026, 4, 2, 16, 0, tzinfo=timezone.utc)
+
+    echo = build_last_coffee_echo(rollup_coffee_24h(user_id="grace-mar", now_utc=now, events_path=p))
+
+    assert echo is not None
+    assert echo["menu_letter"] == "conductor"
+    assert echo["conductor"] == "bernstein"
+    assert "Conductor line: bernstein." in echo["highlight"]
 
 
 def test_build_last_coffee_echo_none_without_runs() -> None:

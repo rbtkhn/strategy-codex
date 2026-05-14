@@ -24,6 +24,12 @@
 
 **Rule:** A **conductor run without** a same-day (or same-session) **anchor in the notebook or an outcome line** is **orientation-only** for chat — fine for a sip, but **not** a complete loop for recursive improvement.
 
+**Coffee / dream contract:** `coffee` owns stance selection and action-menu execution; `dream` owns compression. A `coffee_pick` with `picked=conductor conductor=<slug>` is enough for tomorrow's coffee to remember the latest stance, but it is not enough for dream to call the pass complete. Dream may carry the stance forward as `orientation_only`; only a notebook/page close or `coffee_conductor_outcome` with `conductor=<slug>`, `verdict=`, and `notebook_ref=` or `falsify=` counts as a closed conductor pass in `conductor_rollup_24h`.
+
+**Repair receipt - 2026-05-14:** A Toscanini/Furtwangler conductor sequence failed by treating conductor names as a **style overlay** instead of executing the established protocol. Exact failure: the assistant produced generic, interchangeable A-D options and let persona color outrun the required score: resolve one `conductor=<slug>`, give the slug's short orientation, then emit a concrete, repo-grounded **Conductor Action Menu** with exactly **A. Allegro**, **B. Andante**, **C. Scherzo**, and **D. Finale**. Restored protocol: [AGENTS.md](../AGENTS.md) is the Layer-1 contract; [CONDUCTOR-PASS.md](../docs/skill-work/work-coffee/CONDUCTOR-PASS.md) is the shared cross-lane shape; [`.cursor/skills/conductor/SKILL.md`](../.cursor/skills/conductor/SKILL.md) is subordinate mode routing and voice. Falsifier: any future conductor-name turn that emits a lettered master chooser, omits the movement-labeled action menu, or offers options without exact file/command/artifact targets has regressed.
+
+**Bernstein close receipt - 2026-05-14:** The conductor repair moved from orientation into enforceable practice: `CONDUCTOR-PASS.md` now explains why conductor names are name-only, `.cursor/skills/conductor/SKILL.md` defines "durable close" as a real notebook/outcome anchor, and `tests/test_conductor_docs_links.py` fails if conductor-facing docs drift back to the removed strategy-notebook improvement-loop or close-template paths. Falsifier: if a future pass can reintroduce `docs/skill-work/work-strategy/strategy-notebook/CONDUCTOR-IMPROVEMENT-LOOP.md` without a focused test failure, this close did not actually harden the loop.
+
 ---
 
 ## 2. The loop (mermaid)

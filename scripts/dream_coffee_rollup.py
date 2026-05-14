@@ -27,6 +27,15 @@ _CONDUCTOR_OUTCOME_LINE = re.compile(
 )
 
 
+# Accept the canonical em dash and mojibake variants that appear in older cadence logs.
+_COFFEE_LINE = re.compile(
+    r"^- \*\*(\d{4}-\d{2}-\d{2}) (\d{2}:\d{2}) UTC\*\* .+? coffee \(([^)]+)\)\s*(.*)$"
+)
+_COFFEE_PICK_LINE = re.compile(
+    r"^- \*\*(\d{4}-\d{2}-\d{2}) (\d{2}:\d{2}) UTC\*\* .+? coffee_pick \(([^)]+)\)\s*(.*)$"
+)
+
+
 def _parse_trailing_kv(rest: str) -> tuple[bool | None, str | None, dict[str, str]]:
     ok: bool | None = None
     mode: str | None = None
@@ -74,10 +83,12 @@ def parse_coffee_pick_cadence_lines(
         raw_pick = (kv.get("picked") or "").strip()
         if not raw_pick:
             continue
-        first = raw_pick[0].upper()
-        if first not in {"A", "B", "C", "D", "E"}:
+        if raw_pick.lower() == "conductor":
+            picked = "conductor"
+        else:
+            picked = raw_pick[0].upper()
+        if picked not in {"A", "B", "C", "D", "E", "conductor"}:
             continue
-        picked = first
         steward = (kv.get("steward") or "").strip().lower() or None
         cond = (kv.get("conductor") or "").strip() or None
         row: dict[str, Any] = {
