@@ -10,10 +10,9 @@ Usage:
 from __future__ import annotations
 
 import argparse
+import json
 import sys
 from pathlib import Path
-
-import orjson
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
@@ -27,6 +26,16 @@ REQUIRED_FILES = [
 ]
 
 
+def resolve_seed_dir(path: Path) -> Path:
+    target = (REPO_ROOT / path).resolve() if not path.is_absolute() else path.resolve()
+    if target.is_dir() or path.is_absolute():
+        return target
+    norm = path.as_posix().strip("/")
+    if norm == "demo/seed-phase":
+        return (REPO_ROOT / "users" / "demo" / "seed-phase").resolve()
+    return target
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description="Validate seed-phase artifact directory")
     ap.add_argument("directory", type=Path, help="e.g. demo/seed-phase")
@@ -37,7 +46,7 @@ def main() -> None:
     )
     args = ap.parse_args()
 
-    target = (REPO_ROOT / args.directory).resolve() if not args.directory.is_absolute() else args.directory
+    target = resolve_seed_dir(args.directory)
     if not target.is_dir():
         print(f"Not a directory: {target}", file=sys.stderr)
         sys.exit(1)
@@ -66,7 +75,7 @@ def main() -> None:
         path = target / jname
         try:
             raw = load_json_file(path)
-        except orjson.JSONDecodeError as e:
+        except json.JSONDecodeError as e:
             print(f"Invalid JSON {path}: {e}", file=sys.stderr)
             sys.exit(1)
         if not isinstance(raw, dict):
