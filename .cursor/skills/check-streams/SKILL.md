@@ -120,7 +120,7 @@ If a stream has no upload on the target day, say so explicitly.
    - Do not treat new routeable appearances as textual purity gains unless the quality report shows transcript-grade, cleaned-transcript, or transcript-bearing improvement.
    - When the approved subset is really a guest-host tranche rather than "today's whole roster," preserve that exact tranche shape instead of reopening discovery or broad channel slicing.
    - If materialization returns `failed-fetch` or `failed-verification`, report the failure and stop before speaker routing, lattice updates, or completion claims.
-   - For `failed-fetch` cases where a human will paste the transcript later, use the materializer's receipt-side `manual-transcript-scaffolds/` output. Keep the scaffold outside canonical raw-input until the paste marker is replaced and verification passes.
+   - For `failed-fetch` cases where a human will paste the transcript later, use the materializer's receipt-side `manual-curation-queue.md` and `manual-transcript-scaffolds/` outputs. Keep those scaffold files outside canonical raw-input until the paste marker is replaced and verification passes.
 
 6. **Default transcript class**
    - Default to `auto_subtitles_vtt`.

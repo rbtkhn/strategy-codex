@@ -267,15 +267,29 @@ def test_write_receipts_outputs_manual_scaffold_for_failed_fetch(tmp_path: Path)
     )
 
     index = Path(paths["manual_scaffold_index"])
-    scaffold = next((receipt_dir / "manual-transcript-scaffolds").glob("*.md"))
+    queue = Path(paths["manual_curation_queue"])
+    scaffold = next(path for path in (receipt_dir / "manual-transcript-scaffolds").glob("*.md") if not path.name.endswith(".draft.md"))
+    draft = receipt_dir / "manual-transcript-scaffolds" / scaffold.name.replace(".md", ".draft.md")
+    paste_body = receipt_dir / "manual-transcript-scaffolds" / scaffold.name.replace(".md", ".paste-body.txt")
+    verify = receipt_dir / "manual-transcript-scaffolds" / scaffold.name.replace(".md", ".verify.ps1")
     text = scaffold.read_text(encoding="utf-8")
     assert index.is_file()
+    assert queue.is_file()
+    assert draft.is_file()
+    assert paste_body.is_file()
+    assert verify.is_file()
     assert paths["manual_scaffold_count"] == "1"
     assert "WORK only; not Record" in text
+    assert "Curator Files" in text
     assert "transcript_type: operator_pasted_transcript" in text
     assert "guest: Jeffrey Sachs" in text
     assert "PASTE FULL TRANSCRIPT BODY HERE" in text
     assert "transcript-napolitano-prof-jeffrey-sachs-what-the-chinese-think-of-trump-2026-05-15.md" in text
+    assert "Manual curation queue" in queue.read_text(encoding="utf-8")
+    assert "needs-paste" in queue.read_text(encoding="utf-8")
+    assert "PASTE FULL TRANSCRIPT BODY HERE" in draft.read_text(encoding="utf-8")
+    assert "--- PASTE FULL TRANSCRIPT BODY BELOW ---" in paste_body.read_text(encoding="utf-8")
+    assert "materialize_youtube_raw_input.py --raw-input" in verify.read_text(encoding="utf-8")
 
 
 def test_main_dry_run_probe_emits_receipts_without_canonical_write(tmp_path: Path, monkeypatch, capsys) -> None:

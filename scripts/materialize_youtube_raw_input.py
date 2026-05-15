@@ -820,13 +820,7 @@ def _manual_frontmatter(row: dict[str, Any], *, ingest_date: str) -> dict[str, A
     return payload
 
 
-def _manual_scaffold_body(
-    row: dict[str, Any],
-    *,
-    ingest_date: str,
-    target_path: Path | None,
-) -> str:
-    title = str(row.get("title") or "PASTE TITLE HERE").strip()
+def _manual_frontmatter_text(row: dict[str, Any], *, ingest_date: str) -> str:
     frontmatter = safe_dump(
         _manual_frontmatter(row, ingest_date=ingest_date),
         feature="materialize_youtube_raw_input.py",
@@ -834,15 +828,61 @@ def _manual_scaffold_body(
         allow_unicode=True,
         width=2000,
     ).rstrip()
+    return f"---\n{frontmatter}\n---\n"
+
+
+def _manual_draft_text(row: dict[str, Any], *, ingest_date: str) -> str:
+    title = str(row.get("title") or "PASTE TITLE HERE").strip()
+    return (
+        f"{_manual_frontmatter_text(row, ingest_date=ingest_date)}\n"
+        f"# {title}\n\n"
+        "[PASTE FULL TRANSCRIPT BODY HERE. Delete this line before saving canonical raw-input.]\n"
+    )
+
+
+def _manual_paste_body_text(row: dict[str, Any], *, target_path: Path | None) -> str:
+    title = str(row.get("title") or "PASTE TITLE HERE").strip()
+    target = str(target_path) if target_path else "Unknown until pub_date, title, and file_prefix are supplied."
+    return (
+        "Paste the transcript body below this line, then move it into the matching .draft.md file.\n"
+        "Do not paste summaries, chapter lists, comments, or descriptions here.\n\n"
+        f"title: {title}\n"
+        f"target_raw_input: {target}\n\n"
+        "--- PASTE FULL TRANSCRIPT BODY BELOW ---\n\n"
+    )
+
+
+def _manual_verify_command(target_path: Path | None) -> str:
+    if not target_path:
+        return "After saving the canonical raw-input, run the materializer with --raw-input <path> --with-appearances."
+    return (
+        f'python scripts\\materialize_youtube_raw_input.py --raw-input "{target_path}" '
+        "--with-appearances --purpose one-off --tranche-label manual-transcript"
+    )
+
+
+def _manual_verify_script(command: str) -> str:
+    return (
+        "# Manual transcript verification helper.\n"
+        "# Run from the strategy-codex repository root after saving the filled raw-input draft.\n"
+        f"{command}\n"
+    )
+
+
+def _manual_scaffold_body(
+    row: dict[str, Any],
+    *,
+    ingest_date: str,
+    target_path: Path | None,
+    draft_name: str,
+    paste_name: str,
+    verify_name: str,
+) -> str:
+    title = str(row.get("title") or "PASTE TITLE HERE").strip()
     target = str(target_path) if target_path else "Unknown until pub_date, title, and file_prefix are supplied."
     source_url = canonical_watch_url(str(row.get("url") or row.get("source_url") or ""))
     reason = str(row.get("verification_reason") or "manual transcript needed")
-    verify_command = (
-        f'python scripts\\materialize_youtube_raw_input.py --raw-input "{target_path}" '
-        "--with-appearances --purpose one-off --tranche-label manual-transcript"
-        if target_path
-        else "After saving the canonical raw-input, run the materializer with --raw-input <path> --with-appearances."
-    )
+    verify_command = _manual_verify_command(target_path)
     return (
         "# Manual Transcript Scaffold\n\n"
         "WORK only; not Record. This receipt is a handoff aid, not a captured transcript.\n\n"
@@ -850,19 +890,26 @@ def _manual_scaffold_body(
         f"- canonical_raw_input: `{target}`\n"
         f"- source_url: {source_url}\n"
         f"- failed_reason: `{reason}`\n\n"
+        "## Curator Files\n\n"
+        f"- draft: [{draft_name}]({draft_name})\n"
+        f"- paste body buffer: [{paste_name}]({paste_name})\n"
+        f"- verification helper: [{verify_name}]({verify_name})\n\n"
         "## Human Steps\n\n"
         "1. Open the YouTube source in a browser.\n"
         "2. Copy the full transcript, not only a summary or chapter list.\n"
-        "3. Replace the paste marker in the draft below with the transcript body.\n"
-        "4. Save the filled draft to the canonical raw-input path above.\n"
-        "5. Run the verification/routing command below before claiming capture.\n\n"
-        "## Ready-To-Fill Raw-Input Draft\n\n"
+        "3. Paste into the `.paste-body.txt` buffer if you want a scratch step.\n"
+        "4. Replace the paste marker in the `.draft.md` file with the transcript body.\n"
+        "5. Save the filled draft to the canonical raw-input path above.\n"
+        "6. Run the verification/routing command below before claiming capture.\n\n"
+        "## Curator Notes\n\n"
+        "- curator_note: \n"
+        "- transcript_source: YouTube transcript panel / operator copy / other\n"
+        "- transcript_completeness: full / partial / unknown\n"
+        "- speaker_labels: original / operator-added / none\n"
+        "- status: needs-paste\n\n"
+        "## Ready-To-Fill Raw-Input Draft Preview\n\n"
         "```markdown\n"
-        "---\n"
-        f"{frontmatter}\n"
-        "---\n\n"
-        f"# {title}\n\n"
-        "[PASTE FULL TRANSCRIPT BODY HERE. Delete this line before saving canonical raw-input.]\n"
+        f"{_manual_draft_text(row, ingest_date=ingest_date)}"
         "```\n\n"
         "## Verification Command\n\n"
         "```powershell\n"
@@ -874,6 +921,41 @@ def _manual_scaffold_body(
         "- Body is transcript text, not an index, placeholder, or summary shell.\n"
         "- Speaker/guest metadata is preserved when known.\n"
     )
+
+
+def _manual_queue_body(entries: list[dict[str, str]]) -> str:
+    lines = [
+        "# Manual curation queue",
+        "",
+        "WORK only; not Record. Use this as the human transcript inbox for blocked materialization rows.",
+        "",
+        "| status | pub_date | title | guest | target | scaffold | draft | paste body | verify |",
+        "|---|---|---|---|---|---|---|---|---|",
+    ]
+    for entry in entries:
+        lines.append(
+            "| needs-paste "
+            f"| {entry['pub_date']} "
+            f"| {entry['title']} "
+            f"| {entry['guest']} "
+            f"| `{entry['target']}` "
+            f"| [{entry['scaffold_name']}]({entry['scaffold_rel']}) "
+            f"| [{entry['draft_name']}]({entry['draft_rel']}) "
+            f"| [{entry['paste_name']}]({entry['paste_rel']}) "
+            f"| [{entry['verify_name']}]({entry['verify_rel']}) |"
+        )
+    lines.extend(
+        [
+            "",
+            "## Status Meaning",
+            "",
+            "- `needs-paste`: no human transcript body has been added yet.",
+            "- `pasted-needs-verify`: body has been pasted into the draft but verification has not passed yet.",
+            "- `verified`: canonical raw-input exists and the materializer accepted it.",
+            "- `blocked`: human transcript source is unavailable or incomplete.",
+        ]
+    )
+    return "\n".join(lines).rstrip() + "\n"
 
 
 def write_manual_transcript_scaffolds(
@@ -895,22 +977,56 @@ def write_manual_transcript_scaffolds(
         "WORK only; not Record. These files help humans fill transcripts later without creating canonical stubs.",
         "",
     ]
+    queue_entries: list[dict[str, str]] = []
     for idx, row in enumerate(scaffold_rows, start=1):
         title = str(row.get("title") or row.get("youtube_id") or row.get("url") or f"row-{idx}")
         slug = slugify(title, max_len=48)
         path = out_dir / f"{idx:02d}-{slug}.md"
+        draft = out_dir / f"{idx:02d}-{slug}.draft.md"
+        paste_body = out_dir / f"{idx:02d}-{slug}.paste-body.txt"
+        verify = out_dir / f"{idx:02d}-{slug}.verify.ps1"
         target_path = _manual_target_path(row, notebook_root)
+        verify_command = _manual_verify_command(target_path)
         path.write_text(
-            _manual_scaffold_body(row, ingest_date=effective_ingest_date, target_path=target_path),
+            _manual_scaffold_body(
+                row,
+                ingest_date=effective_ingest_date,
+                target_path=target_path,
+                draft_name=draft.name,
+                paste_name=paste_body.name,
+                verify_name=verify.name,
+            ),
             encoding="utf-8",
         )
+        draft.write_text(_manual_draft_text(row, ingest_date=effective_ingest_date), encoding="utf-8")
+        paste_body.write_text(_manual_paste_body_text(row, target_path=target_path), encoding="utf-8")
+        verify.write_text(_manual_verify_script(verify_command), encoding="utf-8")
         index_lines.append(f"- [{path.name}](manual-transcript-scaffolds/{path.name})")
+        queue_entries.append(
+            {
+                "pub_date": str(row.get("pub_date") or ""),
+                "title": title.replace("|", "\\|"),
+                "guest": str(row.get("guest") or "").replace("|", "\\|"),
+                "target": str(target_path) if target_path else "",
+                "scaffold_name": path.name,
+                "scaffold_rel": f"manual-transcript-scaffolds/{path.name}",
+                "draft_name": draft.name,
+                "draft_rel": f"manual-transcript-scaffolds/{draft.name}",
+                "paste_name": paste_body.name,
+                "paste_rel": f"manual-transcript-scaffolds/{paste_body.name}",
+                "verify_name": verify.name,
+                "verify_rel": f"manual-transcript-scaffolds/{verify.name}",
+            }
+        )
     index = receipt_dir / "manual-transcript-scaffolds.md"
     index.write_text("\n".join(index_lines).rstrip() + "\n", encoding="utf-8")
+    queue = receipt_dir / "manual-curation-queue.md"
+    queue.write_text(_manual_queue_body(queue_entries), encoding="utf-8")
     return {
         "manual_scaffold_index": str(index),
         "manual_scaffold_dir": str(out_dir),
         "manual_scaffold_count": str(len(scaffold_rows)),
+        "manual_curation_queue": str(queue),
     }
 
 

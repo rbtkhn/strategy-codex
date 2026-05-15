@@ -152,7 +152,7 @@ Manual fallback after bot-check/auth failure:
 python scripts/materialize_youtube_raw_input.py --url "<youtube-url>" --apply --with-appearances --purpose one-off --title "<title>" --pub-date YYYY-MM-DD --host "<host>" --show "<show>" --thread "<thread>" --channel-slug "<slug>" --file-prefix "<prefix>" --guest "<guest>"
 ```
 
-If the fetch fails, use `.codex-tmp/youtube-raw-input/<run-id>/manual-transcript-scaffolds/`. The scaffold is a receipt-only draft with exact frontmatter, target path, paste marker, and verification command; it must not be treated as captured raw-input until a human replaces the marker with a real transcript body and the verifier accepts it.
+If the fetch fails, use `.codex-tmp/youtube-raw-input/<run-id>/manual-curation-queue.md` plus `manual-transcript-scaffolds/`. The queue is the human inbox. Each scaffold row includes a receipt-only `.draft.md`, `.paste-body.txt` buffer, target canonical path, paste marker, curator notes, and verification helper. It must not be treated as captured raw-input until a human replaces the marker with a real transcript body and the verifier accepts it.
 
 Densification tranche examples:
 
