@@ -2,6 +2,8 @@
 
 WORK only; not Record.
 
+object_shape: cross-host-reinforced
+
 Purpose: define Sachs as a first-class speaker object in a way that matches his real utility in the notebook. Unlike Mercouris, Parsi, or Pape, Sachs does not have one thick native cognition stream body here. Unlike Marandi or Ritter, he is not yet best described by a mature multi-host helix. Sachs is best read as a **cross-host reinforced macro-order and institutional-breakdown object**.
 
 ## Core claim

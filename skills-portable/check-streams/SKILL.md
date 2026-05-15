@@ -116,6 +116,7 @@ If a stream has no upload on the target day, say so explicitly.
 7. **Suggest speaker-folder routing**
    - After approved items are materialized, inspect metadata, title, host, guest, and obvious `thread:` identity.
    - Suggest likely speaker-folder targets such as `codex/<year>/speakers/<speaker>/` or stream-local speaker arcs such as `codex/<year>/<host-stream>/<host>-<guest>-speaker-arc.md`.
+   - For a durable advisory queue, run `python scripts/build_speaker_routing_queue.py --start YYYY-MM-DD --end YYYY-MM-DD` and review `artifacts/speaker-routing/<start>_to_<end>/speaker-routing-queue.md`.
    - Prefer existing speaker objects and arcs before proposing new ones.
    - If no clear speaker route exists, say so and stop at raw-input.
    - Treat lattice rows as lookup pointers; update them only after the speaker object or arc path is clear and the operator asks for that follow-up.
@@ -220,6 +221,7 @@ When checking whether a day is complete:
 - treat outside-channel collabs as separate from the four-stream watchlist even if the guest/host overlaps
 - never claim a day is "complete" unless the discovery receipt and the local materialized set have both been checked
 - when you need a computed score, repair queue, and durable receipts, run `python scripts/cognition_streams_audit.py --start YYYY-MM-DD --end YYYY-MM-DD --recent-start YYYY-MM-DD` against the active `/codex/<year>` notebook root
+- when you need a derived speaker-routing queue after materialization, run `python scripts/build_speaker_routing_queue.py --start YYYY-MM-DD --end YYYY-MM-DD`; this emits advisory artifacts only and does not edit speaker folders
 
 ## Output shape
 

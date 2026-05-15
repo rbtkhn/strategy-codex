@@ -39,5 +39,6 @@ Grace-mar paths and commands for this repository (from `.cursor/skills/check-str
 ```powershell
 python scripts/sync_portable_skills.py --skill check-streams
 python scripts/sync_portable_skills.py --verify --skill check-streams
+python scripts/build_speaker_routing_queue.py --start YYYY-MM-DD --end YYYY-MM-DD
 python scripts/validate_skills.py
 ```
