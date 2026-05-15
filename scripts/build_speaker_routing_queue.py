@@ -36,6 +36,13 @@ ROUTE_TYPES = {
     "candidate-speaker-arc",
     "no-clear-route",
 }
+NEXT_ACTIONS = {
+    "update-existing-arc",
+    "review-existing-object",
+    "create-candidate-arc",
+    "create-candidate-object",
+    "no-action",
+}
 FRONTMATTER_RE = re.compile(r"^---\s*\n(.*?)\n---\s*\n", re.DOTALL)
 
 
@@ -44,6 +51,7 @@ class SpeakerInventory:
     speakers_dir: Path
     speaker_folders: dict[str, Path]
     speaker_objects: dict[str, Path]
+    speaker_comparative_notes: dict[str, list[Path]]
     arcs: dict[tuple[str, str], Path]
 
 
@@ -118,6 +126,15 @@ def _discover_inventory(speakers_dir: Path, notebook_root: Path) -> SpeakerInven
             obj = folder / f"{folder.name}-speaker-object.md"
             if obj.exists():
                 speaker_objects[folder.name] = obj
+    speaker_comparative_notes: dict[str, list[Path]] = {}
+    for speaker, folder in speaker_folders.items():
+        notes = [
+            path
+            for path in sorted(folder.glob("*.md"))
+            if path.name.endswith("-cross-host-note.md") or "helix" in path.stem
+        ]
+        if notes:
+            speaker_comparative_notes[speaker] = notes
 
     arcs: dict[tuple[str, str], Path] = {}
     if notebook_root.exists():
@@ -134,6 +151,7 @@ def _discover_inventory(speakers_dir: Path, notebook_root: Path) -> SpeakerInven
         speakers_dir=speakers_dir,
         speaker_folders=speaker_folders,
         speaker_objects=speaker_objects,
+        speaker_comparative_notes=speaker_comparative_notes,
         arcs=arcs,
     )
 
@@ -168,6 +186,44 @@ def _match_arc(host_candidates: list[str], guest_slug: str, inventory: SpeakerIn
     return None
 
 
+def _speaker_strengthening_paths(speaker_slug: str | None, inventory: SpeakerInventory) -> list[str]:
+    if not speaker_slug:
+        return []
+    paths: list[str] = []
+    obj = inventory.speaker_objects.get(speaker_slug)
+    if obj:
+        paths.append(_rel(obj))
+    for note in inventory.speaker_comparative_notes.get(speaker_slug, []):
+        rel = _rel(note)
+        if rel not in paths:
+            paths.append(rel)
+    return paths
+
+
+def _route(
+    *,
+    recommended_route: str,
+    route_type: str,
+    confidence: str,
+    reason: str,
+    next_action: str,
+    also_strengthens: list[str] | None = None,
+) -> dict[str, Any]:
+    primary_route = recommended_route
+    also = [path for path in (also_strengthens or []) if path and path != primary_route]
+    if next_action not in NEXT_ACTIONS:
+        raise ValueError(f"unknown next_action {next_action!r}")
+    return {
+        "recommended_route": recommended_route,
+        "primary_route": primary_route,
+        "also_strengthens": also,
+        "route_type": route_type,
+        "confidence": confidence,
+        "next_action": next_action,
+        "reason": reason,
+    }
+
+
 def _candidate_object_path(guest_slug: str, inventory: SpeakerInventory) -> Path:
     return inventory.speakers_dir / guest_slug / f"{guest_slug}-speaker-object.md"
 
@@ -199,50 +255,80 @@ def route_raw_input(path: Path, meta: dict[str, Any], inventory: SpeakerInventor
     guest_slug = _match_speaker(guest, inventory) if guest else None
     thread_slug = _match_speaker(thread, inventory) if thread else None
     matched_speaker = guest_slug or thread_slug
+    guest_candidates = _slug_candidates(guest)
+    guessed_guest_slug = matched_speaker or (guest_candidates[-1] if guest_candidates else "")
 
-    if matched_speaker and matched_speaker in inventory.speaker_objects:
-        return {
-            "recommended_route": _rel(inventory.speaker_objects[matched_speaker]),
-            "route_type": "existing-speaker-object",
-            "confidence": "high",
-            "reason": f"Matched {'guest' if guest_slug else 'thread'} to existing speaker object `{matched_speaker}`.",
-        }
-
-    if guest:
-        guessed_guest_slug = guest_slug or _slug_candidates(guest)[-1]
+    if guessed_guest_slug:
         arc = _match_arc(host_candidates, guessed_guest_slug, inventory)
         if arc:
-            return {
-                "recommended_route": _rel(arc),
-                "route_type": "existing-speaker-arc",
-                "confidence": "high",
-                "reason": "Matched host plus guest to an existing host-local speaker arc.",
-            }
+            return _route(
+                recommended_route=_rel(arc),
+                route_type="existing-speaker-arc",
+                confidence="high",
+                next_action="update-existing-arc",
+                also_strengthens=_speaker_strengthening_paths(matched_speaker, inventory),
+                reason="Matched host plus guest to an existing host-local speaker arc.",
+            )
+
+    if matched_speaker and matched_speaker in inventory.speaker_objects:
+        also_strengthens: list[str] = []
+        next_action = "review-existing-object"
+        if guest and host_candidates:
+            candidate_arc = _candidate_arc_path(meta, guessed_guest_slug or matched_speaker, notebook_root)
+            also_strengthens.append(_rel(candidate_arc))
+            next_action = "create-candidate-arc"
+        also_strengthens.extend(_speaker_strengthening_paths(matched_speaker, inventory))
+        return _route(
+            recommended_route=_rel(inventory.speaker_objects[matched_speaker]),
+            route_type="existing-speaker-object",
+            confidence="high",
+            next_action=next_action,
+            also_strengthens=also_strengthens,
+            reason=f"Matched {'guest' if guest_slug else 'thread'} to existing speaker object `{matched_speaker}`.",
+        )
 
     if matched_speaker:
         candidate = _candidate_object_path(matched_speaker, inventory)
-        return {
-            "recommended_route": _rel(candidate),
-            "route_type": "candidate-speaker-object",
-            "confidence": "medium",
-            "reason": f"Matched {'guest' if guest_slug else 'thread'} to speaker folder `{matched_speaker}`, but no speaker object exists yet.",
-        }
+        return _route(
+            recommended_route=_rel(candidate),
+            route_type="candidate-speaker-object",
+            confidence="medium",
+            next_action="create-candidate-object",
+            reason=f"Matched {'guest' if guest_slug else 'thread'} to speaker folder `{matched_speaker}`, but no speaker object exists yet.",
+        )
 
-    if guest:
-        guest_candidate = _slug_candidates(guest)[-1]
-        candidate = _candidate_arc_path(meta, guest_candidate, notebook_root)
-        return {
-            "recommended_route": _rel(candidate),
-            "route_type": "candidate-speaker-arc",
-            "confidence": "medium",
-            "reason": "Guest metadata is present, but no existing speaker object or host-local arc matched.",
-        }
+    if guest and guest_candidates:
+        candidate = _candidate_arc_path(meta, guest_candidates[-1], notebook_root)
+        return _route(
+            recommended_route=_rel(candidate),
+            route_type="candidate-speaker-arc",
+            confidence="medium",
+            next_action="create-candidate-arc",
+            reason="Guest metadata is present, but no existing speaker object or host-local arc matched.",
+        )
 
+    return _route(
+        recommended_route="",
+        route_type="no-clear-route",
+        confidence="low",
+        next_action="no-action",
+        reason="No guest metadata, matching speaker folder, or matching speaker arc found.",
+    )
+
+
+def _appearance(path: Path, meta: dict[str, Any]) -> dict[str, str]:
+    guest = str(meta.get("guest") or "").strip()
+    thread = str(meta.get("thread") or "").strip()
     return {
-        "recommended_route": "",
-        "route_type": "no-clear-route",
-        "confidence": "low",
-        "reason": "No guest metadata, matching speaker folder, or matching speaker arc found.",
+        "speaker": guest or thread,
+        "guest": guest,
+        "host": str(meta.get("host") or ""),
+        "show": str(meta.get("show") or ""),
+        "thread": thread,
+        "pub_date": str(meta.get("pub_date") or meta.get("ingest_date") or path.parent.name),
+        "title": str(meta.get("title") or path.stem),
+        "source_url": str(meta.get("source_url") or ""),
+        "raw_input_path": _rel(path),
     }
 
 
@@ -254,19 +340,24 @@ def build_rows(raw_paths: list[Path], inventory: SpeakerInventory, notebook_root
         route_type = route["route_type"]
         if route_type not in ROUTE_TYPES:
             raise ValueError(f"unknown route_type {route_type!r}")
+        appearance = _appearance(path, meta)
         rows.append(
             {
-                "raw_input_path": _rel(path),
-                "pub_date": str(meta.get("pub_date") or meta.get("ingest_date") or path.parent.name),
-                "title": str(meta.get("title") or path.stem),
-                "source_url": str(meta.get("source_url") or ""),
-                "host": str(meta.get("host") or ""),
-                "show": str(meta.get("show") or ""),
-                "guest": str(meta.get("guest") or ""),
-                "thread": str(meta.get("thread") or ""),
+                "raw_input_path": appearance["raw_input_path"],
+                "pub_date": appearance["pub_date"],
+                "title": appearance["title"],
+                "source_url": appearance["source_url"],
+                "host": appearance["host"],
+                "show": appearance["show"],
+                "guest": appearance["guest"],
+                "thread": appearance["thread"],
                 "recommended_route": route["recommended_route"],
+                "primary_route": route["primary_route"],
+                "also_strengthens": route["also_strengthens"],
+                "appearance": appearance,
                 "route_type": route_type,
                 "confidence": route["confidence"],
+                "next_action": route["next_action"],
                 "reason": route["reason"],
             }
         )
@@ -296,9 +387,11 @@ def _render_markdown(rows: list[dict[str, Any]], start: date, end: date) -> str:
             title = row["title"].replace("\n", " ")
             lines.append(
                 f"- `{row['pub_date']}` `{row['confidence']}` [{title}]({row['source_url']}) "
-                f"-> `{route}`"
+                f"-> `{route}` (`{row['next_action']}`)"
             )
             lines.append(f"  - raw: `{row['raw_input_path']}`")
+            if row["also_strengthens"]:
+                lines.append(f"  - also strengthens: {', '.join(f'`{path}`' for path in row['also_strengthens'])}")
             lines.append(f"  - reason: {row['reason']}")
         lines.append("")
     return "\n".join(lines).rstrip() + "\n"
@@ -316,7 +409,12 @@ def write_outputs(rows: list[dict[str, Any]], output_dir: Path, start: date, end
     md_path = window_dir / "speaker-routing-queue.md"
     md_path.write_text(_render_markdown(rows, start, end), encoding="utf-8")
 
-    return {"jsonl": str(jsonl_path), "markdown": str(md_path)}
+    appearance_path = window_dir / "appearance-ledger.jsonl"
+    with appearance_path.open("w", encoding="utf-8", newline="") as fh:
+        for row in rows:
+            fh.write(json.dumps(row["appearance"], ensure_ascii=True, sort_keys=True) + "\n")
+
+    return {"jsonl": str(jsonl_path), "markdown": str(md_path), "appearance_ledger": str(appearance_path)}
 
 
 def parse_args(argv: list[str] | None = None) -> argparse.Namespace:

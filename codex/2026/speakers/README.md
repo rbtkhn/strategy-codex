@@ -12,7 +12,17 @@ WORK only; not Record.
 
 Speaker folders are the durable accumulation layer for recurring figures. Use them to accumulate judgment about who a speaker is in the notebook, why the speaker matters, where to open first, and what not to overclaim.
 
-Raw-input remains provenance. Speaker arcs remain host-local interpretation. Speaker objects remain orientation and routing. Speaker helixes and cross-host notes remain comparative surfaces. In this shelf, lattice rows are lookup pointers only; they may cite speaker folders, but they should not become the place where every interpretation lives.
+Raw-input remains provenance. An **appearance** is one derived host/speaker/date/source event from a verified raw-input capture. Speaker arcs remain host-local interpretation. Speaker objects remain orientation and routing. Speaker helixes and cross-host notes remain comparative surfaces. In this shelf, lattice rows are lookup pointers only; they may cite speaker folders, but they should not become the place where every interpretation lives.
+
+Default routing order after materialization:
+
+1. verify the raw-input body exists and is not a stub
+2. derive the appearance from frontmatter
+3. route the appearance to the best primary surface
+4. list additional surfaces the same appearance strengthens
+5. update speaker memory only when the operator explicitly asks
+
+The derived speaker-routing queue may point at multiple surfaces. A host-local speaker arc can be the primary route while the same appearance also strengthens a speaker object or cross-host note.
 
 Canonical templates:
 

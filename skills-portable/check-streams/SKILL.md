@@ -30,17 +30,18 @@ Treat `check streams` as the intake gate, not the durable interpretation layer.
 
 - **`check streams`** = daily discovery, clip filtering, and operator selection
 - **`youtube transcript`** = subtitle/materialization layer for approved URLs
+- **appearance** = one normalized host/speaker/date/source event derived from verified `raw-input`
 - **speaker folders** = durable accumulation layer for speaker objects, speaker arcs, helixes, and cross-year notes
 - **lattice / cognition-streams surfaces** = secondary lookup and analysis views over accumulated speaker material
 
-After materialization, prefer asking **which speaker object or speaker arc this strengthens** before updating lattice surfaces. Do not create or update speaker objects automatically from the daily check unless the operator explicitly asks.
+After materialization, prefer asking **which appearance was created and which route stack it strengthens** before updating lattice surfaces. Do not create or update speaker objects automatically from the daily check unless the operator explicitly asks.
 
 ## Layering rule
 
 - Start with **`check streams`** when the task is "what went up today across the tracked streams?"
 - Start with **`youtube transcript`** when the task is "turn this specific YouTube URL into canonical raw-input."
 - If the daily roster check produces approved URLs, hand each selected item down to the lower-layer YouTube transcript workflow for the actual materialization step.
-- After materialization, produce speaker-folder routing hints when the transcript clearly names a recurring speaker, guest lane, or existing `codex/<year>/speakers/<speaker>/` folder.
+- After materialization, produce speaker-folder routing hints when the transcript clearly names a recurring speaker, guest lane, or existing `codex/<year>/speakers/<speaker>/` folder; treat the verified capture as an appearance before making interpretation claims.
 - If the operator approves a guest-and-host backlog such as `Glenn x Marandi`, treat that as a valid batched handoff shape and pass the exact approved URLs down as one tranche.
 
 ## When to run
@@ -122,9 +123,10 @@ If a stream has no upload on the target day, say so explicitly.
 
 7. **Suggest speaker-folder routing**
    - After approved items are materialized and verified as non-stub raw-input, inspect metadata, title, host, guest, and obvious `thread:` identity.
-   - Suggest likely speaker-folder targets such as `codex/<year>/speakers/<speaker>/` or stream-local speaker arcs such as `codex/<year>/<host-stream>/<host>-<guest>-speaker-arc.md`.
-   - For a durable advisory queue, run `python scripts/build_speaker_routing_queue.py --start YYYY-MM-DD --end YYYY-MM-DD` and review `artifacts/speaker-routing/<start>_to_<end>/speaker-routing-queue.md`.
-   - Prefer existing speaker objects and arcs before proposing new ones.
+   - Treat each verified capture as an **appearance**: one host/speaker/date/source event derived from raw-input, not a durable interpretation by itself.
+   - Suggest the route stack: primary route first, then any speaker object, stream-local speaker arc, helix, or cross-host note the same appearance also strengthens.
+   - For a durable advisory queue, run `python scripts/build_speaker_routing_queue.py --start YYYY-MM-DD --end YYYY-MM-DD` and review `artifacts/speaker-routing/<start>_to_<end>/speaker-routing-queue.md` plus `appearance-ledger.jsonl`.
+   - Prefer existing host-local speaker arcs as the primary route when host + guest match; list matching speaker objects or helix/cross-host notes as additional strengthened surfaces.
    - If no clear speaker route exists, say so and stop at raw-input.
    - Treat lattice rows as lookup pointers; update them only after the speaker object or arc path is clear and the operator asks for that follow-up.
 
@@ -228,7 +230,7 @@ When checking whether a day is complete:
 - treat outside-channel collabs as separate from the four-stream watchlist even if the guest/host overlaps
 - never claim a day is "complete" unless the discovery receipt and the local materialized set have both been checked
 - when you need a computed score, repair queue, and durable receipts, run `python scripts/cognition_streams_audit.py --start YYYY-MM-DD --end YYYY-MM-DD --recent-start YYYY-MM-DD` against the active `/codex/<year>` notebook root
-- when you need a derived speaker-routing queue after materialization, run `python scripts/build_speaker_routing_queue.py --start YYYY-MM-DD --end YYYY-MM-DD`; this emits advisory artifacts only and does not edit speaker folders
+- when you need a derived speaker-routing queue after materialization, run `python scripts/build_speaker_routing_queue.py --start YYYY-MM-DD --end YYYY-MM-DD`; this emits advisory queue and appearance-ledger artifacts only and does not edit speaker folders
 
 ## Output shape
 
@@ -254,7 +256,8 @@ After operator selection, report only the approved items being materialized and 
 
 ```markdown
 ## Speaker routing hints
-- <raw-input file> -> <speaker folder or speaker arc candidate> — <why>
+- <raw-input file> -> <primary speaker route> — <next action> — <why>
+- also strengthens: <speaker object / speaker arc / helix / cross-host note paths, if any>
 ```
 
 Use "candidate" when the target does not exist yet or would require a new speaker object / speaker arc decision.

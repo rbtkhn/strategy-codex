@@ -14,6 +14,12 @@ if str(SCRIPTS) not in sys.path:
 import build_speaker_routing_queue as srq  # noqa: E402
 
 
+def _endswith_all(values: list[str], suffixes: list[str]) -> bool:
+    if len(values) != len(suffixes):
+        return False
+    return all(value.replace("\\", "/").endswith(suffix) for value, suffix in zip(values, suffixes))
+
+
 def _write_raw(
     raw_root: Path,
     name: str,
@@ -49,7 +55,7 @@ def _inventory(tmp_path: Path) -> tuple[Path, Path, srq.SpeakerInventory]:
     return notebook, speakers, inventory
 
 
-def test_guest_matching_existing_speaker_object_routes_to_object(tmp_path: Path) -> None:
+def test_guest_matching_existing_speaker_object_routes_to_object_and_candidate_arc_action(tmp_path: Path) -> None:
     notebook, speakers, _ = _inventory(tmp_path)
     obj = speakers / "ritter" / "ritter-speaker-object.md"
     obj.parent.mkdir(parents=True)
@@ -68,7 +74,49 @@ def test_guest_matching_existing_speaker_object_routes_to_object(tmp_path: Path)
 
     assert row["route_type"] == "existing-speaker-object"
     assert row["recommended_route"].endswith("speakers/ritter/ritter-speaker-object.md")
+    assert row["primary_route"] == row["recommended_route"]
+    assert row["next_action"] == "create-candidate-arc"
+    assert row["also_strengthens"][0].endswith("codex/2026/alkorshid/alkorshid-ritter-speaker-arc.md")
+    assert row["appearance"]["speaker"] == "Scott Ritter"
+    assert row["appearance"]["raw_input_path"].endswith(
+        "codex/2026/raw-input/2026-05-12/dialogue-works-ritter.md"
+    )
     assert row["confidence"] == "high"
+
+
+def test_existing_speaker_object_and_arc_routes_to_arc_primary(tmp_path: Path) -> None:
+    notebook, speakers, _ = _inventory(tmp_path)
+    obj = speakers / "macgregor" / "macgregor-speaker-object.md"
+    obj.parent.mkdir(parents=True)
+    obj.write_text("# Macgregor speaker object\n", encoding="utf-8")
+    note = obj.parent / "macgregor-cross-host-note.md"
+    note.write_text("# Macgregor cross-host note\n", encoding="utf-8")
+    arc = notebook / "davis" / "davis-macgregor-speaker-arc.md"
+    arc.parent.mkdir(parents=True)
+    arc.write_text("# Davis x Macgregor\n", encoding="utf-8")
+    inventory = srq._discover_inventory(speakers, notebook)
+    raw = _write_raw(
+        notebook / "raw-input",
+        "davis-macgregor.md",
+        guest="Douglas Macgregor",
+        host="Daniel Davis",
+        show="Daniel Davis / Deep Dive",
+        thread="davis",
+    )
+
+    row = srq.build_rows([raw], inventory, notebook)[0]
+
+    assert row["route_type"] == "existing-speaker-arc"
+    assert row["recommended_route"].endswith("davis/davis-macgregor-speaker-arc.md")
+    assert row["primary_route"] == row["recommended_route"]
+    assert row["next_action"] == "update-existing-arc"
+    assert _endswith_all(
+        row["also_strengthens"],
+        [
+            "codex/2026/speakers/macgregor/macgregor-speaker-object.md",
+            "codex/2026/speakers/macgregor/macgregor-cross-host-note.md",
+        ],
+    )
 
 
 def test_host_guest_matching_existing_speaker_arc_routes_to_arc(tmp_path: Path) -> None:
@@ -90,6 +138,7 @@ def test_host_guest_matching_existing_speaker_arc_routes_to_arc(tmp_path: Path) 
 
     assert row["route_type"] == "existing-speaker-arc"
     assert row["recommended_route"].endswith("davis/davis-macgregor-speaker-arc.md")
+    assert row["next_action"] == "update-existing-arc"
 
 
 def test_existing_speaker_folder_without_object_routes_to_candidate_object(tmp_path: Path) -> None:
@@ -109,6 +158,9 @@ def test_existing_speaker_folder_without_object_routes_to_candidate_object(tmp_p
 
     assert row["route_type"] == "candidate-speaker-object"
     assert row["recommended_route"].endswith("speakers/freeman/freeman-speaker-object.md")
+    assert row["primary_route"] == row["recommended_route"]
+    assert row["also_strengthens"] == []
+    assert row["next_action"] == "create-candidate-object"
 
 
 def test_guest_without_object_or_arc_routes_to_candidate_arc(tmp_path: Path) -> None:
@@ -126,6 +178,8 @@ def test_guest_without_object_or_arc_routes_to_candidate_arc(tmp_path: Path) -> 
 
     assert row["route_type"] == "candidate-speaker-arc"
     assert row["recommended_route"].endswith("diesen/diesen-guest-speaker-arc.md")
+    assert row["appearance"]["speaker"] == "Example Guest"
+    assert row["next_action"] == "create-candidate-arc"
 
 
 def test_monologue_without_matching_speaker_route_is_no_clear_route(tmp_path: Path) -> None:
@@ -142,6 +196,9 @@ def test_monologue_without_matching_speaker_route_is_no_clear_route(tmp_path: Pa
 
     assert row["route_type"] == "no-clear-route"
     assert row["recommended_route"] == ""
+    assert row["primary_route"] == ""
+    assert row["also_strengthens"] == []
+    assert row["next_action"] == "no-action"
 
 
 def test_writes_markdown_and_jsonl_with_stable_fields(tmp_path: Path) -> None:
@@ -160,6 +217,7 @@ def test_writes_markdown_and_jsonl_with_stable_fields(tmp_path: Path) -> None:
 
     jsonl_path = Path(written["jsonl"])
     md_path = Path(written["markdown"])
+    appearance_path = Path(written["appearance_ledger"])
     payload = json.loads(jsonl_path.read_text(encoding="utf-8").splitlines()[0])
     assert set(payload) == {
         "raw_input_path",
@@ -171,8 +229,15 @@ def test_writes_markdown_and_jsonl_with_stable_fields(tmp_path: Path) -> None:
         "guest",
         "thread",
         "recommended_route",
+        "primary_route",
+        "also_strengthens",
+        "appearance",
         "route_type",
         "confidence",
+        "next_action",
         "reason",
     }
+    appearance = json.loads(appearance_path.read_text(encoding="utf-8").splitlines()[0])
+    assert appearance == payload["appearance"]
     assert "## candidate-speaker-arc" in md_path.read_text(encoding="utf-8")
+    assert "`create-candidate-arc`" in md_path.read_text(encoding="utf-8")
