@@ -30,6 +30,13 @@ from yaml_compat import safe_load_text  # noqa: E402
 DEFAULT_NOTEBOOK_ROOT = REPO_ROOT / "codex" / str(date.today().year)
 DEFAULT_SPEAKERS_DIR = DEFAULT_NOTEBOOK_ROOT / "speakers"
 DEFAULT_OUT_DIR = REPO_ROOT / "artifacts" / "speaker-routing"
+EVIDENCE_GRADES = {
+    "transcript-grade",
+    "cleaned-transcript",
+    "transcript-bearing",
+    "summary-grade",
+    "legacy-appearance-only",
+}
 ROUTE_TYPES = {
     "existing-speaker-object",
     "existing-speaker-arc",
@@ -218,6 +225,25 @@ def _host_candidates(meta: dict[str, Any]) -> list[str]:
     return candidates
 
 
+def classify_evidence_grade(meta: dict[str, Any], verification_reason: str = "") -> str:
+    verification_lower = verification_reason.casefold()
+    kind = str(meta.get("kind") or "").strip().casefold()
+    source_type = str(meta.get("source_type") or "").strip().casefold()
+    transcript_type = str(meta.get("transcript_type") or "").strip().casefold()
+
+    if "appearance-eligible legacy raw-input" in verification_lower:
+        return "legacy-appearance-only"
+    if "operator_summary" in transcript_type or source_type.startswith("operator-note-derived"):
+        return "summary-grade"
+    if kind == "cleaned-transcript":
+        return "cleaned-transcript"
+    if kind == "transcript" and transcript_type == "manual_subtitles_vtt":
+        return "transcript-grade"
+    if kind == "transcript":
+        return "transcript-bearing"
+    return "legacy-appearance-only"
+
+
 def _canonical_host_slug(meta: dict[str, Any]) -> str:
     hostish: list[str] = []
     for key in ("channel_slug", "show", "series", "host", "hosts"):
@@ -299,17 +325,22 @@ def _candidate_arc_path(meta: dict[str, Any], guest_slug: str, notebook_root: Pa
     return notebook_root / host_dir / f"{host_slug}-{guest_slug}-speaker-arc.md"
 
 
-def route_raw_input(path: Path, meta: dict[str, Any], inventory: SpeakerInventory, notebook_root: Path) -> dict[str, Any]:
-    title = str(meta.get("title") or path.stem)
+def _resolved_speaker(meta: dict[str, Any], inventory: SpeakerInventory) -> tuple[str, str]:
     guest = str(meta.get("guest") or "").strip()
-    thread = str(meta.get("thread") or "").strip()
-    host_candidates = _host_candidates(meta)
-
-    guest_slug = _match_speaker(guest, inventory) if guest else None
-    thread_slug = _match_speaker(thread, inventory) if thread else None
-    matched_speaker = guest_slug or thread_slug
+    if not guest:
+        return "", ""
+    guest_slug = _match_speaker(guest, inventory)
+    if guest_slug:
+        return guest_slug, "guest-metadata-match"
     guest_candidates = _slug_candidates(guest)
-    guessed_guest_slug = matched_speaker or (guest_candidates[-1] if guest_candidates else "")
+    return (guest_candidates[-1], "guest-metadata-slug") if guest_candidates else ("", "")
+
+
+def route_raw_input(path: Path, meta: dict[str, Any], inventory: SpeakerInventory, notebook_root: Path) -> dict[str, Any]:
+    guest = str(meta.get("guest") or "").strip()
+    host_candidates = _host_candidates(meta)
+    guessed_guest_slug, _speaker_resolution = _resolved_speaker(meta, inventory)
+    matched_speaker = guessed_guest_slug if guessed_guest_slug in inventory.speaker_folders else None
 
     if guessed_guest_slug:
         arc = _match_arc(host_candidates, guessed_guest_slug, inventory)
@@ -337,7 +368,7 @@ def route_raw_input(path: Path, meta: dict[str, Any], inventory: SpeakerInventor
             confidence="high",
             next_action=next_action,
             also_strengthens=also_strengthens,
-            reason=f"Matched {'guest' if guest_slug else 'thread'} to existing speaker object `{matched_speaker}`.",
+            reason=f"Matched guest metadata to existing speaker object `{matched_speaker}`.",
         )
 
     if matched_speaker:
@@ -347,11 +378,11 @@ def route_raw_input(path: Path, meta: dict[str, Any], inventory: SpeakerInventor
             route_type="candidate-speaker-object",
             confidence="medium",
             next_action="create-candidate-object",
-            reason=f"Matched {'guest' if guest_slug else 'thread'} to speaker folder `{matched_speaker}`, but no speaker object exists yet.",
+            reason=f"Matched guest metadata to speaker folder `{matched_speaker}`, but no speaker object exists yet.",
         )
 
-    if guest and guest_candidates:
-        candidate = _candidate_arc_path(meta, guest_candidates[-1], notebook_root)
+    if guest and guessed_guest_slug:
+        candidate = _candidate_arc_path(meta, guessed_guest_slug, notebook_root)
         return _route(
             recommended_route=_rel(candidate),
             route_type="candidate-speaker-arc",
@@ -360,33 +391,22 @@ def route_raw_input(path: Path, meta: dict[str, Any], inventory: SpeakerInventor
             reason="Guest metadata is present, but no existing speaker object or host-local arc matched.",
         )
 
-    return _route(
-        recommended_route="",
-        route_type="no-clear-route",
-        confidence="low",
-        next_action="no-action",
-        reason="No guest metadata, matching speaker folder, or matching speaker arc found.",
-    )
+    return {}
 
 
 def _appearance(path: Path, meta: dict[str, Any], inventory: SpeakerInventory) -> dict[str, str]:
     guest = str(meta.get("guest") or "").strip()
     thread = str(meta.get("thread") or "").strip()
-    speaker_slug = ""
-    for value in (guest, thread):
-        if not value:
-            continue
-        speaker_slug = _match_speaker(value, inventory) or (_slug_candidates(value)[-1] if _slug_candidates(value) else "")
-        if speaker_slug:
-            break
+    speaker_slug, speaker_resolution = _resolved_speaker(meta, inventory)
     host_slug = _canonical_host_slug(meta)
     pub_date = str(meta.get("pub_date") or meta.get("ingest_date") or path.parent.name)
     raw_input_path = _rel(path)
     source_url = str(meta.get("source_url") or "")
-    identity = "|".join([source_url.casefold(), raw_input_path, pub_date, speaker_slug, host_slug])
+    youtube_id = str(meta.get("youtube_id") or "").strip()
+    identity = "|".join([source_url.casefold(), youtube_id.casefold(), pub_date, speaker_slug, host_slug])
     return {
         "appearance_id": f"ap-{hashlib.sha1(identity.encode('utf-8')).hexdigest()[:12]}",
-        "speaker": guest or thread,
+        "speaker": guest,
         "speaker_slug": speaker_slug,
         "guest": guest,
         "host": str(meta.get("host") or ""),
@@ -396,7 +416,10 @@ def _appearance(path: Path, meta: dict[str, Any], inventory: SpeakerInventory) -
         "pub_date": pub_date,
         "title": str(meta.get("title") or path.stem),
         "source_url": source_url,
+        "youtube_id": youtube_id,
         "raw_input_path": raw_input_path,
+        "speaker_resolution": speaker_resolution,
+        "guest_inference": str(meta.get("guest_inference") or ""),
     }
 
 
@@ -404,11 +427,16 @@ def build_rows(raw_paths: list[Path], inventory: SpeakerInventory, notebook_root
     rows: list[dict[str, Any]] = []
     for path in raw_paths:
         meta = _read_frontmatter(path)
+        appearance = _appearance(path, meta, inventory)
+        if not appearance["speaker_slug"]:
+            continue
         route = route_raw_input(path, meta, inventory, notebook_root)
-        route_type = route["route_type"]
+        route_type = route.get("route_type", "")
         if route_type not in ROUTE_TYPES:
             raise ValueError(f"unknown route_type {route_type!r}")
-        appearance = _appearance(path, meta, inventory)
+        evidence_grade = classify_evidence_grade(meta)
+        if evidence_grade not in EVIDENCE_GRADES:
+            raise ValueError(f"unknown evidence_grade {evidence_grade!r}")
         rows.append(
             {
                 "raw_input_path": appearance["raw_input_path"],
@@ -423,10 +451,36 @@ def build_rows(raw_paths: list[Path], inventory: SpeakerInventory, notebook_root
                 "primary_route": route["primary_route"],
                 "also_strengthens": route["also_strengthens"],
                 "appearance": appearance,
+                "evidence_grade": evidence_grade,
                 "route_type": route_type,
                 "confidence": route["confidence"],
                 "next_action": route["next_action"],
                 "reason": route["reason"],
+            }
+        )
+    return rows
+
+
+def build_unresolved_rows(raw_paths: list[Path], inventory: SpeakerInventory) -> list[dict[str, Any]]:
+    rows: list[dict[str, Any]] = []
+    for path in raw_paths:
+        meta = _read_frontmatter(path)
+        appearance = _appearance(path, meta, inventory)
+        if appearance["speaker_slug"]:
+            continue
+        rows.append(
+            {
+                "raw_input_path": appearance["raw_input_path"],
+                "pub_date": appearance["pub_date"],
+                "title": appearance["title"],
+                "source_url": appearance["source_url"],
+                "host": appearance["host"],
+                "show": appearance["show"],
+                "guest": appearance["guest"],
+                "thread": appearance["thread"],
+                "appearance": appearance,
+                "evidence_grade": classify_evidence_grade(meta),
+                "reason": "Guest metadata is absent or ambiguous, so no speaker appearance was emitted.",
             }
         )
     return rows
@@ -455,7 +509,7 @@ def _render_markdown(rows: list[dict[str, Any]], start: date, end: date) -> str:
             title = row["title"].replace("\n", " ")
             lines.append(
                 f"- `{row['pub_date']}` `{row['confidence']}` [{title}]({row['source_url']}) "
-                f"-> `{route}` (`{row['next_action']}`)"
+                f"-> `{route}` (`{row['next_action']}`) evidence `{row['evidence_grade']}`"
             )
             lines.append(f"  - raw: `{row['raw_input_path']}`")
             if row["also_strengthens"]:

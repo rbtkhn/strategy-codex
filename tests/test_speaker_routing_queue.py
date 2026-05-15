@@ -81,10 +81,12 @@ def test_guest_matching_existing_speaker_object_routes_to_object_and_candidate_a
     assert row["appearance"]["speaker"] == "Scott Ritter"
     assert row["appearance"]["speaker_slug"] == "ritter"
     assert row["appearance"]["host_slug"] == "alkorshid"
+    assert row["appearance"]["speaker_resolution"] == "guest-metadata-match"
     assert row["appearance"]["raw_input_path"].endswith(
         "codex/2026/raw-input/2026-05-12/dialogue-works-ritter.md"
     )
     assert row["confidence"] == "high"
+    assert row["evidence_grade"] == "legacy-appearance-only"
 
 
 def test_existing_speaker_object_and_arc_routes_to_arc_primary(tmp_path: Path) -> None:
@@ -185,9 +187,11 @@ def test_guest_without_object_or_arc_routes_to_candidate_arc(tmp_path: Path) -> 
     assert row["appearance"]["speaker_slug"] == "guest"
     assert row["appearance"]["host_slug"] == "diesen"
     assert row["next_action"] == "create-candidate-arc"
+    assert row["appearance"]["speaker_resolution"] == "guest-metadata-slug"
+    assert row["evidence_grade"] == "legacy-appearance-only"
 
 
-def test_monologue_without_matching_speaker_route_is_no_clear_route(tmp_path: Path) -> None:
+def test_monologue_without_matching_speaker_produces_no_route_row(tmp_path: Path) -> None:
     notebook, _speakers, inventory = _inventory(tmp_path)
     raw = _write_raw(
         notebook / "raw-input",
@@ -197,13 +201,13 @@ def test_monologue_without_matching_speaker_route_is_no_clear_route(tmp_path: Pa
         thread="mercouris",
     )
 
-    row = srq.build_rows([raw], inventory, notebook)[0]
+    rows = srq.build_rows([raw], inventory, notebook)
+    unresolved = srq.build_unresolved_rows([raw], inventory)
 
-    assert row["route_type"] == "no-clear-route"
-    assert row["recommended_route"] == ""
-    assert row["primary_route"] == ""
-    assert row["also_strengthens"] == []
-    assert row["next_action"] == "no-action"
+    assert rows == []
+    assert len(unresolved) == 1
+    assert unresolved[0]["appearance"]["speaker_slug"] == ""
+    assert unresolved[0]["reason"].startswith("Guest metadata is absent or ambiguous")
 
 
 def test_writes_markdown_and_jsonl_with_stable_fields(tmp_path: Path) -> None:
@@ -237,6 +241,7 @@ def test_writes_markdown_and_jsonl_with_stable_fields(tmp_path: Path) -> None:
         "primary_route",
         "also_strengthens",
         "appearance",
+        "evidence_grade",
         "route_type",
         "confidence",
         "next_action",
@@ -247,8 +252,11 @@ def test_writes_markdown_and_jsonl_with_stable_fields(tmp_path: Path) -> None:
     assert appearance["appearance_id"].startswith("ap-")
     assert appearance["speaker_slug"] == "guest"
     assert appearance["host_slug"] == "diesen"
-    assert "## candidate-speaker-arc" in md_path.read_text(encoding="utf-8")
-    assert "`create-candidate-arc`" in md_path.read_text(encoding="utf-8")
+    assert payload["evidence_grade"] == "legacy-appearance-only"
+    md_text = md_path.read_text(encoding="utf-8")
+    assert "## candidate-speaker-arc" in md_text
+    assert "`create-candidate-arc`" in md_text
+    assert "evidence `legacy-appearance-only`" in md_text
 
 
 def test_appearance_id_is_deterministic(tmp_path: Path) -> None:
@@ -296,6 +304,7 @@ def test_explicit_raw_input_path_mode_preserves_row_shape(tmp_path: Path) -> Non
         "primary_route",
         "also_strengthens",
         "appearance",
+        "evidence_grade",
         "route_type",
         "confidence",
         "next_action",
@@ -372,6 +381,7 @@ def test_legacy_host_metadata_keeps_host_slug_separate_from_thread(tmp_path: Pat
     assert row["recommended_route"].endswith("napolitano/napolitano-johnson-speaker-arc.md")
     assert row["appearance"]["speaker_slug"] == "johnson"
     assert row["appearance"]["host_slug"] == "napolitano"
+    assert row["evidence_grade"] == "legacy-appearance-only"
 
 
 def test_davis_ranked_host_alias_canonicalizes_to_davis(tmp_path: Path) -> None:
@@ -434,3 +444,98 @@ def test_dialogue_works_short_host_alias_canonicalizes_to_alkorshid(tmp_path: Pa
     assert row["recommended_route"].endswith("alkorshid/alkorshid-freeman-speaker-arc.md")
     assert row["appearance"]["speaker_slug"] == "freeman"
     assert row["appearance"]["host_slug"] == "alkorshid"
+
+
+def test_cleaned_transcript_grade_is_preserved(tmp_path: Path) -> None:
+    notebook, speakers, _inventory_obj = _inventory(tmp_path)
+    obj = speakers / "johnson" / "johnson-speaker-object.md"
+    obj.parent.mkdir(parents=True)
+    obj.write_text("# Johnson\n", encoding="utf-8")
+    arc = notebook / "davis" / "davis-johnson-speaker-arc.md"
+    arc.parent.mkdir(parents=True)
+    arc.write_text("# Davis x Johnson\n", encoding="utf-8")
+    raw = notebook / "raw-input" / "2026-05-05" / "davis-johnson.md"
+    raw.parent.mkdir(parents=True)
+    raw.write_text(
+        "---\n"
+        "pub_date: 2026-05-05\n"
+        "title: Johnson on Hormuz\n"
+        "source_url: https://www.youtube.com/watch?v=example\n"
+        "kind: cleaned-transcript\n"
+        "source_type: youtube\n"
+        "transcript_type: auto_subtitles_vtt\n"
+        "source_note: Auto-captions extracted with yt_dlp.\n"
+        "host: Daniel Davis\n"
+        "show: Daniel Davis Deep Dive\n"
+        "guest: Larry Johnson\n"
+        "thread: davis\n"
+        "---\n"
+        "body\n",
+        encoding="utf-8",
+    )
+    inventory = srq._discover_inventory(speakers, notebook)
+
+    row = srq.build_rows([raw], inventory, notebook)[0]
+
+    assert row["evidence_grade"] == "cleaned-transcript"
+
+
+def test_summary_grade_is_preserved(tmp_path: Path) -> None:
+    notebook, speakers, _inventory_obj = _inventory(tmp_path)
+    obj = speakers / "mearsheimer" / "mearsheimer-speaker-object.md"
+    obj.parent.mkdir(parents=True)
+    obj.write_text("# Mearsheimer\n", encoding="utf-8")
+    arc = notebook / "napolitano" / "napolitano-mearsheimer-speaker-arc.md"
+    arc.parent.mkdir(parents=True)
+    arc.write_text("# Napolitano x Mearsheimer\n", encoding="utf-8")
+    raw = notebook / "raw-input" / "2026-04-28" / "napolitano-mearsheimer.md"
+    raw.parent.mkdir(parents=True)
+    raw.write_text(
+        "---\n"
+        "pub_date: 2026-04-28\n"
+        "title: Mearsheimer on how Trump lost his war\n"
+        "source_url: https://www.youtube.com/watch?v=example\n"
+        "source_type: operator-note-derived-youtube\n"
+        "transcript_type: operator_summary_from_cleaned_transcript\n"
+        "editorial_note: summary\n"
+        "host: Judge Andrew Napolitano\n"
+        "guest: John Mearsheimer\n"
+        "thread: mearsheimer\n"
+        "---\n"
+        "body\n",
+        encoding="utf-8",
+    )
+    inventory = srq._discover_inventory(speakers, notebook)
+
+    row = srq.build_rows([raw], inventory, notebook)[0]
+
+    assert row["evidence_grade"] == "summary-grade"
+
+
+def test_appearance_id_is_stable_across_file_renames(tmp_path: Path) -> None:
+    notebook, _speakers, inventory = _inventory(tmp_path)
+    raw1 = _write_raw(
+        notebook / "raw-input",
+        "first-name.md",
+        guest="Example Guest",
+        host="Glenn Diesen",
+        show="Glenn Diesen",
+        thread="diesen",
+    )
+    raw2 = _write_raw(
+        notebook / "raw-input",
+        "second-name.md",
+        guest="Example Guest",
+        host="Glenn Diesen",
+        show="Glenn Diesen",
+        thread="diesen",
+    )
+    for raw in (raw1, raw2):
+        text = raw.read_text(encoding="utf-8")
+        text = text.replace("source_url: https://www.youtube.com/watch?v=example", "source_url: https://www.youtube.com/watch?v=sameid12345")
+        raw.write_text(text, encoding="utf-8")
+
+    first = srq.build_rows([raw1], inventory, notebook)[0]
+    second = srq.build_rows([raw2], inventory, notebook)[0]
+
+    assert first["appearance"]["appearance_id"] == second["appearance"]["appearance_id"]

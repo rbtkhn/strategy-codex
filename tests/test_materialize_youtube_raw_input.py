@@ -224,6 +224,7 @@ def test_write_receipts_outputs_ledger_and_summary(tmp_path: Path) -> None:
                 "output_path": "codex/2026/raw-input/2026-05-12/example.md",
                 "verification_reason": "ok",
                 "body_word_count": 90,
+                "evidence_grade": "transcript-bearing",
             }
         ],
         receipt_dir,
@@ -348,6 +349,7 @@ def test_main_with_appearances_writes_capture_packet(tmp_path: Path, monkeypatch
     route_payload = json.loads(routing_files[0].read_text(encoding="utf-8").splitlines()[0])
     assert route_payload["appearance"]["speaker_slug"] == "ritter"
     assert route_payload["route_type"] == "existing-speaker-arc"
+    assert route_payload["evidence_grade"] == "transcript-bearing"
     raw_text = next(notebook_root.rglob("youtube-glenn-diesen-scott-ritter-escalation-lessons-*.md")).read_text(
         encoding="utf-8"
     )
@@ -429,8 +431,9 @@ def test_existing_legacy_raw_input_can_route_for_appearance(tmp_path: Path) -> N
 
     result = mat.materialize_existing_raw_input(raw)
 
-    assert result["status"] == "already-present-valid"
+    assert result["status"] == "already-present-legacy"
     assert result["existing_raw_input"] is True
+    assert result["evidence_grade"] == "legacy-appearance-only"
     assert "appearance-eligible legacy raw-input" in result["verification_reason"]
 
 
@@ -486,3 +489,116 @@ def test_guest_inference_exact_match_and_ambiguous_refusal(tmp_path: Path) -> No
     guest, method = mat.infer_guest_from_title("Ritter and Freeman debate escalation", notebook_root)
     assert guest is None
     assert method is None
+
+
+def test_with_appearances_skips_unresolved_guest_capture(tmp_path: Path, monkeypatch, capsys) -> None:
+    video_id = "unknown12345"
+    notebook_root = tmp_path / "codex" / "2026"
+    monkeypatch.setattr(mat, "DEFAULT_ROUTING_OUT", tmp_path / "artifacts" / "speaker-routing")
+    monkeypatch.setattr(mat, "DEFAULT_ACTION_OUT", tmp_path / "artifacts" / "speaker-memory-actions")
+    monkeypatch.setattr(
+        mat,
+        "fetch_metadata_ytdlp",
+        lambda _video_id: {
+            "id": video_id,
+            "title": "Unresolved Guest Episode",
+            "upload_date": "20260514",
+            "channel_id": _spec().channel_id,
+            "channel": "Glenn Diesen",
+            "webpage_url": f"https://www.youtube.com/watch?v={video_id}",
+        },
+    )
+    monkeypatch.setattr(mat, "fetch_subtitles_ytdlp", lambda _video_id, _langs: (_caption(95), "auto", "en", None))
+
+    rc = mat.main(
+        [
+            "--url",
+            f"https://www.youtube.com/watch?v={video_id}",
+            "--notebook-root",
+            str(notebook_root),
+            "--receipt-root",
+            str(tmp_path / "receipts"),
+            "--run-id",
+            "unresolved-run",
+            "--apply",
+            "--with-appearances",
+        ]
+    )
+
+    captured = capsys.readouterr()
+    assert rc == 0
+    assert '"status": "materialized"' in captured.out
+    assert not (tmp_path / "artifacts").exists()
+    summary = (tmp_path / "receipts" / "unresolved-run" / "capture-summary.md").read_text(encoding="utf-8")
+    assert "unresolved speaker captures: `1`" in summary
+    assert "Unresolved Guest Episode" in summary
+
+
+def test_with_appearances_skips_ambiguous_title_inference(tmp_path: Path, monkeypatch, capsys) -> None:
+    video_id = "ambig123456"
+    notebook_root = tmp_path / "codex" / "2026"
+    for slug in ("ritter", "freeman"):
+        folder = notebook_root / "speakers" / slug
+        folder.mkdir(parents=True)
+        (folder / f"{slug}-speaker-object.md").write_text(f"# {slug}\n", encoding="utf-8")
+
+    monkeypatch.setattr(mat, "DEFAULT_ROUTING_OUT", tmp_path / "artifacts" / "speaker-routing")
+    monkeypatch.setattr(mat, "DEFAULT_ACTION_OUT", tmp_path / "artifacts" / "speaker-memory-actions")
+    monkeypatch.setattr(
+        mat,
+        "fetch_metadata_ytdlp",
+        lambda _video_id: {
+            "id": video_id,
+            "title": "Ritter and Freeman debate escalation",
+            "upload_date": "20260514",
+            "channel_id": _spec().channel_id,
+            "channel": "Glenn Diesen",
+            "webpage_url": f"https://www.youtube.com/watch?v={video_id}",
+        },
+    )
+    monkeypatch.setattr(mat, "fetch_subtitles_ytdlp", lambda _video_id, _langs: (_caption(95), "auto", "en", None))
+
+    rc = mat.main(
+        [
+            "--url",
+            f"https://www.youtube.com/watch?v={video_id}",
+            "--notebook-root",
+            str(notebook_root),
+            "--receipt-root",
+            str(tmp_path / "receipts"),
+            "--run-id",
+            "ambiguous-run",
+            "--apply",
+            "--with-appearances",
+        ]
+    )
+
+    captured = capsys.readouterr()
+    assert rc == 0
+    assert '"status": "materialized"' in captured.out
+    assert not (tmp_path / "artifacts").exists()
+    summary = (tmp_path / "receipts" / "ambiguous-run" / "capture-summary.md").read_text(encoding="utf-8")
+    assert "unresolved speaker captures: `1`" in summary
+    assert "Ritter and Freeman debate escalation" in summary
+
+
+def test_summary_grade_capture_is_not_counted_as_transcript_valid(tmp_path: Path) -> None:
+    receipt_dir = tmp_path / "receipts"
+    paths = mat.write_receipts(
+        [
+            {
+                "url": "https://www.youtube.com/watch?v=abc123def45",
+                "title": "Example",
+                "status": "materialized",
+                "output_path": "codex/2026/raw-input/2026-05-12/example.md",
+                "verification_reason": "ok",
+                "body_word_count": 90,
+                "evidence_grade": "summary-grade",
+            }
+        ],
+        receipt_dir,
+    )
+
+    summary = Path(paths["capture_summary"]).read_text(encoding="utf-8")
+    assert "transcript-valid successes: `0`" in summary
+    assert "summary-grade carries: `1`" in summary

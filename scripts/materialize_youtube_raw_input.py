@@ -249,6 +249,10 @@ def effective_body_text(body: str) -> str:
     return "\n".join(lines).strip()
 
 
+def classify_evidence_grade(frontmatter: dict[str, Any], verification_reason: str = "") -> str:
+    return speaker_routing.classify_evidence_grade(frontmatter, verification_reason)
+
+
 def find_existing_valid_raw_input(notebook_root: Path, url: str) -> tuple[Path, VerificationResult] | None:
     raw_root = notebook_root / "raw-input"
     if not raw_root.is_dir():
@@ -518,6 +522,7 @@ def materialize_one(
         "thread": item.thread or (spec.thread if spec else ""),
         "guest": guest or "",
         "guest_inference": guest_inference or "",
+        "evidence_grade": classify_evidence_grade(verification.frontmatter, verification.reason),
         "verification_ok": verification.ok,
         "verification_reason": verification.reason,
         "body_word_count": verification.word_count,
@@ -530,7 +535,7 @@ def materialize_one(
 def _successful_output_paths(rows: list[dict[str, Any]]) -> list[Path]:
     out: list[Path] = []
     for row in rows:
-        if row.get("status") not in {"materialized", "already-present-valid"}:
+        if row.get("status") not in {"materialized", "already-present-valid", "already-present-legacy"}:
             continue
         output_path = str(row.get("output_path") or "").strip()
         if output_path:
@@ -552,9 +557,10 @@ def materialize_existing_raw_input(path: Path) -> dict[str, Any]:
     text = path.read_text(encoding="utf-8", errors="replace")
     verification = verify_existing_raw_input_for_appearance(text)
     source_url = str(verification.frontmatter.get("source_url") or "")
+    legacy_ok = verification.reason.startswith("appearance-eligible legacy raw-input")
     return {
         "url": source_url,
-        "status": "already-present-valid" if verification.ok else "failed-verification",
+        "status": "already-present-legacy" if (verification.ok and legacy_ok) else ("already-present-valid" if verification.ok else "failed-verification"),
         "output_path": str(path),
         "verification_ok": verification.ok,
         "verification_reason": verification.reason,
@@ -563,6 +569,7 @@ def materialize_existing_raw_input(path: Path) -> dict[str, Any]:
         "title": str(verification.frontmatter.get("title") or path.stem),
         "pub_date": str(verification.frontmatter.get("pub_date") or path.parent.name),
         "existing_raw_input": True,
+        "evidence_grade": classify_evidence_grade(verification.frontmatter, verification.reason),
     }
 
 
@@ -583,6 +590,17 @@ def build_appearance_artifacts(
     start, end = speaker_routing.window_for_raw_paths(raw_paths)
     inventory = speaker_routing._discover_inventory(notebook_root / "speakers", notebook_root)
     routing_rows = speaker_routing.build_rows(raw_paths, inventory, notebook_root)
+    unresolved_rows = speaker_routing.build_unresolved_rows(raw_paths, inventory)
+    paths = {
+        "appearance_count": str(len(routing_rows)),
+        "action_count": "0",
+        "unresolved_capture_count": str(len(unresolved_rows)),
+        "unresolved_capture_titles": " | ".join(
+            f"{row['pub_date']}::{row['title']}" for row in unresolved_rows
+        ),
+    }
+    if not routing_rows:
+        return paths
     routing_written = speaker_routing.write_outputs(
         routing_rows,
         DEFAULT_ROUTING_OUT / run_id,
@@ -597,17 +615,19 @@ def build_appearance_artifacts(
         start=start,
         end=end,
     )
-    return {
-        "speaker_routing_jsonl": routing_written["jsonl"],
-        "speaker_routing_markdown": routing_written["markdown"],
-        "appearance_ledger": routing_written["appearance_ledger"],
-        "appearance_rollup_json": action_written["appearance_rollup_json"],
-        "appearance_rollup_markdown": action_written["appearance_rollup_markdown"],
-        "memory_action_queue_jsonl": action_written["memory_action_queue_jsonl"],
-        "memory_action_queue_markdown": action_written["memory_action_queue_markdown"],
-        "appearance_count": str(len(routing_rows)),
-        "action_count": str(len(actions)),
-    }
+    paths.update(
+        {
+            "speaker_routing_jsonl": routing_written["jsonl"],
+            "speaker_routing_markdown": routing_written["markdown"],
+            "appearance_ledger": routing_written["appearance_ledger"],
+            "appearance_rollup_json": action_written["appearance_rollup_json"],
+            "appearance_rollup_markdown": action_written["appearance_rollup_markdown"],
+            "memory_action_queue_jsonl": action_written["memory_action_queue_jsonl"],
+            "memory_action_queue_markdown": action_written["memory_action_queue_markdown"],
+            "action_count": str(len(actions)),
+        }
+    )
+    return paths
 
 
 def write_capture_summary(
@@ -626,6 +646,20 @@ def write_capture_summary(
     for row in rows:
         status = str(row.get("status") or "unknown")
         counts[status] = counts.get(status, 0) + 1
+    transcript_valid_successes = 0
+    summary_grade_carries = 0
+    legacy_carries = 0
+    for row in rows:
+        if str(row.get("status") or "") not in {"materialized", "already-present-valid", "already-present-legacy"}:
+            continue
+        grade = str(row.get("evidence_grade") or "")
+        if grade in {"transcript-grade", "cleaned-transcript", "transcript-bearing"}:
+            transcript_valid_successes += 1
+        elif grade == "summary-grade":
+            summary_grade_carries += 1
+        elif grade == "legacy-appearance-only":
+            legacy_carries += 1
+    unresolved_count = int(artifact_paths.get("unresolved_capture_count", "0") or "0")
     summary = receipt_dir / "capture-summary.md"
     lines = [
         "# YouTube capture summary",
@@ -636,6 +670,10 @@ def write_capture_summary(
         f"- tranche: `{tranche_label or '_none_'}`",
         f"- approved rows: `{len(rows)}`",
         f"- successful raw-inputs: `{len(successful_paths)}`",
+        f"- transcript-valid successes: `{transcript_valid_successes}`",
+        f"- summary-grade carries: `{summary_grade_carries}`",
+        f"- legacy appearance carries: `{legacy_carries}`",
+        f"- unresolved speaker captures: `{unresolved_count}`",
     ]
     for status, count in sorted(counts.items()):
         lines.append(f"- {status}: `{count}`")
@@ -650,9 +688,16 @@ def write_capture_summary(
             ]
         )
         for key, value in sorted(artifact_paths.items()):
-            if key.endswith("_count"):
+            if key.endswith("_count") or key == "unresolved_capture_titles":
                 continue
             lines.append(f"- `{key}`: `{value}`")
+        if unresolved_count:
+            lines.extend(["", "## Unresolved speaker captures", ""])
+            for chunk in str(artifact_paths.get("unresolved_capture_titles") or "").split(" | "):
+                if not chunk:
+                    continue
+                pub_date, _sep, title = chunk.partition("::")
+                lines.append(f"- `{pub_date}` {title}")
     summary.write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
     return {"successful_raw_inputs": str(successful), "capture_summary": str(summary)}
 

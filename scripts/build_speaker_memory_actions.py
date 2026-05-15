@@ -47,6 +47,7 @@ class ActionDraft:
     speaker_slug: str
     host_slug: str
     evidence_appearances: list[str]
+    evidence_grades: list[str]
     reason: str
     operator_instruction: str
 
@@ -110,7 +111,7 @@ def _candidate_arc_target(row: dict[str, Any]) -> str:
 def _normalize_appearance(row: dict[str, Any]) -> dict[str, str]:
     appearance = dict(row.get("appearance") or {})
     appearance.setdefault("appearance_id", "")
-    appearance.setdefault("speaker_slug", str(row.get("guest") or row.get("thread") or ""))
+    appearance.setdefault("speaker_slug", str(row.get("guest") or ""))
     appearance.setdefault("host_slug", str(row.get("host") or ""))
     appearance.setdefault("pub_date", str(row.get("pub_date") or ""))
     appearance.setdefault("source_url", str(row.get("source_url") or ""))
@@ -121,6 +122,7 @@ def _normalize_appearance(row: dict[str, Any]) -> dict[str, str]:
 def _draft_from_row(row: dict[str, Any], *, include_no_action: bool) -> ActionDraft | None:
     appearance = _normalize_appearance(row)
     appearance_id = appearance["appearance_id"]
+    evidence_grade = str(row.get("evidence_grade") or "")
     route_type = str(row.get("route_type") or "")
     next_action = str(row.get("next_action") or "")
     speaker_slug = appearance.get("speaker_slug", "")
@@ -135,6 +137,7 @@ def _draft_from_row(row: dict[str, Any], *, include_no_action: bool) -> ActionDr
             speaker_slug=speaker_slug,
             host_slug=host_slug,
             evidence_appearances=[appearance_id],
+            evidence_grades=[evidence_grade],
             reason="Appearance routes to an existing host-local speaker arc.",
             operator_instruction="Review the raw-input and update the existing speaker arc if it changes the ranked arc set, open-first choice, or boundary.",
         )
@@ -147,6 +150,7 @@ def _draft_from_row(row: dict[str, Any], *, include_no_action: bool) -> ActionDr
             speaker_slug=speaker_slug,
             host_slug=host_slug,
             evidence_appearances=[appearance_id],
+            evidence_grades=[evidence_grade],
             reason="Appearance matched an existing speaker object but no host-local arc exists yet.",
             operator_instruction="Decide whether this host x speaker pairing deserves a new speaker-arc note before editing the speaker object.",
         )
@@ -159,6 +163,7 @@ def _draft_from_row(row: dict[str, Any], *, include_no_action: bool) -> ActionDr
             speaker_slug=speaker_slug,
             host_slug=host_slug,
             evidence_appearances=[appearance_id],
+            evidence_grades=[evidence_grade],
             reason="Appearance routes to an existing speaker object without a clearer arc target.",
             operator_instruction="Review whether the speaker object open-first, routing use, or boundaries need a small update.",
         )
@@ -171,6 +176,7 @@ def _draft_from_row(row: dict[str, Any], *, include_no_action: bool) -> ActionDr
             speaker_slug=speaker_slug,
             host_slug=host_slug,
             evidence_appearances=[appearance_id],
+            evidence_grades=[evidence_grade],
             reason="Appearance matched a speaker folder without an existing speaker object.",
             operator_instruction="Create a speaker-object note only if this recurring figure deserves durable orientation.",
         )
@@ -183,6 +189,7 @@ def _draft_from_row(row: dict[str, Any], *, include_no_action: bool) -> ActionDr
             speaker_slug=speaker_slug,
             host_slug=host_slug,
             evidence_appearances=[appearance_id],
+            evidence_grades=[evidence_grade],
             reason="Appearance has guest metadata but no existing object or host-local arc matched.",
             operator_instruction="Create a speaker arc only if the host x guest pairing is recurring or strategically distinctive.",
         )
@@ -195,6 +202,7 @@ def _draft_from_row(row: dict[str, Any], *, include_no_action: bool) -> ActionDr
             speaker_slug=speaker_slug,
             host_slug=host_slug,
             evidence_appearances=[appearance_id],
+            evidence_grades=[evidence_grade],
             reason="No clear speaker-memory route was found.",
             operator_instruction="Stop at raw-input unless the operator supplies stronger speaker metadata.",
         )
@@ -217,6 +225,7 @@ def _merge_actions(actions: list[ActionDraft]) -> list[dict[str, Any]]:
             speaker_slug=existing.speaker_slug,
             host_slug=existing.host_slug,
             evidence_appearances=evidence,
+            evidence_grades=sorted(set(existing.evidence_grades + action.evidence_grades)),
             reason=existing.reason,
             operator_instruction=existing.operator_instruction,
         )
@@ -232,6 +241,7 @@ def _merge_actions(actions: list[ActionDraft]) -> list[dict[str, Any]]:
                 "speaker_slug": action.speaker_slug,
                 "host_slug": action.host_slug,
                 "evidence_appearances": sorted(set(action.evidence_appearances)),
+                "evidence_grades": sorted(set(action.evidence_grades)),
                 "reason": action.reason,
                 "operator_instruction": action.operator_instruction,
             }
@@ -294,6 +304,7 @@ def build_actions(rows: list[dict[str, Any]], *, include_no_action: bool = False
                 speaker_slug=speaker_slug,
                 host_slug=",".join(hosts),
                 evidence_appearances=evidence,
+                evidence_grades=sorted(set(str(row.get("evidence_grade") or "") for row in speaker_rows if str(row.get("evidence_grade") or ""))),
                 reason="Speaker appears across multiple host slugs in this window without an existing comparative note in the route stack.",
                 operator_instruction="Review whether the cross-host pattern is strong enough for a helix or cross-host note.",
             )
@@ -336,7 +347,7 @@ def _render_actions_md(actions: list[dict[str, Any]], start: date, end: date) ->
         target = action["target_path"] or "_none_"
         lines.append(
             f"- `{action['priority']}` `{action['action_type']}` `{target}` "
-            f"({len(action['evidence_appearances'])} appearance(s))"
+            f"({len(action['evidence_appearances'])} appearance(s); grades: {', '.join(action.get('evidence_grades') or ['_none_'])})"
         )
         lines.append(f"  - reason: {action['reason']}")
         lines.append(f"  - operator: {action['operator_instruction']}")
