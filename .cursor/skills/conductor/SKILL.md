@@ -29,6 +29,8 @@ Run this checklist before writing any resolved-conductor menu. The voice prototy
 5. Make every line repo-grounded: include a file path, command, artifact, or precise editing target.
 6. Give every line one main verb and enough constraint that A/B/C/D are not interchangeable.
 7. Match the active slug's function. For `toscanini`, force score, evidence, exact path, exact date, exact receipt, or unsupported-claim cleanup.
+8. If this is a follow-up after partial action selection, preserve movement state in the menu: prefix each line with `Complete -`, `Open -`, or `Parked -` and keep completed movements visible.
+9. Before offering `D. Finale`, check whether the evidence is actually durability-ready; Finale is a lifecycle close, not the moral endpoint of every arc.
 
 **Regression receipt - 2026-05-14:** A weak Toscanini pass failed by producing a **style overlay instead of protocol**: generic verification chores, no clear file/target per line, and interchangeable A-D options. Corrected Toscanini shape: short score-centered orientation, then four movement-labeled choices that each name the exact score seam, evidence target, falsifier, or receipt close they will touch.
 
@@ -395,6 +397,10 @@ Before the **Conductor action MCQ**, surface a short **Open loops due for revisi
 **Compiled doctrine path:** Once a conductor line has stabilized across multiple turns, offer **compiled doctrine** as a consolidation path instead of continuing movement-by-movement. The offer should compress the settled distinction, operational rule, and next execution wedge into one durable synthesis proposal.
 
 **What:** A **header** (e.g. **Conductor action MCQ - Reply A-D for this** `bernstein` pass) and **exactly four** lines: **A. Allegro**, **B. Andante**, **C. Scherzo**, and **D. Finale**. Each option is a **discriminating**, affirmative next move: **file path** or **editing target**, **one** main **verb**, and **enough** **constraint** that **A** vs **B** vs **C** vs **D** are **not** interchangeable. Re-use letters **A-D**; **label** the block as the **Conductor Action Menu** so it is not confused with the **Coffee Hub Menu**. If the operator does anything other than choose one of the four options, record that as refusal / park / no-action rather than presenting refusal as a menu option.
+
+**Stateful follow-up menus:** After the operator completes only some movements, the next Conductor Action Menu must show state next to every item: `Complete -` for done movements, `Open -` for still-available movements, and `Parked -` for intentionally deferred movements. Do not erase completed A/B/C/D lines or replace them with a fresh menu unless the operator starts a new conductor pass. Treat non-completion as signal: open can mean unresolved, intentionally delayed, awaiting durability, or not worth doing yet. Say which one when it is clear.
+
+**Option quality test:** A good option is not a pleasant suggestion; it is a compact operating surface. Each line should answer what artifact or command changes, how this movement differs from the other three, what lifecycle state it advances, and whether the movement is naming, inspecting, probing, or sealing. Avoid four options that all mean "review more" or "finish the work."
 
 Movement meanings:
 - **A. Allegro** - decisive entry; name the live thrust, seam, or correction.

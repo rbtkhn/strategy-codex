@@ -96,6 +96,10 @@ Continuity may mention the last `coffee_pick` slug, optional `focus` / `arc`, an
 
 This is a **new** **four-line** movement list **after** the master is resolved, with **this** pass's **repo** next moves. Label it **`Conductor Action Menu`** and instruct **Reply A-D** for **this** pass. Each line is a **concrete, repo-grounded**, affirmative next move with **verbs and constraints** that match the **active** `conductor` slug (see [`.cursor/skills/conductor/SKILL.md`](../../../.cursor/skills/conductor/SKILL.md) **Conductor action MCQ**). Do **not** spend one of the four options on refusal / no-action; if the operator does anything other than choose **A**, **B**, **C**, or **D**, record that as refusal / park / no-action in the outcome. **Omit** only if the operator says **"orientation only"** or **"no action menu"** in the same turn. **Kleiber** is not the only mode that gets a menu; **Bernstein, Toscanini,** etc. all get **their own** four movement options with the same **A-D** letters.
 
+**Partial arc state:** If the operator selects only part of a Conductor Action Menu, preserve that state on the next menu instead of restarting. Prefix each movement with `Complete -`, `Open -`, or `Parked -`; keep completed movements visible; and distinguish open because unresolved from open because deferred, awaiting durability, or intentionally not worth doing. D / Finale is not required for every useful arc: it should seal only when evidence is ready to move lifecycle state.
+
+**Option quality gate:** Before emitting the menu, check that each option has a distinct job, exact target, one main verb, and a lifecycle implication. A weak menu gives four interchangeable "review / continue / finish" options. A strong menu lets the operator use letters as scope control: A names, B inspects, C probes, D seals only when sealing is warranted.
+
 Movement meanings:
 - **A. Allegro** - decisive entry; name the live thrust, seam, or correction.
 - **B. Andante** - slower listening; inspect evidence, tension, arc, or hidden dependency.

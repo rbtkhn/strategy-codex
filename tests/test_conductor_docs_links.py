@@ -72,3 +72,31 @@ def test_conductor_loop_ssot_prefers_new_name_only_cadence_shape() -> None:
     assert "picked=conductor" in loop
     assert "picked=E conductor=slug" not in loop
     assert "coffee` hub **E**" not in loop
+
+
+def test_conductor_action_menu_requires_partial_arc_state() -> None:
+    skill = (REPO_ROOT / ".cursor/skills/conductor/SKILL.md").read_text(encoding="utf-8")
+    protocol = (REPO_ROOT / "docs/skill-work/work-coffee/CONDUCTOR-PASS.md").read_text(
+        encoding="utf-8"
+    )
+
+    for text in (skill, protocol):
+        assert "Complete -" in text
+        assert "Open -" in text
+        assert "Parked -" in text
+        assert "D / Finale is not required for every useful arc" in text or (
+            "Finale is a lifecycle close" in text
+        )
+
+
+def test_conductor_action_menu_requires_option_quality_gate() -> None:
+    skill = (REPO_ROOT / ".cursor/skills/conductor/SKILL.md").read_text(encoding="utf-8")
+    protocol = (REPO_ROOT / "docs/skill-work/work-coffee/CONDUCTOR-PASS.md").read_text(
+        encoding="utf-8"
+    )
+
+    for text in (skill, protocol):
+        assert "Option quality" in text
+        assert "distinct" in text
+        assert "lifecycle" in text
+        assert "interchangeable" in text
