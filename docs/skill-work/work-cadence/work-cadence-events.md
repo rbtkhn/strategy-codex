@@ -1,11 +1,12 @@
 # Cadence events
 
-> Append-only audit of **coffee**, **coffee_pick**, **coffee_conductor_outcome**, **dream**, **bridge**, legacy **`thanks`**, and optional **harvest** runs. (**`thanks`** is a deprecated grace-mar operator beat; new work prefers **conductor** + **`coffee`**.)
+> Append-only audit of **coffee**, **coffee_pick**, **coffee_close**, **coffee_conductor_outcome**, **dream**, **bridge**, legacy **`thanks`**, and optional **harvest** runs. (**`thanks`** is a deprecated grace-mar operator beat; new work prefers **conductor** + **`coffee`**.)
 > **Not** Record truth. **Not** self-memory. **Not** a replacement for
 > handoff artifacts or `session-transcript.md`.
 >
 > **Format:** `- **YYYY-MM-DD HH:MM UTC** — kind (user) key=value …` (machine-audit line).
 > **coffee_conductor_outcome** — optional closure after a conductor run (**verdict=** e.g. watch / promote / shelf / no_action); optional **notebook_ref=**, **falsify=**, **conductor=** (see [CONDUCTOR-IMPROVEMENT-LOOP](../../../codex/CONDUCTOR-IMPROVEMENT-LOOP.md) § 3).
+> **coffee_close** — optional close receipt after a coffee-selected branch materially settles (**picked=**, **outcome=**, **readiness=**, optional **artifacts=**, **loops=**, **next=**, **conductor=**, **conductor_state=**).
 > **coffee_pick** may include optional **focus=** or **arc=** (named work object).
 > **Companion-facing:** Skills read this file and speak **Recent rhythm** in chat — plain
 > language, concrete specifics, no clock times in that prose. See [work-cadence README](README.md).

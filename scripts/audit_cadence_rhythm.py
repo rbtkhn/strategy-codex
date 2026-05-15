@@ -92,6 +92,12 @@ def _parse_kv_payload(line: str) -> dict[str, str]:
     return kv
 
 
+def _split_csv(value: str | None) -> list[str]:
+    if value is None:
+        return []
+    return [part.strip() for part in str(value).split(",") if part.strip()]
+
+
 def _normalize_conductor_slug(value: str | None) -> str:
     if value is None:
         return ""
@@ -156,6 +162,7 @@ def compute_rhythm_summary(
     dream_events = by_kind.get("dream", [])
     bridge_events = by_kind.get("bridge", [])
     coffee_events = by_kind.get("coffee", [])
+    coffee_close_events = by_kind.get("coffee_close", [])
 
     last_dream = max((e["dt"] for e in dream_events), default=None)
     last_bridge = max((e["dt"] for e in bridge_events), default=None)
@@ -233,9 +240,13 @@ def compute_rhythm_summary(
         },
         "coffee": {
             "count": len(coffee_events),
+            "close_count": len(coffee_close_events),
             "per_active_day": round(coffee_per_active_day, 1),
             "ok": coffee_per_active_day >= 1.0 or active_day_count <= 1,
         },
+        "coffee_recursion": compute_coffee_recursion_summary(
+            user_id, days, events_path=events_path, now=now
+        ),
         "longest_gap": {
             "hours": round(longest_gap_hours, 1),
             "start": gap_start.isoformat() if gap_start else None,
@@ -267,16 +278,26 @@ def compute_conductor_audit(
     explicit_picks_by_conductor: dict[str, int] = defaultdict(int)
     explicit_outcomes_by_conductor: dict[str, int] = defaultdict(int)
     inferred_outcomes_by_conductor: dict[str, int] = defaultdict(int)
+    coffee_close_closes_by_conductor: dict[str, int] = defaultdict(int)
     legacy_partial_picks_by_conductor: dict[str, int] = defaultdict(int)
     per_day: dict[str, dict[str, dict[str, int]]] = defaultdict(
-        lambda: defaultdict(lambda: {"picks": 0, "explicit_outcomes": 0, "inferred_outcomes": 0})
+        lambda: defaultdict(
+            lambda: {
+                "picks": 0,
+                "explicit_outcomes": 0,
+                "inferred_outcomes": 0,
+                "coffee_closes": 0,
+            }
+        )
     )
     evidence_richness = {"verdict": 0, "action": 0, "notebook_ref": 0, "falsify": 0}
     open_picks: list[dict] = []
     explicit_closed = 0
     inferred_closed = 0
+    coffee_close_closed = 0
     unattributed_outcomes = 0
     outcomes_without_matching_pick = 0
+    coffee_closes_without_matching_pick = 0
 
     for event in events:
         day = event["dt"].strftime("%Y-%m-%d")
@@ -298,6 +319,27 @@ def compute_conductor_audit(
         if _is_legacy_partial_conductor_pick(event):
             conductor = _normalize_conductor_slug(kv.get("conductor"))
             legacy_partial_picks_by_conductor[conductor] += 1
+            continue
+
+        if event.get("kind") == "coffee_close":
+            conductor = _normalize_conductor_slug(kv.get("conductor"))
+            state = str(kv.get("conductor_state", "")).strip()
+            if conductor in KNOWN_CONDUCTOR_SLUGS and state == "closed":
+                coffee_close_closes_by_conductor[conductor] += 1
+                per_day[day][conductor]["coffee_closes"] += 1
+                match_index = next(
+                    (
+                        idx
+                        for idx in range(len(open_picks) - 1, -1, -1)
+                        if open_picks[idx]["conductor"] == conductor
+                    ),
+                    None,
+                )
+                if match_index is not None:
+                    coffee_close_closed += 1
+                    open_picks.pop(match_index)
+                else:
+                    coffee_closes_without_matching_pick += 1
             continue
 
         if event.get("kind") != "coffee_conductor_outcome":
@@ -338,7 +380,7 @@ def compute_conductor_audit(
     explicit_pick_count = sum(explicit_picks_by_conductor.values())
     explicit_outcome_count = sum(explicit_outcomes_by_conductor.values())
     inferred_outcome_count = sum(inferred_outcomes_by_conductor.values())
-    total_closed = explicit_closed + inferred_closed
+    total_closed = explicit_closed + inferred_closed + coffee_close_closed
     closure_rate = round(total_closed / explicit_pick_count, 3) if explicit_pick_count else 0.0
 
     return {
@@ -353,14 +395,17 @@ def compute_conductor_audit(
         "explicit_picks_by_conductor": dict(explicit_picks_by_conductor),
         "explicit_outcomes_by_conductor": dict(explicit_outcomes_by_conductor),
         "inferred_outcomes_by_conductor": dict(inferred_outcomes_by_conductor),
+        "coffee_close_closes_by_conductor": dict(coffee_close_closes_by_conductor),
         "legacy_partial_picks_by_conductor": dict(legacy_partial_picks_by_conductor),
         "closure": {
             "explicit_closed": explicit_closed,
             "inferred_closed": inferred_closed,
+            "coffee_close_closed": coffee_close_closed,
             "total_closed": total_closed,
             "open_pick_count": len(open_picks),
             "closure_rate": closure_rate,
             "outcomes_without_matching_pick": outcomes_without_matching_pick,
+            "coffee_closes_without_matching_pick": coffee_closes_without_matching_pick,
             "unattributed_outcomes": unattributed_outcomes,
         },
         "evidence_richness": evidence_richness,
@@ -376,6 +421,103 @@ def compute_conductor_audit(
             day: {conductor: counts for conductor, counts in sorted(day_counts.items())}
             for day, day_counts in sorted(per_day.items())
         },
+    }
+
+
+def compute_coffee_recursion_summary(
+    user_id: str,
+    days: int = 14,
+    *,
+    events_path: Path = EVENTS_PATH,
+    now: datetime | None = None,
+) -> dict:
+    """Summarize coffee_close receipts as recursive improvement signals."""
+    now = now or datetime.now(timezone.utc)
+    cutoff = now - timedelta(days=days)
+    events = [e for e in parse_events(user_id, events_path=events_path) if e["dt"] >= cutoff]
+    events.sort(key=lambda e: e["dt"])
+
+    close_events = [e for e in events if e.get("kind") == "coffee_close"]
+    unresolved_loop_counts: dict[str, int] = defaultdict(int)
+    artifact_counts: dict[str, int] = defaultdict(int)
+    readiness_counts: dict[str, int] = defaultdict(int)
+    outcome_counts: dict[str, int] = defaultdict(int)
+
+    for event in close_events:
+        kv = event.get("kv") or {}
+        readiness = str(kv.get("readiness", "")).strip() or "unknown"
+        outcome = str(kv.get("outcome", "")).strip() or "unknown"
+        readiness_counts[readiness] += 1
+        outcome_counts[outcome] += 1
+        for artifact in _split_csv(kv.get("artifacts")):
+            artifact_counts[artifact] += 1
+        if outcome != "done":
+            for loop in _split_csv(kv.get("loops")):
+                unresolved_loop_counts[loop] += 1
+
+    repeated_unresolved_loops = [
+        {"loop": loop, "count": count}
+        for loop, count in sorted(unresolved_loop_counts.items())
+        if count >= 2
+    ]
+
+    last_close = close_events[-1] if close_events else None
+    last_close_summary = None
+    if last_close:
+        kv = last_close.get("kv") or {}
+        last_close_summary = {
+            "ts": last_close["dt"].isoformat(),
+            "picked": kv.get("picked"),
+            "outcome": kv.get("outcome"),
+            "readiness": kv.get("readiness"),
+            "artifacts": _split_csv(kv.get("artifacts")),
+            "loops": _split_csv(kv.get("loops")),
+            "next": kv.get("next"),
+            "conductor": _normalize_conductor_slug(kv.get("conductor")) or None,
+            "conductor_state": kv.get("conductor_state") or "none",
+            "line": last_close.get("line", ""),
+        }
+
+    conductor_continuity: list[dict[str, str]] = []
+    for event in events:
+        kv = event.get("kv") or {}
+        if event.get("kind") == "coffee_conductor_outcome":
+            conductor = _normalize_conductor_slug(kv.get("conductor"))
+            if conductor in KNOWN_CONDUCTOR_SLUGS:
+                conductor_continuity.append(
+                    {
+                        "ts": event["dt"].isoformat(),
+                        "conductor": conductor,
+                        "state": "closed",
+                        "source": "coffee_conductor_outcome",
+                    }
+                )
+        elif event.get("kind") == "coffee_close":
+            conductor = _normalize_conductor_slug(kv.get("conductor"))
+            state = str(kv.get("conductor_state", "")).strip()
+            if conductor in KNOWN_CONDUCTOR_SLUGS and state in {"open", "closed"}:
+                conductor_continuity.append(
+                    {
+                        "ts": event["dt"].isoformat(),
+                        "conductor": conductor,
+                        "state": state,
+                        "source": "coffee_close",
+                    }
+                )
+
+    latest_conductor_state = conductor_continuity[-1] if conductor_continuity else None
+
+    return {
+        "user_id": user_id,
+        "days": days,
+        "close_count": len(close_events),
+        "last_close": last_close_summary,
+        "readiness_counts": dict(readiness_counts),
+        "outcome_counts": dict(outcome_counts),
+        "repeated_unresolved_loops": repeated_unresolved_loops,
+        "artifact_counts": dict(sorted(artifact_counts.items())),
+        "latest_conductor_state": latest_conductor_state,
+        "conductor_continuity": conductor_continuity[-10:],
     }
 
 
@@ -402,9 +544,22 @@ def format_summary(s: dict) -> str:
     lines.append(bridge_line)
 
     c = s["coffee"]
-    coffee_line = f"  coffee: {c['count']} runs, avg {c['per_active_day']}/active-day"
+    coffee_line = f"  coffee: {c['count']} runs, {c.get('close_count', 0)} closes, avg {c['per_active_day']}/active-day"
     coffee_line += " â€” " + ("OK" if c["ok"] else "LOW")
     lines.append(coffee_line)
+
+    rec = s.get("coffee_recursion") or {}
+    last_close = rec.get("last_close")
+    if last_close:
+        lines.append(
+            "  coffee close: "
+            f"picked={last_close.get('picked')} outcome={last_close.get('outcome')} "
+            f"readiness={last_close.get('readiness')}"
+        )
+    repeated = rec.get("repeated_unresolved_loops") or []
+    if repeated:
+        loop_parts = [f"{row['loop']} x{row['count']}" for row in repeated[:3]]
+        lines.append("  repeated unresolved loops: " + ", ".join(loop_parts))
 
     g = s["longest_gap"]
     gap_line = f"  longest gap: {g['hours']}h"
@@ -437,7 +592,7 @@ def format_discipline_one_liner(s: dict) -> str:
 
 
 def format_conductor_audit(summary: dict) -> str:
-    lines = [f"5-conductor audit ({summary['user_id']}) Ã¢â‚¬â€ last {summary['days']} days"]
+    lines = [f"5-conductor audit ({summary['user_id']}) - last {summary['days']} days"]
     if summary["event_count"] == 0:
         lines.append("  (no cadence events in window)")
         return "\n".join(lines)
@@ -452,22 +607,29 @@ def format_conductor_audit(summary: dict) -> str:
         f"{closure['total_closed']} closed, {closure['open_pick_count']} open, "
         f"rate {closure['closure_rate']:.1%}"
     )
+    if closure.get("coffee_close_closed"):
+        lines.append(f"  coffee_close closes: {closure['coffee_close_closed']}")
     if closure["unattributed_outcomes"] or closure["outcomes_without_matching_pick"]:
         lines.append(
             "  audit gaps: "
             f"{closure['unattributed_outcomes']} unattributed outcomes, "
             f"{closure['outcomes_without_matching_pick']} outcomes without matching pick"
         )
+    if closure.get("coffee_closes_without_matching_pick"):
+        lines.append(
+            f"  coffee_close audit gaps: {closure['coffee_closes_without_matching_pick']} closes without matching pick"
+        )
 
     for conductor in sorted(KNOWN_CONDUCTOR_SLUGS):
         picks = summary["explicit_picks_by_conductor"].get(conductor, 0)
         outcomes = summary["explicit_outcomes_by_conductor"].get(conductor, 0)
         inferred = summary["inferred_outcomes_by_conductor"].get(conductor, 0)
+        coffee_closes = summary["coffee_close_closes_by_conductor"].get(conductor, 0)
         legacy = summary["legacy_partial_picks_by_conductor"].get(conductor, 0)
-        if picks or outcomes or inferred or legacy:
+        if picks or outcomes or inferred or coffee_closes or legacy:
             lines.append(
                 f"  {conductor}: picks={picks} explicit_outcomes={outcomes} "
-                f"inferred_outcomes={inferred} legacy_partial={legacy}"
+                f"inferred_outcomes={inferred} coffee_closes={coffee_closes} legacy_partial={legacy}"
             )
 
     ev = summary["evidence_richness"]

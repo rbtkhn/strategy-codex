@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Append a cadence event (coffee / coffee_pick / coffee_conductor_outcome / dream / bridge / harvest / thanks)
+Append a cadence event (coffee / coffee_pick / coffee_close / coffee_conductor_outcome / dream / bridge / harvest / thanks)
 to work-cadence-events.md.
 
 One line per run. Not Record truth; not self-memory; not a replacement for
@@ -44,7 +44,16 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 EVENTS_PATH = REPO_ROOT / "docs" / "skill-work" / "work-cadence" / "work-cadence-events.md"
 ANCHOR = "_(Append below this line.)_"
-KINDS = ("coffee", "coffee_pick", "coffee_conductor_outcome", "dream", "bridge", "harvest", "thanks")
+KINDS = (
+    "coffee",
+    "coffee_pick",
+    "coffee_close",
+    "coffee_conductor_outcome",
+    "dream",
+    "bridge",
+    "harvest",
+    "thanks",
+)
 KNOWN_CONDUCTOR_SLUGS = frozenset(
     {"toscanini", "furtwangler", "karajan", "kleiber", "bernstein"}
 )
@@ -56,11 +65,12 @@ FREE_TEXT_KV_KEYS = frozenset({"falsify"})
 HEADER = (
     "# Cadence events\n"
     "\n"
-    "> Append-only audit of **coffee**, **coffee_pick**, **coffee_conductor_outcome**, **dream**, **bridge**, **thanks**, and optional **harvest** runs.\n"
+    "> Append-only audit of **coffee**, **coffee_pick**, **coffee_close**, **coffee_conductor_outcome**, **dream**, **bridge**, **thanks**, and optional **harvest** runs.\n"
     "> **Not** Record truth. **Not** self-memory. **Not** a replacement for\n"
     "> handoff artifacts or `session-transcript.md`.\n"
     ">\n"
     "> **Format:** `- **YYYY-MM-DD HH:MM UTC** — kind (user) key=value …` (machine-audit line).\n"
+    "> **coffee_close** — optional close receipt after a coffee-selected branch materially settles (**picked=**, **outcome=**, **readiness=**, optional **artifacts=**, **loops=**, **next=**, **conductor=**, **conductor_state=**).\n"
     "> **coffee_conductor_outcome** — optional closure after a conductor run (**verdict=** e.g. watch / promote / shelf / no_action); optional **notebook_ref=**, **falsify=**, **conductor=** (see strategy-notebook **CONDUCTOR-IMPROVEMENT-LOOP** § 3).\n"
     "> **coffee_pick** may include optional **focus=** or **arc=** (named work object).\n"
     "> **Companion-facing:** Skills read this file and speak **Recent rhythm** in chat — plain\n"

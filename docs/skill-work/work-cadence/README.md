@@ -110,7 +110,7 @@ Signing-off **`coffee`** (closeout mode) is a **lighter** alternative to `bridge
 
 1. **Dream â†’ morning coffee:** `daily-handoff/night-handoff.json` and, in root-profile style instances, `last-dream.json` â€” collapsed â€œLast dreamâ€ in warmup unless verbose flags are used.
 2. **Bridge â†’ next thread:** Transfer prompt (packet contract) â€” ends with a lone **`coffee`** line for cold start when that contract applies.
-3. **All beats â†’ audit trail:** [work-cadence-events.md](work-cadence-events.md) â€” one append-only line per successful leaf run (`scripts/log_cadence_event.py`). This file is **operator ephemera**: rhythm telemetry, not Record.
+3. **All beats â†’ audit trail:** [work-cadence-events.md](work-cadence-events.md) â€” one append-only line per successful leaf run (`scripts/log_cadence_event.py`). `coffee_close` receipts may add a second coffee line after a selected branch materially settles, recording outcome, readiness, artifacts, unresolved loops, and conductor state. This file is **operator ephemera**: rhythm telemetry, not Record.
 
 ### Step 0 recent rhythm (companion-facing)
 
@@ -140,6 +140,8 @@ Cadence chat output serves **emotional connection and forward orientation**, not
 5. **Emotional register matters.** The purpose of this system is to provide connection and comfort. A cadence beat is a moment of being *with* the operator, not a status update *to* them.
 
 **Grounding:** Synthesis must still be **anchored in the actual log lines** â€” no generic filler. The difference is that anchors are *felt and projected forward* rather than *listed and recapped*. Technical detail lives in Step 1 script output, not in the rhythm prose.
+
+**Coffee close receipts:** When the recent window includes `coffee_close`, prefer it over the earlier `coffee` start line for the same branch. Treat `readiness=orientation` as live but not actionable, `readiness=execution_ready` as ready for implementation, `readiness=ship_ready` as ready for staging/commit review, and `readiness=blocked` as requiring repair before progress is claimed. Repeated `loops=` values are recurrence signals for coffee and dream; they are not Record facts.
 
 ### Two-phase substrate separation (dream)
 
@@ -342,7 +344,7 @@ Which on-disk surfaces each ritual reads, writes, and whether companion approval
 
 | Ritual | Reads | Writes | Gate required? |
 |--------|-------|--------|---------------|
-| **coffee** | self-memory, gate, dream handoff, git status | nothing (read-only planning) | No |
+| **coffee** | self-memory, gate, dream handoff, git status | optional `coffee_close` cadence receipt after branch settlement | No |
 | **dream** | self-memory, SELF, EVIDENCE, gate | self-memory, night handoff JSON, cadence events | No (Maintenance mode) |
 | **bridge** | self-memory, gate, dream handoff, territories, git | git commits, cadence events | No (operational) |
 | **harvest** | same class as coffee (self-memory, gate, dream handoff, territories, git; optional session-transcript) | **default none**; optional operator-requested save under `work-cadence/harvest-packets/` or `last-harvest.md`; optional cadence event line | No |

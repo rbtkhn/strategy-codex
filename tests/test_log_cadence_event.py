@@ -20,6 +20,7 @@ from log_cadence_event import (
     resolve_cursor_model,
     resolve_model_tier,
 )
+from log_coffee_close import build_coffee_close_kv
 
 
 @pytest.fixture(autouse=True)
@@ -113,6 +114,75 @@ def test_append_harvest_event(events_file: Path) -> None:
     )
     text = events_file.read_text(encoding="utf-8")
     assert "— harvest (grace-mar) ok=true mode=default cursor_model=unknown model_tier=unknown packet=chat" in text
+
+
+def test_append_coffee_close_event(events_file: Path) -> None:
+    append_cadence_event(
+        "coffee_close",
+        "strategy-codex",
+        ok=True,
+        kv={
+            "picked": "B",
+            "outcome": "partial",
+            "readiness": "execution_ready",
+            "artifacts": "scripts/log_coffee_close.py,tests/test_log_cadence_event.py",
+            "loops": "coffee-close,artifact-aware-rhythm",
+            "next": "run-tests",
+        },
+        events_path=events_file,
+    )
+    text = events_file.read_text(encoding="utf-8")
+    assert "— coffee_close (strategy-codex) ok=true" in text
+    assert "picked=B outcome=partial readiness=execution_ready" in text
+    assert "loops=coffee-close,artifact-aware-rhythm" in text
+
+
+def test_build_coffee_close_kv_validates_required_shape() -> None:
+    kv = build_coffee_close_kv(
+        picked="conductor",
+        outcome="done",
+        readiness="ship_ready",
+        artifacts=["commit:abc1234"],
+        loops=["coffee-close"],
+        next_slug="dream",
+        conductor="kleiber",
+        conductor_state="closed",
+    )
+
+    assert kv == {
+        "picked": "conductor",
+        "outcome": "done",
+        "readiness": "ship_ready",
+        "artifacts": "commit:abc1234",
+        "loops": "coffee-close",
+        "next": "dream",
+        "conductor": "kleiber",
+        "conductor_state": "closed",
+    }
+
+
+def test_build_coffee_close_kv_rejects_invalid_values() -> None:
+    with pytest.raises(ValueError, match="readiness must be one of"):
+        build_coffee_close_kv(picked="A", outcome="done", readiness="ready")
+    with pytest.raises(ValueError, match="outcome must be one of"):
+        build_coffee_close_kv(picked="A", outcome="finished", readiness="orientation")
+    with pytest.raises(ValueError, match="picked=conductor requires conductor"):
+        build_coffee_close_kv(picked="conductor", outcome="done", readiness="orientation")
+    with pytest.raises(ValueError, match="conductor_state=open\\|closed requires conductor"):
+        build_coffee_close_kv(
+            picked="A",
+            outcome="done",
+            readiness="orientation",
+            conductor_state="open",
+        )
+    with pytest.raises(ValueError, match="conductor must be one of"):
+        build_coffee_close_kv(
+            picked="conductor",
+            outcome="done",
+            readiness="orientation",
+            conductor="mahler",
+            conductor_state="closed",
+        )
 
 
 def test_resolve_cursor_model_env(monkeypatch: pytest.MonkeyPatch) -> None:
