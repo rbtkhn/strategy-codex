@@ -2,11 +2,11 @@
 # Multivolume umbrella: Predictive History — one volume per lecture series.
 # Top-level project + book: Volume I (Geo-Strategy) — SSOT for render_book_architecture.py,
 # validate_work_jiang drift checks, CHAPTER-QUEUE, etc.
-# Nested: volume_2_civilization (civ-chNN), volume_3_secret_history (sh-chNN), volume_4_game_theory (gt-chNN), volume_5_great_books (gb-chNN), volume_7_interviews (vi-chNN), volume_6_essays (es-chNN).
+# Nested: volume_2_civilization (civ-chNN), volume_3_secret_history (sh-chNN), volume_4_game_theory (gt-chNN), volume_5_great_books (gb-chNN), volume_6_interviews (vi-chNN), volume_7_essays (es-chNN).
 # volume_4_game_theory: Game Theory book-track — see codex/predictive-history/volume-iv-book-track-conventions.md.
 # volume_5_great_books: Great Books book-track — see codex/predictive-history/volume-v-book-track-conventions.md.
-# volume_7_interviews: Interviews book-track — see codex/predictive-history/volume-vii-book-track-conventions.md.
-# volume_6_essays: Substack essays book-track — see codex/predictive-history/volume-vi-book-track-conventions.md.
+# volume_6_interviews: Interviews book-track — see codex/predictive-history/volume-vi-book-track-conventions.md.
+# volume_7_essays: Substack essays book-track — see codex/predictive-history/volume-vii-book-track-conventions.md.
 # Render: python scripts/work_jiang/render_book_architecture.py
 
 project:
@@ -3248,16 +3248,16 @@ volume_5_great_books:
       quotes_ready: false
       requires_prediction_review: false
 
-volume_7_interviews:
+volume_6_interviews:
   project:
-    id: work-jiang-volume-7
+    id: work-jiang-volume-6
     series_title: Predictive History
     volume:
-      number: 7
+      number: 6
       lecture_series: Interviews
-    title: 'Predictive History, Volume 7: Interviews'
-    thesis_one_sentence: TBD — set when Volume VII Part I book thesis is drafted (interview-faithful arc; see book/VOLUME-VII-INTERVIEWS.md).
-    promise_paragraph: Part I follows Jiang's long-form interview corpus in publication order, transcript-backed (`lectures/interviews-*.md`, registry `vi-*` in `metadata/sources.yaml`). Each Part I chapter ends with a Divergence box by default (Part II method operator-locked — see book/VOLUME-VII-INTERVIEWS.md).
+    title: 'Predictive History, Volume 6: Interviews'
+    thesis_one_sentence: TBD — set when Volume VI Part I book thesis is drafted (interview-faithful arc; see book/VOLUME-VI-INTERVIEWS.md).
+    promise_paragraph: Part I follows Jiang's long-form interview corpus in publication order, transcript-backed (`lectures/interviews-*.md`, registry `vi-*` in `metadata/sources.yaml`). Each Part I chapter ends with a Divergence box by default (Part II method operator-locked — see book/VOLUME-VI-INTERVIEWS.md).
     audience:
       primary: serious general readers interested in geopolitics, dialogue format, and cross-host comparison
       secondary:
@@ -3271,13 +3271,13 @@ volume_7_interviews:
     instruction: End each Part I chapter with a boxed subsection per CHAPTER-DIVERGENCE-BOX.md — divergence IDs from divergences.jsonl where linked; not chapter_end_predictions (Volume I only) unless Part II policy adopts prediction adjudication.
   part_2:
     title: Part II — method TBD (Interviews)
-    after_chapter: vi-ch16
-    description: Operator locks evaluation mode in book/VOLUME-VII-INTERVIEWS.md (divergence-first default for Part I boxes).
+    after_chapter: vi-ch15
+    description: Operator locks evaluation mode in book/VOLUME-VI-INTERVIEWS.md (divergence-first default for Part I boxes).
   book:
     chapters:
     - id: vi-ch01
       title: 'Interviews #1: Cyrus Janssen — The World Is About to Change'
-      purpose: Book chapter for Interviews episode 1 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
+      purpose: Book chapter for Interviews episode 1 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
       kind: exposition
       priority: medium
       target_words: 2800
@@ -3292,14 +3292,14 @@ volume_7_interviews:
       sprint: TBD
       blocking: []
       next_action: Complete analysis memo for vi-01; then draft chapter outline
-      outline_path: chapters-volume-vii/vi-ch01/outline.md
-      draft_path: chapters-volume-vii/vi-ch01/draft.md
+      outline_path: chapters-volume-vi/vi-ch01/outline.md
+      draft_path: chapters-volume-vi/vi-ch01/draft.md
       analysis_ready: false
       quotes_ready: false
       requires_prediction_review: false
     - id: vi-ch02
       title: 'Interviews #2: Glenn Diesen — The West''s Civilizational Collapse'
-      purpose: Book chapter for Interviews episode 2 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
+      purpose: Book chapter for Interviews episode 2 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
       kind: exposition
       priority: medium
       target_words: 2800
@@ -3314,14 +3314,14 @@ volume_7_interviews:
       sprint: TBD
       blocking: []
       next_action: Complete analysis memo for vi-02; then draft chapter outline
-      outline_path: chapters-volume-vii/vi-ch02/outline.md
-      draft_path: chapters-volume-vii/vi-ch02/draft.md
+      outline_path: chapters-volume-vi/vi-ch02/outline.md
+      draft_path: chapters-volume-vi/vi-ch02/draft.md
       analysis_ready: false
       quotes_ready: false
       requires_prediction_review: false
     - id: vi-ch03
       title: 'Interviews #3: Glenn Diesen — Predictions for 2026 (Empire, Rivalry & Collapse)'
-      purpose: Book chapter for Interviews episode 3 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
+      purpose: Book chapter for Interviews episode 3 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
       kind: exposition
       priority: medium
       target_words: 2800
@@ -3336,14 +3336,14 @@ volume_7_interviews:
       sprint: TBD
       blocking: []
       next_action: Complete analysis memo for vi-03; then draft chapter outline
-      outline_path: chapters-volume-vii/vi-ch03/outline.md
-      draft_path: chapters-volume-vii/vi-ch03/draft.md
+      outline_path: chapters-volume-vi/vi-ch03/outline.md
+      draft_path: chapters-volume-vi/vi-ch03/draft.md
       analysis_ready: false
       quotes_ready: false
       requires_prediction_review: false
     - id: vi-ch04
       title: 'Interviews #4: Danny Haiphong — Predictions for 2026: Trump, Iran & Empire Collapse'
-      purpose: Book chapter for Interviews episode 4 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
+      purpose: Book chapter for Interviews episode 4 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
       kind: exposition
       priority: medium
       target_words: 2800
@@ -3358,14 +3358,14 @@ volume_7_interviews:
       sprint: TBD
       blocking: []
       next_action: Complete analysis memo for vi-04; then draft chapter outline
-      outline_path: chapters-volume-vii/vi-ch04/outline.md
-      draft_path: chapters-volume-vii/vi-ch04/draft.md
+      outline_path: chapters-volume-vi/vi-ch04/outline.md
+      draft_path: chapters-volume-vi/vi-ch04/draft.md
       analysis_ready: false
       quotes_ready: false
       requires_prediction_review: false
     - id: vi-ch05
       title: 'Interviews #5: Dimitri Lascaris — Trump’s War on Iran, Davos, Canada–China'
-      purpose: Book chapter for Interviews episode 5 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
+      purpose: Book chapter for Interviews episode 5 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
       kind: analysis
       priority: medium
       target_words: 2800
@@ -3380,14 +3380,14 @@ volume_7_interviews:
       sprint: TBD
       blocking: []
       next_action: Complete analysis memo for vi-05; then draft chapter outline
-      outline_path: chapters-volume-vii/vi-ch05/outline.md
-      draft_path: chapters-volume-vii/vi-ch05/draft.md
+      outline_path: chapters-volume-vi/vi-ch05/outline.md
+      draft_path: chapters-volume-vi/vi-ch05/draft.md
       analysis_ready: false
       quotes_ready: false
       requires_prediction_review: false
     - id: vi-ch06
       title: 'Interviews #6: Glenn Diesen — Great Power Wars Over a New World Order'
-      purpose: Book chapter for Interviews episode 6 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
+      purpose: Book chapter for Interviews episode 6 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
       kind: analysis
       priority: medium
       target_words: 2800
@@ -3402,14 +3402,14 @@ volume_7_interviews:
       sprint: TBD
       blocking: []
       next_action: Complete analysis memo for vi-06; then draft chapter outline
-      outline_path: chapters-volume-vii/vi-ch06/outline.md
-      draft_path: chapters-volume-vii/vi-ch06/draft.md
+      outline_path: chapters-volume-vi/vi-ch06/outline.md
+      draft_path: chapters-volume-vi/vi-ch06/draft.md
       analysis_ready: false
       quotes_ready: false
       requires_prediction_review: false
     - id: vi-ch07
       title: 'Interviews #7: Breaking Points (Krystal & Saagar) — US WILL LOSE Iran War'
-      purpose: Book chapter for Interviews episode 7 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
+      purpose: Book chapter for Interviews episode 7 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
       kind: analysis
       priority: medium
       target_words: 2800
@@ -3424,14 +3424,14 @@ volume_7_interviews:
       sprint: TBD
       blocking: []
       next_action: Complete analysis memo for vi-07; then draft chapter outline
-      outline_path: chapters-volume-vii/vi-ch07/outline.md
-      draft_path: chapters-volume-vii/vi-ch07/draft.md
+      outline_path: chapters-volume-vi/vi-ch07/outline.md
+      draft_path: chapters-volume-vi/vi-ch07/draft.md
       analysis_ready: false
       quotes_ready: false
       requires_prediction_review: false
     - id: vi-ch08
       title: 'Interviews #8: Nima (Dialogue Works) — The Iran War: The Watershed Moment That Changed the Middle East Forever'
-      purpose: Book chapter for Interviews episode 8 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
+      purpose: Book chapter for Interviews episode 8 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
       kind: analysis
       priority: medium
       target_words: 2800
@@ -3446,14 +3446,14 @@ volume_7_interviews:
       sprint: TBD
       blocking: []
       next_action: Complete analysis memo for vi-08; then draft chapter outline
-      outline_path: chapters-volume-vii/vi-ch08/outline.md
-      draft_path: chapters-volume-vii/vi-ch08/draft.md
+      outline_path: chapters-volume-vi/vi-ch08/outline.md
+      draft_path: chapters-volume-vi/vi-ch08/draft.md
       analysis_ready: false
       quotes_ready: false
       requires_prediction_review: false
     - id: vi-ch09
       title: 'Interviews #9: SNEAKO — The End of the World'
-      purpose: Book chapter for Interviews episode 9 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
+      purpose: Book chapter for Interviews episode 9 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
       kind: analysis
       priority: medium
       target_words: 2800
@@ -3468,14 +3468,14 @@ volume_7_interviews:
       sprint: TBD
       blocking: []
       next_action: Complete analysis memo for vi-09; then draft chapter outline
-      outline_path: chapters-volume-vii/vi-ch09/outline.md
-      draft_path: chapters-volume-vii/vi-ch09/draft.md
+      outline_path: chapters-volume-vi/vi-ch09/outline.md
+      draft_path: chapters-volume-vi/vi-ch09/draft.md
       analysis_ready: false
       quotes_ready: false
       requires_prediction_review: false
     - id: vi-ch10
       title: 'Interviews #10: Endgame — Our True Wealth Is Our Consciousness'
-      purpose: Book chapter for Interviews episode 10 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
+      purpose: Book chapter for Interviews episode 10 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
       kind: analysis
       priority: medium
       target_words: 2800
@@ -3490,14 +3490,14 @@ volume_7_interviews:
       sprint: TBD
       blocking: []
       next_action: Complete analysis memo for vi-10; then draft chapter outline
-      outline_path: chapters-volume-vii/vi-ch10/outline.md
-      draft_path: chapters-volume-vii/vi-ch10/draft.md
+      outline_path: chapters-volume-vi/vi-ch10/outline.md
+      draft_path: chapters-volume-vi/vi-ch10/draft.md
       analysis_ready: false
       quotes_ready: false
       requires_prediction_review: false
     - id: vi-ch11
       title: 'Interviews #11: Tucker Carlson — Iran War, Energy, and Global Order'
-      purpose: Book chapter for Interviews episode 11 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
+      purpose: Book chapter for Interviews episode 11 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
       kind: analysis
       priority: medium
       target_words: 2800
@@ -3512,14 +3512,14 @@ volume_7_interviews:
       sprint: TBD
       blocking: []
       next_action: Complete analysis memo for vi-11; then draft chapter outline
-      outline_path: chapters-volume-vii/vi-ch11/outline.md
-      draft_path: chapters-volume-vii/vi-ch11/draft.md
+      outline_path: chapters-volume-vi/vi-ch11/outline.md
+      draft_path: chapters-volume-vi/vi-ch11/draft.md
       analysis_ready: false
       quotes_ready: false
       requires_prediction_review: false
     - id: vi-ch12
       title: 'Interviews #12: Jay Shapiro — Painful Personal Path, Truth and Myth, Internet Fame'
-      purpose: Book chapter for Interviews episode 12 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
+      purpose: Book chapter for Interviews episode 12 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
       kind: analysis
       priority: medium
       target_words: 2800
@@ -3534,14 +3534,14 @@ volume_7_interviews:
       sprint: TBD
       blocking: []
       next_action: Complete analysis memo for vi-12; then draft chapter outline
-      outline_path: chapters-volume-vii/vi-ch12/outline.md
-      draft_path: chapters-volume-vii/vi-ch12/draft.md
+      outline_path: chapters-volume-vi/vi-ch12/outline.md
+      draft_path: chapters-volume-vi/vi-ch12/draft.md
       analysis_ready: false
       quotes_ready: false
       requires_prediction_review: false
     - id: vi-ch13
       title: 'Interviews #13: Patrick Bet-David — Jiang Xueqin Finally Breaks His Silence (PBD Podcast #772)'
-      purpose: Book chapter for Interviews episode 13 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
+      purpose: Book chapter for Interviews episode 13 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
       kind: analysis
       priority: medium
       target_words: 2800
@@ -3556,14 +3556,14 @@ volume_7_interviews:
       sprint: TBD
       blocking: []
       next_action: Complete analysis memo for vi-13; then draft chapter outline
-      outline_path: chapters-volume-vii/vi-ch13/outline.md
-      draft_path: chapters-volume-vii/vi-ch13/draft.md
+      outline_path: chapters-volume-vi/vi-ch13/outline.md
+      draft_path: chapters-volume-vi/vi-ch13/draft.md
       analysis_ready: false
       quotes_ready: false
       requires_prediction_review: false
     - id: vi-ch14
       title: 'Interviews #14: Glenn Diesen — The Iran War & the Battle for the Petrodollar'
-      purpose: Book chapter for Interviews episode 14 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
+      purpose: Book chapter for Interviews episode 14 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
       kind: analysis
       priority: medium
       target_words: 2800
@@ -3578,14 +3578,14 @@ volume_7_interviews:
       sprint: TBD
       blocking: []
       next_action: Complete analysis memo for vi-14; then draft chapter outline
-      outline_path: chapters-volume-vii/vi-ch14/outline.md
-      draft_path: chapters-volume-vii/vi-ch14/draft.md
+      outline_path: chapters-volume-vi/vi-ch14/outline.md
+      draft_path: chapters-volume-vi/vi-ch14/draft.md
       analysis_ready: false
       quotes_ready: false
       requires_prediction_review: false
     - id: vi-ch15
       title: 'Interviews #15: Sneako — Jiang Xueqin & Aleksandr Dugin (Eschatology & Geopolitics)'
-      purpose: Book chapter for Interviews episode 15 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
+      purpose: Book chapter for Interviews episode 15 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
       kind: analysis
       priority: medium
       target_words: 2800
@@ -3600,45 +3600,23 @@ volume_7_interviews:
       sprint: TBD
       blocking: []
       next_action: Complete analysis memo for vi-15; then draft chapter outline
-      outline_path: chapters-volume-vii/vi-ch15/outline.md
-      draft_path: chapters-volume-vii/vi-ch15/draft.md
-      analysis_ready: false
-      quotes_ready: false
-      requires_prediction_review: false
-    - id: vi-ch16
-      title: 'Interviews #16: Diary Of A CEO — World War 3 Is About To Begin'
-      purpose: Book chapter for Interviews episode 16 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
-      kind: analysis
-      priority: medium
-      target_words: 2800
-      source_ids:
-      - vi-16
-      analysis_ids: []
-      prediction_ids: []
-      divergence_ids: []
-      applications: []
-      status: outline_pending
-      owner: operator
-      sprint: TBD
-      blocking: []
-      next_action: Complete analysis memo for vi-16; then draft chapter outline
-      outline_path: chapters-volume-vii/vi-ch16/outline.md
-      draft_path: chapters-volume-vii/vi-ch16/draft.md
+      outline_path: chapters-volume-vi/vi-ch15/outline.md
+      draft_path: chapters-volume-vi/vi-ch15/draft.md
       analysis_ready: false
       quotes_ready: false
       requires_prediction_review: false
 
-# --- Volume VI — Essays (Predictive History on Substack) — book-track wired; see codex/predictive-history/volume-vi-book-track-conventions.md ---
-volume_6_essays:
+# --- Volume VII — Essays (Predictive History on Substack) — book-track wired; see codex/predictive-history/volume-vii-book-track-conventions.md ---
+volume_7_essays:
   project:
-    id: work-jiang-volume-6
+    id: work-jiang-volume-7
     series_title: Predictive History
     volume:
-      number: 6
+      number: 7
       corpus: Essays (Predictive History newsletter on Substack)
-    title: 'Predictive History, Volume 6: Essays'
-    thesis_one_sentence: TBD — set when Volume VI Part I book thesis is drafted (essay-faithful arc; publication order; see book/VOLUME-VI-ESSAYS.md).
-    promise_paragraph: Part I follows Jiang's Predictive History newsletter essays in publication order, text-backed (`substack/essays/<slug>.md`; registry `es-*` in `metadata/sources.yaml`). Each Part I chapter ends with a Divergence box by default (Part II method operator-locked — see book/VOLUME-VI-ESSAYS.md).
+    title: 'Predictive History, Volume 7: Essays'
+    thesis_one_sentence: TBD — set when Volume VII Part I book thesis is drafted (essay-faithful arc; publication order; see book/VOLUME-VII-ESSAYS.md).
+    promise_paragraph: Part I follows Jiang's Predictive History newsletter essays in publication order, text-backed (`substack/essays/<slug>.md`; registry `es-*` in `metadata/sources.yaml`). Each Part I chapter ends with a Divergence box by default (Part II method operator-locked — see book/VOLUME-VII-ESSAYS.md).
     audience:
       primary: serious general readers interested in history, philosophy, and geopolitics
       secondary:
@@ -3652,13 +3630,13 @@ volume_6_essays:
     instruction: End each Part I chapter with a boxed subsection per CHAPTER-DIVERGENCE-BOX.md — divergence IDs from divergences.jsonl where linked; not chapter_end_predictions (Volume I only) unless Part II policy adopts prediction adjudication.
   part_2:
     title: Part II — method TBD (Essays)
-    after_chapter: es-ch36
-    description: Operator locks evaluation mode in book/VOLUME-VI-ESSAYS.md (divergence-first default for Part I boxes).
+    after_chapter: es-ch35
+    description: Operator locks evaluation mode in book/VOLUME-VII-ESSAYS.md (divergence-first default for Part I boxes).
   book:
     chapters:
     - id: es-ch01
       title: Vision, Mission, Goals
-      purpose: Book chapter for essay 1 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
+      purpose: Book chapter for essay 1 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
       kind: analysis
       priority: medium
       target_words: 2800
@@ -3673,14 +3651,14 @@ volume_6_essays:
       sprint: TBD
       blocking: []
       next_action: Complete analysis memo for es-01; then draft chapter outline
-      outline_path: chapters-volume-vi/es-ch01/outline.md
-      draft_path: chapters-volume-vi/es-ch01/draft.md
+      outline_path: chapters-volume-vii/es-ch01/outline.md
+      draft_path: chapters-volume-vii/es-ch01/draft.md
       analysis_ready: false
       quotes_ready: false
       requires_prediction_review: false
     - id: es-ch02
       title: '"Continuity of Government" is a Joke. Here''s Why.'
-      purpose: Book chapter for essay 2 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
+      purpose: Book chapter for essay 2 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
       kind: analysis
       priority: medium
       target_words: 2800
@@ -3695,14 +3673,14 @@ volume_6_essays:
       sprint: TBD
       blocking: []
       next_action: Complete analysis memo for es-02; then draft chapter outline
-      outline_path: chapters-volume-vi/es-ch02/outline.md
-      draft_path: chapters-volume-vi/es-ch02/draft.md
+      outline_path: chapters-volume-vii/es-ch02/outline.md
+      draft_path: chapters-volume-vii/es-ch02/draft.md
       analysis_ready: false
       quotes_ready: false
       requires_prediction_review: false
     - id: es-ch03
       title: The Third Coming
-      purpose: Book chapter for essay 3 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
+      purpose: Book chapter for essay 3 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
       kind: analysis
       priority: medium
       target_words: 2800
@@ -3717,14 +3695,14 @@ volume_6_essays:
       sprint: TBD
       blocking: []
       next_action: Complete analysis memo for es-03; then draft chapter outline
-      outline_path: chapters-volume-vi/es-ch03/outline.md
-      draft_path: chapters-volume-vi/es-ch03/draft.md
+      outline_path: chapters-volume-vii/es-ch03/outline.md
+      draft_path: chapters-volume-vii/es-ch03/draft.md
       analysis_ready: false
       quotes_ready: false
       requires_prediction_review: false
     - id: es-ch04
       title: 'The Secret History of the World #1: The Cost of Money'
-      purpose: Book chapter for essay 4 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
+      purpose: Book chapter for essay 4 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
       kind: analysis
       priority: medium
       target_words: 2800
@@ -3739,14 +3717,14 @@ volume_6_essays:
       sprint: TBD
       blocking: []
       next_action: Complete analysis memo for es-04; then draft chapter outline
-      outline_path: chapters-volume-vi/es-ch04/outline.md
-      draft_path: chapters-volume-vi/es-ch04/draft.md
+      outline_path: chapters-volume-vii/es-ch04/outline.md
+      draft_path: chapters-volume-vii/es-ch04/draft.md
       analysis_ready: false
       quotes_ready: false
       requires_prediction_review: false
     - id: es-ch05
       title: 'The Secret History of the World #2: Measuring the Resilience of Societies'
-      purpose: Book chapter for essay 5 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
+      purpose: Book chapter for essay 5 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
       kind: analysis
       priority: medium
       target_words: 2800
@@ -3761,14 +3739,14 @@ volume_6_essays:
       sprint: TBD
       blocking: []
       next_action: Complete analysis memo for es-05; then draft chapter outline
-      outline_path: chapters-volume-vi/es-ch05/outline.md
-      draft_path: chapters-volume-vi/es-ch05/draft.md
+      outline_path: chapters-volume-vii/es-ch05/outline.md
+      draft_path: chapters-volume-vii/es-ch05/draft.md
       analysis_ready: false
       quotes_ready: false
       requires_prediction_review: false
     - id: es-ch06
       title: 'The Secret History of the World #3: The Corporate Re-Structuring of Canada'
-      purpose: Book chapter for essay 6 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
+      purpose: Book chapter for essay 6 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
       kind: analysis
       priority: medium
       target_words: 2800
@@ -3783,14 +3761,14 @@ volume_6_essays:
       sprint: TBD
       blocking: []
       next_action: Complete analysis memo for es-06; then draft chapter outline
-      outline_path: chapters-volume-vi/es-ch06/outline.md
-      draft_path: chapters-volume-vi/es-ch06/draft.md
+      outline_path: chapters-volume-vii/es-ch06/outline.md
+      draft_path: chapters-volume-vii/es-ch06/draft.md
       analysis_ready: false
       quotes_ready: false
       requires_prediction_review: false
     - id: es-ch07
       title: 'The Secret History of the World #4: Enter Epstein Island'
-      purpose: Book chapter for essay 7 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
+      purpose: Book chapter for essay 7 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
       kind: analysis
       priority: medium
       target_words: 2800
@@ -3805,14 +3783,14 @@ volume_6_essays:
       sprint: TBD
       blocking: []
       next_action: Complete analysis memo for es-07; then draft chapter outline
-      outline_path: chapters-volume-vi/es-ch07/outline.md
-      draft_path: chapters-volume-vi/es-ch07/draft.md
+      outline_path: chapters-volume-vii/es-ch07/outline.md
+      draft_path: chapters-volume-vii/es-ch07/draft.md
       analysis_ready: false
       quotes_ready: false
       requires_prediction_review: false
     - id: es-ch08
       title: 'The Secret History of the World #5: The Poetry of Transgression'
-      purpose: Book chapter for essay 8 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
+      purpose: Book chapter for essay 8 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
       kind: analysis
       priority: medium
       target_words: 2800
@@ -3827,14 +3805,14 @@ volume_6_essays:
       sprint: TBD
       blocking: []
       next_action: Complete analysis memo for es-08; then draft chapter outline
-      outline_path: chapters-volume-vi/es-ch08/outline.md
-      draft_path: chapters-volume-vi/es-ch08/draft.md
+      outline_path: chapters-volume-vii/es-ch08/outline.md
+      draft_path: chapters-volume-vii/es-ch08/draft.md
       analysis_ready: false
       quotes_ready: false
       requires_prediction_review: false
     - id: es-ch09
       title: 'The Secret History of the World #6: Manchurian Candidates'
-      purpose: Book chapter for essay 9 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
+      purpose: Book chapter for essay 9 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
       kind: analysis
       priority: medium
       target_words: 2800
@@ -3849,14 +3827,14 @@ volume_6_essays:
       sprint: TBD
       blocking: []
       next_action: Complete analysis memo for es-09; then draft chapter outline
-      outline_path: chapters-volume-vi/es-ch09/outline.md
-      draft_path: chapters-volume-vi/es-ch09/draft.md
+      outline_path: chapters-volume-vii/es-ch09/outline.md
+      draft_path: chapters-volume-vii/es-ch09/draft.md
       analysis_ready: false
       quotes_ready: false
       requires_prediction_review: false
     - id: es-ch10
       title: 'Secret History #7: The Voyage Home'
-      purpose: Book chapter for essay 10 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
+      purpose: Book chapter for essay 10 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
       kind: analysis
       priority: medium
       target_words: 2800
@@ -3871,14 +3849,14 @@ volume_6_essays:
       sprint: TBD
       blocking: []
       next_action: Complete analysis memo for es-10; then draft chapter outline
-      outline_path: chapters-volume-vi/es-ch10/outline.md
-      draft_path: chapters-volume-vi/es-ch10/draft.md
+      outline_path: chapters-volume-vii/es-ch10/outline.md
+      draft_path: chapters-volume-vii/es-ch10/draft.md
       analysis_ready: false
       quotes_ready: false
       requires_prediction_review: false
     - id: es-ch11
       title: Tipping Point USA
-      purpose: Book chapter for essay 11 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
+      purpose: Book chapter for essay 11 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
       kind: analysis
       priority: medium
       target_words: 2800
@@ -3893,14 +3871,14 @@ volume_6_essays:
       sprint: TBD
       blocking: []
       next_action: Complete analysis memo for es-11; then draft chapter outline
-      outline_path: chapters-volume-vi/es-ch11/outline.md
-      draft_path: chapters-volume-vi/es-ch11/draft.md
+      outline_path: chapters-volume-vii/es-ch11/outline.md
+      draft_path: chapters-volume-vii/es-ch11/draft.md
       analysis_ready: false
       quotes_ready: false
       requires_prediction_review: false
     - id: es-ch12
       title: I Have Questions about Tyler Robinson
-      purpose: Book chapter for essay 12 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
+      purpose: Book chapter for essay 12 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
       kind: analysis
       priority: medium
       target_words: 2800
@@ -3915,14 +3893,14 @@ volume_6_essays:
       sprint: TBD
       blocking: []
       next_action: Complete analysis memo for es-12; then draft chapter outline
-      outline_path: chapters-volume-vi/es-ch12/outline.md
-      draft_path: chapters-volume-vi/es-ch12/draft.md
+      outline_path: chapters-volume-vii/es-ch12/outline.md
+      draft_path: chapters-volume-vii/es-ch12/draft.md
       analysis_ready: false
       quotes_ready: false
       requires_prediction_review: false
     - id: es-ch13
       title: '"Predictive History" Reading List'
-      purpose: Book chapter for essay 13 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
+      purpose: Book chapter for essay 13 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
       kind: analysis
       priority: medium
       target_words: 2800
@@ -3937,14 +3915,14 @@ volume_6_essays:
       sprint: TBD
       blocking: []
       next_action: Complete analysis memo for es-13; then draft chapter outline
-      outline_path: chapters-volume-vi/es-ch13/outline.md
-      draft_path: chapters-volume-vi/es-ch13/draft.md
+      outline_path: chapters-volume-vii/es-ch13/outline.md
+      draft_path: chapters-volume-vii/es-ch13/draft.md
       analysis_ready: false
       quotes_ready: false
       requires_prediction_review: false
     - id: es-ch14
       title: What Can Be Done?
-      purpose: Book chapter for essay 14 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
+      purpose: Book chapter for essay 14 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
       kind: analysis
       priority: medium
       target_words: 2800
@@ -3959,14 +3937,14 @@ volume_6_essays:
       sprint: TBD
       blocking: []
       next_action: Complete analysis memo for es-14; then draft chapter outline
-      outline_path: chapters-volume-vi/es-ch14/outline.md
-      draft_path: chapters-volume-vi/es-ch14/draft.md
+      outline_path: chapters-volume-vii/es-ch14/outline.md
+      draft_path: chapters-volume-vii/es-ch14/draft.md
       analysis_ready: false
       quotes_ready: false
       requires_prediction_review: false
     - id: es-ch15
       title: The Empire Goes to War
-      purpose: Book chapter for essay 15 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
+      purpose: Book chapter for essay 15 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
       kind: analysis
       priority: medium
       target_words: 2800
@@ -3981,14 +3959,14 @@ volume_6_essays:
       sprint: TBD
       blocking: []
       next_action: Complete analysis memo for es-15; then draft chapter outline
-      outline_path: chapters-volume-vi/es-ch15/outline.md
-      draft_path: chapters-volume-vi/es-ch15/draft.md
+      outline_path: chapters-volume-vii/es-ch15/outline.md
+      draft_path: chapters-volume-vii/es-ch15/draft.md
       analysis_ready: false
       quotes_ready: false
       requires_prediction_review: false
     - id: es-ch16
       title: War Machine USA
-      purpose: Book chapter for essay 16 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
+      purpose: Book chapter for essay 16 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
       kind: analysis
       priority: medium
       target_words: 2800
@@ -4003,14 +3981,14 @@ volume_6_essays:
       sprint: TBD
       blocking: []
       next_action: Complete analysis memo for es-16; then draft chapter outline
-      outline_path: chapters-volume-vi/es-ch16/outline.md
-      draft_path: chapters-volume-vi/es-ch16/draft.md
+      outline_path: chapters-volume-vii/es-ch16/outline.md
+      draft_path: chapters-volume-vii/es-ch16/draft.md
       analysis_ready: false
       quotes_ready: false
       requires_prediction_review: false
     - id: es-ch17
       title: Why I Refuse to Get Rich
-      purpose: Book chapter for essay 17 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
+      purpose: Book chapter for essay 17 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
       kind: analysis
       priority: medium
       target_words: 2800
@@ -4025,14 +4003,14 @@ volume_6_essays:
       sprint: TBD
       blocking: []
       next_action: Complete analysis memo for es-17; then draft chapter outline
-      outline_path: chapters-volume-vi/es-ch17/outline.md
-      draft_path: chapters-volume-vi/es-ch17/draft.md
+      outline_path: chapters-volume-vii/es-ch17/outline.md
+      draft_path: chapters-volume-vii/es-ch17/draft.md
       analysis_ready: false
       quotes_ready: false
       requires_prediction_review: false
     - id: es-ch18
       title: 'Secret History #8: The Rise of the American Kakistocracy'
-      purpose: Book chapter for essay 18 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
+      purpose: Book chapter for essay 18 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
       kind: analysis
       priority: medium
       target_words: 2800
@@ -4047,14 +4025,14 @@ volume_6_essays:
       sprint: TBD
       blocking: []
       next_action: Complete analysis memo for es-18; then draft chapter outline
-      outline_path: chapters-volume-vi/es-ch18/outline.md
-      draft_path: chapters-volume-vi/es-ch18/draft.md
+      outline_path: chapters-volume-vii/es-ch18/outline.md
+      draft_path: chapters-volume-vii/es-ch18/draft.md
       analysis_ready: false
       quotes_ready: false
       requires_prediction_review: false
     - id: es-ch19
       title: The Limits of Pax Judaica
-      purpose: Book chapter for essay 19 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
+      purpose: Book chapter for essay 19 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
       kind: analysis
       priority: medium
       target_words: 2800
@@ -4069,14 +4047,14 @@ volume_6_essays:
       sprint: TBD
       blocking: []
       next_action: Complete analysis memo for es-19; then draft chapter outline
-      outline_path: chapters-volume-vi/es-ch19/outline.md
-      draft_path: chapters-volume-vi/es-ch19/draft.md
+      outline_path: chapters-volume-vii/es-ch19/outline.md
+      draft_path: chapters-volume-vii/es-ch19/draft.md
       analysis_ready: false
       quotes_ready: false
       requires_prediction_review: false
     - id: es-ch20
       title: 'Secret History #9: The War of Heaven and Hell'
-      purpose: Book chapter for essay 20 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
+      purpose: Book chapter for essay 20 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
       kind: analysis
       priority: medium
       target_words: 2800
@@ -4091,14 +4069,14 @@ volume_6_essays:
       sprint: TBD
       blocking: []
       next_action: Complete analysis memo for es-20; then draft chapter outline
-      outline_path: chapters-volume-vi/es-ch20/outline.md
-      draft_path: chapters-volume-vi/es-ch20/draft.md
+      outline_path: chapters-volume-vii/es-ch20/outline.md
+      draft_path: chapters-volume-vii/es-ch20/draft.md
       analysis_ready: false
       quotes_ready: false
       requires_prediction_review: false
     - id: es-ch21
       title: 'Secret History #10: The Great Revealing'
-      purpose: Book chapter for essay 21 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
+      purpose: Book chapter for essay 21 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
       kind: analysis
       priority: medium
       target_words: 2800
@@ -4113,14 +4091,14 @@ volume_6_essays:
       sprint: TBD
       blocking: []
       next_action: Complete analysis memo for es-21; then draft chapter outline
-      outline_path: chapters-volume-vi/es-ch21/outline.md
-      draft_path: chapters-volume-vi/es-ch21/draft.md
+      outline_path: chapters-volume-vii/es-ch21/outline.md
+      draft_path: chapters-volume-vii/es-ch21/draft.md
       analysis_ready: false
       quotes_ready: false
       requires_prediction_review: false
     - id: es-ch22
       title: Blowback Venezuela
-      purpose: Book chapter for essay 22 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
+      purpose: Book chapter for essay 22 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
       kind: analysis
       priority: medium
       target_words: 2800
@@ -4135,14 +4113,14 @@ volume_6_essays:
       sprint: TBD
       blocking: []
       next_action: Complete analysis memo for es-22; then draft chapter outline
-      outline_path: chapters-volume-vi/es-ch22/outline.md
-      draft_path: chapters-volume-vi/es-ch22/draft.md
+      outline_path: chapters-volume-vii/es-ch22/outline.md
+      draft_path: chapters-volume-vii/es-ch22/draft.md
       analysis_ready: false
       quotes_ready: false
       requires_prediction_review: false
     - id: es-ch23
       title: Minnesota Burning
-      purpose: Book chapter for essay 23 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
+      purpose: Book chapter for essay 23 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
       kind: analysis
       priority: medium
       target_words: 2800
@@ -4157,14 +4135,14 @@ volume_6_essays:
       sprint: TBD
       blocking: []
       next_action: Complete analysis memo for es-23; then draft chapter outline
-      outline_path: chapters-volume-vi/es-ch23/outline.md
-      draft_path: chapters-volume-vi/es-ch23/draft.md
+      outline_path: chapters-volume-vii/es-ch23/outline.md
+      draft_path: chapters-volume-vii/es-ch23/draft.md
       analysis_ready: false
       quotes_ready: false
       requires_prediction_review: false
     - id: es-ch24
       title: Iran, Greenland, and Canada
-      purpose: Book chapter for essay 24 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
+      purpose: Book chapter for essay 24 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
       kind: analysis
       priority: medium
       target_words: 2800
@@ -4179,14 +4157,14 @@ volume_6_essays:
       sprint: TBD
       blocking: []
       next_action: Complete analysis memo for es-24; then draft chapter outline
-      outline_path: chapters-volume-vi/es-ch24/outline.md
-      draft_path: chapters-volume-vi/es-ch24/draft.md
+      outline_path: chapters-volume-vii/es-ch24/outline.md
+      draft_path: chapters-volume-vii/es-ch24/draft.md
       analysis_ready: false
       quotes_ready: false
       requires_prediction_review: false
     - id: es-ch25
       title: Carney’s Speech and Trump’s Letter
-      purpose: Book chapter for essay 25 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
+      purpose: Book chapter for essay 25 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
       kind: analysis
       priority: medium
       target_words: 2800
@@ -4201,14 +4179,14 @@ volume_6_essays:
       sprint: TBD
       blocking: []
       next_action: Complete analysis memo for es-25; then draft chapter outline
-      outline_path: chapters-volume-vi/es-ch25/outline.md
-      draft_path: chapters-volume-vi/es-ch25/draft.md
+      outline_path: chapters-volume-vii/es-ch25/outline.md
+      draft_path: chapters-volume-vii/es-ch25/draft.md
       analysis_ready: false
       quotes_ready: false
       requires_prediction_review: false
     - id: es-ch26
       title: Twilight of the Liberal Elite
-      purpose: Book chapter for essay 26 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
+      purpose: Book chapter for essay 26 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
       kind: analysis
       priority: medium
       target_words: 2800
@@ -4223,14 +4201,14 @@ volume_6_essays:
       sprint: TBD
       blocking: []
       next_action: Complete analysis memo for es-26; then draft chapter outline
-      outline_path: chapters-volume-vi/es-ch26/outline.md
-      draft_path: chapters-volume-vi/es-ch26/draft.md
+      outline_path: chapters-volume-vii/es-ch26/outline.md
+      draft_path: chapters-volume-vii/es-ch26/draft.md
       analysis_ready: false
       quotes_ready: false
       requires_prediction_review: false
     - id: es-ch27
       title: Welcome to the Rupture
-      purpose: Book chapter for essay 27 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
+      purpose: Book chapter for essay 27 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
       kind: analysis
       priority: medium
       target_words: 2800
@@ -4245,14 +4223,14 @@ volume_6_essays:
       sprint: TBD
       blocking: []
       next_action: Complete analysis memo for es-27; then draft chapter outline
-      outline_path: chapters-volume-vi/es-ch27/outline.md
-      draft_path: chapters-volume-vi/es-ch27/draft.md
+      outline_path: chapters-volume-vii/es-ch27/outline.md
+      draft_path: chapters-volume-vii/es-ch27/draft.md
       analysis_ready: false
       quotes_ready: false
       requires_prediction_review: false
     - id: es-ch28
       title: Countdown to Iran
-      purpose: Book chapter for essay 28 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
+      purpose: Book chapter for essay 28 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
       kind: analysis
       priority: medium
       target_words: 2800
@@ -4267,14 +4245,14 @@ volume_6_essays:
       sprint: TBD
       blocking: []
       next_action: Complete analysis memo for es-28; then draft chapter outline
-      outline_path: chapters-volume-vi/es-ch28/outline.md
-      draft_path: chapters-volume-vi/es-ch28/draft.md
+      outline_path: chapters-volume-vii/es-ch28/outline.md
+      draft_path: chapters-volume-vii/es-ch28/draft.md
       analysis_ready: false
       quotes_ready: false
       requires_prediction_review: false
     - id: es-ch29
       title: World War III Begins
-      purpose: Book chapter for essay 29 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
+      purpose: Book chapter for essay 29 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
       kind: analysis
       priority: medium
       target_words: 2800
@@ -4289,14 +4267,14 @@ volume_6_essays:
       sprint: TBD
       blocking: []
       next_action: Complete analysis memo for es-29; then draft chapter outline
-      outline_path: chapters-volume-vi/es-ch29/outline.md
-      draft_path: chapters-volume-vi/es-ch29/draft.md
+      outline_path: chapters-volume-vii/es-ch29/outline.md
+      draft_path: chapters-volume-vii/es-ch29/draft.md
       analysis_ready: false
       quotes_ready: false
       requires_prediction_review: false
     - id: es-ch30
       title: The Acceleration
-      purpose: Book chapter for essay 30 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
+      purpose: Book chapter for essay 30 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
       kind: analysis
       priority: medium
       target_words: 2800
@@ -4311,14 +4289,14 @@ volume_6_essays:
       sprint: TBD
       blocking: []
       next_action: Complete analysis memo for es-30; then draft chapter outline
-      outline_path: chapters-volume-vi/es-ch30/outline.md
-      draft_path: chapters-volume-vi/es-ch30/draft.md
+      outline_path: chapters-volume-vii/es-ch30/outline.md
+      draft_path: chapters-volume-vii/es-ch30/draft.md
       analysis_ready: false
       quotes_ready: false
       requires_prediction_review: false
     - id: es-ch31
       title: Vietnam Redux
-      purpose: Book chapter for essay 31 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
+      purpose: Book chapter for essay 31 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
       kind: analysis
       priority: medium
       target_words: 2800
@@ -4333,14 +4311,14 @@ volume_6_essays:
       sprint: TBD
       blocking: []
       next_action: Complete analysis memo for es-31; then draft chapter outline
-      outline_path: chapters-volume-vi/es-ch31/outline.md
-      draft_path: chapters-volume-vi/es-ch31/draft.md
+      outline_path: chapters-volume-vii/es-ch31/outline.md
+      draft_path: chapters-volume-vii/es-ch31/draft.md
       analysis_ready: false
       quotes_ready: false
       requires_prediction_review: false
     - id: es-ch32
       title: The US-Iran End Game
-      purpose: Book chapter for essay 32 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
+      purpose: Book chapter for essay 32 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
       kind: analysis
       priority: medium
       target_words: 2800
@@ -4355,14 +4333,14 @@ volume_6_essays:
       sprint: TBD
       blocking: []
       next_action: Complete analysis memo for es-32; then draft chapter outline
-      outline_path: chapters-volume-vi/es-ch32/outline.md
-      draft_path: chapters-volume-vi/es-ch32/draft.md
+      outline_path: chapters-volume-vii/es-ch32/outline.md
+      draft_path: chapters-volume-vii/es-ch32/draft.md
       analysis_ready: false
       quotes_ready: false
       requires_prediction_review: false
     - id: es-ch33
       title: World War Trump
-      purpose: Book chapter for essay 33 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
+      purpose: Book chapter for essay 33 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
       kind: analysis
       priority: medium
       target_words: 2800
@@ -4380,14 +4358,14 @@ volume_6_essays:
       sprint: TBD
       blocking: []
       next_action: Draft chapter outline; wire quotes + comparative layer; adjudicate jiang-ES33-* per rubric
-      outline_path: chapters-volume-vi/es-ch33/outline.md
-      draft_path: chapters-volume-vi/es-ch33/draft.md
+      outline_path: chapters-volume-vii/es-ch33/outline.md
+      draft_path: chapters-volume-vii/es-ch33/draft.md
       analysis_ready: true
       quotes_ready: false
       requires_prediction_review: true
     - id: es-ch34
       title: The US-Iran War, Round Two
-      purpose: Book chapter for essay 34 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
+      purpose: Book chapter for essay 34 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
       kind: analysis
       priority: medium
       target_words: 2800
@@ -4402,14 +4380,14 @@ volume_6_essays:
       sprint: TBD
       blocking: []
       next_action: Complete analysis memo for es-34; then draft chapter outline
-      outline_path: chapters-volume-vi/es-ch34/outline.md
-      draft_path: chapters-volume-vi/es-ch34/draft.md
+      outline_path: chapters-volume-vii/es-ch34/outline.md
+      draft_path: chapters-volume-vii/es-ch34/draft.md
       analysis_ready: false
       quotes_ready: false
       requires_prediction_review: false
     - id: es-ch35
       title: The Trump New Deal
-      purpose: Book chapter for essay 35 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
+      purpose: Book chapter for essay 35 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
       kind: analysis
       priority: medium
       target_words: 2800
@@ -4424,30 +4402,8 @@ volume_6_essays:
       sprint: TBD
       blocking: []
       next_action: Complete analysis memo for es-35; then draft chapter outline
-      outline_path: chapters-volume-vi/es-ch35/outline.md
-      draft_path: chapters-volume-vi/es-ch35/draft.md
-      analysis_ready: false
-      quotes_ready: false
-      requires_prediction_review: false
-    - id: es-ch36
-      title: The US-China Grand Bargain
-      purpose: Book chapter for essay 36 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
-      kind: analysis
-      priority: medium
-      target_words: 2800
-      source_ids:
-      - es-36
-      analysis_ids: []
-      prediction_ids: []
-      divergence_ids: []
-      applications: []
-      status: outline_pending
-      owner: operator
-      sprint: TBD
-      blocking: []
-      next_action: Complete analysis memo for es-36; then draft chapter outline
-      outline_path: chapters-volume-vi/es-ch36/outline.md
-      draft_path: chapters-volume-vi/es-ch36/draft.md
+      outline_path: chapters-volume-vii/es-ch35/outline.md
+      draft_path: chapters-volume-vii/es-ch35/draft.md
       analysis_ready: false
       quotes_ready: false
       requires_prediction_review: false

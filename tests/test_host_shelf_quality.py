@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import subprocess
 from pathlib import Path
 
 import sys
@@ -226,5 +227,29 @@ def test_cli_apply_writes_json_and_markdown_with_naming_warning(tmp_path: Path, 
     captured = capsys.readouterr()
     payload = json.loads(captured.out)
     assert payload["warnings"]
+    assert payload["input_scope"] == "full-host-month"
     assert (output_root / "2026" / "davis" / "2026-04" / "quality-summary.json").is_file()
     assert (output_root / "2026" / "davis" / "2026-04" / "quality-summary.md").is_file()
+
+
+def test_scoped_git_state_does_not_claim_verified_when_paths_are_missing(
+    tmp_path: Path, monkeypatch
+) -> None:
+    def fake_run(args: list[str]) -> subprocess.CompletedProcess[str]:
+        if args[0] == "status":
+            return subprocess.CompletedProcess(["git", *args], 0, "", "")
+        if args[0] == "rev-parse":
+            return subprocess.CompletedProcess(["git", *args], 0, "origin/main\n", "")
+        if args[0] == "rev-list":
+            return subprocess.CompletedProcess(["git", *args], 0, "0\n", "")
+        raise AssertionError(args)
+
+    monkeypatch.setattr(quality, "_run_git", fake_run)
+
+    state = quality.scoped_git_state([tmp_path / "missing.md"])
+
+    assert state["on_disk"] is False
+    assert state["verified"] is False
+    assert state["committed"] is False
+    assert state["pushed"] is False
+    assert state["label"] == "not-on-disk/not-verified/not-committed/not-pushed"

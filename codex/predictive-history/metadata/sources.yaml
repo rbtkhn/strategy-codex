@@ -2309,20 +2309,6 @@ sources:
     curated_lecture: complete
     analysis: complete
     chapter_mapping: complete
-- source_id: vi-16
-  video_id: BTJGr78-zyw
-  title: 'Interviews #16: Diary Of A CEO — World War 3 Is About To Begin'
-  canonical_url: https://www.youtube.com/watch?v=BTJGr78-zyw
-  lecture_path: lectures/interviews-16-diary-of-a-ceo-world-war-3.md
-  analysis_path: null
-  series: interviews
-  episode: 16
-  themes: []
-  status:
-    transcript: complete
-    curated_lecture: complete
-    analysis: missing
-    chapter_mapping: complete
 - source_id: es-01
   video_id: ''
   title: Vision, Mission, Goals
@@ -2847,19 +2833,4 @@ sources:
     transcript: complete
     curated_lecture: complete
     analysis: complete
-    chapter_mapping: complete
-- source_id: es-36
-  video_id: ''
-  title: The US-China Grand Bargain
-  canonical_url: https://predictivehistory.substack.com/p/the-us-china-grand-bargain
-  publication_date: '2026-05-09'
-  lecture_path: substack/essays/the-us-china-grand-bargain.md
-  analysis_path: null
-  series: essays
-  episode: 36
-  themes: []
-  status:
-    transcript: complete
-    curated_lecture: complete
-    analysis: missing
     chapter_mapping: complete

@@ -189,33 +189,42 @@ def scoped_git_state(paths: list[Path]) -> dict[str, Any]:
         if rel not in normalized:
             normalized.append(rel)
     status_lines: list[str] = []
+    status_ok = True
     if normalized:
         proc = _run_git(["status", "--porcelain", "--", *normalized])
+        status_ok = proc.returncode == 0
         status_lines = [line for line in proc.stdout.splitlines() if line.strip()]
     upstream = _run_git(["rev-parse", "--abbrev-ref", "--symbolic-full-name", "@{u}"])
     upstream_ref = upstream.stdout.strip() if upstream.returncode == 0 else ""
     ahead_count: int | None = None
+    ahead_ok = True
     if upstream_ref:
         ahead = _run_git(["rev-list", "--count", f"{upstream_ref}..HEAD"])
-        if ahead.returncode == 0 and ahead.stdout.strip().isdigit():
+        ahead_ok = ahead.returncode == 0 and ahead.stdout.strip().isdigit()
+        if ahead_ok:
             ahead_count = int(ahead.stdout.strip())
     has_uncommitted = bool(status_lines)
-    has_unpushed = bool(has_uncommitted or not upstream_ref or (ahead_count or 0) > 0)
     on_disk = all(path.exists() for path in material_paths)
+    verified = bool(on_disk and status_ok and ahead_ok)
+    committed = bool(verified and not has_uncommitted)
+    pushed = bool(committed and upstream_ref and ahead_count == 0)
     return {
         "scoped_paths": normalized,
         "on_disk": on_disk,
-        "verified": True,
-        "committed": not has_uncommitted,
-        "pushed": not has_unpushed,
+        "verified": verified,
+        "committed": committed,
+        "pushed": pushed,
         "dirty_paths": status_lines,
         "dirty_path_count": len(status_lines),
         "upstream": upstream_ref,
         "ahead_count": ahead_count,
-        "label": "on-disk/verified/"
-        + ("not-committed" if has_uncommitted else "committed")
+        "label": ("on-disk" if on_disk else "not-on-disk")
         + "/"
-        + ("not-pushed" if has_unpushed else "pushed"),
+        + ("verified" if verified else "not-verified")
+        + "/"
+        + ("committed" if committed else "not-committed")
+        + "/"
+        + ("pushed" if pushed else "not-pushed"),
     }
 
 
@@ -543,6 +552,7 @@ def main(argv: list[str] | None = None) -> int:
         month_label=month_label,
         raw_input_list=args.raw_input_list,
     )
+    input_scope = "provided-paths" if args.raw_input_list else "full-host-month"
     if args.apply:
         summary = write_quality_summary(
             host=args.host,
@@ -551,6 +561,7 @@ def main(argv: list[str] | None = None) -> int:
             raw_paths=raw_paths,
             notebook_root=notebook_root,
             output_root=args.output_root,
+            input_scope=input_scope,
         )
     else:
         host_slug = _host_slug(args.host)
@@ -562,6 +573,7 @@ def main(argv: list[str] | None = None) -> int:
             raw_paths=raw_paths,
             notebook_root=notebook_root,
             previous=_load_previous(previous_path),
+            input_scope=input_scope,
         )
     print(json.dumps(summary, indent=2, ensure_ascii=True))
     return 0

@@ -5,6 +5,7 @@ Public intake command: `predictive-history`. Legacy `work-jiang` remains as a co
 > [!IMPORTANT]
 > **Freeze status:** Predictive History canonical edits now belong in **[`rbtkhn/predictive-history`](https://github.com/rbtkhn/predictive-history)**. The `codex/predictive-history/` tree inside `strategy-codex` is **frozen migration residue / historical reference only** during episode-by-episode migration. Do not treat it as a live writable lane. Boundary doctrine: [docs/predictive-history-external-boundary.md](../../docs/predictive-history-external-boundary.md).
 
+Operator project — **Jiang** (separate from SKILLS). See [skill-think](skill-think.md), [skill-write](skill-write.md), [work-alpha-school](work-alpha-school.md).
 
 ## Purpose
 
@@ -14,6 +15,7 @@ Historical purpose of this local tree was to deliver a multivolume **Predictive 
 
 **Canonical library index:** The book is catalogued in [self-library](self-library.md) as **LIB-0149** (SELF-LIBRARY is reference-facing; the local `codex/predictive-history/` tree is now frozen reference residue rather than the working manuscript).
 
+**Design lens:** Alpha-style mastery vocabulary (gates, “no Swiss cheese,” 2-hour pacing) mapped to this fork’s gate and WORK tools — [alpha-mastery-adaptation.md](../../docs/alpha-mastery-adaptation.md).
 
 **Authorized sources (operator list):** [work-jiang-sources.md](./work-jiang-sources.md) — convention: [work-modules-sources-principle.md](../../docs/skill-work/work-modules-sources-principle.md).
 
@@ -104,5 +106,5 @@ Repo-local material (operator research; not Voice knowledge until merged):
   - Examples: [Geo-Strategy #1 — Iran strategy matrix (2024-04-24)](./lectures/geo-strategy-01-iran-strategy-matrix-2024-04-24.md); [#2 — Christian Zionism & Middle East](./lectures/geo-strategy-02-christian-zionism-middle-east-conflict.md); [#3 — Empire & financialization](./lectures/geo-strategy-03-how-empire-is-destroying-america.md); [#4 — Saudi Arabia vs Iran](./lectures/geo-strategy-04-saudi-arabia-trump-card-against-iran.md); [#5 — Trump 2024 / Haley VP hypothesis](./lectures/geo-strategy-05-why-trump-will-win-nikki-haley-vp.md); [#6 — Imperial hubris & shock-and-awe](./lectures/geo-strategy-06-americas-imperial-hubris.md); [#7 — Raisi helicopter / IRGC scenario](./lectures/geo-strategy-07-who-killed-iranian-president-ebrahim-raisi.md); [#8 — Iran trap / invasion scenario](./lectures/geo-strategy-08-the-iran-trap.md); [#9 — Putin / putinism & consumerism thesis](./lectures/geo-strategy-09-putins-war-for-the-soul-of-russia.md); [#10 — Putin strategic imagination / Stalin game-theory](./lectures/geo-strategy-10-putins-strategic-imagination.md); [#11 — Second American Civil War thesis](./lectures/geo-strategy-11-the-second-american-civil-war.md); [#12 — Psychohistory / hope & modeling (END)](./lectures/geo-strategy-12-psychohistory-the-science-of-imagining-the-future.md)
   - Book/site production: [STATUS](./STATUS.md), [BOOK-ARCHITECTURE](./BOOK-ARCHITECTURE.md), [THESIS-MAP](./THESIS-MAP.md), [CHAPTER-QUEUE](./CHAPTER-QUEUE.md), [CONCEPT-DICTIONARY](./CONCEPT-DICTIONARY.md), [CLAIMS-OVERVIEW](./CLAIMS-OVERVIEW.md), [evidence-packs](./evidence-packs/); comparative layer: [QUOTE-BANK](./QUOTE-BANK.md), [COUNTER-READINGS](./COUNTER-READINGS.md), [INTELLECTUAL-CHRONOLOGY](./INTELLECTUAL-CHRONOLOGY.md)
 - `research/external/youtube-channels/predictive-history/` — machine transcripts + `index.json` for channel pulls
-- [work-civ-mem](../../docs/skill-work/work-civ-mem/README.md) — stewardship surface for civilization_memory; use for analytic frames and CIV-MEM â†” text crosswalks
+- [work-civ-mem](../../docs/skill-work/work-civ-mem/README.md) — stewardship surface for civilization_memory; use for analytic frames and CIV-MEM ↔ text crosswalks
   - [CIV-MEM reference spine (work-jiang)](./CIV-MEM-LENS.md) — lattice mapped to lectures + registries; use bridge fields in analysis sidecars; CMC as reference, not Record

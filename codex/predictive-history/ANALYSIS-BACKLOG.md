@@ -109,8 +109,6 @@ Sources missing or needing analysis, ordered by priority.
 | sh-26 | secret-history | Secret History #26: Faith of Evil | missing | missing | missing | sh-ch26 | 60 | mapped to sh-ch26; analysis missing |
 | sh-27 | secret-history | Secret History #27: Empire of Evil | missing | missing | missing | sh-ch27 | 60 | mapped to sh-ch27; analysis missing |
 | sh-28 | secret-history | Secret History #28: Pax Judaica | missing | missing | missing | sh-ch28 | 60 | mapped to sh-ch28; analysis missing |
-| vi-16 | interviews | Interviews #16: Diary Of A CEO — World W… | missing | missing | missing | vi-ch16 | 60 | mapped to vi-ch16; analysis missing |
-| es-36 | essays | The US-China Grand Bargain | missing | missing | missing | es-ch36 | 60 | mapped to es-ch36; analysis missing |
 | civ-01 | civilization | Civilization #1: Explaining Humanity's T… | complete | missing | missing | civ-ch01 | 50 | mapped to civ-ch01 |
 | civ-20 | civilization | Civilization #20: The Proto-Buddhists of… | complete | missing | missing | civ-ch20 | 50 | mapped to civ-ch20 |
 | sh-01 | secret-history | Secret History #1: How Power Works (4K R… | complete | missing | missing | sh-ch01 | 50 | mapped to sh-ch01 |
