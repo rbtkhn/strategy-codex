@@ -23,8 +23,8 @@ In strategy-codex, this skill is also the shared **transcript + appearance mater
 ## Layering rule
 
 - Use **`youtube transcript`** when the operator already has a specific URL or episode in hand.
-- Do **not** use this as the first move for the four-stream daily roster check.
-- When the task is "what did Diesen, Davis, Mercouris, and Dialogue Works upload today?", start with **`check streams`** and let it pass approved URLs down to this workflow. `cognition streams` remains a legacy alias for the same daily roster pass.
+- Do **not** use this as the first move for the five-stream daily roster check.
+- When the task is "what did Davis, Diesen, Alkhorshid/Dialogue Works, Napolitano/Judging Freedom, and Mercouris upload today?", start with **`check streams`** and let it pass approved URLs down to this workflow. `cognition streams` remains a legacy alias for the same daily roster pass.
 
 ## When to run
 
@@ -78,6 +78,7 @@ In strategy-codex, this skill is also the shared **transcript + appearance mater
    - Reflow fragments into readable paragraphs.
    - Assign speaker labels only where confidence is reasonable from interview structure.
    - Normalize recurring guest names conservatively when the lane identity is already established, for example keeping `Seyed M. Marandi` stable instead of preserving every caption-side variant.
+   - When a transcript is already captured but proper nouns are badly mangled, invoke **`proper noun normalization`** rather than broad prose cleanup.
    - Preserve uncertainty rather than inventing fluent but unsupported dialogue.
 
 7. **Verify before declaring success**
@@ -87,14 +88,19 @@ In strategy-codex, this skill is also the shared **transcript + appearance mater
    - Treat bodies below roughly 75 words or 400 non-frontmatter characters as failed embodiment unless the operator explicitly asked for a minimal metadata-only capture.
    - Reject placeholder phrases such as `transcript pending`, `index-only`, or `listed_only` as successful transcript bodies.
    - If the output still has substantial caption noise, say so clearly.
+   - If YouTube blocks metadata or captions, do not create a canonical stub. Use the receipt-side manual transcript scaffold instead, then wait for a human-filled body before routing appearances.
 
 8. **Emit the appearance packet**
    - For strategy-codex captures, prefer `--with-appearances` so successful raw-input files immediately produce:
      - `appearance-ledger.jsonl`
      - `speaker-routing-queue.md/jsonl`
      - `memory-action-queue.md/jsonl`
+     - `artifacts/host-shelf-quality/<year>/<host>/<YYYY-MM>/quality-summary.md/json`
      - `.codex-tmp/youtube-raw-input/<run-id>/capture-summary.md`
    - Route only files from the approved run or densification tranche; do not sweep every file in the same date folder.
+   - For `--apply --with-appearances`, keep the host-shelf quality report enabled unless the operator explicitly uses `--no-quality-report`.
+   - Close every densification pass with the quality contract line: `Structure: <delta> | Purity: <delta/%> | Unresolved: <count> | Git: on-disk/verified/not-committed/not-pushed`.
+   - Distinguish topological progress from text-quality progress: route count and shelf coverage are not the same as transcript-grade or cleaned-transcript purity.
    - Stop at advisory artifacts unless the operator separately asks to edit speaker objects, arcs, helixes, lattice rows, or other interpretation surfaces.
 
 ## Guardrails
@@ -140,11 +146,19 @@ Default strategy-codex command:
 python scripts/materialize_youtube_raw_input.py --url "<youtube-url>" --apply --with-appearances --purpose one-off
 ```
 
+Manual fallback after bot-check/auth failure:
+
+```bash
+python scripts/materialize_youtube_raw_input.py --url "<youtube-url>" --apply --with-appearances --purpose one-off --title "<title>" --pub-date YYYY-MM-DD --host "<host>" --show "<show>" --thread "<thread>" --channel-slug "<slug>" --file-prefix "<prefix>" --guest "<guest>"
+```
+
+If the fetch fails, use `.codex-tmp/youtube-raw-input/<run-id>/manual-transcript-scaffolds/`. The scaffold is a receipt-only draft with exact frontmatter, target path, paste marker, and verification command; it must not be treated as captured raw-input until a human replaces the marker with a real transcript body and the verifier accepts it.
+
 Densification tranche examples:
 
 ```bash
 python scripts/materialize_youtube_raw_input.py --input approved-urls.jsonl --apply --with-appearances --purpose densification --tranche-label napolitano-core-six
-python scripts/materialize_youtube_raw_input.py --raw-input-list existing-raw-inputs.txt --with-appearances --purpose densification --tranche-label diesen-marandi-backfill
+python scripts/materialize_youtube_raw_input.py --raw-input-list existing-raw-inputs.txt --apply --with-appearances --purpose densification --tranche-label diesen-marandi-backfill
 ```
 
 

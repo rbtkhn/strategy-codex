@@ -10,16 +10,27 @@ import urllib.request
 
 from youtube_transcripts.ytdlp_adapter import (
     caption_language_fields,
-    fetch_video_metadata_import,
+    fetch_video_metadata_import_with_auth,
     normalize_duration_seconds,
     normalize_title,
 )
 
 
-def fetch_metadata_ytdlp(video_id: str, *, max_attempts: int = 4) -> dict[str, object]:
+def fetch_metadata_ytdlp(
+    video_id: str,
+    *,
+    max_attempts: int = 4,
+    cookies: str | None = None,
+    cookies_from_browser: str | None = None,
+) -> dict[str, object]:
     """Full extract_info for one video (not flat)."""
     try:
-        return fetch_video_metadata_import(video_id, max_attempts=max_attempts)
+        return fetch_video_metadata_import_with_auth(
+            video_id,
+            max_attempts=max_attempts,
+            cookies=cookies,
+            cookies_from_browser=cookies_from_browser,
+        )
     except Exception:
         return {}
 

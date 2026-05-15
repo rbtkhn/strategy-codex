@@ -25,6 +25,7 @@ if str(SCRIPTS_DIR) not in sys.path:
 from yaml_compat import safe_dump, safe_load_text  # noqa: E402
 import build_speaker_memory_actions as speaker_actions  # noqa: E402
 import build_speaker_routing_queue as speaker_routing  # noqa: E402
+import host_shelf_quality  # noqa: E402
 from youtube_transcripts.discovery import extract_video_id  # noqa: E402
 from youtube_transcripts.metadata import fetch_metadata_ytdlp  # noqa: E402
 from youtube_transcripts.subtitles_ytdlp import fetch_subtitles_ytdlp  # noqa: E402
@@ -45,6 +46,7 @@ DEFAULT_NOTEBOOK_ROOT = REPO_ROOT / "codex" / str(date.today().year)
 DEFAULT_RECEIPT_ROOT = REPO_ROOT / ".codex-tmp" / "youtube-raw-input"
 DEFAULT_ROUTING_OUT = REPO_ROOT / "artifacts" / "speaker-routing"
 DEFAULT_ACTION_OUT = REPO_ROOT / "artifacts" / "speaker-memory-actions"
+DEFAULT_HOST_QUALITY_OUT = REPO_ROOT / "artifacts" / "host-shelf-quality"
 MIN_BODY_WORDS = 75
 MIN_BODY_CHARS = 400
 PRIMARY_LANGS = ["en.*"]
@@ -59,6 +61,8 @@ PLACEHOLDER_PATTERNS = (
     "listed_only",
     "todo: transcript",
     "no transcript available",
+    "paste full transcript",
+    "paste transcript body",
 )
 
 
@@ -96,6 +100,12 @@ class VerificationResult:
     word_count: int
     body_chars: int
     frontmatter: dict[str, Any]
+
+
+@dataclass(frozen=True)
+class YtdlpAuth:
+    cookies: Path | None = None
+    cookies_from_browser: str | None = None
 
 
 def slugify(text: str, *, max_len: int = 72) -> str:
@@ -297,15 +307,28 @@ def infer_guest_from_title(title: str, notebook_root: Path) -> tuple[str | None,
     return None, None
 
 
-def fetch_metadata(url: str) -> tuple[str | None, dict[str, Any], str | None]:
+def fetch_metadata(url: str, auth: YtdlpAuth | None = None) -> tuple[str | None, dict[str, Any], str | None]:
     video_id = extract_video_id(url)
     if not video_id:
         return None, {}, "missing YouTube video id"
-    info = fetch_metadata_ytdlp(video_id)
+    auth = auth or YtdlpAuth()
+    try:
+        info = fetch_metadata_ytdlp(
+            video_id,
+            cookies=str(auth.cookies) if auth.cookies else None,
+            cookies_from_browser=auth.cookies_from_browser,
+        )
+    except TypeError:
+        info = fetch_metadata_ytdlp(video_id)
     if not info:
         for mode in ("binary", "module"):
             try:
-                info = fetch_video_metadata_subprocess(url, mode=mode)
+                info = fetch_video_metadata_subprocess(
+                    url,
+                    mode=mode,
+                    cookies=auth.cookies,
+                    cookies_from_browser=auth.cookies_from_browser,
+                )
                 break
             except Exception:
                 info = {}
@@ -314,9 +337,18 @@ def fetch_metadata(url: str) -> tuple[str | None, dict[str, Any], str | None]:
     return video_id, dict(info), None
 
 
-def fetch_caption_text(video_id: str) -> tuple[str | None, str | None, str | None, str | None]:
+def fetch_caption_text(video_id: str, auth: YtdlpAuth | None = None) -> tuple[str | None, str | None, str | None, str | None]:
+    auth = auth or YtdlpAuth()
     for langs in (PRIMARY_LANGS, FALLBACK_LANGS):
-        text, kind, lang, error = fetch_subtitles_ytdlp(video_id, langs)
+        try:
+            text, kind, lang, error = fetch_subtitles_ytdlp(
+                video_id,
+                langs,
+                cookies=str(auth.cookies) if auth.cookies else None,
+                cookies_from_browser=auth.cookies_from_browser,
+            )
+        except TypeError:
+            text, kind, lang, error = fetch_subtitles_ytdlp(video_id, langs)
         if text:
             return text, kind, lang, None
         last_error = error
@@ -400,6 +432,19 @@ def output_path_for(notebook_root: Path, pub_date: str, file_prefix: str, title:
     return notebook_root / "raw-input" / pub_date / f"{file_prefix}-{slugify(title)}-{pub_date}.md"
 
 
+def manual_context(item: ApprovedUrl) -> dict[str, Any]:
+    return {
+        "title": item.title or "",
+        "pub_date": item.pub_date or "",
+        "show": item.show or "",
+        "host": item.host or "",
+        "thread": item.thread or "",
+        "channel_slug": item.channel_slug or "",
+        "file_prefix": item.file_prefix or "",
+        "guest": item.guest or "",
+    }
+
+
 def materialize_one(
     item: ApprovedUrl,
     *,
@@ -407,6 +452,7 @@ def materialize_one(
     ingest_date: str,
     apply: bool,
     watchlist: dict[str, WatchlistSpec],
+    auth: YtdlpAuth | None = None,
 ) -> dict[str, Any]:
     existing = find_existing_valid_raw_input(notebook_root, item.url)
     if existing:
@@ -421,16 +467,18 @@ def materialize_one(
             "body_chars": verification.body_chars,
         }
 
-    video_id, info, metadata_error = fetch_metadata(item.url)
+    video_id, info, metadata_error = fetch_metadata(item.url, auth)
     if not video_id or metadata_error:
         return {
             "url": item.url,
+            "youtube_id": video_id or "",
             "status": "failed-fetch",
             "output_path": "",
             "verification_ok": False,
             "verification_reason": metadata_error or "metadata fetch failed",
             "body_word_count": 0,
             "body_chars": 0,
+            **manual_context(item),
         }
 
     spec = infer_watchlist_spec(info, watchlist)
@@ -441,6 +489,12 @@ def materialize_one(
             "url": canonical_watch_url(item.url),
             "youtube_id": video_id,
             "title": title,
+            "show": item.show or (spec.show if spec else ""),
+            "host": item.host or (spec.host if spec else ""),
+            "thread": item.thread or (spec.thread if spec else ""),
+            "channel_slug": item.channel_slug or (spec.channel_key if spec else ""),
+            "file_prefix": item.file_prefix or (spec.file_prefix if spec else ""),
+            "guest": item.guest or "",
             "status": "failed-fetch",
             "output_path": "",
             "verification_ok": False,
@@ -449,13 +503,19 @@ def materialize_one(
             "body_chars": 0,
         }
 
-    captions, caption_kind, caption_lang, caption_error = fetch_caption_text(video_id)
+    captions, caption_kind, caption_lang, caption_error = fetch_caption_text(video_id, auth)
     if not captions:
         return {
             "url": canonical_watch_url(item.url),
             "youtube_id": video_id,
             "title": title,
             "pub_date": pub_date,
+            "show": item.show or (spec.show if spec else ""),
+            "host": item.host or (spec.host if spec else ""),
+            "thread": item.thread or (spec.thread if spec else ""),
+            "channel_slug": item.channel_slug or (spec.channel_key if spec else ""),
+            "file_prefix": item.file_prefix or (spec.file_prefix if spec else ""),
+            "guest": item.guest or "",
             "status": "failed-fetch",
             "output_path": "",
             "verification_ok": False,
@@ -630,6 +690,22 @@ def build_appearance_artifacts(
     return paths
 
 
+def build_quality_artifacts(*, raw_paths: list[Path], notebook_root: Path) -> dict[str, str]:
+    summaries = host_shelf_quality.write_quality_reports_for_paths(
+        raw_paths,
+        notebook_root=notebook_root,
+        output_root=DEFAULT_HOST_QUALITY_OUT,
+    )
+    if not summaries:
+        return {}
+    return {
+        "host_quality_count": str(len(summaries)),
+        "host_quality_reports": " | ".join(str(summary["json_path"]) for summary in summaries),
+        "host_quality_markdown": " | ".join(str(summary["markdown_path"]) for summary in summaries),
+        "host_quality_closeout": " || ".join(str(summary["closeout_line"]) for summary in summaries),
+    }
+
+
 def write_capture_summary(
     *,
     rows: list[dict[str, Any]],
@@ -675,6 +751,8 @@ def write_capture_summary(
         f"- legacy appearance carries: `{legacy_carries}`",
         f"- unresolved speaker captures: `{unresolved_count}`",
     ]
+    if artifact_paths.get("host_quality_closeout"):
+        lines.append(f"- quality closeout: {artifact_paths['host_quality_closeout']}")
     for status, count in sorted(counts.items()):
         lines.append(f"- {status}: `{count}`")
     if artifact_paths:
@@ -702,6 +780,140 @@ def write_capture_summary(
     return {"successful_raw_inputs": str(successful), "capture_summary": str(summary)}
 
 
+def _manual_scaffold_rows(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    return [
+        row
+        for row in rows
+        if row.get("status") in {"failed-fetch", "failed-verification"}
+        and str(row.get("url") or row.get("source_url") or "").strip()
+    ]
+
+
+def _manual_target_path(row: dict[str, Any], notebook_root: Path | None) -> Path | None:
+    if not notebook_root:
+        return None
+    pub_date = str(row.get("pub_date") or "").strip()
+    title = str(row.get("title") or "").strip()
+    file_prefix = str(row.get("file_prefix") or row.get("channel_slug") or "youtube").strip()
+    if not (pub_date and title and file_prefix):
+        return None
+    return output_path_for(notebook_root, pub_date, file_prefix, title)
+
+
+def _manual_frontmatter(row: dict[str, Any], *, ingest_date: str) -> dict[str, Any]:
+    source_url = canonical_watch_url(str(row.get("url") or row.get("source_url") or ""))
+    payload: dict[str, Any] = {
+        "ingest_date": ingest_date,
+        "pub_date": str(row.get("pub_date") or "YYYY-MM-DD"),
+        "kind": "transcript",
+        "source_type": "youtube",
+        "transcript_type": "operator_pasted_transcript",
+        "title": str(row.get("title") or "PASTE TITLE HERE"),
+        "source_url": source_url,
+        "source_note": "Transcript pasted manually by operator after automated yt-dlp fetch failed.",
+        "editorial_note": "Manual scaffold generated in receipts only; save to canonical raw-input only after replacing the paste marker with a real transcript body.",
+    }
+    for key in ("youtube_id", "channel_slug", "show", "host", "guest", "thread"):
+        value = str(row.get(key) or "").strip()
+        if value:
+            payload[key] = value
+    return payload
+
+
+def _manual_scaffold_body(
+    row: dict[str, Any],
+    *,
+    ingest_date: str,
+    target_path: Path | None,
+) -> str:
+    title = str(row.get("title") or "PASTE TITLE HERE").strip()
+    frontmatter = safe_dump(
+        _manual_frontmatter(row, ingest_date=ingest_date),
+        feature="materialize_youtube_raw_input.py",
+        sort_keys=False,
+        allow_unicode=True,
+        width=2000,
+    ).rstrip()
+    target = str(target_path) if target_path else "Unknown until pub_date, title, and file_prefix are supplied."
+    source_url = canonical_watch_url(str(row.get("url") or row.get("source_url") or ""))
+    reason = str(row.get("verification_reason") or "manual transcript needed")
+    verify_command = (
+        f'python scripts\\materialize_youtube_raw_input.py --raw-input "{target_path}" '
+        "--with-appearances --purpose one-off --tranche-label manual-transcript"
+        if target_path
+        else "After saving the canonical raw-input, run the materializer with --raw-input <path> --with-appearances."
+    )
+    return (
+        "# Manual Transcript Scaffold\n\n"
+        "WORK only; not Record. This receipt is a handoff aid, not a captured transcript.\n\n"
+        "## Target\n\n"
+        f"- canonical_raw_input: `{target}`\n"
+        f"- source_url: {source_url}\n"
+        f"- failed_reason: `{reason}`\n\n"
+        "## Human Steps\n\n"
+        "1. Open the YouTube source in a browser.\n"
+        "2. Copy the full transcript, not only a summary or chapter list.\n"
+        "3. Replace the paste marker in the draft below with the transcript body.\n"
+        "4. Save the filled draft to the canonical raw-input path above.\n"
+        "5. Run the verification/routing command below before claiming capture.\n\n"
+        "## Ready-To-Fill Raw-Input Draft\n\n"
+        "```markdown\n"
+        "---\n"
+        f"{frontmatter}\n"
+        "---\n\n"
+        f"# {title}\n\n"
+        "[PASTE FULL TRANSCRIPT BODY HERE. Delete this line before saving canonical raw-input.]\n"
+        "```\n\n"
+        "## Verification Command\n\n"
+        "```powershell\n"
+        f"{verify_command}\n"
+        "```\n\n"
+        "## Non-Stub Checklist\n\n"
+        "- Frontmatter has `source_url`, `pub_date`, `title`, `source_type`, `transcript_type`, and a provenance note.\n"
+        "- Body is at least 75 words and 400 characters after frontmatter.\n"
+        "- Body is transcript text, not an index, placeholder, or summary shell.\n"
+        "- Speaker/guest metadata is preserved when known.\n"
+    )
+
+
+def write_manual_transcript_scaffolds(
+    rows: list[dict[str, Any]],
+    receipt_dir: Path,
+    *,
+    notebook_root: Path | None = None,
+    ingest_date: str | None = None,
+) -> dict[str, str]:
+    scaffold_rows = _manual_scaffold_rows(rows)
+    if not scaffold_rows:
+        return {}
+    out_dir = receipt_dir / "manual-transcript-scaffolds"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    effective_ingest_date = ingest_date or date.today().isoformat()
+    index_lines = [
+        "# Manual transcript scaffolds",
+        "",
+        "WORK only; not Record. These files help humans fill transcripts later without creating canonical stubs.",
+        "",
+    ]
+    for idx, row in enumerate(scaffold_rows, start=1):
+        title = str(row.get("title") or row.get("youtube_id") or row.get("url") or f"row-{idx}")
+        slug = slugify(title, max_len=48)
+        path = out_dir / f"{idx:02d}-{slug}.md"
+        target_path = _manual_target_path(row, notebook_root)
+        path.write_text(
+            _manual_scaffold_body(row, ingest_date=effective_ingest_date, target_path=target_path),
+            encoding="utf-8",
+        )
+        index_lines.append(f"- [{path.name}](manual-transcript-scaffolds/{path.name})")
+    index = receipt_dir / "manual-transcript-scaffolds.md"
+    index.write_text("\n".join(index_lines).rstrip() + "\n", encoding="utf-8")
+    return {
+        "manual_scaffold_index": str(index),
+        "manual_scaffold_dir": str(out_dir),
+        "manual_scaffold_count": str(len(scaffold_rows)),
+    }
+
+
 def write_receipts(
     rows: list[dict[str, Any]],
     receipt_dir: Path,
@@ -709,6 +921,8 @@ def write_receipts(
     purpose: str = "one-off",
     tranche_label: str = "",
     artifact_paths: dict[str, str] | None = None,
+    notebook_root: Path | None = None,
+    ingest_date: str | None = None,
 ) -> dict[str, str]:
     receipt_dir.mkdir(parents=True, exist_ok=True)
     ledger = receipt_dir / "materialization-ledger.jsonl"
@@ -732,6 +946,14 @@ def write_receipts(
     summary.write_text("\n".join(lines) + "\n", encoding="utf-8")
     paths = {"ledger": str(ledger), "summary": str(summary)}
     paths.update(
+        write_manual_transcript_scaffolds(
+            rows,
+            receipt_dir,
+            notebook_root=notebook_root,
+            ingest_date=ingest_date,
+        )
+    )
+    paths.update(
         write_capture_summary(
             rows=rows,
             receipt_dir=receipt_dir,
@@ -753,7 +975,10 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--no-apply", action="store_false", dest="apply", help="Dry-run without canonical writes.")
     parser.add_argument("--receipt-root", type=Path, default=DEFAULT_RECEIPT_ROOT)
     parser.add_argument("--run-id", default="", help="Receipt subdirectory name. Defaults to UTC timestamp.")
+    parser.add_argument("--cookies", type=Path, default=None, help="yt-dlp cookies.txt path for operator-approved authenticated fetches.")
+    parser.add_argument("--cookies-from-browser", default="", help="yt-dlp browser cookie source, for example `chrome` or `chrome:Profile 1`.")
     parser.add_argument("--with-appearances", action="store_true", help="Build appearance, routing, and action artifacts for successful raw-inputs.")
+    parser.add_argument("--no-quality-report", action="store_true", help="Skip host-shelf quality artifacts when --with-appearances --apply would normally write them.")
     parser.add_argument("--purpose", choices=["daily", "densification", "one-off"], default="one-off")
     parser.add_argument("--tranche-label", default="", help="Human label for a bounded capture/densification tranche.")
     parser.add_argument("--raw-input", action="append", type=Path, default=[], help="Existing raw-input path to route without refetching. Repeatable.")
@@ -797,6 +1022,7 @@ def main(argv: list[str] | None = None) -> int:
         ]
 
     watchlist = load_watchlist()
+    auth = YtdlpAuth(cookies=args.cookies, cookies_from_browser=args.cookies_from_browser or None)
     rows = [
         materialize_one(
             item,
@@ -804,6 +1030,7 @@ def main(argv: list[str] | None = None) -> int:
             ingest_date=args.ingest_date,
             apply=args.apply,
             watchlist=watchlist,
+            auth=auth,
         )
         for item in items
     ]
@@ -812,18 +1039,28 @@ def main(argv: list[str] | None = None) -> int:
     receipt_dir = args.receipt_root / run_id
     artifact_paths: dict[str, str] = {}
     if args.with_appearances:
+        successful_paths = _successful_output_paths(rows)
         artifact_paths = build_appearance_artifacts(
-            raw_paths=_successful_output_paths(rows),
+            raw_paths=successful_paths,
             notebook_root=args.notebook_root.resolve(),
             run_id=run_id,
             include_no_action=args.include_no_action,
         )
+        if args.apply and not args.no_quality_report:
+            artifact_paths.update(
+                build_quality_artifacts(
+                    raw_paths=successful_paths,
+                    notebook_root=args.notebook_root.resolve(),
+                )
+            )
     paths = write_receipts(
         rows,
         receipt_dir,
         purpose=args.purpose,
         tranche_label=args.tranche_label,
         artifact_paths=artifact_paths,
+        notebook_root=args.notebook_root.resolve(),
+        ingest_date=args.ingest_date,
     )
     print(json.dumps({"rows": rows, "receipts": paths}, indent=2, ensure_ascii=True))
     failed = [row for row in rows if row.get("status") in {"failed-fetch", "failed-verification"}]

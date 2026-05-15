@@ -26,6 +26,8 @@ def fetch_subtitles_ytdlp(
     languages: list[str],
     *,
     prefer_manual: bool = True,
+    cookies: str | None = None,
+    cookies_from_browser: str | None = None,
 ) -> tuple[str | None, str | None, str | None, str | None]:
     """
     Download subtitles via yt-dlp (skip video).
@@ -36,6 +38,8 @@ def fetch_subtitles_ytdlp(
             video_id,
             languages,
             prefer_manual=prefer_manual,
+            cookies=cookies,
+            cookies_from_browser=cookies_from_browser,
         )
     except YtDlpError as exc:
         return None, None, None, str(exc)

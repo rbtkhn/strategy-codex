@@ -108,6 +108,41 @@ def _run_import_extract(
         raise YtDlpError(str(exc) or "yt-dlp failed") from exc
 
 
+def _cookies_from_browser_tuple(value: str | None) -> tuple[str, ...] | None:
+    text = (value or "").strip()
+    if not text:
+        return None
+    return tuple(part for part in text.split(":") if part)
+
+
+def _with_cookie_options(
+    options: dict[str, Any],
+    *,
+    cookies: str | Path | None = None,
+    cookies_from_browser: str | None = None,
+) -> dict[str, Any]:
+    out = dict(options)
+    if cookies:
+        out["cookiefile"] = str(cookies)
+    browser = _cookies_from_browser_tuple(cookies_from_browser)
+    if browser:
+        out["cookiesfrombrowser"] = browser
+    return out
+
+
+def _cookie_cli_args(
+    *,
+    cookies: str | Path | None = None,
+    cookies_from_browser: str | None = None,
+) -> list[str]:
+    args: list[str] = []
+    if cookies:
+        args.extend(["--cookies", str(cookies)])
+    if cookies_from_browser:
+        args.extend(["--cookies-from-browser", cookies_from_browser])
+    return args
+
+
 def _parse_json_output(stdout: str) -> dict[str, Any]:
     lines = stdout.strip().splitlines()
     payload = lines[-1] if lines else ""
@@ -247,17 +282,31 @@ def list_channel_entries_subprocess(
 
 
 def fetch_video_metadata_import(video_id: str, *, max_attempts: int = 4) -> dict[str, object]:
+    return fetch_video_metadata_import_with_auth(video_id, max_attempts=max_attempts)
+
+
+def fetch_video_metadata_import_with_auth(
+    video_id: str,
+    *,
+    max_attempts: int = 4,
+    cookies: str | Path | None = None,
+    cookies_from_browser: str | None = None,
+) -> dict[str, object]:
     url = watch_url(video_id)
 
     def _extract() -> dict[str, object]:
         info = _run_import_extract(
             url,
-            options={
-                "quiet": True,
-                "no_warnings": True,
-                "skip_download": True,
-                "ignoreerrors": False,
-            },
+            options=_with_cookie_options(
+                {
+                    "quiet": True,
+                    "no_warnings": True,
+                    "skip_download": True,
+                    "ignoreerrors": False,
+                },
+                cookies=cookies,
+                cookies_from_browser=cookies_from_browser,
+            ),
             download=False,
         )
         return info if isinstance(info, dict) else {}
@@ -271,6 +320,8 @@ def fetch_video_metadata_subprocess(
     mode: str = "binary",
     cwd: Path | None = None,
     python_cmd: str | None = None,
+    cookies: str | Path | None = None,
+    cookies_from_browser: str | None = None,
 ) -> dict[str, Any]:
     url = url_or_video_id if "://" in url_or_video_id else watch_url(url_or_video_id)
     return _run_json_subprocess(
@@ -284,6 +335,7 @@ def fetch_video_metadata_subprocess(
             "--skip-download",
             "--no-write-comments",
             "--dump-single-json",
+            *_cookie_cli_args(cookies=cookies, cookies_from_browser=cookies_from_browser),
         ],
     )
 
@@ -293,22 +345,28 @@ def download_subtitles(
     languages: list[str],
     *,
     prefer_manual: bool = True,
+    cookies: str | Path | None = None,
+    cookies_from_browser: str | None = None,
 ) -> tuple[str | None, str | None, str | None]:
     url = watch_url(video_id)
     langs = languages[:8] if languages else ["en", "en-US", "zh-Hans", "zh-CN"]
 
     with TemporaryDirectory(prefix="ytsub_") as tmp:
         tmp_path = Path(tmp)
-        opts: dict[str, Any] = {
-            "quiet": True,
-            "no_warnings": True,
-            "skip_download": True,
-            "writesubtitles": True,
-            "writeautomaticsub": True,
-            "subtitleslangs": langs,
-            "outtmpl": str(tmp_path / "%(id)s"),
-            "ignoreerrors": False,
-        }
+        opts: dict[str, Any] = _with_cookie_options(
+            {
+                "quiet": True,
+                "no_warnings": True,
+                "skip_download": True,
+                "writesubtitles": True,
+                "writeautomaticsub": True,
+                "subtitleslangs": langs,
+                "outtmpl": str(tmp_path / "%(id)s"),
+                "ignoreerrors": False,
+            },
+            cookies=cookies,
+            cookies_from_browser=cookies_from_browser,
+        )
         _require_import_mode()
         try:
             with yt_dlp.YoutubeDL(opts) as ydl:

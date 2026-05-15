@@ -105,6 +105,55 @@ def test_fetch_video_metadata_subprocess_builds_module_command(monkeypatch) -> N
     assert data["title"] == "Example"
 
 
+def test_fetch_video_metadata_subprocess_accepts_cookie_args(monkeypatch) -> None:
+    calls: dict[str, object] = {}
+
+    def fake_run(cmd: list[str], cwd=None, capture_output=False, text=False):
+        calls["cmd"] = cmd
+        return SimpleNamespace(returncode=0, stdout='{"id":"abc123def45"}\n', stderr="")
+
+    monkeypatch.setattr(adapter.subprocess, "run", fake_run)
+    adapter.fetch_video_metadata_subprocess(
+        "abc123def45",
+        mode="binary",
+        cookies=Path("C:/tmp/cookies.txt"),
+        cookies_from_browser="chrome:Default",
+    )
+
+    assert "--cookies" in calls["cmd"]
+    assert "C:\\tmp\\cookies.txt" in calls["cmd"] or "C:/tmp/cookies.txt" in calls["cmd"]
+    assert "--cookies-from-browser" in calls["cmd"]
+    assert "chrome:Default" in calls["cmd"]
+
+
+def test_fetch_video_metadata_import_accepts_browser_cookies(monkeypatch) -> None:
+    calls: dict[str, object] = {}
+
+    class FakeYDL:
+        def __init__(self, opts: dict[str, object]) -> None:
+            calls["opts"] = opts
+
+        def __enter__(self) -> "FakeYDL":
+            return self
+
+        def __exit__(self, exc_type, exc, tb) -> bool:
+            return False
+
+        def extract_info(self, url: str, download: bool = False) -> dict[str, object]:
+            return {"id": "abc123def45"}
+
+    monkeypatch.setattr(adapter, "yt_dlp", SimpleNamespace(YoutubeDL=FakeYDL))
+    adapter.fetch_video_metadata_import_with_auth(
+        "abc123def45",
+        max_attempts=1,
+        cookies=Path("C:/tmp/cookies.txt"),
+        cookies_from_browser="chrome:Default",
+    )
+
+    assert calls["opts"]["cookiefile"] == str(Path("C:/tmp/cookies.txt"))
+    assert calls["opts"]["cookiesfrombrowser"] == ("chrome", "Default")
+
+
 def test_fetch_subtitles_prefers_manual_file(monkeypatch) -> None:
     class FakeYDL:
         def __init__(self, opts: dict[str, object]) -> None:

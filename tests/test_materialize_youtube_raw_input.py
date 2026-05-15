@@ -240,6 +240,44 @@ def test_write_receipts_outputs_ledger_and_summary(tmp_path: Path) -> None:
     assert (receipt_dir / "capture-summary.md").is_file()
 
 
+def test_write_receipts_outputs_manual_scaffold_for_failed_fetch(tmp_path: Path) -> None:
+    receipt_dir = tmp_path / "receipts"
+    notebook_root = tmp_path / "codex" / "2026"
+    paths = mat.write_receipts(
+        [
+            {
+                "url": "https://www.youtube.com/watch?v=abc123def45",
+                "youtube_id": "abc123def45",
+                "title": "Prof. Jeffrey Sachs: What the Chinese Think of Trump",
+                "pub_date": "2026-05-15",
+                "status": "failed-fetch",
+                "verification_reason": "metadata fetch failed",
+                "body_word_count": 0,
+                "file_prefix": "transcript-napolitano",
+                "channel_slug": "napolitano",
+                "show": "Judging Freedom",
+                "host": "Judge Andrew Napolitano",
+                "guest": "Jeffrey Sachs",
+                "thread": "napolitano",
+            }
+        ],
+        receipt_dir,
+        notebook_root=notebook_root,
+        ingest_date="2026-05-15",
+    )
+
+    index = Path(paths["manual_scaffold_index"])
+    scaffold = next((receipt_dir / "manual-transcript-scaffolds").glob("*.md"))
+    text = scaffold.read_text(encoding="utf-8")
+    assert index.is_file()
+    assert paths["manual_scaffold_count"] == "1"
+    assert "WORK only; not Record" in text
+    assert "transcript_type: operator_pasted_transcript" in text
+    assert "guest: Jeffrey Sachs" in text
+    assert "PASTE FULL TRANSCRIPT BODY HERE" in text
+    assert "transcript-napolitano-prof-jeffrey-sachs-what-the-chinese-think-of-trump-2026-05-15.md" in text
+
+
 def test_main_dry_run_probe_emits_receipts_without_canonical_write(tmp_path: Path, monkeypatch, capsys) -> None:
     video_id = "probe123456"
     notebook_root = tmp_path / "codex" / "2026"
@@ -301,6 +339,7 @@ def test_main_with_appearances_writes_capture_packet(tmp_path: Path, monkeypatch
 
     monkeypatch.setattr(mat, "DEFAULT_ROUTING_OUT", tmp_path / "artifacts" / "speaker-routing")
     monkeypatch.setattr(mat, "DEFAULT_ACTION_OUT", tmp_path / "artifacts" / "speaker-memory-actions")
+    monkeypatch.setattr(mat, "DEFAULT_HOST_QUALITY_OUT", tmp_path / "artifacts" / "host-shelf-quality")
     monkeypatch.setattr(
         mat,
         "fetch_metadata_ytdlp",
@@ -342,10 +381,14 @@ def test_main_with_appearances_writes_capture_packet(tmp_path: Path, monkeypatch
     assert "tranche: `ritter-test`" in summary.read_text(encoding="utf-8")
     assert "speaker_routing_markdown" in summary.read_text(encoding="utf-8")
     assert "memory_action_queue_markdown" in summary.read_text(encoding="utf-8")
+    assert "quality closeout: Structure:" in summary.read_text(encoding="utf-8")
+    assert "host_quality_reports" in summary.read_text(encoding="utf-8")
     routing_files = list((tmp_path / "artifacts" / "speaker-routing" / "dense-run").rglob("speaker-routing-queue.jsonl"))
     action_files = list((tmp_path / "artifacts" / "speaker-memory-actions" / "dense-run").rglob("memory-action-queue.jsonl"))
     assert len(routing_files) == 1
     assert len(action_files) == 1
+    quality_files = list((tmp_path / "artifacts" / "host-shelf-quality").rglob("quality-summary.json"))
+    assert len(quality_files) == 1
     route_payload = json.loads(routing_files[0].read_text(encoding="utf-8").splitlines()[0])
     assert route_payload["appearance"]["speaker_slug"] == "ritter"
     assert route_payload["route_type"] == "existing-speaker-arc"
@@ -414,6 +457,60 @@ def test_raw_input_list_with_appearances_does_not_fetch_or_write_transcripts(tmp
     assert len(list((tmp_path / "artifacts" / "speaker-routing" / "existing-run").rglob("appearance-ledger.jsonl"))) == 1
 
 
+def test_no_quality_report_suppresses_quality_artifacts(tmp_path: Path, monkeypatch, capsys) -> None:
+    notebook_root = tmp_path / "codex" / "2026"
+    obj = notebook_root / "speakers" / "ritter" / "ritter-speaker-object.md"
+    obj.parent.mkdir(parents=True)
+    obj.write_text("# Ritter speaker object\n", encoding="utf-8")
+    raw = notebook_root / "raw-input" / "2026-05-12" / "existing-ritter.md"
+    raw.parent.mkdir(parents=True)
+    raw.write_text(
+        "---\n"
+        "ingest_date: 2026-05-15\n"
+        "pub_date: 2026-05-12\n"
+        "kind: transcript\n"
+        "source_type: youtube\n"
+        "transcript_type: auto_subtitles_vtt\n"
+        "title: Existing Ritter\n"
+        "source_url: https://www.youtube.com/watch?v=noquality12\n"
+        "source_note: Auto-captions extracted with yt_dlp.\n"
+        "guest: Scott Ritter\n"
+        "host: Glenn Diesen\n"
+        "show: Glenn Diesen\n"
+        "thread: diesen\n"
+        "---\n\n"
+        "# Existing Ritter\n\n"
+        f"{_caption(90)}\n",
+        encoding="utf-8",
+    )
+    monkeypatch.setattr(mat, "DEFAULT_ROUTING_OUT", tmp_path / "artifacts" / "speaker-routing")
+    monkeypatch.setattr(mat, "DEFAULT_ACTION_OUT", tmp_path / "artifacts" / "speaker-memory-actions")
+    monkeypatch.setattr(mat, "DEFAULT_HOST_QUALITY_OUT", tmp_path / "artifacts" / "host-shelf-quality")
+
+    rc = mat.main(
+        [
+            "--raw-input",
+            str(raw),
+            "--notebook-root",
+            str(notebook_root),
+            "--receipt-root",
+            str(tmp_path / "receipts"),
+            "--run-id",
+            "no-quality-run",
+            "--apply",
+            "--with-appearances",
+            "--no-quality-report",
+        ]
+    )
+
+    captured = capsys.readouterr()
+    assert rc == 0
+    assert '"status": "already-present-valid"' in captured.out
+    assert not (tmp_path / "artifacts" / "host-shelf-quality").exists()
+    summary = (tmp_path / "receipts" / "no-quality-run" / "capture-summary.md").read_text(encoding="utf-8")
+    assert "quality closeout: Structure:" not in summary
+
+
 def test_existing_legacy_raw_input_can_route_for_appearance(tmp_path: Path) -> None:
     raw = tmp_path / "codex" / "2026" / "raw-input" / "2026-04-20" / "legacy.md"
     raw.parent.mkdir(parents=True)
@@ -442,6 +539,7 @@ def test_dry_run_with_appearances_does_not_route(tmp_path: Path, monkeypatch) ->
     notebook_root = tmp_path / "codex" / "2026"
     monkeypatch.setattr(mat, "DEFAULT_ROUTING_OUT", tmp_path / "artifacts" / "speaker-routing")
     monkeypatch.setattr(mat, "DEFAULT_ACTION_OUT", tmp_path / "artifacts" / "speaker-memory-actions")
+    monkeypatch.setattr(mat, "DEFAULT_HOST_QUALITY_OUT", tmp_path / "artifacts" / "host-shelf-quality")
     monkeypatch.setattr(
         mat,
         "fetch_metadata_ytdlp",
@@ -496,6 +594,7 @@ def test_with_appearances_skips_unresolved_guest_capture(tmp_path: Path, monkeyp
     notebook_root = tmp_path / "codex" / "2026"
     monkeypatch.setattr(mat, "DEFAULT_ROUTING_OUT", tmp_path / "artifacts" / "speaker-routing")
     monkeypatch.setattr(mat, "DEFAULT_ACTION_OUT", tmp_path / "artifacts" / "speaker-memory-actions")
+    monkeypatch.setattr(mat, "DEFAULT_HOST_QUALITY_OUT", tmp_path / "artifacts" / "host-shelf-quality")
     monkeypatch.setattr(
         mat,
         "fetch_metadata_ytdlp",
@@ -528,9 +627,12 @@ def test_with_appearances_skips_unresolved_guest_capture(tmp_path: Path, monkeyp
     captured = capsys.readouterr()
     assert rc == 0
     assert '"status": "materialized"' in captured.out
-    assert not (tmp_path / "artifacts").exists()
+    assert not (tmp_path / "artifacts" / "speaker-routing").exists()
+    assert not (tmp_path / "artifacts" / "speaker-memory-actions").exists()
+    assert len(list((tmp_path / "artifacts" / "host-shelf-quality").rglob("quality-summary.json"))) == 1
     summary = (tmp_path / "receipts" / "unresolved-run" / "capture-summary.md").read_text(encoding="utf-8")
     assert "unresolved speaker captures: `1`" in summary
+    assert "quality closeout: Structure:" in summary
     assert "Unresolved Guest Episode" in summary
 
 
@@ -544,6 +646,7 @@ def test_with_appearances_skips_ambiguous_title_inference(tmp_path: Path, monkey
 
     monkeypatch.setattr(mat, "DEFAULT_ROUTING_OUT", tmp_path / "artifacts" / "speaker-routing")
     monkeypatch.setattr(mat, "DEFAULT_ACTION_OUT", tmp_path / "artifacts" / "speaker-memory-actions")
+    monkeypatch.setattr(mat, "DEFAULT_HOST_QUALITY_OUT", tmp_path / "artifacts" / "host-shelf-quality")
     monkeypatch.setattr(
         mat,
         "fetch_metadata_ytdlp",
@@ -576,9 +679,12 @@ def test_with_appearances_skips_ambiguous_title_inference(tmp_path: Path, monkey
     captured = capsys.readouterr()
     assert rc == 0
     assert '"status": "materialized"' in captured.out
-    assert not (tmp_path / "artifacts").exists()
+    assert not (tmp_path / "artifacts" / "speaker-routing").exists()
+    assert not (tmp_path / "artifacts" / "speaker-memory-actions").exists()
+    assert len(list((tmp_path / "artifacts" / "host-shelf-quality").rglob("quality-summary.json"))) == 1
     summary = (tmp_path / "receipts" / "ambiguous-run" / "capture-summary.md").read_text(encoding="utf-8")
     assert "unresolved speaker captures: `1`" in summary
+    assert "quality closeout: Structure:" in summary
     assert "Ritter and Freeman debate escalation" in summary
 
 
