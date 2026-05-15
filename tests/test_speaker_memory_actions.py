@@ -44,6 +44,7 @@ def row(
         "recommended_route": primary,
         "primary_route": primary,
         "also_strengthens": also or [],
+        "evidence_grade": "transcript-bearing",
         "reason": "test route",
     }
 
@@ -168,9 +169,11 @@ def test_writes_markdown_and_jsonl_with_stable_fields(tmp_path: Path) -> None:
         "speaker_slug",
         "host_slug",
         "evidence_appearances",
+        "evidence_grades",
         "reason",
         "operator_instruction",
     }
     assert payload["action_id"].startswith("act-")
+    assert payload["evidence_grades"] == ["transcript-bearing"]
     assert "Speaker memory action queue" in action_md.read_text(encoding="utf-8")
     assert json.loads(rollup_json.read_text(encoding="utf-8"))["appearance_count"] == 1

@@ -237,6 +237,8 @@ def classify_evidence_grade(meta: dict[str, Any], verification_reason: str = "")
         return "summary-grade"
     if kind == "cleaned-transcript":
         return "cleaned-transcript"
+    if kind == "transcript" and (not source_type or not transcript_type):
+        return "legacy-appearance-only"
     if kind == "transcript" and transcript_type == "manual_subtitles_vtt":
         return "transcript-grade"
     if kind == "transcript":

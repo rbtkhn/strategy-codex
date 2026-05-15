@@ -512,6 +512,39 @@ def test_summary_grade_is_preserved(tmp_path: Path) -> None:
     assert row["evidence_grade"] == "summary-grade"
 
 
+def test_legacy_transcript_without_source_or_transcript_type_is_not_transcript_bearing(tmp_path: Path) -> None:
+    notebook, speakers, _inventory_obj = _inventory(tmp_path)
+    obj = speakers / "freeman" / "freeman-speaker-object.md"
+    obj.parent.mkdir(parents=True)
+    obj.write_text("# Freeman\n", encoding="utf-8")
+    arc = notebook / "alkorshid" / "alkorshid-freeman-speaker-arc.md"
+    arc.parent.mkdir(parents=True)
+    arc.write_text("# Alkhorshid x Freeman\n", encoding="utf-8")
+    raw = notebook / "raw-input" / "2025-08-22" / "alkorshid-freeman.md"
+    raw.parent.mkdir(parents=True)
+    raw.write_text(
+        "---\n"
+        "pub_date: 2025-08-22\n"
+        'title: "Amb. Chas Freeman: U.S. on the Brink of Disaster"\n'
+        "source_url: https://www.youtube.com/watch?v=example\n"
+        "kind: transcript\n"
+        "source_note: Automated YouTube transcript fetch for Dialogue Works.\n"
+        "show: Dialogue Works\n"
+        "host: Nima Alkhorshid\n"
+        "guest: Chas Freeman\n"
+        "thread: alkorshid\n"
+        "---\n"
+        "body\n",
+        encoding="utf-8",
+    )
+    inventory = srq._discover_inventory(speakers, notebook)
+
+    row = srq.build_rows([raw], inventory, notebook)[0]
+
+    assert row["route_type"] == "existing-speaker-arc"
+    assert row["evidence_grade"] == "legacy-appearance-only"
+
+
 def test_appearance_id_is_stable_across_file_renames(tmp_path: Path) -> None:
     notebook, _speakers, inventory = _inventory(tmp_path)
     raw1 = _write_raw(
