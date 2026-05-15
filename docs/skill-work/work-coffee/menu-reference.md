@@ -110,6 +110,8 @@ The **first** coffee reply ends **Step 2** with the fixed menu. **Follow-up beha
 - **B. I will weigh the strongest paths and the tradeoff that matters most so the choice is easier to make.**
 - **C. I will recommend the best next move and the reason it wins so you can act without second-guessing.**
 
+When the operator asks for the daily main-stream update from this branch, route **C-A / Intel** through the **`check streams`** skill. That command owns the list-first daily Davis / Diesen / Dialogue Works / Mercouris check; materialization still waits for operator selection and then hands approved URLs to the YouTube transcript workflow. `cognition streams` remains a legacy alias.
+
 When **C-C Bridge idea pack** is blocked by tacit operator judgment, offer one bounded `skill-elicitation` checkpoint and then return to the bridge path. Do not ask elicitation questions from the coffee hub itself.
 
 <a id="build-b--detailed-scope"></a>

@@ -91,6 +91,14 @@ skills:
     verify_forbidden_substrings:
       - users/grace-mar/
       - process_approved_candidates
+  - name: check-streams
+    source: check-streams/SKILL.md
+    appendix: .cursor/skills/check-streams/CURSOR_APPENDIX.md
+    target: .cursor/skills/check-streams/SKILL.md
+    verify_forbidden_substrings:
+      - users/grace-mar/
+      - process_approved_candidates
+  # Legacy compatibility slug. Active concept: check-streams.
   - name: cognition-streams
     source: cognition-streams/SKILL.md
     appendix: .cursor/skills/cognition-streams/CURSOR_APPENDIX.md

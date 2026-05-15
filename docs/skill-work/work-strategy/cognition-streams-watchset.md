@@ -1,6 +1,6 @@
 # Why these four form a cognition watchset
 
-The daily `cognition streams` skill does not try to represent the whole cognition lattice.
+The daily `check streams` skill does not try to represent the whole cognition lattice. `cognition streams` remains the broader conceptual frame and legacy alias.
 
 It tracks four streams because together they form a practical **daily watchset**:
 

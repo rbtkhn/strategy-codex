@@ -1,0 +1,313 @@
+---
+name: check-streams
+preferred_activation: check streams
+description: 'Check the daily tracked YouTube stream roster for Davis, Diesen, Dialogue Works, and Mercouris: discover today''s uploads, filter suspected clips, list main uploads first, materialize only the operator-approved subset into canonical raw-input, and suggest speaker-folder routing hints.'
+portable: true
+version: 0.2.0
+tags:
+- operator
+- strategy
+- raw-input
+- youtube
+- daily
+portable_source: skills-portable/check-streams/SKILL.md
+synced_by: sync_portable_skills.py
+---
+# Check streams
+
+**Preferred activation (operator):** say **`check streams`**.
+
+Use this skill for the **daily stream check / daily ingest routine** across the fixed main-stream watchlist. It discovers today's Davis, Diesen, Dialogue Works, and Mercouris uploads, filters likely highlight clips and same-day companion clips, presents a list-first view, materializes only the operator-approved subset into canonical `raw-input`, and then suggests speaker-folder routing hints.
+
+Use the single-URL YouTube transcript workflow for one-off URLs. Use this skill when the operator wants the **daily roster**.
+
+**Legacy activation:** `cognition streams` remains accepted as a compatibility alias. Treat `check streams` as canonical in new docs, Coffee C routing, and operator-facing prose.
+
+For the higher-level notebook meaning of this routine, see [cognition-streams-daily-aperture.md](../../docs/skill-work/work-strategy/cognition-streams-daily-aperture.md).
+
+## Durable routing model
+
+Treat `check streams` as the intake gate, not the durable interpretation layer.
+
+- **`check streams`** = daily discovery, clip filtering, and operator selection
+- **`youtube transcript`** = subtitle/materialization layer for approved URLs
+- **speaker folders** = durable accumulation layer for speaker objects, speaker arcs, helixes, and cross-year notes
+- **lattice / cognition-streams surfaces** = secondary lookup and analysis views over accumulated speaker material
+
+After materialization, prefer asking **which speaker object or speaker arc this strengthens** before updating lattice surfaces. Do not create or update speaker objects automatically from the daily check unless the operator explicitly asks.
+
+## Layering rule
+
+- Start with **`check streams`** when the task is "what went up today across the tracked streams?"
+- Start with **`youtube transcript`** when the task is "turn this specific YouTube URL into canonical raw-input."
+- If the daily roster check produces approved URLs, hand each selected item down to the lower-layer YouTube transcript workflow for the actual materialization step.
+- After materialization, produce speaker-folder routing hints when the transcript clearly names a recurring speaker, guest lane, or existing `codex/<year>/speakers/<speaker>/` folder.
+- If the operator approves a guest-and-host backlog such as `Glenn x Marandi`, treat that as a valid batched handoff shape and pass the exact approved URLs down as one tranche.
+
+## When to run
+
+- The operator asks to check **today's uploads** across tracked main streams.
+- The operator wants a **daily list-first ingest pass** rather than a one-off YouTube transcript.
+- The operator asks what Glenn Diesen, Daniel Davis, Alexander Mercouris, and Dialogue Works uploaded today.
+- The operator asks to materialize today's uploads from the tracked main streams after reviewing the list.
+
+## When not to run
+
+- A single YouTube URL is provided without daily-list intent.
+- The task is one-off transcript cleanup or speaker normalization.
+- The operator wants to ingest one channel item directly.
+
+In those cases, use the lower-layer single-URL YouTube transcript workflow instead.
+
+## Default watchlist
+
+Track these four streams in v1:
+
+- Glenn Diesen
+- Daniel Davis
+- Alexander Mercouris
+- Dialogue Works
+
+If a stream has no upload on the target day, say so explicitly.
+
+## Daily workflow
+
+1. **Discover today's uploads**
+   - Query the tracked channels for the operator's local day.
+   - Prefer the channel's **uploads playlist / channel-id feed** over a handle-based `/videos` page.
+   - Treat a handle page as a fallback only; some channels can undercount, mis-order, or hide same-day uploads there.
+   - Normalize each result into:
+     - stream / channel
+     - title
+     - URL
+     - exact `pub_date`
+     - duration
+   - Keep the discovery pass separate from materialization.
+   - Preserve a local **discovery receipt** for the day so later audits can compare what the channel exposed against what was materialized.
+
+2. **Run the highlight-clip filter**
+   - Classify items into:
+     - **Main uploads**
+     - **Suspected clips / highlights**
+     - **Upcoming / not-yet-aired**
+   - Use a **conservative keep** bias for borderline material, but treat obvious same-day companion clips as a default no-ingest class.
+
+3. **Present a list-first view**
+   - Show the **Main uploads** first.
+   - Add one short line if clips were hidden:
+     - `N suspected clips hidden; show if wanted`
+   - Do not materialize anything yet.
+
+4. **Wait for operator selection**
+   - Support selections such as `all`, `all except X`, channel-specific subsets, and explicit clip inclusion.
+
+5. **Materialize the approved subset**
+   - For each approved URL:
+     - resolve metadata first
+     - fetch the best subtitle source available
+     - preserve extraction receipts locally
+     - write canonical date-folder raw-input
+   - When the approved subset is really a guest-host tranche rather than "today's whole roster," preserve that exact tranche shape instead of reopening discovery or broad channel slicing.
+
+6. **Default transcript class**
+   - Default to `auto_subtitles_vtt`.
+   - Use explicit provenance stating subtitle-derived, lightly deduped, and not human-verified verbatim.
+   - Upgrade to stronger normalization only when the operator explicitly asks.
+
+7. **Suggest speaker-folder routing**
+   - After approved items are materialized, inspect metadata, title, host, guest, and obvious `thread:` identity.
+   - Suggest likely speaker-folder targets such as `codex/<year>/speakers/<speaker>/` or stream-local speaker arcs such as `codex/<year>/<host-stream>/<host>-<guest>-speaker-arc.md`.
+   - Prefer existing speaker objects and arcs before proposing new ones.
+   - If no clear speaker route exists, say so and stop at raw-input.
+   - Treat lattice rows as lookup pointers; update them only after the speaker object or arc path is clear and the operator asks for that follow-up.
+
+## Clip-filter model
+
+Use a **layered scoring model**, not a single brittle rule.
+
+### Hard exclude signals
+
+Classify as **suspected clip** when any of these are true:
+
+- the YouTube object is a **Short**
+- the title contains strong clip markers such as:
+  - `shorts`
+  - `clip`
+  - `highlights`
+  - `best moments`
+  - `preview`
+  - `teaser`
+  - `trailer`
+  - `snippet`
+  - `excerpt`
+- the title explicitly says it is from another episode, such as `from today's show`, `from my interview with`, `full interview here`, or `watch full episode`
+- description or metadata clearly identifies repost / excerpt packaging
+- the item appears to be a same-day companion clip cut from a longer upload on the same channel
+
+Classify as **upcoming / not-yet-aired** when:
+
+- the YouTube object is a scheduled live event or premiere
+- the extractor reports that the live event has not begun yet
+- the object has no stable aired runtime and should not yet be treated as part of the day's ingestable corpus
+
+### Soft suspicion signals
+
+Mark as **suspected clip** when multiple weaker signals stack:
+
+- very short duration
+- title is a reactive fragment rather than normal house style
+- title is all-caps hook language with no guest/topic structure
+- duplicate same-day subject with a longer same-channel upload
+- description links to a separate full episode as the parent object
+
+### Companion-clip rule
+
+Treat a shorter same-day upload as a **companion clip** when all or nearly all of the following are true:
+
+- the same channel has a longer upload with the same guest or same substantive topic on the same day
+- the shorter item's title reads like a narrowed thesis, punchier hook, or extracted sub-claim from the longer upload
+- the runtime is materially shorter than the longer same-day upload
+- the shorter item does not look like an independent house-style episode in its own right
+
+Default policy:
+
+- **do not record companion clips**
+- show them only in the hidden `Suspected clips / highlights` bucket
+- materialize them only if the operator explicitly overrides that default
+
+For recurring cases like `Davis x Crooke`, assume the longer same-day interview is the canonical daily object unless there is strong evidence the shorter file is a genuinely separate episode.
+
+Short duration alone is **not** enough when the item still looks like a complete house-style upload.
+
+### Duration heuristics
+
+Use duration as a **supporting** signal only:
+
+- `< 3 min`: very likely clip
+- `3-8 min`: likely clip unless metadata strongly indicates a complete monologue, short formal update, or normal same-channel standalone upload
+- `8-15 min`: ambiguous; do not auto-hide on duration alone
+- `15+ min`: generally main upload unless strong clip markers fire
+
+### Channel-sensitive expectations
+
+Use light priors, but do not build separate policy trees:
+
+- **Glenn Diesen:** guest-name + thesis-title interviews are typical; short fragments are more suspicious
+- **Daniel Davis:** legitimate uploads can be short topical monologues; duration alone is unreliable and should not override normal standalone title structure
+- **Mercouris:** usually long monologues; short uploads are more suspicious
+- **Dialogue Works:** titles may be dramatic, and some legitimate interviews can still be relatively short; title sensationalism or a 10-15 minute runtime alone is not enough
+
+### Discovery-source discipline
+
+Use this priority order:
+
+1. **Channel uploads playlist / channel-id feed**
+2. **Channel RSS feed** when the latest window is enough
+3. **Handle-based `/videos` page** only as fallback
+4. **Local inventory / prior receipts** only as audit aid, not as the primary truth source
+
+Rationale:
+
+- handle pages can undercount or reorder uploads on some channels
+- high-volume channels can mix shorts, clips, livestream placeholders, and main uploads in unstable ways
+- a preserved daily receipt lets you distinguish "not ingested yet" from "not actually published" later
+
+### Audit discipline
+
+When checking whether a day is complete:
+
+- reconcile by **`source_url` / YouTube id**, not by filename alone
+- use frontmatter identity (`show`, `channel_slug`, `source_url`) before filename heuristics
+- treat outside-channel collabs as separate from the four-stream watchlist even if the guest/host overlaps
+- never claim a day is "complete" unless the discovery receipt and the local materialized set have both been checked
+- when you need a computed score, repair queue, and durable receipts, run `python scripts/cognition_streams_audit.py --start YYYY-MM-DD --end YYYY-MM-DD --recent-start YYYY-MM-DD` against the active `/codex/<year>` notebook root
+
+## Output shape
+
+Use this shape by default:
+
+```markdown
+# Today's Stream Check
+
+## Main uploads
+- <channel> — <title> — <date> — <url>
+
+N suspected clips hidden; show if wanted.
+```
+
+If the operator asks to see clips:
+
+```markdown
+## Suspected clips / highlights
+- <channel> — <title> — <why flagged> — <url>
+```
+
+After operator selection, report only the approved items being materialized and the resulting raw-input outcome. When materialization succeeds and a speaker route is clear, add:
+
+```markdown
+## Speaker routing hints
+- <raw-input file> -> <speaker folder or speaker arc candidate> — <why>
+```
+
+Use "candidate" when the target does not exist yet or would require a new speaker object / speaker arc decision.
+
+## Guardrails
+
+- Never silently discard borderline items.
+- Do not record same-day companion clips by default.
+- Never auto-materialize everything by default.
+- Never treat clip suspicion as certainty.
+- Never silently promote subtitle-derived outputs into stronger transcript classes.
+- Never create or update speaker folders, speaker objects, speaker arcs, helixes, or lattice rows from the daily check unless the operator explicitly asks.
+- Do not let the lattice become the first durable destination. Raw-input comes first; speaker-folder routing comes next; lattice updates are secondary pointers.
+
+## Success condition
+
+The operator gets a clean daily upload list for the tracked main streams, with obvious clips filtered into a secondary bucket, only the approved subset materialized into provenance-safe canonical `raw-input`, and clear speaker-folder routing hints for any material that strengthens an existing or candidate speaker object.
+
+
+## Cursor / grace-mar instance
+
+Grace-mar paths and commands for this repository (from `.cursor/skills/check-streams/`).
+
+| Topic | Path |
+|--------|------|
+| Canonical raw-input tree | [codex/](../../codex/) |
+| Date-bucket target pattern | `codex/YYYY/raw-input/YYYY-MM-DD/` |
+| Existing lower-layer ingest skill | [skills-portable/youtube-raw-input-transcript/SKILL.md](../../../skills-portable/youtube-raw-input-transcript/SKILL.md) |
+| Generated lower-layer Cursor skill | [\.cursor/skills/youtube-raw-input-transcript/SKILL.md](../youtube-raw-input-transcript/SKILL.md) |
+| Speaker folder shelf | [codex/2026/speakers/](../../../codex/2026/speakers/) |
+| Speaker arc boundary | [docs/skill-work/work-strategy/speaker-arc-thread-lattice-boundaries.md](../../../docs/skill-work/work-strategy/speaker-arc-thread-lattice-boundaries.md) |
+| Raw-input vs speaker arc boundary | [docs/skill-work/work-strategy/raw-input-ownership-vs-speaker-arc.md](../../../docs/skill-work/work-strategy/raw-input-ownership-vs-speaker-arc.md) |
+| Philosophical gloss | [docs/skill-work/work-strategy/cognition-streams-daily-aperture.md](../../../docs/skill-work/work-strategy/cognition-streams-daily-aperture.md) |
+| Temp daily discovery cache | [\.codex-tmp/](../../.codex-tmp/) |
+| Temp subtitle cache | [\.codex-tmp/yt-dlp/](../../.codex-tmp/yt-dlp/) |
+| Portable skill manifest | [skills-portable/manifest.yaml](../../../skills-portable/manifest.yaml) |
+| Sync script | [scripts/sync_portable_skills.py](../../../scripts/sync_portable_skills.py) |
+| Skill validator | [scripts/validate_skills.py](../../../scripts/validate_skills.py) |
+
+**Repo notes**
+
+- This skill is the **daily wrapper** over the single-URL YouTube transcript workflow.
+- `check streams` is the canonical activation; `cognition streams` remains a legacy compatibility alias.
+- After raw-input materialization, speaker folders are the durable routing layer. Lattice/cognition-streams surfaces are secondary lookup views, not the first update target.
+- In v1, the fixed default watchlist is:
+  - Glenn Diesen
+  - Daniel Davis
+  - Alexander Mercouris
+  - Dialogue Works
+- The operator-facing rule is:
+  - `check streams` for daily roster checks
+  - `cognition streams` as a legacy alias
+  - `youtube transcript` for one-off URLs
+- Default output class should remain conservative:
+  - `auto_subtitles_vtt`
+- When the operator asks for stronger cleanup later, follow the lower-layer transcript skill rather than inventing a second transcript doctrine here.
+
+**Common local command pattern**
+
+```powershell
+python scripts/sync_portable_skills.py --skill check-streams
+python scripts/sync_portable_skills.py --verify --skill check-streams
+python scripts/validate_skills.py
+```

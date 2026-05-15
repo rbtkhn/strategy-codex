@@ -1,6 +1,8 @@
 # Cognition streams as daily aperture
 
-`cognition streams` is more than a convenience wrapper for `yt-dlp`.
+The canonical operator skill is now **`check streams`**. The older phrase **`cognition streams`** remains the conceptual name for the broader aperture and a legacy activation alias.
+
+`check streams` is more than a convenience wrapper for `yt-dlp`.
 
 It is the notebook's **daily perceptual aperture**: a bounded way of asking what the strategic world is trying to say today through a recurring set of voices.
 
@@ -29,4 +31,4 @@ The list-first rule is part of that philosophy. It slows the operator down just 
 
 For the specific judgment rule behind `main uploads` versus `suspected clips`, see [cognition-streams-attention-discipline.md](cognition-streams-attention-discipline.md).
 
-In that sense, `cognition streams` sits upstream from notebook judgment much the way a perceptual habit sits upstream from thought: it shapes what becomes visible before deciding what becomes important.
+In that sense, `check streams` sits upstream from notebook judgment much the way a perceptual habit sits upstream from thought: it shapes what becomes visible before deciding what becomes important.

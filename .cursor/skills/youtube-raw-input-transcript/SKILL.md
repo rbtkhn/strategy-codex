@@ -22,7 +22,7 @@ Use this skill when a YouTube episode should become a canonical transcript artif
 
 - Use **`youtube transcript`** when the operator already has a specific URL or episode in hand.
 - Do **not** use this as the first move for the four-stream daily roster check.
-- When the task is "what did Diesen, Davis, Mercouris, and Dialogue Works upload today?", start with **`cognition streams`** and let it pass approved URLs down to this workflow.
+- When the task is "what did Diesen, Davis, Mercouris, and Dialogue Works upload today?", start with **`check streams`** and let it pass approved URLs down to this workflow. `cognition streams` remains a legacy alias for the same daily roster pass.
 
 ## When to run
 

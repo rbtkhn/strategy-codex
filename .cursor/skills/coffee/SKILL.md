@@ -116,6 +116,8 @@ If the file is missing or empty below the anchor, state that under **Recent rhyt
 
 **C-A Civ-mem bridge scan** owns the grounding pass: identify the live civ-mem spine, the memory cues that matter, and the constraint map that should stay visible.
 
+When the operator asks for the daily main-stream update from Coffee **C** (Davis, Diesen, Dialogue Works, Mercouris), route **C-A / Intel** through the **`check streams`** skill. Treat `check streams` as the list-first daily roster check and hand approved URLs down to the lower-layer YouTube transcript workflow only after selection. `cognition streams` remains a legacy alias.
+
 **C-B Abundance-pack OS** owns the packaging pass: convert the grounded prompt into an abundance-pack-ready shape without losing the operator's real constraints.
 
 **C-C Bridge idea pack** owns the combined pass: civ-mem first, abundance-pack OS second, then a compact bridge pack with the best next move.
