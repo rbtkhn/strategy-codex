@@ -1,4 +1,4 @@
-﻿---
+---
 name: fact-check
 preferred_activation: fact check
 description: >-

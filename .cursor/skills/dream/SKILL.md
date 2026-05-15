@@ -1,4 +1,4 @@
-﻿---
+---
 name: dream
 preferred_activation: dream
 description: "Grace-Mar night-close maintenance ritual. Primary trigger: dream. Dream is the end-of-day consolidation pass: a bounded maintenance ritual that settles continuity, checks integrity and governance, refreshes contradiction visibility, and prepares governed follow-up without merge authority. Agent steps also cover strategy-notebook closeout and Cici notebook day-file generation (see skill body). Before auto_dream.py runs, synthesize the last four cadence lines (eight when the operator asks for full day-close rhythm) from work-cadence-events.md into **Recent rhythm** prose (no internal ops jargon or timestamps in chat). Usually one dream session per day."

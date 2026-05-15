@@ -1,0 +1,14 @@
+{
+  "benchmark_id": "cm-2-dopamine-flow-ai-creation",
+  "prompt_version": "composition-benchmark-v1/cm-2-dopamine-flow-ai-creation",
+  "rubric_version": "cm-2-rubric-v2",
+  "model": "GPT-5 Codex",
+  "provider": "OpenAI",
+  "model_version": "unavailable",
+  "run_date": "2026-05-15",
+  "temperature": "unknown",
+  "seed": "unavailable",
+  "source_mode": "prompt_only",
+  "evaluator": "Codex",
+  "notes": "Prompt-only Kleiber composition benchmark. No live lookup; empirical-style claims are framed from prompt premises and general historical-pattern reasoning."
+}
