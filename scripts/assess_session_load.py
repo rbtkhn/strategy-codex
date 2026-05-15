@@ -113,6 +113,21 @@ def _collect_dream_quality(user_id: str) -> dict | None:
     }
 
 
+def _collect_coffee_recursion(user_id: str) -> dict | None:
+    """Read recent coffee_close recursion signals."""
+    try:
+        from audit_cadence_rhythm import compute_coffee_recursion_summary
+    except ImportError:
+        try:
+            from scripts.audit_cadence_rhythm import compute_coffee_recursion_summary
+        except ImportError:
+            return None
+    try:
+        return compute_coffee_recursion_summary(user_id, days=14)
+    except Exception:
+        return None
+
+
 def _collect_branch_count() -> int:
     """Count non-main git branches."""
     import subprocess
@@ -217,6 +232,7 @@ def _compute_option_weights(
     load_level: str,
     gate: dict | None,
     branch_count: int,
+    coffee_recursion: dict | None = None,
 ) -> dict[str, dict[str, str]]:
     """Assign cost and note to each coffee option."""
     pending = gate.get("pending", 0) if gate else 0
@@ -243,15 +259,55 @@ def _compute_option_weights(
     elif pending >= 1:
         weights["A"]["note"] = f"Steward; {pending} pending candidate(s)"
 
+    last_close = (coffee_recursion or {}).get("last_close") or {}
+    readiness = str(last_close.get("readiness") or "").strip()
+    artifacts = last_close.get("artifacts") or []
+    if readiness == "ship_ready":
+        weights["A"]["note"] = "Steward; last close is ship_ready"
+        weights["A"]["cost"] = "light"
+    elif readiness == "execution_ready":
+        weights["B"]["note"] = "Engineer; last close is execution_ready"
+        weights["B"]["cost"] = "light"
+    elif readiness == "blocked":
+        code_like = _artifacts_look_code_related(artifacts)
+        target = "B" if code_like else "A"
+        weights[target]["note"] = f"{weights[target]['note']}; last close is blocked"
+        weights[target]["cost"] = "light"
+    elif readiness == "orientation":
+        weights["C"]["note"] = "Strategist; last close is orientation-only"
+        weights["C"]["cost"] = "light"
+
     return weights
+
+
+def _artifacts_look_code_related(artifacts: list[str] | tuple[str, ...] | None) -> bool:
+    if not artifacts:
+        return False
+    code_prefixes = ("scripts/", "tests/", "src/", "bot/", ".cursor/", "skills-portable/")
+    return any(str(artifact).replace("\\", "/").startswith(code_prefixes) for artifact in artifacts)
 
 
 def _pick_recommendation(
     load_level: str,
     weights: dict[str, dict[str, str]],
     signals: list[str],
+    coffee_recursion: dict | None = None,
 ) -> tuple[str, str]:
     """Select the recommended option and reason (A / B / C only; see coffee SKILL)."""
+    last_close = (coffee_recursion or {}).get("last_close") or {}
+    readiness = str(last_close.get("readiness") or "").strip()
+    artifacts = last_close.get("artifacts") or []
+    if readiness == "ship_ready":
+        return "A", "last coffee close is ship_ready - Steward can review and ship"
+    if readiness == "execution_ready" and _artifacts_look_code_related(artifacts):
+        return "B", "last coffee close is execution_ready on code/test artifacts"
+    if readiness == "orientation":
+        return "C", "last coffee close is orientation-only - Strategist can crystallize the next move"
+    if readiness == "blocked":
+        if _artifacts_look_code_related(artifacts):
+            return "B", "last coffee close is blocked on code/test artifacts"
+        return "A", "last coffee close is blocked - Steward can isolate the blocker"
+
     w = {k: weights[k] for k in ("A", "B", "C") if k in weights}
     if load_level == "heavy":
         return "C", "heavy load - strategist submenu keeps the next move bounded"
@@ -276,11 +332,12 @@ def assess_load(user_id: str) -> dict:
     gate = _collect_gate_depth(user_id)
     gap = _collect_capture_gap(user_id)
     dream = _collect_dream_quality(user_id)
+    coffee_recursion = _collect_coffee_recursion(user_id)
     branch_count = _collect_branch_count()
 
     load_level, signals = _compute_load_level(cadence, gate, gap, dream)
-    weights = _compute_option_weights(load_level, gate, branch_count)
-    recommended, reason = _pick_recommendation(load_level, weights, signals)
+    weights = _compute_option_weights(load_level, gate, branch_count, coffee_recursion)
+    recommended, reason = _pick_recommendation(load_level, weights, signals, coffee_recursion)
 
     return {
         "load_level": load_level,
@@ -290,6 +347,7 @@ def assess_load(user_id: str) -> dict:
         "recommendation_reason": reason,
         "time_of_day": _time_of_day_energy(),
         "branch_count": branch_count,
+        "coffee_recursion": coffee_recursion,
     }
 
 

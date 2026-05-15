@@ -15,10 +15,14 @@ Modes
   minimal     Minimal pass: compact harness only (no daily warmup unless --include-warmup)
   closeout    Signing-off Step 1: handoff check (gate, PH closeout, commits, worktree) - same coffee A-D hub menu after; conductor remains name-only
   reentry     Cold-thread stack: handoff + daily warmup + harness (same as operator_reentry_stack)
+  first-command
+              New-chat bootstrap: compact cold-thread stack + Coffee Bootstrap Brief
 
 Usage
 -----
     python3 scripts/operator_coffee.py                                  # default: strategy-codex work-start
+    python3 scripts/operator_coffee.py -u strategy-codex --mode first-command
+    python3 scripts/operator_coffee.py -u strategy-codex --first-command
     python3 scripts/operator_coffee.py -u strategy-codex --mode light
     python3 scripts/operator_coffee.py -u strategy-codex --mode closeout
     python3 scripts/operator_coffee.py -u strategy-codex --mode reentry --compact
@@ -38,7 +42,7 @@ _SCRIPTS = Path(__file__).resolve().parent
 if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
 from repo_io import DEFAULT_USER_ID, profile_dir
-MODES = ("work-start", "light", "minimal", "closeout", "reentry")
+MODES = ("work-start", "light", "minimal", "closeout", "reentry", "first-command")
 
 
 def _configure_utf8_stdio() -> None:
@@ -48,8 +52,19 @@ def _configure_utf8_stdio() -> None:
             reconfigure(encoding="utf-8", errors="replace")
 
 
-def _run(argv: list[str], *, label: str | None = None) -> int:
+def _run(argv: list[str], *, label: str | None = None, quiet: bool = False) -> int:
     display = label or " ".join(argv)
+    if quiet:
+        r = subprocess.run(argv, cwd=str(_REPO), capture_output=True, text=True)
+        if r.returncode == 0:
+            print(f"$ {display} ... ok", flush=True)
+            return 0
+        print(f"\n{'=' * 60}\n$ {display}\n{'=' * 60}\n", flush=True)
+        if r.stdout:
+            print(r.stdout, end="" if r.stdout.endswith("\n") else "\n")
+        if r.stderr:
+            print(r.stderr, end="" if r.stderr.endswith("\n") else "\n", file=sys.stderr)
+        return r.returncode
     print(f"\n{'=' * 60}\n$ {display}\n{'=' * 60}\n", flush=True)
     r = subprocess.run(argv, cwd=str(_REPO))
     return r.returncode
@@ -99,6 +114,16 @@ def main() -> int:
         help="Pass --compact to harness_warmup.py",
     )
     p.add_argument(
+        "--first-command",
+        action="store_true",
+        help="Alias for --mode first-command (new-chat bootstrap).",
+    )
+    p.add_argument(
+        "--verbose",
+        action="store_true",
+        help="In first-command mode, print detailed underlying script blocks.",
+    )
+    p.add_argument(
         "--include-warmup",
         action="store_true",
         help="In minimal mode, also run operator_daily_warmup",
@@ -124,6 +149,8 @@ def main() -> int:
         help="Cursor UI model label for work-cadence-events line (else CURSOR_MODEL env, else unknown)",
     )
     args = p.parse_args()
+    if args.first_command:
+        args.mode = "first-command"
     user = args.user
     py = sys.executable
 
@@ -158,13 +185,28 @@ def main() -> int:
         steps = [handoff]
     elif args.mode == "reentry":
         steps = [handoff, warmup, harness_compact if args.compact else harness]
+    elif args.mode == "first-command":
+        steps = [handoff, warmup, harness_compact]
+
+    first_command = args.mode == "first-command"
+    show_details = not first_command or args.verbose
+
+    if first_command:
+        try:
+            from coffee_bootstrap_brief import build_coffee_bootstrap_brief, format_coffee_bootstrap_brief
+
+            print(format_coffee_bootstrap_brief(build_coffee_bootstrap_brief(user)))
+            if args.verbose:
+                print()
+        except Exception as exc:
+            print(f"Coffee Bootstrap Brief: unavailable ({exc})")
 
     for argv in steps:
-        code = _run(argv)
+        code = _run(argv, quiet=first_command and not args.verbose)
         if code != 0:
             return code
 
-    if args.mode != "closeout":
+    if args.mode != "closeout" and show_details:
         print(f"\n{'=' * 60}\n$ git branch snapshot\n{'=' * 60}\n", flush=True)
         print(_branch_snapshot())
 
@@ -175,9 +217,10 @@ def main() -> int:
             format_load_one_liner,
         )
         load_result = assess_load(user)
-        print(f"\n{'=' * 60}\n$ session load assessment\n{'=' * 60}\n", flush=True)
-        print(format_load_one_liner(load_result))
-        print(format_default_acceptance_line(load_result))
+        if show_details:
+            print(f"\n{'=' * 60}\n$ session load assessment\n{'=' * 60}\n", flush=True)
+            print(format_load_one_liner(load_result))
+            print(format_default_acceptance_line(load_result))
     except Exception:
         try:
             from scripts.assess_session_load import (
@@ -186,35 +229,38 @@ def main() -> int:
                 format_load_one_liner,
             )
             load_result = assess_load(user)
-            print(f"\n{'=' * 60}\n$ session load assessment\n{'=' * 60}\n", flush=True)
-            print(format_load_one_liner(load_result))
-            print(format_default_acceptance_line(load_result))
+            if show_details:
+                print(f"\n{'=' * 60}\n$ session load assessment\n{'=' * 60}\n", flush=True)
+                print(format_load_one_liner(load_result))
+                print(format_default_acceptance_line(load_result))
         except Exception:
             pass
 
     try:
         from coffee_lane_next_hints import format_lane_next_hints
-        print(f"\n{'=' * 60}\n$ Lane context (for hub B / D - Engineer & Capitalist hints)\n{'=' * 60}\n", flush=True)
-        print(format_lane_next_hints(_REPO))
+        if show_details:
+            print(f"\n{'=' * 60}\n$ Lane context (for hub B / D - Engineer & Capitalist hints)\n{'=' * 60}\n", flush=True)
+            print(format_lane_next_hints(_REPO))
     except Exception:
         try:
             from scripts.coffee_lane_next_hints import format_lane_next_hints
-            print(f"\n{'=' * 60}\n$ Lane context (for hub B / D - Engineer & Capitalist hints)\n{'=' * 60}\n", flush=True)
-            print(format_lane_next_hints(_REPO))
+            if show_details:
+                print(f"\n{'=' * 60}\n$ Lane context (for hub B / D - Engineer & Capitalist hints)\n{'=' * 60}\n", flush=True)
+                print(format_lane_next_hints(_REPO))
         except Exception:
             pass
 
     try:
         from build_memory_observability import build_report, format_observability_one_liner
         memory_report = build_report(user)
-        if memory_report.get("overall_status") != "ok":
+        if show_details and memory_report.get("overall_status") != "ok":
             print(f"\n{'=' * 60}\n$ memory observability\n{'=' * 60}\n", flush=True)
             print(format_observability_one_liner(memory_report))
     except Exception:
         try:
             from scripts.build_memory_observability import build_report, format_observability_one_liner
             memory_report = build_report(user)
-            if memory_report.get("overall_status") != "ok":
+            if show_details and memory_report.get("overall_status") != "ok":
                 print(f"\n{'=' * 60}\n$ memory observability\n{'=' * 60}\n", flush=True)
                 print(format_observability_one_liner(memory_report))
         except Exception:
@@ -223,17 +269,7 @@ def main() -> int:
     try:
         from cadence_conductor_resolution import format_coffee_hub_e_line
 
-        print(
-            f"\n{'=' * 60}\n"
-            f"$ Standalone Conductor note (not a coffee hub line)\n"
-            f"{'=' * 60}\n",
-            flush=True,
-        )
-        print(format_coffee_hub_e_line(user), flush=True)
-    except Exception:
-        try:
-            from scripts.cadence_conductor_resolution import format_coffee_hub_e_line
-
+        if show_details:
             print(
                 f"\n{'=' * 60}\n"
                 f"$ Standalone Conductor note (not a coffee hub line)\n"
@@ -241,6 +277,18 @@ def main() -> int:
                 flush=True,
             )
             print(format_coffee_hub_e_line(user), flush=True)
+    except Exception:
+        try:
+            from scripts.cadence_conductor_resolution import format_coffee_hub_e_line
+
+            if show_details:
+                print(
+                    f"\n{'=' * 60}\n"
+                    f"$ Standalone Conductor note (not a coffee hub line)\n"
+                    f"{'=' * 60}\n",
+                    flush=True,
+                )
+                print(format_coffee_hub_e_line(user), flush=True)
         except Exception:
             pass
 

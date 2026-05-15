@@ -34,6 +34,8 @@ The sections below retain **legacy A?G workload detail** (seven letters) for **s
 
 **Full ritual:** Say **coffee** (Step 1 scripts + full menu), then choose **C** when you want the Strategist submenu: **A Civ-mem bridge scan**, **B Abundance-pack OS**, or **C Bridge idea pack**. **Bare `compass`** (or strategy without opening **coffee**) means **strategy lane only**ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Âagents may deliver work-strategy / **ROME-PASS** content **without** re-running Step 1 unless you ask for **coffee** first, **stay in coffee**, or a cold-thread stack (**operator_coffee.py --mode reentry**).
 
+**First-command coffee:** In a fresh strategy-codex chat, bare **`coffee`** should use `python3 scripts/operator_coffee.py -u strategy-codex --mode first-command`. That mode prints the **Coffee Bootstrap Brief** first, uses `coffee_close` receipts as the preferred recent-rhythm source, recommends one A-D hub letter, and keeps detailed script blocks behind `--verbose`. The turn is still incomplete until the fixed **Coffee Hub Menu - Reply A-D** is shown.
+
 ---
 
 ## Context paste budgets (operator)

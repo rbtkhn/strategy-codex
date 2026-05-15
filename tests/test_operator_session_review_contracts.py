@@ -32,6 +32,8 @@ def test_menu_reference_bare_compass_vs_full_coffee():
     assert "### Bare **`compass`** vs **`coffee`** then **`C`**" in md
     assert "Bare `compass`" in md
     assert "operator_coffee.py --mode reentry" in md
+    assert "operator_coffee.py -u strategy-codex --mode first-command" in md
+    assert "Coffee Bootstrap Brief" in md
 
 
 def test_operator_agent_lanes_plan_default_and_execute():

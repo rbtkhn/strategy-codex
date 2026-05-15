@@ -93,6 +93,16 @@ Optional **one line** after auto-continue prose: *Say a conductor name to switch
 
 When the operator begins with **`coffee`** (or clearly the same intent; legacy **`hey`** still counts), treat it as opening a **coffee session**.
 
+**Fresh chat default:** If `coffee` is the first command in a new strategy-codex chat, use the executable first-command bootstrap:
+
+```bash
+python3 scripts/operator_coffee.py -u strategy-codex --mode first-command
+```
+
+This prints a **Coffee Bootstrap Brief** first, then runs the compact cold-thread stack. Use `--verbose` only when the operator needs the detailed underlying handoff / warmup / harness blocks. Ordinary in-thread `coffee`, `coffee light`, `coffee minimal`, and signing-off behavior stay unchanged.
+
+For Step 0 recent rhythm, prefer the executable formatter in `scripts/coffee_bootstrap_brief.py` over manual log synthesis. It reads `coffee_close` receipts first, names readiness / artifact anchors / repeated unresolved loops, and keeps the first screen free of timestamp walls.
+
 ### Step 0 ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â Recent rhythm (before Step 1 scripts)
 
 **Read first** ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â `operator_coffee.py` appends a new **`coffee`** line at the **end** of a successful run, so the log must be read **before** those commands if the rhythm read is to exclude this session.
