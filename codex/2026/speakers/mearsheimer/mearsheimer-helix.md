@@ -10,6 +10,8 @@ The Mearsheimer helix is currently a **double helix**: one structural-realist vo
 
 These arcs should be read together because they are not merely repeated appearances, but two distinct host transformations of the same underlying voice. Read together, they show more of Mearsheimer's usable range than either lane can carry alone, even though a third stable cognition-stream strand has not yet been formalized.
 
+The 2025 shelf now supports that double-helix reading on disk as well: the Davis-side January 2025 roots are materially imported, and the Diesen-side late-2025 branch is materially present before the fuller 2026 hardening.
+
 ## The two strands
 
 | Host lane | Distinct register | What it reveals best |

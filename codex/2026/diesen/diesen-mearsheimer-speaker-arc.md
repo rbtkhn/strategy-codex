@@ -31,6 +31,15 @@ Selected canonical `Diesen × Mearsheimer` raw-inputs on disk:
 | 4 | 2026-03-10 | *John Mearsheimer: U.S. Already Lost Iran War — No Off-Ramp in Sight* | Best immediate war-trajectory file; strongest on trapped-escalation and absence of a plausible American exit. |
 | 5 | 2026-04-10 | *John Mearsheimer: World Changed Forever as Iran Defeated the U.S.* | Best defeat-to-order-transition bridge; useful when the question is how one regional failure reorders the wider system. |
 
+### 2025 branch
+
+The 2025 Diesen shelf is now materially real on disk rather than purely search-supported. The core solo `Glenn Diesen x John Mearsheimer` continuation includes:
+
+- `2025-09-07` *West's Failure to Adjust to a Multipolar World*
+- `2025-10-08` *West Destroying Itself in Ukraine & Gaza*
+
+Those two files are enough to show that the Diesen-side Mearsheimer branch predates the 2026 Iran-war hardening. They should be read as the late-2025 structural-order roots of the fuller 2026 shelf.
+
 ## Open first
 
 If the operator needs only one file:
@@ -47,6 +56,11 @@ That pair gives the clearest combination of:
 - structural realism
 - NATO and Ukraine architecture
 - wider order-change and nuclear-risk framing
+
+If the operator specifically needs the 2025 roots:
+
+- open [youtube-glenn-diesen-john-mearsheimer-john-mearsheimer-west-s-failure-to-adjust-to-a-multipolar-world-2025-09-07.md](/C:/dev/strategy-codex/codex/2026/raw-input/2025-09-07/youtube-glenn-diesen-john-mearsheimer-john-mearsheimer-west-s-failure-to-adjust-to-a-multipolar-world-2025-09-07.md)
+- then [youtube-glenn-diesen-john-mearsheimer-john-mearsheimer-west-destroying-itself-in-ukraine-gaza-2025-10-08.md](/C:/dev/strategy-codex/codex/2026/raw-input/2025-10-08/youtube-glenn-diesen-john-mearsheimer-john-mearsheimer-west-destroying-itself-in-ukraine-gaza-2025-10-08.md)
 
 ## Routing use
 
