@@ -118,6 +118,44 @@ def _discover_raw_inputs(raw_root: Path, start: date, end: date) -> list[Path]:
     return paths
 
 
+def load_raw_input_list(path: Path, *, base_dir: Path = REPO_ROOT) -> list[Path]:
+    paths: list[Path] = []
+    for raw in path.read_text(encoding="utf-8").splitlines():
+        line = raw.strip()
+        if not line or line.startswith("#"):
+            continue
+        item = Path(line)
+        if not item.is_absolute():
+            item = base_dir / item
+        paths.append(item)
+    return paths
+
+
+def normalize_raw_input_paths(paths: list[Path], *, base_dir: Path = REPO_ROOT) -> list[Path]:
+    out: list[Path] = []
+    seen: set[Path] = set()
+    for raw_path in paths:
+        path = raw_path if raw_path.is_absolute() else base_dir / raw_path
+        resolved = path.resolve()
+        if resolved in seen:
+            continue
+        seen.add(resolved)
+        out.append(resolved)
+    return out
+
+
+def window_for_raw_paths(paths: list[Path]) -> tuple[date, date]:
+    dates: list[date] = []
+    for path in paths:
+        meta = _read_frontmatter(path) if path.exists() else {}
+        raw_date = str(meta.get("pub_date") or meta.get("ingest_date") or path.parent.name)
+        dates.append(_parse_date(raw_date))
+    if not dates:
+        today = date.today()
+        return today, today
+    return min(dates), max(dates)
+
+
 def _discover_inventory(speakers_dir: Path, notebook_root: Path) -> SpeakerInventory:
     speaker_folders: dict[str, Path] = {}
     speaker_objects: dict[str, Path] = {}
@@ -170,23 +208,36 @@ def _match_speaker(value: object, inventory: SpeakerInventory) -> str | None:
 
 def _host_candidates(meta: dict[str, Any]) -> list[str]:
     candidates: list[str] = []
-    for key in ("host", "show", "channel_slug", "thread"):
+    for key in ("host", "hosts", "show", "series", "channel_slug", "thread"):
         for candidate in _slug_candidates(meta.get(key)):
             if candidate not in candidates:
                 candidates.append(candidate)
+    canonical = _canonical_host_slug(meta)
+    if canonical and canonical not in candidates:
+        candidates.insert(0, canonical)
     return candidates
 
 
 def _canonical_host_slug(meta: dict[str, Any]) -> str:
-    host_slug = _slug(meta.get("channel_slug")) or (_host_candidates(meta)[-1] if _host_candidates(meta) else "")
+    hostish: list[str] = []
+    for key in ("channel_slug", "show", "series", "host", "hosts"):
+        for candidate in _slug_candidates(meta.get(key)):
+            if candidate not in hostish:
+                hostish.append(candidate)
+    host_slug = hostish[-1] if hostish else ""
+    if not host_slug:
+        thread_candidates = _slug_candidates(meta.get("thread"))
+        host_slug = thread_candidates[-1] if thread_candidates else ""
     if host_slug in {"glenn-diesen", "diesen"}:
         return "diesen"
-    if host_slug in {"daniel-davis", "davis", "daniel-davis-deep-dive"}:
+    if host_slug in {"daniel-davis", "davis", "daniel-davis-deep-dive", "col-daniel-davis", "lt-col-daniel-davis"}:
         return "davis"
-    if host_slug in {"dialogue-works", "alkhorshid", "nima-alkhorshid"}:
+    if host_slug in {"dialogue-works", "alkhorshid", "nima", "nima-alkhorshid"}:
         return "alkorshid"
     if host_slug in {"alexander-mercouris", "alex-mercouris", "mercouris"}:
         return "mercouris"
+    if host_slug in {"judge-andrew-napolitano", "andrew-napolitano", "judging-freedom", "napolitano"}:
+        return "napolitano"
     return host_slug
 
 
@@ -436,8 +487,10 @@ def write_outputs(rows: list[dict[str, Any]], output_dir: Path, start: date, end
 
 def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--start", required=True, type=_parse_date, help="Start date, YYYY-MM-DD.")
-    parser.add_argument("--end", required=True, type=_parse_date, help="End date, YYYY-MM-DD.")
+    parser.add_argument("--start", type=_parse_date, help="Start date, YYYY-MM-DD.")
+    parser.add_argument("--end", type=_parse_date, help="End date, YYYY-MM-DD.")
+    parser.add_argument("--raw-input", action="append", type=Path, default=[], help="Explicit raw-input path. Repeatable.")
+    parser.add_argument("--raw-input-list", type=Path, default=None, help="Text file with one raw-input path per line.")
     parser.add_argument("--notebook-root", type=Path, default=DEFAULT_NOTEBOOK_ROOT)
     parser.add_argument("--speakers-dir", type=Path, default=None)
     parser.add_argument("--output-dir", type=Path, default=DEFAULT_OUT_DIR)
@@ -446,16 +499,28 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
 
 def main(argv: list[str] | None = None) -> int:
     args = parse_args(argv)
-    if args.end < args.start:
-        print("--end must be on or after --start", file=sys.stderr)
-        return 2
 
     notebook_root = args.notebook_root.resolve()
     speakers_dir = (args.speakers_dir or (notebook_root / "speakers")).resolve()
     raw_root = notebook_root / "raw-input"
     inventory = _discover_inventory(speakers_dir, notebook_root)
-    rows = build_rows(_discover_raw_inputs(raw_root, args.start, args.end), inventory, notebook_root)
-    written = write_outputs(rows, args.output_dir.resolve(), args.start, args.end)
+    explicit_paths = list(args.raw_input)
+    if args.raw_input_list:
+        explicit_paths.extend(load_raw_input_list(args.raw_input_list))
+    if explicit_paths:
+        raw_paths = normalize_raw_input_paths(explicit_paths)
+        start, end = window_for_raw_paths(raw_paths)
+    else:
+        if args.start is None or args.end is None:
+            print("provide --start/--end or explicit --raw-input paths", file=sys.stderr)
+            return 2
+        if args.end < args.start:
+            print("--end must be on or after --start", file=sys.stderr)
+            return 2
+        start, end = args.start, args.end
+        raw_paths = _discover_raw_inputs(raw_root, start, end)
+    rows = build_rows(raw_paths, inventory, notebook_root)
+    written = write_outputs(rows, args.output_dir.resolve(), start, end)
 
     print(json.dumps({"rows": len(rows), "written": written}, indent=2, sort_keys=True))
     return 0

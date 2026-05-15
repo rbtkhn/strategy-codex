@@ -266,3 +266,171 @@ def test_appearance_id_is_deterministic(tmp_path: Path) -> None:
     second = srq.build_rows([raw], inventory, notebook)[0]
 
     assert first["appearance"]["appearance_id"] == second["appearance"]["appearance_id"]
+
+
+def test_explicit_raw_input_path_mode_preserves_row_shape(tmp_path: Path) -> None:
+    notebook, _speakers, inventory = _inventory(tmp_path)
+    raw = _write_raw(
+        notebook / "raw-input",
+        "diesen-new-guest.md",
+        guest="Example Guest",
+        host="Glenn Diesen",
+        show="Glenn Diesen",
+        thread="diesen",
+    )
+
+    raw_paths = srq.normalize_raw_input_paths([raw])
+    rows = srq.build_rows(raw_paths, inventory, notebook)
+
+    assert len(rows) == 1
+    assert set(rows[0]) == {
+        "raw_input_path",
+        "pub_date",
+        "title",
+        "source_url",
+        "host",
+        "show",
+        "guest",
+        "thread",
+        "recommended_route",
+        "primary_route",
+        "also_strengthens",
+        "appearance",
+        "route_type",
+        "confidence",
+        "next_action",
+        "reason",
+    }
+    assert rows[0]["raw_input_path"].endswith("diesen-new-guest.md")
+
+
+def test_cli_raw_input_mode_excludes_other_same_date_files(tmp_path: Path, capsys) -> None:
+    notebook, _speakers, _inventory_obj = _inventory(tmp_path)
+    selected = _write_raw(
+        notebook / "raw-input",
+        "selected.md",
+        guest="Example Guest",
+        host="Glenn Diesen",
+        show="Glenn Diesen",
+        thread="diesen",
+    )
+    _write_raw(
+        notebook / "raw-input",
+        "same-date-other.md",
+        guest="Other Guest",
+        host="Glenn Diesen",
+        show="Glenn Diesen",
+        thread="diesen",
+    )
+    output_dir = tmp_path / "artifacts"
+
+    rc = srq.main(
+        [
+            "--raw-input",
+            str(selected),
+            "--notebook-root",
+            str(notebook),
+            "--output-dir",
+            str(output_dir),
+        ]
+    )
+
+    captured = capsys.readouterr()
+    assert rc == 0
+    assert '"rows": 1' in captured.out
+    jsonl = next(output_dir.rglob("speaker-routing-queue.jsonl"))
+    payloads = [json.loads(line) for line in jsonl.read_text(encoding="utf-8").splitlines()]
+    assert len(payloads) == 1
+    assert payloads[0]["raw_input_path"].endswith("selected.md")
+
+
+def test_legacy_host_metadata_keeps_host_slug_separate_from_thread(tmp_path: Path) -> None:
+    notebook, speakers, _inventory_obj = _inventory(tmp_path)
+    (speakers / "johnson").mkdir(parents=True)
+    arc = notebook / "napolitano" / "napolitano-johnson-speaker-arc.md"
+    arc.parent.mkdir(parents=True)
+    arc.write_text("# Napolitano x Johnson\n", encoding="utf-8")
+    raw = notebook / "raw-input" / "2025-12-22" / "napolitano-johnson.md"
+    raw.parent.mkdir(parents=True)
+    raw.write_text(
+        "---\n"
+        "pub_date: 2025-12-22\n"
+        'title: "Larry Johnson: Why Is the West Ignorant of Russia?"\n'
+        "source_url: https://www.youtube.com/watch?v=example\n"
+        "host: Judge Andrew Napolitano\n"
+        "guest: Larry Johnson\n"
+        "thread: johnson\n"
+        "---\n"
+        "body\n",
+        encoding="utf-8",
+    )
+    inventory = srq._discover_inventory(speakers, notebook)
+
+    row = srq.build_rows([raw], inventory, notebook)[0]
+
+    assert row["route_type"] == "existing-speaker-arc"
+    assert row["recommended_route"].endswith("napolitano/napolitano-johnson-speaker-arc.md")
+    assert row["appearance"]["speaker_slug"] == "johnson"
+    assert row["appearance"]["host_slug"] == "napolitano"
+
+
+def test_davis_ranked_host_alias_canonicalizes_to_davis(tmp_path: Path) -> None:
+    notebook, speakers, _inventory_obj = _inventory(tmp_path)
+    (speakers / "barnes").mkdir(parents=True)
+    arc = notebook / "davis" / "davis-barnes-speaker-arc.md"
+    arc.parent.mkdir(parents=True)
+    arc.write_text("# Davis x Barnes\n", encoding="utf-8")
+    raw = notebook / "raw-input" / "2026-04-03" / "davis-barnes.md"
+    raw.parent.mkdir(parents=True)
+    raw.write_text(
+        "---\n"
+        "pub_date: 2026-04-03\n"
+        'title: "Robert Barnes on war crimes, Iran, and Hormuz"\n'
+        "source_url: https://www.youtube.com/watch?v=example\n"
+        "show: Daniel Davis Deep Dive\n"
+        "host: Lt Col Daniel Davis\n"
+        "guest: Robert Barnes\n"
+        "thread: davis\n"
+        "---\n"
+        "body\n",
+        encoding="utf-8",
+    )
+    inventory = srq._discover_inventory(speakers, notebook)
+
+    row = srq.build_rows([raw], inventory, notebook)[0]
+
+    assert row["route_type"] == "existing-speaker-arc"
+    assert row["recommended_route"].endswith("davis/davis-barnes-speaker-arc.md")
+    assert row["appearance"]["speaker_slug"] == "barnes"
+    assert row["appearance"]["host_slug"] == "davis"
+
+
+def test_dialogue_works_short_host_alias_canonicalizes_to_alkorshid(tmp_path: Path) -> None:
+    notebook, speakers, _inventory_obj = _inventory(tmp_path)
+    (speakers / "freeman").mkdir(parents=True)
+    arc = notebook / "alkorshid" / "alkorshid-freeman-speaker-arc.md"
+    arc.parent.mkdir(parents=True)
+    arc.write_text("# Alkhorshid x Freeman\n", encoding="utf-8")
+    raw = notebook / "raw-input" / "2025-10-17" / "alkorshid-freeman.md"
+    raw.parent.mkdir(parents=True)
+    raw.write_text(
+        "---\n"
+        "pub_date: 2025-10-17\n"
+        'title: "Amb. Chas Freeman: How the U.S. Is Spiraling Toward Disaster"\n'
+        "source_url: https://www.youtube.com/watch?v=example\n"
+        "show: Dialogue Works\n"
+        "host: Nima\n"
+        "guest: Chas Freeman\n"
+        "thread: freeman\n"
+        "---\n"
+        "body\n",
+        encoding="utf-8",
+    )
+    inventory = srq._discover_inventory(speakers, notebook)
+
+    row = srq.build_rows([raw], inventory, notebook)[0]
+
+    assert row["route_type"] == "existing-speaker-arc"
+    assert row["recommended_route"].endswith("alkorshid/alkorshid-freeman-speaker-arc.md")
+    assert row["appearance"]["speaker_slug"] == "freeman"
+    assert row["appearance"]["host_slug"] == "alkorshid"

@@ -1,0 +1,21 @@
+{
+  "appearance_count": 4,
+  "speaker_count": 1,
+  "speakers": {
+    "freeman": {
+      "appearance_count": 4,
+      "appearance_ids": [
+        "ap-9e8568255b1e",
+        "ap-0bfc87aa4fc0",
+        "ap-cfe229beb442",
+        "ap-fa30c956c486"
+      ],
+      "hosts": {
+        "alkorshid": 4
+      },
+      "route_types": {
+        "existing-speaker-arc": 4
+      }
+    }
+  }
+}

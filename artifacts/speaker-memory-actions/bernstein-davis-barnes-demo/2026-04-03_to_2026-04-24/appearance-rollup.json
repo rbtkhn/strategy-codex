@@ -1,0 +1,19 @@
+{
+  "appearance_count": 2,
+  "speaker_count": 1,
+  "speakers": {
+    "barnes": {
+      "appearance_count": 2,
+      "appearance_ids": [
+        "ap-c778026ac1de",
+        "ap-5f14e8b403e2"
+      ],
+      "hosts": {
+        "davis": 2
+      },
+      "route_types": {
+        "existing-speaker-arc": 2
+      }
+    }
+  }
+}

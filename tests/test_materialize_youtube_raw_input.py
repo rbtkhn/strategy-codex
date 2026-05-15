@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import json
 import sys
 from pathlib import Path
 
@@ -234,6 +235,8 @@ def test_write_receipts_outputs_ledger_and_summary(tmp_path: Path) -> None:
     assert summary.is_file()
     assert '"status": "materialized"' in ledger.read_text(encoding="utf-8")
     assert "YouTube raw-input materialization summary" in summary.read_text(encoding="utf-8")
+    assert (receipt_dir / "successful-raw-inputs.txt").is_file()
+    assert (receipt_dir / "capture-summary.md").is_file()
 
 
 def test_main_dry_run_probe_emits_receipts_without_canonical_write(tmp_path: Path, monkeypatch, capsys) -> None:
@@ -283,3 +286,203 @@ def test_main_dry_run_probe_emits_receipts_without_canonical_write(tmp_path: Pat
     assert ledger.is_file()
     assert summary.is_file()
     assert '"verification_ok": true' in ledger.read_text(encoding="utf-8")
+
+
+def test_main_with_appearances_writes_capture_packet(tmp_path: Path, monkeypatch, capsys) -> None:
+    video_id = "ritter12345"
+    notebook_root = tmp_path / "codex" / "2026"
+    speaker_obj = notebook_root / "speakers" / "ritter" / "ritter-speaker-object.md"
+    speaker_obj.parent.mkdir(parents=True)
+    speaker_obj.write_text("# Ritter speaker object\n", encoding="utf-8")
+    arc = notebook_root / "diesen" / "diesen-ritter-speaker-arc.md"
+    arc.parent.mkdir(parents=True)
+    arc.write_text("# Diesen x Ritter\n", encoding="utf-8")
+
+    monkeypatch.setattr(mat, "DEFAULT_ROUTING_OUT", tmp_path / "artifacts" / "speaker-routing")
+    monkeypatch.setattr(mat, "DEFAULT_ACTION_OUT", tmp_path / "artifacts" / "speaker-memory-actions")
+    monkeypatch.setattr(
+        mat,
+        "fetch_metadata_ytdlp",
+        lambda _video_id: {
+            "id": video_id,
+            "title": "Scott Ritter: Escalation Lessons",
+            "upload_date": "20260514",
+            "channel_id": _spec().channel_id,
+            "channel": "Glenn Diesen",
+            "webpage_url": f"https://www.youtube.com/watch?v={video_id}",
+        },
+    )
+    monkeypatch.setattr(mat, "fetch_subtitles_ytdlp", lambda _video_id, _langs: (_caption(95), "auto", "en", None))
+
+    rc = mat.main(
+        [
+            "--url",
+            f"https://www.youtube.com/watch?v={video_id}",
+            "--notebook-root",
+            str(notebook_root),
+            "--receipt-root",
+            str(tmp_path / "receipts"),
+            "--run-id",
+            "dense-run",
+            "--apply",
+            "--with-appearances",
+            "--purpose",
+            "densification",
+            "--tranche-label",
+            "ritter-test",
+        ]
+    )
+
+    captured = capsys.readouterr()
+    assert rc == 0
+    assert '"status": "materialized"' in captured.out
+    summary = tmp_path / "receipts" / "dense-run" / "capture-summary.md"
+    assert "purpose: `densification`" in summary.read_text(encoding="utf-8")
+    assert "tranche: `ritter-test`" in summary.read_text(encoding="utf-8")
+    assert "speaker_routing_markdown" in summary.read_text(encoding="utf-8")
+    assert "memory_action_queue_markdown" in summary.read_text(encoding="utf-8")
+    routing_files = list((tmp_path / "artifacts" / "speaker-routing" / "dense-run").rglob("speaker-routing-queue.jsonl"))
+    action_files = list((tmp_path / "artifacts" / "speaker-memory-actions" / "dense-run").rglob("memory-action-queue.jsonl"))
+    assert len(routing_files) == 1
+    assert len(action_files) == 1
+    route_payload = json.loads(routing_files[0].read_text(encoding="utf-8").splitlines()[0])
+    assert route_payload["appearance"]["speaker_slug"] == "ritter"
+    assert route_payload["route_type"] == "existing-speaker-arc"
+    raw_text = next(notebook_root.rglob("youtube-glenn-diesen-scott-ritter-escalation-lessons-*.md")).read_text(
+        encoding="utf-8"
+    )
+    assert "guest: Ritter" in raw_text
+    assert "guest_inference: exact-title-match" in raw_text
+
+
+def test_raw_input_list_with_appearances_does_not_fetch_or_write_transcripts(tmp_path: Path, monkeypatch, capsys) -> None:
+    notebook_root = tmp_path / "codex" / "2026"
+    obj = notebook_root / "speakers" / "ritter" / "ritter-speaker-object.md"
+    obj.parent.mkdir(parents=True)
+    obj.write_text("# Ritter speaker object\n", encoding="utf-8")
+    raw = notebook_root / "raw-input" / "2026-05-12" / "existing-ritter.md"
+    raw.parent.mkdir(parents=True)
+    raw.write_text(
+        "---\n"
+        "ingest_date: 2026-05-15\n"
+        "pub_date: 2026-05-12\n"
+        "kind: transcript\n"
+        "source_type: youtube\n"
+        "transcript_type: auto_subtitles_vtt\n"
+        "title: Existing Ritter\n"
+        "source_url: https://www.youtube.com/watch?v=rawlist1234\n"
+        "source_note: Auto-captions extracted with yt_dlp.\n"
+        "guest: Scott Ritter\n"
+        "host: Glenn Diesen\n"
+        "show: Glenn Diesen\n"
+        "thread: diesen\n"
+        "---\n\n"
+        "# Existing Ritter\n\n"
+        f"{_caption(90)}\n",
+        encoding="utf-8",
+    )
+    raw_list = tmp_path / "raw-inputs.txt"
+    raw_list.write_text(f"{raw}\n", encoding="utf-8")
+
+    def fail_fetch(_video_id: str):
+        raise AssertionError("metadata fetch should not run for raw-input-list")
+
+    monkeypatch.setattr(mat, "fetch_metadata_ytdlp", fail_fetch)
+    monkeypatch.setattr(mat, "DEFAULT_ROUTING_OUT", tmp_path / "artifacts" / "speaker-routing")
+    monkeypatch.setattr(mat, "DEFAULT_ACTION_OUT", tmp_path / "artifacts" / "speaker-memory-actions")
+
+    rc = mat.main(
+        [
+            "--raw-input-list",
+            str(raw_list),
+            "--notebook-root",
+            str(notebook_root),
+            "--receipt-root",
+            str(tmp_path / "receipts"),
+            "--run-id",
+            "existing-run",
+            "--with-appearances",
+        ]
+    )
+
+    captured = capsys.readouterr()
+    assert rc == 0
+    assert '"existing_raw_input": true' in captured.out
+    assert '"status": "already-present-valid"' in captured.out
+    assert len(list((tmp_path / "artifacts" / "speaker-routing" / "existing-run").rglob("appearance-ledger.jsonl"))) == 1
+
+
+def test_existing_legacy_raw_input_can_route_for_appearance(tmp_path: Path) -> None:
+    raw = tmp_path / "codex" / "2026" / "raw-input" / "2026-04-20" / "legacy.md"
+    raw.parent.mkdir(parents=True)
+    raw.write_text(
+        "---\n"
+        "pub_date: 2026-04-20\n"
+        "title: Legacy full transcript\n"
+        "source_url: https://www.youtube.com/watch?v=legacy12345\n"
+        "kind: transcript\n"
+        "---\n\n"
+        "# Legacy full transcript\n\n"
+        f"{_caption(90)}\n",
+        encoding="utf-8",
+    )
+
+    result = mat.materialize_existing_raw_input(raw)
+
+    assert result["status"] == "already-present-valid"
+    assert result["existing_raw_input"] is True
+    assert "appearance-eligible legacy raw-input" in result["verification_reason"]
+
+
+def test_dry_run_with_appearances_does_not_route(tmp_path: Path, monkeypatch) -> None:
+    video_id = "dryap123456"
+    notebook_root = tmp_path / "codex" / "2026"
+    monkeypatch.setattr(mat, "DEFAULT_ROUTING_OUT", tmp_path / "artifacts" / "speaker-routing")
+    monkeypatch.setattr(mat, "DEFAULT_ACTION_OUT", tmp_path / "artifacts" / "speaker-memory-actions")
+    monkeypatch.setattr(
+        mat,
+        "fetch_metadata_ytdlp",
+        lambda _video_id: {
+            "id": video_id,
+            "title": "Dry Appearance Episode",
+            "upload_date": "20260514",
+            "channel_id": _spec().channel_id,
+            "webpage_url": f"https://www.youtube.com/watch?v={video_id}",
+        },
+    )
+    monkeypatch.setattr(mat, "fetch_subtitles_ytdlp", lambda _video_id, _langs: (_caption(95), "auto", "en", None))
+
+    rc = mat.main(
+        [
+            "--url",
+            f"https://www.youtube.com/watch?v={video_id}",
+            "--notebook-root",
+            str(notebook_root),
+            "--receipt-root",
+            str(tmp_path / "receipts"),
+            "--run-id",
+            "dry-appearance",
+            "--no-apply",
+            "--with-appearances",
+        ]
+    )
+
+    assert rc == 0
+    assert not (tmp_path / "artifacts").exists()
+    assert (tmp_path / "receipts" / "dry-appearance" / "successful-raw-inputs.txt").read_text(encoding="utf-8") == ""
+
+
+def test_guest_inference_exact_match_and_ambiguous_refusal(tmp_path: Path) -> None:
+    notebook_root = tmp_path / "codex" / "2026"
+    for slug in ("ritter", "freeman"):
+        folder = notebook_root / "speakers" / slug
+        folder.mkdir(parents=True)
+        (folder / f"{slug}-speaker-object.md").write_text(f"# {slug}\n", encoding="utf-8")
+
+    guest, method = mat.infer_guest_from_title("Scott Ritter on escalation", notebook_root)
+    assert guest == "Ritter"
+    assert method == "exact-title-match"
+
+    guest, method = mat.infer_guest_from_title("Ritter and Freeman debate escalation", notebook_root)
+    assert guest is None
+    assert method is None

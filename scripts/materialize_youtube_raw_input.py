@@ -23,6 +23,8 @@ if str(SCRIPTS_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPTS_DIR))
 
 from yaml_compat import safe_dump, safe_load_text  # noqa: E402
+import build_speaker_memory_actions as speaker_actions  # noqa: E402
+import build_speaker_routing_queue as speaker_routing  # noqa: E402
 from youtube_transcripts.discovery import extract_video_id  # noqa: E402
 from youtube_transcripts.metadata import fetch_metadata_ytdlp  # noqa: E402
 from youtube_transcripts.subtitles_ytdlp import fetch_subtitles_ytdlp  # noqa: E402
@@ -41,6 +43,8 @@ WATCHLIST_PATH = (
 )
 DEFAULT_NOTEBOOK_ROOT = REPO_ROOT / "codex" / str(date.today().year)
 DEFAULT_RECEIPT_ROOT = REPO_ROOT / ".codex-tmp" / "youtube-raw-input"
+DEFAULT_ROUTING_OUT = REPO_ROOT / "artifacts" / "speaker-routing"
+DEFAULT_ACTION_OUT = REPO_ROOT / "artifacts" / "speaker-memory-actions"
 MIN_BODY_WORDS = 75
 MIN_BODY_CHARS = 400
 PRIMARY_LANGS = ["en.*"]
@@ -206,6 +210,34 @@ def verify_raw_input_text(text: str) -> VerificationResult:
     return VerificationResult(True, "ok", len(body_words), len(body_stripped), frontmatter)
 
 
+def verify_existing_raw_input_for_appearance(text: str) -> VerificationResult:
+    strict = verify_raw_input_text(text)
+    if strict.ok:
+        return strict
+    frontmatter, body = split_frontmatter(text)
+    body_stripped = effective_body_text(body)
+    body_words = re.findall(r"\b[\w'-]+\b", body_stripped)
+    body_lower = body_stripped.lower()
+    required = ("source_url", "pub_date", "title")
+    missing = [key for key in required if not str(frontmatter.get(key) or "").strip()]
+    if missing:
+        return VerificationResult(False, f"missing frontmatter: {', '.join(missing)}", len(body_words), len(body_stripped), frontmatter)
+    for pattern in PLACEHOLDER_PATTERNS:
+        if pattern in body_lower:
+            return VerificationResult(False, f"placeholder body: {pattern}", len(body_words), len(body_stripped), frontmatter)
+    if len(body_words) < MIN_BODY_WORDS:
+        return VerificationResult(False, f"body too short: {len(body_words)} words", len(body_words), len(body_stripped), frontmatter)
+    if len(body_stripped) < MIN_BODY_CHARS:
+        return VerificationResult(False, f"body too short: {len(body_stripped)} chars", len(body_words), len(body_stripped), frontmatter)
+    return VerificationResult(
+        True,
+        f"appearance-eligible legacy raw-input ({strict.reason})",
+        len(body_words),
+        len(body_stripped),
+        frontmatter,
+    )
+
+
 def effective_body_text(body: str) -> str:
     lines = body.splitlines()
     while lines and not lines[0].strip():
@@ -236,6 +268,29 @@ def find_existing_valid_raw_input(notebook_root: Path, url: str) -> tuple[Path, 
         if verification.ok:
             return md, verification
     return None
+
+
+def infer_guest_from_title(title: str, notebook_root: Path) -> tuple[str | None, str | None]:
+    speakers_dir = notebook_root / "speakers"
+    if not speakers_dir.is_dir():
+        return None, None
+    title_text = f" {title.casefold()} "
+    matches: list[str] = []
+    for folder in sorted(path for path in speakers_dir.iterdir() if path.is_dir()):
+        slug = folder.name
+        candidates = {slug, slug.replace("-", " ")}
+        obj = folder / f"{slug}-speaker-object.md"
+        if obj.exists():
+            candidates.add(slug.replace("-", " "))
+        for candidate in candidates:
+            pattern = rf"(?<![a-z0-9]){re.escape(candidate.casefold())}(?![a-z0-9])"
+            if re.search(pattern, title_text):
+                matches.append(slug)
+                break
+    unique = sorted(set(matches))
+    if len(unique) == 1:
+        return unique[0].replace("-", " ").title(), "exact-title-match"
+    return None, None
 
 
 def fetch_metadata(url: str) -> tuple[str | None, dict[str, Any], str | None]:
@@ -290,6 +345,8 @@ def build_frontmatter(
     transcript_type: str,
     caption_language: str | None,
     caption_kind: str | None,
+    guest: str | None = None,
+    guest_inference: str | None = None,
 ) -> str:
     show = item.show or (spec.show if spec else None)
     host = item.host or (spec.host if spec else None)
@@ -312,8 +369,10 @@ def build_frontmatter(
         payload["show"] = show
     if host:
         payload["host"] = host
-    if item.guest:
-        payload["guest"] = item.guest
+    if guest:
+        payload["guest"] = guest
+    if guest_inference:
+        payload["guest_inference"] = guest_inference
     if thread:
         payload["thread"] = thread
     channel_url = str(info.get("channel_url") or info.get("uploader_url") or (spec.handle_url if spec else "")).strip()
@@ -405,6 +464,8 @@ def materialize_one(
     source_url = canonical_watch_url(str(info.get("webpage_url") or info.get("url") or item.url))
     file_prefix = item.file_prefix or (spec.file_prefix if spec else f"youtube-{item.channel_slug or slugify(str(info.get('channel') or 'outside'))}")
     out_path = output_path_for(notebook_root, pub_date, file_prefix, title)
+    inferred_guest, guest_inference = (None, None) if item.guest else infer_guest_from_title(title, notebook_root)
+    guest = item.guest or inferred_guest
     body = f"# {title}\n\n{clean_caption_text(captions)}\n"
     content = build_frontmatter(
         ingest_date=ingest_date,
@@ -418,6 +479,8 @@ def materialize_one(
         transcript_type=transcript_type,
         caption_language=caption_lang,
         caption_kind=caption_kind,
+        guest=guest,
+        guest_inference=guest_inference,
     ) + body
     verification = verify_raw_input_text(content)
     if not verification.ok:
@@ -453,6 +516,8 @@ def materialize_one(
         "show": item.show or (spec.show if spec else ""),
         "host": item.host or (spec.host if spec else ""),
         "thread": item.thread or (spec.thread if spec else ""),
+        "guest": guest or "",
+        "guest_inference": guest_inference or "",
         "verification_ok": verification.ok,
         "verification_reason": verification.reason,
         "body_word_count": verification.word_count,
@@ -462,7 +527,144 @@ def materialize_one(
     }
 
 
-def write_receipts(rows: list[dict[str, Any]], receipt_dir: Path) -> dict[str, str]:
+def _successful_output_paths(rows: list[dict[str, Any]]) -> list[Path]:
+    out: list[Path] = []
+    for row in rows:
+        if row.get("status") not in {"materialized", "already-present-valid"}:
+            continue
+        output_path = str(row.get("output_path") or "").strip()
+        if output_path:
+            out.append(Path(output_path))
+    return out
+
+
+def materialize_existing_raw_input(path: Path) -> dict[str, Any]:
+    if not path.exists():
+        return {
+            "url": "",
+            "status": "failed-verification",
+            "output_path": str(path),
+            "verification_ok": False,
+            "verification_reason": "raw-input path does not exist",
+            "body_word_count": 0,
+            "body_chars": 0,
+        }
+    text = path.read_text(encoding="utf-8", errors="replace")
+    verification = verify_existing_raw_input_for_appearance(text)
+    source_url = str(verification.frontmatter.get("source_url") or "")
+    return {
+        "url": source_url,
+        "status": "already-present-valid" if verification.ok else "failed-verification",
+        "output_path": str(path),
+        "verification_ok": verification.ok,
+        "verification_reason": verification.reason,
+        "body_word_count": verification.word_count,
+        "body_chars": verification.body_chars,
+        "title": str(verification.frontmatter.get("title") or path.stem),
+        "pub_date": str(verification.frontmatter.get("pub_date") or path.parent.name),
+        "existing_raw_input": True,
+    }
+
+
+def _path_lines(paths: list[Path]) -> str:
+    return "".join(f"{path}\n" for path in paths)
+
+
+def build_appearance_artifacts(
+    *,
+    raw_paths: list[Path],
+    notebook_root: Path,
+    run_id: str,
+    include_no_action: bool,
+) -> dict[str, str]:
+    raw_paths = speaker_routing.normalize_raw_input_paths(raw_paths)
+    if not raw_paths:
+        return {}
+    start, end = speaker_routing.window_for_raw_paths(raw_paths)
+    inventory = speaker_routing._discover_inventory(notebook_root / "speakers", notebook_root)
+    routing_rows = speaker_routing.build_rows(raw_paths, inventory, notebook_root)
+    routing_written = speaker_routing.write_outputs(
+        routing_rows,
+        DEFAULT_ROUTING_OUT / run_id,
+        start,
+        end,
+    )
+    actions = speaker_actions.build_actions(routing_rows, include_no_action=include_no_action)
+    action_written = speaker_actions.write_outputs(
+        rows=routing_rows,
+        actions=actions,
+        output_dir=DEFAULT_ACTION_OUT / run_id,
+        start=start,
+        end=end,
+    )
+    return {
+        "speaker_routing_jsonl": routing_written["jsonl"],
+        "speaker_routing_markdown": routing_written["markdown"],
+        "appearance_ledger": routing_written["appearance_ledger"],
+        "appearance_rollup_json": action_written["appearance_rollup_json"],
+        "appearance_rollup_markdown": action_written["appearance_rollup_markdown"],
+        "memory_action_queue_jsonl": action_written["memory_action_queue_jsonl"],
+        "memory_action_queue_markdown": action_written["memory_action_queue_markdown"],
+        "appearance_count": str(len(routing_rows)),
+        "action_count": str(len(actions)),
+    }
+
+
+def write_capture_summary(
+    *,
+    rows: list[dict[str, Any]],
+    receipt_dir: Path,
+    purpose: str,
+    tranche_label: str,
+    artifact_paths: dict[str, str],
+) -> dict[str, str]:
+    successful_paths = _successful_output_paths(rows)
+    successful = receipt_dir / "successful-raw-inputs.txt"
+    successful.write_text(_path_lines(successful_paths), encoding="utf-8")
+
+    counts: dict[str, int] = {}
+    for row in rows:
+        status = str(row.get("status") or "unknown")
+        counts[status] = counts.get(status, 0) + 1
+    summary = receipt_dir / "capture-summary.md"
+    lines = [
+        "# YouTube capture summary",
+        "",
+        "WORK only; not Record.",
+        "",
+        f"- purpose: `{purpose}`",
+        f"- tranche: `{tranche_label or '_none_'}`",
+        f"- approved rows: `{len(rows)}`",
+        f"- successful raw-inputs: `{len(successful_paths)}`",
+    ]
+    for status, count in sorted(counts.items()):
+        lines.append(f"- {status}: `{count}`")
+    if artifact_paths:
+        lines.extend(
+            [
+                f"- appearances: `{artifact_paths.get('appearance_count', '0')}`",
+                f"- actions: `{artifact_paths.get('action_count', '0')}`",
+                "",
+                "## Artifacts",
+                "",
+            ]
+        )
+        for key, value in sorted(artifact_paths.items()):
+            if key.endswith("_count"):
+                continue
+            lines.append(f"- `{key}`: `{value}`")
+    summary.write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
+    return {"successful_raw_inputs": str(successful), "capture_summary": str(summary)}
+
+
+def write_receipts(
+    rows: list[dict[str, Any]],
+    receipt_dir: Path,
+    *,
+    purpose: str = "one-off",
+    tranche_label: str = "",
+    artifact_paths: dict[str, str] | None = None,
+) -> dict[str, str]:
     receipt_dir.mkdir(parents=True, exist_ok=True)
     ledger = receipt_dir / "materialization-ledger.jsonl"
     with ledger.open("w", encoding="utf-8", newline="") as fh:
@@ -483,7 +685,17 @@ def write_receipts(rows: list[dict[str, Any]], receipt_dir: Path) -> dict[str, s
             f"| {row.get('status', '')} | {row.get('verification_reason', '')} | {row.get('body_word_count', 0)} | `{output}` | {title} |"
         )
     summary.write_text("\n".join(lines) + "\n", encoding="utf-8")
-    return {"ledger": str(ledger), "summary": str(summary)}
+    paths = {"ledger": str(ledger), "summary": str(summary)}
+    paths.update(
+        write_capture_summary(
+            rows=rows,
+            receipt_dir=receipt_dir,
+            purpose=purpose,
+            tranche_label=tranche_label,
+            artifact_paths=artifact_paths or {},
+        )
+    )
+    return paths
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -496,6 +708,12 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--no-apply", action="store_false", dest="apply", help="Dry-run without canonical writes.")
     parser.add_argument("--receipt-root", type=Path, default=DEFAULT_RECEIPT_ROOT)
     parser.add_argument("--run-id", default="", help="Receipt subdirectory name. Defaults to UTC timestamp.")
+    parser.add_argument("--with-appearances", action="store_true", help="Build appearance, routing, and action artifacts for successful raw-inputs.")
+    parser.add_argument("--purpose", choices=["daily", "densification", "one-off"], default="one-off")
+    parser.add_argument("--tranche-label", default="", help="Human label for a bounded capture/densification tranche.")
+    parser.add_argument("--raw-input", action="append", type=Path, default=[], help="Existing raw-input path to route without refetching. Repeatable.")
+    parser.add_argument("--raw-input-list", type=Path, default=None, help="Text file with one existing raw-input path per line.")
+    parser.add_argument("--include-no-action", action="store_true", help="Include no-action rows in speaker-memory action queue.")
     parser.add_argument("--show", default="")
     parser.add_argument("--host", default="")
     parser.add_argument("--thread", default="")
@@ -510,8 +728,11 @@ def build_parser() -> argparse.ArgumentParser:
 def main(argv: list[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
     items = load_approved_urls(args.input, args.url)
-    if not items:
-        print("materialize_youtube_raw_input: provide --url or --input", file=sys.stderr)
+    raw_input_paths = list(args.raw_input)
+    if args.raw_input_list:
+        raw_input_paths.extend(speaker_routing.load_raw_input_list(args.raw_input_list))
+    if not items and not raw_input_paths:
+        print("materialize_youtube_raw_input: provide --url, --input, --raw-input, or --raw-input-list", file=sys.stderr)
         return 2
 
     if any([args.show, args.host, args.thread, args.channel_slug, args.file_prefix, args.guest, args.pub_date, args.title]):
@@ -541,9 +762,24 @@ def main(argv: list[str] | None = None) -> int:
         )
         for item in items
     ]
+    rows.extend(materialize_existing_raw_input(path if path.is_absolute() else REPO_ROOT / path) for path in raw_input_paths)
     run_id = args.run_id or datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     receipt_dir = args.receipt_root / run_id
-    paths = write_receipts(rows, receipt_dir)
+    artifact_paths: dict[str, str] = {}
+    if args.with_appearances:
+        artifact_paths = build_appearance_artifacts(
+            raw_paths=_successful_output_paths(rows),
+            notebook_root=args.notebook_root.resolve(),
+            run_id=run_id,
+            include_no_action=args.include_no_action,
+        )
+    paths = write_receipts(
+        rows,
+        receipt_dir,
+        purpose=args.purpose,
+        tranche_label=args.tranche_label,
+        artifact_paths=artifact_paths,
+    )
     print(json.dumps({"rows": rows, "receipts": paths}, indent=2, ensure_ascii=True))
     failed = [row for row in rows if row.get("status") in {"failed-fetch", "failed-verification"}]
     return 1 if failed else 0

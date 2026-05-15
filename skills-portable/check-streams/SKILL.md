@@ -103,8 +103,8 @@ If a stream has no upload on the target day, say so explicitly.
 
 5. **Materialize the approved subset**
    - Use the atomic materializer as the default command path for approved YouTube URLs:
-     - single URL: `python scripts/materialize_youtube_raw_input.py --url "<youtube-url>" --apply`
-     - approved batch: `python scripts/materialize_youtube_raw_input.py --input <approved-urls.jsonl> --apply`
+     - single URL: `python scripts/materialize_youtube_raw_input.py --url "<youtube-url>" --apply --with-appearances --purpose daily`
+     - approved batch: `python scripts/materialize_youtube_raw_input.py --input <approved-urls.jsonl> --apply --with-appearances --purpose daily`
      - dry-run/probe: `python scripts/materialize_youtube_raw_input.py --url "<youtube-url>" --no-apply --run-id <label>`
    - For each approved URL:
      - resolve metadata first
@@ -112,7 +112,7 @@ If a stream has no upload on the target day, say so explicitly.
      - preserve extraction receipts locally
      - write canonical date-folder raw-input
      - verify the written raw-input has a non-stub transcript body before reporting success
-   - Review `.codex-tmp/youtube-raw-input/<run-id>/materialization-summary.md` before claiming capture.
+   - Review `.codex-tmp/youtube-raw-input/<run-id>/materialization-summary.md` and `capture-summary.md` before claiming capture.
    - When the approved subset is really a guest-host tranche rather than "today's whole roster," preserve that exact tranche shape instead of reopening discovery or broad channel slicing.
    - If materialization returns `failed-fetch` or `failed-verification`, report the failure and stop before speaker routing, lattice updates, or completion claims.
 
@@ -124,6 +124,7 @@ If a stream has no upload on the target day, say so explicitly.
 7. **Suggest speaker-folder routing**
    - After approved items are materialized and verified as non-stub raw-input, inspect metadata, title, host, guest, and obvious `thread:` identity.
    - Treat each verified capture as an **appearance**: one host/speaker/date/source event derived from raw-input, not a durable interpretation by itself.
+   - The atomic materializer now emits the first durable appearance packet for approved items when run with `--with-appearances`: `appearance-ledger.jsonl`, speaker-routing queue, speaker-memory action queue, and capture summary.
    - Suggest the route stack: primary route first, then any speaker object, stream-local speaker arc, helix, or cross-host note the same appearance also strengthens.
    - For a durable advisory queue, run `python scripts/build_speaker_routing_queue.py --start YYYY-MM-DD --end YYYY-MM-DD` and review `artifacts/speaker-routing/<start>_to_<end>/speaker-routing-queue.md` plus `appearance-ledger.jsonl`.
    - When the operator wants concrete follow-up proposals, run `python scripts/build_speaker_memory_actions.py --start YYYY-MM-DD --end YYYY-MM-DD` and review `artifacts/speaker-memory-actions/<start>_to_<end>/memory-action-queue.md`.

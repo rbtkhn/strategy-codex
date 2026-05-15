@@ -1,0 +1,42 @@
+{
+  "appearance_count": 3,
+  "speaker_count": 3,
+  "speakers": {
+    "freeman": {
+      "appearance_count": 1,
+      "appearance_ids": [
+        "ap-e2ddf0b62409"
+      ],
+      "hosts": {
+        "napolitano": 1
+      },
+      "route_types": {
+        "existing-speaker-arc": 1
+      }
+    },
+    "johnson": {
+      "appearance_count": 1,
+      "appearance_ids": [
+        "ap-373df6d851ee"
+      ],
+      "hosts": {
+        "napolitano": 1
+      },
+      "route_types": {
+        "existing-speaker-arc": 1
+      }
+    },
+    "macgregor": {
+      "appearance_count": 1,
+      "appearance_ids": [
+        "ap-92f2cf22f914"
+      ],
+      "hosts": {
+        "napolitano": 1
+      },
+      "route_types": {
+        "existing-speaker-arc": 1
+      }
+    }
+  }
+}

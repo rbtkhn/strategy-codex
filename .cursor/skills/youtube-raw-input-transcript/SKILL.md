@@ -18,6 +18,8 @@ synced_by: sync_portable_skills.py
 
 Use this skill when a YouTube episode should become a canonical transcript artifact, especially when there is no human-cleaned transcript yet and the best available source is YouTube captions.
 
+In strategy-codex, this skill is also the shared **transcript + appearance materialization** layer for daily ingest, one-off captures, and bounded densification tranches. Prefer the one-shot capture path unless the operator explicitly asks for transcript-only output.
+
 ## Layering rule
 
 - Use **`youtube transcript`** when the operator already has a specific URL or episode in hand.
@@ -54,6 +56,8 @@ Use this skill when a YouTube episode should become a canonical transcript artif
    - If the operator already has an approved set of exact watch URLs, treat the task as a targeted tranche rather than a channel crawl.
    - Resolve metadata per URL, pull subtitles per URL, and then materialize the resulting batch into canonical date folders.
    - Do not fall back to broad channel slicing when the real task is "capture these exact episodes."
+   - For densification work, name the bounded tranche with `--purpose densification --tranche-label <label>` and keep the approved URL set or raw-input list as the tranche authority.
+   - For already-materialized transcript files, use `--raw-input <path>` or `--raw-input-list <file>` with `--with-appearances` to produce appearance, routing, and action artifacts without refetching or rewriting transcripts.
 
 4. **Choose the right transcript class**
    - Use `cleaned_transcript` only when the user supplies cleaned dialogue or a human-cleaned source.
@@ -83,6 +87,15 @@ Use this skill when a YouTube episode should become a canonical transcript artif
    - Treat bodies below roughly 75 words or 400 non-frontmatter characters as failed embodiment unless the operator explicitly asked for a minimal metadata-only capture.
    - Reject placeholder phrases such as `transcript pending`, `index-only`, or `listed_only` as successful transcript bodies.
    - If the output still has substantial caption noise, say so clearly.
+
+8. **Emit the appearance packet**
+   - For strategy-codex captures, prefer `--with-appearances` so successful raw-input files immediately produce:
+     - `appearance-ledger.jsonl`
+     - `speaker-routing-queue.md/jsonl`
+     - `memory-action-queue.md/jsonl`
+     - `.codex-tmp/youtube-raw-input/<run-id>/capture-summary.md`
+   - Route only files from the approved run or densification tranche; do not sweep every file in the same date folder.
+   - Stop at advisory artifacts unless the operator separately asks to edit speaker objects, arcs, helixes, lattice rows, or other interpretation surfaces.
 
 ## Guardrails
 
@@ -120,6 +133,19 @@ python -m yt_dlp --skip-download --write-auto-subs --sub-langs "en.*,en,en-US,en
 ## Success condition
 
 The result is a date-correct, provenance-safe raw-input transcript file with a verified non-stub body that future ingest or analysis can trust without confusing subtitle extraction for a human-cleaned source. For approved YouTube URLs in strategy-codex, prefer `python scripts/materialize_youtube_raw_input.py --url "<youtube-url>" --apply` so success is computed before downstream claims.
+
+Default strategy-codex command:
+
+```bash
+python scripts/materialize_youtube_raw_input.py --url "<youtube-url>" --apply --with-appearances --purpose one-off
+```
+
+Densification tranche examples:
+
+```bash
+python scripts/materialize_youtube_raw_input.py --input approved-urls.jsonl --apply --with-appearances --purpose densification --tranche-label napolitano-core-six
+python scripts/materialize_youtube_raw_input.py --raw-input-list existing-raw-inputs.txt --with-appearances --purpose densification --tranche-label diesen-marandi-backfill
+```
 
 
 ## Cursor / grace-mar instance
