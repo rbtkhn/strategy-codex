@@ -48,6 +48,13 @@ The 2025 files establish the earlier Davis x Freeman shape: negotiation realism,
 | 2 | 2025-01-23 | *Ukraine Russia War SHOWDOWN  w/Chas Freeman* | Best broad Ukraine pressure file; useful for war-termination context and diplomatic sobriety under escalation. |
 | 3 | 2025-01-10 | *How Will Trump End War in Ukraine   w/Amb  Chas Freeman* | Best first root file; shows the original Davis x Freeman lane as war-ending realism rather than Iran-crisis diplomacy. |
 
+The 2025 Davis shelf is now clearer as a real cross-year continuation rather than just a January proto-run. In addition to the January roots, the later 2025 branch now also includes:
+
+- `2025-08-01` *Western Diplomacy Destroying Itself*
+- `2025-09-15` *No-Fly Zone Over Ukraine?*
+
+That means the Davis-side Freeman branch already had a visible late-2025 continuation before the 2026 Iran shelf hardened.
+
 ## Open first
 
 If the operator needs only one file:

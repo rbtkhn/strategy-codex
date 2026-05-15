@@ -1,8 +1,8 @@
-# Diesen × Macgregor speaker arc
+# Diesen x Macgregor speaker arc
 
 WORK only; not Record.
 
-Purpose: compact reuse note for the `Diesen × Macgregor` run inside the Diesen stream. This is not a substitute for the raw-input files. It exists so future routing can quickly answer: which Macgregor guest episodes matter most inside this stream, what kind of lane this is, and which file to open first.
+Purpose: compact reuse note for the `Diesen x Macgregor` run inside the Diesen stream. This is not a substitute for the raw-input files. It exists so future routing can quickly answer: which Macgregor guest episodes matter most inside this stream, what kind of lane this is, and which file to open first.
 
 ## Why this guest run matters
 
@@ -21,12 +21,20 @@ Inside the Diesen stream, that makes the run especially useful when the notebook
 
 ## Arc set
 
-Selected canonical `Diesen × Macgregor` raw-inputs on disk:
+Selected canonical `Diesen x Macgregor` raw-inputs on disk:
 
 | Rank | Date | Title | Why it matters most |
 |---|---|---|---|
+| 0 | 2025-11-26 | *Douglas Macgregor: NATO Lost the War - Empire of Lies Collapses* | Best 2025 late anchor. Strongest single file for showing that the Diesen-side branch becomes materially thick in late 2025 rather than remaining a thin prehistory. |
 | 1 | 2026-04-21 | *Douglas Macgregor: Iran Negotiations Are a Hoax - U.S. Prepares for 'Total War'* | Best single anchor. Strongest on logistics, force exhaustion, strategic overreach, and why a Gulf war becomes system-wide. Open this first. |
 | 2 | 2026-01-22 | *Douglas Macgregor: Why NATO is Finished & the Ukraine War Was Lost* | Best Europe-theater companion file; strongest on NATO fragmentation, unity-of-command arguments, and why the alliance structure fails under real pressure. |
+
+The 2025 shelf is now materially broader than the earlier minimal core. In addition to the already-materialized `2025-06-10`, `2025-09-25`, and `2025-10-23` files, the late-2025 continuation now includes:
+
+- `2025-08-28` *With NATO's Collapse, New World Order Emerges*
+- `2025-09-15` *500 Years of Dominance Have Come to an End*
+- `2025-11-04` *Decline Out of Control - Ukraine and Venezuela Wars*
+- `2025-11-26` *NATO Lost the War - Empire of Lies Collapses*
 
 ## Open first
 
@@ -36,14 +44,14 @@ If the operator needs only one file:
 
 If the operator needs the best paired read:
 
-- open [transcript-macgregor-diesen-total-war-iran-2026-04-21.md](/C:/dev/strategy-codex/codex/2026/raw-input/2026-04-21/transcript-macgregor-diesen-total-war-iran-2026-04-21.md)
-- then [transcript-macgregor-diesen-nato-ukraine-lost-2026-01-22.md](/C:/dev/strategy-codex/codex/2026/raw-input/2026-01-22/transcript-macgregor-diesen-nato-ukraine-lost-2026-01-22.md)
+- open [youtube-glenn-diesen-douglas-macgregor-douglas-macgregor-nato-lost-the-war-empire-of-lies-collapses-2025-11-26.md](/C:/dev/strategy-codex/codex/2026/raw-input/2025-11-26/youtube-glenn-diesen-douglas-macgregor-douglas-macgregor-nato-lost-the-war-empire-of-lies-collapses-2025-11-26.md)
+- then [transcript-macgregor-diesen-total-war-iran-2026-04-21.md](/C:/dev/strategy-codex/codex/2026/raw-input/2026-04-21/transcript-macgregor-diesen-total-war-iran-2026-04-21.md)
 
 That pair gives the clearest combination of:
 
 - NATO-fragmentation argument
 - imperial-distance and logistics burden
-- Europe and Gulf as linked theaters of overextension
+- late-2025 continuity into the harder 2026 Gulf-war framing
 
 ## Routing use
 
@@ -63,6 +71,6 @@ Typical pairings around the guest lane:
 
 ## Boundaries
 
-- This guest run is still thin; it is a valid lane note, not yet a deep canon shelf.
-- An additional Diesen × Macgregor file exists under `_aired-pending`, but it is excluded from the arc set until a publish date is pinned and it is promoted into the canonical date tree.
+- This guest run is no longer just a thin prehistory. It is still narrower than the very dense Davis branch, but the 2025 shelf is now materially real.
+- An additional Diesen x Macgregor file exists under `_aired-pending`, but it is excluded from the arc set until a publish date is pinned and it is promoted into the canonical date tree.
 - Prefer this guest run when the notebook needs force-balance severity, logistics burden, or imperial-distance framing, not when it needs neutral documentary or fine-grained operational verification.

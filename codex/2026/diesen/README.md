@@ -5,6 +5,7 @@
 ## Shelf
 
 - Profile: [diesen-profile.md](../../profiles/diesen-profile.md)
+- Speaker object: [../speakers/diesen/diesen-speaker-object.md](../speakers/diesen/diesen-speaker-object.md)
 - Monthly book: [diesen-book-2026-04.md](diesen-book-2026-04.md)
 - Daily chapter seed: [diesen-chapter-2026-04-01.md](diesen-chapter-2026-04-01.md)
 - Thread compatibility file: [diesen-thread.md](diesen-thread.md)
@@ -16,6 +17,7 @@
 - Speaker arc: [diesen-krainer-speaker-arc.md](diesen-krainer-speaker-arc.md)
 - Speaker arc: [diesen-marandi-speaker-arc.md](diesen-marandi-speaker-arc.md)
 - Speaker arc: [diesen-martyanov-speaker-arc.md](diesen-martyanov-speaker-arc.md)
+- Speaker arc: [diesen-beebe-speaker-arc.md](diesen-beebe-speaker-arc.md)
 - Speaker arc: [diesen-postol-speaker-arc.md](diesen-postol-speaker-arc.md)
 - Speaker arc: [diesen-baud-speaker-arc.md](diesen-baud-speaker-arc.md)
 - Speaker arc: [diesen-wilkerson-speaker-arc.md](diesen-wilkerson-speaker-arc.md)

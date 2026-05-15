@@ -10,6 +10,8 @@ The Freeman triple helix is one diplomatic-intellectual voice transformed by thr
 
 These arcs should be read together because they are not merely repeated appearances, but distinct host transformations of the same underlying voice. Read together, they show more of Freeman's diplomatic-intellectual range than any single host lane can carry on its own.
 
+The triple structure is not only visible in 2025, but thicker there than the first minimal backfill suggested. The late-2025 shelf now shows stronger continuation across all three strands before the 2026 crisis-intensified phase.
+
 ## The three strands
 
 | Host lane | Distinct register | What it reveals best |

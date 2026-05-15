@@ -27,13 +27,16 @@ What makes this a real speaker arc is that the same host x guest shape keeps ret
 
 | Rank | Date | Title | Why it matters most |
 |---|---|---|---|
+| 0 | 2025-01-29 | *Col Doug Macgregor: What has all our effort & all our money added up to in Ukraine?* | Best early anchor. Strongest single 2025 file for the established Davis-side pattern: strategic delusion collapsing into force limits, cost, and political consequence. |
 | 1 | 2026-05-05 | *Daniel Davis Deep Dive - Douglas Macgregor on Project Freedom and Hormuz* | Best mature anchor. Strongest single file for Project Freedom failure, Hormuz closure, inflation and supply pain, and the claim that Washington is running on slogans rather than strategy. Open this first. |
 | 2 | 2026-04-29 | *Col. Douglas Macgregor: Trump Is Dangerous* | Best political-danger file. Strongest on the collapse of the U.S. justification, Netanyahu-shaped talking points, and how war logic corrodes domestic political credibility. |
 | 3 | 2026-05-12 | *Col Doug Macgregor: Trump Visits China* | Best late extension on how the Iran-war frame spills outward into wider strategic and geopolitical consequence. |
 
 ### Stream-discovered run
 
-Fresh live search shows that the `Davis x Macgregor` lane is much broader than the currently curated raw-input shelf. The visible 2026 run includes many additional mains, including:
+Fresh live search shows that the `Davis x Macgregor` lane is much broader than the currently curated raw-input shelf. The 2025 lane does not stop in January: it resurfaces strongly in October through December with canonical main-channel episodes now added on disk, including *U.S. Prepares for War* (`2025-10-01`), *Russia Warns Ukraine: Time to Surrender* (`2025-11-05`), *Ukraine Struggling, European Leaders on the Road to Extinction* (`2025-11-26`), and *NATO, Sit Down & Shut Up /That's What Trump Should be Telling Them* (`2025-12-02`).
+
+The visible 2026 run then includes many additional mains, including:
 
 | Title | Status |
 |---|---|
@@ -51,6 +54,7 @@ Fresh live search shows that the `Davis x Macgregor` lane is much broader than t
 This means the lane should be read two ways:
 
 - on disk, it already has a usable late-April to May shape
+- on disk, 2025 now also shows both an early-January foundation and a real late-2025 continuation
 - in the stream, it is an even denser 2026 Davis run than the current canonical subset shows
 
 ## Open first

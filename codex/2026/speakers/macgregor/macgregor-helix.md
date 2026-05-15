@@ -10,7 +10,7 @@ The Macgregor helix is currently a **double helix**: one hard-edged force-balanc
 
 These arcs should be read together because they are not merely repeated appearances, but two distinct host transformations of the same underlying voice. Read together, they show more of Macgregor's usable range than either lane can carry alone, even though the third canonical cognition-stream strand is absent in fresh live search.
 
-This two-strand structure is not just a 2026 shelf artifact. The same `Diesen + Davis` pairing is already materially real in 2025, so the better cross-year reading is stable double-helix continuity rather than an object waiting to become something else.
+This two-strand structure is not just a 2026 shelf artifact. The same `Diesen + Davis` pairing is already materially real in 2025, and the late-2025 shelf is thicker than the earlier minimal backfill showed, so the better cross-year reading is stable double-helix continuity rather than an object waiting to become something else.
 
 ## The two strands
 
@@ -39,7 +39,7 @@ Use this helix note when the notebook is doing one or more of the following:
 - comparing the same guest across two stable host transformations even though no Dialogue Works strand exists
 - asking whether a Macgregor claim is best read as geopolitical altitude or as immediate force-feasibility and political-danger severity
 - routing Iran-war, Hormuz, NATO, or imperial-overreach material toward the right Macgregor lane
-- testing whether one host is over-defining Macgregorâ€™s usable range
+- testing whether one host is over-defining Macgregor's usable range
 
 ## Boundaries
 

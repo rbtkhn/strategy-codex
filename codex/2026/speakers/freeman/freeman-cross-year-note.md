@@ -15,6 +15,7 @@ The new 2025 tranche makes three things materially legible on disk:
 - `Diesen x Freeman` was already carrying historical altitude, diplomatic decay, and order-transition language before the 2026 Hormuz and Iran run hardened.
 - `Davis x Freeman` was already a real settlement-realism and statecraft-sobriety lane, not just a January proto-run waiting for 2026 to validate it.
 - `Dialogue Works x Freeman` was already a dense live-pressure lane in the second half of 2025, not merely a 2026 crisis invention.
+- all three branches are now materially thicker in late 2025 than the original backfill showed, especially the Diesen and Dialogue Works continuations.
 
 ## Doctrine use
 

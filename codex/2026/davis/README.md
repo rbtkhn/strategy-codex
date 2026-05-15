@@ -5,6 +5,7 @@
 ## Shelf
 
 - Profile: [davis-profile.md](../../profiles/davis-profile.md)
+- Speaker object: [../speakers/davis/davis-speaker-object.md](../speakers/davis/davis-speaker-object.md)
 - Monthly book: [davis-book-2026-04.md](davis-book-2026-04.md)
 - Daily chapter seed: [davis-chapter-2026-04-01.md](davis-chapter-2026-04-01.md)
 - Thread compatibility file: [davis-thread.md](davis-thread.md)

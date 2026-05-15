@@ -6,7 +6,7 @@ Purpose: preserve the fact that the Macgregor helix is a single cross-host objec
 
 ## Core claim
 
-Materializing the 2025 `Diesen x Macgregor` backfill shows that Macgregor already had a real two-strand cross-host structure before 2026. `Diesen` and `Davis` are both materially real in 2025 and remain the stable host pair in 2026. The correct reading is not â€œpartial in 2025, completed in 2026,â€ but rather â€œdouble-helix continuity across years.â€
+Materializing the 2025 `Diesen x Macgregor` backfill shows that Macgregor already had a real two-strand cross-host structure before 2026. `Diesen` and `Davis` are both materially real in 2025 and remain the stable host pair in 2026. The correct reading is not "partial in 2025, completed in 2026," but rather "double-helix continuity across years."
 
 ## What the 2025 backfill restores
 
@@ -14,6 +14,7 @@ The restored 2025 shelf makes three things clearer:
 
 - `Diesen x Macgregor` was already a real geopolitical-altitude and order-consequence lane in 2025.
 - `Davis x Macgregor` was already materially present as a force-feasibility and political-danger lane in early 2025.
+- both lanes are denser in late 2025 than the original minimal backfill showed, especially the Davis branch and the late-autumn Diesen continuation.
 - the absent element is not a temporarily hidden third strand, but the continued nonexistence of a canonical `Dialogue Works x Macgregor` lane.
 
 ## How to read it
