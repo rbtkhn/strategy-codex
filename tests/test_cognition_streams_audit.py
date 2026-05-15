@@ -12,6 +12,23 @@ if str(SCRIPTS) not in sys.path:
 import cognition_streams_audit as csa  # noqa: E402
 
 
+def test_default_watchlist_is_five_stream_daily_set() -> None:
+    watchlist = csa._load_watchlist()
+
+    assert list(watchlist) == [
+        "daniel-davis-deep-dive",
+        "glenn-diesen",
+        "dialogue-works",
+        "napolitano",
+        "alex-mercouris",
+    ]
+    napolitano = watchlist["napolitano"]
+    assert napolitano.channel_id == "UCDkEYb-TXJVWLvOokshtlsw"
+    assert napolitano.uploads_playlist_id == "UUDkEYb-TXJVWLvOokshtlsw"
+    assert napolitano.thread == "napolitano"
+    assert napolitano.file_prefix == "transcript-napolitano"
+
+
 def _receipt(channel_key: str, channel_name: str, rows: list[dict[str, object]]) -> dict[str, object]:
     return {
         "channel_key": channel_key,

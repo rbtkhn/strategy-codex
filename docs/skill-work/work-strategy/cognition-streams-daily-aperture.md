@@ -12,14 +12,15 @@ That framing matters because the skill is not trying to ingest "all relevant vid
 - narrow enough to remain reusable
 - conservative enough not to confuse clips, fragments, and packaging with the real daily signal
 
-The four tracked streams form a practical watch aperture because they repeatedly surface:
+The five tracked streams form a practical watch aperture because they repeatedly surface:
 
 - long-horizon structural argument
 - live military or statecraft pressure
 - extended monologue synthesis
 - adversarial or interview-format crisis probing
+- legal-constitutional cross-examination
 
-For the narrower question of why these four belong together as a daily set, see [cognition-streams-watchset.md](cognition-streams-watchset.md).
+For the narrower question of why these five belong together as a daily set, see [cognition-streams-watchset.md](cognition-streams-watchset.md).
 
 So the daily skill is not just a downloader. It is a way of preserving a **repeatable first look** before heavier synthesis begins.
 

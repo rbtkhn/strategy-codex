@@ -54,7 +54,7 @@
 
 Predictive History is the public corpus name for the slow transcript spine; `work-jiang` remains only as a legacy compatibility label in older paths and wrappers.
 
-**Check streams / cognition streams coverage ledger (optional):** [cognition-streams-coverage-ledger.md](cognition-streams-coverage-ledger.md) - machine-shaped row schema, formulas, and thresholds for automating month or date-window completeness across the four tracked channels. Use **`check streams`** for the daily operator skill; treat **`cognition streams`** as the broader conceptual/audit namespace and legacy alias.
+**Check streams / cognition streams coverage ledger (optional):** [cognition-streams-coverage-ledger.md](cognition-streams-coverage-ledger.md) - machine-shaped row schema, formulas, and thresholds for automating month or date-window completeness across the five tracked channels. Use **`check streams`** for the daily operator skill; treat **`cognition streams`** as the broader conceptual/audit namespace and legacy alias.
 
 **Cognition streams audit command (optional):** [cognition-streams-watchlist.json](cognition-streams-watchlist.json) plus `python scripts/cognition_streams_audit.py --start YYYY-MM-DD --end YYYY-MM-DD --recent-start YYYY-MM-DD` - advisory automation that emits discovery receipts, coverage ledgers, summary JSON, and a ranked repair queue without performing ingest.
 

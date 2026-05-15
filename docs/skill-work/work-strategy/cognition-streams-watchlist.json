@@ -1,23 +1,6 @@
 {
   "channels": [
     {
-      "channel_key": "glenn-diesen",
-      "channel_name": "Glenn Diesen",
-      "channel_id": "UCZFCDIHTe9HGxtIuVDpBz7g",
-      "uploads_playlist_id": "UUZFCDIHTe9HGxtIuVDpBz7g",
-      "handle_url": "https://www.youtube.com/@GDiesen1",
-      "show": "Glenn Diesen",
-      "host": "Glenn Diesen",
-      "thread": "diesen",
-      "file_prefix": "youtube-glenn-diesen",
-      "discovery_priority": [
-        "uploads_playlist",
-        "channel_feed",
-        "videos_page",
-        "inventory_appendix"
-      ]
-    },
-    {
       "channel_key": "daniel-davis-deep-dive",
       "channel_name": "Daniel Davis / Deep Dive",
       "channel_id": "UCWDN5zr5ttctoIAhZwW6tcQ",
@@ -35,15 +18,15 @@
       ]
     },
     {
-      "channel_key": "alex-mercouris",
-      "channel_name": "Alexander Mercouris",
-      "channel_id": "UCwGpHa6rMLjSSCBlckm5khw",
-      "uploads_playlist_id": "UUwGpHa6rMLjSSCBlckm5khw",
-      "handle_url": "https://www.youtube.com/@AlexMercouris",
-      "show": "Alexander Mercouris",
-      "host": "Alexander Mercouris",
-      "thread": "mercouris",
-      "file_prefix": "youtube-alex-mercouris",
+      "channel_key": "glenn-diesen",
+      "channel_name": "Glenn Diesen",
+      "channel_id": "UCZFCDIHTe9HGxtIuVDpBz7g",
+      "uploads_playlist_id": "UUZFCDIHTe9HGxtIuVDpBz7g",
+      "handle_url": "https://www.youtube.com/@GDiesen1",
+      "show": "Glenn Diesen",
+      "host": "Glenn Diesen",
+      "thread": "diesen",
+      "file_prefix": "youtube-glenn-diesen",
       "discovery_priority": [
         "uploads_playlist",
         "channel_feed",
@@ -61,6 +44,40 @@
       "host": "Nima Alkhorshid",
       "thread": "alkorshid",
       "file_prefix": "transcript-dialogue-works",
+      "discovery_priority": [
+        "uploads_playlist",
+        "channel_feed",
+        "videos_page",
+        "inventory_appendix"
+      ]
+    },
+    {
+      "channel_key": "napolitano",
+      "channel_name": "Judge Napolitano - Judging Freedom",
+      "channel_id": "UCDkEYb-TXJVWLvOokshtlsw",
+      "uploads_playlist_id": "UUDkEYb-TXJVWLvOokshtlsw",
+      "handle_url": "https://www.youtube.com/@judgingfreedom",
+      "show": "Judging Freedom",
+      "host": "Judge Andrew Napolitano",
+      "thread": "napolitano",
+      "file_prefix": "transcript-napolitano",
+      "discovery_priority": [
+        "uploads_playlist",
+        "channel_feed",
+        "videos_page",
+        "inventory_appendix"
+      ]
+    },
+    {
+      "channel_key": "alex-mercouris",
+      "channel_name": "Alexander Mercouris",
+      "channel_id": "UCwGpHa6rMLjSSCBlckm5khw",
+      "uploads_playlist_id": "UUwGpHa6rMLjSSCBlckm5khw",
+      "handle_url": "https://www.youtube.com/@AlexMercouris",
+      "show": "Alexander Mercouris",
+      "host": "Alexander Mercouris",
+      "thread": "mercouris",
+      "file_prefix": "youtube-alex-mercouris",
       "discovery_priority": [
         "uploads_playlist",
         "channel_feed",

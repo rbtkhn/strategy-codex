@@ -1,7 +1,7 @@
 ---
 name: check-streams
 preferred_activation: check streams
-description: "Check the daily tracked YouTube stream roster for Davis, Diesen, Dialogue Works, and Mercouris: discover today's uploads, filter suspected clips, list main uploads first, materialize only the operator-approved subset into canonical raw-input, and suggest speaker-folder routing hints."
+description: "Check the daily tracked YouTube stream roster for Davis, Diesen, Alkorshid/Dialogue Works, Napolitano/Judging Freedom, and Mercouris: discover today's uploads, filter suspected clips, list main uploads first, materialize only the operator-approved subset into canonical raw-input, and suggest speaker-folder routing hints."
 portable: true
 version: 0.2.0
 tags:
@@ -16,7 +16,7 @@ tags:
 
 **Preferred activation (operator):** say **`check streams`**.
 
-Use this skill for the **daily stream check / daily ingest routine** across the fixed main-stream watchlist. It discovers today's Davis, Diesen, Dialogue Works, and Mercouris uploads, filters likely highlight clips and same-day companion clips, presents a list-first view, materializes only the operator-approved subset into canonical `raw-input`, and then suggests speaker-folder routing hints.
+Use this skill for the **daily stream check / daily ingest routine** across the fixed main-stream watchlist. It discovers today's Davis, Diesen, Alkorshid/Dialogue Works, Napolitano/Judging Freedom, and Mercouris uploads, filters likely highlight clips and same-day companion clips, presents a list-first view, materializes only the operator-approved subset into canonical `raw-input`, and then suggests speaker-folder routing hints.
 
 Use the single-URL YouTube transcript workflow for one-off URLs. Use this skill when the operator wants the **daily roster**.
 
@@ -48,7 +48,7 @@ After materialization, prefer asking **which appearance was created and which ro
 
 - The operator asks to check **today's uploads** across tracked main streams.
 - The operator wants a **daily list-first ingest pass** rather than a one-off YouTube transcript.
-- The operator asks what Glenn Diesen, Daniel Davis, Alexander Mercouris, and Dialogue Works uploaded today.
+- The operator asks what Daniel Davis, Glenn Diesen, Nima Alkhorshid/Dialogue Works, Judge Napolitano/Judging Freedom, and Alexander Mercouris uploaded today.
 - The operator asks to materialize today's uploads from the tracked main streams after reviewing the list.
 
 ## When not to run
@@ -61,12 +61,13 @@ In those cases, use the lower-layer single-URL YouTube transcript workflow inste
 
 ## Default watchlist
 
-Track these four streams in v1:
+Track these five streams in v1:
 
-- Glenn Diesen
 - Daniel Davis
-- Alexander Mercouris
+- Glenn Diesen
 - Dialogue Works
+- Judge Napolitano / Judging Freedom
+- Alexander Mercouris
 
 If a stream has no upload on the target day, say so explicitly.
 
@@ -113,6 +114,9 @@ If a stream has no upload on the target day, say so explicitly.
      - write canonical date-folder raw-input
      - verify the written raw-input has a non-stub transcript body before reporting success
    - Review `.codex-tmp/youtube-raw-input/<run-id>/materialization-summary.md` and `capture-summary.md` before claiming capture.
+   - For apply-mode runs with `--with-appearances`, expect the materializer to refresh `artifacts/host-shelf-quality/<year>/<host>/<YYYY-MM>/quality-summary.md/json` unless `--no-quality-report` was explicitly used.
+   - Close materialization/densification claims with the mandatory quality line from the capture summary: `Structure: <delta> | Purity: <delta/%> | Unresolved: <count> | Git: on-disk/verified/not-committed/not-pushed`.
+   - Do not treat new routeable appearances as textual purity gains unless the quality report shows transcript-grade, cleaned-transcript, or transcript-bearing improvement.
    - When the approved subset is really a guest-host tranche rather than "today's whole roster," preserve that exact tranche shape instead of reopening discovery or broad channel slicing.
    - If materialization returns `failed-fetch` or `failed-verification`, report the failure and stop before speaker routing, lattice updates, or completion claims.
 
@@ -125,6 +129,7 @@ If a stream has no upload on the target day, say so explicitly.
    - After approved items are materialized and verified as non-stub raw-input, inspect metadata, title, host, guest, and obvious `thread:` identity.
    - Treat each verified capture as an **appearance**: one host/speaker/date/source event derived from raw-input, not a durable interpretation by itself.
    - The atomic materializer now emits the first durable appearance packet for approved items when run with `--with-appearances`: `appearance-ledger.jsonl`, speaker-routing queue, speaker-memory action queue, and capture summary.
+   - Treat the host-shelf quality summary as the benchmark surface for structural gain, transcript-purity gain, unresolved speaker count, and scoped git state.
    - Suggest the route stack: primary route first, then any speaker object, stream-local speaker arc, helix, or cross-host note the same appearance also strengthens.
    - For a durable advisory queue, run `python scripts/build_speaker_routing_queue.py --start YYYY-MM-DD --end YYYY-MM-DD` and review `artifacts/speaker-routing/<start>_to_<end>/speaker-routing-queue.md` plus `appearance-ledger.jsonl`.
    - When the operator wants concrete follow-up proposals, run `python scripts/build_speaker_memory_actions.py --start YYYY-MM-DD --end YYYY-MM-DD` and review `artifacts/speaker-memory-actions/<start>_to_<end>/memory-action-queue.md`.
@@ -205,8 +210,9 @@ Use light priors, but do not build separate policy trees:
 
 - **Glenn Diesen:** guest-name + thesis-title interviews are typical; short fragments are more suspicious
 - **Daniel Davis:** legitimate uploads can be short topical monologues; duration alone is unreliable and should not override normal standalone title structure
+- **Alkorshid / Dialogue Works:** titles may be dramatic, and some legitimate interviews can still be relatively short; title sensationalism or a 10-15 minute runtime alone is not enough
+- **Napolitano / Judging Freedom:** high-volume interview cadence is normal; use guest/title structure and live/upcoming status before duration-only exclusion
 - **Mercouris:** usually long monologues; short uploads are more suspicious
-- **Dialogue Works:** titles may be dramatic, and some legitimate interviews can still be relatively short; title sensationalism or a 10-15 minute runtime alone is not enough
 
 ### Discovery-source discipline
 

@@ -1,6 +1,6 @@
 # Cognition streams coverage ledger
 
-Use this file as the **machine-shaped audit contract** for month or date-window completeness across the four tracked cognition streams.
+Use this file as the **machine-shaped audit contract** for month or date-window completeness across the five tracked cognition streams.
 
 Its purpose is not to replace the daily skill. It exists so later scripts and operators can answer:
 
@@ -15,8 +15,9 @@ Default tracked channels:
 
 - Glenn Diesen
 - Daniel Davis / Deep Dive
-- Alexander Mercouris
 - Dialogue Works
+- Judge Napolitano / Judging Freedom
+- Alexander Mercouris
 
 Default unit:
 
@@ -71,8 +72,9 @@ Recommended optional fields:
 
 - `glenn-diesen`
 - `daniel-davis-deep-dive`
-- `alex-mercouris`
 - `dialogue-works`
+- `napolitano`
+- `alex-mercouris`
 
 ### `discovery_source`
 
