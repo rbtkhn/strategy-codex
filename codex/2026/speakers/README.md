@@ -2,9 +2,25 @@
 
 Speakers are higher-order strategy-codex objects outside the current eight-stream scaffold. They may carry speaker-arcs, speaker-helixes, cross-year notes, profiles, and other speaker-local materials without becoming first-class cognition streams in this volume.
 
+Do not use this shelf for text-first analyst-writer folders such as `simplicius` or `bigserge`; those belong under [`../writers/`](../writers/).
+
 Promote a speaker into the scaffold only by explicit operator decision.
 
 WORK only; not Record.
+
+## Memory architecture
+
+Speaker folders are the durable accumulation layer for recurring figures. Use them to accumulate judgment about who a speaker is in the notebook, why the speaker matters, where to open first, and what not to overclaim.
+
+Raw-input remains provenance. Speaker arcs remain host-local interpretation. Speaker objects remain orientation and routing. Speaker helixes and cross-host notes remain comparative surfaces. In this shelf, lattice rows are lookup pointers only; they may cite speaker folders, but they should not become the place where every interpretation lives.
+
+Canonical templates:
+
+- [speaker object template](_templates/speaker-object-template.md)
+- [speaker arc template](_templates/speaker-arc-template.md)
+- [speaker helix template](_templates/speaker-helix-template.md)
+
+Existing `*-page-template.md` files are compatibility stubs for older page scaffolds. Do not use them as the speaker-memory templates.
 
 ## Speaker object contract
 

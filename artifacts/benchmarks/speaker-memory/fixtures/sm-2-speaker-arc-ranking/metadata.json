@@ -1,0 +1,9 @@
+{
+  "benchmark_id": "sm-2-speaker-arc-ranking",
+  "prompt_version": "speaker-memory-benchmark-v1-sm-2",
+  "rubric_version": "speaker-memory-arc-rubric-v1",
+  "source_mode": "source_pack",
+  "target_surface": "speaker-arc",
+  "fixture_status": "ready",
+  "notes": "Rank a host x guest speaker arc and choose open-first and paired-read paths without turning the lattice into the interpretation surface."
+}

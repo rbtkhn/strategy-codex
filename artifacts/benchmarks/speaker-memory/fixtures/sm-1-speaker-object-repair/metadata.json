@@ -1,0 +1,9 @@
+{
+  "benchmark_id": "sm-1-speaker-object-repair",
+  "prompt_version": "speaker-memory-benchmark-v1-sm-1",
+  "rubric_version": "speaker-memory-object-rubric-v1",
+  "source_mode": "source_pack",
+  "target_surface": "speaker-object",
+  "fixture_status": "ready",
+  "notes": "Repair or compose a speaker-object note from existing speaker-folder evidence without editing Record or raw-input surfaces."
+}

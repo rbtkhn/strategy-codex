@@ -1,0 +1,15 @@
+{
+  "benchmark_id": "sm-1-speaker-object-repair",
+  "prompt_version": "speaker-memory-benchmark-v1-sm-1",
+  "rubric_version": "speaker-memory-object-rubric-v1",
+  "model": "Codex",
+  "provider": "OpenAI",
+  "model_version": "current session",
+  "run_date": "2026-05-15",
+  "temperature": "unavailable",
+  "seed": "unavailable",
+  "source_mode": "source_pack",
+  "evaluator": "Codex self-demo",
+  "closeout": "Held",
+  "notes": "Demonstration run for operator review; no repo source files were edited by the benchmark output."
+}

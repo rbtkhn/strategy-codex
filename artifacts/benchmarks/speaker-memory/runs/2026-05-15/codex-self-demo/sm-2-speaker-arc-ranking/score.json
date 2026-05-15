@@ -1,0 +1,68 @@
+{
+  "benchmark_id": "sm-2-speaker-arc-ranking",
+  "run_path": "C:\\dev\\strategy-codex\\artifacts\\benchmarks\\speaker-memory\\runs\\2026-05-15\\codex-self-demo\\sm-2-speaker-arc-ranking",
+  "total_score": 110,
+  "max_score": 110,
+  "percentage": 100.0,
+  "closeout": "Held",
+  "checks": [
+    {
+      "name": "work_boundary",
+      "score": 10,
+      "max_score": 10,
+      "passed": true,
+      "message": "Required WORK-only boundary is present."
+    },
+    {
+      "name": "required_sections",
+      "score": 18,
+      "max_score": 18,
+      "passed": true,
+      "message": "All required speaker-arc sections are present."
+    },
+    {
+      "name": "expected_rank_order",
+      "score": 18,
+      "max_score": 18,
+      "passed": true,
+      "message": "Expected 2026-05-06 before 2026-04-18 ranking is present."
+    },
+    {
+      "name": "paired_read_coverage",
+      "score": 14,
+      "max_score": 14,
+      "passed": true,
+      "message": "Matlock and Jiang paired-read logic is present."
+    },
+    {
+      "name": "host_form_awareness",
+      "score": 14,
+      "max_score": 14,
+      "passed": true,
+      "message": "Host-conditioned form is explicit."
+    },
+    {
+      "name": "lattice_restraint",
+      "score": 12,
+      "max_score": 12,
+      "passed": true,
+      "message": "Lattice is treated as a pointer surface."
+    },
+    {
+      "name": "boundary_coverage",
+      "score": 12,
+      "max_score": 12,
+      "passed": true,
+      "message": "Boundary section covers 7 expected warning term(s)."
+    },
+    {
+      "name": "source_pack_restraint",
+      "score": 12,
+      "max_score": 12,
+      "passed": true,
+      "message": "No obvious unsupported biography markers found."
+    }
+  ],
+  "failure_codes": [],
+  "repair_actions": []
+}

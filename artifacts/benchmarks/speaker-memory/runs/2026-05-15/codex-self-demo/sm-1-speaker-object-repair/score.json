@@ -1,0 +1,68 @@
+{
+  "benchmark_id": "sm-1-speaker-object-repair",
+  "run_path": "C:\\dev\\strategy-codex\\artifacts\\benchmarks\\speaker-memory\\runs\\2026-05-15\\codex-self-demo\\sm-1-speaker-object-repair",
+  "total_score": 110,
+  "max_score": 110,
+  "percentage": 100.0,
+  "closeout": "Held",
+  "checks": [
+    {
+      "name": "work_boundary",
+      "score": 10,
+      "max_score": 10,
+      "passed": true,
+      "message": "Required WORK-only boundary is present."
+    },
+    {
+      "name": "required_sections",
+      "score": 20,
+      "max_score": 20,
+      "passed": true,
+      "message": "All required speaker-object sections are present."
+    },
+    {
+      "name": "explicit_object_shape",
+      "score": 15,
+      "max_score": 15,
+      "passed": true,
+      "message": "`object_shape: cross-host-reinforced` is explicit."
+    },
+    {
+      "name": "open_first_links",
+      "score": 15,
+      "max_score": 15,
+      "passed": true,
+      "message": "Open first contains 3 markdown link(s)."
+    },
+    {
+      "name": "routing_use_actionability",
+      "score": 10,
+      "max_score": 10,
+      "passed": true,
+      "message": "Routing use is actionable."
+    },
+    {
+      "name": "boundary_coverage",
+      "score": 15,
+      "max_score": 15,
+      "passed": true,
+      "message": "Boundary section covers 7 expected warning term(s)."
+    },
+    {
+      "name": "source_pack_restraint",
+      "score": 10,
+      "max_score": 10,
+      "passed": true,
+      "message": "No obvious unsupported biography markers found."
+    },
+    {
+      "name": "premature_helix_restraint",
+      "score": 15,
+      "max_score": 15,
+      "passed": true,
+      "message": "Helix claims are restrained."
+    }
+  ],
+  "failure_codes": [],
+  "repair_actions": []
+}

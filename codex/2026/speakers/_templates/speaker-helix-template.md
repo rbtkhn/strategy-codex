@@ -1,0 +1,54 @@
+# {Speaker} helix
+
+WORK only; not Record.
+
+Purpose: compare a recurring speaker across multiple host transformations. Use this when the speaker's value is clearer across host-local arcs than inside one stream alone. This is a comparative routing note, not a generic profile and not a replacement for the underlying arcs.
+
+## Core claim
+
+State the one-sentence reason the helix exists.
+
+{Speaker} is best read as ...
+
+## The strands
+
+| Host lane | Distinct register | What it reveals best |
+|---|---|---|
+| [{host-1} x {speaker}]({host-1-arc-path}) |  |  |
+| [{host-2} x {speaker}]({host-2-arc-path}) |  |  |
+| [{host-3} x {speaker}]({host-3-arc-path}) |  |  |
+
+## Open first
+
+If the operator needs the cleanest single introduction to the helix:
+
+- open [{best-single-entry}]({best-single-entry-path})
+
+If the operator needs the best paired read:
+
+- open [{first-pair-entry}]({first-pair-entry-path})
+- then [{second-pair-entry}]({second-pair-entry-path})
+
+## Host transformations
+
+Explain what changes when the same speaker appears under each host.
+
+- `{host-1}`:
+- `{host-2}`:
+- `{host-3}`:
+
+## Routing use
+
+Use this helix note when the notebook is doing one or more of the following:
+
+- comparing the same speaker across multiple stable host transformations
+- deciding which host-local arc should receive a new read
+- explaining cross-host reinforcement without flattening host differences
+- choosing a clean public-facing reading path
+
+## Boundaries
+
+- This helix is not a generic speaker profile.
+- Prefer the host-local arc or raw-input shelf when the task is stream-specific.
+- Do not flatten distinct host registers into one undifferentiated speaker theory.
+- Do not claim a helix exists until multiple host-local strands are strong enough to compare.
