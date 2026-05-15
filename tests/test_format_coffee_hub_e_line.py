@@ -1,4 +1,4 @@
-"""Smoke tests for coffee hub **E** label line."""
+"""Smoke tests for the removed coffee hub conductor line."""
 
 from __future__ import annotations
 
@@ -14,4 +14,7 @@ from cadence_conductor_resolution import format_coffee_hub_e_line  # noqa: E402
 
 
 def test_format_coffee_hub_e_line_shape() -> None:
-    assert format_coffee_hub_e_line("grace-mar") == "**E — Conductor**"
+    assert format_coffee_hub_e_line("grace-mar") == (
+        "Conductor is standalone: name toscanini, furtwangler, karajan, "
+        "kleiber, or bernstein."
+    )

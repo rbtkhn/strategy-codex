@@ -21,8 +21,14 @@ This module still helps with two advisory questions:
 from __future__ import annotations
 
 import unicodedata
+import sys
 from typing import Any
 from pathlib import Path
+
+REPO_ROOT = Path(__file__).resolve().parent.parent
+SCRIPTS_DIR = REPO_ROOT / "scripts"
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
 
 from strategy_notebook.judgment_loops import (
     build_judgment_loop_report,
