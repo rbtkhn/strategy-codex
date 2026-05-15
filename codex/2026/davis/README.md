@@ -17,6 +17,7 @@
 - Speaker arc: [davis-macgregor-speaker-arc.md](davis-macgregor-speaker-arc.md)
 - Speaker arc: [davis-johnson-speaker-arc.md](davis-johnson-speaker-arc.md)
 - Speaker arc: [davis-marandi-speaker-arc.md](davis-marandi-speaker-arc.md)
+- Speaker arc: [davis-martyanov-speaker-arc.md](davis-martyanov-speaker-arc.md)
 - Speaker arc: [davis-mearsheimer-speaker-arc.md](davis-mearsheimer-speaker-arc.md)
 - Speaker arc: [davis-postol-speaker-arc.md](davis-postol-speaker-arc.md)
 - Speaker arc: [davis-ritter-speaker-arc.md](davis-ritter-speaker-arc.md)
