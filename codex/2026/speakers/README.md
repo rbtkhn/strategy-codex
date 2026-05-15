@@ -14,6 +14,8 @@ Speaker folders are the durable accumulation layer for recurring figures. Use th
 
 Raw-input remains provenance. An **appearance** is one derived host/speaker/date/source event from a verified raw-input capture. Speaker arcs remain host-local interpretation. Speaker objects remain orientation and routing. Speaker helixes and cross-host notes remain comparative surfaces. In this shelf, lattice rows are lookup pointers only; they may cite speaker folders, but they should not become the place where every interpretation lives.
 
+For map-like navigation across the shelf, use [`../speaker-map/`](../speaker-map/). Speaker-map is an index layer over this shelf, not a rename and not a replacement. Durable memory stays here; route views, adjacency maps, and open-first route maps live there.
+
 Default routing order after materialization:
 
 1. verify the raw-input body exists and is not a stub
