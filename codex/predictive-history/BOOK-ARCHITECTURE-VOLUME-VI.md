@@ -32,7 +32,7 @@ End each Part I chapter with a boxed subsection per CHAPTER-DIVERGENCE-BOX.md �
 
 ### Part II — method TBD (Interviews)
 
-**Begins after:** `vi-ch15`
+**Begins after:** `vi-ch16`
 
 Operator locks evaluation mode in book/VOLUME-VI-INTERVIEWS.md (divergence-first default for Part I boxes).
 
@@ -218,5 +218,17 @@ Operator locks evaluation mode in book/VOLUME-VI-INTERVIEWS.md (divergence-first
 - **Sprint:** TBD
 - **Outline:** `chapters-volume-vi/vi-ch15/outline.md`
 - **Draft:** `chapters-volume-vi/vi-ch15/draft.md`
+
+### vi-ch16 — Interviews #16: Diary Of A CEO — World War 3 Is About To Begin
+
+- **Purpose:** Book chapter for Interviews episode 16 — Volume VI Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VI default).
+- **Kind:** analysis
+- **Priority:** medium
+- **Target words:** 2800
+- **Status:** outline_pending
+- **Owner:** operator
+- **Sprint:** TBD
+- **Outline:** `chapters-volume-vi/vi-ch16/outline.md`
+- **Draft:** `chapters-volume-vi/vi-ch16/draft.md`
 
 *Generated from `metadata/book-architecture.yaml` (`volume_6_interviews`) — `python scripts/work_jiang/render_book_architecture.py`.*

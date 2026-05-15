@@ -5,7 +5,7 @@
 ## Shelf
 
 - Profile: [alkorshid-profile.md](../../profiles/alkorshid-profile.md)
-- Monthly book: [alkorshid-book-2026-04.md](alkorshid-book-2026-04.md)
+- Monthly shelf: [alkorshid-shelf-2026-04.md](alkorshid-shelf-2026-04.md)
 - Daily chapter seed: [alkorshid-chapter-2026-04-01.md](alkorshid-chapter-2026-04-01.md)
 - Speaker arcs:
   - [alkorshid-crooke-speaker-arc.md](alkorshid-crooke-speaker-arc.md)
@@ -14,6 +14,7 @@
   - [alkorshid-marandi-speaker-arc.md](alkorshid-marandi-speaker-arc.md)
   - [alkorshid-martyanov-speaker-arc.md](alkorshid-martyanov-speaker-arc.md)
   - [alkorshid-armstrong-speaker-arc.md](alkorshid-armstrong-speaker-arc.md)
+  - [alkorshid-mcgovern-speaker-arc.md](alkorshid-mcgovern-speaker-arc.md)
   - [alkorshid-postol-speaker-arc.md](alkorshid-postol-speaker-arc.md)
   - [alkorshid-ritter-speaker-arc.md](alkorshid-ritter-speaker-arc.md)
   - [alkorshid-baud-speaker-arc.md](alkorshid-baud-speaker-arc.md)

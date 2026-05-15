@@ -4,6 +4,8 @@ WORK only; not Record.
 
 Purpose: compact cross-host note for reading the recurring Ritter lanes together. This is not a substitute for the host-local speaker arcs and raw-input runs. It exists so future routing can quickly answer: why these lanes belong together, what each host transforms in the Ritter voice, where to enter the helix, and how the richer cognition-stream shelf belongs to the same higher-order speaker object.
 
+For the faster speaker-side entry surface that answers **which host lane to open first**, see [ritter-routing.md](/C:/dev/strategy-codex/codex/2026/speakers/ritter/ritter-routing.md).
+
 ## Core claim
 
 The Ritter triple helix is one war-mechanics and escalation-pressure voice transformed by three hosts: Diesen gives escalation horizon, Davis tests operational feasibility, and Dialogue Works applies maximum live war pressure.

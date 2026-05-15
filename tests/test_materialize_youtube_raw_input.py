@@ -395,6 +395,7 @@ def test_main_with_appearances_writes_capture_packet(tmp_path: Path, monkeypatch
     assert "tranche: `ritter-test`" in summary.read_text(encoding="utf-8")
     assert "speaker_routing_markdown" in summary.read_text(encoding="utf-8")
     assert "memory_action_queue_markdown" in summary.read_text(encoding="utf-8")
+    assert "quality scope: `full-host-month`" in summary.read_text(encoding="utf-8")
     assert "quality closeout: Structure:" in summary.read_text(encoding="utf-8")
     assert "host_quality_reports" in summary.read_text(encoding="utf-8")
     routing_files = list((tmp_path / "artifacts" / "speaker-routing" / "dense-run").rglob("speaker-routing-queue.jsonl"))
@@ -523,6 +524,77 @@ def test_no_quality_report_suppresses_quality_artifacts(tmp_path: Path, monkeypa
     assert not (tmp_path / "artifacts" / "host-shelf-quality").exists()
     summary = (tmp_path / "receipts" / "no-quality-run" / "capture-summary.md").read_text(encoding="utf-8")
     assert "quality closeout: Structure:" not in summary
+
+
+def test_quality_report_from_single_raw_input_expands_to_full_month(tmp_path: Path, monkeypatch, capsys) -> None:
+    notebook_root = tmp_path / "codex" / "2026"
+    for slug, title in (("ritter", "Scott Ritter"), ("freeman", "Chas Freeman")):
+        obj = notebook_root / "speakers" / slug / f"{slug}-speaker-object.md"
+        obj.parent.mkdir(parents=True)
+        obj.write_text(f"# {title}\n", encoding="utf-8")
+        arc = notebook_root / "diesen" / f"diesen-{slug}-speaker-arc.md"
+        arc.parent.mkdir(parents=True, exist_ok=True)
+        arc.write_text(f"# Diesen x {title}\n", encoding="utf-8")
+
+    raw_dir = notebook_root / "raw-input" / "2026-05-12"
+    raw_dir.mkdir(parents=True)
+    selected = raw_dir / "selected-ritter.md"
+    selected.write_text(
+        "---\n"
+        "ingest_date: 2026-05-15\n"
+        "pub_date: 2026-05-12\n"
+        "kind: transcript\n"
+        "source_type: youtube\n"
+        "transcript_type: auto_subtitles_vtt\n"
+        "title: Selected Ritter\n"
+        "source_url: https://www.youtube.com/watch?v=selected123\n"
+        "source_note: Auto-captions extracted with yt_dlp.\n"
+        "guest: Scott Ritter\n"
+        "host: Glenn Diesen\n"
+        "show: Glenn Diesen\n"
+        "thread: diesen\n"
+        "---\n\n"
+        "# Selected Ritter\n\n"
+        f"{_caption(90)}\n",
+        encoding="utf-8",
+    )
+    sibling = raw_dir / "sibling-freeman.md"
+    sibling.write_text(
+        selected.read_text(encoding="utf-8")
+        .replace("Selected Ritter", "Sibling Freeman")
+        .replace("selected123", "sibling1234")
+        .replace("Scott Ritter", "Chas Freeman"),
+        encoding="utf-8",
+    )
+
+    monkeypatch.setattr(mat, "DEFAULT_ROUTING_OUT", tmp_path / "artifacts" / "speaker-routing")
+    monkeypatch.setattr(mat, "DEFAULT_ACTION_OUT", tmp_path / "artifacts" / "speaker-memory-actions")
+    monkeypatch.setattr(mat, "DEFAULT_HOST_QUALITY_OUT", tmp_path / "artifacts" / "host-shelf-quality")
+
+    rc = mat.main(
+        [
+            "--raw-input",
+            str(selected),
+            "--notebook-root",
+            str(notebook_root),
+            "--receipt-root",
+            str(tmp_path / "receipts"),
+            "--run-id",
+            "single-run",
+            "--apply",
+            "--with-appearances",
+        ]
+    )
+
+    captured = capsys.readouterr()
+    assert rc == 0
+    assert '"status": "already-present-valid"' in captured.out
+    summary = (tmp_path / "receipts" / "single-run" / "capture-summary.md").read_text(encoding="utf-8")
+    quality_json = next((tmp_path / "artifacts" / "host-shelf-quality").rglob("quality-summary.json"))
+    quality_payload = json.loads(quality_json.read_text(encoding="utf-8"))
+    assert "quality scope: `full-host-month`" in summary
+    assert quality_payload["input_scope"] == "full-host-month"
+    assert quality_payload["raw_input_count"] == 2
 
 
 def test_existing_legacy_raw_input_can_route_for_appearance(tmp_path: Path) -> None:

@@ -1,7 +1,7 @@
 ---
 ingest_date: 2026-05-13
 pub_date: 2026-01-14
-kind: transcript
+kind: cleaned-transcript
 thread: davis
 show: Daniel Davis Deep Dive
 host: Daniel Davis
@@ -10,12 +10,10 @@ title: "Prof John Mearsheimer: CLASSIC U.S. REGIME CHANGE in IRAN"
 channel_url: "https://www.youtube.com/@DanielDavisDeepDive/videos"
 channel_slug: "daniel-davis-deep-dive"
 source_url: "https://www.youtube.com/watch?v=Zy3_CP-XeQo"
-source_note: "Automated YouTube transcript fetch for Daniel Davis Deep Dive."
+source_note: "Automated YouTube transcript fetch for Daniel Davis Deep Dive, lightly cleaned for shelf use."
 ---
 # Prof John Mearsheimer: CLASSIC U.S. REGIME CHANGE in IRAN
 
-Kind: captions
-Language: en
 Iran is on my mind when I see the kind
 of death
 that is happening over there. We think

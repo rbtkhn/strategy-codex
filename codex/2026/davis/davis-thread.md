@@ -47,6 +47,15 @@ The 2026-01 segment for the Daniel L. Davis (Lt Col (ret.)) lane (`davis`) exist
 - [strength: medium] **Mechanism:** Links **Mearsheimer**Ã¢â‚¬â„¢s Ã¢â‚¬Å“**classic U.S.Ã¢â‚¬â€œIsraeli regimeÃ¢â‚¬â€˜change**Ã¢â‚¬Â read ([*CLASSIC U.S. REGIME CHANGE in IRAN*](https://danieldavisdeepdive.substack.com/p/prof-mearsheimer-classic-us), **2026-01-14**; paid Ã¢â‚¬â€ preview) to a separate **imminent-strike / sudden-pause** episode ([*Trump HasnÃ¢â‚¬â„¢t Attacked Iran Ã¢â‚¬â€ Yet*](https://danieldavisdeepdive.substack.com/p/trump-hasnt-attacked-iran-yet), **2026-01-16**; paid Ã¢â‚¬â€ preview) Ã¢â‚¬â€ same escalation window, different emphasis (playbook vs decision clock).
 - [strength: low] **Ambiguity:** **How much** of the Ã¢â‚¬Å“imminent strikeÃ¢â‚¬Â drumbeat was **operational** vs **signaling** is not fully visible without full episodes / primary military reporting (strength capped).
 - [strength: medium] **Tension / parallel lane:** Same-month **Europe / Ukraine / Davos** long-form interview ([Scott Horton Show](https://scotthorton.org/interviews/1-22-26-davis-on-ukraine-davos-and-the-future-of-americas-policy-towards-europe/), episode titled **1/22/26**; page dated **2026-01-24**) Ã¢â‚¬â€ use when batch-analysis crosses **trans-Atlantic** fracture, not only Hormuz.
+### 2026-01 correction
+
+This correction supersedes the thinner January reading above when the question is **what the native Davis shelf actually embodies on disk**.
+
+- [strength: high] **Embodied January core:** The native January Davis shelf is materially real through four on-disk anchors: **2026-01-14**, **2026-01-15**, and **2026-01-29** with **John Mearsheimer**, plus **2026-01-20** with **Chas Freeman**.
+- [strength: medium] **Shelf truth:** January is therefore a real but thin routeable month. It is not just a prose reconstruction or an external-link month.
+- [strength: medium] **Boundary:** The **2026-01-13** Substack item, the **2026-01-16** Substack item, and the **2026-01-22** Scott Horton appearance remain useful January reinforcement, but they should not be confused with the core embodied Davis month.
+- [strength: medium] **Purity note:** These four January anchors are transcript-bearing and now lightly cleaned for shelf use, but they are still less curated than the later April Davis tranche.
+
 ## 2026-02
 
 
@@ -110,6 +119,20 @@ The `davis` laneÃ¢â‚¬â„¢s role (Retired U.S. Army Lieutenant Colonel (
 
 - **2026-01-22** Ã¢â‚¬â€ Scott Horton Show Ã¢â‚¬â€ Ukraine / Davos / Europe (episode dated on index page).  
   _Source:_ web: `https://scotthorton.org/interviews/1-22-26-davis-on-ukraine-davos-and-the-future-of-americas-policy-towards-europe/`
+
+- **Correction:** The native January Davis shelf later gained four embodied raw-input anchors on **2026-01-14**, **2026-01-15**, **2026-01-20**, and **2026-01-29**. The entries above should therefore be read as external reinforcement and older reconstruction, not as the complete January shelf.
+
+- **2026-01-14** - *CLASSIC U.S. REGIME CHANGE in IRAN* (Mearsheimer x Davis).  
+  _Source:_ raw-input: [youtube-daniel-davis-deep-dive-prof-john-mearsheimer-classic-u-s-regime-change-in-iran-2026-01-14.md](/C:/dev/strategy-codex/codex/2026/raw-input/2026-01-14/youtube-daniel-davis-deep-dive-prof-john-mearsheimer-classic-u-s-regime-change-in-iran-2026-01-14.md)
+
+- **2026-01-15** - *DISMANTLING IRAN, The Four Part Strategy* (Mearsheimer x Davis).  
+  _Source:_ raw-input: [youtube-daniel-davis-deep-dive-prof-john-mearsheimer-dismantling-iran-the-four-part-strategy-2026-01-15.md](/C:/dev/strategy-codex/codex/2026/raw-input/2026-01-15/youtube-daniel-davis-deep-dive-prof-john-mearsheimer-dismantling-iran-the-four-part-strategy-2026-01-15.md)
+
+- **2026-01-20** - *Iran, EU & Trump, Greenland* (Freeman x Davis).  
+  _Source:_ raw-input: [youtube-daniel-davis-deep-dive-iran-eu-trump-greenland-lt-col-daniel-davis-chas-freeman-2026-01-20.md](/C:/dev/strategy-codex/codex/2026/raw-input/2026-01-20/youtube-daniel-davis-deep-dive-iran-eu-trump-greenland-lt-col-daniel-davis-chas-freeman-2026-01-20.md)
+
+- **2026-01-29** - *There's NO DECISIVE WIN for TRUMP w/IRAN* (Mearsheimer x Davis).  
+  _Source:_ raw-input: [youtube-daniel-davis-deep-dive-john-mearsheimer-there-s-no-decisive-win-for-trump-w-iran-2026-01-29.md](/C:/dev/strategy-codex/codex/2026/raw-input/2026-01-29/youtube-daniel-davis-deep-dive-john-mearsheimer-there-s-no-decisive-win-for-trump-w-iran-2026-01-29.md)
 
 ### 2026-02
 

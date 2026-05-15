@@ -4,6 +4,8 @@ WORK only; not Record.
 
 Purpose: compact cross-host note for reading the current recurring Wilkerson lanes together. This is not a substitute for the host-local speaker arcs. It exists so future routing can quickly answer: why these lanes belong together, what each host transforms in the Wilkerson voice, and where to enter the helix without pretending a third canonical cognition-stream strand exists.
 
+For the faster speaker-side entry surface that answers **which host lane to open first**, see [wilkerson-routing.md](/C:/dev/strategy-codex/codex/2026/speakers/wilkerson/wilkerson-routing.md).
+
 ## Core claim
 
 The Wilkerson helix is currently a **double helix**: one imperial-decline and military-statecraft warning voice transformed by two hosts. Diesen gives strategic-order and legitimacy-collapse altitude; Dialogue Works applies live crisis pressure and the sharper warning edge of immediate escalation.

@@ -1,7 +1,8 @@
-# Map book chapters (and appendix buckets) to source_id values from sources.yaml.
+﻿# Map book chapters (and appendix buckets) to source_id values from sources.yaml.
 # Volume 1: one chapter per Geo-Strategy lecture (ch01 = #1 … ch12 = #12).
 # Volume 2: civ-chNN → civ-NN (see codex/predictive-history/volume-ii-book-track-conventions.md).
-# Volume VII: es-chNN → es-NN (see codex/predictive-history/volume-vii-book-track-conventions.md).
+# Volume VII: vi-chNN → vi-NN (see codex/predictive-history/volume-vii-book-track-conventions.md).
+# Volume VI: es-chNN → es-NN (see codex/predictive-history/volume-vi-book-track-conventions.md).
 # Run: python scripts/work_jiang/build_source_registry.py
 
 chapter_map:

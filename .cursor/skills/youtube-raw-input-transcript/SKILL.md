@@ -100,6 +100,7 @@ In strategy-codex, this skill is also the shared **transcript + appearance mater
    - Route only files from the approved run or densification tranche; do not sweep every file in the same date folder.
    - For `--apply --with-appearances`, keep the host-shelf quality report enabled unless the operator explicitly uses `--no-quality-report`.
    - Close every densification pass with the quality contract line: `Structure: <delta> | Purity: <delta/%> | Unresolved: <count> | Git: on-disk/verified/not-committed/not-pushed`.
+   - Treat materializer quality reports as `full-host-month` receipts; if a single-file run differs from the monthly shelf baseline, name the scope explicitly instead of implying shelf regression.
    - Distinguish topological progress from text-quality progress: route count and shelf coverage are not the same as transcript-grade or cleaned-transcript purity.
    - Stop at advisory artifacts unless the operator separately asks to edit speaker objects, arcs, helixes, lattice rows, or other interpretation surfaces.
 

@@ -19,6 +19,7 @@ The restored 2025 shelf makes three things clearer:
 
 ## How to read it
 
+- [macgregor-routing.md](/C:/dev/strategy-codex/codex/2026/speakers/macgregor/macgregor-routing.md) is the fastest speaker-side routing surface
 - [macgregor-helix.md](/C:/dev/strategy-codex/codex/2026/speakers/macgregor/macgregor-helix.md) is the canonical Macgregor helix note
 - this cross-year note exists to show that the helix is stable across years without changing type
 - the years are continuity and density information inside the helix, not separate helix objects

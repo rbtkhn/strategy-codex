@@ -53,4 +53,4 @@ If the operator needs the object doctrine rather than the stream shelf:
 
 - This note does not replace the `napolitano/` stream shelf.
 - This note is not a Napolitano helix note.
-- This first pass is December 2025-May 2026 only.
+- This first pass is November 2025-May 2026 only.

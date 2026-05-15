@@ -19,6 +19,7 @@ The restored 2025 shelf makes three things clearer:
 
 ## How to read it
 
+- [wilkerson-routing.md](/C:/dev/strategy-codex/codex/2026/speakers/wilkerson/wilkerson-routing.md) is the fastest speaker-side routing surface
 - [wilkerson-helix.md](/C:/dev/strategy-codex/codex/2026/speakers/wilkerson/wilkerson-helix.md) is the canonical Wilkerson helix note
 - this cross-year note exists to show that the helix is stable across years without changing type
 - the years are continuity and density information inside the helix, not separate helix objects

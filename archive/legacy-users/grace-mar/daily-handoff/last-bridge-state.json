@@ -1,0 +1,15 @@
+{
+  "runIso": "2026-05-02 04:33 UTC",
+  "user": "grace-mar",
+  "graceMarHead": "5fb4fd09",
+  "graceMarWorktreeRisk": "conflict-prone",
+  "gatePendingCount": 4,
+  "gateFingerprint": "15506c47ea21b22b",
+  "territoriesActive": [
+    "work-business",
+    "work-cici",
+    "work-coffee"
+  ],
+  "companionSelfHead": "",
+  "companionSelfWorktreeRisk": ""
+}

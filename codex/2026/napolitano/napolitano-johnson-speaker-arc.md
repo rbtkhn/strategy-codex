@@ -19,6 +19,7 @@ In this lane the useful transformation is:
 
 | Rank | Date | Title | Why it matters most |
 |---|---|---|---|
+| 6 | 2025-11-24 | *28-Point Plan Is Dead on Arrival* | Earliest November routeable anchor. Summary-grade, but useful for dead-plan and process-bad-faith framing before the later branch thickens. |
 | 5 | 2025-12-22 | *Why Is the West Ignorant of Russia?* | Earliest December routeable anchor. Summary-grade, but useful for strategic-ignorance and process-failure framing before the 2026 crisis lane thickens. |
 | 4 | 2026-01-12 | *Is the CIA Fueling Iran's Chaos?* | Earliest January routeable anchor. Summary-grade, but useful for covert-process suspicion and state-manipulation framing before the later crisis files harden. |
 | 3 | 2026-02-23 | *Trump's Decision Making and Huckabee's Buffoonery* | Earliest February routeable anchor. Summary-grade, but useful for process irrationality and executive-quality framing before March-April crisis hardening. |
@@ -32,6 +33,7 @@ In this lane the useful transformation is:
 - [2026-02-23 Larry Johnson - Trump's Decision Making and Huckabee's Buffoonery](/C:/dev/strategy-codex/codex/2026/raw-input/2026-02-23/transcript-napolitano-johnson-trumps-decision-making-and-huckabees-buffoonery-2026-02-23.md)
 - [2026-01-12 Larry Johnson - Is the CIA Fueling Iran's Chaos?](/C:/dev/strategy-codex/codex/2026/raw-input/2026-01-12/transcript-napolitano-johnson-is-the-cia-fueling-irans-chaos-2026-01-12.md)
 - [2025-12-22 Larry Johnson - Why Is the West Ignorant of Russia?](/C:/dev/strategy-codex/codex/2026/raw-input/2025-12-22/transcript-napolitano-johnson-why-is-the-west-ignorant-of-russia-2025-12-22.md)
+- [2025-11-24 Larry Johnson - 28-Point Plan Is Dead on Arrival](/C:/dev/strategy-codex/codex/2026/raw-input/2025-11-24/transcript-napolitano-johnson-28-point-plan-is-dead-on-arrival-2025-11-24.md)
 
 ## Routing use
 
@@ -43,6 +45,6 @@ Use this arc when the notebook needs:
 
 ## Boundaries
 
-- This is now a materially real December 2025-April 2026 Napolitano branch.
-- The December-through-March files are routeable but summary-grade; the April 20 file remains the strongest native opening point.
+- This is now a materially real November 2025-April 2026 Napolitano branch.
+- The November-through-March files are routeable but summary-grade; the April 20 file remains the strongest native opening point.
 - One strong April anchor does not by itself change Johnson's larger triple-helix doctrine.

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-A/B voice fidelity test: run N prompts through get_response, optionally judge with LLM, store in users/<id>/metrics/.
+A/B voice fidelity test: run N prompts through get_response, optionally judge with LLM, store in metrics/.
 
 Usage:
     OPENAI_API_KEY=... python scripts/ab_test_voice.py -u grace-mar
@@ -72,7 +72,7 @@ def main() -> int:
     ap.add_argument("-u", "--user", default="grace-mar")
     ap.add_argument("-n", "--num", type=int, default=10, help="Number of prompts (default 10)")
     ap.add_argument("--judge", action="store_true", help="Run LLM-as-judge on each reply")
-    ap.add_argument("-o", "--output", default=None, help="Output JSON path (default users/<id>/metrics/ab_voice_<date>.json)")
+    ap.add_argument("-o", "--output", default=None, help="Output JSON path (default metrics/ab_voice_<date>.json)")
     args = ap.parse_args()
     if not os.getenv("OPENAI_API_KEY"):
         print("OPENAI_API_KEY required", file=sys.stderr)

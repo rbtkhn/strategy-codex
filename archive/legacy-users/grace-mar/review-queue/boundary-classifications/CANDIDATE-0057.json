@@ -1,0 +1,21 @@
+{
+  "schemaVersion": "1.0.0",
+  "candidateId": "CANDIDATE-0057",
+  "userSlug": "grace-mar",
+  "proposalClassCurrent": "SELF_KNOWLEDGE_ADD",
+  "surfaceCurrent": "self_knowledge",
+  "surfaceSuggested": "self_library",
+  "subsurfaceSuggested": "civ_mem",
+  "boundaryStatus": "misaligned",
+  "misfiled": true,
+  "why": [
+    "civilization/history-domain vocabulary + length",
+    "Target surface is SELF-KNOWLEDGE but content suggests CIV-MEM / SELF-LIBRARY. Misfiled? Consider CIV_MEM_* or SELF_LIBRARY_* on the gate YAML, or reject."
+  ],
+  "confidenceBand": "low",
+  "confidenceScore": 0.25,
+  "createdAt": "2026-05-02T14:29:13Z",
+  "source": "recursion_gate_review",
+  "proposalClassSuggested": "CIV_MEM_ADD",
+  "artifactRelPath": "review-queue/boundary-classifications/CANDIDATE-0057.json"
+}

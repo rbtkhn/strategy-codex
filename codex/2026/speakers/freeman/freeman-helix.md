@@ -4,6 +4,8 @@ WORK only; not Record.
 
 Purpose: compact cross-host note for reading the recurring Freeman lanes together. This is not a substitute for the host-local speaker arcs. It exists so future routing can quickly answer: why these lanes belong together, what each host transforms in the Freeman voice, and where to enter the helix.
 
+For the faster speaker-side entry surface that answers **which host lane to open first**, see [freeman-routing.md](/C:/dev/strategy-codex/codex/2026/speakers/freeman/freeman-routing.md).
+
 ## Core claim
 
 The Freeman triple helix is one diplomatic-intellectual voice transformed by three hosts: Diesen gives historical altitude, Davis tests settlement realism, and Dialogue Works applies live crisis pressure.

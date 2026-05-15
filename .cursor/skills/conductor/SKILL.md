@@ -392,6 +392,8 @@ Before the **Conductor action MCQ**, surface a short **Open loops due for revisi
 
 **Operator line:** Conductor offers **four movement-labeled choices**; off-menu behavior is the refusal / park / no-action signal. When one action is clearly strongest, add one nearby line: **`Recommended default: <letter> - <one-line reason>`**. This is decision support only; it does not add another option or change refusal handling.
 
+**Compiled doctrine path:** Once a conductor line has stabilized across multiple turns, offer **compiled doctrine** as a consolidation path instead of continuing movement-by-movement. The offer should compress the settled distinction, operational rule, and next execution wedge into one durable synthesis proposal.
+
 **What:** A **header** (e.g. **Conductor action MCQ - Reply A-D for this** `bernstein` pass) and **exactly four** lines: **A. Allegro**, **B. Andante**, **C. Scherzo**, and **D. Finale**. Each option is a **discriminating**, affirmative next move: **file path** or **editing target**, **one** main **verb**, and **enough** **constraint** that **A** vs **B** vs **C** vs **D** are **not** interchangeable. Re-use letters **A-D**; **label** the block as the **Conductor Action Menu** so it is not confused with the **Coffee Hub Menu**. If the operator does anything other than choose one of the four options, record that as refusal / park / no-action rather than presenting refusal as a menu option.
 
 Movement meanings:

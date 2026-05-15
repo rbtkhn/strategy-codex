@@ -26,6 +26,7 @@ Use this note when the notebook needs to avoid either of two mistakes:
 
 ## How to read it
 
+- [freeman-routing.md](/C:/dev/strategy-codex/codex/2026/speakers/freeman/freeman-routing.md) is the fastest speaker-side routing surface
 - [freeman-helix.md](/C:/dev/strategy-codex/codex/2026/speakers/freeman/freeman-helix.md) is the canonical Freeman helix note
 - this cross-year note exists only to show that the same three host transformations are historically older than the densest 2026 shelf alone would suggest
 - the years are phase and visibility information inside the helix, not separate helix objects

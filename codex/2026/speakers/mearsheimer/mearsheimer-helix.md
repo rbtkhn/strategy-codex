@@ -4,6 +4,8 @@ WORK only; not Record.
 
 Purpose: compact cross-host note for reading the current recurring Mearsheimer lanes together. This is not a substitute for the host-local speaker arcs. It exists so future routing can quickly answer: why these lanes belong together, what each host transforms in the Mearsheimer voice, and where to enter the helix without pretending a full three-strand object already exists.
 
+For the faster speaker-side entry surface that answers **which host lane to open first**, see [mearsheimer-routing.md](/C:/dev/strategy-codex/codex/2026/speakers/mearsheimer/mearsheimer-routing.md).
+
 ## Core claim
 
 The Mearsheimer helix is currently a **double helix**: one structural-realist voice transformed by two hosts. Diesen gives order-transition and great-power altitude; Davis tests coercive failure, bargaining geometry, and war-feasibility limits.

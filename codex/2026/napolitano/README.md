@@ -5,6 +5,7 @@
 ## Shelf
 
 - Speaker object: [../speakers/napolitano/napolitano-speaker-object.md](../speakers/napolitano/napolitano-speaker-object.md)
+- Monthly book: [napolitano-book-2025-11.md](napolitano-book-2025-11.md)
 - Monthly book: [napolitano-book-2025-12.md](napolitano-book-2025-12.md)
 - Monthly book: [napolitano-book-2026-01.md](napolitano-book-2026-01.md)
 - Monthly book: [napolitano-book-2026-02.md](napolitano-book-2026-02.md)
@@ -28,6 +29,6 @@
 - elite confusion and coercive overreach
 - guest transformation under a legal-libertarian host register
 
-This Napolitano build is intentionally narrow. It currently covers December 2025 through May 2026 and only the balanced-core guest set.
+This Napolitano build is intentionally narrow. It currently covers November 2025 through May 2026 and only the balanced-core guest set.
 
 WORK only; not Record.

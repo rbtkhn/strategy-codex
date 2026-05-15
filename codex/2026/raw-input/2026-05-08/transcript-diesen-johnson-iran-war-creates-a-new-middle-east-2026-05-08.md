@@ -1,22 +1,28 @@
 ---
 ingest_date: 2026-05-08
 pub_date: 2026-05-08
-kind: transcript
+kind: cleaned-transcript
+source_type: youtube
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
 thread: diesen
 show: Glenn Diesen
 host: Glenn Diesen
 guest: Larry Johnson
+title: "Glenn Diesen with Larry Johnson on Iran War Creates a New Middle East"
 source_url: https://www.youtube.com/watch?v=ZuVeSI4FnEA
 publication: youtube.com
 slug: glenn-diesen-larry-johnson-iran-war-creates-a-new-middle-east
 capture_note: User-pasted cleaned transcript; preserve speaker labels and source wording from companion capture.
+source_note: "Operator-pasted cleaned YouTube transcript with speaker labels."
+normalization_state: proper-noun-pass
+quality_note: "Proper-noun normalization applied 2026-05-15; cleaned-transcript state reflects the operator capture note, not verbatim human verification."
 ---
 
 # Glenn Diesen with Larry Johnson on "Iran War Creates a New Middle East"
 
 **Cleaned Transcript:**
 
-**Glenn Diesen:** Welcome back. We are joined today again by Larry Johnson, a former CIA analyst and the writer at Sonar 2011. I’ve left a link in the description. It’s great to see you again, Larry.
+**Glenn Diesen:** Welcome back. We are joined today again by Larry Johnson, a former CIA analyst and the writer at Sonar21. I’ve left a link in the description. It’s great to see you again, Larry.
 
 **Larry Johnson:** Hey, always good to talk to you in person. I watch you all the time anyway, so I keep tabs on you.
 
@@ -32,7 +38,7 @@ I don’t see any inclination on the part of anyone in the Trump team to acquies
 
 From the US standpoint, they constantly portray Iran as this vicious terrorist country that is hanging homosexuals every day from cranes, beating women up in the streets if they don’t have their hair covered. All of this is lies, but the West really believes it. And on top of it, they believe that the economy is in such terrible shape in Iran that if the United States just continues to apply this pressure, Iran’s going to be forced to surrender. They’ll have no out.
 
-And on top of it, the leadership is in complete disarray. The IRGC hardliners versus Pezeshkian and others who are supposedly the moderates. This is all crap. Nobody in Washington has apparently taken the time to actually do the basic research to discover that Pezeshkian fought with the IRGC — he was a medic for the IRGC during the war with Iraq — and Araqi, he was in the IRGC, as was Ghalibaf, and the Ayatollah. So they’re all in the IRGC. Don’t give me this “they’re really at odds with each other.” That’s just ridiculous.
+And on top of it, the leadership is in complete disarray. The IRGC hardliners versus Pezeshkian and others who are supposedly the moderates. This is all crap. Nobody in Washington has apparently taken the time to actually do the basic research to discover that Pezeshkian fought with the IRGC — he was a medic for the IRGC during the war with Iraq — and Araghchi, he was in the IRGC, as was Ghalibaf, and the Ayatollah. So they’re all in the IRGC. Don’t give me this “they’re really at odds with each other.” That’s just ridiculous.
 
 On the economic front, the United States pretends, “Oh boy, we’ve got the Strait blockaded,” along with Iran having a blockade, but nothing Iranian is going to get out. Then you look up north: the Caspian Sea is open to Russia, Tashkent is quite open, Pakistan has now opened — they said the other day six, now it’s seven — seven land transportation routes into Iran to support Iran. And the largest deep-water port in the world there in Pakistan is now also receiving Iranian ships and goods.
 
@@ -50,7 +56,7 @@ So that’s what’s going on behind the scenes right now. I think that in part 
 
 It appears that they’re just going to wait until after Trump’s trip to China, if that comes off.
 
-**Glenn Diesen:** What you said about the Non-Proliferation Treaty is very important, Rob, because I don’t think everyone is quite familiar with it. The reason why it’s against international law to acquire nuclear weapons for a non-nuclear weapons state is because they have signed the Non-Proliferation Treaty. But by committing to not acquiring nuclear weapons by signing this treaty, they also have the guaranteed right to have a peaceful nuclear program.
+**Glenn Diesen:** What you said about the Non-Proliferation Treaty is very important, Larry, because I don’t think everyone is quite familiar with it. The reason why it’s against international law to acquire nuclear weapons for a non-nuclear weapons state is because they have signed the Non-Proliferation Treaty. But by committing to not acquiring nuclear weapons by signing this treaty, they also have the guaranteed right to have a peaceful nuclear program.
 
 The US is quite explicit now, though: they don’t want Iran to even have a civilian one. So in this regard, it’s the United States that’s in breach of the Non-Proliferation Treaty. That being said, the Non-Proliferation Treaty — both Article 1 and 2 — is about not stationing nuclear weapons in non-nuclear weapons states. So NATO already breached this a long time ago.
 

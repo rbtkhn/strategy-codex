@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-06T14:37:13.606168+00:00",
-  "user_id": "grace-mar",
+  "generated_at": "2026-05-15T06:07:46.184821+00:00",
+  "user_id": "strategy-codex",
   "agent_surface": {
     "cursor_model": "unknown"
   },
@@ -14,7 +14,9 @@
   "contradiction_count": 0,
   "artifact_draft_count": 0,
   "promotable_draft_count": 0,
-  "followups": [],
+  "followups": [
+    "AI frontier watch: The Innermost Loop latest - Welcome to May 14, 2026 - consider Coffee C source hygiene if relevant tomorrow"
+  ],
   "phases": {
     "recent": {
       "self_memory_changed": true,
@@ -29,19 +31,19 @@
     }
   },
   "coffee_rollup_24h": {
-    "window_start_utc": "2026-05-05T14:36:49.315740+00:00",
-    "window_end_utc": "2026-05-06T14:36:49.315740+00:00",
+    "window_start_utc": "2026-05-14T06:07:41.618312+00:00",
+    "window_end_utc": "2026-05-15T06:07:41.618312+00:00",
     "window_hours": 24.0,
-    "count": 2,
-    "first_ts": "2026-05-05T15:15:00+00:00",
-    "last_ts": "2026-05-06T14:10:00+00:00",
-    "span_hours": 22.92,
+    "count": 3,
+    "first_ts": "2026-05-14T12:37:00+00:00",
+    "last_ts": "2026-05-15T04:19:00+00:00",
+    "span_hours": 15.7,
     "by_mode": {
-      "work-start": 2
+      "work-start": 3
     },
     "runs": [
       {
-        "ts_iso": "2026-05-05T15:15:00+00:00",
+        "ts_iso": "2026-05-14T12:37:00+00:00",
         "ok": true,
         "mode": "work-start",
         "kv": {
@@ -50,7 +52,16 @@
         }
       },
       {
-        "ts_iso": "2026-05-06T14:10:00+00:00",
+        "ts_iso": "2026-05-14T23:24:00+00:00",
+        "ok": true,
+        "mode": "work-start",
+        "kv": {
+          "cursor_model": "unknown",
+          "model_tier": "unknown"
+        }
+      },
+      {
+        "ts_iso": "2026-05-15T04:19:00+00:00",
         "ok": true,
         "mode": "work-start",
         "kv": {
@@ -63,80 +74,161 @@
     "by_picked": {}
   },
   "conductor_rollup_24h": {
-    "window_start_utc": "2026-05-05T14:36:49.315740+00:00",
-    "window_end_utc": "2026-05-06T14:36:49.315740+00:00",
+    "window_start_utc": "2026-05-14T06:07:41.618312+00:00",
+    "window_end_utc": "2026-05-15T06:07:41.618312+00:00",
     "window_hours": 24.0,
     "pick_count": 0,
-    "outcome_count": 0,
-    "completed_passes": 0,
+    "outcome_count": 3,
+    "completed_passes": 3,
     "orientation_only": 0,
     "off_menu_refusals": 0,
-    "last_master": null,
-    "last_outcome": null,
-    "by_conductor": {},
+    "last_master": "kleiber",
+    "last_outcome": {
+      "ts_iso": "2026-05-15T01:48:00+00:00",
+      "kind": "outcome",
+      "conductor": "kleiber",
+      "verdict": "cognition-streams-probe-green",
+      "falsify": "If",
+      "notebook_ref": "scripts/cognition_streams_audit.py"
+    },
+    "by_conductor": {
+      "toscanini": {
+        "picks": 0,
+        "outcomes": 1,
+        "refusals": 0
+      },
+      "karajan": {
+        "picks": 0,
+        "outcomes": 1,
+        "refusals": 0
+      },
+      "kleiber": {
+        "picks": 0,
+        "outcomes": 1,
+        "refusals": 0
+      }
+    },
     "commits": [],
-    "falsifiers": [],
-    "events": [],
-    "echo": null
+    "falsifiers": [
+      "conductor-menu-added-after-task-already-complete",
+      "If",
+      "If"
+    ],
+    "events": [
+      {
+        "ts_iso": "2026-05-14T13:23:00+00:00",
+        "kind": "outcome",
+        "conductor": "toscanini",
+        "verdict": "sufficient-answer-stop",
+        "falsify": "conductor-menu-added-after-task-already-complete"
+      },
+      {
+        "ts_iso": "2026-05-14T23:50:00+00:00",
+        "kind": "outcome",
+        "conductor": "karajan",
+        "verdict": "worktree-arcs-ranked",
+        "falsify": "If",
+        "notebook_ref": "artifacts/review-packets/karajan-worktree-steward-review-2026-05-14.md"
+      },
+      {
+        "ts_iso": "2026-05-15T01:48:00+00:00",
+        "kind": "outcome",
+        "conductor": "kleiber",
+        "verdict": "cognition-streams-probe-green",
+        "falsify": "If",
+        "notebook_ref": "scripts/cognition_streams_audit.py"
+      }
+    ],
+    "echo": "kleiber carried the latest conductor line; last close: If; 3 closed pass(es)"
   },
   "execution_paths": [
     {
       "id": "today_field",
       "title": "Daily Brief (generator + watch slices; optional KY-4 intel when chosen)",
-      "first_move": "python3 scripts/operator_coffee.py -u grace-mar \u2014 then coffee menu C \u2014 Historian",
-      "stop_rule": "One slice: daily brief path opened or optional intel pass started \u2014 enough for first block.",
+      "first_move": "python3 scripts/operator_coffee.py -u strategy-codex - then coffee menu C - Strategist",
+      "stop_rule": "One slice: daily brief path opened or optional intel pass started - enough for first block.",
       "signals_used": []
     },
     {
       "id": "build",
       "title": "Build / integrate (repo + work-dev)",
-      "first_move": "python3 scripts/validate-integrity.py --user grace-mar --json",
-      "stop_rule": "Integrity passes; then optional: python3 scripts/refresh_derived_exports.py -u grace-mar",
+      "first_move": "python3 scripts/validate-integrity.py --user strategy-codex --json",
+      "stop_rule": "Integrity passes; then optional: python3 scripts/refresh_derived_exports.py -u strategy-codex",
       "signals_used": []
     },
     {
       "id": "steward",
       "title": "Steward / membrane (gate + template parity)",
-      "first_move": "Read grace-mar/recursion-gate.md; optional: python3 scripts/operator_gate_review_pass.py -u grace-mar",
-      "stop_rule": "Top 1\u20133 candidates reviewed or explicitly deferred.",
+      "first_move": "Read strategy-codex/recursion-gate.md; optional: python3 scripts/operator_gate_review_pass.py -u strategy-codex",
+      "stop_rule": "Top 1-3 candidates reviewed or explicitly deferred.",
       "signals_used": []
     }
   ],
   "suggested_execution_path_index": 0,
   "execution_path_suggestion_reason": "calendar_mod3",
-  "tomorrow_inherits": "Tomorrow inherits (hint): **Daily Brief (generator + watch slices; optional KY-4 intel when chosen)** \u2014 calendar rotation; not policy or Record.",
-  "civmem_echoes": [],
+  "tomorrow_inherits": "Tomorrow inherits (hint): **Daily Brief (generator + watch slices; optional KY-4 intel when chosen)** - calendar rotation; not policy or Record.",
+  "civmem_echoes": [
+    {
+      "path": "book\\APPLIED-THEOLOGY-INSIGHTS-MERCOURIS-LENS.md",
+      "overlap": 4,
+      "snippet_preview": "**Purpose:** Identify structural and procedural insights from CIV\u2013MIND\u2013MERCOURIS (legitimacy, delegation/format, faction persistence, time horizon, asymmetric information) that the book does not yet s",
+      "analogy_label": "Analogy candidate only \u2014 not evidence, not recommendation, not Record.",
+      "specificity_pass": true,
+      "score": 6.0
+    }
+  ],
   "civmem_disclaimer": "Analogical / historical depth from in-repo civ-mem (token overlap); not current truth, not Voice knowledge, not part of the Record.",
   "civmem_index_missing": false,
   "capture_gap": {
     "last_evidence_date": "2026-05-05",
     "last_evidence_id": "ACT-0033",
-    "days_since_evidence": 1,
+    "days_since_evidence": 10,
     "last_merge_date": "2026-05-02",
-    "days_since_merge": 4,
+    "days_since_merge": 13,
     "pending_count": 3,
-    "level": "ok",
-    "message": "Record healthy \u2014 last entry 1d ago (ACT-0033, 2026-05-05)"
+    "level": "notice",
+    "message": "Record hasn't grown in 10 days (last: ACT-0033, 2026-05-05)"
   },
   "capability_shift": {
     "category": "model",
-    "sources_checked": 6,
+    "sources_checked": 5,
     "sources_total": 6,
-    "alert_count": 12,
+    "alert_count": 6,
     "review_count": 0,
     "monitor_count": 1,
     "variant_count": 0,
-    "fetch_errors": []
+    "fetch_errors": [
+      {
+        "name": "OpenAI",
+        "error": "HTTP Error 403: Forbidden"
+      }
+    ]
+  },
+  "frontier_source_hint": {
+    "source_id": "the-innermost-loop",
+    "source_name": "The Innermost Loop",
+    "feed_url": "https://theinnermostloop.substack.com/feed",
+    "source_mode": "live_lookup",
+    "fetched_at": "2026-05-15T06:07:45.913408+00:00",
+    "status": "ok",
+    "title": "Welcome to May 14, 2026",
+    "url": "https://theinnermostloop.substack.com/p/welcome-to-may-14-2026",
+    "published_at": "2026-05-14T19:26:04+00:00",
+    "guidance": "AI frontier watch: latest The Innermost Loop post is \"Welcome to May 14, 2026\" (2026-05-14T19:26:04+00:00); decide tomorrow whether it merits Coffee C source hygiene."
   },
   "dream_catchup": {
     "semantics": "since_previous_dream",
     "timezone": "UTC",
-    "previous_dream_generated_at": "2026-05-06T06:00:15.583856+00:00",
-    "local_calendar_dates": [],
-    "strategy_notebook_missing_day_headers": []
+    "previous_dream_generated_at": null,
+    "local_calendar_dates": [
+      "2026-05-15"
+    ],
+    "strategy_notebook_missing_day_headers": [
+      "2026-05-15"
+    ]
   },
   "last_coffee_echo": {
-    "timestamp": "2026-05-06T14:10:00+00:00",
+    "timestamp": "2026-05-15T04:19:00+00:00",
     "conductor": null,
     "mode": "work-start",
     "menu_letter": null,
@@ -147,7 +239,7 @@
   "topActionReason": "calendar_mod3",
   "quietRun": false,
   "residueLedger": {
-    "must_resume": "",
+    "must_resume": "AI frontier watch: The Innermost Loop latest - Welcome to May 14, 2026 - consider Coffee C source hygiene if relevant to",
     "safe_to_drop": "",
     "blocked": "",
     "watch_later": ""

@@ -1,25 +1,25 @@
-﻿# RECURSION GATE â€” grace-mar
+# RECURSION GATE — grace-mar
 
-> Staging file for the gated profile pipeline â€” **one queue per companion, every channel.**
-> Writers include **Telegram**, **WeChat**, **operator/Cursor** (activity reports, `calibrate_from_miss`, `parse_we_did`), **Mini App** (when wired), and **test/harness** runs. Each candidate carries **`channel_key`** (e.g. `telegram:â€¦`, `operator:cursor`, `test:â€¦`) so you can see the source. **Same gate, same merge** â€” not Telegram-only.
+> Staging file for the gated profile pipeline — **one queue per companion, every channel.**
+> Writers include **Telegram**, **WeChat**, **operator/Cursor** (activity reports, `calibrate_from_miss`, `parse_we_did`), **Mini App** (when wired), and **test/harness** runs. Each candidate carries **`channel_key`** (e.g. `telegram:…`, `operator:cursor`, `test:…`) so you can see the source. **Same gate, same merge** — not Telegram-only.
 >
 > **Workflow (one gate):**
 > 1. Review each candidate below
 > 2. Change `status: pending` to `status: approved` or `status: rejected`
-> 3. Tell the assistant: **"approve"** â€” the agent immediately processes approved candidates into self.md, self-evidence.md, session-log.md, and prompt.py. No separate "process the review queue" step.
+> 3. Tell the assistant: **"approve"** — the agent immediately processes approved candidates into self.md, self-evidence.md, session-log.md, and prompt.py. No separate "process the review queue" step.
 >
 > **Merge checklist (correctness before approve):**
-> 1. **Grounded** â€” Tied to something the companion actually said or did (or artifact), not invented or world-knowledge leakage.
-> 2. **Merge-ready** â€” Would you ship this to SELF/EVIDENCE without embarrassment? If it feels like filler or duplicate IX, reject or edit.
-> 3. **No duplicate lane** â€” Same fact already in IX-A/B/C? Reject or fold into existing entry instead of piling candidates.
-> 4. **Human pass** â€” If only the analyst saw the exchange, one quick re-read of `example_from_exchange` / source lines.
-> 5. **Portability** â€” For `portable-working-identity` candidates, also check [portability review checklist](../../docs/portable-record/portability-review-checklist.md).
+> 1. **Grounded** — Tied to something the companion actually said or did (or artifact), not invented or world-knowledge leakage.
+> 2. **Merge-ready** — Would you ship this to SELF/EVIDENCE without embarrassment? If it feels like filler or duplicate IX, reject or edit.
+> 3. **No duplicate lane** — Same fact already in IX-A/B/C? Reject or fold into existing entry instead of piling candidates.
+> 4. **Human pass** — If only the analyst saw the exchange, one quick re-read of `example_from_exchange` / source lines.
+> 5. **Portability** — For `portable-working-identity` candidates, also check [portability review checklist](../../docs/portable-record/portability-review-checklist.md).
 >
 > **Review checklist** (legacy one-liner): Grounded in the exchange? No LLM inference beyond it? No contradiction with existing Record?
 >
-> **Intent (before approve â€” long agents / optimization framing):** Models optimize toward task completion; constraints must be explicit. Ask: (1) **What would I not want** even if this candidate "succeeds"? (2) **When should we stop and ask** the companion? (3) **If this conflicts with INTENT**, companion + INTENT win â€” reject or revise. See **design-notes Â§11.9** (Misalignment at the interface).
+> **Intent (before approve — long agents / optimization framing):** Models optimize toward task completion; constraints must be explicit. Ask: (1) **What would I not want** even if this candidate "succeeds"? (2) **When should we stop and ask** the companion? (3) **If this conflicts with INTENT**, companion + INTENT win — reject or revise. See **design-notes §11.9** (Misalignment at the interface).
 >
-> Machine-written by **`bot/core.py`** (Telegram, WeChat, activity reports) and by **operator scripts** that stage here â€” only edit the `status` field (and optional rejection notes).
+> Machine-written by **`bot/core.py`** (Telegram, WeChat, activity reports) and by **operator scripts** that stage here — only edit the `status` field (and optional rejection notes).
 >
 > **Territory (work-politics vs companion):** For **work-politics** candidates, set **`territory: work-politics`** or **`channel_key: operator:wap`** (optionally `operator:wap:brief-name`). Operator tools then filter: `python scripts/operator_blocker_report.py -u grace-mar --territory wap` (work-politics territory only) or `--territory companion` (Record only). Same file, different lens.
 >
@@ -29,22 +29,22 @@
 
 ## Candidate classification (Comprehension Envelope)
 
-Optional YAML keys on each `### CANDIDATE-â€¦` fenced block. **Orthogonal** to traffic **`risk_tier`** (`quick_merge_eligible` / `review_batch` / `manual_escalate` from [recursion-gate-three-tier.md](../../docs/recursion-gate-three-tier.md) and [recursion_gate_review.py](../../scripts/recursion_gate_review.py)) â€” do **not** reuse `risk_tier` for a `low`/`medium`/`high` blast-radius ladder.
+Optional YAML keys on each `### CANDIDATE-…` fenced block. **Orthogonal** to traffic **`risk_tier`** (`quick_merge_eligible` / `review_batch` / `manual_escalate` from [recursion-gate-three-tier.md](../../docs/recursion-gate-three-tier.md) and [recursion_gate_review.py](../../scripts/recursion_gate_review.py)) — do **not** reuse `risk_tier` for a `low`/`medium`/`high` blast-radius ladder.
 
 | Field | Values | Role |
 |-------|--------|------|
 | **`impact_tier`** | `low` \| `medium` \| `high` \| `boundary` | Blast radius / promotion sensitivity of **this** merge (content), not review traffic. |
 | **`envelope_class`** | `none` \| `optional` \| `required` | Whether a **Comprehension Envelope** block is omitted, recommended, or required. |
 
-**Intended pairing:** `low` â†’ `none`; `medium` â†’ `optional`; `high` or `boundary` â†’ `required`. Full vocabulary: [comprehension-envelope-gate.md](../../docs/governance/comprehension-envelope-gate.md).
+**Intended pairing:** `low` → `none`; `medium` → `optional`; `high` or `boundary` → `required`. Full vocabulary: [comprehension-envelope-gate.md](../../docs/governance/comprehension-envelope-gate.md).
 
-**Authority map (advisory):** When you can name a [surface key](../../docs/authority-map.md) for the change (e.g. `memory_governance`, `prepared_context`), run `python3 scripts/check-authority.py --surface <key> --json` for **recommended** `impact_tier`, `envelope_class`, and Reflection Gate label derived from write authority â€” not a substitute for judgment; companion may override in YAML.
+**Authority map (advisory):** When you can name a [surface key](../../docs/authority-map.md) for the change (e.g. `memory_governance`, `prepared_context`), run `python3 scripts/check-authority.py --surface <key> --json` for **recommended** `impact_tier`, `envelope_class`, and Reflection Gate label derived from write authority — not a substitute for judgment; companion may override in YAML.
 
 **Optional check:** `python3 scripts/validate_gate_comprehension_envelope.py -u grace-mar` (warns if `envelope_class: required` but envelope missing; `--strict` exits non-zero).
 
 ### Comprehension Envelope template
 
-Place **below** the closing YAML fence of the candidate block, still under the same `### CANDIDATE-â€¦` section:
+Place **below** the closing YAML fence of the candidate block, still under the same `### CANDIDATE-…` section:
 
 ```markdown
 ### Comprehension Envelope
@@ -56,30 +56,30 @@ Place **below** the closing YAML fence of the candidate block, still under the s
 - Human override applied:
 ```
 
-**Authoring:** 1â€“2 sentences per bullet; name concrete surfaces; `unknown` allowed; no motivational filler; reviewer scannable in ~30 seconds.
+**Authoring:** 1–2 sentences per bullet; name concrete surfaces; `unknown` allowed; no motivational filler; reviewer scannable in ~30 seconds.
 
 ### Examples (illustrative)
 
-Not live candidates â€” copy the shape when adding real **pending** blocks above `## Processed`.
+Not live candidates — copy the shape when adding real **pending** blocks above `## Processed`.
 
-**Example A â€” low impact, no envelope**
+**Example A — low impact, no envelope**
 
 ```yaml
 impact_tier: low
 envelope_class: none
 status: pending
-# â€¦ other required candidate keys â€¦
+# … other required candidate keys …
 ```
 
 *(No `### Comprehension Envelope` block for this class.)*
 
-**Example B â€” boundary impact, envelope required**
+**Example B — boundary impact, envelope required**
 
 ```yaml
 impact_tier: boundary
 envelope_class: required
 status: pending
-# â€¦ other required candidate keys â€¦
+# … other required candidate keys …
 ```
 
 ```markdown
@@ -103,10 +103,10 @@ status: pending
 | Gate | When (`impact_tier`) | Comprehension Envelope | v1 enforcement |
 |------|----------------------|------------------------|----------------|
 | *(none)* | `low` or unset | `envelope_class: none` typical | Fast path; no extra friction |
-| **Light Gate** | `medium` | `envelope_class: optional` (recommended) | **Advisory only** â€” no hard block if omitted early on; ~30s scan of purpose + blast radius (summary or envelope) |
+| **Light Gate** | `medium` | `envelope_class: optional` (recommended) | **Advisory only** — no hard block if omitted early on; ~30s scan of purpose + blast radius (summary or envelope) |
 | **Heavy Gate** | `high` or `boundary` | `envelope_class: required` | Envelope required; **Blast radius** and **Human override applied** bullets must be honestly filled (`unknown` ok). **Advisory-first** warnings from `validate_gate_comprehension_envelope.py`; optional `--strict` only where documented |
 
-**Dynamic Gate** (observability-driven escalation) is **not** in v1 â€” reserved for a later PR.
+**Dynamic Gate** (observability-driven escalation) is **not** in v1 — reserved for a later PR.
 
 **Optional acknowledgment (Heavy):** You may set `reflection_ack: heavy` on the candidate YAML when the companion has done an explicit Heavy Gate read (still one human approver in v1).
 
@@ -116,17 +116,19 @@ status: pending
 impact_tier: boundary
 envelope_class: required
 reflection_ack: heavy
-# â€¦ status, summary, mind_category, profile_target, suggested_entry, â€¦
+# … status, summary, mind_category, profile_target, suggested_entry, …
 ```
 
 ---
 
 ## Candidates
 
+## Processed
+
 ### CANDIDATE-0065 (IX-A - Fourth Lateran canon on Jews and public office; external source)
 
 ```yaml
-status: pending
+status: approved
 timestamp: 2026-05-05T16:57:17.7883739Z
 channel_key: operator:cursor:elicit-knowledge-self-knowledge
 proposal_class: SELF_KNOWLEDGE_ADD
@@ -161,8 +163,44 @@ prompt_addition: none
 impact_tier: low
 envelope_class: none
 ```
+### CANDIDATE-0066 (IX-A - James Madison on faction, representation, and constitutional design)
 
-## Processed
+```yaml
+status: approved
+timestamp: 2026-05-05T20:11:00Z
+channel_key: operator:cursor:elicit-knowledge-james-madison
+proposal_class: SELF_KNOWLEDGE_ADD
+source: operator - elicit knowledge receipt
+source_binding_strength: strong
+review_needed: false
+shelf_refs: [HNSRC-0107]
+quiz_receipt:
+  source_kind: primary
+  citation_label: "Madison, Writings"
+  visible_prompt: "In James Madison's constitutional thinking, what problem does representation and institutional design solve?"
+  stem_topic: "Madison on faction, representation, and constitutional design"
+  selected_answer: "Madison's design seeks to resist factional domination while preserving political legitimacy through representation and a large republic."
+  correct_answer: "Madison's design seeks to resist factional domination while preserving political legitimacy through representation and a large republic."
+  validation_note: "Companion's open-ended synthesis captured the intended Madison paradox across Federalist 10 and 51."
+  staged_claim: "Knows: Madison's constitutional project was to design institutions that preserve legitimacy through representation while checking faction through separation of powers and an extended republic."
+source_exchange:
+  operator: |
+    Elicit knowledge round on James Madison.
+    Visible MCQ prompt used academic prose and did not expose internal shelf ids.
+    Companion answered all six MCQs correctly and supplied the synthesis that Madison's institutional design must resist factionalism while also gaining political legitimacy through representation.
+mind_category: knowledge
+signal_type: operator_quiz_validated
+priority_score: 4
+summary: "IX-A: Madison on faction, representation, and constitutional design"
+convergence: first
+profile_target: IX-A. KNOWLEDGE
+suggested_entry: "Knows: Madison's constitutional project was to design institutions that preserve legitimacy through representation while checking faction through separation of powers and an extended republic."
+warrant: "Keep the claim tied to Madison's institutional design rather than generalizing it into a broader founding-era slogan."
+prompt_section: YOUR KNOWLEDGE
+prompt_addition: none
+impact_tier: low
+envelope_class: none
+```
 
 ### CANDIDATE-0058 (IX-A - Clausewitz on war as policy; bookshelf MCQ)
 
@@ -1044,16 +1082,16 @@ impact_tier: low
 envelope_class: none
 ```
 
-### CANDIDATE-0038 (IX-A â€” Washington Commander in Chief June 1775; bookshelf MCQ Washington)
+### CANDIDATE-0038 (IX-A — Washington Commander in Chief June 1775; bookshelf MCQ Washington)
 
 ```yaml
 status: approved
 timestamp: 2026-04-27 14:00:00
 channel_key: operator:cursor:bookshelf-mcq-washington
-source: operator â€” George Washington factual MCQ; validated Q1
+source: operator — George Washington factual MCQ; validated Q1
 source_exchange:
   operator: |
-    Anchor: Second Continental Congress, June 1775 â€” Commander in Chief appointment.
+    Anchor: Second Continental Congress, June 1775 — Commander in Chief appointment.
     Companion matched standard account (Washington commissioned commander of Continental Army).
     Evidence: HNSRC-0109 (Washington: Writings, Library of America).
 mind_category: knowledge
@@ -1062,24 +1100,24 @@ priority_score: 5
 summary: "IX-A: Washington as Commander in Chief of the Continental Army (June 1775)"
 convergence: first
 profile_target: IX-A. KNOWLEDGE
-suggested_entry: "Knows: the Second Continental Congress appointed George Washington Commander in Chief of the Continental Army in June 1775 after open war had begun in Massachusettsâ€”standard Revolutionary narrative anchor on shelf (HNSRC-0109)."
+suggested_entry: "Knows: the Second Continental Congress appointed George Washington Commander in Chief of the Continental Army in June 1775 after open war had begun in Massachusetts—standard Revolutionary narrative anchor on shelf (HNSRC-0109)."
 warrant: "Revisit if I relocate commissioning facts away from June 1775 or drop the LOA Washington row as evidence for this claim."
 prompt_section: YOUR KNOWLEDGE
 prompt_addition: none
 impact_tier: low
 envelope_class: none
 ```
-### CANDIDATE-0039 (IX-A â€” Delaware / Trenton Dec 1776; bookshelf MCQ Washington)
+### CANDIDATE-0039 (IX-A — Delaware / Trenton Dec 1776; bookshelf MCQ Washington)
 
 ```yaml
 status: approved
 timestamp: 2026-04-27 14:00:00
 channel_key: operator:cursor:bookshelf-mcq-washington
-source: operator â€” George Washington factual MCQ; validated Q2
+source: operator — George Washington factual MCQ; validated Q2
 source_exchange:
   operator: |
-    Anchor: Delaware crossing, December 1776 â€” Trenton assault.
-    Companion matched standard linkage (crossing â†’ surprise attack on Trenton, Dec. 26, 1776).
+    Anchor: Delaware crossing, December 1776 — Trenton assault.
+    Companion matched standard linkage (crossing → surprise attack on Trenton, Dec. 26, 1776).
     Evidence: HNSRC-0109.
 mind_category: knowledge
 signal_type: operator_quiz_validated
@@ -1087,23 +1125,23 @@ priority_score: 5
 summary: "IX-A: Delaware crossing tied to Trenton (Dec. 1776) in textbook Revolutionary narrative"
 convergence: first
 profile_target: IX-A. KNOWLEDGE
-suggested_entry: "Knows: Washingtonâ€™s Christmas-night Delaware crossing is paired in survey accounts with the surprise attack on Trenton (Dec. 26, 1776)â€”turning-point framing for the New Jersey campaign on shelf (HNSRC-0109)."
+suggested_entry: "Knows: Washington’s Christmas-night Delaware crossing is paired in survey accounts with the surprise attack on Trenton (Dec. 26, 1776)—turning-point framing for the New Jersey campaign on shelf (HNSRC-0109)."
 warrant: "Revisit if I decouple the crossing from Trenton in my mental map or stop anchoring this arc to HNSRC-0109."
 prompt_section: YOUR KNOWLEDGE
 prompt_addition: none
 impact_tier: low
 envelope_class: none
 ```
-### CANDIDATE-0040 (IX-A â€” Constitutional Convention president 1787; bookshelf MCQ Washington)
+### CANDIDATE-0040 (IX-A — Constitutional Convention president 1787; bookshelf MCQ Washington)
 
 ```yaml
 status: approved
 timestamp: 2026-04-27 14:00:00
 channel_key: operator:cursor:bookshelf-mcq-washington
-source: operator â€” George Washington factual MCQ; validated Q3
+source: operator — George Washington factual MCQ; validated Q3
 source_exchange:
   operator: |
-    Anchor: Philadelphia Constitutional Convention, 1787 â€” presiding officer.
+    Anchor: Philadelphia Constitutional Convention, 1787 — presiding officer.
     Companion matched standard account (Washington president of the Convention).
     Evidence: HNSRC-0109.
 mind_category: knowledge
@@ -1112,23 +1150,23 @@ priority_score: 5
 summary: "IX-A: Washington as President of the Constitutional Convention (1787)"
 convergence: first
 profile_target: IX-A. KNOWLEDGE
-suggested_entry: "Knows: George Washington presided over the Philadelphia Constitutional Convention of 1787 as its presidentâ€”chief ceremonial/unifying role emphasized in textbooks alongside substantive drafting debates on shelf (HNSRC-0109)."
-warrant: "Revisit if I attribute primary drafting authorship to Washington or fold this into generic â€˜foundingâ€™ without his chair role."
+suggested_entry: "Knows: George Washington presided over the Philadelphia Constitutional Convention of 1787 as its president—chief ceremonial/unifying role emphasized in textbooks alongside substantive drafting debates on shelf (HNSRC-0109)."
+warrant: "Revisit if I attribute primary drafting authorship to Washington or fold this into generic ‘founding’ without his chair role."
 prompt_section: YOUR KNOWLEDGE
 prompt_addition: none
 impact_tier: low
 envelope_class: none
 ```
-### CANDIDATE-0041 (IX-A â€” Farewell Address 1796; bookshelf MCQ Washington)
+### CANDIDATE-0041 (IX-A — Farewell Address 1796; bookshelf MCQ Washington)
 
 ```yaml
 status: approved
 timestamp: 2026-04-27 14:00:00
 channel_key: operator:cursor:bookshelf-mcq-washington
-source: operator â€” George Washington factual MCQ; validated Q5
+source: operator — George Washington factual MCQ; validated Q5
 source_exchange:
   operator: |
-    Anchor: Farewell Address, 1796 â€” faction and foreign-alliance warnings.
+    Anchor: Farewell Address, 1796 — faction and foreign-alliance warnings.
     Companion matched standard pairing (faction spirit / permanent entanglements).
     Evidence: HNSRC-0109.
 mind_category: knowledge
@@ -1137,7 +1175,7 @@ priority_score: 5
 summary: "IX-A: Farewell Address warnings on faction and permanent foreign ties"
 convergence: first
 profile_target: IX-A. KNOWLEDGE
-suggested_entry: "Knows: Washingtonâ€™s Farewell Address (1796) prominently warns against factional excess and permanent foreign entanglements while stressing national unityâ€”canonical textbook pairing on shelf (HNSRC-0109)."
+suggested_entry: "Knows: Washington’s Farewell Address (1796) prominently warns against factional excess and permanent foreign entanglements while stressing national unity—canonical textbook pairing on shelf (HNSRC-0109)."
 warrant: "Revisit if I flatten the Address into generic patriotism without faction/alliance tension or stop citing HNSRC-0109 for this speech cluster."
 prompt_section: YOUR KNOWLEDGE
 prompt_addition: none
@@ -1145,25 +1183,25 @@ impact_tier: low
 envelope_class: none
 ```
 
-### CANDIDATE-0031 (IX-C â€” remove PERS-004; cadence stays WORK-only)
+### CANDIDATE-0031 (IX-C — remove PERS-004; cadence stays WORK-only)
 
 ```yaml
 proposal_class: RUNTIME_OBSERVATION_PROPOSAL
 status: approved
 timestamp: 2026-04-24 18:45:00
 channel_key: operator:cursor:cadence-boundary-ix-c
-source: operator â€” cursor session (Record boundary)
+source: operator — cursor session (Record boundary)
 mind_category: personality
 signal_type: operator_directive
 profile_target: IX-C. PERSONALITY
 priority_score: 4
-summary: "IX-C: delete PERS-004 â€” work rhythm / cadence belongs in skill-work + work-dev, not Record"
+summary: "IX-C: delete PERS-004 — work rhythm / cadence belongs in skill-work + work-dev, not Record"
 target_surface: SELF_IX_C
 target_path: self.md
 proposed_change: |
   In self.md IX-C `entries`, remove the entire list item with id PERS-004
-  ("Work rhythm â€” punctuated resets" / coffee / thanks / dream wording).
-  Do not replace it with another IX-C row for cadence â€” ritual choices, frequencies, and
+  ("Work rhythm — punctuated resets" / coffee / thanks / dream wording).
+  Do not replace it with another IX-C row for cadence — ritual choices, frequencies, and
   work-cadence-events.md telemetry stay under docs/skill-work/work-cadence/, work-coffee/,
   .cursor/skills (coffee, dream, bridge, conductor, thanks), and work-dev scripts (see
   docs/skill-work/work-dev/ for runners and logging).
@@ -1179,13 +1217,13 @@ source_exchange:
     Operator: keep cadence only in work; remove PERS-004 from Record on approve.
 ```
 
-### CANDIDATE-0025 (IX-A fact â€” U.S. constitutional order from founding canon)
+### CANDIDATE-0025 (IX-A fact — U.S. constitutional order from founding canon)
 
 ```yaml
 status: approved
 timestamp: 2026-04-26 10:00:00
 channel_key: operator:cursor:bookshelf-ix-a
-source: operator â€” manual merge-ready candidate (A)
+source: operator — manual merge-ready candidate (A)
 source_exchange:
   operator: |
     Knowledge claim (not methodology): the companion affirms a stable, testable set of U.S. constitutional facts/patterns
@@ -1198,22 +1236,22 @@ priority_score: 5
 summary: "IX-A: U.S. separation of powers, federalism, and Great Compromise (founding shelf)"
 convergence: first
 profile_target: IX-A. KNOWLEDGE
-suggested_entry: "Knows: the U.S. order combines separated federal powers, bicameralism, and a federalist division of authority; the Connecticut Compromise (Great Compromise) created dual representation; Federalist 10/51 classically argue the extended-republic and checks design against factional domination. Evidence: HNSRC-0087â€“HNSRC-0094."
+suggested_entry: "Knows: the U.S. order combines separated federal powers, bicameralism, and a federalist division of authority; the Connecticut Compromise (Great Compromise) created dual representation; Federalist 10/51 classically argue the extended-republic and checks design against factional domination. Evidence: HNSRC-0087–HNSRC-0094."
 warrant: "Revisit if I materially stop treating this founding canon as my reference set for U.S. constitutional questions."
 prompt_section: YOUR KNOWLEDGE
 prompt_addition: none
 ```
-### CANDIDATE-0026 (IX-A fact â€” American literary-historical canon via Library of America set)
+### CANDIDATE-0026 (IX-A fact — American literary-historical canon via Library of America set)
 
 ```yaml
 status: approved
 timestamp: 2026-04-26 10:00:00
 channel_key: operator:cursor:bookshelf-ix-a
-source: operator â€” manual merge-ready candidate (A)
+source: operator — manual merge-ready candidate (A)
 source_exchange:
   operator: |
     Knowledge claim: the LOA-anchored shelf set supports an internal map of the American story through primary narrative-historical
-    texts, not a statement about curation as a "method" â€” it is the substantive canon the companion is reading.
+    texts, not a statement about curation as a "method" — it is the substantive canon the companion is reading.
 
     Evidence: HNSRC-0101, HNSRC-0102, HNSRC-0103, HNSRC-0104, HNSRC-0105, HNSRC-0106, HNSRC-0107, HNSRC-0108
 mind_category: knowledge
@@ -1222,20 +1260,20 @@ priority_score: 5
 summary: "IX-A: American narrative-historical LOA set as reference canon (not a method claim)"
 convergence: first
 profile_target: IX-A. KNOWLEDGE
-suggested_entry: "Knows: the Library-of-America-anchored shelf is my primary American narrative-historical reference spine (HNSRC-0101â€“HNSRC-0108), used as canonical primary-text support for U.S. cultural and political history, distinct from the founding-law cluster (HNSRC-0087â€“HNSRC-0094)."
+suggested_entry: "Knows: the Library-of-America-anchored shelf is my primary American narrative-historical reference spine (HNSRC-0101–HNSRC-0108), used as canonical primary-text support for U.S. cultural and political history, distinct from the founding-law cluster (HNSRC-0087–HNSRC-0094)."
 warrant: "Revisit if the LOA-anchored shelf is materially re-sorted or deprioritized as my American narrative spine."
 prompt_section: YOUR KNOWLEDGE
 prompt_addition: none
 ```
 
-### CANDIDATE-0022 (Bookshelf MCQ claim â€” biography as primary pattern extrâ€¦)
+### CANDIDATE-0022 (Bookshelf MCQ claim — biography as primary pattern extr…)
 
 ```yaml
 status: rejected
 reason: "methodology-leaning (extraction channel) vs knowledge fact/pattern; superseded if replaced by fact-first biography cluster"
 timestamp: 2026-04-26 02:50:06
 channel_key: operator:cursor:stage-paste
-source: operator â€” scripts/stage_gate_candidate.py
+source: operator — scripts/stage_gate_candidate.py
 source_exchange:
   operator: |
     MCQ round source: Library-Bookshelf -> Recursion-Gate MCQ (2026-04-25)
@@ -1255,7 +1293,7 @@ source_exchange:
 mind_category: knowledge
 signal_type: operator_paste
 priority_score: 3
-summary: "Bookshelf MCQ claim â€” biography as primary pattern extractor"
+summary: "Bookshelf MCQ claim — biography as primary pattern extractor"
 convergence: recurring
 convergence_prior: CANDIDATE-0019, CANDIDATE-0020, CANDIDATE-0021
 profile_target: IX-A. KNOWLEDGE
@@ -1264,14 +1302,14 @@ prompt_section: YOUR KNOWLEDGE
 prompt_addition: none
 ```
 
-### CANDIDATE-0021 (Bookshelf MCQ claim â€” America as enduring analytic lens)
+### CANDIDATE-0021 (Bookshelf MCQ claim — America as enduring analytic lens)
 
 ```yaml
 status: rejected
 reason: "superseded by CANDIDATE-0025 (concrete U.S. constitutional facts + evidence)"
 timestamp: 2026-04-26 02:50:01
 channel_key: operator:cursor:stage-paste
-source: operator â€” scripts/stage_gate_candidate.py
+source: operator — scripts/stage_gate_candidate.py
 source_exchange:
   operator: |
     MCQ round source: Library-Bookshelf -> Recursion-Gate MCQ (2026-04-25)
@@ -1291,7 +1329,7 @@ source_exchange:
 mind_category: knowledge
 signal_type: operator_paste
 priority_score: 3
-summary: "Bookshelf MCQ claim â€” America as enduring analytic lens"
+summary: "Bookshelf MCQ claim — America as enduring analytic lens"
 convergence: recurring
 convergence_prior: CANDIDATE-0019, CANDIDATE-0020
 profile_target: IX-A. KNOWLEDGE
@@ -1300,14 +1338,14 @@ prompt_section: YOUR KNOWLEDGE
 prompt_addition: none
 ```
 
-### CANDIDATE-0020 (Bookshelf membrane claim draft â€” Library of America lens)
+### CANDIDATE-0020 (Bookshelf membrane claim draft — Library of America lens)
 
 ```yaml
 status: rejected
-reason: "superseded â€” placeholder suggested_entry; LOA phrasing was too meta without concrete IX line"
+reason: "superseded — placeholder suggested_entry; LOA phrasing was too meta without concrete IX line"
 timestamp: 2026-04-26 02:43:05
 channel_key: operator:cursor:stage-paste
-source: operator â€” scripts/stage_gate_candidate.py
+source: operator — scripts/stage_gate_candidate.py
 source_exchange:
   operator: |
     Membrane source: docs/skill-work/work-strategy/history-notebook/research/BOOKSHELF-MEMBRANE-CANDIDATE-DRAFTS.md
@@ -1318,7 +1356,7 @@ source_exchange:
 mind_category: curiosity
 signal_type: operator_paste
 priority_score: 3
-summary: "Bookshelf membrane claim draft â€” Library of America lens"
+summary: "Bookshelf membrane claim draft — Library of America lens"
 convergence: recurring
 convergence_prior: CANDIDATE-0019
 profile_target: IX-A. KNOWLEDGE
@@ -1327,14 +1365,14 @@ prompt_section: YOUR KNOWLEDGE
 prompt_addition: none
 ```
 
-### CANDIDATE-0019 (Bookshelf membrane claim draft â€” America lens)
+### CANDIDATE-0019 (Bookshelf membrane claim draft — America lens)
 
 ```yaml
 status: rejected
-reason: "superseded â€” placeholder suggested_entry; membrane framing mixed methodology/IX mapping"
+reason: "superseded — placeholder suggested_entry; membrane framing mixed methodology/IX mapping"
 timestamp: 2026-04-26 02:43:00
 channel_key: operator:cursor:stage-paste
-source: operator â€” scripts/stage_gate_candidate.py
+source: operator — scripts/stage_gate_candidate.py
 source_exchange:
   operator: |
     Membrane source: docs/skill-work/work-strategy/history-notebook/research/BOOKSHELF-MEMBRANE-CANDIDATE-DRAFTS.md
@@ -1345,7 +1383,7 @@ source_exchange:
 mind_category: curiosity
 signal_type: operator_paste
 priority_score: 3
-summary: "Bookshelf membrane claim draft â€” America lens"
+summary: "Bookshelf membrane claim draft — America lens"
 convergence: first
 profile_target: IX-A. KNOWLEDGE
 suggested_entry: "See source_exchange.operator (staged paste)."
@@ -1353,16 +1391,16 @@ prompt_section: YOUR KNOWLEDGE
 prompt_addition: none
 ```
 
-### CANDIDATE-0030 (Competence claim â€” Decolonization dynamics and post-colâ€¦)
+### CANDIDATE-0030 (Competence claim — Decolonization dynamics and post-col…)
 
 ```yaml
 status: approved
 timestamp: 2026-04-26 05:02:49
 channel_key: operator:cursor:stage-paste
-source: operator â€” scripts/stage_gate_candidate.py
+source: operator — scripts/stage_gate_candidate.py
 source_exchange:
   operator: |
-    MCQ source: New Region Set â€” Ottoman, Qing, WWI, Decolonization (2026-04-25)
+    MCQ source: New Region Set — Ottoman, Qing, WWI, Decolonization (2026-04-25)
     Performance basis:
     - Correct: decol_1 (decolonization interaction pattern)
     - Correct: decol_2 (post-colonial fragility mechanism)
@@ -1375,7 +1413,7 @@ source_exchange:
 mind_category: knowledge
 signal_type: operator_paste
 priority_score: 3
-summary: "Competence claim â€” Decolonization dynamics and post-colonial fragility"
+summary: "Competence claim — Decolonization dynamics and post-colonial fragility"
 convergence: recurring
 convergence_prior: CANDIDATE-0026, CANDIDATE-0019, CANDIDATE-0020, CANDIDATE-0021, CANDIDATE-0022, CANDIDATE-0027, CANDIDATE-0028, CANDIDATE-0029, CANDIDATE-0024, CANDIDATE-0023
 profile_target: IX-A. KNOWLEDGE
@@ -1384,16 +1422,16 @@ prompt_section: YOUR KNOWLEDGE
 prompt_addition: none
 ```
 
-### CANDIDATE-0029 (Competence claim â€” WWI escalation and trench stalemateâ€¦)
+### CANDIDATE-0029 (Competence claim — WWI escalation and trench stalemate…)
 
 ```yaml
 status: approved
 timestamp: 2026-04-26 05:02:48
 channel_key: operator:cursor:stage-paste
-source: operator â€” scripts/stage_gate_candidate.py
+source: operator — scripts/stage_gate_candidate.py
 source_exchange:
   operator: |
-    MCQ source: New Region Set â€” Ottoman, Qing, WWI, Decolonization (2026-04-25)
+    MCQ source: New Region Set — Ottoman, Qing, WWI, Decolonization (2026-04-25)
     Performance basis:
     - Correct: ww1_1 (July Crisis escalation mechanism)
     - Correct: ww1_2 (Western Front stalemate condition)
@@ -1406,7 +1444,7 @@ source_exchange:
 mind_category: knowledge
 signal_type: operator_paste
 priority_score: 3
-summary: "Competence claim â€” WWI escalation and trench stalemate mechanisms"
+summary: "Competence claim — WWI escalation and trench stalemate mechanisms"
 convergence: recurring
 convergence_prior: CANDIDATE-0026, CANDIDATE-0019, CANDIDATE-0020, CANDIDATE-0021, CANDIDATE-0022, CANDIDATE-0027, CANDIDATE-0028, CANDIDATE-0024, CANDIDATE-0023
 profile_target: IX-A. KNOWLEDGE
@@ -1415,16 +1453,16 @@ prompt_section: YOUR KNOWLEDGE
 prompt_addition: none
 ```
 
-### CANDIDATE-0028 (Competence claim â€” Late Qing strain and Self-Strengthenâ€¦)
+### CANDIDATE-0028 (Competence claim — Late Qing strain and Self-Strengthen…)
 
 ```yaml
 status: approved
 timestamp: 2026-04-26 05:02:48
 channel_key: operator:cursor:stage-paste
-source: operator â€” scripts/stage_gate_candidate.py
+source: operator — scripts/stage_gate_candidate.py
 source_exchange:
   operator: |
-    MCQ source: New Region Set â€” Ottoman, Qing, WWI, Decolonization (2026-04-25)
+    MCQ source: New Region Set — Ottoman, Qing, WWI, Decolonization (2026-04-25)
     Performance basis:
     - Correct: qing_1 (late Qing structural challenge)
     - Correct: qing_2 (Self-Strengthening framing)
@@ -1437,7 +1475,7 @@ source_exchange:
 mind_category: knowledge
 signal_type: operator_paste
 priority_score: 3
-summary: "Competence claim â€” Late Qing strain and Self-Strengthening limits"
+summary: "Competence claim — Late Qing strain and Self-Strengthening limits"
 convergence: recurring
 convergence_prior: CANDIDATE-0026, CANDIDATE-0019, CANDIDATE-0020, CANDIDATE-0021, CANDIDATE-0022, CANDIDATE-0027, CANDIDATE-0024, CANDIDATE-0023
 profile_target: IX-A. KNOWLEDGE
@@ -1446,16 +1484,16 @@ prompt_section: YOUR KNOWLEDGE
 prompt_addition: none
 ```
 
-### CANDIDATE-0027 (Competence claim â€” Ottoman durability and Tanzimat refoâ€¦)
+### CANDIDATE-0027 (Competence claim — Ottoman durability and Tanzimat refo…)
 
 ```yaml
 status: approved
 timestamp: 2026-04-26 05:02:48
 channel_key: operator:cursor:stage-paste
-source: operator â€” scripts/stage_gate_candidate.py
+source: operator — scripts/stage_gate_candidate.py
 source_exchange:
   operator: |
-    MCQ source: New Region Set â€” Ottoman, Qing, WWI, Decolonization (2026-04-25)
+    MCQ source: New Region Set — Ottoman, Qing, WWI, Decolonization (2026-04-25)
     Performance basis:
     - Correct: ottoman_1 (durability mechanism)
     - Correct: ottoman_2 (Tanzimat characterization)
@@ -1468,7 +1506,7 @@ source_exchange:
 mind_category: knowledge
 signal_type: operator_paste
 priority_score: 3
-summary: "Competence claim â€” Ottoman durability and Tanzimat reform constraints"
+summary: "Competence claim — Ottoman durability and Tanzimat reform constraints"
 convergence: recurring
 convergence_prior: CANDIDATE-0026, CANDIDATE-0019, CANDIDATE-0020, CANDIDATE-0021, CANDIDATE-0022, CANDIDATE-0024, CANDIDATE-0023
 profile_target: IX-A. KNOWLEDGE
@@ -1477,13 +1515,13 @@ prompt_section: YOUR KNOWLEDGE
 prompt_addition: none
 ```
 
-### CANDIDATE-0024 (Competence claim â€” Russian center-periphery and reform-â€¦)
+### CANDIDATE-0024 (Competence claim — Russian center-periphery and reform-…)
 
 ```yaml
 status: approved
 timestamp: 2026-04-26 04:46:14
 channel_key: operator:cursor:stage-paste
-source: operator â€” scripts/stage_gate_candidate.py
+source: operator — scripts/stage_gate_candidate.py
 source_exchange:
   operator: |
     MCQ source: Historical Knowledge Check (topic-anchored + advanced round, 2026-04-25)
@@ -1503,7 +1541,7 @@ source_exchange:
 mind_category: knowledge
 signal_type: operator_paste
 priority_score: 3
-summary: "Competence claim â€” Russian center-periphery and reform-era constraints"
+summary: "Competence claim — Russian center-periphery and reform-era constraints"
 convergence: recurring
 convergence_prior: CANDIDATE-0022, CANDIDATE-0023
 profile_target: IX-A. KNOWLEDGE
@@ -1512,13 +1550,13 @@ prompt_section: YOUR KNOWLEDGE
 prompt_addition: none
 ```
 
-### CANDIDATE-0023 (Competence claim â€” Roman constitutional durability andâ€¦)
+### CANDIDATE-0023 (Competence claim — Roman constitutional durability and…)
 
 ```yaml
 status: approved
 timestamp: 2026-04-26 04:46:09
 channel_key: operator:cursor:stage-paste
-source: operator â€” scripts/stage_gate_candidate.py
+source: operator — scripts/stage_gate_candidate.py
 source_exchange:
   operator: |
     MCQ source: Historical Knowledge Check (topic-anchored + advanced round, 2026-04-25)
@@ -1539,7 +1577,7 @@ source_exchange:
 mind_category: knowledge
 signal_type: operator_paste
 priority_score: 3
-summary: "Competence claim â€” Roman constitutional durability and succession dynamics"
+summary: "Competence claim — Roman constitutional durability and succession dynamics"
 convergence: recurring
 convergence_prior: CANDIDATE-0022
 profile_target: IX-A. KNOWLEDGE
@@ -1548,15 +1586,15 @@ prompt_section: YOUR KNOWLEDGE
 prompt_addition: none
 ```
 
-### CANDIDATE-0014 through CANDIDATE-0018 â€” rejected 2026-04-17
+### CANDIDATE-0014 through CANDIDATE-0018 — rejected 2026-04-17
 
 ```yaml
 profile_target: IX-A. KNOWLEDGE
 status: rejected
-reason: "Operator deferred all IX-A population â€” will seed knowledge entries in a future session"
+reason: "Operator deferred all IX-A population — will seed knowledge entries in a future session"
 ```
 
-### CANDIDATE-0007 â€” approved 2026-04-17
+### CANDIDATE-0007 — approved 2026-04-17
 
 ```yaml
 mind_category: curiosity
@@ -1569,7 +1607,7 @@ summary: "Geopolitics and international relations"
 merged_as: CUR-0001
 ```
 
-### CANDIDATE-0008 â€” approved 2026-04-17
+### CANDIDATE-0008 — approved 2026-04-17
 
 ```yaml
 mind_category: curiosity
@@ -1577,12 +1615,12 @@ signal_type: lane_engagement
 profile_target: IX-B. CURIOSITY
 status: approved
 channel_key: operator:cursor
-source: work-jiang.md, LIB-0149
+source: codex/predictive-history/README-operator.md, LIB-0149
 summary: "Jiang philosophy and Predictive History"
 merged_as: CUR-0002
 ```
 
-### CANDIDATE-0009 â€” approved 2026-04-17
+### CANDIDATE-0009 — approved 2026-04-17
 
 ```yaml
 mind_category: curiosity
@@ -1595,7 +1633,7 @@ summary: "AI systems design and companion-self architecture"
 merged_as: CUR-0003
 ```
 
-### CANDIDATE-0010 â€” approved 2026-04-17
+### CANDIDATE-0010 — approved 2026-04-17
 
 ```yaml
 mind_category: curiosity
@@ -1608,7 +1646,7 @@ summary: "Political consulting (interest only)"
 merged_as: CUR-0004
 ```
 
-### CANDIDATE-0011 â€” approved 2026-04-17
+### CANDIDATE-0011 — approved 2026-04-17
 
 ```yaml
 mind_category: curiosity
@@ -1621,7 +1659,7 @@ summary: "Civilizational history and structured knowledge"
 merged_as: CUR-0005
 ```
 
-### CANDIDATE-0012 â€” approved 2026-04-17
+### CANDIDATE-0012 — approved 2026-04-17
 
 ```yaml
 mind_category: curiosity
@@ -1634,7 +1672,7 @@ summary: "Theology"
 merged_as: CUR-0006
 ```
 
-### CANDIDATE-0013 â€” approved 2026-04-17
+### CANDIDATE-0013 — approved 2026-04-17
 
 ```yaml
 mind_category: curiosity
@@ -1642,12 +1680,12 @@ signal_type: lane_engagement
 profile_target: IX-B. CURIOSITY
 status: approved
 channel_key: operator:cursor
-source: docs/skill-work/work-cici/README.md, work-alpha-school/README.md
+source: docs/skill-work/work-cici/README.md
 summary: "Mentoring and teaching methodology"
 merged_as: CUR-0007
 ```
 
-### CANDIDATE-0001 â€” approved 2026-04-17
+### CANDIDATE-0001 — approved 2026-04-17
 
 ```yaml
 mind_category: personality
@@ -1656,11 +1694,11 @@ profile_target: IX-C. PERSONALITY
 status: approved
 channel_key: operator:cursor
 source: docs/skill-work/work-elicitation/operator-decisions.md, operator-rhythm.md
-summary: "Cognitive style â€” evaluate-then-pick with compression"
+summary: "Cognitive style — evaluate-then-pick with compression"
 merged_as: PERS-001
 ```
 
-### CANDIDATE-0002 â€” approved 2026-04-17
+### CANDIDATE-0002 — approved 2026-04-17
 
 ```yaml
 mind_category: personality
@@ -1669,11 +1707,11 @@ profile_target: IX-C. PERSONALITY
 status: approved
 channel_key: operator:cursor
 source: docs/skill-work/work-elicitation/operator-rhythm.md, operator-decisions.md
-summary: "Interaction mode â€” short prompts, menu-driven selection"
+summary: "Interaction mode — short prompts, menu-driven selection"
 merged_as: PERS-002
 ```
 
-### CANDIDATE-0003 â€” approved 2026-04-17
+### CANDIDATE-0003 — approved 2026-04-17
 
 ```yaml
 mind_category: personality
@@ -1682,11 +1720,11 @@ profile_target: IX-C. PERSONALITY
 status: approved
 channel_key: operator:cursor
 source: docs/skill-work/work-elicitation/operator-thresholds.md
-summary: "Quality standard â€” falsifiable thesis + attributed sources + named tensions"
+summary: "Quality standard — falsifiable thesis + attributed sources + named tensions"
 merged_as: PERS-003
 ```
 
-### CANDIDATE-0004 â€” approved 2026-04-17
+### CANDIDATE-0004 — approved 2026-04-17
 
 ```yaml
 mind_category: personality
@@ -1695,11 +1733,11 @@ profile_target: IX-C. PERSONALITY
 status: approved
 channel_key: operator:cursor
 source: docs/skill-work/work-elicitation/operator-rhythm.md
-summary: "Work rhythm â€” punctuated resets"
+summary: "Work rhythm — punctuated resets"
 merged_as: PERS-004
 ```
 
-### CANDIDATE-0005 â€” approved 2026-04-17
+### CANDIDATE-0005 — approved 2026-04-17
 
 ```yaml
 mind_category: personality
@@ -1712,7 +1750,7 @@ summary: "Decision failure sensitivity"
 merged_as: PERS-005
 ```
 
-### CANDIDATE-0006 â€” approved 2026-04-17
+### CANDIDATE-0006 — approved 2026-04-17
 
 ```yaml
 mind_category: personality
@@ -1721,7 +1759,7 @@ profile_target: IX-C. PERSONALITY
 status: approved
 channel_key: operator:cursor
 source: docs/skill-work/work-elicitation/operator-frictions.md
-summary: "Friction signature â€” cold-thread context loss and premature infrastructure"
+summary: "Friction signature — cold-thread context loss and premature infrastructure"
 merged_as: PERS-006
 ```
 

@@ -1,14 +1,17 @@
 ---
 ingest_date: 2026-05-04
 pub_date: 2026-05-04
-kind: transcript
+kind: cleaned-transcript
 thread: baud
 show: Dialogue Works
 host: Nima Alkhorshid
 guest: Col. Jacques Baud
 title: "Col. Jacques Baud: Project Freedom, Hormuz blockade, and Chinese sanctions"
 source_url: https://www.youtube.com/watch?v=_GNFo2d4c2w
-source_note: Operator-cleaned transcript with speaker labels; tier analyst/opinion; not Record fact. Full transcript preserved per operator paste.
+source_type: youtube
+transcript_type: ai_assisted_operator_cleaned_transcript
+source_note: Operator-cleaned transcript with speaker labels; AI-assisted proper-noun cleanup applied; tier analyst/opinion; not Record fact. Full transcript preserved per operator paste; not human-verified verbatim.
+editorial_note: Proper nouns and obvious ASR substitutions normalized conservatively for shelf/search use; verify load-bearing claims before quotation or promotion beyond analyst tier.
 ---
 
 # Col. Jacques Baud: Project Freedom, Hormuz blockade, and Chinese sanctions
@@ -23,7 +26,7 @@ And the other point that came out just moments ago is that the Iranian army has 
 
 **Col. Jacques Baud:** Well, first of all, we have to understand that the Strait is shared between two countries. You have Iran in the northern part and Oman in the southern part. The Iranian forces have declared the southern part - the waters that are in fact Omani territorial waters - as a prohibited zone. Some say there are mines there or things like this, I'm not sure. But the many waters are considered as forbidden and the only allowed passage goes through the Iranian waters, meaning the northern part of the strait. That's one thing.
 
-That's also the reason why you had Arashi travel to Oman two weeks ago in order to discuss this issue. He went back and forth actually because he wanted also to indicate the Pakistanis between Islamabad and Muscat. Oman has behaved as a quite neutral country in this conflict although it is part of OPEC. It's also concerned by the issue of the Strait of Hormuz. Although since Oman is mainly on the Gulf of Oman part, meaning that Oman is not affected by it and it could even benefit from the blockade of the Strait of Hormuz. In any case it seems that Omanis and Iranians are in agreement on what's happening. The part which is open for traffic is controlled by Iran, meaning that it's a limited traffic. So Iran has never totally closed the traffic - it's very important to say that - but they filter the traffic.
+That's also the reason why you had Araghchi travel to Oman two weeks ago in order to discuss this issue. He went back and forth actually because he wanted also to indicate the Pakistanis between Islamabad and Muscat. Oman has behaved as a quite neutral country in this conflict although it is part of OPEC. It's also concerned by the issue of the Strait of Hormuz. Although since Oman is mainly on the Gulf of Oman part, meaning that Oman is not affected by it and it could even benefit from the blockade of the Strait of Hormuz. In any case it seems that Omanis and Iranians are in agreement on what's happening. The part which is open for traffic is controlled by Iran, meaning that it's a limited traffic. So Iran has never totally closed the traffic - it's very important to say that - but they filter the traffic.
 
 They obviously prohibit Israeli or US ships including military or naval forces to go into the Persian Gulf. But essentially there is limited freedom and limited management. That's also what you have in the agreement that was proposed a couple of days ago by Iran. It was a managed freedom of passage in the Strait of Hormuz. That's what the Iranians want. They also want to get money for the damages caused by the US and that's the rationale behind the toll which is asked for by the Iranians for those ships who enter the strait. So that's the global picture.
 
@@ -39,7 +42,7 @@ And if you want to have a stable situation on the market, you need to have some 
 
 So again this is the problem here - the management of the crisis as it has always been with Trump. He has no consistency in the way he manages things. Has no strategy. He makes tactics and tactics can change overnight and that's exactly what we have. And again I'm not sure this makes America great again. I'm not sure.
 
-**Nima Alkhorshid:** Yeah. Here is what false news reported in Iran: Iran targeted US warship with two missiles after it ignored Iran's warning. You know, Iran fired two missiles at an American patrol boat following Iran's warning. Here is what they're reporting. Do you think how desperate is the situation on the part of Donald Trump? Because we know this situation is somehow getting so confused and because militarily Donald Trump would not be able to open up this Strait of Hormuz. If that was the solution, he would have done it before. And with the case of GCC countries, they're feeling the pressure. They're feeling what's going on, but they're not even capable as well. What is the solution? Because you don't see diplomacy working with what's going on. You know, Iran just yesterday we learned about the new 14-point plan on the part of Iran which is based on the 10-point plan with some preconditions. It's not anything different from what it was before. You understand?
+**Nima Alkhorshid:** Yeah. Here is what Fars News reported in Iran: Iran targeted US warship with two missiles after it ignored Iran's warning. You know, Iran fired two missiles at an American patrol boat following Iran's warning. Here is what they're reporting. Do you think how desperate is the situation on the part of Donald Trump? Because we know this situation is somehow getting so confused and because militarily Donald Trump would not be able to open up this Strait of Hormuz. If that was the solution, he would have done it before. And with the case of GCC countries, they're feeling the pressure. They're feeling what's going on, but they're not even capable as well. What is the solution? Because you don't see diplomacy working with what's going on. You know, Iran just yesterday we learned about the new 14-point plan on the part of Iran which is based on the 10-point plan with some preconditions. It's not anything different from what it was before. You understand?
 
 **Col. Jacques Baud:** Yes. We are in a situation where we have a kind of asymmetry or maybe dissymmetry. Although the logic may be different, so I would call it asymmetry between US and Iran. And that's what the US has not understood. Iran is in an existential war but the US is not. And if you read what Donald Trump wrote just a couple of days after he received this plan from the Iranians, he said well nevertheless Iran must be punished, they haven't been punished enough for all what they have done against humanity and the world. So we are here in something that goes beyond rational.
 

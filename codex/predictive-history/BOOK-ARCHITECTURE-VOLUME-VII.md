@@ -32,7 +32,7 @@ End each Part I chapter with a boxed subsection per CHAPTER-DIVERGENCE-BOX.md �
 
 ### Part II — method TBD (Essays)
 
-**Begins after:** `es-ch35`
+**Begins after:** `es-ch36`
 
 Operator locks evaluation mode in book/VOLUME-VII-ESSAYS.md (divergence-first default for Part I boxes).
 
@@ -459,5 +459,17 @@ Operator locks evaluation mode in book/VOLUME-VII-ESSAYS.md (divergence-first de
 - **Sprint:** TBD
 - **Outline:** `chapters-volume-vii/es-ch35/outline.md`
 - **Draft:** `chapters-volume-vii/es-ch35/draft.md`
+
+### es-ch36 — The US-China Grand Bargain
+
+- **Purpose:** Book chapter for essay 36 — Volume VII Part I; divergence end-box per CHAPTER-DIVERGENCE-BOX.md (Volume VII default).
+- **Kind:** analysis
+- **Priority:** medium
+- **Target words:** 2800
+- **Status:** outline_pending
+- **Owner:** operator
+- **Sprint:** TBD
+- **Outline:** `chapters-volume-vii/es-ch36/outline.md`
+- **Draft:** `chapters-volume-vii/es-ch36/draft.md`
 
 *Generated from `metadata/book-architecture.yaml` (`volume_7_essays`) — `python scripts/work_jiang/render_book_architecture.py`.*

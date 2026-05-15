@@ -2,7 +2,7 @@
 """
 One-time / dev seed for work-politics SQLite engine (Massie KY-4 lane).
 
-Creates client + engagement + funnel row under users/<id>/work-politics/work-politics.db.
+Creates client + engagement + funnel row under work-politics/work-politics.db.
 compliance_status cleared is an operator assertion, not legal sign-off.
 
 Usage:

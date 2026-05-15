@@ -1,15 +1,21 @@
 ---
 ingest_date: 2026-05-07
 pub_date: 2026-05-07
-kind: transcript
+kind: cleaned-transcript
+source_type: youtube
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
 thread: diesen
 show: Glenn Diesen
 host: Glenn Diesen
 guest: Stanislav Krapivnik
+title: "Glenn Diesen with Stanislav Krapivnik: NATO-Russia Escalation - Another Big Step Toward Nuclear War"
 source_url: https://www.youtube.com/watch?v=ir8ZaqdhAB8
 publication: youtube.com
 slug: glenn-diesen-stanislav-krapivnik-nato-russia-escalation-nuclear-war
 capture_note: Operator paste; cleaned transcript preserved verbatim from companion capture.
+source_note: "Operator-pasted cleaned YouTube transcript with speaker labels."
+normalization_state: proper-noun-pass
+quality_note: "Proper-noun normalization applied 2026-05-15; cleaned-transcript state reflects the operator capture note, not verbatim human verification."
 ---
 
 # Glenn Diesen with Stanislav Krapivnik: NATO-Russia Escalation - Another Big Step Toward Nuclear War
@@ -74,7 +80,7 @@ These last couple strikes were more vicious especially on the Black Sea coast. T
 
 And what it is doing though is it’s accelerating Russia’s move to facilities in the east of Russia toward Asia. Basically Asia and other locations are going to be the key ports for energy. Europe, the EU anyway, has been cut off one direction or another and technical problems on the Druzhba for me is just another hit in the spleen but it’s going to hit them hard.
 
-So what the effect it does have is it further drives up the cost of oil on the market and especially the spot market and the Europeans are pretty much buying off the spot market right now. So it just makes it more expensive for them. So in supporting, as you said, they’re in lockstep no matter what damage they do themselves. The level of ignorance or self-destruction at this point is beyond any comprehension. So no matter the damage they do to themselves when they’re supporting Zelensky and Zelensky is trying to strike at that, he’s trying to strike at Urengoy and he’s trying to strike at South Stream or Turk Stream, the pumps pushing gas into southeast Europe. They’ve struck multiple times the Caspian Pipeline Authority which is 50% owned by Chevron and 50% owned by KazMunayGas, Kazakhstan’s oil company. It’s cost them something nine billion lost revenue over the last half a year. It’s huge money.
+So what the effect it does have is it further drives up the cost of oil on the market and especially the spot market and the Europeans are pretty much buying off the spot market right now. So it just makes it more expensive for them. So in supporting, as you said, they’re in lockstep no matter what damage they do themselves. The level of ignorance or self-destruction at this point is beyond any comprehension. So no matter the damage they do to themselves when they’re supporting Zelensky and Zelensky is trying to strike at that, he’s trying to strike at Urengoy and he’s trying to strike at South Stream or Turk Stream, the pumps pushing gas into southeast Europe. They’ve struck multiple times the Caspian Pipeline Consortium which is 50% owned by Chevron and 50% owned by KazMunayGas, Kazakhstan’s oil company. It’s cost them something nine billion lost revenue over the last half a year. It’s huge money.
 
 So they’re number one, they’re driving up the cost on the markets which is again going to hit Europe hardest of all. And if they do manage to damage hard enough hits and take out the Turk Stream gas line for one, it’s of course going to be a major hit on the Turkish economy. So that’s going to make the Turks just really really happy. And two, it’s going to be a major hit on the southeastern European economy. That’s the outside of LNG from the US. That’s about the only gas they have left coming in. They had been managing to piss off UAE and other countries with the third packet and everything else that they were demanding. So at this point it’s self-destruction, but they’re going for it. They can’t stop themselves.
 

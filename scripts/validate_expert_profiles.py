@@ -51,7 +51,7 @@ REQUIRED_HEADINGS = [
 RECOMMENDED_HEADINGS = [
     "Recurrent claims",
     "Predictive drift / accuracy notes",
-    "Knot-use guidance",
+    "Page-use guidance",
     "History resonance defaults",
 ]
 
@@ -191,3 +191,4 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+

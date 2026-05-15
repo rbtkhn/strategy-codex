@@ -1,7 +1,7 @@
 ---
 ingest_date: 2026-05-13
 pub_date: 2026-01-29
-kind: transcript
+kind: cleaned-transcript
 thread: davis
 show: Daniel Davis Deep Dive
 host: Daniel Davis
@@ -10,12 +10,10 @@ title: "John Mearsheimer: There's NO DECISIVE WIN for TRUMP w/IRAN"
 channel_url: "https://www.youtube.com/@DanielDavisDeepDive/videos"
 channel_slug: "daniel-davis-deep-dive"
 source_url: "https://www.youtube.com/watch?v=CBAHXNFh2mY"
-source_note: "Automated YouTube transcript fetch for Daniel Davis Deep Dive."
+source_note: "Automated YouTube transcript fetch for Daniel Davis Deep Dive, lightly cleaned for shelf use."
 ---
 # John Mearsheimer: There's NO DECISIVE WIN for TRUMP w/IRAN
 
-Kind: captions
-Language: en
 A massive armada is heading to Iran. It
 is moving quickly with great power,
 enthusiasm, and purpose. It is a larger

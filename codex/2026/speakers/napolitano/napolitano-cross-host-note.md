@@ -20,7 +20,7 @@ The native body of the object is:
 
 - [codex/2026/napolitano/README.md](/C:/dev/strategy-codex/codex/2026/napolitano/README.md)
 
-Within that shelf, the December 2025-April 2026 balanced-core guest set currently gives the clearest shape:
+Within that shelf, the November 2025-April 2026 balanced-core guest set currently gives the clearest shape:
 
 - Johnson
 - Ritter
@@ -35,6 +35,8 @@ This pass does **not** claim that every guest branch is equally mature.
 
 Current reading:
 
+- **routeable November 2025 precursors**
+  - Johnson, Ritter, Macgregor, Mearsheimer, Freeman, Wilkerson
 - **routeable December 2025 precursors**
   - Johnson, Ritter, Macgregor, Mearsheimer, Freeman, Wilkerson
 - **routeable January precursors**
@@ -54,5 +56,5 @@ Current reading:
 
 - Do not flatten the guest objects into the Napolitano object.
 - Do not treat one good Napolitano anchor as automatic helix promotion for the guest.
-- Do not overclaim December 2025, January, February, or March density where the files remain summary-grade rather than transcript-grade.
-- Do not overclaim May density from a December 2025-April 2026-heavy pass.
+- Do not overclaim November or December 2025, January, February, or March density where the files remain summary-grade rather than transcript-grade.
+- Do not overclaim May density from a November 2025-April 2026-heavy pass.

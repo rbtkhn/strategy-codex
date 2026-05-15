@@ -544,3 +544,14 @@ _(Append below this line.)_
 - **2026-05-14 13:23 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=codex model_tier=unknown conductor=toscanini verdict=sufficient-answer-stop falsify=conductor-menu-added-after-task-already-complete
 - **2026-05-14 23:24 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
 - **2026-05-14 23:50 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown verdict=worktree-arcs-ranked conductor=karajan notebook_ref=artifacts/review-packets/karajan-worktree-steward-review-2026-05-14.md falsify=If the next staged commit mixes PH corpus runtime exports protected Record surfaces or cache churn with the cici member-profile slice this hierarchy failed.
+- **2026-05-15 01:48 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown verdict=cognition-streams-probe-green conductor=kleiber notebook_ref=scripts/cognition_streams_audit.py falsify=If tests/test_cognition_streams_audit.py or tests/test_agentic_safety_work_guardrails.py fail with a fresh workspace basetemp this source-test slice is not alive enough to ship.
+- **2026-05-15 04:19 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-05-15 06:07 UTC** — dream (strategy-codex) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
+- **2026-05-15 12:21 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-05-15 12:22 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=A hub=steward
+- **2026-05-15 12:32 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=karajan focus=post-commit-ship-shape
+- **2026-05-15 12:38 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown conductor=karajan verdict=speaker-writer-shelves-shaped notebook_ref=commit:4ad3d3fa falsify=If raw-input dependencies remain uncommitted or speaker validation fails after the raw-input wave, the shelf shape is incomplete.
+- **2026-05-15 16:30 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-05-15 16:32 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=A hub=steward
+- **2026-05-15 16:35 UTC** — coffee_close (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=A outcome=partial readiness=execution_ready artifacts=self-knowledge.md loops=ship-shape-large-dirty-tree next=stage-record-split-first
+- **2026-05-15 18:37 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown

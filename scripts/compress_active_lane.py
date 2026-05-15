@@ -115,7 +115,7 @@ def build_active_lane_payload(lane: str, user_id: str, repo_root: Path) -> dict:
             break
 
     readme_rel = f"docs/skill-work/{lane_n}/README.md"
-    self_rel = f"users/{user_id}/self-work.md"
+    self_rel = f"{user_id}/self-work.md"
     sources = [readme_rel, self_rel]
     if (lane_path / "WORK-LEDGER.md").exists():
         sources.insert(1, f"docs/skill-work/{lane_n}/WORK-LEDGER.md")

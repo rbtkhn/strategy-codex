@@ -14,7 +14,7 @@ Status: EMPTY
 | **skill-write** | [skill-write.md](skill-write.md) | Production (text, analysis, writing) |
 | **skill-steward** | [skill-steward.md](skill-steward.md) | Governance literacy — gate vocabulary, chat vs Record, consent-aware review (STEWARD) |
 
-**WORK** (separate from SKILLS): [work-jiang.md](work-jiang.md) — Jiang project.
+**WORK** (separate from SKILLS): [codex/predictive-history/README-operator.md](codex/predictive-history/README-operator.md) — Jiang project.
 
 **Reference assist note:** WORK territories may use `SELF-LIBRARY` / `CIV-MEM` for governed lookup and grounding, but that remains WORK-layer execution help, not a capability claim by itself. Any durable SKILLS update still requires evidence and the usual gated process. See [docs/skills-modularity.md](../../docs/skills-modularity.md).
 

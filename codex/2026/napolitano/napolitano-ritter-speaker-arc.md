@@ -19,6 +19,7 @@ In this lane the useful transformation is:
 
 | Rank | Date | Title | Why it matters most |
 |---|---|---|---|
+| 6 | 2025-11-04 | *NATO's Ukraine Strategy Is Collapsing* | Earliest November routeable anchor. Summary-grade, but useful for collapse and command-failure framing before the later war-crime and Iran-side files. |
 | 5 | 2025-12-01 | *Did Hegseth Order Murders?* | Earliest December routeable anchor. Summary-grade, but useful for command-responsibility and state-violence framing before the 2026 escalation lane thickens. |
 | 4 | 2026-01-12 | *How Close Is Putin to Escalation?* | Earliest January routeable anchor. Summary-grade, but useful for threshold and escalation-reading before the Iran-war-specific Napolitano-side files. |
 | 3 | 2026-02-23 | *What War With Iran Will Look Like* | Earliest February routeable anchor. Summary-grade, but useful for war-shape forecasting before the March-April pressure lane thickens. |
@@ -32,6 +33,7 @@ In this lane the useful transformation is:
 - [2026-02-23 Scott Ritter - What War With Iran Will Look Like](/C:/dev/strategy-codex/codex/2026/raw-input/2026-02-23/transcript-napolitano-ritter-what-war-with-iran-will-look-like-2026-02-23.md)
 - [2026-01-12 Scott Ritter - How Close Is Putin to Escalation?](/C:/dev/strategy-codex/codex/2026/raw-input/2026-01-12/transcript-napolitano-ritter-how-close-is-putin-to-escalation-2026-01-12.md)
 - [2025-12-01 Scott Ritter - Did Hegseth Order Murders?](/C:/dev/strategy-codex/codex/2026/raw-input/2025-12-01/transcript-napolitano-ritter-did-hegseth-order-murders-2025-12-01.md)
+- [2025-11-04 Scott Ritter - NATO's Ukraine Strategy Is Collapsing](/C:/dev/strategy-codex/codex/2026/raw-input/2025-11-04/transcript-napolitano-ritter-natos-ukraine-strategy-is-collapsing-2025-11-04.md)
 
 ## Routing use
 
@@ -43,6 +45,6 @@ Use this arc when the notebook needs:
 
 ## Boundaries
 
-- This is now a materially real December 2025-April 2026 Napolitano branch.
-- The December-through-March files are routeable but summary-grade; the April 20 file remains the strongest native opening point.
+- This is now a materially real November 2025-April 2026 Napolitano branch.
+- The November-through-March files are routeable but summary-grade; the April 20 file remains the strongest native opening point.
 - One strong April anchor does not change Ritter's larger triple-helix doctrine.

@@ -9,7 +9,7 @@ whether profile changes moved Voice quality scores.
 
 Outputs:
   - Human-readable stdout summary with deltas
-  - JSON delta report to users/<id>/metrics/identity-delta-YYYY-MM-DD.json
+  - JSON delta report to metrics/identity-delta-YYYY-MM-DD.json
   - Saves current results as the new baseline
 
 Usage:

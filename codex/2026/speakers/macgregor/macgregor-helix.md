@@ -4,6 +4,8 @@ WORK only; not Record.
 
 Purpose: compact cross-host note for reading the current recurring Macgregor lanes together. This is not a substitute for the host-local speaker arcs. It exists so future routing can quickly answer: why these lanes belong together, what each host transforms in the Macgregor voice, and where to enter the helix without pretending a third canonical cognition-stream strand exists.
 
+For the faster speaker-side entry surface that answers **which host lane to open first**, see [macgregor-routing.md](/C:/dev/strategy-codex/codex/2026/speakers/macgregor/macgregor-routing.md).
+
 ## Core claim
 
 The Macgregor helix is currently a **double helix**: one hard-edged force-balance and imperial-overreach voice transformed by two hosts. Diesen gives geopolitical altitude and order consequence; Davis tests force-feasibility, political danger, and the immediate cost of delusion.

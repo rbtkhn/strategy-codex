@@ -14,6 +14,7 @@ John Mearsheimer matters here as a **structural-realist and bargaining-geometry*
 
 | Rank | Date | Title | Why it matters most |
 |---|---|---|---|
+| 6 | 2025-11-17 | *Israel's Nightmare* | Earliest November routeable anchor. Summary-grade, but useful for structural-nightmare framing before the later incoherence and Iran-side files. |
 | 5 | 2025-12-24 | *An Incoherent Foreign Policy* | Earliest December routeable anchor. Summary-grade, but useful for strategic incoherence before the 2026 foreign-war / Iran-specific files thicken. |
 | 4 | 2026-01-15 | *Foreign Wars, Domestic Crackdowns* | Earliest January routeable anchor. Summary-grade, but valuable for the foreign-war / domestic-authoritarian seam before later Iran-specific hardening. |
 | 3 | 2026-02-17 | *How Trump Has Boxed Himself Into a Corner on Iran* | Earliest February routeable anchor. Summary-grade, but valuable for diplomatic self-entrapment before the March-April defeat-accounting lane thickens. |
@@ -27,6 +28,7 @@ John Mearsheimer matters here as a **structural-realist and bargaining-geometry*
 - [2026-02-17 John Mearsheimer - How Trump Has Boxed Himself Into a Corner on Iran](/C:/dev/strategy-codex/codex/2026/raw-input/2026-02-17/transcript-napolitano-mearsheimer-how-trump-has-boxed-himself-into-a-corner-on-iran-2026-02-17.md)
 - [2026-01-15 John Mearsheimer - Foreign Wars, Domestic Crackdowns](/C:/dev/strategy-codex/codex/2026/raw-input/2026-01-15/transcript-napolitano-mearsheimer-foreign-wars-domestic-crackdowns-2026-01-15.md)
 - [2025-12-24 John Mearsheimer - An Incoherent Foreign Policy](/C:/dev/strategy-codex/codex/2026/raw-input/2025-12-24/transcript-napolitano-mearsheimer-an-incoherent-foreign-policy-2025-12-24.md)
+- [2025-11-17 John Mearsheimer - Israel's Nightmare](/C:/dev/strategy-codex/codex/2026/raw-input/2025-11-17/transcript-napolitano-mearsheimer-israels-nightmare-2025-11-17.md)
 
 ## Routing use
 
@@ -38,5 +40,5 @@ Use this arc when the notebook needs:
 
 ## Boundaries
 
-- The December 2025 through April 2026 files are routeable and on disk, but not yet clean transcript-grade primaries.
+- The November 2025 through April 2026 files are routeable and on disk, but not yet clean transcript-grade primaries.
 - This arc should be treated as real reinforcement for the Mearsheimer object, not as proof of stable triple-helix maturity.

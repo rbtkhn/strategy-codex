@@ -18,6 +18,7 @@ The restored 2025 shelf makes three things clearer:
 
 ## How to read it
 
+- [johnson-routing.md](/C:/dev/strategy-codex/codex/2026/speakers/johnson/johnson-routing.md) is the fastest speaker-side routing surface
 - [johnson-helix.md](/C:/dev/strategy-codex/codex/2026/speakers/johnson/johnson-helix.md) is the canonical Johnson helix note
 - this cross-year note exists to show that the helix was already structurally complete before the denser 2026 shelf
 - the years are phase and density information inside the helix, not separate helix objects

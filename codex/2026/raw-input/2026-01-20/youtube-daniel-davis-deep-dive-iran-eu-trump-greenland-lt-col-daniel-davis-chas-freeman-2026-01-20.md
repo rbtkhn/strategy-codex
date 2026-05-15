@@ -1,7 +1,7 @@
 ---
 ingest_date: 2026-05-13
 pub_date: 2026-01-20
-kind: transcript
+kind: cleaned-transcript
 thread: davis
 show: Daniel Davis Deep Dive
 host: Daniel Davis
@@ -10,12 +10,10 @@ title: "Iran, EU & Trump, Greenland /Lt Col Daniel Davis & Chas Freeman"
 channel_url: "https://www.youtube.com/@DanielDavisDeepDive/videos"
 channel_slug: "daniel-davis-deep-dive"
 source_url: "https://www.youtube.com/watch?v=JXeWGaFIp3k"
-source_note: "Automated YouTube transcript fetch for Daniel Davis Deep Dive."
+source_note: "Automated YouTube transcript fetch for Daniel Davis Deep Dive, lightly cleaned for shelf use."
 ---
 # Iran, EU & Trump, Greenland /Lt Col Daniel Davis & Chas Freeman
 
-Kind: captions
-Language: en
 diplomacy, the credibility of the United
 States, America first. These are all
 things that the president of the United

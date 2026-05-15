@@ -587,6 +587,38 @@ entries: []
 >   correct_answer: "B - natural rights and limited government should keep power close to the people."
 >   validation_note: "Companion selected the intended answer. Binding is strong to the Jefferson primary-source shelf anchor added for elicit knowledge."
 >   staged_claim: "Knows: Jefferson's political thought centers on natural rights, limited government, and keeping power close to the people."
+
+**[2026-05-05 14:13:46]** `APPROVED` (Operator)
+> CANDIDATE-0065 → ACT-0036
+> IX-A: Fourth Lateran canon on Jews and public office
+> warrant: Keep the claim tied to the canon's own wording rather than broadening it into a general claim about Innocent III.
+> source_binding_strength: weak
+> shelf_refs: []
+> quiz_receipt:
+> source_kind: primary
+>   citation_label: "Fourth Lateran Council canon 69"
+>   visible_prompt: "In Fourth Lateran Council canon 69, what reason does the canon give for barring Jews from public office?"
+>   stem_topic: "Pope Innocent III and public office restrictions on Jews"
+>   selected_answer: "B - the canon says Jews are hostile to Christians and should not exercise power over them."
+>   correct_answer: "B - the canon says Jews are hostile to Christians and should not exercise power over them."
+>   validation_note: "Companion selected the intended answer. Binding is external-primary rather than bookshelf-anchored, so keep review-needed."
+>   staged_claim: "Knows: Fourth Lateran Council canon 69 renews Toledo's restriction barring Jews from public office because it frames them as hostile to Christians."
+
+**[2026-05-05 14:13:46]** `APPROVED` (Operator)
+> CANDIDATE-0066 → ACT-0037
+> IX-A: Madison on faction, representation, and constitutional design
+> warrant: Keep the claim tied to Madison's institutional design rather than generalizing it into a broader founding-era slogan.
+> source_binding_strength: strong
+> shelf_refs: [HNSRC-0107]
+> quiz_receipt:
+> source_kind: primary
+>   citation_label: "Madison, Writings"
+>   visible_prompt: "In James Madison's constitutional thinking, what problem does representation and institutional design solve?"
+>   stem_topic: "Madison on faction, representation, and constitutional design"
+>   selected_answer: "Madison's design seeks to resist factional domination while preserving political legitimacy through representation and a large republic."
+>   correct_answer: "Madison's design seeks to resist factional domination while preserving political legitimacy through representation and a large republic."
+>   validation_note: "Companion's open-ended synthesis captured the intended Madison paradox across Federalist 10 and 51."
+>   staged_claim: "Knows: Madison's constitutional project was to design institutions that preserve legitimacy through representation while checking faction through separation of powers and an extended republic."
 END OF FILE — EVIDENCE grace-mar v0.2 (reseeded)
 
   - id: ACT-0001
@@ -936,5 +968,25 @@ END OF FILE — EVIDENCE grace-mar v0.2 (reseeded)
     mind_category: knowledge
     source: pipeline merge
     summary: "IX-A: Jefferson on natural rights and limited government"
+    curated_by: user
+    evidence_tier: 3
+
+  - id: ACT-0036
+    date: 2026-05-05
+    modality: text (pipeline merge)
+    activity_type: knowledge — curated observation
+    mind_category: knowledge
+    source: pipeline merge
+    summary: "IX-A: Fourth Lateran canon on Jews and public office"
+    curated_by: user
+    evidence_tier: 3
+
+  - id: ACT-0037
+    date: 2026-05-05
+    modality: text (pipeline merge)
+    activity_type: knowledge — curated observation
+    mind_category: knowledge
+    source: pipeline merge
+    summary: "IX-A: Madison on faction, representation, and constitutional design"
     curated_by: user
     evidence_tier: 3

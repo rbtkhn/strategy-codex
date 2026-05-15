@@ -14,6 +14,7 @@ Chas Freeman matters here as a **diplomatic-intellectual and settlement-pressure
 
 | Rank | Date | Title | Why it matters most |
 |---|---|---|---|
+| 6 | 2025-11-10 | *Trump: Israel or America First?* | Earliest November routeable anchor. Summary-grade, but useful for divided-sovereignty framing before the later hegemony, legitimacy, and settlement files. |
 | 5 | 2025-12-16 | *Trump and US Hegemony* | Earliest December routeable anchor. Summary-grade, but useful for hegemony-decline and lawless-power framing before the 2026 legitimacy and settlement files. |
 | 4 | 2026-01-06 | *China and Russia view Trump as a Kidnapper* | Earliest January routeable anchor. Summary-grade, but useful for sovereign-credibility and lawlessness framing before the later alliance and legitimacy files. |
 | 3 | 2026-02-24 | *Israel Pushes US into Another Endless War* | Earliest February routeable anchor. Summary-grade, but useful for alliance-driven war-extension framing before the March-April legitimacy and settlement files. |
@@ -27,6 +28,7 @@ Chas Freeman matters here as a **diplomatic-intellectual and settlement-pressure
 - [2026-02-24 Chas Freeman - Israel Pushes US into Another Endless War](/C:/dev/strategy-codex/codex/2026/raw-input/2026-02-24/transcript-napolitano-freeman-israel-pushes-us-into-another-endless-war-2026-02-24.md)
 - [2026-01-06 Chas Freeman - China and Russia view Trump as a Kidnapper](/C:/dev/strategy-codex/codex/2026/raw-input/2026-01-06/transcript-napolitano-freeman-china-and-russia-view-trump-as-a-kidnapper-2026-01-06.md)
 - [2025-12-16 Chas Freeman - Trump and US Hegemony](/C:/dev/strategy-codex/codex/2026/raw-input/2025-12-16/transcript-napolitano-freeman-trump-and-us-hegemony-2025-12-16.md)
+- [2025-11-10 Chas Freeman - Trump: Israel or America First?](/C:/dev/strategy-codex/codex/2026/raw-input/2025-11-10/transcript-napolitano-freeman-trump-israel-or-america-first-2025-11-10.md)
 
 ## Routing use
 
@@ -38,5 +40,5 @@ Use this arc when the notebook needs:
 
 ## Boundaries
 
-- The December 2025 through April 2026 files are routeable and on disk, but not yet clean transcript-grade primaries.
+- The November 2025 through April 2026 files are routeable and on disk, but not yet clean transcript-grade primaries.
 - This arc reinforces Freeman's existing object rather than changing the larger Freeman triple-helix doctrine.

@@ -695,11 +695,13 @@ def build_quality_artifacts(*, raw_paths: list[Path], notebook_root: Path) -> di
         raw_paths,
         notebook_root=notebook_root,
         output_root=DEFAULT_HOST_QUALITY_OUT,
+        expand_to_month=True,
     )
     if not summaries:
         return {}
     return {
         "host_quality_count": str(len(summaries)),
+        "host_quality_scope": "full-host-month",
         "host_quality_reports": " | ".join(str(summary["json_path"]) for summary in summaries),
         "host_quality_markdown": " | ".join(str(summary["markdown_path"]) for summary in summaries),
         "host_quality_closeout": " || ".join(str(summary["closeout_line"]) for summary in summaries),
@@ -752,6 +754,8 @@ def write_capture_summary(
         f"- unresolved speaker captures: `{unresolved_count}`",
     ]
     if artifact_paths.get("host_quality_closeout"):
+        if artifact_paths.get("host_quality_scope"):
+            lines.append(f"- quality scope: `{artifact_paths['host_quality_scope']}`")
         lines.append(f"- quality closeout: {artifact_paths['host_quality_closeout']}")
     for status, count in sorted(counts.items()):
         lines.append(f"- {status}: `{count}`")

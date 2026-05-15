@@ -20,6 +20,7 @@ The restored 2025 shelf makes three things clearer:
 
 ## How to read it
 
+- [ritter-routing.md](/C:/dev/strategy-codex/codex/2026/speakers/ritter/ritter-routing.md) is the fastest speaker-side routing surface
 - [ritter-helix.md](/C:/dev/strategy-codex/codex/2026/speakers/ritter/ritter-helix.md) is the canonical Ritter helix note
 - this cross-year note exists to show that the helix has an earlier **double-helix phase** in 2025
 - Ritter's richer cognition-stream shelf should be folded into the same speaker object as a property of presence, not split off into a separate layer of interpretation

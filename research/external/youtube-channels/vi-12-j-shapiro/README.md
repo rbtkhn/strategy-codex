@@ -2,7 +2,7 @@
 
 **Purpose:** Raw YouTube caption storage for **`oErKnj_uyPA`** — interview not hosted on [@PredictiveHistory](https://www.youtube.com/@PredictiveHistory/videos).
 
-**Curated source of truth:** `research/external/work-jiang/lectures/interviews-12-j-shapiro-truth-myth-personal-path.md`
+**Curated source of truth:** `codex/predictive-history/lectures/interviews-12-j-shapiro-truth-myth-personal-path.md`
 
 ## Fetch / refresh
 
@@ -10,7 +10,7 @@ From repo root (deps: `pip install -e ".[youtube-research]"`):
 
 ```bash
 python3 scripts/fetch_youtube_channel_transcripts.py \
-  --input research/external/work-jiang/intake/urls-vi-12-j-shapiro.txt \
+  --input codex/predictive-history/intake/urls-vi-12-j-shapiro.txt \
   --output-dir research/external/youtube-channels/vi-12-j-shapiro \
   --limit 1 --sleep 0.5
 ```
@@ -26,7 +26,7 @@ python3 scripts/work_jiang/sync_verbatim_transcripts.py --write \
   --transcript-root research/external/youtube-channels/vi-12-j-shapiro
 ```
 
-Output: `research/external/work-jiang/verbatim-transcripts/interviews-12-j-shapiro-truth-myth-personal-path.md` (body often gitignored — see `verbatim-transcripts/README.md`).
+Output: `codex/predictive-history/verbatim-transcripts/interviews-12-j-shapiro-truth-myth-personal-path.md` (body often gitignored — see `verbatim-transcripts/README.md`).
 
 ## Diff vs operator paste
 

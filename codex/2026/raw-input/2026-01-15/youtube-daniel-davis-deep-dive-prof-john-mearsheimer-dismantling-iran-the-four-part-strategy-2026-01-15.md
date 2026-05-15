@@ -1,7 +1,7 @@
 ---
 ingest_date: 2026-05-13
 pub_date: 2026-01-15
-kind: transcript
+kind: cleaned-transcript
 thread: davis
 show: Daniel Davis Deep Dive
 host: Daniel Davis
@@ -10,12 +10,10 @@ title: "Prof John Mearsheimer: DISMANTLING IRAN, The Four Part Strategy"
 channel_url: "https://www.youtube.com/@DanielDavisDeepDive/videos"
 channel_slug: "daniel-davis-deep-dive"
 source_url: "https://www.youtube.com/watch?v=vZe1ujSljbw"
-source_note: "Automated YouTube transcript fetch for Daniel Davis Deep Dive."
+source_note: "Automated YouTube transcript fetch for Daniel Davis Deep Dive, lightly cleaned for shelf use."
 ---
 # Prof John Mearsheimer: DISMANTLING IRAN, The Four Part Strategy
 
-Kind: captions
-Language: en
 This is what is going on in Iran is
 right from the USIsraeli playbook on how
 to [clears throat] produce regime

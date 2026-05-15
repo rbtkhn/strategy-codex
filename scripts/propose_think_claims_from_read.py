@@ -1,12 +1,12 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """Assistive: suggest THINK claim stubs from READ ids found in self-archive.md.
 
-Does NOT write to skill-think.md, think-claims.json, or self.md — stdout only.
+Does NOT write to skill-think.md, think-claims.json, or self.md â€” stdout only.
 Operator copies or adapts; gate rules unchanged for IX promotion.
 
 Usage:
   python3 scripts/propose_think_claims_from_read.py
-  python3 scripts/propose_think_claims_from_read.py --archive users/grace-mar/self-archive.md --max-ids 5
+  python3 scripts/propose_think_claims_from_read.py --archive self-archive.md --max-ids 5
 """
 
 from __future__ import annotations
@@ -26,7 +26,7 @@ def main() -> int:
     ap.add_argument(
         "--archive",
         type=Path,
-        default=REPO_ROOT / "users/grace-mar/self-archive.md",
+        default=REPO_ROOT / "self-archive.md",
     )
     ap.add_argument("--max-ids", type=int, default=8)
     args = ap.parse_args()
@@ -54,7 +54,7 @@ def main() -> int:
                 "capability_type": "topic_familiarity",
                 "level": "exposed",
                 "evidence_refs": [rid],
-                "note": "Assistive stub — assign real THINK id and merge manually into think-claims.json",
+                "note": "Assistive stub â€” assign real THINK id and merge manually into think-claims.json",
             }
         )
 
@@ -74,3 +74,4 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+

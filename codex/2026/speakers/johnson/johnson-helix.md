@@ -4,6 +4,8 @@ WORK only; not Record.
 
 Purpose: compact cross-host note for reading the recurring Johnson lanes together. This is not a substitute for the host-local speaker arcs and raw-input runs. It exists so future routing can quickly answer: why these lanes belong together, what each host transforms in the Johnson voice, and where to enter the helix.
 
+For the faster speaker-side entry surface that answers **which host lane to open first**, see [johnson-routing.md](/C:/dev/strategy-codex/codex/2026/speakers/johnson/johnson-routing.md).
+
 ## Core claim
 
 The Johnson triple helix is one pressure-interpreting voice transformed by three hosts: Diesen gives geopolitical altitude, Davis tests operational feasibility, and Dialogue Works applies maximum live crisis pressure.

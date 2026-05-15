@@ -92,6 +92,8 @@ Continuity may mention the last `coffee_pick` slug, optional `focus` / `arc`, an
 
 **Operator line:** Conductor offers **four movement-labeled choices**; off-menu behavior is the refusal / park / no-action signal. When one action is clearly strongest, add one nearby line: **`Recommended default: <letter> - <one-line reason>`**. This is decision support only; it does not add another option or change refusal handling.
 
+**Compiled doctrine path:** Once the same conductor line has stabilized across multiple turns, offer **compiled doctrine** as a consolidation path instead of continuing movement-by-movement. This should compress the settled distinction, operational rule, and next execution wedge into one durable synthesis proposal.
+
 This is a **new** **four-line** movement list **after** the master is resolved, with **this** pass's **repo** next moves. Label it **`Conductor Action Menu`** and instruct **Reply A-D** for **this** pass. Each line is a **concrete, repo-grounded**, affirmative next move with **verbs and constraints** that match the **active** `conductor` slug (see [`.cursor/skills/conductor/SKILL.md`](../../../.cursor/skills/conductor/SKILL.md) **Conductor action MCQ**). Do **not** spend one of the four options on refusal / no-action; if the operator does anything other than choose **A**, **B**, **C**, or **D**, record that as refusal / park / no-action in the outcome. **Omit** only if the operator says **"orientation only"** or **"no action menu"** in the same turn. **Kleiber** is not the only mode that gets a menu; **Bernstein, Toscanini,** etc. all get **their own** four movement options with the same **A-D** letters.
 
 Movement meanings:

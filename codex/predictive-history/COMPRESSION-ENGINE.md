@@ -1,20 +1,20 @@
 # Jiang Compression Engine v1
 
-**Lane:** operator research â€” [work-jiang](./README-operator.md) / `codex/predictive-history/`. **Not** Record until merged through **RECURSION-GATE**.
+**Lane:** operator research Ã¢â‚¬” [work-jiang](./README-operator.md) / `codex/predictive-history/`. **Not** Record until merged through **RECURSION-GATE**.
 
 ## Purpose
 
 Turn a bulky work artifact (analysis, handoff, planning notes) into a **small JSON pack** that declares:
 
-- **Category** â€” `operational` | `analytical` | `synthesis` | `other`
+- **Category** Ã¢â‚¬” `operational` | `analytical` | `synthesis` | `other`
 - **One-sentence outcome**
-- **1â€“3 executable next actions**
+- **1Ã¢â‚¬“3 executable next actions**
 - **Evidence links** (paths, ACT/READ ids, doc names)
 - Optional tie to **seed** context (`seed/minimal-core.json`) and **founding intent** (`reflection-proposals/SEED-founding-intent.md`)
 
 This fights **layer drift** and **truth density** by forcing a labeled, linkable summary before more execution.
 
-**Alpha-style analogy:** Alpha uses a hard **~90% mastery** bar before unlocking the next lesson; Jiang compress asks for **one-sentence clarity**, **linked evidence**, and **next actions** before treating a work artifact as ready to build on â€” operator discipline parallel to â€œno Swiss cheese before advancing.â€ See [alpha-mastery-adaptation.md](../../alpha-mastery-adaptation.md) and [bloom-mastery-adaptation.md](../../bloom-mastery-adaptation.md) (Bloom / 2 Sigma layer).
+**mastery-learning analogy:** AI school uses a hard **~90% mastery** bar before unlocking the next lesson; Jiang compress asks for **one-sentence clarity**, **linked evidence**, and **next actions** before treating a work artifact as ready to build on Ã¢â‚¬” operator discipline parallel to “no Swiss cheese before advancing.” See [bloom-mastery-adaptation.md](../../docs/bloom-mastery-adaptation.md) (Bloom / 2 Sigma layer).
 
 ## Commands
 
@@ -36,7 +36,7 @@ The script opens with an **operator compression checklist** (y/N). That is **dis
 | Schema | `codex/predictive-history/schemas/jiang-compression-v1.schema.json` |
 | Daily intention note (optional) | `reflection-proposals/DAILY-INTENTION-YYYY-MM-DD.md` (append) |
 
-**Sprint bundles (future):** `codex/predictive-history/sprints/` â€” see README there.
+**Sprint bundles (future):** `codex/predictive-history/sprints/` Ã¢â‚¬” see README there.
 
 ## Related
 
