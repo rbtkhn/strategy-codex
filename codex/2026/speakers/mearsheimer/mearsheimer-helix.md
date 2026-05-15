@@ -12,6 +12,8 @@ These arcs should be read together because they are not merely repeated appearan
 
 The 2025 shelf now supports that double-helix reading on disk as well: the Davis-side January 2025 roots are materially imported, and the Diesen-side late-2025 branch is materially present before the fuller 2026 hardening.
 
+An April 2026 `Napolitano x Mearsheimer` branch is now routeable on disk as well, but in current form it remains a reinforcing third lane rather than a stable third canonical helix strand.
+
 ## The two strands
 
 | Host lane | Distinct register | What it reveals best |

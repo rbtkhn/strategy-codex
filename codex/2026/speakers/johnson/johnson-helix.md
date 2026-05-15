@@ -12,6 +12,8 @@ These arcs should be read together because they are not merely repeated appearan
 
 The full three-part structure is not a 2026 invention. By 2025 Johnson was already materially present across `Diesen`, `Davis`, and `Dialogue Works`, so the later shelf should be read as a denser crisis phase rather than the first year in which the helix exists.
 
+A real April 2026 `Napolitano x Johnson` branch now exists on disk as well, but it should be read as auxiliary reinforcement rather than as a fourth canonical strand.
+
 ## The three strands
 
 | Host lane | Distinct register | What it reveals best |

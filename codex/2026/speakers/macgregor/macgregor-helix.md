@@ -12,6 +12,8 @@ These arcs should be read together because they are not merely repeated appearan
 
 This two-strand structure is not just a 2026 shelf artifact. The same `Diesen + Davis` pairing is already materially real in 2025, and the late-2025 shelf is thicker than the earlier minimal backfill showed, so the better cross-year reading is stable double-helix continuity rather than an object waiting to become something else.
 
+A real April 2026 `Napolitano x Macgregor` branch now exists on disk as a useful auxiliary lane, but it does not change the durable `Diesen + Davis` double-helix reading.
+
 ## The two strands
 
 | Host lane | Distinct register | What it reveals best |

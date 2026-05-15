@@ -12,6 +12,8 @@ These arcs should be read together because they are not merely repeated appearan
 
 The full triple-helix maturity is most visible in 2026, but the underlying cross-host object is older than that shelf alone suggests. By 2025 Ritter already had a materially real double-helix phase through `Diesen` and `Dialogue Works`; 2026 adds the `Davis` strand that completes the canonical three-part form.
 
+A real April 2026 `Napolitano x Ritter` branch now exists on disk as well, but it should be read as auxiliary reinforcement rather than as a fourth canonical strand.
+
 Ritter should also be read as a thick speaker object rather than only as a formal helix shape. The host-local arcs explain the transformed structure, while the unusually strong recurrence across the cognition streams explains why Ritter carries more lattice weight than a thinner formal triple would.
 
 ## The three strands

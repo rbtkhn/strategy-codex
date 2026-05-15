@@ -12,6 +12,8 @@ These arcs should be read together because they are not merely repeated appearan
 
 This two-strand structure is not just a 2026 shelf artifact. The same `Diesen + Dialogue Works` pairing is already materially real in 2025, and the late-2025 shelf is thicker than the earlier minimal backfill showed, so the better cross-year reading is stable double-helix continuity rather than an object waiting to become something else.
 
+A real April 2026 `Napolitano x Wilkerson` branch now exists on disk as well, but it should be read as auxiliary reinforcement rather than as proof of a stable third canonical strand.
+
 ## The two strands
 
 | Host lane | Distinct register | What it reveals best |
