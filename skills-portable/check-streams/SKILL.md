@@ -101,12 +101,19 @@ If a stream has no upload on the target day, say so explicitly.
    - Support selections such as `all`, `all except X`, channel-specific subsets, and explicit clip inclusion.
 
 5. **Materialize the approved subset**
+   - Use the atomic materializer as the default command path for approved YouTube URLs:
+     - single URL: `python scripts/materialize_youtube_raw_input.py --url "<youtube-url>" --apply`
+     - approved batch: `python scripts/materialize_youtube_raw_input.py --input <approved-urls.jsonl> --apply`
+     - dry-run/probe: `python scripts/materialize_youtube_raw_input.py --url "<youtube-url>" --no-apply --run-id <label>`
    - For each approved URL:
      - resolve metadata first
      - fetch the best subtitle source available
      - preserve extraction receipts locally
      - write canonical date-folder raw-input
+     - verify the written raw-input has a non-stub transcript body before reporting success
+   - Review `.codex-tmp/youtube-raw-input/<run-id>/materialization-summary.md` before claiming capture.
    - When the approved subset is really a guest-host tranche rather than "today's whole roster," preserve that exact tranche shape instead of reopening discovery or broad channel slicing.
+   - If materialization returns `failed-fetch` or `failed-verification`, report the failure and stop before speaker routing, lattice updates, or completion claims.
 
 6. **Default transcript class**
    - Default to `auto_subtitles_vtt`.
@@ -114,7 +121,7 @@ If a stream has no upload on the target day, say so explicitly.
    - Upgrade to stronger normalization only when the operator explicitly asks.
 
 7. **Suggest speaker-folder routing**
-   - After approved items are materialized, inspect metadata, title, host, guest, and obvious `thread:` identity.
+   - After approved items are materialized and verified as non-stub raw-input, inspect metadata, title, host, guest, and obvious `thread:` identity.
    - Suggest likely speaker-folder targets such as `codex/<year>/speakers/<speaker>/` or stream-local speaker arcs such as `codex/<year>/<host-stream>/<host>-<guest>-speaker-arc.md`.
    - For a durable advisory queue, run `python scripts/build_speaker_routing_queue.py --start YYYY-MM-DD --end YYYY-MM-DD` and review `artifacts/speaker-routing/<start>_to_<end>/speaker-routing-queue.md`.
    - Prefer existing speaker objects and arcs before proposing new ones.
@@ -259,9 +266,10 @@ Use "candidate" when the target does not exist yet or would require a new speake
 - Never auto-materialize everything by default.
 - Never treat clip suspicion as certainty.
 - Never silently promote subtitle-derived outputs into stronger transcript classes.
+- Never claim a stream item is captured when the raw-input file is header-only, index-only, placeholder text, or otherwise fails non-stub body verification.
 - Never create or update speaker folders, speaker objects, speaker arcs, helixes, or lattice rows from the daily check unless the operator explicitly asks.
 - Do not let the lattice become the first durable destination. Raw-input comes first; speaker-folder routing comes next; lattice updates are secondary pointers.
 
 ## Success condition
 
-The operator gets a clean daily upload list for the tracked main streams, with obvious clips filtered into a secondary bucket, only the approved subset materialized into provenance-safe canonical `raw-input`, and clear speaker-folder routing hints for any material that strengthens an existing or candidate speaker object.
+The operator gets a clean daily upload list for the tracked main streams, with obvious clips filtered into a secondary bucket, only the approved subset materialized into provenance-safe canonical `raw-input` that passes non-stub body verification, and clear speaker-folder routing hints for any material that strengthens an existing or candidate speaker object.

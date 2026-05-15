@@ -79,12 +79,16 @@ Use this skill when a YouTube episode should become a canonical transcript artif
 7. **Verify before declaring success**
    - Check the top metadata block, opening lines, and closing lines.
    - Make sure title, date, guest, and transcript type all agree with the extraction path.
+   - Verify the canonical raw-input is not a header-only shell: it must have frontmatter with `source_url`, `pub_date`, `title`, provenance note, source/transcript type, and a real transcript body after frontmatter.
+   - Treat bodies below roughly 75 words or 400 non-frontmatter characters as failed embodiment unless the operator explicitly asked for a minimal metadata-only capture.
+   - Reject placeholder phrases such as `transcript pending`, `index-only`, or `listed_only` as successful transcript bodies.
    - If the output still has substantial caption noise, say so clearly.
 
 ## Guardrails
 
 - Never present auto-captions as human-verified verbatim text.
 - Never silently upgrade `auto_subtitles_vtt` into `cleaned_transcript`.
+- Never report a YouTube transcript as materialized when only discovery metadata, a filename, or a stub body exists on disk.
 - Never infer a date from thematic similarity to another episode when metadata or user instruction is available.
 - Never let an outside host channel silently take ownership from a recurring expert lane when the notebook clearly treats the guest as the real owner of the capture.
 - Never record an obvious same-day companion clip when a longer same-channel parent episode exists, unless the operator explicitly overrides that default.
@@ -115,7 +119,7 @@ python -m yt_dlp --skip-download --write-auto-subs --sub-langs "en.*,en,en-US,en
 
 ## Success condition
 
-The result is a date-correct, provenance-safe raw-input transcript file that future ingest or analysis can trust without confusing subtitle extraction for a human-cleaned source.
+The result is a date-correct, provenance-safe raw-input transcript file with a verified non-stub body that future ingest or analysis can trust without confusing subtitle extraction for a human-cleaned source. For approved YouTube URLs in strategy-codex, prefer `python scripts/materialize_youtube_raw_input.py --url "<youtube-url>" --apply` so success is computed before downstream claims.
 
 
 ## Cursor / grace-mar instance
