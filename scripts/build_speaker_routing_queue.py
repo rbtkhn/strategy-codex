@@ -9,6 +9,7 @@ It does not edit speaker folders, lattice rows, or raw-input files.
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import re
 import sys
@@ -176,6 +177,19 @@ def _host_candidates(meta: dict[str, Any]) -> list[str]:
     return candidates
 
 
+def _canonical_host_slug(meta: dict[str, Any]) -> str:
+    host_slug = _slug(meta.get("channel_slug")) or (_host_candidates(meta)[-1] if _host_candidates(meta) else "")
+    if host_slug in {"glenn-diesen", "diesen"}:
+        return "diesen"
+    if host_slug in {"daniel-davis", "davis", "daniel-davis-deep-dive"}:
+        return "davis"
+    if host_slug in {"dialogue-works", "alkhorshid", "nima-alkhorshid"}:
+        return "alkorshid"
+    if host_slug in {"alexander-mercouris", "alex-mercouris", "mercouris"}:
+        return "mercouris"
+    return host_slug
+
+
 def _match_arc(host_candidates: list[str], guest_slug: str, inventory: SpeakerInventory) -> Path | None:
     guest_candidates = _slug_candidates(guest_slug)
     for host in host_candidates:
@@ -229,20 +243,8 @@ def _candidate_object_path(guest_slug: str, inventory: SpeakerInventory) -> Path
 
 
 def _candidate_arc_path(meta: dict[str, Any], guest_slug: str, notebook_root: Path) -> Path:
-    host_slug = _slug(meta.get("channel_slug")) or (_host_candidates(meta)[-1] if _host_candidates(meta) else "host")
+    host_slug = _canonical_host_slug(meta) or "host"
     host_dir = host_slug
-    if host_slug in {"glenn-diesen", "diesen"}:
-        host_dir = "diesen"
-        host_slug = "diesen"
-    elif host_slug in {"daniel-davis", "davis", "daniel-davis-deep-dive"}:
-        host_dir = "davis"
-        host_slug = "davis"
-    elif host_slug in {"dialogue-works", "alkhorshid", "nima-alkhorshid"}:
-        host_dir = "alkorshid"
-        host_slug = "alkorshid"
-    elif host_slug in {"alexander-mercouris", "alex-mercouris", "mercouris"}:
-        host_dir = "mercouris"
-        host_slug = "mercouris"
     return notebook_root / host_dir / f"{host_slug}-{guest_slug}-speaker-arc.md"
 
 
@@ -316,19 +318,34 @@ def route_raw_input(path: Path, meta: dict[str, Any], inventory: SpeakerInventor
     )
 
 
-def _appearance(path: Path, meta: dict[str, Any]) -> dict[str, str]:
+def _appearance(path: Path, meta: dict[str, Any], inventory: SpeakerInventory) -> dict[str, str]:
     guest = str(meta.get("guest") or "").strip()
     thread = str(meta.get("thread") or "").strip()
+    speaker_slug = ""
+    for value in (guest, thread):
+        if not value:
+            continue
+        speaker_slug = _match_speaker(value, inventory) or (_slug_candidates(value)[-1] if _slug_candidates(value) else "")
+        if speaker_slug:
+            break
+    host_slug = _canonical_host_slug(meta)
+    pub_date = str(meta.get("pub_date") or meta.get("ingest_date") or path.parent.name)
+    raw_input_path = _rel(path)
+    source_url = str(meta.get("source_url") or "")
+    identity = "|".join([source_url.casefold(), raw_input_path, pub_date, speaker_slug, host_slug])
     return {
+        "appearance_id": f"ap-{hashlib.sha1(identity.encode('utf-8')).hexdigest()[:12]}",
         "speaker": guest or thread,
+        "speaker_slug": speaker_slug,
         "guest": guest,
         "host": str(meta.get("host") or ""),
+        "host_slug": host_slug,
         "show": str(meta.get("show") or ""),
         "thread": thread,
-        "pub_date": str(meta.get("pub_date") or meta.get("ingest_date") or path.parent.name),
+        "pub_date": pub_date,
         "title": str(meta.get("title") or path.stem),
-        "source_url": str(meta.get("source_url") or ""),
-        "raw_input_path": _rel(path),
+        "source_url": source_url,
+        "raw_input_path": raw_input_path,
     }
 
 
@@ -340,7 +357,7 @@ def build_rows(raw_paths: list[Path], inventory: SpeakerInventory, notebook_root
         route_type = route["route_type"]
         if route_type not in ROUTE_TYPES:
             raise ValueError(f"unknown route_type {route_type!r}")
-        appearance = _appearance(path, meta)
+        appearance = _appearance(path, meta, inventory)
         rows.append(
             {
                 "raw_input_path": appearance["raw_input_path"],

@@ -126,6 +126,7 @@ If a stream has no upload on the target day, say so explicitly.
    - Treat each verified capture as an **appearance**: one host/speaker/date/source event derived from raw-input, not a durable interpretation by itself.
    - Suggest the route stack: primary route first, then any speaker object, stream-local speaker arc, helix, or cross-host note the same appearance also strengthens.
    - For a durable advisory queue, run `python scripts/build_speaker_routing_queue.py --start YYYY-MM-DD --end YYYY-MM-DD` and review `artifacts/speaker-routing/<start>_to_<end>/speaker-routing-queue.md` plus `appearance-ledger.jsonl`.
+   - When the operator wants concrete follow-up proposals, run `python scripts/build_speaker_memory_actions.py --start YYYY-MM-DD --end YYYY-MM-DD` and review `artifacts/speaker-memory-actions/<start>_to_<end>/memory-action-queue.md`.
    - Prefer existing host-local speaker arcs as the primary route when host + guest match; list matching speaker objects or helix/cross-host notes as additional strengthened surfaces.
    - If no clear speaker route exists, say so and stop at raw-input.
    - Treat lattice rows as lookup pointers; update them only after the speaker object or arc path is clear and the operator asks for that follow-up.
@@ -231,6 +232,7 @@ When checking whether a day is complete:
 - never claim a day is "complete" unless the discovery receipt and the local materialized set have both been checked
 - when you need a computed score, repair queue, and durable receipts, run `python scripts/cognition_streams_audit.py --start YYYY-MM-DD --end YYYY-MM-DD --recent-start YYYY-MM-DD` against the active `/codex/<year>` notebook root
 - when you need a derived speaker-routing queue after materialization, run `python scripts/build_speaker_routing_queue.py --start YYYY-MM-DD --end YYYY-MM-DD`; this emits advisory queue and appearance-ledger artifacts only and does not edit speaker folders
+- when you need concrete speaker-memory follow-up proposals, run `python scripts/build_speaker_memory_actions.py --start YYYY-MM-DD --end YYYY-MM-DD`; this emits advisory action artifacts only and does not edit speaker folders
 
 ## Output shape
 
@@ -258,6 +260,7 @@ After operator selection, report only the approved items being materialized and 
 ## Speaker routing hints
 - <raw-input file> -> <primary speaker route> — <next action> — <why>
 - also strengthens: <speaker object / speaker arc / helix / cross-host note paths, if any>
+- action queue: <memory-action-queue.md path, when generated>
 ```
 
 Use "candidate" when the target does not exist yet or would require a new speaker object / speaker arc decision.

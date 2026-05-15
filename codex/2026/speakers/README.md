@@ -20,9 +20,12 @@ Default routing order after materialization:
 2. derive the appearance from frontmatter
 3. route the appearance to the best primary surface
 4. list additional surfaces the same appearance strengthens
-5. update speaker memory only when the operator explicitly asks
+5. aggregate routed appearances into an advisory action queue when concrete follow-up proposals are useful
+6. update speaker memory only when the operator explicitly asks
 
 The derived speaker-routing queue may point at multiple surfaces. A host-local speaker arc can be the primary route while the same appearance also strengthens a speaker object or cross-host note.
+
+The derived speaker-memory action queue converts route stacks into operator-reviewable proposals: update an existing arc, review an existing object, create a candidate arc/object, or consider a helix. It is still a WORK artifact, not an automatic edit path.
 
 Canonical templates:
 

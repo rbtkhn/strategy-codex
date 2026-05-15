@@ -77,7 +77,10 @@ def test_guest_matching_existing_speaker_object_routes_to_object_and_candidate_a
     assert row["primary_route"] == row["recommended_route"]
     assert row["next_action"] == "create-candidate-arc"
     assert row["also_strengthens"][0].endswith("codex/2026/alkorshid/alkorshid-ritter-speaker-arc.md")
+    assert row["appearance"]["appearance_id"].startswith("ap-")
     assert row["appearance"]["speaker"] == "Scott Ritter"
+    assert row["appearance"]["speaker_slug"] == "ritter"
+    assert row["appearance"]["host_slug"] == "alkorshid"
     assert row["appearance"]["raw_input_path"].endswith(
         "codex/2026/raw-input/2026-05-12/dialogue-works-ritter.md"
     )
@@ -179,6 +182,8 @@ def test_guest_without_object_or_arc_routes_to_candidate_arc(tmp_path: Path) -> 
     assert row["route_type"] == "candidate-speaker-arc"
     assert row["recommended_route"].endswith("diesen/diesen-guest-speaker-arc.md")
     assert row["appearance"]["speaker"] == "Example Guest"
+    assert row["appearance"]["speaker_slug"] == "guest"
+    assert row["appearance"]["host_slug"] == "diesen"
     assert row["next_action"] == "create-candidate-arc"
 
 
@@ -239,5 +244,25 @@ def test_writes_markdown_and_jsonl_with_stable_fields(tmp_path: Path) -> None:
     }
     appearance = json.loads(appearance_path.read_text(encoding="utf-8").splitlines()[0])
     assert appearance == payload["appearance"]
+    assert appearance["appearance_id"].startswith("ap-")
+    assert appearance["speaker_slug"] == "guest"
+    assert appearance["host_slug"] == "diesen"
     assert "## candidate-speaker-arc" in md_path.read_text(encoding="utf-8")
     assert "`create-candidate-arc`" in md_path.read_text(encoding="utf-8")
+
+
+def test_appearance_id_is_deterministic(tmp_path: Path) -> None:
+    notebook, _speakers, inventory = _inventory(tmp_path)
+    raw = _write_raw(
+        notebook / "raw-input",
+        "diesen-new-guest.md",
+        guest="Example Guest",
+        host="Glenn Diesen",
+        show="Glenn Diesen",
+        thread="diesen",
+    )
+
+    first = srq.build_rows([raw], inventory, notebook)[0]
+    second = srq.build_rows([raw], inventory, notebook)[0]
+
+    assert first["appearance"]["appearance_id"] == second["appearance"]["appearance_id"]
