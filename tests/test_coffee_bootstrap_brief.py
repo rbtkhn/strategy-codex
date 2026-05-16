@@ -11,6 +11,7 @@ sys.path.insert(0, str(REPO_ROOT / "scripts"))
 
 from assess_session_load import _compute_option_weights, _pick_recommendation
 from coffee_bootstrap_brief import format_coffee_bootstrap_brief, format_coffee_recent_rhythm
+from operator_coffee import _CAPTURE_KWARGS, _run
 
 
 def _write_events(path: Path, body: str) -> Path:
@@ -139,3 +140,19 @@ def test_operator_coffee_exposes_first_command_mode() -> None:
     assert "Coffee Bootstrap Brief" in src
     assert "append_cadence_event(" in src
     assert "mode=args.mode" in src
+
+
+def test_operator_coffee_quiet_capture_replaces_decode_errors(monkeypatch) -> None:
+    seen: dict[str, object] = {}
+
+    def fake_run(argv, **kwargs):
+        seen.update(kwargs)
+        return type("Result", (), {"returncode": 0, "stdout": "smart quote \u201d", "stderr": ""})()
+
+    monkeypatch.setattr("operator_coffee.subprocess.run", fake_run)
+
+    assert _run([sys.executable, "-c", "print('ok')"], quiet=True) == 0
+    assert seen["encoding"] == "utf-8"
+    assert seen["errors"] == "replace"
+    assert _CAPTURE_KWARGS["encoding"] == "utf-8"
+    assert _CAPTURE_KWARGS["errors"] == "replace"

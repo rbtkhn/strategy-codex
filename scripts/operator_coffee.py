@@ -43,6 +43,12 @@ if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
 from repo_io import DEFAULT_USER_ID, profile_dir
 MODES = ("work-start", "light", "minimal", "closeout", "reentry", "first-command")
+_CAPTURE_KWARGS = {
+    "capture_output": True,
+    "text": True,
+    "encoding": "utf-8",
+    "errors": "replace",
+}
 
 
 def _configure_utf8_stdio() -> None:
@@ -55,7 +61,7 @@ def _configure_utf8_stdio() -> None:
 def _run(argv: list[str], *, label: str | None = None, quiet: bool = False) -> int:
     display = label or " ".join(argv)
     if quiet:
-        r = subprocess.run(argv, cwd=str(_REPO), capture_output=True, text=True)
+        r = subprocess.run(argv, cwd=str(_REPO), **_CAPTURE_KWARGS)
         if r.returncode == 0:
             print(f"$ {display} ... ok", flush=True)
             return 0
@@ -74,11 +80,11 @@ def _branch_snapshot() -> str:
     """One plain-language block: branch hygiene status."""
     status = subprocess.run(
         ["git", "status", "-sb"], cwd=str(_REPO),
-        capture_output=True, text=True,
+        **_CAPTURE_KWARGS,
     )
     branches = subprocess.run(
         ["git", "branch", "-vv"], cwd=str(_REPO),
-        capture_output=True, text=True,
+        **_CAPTURE_KWARGS,
     )
     status_out = status.stdout.strip()
     branch_out = branches.stdout.strip()
