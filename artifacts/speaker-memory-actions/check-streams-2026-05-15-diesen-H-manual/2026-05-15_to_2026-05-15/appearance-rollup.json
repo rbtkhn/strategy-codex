@@ -1,0 +1,18 @@
+{
+  "appearance_count": 1,
+  "speaker_count": 1,
+  "speakers": {
+    "wilkerson": {
+      "appearance_count": 1,
+      "appearance_ids": [
+        "ap-1546dca38df9"
+      ],
+      "hosts": {
+        "diesen": 1
+      },
+      "route_types": {
+        "existing-speaker-arc": 1
+      }
+    }
+  }
+}

@@ -10,6 +10,7 @@ This index names speakers whose usefulness is strengthened by more than one host
 |---|---|---|---|
 | Freeman | [`speakers/freeman/`](../speakers/freeman/) | [`freeman-helix.md`](../speakers/freeman/freeman-helix.md) | Alkhorshid, Napolitano, Davis/Diesen where present |
 | Johnson | [`speakers/johnson/`](../speakers/johnson/) | [`johnson-helix.md`](../speakers/johnson/johnson-helix.md) | Napolitano, Davis, Alkhorshid, Diesen where present |
+| Kent | [`speakers/kent/`](../speakers/kent/) | [`kent-helix.md`](../speakers/kent/kent-helix.md) | Carlson, Davis, Diesen, Nawfal, Barnes quote-surface |
 | Macgregor | [`speakers/macgregor/`](../speakers/macgregor/) | [`macgregor-helix.md`](../speakers/macgregor/macgregor-helix.md) | Napolitano, Davis, Diesen |
 | Marandi | [`speakers/marandi/`](../speakers/marandi/) | speaker object / host-local arcs | Alkhorshid, Davis, Diesen |
 | Ritter | [`speakers/ritter/`](../speakers/ritter/) | speaker object / host-local arcs | Alkhorshid, Napolitano, Davis, Diesen |

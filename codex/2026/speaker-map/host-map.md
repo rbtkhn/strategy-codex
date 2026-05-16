@@ -9,10 +9,12 @@ This file is the first-pass map of host shelves that carry host-local speaker ar
 | Host shelf | Role | Open first |
 |---|---|---|
 | [`alkorshid/`](../alkorshid/) | Dialogue Works / Nima Alkhorshid host-local arcs | [`alkorshid-thread.md`](../alkorshid/alkorshid-thread.md) |
+| [`carlson/`](../carlson/) | Tucker Carlson routeable guest arcs; not a full watchlist stream | [`carlson-kent-speaker-arc.md`](../carlson/carlson-kent-speaker-arc.md) |
 | [`davis/`](../davis/) | Daniel Davis Deep Dive host-local arcs | [`davis-thread.md`](../davis/davis-thread.md) |
 | [`diesen/`](../diesen/) | Glenn Diesen host-local arcs | [`diesen-thread.md`](../diesen/diesen-thread.md) |
 | [`mercouris/`](../mercouris/) | Alexander Mercouris stream shelf | [`mercouris-thread.md`](../mercouris/mercouris-thread.md) |
 | [`napolitano/`](../napolitano/) | Judging Freedom / Judge Andrew Napolitano host-local arcs | [`napolitano-thread.md`](../napolitano/napolitano-thread.md) |
+| [`nawfal/`](../nawfal/) | Mario Nawfal routeable guest arcs; not a full watchlist stream | [`nawfal-kent-speaker-arc.md`](../nawfal/nawfal-kent-speaker-arc.md) |
 
 ## Reading Rule
 

@@ -1,0 +1,24 @@
+{
+  "appearance_count": 5,
+  "speaker_count": 1,
+  "speakers": {
+    "kent": {
+      "appearance_count": 5,
+      "appearance_ids": [
+        "ap-2815331f49ab",
+        "ap-1e5d22e50292",
+        "ap-302220fcd5d6",
+        "ap-193290ddf47d",
+        "ap-508aef0447d6"
+      ],
+      "hosts": {
+        "davis": 3,
+        "diesen": 1,
+        "nawfal": 1
+      },
+      "route_types": {
+        "existing-speaker-arc": 5
+      }
+    }
+  }
+}

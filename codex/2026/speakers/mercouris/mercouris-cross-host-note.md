@@ -11,6 +11,7 @@ Mercouris is not only a native cognition stream. There are real cross-host appea
 The clearest current example on disk is:
 
 - [2025-01-16 Davis x Mercouris](/C:/dev/strategy-codex/codex/2026/raw-input/2025-01-16/youtube-daniel-davis-deep-dive-the-duran-s-alexander-mercouris-nato-preparing-for-war-w-russia-2025-01-16.md)
+- [2026-05-16 Diesen x Mercouris](/C:/dev/strategy-codex/codex/2026/raw-input/2026-05-16/youtube-glenn-diesen-alexander-mercouris-the-political-legitimacy-crisis-across-europe-2026-05-16.md)
 
 That matters because it shows Mercouris can remain legible outside his own stream and can be reused inside another host environment.
 
@@ -19,7 +20,8 @@ That matters because it shows Mercouris can remain legible outside his own strea
 Read the reinforcement this way:
 
 - it **confirms** that Mercouris is more than a sealed native lane
-- it does **not yet confirm** a materially dense Davis x Mercouris speaker-arc
+- it now has both Davis and Diesen guest-host reinforcement on disk
+- it does **not yet confirm** a materially dense multi-host Mercouris helix
 - it therefore supports the Mercouris speaker object without yet requiring a canonical Mercouris double-helix claim
 
 So the right current shape is:

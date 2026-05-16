@@ -1,0 +1,18 @@
+{
+  "appearance_count": 1,
+  "speaker_count": 1,
+  "speakers": {
+    "mercouris": {
+      "appearance_count": 1,
+      "appearance_ids": [
+        "ap-6b61d97d79d3"
+      ],
+      "hosts": {
+        "diesen": 1
+      },
+      "route_types": {
+        "existing-speaker-arc": 1
+      }
+    }
+  }
+}

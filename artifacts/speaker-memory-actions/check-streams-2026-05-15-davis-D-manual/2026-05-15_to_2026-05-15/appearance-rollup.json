@@ -1,0 +1,18 @@
+{
+  "appearance_count": 1,
+  "speaker_count": 1,
+  "speakers": {
+    "polyanskiy": {
+      "appearance_count": 1,
+      "appearance_ids": [
+        "ap-a3f2fc247bf5"
+      ],
+      "hosts": {
+        "davis": 1
+      },
+      "route_types": {
+        "candidate-speaker-arc": 1
+      }
+    }
+  }
+}
