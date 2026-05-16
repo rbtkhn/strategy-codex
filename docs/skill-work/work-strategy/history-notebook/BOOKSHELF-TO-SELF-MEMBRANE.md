@@ -59,7 +59,7 @@ Each answered tag produces one explicit proposed self-knowledge statement.
 Decision path:
 
 1. Companion selection -> stance (`enduring` / `active` / `context` / `deferred`)
-2. Evidence fitness -> supporting `HNSRC-*` depth + author spread
+2. Evidence fitness -> supporting `Shelf-*` depth + author spread
 3. Cross-tag repeat -> whether the same type of signal appears across distinct clusters
 
 Tiering is epistemic, not numeric:
@@ -76,7 +76,7 @@ Each draft block must include:
 
 - one-line summary
 - `profile_target` suggestion (usually `ix-b` or `ix-c`; `ix-a` only when factual)
-- evidence bullets with `HNSRC-*` ids
+- evidence bullets with `Shelf-*` ids
 - uncertainty note when applicable
 - `status: pending`
 

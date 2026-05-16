@@ -1,10 +1,10 @@
-﻿# History Notebook â€” Bookshelf catalog (title-level seed; HNSRC-* rows)
-# Operator collection name: self-library-bookshelf (physical library + this HNSRC list; LIB-0158 in self-library).
+﻿# History Notebook â€” Bookshelf catalog (title-level seed; Shelf-* rows)
+# Operator collection name: self-library-bookshelf (physical library + this Shelf list; LIB-0158 in self-library).
 # WORK only; not Record. Does not replace book-architecture.yaml or cross-book-map.yaml.
-# Self-library pointer: LIB-0158 â€” self-library.md#bookshelf (owned HNSRC-* shelf; not operator_book / operator_analytical). Human overview: BOOKSHELF.md (same directory).
+# Self-library pointer: LIB-0158 â€” self-library.md#bookshelf (owned Shelf-* shelf; not operator_book / operator_analytical). Human overview: BOOKSHELF.md (same directory).
 #
 # Schema (items[]):
-#   id: HNSRC-NNNN (zero-padded 4 digits, unique)
+#   id: Shelf-NNNN (zero-padded 4 digits, unique)
 #   title, author: string (author may be "Various" or unknown)
 #   year: optional int or string (publication / composition hint)
 #   isbn: optional string
@@ -19,6 +19,7 @@
 #   notes: optional string
 #   lib_id: optional â€” if promoted to  self-library LIB-* entry
 #   content_path: optional â€” phase 2: gitignored file or absolute path (not committed)
+#   academy_links: optional list of academy WORK study paths that intentionally use this shelf row
 #   Citation-oriented (optional; backfill lazily for formal bibliography export):
 #   cite_as: optional string â€” sort/print name override (e.g. when author is Various)
 #   place, publisher, edition, series: optional strings â€” imprint / edition (Chicago-style export)
@@ -29,13 +30,13 @@
 # Era "medieval" = post-476 AD formations through fall of Constantinople (~1453 AD); straddles into Vol III use eras/notes.
 # Era "colonial" (Vol III) = post-1453 through ~1815 AD (Congress of Vienna); straddles into Vol IV use eras/notes.
 # Era "industrial" (Vol IV) = post-1815 through ~1945 AD (end of WWII); straddles into Vol V use eras/notes.
-# Ancient / medieval / modern (operator) 2026-04-18: shelf photos â€” Landmark (a); Assyria/Persians (b); Everitt/Goldsworthy/Oxford (c); late Romeâ€“Byzantine (d); Roman livesâ€“empire (e); Everyman Library canons (f); Penguin Clothbound epics (g). Medieval/early modern batches 2026-04-18: shelf-batch-a/b (Europe + Ottoman), batch-c (Weatherford + Khazaria), batch-d (Penguin Clothbound medieval canon). Colonial batches 2026-04-18: colonial-shelf-a (Wilson TYW + dedupe note vs HNSRC-0065/0066), b (Voltaire/French Rev), c (US founders), d (Atlantic), e (Library of America), f (Everyman Shakespeare + Enlightenment), g (Russia/Spain/Europe). Industrial/modern fiction + philosophy shelf (batch 2026-04-18-modern-shelf-photos-12): Penguin Clothbound / Everyman's / Little Black Classics / Library of America â€” see HNSRC-0129+. Assets: .cursor/projects/.../assets/photo_2026-04-18_11.*â€“12.*.png (incl. 22 files photo_2026-04-18_12.15.*â€“12.17.*).
-# 2026-04-21 shelf photos: US history, Crowley, LOA, Bradbury, Vonnegut, Narnia, etc. â€” HNSRC-0241+.
+# Ancient / medieval / modern (operator) 2026-04-18: shelf photos â€” Landmark (a); Assyria/Persians (b); Everitt/Goldsworthy/Oxford (c); late Romeâ€“Byzantine (d); Roman livesâ€“empire (e); Everyman Library canons (f); Penguin Clothbound epics (g). Medieval/early modern batches 2026-04-18: shelf-batch-a/b (Europe + Ottoman), batch-c (Weatherford + Khazaria), batch-d (Penguin Clothbound medieval canon). Colonial batches 2026-04-18: colonial-shelf-a (Wilson TYW + dedupe note vs Shelf-0065/0066), b (Voltaire/French Rev), c (US founders), d (Atlantic), e (Library of America), f (Everyman Shakespeare + Enlightenment), g (Russia/Spain/Europe). Industrial/modern fiction + philosophy shelf (batch 2026-04-18-modern-shelf-photos-12): Penguin Clothbound / Everyman's / Little Black Classics / Library of America â€” see Shelf-0129+. Assets: .cursor/projects/.../assets/photo_2026-04-18_11.*â€“12.*.png (incl. 22 files photo_2026-04-18_12.15.*â€“12.17.*).
+# 2026-04-21 shelf photos: US history, Crowley, LOA, Bradbury, Vonnegut, Narnia, etc. â€” Shelf-0241+.
 # Workspace assets (same batch): .cursor/projects/Users-robertkuhne-Documents-grace-mar/assets/photo_2026-04-21_13.15.*.png
 
 version: 1
 items:
-  - id: HNSRC-0001
+  - id: Shelf-0001
     title: "The Histories"
     author: "Herodotus"
     era: ancient
@@ -46,7 +47,7 @@ items:
     candidate_hn_chapters: [hn-i-v1-01, hn-i-v1-07, hn-i-v1-11, hn-i-v1-19]
     notes: "Viking; translation Tom Holland; introduction Paul Cartledge."
 
-  - id: HNSRC-0002
+  - id: Shelf-0002
     title: "The Landmark Herodotus"
     author: "Herodotus"
     era: ancient
@@ -57,7 +58,7 @@ items:
     candidate_hn_chapters: [hn-i-v1-01, hn-i-v1-07, hn-i-v1-11, hn-i-v1-19]
     notes: "Edited Robert B. Strassler; Pantheon (Landmark series)."
 
-  - id: HNSRC-0003
+  - id: Shelf-0003
     title: "The Landmark Thucydides"
     author: "Thucydides"
     era: ancient
@@ -67,7 +68,7 @@ items:
     candidate_hn_chapters: [hn-i-v1-06, hn-i-v1-10, hn-i-v1-11, hn-i-v1-14]
     notes: "Edited Robert B. Strassler; Free Press (Landmark series)."
 
-  - id: HNSRC-0004
+  - id: Shelf-0004
     title: "The Landmark Xenophon's Hellenika"
     author: "Xenophon"
     era: ancient
@@ -77,7 +78,7 @@ items:
     candidate_hn_chapters: [hn-i-v1-09, hn-i-v1-17, hn-i-v1-20]
     notes: "Edited Robert B. Strassler; Quercus (Landmark series)."
 
-  - id: HNSRC-0005
+  - id: Shelf-0005
     title: "The Landmark Xenophon's Anabasis"
     author: "Xenophon"
     era: ancient
@@ -88,7 +89,7 @@ items:
     candidate_hn_chapters: [hn-i-v1-13, hn-i-v1-18]
     notes: "Edited Shane Brennan and David Thomas; Robert B. Strassler series editor; Pantheon (Landmark series)."
 
-  - id: HNSRC-0006
+  - id: Shelf-0006
     title: "The Landmark Arrian: The Campaigns of Alexander"
     author: "Arrian"
     era: ancient
@@ -99,7 +100,7 @@ items:
     candidate_hn_chapters: [hn-i-v1-05, hn-i-v1-08, hn-i-v1-11]
     notes: "Edited James Romm; Robert B. Strassler series editor; Pantheon (Landmark series)."
 
-  - id: HNSRC-0007
+  - id: Shelf-0007
     title: "The Landmark Julius Caesar"
     author: "Julius Caesar"
     era: ancient
@@ -110,7 +111,7 @@ items:
     candidate_hn_chapters: [hn-i-v1-01, hn-i-v1-06, hn-i-v1-07, hn-i-v1-13]
     notes: "Edited Kurt A. Raaflaub; Robert B. Strassler series editor; Pantheon (Landmark series)."
 
-  - id: HNSRC-0008
+  - id: Shelf-0008
     title: "Assyria"
     author: "Eckart Frahm"
     year: 2023
@@ -124,7 +125,7 @@ items:
     candidate_hn_chapters: [hn-i-v1-01, hn-i-v1-04, hn-i-v1-10, hn-i-v1-16, hn-i-v1-19]
     notes: "Basic Books."
 
-  - id: HNSRC-0009
+  - id: Shelf-0009
     title: "Persians"
     author: "Lloyd Llewellyn-Jones"
     year: 2022
@@ -138,7 +139,7 @@ items:
     candidate_hn_chapters: [hn-i-v1-01, hn-i-v1-07, hn-i-v1-11, hn-i-v1-19]
     notes: "Standalone volume (spine beside Frahm Assyria)."
 
-  - id: HNSRC-0010
+  - id: Shelf-0010
     title: "The Rise of Athens"
     author: "Anthony Everitt"
     era: ancient
@@ -148,7 +149,7 @@ items:
     candidate_hn_chapters: [hn-i-v1-03, hn-i-v1-06, hn-i-v1-10, hn-i-v1-14]
     notes: "Random House."
 
-  - id: HNSRC-0011
+  - id: Shelf-0011
     title: "Alexander the Great"
     author: "Anthony Everitt"
     era: ancient
@@ -159,7 +160,7 @@ items:
     candidate_hn_chapters: [hn-i-v1-05, hn-i-v1-11]
     notes: "Random House."
 
-  - id: HNSRC-0012
+  - id: Shelf-0012
     title: "Philip and Alexander: Kings and Conquerors"
     author: "Adrian Goldsworthy"
     year: 2020
@@ -173,7 +174,7 @@ items:
     candidate_hn_chapters: [hn-i-v1-01, hn-i-v1-03, hn-i-v1-05]
     notes: "Basic Books."
 
-  - id: HNSRC-0013
+  - id: Shelf-0013
     title: "Alexandria"
     author: "Islam Issa"
     era: ancient
@@ -183,7 +184,7 @@ items:
     candidate_hn_chapters: [hn-i-v1-07, hn-i-v1-16, hn-i-v1-18]
     notes: "Lighthouse of Alexandria cover motif."
 
-  - id: HNSRC-0014
+  - id: Shelf-0014
     title: "The Cleopatras: The Forgotten Queens of Egypt"
     author: "Lloyd Llewellyn-Jones"
     year: 2024
@@ -196,7 +197,7 @@ items:
     candidate_hn_chapters: [hn-i-v1-14, hn-i-v1-16]
     notes: "Basic Books."
 
-  - id: HNSRC-0015
+  - id: Shelf-0015
     title: "The Scythians"
     author: "Barry Cunliffe"
     era: ancient
@@ -206,7 +207,7 @@ items:
     candidate_hn_chapters: [hn-i-v1-12, hn-i-v1-13, hn-i-v1-15]
     notes: "Oxford University Press."
 
-  - id: HNSRC-0016
+  - id: Shelf-0016
     title: "Empire of the Black Sea"
     author: "Duane W. Roller"
     era: ancient
@@ -216,7 +217,7 @@ items:
     candidate_hn_chapters: [hn-i-v1-12, hn-i-v1-13, hn-i-v1-18]
     notes: "Oxford University Press."
 
-  - id: HNSRC-0017
+  - id: Shelf-0017
     title: "The Rise of Rome"
     author: "Anthony Everitt"
     era: ancient
@@ -227,7 +228,7 @@ items:
     candidate_hn_chapters: [hn-i-v1-02, hn-i-v1-04, hn-i-v1-05, hn-i-v1-09, hn-i-v1-17]
     notes: "Random House."
 
-  - id: HNSRC-0018
+  - id: Shelf-0018
     title: "The Punic Wars"
     author: "Adrian Goldsworthy"
     era: ancient
@@ -238,7 +239,7 @@ items:
     candidate_hn_chapters: [hn-i-v1-05, hn-i-v1-06, hn-i-v1-11, hn-i-v1-20]
     notes: "Illustrated battle scene on spine."
 
-  - id: HNSRC-0019
+  - id: Shelf-0019
     title: "Hannibal"
     author: "Richard A. Gabriel"
     era: ancient
@@ -249,7 +250,7 @@ items:
     candidate_hn_chapters: [hn-i-v1-05, hn-i-v1-11, hn-i-v1-13, hn-i-v1-14]
     notes: "Carthaginian campaigns; spine author Gabriel."
 
-  - id: HNSRC-0020
+  - id: Shelf-0020
     title: "How Rome Fell"
     author: "Adrian Goldsworthy"
     year: 2009
@@ -263,7 +264,7 @@ items:
     candidate_hn_chapters: [hn-i-v1-02, hn-i-v1-04, hn-i-v1-14, hn-i-v1-17, hn-i-v1-20]
     notes: "Yale University Press; end of Western Roman Empire."
 
-  - id: HNSRC-0021
+  - id: Shelf-0021
     title: "Theoderic the Great"
     author: "Hans-Ulrich Wiemer"
     year: 2023
@@ -277,7 +278,7 @@ items:
     candidate_hn_chapters: [hn-ii-rome-byzantine]
     notes: "Deep red spine; Ostrogothic kingdom."
 
-  - id: HNSRC-0022
+  - id: Shelf-0022
     title: "Justinian"
     author: "Peter Sarris"
     year: 2023
@@ -290,7 +291,7 @@ items:
     candidate_hn_chapters: [hn-ii-rome-byzantine]
     notes: "Basic Books; Justinian mosaic portrait on spine."
 
-  - id: HNSRC-0023
+  - id: Shelf-0023
     title: "Ravenna"
     author: "Judith Herrin"
     era: medieval
@@ -300,7 +301,7 @@ items:
     candidate_hn_chapters: [hn-ii-rome-byzantine]
     notes: "Penguin; mosaic-style spine."
 
-  - id: HNSRC-0024
+  - id: Shelf-0024
     title: "Christendom"
     author: "Peter Heather"
     era: medieval
@@ -310,7 +311,7 @@ items:
     candidate_hn_chapters: [hn-ii-rome-byzantine, hn-ii-islam]
     notes: "Knopf; painted figure on spine."
 
-  - id: HNSRC-0025
+  - id: Shelf-0025
     title: "Land Between the Rivers"
     author: "Bartle Bull"
     year: 2024
@@ -323,7 +324,7 @@ items:
     candidate_hn_chapters: [hn-v-persia-modern]
     notes: "Black spine with geometric band; Mesopotamia / Iraq scope â€” revise era or hn hints if your edition centers another period."
 
-  - id: HNSRC-0026
+  - id: Shelf-0026
     title: "The Alexiad"
     author: "Anna Comnena"
     era: medieval
@@ -333,7 +334,7 @@ items:
     candidate_hn_chapters: [hn-ii-rome-byzantine]
     notes: "Penguin Classics; Byzantine primary text."
 
-  - id: HNSRC-0027
+  - id: Shelf-0027
     title: "Plutarch's Lives"
     author: "Plutarch"
     era: ancient
@@ -344,7 +345,7 @@ items:
     candidate_hn_chapters: [hn-i-v1-02, hn-i-v1-04, hn-i-v1-08, hn-i-v1-14]
     notes: "Dryden translation; Modern Library Giant."
 
-  - id: HNSRC-0028
+  - id: Shelf-0028
     title: "Caesar: Life of a Colossus"
     author: "Adrian Goldsworthy"
     year: 2006
@@ -358,7 +359,7 @@ items:
     candidate_hn_chapters: [hn-i-v1-01, hn-i-v1-03, hn-i-v1-08, hn-i-v1-13]
     notes: "Yale University Press."
 
-  - id: HNSRC-0029
+  - id: Shelf-0029
     title: "Antony and Cleopatra"
     author: "Adrian Goldsworthy"
     year: 2010
@@ -372,7 +373,7 @@ items:
     candidate_hn_chapters: [hn-i-v1-14, hn-i-v1-16]
     notes: "Yale University Press."
 
-  - id: HNSRC-0030
+  - id: Shelf-0030
     title: "Cicero: The Life and Times of Rome's Greatest Politician"
     author: "Anthony Everitt"
     era: ancient
@@ -383,7 +384,7 @@ items:
     candidate_hn_chapters: [hn-i-v1-04, hn-i-v1-08, hn-i-v1-10, hn-i-v1-14]
     notes: "Random House."
 
-  - id: HNSRC-0031
+  - id: Shelf-0031
     title: "Augustus: First Emperor of Rome"
     author: "Adrian Goldsworthy"
     era: ancient
@@ -394,7 +395,7 @@ items:
     candidate_hn_chapters: [hn-i-v1-03, hn-i-v1-04, hn-i-v1-05]
     notes: "Yale University Press; distinct from Everitt Augustus."
 
-  - id: HNSRC-0032
+  - id: Shelf-0032
     title: "Augustus: The Life of Rome's First Emperor"
     author: "Anthony Everitt"
     year: 2007
@@ -408,7 +409,7 @@ items:
     candidate_hn_chapters: [hn-i-v1-03, hn-i-v1-04, hn-i-v1-05]
     notes: "Random House; paired with Goldsworthy Augustus for comparison."
 
-  - id: HNSRC-0033
+  - id: Shelf-0033
     title: "Hadrian and the Triumph of Rome"
     author: "Anthony Everitt"
     year: 2010
@@ -422,7 +423,7 @@ items:
     candidate_hn_chapters: [hn-i-v1-05, hn-i-v1-11, hn-i-v1-12, hn-i-v1-13]
     notes: "Random House."
 
-  - id: HNSRC-0034
+  - id: Shelf-0034
     title: "Rome and Persia: The Seven Hundred Year Rivalry"
     author: "Adrian Goldsworthy"
     year: 2023
@@ -436,7 +437,7 @@ items:
     candidate_hn_chapters: [hn-i-v1-05, hn-i-v1-11, hn-i-v1-13, hn-i-v1-18, hn-i-v1-19]
     notes: "Basic Books."
 
-  - id: HNSRC-0035
+  - id: Shelf-0035
     title: "Pax Romana: War, Peace and Conquest in the Roman World"
     author: "Adrian Goldsworthy"
     year: 2016
@@ -450,7 +451,7 @@ items:
     candidate_hn_chapters: [hn-i-v1-04, hn-i-v1-11, hn-i-v1-18]
     notes: "Yale University Press."
 
-  - id: HNSRC-0036
+  - id: Shelf-0036
     title: "The Old Testament"
     author: "Various"
     era: ancient
@@ -458,9 +459,10 @@ items:
     tags: [Bible, Hebrew Bible, scripture, religion]
     hn_volume: vol-i
     candidate_hn_chapters: [hn-i-v1-01, hn-i-v1-08, hn-i-v1-10, hn-i-v1-16]
+    academy_links: [codex/2026/academy/theology/bookshelf-crosswalk.md]
     notes: "Red/black spine with gold accents; Everyman's Library style (operator edition)."
 
-  - id: HNSRC-0037
+  - id: Shelf-0037
     title: "The New Testament"
     author: "Various"
     era: ancient
@@ -468,9 +470,10 @@ items:
     tags: [Bible, Christian, scripture, religion]
     hn_volume: vol-i
     candidate_hn_chapters: [hn-i-v1-08, hn-i-v1-10, hn-i-v1-16, hn-i-v1-20]
+    academy_links: [codex/2026/academy/theology/bookshelf-crosswalk.md]
     notes: "Red/black spine with gold accents; paired with OT on shelf."
 
-  - id: HNSRC-0038
+  - id: Shelf-0038
     title: "Hindu Scriptures"
     author: "Various"
     era: ancient
@@ -479,9 +482,10 @@ items:
     hn_volume: vol-i
     primary_arc: india
     candidate_hn_chapters: [hn-i-v1-10, hn-i-v1-12, hn-i-v1-15, hn-i-v1-16]
+    academy_links: [codex/2026/academy/theology/bookshelf-crosswalk.md]
     notes: "Everyman's Library black spine / white band."
 
-  - id: HNSRC-0039
+  - id: Shelf-0039
     title: "Lao-Tzu: Tao Te Ching"
     author: "Lao Tzu"
     era: ancient
@@ -490,9 +494,10 @@ items:
     hn_volume: vol-i
     primary_arc: china
     candidate_hn_chapters: [hn-i-v1-04, hn-i-v1-08, hn-i-v1-15, hn-i-v1-17]
+    academy_links: [codex/2026/academy/theology/bookshelf-crosswalk.md]
     notes: "Everyman's Library."
 
-  - id: HNSRC-0040
+  - id: Shelf-0040
     title: "Confucius: The Analects"
     author: "Confucius"
     era: ancient
@@ -501,9 +506,10 @@ items:
     hn_volume: vol-i
     primary_arc: china
     candidate_hn_chapters: [hn-i-v1-04, hn-i-v1-10]
+    academy_links: [codex/2026/academy/theology/bookshelf-crosswalk.md]
     notes: "Everyman's Library."
 
-  - id: HNSRC-0041
+  - id: Shelf-0041
     title: "Plato: The Republic"
     author: "Plato"
     era: ancient
@@ -511,9 +517,10 @@ items:
     tags: [Greece, philosophy, politics, education]
     hn_volume: vol-i
     candidate_hn_chapters: [hn-i-v1-03, hn-i-v1-15]
+    academy_links: [codex/2026/academy/theology/bookshelf-crosswalk.md]
     notes: "Everyman's Library."
 
-  - id: HNSRC-0042
+  - id: Shelf-0042
     title: "Plato: Symposium and Phaedrus"
     author: "Plato"
     era: ancient
@@ -523,7 +530,7 @@ items:
     candidate_hn_chapters: [hn-i-v1-03, hn-i-v1-08]
     notes: "Everyman's Library."
 
-  - id: HNSRC-0043
+  - id: Shelf-0043
     title: "Sophocles: The Theban Plays"
     author: "Sophocles"
     era: ancient
@@ -531,9 +538,10 @@ items:
     tags: [Greece, tragedy, drama, myth]
     hn_volume: vol-i
     candidate_hn_chapters: [hn-i-v1-02, hn-i-v1-10, hn-i-v1-14]
+    academy_links: [codex/2026/academy/theology/bookshelf-crosswalk.md]
     notes: "Everyman's Library."
 
-  - id: HNSRC-0044
+  - id: Shelf-0044
     title: "Aeschylus: The Oresteia"
     author: "Aeschylus"
     era: ancient
@@ -541,9 +549,10 @@ items:
     tags: [Greece, tragedy, drama, justice]
     hn_volume: vol-i
     candidate_hn_chapters: [hn-i-v1-02, hn-i-v1-10, hn-i-v1-14]
+    academy_links: [codex/2026/academy/theology/bookshelf-crosswalk.md]
     notes: "Everyman's Library."
 
-  - id: HNSRC-0045
+  - id: Shelf-0045
     title: "Tacitus: Annals and Histories"
     author: "Tacitus"
     era: ancient
@@ -554,7 +563,7 @@ items:
     candidate_hn_chapters: [hn-i-v1-04, hn-i-v1-07, hn-i-v1-13, hn-i-v1-18, hn-i-v1-20]
     notes: "Everyman's Library."
 
-  - id: HNSRC-0046
+  - id: Shelf-0046
     title: "The Iliad"
     author: "Homer"
     era: ancient
@@ -562,9 +571,10 @@ items:
     tags: [Greece, epic, poetry, Trojan War]
     hn_volume: vol-i
     candidate_hn_chapters: [hn-i-v1-10, hn-i-v1-11, hn-i-v1-14]
+    academy_links: [codex/2026/academy/theology/bookshelf-crosswalk.md]
     notes: "Penguin Clothbound Classics; maroon spine flame motif."
 
-  - id: HNSRC-0047
+  - id: Shelf-0047
     title: "The Odyssey"
     author: "Homer"
     era: ancient
@@ -574,7 +584,7 @@ items:
     candidate_hn_chapters: [hn-i-v1-06, hn-i-v1-10, hn-i-v1-14]
     notes: "Penguin Clothbound Classics; teal spine wave motif."
 
-  - id: HNSRC-0048
+  - id: Shelf-0048
     title: "The Aeneid"
     author: "Virgil"
     era: ancient
@@ -583,9 +593,10 @@ items:
     hn_volume: vol-i
     primary_arc: rome
     candidate_hn_chapters: [hn-i-v1-05, hn-i-v1-09, hn-i-v1-10]
+    academy_links: [codex/2026/academy/theology/bookshelf-crosswalk.md]
     notes: "Penguin Clothbound Classics; yellow spine warrior silhouettes."
 
-  - id: HNSRC-0049
+  - id: Shelf-0049
     title: "Metamorphoses"
     author: "Ovid"
     era: ancient
@@ -596,7 +607,7 @@ items:
     candidate_hn_chapters: [hn-i-v1-09, hn-i-v1-10, hn-i-v1-14]
     notes: "Penguin Clothbound Classics; dark grey spine cloud/wave motif."
 
-  - id: HNSRC-0050
+  - id: Shelf-0050
     title: "(Spine unread â€” operator fill)"
     author: "Unknown"
     era: ancient
@@ -606,7 +617,7 @@ items:
     candidate_hn_chapters: []
     notes: "Leftmost Penguin Clothbound on photo; red spine fish pattern â€” replace title/author when identified. See research/VOL-I-LIBRARY-SCAFFOLD.md Â§ Pending catalog identification."
 
-  - id: HNSRC-0051
+  - id: Shelf-0051
     title: "Meditations"
     author: "Marcus Aurelius"
     era: ancient
@@ -615,9 +626,10 @@ items:
     hn_volume: vol-i
     primary_arc: rome
     candidate_hn_chapters: [hn-i-v1-04, hn-i-v1-05, hn-i-v1-10]
+    academy_links: [codex/2026/academy/theology/bookshelf-crosswalk.md]
     notes: "Imperial Stoic notebook; Greek original (Ta eis heauton). Also on shelf: Penguin Clothbound edition (photo 2026-04-18 batch 12) â€” do not add duplicate row."
 
-  - id: HNSRC-0052
+  - id: Shelf-0052
     title: "On the Nature of Things"
     author: "Lucretius"
     era: ancient
@@ -628,7 +640,7 @@ items:
     candidate_hn_chapters: [hn-i-v1-05, hn-i-v1-15]
     notes: "De Rerum Natura; materialist cosmology and ethics in Latin hexameters. Also on shelf: Penguin Clothbound under trade title The Nature of Things (photo 2026-04-18 batch 12) â€” do not add duplicate row."
 
-  - id: HNSRC-0053
+  - id: Shelf-0053
     title: "Letters from a Stoic"
     author: "Seneca"
     era: ancient
@@ -639,7 +651,7 @@ items:
     candidate_hn_chapters: [hn-i-v1-04, hn-i-v1-10]
     notes: "Moral Letters to Lucilius (Epistulae Morales ad Lucilium); common trade title."
 
-  - id: HNSRC-0054
+  - id: Shelf-0054
     title: "The History of the Decline and Fall of the Roman Empire"
     author: "Edward Gibbon"
     era: medieval
@@ -651,7 +663,7 @@ items:
     candidate_hn_chapters: [hn-i-v1-04, hn-i-v1-19, hn-i-v1-20, hn-ii-rome-byzantine]
     notes: "Narrative spans late antiquity, Western fall (~476 AD), Byzantium, and medieval Europe; published 1776â€“1788."
 
-  - id: HNSRC-0055
+  - id: Shelf-0055
     title: "The Story of Civilization, Vol. I: Our Oriental Heritage"
     author: "Will Durant"
     era: ancient
@@ -661,7 +673,7 @@ items:
     candidate_hn_chapters: [hn-i-v1-01, hn-i-v1-02, hn-i-v1-03, hn-i-v1-12, hn-i-v1-18]
     notes: "Series vol. 1; comparative ancient Near East and foundations."
 
-  - id: HNSRC-0056
+  - id: Shelf-0056
     title: "The Story of Civilization, Vol. II: The Life of Greece"
     author: "Will Durant"
     era: ancient
@@ -671,7 +683,7 @@ items:
     candidate_hn_chapters: [hn-i-v1-10, hn-i-v1-12, hn-i-v1-14, hn-i-v1-18]
     notes: "Series vol. 2; Greek civilization."
 
-  - id: HNSRC-0057
+  - id: Shelf-0057
     title: "The Story of Civilization, Vol. III: Caesar and Christ"
     author: "Will Durant"
     era: ancient
@@ -682,7 +694,7 @@ items:
     candidate_hn_chapters: [hn-i-v1-04, hn-i-v1-05, hn-i-v1-14, hn-i-v1-16, hn-i-v1-18, hn-i-v1-20]
     notes: "Series vol. 3; late Republicâ€“Empire and rise of Christianity through ~476 AD West."
 
-  - id: HNSRC-0058
+  - id: Shelf-0058
     title: "The New Roman Empire: A History of Byzantium"
     author: "Anthony Kaldellis"
     era: medieval
@@ -693,11 +705,12 @@ items:
     hn_volume: vol-ii
     primary_arc: rome
     candidate_hn_chapters: [hn-i-v1-04, hn-i-v1-19, hn-ii-rome-byzantine]
+    academy_links: [codex/2026/academy/theology/bookshelf-crosswalk.md]
     notes: "Single-volume Byzantium; ~324 AD (Constantinople) through fifteenth century; OUP."
 
   # --- Medieval / early modern shelf photos 2026-04-18 (see .cursor/projects/.../assets/photo_2026-04-18_*.png) ---
 
-  - id: HNSRC-0059
+  - id: Shelf-0059
     title: "The Ottomans: Khans, Caesars, and Caliphs"
     author: "Marc David Baer"
     year: 2021
@@ -711,7 +724,7 @@ items:
     candidate_hn_chapters: [hn-iii-ottoman, hn-ii-islam]
     notes: "Basic Books; cream spine Ottoman figure. Duplicate spine on second shelf photo â€” one catalog row."
 
-  - id: HNSRC-0060
+  - id: Shelf-0060
     title: "The Florentines"
     author: "Paul Strathern"
     year: 2021
@@ -725,7 +738,7 @@ items:
     candidate_hn_chapters: [hn-ii-rome-byzantine]
     notes: "Light blue spine; Florence landscape."
 
-  - id: HNSRC-0061
+  - id: Shelf-0061
     title: "The Medici"
     author: "Paul Strathern"
     era: colonial
@@ -736,7 +749,7 @@ items:
     candidate_hn_chapters: [hn-ii-rome-byzantine]
     notes: "Pale yellow/cream spine; Medici emblem."
 
-  - id: HNSRC-0062
+  - id: Shelf-0062
     title: "The Borgias"
     author: "Paul Strathern"
     year: 2019
@@ -750,7 +763,7 @@ items:
     candidate_hn_chapters: [hn-ii-rome-byzantine]
     notes: "Purple spine; Renaissance group portrait."
 
-  - id: HNSRC-0063
+  - id: Shelf-0063
     title: "Leonardo da Vinci"
     author: "Walter Isaacson"
     year: 2017
@@ -764,7 +777,7 @@ items:
     candidate_hn_chapters: [hn-ii-rome-byzantine]
     notes: "Reddish-brown spine; Leonardo portrait."
 
-  - id: HNSRC-0064
+  - id: Shelf-0064
     title: "House of Lilies: The Dynasty That Made Medieval France"
     author: "Justine Firnhaber-Baker"
     year: 2024
@@ -777,7 +790,7 @@ items:
     candidate_hn_chapters: [hn-iii-france]
     notes: "Basic Books; white spine crown/crest."
 
-  - id: HNSRC-0065
+  - id: Shelf-0065
     title: "The Habsburgs: To Rule the World"
     author: "Martyn Rady"
     year: 2020
@@ -790,7 +803,7 @@ items:
     hn_volume: vol-iii
     candidate_hn_chapters: [hn-iii-france, hn-iii-russia]
 
-  - id: HNSRC-0066
+  - id: Shelf-0066
     title: "Iron and Blood"
     author: "Peter H. Wilson"
     era: industrial
@@ -800,7 +813,7 @@ items:
     candidate_hn_chapters: [hn-iv-germany]
     notes: "Belknap Harvard; black spine soldiers â€” verify period emphasis in your edition; adjust era if needed."
 
-  - id: HNSRC-0067
+  - id: Shelf-0067
     title: "Charlemagne"
     author: "Johannes Fried"
     year: 2016
@@ -813,7 +826,7 @@ items:
     candidate_hn_chapters: [hn-iii-france, hn-ii-rome-byzantine]
     notes: "Harvard University Press; red spine."
 
-  - id: HNSRC-0068
+  - id: Shelf-0068
     title: "The Middle Kingdoms: A New History of Central Europe"
     author: "Martyn Rady"
     year: 2023
@@ -826,7 +839,7 @@ items:
     hn_volume: vol-ii
     candidate_hn_chapters: [hn-ii-rome-byzantine, hn-iii-russia]
 
-  - id: HNSRC-0069
+  - id: Shelf-0069
     title: "The Life and Legend of the Sultan Saladin"
     author: "Jonathan Phillips"
     year: 2019
@@ -839,7 +852,7 @@ items:
     primary_arc: islam
     candidate_hn_chapters: [hn-ii-islam, hn-ii-persia-islamic]
 
-  - id: HNSRC-0070
+  - id: Shelf-0070
     title: "The Burgundians"
     author: "Bart Van Loo"
     era: medieval
@@ -848,7 +861,7 @@ items:
     hn_volume: vol-ii
     candidate_hn_chapters: [hn-iii-france]
 
-  - id: HNSRC-0071
+  - id: Shelf-0071
     title: "Henry V"
     author: "Dan Jones"
     era: medieval
@@ -858,7 +871,7 @@ items:
     primary_arc: anglia
     candidate_hn_chapters: [hn-iii-anglia]
 
-  - id: HNSRC-0072
+  - id: Shelf-0072
     title: "A World Lit Only by Fire"
     author: "William Manchester"
     era: colonial
@@ -869,7 +882,7 @@ items:
     candidate_hn_chapters: [hn-ii-rome-byzantine]
     notes: "Little Brown; thin tan spine â€” popular bridge to early modern."
 
-  - id: HNSRC-0073
+  - id: Shelf-0073
     title: "Children of Ash and Elm: A History of the Vikings"
     author: "Neil Price"
     year: 2020
@@ -881,7 +894,7 @@ items:
     hn_volume: vol-ii
     candidate_hn_chapters: [hn-iii-anglia]
 
-  - id: HNSRC-0074
+  - id: Shelf-0074
     title: "Emperor of the Seas"
     author: "Jack Weatherford"
     era: medieval
@@ -891,7 +904,7 @@ items:
     hn_volume: vol-ii
     candidate_hn_chapters: [hn-ii-mongol, hn-ii-china-medieval]
 
-  - id: HNSRC-0075
+  - id: Shelf-0075
     title: "The Secret History of the Mongol Queens"
     author: "Jack Weatherford"
     year: 2011
@@ -903,7 +916,7 @@ items:
     hn_volume: vol-ii
     candidate_hn_chapters: [hn-ii-mongol, hn-ii-china-medieval]
 
-  - id: HNSRC-0076
+  - id: Shelf-0076
     title: "Genghis Khan and the Making of the Modern World"
     author: "Jack Weatherford"
     year: 2005
@@ -915,7 +928,7 @@ items:
     hn_volume: vol-ii
     candidate_hn_chapters: [hn-ii-mongol]
 
-  - id: HNSRC-0077
+  - id: Shelf-0077
     title: "The Jews of Khazaria"
     author: "Kevin Alan Brook"
     era: medieval
@@ -925,7 +938,7 @@ items:
     candidate_hn_chapters: [hn-ii-islam, hn-ii-mongol]
     notes: "Third edition; Rowman & Littlefield."
 
-  - id: HNSRC-0078
+  - id: Shelf-0078
     title: "Tales from 1,001 Nights"
     author: "Various"
     era: medieval
@@ -934,7 +947,7 @@ items:
     hn_volume: vol-ii
     candidate_hn_chapters: [hn-ii-islam, hn-ii-persia-islamic]
 
-  - id: HNSRC-0079
+  - id: Shelf-0079
     title: "The Travels"
     author: "Marco Polo"
     era: medieval
@@ -943,7 +956,7 @@ items:
     hn_volume: vol-ii
     candidate_hn_chapters: [hn-ii-mongol, hn-ii-china-medieval]
 
-  - id: HNSRC-0080
+  - id: Shelf-0080
     title: "Inferno"
     author: "Dante Alighieri"
     era: medieval
@@ -952,7 +965,8 @@ items:
     hn_volume: vol-ii
     candidate_hn_chapters: [hn-ii-rome-byzantine]
 
-  - id: HNSRC-0081
+    academy_links: [codex/2026/academy/theology/bookshelf-crosswalk.md]
+  - id: Shelf-0081
     title: "The Canterbury Tales"
     author: "Geoffrey Chaucer"
     era: medieval
@@ -961,7 +975,7 @@ items:
     hn_volume: vol-ii
     candidate_hn_chapters: [hn-iii-anglia]
 
-  - id: HNSRC-0082
+  - id: Shelf-0082
     title: "Don Quixote"
     author: "Miguel de Cervantes"
     era: colonial
@@ -972,7 +986,7 @@ items:
     candidate_hn_chapters: [hn-ii-rome-byzantine]
     notes: "Early 17th c; Spain â€” no dedicated hn-iii chapter id; use notes when drafting."
 
-  - id: HNSRC-0083
+  - id: Shelf-0083
     title: "Monkey King"
     author: "Wu Cheng'en"
     era: medieval
@@ -982,9 +996,9 @@ items:
     primary_arc: china
     candidate_hn_chapters: [hn-ii-china-medieval]
 
-  # --- Colonial shelf photos 2026-04-18 (see photo_2026-04-18_12.04â€“12.05 assets); dedupe: Habsburgs + Iron and Blood already HNSRC-0065/0066 ---
+  # --- Colonial shelf photos 2026-04-18 (see photo_2026-04-18_12.04â€“12.05 assets); dedupe: Habsburgs + Iron and Blood already Shelf-0065/0066 ---
 
-  - id: HNSRC-0084
+  - id: Shelf-0084
     title: "The Thirty Years War"
     author: "Peter H. Wilson"
     year: 2019
@@ -995,9 +1009,9 @@ items:
     tags: [Germany, Habsburg, war, Belknap]
     hn_volume: vol-iii
     candidate_hn_chapters: [hn-iii-france, hn-iii-russia]
-    notes: "Belknap Harvard; 1618â€“1648. Wilson â€” distinct from Iron and Blood (HNSRC-0066)."
+    notes: "Belknap Harvard; 1618â€“1648. Wilson â€” distinct from Iron and Blood (Shelf-0066)."
 
-  - id: HNSRC-0085
+  - id: Shelf-0085
     title: "Voltaire Almighty"
     author: "Roger Pearson"
     year: 2005
@@ -1009,7 +1023,7 @@ items:
     hn_volume: vol-iii
     candidate_hn_chapters: [hn-iii-france]
 
-  - id: HNSRC-0086
+  - id: Shelf-0086
     title: "A New World Begins: The History of the French Revolution"
     author: "Jeremy D. Popkin"
     year: 2019
@@ -1022,7 +1036,7 @@ items:
     candidate_hn_chapters: [hn-iii-france]
     notes: "Subject is 1789 French Revolution; shelved colonial (Vol III) per runbook. HN volume boundary to industrial is 1815 AD."
 
-  - id: HNSRC-0087
+  - id: Shelf-0087
     title: "Jefferson"
     author: "John B. Boles"
     year: 2017
@@ -1035,7 +1049,7 @@ items:
     primary_arc: america
     candidate_hn_chapters: [hn-iv-america]
 
-  - id: HNSRC-0088
+  - id: Shelf-0088
     title: "Alexander Hamilton"
     author: "Ron Chernow"
     year: 2004
@@ -1048,7 +1062,7 @@ items:
     primary_arc: america
     candidate_hn_chapters: [hn-iv-america]
 
-  - id: HNSRC-0089
+  - id: Shelf-0089
     title: "James Monroe"
     author: "Tim McGrath"
     era: colonial
@@ -1058,7 +1072,7 @@ items:
     primary_arc: america
     candidate_hn_chapters: [hn-iv-america]
 
-  - id: HNSRC-0090
+  - id: Shelf-0090
     title: "John Quincy Adams"
     author: "Randall Woods"
     era: colonial
@@ -1068,7 +1082,7 @@ items:
     primary_arc: america
     candidate_hn_chapters: [hn-iv-america]
 
-  - id: HNSRC-0091
+  - id: Shelf-0091
     title: "Founding Partisans"
     author: "H. W. Brands"
     era: colonial
@@ -1078,7 +1092,7 @@ items:
     primary_arc: america
     candidate_hn_chapters: [hn-iv-america]
 
-  - id: HNSRC-0092
+  - id: Shelf-0092
     title: "Heirs of the Founders"
     author: "H. W. Brands"
     era: colonial
@@ -1088,7 +1102,7 @@ items:
     primary_arc: america
     candidate_hn_chapters: [hn-iv-america]
 
-  - id: HNSRC-0093
+  - id: Shelf-0093
     title: "Martin Van Buren"
     author: "James C. Bradley"
     era: colonial
@@ -1099,7 +1113,7 @@ items:
     candidate_hn_chapters: [hn-iv-america]
     notes: "Oxford; verify author string on your edition if spine differs."
 
-  - id: HNSRC-0094
+  - id: Shelf-0094
     title: "The Age of Jackson"
     author: "Arthur M. Schlesinger Jr."
     era: colonial
@@ -1111,7 +1125,7 @@ items:
     candidate_hn_chapters: [hn-iv-america]
     notes: "Jacksonian era straddles colonial operator boundary â€” primary colonial for shelf batch."
 
-  - id: HNSRC-0095
+  - id: Shelf-0095
     title: "Andrew Jackson"
     author: "H. W. Brands"
     era: colonial
@@ -1122,7 +1136,7 @@ items:
     primary_arc: america
     candidate_hn_chapters: [hn-iv-america]
 
-  - id: HNSRC-0096
+  - id: Shelf-0096
     title: "The Blazing World"
     author: "Jonathan Healey"
     era: colonial
@@ -1131,7 +1145,7 @@ items:
     hn_volume: vol-iii
     candidate_hn_chapters: [hn-iii-anglia]
 
-  - id: HNSRC-0097
+  - id: Shelf-0097
     title: "Frederick the Great"
     author: "Tim Blanning"
     year: 2015
@@ -1143,7 +1157,7 @@ items:
     hn_volume: vol-iii
     candidate_hn_chapters: [hn-iv-germany]
 
-  - id: HNSRC-0098
+  - id: Shelf-0098
     title: "Crucible of War"
     author: "Fred Anderson"
     era: colonial
@@ -1153,7 +1167,7 @@ items:
     primary_arc: america
     candidate_hn_chapters: [hn-iv-america]
 
-  - id: HNSRC-0099
+  - id: Shelf-0099
     title: "The Last King of America: The Misunderstood Reign of George III"
     author: "Andrew Roberts"
     year: 2021
@@ -1165,7 +1179,7 @@ items:
     hn_volume: vol-iii
     candidate_hn_chapters: [hn-iii-anglia, hn-iv-america]
 
-  - id: HNSRC-0100
+  - id: Shelf-0100
     title: "Empire: How Britain Made the Modern World"
     author: "Niall Ferguson"
     year: 2003
@@ -1179,7 +1193,7 @@ items:
     candidate_hn_chapters: [hn-iii-anglia, hn-iv-anglia-imperial]
     notes: "Basic Books; long-span â€” adjust era if your edition subtitle differs."
 
-  - id: HNSRC-0101
+  - id: Shelf-0101
     title: "Plymouth Colony: Narratives of English Settlement and Native Resistance from the Mayflower to King Philip's War"
     author: "Lisa Brooks & Kelly Wisecup"
     year: 2022
@@ -1191,7 +1205,7 @@ items:
     hn_volume: vol-iii
     candidate_hn_chapters: [hn-iv-america]
 
-  - id: HNSRC-0102
+  - id: Shelf-0102
     title: "The American Revolution: Writings from the War of Independence 1775â€“1783"
     author: "Various"
     year: 2001
@@ -1203,7 +1217,7 @@ items:
     hn_volume: vol-iii
     candidate_hn_chapters: [hn-iv-america]
 
-  - id: HNSRC-0103
+  - id: Shelf-0103
     title: "The American Revolution: Writings from the Pamphlet Debate 1773â€“1776"
     author: "Various"
     year: 2015
@@ -1215,7 +1229,7 @@ items:
     hn_volume: vol-iii
     candidate_hn_chapters: [hn-iv-america]
 
-  - id: HNSRC-0104
+  - id: Shelf-0104
     title: "Franklin: Autobiography, Poor Richard, and Later Writings"
     author: "Benjamin Franklin"
     era: colonial
@@ -1224,7 +1238,7 @@ items:
     hn_volume: vol-iii
     candidate_hn_chapters: [hn-iv-america]
 
-  - id: HNSRC-0105
+  - id: Shelf-0105
     title: "Paine: Collected Writings"
     author: "Thomas Paine"
     year: 1995
@@ -1236,7 +1250,7 @@ items:
     hn_volume: vol-iii
     candidate_hn_chapters: [hn-iv-america]
 
-  - id: HNSRC-0106
+  - id: Shelf-0106
     title: "Jefferson: Writings"
     author: "Thomas Jefferson"
     era: colonial
@@ -1245,7 +1259,7 @@ items:
     hn_volume: vol-iii
     candidate_hn_chapters: [hn-iv-america]
 
-  - id: HNSRC-0107
+  - id: Shelf-0107
     title: "Madison: Writings"
     author: "James Madison"
     era: colonial
@@ -1254,7 +1268,7 @@ items:
     hn_volume: vol-iii
     candidate_hn_chapters: [hn-iv-america]
 
-  - id: HNSRC-0108
+  - id: Shelf-0108
     title: "Hamilton: Writings"
     author: "Alexander Hamilton"
     era: colonial
@@ -1263,7 +1277,7 @@ items:
     hn_volume: vol-iii
     candidate_hn_chapters: [hn-iv-america]
 
-  - id: HNSRC-0109
+  - id: Shelf-0109
     title: "Washington: Writings"
     author: "George Washington"
     era: colonial
@@ -1272,7 +1286,7 @@ items:
     hn_volume: vol-iii
     candidate_hn_chapters: [hn-iv-america]
 
-  - id: HNSRC-0110
+  - id: Shelf-0110
     title: "The Complete Works"
     author: "Michel de Montaigne"
     era: colonial
@@ -1282,7 +1296,7 @@ items:
     hn_volume: vol-iii
     candidate_hn_chapters: [hn-iii-france]
 
-  - id: HNSRC-0111
+  - id: Shelf-0111
     title: "Histories Volume 1"
     author: "William Shakespeare"
     year: 1994
@@ -1294,7 +1308,7 @@ items:
     hn_volume: vol-iii
     candidate_hn_chapters: [hn-iii-anglia]
 
-  - id: HNSRC-0112
+  - id: Shelf-0112
     title: "Histories Volume 2"
     author: "William Shakespeare"
     era: colonial
@@ -1303,7 +1317,7 @@ items:
     hn_volume: vol-iii
     candidate_hn_chapters: [hn-iii-anglia]
 
-  - id: HNSRC-0113
+  - id: Shelf-0113
     title: "Romances"
     author: "William Shakespeare"
     era: colonial
@@ -1312,7 +1326,7 @@ items:
     hn_volume: vol-iii
     candidate_hn_chapters: [hn-iii-anglia]
 
-  - id: HNSRC-0114
+  - id: Shelf-0114
     title: "The Sonnets and Narrative Poems"
     author: "William Shakespeare"
     year: 2015
@@ -1324,7 +1338,7 @@ items:
     hn_volume: vol-iii
     candidate_hn_chapters: [hn-iii-anglia]
 
-  - id: HNSRC-0115
+  - id: Shelf-0115
     title: "Tragedies Volume 1"
     author: "William Shakespeare"
     year: 1992
@@ -1336,7 +1350,7 @@ items:
     hn_volume: vol-iii
     candidate_hn_chapters: [hn-iii-anglia]
 
-  - id: HNSRC-0116
+  - id: Shelf-0116
     title: "Tragedies Volume 2"
     author: "William Shakespeare"
     era: colonial
@@ -1345,7 +1359,7 @@ items:
     hn_volume: vol-iii
     candidate_hn_chapters: [hn-iii-anglia]
 
-  - id: HNSRC-0117
+  - id: Shelf-0117
     title: "Comedies, Volume 1"
     author: "William Shakespeare"
     year: 1995
@@ -1357,7 +1371,7 @@ items:
     hn_volume: vol-iii
     candidate_hn_chapters: [hn-iii-anglia]
 
-  - id: HNSRC-0118
+  - id: Shelf-0118
     title: "Comedies Volume 2"
     author: "William Shakespeare"
     year: 1996
@@ -1369,7 +1383,7 @@ items:
     hn_volume: vol-iii
     candidate_hn_chapters: [hn-iii-anglia]
 
-  - id: HNSRC-0119
+  - id: Shelf-0119
     title: "Candide and Other Stories"
     author: "Voltaire"
     year: 1992
@@ -1381,7 +1395,8 @@ items:
     hn_volume: vol-iii
     candidate_hn_chapters: [hn-iii-france]
 
-  - id: HNSRC-0120
+    academy_links: [codex/2026/academy/theology/bookshelf-crosswalk.md]
+  - id: Shelf-0120
     title: "Confessions"
     author: "Jean-Jacques Rousseau"
     era: colonial
@@ -1390,7 +1405,7 @@ items:
     hn_volume: vol-iii
     candidate_hn_chapters: [hn-iii-france]
 
-  - id: HNSRC-0121
+  - id: Shelf-0121
     title: "The Social Contract and The Discourses"
     author: "Jean-Jacques Rousseau"
     era: colonial
@@ -1399,7 +1414,7 @@ items:
     hn_volume: vol-iii
     candidate_hn_chapters: [hn-iii-france]
 
-  - id: HNSRC-0122
+  - id: Shelf-0122
     title: "The Romanovs: 1613â€“1918"
     author: "Simon Sebag Montefiore"
     year: 2017
@@ -1414,7 +1429,7 @@ items:
     candidate_hn_chapters: [hn-iii-russia, hn-iv-russia-imperial]
     notes: "Long chronology â€” primary industrial for catalog sort; shelf grouped with colonial batch photo."
 
-  - id: HNSRC-0123
+  - id: Shelf-0123
     title: "Peter the Great: His Life and World"
     author: "Robert K. Massie"
     year: 1980
@@ -1427,7 +1442,7 @@ items:
     candidate_hn_chapters: [hn-iii-russia]
     notes: "Operator declaration 2026-05-02: Robert K. Massie books are high-credibility secondary sources and best-available shelf sources when no primary anchor is present; credibility means good-faith/reputable, not infallible."
 
-  - id: HNSRC-0124
+  - id: Shelf-0124
     title: "Catherine the Great"
     author: "Robert K. Massie"
     year: 2011
@@ -1440,7 +1455,7 @@ items:
     candidate_hn_chapters: [hn-iii-russia]
     notes: "Operator declaration 2026-05-02: Robert K. Massie books are high-credibility secondary sources and best-available shelf sources when no primary anchor is present; credibility means good-faith/reputable, not infallible."
 
-  - id: HNSRC-0125
+  - id: Shelf-0125
     title: "Nicholas and Alexandra"
     author: "Robert K. Massie"
     year: 2000
@@ -1454,7 +1469,7 @@ items:
     candidate_hn_chapters: [hn-iv-russia-imperial]
     notes: "1917 revolution â€” industrial-era primary; same shelf photo as colonial batch. Operator declaration 2026-05-02: Robert K. Massie books are high-credibility secondary sources and best-available shelf sources when no primary anchor is present; credibility means good-faith/reputable, not infallible."
 
-  - id: HNSRC-0126
+  - id: Shelf-0126
     title: "The Dutch Republic: Its Rise, Greatness, and Fall 1477â€“1806"
     author: "Jonathan Israel"
     year: 1998
@@ -1467,7 +1482,7 @@ items:
     hn_volume: vol-iii
     candidate_hn_chapters: [hn-iii-france]
 
-  - id: HNSRC-0127
+  - id: Shelf-0127
     title: "Conquistador: HernÃ¡n CortÃ©s, King Montezuma, and the Last Stand of the Aztecs"
     author: "Buddy Levy"
     year: 2009
@@ -1480,7 +1495,7 @@ items:
     candidate_hn_chapters: []
     notes: "Americas conquest â€” no dedicated hn-iii Americas id; wire in cross-book-map when drafting."
 
-  - id: HNSRC-0128
+  - id: Shelf-0128
     title: "Empire: How Spain Became a World Power 1492â€“1763"
     author: "Henry Kamen"
     year: 2003
@@ -1493,7 +1508,7 @@ items:
     candidate_hn_chapters: [hn-iii-france]
     notes: "Iberian world monarchy â€” France chapter id is imperfect proxy; adjust when drafting."
   # --- Industrial / modern shelf â€” personal library photos 2026-04-18 (LIB-0158) ---
-  - id: HNSRC-0129
+  - id: Shelf-0129
     title: The Sonnets and A Lover's Complaint
     author: William Shakespeare
     era: industrial
@@ -1506,7 +1521,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-anglia-imperial
-  - id: HNSRC-0130
+  - id: Shelf-0130
     title: Paradise Lost
     author: John Milton
     era: industrial
@@ -1519,7 +1534,8 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-anglia-imperial
-  - id: HNSRC-0131
+    academy_links: [codex/2026/academy/theology/bookshelf-crosswalk.md]
+  - id: Shelf-0131
     title: Robinson Crusoe
     author: Daniel Defoe
     era: industrial
@@ -1532,7 +1548,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-anglia-imperial
-  - id: HNSRC-0132
+  - id: Shelf-0132
     title: Les MisÃ©rables
     author: Victor Hugo
     era: industrial
@@ -1545,7 +1561,8 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iii-france
-  - id: HNSRC-0133
+    academy_links: [codex/2026/academy/theology/bookshelf-crosswalk.md]
+  - id: Shelf-0133
     title: David Copperfield
     author: Charles Dickens
     era: industrial
@@ -1558,7 +1575,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-anglia-imperial
-  - id: HNSRC-0134
+  - id: Shelf-0134
     title: Love and Freindship
     author: Jane Austen
     era: industrial
@@ -1571,7 +1588,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-anglia-imperial
-  - id: HNSRC-0135
+  - id: Shelf-0135
     title: Sense and Sensibility
     author: Jane Austen
     era: industrial
@@ -1584,7 +1601,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-anglia-imperial
-  - id: HNSRC-0136
+  - id: Shelf-0136
     title: Pride and Prejudice
     author: Jane Austen
     era: industrial
@@ -1597,7 +1614,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-anglia-imperial
-  - id: HNSRC-0137
+  - id: Shelf-0137
     title: Mansfield Park
     author: Jane Austen
     era: industrial
@@ -1610,7 +1627,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-anglia-imperial
-  - id: HNSRC-0138
+  - id: Shelf-0138
     title: Emma
     author: Jane Austen
     era: industrial
@@ -1623,7 +1640,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-anglia-imperial
-  - id: HNSRC-0139
+  - id: Shelf-0139
     title: Northanger Abbey
     author: Jane Austen
     era: industrial
@@ -1636,7 +1653,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-anglia-imperial
-  - id: HNSRC-0140
+  - id: Shelf-0140
     title: Persuasion
     author: Jane Austen
     era: industrial
@@ -1649,7 +1666,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-anglia-imperial
-  - id: HNSRC-0141
+  - id: Shelf-0141
     title: Collected Stories
     author: Rudyard Kipling
     year: 1994
@@ -1665,7 +1682,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-anglia-imperial
-  - id: HNSRC-0142
+  - id: Shelf-0142
     title: The Three Musketeers
     author: Alexandre Dumas
     year: 2011
@@ -1681,7 +1698,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iii-france
-  - id: HNSRC-0143
+  - id: Shelf-0143
     title: Dr. Jekyll and Mr. Hyde and Other Stories
     author: Robert Louis Stevenson
     year: 1992
@@ -1696,7 +1713,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-anglia-imperial
-  - id: HNSRC-0144
+  - id: Shelf-0144
     title: In Search of Lost Time
     author: Marcel Proust
     era: industrial
@@ -1711,7 +1728,7 @@ items:
     candidate_hn_chapters:
     - hn-iii-france
     notes: Everyman's Library 4-volume slipcased set.
-  - id: HNSRC-0145
+  - id: Shelf-0145
     title: Selected Works
     author: Johann Wolfgang von Goethe
     year: 2000
@@ -1726,7 +1743,8 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-germany
-  - id: HNSRC-0146
+    academy_links: [codex/2026/academy/theology/bookshelf-crosswalk.md]
+  - id: Shelf-0146
     title: On War
     author: Carl von Clausewitz
     year: 1993
@@ -1742,7 +1760,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-germany
-  - id: HNSRC-0147
+  - id: Shelf-0147
     title: Byron's Travels
     author: Lord Byron
     year: 2024
@@ -1759,7 +1777,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-anglia-imperial
-  - id: HNSRC-0148
+  - id: Shelf-0148
     title: The Collected Stories
     author: Alexander Pushkin
     year: 1999
@@ -1775,7 +1793,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-russia-imperial
-  - id: HNSRC-0149
+  - id: Shelf-0149
     title: Novels, Tales, Journeys
     author: Alexander Pushkin
     year: 2024
@@ -1791,7 +1809,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-russia-imperial
-  - id: HNSRC-0150
+  - id: Shelf-0150
     title: Dead Souls
     author: Nikolai Gogol
     year: 1996
@@ -1807,7 +1825,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-russia-imperial
-  - id: HNSRC-0151
+  - id: Shelf-0151
     title: The Collected Tales
     author: Nikolai Gogol
     year: 2008
@@ -1823,7 +1841,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-russia-imperial
-  - id: HNSRC-0152
+  - id: Shelf-0152
     title: The Double and The Gambler
     author: Fyodor Dostoevsky
     year: 2005
@@ -1839,7 +1857,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-russia-imperial
-  - id: HNSRC-0153
+  - id: Shelf-0153
     title: Notes from a Dead House
     author: Fyodor Dostoevsky
     year: 2021
@@ -1855,7 +1873,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-russia-imperial
-  - id: HNSRC-0154
+  - id: Shelf-0154
     title: Notes from Underground
     author: Fyodor Dostoevsky
     year: 2004
@@ -1870,7 +1888,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-russia-imperial
-  - id: HNSRC-0155
+  - id: Shelf-0155
     title: Demons
     author: Fyodor Dostoevsky
     year: 2000
@@ -1886,7 +1904,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-russia-imperial
-  - id: HNSRC-0156
+  - id: Shelf-0156
     title: The Idiot
     author: Fyodor Dostoevsky
     year: 2002
@@ -1902,7 +1920,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-russia-imperial
-  - id: HNSRC-0157
+  - id: Shelf-0157
     title: Crime and Punishment
     author: Fyodor Dostoevsky
     year: 1993
@@ -1920,7 +1938,7 @@ items:
     candidate_hn_chapters:
     - hn-iv-russia-imperial
     notes: Everyman's Library and Penguin Clothbound editions on shelf.
-  - id: HNSRC-0158
+  - id: Shelf-0158
     title: The Turn of the Screw
     author: Henry James
     era: industrial
@@ -1933,7 +1951,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-america
-  - id: HNSRC-0159
+  - id: Shelf-0159
     title: The Adventures of Huckleberry Finn
     author: Mark Twain
     era: industrial
@@ -1946,7 +1964,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-america
-  - id: HNSRC-0160
+  - id: Shelf-0160
     title: Treasure Island
     author: Robert Louis Stevenson
     era: industrial
@@ -1959,7 +1977,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-anglia-imperial
-  - id: HNSRC-0161
+  - id: Shelf-0161
     title: The Jungle Books
     author: Rudyard Kipling
     era: industrial
@@ -1972,7 +1990,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-anglia-imperial
-  - id: HNSRC-0162
+  - id: Shelf-0162
     title: Oliver Twist
     author: Charles Dickens
     era: industrial
@@ -1985,7 +2003,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-anglia-imperial
-  - id: HNSRC-0163
+  - id: Shelf-0163
     title: Bleak House
     author: Charles Dickens
     era: industrial
@@ -1998,7 +2016,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-anglia-imperial
-  - id: HNSRC-0164
+  - id: Shelf-0164
     title: Great Expectations
     author: Charles Dickens
     era: industrial
@@ -2011,7 +2029,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-anglia-imperial
-  - id: HNSRC-0165
+  - id: Shelf-0165
     title: A Tale of Two Cities
     author: Charles Dickens
     era: industrial
@@ -2024,7 +2042,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-anglia-imperial
-  - id: HNSRC-0166
+  - id: Shelf-0166
     title: Hard Times
     author: Charles Dickens
     era: industrial
@@ -2037,7 +2055,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-anglia-imperial
-  - id: HNSRC-0167
+  - id: Shelf-0167
     title: A Christmas Carol and Other Christmas Writings
     author: Charles Dickens
     era: industrial
@@ -2050,7 +2068,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-anglia-imperial
-  - id: HNSRC-0168
+  - id: Shelf-0168
     title: The Adventures of Sherlock Holmes
     author: Arthur Conan Doyle
     era: industrial
@@ -2063,7 +2081,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-anglia-imperial
-  - id: HNSRC-0169
+  - id: Shelf-0169
     title: The Hound of the Baskervilles
     author: Arthur Conan Doyle
     era: industrial
@@ -2076,7 +2094,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-anglia-imperial
-  - id: HNSRC-0170
+  - id: Shelf-0170
     title: Dracula
     author: Bram Stoker
     era: industrial
@@ -2089,7 +2107,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-anglia-imperial
-  - id: HNSRC-0171
+  - id: Shelf-0171
     title: Nineteen Eighty-Four
     author: George Orwell
     era: industrial
@@ -2102,7 +2120,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-anglia-imperial
-  - id: HNSRC-0172
+  - id: Shelf-0172
     title: The Strange Case of Dr Jekyll and Mr Hyde
     author: Robert Louis Stevenson
     era: industrial
@@ -2115,7 +2133,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-anglia-imperial
-  - id: HNSRC-0173
+  - id: Shelf-0173
     title: The War of the Worlds
     author: H. G. Wells
     era: industrial
@@ -2128,7 +2146,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-anglia-imperial
-  - id: HNSRC-0174
+  - id: Shelf-0174
     title: The Pearl
     author: John Steinbeck
     era: industrial
@@ -2141,7 +2159,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-america
-  - id: HNSRC-0175
+  - id: Shelf-0175
     title: The Outsider
     author: Albert Camus
     era: industrial
@@ -2154,7 +2172,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iii-france
-  - id: HNSRC-0176
+  - id: Shelf-0176
     title: The Little Prince
     author: Antoine de Saint-ExupÃ©ry
     era: industrial
@@ -2167,7 +2185,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iii-france
-  - id: HNSRC-0177
+  - id: Shelf-0177
     title: Animal Farm
     author: George Orwell
     era: industrial
@@ -2180,7 +2198,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-anglia-imperial
-  - id: HNSRC-0178
+  - id: Shelf-0178
     title: Tinker Tailor Soldier Spy
     author: John le CarrÃ©
     era: industrial
@@ -2193,7 +2211,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-anglia-imperial
-  - id: HNSRC-0179
+  - id: Shelf-0179
     title: Jane Eyre
     author: Charlotte BrontÃ«
     era: industrial
@@ -2206,7 +2224,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-anglia-imperial
-  - id: HNSRC-0180
+  - id: Shelf-0180
     title: Villette
     author: Charlotte BrontÃ«
     era: industrial
@@ -2219,7 +2237,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-anglia-imperial
-  - id: HNSRC-0181
+  - id: Shelf-0181
     title: Wuthering Heights
     author: Emily BrontÃ«
     era: industrial
@@ -2232,7 +2250,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-anglia-imperial
-  - id: HNSRC-0182
+  - id: Shelf-0182
     title: The Tenant of Wildfell Hall
     author: Anne BrontÃ«
     era: industrial
@@ -2245,7 +2263,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-anglia-imperial
-  - id: HNSRC-0183
+  - id: Shelf-0183
     title: Moby-Dick
     author: Herman Melville
     era: industrial
@@ -2258,7 +2276,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-america
-  - id: HNSRC-0184
+  - id: Shelf-0184
     title: Alice's Adventures in Wonderland and Through the Looking-Glass
     author: Lewis Carroll
     era: industrial
@@ -2271,7 +2289,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-anglia-imperial
-  - id: HNSRC-0185
+  - id: Shelf-0185
     title: Jabberwocky and Other Nonsense
     author: Lewis Carroll
     era: industrial
@@ -2285,7 +2303,7 @@ items:
     candidate_hn_chapters:
     - hn-iv-anglia-imperial
     notes: Verify exact collected-title string on your Penguin edition.
-  - id: HNSRC-0186
+  - id: Shelf-0186
     title: Grimm Tales
     author: Philip Pullman
     era: industrial
@@ -2298,7 +2316,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-anglia-imperial
-  - id: HNSRC-0187
+  - id: Shelf-0187
     title: Frankenstein
     author: Mary Shelley
     era: industrial
@@ -2311,7 +2329,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-anglia-imperial
-  - id: HNSRC-0188
+  - id: Shelf-0188
     title: The Origin of Species and The Voyage of the Beagle
     author: Charles Darwin
     year: 2012
@@ -2327,7 +2345,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-anglia-imperial
-  - id: HNSRC-0189
+  - id: Shelf-0189
     title: The Cossacks
     author: Leo Tolstoy
     year: 1994
@@ -2346,7 +2364,7 @@ items:
     - hn-iv-russia-imperial
     notes: Everyman's Library copy; Little Black Classics edition also on shelf â€” one
       catalog row.
-  - id: HNSRC-0190
+  - id: Shelf-0190
     title: Childhood, Boyhood, and Youth
     author: Leo Tolstoy
     year: 1991
@@ -2362,7 +2380,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-russia-imperial
-  - id: HNSRC-0191
+  - id: Shelf-0191
     title: Collected Shorter Fiction Volume 1
     author: Leo Tolstoy
     year: 2001
@@ -2378,7 +2396,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-russia-imperial
-  - id: HNSRC-0192
+  - id: Shelf-0192
     title: Collected Shorter Fiction Volume 2
     author: Leo Tolstoy
     year: 2001
@@ -2394,7 +2412,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-russia-imperial
-  - id: HNSRC-0193
+  - id: Shelf-0193
     title: War and Peace
     author: Leo Tolstoy
     era: industrial
@@ -2407,7 +2425,8 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-russia-imperial
-  - id: HNSRC-0194
+    academy_links: [codex/2026/academy/theology/bookshelf-crosswalk.md]
+  - id: Shelf-0194
     title: Anna Karenina
     author: Leo Tolstoy
     era: industrial
@@ -2420,7 +2439,8 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-russia-imperial
-  - id: HNSRC-0195
+    academy_links: [codex/2026/academy/theology/bookshelf-crosswalk.md]
+  - id: Shelf-0195
     title: The Brothers Karamazov
     author: Fyodor Dostoevsky
     era: industrial
@@ -2433,7 +2453,8 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-russia-imperial
-  - id: HNSRC-0196
+    academy_links: [codex/2026/academy/theology/bookshelf-crosswalk.md]
+  - id: Shelf-0196
     title: The Adolescent
     author: Fyodor Dostoevsky
     year: 2003
@@ -2449,7 +2470,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-russia-imperial
-  - id: HNSRC-0197
+  - id: Shelf-0197
     title: Reflections on the Revolution in France
     author: Edmund Burke
     year: 2015
@@ -2465,7 +2486,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-anglia-imperial
-  - id: HNSRC-0198
+  - id: Shelf-0198
     title: The Complete Short Novels
     author: Anton Chekhov
     year: 2004
@@ -2481,7 +2502,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-russia-imperial
-  - id: HNSRC-0199
+  - id: Shelf-0199
     title: The Wealth of Nations
     author: Adam Smith
     year: 1991
@@ -2496,7 +2517,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-anglia-imperial
-  - id: HNSRC-0200
+  - id: Shelf-0200
     title: The Poems
     author: John Keats
     year: 1992
@@ -2512,7 +2533,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-anglia-imperial
-  - id: HNSRC-0201
+  - id: Shelf-0201
     title: Fathers and Children
     author: Ivan Turgenev
     year: 2011
@@ -2528,7 +2549,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-russia-imperial
-  - id: HNSRC-0202
+  - id: Shelf-0202
     title: Three Novels
     author: Jules Verne
     year: 2013
@@ -2545,7 +2566,7 @@ items:
     candidate_hn_chapters:
     - hn-iii-france
     notes: Two identical Everyman's Library copies on shelf.
-  - id: HNSRC-0203
+  - id: Shelf-0203
     title: Journey to the Centre of the Earth, Twenty Thousand Leagues Under the Sea,
       Around the World in Eighty Days
     author: Jules Verne
@@ -2563,7 +2584,7 @@ items:
     candidate_hn_chapters:
     - hn-iii-france
     notes: Single-volume omnibus; illustrated spine edition.
-  - id: HNSRC-0204
+  - id: Shelf-0204
     title: Typhoon and Other Stories
     author: Joseph Conrad
     era: industrial
@@ -2577,7 +2598,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-anglia-imperial
-  - id: HNSRC-0205
+  - id: Shelf-0205
     title: Lord Jim
     author: Joseph Conrad
     year: 1992
@@ -2594,7 +2615,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-anglia-imperial
-  - id: HNSRC-0206
+  - id: Shelf-0206
     title: Heart of Darkness
     author: Joseph Conrad
     year: 1993
@@ -2611,7 +2632,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-anglia-imperial
-  - id: HNSRC-0207
+  - id: Shelf-0207
     title: Victory
     author: Joseph Conrad
     era: industrial
@@ -2625,7 +2646,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-anglia-imperial
-  - id: HNSRC-0208
+  - id: Shelf-0208
     title: The Time Machine, The Invisible Man, The War of the Worlds
     author: H. G. Wells
     year: 2011
@@ -2641,7 +2662,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-anglia-imperial
-  - id: HNSRC-0209
+  - id: Shelf-0209
     title: Kim
     author: Rudyard Kipling
     year: 1995
@@ -2657,7 +2678,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-anglia-imperial
-  - id: HNSRC-0210
+  - id: Shelf-0210
     title: White Nights
     author: Fyodor Dostoevsky
     era: industrial
@@ -2670,7 +2691,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-russia-imperial
-  - id: HNSRC-0211
+  - id: Shelf-0211
     title: The Prince
     author: NiccolÃ² Machiavelli
     era: colonial
@@ -2683,7 +2704,7 @@ items:
     hn_volume: vol-iii
     candidate_hn_chapters:
     - hn-iii-france
-  - id: HNSRC-0212
+  - id: Shelf-0212
     title: Utopia
     author: Thomas More
     era: colonial
@@ -2696,7 +2717,7 @@ items:
     hn_volume: vol-iii
     candidate_hn_chapters:
     - hn-iv-anglia-imperial
-  - id: HNSRC-0213
+  - id: Shelf-0213
     title: Essays and Aphorisms
     author: Arthur Schopenhauer
     era: industrial
@@ -2709,7 +2730,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-germany
-  - id: HNSRC-0214
+  - id: Shelf-0214
     title: Beyond Good and Evil
     author: Friedrich Nietzsche
     era: industrial
@@ -2722,7 +2743,8 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-germany
-  - id: HNSRC-0215
+    academy_links: [codex/2026/academy/theology/bookshelf-crosswalk.md]
+  - id: Shelf-0215
     title: The Communist Manifesto
     author: "Karl Marx & Friedrich Engels"
     era: industrial
@@ -2735,7 +2757,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-germany
-  - id: HNSRC-0216
+  - id: Shelf-0216
     title: Fear and Trembling
     author: SÃ¸ren Kierkegaard
     era: industrial
@@ -2748,7 +2770,8 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-germany
-  - id: HNSRC-0217
+    academy_links: [codex/2026/academy/theology/bookshelf-crosswalk.md]
+  - id: Shelf-0217
     title: Civilization and Its Discontents
     author: Sigmund Freud
     era: industrial
@@ -2761,7 +2784,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-germany
-  - id: HNSRC-0218
+  - id: Shelf-0218
     title: Babylon Revisited
     author: F. Scott Fitzgerald
     era: industrial
@@ -2774,7 +2797,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-america
-  - id: HNSRC-0219
+  - id: Shelf-0219
     title: The Lagoon
     author: Joseph Conrad
     era: industrial
@@ -2788,7 +2811,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-anglia-imperial
-  - id: HNSRC-0220
+  - id: Shelf-0220
     title: The Nutcracker
     author: E. T. A. Hoffmann
     era: industrial
@@ -2801,7 +2824,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-germany
-  - id: HNSRC-0221
+  - id: Shelf-0221
     title: The Adventure of the Blue Carbuncle
     author: Arthur Conan Doyle
     era: industrial
@@ -2814,7 +2837,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-anglia-imperial
-  - id: HNSRC-0222
+  - id: Shelf-0222
     title: Of Mice and Men
     author: John Steinbeck
     era: industrial
@@ -2827,7 +2850,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-america
-  - id: HNSRC-0223
+  - id: Shelf-0223
     title: Lady Susan
     author: Jane Austen
     era: industrial
@@ -2840,7 +2863,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-anglia-imperial
-  - id: HNSRC-0224
+  - id: Shelf-0224
     title: Metamorphosis
     author: Franz Kafka
     era: industrial
@@ -2854,7 +2877,7 @@ items:
     candidate_hn_chapters:
     - hn-iv-germany
     notes: Two copies on shelf.
-  - id: HNSRC-0225
+  - id: Shelf-0225
     title: The Queen of Spades
     author: Alexander Pushkin
     era: industrial
@@ -2867,7 +2890,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-russia-imperial
-  - id: HNSRC-0226
+  - id: Shelf-0226
     title: About Love
     author: Anton Chekhov
     era: industrial
@@ -2880,7 +2903,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-russia-imperial
-  - id: HNSRC-0227
+  - id: Shelf-0227
     title: Novels and Stories 1920â€“1922
     author: F. Scott Fitzgerald
     year: 2000
@@ -2896,7 +2919,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-america
-  - id: HNSRC-0228
+  - id: Shelf-0228
     title: "The Great Gatsby, All the Sad Young Men & Other Writings 1920â€“1926"
     author: F. Scott Fitzgerald
     year: 2022
@@ -2912,7 +2935,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-america
-  - id: HNSRC-0229
+  - id: Shelf-0229
     title: A Tramp Abroad, Following the Equator, Other Travels
     author: Mark Twain
     year: 2010
@@ -2928,7 +2951,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-america
-  - id: HNSRC-0230
+  - id: Shelf-0230
     title: Historical Romances
     author: Mark Twain
     year: 1994
@@ -2944,7 +2967,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-america
-  - id: HNSRC-0231
+  - id: Shelf-0231
     title: "Collected Tales, Sketches, Speeches, & Essays 1891â€“1910"
     author: Mark Twain
     year: 1992
@@ -2960,7 +2983,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-america
-  - id: HNSRC-0232
+  - id: Shelf-0232
     title: Mississippi Writings
     author: Mark Twain
     era: industrial
@@ -2973,7 +2996,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-america
-  - id: HNSRC-0233
+  - id: Shelf-0233
     title: "The Gilded Age & Later Novels"
     author: Mark Twain
     year: 2002
@@ -2989,7 +3012,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-america
-  - id: HNSRC-0234
+  - id: Shelf-0234
     title: Novels and Stories 1932â€“1937
     author: John Steinbeck
     year: 1994
@@ -3005,7 +3028,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-america
-  - id: HNSRC-0235
+  - id: Shelf-0235
     title: Novels 1942â€“1952
     author: John Steinbeck
     era: industrial
@@ -3018,7 +3041,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-america
-  - id: HNSRC-0236
+  - id: Shelf-0236
     title: "Pierre, Israel Potter, The Confidence-Man, Tales, & Billy Budd"
     author: Herman Melville
     year: 1985
@@ -3034,7 +3057,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-america
-  - id: HNSRC-0237
+  - id: Shelf-0237
     title: Jude the Obscure
     author: Thomas Hardy
     era: industrial
@@ -3047,7 +3070,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-anglia-imperial
-  - id: HNSRC-0238
+  - id: Shelf-0238
     title: Far from the Madding Crowd
     author: Thomas Hardy
     era: industrial
@@ -3060,7 +3083,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-anglia-imperial
-  - id: HNSRC-0239
+  - id: Shelf-0239
     title: The Mayor of Casterbridge
     author: Thomas Hardy
     era: industrial
@@ -3073,7 +3096,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-anglia-imperial
-  - id: HNSRC-0240
+  - id: Shelf-0240
     title: Tess of the D'Urbervilles
     author: Thomas Hardy
     era: industrial
@@ -3088,7 +3111,7 @@ items:
     - hn-iv-anglia-imperial
   # --- Shelf photos 2026-04-21 batch 2 (assets photo_2026-04-21_13.15*) â€” 56 rows ---
 
-  - id: HNSRC-0241
+  - id: Shelf-0241
     title: "The Crisis of the Old Order, 1919-1923"
     author: "Arthur M. Schlesinger Jr."
     year: 2003
@@ -3100,7 +3123,7 @@ items:
     primary_arc: america
     hn_volume: vol-iv
     candidate_hn_chapters: ['hn-iv-america']
-  - id: HNSRC-0242
+  - id: Shelf-0242
     title: "The Coming of the New Deal"
     author: "Arthur M. Schlesinger Jr."
     year: 2003
@@ -3112,7 +3135,7 @@ items:
     primary_arc: america
     hn_volume: vol-iv
     candidate_hn_chapters: ['hn-iv-america']
-  - id: HNSRC-0243
+  - id: Shelf-0243
     title: "The Politics of Upheaval"
     author: "Arthur M. Schlesinger Jr."
     year: 2003
@@ -3124,7 +3147,7 @@ items:
     primary_arc: america
     hn_volume: vol-iv
     candidate_hn_chapters: ['hn-iv-america']
-  - id: HNSRC-0244
+  - id: Shelf-0244
     title: "1453: The Holy War for Constantinople and the Clash of Islam and the West"
     author: "Roger Crowley"
     year: 2006
@@ -3135,7 +3158,7 @@ items:
     tags: ['Byzantium', 'Ottoman', 'Mediterranean', 'Hyperion', 'shelf photo 2026-04-21', '2026-04-21-bookshelf-photos-2']
     hn_volume: vol-ii
     candidate_hn_chapters: ['hn-ii-rome-byzantine', 'hn-iii-ottoman']
-  - id: HNSRC-0245
+  - id: Shelf-0245
     title: "Conquerors: How Portugal Forged the First Global Empire"
     author: "Roger Crowley"
     year: 2015
@@ -3147,7 +3170,7 @@ items:
     hn_volume: vol-iii
     candidate_hn_chapters: ['hn-iii-ottoman', 'hn-iv-anglia-imperial']
     notes: "Spine Conquerors; full title may vary by edition."
-  - id: HNSRC-0246
+  - id: Shelf-0246
     title: "Empires of the Sea: The Siege of Malta, the Battle of Lepanto, and the Contest for the Center of the World"
     author: "Roger Crowley"
     year: 2008
@@ -3158,7 +3181,7 @@ items:
     tags: ['Mediterranean', 'naval', 'Habsburg', 'Ottoman', 'Random House', 'shelf photo 2026-04-21', '2026-04-21-bookshelf-photos-2']
     hn_volume: vol-iii
     candidate_hn_chapters: ['hn-iii-ottoman', 'hn-iii-france']
-  - id: HNSRC-0247
+  - id: Shelf-0247
     title: "City of Fortune: How Venice Ruled the Seas"
     author: "Roger Crowley"
     era: colonial
@@ -3166,7 +3189,7 @@ items:
     tags: ['Venice', 'trade', 'Mediterranean', 'navy', 'shelf photo 2026-04-21', '2026-04-21-bookshelf-photos-2']
     hn_volume: vol-iii
     candidate_hn_chapters: ['hn-iii-ottoman', 'hn-iv-anglia-imperial']
-  - id: HNSRC-0248
+  - id: Shelf-0248
     title: "Spice: The 16th-Century Contest that Shaped the Modern World"
     author: "Roger Crowley"
     year: 2024
@@ -3178,7 +3201,7 @@ items:
     hn_volume: vol-iii
     candidate_hn_chapters: ['hn-iii-ottoman', 'hn-iv-anglia-imperial']
     notes: "Confirm subtitle on your edition; spine may read SPICE only."
-  - id: HNSRC-0249
+  - id: Shelf-0249
     title: "The Accursed Tower: The Fall of Acre and the End of the Crusades"
     author: "Roger Crowley"
     year: 2019
@@ -3189,7 +3212,7 @@ items:
     tags: ['Crusades', 'Acre', 'Levant', '1291', 'shelf photo 2026-04-21', '2026-04-21-bookshelf-photos-2']
     hn_volume: vol-ii
     candidate_hn_chapters: ['hn-ii-rome-byzantine', 'hn-iii-ottoman']
-  - id: HNSRC-0250
+  - id: Shelf-0250
     title: "Alfred the Great: The Man Who Made England"
     author: "Justin Pollard"
     year: 2005
@@ -3200,7 +3223,7 @@ items:
     tags: ['England', 'Anglo-Saxon', 'Wessex', 'biography', 'shelf photo 2026-04-21', '2026-04-21-bookshelf-photos-2']
     hn_volume: vol-ii
     candidate_hn_chapters: ['hn-iii-anglia', 'hn-ii-rome-byzantine']
-  - id: HNSRC-0251
+  - id: Shelf-0251
     title: "The Years of Lyndon Johnson: The Path to Power"
     author: "Robert A. Caro"
     year: 1982
@@ -3213,7 +3236,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters: ['hn-iv-america']
     notes: "Caro vol. 1"
-  - id: HNSRC-0252
+  - id: Shelf-0252
     title: "The Years of Lyndon Johnson: Means of Ascent"
     author: "Robert A. Caro"
     year: 1990
@@ -3226,7 +3249,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters: ['hn-iv-america']
     notes: "Caro vol. 2"
-  - id: HNSRC-0253
+  - id: Shelf-0253
     title: "The Years of Lyndon Johnson: Master of the Senate"
     author: "Robert A. Caro"
     year: 2002
@@ -3239,7 +3262,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters: ['hn-iv-america']
     notes: "Caro vol. 3"
-  - id: HNSRC-0254
+  - id: Shelf-0254
     title: "The Years of Lyndon Johnson: The Passage of Power"
     author: "Robert A. Caro"
     year: 2012
@@ -3252,7 +3275,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters: ['hn-iv-america']
     notes: "Caro vol. 4"
-  - id: HNSRC-0255
+  - id: Shelf-0255
     title: "George Marshall: Defender of the Republic"
     author: "David L. Roll"
     year: 2019
@@ -3264,7 +3287,7 @@ items:
     primary_arc: america
     hn_volume: vol-iv
     candidate_hn_chapters: ['hn-iv-america']
-  - id: HNSRC-0256
+  - id: Shelf-0256
     title: "The General vs. the President: MacArthur and Truman at the Brink of Nuclear War"
     author: "H. W. Brands"
     year: 2017
@@ -3276,7 +3299,7 @@ items:
     primary_arc: america
     hn_volume: vol-iv
     candidate_hn_chapters: ['hn-iv-america']
-  - id: HNSRC-0257
+  - id: Shelf-0257
     title: "Truman"
     author: "David McCullough"
     year: 1992
@@ -3288,7 +3311,7 @@ items:
     primary_arc: america
     hn_volume: vol-iv
     candidate_hn_chapters: ['hn-iv-america']
-  - id: HNSRC-0258
+  - id: Shelf-0258
     title: "Eisenhower: Soldier and President"
     author: "Stephen E. Ambrose"
     year: 1991
@@ -3301,7 +3324,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters: ['hn-iv-america']
     notes: "Abridged S&S one-volume; two printings (spine color variants) on shelfâ€”dedupe on ISBN."
-  - id: HNSRC-0259
+  - id: Shelf-0259
     title: "Nixon: The Education of a Politician, 1913-1962"
     author: "Stephen E. Ambrose"
     year: 1987
@@ -3313,7 +3336,7 @@ items:
     primary_arc: america
     hn_volume: vol-iv
     candidate_hn_chapters: ['hn-iv-america']
-  - id: HNSRC-0260
+  - id: Shelf-0260
     title: "Nixon: The Triumph of a Politician, 1962-1972"
     author: "Stephen E. Ambrose"
     year: 1989
@@ -3325,7 +3348,7 @@ items:
     primary_arc: america
     hn_volume: vol-iv
     candidate_hn_chapters: ['hn-iv-america']
-  - id: HNSRC-0261
+  - id: Shelf-0261
     title: "Nixon: Ruin and Recovery, 1973-1990"
     author: "Stephen E. Ambrose"
     year: 1991
@@ -3337,7 +3360,7 @@ items:
     primary_arc: america
     hn_volume: vol-iv
     candidate_hn_chapters: ['hn-iv-america']
-  - id: HNSRC-0262
+  - id: Shelf-0262
     title: "Democracy in America"
     author: "Alexis de Tocqueville"
     year: 2004
@@ -3348,7 +3371,7 @@ items:
     tags: ['America', 'political thought', 'Library of America', 'nineteenth century', 'shelf photo 2026-04-21', '2026-04-21-bookshelf-photos-2']
     hn_volume: vol-iv
     candidate_hn_chapters: ['hn-iv-america', 'hn-iii-france']
-  - id: HNSRC-0263
+  - id: Shelf-0263
     title: "T. R.: The Last Romantic"
     author: "H. W. Brands"
     year: 2019
@@ -3360,7 +3383,7 @@ items:
     primary_arc: america
     hn_volume: vol-iv
     candidate_hn_chapters: ['hn-iv-america']
-  - id: HNSRC-0264
+  - id: Shelf-0264
     title: "Traitor to His Class: The Privileged Life and Radical Presidency of Franklin Delano Roosevelt"
     author: "H. W. Brands"
     year: 2009
@@ -3372,7 +3395,7 @@ items:
     primary_arc: america
     hn_volume: vol-iv
     candidate_hn_chapters: ['hn-iv-america']
-  - id: HNSRC-0265
+  - id: Shelf-0265
     title: "Kissinger: 1923-1968: The Idealist"
     author: "Niall Ferguson"
     year: 2015
@@ -3384,8 +3407,8 @@ items:
     primary_arc: america
     hn_volume: vol-v
     candidate_hn_chapters: ['hn-v-america-hegemonic', 'hn-iv-germany']
-    notes: "Publication 2010s; era=modern, vol-v. Volume 2 if purchased laterâ€”add new HNSRC."
-  - id: HNSRC-0266
+    notes: "Publication 2010s; era=modern, vol-v. Volume 2 if purchased laterâ€”add new Shelf."
+  - id: Shelf-0266
     title: "A Week, Walden, Maine Woods, Cape Cod"
     author: "Henry David Thoreau"
     year: 1989
@@ -3396,7 +3419,7 @@ items:
     tags: ['America', 'essays', 'transcendentalism', 'Library of America', 'shelf photo 2026-04-21', '2026-04-21-bookshelf-photos-2']
     hn_volume: vol-iv
     candidate_hn_chapters: ['hn-iv-america']
-  - id: HNSRC-0267
+  - id: Shelf-0267
     title: "Tales and Sketches"
     author: "Nathaniel Hawthorne"
     year: 1982
@@ -3407,7 +3430,7 @@ items:
     tags: ['America', 'short fiction', 'Library of America', 'shelf photo 2026-04-21', '2026-04-21-bookshelf-photos-2']
     hn_volume: vol-iv
     candidate_hn_chapters: ['hn-iv-america']
-  - id: HNSRC-0268
+  - id: Shelf-0268
     title: "Novels"
     author: "Nathaniel Hawthorne"
     year: 1983
@@ -3418,7 +3441,7 @@ items:
     tags: ['America', 'fiction', 'Library of America', 'shelf photo 2026-04-21', '2026-04-21-bookshelf-photos-2']
     hn_volume: vol-iv
     candidate_hn_chapters: ['hn-iv-america']
-  - id: HNSRC-0269
+  - id: Shelf-0269
     title: "Revolutionary Writings 1755-1775"
     author: "John Adams"
     year: 2011
@@ -3429,7 +3452,7 @@ items:
     tags: ['America', 'founding', 'Library of America', 'LOA vol. 1 of 2', 'shelf photo 2026-04-21', '2026-04-21-bookshelf-photos-2']
     hn_volume: vol-iv
     candidate_hn_chapters: ['hn-iv-america']
-  - id: HNSRC-0270
+  - id: Shelf-0270
     title: "Revolutionary Writings 1775-1783"
     author: "John Adams"
     year: 2011
@@ -3440,7 +3463,7 @@ items:
     tags: ['America', 'founding', 'Library of America', 'LOA vol. 2 of 2', 'shelf photo 2026-04-21', '2026-04-21-bookshelf-photos-2']
     hn_volume: vol-iv
     candidate_hn_chapters: ['hn-iv-america']
-  - id: HNSRC-0271
+  - id: Shelf-0271
     title: "Collected Poems & Translations"
     author: "Ralph Waldo Emerson"
     year: 1994
@@ -3451,7 +3474,7 @@ items:
     tags: ['America', 'poetry', 'transcendentalism', 'Library of America', 'shelf photo 2026-04-21', '2026-04-21-bookshelf-photos-2']
     hn_volume: vol-iv
     candidate_hn_chapters: ['hn-iv-america']
-  - id: HNSRC-0272
+  - id: Shelf-0272
     title: "Typee, Omoo, Mardi"
     author: "Herman Melville"
     year: 1982
@@ -3462,7 +3485,7 @@ items:
     tags: ['America', 'fiction', 'Library of America', 'maritime', 'LOA tranche 1', 'shelf photo 2026-04-21', '2026-04-21-bookshelf-photos-2']
     hn_volume: vol-iv
     candidate_hn_chapters: ['hn-iv-america']
-  - id: HNSRC-0273
+  - id: Shelf-0273
     title: "Redburn, White-Jacket, Moby-Dick"
     author: "Herman Melville"
     year: 1983
@@ -3473,7 +3496,7 @@ items:
     tags: ['America', 'fiction', 'Library of America', 'whaling', 'LOA tranche 2', 'shelf photo 2026-04-21', '2026-04-21-bookshelf-photos-2']
     hn_volume: vol-iv
     candidate_hn_chapters: ['hn-iv-america']
-  - id: HNSRC-0274
+  - id: Shelf-0274
     title: "The Grapes of Wrath & Other Writings 1936-1941"
     author: "John Steinbeck"
     year: 1996
@@ -3484,8 +3507,8 @@ items:
     tags: ['America', 'fiction', 'Great Depression', 'Library of America', 'shelf photo 2026-04-21', '2026-04-21-bookshelf-photos-2']
     hn_volume: vol-iv
     candidate_hn_chapters: ['hn-iv-america']
-    notes: "Distinct LOA dateline vs HNSRC-0234/0235 Steinbeck set."
-  - id: HNSRC-0275
+    notes: "Distinct LOA dateline vs Shelf-0234/0235 Steinbeck set."
+  - id: Shelf-0275
     title: "The Guns of August, The Proud Tower"
     author: "Barbara W. Tuchman"
     year: 2012
@@ -3496,7 +3519,7 @@ items:
     tags: ['America', 'WWI', 'narrative history', 'Library of America', 'Guns of August', 'shelf photo 2026-04-21', '2026-04-21-bookshelf-photos-2']
     hn_volume: vol-iv
     candidate_hn_chapters: ['hn-iv-america', 'hn-iv-germany', 'hn-iv-anglia-imperial']
-  - id: HNSRC-0276
+  - id: Shelf-0276
     title: "Tales, Sketches, Speeches, & Essays 1852-1890"
     author: "Mark Twain"
     year: 1992
@@ -3507,8 +3530,8 @@ items:
     tags: ['America', 'nonfiction', 'Library of America', 'Mark Twain', 'shelf photo 2026-04-21', '2026-04-21-bookshelf-photos-2']
     hn_volume: vol-iv
     candidate_hn_chapters: ['hn-iv-america']
-    notes: "Complements HNSRC-0229-0233 Twain LOA; date-sliced 1852-1890 vol."
-  - id: HNSRC-0277
+    notes: "Complements Shelf-0229-0233 Twain LOA; date-sliced 1852-1890 vol."
+  - id: Shelf-0277
     title: "The Sun Also Rises & Other Writings 1918-1926"
     author: "Ernest Hemingway"
     year: 2020
@@ -3519,7 +3542,7 @@ items:
     tags: ['America', 'fiction', 'Library of America', 'modernism', 'shelf photo 2026-04-21', '2026-04-21-bookshelf-photos-2']
     hn_volume: vol-iv
     candidate_hn_chapters: ['hn-iv-america', 'hn-iii-france']
-  - id: HNSRC-0278
+  - id: Shelf-0278
     title: "A Farewell to Arms & Other Writings 1927-1932"
     author: "Ernest Hemingway"
     year: 2024
@@ -3530,8 +3553,8 @@ items:
     tags: ['America', 'fiction', 'Library of America', 'LOA compendium', 'shelf photo 2026-04-21', '2026-04-21-bookshelf-photos-2']
     hn_volume: vol-iv
     candidate_hn_chapters: ['hn-iv-america', 'hn-iii-france']
-    notes: "Distinct from HNSRC-0258 Everyman A Farewell to Arms; LOA compendia."
-  - id: HNSRC-0279
+    notes: "Distinct from Shelf-0258 Everyman A Farewell to Arms; LOA compendia."
+  - id: Shelf-0279
     title: "The Illustrated Man, The October Country, Other Stories"
     author: "Ray Bradbury"
     year: 2022
@@ -3542,7 +3565,7 @@ items:
     tags: ['America', 'science fiction', 'Library of America', 'slipcase', 'LOA 1/2 box', 'shelf photo 2026-04-21', '2026-04-21-bookshelf-photos-2']
     hn_volume: vol-iv
     candidate_hn_chapters: ['hn-iv-america']
-  - id: HNSRC-0280
+  - id: Shelf-0280
     title: "Novels & Story Cycles"
     author: "Ray Bradbury"
     year: 2021
@@ -3553,7 +3576,7 @@ items:
     tags: ['America', 'science fiction', 'Library of America', 'slipcase', 'LOA 2/2 box', 'shelf photo 2026-04-21', '2026-04-21-bookshelf-photos-2']
     hn_volume: vol-iv
     candidate_hn_chapters: ['hn-iv-america']
-  - id: HNSRC-0281
+  - id: Shelf-0281
     title: "Novels & Stories 1950-1962"
     author: "Kurt Vonnegut"
     year: 2012
@@ -3564,7 +3587,7 @@ items:
     tags: ['America', 'science fiction', 'Library of America', 'slipcase', 'LOA 1/4 box', 'shelf photo 2026-04-21', '2026-04-21-bookshelf-photos-2']
     hn_volume: vol-iv
     candidate_hn_chapters: ['hn-iv-america']
-  - id: HNSRC-0282
+  - id: Shelf-0282
     title: "Novels & Stories 1963-1973"
     author: "Kurt Vonnegut"
     year: 2011
@@ -3575,7 +3598,7 @@ items:
     tags: ['America', 'science fiction', 'Library of America', 'slipcase', 'LOA 2/4 box', 'shelf photo 2026-04-21', '2026-04-21-bookshelf-photos-2']
     hn_volume: vol-iv
     candidate_hn_chapters: ['hn-iv-america']
-  - id: HNSRC-0283
+  - id: Shelf-0283
     title: "Novels 1976-1985"
     author: "Kurt Vonnegut"
     year: 2014
@@ -3586,7 +3609,7 @@ items:
     tags: ['America', 'science fiction', 'Library of America', 'slipcase', 'LOA 3/4 box', 'shelf photo 2026-04-21', '2026-04-21-bookshelf-photos-2']
     hn_volume: vol-iv
     candidate_hn_chapters: ['hn-iv-america']
-  - id: HNSRC-0284
+  - id: Shelf-0284
     title: "Novels 1987-1997"
     author: "Kurt Vonnegut"
     year: 2016
@@ -3597,7 +3620,7 @@ items:
     tags: ['America', 'science fiction', 'Library of America', 'slipcase', 'LOA 4/4 box', 'shelf photo 2026-04-21', '2026-04-21-bookshelf-photos-2']
     hn_volume: vol-iv
     candidate_hn_chapters: ['hn-iv-america']
-  - id: HNSRC-0285
+  - id: Shelf-0285
     title: "The Magician's Nephew"
     author: "C. S. Lewis"
     era: industrial
@@ -3606,7 +3629,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters: ['hn-iv-anglia-imperial']
     notes: "Narnia box set; publication-order shelf index 1/7."
-  - id: HNSRC-0286
+  - id: Shelf-0286
     title: "The Lion, the Witch and the Wardrobe"
     author: "C. S. Lewis"
     era: industrial
@@ -3615,7 +3638,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters: ['hn-iv-anglia-imperial']
     notes: "Narnia box set; publication-order shelf index 2/7."
-  - id: HNSRC-0287
+  - id: Shelf-0287
     title: "The Horse and His Boy"
     author: "C. S. Lewis"
     era: industrial
@@ -3624,7 +3647,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters: ['hn-iv-anglia-imperial']
     notes: "Narnia box set; publication-order shelf index 3/7."
-  - id: HNSRC-0288
+  - id: Shelf-0288
     title: "Prince Caspian"
     author: "C. S. Lewis"
     era: industrial
@@ -3633,7 +3656,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters: ['hn-iv-anglia-imperial']
     notes: "Narnia box set; publication-order shelf index 4/7."
-  - id: HNSRC-0289
+  - id: Shelf-0289
     title: "The Voyage of the Dawn Treader"
     author: "C. S. Lewis"
     era: industrial
@@ -3642,7 +3665,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters: ['hn-iv-anglia-imperial']
     notes: "Narnia box set; publication-order shelf index 5/7."
-  - id: HNSRC-0290
+  - id: Shelf-0290
     title: "The Silver Chair"
     author: "C. S. Lewis"
     era: industrial
@@ -3651,7 +3674,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters: ['hn-iv-anglia-imperial']
     notes: "Narnia box set; publication-order shelf index 6/7."
-  - id: HNSRC-0291
+  - id: Shelf-0291
     title: "The Last Battle"
     author: "C. S. Lewis"
     era: industrial
@@ -3660,7 +3683,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters: ['hn-iv-anglia-imperial']
     notes: "Narnia box set; publication-order shelf index 7/7."
-  - id: HNSRC-0292
+  - id: Shelf-0292
     title: "Einstein: His Life and Universe"
     author: "Walter Isaacson"
     year: 2008
@@ -3671,7 +3694,7 @@ items:
     tags: ['science', 'physics', 'biography', 'twentieth century', 'S&S', 'Isaacson', 'shelf photo 2026-04-21', '2026-04-21-bookshelf-photos-2']
     hn_volume: vol-iv
     candidate_hn_chapters: ['hn-iv-america', 'hn-iv-germany']
-  - id: HNSRC-0293
+  - id: Shelf-0293
     title: "The Road to Stalingrad: Stalin's War with Germany, Vol. 1"
     author: "John Erickson"
     year: 2003
@@ -3682,7 +3705,7 @@ items:
     tags: ['Eastern Front', 'WWII', 'Soviet', 'military', 'Erickson', 'shelf photo 2026-04-21', '2026-04-21-bookshelf-photos-2']
     hn_volume: vol-iv
     candidate_hn_chapters: ['hn-iv-russia-imperial', 'hn-iv-germany']
-  - id: HNSRC-0294
+  - id: Shelf-0294
     title: "The Road to Berlin: Stalin's War with Germany, Vol. 2"
     author: "John Erickson"
     year: 2003
@@ -3693,7 +3716,7 @@ items:
     tags: ['Eastern Front', 'WWII', 'Soviet', 'military', 'Erickson', 'shelf photo 2026-04-21', '2026-04-21-bookshelf-photos-2']
     hn_volume: vol-iv
     candidate_hn_chapters: ['hn-iv-russia-imperial', 'hn-iv-germany']
-  - id: HNSRC-0295
+  - id: Shelf-0295
     title: "Mark Twain"
     author: "Ron Chernow"
     year: 2025
@@ -3705,8 +3728,8 @@ items:
     primary_arc: america
     hn_volume: vol-iv
     candidate_hn_chapters: ['hn-iv-america']
-    notes: "Biography of Twain; distinct from HNSRC-0229+ Twain first-person works."
-  - id: HNSRC-0296
+    notes: "Biography of Twain; distinct from Shelf-0229+ Twain first-person works."
+  - id: Shelf-0296
     title: "The Templars: The Rise and Spectacular Fall of God's Holy Warriors"
     author: "Dan Jones"
     year: 2018
@@ -3717,7 +3740,7 @@ items:
     tags: ['Crusades', 'Templars', 'military orders', 'Viking', 'shelf photo 2026-04-21', '2026-04-21-bookshelf-photos-2']
     hn_volume: vol-ii
     candidate_hn_chapters: ['hn-ii-rome-byzantine', 'hn-ii-islam', 'hn-iv-anglia-imperial']
-  - id: HNSRC-0297
+  - id: Shelf-0297
     title: "Gandhi & Churchill: The Epic Rivalry That Destroyed an Empire and Forged Our Age"
     author: "Arthur Herman"
     year: 2008
@@ -3731,7 +3754,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters: ['hn-iv-anglia-imperial', 'hn-v-america-hegemonic']
     notes: "Spine from partial photo; confirm edition. Primary era industrial; content spans into Cold War / partition â€” use eras."
-  - id: HNSRC-0298
+  - id: Shelf-0298
     title: "American Caesar: Douglas MacArthur 1880-1964"
     author: "William Manchester"
     year: 2008
@@ -3744,4 +3767,38 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters: ['hn-iv-america']
     notes: "Common one-volume; matches MacArthur + Cold War back-cover blurb in partial shelf photo. Confirm your printing."
+
+  - id: Shelf-0299
+    title: "The Koran"
+    author: "Various"
+    era: medieval
+    added_batch: "2026-05-16-academy-theology-crosswalk"
+    tags: [Islam, Quran, Koran, scripture, religion]
+    hn_volume: vol-ii
+    candidate_hn_chapters: [hn-ii-islam]
+    academy_links: [codex/2026/academy/theology/bookshelf-crosswalk.md]
+    notes: "Academy theology bridge row; backfill exact edition, translator, year, ISBN, and publisher when physical copy is confirmed."
+
+  - id: Shelf-0300
+    title: "History of Western Philosophy"
+    author: "Bertrand Russell"
+    era: modern
+    added_batch: "2026-05-16-academy-theology-crosswalk"
+    tags: [philosophy, intellectual history, Western canon, synthesis]
+    hn_volume: vol-v
+    candidate_hn_chapters: [hn-v-america-hegemonic]
+    academy_links: [codex/2026/academy/theology/bookshelf-crosswalk.md]
+    notes: "Academy theology bridge row; used as the v1 map text for Western philosophy, including the Kant context. Backfill exact edition metadata when physical copy is confirmed."
+
+  - id: Shelf-0301
+    title: "Heart of Europe"
+    author: "Peter H. Wilson"
+    era: colonial
+    eras: [medieval, colonial, industrial]
+    added_batch: "2026-05-16-academy-theology-crosswalk"
+    tags: [Holy Roman Empire, Germany, Europe, Christianity, empire]
+    hn_volume: vol-iii
+    candidate_hn_chapters: [hn-ii-rome-byzantine, hn-iii-france, hn-iv-germany]
+    academy_links: [codex/2026/academy/theology/bookshelf-crosswalk.md]
+    notes: "Academy theology bridge row; paired with Kaldellis's The New Roman Empire for Eastern/Western Christian imperial comparison. Backfill exact edition metadata when physical copy is confirmed."
 

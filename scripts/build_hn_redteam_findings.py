@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """Generate counterfactual red-team findings for history-notebook chapters.
 
 Output:
@@ -110,11 +110,11 @@ def classify_claim(claim: str, anchors: list[str], status: str, cfg: dict) -> tu
     trigger_terms = [str(t).lower() for t in (disputed_cfg.get("trigger_terms") or [])]
     claim_l = claim.lower()
 
-    if len(anchors) >= int(supported_cfg.get("min_hnsrc", 2)) and status in {"drafted", "in-progress"}:
+    if len(anchors) >= int(supported_cfg.get("min_shelf", 2)) and status in {"drafted", "in-progress"}:
         return ("supported", "Anchoring depth and chapter maturity are acceptable for MVP.")
     if any(t in claim_l for t in trigger_terms):
         return ("disputed", "Absolute language detected; requires narrower scope and counter-evidence.")
-    if len(anchors) <= int(weak_cfg.get("max_hnsrc", 1)):
+    if len(anchors) <= int(weak_cfg.get("max_shelf", 1)):
         return ("weakly-supported", "Insufficient shelf anchoring for strong confidence.")
     return ("disputed", "Competing interpretations likely; add explicit rival thesis test.")
 
@@ -168,7 +168,7 @@ def build_markdown(rows: list[dict], findings: list[dict]) -> str:
             lines.append(f"  - {cc}")
         lines.append(f"- `remediation`: {f['remediation']}")
         lines.append(
-            f"- `supporting_hnsrc`: {', '.join(f'`{x}`' for x in f['supporting_hnsrc']) if f['supporting_hnsrc'] else '*(none)*'}"
+            f"- `supporting_shelf`: {', '.join(f'`{x}`' for x in f['supporting_shelf']) if f['supporting_shelf'] else '*(none)*'}"
         )
         lines.append("")
     return "\n".join(lines)
@@ -220,7 +220,7 @@ def main() -> int:
                 "claim": claim,
                 "counterclaims": counterclaims_for(claim, per_claim),
                 "remediation": rationale,
-                "supporting_hnsrc": ch_anchors[:5],
+                "supporting_shelf": ch_anchors[:5],
             }
         )
 

@@ -1,9 +1,9 @@
 # Shelf anchors by chapter (generated)
 
-**Do not edit by hand.** This file inverts [bookshelf-catalog.yaml](bookshelf-catalog.yaml) `candidate_hn_chapters` into **`hn-*` id → HNSRC list** (planning hints, not draft SSOT).
+**Do not edit by hand.** This file inverts [bookshelf-catalog.yaml](bookshelf-catalog.yaml) `candidate_hn_chapters` into **`hn-*` id → Shelf list** (planning hints, not draft SSOT).
 
 - Regenerate: `python3 scripts/hn_shelf_anchors.py`
-- **Lookup:** `python3 scripts/hn_shelf_anchors.py --hnsrc HNSRC-0001` or `--chapter hn-i-v1-01`
+- **Lookup:** `python3 scripts/hn_shelf_anchors.py --shelf Shelf-0001` or `--chapter hn-i-v1-01`
 - **Paste line** for a chapter file: `python3 scripts/hn_shelf_anchors.py --stub-line hn-i-v1-01`
 
 [book-architecture.yaml](../book-architecture.yaml) remains chapter SSOT for title and file path.
@@ -14,139 +14,139 @@
 
 ### hn-i-v1-01 — draft file `chapters/vol-i/v1-01.md`
 *Legitimacy After Conquest*
-- **HNSRC:** `HNSRC-0001`, `HNSRC-0002`, `HNSRC-0007`, `HNSRC-0008`, `HNSRC-0009`, `HNSRC-0012`, `HNSRC-0028`, `HNSRC-0036`, `HNSRC-0055`
+- **Shelf:** `Shelf-0001`, `Shelf-0002`, `Shelf-0007`, `Shelf-0008`, `Shelf-0009`, `Shelf-0012`, `Shelf-0028`, `Shelf-0036`, `Shelf-0055`
 
 ### hn-i-v1-02 — draft file `chapters/vol-i/v1-02.md`
 *Civilizational Endurance Under Defeat*
-- **HNSRC:** `HNSRC-0017`, `HNSRC-0020`, `HNSRC-0027`, `HNSRC-0043`, `HNSRC-0044`, `HNSRC-0055`
+- **Shelf:** `Shelf-0017`, `Shelf-0020`, `Shelf-0027`, `Shelf-0043`, `Shelf-0044`, `Shelf-0055`
 
 ### hn-i-v1-03 — draft file `chapters/vol-i/v1-03.md`
 *When Power Changes Shape*
-- **HNSRC:** `HNSRC-0010`, `HNSRC-0012`, `HNSRC-0028`, `HNSRC-0031`, `HNSRC-0032`, `HNSRC-0041`, `HNSRC-0042`, `HNSRC-0055`
+- **Shelf:** `Shelf-0010`, `Shelf-0012`, `Shelf-0028`, `Shelf-0031`, `Shelf-0032`, `Shelf-0041`, `Shelf-0042`, `Shelf-0055`
 
 ### hn-i-v1-04 — draft file `chapters/vol-i/v1-04.md`
 *Administration, Law, and the Long Run*
-- **HNSRC:** `HNSRC-0008`, `HNSRC-0017`, `HNSRC-0020`, `HNSRC-0027`, `HNSRC-0030`, `HNSRC-0031`, `HNSRC-0032`, `HNSRC-0035`, `HNSRC-0039`, `HNSRC-0040`, `HNSRC-0045`, `HNSRC-0051`, `HNSRC-0053`, `HNSRC-0054`, `HNSRC-0057`, `HNSRC-0058`
+- **Shelf:** `Shelf-0008`, `Shelf-0017`, `Shelf-0020`, `Shelf-0027`, `Shelf-0030`, `Shelf-0031`, `Shelf-0032`, `Shelf-0035`, `Shelf-0039`, `Shelf-0040`, `Shelf-0045`, `Shelf-0051`, `Shelf-0053`, `Shelf-0054`, `Shelf-0057`, `Shelf-0058`
 
 ### hn-i-v1-05 — draft file `chapters/vol-i/v1-05.md`
 *Expansion Ceilings, Glory, and Consolidation*
-- **HNSRC:** `HNSRC-0006`, `HNSRC-0011`, `HNSRC-0012`, `HNSRC-0017`, `HNSRC-0018`, `HNSRC-0019`, `HNSRC-0031`, `HNSRC-0032`, `HNSRC-0033`, `HNSRC-0034`, `HNSRC-0048`, `HNSRC-0051`, `HNSRC-0052`, `HNSRC-0057`
+- **Shelf:** `Shelf-0006`, `Shelf-0011`, `Shelf-0012`, `Shelf-0017`, `Shelf-0018`, `Shelf-0019`, `Shelf-0031`, `Shelf-0032`, `Shelf-0033`, `Shelf-0034`, `Shelf-0048`, `Shelf-0051`, `Shelf-0052`, `Shelf-0057`
 
 ### hn-i-v1-06 — draft file `chapters/vol-i/v1-06.md`
 *Sea Roads and Circulation Empires*
-- **HNSRC:** `HNSRC-0003`, `HNSRC-0007`, `HNSRC-0010`, `HNSRC-0018`, `HNSRC-0047`
+- **Shelf:** `Shelf-0003`, `Shelf-0007`, `Shelf-0010`, `Shelf-0018`, `Shelf-0047`
 
 ### hn-i-v1-07 — draft file `chapters/vol-i/v1-07.md`
 *Inclusion, Occupation, Annihilation*
-- **HNSRC:** `HNSRC-0001`, `HNSRC-0002`, `HNSRC-0007`, `HNSRC-0009`, `HNSRC-0013`, `HNSRC-0045`
+- **Shelf:** `Shelf-0001`, `Shelf-0002`, `Shelf-0007`, `Shelf-0009`, `Shelf-0013`, `Shelf-0045`
 
 ### hn-i-v1-08 — draft file `chapters/vol-i/v1-08.md`
 *Institutions Against Genius*
-- **HNSRC:** `HNSRC-0006`, `HNSRC-0027`, `HNSRC-0028`, `HNSRC-0030`, `HNSRC-0036`, `HNSRC-0037`, `HNSRC-0039`, `HNSRC-0042`
+- **Shelf:** `Shelf-0006`, `Shelf-0027`, `Shelf-0028`, `Shelf-0030`, `Shelf-0036`, `Shelf-0037`, `Shelf-0039`, `Shelf-0042`
 
 ### hn-i-v1-09 — draft file `chapters/vol-i/v1-09.md`
 *Copying, Standardization, Selective Absorption*
-- **HNSRC:** `HNSRC-0004`, `HNSRC-0017`, `HNSRC-0048`, `HNSRC-0049`
+- **Shelf:** `Shelf-0004`, `Shelf-0017`, `Shelf-0048`, `Shelf-0049`
 
 ### hn-i-v1-10 — draft file `chapters/vol-i/v1-10.md`
 *From Subjects to Stakeholders*
-- **HNSRC:** `HNSRC-0003`, `HNSRC-0008`, `HNSRC-0010`, `HNSRC-0030`, `HNSRC-0036`, `HNSRC-0037`, `HNSRC-0038`, `HNSRC-0040`, `HNSRC-0043`, `HNSRC-0044`, `HNSRC-0046`, `HNSRC-0047`, `HNSRC-0048`, `HNSRC-0049`, `HNSRC-0051`, `HNSRC-0053`, `HNSRC-0056`
+- **Shelf:** `Shelf-0003`, `Shelf-0008`, `Shelf-0010`, `Shelf-0030`, `Shelf-0036`, `Shelf-0037`, `Shelf-0038`, `Shelf-0040`, `Shelf-0043`, `Shelf-0044`, `Shelf-0046`, `Shelf-0047`, `Shelf-0048`, `Shelf-0049`, `Shelf-0051`, `Shelf-0053`, `Shelf-0056`
 
 ### hn-i-v1-11 — draft file `chapters/vol-i/v1-11.md`
 *Territorial Maximum, Strategic Maximum, Overreach*
-- **HNSRC:** `HNSRC-0001`, `HNSRC-0002`, `HNSRC-0003`, `HNSRC-0006`, `HNSRC-0009`, `HNSRC-0011`, `HNSRC-0018`, `HNSRC-0019`, `HNSRC-0033`, `HNSRC-0034`, `HNSRC-0035`, `HNSRC-0046`
+- **Shelf:** `Shelf-0001`, `Shelf-0002`, `Shelf-0003`, `Shelf-0006`, `Shelf-0009`, `Shelf-0011`, `Shelf-0018`, `Shelf-0019`, `Shelf-0033`, `Shelf-0034`, `Shelf-0035`, `Shelf-0046`
 
 ### hn-i-v1-12 — draft file `chapters/vol-i/v1-12.md`
 *Geography of Origin and Permanence*
-- **HNSRC:** `HNSRC-0015`, `HNSRC-0016`, `HNSRC-0033`, `HNSRC-0038`, `HNSRC-0055`, `HNSRC-0056`
+- **Shelf:** `Shelf-0015`, `Shelf-0016`, `Shelf-0033`, `Shelf-0038`, `Shelf-0055`, `Shelf-0056`
 
 ### hn-i-v1-13 — draft file `chapters/vol-i/v1-13.md`
 *Mechanism Failure at the Frontier*
-- **HNSRC:** `HNSRC-0005`, `HNSRC-0007`, `HNSRC-0015`, `HNSRC-0016`, `HNSRC-0019`, `HNSRC-0028`, `HNSRC-0033`, `HNSRC-0034`, `HNSRC-0045`
+- **Shelf:** `Shelf-0005`, `Shelf-0007`, `Shelf-0015`, `Shelf-0016`, `Shelf-0019`, `Shelf-0028`, `Shelf-0033`, `Shelf-0034`, `Shelf-0045`
 
 ### hn-i-v1-14 — draft file `chapters/vol-i/v1-14.md`
 *Elite Defection and the Shape of Defeat*
-- **HNSRC:** `HNSRC-0003`, `HNSRC-0010`, `HNSRC-0014`, `HNSRC-0019`, `HNSRC-0020`, `HNSRC-0027`, `HNSRC-0029`, `HNSRC-0030`, `HNSRC-0043`, `HNSRC-0044`, `HNSRC-0046`, `HNSRC-0047`, `HNSRC-0049`, `HNSRC-0056`, `HNSRC-0057`
+- **Shelf:** `Shelf-0003`, `Shelf-0010`, `Shelf-0014`, `Shelf-0019`, `Shelf-0020`, `Shelf-0027`, `Shelf-0029`, `Shelf-0030`, `Shelf-0043`, `Shelf-0044`, `Shelf-0046`, `Shelf-0047`, `Shelf-0049`, `Shelf-0056`, `Shelf-0057`
 
 ### hn-i-v1-15 — draft file `chapters/vol-i/v1-15.md`
 *Deflection and Ambivalence Toward Outside Orders*
-- **HNSRC:** `HNSRC-0015`, `HNSRC-0038`, `HNSRC-0039`, `HNSRC-0041`, `HNSRC-0052`
+- **Shelf:** `Shelf-0015`, `Shelf-0038`, `Shelf-0039`, `Shelf-0041`, `Shelf-0052`
 
 ### hn-i-v1-16 — draft file `chapters/vol-i/v1-16.md`
 *Non-Native Rule, Hybridity, Peak, Exhaustion*
-- **HNSRC:** `HNSRC-0008`, `HNSRC-0013`, `HNSRC-0014`, `HNSRC-0029`, `HNSRC-0036`, `HNSRC-0037`, `HNSRC-0038`, `HNSRC-0057`
+- **Shelf:** `Shelf-0008`, `Shelf-0013`, `Shelf-0014`, `Shelf-0029`, `Shelf-0036`, `Shelf-0037`, `Shelf-0038`, `Shelf-0057`
 
 ### hn-i-v1-17 — draft file `chapters/vol-i/v1-17.md`
 *Fragmentation and Monopoly of Authority*
-- **HNSRC:** `HNSRC-0004`, `HNSRC-0017`, `HNSRC-0020`, `HNSRC-0039`
+- **Shelf:** `Shelf-0004`, `Shelf-0017`, `Shelf-0020`, `Shelf-0039`
 
 ### hn-i-v1-18 — draft file `chapters/vol-i/v1-18.md`
 *Corridors, Exchange, Legibility, Aftermath of Conquest*
-- **HNSRC:** `HNSRC-0005`, `HNSRC-0013`, `HNSRC-0016`, `HNSRC-0034`, `HNSRC-0035`, `HNSRC-0045`, `HNSRC-0055`, `HNSRC-0056`, `HNSRC-0057`
+- **Shelf:** `Shelf-0005`, `Shelf-0013`, `Shelf-0016`, `Shelf-0034`, `Shelf-0035`, `Shelf-0045`, `Shelf-0055`, `Shelf-0056`, `Shelf-0057`
 
 ### hn-i-v1-19 — draft file `chapters/vol-i/v1-19.md`
 *Parity, Buffers, Exhaustion, Third Shock*
-- **HNSRC:** `HNSRC-0001`, `HNSRC-0002`, `HNSRC-0008`, `HNSRC-0009`, `HNSRC-0034`, `HNSRC-0054`, `HNSRC-0058`
+- **Shelf:** `Shelf-0001`, `Shelf-0002`, `Shelf-0008`, `Shelf-0009`, `Shelf-0034`, `Shelf-0054`, `Shelf-0058`
 
 ### hn-i-v1-20 — draft file `chapters/vol-i/v1-20.md`
 *Collapse, Vacancy, Succession*
-- **HNSRC:** `HNSRC-0004`, `HNSRC-0018`, `HNSRC-0020`, `HNSRC-0037`, `HNSRC-0045`, `HNSRC-0054`, `HNSRC-0057`
+- **Shelf:** `Shelf-0004`, `Shelf-0018`, `Shelf-0020`, `Shelf-0037`, `Shelf-0045`, `Shelf-0054`, `Shelf-0057`
 
 ### hn-ii-islam — draft file `chapters/vol-ii/islam.md`
 *Islam — Rashidun to Abbasid Caliphate*
-- **HNSRC:** `HNSRC-0024`, `HNSRC-0059`, `HNSRC-0069`, `HNSRC-0077`, `HNSRC-0078`, `HNSRC-0296`
+- **Shelf:** `Shelf-0024`, `Shelf-0059`, `Shelf-0069`, `Shelf-0077`, `Shelf-0078`, `Shelf-0296`, `Shelf-0299`
 
 ### hn-ii-rome-byzantine — draft file `chapters/vol-ii/rome-byzantine.md`
 *Byzantium — Eastern Roman Survival*
-- **HNSRC:** `HNSRC-0021`, `HNSRC-0022`, `HNSRC-0023`, `HNSRC-0024`, `HNSRC-0026`, `HNSRC-0054`, `HNSRC-0058`, `HNSRC-0060`, `HNSRC-0061`, `HNSRC-0062`, `HNSRC-0063`, `HNSRC-0067`, `HNSRC-0068`, `HNSRC-0072`, `HNSRC-0080`, `HNSRC-0082`, `HNSRC-0244`, `HNSRC-0249`, `HNSRC-0250`, `HNSRC-0296`
+- **Shelf:** `Shelf-0021`, `Shelf-0022`, `Shelf-0023`, `Shelf-0024`, `Shelf-0026`, `Shelf-0054`, `Shelf-0058`, `Shelf-0060`, `Shelf-0061`, `Shelf-0062`, `Shelf-0063`, `Shelf-0067`, `Shelf-0068`, `Shelf-0072`, `Shelf-0080`, `Shelf-0082`, `Shelf-0244`, `Shelf-0249`, `Shelf-0250`, `Shelf-0296`, `Shelf-0301`
 
 ### hn-ii-persia-islamic — draft file `chapters/vol-ii/persia-islamic.md`
 *Persia — Post-Conquest to Timurid*
-- **HNSRC:** `HNSRC-0069`, `HNSRC-0078`
+- **Shelf:** `Shelf-0069`, `Shelf-0078`
 
 ### hn-ii-mongol — draft file `chapters/vol-ii/mongol.md`
 *Mongol — Steppe Cycle and Disruption*
-- **HNSRC:** `HNSRC-0074`, `HNSRC-0075`, `HNSRC-0076`, `HNSRC-0077`, `HNSRC-0079`
+- **Shelf:** `Shelf-0074`, `Shelf-0075`, `Shelf-0076`, `Shelf-0077`, `Shelf-0079`
 
 ### hn-ii-china-medieval — draft file `chapters/vol-ii/china-medieval.md`
 *China — Tang to Ming*
-- **HNSRC:** `HNSRC-0074`, `HNSRC-0075`, `HNSRC-0079`, `HNSRC-0083`
+- **Shelf:** `Shelf-0074`, `Shelf-0075`, `Shelf-0079`, `Shelf-0083`
 
 ### hn-iii-ottoman — draft file `chapters/vol-iii/ottoman.md`
 *Ottoman — Rise to Stagnation*
-- **HNSRC:** `HNSRC-0059`, `HNSRC-0244`, `HNSRC-0245`, `HNSRC-0246`, `HNSRC-0247`, `HNSRC-0248`, `HNSRC-0249`
+- **Shelf:** `Shelf-0059`, `Shelf-0244`, `Shelf-0245`, `Shelf-0246`, `Shelf-0247`, `Shelf-0248`, `Shelf-0249`
 
 ### hn-iii-anglia — draft file `chapters/vol-iii/anglia.md`
 *England — Tudor to Colonial Order*
-- **HNSRC:** `HNSRC-0071`, `HNSRC-0073`, `HNSRC-0081`, `HNSRC-0096`, `HNSRC-0099`, `HNSRC-0100`, `HNSRC-0111`, `HNSRC-0112`, `HNSRC-0113`, `HNSRC-0114`, `HNSRC-0115`, `HNSRC-0116`, `HNSRC-0117`, `HNSRC-0118`, `HNSRC-0250`
+- **Shelf:** `Shelf-0071`, `Shelf-0073`, `Shelf-0081`, `Shelf-0096`, `Shelf-0099`, `Shelf-0100`, `Shelf-0111`, `Shelf-0112`, `Shelf-0113`, `Shelf-0114`, `Shelf-0115`, `Shelf-0116`, `Shelf-0117`, `Shelf-0118`, `Shelf-0250`
 
 ### hn-iii-france — draft file `chapters/vol-iii/france.md`
 *France — Old Regime through 1815*
-- **HNSRC:** `HNSRC-0064`, `HNSRC-0065`, `HNSRC-0067`, `HNSRC-0070`, `HNSRC-0084`, `HNSRC-0085`, `HNSRC-0086`, `HNSRC-0110`, `HNSRC-0119`, `HNSRC-0120`, `HNSRC-0121`, `HNSRC-0126`, `HNSRC-0128`, `HNSRC-0132`, `HNSRC-0142`, `HNSRC-0144`, `HNSRC-0175`, `HNSRC-0176`, `HNSRC-0202`, `HNSRC-0203`, `HNSRC-0211`, `HNSRC-0246`, `HNSRC-0262`, `HNSRC-0277`, `HNSRC-0278`
+- **Shelf:** `Shelf-0064`, `Shelf-0065`, `Shelf-0067`, `Shelf-0070`, `Shelf-0084`, `Shelf-0085`, `Shelf-0086`, `Shelf-0110`, `Shelf-0119`, `Shelf-0120`, `Shelf-0121`, `Shelf-0126`, `Shelf-0128`, `Shelf-0132`, `Shelf-0142`, `Shelf-0144`, `Shelf-0175`, `Shelf-0176`, `Shelf-0202`, `Shelf-0203`, `Shelf-0211`, `Shelf-0246`, `Shelf-0262`, `Shelf-0277`, `Shelf-0278`, `Shelf-0301`
 
 ### hn-iii-russia — draft file `chapters/vol-iii/russia.md`
 *Russia — Muscovy to Catherine*
-- **HNSRC:** `HNSRC-0065`, `HNSRC-0068`, `HNSRC-0084`, `HNSRC-0122`, `HNSRC-0123`, `HNSRC-0124`
+- **Shelf:** `Shelf-0065`, `Shelf-0068`, `Shelf-0084`, `Shelf-0122`, `Shelf-0123`, `Shelf-0124`
 
 ### hn-iv-america — draft file `chapters/vol-iv/america.md`
 *America — Republic to Global Hegemony*
-- **HNSRC:** `HNSRC-0087`, `HNSRC-0088`, `HNSRC-0089`, `HNSRC-0090`, `HNSRC-0091`, `HNSRC-0092`, `HNSRC-0093`, `HNSRC-0094`, `HNSRC-0095`, `HNSRC-0098`, `HNSRC-0099`, `HNSRC-0101`, `HNSRC-0102`, `HNSRC-0103`, `HNSRC-0104`, `HNSRC-0105`, `HNSRC-0106`, `HNSRC-0107`, `HNSRC-0108`, `HNSRC-0109`, `HNSRC-0158`, `HNSRC-0159`, `HNSRC-0174`, `HNSRC-0183`, `HNSRC-0218`, `HNSRC-0222`, `HNSRC-0227`, `HNSRC-0228`, `HNSRC-0229`, `HNSRC-0230`, `HNSRC-0231`, `HNSRC-0232`, `HNSRC-0233`, `HNSRC-0234`, `HNSRC-0235`, `HNSRC-0236`, `HNSRC-0241`, `HNSRC-0242`, `HNSRC-0243`, `HNSRC-0251`, `HNSRC-0252`, `HNSRC-0253`, `HNSRC-0254`, `HNSRC-0255`, `HNSRC-0256`, `HNSRC-0257`, `HNSRC-0258`, `HNSRC-0259`, `HNSRC-0260`, `HNSRC-0261`, `HNSRC-0262`, `HNSRC-0263`, `HNSRC-0264`, `HNSRC-0266`, `HNSRC-0267`, `HNSRC-0268`, `HNSRC-0269`, `HNSRC-0270`, `HNSRC-0271`, `HNSRC-0272`, `HNSRC-0273`, `HNSRC-0274`, `HNSRC-0275`, `HNSRC-0276`, `HNSRC-0277`, `HNSRC-0278`, `HNSRC-0279`, `HNSRC-0280`, `HNSRC-0281`, `HNSRC-0282`, `HNSRC-0283`, `HNSRC-0284`, `HNSRC-0292`, `HNSRC-0295`, `HNSRC-0298`
+- **Shelf:** `Shelf-0087`, `Shelf-0088`, `Shelf-0089`, `Shelf-0090`, `Shelf-0091`, `Shelf-0092`, `Shelf-0093`, `Shelf-0094`, `Shelf-0095`, `Shelf-0098`, `Shelf-0099`, `Shelf-0101`, `Shelf-0102`, `Shelf-0103`, `Shelf-0104`, `Shelf-0105`, `Shelf-0106`, `Shelf-0107`, `Shelf-0108`, `Shelf-0109`, `Shelf-0158`, `Shelf-0159`, `Shelf-0174`, `Shelf-0183`, `Shelf-0218`, `Shelf-0222`, `Shelf-0227`, `Shelf-0228`, `Shelf-0229`, `Shelf-0230`, `Shelf-0231`, `Shelf-0232`, `Shelf-0233`, `Shelf-0234`, `Shelf-0235`, `Shelf-0236`, `Shelf-0241`, `Shelf-0242`, `Shelf-0243`, `Shelf-0251`, `Shelf-0252`, `Shelf-0253`, `Shelf-0254`, `Shelf-0255`, `Shelf-0256`, `Shelf-0257`, `Shelf-0258`, `Shelf-0259`, `Shelf-0260`, `Shelf-0261`, `Shelf-0262`, `Shelf-0263`, `Shelf-0264`, `Shelf-0266`, `Shelf-0267`, `Shelf-0268`, `Shelf-0269`, `Shelf-0270`, `Shelf-0271`, `Shelf-0272`, `Shelf-0273`, `Shelf-0274`, `Shelf-0275`, `Shelf-0276`, `Shelf-0277`, `Shelf-0278`, `Shelf-0279`, `Shelf-0280`, `Shelf-0281`, `Shelf-0282`, `Shelf-0283`, `Shelf-0284`, `Shelf-0292`, `Shelf-0295`, `Shelf-0298`
 
 ### hn-iv-germany — draft file `chapters/vol-iv/germany.md`
 *Germany — Unification to Catastrophe*
-- **HNSRC:** `HNSRC-0066`, `HNSRC-0097`, `HNSRC-0145`, `HNSRC-0146`, `HNSRC-0213`, `HNSRC-0214`, `HNSRC-0215`, `HNSRC-0216`, `HNSRC-0217`, `HNSRC-0220`, `HNSRC-0224`, `HNSRC-0265`, `HNSRC-0275`, `HNSRC-0292`, `HNSRC-0293`, `HNSRC-0294`
+- **Shelf:** `Shelf-0066`, `Shelf-0097`, `Shelf-0145`, `Shelf-0146`, `Shelf-0213`, `Shelf-0214`, `Shelf-0215`, `Shelf-0216`, `Shelf-0217`, `Shelf-0220`, `Shelf-0224`, `Shelf-0265`, `Shelf-0275`, `Shelf-0292`, `Shelf-0293`, `Shelf-0294`, `Shelf-0301`
 
 ### hn-iv-russia-imperial — draft file `chapters/vol-iv/russia-imperial.md`
 *Russia — 1815 to Soviet*
-- **HNSRC:** `HNSRC-0122`, `HNSRC-0125`, `HNSRC-0148`, `HNSRC-0149`, `HNSRC-0150`, `HNSRC-0151`, `HNSRC-0152`, `HNSRC-0153`, `HNSRC-0154`, `HNSRC-0155`, `HNSRC-0156`, `HNSRC-0157`, `HNSRC-0189`, `HNSRC-0190`, `HNSRC-0191`, `HNSRC-0192`, `HNSRC-0193`, `HNSRC-0194`, `HNSRC-0195`, `HNSRC-0196`, `HNSRC-0198`, `HNSRC-0201`, `HNSRC-0210`, `HNSRC-0225`, `HNSRC-0226`, `HNSRC-0293`, `HNSRC-0294`
+- **Shelf:** `Shelf-0122`, `Shelf-0125`, `Shelf-0148`, `Shelf-0149`, `Shelf-0150`, `Shelf-0151`, `Shelf-0152`, `Shelf-0153`, `Shelf-0154`, `Shelf-0155`, `Shelf-0156`, `Shelf-0157`, `Shelf-0189`, `Shelf-0190`, `Shelf-0191`, `Shelf-0192`, `Shelf-0193`, `Shelf-0194`, `Shelf-0195`, `Shelf-0196`, `Shelf-0198`, `Shelf-0201`, `Shelf-0210`, `Shelf-0225`, `Shelf-0226`, `Shelf-0293`, `Shelf-0294`
 
 ### hn-iv-anglia-imperial — draft file `chapters/vol-iv/anglia-imperial.md`
 *England — Pax Britannica to World Wars*
-- **HNSRC:** `HNSRC-0100`, `HNSRC-0129`, `HNSRC-0130`, `HNSRC-0131`, `HNSRC-0133`, `HNSRC-0134`, `HNSRC-0135`, `HNSRC-0136`, `HNSRC-0137`, `HNSRC-0138`, `HNSRC-0139`, `HNSRC-0140`, `HNSRC-0141`, `HNSRC-0143`, `HNSRC-0147`, `HNSRC-0160`, `HNSRC-0161`, `HNSRC-0162`, `HNSRC-0163`, `HNSRC-0164`, `HNSRC-0165`, `HNSRC-0166`, `HNSRC-0167`, `HNSRC-0168`, `HNSRC-0169`, `HNSRC-0170`, `HNSRC-0171`, `HNSRC-0172`, `HNSRC-0173`, `HNSRC-0177`, `HNSRC-0178`, `HNSRC-0179`, `HNSRC-0180`, `HNSRC-0181`, `HNSRC-0182`, `HNSRC-0184`, `HNSRC-0185`, `HNSRC-0186`, `HNSRC-0187`, `HNSRC-0188`, `HNSRC-0197`, `HNSRC-0199`, `HNSRC-0200`, `HNSRC-0204`, `HNSRC-0205`, `HNSRC-0206`, `HNSRC-0207`, `HNSRC-0208`, `HNSRC-0209`, `HNSRC-0212`, `HNSRC-0219`, `HNSRC-0221`, `HNSRC-0223`, `HNSRC-0237`, `HNSRC-0238`, `HNSRC-0239`, `HNSRC-0240`, `HNSRC-0245`, `HNSRC-0247`, `HNSRC-0248`, `HNSRC-0275`, `HNSRC-0285`, `HNSRC-0286`, `HNSRC-0287`, `HNSRC-0288`, `HNSRC-0289`, `HNSRC-0290`, `HNSRC-0291`, `HNSRC-0296`, `HNSRC-0297`
+- **Shelf:** `Shelf-0100`, `Shelf-0129`, `Shelf-0130`, `Shelf-0131`, `Shelf-0133`, `Shelf-0134`, `Shelf-0135`, `Shelf-0136`, `Shelf-0137`, `Shelf-0138`, `Shelf-0139`, `Shelf-0140`, `Shelf-0141`, `Shelf-0143`, `Shelf-0147`, `Shelf-0160`, `Shelf-0161`, `Shelf-0162`, `Shelf-0163`, `Shelf-0164`, `Shelf-0165`, `Shelf-0166`, `Shelf-0167`, `Shelf-0168`, `Shelf-0169`, `Shelf-0170`, `Shelf-0171`, `Shelf-0172`, `Shelf-0173`, `Shelf-0177`, `Shelf-0178`, `Shelf-0179`, `Shelf-0180`, `Shelf-0181`, `Shelf-0182`, `Shelf-0184`, `Shelf-0185`, `Shelf-0186`, `Shelf-0187`, `Shelf-0188`, `Shelf-0197`, `Shelf-0199`, `Shelf-0200`, `Shelf-0204`, `Shelf-0205`, `Shelf-0206`, `Shelf-0207`, `Shelf-0208`, `Shelf-0209`, `Shelf-0212`, `Shelf-0219`, `Shelf-0221`, `Shelf-0223`, `Shelf-0237`, `Shelf-0238`, `Shelf-0239`, `Shelf-0240`, `Shelf-0245`, `Shelf-0247`, `Shelf-0248`, `Shelf-0275`, `Shelf-0285`, `Shelf-0286`, `Shelf-0287`, `Shelf-0288`, `Shelf-0289`, `Shelf-0290`, `Shelf-0291`, `Shelf-0296`, `Shelf-0297`
 
 ### hn-v-america-hegemonic — draft file `chapters/vol-v/america-hegemonic.md`
 *America — Cold War to Overreach*
-- **HNSRC:** `HNSRC-0265`, `HNSRC-0297`
+- **Shelf:** `Shelf-0265`, `Shelf-0297`, `Shelf-0300`
 
 ### hn-v-russia-modern — draft file `chapters/vol-v/russia-modern.md`
 *Russia — Soviet Collapse to Putin*
@@ -154,7 +154,7 @@
 
 ### hn-v-persia-modern — draft file `chapters/vol-v/persia-modern.md`
 *Persia — Islamic Republic to War Phase*
-- **HNSRC:** `HNSRC-0025`
+- **Shelf:** `Shelf-0025`
 
 ### hn-v-china-modern — draft file `chapters/vol-v/china-modern.md`
 *China — PRC to Belt and Road*

@@ -1,5 +1,5 @@
-#!/usr/bin/env python3
-"""Validate History Notebook bookshelf-catalog.yaml (HNSRC-* seed rows).
+﻿#!/usr/bin/env python3
+"""Validate History Notebook bookshelf-catalog.yaml (Shelf-* seed rows).
 
 Checks: unique ids, required era, optional eras (multi-bucket; must include era),
 candidate_hn_chapters ⊆ book-architecture.yaml, duplicate (title, author) warnings,
@@ -40,7 +40,7 @@ CATALOG = (
 )
 HN_ARCH = REPO / "docs" / "skill-work" / "work-strategy" / "history-notebook" / "book-architecture.yaml"
 
-RE_HNSRC = re.compile(r"^HNSRC-\d{4}$")
+RE_SHELF = re.compile(r"^Shelf-\d{4}$")
 ERAS = frozenset({"ancient", "medieval", "colonial", "industrial", "modern"})
 ERA_TO_VOLUME = {
     "ancient": "vol-i",
@@ -90,8 +90,8 @@ def validate_catalog(
         if not sid or not isinstance(sid, str):
             errors.append(f"items[{i}]: missing string id")
             continue
-        if not RE_HNSRC.match(sid):
-            errors.append(f"items[{i}]: id must match HNSRC-NNNN, got {sid!r}")
+        if not RE_SHELF.match(sid):
+            errors.append(f"items[{i}]: id must match Shelf-NNNN, got {sid!r}")
         if sid in seen_ids:
             errors.append(f"duplicate id: {sid}")
         seen_ids.add(sid)

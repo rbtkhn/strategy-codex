@@ -1,5 +1,5 @@
-#!/usr/bin/env python3
-"""Writer ergonomics: inverse map Bookshelf (HNSRC) → `hn-*` chapter ids and lookups.
+﻿#!/usr/bin/env python3
+"""Writer ergonomics: inverse map Bookshelf (Shelf) → `hn-*` chapter ids and lookups.
 
 - Generates research/SHELF-ANCHORS-BY-CHAPTER.md (do not edit by hand).
 - CLI: one-card lookup for a shelf id; list shelf anchors for a chapter; paste one-line **stub** for a chapter file.
@@ -55,15 +55,15 @@ OUT = (
     / "SHELF-ANCHORS-BY-CHAPTER.md"
 )
 
-RE_HNSRC = re.compile(r"^HNSRC-\d{4}$")
+RE_SHELF = re.compile(r"^Shelf-\d{4}$")
 RE_HN = re.compile(r"^hn-[\w-]+$")
 
 HEADER = """# Shelf anchors by chapter (generated)
 
-**Do not edit by hand.** This file inverts [bookshelf-catalog.yaml](bookshelf-catalog.yaml) `candidate_hn_chapters` into **`hn-*` id → HNSRC list** (planning hints, not draft SSOT).
+**Do not edit by hand.** This file inverts [bookshelf-catalog.yaml](bookshelf-catalog.yaml) `candidate_hn_chapters` into **`hn-*` id → Shelf list** (planning hints, not draft SSOT).
 
 - Regenerate: `python3 scripts/hn_shelf_anchors.py`
-- **Lookup:** `python3 scripts/hn_shelf_anchors.py --hnsrc HNSRC-0001` or `--chapter hn-i-v1-01`
+- **Lookup:** `python3 scripts/hn_shelf_anchors.py --shelf Shelf-0001` or `--chapter hn-i-v1-01`
 - **Paste line** for a chapter file: `python3 scripts/hn_shelf_anchors.py --stub-line hn-i-v1-01`
 
 [book-architecture.yaml](../book-architecture.yaml) remains chapter SSOT for title and file path.
@@ -84,7 +84,7 @@ def item_index(items: list[dict]) -> dict[str, dict]:
     return {str(x["id"]): x for x in items if x.get("id")}
 
 
-def invert_hn_to_hnsrc(items: list[dict]) -> dict[str, list[str]]:
+def invert_hn_to_shelf(items: list[dict]) -> dict[str, list[str]]:
     m: dict[str, list[str]] = {}
     for it in items:
         sid = str(it.get("id") or "")
@@ -127,7 +127,7 @@ def rel_link_from_chapter_file_to_research(chapter_file: str) -> str:
 
 def build_markdown(
     chapter_rows: list[dict],
-    hn_to_hnsrc: dict[str, list[str]],
+    hn_to_shelf: dict[str, list[str]],
 ) -> str:
     lines: list[str] = [HEADER, "## `hn-*` → shelf ids", ""]
     for row in chapter_rows:
@@ -138,18 +138,18 @@ def build_markdown(
         lines.append(f"### {hid}{fpath}")
         if title:
             lines.append(f"*{title}*")
-        anchors = hn_to_hnsrc.get(hid, [])
+        anchors = hn_to_shelf.get(hid, [])
         if not anchors:
             lines.append("- *(no `candidate_hn_chapters` point here yet — add in catalog or use another chapter id)*")
         else:
             lines.append(
-                "- **HNSRC:** " + ", ".join(f"`{a}`" for a in anchors)
+                "- **Shelf:** " + ", ".join(f"`{a}`" for a in anchors)
             )
         lines.append("")
     return "\n".join(lines).rstrip() + "\n"
 
 
-def hnsrc_card(item: dict) -> str:
+def shelf_card(item: dict) -> str:
     sid = item.get("id", "")
     title = (item.get("title") or "").strip()
     author = (item.get("author") or "").strip()
@@ -176,7 +176,7 @@ def chapter_brief(
 ) -> str:
     ids = by_hn.get(hn_id, [])
     if not ids:
-        return f"**`{hn_id}`:** no HNSRC rows list this chapter in `candidate_hn_chapters`."
+        return f"**`{hn_id}`:** no Shelf rows list this chapter in `candidate_hn_chapters`."
     lines = [f"**`{hn_id}`** — {len(ids)} shelf row(s):"]
     for s in ids:
         it = index.get(s, {})
@@ -237,8 +237,8 @@ def main() -> int:
         help="Exit 1 if generated file differs from disk (use after catalog or architecture edits)",
     )
     ap.add_argument(
-        "--hnsrc",
-        metavar="HNSRC-NNNN",
+        "--shelf",
+        metavar="Shelf-NNNN",
         help="Print a one-shelf **card** for this id and exit",
     )
     ap.add_argument(
@@ -270,22 +270,22 @@ def main() -> int:
         print("ERROR: no items in catalog", file=sys.stderr)
         return 1
     index = item_index(items)
-    by_hn = invert_hn_to_hnsrc(items)
+    by_hn = invert_hn_to_shelf(items)
     arch_by_id = {c["id"]: c for c in chapter_rows}
     if not chapter_rows:
         print("ERROR: no chapters in book-architecture.yaml", file=sys.stderr)
         return 1
 
-    if args.hnsrc:
-        sid = args.hnsrc.strip()
-        if not RE_HNSRC.match(sid):
-            print(f"ERROR: id must look like HNSRC-NNNN, got {sid!r}", file=sys.stderr)
+    if args.shelf:
+        sid = args.shelf.strip()
+        if not RE_SHELF.match(sid):
+            print(f"ERROR: id must look like Shelf-NNNN, got {sid!r}", file=sys.stderr)
             return 1
         it = index.get(sid)
         if not it:
             print(f"ERROR: unknown {sid}", file=sys.stderr)
             return 1
-        print(hnsrc_card(it))
+        print(shelf_card(it))
         return 0
 
     if args.chapter:

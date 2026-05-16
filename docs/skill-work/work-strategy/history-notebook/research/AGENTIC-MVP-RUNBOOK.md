@@ -1,8 +1,8 @@
-# History-notebook agentic MVP runbook
+﻿# History-notebook agentic MVP runbook
 
 **WORK only;** not Record.
 
-This runbook wires self-library-bookshelf (`HNSRC-*`) into chapter operations with three generated outputs:
+This runbook wires self-library-bookshelf (`Shelf-*`) into chapter operations with three generated outputs:
 
 - [QUEUE-AUTOPRIORITY.md](QUEUE-AUTOPRIORITY.md) — what to draft next
 - [PROVENANCE-PACKETS.md](PROVENANCE-PACKETS.md) — claim packets with confidence and verification tasks

@@ -1,0 +1,316 @@
+# Working shelf bibliography (generated)
+
+**Do not edit by hand.** Source: [../bookshelf-catalog.yaml](../bookshelf-catalog.yaml).
+
+**Style:** Chicago *author–date* (simplified, machine-generated). The catalog `author` field is printed
+as given (not inverted to *Last, First*). For publication-grade lines, set optional YAML fields
+(`cite_as`, `place`, `publisher`, `edition`, `series`, `editor`, `translator`) or fix rows by hand
+in a **cited-ids** export.
+
+Regenerate: `python3 scripts/build_hn_bookshelf_bibliography.py`
+
+---
+
+## By Shelf id (stable order)
+
+- Herodotus. n.d. *The Histories*. `Shelf-0001`
+- Herodotus. n.d. *The Landmark Herodotus*. `Shelf-0002`
+- Thucydides. n.d. *The Landmark Thucydides*. `Shelf-0003`
+- Xenophon. n.d. *The Landmark Xenophon's Hellenika*. `Shelf-0004`
+- Xenophon. n.d. *The Landmark Xenophon's Anabasis*. `Shelf-0005`
+- Arrian. n.d. *The Landmark Arrian: The Campaigns of Alexander*. `Shelf-0006`
+- Julius Caesar. n.d. *The Landmark Julius Caesar*. `Shelf-0007`
+- Eckart Frahm. 2023. *Assyria*. Basic Books. ISBN 9781541674394. `Shelf-0008`
+- Lloyd Llewellyn-Jones. 2022. *Persians*. Basic Books. ISBN 9781541600355. `Shelf-0009`
+- Anthony Everitt. n.d. *The Rise of Athens*. `Shelf-0010`
+- Anthony Everitt. n.d. *Alexander the Great*. `Shelf-0011`
+- Adrian Goldsworthy. 2020. *Philip and Alexander: Kings and Conquerors*. Basic Books. ISBN 9780465095506. `Shelf-0012`
+- Islam Issa. n.d. *Alexandria*. `Shelf-0013`
+- Lloyd Llewellyn-Jones. 2024. *The Cleopatras: The Forgotten Queens of Egypt*. Basic Books. ISBN 9781541602939. `Shelf-0014`
+- Barry Cunliffe. n.d. *The Scythians*. `Shelf-0015`
+- Duane W. Roller. n.d. *Empire of the Black Sea*. `Shelf-0016`
+- Anthony Everitt. n.d. *The Rise of Rome*. `Shelf-0017`
+- Adrian Goldsworthy. n.d. *The Punic Wars*. `Shelf-0018`
+- Richard A. Gabriel. n.d. *Hannibal*. `Shelf-0019`
+- Adrian Goldsworthy. 2009. *How Rome Fell*. Yale University Press. ISBN 9780300155600. `Shelf-0020`
+- Hans-Ulrich Wiemer. 2023. *Theoderic the Great*. Yale University Press. ISBN 9780300254433. `Shelf-0021`
+- Peter Sarris. 2023. *Justinian*. Basic Books. ISBN 9781541601345. `Shelf-0022`
+- Judith Herrin. n.d. *Ravenna*. `Shelf-0023`
+- Peter Heather. n.d. *Christendom*. `Shelf-0024`
+- Bartle Bull. 2024. *Land Between the Rivers*. Grove Press. ISBN 9780802162519. `Shelf-0025`
+- Anna Comnena. n.d. *The Alexiad*. `Shelf-0026`
+- Plutarch. n.d. *Plutarch's Lives*. `Shelf-0027`
+- Adrian Goldsworthy. 2006. *Caesar: Life of a Colossus*. Yale University Press. ISBN 9780300126891. `Shelf-0028`
+- Adrian Goldsworthy. 2010. *Antony and Cleopatra*. Yale University Press. ISBN 9780300167009. `Shelf-0029`
+- Anthony Everitt. n.d. *Cicero: The Life and Times of Rome's Greatest Politician*. `Shelf-0030`
+- Adrian Goldsworthy. n.d. *Augustus: First Emperor of Rome*. `Shelf-0031`
+- Anthony Everitt. 2007. *Augustus: The Life of Rome's First Emperor*. Random House Trade Paperbacks. ISBN 9780812970586. `Shelf-0032`
+- Anthony Everitt. 2010. *Hadrian and the Triumph of Rome*. Random House Trade Paperbacks. ISBN 9780812978148. `Shelf-0033`
+- Adrian Goldsworthy. 2023. *Rome and Persia: The Seven Hundred Year Rivalry*. Basic Books. ISBN 9781541619944. `Shelf-0034`
+- Adrian Goldsworthy. 2016. *Pax Romana: War, Peace and Conquest in the Roman World*. Yale University Press. ISBN 9780300222265. `Shelf-0035`
+- Various. n.d. *The Old Testament*. `Shelf-0036`
+- Various. n.d. *The New Testament*. `Shelf-0037`
+- Various. n.d. *Hindu Scriptures*. `Shelf-0038`
+- Lao Tzu. n.d. *Lao-Tzu: Tao Te Ching*. `Shelf-0039`
+- Confucius. n.d. *Confucius: The Analects*. `Shelf-0040`
+- Plato. n.d. *Plato: The Republic*. `Shelf-0041`
+- Plato. n.d. *Plato: Symposium and Phaedrus*. `Shelf-0042`
+- Sophocles. n.d. *Sophocles: The Theban Plays*. `Shelf-0043`
+- Aeschylus. n.d. *Aeschylus: The Oresteia*. `Shelf-0044`
+- Tacitus. n.d. *Tacitus: Annals and Histories*. `Shelf-0045`
+- Homer. n.d. *The Iliad*. `Shelf-0046`
+- Homer. n.d. *The Odyssey*. `Shelf-0047`
+- Virgil. n.d. *The Aeneid*. `Shelf-0048`
+- Ovid. n.d. *Metamorphoses*. `Shelf-0049`
+- Unknown. n.d. *(Spine unread â€” operator fill)*. `Shelf-0050`
+- Marcus Aurelius. n.d. *Meditations*. `Shelf-0051`
+- Lucretius. n.d. *On the Nature of Things*. `Shelf-0052`
+- Seneca. n.d. *Letters from a Stoic*. `Shelf-0053`
+- Edward Gibbon. n.d. *The History of the Decline and Fall of the Roman Empire*. `Shelf-0054`
+- Will Durant. n.d. *The Story of Civilization, Vol. I: Our Oriental Heritage*. `Shelf-0055`
+- Will Durant. n.d. *The Story of Civilization, Vol. II: The Life of Greece*. `Shelf-0056`
+- Will Durant. n.d. *The Story of Civilization, Vol. III: Caesar and Christ*. `Shelf-0057`
+- Anthony Kaldellis. 2023. *The New Roman Empire: A History of Byzantium*. `Shelf-0058`
+- Marc David Baer. 2021. *The Ottomans: Khans, Caesars, and Caliphs*. Basic Books. ISBN 9781541673779. `Shelf-0059`
+- Paul Strathern. 2021. *The Florentines*. Simon and Schuster. ISBN 9781643137339. `Shelf-0060`
+- Paul Strathern. n.d. *The Medici*. `Shelf-0061`
+- Paul Strathern. 2019. *The Borgias*. Simon and Schuster. ISBN 9781643131832. `Shelf-0062`
+- Walter Isaacson. 2017. *Leonardo da Vinci*. Simon and Schuster. ISBN 9781501139154. `Shelf-0063`
+- Justine Firnhaber-Baker. 2024. *House of Lilies: The Dynasty That Made Medieval France*. Basic Books. ISBN 9781541604773. `Shelf-0064`
+- Martyn Rady. 2020. *The Habsburgs: To Rule the World*. Basic Books. ISBN 9781541644496. `Shelf-0065`
+- Peter H. Wilson. n.d. *Iron and Blood*. `Shelf-0066`
+- Johannes Fried. 2016. *Charlemagne*. Harvard University Press. ISBN 9780674973411. `Shelf-0067`
+- Martyn Rady. 2023. *The Middle Kingdoms: A New History of Central Europe*. Basic Books. ISBN 9781541619777. `Shelf-0068`
+- Jonathan Phillips. 2019. *The Life and Legend of the Sultan Saladin*. Yale University Press. ISBN 9780300249064. `Shelf-0069`
+- Bart Van Loo. n.d. *The Burgundians*. `Shelf-0070`
+- Dan Jones. n.d. *Henry V*. `Shelf-0071`
+- William Manchester. n.d. *A World Lit Only by Fire*. `Shelf-0072`
+- Neil Price. 2020. *Children of Ash and Elm: A History of the Vikings*. Basic Books. ISBN 9780465096992. `Shelf-0073`
+- Jack Weatherford. n.d. *Emperor of the Seas*. `Shelf-0074`
+- Jack Weatherford. 2011. *The Secret History of the Mongol Queens*. Crown. ISBN 9780307407160. `Shelf-0075`
+- Jack Weatherford. 2005. *Genghis Khan and the Making of the Modern World*. Crown. ISBN 9780609809648. `Shelf-0076`
+- Kevin Alan Brook. n.d. *The Jews of Khazaria*. `Shelf-0077`
+- Various. n.d. *Tales from 1,001 Nights*. `Shelf-0078`
+- Marco Polo. n.d. *The Travels*. `Shelf-0079`
+- Dante Alighieri. n.d. *Inferno*. `Shelf-0080`
+- Geoffrey Chaucer. n.d. *The Canterbury Tales*. `Shelf-0081`
+- Miguel de Cervantes. n.d. *Don Quixote*. `Shelf-0082`
+- Wu Cheng'en. n.d. *Monkey King*. `Shelf-0083`
+- Peter H. Wilson. 2019. *The Thirty Years War*. Harvard University Press. ISBN 9780674246256. `Shelf-0084`
+- Roger Pearson. 2005. *Voltaire Almighty*. Bloomsbury Publishing USA. ISBN 9781582346304. `Shelf-0085`
+- Jeremy D. Popkin. 2019. *A New World Begins: The History of the French Revolution*. Basic Books. ISBN 9780465096671. `Shelf-0086`
+- John B. Boles. 2017. *Jefferson*. Basic Books. ISBN 9780465094691. `Shelf-0087`
+- Ron Chernow. 2004. *Alexander Hamilton*. Penguin. ISBN 9781101200858. `Shelf-0088`
+- Tim McGrath. n.d. *James Monroe*. `Shelf-0089`
+- Randall Woods. n.d. *John Quincy Adams*. `Shelf-0090`
+- H. W. Brands. n.d. *Founding Partisans*. `Shelf-0091`
+- H. W. Brands. n.d. *Heirs of the Founders*. `Shelf-0092`
+- James C. Bradley. n.d. *Martin Van Buren*. `Shelf-0093`
+- Arthur M. Schlesinger Jr.. n.d. *The Age of Jackson*. `Shelf-0094`
+- H. W. Brands. n.d. *Andrew Jackson*. `Shelf-0095`
+- Jonathan Healey. n.d. *The Blazing World*. `Shelf-0096`
+- Tim Blanning. 2015. *Frederick the Great*. Random House. ISBN 9780812988734. `Shelf-0097`
+- Fred Anderson. n.d. *Crucible of War*. `Shelf-0098`
+- Andrew Roberts. 2021. *The Last King of America: The Misunderstood Reign of George III*. Penguin. ISBN 9781984879271. `Shelf-0099`
+- Niall Ferguson. 2003. *Empire: How Britain Made the Modern World*. Basic Books. ISBN 9780465013104. `Shelf-0100`
+- Lisa Brooks & Kelly Wisecup. 2022. *Plymouth Colony: Narratives of English Settlement and Native Resistance from the Mayflower to King Philip's War*. Library of America. ISBN 9781598536737. `Shelf-0101`
+- Various. 2001. *The American Revolution: Writings from the War of Independence 1775â€“1783*. Library of America. ISBN 9781598531398. `Shelf-0102`
+- Various. 2015. *The American Revolution: Writings from the Pamphlet Debate 1773â€“1776*. Library of America. ISBN 9781598534429. `Shelf-0103`
+- Benjamin Franklin. n.d. *Franklin: Autobiography, Poor Richard, and Later Writings*. `Shelf-0104`
+- Thomas Paine. 1995. *Paine: Collected Writings*. Library of America. ISBN 9781598531794. `Shelf-0105`
+- Thomas Jefferson. n.d. *Jefferson: Writings*. `Shelf-0106`
+- James Madison. n.d. *Madison: Writings*. `Shelf-0107`
+- Alexander Hamilton. n.d. *Hamilton: Writings*. `Shelf-0108`
+- George Washington. n.d. *Washington: Writings*. `Shelf-0109`
+- Michel de Montaigne. n.d. *The Complete Works*. `Shelf-0110`
+- William Shakespeare. 1994. *Histories Volume 1*. Everyman's Library. ISBN 9780679433125. `Shelf-0111`
+- William Shakespeare. n.d. *Histories Volume 2*. `Shelf-0112`
+- William Shakespeare. n.d. *Romances*. `Shelf-0113`
+- William Shakespeare. 2015. *The Sonnets and Narrative Poems*. Everyman's Library. ISBN 9780375712814. `Shelf-0114`
+- William Shakespeare. 1992. *Tragedies Volume 1*. Everyman's Library. ISBN 9780679417422. `Shelf-0115`
+- William Shakespeare. n.d. *Tragedies Volume 2*. `Shelf-0116`
+- William Shakespeare. 1995. *Comedies, Volume 1*. Everyman's Library. ISBN 9780679443636. `Shelf-0117`
+- William Shakespeare. 1996. *Comedies Volume 2*. Everyman's Library. ISBN 9780679447207. `Shelf-0118`
+- Voltaire. 1992. *Candide and Other Stories*. Everyman's Library. ISBN 9780679417460. `Shelf-0119`
+- Jean-Jacques Rousseau. n.d. *Confessions*. `Shelf-0120`
+- Jean-Jacques Rousseau. n.d. *The Social Contract and The Discourses*. `Shelf-0121`
+- Simon Sebag Montefiore. 2017. *The Romanovs: 1613â€“1918*. Vintage. ISBN 9780307280510. `Shelf-0122`
+- Robert K. Massie. 1980. *Peter the Great: His Life and World*. Modern Library. ISBN 9780679645603. `Shelf-0123`
+- Robert K. Massie. 2011. *Catherine the Great*. Random House Digital, Inc.. ISBN 9780679456728. `Shelf-0124`
+- Robert K. Massie. 2000. *Nicholas and Alexandra*. Random House Trade Paperbacks. ISBN 9780345438317. `Shelf-0125`
+- Jonathan Israel. 1998. *The Dutch Republic: Its Rise, Greatness, and Fall 1477â€“1806*. Oxford University Press. ISBN 9780198207344. `Shelf-0126`
+- Buddy Levy. 2009. *Conquistador: HernÃ¡n CortÃ©s, King Montezuma, and the Last Stand of the Aztecs*. Bantam. ISBN 9780553384710. `Shelf-0127`
+- Henry Kamen. 2003. *Empire: How Spain Became a World Power 1492â€“1763*. Harper. ISBN 9780060194765. `Shelf-0128`
+- William Shakespeare. n.d. *The Sonnets and A Lover's Complaint*. `Shelf-0129`
+- John Milton. n.d. *Paradise Lost*. `Shelf-0130`
+- Daniel Defoe. n.d. *Robinson Crusoe*. `Shelf-0131`
+- Victor Hugo. n.d. *Les MisÃ©rables*. `Shelf-0132`
+- Charles Dickens. n.d. *David Copperfield*. `Shelf-0133`
+- Jane Austen. n.d. *Love and Freindship*. `Shelf-0134`
+- Jane Austen. n.d. *Sense and Sensibility*. `Shelf-0135`
+- Jane Austen. n.d. *Pride and Prejudice*. `Shelf-0136`
+- Jane Austen. n.d. *Mansfield Park*. `Shelf-0137`
+- Jane Austen. n.d. *Emma*. `Shelf-0138`
+- Jane Austen. n.d. *Northanger Abbey*. `Shelf-0139`
+- Jane Austen. n.d. *Persuasion*. `Shelf-0140`
+- Rudyard Kipling. 1994. *Collected Stories*. Everyman's Library. ISBN 9780679435921. `Shelf-0141`
+- Alexandre Dumas. 2011. *The Three Musketeers*. Everyman's Library. ISBN 9780307594990. `Shelf-0142`
+- Robert Louis Stevenson. 1992. *Dr. Jekyll and Mr. Hyde and Other Stories*. Everyman's Library. `Shelf-0143`
+- Marcel Proust. n.d. *In Search of Lost Time*. `Shelf-0144`
+- Johann Wolfgang von Goethe. 2000. *Selected Works*. Everyman's Library. `Shelf-0145`
+- Carl von Clausewitz. 1993. *On War*. Everyman's Library. ISBN 9780679420439. `Shelf-0146`
+- Lord Byron. 2024. *Byron's Travels*. Everyman's Library. ISBN 9781101908426. `Shelf-0147`
+- Alexander Pushkin. 1999. *The Collected Stories*. Everyman's Library. ISBN 9781857152517. `Shelf-0148`
+- Alexander Pushkin. 2024. *Novels, Tales, Journeys*. Everyman's Library. ISBN 9780307959645. `Shelf-0149`
+- Nikolai Gogol. 1996. *Dead Souls*. Everyman's Library. ISBN 9781857152807. `Shelf-0150`
+- Nikolai Gogol. 2008. *The Collected Tales*. Everyman's Library. ISBN 9780307269690. `Shelf-0151`
+- Fyodor Dostoevsky. 2005. *The Double and The Gambler*. Everyman's Library. ISBN 9781400044702. `Shelf-0152`
+- Fyodor Dostoevsky. 2021. *Notes from a Dead House*. Everyman's Library. ISBN 9780307959614. `Shelf-0153`
+- Fyodor Dostoevsky. 2004. *Notes from Underground*. Everyman's Library. `Shelf-0154`
+- Fyodor Dostoevsky. 2000. *Demons*. Everyman's Library. ISBN 9780375411229. `Shelf-0155`
+- Fyodor Dostoevsky. 2002. *The Idiot*. Everyman's Library. ISBN 9780375413926. `Shelf-0156`
+- Fyodor Dostoevsky. 1993. *Crime and Punishment*. Everyman's Library. ISBN 9780679420293. `Shelf-0157`
+- Henry James. n.d. *The Turn of the Screw*. `Shelf-0158`
+- Mark Twain. n.d. *The Adventures of Huckleberry Finn*. `Shelf-0159`
+- Robert Louis Stevenson. n.d. *Treasure Island*. `Shelf-0160`
+- Rudyard Kipling. n.d. *The Jungle Books*. `Shelf-0161`
+- Charles Dickens. n.d. *Oliver Twist*. `Shelf-0162`
+- Charles Dickens. n.d. *Bleak House*. `Shelf-0163`
+- Charles Dickens. n.d. *Great Expectations*. `Shelf-0164`
+- Charles Dickens. n.d. *A Tale of Two Cities*. `Shelf-0165`
+- Charles Dickens. n.d. *Hard Times*. `Shelf-0166`
+- Charles Dickens. n.d. *A Christmas Carol and Other Christmas Writings*. `Shelf-0167`
+- Arthur Conan Doyle. n.d. *The Adventures of Sherlock Holmes*. `Shelf-0168`
+- Arthur Conan Doyle. n.d. *The Hound of the Baskervilles*. `Shelf-0169`
+- Bram Stoker. n.d. *Dracula*. `Shelf-0170`
+- George Orwell. n.d. *Nineteen Eighty-Four*. `Shelf-0171`
+- Robert Louis Stevenson. n.d. *The Strange Case of Dr Jekyll and Mr Hyde*. `Shelf-0172`
+- H. G. Wells. n.d. *The War of the Worlds*. `Shelf-0173`
+- John Steinbeck. n.d. *The Pearl*. `Shelf-0174`
+- Albert Camus. n.d. *The Outsider*. `Shelf-0175`
+- Antoine de Saint-ExupÃ©ry. n.d. *The Little Prince*. `Shelf-0176`
+- George Orwell. n.d. *Animal Farm*. `Shelf-0177`
+- John le CarrÃ©. n.d. *Tinker Tailor Soldier Spy*. `Shelf-0178`
+- Charlotte BrontÃ«. n.d. *Jane Eyre*. `Shelf-0179`
+- Charlotte BrontÃ«. n.d. *Villette*. `Shelf-0180`
+- Emily BrontÃ«. n.d. *Wuthering Heights*. `Shelf-0181`
+- Anne BrontÃ«. n.d. *The Tenant of Wildfell Hall*. `Shelf-0182`
+- Herman Melville. n.d. *Moby-Dick*. `Shelf-0183`
+- Lewis Carroll. n.d. *Alice's Adventures in Wonderland and Through the Looking-Glass*. `Shelf-0184`
+- Lewis Carroll. n.d. *Jabberwocky and Other Nonsense*. `Shelf-0185`
+- Philip Pullman. n.d. *Grimm Tales*. `Shelf-0186`
+- Mary Shelley. n.d. *Frankenstein*. `Shelf-0187`
+- Charles Darwin. 2012. *The Origin of Species and The Voyage of the Beagle*. Everyman's Library. ISBN 9780307824202. `Shelf-0188`
+- Leo Tolstoy. 1994. *The Cossacks*. Everyman's Library. ISBN 9780679431312. `Shelf-0189`
+- Leo Tolstoy. 1991. *Childhood, Boyhood, and Youth*. Everyman's Library. ISBN 9780679405788. `Shelf-0190`
+- Leo Tolstoy. 2001. *Collected Shorter Fiction Volume 1*. Everyman's Library. ISBN 9780375411724. `Shelf-0191`
+- Leo Tolstoy. 2001. *Collected Shorter Fiction Volume 2*. Everyman's Library. ISBN 9780375412875. `Shelf-0192`
+- Leo Tolstoy. n.d. *War and Peace*. `Shelf-0193`
+- Leo Tolstoy. n.d. *Anna Karenina*. `Shelf-0194`
+- Fyodor Dostoevsky. n.d. *The Brothers Karamazov*. `Shelf-0195`
+- Fyodor Dostoevsky. 2003. *The Adolescent*. Everyman's Library. ISBN 9781400041183. `Shelf-0196`
+- Edmund Burke. 2015. *Reflections on the Revolution in France*. Everyman's Library. ISBN 9780375712531. `Shelf-0197`
+- Anton Chekhov. 2004. *The Complete Short Novels*. Everyman's Library. ISBN 9781400040490. `Shelf-0198`
+- Adam Smith. 1991. *The Wealth of Nations*. Everyman's Library. `Shelf-0199`
+- John Keats. 1992. *The Poems*. Everyman's Library. ISBN 9780679405535. `Shelf-0200`
+- Ivan Turgenev. 2011. *Fathers and Children*. Everyman's Library. ISBN 9780307806628. `Shelf-0201`
+- Jules Verne. 2013. *Three Novels*. Everyman's Library. ISBN 9780307961488. `Shelf-0202`
+- Jules Verne. 2013. *Journey to the Centre of the Earth, Twenty Thousand Leagues Under the Sea, Around the World in Eighty Days*. Everyman's Library. ISBN 9780307961488. `Shelf-0203`
+- Joseph Conrad. n.d. *Typhoon and Other Stories*. `Shelf-0204`
+- Joseph Conrad. 1992. *Lord Jim*. Everyman's Library. ISBN 9780679405443. `Shelf-0205`
+- Joseph Conrad. 1993. *Heart of Darkness*. Everyman's Library. ISBN 9780679428015. `Shelf-0206`
+- Joseph Conrad. n.d. *Victory*. `Shelf-0207`
+- H. G. Wells. 2011. *The Time Machine, The Invisible Man, The War of the Worlds*. Everyman's Library. ISBN 9780307806635. `Shelf-0208`
+- Rudyard Kipling. 1995. *Kim*. Everyman's Library. ISBN 9780679443605. `Shelf-0209`
+- Fyodor Dostoevsky. n.d. *White Nights*. `Shelf-0210`
+- NiccolÃ² Machiavelli. n.d. *The Prince*. `Shelf-0211`
+- Thomas More. n.d. *Utopia*. `Shelf-0212`
+- Arthur Schopenhauer. n.d. *Essays and Aphorisms*. `Shelf-0213`
+- Friedrich Nietzsche. n.d. *Beyond Good and Evil*. `Shelf-0214`
+- Karl Marx & Friedrich Engels. n.d. *The Communist Manifesto*. `Shelf-0215`
+- SÃ¸ren Kierkegaard. n.d. *Fear and Trembling*. `Shelf-0216`
+- Sigmund Freud. n.d. *Civilization and Its Discontents*. `Shelf-0217`
+- F. Scott Fitzgerald. n.d. *Babylon Revisited*. `Shelf-0218`
+- Joseph Conrad. n.d. *The Lagoon*. `Shelf-0219`
+- E. T. A. Hoffmann. n.d. *The Nutcracker*. `Shelf-0220`
+- Arthur Conan Doyle. n.d. *The Adventure of the Blue Carbuncle*. `Shelf-0221`
+- John Steinbeck. n.d. *Of Mice and Men*. `Shelf-0222`
+- Jane Austen. n.d. *Lady Susan*. `Shelf-0223`
+- Franz Kafka. n.d. *Metamorphosis*. `Shelf-0224`
+- Alexander Pushkin. n.d. *The Queen of Spades*. `Shelf-0225`
+- Anton Chekhov. n.d. *About Love*. `Shelf-0226`
+- F. Scott Fitzgerald. 2000. *Novels and Stories 1920â€“1922*. Library of America. ISBN 9781598532968. `Shelf-0227`
+- F. Scott Fitzgerald. 2022. *The Great Gatsby, All the Sad Young Men & Other Writings 1920â€“1926*. Library of America. ISBN 9781598537475. `Shelf-0228`
+- Mark Twain. 2010. *A Tramp Abroad, Following the Equator, Other Travels*. Library of America. ISBN 9781598530667. `Shelf-0229`
+- Mark Twain. 1994. *Historical Romances*. Library of America. ISBN 9780940450820. `Shelf-0230`
+- Mark Twain. 1992. *Collected Tales, Sketches, Speeches, & Essays 1891â€“1910*. Library of America. ISBN 9780940450738. `Shelf-0231`
+- Mark Twain. n.d. *Mississippi Writings*. `Shelf-0232`
+- Mark Twain. 2002. *The Gilded Age & Later Novels*. Library of America. ISBN 9781931082105. `Shelf-0233`
+- John Steinbeck. 1994. *Novels and Stories 1932â€“1937*. Library of America. ISBN 9781883011017. `Shelf-0234`
+- John Steinbeck. n.d. *Novels 1942â€“1952*. `Shelf-0235`
+- Herman Melville. 1985. *Pierre, Israel Potter, The Confidence-Man, Tales, & Billy Budd*. Library of America. ISBN 9780940450240. `Shelf-0236`
+- Thomas Hardy. n.d. *Jude the Obscure*. `Shelf-0237`
+- Thomas Hardy. n.d. *Far from the Madding Crowd*. `Shelf-0238`
+- Thomas Hardy. n.d. *The Mayor of Casterbridge*. `Shelf-0239`
+- Thomas Hardy. n.d. *Tess of the D'Urbervilles*. `Shelf-0240`
+- Arthur M. Schlesinger Jr.. 2003. *The Crisis of the Old Order, 1919-1923*. Houghton Mifflin Harcourt. ISBN 9780618340859. `Shelf-0241`
+- Arthur M. Schlesinger Jr.. 2003. *The Coming of the New Deal*. Houghton Mifflin Harcourt. ISBN 9780618340866. `Shelf-0242`
+- Arthur M. Schlesinger Jr.. 2003. *The Politics of Upheaval*. Houghton Mifflin Harcourt. ISBN 9780547524252. `Shelf-0243`
+- Roger Crowley. 2006. *1453: The Holy War for Constantinople and the Clash of Islam and the West*. Hyperion. ISBN 9781401308506. `Shelf-0244`
+- Roger Crowley. 2015. *Conquerors: How Portugal Forged the First Global Empire*. Random House. ISBN 9780812994018. `Shelf-0245`
+- Roger Crowley. 2008. *Empires of the Sea: The Siege of Malta, the Battle of Lepanto, and the Contest for the Center of the World*. Random House. ISBN 9781588367334. `Shelf-0246`
+- Roger Crowley. n.d. *City of Fortune: How Venice Ruled the Seas*. `Shelf-0247`
+- Roger Crowley. 2024. *Spice: The 16th-Century Contest that Shaped the Modern World*. Yale University Press. ISBN 9780300267471. `Shelf-0248`
+- Roger Crowley. 2019. *The Accursed Tower: The Fall of Acre and the End of the Crusades*. Basic Books. ISBN 9781541699724. `Shelf-0249`
+- Justin Pollard. 2005. *Alfred the Great: The Man Who Made England*. John Murray Publishers. ISBN 9780719566653. `Shelf-0250`
+- Robert A. Caro. 1982. *The Years of Lyndon Johnson: The Path to Power*. Knopf. ISBN 9780394499734. `Shelf-0251`
+- Robert A. Caro. 1990. *The Years of Lyndon Johnson: Means of Ascent*. Knopf. ISBN 9780394528359. `Shelf-0252`
+- Robert A. Caro. 2002. *The Years of Lyndon Johnson: Master of the Senate*. Knopf. ISBN 9780394528366. `Shelf-0253`
+- Robert A. Caro. 2012. *The Years of Lyndon Johnson: The Passage of Power*. Knopf. ISBN 9780679405078. `Shelf-0254`
+- David L. Roll. 2019. *George Marshall: Defender of the Republic*. Penguin. ISBN 9781101990995. `Shelf-0255`
+- H. W. Brands. 2017. *The General vs. the President: MacArthur and Truman at the Brink of Nuclear War*. Anchor. ISBN 9781101912171. `Shelf-0256`
+- David McCullough. 1992. *Truman*. Simon and Schuster. ISBN 9780671456542. `Shelf-0257`
+- Stephen E. Ambrose. 1991. *Eisenhower: Soldier and President*. Simon and Schuster. ISBN 9780671747589. `Shelf-0258`
+- Stephen E. Ambrose. 1987. *Nixon: The Education of a Politician, 1913-1962*. Simon & Schuster. ISBN 9780671528362. `Shelf-0259`
+- Stephen E. Ambrose. 1989. *Nixon: The Triumph of a Politician, 1962-1972*. Simon & Schuster. ISBN 9780671528379. `Shelf-0260`
+- Stephen E. Ambrose. 1991. *Nixon: Ruin and Recovery, 1973-1990*. Simon & Schuster. ISBN 9780671691882. `Shelf-0261`
+- Alexis de Tocqueville. 2004. *Democracy in America*. Library of America. ISBN 9781931082549. `Shelf-0262`
+- H. W. Brands. 2019. *T. R.: The Last Romantic*. Basic Books. ISBN 9781541618039. `Shelf-0263`
+- H. W. Brands. 2009. *Traitor to His Class: The Privileged Life and Radical Presidency of Franklin Delano Roosevelt*. Anchor. ISBN 9780307277947. `Shelf-0264`
+- Niall Ferguson. 2015. *Kissinger: 1923-1968: The Idealist*. Penguin Press. ISBN 9781594206532. `Shelf-0265`
+- Henry David Thoreau. 1989. *A Week, Walden, Maine Woods, Cape Cod*. Library of America. ISBN 9780940450271. `Shelf-0266`
+- Nathaniel Hawthorne. 1982. *Tales and Sketches*. Library of America. ISBN 9780940450035. `Shelf-0267`
+- Nathaniel Hawthorne. 1983. *Novels*. Library of America. ISBN 9780940450080. `Shelf-0268`
+- John Adams. 2011. *Revolutionary Writings 1755-1775*. Library of America. ISBN 9781598530896. `Shelf-0269`
+- John Adams. 2011. *Revolutionary Writings 1775-1783*. Library of America. ISBN 9781598530902. `Shelf-0270`
+- Ralph Waldo Emerson. 1994. *Collected Poems & Translations*. Library of America. ISBN 9780940450288. `Shelf-0271`
+- Herman Melville. 1982. *Typee, Omoo, Mardi*. Library of America. ISBN 9781598533453. `Shelf-0272`
+- Herman Melville. 1983. *Redburn, White-Jacket, Moby-Dick*. Library of America. ISBN 9780940450097. `Shelf-0273`
+- John Steinbeck. 1996. *The Grapes of Wrath & Other Writings 1936-1941*. Library of America. ISBN 9781883011154. `Shelf-0274`
+- Barbara W. Tuchman. 2012. *The Guns of August, The Proud Tower*. Library of America. ISBN 9781598531459. `Shelf-0275`
+- Mark Twain. 1992. *Tales, Sketches, Speeches, & Essays 1852-1890*. Library of America. ISBN 9780940450363. `Shelf-0276`
+- Ernest Hemingway. 2020. *The Sun Also Rises & Other Writings 1918-1926*. Library of America. ISBN 9781598536676. `Shelf-0277`
+- Ernest Hemingway. 2024. *A Farewell to Arms & Other Writings 1927-1932*. Library of America. ISBN 9781598537840. `Shelf-0278`
+- Ray Bradbury. 2022. *The Illustrated Man, The October Country, Other Stories*. Library of America. ISBN 9781598537284. `Shelf-0279`
+- Ray Bradbury. 2021. *Novels & Story Cycles*. Library of America. ISBN 9781598537000. `Shelf-0280`
+- Kurt Vonnegut. 2012. *Novels & Stories 1950-1962*. Library of America. ISBN 9781598531503. `Shelf-0281`
+- Kurt Vonnegut. 2011. *Novels & Stories 1963-1973*. Library of America. ISBN 9781598530988. `Shelf-0282`
+- Kurt Vonnegut. 2014. *Novels 1976-1985*. Library of America. ISBN 9781598533040. `Shelf-0283`
+- Kurt Vonnegut. 2016. *Novels 1987-1997*. Library of America. ISBN 9781598534641. `Shelf-0284`
+- C. S. Lewis. n.d. *The Magician's Nephew*. `Shelf-0285`
+- C. S. Lewis. n.d. *The Lion, the Witch and the Wardrobe*. `Shelf-0286`
+- C. S. Lewis. n.d. *The Horse and His Boy*. `Shelf-0287`
+- C. S. Lewis. n.d. *Prince Caspian*. `Shelf-0288`
+- C. S. Lewis. n.d. *The Voyage of the Dawn Treader*. `Shelf-0289`
+- C. S. Lewis. n.d. *The Silver Chair*. `Shelf-0290`
+- C. S. Lewis. n.d. *The Last Battle*. `Shelf-0291`
+- Walter Isaacson. 2008. *Einstein: His Life and Universe*. Simon and Schuster. ISBN 9780743264747. `Shelf-0292`
+- John Erickson. 2003. *The Road to Stalingrad: Stalin's War with Germany, Vol. 1*. Cassell. ISBN 9780304365418. `Shelf-0293`
+- John Erickson. 2003. *The Road to Berlin: Stalin's War with Germany, Vol. 2*. Cassell. ISBN 9780304365401. `Shelf-0294`
+- Ron Chernow. 2025. *Mark Twain*. Penguin Group. ISBN 9780525561729. `Shelf-0295`
+- Dan Jones. 2018. *The Templars: The Rise and Spectacular Fall of God's Holy Warriors*. Penguin. ISBN 9780143108962. `Shelf-0296`
+- Arthur Herman. 2008. *Gandhi & Churchill: The Epic Rivalry That Destroyed an Empire and Forged Our Age*. Bantam. ISBN 9780553905045. `Shelf-0297`
+- William Manchester. 2008. *American Caesar: Douglas MacArthur 1880-1964*. Little, Brown. ISBN 9780316032421. `Shelf-0298`
+- Various. n.d. *The Koran*. `Shelf-0299`
+- Bertrand Russell. n.d. *History of Western Philosophy*. `Shelf-0300`
+- Peter H. Wilson. n.d. *Heart of Europe*. `Shelf-0301`

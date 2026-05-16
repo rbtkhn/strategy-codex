@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """Repair known thin bookshelf MCQ candidates with structured source receipts.
 
 This is a bounded operator repair for CANDIDATE-0042..0045. It does not merge
@@ -33,7 +33,7 @@ proposal_class: SELF_KNOWLEDGE_ADD
 source: operator - repaired bookshelf MCQ receipt
 source_binding_strength: weak
 review_needed: true
-shelf_refs: [HNSRC-0247, HNSRC-0248]
+shelf_refs: [Shelf-0247, Shelf-0248]
 quiz_receipt:
   source_kind: secondary
   citation_label: "Roger Crowley, City of Fortune; Roger Crowley, Spice"
@@ -110,7 +110,7 @@ proposal_class: SELF_KNOWLEDGE_ADD
 source: operator - repaired bookshelf MCQ receipt
 source_binding_strength: strong
 review_needed: false
-shelf_refs: [HNSRC-0003]
+shelf_refs: [Shelf-0003]
 quiz_receipt:
   source_kind: primary
   citation_label: "Thucydides, History of the Peloponnesian War"
@@ -148,7 +148,7 @@ proposal_class: SELF_KNOWLEDGE_ADD
 source: operator - repaired bookshelf MCQ receipt
 source_binding_strength: weak
 review_needed: true
-shelf_refs: [HNSRC-0256]
+shelf_refs: [Shelf-0256]
 quiz_receipt:
   source_kind: secondary
   citation_label: "H. W. Brands, The General vs. the President"

@@ -1,6 +1,6 @@
-version: 1
+﻿version: 1
 generated_on: "2026-04-25"
-scope: "HNSRC-0026 through HNSRC-0050"
+scope: "Shelf-0026 through Shelf-0050"
 method:
   sources:
     - "Google Books volumes API"
@@ -8,14 +8,14 @@ method:
   policy: "Attach as candidate metadata; merge into bookshelf-catalog.yaml only when confidence is high and edition match is clear."
 
 items:
-  - id: HNSRC-0026
+  - id: Shelf-0026
     title: "The Alexiad"
     author: "Anna Comnena"
     candidate_year: 2020
     confidence: low
     note: "API top hit looked like modern reprint line; classical source has many editions/translations."
 
-  - id: HNSRC-0027
+  - id: Shelf-0027
     title: "Plutarch's Lives"
     author: "Plutarch"
     candidate_year: 2001
@@ -24,7 +24,7 @@ items:
     confidence: medium
     note: "Likely aligns with Modern Library Giant note; verify copy edition."
 
-  - id: HNSRC-0028
+  - id: Shelf-0028
     title: "Caesar: Life of a Colossus"
     author: "Adrian Goldsworthy"
     candidate_year: 2006
@@ -33,7 +33,7 @@ items:
     confidence: high
     note: "Strong title/author/imprint match."
 
-  - id: HNSRC-0029
+  - id: Shelf-0029
     title: "Antony and Cleopatra"
     author: "Adrian Goldsworthy"
     candidate_year: 2010
@@ -42,7 +42,7 @@ items:
     confidence: high
     note: "Strong match for Goldsworthy Yale edition family."
 
-  - id: HNSRC-0030
+  - id: Shelf-0030
     title: "Cicero: The Life and Times of Rome's Greatest Politician"
     author: "Anthony Everitt"
     candidate_year: 2001
@@ -50,7 +50,7 @@ items:
     confidence: medium
     note: "Publisher matches shelf note directionally; ISBN unavailable from hit."
 
-  - id: HNSRC-0031
+  - id: Shelf-0031
     title: "Augustus: First Emperor of Rome"
     author: "Adrian Goldsworthy"
     candidate_year: 2014
@@ -58,7 +58,7 @@ items:
     confidence: medium
     note: "ISBN/year align with Yale line; publisher missing in API hit."
 
-  - id: HNSRC-0032
+  - id: Shelf-0032
     title: "Augustus: The Life of Rome's First Emperor"
     author: "Anthony Everitt"
     candidate_year: 2007
@@ -67,7 +67,7 @@ items:
     confidence: high
     note: "Strong title/author/imprint match."
 
-  - id: HNSRC-0033
+  - id: Shelf-0033
     title: "Hadrian and the Triumph of Rome"
     author: "Anthony Everitt"
     candidate_year: 2010
@@ -76,7 +76,7 @@ items:
     confidence: high
     note: "Strong title/author/imprint match."
 
-  - id: HNSRC-0034
+  - id: Shelf-0034
     title: "Rome and Persia: The Seven Hundred Year Rivalry"
     author: "Adrian Goldsworthy"
     candidate_year: 2023
@@ -85,7 +85,7 @@ items:
     confidence: high
     note: "Strong modern title match."
 
-  - id: HNSRC-0035
+  - id: Shelf-0035
     title: "Pax Romana: War, Peace and Conquest in the Roman World"
     author: "Adrian Goldsworthy"
     candidate_year: 2016
@@ -94,41 +94,41 @@ items:
     confidence: high
     note: "Strong match; Yale imprint consistent with shelf note."
 
-  - id: HNSRC-0036
+  - id: Shelf-0036
     title: "The Old Testament"
     author: "Various"
     candidate_year: 2007
     confidence: low
     note: "Many editions; API match likely not your Everyman's copy."
 
-  - id: HNSRC-0037
+  - id: Shelf-0037
     title: "The New Testament"
     author: "Various"
     candidate_year: 2012
     confidence: low
     note: "Many editions; API match likely not your Everyman's copy."
 
-  - id: HNSRC-0038
+  - id: Shelf-0038
     title: "The Koran"
     author: "Various"
     confidence: low
     note: "No reliable API hit; classical text with many editions."
 
-  - id: HNSRC-0039
+  - id: Shelf-0039
     title: "Lao-Tzu: Tao Te Ching"
     author: "Lao Tzu"
     candidate_year: 2020
     confidence: low
     note: "Classical text with many translation/imprint variants."
 
-  - id: HNSRC-0040
+  - id: Shelf-0040
     title: "Confucius: The Analects"
     author: "Confucius"
     candidate_year: 1938
     confidence: low
     note: "Classical text; API surfaced historical/public-domain variants not clearly your copy."
 
-  - id: HNSRC-0041
+  - id: Shelf-0041
     title: "Plato: The Republic"
     author: "Plato"
     candidate_year: 2000
@@ -137,7 +137,7 @@ items:
     confidence: low
     note: "Edition likely differs from Everyman's line; do not merge without copy check."
 
-  - id: HNSRC-0042
+  - id: Shelf-0042
     title: "Plato: Symposium and Phaedrus"
     author: "Plato"
     candidate_year: 2023
@@ -146,14 +146,14 @@ items:
     confidence: low
     note: "Likely different translation/imprint than shelf copy."
 
-  - id: HNSRC-0043
+  - id: Shelf-0043
     title: "Sophocles: The Theban Plays"
     author: "Sophocles"
     candidate_year: 2016
     confidence: low
     note: "API hit skewed toward print-on-demand edition."
 
-  - id: HNSRC-0044
+  - id: Shelf-0044
     title: "Aeschylus: The Oresteia"
     author: "Aeschylus"
     candidate_year: 1998
@@ -162,21 +162,21 @@ items:
     confidence: low
     note: "Edition may not match shelf line."
 
-  - id: HNSRC-0045
+  - id: Shelf-0045
     title: "Tacitus: Annals and Histories"
     author: "Tacitus"
     candidate_year: 1964
     confidence: low
     note: "Classical text with many editions/translations."
 
-  - id: HNSRC-0046
+  - id: Shelf-0046
     title: "The Iliad"
     author: "Homer"
     candidate_year: 2007
     confidence: low
     note: "Classical text with multiple translations and imprints."
 
-  - id: HNSRC-0047
+  - id: Shelf-0047
     title: "The Odyssey"
     author: "Homer"
     candidate_year: 2004
@@ -185,7 +185,7 @@ items:
     confidence: low
     note: "Likely different imprint than shelf copy."
 
-  - id: HNSRC-0048
+  - id: Shelf-0048
     title: "The Aeneid"
     author: "Virgil"
     candidate_year: 2003
@@ -194,14 +194,14 @@ items:
     confidence: low
     note: "Likely different translation/imprint than shelf copy."
 
-  - id: HNSRC-0049
+  - id: Shelf-0049
     title: "Metamorphoses"
     author: "Ovid"
     candidate_year: 1955
     confidence: low
     note: "Classical text with many editions/translations."
 
-  - id: HNSRC-0050
+  - id: Shelf-0050
     title: "Placeholder: Penguin Clothbound, red spine fish motif"
     author: "Unknown"
     confidence: low

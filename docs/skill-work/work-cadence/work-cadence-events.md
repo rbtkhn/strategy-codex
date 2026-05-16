@@ -1,4 +1,4 @@
-# Cadence events
+﻿# Cadence events
 
 > Append-only audit of **coffee**, **coffee_pick**, **coffee_close**, **coffee_conductor_outcome**, **dream**, **bridge**, legacy **`thanks`**, and optional **harvest** runs. (**`thanks`** is a deprecated grace-mar operator beat; new work prefers **conductor** + **`coffee`**.)
 > **Not** Record truth. **Not** self-memory. **Not** a replacement for
@@ -452,7 +452,7 @@ _(Append below this line.)_
 - **2026-05-01 22:49 UTC** — coffee_conductor_outcome (grace-mar) ok=true cursor_model=unknown model_tier=unknown conductor=furtwangler verdict=reflection-brief-created notebook_ref=artifacts/work-dev/conductor-delegations/cdel-20260501-224915-reflection-capture-what-the-ten-point-critique-taught-the-o-brief.md falsify=no-final-verdict-from-critique
 - **2026-05-01 22:52 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=karajan cursor-model=codex
 - **2026-05-02 03:02 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=toscanini cursor-model=codex
-- **2026-05-02 03:05 UTC** — coffee_conductor_outcome (grace-mar) ok=true cursor_model=unknown model_tier=unknown conductor=toscanini verdict=gate-shape-pass-evidence-boundary-watch falsify=mcq-candidates-pass-readiness-but-lack-hnsrc-or-stem-answer-receipts
+- **2026-05-02 03:05 UTC** — coffee_conductor_outcome (grace-mar) ok=true cursor_model=unknown model_tier=unknown conductor=toscanini verdict=gate-shape-pass-evidence-boundary-watch falsify=mcq-candidates-pass-readiness-but-lack-shelf-or-stem-answer-receipts
 - **2026-05-02 04:03 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
 - **2026-05-02 04:30 UTC** — bridge (grace-mar) ok=true cursor_model=unknown model_tier=unknown refs=grace-mar:61651c46 scope=local-first-substrate skipped_dirty_arcs=conductor-cici-strategy
 - **2026-05-02 04:48 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
@@ -558,3 +558,10 @@ _(Append below this line.)_
 - **2026-05-16 03:07 UTC** — coffee (strategy-codex) ok=true mode=light cursor_model=unknown model_tier=unknown
 - **2026-05-16 04:33 UTC** — coffee (strategy-codex) ok=true mode=light cursor_model=unknown model_tier=unknown
 - **2026-05-16 04:35 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=codex model_tier=unknown picked=D hub=capitalist
+- **2026-05-16 04:42 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-05-16 04:43 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=kleiber focus=predictive-history-external-repo
+- **2026-05-16 04:44 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown conductor=kleiber verdict=civ-01-route-held-with-index-wording-note notebook_ref=github:rbtkhn/predictive-history:civ-01 falsify=If chapter-manifest civ-01 no longer routes to corpus transcript commentary civ-ph and orientation payload the public one-chapter load contract is broken.
+- **2026-05-16 04:47 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown conductor=kleiber verdict=ph-public-front-door-held notebook_ref=artifacts/benchmarks/composition/2026-05-16/codex/ph-public-front-door-kleiber.md falsify=Fresh route audit finds nontrivial chapter-manifest rows pointing to missing transcript commentary civ-ph or orientation files or README llms roadmap drift into conflicting second-semester/review-stat
+- **2026-05-16 05:13 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=furtwangler focus=predictive-history-roadmap-tensions
+- **2026-05-16 06:26 UTC** — dream (strategy-codex) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
+- **2026-05-16 13:04 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown

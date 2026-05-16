@@ -1,9 +1,9 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """Generate queue ranking for history-notebook chapter drafting priority.
 
 Inputs:
 - book-architecture.yaml (chapter roster and status)
-- bookshelf-catalog.yaml (HNSRC rows + candidate_hn_chapters)
+- bookshelf-catalog.yaml (Shelf rows + candidate_hn_chapters)
 - AGENTIC-MVP-CONFIG.yaml (weights + thresholds)
 
 Output:

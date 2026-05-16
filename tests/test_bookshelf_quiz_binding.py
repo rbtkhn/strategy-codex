@@ -1,4 +1,4 @@
-"""Tests for primary-source bound bookshelf quiz receipts."""
+﻿"""Tests for primary-source bound bookshelf quiz receipts."""
 
 from __future__ import annotations
 
@@ -90,7 +90,7 @@ channel_key: operator:cursor:bookshelf-mcq-self-knowledge
 proposal_class: SELF_KNOWLEDGE_ADD
 source_binding_strength: strong
 review_needed: false
-shelf_refs: [HNSRC-0003]
+shelf_refs: [Shelf-0003]
 quiz_receipt:
   source_kind: primary
   citation_label: "Thucydides, History of the Peloponnesian War"
@@ -120,7 +120,7 @@ proposal_class: SELF_KNOWLEDGE_ADD
 source: operator - bookshelf MCQ receipt
 source_binding_strength: strong
 review_needed: false
-shelf_refs: [HNSRC-0269, HNSRC-0270]
+shelf_refs: [Shelf-0269, Shelf-0270]
 quiz_receipt:
   source_kind: primary
   citation_label: "John Adams, Revolutionary Writings"
@@ -159,10 +159,10 @@ def test_valid_primary_source_candidate_passes() -> None:
     assert result.returncode == 0, result.stderr + result.stdout
 
 
-def test_visible_prompt_must_not_leak_internal_hnsrc() -> None:
+def test_visible_prompt_must_not_leak_internal_shelf() -> None:
     bad = VALID_CANDIDATE.replace(
         "what lesson is usually drawn?",
-        "what lesson is usually drawn from HNSRC-0003?",
+        "what lesson is usually drawn from Shelf-0003?",
     )
     result = _run_check(bad)
     assert result.returncode == 1
@@ -170,7 +170,7 @@ def test_visible_prompt_must_not_leak_internal_hnsrc() -> None:
 
 
 def test_unknown_shelf_ref_fails() -> None:
-    bad = VALID_CANDIDATE.replace("HNSRC-0003", "HNSRC-9999")
+    bad = VALID_CANDIDATE.replace("Shelf-0003", "Shelf-9999")
     result = _run_check(bad)
     assert result.returncode == 1
     assert "unknown shelf_ref" in result.stdout
@@ -179,7 +179,7 @@ def test_unknown_shelf_ref_fails() -> None:
 def test_weak_missing_shelf_refs_warns_but_passes() -> None:
     weak = VALID_CANDIDATE.replace("source_binding_strength: strong", "source_binding_strength: weak")
     weak = weak.replace("review_needed: false", "review_needed: true")
-    weak = weak.replace("shelf_refs: [HNSRC-0003]", "shelf_refs: []")
+    weak = weak.replace("shelf_refs: [Shelf-0003]", "shelf_refs: []")
     result = _run_check(weak)
     assert result.returncode == 0, result.stderr + result.stdout
     assert "missing shelf_refs" in result.stdout
@@ -240,7 +240,7 @@ def test_john_adams_anchor_lookup_preflight_and_receipt_extraction() -> None:
     anchors_text = ANCHORS.read_text(encoding="utf-8")
     assert "id: bq-john-adams-revolutionary-writings" in anchors_text
     assert "source_kind: primary" in anchors_text
-    assert "shelf_refs: [HNSRC-0269, HNSRC-0270]" in anchors_text
+    assert "shelf_refs: [Shelf-0269, Shelf-0270]" in anchors_text
 
     result = _run_check(ADAMS_CANDIDATE)
     assert result.returncode == 0, result.stderr + result.stdout
@@ -248,7 +248,7 @@ def test_john_adams_anchor_lookup_preflight_and_receipt_extraction() -> None:
     import process_approved_candidates as pac
 
     receipt = pac._extract_approval_receipt(ADAMS_CANDIDATE)
-    assert "shelf_refs: [HNSRC-0269, HNSRC-0270]" in receipt
+    assert "shelf_refs: [Shelf-0269, Shelf-0270]" in receipt
     assert "quiz_receipt:" in receipt
     assert 'citation_label: "John Adams, Revolutionary Writings"' in receipt
     assert "staged_claim:" in receipt
@@ -262,7 +262,7 @@ def test_bookshelf_receipt_checks_degrade_to_warning_without_pyyaml(monkeypatch)
     blockers, warnings = cgr._receipt_binding_issues(
         "CANDIDATE-0060",
         {
-            "shelf_refs": ["HNSRC-0269", "HNSRC-0270"],
+            "shelf_refs": ["Shelf-0269", "Shelf-0270"],
             "quiz_receipt": {
                 "source_kind": "primary",
                 "citation_label": "John Adams, Revolutionary Writings",
@@ -273,8 +273,8 @@ def test_bookshelf_receipt_checks_degrade_to_warning_without_pyyaml(monkeypatch)
                 "staged_claim": "Knows: John Adams favored a mixed constitutional order.",
             },
         },
-        catalog_ids={"HNSRC-0269", "HNSRC-0270"},
-        anchor_refs={"HNSRC-0269", "HNSRC-0270"},
+        catalog_ids={"Shelf-0269", "Shelf-0270"},
+        anchor_refs={"Shelf-0269", "Shelf-0270"},
     )
     assert blockers == []
     assert any("PyYAML unavailable" in w for w in warnings)

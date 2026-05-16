@@ -1,4 +1,4 @@
-{
+﻿{
   "round_index": 2,
   "round_size": 7,
   "questions": [
@@ -7,14 +7,14 @@
       "tag": "Russia",
       "prompt": "Which option best matches your current relationship to the \"Russia\" subject cluster?",
       "support_ids": [
-        "HNSRC-0122",
-        "HNSRC-0123",
-        "HNSRC-0124",
-        "HNSRC-0125",
-        "HNSRC-0148",
-        "HNSRC-0149",
-        "HNSRC-0150",
-        "HNSRC-0151"
+        "Shelf-0122",
+        "Shelf-0123",
+        "Shelf-0124",
+        "Shelf-0125",
+        "Shelf-0148",
+        "Shelf-0149",
+        "Shelf-0150",
+        "Shelf-0151"
       ],
       "support_authors_count": 8,
       "options": [
@@ -45,14 +45,14 @@
       "tag": "Rome",
       "prompt": "Which option best matches your current relationship to the \"Rome\" subject cluster?",
       "support_ids": [
-        "HNSRC-0007",
-        "HNSRC-0017",
-        "HNSRC-0018",
-        "HNSRC-0019",
-        "HNSRC-0020",
-        "HNSRC-0028",
-        "HNSRC-0029",
-        "HNSRC-0030"
+        "Shelf-0007",
+        "Shelf-0017",
+        "Shelf-0018",
+        "Shelf-0019",
+        "Shelf-0020",
+        "Shelf-0028",
+        "Shelf-0029",
+        "Shelf-0030"
       ],
       "support_authors_count": 13,
       "options": [
@@ -83,14 +83,14 @@
       "tag": "empire",
       "prompt": "Which option best matches your current relationship to the \"empire\" subject cluster?",
       "support_ids": [
-        "HNSRC-0001",
-        "HNSRC-0003",
-        "HNSRC-0006",
-        "HNSRC-0008",
-        "HNSRC-0009",
-        "HNSRC-0011",
-        "HNSRC-0020",
-        "HNSRC-0022"
+        "Shelf-0001",
+        "Shelf-0003",
+        "Shelf-0006",
+        "Shelf-0008",
+        "Shelf-0009",
+        "Shelf-0011",
+        "Shelf-0020",
+        "Shelf-0022"
       ],
       "support_authors_count": 17,
       "options": [
@@ -121,14 +121,14 @@
       "tag": "France",
       "prompt": "Which option best matches your current relationship to the \"France\" subject cluster?",
       "support_ids": [
-        "HNSRC-0064",
-        "HNSRC-0070",
-        "HNSRC-0085",
-        "HNSRC-0086",
-        "HNSRC-0110",
-        "HNSRC-0119",
-        "HNSRC-0120",
-        "HNSRC-0121"
+        "Shelf-0064",
+        "Shelf-0070",
+        "Shelf-0085",
+        "Shelf-0086",
+        "Shelf-0110",
+        "Shelf-0119",
+        "Shelf-0120",
+        "Shelf-0121"
       ],
       "support_authors_count": 13,
       "options": [
@@ -159,14 +159,14 @@
       "tag": "poetry",
       "prompt": "Which option best matches your current relationship to the \"poetry\" subject cluster?",
       "support_ids": [
-        "HNSRC-0046",
-        "HNSRC-0047",
-        "HNSRC-0048",
-        "HNSRC-0049",
-        "HNSRC-0052",
-        "HNSRC-0080",
-        "HNSRC-0081",
-        "HNSRC-0114"
+        "Shelf-0046",
+        "Shelf-0047",
+        "Shelf-0048",
+        "Shelf-0049",
+        "Shelf-0052",
+        "Shelf-0080",
+        "Shelf-0081",
+        "Shelf-0114"
       ],
       "support_authors_count": 12,
       "options": [
@@ -197,14 +197,14 @@
       "tag": "Greece",
       "prompt": "Which option best matches your current relationship to the \"Greece\" subject cluster?",
       "support_ids": [
-        "HNSRC-0001",
-        "HNSRC-0002",
-        "HNSRC-0003",
-        "HNSRC-0004",
-        "HNSRC-0005",
-        "HNSRC-0010",
-        "HNSRC-0041",
-        "HNSRC-0042"
+        "Shelf-0001",
+        "Shelf-0002",
+        "Shelf-0003",
+        "Shelf-0004",
+        "Shelf-0005",
+        "Shelf-0010",
+        "Shelf-0041",
+        "Shelf-0042"
       ],
       "support_authors_count": 9,
       "options": [
@@ -235,14 +235,14 @@
       "tag": "founding",
       "prompt": "Which option best matches your current relationship to the \"founding\" subject cluster?",
       "support_ids": [
-        "HNSRC-0087",
-        "HNSRC-0088",
-        "HNSRC-0089",
-        "HNSRC-0090",
-        "HNSRC-0091",
-        "HNSRC-0106",
-        "HNSRC-0107",
-        "HNSRC-0108"
+        "Shelf-0087",
+        "Shelf-0088",
+        "Shelf-0089",
+        "Shelf-0090",
+        "Shelf-0091",
+        "Shelf-0106",
+        "Shelf-0107",
+        "Shelf-0108"
       ],
       "support_authors_count": 10,
       "options": [

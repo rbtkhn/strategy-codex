@@ -1,10 +1,10 @@
-# Volume I — Problem spine (20 chapters)
+﻿# Volume I — Problem spine (20 chapters)
 
 **Organizing principle:** Each chapter centers a **strategic problem**; evidence is **comparative** (Persia, Rome, China, India and adjacent cases). Not civilization-by-civilization Parts.
 
 **SSOT for IDs and titles:** [`book-architecture.yaml`](../book-architecture.yaml) `chapters` where `volume: i`.
 
-**Operator library scaffold (optional):** [VOL-I-LIBRARY-SCAFFOLD.md](VOL-I-LIBRARY-SCAFFOLD.md) — maps personal shelf (`HNSRC-*`) to these chapters for drafting; does not change IDs or Q-bundles.
+**Operator library scaffold (optional):** [VOL-I-LIBRARY-SCAFFOLD.md](VOL-I-LIBRARY-SCAFFOLD.md) — maps personal shelf (`Shelf-*`) to these chapters for drafting; does not change IDs or Q-bundles.
 
 ## Chapter list (problem → inventory questions)
 

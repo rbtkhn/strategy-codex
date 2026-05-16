@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """Validate bookshelf-quiz-anchors.yaml against bookshelf-catalog.yaml.
 
 WORK only; not Record. The anchor file is a curated quiz layer over the
@@ -23,7 +23,7 @@ RESEARCH = REPO / "docs" / "skill-work" / "work-strategy" / "history-notebook" /
 CATALOG = RESEARCH / "bookshelf-catalog.yaml"
 ANCHORS = RESEARCH / "bookshelf-quiz-anchors.yaml"
 
-RE_HNSRC = re.compile(r"^HNSRC-\d{4}$")
+RE_SHELF = re.compile(r"^Shelf-\d{4}$")
 SOURCE_KINDS = {"primary", "secondary", "mixed"}
 
 
@@ -76,7 +76,7 @@ def validate(catalog_path: Path, anchors_path: Path) -> tuple[list[str], list[st
             errors.append(f"{aid or f'anchors[{i}]'}: shelf_refs must be a non-empty list")
         else:
             for ref in shelf_refs:
-                if not isinstance(ref, str) or not RE_HNSRC.match(ref):
+                if not isinstance(ref, str) or not RE_SHELF.match(ref):
                     errors.append(f"{aid}: invalid shelf ref {ref!r}")
                 elif ref not in catalog_ids:
                     errors.append(f"{aid}: unknown shelf ref {ref}")
@@ -85,8 +85,8 @@ def validate(catalog_path: Path, anchors_path: Path) -> tuple[list[str], list[st
             value = str(raw.get(key) or "").strip()
             if not value:
                 errors.append(f"{aid or f'anchors[{i}]'}: {key} required")
-            if "HNSRC" in value:
-                errors.append(f"{aid or f'anchors[{i}]'}: {key} must not expose HNSRC ids")
+            if "Shelf" in value:
+                errors.append(f"{aid or f'anchors[{i}]'}: {key} must not expose Shelf ids")
 
         quiz_uses = raw.get("quiz_uses")
         if not isinstance(quiz_uses, list) or not quiz_uses:

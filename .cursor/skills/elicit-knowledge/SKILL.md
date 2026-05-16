@@ -1,4 +1,4 @@
----
+﻿---
 name: elicit-knowledge
 preferred_activation: elicit knowledge
 description: Topic-anchored history MCQ workflow that converts validated answers into merge-ready IX-A knowledge candidates in recursion-gate (no methodology framing, no placeholder suggested_entry). Use when the user asks to elicit knowledge and stage gate candidates.
@@ -24,7 +24,7 @@ Use this skill when the operator wants to elicit historical knowledge from `self
 ## MCQ shape (presentation + balance)
 
 - **Formatting:** Present **each letter option (`A`-`D`) on its own line** under the question stem (readable in chat paste).
-- **Visible citation:** Write prompts in academic prose with inline citations, e.g. `In Thucydides' account of the Melian Dialogue...` or `Drawing on Tocqueville's Democracy in America...`. Do **not** show `HNSRC`, `LIB`, or other internal acronyms in the operator-facing question.
+- **Visible citation:** Write prompts in academic prose with inline citations, e.g. `In Thucydides' account of the Melian Dialogue...` or `Drawing on Tocqueville's Democracy in America...`. Do **not** show `Shelf`, `LIB`, or other internal acronyms in the operator-facing question.
 - **Answer-key balance:** Vary the correct-letter positions across the round; avoid clustering the answer key disproportionately in `A` or `B`. Keep distractors plausible, but rotate correct answers so the operator is tested on content rather than answer-position pattern.
 - **Date primary (cap):** In each round, **at most two** items may be **date-answer-primary** - i.e., the intended skill tested is recall of **year** or **calendar date** alone. Prefer roles, factions, causal links, diplomatic or institutional mechanisms, ordering/sequence, compare/contrast stems; use dates sparingly inside distractors **or** where one date settles a materially disputed storyline.
 - **Round size:** **6-10** questions remains the usual bracket; honour the date-primary cap regardless.
@@ -33,7 +33,7 @@ Use this skill when the operator wants to elicit historical knowledge from `self
 ## Required constraints
 
 1. Every question must include a specific topic/event anchor (example: "Westphalia 1648", "Fort Sumter 1861").
-2. Every question must be linked internally to a specific item contained in `self-library-bookshelf` (`bookshelf-catalog.yaml` / `HNSRC-*`) through `bookshelf-quiz-anchors.yaml`; prefer primary sources where available.
+2. Every question must be linked internally to a specific item contained in `self-library-bookshelf` (`bookshelf-catalog.yaml` / `Shelf-*`) through `bookshelf-quiz-anchors.yaml`; prefer primary sources where available.
 3. Candidate content must be world-knowledge pattern/fact language, not "how I work" language.
 4. Never stage placeholder `suggested_entry` values (forbidden: `See source_exchange.operator (staged paste)`).
 5. Gate staging is allowed; merge requires explicit companion approval.
@@ -59,10 +59,10 @@ Each staged candidate should include:
 - `mind_category: knowledge`
 - `profile_target: IX-A. KNOWLEDGE`
 - concrete `suggested_entry` starting with `Knows:`
-- topic-specific evidence anchors (`HNSRC-*` and/or explicit episode labels)
+- topic-specific evidence anchors (`Shelf-*` and/or explicit episode labels)
 - `proposal_class: SELF_KNOWLEDGE_ADD`
 - `signal_type: operator_quiz_validated`
-- `shelf_refs` with hidden `HNSRC-*` ids
+- `shelf_refs` with hidden `Shelf-*` ids
 - `quiz_receipt` preserving source kind, academic citation label, stem topic, selected answer, correct answer, validation note, and staged claim
 - no methodology-preference claims
 
@@ -77,8 +77,8 @@ python3 scripts/check_gate_merge_readiness.py -u strategy-codex --strict
 
 - placeholder `suggested_entry`
 - pending IX-A candidate missing topic anchor in `source_exchange`
-- MCQ candidate that cannot be traced to `bookshelf-quiz-anchors.yaml` or a specific `self-library-bookshelf` item (`HNSRC-*`), unless explicitly marked `source_binding_strength: weak` and `review_needed: true`
-- operator-facing question text exposing `HNSRC`, `LIB`, or other internal acronyms
+- MCQ candidate that cannot be traced to `bookshelf-quiz-anchors.yaml` or a specific `self-library-bookshelf` item (`Shelf-*`), unless explicitly marked `source_binding_strength: weak` and `review_needed: true`
+- operator-facing question text exposing `Shelf`, `LIB`, or other internal acronyms
 - pending IX-A candidate framed as methodology preference
 - open-ended follow-up that drifts off-topic or becomes a methodology prompt
 - `self.md` IX-A scaffold mismatch (`Facts (LEARN-nnn)` block absent)

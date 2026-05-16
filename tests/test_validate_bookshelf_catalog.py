@@ -1,4 +1,4 @@
-"""Tests for scripts/validate_bookshelf_catalog.py."""
+﻿"""Tests for scripts/validate_bookshelf_catalog.py."""
 
 from __future__ import annotations
 
@@ -44,7 +44,7 @@ def test_unknown_hn_chapter_fails(tmp_path: Path) -> None:
     bad.write_text(
         """version: 1
 items:
-  - id: HNSRC-0999
+  - id: Shelf-0999
     title: "X"
     author: "Y"
     era: ancient
@@ -67,7 +67,7 @@ def test_eras_must_include_primary_era(tmp_path: Path) -> None:
     bad.write_text(
         """version: 1
 items:
-  - id: HNSRC-0998
+  - id: Shelf-0998
     title: "X"
     author: "Y"
     era: medieval
@@ -91,7 +91,7 @@ def test_redundant_single_eras_warns_in_strict(tmp_path: Path) -> None:
     bad.write_text(
         """version: 1
 items:
-  - id: HNSRC-0997
+  - id: Shelf-0997
     title: "X"
     author: "Y"
     era: ancient

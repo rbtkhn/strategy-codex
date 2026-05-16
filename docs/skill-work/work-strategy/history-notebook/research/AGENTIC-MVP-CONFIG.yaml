@@ -1,4 +1,4 @@
-version: 1
+﻿version: 1
 description: "History-notebook 2-week MVP config for queue scoring, provenance confidence, and red-team labels."
 
 autopriority:
@@ -36,14 +36,14 @@ autopriority:
 provenance:
   confidence_rules:
     high:
-      min_hnsrc: 1
+      min_shelf: 1
       requires_nonempty_evidence_note: true
       max_open_tasks: 1
     medium:
-      min_hnsrc: 1
+      min_shelf: 1
       max_open_tasks: 3
     low:
-      min_hnsrc: 0
+      min_shelf: 0
   default_open_verification_tasks:
     - "Confirm claim wording against one specific owned source and add citation-ready note."
     - "Add one counter-position source for dispute resilience."
@@ -56,7 +56,7 @@ redteam:
     - weakly-supported
   heuristics:
     supported:
-      min_hnsrc: 2
+      min_shelf: 2
       max_open_tasks: 1
     disputed:
       trigger_terms:
@@ -67,5 +67,5 @@ redteam:
         - all
       min_open_tasks: 2
     weakly_supported:
-      max_hnsrc: 1
+      max_shelf: 1
   per_chapter_counterclaims: 2

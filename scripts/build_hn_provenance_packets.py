@@ -1,11 +1,11 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """Generate provenance claim packets for all history-notebook chapters.
 
 Output:
 - research/PROVENANCE-PACKETS.md
 
 Rules:
-- No high confidence without >=1 HNSRC anchor and non-empty evidence note.
+- No high confidence without >=1 Shelf anchor and non-empty evidence note.
 
 WORK only; not Record.
 """
@@ -111,12 +111,12 @@ def classify_confidence(anchor_count: int, evidence_note: str, open_tasks: int, 
     high = rules.get("high") or {}
     med = rules.get("medium") or {}
     if (
-        anchor_count >= int(high.get("min_hnsrc", 1))
+        anchor_count >= int(high.get("min_shelf", 1))
         and bool(evidence_note.strip()) == bool(high.get("requires_nonempty_evidence_note", True))
         and open_tasks <= int(high.get("max_open_tasks", 1))
     ):
         return "high"
-    if anchor_count >= int(med.get("min_hnsrc", 1)) and open_tasks <= int(med.get("max_open_tasks", 3)):
+    if anchor_count >= int(med.get("min_shelf", 1)) and open_tasks <= int(med.get("max_open_tasks", 3)):
         return "medium"
     return "low"
 
@@ -128,7 +128,7 @@ def build_markdown(rows: list[dict], packets: list[dict]) -> str:
         "**Do not edit by hand.**",
         "Regenerate: `python3 scripts/build_hn_provenance_packets.py`",
         "",
-        "Schema: `claim_id`, `chapter_id`, `claim_text`, `supporting_hnsrc[]`, `evidence_note`, `confidence`, `open_verification_tasks[]`.",
+        "Schema: `claim_id`, `chapter_id`, `claim_text`, `supporting_shelf[]`, `evidence_note`, `confidence`, `open_verification_tasks[]`.",
         "",
         "## Coverage summary",
         "",
@@ -151,7 +151,7 @@ def build_markdown(rows: list[dict], packets: list[dict]) -> str:
                 f"### {p['claim_id']}",
                 f"- `chapter_id`: `{p['chapter_id']}`",
                 f"- `claim_text`: {p['claim_text']}",
-                f"- `supporting_hnsrc`: {', '.join(f'`{x}`' for x in p['supporting_hnsrc']) if p['supporting_hnsrc'] else '*(none)*'}",
+                f"- `supporting_shelf`: {', '.join(f'`{x}`' for x in p['supporting_shelf']) if p['supporting_shelf'] else '*(none)*'}",
                 f"- `evidence_note`: {p['evidence_note']}",
                 f"- `confidence`: `{p['confidence']}`",
                 "- `open_verification_tasks`:",
@@ -208,13 +208,13 @@ def main() -> int:
         evidence_note = (
             f"Anchored to {len(supporting)} shelf source(s); verify one direct quote before publication."
             if supporting
-            else "No direct HNSRC anchor mapped yet; packet is provisional."
+            else "No direct Shelf anchor mapped yet; packet is provisional."
         )
         for i, claim in enumerate(claims, start=1):
             open_tasks = list(defaults)
             if not supporting:
                 open_tasks = [
-                    "Map at least one `HNSRC-*` source to this chapter claim.",
+                    "Map at least one `Shelf-*` source to this chapter claim.",
                     "Add one primary-source or specialist secondary reference.",
                 ] + open_tasks
             confidence = classify_confidence(len(supporting), evidence_note, len(open_tasks), conf_rules)
@@ -223,7 +223,7 @@ def main() -> int:
                     "claim_id": f"{hid}-c{i:02d}",
                     "chapter_id": hid,
                     "claim_text": claim,
-                    "supporting_hnsrc": supporting[:5],
+                    "supporting_shelf": supporting[:5],
                     "evidence_note": evidence_note,
                     "confidence": confidence,
                     "open_verification_tasks": open_tasks,

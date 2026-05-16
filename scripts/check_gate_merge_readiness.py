@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """Preflight checker for recursion-gate merge readiness.
 
 Focuses on failure modes observed in bookshelf MCQ -> IX-A flows:
@@ -25,13 +25,13 @@ from repo_io import DEFAULT_PROFILE_ID, profile_dir
 from yaml_compat import has_yaml, safe_load_path, safe_load_text
 
 PLACEHOLDER_RE = re.compile(r"see source_exchange\.operator \(staged paste\)", re.IGNORECASE)
-HNSRC_RE = re.compile(r"^HNSRC-\d{4}$")
+SHELF_RE = re.compile(r"^Shelf-\d{4}$")
 TOPIC_HINT_RE = re.compile(
     r"(\b\d{3,4}\s*(BCE|CE)?\b|Westphalia|Tanzimat|Fort Sumter|Barbarossa|Marathon|Qing|Ottoman|Decolonization|WWI|World War I|Thucydides|Melian|Mahan|Mearsheimer|deterrence|second-strike)",
     re.IGNORECASE,
 )
 METHOD_RE = re.compile(r"\b(method|workflow|process|how i work|curation as method|extraction channel)\b", re.IGNORECASE)
-INTERNAL_ID_RE = re.compile(r"\b(HNSRC-\d{4}|LIB-\d{4})\b")
+INTERNAL_ID_RE = re.compile(r"\b(Shelf-\d{4}|LIB-\d{4})\b")
 
 
 def yaml_get(body: str, key: str) -> str:
@@ -128,7 +128,7 @@ def _receipt_binding_issues(
         msg = f"{cid}: bookshelf MCQ missing shelf_refs"
         (warnings if weak else blockers).append(msg + (" (weak/review-needed)" if weak else ""))
     for ref in refs:
-        if not HNSRC_RE.match(ref):
+        if not SHELF_RE.match(ref):
             blockers.append(f"{cid}: invalid shelf_ref {ref!r}")
         elif catalog_ids and ref not in catalog_ids:
             blockers.append(f"{cid}: unknown shelf_ref {ref}")

@@ -1,4 +1,4 @@
-# Bookshelf MCQ root-layout repair — 2026-05-04
+﻿# Bookshelf MCQ root-layout repair — 2026-05-04
 
 ## Purpose
 
@@ -42,7 +42,7 @@ Anything else is a fallback, not the default.
 
 - Added John Adams quiz anchor:
   - `bq-john-adams-revolutionary-writings`
-  - shelf refs: `HNSRC-0269`, `HNSRC-0270`
+  - shelf refs: `Shelf-0269`, `Shelf-0270`
 
 ### Root-layout compatibility
 

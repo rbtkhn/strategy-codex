@@ -1,8 +1,8 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """Generate Chicago-style (author–date, simplified) bibliography Markdown from bookshelf-catalog.yaml.
 
 Source of truth: docs/skill-work/work-strategy/history-notebook/research/bookshelf-catalog.yaml
-Outputs: research/bibliography/REFERENCES-shelf-by-era.md, REFERENCES-shelf-by-hnsrc-id.md
+Outputs: research/bibliography/REFERENCES-shelf-by-era.md, REFERENCES-shelf-by-shelf-id.md
 
 Author strings are emitted as stored in the catalog (usually First Last). For formal publication,
 invert names manually or enrich `cite_as` / optional `editor` / `translator` / imprint fields in YAML.
@@ -43,7 +43,7 @@ BIB_DIR = (
     / "bibliography"
 )
 
-RE_HNSRC = re.compile(r"^HNSRC-\d{4}$")
+RE_SHELF = re.compile(r"^Shelf-\d{4}$")
 
 ERA_ORDER = ["ancient", "medieval", "colonial", "industrial", "modern"]
 ERA_LABELS = {
@@ -158,7 +158,7 @@ def build_by_era(items: list[dict]) -> str:
 
 
 def build_by_id(items: list[dict]) -> str:
-    lines: list[str] = [GENERATED_HEADER, "## By HNSRC id (stable order)", ""]
+    lines: list[str] = [GENERATED_HEADER, "## By Shelf id (stable order)", ""]
     sorted_items = sorted(items, key=lambda x: x.get("id") or "")
     for it in sorted_items:
         lines.append(f"- {format_entry(it)}")
@@ -188,13 +188,13 @@ def main() -> int:
     ap.add_argument(
         "--cited-ids",
         metavar="IDS",
-        help="Comma/space-separated HNSRC ids — print markdown bullet list to stdout and exit (bibliography-on-demand)",
+        help="Comma/space-separated Shelf ids — print markdown bullet list to stdout and exit (bibliography-on-demand)",
     )
     ap.add_argument(
         "--cited-ids-file",
         type=Path,
         metavar="PATH",
-        help="File with one HNSRC per line (# and blank lines ok) — same as --cited-ids",
+        help="File with one Shelf per line (# and blank lines ok) — same as --cited-ids",
     )
     args = ap.parse_args()
 
@@ -238,15 +238,15 @@ def main() -> int:
                 unique.append(h)
         if not unique:
             print(
-                "ERROR: no HNSRC ids (use --cited-ids or a non-empty file)",
+                "ERROR: no Shelf ids (use --cited-ids or a non-empty file)",
                 file=sys.stderr,
             )
             return 1
         by_id = {str(x.get("id")): x for x in items if x.get("id")}
         for h in unique:
-            if not RE_HNSRC.match(h):
+            if not RE_SHELF.match(h):
                 print(
-                    f"ERROR: id must look like HNSRC-NNNN, got {h!r}",
+                    f"ERROR: id must look like Shelf-NNNN, got {h!r}",
                     file=sys.stderr,
                 )
                 return 1
@@ -263,7 +263,7 @@ def main() -> int:
 
     out_dir = args.out_dir
     f_era = out_dir / "REFERENCES-shelf-by-era.md"
-    f_id = out_dir / "REFERENCES-shelf-by-hnsrc-id.md"
+    f_id = out_dir / "REFERENCES-shelf-by-shelf-id.md"
     content_era = build_by_era(items)
     content_id = build_by_id(items)
 

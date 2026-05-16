@@ -10,7 +10,7 @@
 
 | Artifact | Role |
 |----------|------|
-| [`bookshelf-catalog.yaml`](bookshelf-catalog.yaml) | Bibliographic rows (`HNSRC-*`), **era** (+ optional **eras**), optional hints to `hn-*` and PH â€” **planning shelf** |
+| [`bookshelf-catalog.yaml`](bookshelf-catalog.yaml) | Bibliographic rows (`Shelf-*`), **era** (+ optional **eras**), optional hints to `hn-*` and PH â€” **planning shelf** |
 | [VOL-I-LIBRARY-SCAFFOLD.md](VOL-I-LIBRARY-SCAFFOLD.md) | Vol I only: **chapter Ã— shelf** matrix + gap notes (drafting aid; not chapter SSOT) |
 | **HN chapters** (`chapters/`, `hn-*`) | Operator-distilled ~500â€“1000w prose â€” **deliverable** |
 | **STATUS.md** | Single queue for **which chapter to write next**; link from strategy-notebook `meta.md` |
@@ -63,12 +63,12 @@ If a title straddles (e.g. one volume covers 400â€“600 AD, or 1400â€“1
 
 1. Confirm the **active era** (next in the sequence above).
 2. Add five new `items` in `bookshelf-catalog.yaml` (or paste a block for the agent to merge):
-   - Next sequential `id`: `HNSRC-NNNN`.
+   - Next sequential `id`: `Shelf-NNNN`.
    - Required: `title`, `author`, **`era`**.
    - Optional: `eras`, `year`, `isbn`, `added_batch`, `tags`, `hn_volume`, `primary_arc`, `candidate_hn_chapters`, `ph_thesis_hints`, `ph_concept_hints`, `notes`, and (for formal bibliography) `cite_as`, `place`, `publisher`, `edition`, `series`, `editor`, `translator` â€” see YAML header in `bookshelf-catalog.yaml`.
 3. **Validate and refresh exports:**
    - `python3 scripts/validate_bookshelf_catalog.py` (use `--strict` in CI if wired).
-   - `python3 scripts/build_hn_bookshelf_bibliography.py` â€” updates [bibliography/REFERENCES-shelf-by-era.md](bibliography/REFERENCES-shelf-by-era.md) and [bibliography/REFERENCES-shelf-by-hnsrc-id.md](bibliography/REFERENCES-shelf-by-hnsrc-id.md) (CI: `--check` â€” [test workflow](../../../../.github/workflows/test.yml)).
+   - `python3 scripts/build_hn_bookshelf_bibliography.py` â€” updates [bibliography/REFERENCES-shelf-by-era.md](bibliography/REFERENCES-shelf-by-era.md) and [bibliography/REFERENCES-shelf-by-shelf-id.md](bibliography/REFERENCES-shelf-by-shelf-id.md) (CI: `--check` â€” [test workflow](../../../../.github/workflows/test.yml)).
    - `python3 scripts/hn_shelf_anchors.py` â€” updates [SHELF-ANCHORS-BY-CHAPTER.md](SHELF-ANCHORS-BY-CHAPTER.md) (CI: `--check`). After `candidate_hn_chapters` or [book-architecture.yaml](../book-architecture.yaml) chapter list changes, run this too.
    - If chapter prose/status changed, refresh agentic reports too (queue/provenance/red-team): see [AGENTIC-MVP-RUNBOOK.md](AGENTIC-MVP-RUNBOOK.md).
 4. **Within-era pass:** dedupe, cluster tags, adjust `candidate_hn_chapters` only as **planning** hints.
@@ -96,7 +96,7 @@ When you upload **whole book text** (PDF, EPUB, or extracted markdown):
 ## Example: minimal new row
 
 ```yaml
-  - id: HNSRC-0006
+  - id: Shelf-0006
     title: "Example Work"
     author: "Author Name"
     year: 1920
@@ -113,5 +113,5 @@ python3 scripts/validate_bookshelf_catalog.py
 python3 scripts/validate_bookshelf_catalog.py --strict
 ```
 
-Checks: unique `HNSRC-*` ids, required `era`, `candidate_hn_chapters` âŠ† `book-architecture.yaml`, duplicate `(title, author)` warnings.
+Checks: unique `Shelf-*` ids, required `era`, `candidate_hn_chapters` âŠ† `book-architecture.yaml`, duplicate `(title, author)` warnings.
 
