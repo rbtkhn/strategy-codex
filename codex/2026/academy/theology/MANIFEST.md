@@ -48,6 +48,21 @@ These files originate in academy theology. They are not copied from civ-mem sate
 |---|---|---|---|
 | [bookshelf-crosswalk.md](bookshelf-crosswalk.md) | `docs/skill-work/work-strategy/history-notebook/research/bookshelf-catalog.yaml` | crosswalk | ordered 25-book bridge from Bookshelf into academy theology, including the Kaldellis/Wilson comparison |
 
+## Workshop
+
+These files originate in academy theology. They are active-use WORK surfaces, not copied civ-mem texts.
+
+| Academy file | Source context | Category | Role |
+|---|---|---|---|
+| [workshop/README.md](workshop/README.md) | academy-origin | entrypoint | defines the Theology Workshop workflow and boundary |
+| [workshop/method.md](workshop/method.md) | academy-origin, informed by open-source corpus/study-environment patterns | method | practical source-sheet and layered-commentary method |
+| [workshop/instruments.md](workshop/instruments.md) | academy-origin | instruments | reusable lenses for theology, history, and strategy work |
+| [workshop/sheets/love.md](workshop/sheets/love.md) | academy-origin | source sheet | study page for love as recognition, coordination, and non-domination |
+| [workshop/sheets/providence-and-pressure.md](workshop/sheets/providence-and-pressure.md) | academy-origin | source sheet | study page for sacred history, providence claims, and pressure fields |
+| [workshop/sheets/empire-and-sacred-order.md](workshop/sheets/empire-and-sacred-order.md) | academy-origin | source sheet | study page for Christian-imperial forms and sacred legitimacy |
+| [workshop/sheets/sacrifice-and-violence.md](workshop/sheets/sacrifice-and-violence.md) | academy-origin | source sheet | study page for sacrifice, coordination, and sacred violence |
+| [workshop/sheets/conscience.md](workshop/sheets/conscience.md) | academy-origin | source sheet | study page for conscience as inner pressure and accountability |
+
 ## Source Pointers Not Copied
 
 - [BOOK.md](../../../../docs/civilization-memory/book/BOOK.md)

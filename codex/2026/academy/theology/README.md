@@ -26,8 +26,23 @@ That path moves from the core condition, to shared reference across traditions, 
 - [essays/](essays/) - full readable curated copies of the core civ-mem satellite theology essays.
 - [notes/](notes/) - the first concept-note pack supporting the essay arc.
 - [book/](book/) - links to the compiled source manuscripts without duplicating their bulk.
+- [workshop/](workshop/) - active-use theology workshop for method notes, source-sheet style study pages, and reusable instruments.
 - [bookshelf-crosswalk.md](bookshelf-crosswalk.md) - 25-book Bookshelf study path for theology, statecraft, and the Tolstoy Lens.
 - [MANIFEST.md](MANIFEST.md) - drift-review list of every copied text and its source.
+
+## Workshop
+
+The active-use layer is [workshop/](workshop/). It turns the shelf into a bench: read source, name pressure, compare traditions, test moral risk, and produce reusable notes.
+
+Start with [workshop/method.md](workshop/method.md), then use the first source-sheet style pages:
+
+- [Love](workshop/sheets/love.md)
+- [Providence and pressure](workshop/sheets/providence-and-pressure.md)
+- [Empire and sacred order](workshop/sheets/empire-and-sacred-order.md)
+- [Sacrifice and violence](workshop/sheets/sacrifice-and-violence.md)
+- [Conscience](workshop/sheets/conscience.md)
+
+Use [workshop/instruments.md](workshop/instruments.md) when a session needs a reusable lens rather than another summary.
 
 ## Bookshelf Bridge
 

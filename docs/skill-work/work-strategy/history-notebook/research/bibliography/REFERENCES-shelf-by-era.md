@@ -53,6 +53,7 @@ Regenerate: `python3 scripts/build_hn_bookshelf_bibliography.py`
 - Richard A. Gabriel. n.d. *Hannibal*. `Shelf-0019`
 - Seneca. n.d. *Letters from a Stoic*. `Shelf-0053`
 - Sophocles. n.d. *Sophocles: The Theban Plays*. `Shelf-0043`
+- Sunzi. n.d. *The Art of War*. `Shelf-0302`
 - Tacitus. n.d. *Tacitus: Annals and Histories*. `Shelf-0045`
 - Thucydides. n.d. *The Landmark Thucydides*. `Shelf-0003`
 - Unknown. n.d. *(Spine unread â€” operator fill)*. `Shelf-0050`
@@ -200,6 +201,7 @@ Regenerate: `python3 scripts/build_hn_bookshelf_bibliography.py`
 - Charlotte BrontÃ«. n.d. *Jane Eyre*. `Shelf-0179`
 - Charlotte BrontÃ«. n.d. *Villette*. `Shelf-0180`
 - Daniel Defoe. n.d. *Robinson Crusoe*. `Shelf-0131`
+- David G. Chandler. n.d. *The Campaigns of Napoleon*. `Shelf-0303`
 - David L. Roll. 2019. *George Marshall: Defender of the Republic*. Penguin. ISBN 9781101990995. `Shelf-0255`
 - David McCullough. 1992. *Truman*. Simon and Schuster. ISBN 9780671456542. `Shelf-0257`
 - E. T. A. Hoffmann. n.d. *The Nutcracker*. `Shelf-0220`
@@ -322,9 +324,11 @@ Regenerate: `python3 scripts/build_hn_bookshelf_bibliography.py`
 - Walter Isaacson. 2008. *Einstein: His Life and Universe*. Simon and Schuster. ISBN 9780743264747. `Shelf-0292`
 - William Manchester. 2008. *American Caesar: Douglas MacArthur 1880-1964*. Little, Brown. ISBN 9780316032421. `Shelf-0298`
 - William Shakespeare. n.d. *The Sonnets and A Lover's Complaint*. `Shelf-0129`
+- Winston S. Churchill. n.d. *The Second World War*. `Shelf-0304`
 
 ### Modern (Vol V–style bucket) (`modern`)
 
 - Bartle Bull. 2024. *Land Between the Rivers*. Grove Press. ISBN 9780802162519. `Shelf-0025`
 - Bertrand Russell. n.d. *History of Western Philosophy*. `Shelf-0300`
 - Niall Ferguson. 2015. *Kissinger: 1923-1968: The Idealist*. Penguin Press. ISBN 9781594206532. `Shelf-0265`
+- Winston S. Churchill. n.d. *A History of the English-Speaking Peoples*. `Shelf-0305`

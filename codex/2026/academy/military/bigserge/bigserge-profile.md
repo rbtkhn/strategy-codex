@@ -3,7 +3,7 @@
 
 WORK only; not Record.
 
-**Canonical index:** [strategy-commentator-threads.md](../../strategy-commentator-threads.md) Ã¢â‚¬â€ **`bigserge`** lane.
+**Canonical index:** [strategy-commentator-threads.md](../../../../strategy-commentator-threads.md) Ã¢â‚¬â€ **`bigserge`** lane.
 
 ---
 
@@ -27,7 +27,7 @@ WORK only; not Record.
 | **Voice tier** | `B` |
 | **Voice fingerprint Ã¢â‚¬â€ last reviewed** | `2026-04` |
 
-Promotion and refresh defaults: [strategy-expert-template.md Ã‚Â§ Voice fingerprint (compact)](strategy-expert-template.md#voice-fingerprint-compact).
+Promotion and refresh defaults: [strategy-expert-template.md Ã‚Â§ Voice fingerprint (compact)](../../../../strategy-expert-template.md#voice-fingerprint-compact).
 
 ## Convergence fingerprint
 

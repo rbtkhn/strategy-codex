@@ -1,7 +1,10 @@
 # Writers
 
-Writers holds text-first analyst and military-strategic writer shelves that do not belong in the `speakers/` object layer.
+Writers previously held text-first analyst and military-strategic writer shelves that do not belong in the `speakers/` object layer.
 
-Use this shelf for writers or analyst voices whose main form is authored commentary, thread, or transcript work rather than recurring host-local speaker arcs or speaker-helixes.
+The active military writer lanes have moved to [`../academy/military/`](../academy/military/):
+
+- [Big Serge](../academy/military/bigserge/)
+- [Simplicius](../academy/military/simplicius/)
 
 WORK only; not Record.

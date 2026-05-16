@@ -314,3 +314,7 @@ Regenerate: `python3 scripts/build_hn_bookshelf_bibliography.py`
 - Various. n.d. *The Koran*. `Shelf-0299`
 - Bertrand Russell. n.d. *History of Western Philosophy*. `Shelf-0300`
 - Peter H. Wilson. n.d. *Heart of Europe*. `Shelf-0301`
+- Sunzi. n.d. *The Art of War*. `Shelf-0302`
+- David G. Chandler. n.d. *The Campaigns of Napoleon*. `Shelf-0303`
+- Winston S. Churchill. n.d. *The Second World War*. `Shelf-0304`
+- Winston S. Churchill. n.d. *A History of the English-Speaking Peoples*. `Shelf-0305`

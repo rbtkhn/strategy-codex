@@ -18,7 +18,7 @@ _Write here in full sentences. Dated arcs are welcome._
 
 ### Machine hint / opt-out
 
-`python3 scripts/validate_strategy_expert_threads.py` Ã¢â‚¬â€ see [strategy-expert-thread-journal-layer.mdc](../../../../.cursor/rules/strategy-expert-thread-journal-layer.mdc).
+`python3 scripts/validate_strategy_expert_threads.py` Ã¢â‚¬â€ see [strategy-expert-thread-journal-layer.mdc](../../../../../.cursor/rules/strategy-expert-thread-journal-layer.mdc).
 
 ## 2026-04
 
