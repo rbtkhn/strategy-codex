@@ -10,6 +10,10 @@
 
 ## Log
 
+### 2026-05-16
+
+- **Strategy-Codex quality contract offer:** Added [strategy-codex-quality-contract-offer.md](strategy-codex-quality-contract-offer.md) as a WORK-only commercial sketch for turning transcript-purity and durability reporting into a service/product wedge.
+
 ### 2026-04-30
 
 - **Grace Gems monthly operating review:** Added [grace-gems/monthly-operating-review.md](grace-gems/monthly-operating-review.md) - a monthly WORK-only checklist that reads the business in four movements: books, shop health, marketing, and tax/compliance readiness.

@@ -1,3 +1,17 @@
+---
+ingest_date: 2026-05-11
+pub_date: 2026-04-11
+thread: diesen
+show: Glenn Diesen - Greater Eurasia Podcast
+host: Glenn Diesen
+guest: Jiang Xueqin
+title: "Glenn Diesen with Jiang Xueqin - The Iran War & the Battle for the Petrodollar"
+source_url: "https://www.youtube.com/watch?v=P_DHMUdOVdo"
+source_type: youtube
+transcript_type: cleaned_transcript
+editorial_note: "Materialized into canonical raw-input from predictive-history lecture transcript."
+---
+
 # Interviews #14: Glenn Diesen — The Iran War & the Battle for the Petrodollar
 
 **Speaker:** Jiang Xueqin (guest); Glenn Diesen (host)  
@@ -251,16 +265,3 @@ This is also why Washington DC is supportive of Trump’s war because the global
 And that’s why the Democrats have not stopped him. You know, there was recently two weeks ago the “No Kings” protest in the United States, millions of people, and you were allowed to say “No Kings” but you were not allowed to say “No War,” right? You would think that people would be much more galvanized by an anti-war sentiment than they are by an anti-tyrant sentiment.
 
 But during the protests, which were organized by Democratic lobbyist groups which were very pro-Zionist, you were not allowed to voice any anti-war sentiment. So it just goes to show you that all of Washington DC is fully behind this war and they think that Trump will be the scapegoat — that even if this war goes badly, Trump will be the one that takes all the blame. The Republicans will be wiped out in the midterms and then Democrats can steamroll back into office in 2028 and then they can implement a globalist agenda and destroy MAGA once and for all.
----
-ingest_date: 2026-05-11
-pub_date: 2026-04-11
-thread: diesen
-show: Glenn Diesen - Greater Eurasia Podcast
-host: Glenn Diesen
-guest: Jiang Xueqin
-title: "Glenn Diesen with Jiang Xueqin - The Iran War & the Battle for the Petrodollar"
-source_url: "https://www.youtube.com/watch?v=P_DHMUdOVdo"
-source_type: youtube
-transcript_type: cleaned_transcript
-editorial_note: "Materialized into canonical raw-input from predictive-history lecture transcript."
----

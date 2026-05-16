@@ -556,3 +556,5 @@ _(Append below this line.)_
 - **2026-05-15 16:35 UTC** — coffee_close (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=A outcome=partial readiness=execution_ready artifacts=self-knowledge.md loops=ship-shape-large-dirty-tree next=stage-record-split-first
 - **2026-05-15 18:37 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
 - **2026-05-16 03:07 UTC** — coffee (strategy-codex) ok=true mode=light cursor_model=unknown model_tier=unknown
+- **2026-05-16 04:33 UTC** — coffee (strategy-codex) ok=true mode=light cursor_model=unknown model_tier=unknown
+- **2026-05-16 04:35 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=codex model_tier=unknown picked=D hub=capitalist
