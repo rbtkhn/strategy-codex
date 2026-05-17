@@ -1,0 +1,23 @@
+{
+  "must-capture": [],
+  "probably-capture": [
+    {
+      "date": "",
+      "channel_key": "dialogue-works",
+      "channel_name": "Dialogue Works",
+      "youtube_id": "aaEe4wr4hXw",
+      "title": "Stanislav Krapivnik: Giant Mushroom Cloud Blasts Over Israeli Defense Company \u2013 What We Know",
+      "url": "https://www.youtube.com/watch?v=aaEe4wr4hXw",
+      "duration_seconds": null,
+      "discovery_source": "uploads_playlist",
+      "classification": "uncaptured-main",
+      "classification_confidence": "high",
+      "priority": "probably-capture",
+      "captured": 0,
+      "raw_input_path": "",
+      "raw_input_paths": [],
+      "same_day_parent_id": "",
+      "notes": "main upload missing from raw-input"
+    }
+  ]
+}

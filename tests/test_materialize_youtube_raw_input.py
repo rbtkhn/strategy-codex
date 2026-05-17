@@ -154,6 +154,57 @@ def test_materialize_url_maps_watchlist_defaults_and_writes_raw_input(tmp_path: 
     assert "host: Glenn Diesen" in text
     assert "thread: diesen" in text
     assert "transcript_type: auto_subtitles_vtt" in text
+    assert "source_note: Auto-generated YouTube subtitles extracted with yt_dlp. Not human-verified verbatim." in text
+    assert "body_word_count: 90" in text
+    assert "verification_ok: true" in text
+    assert "verification_reason: ok" in text
+    assert "evidence_grade: transcript-bearing" in text
+    assert result["body_word_count"] == 90
+    assert result["evidence_grade"] == "transcript-bearing"
+
+
+def test_materialize_uses_operator_metadata_when_youtube_metadata_fetch_fails(tmp_path: Path, monkeypatch) -> None:
+    video_id = "metafail123"
+
+    monkeypatch.setattr(
+        mat,
+        "fetch_metadata",
+        lambda _url, _auth=None: (video_id, {}, "metadata fetch failed"),
+    )
+    monkeypatch.setattr(
+        mat,
+        "fetch_subtitles_ytdlp",
+        lambda _video_id, _langs: (_caption(), "manual", "en-orig", None),
+    )
+
+    result = mat.materialize_one(
+        mat.ApprovedUrl(
+            url=f"https://www.youtube.com/watch?v={video_id}",
+            title="Operator Supplied Episode",
+            pub_date="2026-05-16",
+            show="Alexander Mercouris",
+            host="Alexander Mercouris",
+            thread="mercouris",
+            channel_slug="alex-mercouris",
+            file_prefix="youtube-alex-mercouris",
+        ),
+        notebook_root=tmp_path / "codex" / "2026",
+        ingest_date="2026-05-17",
+        apply=True,
+        watchlist={},
+    )
+
+    assert result["status"] == "materialized"
+    assert result["metadata_bypassed"] is True
+    assert result["verification_ok"] is True
+    assert result["caption_kind"] == "manual"
+    text = Path(result["output_path"]).read_text(encoding="utf-8")
+    assert "title: Operator Supplied Episode" in text
+    assert "pub_date: 2026-05-16" in text
+    assert "show: Alexander Mercouris" in text
+    assert "host: Alexander Mercouris" in text
+    assert "thread: mercouris" in text
+    assert f"source_url: https://www.youtube.com/watch?v={video_id}" in text
 
 
 def test_existing_valid_raw_input_returns_already_present_without_fetch(tmp_path: Path, monkeypatch) -> None:
@@ -673,6 +724,81 @@ def test_guest_inference_exact_match_and_ambiguous_refusal(tmp_path: Path) -> No
     guest, method = mat.infer_guest_from_title("Ritter and Freeman debate escalation", notebook_root)
     assert guest is None
     assert method is None
+
+
+def test_materialized_manual_subtitles_are_not_labeled_auto_captions(tmp_path: Path, monkeypatch) -> None:
+    video_id = "manual12345"
+    monkeypatch.setattr(
+        mat,
+        "fetch_metadata_ytdlp",
+        lambda _video_id: {
+            "id": video_id,
+            "title": "Manual Caption Episode",
+            "upload_date": "20260516",
+            "channel_id": _spec().channel_id,
+            "channel": "Glenn Diesen",
+            "webpage_url": f"https://www.youtube.com/watch?v={video_id}",
+        },
+    )
+    monkeypatch.setattr(mat, "fetch_subtitles_ytdlp", lambda _video_id, _langs: (_caption(), "manual", "en-orig", None))
+
+    result = mat.materialize_one(
+        mat.ApprovedUrl(url=f"https://www.youtube.com/watch?v={video_id}"),
+        notebook_root=tmp_path / "codex" / "2026",
+        ingest_date="2026-05-17",
+        apply=True,
+        watchlist={"glenn-diesen": _spec()},
+    )
+
+    text = Path(result["output_path"]).read_text(encoding="utf-8")
+    assert result["status"] == "materialized"
+    assert "transcript_type: manual_subtitles_vtt" in text
+    assert "caption_kind: manual" in text
+    assert "source_note: Manual YouTube subtitles extracted with yt_dlp. Not human-verified verbatim." in text
+    assert "Auto-captions extracted" not in text
+
+
+def test_host_only_title_match_does_not_write_host_as_guest(tmp_path: Path, monkeypatch) -> None:
+    video_id = "hostonly123"
+    notebook_root = tmp_path / "codex" / "2026"
+    speaker = notebook_root / "speakers" / "davis"
+    speaker.mkdir(parents=True)
+    (speaker / "davis-speaker-object.md").write_text("# Davis\n", encoding="utf-8")
+    monkeypatch.setattr(
+        mat,
+        "fetch_metadata_ytdlp",
+        lambda _video_id: {
+            "id": video_id,
+            "title": "Deep Dive Intel Briefing 5/16/2026 Lt Col Daniel Davis",
+            "upload_date": "20260516",
+            "channel": "Daniel Davis Deep Dive",
+            "webpage_url": f"https://www.youtube.com/watch?v={video_id}",
+        },
+    )
+    monkeypatch.setattr(mat, "fetch_subtitles_ytdlp", lambda _video_id, _langs: (_caption(), "manual", "en-orig", None))
+
+    result = mat.materialize_one(
+        mat.ApprovedUrl(
+            url=f"https://www.youtube.com/watch?v={video_id}",
+            show="Daniel Davis Deep Dive",
+            host="Daniel Davis",
+            thread="davis",
+            channel_slug="daniel-davis-deep-dive",
+            file_prefix="youtube-daniel-davis-deep-dive",
+        ),
+        notebook_root=notebook_root,
+        ingest_date="2026-05-17",
+        apply=True,
+        watchlist={},
+    )
+
+    text = Path(result["output_path"]).read_text(encoding="utf-8")
+    assert result["status"] == "materialized"
+    assert "host: Daniel Davis" in text
+    assert "\nguest:" not in text
+    assert "guest_inference: host-only-title-match" in text
+    assert result["guest"] == ""
+    assert result["guest_inference"] == "host-only-title-match"
 
 
 def test_with_appearances_skips_unresolved_guest_capture(tmp_path: Path, monkeypatch, capsys) -> None:

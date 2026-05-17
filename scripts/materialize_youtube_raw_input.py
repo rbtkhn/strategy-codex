@@ -307,6 +307,26 @@ def infer_guest_from_title(title: str, notebook_root: Path) -> tuple[str | None,
     return None, None
 
 
+def _is_host_only_guest_match(guest: str | None, host: str | None) -> bool:
+    if not guest or not host:
+        return False
+    guest_norm = re.sub(r"[^a-z0-9]+", " ", guest.casefold()).strip()
+    host_norm = re.sub(r"[^a-z0-9]+", " ", host.casefold()).strip()
+    if not guest_norm or not host_norm:
+        return False
+    host_tokens = set(host_norm.split())
+    guest_tokens = set(guest_norm.split())
+    return guest_norm == host_norm or guest_tokens.issubset(host_tokens)
+
+
+def _caption_source_note(caption_kind: str | None) -> str:
+    if caption_kind == "manual":
+        return "Manual YouTube subtitles extracted with yt_dlp. Not human-verified verbatim."
+    if caption_kind == "auto":
+        return "Auto-generated YouTube subtitles extracted with yt_dlp. Not human-verified verbatim."
+    return "YouTube subtitles extracted with yt_dlp. Not human-verified verbatim."
+
+
 def fetch_metadata(url: str, auth: YtdlpAuth | None = None) -> tuple[str | None, dict[str, Any], str | None]:
     video_id = extract_video_id(url)
     if not video_id:
@@ -383,6 +403,11 @@ def build_frontmatter(
     caption_kind: str | None,
     guest: str | None = None,
     guest_inference: str | None = None,
+    body_word_count: int | None = None,
+    body_chars: int | None = None,
+    verification_ok: bool | None = None,
+    verification_reason: str | None = None,
+    evidence_grade: str | None = None,
 ) -> str:
     show = item.show or (spec.show if spec else None)
     host = item.host or (spec.host if spec else None)
@@ -398,7 +423,7 @@ def build_frontmatter(
         "source_url": source_url,
         "youtube_id": video_id,
         "channel_slug": channel_slug,
-        "source_note": "Auto-captions extracted with yt_dlp from YouTube subtitles. Not human-verified verbatim.",
+        "source_note": _caption_source_note(caption_kind),
         "editorial_note": "Atomic materialization verified a non-stub subtitle body before success was reported.",
     }
     if show:
@@ -418,6 +443,16 @@ def build_frontmatter(
         payload["caption_language"] = caption_language
     if caption_kind:
         payload["caption_kind"] = caption_kind
+    if body_word_count is not None:
+        payload["body_word_count"] = body_word_count
+    if body_chars is not None:
+        payload["body_chars"] = body_chars
+    if verification_ok is not None:
+        payload["verification_ok"] = verification_ok
+    if verification_reason:
+        payload["verification_reason"] = verification_reason
+    if evidence_grade:
+        payload["evidence_grade"] = evidence_grade
     raw = safe_dump(
         payload,
         feature="materialize_youtube_raw_input.py",
@@ -445,6 +480,14 @@ def manual_context(item: ApprovedUrl) -> dict[str, Any]:
     }
 
 
+def has_operator_metadata_for_bypass(item: ApprovedUrl) -> bool:
+    return bool(
+        item.title
+        and item.pub_date
+        and (item.file_prefix or item.channel_slug)
+    )
+
+
 def materialize_one(
     item: ApprovedUrl,
     *,
@@ -468,18 +511,34 @@ def materialize_one(
         }
 
     video_id, info, metadata_error = fetch_metadata(item.url, auth)
-    if not video_id or metadata_error:
+    metadata_bypassed = False
+    if not video_id:
         return {
             "url": item.url,
-            "youtube_id": video_id or "",
+            "youtube_id": "",
             "status": "failed-fetch",
             "output_path": "",
             "verification_ok": False,
-            "verification_reason": metadata_error or "metadata fetch failed",
+            "verification_reason": metadata_error or "missing YouTube video id",
             "body_word_count": 0,
             "body_chars": 0,
             **manual_context(item),
         }
+    if metadata_error:
+        if not has_operator_metadata_for_bypass(item):
+            return {
+                "url": item.url,
+                "youtube_id": video_id,
+                "status": "failed-fetch",
+                "output_path": "",
+                "verification_ok": False,
+                "verification_reason": metadata_error or "metadata fetch failed",
+                "body_word_count": 0,
+                "body_chars": 0,
+                **manual_context(item),
+            }
+        info = {}
+        metadata_bypassed = True
 
     spec = infer_watchlist_spec(info, watchlist)
     title = item.title or str(info.get("title") or video_id).strip()
@@ -522,13 +581,17 @@ def materialize_one(
             "verification_reason": caption_error or "subtitle fetch failed",
             "body_word_count": 0,
             "body_chars": 0,
+            "metadata_bypassed": metadata_bypassed,
         }
 
     transcript_type = "manual_subtitles_vtt" if caption_kind == "manual" else "auto_subtitles_vtt"
     source_url = canonical_watch_url(str(info.get("webpage_url") or info.get("url") or item.url))
     file_prefix = item.file_prefix or (spec.file_prefix if spec else f"youtube-{item.channel_slug or slugify(str(info.get('channel') or 'outside'))}")
     out_path = output_path_for(notebook_root, pub_date, file_prefix, title)
+    host = item.host or (spec.host if spec else "")
     inferred_guest, guest_inference = (None, None) if item.guest else infer_guest_from_title(title, notebook_root)
+    if _is_host_only_guest_match(inferred_guest, host):
+        inferred_guest, guest_inference = None, "host-only-title-match"
     guest = item.guest or inferred_guest
     body = f"# {title}\n\n{clean_caption_text(captions)}\n"
     content = build_frontmatter(
@@ -560,6 +623,28 @@ def materialize_one(
             "body_word_count": verification.word_count,
             "body_chars": verification.body_chars,
         }
+    evidence_grade = classify_evidence_grade(verification.frontmatter, verification.reason)
+    content = build_frontmatter(
+        ingest_date=ingest_date,
+        pub_date=pub_date,
+        title=title,
+        source_url=source_url,
+        video_id=video_id,
+        spec=spec,
+        item=item,
+        info=info,
+        transcript_type=transcript_type,
+        caption_language=caption_lang,
+        caption_kind=caption_kind,
+        guest=guest,
+        guest_inference=guest_inference,
+        body_word_count=verification.word_count,
+        body_chars=verification.body_chars,
+        verification_ok=True,
+        verification_reason=verification.reason,
+        evidence_grade=evidence_grade,
+    ) + body
+    verification = verify_raw_input_text(content)
 
     status = "dry-run"
     if apply:
@@ -589,6 +674,7 @@ def materialize_one(
         "body_chars": verification.body_chars,
         "caption_language": caption_lang,
         "caption_kind": caption_kind,
+        "metadata_bypassed": metadata_bypassed,
     }
 
 

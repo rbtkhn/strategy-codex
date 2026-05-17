@@ -322,6 +322,9 @@ def test_may_regression_classifications_and_queue(tmp_path: Path) -> None:
     assert summary["recent_main_total"] == 8
     assert summary["recent_captured_main"] == 2
     assert summary["status"] == "below-threshold"
+    assert summary["target_window_status"] == "below-threshold"
+    assert summary["target_window_main_total"] == 8
+    assert summary["target_window_captured_main"] == 2
 
     queue = result["queue_groups"]
     assert sorted(row["youtube_id"] for row in queue["must-capture"]) == sorted(
@@ -338,6 +341,76 @@ def test_may_regression_classifications_and_queue(tmp_path: Path) -> None:
     queue_md = (out_dir / "2026-05-11_to_2026-05-13" / "repair-queue.md").read_text(encoding="utf-8")
     assert "hidden-short" not in queue_md
     assert "hidden-companion" not in queue_md
+
+
+def test_summary_reports_target_date_even_when_undated_backlog_is_below_threshold() -> None:
+    rows = [
+        {
+            "date": "",
+            "channel_key": "dialogue-works",
+            "classification": "captured-main",
+            "priority": "none",
+            "captured": 1,
+        },
+        {
+            "date": "",
+            "channel_key": "dialogue-works",
+            "classification": "uncaptured-main",
+            "priority": "probably-capture",
+            "captured": 0,
+        },
+        {
+            "date": "",
+            "channel_key": "dialogue-works",
+            "classification": "uncaptured-main",
+            "priority": "probably-capture",
+            "captured": 0,
+        },
+        {
+            "date": "",
+            "channel_key": "dialogue-works",
+            "classification": "uncaptured-main",
+            "priority": "probably-capture",
+            "captured": 0,
+        },
+        {
+            "date": "",
+            "channel_key": "dialogue-works",
+            "classification": "uncaptured-main",
+            "priority": "probably-capture",
+            "captured": 0,
+        },
+        {
+            "date": "2026-05-16",
+            "channel_key": "daniel-davis-deep-dive",
+            "classification": "captured-main",
+            "priority": "none",
+            "captured": 1,
+        },
+        {
+            "date": "2026-05-16",
+            "channel_key": "glenn-diesen",
+            "classification": "captured-main",
+            "priority": "none",
+            "captured": 1,
+        },
+    ]
+
+    summary = csa._compute_summary(
+        rows,
+        recent_start=csa._parse_date("2026-05-16"),
+        target_start=csa._parse_date("2026-05-16"),
+        target_end=csa._parse_date("2026-05-16"),
+    )
+
+    assert summary["status"] == "below-threshold"
+    assert summary["overall_backlog_status"] == "below-threshold"
+    assert summary["target_date"] == "2026-05-16"
+    assert summary["target_date_status"] == "complete"
+    assert summary["target_date_main_total"] == 2
+    assert summary["target_date_captured_main"] == 2
+    assert summary["target_date_pct"] == 1.0
+    assert summary["target_date_must_capture_remaining"] == 0
 
 
 def test_offline_rerun_is_stable(tmp_path: Path) -> None:

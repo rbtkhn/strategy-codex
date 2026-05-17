@@ -1,0 +1,49 @@
+{
+  "main_total": 1,
+  "captured_main": 0,
+  "overall_pct": 0.0,
+  "recent_main_total": 0,
+  "recent_captured_main": 0,
+  "recent_pct": 0.0,
+  "must_capture_remaining": 0,
+  "benchmark": {
+    "overall_pct_min": 0.7,
+    "recent_pct_min": 0.9,
+    "must_capture_remaining_max": 0
+  },
+  "status": "below-threshold",
+  "overall_backlog_status": "below-threshold",
+  "target_window": {
+    "start": "2026-01-02",
+    "end": "2026-01-02"
+  },
+  "target_window_status": "no-target-items",
+  "target_window_main_total": 0,
+  "target_window_captured_main": 0,
+  "target_window_pct": 0.0,
+  "target_window_must_capture_remaining": 0,
+  "per_date": {
+    "": {
+      "rows": 1,
+      "main_total": 1,
+      "captured_main": 0,
+      "coverage_pct": 0.0,
+      "must_capture_remaining": 0
+    }
+  },
+  "per_channel": {
+    "dialogue-works": {
+      "rows": 1,
+      "main_total": 1,
+      "captured_main": 0,
+      "coverage_pct": 0.0,
+      "must_capture_remaining": 0
+    }
+  },
+  "target_date": "2026-01-02",
+  "target_date_status": "no-target-items",
+  "target_date_main_total": 0,
+  "target_date_captured_main": 0,
+  "target_date_pct": 0.0,
+  "target_date_must_capture_remaining": 0
+}

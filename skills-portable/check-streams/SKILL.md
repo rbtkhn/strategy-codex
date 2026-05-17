@@ -109,6 +109,7 @@ If a stream has no upload on the target day, say so explicitly.
      - dry-run/probe: `python scripts/materialize_youtube_raw_input.py --url "<youtube-url>" --no-apply --run-id <label>`
    - For each approved URL:
      - resolve metadata first
+     - if metadata fetch fails but the operator supplied title, publication date, and lane/file metadata, let the materializer bypass metadata and try subtitle extraction from the URL's video id
      - fetch the best subtitle source available
      - preserve extraction receipts locally
      - write canonical date-folder raw-input
@@ -239,9 +240,23 @@ When checking whether a day is complete:
 - use frontmatter identity (`show`, `channel_slug`, `source_url`) before filename heuristics
 - treat outside-channel collabs as separate from the four-stream watchlist even if the guest/host overlaps
 - never claim a day is "complete" unless the discovery receipt and the local materialized set have both been checked
+- report the requested target date or item first; historical backlog is secondary context
+- when `summary.json` includes `target_date_*` or `target_window_*`, use those fields for the operator-facing verdict
+- treat `overall_backlog_status` as a backlog-health signal, not as the answer to a date-scoped request
 - when you need a computed score, repair queue, and durable receipts, run `python scripts/cognition_streams_audit.py --start YYYY-MM-DD --end YYYY-MM-DD --recent-start YYYY-MM-DD` against the active `/codex/<year>` notebook root
 - when you need a derived speaker-routing queue after materialization, run `python scripts/build_speaker_routing_queue.py --start YYYY-MM-DD --end YYYY-MM-DD`; this emits advisory queue and appearance-ledger artifacts only and does not edit speaker folders
 - when you need concrete speaker-memory follow-up proposals, run `python scripts/build_speaker_memory_actions.py --start YYYY-MM-DD --end YYYY-MM-DD`; this emits advisory action artifacts only and does not edit speaker folders
+
+### Capture mode diagnosis
+
+When the capture path is noisy, distinguish the failure layer plainly:
+
+- **Online discovery failed:** the channel or YouTube surface was blocked, timed out, or undercounted.
+- **Cached/offline audit worked:** local discovery receipts were sufficient to identify missing videos and repair queue state.
+- **Exact-URL materialization worked:** a specific approved watch URL produced verified raw-input even if broad discovery was brittle.
+- **Metadata-bypass materialization worked:** YouTube metadata fetch failed, but the operator-provided title/date/lane metadata let the exact URL proceed to subtitle extraction and verification.
+
+Prefer exact-URL materialization for repair queue items once the operator has named or approved them.
 
 ## Output shape
 
@@ -266,11 +281,26 @@ If the operator asks to see clips:
 After operator selection, report only the approved items being materialized and the resulting raw-input outcome. When materialization succeeds and a speaker route is clear, add:
 
 ```markdown
+## Capture closeout
+- target: <date or item> - <target_date_status or target_window_status> - <captured>/<main_total> captured - must-capture remaining: <N>
+- raw-input: <path(s)>
+- audit artifact: <summary/repair queue path>
+- backlog: <overall_backlog_status>; probably-capture backlog remains: <yes/no>
+- capture mode: <online discovery / cached offline audit / exact-URL materialization>
+
 ## Speaker routing hints
-- <raw-input file> -> <primary speaker route> — <next action> — <why>
+- <raw-input file> -> <primary speaker route> - <next action> - <why>
 - also strengthens: <speaker object / speaker arc / helix / cross-host note paths, if any>
 - action queue: <memory-action-queue.md path, when generated>
 ```
+
+## Steward closeout
+
+When a check-stream repair becomes a commit candidate, keep the ship slice narrow:
+
+- stage only raw-input files, check-stream audit artifacts, speaker-routing/action receipts, and cadence lines
+- leave runtime observability, memory, handoff, host-quality background churn, and unrelated benchmark artifacts untouched unless explicitly scoped
+- before suggesting push safety, report branch ahead count and any remaining untracked capture artifacts
 
 Use "candidate" when the target does not exist yet or would require a new speaker object / speaker arc decision.
 

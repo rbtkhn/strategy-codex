@@ -584,10 +584,35 @@ def _derive_status(overall_pct: float, recent_pct: float, must_capture_remaining
     return "below-threshold"
 
 
-def _compute_summary(rows: list[dict[str, Any]], recent_start: date) -> dict[str, Any]:
+def _derive_target_status(target: dict[str, Any]) -> str:
+    if target["main_total"] == 0:
+        return "no-target-items"
+    if target["coverage_pct"] >= 0.90 and target["must_capture_remaining"] == 0:
+        return "complete"
+    if target["must_capture_remaining"] == 0:
+        return "must-captures-clear"
+    if target["coverage_pct"] >= 0.90:
+        return "coverage-ok-with-must-captures"
+    return "below-threshold"
+
+
+def _row_date_in_window(row: dict[str, Any], start: date, end: date) -> bool:
+    raw = str(row.get("date") or "").strip()
+    if not raw:
+        return False
+    try:
+        row_date = _parse_date(raw)
+    except ValueError:
+        return False
+    return start <= row_date <= end
+
+
+def _compute_summary(rows: list[dict[str, Any]], recent_start: date, target_start: date, target_end: date) -> dict[str, Any]:
     overall = _bucket_summary(rows)
     recent_rows = [row for row in rows if row["date"] and _parse_date(row["date"]) >= recent_start]
     recent = _bucket_summary(recent_rows)
+    target_rows = [row for row in rows if _row_date_in_window(row, target_start, target_end)]
+    target = _bucket_summary(target_rows)
 
     per_date: dict[str, list[dict[str, Any]]] = {}
     per_channel: dict[str, list[dict[str, Any]]] = {}
@@ -595,7 +620,7 @@ def _compute_summary(rows: list[dict[str, Any]], recent_start: date) -> dict[str
         per_date.setdefault(row["date"], []).append(row)
         per_channel.setdefault(row["channel_key"], []).append(row)
 
-    return {
+    summary = {
         "main_total": overall["main_total"],
         "captured_main": overall["captured_main"],
         "overall_pct": overall["coverage_pct"],
@@ -609,9 +634,33 @@ def _compute_summary(rows: list[dict[str, Any]], recent_start: date) -> dict[str
             "must_capture_remaining_max": 0,
         },
         "status": _derive_status(overall["coverage_pct"], recent["coverage_pct"], overall["must_capture_remaining"]),
+        "overall_backlog_status": _derive_status(
+            overall["coverage_pct"], recent["coverage_pct"], overall["must_capture_remaining"]
+        ),
+        "target_window": {
+            "start": target_start.isoformat(),
+            "end": target_end.isoformat(),
+        },
+        "target_window_status": _derive_target_status(target),
+        "target_window_main_total": target["main_total"],
+        "target_window_captured_main": target["captured_main"],
+        "target_window_pct": target["coverage_pct"],
+        "target_window_must_capture_remaining": target["must_capture_remaining"],
         "per_date": {key: _bucket_summary(bucket) for key, bucket in sorted(per_date.items())},
         "per_channel": {key: _bucket_summary(bucket) for key, bucket in sorted(per_channel.items())},
     }
+    if target_start == target_end:
+        summary.update(
+            {
+                "target_date": target_start.isoformat(),
+                "target_date_status": summary["target_window_status"],
+                "target_date_main_total": summary["target_window_main_total"],
+                "target_date_captured_main": summary["target_window_captured_main"],
+                "target_date_pct": summary["target_window_pct"],
+                "target_date_must_capture_remaining": summary["target_window_must_capture_remaining"],
+            }
+        )
+    return summary
 
 
 def _render_queue_markdown(queue_groups: dict[str, list[dict[str, Any]]]) -> str:
@@ -625,8 +674,9 @@ def _render_queue_markdown(queue_groups: dict[str, list[dict[str, Any]]]) -> str
             lines.append("")
             continue
         for row in rows:
+            row_date = row["date"] or "undated"
             lines.append(
-                f"- `{row['date']}` `{row['channel_key']}` `{row['youtube_id']}` "
+                f"- `{row_date}` `{row['channel_key']}` `{row['youtube_id']}` "
                 f"[{row['title']}]({row['url']})"
             )
         lines.append("")
@@ -732,7 +782,7 @@ def run_audit(
             )
 
     rows = _classify_rows(discovered_rows, raw_index, recent_start)
-    summary = _compute_summary(rows, recent_start)
+    summary = _compute_summary(rows, recent_start, start, end)
     queue_rows = [row for row in rows if row["priority"] in {"must-capture", "probably-capture"} and not row["captured"]]
     queue_rows.sort(key=lambda row: (PRIORITY_ORDER[row["priority"]], row["date"], row["channel_key"], row["youtube_id"]))
     queue_groups = {

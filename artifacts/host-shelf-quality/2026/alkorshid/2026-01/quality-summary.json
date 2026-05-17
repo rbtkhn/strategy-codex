@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "work_layer": true,
+  "generated_date": "2026-05-17",
+  "host": "alkorshid",
+  "year": 2026,
+  "month": "2026-01",
+  "input_scope": "full-host-month",
+  "raw_input_count": 4,
+  "routeable_artifact_count": 4,
+  "total_word_mass": 32446,
+  "counts": {
+    "transcript-grade": 2,
+    "cleaned-transcript": 0,
+    "transcript-bearing": 0,
+    "summary-grade": 0,
+    "legacy-appearance-only": 2
+  },
+  "transcript-grade": 2,
+  "cleaned-transcript": 0,
+  "transcript-bearing": 0,
+  "summary-grade": 0,
+  "legacy-only": 2,
+  "legacy-appearance-only": 2,
+  "transcript_valid_count": 2,
+  "transcript_valid_percent": 50.0,
+  "residual_noise_artifact_count": 2,
+  "unresolved_speaker_count": 0,
+  "unresolved_speakers": [],
+  "artifacts": [
+    {
+      "raw_input_path": "codex/2026/raw-input/2026-01-02/transcript-dialogue-works-amb-chas-freeman-mohammad-marandi-trump-issues-warning-to-iran-tehran-fi-2026-01-02.md",
+      "pub_date": "2026-01-02",
+      "title": "Amb. Chas Freeman & Mohammad Marandi: Trump Issues Warning to Iran \u2014 Tehran Fires Back Immediately",
+      "evidence_grade": "transcript-grade",
+      "normalization_state": "",
+      "quality_note": "Atomic materialization verified a non-stub subtitle body before success was reported.",
+      "residual_noise_terms": [
+        "Mandi"
+      ],
+      "residual_noise": true,
+      "word_count": 7729,
+      "routeable": true,
+      "unresolved": false
+    },
+    {
+      "raw_input_path": "codex/2026/raw-input/2026-01-02/transcript-dialogue-works-larry-c-johnson-col-larry-wilkerson-russia-iran-just-built-a-war-shield-2026-01-02.md",
+      "pub_date": "2026-01-02",
+      "title": "Larry C. Johnson & Col. Larry Wilkerson: Russia & Iran Just Built a WAR Shield - China Warns",
+      "evidence_grade": "transcript-grade",
+      "normalization_state": "",
+      "quality_note": "Atomic materialization verified a non-stub subtitle body before success was reported.",
+      "residual_noise_terms": [
+        "Zalinski"
+      ],
+      "residual_noise": true,
+      "word_count": 9443,
+      "routeable": true,
+      "unresolved": false
+    },
+    {
+      "raw_input_path": "codex/2026/raw-input/2026-01-22/transcript-dialogue-works-amb-chas-freeman-iran-vows-huge-response-to-us-israel-attack-2026-01-22.md",
+      "pub_date": "2026-01-22",
+      "title": "Amb. Chas Freeman: Iran Vows Huge Response to US-Israel Attack",
+      "evidence_grade": "legacy-appearance-only",
+      "normalization_state": "",
+      "quality_note": "Automated YouTube index mirror for Dialogue Works host capture.",
+      "residual_noise_terms": [],
+      "residual_noise": false,
+      "word_count": 7063,
+      "routeable": true,
+      "unresolved": false
+    },
+    {
+      "raw_input_path": "codex/2026/raw-input/2026-01-25/transcript-alkorshid-crooke-systemic-collapse-explained-why-two-fronts-matter-2026-01-25.md",
+      "pub_date": "2026-01-25",
+      "title": "Alastair Crooke: Systemic Collapse Explained: Why Two Fronts Matter",
+      "evidence_grade": "legacy-appearance-only",
+      "normalization_state": "",
+      "quality_note": "Auto-generated from YouTube subtitles via yt-dlp; caption-grade raw-input.",
+      "residual_noise_terms": [],
+      "residual_noise": false,
+      "word_count": 8211,
+      "routeable": true,
+      "unresolved": false
+    }
+  ],
+  "deltas": {
+    "routeable_artifact_count": 1,
+    "total_word_mass": 9443,
+    "transcript_valid_count": 1,
+    "transcript_valid_percent_points": 16.7,
+    "counts": {
+      "transcript-grade": 1,
+      "cleaned-transcript": 0,
+      "transcript-bearing": 0,
+      "summary-grade": 0,
+      "legacy-appearance-only": 0
+    }
+  },
+  "warnings": [],
+  "git_state": {
+    "scoped_paths": [
+      "codex/2026/raw-input/2026-01-02/transcript-dialogue-works-amb-chas-freeman-mohammad-marandi-trump-issues-warning-to-iran-tehran-fi-2026-01-02.md",
+      "codex/2026/raw-input/2026-01-02/transcript-dialogue-works-larry-c-johnson-col-larry-wilkerson-russia-iran-just-built-a-war-shield-2026-01-02.md",
+      "codex/2026/raw-input/2026-01-22/transcript-dialogue-works-amb-chas-freeman-iran-vows-huge-response-to-us-israel-attack-2026-01-22.md",
+      "codex/2026/raw-input/2026-01-25/transcript-alkorshid-crooke-systemic-collapse-explained-why-two-fronts-matter-2026-01-25.md",
+      "artifacts/host-shelf-quality/2026/alkorshid/2026-01/quality-summary.json",
+      "artifacts/host-shelf-quality/2026/alkorshid/2026-01/quality-summary.md"
+    ],
+    "on_disk": true,
+    "verified": true,
+    "committed": false,
+    "pushed": false,
+    "dirty_paths": [
+      "?? artifacts/host-shelf-quality/2026/alkorshid/2026-01/quality-summary.json",
+      "?? artifacts/host-shelf-quality/2026/alkorshid/2026-01/quality-summary.md",
+      "?? codex/2026/raw-input/2026-01-02/transcript-dialogue-works-amb-chas-freeman-mohammad-marandi-trump-issues-warning-to-iran-tehran-fi-2026-01-02.md",
+      "?? codex/2026/raw-input/2026-01-02/transcript-dialogue-works-larry-c-johnson-col-larry-wilkerson-russia-iran-just-built-a-war-shield-2026-01-02.md"
+    ],
+    "dirty_path_count": 4,
+    "upstream": "origin/main",
+    "ahead_count": 3,
+    "label": "on-disk/verified/not-committed/not-pushed"
+  },
+  "closeout_line": "Structure: +1 routeable | Purity: +1 transcript-valid / 50.0% (+16.7pp) | Unresolved: 0 | Git: on-disk/verified/not-committed/not-pushed"
+}
