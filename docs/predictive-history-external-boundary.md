@@ -1,6 +1,6 @@
 # Predictive History external boundary
 
-`rbtkhn/predictive-history` is the canonical writable Predictive History repository.
+`rbtkhn/ph-workshop` is the canonical writable Predictive History workshop repository.
 
 Inside `strategy-codex`, Predictive History is now an **external observed project**:
 
@@ -16,7 +16,7 @@ Inside `strategy-codex`, Predictive History is now an **external observed projec
 - `codex/predictive-history/`
 - `research/external/youtube-channels/predictive-history/`
 
-Those trees remain in this repo only as **frozen migration residue / historical reference** while the operator migrates episodes one by one into the external repo.
+Those trees remain in this repo only as **frozen migration residue / historical reference** while the operator migrates episodes one by one into the external workshop repo.
 
 ## What belongs here
 

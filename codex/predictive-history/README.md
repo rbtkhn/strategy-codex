@@ -3,7 +3,7 @@
 Public intake command: `predictive-history`. Legacy `work-jiang` remains as a compatibility alias and internal wrapper name.
 
 > [!IMPORTANT]
-> **Freeze status:** `rbtkhn/predictive-history` is now the canonical writable Predictive History repo. This in-repo tree remains in `strategy-codex` only as **frozen migration residue / historical reference** while the operator migrates episodes one by one externally. Do **not** add new canonical PH work here. Use this tree only for migration traceability, review context, and legacy lookup. Boundary doctrine: [docs/predictive-history-external-boundary.md](../../docs/predictive-history-external-boundary.md).
+> **Freeze status:** `rbtkhn/ph-workshop` is now the canonical writable Predictive History workshop repo. This in-repo tree remains in `strategy-codex` only as **frozen migration residue / historical reference** while the operator migrates episodes one by one externally. Do **not** add new canonical PH work here. Use this tree only for migration traceability, review context, and legacy lookup. Boundary doctrine: [docs/predictive-history-external-boundary.md](../../docs/predictive-history-external-boundary.md).
 
 **Legacy purpose:** This tree formerly hosted the local working book/corpus build for **Predictive History**. It no longer owns canonical PH production.
 

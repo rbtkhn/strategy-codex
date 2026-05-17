@@ -7,7 +7,7 @@ WORK only; not Record.
 
 **Routing rule:** Predictive History is the sole upstream for notebook-facing Jiang ingest. PH-derived material may inform strategy-notebook only through this expert lane. Direct PH Ã¢â€ â€™ strategy-page routing is disallowed; route PH notes through inbox with `thread:jiang`, then weave on operator intent.
 
-**External PH boundary:** Canonical Predictive History edits now happen in the external `rbtkhn/predictive-history` repo. This profile may still route PH-derived material into notebook review, but `strategy-codex` only observes and critiques that external work.
+**External PH boundary:** Canonical Predictive History edits now happen in the external `rbtkhn/ph-workshop` repo. This profile may still route PH-derived material into notebook review, but `strategy-codex` only observes and critiques that external work.
 
 ---
 

@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import re
 import subprocess
 import sys
 from pathlib import Path
@@ -36,7 +37,8 @@ ALLOWED_FROZEN_PATHS = frozenset(
 
 
 def normalize_repo_path(path: str) -> str:
-    return path.replace("\\", "/").lstrip("./")
+    normalized = path.replace("\\", "/").lstrip("./")
+    return re.sub(r"/+", "/", normalized)
 
 
 def classify_paths(paths: list[str]) -> tuple[list[str], list[str]]:
@@ -83,7 +85,7 @@ def get_changed_files_from_staged() -> list[str]:
 def format_violation_message(blocked: list[str], allowed: list[str]) -> str:
     lines = [
         "Predictive History boundary violation:",
-        "  `rbtkhn/predictive-history` is now the canonical writable repo.",
+        "  `rbtkhn/ph-workshop` is now the canonical writable workshop repo.",
         "  `strategy-codex` may review, observe, and critique Predictive History,",
         "  but it must not mutate the frozen legacy PH trees in this repo.",
         "",
@@ -101,7 +103,7 @@ def format_violation_message(blocked: list[str], allowed: list[str]) -> str:
             "  - validator / CI guardrail maintenance",
             "  - review packets and critique outside the frozen PH trees",
             "",
-            "Move canonical Predictive History edits to `rbtkhn/predictive-history` instead.",
+            "Move canonical Predictive History edits to `rbtkhn/ph-workshop` instead.",
         ]
     )
     return "\n".join(lines)

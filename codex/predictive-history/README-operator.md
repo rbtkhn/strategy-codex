@@ -3,7 +3,7 @@
 Public intake command: `predictive-history`. Legacy `work-jiang` remains as a compatibility alias and internal wrapper name.
 
 > [!IMPORTANT]
-> **Freeze status:** Predictive History canonical edits now belong in **[`rbtkhn/predictive-history`](https://github.com/rbtkhn/predictive-history)**. The `codex/predictive-history/` tree inside `strategy-codex` is **frozen migration residue / historical reference only** during episode-by-episode migration. Do not treat it as a live writable lane. Boundary doctrine: [docs/predictive-history-external-boundary.md](../../docs/predictive-history-external-boundary.md).
+> **Freeze status:** Predictive History canonical edits now belong in **[`rbtkhn/ph-workshop`](https://github.com/rbtkhn/ph-workshop)**. The `codex/predictive-history/` tree inside `strategy-codex` is **frozen migration residue / historical reference only** during episode-by-episode migration. Do not treat it as a live writable lane. Boundary doctrine: [docs/predictive-history-external-boundary.md](../../docs/predictive-history-external-boundary.md).
 
 Operator project — **Jiang** (separate from SKILLS). See [skill-think](skill-think.md), [skill-write](skill-write.md), [work-alpha-school](work-alpha-school.md).
 

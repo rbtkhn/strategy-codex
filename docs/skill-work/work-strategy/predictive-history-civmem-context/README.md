@@ -2,7 +2,7 @@
 
 WORK only; not Record. This folder is a **transfer-ready handoff package**
 prepared inside `strategy-codex` for later application in the external
-`rbtkhn/predictive-history` repo.
+`rbtkhn/ph-workshop` repo.
 
 > In cross-repo handoffs, specify the intended experience transformation first,
 > then define the structural contracts that preserve it. This package therefore

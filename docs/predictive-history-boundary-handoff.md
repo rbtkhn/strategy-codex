@@ -13,7 +13,7 @@ The boundary is landed in two commits on `main`:
 
 The canonical writable Predictive History repo is:
 
-- [`rbtkhn/predictive-history`](https://github.com/rbtkhn/predictive-history)
+- [`rbtkhn/ph-workshop`](https://github.com/rbtkhn/ph-workshop)
 
 Inside `strategy-codex`, Predictive History is now an **external observed project**, not a local production lane.
 
@@ -56,7 +56,7 @@ Allowed Predictive History work in `strategy-codex` now looks like:
 
 The standard flow is:
 
-1. Do canonical writing and curation in [`rbtkhn/predictive-history`](https://github.com/rbtkhn/predictive-history).
+1. Do canonical writing and curation in [`rbtkhn/ph-workshop`](https://github.com/rbtkhn/ph-workshop).
 2. Bring a bounded packet into `strategy-codex`.
 3. Ask for one or more of:
    - editorial critique

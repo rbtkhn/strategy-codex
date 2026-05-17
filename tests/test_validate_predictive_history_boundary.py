@@ -54,6 +54,6 @@ def test_violation_message_points_to_external_repo() -> None:
         ["codex/predictive-history/README.md"],
     )
 
-    assert "canonical writable repo" in message
-    assert "Move canonical Predictive History edits to `rbtkhn/predictive-history` instead." in message
+    assert "canonical writable workshop repo" in message
+    assert "Move canonical Predictive History edits to `rbtkhn/ph-workshop` instead." in message
     assert "codex/predictive-history/STATUS.md" in message

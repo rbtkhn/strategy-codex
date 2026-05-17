@@ -11,7 +11,7 @@
 
 WORK only; not Record. This file is the **consolidated direct-transfer spec**
 for later implementation in the canonical external
-`rbtkhn/predictive-history` repo.
+`rbtkhn/ph-workshop` repo.
 
 ## Summary
 

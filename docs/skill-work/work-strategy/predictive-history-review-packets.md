@@ -1,6 +1,6 @@
 # Predictive History review packets
 
-Use this file when `strategy-codex` is reviewing work from the external [predictive-history](https://github.com/rbtkhn/predictive-history) repo.
+Use this file when `strategy-codex` is reviewing work from the external [ph-workshop](https://github.com/rbtkhn/ph-workshop) repo.
 
 For the broader ownership and migration summary behind this packet contract, see [../../predictive-history-boundary-handoff.md](../../predictive-history-boundary-handoff.md).
 
