@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import os
 import shutil
 import subprocess
 import sys
@@ -10,6 +11,10 @@ from pathlib import Path
 import pytest
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
+PYTEST_TEMPROOT = REPO_ROOT / f".tmp-pytest-{os.getpid()}"
+PYTEST_TEMPROOT.mkdir(parents=True, exist_ok=True)
+os.environ.setdefault("PYTEST_DEBUG_TEMPROOT", str(PYTEST_TEMPROOT))
+
 FIXTURES_DIR = REPO_ROOT / "tests" / "fixtures" / "seed-phase"
 SCRIPTS = REPO_ROOT / "scripts"
 if str(SCRIPTS) not in sys.path:

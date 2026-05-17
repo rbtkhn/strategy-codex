@@ -74,6 +74,7 @@ npm-debug.log*
 # Testing
 coverage/
 .pytest_cache/
+.tmp-pytest-*/
 .codex-test-temp/
 
 # PDF tools (bundled; run setup_pdf_tools.sh to fetch)
