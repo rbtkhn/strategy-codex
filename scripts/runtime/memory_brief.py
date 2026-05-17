@@ -16,11 +16,13 @@ from pathlib import Path
 _RUNTIME_DIR = Path(__file__).resolve().parent
 REPO_ROOT = _RUNTIME_DIR.parent.parent
 _SRC = REPO_ROOT / "src"
+_SCRIPTS = REPO_ROOT / "scripts"
 BUDGET_SCRIPT = REPO_ROOT / "scripts" / "prepared_context" / "build_budgeted_context.py"
-for _p in (_SRC, _RUNTIME_DIR):
+for _p in (_SRC, _SCRIPTS, _RUNTIME_DIR):
     if str(_p) not in sys.path:
         sys.path.insert(0, str(_p))
 
+from console_io import ensure_utf8_stdio  # noqa: E402
 from grace_mar.runtime.workflow_depth import DEPTH_CHOICES  # noqa: E402
 
 from expand_observations import expanded_row  # noqa: E402
@@ -39,6 +41,7 @@ def _takeaway_line(obs: dict, max_len: int = 220) -> str:
 
 
 def main() -> int:
+    ensure_utf8_stdio()
     parser = argparse.ArgumentParser(
         description="Memory brief: lane-scoped search, timeline slice, bounded expansion (runtime-only). "
         "Use --lane/--query or positional: LANE [QUERY ...].",

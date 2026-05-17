@@ -28,6 +28,7 @@ for _p in (_SRC, _SCRIPTS, _RUNTIME):
 
 from grace_mar.runtime.workflow_depth import DEPTH_CHOICES  # noqa: E402
 
+from console_io import ensure_utf8_stdio  # noqa: E402
 from observation_store import by_id  # noqa: E402
 from uncertainty_envelope import (  # noqa: E402
     compute_envelope,
@@ -746,6 +747,7 @@ def build_review_packet_markdown(
 
 
 def main() -> int:
+    ensure_utf8_stdio()
     p = argparse.ArgumentParser(
         description="Build a multi-pass Markdown review packet (pre_gate or candidate_review). Read-only."
     )

@@ -52,6 +52,8 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 
 sys.path.insert(0, str(REPO_ROOT / "scripts"))
 
+from console_io import ensure_utf8_stdio  # noqa: E402
+
 DEFAULT_INBOX = (
     REPO_ROOT
     / "docs/skill-work/work-strategy/strategy-notebook/daily-strategy-inbox.md"
@@ -95,6 +97,7 @@ def _suggest_page_candidates(out_dir: Path) -> list[str]:
 
 
 def main() -> int:
+    ensure_utf8_stdio()
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument("--inbox", type=Path, default=DEFAULT_INBOX)
     p.add_argument("--out", type=Path, default=DEFAULT_OUT_DIR)
