@@ -2,8 +2,7 @@
 """Operator command **``thread``**: triage inbox + extract for thread distillation.
 
 After **``thread:<expert_id>``** paste-ready lines are in
-``docs/skill-work/work-strategy/strategy-notebook/daily-strategy-inbox.md``,
-run (from repo root)::
+``codex/daily-strategy-inbox.md``, run (from repo root)::
 
     bin/thread
 
@@ -37,7 +36,7 @@ only; it does **not** perform integrated analysis or write pages.
 
 WORK-only; not Record.
 
-Spec: ``docs/skill-work/work-strategy/strategy-notebook/STRATEGY-NOTEBOOK-ARCHITECTURE.md``
+Spec: ``codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md``
 § *Thread (terminology)*.
 """
 
@@ -54,16 +53,9 @@ sys.path.insert(0, str(REPO_ROOT / "scripts"))
 
 from console_io import ensure_utf8_stdio  # noqa: E402
 
-DEFAULT_INBOX = (
-    REPO_ROOT
-    / "docs/skill-work/work-strategy/strategy-notebook/daily-strategy-inbox.md"
-)
-DEFAULT_OUT_DIR = (
-    REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook"
-)
-DEFAULT_PAGE_INDEX = (
-    REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook/page-index.yaml"
-)
+DEFAULT_INBOX = REPO_ROOT / "codex/daily-strategy-inbox.md"
+DEFAULT_OUT_DIR = REPO_ROOT / "codex/2026"
+DEFAULT_PAGE_INDEX = REPO_ROOT / "codex/knot-index.yaml"
 
 
 def _suggest_page_candidates(out_dir: Path) -> list[str]:
@@ -129,6 +121,7 @@ def main() -> int:
     thread_paths = rebuild_threads(
         out_dir=args.out,
         page_index_path=args.page_index,
+        inbox_path=args.inbox,
         dry_run=args.dry_run,
     )
     for path in thread_paths:

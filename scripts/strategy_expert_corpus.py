@@ -1,10 +1,11 @@
 ﻿#!/usr/bin/env python3
 """Extract raw material for per-expert thread distillation.
 
-Reads from ``strategy-expert-<id>-transcript.md`` (recent verbatim),
+Reads from active ``codex/2026/<id>/<id>-transcript.md`` files (recent verbatim),
 **inbox lines** that link ``raw-input/â€¦`` for the same ``thread:<id>`` lane,
 ``strategy-page`` blocks, optional legacy on-disk index rows; writes structured
-extraction to ``strategy-expert-<id>-thread.md`` between script markers.
+extraction to active ``codex/2026/<id>/<id>-thread.md`` files between script
+markers.
 
 The output is **raw material** for assistant refinement â€” the assistant
 distills it into a curated analytical thread (convergences, tensions,
@@ -42,20 +43,10 @@ from strategy_page_reader import discover_pages
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-DEFAULT_THREADS = (
-    REPO_ROOT
-    / "docs/skill-work/work-strategy/strategy-notebook/strategy-commentator-threads.md"
-)
-DEFAULT_INBOX = (
-    REPO_ROOT
-    / "docs/skill-work/work-strategy/strategy-notebook/daily-strategy-inbox.md"
-)
-DEFAULT_OUT_DIR = (
-    REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook"
-)
-DEFAULT_PAGE_INDEX = (
-    REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook/page-index.yaml"
-)
+DEFAULT_THREADS = REPO_ROOT / "codex/strategy-commentator-threads.md"
+DEFAULT_INBOX = REPO_ROOT / "codex/daily-strategy-inbox.md"
+DEFAULT_OUT_DIR = REPO_ROOT / "codex/2026"
+DEFAULT_PAGE_INDEX = REPO_ROOT / "codex/knot-index.yaml"
 
 CANONICAL_EXPERT_IDS: tuple[str, ...] = (
     "armstrong",
@@ -153,15 +144,40 @@ def collect_inbox_raw_input_pointers(
             if target.is_file():
                 out.append(f"- [{name}]({rel})")
             else:
-                out.append(f"- `{rel}` _(not found under strategy-notebook â€” verify path)_")
+                out.append(f"- `{rel}` _(not found under strategy-codex raw-input - verify path)_")
             if len(out) >= max_lines:
                 return out
     return out
 
 
+def is_codex_year_volume(notebook_dir: Path) -> bool:
+    """Return true for the active ``codex/<year>/`` strategy-codex layout."""
+    return (
+        notebook_dir.parent.name == "codex"
+        and re.fullmatch(r"\d{4}", notebook_dir.name) is not None
+    )
+
+
+def expert_dir_for_layout(expert_id: str, notebook_dir: Path) -> Path:
+    """Resolve the per-expert directory for active and legacy layouts."""
+    if is_codex_year_volume(notebook_dir):
+        return notebook_dir / expert_id
+    return notebook_dir / "experts" / expert_id
+
+
 def expert_paths(expert_id: str, notebook_dir: Path) -> dict[str, Path]:
-    """Resolve per-expert file paths under ``experts/<id>/``."""
-    base = notebook_dir / "experts" / expert_id
+    """Resolve per-expert file paths for active ``codex/<year>`` or legacy layouts."""
+    if is_codex_year_volume(notebook_dir):
+        base = expert_dir_for_layout(expert_id, notebook_dir)
+        codex_root = notebook_dir.parent
+        return {
+            "profile": codex_root / "profiles" / f"{expert_id}-profile.md",
+            "transcript": base / f"{expert_id}-transcript.md",
+            "thread": base / f"{expert_id}-thread.md",
+            "mind": codex_root / f"strategy-expert-{expert_id}-mind.md",
+        }
+
+    base = expert_dir_for_layout(expert_id, notebook_dir)
     return {
         "profile": base / "profile.md",
         "transcript": base / "transcript.md",
@@ -172,6 +188,9 @@ def expert_paths(expert_id: str, notebook_dir: Path) -> dict[str, Path]:
 
 def expert_id_from_thread_path(path: Path) -> str | None:
     """Resolve ``expert_id`` from a thread file path (folder, flat, or monthly)."""
+    m = re.match(r"^(.+)-thread\.md$", path.name)
+    if m and path.parent.name == m.group(1):
+        return m.group(1)
     if path.name == "thread.md" and path.parent.parent.name in ("experts", "voices"):
         return path.parent.name
     m = re.match(r"^strategy-expert-(.+)-thread\.md$", path.name)
@@ -189,7 +208,7 @@ def expert_id_from_thread_path(path: Path) -> str | None:
 def month_thread_paths_by_month(notebook_dir: Path, expert_id: str) -> dict[str, Path]:
     """Map ``YYYY-MM`` â†’ thread path; prefer ``experts/<id>/`` over flat root."""
     by_m: dict[str, Path] = {}
-    expert_dir = notebook_dir / "experts" / expert_id
+    expert_dir = expert_dir_for_layout(expert_id, notebook_dir)
     if expert_dir.is_dir():
         for p in expert_dir.glob(f"{expert_id}-thread-*.md"):
             m = RE_IN_FOLDER_MONTH_THREAD.match(p.name)
@@ -234,10 +253,10 @@ def expert_thread_paths_for_discovery(notebook_dir: Path, expert_id: str) -> lis
     if mmap:
         for k in sorted(mmap.keys()):
             add(mmap[k])
-        add(notebook_dir / "experts" / expert_id / "thread.md")
+        add(expert_paths(expert_id, notebook_dir)["thread"])
         if out:
             return out
-    legacy = notebook_dir / "experts" / expert_id / "thread.md"
+    legacy = expert_paths(expert_id, notebook_dir)["thread"]
     if legacy.is_file():
         return [legacy]
     flat = notebook_dir / f"strategy-expert-{expert_id}-thread.md"
@@ -261,6 +280,9 @@ def collect_strategy_thread_paths(notebook_dir: Path) -> list[Path]:
         add(p)
     for p in sorted(notebook_dir.glob("voices/*/thread.md")):
         add(p)
+    for p in sorted(notebook_dir.glob("*/*-thread.md")):
+        if expert_id_from_thread_path(p):
+            add(p)
     for d in sorted(notebook_dir.glob("experts/*")):
         if d.is_dir():
             eid = d.name
@@ -287,7 +309,7 @@ def thread_path_for_page_month(notebook_dir: Path, expert_id: str, page_month_yy
     if mmap:
         if page_month_yyyy_mm in mmap:
             return mmap[page_month_yyyy_mm]
-        return notebook_dir / "experts" / expert_id / (
+        return expert_dir_for_layout(expert_id, notebook_dir) / (
             f"{expert_id}-thread-{page_month_yyyy_mm}.md"
         )
     return expert_paths(expert_id, notebook_dir)["thread"]
@@ -825,6 +847,7 @@ def rebuild_threads(
     *,
     out_dir: Path,
     page_index_path: Path,
+    inbox_path: Path | None = None,
     dry_run: bool = False,
 ) -> list[Path]:
     """Extract transcript + page material â†’ thread files for all experts.
@@ -858,7 +881,7 @@ def rebuild_threads(
                 month_filter_ym=None,
             )
             inb = collect_inbox_raw_input_pointers(
-                out_dir, expert_id, month_filter_ym=None
+                out_dir, expert_id, inbox_path=inbox_path, month_filter_ym=None
             )
             lane = merge_raw_input_bullet_lines(disk_b, inb)
             page_refs = find_page_references(expert_id, page_index_path=page_index_path)
@@ -882,7 +905,7 @@ def rebuild_threads(
         for ym in months:
             dest = mmap.get(ym)
             if dest is None:
-                dest = out_dir / "experts" / expert_id / f"{expert_id}-thread-{ym}.md"
+                dest = expert_dir_for_layout(expert_id, out_dir) / f"{expert_id}-thread-{ym}.md"
             tlines = by_m_transcript.get(ym, [])
             disk_b = discover_raw_input_bullets_for_expert(
                 out_dir,
@@ -891,7 +914,7 @@ def rebuild_threads(
                 month_filter_ym=ym,
             )
             inb = collect_inbox_raw_input_pointers(
-                out_dir, expert_id, month_filter_ym=ym
+                out_dir, expert_id, inbox_path=inbox_path, month_filter_ym=ym
             )
             lane = merge_raw_input_bullet_lines(disk_b, inb)
             page_blocks = discover_pages(dest, expert_id=expert_id) if dest.is_file() else []
@@ -930,6 +953,7 @@ def main() -> int:
     paths = rebuild_threads(
         out_dir=args.out,
         page_index_path=args.page_index,
+        inbox_path=DEFAULT_INBOX,
         dry_run=args.dry_run,
     )
     for path in paths:

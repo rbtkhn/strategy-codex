@@ -2,8 +2,8 @@
 """Triage inbox thread lines to per-expert transcript files (append + prune).
 
 For each indexed expert, extracts ``thread:<expert_id>`` lines from
-``daily-strategy-inbox.md``, appends new date/line pairs to the expert's
-``strategy-expert-<expert_id>-transcript.md`` (preserving any operator edits),
+``codex/daily-strategy-inbox.md``, appends new date/line pairs to the expert's
+active ``codex/2026/<expert_id>/<expert_id>-transcript.md`` file (preserving any operator edits),
 and prunes date sections older than ``--days`` (default 7).
 
 This module is **not** an operator-facing command. It is called automatically
@@ -33,13 +33,8 @@ from strategy_expert_corpus import (
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-DEFAULT_INBOX = (
-    REPO_ROOT
-    / "docs/skill-work/work-strategy/strategy-notebook/daily-strategy-inbox.md"
-)
-DEFAULT_OUT_DIR = (
-    REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook"
-)
+DEFAULT_INBOX = REPO_ROOT / "codex/daily-strategy-inbox.md"
+DEFAULT_OUT_DIR = REPO_ROOT / "codex/2026"
 
 TRIAGE_MARKER = "<!-- Triage appends new date sections below. Do not add content above this line. -->"
 
@@ -232,8 +227,8 @@ def collect_rss_thread_ingests(
     expert_ids_set: frozenset[str],
     notebook_dir: Path | None = None,
 ) -> dict[str, dict[date, list[str]]]:
-    """Backward-compatible name; requires ``notebook_dir`` (``strategy-notebook`` root)."""
-    nb = notebook_dir or (REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook")
+    """Backward-compatible name; requires ``notebook_dir`` (active codex year root)."""
+    nb = notebook_dir or DEFAULT_OUT_DIR
     return collect_thread_tagged_raw_ingests(
         raw_root, nb, cutoff=cutoff, expert_ids_set=expert_ids_set
     )
