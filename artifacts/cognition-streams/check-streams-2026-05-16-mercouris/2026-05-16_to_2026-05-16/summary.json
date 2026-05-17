@@ -1,0 +1,33 @@
+{
+  "main_total": 1,
+  "captured_main": 0,
+  "overall_pct": 0.0,
+  "recent_main_total": 1,
+  "recent_captured_main": 0,
+  "recent_pct": 0.0,
+  "must_capture_remaining": 1,
+  "benchmark": {
+    "overall_pct_min": 0.7,
+    "recent_pct_min": 0.9,
+    "must_capture_remaining_max": 0
+  },
+  "status": "below-threshold",
+  "per_date": {
+    "2026-05-16": {
+      "rows": 1,
+      "main_total": 1,
+      "captured_main": 0,
+      "coverage_pct": 0.0,
+      "must_capture_remaining": 1
+    }
+  },
+  "per_channel": {
+    "alex-mercouris": {
+      "rows": 1,
+      "main_total": 1,
+      "captured_main": 0,
+      "coverage_pct": 0.0,
+      "must_capture_remaining": 1
+    }
+  }
+}

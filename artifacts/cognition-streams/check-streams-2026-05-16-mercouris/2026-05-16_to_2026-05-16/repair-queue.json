@@ -1,0 +1,23 @@
+{
+  "must-capture": [
+    {
+      "date": "2026-05-16",
+      "channel_key": "alex-mercouris",
+      "channel_name": "Alexander Mercouris",
+      "youtube_id": "8L21nezG_ZU",
+      "title": "Zelensky Panics Says Russia Will Attack Kiev Decision Centres; Slaviansk Defence Collapse; Bond Rout",
+      "url": "https://www.youtube.com/watch?v=8L21nezG_ZU",
+      "duration_seconds": 4905,
+      "discovery_source": "uploads_playlist",
+      "classification": "uncaptured-main",
+      "classification_confidence": "high",
+      "priority": "must-capture",
+      "captured": 0,
+      "raw_input_path": "",
+      "raw_input_paths": [],
+      "same_day_parent_id": "",
+      "notes": "main upload missing from raw-input"
+    }
+  ],
+  "probably-capture": []
+}

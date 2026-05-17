@@ -1,0 +1,33 @@
+{
+  "main_total": 4,
+  "captured_main": 1,
+  "overall_pct": 0.25,
+  "recent_main_total": 4,
+  "recent_captured_main": 1,
+  "recent_pct": 0.25,
+  "must_capture_remaining": 3,
+  "benchmark": {
+    "overall_pct_min": 0.7,
+    "recent_pct_min": 0.9,
+    "must_capture_remaining_max": 0
+  },
+  "status": "below-threshold",
+  "per_date": {
+    "2026-05-16": {
+      "rows": 4,
+      "main_total": 4,
+      "captured_main": 1,
+      "coverage_pct": 0.25,
+      "must_capture_remaining": 3
+    }
+  },
+  "per_channel": {
+    "daniel-davis-deep-dive": {
+      "rows": 4,
+      "main_total": 4,
+      "captured_main": 1,
+      "coverage_pct": 0.25,
+      "must_capture_remaining": 3
+    }
+  }
+}

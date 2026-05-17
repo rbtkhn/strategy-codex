@@ -1,0 +1,40 @@
+{
+  "main_total": 29,
+  "captured_main": 13,
+  "overall_pct": 0.4483,
+  "recent_main_total": 2,
+  "recent_captured_main": 1,
+  "recent_pct": 0.5,
+  "must_capture_remaining": 1,
+  "benchmark": {
+    "overall_pct_min": 0.7,
+    "recent_pct_min": 0.9,
+    "must_capture_remaining_max": 0
+  },
+  "status": "below-threshold",
+  "per_date": {
+    "": {
+      "rows": 27,
+      "main_total": 27,
+      "captured_main": 12,
+      "coverage_pct": 0.4444,
+      "must_capture_remaining": 0
+    },
+    "2026-05-16": {
+      "rows": 2,
+      "main_total": 2,
+      "captured_main": 1,
+      "coverage_pct": 0.5,
+      "must_capture_remaining": 1
+    }
+  },
+  "per_channel": {
+    "dialogue-works": {
+      "rows": 29,
+      "main_total": 29,
+      "captured_main": 13,
+      "coverage_pct": 0.4483,
+      "must_capture_remaining": 1
+    }
+  }
+}

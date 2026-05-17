@@ -1,0 +1,59 @@
+{
+  "must-capture": [
+    {
+      "date": "2026-05-16",
+      "channel_key": "daniel-davis-deep-dive",
+      "channel_name": "Daniel Davis / Deep Dive",
+      "youtube_id": "JRNzCOQTTDo",
+      "title": "Deep Dive Intel Briefing 5/16/2026  Lt Col Daniel Davis",
+      "url": "https://www.youtube.com/watch?v=JRNzCOQTTDo",
+      "duration_seconds": 3857,
+      "discovery_source": "uploads_playlist",
+      "classification": "uncaptured-main",
+      "classification_confidence": "high",
+      "priority": "must-capture",
+      "captured": 0,
+      "raw_input_path": "",
+      "raw_input_paths": [],
+      "same_day_parent_id": "",
+      "notes": "main upload missing from raw-input"
+    },
+    {
+      "date": "2026-05-16",
+      "channel_key": "daniel-davis-deep-dive",
+      "channel_name": "Daniel Davis / Deep Dive",
+      "youtube_id": "Uqt5ZW2MxFc",
+      "title": "Iran War - Post China Trip /Lt Col Daniel Davis & Mario Nawfal",
+      "url": "https://www.youtube.com/watch?v=Uqt5ZW2MxFc",
+      "duration_seconds": 1355,
+      "discovery_source": "uploads_playlist",
+      "classification": "uncaptured-main",
+      "classification_confidence": "high",
+      "priority": "must-capture",
+      "captured": 0,
+      "raw_input_path": "",
+      "raw_input_paths": [],
+      "same_day_parent_id": "",
+      "notes": "main upload missing from raw-input"
+    },
+    {
+      "date": "2026-05-16",
+      "channel_key": "daniel-davis-deep-dive",
+      "channel_name": "Daniel Davis / Deep Dive",
+      "youtube_id": "yFfSXup5nEw",
+      "title": "Bombs Away or Walk Away in Iran /Lt Col Daniel Davis",
+      "url": "https://www.youtube.com/watch?v=yFfSXup5nEw",
+      "duration_seconds": 2047,
+      "discovery_source": "uploads_playlist",
+      "classification": "uncaptured-main",
+      "classification_confidence": "high",
+      "priority": "must-capture",
+      "captured": 0,
+      "raw_input_path": "",
+      "raw_input_paths": [],
+      "same_day_parent_id": "",
+      "notes": "main upload missing from raw-input"
+    }
+  ],
+  "probably-capture": []
+}

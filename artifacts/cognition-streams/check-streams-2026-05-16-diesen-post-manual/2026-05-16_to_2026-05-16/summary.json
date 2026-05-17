@@ -1,0 +1,33 @@
+{
+  "main_total": 2,
+  "captured_main": 2,
+  "overall_pct": 1.0,
+  "recent_main_total": 2,
+  "recent_captured_main": 2,
+  "recent_pct": 1.0,
+  "must_capture_remaining": 0,
+  "benchmark": {
+    "overall_pct_min": 0.7,
+    "recent_pct_min": 0.9,
+    "must_capture_remaining_max": 0
+  },
+  "status": "complete",
+  "per_date": {
+    "2026-05-16": {
+      "rows": 17,
+      "main_total": 2,
+      "captured_main": 2,
+      "coverage_pct": 1.0,
+      "must_capture_remaining": 0
+    }
+  },
+  "per_channel": {
+    "glenn-diesen": {
+      "rows": 17,
+      "main_total": 2,
+      "captured_main": 2,
+      "coverage_pct": 1.0,
+      "must_capture_remaining": 0
+    }
+  }
+}
