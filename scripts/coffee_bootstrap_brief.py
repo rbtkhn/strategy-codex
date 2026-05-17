@@ -267,6 +267,16 @@ def _pytest_status() -> str:
     return "unverified - run python -m pytest --version before test work"
 
 
+def _repo_identity_status() -> str:
+    """Return a compact read-only repo identity guard for fresh chats."""
+    try:
+        from verify_repo_identity import format_repo_identity_status
+
+        return format_repo_identity_status(REPO_ROOT)
+    except Exception as exc:
+        return f"unavailable - run python scripts/verify_repo_identity.py ({exc})"
+
+
 def build_coffee_bootstrap_brief(
     user_id: str,
     *,
@@ -306,6 +316,7 @@ def build_coffee_bootstrap_brief(
             f"branches={load.get('branch_count', 0)}; "
             f"memory={_memory_status(user_id)}"
         ),
+        "repo_identity": _repo_identity_status(),
         "git_credentials": _git_credential_status(),
         "git_state": _git_state_status(),
         "pytest": _pytest_status(),
@@ -328,6 +339,9 @@ def format_coffee_bootstrap_brief(brief: dict[str, Any]) -> str:
     """Format the structured brief for first-command coffee output."""
     lines = ["Coffee Bootstrap Brief"]
     lines.append(f"- Start state: {brief.get('start_state', 'unknown')}")
+    repo_identity = brief.get("repo_identity")
+    if repo_identity:
+        lines.append(f"- Repo identity: {repo_identity}")
     git_credentials = brief.get("git_credentials")
     if git_credentials:
         lines.append(f"- Git credentials: {git_credentials}")

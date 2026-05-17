@@ -77,6 +77,7 @@ def test_bootstrap_brief_formats_recommendation_without_conductor_hub_line() -> 
     text = format_coffee_bootstrap_brief(
         {
             "start_state": "load=light; branches=0; memory=ok",
+            "repo_identity": "ok - root-name=strategy-codex; origin=https rbtkhn/strategy-codex; AGENTS=active strategy-codex",
             "git_credentials": "origin=https; gh=ok",
             "git_state": "main...origin/main [ahead 1]; dirty=2; untracked=1",
             "pytest": "available (pytest 9.0.3)",
@@ -94,6 +95,7 @@ def test_bootstrap_brief_formats_recommendation_without_conductor_hub_line() -> 
     )
 
     assert "Coffee Bootstrap Brief" in text
+    assert "Repo identity: ok - root-name=strategy-codex" in text
     assert "Git credentials: origin=https; gh=ok" in text
     assert "Git state: main...origin/main [ahead 1]; dirty=2; untracked=1" in text
     assert "Pytest: available (pytest 9.0.3)" in text
