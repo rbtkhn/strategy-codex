@@ -1,0 +1,56 @@
+{
+  "source_path": "codex/2026/raw-input/2026-01-02/youtube-alex-mercouris-zelensky-sidelined-budanov-named-no-2-cia-role-in-drone-strikes-confirme-2026-01-02.md",
+  "output_path": "codex/2026/raw-input/2026-01-02/youtube-alex-mercouris-zelensky-sidelined-budanov-named-no-2-cia-role-in-drone-strikes-confirme-2026-01-02.cleaned.md",
+  "status": "cleaned",
+  "cleanup_score": 100,
+  "cleanup_grade": "cleaned-transcript-80",
+  "source_word_count": 8975,
+  "cleaned_word_count": 8971,
+  "corrections": {},
+  "residual_noise_terms": [],
+  "components": {
+    "frontmatter_integrity": {
+      "score": 15,
+      "max": 15,
+      "passed": true
+    },
+    "caption_artifact_removal": {
+      "score": 15,
+      "max": 15,
+      "passed": true,
+      "removed": 2
+    },
+    "repeated_fragment_collapse": {
+      "score": 10,
+      "max": 10,
+      "passed": true,
+      "removed": 0
+    },
+    "paragraph_reflow": {
+      "score": 20,
+      "max": 20,
+      "passed": true,
+      "source_lines": 1711,
+      "cleaned_paragraphs": 63
+    },
+    "proper_noun_normalization": {
+      "score": 20,
+      "max": 20,
+      "passed": true,
+      "corrections": {}
+    },
+    "speaker_turns_where_clear": {
+      "score": 10,
+      "max": 10,
+      "passed": true,
+      "required": false
+    },
+    "residual_noise_scan": {
+      "score": 10,
+      "max": 10,
+      "passed": true,
+      "terms": []
+    }
+  },
+  "cleanup_receipt": "artifacts/transcript-cleanup/jan-2-cleaned-80/details/youtube-alex-mercouris-zelensky-sidelined-budanov-named-no-2-cia-role-in-drone-strikes-confirme-2026-01-02.cleanup.json"
+}

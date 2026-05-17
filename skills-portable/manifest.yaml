@@ -98,6 +98,13 @@ skills:
     verify_forbidden_substrings:
       - users/grace-mar/
       - process_approved_candidates
+  - name: transcript-cleanup
+    source: transcript-cleanup/SKILL.md
+    appendix: .cursor/skills/transcript-cleanup/CURSOR_APPENDIX.md
+    target: .cursor/skills/transcript-cleanup/SKILL.md
+    verify_forbidden_substrings:
+      - users/grace-mar/
+      - process_approved_candidates
   - name: check-streams
     source: check-streams/SKILL.md
     appendix: .cursor/skills/check-streams/CURSOR_APPENDIX.md
