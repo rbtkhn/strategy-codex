@@ -99,7 +99,7 @@ When the operator begins with **`coffee`** (or clearly the same intent; legacy *
 python3 scripts/operator_coffee.py -u strategy-codex --mode first-command
 ```
 
-This prints a **Coffee Bootstrap Brief** first, then runs the compact cold-thread stack. Use `--verbose` only when the operator needs the detailed underlying handoff / warmup / harness blocks. Ordinary in-thread `coffee`, `coffee light`, `coffee minimal`, and signing-off behavior stay unchanged.
+This prints a **Coffee Bootstrap Brief** first, then runs the compact cold-thread stack. The brief includes read-only **Git credentials**, **Git state**, and **Pytest** lines for the current sandbox (`origin` protocol + `gh auth status` hint; `git status --short --branch`; `python -m pytest --version`) so a fresh chat can tell whether shell push, local repo stewardship, or test work needs setup before ship work. Use `--verbose` only when the operator needs the detailed underlying handoff / warmup / harness blocks. Ordinary in-thread `coffee`, `coffee light`, `coffee minimal`, and signing-off behavior stay unchanged.
 
 For Step 0 recent rhythm, prefer the executable formatter in `scripts/coffee_bootstrap_brief.py` over manual log synthesis. It reads `coffee_close` receipts first, names readiness / artifact anchors / repeated unresolved loops, and keeps the first screen free of timestamp walls.
 

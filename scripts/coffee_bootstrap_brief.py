@@ -10,6 +10,8 @@ from __future__ import annotations
 
 import argparse
 import json
+import shutil
+import subprocess
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -161,6 +163,110 @@ def _lane_hint_status() -> str:
     return _truncate(compact or "available", 160)
 
 
+def _find_gh() -> str | None:
+    gh = shutil.which("gh")
+    if gh:
+        return gh
+    windows_gh = Path("C:/Program Files/GitHub CLI/gh.exe")
+    if windows_gh.exists():
+        return str(windows_gh)
+    return None
+
+
+def _git_credential_status() -> str:
+    """Return a compact read-only GitHub credential hint for fresh chats."""
+    origin = subprocess.run(
+        ["git", "remote", "get-url", "origin"],
+        cwd=str(REPO_ROOT),
+        capture_output=True,
+        text=True,
+        encoding="utf-8",
+        errors="replace",
+        timeout=5,
+        check=False,
+    )
+    remote = origin.stdout.strip() if origin.returncode == 0 else "unknown"
+    protocol = "https" if remote.startswith("https://") else "ssh" if remote.startswith("git@") else "unknown"
+
+    gh = _find_gh()
+    if not gh:
+        return f"origin={protocol}; gh=missing; verify credentials before shell push"
+
+    auth = subprocess.run(
+        [gh, "auth", "status", "-h", "github.com"],
+        cwd=str(REPO_ROOT),
+        capture_output=True,
+        text=True,
+        encoding="utf-8",
+        errors="replace",
+        timeout=8,
+        check=False,
+    )
+    output = f"{auth.stdout}\n{auth.stderr}".lower()
+    if auth.returncode == 0:
+        return f"origin={protocol}; gh=ok"
+    if "token" in output and "invalid" in output:
+        return f"origin={protocol}; gh=invalid token - run gh auth login before shell push"
+    if "not logged" in output or "log in" in output:
+        return f"origin={protocol}; gh=not logged in - run gh auth login before shell push"
+    return f"origin={protocol}; gh=unverified - run gh auth status before shell push"
+
+
+def _git_state_status() -> str:
+    """Return a compact read-only branch/dirty-worktree hint for fresh chats."""
+    result = subprocess.run(
+        ["git", "status", "--short", "--branch"],
+        cwd=str(REPO_ROOT),
+        capture_output=True,
+        text=True,
+        encoding="utf-8",
+        errors="replace",
+        timeout=8,
+        check=False,
+    )
+    if result.returncode != 0:
+        return "unavailable - run git status --short --branch"
+
+    lines = [line for line in result.stdout.splitlines() if line.strip()]
+    if not lines:
+        return "unknown"
+
+    branch = lines[0].removeprefix("## ").strip() or "unknown branch"
+    changes = lines[1:]
+    dirty = sum(1 for line in changes if not line.startswith("??"))
+    untracked = sum(1 for line in changes if line.startswith("??"))
+    if dirty == 0 and untracked == 0:
+        return f"{branch}; clean"
+
+    parts: list[str] = []
+    if dirty:
+        parts.append(f"dirty={dirty}")
+    if untracked:
+        parts.append(f"untracked={untracked}")
+    return f"{branch}; " + "; ".join(parts)
+
+
+def _pytest_status() -> str:
+    """Return whether the current Python runtime can run pytest."""
+    result = subprocess.run(
+        [sys.executable, "-m", "pytest", "--version"],
+        cwd=str(REPO_ROOT),
+        capture_output=True,
+        text=True,
+        encoding="utf-8",
+        errors="replace",
+        timeout=8,
+        check=False,
+    )
+    if result.returncode == 0:
+        version = (result.stdout or result.stderr).strip().splitlines()[0]
+        return f"available ({version})"
+    output = f"{result.stdout}\n{result.stderr}"
+    if "No module named pytest" in output:
+        return "missing - install test extras before pytest verification"
+    return "unverified - run python -m pytest --version before test work"
+
+
 def build_coffee_bootstrap_brief(
     user_id: str,
     *,
@@ -200,6 +306,9 @@ def build_coffee_bootstrap_brief(
             f"branches={load.get('branch_count', 0)}; "
             f"memory={_memory_status(user_id)}"
         ),
+        "git_credentials": _git_credential_status(),
+        "git_state": _git_state_status(),
+        "pytest": _pytest_status(),
         "recent_rhythm": format_coffee_recent_rhythm(
             user_id, events_path=events_path, now=now
         ),
@@ -219,6 +328,15 @@ def format_coffee_bootstrap_brief(brief: dict[str, Any]) -> str:
     """Format the structured brief for first-command coffee output."""
     lines = ["Coffee Bootstrap Brief"]
     lines.append(f"- Start state: {brief.get('start_state', 'unknown')}")
+    git_credentials = brief.get("git_credentials")
+    if git_credentials:
+        lines.append(f"- Git credentials: {git_credentials}")
+    git_state = brief.get("git_state")
+    if git_state:
+        lines.append(f"- Git state: {git_state}")
+    pytest_status = brief.get("pytest")
+    if pytest_status:
+        lines.append(f"- Pytest: {pytest_status}")
 
     recent = str(brief.get("recent_rhythm") or "").splitlines()
     if recent:

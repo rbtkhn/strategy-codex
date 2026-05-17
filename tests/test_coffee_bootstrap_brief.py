@@ -10,7 +10,13 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO_ROOT / "scripts"))
 
 from assess_session_load import _compute_option_weights, _pick_recommendation
-from coffee_bootstrap_brief import format_coffee_bootstrap_brief, format_coffee_recent_rhythm
+from coffee_bootstrap_brief import (
+    _git_credential_status,
+    _git_state_status,
+    _pytest_status,
+    format_coffee_bootstrap_brief,
+    format_coffee_recent_rhythm,
+)
 from operator_coffee import _CAPTURE_KWARGS, _run
 
 
@@ -71,6 +77,9 @@ def test_bootstrap_brief_formats_recommendation_without_conductor_hub_line() -> 
     text = format_coffee_bootstrap_brief(
         {
             "start_state": "load=light; branches=0; memory=ok",
+            "git_credentials": "origin=https; gh=ok",
+            "git_state": "main...origin/main [ahead 1]; dirty=2; untracked=1",
+            "pytest": "available (pytest 9.0.3)",
             "recent_rhythm": "Recent rhythm:\n- Last close picked A: done, readiness ship_ready.",
             "artifact_anchors": ["commit:abc1234"],
             "conductor_continuity": {
@@ -85,9 +94,91 @@ def test_bootstrap_brief_formats_recommendation_without_conductor_hub_line() -> 
     )
 
     assert "Coffee Bootstrap Brief" in text
+    assert "Git credentials: origin=https; gh=ok" in text
+    assert "Git state: main...origin/main [ahead 1]; dirty=2; untracked=1" in text
+    assert "Pytest: available (pytest 9.0.3)" in text
     assert "Recommended hub: A. Steward" in text
     assert "Conductor continuity: kleiber closed" in text
     assert "E. Conductor" not in text
+
+
+def test_git_credential_status_reports_invalid_token(monkeypatch) -> None:
+    calls: list[list[str]] = []
+
+    def fake_which(name: str) -> str | None:
+        return "gh" if name == "gh" else None
+
+    def fake_run(argv, **kwargs):
+        calls.append(list(argv))
+        if argv[:3] == ["git", "remote", "get-url"]:
+            return type(
+                "Result",
+                (),
+                {"returncode": 0, "stdout": "https://github.com/rbtkhn/strategy-codex.git\n", "stderr": ""},
+            )()
+        return type(
+            "Result",
+            (),
+            {"returncode": 1, "stdout": "", "stderr": "The token in default is invalid."},
+        )()
+
+    monkeypatch.setattr("coffee_bootstrap_brief.shutil.which", fake_which)
+    monkeypatch.setattr("coffee_bootstrap_brief.subprocess.run", fake_run)
+
+    assert _git_credential_status() == "origin=https; gh=invalid token - run gh auth login before shell push"
+    assert calls == [
+        ["git", "remote", "get-url", "origin"],
+        ["gh", "auth", "status", "-h", "github.com"],
+    ]
+
+
+def test_git_state_status_summarizes_ahead_dirty_and_untracked(monkeypatch) -> None:
+    def fake_run(argv, **kwargs):
+        assert argv == ["git", "status", "--short", "--branch"]
+        return type(
+            "Result",
+            (),
+            {
+                "returncode": 0,
+                "stdout": (
+                    "## main...origin/main [ahead 1]\n"
+                    " M scripts/a.py\n"
+                    "A  docs/new.md\n"
+                    "?? artifacts/tmp/\n"
+                ),
+                "stderr": "",
+            },
+        )()
+
+    monkeypatch.setattr("coffee_bootstrap_brief.subprocess.run", fake_run)
+
+    assert _git_state_status() == "main...origin/main [ahead 1]; dirty=2; untracked=1"
+
+
+def test_git_state_status_reports_clean(monkeypatch) -> None:
+    def fake_run(argv, **kwargs):
+        return type(
+            "Result",
+            (),
+            {"returncode": 0, "stdout": "## main...origin/main\n", "stderr": ""},
+        )()
+
+    monkeypatch.setattr("coffee_bootstrap_brief.subprocess.run", fake_run)
+
+    assert _git_state_status() == "main...origin/main; clean"
+
+
+def test_pytest_status_reports_missing(monkeypatch) -> None:
+    def fake_run(argv, **kwargs):
+        return type(
+            "Result",
+            (),
+            {"returncode": 1, "stdout": "", "stderr": "No module named pytest"},
+        )()
+
+    monkeypatch.setattr("coffee_bootstrap_brief.subprocess.run", fake_run)
+
+    assert _pytest_status() == "missing - install test extras before pytest verification"
 
 
 def test_recommendation_uses_coffee_close_readiness() -> None:
