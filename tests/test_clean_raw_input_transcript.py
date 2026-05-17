@@ -139,6 +139,34 @@ def test_guest_name_residual_prevents_perfect_score() -> None:
     assert "Andre Martiano" in components["residual_noise_scan"]["terms"]
 
 
+def test_provenance_conflict_prevents_perfect_score() -> None:
+    meta = {
+        "source_url": "https://www.youtube.com/watch?v=abc123def45",
+        "pub_date": "2026-05-16",
+        "title": "Bombs Away or Walk Away in Iran /Lt Col Daniel Davis",
+        "host": "Daniel Davis",
+        "guest": "Davis",
+        "caption_kind": "manual",
+        "source_note": "Auto-captions extracted with yt_dlp from YouTube subtitles. Not human-verified verbatim.",
+    }
+    components = clean.compute_components(
+        source_meta=meta,
+        source_body="Kind: captions\nLanguage: en\n" + _body(100),
+        cleaned_body=">> " + _body(100),
+        artifact_removed_count=2,
+        duplicate_removed_count=1,
+        corrections={},
+        residual_terms=[],
+    )
+
+    assert clean.score_from_components(components) == 95
+    assert components["provenance_integrity"]["passed"] is False
+    assert components["provenance_integrity"]["issues"] == [
+        "caption_kind manual conflicts with auto-caption source_note",
+        "guest appears to be host-only inference",
+    ]
+
+
 def test_score_below_80_stays_cleaned_draft() -> None:
     components = clean.compute_components(
         source_meta={},

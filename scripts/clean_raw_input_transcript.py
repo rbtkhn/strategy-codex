@@ -277,6 +277,25 @@ def residual_noise_terms(text: str, source_meta: dict[str, Any] | None = None) -
     return sorted(found, key=str.casefold)
 
 
+def provenance_issues(source_meta: dict[str, Any]) -> list[str]:
+    issues: list[str] = []
+    caption_kind = str(source_meta.get("caption_kind") or "").strip().lower()
+    source_note = str(source_meta.get("source_note") or "").strip().lower()
+    if caption_kind == "manual" and "auto-caption" in source_note:
+        issues.append("caption_kind manual conflicts with auto-caption source_note")
+    if caption_kind.startswith("auto") and "manual" in source_note:
+        issues.append("caption_kind auto conflicts with manual source_note")
+
+    guest = str(source_meta.get("guest") or "").strip()
+    host = str(source_meta.get("host") or "").strip()
+    if guest and host:
+        host_parts = {part.casefold() for part in re.findall(r"[A-Za-z]+", host)}
+        guest_parts = {part.casefold() for part in re.findall(r"[A-Za-z]+", guest)}
+        if guest_parts and guest_parts.issubset(host_parts):
+            issues.append("guest appears to be host-only inference")
+    return issues
+
+
 def compute_components(
     *,
     source_meta: dict[str, Any],
@@ -299,11 +318,14 @@ def compute_components(
     paragraph_score = 20 if cleaned_paragraphs and len(cleaned_paragraphs) < max(12, len(source_lines) // 3) and word_ratio >= 0.9 else 12
     proper_score = 20 if not residual_terms and (corrections or not source_had_bad_terms) else (14 if not residual_terms else 6)
     residual_score = 10 if not residual_terms else max(0, 10 - min(10, len(residual_terms) * 2))
-    frontmatter_score = 15 if all(str(source_meta.get(key) or "").strip() for key in ("source_url", "pub_date", "title")) else 0
+    frontmatter_score = 10 if all(str(source_meta.get(key) or "").strip() for key in ("source_url", "pub_date", "title")) else 0
+    provenance = provenance_issues(source_meta)
+    provenance_score = 5 if not provenance else 0
     artifact_score = 15 if not re.search(r"(?m)^(Kind: captions|Language: en|WEBVTT)$", cleaned_body) else 5
     dedupe_score = 10 if duplicate_removed_count or "\n\n" in cleaned_body else 8
     return {
-        "frontmatter_integrity": {"score": frontmatter_score, "max": 15, "passed": frontmatter_score == 15},
+        "frontmatter_integrity": {"score": frontmatter_score, "max": 10, "passed": frontmatter_score == 10},
+        "provenance_integrity": {"score": provenance_score, "max": 5, "passed": provenance_score == 5, "issues": provenance},
         "caption_artifact_removal": {"score": artifact_score, "max": 15, "passed": artifact_score == 15, "removed": artifact_removed_count},
         "repeated_fragment_collapse": {"score": dedupe_score, "max": 10, "passed": dedupe_score >= 8, "removed": duplicate_removed_count},
         "paragraph_reflow": {

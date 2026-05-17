@@ -51,6 +51,7 @@ Use this skill after raw-input capture has succeeded and the transcript body is 
 4. **Score visibly**
    - Use the weighted 0-100 rubric from the receipt:
      - frontmatter integrity
+     - provenance integrity
      - caption artifact removal
      - repeated-fragment collapse
      - paragraph reflow
@@ -92,6 +93,7 @@ Always report:
 - Never mark a cleaned derivative as human-verified.
 - Never use broad model judgment for names in v1.
 - Never give a perfect score while a declared speaker/guest name remains misspelled in the cleaned body.
+- Never give a perfect score when source metadata has a known provenance conflict, such as `caption_kind` disagreeing with `source_note` or `guest` merely repeating the host name.
 - Never treat cleaned-80 as quotation-ready without separate verification.
 - Never edit Record surfaces from this workflow.
 
