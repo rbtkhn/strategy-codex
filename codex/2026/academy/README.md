@@ -37,3 +37,5 @@ Pressure may explain action, but it must not excuse it. Preserve both structure 
 ## Boundary
 
 Academy shelves organize study objects and conceptual routes. They do not replace speaker folders, raw-input provenance, Bookshelf catalog rows, host-local arcs, Predictive History, or Record surfaces.
+
+Predictive History / PH-CIV remains an external public project, not a local academy shelf. Route PH-CIV material into Academy through review packets, public ID citations, bounded excerpts, and source-discipline critique; see [predictive-history-external-boundary.md](../../../docs/predictive-history-external-boundary.md).
