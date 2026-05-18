@@ -2,6 +2,10 @@
 
 Conductor is a protocol before it is a voice. Use this guard before any conductor persona text.
 
+## Why This Matters
+
+The conductor name is not decoration. It is a compact way to turn intent into a specific mode of attention, then into one bounded repo action the operator can choose without losing agency. The hard menu shape keeps the ritual useful: stance becomes target, target becomes movement, and movement leaves a receipt instead of dissolving into atmosphere.
+
 ## Trigger
 
 When the operator invokes `toscanini`, `furtwangler`, `karajan`, `kleiber`, `bernstein`, or `conductor <name>`, resolve exactly one `conductor=<slug>`.
