@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-15T06:07:46.184821+00:00",
+  "generated_at": "2026-05-18T06:06:12.744873+00:00",
   "user_id": "strategy-codex",
   "agent_surface": {
     "cursor_model": "unknown"
@@ -15,7 +15,7 @@
   "artifact_draft_count": 0,
   "promotable_draft_count": 0,
   "followups": [
-    "AI frontier watch: The Innermost Loop latest - Welcome to May 14, 2026 - consider Coffee C source hygiene if relevant tomorrow"
+    "AI frontier watch: The Innermost Loop latest - Welcome to May 17, 2026 - consider Coffee C source hygiene if relevant tomorrow"
   ],
   "phases": {
     "recent": {
@@ -31,115 +31,93 @@
     }
   },
   "coffee_rollup_24h": {
-    "window_start_utc": "2026-05-14T06:07:41.618312+00:00",
-    "window_end_utc": "2026-05-15T06:07:41.618312+00:00",
+    "window_start_utc": "2026-05-17T06:06:07.658758+00:00",
+    "window_end_utc": "2026-05-18T06:06:07.658758+00:00",
     "window_hours": 24.0,
     "count": 3,
-    "first_ts": "2026-05-14T12:37:00+00:00",
-    "last_ts": "2026-05-15T04:19:00+00:00",
-    "span_hours": 15.7,
+    "first_ts": "2026-05-17T13:35:00+00:00",
+    "last_ts": "2026-05-18T04:44:00+00:00",
+    "span_hours": 15.15,
     "by_mode": {
-      "work-start": 3
+      "first-command": 3
     },
     "runs": [
       {
-        "ts_iso": "2026-05-14T12:37:00+00:00",
+        "ts_iso": "2026-05-17T13:35:00+00:00",
         "ok": true,
-        "mode": "work-start",
+        "mode": "first-command",
         "kv": {
           "cursor_model": "unknown",
           "model_tier": "unknown"
         }
       },
       {
-        "ts_iso": "2026-05-14T23:24:00+00:00",
+        "ts_iso": "2026-05-17T18:35:00+00:00",
         "ok": true,
-        "mode": "work-start",
+        "mode": "first-command",
         "kv": {
           "cursor_model": "unknown",
           "model_tier": "unknown"
         }
       },
       {
-        "ts_iso": "2026-05-15T04:19:00+00:00",
+        "ts_iso": "2026-05-18T04:44:00+00:00",
         "ok": true,
-        "mode": "work-start",
+        "mode": "first-command",
         "kv": {
           "cursor_model": "unknown",
           "model_tier": "unknown"
         }
       }
     ],
-    "picks": [],
-    "by_picked": {}
+    "picks": [
+      {
+        "ts_iso": "2026-05-18T04:57:00+00:00",
+        "picked": "A",
+        "menu_label": "A",
+        "steward": "gate"
+      },
+      {
+        "ts_iso": "2026-05-18T05:03:00+00:00",
+        "picked": "conductor",
+        "menu_label": "conductor",
+        "conductor": "furtwangler"
+      }
+    ],
+    "by_picked": {
+      "A": 1,
+      "conductor": 1
+    }
   },
   "conductor_rollup_24h": {
-    "window_start_utc": "2026-05-14T06:07:41.618312+00:00",
-    "window_end_utc": "2026-05-15T06:07:41.618312+00:00",
+    "window_start_utc": "2026-05-17T06:06:07.658758+00:00",
+    "window_end_utc": "2026-05-18T06:06:07.658758+00:00",
     "window_hours": 24.0,
-    "pick_count": 0,
-    "outcome_count": 3,
-    "completed_passes": 3,
-    "orientation_only": 0,
+    "pick_count": 1,
+    "outcome_count": 0,
+    "completed_passes": 0,
+    "orientation_only": 1,
     "off_menu_refusals": 0,
-    "last_master": "kleiber",
-    "last_outcome": {
-      "ts_iso": "2026-05-15T01:48:00+00:00",
-      "kind": "outcome",
-      "conductor": "kleiber",
-      "verdict": "cognition-streams-probe-green",
-      "falsify": "If",
-      "notebook_ref": "scripts/cognition_streams_audit.py"
-    },
+    "last_master": "furtwangler",
+    "last_outcome": null,
     "by_conductor": {
-      "toscanini": {
-        "picks": 0,
-        "outcomes": 1,
-        "refusals": 0
-      },
-      "karajan": {
-        "picks": 0,
-        "outcomes": 1,
-        "refusals": 0
-      },
-      "kleiber": {
-        "picks": 0,
-        "outcomes": 1,
+      "furtwangler": {
+        "picks": 1,
+        "outcomes": 0,
         "refusals": 0
       }
     },
     "commits": [],
-    "falsifiers": [
-      "conductor-menu-added-after-task-already-complete",
-      "If",
-      "If"
-    ],
+    "falsifiers": [],
     "events": [
       {
-        "ts_iso": "2026-05-14T13:23:00+00:00",
-        "kind": "outcome",
-        "conductor": "toscanini",
-        "verdict": "sufficient-answer-stop",
-        "falsify": "conductor-menu-added-after-task-already-complete"
-      },
-      {
-        "ts_iso": "2026-05-14T23:50:00+00:00",
-        "kind": "outcome",
-        "conductor": "karajan",
-        "verdict": "worktree-arcs-ranked",
-        "falsify": "If",
-        "notebook_ref": "artifacts/review-packets/karajan-worktree-steward-review-2026-05-14.md"
-      },
-      {
-        "ts_iso": "2026-05-15T01:48:00+00:00",
-        "kind": "outcome",
-        "conductor": "kleiber",
-        "verdict": "cognition-streams-probe-green",
-        "falsify": "If",
-        "notebook_ref": "scripts/cognition_streams_audit.py"
+        "ts_iso": "2026-05-18T05:03:00+00:00",
+        "kind": "pick",
+        "conductor": "furtwangler",
+        "menu_label": "conductor"
       }
     ],
-    "echo": "kleiber carried the latest conductor line; last close: If; 3 closed pass(es)"
+    "echo": "furtwangler carried the latest conductor line"
   },
   "execution_paths": [
     {
@@ -182,64 +160,59 @@
   "capture_gap": {
     "last_evidence_date": "2026-05-05",
     "last_evidence_id": "ACT-0033",
-    "days_since_evidence": 10,
+    "days_since_evidence": 13,
     "last_merge_date": "2026-05-02",
-    "days_since_merge": 13,
+    "days_since_merge": 16,
     "pending_count": 3,
     "level": "notice",
-    "message": "Record hasn't grown in 10 days (last: ACT-0033, 2026-05-05)"
+    "message": "Record hasn't grown in 13 days (last: ACT-0033, 2026-05-05)"
   },
   "capability_shift": {
     "category": "model",
-    "sources_checked": 5,
+    "sources_checked": 6,
     "sources_total": 6,
-    "alert_count": 6,
+    "alert_count": 10,
     "review_count": 0,
     "monitor_count": 1,
     "variant_count": 0,
-    "fetch_errors": [
-      {
-        "name": "OpenAI",
-        "error": "HTTP Error 403: Forbidden"
-      }
-    ]
+    "fetch_errors": []
   },
   "frontier_source_hint": {
     "source_id": "the-innermost-loop",
     "source_name": "The Innermost Loop",
     "feed_url": "https://theinnermostloop.substack.com/feed",
     "source_mode": "live_lookup",
-    "fetched_at": "2026-05-15T06:07:45.913408+00:00",
+    "fetched_at": "2026-05-18T06:06:12.542441+00:00",
     "status": "ok",
-    "title": "Welcome to May 14, 2026",
-    "url": "https://theinnermostloop.substack.com/p/welcome-to-may-14-2026",
-    "published_at": "2026-05-14T19:26:04+00:00",
-    "guidance": "AI frontier watch: latest The Innermost Loop post is \"Welcome to May 14, 2026\" (2026-05-14T19:26:04+00:00); decide tomorrow whether it merits Coffee C source hygiene."
+    "title": "Welcome to May 17, 2026",
+    "url": "https://theinnermostloop.substack.com/p/welcome-to-may-17-2026",
+    "published_at": "2026-05-17T21:28:56+00:00",
+    "guidance": "AI frontier watch: latest The Innermost Loop post is \"Welcome to May 17, 2026\" (2026-05-17T21:28:56+00:00); decide tomorrow whether it merits Coffee C source hygiene."
   },
   "dream_catchup": {
     "semantics": "since_previous_dream",
     "timezone": "UTC",
     "previous_dream_generated_at": null,
     "local_calendar_dates": [
-      "2026-05-15"
+      "2026-05-18"
     ],
     "strategy_notebook_missing_day_headers": [
-      "2026-05-15"
+      "2026-05-18"
     ]
   },
   "last_coffee_echo": {
-    "timestamp": "2026-05-15T04:19:00+00:00",
-    "conductor": null,
-    "mode": "work-start",
-    "menu_letter": null,
-    "highlight": "Yesterday\u2019s work-start coffee is still the thread.",
+    "timestamp": "2026-05-18T04:44:00+00:00",
+    "conductor": "furtwangler",
+    "mode": "first-command",
+    "menu_letter": "conductor",
+    "highlight": "Yesterday\u2019s first-command coffee is still the thread. Menu pick: conductor. Conductor line: furtwangler.",
     "source": "coffee_rollup_24h"
   },
   "handoffSchemaVersion": 3,
   "topActionReason": "calendar_mod3",
   "quietRun": false,
   "residueLedger": {
-    "must_resume": "AI frontier watch: The Innermost Loop latest - Welcome to May 14, 2026 - consider Coffee C source hygiene if relevant to",
+    "must_resume": "AI frontier watch: The Innermost Loop latest - Welcome to May 17, 2026 - consider Coffee C source hygiene if relevant to",
     "safe_to_drop": "",
     "blocked": "",
     "watch_later": ""

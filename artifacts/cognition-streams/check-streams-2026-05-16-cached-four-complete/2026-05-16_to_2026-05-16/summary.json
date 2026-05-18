@@ -1,0 +1,61 @@
+{
+  "main_total": 36,
+  "captured_main": 21,
+  "overall_pct": 0.5833,
+  "recent_main_total": 9,
+  "recent_captured_main": 9,
+  "recent_pct": 1.0,
+  "must_capture_remaining": 0,
+  "benchmark": {
+    "overall_pct_min": 0.7,
+    "recent_pct_min": 0.9,
+    "must_capture_remaining_max": 0
+  },
+  "status": "below-threshold",
+  "per_date": {
+    "": {
+      "rows": 27,
+      "main_total": 27,
+      "captured_main": 12,
+      "coverage_pct": 0.4444,
+      "must_capture_remaining": 0
+    },
+    "2026-05-16": {
+      "rows": 24,
+      "main_total": 9,
+      "captured_main": 9,
+      "coverage_pct": 1.0,
+      "must_capture_remaining": 0
+    }
+  },
+  "per_channel": {
+    "alex-mercouris": {
+      "rows": 1,
+      "main_total": 1,
+      "captured_main": 1,
+      "coverage_pct": 1.0,
+      "must_capture_remaining": 0
+    },
+    "daniel-davis-deep-dive": {
+      "rows": 4,
+      "main_total": 4,
+      "captured_main": 4,
+      "coverage_pct": 1.0,
+      "must_capture_remaining": 0
+    },
+    "dialogue-works": {
+      "rows": 29,
+      "main_total": 29,
+      "captured_main": 14,
+      "coverage_pct": 0.4828,
+      "must_capture_remaining": 0
+    },
+    "glenn-diesen": {
+      "rows": 17,
+      "main_total": 2,
+      "captured_main": 2,
+      "coverage_pct": 1.0,
+      "must_capture_remaining": 0
+    }
+  }
+}

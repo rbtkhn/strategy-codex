@@ -1,0 +1,25 @@
+{
+  "check": "diesen-parsi-2026",
+  "must-capture": [],
+  "probably-capture": [],
+  "adjacent-non-diesen": [
+    {
+      "channel_key": "daniel-davis-deep-dive",
+      "youtube_id": "kR37V7PkhYo",
+      "title": "Trita Parsi: IRAN WILL CONTINUE TO ESCALATE",
+      "url": "https://www.youtube.com/watch?v=kR37V7PkhYo"
+    },
+    {
+      "channel_key": "daniel-davis-deep-dive",
+      "youtube_id": "tiN37-mwA0A",
+      "title": "IRAN MAKING IT PAINFUL FOR U.S. /Trita Parsi & Lt Col Daniel Davis",
+      "url": "https://www.youtube.com/watch?v=tiN37-mwA0A"
+    },
+    {
+      "channel_key": "dialogue-works",
+      "youtube_id": "R550ehVJYKw",
+      "title": "Amb. Chas Freeman & Trita Parsi: The Middle East You Knew Is Disappearing",
+      "url": "https://www.youtube.com/watch?v=R550ehVJYKw"
+    }
+  ]
+}

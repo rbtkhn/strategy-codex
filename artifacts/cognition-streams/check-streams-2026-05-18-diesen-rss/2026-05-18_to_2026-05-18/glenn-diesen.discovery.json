@@ -1,0 +1,25 @@
+{
+  "channel_key": "glenn-diesen",
+  "channel_name": "Glenn Diesen",
+  "source_used": "channel_feed_rss_fallback",
+  "window": {
+    "start": "2026-05-18",
+    "end": "2026-05-18"
+  },
+  "notes": [
+    "Standard cognition_streams_audit yt-dlp metadata path timed out after YouTube returned sign-in-to-confirm-you-are-not-a-bot errors.",
+    "Fallback discovery used the public YouTube channel RSS feed for UCZFCDIHTe9HGxtIuVDpBz7g."
+  ],
+  "items": [
+    {
+      "date": "2026-05-18",
+      "id": "7QUx7GjIOBo",
+      "youtube_id": "7QUx7GjIOBo",
+      "title": "Trita Parsi: Iran War Marks the End of American Primacy",
+      "url": "https://www.youtube.com/watch?v=7QUx7GjIOBo",
+      "published": "2026-05-18T15:00:10+00:00",
+      "updated": "2026-05-18T15:13:17+00:00",
+      "discovery_source": "channel_feed_rss_fallback"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "check": "mercouris-duran-parsi-2026",
+  "status": "local-evidence-complete",
+  "window": {
+    "start": "2026-01-01",
+    "end": "2026-05-18"
+  },
+  "stream": {
+    "primary_channel_key": "the-duran",
+    "related_channel_key": "alex-mercouris",
+    "thread": "mercouris",
+    "show": "The Duran / Mercouris",
+    "hosts": [
+      "Alex Christoforou",
+      "Alexander Mercouris"
+    ]
+  },
+  "query": "Trita Parsi",
+  "discovery_scope": [
+    "local raw-input search under codex/2026/raw-input/2026-*",
+    "existing cognition-stream artifact search",
+    "ytsearch queries for Mercouris / Duran / Trita Parsi",
+    "The Duran YouTube uploads title sweep for Parsi",
+    "Alexander Mercouris YouTube uploads title sweep for Parsi",
+    "web search for public podcast mirrors"
+  ],
+  "captured_mercouris_duran_parsi_main": 1,
+  "open_mercouris_duran_parsi_items": 0,
+  "captured_items": [
+    {
+      "date": "2026-05-06",
+      "youtube_id": "Pv7003ksQQ4",
+      "title": "US Superpower Myth Shattered w/ Trita Parsi",
+      "url": "https://www.youtube.com/watch?v=Pv7003ksQQ4",
+      "raw_capture_path": "codex/2026/raw-input/2026-05-06/transcript-duran-mercouris-trita-parsi-us-iran-blockade-diplomacy-2026-05-06.md",
+      "capture_status": "captured-main",
+      "local_title": "Mercouris and Trita Parsi on the US-Iran blockade, Hormuz, and diplomacy",
+      "notes": [
+        "Local transcript says Parsi was joining The Duran for the first time.",
+        "Podchaser and Apple Podcasts mirrors identify the episode as released Wednesday, 6 May 2026."
+      ]
+    }
+  ],
+  "negative_checks": [
+    "The Duran uploads title sweep for Parsi returned only Pv7003ksQQ4.",
+    "Alexander Mercouris uploads title sweep for Parsi returned no items.",
+    "Local filename search for Duran/Mercouris plus Parsi returned only the May 6 capture."
+  ],
+  "notes": [
+    "The target is complete for local evidence and current public title/channel surfaces.",
+    "Residual uncertainty remains for deleted, unlisted, renamed, or guest-unnamed videos that do not contain Parsi in searchable metadata."
+  ]
+}

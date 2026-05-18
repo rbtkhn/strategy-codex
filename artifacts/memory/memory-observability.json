@@ -6,12 +6,12 @@
     "bridge event JSONL",
     "coffee/dream integration"
   ],
-  "generated_at": "2026-05-15T06:07:47.918915+00:00",
+  "generated_at": "2026-05-18T06:06:13.099726+00:00",
   "overall_status": "ok",
   "recommended_next_action": "No urgent continuity action; keep using coffee for orientation and bridge at session boundaries.",
   "surfaces": {
     "bridge_state": {
-      "age_hours": 313.58,
+      "age_hours": 385.55,
       "detail": "bridge state present",
       "name": "bridge state",
       "observed_at": "2026-05-02T04:33:00+00:00",
@@ -19,10 +19,10 @@
       "status": "ok"
     },
     "cadence": {
-      "age_hours": 0.01,
-      "detail": "28 event(s) found for strategy-codex",
+      "age_hours": 0.0,
+      "detail": "60 event(s) found for strategy-codex",
       "name": "cadence events",
-      "observed_at": "2026-05-15T06:07:00+00:00",
+      "observed_at": "2026-05-18T06:06:00+00:00",
       "path": "docs/skill-work/work-cadence/work-cadence-events.md",
       "status": "ok"
     },
@@ -30,7 +30,7 @@
       "age_hours": 0.0,
       "detail": "ok=True",
       "name": "last dream",
-      "observed_at": "2026-05-15T06:07:46.184821+00:00",
+      "observed_at": "2026-05-18T06:06:12.744873+00:00",
       "path": "last-dream.json",
       "status": "ok"
     },
@@ -38,7 +38,7 @@
       "age_hours": 0.0,
       "detail": "night handoff present",
       "name": "night handoff",
-      "observed_at": "2026-05-15T06:07:46.952395+00:00",
+      "observed_at": "2026-05-18T06:06:12.945139+00:00",
       "path": "daily-handoff/night-handoff.json",
       "status": "ok"
     }

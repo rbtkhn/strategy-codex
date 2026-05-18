@@ -1,0 +1,37 @@
+{
+  "main_total": 1,
+  "captured_main": 1,
+  "overall_pct": 1.0,
+  "recent_main_total": 1,
+  "recent_captured_main": 1,
+  "recent_pct": 1.0,
+  "must_capture_remaining": 0,
+  "benchmark": {
+    "overall_pct_min": 0.7,
+    "recent_pct_min": 0.9,
+    "must_capture_remaining_max": 0
+  },
+  "status": "complete",
+  "per_date": {
+    "2026-05-18": {
+      "rows": 1,
+      "main_total": 1,
+      "captured_main": 1,
+      "coverage_pct": 1.0,
+      "must_capture_remaining": 0
+    }
+  },
+  "per_channel": {
+    "glenn-diesen": {
+      "rows": 1,
+      "main_total": 1,
+      "captured_main": 1,
+      "coverage_pct": 1.0,
+      "must_capture_remaining": 0
+    }
+  },
+  "notes": [
+    "Fallback RSS receipt: standard yt-dlp metadata path was blocked by YouTube bot checks and timed out.",
+    "Local raw-input now captures video_id 7QUx7GjIOBo at codex/2026/raw-input/2026-05-18/youtube-glenn-diesen-trita-parsi-iran-war-marks-the-end-of-american-primacy-2026-05-18.md."
+  ]
+}
