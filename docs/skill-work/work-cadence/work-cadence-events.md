@@ -589,3 +589,4 @@ _(Append below this line.)_
 - **2026-05-18 15:06 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=A steward=git
 - **2026-05-18 19:00 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
 - **2026-05-18 19:01 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=C
+- **2026-05-18 23:18 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown

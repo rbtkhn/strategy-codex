@@ -243,7 +243,7 @@ def _compute_option_weights(
         "C": {"cost": "light", "note": "Strategist - intel / bookshelf quiz / notebook"},
         "D": {
             "cost": "moderate",
-            "note": "Capitalist — work-business / grace-gems / bookshelf product use / commercial cici",
+            "note": "Singularity - academy-singularity / agency under acceleration",
         },
     }
 
@@ -380,7 +380,7 @@ def format_annotated_menu(result: dict) -> str:
         "A": "Steward",
         "B": "Engineer",
         "C": "Strategist",
-        "D": "Capitalist",
+        "D": "Singularity",
     }
 
     lines = []

@@ -245,13 +245,13 @@ def main() -> int:
     try:
         from coffee_lane_next_hints import format_lane_next_hints
         if show_details:
-            print(f"\n{'=' * 60}\n$ Lane context (for hub B / D - Engineer & Capitalist hints)\n{'=' * 60}\n", flush=True)
+            print(f"\n{'=' * 60}\n$ Lane context (for hub B / D - Engineer & Singularity hints)\n{'=' * 60}\n", flush=True)
             print(format_lane_next_hints(_REPO))
     except Exception:
         try:
             from scripts.coffee_lane_next_hints import format_lane_next_hints
             if show_details:
-                print(f"\n{'=' * 60}\n$ Lane context (for hub B / D - Engineer & Capitalist hints)\n{'=' * 60}\n", flush=True)
+                print(f"\n{'=' * 60}\n$ Lane context (for hub B / D - Engineer & Singularity hints)\n{'=' * 60}\n", flush=True)
                 print(format_lane_next_hints(_REPO))
         except Exception:
             pass

@@ -12,7 +12,7 @@
 
 | Role | Description |
 |------|-------------|
-| **Cadence architecture** | Defines work-start vs signing-off **Step 1** weight, **one** fixed **`coffee` hub** (**A-D**: Steward, Engineer, Strategist, Capitalist), **standalone name-only Conductor** sessions, re-entry behavior, and cadence modifiers. |
+| **Cadence architecture** | Defines work-start vs signing-off **Step 1** weight, **one** fixed **`coffee` hub** (**A-D**: Steward, Engineer, Strategist, Singularity), **standalone name-only Conductor** sessions, re-entry behavior, and cadence modifiers. |
 | **Operator activation** | Holds the rationale for why the `coffee` ritual exists: activation, rhythm, state shift, and workflow dopamine replacement. |
 | **Boundary surface** | Explains what belongs in WORK-only docs/history versus what must escalate to `RECURSION-GATE` or change review. |
 | **Session trail guidance** | Clarifies how `session-transcript`, `work-*-history.md`, and `self-memory` relate without collapsing into one another. |
@@ -120,7 +120,7 @@ In scope:
 
 - operator cadence design
 - activation rituals
-- work-start / signing-off (merged into one fixed coffee flow; Rome / Jiang / notebook synthesis and self-knowledge bookshelf quiz land under **C - Strategist**; skill-write / commercial slices land under **D - Capitalist**; Conductor is standalone by name; fold strategy-only into **C** per [coffee SKILL](../../../.cursor/skills/coffee/SKILL.md))
+- work-start / signing-off (merged into one fixed coffee flow; Rome / Jiang / notebook synthesis and self-knowledge bookshelf quiz land under **C - Strategist**; academy-singularity activation lands under **D - Singularity**; skill-write / commercial slices route by explicit request outside the coffee hub; Conductor is standalone by name; fold strategy-only into **C** per [coffee SKILL](../../../.cursor/skills/coffee/SKILL.md))
 - reorientation and multi-`coffee` behavior
 - survey/cadence workflow design
 - relationship between hub flow and territory execution
