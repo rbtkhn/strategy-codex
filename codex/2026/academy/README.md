@@ -23,6 +23,7 @@ Use [next-questions.md](next-questions.md) when the shelf is organized but the n
 ## Shelves
 
 - [military/](military/) - war studies, campaign reading, escalation, logistics, command responsibility, and interpretive writer lanes.
+- [ph-civ/](ph-civ/) - local mirror checkout of the public `rbtkhn/ph-civ` repo.
 - [politics/](politics/) - parties, elections, regimes, coalitions, legitimacy, public opinion, media power, and mass persuasion.
 - [statecraft/](statecraft/) - political order and strategy shelf; early placeholder awaiting canon/workshop/bridge maturity.
 - [singularity/](singularity/) - AI takeoff, alignment, agency, automation, cognitive infrastructure, and human meaning under acceleration.
@@ -36,6 +37,4 @@ Pressure may explain action, but it must not excuse it. Preserve both structure 
 
 ## Boundary
 
-Academy shelves organize study objects and conceptual routes. They do not replace speaker folders, raw-input provenance, Bookshelf catalog rows, host-local arcs, Predictive History, or Record surfaces.
-
-Predictive History / PH-CIV remains an external public project, not a local academy shelf. Route PH-CIV material into Academy through review packets, public ID citations, bounded excerpts, and source-discipline critique; see [predictive-history-external-boundary.md](../../../docs/predictive-history-external-boundary.md).
+Academy shelves organize study objects and conceptual routes. They do not replace speaker folders, raw-input provenance, Bookshelf catalog rows, host-local arcs, Predictive History source boundaries, or Record surfaces. `ph-civ/` is the exception: it is a mirror checkout of the public ph-civ repo, not an ordinary academy shelf.
