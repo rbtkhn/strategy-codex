@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "work_layer": true,
+  "generated_date": "2026-05-16",
+  "host": "davis",
+  "year": 2026,
+  "month": "2026-03",
+  "input_scope": "full-host-month",
+  "raw_input_count": 6,
+  "routeable_artifact_count": 6,
+  "total_word_mass": 69261,
+  "counts": {
+    "transcript-grade": 1,
+    "cleaned-transcript": 0,
+    "transcript-bearing": 0,
+    "summary-grade": 0,
+    "legacy-appearance-only": 5
+  },
+  "transcript-grade": 1,
+  "cleaned-transcript": 0,
+  "transcript-bearing": 0,
+  "summary-grade": 0,
+  "legacy-only": 5,
+  "legacy-appearance-only": 5,
+  "transcript_valid_count": 1,
+  "transcript_valid_percent": 16.7,
+  "residual_noise_artifact_count": 1,
+  "unresolved_speaker_count": 0,
+  "unresolved_speakers": [],
+  "artifacts": [
+    {
+      "raw_input_path": "codex/2026/raw-input/2026-03-06/youtube-daniel-davis-deep-dive-diplomacy-is-dead-w-iran-lt-col-daniel-davis-fmr-amb-chas-freeman-2026-03-06.md",
+      "pub_date": "2026-03-06",
+      "title": "Diplomacy is DEAD w/IRAN /Lt Col Daniel Davis & fmr Amb Chas Freeman",
+      "evidence_grade": "legacy-appearance-only",
+      "normalization_state": "",
+      "quality_note": "Automated YouTube transcript fetch for Daniel Davis Deep Dive.",
+      "residual_noise_terms": [],
+      "residual_noise": false,
+      "word_count": 8061,
+      "routeable": true,
+      "unresolved": false
+    },
+    {
+      "raw_input_path": "codex/2026/raw-input/2026-03-06/youtube-daniel-davis-deep-dive-scott-ritter-lt-col-daniel-davis-iran-hitting-our-bases-like-no-enemy-be-2026-03-06.md",
+      "pub_date": "2026-03-06",
+      "title": "Scott Ritter & Lt Col Daniel Davis: IRAN HITTING OUR BASES LIKE NO ENEMY BEFORE",
+      "evidence_grade": "legacy-appearance-only",
+      "normalization_state": "",
+      "quality_note": "Automated YouTube transcript fetch for Daniel Davis Deep Dive.",
+      "residual_noise_terms": [
+        "Zalinski"
+      ],
+      "residual_noise": true,
+      "word_count": 16471,
+      "routeable": true,
+      "unresolved": false
+    },
+    {
+      "raw_input_path": "codex/2026/raw-input/2026-03-10/transcript-davis-pape-escalation-trap-2026-03-10.md",
+      "pub_date": "2026-03-10",
+      "title": "The Escalation Trap: Why Escalation Favors Iran",
+      "evidence_grade": "legacy-appearance-only",
+      "normalization_state": "",
+      "quality_note": "Operator-supplied cleaned transcript, full and unabridged.",
+      "residual_noise_terms": [],
+      "residual_noise": false,
+      "word_count": 10139,
+      "routeable": true,
+      "unresolved": false
+    },
+    {
+      "raw_input_path": "codex/2026/raw-input/2026-03-16/youtube-daniel-davis-deep-dive-scott-ritter-trump-is-dead-wrong-about-u-s-missiles-stockpiles-2026-03-16.md",
+      "pub_date": "2026-03-16",
+      "title": "Scott Ritter: TRUMP is DEAD WRONG About U.S. Missiles & Stockpiles",
+      "evidence_grade": "legacy-appearance-only",
+      "normalization_state": "",
+      "quality_note": "Automated YouTube transcript fetch for Daniel Davis Deep Dive.",
+      "residual_noise_terms": [],
+      "residual_noise": false,
+      "word_count": 12169,
+      "routeable": true,
+      "unresolved": false
+    },
+    {
+      "raw_input_path": "codex/2026/raw-input/2026-03-26/youtube-daniel-davis-deep-dive-joe-kent-the-truth-of-the-iran-war-2026-03-26.md",
+      "pub_date": "2026-03-26",
+      "title": "Joe Kent: The Truth of the Iran War",
+      "evidence_grade": "transcript-grade",
+      "normalization_state": "",
+      "quality_note": "Atomic materialization verified a non-stub subtitle body before success was reported.",
+      "residual_noise_terms": [],
+      "residual_noise": false,
+      "word_count": 10741,
+      "routeable": true,
+      "unresolved": false
+    },
+    {
+      "raw_input_path": "codex/2026/raw-input/2026-03-31/youtube-daniel-davis-deep-dive-scott-ritter-no-war-plan-in-iran-we-re-making-it-up-as-we-go-along-2026-03-31.md",
+      "pub_date": "2026-03-31",
+      "title": "Scott Ritter: NO WAR PLAN in IRAN  We're Making It Up as we Go Along",
+      "evidence_grade": "legacy-appearance-only",
+      "normalization_state": "",
+      "quality_note": "Automated YouTube transcript fetch for Daniel Davis Deep Dive.",
+      "residual_noise_terms": [],
+      "residual_noise": false,
+      "word_count": 11680,
+      "routeable": true,
+      "unresolved": false
+    }
+  ],
+  "deltas": {
+    "routeable_artifact_count": 6,
+    "total_word_mass": 69261,
+    "transcript_valid_count": 1,
+    "transcript_valid_percent_points": 16.7,
+    "counts": {
+      "transcript-grade": 1,
+      "cleaned-transcript": 0,
+      "transcript-bearing": 0,
+      "summary-grade": 0,
+      "legacy-appearance-only": 5
+    }
+  },
+  "warnings": [],
+  "git_state": {
+    "scoped_paths": [
+      "codex/2026/raw-input/2026-03-06/youtube-daniel-davis-deep-dive-diplomacy-is-dead-w-iran-lt-col-daniel-davis-fmr-amb-chas-freeman-2026-03-06.md",
+      "codex/2026/raw-input/2026-03-06/youtube-daniel-davis-deep-dive-scott-ritter-lt-col-daniel-davis-iran-hitting-our-bases-like-no-enemy-be-2026-03-06.md",
+      "codex/2026/raw-input/2026-03-10/transcript-davis-pape-escalation-trap-2026-03-10.md",
+      "codex/2026/raw-input/2026-03-16/youtube-daniel-davis-deep-dive-scott-ritter-trump-is-dead-wrong-about-u-s-missiles-stockpiles-2026-03-16.md",
+      "codex/2026/raw-input/2026-03-26/youtube-daniel-davis-deep-dive-joe-kent-the-truth-of-the-iran-war-2026-03-26.md",
+      "codex/2026/raw-input/2026-03-31/youtube-daniel-davis-deep-dive-scott-ritter-no-war-plan-in-iran-we-re-making-it-up-as-we-go-along-2026-03-31.md",
+      "artifacts/host-shelf-quality/2026/davis/2026-03/quality-summary.json",
+      "artifacts/host-shelf-quality/2026/davis/2026-03/quality-summary.md"
+    ],
+    "on_disk": true,
+    "verified": true,
+    "committed": false,
+    "pushed": false,
+    "dirty_paths": [
+      "?? artifacts/host-shelf-quality/2026/davis/2026-03/quality-summary.json",
+      "?? artifacts/host-shelf-quality/2026/davis/2026-03/quality-summary.md",
+      "?? codex/2026/raw-input/2026-03-26/youtube-daniel-davis-deep-dive-joe-kent-the-truth-of-the-iran-war-2026-03-26.md"
+    ],
+    "dirty_path_count": 3,
+    "upstream": "origin/main",
+    "ahead_count": 0,
+    "label": "on-disk/verified/not-committed/not-pushed"
+  },
+  "closeout_line": "Structure: +6 routeable | Purity: +1 transcript-valid / 16.7% (+16.7pp) | Unresolved: 0 | Git: on-disk/verified/not-committed/not-pushed"
+}

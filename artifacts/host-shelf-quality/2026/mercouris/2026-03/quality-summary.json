@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "work_layer": true,
+  "generated_date": "2026-05-17",
+  "host": "mercouris",
+  "year": 2026,
+  "month": "2026-03",
+  "input_scope": "full-host-month",
+  "raw_input_count": 1,
+  "routeable_artifact_count": 0,
+  "total_word_mass": 8649,
+  "counts": {
+    "transcript-grade": 0,
+    "cleaned-transcript": 0,
+    "transcript-bearing": 1,
+    "summary-grade": 0,
+    "legacy-appearance-only": 0
+  },
+  "transcript-grade": 0,
+  "cleaned-transcript": 0,
+  "transcript-bearing": 1,
+  "summary-grade": 0,
+  "legacy-only": 0,
+  "legacy-appearance-only": 0,
+  "transcript_valid_count": 1,
+  "transcript_valid_percent": 100.0,
+  "residual_noise_artifact_count": 1,
+  "unresolved_speaker_count": 1,
+  "unresolved_speakers": [
+    {
+      "raw_input_path": "codex/2026/raw-input/2026-03-01/youtube-alex-mercouris-iran-defiant-after-khamenei-death-picks-new-leaders-closes-hormuz-contin-2026-03-01.md",
+      "pub_date": "2026-03-01",
+      "title": "Iran Defiant After Khamenei Death; Picks New Leaders Closes Hormuz Continues Strikes; Russia Backing",
+      "source_url": "https://www.youtube.com/watch?v=kUy3soYsmKY",
+      "host": "Alexander Mercouris",
+      "show": "Alexander Mercouris",
+      "guest": "",
+      "thread": "mercouris",
+      "appearance": {
+        "appearance_id": "ap-0075146c2599",
+        "speaker": "",
+        "speaker_slug": "",
+        "guest": "",
+        "host": "Alexander Mercouris",
+        "host_slug": "mercouris",
+        "show": "Alexander Mercouris",
+        "thread": "mercouris",
+        "pub_date": "2026-03-01",
+        "title": "Iran Defiant After Khamenei Death; Picks New Leaders Closes Hormuz Continues Strikes; Russia Backing",
+        "source_url": "https://www.youtube.com/watch?v=kUy3soYsmKY",
+        "youtube_id": "kUy3soYsmKY",
+        "raw_input_path": "codex/2026/raw-input/2026-03-01/youtube-alex-mercouris-iran-defiant-after-khamenei-death-picks-new-leaders-closes-hormuz-contin-2026-03-01.md",
+        "speaker_resolution": "",
+        "guest_inference": ""
+      },
+      "evidence_grade": "transcript-bearing",
+      "reason": "Guest metadata is absent or ambiguous, so no speaker appearance was emitted."
+    }
+  ],
+  "artifacts": [
+    {
+      "raw_input_path": "codex/2026/raw-input/2026-03-01/youtube-alex-mercouris-iran-defiant-after-khamenei-death-picks-new-leaders-closes-hormuz-contin-2026-03-01.md",
+      "pub_date": "2026-03-01",
+      "title": "Iran Defiant After Khamenei Death; Picks New Leaders Closes Hormuz Continues Strikes; Russia Backing",
+      "evidence_grade": "transcript-bearing",
+      "normalization_state": "",
+      "quality_note": "Operator-pasted transcript body; not independently verified as verbatim.",
+      "residual_noise_terms": [
+        "Zalinski",
+        "Zilinski"
+      ],
+      "residual_noise": true,
+      "word_count": 8649,
+      "routeable": false,
+      "unresolved": true
+    }
+  ],
+  "deltas": {
+    "routeable_artifact_count": 0,
+    "total_word_mass": 0,
+    "transcript_valid_count": 0,
+    "transcript_valid_percent_points": 0.0,
+    "counts": {
+      "transcript-grade": 0,
+      "cleaned-transcript": 0,
+      "transcript-bearing": 0,
+      "summary-grade": 0,
+      "legacy-appearance-only": 0
+    }
+  },
+  "warnings": [],
+  "git_state": {
+    "scoped_paths": [
+      "codex/2026/raw-input/2026-03-01/youtube-alex-mercouris-iran-defiant-after-khamenei-death-picks-new-leaders-closes-hormuz-contin-2026-03-01.md",
+      "artifacts/host-shelf-quality/2026/mercouris/2026-03/quality-summary.json",
+      "artifacts/host-shelf-quality/2026/mercouris/2026-03/quality-summary.md"
+    ],
+    "on_disk": true,
+    "verified": true,
+    "committed": false,
+    "pushed": false,
+    "dirty_paths": [
+      " M codex/2026/raw-input/2026-03-01/youtube-alex-mercouris-iran-defiant-after-khamenei-death-picks-new-leaders-closes-hormuz-contin-2026-03-01.md",
+      "?? artifacts/host-shelf-quality/2026/mercouris/2026-03/quality-summary.json",
+      "?? artifacts/host-shelf-quality/2026/mercouris/2026-03/quality-summary.md"
+    ],
+    "dirty_path_count": 3,
+    "upstream": "origin/main",
+    "ahead_count": 0,
+    "label": "on-disk/verified/not-committed/not-pushed"
+  },
+  "closeout_line": "Structure: +0 routeable | Purity: +0 transcript-valid / 100.0% (+0.0pp) | Unresolved: 1 | Git: on-disk/verified/not-committed/not-pushed"
+}

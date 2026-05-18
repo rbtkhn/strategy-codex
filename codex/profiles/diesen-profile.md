@@ -127,7 +127,7 @@ User-supplied Glenn Diesen / John Mearsheimer episode URLs added outside the pag
 
 ## Sachs ledger
 
-User-supplied Glenn Diesen / Jeffrey Sachs episode URLs added outside the page mirror. Every row in this batch is currently marked `needs capture`; keep them visible here until mirrored into `raw-input/`.
+User-supplied Glenn Diesen / Jeffrey Sachs episode URLs added outside the page mirror. Rows marked `mirrored` already have a matching `raw-input/` capture; rows marked `needs capture` should stay visible here until mirrored.
 
 <!-- diesen-ledger:sachs:start -->
 
@@ -146,7 +146,7 @@ User-supplied Glenn Diesen / Jeffrey Sachs episode URLs added outside the page m
 | 2026-01-28 | Jeffrey Sachs: U.S. War on Iran - "An Attack Is Imminent" | [https://www.youtube.com/watch?v=sYAW_XvvreU](https://www.youtube.com/watch?v=sYAW_XvvreU) | needs capture |
 | 2026-02-12 | Jeffrey Sachs: U.S. Economic Coercion & the Death of the Dollar | [https://www.youtube.com/watch?v=ls3ynNpMMPk](https://www.youtube.com/watch?v=ls3ynNpMMPk) | needs capture |
 | 2026-02-24 | Jeffrey Sachs: Four Years of War in Ukraine - Hegemony or Peace? | [https://www.youtube.com/watch?v=h7WmEAu87WE](https://www.youtube.com/watch?v=h7WmEAu87WE) | needs capture |
-| 2026-02-28 | Jeffrey Sachs: US & Israel Attack Iran - War Is Spreading Across the Region | [https://www.youtube.com/watch?v=nPo8lxyjkCY](https://www.youtube.com/watch?v=nPo8lxyjkCY) | needs capture |
+| 2026-02-28 | Jeffrey Sachs: US & Israel Attack Iran - War Is Spreading Across the Region | [https://www.youtube.com/watch?v=nPo8lxyjkCY](https://www.youtube.com/watch?v=nPo8lxyjkCY) | mirrored |
 | 2026-03-08 | Jeffrey Sachs: We Are Now in the Early Days of World War III | [https://www.youtube.com/watch?v=DeRETBWnNWA](https://www.youtube.com/watch?v=DeRETBWnNWA) | needs capture |
 | 2026-03-20 | The Real Reason There’s No Peace According to Jeffrey Sachs | [https://www.youtube.com/watch?v=gmtJZvmOOes](https://www.youtube.com/watch?v=gmtJZvmOOes) | needs capture |
 | 2026-03-25 | Jeffrey Sachs: Iran is the Graveyard of American Hegemony | [https://www.youtube.com/watch?v=OcqIEJEk4MY](https://www.youtube.com/watch?v=OcqIEJEk4MY) | needs capture |

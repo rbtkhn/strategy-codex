@@ -1,30 +1,30 @@
 {
   "schema_version": 1,
   "work_layer": true,
-  "generated_date": "2026-05-15",
+  "generated_date": "2026-05-16",
   "host": "davis",
   "year": 2026,
   "month": "2026-05",
   "input_scope": "full-host-month",
-  "raw_input_count": 15,
-  "routeable_artifact_count": 13,
-  "total_word_mass": 87760,
+  "raw_input_count": 19,
+  "routeable_artifact_count": 17,
+  "total_word_mass": 111828,
   "counts": {
-    "transcript-grade": 0,
+    "transcript-grade": 1,
     "cleaned-transcript": 5,
-    "transcript-bearing": 5,
+    "transcript-bearing": 8,
     "summary-grade": 0,
     "legacy-appearance-only": 5
   },
-  "transcript-grade": 0,
+  "transcript-grade": 1,
   "cleaned-transcript": 5,
-  "transcript-bearing": 5,
+  "transcript-bearing": 8,
   "summary-grade": 0,
   "legacy-only": 5,
   "legacy-appearance-only": 5,
-  "transcript_valid_count": 10,
-  "transcript_valid_percent": 66.7,
-  "residual_noise_artifact_count": 4,
+  "transcript_valid_count": 14,
+  "transcript_valid_percent": 73.7,
+  "residual_noise_artifact_count": 5,
   "unresolved_speaker_count": 2,
   "unresolved_speakers": [
     {
@@ -183,6 +183,19 @@
       "unresolved": false
     },
     {
+      "raw_input_path": "codex/2026/raw-input/2026-05-08/youtube-daniel-davis-deep-dive-controlled-by-the-donor-class-us-iran-negotiations-joe-kent-lt-col-danie-2026-05-08.md",
+      "pub_date": "2026-05-08",
+      "title": "CONTROLLED BY THE DONOR CLASS: US Iran Negotiations /Joe Kent & Lt Col Daniel Davis",
+      "evidence_grade": "transcript-grade",
+      "normalization_state": "",
+      "quality_note": "Atomic materialization verified a non-stub subtitle body before success was reported.",
+      "residual_noise_terms": [],
+      "residual_noise": false,
+      "word_count": 3157,
+      "routeable": true,
+      "unresolved": false
+    },
+    {
       "raw_input_path": "codex/2026/raw-input/2026-05-09/youtube-daniel-davis-iran-response-proposal-walk-away-theory-2026-05-09.md",
       "pub_date": "2026-05-09",
       "title": "Iran Response, Walk-Away Theory, and the Cost of Escalation",
@@ -291,15 +304,56 @@
       "word_count": 12186,
       "routeable": true,
       "unresolved": false
+    },
+    {
+      "raw_input_path": "codex/2026/raw-input/2026-05-15/youtube-daniel-davis-deep-dive-bombs-will-not-end-iran-war-mit-professsor-ted-postol-2026-05-15.md",
+      "pub_date": "2026-05-15",
+      "title": "Bombs Will Not End Iran War MIT Professsor Ted Postol",
+      "evidence_grade": "transcript-bearing",
+      "normalization_state": "",
+      "quality_note": "Operator-pasted YouTube transcript after automated subtitle fetch was rate-limited/blocked; transcript-bearing but not human-verified verbatim.",
+      "residual_noise_terms": [],
+      "residual_noise": false,
+      "word_count": 7461,
+      "routeable": true,
+      "unresolved": false
+    },
+    {
+      "raw_input_path": "codex/2026/raw-input/2026-05-15/youtube-daniel-davis-deep-dive-iran-war-walk-away-the-only-way-lt-col-daniel-davis-2026-05-15.md",
+      "pub_date": "2026-05-15",
+      "title": "IRAN WAR WALK AWAY: The Only Way /Lt Col Daniel Davis",
+      "evidence_grade": "transcript-bearing",
+      "normalization_state": "",
+      "quality_note": "Operator-pasted YouTube transcript after automated subtitle fetch was rate-limited/blocked; transcript-bearing but not human-verified verbatim.",
+      "residual_noise_terms": [],
+      "residual_noise": false,
+      "word_count": 7748,
+      "routeable": true,
+      "unresolved": false
+    },
+    {
+      "raw_input_path": "codex/2026/raw-input/2026-05-15/youtube-daniel-davis-deep-dive-russia-west-confrontation-fast-approaching-dmitry-polyanskiy-2026-05-15.md",
+      "pub_date": "2026-05-15",
+      "title": "Russia-West Confrontation Fast Approaching /Dmitry Polyanskiy",
+      "evidence_grade": "transcript-bearing",
+      "normalization_state": "",
+      "quality_note": "Operator-pasted YouTube transcript after automated subtitle fetch was rate-limited/blocked; transcript-bearing but not human-verified verbatim.",
+      "residual_noise_terms": [
+        "Zilinski"
+      ],
+      "residual_noise": true,
+      "word_count": 5702,
+      "routeable": true,
+      "unresolved": false
     }
   ],
   "deltas": {
-    "routeable_artifact_count": 0,
-    "total_word_mass": 0,
-    "transcript_valid_count": 0,
-    "transcript_valid_percent_points": 0.0,
+    "routeable_artifact_count": 1,
+    "total_word_mass": 3157,
+    "transcript_valid_count": 1,
+    "transcript_valid_percent_points": 1.5,
     "counts": {
-      "transcript-grade": 0,
+      "transcript-grade": 1,
       "cleaned-transcript": 0,
       "transcript-bearing": 0,
       "summary-grade": 0,
@@ -316,6 +370,7 @@
       "codex/2026/raw-input/2026-05-06/youtube-daniel-davis-deep-dive-scott-ritter-we-ve-not-impacted-iran-as-we-re-being-told-2026-05-06.md",
       "codex/2026/raw-input/2026-05-07/davis-marandi-too-late-for-ground-attack-in-iran-2026-05-07.md",
       "codex/2026/raw-input/2026-05-08/transcript-davis-kent-hormuz-blockade-walkaway-2026-05-08.md",
+      "codex/2026/raw-input/2026-05-08/youtube-daniel-davis-deep-dive-controlled-by-the-donor-class-us-iran-negotiations-joe-kent-lt-col-danie-2026-05-08.md",
       "codex/2026/raw-input/2026-05-09/youtube-daniel-davis-iran-response-proposal-walk-away-theory-2026-05-09.md",
       "codex/2026/raw-input/2026-05-10/youtube-daniel-davis-deep-dive-iran-intimidation-has-failed-professor-seyed-marandi-2026-05-10.md",
       "codex/2026/raw-input/2026-05-12/youtube-daniel-davis-deep-dive-col-doug-macgregor-trump-visits-china-2026-05-12.md",
@@ -324,6 +379,9 @@
       "codex/2026/raw-input/2026-05-13/youtube-daniel-davis-deep-dive-prof-john-mearsheimer-trump-will-be-forced-to-cut-a-deal-w-iran-2026-05-13.md",
       "codex/2026/raw-input/2026-05-13/youtube-daniel-davis-deep-dive-prof-mearsheimer-shock-analysis-russia-considers-nuclear-escalation-v-eu-2026-05-13.md",
       "codex/2026/raw-input/2026-05-14/youtube-daniel-davis-deep-dive-scott-ritter-russia-retaliation-on-europe-no-longer-in-doubt-2026-05-14.md",
+      "codex/2026/raw-input/2026-05-15/youtube-daniel-davis-deep-dive-bombs-will-not-end-iran-war-mit-professsor-ted-postol-2026-05-15.md",
+      "codex/2026/raw-input/2026-05-15/youtube-daniel-davis-deep-dive-iran-war-walk-away-the-only-way-lt-col-daniel-davis-2026-05-15.md",
+      "codex/2026/raw-input/2026-05-15/youtube-daniel-davis-deep-dive-russia-west-confrontation-fast-approaching-dmitry-polyanskiy-2026-05-15.md",
       "artifacts/host-shelf-quality/2026/davis/2026-05/quality-summary.json",
       "artifacts/host-shelf-quality/2026/davis/2026-05/quality-summary.md"
     ],
@@ -332,20 +390,17 @@
     "committed": false,
     "pushed": false,
     "dirty_paths": [
-      " M codex/2026/raw-input/2026-05-05/transcript-davis-adams-famine-food-chain-2026-05-05.md",
-      "?? artifacts/host-shelf-quality/2026/davis/2026-05/quality-summary.json",
-      "?? artifacts/host-shelf-quality/2026/davis/2026-05/quality-summary.md",
-      "?? codex/2026/raw-input/2026-05-06/youtube-daniel-davis-deep-dive-scott-ritter-we-ve-not-impacted-iran-as-we-re-being-told-2026-05-06.md",
-      "?? codex/2026/raw-input/2026-05-10/youtube-daniel-davis-deep-dive-iran-intimidation-has-failed-professor-seyed-marandi-2026-05-10.md",
-      "?? codex/2026/raw-input/2026-05-12/youtube-daniel-davis-deep-dive-col-doug-macgregor-trump-visits-china-2026-05-12.md",
-      "?? codex/2026/raw-input/2026-05-12/youtube-daniel-davis-deep-dive-iran-s-power-is-a-fact-not-a-debate-lt-col-daniel-davis-2026-05-12.md",
-      "?? codex/2026/raw-input/2026-05-12/youtube-daniel-davis-deep-dive-iran-war-plans-on-the-table-robert-barnes-and-lt-col-daniel-davis-2026-05-12.md",
-      "?? codex/2026/raw-input/2026-05-14/youtube-daniel-davis-deep-dive-scott-ritter-russia-retaliation-on-europe-no-longer-in-doubt-2026-05-14.md"
+      " M artifacts/host-shelf-quality/2026/davis/2026-05/quality-summary.json",
+      " M artifacts/host-shelf-quality/2026/davis/2026-05/quality-summary.md",
+      "?? codex/2026/raw-input/2026-05-08/youtube-daniel-davis-deep-dive-controlled-by-the-donor-class-us-iran-negotiations-joe-kent-lt-col-danie-2026-05-08.md",
+      "?? codex/2026/raw-input/2026-05-15/youtube-daniel-davis-deep-dive-bombs-will-not-end-iran-war-mit-professsor-ted-postol-2026-05-15.md",
+      "?? codex/2026/raw-input/2026-05-15/youtube-daniel-davis-deep-dive-iran-war-walk-away-the-only-way-lt-col-daniel-davis-2026-05-15.md",
+      "?? codex/2026/raw-input/2026-05-15/youtube-daniel-davis-deep-dive-russia-west-confrontation-fast-approaching-dmitry-polyanskiy-2026-05-15.md"
     ],
-    "dirty_path_count": 9,
+    "dirty_path_count": 6,
     "upstream": "origin/main",
     "ahead_count": 0,
     "label": "on-disk/verified/not-committed/not-pushed"
   },
-  "closeout_line": "Structure: +0 routeable | Purity: +0 transcript-valid / 66.7% (+0.0pp) | Unresolved: 2 | Git: on-disk/verified/not-committed/not-pushed"
+  "closeout_line": "Structure: +1 routeable | Purity: +1 transcript-valid / 73.7% (+1.5pp) | Unresolved: 2 | Git: on-disk/verified/not-committed/not-pushed"
 }

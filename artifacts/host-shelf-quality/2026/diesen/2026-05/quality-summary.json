@@ -1,29 +1,29 @@
 {
   "schema_version": 1,
   "work_layer": true,
-  "generated_date": "2026-05-15",
+  "generated_date": "2026-05-16",
   "host": "diesen",
   "year": 2026,
   "month": "2026-05",
   "input_scope": "full-host-month",
-  "raw_input_count": 17,
-  "routeable_artifact_count": 16,
-  "total_word_mass": 93356,
+  "raw_input_count": 19,
+  "routeable_artifact_count": 18,
+  "total_word_mass": 108102,
   "counts": {
     "transcript-grade": 0,
     "cleaned-transcript": 6,
-    "transcript-bearing": 3,
+    "transcript-bearing": 5,
     "summary-grade": 0,
     "legacy-appearance-only": 8
   },
   "transcript-grade": 0,
   "cleaned-transcript": 6,
-  "transcript-bearing": 3,
+  "transcript-bearing": 5,
   "summary-grade": 0,
   "legacy-only": 8,
   "legacy-appearance-only": 8,
-  "transcript_valid_count": 9,
-  "transcript_valid_percent": 52.9,
+  "transcript_valid_count": 11,
+  "transcript_valid_percent": 57.9,
   "residual_noise_artifact_count": 0,
   "unresolved_speaker_count": 1,
   "unresolved_speakers": [
@@ -278,6 +278,32 @@
       "word_count": 4816,
       "routeable": true,
       "unresolved": false
+    },
+    {
+      "raw_input_path": "codex/2026/raw-input/2026-05-15/youtube-glenn-diesen-lawrence-wilkerson-trump-xi-meeting-after-u-s-defeat-in-iran-2026-05-15.md",
+      "pub_date": "2026-05-15",
+      "title": "Lawrence Wilkerson: Trump-Xi Meeting After U.S. Defeat in Iran",
+      "evidence_grade": "transcript-bearing",
+      "normalization_state": "",
+      "quality_note": "Operator-pasted YouTube transcript after automated subtitle fetch was rate-limited/blocked; transcript-bearing but not human-verified verbatim.",
+      "residual_noise_terms": [],
+      "residual_noise": false,
+      "word_count": 8079,
+      "routeable": true,
+      "unresolved": false
+    },
+    {
+      "raw_input_path": "codex/2026/raw-input/2026-05-16/youtube-glenn-diesen-alexander-mercouris-the-political-legitimacy-crisis-across-europe-2026-05-16.md",
+      "pub_date": "2026-05-16",
+      "title": "Alexander Mercouris: The Political Legitimacy Crisis Across Europe",
+      "evidence_grade": "transcript-bearing",
+      "normalization_state": "",
+      "quality_note": "Operator-pasted YouTube transcript; transcript-bearing but not human-verified verbatim.",
+      "residual_noise_terms": [],
+      "residual_noise": false,
+      "word_count": 6667,
+      "routeable": true,
+      "unresolved": false
     }
   ],
   "deltas": {
@@ -313,6 +339,8 @@
       "codex/2026/raw-input/2026-05-12/youtube-glenn-diesen-chas-freeman-trump-goes-to-beijing-after-historic-defeat-in-iran-2026-05-12.md",
       "codex/2026/raw-input/2026-05-12/youtube-glenn-diesen-jeffrey-sachs-new-european-military-bloc-for-war-against-russia-2026-05-12.md",
       "codex/2026/raw-input/2026-05-14/youtube-glenn-diesen-george-beebe-europe-russia-war-as-the-u-s-pulls-back-2026-05-14.md",
+      "codex/2026/raw-input/2026-05-15/youtube-glenn-diesen-lawrence-wilkerson-trump-xi-meeting-after-u-s-defeat-in-iran-2026-05-15.md",
+      "codex/2026/raw-input/2026-05-16/youtube-glenn-diesen-alexander-mercouris-the-political-legitimacy-crisis-across-europe-2026-05-16.md",
       "artifacts/host-shelf-quality/2026/diesen/2026-05/quality-summary.json",
       "artifacts/host-shelf-quality/2026/diesen/2026-05/quality-summary.md"
     ],
@@ -321,22 +349,15 @@
     "committed": false,
     "pushed": false,
     "dirty_paths": [
-      " M codex/2026/raw-input/2026-05-07/transcript-diesen-krapivnik-nato-russia-escalation-nuclear-war-2026-05-07.md",
-      " M codex/2026/raw-input/2026-05-08/transcript-diesen-johnson-iran-war-creates-a-new-middle-east-2026-05-08.md",
-      " M codex/2026/raw-input/2026-05-10/youtube-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md",
-      "?? artifacts/host-shelf-quality/2026/diesen/2026-05/quality-summary.json",
-      "?? artifacts/host-shelf-quality/2026/diesen/2026-05/quality-summary.md",
-      "?? codex/2026/raw-input/2026-05-01/youtube-glenn-diesen-seyed-m-marandi-u-s-attack-on-iran-could-be-imminent-2026-05-01.md",
-      "?? codex/2026/raw-input/2026-05-09/youtube-glenn-diesen-seyed-m-marandi-iran-rejects-u-s-deal-war-is-likely-imminent-2026-05-09.md",
-      "?? codex/2026/raw-input/2026-05-11/transcript-diesen-jiang-world-war-three-empire-republic-2026-05-11.md",
-      "?? codex/2026/raw-input/2026-05-12/youtube-glenn-diesen-chas-freeman-trump-goes-to-beijing-after-historic-defeat-in-iran-2026-05-12.md",
-      "?? codex/2026/raw-input/2026-05-12/youtube-glenn-diesen-jeffrey-sachs-new-european-military-bloc-for-war-against-russia-2026-05-12.md",
-      "?? codex/2026/raw-input/2026-05-14/youtube-glenn-diesen-george-beebe-europe-russia-war-as-the-u-s-pulls-back-2026-05-14.md"
+      " M artifacts/host-shelf-quality/2026/diesen/2026-05/quality-summary.json",
+      " M artifacts/host-shelf-quality/2026/diesen/2026-05/quality-summary.md",
+      "?? codex/2026/raw-input/2026-05-15/youtube-glenn-diesen-lawrence-wilkerson-trump-xi-meeting-after-u-s-defeat-in-iran-2026-05-15.md",
+      "?? codex/2026/raw-input/2026-05-16/youtube-glenn-diesen-alexander-mercouris-the-political-legitimacy-crisis-across-europe-2026-05-16.md"
     ],
-    "dirty_path_count": 11,
+    "dirty_path_count": 4,
     "upstream": "origin/main",
     "ahead_count": 0,
     "label": "on-disk/verified/not-committed/not-pushed"
   },
-  "closeout_line": "Structure: +0 routeable | Purity: +0 transcript-valid / 52.9% (+0.0pp) | Unresolved: 1 | Git: on-disk/verified/not-committed/not-pushed"
+  "closeout_line": "Structure: +0 routeable | Purity: +0 transcript-valid / 57.9% (+0.0pp) | Unresolved: 1 | Git: on-disk/verified/not-committed/not-pushed"
 }

@@ -5,19 +5,19 @@ WORK only; not Record.
 - host: `diesen`
 - month: `2026-05`
 - input scope: `full-host-month`
-- routeable artifact count: `16` (+0)
-- total word mass: `93356` (+0)
-- transcript-valid percent: `52.9%` (+0.0pp)
+- routeable artifact count: `18` (+0)
+- total word mass: `108102` (+0)
+- transcript-valid percent: `57.9%` (+0.0pp)
 - residual-noise artifacts: `0`
 - unresolved speaker count: `1`
 - git: `on-disk/verified/not-committed/not-pushed`
-- closeout: Structure: +0 routeable | Purity: +0 transcript-valid / 52.9% (+0.0pp) | Unresolved: 1 | Git: on-disk/verified/not-committed/not-pushed
+- closeout: Structure: +0 routeable | Purity: +0 transcript-valid / 57.9% (+0.0pp) | Unresolved: 1 | Git: on-disk/verified/not-committed/not-pushed
 
 ## Grade Counts
 
 - `transcript-grade`: `0` (+0)
 - `cleaned-transcript`: `6` (+0)
-- `transcript-bearing`: `3` (+0)
+- `transcript-bearing`: `5` (+0)
 - `summary-grade`: `0` (+0)
 - `legacy-appearance-only`: `8` (+0)
 
@@ -54,3 +54,7 @@ WORK only; not Record.
 - `2026-05-12` `transcript-bearing` `4038` words (routeable) - `codex/2026/raw-input/2026-05-12/youtube-glenn-diesen-jeffrey-sachs-new-european-military-bloc-for-war-against-russia-2026-05-12.md`
   - note: Lightly deduped text from YouTube auto-captions extracted with yt_dlp (preferred en-orig, fallback en). Turn boundaries retained where captions marked a speaker change. Not human-verified verbatim.
 - `2026-05-14` `legacy-appearance-only` `4816` words (routeable) - `codex/2026/raw-input/2026-05-14/youtube-glenn-diesen-george-beebe-europe-russia-war-as-the-u-s-pulls-back-2026-05-14.md`
+- `2026-05-15` `transcript-bearing` `8079` words (routeable) - `codex/2026/raw-input/2026-05-15/youtube-glenn-diesen-lawrence-wilkerson-trump-xi-meeting-after-u-s-defeat-in-iran-2026-05-15.md`
+  - note: Operator-pasted YouTube transcript after automated subtitle fetch was rate-limited/blocked; transcript-bearing but not human-verified verbatim.
+- `2026-05-16` `transcript-bearing` `6667` words (routeable) - `codex/2026/raw-input/2026-05-16/youtube-glenn-diesen-alexander-mercouris-the-political-legitimacy-crisis-across-europe-2026-05-16.md`
+  - note: Operator-pasted YouTube transcript; transcript-bearing but not human-verified verbatim.
