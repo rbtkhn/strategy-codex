@@ -3,7 +3,7 @@ name: check-streams
 preferred_activation: check streams
 description: 'Check the daily tracked YouTube stream roster for Davis, Diesen, Alkorshid/Dialogue Works, Napolitano/Judging Freedom, and Mercouris: discover today''s uploads, filter suspected clips, list main uploads first, materialize only the operator-approved subset into canonical raw-input, and suggest speaker-folder routing hints.'
 portable: true
-version: 0.2.0
+version: 0.2.1
 tags:
 - operator
 - strategy
@@ -123,6 +123,9 @@ If a stream has no upload on the target day, say so explicitly.
    - When the approved subset is really a guest-host tranche rather than "today's whole roster," preserve that exact tranche shape instead of reopening discovery or broad channel slicing.
    - If materialization returns `failed-fetch` or `failed-verification`, report the failure and stop before speaker routing, lattice updates, or completion claims.
    - For `failed-fetch` cases where a human will paste the transcript later, use the materializer's receipt-side `manual-curation-queue.md` and `manual-transcript-scaffolds/` outputs. Keep those scaffold files outside canonical raw-input until the paste marker is replaced and verification passes.
+   - If the operator has already pasted the full transcript in the current Codex thread, treat that paste as a valid transcript source and hand the item down to the YouTube transcript workflow's **operator-paste fallback**. Prefer mechanical extraction from the local Codex session log over hand-copying long chat text. Do not call the result `partial-chat-capture` merely because the paste is long or awkward to patch.
+   - For full operator-paste repairs, require an exact-match receipt before closing the item: `sourceChars`, `bodyChars`, and `exactMatch=True` between the extracted session transcript and the body written after `## Transcript`.
+   - After exact-match verification passes, update the check-stream receipts as captured with `capture_status: full-operator-paste`; move the item out of the open repair queue. Use `partial-chat-capture` only when the source is truly incomplete or exact extraction cannot be verified, and leave that item queued as `full-transcript-import-needed`.
 
 6. **Default transcript class**
    - Default to `auto_subtitles_vtt`.
@@ -256,6 +259,7 @@ When the capture path is noisy, distinguish the failure layer plainly:
 - **Cached/offline audit worked:** local discovery receipts were sufficient to identify missing videos and repair queue state.
 - **Exact-URL materialization worked:** a specific approved watch URL produced verified raw-input even if broad discovery was brittle.
 - **Metadata-bypass materialization worked:** YouTube metadata fetch failed, but the operator-provided title/date/lane metadata let the exact URL proceed to subtitle extraction and verification.
+- **Operator-paste materialization worked:** YouTube fetch or patch ergonomics failed, but a full operator-pasted transcript was mechanically extracted from the local session log, written to canonical raw-input, and exact-match verified.
 
 Prefer exact-URL materialization for repair queue items once the operator has named or approved them.
 
@@ -287,7 +291,7 @@ After operator selection, report only the approved items being materialized and 
 - raw-input: <path(s)>
 - audit artifact: <summary/repair queue path>
 - backlog: <overall_backlog_status>; probably-capture backlog remains: <yes/no>
-- capture mode: <online discovery / cached offline audit / exact-URL materialization>
+- capture mode: <online discovery / cached offline audit / exact-URL materialization / metadata-bypass materialization / operator-paste materialization>
 
 ## Speaker routing hints
 - <raw-input file> -> <primary speaker route> - <next action> - <why>
@@ -313,6 +317,8 @@ Use "candidate" when the target does not exist yet or would require a new speake
 - Never treat clip suspicion as certainty.
 - Never silently promote subtitle-derived outputs into stronger transcript classes.
 - Never claim a stream item is captured when the raw-input file is header-only, index-only, placeholder text, or otherwise fails non-stub body verification.
+- Never downgrade a full operator-pasted transcript to partial just because it was supplied in chat, too long for a comfortable patch, or unavailable from YouTube. Extract it mechanically from the local session log when available, then verify exact body match.
+- Never remove an item from the repair queue on operator-paste evidence unless the canonical raw-input body is non-stub and exact-match verification has passed.
 - Never create or update speaker folders, speaker objects, speaker arcs, helixes, or lattice rows from the daily check unless the operator explicitly asks.
 - Do not let the lattice become the first durable destination. Raw-input comes first; speaker-folder routing comes next; lattice updates are secondary pointers.
 

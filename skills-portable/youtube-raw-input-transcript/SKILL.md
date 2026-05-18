@@ -3,7 +3,7 @@ name: youtube-raw-input-transcript
 preferred_activation: youtube transcript
 description: "Extract YouTube metadata and captions, then materialize a canonical raw-input transcript with conservative provenance, speaker normalization, and date-safe frontmatter."
 portable: true
-version: 0.1.0
+version: 0.1.1
 tags:
   - operator
   - raw-input
@@ -30,6 +30,7 @@ In strategy-codex, this skill is also the shared **transcript + appearance mater
 - A user provides a YouTube URL and wants a transcript saved into canonical raw-input.
 - You need to confirm title, publication date, and channel before naming the file.
 - The available source is auto-captions or subtitles rather than an operator-pasted cleaned transcript.
+- YouTube fetch failed or was blocked, but the operator pasted a full transcript in the Codex thread for a known episode.
 - A prior transcript exists but needs provenance-safe normalization or re-materialization.
 
 ## Workflow
@@ -54,19 +55,34 @@ In strategy-codex, this skill is also the shared **transcript + appearance mater
    - If the repo's normal transcript path reports errors such as `no vtt subtitle file produced` or a language-specific fetch failure even though `--list-subs` shows English auto-captions, retry with a direct `yt-dlp` subtitle pull before giving up.
    - Treat metadata-bypass success as transcript-grade only when subtitle fetch and non-stub verification still pass. Treat metadata-bypass caption failure as a normal failed-fetch with manual scaffold output.
 
-3. **Use tranche mode when the operator has a vetted batch**
+3. **Use operator-paste fallback when the transcript is in chat**
+   - If the operator pasted a full YouTube transcript in the current Codex thread, treat it as transcript-bearing source material even when YouTube metadata, bot-check, or subtitle fetch failed.
+   - Prefer mechanical extraction from the local Codex session log over hand-copying or summarizing long chat text. Look under `$CODEX_HOME/sessions/<YYYY>/<MM>/<DD>/` or `~/.codex/sessions/<YYYY>/<MM>/<DD>/` for the rollout JSONL that contains the distinctive title plus `Transcripts:`.
+   - Extract the `event_msg` whose payload type is `user_message`, then split the message body on `Transcripts:\r?\n`. The text after that marker is the transcript source.
+   - Write canonical raw-input with explicit provenance, for example:
+     - `source_type: youtube_transcript_operator_paste`
+     - `transcript_type: operator_pasted_youtube_transcript`
+     - `capture_status: full-operator-paste`
+     - `source_note: mechanically extracted from local Codex session log after operator pasted full transcript`
+   - Verify exact correspondence between the extracted transcript source and the file body after `## Transcript`. Report `sourceChars`, `bodyChars`, and `exactMatch=True` before claiming capture.
+   - Use `partial-chat-capture` only if the session source cannot be found, the operator clearly supplied an excerpt rather than a full transcript, or exact-match verification fails. Partial captures remain repair-queue items with `full-transcript-import-needed`.
+   - Operator-paste fallback is not the same as auto subtitles or a human-cleaned transcript. It is a useful transcript-bearing capture with honest provenance unless separately cleaned or independently verified.
+
+4. **Use tranche mode when the operator has a vetted batch**
    - If the operator already has an approved set of exact watch URLs, treat the task as a targeted tranche rather than a channel crawl.
    - Resolve metadata per URL, pull subtitles per URL, and then materialize the resulting batch into canonical date folders.
    - Do not fall back to broad channel slicing when the real task is "capture these exact episodes."
    - For densification work, name the bounded tranche with `--purpose densification --tranche-label <label>` and keep the approved URL set or raw-input list as the tranche authority.
    - For already-materialized transcript files, use `--raw-input <path>` or `--raw-input-list <file>` with `--with-appearances` to produce appearance, routing, and action artifacts without refetching or rewriting transcripts.
 
-4. **Choose the right transcript class**
+5. **Choose the right transcript class**
    - Use `cleaned_transcript` only when the user supplies cleaned dialogue or a human-cleaned source.
    - Use `auto_subtitles_vtt` when you materialize raw captions with minimal intervention.
    - Use `speaker_normalized_from_auto_subtitles` when you perform best-effort turn assignment and sentence cleanup from captions.
+   - Use `operator_pasted_youtube_transcript` when a full transcript is supplied through chat or a session log and exact-match verification passes.
+   - Use `partial-chat-capture` only as an explicit incomplete repair state, not as a convenience label for long but complete pastes.
 
-5. **Materialize the canonical raw-input file**
+6. **Materialize the canonical raw-input file**
    - Write the file into the canonical date folder using the published date.
    - Include frontmatter with `ingest_date`, `pub_date`, `thread`, `title`, `source_url`, `source_type`, `transcript_type`, and a plain-language `editorial_note`.
    - Include verification frontmatter when available: `body_word_count`, `body_chars`, `verification_ok`, `verification_reason`, and `evidence_grade`.
@@ -74,7 +90,7 @@ In strategy-codex, this skill is also the shared **transcript + appearance mater
    - Keep `show`, `host`, `guest`, and `channel_slug` explicit when present so host context is preserved even when the expert lane owns the filename.
    - If the title only identifies the host, do not write the host as `guest`. Prefer blank guest with a host-only inference note such as `guest_inference: host-only-title-match`.
 
-6. **Normalize conservatively**
+7. **Normalize conservatively**
    - Remove timing markup, duplicate carryover lines, and obvious caption artifacts.
    - Remove extraction headers such as `Kind:` / `Language:` when they are not part of the episode itself.
    - Collapse repeated consecutive caption triplets or other obvious auto-caption duplication.
@@ -85,7 +101,7 @@ In strategy-codex, this skill is also the shared **transcript + appearance mater
    - When a transcript is already captured but proper nouns are badly mangled, invoke **`proper noun normalization`** rather than broad prose cleanup.
    - Preserve uncertainty rather than inventing fluent but unsupported dialogue.
 
-7. **Verify before declaring success**
+8. **Verify before declaring success**
    - Check the top metadata block, opening lines, and closing lines.
    - Make sure title, date, guest, and transcript type all agree with the extraction path.
    - Verify the canonical raw-input is not a header-only shell: it must have frontmatter with `source_url`, `pub_date`, `title`, provenance note, source/transcript type, and a real transcript body after frontmatter.
@@ -93,8 +109,9 @@ In strategy-codex, this skill is also the shared **transcript + appearance mater
    - Reject placeholder phrases such as `transcript pending`, `index-only`, or `listed_only` as successful transcript bodies.
    - If the output still has substantial caption noise, say so clearly.
    - If YouTube blocks metadata or captions, do not create a canonical stub. Use the receipt-side manual transcript scaffold instead, then wait for a human-filled body before routing appearances.
+   - For operator-paste fallback, do not report success unless the canonical body is non-stub and exact-match verification against the extracted paste source passes.
 
-8. **Emit the appearance packet**
+9. **Emit the appearance packet**
    - For strategy-codex captures, prefer `--with-appearances` so successful raw-input files immediately produce:
      - `appearance-ledger.jsonl`
      - `speaker-routing-queue.md/jsonl`
@@ -117,6 +134,8 @@ In strategy-codex, this skill is also the shared **transcript + appearance mater
 - Never infer a date from thematic similarity to another episode when metadata or user instruction is available.
 - Never let an outside host channel silently take ownership from a recurring expert lane when the notebook clearly treats the guest as the real owner of the capture.
 - Never record an obvious same-day companion clip when a longer same-channel parent episode exists, unless the operator explicitly overrides that default.
+- Never downgrade a full operator-pasted transcript to partial because the paste is long, YouTube is blocked, or `apply_patch` is awkward. Use session-log extraction when available and verify exact match.
+- Never mark operator-paste repairs captured unless the written raw-input body matches the extracted source and the receipt records that match.
 - Keep provenance explicit enough that a later operator can distinguish:
   - operator-pasted cleaned transcript
   - operator-pasted raw YouTube transcript
@@ -130,7 +149,7 @@ In strategy-codex, this skill is also the shared **transcript + appearance mater
 - **Minimal capture:** canonical raw-input with metadata plus raw or lightly deduped caption text.
 - **Speaker-normalized:** readable interview turns from auto-captions with explicit best-effort provenance.
 - **Cleaned transcript:** only when a human-cleaned transcript is supplied.
-- **Operator-pasted transcript:** valid fallback after fetch failure; useful and transcript-bearing, but report it as lower-confidence than verified transcript-grade materialization unless separately cleaned or verified.
+- **Operator-pasted transcript:** valid fallback after fetch failure or bot-check. Use `full-operator-paste` when mechanically extracted and exact-match verified; use `partial-chat-capture` only for incomplete or unverified chat excerpts.
 
 ## Command pattern (host-agnostic)
 
