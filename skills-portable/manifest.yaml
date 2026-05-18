@@ -135,4 +135,11 @@ skills:
     verify_forbidden_substrings:
       - users/grace-mar/
       - process_approved_candidates
+  - name: academy-mirror-sync
+    source: academy-mirror-sync/SKILL.md
+    appendix: .cursor/skills/academy-mirror-sync/CURSOR_APPENDIX.md
+    target: .cursor/skills/academy-mirror-sync/SKILL.md
+    verify_forbidden_substrings:
+      - users/grace-mar/
+      - process_approved_candidates
 
