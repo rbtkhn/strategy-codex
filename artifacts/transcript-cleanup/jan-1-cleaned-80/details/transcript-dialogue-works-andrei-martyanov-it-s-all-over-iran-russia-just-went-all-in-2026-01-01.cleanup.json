@@ -1,6 +1,6 @@
 {
-  "source_path": "codex/2026/raw-input/2026-01-01/transcript-dialogue-works-andrei-martyanov-it-s-all-over-iran-russia-just-went-all-in-2026-01-01.md",
-  "output_path": "codex/2026/raw-input/2026-01-01/transcript-dialogue-works-andrei-martyanov-it-s-all-over-iran-russia-just-went-all-in-2026-01-01.cleaned.md",
+  "source_path": "codex/years/2026/raw-input/2026-01-01/transcript-dialogue-works-andrei-martyanov-it-s-all-over-iran-russia-just-went-all-in-2026-01-01.md",
+  "output_path": "codex/years/2026/raw-input/2026-01-01/transcript-dialogue-works-andrei-martyanov-it-s-all-over-iran-russia-just-went-all-in-2026-01-01.cleaned.md",
   "status": "cleaned",
   "cleanup_score": 100,
   "cleanup_grade": "cleaned-transcript-80",

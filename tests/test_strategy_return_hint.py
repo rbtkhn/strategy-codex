@@ -57,7 +57,7 @@ _(Append below this line during the day.)_
     assert hint.carry == 1
     assert hint.raw_input_gap == 1
     assert hint.active_chapter == "2026-04"
-    assert hint.active_days_path == "codex/2026/chapters/2026-04/days.md"
+    assert hint.active_days_path == "codex/years/2026/chapters/2026-04/days.md"
     assert hint.suggested_move.startswith("source hygiene first")
     assert hint.raw_input_gap_urls == ("https://example.substack.com/p/unmatched",)
 

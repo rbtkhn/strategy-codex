@@ -3,7 +3,7 @@
 
 For each indexed expert, extracts ``thread:<expert_id>`` lines from
 ``codex/daily-strategy-inbox.md``, appends new date/line pairs to the expert's
-active ``codex/2026/<expert_id>/<expert_id>-transcript.md`` file (preserving any operator edits),
+active ``codex/years/2026/<expert_id>/<expert_id>-transcript.md`` file (preserving any operator edits),
 and prunes date sections older than ``--days`` (default 7).
 
 This module is **not** an operator-facing command. It is called automatically
@@ -34,7 +34,7 @@ from strategy_expert_corpus import (
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
 DEFAULT_INBOX = REPO_ROOT / "codex/daily-strategy-inbox.md"
-DEFAULT_OUT_DIR = REPO_ROOT / "codex/2026"
+DEFAULT_OUT_DIR = REPO_ROOT / "codex" / "years" / "2026"
 
 TRIAGE_MARKER = "<!-- Triage appends new date sections below. Do not add content above this line. -->"
 

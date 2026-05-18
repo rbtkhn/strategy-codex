@@ -6,14 +6,14 @@ Runtime work layer only. This packet is not Record truth and does not stage or m
 
 Use the `check-streams` workflow. Continue the Alexander Mercouris raw-input check-stream run from the already completed February 2026 tranche. Default to checking backward one day at a time unless the operator names a different target date.
 
-Primary task: verify or materialize canonical `codex/2026/raw-input/YYYY-MM-DD/` captures for Mercouris main uploads using operator-pasted transcript bodies when YouTube subtitle/materialization is blocked.
+Primary task: verify or materialize canonical `codex/years/2026/raw-input/YYYY-MM-DD/` captures for Mercouris main uploads using operator-pasted transcript bodies when YouTube subtitle/materialization is blocked.
 
 ## Repo Anchors
 
 - Workspace: `C:\dev\strategy-codex`
 - Canonical workflow: `.cursor/skills/check-streams/SKILL.md`
 - Legacy alias: `.cursor/skills/cognition-streams/SKILL.md`
-- Canonical raw-input tree: `codex/2026/raw-input/YYYY-MM-DD/`
+- Canonical raw-input tree: `codex/years/2026/raw-input/YYYY-MM-DD/`
 - Useful cached index: `.codex-tmp/youtube-alex-mercouris-index/CHANNEL-VIDEO-INDEX.md`
 
 ## Boundaries
@@ -49,8 +49,8 @@ These dates were included in the pushed commit:
 
 The 2026-02-27 item was reconciled across a Duran transcript-bearing file and a Mercouris metadata pointer:
 
-- `codex/2026/raw-input/2026-02-27/duran-mercouris-us-iran-geneva-embassies-konstantinovka-uk-2026-02-27.md`
-- `codex/2026/raw-input/2026-02-27/youtube-alex-mercouris-us-iran-talks-fail-embassies-evacuated-attack-imminent-konstaninovka-def-2026-02-27.md`
+- `codex/years/2026/raw-input/2026-02-27/duran-mercouris-us-iran-geneva-embassies-konstantinovka-uk-2026-02-27.md`
+- `codex/years/2026/raw-input/2026-02-27/youtube-alex-mercouris-us-iran-talks-fail-embassies-evacuated-attack-imminent-konstaninovka-def-2026-02-27.md`
 
 ## Default Next Target
 
@@ -71,8 +71,8 @@ python scripts/cognition_streams_audit.py --start YYYY-MM-DD --end YYYY-MM-DD --
 2. If online discovery fails, use local fallback:
 
 ```powershell
-Get-ChildItem -Path codex/2026/raw-input/YYYY-MM-DD -Force -ErrorAction SilentlyContinue | Select-Object Name,Length
-rg -n "alex-mercouris|Mercouris|Alexander Mercouris|source_url|title:" codex/2026/raw-input/YYYY-MM-DD
+Get-ChildItem -Path codex/years/2026/raw-input/YYYY-MM-DD -Force -ErrorAction SilentlyContinue | Select-Object Name,Length
+rg -n "alex-mercouris|Mercouris|Alexander Mercouris|source_url|title:" codex/years/2026/raw-input/YYYY-MM-DD
 rg -n "YYYY-MM-DD" .codex-tmp/youtube-alex-mercouris-index artifacts/cognition-streams -g "*.md" -g "*.json" -g "*.jsonl"
 ```
 

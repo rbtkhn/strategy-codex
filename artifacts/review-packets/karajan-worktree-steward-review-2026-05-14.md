@@ -8,7 +8,7 @@ It is a steward review artifact only: no protected Record surface, runtime bundl
 ## A. Allegro - Three Remaining Arcs
 
 1. **Predictive History / speaker corpus ingestion**
-   - Surfaces: `codex/2026/**`, `codex/predictive-history/**`, `codex/2026/raw-input/**`, speaker helix/cross-year files.
+   - Surfaces: `codex/years/2026/**`, `codex/predictive-history/**`, `codex/years/2026/raw-input/**`, speaker helix/cross-year files.
    - Shape: largest volume arc, including the 2025-08-21 raw transcript expansion and many untracked corpus/source files.
    - Value: high if this repo is still carrying transition/reference work.
    - Risk: high because AGENTS.md marks Predictive History material in `strategy-codex` as frozen migration residue unless a boundary-maintenance doc says otherwise.
@@ -36,7 +36,7 @@ It is a steward review artifact only: no protected Record surface, runtime bundl
 | 2 | `scripts/ab_test_voice.py`, `scripts/bootstrap_work_politics.py`, `scripts/eval_identity_delta.py`, `scripts/validate_expert_profiles.py` | Medium | Medium | Indirect only | Medium | candidate after diff review |
 | 3 | `scripts/propose_think_claims_from_read.py`, `tests/fixtures/self_memory_normalize_telemetry_note.md` | Medium | Medium-high | Indirect Record references | Low until encoding fixed | hold |
 | 4 | `docs/skill-work/work-dev/.capability-shift-*` | Low | Low | None | Low | local/generated cache |
-| 5 | `codex/2026/**`, `codex/predictive-history/**` | High | High | Boundary-sensitive | Low | hold |
+| 5 | `codex/years/2026/**`, `codex/predictive-history/**` | High | High | Boundary-sensitive | Low | hold |
 | 6 | `runtime-bundle/**`, `users/grace-mar/runtime-bundle/**`, JSONL run logs | Medium | High | Runtime/Record-adjacent | Low | local-only / generated |
 | 7 | `self.md`, `self-archive.md`, `recursion-gate.md`, `self-memory.md` | Record-critical | Highest | Direct | Not eligible | protected |
 

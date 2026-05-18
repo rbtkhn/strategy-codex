@@ -9,7 +9,7 @@ This probe checked a later, truncated wrapper source. A broader session-log sear
 - Date: `2026-01-13`
 - Video ID: `O3tOyjSUs0M`
 - Title: `Regime change escalator w/ Robert Barnes (Live)`
-- Raw-input path: `codex/2026/raw-input/2026-01-13/transcript-duran-mercouris-barnes-regime-change-escalator-2026-01-13.md`
+- Raw-input path: `codex/years/2026/raw-input/2026-01-13/transcript-duran-mercouris-barnes-regime-change-escalator-2026-01-13.md`
 
 ## Probe
 

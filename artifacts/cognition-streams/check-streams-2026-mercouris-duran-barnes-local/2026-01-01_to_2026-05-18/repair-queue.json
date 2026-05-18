@@ -1,4 +1,4 @@
-﻿{
+{
     "check":  "mercouris-duran-barnes-2026",
     "must-capture":  [
 
@@ -14,7 +14,7 @@
                          "title":  "Regime change escalator w/ Robert Barnes (Live)",
                          "url":  "https://www.youtube.com/watch?v=O3tOyjSUs0M",
                          "capture_status":  "full-operator-paste",
-                         "raw_capture_path":  "codex/2026/raw-input/2026-01-13/transcript-duran-mercouris-barnes-regime-change-escalator-2026-01-13.md",
+                         "raw_capture_path":  "codex/years/2026/raw-input/2026-01-13/transcript-duran-mercouris-barnes-regime-change-escalator-2026-01-13.md",
                          "receipt":  "artifacts/cognition-streams/check-streams-2026-mercouris-duran-barnes-local/2026-01-01_to_2026-05-18/operator-paste-receipt-2026-01-13.md"
                      },
                      {
@@ -24,7 +24,7 @@
                          "title":  "Open-ended Iran War (Live) with Matthew Ehret \u0026 Robert Barnes",
                          "url":  "https://www.youtube.com/watch?v=HRu-Z7AsKIY",
                          "capture_status":  "full-operator-paste",
-                         "raw_capture_path":  "codex/2026/raw-input/2026-03-04/transcript-duran-mercouris-barnes-open-ended-iran-war-2026-03-04.md"
+                         "raw_capture_path":  "codex/years/2026/raw-input/2026-03-04/transcript-duran-mercouris-barnes-open-ended-iran-war-2026-03-04.md"
                      },
                      {
                          "date":  "2026-04-23",
@@ -32,7 +32,7 @@
                          "youtube_id":  "XNq8TjkMeSc",
                          "title":  "Fractured Iran or fractured Trump? w/ Robert Barnes (Live)",
                          "url":  "https://www.youtube.com/watch?v=XNq8TjkMeSc",
-                         "raw_capture_path":  "codex/2026/raw-input/2026-04-23/transcript-duran-mercouris-barnes-fractured-iran-trump-2026-04-23.md"
+                         "raw_capture_path":  "codex/years/2026/raw-input/2026-04-23/transcript-duran-mercouris-barnes-fractured-iran-trump-2026-04-23.md"
                      }
                  ]
 }

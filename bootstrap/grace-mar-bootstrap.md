@@ -122,7 +122,7 @@ For a **cold Cursor thread** when instance state matters (gate, pipeline, ``, ha
 |------|-------------------|
 | One paste (overlapping summaries by design) | `python3 scripts/operator_reentry_stack.py -u grace-mar` â€” add `--compact` for a shorter harness tail |
 | One-line snapshot | `python3 scripts/harness_warmup.py -u grace-mar --receipt` (optional `--territory work-politics` or `companion`) |
-| Coffee (work-start + signing-off; same **Aâ€“E** hub) | `.cursor/skills/coffee/SKILL.md` â€” **A** Steward, **B** Engineer, **C** Historian, **D** Capitalist, **E** Conductor; **standalone conductors** ([conductor skill](../.cursor/skills/conductor/SKILL.md)); legacy **Aâ€“G** tables in [menu-reference.md](../docs/skill-work/work-coffee/menu-reference.md) for workload mapping |
+| Coffee (work-start + signing-off; same **Aâ€“E** hub) | `.cursor/skills/coffee/SKILL.md` â€” **A** Steward, **B** Engineer, **C** Historian, **D** Singularity, **E** Conductor; **standalone conductors** ([conductor skill](../.cursor/skills/conductor/SKILL.md)); legacy **Aâ€“G** tables in [menu-reference.md](../docs/skill-work/work-coffee/menu-reference.md) for workload mapping |
 | Optional GWS | `docs/skill-work/work-dev/google-workspace-cli-operator.md` â€” attach `.cursor/rules/gws-cli-recipes.mdc` when using `gws` |
 | VS Code / Cursor Tasks | Copy tasks from `docs/skill-work/work-dev/cursor-vscode-grace-mar-tasks.json` into your local `.vscode/tasks.json` (`.vscode/` is gitignored here) |
 

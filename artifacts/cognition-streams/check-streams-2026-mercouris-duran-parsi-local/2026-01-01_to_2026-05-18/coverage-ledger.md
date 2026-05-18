@@ -8,7 +8,7 @@ Scope: local raw captures, existing cognition-stream artifacts, YouTube title sw
 
 ## Local Capture
 
-- [transcript-duran-mercouris-trita-parsi-us-iran-blockade-diplomacy-2026-05-06.md](../../../../codex/2026/raw-input/2026-05-06/transcript-duran-mercouris-trita-parsi-us-iran-blockade-diplomacy-2026-05-06.md)
+- [transcript-duran-mercouris-trita-parsi-us-iran-blockade-diplomacy-2026-05-06.md](../../../../codex/years/2026/raw-input/2026-05-06/transcript-duran-mercouris-trita-parsi-us-iran-blockade-diplomacy-2026-05-06.md)
 
 ## Evidence Notes
 

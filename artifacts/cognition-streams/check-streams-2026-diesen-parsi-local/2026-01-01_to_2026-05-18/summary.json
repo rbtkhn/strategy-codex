@@ -12,7 +12,7 @@
   },
   "query": "Parsi",
   "discovery_scope": [
-    "local raw-input search under codex/2026/raw-input/2026-*",
+    "local raw-input search under codex/years/2026/raw-input/2026-*",
     "existing cognition-stream artifact search",
     "2026-05-18 Glenn Diesen RSS fallback receipt"
   ],
@@ -29,7 +29,7 @@
       "youtube_id": "7QUx7GjIOBo",
       "title": "Trita Parsi: Iran War Marks the End of American Primacy",
       "url": "https://www.youtube.com/watch?v=7QUx7GjIOBo",
-      "raw_capture_path": "codex/2026/raw-input/2026-05-18/youtube-glenn-diesen-trita-parsi-iran-war-marks-the-end-of-american-primacy-2026-05-18.md",
+      "raw_capture_path": "codex/years/2026/raw-input/2026-05-18/youtube-glenn-diesen-trita-parsi-iran-war-marks-the-end-of-american-primacy-2026-05-18.md",
       "receipt_path": "artifacts/cognition-streams/check-streams-2026-05-18-diesen-rss/2026-05-18_to_2026-05-18/summary.json",
       "capture_status": "captured-main"
     }

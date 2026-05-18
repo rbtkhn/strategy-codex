@@ -166,9 +166,9 @@ def next_work_cici_line(repo: Path) -> str:
 
 
 def next_academy_singularity_line(repo: Path) -> str:
-    base = repo / "codex/2026/academy/singularity/workshop"
+    base = repo / "codex/academy/singularity/workshop"
     if not base.is_dir():
-        return "Next academy-singularity: missing codex/2026/academy/singularity/workshop"
+        return "Next academy-singularity: missing codex/academy/singularity/workshop"
 
     sheets = base / "sheets"
     innermost = sorted(sheets.glob("innermost-loop-*.md")) if sheets.is_dir() else []

@@ -1,4 +1,4 @@
-﻿# Packet crosswalk
+# Packet crosswalk
 
 WORK only; not Record.
 
@@ -35,7 +35,7 @@ Typical notebook move:
 
 Working example:
 
-- [pape-page-2026-04-29-youtube-pape-grim-nuclear-iran-inevitable.md](../../../codex/2026/pape/pape-page-2026-04-29-youtube-pape-grim-nuclear-iran-inevitable.md)
+- [pape-page-2026-04-29-youtube-pape-grim-nuclear-iran-inevitable.md](../../../codex/years/2026/pape/pape-page-2026-04-29-youtube-pape-grim-nuclear-iran-inevitable.md)
 
 ### Process
 
@@ -52,7 +52,7 @@ Typical notebook move:
 
 Working example:
 
-- [parsi-page-2026-04-21-x-ceasefire-hormuz-cluster.md](../../../codex/2026/parsi/parsi-page-2026-04-21-x-ceasefire-hormuz-cluster.md)
+- [parsi-page-2026-04-21-x-ceasefire-hormuz-cluster.md](../../../codex/years/2026/parsi/parsi-page-2026-04-21-x-ceasefire-hormuz-cluster.md)
 
 ### Register
 
@@ -70,7 +70,7 @@ Typical notebook move:
 
 Working examples:
 
-- [marandi-page-2026-04-21-blockade-islamabad-hormuz.md](../../../codex/2026/speakers/marandi/marandi-page-2026-04-21-blockade-islamabad-hormuz.md)
+- [marandi-page-2026-04-21-blockade-islamabad-hormuz.md](../../../codex/speakers/marandi/marandi-page-2026-04-21-blockade-islamabad-hormuz.md)
 - [rome-persia-legitimacy-signal-check.md](../../../codex/rome-persia-legitimacy-signal-check.md)
 
 ## Dual-register maturity check

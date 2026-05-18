@@ -188,7 +188,7 @@ D. Singularity - <one short line: academy-singularity module / agency under acce
 
 **Hub lines end at D:** the coffee hub is four lines only. Conductor is standalone and does not appear as a coffee hub letter.
 
-**Filling D - Singularity:** activate the WORK-only academy-singularity module at [Singularity Workshop](../../../codex/2026/academy/singularity/workshop/README.md). Use its workflow: name acceleration, name agent, test alignment, test substrate, test displacement, produce reuse. Ground the turn in one workshop target such as [agent-control-plane.md](../../../codex/2026/academy/singularity/workshop/sheets/agent-control-plane.md), [keystone-helix.md](../../../codex/2026/academy/singularity/workshop/keystone-helix.md), the latest Innermost Loop sheet, or [interface-operating-layer-2028.md](../../../codex/2026/academy/singularity/workshop/sheets/interface-operating-layer-2028.md).
+**Filling D - Singularity:** activate the WORK-only academy-singularity module at [Singularity Workshop](../../../codex/academy/singularity/workshop/README.md). Use its workflow: name acceleration, name agent, test alignment, test substrate, test displacement, produce reuse. Ground the turn in one workshop target such as [agent-control-plane.md](../../../codex/academy/singularity/workshop/sheets/agent-control-plane.md), [keystone-helix.md](../../../codex/academy/singularity/workshop/keystone-helix.md), the latest Innermost Loop sheet, or [interface-operating-layer-2028.md](../../../codex/academy/singularity/workshop/sheets/interface-operating-layer-2028.md).
 
 When hub **D** is chosen, reply with a bounded **Singularity menu - reply A-D** unless the operator already named a specific Singularity artifact:
 

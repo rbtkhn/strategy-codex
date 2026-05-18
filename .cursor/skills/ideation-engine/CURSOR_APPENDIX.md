@@ -2,7 +2,7 @@
 
 ## Routing
 
-- Coffee hub: use under **D - Capitalist** when the operator wants business, revenue, lane, or micro-business ideas.
+- Coffee hub: no longer owns this skill under **D**. Use it only for explicit business, revenue, lane, or micro-business requests outside the Coffee D Singularity default.
 - Direct trigger: `ideation engine`, `weekly opportunity brief`, `new lane ideas`, `opportunity scan`.
 - Keep this WORK-layer unless the operator explicitly asks for gate staging.
 

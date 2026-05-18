@@ -27,7 +27,7 @@ if str(SCRIPTS_DIR) not in sys.path:
 import build_speaker_routing_queue as routing  # noqa: E402
 
 
-DEFAULT_NOTEBOOK_ROOT = REPO_ROOT / "codex" / str(date.today().year)
+DEFAULT_NOTEBOOK_ROOT = REPO_ROOT / "codex" / "years" / str(date.today().year)
 DEFAULT_OUT_DIR = REPO_ROOT / "artifacts" / "speaker-memory-actions"
 ACTION_TYPES = {
     "update-existing-arc",
@@ -94,11 +94,11 @@ def _speaker_helix_target(speaker_slug: str, speaker_rows: list[dict[str, Any]])
     year = str(date.today().year)
     for row in speaker_rows:
         raw_input_path = _normalize_appearance(row).get("raw_input_path", "")
-        match = re.search(r"(?:^|/)codex/(\d{4})/", raw_input_path)
+        match = re.search(r"(?:^|/)codex/years/(\d{4})/", raw_input_path)
         if match:
             year = match.group(1)
             break
-    return f"codex/{year}/speakers/{speaker_slug}/{speaker_slug}-helix.md"
+    return f"codex/speakers/{speaker_slug}/{speaker_slug}-helix.md"
 
 
 def _candidate_arc_target(row: dict[str, Any]) -> str:
@@ -390,7 +390,7 @@ def write_outputs(
 
 def build_routing_rows(start: date, end: date, notebook_root: Path) -> list[dict[str, Any]]:
     notebook_root = notebook_root.resolve()
-    speakers_dir = notebook_root / "speakers"
+    speakers_dir = routing.DEFAULT_SPEAKERS_DIR
     inventory = routing._discover_inventory(speakers_dir, notebook_root)
     raw_root = notebook_root / "raw-input"
     return routing.build_rows(routing._discover_raw_inputs(raw_root, start, end), inventory, notebook_root)

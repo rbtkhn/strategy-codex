@@ -28,7 +28,7 @@
   "unresolved_speaker_count": 1,
   "unresolved_speakers": [
     {
-      "raw_input_path": "codex/2026/raw-input/2026-03-01/youtube-alex-mercouris-iran-defiant-after-khamenei-death-picks-new-leaders-closes-hormuz-contin-2026-03-01.md",
+      "raw_input_path": "codex/years/2026/raw-input/2026-03-01/youtube-alex-mercouris-iran-defiant-after-khamenei-death-picks-new-leaders-closes-hormuz-contin-2026-03-01.md",
       "pub_date": "2026-03-01",
       "title": "Iran Defiant After Khamenei Death; Picks New Leaders Closes Hormuz Continues Strikes; Russia Backing",
       "source_url": "https://www.youtube.com/watch?v=kUy3soYsmKY",
@@ -49,7 +49,7 @@
         "title": "Iran Defiant After Khamenei Death; Picks New Leaders Closes Hormuz Continues Strikes; Russia Backing",
         "source_url": "https://www.youtube.com/watch?v=kUy3soYsmKY",
         "youtube_id": "kUy3soYsmKY",
-        "raw_input_path": "codex/2026/raw-input/2026-03-01/youtube-alex-mercouris-iran-defiant-after-khamenei-death-picks-new-leaders-closes-hormuz-contin-2026-03-01.md",
+        "raw_input_path": "codex/years/2026/raw-input/2026-03-01/youtube-alex-mercouris-iran-defiant-after-khamenei-death-picks-new-leaders-closes-hormuz-contin-2026-03-01.md",
         "speaker_resolution": "",
         "guest_inference": ""
       },
@@ -59,7 +59,7 @@
   ],
   "artifacts": [
     {
-      "raw_input_path": "codex/2026/raw-input/2026-03-01/youtube-alex-mercouris-iran-defiant-after-khamenei-death-picks-new-leaders-closes-hormuz-contin-2026-03-01.md",
+      "raw_input_path": "codex/years/2026/raw-input/2026-03-01/youtube-alex-mercouris-iran-defiant-after-khamenei-death-picks-new-leaders-closes-hormuz-contin-2026-03-01.md",
       "pub_date": "2026-03-01",
       "title": "Iran Defiant After Khamenei Death; Picks New Leaders Closes Hormuz Continues Strikes; Russia Backing",
       "evidence_grade": "transcript-bearing",
@@ -91,7 +91,7 @@
   "warnings": [],
   "git_state": {
     "scoped_paths": [
-      "codex/2026/raw-input/2026-03-01/youtube-alex-mercouris-iran-defiant-after-khamenei-death-picks-new-leaders-closes-hormuz-contin-2026-03-01.md",
+      "codex/years/2026/raw-input/2026-03-01/youtube-alex-mercouris-iran-defiant-after-khamenei-death-picks-new-leaders-closes-hormuz-contin-2026-03-01.md",
       "artifacts/host-shelf-quality/2026/mercouris/2026-03/quality-summary.json",
       "artifacts/host-shelf-quality/2026/mercouris/2026-03/quality-summary.md"
     ],
@@ -100,7 +100,7 @@
     "committed": false,
     "pushed": false,
     "dirty_paths": [
-      " M codex/2026/raw-input/2026-03-01/youtube-alex-mercouris-iran-defiant-after-khamenei-death-picks-new-leaders-closes-hormuz-contin-2026-03-01.md",
+      " M codex/years/2026/raw-input/2026-03-01/youtube-alex-mercouris-iran-defiant-after-khamenei-death-picks-new-leaders-closes-hormuz-contin-2026-03-01.md",
       "?? artifacts/host-shelf-quality/2026/mercouris/2026-03/quality-summary.json",
       "?? artifacts/host-shelf-quality/2026/mercouris/2026-03/quality-summary.md"
     ],

@@ -350,7 +350,7 @@ Grace-mar paths and commands for this repository (from `.cursor/skills/check-str
 | Date-bucket target pattern | `codex/YYYY/raw-input/YYYY-MM-DD/` |
 | Existing lower-layer ingest skill | [skills-portable/youtube-raw-input-transcript/SKILL.md](../../../skills-portable/youtube-raw-input-transcript/SKILL.md) |
 | Generated lower-layer Cursor skill | [\.cursor/skills/youtube-raw-input-transcript/SKILL.md](../youtube-raw-input-transcript/SKILL.md) |
-| Speaker folder shelf | [codex/2026/speakers/](../../../codex/2026/speakers/) |
+| Speaker folder shelf | [codex/speakers/](../../../codex/speakers/) |
 | Speaker arc boundary | [docs/skill-work/work-strategy/speaker-arc-thread-lattice-boundaries.md](../../../docs/skill-work/work-strategy/speaker-arc-thread-lattice-boundaries.md) |
 | Raw-input vs speaker arc boundary | [docs/skill-work/work-strategy/raw-input-ownership-vs-speaker-arc.md](../../../docs/skill-work/work-strategy/raw-input-ownership-vs-speaker-arc.md) |
 | Philosophical gloss | [docs/skill-work/work-strategy/cognition-streams-daily-aperture.md](../../../docs/skill-work/work-strategy/cognition-streams-daily-aperture.md) |

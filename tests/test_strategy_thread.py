@@ -55,6 +55,6 @@ def test_strategy_thread_dry_run_exits_zero() -> None:
         check=False,
     )
     assert proc.returncode == 0, proc.stderr
-    assert "codex\\2026" in proc.stdout or "codex/2026" in proc.stdout
+    assert "codex\\years\\2026" in proc.stdout or "codex/years/2026" in proc.stdout
     assert "davis-thread.md" in proc.stdout
     assert "Done (dry-run):" in proc.stdout

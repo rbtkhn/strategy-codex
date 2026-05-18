@@ -1,10 +1,10 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Extract raw material for per-expert thread distillation.
 
-Reads from active ``codex/2026/<id>/<id>-transcript.md`` files (recent verbatim),
+Reads from active ``codex/years/2026/<id>/<id>-transcript.md`` files (recent verbatim),
 **inbox lines** that link ``raw-input/â€¦`` for the same ``thread:<id>`` lane,
 ``strategy-page`` blocks, optional legacy on-disk index rows; writes structured
-extraction to active ``codex/2026/<id>/<id>-thread.md`` files between script
+extraction to active ``codex/years/2026/<id>/<id>-thread.md`` files between script
 markers.
 
 The output is **raw material** for assistant refinement â€” the assistant
@@ -45,7 +45,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 
 DEFAULT_THREADS = REPO_ROOT / "codex/strategy-commentator-threads.md"
 DEFAULT_INBOX = REPO_ROOT / "codex/daily-strategy-inbox.md"
-DEFAULT_OUT_DIR = REPO_ROOT / "codex/2026"
+DEFAULT_OUT_DIR = REPO_ROOT / "codex" / "years" / "2026"
 DEFAULT_PAGE_INDEX = REPO_ROOT / "codex/knot-index.yaml"
 
 CANONICAL_EXPERT_IDS: tuple[str, ...] = (
@@ -151,9 +151,10 @@ def collect_inbox_raw_input_pointers(
 
 
 def is_codex_year_volume(notebook_dir: Path) -> bool:
-    """Return true for the active ``codex/<year>/`` strategy-codex layout."""
+    """Return true for the active ``codex/years/<year>/`` strategy-codex layout."""
     return (
-        notebook_dir.parent.name == "codex"
+        notebook_dir.parent.name == "years"
+        and notebook_dir.parent.parent.name == "codex"
         and re.fullmatch(r"\d{4}", notebook_dir.name) is not None
     )
 
@@ -169,7 +170,7 @@ def expert_paths(expert_id: str, notebook_dir: Path) -> dict[str, Path]:
     """Resolve per-expert file paths for active ``codex/<year>`` or legacy layouts."""
     if is_codex_year_volume(notebook_dir):
         base = expert_dir_for_layout(expert_id, notebook_dir)
-        codex_root = notebook_dir.parent
+        codex_root = notebook_dir.parent.parent
         return {
             "profile": codex_root / "profiles" / f"{expert_id}-profile.md",
             "transcript": base / f"{expert_id}-transcript.md",

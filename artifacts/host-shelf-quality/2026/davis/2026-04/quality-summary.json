@@ -28,7 +28,7 @@
   "unresolved_speaker_count": 8,
   "unresolved_speakers": [
     {
-      "raw_input_path": "codex/2026/raw-input/2026-04-16/transcript-davis.md",
+      "raw_input_path": "codex/years/2026/raw-input/2026-04-16/transcript-davis.md",
       "pub_date": "2026-04-16",
       "title": "transcript-davis",
       "source_url": "",
@@ -49,7 +49,7 @@
         "title": "transcript-davis",
         "source_url": "",
         "youtube_id": "",
-        "raw_input_path": "codex/2026/raw-input/2026-04-16/transcript-davis.md",
+        "raw_input_path": "codex/years/2026/raw-input/2026-04-16/transcript-davis.md",
         "speaker_resolution": "",
         "guest_inference": ""
       },
@@ -57,7 +57,7 @@
       "reason": "Guest metadata is absent or ambiguous, so no speaker appearance was emitted."
     },
     {
-      "raw_input_path": "codex/2026/raw-input/2026-04-17/transcript-davis.md",
+      "raw_input_path": "codex/years/2026/raw-input/2026-04-17/transcript-davis.md",
       "pub_date": "2026-04-17",
       "title": "transcript-davis",
       "source_url": "",
@@ -78,7 +78,7 @@
         "title": "transcript-davis",
         "source_url": "",
         "youtube_id": "",
-        "raw_input_path": "codex/2026/raw-input/2026-04-17/transcript-davis.md",
+        "raw_input_path": "codex/years/2026/raw-input/2026-04-17/transcript-davis.md",
         "speaker_resolution": "",
         "guest_inference": ""
       },
@@ -86,7 +86,7 @@
       "reason": "Guest metadata is absent or ambiguous, so no speaker appearance was emitted."
     },
     {
-      "raw_input_path": "codex/2026/raw-input/2026-04-18/transcript-davis.md",
+      "raw_input_path": "codex/years/2026/raw-input/2026-04-18/transcript-davis.md",
       "pub_date": "2026-04-18",
       "title": "transcript-davis",
       "source_url": "",
@@ -107,7 +107,7 @@
         "title": "transcript-davis",
         "source_url": "",
         "youtube_id": "",
-        "raw_input_path": "codex/2026/raw-input/2026-04-18/transcript-davis.md",
+        "raw_input_path": "codex/years/2026/raw-input/2026-04-18/transcript-davis.md",
         "speaker_resolution": "",
         "guest_inference": ""
       },
@@ -115,7 +115,7 @@
       "reason": "Guest metadata is absent or ambiguous, so no speaker appearance was emitted."
     },
     {
-      "raw_input_path": "codex/2026/raw-input/2026-04-23/2026-04-23-davis.md",
+      "raw_input_path": "codex/years/2026/raw-input/2026-04-23/2026-04-23-davis.md",
       "pub_date": "2026-04-23",
       "title": "2026-04-23-davis",
       "source_url": "",
@@ -136,7 +136,7 @@
         "title": "2026-04-23-davis",
         "source_url": "",
         "youtube_id": "",
-        "raw_input_path": "codex/2026/raw-input/2026-04-23/2026-04-23-davis.md",
+        "raw_input_path": "codex/years/2026/raw-input/2026-04-23/2026-04-23-davis.md",
         "speaker_resolution": "",
         "guest_inference": ""
       },
@@ -144,7 +144,7 @@
       "reason": "Guest metadata is absent or ambiguous, so no speaker appearance was emitted."
     },
     {
-      "raw_input_path": "codex/2026/raw-input/2026-04-25/2026-04-25-davis.md",
+      "raw_input_path": "codex/years/2026/raw-input/2026-04-25/2026-04-25-davis.md",
       "pub_date": "2026-04-25",
       "title": "2026-04-25-davis",
       "source_url": "",
@@ -165,7 +165,7 @@
         "title": "2026-04-25-davis",
         "source_url": "",
         "youtube_id": "",
-        "raw_input_path": "codex/2026/raw-input/2026-04-25/2026-04-25-davis.md",
+        "raw_input_path": "codex/years/2026/raw-input/2026-04-25/2026-04-25-davis.md",
         "speaker_resolution": "",
         "guest_inference": ""
       },
@@ -173,7 +173,7 @@
       "reason": "Guest metadata is absent or ambiguous, so no speaker appearance was emitted."
     },
     {
-      "raw_input_path": "codex/2026/raw-input/2026-04-26/2026-04-26-davis.md",
+      "raw_input_path": "codex/years/2026/raw-input/2026-04-26/2026-04-26-davis.md",
       "pub_date": "2026-04-26",
       "title": "2026-04-26-davis",
       "source_url": "",
@@ -194,7 +194,7 @@
         "title": "2026-04-26-davis",
         "source_url": "",
         "youtube_id": "",
-        "raw_input_path": "codex/2026/raw-input/2026-04-26/2026-04-26-davis.md",
+        "raw_input_path": "codex/years/2026/raw-input/2026-04-26/2026-04-26-davis.md",
         "speaker_resolution": "",
         "guest_inference": ""
       },
@@ -202,7 +202,7 @@
       "reason": "Guest metadata is absent or ambiguous, so no speaker appearance was emitted."
     },
     {
-      "raw_input_path": "codex/2026/raw-input/2026-04-27/2026-04-27-davis.md",
+      "raw_input_path": "codex/years/2026/raw-input/2026-04-27/2026-04-27-davis.md",
       "pub_date": "2026-04-27",
       "title": "2026-04-27-davis",
       "source_url": "",
@@ -223,7 +223,7 @@
         "title": "2026-04-27-davis",
         "source_url": "",
         "youtube_id": "",
-        "raw_input_path": "codex/2026/raw-input/2026-04-27/2026-04-27-davis.md",
+        "raw_input_path": "codex/years/2026/raw-input/2026-04-27/2026-04-27-davis.md",
         "speaker_resolution": "",
         "guest_inference": ""
       },
@@ -231,7 +231,7 @@
       "reason": "Guest metadata is absent or ambiguous, so no speaker appearance was emitted."
     },
     {
-      "raw_input_path": "codex/2026/raw-input/2026-04-28/2026-04-28-davis.md",
+      "raw_input_path": "codex/years/2026/raw-input/2026-04-28/2026-04-28-davis.md",
       "pub_date": "2026-04-28",
       "title": "2026-04-28-davis",
       "source_url": "",
@@ -252,7 +252,7 @@
         "title": "2026-04-28-davis",
         "source_url": "",
         "youtube_id": "",
-        "raw_input_path": "codex/2026/raw-input/2026-04-28/2026-04-28-davis.md",
+        "raw_input_path": "codex/years/2026/raw-input/2026-04-28/2026-04-28-davis.md",
         "speaker_resolution": "",
         "guest_inference": ""
       },
@@ -262,7 +262,7 @@
   ],
   "artifacts": [
     {
-      "raw_input_path": "codex/2026/raw-input/2026-04-01/youtube-daniel-davis-deep-dive-professor-john-mearsheimer-trump-pulling-out-of-nato-2026-04-01.md",
+      "raw_input_path": "codex/years/2026/raw-input/2026-04-01/youtube-daniel-davis-deep-dive-professor-john-mearsheimer-trump-pulling-out-of-nato-2026-04-01.md",
       "pub_date": "2026-04-01",
       "title": "Professor John Mearsheimer : Trump PULLING OUT of NATO?",
       "evidence_grade": "legacy-appearance-only",
@@ -275,7 +275,7 @@
       "unresolved": false
     },
     {
-      "raw_input_path": "codex/2026/raw-input/2026-04-02/youtube-daniel-davis-deep-dive-latest-goals-in-iran-war-lt-col-daniel-davis-joe-kent-2026-04-02.md",
+      "raw_input_path": "codex/years/2026/raw-input/2026-04-02/youtube-daniel-davis-deep-dive-latest-goals-in-iran-war-lt-col-daniel-davis-joe-kent-2026-04-02.md",
       "pub_date": "2026-04-02",
       "title": "Latest Goals in Iran War /Lt Col Daniel Davis & Joe Kent",
       "evidence_grade": "transcript-grade",
@@ -288,7 +288,7 @@
       "unresolved": false
     },
     {
-      "raw_input_path": "codex/2026/raw-input/2026-04-03/transcript-davis-deep-dive-robert-barnes-war-crimes-hormuz-2026-04-03.md",
+      "raw_input_path": "codex/years/2026/raw-input/2026-04-03/transcript-davis-deep-dive-robert-barnes-war-crimes-hormuz-2026-04-03.md",
       "pub_date": "2026-04-03",
       "title": "Robert Barnes on war crimes, Iran, and Hormuz",
       "evidence_grade": "legacy-appearance-only",
@@ -301,7 +301,7 @@
       "unresolved": false
     },
     {
-      "raw_input_path": "codex/2026/raw-input/2026-04-05/youtube-daniel-davis-deep-dive-scott-ritter-we-don-t-control-the-skies-over-iran-2026-04-05.md",
+      "raw_input_path": "codex/years/2026/raw-input/2026-04-05/youtube-daniel-davis-deep-dive-scott-ritter-we-don-t-control-the-skies-over-iran-2026-04-05.md",
       "pub_date": "2026-04-05",
       "title": "SCOTT RITTER: We Don't Control the Skies Over Iran!",
       "evidence_grade": "legacy-appearance-only",
@@ -314,7 +314,7 @@
       "unresolved": false
     },
     {
-      "raw_input_path": "codex/2026/raw-input/2026-04-06/youtube-daniel-davis-deep-dive-iran-just-a-bunch-of-crazy-bastards-prof-marandi-lt-col-danel-davis-2026-04-06.md",
+      "raw_input_path": "codex/years/2026/raw-input/2026-04-06/youtube-daniel-davis-deep-dive-iran-just-a-bunch-of-crazy-bastards-prof-marandi-lt-col-danel-davis-2026-04-06.md",
       "pub_date": "2026-04-06",
       "title": "IRAN: Just a Bunch of Crazy Bastards? /Prof Marandi & Lt Col Danel Davis",
       "evidence_grade": "legacy-appearance-only",
@@ -327,7 +327,7 @@
       "unresolved": false
     },
     {
-      "raw_input_path": "codex/2026/raw-input/2026-04-08/youtube-daniel-davis-deep-dive-you-call-this-a-ceasefire-fmr-cia-analyst-larry-johnson-2026-04-08.md",
+      "raw_input_path": "codex/years/2026/raw-input/2026-04-08/youtube-daniel-davis-deep-dive-you-call-this-a-ceasefire-fmr-cia-analyst-larry-johnson-2026-04-08.md",
       "pub_date": "2026-04-08",
       "title": "You Call This a CeaseFire? /Fmr CIA Analyst Larry Johnson",
       "evidence_grade": "legacy-appearance-only",
@@ -340,7 +340,7 @@
       "unresolved": false
     },
     {
-      "raw_input_path": "codex/2026/raw-input/2026-04-13/youtube-daniel-davis-deep-dive-iran-war-whoever-drops-the-most-bombs-wins-lt-col-daniel-davis-chas-free-2026-04-13.md",
+      "raw_input_path": "codex/years/2026/raw-input/2026-04-13/youtube-daniel-davis-deep-dive-iran-war-whoever-drops-the-most-bombs-wins-lt-col-daniel-davis-chas-free-2026-04-13.md",
       "pub_date": "2026-04-13",
       "title": "Iran War: Whoever Drops the Most Bombs Wins? /Lt Col Daniel Davis & Chas Freeman",
       "evidence_grade": "legacy-appearance-only",
@@ -353,7 +353,7 @@
       "unresolved": false
     },
     {
-      "raw_input_path": "codex/2026/raw-input/2026-04-13/youtube-daniel-davis-deep-dive-prof-john-mearsheimer-the-horrible-naval-blockade-in-hormuz-strait-2026-04-13.md",
+      "raw_input_path": "codex/years/2026/raw-input/2026-04-13/youtube-daniel-davis-deep-dive-prof-john-mearsheimer-the-horrible-naval-blockade-in-hormuz-strait-2026-04-13.md",
       "pub_date": "2026-04-13",
       "title": "Prof John Mearsheimer: The HORRIBLE NAVAL BLOCKADE in Hormuz Strait",
       "evidence_grade": "legacy-appearance-only",
@@ -366,7 +366,7 @@
       "unresolved": false
     },
     {
-      "raw_input_path": "codex/2026/raw-input/2026-04-13/youtube-daniel-davis-deep-dive-professor-seyed-marandi-why-the-iran-talks-failed-2026-04-13.md",
+      "raw_input_path": "codex/years/2026/raw-input/2026-04-13/youtube-daniel-davis-deep-dive-professor-seyed-marandi-why-the-iran-talks-failed-2026-04-13.md",
       "pub_date": "2026-04-13",
       "title": "Professor Seyed Marandi: Why the Iran Talks Failed",
       "evidence_grade": "legacy-appearance-only",
@@ -379,7 +379,7 @@
       "unresolved": false
     },
     {
-      "raw_input_path": "codex/2026/raw-input/2026-04-13/youtube-daniel-davis-deep-dive-scott-ritter-trump-s-blockade-is-a-joke-2026-04-13.md",
+      "raw_input_path": "codex/years/2026/raw-input/2026-04-13/youtube-daniel-davis-deep-dive-scott-ritter-trump-s-blockade-is-a-joke-2026-04-13.md",
       "pub_date": "2026-04-13",
       "title": "Scott Ritter: TRUMP's BLOCKADE IS A JOKE",
       "evidence_grade": "legacy-appearance-only",
@@ -392,7 +392,7 @@
       "unresolved": false
     },
     {
-      "raw_input_path": "codex/2026/raw-input/2026-04-16/transcript-davis.md",
+      "raw_input_path": "codex/years/2026/raw-input/2026-04-16/transcript-davis.md",
       "pub_date": "2026-04-16",
       "title": "transcript-davis",
       "evidence_grade": "legacy-appearance-only",
@@ -405,7 +405,7 @@
       "unresolved": true
     },
     {
-      "raw_input_path": "codex/2026/raw-input/2026-04-16/youtube-daniel-davis-deep-dive-fmr-cia-analyst-larry-johnson-iran-demands-not-changing-2026-04-16.md",
+      "raw_input_path": "codex/years/2026/raw-input/2026-04-16/youtube-daniel-davis-deep-dive-fmr-cia-analyst-larry-johnson-iran-demands-not-changing-2026-04-16.md",
       "pub_date": "2026-04-16",
       "title": "fmr CIA Analyst Larry Johnson: IRAN DEMANDS NOT CHANGING",
       "evidence_grade": "legacy-appearance-only",
@@ -418,7 +418,7 @@
       "unresolved": false
     },
     {
-      "raw_input_path": "codex/2026/raw-input/2026-04-17/transcript-davis.md",
+      "raw_input_path": "codex/years/2026/raw-input/2026-04-17/transcript-davis.md",
       "pub_date": "2026-04-17",
       "title": "transcript-davis",
       "evidence_grade": "legacy-appearance-only",
@@ -431,7 +431,7 @@
       "unresolved": true
     },
     {
-      "raw_input_path": "codex/2026/raw-input/2026-04-17/youtube-daniel-davis-deep-dive-hormuz-opening-ceasefire-ending-conflicting-messages-lt-col-daniel-davis-2026-04-17.md",
+      "raw_input_path": "codex/years/2026/raw-input/2026-04-17/youtube-daniel-davis-deep-dive-hormuz-opening-ceasefire-ending-conflicting-messages-lt-col-daniel-davis-2026-04-17.md",
       "pub_date": "2026-04-17",
       "title": "HORMUZ OPENING, CEASEFIRE ENDING: Conflicting Messages /Lt Col Daniel Davis & Larry Johnson",
       "evidence_grade": "legacy-appearance-only",
@@ -444,7 +444,7 @@
       "unresolved": false
     },
     {
-      "raw_input_path": "codex/2026/raw-input/2026-04-17/youtube-daniel-davis-deep-dive-iran-more-war-seems-likely-professor-marandi-2026-04-17.md",
+      "raw_input_path": "codex/years/2026/raw-input/2026-04-17/youtube-daniel-davis-deep-dive-iran-more-war-seems-likely-professor-marandi-2026-04-17.md",
       "pub_date": "2026-04-17",
       "title": "IRAN: MORE WAR SEEMS LIKELY /Professor Marandi",
       "evidence_grade": "legacy-appearance-only",
@@ -457,7 +457,7 @@
       "unresolved": false
     },
     {
-      "raw_input_path": "codex/2026/raw-input/2026-04-18/transcript-davis.md",
+      "raw_input_path": "codex/years/2026/raw-input/2026-04-18/transcript-davis.md",
       "pub_date": "2026-04-18",
       "title": "transcript-davis",
       "evidence_grade": "legacy-appearance-only",
@@ -470,7 +470,7 @@
       "unresolved": true
     },
     {
-      "raw_input_path": "codex/2026/raw-input/2026-04-19/youtube-daniel-davis-deep-dive-back-on-the-warpath-in-iran-prof-marandi-lt-col-daniel-davis-2026-04-19.md",
+      "raw_input_path": "codex/years/2026/raw-input/2026-04-19/youtube-daniel-davis-deep-dive-back-on-the-warpath-in-iran-prof-marandi-lt-col-daniel-davis-2026-04-19.md",
       "pub_date": "2026-04-19",
       "title": "Back on the Warpath in Iran /Prof Marandi & Lt Col Daniel Davis",
       "evidence_grade": "legacy-appearance-only",
@@ -483,7 +483,7 @@
       "unresolved": false
     },
     {
-      "raw_input_path": "codex/2026/raw-input/2026-04-22/youtube-daniel-davis-deep-dive-iran-war-end-best-case-scenario-larry-johnson-lt-col-daniel-davis-2026-04-22.md",
+      "raw_input_path": "codex/years/2026/raw-input/2026-04-22/youtube-daniel-davis-deep-dive-iran-war-end-best-case-scenario-larry-johnson-lt-col-daniel-davis-2026-04-22.md",
       "pub_date": "2026-04-22",
       "title": "Iran War End: Best Case Scenario /Larry Johnson & Lt Col Daniel Davis",
       "evidence_grade": "legacy-appearance-only",
@@ -496,7 +496,7 @@
       "unresolved": false
     },
     {
-      "raw_input_path": "codex/2026/raw-input/2026-04-22/youtube-daniel-davis-deep-dive-professor-seyed-marandi-iran-s-resilient-leadership-2026-04-22.md",
+      "raw_input_path": "codex/years/2026/raw-input/2026-04-22/youtube-daniel-davis-deep-dive-professor-seyed-marandi-iran-s-resilient-leadership-2026-04-22.md",
       "pub_date": "2026-04-22",
       "title": "Professor Seyed Marandi: Iran's Resilient Leadership",
       "evidence_grade": "legacy-appearance-only",
@@ -509,7 +509,7 @@
       "unresolved": false
     },
     {
-      "raw_input_path": "codex/2026/raw-input/2026-04-23/2026-04-23-davis.md",
+      "raw_input_path": "codex/years/2026/raw-input/2026-04-23/2026-04-23-davis.md",
       "pub_date": "2026-04-23",
       "title": "2026-04-23-davis",
       "evidence_grade": "legacy-appearance-only",
@@ -522,7 +522,7 @@
       "unresolved": true
     },
     {
-      "raw_input_path": "codex/2026/raw-input/2026-04-24/transcript-davis-deep-dive-robert-barnes-iran-rug-pull-behavioral-dementia-2026-04-24.md",
+      "raw_input_path": "codex/years/2026/raw-input/2026-04-24/transcript-davis-deep-dive-robert-barnes-iran-rug-pull-behavioral-dementia-2026-04-24.md",
       "pub_date": "2026-04-24",
       "title": "Robert Barnes on Iran, market manipulation, and behavioral decline",
       "evidence_grade": "legacy-appearance-only",
@@ -535,7 +535,7 @@
       "unresolved": false
     },
     {
-      "raw_input_path": "codex/2026/raw-input/2026-04-25/2026-04-25-davis.md",
+      "raw_input_path": "codex/years/2026/raw-input/2026-04-25/2026-04-25-davis.md",
       "pub_date": "2026-04-25",
       "title": "2026-04-25-davis",
       "evidence_grade": "legacy-appearance-only",
@@ -548,7 +548,7 @@
       "unresolved": true
     },
     {
-      "raw_input_path": "codex/2026/raw-input/2026-04-26/2026-04-26-davis.md",
+      "raw_input_path": "codex/years/2026/raw-input/2026-04-26/2026-04-26-davis.md",
       "pub_date": "2026-04-26",
       "title": "2026-04-26-davis",
       "evidence_grade": "legacy-appearance-only",
@@ -561,7 +561,7 @@
       "unresolved": true
     },
     {
-      "raw_input_path": "codex/2026/raw-input/2026-04-27/2026-04-27-davis.md",
+      "raw_input_path": "codex/years/2026/raw-input/2026-04-27/2026-04-27-davis.md",
       "pub_date": "2026-04-27",
       "title": "2026-04-27-davis",
       "evidence_grade": "legacy-appearance-only",
@@ -574,7 +574,7 @@
       "unresolved": true
     },
     {
-      "raw_input_path": "codex/2026/raw-input/2026-04-28/2026-04-28-davis.md",
+      "raw_input_path": "codex/years/2026/raw-input/2026-04-28/2026-04-28-davis.md",
       "pub_date": "2026-04-28",
       "title": "2026-04-28-davis",
       "evidence_grade": "legacy-appearance-only",
@@ -587,7 +587,7 @@
       "unresolved": true
     },
     {
-      "raw_input_path": "codex/2026/raw-input/2026-04-29/youtube-davis-johnson-iran-war-global-economic-shockwave-2026-04-29.md",
+      "raw_input_path": "codex/years/2026/raw-input/2026-04-29/youtube-davis-johnson-iran-war-global-economic-shockwave-2026-04-29.md",
       "pub_date": "2026-04-29",
       "title": "youtube-davis-johnson-iran-war-global-economic-shockwave-2026-04-29",
       "evidence_grade": "legacy-appearance-only",
@@ -600,7 +600,7 @@
       "unresolved": false
     },
     {
-      "raw_input_path": "codex/2026/raw-input/2026-04-29/youtube-davis-macgregor-trump-dangerous-2026-04-29.md",
+      "raw_input_path": "codex/years/2026/raw-input/2026-04-29/youtube-davis-macgregor-trump-dangerous-2026-04-29.md",
       "pub_date": "2026-04-29",
       "title": "youtube-davis-macgregor-trump-dangerous-2026-04-29",
       "evidence_grade": "legacy-appearance-only",
@@ -629,33 +629,33 @@
   "warnings": [],
   "git_state": {
     "scoped_paths": [
-      "codex/2026/raw-input/2026-04-01/youtube-daniel-davis-deep-dive-professor-john-mearsheimer-trump-pulling-out-of-nato-2026-04-01.md",
-      "codex/2026/raw-input/2026-04-02/youtube-daniel-davis-deep-dive-latest-goals-in-iran-war-lt-col-daniel-davis-joe-kent-2026-04-02.md",
-      "codex/2026/raw-input/2026-04-03/transcript-davis-deep-dive-robert-barnes-war-crimes-hormuz-2026-04-03.md",
-      "codex/2026/raw-input/2026-04-05/youtube-daniel-davis-deep-dive-scott-ritter-we-don-t-control-the-skies-over-iran-2026-04-05.md",
-      "codex/2026/raw-input/2026-04-06/youtube-daniel-davis-deep-dive-iran-just-a-bunch-of-crazy-bastards-prof-marandi-lt-col-danel-davis-2026-04-06.md",
-      "codex/2026/raw-input/2026-04-08/youtube-daniel-davis-deep-dive-you-call-this-a-ceasefire-fmr-cia-analyst-larry-johnson-2026-04-08.md",
-      "codex/2026/raw-input/2026-04-13/youtube-daniel-davis-deep-dive-iran-war-whoever-drops-the-most-bombs-wins-lt-col-daniel-davis-chas-free-2026-04-13.md",
-      "codex/2026/raw-input/2026-04-13/youtube-daniel-davis-deep-dive-prof-john-mearsheimer-the-horrible-naval-blockade-in-hormuz-strait-2026-04-13.md",
-      "codex/2026/raw-input/2026-04-13/youtube-daniel-davis-deep-dive-professor-seyed-marandi-why-the-iran-talks-failed-2026-04-13.md",
-      "codex/2026/raw-input/2026-04-13/youtube-daniel-davis-deep-dive-scott-ritter-trump-s-blockade-is-a-joke-2026-04-13.md",
-      "codex/2026/raw-input/2026-04-16/transcript-davis.md",
-      "codex/2026/raw-input/2026-04-16/youtube-daniel-davis-deep-dive-fmr-cia-analyst-larry-johnson-iran-demands-not-changing-2026-04-16.md",
-      "codex/2026/raw-input/2026-04-17/transcript-davis.md",
-      "codex/2026/raw-input/2026-04-17/youtube-daniel-davis-deep-dive-hormuz-opening-ceasefire-ending-conflicting-messages-lt-col-daniel-davis-2026-04-17.md",
-      "codex/2026/raw-input/2026-04-17/youtube-daniel-davis-deep-dive-iran-more-war-seems-likely-professor-marandi-2026-04-17.md",
-      "codex/2026/raw-input/2026-04-18/transcript-davis.md",
-      "codex/2026/raw-input/2026-04-19/youtube-daniel-davis-deep-dive-back-on-the-warpath-in-iran-prof-marandi-lt-col-daniel-davis-2026-04-19.md",
-      "codex/2026/raw-input/2026-04-22/youtube-daniel-davis-deep-dive-iran-war-end-best-case-scenario-larry-johnson-lt-col-daniel-davis-2026-04-22.md",
-      "codex/2026/raw-input/2026-04-22/youtube-daniel-davis-deep-dive-professor-seyed-marandi-iran-s-resilient-leadership-2026-04-22.md",
-      "codex/2026/raw-input/2026-04-23/2026-04-23-davis.md",
-      "codex/2026/raw-input/2026-04-24/transcript-davis-deep-dive-robert-barnes-iran-rug-pull-behavioral-dementia-2026-04-24.md",
-      "codex/2026/raw-input/2026-04-25/2026-04-25-davis.md",
-      "codex/2026/raw-input/2026-04-26/2026-04-26-davis.md",
-      "codex/2026/raw-input/2026-04-27/2026-04-27-davis.md",
-      "codex/2026/raw-input/2026-04-28/2026-04-28-davis.md",
-      "codex/2026/raw-input/2026-04-29/youtube-davis-johnson-iran-war-global-economic-shockwave-2026-04-29.md",
-      "codex/2026/raw-input/2026-04-29/youtube-davis-macgregor-trump-dangerous-2026-04-29.md",
+      "codex/years/2026/raw-input/2026-04-01/youtube-daniel-davis-deep-dive-professor-john-mearsheimer-trump-pulling-out-of-nato-2026-04-01.md",
+      "codex/years/2026/raw-input/2026-04-02/youtube-daniel-davis-deep-dive-latest-goals-in-iran-war-lt-col-daniel-davis-joe-kent-2026-04-02.md",
+      "codex/years/2026/raw-input/2026-04-03/transcript-davis-deep-dive-robert-barnes-war-crimes-hormuz-2026-04-03.md",
+      "codex/years/2026/raw-input/2026-04-05/youtube-daniel-davis-deep-dive-scott-ritter-we-don-t-control-the-skies-over-iran-2026-04-05.md",
+      "codex/years/2026/raw-input/2026-04-06/youtube-daniel-davis-deep-dive-iran-just-a-bunch-of-crazy-bastards-prof-marandi-lt-col-danel-davis-2026-04-06.md",
+      "codex/years/2026/raw-input/2026-04-08/youtube-daniel-davis-deep-dive-you-call-this-a-ceasefire-fmr-cia-analyst-larry-johnson-2026-04-08.md",
+      "codex/years/2026/raw-input/2026-04-13/youtube-daniel-davis-deep-dive-iran-war-whoever-drops-the-most-bombs-wins-lt-col-daniel-davis-chas-free-2026-04-13.md",
+      "codex/years/2026/raw-input/2026-04-13/youtube-daniel-davis-deep-dive-prof-john-mearsheimer-the-horrible-naval-blockade-in-hormuz-strait-2026-04-13.md",
+      "codex/years/2026/raw-input/2026-04-13/youtube-daniel-davis-deep-dive-professor-seyed-marandi-why-the-iran-talks-failed-2026-04-13.md",
+      "codex/years/2026/raw-input/2026-04-13/youtube-daniel-davis-deep-dive-scott-ritter-trump-s-blockade-is-a-joke-2026-04-13.md",
+      "codex/years/2026/raw-input/2026-04-16/transcript-davis.md",
+      "codex/years/2026/raw-input/2026-04-16/youtube-daniel-davis-deep-dive-fmr-cia-analyst-larry-johnson-iran-demands-not-changing-2026-04-16.md",
+      "codex/years/2026/raw-input/2026-04-17/transcript-davis.md",
+      "codex/years/2026/raw-input/2026-04-17/youtube-daniel-davis-deep-dive-hormuz-opening-ceasefire-ending-conflicting-messages-lt-col-daniel-davis-2026-04-17.md",
+      "codex/years/2026/raw-input/2026-04-17/youtube-daniel-davis-deep-dive-iran-more-war-seems-likely-professor-marandi-2026-04-17.md",
+      "codex/years/2026/raw-input/2026-04-18/transcript-davis.md",
+      "codex/years/2026/raw-input/2026-04-19/youtube-daniel-davis-deep-dive-back-on-the-warpath-in-iran-prof-marandi-lt-col-daniel-davis-2026-04-19.md",
+      "codex/years/2026/raw-input/2026-04-22/youtube-daniel-davis-deep-dive-iran-war-end-best-case-scenario-larry-johnson-lt-col-daniel-davis-2026-04-22.md",
+      "codex/years/2026/raw-input/2026-04-22/youtube-daniel-davis-deep-dive-professor-seyed-marandi-iran-s-resilient-leadership-2026-04-22.md",
+      "codex/years/2026/raw-input/2026-04-23/2026-04-23-davis.md",
+      "codex/years/2026/raw-input/2026-04-24/transcript-davis-deep-dive-robert-barnes-iran-rug-pull-behavioral-dementia-2026-04-24.md",
+      "codex/years/2026/raw-input/2026-04-25/2026-04-25-davis.md",
+      "codex/years/2026/raw-input/2026-04-26/2026-04-26-davis.md",
+      "codex/years/2026/raw-input/2026-04-27/2026-04-27-davis.md",
+      "codex/years/2026/raw-input/2026-04-28/2026-04-28-davis.md",
+      "codex/years/2026/raw-input/2026-04-29/youtube-davis-johnson-iran-war-global-economic-shockwave-2026-04-29.md",
+      "codex/years/2026/raw-input/2026-04-29/youtube-davis-macgregor-trump-dangerous-2026-04-29.md",
       "artifacts/host-shelf-quality/2026/davis/2026-04/quality-summary.json",
       "artifacts/host-shelf-quality/2026/davis/2026-04/quality-summary.md"
     ],
@@ -666,7 +666,7 @@
     "dirty_paths": [
       "?? artifacts/host-shelf-quality/2026/davis/2026-04/quality-summary.json",
       "?? artifacts/host-shelf-quality/2026/davis/2026-04/quality-summary.md",
-      "?? codex/2026/raw-input/2026-04-02/youtube-daniel-davis-deep-dive-latest-goals-in-iran-war-lt-col-daniel-davis-joe-kent-2026-04-02.md"
+      "?? codex/years/2026/raw-input/2026-04-02/youtube-daniel-davis-deep-dive-latest-goals-in-iran-war-lt-col-daniel-davis-joe-kent-2026-04-02.md"
     ],
     "dirty_path_count": 3,
     "upstream": "origin/main",

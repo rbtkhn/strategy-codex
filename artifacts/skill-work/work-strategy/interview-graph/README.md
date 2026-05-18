@@ -46,5 +46,5 @@ python3 scripts/build_two_pillar_notebook_graph.py
 
 ## Corpus Path
 
-The graph reads shared raw input from `codex/2026/raw-input/` by default. First-class stream shelves live under `codex/2026/<author>/`; `codex/experts/` is a deprecated compatibility pointer.
+The graph reads shared raw input from `codex/years/2026/raw-input/` by default. First-class stream shelves live under `codex/years/2026/<author>/`; `codex/experts/` is a deprecated compatibility pointer.
 

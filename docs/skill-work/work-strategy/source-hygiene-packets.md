@@ -1,4 +1,4 @@
-﻿# Source-hygiene packets
+# Source-hygiene packets
 
 **Purpose:** A source-hygiene packet is a compact WORK-layer packaging move for a live seam that is strategically useful but not yet clean enough to compose directly into `days.md`, a weave, or a stronger notebook judgment.
 
@@ -81,8 +81,8 @@ Use when:
 
 Example:
 
-- [pape-page-2026-04-29-youtube-pape-grim-nuclear-iran-inevitable.md](../../../codex/2026/pape/pape-page-2026-04-29-youtube-pape-grim-nuclear-iran-inevitable.md)
-- [pape-source-hygiene-2026-04-29-pape-grim.md](../../../codex/2026/pape/pape-source-hygiene-2026-04-29-pape-grim.md)
+- [pape-page-2026-04-29-youtube-pape-grim-nuclear-iran-inevitable.md](../../../codex/years/2026/pape/pape-page-2026-04-29-youtube-pape-grim-nuclear-iran-inevitable.md)
+- [pape-source-hygiene-2026-04-29-pape-grim.md](../../../codex/years/2026/pape/pape-source-hygiene-2026-04-29-pape-grim.md)
 
 ### 2. Process packet
 
@@ -95,8 +95,8 @@ Use when:
 
 Example:
 
-- [parsi-page-2026-04-21-x-ceasefire-hormuz-cluster.md](../../../codex/2026/parsi/parsi-page-2026-04-21-x-ceasefire-hormuz-cluster.md)
-- [parsi-source-hygiene-2026-04-21-ceasefire-hormuz.md](../../../codex/2026/parsi/parsi-source-hygiene-2026-04-21-ceasefire-hormuz.md)
+- [parsi-page-2026-04-21-x-ceasefire-hormuz-cluster.md](../../../codex/years/2026/parsi/parsi-page-2026-04-21-x-ceasefire-hormuz-cluster.md)
+- [parsi-source-hygiene-2026-04-21-ceasefire-hormuz.md](../../../codex/years/2026/parsi/parsi-source-hygiene-2026-04-21-ceasefire-hormuz.md)
 
 ### 3. Register packet
 
@@ -109,8 +109,8 @@ Use when:
 
 Example:
 
-- [marandi-page-2026-04-21-blockade-islamabad-hormuz.md](../../../codex/2026/speakers/marandi/marandi-page-2026-04-21-blockade-islamabad-hormuz.md)
-- [marandi-source-hygiene-2026-04-21-blockade-islamabad-hormuz.md](../../../codex/2026/speakers/marandi/marandi-source-hygiene-2026-04-21-blockade-islamabad-hormuz.md)
+- [marandi-page-2026-04-21-blockade-islamabad-hormuz.md](../../../codex/speakers/marandi/marandi-page-2026-04-21-blockade-islamabad-hormuz.md)
+- [marandi-source-hygiene-2026-04-21-blockade-islamabad-hormuz.md](../../../codex/speakers/marandi/marandi-source-hygiene-2026-04-21-blockade-islamabad-hormuz.md)
 
 ## Placement rules
 

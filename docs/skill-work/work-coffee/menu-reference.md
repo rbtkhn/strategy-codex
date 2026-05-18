@@ -1,6 +1,6 @@
-﻿# Coffee ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â menu and protocol reference
+# Coffee ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â menu and protocol reference
 
-**Canonical Step 2 menu (strategy-codex):** **four** hub lines ? **A** Steward, **B** Engineer, **C** Strategist, **D** Singularity. **D. Singularity** activates the WORK-only academy-singularity module at [Singularity Workshop](../../../codex/2026/academy/singularity/workshop/README.md). **Conductor** is standalone only and opens by master name, `conductor`, or the conductor skill; it is not a coffee hub letter.
+**Canonical Step 2 menu (strategy-codex):** **four** hub lines ? **A** Steward, **B** Engineer, **C** Strategist, **D** Singularity. **D. Singularity** activates the WORK-only academy-singularity module at [Singularity Workshop](../../../codex/academy/singularity/workshop/README.md). **Conductor** is standalone only and opens by master name, `conductor`, or the conductor skill; it is not a coffee hub letter.
 
 **Deprecation guard:** `companion-self` template sync and Grace-Mar-vs-template reconciliation are legacy/archive lanes in strategy-codex. Do not invoke them from bare **A. Steward**, `coffee`, integrity, or boundary hygiene unless the operator explicitly asks for that obsolete migration context.
 
@@ -19,7 +19,7 @@ C. I will show the exact before-and-after coffee menu text and verify the result
 
 **C-C Bridge idea pack / `skill-elicitation`:** [.cursor/skills/skill-elicitation/SKILL.md](../../../.cursor/skills/skill-elicitation/SKILL.md) may be offered inside **Bridge idea pack** when strategy-codex work is blocked by ambiguous stream ownership, page shape, raw-input routing, contrapuntal comparison, or civ-mem lens choice. It is an optional checkpoint, not a new hub line, and it must not run automatically during Step 1.
 
-**Singularity D - academy-singularity module:** D uses [Singularity Workshop](../../../codex/2026/academy/singularity/workshop/README.md) for agency under acceleration, agent-control-plane work, alignment/substrate/displacement tests, and reusable strategy artifacts. Legacy Capitalist / bookshelf-product work no longer owns coffee D; route it by explicit `write`, `skill-write`, `work-business`, or commercial request.
+**Singularity D - academy-singularity module:** D uses [Singularity Workshop](../../../codex/academy/singularity/workshop/README.md) for agency under acceleration, agent-control-plane work, alignment/substrate/displacement tests, and reusable strategy artifacts. Legacy Capitalist / bookshelf-product work no longer owns coffee D; route it by explicit `write`, `skill-write`, `work-business`, or commercial request.
 
 **Symphony / Conductor:** [COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md](../../../codex/COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md) + [CONDUCTOR-PASS.md](CONDUCTOR-PASS.md). **Conductor** is standalone only; use `conductor` or a master name without opening `coffee`. **self-skill-write** / PRP / Lexile / prompt proposals route by explicit **`write`** / **`skill-write`** without opening **`coffee`**, or through **B** / **C** when the request is implementation or strategy.
 

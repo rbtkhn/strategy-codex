@@ -29,10 +29,15 @@ def _rel(path: Path) -> str:
 
 def _default_notebook_root(path: Path, year: int) -> Path:
     parts = list(path.resolve().parts)
-    for index, part in enumerate(parts[:-1]):
-        if part == "codex" and index + 1 < len(parts) and parts[index + 1] == str(year):
-            return Path(*parts[: index + 2])
-    return REPO_ROOT / "codex" / str(year)
+    for index, part in enumerate(parts[:-2]):
+        if (
+            part == "codex"
+            and index + 2 < len(parts)
+            and parts[index + 1] == "years"
+            and parts[index + 2] == str(year)
+        ):
+            return Path(*parts[: index + 3])
+    return REPO_ROOT / "codex" / "years" / str(year)
 
 
 def _legacy_transcript_warning(artifact: dict[str, Any]) -> str:

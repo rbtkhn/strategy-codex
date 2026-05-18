@@ -10,9 +10,9 @@ Scope: local raw captures, existing cognition-stream artifacts, YouTube title sw
 
 ## Local Capture
 
-- [transcript-duran-mercouris-barnes-fractured-iran-trump-2026-04-23.md](../../../../codex/2026/raw-input/2026-04-23/transcript-duran-mercouris-barnes-fractured-iran-trump-2026-04-23.md)
-- [transcript-duran-mercouris-barnes-regime-change-escalator-2026-01-13.md](../../../../codex/2026/raw-input/2026-01-13/transcript-duran-mercouris-barnes-regime-change-escalator-2026-01-13.md) (full operator paste)
-- [transcript-duran-mercouris-barnes-open-ended-iran-war-2026-03-04.md](../../../../codex/2026/raw-input/2026-03-04/transcript-duran-mercouris-barnes-open-ended-iran-war-2026-03-04.md) (full operator paste)
+- [transcript-duran-mercouris-barnes-fractured-iran-trump-2026-04-23.md](../../../../codex/years/2026/raw-input/2026-04-23/transcript-duran-mercouris-barnes-fractured-iran-trump-2026-04-23.md)
+- [transcript-duran-mercouris-barnes-regime-change-escalator-2026-01-13.md](../../../../codex/years/2026/raw-input/2026-01-13/transcript-duran-mercouris-barnes-regime-change-escalator-2026-01-13.md) (full operator paste)
+- [transcript-duran-mercouris-barnes-open-ended-iran-war-2026-03-04.md](../../../../codex/years/2026/raw-input/2026-03-04/transcript-duran-mercouris-barnes-open-ended-iran-war-2026-03-04.md) (full operator paste)
 
 ## Evidence Notes
 

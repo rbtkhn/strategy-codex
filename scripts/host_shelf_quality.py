@@ -299,7 +299,7 @@ def build_quality_summary(
 ) -> dict[str, Any]:
     host_slug = _host_slug(host)
     raw_paths = filter_host_month_paths(raw_paths, host=host_slug, year=year, month_label=month_label)
-    inventory = speaker_routing._discover_inventory(notebook_root / "speakers", notebook_root)  # noqa: SLF001
+    inventory = speaker_routing._discover_inventory(speaker_routing.DEFAULT_SPEAKERS_DIR, notebook_root)  # noqa: SLF001
     routeable_rows = speaker_routing.build_rows(raw_paths, inventory, notebook_root)
     unresolved_rows = speaker_routing.build_unresolved_rows(raw_paths, inventory)
     routeable_paths = {row["raw_input_path"] for row in routeable_rows}
@@ -545,7 +545,7 @@ def build_parser() -> argparse.ArgumentParser:
 def main(argv: list[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
     month, month_label = _parse_month(args.year, args.month)
-    notebook_root = args.notebook_root or (REPO_ROOT / "codex" / str(args.year))
+    notebook_root = args.notebook_root or (REPO_ROOT / "codex" / "years" / str(args.year))
     raw_paths = discover_raw_inputs(
         notebook_root=notebook_root,
         year=args.year,

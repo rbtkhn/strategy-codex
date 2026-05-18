@@ -8,4 +8,4 @@ WORK only; not Record.
 
 ## Files
 
-- `100` `cleaned-transcript-80` - `codex/2026/raw-input/2026-01-01/transcript-dialogue-works-andrei-martyanov-it-s-all-over-iran-russia-just-went-all-in-2026-01-01.cleaned.md` from `codex/2026/raw-input/2026-01-01/transcript-dialogue-works-andrei-martyanov-it-s-all-over-iran-russia-just-went-all-in-2026-01-01.md`
+- `100` `cleaned-transcript-80` - `codex/years/2026/raw-input/2026-01-01/transcript-dialogue-works-andrei-martyanov-it-s-all-over-iran-russia-just-went-all-in-2026-01-01.cleaned.md` from `codex/years/2026/raw-input/2026-01-01/transcript-dialogue-works-andrei-martyanov-it-s-all-over-iran-russia-just-went-all-in-2026-01-01.md`

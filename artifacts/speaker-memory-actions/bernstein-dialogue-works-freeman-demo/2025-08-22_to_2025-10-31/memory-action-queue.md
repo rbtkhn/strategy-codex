@@ -4,6 +4,6 @@ WORK only; not Record.
 
 Window: `2025-08-22` to `2025-10-31`
 
-- `high` `update-existing-arc` `codex/2026/alkorshid/alkorshid-freeman-speaker-arc.md` (4 appearance(s))
+- `high` `update-existing-arc` `codex/years/2026/alkorshid/alkorshid-freeman-speaker-arc.md` (4 appearance(s))
   - reason: Appearance routes to an existing host-local speaker arc.
   - operator: Review the raw-input and update the existing speaker arc if it changes the ranked arc set, open-first choice, or boundary.

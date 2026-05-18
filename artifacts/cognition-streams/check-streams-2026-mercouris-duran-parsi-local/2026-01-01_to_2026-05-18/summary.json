@@ -17,7 +17,7 @@
   },
   "query": "Trita Parsi",
   "discovery_scope": [
-    "local raw-input search under codex/2026/raw-input/2026-*",
+    "local raw-input search under codex/years/2026/raw-input/2026-*",
     "existing cognition-stream artifact search",
     "ytsearch queries for Mercouris / Duran / Trita Parsi",
     "The Duran YouTube uploads title sweep for Parsi",
@@ -32,7 +32,7 @@
       "youtube_id": "Pv7003ksQQ4",
       "title": "US Superpower Myth Shattered w/ Trita Parsi",
       "url": "https://www.youtube.com/watch?v=Pv7003ksQQ4",
-      "raw_capture_path": "codex/2026/raw-input/2026-05-06/transcript-duran-mercouris-trita-parsi-us-iran-blockade-diplomacy-2026-05-06.md",
+      "raw_capture_path": "codex/years/2026/raw-input/2026-05-06/transcript-duran-mercouris-trita-parsi-us-iran-blockade-diplomacy-2026-05-06.md",
       "capture_status": "captured-main",
       "local_title": "Mercouris and Trita Parsi on the US-Iran blockade, Hormuz, and diplomacy",
       "notes": [

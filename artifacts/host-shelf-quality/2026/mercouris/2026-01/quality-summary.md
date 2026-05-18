@@ -23,9 +23,9 @@ WORK only; not Record.
 
 ## Unresolved Speakers
 
-- `2026-01-02` Zelensky Sidelined Budanov Named No. 2; CIA Role In Drone Strikes Confirmed; Insurgency After Defeat - `codex/2026/raw-input/2026-01-02/youtube-alex-mercouris-zelensky-sidelined-budanov-named-no-2-cia-role-in-drone-strikes-confirme-2026-01-02.md`
+- `2026-01-02` Zelensky Sidelined Budanov Named No. 2; CIA Role In Drone Strikes Confirmed; Insurgency After Defeat - `codex/years/2026/raw-input/2026-01-02/youtube-alex-mercouris-zelensky-sidelined-budanov-named-no-2-cia-role-in-drone-strikes-confirme-2026-01-02.md`
 
 ## Raw Inputs
 
-- `2026-01-02` `transcript-grade` `8975` words (unresolved) - `codex/2026/raw-input/2026-01-02/youtube-alex-mercouris-zelensky-sidelined-budanov-named-no-2-cia-role-in-drone-strikes-confirme-2026-01-02.md`
+- `2026-01-02` `transcript-grade` `8975` words (unresolved) - `codex/years/2026/raw-input/2026-01-02/youtube-alex-mercouris-zelensky-sidelined-budanov-named-no-2-cia-role-in-drone-strikes-confirme-2026-01-02.md`
   - note: Atomic materialization verified a non-stub subtitle body before success was reported.

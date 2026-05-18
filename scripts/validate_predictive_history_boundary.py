@@ -20,7 +20,7 @@ ALLOWED_FROZEN_PATHS = frozenset(
     {
         "codex/predictive-history/README.md",
         "codex/predictive-history/README-operator.md",
-        "codex/2026/supporting-voices/jiang/jiang-profile.md",
+        "codex/years/2026/supporting-voices/jiang/jiang-profile.md",
         "research/external/youtube-channels/predictive-history/README.md",
         "research/external/work-strategy/transcripts/README.md",
         "docs/predictive-history-external-boundary.md",

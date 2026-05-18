@@ -76,14 +76,14 @@ def test_guest_matching_existing_speaker_object_routes_to_object_and_candidate_a
     assert row["recommended_route"].endswith("speakers/ritter/ritter-speaker-object.md")
     assert row["primary_route"] == row["recommended_route"]
     assert row["next_action"] == "create-candidate-arc"
-    assert row["also_strengthens"][0].endswith("codex/2026/alkorshid/alkorshid-ritter-speaker-arc.md")
+    assert row["also_strengthens"][0].endswith("codex/years/2026/alkorshid/alkorshid-ritter-speaker-arc.md")
     assert row["appearance"]["appearance_id"].startswith("ap-")
     assert row["appearance"]["speaker"] == "Scott Ritter"
     assert row["appearance"]["speaker_slug"] == "ritter"
     assert row["appearance"]["host_slug"] == "alkorshid"
     assert row["appearance"]["speaker_resolution"] == "guest-metadata-match"
     assert row["appearance"]["raw_input_path"].endswith(
-        "codex/2026/raw-input/2026-05-12/dialogue-works-ritter.md"
+        "codex/years/2026/raw-input/2026-05-12/dialogue-works-ritter.md"
     )
     assert row["confidence"] == "high"
     assert row["evidence_grade"] == "legacy-appearance-only"
@@ -118,8 +118,8 @@ def test_existing_speaker_object_and_arc_routes_to_arc_primary(tmp_path: Path) -
     assert _endswith_all(
         row["also_strengthens"],
         [
-            "codex/2026/speakers/macgregor/macgregor-speaker-object.md",
-            "codex/2026/speakers/macgregor/macgregor-cross-host-note.md",
+            "codex/speakers/macgregor/macgregor-speaker-object.md",
+            "codex/speakers/macgregor/macgregor-cross-host-note.md",
         ],
     )
 

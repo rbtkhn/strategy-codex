@@ -1,3 +1,3 @@
-[submodule "codex/2026/academy/ph-civ"]
-	path = codex/2026/academy/ph-civ
+[submodule "codex/academy/ph-civ"]
+	path = codex/academy/ph-civ
 	url = https://github.com/rbtkhn/ph-civ.git

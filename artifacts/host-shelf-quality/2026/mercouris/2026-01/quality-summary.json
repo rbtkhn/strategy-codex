@@ -28,7 +28,7 @@
   "unresolved_speaker_count": 1,
   "unresolved_speakers": [
     {
-      "raw_input_path": "codex/2026/raw-input/2026-01-02/youtube-alex-mercouris-zelensky-sidelined-budanov-named-no-2-cia-role-in-drone-strikes-confirme-2026-01-02.md",
+      "raw_input_path": "codex/years/2026/raw-input/2026-01-02/youtube-alex-mercouris-zelensky-sidelined-budanov-named-no-2-cia-role-in-drone-strikes-confirme-2026-01-02.md",
       "pub_date": "2026-01-02",
       "title": "Zelensky Sidelined Budanov Named No. 2; CIA Role In Drone Strikes Confirmed; Insurgency After Defeat",
       "source_url": "https://www.youtube.com/watch?v=3C8k0XL8qa8",
@@ -49,7 +49,7 @@
         "title": "Zelensky Sidelined Budanov Named No. 2; CIA Role In Drone Strikes Confirmed; Insurgency After Defeat",
         "source_url": "https://www.youtube.com/watch?v=3C8k0XL8qa8",
         "youtube_id": "3C8k0XL8qa8",
-        "raw_input_path": "codex/2026/raw-input/2026-01-02/youtube-alex-mercouris-zelensky-sidelined-budanov-named-no-2-cia-role-in-drone-strikes-confirme-2026-01-02.md",
+        "raw_input_path": "codex/years/2026/raw-input/2026-01-02/youtube-alex-mercouris-zelensky-sidelined-budanov-named-no-2-cia-role-in-drone-strikes-confirme-2026-01-02.md",
         "speaker_resolution": "",
         "guest_inference": ""
       },
@@ -59,7 +59,7 @@
   ],
   "artifacts": [
     {
-      "raw_input_path": "codex/2026/raw-input/2026-01-02/youtube-alex-mercouris-zelensky-sidelined-budanov-named-no-2-cia-role-in-drone-strikes-confirme-2026-01-02.md",
+      "raw_input_path": "codex/years/2026/raw-input/2026-01-02/youtube-alex-mercouris-zelensky-sidelined-budanov-named-no-2-cia-role-in-drone-strikes-confirme-2026-01-02.md",
       "pub_date": "2026-01-02",
       "title": "Zelensky Sidelined Budanov Named No. 2; CIA Role In Drone Strikes Confirmed; Insurgency After Defeat",
       "evidence_grade": "transcript-grade",
@@ -88,7 +88,7 @@
   "warnings": [],
   "git_state": {
     "scoped_paths": [
-      "codex/2026/raw-input/2026-01-02/youtube-alex-mercouris-zelensky-sidelined-budanov-named-no-2-cia-role-in-drone-strikes-confirme-2026-01-02.md",
+      "codex/years/2026/raw-input/2026-01-02/youtube-alex-mercouris-zelensky-sidelined-budanov-named-no-2-cia-role-in-drone-strikes-confirme-2026-01-02.md",
       "artifacts/host-shelf-quality/2026/mercouris/2026-01/quality-summary.json",
       "artifacts/host-shelf-quality/2026/mercouris/2026-01/quality-summary.md"
     ],
@@ -97,7 +97,7 @@
     "committed": false,
     "pushed": false,
     "dirty_paths": [
-      " M codex/2026/raw-input/2026-01-02/youtube-alex-mercouris-zelensky-sidelined-budanov-named-no-2-cia-role-in-drone-strikes-confirme-2026-01-02.md",
+      " M codex/years/2026/raw-input/2026-01-02/youtube-alex-mercouris-zelensky-sidelined-budanov-named-no-2-cia-role-in-drone-strikes-confirme-2026-01-02.md",
       "?? artifacts/host-shelf-quality/2026/mercouris/2026-01/quality-summary.json",
       "?? artifacts/host-shelf-quality/2026/mercouris/2026-01/quality-summary.md"
     ],

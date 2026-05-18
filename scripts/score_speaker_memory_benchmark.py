@@ -44,12 +44,12 @@ REPAIR_ROUTING = {
 }
 
 DEFAULT_TARGETS = {
-    "sm-1-speaker-object-repair": "codex/2026/speakers/sachs/sachs-speaker-object.md",
-    "sm-2-speaker-arc-ranking": "codex/2026/diesen/diesen-freeman-speaker-arc.md",
+    "sm-1-speaker-object-repair": "codex/speakers/sachs/sachs-speaker-object.md",
+    "sm-2-speaker-arc-ranking": "codex/years/2026/diesen/diesen-freeman-speaker-arc.md",
 }
 
 TARGET_BY_TYPE = {
-    "template": "codex/2026/speakers/_templates/speaker-arc-template.md",
+    "template": "codex/speakers/_templates/speaker-arc-template.md",
     "fixture": "artifacts/benchmarks/speaker-memory/fixtures",
     "rubric": "artifacts/benchmarks/speaker-memory/fixtures",
     "prompt": "artifacts/benchmarks/speaker-memory/fixtures",

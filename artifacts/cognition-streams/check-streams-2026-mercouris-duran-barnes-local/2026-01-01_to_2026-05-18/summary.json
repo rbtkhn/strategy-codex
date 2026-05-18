@@ -1,4 +1,4 @@
-﻿{
+{
     "check":  "mercouris-duran-barnes-2026",
     "status":  "captured-current-window",
     "window":  {
@@ -17,7 +17,7 @@
                },
     "query":  "Robert Barnes",
     "discovery_scope":  [
-                            "local raw-input search under codex/2026/raw-input/2026-*",
+                            "local raw-input search under codex/years/2026/raw-input/2026-*",
                             "existing cognition-stream artifact search",
                             "ytsearch queries for Mercouris / Duran / Robert Barnes",
                             "The Duran YouTube streams title sweep for Barnes",
@@ -33,7 +33,7 @@
                                "youtube_id":  "O3tOyjSUs0M",
                                "title":  "Regime change escalator w/ Robert Barnes (Live)",
                                "url":  "https://www.youtube.com/watch?v=O3tOyjSUs0M",
-                               "raw_capture_path":  "codex/2026/raw-input/2026-01-13/transcript-duran-mercouris-barnes-regime-change-escalator-2026-01-13.md",
+                               "raw_capture_path":  "codex/years/2026/raw-input/2026-01-13/transcript-duran-mercouris-barnes-regime-change-escalator-2026-01-13.md",
                                "capture_status":  "full-operator-paste",
                                "notes":  [
                                              "Operator pasted the YouTube transcript on 2026-05-18.",
@@ -47,7 +47,7 @@
                                "youtube_id":  "HRu-Z7AsKIY",
                                "title":  "Open-ended Iran War (Live) with Matthew Ehret \u0026 Robert Barnes",
                                "url":  "https://www.youtube.com/watch?v=HRu-Z7AsKIY",
-                               "raw_capture_path":  "codex/2026/raw-input/2026-03-04/transcript-duran-mercouris-barnes-open-ended-iran-war-2026-03-04.md",
+                               "raw_capture_path":  "codex/years/2026/raw-input/2026-03-04/transcript-duran-mercouris-barnes-open-ended-iran-war-2026-03-04.md",
                                "capture_status":  "full-operator-paste",
                                "notes":  [
                                              "Operator pasted the YouTube transcript on 2026-05-18.",
@@ -60,7 +60,7 @@
                                "youtube_id":  "XNq8TjkMeSc",
                                "title":  "Fractured Iran or fractured Trump? w/ Robert Barnes (Live)",
                                "url":  "https://www.youtube.com/watch?v=XNq8TjkMeSc",
-                               "raw_capture_path":  "codex/2026/raw-input/2026-04-23/transcript-duran-mercouris-barnes-fractured-iran-trump-2026-04-23.md",
+                               "raw_capture_path":  "codex/years/2026/raw-input/2026-04-23/transcript-duran-mercouris-barnes-fractured-iran-trump-2026-04-23.md",
                                "capture_status":  "captured-main",
                                "notes":  [
                                              "Local transcript is speaker-labeled and includes Alexander Mercouris, Robert Barnes, and Alex Christoforou.",

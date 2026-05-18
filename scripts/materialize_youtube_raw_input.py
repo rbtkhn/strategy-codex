@@ -42,7 +42,7 @@ WATCHLIST_PATH = (
     / "work-strategy"
     / "cognition-streams-watchlist.json"
 )
-DEFAULT_NOTEBOOK_ROOT = REPO_ROOT / "codex" / str(date.today().year)
+DEFAULT_NOTEBOOK_ROOT = REPO_ROOT / "codex" / "years" / str(date.today().year)
 DEFAULT_RECEIPT_ROOT = REPO_ROOT / ".codex-tmp" / "youtube-raw-input"
 DEFAULT_ROUTING_OUT = REPO_ROOT / "artifacts" / "speaker-routing"
 DEFAULT_ACTION_OUT = REPO_ROOT / "artifacts" / "speaker-memory-actions"
@@ -285,7 +285,7 @@ def find_existing_valid_raw_input(notebook_root: Path, url: str) -> tuple[Path, 
 
 
 def infer_guest_from_title(title: str, notebook_root: Path) -> tuple[str | None, str | None]:
-    speakers_dir = notebook_root / "speakers"
+    speakers_dir = speaker_routing.DEFAULT_SPEAKERS_DIR
     if not speakers_dir.is_dir():
         return None, None
     title_text = f" {title.casefold()} "
@@ -734,7 +734,7 @@ def build_appearance_artifacts(
     if not raw_paths:
         return {}
     start, end = speaker_routing.window_for_raw_paths(raw_paths)
-    inventory = speaker_routing._discover_inventory(notebook_root / "speakers", notebook_root)
+    inventory = speaker_routing._discover_inventory(speaker_routing.DEFAULT_SPEAKERS_DIR, notebook_root)
     routing_rows = speaker_routing.build_rows(raw_paths, inventory, notebook_root)
     unresolved_rows = speaker_routing.build_unresolved_rows(raw_paths, inventory)
     paths = {

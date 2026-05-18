@@ -26,7 +26,7 @@ def test_coffee_hub_canonical_lines_are_a_through_d_only() -> None:
     assert "A. Steward" in text
     assert "B. Engineer" in text
     assert "C. Strategist" in text
-    assert "D. Capitalist" in text
+    assert "D. Singularity" in text
     assert "Conductor is standalone" in text
     assert "E. Conductor" not in text
 
@@ -39,6 +39,6 @@ def test_assess_load_annotations_do_not_reintroduce_hub_e() -> None:
     assert "**A. Steward**" in menu
     assert "**B. Engineer**" in menu
     assert "**C. Strategist**" in menu
-    assert "**D. Capitalist**" in menu
+    assert "**D. Singularity**" in menu
     assert "**E." not in menu
     assert "Conductor" not in menu

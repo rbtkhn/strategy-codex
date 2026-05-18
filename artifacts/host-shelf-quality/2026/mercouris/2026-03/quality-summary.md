@@ -23,13 +23,13 @@ WORK only; not Record.
 
 ## Unresolved Speakers
 
-- `2026-03-01` Iran Defiant After Khamenei Death; Picks New Leaders Closes Hormuz Continues Strikes; Russia Backing - `codex/2026/raw-input/2026-03-01/youtube-alex-mercouris-iran-defiant-after-khamenei-death-picks-new-leaders-closes-hormuz-contin-2026-03-01.md`
+- `2026-03-01` Iran Defiant After Khamenei Death; Picks New Leaders Closes Hormuz Continues Strikes; Russia Backing - `codex/years/2026/raw-input/2026-03-01/youtube-alex-mercouris-iran-defiant-after-khamenei-death-picks-new-leaders-closes-hormuz-contin-2026-03-01.md`
 
 ## Residual Noise
 
-- `2026-03-01` `Zalinski`, `Zilinski` - `codex/2026/raw-input/2026-03-01/youtube-alex-mercouris-iran-defiant-after-khamenei-death-picks-new-leaders-closes-hormuz-contin-2026-03-01.md`
+- `2026-03-01` `Zalinski`, `Zilinski` - `codex/years/2026/raw-input/2026-03-01/youtube-alex-mercouris-iran-defiant-after-khamenei-death-picks-new-leaders-closes-hormuz-contin-2026-03-01.md`
 
 ## Raw Inputs
 
-- `2026-03-01` `transcript-bearing` `8649` words (unresolved) - `codex/2026/raw-input/2026-03-01/youtube-alex-mercouris-iran-defiant-after-khamenei-death-picks-new-leaders-closes-hormuz-contin-2026-03-01.md`
+- `2026-03-01` `transcript-bearing` `8649` words (unresolved) - `codex/years/2026/raw-input/2026-03-01/youtube-alex-mercouris-iran-defiant-after-khamenei-death-picks-new-leaders-closes-hormuz-contin-2026-03-01.md`
   - note: Operator-pasted transcript body; not independently verified as verbatim.

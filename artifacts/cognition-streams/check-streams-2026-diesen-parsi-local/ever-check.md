@@ -12,7 +12,7 @@ Confirmed direct Glenn Diesen interview found:
 
 No earlier direct Glenn Diesen upload with `Trita` or `Parsi` in the title surfaced from:
 
-- local raw captures under `codex/2026/raw-input/**/youtube-glenn-diesen*.md`
+- local raw captures under `codex/years/2026/raw-input/**/youtube-glenn-diesen*.md`
 - local cognition-stream ledgers
 - `yt-dlp --flat-playlist --match-title "Parsi" https://www.youtube.com/@GDiesen1/videos`
 - `ytsearch` queries for `Glenn Diesen Trita Parsi` and `Trita Parsi Glenn Diesen Show`
@@ -28,7 +28,7 @@ Larry Johnson described this as a Mario-hosted lineup that included Glenn Diesen
 
 ## False Positives
 
-- `codex/2026/raw-input/2025-12-03/youtube-glenn-diesen-lawrence-wilkerson-lawrence-wilkerson-legitimacy-of-the-u-s-empire-collapses-2025-12-03.md` contains the word `parsing`, not `Parsi`.
+- `codex/years/2026/raw-input/2025-12-03/youtube-glenn-diesen-lawrence-wilkerson-lawrence-wilkerson-legitimacy-of-the-u-s-empire-collapses-2025-12-03.md` contains the word `parsing`, not `Parsi`.
 - `XICmFTKP6a0` has a Parsi title but the uploader surfaced as `treztiffanyyy`, not Glenn Diesen.
 
 ## Confidence
