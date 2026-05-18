@@ -19,7 +19,7 @@ import re
 from typing import Iterable
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_WORKSHOP = REPO_ROOT / "codex/2026/academy/singularity/workshop"
+DEFAULT_WORKSHOP = REPO_ROOT / "codex/academy/singularity/workshop"
 DEFAULT_RAW_ROOT = DEFAULT_WORKSHOP / "raw-input/innermost-loop"
 DEFAULT_OUT_DIR = DEFAULT_WORKSHOP / "longitudinal"
 DEFAULT_README = DEFAULT_WORKSHOP / "README.md"

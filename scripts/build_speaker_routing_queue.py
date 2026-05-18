@@ -25,10 +25,11 @@ if str(SCRIPTS_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPTS_DIR))
 
 from yaml_compat import safe_load_text  # noqa: E402
+from codex_paths import speakers_root, year_root  # noqa: E402
 
 
-DEFAULT_NOTEBOOK_ROOT = REPO_ROOT / "codex" / str(date.today().year)
-DEFAULT_SPEAKERS_DIR = DEFAULT_NOTEBOOK_ROOT / "speakers"
+DEFAULT_NOTEBOOK_ROOT = year_root()
+DEFAULT_SPEAKERS_DIR = speakers_root()
 DEFAULT_OUT_DIR = REPO_ROOT / "artifacts" / "speaker-routing"
 EVIDENCE_GRADES = {
     "transcript-grade",
@@ -557,7 +558,7 @@ def main(argv: list[str] | None = None) -> int:
     args = parse_args(argv)
 
     notebook_root = args.notebook_root.resolve()
-    speakers_dir = (args.speakers_dir or (notebook_root / "speakers")).resolve()
+    speakers_dir = (args.speakers_dir or DEFAULT_SPEAKERS_DIR).resolve()
     raw_root = notebook_root / "raw-input"
     inventory = _discover_inventory(speakers_dir, notebook_root)
     explicit_paths = list(args.raw_input)

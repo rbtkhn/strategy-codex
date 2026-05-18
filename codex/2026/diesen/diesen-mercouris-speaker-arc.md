@@ -37,11 +37,11 @@ If the operator needs the raw source:
 
 If the operator needs Mercouris as speaker object:
 
-- open [mercouris-speaker-object.md](/C:/dev/strategy-codex/codex/2026/speakers/mercouris/mercouris-speaker-object.md)
+- open [mercouris-speaker-object.md](/C:/dev/strategy-codex/codex/speakers/mercouris/mercouris-speaker-object.md)
 
 If the operator needs Diesen as host-native stream object:
 
-- open [diesen-speaker-object.md](/C:/dev/strategy-codex/codex/2026/speakers/diesen/diesen-speaker-object.md)
+- open [diesen-speaker-object.md](/C:/dev/strategy-codex/codex/speakers/diesen/diesen-speaker-object.md)
 
 ## Routing use
 

@@ -35,7 +35,7 @@ Best paired read: [Davis x Kent](/C:/dev/strategy-codex/codex/2026/davis/davis-k
 
 Why: Davis shows Kent as a walkaway/force-feasibility voice; Diesen shows Kent as an order-transition and institutional-capture voice.
 
-Second-best paired read: [Kent helix](/C:/dev/strategy-codex/codex/2026/speakers/kent/kent-helix.md)
+Second-best paired read: [Kent helix](/C:/dev/strategy-codex/codex/speakers/kent/kent-helix.md)
 
 Why: the helix keeps this thin but important Diesen strand proportionate against the thicker Davis branch.
 

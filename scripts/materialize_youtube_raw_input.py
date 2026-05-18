@@ -34,6 +34,7 @@ from youtube_transcripts.ytdlp_adapter import (  # noqa: E402
     normalize_upload_date,
     watch_url,
 )
+from codex_paths import speakers_root, year_root  # noqa: E402
 
 WATCHLIST_PATH = (
     REPO_ROOT
@@ -42,7 +43,8 @@ WATCHLIST_PATH = (
     / "work-strategy"
     / "cognition-streams-watchlist.json"
 )
-DEFAULT_NOTEBOOK_ROOT = REPO_ROOT / "codex" / str(date.today().year)
+DEFAULT_NOTEBOOK_ROOT = year_root()
+DEFAULT_SPEAKERS_DIR = speakers_root()
 DEFAULT_RECEIPT_ROOT = REPO_ROOT / ".codex-tmp" / "youtube-raw-input"
 DEFAULT_ROUTING_OUT = REPO_ROOT / "artifacts" / "speaker-routing"
 DEFAULT_ACTION_OUT = REPO_ROOT / "artifacts" / "speaker-memory-actions"
@@ -727,6 +729,7 @@ def build_appearance_artifacts(
     *,
     raw_paths: list[Path],
     notebook_root: Path,
+    speakers_dir: Path,
     run_id: str,
     include_no_action: bool,
 ) -> dict[str, str]:
@@ -734,7 +737,7 @@ def build_appearance_artifacts(
     if not raw_paths:
         return {}
     start, end = speaker_routing.window_for_raw_paths(raw_paths)
-    inventory = speaker_routing._discover_inventory(notebook_root / "speakers", notebook_root)
+    inventory = speaker_routing._discover_inventory(speakers_dir, notebook_root)
     routing_rows = speaker_routing.build_rows(raw_paths, inventory, notebook_root)
     unresolved_rows = speaker_routing.build_unresolved_rows(raw_paths, inventory)
     paths = {
@@ -776,10 +779,11 @@ def build_appearance_artifacts(
     return paths
 
 
-def build_quality_artifacts(*, raw_paths: list[Path], notebook_root: Path) -> dict[str, str]:
+def build_quality_artifacts(*, raw_paths: list[Path], notebook_root: Path, speakers_dir: Path) -> dict[str, str]:
     summaries = host_shelf_quality.write_quality_reports_for_paths(
         raw_paths,
         notebook_root=notebook_root,
+        speakers_dir=speakers_dir,
         output_root=DEFAULT_HOST_QUALITY_OUT,
         expand_to_month=True,
     )
@@ -1176,6 +1180,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--url", action="append", default=[], help="Approved YouTube watch URL. Repeatable.")
     parser.add_argument("--input", type=Path, default=None, help="JSONL or plain-text approved URL list.")
     parser.add_argument("--notebook-root", type=Path, default=DEFAULT_NOTEBOOK_ROOT)
+    parser.add_argument("--speakers-dir", type=Path, default=DEFAULT_SPEAKERS_DIR)
     parser.add_argument("--ingest-date", default=date.today().isoformat(), help="YYYY-MM-DD")
     parser.add_argument("--apply", action="store_true", help="Write canonical raw-input files.")
     parser.add_argument("--no-apply", action="store_false", dest="apply", help="Dry-run without canonical writes.")
@@ -1249,6 +1254,7 @@ def main(argv: list[str] | None = None) -> int:
         artifact_paths = build_appearance_artifacts(
             raw_paths=successful_paths,
             notebook_root=args.notebook_root.resolve(),
+            speakers_dir=args.speakers_dir.resolve(),
             run_id=run_id,
             include_no_action=args.include_no_action,
         )
@@ -1257,6 +1263,7 @@ def main(argv: list[str] | None = None) -> int:
                 build_quality_artifacts(
                     raw_paths=successful_paths,
                     notebook_root=args.notebook_root.resolve(),
+                    speakers_dir=args.speakers_dir.resolve(),
                 )
             )
     paths = write_receipts(

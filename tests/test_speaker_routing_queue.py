@@ -50,7 +50,7 @@ def _write_raw(
 
 def _inventory(tmp_path: Path) -> tuple[Path, Path, srq.SpeakerInventory]:
     notebook = tmp_path / "codex" / "2026"
-    speakers = notebook / "speakers"
+    speakers = tmp_path / "codex" / "speakers"
     inventory = srq._discover_inventory(speakers, notebook)
     return notebook, speakers, inventory
 
@@ -118,8 +118,8 @@ def test_existing_speaker_object_and_arc_routes_to_arc_primary(tmp_path: Path) -
     assert _endswith_all(
         row["also_strengthens"],
         [
-            "codex/2026/speakers/macgregor/macgregor-speaker-object.md",
-            "codex/2026/speakers/macgregor/macgregor-cross-host-note.md",
+            "codex/speakers/macgregor/macgregor-speaker-object.md",
+            "codex/speakers/macgregor/macgregor-cross-host-note.md",
         ],
     )
 

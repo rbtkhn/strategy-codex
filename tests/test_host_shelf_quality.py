@@ -88,6 +88,7 @@ def test_quality_counts_all_grades_and_excludes_summary_and_legacy_from_valid_pe
         month_label="2026-04",
         raw_paths=paths,
         notebook_root=notebook_root,
+        speakers_dir=notebook_root / "speakers",
     )
 
     assert summary["routeable_artifact_count"] == 5
@@ -116,6 +117,7 @@ def test_unresolved_speaker_rows_are_counted_but_not_routeable(tmp_path: Path) -
         month_label="2026-04",
         raw_paths=paths,
         notebook_root=notebook_root,
+        speakers_dir=notebook_root / "speakers",
     )
 
     assert summary["raw_input_count"] == 2
@@ -135,6 +137,7 @@ def test_prior_artifact_comparison_produces_structure_and_purity_deltas(tmp_path
         month_label="2026-04",
         raw_paths=first,
         notebook_root=notebook_root,
+        speakers_dir=notebook_root / "speakers",
         output_root=output_root,
     )
     second = first + [_write_raw(notebook_root, "second", transcript_type="manual_subtitles_vtt")]
@@ -144,6 +147,7 @@ def test_prior_artifact_comparison_produces_structure_and_purity_deltas(tmp_path
         month_label="2026-04",
         raw_paths=second,
         notebook_root=notebook_root,
+        speakers_dir=notebook_root / "speakers",
         output_root=output_root,
     )
 
@@ -170,6 +174,7 @@ def test_residual_noise_and_normalization_state_are_reported(tmp_path: Path) -> 
         month_label="2026-04",
         raw_paths=paths,
         notebook_root=notebook_root,
+        speakers_dir=notebook_root / "speakers",
     )
     artifact = summary["artifacts"][0]
     markdown = quality.render_markdown(summary)
@@ -191,6 +196,7 @@ def test_write_reports_for_paths_can_expand_to_full_host_month(tmp_path: Path) -
     summaries = quality.write_quality_reports_for_paths(
         [selected],
         notebook_root=notebook_root,
+        speakers_dir=notebook_root / "speakers",
         output_root=output_root,
         expand_to_month=True,
     )
@@ -217,6 +223,8 @@ def test_cli_apply_writes_json_and_markdown_with_naming_warning(tmp_path: Path, 
             "2026-04",
             "--notebook-root",
             str(notebook_root),
+            "--speakers-dir",
+            str(notebook_root / "speakers"),
             "--output-root",
             str(output_root),
             "--apply",

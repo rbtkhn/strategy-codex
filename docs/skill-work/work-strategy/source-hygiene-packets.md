@@ -1,4 +1,4 @@
-﻿# Source-hygiene packets
+# Source-hygiene packets
 
 **Purpose:** A source-hygiene packet is a compact WORK-layer packaging move for a live seam that is strategically useful but not yet clean enough to compose directly into `days.md`, a weave, or a stronger notebook judgment.
 
@@ -6,7 +6,7 @@ Interpretive companion: [packet-before-synthesis-doctrine.md](packet-before-synt
 
 **Output shape:** usually a **pair**:
 
-- one **refined page** that extracts the seamâ€™s reusable mechanism, process, or register
+- one **refined page** that extracts the seam’s reusable mechanism, process, or register
 - one **source-hygiene note** that states what is primary, what is commentary-tier, what still needs pinning, and how the seam should be reused
 
 This is **not** a Record artifact, **not** a gate substitute, and **not** a claim that the underlying facts are already settled.
@@ -28,7 +28,7 @@ Typical triggers:
 
 ## Core rule
 
-The packetâ€™s job is **not** to prove the seam true. The packetâ€™s job is to make the seam **reusable without tier confusion**.
+The packet’s job is **not** to prove the seam true. The packet’s job is to make the seam **reusable without tier confusion**.
 
 If the packet makes later work flatter, louder, or more certain than the source can support, it failed.
 
@@ -47,7 +47,7 @@ The refined page should:
 
 - summarize the seam in readable prose
 - preserve attribution
-- name the seamâ€™s actual value
+- name the seam’s actual value
 - state the right future use
 - link back to the raw-input SSOT
 
@@ -76,7 +76,7 @@ Best when the main value is structural explanation.
 
 Use when:
 
-- the analystâ€™s causal chain is the real prize
+- the analyst’s causal chain is the real prize
 - factual rungs are mixed or still need receipts
 
 Example:
@@ -109,15 +109,15 @@ Use when:
 
 Example:
 
-- [marandi-page-2026-04-21-blockade-islamabad-hormuz.md](../../../codex/2026/speakers/marandi/marandi-page-2026-04-21-blockade-islamabad-hormuz.md)
-- [marandi-source-hygiene-2026-04-21-blockade-islamabad-hormuz.md](../../../codex/2026/speakers/marandi/marandi-source-hygiene-2026-04-21-blockade-islamabad-hormuz.md)
+- [marandi-page-2026-04-21-blockade-islamabad-hormuz.md](../../../codex/speakers/marandi/marandi-page-2026-04-21-blockade-islamabad-hormuz.md)
+- [marandi-source-hygiene-2026-04-21-blockade-islamabad-hormuz.md](../../../codex/speakers/marandi/marandi-source-hygiene-2026-04-21-blockade-islamabad-hormuz.md)
 
 ## Placement rules
 
 - Put the packet in the **lane that actually owns the seam**.
 - Do **not** create a new taxonomy shelf just for the packet.
 - If a lane still lives on an older shelf shape, add the packet there rather than silently migrating the whole lane mid-pass.
-- Add one **light pointer** from the laneâ€™s README, consolidation note, or thread surface when useful.
+- Add one **light pointer** from the lane’s README, consolidation note, or thread surface when useful.
 
 ## Non-goals
 

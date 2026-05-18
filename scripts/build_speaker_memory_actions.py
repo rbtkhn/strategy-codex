@@ -25,9 +25,11 @@ if str(SCRIPTS_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPTS_DIR))
 
 import build_speaker_routing_queue as routing  # noqa: E402
+from codex_paths import speakers_root, year_root  # noqa: E402
 
 
-DEFAULT_NOTEBOOK_ROOT = REPO_ROOT / "codex" / str(date.today().year)
+DEFAULT_NOTEBOOK_ROOT = year_root()
+DEFAULT_SPEAKERS_DIR = speakers_root()
 DEFAULT_OUT_DIR = REPO_ROOT / "artifacts" / "speaker-memory-actions"
 ACTION_TYPES = {
     "update-existing-arc",
@@ -91,14 +93,7 @@ def _has_comparative_note(row: dict[str, Any]) -> bool:
 
 
 def _speaker_helix_target(speaker_slug: str, speaker_rows: list[dict[str, Any]]) -> str:
-    year = str(date.today().year)
-    for row in speaker_rows:
-        raw_input_path = _normalize_appearance(row).get("raw_input_path", "")
-        match = re.search(r"(?:^|/)codex/(\d{4})/", raw_input_path)
-        if match:
-            year = match.group(1)
-            break
-    return f"codex/{year}/speakers/{speaker_slug}/{speaker_slug}-helix.md"
+    return f"codex/speakers/{speaker_slug}/{speaker_slug}-helix.md"
 
 
 def _candidate_arc_target(row: dict[str, Any]) -> str:
@@ -388,9 +383,9 @@ def write_outputs(
     }
 
 
-def build_routing_rows(start: date, end: date, notebook_root: Path) -> list[dict[str, Any]]:
+def build_routing_rows(start: date, end: date, notebook_root: Path, speakers_dir: Path) -> list[dict[str, Any]]:
     notebook_root = notebook_root.resolve()
-    speakers_dir = notebook_root / "speakers"
+    speakers_dir = speakers_dir.resolve()
     inventory = routing._discover_inventory(speakers_dir, notebook_root)
     raw_root = notebook_root / "raw-input"
     return routing.build_rows(routing._discover_raw_inputs(raw_root, start, end), inventory, notebook_root)
@@ -401,6 +396,7 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser.add_argument("--start", required=True, type=_parse_date, help="Start date, YYYY-MM-DD.")
     parser.add_argument("--end", required=True, type=_parse_date, help="End date, YYYY-MM-DD.")
     parser.add_argument("--notebook-root", type=Path, default=DEFAULT_NOTEBOOK_ROOT)
+    parser.add_argument("--speakers-dir", type=Path, default=DEFAULT_SPEAKERS_DIR)
     parser.add_argument("--routing-jsonl", type=Path, default=None)
     parser.add_argument("--output-dir", type=Path, default=DEFAULT_OUT_DIR)
     parser.add_argument("--include-no-action", action="store_true")
@@ -413,7 +409,7 @@ def main(argv: list[str] | None = None) -> int:
         print("--end must be on or after --start", file=sys.stderr)
         return 2
     rows = _load_jsonl(args.routing_jsonl) if args.routing_jsonl else build_routing_rows(
-        args.start, args.end, args.notebook_root
+        args.start, args.end, args.notebook_root, args.speakers_dir
     )
     actions = build_actions(rows, include_no_action=args.include_no_action)
     written = write_outputs(rows=rows, actions=actions, output_dir=args.output_dir, start=args.start, end=args.end)

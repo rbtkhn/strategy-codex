@@ -66,7 +66,7 @@ def test_existing_object_with_candidate_arc_emits_create_candidate_arc() -> None
                 "ap-object0001",
                 route_type="existing-speaker-object",
                 next_action="create-candidate-arc",
-                primary="codex/2026/speakers/beebe/beebe-speaker-object.md",
+                primary="codex/speakers/beebe/beebe-speaker-object.md",
                 also=["codex/2026/davis/davis-beebe-speaker-arc.md"],
             )
         ]
@@ -85,7 +85,7 @@ def test_candidate_object_route_emits_create_candidate_object() -> None:
                 speaker="guest",
                 route_type="candidate-speaker-object",
                 next_action="create-candidate-object",
-                primary="codex/2026/speakers/guest/guest-speaker-object.md",
+                primary="codex/speakers/guest/guest-speaker-object.md",
             )
         ]
     )
@@ -109,7 +109,7 @@ def test_repeated_speaker_across_hosts_emits_consider_helix() -> None:
 
     helix = [action for action in actions if action["action_type"] == "consider-helix"]
     assert len(helix) == 1
-    assert helix[0]["target_path"] == "codex/2026/speakers/marandi/marandi-helix.md"
+    assert helix[0]["target_path"] == "codex/speakers/marandi/marandi-helix.md"
     assert helix[0]["evidence_appearances"] == ["ap-host000001", "ap-host000002"]
 
 
@@ -120,7 +120,7 @@ def test_existing_cross_host_note_suppresses_consider_helix() -> None:
                 "ap-host000003",
                 speaker="beebe",
                 host="diesen",
-                also=["codex/2026/speakers/beebe/beebe-cross-host-note.md"],
+                also=["codex/speakers/beebe/beebe-cross-host-note.md"],
             ),
             row("ap-host000004", speaker="beebe", host="davis"),
         ]

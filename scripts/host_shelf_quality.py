@@ -24,9 +24,11 @@ if str(SCRIPTS_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPTS_DIR))
 
 import build_speaker_routing_queue as speaker_routing  # noqa: E402
+from codex_paths import speakers_root, year_root  # noqa: E402
 
 
 DEFAULT_OUT_ROOT = REPO_ROOT / "artifacts" / "host-shelf-quality"
+DEFAULT_SPEAKERS_DIR = speakers_root()
 GRADE_ORDER = [
     "transcript-grade",
     "cleaned-transcript",
@@ -293,13 +295,14 @@ def build_quality_summary(
     month_label: str,
     raw_paths: list[Path],
     notebook_root: Path,
+    speakers_dir: Path,
     previous: dict[str, Any] | None = None,
     output_paths: list[Path] | None = None,
     input_scope: str = "provided-paths",
 ) -> dict[str, Any]:
     host_slug = _host_slug(host)
     raw_paths = filter_host_month_paths(raw_paths, host=host_slug, year=year, month_label=month_label)
-    inventory = speaker_routing._discover_inventory(notebook_root / "speakers", notebook_root)  # noqa: SLF001
+    inventory = speaker_routing._discover_inventory(speakers_dir, notebook_root)  # noqa: SLF001
     routeable_rows = speaker_routing.build_rows(raw_paths, inventory, notebook_root)
     unresolved_rows = speaker_routing.build_unresolved_rows(raw_paths, inventory)
     routeable_paths = {row["raw_input_path"] for row in routeable_rows}
@@ -457,6 +460,7 @@ def write_quality_summary(
     month_label: str,
     raw_paths: list[Path],
     notebook_root: Path,
+    speakers_dir: Path,
     output_root: Path = DEFAULT_OUT_ROOT,
     input_scope: str = "provided-paths",
 ) -> dict[str, Any]:
@@ -471,6 +475,7 @@ def write_quality_summary(
         month_label=month_label,
         raw_paths=raw_paths,
         notebook_root=notebook_root,
+        speakers_dir=speakers_dir,
         previous=previous,
         output_paths=[json_path, md_path],
         input_scope=input_scope,
@@ -493,6 +498,7 @@ def write_quality_reports_for_paths(
     raw_paths: list[Path],
     *,
     notebook_root: Path,
+    speakers_dir: Path = DEFAULT_SPEAKERS_DIR,
     output_root: Path = DEFAULT_OUT_ROOT,
     expand_to_month: bool = False,
 ) -> list[dict[str, Any]]:
@@ -522,6 +528,7 @@ def write_quality_reports_for_paths(
                 month_label=month_label,
                 raw_paths=report_paths,
                 notebook_root=notebook_root,
+                speakers_dir=speakers_dir,
                 output_root=output_root,
                 input_scope="full-host-month" if expand_to_month else "provided-paths",
             )
@@ -536,6 +543,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--month", required=True, help="MM or YYYY-MM")
     parser.add_argument("--raw-input-list", type=Path, default=None)
     parser.add_argument("--notebook-root", type=Path, default=None)
+    parser.add_argument("--speakers-dir", type=Path, default=DEFAULT_SPEAKERS_DIR)
     parser.add_argument("--output-root", type=Path, default=DEFAULT_OUT_ROOT)
     parser.add_argument("--apply", action="store_true", help="Write quality-summary.json and .md.")
     parser.add_argument("--no-apply", action="store_false", dest="apply", help="Print only.")
@@ -545,7 +553,8 @@ def build_parser() -> argparse.ArgumentParser:
 def main(argv: list[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
     month, month_label = _parse_month(args.year, args.month)
-    notebook_root = args.notebook_root or (REPO_ROOT / "codex" / str(args.year))
+    notebook_root = args.notebook_root or year_root(args.year)
+    speakers_dir = args.speakers_dir.resolve()
     raw_paths = discover_raw_inputs(
         notebook_root=notebook_root,
         year=args.year,
@@ -560,6 +569,7 @@ def main(argv: list[str] | None = None) -> int:
             month_label=month_label,
             raw_paths=raw_paths,
             notebook_root=notebook_root,
+            speakers_dir=speakers_dir,
             output_root=args.output_root,
             input_scope=input_scope,
         )
@@ -572,6 +582,7 @@ def main(argv: list[str] | None = None) -> int:
             month_label=f"{args.year:04d}-{month:02d}",
             raw_paths=raw_paths,
             notebook_root=notebook_root,
+            speakers_dir=speakers_dir,
             previous=_load_previous(previous_path),
             input_scope=input_scope,
         )

@@ -6,7 +6,7 @@ Uses Substack's public JSON endpoints:
   GET https://theinnermostloop.substack.com/api/v1/posts/{slug}
 
 Writes one full, local, plain-text raw capture per newsletter under:
-  codex/2026/academy/singularity/workshop/raw-input/innermost-loop/
+  codex/academy/singularity/workshop/raw-input/innermost-loop/
 
 WORK only; not Record.
 """
@@ -29,10 +29,10 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_HOST = "theinnermostloop.substack.com"
 DEFAULT_RAW_ROOT = (
     REPO_ROOT
-    / "codex/2026/academy/singularity/workshop/raw-input/innermost-loop"
+    / "codex/academy/singularity/workshop/raw-input/innermost-loop"
 )
-DEFAULT_WORKSHOP_README = REPO_ROOT / "codex/2026/academy/singularity/workshop/README.md"
-DEFAULT_SHELF_README = REPO_ROOT / "codex/2026/academy/singularity/README.md"
+DEFAULT_WORKSHOP_README = REPO_ROOT / "codex/academy/singularity/workshop/README.md"
+DEFAULT_SHELF_README = REPO_ROOT / "codex/academy/singularity/README.md"
 USER_AGENT = "strategy-codex-innermost-loop-backfill/1.0 (+local academy singularity)"
 
 MONTHS = {

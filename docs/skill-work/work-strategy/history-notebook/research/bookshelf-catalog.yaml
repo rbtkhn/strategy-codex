@@ -1,37 +1,37 @@
-﻿# History Notebook â€” Bookshelf catalog (title-level seed; Shelf-* rows)
+# History Notebook — Bookshelf catalog (title-level seed; Shelf-* rows)
 # Operator collection name: self-library-bookshelf (physical library + this Shelf list; LIB-0158 in self-library).
 # WORK only; not Record. Does not replace book-architecture.yaml or cross-book-map.yaml.
-# Self-library pointer: LIB-0158 â€” self-library.md#bookshelf (owned Shelf-* shelf; not operator_book / operator_analytical). Human overview: BOOKSHELF.md (same directory).
+# Self-library pointer: LIB-0158 — self-library.md#bookshelf (owned Shelf-* shelf; not operator_book / operator_analytical). Human overview: BOOKSHELF.md (same directory).
 #
 # Schema (items[]):
 #   id: Shelf-NNNN (zero-padded 4 digits, unique)
 #   title, author: string (author may be "Various" or unknown)
 #   year: optional int or string (publication / composition hint)
 #   isbn: optional string
-#   era: required â€” primary bucket for upload order (ancient | medieval | colonial | industrial | modern)
-#   eras: optional list â€” when a work logically spans multiple buckets, list all that apply; must include era
+#   era: required — primary bucket for upload order (ancient | medieval | colonial | industrial | modern)
+#   eras: optional list — when a work logically spans multiple buckets, list all that apply; must include era
 #   added_batch: optional string (e.g. 2026-04-18-ancient-a) for traceability
 #   tags: optional list of strings
-#   hn_volume: optional â€” vol-i | vol-ii | vol-iii | vol-iv | vol-v | appendix
-#   primary_arc: optional â€” matches arc_id or thread name in README (free string)
+#   hn_volume: optional — vol-i | vol-ii | vol-iii | vol-iv | vol-v | appendix
+#   primary_arc: optional — matches arc_id or thread name in README (free string)
 #   candidate_hn_chapters: optional list of hn-* ids (planning only; not PH coverage)
-#   ph_thesis_hints / ph_concept_hints: optional lists of strings (t01â€¦ / concept ids)
+#   ph_thesis_hints / ph_concept_hints: optional lists of strings (t01… / concept ids)
 #   notes: optional string
-#   lib_id: optional â€” if promoted to  self-library LIB-* entry
-#   content_path: optional â€” phase 2: gitignored file or absolute path (not committed)
+#   lib_id: optional — if promoted to  self-library LIB-* entry
+#   content_path: optional — phase 2: gitignored file or absolute path (not committed)
 #   academy_links: optional list of academy WORK study paths that intentionally use this shelf row
 #   Citation-oriented (optional; backfill lazily for formal bibliography export):
-#   cite_as: optional string â€” sort/print name override (e.g. when author is Various)
-#   place, publisher, edition, series: optional strings â€” imprint / edition (Chicago-style export)
-#   editor, translator: optional strings â€” for build_hn_bookshelf_bibliography.py output
+#   cite_as: optional string — sort/print name override (e.g. when author is Various)
+#   place, publisher, edition, series: optional strings — imprint / edition (Chicago-style export)
+#   editor, translator: optional strings — for build_hn_bookshelf_bibliography.py output
 #
-# Upload order: ancient â†’ medieval â†’ colonial â†’ industrial â†’ modern (see BOOKSHELF-RUNBOOK.md).
+# Upload order: ancient → medieval → colonial → industrial → modern (see BOOKSHELF-RUNBOOK.md).
 # Era "ancient" = through fall of Western Roman Empire (~476 AD); late Roman / fall-of-the-West titles stay ancient.
 # Era "medieval" = post-476 AD formations through fall of Constantinople (~1453 AD); straddles into Vol III use eras/notes.
 # Era "colonial" (Vol III) = post-1453 through ~1815 AD (Congress of Vienna); straddles into Vol IV use eras/notes.
 # Era "industrial" (Vol IV) = post-1815 through ~1945 AD (end of WWII); straddles into Vol V use eras/notes.
-# Ancient / medieval / modern (operator) 2026-04-18: shelf photos â€” Landmark (a); Assyria/Persians (b); Everitt/Goldsworthy/Oxford (c); late Romeâ€“Byzantine (d); Roman livesâ€“empire (e); Everyman Library canons (f); Penguin Clothbound epics (g). Medieval/early modern batches 2026-04-18: shelf-batch-a/b (Europe + Ottoman), batch-c (Weatherford + Khazaria), batch-d (Penguin Clothbound medieval canon). Colonial batches 2026-04-18: colonial-shelf-a (Wilson TYW + dedupe note vs Shelf-0065/0066), b (Voltaire/French Rev), c (US founders), d (Atlantic), e (Library of America), f (Everyman Shakespeare + Enlightenment), g (Russia/Spain/Europe). Industrial/modern fiction + philosophy shelf (batch 2026-04-18-modern-shelf-photos-12): Penguin Clothbound / Everyman's / Little Black Classics / Library of America â€” see Shelf-0129+. Assets: .cursor/projects/.../assets/photo_2026-04-18_11.*â€“12.*.png (incl. 22 files photo_2026-04-18_12.15.*â€“12.17.*).
-# 2026-04-21 shelf photos: US history, Crowley, LOA, Bradbury, Vonnegut, Narnia, etc. â€” Shelf-0241+.
+# Ancient / medieval / modern (operator) 2026-04-18: shelf photos — Landmark (a); Assyria/Persians (b); Everitt/Goldsworthy/Oxford (c); late Rome–Byzantine (d); Roman lives–empire (e); Everyman Library canons (f); Penguin Clothbound epics (g). Medieval/early modern batches 2026-04-18: shelf-batch-a/b (Europe + Ottoman), batch-c (Weatherford + Khazaria), batch-d (Penguin Clothbound medieval canon). Colonial batches 2026-04-18: colonial-shelf-a (Wilson TYW + dedupe note vs Shelf-0065/0066), b (Voltaire/French Rev), c (US founders), d (Atlantic), e (Library of America), f (Everyman Shakespeare + Enlightenment), g (Russia/Spain/Europe). Industrial/modern fiction + philosophy shelf (batch 2026-04-18-modern-shelf-photos-12): Penguin Clothbound / Everyman's / Little Black Classics / Library of America — see Shelf-0129+. Assets: .cursor/projects/.../assets/photo_2026-04-18_11.*–12.*.png (incl. 22 files photo_2026-04-18_12.15.*–12.17.*).
+# 2026-04-21 shelf photos: US history, Crowley, LOA, Bradbury, Vonnegut, Narnia, etc. — Shelf-0241+.
 # Workspace assets (same batch): .cursor/projects/Users-robertkuhne-Documents-grace-mar/assets/photo_2026-04-21_13.15.*.png
 
 version: 1
@@ -58,7 +58,7 @@ items:
     candidate_hn_chapters: [hn-i-v1-01, hn-i-v1-07, hn-i-v1-11, hn-i-v1-19]
     notes: "Edited Robert B. Strassler; Pantheon (Landmark series)."
 
-    academy_links: [codex/2026/academy/military/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/military/bookshelf-crosswalk.md]
   - id: Shelf-0003
     title: "The Landmark Thucydides"
     author: "Thucydides"
@@ -69,7 +69,7 @@ items:
     candidate_hn_chapters: [hn-i-v1-06, hn-i-v1-10, hn-i-v1-11, hn-i-v1-14]
     notes: "Edited Robert B. Strassler; Free Press (Landmark series)."
 
-    academy_links: [codex/2026/academy/military/bookshelf-crosswalk.md, codex/2026/academy/politics/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/military/bookshelf-crosswalk.md, codex/academy/politics/bookshelf-crosswalk.md]
   - id: Shelf-0004
     title: "The Landmark Xenophon's Hellenika"
     author: "Xenophon"
@@ -91,7 +91,7 @@ items:
     candidate_hn_chapters: [hn-i-v1-13, hn-i-v1-18]
     notes: "Edited Shane Brennan and David Thomas; Robert B. Strassler series editor; Pantheon (Landmark series)."
 
-    academy_links: [codex/2026/academy/military/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/military/bookshelf-crosswalk.md]
   - id: Shelf-0006
     title: "The Landmark Arrian: The Campaigns of Alexander"
     author: "Arrian"
@@ -103,7 +103,7 @@ items:
     candidate_hn_chapters: [hn-i-v1-05, hn-i-v1-08, hn-i-v1-11]
     notes: "Edited James Romm; Robert B. Strassler series editor; Pantheon (Landmark series)."
 
-    academy_links: [codex/2026/academy/military/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/military/bookshelf-crosswalk.md]
   - id: Shelf-0007
     title: "The Landmark Julius Caesar"
     author: "Julius Caesar"
@@ -115,7 +115,7 @@ items:
     candidate_hn_chapters: [hn-i-v1-01, hn-i-v1-06, hn-i-v1-07, hn-i-v1-13]
     notes: "Edited Kurt A. Raaflaub; Robert B. Strassler series editor; Pantheon (Landmark series)."
 
-    academy_links: [codex/2026/academy/military/bookshelf-crosswalk.md, codex/2026/academy/politics/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/military/bookshelf-crosswalk.md, codex/academy/politics/bookshelf-crosswalk.md]
   - id: Shelf-0008
     title: "Assyria"
     author: "Eckart Frahm"
@@ -244,7 +244,7 @@ items:
     candidate_hn_chapters: [hn-i-v1-05, hn-i-v1-06, hn-i-v1-11, hn-i-v1-20]
     notes: "Illustrated battle scene on spine."
 
-    academy_links: [codex/2026/academy/military/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/military/bookshelf-crosswalk.md]
   - id: Shelf-0019
     title: "Hannibal"
     author: "Richard A. Gabriel"
@@ -256,7 +256,7 @@ items:
     candidate_hn_chapters: [hn-i-v1-05, hn-i-v1-11, hn-i-v1-13, hn-i-v1-14]
     notes: "Carthaginian campaigns; spine author Gabriel."
 
-    academy_links: [codex/2026/academy/military/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/military/bookshelf-crosswalk.md]
   - id: Shelf-0020
     title: "How Rome Fell"
     author: "Adrian Goldsworthy"
@@ -329,7 +329,7 @@ items:
     tags: [Iraq, Mesopotamia, Tigris, Euphrates, Middle East]
     hn_volume: vol-v
     candidate_hn_chapters: [hn-v-persia-modern]
-    notes: "Black spine with geometric band; Mesopotamia / Iraq scope â€” revise era or hn hints if your edition centers another period."
+    notes: "Black spine with geometric band; Mesopotamia / Iraq scope — revise era or hn hints if your edition centers another period."
 
   - id: Shelf-0026
     title: "The Alexiad"
@@ -444,7 +444,7 @@ items:
     candidate_hn_chapters: [hn-i-v1-05, hn-i-v1-11, hn-i-v1-13, hn-i-v1-18, hn-i-v1-19]
     notes: "Basic Books."
 
-    academy_links: [codex/2026/academy/military/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/military/bookshelf-crosswalk.md]
   - id: Shelf-0035
     title: "Pax Romana: War, Peace and Conquest in the Roman World"
     author: "Adrian Goldsworthy"
@@ -467,7 +467,7 @@ items:
     tags: [Bible, Hebrew Bible, scripture, religion]
     hn_volume: vol-i
     candidate_hn_chapters: [hn-i-v1-01, hn-i-v1-08, hn-i-v1-10, hn-i-v1-16]
-    academy_links: [codex/2026/academy/theology/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/theology/bookshelf-crosswalk.md]
     notes: "Red/black spine with gold accents; Everyman's Library style (operator edition)."
 
   - id: Shelf-0037
@@ -478,7 +478,7 @@ items:
     tags: [Bible, Christian, scripture, religion]
     hn_volume: vol-i
     candidate_hn_chapters: [hn-i-v1-08, hn-i-v1-10, hn-i-v1-16, hn-i-v1-20]
-    academy_links: [codex/2026/academy/theology/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/theology/bookshelf-crosswalk.md]
     notes: "Red/black spine with gold accents; paired with OT on shelf."
 
   - id: Shelf-0038
@@ -490,7 +490,7 @@ items:
     hn_volume: vol-i
     primary_arc: india
     candidate_hn_chapters: [hn-i-v1-10, hn-i-v1-12, hn-i-v1-15, hn-i-v1-16]
-    academy_links: [codex/2026/academy/theology/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/theology/bookshelf-crosswalk.md]
     notes: "Everyman's Library black spine / white band."
 
   - id: Shelf-0039
@@ -502,7 +502,7 @@ items:
     hn_volume: vol-i
     primary_arc: china
     candidate_hn_chapters: [hn-i-v1-04, hn-i-v1-08, hn-i-v1-15, hn-i-v1-17]
-    academy_links: [codex/2026/academy/theology/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/theology/bookshelf-crosswalk.md]
     notes: "Everyman's Library."
 
   - id: Shelf-0040
@@ -514,7 +514,7 @@ items:
     hn_volume: vol-i
     primary_arc: china
     candidate_hn_chapters: [hn-i-v1-04, hn-i-v1-10]
-    academy_links: [codex/2026/academy/theology/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/theology/bookshelf-crosswalk.md]
     notes: "Everyman's Library."
 
   - id: Shelf-0041
@@ -525,7 +525,7 @@ items:
     tags: [Greece, philosophy, politics, education]
     hn_volume: vol-i
     candidate_hn_chapters: [hn-i-v1-03, hn-i-v1-15]
-    academy_links: [codex/2026/academy/theology/bookshelf-crosswalk.md, codex/2026/academy/politics/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/theology/bookshelf-crosswalk.md, codex/academy/politics/bookshelf-crosswalk.md]
     notes: "Everyman's Library."
 
   - id: Shelf-0042
@@ -546,7 +546,7 @@ items:
     tags: [Greece, tragedy, drama, myth]
     hn_volume: vol-i
     candidate_hn_chapters: [hn-i-v1-02, hn-i-v1-10, hn-i-v1-14]
-    academy_links: [codex/2026/academy/theology/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/theology/bookshelf-crosswalk.md]
     notes: "Everyman's Library."
 
   - id: Shelf-0044
@@ -557,7 +557,7 @@ items:
     tags: [Greece, tragedy, drama, justice]
     hn_volume: vol-i
     candidate_hn_chapters: [hn-i-v1-02, hn-i-v1-10, hn-i-v1-14]
-    academy_links: [codex/2026/academy/theology/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/theology/bookshelf-crosswalk.md]
     notes: "Everyman's Library."
 
   - id: Shelf-0045
@@ -569,7 +569,7 @@ items:
     hn_volume: vol-i
     primary_arc: rome
     candidate_hn_chapters: [hn-i-v1-04, hn-i-v1-07, hn-i-v1-13, hn-i-v1-18, hn-i-v1-20]
-    academy_links: [codex/2026/academy/politics/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/politics/bookshelf-crosswalk.md]
     notes: "Everyman's Library."
 
   - id: Shelf-0046
@@ -580,7 +580,7 @@ items:
     tags: [Greece, epic, poetry, Trojan War]
     hn_volume: vol-i
     candidate_hn_chapters: [hn-i-v1-10, hn-i-v1-11, hn-i-v1-14]
-    academy_links: [codex/2026/academy/theology/bookshelf-crosswalk.md, codex/2026/academy/military/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/theology/bookshelf-crosswalk.md, codex/academy/military/bookshelf-crosswalk.md]
     notes: "Penguin Clothbound Classics; maroon spine flame motif."
 
   - id: Shelf-0047
@@ -602,7 +602,7 @@ items:
     hn_volume: vol-i
     primary_arc: rome
     candidate_hn_chapters: [hn-i-v1-05, hn-i-v1-09, hn-i-v1-10]
-    academy_links: [codex/2026/academy/theology/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/theology/bookshelf-crosswalk.md]
     notes: "Penguin Clothbound Classics; yellow spine warrior silhouettes."
 
   - id: Shelf-0049
@@ -617,14 +617,14 @@ items:
     notes: "Penguin Clothbound Classics; dark grey spine cloud/wave motif."
 
   - id: Shelf-0050
-    title: "(Spine unread â€” operator fill)"
+    title: "(Spine unread — operator fill)"
     author: "Unknown"
     era: ancient
     added_batch: "2026-04-18-shelf-g-penguin-clothbound"
     tags: [Penguin, Clothbound, classics]
     hn_volume: vol-i
     candidate_hn_chapters: []
-    notes: "Leftmost Penguin Clothbound on photo; red spine fish pattern â€” replace title/author when identified. See research/VOL-I-LIBRARY-SCAFFOLD.md Â§ Pending catalog identification."
+    notes: "Leftmost Penguin Clothbound on photo; red spine fish pattern — replace title/author when identified. See research/VOL-I-LIBRARY-SCAFFOLD.md § Pending catalog identification."
 
   - id: Shelf-0051
     title: "Meditations"
@@ -635,8 +635,8 @@ items:
     hn_volume: vol-i
     primary_arc: rome
     candidate_hn_chapters: [hn-i-v1-04, hn-i-v1-05, hn-i-v1-10]
-    academy_links: [codex/2026/academy/theology/bookshelf-crosswalk.md]
-    notes: "Imperial Stoic notebook; Greek original (Ta eis heauton). Also on shelf: Penguin Clothbound edition (photo 2026-04-18 batch 12) â€” do not add duplicate row."
+    academy_links: [codex/academy/theology/bookshelf-crosswalk.md]
+    notes: "Imperial Stoic notebook; Greek original (Ta eis heauton). Also on shelf: Penguin Clothbound edition (photo 2026-04-18 batch 12) — do not add duplicate row."
 
   - id: Shelf-0052
     title: "On the Nature of Things"
@@ -647,7 +647,7 @@ items:
     hn_volume: vol-i
     primary_arc: rome
     candidate_hn_chapters: [hn-i-v1-05, hn-i-v1-15]
-    notes: "De Rerum Natura; materialist cosmology and ethics in Latin hexameters. Also on shelf: Penguin Clothbound under trade title The Nature of Things (photo 2026-04-18 batch 12) â€” do not add duplicate row."
+    notes: "De Rerum Natura; materialist cosmology and ethics in Latin hexameters. Also on shelf: Penguin Clothbound under trade title The Nature of Things (photo 2026-04-18 batch 12) — do not add duplicate row."
 
   - id: Shelf-0053
     title: "Letters from a Stoic"
@@ -670,7 +670,7 @@ items:
     hn_volume: vol-ii
     primary_arc: rome
     candidate_hn_chapters: [hn-i-v1-04, hn-i-v1-19, hn-i-v1-20, hn-ii-rome-byzantine]
-    notes: "Narrative spans late antiquity, Western fall (~476 AD), Byzantium, and medieval Europe; published 1776â€“1788."
+    notes: "Narrative spans late antiquity, Western fall (~476 AD), Byzantium, and medieval Europe; published 1776–1788."
 
   - id: Shelf-0055
     title: "The Story of Civilization, Vol. I: Our Oriental Heritage"
@@ -701,7 +701,7 @@ items:
     hn_volume: vol-i
     primary_arc: rome
     candidate_hn_chapters: [hn-i-v1-04, hn-i-v1-05, hn-i-v1-14, hn-i-v1-16, hn-i-v1-18, hn-i-v1-20]
-    notes: "Series vol. 3; late Republicâ€“Empire and rise of Christianity through ~476 AD West."
+    notes: "Series vol. 3; late Republic–Empire and rise of Christianity through ~476 AD West."
 
   - id: Shelf-0058
     title: "The New Roman Empire: A History of Byzantium"
@@ -714,7 +714,7 @@ items:
     hn_volume: vol-ii
     primary_arc: rome
     candidate_hn_chapters: [hn-i-v1-04, hn-i-v1-19, hn-ii-rome-byzantine]
-    academy_links: [codex/2026/academy/theology/bookshelf-crosswalk.md, codex/2026/academy/military/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/theology/bookshelf-crosswalk.md, codex/academy/military/bookshelf-crosswalk.md]
     notes: "Single-volume Byzantium; ~324 AD (Constantinople) through fifteenth century; OUP."
 
   # --- Medieval / early modern shelf photos 2026-04-18 (see .cursor/projects/.../assets/photo_2026-04-18_*.png) ---
@@ -731,7 +731,7 @@ items:
     tags: [Ottoman, Turkey, Islam, empire, Europe]
     hn_volume: vol-iii
     candidate_hn_chapters: [hn-iii-ottoman, hn-ii-islam]
-    notes: "Basic Books; cream spine Ottoman figure. Duplicate spine on second shelf photo â€” one catalog row."
+    notes: "Basic Books; cream spine Ottoman figure. Duplicate spine on second shelf photo — one catalog row."
 
   - id: Shelf-0060
     title: "The Florentines"
@@ -820,9 +820,9 @@ items:
     tags: [Germany, military, Habsburg, Prussia]
     hn_volume: vol-iv
     candidate_hn_chapters: [hn-iv-germany]
-    notes: "Belknap Harvard; black spine soldiers â€” verify period emphasis in your edition; adjust era if needed."
+    notes: "Belknap Harvard; black spine soldiers — verify period emphasis in your edition; adjust era if needed."
 
-    academy_links: [codex/2026/academy/military/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/military/bookshelf-crosswalk.md]
   - id: Shelf-0067
     title: "Charlemagne"
     author: "Johannes Fried"
@@ -862,7 +862,7 @@ items:
     primary_arc: islam
     candidate_hn_chapters: [hn-ii-islam, hn-ii-persia-islamic]
 
-    academy_links: [codex/2026/academy/military/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/military/bookshelf-crosswalk.md]
   - id: Shelf-0070
     title: "The Burgundians"
     author: "Bart Van Loo"
@@ -891,7 +891,7 @@ items:
     tags: [Renaformation, Europe, late medieval, Renaissance]
     hn_volume: vol-iii
     candidate_hn_chapters: [hn-ii-rome-byzantine]
-    notes: "Little Brown; thin tan spine â€” popular bridge to early modern."
+    notes: "Little Brown; thin tan spine — popular bridge to early modern."
 
   - id: Shelf-0073
     title: "Children of Ash and Elm: A History of the Vikings"
@@ -976,7 +976,7 @@ items:
     hn_volume: vol-ii
     candidate_hn_chapters: [hn-ii-rome-byzantine]
 
-    academy_links: [codex/2026/academy/theology/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/theology/bookshelf-crosswalk.md]
   - id: Shelf-0081
     title: "The Canterbury Tales"
     author: "Geoffrey Chaucer"
@@ -995,7 +995,7 @@ items:
     tags: [Spain, novel, Renaissance, Penguin Clothbound]
     hn_volume: vol-iii
     candidate_hn_chapters: [hn-ii-rome-byzantine]
-    notes: "Early 17th c; Spain â€” no dedicated hn-iii chapter id; use notes when drafting."
+    notes: "Early 17th c; Spain — no dedicated hn-iii chapter id; use notes when drafting."
 
   - id: Shelf-0083
     title: "Monkey King"
@@ -1007,7 +1007,7 @@ items:
     primary_arc: china
     candidate_hn_chapters: [hn-ii-china-medieval]
 
-  # --- Colonial shelf photos 2026-04-18 (see photo_2026-04-18_12.04â€“12.05 assets); dedupe: Habsburgs + Iron and Blood already Shelf-0065/0066 ---
+  # --- Colonial shelf photos 2026-04-18 (see photo_2026-04-18_12.04–12.05 assets); dedupe: Habsburgs + Iron and Blood already Shelf-0065/0066 ---
 
   - id: Shelf-0084
     title: "The Thirty Years War"
@@ -1020,9 +1020,9 @@ items:
     tags: [Germany, Habsburg, war, Belknap]
     hn_volume: vol-iii
     candidate_hn_chapters: [hn-iii-france, hn-iii-russia]
-    notes: "Belknap Harvard; 1618â€“1648. Wilson â€” distinct from Iron and Blood (Shelf-0066)."
+    notes: "Belknap Harvard; 1618–1648. Wilson — distinct from Iron and Blood (Shelf-0066)."
 
-    academy_links: [codex/2026/academy/military/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/military/bookshelf-crosswalk.md]
   - id: Shelf-0085
     title: "Voltaire Almighty"
     author: "Roger Pearson"
@@ -1046,7 +1046,7 @@ items:
     tags: [France, Revolution, 1789]
     hn_volume: vol-iii
     candidate_hn_chapters: [hn-iii-france]
-    academy_links: [codex/2026/academy/politics/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/politics/bookshelf-crosswalk.md]
     notes: "Subject is 1789 French Revolution; shelved colonial (Vol III) per runbook. HN volume boundary to industrial is 1815 AD."
 
   - id: Shelf-0087
@@ -1103,7 +1103,7 @@ items:
     hn_volume: vol-iii
     primary_arc: america
     candidate_hn_chapters: [hn-iv-america]
-    academy_links: [codex/2026/academy/politics/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/politics/bookshelf-crosswalk.md]
 
   - id: Shelf-0092
     title: "Heirs of the Founders"
@@ -1136,8 +1136,8 @@ items:
     hn_volume: vol-iii
     primary_arc: america
     candidate_hn_chapters: [hn-iv-america]
-    academy_links: [codex/2026/academy/politics/bookshelf-crosswalk.md]
-    notes: "Jacksonian era straddles colonial operator boundary â€” primary colonial for shelf batch."
+    academy_links: [codex/academy/politics/bookshelf-crosswalk.md]
+    notes: "Jacksonian era straddles colonial operator boundary — primary colonial for shelf batch."
 
   - id: Shelf-0095
     title: "Andrew Jackson"
@@ -1181,7 +1181,7 @@ items:
     primary_arc: america
     candidate_hn_chapters: [hn-iv-america]
 
-    academy_links: [codex/2026/academy/military/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/military/bookshelf-crosswalk.md]
   - id: Shelf-0099
     title: "The Last King of America: The Misunderstood Reign of George III"
     author: "Andrew Roberts"
@@ -1206,7 +1206,7 @@ items:
     tags: [Britain, empire, global, Basic Books]
     hn_volume: vol-iii
     candidate_hn_chapters: [hn-iii-anglia, hn-iv-anglia-imperial]
-    notes: "Basic Books; long-span â€” adjust era if your edition subtitle differs."
+    notes: "Basic Books; long-span — adjust era if your edition subtitle differs."
 
   - id: Shelf-0101
     title: "Plymouth Colony: Narratives of English Settlement and Native Resistance from the Mayflower to King Philip's War"
@@ -1221,7 +1221,7 @@ items:
     candidate_hn_chapters: [hn-iv-america]
 
   - id: Shelf-0102
-    title: "The American Revolution: Writings from the War of Independence 1775â€“1783"
+    title: "The American Revolution: Writings from the War of Independence 1775–1783"
     author: "Various"
     year: 2001
     isbn: "9781598531398"
@@ -1233,7 +1233,7 @@ items:
     candidate_hn_chapters: [hn-iv-america]
 
   - id: Shelf-0103
-    title: "The American Revolution: Writings from the Pamphlet Debate 1773â€“1776"
+    title: "The American Revolution: Writings from the Pamphlet Debate 1773–1776"
     author: "Various"
     year: 2015
     isbn: "9781598534429"
@@ -1264,7 +1264,7 @@ items:
     tags: [America, Library of America, Revolution, primary sources]
     hn_volume: vol-iii
     candidate_hn_chapters: [hn-iv-america]
-    academy_links: [codex/2026/academy/politics/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/politics/bookshelf-crosswalk.md]
 
   - id: Shelf-0106
     title: "Jefferson: Writings"
@@ -1274,7 +1274,7 @@ items:
     tags: [America, Library of America, founding, primary sources]
     hn_volume: vol-iii
     candidate_hn_chapters: [hn-iv-america]
-    academy_links: [codex/2026/academy/politics/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/politics/bookshelf-crosswalk.md]
 
   - id: Shelf-0107
     title: "Madison: Writings"
@@ -1284,7 +1284,7 @@ items:
     tags: [America, Library of America, founding, primary sources]
     hn_volume: vol-iii
     candidate_hn_chapters: [hn-iv-america]
-    academy_links: [codex/2026/academy/politics/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/politics/bookshelf-crosswalk.md]
 
   - id: Shelf-0108
     title: "Hamilton: Writings"
@@ -1294,7 +1294,7 @@ items:
     tags: [America, Library of America, founding, primary sources]
     hn_volume: vol-iii
     candidate_hn_chapters: [hn-iv-america]
-    academy_links: [codex/2026/academy/politics/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/politics/bookshelf-crosswalk.md]
 
   - id: Shelf-0109
     title: "Washington: Writings"
@@ -1414,7 +1414,7 @@ items:
     hn_volume: vol-iii
     candidate_hn_chapters: [hn-iii-france]
 
-    academy_links: [codex/2026/academy/theology/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/theology/bookshelf-crosswalk.md]
   - id: Shelf-0120
     title: "Confessions"
     author: "Jean-Jacques Rousseau"
@@ -1432,10 +1432,10 @@ items:
     tags: [France, political philosophy, Enlightenment, Everyman's Library]
     hn_volume: vol-iii
     candidate_hn_chapters: [hn-iii-france]
-    academy_links: [codex/2026/academy/politics/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/politics/bookshelf-crosswalk.md]
 
   - id: Shelf-0122
-    title: "The Romanovs: 1613â€“1918"
+    title: "The Romanovs: 1613–1918"
     author: "Simon Sebag Montefiore"
     year: 2017
     isbn: "9780307280510"
@@ -1447,7 +1447,7 @@ items:
     hn_volume: vol-iv
     primary_arc: russia
     candidate_hn_chapters: [hn-iii-russia, hn-iv-russia-imperial]
-    notes: "Long chronology â€” primary industrial for catalog sort; shelf grouped with colonial batch photo."
+    notes: "Long chronology — primary industrial for catalog sort; shelf grouped with colonial batch photo."
 
   - id: Shelf-0123
     title: "Peter the Great: His Life and World"
@@ -1487,10 +1487,10 @@ items:
     tags: [Russia, Romanov, World War I, biography]
     hn_volume: vol-iv
     candidate_hn_chapters: [hn-iv-russia-imperial]
-    notes: "1917 revolution â€” industrial-era primary; same shelf photo as colonial batch. Operator declaration 2026-05-02: Robert K. Massie books are high-credibility secondary sources and best-available shelf sources when no primary anchor is present; credibility means good-faith/reputable, not infallible."
+    notes: "1917 revolution — industrial-era primary; same shelf photo as colonial batch. Operator declaration 2026-05-02: Robert K. Massie books are high-credibility secondary sources and best-available shelf sources when no primary anchor is present; credibility means good-faith/reputable, not infallible."
 
   - id: Shelf-0126
-    title: "The Dutch Republic: Its Rise, Greatness, and Fall 1477â€“1806"
+    title: "The Dutch Republic: Its Rise, Greatness, and Fall 1477–1806"
     author: "Jonathan Israel"
     year: 1998
     isbn: "9780198207344"
@@ -1503,7 +1503,7 @@ items:
     candidate_hn_chapters: [hn-iii-france]
 
   - id: Shelf-0127
-    title: "Conquistador: HernÃ¡n CortÃ©s, King Montezuma, and the Last Stand of the Aztecs"
+    title: "Conquistador: Hernán Cortés, King Montezuma, and the Last Stand of the Aztecs"
     author: "Buddy Levy"
     year: 2009
     isbn: "9780553384710"
@@ -1513,10 +1513,10 @@ items:
     tags: [Spain, Mexico, conquest, Aztec]
     hn_volume: vol-iii
     candidate_hn_chapters: []
-    notes: "Americas conquest â€” no dedicated hn-iii Americas id; wire in cross-book-map when drafting."
+    notes: "Americas conquest — no dedicated hn-iii Americas id; wire in cross-book-map when drafting."
 
   - id: Shelf-0128
-    title: "Empire: How Spain Became a World Power 1492â€“1763"
+    title: "Empire: How Spain Became a World Power 1492–1763"
     author: "Henry Kamen"
     year: 2003
     isbn: "9780060194765"
@@ -1526,8 +1526,8 @@ items:
     tags: [Spain, empire, Habsburg, maritime]
     hn_volume: vol-iii
     candidate_hn_chapters: [hn-iii-france]
-    notes: "Iberian world monarchy â€” France chapter id is imperfect proxy; adjust when drafting."
-  # --- Industrial / modern shelf â€” personal library photos 2026-04-18 (LIB-0158) ---
+    notes: "Iberian world monarchy — France chapter id is imperfect proxy; adjust when drafting."
+  # --- Industrial / modern shelf — personal library photos 2026-04-18 (LIB-0158) ---
   - id: Shelf-0129
     title: The Sonnets and A Lover's Complaint
     author: William Shakespeare
@@ -1554,7 +1554,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-anglia-imperial
-    academy_links: [codex/2026/academy/theology/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/theology/bookshelf-crosswalk.md]
   - id: Shelf-0131
     title: Robinson Crusoe
     author: Daniel Defoe
@@ -1569,7 +1569,7 @@ items:
     candidate_hn_chapters:
     - hn-iv-anglia-imperial
   - id: Shelf-0132
-    title: Les MisÃ©rables
+    title: Les Misérables
     author: Victor Hugo
     era: industrial
     added_batch: 2026-04-18-modern-shelf-photos-12
@@ -1581,7 +1581,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iii-france
-    academy_links: [codex/2026/academy/theology/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/theology/bookshelf-crosswalk.md]
   - id: Shelf-0133
     title: David Copperfield
     author: Charles Dickens
@@ -1763,7 +1763,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-germany
-    academy_links: [codex/2026/academy/theology/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/theology/bookshelf-crosswalk.md]
   - id: Shelf-0146
     title: On War
     author: Carl von Clausewitz
@@ -1780,7 +1780,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-germany
-    academy_links: [codex/2026/academy/military/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/military/bookshelf-crosswalk.md]
   - id: Shelf-0147
     title: Byron's Travels
     author: Lord Byron
@@ -2141,7 +2141,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-anglia-imperial
-    academy_links: [codex/2026/academy/politics/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/politics/bookshelf-crosswalk.md]
   - id: Shelf-0172
     title: The Strange Case of Dr Jekyll and Mr Hyde
     author: Robert Louis Stevenson
@@ -2196,7 +2196,7 @@ items:
     - hn-iii-france
   - id: Shelf-0176
     title: The Little Prince
-    author: Antoine de Saint-ExupÃ©ry
+    author: Antoine de Saint-Exupéry
     era: industrial
     added_batch: 2026-04-18-modern-shelf-photos-12
     tags:
@@ -2220,10 +2220,10 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-anglia-imperial
-    academy_links: [codex/2026/academy/politics/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/politics/bookshelf-crosswalk.md]
   - id: Shelf-0178
     title: Tinker Tailor Soldier Spy
-    author: John le CarrÃ©
+    author: John le Carré
     era: industrial
     added_batch: 2026-04-18-modern-shelf-photos-12
     tags:
@@ -2236,7 +2236,7 @@ items:
     - hn-iv-anglia-imperial
   - id: Shelf-0179
     title: Jane Eyre
-    author: Charlotte BrontÃ«
+    author: Charlotte Brontë
     era: industrial
     added_batch: 2026-04-18-modern-shelf-photos-12
     tags:
@@ -2249,7 +2249,7 @@ items:
     - hn-iv-anglia-imperial
   - id: Shelf-0180
     title: Villette
-    author: Charlotte BrontÃ«
+    author: Charlotte Brontë
     era: industrial
     added_batch: 2026-04-18-modern-shelf-photos-12
     tags:
@@ -2262,7 +2262,7 @@ items:
     - hn-iv-anglia-imperial
   - id: Shelf-0181
     title: Wuthering Heights
-    author: Emily BrontÃ«
+    author: Emily Brontë
     era: industrial
     added_batch: 2026-04-18-modern-shelf-photos-12
     tags:
@@ -2275,7 +2275,7 @@ items:
     - hn-iv-anglia-imperial
   - id: Shelf-0182
     title: The Tenant of Wildfell Hall
-    author: Anne BrontÃ«
+    author: Anne Brontë
     era: industrial
     added_batch: 2026-04-18-modern-shelf-photos-12
     tags:
@@ -2385,7 +2385,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-russia-imperial
-    notes: Everyman's Library copy; Little Black Classics edition also on shelf â€” one
+    notes: Everyman's Library copy; Little Black Classics edition also on shelf — one
       catalog row.
   - id: Shelf-0190
     title: Childhood, Boyhood, and Youth
@@ -2448,7 +2448,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-russia-imperial
-    academy_links: [codex/2026/academy/theology/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/theology/bookshelf-crosswalk.md]
   - id: Shelf-0194
     title: Anna Karenina
     author: Leo Tolstoy
@@ -2462,7 +2462,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-russia-imperial
-    academy_links: [codex/2026/academy/theology/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/theology/bookshelf-crosswalk.md]
   - id: Shelf-0195
     title: The Brothers Karamazov
     author: Fyodor Dostoevsky
@@ -2476,7 +2476,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-russia-imperial
-    academy_links: [codex/2026/academy/theology/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/theology/bookshelf-crosswalk.md]
   - id: Shelf-0196
     title: The Adolescent
     author: Fyodor Dostoevsky
@@ -2509,7 +2509,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-anglia-imperial
-    academy_links: [codex/2026/academy/politics/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/politics/bookshelf-crosswalk.md]
   - id: Shelf-0198
     title: The Complete Short Novels
     author: Anton Chekhov
@@ -2541,7 +2541,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-anglia-imperial
-    academy_links: [codex/2026/academy/politics/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/politics/bookshelf-crosswalk.md]
   - id: Shelf-0200
     title: The Poems
     author: John Keats
@@ -2718,7 +2718,7 @@ items:
     - hn-iv-russia-imperial
   - id: Shelf-0211
     title: The Prince
-    author: NiccolÃ² Machiavelli
+    author: Niccolò Machiavelli
     era: colonial
     added_batch: 2026-04-18-modern-shelf-photos-12
     tags:
@@ -2729,7 +2729,7 @@ items:
     hn_volume: vol-iii
     candidate_hn_chapters:
     - hn-iii-france
-    academy_links: [codex/2026/academy/politics/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/politics/bookshelf-crosswalk.md]
   - id: Shelf-0212
     title: Utopia
     author: Thomas More
@@ -2743,7 +2743,7 @@ items:
     hn_volume: vol-iii
     candidate_hn_chapters:
     - hn-iv-anglia-imperial
-    academy_links: [codex/2026/academy/politics/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/politics/bookshelf-crosswalk.md]
   - id: Shelf-0213
     title: Essays and Aphorisms
     author: Arthur Schopenhauer
@@ -2770,7 +2770,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-germany
-    academy_links: [codex/2026/academy/theology/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/theology/bookshelf-crosswalk.md]
   - id: Shelf-0215
     title: The Communist Manifesto
     author: "Karl Marx & Friedrich Engels"
@@ -2784,10 +2784,10 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-germany
-    academy_links: [codex/2026/academy/politics/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/politics/bookshelf-crosswalk.md]
   - id: Shelf-0216
     title: Fear and Trembling
-    author: SÃ¸ren Kierkegaard
+    author: Søren Kierkegaard
     era: industrial
     added_batch: 2026-04-18-modern-shelf-photos-12
     tags:
@@ -2798,7 +2798,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-germany
-    academy_links: [codex/2026/academy/theology/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/theology/bookshelf-crosswalk.md]
   - id: Shelf-0217
     title: Civilization and Its Discontents
     author: Sigmund Freud
@@ -2932,7 +2932,7 @@ items:
     candidate_hn_chapters:
     - hn-iv-russia-imperial
   - id: Shelf-0227
-    title: Novels and Stories 1920â€“1922
+    title: Novels and Stories 1920–1922
     author: F. Scott Fitzgerald
     year: 2000
     isbn: "9781598532968"
@@ -2948,7 +2948,7 @@ items:
     candidate_hn_chapters:
     - hn-iv-america
   - id: Shelf-0228
-    title: "The Great Gatsby, All the Sad Young Men & Other Writings 1920â€“1926"
+    title: "The Great Gatsby, All the Sad Young Men & Other Writings 1920–1926"
     author: F. Scott Fitzgerald
     year: 2022
     isbn: "9781598537475"
@@ -2996,7 +2996,7 @@ items:
     candidate_hn_chapters:
     - hn-iv-america
   - id: Shelf-0231
-    title: "Collected Tales, Sketches, Speeches, & Essays 1891â€“1910"
+    title: "Collected Tales, Sketches, Speeches, & Essays 1891–1910"
     author: Mark Twain
     year: 1992
     isbn: "9780940450738"
@@ -3041,7 +3041,7 @@ items:
     candidate_hn_chapters:
     - hn-iv-america
   - id: Shelf-0234
-    title: Novels and Stories 1932â€“1937
+    title: Novels and Stories 1932–1937
     author: John Steinbeck
     year: 1994
     isbn: "9781883011017"
@@ -3057,7 +3057,7 @@ items:
     candidate_hn_chapters:
     - hn-iv-america
   - id: Shelf-0235
-    title: Novels 1942â€“1952
+    title: Novels 1942–1952
     author: John Steinbeck
     era: industrial
     added_batch: 2026-04-18-modern-shelf-photos-12
@@ -3137,7 +3137,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters:
     - hn-iv-anglia-imperial
-  # --- Shelf photos 2026-04-21 batch 2 (assets photo_2026-04-21_13.15*) â€” 56 rows ---
+  # --- Shelf photos 2026-04-21 batch 2 (assets photo_2026-04-21_13.15*) — 56 rows ---
 
   - id: Shelf-0241
     title: "The Crisis of the Old Order, 1919-1923"
@@ -3151,7 +3151,7 @@ items:
     primary_arc: america
     hn_volume: vol-iv
     candidate_hn_chapters: ['hn-iv-america']
-    academy_links: [codex/2026/academy/politics/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/politics/bookshelf-crosswalk.md]
   - id: Shelf-0242
     title: "The Coming of the New Deal"
     author: "Arthur M. Schlesinger Jr."
@@ -3164,7 +3164,7 @@ items:
     primary_arc: america
     hn_volume: vol-iv
     candidate_hn_chapters: ['hn-iv-america']
-    academy_links: [codex/2026/academy/politics/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/politics/bookshelf-crosswalk.md]
   - id: Shelf-0243
     title: "The Politics of Upheaval"
     author: "Arthur M. Schlesinger Jr."
@@ -3177,7 +3177,7 @@ items:
     primary_arc: america
     hn_volume: vol-iv
     candidate_hn_chapters: ['hn-iv-america']
-    academy_links: [codex/2026/academy/politics/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/politics/bookshelf-crosswalk.md]
   - id: Shelf-0244
     title: "1453: The Holy War for Constantinople and the Clash of Islam and the West"
     author: "Roger Crowley"
@@ -3212,7 +3212,7 @@ items:
     tags: ['Mediterranean', 'naval', 'Habsburg', 'Ottoman', 'Random House', 'shelf photo 2026-04-21', '2026-04-21-bookshelf-photos-2']
     hn_volume: vol-iii
     candidate_hn_chapters: ['hn-iii-ottoman', 'hn-iii-france']
-    academy_links: [codex/2026/academy/military/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/military/bookshelf-crosswalk.md]
   - id: Shelf-0247
     title: "City of Fortune: How Venice Ruled the Seas"
     author: "Roger Crowley"
@@ -3294,7 +3294,7 @@ items:
     hn_volume: vol-iv
     candidate_hn_chapters: ['hn-iv-america']
     notes: "Caro vol. 3"
-    academy_links: [codex/2026/academy/politics/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/politics/bookshelf-crosswalk.md]
   - id: Shelf-0254
     title: "The Years of Lyndon Johnson: The Passage of Power"
     author: "Robert A. Caro"
@@ -3320,7 +3320,7 @@ items:
     primary_arc: america
     hn_volume: vol-iv
     candidate_hn_chapters: ['hn-iv-america']
-    academy_links: [codex/2026/academy/military/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/military/bookshelf-crosswalk.md]
   - id: Shelf-0256
     title: "The General vs. the President: MacArthur and Truman at the Brink of Nuclear War"
     author: "H. W. Brands"
@@ -3333,7 +3333,7 @@ items:
     primary_arc: america
     hn_volume: vol-iv
     candidate_hn_chapters: ['hn-iv-america']
-    academy_links: [codex/2026/academy/military/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/military/bookshelf-crosswalk.md]
   - id: Shelf-0257
     title: "Truman"
     author: "David McCullough"
@@ -3358,8 +3358,8 @@ items:
     primary_arc: america
     hn_volume: vol-iv
     candidate_hn_chapters: ['hn-iv-america']
-    notes: "Abridged S&S one-volume; two printings (spine color variants) on shelfâ€”dedupe on ISBN."
-    academy_links: [codex/2026/academy/military/bookshelf-crosswalk.md]
+    notes: "Abridged S&S one-volume; two printings (spine color variants) on shelf—dedupe on ISBN."
+    academy_links: [codex/academy/military/bookshelf-crosswalk.md]
   - id: Shelf-0259
     title: "Nixon: The Education of a Politician, 1913-1962"
     author: "Stephen E. Ambrose"
@@ -3407,7 +3407,7 @@ items:
     tags: ['America', 'political thought', 'Library of America', 'nineteenth century', 'shelf photo 2026-04-21', '2026-04-21-bookshelf-photos-2']
     hn_volume: vol-iv
     candidate_hn_chapters: ['hn-iv-america', 'hn-iii-france']
-    academy_links: [codex/2026/academy/politics/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/politics/bookshelf-crosswalk.md]
   - id: Shelf-0263
     title: "T. R.: The Last Romantic"
     author: "H. W. Brands"
@@ -3444,7 +3444,7 @@ items:
     primary_arc: america
     hn_volume: vol-v
     candidate_hn_chapters: ['hn-v-america-hegemonic', 'hn-iv-germany']
-    notes: "Publication 2010s; era=modern, vol-v. Volume 2 if purchased laterâ€”add new Shelf."
+    notes: "Publication 2010s; era=modern, vol-v. Volume 2 if purchased later—add new Shelf."
   - id: Shelf-0266
     title: "A Week, Walden, Maine Woods, Cape Cod"
     author: "Henry David Thoreau"
@@ -3742,7 +3742,7 @@ items:
     tags: ['Eastern Front', 'WWII', 'Soviet', 'military', 'Erickson', 'shelf photo 2026-04-21', '2026-04-21-bookshelf-photos-2']
     hn_volume: vol-iv
     candidate_hn_chapters: ['hn-iv-russia-imperial', 'hn-iv-germany']
-    academy_links: [codex/2026/academy/military/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/military/bookshelf-crosswalk.md]
   - id: Shelf-0294
     title: "The Road to Berlin: Stalin's War with Germany, Vol. 2"
     author: "John Erickson"
@@ -3754,7 +3754,7 @@ items:
     tags: ['Eastern Front', 'WWII', 'Soviet', 'military', 'Erickson', 'shelf photo 2026-04-21', '2026-04-21-bookshelf-photos-2']
     hn_volume: vol-iv
     candidate_hn_chapters: ['hn-iv-russia-imperial', 'hn-iv-germany']
-    academy_links: [codex/2026/academy/military/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/military/bookshelf-crosswalk.md]
   - id: Shelf-0295
     title: "Mark Twain"
     author: "Ron Chernow"
@@ -3792,7 +3792,7 @@ items:
     primary_arc: anglia
     hn_volume: vol-iv
     candidate_hn_chapters: ['hn-iv-anglia-imperial', 'hn-v-america-hegemonic']
-    notes: "Spine from partial photo; confirm edition. Primary era industrial; content spans into Cold War / partition â€” use eras."
+    notes: "Spine from partial photo; confirm edition. Primary era industrial; content spans into Cold War / partition — use eras."
   - id: Shelf-0298
     title: "American Caesar: Douglas MacArthur 1880-1964"
     author: "William Manchester"
@@ -3807,7 +3807,7 @@ items:
     candidate_hn_chapters: ['hn-iv-america']
     notes: "Common one-volume; matches MacArthur + Cold War back-cover blurb in partial shelf photo. Confirm your printing."
 
-    academy_links: [codex/2026/academy/military/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/military/bookshelf-crosswalk.md]
   - id: Shelf-0299
     title: "The Koran"
     author: "Various"
@@ -3816,7 +3816,7 @@ items:
     tags: [Islam, Quran, Koran, scripture, religion]
     hn_volume: vol-ii
     candidate_hn_chapters: [hn-ii-islam]
-    academy_links: [codex/2026/academy/theology/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/theology/bookshelf-crosswalk.md]
     notes: "Academy theology bridge row; backfill exact edition, translator, year, ISBN, and publisher when physical copy is confirmed."
 
   - id: Shelf-0300
@@ -3827,7 +3827,7 @@ items:
     tags: [philosophy, intellectual history, Western canon, synthesis]
     hn_volume: vol-v
     candidate_hn_chapters: [hn-v-america-hegemonic]
-    academy_links: [codex/2026/academy/theology/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/theology/bookshelf-crosswalk.md]
     notes: "Academy theology bridge row; used as the v1 map text for Western philosophy, including the Kant context. Backfill exact edition metadata when physical copy is confirmed."
 
   - id: Shelf-0301
@@ -3839,7 +3839,7 @@ items:
     tags: [Holy Roman Empire, Germany, Europe, Christianity, empire]
     hn_volume: vol-iii
     candidate_hn_chapters: [hn-ii-rome-byzantine, hn-iii-france, hn-iv-germany]
-    academy_links: [codex/2026/academy/theology/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/theology/bookshelf-crosswalk.md]
     notes: "Academy theology bridge row; paired with Kaldellis's The New Roman Empire for Eastern/Western Christian imperial comparison. Backfill exact edition metadata when physical copy is confirmed."
 
   - id: Shelf-0302
@@ -3850,7 +3850,7 @@ items:
     tags: [China, strategy, military theory, Sunzi, Sun Tzu]
     hn_volume: vol-i
     candidate_hn_chapters: [hn-i-v1-01, hn-i-v1-11]
-    academy_links: [codex/2026/academy/military/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/military/bookshelf-crosswalk.md]
     notes: "Added for academy-military Bookshelf crosswalk; exact edition can be backfilled later."
 
   - id: Shelf-0303
@@ -3862,7 +3862,7 @@ items:
     tags: [Napoleon, France, campaigns, operational art, military history]
     hn_volume: vol-iv
     candidate_hn_chapters: [hn-iv-germany]
-    academy_links: [codex/2026/academy/military/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/military/bookshelf-crosswalk.md]
     notes: "Added for academy-military Bookshelf crosswalk; exact edition can be backfilled later."
 
   - id: Shelf-0304
@@ -3874,7 +3874,7 @@ items:
     tags: [World War II, Britain, Churchill, memoir, grand strategy]
     hn_volume: vol-iv
     candidate_hn_chapters: [hn-iv-anglia-imperial, hn-v-america-hegemonic]
-    academy_links: [codex/2026/academy/military/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/military/bookshelf-crosswalk.md]
     notes: "Added for academy-military Bookshelf crosswalk; exact volume and edition details can be backfilled later."
 
   - id: Shelf-0305
@@ -3886,5 +3886,5 @@ items:
     tags: [Britain, English-speaking peoples, constitutional history, parliament, empire, liberty, Churchill, political history]
     hn_volume: vol-v
     candidate_hn_chapters: [hn-iv-anglia-imperial, hn-v-america-hegemonic]
-    academy_links: [codex/2026/academy/politics/bookshelf-crosswalk.md]
+    academy_links: [codex/academy/politics/bookshelf-crosswalk.md]
     notes: "Added for academy-politics Bookshelf crosswalk; exact volume and edition details can be backfilled later."

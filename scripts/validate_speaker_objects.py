@@ -175,7 +175,7 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         "--speakers-dir",
         type=Path,
         default=DEFAULT_SPEAKERS_DIR,
-        help="Speaker shelf to validate (default: codex/2026/speakers).",
+        help="Speaker shelf to validate (default: codex/speakers).",
     )
     return parser.parse_args(argv)
 

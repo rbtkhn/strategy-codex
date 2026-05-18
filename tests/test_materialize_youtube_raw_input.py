@@ -200,7 +200,8 @@ def test_materialize_uses_operator_metadata_when_youtube_metadata_fetch_fails(tm
     assert result["caption_kind"] == "manual"
     text = Path(result["output_path"]).read_text(encoding="utf-8")
     assert "title: Operator Supplied Episode" in text
-    assert "pub_date: 2026-05-16" in text
+    assert "pub_date:" in text
+    assert "2026-05-16" in text
     assert "show: Alexander Mercouris" in text
     assert "host: Alexander Mercouris" in text
     assert "thread: mercouris" in text

@@ -44,7 +44,7 @@ Best paired read: [Diesen x Kent](/C:/dev/strategy-codex/codex/2026/diesen/diese
 
 Why: Diesen pulls Kent upward into historical/structural order claims, while Davis keeps him closer to force, exit, and military-political feasibility.
 
-Second-best paired read: [Kent helix](/C:/dev/strategy-codex/codex/2026/speakers/kent/kent-helix.md)
+Second-best paired read: [Kent helix](/C:/dev/strategy-codex/codex/speakers/kent/kent-helix.md)
 
 Why: the helix explains how Davis differs from Diesen, Nawfal, and Barnes quote-surface reinforcement.
 
