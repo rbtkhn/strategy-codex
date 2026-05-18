@@ -114,49 +114,42 @@ class TestExecute:
         assert not result.success
         assert "not_implemented" in result.error
 
-    def test_receipts_emitted(self, tmp_path: Path) -> None:
-        events_dir = tmp_path / "users" / "u1"
-        events_dir.mkdir(parents=True)
+    def test_receipts_emitted(self, tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
+        events_dir = tmp_path
         (events_dir / "pipeline-events.jsonl").write_text("", encoding="utf-8")
         (events_dir / "compute-ledger.jsonl").write_text("", encoding="utf-8")
 
         import work_dev.sandbox_adapter as sa
         import emit_pipeline_event as epe
         import emit_compute_ledger as ecl
+        import repo_io
 
-        orig_repo_epe = epe.REPO_ROOT
-        orig_repo_ecl = ecl.REPO_ROOT
-        orig_repo_sa = sa.REPO_ROOT
-        epe.REPO_ROOT = tmp_path
-        ecl.REPO_ROOT = tmp_path
-        sa.REPO_ROOT = tmp_path
-        try:
-            req = SandboxRequest(
-                command="test", backend="dry_run",
-                task_id="T-RECEIPT", task_type="receipt_test",
-            )
-            result = execute("u1", req, emit_receipts=True)
-            assert result.success
+        monkeypatch.setattr(repo_io, "REPO_ROOT", tmp_path)
+        monkeypatch.setattr(epe, "REPO_ROOT", tmp_path)
+        monkeypatch.setattr(ecl, "REPO_ROOT", tmp_path)
+        monkeypatch.setattr(sa, "REPO_ROOT", tmp_path)
+        req = SandboxRequest(
+            command="test", backend="dry_run",
+            task_id="T-RECEIPT", task_type="receipt_test",
+        )
+        result = execute("u1", req, emit_receipts=True)
+        assert result.success
 
-            events = (events_dir / "pipeline-events.jsonl").read_text(encoding="utf-8").strip().splitlines()
-            assert len(events) >= 2
-            pre = json.loads(events[-2])
-            post = json.loads(events[-1])
-            assert pre["event"] == "sandbox_execution_pre"
-            assert post["event"] == "sandbox_execution_post"
-            assert pre["request_id"] == post["request_id"]
-            assert post["task_id"] == "T-RECEIPT"
+        events = (events_dir / "pipeline-events.jsonl").read_text(encoding="utf-8").strip().splitlines()
+        assert len(events) >= 2
+        pre = json.loads(events[-2])
+        post = json.loads(events[-1])
+        assert pre["event"] == "sandbox_execution_pre"
+        assert post["event"] == "sandbox_execution_post"
+        assert pre["request_id"] == post["request_id"]
+        assert post["task_id"] == "T-RECEIPT"
 
-            ledger = (events_dir / "compute-ledger.jsonl").read_text(encoding="utf-8").strip().splitlines()
-            assert len(ledger) >= 1
-            row = json.loads(ledger[-1])
-            assert row["operation"] == "sandbox_execution"
-            assert row["task_id"] == "T-RECEIPT"
-            assert row["outcome_confidence"] == 1.0
-        finally:
-            epe.REPO_ROOT = orig_repo_epe
-            ecl.REPO_ROOT = orig_repo_ecl
-            sa.REPO_ROOT = orig_repo_sa
+        ledger = (events_dir / "compute-ledger.jsonl").read_text(encoding="utf-8").strip().splitlines()
+        assert len(ledger) >= 1
+        row = json.loads(ledger[-1])
+        assert row["operation"] == "sandbox_execution"
+        assert row["task_id"] == "T-RECEIPT"
+        assert row["outcome_confidence"] == 1.0
 
     def test_result_dataclass_fields(self) -> None:
         req = SandboxRequest(command="x", backend="dry_run")

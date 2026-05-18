@@ -11,13 +11,14 @@ if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
 
 import emit_pipeline_event as epe  # noqa: E402
+import repo_io  # noqa: E402
 
 
 def test_append_pipeline_event_writes_and_returns_id(monkeypatch):
     with tempfile.TemporaryDirectory() as td:
         user = "test-user-emit"
         fake_root = Path(td)
-        monkeypatch.setattr(epe, "REPO_ROOT", fake_root)
+        monkeypatch.setattr(repo_io, "REPO_ROOT", fake_root)
         out = epe.append_pipeline_event(
             user,
             "maintenance",
@@ -27,7 +28,7 @@ def test_append_pipeline_event_writes_and_returns_id(monkeypatch):
         assert out.get("event_id", "").startswith("evt_")
         assert out.get("fork_id") == user
         assert out["event"] == "maintenance"
-        path = fake_root / "users" / user / "pipeline-events.jsonl"
+        path = fake_root / "pipeline-events.jsonl"
         assert path.is_file()
         line = path.read_text(encoding="utf-8").strip().splitlines()[-1]
         row = json.loads(line)
