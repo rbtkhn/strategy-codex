@@ -45,7 +45,7 @@ REPAIR_ROUTING = {
 
 DEFAULT_TARGETS = {
     "sm-1-speaker-object-repair": "codex/speakers/sachs/sachs-speaker-object.md",
-    "sm-2-speaker-arc-ranking": "codex/2026/diesen/diesen-freeman-speaker-arc.md",
+    "sm-2-speaker-arc-ranking": "codex/years/2026/diesen/diesen-freeman-speaker-arc.md",
 }
 
 TARGET_BY_TYPE = {

@@ -36,7 +36,7 @@ Krainer should currently be read as a **cross-host reinforced speaker object who
 That means:
 
 - the object is stronger than a one-off guest shelf because it has real recurring reuse
-- the [Diesen x Krainer speaker arc](/C:/dev/strategy-codex/codex/2026/diesen/diesen-krainer-speaker-arc.md) is presently the clearest stable host-local form on disk
+- the [Diesen x Krainer speaker arc](/C:/dev/strategy-codex/codex/years/2026/diesen/diesen-krainer-speaker-arc.md) is presently the clearest stable host-local form on disk
 - Dialogue Works and The Duran materially reinforce the object and widen its usefulness
 - but the notebook should not yet overstate this as a mature double or triple speaker-helix without denser host-local arc structure actually materialized on disk outside Diesen
 
@@ -51,7 +51,7 @@ The clearest reinforcement beyond Diesen is the broader recurring run visible in
 
 There is also a materialized on-disk Dialogue Works anchor:
 
-- [2025-01-18 Krainer x Wilkerson on Dialogue Works](/C:/dev/strategy-codex/codex/2026/raw-input/2025-01-18/transcript-dialogue-works-israel-is-in-total-disarray-alex-krainer-col-larry-wilkerson-2025-01-18.md)
+- [2025-01-18 Krainer x Wilkerson on Dialogue Works](/C:/dev/strategy-codex/codex/years/2026/raw-input/2025-01-18/transcript-dialogue-works-israel-is-in-total-disarray-alex-krainer-col-larry-wilkerson-2025-01-18.md)
 
 See [krainer-cross-host-note.md](/C:/dev/strategy-codex/codex/speakers/krainer/krainer-cross-host-note.md).
 
@@ -59,11 +59,11 @@ See [krainer-cross-host-note.md](/C:/dev/strategy-codex/codex/speakers/krainer/k
 
 If the operator needs the clearest current host-local entry:
 
-- open [diesen-krainer-speaker-arc.md](/C:/dev/strategy-codex/codex/2026/diesen/diesen-krainer-speaker-arc.md)
+- open [diesen-krainer-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/diesen/diesen-krainer-speaker-arc.md)
 
 If the operator needs the strongest current materialized raw-input file:
 
-- open [2026-05-08 Diesen x Krainer](/C:/dev/strategy-codex/codex/2026/raw-input/2026-05-08/transcript-diesen-krainer-hormuz-multipolar-world-order-2026-05-08.md)
+- open [2026-05-08 Diesen x Krainer](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-08/transcript-diesen-krainer-hormuz-multipolar-world-order-2026-05-08.md)
 
 If the operator needs the object doctrine rather than a live lane:
 

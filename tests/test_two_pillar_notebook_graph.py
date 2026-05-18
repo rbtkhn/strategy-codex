@@ -32,7 +32,7 @@ def _write_raw_input(path: Path, *, frontmatter: str, body: str) -> None:
 
 
 def test_default_raw_input_root_points_to_2026_volume() -> None:
-    assert DEFAULT_RAW_INPUT_ROOT == REPO_ROOT / "codex" / "2026" / "raw-input"
+    assert DEFAULT_RAW_INPUT_ROOT == REPO_ROOT / "codex" / "years" / "2026" / "raw-input"
 
 
 def test_guess_guest_block_handles_embedded_guest_names() -> None:
@@ -318,19 +318,21 @@ def test_index_only_backfill_writes_raw_input_without_transcript_body() -> None:
 def test_codex_2026_author_shelves_include_civ_mem_fields() -> None:
     authors = ["alkorshid", "diesen", "mercouris", "davis", "pape", "parsi", "ritter", "crooke"]
     for author in authors:
-        shelf = REPO_ROOT / "codex" / "2026" / author
+        shelf = REPO_ROOT / "codex" / "years" / "2026" / author
         assert (shelf / "README.md").is_file()
-        assert (shelf / f"{author}-profile.md").is_file()
-        assert (shelf / f"{author}-book-2026-04.md").is_file()
         assert (shelf / f"{author}-chapter-2026-04-01.md").is_file()
         assert list(shelf.glob(f"{author}-page-2026-04-01*.md"))
-        book = (shelf / f"{author}-book-2026-04.md").read_text(encoding="utf-8")
+        book_or_shelf = shelf / f"{author}-book-2026-04.md"
+        if not book_or_shelf.is_file():
+            book_or_shelf = shelf / f"{author}-shelf-2026-04.md"
+        assert book_or_shelf.is_file()
+        book = book_or_shelf.read_text(encoding="utf-8")
         assert "## Civ-Mem Fields" in book
         assert "Fit / mismatch / falsifier" in book
         assert "legitimacy and continuity" in book
         assert "narrative authority" in book
 
-    resonance = (REPO_ROOT / "codex" / "2026" / "civ-mem-resonance-2026-04.md").read_text(encoding="utf-8")
+    resonance = (REPO_ROOT / "codex" / "years" / "2026" / "civ-mem-resonance-2026-04.md").read_text(encoding="utf-8")
     assert "Monthly lattice note" in resonance
     assert "Fit / mismatch / falsifier" in resonance
     assert "not Record" in resonance

@@ -4,7 +4,7 @@ Grace-mar paths and commands for this repository (from `.cursor/skills/youtube-r
 |--------|------|
 | Canonical raw-input tree | [codex/](../../codex/) |
 | Date-bucket target pattern | `codex/YYYY/raw-input/YYYY-MM-DD/` |
-| Existing Diesen examples | [codex/2026/raw-input/2026-04-19/](../../codex/2026/raw-input/2026-04-19/) · [codex/2026/raw-input/2026-05-11/](../../codex/2026/raw-input/2026-05-11/) |
+| Existing Diesen examples | [codex/years/2026/raw-input/2026-04-19/](../../codex/years/2026/raw-input/2026-04-19/) · [codex/years/2026/raw-input/2026-05-11/](../../codex/years/2026/raw-input/2026-05-11/) |
 | Temp subtitle cache | [\.codex-tmp/yt-dlp/](../../.codex-tmp/yt-dlp/) |
 | Portable skill manifest | [skills-portable/manifest.yaml](../../../skills-portable/manifest.yaml) |
 | Sync script | [scripts/sync_portable_skills.py](../../../scripts/sync_portable_skills.py) |

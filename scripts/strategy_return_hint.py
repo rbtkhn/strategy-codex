@@ -16,10 +16,16 @@ from datetime import date
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
+SCRIPTS = REPO_ROOT / "scripts"
+if str(SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS))
+
+from codex_paths import year_root  # noqa: E402
+
 CODEX_ROOT = REPO_ROOT / "codex"
 DEFAULT_INBOX = CODEX_ROOT / "daily-strategy-inbox.md"
 DEFAULT_STATUS = CODEX_ROOT / "STATUS.md"
-DEFAULT_RAW_ROOT = CODEX_ROOT / "2026" / "raw-input"
+DEFAULT_RAW_ROOT = year_root(2026) / "raw-input"
 RE_URL = re.compile(r"https://[^\s\]>)}]+")
 RE_RAW_INPUT_MD = re.compile(r"raw-input/[^\s\])]+\.md")
 
@@ -94,7 +100,7 @@ def resolve_active_days_path(repo_root: Path, active_chapter: str | None) -> Pat
     if not active_chapter:
         return None
     candidates = [
-        repo_root / "codex" / "2026" / "chapters" / active_chapter / "days.md",
+        repo_root / "codex" / "years" / "2026" / "chapters" / active_chapter / "days.md",
         repo_root / "codex" / "chapters" / active_chapter / "days.md",
     ]
     for path in candidates:
@@ -257,7 +263,7 @@ def build_strategy_return_hint(
     status_path: Path | None = None,
 ) -> StrategyReturnHint:
     inbox = inbox_path or repo_root / "codex" / "daily-strategy-inbox.md"
-    raw = raw_root or repo_root / "codex" / "2026" / "raw-input"
+    raw = raw_root or repo_root / "codex" / "years" / "2026" / "raw-input"
     status = status_path or repo_root / "codex" / "STATUS.md"
 
     live_text = live_accumulator_text(read_text(inbox))

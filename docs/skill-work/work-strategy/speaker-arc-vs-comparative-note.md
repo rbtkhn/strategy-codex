@@ -83,8 +83,8 @@ The comparison sits above it.
 
 For `speaker arc`, the host-local layer includes:
 
-- [diesen-freeman-speaker-arc.md](../../../codex/2026/diesen/diesen-freeman-speaker-arc.md)
-- [alkorshid-freeman-speaker-arc.md](../../../codex/2026/alkorshid/alkorshid-freeman-speaker-arc.md)
+- [diesen-freeman-speaker-arc.md](../../../codex/years/2026/diesen/diesen-freeman-speaker-arc.md)
+- [alkorshid-freeman-speaker-arc.md](../../../codex/years/2026/alkorshid/alkorshid-freeman-speaker-arc.md)
 
 The higher comparative question is:
 

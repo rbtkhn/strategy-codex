@@ -17,6 +17,6 @@ Open here first when the question is not merely "what did Macgregor say," but **
 
 ## Host lanes
 
-- [Davis x Macgregor](/C:/dev/strategy-codex/codex/2026/davis/davis-macgregor-speaker-arc.md)
-- [Diesen x Macgregor](/C:/dev/strategy-codex/codex/2026/diesen/diesen-macgregor-speaker-arc.md)
-- [Judging Freedom x Macgregor](/C:/dev/strategy-codex/codex/2026/napolitano/napolitano-macgregor-speaker-arc.md)
+- [Davis x Macgregor](/C:/dev/strategy-codex/codex/years/2026/davis/davis-macgregor-speaker-arc.md)
+- [Diesen x Macgregor](/C:/dev/strategy-codex/codex/years/2026/diesen/diesen-macgregor-speaker-arc.md)
+- [Judging Freedom x Macgregor](/C:/dev/strategy-codex/codex/years/2026/napolitano/napolitano-macgregor-speaker-arc.md)

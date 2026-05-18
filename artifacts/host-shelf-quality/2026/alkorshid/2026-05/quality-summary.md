@@ -21,4 +21,4 @@ WORK only; not Record.
 
 ## Raw Inputs
 
-- `2026-05-04` `cleaned-transcript` `8137` words (routeable) - `codex/2026/raw-input/2026-05-04/transcript-baud-dialogue-works-nima-2026-05-04.md`
+- `2026-05-04` `cleaned-transcript` `8137` words (routeable) - `codex/years/2026/raw-input/2026-05-04/transcript-baud-dialogue-works-nima-2026-05-04.md`

@@ -10,9 +10,9 @@ Martyanov is no longer only a Dialogue Works-adjacent voice.
 
 There is now clear on-disk evidence that the same Martyanov object recurs across at least three distinct host environments:
 
-- [Alkhorshid x Martyanov](/C:/dev/strategy-codex/codex/2026/alkorshid/alkorshid-martyanov-speaker-arc.md)
-- [Davis x Martyanov](/C:/dev/strategy-codex/codex/2026/davis/davis-martyanov-speaker-arc.md)
-- [Diesen x Martyanov](/C:/dev/strategy-codex/codex/2026/diesen/diesen-martyanov-speaker-arc.md)
+- [Alkhorshid x Martyanov](/C:/dev/strategy-codex/codex/years/2026/alkorshid/alkorshid-martyanov-speaker-arc.md)
+- [Davis x Martyanov](/C:/dev/strategy-codex/codex/years/2026/davis/davis-martyanov-speaker-arc.md)
+- [Diesen x Martyanov](/C:/dev/strategy-codex/codex/years/2026/diesen/diesen-martyanov-speaker-arc.md)
 
 That matters because it shows the Martyanov voice is not a one-lane anomaly. The notebook can now route through real imported evidence rather than relying only on search memory or inventory rows.
 

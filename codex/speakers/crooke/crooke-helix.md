@@ -16,22 +16,22 @@ These arcs should be read together because they are not merely repeated appearan
 
 | Host lane | Distinct register | What it reveals best |
 |---|---|---|
-| [diesen x crooke](/C:/dev/strategy-codex/codex/2026/diesen/diesen-crooke-speaker-arc.md) | Order-transition altitude | Multipolar consequence, strategic irrationality at the center, supply-line and Hormuz system shock, and how a regional war becomes a world-order event |
-| [davis x crooke](/C:/dev/strategy-codex/codex/2026/davis/davis-crooke-speaker-arc.md) | Bargaining room and strategic-room realism | Negotiation structure, spoiler logic, Iranian internal decision architecture, and the gap between coercive theater and actual leverage |
-| [alkorshid x crooke](/C:/dev/strategy-codex/codex/2026/alkorshid/alkorshid-crooke-speaker-arc.md) | Live crisis pressure and event meaning | Why immediate escalations matter beyond themselves, how war lessons travel outward, and how present-tense crisis becomes civilizational or geopolitical signal |
+| [diesen x crooke](/C:/dev/strategy-codex/codex/years/2026/diesen/diesen-crooke-speaker-arc.md) | Order-transition altitude | Multipolar consequence, strategic irrationality at the center, supply-line and Hormuz system shock, and how a regional war becomes a world-order event |
+| [davis x crooke](/C:/dev/strategy-codex/codex/years/2026/davis/davis-crooke-speaker-arc.md) | Bargaining room and strategic-room realism | Negotiation structure, spoiler logic, Iranian internal decision architecture, and the gap between coercive theater and actual leverage |
+| [alkorshid x crooke](/C:/dev/strategy-codex/codex/years/2026/alkorshid/alkorshid-crooke-speaker-arc.md) | Live crisis pressure and event meaning | Why immediate escalations matter beyond themselves, how war lessons travel outward, and how present-tense crisis becomes civilizational or geopolitical signal |
 
 ## Open first
 
 If the operator needs the cleanest single introduction to the helix:
 
-- open [davis-crooke-speaker-arc.md](/C:/dev/strategy-codex/codex/2026/davis/davis-crooke-speaker-arc.md)
+- open [davis-crooke-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/davis/davis-crooke-speaker-arc.md)
 
 If the operator needs the best helix pair:
 
-- open [davis-crooke-speaker-arc.md](/C:/dev/strategy-codex/codex/2026/davis/davis-crooke-speaker-arc.md)
-- then [diesen-crooke-speaker-arc.md](/C:/dev/strategy-codex/codex/2026/diesen/diesen-crooke-speaker-arc.md)
+- open [davis-crooke-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/davis/davis-crooke-speaker-arc.md)
+- then [diesen-crooke-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/diesen/diesen-crooke-speaker-arc.md)
 
-Add [alkorshid-crooke-speaker-arc.md](/C:/dev/strategy-codex/codex/2026/alkorshid/alkorshid-crooke-speaker-arc.md) when the notebook needs the sharpest present-tense event pressure rather than only the bargaining room and the wider order-transition frame.
+Add [alkorshid-crooke-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/alkorshid/alkorshid-crooke-speaker-arc.md) when the notebook needs the sharpest present-tense event pressure rather than only the bargaining room and the wider order-transition frame.
 
 ## Routing use
 

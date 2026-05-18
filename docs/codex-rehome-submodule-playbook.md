@@ -1,6 +1,6 @@
 # Codex Rehome Submodule Playbook
 
-This note covers local clone repair for the `codex/academy/ph-civ` submodule after hoisting academy out of `codex/2026/`.
+This note covers local clone repair for the `codex/academy/ph-civ` submodule after hoisting academy out of `codex/years/2026/`.
 
 Tracked state after the migration:
 
@@ -29,7 +29,7 @@ Some local clones store submodule gitdirs under `.git-local/modules/...`. If the
 
 ```powershell
 New-Item -ItemType Directory -Force .git-local/modules/codex/academy | Out-Null
-Move-Item .git-local/modules/codex/2026/academy/ph-civ .git-local/modules/codex/academy/ph-civ
+Move-Item .git-local/modules/codex/years/2026/academy/ph-civ .git-local/modules/codex/academy/ph-civ
 Set-Content codex/academy/ph-civ/.git "gitdir: ../../../.git-local/modules/codex/academy/ph-civ"
 git config --file .git-local/modules/codex/academy/ph-civ/config core.worktree ../../../../../codex/academy/ph-civ
 git submodule sync -- codex/academy/ph-civ

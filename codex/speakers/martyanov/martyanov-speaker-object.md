@@ -39,9 +39,9 @@ Martyanov should currently be read as a **helix-first speaker object with three 
 
 That means:
 
-- [Alkhorshid x Martyanov](/C:/dev/strategy-codex/codex/2026/alkorshid/alkorshid-martyanov-speaker-arc.md) is the clearest mature branch
-- [Davis x Martyanov](/C:/dev/strategy-codex/codex/2026/davis/davis-martyanov-speaker-arc.md) is a strong real secondary branch
-- [Diesen x Martyanov](/C:/dev/strategy-codex/codex/2026/diesen/diesen-martyanov-speaker-arc.md) is materially real on disk, but currently thinner than the other two
+- [Alkhorshid x Martyanov](/C:/dev/strategy-codex/codex/years/2026/alkorshid/alkorshid-martyanov-speaker-arc.md) is the clearest mature branch
+- [Davis x Martyanov](/C:/dev/strategy-codex/codex/years/2026/davis/davis-martyanov-speaker-arc.md) is a strong real secondary branch
+- [Diesen x Martyanov](/C:/dev/strategy-codex/codex/years/2026/diesen/diesen-martyanov-speaker-arc.md) is materially real on disk, but currently thinner than the other two
 
 The notebook should therefore enter Martyanov through host transformation first, while still refusing to pretend all three branches are equally dense or equally mature.
 
@@ -49,11 +49,11 @@ The notebook should therefore enter Martyanov through host transformation first,
 
 If the operator needs the strongest current host-local lane:
 
-- open [alkorshid-martyanov-speaker-arc.md](/C:/dev/strategy-codex/codex/2026/alkorshid/alkorshid-martyanov-speaker-arc.md)
+- open [alkorshid-martyanov-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/alkorshid/alkorshid-martyanov-speaker-arc.md)
 
 If the operator needs the strongest non-Alkhorshid branch:
 
-- open [davis-martyanov-speaker-arc.md](/C:/dev/strategy-codex/codex/2026/davis/davis-martyanov-speaker-arc.md)
+- open [davis-martyanov-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/davis/davis-martyanov-speaker-arc.md)
 
 If the operator needs the wider branch picture:
 

@@ -10,13 +10,13 @@ Barnes is not only a Davis guest arc. There are real adjacent appearances that r
 
 The clearest current non-Davis reinforcement on disk is:
 
-- [2026-04-23 Mercouris x Barnes](/C:/dev/strategy-codex/codex/2026/raw-input/2026-04-23/transcript-duran-mercouris-barnes-fractured-iran-trump-2026-04-23.md)
+- [2026-04-23 Mercouris x Barnes](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-23/transcript-duran-mercouris-barnes-fractured-iran-trump-2026-04-23.md)
 
 That matters because it shows the Barnes voice remains intact outside the Davis stream: domestic instability, executive disorder, negotiation incoherence, and political-liability framing all survive translation into another host environment.
 
 There is also real work-politics reinforcement:
 
-- [2026-04-17 Barnes x Johnson verbatim](/C:/dev/strategy-codex/codex/2026/raw-input/2026-04-17/barnes-countercurrent-2026-04-17-verbatim.md)
+- [2026-04-17 Barnes x Johnson verbatim](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-17/barnes-countercurrent-2026-04-17-verbatim.md)
 
 That lane is especially useful for White House room dynamics, Vance-versus-Trump process collapse, and political liability framing, but it is not yet formalized on disk as a stable host-local speaker arc.
 

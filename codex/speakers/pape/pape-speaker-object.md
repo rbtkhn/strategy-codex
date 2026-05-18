@@ -35,7 +35,7 @@ Pape should currently be read as a **stream-anchored speaker object with strong 
 
 That means:
 
-- the native [pape cognition stream](/C:/dev/strategy-codex/codex/2026/pape/README.md) is still the main body of the object
+- the native [pape cognition stream](/C:/dev/strategy-codex/codex/years/2026/pape/README.md) is still the main body of the object
 - the object is stronger than a purely local single-lane shelf because guest appearances materially reinforce it
 - but the notebook should not yet overstate this as a mature double or triple speaker-helix without denser host-local arc structure
 
@@ -45,12 +45,12 @@ So Pape is not best read as a failed helix. He is best read as a speaker object 
 
 The clearest current cross-host reinforcement on disk is:
 
-- [2026-03-10 Davis x Pape](/C:/dev/strategy-codex/codex/2026/raw-input/2026-03-10/transcript-davis-pape-escalation-trap-2026-03-10.md)
+- [2026-03-10 Davis x Pape](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-03-10/transcript-davis-pape-escalation-trap-2026-03-10.md)
 
 Useful wider reinforcement also exists in:
 
-- [2026-04-29 Breaking Points x Pape](/C:/dev/strategy-codex/codex/2026/raw-input/2026-04-29/youtube-pape-grim-nuclear-iran-inevitable-2026-04-29.md)
-- [2026-05-12 Mario Nawfal x Pape](/C:/dev/strategy-codex/codex/2026/raw-input/2026-05-12/youtube-pape-mario-nawfal-trump-s-next-iran-steps-revealed-2026-05-12.md)
+- [2026-04-29 Breaking Points x Pape](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-29/youtube-pape-grim-nuclear-iran-inevitable-2026-04-29.md)
+- [2026-05-12 Mario Nawfal x Pape](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-12/youtube-pape-mario-nawfal-trump-s-next-iran-steps-revealed-2026-05-12.md)
 
 See [pape-cross-host-note.md](/C:/dev/strategy-codex/codex/speakers/pape/pape-cross-host-note.md).
 
@@ -58,11 +58,11 @@ See [pape-cross-host-note.md](/C:/dev/strategy-codex/codex/speakers/pape/pape-cr
 
 If the operator needs the best current stream entry:
 
-- open [pape-lane-consolidation-2026-05.md](/C:/dev/strategy-codex/codex/2026/pape/pape-lane-consolidation-2026-05.md)
+- open [pape-lane-consolidation-2026-05.md](/C:/dev/strategy-codex/codex/years/2026/pape/pape-lane-consolidation-2026-05.md)
 
 If the operator needs the clearest guest-distributed entry:
 
-- open [transcript-davis-pape-escalation-trap-2026-03-10.md](/C:/dev/strategy-codex/codex/2026/raw-input/2026-03-10/transcript-davis-pape-escalation-trap-2026-03-10.md)
+- open [transcript-davis-pape-escalation-trap-2026-03-10.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-03-10/transcript-davis-pape-escalation-trap-2026-03-10.md)
 
 If the operator needs the object doctrine rather than a live lane:
 

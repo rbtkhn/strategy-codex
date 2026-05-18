@@ -1,20 +1,20 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Extract raw material for per-expert thread distillation.
 
-Reads from active ``codex/2026/<id>/<id>-transcript.md`` files (recent verbatim),
-**inbox lines** that link ``raw-input/â€¦`` for the same ``thread:<id>`` lane,
+Reads from active ``codex/years/2026/<id>/<id>-transcript.md`` files (recent verbatim),
+**inbox lines** that link ``raw-input/…`` for the same ``thread:<id>`` lane,
 ``strategy-page`` blocks, optional legacy on-disk index rows; writes structured
-extraction to active ``codex/2026/<id>/<id>-thread.md`` files between script
+extraction to active ``codex/years/2026/<id>/<id>-thread.md`` files between script
 markers.
 
-The output is **raw material** for assistant refinement â€” the assistant
+The output is **raw material** for assistant refinement — the assistant
 distills it into a curated analytical thread (convergences, tensions,
 drift, page impact).
 
 **Two-step ``thread`` flow:**
 
-1. ``strategy_expert_transcript.py`` triages inbox â†’ transcripts (automatic)
-2. This script extracts transcript + page material â†’ thread files
+1. ``strategy_expert_transcript.py`` triages inbox → transcripts (automatic)
+2. This script extracts transcript + page material → thread files
 3. Assistant refines the extraction into curated thread prose
 
 Imported by ``strategy_expert_transcript.py`` for shared constants and
@@ -39,13 +39,14 @@ if str(SCRIPTS) not in sys.path:
 
 from yaml_compat import safe_load_path
 
+from codex_paths import year_root
 from strategy_page_reader import discover_pages
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
 DEFAULT_THREADS = REPO_ROOT / "codex/strategy-commentator-threads.md"
 DEFAULT_INBOX = REPO_ROOT / "codex/daily-strategy-inbox.md"
-DEFAULT_OUT_DIR = REPO_ROOT / "codex/2026"
+DEFAULT_OUT_DIR = year_root(2026)
 DEFAULT_PAGE_INDEX = REPO_ROOT / "codex/knot-index.yaml"
 
 CANONICAL_EXPERT_IDS: tuple[str, ...] = (
@@ -112,7 +113,7 @@ def collect_inbox_raw_input_pointers(
     """List markdown bullets for `raw-input/` paths on inbox lines for this `thread:` lane.
 
     When `month_filter_ym` is set (e.g. ``2026-04``), only paths whose folder date
-    starts with that year-month are included (for monthly `â€¦-thread-YYYY-MM.md` machine
+    starts with that year-month are included (for monthly `…-thread-YYYY-MM.md` machine
     blocks). When unset (legacy single `thread.md`), all matching pointers are listed
     up to `max_lines`.
     """
@@ -206,7 +207,7 @@ def expert_id_from_thread_path(path: Path) -> str | None:
 
 
 def month_thread_paths_by_month(notebook_dir: Path, expert_id: str) -> dict[str, Path]:
-    """Map ``YYYY-MM`` â†’ thread path; prefer ``experts/<id>/`` over flat root."""
+    """Map ``YYYY-MM`` → thread path; prefer ``experts/<id>/`` over flat root."""
     by_m: dict[str, Path] = {}
     expert_dir = expert_dir_for_layout(expert_id, notebook_dir)
     if expert_dir.is_dir():
@@ -350,19 +351,19 @@ CORPUS_MARKER_END = "<!-- strategy-expert-corpus:end -->"
 
 _RE_ACCUM = re.compile(r"\*\*Accumulator for:\*\*\s*(\d{4}-\d{2}-\d{2})")
 _RE_BUNDLE = re.compile(r"<!--\s*brief-handoff-bundle:\s*(\d{4}-\d{2}-\d{2})")
-_RE_PRIOR = re.compile(r"\*\*Prior scratch â€”\s*(\d{4}-\d{2}-\d{2})")
+_RE_PRIOR = re.compile(r"\*\*Prior scratch —\s*(\d{4}-\d{2}-\d{2})")
 _RE_FOLDED = re.compile(r"\*\*Folded\s*\((\d{4}-\d{2}-\d{2})\)")
-_RE_PREP = re.compile(r"### Prep â€”\s*(\d{4}-\d{2}-\d{2})")
+_RE_PREP = re.compile(r"### Prep —\s*(\d{4}-\d{2}-\d{2})")
 _RE_RETAINED = re.compile(
     r"### Retained reference \((\d{4}-\d{2}-\d{2})(?:\s+fold)?\)"
 )
 _RE_THREAD = re.compile(r"thread:([a-z][a-z0-9]*(?:-[a-z][a-z0-9]*)*)")
-# Verify-tail expert tag (see daily-strategy-inbox.md): ``| thread:<id> |`` â€” not hook prose ``**`thread:davis`**``.
+# Verify-tail expert tag (see daily-strategy-inbox.md): ``| thread:<id> |`` — not hook prose ``**`thread:davis`**``.
 _RE_THREAD_PIPE = re.compile(
     r"\|\s*thread:([a-z][a-z0-9]*(?:-[a-z][a-z0-9]*)*)\s*\|"
 )
 _RE_PUBLISHED = re.compile(r"published:(\d{4}-\d{2}-\d{2})")
-# Dated `## YYYY-MM-DD` scratch subsection (inbox) â€” same pattern as transcript date headings.
+# Dated `## YYYY-MM-DD` scratch subsection (inbox) — same pattern as transcript date headings.
 _RE_DATE_HEADING = re.compile(r"^## (\d{4}-\d{2}-\d{2})\s*$")
 
 # Policy: long-form captures per ingest; 7-day prune keeps whole files near this band.
@@ -413,7 +414,7 @@ def ingest_thread_slugs(line: str) -> list[str]:
     if m_end and m_end.group(1) in _EXPERT_IDS_SET:
         return [m_end.group(1)]
     # Backtick synthetic rows (e.g. ``batch-analysis``) often contain ``thread:`` in prose;
-    # do not fall back to naive findall â€” avoids false routes.
+    # do not fall back to naive findall — avoids false routes.
     if line.lstrip().startswith("`"):
         return []
     return [s for s in _RE_THREAD.findall(line) if s in _EXPERT_IDS_SET]
@@ -555,18 +556,18 @@ def verify_index_alignment(
         )
     if set(main_rows.keys()) != expected:
         raise SystemExit(
-            "Parsed commentator rows do not cover all CANONICAL_EXPERT_IDS â€” "
+            "Parsed commentator rows do not cover all CANONICAL_EXPERT_IDS — "
             f"got {sorted(main_rows.keys())!r}"
         )
     if tuple(order) != CANONICAL_EXPERT_IDS:
         raise SystemExit(
-            "Commentator table row order differs from CANONICAL_EXPERT_IDS tuple â€” "
+            "Commentator table row order differs from CANONICAL_EXPERT_IDS tuple — "
             f"parsed order: {order!r}"
         )
 
 
 # ---------------------------------------------------------------------------
-# Inbox extraction â€” kept for strategy_expert_transcript.py import
+# Inbox extraction — kept for strategy_expert_transcript.py import
 # ---------------------------------------------------------------------------
 
 def _continuation_stops_thread_block(line: str) -> bool:
@@ -741,12 +742,12 @@ def render_thread_extraction(
     """Render machine-layer content between -thread.md markers (overwrite each run).
 
     Human narrative belongs *above* THREAD_MARKER_START in the file; see
-    STRATEGY-NOTEBOOK-ARCHITECTURE.md Â§ Thread (two layers).
+    STRATEGY-NOTEBOOK-ARCHITECTURE.md § Thread (two layers).
     """
     page_blocks = page_blocks or []
     raw_input_lane_lines = raw_input_lane_lines or []
     parts: list[str] = []
-    parts.append("## Machine layer â€” Extraction (script-maintained)\n")
+    parts.append("## Machine layer — Extraction (script-maintained)\n")
     parts.append(
         "_Auto-generated from `transcript.md` + **on-disk** and **inbox** `raw-input/` "
         "(de-duped union) + `strategy-page` blocks + optional page index rows. "
@@ -763,7 +764,7 @@ def render_thread_extraction(
     if raw_input_lane_lines:
         parts.append("### Recent raw-input (lane)\n")
         parts.append(
-            "_Union of **on-disk** `raw-input/â€¦` files tagged with this expertâ€™s `thread:` "
+            "_Union of **on-disk** `raw-input/…` files tagged with this expert’s `thread:` "
             "and **inbox** lines (same paths de-duped; disk line kept first)._\n"
         )
         for line in raw_input_lane_lines:
@@ -774,7 +775,7 @@ def render_thread_extraction(
         parts.append("### Page references\n")
         for pb in page_blocks:
             w = f" watch=`{pb.watch}`" if pb.watch else ""
-            parts.append(f"- **{pb.id}** â€” {pb.date}{w}")
+            parts.append(f"- **{pb.id}** — {pb.date}{w}")
         parts.append("")
 
     if page_refs:
@@ -788,7 +789,7 @@ def render_thread_extraction(
             page_label = page.get("page_label", "")
             note = page.get("note", "")
             label_str = f" ({page_label})" if page_label else ""
-            note_str = f" â€” {note}" if note else ""
+            note_str = f" — {note}" if note else ""
             basename = Path(page_path).name
             parts.append(f"- [{basename}]({basename}) {page_date}{label_str}{note_str}")
         parts.append("")
@@ -850,7 +851,7 @@ def rebuild_threads(
     inbox_path: Path | None = None,
     dry_run: bool = False,
 ) -> list[Path]:
-    """Extract transcript + page material â†’ thread files for all experts.
+    """Extract transcript + page material → thread files for all experts.
 
     When any ``<expert_id>-thread-YYYY-MM.md`` exists for an expert (in-folder or flat),
     machine layers are written **per month**; page index rows attach to the
@@ -859,7 +860,7 @@ def rebuild_threads(
     """
     written: list[Path] = []
     today_ym = datetime.now(timezone.utc).date().strftime("%Y-%m")
-    from strategy_raw_input_index import (  # noqa: PLC0415 â€” lazy (avoid import cycle)
+    from strategy_raw_input_index import (  # noqa: PLC0415 — lazy (avoid import cycle)
         discover_raw_input_bullets_for_expert,
         merge_raw_input_bullet_lines,
     )

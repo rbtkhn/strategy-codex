@@ -20,22 +20,22 @@ An April 2026 `Napolitano x Freeman` branch is now routeable on disk as well, bu
 
 | Host lane | Distinct register | What it reveals best |
 |---|---|---|
-| [diesen x freeman](/C:/dev/strategy-codex/codex/2026/diesen/diesen-freeman-speaker-arc.md) | Historical altitude | Imperial exhaustion, diplomatic decay, and multipolar constraint becoming concrete through the year |
-| [davis x freeman](/C:/dev/strategy-codex/codex/2026/davis/davis-freeman-speaker-arc.md) | Settlement realism | What coercion cannot negotiate back once battlefield loss, war pressure, and degraded statecraft have narrowed the end state |
-| [alkorshid x freeman](/C:/dev/strategy-codex/codex/2026/alkorshid/alkorshid-freeman-speaker-arc.md) | Live crisis pressure | Emergency diplomacy, alliance strain, phony ceasefires, and hegemonic breakdown under immediate event stress |
+| [diesen x freeman](/C:/dev/strategy-codex/codex/years/2026/diesen/diesen-freeman-speaker-arc.md) | Historical altitude | Imperial exhaustion, diplomatic decay, and multipolar constraint becoming concrete through the year |
+| [davis x freeman](/C:/dev/strategy-codex/codex/years/2026/davis/davis-freeman-speaker-arc.md) | Settlement realism | What coercion cannot negotiate back once battlefield loss, war pressure, and degraded statecraft have narrowed the end state |
+| [alkorshid x freeman](/C:/dev/strategy-codex/codex/years/2026/alkorshid/alkorshid-freeman-speaker-arc.md) | Live crisis pressure | Emergency diplomacy, alliance strain, phony ceasefires, and hegemonic breakdown under immediate event stress |
 
 ## Open first
 
 If the operator needs the cleanest single introduction to the helix:
 
-- open [diesen-freeman-speaker-arc.md](/C:/dev/strategy-codex/codex/2026/diesen/diesen-freeman-speaker-arc.md)
+- open [diesen-freeman-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/diesen/diesen-freeman-speaker-arc.md)
 
 If the operator needs the best helix pair:
 
-- open [diesen-freeman-speaker-arc.md](/C:/dev/strategy-codex/codex/2026/diesen/diesen-freeman-speaker-arc.md)
-- then [davis-freeman-speaker-arc.md](/C:/dev/strategy-codex/codex/2026/davis/davis-freeman-speaker-arc.md)
+- open [diesen-freeman-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/diesen/diesen-freeman-speaker-arc.md)
+- then [davis-freeman-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/davis/davis-freeman-speaker-arc.md)
 
-Add [alkorshid-freeman-speaker-arc.md](/C:/dev/strategy-codex/codex/2026/alkorshid/alkorshid-freeman-speaker-arc.md) when the notebook needs the sharpest present-tense stress test rather than only the larger diplomatic horizon and settlement logic.
+Add [alkorshid-freeman-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/alkorshid/alkorshid-freeman-speaker-arc.md) when the notebook needs the sharpest present-tense stress test rather than only the larger diplomatic horizon and settlement logic.
 
 ## Routing use
 

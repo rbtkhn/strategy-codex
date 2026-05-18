@@ -10,11 +10,11 @@ Aguilar is now a real speaker object on the shelf, but he is not yet a meaningfu
 
 The current materially real branch is:
 
-- [Alkhorshid x Aguilar](/C:/dev/strategy-codex/codex/2026/alkorshid/alkorshid-aguilar-speaker-arc.md)
+- [Alkhorshid x Aguilar](/C:/dev/strategy-codex/codex/years/2026/alkorshid/alkorshid-aguilar-speaker-arc.md)
 
 There is now also one materially real non-Alkhorshid appearance on disk:
 
-- [2026-02-27 Kiriakou x Aguilar](/C:/dev/strategy-codex/codex/2026/raw-input/2026-02-27/transcript-kiriakou-anthony-aguilar-gaza-whistleblower-death-by-design-2026-02-27.md)
+- [2026-02-27 Kiriakou x Aguilar](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-02-27/transcript-kiriakou-anthony-aguilar-gaza-whistleblower-death-by-design-2026-02-27.md)
 
 That matters as second-host evidence, but it does not yet justify a stable second branch doctrine.
 

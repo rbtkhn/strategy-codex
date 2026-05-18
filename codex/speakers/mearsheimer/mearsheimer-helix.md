@@ -20,19 +20,19 @@ An April 2026 `Napolitano x Mearsheimer` branch is now routeable on disk as well
 
 | Host lane | Distinct register | What it reveals best |
 |---|---|---|
-| [diesen x mearsheimer](/C:/dev/strategy-codex/codex/2026/diesen/diesen-mearsheimer-speaker-arc.md) | Structural altitude | Great-power geometry, NATO decline, security-dilemma logic, order transition, and the way local wars plug into wider systemic change |
-| [davis x mearsheimer](/C:/dev/strategy-codex/codex/2026/davis/davis-mearsheimer-speaker-arc.md) | Coercive failure and bargaining geometry | Failed punishment logic, shrinking leverage, settlement impossibility, and the gap between what Washington threatens and what it can actually impose |
+| [diesen x mearsheimer](/C:/dev/strategy-codex/codex/years/2026/diesen/diesen-mearsheimer-speaker-arc.md) | Structural altitude | Great-power geometry, NATO decline, security-dilemma logic, order transition, and the way local wars plug into wider systemic change |
+| [davis x mearsheimer](/C:/dev/strategy-codex/codex/years/2026/davis/davis-mearsheimer-speaker-arc.md) | Coercive failure and bargaining geometry | Failed punishment logic, shrinking leverage, settlement impossibility, and the gap between what Washington threatens and what it can actually impose |
 
 ## Open first
 
 If the operator needs the cleanest single introduction to the helix:
 
-- open [diesen-mearsheimer-speaker-arc.md](/C:/dev/strategy-codex/codex/2026/diesen/diesen-mearsheimer-speaker-arc.md)
+- open [diesen-mearsheimer-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/diesen/diesen-mearsheimer-speaker-arc.md)
 
 If the operator needs the best pair:
 
-- open [diesen-mearsheimer-speaker-arc.md](/C:/dev/strategy-codex/codex/2026/diesen/diesen-mearsheimer-speaker-arc.md)
-- then [davis-mearsheimer-speaker-arc.md](/C:/dev/strategy-codex/codex/2026/davis/davis-mearsheimer-speaker-arc.md)
+- open [diesen-mearsheimer-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/diesen/diesen-mearsheimer-speaker-arc.md)
+- then [davis-mearsheimer-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/davis/davis-mearsheimer-speaker-arc.md)
 
 That order works because Diesen gives the wider architecture first, while Davis makes the same voice more concrete under war-feasibility pressure.
 
@@ -49,6 +49,6 @@ Use this helix note when the notebook is doing one or more of the following:
 
 - This is a helix in the general sense, but in current form it is a **double helix**, not a triple helix.
 - Do not quietly promote this to a three-strand object while the third host remains only orbit material rather than a stable speaker-arc.
-- Third-strand materials do exist in the broader Mearsheimer shelf, including [transcript-hedges-mearsheimer-iran-2026-04-20.md](/C:/dev/strategy-codex/codex/2026/raw-input/2026-04-20/transcript-hedges-mearsheimer-iran-2026-04-20.md) and [transcript-mearsheimer-redacted-trump-iran-2026-04-21.md](/C:/dev/strategy-codex/codex/2026/raw-input/2026-04-21/transcript-mearsheimer-redacted-trump-iran-2026-04-21.md), but those do not yet constitute a stable third canonical cognition-stream arc.
+- Third-strand materials do exist in the broader Mearsheimer shelf, including [transcript-hedges-mearsheimer-iran-2026-04-20.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-20/transcript-hedges-mearsheimer-iran-2026-04-20.md) and [transcript-mearsheimer-redacted-trump-iran-2026-04-21.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-21/transcript-mearsheimer-redacted-trump-iran-2026-04-21.md), but those do not yet constitute a stable third canonical cognition-stream arc.
 - This note is not a generic Mearsheimer profile; it is a host-transformation note.
 - Prefer the host-local arc when the task is stream-specific; use the helix when the task is comparative.

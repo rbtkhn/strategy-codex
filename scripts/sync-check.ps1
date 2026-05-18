@@ -125,7 +125,7 @@ function Get-BranchSyncState {
 }
 
 $repoRoot = Get-RepoRoot
-$canonicalRawRoot = Join-Path $repoRoot "codex\2026\raw-input"
+$canonicalRawRoot = Join-Path $repoRoot "codex\years\2026\raw-input"
 $cutoff = (Get-Date).AddDays(-1 * $SinceDays)
 $worktrees = Get-WorktreeRecords -RepoRoot $repoRoot
 $branchSync = Get-BranchSyncState -RepoRoot $repoRoot
@@ -159,7 +159,7 @@ if ($syncWarnings.Count -gt 0) {
     Write-Host ""
 }
 
-$mainStatus = git -C $repoRoot status --short -- "codex/2026/raw-input"
+$mainStatus = git -C $repoRoot status --short -- "codex/years/2026/raw-input"
 if ($mainStatus) {
     Write-Warning "Canonical checkout has pending raw-input changes:"
     $mainStatus | ForEach-Object { Write-Host "  $_" }
@@ -179,7 +179,7 @@ foreach ($wt in $worktrees) {
         continue
     }
 
-    $rawRoot = Join-Path $resolvedWt "codex\2026\raw-input"
+    $rawRoot = Join-Path $resolvedWt "codex\years\2026\raw-input"
     $recentFiles = Get-RecentRawInputFiles -RawRoot $rawRoot -Cutoff $cutoff
     foreach ($file in $recentFiles) {
         $relative = $file.FullName.Substring($rawRoot.Length + 1)

@@ -12,13 +12,13 @@ That means the main question is not whether the object exists. The question is h
 
 The current notebook truth is:
 
-- the primary body is [codex/2026/diesen/](/C:/dev/strategy-codex/codex/2026/diesen/)
+- the primary body is [codex/years/2026/diesen/](/C:/dev/strategy-codex/codex/years/2026/diesen/)
 - the guest-local evidence is distributed through recurring `diesen-*speaker-arc.md` notes
 - the speaker folder exists to hold higher-order orientation about Diesen as an object, not to compete with the stream shelf
 
 Recent representation note:
 
-- [2026-05-16 Diesen x Mercouris](/C:/dev/strategy-codex/codex/2026/diesen/diesen-mercouris-speaker-arc.md) should be read as both a Diesen host-shelf event and a Mercouris speaker-object reinforcement. The raw transcript remains single-source at [youtube-glenn-diesen-alexander-mercouris-the-political-legitimacy-crisis-across-europe-2026-05-16.md](/C:/dev/strategy-codex/codex/2026/raw-input/2026-05-16/youtube-glenn-diesen-alexander-mercouris-the-political-legitimacy-crisis-across-europe-2026-05-16.md).
+- [2026-05-16 Diesen x Mercouris](/C:/dev/strategy-codex/codex/years/2026/diesen/diesen-mercouris-speaker-arc.md) should be read as both a Diesen host-shelf event and a Mercouris speaker-object reinforcement. The raw transcript remains single-source at [youtube-glenn-diesen-alexander-mercouris-the-political-legitimacy-crisis-across-europe-2026-05-16.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-16/youtube-glenn-diesen-alexander-mercouris-the-political-legitimacy-crisis-across-europe-2026-05-16.md).
 
 ## How to read the split
 

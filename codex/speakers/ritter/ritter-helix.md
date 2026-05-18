@@ -22,22 +22,22 @@ Ritter should also be read as a thick speaker object rather than only as a forma
 
 | Host lane | Distinct register | What it reveals best |
 |---|---|---|
-| [diesen x ritter](/C:/dev/strategy-codex/codex/2026/diesen/diesen-ritter-speaker-arc.md) | Escalation horizon | Hormuz mechanics, cross-theater spillover, sea-control pressure, and how immediate war events scale into larger strategic consequence |
-| [davis x ritter](/C:/dev/strategy-codex/codex/2026/davis/davis-ritter-speaker-arc.md) | Operational feasibility | Stockpiles, skies, basing pressure, blockade impracticality, and what the U.S. military can no longer realistically impose |
-| [alkorshid x ritter](/C:/dev/strategy-codex/codex/2026/alkorshid/alkorshid-ritter-speaker-arc.md) | Live war pressure | Rapid escalation, Hormuz vulnerability, loss-of-control claims, and immediate crisis-motion under maximum event stress |
+| [diesen x ritter](/C:/dev/strategy-codex/codex/years/2026/diesen/diesen-ritter-speaker-arc.md) | Escalation horizon | Hormuz mechanics, cross-theater spillover, sea-control pressure, and how immediate war events scale into larger strategic consequence |
+| [davis x ritter](/C:/dev/strategy-codex/codex/years/2026/davis/davis-ritter-speaker-arc.md) | Operational feasibility | Stockpiles, skies, basing pressure, blockade impracticality, and what the U.S. military can no longer realistically impose |
+| [alkorshid x ritter](/C:/dev/strategy-codex/codex/years/2026/alkorshid/alkorshid-ritter-speaker-arc.md) | Live war pressure | Rapid escalation, Hormuz vulnerability, loss-of-control claims, and immediate crisis-motion under maximum event stress |
 
 ## Open first
 
 If the operator needs the cleanest single introduction to the helix:
 
-- open [davis-ritter-speaker-arc.md](/C:/dev/strategy-codex/codex/2026/davis/davis-ritter-speaker-arc.md)
+- open [davis-ritter-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/davis/davis-ritter-speaker-arc.md)
 
 If the operator needs the best helix pair:
 
-- open [davis-ritter-speaker-arc.md](/C:/dev/strategy-codex/codex/2026/davis/davis-ritter-speaker-arc.md)
-- then [diesen-ritter-speaker-arc.md](/C:/dev/strategy-codex/codex/2026/diesen/diesen-ritter-speaker-arc.md)
+- open [davis-ritter-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/davis/davis-ritter-speaker-arc.md)
+- then [diesen-ritter-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/diesen/diesen-ritter-speaker-arc.md)
 
-Add [alkorshid-ritter-speaker-arc.md](/C:/dev/strategy-codex/codex/2026/alkorshid/alkorshid-ritter-speaker-arc.md) when the notebook needs the sharpest live-pressure surface rather than only the feasibility and escalation-horizon lanes.
+Add [alkorshid-ritter-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/alkorshid/alkorshid-ritter-speaker-arc.md) when the notebook needs the sharpest live-pressure surface rather than only the feasibility and escalation-horizon lanes.
 
 ## Routing use
 

@@ -81,8 +81,8 @@ Use when:
 
 Example:
 
-- [pape-page-2026-04-29-youtube-pape-grim-nuclear-iran-inevitable.md](../../../codex/2026/pape/pape-page-2026-04-29-youtube-pape-grim-nuclear-iran-inevitable.md)
-- [pape-source-hygiene-2026-04-29-pape-grim.md](../../../codex/2026/pape/pape-source-hygiene-2026-04-29-pape-grim.md)
+- [pape-page-2026-04-29-youtube-pape-grim-nuclear-iran-inevitable.md](../../../codex/years/2026/pape/pape-page-2026-04-29-youtube-pape-grim-nuclear-iran-inevitable.md)
+- [pape-source-hygiene-2026-04-29-pape-grim.md](../../../codex/years/2026/pape/pape-source-hygiene-2026-04-29-pape-grim.md)
 
 ### 2. Process packet
 
@@ -95,8 +95,8 @@ Use when:
 
 Example:
 
-- [parsi-page-2026-04-21-x-ceasefire-hormuz-cluster.md](../../../codex/2026/parsi/parsi-page-2026-04-21-x-ceasefire-hormuz-cluster.md)
-- [parsi-source-hygiene-2026-04-21-ceasefire-hormuz.md](../../../codex/2026/parsi/parsi-source-hygiene-2026-04-21-ceasefire-hormuz.md)
+- [parsi-page-2026-04-21-x-ceasefire-hormuz-cluster.md](../../../codex/years/2026/parsi/parsi-page-2026-04-21-x-ceasefire-hormuz-cluster.md)
+- [parsi-source-hygiene-2026-04-21-ceasefire-hormuz.md](../../../codex/years/2026/parsi/parsi-source-hygiene-2026-04-21-ceasefire-hormuz.md)
 
 ### 3. Register packet
 

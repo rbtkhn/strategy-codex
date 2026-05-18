@@ -10,7 +10,7 @@ Parsi is not only a native cognition stream. There are real cross-host appearanc
 
 The clearest current example on disk is:
 
-- [2026-05-06 Mercouris x Parsi](/C:/dev/strategy-codex/codex/2026/raw-input/2026-05-06/transcript-duran-mercouris-trita-parsi-us-iran-blockade-diplomacy-2026-05-06.md)
+- [2026-05-06 Mercouris x Parsi](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-06/transcript-duran-mercouris-trita-parsi-us-iran-blockade-diplomacy-2026-05-06.md)
 
 That matters because it shows that the Parsi voice remains intact outside the native stream: policy-process reasoning, blockade critique, negotiation leverage, and diplomatic sequencing all survive translation into another host environment.
 

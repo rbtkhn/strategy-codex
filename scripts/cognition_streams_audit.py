@@ -35,6 +35,7 @@ from youtube_transcripts.ytdlp_adapter import (  # noqa: E402
     normalize_upload_date,
     watch_url,
 )
+from codex_paths import year_root  # noqa: E402
 
 WATCHLIST_PATH = (
     REPO_ROOT
@@ -44,7 +45,7 @@ WATCHLIST_PATH = (
     / "cognition-streams-watchlist.json"
 )
 DEFAULT_OUT_DIR = REPO_ROOT / "artifacts" / "cognition-streams"
-DEFAULT_NOTEBOOK_ROOT = REPO_ROOT / "codex" / str(date.today().year)
+DEFAULT_NOTEBOOK_ROOT = year_root()
 DEFAULT_RECEIPT_ROOT = REPO_ROOT / ".codex-tmp" / "cognition-streams"
 MAIN_CLASSES = {"captured-main", "uncaptured-main", "deferred"}
 PRIORITY_ORDER = {"must-capture": 0, "probably-capture": 1, "hide-default": 2, "none": 3}

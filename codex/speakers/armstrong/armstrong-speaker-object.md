@@ -35,12 +35,12 @@ Armstrong should currently be read as a **single-helix speaker object with one m
 
 That means:
 
-- [Dialogue Works x Armstrong](/C:/dev/strategy-codex/codex/2026/alkorshid/alkorshid-armstrong-speaker-arc.md) is now the canonical way to enter the object
+- [Dialogue Works x Armstrong](/C:/dev/strategy-codex/codex/years/2026/alkorshid/alkorshid-armstrong-speaker-arc.md) is now the canonical way to enter the object
 - the legacy native Armstrong shelf inside this folder still matters as reinforcement and orientation:
   - [armstrong-profile.md](/C:/dev/strategy-codex/codex/speakers/armstrong/armstrong-profile.md)
   - [armstrong-thread.md](/C:/dev/strategy-codex/codex/speakers/armstrong/armstrong-thread.md)
   - [armstrong-transcript.md](/C:/dev/strategy-codex/codex/speakers/armstrong/armstrong-transcript.md)
-- [2026-02-24 Diesen x Armstrong](/C:/dev/strategy-codex/codex/2026/raw-input/2026-02-24/youtube-glenn-diesen-martin-armstrong-martin-armstrong-how-europe-destroyed-itself-what-comes-next-2026-02-24.md) is real outside-host evidence, but not yet a stable second branch
+- [2026-02-24 Diesen x Armstrong](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-02-24/youtube-glenn-diesen-martin-armstrong-martin-armstrong-how-europe-destroyed-itself-what-comes-next-2026-02-24.md) is real outside-host evidence, but not yet a stable second branch
 
 So Armstrong now matters through one mature host-transformation lane, a native authored shelf, and one thin but real secondary-host reinforcement.
 
@@ -48,7 +48,7 @@ So Armstrong now matters through one mature host-transformation lane, a native a
 
 If the operator needs the live doctrine:
 
-- open [alkorshid-armstrong-speaker-arc.md](/C:/dev/strategy-codex/codex/2026/alkorshid/alkorshid-armstrong-speaker-arc.md)
+- open [alkorshid-armstrong-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/alkorshid/alkorshid-armstrong-speaker-arc.md)
 
 If the operator needs the compact object framing:
 

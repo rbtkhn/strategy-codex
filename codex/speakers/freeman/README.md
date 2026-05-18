@@ -17,7 +17,7 @@ Open here first when the question is not merely "what did Freeman say," but **wh
 
 ## Host lanes
 
-- [Diesen x Freeman](/C:/dev/strategy-codex/codex/2026/diesen/diesen-freeman-speaker-arc.md)
-- [Davis x Freeman](/C:/dev/strategy-codex/codex/2026/davis/davis-freeman-speaker-arc.md)
-- [Dialogue Works x Freeman](/C:/dev/strategy-codex/codex/2026/alkorshid/alkorshid-freeman-speaker-arc.md)
-- [Judging Freedom x Freeman](/C:/dev/strategy-codex/codex/2026/napolitano/napolitano-freeman-speaker-arc.md)
+- [Diesen x Freeman](/C:/dev/strategy-codex/codex/years/2026/diesen/diesen-freeman-speaker-arc.md)
+- [Davis x Freeman](/C:/dev/strategy-codex/codex/years/2026/davis/davis-freeman-speaker-arc.md)
+- [Dialogue Works x Freeman](/C:/dev/strategy-codex/codex/years/2026/alkorshid/alkorshid-freeman-speaker-arc.md)
+- [Judging Freedom x Freeman](/C:/dev/strategy-codex/codex/years/2026/napolitano/napolitano-freeman-speaker-arc.md)

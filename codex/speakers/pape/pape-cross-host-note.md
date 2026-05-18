@@ -10,14 +10,14 @@ Pape is not only a native cognition stream. There are real cross-host appearance
 
 The clearest current example on disk is:
 
-- [2026-03-10 Davis x Pape](/C:/dev/strategy-codex/codex/2026/raw-input/2026-03-10/transcript-davis-pape-escalation-trap-2026-03-10.md)
+- [2026-03-10 Davis x Pape](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-03-10/transcript-davis-pape-escalation-trap-2026-03-10.md)
 
 That matters because it shows the Pape voice remains intact outside the native stream: escalation traps, widening-war mechanisms, and strategic sequence all survive translation into another host environment.
 
 There is also meaningful wider reinforcement:
 
-- [2026-04-29 Breaking Points x Pape](/C:/dev/strategy-codex/codex/2026/raw-input/2026-04-29/youtube-pape-grim-nuclear-iran-inevitable-2026-04-29.md)
-- [2026-05-12 Mario Nawfal x Pape](/C:/dev/strategy-codex/codex/2026/raw-input/2026-05-12/youtube-pape-mario-nawfal-trump-s-next-iran-steps-revealed-2026-05-12.md)
+- [2026-04-29 Breaking Points x Pape](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-29/youtube-pape-grim-nuclear-iran-inevitable-2026-04-29.md)
+- [2026-05-12 Mario Nawfal x Pape](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-12/youtube-pape-mario-nawfal-trump-s-next-iran-steps-revealed-2026-05-12.md)
 
 Those appearances broaden the object, but they do not yet amount to a dense second or third stable host-local speaker-arc.
 

@@ -35,7 +35,7 @@ Typical notebook move:
 
 Working example:
 
-- [pape-page-2026-04-29-youtube-pape-grim-nuclear-iran-inevitable.md](../../../codex/2026/pape/pape-page-2026-04-29-youtube-pape-grim-nuclear-iran-inevitable.md)
+- [pape-page-2026-04-29-youtube-pape-grim-nuclear-iran-inevitable.md](../../../codex/years/2026/pape/pape-page-2026-04-29-youtube-pape-grim-nuclear-iran-inevitable.md)
 
 ### Process
 
@@ -52,7 +52,7 @@ Typical notebook move:
 
 Working example:
 
-- [parsi-page-2026-04-21-x-ceasefire-hormuz-cluster.md](../../../codex/2026/parsi/parsi-page-2026-04-21-x-ceasefire-hormuz-cluster.md)
+- [parsi-page-2026-04-21-x-ceasefire-hormuz-cluster.md](../../../codex/years/2026/parsi/parsi-page-2026-04-21-x-ceasefire-hormuz-cluster.md)
 
 ### Register
 

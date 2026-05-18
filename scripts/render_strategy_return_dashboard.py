@@ -108,7 +108,7 @@ def build_dashboard_context(
     hint = build_strategy_return_hint(repo_root)
     inbox_path = repo_root / "codex" / "daily-strategy-inbox.md"
     status_path = repo_root / "codex" / "STATUS.md"
-    raw_root = repo_root / "codex" / "2026" / "raw-input"
+    raw_root = repo_root / "codex" / "years" / "2026" / "raw-input"
     inbox_text = read_text(inbox_path)
     acc_date = accumulator_date_from_inbox(inbox_text)
     drift_days = accumulator_drift_days(acc_date, today=today)

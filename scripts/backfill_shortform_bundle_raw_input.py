@@ -21,14 +21,16 @@ from pathlib import Path
 from typing import Iterable
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_RAW_ROOT = REPO_ROOT / "codex" / "2026" / "raw-input"
 
 import sys as _sys
 
 if str(REPO_ROOT / "scripts") not in _sys.path:
     _sys.path.insert(0, str(REPO_ROOT / "scripts"))
 
+from codex_paths import year_root  # noqa: E402
 from fetch_strategy_raw_input import _slugify  # noqa: E402
+
+DEFAULT_RAW_ROOT = year_root(2026) / "raw-input"
 
 
 def _read_text(path: Path) -> str:

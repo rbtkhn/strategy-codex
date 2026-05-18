@@ -21,7 +21,7 @@ def row(
     host: str = "diesen",
     route_type: str = "existing-speaker-arc",
     next_action: str = "update-existing-arc",
-    primary: str = "codex/2026/diesen/diesen-beebe-speaker-arc.md",
+    primary: str = "codex/years/2026/diesen/diesen-beebe-speaker-arc.md",
     also: list[str] | None = None,
 ) -> dict:
     return {
@@ -37,7 +37,7 @@ def row(
             "pub_date": "2026-05-12",
             "title": "Example",
             "source_url": f"https://www.youtube.com/watch?v={appearance_id[-11:]}",
-            "raw_input_path": f"codex/2026/raw-input/2026-05-12/{appearance_id}.md",
+            "raw_input_path": f"codex/years/2026/raw-input/2026-05-12/{appearance_id}.md",
         },
         "route_type": route_type,
         "next_action": next_action,
@@ -55,7 +55,7 @@ def test_existing_arc_route_emits_update_action() -> None:
     assert len(actions) == 1
     assert actions[0]["action_type"] == "update-existing-arc"
     assert actions[0]["priority"] == "high"
-    assert actions[0]["target_path"] == "codex/2026/diesen/diesen-beebe-speaker-arc.md"
+    assert actions[0]["target_path"] == "codex/years/2026/diesen/diesen-beebe-speaker-arc.md"
     assert actions[0]["evidence_appearances"] == ["ap-arc0000001"]
 
 
@@ -67,14 +67,14 @@ def test_existing_object_with_candidate_arc_emits_create_candidate_arc() -> None
                 route_type="existing-speaker-object",
                 next_action="create-candidate-arc",
                 primary="codex/speakers/beebe/beebe-speaker-object.md",
-                also=["codex/2026/davis/davis-beebe-speaker-arc.md"],
+                also=["codex/years/2026/davis/davis-beebe-speaker-arc.md"],
             )
         ]
     )
 
     assert len(actions) == 1
     assert actions[0]["action_type"] == "create-candidate-arc"
-    assert actions[0]["target_path"] == "codex/2026/davis/davis-beebe-speaker-arc.md"
+    assert actions[0]["target_path"] == "codex/years/2026/davis/davis-beebe-speaker-arc.md"
 
 
 def test_candidate_object_route_emits_create_candidate_object() -> None:
@@ -102,7 +102,7 @@ def test_repeated_speaker_across_hosts_emits_consider_helix() -> None:
                 "ap-host000002",
                 speaker="marandi",
                 host="davis",
-                primary="codex/2026/davis/davis-marandi-speaker-arc.md",
+                primary="codex/years/2026/davis/davis-marandi-speaker-arc.md",
             ),
         ]
     )

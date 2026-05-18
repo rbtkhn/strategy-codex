@@ -40,7 +40,7 @@ Parsi should currently be read as a **stream-anchored speaker object with cross-
 
 That means:
 
-- the native [parsi cognition stream](/C:/dev/strategy-codex/codex/2026/parsi/README.md) is still the main body of the object
+- the native [parsi cognition stream](/C:/dev/strategy-codex/codex/years/2026/parsi/README.md) is still the main body of the object
 - the object is stronger than a purely local single-lane shelf because cross-host appearances do reinforce it
 - but the notebook should not yet overstate this as a mature double or triple speaker-helix without a denser host-local arc structure
 
@@ -54,7 +54,7 @@ Single, double, and triple speaker-helixes each have inherent utility. Parsi's c
 
 The clearest current cross-host reinforcement on disk is:
 
-- [Mercouris and Trita Parsi on the US-Iran blockade, Hormuz, and diplomacy](/C:/dev/strategy-codex/codex/2026/raw-input/2026-05-06/transcript-duran-mercouris-trita-parsi-us-iran-blockade-diplomacy-2026-05-06.md)
+- [Mercouris and Trita Parsi on the US-Iran blockade, Hormuz, and diplomacy](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-06/transcript-duran-mercouris-trita-parsi-us-iran-blockade-diplomacy-2026-05-06.md)
 
 There is also real cross-stream adjacency with the Davis lane at the level of notebook routing and analysis, especially where Parsi's diplomatic and war-powers language is intentionally kept distinct from Davis's congressional and constitutional lane.
 
@@ -64,11 +64,11 @@ See [parsi-cross-host-note.md](/C:/dev/strategy-codex/codex/speakers/parsi/parsi
 
 If the operator needs the best current stream entry:
 
-- open [parsi-lane-consolidation-2026-05.md](/C:/dev/strategy-codex/codex/2026/parsi/parsi-lane-consolidation-2026-05.md)
+- open [parsi-lane-consolidation-2026-05.md](/C:/dev/strategy-codex/codex/years/2026/parsi/parsi-lane-consolidation-2026-05.md)
 
 If the operator needs the best refined page:
 
-- open [parsi-page-2026-04-21-x-ceasefire-hormuz-cluster.md](/C:/dev/strategy-codex/codex/2026/parsi/parsi-page-2026-04-21-x-ceasefire-hormuz-cluster.md)
+- open [parsi-page-2026-04-21-x-ceasefire-hormuz-cluster.md](/C:/dev/strategy-codex/codex/years/2026/parsi/parsi-page-2026-04-21-x-ceasefire-hormuz-cluster.md)
 
 If the operator needs the object doctrine rather than the live stream:
 

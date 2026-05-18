@@ -24,4 +24,4 @@ def speakers_root() -> Path:
 
 def year_root(year: int | None = None) -> Path:
     selected_year = year if year is not None else date.today().year
-    return codex_root() / str(selected_year)
+    return codex_root() / "years" / str(selected_year)

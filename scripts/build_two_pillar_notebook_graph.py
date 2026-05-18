@@ -41,13 +41,16 @@ from pathlib import Path
 from typing import Iterable
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
+SCRIPTS = REPO_ROOT / "scripts"
+if str(SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS))
+
+from codex_paths import year_root  # noqa: E402
 
 DEFAULT_DW_INDEX = REPO_ROOT / ".codex-tmp" / "dialogue-works-full-latest" / "index.json"
 DEFAULT_DIESEN_INDEX = REPO_ROOT / ".codex-tmp" / "diesen-january" / "index.json"
 DEFAULT_DAVIS_INDEX = REPO_ROOT / ".codex-tmp" / "davis-january" / "index.json"
-DEFAULT_RAW_INPUT_ROOT = (
-    REPO_ROOT / "codex" / "2026" / "raw-input"
-)
+DEFAULT_RAW_INPUT_ROOT = year_root(2026) / "raw-input"
 DEFAULT_OUT_DIR = REPO_ROOT / "artifacts" / "skill-work" / "work-strategy" / "interview-graph"
 DEFAULT_OUT_JSON = DEFAULT_OUT_DIR / "cognition-streams-graph.json"
 DEFAULT_OUT_MD = DEFAULT_OUT_DIR / "cognition-streams-graph.md"

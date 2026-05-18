@@ -1,14 +1,14 @@
 # Lane-to-Corpus Promotion Policy
 
-**Purpose:** Define when one of the eight `codex/2026` strategy-author lanes should remain a **notebook-first lane over shared intake** and when it should be promoted into a **dedicated external corpus**. **WORK only**; not Record.
+**Purpose:** Define when one of the eight `codex/years/2026` strategy-author lanes should remain a **notebook-first lane over shared intake** and when it should be promoted into a **dedicated external corpus**. **WORK only**; not Record.
 
 ## Default model
 
 The default strategy-codex pattern is:
 
-- `codex/2026/<lane>/` is the **internal notebook lane**
+- `codex/years/2026/<lane>/` is the **internal notebook lane**
 - shared intake lives in:
-  - `codex/2026/raw-input/`
+  - `codex/years/2026/raw-input/`
   - `research/external/work-strategy/`
   - `research/external/youtube-channels/`
 - a lane **consumes** shared external intake unless there is strong evidence that a dedicated corpus would improve retrieval, continuity, and analysis
@@ -111,7 +111,7 @@ Optional additions only when justified:
 
 Promotion does **not** change the core architecture:
 
-- `codex/2026/<lane>/` remains the canonical notebook lane
+- `codex/years/2026/<lane>/` remains the canonical notebook lane
 - `research/external/<lane-or-project>/` becomes the upstream structured source world for that lane
 - promoted corpora remain **external/operator research**, not Record
 - notebook judgment still lives in the strategy-codex lane files

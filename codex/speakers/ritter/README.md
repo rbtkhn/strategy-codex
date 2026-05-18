@@ -17,7 +17,7 @@ Open here first when the question is not merely "what did Ritter say," but **whi
 
 ## Host lanes
 
-- [Diesen x Ritter](/C:/dev/strategy-codex/codex/2026/diesen/diesen-ritter-speaker-arc.md)
-- [Davis x Ritter](/C:/dev/strategy-codex/codex/2026/davis/davis-ritter-speaker-arc.md)
-- [Dialogue Works x Ritter](/C:/dev/strategy-codex/codex/2026/alkorshid/alkorshid-ritter-speaker-arc.md)
-- [Judging Freedom x Ritter](/C:/dev/strategy-codex/codex/2026/napolitano/napolitano-ritter-speaker-arc.md)
+- [Diesen x Ritter](/C:/dev/strategy-codex/codex/years/2026/diesen/diesen-ritter-speaker-arc.md)
+- [Davis x Ritter](/C:/dev/strategy-codex/codex/years/2026/davis/davis-ritter-speaker-arc.md)
+- [Dialogue Works x Ritter](/C:/dev/strategy-codex/codex/years/2026/alkorshid/alkorshid-ritter-speaker-arc.md)
+- [Judging Freedom x Ritter](/C:/dev/strategy-codex/codex/years/2026/napolitano/napolitano-ritter-speaker-arc.md)

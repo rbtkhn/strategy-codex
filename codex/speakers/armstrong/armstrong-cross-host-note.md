@@ -10,7 +10,7 @@ Armstrong is now a real speaker object on the shelf, and he now has one clearly 
 
 The main mature branch is:
 
-- [Dialogue Works x Armstrong](/C:/dev/strategy-codex/codex/2026/alkorshid/alkorshid-armstrong-speaker-arc.md)
+- [Dialogue Works x Armstrong](/C:/dev/strategy-codex/codex/years/2026/alkorshid/alkorshid-armstrong-speaker-arc.md)
 
 The native Armstrong shelf still matters as a real body and orientation surface:
 
@@ -20,11 +20,11 @@ The native Armstrong shelf still matters as a real body and orientation surface:
 
 There is also one materially real outside-host reinforcement on disk:
 
-- [2026-02-24 Diesen x Armstrong](/C:/dev/strategy-codex/codex/2026/raw-input/2026-02-24/youtube-glenn-diesen-martin-armstrong-martin-armstrong-how-europe-destroyed-itself-what-comes-next-2026-02-24.md)
+- [2026-02-24 Diesen x Armstrong](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-02-24/youtube-glenn-diesen-martin-armstrong-martin-armstrong-how-europe-destroyed-itself-what-comes-next-2026-02-24.md)
 
 And there are real page-level and thread-level reinforcements elsewhere in the Codex:
 
-- [armstrong-cash-hormuz-digital-dollar-arc](/C:/dev/strategy-codex/codex/2026/davis/davis-thread.md:495)
+- [armstrong-cash-hormuz-digital-dollar-arc](/C:/dev/strategy-codex/codex/years/2026/davis/davis-thread.md:495)
 - recurring pairings against `jermy`, `diesen`, `sachs`, and `pape`
 
 That matters because the Armstrong object is clearly reusable. But it still does not yet justify a stable second host-local branch doctrine or a full double-helix claim.

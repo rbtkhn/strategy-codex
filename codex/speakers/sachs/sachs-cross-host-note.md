@@ -10,13 +10,13 @@ Sachs is not only a Diesen-adjacent voice. There are real adjacent appearances t
 
 The clearest current non-Diesen reinforcement on disk is:
 
-- [2026-05-07 Mercouris x Sachs](/C:/dev/strategy-codex/codex/2026/raw-input/2026-05-07/transcript-duran-mercouris-jeffrey-sachs-iran-miscalculation-could-trigger-a-decade-long-economic-crisis-2026-05-07.md)
+- [2026-05-07 Mercouris x Sachs](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-07/transcript-duran-mercouris-jeffrey-sachs-iran-miscalculation-could-trigger-a-decade-long-economic-crisis-2026-05-07.md)
 
 That matters because it shows the Sachs voice remains intact outside the Diesen stream: macro-order widening, economic-crisis consequence, and institutional-failure language all survive translation into another host environment.
 
 There is also meaningful wider reinforcement:
 
-- [2026-04-24 Tucker Carlson x Sachs](/C:/dev/strategy-codex/codex/2026/raw-input/2026-04-24/transcript-sachs-carlson-iran-war-origins-2026-04-24.md)
+- [2026-04-24 Tucker Carlson x Sachs](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-24/transcript-sachs-carlson-iran-war-origins-2026-04-24.md)
 
 That lane is especially useful for empire, regime-change, and historical-origin framing, but it is not yet formalized on disk as a stable host-local speaker arc.
 

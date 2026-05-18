@@ -54,11 +54,11 @@ If the operator needs the cleanest single entry:
 
 If the operator needs the strongest host-local entry:
 
-- open [davis-marandi-speaker-arc.md](/C:/dev/strategy-codex/codex/2026/davis/davis-marandi-speaker-arc.md)
+- open [davis-marandi-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/davis/davis-marandi-speaker-arc.md)
 
 If the operator needs the most regime-adjacent pressure lane:
 
-- open [alkorshid-marandi-speaker-arc.md](/C:/dev/strategy-codex/codex/2026/alkorshid/alkorshid-marandi-speaker-arc.md)
+- open [alkorshid-marandi-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/alkorshid/alkorshid-marandi-speaker-arc.md)
 
 ## Routing use
 

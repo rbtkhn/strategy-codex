@@ -36,6 +36,8 @@ def _parse_frontmatter(path: Path) -> dict[str, Any] | None:
     except (OSError, UnicodeDecodeError):
         return None
 
+    text = text.lstrip("\ufeff")
+
     if not text.startswith("---"):
         return None
 

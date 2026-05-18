@@ -27,7 +27,7 @@
   "unresolved_speakers": [],
   "artifacts": [
     {
-      "raw_input_path": "codex/2026/raw-input/2026-05-04/transcript-baud-dialogue-works-nima-2026-05-04.md",
+      "raw_input_path": "codex/years/2026/raw-input/2026-05-04/transcript-baud-dialogue-works-nima-2026-05-04.md",
       "pub_date": "2026-05-04",
       "title": "Col. Jacques Baud: Project Freedom, Hormuz blockade, and Chinese sanctions",
       "evidence_grade": "cleaned-transcript",
@@ -52,7 +52,7 @@
   "warnings": [],
   "git_state": {
     "scoped_paths": [
-      "codex/2026/raw-input/2026-05-04/transcript-baud-dialogue-works-nima-2026-05-04.md",
+      "codex/years/2026/raw-input/2026-05-04/transcript-baud-dialogue-works-nima-2026-05-04.md",
       "artifacts/host-shelf-quality/2026/alkorshid/2026-05/quality-summary.json",
       "artifacts/host-shelf-quality/2026/alkorshid/2026-05/quality-summary.md"
     ],
@@ -61,7 +61,7 @@
     "committed": false,
     "pushed": false,
     "dirty_paths": [
-      " M codex/2026/raw-input/2026-05-04/transcript-baud-dialogue-works-nima-2026-05-04.md",
+      " M codex/years/2026/raw-input/2026-05-04/transcript-baud-dialogue-works-nima-2026-05-04.md",
       "?? artifacts/host-shelf-quality/2026/alkorshid/2026-05/quality-summary.json",
       "?? artifacts/host-shelf-quality/2026/alkorshid/2026-05/quality-summary.md"
     ],

@@ -16,19 +16,19 @@ These arcs should be read together because they are not merely repeated appearan
 
 | Host lane | Distinct register | What it reveals best |
 |---|---|---|
-| [davis x baud](/C:/dev/strategy-codex/codex/2026/davis/davis-baud-speaker-arc.md) | Alliance mandate and coercive feasibility | Perfidy, co-belligerency, negotiation blackmail, Gulf-base liability, and the legal-strategic incoherence of coercive threats without a credible end state |
-| [alkorshid x baud](/C:/dev/strategy-codex/codex/2026/alkorshid/alkorshid-baud-speaker-arc.md) | Live crisis pressure | Treaty skepticism, Hormuz management, deterrence logic, European impotence, and strategic rationality under immediate event stress |
+| [davis x baud](/C:/dev/strategy-codex/codex/years/2026/davis/davis-baud-speaker-arc.md) | Alliance mandate and coercive feasibility | Perfidy, co-belligerency, negotiation blackmail, Gulf-base liability, and the legal-strategic incoherence of coercive threats without a credible end state |
+| [alkorshid x baud](/C:/dev/strategy-codex/codex/years/2026/alkorshid/alkorshid-baud-speaker-arc.md) | Live crisis pressure | Treaty skepticism, Hormuz management, deterrence logic, European impotence, and strategic rationality under immediate event stress |
 
 ## Open first
 
 If the operator needs the cleanest single introduction to the helix:
 
-- open [alkorshid-baud-speaker-arc.md](/C:/dev/strategy-codex/codex/2026/alkorshid/alkorshid-baud-speaker-arc.md)
+- open [alkorshid-baud-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/alkorshid/alkorshid-baud-speaker-arc.md)
 
 If the operator needs the best pair:
 
-- open [alkorshid-baud-speaker-arc.md](/C:/dev/strategy-codex/codex/2026/alkorshid/alkorshid-baud-speaker-arc.md)
-- then [davis-baud-speaker-arc.md](/C:/dev/strategy-codex/codex/2026/davis/davis-baud-speaker-arc.md)
+- open [alkorshid-baud-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/alkorshid/alkorshid-baud-speaker-arc.md)
+- then [davis-baud-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/davis/davis-baud-speaker-arc.md)
 
 That order works because Dialogue Works gives the stronger serial lane and sharper present-tense stress, while Davis makes the legal-mandate and coercive-feasibility register cleaner.
 

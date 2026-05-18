@@ -52,9 +52,10 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO_ROOT / "scripts"))
 
 from console_io import ensure_utf8_stdio  # noqa: E402
+from codex_paths import year_root  # noqa: E402
 
 DEFAULT_INBOX = REPO_ROOT / "codex/daily-strategy-inbox.md"
-DEFAULT_OUT_DIR = REPO_ROOT / "codex/2026"
+DEFAULT_OUT_DIR = year_root(2026)
 DEFAULT_PAGE_INDEX = REPO_ROOT / "codex/knot-index.yaml"
 
 

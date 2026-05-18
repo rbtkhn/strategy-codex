@@ -25,7 +25,7 @@ That matters because it shows the Krainer voice is not a one-file anomaly. Even 
 
 There is also meaningful wider reinforcement:
 
-- [2025-01-18 Krainer x Wilkerson on Dialogue Works](/C:/dev/strategy-codex/codex/2026/raw-input/2025-01-18/transcript-dialogue-works-israel-is-in-total-disarray-alex-krainer-col-larry-wilkerson-2025-01-18.md)
+- [2025-01-18 Krainer x Wilkerson on Dialogue Works](/C:/dev/strategy-codex/codex/years/2026/raw-input/2025-01-18/transcript-dialogue-works-israel-is-in-total-disarray-alex-krainer-col-larry-wilkerson-2025-01-18.md)
 - `2024-05-16` *Putin & Xi, preparing for big sanctions war* on The Duran
 - `2024-10-15` *BRICS rise and Europe's economic decline* on The Duran
 

@@ -28,7 +28,7 @@
   "unresolved_speaker_count": 1,
   "unresolved_speakers": [
     {
-      "raw_input_path": "codex/2026/raw-input/2026-05-11/2026-05-11-diesen.md",
+      "raw_input_path": "codex/years/2026/raw-input/2026-05-11/2026-05-11-diesen.md",
       "pub_date": "2026-05-11",
       "title": "2026-05-11-diesen",
       "source_url": "",
@@ -49,7 +49,7 @@
         "title": "2026-05-11-diesen",
         "source_url": "",
         "youtube_id": "",
-        "raw_input_path": "codex/2026/raw-input/2026-05-11/2026-05-11-diesen.md",
+        "raw_input_path": "codex/years/2026/raw-input/2026-05-11/2026-05-11-diesen.md",
         "speaker_resolution": "",
         "guest_inference": ""
       },
@@ -59,7 +59,7 @@
   ],
   "artifacts": [
     {
-      "raw_input_path": "codex/2026/raw-input/2026-05-01/youtube-glenn-diesen-seyed-m-marandi-u-s-attack-on-iran-could-be-imminent-2026-05-01.md",
+      "raw_input_path": "codex/years/2026/raw-input/2026-05-01/youtube-glenn-diesen-seyed-m-marandi-u-s-attack-on-iran-could-be-imminent-2026-05-01.md",
       "pub_date": "2026-05-01",
       "title": "Seyed M. Marandi: U.S. Attack On Iran Could Be Imminent",
       "evidence_grade": "cleaned-transcript",
@@ -72,7 +72,7 @@
       "unresolved": false
     },
     {
-      "raw_input_path": "codex/2026/raw-input/2026-05-04/transcript-diesen-mearsheimer-world-order-ending-risk-nuclear-war-2026-05-04.md",
+      "raw_input_path": "codex/years/2026/raw-input/2026-05-04/transcript-diesen-mearsheimer-world-order-ending-risk-nuclear-war-2026-05-04.md",
       "pub_date": "2026-05-04",
       "title": "transcript-diesen-mearsheimer-world-order-ending-risk-nuclear-war-2026-05-04",
       "evidence_grade": "legacy-appearance-only",
@@ -85,7 +85,7 @@
       "unresolved": false
     },
     {
-      "raw_input_path": "codex/2026/raw-input/2026-05-04/transcript-diesen-ritter-hormuz-return-to-war-2026-05-04.md",
+      "raw_input_path": "codex/years/2026/raw-input/2026-05-04/transcript-diesen-ritter-hormuz-return-to-war-2026-05-04.md",
       "pub_date": "2026-05-04",
       "title": "transcript-diesen-ritter-hormuz-return-to-war-2026-05-04",
       "evidence_grade": "legacy-appearance-only",
@@ -98,7 +98,7 @@
       "unresolved": false
     },
     {
-      "raw_input_path": "codex/2026/raw-input/2026-05-05/transcript-diesen-marandi-hormuz-all-out-war-2026-05-05.md",
+      "raw_input_path": "codex/years/2026/raw-input/2026-05-05/transcript-diesen-marandi-hormuz-all-out-war-2026-05-05.md",
       "pub_date": "2026-05-05",
       "title": "transcript-diesen-marandi-hormuz-all-out-war-2026-05-05",
       "evidence_grade": "cleaned-transcript",
@@ -111,7 +111,7 @@
       "unresolved": false
     },
     {
-      "raw_input_path": "codex/2026/raw-input/2026-05-05/transcript-diesen-varoufakis-europe-decline-2026-05-05.md",
+      "raw_input_path": "codex/years/2026/raw-input/2026-05-05/transcript-diesen-varoufakis-europe-decline-2026-05-05.md",
       "pub_date": "2026-05-05",
       "title": "transcript-diesen-varoufakis-europe-decline-2026-05-05",
       "evidence_grade": "cleaned-transcript",
@@ -124,7 +124,7 @@
       "unresolved": false
     },
     {
-      "raw_input_path": "codex/2026/raw-input/2026-05-06/transcript-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md",
+      "raw_input_path": "codex/years/2026/raw-input/2026-05-06/transcript-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md",
       "pub_date": "2026-05-06",
       "title": "transcript-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06",
       "evidence_grade": "legacy-appearance-only",
@@ -137,7 +137,7 @@
       "unresolved": false
     },
     {
-      "raw_input_path": "codex/2026/raw-input/2026-05-06/transcript-diesen-wilkerson-hormuz-brics-2026-05-06.md",
+      "raw_input_path": "codex/years/2026/raw-input/2026-05-06/transcript-diesen-wilkerson-hormuz-brics-2026-05-06.md",
       "pub_date": "2026-05-06",
       "title": "transcript-diesen-wilkerson-hormuz-brics-2026-05-06",
       "evidence_grade": "legacy-appearance-only",
@@ -150,7 +150,7 @@
       "unresolved": false
     },
     {
-      "raw_input_path": "codex/2026/raw-input/2026-05-07/transcript-diesen-krapivnik-nato-russia-escalation-nuclear-war-2026-05-07.md",
+      "raw_input_path": "codex/years/2026/raw-input/2026-05-07/transcript-diesen-krapivnik-nato-russia-escalation-nuclear-war-2026-05-07.md",
       "pub_date": "2026-05-07",
       "title": "Glenn Diesen with Stanislav Krapivnik: NATO-Russia Escalation - Another Big Step Toward Nuclear War",
       "evidence_grade": "cleaned-transcript",
@@ -163,7 +163,7 @@
       "unresolved": false
     },
     {
-      "raw_input_path": "codex/2026/raw-input/2026-05-08/transcript-diesen-johnson-iran-war-creates-a-new-middle-east-2026-05-08.md",
+      "raw_input_path": "codex/years/2026/raw-input/2026-05-08/transcript-diesen-johnson-iran-war-creates-a-new-middle-east-2026-05-08.md",
       "pub_date": "2026-05-08",
       "title": "Glenn Diesen with Larry Johnson on Iran War Creates a New Middle East",
       "evidence_grade": "cleaned-transcript",
@@ -176,7 +176,7 @@
       "unresolved": false
     },
     {
-      "raw_input_path": "codex/2026/raw-input/2026-05-08/transcript-diesen-krainer-hormuz-multipolar-world-order-2026-05-08.md",
+      "raw_input_path": "codex/years/2026/raw-input/2026-05-08/transcript-diesen-krainer-hormuz-multipolar-world-order-2026-05-08.md",
       "pub_date": "2026-05-08",
       "title": "transcript-diesen-krainer-hormuz-multipolar-world-order-2026-05-08",
       "evidence_grade": "legacy-appearance-only",
@@ -189,7 +189,7 @@
       "unresolved": false
     },
     {
-      "raw_input_path": "codex/2026/raw-input/2026-05-09/youtube-glenn-diesen-seyed-m-marandi-iran-rejects-u-s-deal-war-is-likely-imminent-2026-05-09.md",
+      "raw_input_path": "codex/years/2026/raw-input/2026-05-09/youtube-glenn-diesen-seyed-m-marandi-iran-rejects-u-s-deal-war-is-likely-imminent-2026-05-09.md",
       "pub_date": "2026-05-09",
       "title": "Seyed M. Marandi: Iran Rejects U.S. Deal - War Is Likely Imminent",
       "evidence_grade": "transcript-bearing",
@@ -202,7 +202,7 @@
       "unresolved": false
     },
     {
-      "raw_input_path": "codex/2026/raw-input/2026-05-10/youtube-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md",
+      "raw_input_path": "codex/years/2026/raw-input/2026-05-10/youtube-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md",
       "pub_date": "2026-05-10",
       "title": "Sergey Karaganov on World War, Nuclear Doctrine, Europe, and Russia's Future",
       "evidence_grade": "cleaned-transcript",
@@ -215,7 +215,7 @@
       "unresolved": false
     },
     {
-      "raw_input_path": "codex/2026/raw-input/2026-05-11/2026-05-11-diesen.md",
+      "raw_input_path": "codex/years/2026/raw-input/2026-05-11/2026-05-11-diesen.md",
       "pub_date": "2026-05-11",
       "title": "2026-05-11-diesen",
       "evidence_grade": "legacy-appearance-only",
@@ -228,7 +228,7 @@
       "unresolved": true
     },
     {
-      "raw_input_path": "codex/2026/raw-input/2026-05-11/transcript-diesen-jiang-world-war-three-empire-republic-2026-05-11.md",
+      "raw_input_path": "codex/years/2026/raw-input/2026-05-11/transcript-diesen-jiang-world-war-three-empire-republic-2026-05-11.md",
       "pub_date": "2026-05-11",
       "title": "Jiang Xueqin: World War III, Empire & Republic",
       "evidence_grade": "legacy-appearance-only",
@@ -241,7 +241,7 @@
       "unresolved": false
     },
     {
-      "raw_input_path": "codex/2026/raw-input/2026-05-12/youtube-glenn-diesen-chas-freeman-trump-goes-to-beijing-after-historic-defeat-in-iran-2026-05-12.md",
+      "raw_input_path": "codex/years/2026/raw-input/2026-05-12/youtube-glenn-diesen-chas-freeman-trump-goes-to-beijing-after-historic-defeat-in-iran-2026-05-12.md",
       "pub_date": "2026-05-12",
       "title": "Chas Freeman: Trump Goes to Beijing After Historic Defeat in Iran",
       "evidence_grade": "transcript-bearing",
@@ -254,7 +254,7 @@
       "unresolved": false
     },
     {
-      "raw_input_path": "codex/2026/raw-input/2026-05-12/youtube-glenn-diesen-jeffrey-sachs-new-european-military-bloc-for-war-against-russia-2026-05-12.md",
+      "raw_input_path": "codex/years/2026/raw-input/2026-05-12/youtube-glenn-diesen-jeffrey-sachs-new-european-military-bloc-for-war-against-russia-2026-05-12.md",
       "pub_date": "2026-05-12",
       "title": "Jeffrey Sachs: New European Military Bloc for War Against Russia",
       "evidence_grade": "transcript-bearing",
@@ -267,7 +267,7 @@
       "unresolved": false
     },
     {
-      "raw_input_path": "codex/2026/raw-input/2026-05-14/youtube-glenn-diesen-george-beebe-europe-russia-war-as-the-u-s-pulls-back-2026-05-14.md",
+      "raw_input_path": "codex/years/2026/raw-input/2026-05-14/youtube-glenn-diesen-george-beebe-europe-russia-war-as-the-u-s-pulls-back-2026-05-14.md",
       "pub_date": "2026-05-14",
       "title": "George Beebe: Europe-Russia War as the U.S. Pulls Back?",
       "evidence_grade": "legacy-appearance-only",
@@ -296,23 +296,23 @@
   "warnings": [],
   "git_state": {
     "scoped_paths": [
-      "codex/2026/raw-input/2026-05-01/youtube-glenn-diesen-seyed-m-marandi-u-s-attack-on-iran-could-be-imminent-2026-05-01.md",
-      "codex/2026/raw-input/2026-05-04/transcript-diesen-mearsheimer-world-order-ending-risk-nuclear-war-2026-05-04.md",
-      "codex/2026/raw-input/2026-05-04/transcript-diesen-ritter-hormuz-return-to-war-2026-05-04.md",
-      "codex/2026/raw-input/2026-05-05/transcript-diesen-marandi-hormuz-all-out-war-2026-05-05.md",
-      "codex/2026/raw-input/2026-05-05/transcript-diesen-varoufakis-europe-decline-2026-05-05.md",
-      "codex/2026/raw-input/2026-05-06/transcript-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md",
-      "codex/2026/raw-input/2026-05-06/transcript-diesen-wilkerson-hormuz-brics-2026-05-06.md",
-      "codex/2026/raw-input/2026-05-07/transcript-diesen-krapivnik-nato-russia-escalation-nuclear-war-2026-05-07.md",
-      "codex/2026/raw-input/2026-05-08/transcript-diesen-johnson-iran-war-creates-a-new-middle-east-2026-05-08.md",
-      "codex/2026/raw-input/2026-05-08/transcript-diesen-krainer-hormuz-multipolar-world-order-2026-05-08.md",
-      "codex/2026/raw-input/2026-05-09/youtube-glenn-diesen-seyed-m-marandi-iran-rejects-u-s-deal-war-is-likely-imminent-2026-05-09.md",
-      "codex/2026/raw-input/2026-05-10/youtube-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md",
-      "codex/2026/raw-input/2026-05-11/2026-05-11-diesen.md",
-      "codex/2026/raw-input/2026-05-11/transcript-diesen-jiang-world-war-three-empire-republic-2026-05-11.md",
-      "codex/2026/raw-input/2026-05-12/youtube-glenn-diesen-chas-freeman-trump-goes-to-beijing-after-historic-defeat-in-iran-2026-05-12.md",
-      "codex/2026/raw-input/2026-05-12/youtube-glenn-diesen-jeffrey-sachs-new-european-military-bloc-for-war-against-russia-2026-05-12.md",
-      "codex/2026/raw-input/2026-05-14/youtube-glenn-diesen-george-beebe-europe-russia-war-as-the-u-s-pulls-back-2026-05-14.md",
+      "codex/years/2026/raw-input/2026-05-01/youtube-glenn-diesen-seyed-m-marandi-u-s-attack-on-iran-could-be-imminent-2026-05-01.md",
+      "codex/years/2026/raw-input/2026-05-04/transcript-diesen-mearsheimer-world-order-ending-risk-nuclear-war-2026-05-04.md",
+      "codex/years/2026/raw-input/2026-05-04/transcript-diesen-ritter-hormuz-return-to-war-2026-05-04.md",
+      "codex/years/2026/raw-input/2026-05-05/transcript-diesen-marandi-hormuz-all-out-war-2026-05-05.md",
+      "codex/years/2026/raw-input/2026-05-05/transcript-diesen-varoufakis-europe-decline-2026-05-05.md",
+      "codex/years/2026/raw-input/2026-05-06/transcript-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md",
+      "codex/years/2026/raw-input/2026-05-06/transcript-diesen-wilkerson-hormuz-brics-2026-05-06.md",
+      "codex/years/2026/raw-input/2026-05-07/transcript-diesen-krapivnik-nato-russia-escalation-nuclear-war-2026-05-07.md",
+      "codex/years/2026/raw-input/2026-05-08/transcript-diesen-johnson-iran-war-creates-a-new-middle-east-2026-05-08.md",
+      "codex/years/2026/raw-input/2026-05-08/transcript-diesen-krainer-hormuz-multipolar-world-order-2026-05-08.md",
+      "codex/years/2026/raw-input/2026-05-09/youtube-glenn-diesen-seyed-m-marandi-iran-rejects-u-s-deal-war-is-likely-imminent-2026-05-09.md",
+      "codex/years/2026/raw-input/2026-05-10/youtube-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md",
+      "codex/years/2026/raw-input/2026-05-11/2026-05-11-diesen.md",
+      "codex/years/2026/raw-input/2026-05-11/transcript-diesen-jiang-world-war-three-empire-republic-2026-05-11.md",
+      "codex/years/2026/raw-input/2026-05-12/youtube-glenn-diesen-chas-freeman-trump-goes-to-beijing-after-historic-defeat-in-iran-2026-05-12.md",
+      "codex/years/2026/raw-input/2026-05-12/youtube-glenn-diesen-jeffrey-sachs-new-european-military-bloc-for-war-against-russia-2026-05-12.md",
+      "codex/years/2026/raw-input/2026-05-14/youtube-glenn-diesen-george-beebe-europe-russia-war-as-the-u-s-pulls-back-2026-05-14.md",
       "artifacts/host-shelf-quality/2026/diesen/2026-05/quality-summary.json",
       "artifacts/host-shelf-quality/2026/diesen/2026-05/quality-summary.md"
     ],
@@ -321,17 +321,17 @@
     "committed": false,
     "pushed": false,
     "dirty_paths": [
-      " M codex/2026/raw-input/2026-05-07/transcript-diesen-krapivnik-nato-russia-escalation-nuclear-war-2026-05-07.md",
-      " M codex/2026/raw-input/2026-05-08/transcript-diesen-johnson-iran-war-creates-a-new-middle-east-2026-05-08.md",
-      " M codex/2026/raw-input/2026-05-10/youtube-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md",
+      " M codex/years/2026/raw-input/2026-05-07/transcript-diesen-krapivnik-nato-russia-escalation-nuclear-war-2026-05-07.md",
+      " M codex/years/2026/raw-input/2026-05-08/transcript-diesen-johnson-iran-war-creates-a-new-middle-east-2026-05-08.md",
+      " M codex/years/2026/raw-input/2026-05-10/youtube-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md",
       "?? artifacts/host-shelf-quality/2026/diesen/2026-05/quality-summary.json",
       "?? artifacts/host-shelf-quality/2026/diesen/2026-05/quality-summary.md",
-      "?? codex/2026/raw-input/2026-05-01/youtube-glenn-diesen-seyed-m-marandi-u-s-attack-on-iran-could-be-imminent-2026-05-01.md",
-      "?? codex/2026/raw-input/2026-05-09/youtube-glenn-diesen-seyed-m-marandi-iran-rejects-u-s-deal-war-is-likely-imminent-2026-05-09.md",
-      "?? codex/2026/raw-input/2026-05-11/transcript-diesen-jiang-world-war-three-empire-republic-2026-05-11.md",
-      "?? codex/2026/raw-input/2026-05-12/youtube-glenn-diesen-chas-freeman-trump-goes-to-beijing-after-historic-defeat-in-iran-2026-05-12.md",
-      "?? codex/2026/raw-input/2026-05-12/youtube-glenn-diesen-jeffrey-sachs-new-european-military-bloc-for-war-against-russia-2026-05-12.md",
-      "?? codex/2026/raw-input/2026-05-14/youtube-glenn-diesen-george-beebe-europe-russia-war-as-the-u-s-pulls-back-2026-05-14.md"
+      "?? codex/years/2026/raw-input/2026-05-01/youtube-glenn-diesen-seyed-m-marandi-u-s-attack-on-iran-could-be-imminent-2026-05-01.md",
+      "?? codex/years/2026/raw-input/2026-05-09/youtube-glenn-diesen-seyed-m-marandi-iran-rejects-u-s-deal-war-is-likely-imminent-2026-05-09.md",
+      "?? codex/years/2026/raw-input/2026-05-11/transcript-diesen-jiang-world-war-three-empire-republic-2026-05-11.md",
+      "?? codex/years/2026/raw-input/2026-05-12/youtube-glenn-diesen-chas-freeman-trump-goes-to-beijing-after-historic-defeat-in-iran-2026-05-12.md",
+      "?? codex/years/2026/raw-input/2026-05-12/youtube-glenn-diesen-jeffrey-sachs-new-european-military-bloc-for-war-against-russia-2026-05-12.md",
+      "?? codex/years/2026/raw-input/2026-05-14/youtube-glenn-diesen-george-beebe-europe-russia-war-as-the-u-s-pulls-back-2026-05-14.md"
     ],
     "dirty_path_count": 11,
     "upstream": "origin/main",

@@ -36,7 +36,7 @@ Blumenthal should currently be read as a **cross-host reinforced commentary obje
 That means:
 
 - the object is stronger than a one-off commentator shelf because there is real recurring reuse
-- the clearest live on-disk anchor is [transcript-blumenthal-israel-defeat-zionist-power-2026-04-21.md](/C:/dev/strategy-codex/codex/2026/raw-input/2026-04-21/transcript-blumenthal-israel-defeat-zionist-power-2026-04-21.md)
+- the clearest live on-disk anchor is [transcript-blumenthal-israel-defeat-zionist-power-2026-04-21.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-21/transcript-blumenthal-israel-defeat-zionist-power-2026-04-21.md)
 - the same voice also shows up as a comparative amplifier in the `marandi` and `pape` weave environment
 - but the notebook should not yet overstate this as a mature double- or triple-speaker-helix without denser host-local arc structure and clearer canonical branch separation
 
@@ -46,8 +46,8 @@ So Blumenthal is not best read as a failed helix. He is best read as a speaker o
 
 The clearest current reinforcement beyond the primary Nemo-side transcript is:
 
-- the `marandi-blumenthal-jf-primary` weave environment in [pape-thread.md](/C:/dev/strategy-codex/codex/2026/pape/pape-thread.md)
-- routing references in [davis-thread.md](/C:/dev/strategy-codex/codex/2026/davis/davis-thread.md) where Blumenthal is explicitly treated as a distinct U.S.-domestic and media amplifier rather than a substitute for Marandi or Pape
+- the `marandi-blumenthal-jf-primary` weave environment in [pape-thread.md](/C:/dev/strategy-codex/codex/years/2026/pape/pape-thread.md)
+- routing references in [davis-thread.md](/C:/dev/strategy-codex/codex/years/2026/davis/davis-thread.md) where Blumenthal is explicitly treated as a distinct U.S.-domestic and media amplifier rather than a substitute for Marandi or Pape
 
 See [blumenthal-cross-host-note.md](/C:/dev/strategy-codex/codex/speakers/blumenthal/blumenthal-cross-host-note.md).
 
@@ -55,7 +55,7 @@ See [blumenthal-cross-host-note.md](/C:/dev/strategy-codex/codex/speakers/blumen
 
 If the operator needs the clearest current live anchor:
 
-- open [transcript-blumenthal-israel-defeat-zionist-power-2026-04-21.md](/C:/dev/strategy-codex/codex/2026/raw-input/2026-04-21/transcript-blumenthal-israel-defeat-zionist-power-2026-04-21.md)
+- open [transcript-blumenthal-israel-defeat-zionist-power-2026-04-21.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-21/transcript-blumenthal-israel-defeat-zionist-power-2026-04-21.md)
 
 If the operator needs the best current routing shelf:
 

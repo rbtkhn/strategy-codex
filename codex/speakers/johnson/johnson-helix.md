@@ -20,22 +20,22 @@ A real April 2026 `Napolitano x Johnson` branch now exists on disk as well, but 
 
 | Host lane | Distinct register | What it reveals best |
 |---|---|---|
-| [diesen x johnson](/C:/dev/strategy-codex/codex/2026/diesen/diesen-johnson-speaker-arc.md) | Geopolitical altitude | Gulf vulnerability, regional realignment, strategic exposure, and the wider order consequences of Iran-war escalation |
-| [davis x johnson](/C:/dev/strategy-codex/codex/2026/davis/davis-johnson-speaker-arc.md) | Operational feasibility | Impractical objectives, coercive failure, shrinking leverage, and what force can no longer realistically recover |
-| [alkorshid x johnson](/C:/dev/strategy-codex/codex/2026/alkorshid/alkorshid-johnson-speaker-arc.md) | Live crisis pressure | Strike escalation, Hormuz stress, humiliation of coercive displays, and immediate crisis-motion under maximum event pressure |
+| [diesen x johnson](/C:/dev/strategy-codex/codex/years/2026/diesen/diesen-johnson-speaker-arc.md) | Geopolitical altitude | Gulf vulnerability, regional realignment, strategic exposure, and the wider order consequences of Iran-war escalation |
+| [davis x johnson](/C:/dev/strategy-codex/codex/years/2026/davis/davis-johnson-speaker-arc.md) | Operational feasibility | Impractical objectives, coercive failure, shrinking leverage, and what force can no longer realistically recover |
+| [alkorshid x johnson](/C:/dev/strategy-codex/codex/years/2026/alkorshid/alkorshid-johnson-speaker-arc.md) | Live crisis pressure | Strike escalation, Hormuz stress, humiliation of coercive displays, and immediate crisis-motion under maximum event pressure |
 
 ## Open first
 
 If the operator needs the cleanest single introduction to the helix:
 
-- open [davis-johnson-speaker-arc.md](/C:/dev/strategy-codex/codex/2026/davis/davis-johnson-speaker-arc.md)
+- open [davis-johnson-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/davis/davis-johnson-speaker-arc.md)
 
 If the operator needs the best helix pair:
 
-- open [davis-johnson-speaker-arc.md](/C:/dev/strategy-codex/codex/2026/davis/davis-johnson-speaker-arc.md)
-- then [diesen-johnson-speaker-arc.md](/C:/dev/strategy-codex/codex/2026/diesen/diesen-johnson-speaker-arc.md)
+- open [davis-johnson-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/davis/davis-johnson-speaker-arc.md)
+- then [diesen-johnson-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/diesen/diesen-johnson-speaker-arc.md)
 
-Add [alkorshid-johnson-speaker-arc.md](/C:/dev/strategy-codex/codex/2026/alkorshid/alkorshid-johnson-speaker-arc.md) when the notebook needs the sharpest present-tense pressure surface rather than only the feasibility and altitude lanes.
+Add [alkorshid-johnson-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/alkorshid/alkorshid-johnson-speaker-arc.md) when the notebook needs the sharpest present-tense pressure surface rather than only the feasibility and altitude lanes.
 
 ## Routing use
 
