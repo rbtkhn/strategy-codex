@@ -103,7 +103,7 @@ def _rel(path: Path) -> str:
 
 
 def _read_frontmatter(path: Path) -> dict[str, Any]:
-    text = path.read_text(encoding="utf-8")
+    text = path.read_text(encoding="utf-8-sig")
     match = FRONTMATTER_RE.match(text)
     if not match:
         return {}

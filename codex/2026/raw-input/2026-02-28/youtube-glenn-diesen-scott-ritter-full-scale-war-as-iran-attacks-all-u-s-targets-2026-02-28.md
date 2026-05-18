@@ -2,6 +2,8 @@
 ingest_date: 2026-05-13
 pub_date: 2026-02-28
 kind: transcript
+source_type: youtube
+transcript_type: auto_subtitles_vtt
 thread: diesen
 show: Glenn Diesen
 host: Glenn Diesen
@@ -10,10 +12,14 @@ title: "Scott Ritter: Full-Scale War as Iran Attacks All U.S. Targets"
 channel_url: "https://www.youtube.com/@GDiesen1/videos"
 channel_slug: "glenn-diesen"
 source_url: "https://www.youtube.com/watch?v=2zjuZqUrCAo"
-source_note: "Automated YouTube transcript fetch for Glenn Diesen."
+source_note: "Automated YouTube transcript fetch for Glenn Diesen; operator-pasted transcript checked against this capture on 2026-05-18."
+editorial_note: "Subtitle-derived transcript; operator paste confirms episode/body alignment but text is not independently human-verified verbatim."
+evidence_grade: transcript-bearing
 ---
 
 # Scott Ritter: Full-Scale War as Iran Attacks All U.S. Targets
+
+## Transcript (auto subtitles; operator-paste checked)
 
 Welcome back. Today, we're joined by
 Scott Ritter, a former UN weapons

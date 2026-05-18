@@ -2,6 +2,8 @@
 ingest_date: 2026-05-13
 pub_date: 2026-03-01
 kind: transcript
+source_type: youtube
+transcript_type: auto_subtitles_vtt
 thread: diesen
 show: Glenn Diesen
 host: Glenn Diesen
@@ -10,9 +12,13 @@ title: "Chas Freeman: The War Against Iran Could Destroy the U.S. Republic"
 channel_url: "https://www.youtube.com/@GDiesen1/videos"
 channel_slug: "glenn-diesen"
 source_url: "https://www.youtube.com/watch?v=Xt2e_79Rua4"
-source_note: "Automated YouTube transcript fetch for Glenn Diesen."
+source_note: "Automated YouTube transcript fetch for Glenn Diesen; legacy transcript metadata normalized on 2026-05-18."
+editorial_note: "Subtitle-derived transcript; not independently human-verified verbatim."
+evidence_grade: transcript-bearing
 ---
 # Chas Freeman: The War Against Iran Could Destroy the U.S. Republic
+
+## Transcript (auto subtitles)
 
 Kind: captions
 Language: en
