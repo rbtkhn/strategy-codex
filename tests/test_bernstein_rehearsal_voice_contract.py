@@ -36,6 +36,8 @@ def test_bernstein_contract_requires_rehearsal_orientation_before_action_menu() 
         "framed first person",
         '"we" and direct listening language preferred',
         "Make the stakes vivid before action",
+        "one operator-facing next action",
+        "do not stop at making the stakes vivid",
         "Conductor action MCQ",
     ]
     for phrase in required_phrases:

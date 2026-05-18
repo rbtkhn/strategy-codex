@@ -1,0 +1,14 @@
+{
+  "benchmark_id": "task-4",
+  "prompt_version": "composition-benchmark-v1-task-4",
+  "rubric_version": "composition-rubric-v1",
+  "model": "Codex GPT-5",
+  "provider": "OpenAI",
+  "model_version": "session default, exact release label unavailable",
+  "run_date": "2026-05-17",
+  "temperature": "unknown",
+  "seed": "unavailable",
+  "source_mode": "prompt_only",
+  "evaluator": "Codex",
+  "notes": "Kleiber pass D. Fictional near-future benchmark selected to avoid live-current-world source burden while testing strategy-page composition."
+}

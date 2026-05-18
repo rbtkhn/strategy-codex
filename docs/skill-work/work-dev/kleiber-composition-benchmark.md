@@ -14,12 +14,23 @@ V1 benchmarks run from exactly one place:
 
 ```text
 Conductor action MCQ - Reply A-D for this kleiber pass
-D. Finale: Run composition benchmark - execute one Strategy-codex composition benchmark and close with Held / Weakened / Broke / Open
+D. Finale: Run composition benchmark - execute one Strategy-codex composition benchmark, close with Held / Weakened / Broke / Open, and name the single next operator action
 ```
 
 Coffee may route to Conductor/Kleiber, but coffee does not run benchmarks directly. Dream may carry forward benchmark results, but dream does not generate or run benchmarks.
 
 No other conductor owns benchmark execution in V1.
+
+## Actionability Close
+
+Every benchmark closeout must translate the verdict into one operator-facing next action, or explicitly state `No next action recommended` with the reason. Do not end with only a folder path, artifact list, or verdict.
+
+Use this mapping unless the evidence clearly says otherwise:
+
+- `Held`: commit the artifact, rerun with a stronger source mode, promote one rule, or park as calibration residue.
+- `Weakened`: name the repair target before rerun.
+- `Broke`: name the failed assumption and stop expansion.
+- `Open`: name the missing evidence or decision owner.
 
 ## Output Location
 

@@ -46,6 +46,8 @@ def test_karajan_contract_requires_controlled_conductor_orientation() -> None:
         "technical focus",
         "direct ensemble address",
         "Use \"we\" sparingly and purposefully",
+        "one operator-facing next action",
+        "the next decision",
         "Conductor action MCQ",
     ]
     for phrase in required_phrases:

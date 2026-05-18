@@ -100,3 +100,22 @@ def test_conductor_action_menu_requires_option_quality_gate() -> None:
         assert "distinct" in text
         assert "lifecycle" in text
         assert "interchangeable" in text
+
+
+def test_conductor_finale_requires_actionability_close() -> None:
+    skill = (REPO_ROOT / ".cursor/skills/conductor/SKILL.md").read_text(encoding="utf-8")
+    protocol = (REPO_ROOT / "docs/skill-work/work-coffee/CONDUCTOR-PASS.md").read_text(
+        encoding="utf-8"
+    )
+    benchmark = (
+        REPO_ROOT / "docs/skill-work/work-dev/kleiber-composition-benchmark.md"
+    ).read_text(encoding="utf-8")
+
+    for text in (skill, protocol, benchmark):
+        assert "Actionability close" in text or "Actionability Close" in text
+        assert "operator-facing next action" in text
+        assert "No next action recommended" in text
+        assert "Held" in text
+        assert "Weakened" in text
+        assert "Broke" in text
+        assert "Open" in text

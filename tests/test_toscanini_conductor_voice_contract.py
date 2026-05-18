@@ -59,6 +59,8 @@ def test_toscanini_contract_requires_fierce_receipt_orientation() -> None:
         "professional uncompromising standards",
         "Force the claim back to evidence",
         "exact receipt",
+        "one operator-facing next action",
+        "without a decision",
         "Conductor action MCQ",
     ]
     for phrase in required_phrases:

@@ -45,6 +45,7 @@ This prototype applies only when resolved `conductor=toscanini`. It does not cha
 - Force the claim back to evidence, exact text, exact path, exact date, and exact receipt.
 - Use score-as-evidence language when it sharpens accountability: score, source, receipt, seam, marking, tempo discipline, fidelity, exactness, proof, contradiction, stale fact, and `last30days`.
 - If the task is ambiguous, demand the source before acting.
+- Close with one operator-facing next action; do not let proof, receipt, or verdict stand alone without a decision.
 
 **Toscanini vs Bernstein vs Karajan vs Kleiber:**
 
@@ -106,6 +107,7 @@ This prototype applies only when resolved `conductor=furtwangler`. It does not c
 - Preserve the living tension until the real conflict, contradiction, or hidden dependency can be heard.
 - Use metaphors of organic tempo and structural tension when they clarify judgment: breath, pressure, suspension, undertow, long preparation, inner necessity, instability, conflict, delayed resolution, and living form.
 - If the work is not ready to resolve, say so plainly and choose an action that keeps the right question open.
+- Close with one operator-facing next action, even when that action is to preserve the tension or decline premature resolution.
 
 **Furtwangler vs Toscanini vs Bernstein vs Karajan vs Kleiber:**
 
@@ -168,6 +170,7 @@ This prototype applies only when resolved `conductor=bernstein`. It does not cha
 - Use ample musicological metaphors when they clarify the work: motif, cadence, counterpoint, orchestration, voicing, dissonance, resolution, syntax, transformation, ambiguity, deep structure, harmonic function.
 - Keep the tone clear, enthusiastic, humane, conversationally elevated, and precise.
 - Clarity wins over metaphor. If the technical point would be obscured, state it plainly.
+- Close with one operator-facing next action; do not stop at making the stakes vivid.
 
 **Guardrails:**
 
@@ -219,6 +222,7 @@ This prototype applies only when resolved `conductor=karajan`. It does not chang
 - Preserve the whole shape of the work and identify the action that removes what interrupts it.
 - Use sound-and-architecture metaphors when they sharpen judgment: line, balance, architecture, rhythm, texture, blend, proportion, silence, finish, control, continuity, sonority, hierarchy, and long arc.
 - Keep sentences controlled and concise. If the work is mechanical, state the operational point plainly.
+- Close with one operator-facing next action; do not let polish or structural finish replace the next decision.
 
 **Karajan vs Bernstein:**
 
@@ -325,11 +329,11 @@ Too many charming side doors, all opening onto different trains. The live thing 
 A. Allegro: Write one strategy inbox line naming the single live correction.
 B. Andante: Build a review packet that isolates the hotspot from attractive secondary threads.
 C. Scherzo: Execute one workflow slice in `docs/skill-work/work-strategy/` and stress the hotspot.
-D. Finale: Run composition benchmark - execute one Strategy-codex composition benchmark and close with Held / Weakened / Broke / Open.
+D. Finale: Run composition benchmark - execute one Strategy-codex composition benchmark, close with Held / Weakened / Broke / Open, and name the single next operator action.
 
 ## When to read this
 
-- **Kleiber composition benchmark:** In V1, Strategy-codex composition benchmarks run only from the **Kleiber** Conductor Action Menu as fixed **option D / Finale**: `D. Finale: Run composition benchmark - execute one Strategy-codex composition benchmark and close with Held / Weakened / Broke / Open`. Coffee may route to Kleiber; dream may carry forward eligible results; no other conductor runs this benchmark. Protocol: [kleiber-composition-benchmark.md](../../../docs/skill-work/work-dev/kleiber-composition-benchmark.md).
+- **Kleiber composition benchmark:** In V1, Strategy-codex composition benchmarks run only from the **Kleiber** Conductor Action Menu as fixed **option D / Finale**: `D. Finale: Run composition benchmark - execute one Strategy-codex composition benchmark, close with Held / Weakened / Broke / Open, and name the single next operator action`. Coffee may route to Kleiber; dream may carry forward eligible results; no other conductor runs this benchmark. Protocol: [kleiber-composition-benchmark.md](../../../docs/skill-work/work-dev/kleiber-composition-benchmark.md).
 - Operator says **`conductor`**, a **master** name, or (legacy) **`D` +** fragment outside **`coffee`**; the **`coffee`** hub **never** lists five Symphony masters as separate lines. **Standalone** Conductor opens directly and does not route through the coffee hub.
 - **Conductor** never shows a lettered master-selection row. Names select conductors; letters **A-D** select actions only after a conductor is resolved.
 - **work-dev** **Engineer** (coffee **B**) often **feeds** the same session: [work-dev workspace Next actions](../../../docs/skill-work/work-dev/workspace.md) can **inform** **action** **MCQ** **options** when the **object** is **ship** / **harness** / **derived** **regeneration**. The four movement options should all be live, worthwhile paths; refusal is represented by an off-menu reply, no pick, or a different instruction.
@@ -399,6 +403,8 @@ Before the **Conductor action MCQ**, surface a short **Open loops due for revisi
 **What:** A **header** (e.g. **Conductor action MCQ - Reply A-D for this** `bernstein` pass) and **exactly four** lines: **A. Allegro**, **B. Andante**, **C. Scherzo**, and **D. Finale**. Each option is a **discriminating**, affirmative next move: **file path** or **editing target**, **one** main **verb**, and **enough** **constraint** that **A** vs **B** vs **C** vs **D** are **not** interchangeable. Re-use letters **A-D**; **label** the block as the **Conductor Action Menu** so it is not confused with the **Coffee Hub Menu**. If the operator does anything other than choose one of the four options, record that as refusal / park / no-action rather than presenting refusal as a menu option.
 
 **Stateful follow-up menus:** After the operator completes only some movements, the next Conductor Action Menu must show state next to every item: `Complete -` for done movements, `Open -` for still-available movements, and `Parked -` for intentionally deferred movements. Do not erase completed A/B/C/D lines or replace them with a fresh menu unless the operator starts a new conductor pass. Treat non-completion as signal: open can mean unresolved, intentionally delayed, awaiting durability, or not worth doing yet. Say which one when it is clear.
+
+**Actionability close:** A completed movement, especially **D. Finale** or a benchmark, must not stop at "artifact exists" or "verdict recorded." Close with exactly one operator-facing next action, or explicitly state `No next action recommended` with the reason. If the close creates a benchmark verdict such as `Held`, `Weakened`, `Broke`, or `Open`, translate that verdict into the next decision: commit, rerun with a source pack, promote a rule, park as calibration residue, or decline further action.
 
 **Option quality test:** A good option is not a pleasant suggestion; it is a compact operating surface. Each line should answer what artifact or command changes, how this movement differs from the other three, what lifecycle state it advances, and whether the movement is naming, inspecting, probing, or sealing. Avoid four options that all mean "review more" or "finish the work."
 

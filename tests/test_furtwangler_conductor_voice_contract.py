@@ -59,6 +59,8 @@ def test_furtwangler_contract_requires_tension_aware_orientation() -> None:
         "patient with unresolved structure",
         "Preserve the living tension",
         "If the work is not ready to resolve",
+        "one operator-facing next action",
+        "decline premature resolution",
         "Conductor action MCQ",
     ]
     for phrase in required_phrases:
