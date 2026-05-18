@@ -36,7 +36,7 @@ The interface becomes less a destination and more an operating layer: voice, bro
 
 ## Voice As Command Surface
 
-Voice is not dictation and not novelty UI. It becomes strategically important when spoken intent can safely initiate real workflows across browser, memory, files, messaging, purchases, scheduling, coding, and delegated agents.
+Voice is not dictation and not novelty UI. In search-check terms: voice is not dictation. It becomes strategically important when spoken intent can safely initiate real workflows across browser, memory, files, messaging, purchases, scheduling, coding, and delegated agents.
 
 Design for talking to the system while doing life: walking, driving, cooking, parenting, commuting, working, recovering context, or moving between screens. In those settings, voice has to carry context, scoped authority, confirmation, action, receipt, and rollback.
 

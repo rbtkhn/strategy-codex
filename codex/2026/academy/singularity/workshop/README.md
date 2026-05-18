@@ -39,6 +39,11 @@ The Singularity Workshop is the active-use layer of academy singularity. It begi
 - [Moonshots EP #255 - Singularity Economy](sheets/moonshots-ep-255-singularity-economy.md) - podcast bridge for Anthropic/SpaceX compute, singularity economics, recursive agents, alignment narratives, and orbital infrastructure.
 - [AI interface as operating layer - 2028 horizon](sheets/interface-operating-layer-2028.md) - practical design sheet for outcome-first workflows, agent-addressable actions, memory, permissions, receipts, and rollback.
 - [Narrative-Shaped Alignment](sheets/narrative-shaped-alignment.md) - WORK-only strategy sheet for tracking how cultural material, PH-CIV discipline, and positive future stories may shape model behavior.
+- [Karpathy Watchlist](sheets/karpathy-watchlist.md) - source-bound bridge from the Karpathy profile and pinned repos into agency, substrate, and educational-baseline questions.
+
+## External Watchlist
+
+- [Academy Singularity Watchlist](../watchlist.md) - small external GitHub set for Karpathy-related acceleration, agency, and substrate signals.
 
 ## Raw Captures
 
@@ -184,6 +189,7 @@ Full local captures live here for close reading. Interpretive source sheets stay
 
 - [The Innermost Loop longitudinal spine](longitudinal/innermost-loop.md) - dated front-by-front trend view.
 - [The Innermost Loop signals JSON](longitudinal/innermost-loop-signals.json) - structured deterministic front index.
+- [Spine Health Checklist](longitudinal/spine-health-checklist.md) - quick QA pass for coverage, review load, bridge isolation, and rebuild sanity.
 
 ## First Instruments To Build
 

@@ -20,6 +20,14 @@ Use this folder for singularity concepts and study structure, not for generic AI
 - [The Innermost Loop - 2026-05-17](workshop/sheets/innermost-loop-2026-05-17.md) - source-bound acceleration map for agency, substrate, rollback, and human-meaning checks.
 - [Moonshots EP #255 - Singularity Economy](workshop/sheets/moonshots-ep-255-singularity-economy.md) - source-bound podcast bridge for compute substrate, recursive agents, singularity economics, alignment narrative, and orbital infrastructure.
 
+## External Watchlist
+
+- [Academy Singularity Watchlist](watchlist.md) - small external GitHub set for Karpathy-related acceleration, agency, and substrate signals.
+
+## Maintenance
+
+- [Spine Health Checklist](workshop/longitudinal/spine-health-checklist.md) - quick QA pass for coverage, review load, bridge isolation, and rebuild sanity.
+
 ## Raw Capture Backfill
 
 Full local captures for the current Innermost Loop backfill live under `workshop/raw-input/innermost-loop/`.

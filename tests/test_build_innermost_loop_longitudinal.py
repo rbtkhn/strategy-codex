@@ -126,6 +126,7 @@ def test_run_writes_stable_outputs_and_readme_section(tmp_path: Path) -> None:
     assert parsed["coverage"]["gaps"] == ["2026-05-05"]
     assert first_readme.count("## Longitudinal Views") == 1
     assert "longitudinal/innermost-loop.md" in first_readme
+    assert "longitudinal/spine-health-checklist.md" in first_readme
 
     assert longitudinal.run(raw_root=raw_root, out_dir=out_dir, readme=readme, apply=True) == 0
     assert (out_dir / "innermost-loop.md").read_text(encoding="utf-8") == first_md

@@ -530,7 +530,8 @@ def update_readme(readme: Path, *, apply: bool) -> None:
         return
     body = (
         "- [The Innermost Loop longitudinal spine](longitudinal/innermost-loop.md) - dated front-by-front trend view.\n"
-        "- [The Innermost Loop signals JSON](longitudinal/innermost-loop-signals.json) - structured deterministic front index."
+        "- [The Innermost Loop signals JSON](longitudinal/innermost-loop-signals.json) - structured deterministic front index.\n"
+        "- [Spine Health Checklist](longitudinal/spine-health-checklist.md) - quick QA pass for coverage, review load, bridge isolation, and rebuild sanity."
     )
     text = readme.read_text(encoding="utf-8")
     new_text = _replace_or_insert_section(text, "Longitudinal Views", body, before_heading="First Instruments To Build")
