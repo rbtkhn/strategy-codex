@@ -12,6 +12,7 @@
 - Transcript compatibility file: [parsi-transcript.md](parsi-transcript.md)
 - Consolidation note: [parsi-lane-consolidation-2026-05.md](parsi-lane-consolidation-2026-05.md)
 - Source-hygiene note: [parsi-source-hygiene-2026-04-21-ceasefire-hormuz.md](parsi-source-hygiene-2026-04-21-ceasefire-hormuz.md)
+- Forecast + diplomacy ledger: [parsi-forecast-ledger-2025-2026.md](parsi-forecast-ledger-2025-2026.md)
 
 ## Civ-Mem Spine
 

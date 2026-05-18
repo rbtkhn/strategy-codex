@@ -10,6 +10,7 @@
 - Thread compatibility file: [crooke-thread.md](crooke-thread.md)
 - Transcript compatibility file: [crooke-transcript.md](crooke-transcript.md)
 - Consolidation note: [crooke-lane-consolidation-2026-05.md](crooke-lane-consolidation-2026-05.md)
+- Forecast + tension ledger: [crooke-forecast-ledger-2026.md](crooke-forecast-ledger-2026.md)
 
 ## Civ-Mem Spine
 
