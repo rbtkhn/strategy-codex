@@ -1,4 +1,4 @@
-﻿---
+---
 name: elicit-knowledge
 preferred_activation: elicit knowledge
 description: Topic-anchored history MCQ workflow that converts validated answers into merge-ready IX-A knowledge candidates in recursion-gate (no methodology framing, no placeholder suggested_entry). Use when the user asks to elicit knowledge and stage gate candidates.
