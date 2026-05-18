@@ -571,3 +571,16 @@ _(Append below this line.)_
 - **2026-05-16 18:21 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
 - **2026-05-17 05:16 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
 - **2026-05-17 05:17 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=A steward=git cursor-model=codex
+- **2026-05-17 05:39 UTC** — dream (strategy-codex) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=false reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
+- **2026-05-17 13:35 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-05-17 18:35 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-05-17 18:40 UTC** — dream (demo) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false handoff_written=true
+- **2026-05-17 18:47 UTC** — dream (demo) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false handoff_written=true
+- **2026-05-17 18:48 UTC** — dream (demo) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=true handoff_written=true
+- **2026-05-18 04:44 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-05-18 04:57 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=gpt-5 model_tier=unknown picked=A steward=gate
+- **2026-05-18 05:00 UTC** — coffee_close (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=A outcome=done readiness=ship_ready artifacts=docs/skill-work/work-dev/kleiber-composition-benchmark.md loops=conductor-actionability-close next=commit-staged-conductor-actionability-bundle
+- **2026-05-18 05:03 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=gpt-5 model_tier=unknown picked=conductor conductor=furtwangler
+- **2026-05-18 06:06 UTC** — dream (strategy-codex) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
+- **2026-05-18 12:30 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-05-18 14:35 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=codex model_tier=unknown conductor=toscanini verdict=backfill-falsify-weakened notebook_ref=skill:academy-backfill-falsify falsify=If origin/main is treated as containing eb27d532 watchlist and lowercase voice fixes before push, the falsification target drifted.
