@@ -4,18 +4,20 @@ This note summarizes the Predictive History boundary shift for operators, future
 
 ## Status
 
-The boundary is landed in two commits on `main`:
+The original freeze boundary landed in two commits on `main`:
 
 - `3e339445` `Freeze Predictive History as external-only boundary`
 - `40e0d395` `Align Predictive History boundary follow-up docs`
 
-## Canonical ownership
+## Canonical public artifact
 
-The canonical writable Predictive History repo is:
+The canonical public Predictive History repo is:
 
-- [`rbtkhn/ph-workshop`](https://github.com/rbtkhn/ph-workshop)
+- [`rbtkhn/ph-civ`](https://github.com/rbtkhn/ph-civ)
 
-Inside `strategy-codex`, Predictive History is now an **external observed project**, not a local production lane.
+`ph-civ` is the two-volume public artifact containing the `ph-civ`, `ph-apo`, and `ph-mus` surfaces: lecture transcripts, companion commentaries, cards, routes, public pattern IDs, and museum manifests. `rbtkhn/ph-workshop` is legacy workshop/import provenance unless the operator explicitly invokes that archive lane.
+
+Inside `strategy-codex`, Predictive History is now an **external observed public project**, not a local production lane.
 
 ## What changed
 
@@ -30,6 +32,7 @@ The repo now includes:
 - a validator and CI guardrail blocking normal edits to frozen PH paths
 - deprecation of the old local `work_jiang` rebuild path
 - operator docs and skill docs updated to stop advertising local PH production as the normal route
+- bridge language that lets strategy work cite public `ph-civ` IDs without importing private workspace paths
 
 ## What is now forbidden here
 
@@ -49,15 +52,16 @@ Allowed Predictive History work in `strategy-codex` now looks like:
 - editorial critique
 - structure feedback
 - source-discipline review
-- strategy-notebook commentary on externally supplied PH material
+- strategy commentary on externally supplied PH material
+- public `ph-civ` ID references, such as `source_id`, `pattern_id`, and route IDs
 - boundary doctrine or migration-maintenance updates
 
 ## Review packet flow
 
 The standard flow is:
 
-1. Do canonical writing and curation in [`rbtkhn/ph-workshop`](https://github.com/rbtkhn/ph-workshop).
-2. Bring a bounded packet into `strategy-codex`.
+1. Do public writing and curation in [`rbtkhn/ph-civ`](https://github.com/rbtkhn/ph-civ).
+2. Bring a bounded packet or public ID into `strategy-codex`.
 3. Ask for one or more of:
    - editorial critique
    - structure feedback
@@ -74,4 +78,4 @@ Good packet shapes:
 
 ## One-line public/internal summary
 
-`strategy-codex` is no longer the place where Predictive History gets written; it is now the place where Predictive History can be observed, reviewed, and critiqued without blurring canonical ownership.
+`strategy-codex` is no longer the place where Predictive History gets written; it is now the place where Predictive History can be observed, reviewed, critiqued, and cited through public `ph-civ` IDs without blurring canonical ownership.

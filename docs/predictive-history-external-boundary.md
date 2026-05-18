@@ -1,12 +1,15 @@
 # Predictive History external boundary
 
-`rbtkhn/ph-workshop` is the canonical writable Predictive History workshop repository.
+`rbtkhn/ph-civ` is the canonical public Predictive History repository.
 
-Inside `strategy-codex`, Predictive History is now an **external observed project**:
+It is the two-volume public artifact containing the `ph-civ`, `ph-apo`, and `ph-mus` surfaces: public lecture transcripts, companion commentaries, cards, routes, patterns, and museum manifests. `rbtkhn/ph-workshop` is legacy workshop/import provenance unless the operator explicitly invokes that archive lane.
+
+Inside `strategy-codex`, Predictive History is now an **external observed public project**:
 
 - observation allowed
 - critique allowed
 - review packets allowed
+- citation of public `ph-civ` IDs allowed
 - mutation disallowed
 
 ## Canonical rule
@@ -16,7 +19,7 @@ Inside `strategy-codex`, Predictive History is now an **external observed projec
 - `codex/predictive-history/`
 - `research/external/youtube-channels/predictive-history/`
 
-Those trees remain in this repo only as **frozen migration residue / historical reference** while the operator migrates episodes one by one into the external workshop repo.
+Those trees remain in this repo only as **frozen migration residue / historical reference**. The public reader artifact now lives in the external `ph-civ` repo.
 
 ## What belongs here
 
@@ -26,7 +29,8 @@ Allowed Predictive History work inside `strategy-codex` is limited to:
 - review packet templates and analysis prompts
 - source-discipline critique
 - structure/editorial feedback
-- strategy-notebook commentary about externally supplied PH material
+- strategy commentary about externally supplied PH material
+- public `ph-civ` ID references, such as `source_id`, `pattern_id`, and route IDs
 
 ## What does not belong here
 
@@ -36,6 +40,7 @@ Disallowed Predictive History work inside `strategy-codex` includes:
 - regenerating PH renders or dashboards for canonical use
 - refreshing the local PH transcript snapshot as if this repo still owned the ingest lane
 - treating `codex/predictive-history/` as a live work surface
+- silently patching `ph-civ` from local residue paths
 
 ## Feedback loop
 
@@ -45,6 +50,7 @@ The standard interface from Predictive History into `strategy-codex` is a **revi
 - pasted excerpt
 - file snapshot
 - bounded artifact bundle with source links
+- public `ph-civ` ID or route reference
 
 `strategy-codex` may then return:
 

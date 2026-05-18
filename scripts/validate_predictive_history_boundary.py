@@ -85,9 +85,11 @@ def get_changed_files_from_staged() -> list[str]:
 def format_violation_message(blocked: list[str], allowed: list[str]) -> str:
     lines = [
         "Predictive History boundary violation:",
-        "  `rbtkhn/ph-workshop` is now the canonical writable workshop repo.",
-        "  `strategy-codex` may review, observe, and critique Predictive History,",
+        "  `rbtkhn/ph-civ` is now the canonical public Predictive History repo.",
+        "  It contains the public two-volume PH artifact: ph-civ, ph-apo, and ph-mus.",
+        "  `strategy-codex` may review, observe, critique, and cite public ph-civ IDs,",
         "  but it must not mutate the frozen legacy PH trees in this repo.",
+        "  Treat `rbtkhn/ph-workshop` as legacy workshop/import provenance unless explicitly invoked.",
         "",
         "Blocked paths:",
     ]
@@ -102,8 +104,9 @@ def format_violation_message(blocked: list[str], allowed: list[str]) -> str:
             "  - boundary docs and migration notices",
             "  - validator / CI guardrail maintenance",
             "  - review packets and critique outside the frozen PH trees",
+            "  - public ph-civ source_id, pattern_id, and route references",
             "",
-            "Move canonical Predictive History edits to `rbtkhn/ph-workshop` instead.",
+            "Move canonical public Predictive History edits to `rbtkhn/ph-civ` instead.",
         ]
     )
     return "\n".join(lines)
