@@ -99,6 +99,8 @@ If the draft has interest without equilibrium, it may become coercive drift. If 
 
 Use [National Perspective Orthogonality](sheets/national-perspective-orthogonality.md) when a problem needs several national points of view. Do not make other states passive objects of analysis. Give each actor its own durable interest, institutional carrier, fear, leverage, preferred instrument, and off-ramp.
 
+When a minister, negotiator, security official, or institutional voice is carrying state intent across many raw-inputs, use an authority-carrier object rather than a biography note. Example: [Sergey Lavrov](russia/objects/lavrov.md) in the Russia lane tracks official agreement-capability and settlement signals across all raw-inputs.
+
 When the analysis should become a draft, open the matching national lane: [America](america/), [Russia](russia/), [China](china/), or [Iran](iran/). Use the lane to join contemporary speaker-state inputs with Richelieu / Bismarck checks and produce an instrument rather than a commentary paragraph.
 
 Direct command aliases:

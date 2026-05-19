@@ -44,6 +44,8 @@ Use Richelieu to test whether Russian policy has a durable institutional carrier
 
 Use [Russia heads of state](heads-of-state/) to test presidential authority, Security Council consensus, elite coalition constraints, and whether a settlement expresses durable Russian state interest rather than personal improvisation.
 
+Use [Russia authority carrier objects](objects/) for ministers, negotiators, security figures, and official institutional voices whose statements carry Russian state intent across raw-inputs. First object: [Sergey Lavrov](objects/lavrov.md).
+
 ## Speaker-State Intake
 
 Open Crooke for order rupture and Western misreading, Diesen for multipolar structure, Ritter / Macgregor / Martyanov for force constraints, and Parsi / Freeman for settlement architecture. Extract mechanisms; do not turn the lane into speaker commentary.
