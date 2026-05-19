@@ -1,7 +1,7 @@
 ---
 name: ritter-warning-extraction
 preferred_activation: ritter-warning
-description: "Draft workflow for extracting Scott Ritter's authored and interview warnings into disciplined quote cards, operational mechanisms, escalation paths, falsifiers, comparative speaker reads, and statecraft inputs. Use for Ritter recent streams, Ritter quotes, Karaganov/Ritter split, Ritter compared to another speaker, Ritter warning, Ritter host lanes, Russia/NATO escalation, operational feasibility, force constraints, and what can we learn/use from Ritter."
+description: "Draft workflow for extracting Scott Ritter's authored and interview warnings into disciplined quote cards, operational mechanisms, escalation paths, authority-carrier reads, falsifiers, comparative speaker reads, and statecraft inputs. Use for Ritter recent streams, Ritter quotes, Ritter on Putin/Zelensky/Trump/Lavrov/Khamenei, Karaganov/Ritter split, Ritter compared to another speaker, Ritter warning, Ritter host lanes, Russia/NATO escalation, operational feasibility, force constraints, and what can we learn/use from Ritter."
 portable: true
 version: 0.1.0-draft
 tags:
@@ -22,6 +22,11 @@ Use this draft skill when the operator asks for Ritter-specific extraction, espe
 - `Karaganov/Ritter split`
 - `compare Ritter to <speaker>`
 - `Ritter warning`
+- `Ritter on Putin`
+- `Ritter on Zelensky`
+- `Ritter on Trump`
+- `Ritter on Lavrov`
+- `Ritter on Khamenei`
 - `Ritter host lanes`
 - `what can we learn from Ritter`
 - `wire Ritter into statecraft`
@@ -67,6 +72,7 @@ If the operator asks about "recent streams," prioritize interview captures, then
    - escalation path;
    - deterrence doctrine;
    - force constraint;
+   - authority-carrier read;
    - legal/command failure;
    - moral/prosecutorial judgment.
 4. Extract 3-5 quote cards if the operator asks for quotes or excerpts.
@@ -135,6 +141,41 @@ Ritter often carries three registers at once. Keep them distinct:
 
 Do not discard the heat, but do not let it become the mechanism. Ask: what remains true if the rhetoric is lowered by 60 percent?
 
+## Authority carrier mode
+
+Use this when the operator asks `Ritter on <person>` or when the topic is a leader, minister, commander, negotiator, security council, or symbolic sovereign authority.
+
+Minimum useful shape:
+
+- **Role:** what authority function the actor carries in Ritter's account.
+- **Decision power:** what the actor can still decide or authorize.
+- **Constraint:** what material, institutional, psychological, or alliance pressure limits that actor.
+- **Escalation predicate:** the condition that makes restraint fail or makes action unavoidable in Ritter's warning.
+- **Excerpt:** at least one source excerpt where Ritter's own words carry the causal claim.
+- **Statecraft use:** folder handoff, transaction input, realism filter, or object note.
+
+Common patterns:
+
+- **Putin:** sovereign authority and restrained escalation manager; look for the condition that makes restraint no longer viable.
+- **Zelensky:** spoiler or failing authority carrier when remaining agency is escalation, delay, or provocation rather than settlement.
+- **Trump:** unstable command carrier when temperament, optics, or ego shapes war termination.
+- **Lavrov:** diplomatic carrier when Russian official language, treaty capability, or channel discipline matters.
+- **Khamenei:** sovereign-symbolic authority when martyrdom, succession, regime-collapse assumptions, or deterrent legitimacy matter.
+
+Do not turn the person into biography. Ask what state function, command function, bargaining function, or escalation function Ritter assigns to the actor.
+
+## Escalation predicate test
+
+For every major Ritter warning, name the predicate that changes the decision calculus:
+
+- What new material harm is being imposed?
+- What sanctuary, proxy, or enabling node makes the harm sustainable?
+- What official warning has already been issued?
+- What previous restraint no longer solves the problem?
+- What concrete instrument does Ritter think becomes likely next?
+
+This prevents the skill from treating every warning as generic doom. The useful Ritter question is: what condition makes the warning operational?
+
 ## Karaganov/Ritter split
 
 When Karaganov appears:
@@ -157,6 +198,17 @@ For each Ritter extraction, produce these fields when useful:
 - **Revisit:** what date, trigger, or battlefield event should reopen the claim.
 - **State lane:** `america`, `russia`, `china`, or `iran`.
 - **Use:** transaction input, realism filter, treaty/policy caution, or speaker-state note.
+
+## State-folder handoff
+
+When authority carrier mode produces a durable object, route the reusable output:
+
+- Putin or Lavrov -> `codex/academy/statecraft/russia/state/`
+- Trump or Vance -> `codex/academy/statecraft/america/state/`
+- Khamenei or Araghchi -> `codex/academy/statecraft/iran/state/`
+- Zelensky -> keep as crisis/proxy object unless a Ukraine lane or object folder exists.
+
+Use a handoff when the result names a recurring decision node, not for one-off color commentary.
 
 ## Anti-patterns
 
