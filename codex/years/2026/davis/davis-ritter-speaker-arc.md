@@ -23,7 +23,7 @@ What makes this a real speaker arc is that the same host x guest shape keeps ret
 
 ## Arc set
 
-This lane is now materially present on disk as a 2026 Iran-war run. It should be read as the Ritter branch that gives the cleanest operational-feasibility test, distinct from:
+This lane is now materially present on disk as a seven-appearance 2026 run. It should be read as the Ritter branch that gives the cleanest operational-feasibility test, distinct from:
 
 - `diesen x ritter` for escalation horizon and geopolitical consequence
 - `alkorshid x ritter` for live crisis pressure and immediate war-motion interpretation
@@ -77,4 +77,5 @@ Typical pairings around the guest lane:
 
 - Ritter is strongest here on war-feasibility, stockpiles, skies, and operational implausibility, not on calm diplomatic framing.
 - Prefer this lane when the notebook needs the Davis-side military test; prefer the Diesen lane for broader escalation consequence and the Dialogue Works lane for the sharpest live-pressure reading.
-- The lane is real because the host-local shape repeats across multiple spring 2026 files, not because every Ritter appearance is equally canonical.
+- The lane is real because the host-local shape repeats across a seven-appearance spring 2026 run, not because every Ritter appearance is equally canonical.
+- The May 6 pair is useful as a durability check because the same talk survives on disk both as a cleaned transcript and as a transcript-bearing YouTube capture.

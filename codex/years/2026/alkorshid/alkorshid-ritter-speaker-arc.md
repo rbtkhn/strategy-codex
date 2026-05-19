@@ -23,7 +23,7 @@ What makes this a real speaker arc is that the same host x guest shape keeps ret
 
 ## Arc set
 
-This lane is now materially present on disk as a dense 2026 crisis run. It should be read as the Ritter branch that gives the sharpest live-pressure register, distinct from:
+This lane is now materially present on disk as a dense cross-year run that starts in 2025 and matures into a 2026 crisis shelf. It should be read as the Ritter branch that gives the sharpest live-pressure register, distinct from:
 
 - `diesen x ritter` for escalation horizon and geopolitical consequence
 - `davis x ritter` for operational feasibility and military practicality
@@ -34,10 +34,10 @@ This lane is now materially present on disk as a dense 2026 crisis run. It shoul
 |---|---|---|---|
 | 1 | 2026-05-13 | *Scott Ritter: Iran Didn't Break. It Adapted, Now Stronger Than Ever* | Best mature anchor. Strongest single file for the lane's claim that prolonged pressure is hardening rather than weakening Iran. Open this first. |
 | 2 | 2026-04-08 | *Scott Ritter: The US War on Iran Just COLLAPSED - Ceasefire Does the Impossible* | Best collapse-frame file. Strongest for rapid reversal, narrative failure, and live crisis disorientation. |
-| 3 | 2026-03-11 | *Scott Ritter: The U.S. Has Lost and Is Trapped in the Iran War With No Way Out* | Best entrapment file. Useful for the lane's highest-pressure read on lost initiative and narrowing exits. |
-| 4 | 2026-02-18 | *Scott Ritter: Hormuz Blocked! Iran's Missile Fire Can Leave the US Navy DEFENSELESS* | Best Hormuz and missile-pressure file. Strongest for maritime vulnerability in the live-pressure register. |
-| 5 | 2026-02-11 | *Scott Ritter: Trump in MAJOR Trouble - China & Russia Arm Iran With Deadly Weapons!* | Best escalation-broadening file. Useful for showing the lane before later spring consolidation. |
-| 6 | 2026-02-04 | *Scott Ritter: Game Over? Trump's Iran Strategy Might Blow Up and Start a Regional War* | Best first root file. Strongest early expression of the lane's crisis-temperature and war-expansion logic. |
+| 3 | 2026-03-04 | *Scott Ritter: Iran Wins the Long War - U.S. & Israel Losing Ground!* | Best long-war transition file. Strongest for the lane's shift from shock headlines to a sustained-loss argument. |
+| 4 | 2026-03-11 | *Scott Ritter: The U.S. Has Lost and Is Trapped in the Iran War With No Way Out* | Best entrapment file. Useful for the lane's highest-pressure read on lost initiative and narrowing exits. |
+| 5 | 2026-02-18 | *Scott Ritter: Hormuz Blocked! Iran's Missile Fire Can Leave the US Navy DEFENSELESS* | Best Hormuz and missile-pressure file. Strongest for maritime vulnerability in the live-pressure register. |
+| 6 | 2026-05-06 | *Operation Freedom Hormuz* | Best cleaned-transcript anchor for the lane's later blockade-war shape and one of the clearest reusable files on disk. |
 
 ## Open first
 
@@ -56,6 +56,11 @@ That pair gives the clearest lane shape:
 - collapse language under live crisis motion
 - Hormuz and strategic inversion in the background
 - a guest voice translating fast war developments into immediate loss-of-control claims
+
+If the operator needs the strongest bridge from shock escalation to sustained-loss framing:
+
+- open [youtube-dialogue-works-scott-ritter-iran-wins-the-long-war-us-israel-losing-ground-2026-03-04.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-03-04/youtube-dialogue-works-scott-ritter-iran-wins-the-long-war-us-israel-losing-ground-2026-03-04.md)
+- then [transcript-dialogue-works-scott-ritter-the-u-s-has-lost-and-is-trapped-in-the-iran-war-with-no-way-2026-03-11.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-03-11/transcript-dialogue-works-scott-ritter-the-u-s-has-lost-and-is-trapped-in-the-iran-war-with-no-way-2026-03-11.md)
 
 ## Routing use
 
@@ -77,4 +82,4 @@ Typical pairings around the guest lane:
 
 - Ritter is strongest here on immediate war-motion and crisis pressure, not on balanced sequencing or calmer feasibility analysis.
 - Prefer this lane when the notebook needs the sharpest present-tense Ritter register; prefer the Diesen lane for broader strategic consequence and the Davis lane for operational practicality.
-- The lane is real because the host-local pattern repeats across a dense 2026 run, not because every high-pressure title is equally canonical.
+- The lane is real because the host-local pattern repeats across a 15-appearance cross-year run, not because every high-pressure title is equally canonical.
