@@ -33,6 +33,10 @@ Use this draft skill when the operator asks for:
 - `make it concrete`
 - `settlement spine`
 - `civilization / empire`
+- `what does <expert> say recently`
+- `show the key quotes`
+- `what can we learn from this`
+- `what can we use`
 
 The goal is to convert contemporary geopolitical analysis into a practical instrument: treaty language, policy memo, negotiation brief, sanctions/off-ramp mechanism, crisis brief, or institutional design note.
 
@@ -47,6 +51,7 @@ Treat these ordinary workflow signals as likely statecraft activations:
 - **Four-lane comparison:** `compare the four states`, `orthogonality`, `America/Russia/China/Iran`, `settlement spine`.
 - **State commands:** `state-russia`, `state-china`, `state-iran`, `state-america`.
 - **Speaker-to-instrument:** `Pape says...`, `Parsi argues...`, `Ritter warns...`, or `Crooke frames...` when followed by policy, treaty, compact, framework, clause, or settlement language.
+- **Expert-to-statecraft extraction:** `what does <expert> say recently`, `show the key quotes`, `top excerpts`, `what can we learn from this`, `what can we use`, `wire this into statecraft`.
 - **Coffee C handoff:** after `coffee` -> `c`, treat crisis or policy language as statecraft unless the operator redirects.
 - **Civilizational hinge:** `Richelieu`, `Bismarck`, `Plutarch`, `civilization / empire`, `helix`, `authority / restraint / settlement`.
 
@@ -55,6 +60,7 @@ Routing rule:
 - Single state plus crisis object -> draft a lane transaction or brief.
 - All four states, `do it again`, `same for this crisis`, or orthogonality language -> draft a four-lane transaction bundle.
 - Speaker insight plus policy language -> convert the insight into a statecraft instrument or source-backed transaction input.
+- Recent expert streams plus quote language -> extract quote cards first, then statecraft implications.
 - `What did we learn?` after a bundle -> identify method, skill, architecture, or template refinement candidates.
 
 Recent bundles such as `hormuz-transit-sanctions-relief-compact` and `iran-nuclear-latency-recognition-framework` are examples of the pattern, not mandatory templates.
@@ -172,6 +178,33 @@ Typical roles:
 - **Crooke** - structural misreading, order rupture, metapolitical context, Western mechanism failure.
 
 Preserve source boundaries. If a claim matters, link or cite the speaker compact state, ledger, helix, interview map, or raw-input-backed surface that carries it.
+
+## Expert-to-statecraft extraction
+
+Use this when the operator asks what an expert recently said, asks for key quotes, or asks what can be learned or used from a source pull.
+
+Workflow:
+
+1. Search the relevant speaker folder, host arcs, and raw-input captures.
+2. Separate authored-source claims, interview claims, host framing, and assistant synthesis.
+3. Produce 3-5 high-density quote cards before abstracting the lesson.
+4. Split the result into doctrine, instrument, realism filter, state-lane implication, and memorialization candidate.
+
+Quote-card rule:
+
+- If the operator asks for quotes or excerpts, the bullet must contain the expert's own words, not a heading plus explanation.
+- Use dense near-limit exact excerpts whenever allowed, with file and line citation.
+- Do not answer quote requests with tiny fragments when fuller compliant excerpts are available.
+- If a requested excerpt length exceeds the quoting limit, say so and provide near-limit excerpts plus paraphrase of the surrounding argument.
+- Do not silently substitute paraphrase for quotes when the operator asked to see quotes in chat.
+
+Statecraft conversion:
+
+- **Doctrine:** What rule of strategic behavior is the expert asserting?
+- **Instrument:** What concrete tool carries the doctrine: strike, treaty, compact, sanction, guarantee, warning, recognition, inspection, or corridor?
+- **Realism filter:** What assumption could make the expert's scenario unrealistic?
+- **State-lane implication:** Which of `america`, `russia`, `china`, or `iran` should absorb the lesson?
+- **Memorialization:** Decide whether the reusable result belongs in a transaction, method sheet, national lane note, speaker-state note, or skill refinement.
 
 ## Scoreboard choice
 
