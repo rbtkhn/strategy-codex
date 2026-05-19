@@ -17,14 +17,7 @@ from datetime import date
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
-DEFAULT_INBOX = (
-    REPO
-    / "docs"
-    / "skill-work"
-    / "work-strategy"
-    / "strategy-notebook"
-    / "daily-strategy-inbox.md"
-)
+DEFAULT_INBOX = REPO / "codex" / "daily-strategy-inbox.md"
 
 ACCUM_RE = re.compile(
     r"^\*\*Accumulator for:\*\*\s*(\d{4}-\d{2}-\d{2})\b",

@@ -2,7 +2,7 @@
 """Advisory heuristic: URLs in daily-strategy-inbox vs source_url in raw-input YAML.
 
 Does NOT enforce policy or CI-gate merges — surfaces possible misses when chat-first
-capture omitted verbatim files. See docs/skill-work/work-strategy/strategy-notebook/raw-input/README.md.
+capture omitted verbatim files. See codex/years/2026/raw-input/README.md.
 
 Default mode considers **article-ish** URLs only (Substack `/p/`, `conflictsforum.substack.com`,
 YouTube `watch?v=`). Use **`--all-urls`** for every `https://` in the inbox (noisy: wires, X, stubs).
@@ -20,14 +20,16 @@ import sys
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_NOTEBOOK = REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook"
+DEFAULT_NOTEBOOK = REPO_ROOT / "codex"
 DEFAULT_INBOX = DEFAULT_NOTEBOOK / "daily-strategy-inbox.md"
-DEFAULT_RAW = DEFAULT_NOTEBOOK / "raw-input"
+DEFAULT_RAW = DEFAULT_NOTEBOOK / "years" / "2026" / "raw-input"
 RE_URL = re.compile(r"https://[^\s\]>)}]+")
 
 
 def _article_capture_candidate(url: str) -> bool:
     u = url.lower()
+    if "watch?v=tbd" in u:
+        return False
     if "conflictsforum.substack.com" in u:
         return True
     if "substack.com" in u and "/p/" in u:
@@ -60,7 +62,7 @@ def _source_urls_from_raw(raw_root: Path) -> set[str]:
     for md in raw_root.rglob("*.md"):
         if md.name == "README.md":
             continue
-        block = md.read_text(encoding="utf-8")
+        block = md.read_text(encoding="utf-8", errors="replace")
         if not block.startswith("---"):
             continue
         end = block.find("\n---", 3)
