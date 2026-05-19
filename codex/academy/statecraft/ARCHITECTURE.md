@@ -17,10 +17,11 @@ The stable sequence is:
 1. **Pattern / narrative** supplies recurrence, story, legitimacy, and memory.
 2. **National lane** converts the same crisis into one actor's state interest, fear, leverage, constraints, preferred instruments, and red lines.
 3. **Civilization / Empire helix** names inherited code, outward striving for security and control, and the regulatory limits needed for durable sovereignty.
-4. **Speaker-state intake** supplies mechanisms, clocks, force constraints, settlement logic, and structural misreading checks.
-5. **Richelieu / Bismarck validation** converts rhetoric into authority, restraint, and settlement.
-6. **Transaction** packages the result with provenance, historical continuity, instrument text, falsifiers, revisit triggers, and validity status.
-7. **Scoreboard** tracks whether leverage, power, restraint, and settlement capacity change over time.
+4. **Folder choreography** moves from `civilization/` memory through `empire/` reach, `state/` decision, `helix.md` regulation, and `transactions/` binding.
+5. **Speaker-state intake** supplies mechanisms, clocks, force constraints, settlement logic, and structural misreading checks.
+6. **Richelieu / Bismarck validation** converts rhetoric into authority, restraint, and settlement.
+7. **Transaction** packages the result with provenance, historical continuity, instrument text, falsifiers, revisit triggers, and validity status.
+8. **Scoreboard** tracks whether leverage, power, restraint, and settlement capacity change over time.
 
 ## Stable Surfaces
 
@@ -29,6 +30,7 @@ The stable sequence is:
 | [METHOD.md](METHOD.md) | drafting loop | It keeps the workshop oriented toward reusable instruments. |
 | [National lanes](README.md#national-lanes) | state-perspective benches | They preserve America, Russia, China, and Iran as distinct statecraft views. |
 | [Civilization / Empire helix template](templates/civilization-empire-helix.md) | living-state scaffold | It keeps inherited code, imperial striving, and regulatory restraint visible in every lane. |
+| [Folder choreography](sheets/folder-choreography.md) | lane movement scaffold | It keeps the folders acting like organs of judgment rather than storage bins. |
 | [Statecraft transaction template](templates/statecraft-transaction.md) | reusable package | It forces provenance, continuity, validation, text, falsifiers, and status into one artifact. |
 | [Civilizational pattern to statecraft](sheets/civilizational-pattern-to-statecraft.md) | PH-CIV bridge | It states the hinge: `pattern / narrative -> authority / restraint / settlement`. |
 | [Speaker-state intake](README.md#speaker-state-intake) | contemporary mechanism feed | It lets the speaker shelf inform drafts without becoming the authority of the lane. |

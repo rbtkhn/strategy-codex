@@ -32,6 +32,7 @@ Canonical PH-CIV / statecraft hinge: **Civilizational pattern and narrative beco
 - [Cross-lane transaction bundles](transactions/) - compare one crisis object across several national lanes.
 - [Sheets](sheets/) - reusable prompt benches for fast statecraft sessions.
 - [Civilizational pattern to statecraft](sheets/civilizational-pattern-to-statecraft.md) - convert PH-CIV pattern and narrative into authority, restraint, and settlement.
+- [Folder choreography](sheets/folder-choreography.md) - move from `civilization/` memory through `empire/` reach, `state/` decision, `helix.md` regulation, and `transactions/` binding.
 - [National perspective orthogonality](sheets/national-perspective-orthogonality.md) - compare U.S., Russia, China, Iran, and other state views without collapsing them into one generic strategic lens.
 - [Authority carrier orthogonality](sheets/authority-carrier-orthogonality.md) - compare leader / office / party-state / security-carrier problems without flattening them into biography.
 - [Crisis test casebook](sheets/crisis-test-casebook.md) - method memory for contested objects, game types, filters learned, and settlement spines.
@@ -48,7 +49,7 @@ These folders are drafting benches, not country encyclopedias. Each lane synthes
 - [China](china/) - preserve leverage without energy disorder.
 - [Iran](iran/) - convert vulnerability into legitimate system leverage.
 
-Each lane has a local Civilization / Empire / Helix structure, a heads-of-state carrier bench, a crisis-test casebook, and a `transactions/` bench for spending speaker-state into validated instruments. Russia also now has an [authority carrier object bench](russia/objects/) for ministerial and institutional signal objects such as [Sergey Lavrov](russia/objects/lavrov.md).
+Each lane has a local Civilization / Empire / Helix structure, a heads-of-state carrier bench, a crisis-test casebook, and a `transactions/` bench for spending speaker-state into validated instruments. The folder choreography is: `civilization/` remembers, `empire/` reaches, `state/` decides, `helix.md` regulates, and `transactions/` bind. The four lanes now also have authority carrier object benches for ministerial, institutional, and successor-legitimacy signal objects such as [J.D. Vance](america/state/objects/vance.md), [Sergey Lavrov](russia/state/objects/lavrov.md), [Wang Yi](china/state/objects/wang-yi.md), and [Abbas Araghchi](iran/state/objects/araghchi.md).
 
 First exemplar: [Hormuz recognition transit transaction](iran/transactions/hormuz-recognition-transit-transaction.md).
 

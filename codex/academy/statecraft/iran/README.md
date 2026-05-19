@@ -36,13 +36,16 @@ Use Richelieu to test whether Iran's leverage is carried by durable institutions
 
 ## Civilization / Empire Helix
 
-- [Civilization](civilization.md) - inherited Iranian code: Persian continuity, Shi'a legitimacy, dignity, sovereignty, and resistance memory.
-- [Empire](empire.md) - outward striving for deterrence, Hormuz leverage, sanctions relief, partner networks, and recognition.
+- [State](state/) - current split authority, supreme/elected government, foreign ministry, parliament, IRGC, and security carriers.
+- [Civilization](civilization/) - inherited Iranian code: Persian continuity, Shi'a legitimacy, dignity, sovereignty, and resistance memory.
+- [Empire](empire/) - outward striving for deterrence, Hormuz leverage, sanctions relief, partner networks, and recognition.
 - [Helix](helix.md) - where dignity authorizes leverage, where leverage risks isolation, and what restraint turns power into settlement.
 
 ## Heads Of State / Authority Carriers
 
-Use [Iran heads of state](heads-of-state/) to map supreme authority, elected government, foreign ministry, parliament, IRGC, and security carriers before treating restraint, retaliation, nuclear ambiguity, or sanctions relief as implementable.
+Use [Iran state](state/) to map supreme authority, elected government, foreign ministry, parliament, IRGC, and security carriers before treating restraint, retaliation, nuclear ambiguity, or sanctions relief as implementable.
+
+Inside that state bench, use [heads of state](state/heads-of-state/) for supreme, elected, and security carriers, and [authority carrier objects](state/objects/) for ministers, negotiators, clerical signals, security figures, and official institutional voices whose statements carry Iranian state intent across raw-inputs. First object: [Abbas Araghchi](state/objects/araghchi.md).
 
 ## Speaker-State Intake
 

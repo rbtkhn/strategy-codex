@@ -11,14 +11,15 @@ These sheets are reusable prompt benches for academy-statecraft. They are not su
 3. **Combined equilibrium test** - Where do institutional capacity and balance-of-power restraint reinforce or contradict each other?
 4. **Failure-mode review** - What breaks first: incentives, verification, domestic legitimacy, alliance geometry, administrative capacity, or time?
 5. [Civilizational pattern to statecraft](civilizational-pattern-to-statecraft.md) - Convert PH-CIV pattern and narrative into authority, restraint, and settlement.
-6. [Speaker insight to policy memo](speaker-insight-to-policy-memo.md) - Convert one sourced speaker insight into a memo without importing the speaker's whole worldview.
-7. [Comprehensive power vs coercive center](comprehensive-power-vs-coercive-center.md) - Test whether an actor's power comes from scale, leverage, denial, chokepoints, or brokerage.
-8. [National perspective orthogonality](national-perspective-orthogonality.md) - Compare U.S., Russia, China, Iran, or other state views without flattening their interests, fears, instruments, and off-ramps.
-9. [Authority carrier orthogonality](authority-carrier-orthogonality.md) - Compare leader, office, party-state, security-council, and split-authority carrier problems.
-10. [Crisis test casebook](crisis-test-casebook.md) - Preserve what each crisis test taught about contested objects, game types, filters, and settlement spines.
-11. [Pape coercive-center index](pape-coercive-center-index.md) - Track great-power ranking by crisis leverage rather than size alone.
-12. [Mearsheimer structural-realist scoreboard](mearsheimer-structural-realist-scoreboard.md) - Track structural power, balancing pressure, overextension risk, institutional carrier, and restraint.
-13. **National lanes** - Open [America](../america/), [Russia](../russia/), [China](../china/), or [Iran](../iran/) when the comparison should become a country-specific treaty, memo, negotiation brief, or crisis instrument.
+6. [Folder choreography](folder-choreography.md) - Move from `civilization/` memory through `empire/` reach, `state/` decision, `helix.md` regulation, and `transactions/` binding.
+7. [Speaker insight to policy memo](speaker-insight-to-policy-memo.md) - Convert one sourced speaker insight into a memo without importing the speaker's whole worldview.
+8. [Comprehensive power vs coercive center](comprehensive-power-vs-coercive-center.md) - Test whether an actor's power comes from scale, leverage, denial, chokepoints, or brokerage.
+9. [National perspective orthogonality](national-perspective-orthogonality.md) - Compare U.S., Russia, China, Iran, or other state views without flattening their interests, fears, instruments, and off-ramps.
+10. [Authority carrier orthogonality](authority-carrier-orthogonality.md) - Compare leader, office, party-state, security-council, and split-authority carrier problems.
+11. [Crisis test casebook](crisis-test-casebook.md) - Preserve what each crisis test taught about contested objects, game types, filters, and settlement spines.
+12. [Pape coercive-center index](pape-coercive-center-index.md) - Track great-power ranking by crisis leverage rather than size alone.
+13. [Mearsheimer structural-realist scoreboard](mearsheimer-structural-realist-scoreboard.md) - Track structural power, balancing pressure, overextension risk, institutional carrier, and restraint.
+14. **National lanes** - Open [America](../america/), [Russia](../russia/), [China](../china/), or [Iran](../iran/) when the comparison should become a country-specific treaty, memo, negotiation brief, or crisis instrument.
 
 ## Prompt Forms
 
@@ -60,6 +61,10 @@ These sheets are reusable prompt benches for academy-statecraft. They are not su
 Open [Civilizational pattern to statecraft](civilizational-pattern-to-statecraft.md) when PH-CIV, historical analogy, civilizational memory, or political narrative is being converted into a treaty, memo, negotiation brief, crisis instrument, or statecraft transaction.
 
 Canonical hinge: **Civilizational pattern and narrative become statecraft only when converted into authority, restraint, and settlement.**
+
+### Folder Choreography
+
+Open [Folder choreography](folder-choreography.md) when a statecraft artifact needs the full lane movement: `civilization/` remembers, `empire/` reaches, `state/` decides, `helix.md` regulates, and `transactions/` bind.
 
 ### Speaker Insight To Policy Memo
 

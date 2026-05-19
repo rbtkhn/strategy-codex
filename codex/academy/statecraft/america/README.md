@@ -38,13 +38,16 @@ Use Richelieu to test whether American policy has a durable institutional carrie
 
 ## Civilization / Empire Helix
 
-- [Civilization](civilization.md) - inherited American code: republic, frontier, constitutional process, civil-war recurrence, and successor-stable continental interest.
-- [Empire](empire.md) - outward striving for maritime, financial, alliance, technological, and escalation control.
+- [State](state/) - current government, executive authority, Congress, military command, allied carriers, and successor legitimacy.
+- [Civilization](civilization/) - inherited American code: republic, frontier, constitutional process, civil-war recurrence, and successor-stable continental interest.
+- [Empire](empire/) - outward striving for maritime, financial, alliance, technological, and escalation control.
 - [Helix](helix.md) - where empire protects the republic, where it deforms the republic, and what regulatory statecraft is needed.
 
 ## Heads Of State / Authority Carriers
 
-Use [America heads of state](heads-of-state/) to test current executive authority, Congress, military command, allied carriers, and successor-authority patterns before treating a compact as durable American statecraft.
+Use [America state](state/) to test current executive authority, Congress, military command, allied carriers, and successor-authority patterns before treating a compact as durable American statecraft.
+
+Inside that state bench, use [heads of state](state/heads-of-state/) for formal authority and succession carriers, and [authority carrier objects](state/objects/) when vice presidents, cabinet figures, congressional leaders, military commanders, party figures, diplomats, or offices carry state intent across many raw-inputs. First object: [J.D. Vance](state/objects/vance.md) as successor-legitimacy and restraint / realism carrier.
 
 ## Speaker-State Intake
 

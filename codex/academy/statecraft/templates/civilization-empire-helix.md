@@ -14,7 +14,7 @@ Shared grammar:
 - **Empire** = outward striving for security and control: force, finance, alliance, chokepoint, law, infrastructure, and dependency instruments.
 - **Statecraft** = regulatory art: knowing limits, restraining imperial desire, and converting control into durable sovereignty, security, and settlement.
 
-## civilization.md
+## civilization/README.md
 
 Required sections:
 
@@ -26,7 +26,7 @@ Required sections:
 - Successor-Stable State Interest
 - Drafting Prompts
 
-## empire.md
+## empire/README.md
 
 Required sections:
 

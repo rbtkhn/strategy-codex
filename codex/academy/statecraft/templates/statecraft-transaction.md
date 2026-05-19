@@ -75,6 +75,16 @@ Use this light check when the instrument depends on deep historical continuity, 
 - Statecraft regulation:
 - Relevant lane helix:
 
+## Folder Choreography Input
+
+Use [Folder Choreography](../sheets/folder-choreography.md) when the transaction needs the full lane movement.
+
+- What `civilization/` remembers:
+- What `empire/` wants to control:
+- Which `state/` carrier can decide or veto:
+- What `helix.md` says must be restrained:
+- What `transactions/` can bind into text:
+
 ## Pattern / Narrative Conversion
 
 - Civilizational pattern or narrative:

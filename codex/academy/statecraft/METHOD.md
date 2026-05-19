@@ -16,10 +16,11 @@ Canonical PH-CIV / statecraft hinge: **Civilizational pattern and narrative beco
 6. **Identify the institutional carrier.** Specify which offices, agencies, coalition bodies, courts, forces, secretariats, or treaty organs can carry the instrument after the headline moment passes.
 7. **Map the balance.** Name the parties, dependencies, veto points, outside patrons, escalation ladders, likely spoilers, and creditor extraction incentives.
 8. **Limit the aim.** Define what the instrument does not try to solve, so it can succeed at the thing it is actually built to do.
-9. **Draft the mechanism.** Convert the judgment into obligations, procedures, thresholds, review cadence, enforcement hooks, and exit/off-ramp language. Package reusable outputs as [statecraft transactions](templates/statecraft-transaction.md) when they need provenance, historical continuity, validation, and revisit triggers.
-10. **Stress-test incentives.** Ask what each party gains by compliance, what it gains by cheating, and how violations become observable.
-11. **Preserve agency and legitimacy.** Keep necessity from becoming excuse; name who commands, who implements, who can refuse, and who bears responsibility.
-12. **Produce reuse.** End with a treaty clause, policy recommendation, negotiating instruction, warning, or amendment that can be reused.
+9. **Run folder choreography.** Move through `civilization/`, `empire/`, `state/`, and `helix.md`: memory -> desire for control -> authority carrier -> restrained instrument.
+10. **Draft the mechanism.** Convert the judgment into obligations, procedures, thresholds, review cadence, enforcement hooks, and exit/off-ramp language. Package reusable outputs as [statecraft transactions](templates/statecraft-transaction.md) when they need provenance, historical continuity, validation, and revisit triggers.
+11. **Stress-test incentives.** Ask what each party gains by compliance, what it gains by cheating, and how violations become observable.
+12. **Preserve agency and legitimacy.** Keep necessity from becoming excuse; name who commands, who implements, who can refuse, and who bears responsibility.
+13. **Produce reuse.** End with a treaty clause, policy recommendation, negotiating instruction, warning, or amendment that can be reused.
 
 ## Realism / Incentive Filter
 
@@ -99,7 +100,7 @@ If the draft has interest without equilibrium, it may become coercive drift. If 
 
 Use [National Perspective Orthogonality](sheets/national-perspective-orthogonality.md) when a problem needs several national points of view. Do not make other states passive objects of analysis. Give each actor its own durable interest, institutional carrier, fear, leverage, preferred instrument, and off-ramp.
 
-When a minister, negotiator, security official, or institutional voice is carrying state intent across many raw-inputs, use an authority-carrier object rather than a biography note. Example: [Sergey Lavrov](russia/objects/lavrov.md) in the Russia lane tracks official agreement-capability and settlement signals across all raw-inputs.
+When a minister, negotiator, security official, successor figure, or institutional voice is carrying state intent across many raw-inputs, use an authority-carrier object rather than a biography note. Examples: [J.D. Vance](america/state/objects/vance.md) in the America lane tracks successor-legitimacy, restraint, domestic-permission, and exit-channel signals; [Sergey Lavrov](russia/state/objects/lavrov.md) in the Russia lane tracks official agreement-capability and settlement signals; [Wang Yi](china/state/objects/wang-yi.md) in the China lane tracks anti-disorder, security-architecture, sanctions-resistance, and quiet-mediation signals; [Abbas Araghchi](iran/state/objects/araghchi.md) in the Iran lane tracks sanctions-relief, nuclear-rights, dignity, and regional-architecture signals.
 
 When the analysis should become a draft, open the matching national lane: [America](america/), [Russia](russia/), [China](china/), or [Iran](iran/). Use the lane to join contemporary speaker-state inputs with Richelieu / Bismarck checks and produce an instrument rather than a commentary paragraph.
 

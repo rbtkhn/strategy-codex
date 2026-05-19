@@ -10,8 +10,8 @@ Refresh current officeholder facts before load-bearing use.
 
 - [Current executive carrier](current-executive.md) - live federal executive as settlement carrier.
 - [Successor authority patterns](successor-authority-patterns.md) - continuity questions if federal authority fractures or reconstitutes.
-- [Head-of-state profile template](../../templates/head-of-state-profile.md) - shared profile grammar.
-- [Authority carrier orthogonality](../../sheets/authority-carrier-orthogonality.md) - compare this bench against the other state lanes.
+- [Head-of-state profile template](../../../templates/head-of-state-profile.md) - shared profile grammar.
+- [Authority carrier orthogonality](../../../sheets/authority-carrier-orthogonality.md) - compare this bench against the other state lanes.
 
 ## Core Question
 

@@ -19,4 +19,4 @@ For each object:
 3. Convert the signal into Russia-lane statecraft language: authority, restraint, settlement, red line, or escalation marker.
 4. Track falsifiers: Putin, Peskov, Security Council, Ryabkov, Shoigu / Belousov, or later Russian conduct.
 
-Template: [authority carrier object](../../templates/authority-carrier-object.md).
+Template: [authority carrier object](../../../templates/authority-carrier-object.md).

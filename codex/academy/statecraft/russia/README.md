@@ -36,15 +36,16 @@ Use Richelieu to test whether Russian policy has a durable institutional carrier
 
 ## Civilization / Empire Helix
 
-- [Civilization](civilization.md) - inherited Russian code: strategic depth, invasion memory, state continuity, sovereignty, and recognition.
-- [Empire](empire.md) - outward striving for buffers, energy leverage, recognition formulas, military depth, and multipolar optionality.
+- [State](state/) - current government, presidential-security authority, Security Council carrier, and foreign-ministry signal objects.
+- [Civilization](civilization/) - inherited Russian code: strategic depth, invasion memory, state continuity, sovereignty, and recognition.
+- [Empire](empire/) - outward striving for buffers, energy leverage, recognition formulas, military depth, and multipolar optionality.
 - [Helix](helix.md) - where security memory authorizes power, where power risks overbinding, and what restraint preserves timing.
 
 ## Heads Of State / Authority Carriers
 
-Use [Russia heads of state](heads-of-state/) to test presidential authority, Security Council consensus, elite coalition constraints, and whether a settlement expresses durable Russian state interest rather than personal improvisation.
+Use [Russia state](state/) to test current government authority, Security Council consensus, elite coalition constraints, and whether a settlement expresses durable Russian state interest rather than personal improvisation.
 
-Use [Russia authority carrier objects](objects/) for ministers, negotiators, security figures, and official institutional voices whose statements carry Russian state intent across raw-inputs. First object: [Sergey Lavrov](objects/lavrov.md).
+Inside that state bench, use [heads of state](state/heads-of-state/) for presidential and security-elite carriers, and [authority carrier objects](state/objects/) for ministers, negotiators, security figures, and official institutional voices whose statements carry Russian state intent across raw-inputs. First object: [Sergey Lavrov](state/objects/lavrov.md).
 
 ## Speaker-State Intake
 

@@ -10,8 +10,8 @@ Refresh current officeholder facts before load-bearing use.
 
 - [Xi carrier profile](xi.md) - top leader as party-state settlement carrier.
 - [Party-state carrier](party-state.md) - institutional continuity beyond one leader.
-- [Head-of-state profile template](../../templates/head-of-state-profile.md) - shared profile grammar.
-- [Authority carrier orthogonality](../../sheets/authority-carrier-orthogonality.md) - compare this bench against the other state lanes.
+- [Head-of-state profile template](../../../templates/head-of-state-profile.md) - shared profile grammar.
+- [Authority carrier orthogonality](../../../sheets/authority-carrier-orthogonality.md) - compare this bench against the other state lanes.
 
 ## Core Question
 

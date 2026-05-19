@@ -36,13 +36,16 @@ Use Richelieu to test institutional capacity: which ministries, banks, firms, po
 
 ## Civilization / Empire Helix
 
-- [Civilization](civilization.md) - inherited Chinese code: order, continuity, mandate logic, humiliation memory, and unity.
-- [Empire](empire.md) - outward striving for energy, routes, finance, infrastructure, technology, and anti-coercion control.
+- [State](state/) - current party-state authority, top leadership, bureaucracy, PLA, banks, firms, ports, and diplomatic carriers.
+- [Civilization](civilization/) - inherited Chinese code: order, continuity, mandate logic, humiliation memory, and unity.
+- [Empire](empire/) - outward striving for energy, routes, finance, infrastructure, technology, and anti-coercion control.
 - [Helix](helix.md) - where order authorizes expansion, where expansion creates disorder, and what quiet regulation preserves leverage.
 
 ## Heads Of State / Authority Carriers
 
-Use [China heads of state](heads-of-state/) to test top-leader authority, party-state implementation, military restraint, bureaucratic carrying capacity, and whether a settlement can survive succession or factional adjustment.
+Use [China state](state/) to test top-leader authority, party-state implementation, military restraint, bureaucratic carrying capacity, and whether a settlement can survive succession or factional adjustment.
+
+Inside that state bench, use [heads of state](state/heads-of-state/) for top-leader and party-state carriers, and [authority carrier objects](state/objects/) when ministers, party-state officials, military figures, diplomats, or offices carry state intent across many raw-inputs. First object: [Wang Yi](state/objects/wang-yi.md) as foreign-ministry / national-security continuity carrier.
 
 ## Speaker-State Intake
 

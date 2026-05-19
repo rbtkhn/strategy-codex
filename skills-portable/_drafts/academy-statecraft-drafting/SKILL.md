@@ -1,7 +1,7 @@
 ---
 name: academy-statecraft-drafting
 preferred_activation: academy-statecraft
-description: "Draft workflow for turning speaker-state and historical statecraft discipline into treaties, policy papers, negotiation briefs, crisis memos, and four-lane crisis transaction bundles. Use for academy-statecraft, state-russia/state-china/state-iran/state-america, crisis transaction, four-lane transaction, do it again, make it concrete, settlement spine, civilization / empire, and Richelieu/Bismarck prompts."
+description: "Draft workflow for turning speaker-state and historical statecraft discipline into treaties, policy papers, negotiation briefs, crisis memos, and four-lane crisis transaction bundles. Use for academy-statecraft, state-russia/state-china/state-iran/state-america, crisis transaction, four-lane transaction, do it again, make it concrete, settlement spine, folder choreography, civilization / empire / state / helix, and Richelieu/Bismarck prompts."
 portable: true
 version: 0.1.0-draft
 tags:
@@ -31,8 +31,13 @@ Use this draft skill when the operator asks for:
 - `Richelieu/Bismarck test`
 - `do it again`
 - `make it concrete`
+- `folder choreography`
+- `run the lane choreography`
 - `settlement spine`
 - `civilization / empire`
+- `civilization / empire / state / helix`
+- `make a transaction`
+- `same crisis, four lanes`
 - `what does <expert> say recently`
 - `show the key quotes`
 - `what can we learn from this`
@@ -50,6 +55,7 @@ Treat these ordinary workflow signals as likely statecraft activations:
 - **Solvency / legitimacy crisis:** debt, Suez, food imports, wheat, bread subsidies, currency pressure, creditor compact, IMF, Gulf credit, asset fire sale.
 - **Four-lane comparison:** `compare the four states`, `orthogonality`, `America/Russia/China/Iran`, `settlement spine`.
 - **State commands:** `state-russia`, `state-china`, `state-iran`, `state-america`.
+- **Folder choreography:** `folder choreography`, `run the lane choreography`, `civilization / empire / state / helix`, `same crisis, four lanes`.
 - **Speaker-to-instrument:** `Pape says...`, `Parsi argues...`, `Ritter warns...`, or `Crooke frames...` when followed by policy, treaty, compact, framework, clause, or settlement language.
 - **Expert-to-statecraft extraction:** `what does <expert> say recently`, `show the key quotes`, `top excerpts`, `what can we learn from this`, `what can we use`, `wire this into statecraft`.
 - **Coffee C handoff:** after `coffee` -> `c`, treat crisis or policy language as statecraft unless the operator redirects.
@@ -61,6 +67,7 @@ Routing rule:
 - All four states, `do it again`, `same for this crisis`, or orthogonality language -> draft a four-lane transaction bundle.
 - Speaker insight plus policy language -> convert the insight into a statecraft instrument or source-backed transaction input.
 - Recent expert streams plus quote language -> extract quote cards first, then statecraft implications.
+- Folder choreography language -> identify the crisis object, run the relevant lane through `civilization/`, `empire/`, `state/`, and `helix.md`, then decide whether `transactions/` should bind the result.
 - `What did we learn?` after a bundle -> identify method, skill, architecture, or template refinement candidates.
 
 Recent bundles such as `hormuz-transit-sanctions-relief-compact` and `iran-nuclear-latency-recognition-framework` are examples of the pattern, not mandatory templates.
@@ -128,10 +135,11 @@ Open the statecraft surface first:
 Then choose the smallest useful tool:
 
 - National lane: `america`, `russia`, `china`, or `iran`.
-- Sheet: national perspective, power metric, Pape index, Mearsheimer scoreboard, or speaker-insight memo.
+- Sheet: folder choreography, national perspective, power metric, Pape index, Mearsheimer scoreboard, or speaker-insight memo.
 - Template: treaty framework, policy paper, or negotiation brief.
 
 When historical or civilizational pattern/narrative is invoked, also open `codex/academy/statecraft/sheets/civilizational-pattern-to-statecraft.md`.
+When a statecraft artifact needs the full lane movement, also open `codex/academy/statecraft/sheets/folder-choreography.md`.
 
 ## Command aliases
 
@@ -159,11 +167,59 @@ Use a national lane when the output should be written from one state's point of 
 3. Classify the crisis object if the problem turns on the legal or political status of a route, chokepoint, guarantee, recognition claim, sanction, capability, or authority surface.
 4. Run the solvency / legitimacy filter if the problem turns on debt, food, subsidy, currency, creditor, or public-order pressure.
 5. Separate current-government interests from deeper state or successor-power interests.
-6. Pull only the speaker-state inputs needed for the problem.
-7. Apply Richelieu and Bismarck checks.
-8. Produce the requested artifact.
+6. Run folder choreography:
+   - `civilization/` remembers inherited code, legitimacy, geography, fear, and continuity.
+   - `empire/` reaches for security, control, routes, finance, buffers, alliances, and dependency instruments.
+   - `state/` decides through heads of state, councils, ministries, negotiators, parties, security organs, and authority objects.
+   - `helix.md` regulates where outward power protects civilization, deforms it, or needs restraint.
+   - `transactions/` bind only when provenance, carrier, restraint, and settlement are clear.
+7. Pull only the speaker-state inputs needed for the problem.
+8. Apply Richelieu and Bismarck checks.
+9. Produce the requested artifact.
 
 Do not turn the lane into a country encyclopedia.
+
+## Folder choreography protocol
+
+Use this when the operator says `folder choreography`, `run the lane choreography`, `same crisis, four lanes`, `make a transaction`, or when a crisis object should become a statecraft instrument.
+
+Core movement:
+
+```text
+civilization/ remembers -> empire/ reaches -> state/ decides -> helix.md regulates -> transactions/ bind
+```
+
+Short form:
+
+```text
+memory -> desire for control -> authority carrier -> restrained instrument
+```
+
+Single-lane use:
+
+1. Name the crisis object.
+2. Open the lane README and the lane's `civilization/`, `empire/`, `state/`, and `helix.md`.
+3. Name what civilization remembers.
+4. Name what empire wants to control.
+5. Name which state carrier can decide, veto, implement, or spoil.
+6. Name what the helix says must be restrained.
+7. Draft only the smallest instrument that can bind the result.
+
+Four-lane use:
+
+1. Keep the same crisis object fixed.
+2. Run America, Russia, China, and Iran separately.
+3. Preserve orthogonality:
+   - America bounds coercive centers without proving their veto power.
+   - Russia exploits disruption without entrapment.
+   - China preserves leverage without energy or supply-chain disorder.
+   - Iran legitimates leverage without losing control.
+4. Compare the four readings and extract a settlement spine only where interests overlap without being flattened.
+
+Transaction threshold:
+
+- If the output names provenance, historical continuity, state carrier, restraint, instrument text, falsifiers, and revisit triggers, package it as a transaction.
+- If those are missing, keep it as a brief, memo, or lesson note rather than pretending it is a validated statecraft transaction.
 
 ## Speaker-state intake
 
@@ -206,6 +262,8 @@ Statecraft conversion:
 - **State-lane implication:** Which of `america`, `russia`, `china`, or `iran` should absorb the lesson?
 - **Memorialization:** Decide whether the reusable result belongs in a transaction, method sheet, national lane note, speaker-state note, or skill refinement.
 
+When the operator asks `what did we learn?`, answer with the reusable method lesson first, then name where it should be memorialized: lane casebook, folder choreography, transaction template, draft skill, speaker-state note, or future transaction.
+
 ## Scoreboard choice
 
 Use the scoreboards only when the draft needs power-metric discipline.
@@ -220,6 +278,8 @@ Do not collapse them. The same event can move them in opposite directions.
 Apply both checks before finalizing the artifact.
 
 If an output invokes historical or civilizational pattern/narrative, it must name **authority**, **restraint**, and **settlement** before becoming a statecraft instrument.
+
+If an output invokes folder choreography, it must name what `civilization/` remembers, what `empire/` reaches for, which `state/` carrier decides or vetoes, and what `helix.md` restrains before becoming a transaction.
 
 **Richelieu check**
 
@@ -251,6 +311,14 @@ Choose one concrete output:
 - warning against overreach.
 
 If the operator asks for brainstorming, produce options but mark which one is most draftable next.
+
+For transaction-shaped outputs, include a compact folder choreography block:
+
+- Civilization memory:
+- Empire reach:
+- State carrier:
+- Helix restraint:
+- Binding instrument:
 
 ## Verification
 
