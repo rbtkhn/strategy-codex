@@ -58,6 +58,24 @@ Routing rule:
 
 Recent bundles such as `hormuz-transit-sanctions-relief-compact` and `iran-nuclear-latency-recognition-framework` are examples of the pattern, not mandatory templates.
 
+## Crisis object classification
+
+Before drafting a crisis instrument, identify the contested object whose legal or political character drives the game.
+
+Use this compact sequence:
+
+1. Name the contested object.
+2. List rival classifications.
+3. Mark which classifications create coercion, escalation, or war pressure.
+4. Choose the classification that creates settlement space.
+5. Convert that classification into the first clause, memo thesis, or negotiation instruction.
+
+Examples:
+
+- Zangezur: road, sovereign transit, extraterritorial corridor, monitored route, military access, customs exception.
+- Hormuz: free navigation, blockade, escorted transit, collective guarantee, coercive bargaining chip.
+- Nuclear latency: deterrent ambiguity, inspection bargain, recognition claim, sanctions trigger, red-line instrument.
+
 ## Core rule
 
 Academy-statecraft synthesizes two inputs:
@@ -109,10 +127,11 @@ Use a national lane when the output should be written from one state's point of 
    - `codex/academy/statecraft/china/`
    - `codex/academy/statecraft/iran/`
 2. Extract the lane's core question, state interest, historical continuity, fear, leverage, constraints, preferred instruments, red lines, and off-ramps.
-3. Separate current-government interests from deeper state or successor-power interests.
-4. Pull only the speaker-state inputs needed for the problem.
-5. Apply Richelieu and Bismarck checks.
-6. Produce the requested artifact.
+3. Classify the crisis object if the problem turns on the legal or political status of a route, chokepoint, guarantee, recognition claim, sanction, capability, or authority surface.
+4. Separate current-government interests from deeper state or successor-power interests.
+5. Pull only the speaker-state inputs needed for the problem.
+6. Apply Richelieu and Bismarck checks.
+7. Produce the requested artifact.
 
 Do not turn the lane into a country encyclopedia.
 

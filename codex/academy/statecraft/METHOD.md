@@ -10,13 +10,30 @@ Canonical PH-CIV / statecraft hinge: **Civilizational pattern and narrative beco
 
 1. **Name the state interest.** State the concrete interest in one sentence without moral theater or bureaucratic fog.
 2. **Establish historical continuity.** Distinguish current government, current state, predecessor institutions, geography, civilizational memory, and possible successor authority. Name what survives if the regime, coalition, or constitutional form changes.
-3. **Identify the institutional carrier.** Specify which offices, agencies, coalition bodies, courts, forces, secretariats, or treaty organs can carry the instrument after the headline moment passes.
-4. **Map the balance.** Name the parties, dependencies, veto points, outside patrons, escalation ladders, and likely spoilers.
-5. **Limit the aim.** Define what the instrument does not try to solve, so it can succeed at the thing it is actually built to do.
-6. **Draft the mechanism.** Convert the judgment into obligations, procedures, thresholds, review cadence, enforcement hooks, and exit/off-ramp language. Package reusable outputs as [statecraft transactions](templates/statecraft-transaction.md) when they need provenance, historical continuity, validation, and revisit triggers.
-7. **Stress-test incentives.** Ask what each party gains by compliance, what it gains by cheating, and how violations become observable.
-8. **Preserve agency and legitimacy.** Keep necessity from becoming excuse; name who commands, who implements, who can refuse, and who bears responsibility.
-9. **Produce reuse.** End with a treaty clause, policy recommendation, negotiating instruction, warning, or amendment that can be reused.
+3. **Classify the crisis object.** Name the contested object whose legal or political character drives the game: corridor, transit route, blockade, nuclear latency, sanctions relief, guarantee, recognition, data center, identity system, or command authority. Distinguish the classifications that create war pressure from the classification that creates settlement space.
+4. **Identify the institutional carrier.** Specify which offices, agencies, coalition bodies, courts, forces, secretariats, or treaty organs can carry the instrument after the headline moment passes.
+5. **Map the balance.** Name the parties, dependencies, veto points, outside patrons, escalation ladders, and likely spoilers.
+6. **Limit the aim.** Define what the instrument does not try to solve, so it can succeed at the thing it is actually built to do.
+7. **Draft the mechanism.** Convert the judgment into obligations, procedures, thresholds, review cadence, enforcement hooks, and exit/off-ramp language. Package reusable outputs as [statecraft transactions](templates/statecraft-transaction.md) when they need provenance, historical continuity, validation, and revisit triggers.
+8. **Stress-test incentives.** Ask what each party gains by compliance, what it gains by cheating, and how violations become observable.
+9. **Preserve agency and legitimacy.** Keep necessity from becoming excuse; name who commands, who implements, who can refuse, and who bears responsibility.
+10. **Produce reuse.** End with a treaty clause, policy recommendation, negotiating instruction, warning, or amendment that can be reused.
+
+## Crisis Object Classification
+
+Use this step when a crisis looks like a military, diplomatic, or market contest but actually turns on the status of one object.
+
+1. Name the contested object.
+2. List the rival classifications.
+3. Identify which classifications make coercion profitable or war likely.
+4. Draft the classification that creates settlement space.
+5. Turn that classification into the first clause, memo thesis, or negotiation instruction.
+
+Examples:
+
+- Zangezur is not only a road; it may be sovereign transit, extraterritorial corridor, monitored route, military access, or customs exception.
+- Hormuz is not only a strait; it may be free navigation, blockade, escorted transit, collective guarantee, or coercive bargaining chip.
+- Nuclear latency is not only weapons capacity; it may be deterrent ambiguity, inspection bargain, recognition claim, sanctions trigger, or red-line instrument.
 
 ## Richelieu Check
 
