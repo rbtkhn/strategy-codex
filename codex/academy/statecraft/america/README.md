@@ -40,6 +40,10 @@ Open Pape for coercive leverage and falsifiers, Parsi for off-ramps and settleme
 
 Transit guarantees, maritime deconfliction, sanctions relief sequences, allied burden-sharing, congressional authorization limits, backchannel negotiations, energy resilience, and limited regional security architecture.
 
+## Transactions
+
+Use [America statecraft transactions](transactions/) to spend speaker-state into reusable instruments with provenance, historical continuity, Richelieu / Bismarck validation, mirror test, and revisit triggers.
+
 ## Red Lines
 
 A settlement that appears to reward uncontrolled coercion, a war plan with no credible end state, allied commitments that cannot be enforced, or domestic authority bypassed by emergency drift.

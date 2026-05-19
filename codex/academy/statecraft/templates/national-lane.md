@@ -16,6 +16,10 @@ What statecraft problem does this actor need to solve?
 
 What durable interest persists after the current leader, faction, coalition, or news cycle?
 
+## Historical Continuity
+
+What links the current government, current state, predecessor institutions, geography, civilizational memory, and possible successor authority? What survives if the regime or constitutional form changes?
+
 ## Fear
 
 What outcome does this actor most need to prevent?

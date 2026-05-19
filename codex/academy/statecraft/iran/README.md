@@ -38,6 +38,10 @@ Open Pape for the fourth-center thesis and shortage clocks, Parsi / Marandi for 
 
 Transit-security bargains, phased sanctions relief, non-regime-change guarantees, regional non-aggression clauses, Oman or Gulf backchannels, energy-export mechanisms, and dignity-preserving recognition formulas.
 
+## Transactions
+
+Use [Iran statecraft transactions](transactions/) to spend speaker-state into reusable instruments with provenance, historical continuity, Richelieu / Bismarck validation, mirror test, and revisit triggers.
+
 ## Red Lines
 
 Regime-change language, unilateral disarmament demands, humiliation framed as verification, exclusion from regional architecture, or settlement terms that leave sanctions pressure intact while removing leverage.

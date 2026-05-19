@@ -38,6 +38,10 @@ Open Pape for shock clocks and coercive leverage, Jiang for China-facing strateg
 
 Transit compacts, energy and LNG arrangements, yuan settlement, shipping insurance alternatives, regional security forums, infrastructure guarantees, quiet pressure, and face-saving de-escalation channels.
 
+## Transactions
+
+Use [China statecraft transactions](transactions/) to spend speaker-state into reusable instruments with provenance, historical continuity, Richelieu / Bismarck validation, mirror test, and revisit triggers.
+
 ## Red Lines
 
 A prolonged energy shock that damages Chinese industry, a settlement that lets Washington reassert uncontested regional control, or a partner action that forces Beijing into premature confrontation.

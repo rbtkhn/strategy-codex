@@ -38,6 +38,10 @@ Open Crooke for order rupture and Western misreading, Diesen for multipolar stru
 
 Recognition formulas, security guarantees, mediator channels, deconfliction mechanisms, sanctions workarounds, multipolar forums, energy arrangements, and linkage notes that preserve ambiguity.
 
+## Transactions
+
+Use [Russia statecraft transactions](transactions/) to spend speaker-state into reusable instruments with provenance, historical continuity, Richelieu / Bismarck validation, mirror test, and revisit triggers.
+
 ## Red Lines
 
 Formal acceptance of hostile military infrastructure near Russian borders, irreversible loss of strategic optionality, or a settlement that binds Russia to another state's escalation ladder without reciprocal control.

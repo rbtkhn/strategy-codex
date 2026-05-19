@@ -11,6 +11,10 @@ Its operating discipline is practical, not biographical. **Richelieu** and **Bis
 
 Together they ask whether a draft can survive power, incentives, institutions, and time.
 
+Every statecraft output should also establish historical continuity with the current state form. Distinguish the current government, the current state, predecessor institutions, geography, civilizational memory, and possible successor authority. Do not assume regime continuity is the same thing as state continuity.
+
+Canonical PH-CIV / statecraft hinge: **Civilizational pattern and narrative become statecraft only when converted into authority, restraint, and settlement.** Short form: `pattern / narrative -> authority / restraint / settlement`.
+
 ## Entry Points
 
 - [Method](METHOD.md) - compact statecraft drafting loop.
@@ -20,7 +24,9 @@ Together they ask whether a draft can survive power, incentives, institutions, a
 - [Policy paper template](templates/policy-paper.md) - scaffold for policy papers and decision memoranda.
 - [Negotiation brief template](templates/negotiation-brief.md) - scaffold for bargaining packages and diplomatic instructions.
 - [National lane template](templates/national-lane.md) - scaffold for country-specific drafting lanes.
+- [Statecraft transaction template](templates/statecraft-transaction.md) - package speaker-state inputs into validated treaty, memo, brief, or off-ramp instruments.
 - [Sheets](sheets/) - reusable prompt benches for fast statecraft sessions.
+- [Civilizational pattern to statecraft](sheets/civilizational-pattern-to-statecraft.md) - convert PH-CIV pattern and narrative into authority, restraint, and settlement.
 - [National perspective orthogonality](sheets/national-perspective-orthogonality.md) - compare U.S., Russia, China, Iran, and other state views without collapsing them into one generic strategic lens.
 - [Pape coercive-center index](sheets/pape-coercive-center-index.md) - track a Pape-style great-power ranking by crisis leverage, chokepoints, systemic spillover, and diplomatic monetization.
 - [Mearsheimer structural-realist scoreboard](sheets/mearsheimer-structural-realist-scoreboard.md) - track structural power, balancing pressure, overextension, institutional carrier, and restraint.
@@ -34,6 +40,19 @@ These folders are drafting benches, not country encyclopedias. Each lane synthes
 - [Russia](russia/) - exploit disruption without entrapment.
 - [China](china/) - preserve leverage without energy disorder.
 - [Iran](iran/) - convert vulnerability into legitimate system leverage.
+
+Each lane has a local `transactions/` bench for spending speaker-state into validated instruments.
+
+## Command Aliases
+
+Use these operator commands as direct lane activators:
+
+| command | opens | default posture |
+| --- | --- | --- |
+| `state-america` | [America](america/) | Current U.S. federal actor plus possible successor American continental power center. |
+| `state-russia` | [Russia](russia/) | Security-depth disruptor using leverage without entrapment. |
+| `state-china` | [China](china/) | Industrial pole preserving leverage without energy disorder. |
+| `state-iran` | [Iran](iran/) | Coercive-center actor legitimating and monetizing leverage without losing control. |
 
 ## Early Examples
 

@@ -10,12 +10,13 @@ These sheets are reusable prompt benches for academy-statecraft. They are not su
 2. **Bismarck test** - What limited aim, equilibrium, and exit discipline keep the draft from overreaching?
 3. **Combined equilibrium test** - Where do institutional capacity and balance-of-power restraint reinforce or contradict each other?
 4. **Failure-mode review** - What breaks first: incentives, verification, domestic legitimacy, alliance geometry, administrative capacity, or time?
-5. [Speaker insight to policy memo](speaker-insight-to-policy-memo.md) - Convert one sourced speaker insight into a memo without importing the speaker's whole worldview.
-6. [Comprehensive power vs coercive center](comprehensive-power-vs-coercive-center.md) - Test whether an actor's power comes from scale, leverage, denial, chokepoints, or brokerage.
-7. [National perspective orthogonality](national-perspective-orthogonality.md) - Compare U.S., Russia, China, Iran, or other state views without flattening their interests, fears, instruments, and off-ramps.
-8. [Pape coercive-center index](pape-coercive-center-index.md) - Track great-power ranking by crisis leverage rather than size alone.
-9. [Mearsheimer structural-realist scoreboard](mearsheimer-structural-realist-scoreboard.md) - Track structural power, balancing pressure, overextension risk, institutional carrier, and restraint.
-10. **National lanes** - Open [America](../america/), [Russia](../russia/), [China](../china/), or [Iran](../iran/) when the comparison should become a country-specific treaty, memo, negotiation brief, or crisis instrument.
+5. [Civilizational pattern to statecraft](civilizational-pattern-to-statecraft.md) - Convert PH-CIV pattern and narrative into authority, restraint, and settlement.
+6. [Speaker insight to policy memo](speaker-insight-to-policy-memo.md) - Convert one sourced speaker insight into a memo without importing the speaker's whole worldview.
+7. [Comprehensive power vs coercive center](comprehensive-power-vs-coercive-center.md) - Test whether an actor's power comes from scale, leverage, denial, chokepoints, or brokerage.
+8. [National perspective orthogonality](national-perspective-orthogonality.md) - Compare U.S., Russia, China, Iran, or other state views without flattening their interests, fears, instruments, and off-ramps.
+9. [Pape coercive-center index](pape-coercive-center-index.md) - Track great-power ranking by crisis leverage rather than size alone.
+10. [Mearsheimer structural-realist scoreboard](mearsheimer-structural-realist-scoreboard.md) - Track structural power, balancing pressure, overextension risk, institutional carrier, and restraint.
+11. **National lanes** - Open [America](../america/), [Russia](../russia/), [China](../china/), or [Iran](../iran/) when the comparison should become a country-specific treaty, memo, negotiation brief, or crisis instrument.
 
 ## Prompt Forms
 
@@ -51,6 +52,12 @@ These sheets are reusable prompt benches for academy-statecraft. They are not su
 - What cannot be sold domestically?
 - What alliance consequence has been underpriced?
 - What happens if the strongest party wins too much?
+
+### Civilizational Pattern To Statecraft
+
+Open [Civilizational pattern to statecraft](civilizational-pattern-to-statecraft.md) when PH-CIV, historical analogy, civilizational memory, or political narrative is being converted into a treaty, memo, negotiation brief, crisis instrument, or statecraft transaction.
+
+Canonical hinge: **Civilizational pattern and narrative become statecraft only when converted into authority, restraint, and settlement.**
 
 ### Speaker Insight To Policy Memo
 
