@@ -1,0 +1,18 @@
+version = 1
+slug = "davis"
+
+compact_state_files = [
+  "codex/speakers/davis/README.md",
+  "codex/speakers/davis/davis-speaker-object.md",
+  "codex/speakers/davis/davis-cross-host-note.md",
+  "codex/speakers/davis/davis-host-wiring-2026.md",
+]
+
+provenance_roots = [
+  "codex/years/2026/raw-input",
+]
+
+[[guest_matrices]]
+file = "codex/speakers/davis/davis-host-wiring-2026.md"
+arc_glob = "codex/years/2026/davis/davis-*-speaker-arc.md"
+expected_count = 13

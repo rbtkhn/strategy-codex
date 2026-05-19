@@ -1,0 +1,26 @@
+version = 1
+slug = "parsi"
+
+compact_state_files = [
+  "codex/speakers/parsi/README.md",
+  "codex/speakers/parsi/parsi-speaker-object.md",
+  "codex/speakers/parsi/parsi-cross-host-note.md",
+  "codex/years/2026/parsi/parsi-forecast-ledger-2025-2026.md",
+]
+
+provenance_roots = [
+  "codex/years/2025/raw-input",
+  "codex/years/2026/raw-input",
+]
+
+[[source_sets]]
+file = "codex/years/2026/parsi/parsi-forecast-ledger-2025-2026.md"
+expected_count = 20
+required_prefixes = ["substack-parsi-", "responsiblestatecraft-parsi-"]
+excluded_patterns = [
+  "transcript-",
+  "youtube-",
+  "tparsi-x-bundle-",
+  "duran-",
+  "date-named-parsi",
+]

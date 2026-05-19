@@ -78,6 +78,10 @@ def _argv_validate_speaker_objects(_user: str) -> list[str]:
     return []
 
 
+def _argv_validate_speaker_state_sets(_user: str) -> list[str]:
+    return []
+
+
 ALL_CHECKS: tuple[CheckSpec, ...] = (
     CheckSpec(
         id="assert_canonical_paths",
@@ -211,6 +215,16 @@ ALL_CHECKS: tuple[CheckSpec, ...] = (
         timeout_sec=60.0,
         ci_source="",
     ),
+    CheckSpec(
+        id="validate_speaker_state_sets",
+        label="Speaker state-set links",
+        script_relpath="scripts/validate_speaker_state_sets.py",
+        argv_builder=_argv_validate_speaker_state_sets,
+        user_scope="ignored",
+        groups=frozenset({"experimental"}),
+        timeout_sec=60.0,
+        ci_source="",
+    ),
 )
 
 
@@ -247,7 +261,12 @@ def checks_for_group(group: str) -> list[CheckSpec]:
     if g == "expensive":
         return [by_id["measure_uniqueness"]]
     if g == "experimental":
-        order = ["validate_skills", "validate_seed_phase_template", "validate_speaker_objects"]
+        order = [
+            "validate_skills",
+            "validate_seed_phase_template",
+            "validate_speaker_objects",
+            "validate_speaker_state_sets",
+        ]
         return [by_id[i] for i in order]
     out = [c for c in ALL_CHECKS if g in c.groups]
     return sorted(out, key=lambda x: x.id)

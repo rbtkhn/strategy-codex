@@ -1,0 +1,37 @@
+version = 1
+slug = "ritter"
+
+compact_state_files = [
+  "codex/speakers/ritter/README.md",
+  "codex/speakers/ritter/ritter-routing.md",
+  "codex/speakers/ritter/ritter-helix.md",
+  "codex/speakers/ritter/ritter-interview-appearances-2025-2026.md",
+  "codex/years/2026/ritter/ritter-forecast-ledger-2026.md",
+]
+
+provenance_roots = [
+  "codex/years/2026/raw-input",
+]
+
+[[source_sets]]
+file = "codex/years/2026/ritter/ritter-forecast-ledger-2026.md"
+expected_count = 22
+required_prefixes = ["substack-ritter-"]
+excluded_patterns = [
+  "transcript-",
+  "youtube-",
+  "article-ritter-",
+  "ritter-rant-",
+  "date-named-ritter",
+]
+
+[[source_sets]]
+file = "codex/speakers/ritter/ritter-interview-appearances-2025-2026.md"
+expected_count = 45
+excluded_patterns = [
+  "substack-ritter-",
+  "article-ritter-",
+  "ritter-rant-",
+  "transcript-ritter.md",
+  "date-named-ritter",
+]
