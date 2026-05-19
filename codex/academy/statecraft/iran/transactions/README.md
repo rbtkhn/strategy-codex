@@ -33,6 +33,10 @@ Each transaction should separate:
 - energy-export mechanisms;
 - dignity-preserving recognition formulas.
 
+## Exemplars
+
+- [Hormuz recognition transit transaction](hormuz-recognition-transit-transaction.md) - volatile first pass that converts Iran's Hormuz leverage into a recognition, restraint, sanctions-relief, and transit-security clause.
+
 ## Validity Questions
 
 - Does the instrument convert leverage into recognition rather than permanent spoiler status?

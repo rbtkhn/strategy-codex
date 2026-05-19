@@ -30,6 +30,12 @@ Russia must preserve relations with China, India, Iran, the Gulf, and non-aligne
 
 Use Richelieu to test whether Russian policy has a durable institutional carrier beyond wartime improvisation. Use Bismarck to test whether Russia can take advantage without unifying too many adversaries or accepting unlimited commitments.
 
+## Civilization / Empire Helix
+
+- [Civilization](civilization.md) - inherited Russian code: strategic depth, invasion memory, state continuity, sovereignty, and recognition.
+- [Empire](empire.md) - outward striving for buffers, energy leverage, recognition formulas, military depth, and multipolar optionality.
+- [Helix](helix.md) - where security memory authorizes power, where power risks overbinding, and what restraint preserves timing.
+
 ## Speaker-State Intake
 
 Open Crooke for order rupture and Western misreading, Diesen for multipolar structure, Ritter / Macgregor / Martyanov for force constraints, and Parsi / Freeman for settlement architecture. Extract mechanisms; do not turn the lane into speaker commentary.

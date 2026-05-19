@@ -18,12 +18,14 @@ Canonical PH-CIV / statecraft hinge: **Civilizational pattern and narrative beco
 ## Entry Points
 
 - [Method](METHOD.md) - compact statecraft drafting loop.
+- [Architecture](ARCHITECTURE.md) - current stable line, experimental surfaces, and anti-sprawl rules.
 - [Richelieu lens](lenses/richelieu.md) - raison d'etat, institutional capacity, and continuity checks.
 - [Bismarck lens](lenses/bismarck.md) - limited aims, equilibrium, alliance sequencing, and exit checks.
 - [Treaty framework template](templates/treaty-framework.md) - scaffold for treaty or agreement drafts.
 - [Policy paper template](templates/policy-paper.md) - scaffold for policy papers and decision memoranda.
 - [Negotiation brief template](templates/negotiation-brief.md) - scaffold for bargaining packages and diplomatic instructions.
 - [National lane template](templates/national-lane.md) - scaffold for country-specific drafting lanes.
+- [Civilization / Empire helix template](templates/civilization-empire-helix.md) - scaffold for inherited code, outward striving, and statecraft regulation.
 - [Statecraft transaction template](templates/statecraft-transaction.md) - package speaker-state inputs into validated treaty, memo, brief, or off-ramp instruments.
 - [Sheets](sheets/) - reusable prompt benches for fast statecraft sessions.
 - [Civilizational pattern to statecraft](sheets/civilizational-pattern-to-statecraft.md) - convert PH-CIV pattern and narrative into authority, restraint, and settlement.
@@ -41,7 +43,37 @@ These folders are drafting benches, not country encyclopedias. Each lane synthes
 - [China](china/) - preserve leverage without energy disorder.
 - [Iran](iran/) - convert vulnerability into legitimate system leverage.
 
-Each lane has a local `transactions/` bench for spending speaker-state into validated instruments.
+Each lane has a local Civilization / Empire / Helix structure plus a `transactions/` bench for spending speaker-state into validated instruments.
+
+First exemplar: [Hormuz recognition transit transaction](iran/transactions/hormuz-recognition-transit-transaction.md).
+
+## Long Arc
+
+Academy-statecraft should grow as a drafting program, not as a commentary shelf. Its line is:
+
+**Civilization generates the drive toward empire; durable statecraft regulates that drive through authority, restraint, and settlement so sovereignty and security survive over time.**
+
+1. **Pattern / narrative.** PH-CIV, history, and speaker-state identify recurring civilizational patterns, strategic narratives, and live mechanisms.
+2. **Perspective.** National lanes convert the same crisis into distinct state interests, fears, leverage, constraints, and preferred instruments.
+3. **Helix.** Civilization names inherited code; empire names outward striving for security and control; statecraft names the regulatory limit.
+4. **Validation.** Richelieu tests authority and institutional carrier; Bismarck tests restraint, equilibrium, and settlement.
+5. **Transaction.** A reusable statecraft transaction packages source inputs, historical continuity, validation, instrument text, falsifiers, and revisit triggers.
+6. **Scoreboard.** Pape-style and Mearsheimer-style scoreboards track whether power, leverage, and restraint are changing over time.
+
+The goal is not to make the four state lanes agree. The goal is to preserve their orthogonality long enough to draft instruments that can survive contact with each actor's real incentives.
+
+## Speaker-State Intake
+
+Speaker-state is input, not authority. Open speaker folders to extract mechanisms, clocks, constraints, and settlement logic; then let the national lane convert those inputs into state-interest language.
+
+| lane | primary intake | secondary intake | what the lane must not flatten |
+| --- | --- | --- | --- |
+| [America](america/) | [Pape](../../speakers/pape/) for coercive leverage and falsifiers; [Parsi](../../speakers/parsi/) for settlement architecture | [Ritter](../../speakers/ritter/) / [Postol](../../speakers/postol/) for military danger; [Freeman](../../speakers/freeman/) / [Beebe](../../speakers/beebe/) / [Mearsheimer](../../speakers/mearsheimer/) for realist diplomacy | Do not turn U.S. policy into either pure force control or pure exit language; domestic legitimacy and successor-stable authority matter. |
+| [Russia](russia/) | [Crooke](../../speakers/crooke/) for order rupture; [Diesen](../../speakers/diesen/) for multipolar structure | [Ritter](../../speakers/ritter/) / [Macgregor](../../speakers/macgregor/) / [Martyanov](../../speakers/martyanov/) for force constraints; [Parsi](../../speakers/parsi/) / [Freeman](../../speakers/freeman/) for settlement architecture | Do not confuse disruption leverage with unlimited alliance commitment; avoid making Moscow hostage to another state's escalation calendar. |
+| [China](china/) | [Pape](../../speakers/pape/) for shock clocks and fourth-center leverage; [Jiang](../../speakers/jiang/) for China-facing strategic framing | [Sachs](../../speakers/sachs/) / [Krainer](../../speakers/krainer/) for macro-system effects; [Crooke](../../speakers/crooke/) / [Diesen](../../speakers/diesen/) for order transition; [Parsi](../../speakers/parsi/) for regional architecture | Do not convert China's stabilizer role into ownership of disorder; energy and supply-chain continuity remain first-order. |
+| [Iran](iran/) | [Pape](../../speakers/pape/) for the fourth-center thesis; [Parsi](../../speakers/parsi/) / [Marandi](../../speakers/marandi/) for Iranian bargaining logic | [Crooke](../../speakers/crooke/) for Western misreading; [Ritter](../../speakers/ritter/) for regime-change skepticism and military risk; [Freeman](../../speakers/freeman/) for regional settlement memory | Do not equate coercive leverage with legitimacy; Iran must convert leverage into recognized restraint, not permanent spoiler status. |
+
+For wider routing around the four authored-pressure engines, use the [speaker cluster map](../../speakers/speaker-cluster-map.md). For exact source-state contracts, use the relevant speaker folder and `state-set.toml` before making load-bearing claims.
 
 ## Command Aliases
 

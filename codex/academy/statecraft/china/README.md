@@ -30,6 +30,12 @@ China is energy-exposed, trade-dependent, sensitive to shipping and insurance di
 
 Use Richelieu to test institutional capacity: which ministries, banks, firms, ports, insurers, and diplomatic channels carry the policy? Use Bismarck to test optionality and whether China can avoid converting a useful partner into a strategic liability.
 
+## Civilization / Empire Helix
+
+- [Civilization](civilization.md) - inherited Chinese code: order, continuity, mandate logic, humiliation memory, and unity.
+- [Empire](empire.md) - outward striving for energy, routes, finance, infrastructure, technology, and anti-coercion control.
+- [Helix](helix.md) - where order authorizes expansion, where expansion creates disorder, and what quiet regulation preserves leverage.
+
 ## Speaker-State Intake
 
 Open Pape for shock clocks and coercive leverage, Jiang for China-facing strategic framing, Sachs for system-economic effects, Crooke / Diesen for order transition, and Parsi for regional architecture. Extract the live mechanism and translate it into instruments.

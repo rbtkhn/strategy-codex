@@ -30,6 +30,12 @@ Iran must avoid uncontrolled escalation, domestic exhaustion, partner overdepend
 
 Use Richelieu to test whether Iran's leverage is carried by durable institutions rather than factional escalation. Use Bismarck to test whether advantage is translated into limited settlement rather than maximal demand.
 
+## Civilization / Empire Helix
+
+- [Civilization](civilization.md) - inherited Iranian code: Persian continuity, Shi'a legitimacy, dignity, sovereignty, and resistance memory.
+- [Empire](empire.md) - outward striving for deterrence, Hormuz leverage, sanctions relief, partner networks, and recognition.
+- [Helix](helix.md) - where dignity authorizes leverage, where leverage risks isolation, and what restraint turns power into settlement.
+
 ## Speaker-State Intake
 
 Open Pape for the fourth-center thesis and shortage clocks, Parsi / Marandi for Iranian bargaining logic, Crooke for Western misreading, and Ritter for regime-change skepticism and military risk. Convert these into recognition, deterrence, and off-ramp language.

@@ -35,6 +35,15 @@ Name the lane: `america`, `russia`, `china`, or `iran`.
 - Possible successor authority:
 - What survives regime or constitutional change:
 
+## Civilization / Empire Helix Input
+
+Use this light check when the instrument depends on deep historical continuity, outward power, security-control desire, or the need to restrain imperial overreach. Leave brief if not applicable.
+
+- Civilization input:
+- Empire input:
+- Statecraft regulation:
+- Relevant lane helix:
+
 ## Pattern / Narrative Conversion
 
 - Civilizational pattern or narrative:

@@ -32,6 +32,12 @@ America faces overextension, public war fatigue, allied free-riding, legal and d
 
 Use Richelieu to test whether American policy has a durable institutional carrier beyond presidential impulse or donor pressure. Use Bismarck to test limited aims, restraint, and whether an adversary can be isolated without unifying Russia, China, Iran, and non-aligned opinion.
 
+## Civilization / Empire Helix
+
+- [Civilization](civilization.md) - inherited American code: republic, frontier, constitutional process, civil-war recurrence, and successor-stable continental interest.
+- [Empire](empire.md) - outward striving for maritime, financial, alliance, technological, and escalation control.
+- [Helix](helix.md) - where empire protects the republic, where it deforms the republic, and what regulatory statecraft is needed.
+
 ## Speaker-State Intake
 
 Open Pape for coercive leverage and falsifiers, Parsi for off-ramps and settlement architecture, Ritter / Postol for military danger, and Freeman / Beebe / Mearsheimer for realist diplomacy. Translate warnings into bounded policy options.
