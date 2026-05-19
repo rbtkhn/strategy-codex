@@ -44,6 +44,10 @@ A statecraft draft is stronger when it can answer both lenses at once:
 
 If the draft has interest without equilibrium, it may become coercive drift. If it has equilibrium without institutional carrier, it may become diplomatic theater.
 
+## Singularity Bridge
+
+Use [Sovereignty Under Acceleration](../singularity/workshop/sheets/sovereignty-under-acceleration.md) when the statecraft problem is triggered by AI infrastructure power: compute, models, agents, memory, identity, permissions, data centers, audit, rollback, or automated decision systems. The bridge keeps human agency central while converting acceleration signals into treaty, policy, and authority artifacts.
+
 ## Output Standard
 
 Each session should produce one compact WORK artifact:

@@ -20,6 +20,7 @@ Together they ask whether a draft can survive power, incentives, institutions, a
 - [Policy paper template](templates/policy-paper.md) - scaffold for policy papers and decision memoranda.
 - [Negotiation brief template](templates/negotiation-brief.md) - scaffold for bargaining packages and diplomatic instructions.
 - [Sheets](sheets/) - reusable prompt benches for fast statecraft sessions.
+- [Sovereignty Under Acceleration](../singularity/workshop/sheets/sovereignty-under-acceleration.md) - bridge sheet for turning AI acceleration signals into treaty, policy, authority, and human-command artifacts.
 
 ## Early Examples
 

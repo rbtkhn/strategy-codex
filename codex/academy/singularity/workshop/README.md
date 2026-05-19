@@ -25,6 +25,7 @@ The Singularity Workshop is the active-use layer of academy singularity. It begi
 
 - [Coffee D - Singularity Operating Sheet](sheets/coffee-d-singularity.md) - reusable Coffee D route for agency under acceleration, route-away gates, and compact output prompts.
 - [Agent control plane](sheets/agent-control-plane.md) - first reusable singularity worksheet for agent governance, substrate authority, and human-gated control.
+- [Sovereignty Under Acceleration](sheets/sovereignty-under-acceleration.md) - statecraft bridge for human agency, infrastructure power, control planes, and treaty/policy outputs.
 - [AI interface as operating layer - 2028 horizon](sheets/interface-operating-layer-2028.md) - two-year design horizon for voice, browser, coding, memory, tools, and agents collapsing into one operating layer.
 - [Narrative-Shaped Alignment](sheets/narrative-shaped-alignment.md) - practical bridge for rule-shaped versus story-shaped alignment, PH-CIV formation material, and model-facing cultural substrate.
 
