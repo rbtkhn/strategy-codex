@@ -42,6 +42,8 @@ Use this helix note when the notebook is doing one or more of the following:
 - routing Iran-war, Hormuz, or diplomatic-collapse material toward the right Crooke lane
 - testing whether one host is over-defining Crookeâ€™s usable range
 
+For source-level routing across host appearances, use [crooke-interview-appearances-2025-2026.md](/C:/dev/strategy-codex/codex/speakers/crooke/crooke-interview-appearances-2025-2026.md). It supplements this helix by grouping the tracked interviews by host function and bridging them back to the authored Substack forecast ledger.
+
 ## Boundaries
 
 - This helix is not a generic Crooke profile; it is a host-transformation note.
