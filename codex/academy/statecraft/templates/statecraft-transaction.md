@@ -55,6 +55,17 @@ Use when the transaction depends on debt, food, subsidy, currency, creditor, or 
 - Possible successor authority:
 - What survives regime or constitutional change:
 
+## Head-Of-State Carrier Check
+
+Use [Head-Of-State Carrier Profile Template](head-of-state-profile.md) when a leader, office, security council, party center, supreme authority, or successor power determines whether the instrument can be signed, sold, implemented, or survive succession.
+
+- Required authority carrier:
+- What this carrier can sign credibly:
+- What this carrier can implement credibly:
+- What this carrier cannot concede without breaking legitimacy:
+- Succession / continuity risk:
+- Is the carrier expressing the state, capturing the state, or failing to carry the state?
+
 ## Civilization / Empire Helix Input
 
 Use this light check when the instrument depends on deep historical continuity, outward power, security-control desire, or the need to restrain imperial overreach. Leave brief if not applicable.

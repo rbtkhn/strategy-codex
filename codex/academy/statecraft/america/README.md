@@ -42,6 +42,10 @@ Use Richelieu to test whether American policy has a durable institutional carrie
 - [Empire](empire.md) - outward striving for maritime, financial, alliance, technological, and escalation control.
 - [Helix](helix.md) - where empire protects the republic, where it deforms the republic, and what regulatory statecraft is needed.
 
+## Heads Of State / Authority Carriers
+
+Use [America heads of state](heads-of-state/) to test current executive authority, Congress, military command, allied carriers, and successor-authority patterns before treating a compact as durable American statecraft.
+
 ## Speaker-State Intake
 
 Open Pape for coercive leverage and falsifiers, Parsi for off-ramps and settlement architecture, Ritter / Postol for military danger, and Freeman / Beebe / Mearsheimer for realist diplomacy. Translate warnings into bounded policy options.

@@ -40,6 +40,10 @@ Use Richelieu to test institutional capacity: which ministries, banks, firms, po
 - [Empire](empire.md) - outward striving for energy, routes, finance, infrastructure, technology, and anti-coercion control.
 - [Helix](helix.md) - where order authorizes expansion, where expansion creates disorder, and what quiet regulation preserves leverage.
 
+## Heads Of State / Authority Carriers
+
+Use [China heads of state](heads-of-state/) to test top-leader authority, party-state implementation, military restraint, bureaucratic carrying capacity, and whether a settlement can survive succession or factional adjustment.
+
 ## Speaker-State Intake
 
 Open Pape for shock clocks and coercive leverage, Jiang for China-facing strategic framing, Sachs for system-economic effects, Crooke / Diesen for order transition, and Parsi for regional architecture. Extract the live mechanism and translate it into instruments.

@@ -40,6 +40,10 @@ Use Richelieu to test whether Iran's leverage is carried by durable institutions
 - [Empire](empire.md) - outward striving for deterrence, Hormuz leverage, sanctions relief, partner networks, and recognition.
 - [Helix](helix.md) - where dignity authorizes leverage, where leverage risks isolation, and what restraint turns power into settlement.
 
+## Heads Of State / Authority Carriers
+
+Use [Iran heads of state](heads-of-state/) to map supreme authority, elected government, foreign ministry, parliament, IRGC, and security carriers before treating restraint, retaliation, nuclear ambiguity, or sanctions relief as implementable.
+
 ## Speaker-State Intake
 
 Open Pape for the fourth-center thesis and shortage clocks, Parsi / Marandi for Iranian bargaining logic, Crooke for Western misreading, and Ritter for regime-change skepticism and military risk. Convert these into recognition, deterrence, and off-ramp language.

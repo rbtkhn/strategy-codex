@@ -25,6 +25,7 @@ Canonical PH-CIV / statecraft hinge: **Civilizational pattern and narrative beco
 - [Policy paper template](templates/policy-paper.md) - scaffold for policy papers and decision memoranda.
 - [Negotiation brief template](templates/negotiation-brief.md) - scaffold for bargaining packages and diplomatic instructions.
 - [National lane template](templates/national-lane.md) - scaffold for country-specific drafting lanes.
+- [Head-of-state profile template](templates/head-of-state-profile.md) - test leaders, offices, security councils, party centers, and successor authorities as settlement carriers rather than biography subjects.
 - [Civilization / Empire helix template](templates/civilization-empire-helix.md) - scaffold for inherited code, outward striving, and statecraft regulation.
 - [Statecraft transaction template](templates/statecraft-transaction.md) - package speaker-state inputs into validated treaty, memo, brief, or off-ramp instruments.
 - [Cross-lane transaction bundles](transactions/) - compare one crisis object across several national lanes.
@@ -45,7 +46,7 @@ These folders are drafting benches, not country encyclopedias. Each lane synthes
 - [China](china/) - preserve leverage without energy disorder.
 - [Iran](iran/) - convert vulnerability into legitimate system leverage.
 
-Each lane has a local Civilization / Empire / Helix structure, a crisis-test casebook, and a `transactions/` bench for spending speaker-state into validated instruments.
+Each lane has a local Civilization / Empire / Helix structure, a heads-of-state carrier bench, a crisis-test casebook, and a `transactions/` bench for spending speaker-state into validated instruments.
 
 First exemplar: [Hormuz recognition transit transaction](iran/transactions/hormuz-recognition-transit-transaction.md).
 
