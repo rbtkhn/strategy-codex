@@ -6,6 +6,7 @@
 
 - Profile: [davis-profile.md](../../profiles/davis-profile.md)
 - Speaker object: [../speakers/davis/davis-speaker-object.md](../speakers/davis/davis-speaker-object.md)
+- Host wiring: [davis-host-wiring-2026.md](/C:/dev/strategy-codex/codex/speakers/davis/davis-host-wiring-2026.md)
 - Monthly shelf: [davis-shelf-2026-01.md](davis-shelf-2026-01.md)
 - Monthly shelf: [davis-shelf-2026-04.md](davis-shelf-2026-04.md)
 - Daily chapter seed: [davis-chapter-2026-04-01.md](davis-chapter-2026-04-01.md)

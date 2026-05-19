@@ -6,6 +6,7 @@
 
 - Profile: [diesen-profile.md](../../profiles/diesen-profile.md)
 - Speaker object: [../speakers/diesen/diesen-speaker-object.md](../speakers/diesen/diesen-speaker-object.md)
+- Host wiring: [diesen-host-wiring-2026.md](/C:/dev/strategy-codex/codex/speakers/diesen/diesen-host-wiring-2026.md)
 - Monthly shelf: [diesen-shelf-2026-04.md](diesen-shelf-2026-04.md)
 - Daily chapter seed: [diesen-chapter-2026-04-01.md](diesen-chapter-2026-04-01.md)
 - Thread compatibility file: [diesen-thread.md](diesen-thread.md)
