@@ -284,12 +284,35 @@ def find_existing_valid_raw_input(notebook_root: Path, url: str) -> tuple[Path, 
     return None
 
 
-def infer_guest_from_title(title: str, notebook_root: Path) -> tuple[str | None, str | None]:
+TITLE_GUEST_ALIASES: dict[str, str] = {
+    "patrick henningsen": "Henningsen",
+}
+
+
+def _normalized_name(value: str | None) -> str:
+    if not value:
+        return ""
+    return re.sub(r"[^a-z0-9]+", " ", value.casefold()).strip()
+
+
+def _host_slug_candidates(host: str | None) -> set[str]:
+    host_norm = _normalized_name(host)
+    if not host_norm:
+        return set()
+    tokens = host_norm.split()
+    candidates = {host_norm, host_norm.replace(" ", "-")}
+    if tokens:
+        candidates.add(tokens[-1])
+    return candidates
+
+
+def infer_guest_from_title(title: str, notebook_root: Path, host: str | None = None) -> tuple[str | None, str | None]:
     speakers_dir = speaker_routing.DEFAULT_SPEAKERS_DIR
     if not speakers_dir.is_dir():
         return None, None
     title_text = f" {title.casefold()} "
     matches: list[str] = []
+    host_slugs = _host_slug_candidates(host)
     for folder in sorted(path for path in speakers_dir.iterdir() if path.is_dir()):
         slug = folder.name
         candidates = {slug, slug.replace("-", " ")}
@@ -301,17 +324,28 @@ def infer_guest_from_title(title: str, notebook_root: Path) -> tuple[str | None,
             if re.search(pattern, title_text):
                 matches.append(slug)
                 break
-    unique = sorted(set(matches))
+    unique_all = sorted(set(matches))
+    unique = sorted(slug for slug in unique_all if slug not in host_slugs)
     if len(unique) == 1:
         return unique[0].replace("-", " ").title(), "exact-title-match"
+    if not unique:
+        alias_matches = [
+            guest
+            for alias, guest in TITLE_GUEST_ALIASES.items()
+            if re.search(rf"(?<![a-z0-9]){re.escape(alias)}(?![a-z0-9])", title_text)
+        ]
+        if len(alias_matches) == 1 and _normalized_name(alias_matches[0]) not in host_slugs:
+            return alias_matches[0], "title-known-speaker-match"
+    if unique_all and not unique:
+        return None, "host-only-title-match"
     return None, None
 
 
 def _is_host_only_guest_match(guest: str | None, host: str | None) -> bool:
     if not guest or not host:
         return False
-    guest_norm = re.sub(r"[^a-z0-9]+", " ", guest.casefold()).strip()
-    host_norm = re.sub(r"[^a-z0-9]+", " ", host.casefold()).strip()
+    guest_norm = _normalized_name(guest)
+    host_norm = _normalized_name(host)
     if not guest_norm or not host_norm:
         return False
     host_tokens = set(host_norm.split())
@@ -589,7 +623,7 @@ def materialize_one(
     file_prefix = item.file_prefix or (spec.file_prefix if spec else f"youtube-{item.channel_slug or slugify(str(info.get('channel') or 'outside'))}")
     out_path = output_path_for(notebook_root, pub_date, file_prefix, title)
     host = item.host or (spec.host if spec else "")
-    inferred_guest, guest_inference = (None, None) if item.guest else infer_guest_from_title(title, notebook_root)
+    inferred_guest, guest_inference = (None, None) if item.guest else infer_guest_from_title(title, notebook_root, host)
     if _is_host_only_guest_match(inferred_guest, host):
         inferred_guest, guest_inference = None, "host-only-title-match"
     guest = item.guest or inferred_guest

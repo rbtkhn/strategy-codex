@@ -726,6 +726,55 @@ def test_guest_inference_exact_match_and_ambiguous_refusal(tmp_path: Path) -> No
     assert method is None
 
 
+def test_guest_inference_prefers_non_host_title_match(tmp_path: Path, monkeypatch) -> None:
+    speakers_dir = tmp_path / "codex" / "speakers"
+    for slug in ("crooke", "davis", "parsi", "ritter"):
+        folder = speakers_dir / slug
+        folder.mkdir(parents=True)
+        (folder / f"{slug}-speaker-object.md").write_text(f"# {slug}\n", encoding="utf-8")
+    monkeypatch.setattr(mat.speaker_routing, "DEFAULT_SPEAKERS_DIR", speakers_dir)
+
+    guest, method = mat.infer_guest_from_title(
+        "IRAN is JUST GETTING STARTED /Alastair Crooke & Lt Col Daniel Davis",
+        tmp_path / "codex" / "years" / "2026",
+        "Daniel Davis",
+    )
+    assert guest == "Crooke"
+    assert method == "exact-title-match"
+
+    guest, method = mat.infer_guest_from_title(
+        "IRAN MAKING IT PAINFUL FOR U.S. /Trita Parsi & Lt Col Daniel Davis",
+        tmp_path / "codex" / "years" / "2026",
+        "Daniel Davis",
+    )
+    assert guest == "Parsi"
+    assert method == "exact-title-match"
+
+    guest, method = mat.infer_guest_from_title(
+        "Scott Ritter, Danny Davis Combat Vets: Can the US Force Hormuz Open?",
+        tmp_path / "codex" / "years" / "2026",
+        "Daniel Davis",
+    )
+    assert guest == "Ritter"
+    assert method == "exact-title-match"
+
+
+def test_guest_inference_uses_known_alias_when_speaker_folder_missing(tmp_path: Path, monkeypatch) -> None:
+    speakers_dir = tmp_path / "codex" / "speakers"
+    folder = speakers_dir / "davis"
+    folder.mkdir(parents=True)
+    (folder / "davis-speaker-object.md").write_text("# Davis\n", encoding="utf-8")
+    monkeypatch.setattr(mat.speaker_routing, "DEFAULT_SPEAKERS_DIR", speakers_dir)
+
+    guest, method = mat.infer_guest_from_title(
+        "IRAN WAR GLOBAL RESET /Patrick Henningsen & Lt Col Daniel Davis",
+        tmp_path / "codex" / "years" / "2026",
+        "Daniel Davis",
+    )
+    assert guest == "Henningsen"
+    assert method == "title-known-speaker-match"
+
+
 def test_materialized_manual_subtitles_are_not_labeled_auto_captions(tmp_path: Path, monkeypatch) -> None:
     video_id = "manual12345"
     monkeypatch.setattr(

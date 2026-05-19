@@ -1,0 +1,67 @@
+{
+  "appearance_count": 6,
+  "speaker_count": 5,
+  "speakers": {
+    "crooke": {
+      "appearance_count": 1,
+      "appearance_ids": [
+        "ap-74b0e10c035b"
+      ],
+      "hosts": {
+        "davis": 1
+      },
+      "route_types": {
+        "existing-speaker-arc": 1
+      }
+    },
+    "henningsen": {
+      "appearance_count": 1,
+      "appearance_ids": [
+        "ap-a6b0fd27985d"
+      ],
+      "hosts": {
+        "davis": 1
+      },
+      "route_types": {
+        "candidate-speaker-arc": 1
+      }
+    },
+    "macgregor": {
+      "appearance_count": 1,
+      "appearance_ids": [
+        "ap-5323d23acabc"
+      ],
+      "hosts": {
+        "davis": 1
+      },
+      "route_types": {
+        "existing-speaker-arc": 1
+      }
+    },
+    "parsi": {
+      "appearance_count": 1,
+      "appearance_ids": [
+        "ap-2b6c112050d7"
+      ],
+      "hosts": {
+        "davis": 1
+      },
+      "route_types": {
+        "existing-speaker-object": 1
+      }
+    },
+    "ritter": {
+      "appearance_count": 2,
+      "appearance_ids": [
+        "ap-98bcffc9e295",
+        "ap-e2eeb1cae534"
+      ],
+      "hosts": {
+        "davis": 2
+      },
+      "route_types": {
+        "existing-speaker-arc": 2
+      }
+    }
+  }
+}
