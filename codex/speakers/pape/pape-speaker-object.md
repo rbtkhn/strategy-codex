@@ -29,6 +29,19 @@ Pape carries a distinct utility profile:
 - **cross-host survival**
   - the same underlying voice remains legible in Davis, Breaking Points, Mario Nawfal, and other venues even though the native `pape/` stream remains the main body
 
+## Fourth-Center Thesis
+
+Pape's current high-leverage power claim is that Iran may be emerging as a **fourth coercive / system-shaping center** because it can force global adjustment through Hormuz leverage, energy disruption, nuclear latency, and diplomatic channels that run through or around Russia, China, Pakistan, Oman, and Gulf actors.
+
+Use the thesis carefully. It does **not** mean Iran simply replaces India as the fourth comprehensive world power. The cleaner distinction is:
+
+- **India** - latent / comprehensive power candidate: population, market scale, industrial and technical depth, diaspora, military scale, and long-run demographic weight.
+- **Iran** - active coercive / chokepoint center: resource self-sufficiency, strategic depth with Russia and China, Hormuz leverage, denial capacity, nuclear latency, and the ability to make global systems route around it.
+
+Working formula: **scale compounds over decades; leverage can reorder bargaining in weeks.**
+
+The falsifiers are as important as the claim: Hormuz loses coercive salience; the GCC re-coheres under U.S. leadership; Russia or China distance from Iran; Iran cannot regulate or monetize transit; or India shapes the crisis more directly than Iran.
+
 ## Object shape
 
 Pape should currently be read as a **stream-anchored speaker object with strong cross-host reinforcement**.

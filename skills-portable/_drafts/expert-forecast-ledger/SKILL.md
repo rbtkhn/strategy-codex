@@ -106,6 +106,42 @@ After drafting:
 
 If the expert lane has a README shelf, add one discoverability link to the new ledger. Do not update unrelated lane docs unless asked.
 
+## Portable theory extraction
+
+Use this optional step when the ledger produces a reusable theory rather than only a list of forecasts.
+
+Trigger signs:
+
+- the expert repeats a named claim across multiple dates or hosts;
+- the claim changes the metric for judging a crisis;
+- a rival frame must be preserved instead of silently displaced;
+- the claim can be falsified with observable indicators;
+- the claim would be useful outside the expert lane as a statecraft, strategy, or policy lens.
+
+Create a compact **theory cluster** with:
+
+1. **Theory name.** Use plain language, for example `Fourth-Center Power Thesis`.
+2. **Metric.** Define what is being measured, for example coercive system leverage vs comprehensive national power.
+3. **Source chain.** Link raw-input anchors and label source class: authored spine, interview transmission, X signal, host corroboration.
+4. **Rival frame.** Preserve the competing interpretation rather than overwriting it.
+5. **Falsifiers.** Name concrete indicators that would weaken the theory.
+6. **Reusable bridge.** If useful, add or link a WORK-only statecraft / strategy sheet that turns the theory into a repeatable question.
+
+Keep source boundaries explicit. If the ledger is Substack-only, do not count interview or transcript links as part of the Source Set; label them as secondary transmission or corroboration.
+
+Good output shape:
+
+- speaker compact-state note: what the theory says and what it does not say;
+- forecast-ledger rows: dated predictions, mechanisms, falsifiers, revisit triggers;
+- consolidation note: short metric guard for future readers;
+- optional statecraft sheet: reusable question or decision test.
+
+Anti-pattern:
+
+- Do not turn a memorable phrase into doctrine without a metric and falsifiers.
+- Do not let a new theory erase an older frame that may still be true under a different metric.
+- Do not promote host phrasing as authored expert doctrine unless the source chain supports it.
+
 ## Anti-patterns
 
 - Do not let source discovery become implementation of unrelated ingest work.

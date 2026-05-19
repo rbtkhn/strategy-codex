@@ -184,6 +184,19 @@ Use this cluster as:
 
 not as the main organizing principle of the lane.
 
+## Power Metric Note - Fourth Center vs Fourth Comprehensive Power
+
+Pape's "Iran as fourth center of world power" thesis should be read as a **coercive system leverage** claim, not as a loose replacement for the older India-as-fourth-world-power frame.
+
+Use the distinction this way:
+
+- **India = latent / comprehensive power candidate.** Population, market scale, industrial and technical depth, diaspora, military scale, and long-run demographic weight.
+- **Iran = active coercive / chokepoint center.** Resource self-sufficiency, Hormuz leverage, strategic depth with Russia and China, nuclear latency, denial capacity, and the ability to make global systems route around it.
+
+The working formula is: **scale compounds over decades; leverage can reorder bargaining in weeks.**
+
+This distinction makes Pape's thesis more useful and more falsifiable. It should be weakened if Hormuz loses salience, the GCC re-coheres under U.S. leadership, Russia or China distance from Iran, Iran cannot regulate or monetize transit, or India becomes the actor shaping this crisis more directly than Iran.
+
 ## What This Lane Is Actually Saying Over Time
 
 Pape is not mainly saying "Iran is strong" or "America is weak" as standalone claims.
