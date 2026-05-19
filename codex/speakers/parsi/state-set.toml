@@ -5,6 +5,8 @@ compact_state_files = [
   "codex/speakers/parsi/README.md",
   "codex/speakers/parsi/parsi-speaker-object.md",
   "codex/speakers/parsi/parsi-cross-host-note.md",
+  "codex/speakers/parsi/parsi-helix.md",
+  "codex/speakers/parsi/parsi-interview-appearances-2025-2026.md",
   "codex/years/2026/parsi/parsi-forecast-ledger-2025-2026.md",
 ]
 
@@ -22,5 +24,22 @@ excluded_patterns = [
   "youtube-",
   "tparsi-x-bundle-",
   "duran-",
+  "date-named-parsi",
+]
+
+[[source_sets]]
+file = "codex/speakers/parsi/parsi-interview-appearances-2025-2026.md"
+expected_count = 4
+required_prefixes = [
+  "youtube-daniel-davis-deep-dive-iran-making-it-painful-for-u-s-trita-parsi-",
+  "transcript-napolitano-parsi-how-washington-underestimated-iran-",
+  "transcript-duran-mercouris-trita-parsi-us-iran-blockade-diplomacy-",
+  "youtube-glenn-diesen-trita-parsi-iran-war-marks-the-end-of-american-primacy-",
+]
+excluded_patterns = [
+  "substack-parsi-",
+  "responsiblestatecraft-parsi-",
+  "tparsi-x-bundle-",
+  "transcript-parsi.md",
   "date-named-parsi",
 ]

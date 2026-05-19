@@ -2,7 +2,7 @@
 
 WORK only; not Record.
 
-object_shape: stream-anchored-with-cross-host-reinforcement
+object_shape: authored-diplomacy-plus-interview-pressure-helix
 
 Purpose: define Parsi as a first-class speaker object without forcing him into a premature helix classification. Unlike Marandi, whose utility is most legible through host transformation, and unlike Mercouris, whose main body is an unusually deep native stream, Parsi is best read as a **stream-anchored policy-process speaker object** with meaningful cross-host reinforcement.
 
@@ -36,19 +36,29 @@ Parsi carries a distinct utility profile:
 
 ## Object shape
 
-Parsi should currently be read as a **stream-anchored speaker object with cross-host reinforcement**.
+Parsi should now be read as a **two-strand policy-process helix**.
 
 That means:
 
 - the native [parsi cognition stream](/C:/dev/strategy-codex/codex/years/2026/parsi/README.md) is still the main body of the object
-- the object is stronger than a purely local single-lane shelf because cross-host appearances do reinforce it
-- but the notebook should not yet overstate this as a mature double or triple speaker-helix without a denser host-local arc structure
+- the authored [forecast and diplomacy ledger](/C:/dev/strategy-codex/codex/years/2026/parsi/parsi-forecast-ledger-2025-2026.md) is the canonical mechanism strand
+- the [interview appearance map](/C:/dev/strategy-codex/codex/speakers/parsi/parsi-interview-appearances-2025-2026.md) is the host-pressure strand
+- the [parsi helix](/C:/dev/strategy-codex/codex/speakers/parsi/parsi-helix.md) shows where those strands cross
 
-Single, double, and triple speaker-helixes each have inherent utility. Parsi's current dignity lies in:
+Single, double, and triple speaker-helixes each have inherent utility. Parsi's dignity lies in:
 
 - **process depth**
-- **stream stability**
-- **cross-host reinforcement without overclaim**
+- **authored diplomacy discipline**
+- **targeted cross-host pressure without overclaim**
+
+## Authored and interview strands
+
+Read the strands this way:
+
+- **authored strand:** Substack and Responsible Statecraft captures define the durable policy mechanism: implementation over symbolism, Israel as escalation engine, coercion failure, ceasefire leverage, and regional security architecture
+- **interview strand:** Davis, Napolitano, Duran/Mercouris, and Diesen appearances test whether that mechanism survives practical war-cost, legal-responsibility, blockade-diplomacy, and order-transition questioning
+
+The point is not to inflate Parsi into a thicker interview shelf than the corpus supports. The point is to stop treating the interviews as loose commentary when they are actually pressure tests of the authored diplomacy spine.
 
 ## Secondary reinforcement
 
@@ -72,20 +82,20 @@ If the operator needs the best refined page:
 
 If the operator needs the object doctrine rather than the live stream:
 
-- stay here, then read [parsi-cross-host-note.md](/C:/dev/strategy-codex/codex/speakers/parsi/parsi-cross-host-note.md)
+- stay here, then read [parsi-helix.md](/C:/dev/strategy-codex/codex/speakers/parsi/parsi-helix.md)
 
 ## Routing use
 
 Use this speaker-object note when the notebook is doing one or more of the following:
 
 - deciding whether Parsi belongs on the `speakers/` shelf as a first-class object
-- separating stream-native depth from premature helix promotion
+- separating authored diplomacy depth from host-pressure translation
 - routing Parsi material toward process, negotiation, legitimacy, or cross-host comparison questions
 - comparing Parsi's policy-intellectual utility with more kinetic or mechanics-first speaker objects
 
 ## Boundaries
 
-- This note is not a Parsi helix note.
 - The native Parsi stream remains canonical for day-to-day reading and cluster work.
-- Cross-host reinforcement matters, but it does not yet outweigh the stream-native body.
-- If denser host-local arc structure materializes later, a separate `parsi-helix.md` can be created without replacing this speaker-object note.
+- The Parsi helix is not a triple host helix; it is authored diplomacy plus interview pressure.
+- Cross-host reinforcement matters, but it does not outweigh the authored mechanism body.
+- If denser recurring host-local arcs materialize later, they can be added without replacing this speaker-object note.
