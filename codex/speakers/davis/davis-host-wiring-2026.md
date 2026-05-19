@@ -40,6 +40,17 @@ Davis is the notebook's clearest host for **military feasibility, battlefield dy
 - Best diplomatic-process branch: [arc](/C:/dev/strategy-codex/codex/years/2026/davis/davis-crooke-speaker-arc.md)
 - Best structural-realist branch: [arc](/C:/dev/strategy-codex/codex/years/2026/davis/davis-mearsheimer-speaker-arc.md)
 
+## Routing Lesson - Title Inference
+
+Davis titles often contain both the guest and the host. The routing rule is therefore syntactic as much as factual: preserve Davis as the **host-native frame**, then route the non-host voice only when the title supplies a clear guest signal.
+
+Current March 15-17 queue shape:
+
+- Signal: Macgregor, Crooke, and Ritter title matches strengthen existing Davis host-local arcs.
+- Candidate: Parsi strengthens the Parsi speaker object and cross-host note before a Davis-Parsi arc is created.
+- Candidate: Henningsen is routeable by known title alias, but remains below arc-creation threshold until a speaker object or recurrence exists.
+- Noise / boundary: Davis-only titles stay `host-only-title-match`; they should not create a Davis-to-Davis guest arc.
+
 ## Do-Not-Flatten Rules
 
 - Do not treat Davis as only a host container; his stream-native object has its own feasibility discipline.

@@ -325,6 +325,8 @@ def infer_guest_from_title(title: str, notebook_root: Path, host: str | None = N
                 matches.append(slug)
                 break
     unique_all = sorted(set(matches))
+    # Host-native titles often include the host name; only non-host matches
+    # should become guest metadata or speaker-arc routing signals.
     unique = sorted(slug for slug in unique_all if slug not in host_slugs)
     if len(unique) == 1:
         return unique[0].replace("-", " ").title(), "exact-title-match"
