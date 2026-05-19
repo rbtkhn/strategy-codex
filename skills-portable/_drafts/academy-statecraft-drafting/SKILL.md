@@ -1,7 +1,7 @@
 ---
 name: academy-statecraft-drafting
 preferred_activation: academy-statecraft
-description: "Draft workflow for turning contemporary speaker-state analysis plus Richelieu/Bismarck historical discipline into treaties, policy papers, negotiation briefs, and crisis memos."
+description: "Draft workflow for turning speaker-state and historical statecraft discipline into treaties, policy papers, negotiation briefs, crisis memos, and four-lane crisis transaction bundles. Use for academy-statecraft, state-russia/state-china/state-iran/state-america, crisis transaction, four-lane transaction, do it again, make it concrete, settlement spine, civilization / empire, and Richelieu/Bismarck prompts."
 portable: true
 version: 0.1.0-draft
 tags:
@@ -29,8 +29,34 @@ Use this draft skill when the operator asks for:
 - `Pape index`
 - `Mearsheimer scoreboard`
 - `Richelieu/Bismarck test`
+- `do it again`
+- `make it concrete`
+- `settlement spine`
+- `civilization / empire`
 
 The goal is to convert contemporary geopolitical analysis into a practical instrument: treaty language, policy memo, negotiation brief, sanctions/off-ramp mechanism, crisis brief, or institutional design note.
+
+## Operator trigger points
+
+Treat these ordinary workflow signals as likely statecraft activations:
+
+- **Repeat workflow:** `do it again`, `same for this crisis`, `make another bundle`.
+- **Concretize theory:** `make it concrete`, `harden this`, `wire this into statecraft`.
+- **Crisis object:** `Hormuz`, `nuclear latency`, `sanctions relief`, `transit guarantee`, `non-regime-change`, `ceasefire`, `regional architecture`.
+- **Four-lane comparison:** `compare the four states`, `orthogonality`, `America/Russia/China/Iran`, `settlement spine`.
+- **State commands:** `state-russia`, `state-china`, `state-iran`, `state-america`.
+- **Speaker-to-instrument:** `Pape says...`, `Parsi argues...`, `Ritter warns...`, or `Crooke frames...` when followed by policy, treaty, compact, framework, clause, or settlement language.
+- **Coffee C handoff:** after `coffee` -> `c`, treat crisis or policy language as statecraft unless the operator redirects.
+- **Civilizational hinge:** `Richelieu`, `Bismarck`, `Plutarch`, `civilization / empire`, `helix`, `authority / restraint / settlement`.
+
+Routing rule:
+
+- Single state plus crisis object -> draft a lane transaction or brief.
+- All four states, `do it again`, `same for this crisis`, or orthogonality language -> draft a four-lane transaction bundle.
+- Speaker insight plus policy language -> convert the insight into a statecraft instrument or source-backed transaction input.
+- `What did we learn?` after a bundle -> identify method, skill, architecture, or template refinement candidates.
+
+Recent bundles such as `hormuz-transit-sanctions-relief-compact` and `iran-nuclear-latency-recognition-framework` are examples of the pattern, not mandatory templates.
 
 ## Core rule
 
