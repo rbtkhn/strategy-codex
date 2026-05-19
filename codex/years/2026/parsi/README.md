@@ -4,8 +4,8 @@
 
 ## Shelf
 
-- Profile: [parsi-profile.md](../../profiles/parsi-profile.md)
-- Speaker object: [parsi-speaker-object.md](../speakers/parsi/parsi-speaker-object.md)
+- Profile: [parsi-profile.md](../../../profiles/parsi-profile.md)
+- Speaker object: [parsi-speaker-object.md](../../../speakers/parsi/parsi-speaker-object.md)
 - Monthly book: [parsi-book-2026-04.md](parsi-book-2026-04.md)
 - Daily chapter seed: [parsi-chapter-2026-04-01.md](parsi-chapter-2026-04-01.md)
 - Thread compatibility file: [parsi-thread.md](parsi-thread.md)

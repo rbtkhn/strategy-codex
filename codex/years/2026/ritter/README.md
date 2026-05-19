@@ -4,7 +4,8 @@
 
 ## Shelf
 
-- Profile: [ritter-profile.md](../../profiles/ritter-profile.md)
+- Profile: [ritter-profile.md](../../../profiles/ritter-profile.md)
+- Speaker routing: [ritter-routing.md](../../../speakers/ritter/ritter-routing.md)
 - Consolidation note: [ritter-lane-consolidation-2026-05.md](ritter-lane-consolidation-2026-05.md)
 - Forecast + warning ledger: [ritter-forecast-ledger-2026.md](ritter-forecast-ledger-2026.md)
 - Monthly book: [ritter-book-2026-04.md](ritter-book-2026-04.md)
