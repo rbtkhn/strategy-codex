@@ -8,6 +8,8 @@ For the faster speaker-side entry surface that answers **which host lane to open
 
 For the secondary cross-year interview appearance layer, see [ritter-interview-appearances-2025-2026.md](/C:/dev/strategy-codex/codex/speakers/ritter/ritter-interview-appearances-2025-2026.md). It supplements the host-local arcs without changing the canonical triple-helix doctrine.
 
+For the authored warning spine, see [ritter-forecast-ledger-2026.md](/C:/dev/strategy-codex/codex/years/2026/ritter/ritter-forecast-ledger-2026.md). It remains Substack-only, but it should be read as the second strand crossing the interview helix: authored mechanism on one side, host-pressure transformation on the other.
+
 ## Core claim
 
 The Ritter triple helix is one war-mechanics and escalation-pressure voice transformed by three hosts: Diesen gives escalation horizon, Davis tests operational feasibility, and Dialogue Works applies maximum live war pressure.
@@ -19,6 +21,23 @@ The full triple-helix maturity is most visible in 2026, but the underlying cross
 A real April 2026 `Napolitano x Ritter` branch now exists on disk as well, but it should be read as auxiliary reinforcement rather than as a fourth canonical strand.
 
 Ritter should also be read as a thick speaker object rather than only as a formal helix shape. The host-local arcs explain the transformed structure, while the unusually strong recurrence across the cognition streams explains why Ritter carries more lattice weight than a thinner formal triple would.
+
+## Authored x Interview Crossings
+
+The helix is not only `Diesen x Davis x Dialogue Works`. It also has a source-class twist:
+
+- The **authored strand** states Ritter's mechanism in his own Substack essays.
+- The **interview strand** tests that mechanism under host pressure.
+- The **crossing** happens where a ledger row and a host cluster illuminate the same claim from different angles.
+
+| authored ledger anchor | interview crossing | how to read the crossing |
+|---|---|---|
+| `RITTER-2026-F001`, `RITTER-2026-F011` | Diesen Russia/NATO run and Consortium News debate | Substack gives the Russia deep-structure and Western-misread thesis; interviews test it against escalation-horizon and adversarial debate pressure. |
+| `RITTER-2026-F006`, `RITTER-2026-F014`, `RITTER-2026-F022` | Dialogue Works Iran pressure run and Diesen Iran/Hormuz run | Substack gives Iranian resilience, second-order effects, and new regional paradigm; interviews show those claims under live war tempo and sea-control framing. |
+| `RITTER-2026-F020`, `RITTER-2026-F022` | Davis Iran feasibility run | Substack gives operational warning and new Middle Eastern power paradigm; Davis makes Ritter cash it out as stockpiles, skies, basing, and blockade practicality. |
+| `RITTER-2026-F007`, `RITTER-2026-F021` | Napolitano legality run | Substack gives U.S. decline and moral/prosecutorial warning; Napolitano turns it into war-powers, command failure, and legality pressure. |
+
+Reading rule: open the authored row first when the question is "what is Ritter's thesis?" Open the host cluster first when the question is "where does this thesis become usable under pressure?" For serious analysis, cross both before drawing a conclusion.
 
 ## The three strands
 

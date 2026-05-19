@@ -12,6 +12,14 @@ Open here first when the question is not merely "what did Ritter say," but **whi
 - [ritter-routing.md](/C:/dev/strategy-codex/codex/speakers/ritter/ritter-routing.md)
 - [expert-orthogonality-note.md](/C:/dev/strategy-codex/codex/speakers/expert-orthogonality-note.md)
 
+## Two-strand helix
+
+Ritter's speaker object has two entwined but source-separated strands:
+
+- **Authored strand:** [ritter-forecast-ledger-2026.md](/C:/dev/strategy-codex/codex/years/2026/ritter/ritter-forecast-ledger-2026.md) holds the Substack-only warning and forecast spine.
+- **Interview strand:** [ritter-interview-appearances-2025-2026.md](/C:/dev/strategy-codex/codex/speakers/ritter/ritter-interview-appearances-2025-2026.md) holds host-transformed appearances.
+- **Crossing surface:** [ritter-helix.md](/C:/dev/strategy-codex/codex/speakers/ritter/ritter-helix.md) explains where authored mechanisms and interview clusters reinforce, extend, or test each other.
+
 ## Structural notes
 
 - [ritter-helix.md](/C:/dev/strategy-codex/codex/speakers/ritter/ritter-helix.md)

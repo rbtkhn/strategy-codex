@@ -90,6 +90,8 @@ Local interview appearance count: 48 captures.
 
 ## Ledger Bridge
 
+This is the crossing table between the interview strand and the authored Substack strand. It does **not** import `substack-ritter-*` files into the interview Source Set; it tells the reader which forecast-ledger rows to open beside each host cluster.
+
 | interview cluster | bridge type | ledger anchor | what it adds |
 |---|---|---|---|
 | Diesen Russia/NATO run | reinforces | `RITTER-2026-F001`, `RITTER-2026-F011`, `RITTER-2026-F012` | Interview-hosted escalation horizon and Russia-doctrine pressure around the Substack deep-structure warnings. |

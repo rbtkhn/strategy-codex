@@ -39,6 +39,16 @@ That is the best routing claim because his mature interview form is not one host
 
 Napolitano is now a real auxiliary reinforcement branch rather than a canonical fourth strand, while the native 2026 Ritter shelf and authored ledger thicken the object without replacing the host-transformation reading.
 
+## Authored and Interview Strands
+
+The full Ritter object should be read as a **two-strand helix wrapped around the host triple-helix**:
+
+- **Authored/Substack strand:** the [forecast ledger](/C:/dev/strategy-codex/codex/years/2026/ritter/ritter-forecast-ledger-2026.md) records Ritter's own warnings, mechanisms, and tensions from `substack-ritter-*` captures.
+- **Interview/host strand:** the [interview appearance map](/C:/dev/strategy-codex/codex/speakers/ritter/ritter-interview-appearances-2025-2026.md) records how hosts make those claims operational, escalatory, live, or legal.
+- **Crossing rule:** do not mix source sets, but do read them together. Open the authored row for the claim, then open the host cluster that tests how the claim behaves under questioning.
+
+This is the practical value of the helix: Substack gives Ritter's declared doctrine; interviews show the same doctrine under host pressure.
+
 ## Open first
 
 If the operator needs the cleanest single orientation:

@@ -13,6 +13,14 @@ Open here first when the question is not merely "what did Crooke say," but which
 - [crooke-interview-appearances-2025-2026.md](/C:/dev/strategy-codex/codex/speakers/crooke/crooke-interview-appearances-2025-2026.md)
 - [expert-orthogonality-note.md](/C:/dev/strategy-codex/codex/speakers/expert-orthogonality-note.md)
 
+## Two-strand helix
+
+Crooke's speaker helix has two entwined but source-separated strands:
+
+- **Authored strand:** [crooke-forecast-ledger-2026.md](/C:/dev/strategy-codex/codex/years/2026/crooke/crooke-forecast-ledger-2026.md) holds the Substack-only mechanism and tension spine.
+- **Interview strand:** [crooke-interview-appearances-2025-2026.md](/C:/dev/strategy-codex/codex/speakers/crooke/crooke-interview-appearances-2025-2026.md) holds host-transformed appearances.
+- **Crossing surface:** [crooke-helix.md](/C:/dev/strategy-codex/codex/speakers/crooke/crooke-helix.md) explains where authored mechanisms and interview clusters reinforce, extend, or tension each other.
+
 ## Longitudinal wiring
 
 - Year stream: [crooke README](/C:/dev/strategy-codex/codex/years/2026/crooke/README.md)

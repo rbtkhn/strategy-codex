@@ -58,6 +58,8 @@ Expected v1 count: 21 files.
 
 ## Ledger Bridge
 
+This is the crossing table between the interview strand and the authored Substack strand. It does **not** import `substack-crooke-*` files into the interview Source Set; it tells the reader which forecast-ledger rows to open beside each host cluster.
+
 | interview cluster | bridge | authored-ledger rows | notes |
 |---|---|---|---|
 | Diesen 2025-2026 order-transition run | reinforces | `CROOKE-2026-F001`, `CROOKE-2026-F010`, `CROOKE-2026-F021`, `CROOKE-2026-F024` | The Diesen lane gives the widest frame for structural rupture, Western mechanistic misreading, and U.S./Israel unraveling risk. |
