@@ -2,8 +2,8 @@
 ingest_date: 2026-05-11
 pub_date: 2026-04-19
 thread: diesen
-show: Glenn Diesen - Greater Eurasia Podcast
-host: Glenn Diesen
+show: Diesen - Greater Eurasia Podcast
+host: Diesen
 guest: Jack Matlock
 title: "Jack Matlock: How NATO Expansionism Broke European Security"
 source_url: "https://www.youtube.com/watch?v=_7dgtdNXOGM"
@@ -12,7 +12,7 @@ transcript_type: speaker_normalized_from_auto_subtitles
 editorial_note: "Best-effort speaker normalization and sentence polishing from YouTube auto-captions extracted with yt_dlp (en-orig). Not human-verified verbatim."
 ---
 
-# Glenn Diesen / Jack Matlock - How NATO Expansionism Broke European Security
+# Diesen / Jack Matlock - How NATO Expansionism Broke European Security
 
 **Channel:** Glenn Diesen  
 **Published:** 2026-04-19  
@@ -21,11 +21,11 @@ editorial_note: "Best-effort speaker normalization and sentence polishing from Y
 
 ## Transcript
 
-**Glenn Diesen:** Welcome back. We are joined today by Jack Matlock, the US Ambassador to the Soviet Union, who contributed greatly to negotiate an end to the Cold War with President Reagan in the late 1980s. So, thank you very much for taking the time, sir.
+**Diesen:** Welcome back. We are joined today by Jack Matlock, the US Ambassador to the Soviet Union, who contributed greatly to negotiate an end to the Cold War with President Reagan in the late 1980s. So, thank you very much for taking the time, sir.
 
 **Jack Matlock:** Glad to be with you. Thanks for having me on.
 
-**Glenn Diesen:** So, I'm a big fan of your books, your work, and of course also your, I guess, contribution to diplomacy and history. It's quite impressive. A theme in your work, though, I thought a good place to start would be from your perspective, what are the main misunderstandings about uh the end of the Cold War?
+**Diesen:** So, I'm a big fan of your books, your work, and of course also your, I guess, contribution to diplomacy and history. It's quite impressive. A theme in your work, though, I thought a good place to start would be from your perspective, what are the main misunderstandings about uh the end of the Cold War?
 
 **Jack Matlock:** I think there've been several serious misunderstandings uh among uh um most of the commentators. Uh first of all, uh the idea uh that the Cold War ended with the breakup of the Soviet Union is incorrect. The Cold War was over ideologically and practically at least 2 years before the Soviet Union broke up. Uh and second, the idea that uh we uh we that there were winners and losers in the Cold War or that somehow the United States and the West won and uh Russia uh lost is quite incorrect. We negotiated an end to the Cold War uh to the interests of both countries and everybody else, for that matter. And uh that was a negotiated end without victors.
 
@@ -35,7 +35,7 @@ Now, at the same time, of course, Gorbachev was trying to bring uh the Soviet Un
 
 As a matter of fact, that commitment to President Bush reiterated in a letter to Gorbachev that I delivered when we got back uh from that meeting. So, um uh yeah the idea that uh the Cold War was a defeat for the Soviet Union or that the Soviet Union broke up because of the pressure of the Western Alliance are simply incorrect. The Soviet Union broke up because of internal pressures and probably would not have broken up if the Cold War had been continued. So, I think those basic misunderstandings fed many of what I consider the mistakes that were made subsequently.
 
-**Glenn Diesen:** This promise though of a never expanding NATO uh after the German reunification, it often becomes a very hot topic in the media. Many politicians and academics, journalists, they such a promise wasn't made or it was a misunderstanding. But this was made at several occasions, though, wasn't it?
+**Diesen:** This promise though of a never expanding NATO uh after the German reunification, it often becomes a very hot topic in the media. Many politicians and academics, journalists, they such a promise wasn't made or it was a misunderstanding. But this was made at several occasions, though, wasn't it?
 
 **Jack Matlock:** Well, uh the promise was made. It was not incorporated in uh in in the treaties. Uh but um parts of it were. To go into a little more detail, uh in February uh '89, when uh when Secretary of State Baker came to Moscow uh in uh in I think it was February '89, the hot topic then was the question of German unification because uh the communist regime had been sort of overthrown in in East Germany. And uh first of all, uh we said that the United States said, "All right, we need to negotiate this in what we call the 2 + 4 format. "
 
@@ -71,7 +71,7 @@ And and second, these it is not at all clear that if Ukraine had kept them, that
 
 But uh now uh So, I wanted to explain that background because so many people say now, "Oh, you know, if Ukraine had just kept those weapons, Russia would not have attacked them. " That was never a practical or political possibility. Yeah, I hear that the arguments all the time as well. But um I think people often forget that in the 1990s, a lot of great statesmen, uh George Kennan, yourself, and others, many were warning against uh
 
-**Glenn Diesen:** uh essentially you're going for NATO expansion instead of pursuing this new pan-European security architecture. So, I was wondering, why did we fail to establish that a common well, a common European home as Gorbachev would have said, or at least a common European security architecture? Cuz we did have some agreements like the Charter of Paris for a new Europe in 1990, and the Organization for Security and Cooperation in Europe set up in '94 based on these principles, all essentially originating from the Helsinki Accords of how to have a common Europe. But why did we fail?
+**Diesen:** uh essentially you're going for NATO expansion instead of pursuing this new pan-European security architecture. So, I was wondering, why did we fail to establish that a common well, a common European home as Gorbachev would have said, or at least a common European security architecture? Cuz we did have some agreements like the Charter of Paris for a new Europe in 1990, and the Organization for Security and Cooperation in Europe set up in '94 based on these principles, all essentially originating from the Helsinki Accords of how to have a common Europe. But why did we fail?
 
 **Jack Matlock:** I think there may have been a variety of uh reasons. But in fact, I think we uh in particularly in the United States, but also in other Western countries, uh were were responding to domestic politics. And uh in the case of the United States, we have a very large numbers of voters in in states like Pennsylvania and Illinois from Eastern Europe. And and they were determined to get these countries in NATO because they traditionally looked at Russia as as a threat. And that was one thing that sort of politically I know when I testified against NATO expansion during the intermission, some of the people came up to me and said, "Look, be practical.
 
@@ -91,7 +91,7 @@ That was done in a number of ways, uh and uh and I think that uh and that spirit
 
 Yeah, it's uh often puts a hole in the assumption that uh women would be more peaceful leaders than men. I think we're all pretty flawed in this regard, but uh I you know, I also see that um the prospect of a hegemonic peace, uh that is peace through dominance or strength, was very appealing, which contributed to dismantling the work that had been done for pan-European security architecture. But
 
-**Glenn Diesen:** beyond the beyond, I guess, creating a Europe without the Russians, which uh well, unavoidably became a Europe against the Russians, uh organized around EU and NATO, what Do you see any other mistakes being done in terms of how we could have managed this relationship with Russia? Because it is interesting whenever one reads the memoirs of, for example, former CIA director Robert Gates or well, I you can mention many. They they all recognize that relations were mismanaged and uh that, you know, we are now paying some of the consequences of this mismanagement. But what do you still consider to be the main mistakes being made thereafter?
+**Diesen:** beyond the beyond, I guess, creating a Europe without the Russians, which uh well, unavoidably became a Europe against the Russians, uh organized around EU and NATO, what Do you see any other mistakes being done in terms of how we could have managed this relationship with Russia? Because it is interesting whenever one reads the memoirs of, for example, former CIA director Robert Gates or well, I you can mention many. They they all recognize that relations were mismanaged and uh that, you know, we are now paying some of the consequences of this mismanagement. But what do you still consider to be the main mistakes being made thereafter?
 
 **Jack Matlock:** Well, the expansion, as we continued to expand NATO, uh we not only began to expand NATO, uh but in the first decade of this century, uh we began putting military bases there. And the most sensitive of those, as far as Russia was concerned, uh was the establishment of uh anti-ballistic uh missiles in Romania and Poland. Now, these missiles, it turns out, although most people didn't understand it at that time, could be used either offensively or defensively, depending upon the software. So, there is no uh I would say no uh There it is easy to understand that uh you'll that uh Putin, uh the pres- uh the Russian president, would find this threatening.
 
@@ -117,7 +117,7 @@ And think about how that resonates with Russians. And so the issues there are ar
 
 We've reached a point now that it is very difficult to see how that's going to be resolved uh so that it doesn't negatively affect all of us. Well, &gt;&gt; &gt;&gt; in terms of ending the Cold War, we see that diplomacy was very important and we were I would say blessed with having some good statesmen at this point in time.
 
-**Glenn Diesen:** But well, how do you make sense of um the current political leadership across the West, both the US and Europe compared to diplomacy which uh you know, helped to bring an end to the Cold War, because when I look at people today, be it um uh Merz in Germany, uh the rhetoric there, or Macron in France, uh Starmer in the UK, all three of them, by the way, talking about war with Russia. Or, you know, Trump in the United States, who is um you know, hardly a benign leader himself. How do you make sense of this, that we don't have we don't seem to have diplomacy anymore. I often ask why none of our political leaders or even journalists they want to even discuss the security concerns and interests of our opponents, uh not just the Russians, but all opponents. It's very confusing. I Sorry, that was a long question, but yeah, how do you make sense of the current political leadership?
+**Diesen:** But well, how do you make sense of um the current political leadership across the West, both the US and Europe compared to diplomacy which uh you know, helped to bring an end to the Cold War, because when I look at people today, be it um uh Merz in Germany, uh the rhetoric there, or Macron in France, uh Starmer in the UK, all three of them, by the way, talking about war with Russia. Or, you know, Trump in the United States, who is um you know, hardly a benign leader himself. How do you make sense of this, that we don't have we don't seem to have diplomacy anymore. I often ask why none of our political leaders or even journalists they want to even discuss the security concerns and interests of our opponents, uh not just the Russians, but all opponents. It's very confusing. I Sorry, that was a long question, but yeah, how do you make sense of the current political leadership?
 
 **Jack Matlock:** I can't make sense of it. Um I can only say that I think that uh previous norms of diplomacy uh uh uh have simply been abandoned. And uh we talk about democracy. You know, democracy can be mean several things. You know, one thing it can be a process that the citizens or residents, citizens of a given country should determine its government and so on. That's a process.
 
@@ -153,7 +153,7 @@ But the hubris that somehow we in the West possess superiority over the others, 
 
 There were churches during the Second World War that uh Pope Pius uh did not uh condemn what was going on. I'm not a Catholic, but right now I do think that our American Pope, the first, is telling the world something it needs to hear.
 
-**Glenn Diesen:** I very much agree, and that's one of the I think great tragedies as well that no one is speaking about peace anymore. Uh one is currently engaged in this war with Iran, also war with Russia. People are talking about a possible war with China.
+**Diesen:** I very much agree, and that's one of the I think great tragedies as well that no one is speaking about peace anymore. Uh one is currently engaged in this war with Iran, also war with Russia. People are talking about a possible war with China.
 
 Uh at least European leaders have sat by for 4 years while all these hundreds of thousands of people have been dying in Ukraine, and they didn't even pick up a phone to discuss the security architecture or some way to mitigate the security competition with the Russians. It's quite appalling. Uh uh grotesque, really, but um yeah, hopefully we'll be turning a corner. Um Anyways, Ambassador, thank you so much for taking the time. I think I've already taken a bit too much of your time, so I very much appreciate it.
 

@@ -1,6 +1,6 @@
-# Interviews #3: Glenn Diesen — Predictions for 2026 (Empire, Rivalry & Collapse)
+# Interviews #3: Diesen — Predictions for 2026 (Empire, Rivalry & Collapse)
 
-**Speaker:** Jiang Xueqin (guest); Glenn Diesen (host)  
+**Speaker:** Jiang Xueqin (guest); Diesen (host)  
 **Audience:** Long-form interview (public channel)  
 **Series:** Predictive History · Volume VI — Interviews **#3**  
 **Date (YouTube upload):** 2026-01-05  
@@ -25,11 +25,11 @@
 
 ## Full transcript
 
-**GLENN DIESEN:** Welcome back. We are joined today by Professor Jiang to discuss 2026 and what to expect. Thank you very much for coming back on.
+**Diesen:** Welcome back. We are joined today by Professor Jiang to discuss 2026 and what to expect. Thank you very much for coming back on.
 
 **JIANG XUEQIN:** Thanks, Glenn.
 
-**GLENN DIESEN:** You're renowned for using historical patterns and game theory to predict the direction of geopolitics, and from the election of Trump to the invasion of Iran, you've been pretty much spot on. So I thought, who better to ask about what to expect for this year 2026? We've certainly gone off to a very rough start.
+**Diesen:** You're renowned for using historical patterns and game theory to predict the direction of geopolitics, and from the election of Trump to the invasion of Iran, you've been pretty much spot on. So I thought, who better to ask about what to expect for this year 2026? We've certainly gone off to a very rough start.
 
 Before we look into 2026, can I ask you: what makes your geopolitical predictions more accurate? Do you rely on economic structure, elite politics, ideology, or the military balance?
 
@@ -51,7 +51,7 @@ By invading Venezuela, Trump hopes to force China to buy oil using US dollars. C
 
 This is the grand strategy being played out: Trump is conducting these wars around the world in order to strangle the Chinese economy so that China becomes reliant on the Western Hemisphere for supplies and is therefore forced to buy more US dollars. That's the great game we are witnessing right now in 2026.
 
-**GLENN DIESEN:** But it looks like this can go both ways. If the United States really wanted China to use the US dollar — and there are a lot of benefits for China to do so — then they would want to do the exact opposite: create trust and an open, predictable international economic system in which the rule of law comes first.
+**Diesen:** But it looks like this can go both ways. If the United States really wanted China to use the US dollar — and there are a lot of benefits for China to do so — then they would want to do the exact opposite: create trust and an open, predictable international economic system in which the rule of law comes first.
 
 The problem with forcing compliance is that it suggests all rules are cast aside. Look at the efforts to cut China off from semiconductors and crush its tech industry — all of these things have the opposite effect. They convince the Chinese to go in a different direction. If they bow to the pressure, they would essentially be owned by the United States.
 
@@ -71,7 +71,7 @@ What we're seeing is almost mutually assured destruction. Imagine a ladder over 
 
 We would not be in this situation if the United States showed some humility and started to treat China as an equal. But unfortunately, we are where we are.
 
-**GLENN DIESEN:** Yeah, that's why I initially asked about ideology. Often in political realism the assumption is that states are rational, but we see with ideology over the past 30 years a whole political class being raised on the notion that peace in the world requires the hegemony of the West because it will elevate liberal democratic values. It's the idea that they can't imagine a world that is not based on dominance. And I think this is fueling a lot of irrational behavior. If it's a problem in the US, it's definitely a problem in Europe.
+**Diesen:** Yeah, that's why I initially asked about ideology. Often in political realism the assumption is that states are rational, but we see with ideology over the past 30 years a whole political class being raised on the notion that peace in the world requires the hegemony of the West because it will elevate liberal democratic values. It's the idea that they can't imagine a world that is not based on dominance. And I think this is fueling a lot of irrational behavior. If it's a problem in the US, it's definitely a problem in Europe.
 
 I like that you pulled China into the Venezuelan issue because many people miss that. Venezuela did offer to accommodate American energy companies, but it's not only about the US getting access — it's also about denying or conditioning access for rival great powers. That's an important aspect.
 
@@ -81,7 +81,7 @@ Kissinger made a similar comment back in 2014 in regard to Russia. He said if th
 
 Second, what happened in Venezuela with Maduro being kidnapped — a lot of people say America did this to capture Venezuela's oil resources. That's not true. What America did was to spite China. America is not going to go in and build up Venezuela's oil infrastructure. That will cost tens of billions of dollars and take many years before it can bring the industry up to modern standards. What it's doing is cutting off access to China. That's the entire goal. It's not to claim the oil and it's not to benefit US oil companies. It's just to spite China.
 
-**GLENN DIESEN:** I agree. This is why they keep referring to the Monroe Doctrine. China is the main concern there because if you want to control your own hemisphere, seeing China as the main trade partner to all of Latin America is something that has to be reversed.
+**Diesen:** I agree. This is why they keep referring to the Monroe Doctrine. China is the main concern there because if you want to control your own hemisphere, seeing China as the main trade partner to all of Latin America is something that has to be reversed.
 
 How do you factor in the unknown variables? For example, if I would predict one thing for 2026, it will be an economic crisis for the United States. Once an economic crisis kicks in, it manifests itself in political and social instability. The rationality of states tends to wither away when things at home go poorly, and they will seek quick fixes and easy solutions, like tariff policies or allowing economic conflicts to escalate into war.
 
@@ -101,15 +101,15 @@ The third great weakness is cryptocurrency, which is all speculation and brings 
 
 Because of oligarchs who control the resources, the ability to print money through quantitative easing, and no real challenger to the US dollar, this bubble can sustain itself past 2026. But when it collapses, the entire society collapses. You're basically looking at civil war.
 
-**GLENN DIESEN:** So civil war in America?
+**Diesen:** So civil war in America?
 
 **JIANG XUEQIN:** Yes.
 
-**GLENN DIESEN:** In terms of gold and silver, you would assume that this rally will continue then, given that paper gold and paper silver have been inflated so far beyond what actually exists in terms of hard assets.
+**Diesen:** In terms of gold and silver, you would assume that this rally will continue then, given that paper gold and paper silver have been inflated so far beyond what actually exists in terms of hard assets.
 
 **JIANG XUEQIN:** Demand exceeds supply. Silver goes into AI, EVs, batteries — silver is the best metal conductor in the world. The world cannot produce enough silver, and this has been true for the past five years while China and the United States are investing heavily in AI. Right now there's a major fight for access to silver. This goes back again to Venezuela, where Latin America and South America are the world's greatest producers of silver. Whoever controls Latin America basically has control over the AI future.
 
-**GLENN DIESEN:** Things look a bit grim for the United States with all these bubbles. Once this begins to fall apart, civil war becomes a real possibility. But how do you see this affecting the rivalry with China? What are the strategic priorities on the Chinese side, and how do you see them pursuing them? One would assume China would also become a bit more assertive as it becomes more confident, but also as the pressure builds on the United States to break China and restore the 1990s if you will.
+**Diesen:** Things look a bit grim for the United States with all these bubbles. Once this begins to fall apart, civil war becomes a real possibility. But how do you see this affecting the rivalry with China? What are the strategic priorities on the Chinese side, and how do you see them pursuing them? One would assume China would also become a bit more assertive as it becomes more confident, but also as the pressure builds on the United States to break China and restore the 1990s if you will.
 
 **JIANG XUEQIN:** The greatest strength and the greatest vulnerability of the United States is the US dollar. The greatest strength and the greatest weakness of China is its reliance on exports. China is an export-oriented economy, and sometimes its export strategies are counterproductive.
 
@@ -117,7 +117,7 @@ The United States is threatening to strangle, embargo, or blockade China. One th
 
 The opposite is also true: if Taiwan were to side with Japan, the first island chain could embargo China and block it from trade. So in 2026 you'll see a lot more heated rhetoric between China and Japan. Both economies are dependent on Middle East oil, and whoever can control the Strait of Malacca can basically strangle the other's economy.
 
-**GLENN DIESEN:** This is the classical problem. It looks a bit like pre-World War I: China has outgrown this security and economic architecture, which is more or less designed to contain China. If there's not a diplomatic path, conflict becomes unavoidable.
+**Diesen:** This is the classical problem. It looks a bit like pre-World War I: China has outgrown this security and economic architecture, which is more or less designed to contain China. If there's not a diplomatic path, conflict becomes unavoidable.
 
 If we shift toward Europe, which includes Russia, you said the Ukraine war has been more or less settled and stabilized. I'm assuming you're not referring to stable front lines, but that the future of the conflict has been determined. On the other side, Europeans are increasing rhetoric that they can't afford peace — if the war ends then Russia would focus its resources on them. One after another, European leaders and media outlets are saying war may be better than peace now.
 
@@ -127,7 +127,7 @@ Are we prepared to end this war, or how do you see this playing out?
 
 What Europe is really saying is that we banked on Russia losing this war and then we could impose an indemnity on Russia and that would solve all our fiscal problems. Now that Russia is winning, we are facing economic collapse at home and we don't really want to face that. So we're going to continue the war and hope for the best. There's no strategy here. It's suicidal. It's irrational. But Europe is stuck where it is.
 
-**GLENN DIESEN:** Whenever I ask different experts what they see as the likelihood of a direct war between Russia and the Europeans, they usually say very little because the Europeans don't have the troops — it would be suicidal. But this assumes all wars are calculated and deliberate. An accidental war by miscalculation would be rooted in this assumption of escalation control. The Europeans can't afford to see Russia win, so they'll send a little bit more long-range missiles, try to target political leadership, blow up some Russian tankers. They escalate at the same time as pressure is mounting on Moscow to stop allowing the Europeans to step over all red lines.
+**Diesen:** Whenever I ask different experts what they see as the likelihood of a direct war between Russia and the Europeans, they usually say very little because the Europeans don't have the troops — it would be suicidal. But this assumes all wars are calculated and deliberate. An accidental war by miscalculation would be rooted in this assumption of escalation control. The Europeans can't afford to see Russia win, so they'll send a little bit more long-range missiles, try to target political leadership, blow up some Russian tankers. They escalate at the same time as pressure is mounting on Moscow to stop allowing the Europeans to step over all red lines.
 
 Why should the Russians accept the Europeans engaging in direct attacks killing Russians? So they will then retaliate. I don't think the Europeans want a direct war. They would just like to kill Russians through Ukraine and claim their hands are clean. But I don't think this is coming to an end. From what I hear coming out of Moscow, we're reaching the end of the line, and especially the Germans should be hit hard if they continue along this path.
 
@@ -139,7 +139,7 @@ If you watch their media, they repeat this over and over and it becomes a self-r
 
 If you talk about irrationality, go back to World War I and those four or five years where millions of people were dying for no reason. The reason was these leaders just could not accept the possibility that they had made a mistake. They can't afford to admit that maybe sending Boris Johnson to sabotage peace talks was wrong, maybe blowing up Nord Stream was wrong, maybe antagonizing Russia for 20 years by expanding NATO to its borders was wrong. These people absolutely refuse to admit they're wrong and they're willing to sacrifice their own nations to avoid admitting it.
 
-**GLENN DIESEN:** Even now that NATO losing Ukraine is starting to become obvious, the new goal appears to be "let's lose slower." Let's keep the Ukrainians a little bit longer in the fight, even though it will be a humanitarian disaster for Ukraine and also a strategic disaster for Europe.
+**Diesen:** Even now that NATO losing Ukraine is starting to become obvious, the new goal appears to be "let's lose slower." Let's keep the Ukrainians a little bit longer in the fight, even though it will be a humanitarian disaster for Ukraine and also a strategic disaster for Europe.
 
 How do you see this playing out in the European security architecture? The EU and NATO are the two main pillars of how Europe has been structured in the post-Cold War era. They were supposed to be the hegemonic order of Europe, also what US unipolarity was supposed to rest on, especially NATO. Do you see them being able to survive? 2026 might hold on, but it seems to be deteriorating fast. As we speak, Trump is laying claim to Greenland, and the Danish prime minister is trying to refer to Article 5, but I'm not sure if America would come to the defense of Greenland if America goes after Greenland. This is kind of absurd stuff.
 
@@ -153,7 +153,7 @@ This war will be settled in Odessa. I think NATO will collapse in Odessa because
 
 But this is a 5-to-10-year timeframe. It's going to be a slow death for Europe. So Odessa would be the end of the Ukraine war then.
 
-**GLENN DIESEN:** That makes sense. The Russians have set their eyes on Odessa. To a large extent this is about the Black Sea, and of course this is where NATO attacks Russia from, primarily from Odessa. I think the British and French would never accept giving up Odessa. This is the key prize in this war. So yeah, you're probably spot on there.
+**Diesen:** That makes sense. The Russians have set their eyes on Odessa. To a large extent this is about the Black Sea, and of course this is where NATO attacks Russia from, primarily from Odessa. I think the British and French would never accept giving up Odessa. This is the key prize in this war. So yeah, you're probably spot on there.
 
 How about Europe's goal of strategic autonomy? We heard for many years "strategic autonomy, European sovereignty." These were the slogans of the EU. It's in very stark contrast to the subservience to a US which hates Europe. How do you see the internal cohesion holding in place? Europe succeeded when it was able to deliver economic benefits to its member states as a collective bargaining power. I don't see that anymore.
 
@@ -165,7 +165,7 @@ If you interview these immigrants in Britain and ask if they are willing to go f
 
 You will conscript quite a few because these European nations have become authoritarian, but it's going to destroy the societies. So Europe is no longer capable of fighting a full-scale conflict with Russia.
 
-**GLENN DIESEN:** I get the same impression now that the Europeans are being told that we have to go and die to fight Russia. And if you ask why, they will refer to the nation and the typical things people would die for. But they spent the past years if not decades expressing contempt for our faith, our traditions, our culture. And now we're supposed to die for it. What are we dying for? It doesn't really make any sense. This is what nationalism is. People kill for it but they're also willing to die for it.
+**Diesen:** I get the same impression now that the Europeans are being told that we have to go and die to fight Russia. And if you ask why, they will refer to the nation and the typical things people would die for. But they spent the past years if not decades expressing contempt for our faith, our traditions, our culture. And now we're supposed to die for it. What are we dying for? It doesn't really make any sense. This is what nationalism is. People kill for it but they're also willing to die for it.
 
 How does this play into the United States? The Europeans were a key partner of the US in the past during the Cold War and the hegemonic era. But what do you see the Americans doing now if they are drifting further away from the Europeans? Will they abandon bloc politics or will they simply demand subservience? How will the US build this power moving forward? This is what perplexes many European politicians. Every time America slams them or threatens to take Greenland, they all go on Twitter saying "we're good allies, you need us to be great," but it doesn't appear that this sentiment is shared by Washington. So what will the US build its power on?
 
@@ -179,13 +179,13 @@ The United States national security strategy is very clear: it's going to use th
 
 I think that's the national security strategy going forward. The United States is intent on maintaining its hegemony for the US dollar and so it needs to make China subordinate to the US dollar, dependent on the dollar.
 
-**GLENN DIESEN:** This idea that in this new imperial phase of the United States they will either exploit or abandon — I don't think the Europeans appreciate this. I heard the same from Americans as well: we were trying to decide whether or not we should make it an exclusive sphere of influence for the United States or just extract the wealth. But if it's a choice between exploiting or abandoning, the Europeans can't envision a future without the leadership of the US. So they're allowing the US to extract wealth at the moment through trying to move companies across the Atlantic or these trade deals which are so horrible, but they still signed them on Trump's golf course. But of course this is a temporary fix. Once America has extracted everything it needs, Europe is even weaker, more irrelevant, and it will be abandoned anyway.
+**Diesen:** This idea that in this new imperial phase of the United States they will either exploit or abandon — I don't think the Europeans appreciate this. I heard the same from Americans as well: we were trying to decide whether or not we should make it an exclusive sphere of influence for the United States or just extract the wealth. But if it's a choice between exploiting or abandoning, the Europeans can't envision a future without the leadership of the US. So they're allowing the US to extract wealth at the moment through trying to move companies across the Atlantic or these trade deals which are so horrible, but they still signed them on Trump's golf course. But of course this is a temporary fix. Once America has extracted everything it needs, Europe is even weaker, more irrelevant, and it will be abandoned anyway.
 
 But there's no discussion in the political class what to do. It's just the assumption that Trump is a bad man and if we just wait him out things will go back to normal. That's literally what they're doing. They believe that in 2028 the Democrats will come in and reverse all of Trump's policies as Biden did in 2020. And what the Europeans don't realize is that this is a new reality. We're not going back to 2020. Even if the Democrats were to come in in 2028, they're going to maintain Trump's imperial policies because this is in the best interest of America. America has no benefit from helping Europe in any way.
 
 **JIANG XUEQIN:** Especially if it grows even more irrelevant.
 
-**GLENN DIESEN:** But they don't see it in terms of national interest and the value of an alliance. They talk about friendship and values.
+**Diesen:** But they don't see it in terms of national interest and the value of an alliance. They talk about friendship and values.
 
 **JIANG XUEQIN:** But that's again where the ideology comes in. They convince themselves that this is what glues us together as opposed to having common strategic interest.
 
@@ -205,13 +205,13 @@ But instead it chose to do what it did because it wanted to project strength and
 
 We see this all the time when empires are in decline: not only does it antagonize its enemies but also antagonizes its own allies and exploits its vassals. What the United States is doing is suicidal. It's short-term, it's stupid. In the short term, for the next two to three years, it will look great in that America is able to control the entire Western Hemisphere or the world bows to America. In the long term, you have sown the seeds for global discontent, for a global revolution against American power. Basically I think that the American empire is done with.
 
-**GLENN DIESEN:** The French philosopher Emmanuel Todd calls this "micro-militarism" and he sees it as a common trait of a declining empire: to seek military solutions against minor states, easy targets, to project strength and cover up declining status in the world.
+**Diesen:** The French philosopher Emmanuel Todd calls this "micro-militarism" and he sees it as a common trait of a declining empire: to seek military solutions against minor states, easy targets, to project strength and cover up declining status in the world.
 
 Maduro was resented in many places in Latin America, especially by the Brazilians. But none of the Latin Americans want to see this kind of thing — the US restoring its empire and hegemony across the Americas through military force. It's so counterproductive it seems.
 
 **JIANG XUEQIN:** Maduro, regardless of his faults — and he has lots of faults — he was the head of state of Venezuela. He represented the nation state. So when you kidnap Maduro in this manner and humiliate him in such a manner in New York City, you are humiliating the entirety of the Venezuelan people as well. So this can only end in disaster for America.
 
-**GLENN DIESEN:** In the US, a lot of people fiercely hate Donald Trump, especially the Democrats. But if you would have China or Russia kidnapping Donald Trump and parading him down the streets, this will be a national humiliation. Even the biggest haters of Trump would see this as an attack on America.
+**Diesen:** In the US, a lot of people fiercely hate Donald Trump, especially the Democrats. But if you would have China or Russia kidnapping Donald Trump and parading him down the streets, this will be a national humiliation. Even the biggest haters of Trump would see this as an attack on America.
 
 But again, this is the problem when you only focus on leaders. The assumption is you take this guy out, put in someone else and then everything will be fine. Even this time they didn't even put in someone new. Just took the leader and then hoped that everything would fall apart. I think whenever we call our adversaries "dictators," this is the assumption: you just remove the head of state and then everything will fall apart.
 
@@ -219,21 +219,21 @@ But again, this is the problem when you only focus on leaders. The assumption is
 
 Trump when he was with The Apprentice had the best ratings on TV, but whenever Trump ran a business, he ran it into the ground. He destroyed every single business that he touched. So that's the man he is. He's going to get great TV ratings, but he's destroyed America in the process.
 
-**GLENN DIESEN:** I often refer to this scene in the head with Zelensky in the Oval Office when after scolding Zelensky he just looked towards the camera: "Well, this is great TV." I think he forgets the actual role he's in.
+**Diesen:** I often refer to this scene in the head with Zelensky in the Oval Office when after scolding Zelensky he just looked towards the camera: "Well, this is great TV." I think he forgets the actual role he's in.
 
 **JIANG XUEQIN:** He does not live in our world. He lives in his own world — Trump world — and it's all make-believe. In his world he thinks that if he can manifest this idea, if he can make enough people believe this idea, it will become reality. In his world he thinks that he is making America great again by resurrecting the American empire. He believes that by capturing Maduro, by bombing Iran, he is projecting force and if people understand how powerful America is, everyone will bow to America and just obey America and all the problems will just vanish. The debt will vanish. The polarization will vanish. All this discontent will vanish.
 
-**GLENN DIESEN:** It's possible he's able to topple the government there. But I did think it was a bit premature when he kidnaps Maduro and then he says, "Well, we're going to run Venezuela now like a colony until we find someone to take over like a puppet regime." I thought, well, don't sell the fur onto our skin before we kill the bear. The government is still in place. I thought it was a bit premature, but again, maybe they have a plan or maybe it's just complete delusion. Who knows?
+**Diesen:** It's possible he's able to topple the government there. But I did think it was a bit premature when he kidnaps Maduro and then he says, "Well, we're going to run Venezuela now like a colony until we find someone to take over like a puppet regime." I thought, well, don't sell the fur onto our skin before we kill the bear. The government is still in place. I thought it was a bit premature, but again, maybe they have a plan or maybe it's just complete delusion. Who knows?
 
 **JIANG XUEQIN:** In Trump world, because he was able to kidnap Maduro, which was a feat of spectacular television, he thought he had won the war and now the people of Venezuela must obey him because he's proven himself to be the god Emperor Trump. In his mind, he literally believes that he now controls Venezuela because he now has Maduro in his hands.
 
-**GLENN DIESEN:** On the global south though, do you see any other developments or predictions for 2026? Given that you predicted the attack on Iran, do you see another attack in 2026 because it appears that the Israelis are selling this very hard to Trump?
+**Diesen:** On the global south though, do you see any other developments or predictions for 2026? Given that you predicted the attack on Iran, do you see another attack in 2026 because it appears that the Israelis are selling this very hard to Trump?
 
 **JIANG XUEQIN:** Trump is going to continue his attacks everywhere. Expect land strikes against cartels in Mexico. Expect land strikes in Colombia. That massive American navy assembled in the Caribbean is not going away. It's still going to attack fishing boats. It's still going to do what it's going to do. So the American military presence in the Caribbean is only going to increase because what Trump wants to do is bring the entire global south under its control.
 
 And then in April when he goes to China, he now has leverage over China. Everything is leading to April where Trump wants to sit down with China and negotiate a grand bargain in which, for example: we control Venezuela, but we will allow you to go into Venezuela and build the oil infrastructure so you can extract it and buy from us with US dollars. That's literally what Trump has planned in April.
 
-**GLENN DIESEN:** And how will the Chinese respond to this though?
+**Diesen:** And how will the Chinese respond to this though?
 
 **JIANG XUEQIN:** That's a great question. And how China responds will determine the next five years. I'm based in China. I know China very well. Right now there's a lot of debate within China. There's a lot of different factions who propose different strategies. Some are very pro-Russian and say in the long term we're better off with Russia. But there are also factions who say we don't become too reliant on Russia. If we get 100% of our oil supply from Russia that's going to be a problem. So maybe it's better to get 50% from America and 50% from Russia.
 
@@ -241,7 +241,7 @@ You have a whole spectrum of views, and what China will decide in April will dep
 
 I couldn't tell you right now what will happen in April, but my thinking is — if I were a betting man — I would think that China and the United States will come to a grand bargain. But this grand bargain will not actually alter the geopolitical landscape, meaning that the empire will still collapse and you'll still have wars raging around the world.
 
-**GLENN DIESEN:** The three main rules of energy security are diversify, diversify, diversify. So it's probably a good move for China not to become excessively dependent on Russia. Main partner — good. But no country would want to put themselves in that position where all eggs are in one basket.
+**Diesen:** The three main rules of energy security are diversify, diversify, diversify. So it's probably a good move for China not to become excessively dependent on Russia. Main partner — good. But no country would want to put themselves in that position where all eggs are in one basket.
 
 Back to Iran though. There are many countries who could be next: Colombia, Cuba, Mexico, Panama, de facto Denmark with Greenland, go back to Gaza, Lebanon, they could lose Syria, go back in there, Russia intensify, China of course, Nigeria — maybe they're not done bombing there. So there seems to be a lot of countries on Trump's war list.
 
@@ -257,13 +257,13 @@ Iran itself is facing a lot of economic issues because of this American embargo.
 
 In 2026 I think we'll see an acceleration of events, but maybe 2027 is when we'll have the full climax.
 
-**GLENN DIESEN:** With this great power rivalry with the Chinese, the Russians reasserting dominance over the Western Hemisphere during an economic crisis, it just seems going after a ground invasion of Iran would really be overextending. This is not going to be Iraq. This is a very different animal. Iran is huge territory. It's a much larger population. It's much more powerful militarily. This could be a disaster.
+**Diesen:** With this great power rivalry with the Chinese, the Russians reasserting dominance over the Western Hemisphere during an economic crisis, it just seems going after a ground invasion of Iran would really be overextending. This is not going to be Iraq. This is a very different animal. Iran is huge territory. It's a much larger population. It's much more powerful militarily. This could be a disaster.
 
 **JIANG XUEQIN:** Facts don't matter to Trump. They've never mattered to Trump. They tried for the longest time to give Trump press briefings — daily briefings where he was updated on geopolitics. At first it was a page and they recognized he doesn't even have the attention span for a page. So they made it a paragraph and they recognized he can't even read a paragraph. So what they figured out was that this guy watches TV all the time. If you want Trump's attention, if you want him to recognize certain aspects of foreign policy, you need to go on Fox News and tell it to him there.
 
 This guy's brain is a TV set and so he doesn't recognize the fundamental rules of geopolitics. He doesn't understand what it means to be overextended, what it means to have enough resources to fight wars. All he sees is optics. He thinks that this thing in Venezuela was a huge success. Why can't we do the same thing in Mexico? Why can't we do the same thing in Cuba? And why can't we do the same thing in Iran? For Trump, it's all about optics, about visuals. He sees Delta Force operators flying into Iran and blowing things up and that's how his mind works.
 
-**GLENN DIESEN:** There's a lot of focus on the United States overextending its hard power, but I think it's also overextending its diplomatic capital because Trump only speaks in this language of "oh this is my dear friend" or best friends in order to be his good cop, or he's going to destroy you which is his bad cop. But it's either or, and he tends to switch back and forth to the point — at least what I hear from the Russians — that they don't take him that seriously anymore because nothing he says will last for more than a week because he will switch again. Now he's "Vladimir my good friend" and now "I will destroy their economy and we'll kill some more Russians." There's no consistency.
+**Diesen:** There's a lot of focus on the United States overextending its hard power, but I think it's also overextending its diplomatic capital because Trump only speaks in this language of "oh this is my dear friend" or best friends in order to be his good cop, or he's going to destroy you which is his bad cop. But it's either or, and he tends to switch back and forth to the point — at least what I hear from the Russians — that they don't take him that seriously anymore because nothing he says will last for more than a week because he will switch again. Now he's "Vladimir my good friend" and now "I will destroy their economy and we'll kill some more Russians." There's no consistency.
 
 That was my point with China as well. Either you build trust in America's economic infrastructure or you try to coerce something, but you can't do both.
 
@@ -271,7 +271,7 @@ That was my point with China as well. Either you build trust in America's econom
 
 This Maduro raid was counterproductive for the United States. It really hurt the American standing around the world. It made America look like a criminal enterprise, but he doesn't care because it made him look good on TV.
 
-**GLENN DIESEN:** Do you have any final thoughts on 2026 before we wrap up?
+**Diesen:** Do you have any final thoughts on 2026 before we wrap up?
 
 **JIANG XUEQIN:** I would say that this event in April when Trump visits China — Trump needs to figure out a lot of things before April. What we're seeing in South America is the United States establishing hegemony, military hegemony throughout South America. We will see an escalation of that over the next few months, especially with regards to Colombia and Mexico, possibly Brazil as well where Trump gets into an argument with Lula for whatever reason. Trump likes to show that he's the boss.
 
@@ -283,7 +283,7 @@ Trump needs to resolve the China issue and the reason why is the endgame is Iran
 
 The endgame is Iran. China is maybe the penultimate boss before Iran. But if I were a betting man — and I think people will be surprised by this — China and the United States will come to an arrangement.
 
-**GLENN DIESEN:** I'll keep an eye on April then. I like the idea that if there's two major powers, the US and China, that can work out a deal then other pieces can fall in place. On the other hand, if they work out a deal, it could also be something about the US asserting its dominance in its near abroad. The Arabs have a nice expression: when the elephants fight, the grass gets trampled, but when the elephants make love it also gets flattened. So they're screwed anyway.
+**Diesen:** I'll keep an eye on April then. I like the idea that if there's two major powers, the US and China, that can work out a deal then other pieces can fall in place. On the other hand, if they work out a deal, it could also be something about the US asserting its dominance in its near abroad. The Arabs have a nice expression: when the elephants fight, the grass gets trampled, but when the elephants make love it also gets flattened. So they're screwed anyway.
 
 Thank you so much for taking the time.
 
@@ -292,8 +292,8 @@ Thank you so much for taking the time.
 ingest_date: 2026-05-11
 pub_date: 2026-01-05
 thread: diesen
-show: Glenn Diesen - Greater Eurasia Podcast
-host: Glenn Diesen
+show: Diesen - Greater Eurasia Podcast
+host: Diesen
 guest: Jiang Xueqin
 title: "Jiang Xueqin: Predictions for 2026 - Empire, Rivalry & Collapse"
 source_url: "https://www.youtube.com/watch?v=ORyCS0r2Tpg"

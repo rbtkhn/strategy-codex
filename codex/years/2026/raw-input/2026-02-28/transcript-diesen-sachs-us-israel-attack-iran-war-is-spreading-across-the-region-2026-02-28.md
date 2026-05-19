@@ -2,8 +2,8 @@
 ingest_date: 2026-05-18
 pub_date: 2026-02-28
 kind: operator-transcript
-show: Glenn Diesen
-host: Glenn Diesen
+show: Diesen
+host: Diesen
 guest: Professor Jeffrey Sachs
 thread_expert: sachs
 source_note: Operator-pasted transcript supplied in chat. Canonical watch URL pinned from the Diesen profile ledger after live YouTube metadata discovery was blocked.
@@ -18,12 +18,12 @@ title_slug: diesen-sachs-us-israel-attack-iran-war-is-spreading-across-the-regio
 
 **Speakers:**
 
-- **Glenn Diesen** (host)
+- **Diesen** (host)
 - **Professor Jeffrey Sachs** (guest)
 
 ---
 
-**Glenn Diesen:** Welcome back. We are joined today by Professor Jeffrey Sachs to discuss the war being launched in Iran. We see that CNN reported that a deal was within reach and then a few hours later Israel and the US attacked Iran and well attacks are reported to have been carried out across Iran and Iran has is now retaliating in a very big way hitting American military bases and targets across the region.
+**Diesen:** Welcome back. We are joined today by Professor Jeffrey Sachs to discuss the war being launched in Iran. We see that CNN reported that a deal was within reach and then a few hours later Israel and the US attacked Iran and well attacks are reported to have been carried out across Iran and Iran has is now retaliating in a very big way hitting American military bases and targets across the region.
 
 We see attacks on Bahrain, Qatar, and Kuwait, United Arab Emirates, Jordan, Iraq, perhaps Saudi Arabia, and of course striking several cities in Israel. I was wondering how you read the situation and what are the objectives of the United States and how do you explain the I guess fierce response from the Iranians?
 
@@ -41,11 +41,11 @@ So, this is a war with a tremendous amount of political instability in the warri
 
 So, this is nothing about imminent threat, provocations, or nuclear weapons, actually. This is just about hegemony and regime change. Regional hegemony by Israel and global hegemony by the United States.
 
-**Glenn Diesen:** Is all this comments about Iran and threat, nuclear weapons, helping protesters, freedom? You probably saw Trump's war speech this morning.
+**Diesen:** Is all this comments about Iran and threat, nuclear weapons, helping protesters, freedom? You probably saw Trump's war speech this morning.
 
 **Professor Jeffrey Sachs:** It's quite extraordinary because it does say a lot about what Marco Rubio spoke recently about the need to restore the dominance of the West.
 
-**Glenn Diesen:** I think you're spot-on. There's a lot of uncertainty and insecurity at the moment with relative decline.
+**Diesen:** I think you're spot-on. There's a lot of uncertainty and insecurity at the moment with relative decline.
 
 **Professor Jeffrey Sachs:** Let me just add: there's an old movie, *The Wizard of Oz*, where at the end the great wizard is exposed as the little dog pulls the curtain back and shows that it's just an old man speaking into a megaphone. The odd part about American propaganda these days is that the curtain was pulled back long ago.
 
@@ -59,13 +59,13 @@ Most of the time the United States acts violently, repulsively, but it pretends 
 
 The explanation is clear that Israel is supposed to run the Middle East, dominate it, be greater Israel. Our own ambassador to the Middle East, Mike Huckabee, who represents the Christian Zionists in the United States, the roughly 20% of Americans who are fundamentalist evangelical Protestants, said, "It's all Israel's to take. God gave it to them." So, this is another part of the story.
 
-**Glenn Diesen:** Was he reprimanded for saying that?
+**Diesen:** Was he reprimanded for saying that?
 
 **Professor Jeffrey Sachs:** No, I'm sure there were cheers in the White House for that. No reprimands whatsoever. The Arab world is very sad in this. The Arab world has been essentially under imperial rule since 1517, since the Ottoman conquests of Arab lands. The Arabs were under Ottoman rule for centuries, then they were under British rule, and now they're under US and Israeli rule. They're pretty much supine. They don't dare speak. They have American military bases all over their territories. They're occupied lands, basically, and they just go along with this.
 
 It's all very dangerous and very sad.
 
-**Glenn Diesen:** What if they see wider ramifications? We see US allies across the region being attacked. This is not great for American credibility. What if America fails in this endeavor to destroy Iran or achieve regime change? There are a lot of things that can go wrong here.
+**Diesen:** What if they see wider ramifications? We see US allies across the region being attacked. This is not great for American credibility. What if America fails in this endeavor to destroy Iran or achieve regime change? There are a lot of things that can go wrong here.
 
 **Professor Jeffrey Sachs:** It will fail one way or another because 4% of the world cannot run the world. The premise of this is the same premise as the British Empire at the end of the 19th century. I recently read a speech given by Joseph Chamberlain, head of the Colonial Office in 1897, saying that Britain would dominate the world as far as the eye can see, and of course 50 years later there was no British Empire anymore.
 
@@ -83,7 +83,7 @@ We're entering our own elections in November that Trump may try to subvert becau
 
 Think also of Pakistan, a nuclear power in open war with Afghanistan right now. What does that mean? Where did that come from? What is the US role in this? I would suspect the US role is quite real in this, in fact. So, I think that there is a lot that is very destabilizing in this and the idea that this is a 12-day war and a new Iranian regime comes in that loves Israel and the United States is a fantasy.
 
-**Glenn Diesen:** How do you view the response by America's allies? We have the European Union tweeting out nothing that can even be interpreted as criticism of the United States.
+**Diesen:** How do you view the response by America's allies? We have the European Union tweeting out nothing that can even be interpreted as criticism of the United States.
 
 **Professor Jeffrey Sachs:** I haven't seen a critical comment yet. Kaja Kallas exposes Brussels again as almost fascistic, by the way. The attack is on Iran, not on the United States for launching a premeditated aggression. Not a word about that. Carney frankly shocks me today. Extremely disappointing. Of course, I've only read one statement. I don't know the full context, but from what I read at least, Carney backed the United States. Australia backed the United States.
 
@@ -101,7 +101,7 @@ It's linked to the CIA, Mossad, and the military-industrial complex, which is pe
 
 But the shock that you get a brazen, premeditated, extraordinarily violent and vulgar attack on Iran, and Europe jumps up and says, "Right on," and Canada and Australia and I'm sure a few others shows the kind of world that we're in right now. There is currently no principle, and Trump also wants to prove that this is the world of gangsters, and he wants to be gangster number one.
 
-**Glenn Diesen:** How severe is it domestically in the United States as well? There is already a division between the MAGA crowd and people who don't like that Israel is put before America.
+**Diesen:** How severe is it domestically in the United States as well? There is already a division between the MAGA crowd and people who don't like that Israel is put before America.
 
 **Professor Jeffrey Sachs:** The theory is that Iran will be decapitated, the massive attacks will subdue Iran in short order, and all will be quiet soon. Trump will declare a triumph. He will be a hero, and things will go on. That's the US view. It's possible. You might put that at 5% or 10%.
 
@@ -121,22 +121,22 @@ This is the reality that we're in right now. But this is not a stable imperium i
 
 It is not going to come back to stability in a day or a month, no matter what happens in the very short term. Trump lit a fuse that will absolutely end with the end of the US as it is right now in its hegemony, and I think probably eventually the end of Israel as it is also within the next decade or two. This is an explosion that was set off today that is very big and is not going to be put down in some quick decapitation strike in a regime change operation.
 
-**Glenn Diesen:** I was on Judge Napolitano last night and I was making the point that there is no pathway here. It predictably sets the world on fire.
+**Diesen:** I was on Judge Napolitano last night and I was making the point that there is no pathway here. It predictably sets the world on fire.
 
 **Professor Jeffrey Sachs:** You and I and people who think with reason and consequences would say no, this could not exist. When I woke up this morning in New York I turned on the news. I was dumbfounded the same way. Even with the Omani mediator saying late last night that good progress was being made and that they would meet in Vienna next week.
 
 But I think the war machine in the United States and Israel is extremely powerful. This is a kind of fascism with a different face, but it's very powerful. And the only president in my whole lifetime that tried to stop it was President Kennedy in 1963 and the CIA killed him after that. And that's one message also to presidents that has lasted since then. This is a war machine. You are a temporary occupant of office and you just watch yourself.
 
-**Glenn Diesen:** I really hope that Trump will see that this is a massive failure and get an early stop to this.
+**Diesen:** I really hope that Trump will see that this is a massive failure and get an early stop to this.
 
 **Professor Jeffrey Sachs:** Even more than Trump, who I give no hope for, if the rest of the world would raise their voice on the basic principle that war can end everything and that the reason we have the United Nations and Article 2, Paragraph 4 that says that it is illegal to threaten the use of force or to use force against any UN member state. If they would abide by that principle which was established in 1945 to prevent what just happened and to stop it after it happens.
 
 This is our hope. The hope is not Trump. The hope is not Netanyahu. The hope is not from inside the United States. The hope is that most of the world, maybe not the vassal states of the United States but most of the world, will say this is completely outrageous, dangerous, and illegal. This is, I know it seems like a vain hope, but it's the one that I think is the only path right now to getting this turned off.
 
-**Glenn Diesen:** Well, don't expect a peep from the European settlers. This is quite new levels of spinelessness and lack of principles day by day.
+**Diesen:** Well, don't expect a peep from the European settlers. This is quite new levels of spinelessness and lack of principles day by day.
 
 **Professor Jeffrey Sachs:** Indeed.
 
-**Glenn Diesen:** Thank you very much for taking the time and let's hope this does not get out of control.
+**Diesen:** Thank you very much for taking the time and let's hope this does not get out of control.
 
 **Professor Jeffrey Sachs:** Yeah, thank you. Thank you.

@@ -1,13 +1,13 @@
 ---
-title: "Alastair Crooke: Iran War Is Now a Global War for World Order (Glenn Diesen)"
+title: "Alastair Crooke: Iran War Is Now a Global War for World Order (Diesen)"
 aired: 2026-04-27
 ingested: 2026-04-27
 source: operator_paste
-interviewer: Glenn Diesen
+interviewer: Diesen
 guest: Alastair Crooke
 threads: [diesen, crooke]
 kind: cleaned-transcript
-editorial_note: Cleaned transcript with speaker names supplied by operator (Glenn Diesen, Alastair Crooke).
+editorial_note: Cleaned transcript with speaker names supplied by operator (Diesen, Alastair Crooke).
 source_url: https://www.youtube.com/watch?v=OW3_a-oUrVQ
 canonical_url: https://www.youtube.com/watch?v=OW3_a-oUrVQ
 ---
@@ -18,13 +18,13 @@ canonical_url: https://www.youtube.com/watch?v=OW3_a-oUrVQ
 
 # Alastair Crooke: Iran War Is Now a Global War for World Order
 
-**Glenn Diesen:** Welcome back. Today is April 27th, 2026, and I have the great pleasure of being joined by Alastair Crooke, who is a renowned British diplomat and negotiator who worked for decades on addressing conflicts in the Middle East. He is also the founder and director of Conflicts Forum, and the link to his great Substack can be found in the description.
+**Diesen:** Welcome back. Today is April 27th, 2026, and I have the great pleasure of being joined by Alastair Crooke, who is a renowned British diplomat and negotiator who worked for decades on addressing conflicts in the Middle East. He is also the founder and director of Conflicts Forum, and the link to his great Substack can be found in the description.
 
 So thank you very much for coming back on the program.
 
 **Alastair Crooke:** Thank you. Thank you. Always a pleasure joining you.
 
-**Glenn Diesen:** So it seems that we are at risk of a greater war with both Iran and Russia. But I thought we could start with Iran.
+**Diesen:** So it seems that we are at risk of a greater war with both Iran and Russia. But I thought we could start with Iran.
 
 First of all, there’s a lot of confusion here. That is, are the peace negotiations still going on? Is the ceasefire actually still here?
 
@@ -86,7 +86,7 @@ So we’re in a slightly new era, which is why I think there’s mischief going 
 
 I know there are people who feel that the solution could be put together. I don’t see a path to the solution, and I can explain why, if you would like.
 
-**Glenn Diesen:** Actually, yeah, that’s my next question. I was going to ask what prospects there are for a negotiated settlement.
+**Diesen:** Actually, yeah, that’s my next question. I was going to ask what prospects there are for a negotiated settlement.
 
 First, you described returning to the JCPOA as almost a prison, and it does feel like this is the war objective of Iran: a prison break, in which control of Hormuz is essentially the main instrument towards this end.
 
@@ -230,7 +230,7 @@ So I find it very difficult to see a simple path. I don’t think the idea that 
 
 And now Iran has said on the record publicly: no, we’re not talking the nuclear issue now. We’re talking economic cost and we’re talking about sanctions and tariffs. This is going to be the discussion. Maybe, if all that’s resolved, who knows? We can talk the nuclear issue again.
 
-**Glenn Diesen:** Yeah. Well, this is not the United States, but I saw von der Leyen from the European Union making the point that sanctions will not come off Iran because of values. The regime has to change this and that.
+**Diesen:** Yeah. Well, this is not the United States, but I saw von der Leyen from the European Union making the point that sanctions will not come off Iran because of values. The regime has to change this and that.
 
 It’s intended to sound very principled, but it also comes off as delusional at times.
 
@@ -248,7 +248,7 @@ Of course the containment, sanctions, siege on Iran, to break the Iranian spirit
 
 So this is why I keep saying Iran’s aim in this war is to break the whole paradigm — the paradigm of putting Iran, as you put it, in a jail.
 
-**Glenn Diesen:** Exactly.
+**Diesen:** Exactly.
 
 Just a final question, then. It seems like this is then a war of attrition, both in the military sense but also economic. That is, who can absorb the most pain and, of course, inflict pain on the other side.
 
@@ -294,7 +294,7 @@ The umbrella of the hegemony of the dollar and the hegemony of the military, cou
 
 So I think it has this global aspect.
 
-**Glenn Diesen:** No, that’s interesting. Well, I don’t think Trump expected that this war, which was supposed to be a quick Venezuela-like operation, would turn out into a war which could bring down the American world order. It’s quite a dramatic development.
+**Diesen:** No, that’s interesting. Well, I don’t think Trump expected that this war, which was supposed to be a quick Venezuela-like operation, would turn out into a war which could bring down the American world order. It’s quite a dramatic development.
 
 Anyways, thank you very much, as always, for taking the time.
 

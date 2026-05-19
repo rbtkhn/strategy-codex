@@ -2,9 +2,9 @@
 ingest_date: 2026-04-21
 pub_date: 2026-02-25
 kind: operator-transcript
-show: Glenn Diesen (Greater Eurasia)
+show: Diesen (Greater Eurasia)
 episode_title: "John Mearsheimer: The Case for a Nuclear Iran"
-host: Glenn Diesen
+host: Diesen
 guest: John Mearsheimer
 threads: [diesen, mearsheimer]
 thread_expert: mearsheimer
@@ -21,15 +21,15 @@ related_same_series:
   - ./substack-pape-the-smart-bomb-trap-2026-02-25.md
 ---
 
-# Glenn Diesen × John Mearsheimer — The Case for a Nuclear Iran (operator transcript)
+# Diesen × John Mearsheimer — The Case for a Nuclear Iran (operator transcript)
 
 **John Mearsheimer: The Case for a Nuclear Iran**
 
-**Glenn Diesen:** Welcome back. We are joined today by Professor John Mearsheimer to discuss what appears to be a pending war against Iran. Thank you as always for taking the time.
+**Diesen:** Welcome back. We are joined today by Professor John Mearsheimer to discuss what appears to be a pending war against Iran. Thank you as always for taking the time.
 
 **John Mearsheimer:** My pleasure as always, Glenn, to be here.
 
-**Glenn Diesen:** The US appears to be in the final stages before an attack on Iran. I guess we can conclude this from the buildup of these military capabilities and the stated intentions. They all seem to indicate this. However, on the other side, I don’t really see a very clear outcome here or a strategy for how victory should be defined. A lot of things can go wrong.
+**Diesen:** The US appears to be in the final stages before an attack on Iran. I guess we can conclude this from the buildup of these military capabilities and the stated intentions. They all seem to indicate this. However, on the other side, I don’t really see a very clear outcome here or a strategy for how victory should be defined. A lot of things can go wrong.
 
 Do you think this attack will happen? It’s almost impossible to feel confident leaning one way or the other. But I actually think a case can be made that after last night’s State of the Union address, it looks like Trump is looking for an off-ramp here. Let me give you my take on it. Again, I want to be clear: I’m not arguing that Trump has decided not to attack, but I think we’re leaning slightly in that direction.
 
@@ -55,7 +55,7 @@ It seems to me, Glenn, those are the secret words. Those are what President Trum
 
 When you marry that to the broader context, it does look like you’re not going to have a war. Now again, I want to emphasize: I’m not saying that Trump won’t strike Iran. Nobody ever wants to feel any high level of confidence in predicting what he will do. But this morning as we talk here in the United States — or I guess it’s the evening there in Europe — it does look like President Trump is searching for an off-ramp.
 
-**Glenn Diesen:** That’s a great point though because I kind of assumed that the war was unavoidable if there wasn’t any possibility of a peace deal. But of course that was because I knew that the Iranians wouldn’t move an inch on the issue of enrichment for civilian purposes, the ballistic missiles, as well as its regional ally alliances.
+**Diesen:** That’s a great point though because I kind of assumed that the war was unavoidable if there wasn’t any possibility of a peace deal. But of course that was because I knew that the Iranians wouldn’t move an inch on the issue of enrichment for civilian purposes, the ballistic missiles, as well as its regional ally alliances.
 
 However, if it’s about nuclear weapons then there’s a possibility for a deal. There used to be a deal called the JCPOA. This is why that’s a reason for optimism if that suggests Trump is walking some of this back.
 
@@ -65,7 +65,7 @@ I think there’s no question that the two sides can work out a deal that looks 
 
 Trump has boxed himself in. If he’s going to strike a deal that looks something like the JCPOA, both Trump obviously and the Iranians as well have to work together to make it look like this is a better deal for everyone so that we can put this one to bed.
 
-**Glenn Diesen:** Let me ask a wider question though, just taking a step back. Why the war to begin with? Is there a misplaced threat perception here? Do you see how Iran is a threat to the United States? No one is suggesting that it has the capabilities now to attack the US. No one’s suggesting that it has the ability to have nuclear weapons now either. So if you look at the capabilities as well as the intentions, I don’t see neither the capabilities nor the intentions of striking the United States.
+**Diesen:** Let me ask a wider question though, just taking a step back. Why the war to begin with? Is there a misplaced threat perception here? Do you see how Iran is a threat to the United States? No one is suggesting that it has the capabilities now to attack the US. No one’s suggesting that it has the ability to have nuclear weapons now either. So if you look at the capabilities as well as the intentions, I don’t see neither the capabilities nor the intentions of striking the United States.
 
 Do you think the threat perception has been inflated or why is it such a sudden and imminent need to attack Iran?
 
@@ -85,7 +85,7 @@ Just think, Glenn, about all the times that Benjamin Netanyahu has come to the W
 
 This just goes to show you that Benjamin Netanyahu is profoundly committed to getting the United States to attack Iran for Israel. That’s what’s going on here. It’s a bit of an indictment of academia these times as well. I’ve noticed the same. It’s not about getting the story right. It’s about obedience to the narrative.
 
-**Glenn Diesen:** But let me ask one question though. If even if Iran had the capabilities of attacking the United States, surely a lot of the discussion should have been organized around deterrence because anyone planning to attack the United States would be out of their mind. It is the US by far the most powerful military force on the planet. So this is madness and anyone could be deterred, especially the Iranians.
+**Diesen:** But let me ask one question though. If even if Iran had the capabilities of attacking the United States, surely a lot of the discussion should have been organized around deterrence because anyone planning to attack the United States would be out of their mind. It is the US by far the most powerful military force on the planet. So this is madness and anyone could be deterred, especially the Iranians.
 
 Often the argument then is organized around the idea that well Iran’s simply not a rational actor and this is kind of the image we have — that Iran is this fanatic, irrational mullahs just seeking to destroy Israel and America at any cost. How do you read Iran though? Is this just war propaganda or do you see Iran as a rational actor? If they are a rational actor, what do you see as being the threats they’re responding to? What’s the rational way of responding to those threats?
 
@@ -107,7 +107,7 @@ Remember, it was the Iraqis who invaded Iran in the early 1980s. Iran did not in
 
 In terms of rationality, I think all of the evidence is that Iran is a rational state. When you listen to the Foreign Minister talk and when you listen to the Ayatollah talk, they talk to me in rational, legal terms. What they say usually makes sense. This is not to say I agree with everything they say, but to make the argument that these are sort of raving lunatics — these are people who are foaming at the mouth and just looking for an opportunity to start a war and do great destruction to the United States or to Israel — I just don’t see that.
 
-**Glenn Diesen:** No, I agree. I think the image of Iran has been severely manipulated. When I was in Tehran, I almost expected another version of a Taliban. When you just saw people walking outside, women aren’t covered, polite people — you realize how much you’ve been influenced by the media.
+**Diesen:** No, I agree. I think the image of Iran has been severely manipulated. When I was in Tehran, I almost expected another version of a Taliban. When you just saw people walking outside, women aren’t covered, polite people — you realize how much you’ve been influenced by the media.
 
 On the issue of rationality and nuclear weapons though, does Iran have to be irrational to acquire nuclear weapons? Because I would think there’s a very rational argument for why Iran should get that nuclear weapon. I just want to make it very clear that this is not a normative statement about whether they should get it, but rather just a rational security-maximizing argument.
 
@@ -129,7 +129,7 @@ But that doesn’t mean the Russians or the Chinese or any other country that ha
 
 I would just say that the idea that Iran is irrational because it wants nuclear weapons — it’s a laughable argument, but it’s the kind of discourse that we have in the West. I believe again that much of that is driven by Israel and the lobby.
 
-**Glenn Diesen:** Before you expressed some optimism after Trump’s State of the Union speech that he seems to be walking some of this back. In the past it appears that he’s been putting himself in a trap, boxing himself in to some extent because he sent all of these military capabilities to the Middle East. I think this is the highest concentration since the invasion of Iraq in 2003.
+**Diesen:** Before you expressed some optimism after Trump’s State of the Union speech that he seems to be walking some of this back. In the past it appears that he’s been putting himself in a trap, boxing himself in to some extent because he sent all of these military capabilities to the Middle East. I think this is the highest concentration since the invasion of Iraq in 2003.
 
 You have this massive pressure coming from Israel. Do you think walking this whole thing back — the only thing he needs to hear is the magical word from Iran that we won’t get nuclear weapons — because the Iranians have said this consistently over the decades and they’ve been showing willingness to have these deals with transparency. Do you think this is enough to diffuse the whole situation?
 
@@ -143,7 +143,7 @@ It’s just very important to understand that. Nevertheless, there is a real dan
 
 I actually think that a lot of people inside of the lobby and a lot of Israelis and certainly a lot of American Jews understand this danger here. So I think if it looks like we’re going off a cliff, I think the lobby would not put much pressure on Trump to cut a deal with the Iranians because of the potential threat of a massive increase in anti-Semitism as a result of a lost war, a catastrophic war that’s blamed on Israel and the lobby.
 
-**Glenn Diesen:** I think you’re probably correct in this. It also has to be said that a lot of the leading critics within the US of Israel are American Jews though. It’s not as if everything Israel does is to be compared to Judaism. I think that would be a wrong direction to take. Of course the racists are rarely purely rational in their rhetoric. So I see that danger as well.
+**Diesen:** I think you’re probably correct in this. It also has to be said that a lot of the leading critics within the US of Israel are American Jews though. It’s not as if everything Israel does is to be compared to Judaism. I think that would be a wrong direction to take. Of course the racists are rarely purely rational in their rhetoric. So I see that danger as well.
 
 How do you see the Europeans in this because they have responded in some very strange ways. The EU of course is giving its full support at least rhetorically. I think Merz positions himself now as the number one Trump man to support whatever Trump wants to do. The British are also of course supportive but they didn’t want to send any weapons. Then now they do want to send weapons but Trump doesn’t want it because according to Trump they already won.
 
@@ -163,6 +163,6 @@ It just doesn’t matter very much. This war is going to be settled between the 
 
 So Europe is in real trouble. It started with the Ukraine war and this war just makes a bad situation much worse.
 
-**Glenn Diesen:** Thank you very much, John, for taking the time. As always I always learn a lot listening to you. Thank you and I hope you come back on soon.
+**Diesen:** Thank you very much, John, for taking the time. As always I always learn a lot listening to you. Thank you and I hope you come back on soon.
 
 **John Mearsheimer:** Thank you for having me, Glenn. I enjoyed the conversation. I just wish the subject wasn’t so depressing.

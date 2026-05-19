@@ -2,8 +2,8 @@
 ingest_date: 2026-05-05
 pub_date: 2026-05-05
 kind: cleaned-transcript
-show: Glenn Diesen
-host: Glenn Diesen
+show: Diesen
+host: Diesen
 guest: Yanis Varoufakis
 thread: diesen
 source_url: https://www.youtube.com/watch?v=jW3RnY_7GYk
@@ -12,13 +12,13 @@ title_slug: diesen-varoufakis-europe-decline-2026-05-05
 editorial_note: Preserve as raw cleaned transcript; verify economic and institutional claims before promotion beyond analyst tier.
 ---
 
-# Glenn Diesen - Yanis Varoufakis on Europe, Decline, and the EU Project - 2026-05-05
+# Diesen - Yanis Varoufakis on Europe, Decline, and the EU Project - 2026-05-05
 
-Glenn Diesen: Welcome back. We are joined today by Yanis Varoufakis, a professor, former finance minister of Greece, and also the founder of DiEM25.
+Diesen: Welcome back. We are joined today by Yanis Varoufakis, a professor, former finance minister of Greece, and also the founder of DiEM25.
 
 Yanis Varoufakis: Always a pleasure, Glenn. Always a pleasure.
 
-Glenn Diesen: It seems that we're seeing this economic stagnation if not decline, much more authoritarian EU, warmongering and I think eventually disintegration. What is your view? What do you see happening to Europe as well as the European project?
+Diesen: It seems that we're seeing this economic stagnation if not decline, much more authoritarian EU, warmongering and I think eventually disintegration. What is your view? What do you see happening to Europe as well as the European project?
 
 Yanis Varoufakis: We are on a trajectory which is leading Europe to a very long period of decline and stagnation - decline financially, ecologically, morally.
 
@@ -28,13 +28,13 @@ The way they ran it was intended to achieve one objective and one objective alon
 
 The chickens have come home to roost because once you transfer these gigantic losses of the bankers onto the shoulders of the weakest of taxpayers and you impose austerity upon the majority, then aggregate demand falls massively.
 
-Glenn Diesen: Germany was the locomotive driving Europe forward. But now we also see at the heart of the EU, Germany itself has reversed in many ways.
+Diesen: Germany was the locomotive driving Europe forward. But now we also see at the heart of the EU, Germany itself has reversed in many ways.
 
 Yanis Varoufakis: Why is Germany de-industrializing? Why can't Volkswagen produce cars that are competitive vis-à-vis BYD or even Tesla? The answer is because they haven't really invested in the last 15 years.
 
 The only way that they can justify producing Leopard tanks is to say we have a war happening in Ukraine and so we need to rearm. The continuation of the war in Ukraine is functional because they have no industrial policy.
 
-Glenn Diesen: What is it that is holding these 27 EU member states together today?
+Diesen: What is it that is holding these 27 EU member states together today?
 
 Yanis Varoufakis: The European Union was created as a cartel of big business and it was done under the supervision of the United States. It was a colonial project to a very large extent.
 
@@ -44,7 +44,7 @@ Europe was always absolutely dependent on the kindness of the United States to c
 
 Now Donald Trump is being portrayed by centrists all over Europe as being the man who destroyed the special relationship between the European Union and the United States. This is not true. Trump is just ruder than previous presidents were.
 
-Glenn Diesen: What is your impression? Because when I saw for example Orbán trying to push for diplomacy, he was punished. The EU seems to define energy security as cutting off a key supplier instead of getting as many suppliers as possible.
+Diesen: What is your impression? Because when I saw for example Orbán trying to push for diplomacy, he was punished. The EU seems to define energy security as cutting off a key supplier instead of getting as many suppliers as possible.
 
 Yanis Varoufakis: I don't think there are objectives. I think that they are completely clueless and they are clueless because when your industrial base is failing and you don't have the levers which are necessary to pull in order to bring it back together, panic follows.
 
@@ -54,7 +54,7 @@ It is like taking the shock absorbers out of your car and then driving it into a
 
 I don't think they have a plan on Ukraine. No plan for winning the war, but they have no plan for peace.
 
-Glenn Diesen: But it seems as if the issue of rationality is something that should be addressed.
+Diesen: But it seems as if the issue of rationality is something that should be addressed.
 
 Yanis Varoufakis: This is the state of Europe. They didn't think it through. They didn't have a plan for what would happen if Wall Street collapses as it did in 2008.
 
@@ -64,13 +64,13 @@ So now even Emmanuel Macron wants a political union, but try to go to the people
 
 You have political dwarfs ruling the roost. Ursula von der Leyen flew to Scotland and met Trump in a golf course and signed a ridiculous trade deal where Europe gave everything and took nothing.
 
-Glenn Diesen: Do you have any final thoughts before we wrap up?
+Diesen: Do you have any final thoughts before we wrap up?
 
 Yanis Varoufakis: The way things are today are pointing towards a 100 years of humiliation doesn't mean that it has to be that way. If we change our mind and we act collectively and rationally then we can prevent that century of humiliation.
 
 That's why we need to throw them out. That's why we need to overthrow them.
 
-Glenn Diesen: Thank you very much though for taking time.
+Diesen: Thank you very much though for taking time.
 
 Yanis Varoufakis: Well, thank you.
 

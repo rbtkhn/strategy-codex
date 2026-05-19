@@ -5,26 +5,26 @@ kind: cleaned-transcript
 source_type: youtube
 transcript_type: ai_assisted_operator_pasted_youtube_transcript
 thread: diesen
-show: Glenn Diesen
-host: Glenn Diesen
+show: Diesen
+host: Diesen
 guest: Stanislav Krapivnik
-title: "Glenn Diesen with Stanislav Krapivnik: NATO-Russia Escalation - Another Big Step Toward Nuclear War"
+title: "Diesen with Stanislav Krapivnik: NATO-Russia Escalation - Another Big Step Toward Nuclear War"
 source_url: https://www.youtube.com/watch?v=ir8ZaqdhAB8
 publication: youtube.com
-slug: glenn-diesen-stanislav-krapivnik-nato-russia-escalation-nuclear-war
+slug: diesen-stanislav-krapivnik-nato-russia-escalation-nuclear-war
 capture_note: Operator paste; cleaned transcript preserved verbatim from companion capture.
 source_note: "Operator-pasted cleaned YouTube transcript with speaker labels."
 normalization_state: proper-noun-pass
 quality_note: "Proper-noun normalization applied 2026-05-15; cleaned-transcript state reflects the operator capture note, not verbatim human verification."
 ---
 
-# Glenn Diesen with Stanislav Krapivnik: NATO-Russia Escalation - Another Big Step Toward Nuclear War
+# Diesen with Stanislav Krapivnik: NATO-Russia Escalation - Another Big Step Toward Nuclear War
 
-**Glenn Diesen:** Welcome back. Today we are joined by Stanislav Krapivnik, a former US Army officer from Donbas and, well, since his army service, returned back to Donbas. So thank you for coming back on the program.
+**Diesen:** Welcome back. Today we are joined by Stanislav Krapivnik, a former US Army officer from Donbas and, well, since his army service, returned back to Donbas. So thank you for coming back on the program.
 
 **Stanislav Krapivnik:** Thank you. Always a pleasure.
 
-**Glenn Diesen:** So I get the impression the NATO-Russia proxy war keeps escalating and we’re moving towards very dangerous terrain. One of the things or developments we’ve seen lately is the amount of drones which are being used to overwhelm the Russian air defenses. And Europeans especially do not shy away from, well, essentially bragging about how they’re contributing to this. And a lot of this is also of course intended not just to overwhelm their defenses but also to do these deep strikes within Russia and again putting no secret that the target is Russia’s energy installations among other targets. I was wondering how do you see the situation?
+**Diesen:** So I get the impression the NATO-Russia proxy war keeps escalating and we’re moving towards very dangerous terrain. One of the things or developments we’ve seen lately is the amount of drones which are being used to overwhelm the Russian air defenses. And Europeans especially do not shy away from, well, essentially bragging about how they’re contributing to this. And a lot of this is also of course intended not just to overwhelm their defenses but also to do these deep strikes within Russia and again putting no secret that the target is Russia’s energy installations among other targets. I was wondering how do you see the situation?
 
 **Stanislav Krapivnik:** I’m going to say a few words that probably some people are going to think are overblown, but they’re not. And I’ve spoken with various military officials. Look, we’re entering - by mid to late summer if there’s not a ground war going on, considering everything the European Union is about to be hit with including starvation at least in the lower classes - we are going to be entering a zone of possible nuclear war. And I’ll explain why right now.
 
@@ -38,13 +38,13 @@ So what you’re going to have is you have a nuclear superpower, blind, facing o
 
 The logic behind here for that blinded superpower is to strike first. I don’t know what’s coming. I know the other guy has a doctrine to hit me the moment he thinks he can get away with it. The only logic left here is to strike first with everything and exterminate the enemy because tomorrow I might not be able to do it. That’s the logic we are now in or at least heading into. And if the Europeans don’t have enough brain power to stop themselves, there will not be a Europe. There’ll be a nuclear desert in the northern hemisphere. I don’t know how else to put it.
 
-**Glenn Diesen:** Yeah. I’m a bit surprised by the lack of restraint because I remember when Russia’s radar systems - that is the early warning systems that’s supposed to warn against a nuclear strike - has no purpose in the theater of the Ukraine war when it was hit, was barely mentioned in the media. And I had on Ted Postol, the MIT professor who also advised the Pentagon, and he was making the point how outrageous this is, how extreme. The only purpose for doing this, the only way they could do it was with the assistance of the US, and the only purpose for striking this is to enable a US nuclear first strike. And then of course as we saw in June of last year the hitting of the nuclear triad of the Russian Federation. I mean this is incredible stuff.
+**Diesen:** Yeah. I’m a bit surprised by the lack of restraint because I remember when Russia’s radar systems - that is the early warning systems that’s supposed to warn against a nuclear strike - has no purpose in the theater of the Ukraine war when it was hit, was barely mentioned in the media. And I had on Ted Postol, the MIT professor who also advised the Pentagon, and he was making the point how outrageous this is, how extreme. The only purpose for doing this, the only way they could do it was with the assistance of the US, and the only purpose for striking this is to enable a US nuclear first strike. And then of course as we saw in June of last year the hitting of the nuclear triad of the Russian Federation. I mean this is incredible stuff.
 
 This is pushing Russia to take a more offensive approach, that is not wait until the first strike comes.
 
 **Stanislav Krapivnik:** Yes sir.
 
-**Glenn Diesen:** But there’s one other approach I’m sorry to - there’s one other approach and that’s as a first strike on a conventional weapon scale. For example, with the Russians to take out the factories that are manufacturing these drones. Sure it may mean war with all of Europe but it doesn’t mean nuclear first strike.
+**Diesen:** But there’s one other approach I’m sorry to - there’s one other approach and that’s as a first strike on a conventional weapon scale. For example, with the Russians to take out the factories that are manufacturing these drones. Sure it may mean war with all of Europe but it doesn’t mean nuclear first strike.
 
 **Stanislav Krapivnik:** But how serious do we know the Kremlin is taking this though? That is the threat to its nuclear deterrent because you would think that alarm bells would be going off but how serious do they take it and I guess what would be a proportional response here because nobody wants an all-out nuclear exchange.
 
@@ -54,7 +54,7 @@ Now it would be much less dangerous if the US had a second strike only policy th
 
 There was a study done about 15-16 years ago on how many nuclear strikes, key by key targets, how many key targets in the US would have to be destroyed to turn the US into a medieval economy. They probably shattered the country for a hundred years or possibly politically shattered forever. Take a wild guess how many targets need to be hit.
 
-**Glenn Diesen:** I would know.
+**Diesen:** I would know.
 
 **Stanislav Krapivnik:** 47. 47. That’s your key cities, your key nuclear power plants, your key oil and gas facilities. There’s only 47 spots that need to be taken out. And the US is done. Economically, it’s done for the next 100 plus years. Its key population, decision and manufacturing centers are gone. Its key industry areas are gone. Its key logistic areas are gone.
 
@@ -66,7 +66,7 @@ The non-Russian European subcontinent as part of Eurasia - by the way, Russia, i
 
 But I don’t think the European officials, the people sure still don’t get it. I mean, you remember the 1980s, medium range ballistic missiles became a thing and there were mass demonstrations because, oh, all of a sudden it’s not the Soviet Union and the US that are going to be doing the exchange. We’re going to be the first ones hit. Oh no, we don’t like this. And the crowds came out in the streets and in the end the whole class of nuclear missiles and nuclear weapons was banned. Now we got them back. So Europe is very much going to be the first things hit and then maybe America.
 
-**Glenn Diesen:** Yeah. Well, there’s a weird mass hysteria I think in Europe now though because if one would warn that well perhaps striking the early radar system of Russia, maybe bombing its nuclear deterrent, that is maybe this is risking World War III and a nuclear exchange. They usually come back - because I have warned about this many times - the usual feedback is well Ukraine has right to defend itself. This is pro-Russian talking points. So there’s an immunity now towards common sense. It’s this is the fallback of all things that is you just have this binary option. Either you support the Russians or you support the Ukrainians and supporting Ukrainians mean you don’t discuss risks such as nuclear war and so it’s impossible to challenge this essentially. So it’s a very dangerous path we’re in.
+**Diesen:** Yeah. Well, there’s a weird mass hysteria I think in Europe now though because if one would warn that well perhaps striking the early radar system of Russia, maybe bombing its nuclear deterrent, that is maybe this is risking World War III and a nuclear exchange. They usually come back - because I have warned about this many times - the usual feedback is well Ukraine has right to defend itself. This is pro-Russian talking points. So there’s an immunity now towards common sense. It’s this is the fallback of all things that is you just have this binary option. Either you support the Russians or you support the Ukrainians and supporting Ukrainians mean you don’t discuss risks such as nuclear war and so it’s impossible to challenge this essentially. So it’s a very dangerous path we’re in.
 
 And this is often the argument that’s being made also by a common guest on my program, the former CIA director for Russia analysis, which is George Beebe, that the Europeans are really trapped now in narratives. There’s no strategic thinking anymore. It’s just sloganering and everyone locked themselves into very destructive positions.
 
@@ -86,7 +86,7 @@ So they’re number one, they’re driving up the cost on the markets which is a
 
 As you said, they really can’t stop themselves. And I didn’t finish answering the last question that you asked. I can’t speak for the civilian leadership in the Kremlin, but the military is looking at this very seriously enough to discuss nuclear first strike I think and definitely strikes on the drone plants inside of the rest of Europe. Even if it risks a conventional world war, well, you know, at this point it’s still better than a nuclear exchange.
 
-**Glenn Diesen:** Yeah. Well, on another escalation which might come sooner would be the threat by Zelensky to strike the 9th of May Victory Day parade in Moscow. And I saw that Zakharova she made a comment that if the EU doesn’t rein back or put Zelensky under control and this attack actually goes through then she advised the different European leaders their embassies to evacuate Kiev immediately because the retaliation would be kind of immense. Do you think this is just Zelensky trying to sow uncertainty and bring Ukraine back into the news or do you think this is something he might actually carry out?
+**Diesen:** Yeah. Well, on another escalation which might come sooner would be the threat by Zelensky to strike the 9th of May Victory Day parade in Moscow. And I saw that Zakharova she made a comment that if the EU doesn’t rein back or put Zelensky under control and this attack actually goes through then she advised the different European leaders their embassies to evacuate Kiev immediately because the retaliation would be kind of immense. Do you think this is just Zelensky trying to sow uncertainty and bring Ukraine back into the news or do you think this is something he might actually carry out?
 
 **Stanislav Krapivnik:** The first does not negate the second. Of course he wants to be at the head. And I think at this point which I mean look you’re number one it’s always hard to tell how much the crackhead is in charge and how much the Americans and the British are in charge particularly the American CIA and then the British in general. The American CIA is on destroy Russia mode no matter what it costs. They’re also I think very much locked into this very destructive mode and definitely the British. They’re all in even to I think the possible extermination of England. It’s these people have lost sanity a long time ago and the British people had better wake the hell up because they may be lost with them in all possible nuclear exchange one day. Not that England exactly has anything to exchange with. Even the missiles are not their own and neither are the Typhoon submarines. They’re all rented from the US.
 
@@ -98,7 +98,7 @@ And of course from the western side of you look the Ukrainians are meat. Let’s
 
 The Europeans, to the average European, Ukrainians are more of a pain in the ass. And some kind of Eastern savages. They don’t care how many of them die off. The Americans sure don’t care about how many of them die off. All they hear is a ching every time a Ukrainian turns into a corpse. And if you can get a Russian, that’s even great. It’s all ching-ching. It’s money in the bank. That’s I mean beating around the bush and making euphemisms about what they are is pointless. Let’s just talk reality. It’s horrid. It’s brutal. And that’s what it is. To the average Western politician and their backers, it’s all money. It’s just meat for the grinder and it’s all money. And it’s never been anything else.
 
-**Glenn Diesen:** Yeah. I can’t help but to notice that every time there’s some expression of empathy for the suffering of the Ukrainians, it always translates into sending more of their youth to the trenches. I mean if there’s other issues, things that can’t be used for warfare such as the busification, Ukrainians being dragged out of their homes and sent to the front or any of the sort, then suddenly the empathy is kind of gone. This can’t be used in any instrumental way.
+**Diesen:** Yeah. I can’t help but to notice that every time there’s some expression of empathy for the suffering of the Ukrainians, it always translates into sending more of their youth to the trenches. I mean if there’s other issues, things that can’t be used for warfare such as the busification, Ukrainians being dragged out of their homes and sent to the front or any of the sort, then suddenly the empathy is kind of gone. This can’t be used in any instrumental way.
 
 Well my last question was just about what do you see currently on the front line because it seems well that the Russians are doing quite well in the Donbas region in Kharkov region also Sumy for that matter but in the Zaporozhye region we see that the Ukrainians have had some successes especially of the past week along the Dnieper there. How are you reading the situation?
 
@@ -112,7 +112,7 @@ But the main thing I’ve seen is from this trip is the reorganization of Russia
 
 So and these are separate now from the anti-aircraft air defense drone battalions. So the anti-drone units are now separate and categorically inside of air defense organisations, regiments, battalions. And these are going to be the offensive but they’re now being specialised. So you’ve got new schools opening up just inside of Russia and closer to the battlefield. The units are opening up their own schools because as many people are going through they need more and now they’re being standardised a lot of it being standardised though there are development. I was in one of these labs that they are developing their own drones or modifying their own drones and whatever Ukrainians toss out a new idea they just bring it down and they take it apart and remodify it and move on with new models. So they have a limited capability of developing their own drones plus what’s coming in from centralised manufacturing and it’s all going into a very professional organisation and they’ve got plenty of candidates signing up.
 
-**Glenn Diesen:** Actually before I forget I wanted to ask you as well about Russia’s activities now in Africa or more specifically Mali. It doesn’t really pop much up in the news. How would you give an overview of what is actually happening there in terms of the fighting?
+**Diesen:** Actually before I forget I wanted to ask you as well about Russia’s activities now in Africa or more specifically Mali. It doesn’t really pop much up in the news. How would you give an overview of what is actually happening there in terms of the fighting?
 
 **Stanislav Krapivnik:** Pretty much abject failure. They try to do the Syria scenario. I’ve got to look up some of the names of I did Fortnite but I’m horrible with names. The president of Mali, let’s see. The difference between him and Assad. Assad turned away from Russia, then he turned away from China and Iran. All three were offering to upgrade his military. Just open your economy, let us invest, which would have brought jobs in too. He wanted to be loved by the West. So he went and got loved by the West. He was trying to cozy up with the Saudis and the UAE to get back in the grace of the US and he really got in the grace of the US. What can you say? El Ghani now runs that pardon my French show.
 
@@ -134,16 +134,16 @@ But the point is not that these guys came in. That’s not a surprise. It’s wh
 
 And the interesting thing is Burkina Faso, they sent troops to assist Mali. So Burkina Faso, Mali, and Niger they’ve basically and Niger was under attack too. Something that’s not really hitting the news. Russia’s in all of these countries. All these countries have all three have formed basically a self-defense alliance because they knew the French would be back and the Americans are back and the French and the Ukrainian proxies are working directly for their masters. This is nothing new. Ukrainians are arming any jihadists, cartel thugs from Colombia and Mexico and so on. These guys this is they’re the American proxy in all of this.
 
-**Glenn Diesen:** Incredible how suddenly you see this fighting between Russians and Ukrainians from Africa and how it’s spreading across the world. It’s amazing developments. Anyway...
+**Diesen:** Incredible how suddenly you see this fighting between Russians and Ukrainians from Africa and how it’s spreading across the world. It’s amazing developments. Anyway...
 
 **Stanislav Krapivnik:** One thing I want to add, I’m sorry sir. One thing I want to add to this. Something that’s not getting talked about. You see, the French are extremely desperate. First of all, Mali has uranium. Mali has eight gold mines. Mali has finally started to build up a gold reserve. France has a huge gold reserve. No gold mines. They just taken it out from Mali when Mali was part of their neo-colonial empire. Well, Mali, most of Mali doesn’t have electricity. Russia’s Rosatom is in the process of starting to build three nuclear power plants for Mali. Not only is this going to give electricity to the people, this is going to have the electricity needed for manufacturing. So Mali is no longer going to be desperate and selling its raw resources. It’s not going to be able to walk up the value chain, start processing those resources, maybe even finishing bring up finished goods. Mali is going to get rich or at least a lot richer than it was off of its own resources. They’ll let Western Europeans continue to steal them at rock bottom.
 
 You know the uranium that Macron and everybody before Macron was buying because you know you have very little uranium in this big rock. You have to chemically bleach it out. But you buy the ore it’s 99.99% of that ore is just rock and you bleach out the uranium out it. Well, the golden price on the market is $250 a ton. Just to understand, the French were buying at $50 a ton. Now they have to pay market value. So of course they’re pissed off. They lost their gold mines, they lost the uranium mines, they lost their cobalt mines. They’ve lost a lot by losing this portion of Sahel. And there’s a threat of everybody everything else going. You know, Madagascar had a revolution, got rid of the French neo-colonials. Russia wasn’t playing any role in that, but it’s catching on that hey, we no longer have to be under French tutelage one way or the other. We’ve got a choice which something Africa has not had in a very long time. So Sahel Africa anyways.
 
-**Glenn Diesen:** Well, thanks for sharing the insights and yeah know I’m going to start following what’s happening in Mali a bit closer because this is going to have massive consequences.
+**Diesen:** Well, thanks for sharing the insights and yeah know I’m going to start following what’s happening in Mali a bit closer because this is going to have massive consequences.
 
 **Stanislav Krapivnik:** Yeah. I mean, what we’re looking at is possibly World War III. I say World War I. World War I pretty much there was the refs fired a flare and everybody charges in with each other. And there was a few other countries that were ratting on as the war progressed like Greece and then Romania and Bulgaria or Romania. But World War II was actually a lot of different small wars that eventually grew into one continuous front line. Because we can’t forget the adventures of the Italians, the Japanese and others were having the Spanish Civil War. They’re all part of World War II. We’re seeing the same thing. The front line right now is in Ukraine, the front line is in the Persian Gulf, and now the front line is in Western Africa. And it’s growing. The number of these front lines, eventually they’re all going to merge into one big war if this doesn’t stop. And unfortunately, I don’t see the West stopping. The West is driving this. This is absolutely the West driving this.
 
-**Glenn Diesen:** I keep hearing the argument, we’re already in a world war. And that argument is starting to sound convincing.
+**Diesen:** I keep hearing the argument, we’re already in a world war. And that argument is starting to sound convincing.
 
 **Stanislav Krapivnik:** It does.

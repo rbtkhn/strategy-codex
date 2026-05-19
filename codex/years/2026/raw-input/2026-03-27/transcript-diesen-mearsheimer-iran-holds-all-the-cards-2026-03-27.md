@@ -2,9 +2,9 @@
 ingest_date: 2026-04-21
 pub_date: 2026-03-27
 kind: operator-transcript
-show: Glenn Diesen (Greater Eurasia)
+show: Diesen (Greater Eurasia)
 episode_title: "John Mearsheimer: Iran Holds All the Cards — The Strategic Defeat of the U.S."
-host: Glenn Diesen
+host: Diesen
 guest: John Mearsheimer
 threads: [diesen, mearsheimer]
 thread_expert: mearsheimer
@@ -21,11 +21,11 @@ related_same_series:
   - ../../freeman-diesen-2026-04-18-verbatim.md
 ---
 
-# Glenn Diesen × John Mearsheimer — Iran Holds All the Cards (operator transcript)
+# Diesen × John Mearsheimer — Iran Holds All the Cards (operator transcript)
 
 **John Mearsheimer: "Iran Holds All the Cards" — The Strategic Defeat of the U.S.**
 
-**Glenn Diesen:** Welcome back. We are joined again by Professor John Mearsheimer. Thank you very much for coming on the program. I was hoping today we can maybe first take a step back and look at the wider strategy of the United States under Trump. Because I was quite optimistic about his reelection. That is, he seemed to be capable of breaking from narratives and ideologies which I think the political West followed blindly over the past decades. This seemed to be a requirement to navigate or at least adjust to the new realities of the world — that the unipolar distribution of power was gone.
+**Diesen:** Welcome back. We are joined again by Professor John Mearsheimer. Thank you very much for coming on the program. I was hoping today we can maybe first take a step back and look at the wider strategy of the United States under Trump. Because I was quite optimistic about his reelection. That is, he seemed to be capable of breaking from narratives and ideologies which I think the political West followed blindly over the past decades. This seemed to be a requirement to navigate or at least adjust to the new realities of the world — that the unipolar distribution of power was gone.
 
 He recognized the US couldn't be everywhere. So he more or less suggested we have to go to the Western Hemisphere and East Asia, which means we have to pivot out of the Middle East and Europe. That meant ending the war with Russia. This trapped US resources in Europe and it pushed the Russians towards China. Also in the Middle East he was quite consistent on ending the forever wars. Overall what I'm trying to say is although he's a man who's not very civilized in his demeanor, what he said was a lot more rational than what I heard from other politicians.
 
@@ -47,7 +47,7 @@ He entered a war that he can't win and that could have — and one could argue i
 
 He starts off looking like he has a winning strategy. But 13-14 months later, he's jumped into a huge quagmire that he can't get out of. Truly amazing.
 
-**Glenn Diesen:** Regarding the optimism though, I wouldn't say it was rooted in being naïve. If you look, he did have a first term and unlike all his predecessors going back to World War II, he didn't start any new wars. So he seemed to follow through on his rhetoric. That's why this has come as a bit of a surprise — how his foreign policy in the second time around went down this path.
+**Diesen:** Regarding the optimism though, I wouldn't say it was rooted in being naïve. If you look, he did have a first term and unlike all his predecessors going back to World War II, he didn't start any new wars. So he seemed to follow through on his rhetoric. That's why this has come as a bit of a surprise — how his foreign policy in the second time around went down this path.
 
 But how do you make sense of the demands he's making now? Because you said he can't really get out of this. But if you listen to his language, he suggests that the Iranians are now begging for a deal. They're offering him all these ships full of oil if he will be so kind to give them a deal. The Iranians are simply saying they're not even talking to the US at the moment.
 
@@ -91,7 +91,7 @@ This tells you that President Trump has to be extremely careful that he doesn’
 
 So we’re in deep, deep trouble.
 
-**Glenn Diesen:** That’s a good point with the escalation ladder because the Iranians have a lot of cards to play here. That is not just to have shut down the Strait of Hormuz, but if they use Yemen to shut down the Red Sea, as you mentioned, with Saudi Arabia now they’re cut off from all access. If they destroy their desalination plants — easy, no water. Hit their energy fields — no energy. In places like Qatar where 85 to 90% of the population are foreigners, they would begin to leave and it would only be a desert left, which is how they found it.
+**Diesen:** That’s a good point with the escalation ladder because the Iranians have a lot of cards to play here. That is not just to have shut down the Strait of Hormuz, but if they use Yemen to shut down the Red Sea, as you mentioned, with Saudi Arabia now they’re cut off from all access. If they destroy their desalination plants — easy, no water. Hit their energy fields — no energy. In places like Qatar where 85 to 90% of the population are foreigners, they would begin to leave and it would only be a desert left, which is how they found it.
 
 So it is probably one of the most vulnerable countries in the world, this state. But you would have thought they would have considered this before going into this war because the Iranians were quite open about what they could do and what they would likely do. I know Trump said, “Who would have ever thought that they would strike US bases around the region?” They kept saying though, “This is what we’re going to do. We’re going to shut down the Strait of Hormuz. We’re going to attack your bases.”
 
@@ -137,7 +137,7 @@ It was a huge army — 540,000 troops. The same thing is true with the 2003 offe
 
 So that’s what they’re talking about doing now. There was no planning for this. There’s no strategy there. We’re basically screwed.
 
-**Glenn Diesen:** It’s not reassuring though when you have this kind of desperation, this much at stake. It seems like someone’s going to do something very rash when things start to go very wrong. I don’t know. I’m just praying that no one’s reaching for the nuclear weapons for a quick fix.
+**Diesen:** It’s not reassuring though when you have this kind of desperation, this much at stake. It seems like someone’s going to do something very rash when things start to go very wrong. I don’t know. I’m just praying that no one’s reaching for the nuclear weapons for a quick fix.
 
 But I was wondering — when he started this countdown, first 48 hours and 5 days then 10 days — it reminded me a little bit about what he did with the Russians. He was also putting I think 50 days, then this went down to 12 days. When the countdown was over, Russia was going to be hit by the toughest sanctions ever. When the clock finally ran out instead, he called Putin and they agreed to meet in Alaska. So he just pushed the whole thing aside.
 
@@ -179,10 +179,10 @@ He’s got to figure out a way to shut this one down. That means reaching some s
 
 The Iranians have no incentive to cut a deal quickly. They have no interest in cutting a deal. They have huge leverage now. The longer the war goes on, the more desperate President Trump gets. The more desperate President Trump gets, the more leverage they have.
 
-**Glenn Diesen:** Thank you very much for taking the time.
+**Diesen:** Thank you very much for taking the time.
 
 **John Mearsheimer:** Welcome, Glenn. All I will say is I hope that before I die, you and I have a conversation where we can have an optimistic conclusion to what we say over the course of the show. It does seem like we’re a long way from that point, however.
 
-**Glenn Diesen:** Yeah, I look forward to that. Hopefully that opportunity. So thanks.
+**Diesen:** Yeah, I look forward to that. Hopefully that opportunity. So thanks.
 
 **John Mearsheimer:** You’re welcome.

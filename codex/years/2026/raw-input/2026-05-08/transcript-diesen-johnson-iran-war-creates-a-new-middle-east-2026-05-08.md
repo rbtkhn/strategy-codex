@@ -5,28 +5,28 @@ kind: cleaned-transcript
 source_type: youtube
 transcript_type: ai_assisted_operator_pasted_youtube_transcript
 thread: diesen
-show: Glenn Diesen
-host: Glenn Diesen
+show: Diesen
+host: Diesen
 guest: Larry Johnson
-title: "Glenn Diesen with Larry Johnson on Iran War Creates a New Middle East"
+title: "Diesen with Larry Johnson on Iran War Creates a New Middle East"
 source_url: https://www.youtube.com/watch?v=ZuVeSI4FnEA
 publication: youtube.com
-slug: glenn-diesen-larry-johnson-iran-war-creates-a-new-middle-east
+slug: diesen-larry-johnson-iran-war-creates-a-new-middle-east
 capture_note: User-pasted cleaned transcript; preserve speaker labels and source wording from companion capture.
 source_note: "Operator-pasted cleaned YouTube transcript with speaker labels."
 normalization_state: proper-noun-pass
 quality_note: "Proper-noun normalization applied 2026-05-15; cleaned-transcript state reflects the operator capture note, not verbatim human verification."
 ---
 
-# Glenn Diesen with Larry Johnson on "Iran War Creates a New Middle East"
+# Diesen with Larry Johnson on "Iran War Creates a New Middle East"
 
 **Cleaned Transcript:**
 
-**Glenn Diesen:** Welcome back. We are joined today again by Larry Johnson, a former CIA analyst and the writer at Sonar21. I’ve left a link in the description. It’s great to see you again, Larry.
+**Diesen:** Welcome back. We are joined today again by Larry Johnson, a former CIA analyst and the writer at Sonar21. I’ve left a link in the description. It’s great to see you again, Larry.
 
 **Larry Johnson:** Hey, always good to talk to you in person. I watch you all the time anyway, so I keep tabs on you.
 
-**Glenn Diesen:** Well, I wanted to ask where we currently are now in this Iran war, because the information war is kind of thick. It makes it very difficult to follow the situation. But from where I’m sitting, the negotiation seems now to have been quite evidently a fraud — often non-existent. The ceasefire has been repeatedly violated. The fighting has now returned over the past 48 hours in a big way. Iran looks like it will retaliate, and predictably the US will scream “unprovoked.”
+**Diesen:** Well, I wanted to ask where we currently are now in this Iran war, because the information war is kind of thick. It makes it very difficult to follow the situation. But from where I’m sitting, the negotiation seems now to have been quite evidently a fraud — often non-existent. The ceasefire has been repeatedly violated. The fighting has now returned over the past 48 hours in a big way. Iran looks like it will retaliate, and predictably the US will scream “unprovoked.”
 
 So, where do you see all of this heading, or what is actually happening now?
 
@@ -56,7 +56,7 @@ So that’s what’s going on behind the scenes right now. I think that in part 
 
 It appears that they’re just going to wait until after Trump’s trip to China, if that comes off.
 
-**Glenn Diesen:** What you said about the Non-Proliferation Treaty is very important, Larry, because I don’t think everyone is quite familiar with it. The reason why it’s against international law to acquire nuclear weapons for a non-nuclear weapons state is because they have signed the Non-Proliferation Treaty. But by committing to not acquiring nuclear weapons by signing this treaty, they also have the guaranteed right to have a peaceful nuclear program.
+**Diesen:** What you said about the Non-Proliferation Treaty is very important, Larry, because I don’t think everyone is quite familiar with it. The reason why it’s against international law to acquire nuclear weapons for a non-nuclear weapons state is because they have signed the Non-Proliferation Treaty. But by committing to not acquiring nuclear weapons by signing this treaty, they also have the guaranteed right to have a peaceful nuclear program.
 
 The US is quite explicit now, though: they don’t want Iran to even have a civilian one. So in this regard, it’s the United States that’s in breach of the Non-Proliferation Treaty. That being said, the Non-Proliferation Treaty — both Article 1 and 2 — is about not stationing nuclear weapons in non-nuclear weapons states. So NATO already breached this a long time ago.
 
@@ -90,7 +90,7 @@ I described it like you’ve got a water tank connected to the watering troughs 
 
 That’s where we are right now with what’s happened with oil. On the 7th or 8th when they turned off the faucet in the Persian Gulf, the oil was still in tankers moving out across the ocean. But now those tankers have been emptied and we’re just like in this example where the water tank that was full, then three-quarters full, then half full — it’s now empty. And once that’s empty, all of a sudden you’ve got to come up with some alternatives, or there may not be alternatives. So the economic impact that’s going to strike the world out of this — I don’t think anybody’s really sat down and put pencil to paper to figure the math out on it, but it’s going to be bad.
 
-**Glenn Diesen:** I’ve also been a bit confused over some of the news reports. For example, when the US and other countries begin to dig into the strategic reserves, start to release the strategic reserves of oil. Somehow this shows decisiveness. It’s putting more oil in the market, so suddenly the prices drop.
+**Diesen:** I’ve also been a bit confused over some of the news reports. For example, when the US and other countries begin to dig into the strategic reserves, start to release the strategic reserves of oil. Somehow this shows decisiveness. It’s putting more oil in the market, so suddenly the prices drop.
 
 **Larry Johnson:** Yeah, I would think it should have the opposite effect. That is, once you dig into the strategic reserves, if there’s no Plan B, essentially what happens when those are over — this should be lack of confidence.
 
@@ -98,7 +98,7 @@ The way, in my opinion, strategic reserves should work is what you see in China.
 
 But just digging into strategic reserves when there’s no political solution — as you know, to use your analogy, there’s no plan to turn on the faucet again — this should be all red flags going up instead.
 
-**Glenn Diesen:** We see the markets coming. But again, I’m not sure how many times Trump has said now that “Oh well, the war is pretty much coming to an end. It’s over. The Iranians are talking. They’re desperate for a deal.” He’s playing the same nonsense, made-up arguments the whole time. He’s still able to talk down the markets even when the Iranians rebut and say, “Well, this is just nonsense. We’re not even talking to the Americans. What deal is he talking about?” And still Trump is able to talk up the markets and talk down the oil prices. It’s deceptive, but kind of impressive at the same time, I think.
+**Diesen:** We see the markets coming. But again, I’m not sure how many times Trump has said now that “Oh well, the war is pretty much coming to an end. It’s over. The Iranians are talking. They’re desperate for a deal.” He’s playing the same nonsense, made-up arguments the whole time. He’s still able to talk down the markets even when the Iranians rebut and say, “Well, this is just nonsense. We’re not even talking to the Americans. What deal is he talking about?” And still Trump is able to talk up the markets and talk down the oil prices. It’s deceptive, but kind of impressive at the same time, I think.
 
 **Larry Johnson:** Well, yeah. You know, the college economic classes I took — and I did work on a PhD field in international economics, so I got a little past basic economics — the idea was that these markets play fair and essentially that if you’ve got a large supply of something and the demand for it is fixed, then the price of it is going to fall as that supply increases. So it’s a dynamic interaction between supply and demand.
 
@@ -112,7 +112,7 @@ They really believe all this crap and are ignoring the fact that Pakistan’s go
 
 So Iran’s actually in a better situation. But the West still believes, “Oh my god, we just all we got to do is hang on, keep pushing because they’re going to crack any minute now.” And connected to that is this belief that there’s a great split in the leadership. And nobody again — the media will not allow anybody to come on corporate media to explain the alternative — that the narrative that the Iranians are at odds and at each other’s throats is just not true.
 
-**Glenn Diesen:** Yeah. No, I think that is quite conclusively been disproven. But when we look at how this war will affect the wider region — that is, the Gulf states for example accommodating the US bases — again, this seems like one of the key objectives, as mentioned before, of Iran holding on to the Strait of Hormuz. That is simply if they can put up a toll — yes, it’s nice to get reparations — but if they can, as they already suggested, have a higher toll on countries that put sanctions on Iran or that threaten Iran by hosting US bases, suddenly you will have very strong systemic incentives for countries to begin to adjust in a way which benefits Iranian security.
+**Diesen:** Yeah. No, I think that is quite conclusively been disproven. But when we look at how this war will affect the wider region — that is, the Gulf states for example accommodating the US bases — again, this seems like one of the key objectives, as mentioned before, of Iran holding on to the Strait of Hormuz. That is simply if they can put up a toll — yes, it’s nice to get reparations — but if they can, as they already suggested, have a higher toll on countries that put sanctions on Iran or that threaten Iran by hosting US bases, suddenly you will have very strong systemic incentives for countries to begin to adjust in a way which benefits Iranian security.
 
 So if I was an adviser to the Iranian government, I would say by the love of God, if you want security both economic and military, don’t give up on the Strait of Hormuz. Whatever security architecture you think you’re going to be able to negotiate with the Americans, they will not give it to you. The Strait of Hormuz is what you need.
 
@@ -124,7 +124,7 @@ But the point is, Fifth Fleet headquarters in Bahrain — it’s dead. They’re
 
 And that’s where, according to this Pakistani general who’s part of ISI, the intelligence service, both Saudi Arabia and Qatar — realizing the time to cut ties with the United States over this whole issue has come.
 
-**Glenn Diesen:** Well, that was another thing. We saw the Saudis and others — I forgot whom — they cut, as you said before, the access to the airspace for a while. But that appeared to last for like 24 hours or 48 before they began to loosen up again. Do we know anything about exactly what happened there? Because obviously they are getting a bit anxious about the US presence, or was it that the US was essentially agreeing to a ceasefire, not retaliate against Iranians? It is unclear to me why they agreed to this and also why they walked away from it so shortly thereafter.
+**Diesen:** Well, that was another thing. We saw the Saudis and others — I forgot whom — they cut, as you said before, the access to the airspace for a while. But that appeared to last for like 24 hours or 48 before they began to loosen up again. Do we know anything about exactly what happened there? Because obviously they are getting a bit anxious about the US presence, or was it that the US was essentially agreeing to a ceasefire, not retaliate against Iranians? It is unclear to me why they agreed to this and also why they walked away from it so shortly thereafter.
 
 **Larry Johnson:** All I knew that I could confirm was when I heard the NBC report, and the essence of that was that Saudi Arabia had blocked further flights in support of Project Freedom and that Trump had got on the phone with Mohammed bin Salman pressing him to reverse himself and he said no. I was able to confirm that all of that was true because people who were involved on the US military side of the house planning air operations etc. — they were scrambling around trying to figure out alternatives on that day. So it did happen.
 
@@ -142,7 +142,7 @@ It’s not that Iran, Israel, or the United States is so powerful. They just dem
 
 But it is certainly curious because they were the one Gulf state — outside of Oman, but Oman was never being punished the way that Kuwait, Bahrain, Saudis, and Qataris were. But they had the port of Fujairah that gave them access to the Gulf of Oman so that they could get a million barrels of oil out a day perhaps. But that’s now come to an end. So they picked a fight that they’re not going to be very pleased with.
 
-**Glenn Diesen:** No, that makes sense. I mean they’re hosting America’s Fifth Fleet. They have this Shia majority which is being oppressed. I mean you can see why Iran would go there. But the United Arab Emirates though — this is an interesting case also in terms of their motivations, exactly what strategy they’re pursuing, because it seems as if they’re gambling a lot on the position they’ve taken.
+**Diesen:** No, that makes sense. I mean they’re hosting America’s Fifth Fleet. They have this Shia majority which is being oppressed. I mean you can see why Iran would go there. But the United Arab Emirates though — this is an interesting case also in terms of their motivations, exactly what strategy they’re pursuing, because it seems as if they’re gambling a lot on the position they’ve taken.
 
 I just wanted to also ask about what’s happening within the United States, because it’s not just the different states competing against each other, but within the US we see Trump seems to be in a difficult spot. This war is not popular with the public, but it’s also a good opportunity for the political opposition in the US to go after him. I mean, if it would have been a success against Iran they would have celebrated on the streets, but when it goes bad it’s an opportunity to go after Trump, it appears.
 
@@ -152,13 +152,13 @@ But more specifically, what is actually Trump’s main problem now domestically?
 
 So I think the plan now is to provoke an attack by Iran by using the Strait of Hormuz. So even though Iran is engaged in self-defense as it sees it, it will be sold to the American public as this was an illegal act of piracy on the part of Iran and they’ve attacked us and so we’ve got to retaliate. We’ve been attacked. Now let’s call this, instead of Gulf of Tonkin, this is Gulf of Persia 2. This is like Gulf of Tonkin. They will stage something to justify ramping up an attack on Iran as if Iran was the violator and the one that caused this. And so that then starts a new 60-day clock because that’ll be a new war.
 
-**Glenn Diesen:** That’s interesting. It is only about branding essentially. But yeah, I can imagine that it would work though. It’s harder to sell it as something completely different. But that would make sense though, to assess the statements of Marco Rubio because he made the comment that Operation Epic Fury is concluded. We had victory, we achieved all our objectives. And then Trump announces the start of Operation Freedom. So it could just be a rebranding in order to get around the legal hurdle, I guess.
+**Diesen:** That’s interesting. It is only about branding essentially. But yeah, I can imagine that it would work though. It’s harder to sell it as something completely different. But that would make sense though, to assess the statements of Marco Rubio because he made the comment that Operation Epic Fury is concluded. We had victory, we achieved all our objectives. And then Trump announces the start of Operation Freedom. So it could just be a rebranding in order to get around the legal hurdle, I guess.
 
 **Larry Johnson:** That’s exactly what it is. That’s a good way to describe it, because the fundamental issues haven’t been settled. The US — whatever the objectives were — there were no objectives relevant to Iran’s military position or economic position. I’ve said in a sarcastic way that one of the US objectives was to further deplete its stock of critical weapons so that they would be able to justify going back to Congress asking for more billions of dollars to flood that money into the corporations — Raytheon, Lockheed Martin. That would make these weapons a very cynical approach.
 
 Now, yeah, as I said in the beginning, when Iran retaliates, I think it’s quite predictable. The key word “unprovoked” will emerge, in which Iran has for no good reason attacked. So I guess this is coming next.
 
-**Glenn Diesen:** Well, my last question was just about China and Russia, which you referred to before. What do you see being their involvement now that we’re going to a new rebranded Iran war? Because I would assume that they both have an interest, on one hand, of expelling the US from the region, and if they can drain some of their weaponry inventory then of course that would make sense too. On the other hand, it seems like the overarching objective for both the Chinese and the Russians will be to put an end to this war because this is extremely destabilizing.
+**Diesen:** Well, my last question was just about China and Russia, which you referred to before. What do you see being their involvement now that we’re going to a new rebranded Iran war? Because I would assume that they both have an interest, on one hand, of expelling the US from the region, and if they can drain some of their weaponry inventory then of course that would make sense too. On the other hand, it seems like the overarching objective for both the Chinese and the Russians will be to put an end to this war because this is extremely destabilizing.
 
 **Larry Johnson:** Well, it’s actually — I would argue for Russia it’s been actually pretty beneficial. Their revenues, oil revenues are way up. So they’ve benefited from that. But I think Putin does recognize this is bad and could destabilize not just Europe and the West, but it’s going to destabilize some countries in the Global South by virtue of the shortage of fuel and food for starters. So they want to get an end to it, and that’s where I think they are now working energetically behind the scenes with Iran, with the Gulf Arabs — particularly with the Saudis and with the Qataris — to get the commodity markets open and flowing again out of the Persian Gulf.
 
@@ -166,7 +166,7 @@ But at the same time, they’re going to support Iran’s demand that the sancti
 
 So that’s I think one of the long-game plays here: to basically make it impossible for the United States going forward to impose sanctions that would hurt any of those countries economically.
 
-**Glenn Diesen:** Well, that’s an old game in diplomacy though. If you don’t think the other side will abide by agreements, you want to break it into many smaller games. And I think if you see from the Iranian perspective, at every turn they never got what they wanted in the negotiations. As you said, the JCPOA — not only did the US walk away from it unilaterally, but even when it was in force, only the Iranians abided by it. They accepted this intrusive inspections by the IAEA, and yet they never got the other side to fulfill their side of the agreement.
+**Diesen:** Well, that’s an old game in diplomacy though. If you don’t think the other side will abide by agreements, you want to break it into many smaller games. And I think if you see from the Iranian perspective, at every turn they never got what they wanted in the negotiations. As you said, the JCPOA — not only did the US walk away from it unilaterally, but even when it was in force, only the Iranians abided by it. They accepted this intrusive inspections by the IAEA, and yet they never got the other side to fulfill their side of the agreement.
 
 And of course now you have more reasons why they shouldn’t trust negotiations. I think again, without any trust in diplomacy, they will look for the hard option in terms of ensuring their security. So that’s bad news. That means the Strait is in Iranian control. I mean, bad news for the US, I guess, the political West.
 
@@ -174,7 +174,7 @@ Wasn’t it Ghalibaf the other day that said, “Hey, the ‘trust me bro’ pha
 
 **Larry Johnson:** Yeah, he tweeted that out. The “trust me bro” phase.
 
-**Glenn Diesen:** It feels like they have the finger on the pulse of their audiences. But no, it’s very deceptive and I think they can only play this game so many times in terms of arguing that yeah, trust me, the Iranians — they’re exhausted, they’re divided, they’re begging for a deal. And yeah, it’s anything but.
+**Diesen:** It feels like they have the finger on the pulse of their audiences. But no, it’s very deceptive and I think they can only play this game so many times in terms of arguing that yeah, trust me, the Iranians — they’re exhausted, they’re divided, they’re begging for a deal. And yeah, it’s anything but.
 
 Well, Larry, it’s always a great pleasure. So thank you very much, my friend, and have a great day.
 

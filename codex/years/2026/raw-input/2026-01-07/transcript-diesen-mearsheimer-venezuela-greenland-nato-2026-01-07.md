@@ -2,9 +2,9 @@
 ingest_date: 2026-04-21
 pub_date: 2026-01-07
 kind: operator-transcript
-show: Glenn Diesen (Greater Eurasia)
+show: Diesen (Greater Eurasia)
 episode_title: "John Mearsheimer: Venezuela, Greenland & the End of NATO"
-host: Glenn Diesen
+host: Diesen
 guest: John Mearsheimer
 threads: [diesen, mearsheimer]
 thread_expert: mearsheimer
@@ -21,15 +21,15 @@ related_same_series:
   - ../2026-01-06/substack-ritter-the-battle-of-new-york-2026-01-06.md
 ---
 
-# Glenn Diesen × John Mearsheimer — Venezuela, Greenland & the End of NATO (operator transcript)
+# Diesen × John Mearsheimer — Venezuela, Greenland & the End of NATO (operator transcript)
 
 **John Mearsheimer: Venezuela, Greenland & the End of NATO**
 
-**Glenn Diesen:** Welcome back. We are here today with Professor John Mearsheimer. Thank you very much for coming back on the program.
+**Diesen:** Welcome back. We are here today with Professor John Mearsheimer. Thank you very much for coming back on the program.
 
 **John Mearsheimer:** My pleasure as always, Glenn.
 
-**Glenn Diesen:** The American people were sick of forever wars and nation-building that were costly, harmed America's standing in the world, and were rarely successful. For this reason, the Americans voted for Trump, who consistently criticized these kinds of wars and advocated for America First instead.
+**Diesen:** The American people were sick of forever wars and nation-building that were costly, harmed America's standing in the world, and were rarely successful. For this reason, the Americans voted for Trump, who consistently criticized these kinds of wars and advocated for America First instead.
 
 Obviously, we have not gone down this path. There's a lot of criticism, of course. His base is split. But from a realist perspective, what are the strategic interests of the United States in Venezuela? Besides the stated reasons such as democracy promotion or narco-terrorism, what do you think the United States aims to achieve with this?
 
@@ -41,7 +41,7 @@ Now, this operation had nothing to do with the Monroe Doctrine. There's no dange
 
 This is, in my opinion, a good old-fashioned case of imperialism. This is a case where the United States was interested in running the politics of Venezuela. Apparently, if you listen to President Trump, his most important concern is who controls the oil in Venezuela. He thinks basically that's our oil. It's ours to determine what it is used for and how it is used. This is just blatant imperialism or neocolonialism. This has little to do with the Monroe Doctrine.
 
-**Glenn Diesen:** The US has intervened in the past in Latin America more than once. Do you see this as being consistent with this kind of pattern, or is this something different? Because it certainly feels more brazen than it perhaps was in the past. As you said, there were open references to taking the oil, for example. While Trump said that we will run Venezuela, now he has argued that the new acting president of Venezuela, Delcy Rodríguez, that she could hold power in Caracas as long as — and this is a quote — "she does what we want, otherwise there will be more strikes."
+**Diesen:** The US has intervened in the past in Latin America more than once. Do you see this as being consistent with this kind of pattern, or is this something different? Because it certainly feels more brazen than it perhaps was in the past. As you said, there were open references to taking the oil, for example. While Trump said that we will run Venezuela, now he has argued that the new acting president of Venezuela, Delcy Rodríguez, that she could hold power in Caracas as long as — and this is a quote — "she does what we want, otherwise there will be more strikes."
 
 I mean, this — is this not needing to get rid of the existing government as long as they do as they're told? I mean, how are you seeing or assessing this?
 
@@ -53,7 +53,7 @@ This is really nothing new. The United States has a rich history in this regard.
 
 He sounds like a blatant imperialist. You don't see much evidence of that. Usually, when the United States goes in and acts in an imperial way in the Western Hemisphere, it covers up its behavior with liberal or idealistic rhetoric. But President Trump doesn't act that way. He's a Texas Chainsaw Massacre kind of guy. You can see him coming a mile away. He's very blunt, and therefore it's appropriate to say that this does look brazen.
 
-**Glenn Diesen:** What does this mean though for the wider world order? Because over the past 30 years, the so-called liberal rules-based order entailed more or less the idea that international law would apply to everyone with the exception of the West under the leadership of the United States, because we were the champions of liberal democracy. So international law could be put aside if it was required for a liberal democracy or humanitarian law. This was kind of an important part of the hegemonic order.
+**Diesen:** What does this mean though for the wider world order? Because over the past 30 years, the so-called liberal rules-based order entailed more or less the idea that international law would apply to everyone with the exception of the West under the leadership of the United States, because we were the champions of liberal democracy. So international law could be put aside if it was required for a liberal democracy or humanitarian law. This was kind of an important part of the hegemonic order.
 
 We saw this being born in Kosovo when we said that well, it wasn't legal but it was legitimate. So essentially we said liberal democracy creates legitimacy outside the rule of law. This was how we could run an empire, a hegemonic system, and give it all legitimacy.
 
@@ -75,7 +75,7 @@ But Trump doesn't think that's true. He just thinks that he can go out and trash
 
 That's really what's going on here. The end result is not going to be good, because international law is important for the United States and for other countries as well.
 
-**Glenn Diesen:** I noticed that from some speeches by Hegseth he treats international law as if it would be some woke plot that constrains America from pursuing its interest. But again, in situations like war, international law has to be some mutual constraint, as we have some framework around killing each other that limits it and makes it in as civilized a manner as possible.
+**Diesen:** I noticed that from some speeches by Hegseth he treats international law as if it would be some woke plot that constrains America from pursuing its interest. But again, in situations like war, international law has to be some mutual constraint, as we have some framework around killing each other that limits it and makes it in as civilized a manner as possible.
 
 The stories we tell each other though — I mean, when Biden blew up the Nord Stream, or allegedly blew up the Nord Stream — but yes, very likely he did. The Germans were willing — the chancellor was willing — to stand next to him and pretend as if when he said "it wasn't us" that Biden was selling a lie. The Germans were very willing to buy it, even though no one I think truly believed it was the Russians who blew up their own pipeline. But at least the pretense was there.
 
@@ -99,7 +99,7 @@ The fact that he can do it rather cheaply, that it could be portrayed as another
 
 To go back to Venezuela, the big issue on the table is whether or not he's going to get dragged into a quagmire or not — in terms of getting dragged into the business of nation-building, or whether he will be able to pull this off quickly and easily.
 
-**Glenn Diesen:** I saw Stephen Miller. He was interviewed and he made a point. He was asked, "Would you use military force to take Greenland?" He was kind of dismissive of the whole idea that the Europeans aren't going to fight back. So you just essentially sail in and plant a flag and that's it.
+**Diesen:** I saw Stephen Miller. He was interviewed and he made a point. He was asked, "Would you use military force to take Greenland?" He was kind of dismissive of the whole idea that the Europeans aren't going to fight back. So you just essentially sail in and plant a flag and that's it.
 
 It's probably correct though — there wouldn't be a fight. But have you been surprised by the European reaction to this? Because overall, it seems over the past even year now all the liberal values which were supposed to unite the West kind of fell apart in a spectacular way. Not just the reluctance to find a diplomatic path in Ukraine, but also the genocide in Gaza, backing an ISIS leader to take power in Syria by supporting the destruction of Iran's nuclear facilities, and of course now bombing or attacking and kidnapping the president of Venezuela by giving the stamp of approval time and time again and supporting it.
 
@@ -123,7 +123,7 @@ You might expect the Europeans to learn from this and do a 180-degree turn and s
 
 You have a situation where Trump can pretty much get away with anything and not receive any serious criticism from the Europeans. This gets back to our discussion of Greenland. What would happen if he took Greenland? It would be very interesting to see whether the Europeans finally stood up to him. You would think they would. But I wouldn't bet a lot of money on that.
 
-**Glenn Diesen:** He saw at the Munich Security Conference in February when JD Vance spoke at the closing ceremony — I forgot his name — he broke down in tears because of the speech, how he referred to the Europeans. Of course, the National Security Strategy more or less called for regime change in Europe, blaming the EU for destroying European civilization, and now of course the threat to take Greenland.
+**Diesen:** He saw at the Munich Security Conference in February when JD Vance spoke at the closing ceremony — I forgot his name — he broke down in tears because of the speech, how he referred to the Europeans. Of course, the National Security Strategy more or less called for regime change in Europe, blaming the EU for destroying European civilization, and now of course the threat to take Greenland.
 
 We would think at some point they would start to grow a spine and do something. But it was an interesting comment by the prime minister of Denmark. She made a point that if the US attacks and takes Greenland, then that would mean the end of NATO.
 
@@ -137,7 +137,7 @@ I think you can make that kind of argument. Again, I think the Europeans will go
 
 It may be the case that if Trump were to invade Greenland — and let's hope he doesn't do that — the Europeans would nevertheless swallow their pride and not back him. They would criticize him, but do it in a way that wasn't so damaging that it would wreck the alliance.
 
-**Glenn Diesen:** It seems like a key challenge for the political West is to renegotiate the relationship between the US and the EU, because beyond the rhetoric about Trump, there is something significant here about the distribution of power — that is, the US can't afford to be as generous as it was after World War II. It has other priorities. It can't be everywhere. Europe is not a high priority. Its relative power in the world has also declined. So the Europeans kind of want America of the past — that is, to commit and continue to pay for everything.
+**Diesen:** It seems like a key challenge for the political West is to renegotiate the relationship between the US and the EU, because beyond the rhetoric about Trump, there is something significant here about the distribution of power — that is, the US can't afford to be as generous as it was after World War II. It has other priorities. It can't be everywhere. Europe is not a high priority. Its relative power in the world has also declined. So the Europeans kind of want America of the past — that is, to commit and continue to pay for everything.
 
 It just seems that for the Europeans they're either super subservient to the US or they become very anti-American. They always seem to polarize a bit. It seems that it would be possible to have a more reasonable relationship. We just adjusted to the new multipolar realities — that is, both sides benefit from a partnership, from security cooperation, economic ties — but at least maybe divorce, go from being married to neighbors or something along those lines. Just something that works for the United States, because dismissing the new interests of the United States is folly. Trump tends to be much cruder than other leaders, but there's something beyond the personality there. There's a real shift in power which has to be addressed. The idea that we can just continue as if it's the bipolar or unipolar order doesn't really make that much sense.
 
@@ -159,7 +159,7 @@ What this means is that you will see fractures inside of the West. You can see t
 
 There are just a lot of forces at play here that are undermining this concept of a rather homogeneous West that existed during bipolarity and existed during unipolarity but is now beginning to wither away.
 
-**Glenn Diesen:** This idea of Europe being all alone — it is interesting. It was predicted by some. I did an interview on this channel with the former head of the German armed forces, General Harald Kujat. He is the former head of the German armed forces and he had the highest military position in NATO. He wrote an article, gave an interview back in January of 2023 — so three years ago now — in which he predicted that well, we already more or less lost the war in Ukraine. The Russians will take this, and when it's obvious that it's lost, the Americans will start to pull back. The title of the article is something along the lines "We will be left all alone facing a very angry Russia."
+**Diesen:** This idea of Europe being all alone — it is interesting. It was predicted by some. I did an interview on this channel with the former head of the German armed forces, General Harald Kujat. He is the former head of the German armed forces and he had the highest military position in NATO. He wrote an article, gave an interview back in January of 2023 — so three years ago now — in which he predicted that well, we already more or less lost the war in Ukraine. The Russians will take this, and when it's obvious that it's lost, the Americans will start to pull back. The title of the article is something along the lines "We will be left all alone facing a very angry Russia."
 
 I was wondering how you would tie this conflict now in Venezuela to Ukraine, because if you look at Denmark, it's a bit ironic. They pride themselves to some extent that they were the first one to recognize Kosovo — a breakaway — and they find themselves on the other side now. They sent almost all their weapons to Ukraine and they've been among some of the most hawkish in this proxy war against the Russians, whereas you have said last time we spoke a direct war on Russia.
 
@@ -189,7 +189,7 @@ Same thing with the Houthis. Remember, he said he was going to go in and slam th
 
 That's how you get your way with Trump. You stand up to him, and if you don't stand up to him, he'll walk all over you. He's been walking all over the European leaders. He's been humiliating them at every turn, and that will continue to be the case until they stand up to him. I don't see much hope they're going to stand up to him anytime soon.
 
-**Glenn Diesen:** No, I don't see that either. Last time we spoke, you had just given a speech at the European Parliament arguing that Europe's future was bleak. Do you think Venezuela has made it any bleaker, or it doesn't really play that much into the whole political West? Of course, besides if the US actually takes Greenland though.
+**Diesen:** No, I don't see that either. Last time we spoke, you had just given a speech at the European Parliament arguing that Europe's future was bleak. Do you think Venezuela has made it any bleaker, or it doesn't really play that much into the whole political West? Of course, besides if the US actually takes Greenland though.
 
 **John Mearsheimer:** I don't think what happened in Venezuela really matters much for the overall direction that US-European relations are moving in or European-Russian relations are moving in. I think what happens in Ukraine is of great importance there.
 
@@ -209,12 +209,12 @@ When he starts talking like that, you say to yourself: okay, if you, President T
 
 There are other people in the administration who argue that we're not going to get seriously involved in running the country. We can do it on the cheap. We'll see what happens. But if he gets bogged down in Venezuela, that will greatly limit his maneuver room to attack more countries down the road, as he's been doing since he took office about a year ago.
 
-**Glenn Diesen:** He's great at shifting the focus. Last week we're speaking about the Epstein files and now of course they're all gone. But I'm not sure how long you can play this game before there's a massive miscalculation in which he gets drawn in. That could happen already.
+**Diesen:** He's great at shifting the focus. Last week we're speaking about the Epstein files and now of course they're all gone. But I'm not sure how long you can play this game before there's a massive miscalculation in which he gets drawn in. That could happen already.
 
 I know you have places to run now. I just want to thank you again for letting me pick your brain.
 
 **John Mearsheimer:** Thank you, Glenn, for having me on the show. It was a pleasure talking to you. I just wish we had some more uplifting subjects to talk about these days. I mean, this is the new year. We're supposed to think in terms of "happy new year," but given events in the world, it's hard not to be thoroughly depressed.
 
-**Glenn Diesen:** Very much agree. Thanks nonetheless.
+**Diesen:** Very much agree. Thanks nonetheless.
 
 **John Mearsheimer:** You're welcome.

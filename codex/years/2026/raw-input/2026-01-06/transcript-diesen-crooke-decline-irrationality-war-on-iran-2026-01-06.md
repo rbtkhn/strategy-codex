@@ -3,8 +3,8 @@ ingest_date: 2026-01-06
 pub_date: 2026-01-06
 kind: transcript
 thread: diesen
-show: Glenn Diesen
-host: Glenn Diesen
+show: Diesen
+host: Diesen
 guest: Alastair Crooke
 title: "Alastair Crooke: Decline, Irrationality & War on Iran"
 channel_url: "https://www.youtube.com/watch?v=_ltGrKLsZgo"
@@ -13,7 +13,7 @@ source_url: "https://www.youtube.com/watch?v=_ltGrKLsZgo"
 source_note: "Auto-generated from YouTube subtitles via yt-dlp; caption-grade raw-input."
 ---
 
-# Glenn Diesen / Alastair Crooke - Alastair Crooke: Decline, Irrationality & War on Iran
+# Diesen / Alastair Crooke - Alastair Crooke: Decline, Irrationality & War on Iran
 
 **Channel:** Glenn Diesen  
 **Date:** 2026-01-06  

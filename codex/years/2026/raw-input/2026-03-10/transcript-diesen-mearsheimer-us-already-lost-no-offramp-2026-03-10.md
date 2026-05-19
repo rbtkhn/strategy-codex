@@ -2,9 +2,9 @@
 ingest_date: 2026-04-21
 pub_date: 2026-03-10
 kind: operator-transcript
-show: Glenn Diesen (Greater Eurasia)
+show: Diesen (Greater Eurasia)
 episode_title: "John Mearsheimer: U.S. Already Lost Iran War — No Off-Ramp in Sight"
-host: Glenn Diesen
+host: Diesen
 guest: John Mearsheimer
 threads: [diesen, mearsheimer]
 thread_expert: mearsheimer
@@ -20,15 +20,15 @@ related_same_series:
   - ../../freeman-diesen-2026-04-18-verbatim.md
 ---
 
-# Glenn Diesen × John Mearsheimer — U.S. Already Lost Iran War — No Off-Ramp in Sight (operator transcript)
+# Diesen × John Mearsheimer — U.S. Already Lost Iran War — No Off-Ramp in Sight (operator transcript)
 
 **John Mearsheimer: U.S. Already Lost Iran War — No Off-Ramp in Sight**
 
-**Glenn Diesen:** Welcome back. We are joined by Professor John Mearsheimer to discuss the war against Iran, which is definitely not going as planned. Thank you very much for coming back on.
+**Diesen:** Welcome back. We are joined by Professor John Mearsheimer to discuss the war against Iran, which is definitely not going as planned. Thank you very much for coming back on.
 
 **John Mearsheimer:** My pleasure, Glenn.
 
-**Glenn Diesen:** The war is definitely not going as Trump had hoped, but it seems to be going as many would have predicted. Trump himself was met with a lot of warnings before he went down this road. Now of course it’s unclear what direction he should take. We also see reports from the American media that even Israel is now growing concerned. They don’t think Iran is going to collapse. They don’t think it’s going to surrender.
+**Diesen:** The war is definitely not going as Trump had hoped, but it seems to be going as many would have predicted. Trump himself was met with a lot of warnings before he went down this road. Now of course it’s unclear what direction he should take. We also see reports from the American media that even Israel is now growing concerned. They don’t think Iran is going to collapse. They don’t think it’s going to surrender.
 
 So what exactly — if time is on Iran’s side — why go down this road? The Wall Street Journal said something similar: that Trump’s advisers would like to find a quick exit from this war. What do you make of this? Is this reaching the end of the war, or will Iran not permit this?
 
@@ -52,7 +52,7 @@ All of this is to say I don’t see what the off-ramp is at this point in time f
 
 I would just say one final point, Glenn. I think if the effects on the international economy are significant — it looks like we’re heading off a cliff and that is possible — I think at that point the Americans will bring the war to an end. But that will not be a victory. We will have caved in to the Iranians if that scenario plays itself out. That is, as you well know, a very realistic scenario.
 
-**Glenn Diesen:** What you described or what the United States hoped or thought the war would be like — it’s what we refer to then as escalation dominance. This assumption that one can decide the pace of moving up or down the escalation ladder. This seems to be something that was reasonable once one is in a comfortable hegemonic position — that is, one can dominate, dictate when the war starts, who should be involved, what are acceptable targets, when do we put an end to it.
+**Diesen:** What you described or what the United States hoped or thought the war would be like — it’s what we refer to then as escalation dominance. This assumption that one can decide the pace of moving up or down the escalation ladder. This seems to be something that was reasonable once one is in a comfortable hegemonic position — that is, one can dominate, dictate when the war starts, who should be involved, what are acceptable targets, when do we put an end to it.
 
 But it just seems that Iran can’t end this war because if they end it now and accept some ceasefire, then I guess the main fear — not unlike what the Russians are fearing — is that the US would just be back again in a few months.
 
@@ -74,7 +74,7 @@ We start walking up the escalation ladder. But then this brings me back to my po
 
 I think going up the escalation ladder is not going to produce a satisfactory outcome for us — for the United States and for Israel.
 
-**Glenn Diesen:** Given that they’re so vulnerable with the desalination plants, it’s a bit strange that the United States would have chosen to escalate by attacking the desalination plants within Iran, because now Iran can almost retaliate by the same means without being seen as the main aggressor — essentially having an alibi to do so.
+**Diesen:** Given that they’re so vulnerable with the desalination plants, it’s a bit strange that the United States would have chosen to escalate by attacking the desalination plants within Iran, because now Iran can almost retaliate by the same means without being seen as the main aggressor — essentially having an alibi to do so.
 
 But how significant though is the attack on or the suspension of the trade in energy? Many people make the point this is also linked into the entire international financial system with the petrodollar. This seems to be one of the areas where the Trump administration is worried. They make the point now that if Iran tries to block the Strait of Hormuz then — according to Trump’s tweet — they will hit Iran 20 times harder. Now we hear Macron also say we’re going to come and help defensively somehow to open up the Strait of Hormuz.
 
@@ -94,6 +94,6 @@ But I don’t think we’re going to open the Strait anyway. I don’t think we�
 
 In a very important way the Iranians are in the driver’s seat.
 
-**Glenn Diesen:** Thank you very much, John, for taking the time. As always I always learn a lot listening to you. Thank you and I hope you come back on soon.
+**Diesen:** Thank you very much, John, for taking the time. As always I always learn a lot listening to you. Thank you and I hope you come back on soon.
 
 **John Mearsheimer:** Thank you for having me, Glenn. I enjoyed the conversation. I just wish the subject wasn’t so depressing.

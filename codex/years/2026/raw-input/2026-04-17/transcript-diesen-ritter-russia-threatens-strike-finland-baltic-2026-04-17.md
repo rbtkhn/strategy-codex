@@ -2,9 +2,9 @@
 ingest_date: 2026-04-27
 pub_date: 2026-04-17
 kind: operator-transcript
-show: Glenn Diesen (Greater Eurasia)
+show: Diesen (Greater Eurasia)
 episode_title: "Scott Ritter: Russia Threatens Strike on Finland & Baltic States"
-host: Glenn Diesen
+host: Diesen
 guest: Scott Ritter
 threads: [diesen, ritter]
 thread_expert: ritter
@@ -16,7 +16,7 @@ related_same_series:
   - ../2026-04-18/freeman-diesen-2026-04-18-verbatim.md
 ---
 
-# Glenn Diesen × Scott Ritter — Russia Threatens Strike on Finland & Baltic States (operator transcript SSOT)
+# Diesen × Scott Ritter — Russia Threatens Strike on Finland & Baltic States (operator transcript SSOT)
 
 **Operator:** Unified capture for **lane split** (host `diesen` + guest `ritter`). Legacy per-thread stubs under `raw-input/2026-04-17/transcript-diesen.md`, `raw-input/2026-04-17/transcript-ritter.md`, and `raw-input/2026-04-18/` copies now **point here**; do not maintain parallel verbatim.
 

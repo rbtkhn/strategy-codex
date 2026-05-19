@@ -3,8 +3,8 @@ ingest_date: 2026-04-07
 pub_date: 2026-04-07
 kind: transcript
 thread: diesen
-show: Glenn Diesen
-host: Glenn Diesen
+show: Diesen
+host: Diesen
 guest: Alastair Crooke
 title: "Alastair Crooke: Iran Will Emerge Stronger After the War & Reshape the Global Economy"
 channel_url: "https://www.youtube.com/watch?v=1wMB1oSrqvo"
@@ -13,7 +13,7 @@ source_url: "https://www.youtube.com/watch?v=1wMB1oSrqvo"
 source_note: "Auto-generated from YouTube subtitles via yt-dlp; caption-grade raw-input."
 ---
 
-# Glenn Diesen / Alastair Crooke - Alastair Crooke: Iran Will Emerge Stronger After the War & Reshape the Global Economy
+# Diesen / Alastair Crooke - Alastair Crooke: Iran Will Emerge Stronger After the War & Reshape the Global Economy
 
 **Channel:** Glenn Diesen  
 **Date:** 2026-04-07  

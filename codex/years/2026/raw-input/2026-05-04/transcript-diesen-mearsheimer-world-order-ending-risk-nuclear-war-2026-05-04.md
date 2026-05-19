@@ -2,9 +2,9 @@
 ingest_date: 2026-05-04
 pub_date: 2026-05-04
 kind: operator-transcript
-show: Glenn Diesen (Greater Eurasia)
+show: Diesen (Greater Eurasia)
 episode_title: "John Mearsheimer: World Order Ending & Risk of Nuclear War"
-host: Glenn Diesen
+host: Diesen
 guest: John Mearsheimer
 threads: [diesen, mearsheimer]
 thread_expert: mearsheimer
@@ -13,15 +13,15 @@ source_url: https://www.youtube.com/watch?v=dkXQW_ZRL3I
 capture_note: Operator paste; Mearsheimer frames the post-1945 order, Trump 2 as a wrecking ball, the Iran war as catastrophic, and the nuclear-risk tail in both Iran and Ukraine. Verify load-bearing claims and historical references if promoted beyond analyst tier.
 ---
 
-# Glenn Diesen Ã— John Mearsheimer â€” World Order Ending & Risk of Nuclear War (operator transcript)
+# Diesen Ã— John Mearsheimer â€” World Order Ending & Risk of Nuclear War (operator transcript)
 
 **John Mearsheimer: World Order Ending & Risk of Nuclear War**
 
-**Glenn Diesen:** Welcome back. Today is the 4th of May, 2026, and we have the great privilege of being joined by Professor John Mearsheimer. So thank you for coming back on the program.
+**Diesen:** Welcome back. Today is the 4th of May, 2026, and we have the great privilege of being joined by Professor John Mearsheimer. So thank you for coming back on the program.
 
 **John Mearsheimer:** Glad to be here, Glenn, as always.
 
-**Glenn Diesen:** I wanted to start off before we're going into specific events, take a step back on the wider picture of what's happening in the world, because since the Second World War, we've seen the United States build an international system, not just around its economic power, but also around an alliance system.
+**Diesen:** I wanted to start off before we're going into specific events, take a step back on the wider picture of what's happening in the world, because since the Second World War, we've seen the United States build an international system, not just around its economic power, but also around an alliance system.
 
 Now, I tend to think that inclusive security architectures are better to mitigate security competition. But again, that was the time after World War II. And we've seen this alliance system essentially been the source of power projection for the US, but also stability. Now, however, we're seeing from the Middle East to Europe and East Asia, that a lot of these alliance systems are coming under great stress.
 
@@ -71,7 +71,7 @@ And of course, in my opinion, there's no way he can get out of this disaster. It
 
 So that's a long-winded way of answering your very important question about what's taking place in the world today from a macro perspective.
 
-**Glenn Diesen:** No, it's very interesting.
+**Diesen:** No, it's very interesting.
 
 Well, it seems as if after World War II, you can argue that there was two international systems playing at once. And one was the common inclusive architecture that is organized around the United Nations. But at the same time, you had the Western system under US leadership. But after the Cold War, it looked like we could have gone two ways.
 
@@ -119,7 +119,7 @@ So this is a much more consequential war. And this, of course, is why the Chines
 
 So the Iran war is in a different category than the Iraq war.
 
-**Glenn Diesen:** How would he shut it down though? If President Trump had the wisdom of picking up the phone and calling you and asking how can we, what should we do instead of listening to Witkoff and Kushner and others, what is a great path now? Because I often hear that he should just claim victory and go home. But without the Strait of Hormuz, it looks as if the entire Middle Eastern region would shift very quickly to the advantage of Iran, as you and I have spoken about before as well.
+**Diesen:** How would he shut it down though? If President Trump had the wisdom of picking up the phone and calling you and asking how can we, what should we do instead of listening to Witkoff and Kushner and others, what is a great path now? Because I often hear that he should just claim victory and go home. But without the Strait of Hormuz, it looks as if the entire Middle Eastern region would shift very quickly to the advantage of Iran, as you and I have spoken about before as well.
 
 When Iran has control of the Strait of Hormuz, they can get the reparations. They already indicated that they're going to put a higher toll on countries who have joined in on the attack of Iran or sanctioning Iran. So they can get rid of the sanctions. They can get countries to play ball. They can probably extend it, put higher toll on countries which threatens Iran by hosting US bases.
 
@@ -155,7 +155,7 @@ So he, I am sure, behind closed doors is trying to figure out how he can get som
 
 And this is why there is no end in sight at the moment. And I don't believe the end will come or something approximating the end will come until the economy is really seriously threatened.
 
-**Glenn Diesen:** Well, I'm wondering if there's another option out, because we often assume rationality and restraint, but if the West faces and the US faces a massive defeat, one often does, well, rational healthy often goes out the window. Just by comparison with Europeans, it's worth remembering that back in 2022, they were a bit reluctant to go in and fight the Russians before Biden convinced them.
+**Diesen:** Well, I'm wondering if there's another option out, because we often assume rationality and restraint, but if the West faces and the US faces a massive defeat, one often does, well, rational healthy often goes out the window. Just by comparison with Europeans, it's worth remembering that back in 2022, they were a bit reluctant to go in and fight the Russians before Biden convinced them.
 
 There's so much at stake now for the Europeans. They see if they could defeat the Russians then they would have a powerful Ukrainian shield in front of them which they could use to weaken Russia behind them. They would have the big powerful United States so it would be a good position to be in and do essentially unipolarity would have another go perhaps you know I if they're being very optimistic however if they lose against the Russians, Ukraine will be diminished, partly absorbed by Russia. And the United States would then likely pack up and go, as we see now with the U.S. pulling some troops out of Germany.
 
@@ -181,7 +181,7 @@ Now you might say that Karaganov is crazy or that this is irrational. But I thin
 
 I'm just laying out the logic of using nuclear weapons in Ukraine and in the Middle East that show you why the situation in both places is so dangerous.
 
-**Glenn Diesen:** No, no, I get the difference. I often make the point to people because there's often a lot of confusion when one says, because you and I also spoke in the past about Iran as rational for it to acquire nuclear weapons. It's not a normative argument what we wish would happen. It's the incentives of states as they compete for security.
+**Diesen:** No, no, I get the difference. I often make the point to people because there's often a lot of confusion when one says, because you and I also spoke in the past about Iran as rational for it to acquire nuclear weapons. It's not a normative argument what we wish would happen. It's the incentives of states as they compete for security.
 
 Just for context on Karaganov, he's been quite influential both in the Soviet Union and in Russia. He wrote speeches for Brezhnev. He advised everyone from Gorbachev to Yeltsin and Putin. Indeed, he had a very key role in pushing for the change in Russia's nuclear doctrine and convincing Putin to do so. I was in the room more than twice when Karaganov, well, on the Valdai setting, when Karaganov was advocating for changing the nuclear posture of Russia and when Putin was essentially pushing back.
 
@@ -243,6 +243,6 @@ I always like to talk about the Vietnam War, which is a central event in my yout
 
 War is an extension of politics by other means. And there are just real limits to what you can do with military force. And we're finding that out, both in the case of Ukraine and Iran. And hopefully the lesson we learn will stick in our head for a while.
 
-**Glenn Diesen:** Well, on that somewhat optimistic note, so we can leave it there. I meant learning a lesson from history is important. So yeah, thank you very much for taking the time.
+**Diesen:** Well, on that somewhat optimistic note, so we can leave it there. I meant learning a lesson from history is important. So yeah, thank you very much for taking the time.
 
 **John Mearsheimer:** You're welcome, Glenn. It was my pleasure being here.

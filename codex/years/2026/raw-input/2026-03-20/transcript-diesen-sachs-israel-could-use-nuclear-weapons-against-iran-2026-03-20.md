@@ -8,10 +8,10 @@ title: "Jeffrey Sachs: Israel Could Use Nuclear Weapons Against Iran"
 source_url: https://www.youtube.com/watch?v=gmtJZvmOOes
 youtube_id: gmtJZvmOOes
 channel_slug: glenn-diesen
-source_note: Transcript pasted manually by operator after direct YouTube watch URL recovery for the March 20 Glenn Diesen episode.
+source_note: Transcript pasted manually by operator after direct YouTube watch URL recovery for the March 20 Diesen episode.
 editorial_note: Operator-pasted transcript body; not independently verified as verbatim.
-show: Glenn Diesen
-host: Glenn Diesen
+show: Diesen
+host: Diesen
 guest: Jeffrey Sachs
 thread: diesen
 channel_url: https://www.youtube.com/@GDiesen1

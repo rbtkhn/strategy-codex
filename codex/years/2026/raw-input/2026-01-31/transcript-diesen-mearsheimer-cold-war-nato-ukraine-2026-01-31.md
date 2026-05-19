@@ -2,9 +2,9 @@
 ingest_date: 2026-04-21
 pub_date: 2026-01-31
 kind: operator-transcript
-show: Glenn Diesen (Greater Eurasia)
+show: Diesen (Greater Eurasia)
 episode_title: "John Mearsheimer: Cold War 2.0 & NATO's Defeat in Ukraine"
-host: Glenn Diesen
+host: Diesen
 guest: John Mearsheimer
 threads: [diesen, mearsheimer]
 thread_expert: mearsheimer
@@ -21,11 +21,11 @@ related_same_series:
   - ../../freeman-diesen-2026-04-18-verbatim.md
 ---
 
-# Glenn Diesen × John Mearsheimer — Cold War 2.0 & NATO's Defeat in Ukraine (operator transcript)
+# Diesen × John Mearsheimer — Cold War 2.0 & NATO's Defeat in Ukraine (operator transcript)
 
 **John Mearsheimer: Cold War 2.0 & NATO's Defeat in Ukraine**
 
-**Glenn Diesen:** Welcome back. We are joined today by Professor John Mearsheimer to get a better understanding of what is happening in the world now with this new great power rivalry and also how the outcome of the Ukraine war will impact this new cold war. Thank you for coming on.
+**Diesen:** Welcome back. We are joined today by Professor John Mearsheimer to get a better understanding of what is happening in the world now with this new great power rivalry and also how the outcome of the Ukraine war will impact this new cold war. Thank you for coming on.
 
 I thought I wanted to open up with a very big question, which is: have we entered a new cold war? And if so, who are the players? What are the competing interests and what are the rules of this new cold war?
 
@@ -43,7 +43,7 @@ But he's been unable to make that happen. The end result is that the United Stat
 
 So far, Europe or the US-Russian relationship has actually been more dangerous than the US-China competition. We've had no major crisis in East Asia involving the United States and China. So that cold war has remained very cold, which is all for the good. But the war in Ukraine and given some of the events that have taken place there have made me worry greatly that the cold war there would turn into a hot war.
 
-**Glenn Diesen:** I guess the hope and expectation of many European leaders was that the US and Europeans would unite in this new cold war. So the liberal hegemony is over. They thought now we would retreat into this — well, essentially go back in time — and we would return to this complete unity as we had in the first cold war. That is, unity in opposition to Russia as a common enemy. This was the assumption of NATO as well — that Ukraine would unite us. But instead now it seems to divide.
+**Diesen:** I guess the hope and expectation of many European leaders was that the US and Europeans would unite in this new cold war. So the liberal hegemony is over. They thought now we would retreat into this — well, essentially go back in time — and we would return to this complete unity as we had in the first cold war. That is, unity in opposition to Russia as a common enemy. This was the assumption of NATO as well — that Ukraine would unite us. But instead now it seems to divide.
 
 How do you explain this? What is it that the Europeans don't understand? Is this the US not seeing Russia as the same threat as the Europeans? Is it the concern of pushing Russia towards China? Is Europe too costly of a partner as opposed to being a force amplifier? Or is this just a uniquely Trump policy or approach to international security?
 
@@ -61,7 +61,7 @@ Where you see this dispute between the United States and Europe — this transat
 
 But it's very hard to do that when you're dealing with Donald Trump.
 
-**Glenn Diesen:** Is it still an incentive of the Europeans? Because if you go back to the '90s, I can see the argument for having redividing the continent and essentially recreating the logic of the cold war, because you would yes, you would make an enemy out of Russia, but you bring in the United States in Europe as the main pacifier, and you essentially maintain the same structure we had throughout the cold war. So the political West also keeps Europe united.
+**Diesen:** Is it still an incentive of the Europeans? Because if you go back to the '90s, I can see the argument for having redividing the continent and essentially recreating the logic of the cold war, because you would yes, you would make an enemy out of Russia, but you bring in the United States in Europe as the main pacifier, and you essentially maintain the same structure we had throughout the cold war. So the political West also keeps Europe united.
 
 However, now that the United States has signaled clearly that it wants to leave, won't this continued division of Europe only create more problems? Also because we can't manage Russia on our own. We're betting everything on the US, and the US doesn't even want to be there. We're creating excessive dependencies. Wouldn't it make sense for the Europeans to shift their position on Russia? Or what is the threat of Russia? I know that it has big capabilities, but this assumption that they are an empire that they want to rebuild the Soviet Union — all this narrative — appears to have emerged after 2014. But you know it didn't appear in a vacuum. This happened in February of 2022. This is when I guess they began lashing out.
 
@@ -79,7 +79,7 @@ The Europeans of course understand almost to a person that this would not be goo
 
 You're getting the worst of both worlds here. The Europeans seem incapable of recognizing this and doing anything to fix the situation. They're just so deeply committed to this hostile relationship with Russia. They're having so much trouble dealing with President Trump that it appears that there's no way out for them. The future therefore looks bleak for Europe.
 
-**Glenn Diesen:** So how will this war end then? Are you optimistic about these negotiations taking place? Because on one hand we do see that the situation is going from bad to worse on the NATO and Ukraine side, which would — if we're being rational — we would seek to cement a good deal today, if well better than what we would get tomorrow.
+**Diesen:** So how will this war end then? Are you optimistic about these negotiations taking place? Because on one hand we do see that the situation is going from bad to worse on the NATO and Ukraine side, which would — if we're being rational — we would seek to cement a good deal today, if well better than what we would get tomorrow.
 
 On the other hand, we saw before Christmas that this 20-point plan of the Americans which they were trying to sell to the Ukrainians and the Russians — which was already a bit far apart — but the Europeans came in essentially trying to pull it further away towards the Ukrainian side, which would make it even more untenable for the victorious side, which is the Russian. A lot of things are happening now.
 
@@ -103,7 +103,7 @@ Nevertheless, just to take this a step further, the Ukrainians and the Europeans
 
 Trump said that he recognized it at the time, but with the passage of time he's back to occasionally talking about ceasefires, and the Europeans and the Ukrainians much more frequently talk about ceasefire. But it's not going to happen. This one's going to be settled on the battlefield. There's eventually going to be, I think, an armistice because one side or the other will prevail, and that's just another way of saying it'll be settled on the battlefield. But it's not going to be settled in diplomatic negotiations in Abu Dhabi or in Istanbul or in Moscow. It's just not going to happen — at least based on everything we've seen up to now.
 
-**Glenn Diesen:** I find it very strange a lot of the rhetoric around especially when the Europeans are calling for this compromise. The compromise they could have gotten was pretty good back in 2022. But they waited four years, a long time, and they still expect the parties to somehow meet in the middle and come to an agreement.
+**Diesen:** I find it very strange a lot of the rhetoric around especially when the Europeans are calling for this compromise. The compromise they could have gotten was pretty good back in 2022. But they waited four years, a long time, and they still expect the parties to somehow meet in the middle and come to an agreement.
 
 Even more than this, they want the Russians to make the greatest concessions, it seems. The kind of concession they want essentially the reason why the Russians went into Ukraine — to prevent NATO from embedding itself into Ukraine — in essentially a peace agreement which, after Russian victory, it appears that Europeans want why what the Russians went to war to prevent, which is European NATO troops within Ukraine.
 
@@ -125,7 +125,7 @@ Once you understand that the Russians see this not as a case of imperialism but 
 
 That's what I think accounts for the fact that the two sides are so far apart. It explains why people in the West are so baffled that the Russians won't make any concessions. They should make concessions, we think. But that's because the picture we have in our head of how the Russians are thinking is simply wrong.
 
-**Glenn Diesen:** It is interesting though the reluctance to accept that the Russians do see NATO as an existential threat because there's a good point behind the Russian view. I feel often that if you try to create a Europe without Russia it would unavoidably become against Russia. Because how can you have a Europe where the largest country doesn't belong? It would be as if you create a security architecture in America ruled by China and the United States would be the only one not being allowed to participate. It would unavoidably be seen as being aimed against the United States.
+**Diesen:** It is interesting though the reluctance to accept that the Russians do see NATO as an existential threat because there's a good point behind the Russian view. I feel often that if you try to create a Europe without Russia it would unavoidably become against Russia. Because how can you have a Europe where the largest country doesn't belong? It would be as if you create a security architecture in America ruled by China and the United States would be the only one not being allowed to participate. It would unavoidably be seen as being aimed against the United States.
 
 So it's very difficult to understand why there's no understanding for this though, and especially this assumption of our benign intentions after Afghanistan, Iraq or Yugoslavia as well, Libya, Syria, Iran, Gaza, the last 12 years in Ukraine. There should be some understanding though that perhaps it's not just a group of democracies spreading values.
 
@@ -141,7 +141,7 @@ If you believe that it was NATO expansion that's largely responsible for causing
 
 We in the West have a vested interest in making the argument that Putin was an imperialist and it was his imperial ambitions that caused the war, because we want to put the responsibility for this war on him. We want to blame him for this war. If you go down the road that we have gone down, you and I, and make the argument that NATO expansion is principally responsible for this disaster, you're in effect saying the West is responsible. For leaders in the West, this is a categorically unacceptable argument.
 
-**Glenn Diesen:** But where do we go from here? Because there's been a lot of pressure on the Kremlin — well on Putin — to change his tactics a bit. This is not new. I remember all the way back after 2014 when he tried to patch things up with Europeans. There were a lot of hawks in the Kremlin who were making the argument that if they don't act more assertively, NATO would interpret Russia's efforts to make up with NATO as weakness. So they said, well, why are we negotiating? We should be preparing for war essentially.
+**Diesen:** But where do we go from here? Because there's been a lot of pressure on the Kremlin — well on Putin — to change his tactics a bit. This is not new. I remember all the way back after 2014 when he tried to patch things up with Europeans. There were a lot of hawks in the Kremlin who were making the argument that if they don't act more assertively, NATO would interpret Russia's efforts to make up with NATO as weakness. So they said, well, why are we negotiating? We should be preparing for war essentially.
 
 This has gone on all the way until now, 2026, when they're saying, why aren't we taking off these gloves and putting an end to this war? Do you see Russia changing course anytime soon? Because I do see some escalation lately. That is not just the efforts to destroy all of the electric grids to turn off the lights, but also this quasi blockade on Odessa by attacking ships going in and out, the ports, the bridges. It seems like we might be entering a new stage of the war. Or do you see it differently?
 
@@ -159,11 +159,11 @@ You want to remember what I said before when I described this war as an existent
 
 I think that in a very important way everyone should hope that the Russians win this war at the conventional level rather quickly in the first part of 2026, and there's no incentive for the Russians to really go up the escalation ladder.
 
-**Glenn Diesen:** Another reason why they might want to finish off sooner is the logic you hear coming out of some European capitals that we have to keep the Ukrainians in the fight a bit more so we can prepare ourselves. If there's a possibility that the Europeans are preparing themselves and possibly entering the war at a later stage, then it would be much better to finish the war now before it has the time to actually expand into a wider pan-European war.
+**Diesen:** Another reason why they might want to finish off sooner is the logic you hear coming out of some European capitals that we have to keep the Ukrainians in the fight a bit more so we can prepare ourselves. If there's a possibility that the Europeans are preparing themselves and possibly entering the war at a later stage, then it would be much better to finish the war now before it has the time to actually expand into a wider pan-European war.
 
 **John Mearsheimer:** Can I ask you a question, Glenn? What is your sense of the pressure that's on Putin to sort of up the ante, to escalate and to get this war over with? Do you have a sense that he's under tremendous pressure to do that? If so, how do you see this playing out?
 
-**Glenn Diesen:** Well, I think there's a lot of pressure not to take any weak deal coming out of Washington because they've paid a heavy price as well. This has been four years of war. They lost tens of thousands of men. The idea is that if they agree to any deal which would allow the West to essentially revive the Ukrainian front line in the future and they would have to fight this whole thing over again, that would be completely unacceptable.
+**Diesen:** Well, I think there's a lot of pressure not to take any weak deal coming out of Washington because they've paid a heavy price as well. This has been four years of war. They lost tens of thousands of men. The idea is that if they agree to any deal which would allow the West to essentially revive the Ukrainian front line in the future and they would have to fight this whole thing over again, that would be completely unacceptable.
 
 There are many who are questioning why he hasn't brought this to an end already with more fierce means. This is not just Russians. I've spoken to many foreign ambassadors to Russia — not European ones, but others — who also have expressed confusion about why he hasn't taken a much harder approach yet.
 
@@ -175,6 +175,6 @@ I think this is where they're going with it because now that you see the Ukraini
 
 You also had reports which have been confirmed in Western media that a lot of the new military hardware being developed — that is armored vehicles and all — it's not actually going to the front. They're building up in the rear. My impression is that they're building up a big force in the rear. Whether this is for taking advantage of a massive breakthrough in Ukraine or if this is for us — that is, if the Europeans decide to enter the war — for me, this is unclear though.
 
-**Glenn Diesen:** Thank you very much, John, for taking the time. As always I always learn a lot listening to you. Thank you and I hope you come back on soon.
+**Diesen:** Thank you very much, John, for taking the time. As always I always learn a lot listening to you. Thank you and I hope you come back on soon.
 
 **John Mearsheimer:** Thank you for having me, Glenn. I enjoyed the conversation. I just wish the subject wasn't so depressing.

@@ -1,9 +1,9 @@
-﻿---
+---
 ingest_date: 2026-05-11
 pub_date: 2025-06-21
 thread: diesen
-show: Glenn Diesen - Greater Eurasia Podcast
-host: Glenn Diesen
+show: Diesen - Greater Eurasia Podcast
+host: Diesen
 guest: Jack Matlock
 title: "Jack Matlock: Superpower Illusions - Reviving the Cold War"
 source_url: "https://www.youtube.com/watch?v=E0GjI_2SjQk"
@@ -12,7 +12,7 @@ transcript_type: speaker_normalized_from_auto_subtitles
 editorial_note: "Best-effort speaker normalization and sentence polishing from YouTube auto-captions extracted with yt_dlp (en-orig). Not human-verified verbatim."
 ---
 
-# Glenn Diesen / Jack Matlock - Jack Matlock: Superpower Illusions - Reviving the Cold War
+# Diesen / Jack Matlock - Jack Matlock: Superpower Illusions - Reviving the Cold War
 
 **Channel:** Glenn Diesen  
 **Published:** 2025-06-21  
@@ -21,11 +21,11 @@ editorial_note: "Best-effort speaker normalization and sentence polishing from Y
 
 ## Transcript
 
-**Glenn Diesen:** Hi everyone and welcome. I am very pleased today to be joined by Ambassador Jack Matlock, who initially was posted to the US embassy in Moscow in the 1950s and later became the ambassador to the Soviet Union in the 1980s. Together with President Reagan, he contributed to negotiating an end to the Cold War. So, welcome back to the program, sir. It's always a great honor.
+**Diesen:** Hi everyone and welcome. I am very pleased today to be joined by Ambassador Jack Matlock, who initially was posted to the US embassy in Moscow in the 1950s and later became the ambassador to the Soviet Union in the 1980s. Together with President Reagan, he contributed to negotiating an end to the Cold War. So, welcome back to the program, sir. It's always a great honor.
 
 **Jack Matlock:** Thank you. I am happy to have a chat with you today.
 
-**Glenn Diesen:** Yeah. What I really wanted to talk with you about was a book of yours which was actually published in 2010, but is, I would argue, more relevant than ever: *Superpower Illusions: How Myths and False Ideologies Led America Astray and How to Return to Reality*. I guess we are seeing some of the consequences today of what you were writing about back then. So I thought a good place to start would be this: what are the main myths about how the Soviet Union was defeated, and what led America astray?
+**Diesen:** Yeah. What I really wanted to talk with you about was a book of yours which was actually published in 2010, but is, I would argue, more relevant than ever: *Superpower Illusions: How Myths and False Ideologies Led America Astray and How to Return to Reality*. I guess we are seeing some of the consequences today of what you were writing about back then. So I thought a good place to start would be this: what are the main myths about how the Soviet Union was defeated, and what led America astray?
 
 **Jack Matlock:** You know, the situation in the Middle East has now reached such a crisis stage that it maybe is a little difficult to think about other things. But what we are seeing now, I think, is uh the beginnings of an even greater tragedy than a number that we have seen recently, wars in Ukraine and and elsewhere.
 
@@ -55,7 +55,7 @@ Yeah. I think uh that was the bit dangerous consensus because the idea that secu
 
 **Jack Matlock:** Well, you know, we had the uh Helsinki final agreement well before the end of the cold war which set certain principles and one was that uh a commitment to um to protect human rights and that played a a very significant role in the developing democratization of the Soviet Union and but and but it also had a principle that there should be no change of borders without mutual consent of the two countries involved. Now, one of the one of the things we failed to do after 1991 and the collapse of the Soviet Union is further to develop the structures that had been created such as the uh OCD and which had no real power but could have been built up. Uh actually there was no effort uh to build a a security structure that included everybody because there was a decision in the '9s by the Clinton administration uh to begin expanding NATO. Now I say that was a decision by the Clinton administration because NATO cannot take in new members without the unanimous consent of of the existing members. And of course in many ways the most essential member in terms of military and economic power has been the United States.
 
-**Glenn Diesen:** But uh earlier there had been an effort to call the partnership for peace, not to expand NATO in that case, but to develop a a partnership that would allow, I would say, the that would allow the gradual decrease of military forces in Europe. and and that was one in which Russia became part of and and also most of the successor states of the Soviet Union.
+**Diesen:** But uh earlier there had been an effort to call the partnership for peace, not to expand NATO in that case, but to develop a a partnership that would allow, I would say, the that would allow the gradual decrease of military forces in Europe. and and that was one in which Russia became part of and and also most of the successor states of the Soviet Union.
 
 But instead of using that as a substitute for NATO expansion, which was quite acceptable to Russia, uh the Obama the Clinton administration decided uh to start expanding NATO and uh this I think was very much opposed by the Russian President Yelen. It's sort of ironic that at one point, and we know this from the documents now that have been declassified, uh, President Clinton was telling Yelson uh, that the partnership for peace would be a substitute for NATO expansion. At the very same time, the State Department had instructed our ambassador to Warsaw to say that it would be a step to the NATO expansion and inclusion of so that our diplomacy at that time was a bit too I must say.
 
@@ -77,7 +77,7 @@ Um but in your book though you had a whole chapter devoted to the liberal no sor
 
 Yeah. Well, uh, in in the second half of the title of your book, you do have, um, uh, it says how to return to reality.
 
-**Glenn Diesen:** And uh I think yeah that's an important part because 3 weeks ago we saw that uh Russia's nuclear deterrent was attacked and instead of condemnation or concerns there was uh almost uniform celebration across western capitals which is uh was shocking to me and again we also see now in the Middle East not just a genocide but also now a surprise attack on Iran's nuclear reactor. actors uh in the in the middle of uh negotiations. So, it's uh this is again it seems like we're moving into very dangerous territory and uh well to quote your book there needs to be some kind of a return to reality and uh restraint where do you see the world going from here? What what is it possible to do to avert disaster? Uh I know that's a you know a big ask but uh you know given you're involved in negotiating an end to the cold war what what what what would you advise the diplomats of today what to how to resolve these issues? Well, it's a very complex a very complex issue and things have gone so far that unless we have leaders that are committed to negotiating an end and a reasonable end to these conflicts, uh, we're not going to be able to. Now, I'm one who thinks that so far our leaders have been responsible enough not actually to use these nuclear weapons.
+**Diesen:** And uh I think yeah that's an important part because 3 weeks ago we saw that uh Russia's nuclear deterrent was attacked and instead of condemnation or concerns there was uh almost uniform celebration across western capitals which is uh was shocking to me and again we also see now in the Middle East not just a genocide but also now a surprise attack on Iran's nuclear reactor. actors uh in the in the middle of uh negotiations. So, it's uh this is again it seems like we're moving into very dangerous territory and uh well to quote your book there needs to be some kind of a return to reality and uh restraint where do you see the world going from here? What what is it possible to do to avert disaster? Uh I know that's a you know a big ask but uh you know given you're involved in negotiating an end to the cold war what what what what would you advise the diplomats of today what to how to resolve these issues? Well, it's a very complex a very complex issue and things have gone so far that unless we have leaders that are committed to negotiating an end and a reasonable end to these conflicts, uh, we're not going to be able to. Now, I'm one who thinks that so far our leaders have been responsible enough not actually to use these nuclear weapons.
 
 But what the attacks on um uh the strategic bombers by using um uh you might say by by using what is in effect terrorist techniques. That is uh these were weapons that were concealed in trucks and and done by using by an espionage network for it. something that by the way Israel has repeatedly done in the Middle East.
 

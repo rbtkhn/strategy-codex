@@ -3,8 +3,8 @@ ingest_date: 2026-03-20
 pub_date: 2026-03-20
 kind: transcript
 thread: diesen
-show: Glenn Diesen
-host: Glenn Diesen
+show: Diesen
+host: Diesen
 guest: Alastair Crooke
 title: "Alastair Crooke: Iran Sets Conditions for Access to the Strait of Hormuz"
 channel_url: "https://www.youtube.com/watch?v=UlELBkB1bQE"
@@ -13,7 +13,7 @@ source_url: "https://www.youtube.com/watch?v=UlELBkB1bQE"
 source_note: "Auto-generated from YouTube subtitles via yt-dlp; caption-grade raw-input."
 ---
 
-# Glenn Diesen / Alastair Crooke - Alastair Crooke: Iran Sets Conditions for Access to the Strait of Hormuz
+# Diesen / Alastair Crooke - Alastair Crooke: Iran Sets Conditions for Access to the Strait of Hormuz
 
 **Channel:** Glenn Diesen  
 **Date:** 2026-03-20  

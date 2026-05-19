@@ -5,7 +5,7 @@ ingest_date: 2026-04-28
 kind: cleaned-transcript
 source_url: https://www.youtube.com/watch?v=h19ssmpSIEE
 title: "Lawrence Wilkerson: Araghchi Meets Putin as Russia Goes All-In on Iran"
-interviewer: Glenn Diesen
+interviewer: Diesen
 guest: Colonel Lawrence Wilkerson
 editorial_note: Operator-cleaned unabridged transcript; Wilkerson corrects Diesen on Powell (chief of staff to Secretary of State, not Defense).
 ---
@@ -23,7 +23,7 @@ editorial_note: Operator-cleaned unabridged transcript; Wilkerson corrects Diese
 
 ## Cleaned, Unabridged Transcript
 
-**Glenn Diesen:**
+**Diesen:**
 Welcome back. We are joined today by Colonel Lawrence Wilkerson, who spent decades in the U.S. military, from serving in the mid-1960s during the Vietnam War to becoming the chief of staff to the U.S. Secretary of Defense. So, thank you very much for taking the time.
 
 **Colonel Lawrence Wilkerson:**

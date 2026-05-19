@@ -4,7 +4,7 @@ aired: "2026-04-23"
 ingested: "2026-04-25"
 source: operator_file
 operator_source: /Users/robertkuhne/Documents/diesen-escobar-2026-04-23.md
-show: Glenn Diesen (host) × Pepe Escobar (guest — not strategy expert_id; named in copy)
+show: Diesen (host) × Pepe Escobar (guest — not strategy expert_id; named in copy)
 thread: diesen
 guest_speaker: pepe_escobar
 kind: cleaned-transcript
@@ -21,7 +21,7 @@ canonical_url: https://www.youtube.com/watch?v=XzzDdssl_rw
 
 ---
 
-## Glenn Diesen
+## Diesen
 
 Welcome back. We are joined today by Pepe Escobar, journalist and an author. thank you for coming back on. It's it's good to see you again.
 
@@ -29,7 +29,7 @@ Welcome back. We are joined today by Pepe Escobar, journalist and an author. tha
 
 Always a pleasure, Glenn. And greetings from Buddhist, peaceful Southeast Asia. Well, I think the first time we met in person was in Moscow. I was working there years ago.
 
-## Glenn Diesen
+## Diesen
 
 Very Yeah, it feels like ages ago now. But I also thinking there for a department focusing on the Greater Eurasia Initiative that is for Russia to integrate its economy you know through industries physical corridors financial instruments from China to India Iran and you as a journalist have been working on this as well. so yeah that's been a while but but this whole initiative is seen as an effort to essentially yeah reorganize the international economic architecture and of course Russia and China tends to form the core but India Iran many others have an interest in this multipolar economic architecture. I thought a good place to start today would be yeah to ask you how do you see Iran's role in this whole thing in this construct? Well, stepping a little bit away, but not so much from the war, Glenn. This is, one of my latest columns this week.
 
@@ -59,7 +59,7 @@ In fact, le less than two months from now and of course the Southeast Asians are
 
 He goes through Kazakhstan middle corridor. And this one is particularly interesting because it's Xinjiang, Kazakhstan, Kyrgyzstan, Turkmenistan, and then it crosses the border in Turkmenistan, enters Iran, and from Iran it can go to Turkey, and from Turkey can go to Europe. And for the Chinese, this is a key corridor. this road this this railway sorry the Iranian stretch it's part of what they call the east west corridor and it's where the most important corridors of the new roads of brie there you go it's all there and and everybody is interconnected and the central Asians are connected with all these corridors as well so it's important for them as well because they also receive Chinese merchandise that stays in their countries and the rest keeps going. Well, given that well, you mentioned the the attacks on the on the Chinese connectivity.
 
-## Glenn Diesen
+## Diesen
 
 I know Iran railway. Yes. Yes.
 
@@ -87,7 +87,7 @@ I mean, it's kind of aggressive language while an American general said we can i
 
 So as you said closing off between Indonesia and Malaccaysia I think at the narrow area it's just like 2.8 kilometers something very narrow.
 
-## Glenn Diesen
+## Diesen
 
 So this is easy to shut down but
 
@@ -113,7 +113,7 @@ But again, it's on one hand, it's a very competitive advantage because the Arcti
 
 So, so the the Russians have great leverage there and also because of the you know the relationship with China get you know everyone gets impression sometimes that the the Russians can get a bit antsy because the the you know they will be more dependent on China than Chinese on Russia. You know the Russians overcome this by having a certain degree of strategic autonomy and also diversifying their partnerships as we've seen in the Arctic. They make sure not just to invite the Chinese, they also invite the Indians and Koreans. Yes. Yeah.
 
-## Glenn Diesen
+## Diesen
 
 Yeah. Exactly. But but also because the ports and all are sovereign Russian territory, it's it creates more balance in the relationship with with the Chinese. So kind of has all the perfect recipe for for being a a good project. But this being said, it has limits as well. I mean the Arctic is it can't become the main corridor. is simply one of many which which allows countries to diversify and again so I think often people see it as a you know it gives the potential of a Russian strangle hold but I think this is exaggerated because it won't it won't reach that degree of traffic. It's I think if anything having more corridors it it prevents other countries from using corridors as a weapon because then people lose trust in it. And so the Russians have an interest in keeping it open to have trust in it.
 
@@ -125,7 +125,7 @@ and if you go to the Russian you know conservative scholars Savitsky and others 
 
 They have they're building the infrastructure new technology especially drones make a lot of the infrastructure required for search and rescue much cheaper and reasonable especially in areas which have not that you populated which aren't that heavily populated. So I tend to be optimistic about the Arctic RTO but
 
-## Glenn Diesen
+## Diesen
 
 but the problem is in the past it was just a frozen desert. there's not that much competitive strategic interest. But now with maritime corridor, all of this natural resources becoming available, it just it's it's lined up for being, you know, taking the center of a zero sum geopolitical standoff. Again, that's why the American wants Greenland. So,
 
@@ -137,7 +137,7 @@ People don't consider India to be an Arctic country. But but this is kind of the
 
 So I think in the future we're going to kick ourselves for what what we've done that is the Europeans because you know all this Arctic gas which was supposed to fuel our industries cheap gas for the past next 30 years this has now been signed over to the Chinese instead because we are obsessed with defeating the Russians instead of finding a political settlement. though it's just I think historians will look back at this period here as one of the most ridiculous and yeah full of self-inflicted
 
-## Glenn Diesen
+## Diesen
 
 question yes and you you saw the latest 90 billion and they think they actually think in Brussels that this is going to be paid by Russian reparations.
 
@@ -145,7 +145,7 @@ question yes and you you saw the latest 90 billion and they think they actually 
 
 Yeah. all that but that but that's why they call it a loan 90 billion
 
-## Glenn Diesen
+## Diesen
 
 to Ukraine how is it a loan they can't pay it back and then they explain oh well after we defeat Russia they will pay in reparation so essentially the Europeans can't afford peace anymore because peace has you know they have to defeat Russia otherwise they don't get their money back either
 
@@ -153,7 +153,7 @@ to Ukraine how is it a loan they can't pay it back and then they explain oh well
 
 otherwise they're not going to get their money back
 
-## Glenn Diesen
+## Diesen
 
 I always ask though what exactly is this plan if you see Russia considers this to be an existential threat. How do you defeat the world's largest nuclear power which considers it to be in a fight for its survival? Exactly. To what extent do you want to be successful? I mean, this is a horrible war on so many levels. the humanitarian strategic. I mean, anyways, I wanted to just get back to the the Iranian Chinese aspect of this though because the from what I hear now, the Iranians have began to outline the rules of his new toll system that is everyone has to pay toll. If I'm not mistaken, those who participate in attack on Iran or sanctions Iran, they get a little bit of extra bonus on top in terms of what they have to pay. Also, they don't want dollars. So,
 
@@ -165,7 +165,7 @@ But he has to take an off ramp and he's begging for an an off-ramp. That's that'
 
 And in fact, if the Americans attack again, the number one target apart from Israel is going to be the UAE and not the UAE. Abu Dhabi specifically, and Dubai, the business model of Dubai is already dead and it's not coming back. Dubai,
 
-## Glenn Diesen
+## Diesen
 
 how so? The business model is
 
@@ -177,7 +177,7 @@ those famous 1.4 for trillion I think is a little bit too much but it's probably
 
 And if the Americans try something funny in the next few days once again, rumor me, but we have to deal with the rumor mill as well. There could be something happening within the weekend. Well, the Iranians already said what's going to happen. It's very very simple. We attack Fujairah, we attack Yanbu, and we close the Bab al-Mandeb. That's it. Can you recover from that? No. Nobody can.
 
-## Glenn Diesen
+## Diesen
 
 Yeah. When Yemen closes down the Red Sea, I think this is
 
@@ -185,7 +185,7 @@ Yeah. When Yemen closes down the Red Sea, I think this is
 
 then it's game over.
 
-## Glenn Diesen
+## Diesen
 
 That's game over. That's game over. And everybody knows that, Glenn. Every everybody doing, you know, models or whatever. Everybody knows that. And that's why nothing happened with the Bab al-Mandeb so far because this is the ultimate joker. Then it's total collapse. The global economy is already collapsing even more because of this absolutely ridiculous blockade which is not blockading anything. Ships continue to to go through. And it's fascinating because if you if you if you navigate in the Iranian territorial waters, Pakistani territorial waters and Indian territorial waters very close to the coastline. That's it. You go from Kharg to Mumbai. Very simple, you know. And I'm sure a lot of cargos now are doing that. Tankers are doing that now. you you why do you need to navigate in the middle of the Arabian Sea? You know that the Americans are there or at least they tell us there.
 
@@ -195,7 +195,7 @@ We we we we still don't know where exactly they are placed. There's no visual id
 
 Given that they're so far away, the the region gets so stretched out as well, which means you need a a lot of ships. So,
 
-## Glenn Diesen
+## Diesen
 
 of course,
 
@@ -203,7 +203,7 @@ of course,
 
 from the Yeah. the amount of manpower the ships being used, I mean, they're really exhausting the resources. Making matters worse, at some point, you know, where do you dock, where do you do the maintenance? A lot of these are going to make them very vulnerable. So, it's, it's a dangerous strategy they're playing. If we're going to back into full out war, the US could be in very bad shape. So,
 
-## Glenn Diesen
+## Diesen
 
 yes.
 
@@ -211,7 +211,7 @@ yes.
 
 No,
 
-## Glenn Diesen
+## Diesen
 
 if we go back to war, these ships are going to be attacked by missiles and drones, swarms of missiles and drones. There's no question. The the Iranians are just waiting. This will be part of the war 2.0. One of the first things, okay, let's attack the the US Navy, whatever they are. As the Chinese would say, interesting time. So, thank you very much for taking the time. Any final thoughts?
 
@@ -219,7 +219,7 @@ if we go back to war, these ships are going to be attacked by missiles and drone
 
 My pleasure, Glenn. Well, hope to see you in in Russia soon.
 
-## Glenn Diesen
+## Diesen
 
 Yeah. Yeah, I'm going soon. So, thank you.
 

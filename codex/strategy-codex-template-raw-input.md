@@ -69,6 +69,21 @@ One raw-input capture usually feeds one primary downstream codex-page. Multiple 
 - Optional light headings are fine only when they preserve source clarity.
 - Do not pre-summarize, condense into notebook judgment, or rewrite the source into page prose here.
 
+## Naming discipline for transcript captures
+
+When a raw-input transcript mixes **source-faithful identifiers** with **editorial structure**, keep the two layers distinct:
+
+- **Source-faithful fields** keep the source's own public naming as-is: `channel_slug`, `source_url`, `canonical_url`, quoted `Title (YouTube)` lines, `Channel:` labels, and verbatim quoted transcript content.
+- **Editorial fields** may use the notebook's own normalization style: `author`, `host`, `interviewer`, `show`, `slug`, speaker labels, and assistant-added headings.
+- For designated stream transcripts where the lane is already the owning cue (for example `transcript-diesen-*`), prefer **surname-style editorial labels** such as `Diesen` in assistant-added metadata and speaker tags unless a stronger local convention already exists.
+- If a source title or spoken line itself says `Glenn Diesen`, preserve it when you are quoting the source rather than labeling it.
+
+Before closeout on a transcript capture, do a quick **editorial name drift** pass:
+
+- check that assistant-added labels match the lane's editorial convention
+- check that source identifiers were not "normalized" away from their public names
+- check that filenames and `channel_slug` still preserve stable routing
+
 ## Relationship to other raw-input docs
 
 - Use this file for **shape**: folder/date convention, frontmatter, and literal-body expectations.

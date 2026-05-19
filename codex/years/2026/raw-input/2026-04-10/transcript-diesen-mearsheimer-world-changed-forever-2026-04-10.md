@@ -2,9 +2,9 @@
 ingest_date: 2026-04-21
 pub_date: 2026-04-10
 kind: operator-transcript
-show: Glenn Diesen (Greater Eurasia)
+show: Diesen (Greater Eurasia)
 episode_title: "John Mearsheimer: World Changed Forever as Iran Defeated the U.S."
-host: Glenn Diesen
+host: Diesen
 guest: John Mearsheimer
 threads: [diesen, mearsheimer]
 thread_expert: mearsheimer
@@ -21,13 +21,13 @@ related_same_series:
   - ../../freeman-diesen-2026-04-18-verbatim.md
 ---
 
-# Glenn Diesen × John Mearsheimer — World Changed Forever as Iran Defeated the U.S. (operator transcript)
+# Diesen × John Mearsheimer — World Changed Forever as Iran Defeated the U.S. (operator transcript)
 
-**Glenn Diesen:** Welcome back. Today is Friday the 10th of April and we are joined by none other than Professor John Mearsheimer. Thank you for coming back on.
+**Diesen:** Welcome back. Today is Friday the 10th of April and we are joined by none other than Professor John Mearsheimer. Thank you for coming back on.
 
 **John Mearsheimer:** Ah, it’s always my pleasure, Glenn.
 
-**Glenn Diesen:** These are crazy times indeed. We saw that Trump threatened to wipe out the entire Iranian civilization with its 90-plus million citizens. Then he embraced this sudden ceasefire, which he then seemingly undermined immediately thereafter. Then he claims victory and begins to distance himself from some of the key requirements of this ceasefire deal. It can be confusing. So I was hoping if anyone can shed some light on this, it would be you.
+**Diesen:** These are crazy times indeed. We saw that Trump threatened to wipe out the entire Iranian civilization with its 90-plus million citizens. Then he embraced this sudden ceasefire, which he then seemingly undermined immediately thereafter. Then he claims victory and begins to distance himself from some of the key requirements of this ceasefire deal. It can be confusing. So I was hoping if anyone can shed some light on this, it would be you.
 
 **John Mearsheimer:** Yeah, I think it is somewhat confusing for sure. Because President Trump frequently contradicts himself and says outrageous things, it sometimes feels like it’s hard to make sense of what is going on here. But I actually think it’s quite straightforward. If you look at his two tweets on Monday, it tells you a great deal.
 
@@ -49,7 +49,7 @@ What he does in the second tweet, again, he reverses gears, goes in the opposite
 
 So what I’m saying to you, Glenn, is if you look at the morning tweet and you look at the evening tweet, you see that Trump is desperate. He’s desperate to end this war and he wants to get a ceasefire as quickly as possible and then he wants to start negotiations.
 
-**Glenn Diesen:** But it seems like he wants to have it both ways. Because yes, he concedes defeat — he’ll accept that Iran will set up a toll on the Strait of Hormuz, we’ll put a ceasefire which includes Lebanon, all these things — but then once the ceasefire is in place, he seems to be still wanting to claim victory. So now his tweets are about “well, you know, you better not put any tolls on the Strait of Hormuz” and “Lebanon’s not included.” It looks like he wants to have it both ways. He concedes defeat to get the ceasefire, but once he has the ceasefire, he wants to make this victory claim. Because I noticed that Pete Hegseth also tried to do this victory lap. It was just reading out all the people who were dead, all the people they killed, as a way of suggesting that this was victory. But did you see the attempt to claim victory here? Because what they have to agree to and what they’re claiming — there seems to be a massive gap there.
+**Diesen:** But it seems like he wants to have it both ways. Because yes, he concedes defeat — he’ll accept that Iran will set up a toll on the Strait of Hormuz, we’ll put a ceasefire which includes Lebanon, all these things — but then once the ceasefire is in place, he seems to be still wanting to claim victory. So now his tweets are about “well, you know, you better not put any tolls on the Strait of Hormuz” and “Lebanon’s not included.” It looks like he wants to have it both ways. He concedes defeat to get the ceasefire, but once he has the ceasefire, he wants to make this victory claim. Because I noticed that Pete Hegseth also tried to do this victory lap. It was just reading out all the people who were dead, all the people they killed, as a way of suggesting that this was victory. But did you see the attempt to claim victory here? Because what they have to agree to and what they’re claiming — there seems to be a massive gap there.
 
 **John Mearsheimer:** Well, first of all, Glenn, they don’t have a ceasefire. Because to have a ceasefire, the Iranians have to open the Strait of Hormuz. The Iranians have refused to open the Strait of Hormuz because the Israelis are bombing Lebanon and attacking Hezbollah inside Lebanon. The Iranians say there will be no ceasefire. The Strait of Hormuz will not be opened until the Israelis stop attacking Hezbollah. That hasn’t happened. So the Israelis are undermining the ceasefire.
 
@@ -63,7 +63,7 @@ Furthermore, Iran now controls the Strait of Hormuz, which gives it enormous lev
 
 As I said, President Trump in his Truth Social post on Monday night — this is April 6th — said, “We’re going to negotiate on the basis of the 10-point plan that the Iranians have put on the table.” This is a clear defeat. It’s an even bigger defeat for Israel. In Israel, there is all sorts of talk to that effect. The Israelis fully understand that if you look at where this train is headed, this is a catastrophic defeat for them. Of course, it is for President Trump as well.
 
-**Glenn Diesen:** Well, in the future as well, if Israel or any of the Western states would want to attack Yemen or attack Lebanon or genocide the Palestinians again, then Iran could just shut down or increase the toll. They have some different steps up the escalation on Hormuz. They can block some ships. This gives a massive instrument of power to the Iranians. They seem like they will exit this conflict as — maybe “superpowers” is a bit too much — but at least adjacent to a great power. This is quite an instrument of power they have, and as you said, they didn’t have this before the war.
+**Diesen:** Well, in the future as well, if Israel or any of the Western states would want to attack Yemen or attack Lebanon or genocide the Palestinians again, then Iran could just shut down or increase the toll. They have some different steps up the escalation on Hormuz. They can block some ships. This gives a massive instrument of power to the Iranians. They seem like they will exit this conflict as — maybe “superpowers” is a bit too much — but at least adjacent to a great power. This is quite an instrument of power they have, and as you said, they didn’t have this before the war.
 
 **John Mearsheimer:** Well, there are two points to be made. First of all, I think you don’t want to overestimate how powerful a position Iran is in because of years of sanctions and because of the destruction we’ve wrought on Iran since February 28th. Iran in a very important way has been devastated. This is a country that has been wrecked in a lot of ways. So the idea that they’re coming out of this war in great shape is wrong. They’re going to have to spend many billions of dollars over many years to recover or to come close to recovering from all the damage that we and the Israelis have inflicted on them.
 
@@ -71,7 +71,7 @@ There’s no question, however, that given the fact that they control the Strait
 
 They do have enormous leverage. There’s just no question about that. This is going to present huge problems for the Israelis moving forward and for the Americans moving forward.
 
-**Glenn Diesen:** It also seems though that for Netanyahu, the effort of portraying Iran as dead set on acquiring nuclear weapons and also being profoundly irrational — that this was also instrumental in terms of making Israel’s problems into the Americans’ problems. Because that would be the only way one could conceive Iran as a threat to the United States — if it would acquire nuclear weapons and have no way of being deterred and being devoted to using this in an offensive manner. But it is interesting that they seem to buy into their own rhetoric though about the irrationality of Iran and its determination to acquire a nuclear weapon.
+**Diesen:** It also seems though that for Netanyahu, the effort of portraying Iran as dead set on acquiring nuclear weapons and also being profoundly irrational — that this was also instrumental in terms of making Israel’s problems into the Americans’ problems. Because that would be the only way one could conceive Iran as a threat to the United States — if it would acquire nuclear weapons and have no way of being deterred and being devoted to using this in an offensive manner. But it is interesting that they seem to buy into their own rhetoric though about the irrationality of Iran and its determination to acquire a nuclear weapon.
 
 **John Mearsheimer:** But it also seemed that this is going to be devastating for the Trump administration. I’m thinking though because Trump’s whole bit I think was — you know, what he was able to appeal to — he was looking at the US relative decline, that is its power in the world, its military, its economy, the well-being of people in society. He essentially blamed this on weak and foolish leaders. So the weakness of Obama, the weakness of Biden, and also the foolishness of engaging in all these wars. So the solution was essentially strength. You needed a strong man. That was Trump. He was strong. That is, if he was just tough, decisive and assertive, this is essentially the medicine that will bring America — make it great again. His toughness would be matched with this intelligence, his high IQ as he always says, because he wouldn’t do these foolish forever wars.
 
@@ -95,7 +95,7 @@ In terms of his standing here in the United States, there’s no way he’s not 
 
 If you just look at what’s happening inside the MAGA base, you look at what’s happening with Christian evangelicals under the age of 50, I think he has truly profound political problems at home and on the foreign policy front as well.
 
-**Glenn Diesen:** I was also expecting that after a disaster such as this, instead of going through this process you described before — that is having some openness: “Where did we go wrong?” out of trouble, learning something from the mistakes — I would assume that he would seek to blame others. I guess the Europeans would be a good fall guy and also divert the attention — maybe go for a quick victory, that is seize Cuba or Greenland — something like a shift of focus as quick as possible, because you don’t want to sit around thinking about all the things or having too many debates in the country about all the things you did wrong. This can’t do anything well for him. So I guess erratic behavior moving forward is a pretty reasonable prediction.
+**Diesen:** I was also expecting that after a disaster such as this, instead of going through this process you described before — that is having some openness: “Where did we go wrong?” out of trouble, learning something from the mistakes — I would assume that he would seek to blame others. I guess the Europeans would be a good fall guy and also divert the attention — maybe go for a quick victory, that is seize Cuba or Greenland — something like a shift of focus as quick as possible, because you don’t want to sit around thinking about all the things or having too many debates in the country about all the things you did wrong. This can’t do anything well for him. So I guess erratic behavior moving forward is a pretty reasonable prediction.
 
 But if we take a step back in the wider picture, what do you think the world will look like after this? Because you and I spoke in the past about the emergence of a multipolar world — that is, simply the international distribution of power suggests the concentration of power we had in the ’90s is now dispersed. Now you have many centers of power. The fact that well it looks as if this would intensify this development.
 
@@ -115,7 +115,7 @@ You see the damage that we have done to ourselves. To go back to our discussion 
 
 Our power position around the world in terms of our ability to project power and influence other countries has been badly damaged. We have done enormous damage to international institutions, international law, and our treatment of allies before February 28th. So the United States is in just so much trouble.
 
-**Glenn Diesen:** You know, I think what might be a relative decline as you have the rise of other powers — because if Iran could have been knocked out, that would have been something that would have weakened the Russians, the Chinese, and strengthened the hand of the United States. But measuring the ability to project power in terms of the alliance system as well is probably also a good approach because as you said the Gulf States are in a very vulnerable position. Now I know the rhetoric now is a bit harsh towards the Iranians but at some point if the US presence is expected to diminish then they’re going to have to try to make some peace with the neighbors. I would say eventually the Europeans would have to do the same. We can’t fight against the Russians on our own. If the Americans will reduce their presence, we’re going to have to learn how to get along with the Russians. You can say this might be some of the calculations they’re having in East Asia as well.
+**Diesen:** You know, I think what might be a relative decline as you have the rise of other powers — because if Iran could have been knocked out, that would have been something that would have weakened the Russians, the Chinese, and strengthened the hand of the United States. But measuring the ability to project power in terms of the alliance system as well is probably also a good approach because as you said the Gulf States are in a very vulnerable position. Now I know the rhetoric now is a bit harsh towards the Iranians but at some point if the US presence is expected to diminish then they’re going to have to try to make some peace with the neighbors. I would say eventually the Europeans would have to do the same. We can’t fight against the Russians on our own. If the Americans will reduce their presence, we’re going to have to learn how to get along with the Russians. You can say this might be some of the calculations they’re having in East Asia as well.
 
 On NATO though this seems to be one of the — not a casualty but one of the organizations which has also been hit hard by the Iran war simply by the mutual accusations. How do you think NATO will be affected by the way this war ended?
 
@@ -131,7 +131,7 @@ So the Europeans over the next two years and nine months have to figure out how 
 
 One could argue he may step down before then. He could be impeached. He could have medical problems and JD Vance could become president. Who knows what Vance would do. I tend to believe that Vance would have a more positive attitude towards NATO than Trump would. But how much more positive is hard to say. We all remember his Valentine’s Day speech in Munich in February of 2025. Vance didn’t look like he was friendly toward Europe then. If he became president, maybe he wouldn’t be once he was in the White House. Who knows for sure? But the future of NATO looks grim, to put it mildly.
 
-**Glenn Diesen:** It seems to be heading towards an end. But by extension, what will all of this mean? That is the loss in the Iran war as well as all the weapons and money that was spent, the further economic problems for the Europeans. What does this mean for the Ukraine war? Because I see Zelensky has been taking to Twitter and now that the Iran war is over encouraging everyone to shift focus back to Ukraine, but it’s going to be hard to see the appetite for Trump to deepen involvement there. If you take into account all of these different variables, how would you expect the Ukraine war to be affected by the loss of the Iran war but also the fragmentation now we see of NATO?
+**Diesen:** It seems to be heading towards an end. But by extension, what will all of this mean? That is the loss in the Iran war as well as all the weapons and money that was spent, the further economic problems for the Europeans. What does this mean for the Ukraine war? Because I see Zelensky has been taking to Twitter and now that the Iran war is over encouraging everyone to shift focus back to Ukraine, but it’s going to be hard to see the appetite for Trump to deepen involvement there. If you take into account all of these different variables, how would you expect the Ukraine war to be affected by the loss of the Iran war but also the fragmentation now we see of NATO?
 
 **John Mearsheimer:** I think first of all I wish that Zelensky were correct and the Iran war was over and we could now focus on Ukraine. I think we’re going to be focusing on Iran for the foreseeable future. This is a catastrophic situation.
 
@@ -145,6 +145,6 @@ What he’ll do moving forward is he’ll blame the Europeans for what’s happe
 
 I think that is what the future looks like. I think in one tweet he was able to squeeze in both blaming the Europeans for Iran and also say bye-bye to Greenland or something. So he seems to be preparing both the blame game as well as a distraction it seems.
 
-**Glenn Diesen:** Thank you so much for being so generous with your time.
+**Diesen:** Thank you so much for being so generous with your time.
 
 **John Mearsheimer:** My pleasure, Glenn. As always, I enjoyed our discussion immensely.

@@ -50,10 +50,16 @@ Long-form prose from a **single primary author** or outlet voice: Substack posts
 | **Typical sources** | YouTube **`watch?v=`**, podcast pages, operator-cleaned transcripts (session paste). |
 | **`kind:`** | **`transcript`** (default for speech capture). |
 | **`thread:`** | Map the **owning stream** to the **host / interviewer** slug for host-led interviews (e.g. **`thread:diesen`** for a Glenn Diesen interview, even when the guest is Marandi). Use a guest slug only when the guest is the actual owner of the capture. Multi-guest shows: inbox may use **`thread:a`** × **`thread:b`** style (see existing [daily-strategy-inbox.md](../daily-strategy-inbox.md) rows). |
-| **Raw body** | **Unabridged** cleaned transcript as SSOT; YAML **`show`**, **`host`**, **`guest`** when helpful; **`source_url`** canonical episode URL. |
+| **Raw body** | **Unabridged** cleaned transcript as SSOT; YAML **`show`**, **`host`**, **`guest`** when helpful; **`source_url`** canonical episode URL. Keep **source-faithful** names in `channel_slug`, quoted titles, and `Channel:` lines, but keep **editorial** names consistent in assistant-added fields such as `author`, `host`, `interviewer`, `slug`, and speaker labels. |
 | **Mechanical inbox stub** | **`YT \| cold`** (or platform label) + episode title + **aired / publication** **`YYYY-MM-DD`** + theme bullets + **`hook:`** + **`thread:<expert_id>`** + **`full`** link to **`raw-input/...md`** + canonical URL + **`verify:operator-cleaned-transcript`** + **`pub_date:`** + tier tags (`opinion-analytic-tier`, etc.) + **`grep:`** host + guest + short slug + date. |
 | **Refined `### Selected Passages`** | Often **lane-specific** (guest-only, or expert monologue) or **head + tail + omission line** per [refined-page-template.md](../refined-page-template.md) § Length; drop host filler if budget forces. |
-| **Pitfalls** | **`pub_date`** = upload vs live air mismatch; chunk merges dropping blank lines between speakers; on-air **numbers** need **`verify:`** before load-bearing use in **`days.md`**. |
+| **Pitfalls** | **`pub_date`** = upload vs live air mismatch; chunk merges dropping blank lines between speakers; on-air **numbers** need **`verify:`** before load-bearing use in **`days.md`**; editorial name drift where assistant-added speaker tags or metadata use a different naming style than the lane. |
+
+**Transcript naming rule (explicit):**
+
+- If the field is preserving the source's public identity, keep the source form exactly.
+- If the field is the notebook's own editorial layer, follow the lane's local naming convention consistently.
+- For `Diesen`-owned transcript captures, default editorial shorthand is **`Diesen`**, not `Glenn`, unless the source itself is being quoted.
 
 **`grep:` keywords (optional tail):** `transcript`, `YT`, `watch?v=`, `thread:<expert>`, `cleaned-transcript`.
 
