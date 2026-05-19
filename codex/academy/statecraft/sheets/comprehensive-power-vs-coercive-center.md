@@ -31,6 +31,19 @@ Do not write that Iran simply replaces India as the fourth world power. Write th
 
 Working formula: **scale compounds over decades; leverage can reorder bargaining in weeks.**
 
+For longitudinal crisis-leverage scoring, use the [Pape coercive-center index](pape-coercive-center-index.md). For structural-realist scoring, balance-of-power pressure, and restraint tests, use the [Mearsheimer structural-realist scoreboard](mearsheimer-structural-realist-scoreboard.md).
+
+## Comparative Perspective Hook
+
+When this distinction becomes a policy paper, open [National perspective orthogonality](national-perspective-orthogonality.md) and add Iran as a speaking statecraft perspective, not only as the object of U.S., Russian, or Chinese policy.
+
+- **U.S. view:** bound Iran's leverage. Use the [America lane](../america/) when this becomes a U.S. policy draft.
+- **Russian view:** use Iran's leverage without entrapment.
+- **Chinese view:** preserve Iran's leverage without energy disorder.
+- **Iranian view:** legitimate and monetize leverage without losing escalation control. Use the [Iran lane](../iran/) when this becomes an Iranian bargaining or regional architecture draft.
+
+Keep India as the shadow comparator rather than folding it into the four national lanes: India remains the comprehensive-power test; Iran is the coercive-center test.
+
 ## Richelieu Check
 
 - What durable state interest is served by recognizing this power type?

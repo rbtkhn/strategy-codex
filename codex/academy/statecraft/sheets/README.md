@@ -12,6 +12,10 @@ These sheets are reusable prompt benches for academy-statecraft. They are not su
 4. **Failure-mode review** - What breaks first: incentives, verification, domestic legitimacy, alliance geometry, administrative capacity, or time?
 5. [Speaker insight to policy memo](speaker-insight-to-policy-memo.md) - Convert one sourced speaker insight into a memo without importing the speaker's whole worldview.
 6. [Comprehensive power vs coercive center](comprehensive-power-vs-coercive-center.md) - Test whether an actor's power comes from scale, leverage, denial, chokepoints, or brokerage.
+7. [National perspective orthogonality](national-perspective-orthogonality.md) - Compare U.S., Russia, China, Iran, or other state views without flattening their interests, fears, instruments, and off-ramps.
+8. [Pape coercive-center index](pape-coercive-center-index.md) - Track great-power ranking by crisis leverage rather than size alone.
+9. [Mearsheimer structural-realist scoreboard](mearsheimer-structural-realist-scoreboard.md) - Track structural power, balancing pressure, overextension risk, institutional carrier, and restraint.
+10. **National lanes** - Open [America](../america/), [Russia](../russia/), [China](../china/), or [Iran](../iran/) when the comparison should become a country-specific treaty, memo, negotiation brief, or crisis instrument.
 
 ## Prompt Forms
 
@@ -55,6 +59,20 @@ Open [Speaker insight to policy memo](speaker-insight-to-policy-memo.md) when a 
 ### Comprehensive Power Vs Coercive Center
 
 Open [Comprehensive power vs coercive center](comprehensive-power-vs-coercive-center.md) when a claim about "world power" needs a sharper metric before it becomes a policy memo, treaty frame, or negotiation assumption.
+
+### Pape Coercive-Center Index
+
+Open [Pape coercive-center index](pape-coercive-center-index.md) when a draft needs to track whether crisis leverage is changing the great-power ranking over time.
+
+### Mearsheimer Structural-Realist Scoreboard
+
+Open [Mearsheimer structural-realist scoreboard](mearsheimer-structural-realist-scoreboard.md) when a draft needs balance-of-power logic, overextension checks, and Richelieu / Bismarck overlays.
+
+### National Perspective Orthogonality
+
+Open [National perspective orthogonality](national-perspective-orthogonality.md) when the same crisis needs separate statecraft logics. The default Iran / India / fourth-center matrix separates U.S. containment, Russian exploitation-without-entrapment, Chinese leverage-under-energy-constraint, and Iranian legitimation-without-loss-of-control.
+
+When one perspective needs to become a draft, use the matching national lane rather than expanding the comparison sheet: [America](../america/), [Russia](../russia/), [China](../china/), or [Iran](../iran/).
 
 ## Expected Output
 

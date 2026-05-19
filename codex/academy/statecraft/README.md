@@ -19,8 +19,21 @@ Together they ask whether a draft can survive power, incentives, institutions, a
 - [Treaty framework template](templates/treaty-framework.md) - scaffold for treaty or agreement drafts.
 - [Policy paper template](templates/policy-paper.md) - scaffold for policy papers and decision memoranda.
 - [Negotiation brief template](templates/negotiation-brief.md) - scaffold for bargaining packages and diplomatic instructions.
+- [National lane template](templates/national-lane.md) - scaffold for country-specific drafting lanes.
 - [Sheets](sheets/) - reusable prompt benches for fast statecraft sessions.
+- [National perspective orthogonality](sheets/national-perspective-orthogonality.md) - compare U.S., Russia, China, Iran, and other state views without collapsing them into one generic strategic lens.
+- [Pape coercive-center index](sheets/pape-coercive-center-index.md) - track a Pape-style great-power ranking by crisis leverage, chokepoints, systemic spillover, and diplomatic monetization.
+- [Mearsheimer structural-realist scoreboard](sheets/mearsheimer-structural-realist-scoreboard.md) - track structural power, balancing pressure, overextension, institutional carrier, and restraint.
 - [Sovereignty Under Acceleration](../singularity/workshop/sheets/sovereignty-under-acceleration.md) - bridge sheet for turning AI acceleration signals into treaty, policy, authority, and human-command artifacts.
+
+## National Lanes
+
+These folders are drafting benches, not country encyclopedias. Each lane synthesizes contemporary speaker-state analysis with historical statecraft discipline, then produces treaty clauses, policy options, negotiation briefs, crisis memos, and off-ramps.
+
+- [America](america/) - bound coercive centers without proving their veto power.
+- [Russia](russia/) - exploit disruption without entrapment.
+- [China](china/) - preserve leverage without energy disorder.
+- [Iran](iran/) - convert vulnerability into legitimate system leverage.
 
 ## Early Examples
 

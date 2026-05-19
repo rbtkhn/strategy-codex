@@ -44,6 +44,19 @@ A statecraft draft is stronger when it can answer both lenses at once:
 
 If the draft has interest without equilibrium, it may become coercive drift. If it has equilibrium without institutional carrier, it may become diplomatic theater.
 
+## Comparative Perspective Test
+
+Use [National Perspective Orthogonality](sheets/national-perspective-orthogonality.md) when a problem needs several national points of view. Do not make other states passive objects of analysis. Give each actor its own durable interest, institutional carrier, fear, leverage, preferred instrument, and off-ramp.
+
+When the analysis should become a draft, open the matching national lane: [America](america/), [Russia](russia/), [China](china/), or [Iran](iran/). Use the lane to join contemporary speaker-state inputs with Richelieu / Bismarck checks and produce an instrument rather than a commentary paragraph.
+
+For the Iran / India / fourth-center problem, the default questions are:
+
+- **United States:** How do we bound Iran's coercive leverage?
+- **Russia:** How do we exploit Iran's leverage without entrapment?
+- **China:** How do we preserve Iran's leverage without energy disorder?
+- **Iran:** How do we monetize and legitimate the leverage without losing control?
+
 ## Singularity Bridge
 
 Use [Sovereignty Under Acceleration](../singularity/workshop/sheets/sovereignty-under-acceleration.md) when the statecraft problem is triggered by AI infrastructure power: compute, models, agents, memory, identity, permissions, data centers, audit, rollback, or automated decision systems. The bridge keeps human agency central while converting acceleration signals into treaty, policy, and authority artifacts.
