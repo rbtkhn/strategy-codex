@@ -166,7 +166,7 @@ The operator may say **`coffee`** **more than once per calendar day** for reorie
 
 ### Step 2 ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â Hub menu (four lines only)
 
-Immediately **after** Step 1 content, output the **hub** menu ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â **four lines** (**AÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã¢â‚¬Å“E**).
+Immediately **after** Step 1 content, output the **hub** menu - **four lines** (**A-D**).
 
 **One option per line:** Each hub letter is **its own line** - **`A.`** through **`D.`** as **four separate lines**, not multiple letters on one line and not a single paragraph. Submenus inside **D. Singularity** or **A. Steward** branches are separate from this rule when opened.
 

@@ -35,6 +35,17 @@ C. Alignment/substrate warning - name what is optimizing, where authority lives,
 
 D. Reuse artifact - turn the session into a sheet, checklist, bridge question, or next-watch item.
 
+## Trial Protocol
+
+Coffee D Singularity is under a three-session practical trial. Until three real uses have been reviewed, end each Coffee D session with:
+
+- `Trial n/3`
+- verdict: `useful`, `mixed`, or `weak`
+- reusable artifact, if any
+- next watch item, if any
+
+Keep D only if it clarifies agency, control, substrate, displacement, or reuse better than Steward, Engineer, or Strategist would have done.
+
 ## Route Away From D
 
 - Revenue, offers, positioning, sales, pricing, and public copy route by explicit `work-business`, `write`, `skill-write`, or named commercial request.
