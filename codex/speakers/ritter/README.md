@@ -9,11 +9,13 @@ Open here first when the question is not merely "what did Ritter say," but **whi
 ## Start here
 
 - [ritter-routing.md](/C:/dev/strategy-codex/codex/speakers/ritter/ritter-routing.md)
+- [expert-orthogonality-note.md](/C:/dev/strategy-codex/codex/speakers/expert-orthogonality-note.md)
 
 ## Structural notes
 
 - [ritter-helix.md](/C:/dev/strategy-codex/codex/speakers/ritter/ritter-helix.md)
 - [ritter-cross-year-note.md](/C:/dev/strategy-codex/codex/speakers/ritter/ritter-cross-year-note.md)
+- [ritter-interview-appearances-2025-2026.md](/C:/dev/strategy-codex/codex/speakers/ritter/ritter-interview-appearances-2025-2026.md)
 
 ## Longitudinal wiring
 

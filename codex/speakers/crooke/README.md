@@ -11,6 +11,7 @@ Open here first when the question is not merely "what did Crooke say," but which
 - [crooke-helix.md](/C:/dev/strategy-codex/codex/speakers/crooke/crooke-helix.md)
 - [crooke-cross-year-note.md](/C:/dev/strategy-codex/codex/speakers/crooke/crooke-cross-year-note.md)
 - [crooke-interview-appearances-2025-2026.md](/C:/dev/strategy-codex/codex/speakers/crooke/crooke-interview-appearances-2025-2026.md)
+- [expert-orthogonality-note.md](/C:/dev/strategy-codex/codex/speakers/expert-orthogonality-note.md)
 
 ## Longitudinal wiring
 

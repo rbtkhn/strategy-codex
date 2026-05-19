@@ -27,6 +27,7 @@ So this note is the **speaker-side index** into the real Ritter host lanes.
 ## Best entry points
 
 - **Best single opening file:** [youtube-daniel-davis-deep-dive-scott-ritter-trump-s-blockade-is-a-joke-2026-04-13.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-13/youtube-daniel-davis-deep-dive-scott-ritter-trump-s-blockade-is-a-joke-2026-04-13.md)
+- **Best interview wiring map:** [ritter-interview-appearances-2025-2026.md](/C:/dev/strategy-codex/codex/speakers/ritter/ritter-interview-appearances-2025-2026.md)
 - **Best escalation-horizon opening file:** [transcript-diesen-ritter-hormuz-return-to-war-2026-05-04.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-04/transcript-diesen-ritter-hormuz-return-to-war-2026-05-04.md)
 - **Best live-pressure opening file:** [transcript-dialogue-works-scott-ritter-iran-didn-t-break-it-adapted-now-stronger-than-ever-2026-05-13.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-13/transcript-dialogue-works-scott-ritter-iran-didn-t-break-it-adapted-now-stronger-than-ever-2026-05-13.md)
 - **Best Napolitano opening file:** [judging-freedom-trump-hegseth-2026-04-20.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-20/judging-freedom-trump-hegseth-2026-04-20.md)

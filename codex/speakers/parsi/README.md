@@ -10,6 +10,7 @@ Open here first when the question is not merely "what did Parsi say," but how hi
 
 - [parsi-speaker-object.md](/C:/dev/strategy-codex/codex/speakers/parsi/parsi-speaker-object.md)
 - [parsi-cross-host-note.md](/C:/dev/strategy-codex/codex/speakers/parsi/parsi-cross-host-note.md)
+- [expert-orthogonality-note.md](/C:/dev/strategy-codex/codex/speakers/expert-orthogonality-note.md)
 
 ## Longitudinal wiring
 

@@ -10,6 +10,7 @@ Open here first when the question is not merely "what did Pape say," but how his
 
 - [pape-speaker-object.md](/C:/dev/strategy-codex/codex/speakers/pape/pape-speaker-object.md)
 - [pape-cross-host-note.md](/C:/dev/strategy-codex/codex/speakers/pape/pape-cross-host-note.md)
+- [expert-orthogonality-note.md](/C:/dev/strategy-codex/codex/speakers/expert-orthogonality-note.md)
 
 ## Longitudinal wiring
 

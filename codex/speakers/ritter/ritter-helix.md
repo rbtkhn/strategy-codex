@@ -6,6 +6,8 @@ Purpose: compact cross-host note for reading the recurring Ritter lanes together
 
 For the faster speaker-side entry surface that answers **which host lane to open first**, see [ritter-routing.md](/C:/dev/strategy-codex/codex/speakers/ritter/ritter-routing.md).
 
+For the secondary cross-year interview appearance layer, see [ritter-interview-appearances-2025-2026.md](/C:/dev/strategy-codex/codex/speakers/ritter/ritter-interview-appearances-2025-2026.md). It supplements the host-local arcs without changing the canonical triple-helix doctrine.
+
 ## Core claim
 
 The Ritter triple helix is one war-mechanics and escalation-pressure voice transformed by three hosts: Diesen gives escalation horizon, Davis tests operational feasibility, and Dialogue Works applies maximum live war pressure.
