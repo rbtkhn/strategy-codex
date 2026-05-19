@@ -63,9 +63,29 @@ Keep the helix source-separated:
 
 If the operator asks about "recent streams," prioritize interview captures, then bridge back to the authored ledger only when the mechanism matches.
 
+## Deep topic search rule
+
+Before saying Ritter has little, indirect, or no coverage of a topic, run a deep topic search. Ritter often revisits one event under several names and mechanisms: first as a war-crime claim, later as targeting failure, later as command responsibility, later as strategic credibility collapse.
+
+Use three search passes:
+
+1. **Literal pass:** search exact places, people, titles, facilities, operations, and spellings.
+   - Example for Minab: `Minab`, `Minaab`, `Shajareh Tayyebeh`, `Asef`, `Sayyid al-Shuhada`, `Hormuz`.
+2. **Event-shape pass:** search mechanism and consequence vocabulary.
+   - Example for Minab: `school girls`, `children`, `civilian casualties`, `targeting`, `no strike`, `CHMR`, `Claude`, `war crime`, `distinction`, `proportionality`, `feasible precautions`.
+3. **Corpus-shape pass:** search all Ritter strands, not only the newest transcript.
+   - Include `codex/years/2026/raw-input`, `codex/years/2026/ritter`, and `codex/speakers/ritter`.
+   - Include authored Substack captures, interview captures, speaker pages, helix notes, and appearance maps.
+
+Negative-answer guard:
+
+- Do not answer "I found no direct Ritter use" unless all three passes have been attempted.
+- If coverage is thin after all three passes, state the search families attempted and name the strongest adjacent mechanism.
+- If only a literal pass has been attempted, continue searching before answering.
+
 ## Extraction workflow
 
-1. Search Ritter speaker state, host arcs, and raw-input captures with `rg`.
+1. Search Ritter speaker state, host arcs, and raw-input captures with `rg`; use the deep topic search rule before making any weak or negative coverage claim.
 2. Identify the immediate warning claim.
 3. Classify the claim:
    - operational feasibility;
@@ -219,3 +239,4 @@ Use a handoff when the result names a recurring decision node, not for one-off c
 - Do not omit falsifiers for dramatic forecasts.
 - Do not skip line citations when raw-input is local.
 - Do not flatten comparison speakers into Ritter's heat or make Ritter carry an insider claim he did not make.
+- Do not stop after an exact-name search when Ritter may discuss the same event through targeting, law-of-war, command-responsibility, or strategic-credibility vocabulary.
