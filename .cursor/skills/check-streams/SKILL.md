@@ -111,6 +111,11 @@ If a stream has no upload on the target day, say so explicitly.
    - Show the **Main uploads** first.
    - Add one short line if clips were hidden:
      - `N suspected clips hidden; show if wanted`
+   - When the target day is only partially verified, always split the result into these buckets:
+     - **Aired / trusted-set**
+     - **Upcoming / not-yet-aired**
+     - **Date-ambiguous / unresolved**
+   - Do not collapse those buckets together in operator-facing prose.
    - Do not materialize anything yet.
 
 4. **Wait for operator selection**
@@ -145,6 +150,12 @@ If a stream has no upload on the target day, say so explicitly.
    - If the operator has already pasted the full transcript in the current Codex thread, treat that paste as a valid transcript source and hand the item down to the YouTube transcript workflow's **operator-paste fallback**. Prefer mechanical extraction from the local Codex session log over hand-copying long chat text. Do not call the result `partial-chat-capture` merely because the paste is long or awkward to patch.
    - For full operator-paste repairs, require an exact-match receipt before closing the item: `sourceChars`, `bodyChars`, and `exactMatch=True` between the extracted session transcript and the body written after `## Transcript`.
    - After exact-match verification passes, update the check-stream receipts as captured with `capture_status: full-operator-paste`; move the item out of the open repair queue. Use `partial-chat-capture` only when the source is truly incomplete or exact extraction cannot be verified, and leave that item queued as `full-transcript-import-needed`.
+   - If a date-scoped check remains unresolved after discovery, end with a **manual-fetch queue**:
+     - list only direct YouTube watch URLs that are safely tied to the requested date,
+     - order them `highest confidence first`,
+     - attach the recovered title when the title is date-tied and verified,
+     - otherwise label the item `title unresolved locally`,
+     - never pad the queue with stale neighboring-day candidates merely to appear complete.
 
 6. **Default transcript class**
    - Default to `auto_subtitles_vtt`.
@@ -266,9 +277,25 @@ When checking whether a day is complete:
 - report the requested target date or item first; historical backlog is secondary context
 - when `summary.json` includes `target_date_*` or `target_window_*`, use those fields for the operator-facing verdict
 - treat `overall_backlog_status` as a backlog-health signal, not as the answer to a date-scoped request
+- when candidate ids are recovered from a blocked or partial sweep, do **not** reuse them for another day unless you have explicit date-tying evidence for that day
+- treat neighboring-day blocked ids as contaminated until re-proven for the requested date
 - when you need a computed score, repair queue, and durable receipts, run `python scripts/cognition_streams_audit.py --start YYYY-MM-DD --end YYYY-MM-DD --recent-start YYYY-MM-DD` against the active `/codex/<year>` notebook root
 - when you need a derived speaker-routing queue after materialization, run `python scripts/build_speaker_routing_queue.py --start YYYY-MM-DD --end YYYY-MM-DD`; this emits advisory queue and appearance-ledger artifacts only and does not edit speaker folders
 - when you need concrete speaker-memory follow-up proposals, run `python scripts/build_speaker_memory_actions.py --start YYYY-MM-DD --end YYYY-MM-DD`; this emits advisory action artifacts only and does not edit speaker folders
+
+### Date-bucket discipline
+
+For date-scoped checks, use these verdict buckets consistently:
+
+- **Aired / trusted-set**: direct YouTube watch URL plus date-tied evidence that the item belongs to the requested day
+- **Upcoming / not-yet-aired**: scheduled live event, premiere, or extractor message showing the event had not started yet
+- **Date-ambiguous / unresolved**: likely relevant item, but you do not yet have safe date-tying evidence for the requested day
+
+Rules:
+
+- Never present an `upcoming` item as if it were a same-day aired upload.
+- Never attach a title to a URL unless that title is tied to the requested day, not merely recalled from another pass.
+- If an item is only known from stale blocked ids, it belongs in `Date-ambiguous / unresolved`, not in `Aired / trusted-set`.
 
 ### Capture mode diagnosis
 
@@ -293,6 +320,17 @@ Use this shape by default:
 - <channel> — <title> — <date> — <url>
 
 N suspected clips hidden; show if wanted.
+```
+
+When the day is unresolved or partially verified, append:
+
+```markdown
+## Manual-fetch queue
+- <channel> â€” <title or "title unresolved locally"> â€” <watch-url>
+
+## Trusted closeout
+- trusted set only: <what is actually date-tied and safe>
+- excluded from trust: <upcoming / ambiguous / stale-neighbor candidates>
 ```
 
 If the operator asks to see clips:
@@ -349,6 +387,9 @@ Use "candidate" when the target does not exist yet or would require a new speake
 - Never remove an item from the repair queue on operator-paste evidence unless the canonical raw-input body is non-stub and exact-match verification has passed.
 - Never create or update speaker folders, speaker objects, speaker arcs, helixes, or lattice rows from the daily check unless the operator explicitly asks.
 - Do not let the lattice become the first durable destination. Raw-input comes first; speaker-folder routing comes next; lattice updates are secondary pointers.
+- Never reuse blocked candidate ids from March `N` as if they belonged to March `N+1` without explicit date evidence.
+- Never end a partially failed day-check without showing the operator the exact manual-fetch queue that remains.
+- Never blur the final verdict: the answer must end with the **trusted set only**, not with mixed-confidence speculation.
 
 ## Success condition
 
