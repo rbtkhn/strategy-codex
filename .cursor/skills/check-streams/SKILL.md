@@ -23,7 +23,7 @@ Use the single-URL YouTube transcript workflow for one-off URLs. Use this skill 
 
 **Legacy activation:** `cognition streams` remains accepted as a compatibility alias. Treat `check streams` as canonical in new docs, Coffee C routing, and operator-facing prose.
 
-For the higher-level notebook meaning of this routine, see [cognition-streams-daily-aperture.md](../../docs/skill-work/work-strategy/cognition-streams-daily-aperture.md).
+For the higher-level notebook meaning of this routine, see [cognition-streams-daily-aperture.md](../../docs/skill-work/work-strategy/cognition-streams-daily-aperture.md). For grading a run after the fact, see [check-streams-performance-rubric.md](../../docs/skill-work/work-strategy/check-streams-performance-rubric.md).
 
 ## Durable routing model
 
