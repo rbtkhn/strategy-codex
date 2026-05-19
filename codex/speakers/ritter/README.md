@@ -8,6 +8,7 @@ Open here first when the question is not merely "what did Ritter say," but **whi
 
 ## Start here
 
+- [authored-pressure-quartet.md](/C:/dev/strategy-codex/codex/speakers/authored-pressure-quartet.md)
 - [ritter-speaker-object.md](/C:/dev/strategy-codex/codex/speakers/ritter/ritter-speaker-object.md)
 - [ritter-routing.md](/C:/dev/strategy-codex/codex/speakers/ritter/ritter-routing.md)
 - [expert-orthogonality-note.md](/C:/dev/strategy-codex/codex/speakers/expert-orthogonality-note.md)
@@ -19,6 +20,8 @@ Ritter's speaker object has two entwined but source-separated strands:
 - **Authored strand:** [ritter-forecast-ledger-2026.md](/C:/dev/strategy-codex/codex/years/2026/ritter/ritter-forecast-ledger-2026.md) holds the Substack-only warning and forecast spine.
 - **Interview strand:** [ritter-interview-appearances-2025-2026.md](/C:/dev/strategy-codex/codex/speakers/ritter/ritter-interview-appearances-2025-2026.md) holds host-transformed appearances.
 - **Crossing surface:** [ritter-helix.md](/C:/dev/strategy-codex/codex/speakers/ritter/ritter-helix.md) explains where authored mechanisms and interview clusters reinforce, extend, or test each other.
+
+In the [authored pressure quartet](/C:/dev/strategy-codex/codex/speakers/authored-pressure-quartet.md), Ritter is the **warning and force-constraint engine**: operational limits, danger thresholds, and military-professional warning.
 
 ## Structural notes
 

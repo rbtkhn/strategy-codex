@@ -2,9 +2,9 @@
 
 WORK only; not Record.
 
-object_shape: stream-anchored-with-cross-host-reinforcement
+object_shape: helix-first
 
-Purpose: define Pape as a first-class speaker object without forcing him into a premature helix classification. Unlike Marandi, whose usefulness is most visible through host transformation, and unlike Barnes, whose shelf is anchored by a strong Davis-side branch, Pape is best read as a **stream-anchored mechanism-first speaker object** with meaningful cross-host reinforcement.
+Purpose: define Pape as a first-class speaker object without forcing him into a Crooke/Ritter-style triple host classification. Unlike Marandi, whose usefulness is most visible through host transformation, and unlike Barnes, whose shelf is anchored by a strong Davis-side branch, Pape is best read as an **authored forecast object with targeted interview-pressure reinforcement**.
 
 ## Core claim
 
@@ -44,15 +44,25 @@ The falsifiers are as important as the claim: Hormuz loses coercive salience; th
 
 ## Object shape
 
-Pape should currently be read as a **stream-anchored speaker object with strong cross-host reinforcement**.
+Pape should now be read as a **two-strand forecast-pressure helix**.
 
 That means:
 
 - the native [pape cognition stream](/C:/dev/strategy-codex/codex/years/2026/pape/README.md) is still the main body of the object
-- the object is stronger than a purely local single-lane shelf because guest appearances materially reinforce it
-- but the notebook should not yet overstate this as a mature double or triple speaker-helix without denser host-local arc structure
+- the authored [forecast ledger](/C:/dev/strategy-codex/codex/years/2026/pape/pape-forecast-ledger-2026.md) is the canonical forecast strand
+- the [interview appearance map](/C:/dev/strategy-codex/codex/speakers/pape/pape-interview-appearances-2026.md) is the public-pressure strand
+- the [pape helix](/C:/dev/strategy-codex/codex/speakers/pape/pape-helix.md) shows where those strands cross
 
-So Pape is not best read as a failed helix. He is best read as a speaker object whose dignity comes from **mechanism clarity, stream continuity, and cross-host survival**.
+So Pape is not best read as a failed triple helix. He is best read as a speaker object whose dignity comes from **forecast discipline, mechanism clarity, and cross-host survival**.
+
+## Authored and interview strands
+
+Read the strands this way:
+
+- **authored strand:** Substack captures define the durable forecast mechanism: Smart Bomb Trap, systemic escalation, ground/logistics threshold, blockade/shortage clock, global contraction, China relative gain, and Iran as fourth coercive center
+- **interview strand:** Davis, Redacted, Breaking Points / Ryan Grim, and Mario Nawfal appearances test whether that mechanism survives military-feasibility, consumer-macro, power-transition, and fast public-forecast questioning
+
+The point is not to inflate Pape into a thicker interview shelf than the corpus supports. The point is to stop treating appearances as loose publicity when they are pressure tests of the authored forecast spine.
 
 ## Secondary reinforcement
 
@@ -79,7 +89,7 @@ If the operator needs the clearest guest-distributed entry:
 
 If the operator needs the object doctrine rather than a live lane:
 
-- stay here, then read [pape-cross-host-note.md](/C:/dev/strategy-codex/codex/speakers/pape/pape-cross-host-note.md)
+- stay here, then read [pape-helix.md](/C:/dev/strategy-codex/codex/speakers/pape/pape-helix.md)
 
 ## Routing use
 
@@ -87,12 +97,12 @@ Use this speaker-object note when the notebook is doing one or more of the follo
 
 - deciding why Pape belongs on the `speakers/` shelf as a first-class object
 - routing crisis material toward structural mechanism analysis rather than legal, diplomatic, or purely kinetic framing
-- separating strong stream-native continuity from premature helix promotion
+- separating authored forecast discipline from public-pressure translation
 - comparing Pape's mechanism-first utility with more depth-first, legality-first, or helix-first speaker objects
 
 ## Boundaries
 
-- This note is not a Pape helix note.
 - The native Pape stream remains canonical for day-to-day reading and mechanism work.
-- Cross-host reinforcement matters, but it does not yet outweigh the stream-native body.
-- If denser host-local arc structure materializes later, a separate `pape-helix.md` can be created without replacing this speaker-object note.
+- The Pape helix is not a triple host helix; it is authored forecast plus interview pressure.
+- Cross-host reinforcement matters, but it does not outweigh the authored forecast body.
+- If denser recurring host-local arcs materialize later, they can be added without replacing this speaker-object note.

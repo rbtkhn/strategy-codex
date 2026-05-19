@@ -2,7 +2,7 @@
 
 WORK only; not Record.
 
-object_shape: authored-diplomacy-plus-interview-pressure-helix
+object_shape: helix-first
 
 Purpose: define Parsi as a first-class speaker object without forcing him into a premature helix classification. Unlike Marandi, whose utility is most legible through host transformation, and unlike Mercouris, whose main body is an unusually deep native stream, Parsi is best read as a **stream-anchored policy-process speaker object** with meaningful cross-host reinforcement.
 

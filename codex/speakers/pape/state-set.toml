@@ -5,6 +5,8 @@ compact_state_files = [
   "codex/speakers/pape/README.md",
   "codex/speakers/pape/pape-speaker-object.md",
   "codex/speakers/pape/pape-cross-host-note.md",
+  "codex/speakers/pape/pape-helix.md",
+  "codex/speakers/pape/pape-interview-appearances-2026.md",
   "codex/years/2026/pape/pape-forecast-ledger-2026.md",
 ]
 
@@ -17,3 +19,20 @@ file = "codex/years/2026/pape/pape-forecast-ledger-2026.md"
 expected_count = 41
 required_prefixes = ["substack-pape-"]
 excluded_patterns = ["transcript-", "youtube-", "article-", "pape-rant-"]
+
+[[source_sets]]
+file = "codex/speakers/pape/pape-interview-appearances-2026.md"
+expected_count = 4
+required_prefixes = [
+  "transcript-davis-pape-",
+  "redacted-pape-",
+  "youtube-pape-grim-",
+  "youtube-pape-mario-nawfal-",
+]
+excluded_patterns = [
+  "substack-pape-",
+  "transcript-pape.md",
+  "x-pape-",
+  "verify-pape-",
+  "date-named-pape",
+]

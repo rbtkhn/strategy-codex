@@ -8,6 +8,7 @@ Open here first when the question is not merely "what did Parsi say," but how hi
 
 ## Start here
 
+- [authored-pressure-quartet.md](/C:/dev/strategy-codex/codex/speakers/authored-pressure-quartet.md)
 - [parsi-speaker-object.md](/C:/dev/strategy-codex/codex/speakers/parsi/parsi-speaker-object.md)
 - [parsi-helix.md](/C:/dev/strategy-codex/codex/speakers/parsi/parsi-helix.md)
 - [parsi-cross-host-note.md](/C:/dev/strategy-codex/codex/speakers/parsi/parsi-cross-host-note.md)
@@ -23,6 +24,8 @@ Open here first when the question is not merely "what did Parsi say," but how hi
 ## Two-strand helix
 
 Parsi is now wired as a **two-strand policy-process helix**: the authored diplomacy ledger carries the canonical mechanism, while the interview map shows how that mechanism behaves under Davis, Napolitano, Duran/Mercouris, and Diesen pressure.
+
+In the [authored pressure quartet](/C:/dev/strategy-codex/codex/speakers/authored-pressure-quartet.md), Parsi is the **diplomacy engine**: bargain structure, off-ramps, implementation, sanctions relief, guarantees, and regional architecture.
 
 ## Boundary
 

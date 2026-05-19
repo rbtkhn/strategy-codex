@@ -16,6 +16,10 @@ Raw-input remains provenance. An **appearance** is one derived host/speaker/date
 
 For map-like navigation across the shelf, use [`../speaker-map/`](../speaker-map/). Speaker-map is an index layer over this shelf, not a rename and not a replacement. Durable memory stays here; route views, adjacency maps, and open-first route maps live there.
 
+For the authored/interview subtype, use [authored-pressure-quartet.md](/C:/dev/strategy-codex/codex/speakers/authored-pressure-quartet.md). It clusters Crooke, Ritter, Pape, and Parsi as a repeatable crisis-analysis pass: forecast clock, force constraint, settlement architecture, and structural misreading.
+
+For a wider functional placement of the speaker shelf around that quartet, use [speaker-cluster-map.md](/C:/dev/strategy-codex/codex/speakers/speaker-cluster-map.md).
+
 Default routing order after materialization:
 
 1. verify the raw-input body exists and is not a stub

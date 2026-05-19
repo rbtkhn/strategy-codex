@@ -8,6 +8,7 @@ Open here first when the question is not merely "what did Crooke say," but which
 
 ## Start here
 
+- [authored-pressure-quartet.md](/C:/dev/strategy-codex/codex/speakers/authored-pressure-quartet.md)
 - [crooke-helix.md](/C:/dev/strategy-codex/codex/speakers/crooke/crooke-helix.md)
 - [crooke-cross-year-note.md](/C:/dev/strategy-codex/codex/speakers/crooke/crooke-cross-year-note.md)
 - [crooke-interview-appearances-2025-2026.md](/C:/dev/strategy-codex/codex/speakers/crooke/crooke-interview-appearances-2025-2026.md)
@@ -20,6 +21,8 @@ Crooke's speaker helix has two entwined but source-separated strands:
 - **Authored strand:** [crooke-forecast-ledger-2026.md](/C:/dev/strategy-codex/codex/years/2026/crooke/crooke-forecast-ledger-2026.md) holds the Substack-only mechanism and tension spine.
 - **Interview strand:** [crooke-interview-appearances-2025-2026.md](/C:/dev/strategy-codex/codex/speakers/crooke/crooke-interview-appearances-2025-2026.md) holds host-transformed appearances.
 - **Crossing surface:** [crooke-helix.md](/C:/dev/strategy-codex/codex/speakers/crooke/crooke-helix.md) explains where authored mechanisms and interview clusters reinforce, extend, or tension each other.
+
+In the [authored pressure quartet](/C:/dev/strategy-codex/codex/speakers/authored-pressure-quartet.md), Crooke is the **mechanism and metapolitics engine**: structural rupture, elite misreading, order transition, and why the system keeps refusing the bargain.
 
 ## Longitudinal wiring
 
