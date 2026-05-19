@@ -2,12 +2,12 @@
 ingest_date: 2026-04-25
 pub_date: 2026-03-01
 thread: mercouris
-source_url: https://www.youtube.com/watch?v=TBD-duran-mercouris-2026-03-01
+source_url: https://www.youtube.com/watch?v=TBD-mercouris-2026-03-01
 kind: operator-transcript
 series: The Duran
 speaker: Alexander Mercouris
 source_note: Operator-ingested transcript; pin canonical The Duran YouTube watch?v= when available.
-title_slug: duran-mercouris-khamenei-strike-hormuz-russia-2026-03-01
+title_slug: mercouris-khamenei-strike-hormuz-russia-2026-03-01
 ---
 
 # Iran Defiant After Khamenei Death; Picks New Leaders, Closes Hormuz, Continues Strikes; Russia Backs Iran (operator transcript)

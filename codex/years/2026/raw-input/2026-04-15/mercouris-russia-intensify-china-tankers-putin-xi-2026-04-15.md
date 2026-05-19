@@ -2,12 +2,12 @@
 ingest_date: 2026-04-21
 pub_date: 2026-04-15
 thread: mercouris
-source_url: https://www.youtube.com/watch?v=TBD-duran-mercouris-2026-04-15
+source_url: https://www.youtube.com/watch?v=TBD-mercouris-2026-04-15
 kind: operator-transcript
 series: The Duran
 speaker: Alexander Mercouris
 source_note: Operator-ingested transcript; pin canonical The Duran YouTube watch?v= when available.
-title_slug: duran-mercouris-russia-intensify-china-tankers-putin-xi-2026-04-15
+title_slug: mercouris-russia-intensify-china-tankers-putin-xi-2026-04-15
 ---
 
 # Russia Warns US Will 'Intensify' Iran War; China Warns Navy Will Protect China Oil Tankers; Putin-Xi Trip (operator transcript)

@@ -2,12 +2,12 @@
 ingest_date: 2026-03-31
 pub_date: 2026-03-31
 thread: mercouris
-source_url: https://www.youtube.com/watch?v=TBD-duran-mercouris-2026-03-31
+source_url: https://www.youtube.com/watch?v=NuR9xJWTLm8
 kind: operator-transcript
 series: The Duran
 speaker: Alexander Mercouris
-source_note: Operator-ingested transcript; pin canonical The Duran YouTube watch?v= when available.
-title_slug: duran-mercouris-trump-iran-talks-lavrov-chechens-2026-03-31
+source_note: Operator-ingested transcript with canonical The Duran YouTube watch URL pinned.
+title_slug: mercouris-trump-iran-talks-lavrov-chechens-2026-03-31
 ---
 
 # Trump Begs Iran for Talks; Gives Up On Hormuz; Lavrov Warns of World War; Chechens Ready to Fight For Iran (operator transcript)

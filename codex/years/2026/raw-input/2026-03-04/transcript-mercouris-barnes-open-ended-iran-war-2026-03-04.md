@@ -13,7 +13,7 @@ source_type: youtube
 transcript_type: operator_pasted_youtube_transcript
 source_note: "Operator-pasted YouTube transcript in chat; transcript-bearing but not human-verified verbatim. Full chat-provided transcript mechanically extracted from local Codex session log."
 title: "Open-ended Iran War (Live) with Matthew Ehret & Robert Barnes"
-title_slug: "duran-mercouris-barnes-open-ended-iran-war-2026-03-04"
+title_slug: "mercouris-barnes-open-ended-iran-war-2026-03-04"
 capture_status: full-operator-paste
 ---
 

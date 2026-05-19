@@ -2,12 +2,12 @@
 ingest_date: 2026-04-25
 pub_date: 2026-04-05
 thread: mercouris
-source_url: https://www.youtube.com/watch?v=TBD-duran-mercouris-2026-04-05
+source_url: https://www.youtube.com/watch?v=TBD-mercouris-2026-04-05
 kind: operator-transcript
 series: The Duran
 speaker: Alexander Mercouris
 source_note: Operator-ingested transcript; pin canonical The Duran YouTube watch?v= when available.
-title_slug: duran-mercouris-f15-rescue-hormuz-nato-kiev-2026-04-05
+title_slug: mercouris-f15-rescue-hormuz-nato-kiev-2026-04-05
 ---
 
 # Iran Destroys Multiple US Aircraft; US Rescues F-15 Pilot; US Readies Huge Bombing; US Abandons Kiev (operator transcript)

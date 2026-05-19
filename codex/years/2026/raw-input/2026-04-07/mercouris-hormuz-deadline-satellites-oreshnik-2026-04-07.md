@@ -2,12 +2,12 @@
 ingest_date: 2026-04-25
 pub_date: 2026-04-07
 thread: mercouris
-source_url: https://www.youtube.com/watch?v=TBD-duran-mercouris-2026-04-07
+source_url: https://www.youtube.com/watch?v=TBD-mercouris-2026-04-07
 kind: operator-transcript
 series: The Duran
 speaker: Alexander Mercouris
 source_note: Operator-ingested transcript; pin canonical The Duran YouTube watch?v= when available.
-title_slug: duran-mercouris-hormuz-deadline-satellites-oreshnik-2026-04-07
+title_slug: mercouris-hormuz-deadline-satellites-oreshnik-2026-04-07
 ---
 
 # US Prepares Huge Iran Strike; Russian Spy Satellite Data Helps Iran; Kiev Fears Big Oreshnik Strike (operator transcript)

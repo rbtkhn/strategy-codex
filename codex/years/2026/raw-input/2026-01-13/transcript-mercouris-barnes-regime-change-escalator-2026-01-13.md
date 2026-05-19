@@ -12,7 +12,7 @@ source_type: youtube_transcript_operator_paste
 transcript_type: operator_pasted_youtube_transcript
 source_note: "Operator-pasted YouTube transcript in chat; transcript-bearing but not human-verified verbatim. Full transcript mechanically extracted from local Codex session log."
 title: "Regime change escalator w/ Robert Barnes (Live)"
-title_slug: "duran-mercouris-barnes-regime-change-escalator-2026-01-13"
+title_slug: "mercouris-barnes-regime-change-escalator-2026-01-13"
 capture_status: full-operator-paste
 body_chars: 135879
 verification_ok: true

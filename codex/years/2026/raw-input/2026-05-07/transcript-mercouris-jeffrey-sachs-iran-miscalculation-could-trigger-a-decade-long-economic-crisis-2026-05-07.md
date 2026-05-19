@@ -8,7 +8,7 @@ guest: Professor Jeffrey Sachs
 thread: mercouris
 source_url: https://www.youtube.com/watch?v=0Ib4NPabrgE
 source_note: User-pasted cleaned YouTube transcript with speaker labels; preserve Mercouris host-stream ownership.
-title_slug: duran-mercouris-jeffrey-sachs-iran-miscalculation-could-trigger-a-decade-long-economic-crisis-2026-05-07
+title_slug: mercouris-jeffrey-sachs-iran-miscalculation-could-trigger-a-decade-long-economic-crisis-2026-05-07
 editorial_note: Preserve as raw cleaned transcript; verify all claims about the Strait of Hormuz, energy markets, negotiation capacity, and military outcomes before promotion beyond analyst tier.
 ---
 

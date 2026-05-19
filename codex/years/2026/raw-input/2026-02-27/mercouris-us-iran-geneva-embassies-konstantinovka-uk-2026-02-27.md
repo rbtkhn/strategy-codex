@@ -3,12 +3,12 @@ ingest_date: 2026-04-25
 pub_date: 2026-02-27
 thread: mercouris
 source_url: https://www.youtube.com/watch?v=HQyttm7M-oE
-source_url_previous: https://www.youtube.com/watch?v=TBD-duran-mercouris-2026-02-27
+source_url_previous: https://www.youtube.com/watch?v=TBD-mercouris-2026-02-27
 kind: operator-transcript
 series: The Duran
 speaker: Alexander Mercouris
 source_note: Operator-ingested transcript; canonical YouTube watch URL reconciled from same-day Alex Mercouris index file and operator paste on 2026-05-18.
-title_slug: duran-mercouris-us-iran-geneva-embassies-konstantinovka-uk-2026-02-27
+title_slug: mercouris-us-iran-geneva-embassies-konstantinovka-uk-2026-02-27
 ---
 
 # US-Iran Talks Fail; Embassies Evacuated – Attack Imminent; Konstantinovka Defence Collapses; UK Crisis (operator transcript)
