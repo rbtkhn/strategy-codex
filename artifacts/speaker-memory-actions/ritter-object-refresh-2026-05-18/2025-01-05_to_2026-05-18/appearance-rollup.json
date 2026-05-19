@@ -1,0 +1,81 @@
+{
+  "appearance_count": 48,
+  "speaker_count": 2,
+  "speakers": {
+    "mcgovern": {
+      "appearance_count": 1,
+      "appearance_ids": [
+        "ap-66f7447214a8"
+      ],
+      "hosts": {
+        "lauria": 1
+      },
+      "route_types": {
+        "existing-speaker-object": 1
+      }
+    },
+    "ritter": {
+      "appearance_count": 47,
+      "appearance_ids": [
+        "ap-758bf25ddaeb",
+        "ap-e58b0e757d39",
+        "ap-b26e4c044396",
+        "ap-9d9739aa0b76",
+        "ap-2f634fac0c73",
+        "ap-afd6e50eb064",
+        "ap-1928c2fd9787",
+        "ap-8d3631f7053d",
+        "ap-3fec2bf65e00",
+        "ap-4ee00cebe04d",
+        "ap-36f712ffc0e9",
+        "ap-fd713a93807b",
+        "ap-669412fb1d78",
+        "ap-e6165a93d913",
+        "ap-2da929ee55de",
+        "ap-3d8290a399bb",
+        "ap-f90418dd5383",
+        "ap-9d687b6f0d56",
+        "ap-9a6546304162",
+        "ap-1c61ce1e8108",
+        "ap-1210d3fc9d2c",
+        "ap-1210d3fc9d2c",
+        "ap-611d85f869eb",
+        "ap-fb3c1affc4ea",
+        "ap-b6ff38f77966",
+        "ap-4830c2b12462",
+        "ap-b0d2b1b6f1ed",
+        "ap-8335ee63fdb2",
+        "ap-622e0507d053",
+        "ap-be2f30710762",
+        "ap-6445b1ec462f",
+        "ap-ce3341e5f183",
+        "ap-74dd5a376642",
+        "ap-5b8bd847cec3",
+        "ap-19b633c67b7d",
+        "ap-e095c19bcbd5",
+        "ap-f98dcdc3f823",
+        "ap-450322e28dae",
+        "ap-619dad573379",
+        "ap-20edfdaa671f",
+        "ap-c18344682ee7",
+        "ap-0b38e095f7f7",
+        "ap-c63c4cc67cb9",
+        "ap-e4ea96484028",
+        "ap-2cf9ac90607a",
+        "ap-6fadcbfe016a",
+        "ap-d226fd815fd6"
+      ],
+      "hosts": {
+        "alkorshid": 15,
+        "davis": 8,
+        "diesen": 15,
+        "janssen": 1,
+        "napolitano": 8
+      },
+      "route_types": {
+        "existing-speaker-arc": 46,
+        "existing-speaker-object": 1
+      }
+    }
+  }
+}

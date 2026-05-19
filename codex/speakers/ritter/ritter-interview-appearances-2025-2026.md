@@ -24,7 +24,7 @@ Excluded from the Source Set:
 
 ## Source Set
 
-Local interview appearance count: 45 captures.
+Local interview appearance count: 48 captures.
 
 | host | date | raw-input | function |
 |---|---|---|---|
@@ -70,7 +70,10 @@ Local interview appearance count: 45 captures.
 | Napolitano | 2025-12-01 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/raw-input/2025-12-01/transcript-napolitano-ritter-did-hegseth-order-murders-2025-12-01.md) | legality and command failure |
 | Napolitano | 2026-01-12 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-01-12/transcript-napolitano-ritter-how-close-is-putin-to-escalation-2026-01-12.md) | legality and command failure |
 | Napolitano | 2026-02-23 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-02-23/transcript-napolitano-ritter-what-war-with-iran-will-look-like-2026-02-23.md) | legality and command failure |
+| Napolitano | 2026-03-17 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-03-17/transcript-napolitano-ritter-could-us-officials-face-war-crime-charges-2026-03-17.md) | legality and command failure |
 | Napolitano | 2026-03-31 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-03-31/transcript-napolitano-ritter-why-iran-is-winning-2026-03-31.md) | legality and command failure |
+| Napolitano | 2026-04-20 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-20/judging-freedom-trump-hegseth-2026-04-20.md) | legality and command failure |
+| Napolitano | 2026-05-18 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-18/transcript-napolitano-ritter-the-us-will-never-learn-2026-05-18.md) | legality and command failure |
 | Cyrus Janssen | 2026-05-10 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-10/youtube-ritter-cyrus-janssen-iran-hormuz-energy-shock-2026-05-10.md) | energy and Hormuz shock |
 | Consortium News | 2026-05-18 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-18/transcript-consortium-news-russia-debate-scott-ritter-vs-ray-mcgovern-2026-05-18.md) | adversarial debate / Russia-policy stress test |
 
@@ -102,7 +105,7 @@ Local interview appearance count: 45 captures.
 - **Best all-around interview entry:** [youtube-daniel-davis-deep-dive-scott-ritter-trump-s-blockade-is-a-joke-2026-04-13.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-13/youtube-daniel-davis-deep-dive-scott-ritter-trump-s-blockade-is-a-joke-2026-04-13.md)
 - **Best escalation-horizon entry:** [transcript-diesen-ritter-hormuz-return-to-war-2026-05-04.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-04/transcript-diesen-ritter-hormuz-return-to-war-2026-05-04.md)
 - **Best live-pressure entry:** [transcript-dialogue-works-scott-ritter-iran-didn-t-break-it-adapted-now-stronger-than-ever-2026-05-13.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-13/transcript-dialogue-works-scott-ritter-iran-didn-t-break-it-adapted-now-stronger-than-ever-2026-05-13.md)
-- **Best legality/command-failure entry:** [transcript-napolitano-ritter-why-iran-is-winning-2026-03-31.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-03-31/transcript-napolitano-ritter-why-iran-is-winning-2026-03-31.md)
+- **Best legality/command-failure entry:** [transcript-napolitano-ritter-the-us-will-never-learn-2026-05-18.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-18/transcript-napolitano-ritter-the-us-will-never-learn-2026-05-18.md)
 - **Best auxiliary energy-shock entry:** [youtube-ritter-cyrus-janssen-iran-hormuz-energy-shock-2026-05-10.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-10/youtube-ritter-cyrus-janssen-iran-hormuz-energy-shock-2026-05-10.md)
 - **Best debate-stress entry:** [transcript-consortium-news-russia-debate-scott-ritter-vs-ray-mcgovern-2026-05-18.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-18/transcript-consortium-news-russia-debate-scott-ritter-vs-ray-mcgovern-2026-05-18.md)
 
@@ -115,6 +118,6 @@ Local interview appearance count: 45 captures.
 
 ## Verification Notes
 
-- Source Set intentionally includes 45 host-labeled captures, including the 2026-05-18 Consortium News debate capture.
+- Source Set intentionally includes 48 host-labeled captures, including the 2026-03-17, 2026-04-20, and 2026-05-18 Judging Freedom captures and the 2026-05-18 Consortium News debate capture.
 - The authored [Ritter forecast ledger](/C:/dev/strategy-codex/codex/years/2026/ritter/ritter-forecast-ledger-2026.md) remains Substack-only.
 - This note preserves the existing triple helix: Diesen, Davis, and Dialogue Works remain canonical; Napolitano remains auxiliary legal reinforcement.

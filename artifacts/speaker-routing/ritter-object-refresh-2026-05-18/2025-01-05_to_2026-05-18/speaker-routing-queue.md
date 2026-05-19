@@ -1,0 +1,203 @@
+# Speaker routing queue
+
+WORK only; not Record.
+
+Window: `2025-01-05` to `2026-05-18`
+
+## existing-speaker-arc
+
+- `2025-05-24` `high` [Scott Ritter: Will Trump Own the Ukraine War or Walk Away?](https://www.youtube.com/watch?v=YGXnz6EKkWs) -> `codex/years/2026/diesen/diesen-ritter-speaker-arc.md` (`update-existing-arc`) evidence `legacy-appearance-only`
+  - raw: `codex/years/2026/raw-input/2025-05-24/youtube-glenn-diesen-scott-ritter-scott-ritter-will-trump-own-the-ukraine-war-or-walk-away-2025-05-24.md`
+  - also strengthens: `codex/speakers/ritter/ritter-speaker-object.md`, `codex/speakers/ritter/ritter-helix.md`
+  - reason: Matched host plus guest to an existing host-local speaker arc.
+- `2025-06-10` `high` [Scott Ritter: Dangerous Endgame in Ukraine: Collapse or Escalation](https://www.youtube.com/watch?v=MM7sOk8lwZA) -> `codex/years/2026/diesen/diesen-ritter-speaker-arc.md` (`update-existing-arc`) evidence `legacy-appearance-only`
+  - raw: `codex/years/2026/raw-input/2025-06-10/youtube-glenn-diesen-scott-ritter-scott-ritter-dangerous-endgame-in-ukraine-collapse-or-escalation-2025-06-10.md`
+  - also strengthens: `codex/speakers/ritter/ritter-speaker-object.md`, `codex/speakers/ritter/ritter-helix.md`
+  - reason: Matched host plus guest to an existing host-local speaker arc.
+- `2025-09-17` `high` [Scott Ritter: NATO Prepares for War with Russia](https://www.youtube.com/watch?v=ShWxrWtCiKI) -> `codex/years/2026/diesen/diesen-ritter-speaker-arc.md` (`update-existing-arc`) evidence `legacy-appearance-only`
+  - raw: `codex/years/2026/raw-input/2025-09-17/youtube-glenn-diesen-scott-ritter-scott-ritter-nato-prepares-for-war-with-russia-2025-09-17.md`
+  - also strengthens: `codex/speakers/ritter/ritter-speaker-object.md`, `codex/speakers/ritter/ritter-helix.md`
+  - reason: Matched host plus guest to an existing host-local speaker arc.
+- `2025-10-07` `high` [Scott Ritter: Tomahawks, End of NATO & Coming Nuclear War](https://www.youtube.com/watch?v=mA1vsz5dq7s) -> `codex/years/2026/diesen/diesen-ritter-speaker-arc.md` (`update-existing-arc`) evidence `legacy-appearance-only`
+  - raw: `codex/years/2026/raw-input/2025-10-07/youtube-glenn-diesen-scott-ritter-scott-ritter-tomahawks-end-of-nato-coming-nuclear-war-2025-10-07.md`
+  - also strengthens: `codex/speakers/ritter/ritter-speaker-object.md`, `codex/speakers/ritter/ritter-helix.md`
+  - reason: Matched host plus guest to an existing host-local speaker arc.
+- `2025-10-24` `high` [Scott Ritter: Russia 'Fed Up' With NATO Escalations - Retaliation is Coming](https://www.youtube.com/watch?v=_mupHuF2It4) -> `codex/years/2026/diesen/diesen-ritter-speaker-arc.md` (`update-existing-arc`) evidence `legacy-appearance-only`
+  - raw: `codex/years/2026/raw-input/2025-10-24/youtube-glenn-diesen-scott-ritter-scott-ritter-russia-fed-up-with-nato-escalations-retaliation-is-coming-2025-10-24.md`
+  - also strengthens: `codex/speakers/ritter/ritter-speaker-object.md`, `codex/speakers/ritter/ritter-helix.md`
+  - reason: Matched host plus guest to an existing host-local speaker arc.
+- `2025-12-01` `high` [Scott Ritter: War Has Been Won & Russia Faces a Dilemma](https://www.youtube.com/watch?v=-7_XtZ64VG4) -> `codex/years/2026/diesen/diesen-ritter-speaker-arc.md` (`update-existing-arc`) evidence `legacy-appearance-only`
+  - raw: `codex/years/2026/raw-input/2025-12-01/youtube-glenn-diesen-scott-ritter-scott-ritter-war-has-been-won-russia-faces-a-dilemma-2025-12-01.md`
+  - also strengthens: `codex/speakers/ritter/ritter-speaker-object.md`, `codex/speakers/ritter/ritter-helix.md`
+  - reason: Matched host plus guest to an existing host-local speaker arc.
+- `2025-12-09` `high` [Scott Ritter: The U.S. Now Considers the EU an Enemy](https://www.youtube.com/watch?v=m_tHqXt44sU) -> `codex/years/2026/diesen/diesen-ritter-speaker-arc.md` (`update-existing-arc`) evidence `legacy-appearance-only`
+  - raw: `codex/years/2026/raw-input/2025-12-09/youtube-glenn-diesen-scott-ritter-scott-ritter-the-u-s-now-considers-the-eu-an-enemy-2025-12-09.md`
+  - also strengthens: `codex/speakers/ritter/ritter-speaker-object.md`, `codex/speakers/ritter/ritter-helix.md`
+  - reason: Matched host plus guest to an existing host-local speaker arc.
+- `2026-01-13` `high` [Scott Ritter: Trump Set Up Putin & Escalates War With Russia](https://www.youtube.com/watch?v=zH5xP8GSArg) -> `codex/years/2026/diesen/diesen-ritter-speaker-arc.md` (`update-existing-arc`) evidence `legacy-appearance-only`
+  - raw: `codex/years/2026/raw-input/2026-01-13/youtube-glenn-diesen-scott-ritter-trump-set-up-putin-escalates-war-with-russia-2026-01-13.md`
+  - also strengthens: `codex/speakers/ritter/ritter-speaker-object.md`, `codex/speakers/ritter/ritter-helix.md`
+  - reason: Matched host plus guest to an existing host-local speaker arc.
+- `2026-01-27` `high` [Scott Ritter:  US-Iran War Imminent as Military Buildup Peaks](https://www.youtube.com/watch?v=rYpPsDXV0o4) -> `codex/years/2026/diesen/diesen-ritter-speaker-arc.md` (`update-existing-arc`) evidence `legacy-appearance-only`
+  - raw: `codex/years/2026/raw-input/2026-01-27/youtube-glenn-diesen-scott-ritter-us-iran-war-imminent-as-military-buildup-peaks-2026-01-27.md`
+  - also strengthens: `codex/speakers/ritter/ritter-speaker-object.md`, `codex/speakers/ritter/ritter-helix.md`
+  - reason: Matched host plus guest to an existing host-local speaker arc.
+- `2026-02-19` `high` [Scott Ritter: U.S. Revives Empire & Europe Is No Longer An Ally](https://www.youtube.com/watch?v=BCRE6IDTTLI) -> `codex/years/2026/diesen/diesen-ritter-speaker-arc.md` (`update-existing-arc`) evidence `legacy-appearance-only`
+  - raw: `codex/years/2026/raw-input/2026-02-19/youtube-glenn-diesen-scott-ritter-u-s-revives-empire-europe-is-no-longer-an-ally-2026-02-19.md`
+  - also strengthens: `codex/speakers/ritter/ritter-speaker-object.md`, `codex/speakers/ritter/ritter-helix.md`
+  - reason: Matched host plus guest to an existing host-local speaker arc.
+- `2026-02-28` `high` [Scott Ritter: Full-Scale War as Iran Attacks All U.S. Targets](https://www.youtube.com/watch?v=2zjuZqUrCAo) -> `codex/years/2026/diesen/diesen-ritter-speaker-arc.md` (`update-existing-arc`) evidence `transcript-bearing`
+  - raw: `codex/years/2026/raw-input/2026-02-28/youtube-glenn-diesen-scott-ritter-full-scale-war-as-iran-attacks-all-u-s-targets-2026-02-28.md`
+  - also strengthens: `codex/speakers/ritter/ritter-speaker-object.md`, `codex/speakers/ritter/ritter-helix.md`
+  - reason: Matched host plus guest to an existing host-local speaker arc.
+- `2026-03-11` `high` [Scott Ritter: Trump Calls Putin for Iran War Off-Ramp](https://www.youtube.com/watch?v=rQt351IzD54) -> `codex/years/2026/diesen/diesen-ritter-speaker-arc.md` (`update-existing-arc`) evidence `legacy-appearance-only`
+  - raw: `codex/years/2026/raw-input/2026-03-11/youtube-glenn-diesen-scott-ritter-trump-calls-putin-for-iran-war-off-ramp-2026-03-11.md`
+  - also strengthens: `codex/speakers/ritter/ritter-speaker-object.md`, `codex/speakers/ritter/ritter-helix.md`
+  - reason: Matched host plus guest to an existing host-local speaker arc.
+- `2026-04-07` `high` [Scott Ritter: War Goes Horribly Wrong - U.S. Could Use Nuclear Weapons](https://www.youtube.com/watch?v=1JScWpTLn1M) -> `codex/years/2026/diesen/diesen-ritter-speaker-arc.md` (`update-existing-arc`) evidence `legacy-appearance-only`
+  - raw: `codex/years/2026/raw-input/2026-04-07/youtube-glenn-diesen-scott-ritter-war-goes-horribly-wrong-u-s-could-use-nuclear-weapons-2026-04-07.md`
+  - also strengthens: `codex/speakers/ritter/ritter-speaker-object.md`, `codex/speakers/ritter/ritter-helix.md`
+  - reason: Matched host plus guest to an existing host-local speaker arc.
+- `2026-04-17` `high` [transcript-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17](https://www.youtube.com/watch?v=TBD-diesen-ritter-finland-baltic-2026-04) -> `codex/years/2026/diesen/diesen-ritter-speaker-arc.md` (`update-existing-arc`) evidence `legacy-appearance-only`
+  - raw: `codex/years/2026/raw-input/2026-04-17/transcript-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md`
+  - also strengthens: `codex/speakers/ritter/ritter-speaker-object.md`, `codex/speakers/ritter/ritter-helix.md`
+  - reason: Matched host plus guest to an existing host-local speaker arc.
+- `2026-05-04` `high` [transcript-diesen-ritter-hormuz-return-to-war-2026-05-04](https://www.youtube.com/watch?v=NPr9-IynnPE) -> `codex/years/2026/diesen/diesen-ritter-speaker-arc.md` (`update-existing-arc`) evidence `legacy-appearance-only`
+  - raw: `codex/years/2026/raw-input/2026-05-04/transcript-diesen-ritter-hormuz-return-to-war-2026-05-04.md`
+  - also strengthens: `codex/speakers/ritter/ritter-speaker-object.md`, `codex/speakers/ritter/ritter-helix.md`
+  - reason: Matched host plus guest to an existing host-local speaker arc.
+- `2026-03-06` `high` [Scott Ritter & Lt Col Daniel Davis: IRAN HITTING OUR BASES LIKE NO ENEMY BEFORE](https://www.youtube.com/watch?v=y_jALjcNodU) -> `codex/years/2026/davis/davis-ritter-speaker-arc.md` (`update-existing-arc`) evidence `legacy-appearance-only`
+  - raw: `codex/years/2026/raw-input/2026-03-06/youtube-daniel-davis-deep-dive-scott-ritter-lt-col-daniel-davis-iran-hitting-our-bases-like-no-enemy-be-2026-03-06.md`
+  - also strengthens: `codex/speakers/ritter/ritter-speaker-object.md`, `codex/speakers/ritter/ritter-helix.md`
+  - reason: Matched host plus guest to an existing host-local speaker arc.
+- `2026-03-16` `high` [Scott Ritter: TRUMP is DEAD WRONG About U.S. Missiles & Stockpiles](https://www.youtube.com/watch?v=SGX_sE7TkWw) -> `codex/years/2026/davis/davis-ritter-speaker-arc.md` (`update-existing-arc`) evidence `legacy-appearance-only`
+  - raw: `codex/years/2026/raw-input/2026-03-16/youtube-daniel-davis-deep-dive-scott-ritter-trump-is-dead-wrong-about-u-s-missiles-stockpiles-2026-03-16.md`
+  - also strengthens: `codex/speakers/ritter/ritter-speaker-object.md`, `codex/speakers/ritter/ritter-helix.md`
+  - reason: Matched host plus guest to an existing host-local speaker arc.
+- `2026-03-31` `high` [Scott Ritter: NO WAR PLAN in IRAN  We're Making It Up as we Go Along](https://www.youtube.com/watch?v=1TIp2YhW8u0) -> `codex/years/2026/davis/davis-ritter-speaker-arc.md` (`update-existing-arc`) evidence `legacy-appearance-only`
+  - raw: `codex/years/2026/raw-input/2026-03-31/youtube-daniel-davis-deep-dive-scott-ritter-no-war-plan-in-iran-we-re-making-it-up-as-we-go-along-2026-03-31.md`
+  - also strengthens: `codex/speakers/ritter/ritter-speaker-object.md`, `codex/speakers/ritter/ritter-helix.md`
+  - reason: Matched host plus guest to an existing host-local speaker arc.
+- `2026-04-05` `high` [SCOTT RITTER: We Don't Control the Skies Over Iran!](https://www.youtube.com/watch?v=1ieO54XH7a4) -> `codex/years/2026/davis/davis-ritter-speaker-arc.md` (`update-existing-arc`) evidence `legacy-appearance-only`
+  - raw: `codex/years/2026/raw-input/2026-04-05/youtube-daniel-davis-deep-dive-scott-ritter-we-don-t-control-the-skies-over-iran-2026-04-05.md`
+  - also strengthens: `codex/speakers/ritter/ritter-speaker-object.md`, `codex/speakers/ritter/ritter-helix.md`
+  - reason: Matched host plus guest to an existing host-local speaker arc.
+- `2026-04-13` `high` [Scott Ritter: TRUMP's BLOCKADE IS A JOKE](https://www.youtube.com/watch?v=Zi5nNHNiYuU) -> `codex/years/2026/davis/davis-ritter-speaker-arc.md` (`update-existing-arc`) evidence `legacy-appearance-only`
+  - raw: `codex/years/2026/raw-input/2026-04-13/youtube-daniel-davis-deep-dive-scott-ritter-trump-s-blockade-is-a-joke-2026-04-13.md`
+  - also strengthens: `codex/speakers/ritter/ritter-speaker-object.md`, `codex/speakers/ritter/ritter-helix.md`
+  - reason: Matched host plus guest to an existing host-local speaker arc.
+- `2026-05-06` `high` [transcript-davis-ritter-skirmish-persian-gulf-iran-2026-05-06](https://www.youtube.com/watch?v=yeSOZPgNars) -> `codex/years/2026/davis/davis-ritter-speaker-arc.md` (`update-existing-arc`) evidence `cleaned-transcript`
+  - raw: `codex/years/2026/raw-input/2026-05-06/transcript-davis-ritter-skirmish-persian-gulf-iran-2026-05-06.md`
+  - also strengthens: `codex/speakers/ritter/ritter-speaker-object.md`, `codex/speakers/ritter/ritter-helix.md`
+  - reason: Matched host plus guest to an existing host-local speaker arc.
+- `2026-05-06` `high` [SCOTT RITTER: We've Not Impacted Iran As We're Being Told](https://www.youtube.com/watch?v=yeSOZPgNars) -> `codex/years/2026/davis/davis-ritter-speaker-arc.md` (`update-existing-arc`) evidence `transcript-bearing`
+  - raw: `codex/years/2026/raw-input/2026-05-06/youtube-daniel-davis-deep-dive-scott-ritter-we-ve-not-impacted-iran-as-we-re-being-told-2026-05-06.md`
+  - also strengthens: `codex/speakers/ritter/ritter-speaker-object.md`, `codex/speakers/ritter/ritter-helix.md`
+  - reason: Matched host plus guest to an existing host-local speaker arc.
+- `2026-05-14` `high` [SCOTT RITTER: Russia Retaliation on Europe No Longer In Doubt](https://www.youtube.com/watch?v=IynOOHlWMmY) -> `codex/years/2026/davis/davis-ritter-speaker-arc.md` (`update-existing-arc`) evidence `legacy-appearance-only`
+  - raw: `codex/years/2026/raw-input/2026-05-14/youtube-daniel-davis-deep-dive-scott-ritter-russia-retaliation-on-europe-no-longer-in-doubt-2026-05-14.md`
+  - also strengthens: `codex/speakers/ritter/ritter-speaker-object.md`, `codex/speakers/ritter/ritter-helix.md`
+  - reason: Matched host plus guest to an existing host-local speaker arc.
+- `2025-01-05` `high` [Israel's Worst Nightmare Coming | Prof. Mohammad Marandi & Scott Ritter](https://www.youtube.com/watch?v=zpXOdy0guJM) -> `codex/years/2026/alkorshid/alkorshid-ritter-speaker-arc.md` (`update-existing-arc`) evidence `legacy-appearance-only`
+  - raw: `codex/years/2026/raw-input/2025-01-05/transcript-dialogue-works-israel-s-worst-nightmare-coming-prof-mohammad-marandi-scott-ritter-2025-01-05.md`
+  - also strengthens: `codex/speakers/ritter/ritter-speaker-object.md`, `codex/speakers/ritter/ritter-helix.md`
+  - reason: Matched host plus guest to an existing host-local speaker arc.
+- `2025-10-19` `high` [Israel’s Attack IGNITES Iran’s Oreshnik Moment — IDF in RUINS l Scott Ritter](https://www.youtube.com/watch?v=AupNaa-bj3M) -> `codex/years/2026/alkorshid/alkorshid-ritter-speaker-arc.md` (`update-existing-arc`) evidence `legacy-appearance-only`
+  - raw: `codex/years/2026/raw-input/2025-10-19/transcript-dialogue-works-scott-ritter-israel-s-attack-ignites-iran-s-oreshnik-moment-idf-in-ruins-l-scott-ritter-2025-10-19.md`
+  - also strengthens: `codex/speakers/ritter/ritter-speaker-object.md`, `codex/speakers/ritter/ritter-helix.md`
+  - reason: Matched host plus guest to an existing host-local speaker arc.
+- `2025-11-05` `high` [Scott Ritter: Russia & Iran Just Triggered It All!](https://www.youtube.com/watch?v=UMTrfuXVD4g) -> `codex/years/2026/alkorshid/alkorshid-ritter-speaker-arc.md` (`update-existing-arc`) evidence `legacy-appearance-only`
+  - raw: `codex/years/2026/raw-input/2025-11-05/transcript-dialogue-works-scott-ritter-scott-ritter-russia-iran-just-triggered-it-all-2025-11-05.md`
+  - also strengthens: `codex/speakers/ritter/ritter-speaker-object.md`, `codex/speakers/ritter/ritter-helix.md`
+  - reason: Matched host plus guest to an existing host-local speaker arc.
+- `2025-12-03` `high` [Scott Ritter: Putin Warns Europe: “We’re Ready Right Now”](https://www.youtube.com/watch?v=SO05kKsi0w0) -> `codex/years/2026/alkorshid/alkorshid-ritter-speaker-arc.md` (`update-existing-arc`) evidence `legacy-appearance-only`
+  - raw: `codex/years/2026/raw-input/2025-12-03/transcript-dialogue-works-scott-ritter-scott-ritter-putin-warns-europe-we-re-ready-right-now-2025-12-03.md`
+  - also strengthens: `codex/speakers/ritter/ritter-speaker-object.md`, `codex/speakers/ritter/ritter-helix.md`
+  - reason: Matched host plus guest to an existing host-local speaker arc.
+- `2025-12-06` `high` [Putin Defies Trump: EU Cornered as Ukraine Troops Collapse | Scott Ritter](https://www.youtube.com/watch?v=HSuU-YcEweU) -> `codex/years/2026/alkorshid/alkorshid-ritter-speaker-arc.md` (`update-existing-arc`) evidence `legacy-appearance-only`
+  - raw: `codex/years/2026/raw-input/2025-12-06/transcript-dialogue-works-scott-ritter-putin-defies-trump-eu-cornered-as-ukraine-troops-collapse-scott-ritter-2025-12-06.md`
+  - also strengthens: `codex/speakers/ritter/ritter-speaker-object.md`, `codex/speakers/ritter/ritter-helix.md`
+  - reason: Matched host plus guest to an existing host-local speaker arc.
+- `2025-12-19` `high` [Scott Ritter: Russia Just Made a Move That Could Collapse Everything](https://www.youtube.com/watch?v=zq9y5GpwChY) -> `codex/years/2026/alkorshid/alkorshid-ritter-speaker-arc.md` (`update-existing-arc`) evidence `legacy-appearance-only`
+  - raw: `codex/years/2026/raw-input/2025-12-19/transcript-dialogue-works-scott-ritter-scott-ritter-russia-just-made-a-move-that-could-collapse-everything-2025-12-19.md`
+  - also strengthens: `codex/speakers/ritter/ritter-speaker-object.md`, `codex/speakers/ritter/ritter-helix.md`
+  - reason: Matched host plus guest to an existing host-local speaker arc.
+- `2025-12-24` `high` [Scott Ritter: This Is How It All COLLAPSES — Russia’s Role Explained](https://www.youtube.com/watch?v=mDKeva-bBow) -> `codex/years/2026/alkorshid/alkorshid-ritter-speaker-arc.md` (`update-existing-arc`) evidence `legacy-appearance-only`
+  - raw: `codex/years/2026/raw-input/2025-12-24/transcript-dialogue-works-scott-ritter-scott-ritter-this-is-how-it-all-collapses-russia-s-role-explained-2025-12-24.md`
+  - also strengthens: `codex/speakers/ritter/ritter-speaker-object.md`, `codex/speakers/ritter/ritter-helix.md`
+  - reason: Matched host plus guest to an existing host-local speaker arc.
+- `2026-02-04` `high` [Scott Ritter: Game Over? Trump’s Iran Strategy Might Blow Up and Start a Regional War](https://www.youtube.com/watch?v=iuc_pPvcFC0) -> `codex/years/2026/alkorshid/alkorshid-ritter-speaker-arc.md` (`update-existing-arc`) evidence `legacy-appearance-only`
+  - raw: `codex/years/2026/raw-input/2026-02-04/transcript-dialogue-works-scott-ritter-game-over-trump-s-iran-strategy-might-blow-up-and-start-a-r-2026-02-04.md`
+  - also strengthens: `codex/speakers/ritter/ritter-speaker-object.md`, `codex/speakers/ritter/ritter-helix.md`
+  - reason: Matched host plus guest to an existing host-local speaker arc.
+- `2026-02-11` `high` [Scott Ritter: Trump in MAJOR Trouble — China & Russia Arm Iran With Deadly Weapons!](https://www.youtube.com/watch?v=DCZn8RZS9Zk) -> `codex/years/2026/alkorshid/alkorshid-ritter-speaker-arc.md` (`update-existing-arc`) evidence `legacy-appearance-only`
+  - raw: `codex/years/2026/raw-input/2026-02-11/transcript-dialogue-works-scott-ritter-trump-in-major-trouble-china-russia-arm-iran-with-deadly-we-2026-02-11.md`
+  - also strengthens: `codex/speakers/ritter/ritter-speaker-object.md`, `codex/speakers/ritter/ritter-helix.md`
+  - reason: Matched host plus guest to an existing host-local speaker arc.
+- `2026-02-18` `high` [Scott Ritter: Hormuz Blocked! Iran’s Missile Fire Can Leave the US Navy DEFENSELESS](https://www.youtube.com/watch?v=DCDuxei5dj8) -> `codex/years/2026/alkorshid/alkorshid-ritter-speaker-arc.md` (`update-existing-arc`) evidence `legacy-appearance-only`
+  - raw: `codex/years/2026/raw-input/2026-02-18/transcript-dialogue-works-scott-ritter-hormuz-blocked-iran-s-missile-fire-can-leave-the-us-navy-de-2026-02-18.md`
+  - also strengthens: `codex/speakers/ritter/ritter-speaker-object.md`, `codex/speakers/ritter/ritter-helix.md`
+  - reason: Matched host plus guest to an existing host-local speaker arc.
+- `2026-03-04` `high` [Scott Ritter: Iran Wins the Long War — U.S. & Israel Losing Ground!](https://www.youtube.com/watch?v=MWlCgZMYqk8) -> `codex/years/2026/alkorshid/alkorshid-ritter-speaker-arc.md` (`update-existing-arc`) evidence `transcript-bearing`
+  - raw: `codex/years/2026/raw-input/2026-03-04/youtube-dialogue-works-scott-ritter-iran-wins-the-long-war-us-israel-losing-ground-2026-03-04.md`
+  - also strengthens: `codex/speakers/ritter/ritter-speaker-object.md`, `codex/speakers/ritter/ritter-helix.md`
+  - reason: Matched host plus guest to an existing host-local speaker arc.
+- `2026-03-11` `high` [Scott Ritter: The U.S. Has Lost and Is Trapped in the Iran War With No Way Out](https://www.youtube.com/watch?v=s3cNS4lyJ60) -> `codex/years/2026/alkorshid/alkorshid-ritter-speaker-arc.md` (`update-existing-arc`) evidence `legacy-appearance-only`
+  - raw: `codex/years/2026/raw-input/2026-03-11/transcript-dialogue-works-scott-ritter-the-u-s-has-lost-and-is-trapped-in-the-iran-war-with-no-way-2026-03-11.md`
+  - also strengthens: `codex/speakers/ritter/ritter-speaker-object.md`, `codex/speakers/ritter/ritter-helix.md`
+  - reason: Matched host plus guest to an existing host-local speaker arc.
+- `2026-04-08` `high` [Scott Ritter: The US War on Iran Just COLLAPSED – Ceasefire Does the Impossible](https://www.youtube.com/watch?v=1lm98BHS0Pc) -> `codex/years/2026/alkorshid/alkorshid-ritter-speaker-arc.md` (`update-existing-arc`) evidence `legacy-appearance-only`
+  - raw: `codex/years/2026/raw-input/2026-04-08/transcript-dialogue-works-scott-ritter-the-us-war-on-iran-just-collapsed-ceasefire-does-the-imposs-2026-04-08.md`
+  - also strengthens: `codex/speakers/ritter/ritter-speaker-object.md`, `codex/speakers/ritter/ritter-helix.md`
+  - reason: Matched host plus guest to an existing host-local speaker arc.
+- `2026-05-06` `high` [transcript-alkorshid-ritter-operation-freedom-hormuz-iran-2026-05-06](https://www.youtube.com/watch?v=yHqOBrFyCqA) -> `codex/years/2026/alkorshid/alkorshid-ritter-speaker-arc.md` (`update-existing-arc`) evidence `cleaned-transcript`
+  - raw: `codex/years/2026/raw-input/2026-05-06/transcript-alkorshid-ritter-operation-freedom-hormuz-iran-2026-05-06.md`
+  - also strengthens: `codex/speakers/ritter/ritter-speaker-object.md`, `codex/speakers/ritter/ritter-helix.md`
+  - reason: Matched host plus guest to an existing host-local speaker arc.
+- `2026-05-13` `high` [Scott Ritter: Iran Didn’t Break. It Adapted, Now Stronger Than Ever](https://www.youtube.com/watch?v=euTjsj7OonU) -> `codex/years/2026/alkorshid/alkorshid-ritter-speaker-arc.md` (`update-existing-arc`) evidence `legacy-appearance-only`
+  - raw: `codex/years/2026/raw-input/2026-05-13/transcript-dialogue-works-scott-ritter-iran-didn-t-break-it-adapted-now-stronger-than-ever-2026-05-13.md`
+  - also strengthens: `codex/speakers/ritter/ritter-speaker-object.md`, `codex/speakers/ritter/ritter-helix.md`
+  - reason: Matched host plus guest to an existing host-local speaker arc.
+- `2025-11-04` `high` [Scott Ritter: NATO's Ukraine Strategy Is Collapsing](https://www.youtube.com/watch?v=WXtjMDaj-gE) -> `codex/years/2026/napolitano/napolitano-ritter-speaker-arc.md` (`update-existing-arc`) evidence `summary-grade`
+  - raw: `codex/years/2026/raw-input/2025-11-04/transcript-napolitano-ritter-natos-ukraine-strategy-is-collapsing-2025-11-04.md`
+  - also strengthens: `codex/speakers/ritter/ritter-speaker-object.md`, `codex/speakers/ritter/ritter-helix.md`
+  - reason: Matched host plus guest to an existing host-local speaker arc.
+- `2025-12-01` `high` [Scott Ritter: Did Hegseth Order Murders?](https://www.youtube.com/watch?v=Ey_zCsoFeAo) -> `codex/years/2026/napolitano/napolitano-ritter-speaker-arc.md` (`update-existing-arc`) evidence `summary-grade`
+  - raw: `codex/years/2026/raw-input/2025-12-01/transcript-napolitano-ritter-did-hegseth-order-murders-2025-12-01.md`
+  - also strengthens: `codex/speakers/ritter/ritter-speaker-object.md`, `codex/speakers/ritter/ritter-helix.md`
+  - reason: Matched host plus guest to an existing host-local speaker arc.
+- `2026-01-12` `high` [Scott Ritter: How Close Is Putin to Escalation?](https://www.youtube.com/watch?v=AVhJpCqNECg) -> `codex/years/2026/napolitano/napolitano-ritter-speaker-arc.md` (`update-existing-arc`) evidence `summary-grade`
+  - raw: `codex/years/2026/raw-input/2026-01-12/transcript-napolitano-ritter-how-close-is-putin-to-escalation-2026-01-12.md`
+  - also strengthens: `codex/speakers/ritter/ritter-speaker-object.md`, `codex/speakers/ritter/ritter-helix.md`
+  - reason: Matched host plus guest to an existing host-local speaker arc.
+- `2026-02-23` `high` [Scott Ritter: What War With Iran Will Look Like](https://www.youtube.com/watch?v=XzvbRHd57EU) -> `codex/years/2026/napolitano/napolitano-ritter-speaker-arc.md` (`update-existing-arc`) evidence `summary-grade`
+  - raw: `codex/years/2026/raw-input/2026-02-23/transcript-napolitano-ritter-what-war-with-iran-will-look-like-2026-02-23.md`
+  - also strengthens: `codex/speakers/ritter/ritter-speaker-object.md`, `codex/speakers/ritter/ritter-helix.md`
+  - reason: Matched host plus guest to an existing host-local speaker arc.
+- `2026-03-17` `high` [Scott Ritter : Could US Officials Face War Crime Charges?](https://www.youtube.com/watch?v=-49oaeHDMH4) -> `codex/years/2026/napolitano/napolitano-ritter-speaker-arc.md` (`update-existing-arc`) evidence `transcript-bearing`
+  - raw: `codex/years/2026/raw-input/2026-03-17/transcript-napolitano-ritter-could-us-officials-face-war-crime-charges-2026-03-17.md`
+  - also strengthens: `codex/speakers/ritter/ritter-speaker-object.md`, `codex/speakers/ritter/ritter-helix.md`
+  - reason: Matched host plus guest to an existing host-local speaker arc.
+- `2026-03-31` `high` [Scott Ritter: Why Iran Is Winning](https://www.youtube.com/watch?v=BbucEkIkLfs) -> `codex/years/2026/napolitano/napolitano-ritter-speaker-arc.md` (`update-existing-arc`) evidence `summary-grade`
+  - raw: `codex/years/2026/raw-input/2026-03-31/transcript-napolitano-ritter-why-iran-is-winning-2026-03-31.md`
+  - also strengthens: `codex/speakers/ritter/ritter-speaker-object.md`, `codex/speakers/ritter/ritter-helix.md`
+  - reason: Matched host plus guest to an existing host-local speaker arc.
+- `2026-04-20` `high` [Scott Ritter: Trump and Hegseth Haven't a Clue](https://www.youtube.com/watch?v=QRkC8xniXkQ) -> `codex/years/2026/napolitano/napolitano-ritter-speaker-arc.md` (`update-existing-arc`) evidence `transcript-bearing`
+  - raw: `codex/years/2026/raw-input/2026-04-20/judging-freedom-trump-hegseth-2026-04-20.md`
+  - also strengthens: `codex/speakers/ritter/ritter-speaker-object.md`, `codex/speakers/ritter/ritter-helix.md`
+  - reason: Matched host plus guest to an existing host-local speaker arc.
+- `2026-05-18` `high` [Scott Ritter: The US Will Never Learn](https://www.youtube.com/watch?v=Y0W2vpjIQoM) -> `codex/years/2026/napolitano/napolitano-ritter-speaker-arc.md` (`update-existing-arc`) evidence `transcript-bearing`
+  - raw: `codex/years/2026/raw-input/2026-05-18/transcript-napolitano-ritter-the-us-will-never-learn-2026-05-18.md`
+  - also strengthens: `codex/speakers/ritter/ritter-speaker-object.md`, `codex/speakers/ritter/ritter-helix.md`
+  - reason: Matched host plus guest to an existing host-local speaker arc.
+
+## existing-speaker-object
+
+- `2026-05-10` `high` [youtube-ritter-cyrus-janssen-iran-hormuz-energy-shock-2026-05-10](https://www.youtube.com/watch?v=-idI5zKO1M8) -> `codex/speakers/ritter/ritter-speaker-object.md` (`create-candidate-arc`) evidence `legacy-appearance-only`
+  - raw: `codex/years/2026/raw-input/2026-05-10/youtube-ritter-cyrus-janssen-iran-hormuz-energy-shock-2026-05-10.md`
+  - also strengthens: `codex/years/2026/janssen/janssen-ritter-speaker-arc.md`, `codex/speakers/ritter/ritter-helix.md`
+  - reason: Matched guest metadata to existing speaker object `ritter`.
+- `2026-05-18` `high` [RUSSIA DEBATE – SCOTT RITTER vs. RAY McGOVERN]() -> `codex/speakers/mcgovern/mcgovern-speaker-object.md` (`create-candidate-arc`) evidence `transcript-bearing`
+  - raw: `codex/years/2026/raw-input/2026-05-18/transcript-consortium-news-russia-debate-scott-ritter-vs-ray-mcgovern-2026-05-18.md`
+  - also strengthens: `codex/years/2026/lauria/lauria-mcgovern-speaker-arc.md`, `codex/speakers/mcgovern/mcgovern-cross-host-note.md`
+  - reason: Matched guest metadata to existing speaker object `mcgovern`.

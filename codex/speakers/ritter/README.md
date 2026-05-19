@@ -8,6 +8,7 @@ Open here first when the question is not merely "what did Ritter say," but **whi
 
 ## Start here
 
+- [ritter-speaker-object.md](/C:/dev/strategy-codex/codex/speakers/ritter/ritter-speaker-object.md)
 - [ritter-routing.md](/C:/dev/strategy-codex/codex/speakers/ritter/ritter-routing.md)
 - [expert-orthogonality-note.md](/C:/dev/strategy-codex/codex/speakers/expert-orthogonality-note.md)
 

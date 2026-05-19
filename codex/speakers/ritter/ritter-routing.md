@@ -6,13 +6,15 @@ Purpose: make the Ritter speaker object faster to route without duplicating host
 
 ## Core rule
 
-Ritter does **not** need a native monthly shelf of his own. The efficient structure is:
+Ritter now has both a real native 2026 shelf and a mature speaker-object folder, but **interview-side routing should still open through the host-local arcs first**.
 
-- host shelves hold chronology
-- the speaker folder holds object identity
-- host-local speaker arcs do the routing work
+The efficient structure is therefore:
 
-So this note is the **speaker-side index** into the real Ritter host lanes.
+- the native Ritter shelf holds authored and longitudinal accumulation
+- the speaker folder holds object identity, helix logic, and routing speed
+- host-local speaker arcs do the first-pass interview routing work
+
+So this note is the **speaker-side index** into the real Ritter host lanes, not a denial that the native shelf exists.
 
 ## Open by task
 

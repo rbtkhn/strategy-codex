@@ -3,6 +3,7 @@ slug = "ritter"
 
 compact_state_files = [
   "codex/speakers/ritter/README.md",
+  "codex/speakers/ritter/ritter-speaker-object.md",
   "codex/speakers/ritter/ritter-routing.md",
   "codex/speakers/ritter/ritter-helix.md",
   "codex/speakers/ritter/ritter-interview-appearances-2025-2026.md",
@@ -27,7 +28,7 @@ excluded_patterns = [
 
 [[source_sets]]
 file = "codex/speakers/ritter/ritter-interview-appearances-2025-2026.md"
-expected_count = 45
+expected_count = 48
 excluded_patterns = [
   "substack-ritter-",
   "article-ritter-",
