@@ -13,6 +13,7 @@ Refresh current officeholder facts before load-bearing use.
 - [President / government carrier](president-government.md) - administrative and diplomatic implementation.
 - [IRGC carrier](irgc.md) - deterrence, escalation, and security implementation.
 - [Head-of-state profile template](../../templates/head-of-state-profile.md) - shared profile grammar.
+- [Authority carrier orthogonality](../../sheets/authority-carrier-orthogonality.md) - compare this bench against the other state lanes.
 
 ## Core Question
 

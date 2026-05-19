@@ -32,6 +32,7 @@ Canonical PH-CIV / statecraft hinge: **Civilizational pattern and narrative beco
 - [Sheets](sheets/) - reusable prompt benches for fast statecraft sessions.
 - [Civilizational pattern to statecraft](sheets/civilizational-pattern-to-statecraft.md) - convert PH-CIV pattern and narrative into authority, restraint, and settlement.
 - [National perspective orthogonality](sheets/national-perspective-orthogonality.md) - compare U.S., Russia, China, Iran, and other state views without collapsing them into one generic strategic lens.
+- [Authority carrier orthogonality](sheets/authority-carrier-orthogonality.md) - compare leader / office / party-state / security-carrier problems without flattening them into biography.
 - [Crisis test casebook](sheets/crisis-test-casebook.md) - method memory for contested objects, game types, filters learned, and settlement spines.
 - [Pape coercive-center index](sheets/pape-coercive-center-index.md) - track a Pape-style great-power ranking by crisis leverage, chokepoints, systemic spillover, and diplomatic monetization.
 - [Mearsheimer structural-realist scoreboard](sheets/mearsheimer-structural-realist-scoreboard.md) - track structural power, balancing pressure, overextension, institutional carrier, and restraint.

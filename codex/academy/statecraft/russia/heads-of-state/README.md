@@ -11,6 +11,7 @@ Refresh current officeholder facts before load-bearing use.
 - [Putin carrier profile](putin.md) - presidential authority as settlement carrier.
 - [Security Council carrier](security-council.md) - collective elite / institutional carrying surface.
 - [Head-of-state profile template](../../templates/head-of-state-profile.md) - shared profile grammar.
+- [Authority carrier orthogonality](../../sheets/authority-carrier-orthogonality.md) - compare this bench against the other state lanes.
 
 ## Core Question
 
