@@ -1,0 +1,205 @@
+{
+  "score_bands": {
+    "pass": 100,
+    "warn": 75
+  },
+  "core_speakers": [
+    "pape",
+    "ritter",
+    "parsi",
+    "crooke",
+    "marandi",
+    "mercouris"
+  ],
+  "forbidden_collapse_phrases": [
+    "generic geopolitical analysis",
+    "generic analyst panel"
+  ],
+  "cases": [
+    {
+      "id": "SPO-G001",
+      "label": "Pape role remains forecast and coercive-system leverage",
+      "points": 10,
+      "critical": true,
+      "paths": [
+        "codex/speakers/authored-pressure-quartet.md",
+        "codex/speakers/speaker-cluster-map.md",
+        "codex/speakers/pape/pape-speaker-object.md"
+      ],
+      "must_cover": [
+        "Pape",
+        "forecast engine",
+        "clock",
+        "threshold",
+        "falsifier",
+        "coercive system leverage"
+      ]
+    },
+    {
+      "id": "SPO-G002",
+      "label": "Ritter role remains force constraint and operational warning",
+      "points": 10,
+      "critical": true,
+      "paths": [
+        "codex/speakers/authored-pressure-quartet.md",
+        "codex/speakers/speaker-cluster-map.md",
+        "skills-portable/_drafts/ritter-warning-extraction/SKILL.md"
+      ],
+      "must_cover": [
+        "Ritter",
+        "force-constraint",
+        "operational warning",
+        "military feasibility",
+        "escalation danger",
+        "force constraints"
+      ]
+    },
+    {
+      "id": "SPO-G003",
+      "label": "Parsi role remains diplomacy architecture and settlement sequencing",
+      "points": 10,
+      "critical": true,
+      "paths": [
+        "codex/speakers/authored-pressure-quartet.md",
+        "codex/speakers/speaker-cluster-map.md",
+        "skills-portable/_drafts/parsi-diplomacy-extraction/SKILL.md"
+      ],
+      "must_cover": [
+        "Parsi",
+        "diplomacy engine",
+        "settlement architecture",
+        "sanctions relief",
+        "sequencing",
+        "regional architecture"
+      ]
+    },
+    {
+      "id": "SPO-G004",
+      "label": "Crooke role remains structural misreading and order rupture",
+      "points": 10,
+      "critical": true,
+      "paths": [
+        "codex/speakers/authored-pressure-quartet.md",
+        "codex/speakers/speaker-cluster-map.md",
+        "codex/speakers/crooke/README.md"
+      ],
+      "must_cover": [
+        "Crooke",
+        "structural-misreading engine",
+        "elite misreading",
+        "order rupture",
+        "metapolitics",
+        "mechanism"
+      ]
+    },
+    {
+      "id": "SPO-G005",
+      "label": "Marandi role remains inside-Iran state account",
+      "points": 10,
+      "critical": true,
+      "paths": [
+        "skills-portable/_drafts/marandi-state-extraction/SKILL.md",
+        "codex/speakers/speaker-cluster-map.md"
+      ],
+      "must_cover": [
+        "Marandi",
+        "inside-Iran",
+        "inside-state account",
+        "authority carrier",
+        "red line",
+        "Iranian state red lines"
+      ]
+    },
+    {
+      "id": "SPO-G006",
+      "label": "Mercouris role remains daily continuity and room-read sequencing",
+      "points": 10,
+      "critical": true,
+      "paths": [
+        "skills-portable/_drafts/mercouris-daily-continuity-extraction/SKILL.md",
+        "codex/speakers/mercouris/mercouris-speaker-object.md",
+        "codex/speakers/speaker-cluster-map.md"
+      ],
+      "must_cover": [
+        "Mercouris",
+        "daily continuity",
+        "continuity read",
+        "diplomacy-room",
+        "institutional sequencing",
+        "stream-native"
+      ]
+    },
+    {
+      "id": "SPO-G007",
+      "label": "quartet note refuses consensus flattening",
+      "points": 10,
+      "critical": true,
+      "paths": [
+        "codex/speakers/authored-pressure-quartet.md"
+      ],
+      "must_cover": [
+        "Do not treat this as a voting panel",
+        "different tests",
+        "Do not flatten the four speakers into one consensus object",
+        "role separation",
+        "source-class shape"
+      ]
+    },
+    {
+      "id": "SPO-G008",
+      "label": "comparison skills require boundary and register separation",
+      "points": 10,
+      "critical": true,
+      "paths": [
+        "skills-portable/_drafts/ritter-warning-extraction/SKILL.md",
+        "skills-portable/_drafts/parsi-diplomacy-extraction/SKILL.md",
+        "skills-portable/_drafts/marandi-state-extraction/SKILL.md",
+        "skills-portable/_drafts/mercouris-daily-continuity-extraction/SKILL.md"
+      ],
+      "must_cover": [
+        "Comparative speaker mode",
+        "Boundary",
+        "Register",
+        "source class",
+        "source-class boundaries",
+        "orthogonal"
+      ]
+    },
+    {
+      "id": "SPO-G009",
+      "label": "anti-role-collapse rules are explicit",
+      "points": 10,
+      "critical": true,
+      "paths": [
+        "skills-portable/_drafts/ritter-warning-extraction/SKILL.md",
+        "skills-portable/_drafts/parsi-diplomacy-extraction/SKILL.md",
+        "skills-portable/_drafts/marandi-state-extraction/SKILL.md",
+        "skills-portable/_drafts/mercouris-daily-continuity-extraction/SKILL.md"
+      ],
+      "must_cover": [
+        "Do not let Mercouris carry another speaker's role",
+        "Do not make Parsi carry Marandi's insider claim",
+        "Do not flatten comparison speakers into Ritter's heat",
+        "Do not let external analysts override Marandi's inside-state account",
+        "separate operational feasibility from Mercouris institutional sequencing"
+      ]
+    },
+    {
+      "id": "SPO-G010",
+      "label": "speaker shelf avoids generic collapse phrases",
+      "points": 10,
+      "critical": false,
+      "paths": [
+        "codex/speakers/authored-pressure-quartet.md",
+        "codex/speakers/speaker-cluster-map.md",
+        "skills-portable/_drafts/academy-statecraft-drafting/SKILL.md"
+      ],
+      "must_cover": [
+        "Speaker-state intake",
+        "Preserve source boundaries",
+        "Satellites are not junior versions",
+        "role-adjacent reinforcements"
+      ]
+    }
+  ]
+}

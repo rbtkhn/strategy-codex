@@ -1,0 +1,71 @@
+{
+  "score_bands": {
+    "pass": 100,
+    "warn": 75
+  },
+  "required_roots": [
+    "codex/academy",
+    "codex/academy/ph-civ",
+    "codex/speakers",
+    "codex/years",
+    "codex/years/2025",
+    "codex/years/2026"
+  ],
+  "forbidden_roots": [
+    "codex/2025",
+    "codex/2026"
+  ],
+  "gitmodules": {
+    "required_submodule": "[submodule \"codex/academy/ph-civ\"]",
+    "required_path": "path = codex/academy/ph-civ",
+    "forbidden_path": "path = codex/2026/academy/ph-civ"
+  },
+  "stale_content_patterns": [
+    "codex[/\\\\]2026[/\\\\]academy",
+    "codex[/\\\\]2026[/\\\\]speakers",
+    "codex[/\\\\]2026[/\\\\]raw-input",
+    "codex[/\\\\]2025"
+  ],
+  "excluded_path_prefixes": [
+    "artifacts/benchmarks/",
+    "tests/fixtures/rehome_path_hygiene_contract.json",
+    "tests/test_rehome_path_hygiene_contract.py"
+  ],
+  "cases": [
+    {
+      "id": "RPH-G001",
+      "label": "canonical roots exist",
+      "points": 20,
+      "critical": true,
+      "check": "required_roots"
+    },
+    {
+      "id": "RPH-G002",
+      "label": "old year roots are gone",
+      "points": 20,
+      "critical": true,
+      "check": "forbidden_roots_absent"
+    },
+    {
+      "id": "RPH-G003",
+      "label": "submodule path is canonical",
+      "points": 20,
+      "critical": true,
+      "check": "gitmodules"
+    },
+    {
+      "id": "RPH-G004",
+      "label": "tracked live files have no stale rehome paths",
+      "points": 30,
+      "critical": true,
+      "check": "tracked_content"
+    },
+    {
+      "id": "RPH-G005",
+      "label": "benchmark provenance is explicitly excluded",
+      "points": 10,
+      "critical": false,
+      "check": "exclusion_policy"
+    }
+  ]
+}

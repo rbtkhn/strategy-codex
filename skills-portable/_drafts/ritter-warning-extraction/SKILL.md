@@ -146,6 +146,7 @@ Comparison rules:
 - Keep speaker roles orthogonal. Ritter is usually the warning / force-constraint / escalation-mechanics voice; do not flatten insider, diplomatic, economic, or host-native speakers into his register.
 - Preserve source-class boundaries. Do not merge authored Ritter essays, Ritter interviews, host claims, and the comparison speaker's claims into one undifferentiated voice.
 - When comparing Ritter to an insider voice such as Marandi, separate **external warning** from **inside-state account**.
+- When comparing Ritter to a diplomacy voice such as Parsi, separate **external warning / force constraints** from **settlement design / diplomatic sequencing**.
 - When comparing Ritter to a forecast voice such as Pape, separate **operational feasibility** from **threshold / clock / falsifier logic**.
 - When comparing Ritter to a structural voice such as Crooke, separate **military-professional warning** from **order-rupture / metapolitical mechanism**.
 - If one side has stronger source evidence than the other, say so explicitly and keep the weaker side provisional.

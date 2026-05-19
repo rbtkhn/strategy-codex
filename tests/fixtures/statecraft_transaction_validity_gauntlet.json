@@ -1,0 +1,169 @@
+{
+  "score_bands": {
+    "pass": 90,
+    "warn": 75
+  },
+  "valid_statuses": [
+    "draft",
+    "validated",
+    "volatile",
+    "superseded"
+  ],
+  "cases": [
+    {
+      "id": "STX-G001",
+      "label": "template boundary and validity statuses",
+      "role": "template",
+      "path": "codex/academy/statecraft/templates/statecraft-transaction.md",
+      "points": 10,
+      "critical": true,
+      "must_cover": [
+        "WORK only; not Record.",
+        "Validity Status",
+        "draft",
+        "validated",
+        "volatile",
+        "superseded"
+      ]
+    },
+    {
+      "id": "STX-G002",
+      "label": "template provenance and source inputs",
+      "role": "template",
+      "path": "codex/academy/statecraft/templates/statecraft-transaction.md",
+      "points": 10,
+      "critical": false,
+      "must_cover": [
+        "Source Inputs",
+        "Speaker-state inputs",
+        "Raw-input / provenance anchors",
+        "Prior statecraft drafts"
+      ]
+    },
+    {
+      "id": "STX-G003",
+      "label": "template continuity and authority carrier",
+      "role": "template",
+      "path": "codex/academy/statecraft/templates/statecraft-transaction.md",
+      "points": 10,
+      "critical": false,
+      "must_cover": [
+        "Historical Continuity",
+        "Current government",
+        "Possible successor authority",
+        "Head-Of-State Carrier Check",
+        "Required authority carrier"
+      ]
+    },
+    {
+      "id": "STX-G004",
+      "label": "template authority restraint settlement hinge",
+      "role": "template",
+      "path": "codex/academy/statecraft/templates/statecraft-transaction.md",
+      "points": 10,
+      "critical": true,
+      "must_cover": [
+        "authority",
+        "restraint",
+        "settlement",
+        "Pattern / Narrative Conversion",
+        "Civilizational pattern and narrative become statecraft"
+      ]
+    },
+    {
+      "id": "STX-G005",
+      "label": "template validation and revisit discipline",
+      "role": "template",
+      "path": "codex/academy/statecraft/templates/statecraft-transaction.md",
+      "points": 10,
+      "critical": false,
+      "must_cover": [
+        "Richelieu Validation",
+        "Bismarck Validation",
+        "Mirror Test",
+        "Falsifiers / Revisit Triggers",
+        "Revisit trigger"
+      ]
+    },
+    {
+      "id": "STX-G006",
+      "label": "full transaction provenance and status",
+      "role": "full_transaction",
+      "path": "codex/academy/statecraft/iran/transactions/hormuz-recognition-transit-transaction.md",
+      "points": 10,
+      "critical": true,
+      "must_cover": [
+        "WORK only; not Record.",
+        "Source Inputs",
+        "Raw-input / provenance anchors",
+        "Validity Status",
+        "volatile"
+      ]
+    },
+    {
+      "id": "STX-G007",
+      "label": "full transaction continuity and conversion",
+      "role": "full_transaction",
+      "path": "codex/academy/statecraft/iran/transactions/hormuz-recognition-transit-transaction.md",
+      "points": 10,
+      "critical": false,
+      "must_cover": [
+        "Historical Continuity",
+        "Current government",
+        "Civilizational memory",
+        "Authority",
+        "Restraint",
+        "Settlement"
+      ]
+    },
+    {
+      "id": "STX-G008",
+      "label": "full transaction validation and instrument text",
+      "role": "full_transaction",
+      "path": "codex/academy/statecraft/iran/transactions/hormuz-recognition-transit-transaction.md",
+      "points": 10,
+      "critical": false,
+      "must_cover": [
+        "Richelieu Validation",
+        "Institutional carrier",
+        "Bismarck Validation",
+        "Limited aim",
+        "Instrument Text",
+        "Draft clause"
+      ]
+    },
+    {
+      "id": "STX-G009",
+      "label": "full transaction mirror and revisit",
+      "role": "full_transaction",
+      "path": "codex/academy/statecraft/iran/transactions/hormuz-recognition-transit-transaction.md",
+      "points": 10,
+      "critical": false,
+      "must_cover": [
+        "Mirror Test",
+        "Falsifiers / Revisit Triggers",
+        "Falsifier",
+        "Revisit trigger",
+        "Actor defection or compliance signal"
+      ]
+    },
+    {
+      "id": "STX-G010",
+      "label": "tracked cross-lane framework source frame and validity",
+      "role": "framework_readme",
+      "path": "codex/academy/statecraft/transactions/hormuz-transit-sanctions-relief-compact/README.md",
+      "points": 10,
+      "critical": true,
+      "must_cover": [
+        "WORK only; not Record.",
+        "Shared Source Frame",
+        "raw-input",
+        "Four-Lane Package",
+        "Status: `volatile`",
+        "authority",
+        "settlement",
+        "restraint"
+      ]
+    }
+  ]
+}

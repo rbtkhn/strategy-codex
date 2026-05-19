@@ -1,0 +1,261 @@
+[
+  {
+    "skill": "ritter-warning-extraction",
+    "path": "skills-portable/_drafts/ritter-warning-extraction/SKILL.md",
+    "minimum_score": 90,
+    "critical_must_cover": [
+      "deep topic search rule",
+      "quote-card discipline",
+      "heat filter",
+      "authority carrier mode",
+      "state-folder handoff"
+    ],
+    "cases": [
+      {
+        "id": "RITTER-G001",
+        "prompt": "Find top Ritter excerpts on a recent topic.",
+        "must_cover": ["quote-card discipline", "ritter's own words", "line citation"],
+        "must_not": ["do not answer with tiny fragments", "do not substitute a heading plus explanation"],
+        "expected_behavior": ["source-illustrated answer default", "excerpt"]
+      },
+      {
+        "id": "RITTER-G002",
+        "prompt": "Search Ritter harder before saying he missed a topic.",
+        "must_cover": ["literal pass", "event-shape pass", "corpus-shape pass"],
+        "must_not": ["do not answer \"i found no direct ritter use\"", "do not stop after an exact-name search"],
+        "expected_behavior": ["deep topic search rule", "negative-answer guard"]
+      },
+      {
+        "id": "RITTER-G003",
+        "prompt": "Separate Ritter's warning mechanism from moral heat.",
+        "must_cover": ["military-professional warning", "escalation mechanics", "moral/prosecutorial heat"],
+        "must_not": ["do not treat his most heated sentence as the whole claim"],
+        "expected_behavior": ["what remains true if the rhetoric is lowered by 60 percent"]
+      },
+      {
+        "id": "RITTER-G004",
+        "prompt": "Apply Ritter to Putin, Lavrov, Trump, Khamenei, or Zelensky.",
+        "must_cover": ["authority carrier mode", "decision power", "escalation predicate"],
+        "must_not": ["do not turn the person into biography"],
+        "expected_behavior": ["state function", "command function", "bargaining function"]
+      },
+      {
+        "id": "RITTER-G005",
+        "prompt": "Compare Ritter to Marandi, Parsi, Pape, or Crooke.",
+        "must_cover": ["comparative speaker mode", "keep speaker roles orthogonal", "source-class boundaries"],
+        "must_not": ["do not flatten comparison speakers into ritter's heat"],
+        "expected_behavior": ["external warning", "inside-state account", "settlement design"]
+      },
+      {
+        "id": "RITTER-G006",
+        "prompt": "Turn a Ritter authority-carrier read into statecraft memory.",
+        "must_cover": ["state-folder handoff", "transaction input", "realism filter"],
+        "must_not": ["not for one-off color commentary"],
+        "expected_behavior": ["russia/state", "america/state", "iran/state"]
+      }
+    ]
+  },
+  {
+    "skill": "marandi-state-extraction",
+    "path": "skills-portable/_drafts/marandi-state-extraction/SKILL.md",
+    "minimum_score": 90,
+    "critical_must_cover": [
+      "inside-state filter",
+      "authority-carrier check",
+      "source-illustrated answer default",
+      "statecraft conversion"
+    ],
+    "cases": [
+      {
+        "id": "MARANDI-G001",
+        "prompt": "What does Marandi say Iran's position is?",
+        "must_cover": ["inside-state account", "authority carrier", "source evidence"],
+        "must_not": ["do not treat marandi as neutral wire evidence"],
+        "expected_behavior": ["marandi interpretation", "iranian policy"]
+      },
+      {
+        "id": "MARANDI-G002",
+        "prompt": "Extract Iranian red lines from Marandi.",
+        "must_cover": ["red line", "retaliation doctrine", "negotiation condition"],
+        "must_not": ["do not treat every marandi statement as official iranian policy"],
+        "expected_behavior": ["supreme national security council", "supreme leader", "araghchi"]
+      },
+      {
+        "id": "MARANDI-G003",
+        "prompt": "Compare Marandi to Ritter or Parsi.",
+        "must_cover": ["comparative speaker mode", "inside-state role orthogonal", "external analysts"],
+        "must_not": ["do not let external analysts override marandi's inside-state account"],
+        "expected_behavior": ["external warning", "diplomatic off-ramp architecture"]
+      },
+      {
+        "id": "MARANDI-G004",
+        "prompt": "Use Marandi for a state-Iran transaction input.",
+        "must_cover": ["statecraft conversion", "state lane", "transaction input"],
+        "must_not": ["do not flatten marandi into generic pro-iran sentiment"],
+        "expected_behavior": ["iran", "america", "russia", "china"]
+      },
+      {
+        "id": "MARANDI-G005",
+        "prompt": "Handle host pressure around Marandi appearances.",
+        "must_cover": ["host framing", "assistant synthesis", "marandi claim"],
+        "must_not": ["do not collapse host framing and marandi's answer"],
+        "expected_behavior": ["source boundary", "line citation"]
+      }
+    ]
+  },
+  {
+    "skill": "parsi-diplomacy-extraction",
+    "path": "skills-portable/_drafts/parsi-diplomacy-extraction/SKILL.md",
+    "minimum_score": 90,
+    "critical_must_cover": [
+      "diplomacy architecture filter",
+      "feasibility checks",
+      "source-illustrated answer default",
+      "statecraft conversion"
+    ],
+    "cases": [
+      {
+        "id": "PARSI-G001",
+        "prompt": "What diplomatic architecture does Parsi propose?",
+        "must_cover": ["settlement architecture", "sequencing logic", "sanctions relief"],
+        "must_not": ["do not treat a desired settlement as self-enforcing"],
+        "expected_behavior": ["verification", "spoiler"]
+      },
+      {
+        "id": "PARSI-G002",
+        "prompt": "Turn Parsi into a ceasefire or regional framework input.",
+        "must_cover": ["ceasefire", "regional security architecture", "statecraft conversion"],
+        "must_not": ["do not omit the spoiler or enforcement problem"],
+        "expected_behavior": ["treaty clause", "negotiation brief", "policy memo"]
+      },
+      {
+        "id": "PARSI-G003",
+        "prompt": "Compare Parsi to Marandi or Ritter.",
+        "must_cover": ["comparative speaker mode", "diplomatic architecture", "inside-iran state-position claims"],
+        "must_not": ["do not make parsi carry marandi's insider claim"],
+        "expected_behavior": ["force-constraint / escalation warning", "settlement design"]
+      },
+      {
+        "id": "PARSI-G004",
+        "prompt": "Check whether a Parsi bargain is feasible.",
+        "must_cover": ["first reversible step", "first irreversible concession", "who verifies compliance"],
+        "must_not": ["do not turn parsi into generic pro-diplomacy mood"],
+        "expected_behavior": ["successor-stable", "veto power"]
+      },
+      {
+        "id": "PARSI-G005",
+        "prompt": "Keep authored and interview Parsi sources separate.",
+        "must_cover": ["authored spine", "interview strand", "source boundary"],
+        "must_not": ["do not collapse authored analysis and interview claims"],
+        "expected_behavior": ["responsiblestatecraft-parsi", "substack-parsi"]
+      }
+    ]
+  },
+  {
+    "skill": "academy-statecraft-drafting",
+    "path": "skills-portable/_drafts/academy-statecraft-drafting/SKILL.md",
+    "id_prefix": "STATECRAFT",
+    "minimum_score": 90,
+    "critical_must_cover": [
+      "operator trigger points",
+      "folder choreography protocol",
+      "historical checks",
+      "speaker-state intake",
+      "expert-to-statecraft extraction"
+    ],
+    "cases": [
+      {
+        "id": "STATECRAFT-G001",
+        "prompt": "coffee c, state-russia, or state-iran should route to statecraft.",
+        "must_cover": ["coffee c handoff", "state-russia", "state-iran"],
+        "must_not": ["do not produce generic commentary"],
+        "expected_behavior": ["treaty language", "policy memo", "negotiation brief"]
+      },
+      {
+        "id": "STATECRAFT-G002",
+        "prompt": "Run a crisis realism filter before drafting.",
+        "must_cover": ["realism / incentive filter", "contested object", "settlement space"],
+        "must_not": ["if the premise fails this filter, reclassify the crisis before drafting"],
+        "expected_behavior": ["intent from accident", "negligence", "third-party provocation"]
+      },
+      {
+        "id": "STATECRAFT-G003",
+        "prompt": "Run civilization / empire / state / helix before a transaction.",
+        "must_cover": ["folder choreography protocol", "civilization/ remembers", "empire/ reaches", "state/ decides"],
+        "must_not": ["rather than pretending it is a validated statecraft transaction"],
+        "expected_behavior": ["helix.md regulates", "transactions/ bind"]
+      },
+      {
+        "id": "STATECRAFT-G004",
+        "prompt": "Apply the PH-CIV/statecraft hinge.",
+        "must_cover": ["authority", "restraint", "settlement"],
+        "must_not": ["do not let a historical analogy replace current incentives"],
+        "expected_behavior": ["richelieu check", "bismarck check"]
+      },
+      {
+        "id": "STATECRAFT-G005",
+        "prompt": "Turn expert quotes into statecraft outputs.",
+        "must_cover": ["expert-to-statecraft extraction", "quote-card rule", "memorialization"],
+        "must_not": ["do not silently substitute paraphrase for quotes"],
+        "expected_behavior": ["doctrine", "instrument", "realism filter"]
+      },
+      {
+        "id": "STATECRAFT-G006",
+        "prompt": "Choose Pape or Mearsheimer scoreboard discipline.",
+        "must_cover": ["pape-coercive-center-index", "mearsheimer-structural-realist-scoreboard", "do not collapse them"],
+        "must_not": ["the same event can move them in opposite directions"],
+        "expected_behavior": ["coercive-center leverage", "balance-of-power incentives"]
+      }
+    ]
+  },
+  {
+    "skill": "expert-forecast-ledger",
+    "path": "skills-portable/_drafts/expert-forecast-ledger/SKILL.md",
+    "id_prefix": "LEDGER",
+    "minimum_score": 90,
+    "critical_must_cover": [
+      "narrowest defensible primary source set",
+      "source-class discipline",
+      "falsifiers",
+      "revisit triggers",
+      "contradictions / tensions"
+    ],
+    "cases": [
+      {
+        "id": "LEDGER-G001",
+        "prompt": "Build a Substack-only forecast ledger.",
+        "must_cover": ["substack-only", "raw-input", "source set"],
+        "must_not": ["do not broaden the source boundary just because more material exists"],
+        "expected_behavior": ["exact source count", "included patterns"]
+      },
+      {
+        "id": "LEDGER-G002",
+        "prompt": "Build an authored ledger with non-Substack authored material.",
+        "must_cover": ["authored", "source class", "source_class"],
+        "must_not": ["do not treat interviews as authored essays"],
+        "expected_behavior": ["responsible statecraft", "personal-site essays"]
+      },
+      {
+        "id": "LEDGER-G003",
+        "prompt": "Preserve forecast discipline in statuses.",
+        "must_cover": ["open", "held", "weakened", "contradiction"],
+        "must_not": ["never mark a row `held` from model judgment alone"],
+        "expected_behavior": ["source corpus", "externally verified"]
+      },
+      {
+        "id": "LEDGER-G004",
+        "prompt": "Create a portable theory cluster from a ledger.",
+        "must_cover": ["portable theory extraction", "theory name", "metric", "falsifiers"],
+        "must_not": ["do not turn a memorable phrase into doctrine without a metric and falsifiers"],
+        "expected_behavior": ["rival frame", "reusable bridge"]
+      },
+      {
+        "id": "LEDGER-G005",
+        "prompt": "Verify every source and exclude non-v1 classes.",
+        "must_cover": ["verification workflow", "excluded source-path patterns", "no record surfaces were edited"],
+        "must_not": ["do not let source discovery become implementation of unrelated ingest work"],
+        "expected_behavior": ["spot-check", "shelf link"]
+      }
+    ]
+  }
+]

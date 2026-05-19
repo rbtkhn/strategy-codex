@@ -1,0 +1,295 @@
+[
+  {
+    "id": "MCM-G001",
+    "prompt": "Apply Mercouris to whether Minab targeting information came from Israel or the United States.",
+    "mode": "attribution_discipline",
+    "must_cover": [
+      "current continuity read",
+      "source evidence",
+      "confidence tier"
+    ],
+    "must_not": [
+      "do not cite civ-mem as evidence for current facts",
+      "do not use civ-mem to launder current-event uncertainty"
+    ],
+    "expected_routing": [
+      "america",
+      "iran",
+      "statecraft"
+    ],
+    "score": {
+      "coverage": 4,
+      "anti_pattern": 1.5,
+      "routing": 1,
+      "civmem": 1
+    }
+  },
+  {
+    "id": "MCM-G002",
+    "prompt": "Project the effect if Israel provided or encouraged Minab targeting.",
+    "mode": "hypothetical_revelation",
+    "must_cover": [
+      "hypothesis",
+      "revisit",
+      "authority, restraint, and settlement"
+    ],
+    "must_not": [
+      "do not treat mercouris's institutional inference as wire evidence",
+      "civ-mem is not proof"
+    ],
+    "expected_routing": [
+      "america",
+      "iran",
+      "codex/academy/statecraft/"
+    ],
+    "score": {
+      "coverage": 4,
+      "anti_pattern": 1.5,
+      "routing": 1,
+      "civmem": 1
+    }
+  },
+  {
+    "id": "MCM-G003",
+    "prompt": "Use Mercouris on Iran's bargaining position after Minab.",
+    "mode": "iran_mapping",
+    "must_cover": [
+      "for iran questions",
+      "persia",
+      "current authority/instrument home"
+    ],
+    "must_not": [
+      "if no strong civ-mem pattern fits, skip it silently",
+      "must not override current-source evidence"
+    ],
+    "expected_routing": [
+      "persia",
+      "iran statecraft lane"
+    ],
+    "score": {
+      "coverage": 4,
+      "anti_pattern": 1.5,
+      "routing": 1,
+      "civmem": 1
+    }
+  },
+  {
+    "id": "MCM-G004",
+    "prompt": "Apply Mercouris to a narrow tactical Ukraine map update with no civilizational implication.",
+    "mode": "no_fit_silence",
+    "must_cover": [
+      "frontline / operational claim",
+      "falsifier",
+      "if no strong civ-mem pattern fits"
+    ],
+    "must_not": [
+      "skip it silently",
+      "do not let civ-mem become decorative analogy"
+    ],
+    "expected_routing": [
+      "russia",
+      "cross-lane"
+    ],
+    "score": {
+      "coverage": 4,
+      "anti_pattern": 1.5,
+      "routing": 1,
+      "civmem": 1
+    }
+  },
+  {
+    "id": "MCM-G005",
+    "prompt": "Apply Mercouris with receipts and CIV-MEM support to Minab.",
+    "mode": "receipt_mode",
+    "must_cover": [
+      "when writing a durable artifact, or when the operator asks for receipts",
+      "citations",
+      "fit / break"
+    ],
+    "must_not": [
+      "no visible civ-mem path citations unless the operator asks",
+      "do not skip line citations when raw-input is local"
+    ],
+    "expected_routing": [
+      "civ-mem/statecraft path",
+      "mercouris source path"
+    ],
+    "score": {
+      "coverage": 4,
+      "anti_pattern": 1.5,
+      "routing": 1,
+      "civmem": 1
+    }
+  },
+  {
+    "id": "MCM-G006",
+    "prompt": "Compare Mercouris and Ritter on Minab.",
+    "mode": "comparative_ritter",
+    "must_cover": [
+      "comparative speaker mode",
+      "with ritter",
+      "force constraints"
+    ],
+    "must_not": [
+      "do not let mercouris carry another speaker's role",
+      "ritter's force-constraint voice"
+    ],
+    "expected_routing": [
+      "mercouris = continuity",
+      "ritter"
+    ],
+    "score": {
+      "coverage": 4,
+      "anti_pattern": 1.5,
+      "routing": 1,
+      "civmem": 1
+    }
+  },
+  {
+    "id": "MCM-G007",
+    "prompt": "Compare Mercouris and Parsi on how Trump can exit the Iran crisis.",
+    "mode": "comparative_parsi",
+    "must_cover": [
+      "with parsi",
+      "diplomacy architecture",
+      "settlement"
+    ],
+    "must_not": [
+      "parsi's settlement architect",
+      "do not let mercouris carry another speaker's role"
+    ],
+    "expected_routing": [
+      "parsi",
+      "statecraft"
+    ],
+    "score": {
+      "coverage": 4,
+      "anti_pattern": 1.5,
+      "routing": 1,
+      "civmem": 1
+    }
+  },
+  {
+    "id": "MCM-G008",
+    "prompt": "Compare Mercouris and Marandi on what Iran can accept after Minab.",
+    "mode": "comparative_marandi",
+    "must_cover": [
+      "with marandi",
+      "inside-iran state account",
+      "external analyst synthesis"
+    ],
+    "must_not": [
+      "marandi's inside-state authority",
+      "do not let mercouris carry another speaker's role"
+    ],
+    "expected_routing": [
+      "marandi",
+      "iran"
+    ],
+    "score": {
+      "coverage": 4,
+      "anti_pattern": 1.5,
+      "routing": 1,
+      "civmem": 1
+    }
+  },
+  {
+    "id": "MCM-G009",
+    "prompt": "Apply Mercouris to the Trump-Xi meeting and its effect on Iran.",
+    "mode": "diplomatic_visit_postmortem",
+    "must_cover": [
+      "diplomatic visit postmortem mode",
+      "protocol signal",
+      "announced deliverables"
+    ],
+    "must_not": [
+      "treat courtesy as evidence of ceremony, not evidence of agreement",
+      "do not infer deliverables from warm language"
+    ],
+    "expected_routing": [
+      "china",
+      "iran"
+    ],
+    "score": {
+      "coverage": 4,
+      "anti_pattern": 1.5,
+      "routing": 1,
+      "civmem": 1
+    }
+  },
+  {
+    "id": "MCM-G010",
+    "prompt": "Mercouris says reports suggest Russia is providing satellite intelligence to Iran; what can we use?",
+    "mode": "rumor_tiering",
+    "must_cover": [
+      "second-hand report",
+      "rumor / unnamed-source",
+      "do not launder tier d"
+    ],
+    "must_not": [
+      "do not treat mercouris's institutional inference as wire evidence",
+      "civ-mem is not proof"
+    ],
+    "expected_routing": [
+      "russia",
+      "iran"
+    ],
+    "score": {
+      "coverage": 4,
+      "anti_pattern": 1.5,
+      "routing": 1,
+      "civmem": 1
+    }
+  },
+  {
+    "id": "MCM-G011",
+    "prompt": "Apply Mercouris to a four-lane statecraft read: America, Iran, Russia, China after a renewed Hormuz escalation.",
+    "mode": "cross_lane_crisis",
+    "must_cover": [
+      "for cross-system crises",
+      "national-perspective-orthogonality",
+      "four national lanes"
+    ],
+    "must_not": [
+      "do not collapse a six-topic daily monologue",
+      "do not let civ-mem become decorative analogy"
+    ],
+    "expected_routing": [
+      "america",
+      "iran",
+      "russia",
+      "china"
+    ],
+    "score": {
+      "coverage": 4,
+      "anti_pattern": 1.5,
+      "routing": 1,
+      "civmem": 1
+    }
+  },
+  {
+    "id": "MCM-G012",
+    "prompt": "Turn this Mercouris read into a statecraft transaction input.",
+    "mode": "durable_output_routing",
+    "must_cover": [
+      "durable outputs",
+      "codex/academy/statecraft/",
+      "statecraft transaction"
+    ],
+    "must_not": [
+      "do not write them into mercouris speaker surfaces unless",
+      "do not let civ-mem become decorative analogy"
+    ],
+    "expected_routing": [
+      "transactions",
+      "state objects",
+      "statecraft"
+    ],
+    "score": {
+      "coverage": 4,
+      "anti_pattern": 1.5,
+      "routing": 1,
+      "civmem": 1
+    }
+  }
+]
