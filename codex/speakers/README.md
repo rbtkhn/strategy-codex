@@ -68,3 +68,15 @@ Validate with:
 ```bash
 python scripts/validate_speaker_objects.py
 ```
+
+## Speaker state-set manifests
+
+Mature speaker folders may declare a local `state-set.toml` manifest. The manifest makes the shelf's compact state explicit: `compact_state_files` are the current routing/orientation surfaces, while `provenance_roots` remain the raw-input chain of custody. Source sets and guest matrices may then declare exact counts, prefixes, exclusions, and host-arc glob contracts that the validator can enforce.
+
+Use this for mature folders where the current state should be dependable without rereading every capture. Do not use it to replace raw-input, speaker arcs, or ledger source links; it is a compact-state contract over those materials.
+
+Validate with:
+
+```bash
+python scripts/validate_speaker_state_sets.py
+```
