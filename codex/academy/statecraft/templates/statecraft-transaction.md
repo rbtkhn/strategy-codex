@@ -25,6 +25,26 @@ Name the lane: `america`, `russia`, `china`, or `iran`.
 - Raw-input / provenance anchors:
 - Prior statecraft drafts:
 
+## Realism / Incentive Filter
+
+- Does the alleged actor benefit more than it loses?
+- Is the target something the actor still depends on?
+- Is the act consistent with demonstrated behavior, or only with attributed capability?
+- Accident / negligence / private actor / third-party alternative:
+- Evidence needed to distinguish intent from exploitation:
+- Reclassified premise if needed:
+
+## Solvency / Legitimacy Filter
+
+Use when the transaction depends on debt, food, subsidy, currency, creditor, or public-order pressure. Leave brief if not applicable.
+
+- Protected domestic obligation:
+- Creditor or patron with extraction leverage:
+- Sovereign asset at risk of fire-sale transfer:
+- Legitimacy-destroying reform risk:
+- Minimum public-order floor:
+- Face-saving assistance phrase:
+
 ## Historical Continuity
 
 - Current government:

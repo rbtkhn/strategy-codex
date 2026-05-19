@@ -43,6 +43,7 @@ Treat these ordinary workflow signals as likely statecraft activations:
 - **Repeat workflow:** `do it again`, `same for this crisis`, `make another bundle`.
 - **Concretize theory:** `make it concrete`, `harden this`, `wire this into statecraft`.
 - **Crisis object:** `Hormuz`, `nuclear latency`, `sanctions relief`, `transit guarantee`, `non-regime-change`, `ceasefire`, `regional architecture`.
+- **Solvency / legitimacy crisis:** debt, Suez, food imports, wheat, bread subsidies, currency pressure, creditor compact, IMF, Gulf credit, asset fire sale.
 - **Four-lane comparison:** `compare the four states`, `orthogonality`, `America/Russia/China/Iran`, `settlement spine`.
 - **State commands:** `state-russia`, `state-china`, `state-iran`, `state-america`.
 - **Speaker-to-instrument:** `Pape says...`, `Parsi argues...`, `Ritter warns...`, or `Crooke frames...` when followed by policy, treaty, compact, framework, clause, or settlement language.
@@ -60,7 +61,29 @@ Recent bundles such as `hormuz-transit-sanctions-relief-compact` and `iran-nucle
 
 ## Crisis object classification
 
-Before drafting a crisis instrument, identify the contested object whose legal or political character drives the game.
+Before drafting a crisis instrument, run the realism / incentive filter, then identify the contested object whose legal or political character drives the game.
+
+Realism / incentive filter:
+
+- Does the alleged actor benefit more than it loses?
+- Is the target something the actor still depends on?
+- Is the act consistent with demonstrated behavior, or only with attributed capability?
+- Are accident, negligence, private actor behavior, or third-party provocation more plausible?
+- Would a rational adversary prefer ambiguity, deniability, or opportunistic exploitation over direct responsibility?
+- What evidence would distinguish intent from accident, negligence, or exploitation after the fact?
+
+If the premise fails this filter, reclassify the crisis before drafting. Example: `Baltic cable sabotage escalation` may become `Baltic shadow-fleet infrastructure damage crisis`.
+
+Solvency / legitimacy filter:
+
+- What domestic obligation is politically untouchable?
+- Which creditor or patron has extraction leverage?
+- What sovereign asset, route, port, canal, base, or enterprise is at risk of fire-sale transfer?
+- What reform is economically rational but legitimacy-destroying if imposed too fast?
+- What minimum floor preserves public order while adjustment occurs?
+- What phrase lets the state accept help without appearing managed, occupied, or humiliated?
+
+If a fiscal crisis touches a legitimacy good, treat that good as a protected settlement object before designing reform. Example: in an Egypt debt / Suez / food-import crisis, bread is not only a commodity; it is a state contract.
 
 Use this compact sequence:
 
@@ -128,10 +151,11 @@ Use a national lane when the output should be written from one state's point of 
    - `codex/academy/statecraft/iran/`
 2. Extract the lane's core question, state interest, historical continuity, fear, leverage, constraints, preferred instruments, red lines, and off-ramps.
 3. Classify the crisis object if the problem turns on the legal or political status of a route, chokepoint, guarantee, recognition claim, sanction, capability, or authority surface.
-4. Separate current-government interests from deeper state or successor-power interests.
-5. Pull only the speaker-state inputs needed for the problem.
-6. Apply Richelieu and Bismarck checks.
-7. Produce the requested artifact.
+4. Run the solvency / legitimacy filter if the problem turns on debt, food, subsidy, currency, creditor, or public-order pressure.
+5. Separate current-government interests from deeper state or successor-power interests.
+6. Pull only the speaker-state inputs needed for the problem.
+7. Apply Richelieu and Bismarck checks.
+8. Produce the requested artifact.
 
 Do not turn the lane into a country encyclopedia.
 
