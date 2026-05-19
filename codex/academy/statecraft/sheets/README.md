@@ -14,9 +14,10 @@ These sheets are reusable prompt benches for academy-statecraft. They are not su
 6. [Speaker insight to policy memo](speaker-insight-to-policy-memo.md) - Convert one sourced speaker insight into a memo without importing the speaker's whole worldview.
 7. [Comprehensive power vs coercive center](comprehensive-power-vs-coercive-center.md) - Test whether an actor's power comes from scale, leverage, denial, chokepoints, or brokerage.
 8. [National perspective orthogonality](national-perspective-orthogonality.md) - Compare U.S., Russia, China, Iran, or other state views without flattening their interests, fears, instruments, and off-ramps.
-9. [Pape coercive-center index](pape-coercive-center-index.md) - Track great-power ranking by crisis leverage rather than size alone.
-10. [Mearsheimer structural-realist scoreboard](mearsheimer-structural-realist-scoreboard.md) - Track structural power, balancing pressure, overextension risk, institutional carrier, and restraint.
-11. **National lanes** - Open [America](../america/), [Russia](../russia/), [China](../china/), or [Iran](../iran/) when the comparison should become a country-specific treaty, memo, negotiation brief, or crisis instrument.
+9. [Crisis test casebook](crisis-test-casebook.md) - Preserve what each crisis test taught about contested objects, game types, filters, and settlement spines.
+10. [Pape coercive-center index](pape-coercive-center-index.md) - Track great-power ranking by crisis leverage rather than size alone.
+11. [Mearsheimer structural-realist scoreboard](mearsheimer-structural-realist-scoreboard.md) - Track structural power, balancing pressure, overextension risk, institutional carrier, and restraint.
+12. **National lanes** - Open [America](../america/), [Russia](../russia/), [China](../china/), or [Iran](../iran/) when the comparison should become a country-specific treaty, memo, negotiation brief, or crisis instrument.
 
 ## Prompt Forms
 
@@ -80,6 +81,10 @@ Open [Mearsheimer structural-realist scoreboard](mearsheimer-structural-realist-
 Open [National perspective orthogonality](national-perspective-orthogonality.md) when the same crisis needs separate statecraft logics. The default Iran / India / fourth-center matrix separates U.S. containment, Russian exploitation-without-entrapment, Chinese leverage-under-energy-constraint, and Iranian legitimation-without-loss-of-control.
 
 When one perspective needs to become a draft, use the matching national lane rather than expanding the comparison sheet: [America](../america/), [Russia](../russia/), [China](../china/), or [Iran](../iran/).
+
+### Crisis Test Casebook
+
+Open [Crisis test casebook](crisis-test-casebook.md) when a new crisis test should be compared against the existing suite, or when the lesson from a test should be routed into the four national lane casebooks.
 
 ## Expected Output
 

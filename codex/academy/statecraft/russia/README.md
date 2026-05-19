@@ -26,6 +26,10 @@ Russia can provide calibrated military, energy, diplomatic, intelligence, and in
 
 Russia must preserve relations with China, India, Iran, the Gulf, and non-aligned states while maintaining military capacity and domestic legitimacy under long pressure.
 
+## Internal Pressure / Face-Saving Test
+
+Russia's settlement problem is that restraint can be attacked as weakness before encirclement. A workable instrument must answer prestige, recognition hunger, security-depth doctrine, elite fear of Western deception, and domestic memory of invasion or collapse. The face-saving phrase is not "withdrawal" or "concession"; it is reciprocal security equilibrium, recognition formula, strategic patience, or controlled optionality.
+
 ## Historical Lens
 
 Use Richelieu to test whether Russian policy has a durable institutional carrier beyond wartime improvisation. Use Bismarck to test whether Russia can take advantage without unifying too many adversaries or accepting unlimited commitments.
@@ -47,6 +51,10 @@ Recognition formulas, security guarantees, mediator channels, deconfliction mech
 ## Transactions
 
 Use [Russia statecraft transactions](transactions/) to spend speaker-state into reusable instruments with provenance, historical continuity, Richelieu / Bismarck validation, mirror test, and revisit triggers.
+
+## Crisis Test Casebook
+
+Use [Russia crisis test casebook](crisis-test-casebook.md) to preserve what each crisis teaches Russia to see, fear, leverage, phrase, and draft.
 
 ## Red Lines
 

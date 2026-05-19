@@ -32,6 +32,10 @@ What can this actor deny, enable, disrupt, recognize, finance, mediate, or legit
 
 What resource, geography, alliance, legitimacy, administrative, domestic, or military constraint limits action?
 
+## Internal Pressure / Face-Saving Test
+
+What domestic audience punishes compromise? What institution benefits from escalation? What word, legal classification, or visible procedure would humiliate the state? What face-saving phrase permits restraint? What settlement form lets the state preserve authority at home while limiting action abroad?
+
 ## Historical Lens
 
 Use Richelieu for durable interest and institutional carrier. Use Bismarck for limited aims, alliance geometry, optionality, and restraint after advantage.

@@ -27,9 +27,11 @@ Canonical PH-CIV / statecraft hinge: **Civilizational pattern and narrative beco
 - [National lane template](templates/national-lane.md) - scaffold for country-specific drafting lanes.
 - [Civilization / Empire helix template](templates/civilization-empire-helix.md) - scaffold for inherited code, outward striving, and statecraft regulation.
 - [Statecraft transaction template](templates/statecraft-transaction.md) - package speaker-state inputs into validated treaty, memo, brief, or off-ramp instruments.
+- [Cross-lane transaction bundles](transactions/) - compare one crisis object across several national lanes.
 - [Sheets](sheets/) - reusable prompt benches for fast statecraft sessions.
 - [Civilizational pattern to statecraft](sheets/civilizational-pattern-to-statecraft.md) - convert PH-CIV pattern and narrative into authority, restraint, and settlement.
 - [National perspective orthogonality](sheets/national-perspective-orthogonality.md) - compare U.S., Russia, China, Iran, and other state views without collapsing them into one generic strategic lens.
+- [Crisis test casebook](sheets/crisis-test-casebook.md) - method memory for contested objects, game types, filters learned, and settlement spines.
 - [Pape coercive-center index](sheets/pape-coercive-center-index.md) - track a Pape-style great-power ranking by crisis leverage, chokepoints, systemic spillover, and diplomatic monetization.
 - [Mearsheimer structural-realist scoreboard](sheets/mearsheimer-structural-realist-scoreboard.md) - track structural power, balancing pressure, overextension, institutional carrier, and restraint.
 - [Sovereignty Under Acceleration](../singularity/workshop/sheets/sovereignty-under-acceleration.md) - bridge sheet for turning AI acceleration signals into treaty, policy, authority, and human-command artifacts.
@@ -43,9 +45,14 @@ These folders are drafting benches, not country encyclopedias. Each lane synthes
 - [China](china/) - preserve leverage without energy disorder.
 - [Iran](iran/) - convert vulnerability into legitimate system leverage.
 
-Each lane has a local Civilization / Empire / Helix structure plus a `transactions/` bench for spending speaker-state into validated instruments.
+Each lane has a local Civilization / Empire / Helix structure, a crisis-test casebook, and a `transactions/` bench for spending speaker-state into validated instruments.
 
 First exemplar: [Hormuz recognition transit transaction](iran/transactions/hormuz-recognition-transit-transaction.md).
+
+Cross-lane bundles:
+
+- [Hormuz Transit / Sanctions Relief Compact](transactions/hormuz-transit-sanctions-relief-compact/)
+- [Iran Nuclear Latency Recognition Framework](transactions/iran-nuclear-latency-recognition-framework/)
 
 ## Long Arc
 

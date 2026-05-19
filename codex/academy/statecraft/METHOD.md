@@ -63,6 +63,8 @@ Examples:
 - Hormuz is not only a strait; it may be free navigation, blockade, escorted transit, collective guarantee, or coercive bargaining chip.
 - Nuclear latency is not only weapons capacity; it may be deterrent ambiguity, inspection bargain, recognition claim, sanctions trigger, or red-line instrument.
 
+For accumulated examples, use the [Crisis Test Casebook](sheets/crisis-test-casebook.md).
+
 ## Richelieu Check
 
 Use [Richelieu](lenses/richelieu.md) when a draft risks becoming morally expressive but institutionally weak.

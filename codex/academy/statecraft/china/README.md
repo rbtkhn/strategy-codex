@@ -26,6 +26,10 @@ China can buy, finance, insure, build, mediate, convene, route around sanctions,
 
 China is energy-exposed, trade-dependent, sensitive to shipping and insurance disruptions, and cautious about moves that accelerate coalition-building against it.
 
+## Internal Pressure / Face-Saving Test
+
+China's settlement problem is that compromise can be attacked as failure to defend sovereignty, unity, or national rejuvenation. A workable instrument must answer nationalist legitimacy, sovereignty doctrine, PLA prestige, anti-separatist legal logic, and anxiety about internationalizing matters Beijing defines as internal. The face-saving phrase is not "backdown"; it is order management, civilian continuity, safety procedure, or anti-disorder compact.
+
 ## Historical Lens
 
 Use Richelieu to test institutional capacity: which ministries, banks, firms, ports, insurers, and diplomatic channels carry the policy? Use Bismarck to test optionality and whether China can avoid converting a useful partner into a strategic liability.
@@ -47,6 +51,10 @@ Transit compacts, energy and LNG arrangements, yuan settlement, shipping insuran
 ## Transactions
 
 Use [China statecraft transactions](transactions/) to spend speaker-state into reusable instruments with provenance, historical continuity, Richelieu / Bismarck validation, mirror test, and revisit triggers.
+
+## Crisis Test Casebook
+
+Use [China crisis test casebook](crisis-test-casebook.md) to preserve what each crisis teaches China to see, fear, leverage, phrase, and draft.
 
 ## Red Lines
 

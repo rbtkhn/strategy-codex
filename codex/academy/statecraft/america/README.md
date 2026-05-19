@@ -28,6 +28,10 @@ America can deploy maritime and air power, coordinate allies, regulate sanctions
 
 America faces overextension, public war fatigue, allied free-riding, legal and domestic limits, military logistics, escalation risk, and the danger that coercion strengthens the very leverage it seeks to suppress.
 
+## Internal Pressure / Face-Saving Test
+
+America's settlement problem is that restraint can be attacked as decline. A workable instrument must answer credibility theater, congressional hawkishness, allied reassurance demands, the military instinct for freedom-of-navigation assertion, and successor-legitimacy concerns if federal authority fractures. The face-saving phrase is not "concession" or "retreat"; it is bounded command, civilian continuity, allied burden-sharing, or successor-stable guarantee.
+
 ## Historical Lens
 
 Use Richelieu to test whether American policy has a durable institutional carrier beyond presidential impulse or donor pressure. Use Bismarck to test limited aims, restraint, and whether an adversary can be isolated without unifying Russia, China, Iran, and non-aligned opinion.
@@ -49,6 +53,10 @@ Transit guarantees, maritime deconfliction, sanctions relief sequences, allied b
 ## Transactions
 
 Use [America statecraft transactions](transactions/) to spend speaker-state into reusable instruments with provenance, historical continuity, Richelieu / Bismarck validation, mirror test, and revisit triggers.
+
+## Crisis Test Casebook
+
+Use [America crisis test casebook](crisis-test-casebook.md) to preserve what each crisis teaches America to see, fear, leverage, phrase, and draft.
 
 ## Red Lines
 

@@ -26,6 +26,10 @@ Iran can deny, disrupt, bargain over, or regulate regional flows through geograp
 
 Iran must avoid uncontrolled escalation, domestic exhaustion, partner overdependence, Gulf isolation, energy-market backlash, and a posture that makes sanctions relief politically impossible for adversaries.
 
+## Internal Pressure / Face-Saving Test
+
+Iran's settlement problem is that restraint can be attacked as humiliation after sacrifice. A workable instrument must answer dignity, resistance legitimacy, sanctions grievance, deterrent reputation, factional suspicion of compromise, and fear that verification becomes disguised disarmament. The face-saving phrase is not "capitulation"; it is reciprocal recognition, dignity-preserving verification, sanctions relief benchmark, or controlled deterrent restraint.
+
 ## Historical Lens
 
 Use Richelieu to test whether Iran's leverage is carried by durable institutions rather than factional escalation. Use Bismarck to test whether advantage is translated into limited settlement rather than maximal demand.
@@ -47,6 +51,10 @@ Transit-security bargains, phased sanctions relief, non-regime-change guarantees
 ## Transactions
 
 Use [Iran statecraft transactions](transactions/) to spend speaker-state into reusable instruments with provenance, historical continuity, Richelieu / Bismarck validation, mirror test, and revisit triggers.
+
+## Crisis Test Casebook
+
+Use [Iran crisis test casebook](crisis-test-casebook.md) to preserve what each crisis teaches Iran to see, fear, leverage, phrase, and draft.
 
 ## Red Lines
 
