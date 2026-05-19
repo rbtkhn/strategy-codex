@@ -3,7 +3,7 @@ name: check-streams
 preferred_activation: check streams
 description: 'Check the daily tracked YouTube stream roster for Davis, Diesen, Alkorshid/Dialogue Works, Napolitano/Judging Freedom, and Mercouris: discover today''s uploads, filter suspected clips, list main uploads first, materialize only the operator-approved subset into canonical raw-input, and suggest speaker-folder routing hints.'
 portable: true
-version: 0.2.2
+version: 0.2.3
 tags:
 - operator
 - strategy
@@ -36,6 +36,18 @@ Treat `check streams` as the intake gate, not the durable interpretation layer.
 - **lattice / cognition-streams surfaces** = secondary lookup and analysis views over accumulated speaker material
 
 After materialization, prefer asking **which appearance was created and which route stack it strengthens** before updating lattice surfaces. Do not create or update speaker objects automatically from the daily check unless the operator explicitly asks.
+
+## YouTube-first invariant
+
+For this skill, **transcript-bearing stream capture means YouTube-first provenance**.
+
+- A stream item should be treated as a real transcript candidate only when you have a **direct YouTube watch URL** (`https://www.youtube.com/watch?v=...` or equivalent canonical YouTube watch link).
+- Podcast mirrors, Apple/Podbay/Art19/Podscan listings, transcript mirrors, and other secondary directories may help discovery, but they do **not** by themselves qualify an item as transcript-ready.
+- If only secondary episode listings are available, treat the item as **discovered but unresolved**:
+  - you may report it in the check result,
+  - you may create a clearly marked **scaffold/discovery placeholder**,
+  - but you must **not** describe it as a completed transcript capture or canonical transcript source.
+- When the operator asks for URLs, prefer the **direct YouTube watch URLs** first. Only fall back to secondary listing URLs if YouTube could not yet be recovered, and say that explicitly.
 
 ## Layering rule
 
@@ -78,6 +90,7 @@ If a stream has no upload on the target day, say so explicitly.
    - Query the tracked channels for the operator's local day.
    - Prefer the channel's **uploads playlist / channel-id feed** over a handle-based `/videos` page.
    - Treat a handle page as a fallback only; some channels can undercount, mis-order, or hide same-day uploads there.
+   - Preserve the **direct YouTube watch URL** for every discovered item. If discovery only surfaces a title through a secondary listing, keep that item flagged as unresolved until the watch URL is recovered or the operator explicitly accepts a scaffold.
    - Normalize each result into:
      - stream / channel
      - title
@@ -108,6 +121,7 @@ If a stream has no upload on the target day, say so explicitly.
      - single URL: `python scripts/materialize_youtube_raw_input.py --url "<youtube-url>" --apply --with-appearances --purpose daily`
      - approved batch: `python scripts/materialize_youtube_raw_input.py --input <approved-urls.jsonl> --apply --with-appearances --purpose daily`
      - dry-run/probe: `python scripts/materialize_youtube_raw_input.py --url "<youtube-url>" --no-apply --run-id <label>`
+   - **Do not materialize from podcast-directory URLs or transcript-mirror URLs.** For transcript-grade or transcript-bearing raw-input, the approved source must be the direct YouTube watch URL.
    - For each approved URL:
      - resolve metadata first
      - if metadata fetch fails but the operator supplied title, publication date, and lane/file metadata, let the materializer bypass metadata and try subtitle extraction from the URL's video id
@@ -127,6 +141,7 @@ If a stream has no upload on the target day, say so explicitly.
    - When the approved subset is really a guest-host tranche rather than "today's whole roster," preserve that exact tranche shape instead of reopening discovery or broad channel slicing.
    - If materialization returns `failed-fetch` or `failed-verification`, report the failure and stop before speaker routing, lattice updates, or completion claims.
    - For `failed-fetch` cases where a human will paste the transcript later, use the materializer's receipt-side `manual-curation-queue.md` and `manual-transcript-scaffolds/` outputs. Keep those scaffold files outside canonical raw-input until the paste marker is replaced and verification passes.
+   - If YouTube discovery fails but secondary listings strongly suggest a same-day upload exists, report it as **missing-watch-url / unresolved**, not as transcript-captured. Recover the YouTube watch URL before claiming transcript completion.
    - If the operator has already pasted the full transcript in the current Codex thread, treat that paste as a valid transcript source and hand the item down to the YouTube transcript workflow's **operator-paste fallback**. Prefer mechanical extraction from the local Codex session log over hand-copying long chat text. Do not call the result `partial-chat-capture` merely because the paste is long or awkward to patch.
    - For full operator-paste repairs, require an exact-match receipt before closing the item: `sourceChars`, `bodyChars`, and `exactMatch=True` between the extracted session transcript and the body written after `## Transcript`.
    - After exact-match verification passes, update the check-stream receipts as captured with `capture_status: full-operator-paste`; move the item out of the open repair queue. Use `partial-chat-capture` only when the source is truly incomplete or exact extraction cannot be verified, and leave that item queued as `full-transcript-import-needed`.
