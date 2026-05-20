@@ -1,7 +1,7 @@
 ---
 name: hex-lattice
 preferred_activation: hex-lattice
-description: "Apply the academy-statecraft hex lattice to a crisis, current event, transaction, clause, memo, or policy question. Use when the operator says hex-lattice, hexagon-lattice, hex, hexagon, six-lens read, arc-lens stress test, distributed lattice, or asks to test god/lit/art/geo/war/peace consensus, brittle points, axis tensions, arc extensions, or recursive candidates."
+description: "Apply the academy-statecraft hex lattice to a crisis, current event, transaction, clause, memo, or policy question. Use when the operator says hex-lattice, hexagon-lattice, hex, hexagon, six-lens read, arc-lens stress test, distributed lattice, mutation check, function change, or asks to test god/lit/art/geo/war/peace consensus, brittle points, axis tensions, arc extensions, or recursive candidates."
 ---
 
 # Hex Lattice
@@ -39,6 +39,7 @@ Use adjacent statecraft surfaces only when needed:
 - `codex/academy/statecraft/METHOD.md`
 - `codex/academy/statecraft/sheets/transaction-router.md`
 - `codex/academy/statecraft/sheets/present-day-arc-extension-matrix.md`
+- `codex/academy/statecraft/sheets/mutation-statecraft.md`
 - the relevant lane `civilization/god.md`, `lit.md`, `art.md`, `geo.md`, `war.md`, and `peace.md`
 
 ## Invocation
@@ -80,7 +81,7 @@ Lane-prefix grammar:
 6. **Score consensus.** Use the 0-12 score from the sheet.
 7. **Name the brittle point.** Identify the lens or axis most likely to break the instrument.
 8. **Run the arc extension check.** If the read mutates an older historical spine into a new form, name the old arc, the new form, the updated rule, and whether it should be kept.
-9. **Run the mutation check.** If an object has changed function, name the original function, new function, trigger evidence, defensive reading, threatening reading, and threshold formula.
+9. **Run the mutation check.** Always include this block for topic reads. Mark it `yes`, `no`, or `watch`, then name the original function, possible new function, threshold, who benefits from calling it unchanged, and who benefits from calling it mutated.
 10. **Convert to statecraft use.** Recommend the smallest useful next artifact: clause, memo, objection matrix, transaction fit patch, lane read, arc-extension note, mutation-threshold note, or recursive candidate.
 11. **Offer four calibrated option paths.** A-D must be specific to the topic, not generic.
 
@@ -152,12 +153,14 @@ When invoked with a topic, output:
 - Keep / stage:
 
 **Mutation Check**
-- Function mutated: yes / no
+- Present: yes / no / watch
 - Original function:
-- New function:
+- Possible new function:
 - Trigger evidence:
 - Defensive reading:
 - Threatening reading:
+- Who benefits from calling it unchanged:
+- Who benefits from calling it mutated:
 - Threshold formula:
 
 **Recursive Candidate Check**

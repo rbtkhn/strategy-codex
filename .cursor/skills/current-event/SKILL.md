@@ -33,16 +33,20 @@ Use it when the operator names a recent event and wants judgment or an instrumen
    - **exact fit:** route to the existing transaction bundle and choose the best lane to open first;
    - **near fit:** use the closest transaction as an analogy and name the mismatch;
    - **no fit:** recommend a new transaction candidate with crisis object, lanes, and settlement spine, but do not create files automatically.
-5. **Map actor interests.** For each main actor, name durable interest, immediate crisis leverage, constraint, and likely institutional carrier.
-6. **Choose output shape.** If the operator has not chosen one, default to the smallest useful artifact:
+5. **Run the mutation check.** Use `codex/academy/statecraft/sheets/mutation-statecraft.md` to ask whether the event keeps an old name while changing function:
+   - **yes:** name the original function, possible new function, trigger evidence, defensive reading, threatening reading, naming fight, and threshold formula;
+   - **watch:** name the threshold that would prove mutation later;
+   - **no:** state why the object remains within its bounded function.
+6. **Map actor interests.** For each main actor, name durable interest, immediate crisis leverage, constraint, and likely institutional carrier.
+7. **Choose output shape.** If the operator has not chosen one, default to the smallest useful artifact:
    - **event read** for orientation;
    - **negotiation brief** when bargaining is live;
    - **policy paper** when a decision is needed;
    - **treaty / mechanism sketch** when obligations or verification matter;
    - **Richelieu/Bismarck stress test** when overreach risk is the point.
-7. **Draft the instrument.** Produce the chosen statecraft artifact with red lines, concessions, verification, fallback, and off-ramp as relevant.
-8. **Check for recursive update candidates.** If the event exposes a durable civilization pattern, empire instrument, state regulator, helix crosswalk, transaction precedent, falsifier, or revisit trigger, suggest a compressed candidate for the relevant `<lane>/updates/pending.md`. Do not require a candidate for every event.
-9. **Offer four calibrated option paths.** End every default current-event read with exactly four labeled paths calibrated to the specific event, actors, crisis object, transaction fit, and likely instruments. Do not reuse generic template labels as the option text. When an exact or near transaction fit exists, one option should usually be transaction-aware: draft from a selected lane, compare lanes, run an objection matrix, or stage a recursive update candidate. When no fit exists, one option may recommend a transaction candidate, but it must not create transaction files unless the operator separately asks.
+8. **Draft the instrument.** Produce the chosen statecraft artifact with red lines, concessions, verification, fallback, and off-ramp as relevant.
+9. **Check for recursive update candidates.** If the event exposes a durable civilization pattern, empire instrument, state regulator, helix crosswalk, transaction precedent, falsifier, mutation threshold, or revisit trigger, suggest a compressed candidate for the relevant `<lane>/updates/pending.md`. Do not require a candidate for every event.
+10. **Offer four calibrated option paths.** End every default current-event read with exactly four labeled paths calibrated to the specific event, actors, crisis object, transaction fit, mutation check, and likely instruments. Do not reuse generic template labels as the option text. When an exact or near transaction fit exists, one option should usually be transaction-aware: draft from a selected lane, compare lanes, run an objection matrix, or stage a recursive update candidate. When mutation is live, one option should usually test the threshold or naming fight. When no fit exists, one option may recommend a transaction candidate, but it must not create transaction files unless the operator separately asks.
 
 ## Transaction-Aware Read
 
@@ -75,6 +79,15 @@ If the operator gives only an event and no artifact type, output:
 - Why this fit:
 - Mismatch / caution:
 - Best lane to open first:
+
+**Mutation Check**
+- Present: yes / no / watch
+- Original function:
+- Possible new function:
+- Trigger evidence:
+- Who benefits from calling it unchanged:
+- Who benefits from calling it mutated:
+- Threshold formula:
 
 **Actor Map**
 - Actor: interest / leverage / constraint / carrier

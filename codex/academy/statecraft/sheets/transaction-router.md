@@ -19,7 +19,30 @@ Default current-event output should include:
 - Why this fit:
 - Mismatch / caution:
 - Best lane to open first:
+
+**Mutation Check**
+- Present: yes / no / watch
+- Original function:
+- Possible new function:
+- Transaction mutation risk:
+- Threshold formula:
 ```
+
+## Mutation Routing
+
+After choosing exact, near, or no fit, ask:
+
+**What does this transaction become if it mutates?**
+
+Use [Mutation statecraft](mutation-statecraft.md) for the naming fight. A mutation does not automatically require a new transaction object. It changes routing only when the event reveals a distinct contested mechanism that the existing object cannot absorb.
+
+Routing rules:
+
+- **Exact fit + mutation no:** use the transaction normally.
+- **Exact fit + mutation watch:** use the transaction, but add a threshold clause, review trigger, or recursive candidate.
+- **Near fit + mutation yes:** use the closest transaction as analogy and name the new function explicitly.
+- **No fit + mutation yes:** recommend a new transaction candidate only if the mutation has a crisis object, primary lanes, settlement spine, entropy signal, and recursive utility.
+- **Mutation only rhetorical:** do not reroute. Record the naming fight as an objection or overreach warning.
 
 ## Router Index
 
