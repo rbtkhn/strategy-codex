@@ -36,6 +36,8 @@ The central test is whether a settlement lengthens time without exposing the sta
 
 The lens is strongest for ceasefire, neutrality, sanctions, corridor, maritime, nuclear, and great-power consultation clauses. It should design peace as a recognized equilibrium with bounded Russian agency, not as unconditional trust and not as a disguised sphere of domination.
 
+Use the bounded-depth formula: **recognize exposure, not empire.** Peace can acknowledge concrete Russian exposure to routes, ranges, bases, logistics systems, and warning-time compression without granting a veto over neighboring sovereignty.
+
 Use it to ask whether a proposal gives Russia enough standing to restrain itself without granting an unlimited veto over neighbors, buffers, ports, energy routes, or alliance choices.
 
 ## Failure Mode
@@ -108,6 +110,7 @@ Ask:
 
 - Does the settlement recognize Russia as a participant in the security order without granting an unlimited veto?
 - What buffer, corridor, basing, missile, infrastructure, or maritime object is actually being stabilized?
+- Does it recognize exposure without ratifying empire?
 - Is ambiguity preserving face and optionality, or hiding incompatible claims?
 - Does the clause convert sacrifice into standing, restraint, verification, or consultation?
 - Does it make peace look like externally managed Russian retreat?

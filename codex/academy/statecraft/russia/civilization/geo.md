@@ -26,10 +26,11 @@ The arc is layered:
 - **Maritime access:** Black Sea, Baltic, Arctic, and Pacific routes define whether Russia can reach beyond land power.
 - **Siberian resource base:** extraction, rail, energy, and distance support endurance while exposing underpopulation and infrastructure fragility.
 - **Seasonal ecology:** winter, thaw, and rasputitsa are not folklore; they are operating constraints.
+- **Recognize exposure, not empire:** Poltava, Napoleon, and Barbarossa show that Russia can be penetrated at the frontier but becomes difficult to finish when space, time, logistics, industry, command continuity, and cohesion hold together.
 
 ## Failure Mode
 
-Geo memory deforms when defensive depth becomes unlimited expansion, maritime access becomes warm-water obsession, Arctic or Siberian resource ambition outruns population and logistics, or borderland control consumes the state it claims to protect.
+Geo memory deforms when defensive depth becomes unlimited expansion, maritime access becomes warm-water obsession, Arctic or Siberian resource ambition outruns population and logistics, or borderland control consumes the state it claims to protect. The rule deforms when recognition of real exposure becomes entitlement to administer the frontier.
 
 ## Retrieval Status
 
@@ -70,6 +71,7 @@ Questions:
 3. Which geography is defensive need, and which is imperial overextension?
 4. What access route must remain usable for Russia to accept restraint?
 5. What observable condition proves geography has been stabilized rather than militarized?
+6. Does the proposal recognize exposure without granting empire?
 
 ## Recursive Candidate Check
 

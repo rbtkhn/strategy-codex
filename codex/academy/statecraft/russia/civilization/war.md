@@ -38,6 +38,8 @@ The pattern is powerful but conditional. Depth only works when space, industry, 
 
 Russian war claims are most transaction-useful when they are bounded by a named security mechanism: reciprocal basing limits, inspection, neutralization, transit guarantees, demilitarized infrastructure, command hotline, maritime access rule, or deterrence stability clause.
 
+Bounded-depth rule: **recognize exposure, not empire.** Russian depth claims are strongest when they identify a concrete route, range, node, logistics system, or warning-time compression that makes invasion or coercion easier. They lose force when they turn every neighboring sovereignty into Russian security space.
+
 They become dangerous when they convert every neighbor's sovereignty into Russian depth, treat every concession as humiliation, use sacrifice as a veto against restraint, or turn symbolic victory into a maximalist material demand.
 
 ## Failure Mode
@@ -82,6 +84,8 @@ Transaction questions:
 
 - What exact corridor, node, port, command system, or deterrence mechanism is threatened?
 - Is the depth claim bounded by an objective security mechanism, or does it become unlimited buffer demand?
+- Does the clause recognize exposure without converting recognition into empire?
+- Which depth spine is being invoked: Poltava, Napoleon, or Barbarossa?
 - Is sacrifice evidence of usable endurance, or is it being used to shut down restraint?
 - Does command compression improve implementation, or create personalist distortion?
 - Does escalation force enemy collapse, or harden an opposing coalition?

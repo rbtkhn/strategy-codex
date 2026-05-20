@@ -1,7 +1,7 @@
 ---
 name: hexagon-lattice
 preferred_activation: hexagon-lattice
-description: "Apply the academy-statecraft hexagon lattice to a crisis, current event, transaction, clause, memo, or policy question. Use when the operator says hexagon-lattice, hexagon, six-lens read, arc-lens stress test, distributed lattice, or asks to test god/lit/art/geo/war/peace consensus, brittle points, axis tensions, or recursive candidates."
+description: "Apply the academy-statecraft hexagon lattice to a crisis, current event, transaction, clause, memo, or policy question. Use when the operator says hexagon-lattice, hexagon, six-lens read, arc-lens stress test, distributed lattice, or asks to test god/lit/art/geo/war/peace consensus, brittle points, axis tensions, arc extensions, or recursive candidates."
 ---
 
 # Hexagon Lattice
@@ -24,6 +24,7 @@ No central pillar. No master lens. Each arc-lens has partial sovereignty. Consen
 - Do not edit CIV-MEM, PH-CIV, Record, raw-input, transaction, carrier, or lane files unless the operator separately asks for implementation.
 - If a durable insight appears, suggest a lane-local recursive candidate only; do not absorb it automatically.
 - Do not collapse the lattice into a central state-memory pillar. State-memory may supply substrate, but the live diagnostic is decentralized.
+- When a live event extends an existing historical arc-lens, name the extension and offer a membrane-safe candidate path rather than silently rewriting the lane.
 
 ## Source Surfaces
 
@@ -35,6 +36,7 @@ Use adjacent statecraft surfaces only when needed:
 
 - `codex/academy/statecraft/METHOD.md`
 - `codex/academy/statecraft/sheets/transaction-router.md`
+- `codex/academy/statecraft/sheets/present-day-arc-extension-matrix.md`
 - the relevant lane `civilization/god.md`, `lit.md`, `art.md`, `geo.md`, `war.md`, and `peace.md`
 
 ## Invocation
@@ -70,8 +72,9 @@ Lane-prefix grammar:
    - `art <-> geo`: symbolic form versus material constraint.
 6. **Score consensus.** Use the 0-12 score from the sheet.
 7. **Name the brittle point.** Identify the lens or axis most likely to break the instrument.
-8. **Convert to statecraft use.** Recommend the smallest useful next artifact: clause, memo, objection matrix, transaction fit patch, lane read, or recursive candidate.
-9. **Offer four calibrated option paths.** A-D must be specific to the topic, not generic.
+8. **Run the arc extension check.** If the read mutates an older historical spine into a new form, name the old arc, the new form, the updated rule, and whether it should be kept.
+9. **Convert to statecraft use.** Recommend the smallest useful next artifact: clause, memo, objection matrix, transaction fit patch, lane read, arc-extension note, or recursive candidate.
+10. **Offer four calibrated option paths.** A-D must be specific to the topic, not generic.
 
 ## No-Topic Output
 
@@ -133,6 +136,13 @@ When invoked with a topic, output:
 - Best lane to open first:
 - Clause / memo / objection / route:
 
+**Arc Extension Check**
+- Extends existing arc: yes / no
+- Older historical spine:
+- New form:
+- Updated rule:
+- Keep / stage:
+
 **Recursive Candidate Check**
 - Needed: yes / no
 - Lane / target:
@@ -166,6 +176,28 @@ For great-power coordination, prefer mechanism labels over moralized bloc labels
 Core test:
 
 `If pressure builds the architecture, analyze the pressure paths before naming the bloc.`
+
+## Arc Extension Discipline
+
+Use this block when a current event teaches an existing arc-lens a durable new form.
+
+When the event is present-day or current-event shaped, consult `codex/academy/statecraft/sheets/present-day-arc-extension-matrix.md` to name the modern carrier before deciding whether to keep, stage, or patch.
+
+Examples:
+
+- `russia hex putin xi beijing` may extend the Russia depth arc from land-depth into energy-depth, sanctions-resistance depth, or dependency-depth.
+- `china hex taiwan shipping insurance panic` may extend maritime access into insurance, ports, customs, face, and quarantine ambiguity.
+- `america hex panama canal water` may extend continental/transit sovereignty into climate-throughput legitimacy and infrastructure constraint.
+
+Arc extension questions:
+
+- What older historical spine is being mutated?
+- What is the new form of the old pattern?
+- What rule should be updated?
+- Does the event strengthen optionality or reveal dependency?
+- Should the insight remain a live note, become a recursive candidate, or patch a transaction?
+
+Do not force an arc extension. Many events are only examples. An arc extension requires a durable mutation of the lens, not just another instance of the same pattern.
 
 ## Hand-Offs
 

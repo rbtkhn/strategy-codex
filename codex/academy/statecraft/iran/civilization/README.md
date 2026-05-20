@@ -39,4 +39,6 @@ Any successor Iranian authority would still need sovereignty, territorial integr
 
 Start with [seed-patterns.md](seed-patterns.md). Use [god](god.md), [lit](lit.md), [art](art.md), [geo](geo.md), [war](war.md), and [peace](peace.md) as compact statecraft arc-lenses for sacred boundary, cultural memory, legitimacy, terrain, coercion, settlement, beauty, and failure modes. Promote a seed into a full note only when a transaction, current-event brief, or comparative test needs it.
 
+Use the [present-day arc extension matrix](../../sheets/present-day-arc-extension-matrix.md) when an Iran read needs to bridge older dignity, sovereignty, endurance, martyrdom, or anti-domination arcs into modern carriers such as sanctions endurance, nuclear latency, Hormuz leverage, regional network architecture, verification without humiliation, or compute-siege autonomy.
+
 Use [civilization objects](objects/) when a recurring authority pattern needs to connect the Iran book surface to current state carriers, diplomatic transmitters, and transaction authority checks. First object: [state memory](objects/state-memory.md).

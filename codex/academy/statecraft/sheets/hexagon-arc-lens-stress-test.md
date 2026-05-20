@@ -35,7 +35,8 @@ The hexagon asks whether an instrument can survive meaning, form, terrain, coerc
 4. Test the three balancing axes.
 5. Score consensus.
 6. Name the brittle point.
-7. Convert the result into the smallest useful statecraft artifact.
+7. Check whether the event extends an existing historical arc-lens.
+8. Convert the result into the smallest useful statecraft artifact.
 
 ## Consensus Score
 
@@ -84,6 +85,13 @@ Interpretation:
 - Best lane to open first:
 - Clause / memo / objection / route:
 
+**Arc Extension Check**
+- Extends existing arc: yes / no
+- Older historical spine:
+- New form:
+- Updated rule:
+- Keep / stage:
+
 **Recursive Candidate Check**
 - Needed: yes / no
 - Lane / target:
@@ -118,6 +126,26 @@ Prefer mechanism labels that can be tested:
 Core rule:
 
 `If pressure builds the architecture, analyze the pressure paths before naming the bloc.`
+
+## Arc Extension Check
+
+Use this only when a live event mutates an existing arc-lens into a durable new form.
+
+Ask:
+
+- What older historical spine is being extended?
+- What is the new form of the old pattern?
+- What rule does the event add or sharpen?
+- Does the event create optionality, dependency, brittleness, or a new settlement constraint?
+- Should the insight remain an observation, become a lane-local recursive candidate, or patch a transaction?
+
+Examples:
+
+- Russia depth can mutate from land-depth into energy-depth, sanctions-resistance depth, nuclear warning-time depth, or dependency-depth.
+- China maritime access can mutate from naval geography into insurance, customs, ports, face-saving restraint, and quarantine ambiguity.
+- America transit sovereignty can mutate from continental insulation into infrastructure, water, climate, and allied trust constraints.
+
+Do not mark an event as an arc extension merely because it fits the old pattern. It must reveal a durable new form, threshold, or rule.
 
 ## Membrane Rule
 

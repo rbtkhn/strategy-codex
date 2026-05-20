@@ -22,9 +22,11 @@ These sheets are reusable prompt benches for academy-statecraft. They are not su
 14. [Pape coercive-center index](pape-coercive-center-index.md) - Track great-power ranking by crisis leverage rather than size alone.
 15. [Mearsheimer structural-realist scoreboard](mearsheimer-structural-realist-scoreboard.md) - Track structural power, balancing pressure, overextension risk, institutional carrier, and restraint.
 16. [Hexagon arc-lens stress test](hexagon-arc-lens-stress-test.md) - Run `god`, `lit`, `art`, `geo`, `war`, and `peace` as a six-lens diagnostic before drafting or patching an instrument.
-17. [CIV-MEM object retrieval matrix](civ-mem-object-retrieval-matrix.md) - Use direct lane, lens, and `MEM CONNECTIONS` retrieval before major state-memory, god, lit, art, geo, war, or peace backfills.
-18. [Civilization lens backfill audit](civilization-lens-backfill-audit.md) - Score existing `art`, `lit`, `geo`, `war`, and `peace` surfaces for graph-backed CIV-MEM strength before upgrading them.
-19. **National lanes** - Open [America](../america/), [Russia](../russia/), [China](../china/), or [Iran](../iran/) when the comparison should become a country-specific treaty, memo, negotiation brief, or crisis instrument.
+17. [Present-day arc extension matrix](present-day-arc-extension-matrix.md) - Extend deep America, Russia, China, and Iran arcs into modern carriers for `hex`, current-event, transaction, and recursive-candidate reads.
+18. [Russia depth arc](russia-depth-arc.md) - Test frontier-depth, symbolic-depth, imperial-depth, space-depth, system-depth, and dependency-depth when a Russia read invokes exposure, recognition, encirclement, or equilibrium.
+19. [CIV-MEM object retrieval matrix](civ-mem-object-retrieval-matrix.md) - Use direct lane, lens, and `MEM CONNECTIONS` retrieval before major state-memory, god, lit, art, geo, war, or peace backfills.
+20. [Civilization lens backfill audit](civilization-lens-backfill-audit.md) - Score existing `art`, `lit`, `geo`, `war`, and `peace` surfaces for graph-backed CIV-MEM strength before upgrading them.
+21. **National lanes** - Open [America](../america/), [Russia](../russia/), [China](../china/), or [Iran](../iran/) when the comparison should become a country-specific treaty, memo, negotiation brief, or crisis instrument.
 
 ## Prompt Forms
 
@@ -90,6 +92,14 @@ Open [Mearsheimer structural-realist scoreboard](mearsheimer-structural-realist-
 ### Hexagon Arc-Lens Stress Test
 
 Open [hexagon arc-lens stress test](hexagon-arc-lens-stress-test.md) when a crisis, transaction, clause, or current-event read needs the six civilization arc-lenses to vote separately before the draft is trusted.
+
+### Present-Day Arc Extension Matrix
+
+Open [present-day arc extension matrix](present-day-arc-extension-matrix.md) when a live read needs to name the modern carrier of an older civilization arc before routing to `hex`, a transaction object, or a recursive candidate.
+
+### Russia Depth Arc
+
+Open [Russia depth arc](russia-depth-arc.md) when a Russia-lane read invokes exposure, encirclement, buffers, access, system-depth, dependency-depth, or the rule: recognize exposure, not empire; recognize optionality, not dependency; convert power into equilibrium before power becomes encirclement.
 
 ### National Perspective Orthogonality
 
