@@ -4,6 +4,8 @@ WORK only; not Record.
 
 Use this template when seeding a national drafting lane inside academy-statecraft. The lane is not a country encyclopedia. It is a compact bench for turning contemporary analysis and historical statecraft discipline into draftable instruments.
 
+Mature form: the lane should become a book and a machine. The book side tells the evidence-backed story of a civilization under power. The machine side stages reviewable updates from current events, transactions, objection matrices, and scenario tests.
+
 ## Purpose
 
 Name what this national lane is for in one paragraph.
@@ -66,6 +68,18 @@ What lets this actor de-escalate without humiliation or loss of core interest?
 ## Mirror Test
 
 After drafting from this actor's view, write the shortest plausible objection from the other national lanes.
+
+## Recursive Update Test
+
+After each serious statecraft output, ask what the lane learned:
+
+- Does `civilization/` need a new or revised pattern?
+- Does `empire/` need a new or revised instrument?
+- Does `state/` need a new regulator or authority carrier?
+- Does `helix.md` need a new crosswalk?
+- Does `transactions/` need a precedent, falsifier, or revisit trigger?
+
+Stage candidate updates for review before integrating them.
 
 ## India Shadow Comparator
 

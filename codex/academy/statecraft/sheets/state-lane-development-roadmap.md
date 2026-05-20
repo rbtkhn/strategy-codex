@@ -4,6 +4,8 @@ WORK only; not Record.
 
 Purpose: give every statecraft lane the same development sequence so each state can eventually stand as an independent repo without losing the shared Statecraft grammar.
 
+End state: each lane becomes a book and a machine. The book side is a complete, compelling, evidence-backed civilizational volume. The machine side is a governed recursive update loop that lets statecraft work improve the lane without automatic rewriting.
+
 ## Source Flow
 
 Statecraft lanes use a three-step source chain:
@@ -51,6 +53,19 @@ Before a lane becomes an independent repo, verify that it can stand without reac
 - Transactions cite lane-local state rules.
 - CIV-MEM references remain source pointers, not operational commands.
 
+### Pass 5: Recurse
+
+After a current-event brief, transaction, objection matrix, or scenario test, stage candidate improvements back into the lane:
+
+- new civilization pattern
+- new empire instrument
+- new state regulator
+- new helix crosswalk
+- new transaction precedent
+- new falsifier or revisit trigger
+
+Recursive updates must be reviewable before integration. The lane learns through governed acceptance, not silent self-rewrite.
+
 ## Quality Tests
 
 - **Equal upstream test:** Does CIV-MEM inform both civilization and empire, or only one side?
@@ -58,3 +73,5 @@ Before a lane becomes an independent repo, verify that it can stand without reac
 - **Successor-stability test:** Would the pattern still matter after a leadership or regime change?
 - **Overreach test:** Does each empire instrument name the point where control starts damaging the civilization it claims to protect?
 - **Extraction test:** Could this state lane become a repo tomorrow with coherent internal navigation?
+- **Book test:** Could a serious reader follow the civilizational story without needing the whole academy workspace?
+- **Machine test:** Can a new statecraft output produce structured update candidates for the lane?

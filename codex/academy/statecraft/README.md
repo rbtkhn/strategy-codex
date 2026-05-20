@@ -17,6 +17,8 @@ Every statecraft output should also establish historical continuity with the cur
 
 Canonical PH-CIV / statecraft hinge: **Civilizational pattern and narrative become statecraft only when converted into authority, restraint, and settlement.** Short form: `pattern / narrative -> authority / restraint / settlement`.
 
+Mature lane doctrine: **each state lane is a book and a machine**. The book side grows into a complete, compelling, evidence-backed story of a civilization under power. The machine side stages reviewable updates from live statecraft work so the lane improves the next analysis without rewriting itself automatically.
+
 ## Entry Points
 
 - [Method](METHOD.md) - compact statecraft drafting loop.
@@ -33,6 +35,7 @@ Canonical PH-CIV / statecraft hinge: **Civilizational pattern and narrative beco
 - [Statecraft transaction template](templates/statecraft-transaction.md) - package speaker-state inputs into validated treaty, memo, brief, or off-ramp instruments.
 - [Cross-lane transaction bundles](transactions/) - compare one crisis object across several national lanes.
 - [Sheets](sheets/) - reusable prompt benches for fast statecraft sessions.
+- [Book and machine](sheets/book-and-machine.md) - define each state lane as both a civilizational volume and a governed recursive update loop.
 - [Civilizational pattern to statecraft](sheets/civilizational-pattern-to-statecraft.md) - convert PH-CIV pattern and narrative into authority, restraint, and settlement.
 - [Folder choreography](sheets/folder-choreography.md) - move from `civilization/` memory through `empire/` reach, `state/` decision, `helix.md` regulation, and `transactions/` binding.
 - [State lane development roadmap](sheets/state-lane-development-roadmap.md) - systematically seed, deepen, regulate, and extract each state lane's civilization and empire folders.
@@ -46,7 +49,7 @@ Canonical PH-CIV / statecraft hinge: **Civilizational pattern and narrative beco
 
 ## National Lanes
 
-These folders are drafting benches, not country encyclopedias. Each lane synthesizes contemporary speaker-state analysis with historical statecraft discipline, then produces treaty clauses, policy options, negotiation briefs, crisis memos, and off-ramps.
+These folders are drafting benches, not country encyclopedias. Each lane synthesizes contemporary speaker-state analysis with historical statecraft discipline, then produces treaty clauses, policy options, negotiation briefs, crisis memos, and off-ramps. Over time, each lane should also become a statecraft manuscript: readable as a civilizational volume, usable as an analytic machine.
 
 - [America](america/) - bound coercive centers without proving their veto power.
 - [Russia](russia/) - exploit disruption without entrapment.
@@ -74,7 +77,8 @@ Academy-statecraft should grow as a drafting program, not as a commentary shelf.
 3. **Helix.** Civilization names inherited code; empire names outward striving for security and control; statecraft names the regulatory limit.
 4. **Validation.** Richelieu tests authority and institutional carrier; Bismarck tests restraint, equilibrium, and settlement.
 5. **Transaction.** A reusable statecraft transaction packages source inputs, historical continuity, validation, instrument text, falsifiers, and revisit triggers.
-6. **Scoreboard.** Pape-style and Mearsheimer-style scoreboards track whether power, leverage, and restraint are changing over time.
+6. **Recursive update.** Live outputs stage candidate improvements to the lane's civilization, empire, state, helix, or transaction surfaces.
+7. **Scoreboard.** Pape-style and Mearsheimer-style scoreboards track whether power, leverage, and restraint are changing over time.
 
 The goal is not to make the four state lanes agree. The goal is to preserve their orthogonality long enough to draft instruments that can survive contact with each actor's real incentives.
 

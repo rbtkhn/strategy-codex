@@ -12,6 +12,10 @@ Its living-state hinge is:
 
 > Civilization generates the drive toward empire; durable statecraft regulates that drive through authority, restraint, and settlement so sovereignty and security survive over time.
 
+Its mature lane form is:
+
+> A book and a machine: a complete, compelling, evidence-backed civilizational volume that recursively improves through governed statecraft work.
+
 The stable sequence is:
 
 1. **Pattern / narrative** supplies recurrence, story, legitimacy, and memory.
@@ -21,7 +25,8 @@ The stable sequence is:
 5. **Speaker-state intake** supplies mechanisms, clocks, force constraints, settlement logic, and structural misreading checks.
 6. **Richelieu / Bismarck validation** converts rhetoric into authority, restraint, and settlement.
 7. **Transaction** packages the result with provenance, historical continuity, instrument text, falsifiers, revisit triggers, and validity status.
-8. **Scoreboard** tracks whether leverage, power, restraint, and settlement capacity change over time.
+8. **Recursive update** stages reviewable candidates back into `civilization/`, `empire/`, `state/`, `helix.md`, or `transactions/`.
+9. **Scoreboard** tracks whether leverage, power, restraint, and settlement capacity change over time.
 
 ## Stable Surfaces
 
@@ -30,6 +35,7 @@ The stable sequence is:
 | [METHOD.md](METHOD.md) | drafting loop | It keeps the workshop oriented toward reusable instruments. |
 | [National lanes](README.md#national-lanes) | state-perspective benches | They preserve America, Russia, China, and Iran as distinct statecraft views. |
 | [Civilization / Empire helix template](templates/civilization-empire-helix.md) | living-state scaffold | It keeps inherited code, imperial striving, and regulatory restraint visible in every lane. |
+| [Book and machine](sheets/book-and-machine.md) | recursive manuscript doctrine | It defines the lane as both a civilizational volume and a governed update loop. |
 | [Folder choreography](sheets/folder-choreography.md) | lane movement scaffold | It keeps the folders acting like organs of judgment rather than storage bins. |
 | [Statecraft transaction template](templates/statecraft-transaction.md) | reusable package | It forces provenance, continuity, validation, text, falsifiers, and status into one artifact. |
 | [Civilizational pattern to statecraft](sheets/civilizational-pattern-to-statecraft.md) | PH-CIV bridge | It states the hinge: `pattern / narrative -> authority / restraint / settlement`. |
@@ -43,6 +49,7 @@ These are useful but should not yet be treated as final architecture:
 - Filled statecraft transactions. V1 has only exemplar artifacts; mature transactions need repeated use and revisit discipline.
 - Command aliases such as `state-russia`, `state-china`, `state-iran`, and `state-america`. They are useful routing handles, but the lane READMEs remain the authority.
 - Civilization / Empire / Helix lane stubs. They are orientation scaffolds until transactions prove which distinctions matter.
+- Recursive update queues. The doctrine is stable, but the exact queue file shape should be tested before becoming mandatory.
 - Speaker-state intake mappings. The current table is a routing default, not a closed taxonomy.
 - Scoreboard weighting. Pape and Mearsheimer scoreboards should remain revisable as evidence accumulates.
 
@@ -53,6 +60,7 @@ These are useful but should not yet be treated as final architecture:
 - Do not make speaker-state a substitute for national-lane judgment.
 - Do not flatten America, Russia, China, and Iran into one generic "great power" view.
 - Do not let every good commentary paragraph become a transaction. Use transactions when provenance, continuity, validation, and revisit triggers matter.
+- Do not let live analysis silently rewrite lane doctrine. Stage recursive updates as candidates first.
 - Do not edit PH-CIV or Record surfaces from this workshop.
 
 ## Next Healthy Growth
@@ -62,4 +70,5 @@ The next high-quality additions are:
 1. One transaction per national lane for the same crisis object, so the four perspectives can be compared.
 2. A revisit habit for volatile transactions when Pape or Mearsheimer scoreboard signals move.
 3. A narrow link from a statecraft transaction back to one speaker-state source set, rather than a broad thematic citation cloud.
-4. A small examples index once there are at least four real transactions.
+4. One lane-local recursive update queue tested against a real transaction.
+5. A small examples index once there are at least four real transactions.
