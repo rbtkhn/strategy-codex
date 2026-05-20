@@ -16,4 +16,4 @@ Purpose: route the November 2025 `Judging Freedom` balanced-core guest set insid
 ## Boundary
 
 - This month extends the same six-speaker core backward without widening the host shelf beyond Napolitano.
-- The current November raw-input files are summary-grade / web-transcript-derived anchors because direct YouTube caption fetch was blocked from this environment.
+- Most current November raw-input files remain summary-grade / web-transcript-derived anchors because direct YouTube caption fetch was blocked from this environment; the November 10 Chas Freeman anchor was upgraded to an operator-pasted transcript on 2026-05-20.

@@ -14,7 +14,7 @@ Chas Freeman matters here as a **diplomatic-intellectual and settlement-pressure
 
 | Rank | Date | Title | Why it matters most |
 |---|---|---|---|
-| 6 | 2025-11-10 | *Trump: Israel or America First?* | Earliest November routeable anchor. Summary-grade, but useful for divided-sovereignty framing before the later hegemony, legitimacy, and settlement files. |
+| 6 | 2025-11-10 | *Trump: Israel or America First?* | Earliest November routeable anchor. Upgraded to operator-pasted transcript on 2026-05-20, with a preserved source-date tension because the transcript opening says November 11. |
 | 5 | 2025-12-16 | *Trump and US Hegemony* | Earliest December routeable anchor. Summary-grade, but useful for hegemony-decline and lawless-power framing before the 2026 legitimacy and settlement files. |
 | 4 | 2026-01-06 | *China and Russia view Trump as a Kidnapper* | Earliest January routeable anchor. Summary-grade, but useful for sovereign-credibility and lawlessness framing before the later alliance and legitimacy files. |
 | 3 | 2026-02-24 | *Israel Pushes US into Another Endless War* | Earliest February routeable anchor. Summary-grade, but useful for alliance-driven war-extension framing before the March-April legitimacy and settlement files. |
@@ -40,5 +40,5 @@ Use this arc when the notebook needs:
 
 ## Boundaries
 
-- The November 2025 through April 2026 files are routeable and on disk, but not yet clean transcript-grade primaries.
+- The November 10, 2025 Freeman file is now an operator-pasted transcript; the remaining December 2025 through April 2026 Freeman files are routeable and on disk, but not yet clean transcript-grade primaries.
 - This arc reinforces Freeman's existing object rather than changing the larger Freeman triple-helix doctrine.

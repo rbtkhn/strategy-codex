@@ -1,15 +1,25 @@
 ---
+ingest_date: 2026-05-20
 title: "Lawrence Wilkerson: The Path From Forever Wars to Nuclear War"
 host: Glenn Diesen
 guest: Lawrence Wilkerson
+pub_date: 2025-10-10
 date: 2025-10-10
+kind: transcript
 thread: diesen
+show: Glenn Diesen
+channel_slug: glenn-diesen
 source_url: https://www.youtube.com/watch?v=1E7pBHYby8w
-source_type: youtube-auto-captions
+source_type: youtube
+transcript_type: operator_pasted_transcript
 status: raw-input
+source_note: "Transcript pasted manually by operator after automated YouTube discovery/fetch was blocked or incomplete; existing full transcript body retained and normalized through current metadata."
+quality_note: "Metadata normalized from legacy appearance-only/auto-caption classification after the Oct 10 check-streams pass identified this Diesen x Wilkerson item as body-present but not transcript-valid."
 ---
 
 # Lawrence Wilkerson: The Path From Forever Wars to Nuclear War
+
+## Transcript
 
 Welcome back to the program. We are
 
