@@ -10,6 +10,8 @@
 
 **When to update:** At **month** cadence (or EOD if you are closing a dense week); at minimum when you would have extended the old tri-voice [`voices/iri-institutional/thread.md`](../voices/iri-institutional/thread.md) with **new** judgment.
 
+**Braid relation:** `weave/` can name the preferred lens and seam consequences for a braid, but the durable multi-arc object itself usually belongs in [clusters/](../clusters/README.md). Shared note: [STATE-BRAID-MODEL.md](../../STATE-BRAID-MODEL.md).
+
 **Templates:** [ANNOUNCED-VS-MATERIAL-BLOCK.md](../templates/ANNOUNCED-VS-MATERIAL-BLOCK.md), [INSTITUTIONAL-SCORECARD.md](../templates/INSTITUTIONAL-SCORECARD.md).
 
 **Chronology** stays in [`chapters/YYYY-MM/daily/`](../chapters/2026-04/daily/) and [days index](../chapters/2026-04/days.md). **Multi-day objects** = [clusters/](../clusters/README.md).

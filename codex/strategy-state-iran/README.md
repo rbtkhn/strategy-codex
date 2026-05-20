@@ -25,6 +25,8 @@
 3. **Clusters** — [`clusters/`](clusters/) — multi-day, multi-institution **objects** (e.g. Islamabad track, Hormuz commercial passage) with links to `daily/`, `raw-input`, and main-notebook **seam** targets.
 4. **Chronology (unchanged role)** — [`chapters/YYYY-MM/days.md`](chapters/2026-04/days.md) → [`daily/YYYY-MM-DD.md`](chapters/2026-04/daily/) per day.
 
+**Braid model (shared):** [STATE-BRAID-MODEL.md](../STATE-BRAID-MODEL.md) — use when a cluster is not just a topic bucket but a linked bundle of arcs plus an explicit reading lens.
+
 **Templates:** [templates/ANNOUNCED-VS-MATERIAL-BLOCK.md](templates/ANNOUNCED-VS-MATERIAL-BLOCK.md) (formal **announced vs material**), [templates/INSTITUTIONAL-SCORECARD.md](templates/INSTITUTIONAL-SCORECARD.md) (lane **scorecard** — normal here, **not** part of the main expert-thread grammar). **Translation / republication:** [translation-provenance/](translation-provenance/). **Ad-hoc:** [`pages/`](pages/README.md).
 
 ## Legacy and compatibility

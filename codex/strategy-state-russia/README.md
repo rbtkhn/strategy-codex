@@ -17,6 +17,8 @@ WORK only; not Record.
 3. **Clusters** — multi-day objects (e.g., sanctions sequencing, maritime posture, negotiation channels).
 4. **Chronology** — `chapters/YYYY-MM/days.md` and `chapters/YYYY-MM/daily/`.
 
+**Braid model (shared):** [STATE-BRAID-MODEL.md](../STATE-BRAID-MODEL.md) — use when a cluster becomes a linked bundle of arcs rather than a loose topic file.
+
 ## Legacy + compatibility
 
 - `voices/russia-institutional/thread.md` is a legacy-compatible month journal surface.
