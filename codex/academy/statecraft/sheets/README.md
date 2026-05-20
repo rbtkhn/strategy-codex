@@ -17,9 +17,10 @@ These sheets are reusable prompt benches for academy-statecraft. They are not su
 9. [National perspective orthogonality](national-perspective-orthogonality.md) - Compare U.S., Russia, China, Iran, or other state views without flattening their interests, fears, instruments, and off-ramps.
 10. [Authority carrier orthogonality](authority-carrier-orthogonality.md) - Compare leader, office, party-state, security-council, and split-authority carrier problems.
 11. [Crisis test casebook](crisis-test-casebook.md) - Preserve what each crisis test taught about contested objects, game types, filters, and settlement spines.
-12. [Pape coercive-center index](pape-coercive-center-index.md) - Track great-power ranking by crisis leverage rather than size alone.
-13. [Mearsheimer structural-realist scoreboard](mearsheimer-structural-realist-scoreboard.md) - Track structural power, balancing pressure, overextension risk, institutional carrier, and restraint.
-14. **National lanes** - Open [America](../america/), [Russia](../russia/), [China](../china/), or [Iran](../iran/) when the comparison should become a country-specific treaty, memo, negotiation brief, or crisis instrument.
+12. [Transaction router](transaction-router.md) - Match a current-event crisis object to the 12-object transaction plateau before drafting or proposing a new object.
+13. [Pape coercive-center index](pape-coercive-center-index.md) - Track great-power ranking by crisis leverage rather than size alone.
+14. [Mearsheimer structural-realist scoreboard](mearsheimer-structural-realist-scoreboard.md) - Track structural power, balancing pressure, overextension risk, institutional carrier, and restraint.
+15. **National lanes** - Open [America](../america/), [Russia](../russia/), [China](../china/), or [Iran](../iran/) when the comparison should become a country-specific treaty, memo, negotiation brief, or crisis instrument.
 
 ## Prompt Forms
 
@@ -95,6 +96,10 @@ Open [authority carrier orthogonality](authority-carrier-orthogonality.md) when 
 ### Crisis Test Casebook
 
 Open [Crisis test casebook](crisis-test-casebook.md) when a new crisis test should be compared against the existing suite, or when the lesson from a test should be routed into the four national lane casebooks.
+
+### Transaction Router
+
+Open [transaction router](transaction-router.md) after a current-event read has classified the crisis object. It decides whether the event is an exact fit, near fit, or no fit for the 12 transaction objects, then points to the relevant bundle, first lane perspective, or candidate shape.
 
 ## Expected Output
 

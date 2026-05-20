@@ -71,3 +71,14 @@ Draft clause:
 ## Validity Status
 
 `volatile`
+
+## Historical Continuity
+
+Legacy normalization note: Iran's successor-stable interest is deterrence, relief, nuclear-rights dignity, and security recognition without humiliating vulnerability.
+
+## Recursive Update Candidates
+
+- Candidate needed: no
+- Target:
+- Candidate summary:
+- Suggested action:

@@ -71,3 +71,14 @@ Draft clause:
 ## Validity Status
 
 `volatile`
+
+## Historical Continuity
+
+Legacy normalization note: Iran's successor-stable interest is protected-channel sequencing, dignity, sovereignty, and non-regime-change assurance before spending restraint.
+
+## Recursive Update Candidates
+
+- Candidate needed: no
+- Target:
+- Candidate summary:
+- Suggested action:

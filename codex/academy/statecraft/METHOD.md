@@ -13,14 +13,15 @@ Canonical PH-CIV / statecraft hinge: **Civilizational pattern and narrative beco
 3. **Run the realism / incentive filter.** Before accepting the crisis premise, test whether the alleged actor benefits more than it loses, whether the target is something the actor still depends on, whether accident / negligence / private actor behavior / third-party provocation is more plausible, and what evidence would distinguish intent from opportunistic exploitation.
 4. **Run the solvency / legitimacy filter.** If the problem turns on debt, food, subsidy, currency, creditor, or public-order pressure, identify the protected domestic obligation before designing reform.
 5. **Classify the crisis object.** Name the contested object whose legal or political character drives the game: corridor, transit route, blockade, nuclear latency, sanctions relief, guarantee, recognition, data center, identity system, command authority, or protected legitimacy good. Distinguish the classifications that create war or collapse pressure from the classification that creates settlement space.
-6. **Identify the institutional carrier.** Specify which offices, agencies, coalition bodies, courts, forces, secretariats, or treaty organs can carry the instrument after the headline moment passes.
-7. **Map the balance.** Name the parties, dependencies, veto points, outside patrons, escalation ladders, likely spoilers, and creditor extraction incentives.
-8. **Limit the aim.** Define what the instrument does not try to solve, so it can succeed at the thing it is actually built to do.
-9. **Run folder choreography.** Move through `civilization/`, `empire/`, `state/`, and `helix.md`: memory -> desire for control -> authority carrier -> restrained instrument.
-10. **Draft the mechanism.** Convert the judgment into obligations, procedures, thresholds, review cadence, enforcement hooks, and exit/off-ramp language. Package reusable outputs as [statecraft transactions](templates/statecraft-transaction.md) when they need provenance, historical continuity, validation, and revisit triggers.
-11. **Stress-test incentives.** Ask what each party gains by compliance, what it gains by cheating, and how violations become observable.
-12. **Preserve agency and legitimacy.** Keep necessity from becoming excuse; name who commands, who implements, who can refuse, and who bears responsibility.
-13. **Produce reuse.** End with a treaty clause, policy recommendation, negotiating instruction, warning, or amendment that can be reused.
+6. **Route through the transaction plateau.** Check the [Transaction Router](sheets/transaction-router.md) before inventing a new object. Mark the fit as exact, near, or none; choose the transaction bundle or candidate shape; and name the first lane perspective to open.
+7. **Identify the institutional carrier.** Specify which offices, agencies, coalition bodies, courts, forces, secretariats, or treaty organs can carry the instrument after the headline moment passes.
+8. **Map the balance.** Name the parties, dependencies, veto points, outside patrons, escalation ladders, likely spoilers, and creditor extraction incentives.
+9. **Limit the aim.** Define what the instrument does not try to solve, so it can succeed at the thing it is actually built to do.
+10. **Run folder choreography.** Move through `civilization/`, `empire/`, `state/`, and `helix.md`: memory -> desire for control -> authority carrier -> restrained instrument.
+11. **Draft the mechanism.** Convert the judgment into obligations, procedures, thresholds, review cadence, enforcement hooks, and exit/off-ramp language. Package reusable outputs as [statecraft transactions](templates/statecraft-transaction.md) when they need provenance, historical continuity, validation, and revisit triggers.
+12. **Stress-test incentives.** Ask what each party gains by compliance, what it gains by cheating, and how violations become observable.
+13. **Preserve agency and legitimacy.** Keep necessity from becoming excuse; name who commands, who implements, who can refuse, and who bears responsibility.
+14. **Produce reuse.** End with a treaty clause, policy recommendation, negotiating instruction, warning, amendment, transaction-use brief, or recursive update candidate that can be reused.
 
 ## Realism / Incentive Filter
 
@@ -65,6 +66,32 @@ Examples:
 - Nuclear latency is not only weapons capacity; it may be deterrent ambiguity, inspection bargain, recognition claim, sanctions trigger, or red-line instrument.
 
 For accumulated examples, use the [Crisis Test Casebook](sheets/crisis-test-casebook.md).
+
+## Transaction Routing
+
+Use this step whenever `current-event` or a live crisis read reaches a classified object.
+
+1. Classify the crisis object.
+2. Check the [Transaction Router](sheets/transaction-router.md) against the 12-object plateau.
+3. Mark fit:
+   - **exact** when the same object and settlement spine already exist;
+   - **near** when an existing transaction is useful but the mismatch changes actor mix, theater, legal classification, or instrument;
+   - **none** when the event cannot be honestly absorbed by the plateau.
+4. Choose the first lane perspective: America, Russia, China, Iran, or a lane-local transaction when the event is best read from one state's conversion problem.
+5. Produce the smallest useful artifact: transaction-use brief, lane draft, comparison, objection matrix, stress test, clause patch, or recursive update candidate.
+
+Default fit block:
+
+```markdown
+**Transaction Fit**
+- Fit: exact / near / none
+- Transaction object:
+- Why this fit:
+- Mismatch / caution:
+- Best lane to open first:
+```
+
+If fit is **none**, recommend a candidate with crisis object, lanes, settlement spine, entropy signal, and recursive utility. Do not create a new transaction directory unless the operator separately asks for implementation.
 
 ## Richelieu Check
 

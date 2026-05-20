@@ -72,3 +72,14 @@ Draft clause:
 ## Validity Status
 
 `volatile`
+
+## Historical Continuity
+
+Legacy normalization note: China's successor-stable interest is energy and supply-chain continuity without inheriting an imperial policing burden.
+
+## Recursive Update Candidates
+
+- Candidate needed: no
+- Target:
+- Candidate summary:
+- Suggested action:

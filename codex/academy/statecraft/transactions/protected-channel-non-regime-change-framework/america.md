@@ -71,3 +71,14 @@ Draft clause:
 ## Validity Status
 
 `volatile`
+
+## Historical Continuity
+
+Legacy normalization note: America's successor-stable interest is preserving credible bargaining carriers so coercive reach does not destroy the authority needed for settlement.
+
+## Recursive Update Candidates
+
+- Candidate needed: no
+- Target:
+- Candidate summary:
+- Suggested action:

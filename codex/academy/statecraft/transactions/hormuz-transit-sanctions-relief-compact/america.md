@@ -72,3 +72,14 @@ Draft clause:
 ## Validity Status
 
 `volatile`
+
+## Historical Continuity
+
+Legacy normalization note: America's successor-stable interest is predictable maritime access under lawful authority, not permanent emergency empire.
+
+## Recursive Update Candidates
+
+- Candidate needed: no
+- Target:
+- Candidate summary:
+- Suggested action:

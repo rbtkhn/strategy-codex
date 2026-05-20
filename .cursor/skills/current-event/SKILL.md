@@ -28,17 +28,33 @@ Use it when the operator names a recent event and wants judgment or an instrumen
 
 1. **Verify event fact.** Confirm date, actors, location, and what happened with primary or reputable sources. Name source confidence briefly.
 2. **Separate fact from interpretation.** State what is known, what is inferred, and what remains unverified.
-3. **Classify the crisis object.** Name the contested object: alliance signal, sanctions channel, transit route, nuclear latency, recognition claim, ceasefire monitor, protected legitimacy good, etc.
-4. **Map actor interests.** For each main actor, name durable interest, immediate crisis leverage, constraint, and likely institutional carrier.
-5. **Choose output shape.** If the operator has not chosen one, default to the smallest useful artifact:
+3. **Classify the crisis object.** Name the contested object: alliance signal, sanctions channel, transit route, nuclear latency, recognition claim, ceasefire monitor, protected legitimacy good, command authority, identity system, corridor, quarantine, attribution problem, etc.
+4. **Run the transaction fit check.** Use `codex/academy/statecraft/sheets/transaction-router.md` to compare the crisis object against the 12-object transaction plateau:
+   - **exact fit:** route to the existing transaction bundle and choose the best lane to open first;
+   - **near fit:** use the closest transaction as an analogy and name the mismatch;
+   - **no fit:** recommend a new transaction candidate with crisis object, lanes, and settlement spine, but do not create files automatically.
+5. **Map actor interests.** For each main actor, name durable interest, immediate crisis leverage, constraint, and likely institutional carrier.
+6. **Choose output shape.** If the operator has not chosen one, default to the smallest useful artifact:
    - **event read** for orientation;
    - **negotiation brief** when bargaining is live;
    - **policy paper** when a decision is needed;
    - **treaty / mechanism sketch** when obligations or verification matter;
    - **Richelieu/Bismarck stress test** when overreach risk is the point.
-6. **Draft the instrument.** Produce the chosen statecraft artifact with red lines, concessions, verification, fallback, and off-ramp as relevant.
-7. **Check for recursive update candidates.** If the event exposes a durable civilization pattern, empire instrument, state regulator, helix crosswalk, transaction precedent, falsifier, or revisit trigger, suggest a compressed candidate for the relevant `<lane>/updates/pending.md`. Do not require a candidate for every event.
-8. **Offer four calibrated option paths.** End every default current-event read with exactly four labeled paths calibrated to the specific event, actors, crisis object, and likely instruments. Do not reuse generic template labels as the option text.
+7. **Draft the instrument.** Produce the chosen statecraft artifact with red lines, concessions, verification, fallback, and off-ramp as relevant.
+8. **Check for recursive update candidates.** If the event exposes a durable civilization pattern, empire instrument, state regulator, helix crosswalk, transaction precedent, falsifier, or revisit trigger, suggest a compressed candidate for the relevant `<lane>/updates/pending.md`. Do not require a candidate for every event.
+9. **Offer four calibrated option paths.** End every default current-event read with exactly four labeled paths calibrated to the specific event, actors, crisis object, transaction fit, and likely instruments. Do not reuse generic template labels as the option text. When an exact or near transaction fit exists, one option should usually be transaction-aware: draft from a selected lane, compare lanes, run an objection matrix, or stage a recursive update candidate. When no fit exists, one option may recommend a transaction candidate, but it must not create transaction files unless the operator separately asks.
+
+## Transaction-Aware Read
+
+`current-event` does not merely analyze news. It asks whether the event is a reusable crisis object already represented in the 12-object transaction plateau.
+
+Use these fit patterns:
+
+- **Exact:** `current-event Hormuz insurance spike` -> route to `Hormuz Transit / Sanctions Relief Compact`; open China first if energy continuity is the live pressure, America first if guarantee design is the live pressure.
+- **Near:** `current-event Taiwan shipping insurance panic` -> use `Taiwan Quarantine / Maritime Access Framework`; caution that insurance panic may precede formal quarantine, blockade, or customs inspection.
+- **None:** `current-event Antarctic fisheries enforcement collapse` -> recommend a new transaction candidate only; include crisis object, lanes, settlement spine, entropy signal, recursive utility, and why the current 12 cannot absorb it.
+
+When fit is exact or near, at least one option path should use the transaction object directly: draft from a lane, compare lanes, run an objection matrix, or stage a recursive update candidate. When fit is none, do not create files automatically.
 
 ## Default Output
 
@@ -52,6 +68,13 @@ If the operator gives only an event and no artifact type, output:
 **Statecraft Object**
 - Contested object:
 - Why it matters:
+
+**Transaction Fit**
+- Fit: exact / near / none
+- Transaction object:
+- Why this fit:
+- Mismatch / caution:
+- Best lane to open first:
 
 **Actor Map**
 - Actor: interest / leverage / constraint / carrier
@@ -78,6 +101,18 @@ C. [topic-specific negotiation path] - name the bargaining problem, ask, concess
 D. [topic-specific stress-test path] - name the overreach risk, alliance geometry, or restraint problem
 ```
 
+If fit is **none**, replace the transaction object with a compact candidate recommendation:
+
+```markdown
+**New Transaction Candidate**
+- Crisis object:
+- Primary lanes:
+- Settlement spine:
+- Entropy signal:
+- Recursive utility:
+- Why the current 12 do not absorb it:
+```
+
 ## Statecraft Hand-Offs
 
 When the operator replies with a letter after a current-event read, execute the matching calibrated option rather than reprinting the menu:
@@ -87,7 +122,7 @@ When the operator replies with a letter after a current-event read, execute the 
 - `C` = the event-specific negotiation path
 - `D` = the event-specific Richelieu/Bismarck stress-test path
 
-Use `codex/academy/statecraft/METHOD.md` and the relevant template or lens. For power comparisons, apply the `strategic-power-analysis` distinction: structural power versus immediate crisis leverage.
+Use `codex/academy/statecraft/METHOD.md`, `codex/academy/statecraft/sheets/transaction-router.md`, and the relevant template, transaction bundle, or lens. For power comparisons, apply the `strategic-power-analysis` distinction: structural power versus immediate crisis leverage.
 
 ## Nested Menu Rule
 

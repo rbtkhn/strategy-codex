@@ -72,3 +72,14 @@ Draft clause:
 ## Validity Status
 
 `volatile`
+
+## Historical Continuity
+
+Legacy normalization note: Russia's successor-stable interest is optionality: weaken hostile primacy without becoming hostage to another state's escalation calendar.
+
+## Recursive Update Candidates
+
+- Candidate needed: no
+- Target:
+- Candidate summary:
+- Suggested action:

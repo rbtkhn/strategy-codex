@@ -71,3 +71,14 @@ Draft clause:
 ## Validity Status
 
 `volatile`
+
+## Historical Continuity
+
+Legacy normalization note: America's successor-stable interest is nonproliferation through lawful authority, verification, and restraint rather than hidden regime-change pressure.
+
+## Recursive Update Candidates
+
+- Candidate needed: no
+- Target:
+- Candidate summary:
+- Suggested action:

@@ -36,6 +36,7 @@ Civilization and Empire cycle: **Beautify -> Amplify -> Degrade -> Restore.** Ci
 - [Civilization / Empire helix template](templates/civilization-empire-helix.md) - scaffold for inherited code, outward striving, and statecraft regulation.
 - [Statecraft transaction template](templates/statecraft-transaction.md) - package speaker-state inputs into validated treaty, memo, brief, or off-ramp instruments.
 - [Cross-lane transaction bundles](transactions/) - compare one crisis object across several national lanes.
+- [Transaction router](sheets/transaction-router.md) - match a current-event crisis object to the 12 transaction objects before drafting or proposing a new object.
 - [Sheets](sheets/) - reusable prompt benches for fast statecraft sessions.
 - [Book and machine](sheets/book-and-machine.md) - define each state lane as both a civilizational volume and a governed recursive update loop.
 - [Civilization and Empire cycle](sheets/civilization-empire-cycle.md) - diagnose beautification, amplification, civilizational entropy, and restoration.
@@ -48,7 +49,7 @@ Civilization and Empire cycle: **Beautify -> Amplify -> Degrade -> Restore.** Ci
 - [Pape coercive-center index](sheets/pape-coercive-center-index.md) - track a Pape-style great-power ranking by crisis leverage, chokepoints, systemic spillover, and diplomatic monetization.
 - [Mearsheimer structural-realist scoreboard](sheets/mearsheimer-structural-realist-scoreboard.md) - track structural power, balancing pressure, overextension, institutional carrier, and restraint.
 - [Sovereignty Under Acceleration](../singularity/workshop/sheets/sovereignty-under-acceleration.md) - bridge sheet for turning AI acceleration signals into treaty, policy, authority, and human-command artifacts.
-- Current-event command: `.cursor/skills/current-event/SKILL.md` - verify a named recent event, classify the crisis object, map actor interests / leverage / carriers, then convert it into a treaty, policy paper, negotiation brief, or Richelieu/Bismarck stress test.
+- Current-event command: `.cursor/skills/current-event/SKILL.md` - verify a named recent event, classify the crisis object, run the transaction fit check, map actor interests / leverage / carriers, then convert it into a treaty, policy paper, negotiation brief, transaction-use brief, or Richelieu/Bismarck stress test.
 
 ## National Lanes
 
@@ -68,6 +69,18 @@ Cross-lane bundles:
 - [Hormuz Transit / Sanctions Relief Compact](transactions/hormuz-transit-sanctions-relief-compact/)
 - [Iran Nuclear Latency Recognition Framework](transactions/iran-nuclear-latency-recognition-framework/)
 - [Protected Channel / Non-Regime-Change Framework](transactions/protected-channel-non-regime-change-framework/)
+- [Minab Civilian-Harm De-Escalation Framework](transactions/minab-civilian-harm-deescalation-framework/)
+- [Zangezur Transit / Sovereignty Framework](transactions/zangezur-transit-sovereignty-framework/)
+- [Taiwan Quarantine / Maritime Access Framework](transactions/taiwan-quarantine-maritime-access-framework/)
+- [Baltic Shadow-Fleet Infrastructure Damage Framework](transactions/baltic-shadow-fleet-infrastructure-damage-framework/)
+- [Egypt Debt / Suez / Bread Legitimacy Framework](transactions/egypt-debt-suez-bread-legitimacy-framework/)
+- [Pakistan Command-Integrity Scare Framework](transactions/pakistan-command-integrity-scare-framework/)
+- [Panama Canal Water / Transit Sovereignty Framework](transactions/panama-canal-water-transit-sovereignty-framework/)
+- [U.S. Digital Identity Collapse / Sovereignty Under Acceleration Framework](transactions/us-digital-identity-collapse-sovereignty-framework/)
+
+Lane-local seed transaction:
+
+- [Hormuz Recognition Transit Transaction](iran/transactions/hormuz-recognition-transit-transaction.md)
 
 ## Long Arc
 

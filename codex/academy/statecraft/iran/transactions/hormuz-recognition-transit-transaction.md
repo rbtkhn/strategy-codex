@@ -34,6 +34,13 @@ Hormuz recognition-for-transit restraint clause.
 - Restraint: Iran restrains transit disruption and third-party targeting only in exchange for reciprocal non-regime-change assurances, no-humiliation verification, and sanctions-relief benchmarks.
 - Settlement: A phased transit-security compact that recognizes Iran's legitimate security interests while reopening predictable regional commerce.
 
+## Civilization / Empire Helix Input
+
+- Civilization input: dignity, sovereignty, and refusal to be managed as a disposable target.
+- Empire input: Hormuz leverage, denial capacity, sanctions endurance, and partner channels.
+- Statecraft regulation: monetize leverage into recognition, relief, and restrained transit rather than permanent disruption.
+- Relevant lane helix: [Iran helix](../helix.md).
+
 ## State Interest
 
 Iran's durable interest is to convert Hormuz leverage into recognized sovereignty, sanctions relief, deterrence, and regional architecture without becoming a permanent spoiler or losing escalation control.
@@ -86,3 +93,10 @@ What is the shortest plausible objection from each of the other national lanes?
 ## Validity Status
 
 `volatile`
+
+## Recursive Update Candidates
+
+- Candidate needed: no
+- Target:
+- Candidate summary:
+- Suggested action:

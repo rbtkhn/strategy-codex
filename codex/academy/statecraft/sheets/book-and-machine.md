@@ -44,6 +44,8 @@ The machine side should let the lane learn through use:
 
 Recursive means the lane modifies itself through governed work. It does not mean automatic rewriting.
 
+When the input begins as a current-event read, use [Transaction Router](transaction-router.md) before staging a new transaction candidate, so exact and near fits are absorbed by the 12-object plateau first.
+
 ## Update Candidate Types
 
 - **Civilization pattern:** inherited code, durable fear, legitimacy memory, or successor-stable interest.

@@ -72,3 +72,14 @@ Draft clause:
 ## Validity Status
 
 `volatile`
+
+## Historical Continuity
+
+Legacy normalization note: Iran's successor-stable interest is Hormuz salience, export autonomy, sovereignty recognition, and sanctions relief without humiliation.
+
+## Recursive Update Candidates
+
+- Candidate needed: no
+- Target:
+- Candidate summary:
+- Suggested action:
