@@ -8,7 +8,15 @@ Use [Recursive Update Candidate Template](../../templates/recursive-update-candi
 
 ## Pending
 
-No pending candidates.
+### Candidate: Bounded Alliance / Unbounded Lattice
+
+- **Source output:** `china hex us south korea` regionalization threshold read.
+- **Proposed target:** `civilization/objects/state-memory.md`, `civilization/geo.md`, or `sheets/china-order-arc.md`
+- **Claim:** China can price in hostile or adverse alliances when they remain bounded to a local security problem, but resists even defensive capacity when it mutates into an unbounded regional lattice aimed at China containment.
+- **Evidence:** The U.S.-South Korea alliance is tolerable to Beijing when framed as peninsula deterrence against North Korea. It becomes threatening when Taiwan language, operational planning, missile-defense integration, drone / sensor networks, industrial-security alignment, or U.S.-Japan-ROK bloc visibility convert peninsula defense into Indo-Pacific contingency infrastructure.
+- **Statecraft consequence:** China reads alliance function more sharply than alliance existence. Current-event and transaction reads should test whether a military, technology, supply-chain, or basing instrument remains locally bounded or becomes a regional implementation surface.
+- **Failure / overreach warning:** Washington can accidentally harden China threat perception if it treats every allied upgrade as modular China-containment capacity; Beijing can overreact if it treats every defensive alliance improvement as encirclement.
+- **Suggested action:** review for integration as a China order / geo threshold: "bounded alliance is tolerable; unbounded lattice is threatening; Taiwan-operational integration is intolerable."
 
 ## Accepted
 

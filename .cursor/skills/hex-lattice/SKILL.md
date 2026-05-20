@@ -1,12 +1,14 @@
 ---
-name: hexagon-lattice
-preferred_activation: hexagon-lattice
-description: "Apply the academy-statecraft hexagon lattice to a crisis, current event, transaction, clause, memo, or policy question. Use when the operator says hexagon-lattice, hexagon, six-lens read, arc-lens stress test, distributed lattice, or asks to test god/lit/art/geo/war/peace consensus, brittle points, axis tensions, arc extensions, or recursive candidates."
+name: hex-lattice
+preferred_activation: hex-lattice
+description: "Apply the academy-statecraft hex lattice to a crisis, current event, transaction, clause, memo, or policy question. Use when the operator says hex-lattice, hexagon-lattice, hex, hexagon, six-lens read, arc-lens stress test, distributed lattice, or asks to test god/lit/art/geo/war/peace consensus, brittle points, axis tensions, arc extensions, or recursive candidates."
 ---
 
-# Hexagon Lattice
+# Hex Lattice
 
-`hexagon-lattice` applies the six civilization arc-lenses as a distributed statecraft diagnostic.
+`hex-lattice` applies the six civilization arc-lenses as a distributed statecraft diagnostic.
+
+Compatibility note: `hex-lattice` is canonical. `hexagon-lattice` remains accepted as a legacy alias. Use `hexagon` when referring to the six-sided diagnostic geometry.
 
 No central pillar. No master lens. Each arc-lens has partial sovereignty. Consensus emerges from distributed pressure among:
 
@@ -24,7 +26,7 @@ No central pillar. No master lens. Each arc-lens has partial sovereignty. Consen
 - Do not edit CIV-MEM, PH-CIV, Record, raw-input, transaction, carrier, or lane files unless the operator separately asks for implementation.
 - If a durable insight appears, suggest a lane-local recursive candidate only; do not absorb it automatically.
 - Do not collapse the lattice into a central state-memory pillar. State-memory may supply substrate, but the live diagnostic is decentralized.
-- When a live event extends an existing historical arc-lens, name the extension and offer a membrane-safe candidate path rather than silently rewriting the lane.
+- When a live event extends an existing historical arc-lens or mutates an instrument's function, name the extension / mutation and offer a membrane-safe candidate path rather than silently rewriting the lane.
 
 ## Source Surfaces
 
@@ -43,7 +45,12 @@ Use adjacent statecraft surfaces only when needed:
 
 Use this skill for:
 
+- `hex-lattice`
+- `hex-lattice <topic>`
+- `<lane> hex-lattice <topic>`
 - `hexagon-lattice`
+- `hex`
+- `hex <topic>`
 - `hexagon`
 - `hexagon <topic>`
 - `<lane> hex <topic>`
@@ -73,15 +80,16 @@ Lane-prefix grammar:
 6. **Score consensus.** Use the 0-12 score from the sheet.
 7. **Name the brittle point.** Identify the lens or axis most likely to break the instrument.
 8. **Run the arc extension check.** If the read mutates an older historical spine into a new form, name the old arc, the new form, the updated rule, and whether it should be kept.
-9. **Convert to statecraft use.** Recommend the smallest useful next artifact: clause, memo, objection matrix, transaction fit patch, lane read, arc-extension note, or recursive candidate.
-10. **Offer four calibrated option paths.** A-D must be specific to the topic, not generic.
+9. **Run the mutation check.** If an object has changed function, name the original function, new function, trigger evidence, defensive reading, threatening reading, and threshold formula.
+10. **Convert to statecraft use.** Recommend the smallest useful next artifact: clause, memo, objection matrix, transaction fit patch, lane read, arc-extension note, mutation-threshold note, or recursive candidate.
+11. **Offer four calibrated option paths.** A-D must be specific to the topic, not generic.
 
 ## No-Topic Output
 
 When invoked without a topic, output:
 
 ```markdown
-**Hexagon Lattice**
+**Hex Lattice**
 - Core pattern:
 - What it detects:
 - What it warns against:
@@ -143,6 +151,15 @@ When invoked with a topic, output:
 - Updated rule:
 - Keep / stage:
 
+**Mutation Check**
+- Function mutated: yes / no
+- Original function:
+- New function:
+- Trigger evidence:
+- Defensive reading:
+- Threatening reading:
+- Threshold formula:
+
 **Recursive Candidate Check**
 - Needed: yes / no
 - Lane / target:
@@ -198,6 +215,32 @@ Arc extension questions:
 - Should the insight remain a live note, become a recursive candidate, or patch a transaction?
 
 Do not force an arc extension. Many events are only examples. An arc extension requires a durable mutation of the lens, not just another instance of the same pattern.
+
+## Mutation Discipline
+
+Use this block when the object itself remains familiar but its operating role changes.
+
+Typical mutations:
+
+- alliance -> containment lattice.
+- trade -> dependency channel.
+- peacekeeping -> tutelage.
+- infrastructure -> sovereignty claim.
+- deterrence -> escalation platform.
+- recognition -> humiliation trap.
+- technology cooperation -> denial architecture.
+- energy purchase -> sanctions-resistance corridor.
+
+Mutation questions:
+
+- What was the object's original bounded function?
+- What new function is being attached to it?
+- What concrete evidence shows the shift: language, basing, logistics, sensors, payments, insurance, supply chains, law, command, exercises, or implementation channels?
+- Who can plausibly read the shift as defensive?
+- Who can plausibly read the shift as threatening?
+- What threshold formula separates tolerable adaptation from strategic mutation?
+
+Do not treat every improvement as mutation. A mutation requires a role change, not just a capability upgrade.
 
 ## Hand-Offs
 
