@@ -18,9 +18,10 @@ These sheets are reusable prompt benches for academy-statecraft. They are not su
 10. [Authority carrier orthogonality](authority-carrier-orthogonality.md) - Compare leader, office, party-state, security-council, and split-authority carrier problems.
 11. [Crisis test casebook](crisis-test-casebook.md) - Preserve what each crisis test taught about contested objects, game types, filters, and settlement spines.
 12. [Transaction router](transaction-router.md) - Match a current-event crisis object to the 12-object transaction plateau before drafting or proposing a new object.
-13. [Pape coercive-center index](pape-coercive-center-index.md) - Track great-power ranking by crisis leverage rather than size alone.
-14. [Mearsheimer structural-realist scoreboard](mearsheimer-structural-realist-scoreboard.md) - Track structural power, balancing pressure, overextension risk, institutional carrier, and restraint.
-15. **National lanes** - Open [America](../america/), [Russia](../russia/), [China](../china/), or [Iran](../iran/) when the comparison should become a country-specific treaty, memo, negotiation brief, or crisis instrument.
+13. [Great-power energy absorber threshold](great-power-energy-absorber-threshold.md) - Decide when an energy-alignment signal becomes a new transaction candidate rather than a near fit.
+14. [Pape coercive-center index](pape-coercive-center-index.md) - Track great-power ranking by crisis leverage rather than size alone.
+15. [Mearsheimer structural-realist scoreboard](mearsheimer-structural-realist-scoreboard.md) - Track structural power, balancing pressure, overextension risk, institutional carrier, and restraint.
+16. **National lanes** - Open [America](../america/), [Russia](../russia/), [China](../china/), or [Iran](../iran/) when the comparison should become a country-specific treaty, memo, negotiation brief, or crisis instrument.
 
 ## Prompt Forms
 
@@ -100,6 +101,10 @@ Open [Crisis test casebook](crisis-test-casebook.md) when a new crisis test shou
 ### Transaction Router
 
 Open [transaction router](transaction-router.md) after a current-event read has classified the crisis object. It decides whether the event is an exact fit, near fit, or no fit for the 12 transaction objects, then points to the relevant bundle, first lane perspective, or candidate shape.
+
+### Great-Power Energy Absorber Threshold
+
+Open [great-power energy absorber threshold](great-power-energy-absorber-threshold.md) when a summit, purchase signal, or sanctions dispute suggests that a great power is absorbing another state's energy flows, but the event has not yet produced a distinct payments, shipping, insurance, sanctions, pipeline, or transit mechanism.
 
 ## Expected Output
 
