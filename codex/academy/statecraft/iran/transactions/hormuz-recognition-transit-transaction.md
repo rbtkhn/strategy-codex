@@ -29,10 +29,19 @@ Hormuz recognition-for-transit restraint clause.
 
 ## Pattern / Narrative Conversion
 
-- Civilizational pattern or narrative: Outside powers misread Iran as coercible because they treat it as a regime problem rather than a state and civilizational actor with durable geography.
-- Authority: Named Iranian and reciprocal foreign authorities must authorize transit guarantees, inspection limits, sanctions-relief triggers, and complaint channels.
-- Restraint: Iran restrains transit disruption and third-party targeting only in exchange for reciprocal non-regime-change assurances, no-humiliation verification, and sanctions-relief benchmarks.
-- Settlement: A phased transit-security compact that recognizes Iran's legitimate security interests while reopening predictable regional commerce.
+- Civilizational pattern or narrative: Outside powers misread Iran as coercible because they treat Hormuz as a shipping-management problem rather than a state and civilizational leverage problem carried by durable geography, sovereignty, and anti-humiliation memory.
+- Authority: Named Iranian and reciprocal foreign authorities must authorize one coupled package of transit guarantees, restraint boundaries, security recognition, sanctions-relief triggers, and complaint channels.
+- Restraint: Iran restrains transit disruption and third-party targeting only inside a bargain that simultaneously recognizes Iranian security interests, limits humiliation, and sequences reciprocal economic relief.
+- Settlement: A phased transit-security compact that converts coupled leverage into recognized restraint, predictable commerce, and a governed bargaining channel rather than one-off de-escalation theater.
+
+## Braid Structure
+
+- Arcs: commercial passage; coercive signaling; negotiation-room leverage.
+- Lens: announced-vs-material.
+- Coupling claim: Passage language, coercive posture, and bargaining leverage belong to one draft object because each line changes the credibility and meaning of the others. A commercial-open formula without a coercive theory reads as rhetoric. Coercive signaling without a bargaining channel reads as permanent spoiler behavior. Negotiation leverage without a transit object lacks a governable mechanism.
+- Authority carriers: Iranian foreign ministry, Supreme National Security Council, maritime and port authorities, mediator channel, and sanctions-relief mechanisms must keep the bundle aligned so the announced line, operating posture, and bargaining sequence do not split apart.
+- Transaction use: This braid is being spent as a recognition-for-transit restraint clause.
+- Tensions / falsifiers: The braid weakens if material transit conditions do not match the announced line, if outside partners react as though Iran is seeking durable veto rather than governed leverage, or if bargaining posture no longer converts restraint into an actual sanctions-relief and security-recognition sequence.
 
 ## Civilization / Empire Helix Input
 
@@ -43,21 +52,21 @@ Hormuz recognition-for-transit restraint clause.
 
 ## State Interest
 
-Iran's durable interest is to convert Hormuz leverage into recognized sovereignty, sanctions relief, deterrence, and regional architecture without becoming a permanent spoiler or losing escalation control.
+Iran's durable interest is to convert the coupled Hormuz bundle of passage, coercive leverage, and negotiation-room advantage into recognized sovereignty, sanctions relief, deterrence, and regional architecture without becoming a permanent spoiler or losing escalation control.
 
 ## Leverage / Constraint
 
-- Leverage being spent: Geography, Hormuz denial capacity, resource self-sufficiency, sanctions endurance, nuclear latency, partner channels, and the ability to impose system costs.
-- Constraint that limits the leverage: Prolonged disruption can alienate China, India, Gulf states, and non-aligned states; it can also make sanctions relief politically impossible for adversaries.
-- Volatility note if Pape and Mearsheimer scoreboards diverge: Pape may show high immediate coercive leverage while Mearsheimer still treats Iran as structurally weaker than comprehensive powers; the transaction must monetize leverage before counter-balancing erodes it.
+- Leverage being spent: Geography, Hormuz denial capacity, resource self-sufficiency, sanctions endurance, nuclear latency, partner channels, and the ability to impose system costs through a coupled transit-and-recognition problem rather than through brute disruption alone.
+- Constraint that limits the leverage: Prolonged disruption can alienate China, India, Gulf states, and non-aligned states; it can also make sanctions relief politically impossible for adversaries and split the announced commercial-passage line from material reality.
+- Volatility note if Pape and Mearsheimer scoreboards diverge: Pape may show high immediate coercive leverage while Mearsheimer still treats Iran as structurally weaker than comprehensive powers; the transaction must monetize the coupled bundle before counter-balancing erodes it or before the passage line loses credibility.
 
 ## Richelieu Validation
 
-- Institutional carrier: Iranian foreign ministry, Supreme National Security Council, port and maritime authorities, central bank / sanctions-relief channels, and a third-party mediator or treaty secretariat.
-- Administrative / fiscal / legal / military capacity: Maritime notification system, transit registry, sanctions-relief escrow, defensive-force command discipline, and complaint-resolution procedure.
-- Continuity risk: Factional actors may prefer maximal resistance language over a limited settlement; external actors may try to split Iranian institutions.
+- Institutional carrier: Iranian foreign ministry, Supreme National Security Council, port and maritime authorities, central bank / sanctions-relief channels, and a third-party mediator or treaty secretariat must be able to carry one aligned transit, restraint, and relief package rather than three drifting lines.
+- Administrative / fiscal / legal / military capacity: Maritime notification system, transit registry, sanctions-relief escrow, defensive-force command discipline, and complaint-resolution procedure are needed to keep the braid coordinated in practice.
+- Continuity risk: Factional actors may prefer maximal resistance language over a limited settlement; external actors may try to split Iranian institutions or detach transit from recognition and relief.
 - Ideology or faction pressure: Anti-humiliation rhetoric can harden into terms no adversary can publicly accept.
-- Long-pressure burden: Iran must sustain deterrence while proving it can regulate leverage rather than merely threaten disruption.
+- Long-pressure burden: Iran must sustain deterrence while proving it can regulate a coupled leverage bundle rather than merely threaten disruption.
 
 ## Bismarck Validation
 
@@ -65,14 +74,14 @@ Iran's durable interest is to convert Hormuz leverage into recognized sovereignt
 - Actor to isolate: Regime-change advocates and actors seeking uncontrolled escalation.
 - Actor to reassure, restrain, or keep neutral: China, India, Gulf states, Oman, Russia, and European energy importers.
 - Alliance geometry: Preserve Russia and China support while leaving Gulf and Oman channels open; do not force partners to choose between Iran and energy stability.
-- Restraint after advantage: Reopen transit predictably after recognition and relief benchmarks begin, rather than extending disruption to prove power.
+- Restraint after advantage: Reopen transit predictably after recognition and relief benchmarks begin, rather than extending disruption to prove power or treating passage, coercion, and bargaining as separately expandable lines.
 - Off-ramp: Reciprocal transit-security reviews every 30 days with automatic de-escalation steps if violations decline and relief milestones are met.
 
 ## Instrument Text
 
 Draft clause:
 
-> Upon written reciprocal assurances against regime-change operations, attacks on Iranian sovereign facilities, and interdiction of lawful Iranian energy commerce, Iran shall provide a renewable 30-day guarantee of safe commercial transit through the Strait of Hormuz for non-belligerent vessels. The guarantee shall be paired with phased sanctions-relief benchmarks, a neutral maritime notification channel, and a joint complaint procedure. Iran's guarantee may be suspended only after documented violation, 72-hour notice to the mediator, and failure of urgent consultation, except in cases of direct armed attack.
+> Upon written reciprocal assurances against regime-change operations, attacks on Iranian sovereign facilities, and interdiction of lawful Iranian energy commerce, and upon commencement of a phased sanctions-relief sequence verified through a neutral channel, Iran shall issue a renewable 30-day guarantee of safe commercial transit through the Strait of Hormuz for non-belligerent vessels. That guarantee shall operate as one coupled package of transit restraint, reciprocal security recognition, maritime notification, and complaint resolution, rather than as a standalone reopening gesture. Iran may suspend the guarantee only after documented violation of the reciprocal package, 72-hour notice to the mediator, and failure of urgent consultation, except in cases of direct armed attack. All parties shall treat the guarantee as controlled de-escalatory leverage tied to compliance and review, not as a concession severed from the wider recognition and relief sequence.
 
 ## Mirror Test
 
