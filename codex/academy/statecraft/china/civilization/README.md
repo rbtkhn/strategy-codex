@@ -41,4 +41,6 @@ Start with [seed-patterns.md](seed-patterns.md). Use [god](god.md), [lit](lit.md
 
 Use the [present-day arc extension matrix](../../sheets/present-day-arc-extension-matrix.md) when a China read needs to bridge older mandate, order, unity, humiliation, or restoration arcs into modern carriers such as compute sovereignty, industrial capacity, ports, insurers, maritime ambiguity, Taiwan quarantine logic, or party-state implementation.
 
+For China-specific order analysis, use the [China order arc](../../sheets/china-order-arc.md) to distinguish mandate-order, standardization-order, hydraulic-order, fragmentation-memory, development-order, party-state-order, and compute-order before turning stability or unity claims into clause language.
+
 Use [civilization objects](objects/) when a recurring authority pattern needs to connect the China book surface to current state carriers, diplomatic transmitters, and transaction authority checks. First object: [state memory](objects/state-memory.md).

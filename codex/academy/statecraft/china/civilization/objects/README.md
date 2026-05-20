@@ -6,7 +6,7 @@ Civilization objects hold long-pattern authority grammars for the China lane. Th
 
 ## Objects
 
-- [State memory](state-memory.md) - Chinese authority memory across mandate performance, administrative continuity, party-state fusion, anti-disorder legitimacy, development, and compute sovereignty.
+- [State memory](state-memory.md) - deep Chinese authority memory from Xia / Shang / Zhou dynastic order through Qin-Han standardization, imperial bureaucratic cycles, conquest-dynasty absorption, humiliation / fragmentation, PRC reconstruction, reform development legitimacy, and Xi-era party-state consolidation.
 
 ## Use
 

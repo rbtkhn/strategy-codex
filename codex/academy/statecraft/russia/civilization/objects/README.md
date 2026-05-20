@@ -6,7 +6,7 @@ Civilization objects hold long-pattern authority grammars for the Russia lane. T
 
 ## Objects
 
-- [State memory](state-memory.md) - post-Soviet authority memory from collapse handoff through Yeltsin, Putin, Medvedev, and the Security Council continuity surface.
+- [State memory](state-memory.md) - deep authority memory from Rurik / Varangian-Novgorod order through Kievan Rus, Mongol pressure, Muscovy, Empire, Soviet state, 1991 rupture, and the current Putin / Security Council continuity surface.
 
 ## Use
 

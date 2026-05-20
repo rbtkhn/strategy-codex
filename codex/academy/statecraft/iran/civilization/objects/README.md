@@ -6,7 +6,7 @@ Civilization objects hold long-pattern authority grammars for the Iran lane. The
 
 ## Objects
 
-- [State memory](state-memory.md) - Iranian authority memory across Persian continuity, legitimacy, sovereignty, revolution, sanctions endurance, and split current carriers.
+- [State memory](state-memory.md) - deep Iranian authority memory from Medes / Achaemenids through Parthian / Sasanian rule, Islamic / Persianate continuity, Safavid Shi'a state formation, Qajar / Pahlavi foreign-pressure memory, Mossadegh / 1953, 1979 revolution, Iran-Iraq War, sanctions endurance, and split current carriers.
 
 ## Use
 

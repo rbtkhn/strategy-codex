@@ -2,11 +2,11 @@
 
 WORK only; not Record.
 
-This civilization object stores the long memory of Chinese state authority. It treats current party-state carriers as inheritors of mandate, order, administrative continuity, anti-humiliation, development, and anti-disorder burdens rather than as isolated offices.
+This civilization object stores the long memory of Chinese state authority from Xia / Shang / Zhou dynastic order through Qin-Han standardization, imperial bureaucratic cycles, conquest-dynasty absorption, late-imperial rupture, Republican fragmentation, Maoist party-state reconstruction, reform-era development legitimacy, and Xi-era consolidation. It treats current party-state carriers as inheritors of mandate, order, administrative continuity, anti-humiliation, development, and anti-disorder burdens rather than as isolated offices.
 
 ## Continuity Pattern
 
-Chinese state memory preserves continuity through absorption, standardization, and administrative performance. Regimes, dynasties, ideologies, and technologies can change, but authority must keep order legible, provision material life, prevent fragmentation, and maintain unity against humiliation or containment.
+Chinese state memory preserves continuity through dynastic legitimacy, absorption, standardization, frontier incorporation, bureaucratic restoration, and administrative performance. Regimes, dynasties, ideologies, and technologies can change, but authority must keep order legible, provision material life, prevent fragmentation, and maintain unity against humiliation or containment.
 
 The current party-state is not just a current regime form in this layer. It is the present carrier of a deeper civilizational claim: collapse and fragmentation are metabolized into stronger centralization, and legitimacy is proven through order, development, competence, and continuity.
 
@@ -14,13 +14,15 @@ The current party-state is not just a current regime form in this layer. It is t
 
 | authority form | role in memory | statecraft lesson |
 | --- | --- | --- |
-| Dynastic mandate and bureaucratic continuity | authority is revocable when order, provisioning, and stability fail | settlement language must preserve performance legitimacy, not only formal sovereignty. |
+| Xia / Shang / Zhou early dynastic order | ritual authority, ancestral legitimacy, central-plain order, and early mandate memory | settlement language should remember that Chinese authority begins as order-making and legitimacy performance, not only modern sovereignty. |
 | Qin-Han standardization | centralized absorption, legal-administrative scale, and unity through common systems | China prefers mechanisms that can be standardized, piloted, scaled, and kept administratively legible. |
-| Qing multi-ethnic administration and frontier management | unity includes frontier, buffer, and corridor governance | clauses touching Taiwan, Xinjiang, Tibet, Manchuria, seas, or borders must not appear to internationalize internal sovereignty claims. |
-| Republican fragmentation trauma | weak authority and external pressure become disorder memory | Beijing resists arrangements that look like managed fragmentation or foreign tutelage. |
-| Maoist mobilization and party-state penetration | revolutionary monopolization reverses fragmentation through vertical party-state reach | current authority depends on party discipline and penetration, not only constitutional office. |
-| Reform-era technocratic / development legitimacy | growth, employment, infrastructure, trade, and competence carry legitimacy | external restraint is sellable when it protects energy, industry, jobs, trade routes, and upgrading. |
-| Xi-era party-state consolidation and compute sovereignty | anti-disorder discipline, centralized line, digital governance, and AI / data control | instruments must pass through party center, State Council organs, PLA restraint, banks, firms, ports, provinces, and compute / data sovereignty concerns. |
+| Sui / Tang / Song / Ming bureaucratic restoration cycles | canal logistics, scholar-official governance, commerce, maritime reach, and civilizational confidence | durable instruments should protect administrative legibility, routes, trade, provisioning, and competence rather than rely on one visible leader. |
+| Yuan / Qing conquest-dynasty absorption | foreign-origin rule becomes Chinese state continuity through multi-ethnic administration and frontier incorporation | clauses touching Taiwan, Xinjiang, Tibet, Manchuria, seas, or borders must not appear to internationalize internal sovereignty claims. |
+| Late Qing / Opium / Taiping / Boxer rupture | humiliation, internal disorder, foreign penetration, and failed restoration | Beijing resists arrangements that look like managed weakness, unequal treaty logic, foreign tutelage, or permission for internal disorder. |
+| ROC / Republican fragmentation trauma | weak authority, warlordism, foreign pressure, Taiwan split, and disorder memory | Beijing rejects settlement forms that normalize fragmentation or treat China as an externally managed political space. |
+| PRC / Maoist party-state reconstruction | revolutionary reunification, party-state penetration, mobilization, sovereignty recovery, and anti-fragmentation command | current authority depends on party discipline and vertical reach, not only constitutional office. |
+| Deng / reform-era development legitimacy | growth, employment, infrastructure, trade integration, technocratic competence, and controlled opening | external restraint is sellable when it protects energy, industry, jobs, trade routes, upgrading, and the material basis of order. |
+| Xi-era party-state consolidation and compute sovereignty | anti-disorder discipline, rejuvenation, centralized line, digital governance, and AI / data control | instruments must pass through party center, State Council organs, PLA restraint, banks, firms, ports, provinces, and compute / data sovereignty concerns. |
 
 ## Current Carriers
 
@@ -50,6 +52,26 @@ State memory deforms when order becomes brittle control, anti-humiliation become
 - `research/repos/civilization_memory/content/civilizations/CHINA/CIV–STATE–CHINA.md` - current China state-analysis surface, Taiwan / reunification commitment space, institutional continuity, and decision-relevant options.
 - `research/repos/civilization_memory/content/civilizations/CHINA/CIV–DOCTRINE–CHINA.md` - rupture-to-reconstitution, party-state fusion, and consolidation through vertical penetration.
 - `research/repos/civilization_memory/content/civilizations/CHINA/MEM–RELEVANCE–CHINA.md` - MEM relevance map for authority, fragmentation, frontier, Taiwan, maritime, development, and party-state signals.
+- `research/repos/civilization_memory/content/civilizations/CHINA/MEM–CHINA–DYNASTY–XIA.md` - early dynastic order memory.
+- `research/repos/civilization_memory/content/civilizations/CHINA/MEM–CHINA–DYNASTY–SHANG.md` - ritual and ancestral authority memory.
+- `research/repos/civilization_memory/content/civilizations/CHINA/MEM–CHINA–DYNASTY–ZHOU.md` - mandate and central-plain authority memory.
+- `research/repos/civilization_memory/content/civilizations/CHINA/MEM–CHINA–DYNASTY–QIN.md` - standardization and administrative absorption.
+- `research/repos/civilization_memory/content/civilizations/CHINA/MEM–CHINA–DYNASTY–HAN.md` - imperial scale and bureaucratic continuity.
+- `research/repos/civilization_memory/content/civilizations/CHINA/MEM–CHINA–DYNASTY–TANG.md` - cosmopolitan imperial confidence and route integration.
+- `research/repos/civilization_memory/content/civilizations/CHINA/MEM–CHINA–DYNASTY–SONG.md` - commerce, administration, and civil governance.
+- `research/repos/civilization_memory/content/civilizations/CHINA/MEM–CHINA–DYNASTY–MING.md` - restoration, maritime reach, and ordered confidence.
+- `research/repos/civilization_memory/content/civilizations/CHINA/MEM–CHINA–DYNASTY–YUAN.md` - conquest-dynasty absorption.
+- `research/repos/civilization_memory/content/civilizations/CHINA/MEM–CHINA–DYNASTY–QING.md` - multi-ethnic administration and frontier incorporation.
+- `research/repos/civilization_memory/content/civilizations/CHINA/MEM–CHINA–WAR–FIRST–OPIUM.md` - humiliation and foreign penetration memory.
+- `research/repos/civilization_memory/content/civilizations/CHINA/MEM–CHINA–WAR–TAIPING–REBELLION.md` - internal disorder and legitimacy collapse.
+- `research/repos/civilization_memory/content/civilizations/CHINA/MEM–CHINA–WAR–BOXER–REBELLION.md` - late-imperial rupture and foreign pressure.
+- `research/repos/civilization_memory/content/civilizations/CHINA/MEM–CHINA–ROC.md` - Republican fragmentation and successor-claim memory.
+- `research/repos/civilization_memory/content/civilizations/CHINA/MEM–CHINA–TAIWAN.md` - unresolved sovereignty split and unity claim.
+- `research/repos/civilization_memory/content/civilizations/CHINA/MEM–CHINA–PRC.md` - PRC state reconstruction.
+- `research/repos/civilization_memory/content/civilizations/CHINA/MEM–CHINA–PRC–MAO–ZEDONG.md` - Maoist mobilization and party-state penetration.
+- `research/repos/civilization_memory/content/civilizations/CHINA/MEM–CHINA–PRC–DENG–XIAOPING.md` - reform, development legitimacy, and controlled opening.
+- `research/repos/civilization_memory/content/civilizations/CHINA/MEM–CHINA–GRAND–CANAL.md` - logistics, provisioning, and administrative integration.
+- `research/repos/civilization_memory/content/civilizations/CHINA/MEM–CHINA–SILK–ROAD.md` - route continuity and outward commercial geometry.
 - [China civilization seed patterns](../seed-patterns.md) - lane-local CIV-MEM translation into order against chaos, humiliation / containment memory, and development legitimacy.
 
 ## Falsifiers / Drift Checks

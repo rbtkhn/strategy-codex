@@ -41,4 +41,6 @@ Start with [seed-patterns.md](seed-patterns.md). Use [god](god.md), [lit](lit.md
 
 Use the [present-day arc extension matrix](../../sheets/present-day-arc-extension-matrix.md) when an Iran read needs to bridge older dignity, sovereignty, endurance, martyrdom, or anti-domination arcs into modern carriers such as sanctions endurance, nuclear latency, Hormuz leverage, regional network architecture, verification without humiliation, or compute-siege autonomy.
 
+For Iran-specific dignity analysis, use the [Iran dignity-sovereignty arc](../../sheets/iran-dignity-sovereignty-arc.md) to distinguish plateau-sovereignty, righteous-order, Persianate-continuity, Shi'a-resistance, resource-sovereignty, martyrdom-endurance, and sanctions-sovereignty before turning recognition, relief, verification, or restraint claims into clause language.
+
 Use [civilization objects](objects/) when a recurring authority pattern needs to connect the Iran book surface to current state carriers, diplomatic transmitters, and transaction authority checks. First object: [state memory](objects/state-memory.md).
