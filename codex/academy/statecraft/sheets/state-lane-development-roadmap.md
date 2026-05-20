@@ -28,6 +28,7 @@ Each state lane should keep this minimum spine:
 - `state/`: regulated doctrine and decision rules built from the two upstream folders.
 - `helix.md`: the balancing mechanism between civilization and empire.
 - `transactions/`: current-event and scenario drafts that test the lane against reality.
+- `updates/pending.md`: the membrane where live outputs stage recursive update candidates before book surfaces change.
 
 ## Development Passes
 
@@ -55,7 +56,7 @@ Before a lane becomes an independent repo, verify that it can stand without reac
 
 ### Pass 5: Recurse
 
-After a current-event brief, transaction, objection matrix, or scenario test, stage candidate improvements back into the lane:
+After a current-event brief, transaction, objection matrix, or scenario test, stage candidate improvements in `<lane>/updates/pending.md`:
 
 - new civilization pattern
 - new empire instrument
@@ -66,6 +67,8 @@ After a current-event brief, transaction, objection matrix, or scenario test, st
 
 Recursive updates must be reviewable before integration. The lane learns through governed acceptance, not silent self-rewrite.
 
+Use [Recursive Update Candidate Template](../templates/recursive-update-candidate.md). Keep v1 Markdown-only: no IDs, scripts, or validation are required until real use proves the queue shape.
+
 ## Quality Tests
 
 - **Equal upstream test:** Does CIV-MEM inform both civilization and empire, or only one side?
@@ -75,3 +78,4 @@ Recursive updates must be reviewable before integration. The lane learns through
 - **Extraction test:** Could this state lane become a repo tomorrow with coherent internal navigation?
 - **Book test:** Could a serious reader follow the civilizational story without needing the whole academy workspace?
 - **Machine test:** Can a new statecraft output produce structured update candidates for the lane?
+- **Membrane test:** Does the candidate sit in `updates/pending.md` before any book-surface edit?

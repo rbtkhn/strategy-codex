@@ -14,6 +14,15 @@ Shared grammar:
 - **Empire** = outward striving for security and control: force, finance, alliance, chokepoint, law, infrastructure, and dependency instruments.
 - **Statecraft** = regulatory art: knowing limits, restraining imperial desire, and converting control into durable sovereignty, security, and settlement.
 
+Cycle grammar:
+
+> Civilization beautifies. Empire amplifies. Entropy degrades. Statecraft restores.
+
+- **Beautify:** what the civilization creates or preserves.
+- **Amplify:** how empire extends that greatness through power.
+- **Degrade:** where amplification creates civilizational entropy.
+- **Restore:** how statecraft repairs, restrains, renews, or settles before collapse.
+
 Source flow:
 
 1. CIV-MEM informs `civilization/` and `empire/` equally.
@@ -26,6 +35,7 @@ Source flow:
 Required sections:
 
 - Purpose
+- Beautification
 - Inherited Code
 - Historical Continuity
 - Legitimacy Memory
@@ -38,9 +48,11 @@ Required sections:
 Required sections:
 
 - Purpose
+- Amplification
 - Desired Control
 - Instruments
 - Adaptive Expression
+- Entropy Risk
 - Pathological Overreach
 - Limiting Principle
 - Drafting Prompts
@@ -50,6 +62,7 @@ Required sections:
 Required sections:
 
 - Purpose
+- Beautify / Amplify / Degrade / Restore
 - Civilization Authorizes Empire
 - Empire Protects Civilization
 - Empire Deforms Civilization

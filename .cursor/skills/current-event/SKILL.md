@@ -37,7 +37,8 @@ Use it when the operator names a recent event and wants judgment or an instrumen
    - **treaty / mechanism sketch** when obligations or verification matter;
    - **Richelieu/Bismarck stress test** when overreach risk is the point.
 6. **Draft the instrument.** Produce the chosen statecraft artifact with red lines, concessions, verification, fallback, and off-ramp as relevant.
-7. **Offer four calibrated option paths.** End every default current-event read with exactly four labeled paths calibrated to the specific event, actors, crisis object, and likely instruments. Do not reuse generic template labels as the option text.
+7. **Check for recursive update candidates.** If the event exposes a durable civilization pattern, empire instrument, state regulator, helix crosswalk, transaction precedent, falsifier, or revisit trigger, suggest a compressed candidate for the relevant `<lane>/updates/pending.md`. Do not require a candidate for every event.
+8. **Offer four calibrated option paths.** End every default current-event read with exactly four labeled paths calibrated to the specific event, actors, crisis object, and likely instruments. Do not reuse generic template labels as the option text.
 
 ## Default Output
 
@@ -63,6 +64,12 @@ If the operator gives only an event and no artifact type, output:
 **Stress Test**
 - Main objection:
 - Falsifier:
+
+**Recursive Update Candidate**
+- Needed: yes / no
+- Lane / target:
+- Candidate summary:
+- Suggested action:
 
 **Option Paths - reply A-D**
 A. [topic-specific treaty / mechanism path] - name the parties, object, and verification problem

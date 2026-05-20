@@ -8,6 +8,10 @@ Use this template when promoting a seed from `civilization/seed-patterns.md` int
 
 Name the inherited code in one sentence.
 
+## Beautification
+
+Name the form, memory, art, law, legitimacy, public order, meaning, or inherited excellence this pattern creates or preserves.
+
 ## CIV-MEM Sources
 
 - Primary:
@@ -36,6 +40,10 @@ Name the empire instrument this pattern tends to authorize.
 ## Anti-Pattern
 
 Name the move that appears to serve the pattern but actually deforms it.
+
+## Restoration Path
+
+Name the reform, restraint, settlement, renewal, retreat, or institutional repair that can restore the pattern when empire degrades it.
 
 ## Drafting Use
 

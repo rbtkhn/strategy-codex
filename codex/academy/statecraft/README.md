@@ -19,6 +19,8 @@ Canonical PH-CIV / statecraft hinge: **Civilizational pattern and narrative beco
 
 Mature lane doctrine: **each state lane is a book and a machine**. The book side grows into a complete, compelling, evidence-backed story of a civilization under power. The machine side stages reviewable updates from live statecraft work so the lane improves the next analysis without rewriting itself automatically.
 
+Civilization and Empire cycle: **Beautify -> Amplify -> Degrade -> Restore.** Civilization beautifies; empire amplifies; entropy degrades; statecraft restores.
+
 ## Entry Points
 
 - [Method](METHOD.md) - compact statecraft drafting loop.
@@ -36,6 +38,7 @@ Mature lane doctrine: **each state lane is a book and a machine**. The book side
 - [Cross-lane transaction bundles](transactions/) - compare one crisis object across several national lanes.
 - [Sheets](sheets/) - reusable prompt benches for fast statecraft sessions.
 - [Book and machine](sheets/book-and-machine.md) - define each state lane as both a civilizational volume and a governed recursive update loop.
+- [Civilization and Empire cycle](sheets/civilization-empire-cycle.md) - diagnose beautification, amplification, civilizational entropy, and restoration.
 - [Civilizational pattern to statecraft](sheets/civilizational-pattern-to-statecraft.md) - convert PH-CIV pattern and narrative into authority, restraint, and settlement.
 - [Folder choreography](sheets/folder-choreography.md) - move from `civilization/` memory through `empire/` reach, `state/` decision, `helix.md` regulation, and `transactions/` binding.
 - [State lane development roadmap](sheets/state-lane-development-roadmap.md) - systematically seed, deepen, regulate, and extract each state lane's civilization and empire folders.
@@ -72,13 +75,20 @@ Academy-statecraft should grow as a drafting program, not as a commentary shelf.
 
 **Civilization generates the drive toward empire; durable statecraft regulates that drive through authority, restraint, and settlement so sovereignty and security survive over time.**
 
+Its cycle is:
+
+**Beautify -> Amplify -> Degrade -> Restore.**
+
 1. **Pattern / narrative.** PH-CIV, history, and speaker-state identify recurring civilizational patterns, strategic narratives, and live mechanisms.
 2. **Perspective.** National lanes convert the same crisis into distinct state interests, fears, leverage, constraints, and preferred instruments.
-3. **Helix.** Civilization names inherited code; empire names outward striving for security and control; statecraft names the regulatory limit.
-4. **Validation.** Richelieu tests authority and institutional carrier; Bismarck tests restraint, equilibrium, and settlement.
-5. **Transaction.** A reusable statecraft transaction packages source inputs, historical continuity, validation, instrument text, falsifiers, and revisit triggers.
-6. **Recursive update.** Live outputs stage candidate improvements to the lane's civilization, empire, state, helix, or transaction surfaces.
-7. **Scoreboard.** Pape-style and Mearsheimer-style scoreboards track whether power, leverage, and restraint are changing over time.
+3. **Beautification.** Civilization names the form, meaning, legitimacy, and order worth preserving.
+4. **Amplification.** Empire names the reach, control, security, prestige, and dependency instruments that extend civilization.
+5. **Degradation.** The helix names civilizational entropy: where amplification begins to deform what it protects.
+6. **Restoration.** Statecraft names the authority, restraint, settlement, reform, or renewal that repairs the cycle.
+7. **Validation.** Richelieu tests authority and institutional carrier; Bismarck tests restraint, equilibrium, and settlement.
+8. **Transaction.** A reusable statecraft transaction packages source inputs, historical continuity, validation, instrument text, falsifiers, and revisit triggers.
+9. **Recursive update.** Live outputs stage candidate improvements to the lane's civilization, empire, state, helix, or transaction surfaces.
+10. **Scoreboard.** Pape-style and Mearsheimer-style scoreboards track whether power, leverage, and restraint are changing over time.
 
 The goal is not to make the four state lanes agree. The goal is to preserve their orthogonality long enough to draft instruments that can survive contact with each actor's real incentives.
 

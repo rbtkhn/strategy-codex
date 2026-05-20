@@ -147,3 +147,12 @@ Choose one:
 - `validated` - provenance, continuity, carrier, limited aim, and off-ramp are clear.
 - `volatile` - useful but scoreboards, facts, or actor incentives are moving fast.
 - `superseded` - replaced by a later transaction or invalidated by events.
+
+## Recursive Update Candidates
+
+Use this section only when the transaction exposes a durable lane improvement. Do not rewrite `civilization/`, `empire/`, `state/`, `helix.md`, or `transactions/` directly from the transaction. Stage compressed candidates in `<lane>/updates/pending.md` using [Recursive Update Candidate Template](recursive-update-candidate.md).
+
+- Candidate needed: yes / no
+- Target:
+- Candidate summary:
+- Suggested action:

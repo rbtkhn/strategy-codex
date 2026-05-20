@@ -13,15 +13,21 @@ Each state lane is a book and a machine:
 
 The book gives memory, sweep, judgment, and narrative force. The machine gives tests, update paths, review discipline, and operational consequence.
 
+The shared cycle is:
+
+> Civilization beautifies. Empire amplifies. Entropy degrades. Statecraft restores.
+
 ## Book Side
 
 The book side should make the lane readable as a civilizational volume:
 
 - What this civilization remembers.
+- What this civilization beautifies.
 - What it fears.
 - What it treats as legitimate authority.
 - What geography, religion, law, economy, trauma, and succession do to its statecraft.
 - What kind of empire it generates when trying to secure itself.
+- What civilizational entropy that empire creates.
 - What kind of restraint can preserve it from its own overreach.
 
 The model is not a country encyclopedia. It is closer to a Will Durant-scale civilizational narrative translated into statecraft consequence.
@@ -32,7 +38,7 @@ The machine side should let the lane learn through use:
 
 1. A current-event command, transaction, objection matrix, or scenario test produces a statecraft output.
 2. The output exposes a new pattern, instrument, authority carrier, overreach warning, settlement form, or falsifier.
-3. The lane stages an update candidate for `civilization/`, `empire/`, `state/`, `helix.md`, or `transactions/`.
+3. The lane stages an update candidate in `<lane>/updates/pending.md` for `civilization/`, `empire/`, `state/`, `helix.md`, or `transactions/`.
 4. A human review accepts, revises, defers, or rejects the candidate.
 5. Approved updates deepen the lane and improve future analysis.
 
@@ -45,10 +51,13 @@ Recursive means the lane modifies itself through governed work. It does not mean
 - **State regulator:** authority carrier, institutional constraint, review mechanism, domestic legitimacy rule, or succession-safe decision rule.
 - **Helix crosswalk:** civilization pattern paired with empire instrument and statecraft regulator.
 - **Transaction precedent:** tested clause, objection patch, falsifier, revisit trigger, or settlement spine.
+- **Entropy signal:** evidence that amplification is degrading the civilization it claims to protect.
 
 ## Recursive Rule
 
 Do not let live analysis directly rewrite the lane narrative. Convert live analysis into reviewable update candidates first.
+
+The lane-local `updates/pending.md` file is the membrane between book and machine. It preserves review history inside the state lane so the lane can eventually become an independent repo.
 
 Minimum candidate fields:
 
@@ -59,6 +68,8 @@ Minimum candidate fields:
 - Statecraft consequence:
 - Failure / overreach warning:
 - Suggested action: accept, revise, defer, or reject
+
+Use [Recursive Update Candidate Template](../templates/recursive-update-candidate.md) for candidate shape.
 
 ## Maturity Test
 
