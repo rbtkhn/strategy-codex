@@ -10,6 +10,10 @@ Lane law: **Civilization stores state memory. Empire converts memory into reach.
 
 Arc-lens rule: **Each major civilization object is an arc-lens, not a topic page.** The lens reads the present; the arc carries the civilizational development that makes the reading legitimate. A file such as `god.md`, `lit.md`, `art.md`, `geo.md`, `war.md`, or `peace.md` should therefore trace origin, continuity, transformation, current carrier, failure mode, and transaction use while also naming what it helps the operator see now.
 
+State-braid rule: use the [State Braid Model](sheets/state-braid-model.md) when several arcs must stay linked long enough to become one real instrument. A braid is the drafting structure that keeps coupled lines together until they can be converted into authority, restraint, and settlement. Keep this distinct from a `helix`: helix names long-run recurrence and transformation across time, while braid names the live coupled bundle that must be drafted together now.
+
+Abraham-helix rule: use the [Abraham Helix](sheets/abraham-helix.md) when the long-run field is specifically the recurrent coexistence, rivalry, and political translation of Judaism, Christianity, and Islam. Do not use it as a generic Middle East lens; use it when the three-religion inheritance is doing real explanatory work.
+
 ## Drafting Loop
 
 1. **Name the state interest.** State the concrete interest in one sentence without moral theater or bureaucratic fog.

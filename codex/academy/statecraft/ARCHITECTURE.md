@@ -37,6 +37,7 @@ The stable sequence is:
 | [Civilization / Empire helix template](templates/civilization-empire-helix.md) | living-state scaffold | It keeps inherited code, imperial striving, and regulatory restraint visible in every lane. |
 | [Book and machine](sheets/book-and-machine.md) | recursive manuscript doctrine | It defines the lane as both a civilizational volume and a governed update loop. |
 | [Folder choreography](sheets/folder-choreography.md) | lane movement scaffold | It keeps the folders acting like organs of judgment rather than storage bins. |
+| [State braid model](sheets/state-braid-model.md) | coupled crisis-object scaffold | It keeps linked arcs together until they can become one draftable statecraft object. |
 | [Statecraft transaction template](templates/statecraft-transaction.md) | reusable package | It forces provenance, continuity, validation, text, falsifiers, and status into one artifact. |
 | [Civilizational pattern to statecraft](sheets/civilizational-pattern-to-statecraft.md) | PH-CIV bridge | It states the hinge: `pattern / narrative -> authority / restraint / settlement`. |
 | [Speaker-state intake](README.md#speaker-state-intake) | contemporary mechanism feed | It lets the speaker shelf inform drafts without becoming the authority of the lane. |

@@ -40,6 +40,8 @@ Arc-lens doctrine: **each major civilization object is an arc-lens, not a topic 
 - [Statecraft transaction template](templates/statecraft-transaction.md) - package speaker-state inputs into validated treaty, memo, brief, or off-ramp instruments.
 - [Cross-lane transaction bundles](transactions/) - compare one crisis object across several national lanes.
 - [Transaction router](sheets/transaction-router.md) - match a current-event crisis object to the 12 transaction objects before drafting or proposing a new object.
+- [State braid model](sheets/state-braid-model.md) - keep several linked arcs together long enough to draft one authority-bearing, restraint-bearing, settlement-bearing object; use `helix` instead for long-run recurrent patterns that return in transformed form over time.
+- [Abraham helix](sheets/abraham-helix.md) - read long-run recurrence across Judaism, Christianity, and Islam when sacred inheritance, fulfillment, protection, and political order keep returning in new forms.
 - [Sheets](sheets/) - reusable prompt benches for fast statecraft sessions.
 - [Book and machine](sheets/book-and-machine.md) - define each state lane as both a civilizational volume and a governed recursive update loop.
 - [Civilization and Empire cycle](sheets/civilization-empire-cycle.md) - diagnose beautification, amplification, civilizational entropy, and restoration.

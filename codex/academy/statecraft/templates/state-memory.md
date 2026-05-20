@@ -4,9 +4,20 @@ WORK only; not Record.
 
 Use this template for civilization-layer objects that store durable state-authority memory. A state-memory object is not a biography, not a current officeholder profile, and not a transaction. It names the long authority pattern that current state carriers inherit.
 
+Arc-lens rule: this file should read as an arc-lens, not as a topic page. It should show what the pattern helps the operator see now, where the pattern originates, how it survives, how it transforms, who carries it now, how it can fail, and how transactions should test it.
+
 ## Continuity Pattern
 
 Name the authority pattern that survives regime, dynasty, party, constitutional, or leadership changes.
+
+## Arc Shape
+
+- **Origin:** Where the pattern first becomes legible.
+- **Continuity:** How the pattern survives regime, dynasty, party, constitutional, or leadership change.
+- **Transformation:** How defeat, reform, conquest, revolution, technology, or institutional pressure changes the pattern.
+- **Current carrier:** Which present state surfaces carry the arc now.
+- **Failure mode:** How the arc degrades, hardens, or becomes false.
+- **Transaction use:** What a settlement must preserve, avoid, or prove for the arc to become usable statecraft.
 
 ## Authority Forms
 
