@@ -14,7 +14,7 @@ Purpose: name the inherited Chinese code that shapes order, continuity, industri
 
 ## Historical Continuity
 
-Distinguish the current party-state from the deeper Chinese state-space: population, industrial base, ports, rivers, civilizational memory, bureaucracy, food and energy needs, and successor claims to order.
+Distinguish the current party-state from the deeper Chinese state-space: Xia / Shang / Zhou dynastic and mandate memory, Qin-Han standardization, imperial bureaucratic restoration cycles, Yuan / Qing frontier incorporation, late-imperial humiliation and disorder, Republican fragmentation, PRC reconstruction, reform-era development legitimacy, population, industrial base, ports, rivers, bureaucracy, food and energy needs, and successor claims to order.
 
 ## Legitimacy Memory
 
@@ -37,6 +37,6 @@ Any successor Chinese authority would still need unity, food and energy security
 
 ## Development Queue
 
-Start with [seed-patterns.md](seed-patterns.md). Use [god](god.md), [lit](lit.md), [art](art.md), [war](war.md), and [peace](peace.md) as compact statecraft lenses for sacred boundary, cultural memory, legitimacy, coercion, settlement, beauty, and failure modes. Promote a seed into a full note only when a transaction, current-event brief, or comparative test needs it.
+Start with [seed-patterns.md](seed-patterns.md). Use [god](god.md), [lit](lit.md), [art](art.md), [geo](geo.md), [war](war.md), and [peace](peace.md) as compact statecraft arc-lenses for sacred boundary, cultural memory, legitimacy, terrain, coercion, settlement, beauty, and failure modes. Promote a seed into a full note only when a transaction, current-event brief, or comparative test needs it.
 
 Use [civilization objects](objects/) when a recurring authority pattern needs to connect the China book surface to current state carriers, diplomatic transmitters, and transaction authority checks. First object: [state memory](objects/state-memory.md).

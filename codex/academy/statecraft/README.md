@@ -21,6 +21,8 @@ Mature lane doctrine: **each state lane is a book and a machine**. The book side
 
 Civilization and Empire cycle: **Beautify -> Amplify -> Degrade -> Restore.** Civilization beautifies; empire amplifies; entropy degrades; statecraft restores.
 
+Arc-lens doctrine: **each major civilization object is an arc-lens, not a topic page.** A state-memory, god, lit, art, geo, war, or peace object reads the present as a lens and carries memory through time as an arc. The point is to convert civilizational memory into perception, perception into statecraft judgment, and judgment into transaction use or recursive update.
+
 ## Entry Points
 
 - [Method](METHOD.md) - compact statecraft drafting loop.
@@ -44,6 +46,7 @@ Civilization and Empire cycle: **Beautify -> Amplify -> Degrade -> Restore.** Ci
 - [Civilizational pattern to statecraft](sheets/civilizational-pattern-to-statecraft.md) - convert PH-CIV pattern and narrative into authority, restraint, and settlement.
 - [Folder choreography](sheets/folder-choreography.md) - move from `civilization/` memory through `empire/` reach, `state/` decision, `helix.md` regulation, and `transactions/` binding.
 - [State lane development roadmap](sheets/state-lane-development-roadmap.md) - systematically seed, deepen, regulate, and extract each state lane's civilization and empire folders.
+- [CIV-MEM object retrieval matrix](sheets/civ-mem-object-retrieval-matrix.md) - run direct, lens, graph, counterweight, and arc-lens retrieval before major civilization backfills.
 - [National perspective orthogonality](sheets/national-perspective-orthogonality.md) - compare U.S., Russia, China, Iran, and other state views without collapsing them into one generic strategic lens.
 - [Authority carrier orthogonality](sheets/authority-carrier-orthogonality.md) - compare leader / office / party-state / security-carrier problems without flattening them into biography.
 - [Crisis test casebook](sheets/crisis-test-casebook.md) - method memory for contested objects, game types, filters learned, and settlement spines.

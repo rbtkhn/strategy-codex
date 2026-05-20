@@ -14,7 +14,7 @@ Purpose: name the inherited Russian code that shapes security-depth demands, sov
 
 ## Historical Continuity
 
-Distinguish the current Russian government from the deeper Russian state: strategic depth, military-industrial base, nuclear inheritance, Eurasian geography, energy infrastructure, borderland memory, and successor claims to security.
+Distinguish the current Russian government from the deeper Russian state: Rurik / Varangian-Novgorod founding-order memory, Kievan Rus inheritance, Mongol / Golden Horde pressure, Muscovite gathering, Romanov imperial reach, Soviet command and nuclear inheritance, post-Soviet collapse trauma, strategic depth, military-industrial base, Eurasian geography, energy infrastructure, borderland memory, and successor claims to security.
 
 ## Legitimacy Memory
 
@@ -37,6 +37,6 @@ Any successor Russian authority would still need strategic depth, secure borders
 
 ## Development Queue
 
-Start with [seed-patterns.md](seed-patterns.md). Promote a seed into a full note only when a transaction, current-event brief, or comparative test needs it.
+Start with [seed-patterns.md](seed-patterns.md). Use [god](god.md), [lit](lit.md), [art](art.md), [geo](geo.md), [war](war.md), and [peace](peace.md) as compact statecraft arc-lenses for sacred boundaries, cultural memory, legitimacy, terrain, coercion, settlement, beauty, and failure modes. Promote a seed into a full note only when a transaction, current-event brief, or comparative test needs it.
 
 Use [civilization objects](objects/) when a recurring authority pattern needs to connect the Russia book surface to current state carriers, diplomatic transmitters, and transaction authority checks. First object: [state memory](objects/state-memory.md).

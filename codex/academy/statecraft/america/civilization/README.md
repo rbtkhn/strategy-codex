@@ -37,6 +37,6 @@ Any successor American power center would still need continental coherence, mari
 
 ## Development Queue
 
-Start with [seed-patterns.md](seed-patterns.md). Use [god](god.md), [lit](lit.md), [art](art.md), [war](war.md), and [peace](peace.md) as compact statecraft lenses for sacred boundary, cultural memory, legitimacy, coercion, settlement, beauty, and failure modes. Promote a seed into a full note only when a transaction, current-event brief, or comparative test needs it.
+Start with [seed-patterns.md](seed-patterns.md). Use [god](god.md), [lit](lit.md), [art](art.md), [geo](geo.md), [war](war.md), and [peace](peace.md) as compact statecraft arc-lenses for sacred boundary, cultural memory, legitimacy, terrain, coercion, settlement, beauty, and failure modes. Promote a seed into a full note only when a transaction, current-event brief, or comparative test needs it.
 
 Use [civilization objects](objects/) for long-pattern authority surfaces such as [state memory](objects/state-memory.md).
