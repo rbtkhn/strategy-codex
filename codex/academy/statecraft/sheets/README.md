@@ -22,7 +22,8 @@ These sheets are reusable prompt benches for academy-statecraft. They are not su
 14. [Pape coercive-center index](pape-coercive-center-index.md) - Track great-power ranking by crisis leverage rather than size alone.
 15. [Mearsheimer structural-realist scoreboard](mearsheimer-structural-realist-scoreboard.md) - Track structural power, balancing pressure, overextension risk, institutional carrier, and restraint.
 16. [CIV-MEM object retrieval matrix](civ-mem-object-retrieval-matrix.md) - Use direct lane, lens, and `MEM CONNECTIONS` retrieval before major state-memory, god, lit, art, war, or peace backfills.
-17. **National lanes** - Open [America](../america/), [Russia](../russia/), [China](../china/), or [Iran](../iran/) when the comparison should become a country-specific treaty, memo, negotiation brief, or crisis instrument.
+17. [Civilization lens backfill audit](civilization-lens-backfill-audit.md) - Score existing `art`, `lit`, `war`, and `peace` surfaces for graph-backed CIV-MEM strength before upgrading them.
+18. **National lanes** - Open [America](../america/), [Russia](../russia/), [China](../china/), or [Iran](../iran/) when the comparison should become a country-specific treaty, memo, negotiation brief, or crisis instrument.
 
 ## Prompt Forms
 
