@@ -124,7 +124,7 @@ def build_frontier_source_hint(
     published = latest.get("published_at") or "unknown date"
     guidance = (
         "AI frontier watch: latest The Innermost Loop post is "
-        f"\"{title}\" ({published}); decide tomorrow whether it merits Coffee C source hygiene."
+        f"\"{title}\" ({published}); decide tomorrow whether it merits explicit source hygiene or Coffee D/C conversion."
     )
     return {
         **base,
@@ -142,7 +142,7 @@ def format_frontier_source_followup(hint: dict[str, Any]) -> str | None:
     title = _clean_text(str(hint.get("title") or "untitled"))[:120]
     return (
         f"AI frontier watch: The Innermost Loop latest - {title} - "
-        "consider Coffee C source hygiene if relevant tomorrow"
+        "consider explicit source hygiene if relevant tomorrow"
     )
 
 

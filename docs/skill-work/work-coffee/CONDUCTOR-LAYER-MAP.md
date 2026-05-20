@@ -70,7 +70,7 @@ Define the three menu names:
 
 ### Coffee Hub Menu
 
-The **A-D** menu used by [`.cursor/skills/coffee/SKILL.md`](../../../.cursor/skills/coffee/SKILL.md) to route the operator among broad coffee-session options (**Steward / Engineer / Strategist / Singularity**). Conductor is invoked separately by master name, `conductor`, or the standalone conductor skill.
+The **A-D** menu used by [`.cursor/skills/coffee/SKILL.md`](../../../.cursor/skills/coffee/SKILL.md) to route the operator among broad coffee-session options (**Steward / Engineer / Statecraft / Singularity**). Conductor is invoked separately by master name, `conductor`, or the standalone conductor skill.
 
 ### Name-Only Conductor Selection
 

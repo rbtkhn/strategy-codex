@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Read-only Strategy-codex return hint for Coffee C.
+"""Read-only Strategy-codex return hint for explicit strategy/source return.
 
 This helper inspects the canonical Strategy-codex inbox/raw-input surfaces and
 returns a compact re-entry hint. It does not compose notebook prose, fetch
@@ -19,7 +19,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 CODEX_ROOT = REPO_ROOT / "codex"
 DEFAULT_INBOX = CODEX_ROOT / "daily-strategy-inbox.md"
 DEFAULT_STATUS = CODEX_ROOT / "STATUS.md"
-DEFAULT_RAW_ROOT = CODEX_ROOT / "2026" / "raw-input"
+DEFAULT_RAW_ROOT = CODEX_ROOT / "years" / "2026" / "raw-input"
 RE_URL = re.compile(r"https://[^\s\]>)}]+")
 RE_RAW_INPUT_MD = re.compile(r"raw-input/[^\s\])]+\.md")
 
@@ -46,7 +46,7 @@ class StrategyReturnHint:
         if self.active_chapter:
             chapter_tail = f"; active chapter={self.active_chapter}"
         return [
-            "## Strategy return (Coffee C)",
+            "## Strategy return (explicit route)",
             "",
             f"- Live seam: {self.live_seam}",
             (
@@ -54,7 +54,7 @@ class StrategyReturnHint:
                 f"ready={self.ready}, verify={self.verify}, "
                 f"raw-input gap={self.raw_input_gap}, carry={self.carry}{chapter_tail}"
             ),
-            f"- Suggested C move: {self.suggested_move}",
+            f"- Suggested strategy move: {self.suggested_move}",
             "",
         ]
 
@@ -94,6 +94,7 @@ def resolve_active_days_path(repo_root: Path, active_chapter: str | None) -> Pat
     if not active_chapter:
         return None
     candidates = [
+        repo_root / "codex" / "years" / "2026" / "chapters" / active_chapter / "days.md",
         repo_root / "codex" / "2026" / "chapters" / active_chapter / "days.md",
         repo_root / "codex" / "chapters" / active_chapter / "days.md",
     ]
@@ -257,7 +258,7 @@ def build_strategy_return_hint(
     status_path: Path | None = None,
 ) -> StrategyReturnHint:
     inbox = inbox_path or repo_root / "codex" / "daily-strategy-inbox.md"
-    raw = raw_root or repo_root / "codex" / "2026" / "raw-input"
+    raw = raw_root or repo_root / "codex" / "years" / "2026" / "raw-input"
     status = status_path or repo_root / "codex" / "STATUS.md"
 
     live_text = live_accumulator_text(read_text(inbox))
@@ -298,7 +299,7 @@ def configure_utf8_stdio() -> None:
 
 def main() -> int:
     configure_utf8_stdio()
-    parser = argparse.ArgumentParser(description="Print the read-only Strategy return hint for Coffee C.")
+    parser = argparse.ArgumentParser(description="Print the read-only Strategy return hint for explicit strategy/source return.")
     parser.add_argument("--repo-root", type=Path, default=REPO_ROOT)
     args = parser.parse_args()
     print("\n".join(format_strategy_return_lines(args.repo_root)))

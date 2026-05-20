@@ -12,7 +12,7 @@
 
 | Role | Description |
 |------|-------------|
-| **Cadence architecture** | Defines work-start vs signing-off **Step 1** weight, **one** fixed **`coffee` hub** (**A-D**: Steward, Engineer, Strategist, Singularity), **standalone name-only Conductor** sessions, re-entry behavior, and cadence modifiers. |
+| **Cadence architecture** | Defines work-start vs signing-off **Step 1** weight, **one** fixed **`coffee` hub** (**A-D**: Steward, Engineer, Statecraft, Singularity), **standalone name-only Conductor** sessions, re-entry behavior, and cadence modifiers. |
 | **Operator activation** | Holds the rationale for why the `coffee` ritual exists: activation, rhythm, state shift, and workflow dopamine replacement. |
 | **Boundary surface** | Explains what belongs in WORK-only docs/history versus what must escalate to `RECURSION-GATE` or change review. |
 | **Session trail guidance** | Clarifies how `session-transcript`, `work-*-history.md`, and `self-memory` relate without collapsing into one another. |
@@ -29,7 +29,7 @@ This split is intentional:
 - the skill should stay optimized for invocation and agent behavior
 - the territory should hold the longer-form doctrine and lane-specific history
 
-**`coffee` C - Strategist** opens exactly three actionable options and nothing else: **A. Intel** (daily brief / current-events watch, including Putin/Vance watches, optional KY-4, and the `check streams` daily Davis / Diesen / Alkorshid / Napolitano / Mercouris roster), **B. Bookshelf quiz / Abundance-pack OS** (self-knowledge MCQs toward IX-A candidates when explicitly invoked), and **C. Bridge idea pack** (History Notebook / Predictive History synthesis setup with Tri-Frame only after the spine is chosen). Agents should **not** auto-run the brief, `check streams`, or auto-offer Tri-Frame before this submenu - see [menu-reference.md](menu-reference.md#tri-frame-daily-brief). `cognition streams` remains a legacy alias for this daily roster path.
+**`coffee` C - Statecraft** opens the WORK-only academy-statecraft drafting bench at [Statecraft Workshop](../../../codex/academy/statecraft/README.md): **A. Treaty framework**, **B. Policy paper**, **C. Negotiation brief**, and **D. Richelieu/Bismarck stress test**. Agents should **not** auto-run the daily brief, `check streams`, bookshelf elicitation, or archived Tri-Frame before this submenu. Those remain explicit named routes unless the operator asks to convert source material into a statecraft instrument.
 
 **Symphony / Conductor:** Conductor is standalone name-only; strategy-notebook cadence lives in [COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md](../work-strategy/strategy-notebook/COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md) + [CONDUCTOR-PASS.md](CONDUCTOR-PASS.md). Invoke by conductor name, **`conductor <name>`**, or [conductor skill](../../../.cursor/skills/conductor/SKILL.md) without opening **`coffee`** when preferred.
 
@@ -120,7 +120,7 @@ In scope:
 
 - operator cadence design
 - activation rituals
-- work-start / signing-off (merged into one fixed coffee flow; Rome / Jiang / notebook synthesis and self-knowledge bookshelf quiz land under **C - Strategist**; academy-singularity activation lands under **D - Singularity**; skill-write / commercial slices route by explicit request outside the coffee hub; Conductor is standalone by name; fold strategy-only into **C** per [coffee SKILL](../../../.cursor/skills/coffee/SKILL.md))
+- work-start / signing-off (merged into one fixed coffee flow; treaty/policy/negotiation drafting lands under **C - Statecraft**; academy-singularity activation lands under **D - Singularity**; Rome / Jiang / notebook synthesis, self-knowledge bookshelf quiz, skill-write, and commercial slices route by explicit request outside the coffee hub unless converted into statecraft output; Conductor is standalone by name; see [coffee SKILL](../../../.cursor/skills/coffee/SKILL.md))
 - reorientation and multi-`coffee` behavior
 - survey/cadence workflow design
 - relationship between hub flow and territory execution

@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """
 Generate a compact daily operator warmup for strategy-codex.
 
@@ -548,18 +548,18 @@ def build_operator_daily_warmup(
         except Exception as exc:
             lines.extend(
                 [
-                    "## Strategy return (Coffee C)",
+                    "## Strategy return (explicit route)",
                     "",
-                    f"- Strategy return skipped: {exc.__class__.__name__}; Coffee C remains manual/read-only.",
+                    f"- Strategy return skipped: {exc.__class__.__name__}; strategy return remains manual/read-only. Coffee C is Statecraft.",
                     "",
                 ]
             )
     else:
         lines.extend(
             [
-                "## Strategy return (Coffee C)",
+                "## Strategy return (explicit route)",
                 "",
-                "- Strategy return unavailable: helper import failed; Coffee C remains manual/read-only.",
+                "- Strategy return unavailable: helper import failed; strategy return remains manual/read-only. Coffee C is Statecraft.",
                 "",
             ]
         )
@@ -626,7 +626,7 @@ def build_operator_daily_warmup(
             "",
             "## Coffee - KY-4 polling + prediction markets (lazy)",
             "",
-            "- With **coffee** (legacy `hey`): **Polymarket** + independent poll **web search** + Massie X run **only** after **menu C - Strategist** (or explicit same-message request), per `docs/skill-work/work-politics/polling-and-markets.md` - **not** in Step 1. This script does not fetch markets; follow the skill after this command.",
+            "- With **coffee** (legacy `hey`): **Polymarket** + independent poll **web search** + Massie X run **only** after an explicit same-message request, per `docs/skill-work/work-politics/polling-and-markets.md` - **not** in Step 1 and not Coffee C Statecraft by default. This script does not fetch markets; follow the skill after this command.",
             "",
             "## Guardrail",
             "",

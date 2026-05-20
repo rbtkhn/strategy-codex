@@ -135,7 +135,7 @@ Cadence lines alone are **insufficient** to store *what* improved in the work. *
 
 - **Not** a second **`coffee`** step for every lane; the **`coffee` Step 2** hub is **A-D** in [.cursor/skills/coffee/SKILL.md](../../../.cursor/skills/coffee/SKILL.md).
 - **Not** an instruction to **merge** the Record, auto-promote, or replace **A ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Steward** with ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œconduct the gate.ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â
-- **Not** a replacement for **C - Strategist** (Intel / Bookshelf quiz / Bridge idea pack submenu).
+- **Not** a replacement for **C - Statecraft** (treaty / policy / negotiation / Richelieu-Bismarck stress-test submenu).
 
 ---
 

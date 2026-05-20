@@ -17,8 +17,8 @@ def _fixture_repo(tmp_path: Path) -> Path:
     repo = tmp_path
     inbox = repo / "codex" / "daily-strategy-inbox.md"
     status = repo / "codex" / "STATUS.md"
-    raw_root = repo / "codex" / "2026" / "raw-input"
-    days = repo / "codex" / "2026" / "chapters" / "2026-04" / "days.md"
+    raw_root = repo / "codex" / "years" / "2026" / "raw-input"
+    days = repo / "codex" / "years" / "2026" / "chapters" / "2026-04" / "days.md"
     raw_file = raw_root / "2026-05-09" / "matched.md"
     inbox.parent.mkdir(parents=True)
     raw_file.parent.mkdir(parents=True)

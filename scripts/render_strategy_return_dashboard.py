@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Render a derived HTML dashboard for the Strategy return Coffee C hint.
+"""Render a derived HTML dashboard for the explicit Strategy return hint.
 
 The dashboard is an operator view only. It reads Strategy-codex work-layer
 sources, renders static HTML, and does not mutate canonical notebook or Record
@@ -108,7 +108,7 @@ def build_dashboard_context(
     hint = build_strategy_return_hint(repo_root)
     inbox_path = repo_root / "codex" / "daily-strategy-inbox.md"
     status_path = repo_root / "codex" / "STATUS.md"
-    raw_root = repo_root / "codex" / "2026" / "raw-input"
+    raw_root = repo_root / "codex" / "years" / "2026" / "raw-input"
     inbox_text = read_text(inbox_path)
     acc_date = accumulator_date_from_inbox(inbox_text)
     drift_days = accumulator_drift_days(acc_date, today=today)
@@ -158,7 +158,7 @@ def render_dashboard_html(ctx: DashboardContext) -> str:
           <ul class="source-list">
             {gap_items}
           </ul>
-          <p>Use Coffee C to close source hygiene before page or chapter composition.</p>
+          <p>Use explicit source hygiene before page or chapter composition. Coffee C is Statecraft.</p>
         </section>
         """
     else:
@@ -283,12 +283,12 @@ def render_dashboard_html(ctx: DashboardContext) -> str:
     <header>
       <div class="eyebrow">Derived Strategy-codex Operator View</div>
       <h1>Strategy Return Dashboard</h1>
-      <p class="lede">A static HTML reading layer for Coffee C. It visualizes the existing Strategy return hint; it does not replace Markdown, raw-input, strategy pages, chapters, or governed Record surfaces.</p>
+      <p class="lede">A static HTML reading layer for the Strategy return hint. It does not replace Markdown, raw-input, strategy pages, chapters, Coffee C Statecraft, or governed Record surfaces.</p>
       <div class="warning-strip">Non-canonical / derived / rebuildable. No files were mutated by this dashboard.</div>
     </header>
 
     <section class="move">
-      <h2>Suggested Coffee C Move</h2>
+      <h2>Suggested Strategy Move</h2>
       <p>{html.escape(h.suggested_move)}</p>
     </section>
 

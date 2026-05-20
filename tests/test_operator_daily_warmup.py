@@ -28,11 +28,11 @@ def test_build_operator_daily_warmup_includes_depth_and_polling_reminder(
         odw,
         "format_strategy_return_lines",
         lambda _repo: [
-            "## Strategy return (Coffee C)",
+            "## Strategy return (explicit route)",
             "",
             "- Live seam: test seam",
             "- Inbox triage: ready=1, verify=0, raw-input gap=0, carry=0; active chapter=2026-04",
-            "- Suggested C move: compose-read - review synthesis-ready clusters for page/chapter use.",
+            "- Suggested strategy move: compose-read - review synthesis-ready clusters for page/chapter use.",
             "",
         ],
     )
@@ -57,5 +57,5 @@ def test_build_operator_daily_warmup_includes_depth_and_polling_reminder(
     assert "KY-4 polling + prediction markets" in warmup
     assert "Polymarket" in warmup
     assert "polling-and-markets.md" in warmup
-    assert "## Strategy return (Coffee C)" in warmup
-    assert "Suggested C move: compose-read" in warmup
+    assert "## Strategy return (explicit route)" in warmup
+    assert "Suggested strategy move: compose-read" in warmup

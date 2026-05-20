@@ -1,4 +1,4 @@
-"""Tests for the read-only Coffee C Strategy return hint."""
+"""Tests for the read-only explicit Strategy return hint."""
 
 from __future__ import annotations
 
@@ -28,9 +28,9 @@ _(Append below this line during the day.)_
 def test_build_strategy_return_hint_buckets_and_recommendation(tmp_path: Path) -> None:
     repo = tmp_path
     inbox = repo / "codex" / "daily-strategy-inbox.md"
-    raw_root = repo / "codex" / "2026" / "raw-input"
+    raw_root = repo / "codex" / "years" / "2026" / "raw-input"
     status = repo / "codex" / "STATUS.md"
-    days = repo / "codex" / "2026" / "chapters" / "2026-04" / "days.md"
+    days = repo / "codex" / "years" / "2026" / "chapters" / "2026-04" / "days.md"
     inbox.parent.mkdir(parents=True)
     raw_root.mkdir(parents=True)
     status.parent.mkdir(parents=True, exist_ok=True)

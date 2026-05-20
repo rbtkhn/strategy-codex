@@ -77,5 +77,5 @@ def test_format_frontier_source_followup_only_for_ok_hint():
 
     assert followup is not None
     assert "AI frontier watch" in followup
-    assert "Coffee C source hygiene" in followup
+    assert "explicit source hygiene" in followup
     assert hint.format_frontier_source_followup(unavailable) is None
