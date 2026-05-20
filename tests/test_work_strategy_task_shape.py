@@ -58,6 +58,12 @@ def test_fixture_primary_shape(rel_task: str, expected_primary: str, tmp_path: P
     r = subprocess.run(cmd, cwd=REPO_ROOT, capture_output=True, text=True)
     assert r.returncode == 0, r.stderr + r.stdout
     data = json.loads(out.read_text(encoding="utf-8"))
+    assert data["receipt_family"] == "inspection"
+    assert data["receipt_kind"] == "work-strategy-task-shape-report"
+    assert data["actor"]["id"] == "scripts/work_strategy/classify_task_shape.py"
+    assert data["record_authority"]["class"] == "none"
+    assert data["gate_effect"]["class"] == "none"
+    assert data["review_surface"]["primary"] == "task_shape_report"
     assert data["classification"]["primary_shape"] == expected_primary
 
 
@@ -78,6 +84,7 @@ def test_frontmatter_overrides_keyword_noise(tmp_path: Path) -> None:
     data = json.loads(out.read_text(encoding="utf-8"))
     assert data["classification"]["primary_shape"] == "notebook_synthesis"
     assert data["classification"]["confidence"] == "high"
+    assert data["status"] == "pass"
     assert any(s.startswith("frontmatter:") for s in data["classification"]["matched_signals"])
 
 
@@ -96,6 +103,7 @@ def test_ambiguous_low_confidence(tmp_path: Path) -> None:
     r = subprocess.run(cmd, cwd=REPO_ROOT, capture_output=True, text=True)
     assert r.returncode == 0
     data = json.loads(out.read_text(encoding="utf-8"))
+    assert data["status"] == "needs_review"
     assert data["classification"]["confidence"] == "low"
     assert data["classification"]["notes"]
 
@@ -135,6 +143,7 @@ def test_forbidden_out_users(tmp_path: Path) -> None:
     assert bad_out.is_file() is False
     payload = json.loads(r.stdout)
     assert payload["record_boundary"]["canonical_write_violation"] is True
+    assert payload["resources_written"] == []
 
 
 def test_json_stdout(tmp_path: Path) -> None:
@@ -152,7 +161,8 @@ def test_json_stdout(tmp_path: Path) -> None:
     ]
     r = subprocess.run(cmd, cwd=REPO_ROOT, capture_output=True, text=True)
     assert r.returncode == 0
-    json.loads(r.stdout)
+    payload = json.loads(r.stdout)
+    assert payload["receipt_family"] == "inspection"
 
 
 def test_carry_harness_classify_embeds_receipt(tmp_path: Path) -> None:
@@ -180,6 +190,8 @@ def test_carry_harness_classify_embeds_receipt(tmp_path: Path) -> None:
     assert receipt["task_shape_confidence"] in ("high", "medium", "low")
     assert receipt.get("task_shape_expected_outputs")
     assert ts_path.is_file()
+    ts_data = json.loads(ts_path.read_text(encoding="utf-8"))
+    assert ts_data["status"] in ("pass", "needs_review")
 
 
 def test_validator_task_shape_cli(tmp_path: Path) -> None:

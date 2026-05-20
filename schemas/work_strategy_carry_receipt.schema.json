@@ -7,9 +7,21 @@
   "additionalProperties": false,
   "required": [
     "schema_version",
+    "receipt_family",
+    "receipt_kind",
     "run_id",
     "created_at",
     "lane",
+    "actor",
+    "intent",
+    "authority_class",
+    "resources_read",
+    "resources_written",
+    "status",
+    "review_surface",
+    "rollback_surface",
+    "record_authority",
+    "gate_effect",
     "harness",
     "input",
     "expected_artifacts",
@@ -25,9 +37,88 @@
       "type": "string",
       "const": "work-strategy-carry-receipt.v1"
     },
+    "receipt_family": {
+      "type": "string",
+      "const": "execution"
+    },
+    "receipt_kind": {
+      "type": "string",
+      "const": "work-strategy-carry-receipt"
+    },
     "run_id": { "type": "string", "minLength": 1 },
     "created_at": { "type": "string", "minLength": 1 },
     "lane": { "type": "string", "const": "work-strategy" },
+    "actor": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "id", "label"],
+      "properties": {
+        "kind": { "type": "string", "const": "script" },
+        "id": { "type": "string", "const": "scripts/work_strategy/run_carry_harness.py" },
+        "label": { "type": "string", "const": "run_carry_harness" }
+      }
+    },
+    "intent": {
+      "type": "string",
+      "minLength": 1
+    },
+    "authority_class": {
+      "type": "string",
+      "const": "work_operator"
+    },
+    "resources_read": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "resources_written": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "status": {
+      "type": "string",
+      "enum": ["pass", "fail", "needs_review"]
+    },
+    "review_surface": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["primary", "paths", "notes"],
+      "properties": {
+        "primary": { "type": "string", "const": "receipt_json" },
+        "paths": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "notes": { "type": "string", "minLength": 1 }
+      }
+    },
+    "rollback_surface": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["primary", "notes"],
+      "properties": {
+        "primary": { "type": "string", "const": "rerun_or_replace" },
+        "notes": { "type": "string", "minLength": 1 }
+      }
+    },
+    "record_authority": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["class", "notes"],
+      "properties": {
+        "class": { "type": "string", "const": "none" },
+        "notes": { "type": "string", "minLength": 1 }
+      }
+    },
+    "gate_effect": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["class", "snippet_ready", "notes"],
+      "properties": {
+        "class": { "type": "string", "const": "none" },
+        "snippet_ready": { "type": "boolean" },
+        "notes": { "type": "string", "minLength": 1 }
+      }
+    },
     "harness": {
       "type": "object",
       "additionalProperties": false,

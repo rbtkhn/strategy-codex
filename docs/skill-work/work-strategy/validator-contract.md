@@ -50,4 +50,20 @@ Overall summary rolls up as: any `fail` → overall `fail`; else any `needs_revi
 - They stay **WORK-only** and **derived** (JSON under `runtime/work-strategy/` or operator-chosen paths outside forbidden zones).
 - Receipts and validation reports **must not** mutate canonical Record or Voice wiring.
 
+**Control-plane fields**
+
+Validation reports also carry normalized receipt fields so they can be read alongside carry receipts and review packets:
+
+- `receipt_family` / `receipt_kind`
+- `actor`
+- `intent`
+- `authority_class`
+- `resources_read` / `resources_written`
+- `status`
+- `review_surface` / `rollback_surface`
+- `record_authority`
+- `gate_effect`
+
+These fields do not change validator behavior. They make the report legible as an **inspection** surface with no Record authority and no direct gate mutation effect.
+
 Schema: [`schemas/work_strategy_validation_report.schema.json`](../../../schemas/work_strategy_validation_report.schema.json).

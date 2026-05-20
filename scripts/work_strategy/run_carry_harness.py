@@ -24,6 +24,13 @@ from packet_common import (
 HARNESS_NAME = "run_carry_harness"
 HARNESS_VERSION = "1.0.0"
 SCHEMA_VERSION = "work-strategy-carry-receipt.v1"
+RECEIPT_KIND = "work-strategy-carry-receipt"
+ACTOR_ID = "scripts/work_strategy/run_carry_harness.py"
+
+
+def _append_if_present(items: list[str], value: str | None) -> None:
+    if value and value not in items:
+        items.append(value)
 
 
 def _load_validator_module() -> Any:
@@ -110,20 +117,60 @@ def build_receipt(
         notes_parts.append("Output path is forbidden; receipt file not written.")
 
     gate_ready = bool(gate_snippet_path and gate_snippet_text.strip())
+    task_rel = _safe_rel(task_path, repo_root) if task_path and task_path.is_file() else None
+    gate_rel = _safe_rel(gate_snippet_path, repo_root) if gate_snippet_path else None
+    receipt_rel = _safe_rel(receipt_out_path, repo_root) if receipt_out_path and not output_forbidden else None
+
+    resources_read: list[str] = []
+    _append_if_present(resources_read, task_rel)
+    _append_if_present(resources_read, gate_rel)
+    for path in source_paths:
+        _append_if_present(resources_read, path)
+
+    resources_written: list[str] = []
+    _append_if_present(resources_written, receipt_rel)
+    _append_if_present(resources_written, validation_report_path)
+    _append_if_present(resources_written, task_shape_report_path)
 
     receipt: dict[str, Any] = {
         "schema_version": SCHEMA_VERSION,
+        "receipt_family": "execution",
+        "receipt_kind": RECEIPT_KIND,
         "run_id": run_id,
         "created_at": created_at,
         "lane": "work-strategy",
+        "actor": {"kind": "script", "id": ACTOR_ID, "label": HARNESS_NAME},
+        "intent": "Check that a work-strategy task produced declared artifacts and a reviewable handoff envelope.",
+        "authority_class": "work_operator",
+        "resources_read": resources_read,
+        "resources_written": resources_written,
+        "status": result,
+        "review_surface": {
+            "primary": "receipt_json",
+            "paths": list(resources_written),
+            "notes": "Inspect the carry receipt first; use linked validation, task-shape, and review-packet outputs when present.",
+        },
+        "rollback_surface": {
+            "primary": "rerun_or_replace",
+            "notes": "Revise the task packet or artifacts, then rerun the harness; newer receipts supersede older derived runs.",
+        },
+        "record_authority": {
+            "class": "none",
+            "notes": "WORK-only derived receipt; it cannot update canonical Record truth or merge governed state.",
+        },
+        "gate_effect": {
+            "class": "none",
+            "snippet_ready": gate_ready,
+            "notes": "A gate snippet may be present as paste-only aid, but the receipt itself does not stage, propose, or merge.",
+        },
         "harness": {"name": HARNESS_NAME, "version": HARNESS_VERSION},
         "input": {
             "task_title": task_text.splitlines()[0][:200] if task_text else "",
-            "task_path": _safe_rel(task_path, repo_root) if task_path and task_path.is_file() else None,
+            "task_path": task_rel,
             "task_text_preview": task_text[:2000] if task_text else "",
             "source_paths": list(source_paths),
             "artifact_paths": list(artifact_paths),
-            "gate_snippet_path": _safe_rel(gate_snippet_path, repo_root) if gate_snippet_path else None,
+            "gate_snippet_path": gate_rel,
         },
         "expected_artifacts": [{"path": p} for p in artifact_paths],
         "observed_artifacts": observed,
@@ -572,6 +619,9 @@ def run_harness(args: argparse.Namespace) -> tuple[dict[str, Any], int]:
             _safe_rel(rmd_resolved, repo_root) if rmd_resolved and not rmd_forbidden else None
         )
         receipt["review_readiness"] = pkt["review_readiness"]
+        _append_if_present(receipt["resources_written"], receipt["review_packet_path"])
+        _append_if_present(receipt["resources_written"], receipt["review_packet_markdown_path"])
+        receipt["review_surface"]["paths"] = list(receipt["resources_written"])
 
     exit_code = 0
     res = receipt["result"]

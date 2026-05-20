@@ -77,8 +77,16 @@ def test_sample_pass_receipt(tmp_path: Path) -> None:
     assert r.returncode == 0, r.stderr + r.stdout
     data = json.loads(out.read_text(encoding="utf-8"))
     assert data["result"] == "pass"
+    assert data["status"] == "pass"
     assert data["schema_version"] == "work-strategy-carry-receipt.v1"
+    assert data["receipt_family"] == "execution"
+    assert data["receipt_kind"] == "work-strategy-carry-receipt"
     assert data["lane"] == "work-strategy"
+    assert data["actor"]["id"] == "scripts/work_strategy/run_carry_harness.py"
+    assert data["record_authority"]["class"] == "none"
+    assert data["gate_effect"]["class"] == "none"
+    assert data["review_surface"]["primary"] == "receipt_json"
+    assert any(path.endswith("receipt.json") for path in data["resources_written"])
 
 
 def test_missing_artifact_fail(tmp_path: Path) -> None:
@@ -99,6 +107,7 @@ def test_missing_artifact_fail(tmp_path: Path) -> None:
     assert r.returncode == 1
     data = json.loads(out.read_text(encoding="utf-8"))
     assert data["result"] == "fail"
+    assert data["status"] == "fail"
 
 
 def test_thin_artifact_needs_review(tmp_path: Path) -> None:
@@ -121,6 +130,7 @@ def test_thin_artifact_needs_review(tmp_path: Path) -> None:
     assert r.returncode == 0
     data = json.loads(out.read_text(encoding="utf-8"))
     assert data["result"] == "needs_review"
+    assert data["status"] == "needs_review"
 
 
 def test_forbidden_out_no_write(tmp_path: Path) -> None:
@@ -143,6 +153,7 @@ def test_forbidden_out_no_write(tmp_path: Path) -> None:
     assert bad_out.is_file() is False
     payload = json.loads(r.stdout)
     assert payload["record_boundary"]["canonical_write_violation"] is True
+    assert payload["resources_written"] == []
 
 
 def test_json_stdout(tmp_path: Path) -> None:

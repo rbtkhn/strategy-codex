@@ -116,4 +116,20 @@ Task-shape reports live under **runtime** / operator-chosen paths outside forbid
 - One run may feel mixed; the router still emits a **primary** shape and may list **secondary** candidates.
 - **Ambiguity** is surfaced (`confidence: low`, notes), not hidden.
 
+**Control-plane fields**
+
+Task-shape reports also carry normalized receipt fields so they can be read alongside carry receipts, validation reports, and review packets:
+
+- `receipt_family` / `receipt_kind`
+- `actor`
+- `intent`
+- `authority_class`
+- `resources_read` / `resources_written`
+- `status`
+- `review_surface` / `rollback_surface`
+- `record_authority`
+- `gate_effect`
+
+These fields do not change classification behavior. They make the report legible as an **inspection** surface with no Record authority and no direct gate mutation effect.
+
 Configuration (human-editable): [`config/work_strategy_task_shapes.yaml`](../../../config/work_strategy_task_shapes.yaml). Classifier CLI: [`scripts/work_strategy/classify_task_shape.py`](../../../scripts/work_strategy/classify_task_shape.py). Report schema: [`schemas/work_strategy_task_shape_report.schema.json`](../../../schemas/work_strategy_task_shape_report.schema.json).

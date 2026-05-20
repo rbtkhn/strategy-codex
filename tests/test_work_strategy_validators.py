@@ -91,6 +91,13 @@ def test_pass_carry_harness_fixture(tmp_path: Path) -> None:
     assert r.returncode == 0, r.stderr + r.stdout
     data = json.loads(out.read_text(encoding="utf-8"))
     assert data["schema_version"] == "work-strategy-validation-report.v1"
+    assert data["receipt_family"] == "inspection"
+    assert data["receipt_kind"] == "work-strategy-validation-report"
+    assert data["status"] == "pass"
+    assert data["actor"]["id"] == "scripts/work_strategy/validate_strategy_packet.py"
+    assert data["record_authority"]["class"] == "none"
+    assert data["gate_effect"]["class"] == "none"
+    assert data["review_surface"]["primary"] == "validation_report"
     assert data["summary"]["status"] == "pass"
 
 
@@ -109,6 +116,7 @@ def test_missing_artifact_fail(tmp_path: Path) -> None:
     r = subprocess.run(cmd, cwd=REPO_ROOT, capture_output=True, text=True)
     assert r.returncode == 1
     data = json.loads(out.read_text(encoding="utf-8"))
+    assert data["status"] == "fail"
     assert data["summary"]["status"] == "fail"
 
 
@@ -129,6 +137,7 @@ def test_missing_source_needs_review(tmp_path: Path) -> None:
     r = subprocess.run(cmd, cwd=REPO_ROOT, capture_output=True, text=True)
     assert r.returncode == 0
     data = json.loads(out.read_text(encoding="utf-8"))
+    assert data["status"] == "needs_review"
     assert data["summary"]["status"] == "needs_review"
 
 
@@ -147,6 +156,7 @@ def test_thin_artifact_needs_review(tmp_path: Path) -> None:
     r = subprocess.run(cmd, cwd=REPO_ROOT, capture_output=True, text=True)
     assert r.returncode == 0
     data = json.loads(out.read_text(encoding="utf-8"))
+    assert data["status"] == "needs_review"
     assert data["summary"]["status"] == "needs_review"
 
 
@@ -165,6 +175,7 @@ def test_unresolved_markers_needs_review(tmp_path: Path) -> None:
     r = subprocess.run(cmd, cwd=REPO_ROOT, capture_output=True, text=True)
     assert r.returncode == 0
     data = json.loads(out.read_text(encoding="utf-8"))
+    assert data["status"] == "needs_review"
     assert data["summary"]["status"] == "needs_review"
     ids = [v["id"] for v in data["validators"]]
     assert "unresolved_marker_scan" in ids
@@ -190,6 +201,7 @@ def test_contradiction_markers_needs_review(tmp_path: Path) -> None:
     r = subprocess.run(cmd, cwd=REPO_ROOT, capture_output=True, text=True)
     assert r.returncode == 0
     data = json.loads(out.read_text(encoding="utf-8"))
+    assert data["status"] == "needs_review"
     assert data["summary"]["status"] == "needs_review"
     assert any(v["id"] == "contradiction_marker_scan" for v in data["validators"])
 
@@ -212,6 +224,7 @@ def test_forbidden_out_under_users(tmp_path: Path) -> None:
     assert bad_out.is_file() is False
     payload = json.loads(r.stdout)
     assert payload["record_boundary"]["canonical_write_violation"] is True
+    assert payload["resources_written"] == []
     assert payload["summary"]["status"] == "fail"
 
 
@@ -230,7 +243,8 @@ def test_json_stdout(tmp_path: Path) -> None:
     ]
     r = subprocess.run(cmd, cwd=REPO_ROOT, capture_output=True, text=True)
     assert r.returncode == 0
-    json.loads(r.stdout)
+    payload = json.loads(r.stdout)
+    assert payload["receipt_family"] == "inspection"
 
 
 def test_fail_on_status_never(tmp_path: Path) -> None:
@@ -250,6 +264,7 @@ def test_fail_on_status_never(tmp_path: Path) -> None:
     r = subprocess.run(cmd, cwd=REPO_ROOT, capture_output=True, text=True)
     assert r.returncode == 0
     data = json.loads(out.read_text(encoding="utf-8"))
+    assert data["status"] == "fail"
     assert data["summary"]["status"] == "fail"
 
 
@@ -284,6 +299,7 @@ def test_carry_harness_run_validators_embeds_summary(tmp_path: Path) -> None:
     assert val_path.is_file()
     val_data = json.loads(val_path.read_text(encoding="utf-8"))
     assert val_data["schema_version"] == "work-strategy-validation-report.v1"
+    assert val_data["status"] == "pass"
 
 
 def test_validate_packet_forbidden_output(tmp_path: Path) -> None:
@@ -300,5 +316,6 @@ def test_validate_packet_forbidden_output(tmp_path: Path) -> None:
         validation_out_path=bad,
     )
     assert rep["summary"]["status"] == "fail"
+    assert rep["status"] == "fail"
     assert rep["record_boundary"]["canonical_write_violation"] is True
     assert is_forbidden_record_path(bad, REPO_ROOT) is True

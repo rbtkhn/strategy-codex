@@ -32,6 +32,22 @@ These align with the JSON fields in [`schemas/work_strategy_review_packet.schema
 | **I — Review readiness** | Aggregated `pass` / `needs_review` / `fail` with a short reason. | `review_readiness` |
 | **J — Why this is not canonical** | Explicit membrane: derived WORK artifact; companion gate governs Record merges. | `record_boundary` |
 
+## Control-plane fields
+
+The review packet is also a normalized **inspection** receipt. In addition to the A-J content blocks, it carries:
+
+- `receipt_family` / `receipt_kind`
+- `actor`
+- `intent`
+- `authority_class`
+- `resources_read` / `resources_written`
+- `status`
+- `review_surface` / `rollback_surface`
+- `record_authority`
+- `gate_effect`
+
+These fields do not replace the packet structure. They make the packet legible in the receipt crosswalk as an operator review surface with no Record authority and no direct gate mutation effect.
+
 ## Related docs
 
 - [carry-harness.md](carry-harness.md) — optional `--build-review-packet` on the harness

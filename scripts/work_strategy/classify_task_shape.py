@@ -18,8 +18,15 @@ from packet_common import is_forbidden_record_path, safe_rel
 
 SCHEMA_VERSION = "work-strategy-task-shape-report.v1"
 LANE = "work-strategy"
+RECEIPT_KIND = "work-strategy-task-shape-report"
+ACTOR_ID = "scripts/work_strategy/classify_task_shape.py"
 
 FRONTMATTER_PATTERN = re.compile(r"\A---\s*\r?\n(.*?)\r?\n---\s*", re.DOTALL)
+
+
+def _append_if_present(items: list[str], value: str | None) -> None:
+    if value and value not in items:
+        items.append(value)
 
 
 def load_task_shape_config(path: Path) -> dict[str, Any]:
@@ -207,13 +214,52 @@ def build_task_shape_report(
     if shape_out_path and out_forbidden:
         rb_notes += " Forbidden output path."
 
+    task_rel = safe_rel(task_path, root) if task_path and task_path.is_file() else task_arg
+    resources_read: list[str] = []
+    _append_if_present(resources_read, task_rel)
+    for rel in source_paths:
+        _append_if_present(resources_read, str(Path(rel).as_posix()))
+    _append_if_present(resources_read, safe_rel(config_path, root) if config_path.is_file() else str(config_path))
+
+    resources_written: list[str] = []
+    out_rel = safe_rel(shape_out_path, root) if shape_out_path and not out_forbidden else None
+    _append_if_present(resources_written, out_rel)
+
+    status = "needs_review" if confidence == "low" else "pass"
+
     return {
         "schema_version": SCHEMA_VERSION,
+        "receipt_family": "inspection",
+        "receipt_kind": RECEIPT_KIND,
         "run_id": run_id,
         "created_at": created_at,
         "lane": LANE,
+        "actor": {"kind": "script", "id": ACTOR_ID, "label": "classify_task_shape"},
+        "intent": "Classify a work-strategy task into a deterministic task shape before validation and review.",
+        "authority_class": "work_operator",
+        "resources_read": resources_read,
+        "resources_written": resources_written,
+        "status": status,
+        "review_surface": {
+            "primary": "task_shape_report",
+            "paths": list(resources_written),
+            "notes": "Inspect the classification, confidence, and shape contract before relying on downstream expectations.",
+        },
+        "rollback_surface": {
+            "primary": "rerun_or_replace",
+            "notes": "Revise the task text, frontmatter hint, or config inputs, then rerun classification; newer reports supersede older derived views.",
+        },
+        "record_authority": {
+            "class": "none",
+            "notes": "Derived WORK inspection artifact only; task-shape routing cannot update canonical Record truth or approve a governed merge.",
+        },
+        "gate_effect": {
+            "class": "none",
+            "snippet_ready": False,
+            "notes": "Task-shape routing does not stage, propose, or merge.",
+        },
         "input": {
-            "task_path": safe_rel(task_path, root) if task_path and task_path.is_file() else task_arg,
+            "task_path": task_rel,
             "inline_text_provided": bool(inline_text and inline_text.strip()),
             "source_paths": list(source_paths),
             "config_path": safe_rel(config_path, root) if config_path.is_file() else str(config_path),

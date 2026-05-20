@@ -37,6 +37,16 @@
 
 **Optional grep tags (primary threads):** When an ingest is part of the **Rome** thread, you may prefix the **cold** clause with **`ROME`** or **`LeoXIV`**. When it is part of the **JD Vance / VP** thread, use **`JDVance`** or **`VANCE`**. When it is part of the **Putin / Kremlin** thread, use **`PUTIN`** or **`KREMLIN`**. When it is part of the **PRC / Beijing** thread, use **`PRC`**, **`CN`**, or **`CHINA`**. When it is part of the **IRI / Tehran** thread, use **`IRAN`**, **`IRI`**, or **`TEHRAN`** (e.g. `cold: IRI | MFA statement â€” â€¦`). When an ingest flags **narrative escalation** (register shift from empirical / wire-tractable claims toward moralized or metaphysical framesâ€”e.g. spiritual-warfare language on a political stillâ€”see [.cursor/skills/skill-strategy/SKILL.md](../../../../.cursor/skills/skill-strategy/SKILL.md) Â§ *Narrative escalation*), prefix the **cold** clause with **`narrative-escalation`**. **Retroactive spine (Trump â†” Christianity / papacy / religion, 2016â†’):** [trump-religion-papacy-arc.md](trump-religion-papacy-arc.md). Example: `rg 'IRAN|IRI|TEHRAN|PRC|CN|CHINA|PUTIN|KREMLIN|JDVance|VANCE|ROME|LeoXIV|narrative-escalation'`.
 
+#### Arc lens tags
+
+Optional arc lens tags route Ukraine/Europe inputs into WORK-layer continuity lenses. Use them only when a source materially updates the lens; they are grep handles, not truth labels, verification status, or Record facts.
+
+- `arc:peace-leverage` - terms available as battlefield, industrial, fiscal, or political facts accumulate.
+- `arc:capacity-gap` - gap between Western strategic language and execution capacity.
+- `arc:proxy-patron` - patron/client burden transfer, exit management, or client exposure.
+
+Place arc tags near the hook or topic tags in a normal one-line inbox entry. A single item may carry multiple arc tags only when it genuinely updates multiple arcs. Do not retroactively tag old rows unless the operator explicitly asks for a backfill pass.
+
 #### Optional two-tier gist (cold claim // operator hook)
 
 **Problem:** A single **gist** that mixes **what the source did** with **why it matters for this notebook day** can smuggle **Judgment** into the inbox and blur the boundary with `days.md`.

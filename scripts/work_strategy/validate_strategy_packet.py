@@ -24,10 +24,17 @@ from packet_common import (
 
 SCHEMA_VERSION = "work-strategy-validation-report.v1"
 LANE = "work-strategy"
+RECEIPT_KIND = "work-strategy-validation-report"
+ACTOR_ID = "scripts/work_strategy/validate_strategy_packet.py"
 
 UNRESOLVED_MARKERS = ["TODO", "TBD", "UNRESOLVED", "NEEDS REVIEW", "???"]
 CONTRADICTION_MARKERS = ["contradiction", "conflict", "in tension", "uncertain"]
 HEADING_PATTERN = re.compile(r"^\s{0,3}#{1,6}\s+\S", re.MULTILINE)
+
+
+def _append_if_present(items: list[str], value: str | None) -> None:
+    if value and value not in items:
+        items.append(value)
 
 
 def read_text_if_possible(path: Path) -> str | None:
@@ -437,11 +444,54 @@ def validate_packet(
         "validation_out": safe_rel(validation_out_path, root) if validation_out_path else None,
     }
 
+    resources_read: list[str] = []
+    if task_arg:
+        task_path = resolve_arg(task_arg)
+        _append_if_present(resources_read, safe_rel(task_path, root) if task_path.is_file() else str(Path(task_arg).as_posix()))
+    for rel in sources:
+        _append_if_present(resources_read, str(Path(rel).as_posix()))
+    for rel in artifacts:
+        _append_if_present(resources_read, str(Path(rel).as_posix()))
+    if gate_snippet_arg:
+        gate_path = resolve_arg(gate_snippet_arg)
+        gate_rel = safe_rel(gate_path, root) if gate_path.is_file() else str(Path(gate_snippet_arg).as_posix())
+        _append_if_present(resources_read, gate_rel)
+
+    resources_written: list[str] = []
+    validation_out_rel = safe_rel(validation_out_path, root) if validation_out_path and not out_forbidden else None
+    _append_if_present(resources_written, validation_out_rel)
+
     report: dict[str, Any] = {
         "schema_version": SCHEMA_VERSION,
+        "receipt_family": "inspection",
+        "receipt_kind": RECEIPT_KIND,
         "run_id": run_id,
         "created_at": ts,
         "lane": LANE,
+        "actor": {"kind": "script", "id": ACTOR_ID, "label": "validate_strategy_packet"},
+        "intent": "Run structural integrity checks on a work-strategy packet before human review.",
+        "authority_class": "work_operator",
+        "resources_read": resources_read,
+        "resources_written": resources_written,
+        "status": summary_status,
+        "review_surface": {
+            "primary": "validation_report",
+            "paths": list(resources_written),
+            "notes": "Inspect the validation report and validator rows to understand structural failures or review flags.",
+        },
+        "rollback_surface": {
+            "primary": "rerun_or_replace",
+            "notes": "Revise packet inputs or outputs, then rerun validators; newer reports supersede older derived checks.",
+        },
+        "record_authority": {
+            "class": "none",
+            "notes": "Derived WORK inspection artifact only; validators cannot update canonical Record truth or approve a governed merge.",
+        },
+        "gate_effect": {
+            "class": "none",
+            "snippet_ready": bool(gate_snippet_arg),
+            "notes": "Validators may inspect a gate snippet path, but they do not stage, propose, or merge.",
+        },
         "target": target_obj,
         "validators": validators_out,
         "summary": {

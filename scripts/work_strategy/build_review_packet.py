@@ -16,6 +16,8 @@ from packet_common import inspect_artifact, is_forbidden_record_path, safe_rel
 
 SCHEMA_VERSION = "work-strategy-review-packet.v1"
 LANE = "work-strategy"
+RECEIPT_KIND = "work-strategy-review-packet"
+ACTOR_ID = "scripts/work_strategy/build_review_packet.py"
 
 # Mirror validate_strategy_packet.UNRESOLVED_MARKERS / CONTRADICTION_MARKERS (avoid circular imports).
 UNRESOLVED_MARKERS = ["TODO", "TBD", "UNRESOLVED", "NEEDS REVIEW", "???"]
@@ -32,6 +34,11 @@ def load_json_if_exists(path: Path) -> dict[str, Any] | None:
         return json.loads(path.read_text(encoding="utf-8"))
     except (OSError, json.JSONDecodeError):
         return None
+
+
+def _append_if_present(items: list[str], value: str | None) -> None:
+    if value and value not in items:
+        items.append(value)
 
 
 def read_text_if_possible(path: Path) -> str | None:
@@ -578,11 +585,57 @@ def build_review_packet_dict(
     if markdown_out and not md_forbidden:
         rb_written.append(safe_rel(markdown_out, repo_root))
 
+    resources_read: list[str] = []
+    _append_if_present(resources_read, inputs["task_path"])
+    for rel in inputs["source_paths"]:
+        _append_if_present(resources_read, rel)
+    for rel in inputs["artifact_paths"]:
+        _append_if_present(resources_read, rel)
+    _append_if_present(resources_read, carry_rel)
+    _append_if_present(resources_read, val_rel)
+    _append_if_present(resources_read, ts_rel)
+    if gate_snippet_arg:
+        gate_rel = str(Path(gate_snippet_arg).as_posix())
+        if gate_present:
+            gp = (
+                (repo_root / gate_snippet_arg).resolve()
+                if not Path(gate_snippet_arg).is_absolute()
+                else Path(gate_snippet_arg).resolve()
+            )
+            gate_rel = safe_rel(gp, repo_root) if gp.is_file() else gate_rel
+        _append_if_present(resources_read, gate_rel)
+
     packet: dict[str, Any] = {
         "schema_version": SCHEMA_VERSION,
+        "receipt_family": "inspection",
+        "receipt_kind": RECEIPT_KIND,
         "run_id": run_id,
         "created_at": created_at,
         "lane": LANE,
+        "actor": {"kind": "script", "id": ACTOR_ID, "label": "build_review_packet"},
+        "intent": "Bundle task, artifacts, carry outputs, and structural checks into one human-review packet.",
+        "authority_class": "work_operator",
+        "resources_read": resources_read,
+        "resources_written": list(rb_written),
+        "status": rr_status,
+        "review_surface": {
+            "primary": "review_packet",
+            "paths": list(rb_written),
+            "notes": "Review the JSON or Markdown packet as the operator-facing inspection surface for this run.",
+        },
+        "rollback_surface": {
+            "primary": "rerun_or_replace",
+            "notes": "Revise inputs or upstream carry-stack artifacts, then rebuild the packet; newer packets supersede older derived views.",
+        },
+        "record_authority": {
+            "class": "none",
+            "notes": "Derived WORK inspection artifact only; it cannot update canonical Record truth or approve a governed merge.",
+        },
+        "gate_effect": {
+            "class": "none",
+            "snippet_ready": gate_present and gate_nonempty,
+            "notes": "A gate snippet may be referenced for review, but the packet itself does not stage, propose, or merge.",
+        },
         "task": {
             "title": title,
             "task_path": inputs["task_path"],
