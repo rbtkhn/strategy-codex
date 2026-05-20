@@ -39,8 +39,12 @@ _HIGH_CONCERN_PATTERNS: tuple[re.Pattern[str], ...] = (
     re.compile(r"\bcannot approve\b", re.IGNORECASE),
     re.compile(r"\bsevere mismatch\b", re.IGNORECASE),
     re.compile(r"\bmanual(?:ly)? escalate\b", re.IGNORECASE),
+    re.compile(r"\bescalate(?:d|s| this)?\b", re.IGNORECASE),
+    re.compile(r"\bneeds? escalation\b", re.IGNORECASE),
     re.compile(r"\brequires? manual review\b", re.IGNORECASE),
     re.compile(r"\bnot safe to merge\b", re.IGNORECASE),
+    re.compile(r"\bnot mergeable\b", re.IGNORECASE),
+    re.compile(r"\bnot quick[-_ ]merge eligible\b", re.IGNORECASE),
     re.compile(r"\breject this (?:candidate|change|merge)\b", re.IGNORECASE),
 )
 
@@ -50,6 +54,9 @@ _APPROVAL_LIKE_PATTERNS: tuple[re.Pattern[str], ...] = (
     re.compile(r"\bquick merge\b", re.IGNORECASE),
     re.compile(r"\bquick[-_ ]merge eligible\b", re.IGNORECASE),
     re.compile(r"\bready to merge\b", re.IGNORECASE),
+    re.compile(r"\bmergeable\b", re.IGNORECASE),
+    re.compile(r"\bcan merge\b", re.IGNORECASE),
+    re.compile(r"\bno blockers?\b", re.IGNORECASE),
     re.compile(r"\bapproved\b", re.IGNORECASE),
     re.compile(r"\bapprove (?:this|candidate|change)\b", re.IGNORECASE),
 )

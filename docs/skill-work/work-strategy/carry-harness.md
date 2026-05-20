@@ -76,6 +76,8 @@ Those sit alongside the carry-specific `checks`, `summary`, `gate_snippet`, `rec
 
 `checks` remain the authoritative per-condition outcomes. `summary` rolls up counts. `status` and `result` intentionally expose the same overall outcome so the receipt is readable both as a carry-specific artifact and as a normalized execution receipt. When `--run-validators` is used, optional `validation_summary` and `validation_report_path` are included. When `--build-review-packet` is used, optional `review_packet_path`, `review_packet_markdown_path`, and `review_readiness` are included after the review packet step.
 
+When a run materially changes a standing arc-lens question, the harness can carry that bridge explicitly instead of leaving it implicit in prose. Use optional `arc_tags` plus a complete `arc_movement` triplet (`movement_type`, `summary`, `evidence`) to say which arc moved and why.
+
 ---
 
 ## How to run
@@ -112,6 +114,10 @@ Options:
 | `--build-review-packet` | After checks and optional validation/task-shape writes, emit a review packet JSON via `--review-packet`. |
 | `--review-packet PATH` | Required when `--build-review-packet` is set. |
 | `--review-packet-markdown PATH` | Optional Markdown companion when `--build-review-packet` is set. |
+| `--arc-tag TAG` | Optional repeatable arc identifier such as `arc:peace-leverage`. |
+| `--arc-movement-type ...` | Optional movement class: `reinforces`, `updates`, `weakens`, `opens`, `closes`, or `mixed`. |
+| `--arc-summary TEXT` | Optional one-line statement of what changed in the arc. |
+| `--arc-evidence TEXT` | Optional evidence line supporting the claimed arc movement. |
 
 ---
 
@@ -136,5 +142,6 @@ Options:
 - **`validation_summary` / `validation_report_path`** - Present when `--run-validators` runs.
 - **`task_shape` / `task_shape_confidence` / `task_shape_expected_outputs` / `task_shape_report_path`** - Present when `--classify-task-shape` runs; see [task-shape-routing.md](task-shape-routing.md).
 - **`review_packet_path` / `review_packet_markdown_path` / `review_readiness`** - Present when `--build-review-packet` runs; see [review-packet-template.md](review-packet-template.md).
+- **`arc_tags` / `arc_movement`** - Optional arc bridge fields for serious strategy runs. Partial arc annotation does not populate `arc_movement`; it triggers an `arc_movement_complete` `needs_review` check instead.
 
 ---

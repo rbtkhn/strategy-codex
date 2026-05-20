@@ -107,3 +107,27 @@ def test_report_raw_input_quality_does_not_warn_for_metadata_only_stub(tmp_path:
 
     assert report["evidence_grade"] == "legacy-appearance-only"
     assert report["legacy_transcript_warning"] == ""
+
+
+def test_report_raw_input_quality_surfaces_residual_noise_terms(tmp_path: Path) -> None:
+    notebook_root = _notebook(tmp_path)
+    raw = _write_raw(
+        notebook_root,
+        "noisy-bearing",
+        body=(
+            "Welcome back. Scott Ritterder says flights from Pulkava matter while "
+            "the Kaggon of doctrine is debated near Thrron. "
+            + " ".join(f"word{i}" for i in range(80))
+        ),
+    )
+
+    report = report_quality.build_report(raw, notebook_root=notebook_root, output_root=tmp_path / "quality")
+    markdown = report_quality.render_markdown(report)
+
+    assert report["residual_noise_terms"] == [
+        "Kaggon of doctrine",
+        "Pulkava",
+        "Ritterder",
+        "Thrron",
+    ]
+    assert "- residual noise: `Kaggon of doctrine`, `Pulkava`, `Ritterder`, `Thrron`" in markdown

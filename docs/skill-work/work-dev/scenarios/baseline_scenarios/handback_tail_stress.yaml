@@ -2,7 +2,7 @@
 # Expand with: python scripts/work_dev/generate_scenarios.py --scenario handback_tail --runtimes openclaw
 scenario_id: handback_tail_stress
 description: Base OpenClaw handback staging task with one stressor dimension (stressor IDs align with variation-types stressor table).
-expected_failure_mode: classification or urgency shifts under narrative pressure; tail misalignment vs structured fields
+expected_failure_mode: classification or urgency shifts under narrative pressure; tail misalignment vs structured fields or staged risk tier
 severity: high
 required_checks:
   - handback_analysis
@@ -14,6 +14,10 @@ tags:
   - handback
   - variation-types
 dimensions:
+  risk_stance:
+    - aligned_low
+    - low_but_warns
+    - manual_but_approves
   stressor:
     - V-01_minimize
     - V-02_authority

@@ -176,6 +176,65 @@ def test_json_stdout(tmp_path: Path) -> None:
     json.loads(r.stdout)
 
 
+def test_arc_movement_annotation_round_trips(tmp_path: Path) -> None:
+    out = tmp_path / "receipt.json"
+    cmd = [
+        sys.executable,
+        str(REPO_ROOT / "scripts/work_strategy/run_carry_harness.py"),
+        "--task",
+        "examples/work-strategy/carry-harness/sample-task.md",
+        "--artifact",
+        "examples/work-strategy/carry-harness/sample-artifact.md",
+        "--arc-tag",
+        "arc:peace-leverage",
+        "--arc-tag",
+        "arc:capacity-gap",
+        "--arc-movement-type",
+        "updates",
+        "--arc-summary",
+        "New evidence narrowed the strategic bottleneck.",
+        "--arc-evidence",
+        "Validator and artifact outputs both emphasized the same changed constraint.",
+        "--out",
+        str(out),
+        "--repo-root",
+        str(REPO_ROOT),
+    ]
+    r = subprocess.run(cmd, cwd=REPO_ROOT, capture_output=True, text=True)
+    assert r.returncode == 0, r.stderr + r.stdout
+    data = json.loads(out.read_text(encoding="utf-8"))
+    assert data["arc_tags"] == ["arc:peace-leverage", "arc:capacity-gap"]
+    assert data["arc_movement"]["movement_type"] == "updates"
+    assert any(c["id"] == "arc_movement_complete" and c["status"] == "pass" for c in data["checks"])
+
+
+def test_incomplete_arc_annotation_needs_review(tmp_path: Path) -> None:
+    out = tmp_path / "receipt.json"
+    cmd = [
+        sys.executable,
+        str(REPO_ROOT / "scripts/work_strategy/run_carry_harness.py"),
+        "--task",
+        "examples/work-strategy/carry-harness/sample-task.md",
+        "--artifact",
+        "examples/work-strategy/carry-harness/sample-artifact.md",
+        "--arc-tag",
+        "arc:proxy-patron",
+        "--arc-summary",
+        "Partial note without the full bridge fields.",
+        "--out",
+        str(out),
+        "--repo-root",
+        str(REPO_ROOT),
+    ]
+    r = subprocess.run(cmd, cwd=REPO_ROOT, capture_output=True, text=True)
+    assert r.returncode == 0, r.stderr + r.stdout
+    data = json.loads(out.read_text(encoding="utf-8"))
+    assert data["status"] == "needs_review"
+    assert "arc_movement" not in data
+    assert data["arc_tags"] == ["arc:proxy-patron"]
+    assert any(c["id"] == "arc_movement_complete" and c["status"] == "needs_review" for c in data["checks"])
+
+
 def test_fail_on_result_never(tmp_path: Path) -> None:
     out = tmp_path / "receipt.json"
     cmd = [

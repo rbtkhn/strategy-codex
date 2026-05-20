@@ -48,6 +48,8 @@ The review packet is also a normalized **inspection** receipt. In addition to th
 
 These fields do not replace the packet structure. They make the packet legible in the receipt crosswalk as an operator review surface with no Record authority and no direct gate mutation effect.
 
+When the upstream carry receipt declares `arc_tags` and a complete `arc_movement`, the review packet surfaces them directly in the handoff section. That keeps arc-lens movement operator-visible without pretending the packet itself is the source of strategic truth.
+
 ## Related docs
 
 - [carry-harness.md](carry-harness.md) — optional `--build-review-packet` on the harness

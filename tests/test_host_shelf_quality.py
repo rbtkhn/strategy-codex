@@ -182,6 +182,38 @@ def test_residual_noise_and_normalization_state_are_reported(tmp_path: Path) -> 
     assert "normalization `proper-noun-pass`" in markdown
 
 
+def test_residual_noise_detects_operator_paste_artifacts_seen_in_live_runs(tmp_path: Path) -> None:
+    notebook_root = _notebook(tmp_path)
+    paths = [
+        _write_raw(
+            notebook_root,
+            "operator-paste-noisy",
+            body_text=(
+                "Scott Ritterder discussed flights from Pulkava while citing the "
+                "Kaggon of doctrine. Later he mentioned Ramshine and events in Thrron."
+            ),
+            quality_note="Operator-pasted transcript with known speech-to-text artifacts.",
+        )
+    ]
+
+    summary = quality.build_quality_summary(
+        host="davis",
+        year=2026,
+        month_label="2026-04",
+        raw_paths=paths,
+        notebook_root=notebook_root,
+    )
+    artifact = summary["artifacts"][0]
+
+    assert artifact["residual_noise_terms"] == [
+        "Kaggon of doctrine",
+        "Pulkava",
+        "Ramshine",
+        "Ritterder",
+        "Thrron",
+    ]
+
+
 def test_write_reports_for_paths_can_expand_to_full_host_month(tmp_path: Path) -> None:
     notebook_root = _notebook(tmp_path)
     selected = _write_raw(notebook_root, "selected", pub_date="2026-04-12")

@@ -105,6 +105,8 @@ def build_receipt(
     task_shape: str | None,
     task_shape_confidence: str | None,
     task_shape_expected_outputs: list[str] | None,
+    arc_tags: list[str],
+    arc_movement: dict[str, str] | None,
 ) -> dict[str, Any]:
     summary_counts = {"pass": 0, "fail": 0, "needs_review": 0}
     for c in checks:
@@ -210,6 +212,10 @@ def build_receipt(
         receipt["task_shape"] = task_shape
         receipt["task_shape_confidence"] = task_shape_confidence
         receipt["task_shape_expected_outputs"] = task_shape_expected_outputs
+    if arc_tags:
+        receipt["arc_tags"] = arc_tags
+    if arc_movement is not None:
+        receipt["arc_movement"] = arc_movement
     return receipt
 
 
@@ -546,6 +552,38 @@ def run_harness(args: argparse.Namespace) -> tuple[dict[str, Any], int]:
             }
         )
 
+    arc_tags_val = [str(tag).strip() for tag in (getattr(args, "arc_tag", None) or []) if str(tag).strip()]
+    arc_movement_type = str(getattr(args, "arc_movement_type", "") or "").strip()
+    arc_summary = str(getattr(args, "arc_summary", "") or "").strip()
+    arc_evidence = str(getattr(args, "arc_evidence", "") or "").strip()
+    arc_fields_present = [bool(arc_movement_type), bool(arc_summary), bool(arc_evidence)]
+    arc_movement_val: dict[str, str] | None = None
+
+    if any(arc_fields_present):
+        if all(arc_fields_present):
+            arc_movement_val = {
+                "movement_type": arc_movement_type,
+                "summary": arc_summary,
+                "evidence": arc_evidence,
+            }
+            checks.append(
+                {
+                    "id": "arc_movement_complete",
+                    "label": "Arc movement annotation is complete",
+                    "status": "pass",
+                    "details": f"{arc_movement_type}: {arc_summary}",
+                }
+            )
+        else:
+            checks.append(
+                {
+                    "id": "arc_movement_complete",
+                    "label": "Arc movement annotation is complete",
+                    "status": "needs_review",
+                    "details": "Partial arc annotation provided; include movement type, summary, and evidence together.",
+                }
+            )
+
     receipt = build_receipt(
         run_id=run_id,
         created_at=created_at,
@@ -566,6 +604,8 @@ def run_harness(args: argparse.Namespace) -> tuple[dict[str, Any], int]:
         task_shape=task_shape_val,
         task_shape_confidence=task_shape_confidence_val,
         task_shape_expected_outputs=task_shape_expected_outputs_val,
+        arc_tags=arc_tags_val,
+        arc_movement=arc_movement_val,
     )
 
     if getattr(args, "build_review_packet", False) and args.review_packet:
@@ -647,6 +687,28 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     p.add_argument("--source", action="append", default=[], help="Source path (repeatable).")
     p.add_argument("--artifact", action="append", default=[], help="Expected artifact path (repeatable).")
     p.add_argument("--gate-snippet", type=str, default=None, help="Optional gate snippet markdown/text.")
+    p.add_argument("--arc-tag", action="append", default=[], dest="arc_tag", help="Optional arc tag (repeatable).")
+    p.add_argument(
+        "--arc-movement-type",
+        choices=("reinforces", "updates", "weakens", "opens", "closes", "mixed"),
+        default=None,
+        dest="arc_movement_type",
+        help="Optional arc movement type; pair with --arc-summary and --arc-evidence.",
+    )
+    p.add_argument(
+        "--arc-summary",
+        type=str,
+        default=None,
+        dest="arc_summary",
+        help="Optional one-line statement of how the declared arc moved.",
+    )
+    p.add_argument(
+        "--arc-evidence",
+        type=str,
+        default=None,
+        dest="arc_evidence",
+        help="Optional evidence line for the declared arc movement.",
+    )
     p.add_argument("--run-id", type=str, default=None, dest="run_id")
     p.add_argument("--repo-root", type=str, default=None, dest="repo_root")
     p.add_argument("--json", action="store_true", help="Print receipt JSON to stdout.")

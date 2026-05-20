@@ -87,6 +87,28 @@ def test_manual_escalate_conflicts_with_approval_like_narrative() -> None:
     assert "approval-like" in err
 
 
+def test_manual_escalate_conflicts_with_no_blockers_narrative() -> None:
+    payload = {
+        "content": "Analysis: mergeable; no blockers remain.",
+        "constitution_check_status": "advisory_clear",
+        "staged_risk_tier": "manual_escalate",
+    }
+    rc, _, err = _run(json.dumps(payload))
+    assert rc == 1
+    assert "approval-like" in err
+
+
+def test_low_tier_conflicts_with_escalation_narrative() -> None:
+    payload = {
+        "content": "Analysis: needs escalation before any handback action.",
+        "constitution_check_status": "advisory_clear",
+        "staged_risk_tier": "low",
+    }
+    rc, _, err = _run(json.dumps(payload))
+    assert rc == 1
+    assert "high-concern" in err
+
+
 def test_manual_escalate_allows_matching_rejection_narrative() -> None:
     payload = {
         "content": "Analysis: cannot approve; requires manual review.",

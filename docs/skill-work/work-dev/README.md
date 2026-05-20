@@ -173,6 +173,7 @@ Use [postmortem-to-skill-feedback-loop.md](postmortem-to-skill-feedback-loop.md)
 
 | Doc / file | Purpose |
 |------------|---------|
+| **Control-plane arc** | Read in order: [frontier-agent-control-plane-direction.md](frontier-agent-control-plane-direction.md) -> [unified-execution-receipts.md](unified-execution-receipts.md) -> [agent-surface-template.yaml](agent-surface-template.yaml) / [control-plane/capability-contract-template.yaml](control-plane/capability-contract-template.yaml). Thesis first, then receipt architecture, then surface/spec enforcement. |
 | **[persistence-and-memory-surfaces.md](persistence-and-memory-surfaces.md)** | What persists where (gate, MEMORY, vendor agents, exports) vs outcome-agent dimensions; assumption-labeled efficiency note. |
 | **[delegation-spec-external-agents.md](delegation-spec-external-agents.md)** | External outcome agents: dimension map, 7-section delegation outline, copy-paste evaluation prompt (operator WORK). |
 | **[openclaw-integration.md](../../openclaw-integration.md)** | Full integration guide â€” export, continuity, handback, staging, permission summary. |
@@ -182,8 +183,11 @@ Use [postmortem-to-skill-feedback-loop.md](postmortem-to-skill-feedback-loop.md)
 | **[continuity-observability.md](continuity-observability.md)** | Continuity-block event export path: local `runtime/observability/continuity_blocks.jsonl` â†’ derived operator artifact; WORK-only, no Record authority. |
 | **[../../portability/emulation/README.md](../../portability/emulation/README.md)** | Portable emulation contract layer: behavior specs and authority-bounded bundle doctrine for foreign runtimes. |
 | **[agentic-environment-principles.md](agentic-environment-principles.md)** | **Environment-first:** policy + continuity + gate + observability before prompt; canonical Record files before clever retrieval; **Â§5** local-private stacks (**a** residency/roles, **b** bounded execution, **c** pipeline vs agent memory). |
+| **[unified-execution-receipts.md](unified-execution-receipts.md)** | **Receipt unification memo:** shared control-plane vocabulary for governance, execution, inspection, and coordination receipts, plus phased normalization priorities. |
 | **[agent-surface-template.yaml](agent-surface-template.yaml)** | **Agent surface axes** (runtime / orchestration / interface) + Grace-Mar trust fields; optional **`agent_species`** (`coding_harness`, `dark_factory`, `auto_research`, `workflow_orchestration`). CLI: `python scripts/work_dev/agent_surface_checklist.py`; `--validate` checks structure and species when set. |
 | **[control-plane/capability-contract-template.yaml](control-plane/capability-contract-template.yaml)** | **Capability contract template** (GAP-008): schema, auth, failure policy, cost, rate limits, governance, receipt shape â€” standardized shape for any integration or tool surface. |
+| **[control-plane/receipt-crosswalk-job-brief.md](control-plane/receipt-crosswalk-job-brief.md)** | **First build wedge:** compact implementation brief for the receipt crosswalk surface â€” objective, proof bar, source docs, and non-goals before schema alignment or aggregation work. |
+| **[control-plane/receipt-crosswalk.md](control-plane/receipt-crosswalk.md)** | **Receipt crosswalk:** operator-facing map of governance, execution, inspection, and coordination receipt surfaces, with proof scope, review surface, and rollback notes. |
 | [control-plane/capability-contract-openclaw-export.yaml](control-plane/capability-contract-openclaw-export.yaml) | Capability contract: OpenClaw identity export (`openclaw_hook.py`). |
 | [control-plane/capability-contract-openclaw-stage.yaml](control-plane/capability-contract-openclaw-stage.yaml) | Capability contract: OpenClaw stage-only handback (`openclaw_stage.py`). |
 | [control-plane/capability-contract-sandbox-dry-run.yaml](control-plane/capability-contract-sandbox-dry-run.yaml) | Capability contract: Sandbox DryRunBackend (mock; testing governance loop). |
@@ -237,10 +241,12 @@ Use [postmortem-to-skill-feedback-loop.md](postmortem-to-skill-feedback-loop.md)
 
 | Doc / file | Purpose |
 |------------|---------|
+| **Control-plane arc** | Strategic reading cluster: [positioning-governed-state-os.md](positioning-governed-state-os.md) -> [frontier-agent-control-plane-direction.md](frontier-agent-control-plane-direction.md) -> [safety-story-ux.md](safety-story-ux.md). Positioning first, build direction second, user-facing trust story third. |
 | **[economic-benchmarks.md](economic-benchmarks.md)** | Benchmarks for cost, value flow, and gate health â€” priority five and full set. |
 | **[quality-gates-narrative.md](quality-gates-narrative.md)** | Evals as **product**: â€œgreen = within boundaryâ€ map (harness, integrity, continuity CI, gate health) + partner one-liner; future dashboard concept. |
 | **[safety-story-ux.md](safety-story-ux.md)** | **Safety story** as product: visible pending/approved, receipts, staged vs merged â€” audit continuity as primary comfort, not admin trivia. |
 | **[positioning-governed-state-os.md](positioning-governed-state-os.md)** | **Positioning:** "governed state OS" framing, companion-first vs infrastructure-first strategic fork, six-layer gap map, accepted external framings. |
+| **[frontier-agent-control-plane-direction.md](frontier-agent-control-plane-direction.md)** | **Frontier direction memo:** translates frontier-agent, compute-substrate, and governance trends into strategy-codex product thesis, architecture consequences, and next implementation priorities. |
 | **[offers.md](offers.md)** | First-pass business-layer offers and commercial framing. |
 | **[target-registry.md](target-registry.md)** | Buyer segments for the future company path. |
 | **[proof-ledger.md](proof-ledger.md)** | Reusable proof lines from internal work and future client work. |

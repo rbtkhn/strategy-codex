@@ -212,6 +212,42 @@ def test_harness_build_review_packet_receipt_keys(tmp_path: Path) -> None:
     assert packet["review_surface"]["primary"] == "review_packet"
 
 
+def test_review_packet_surfaces_arc_movement_from_carry_receipt(tmp_path: Path) -> None:
+    rec = tmp_path / "carry.json"
+    rp = tmp_path / "review.json"
+    cmd = [
+        sys.executable,
+        str(_scripts_ws() / "run_carry_harness.py"),
+        "--task",
+        "examples/work-strategy/carry-harness/sample-task.md",
+        "--artifact",
+        "examples/work-strategy/carry-harness/sample-artifact.md",
+        "--arc-tag",
+        "arc:peace-leverage",
+        "--arc-movement-type",
+        "reinforces",
+        "--arc-summary",
+        "The run reinforced the standing leverage frame.",
+        "--arc-evidence",
+        "The artifact and checks both preserved the same directional conclusion.",
+        "--out",
+        str(rec),
+        "--repo-root",
+        str(REPO_ROOT),
+        "--build-review-packet",
+        "--review-packet",
+        str(rp),
+        "--fail-on-result",
+        "never",
+    ]
+    r = subprocess.run(cmd, cwd=REPO_ROOT, capture_output=True, text=True)
+    assert r.returncode == 0, r.stderr + r.stdout
+    packet = json.loads(rp.read_text(encoding="utf-8"))
+    assert packet["arc_tags"] == ["arc:peace-leverage"]
+    assert packet["arc_movement"]["movement_type"] == "reinforces"
+    assert "The run reinforced the standing leverage frame." in brp.render_review_packet_markdown(packet)
+
+
 def test_render_has_standard_headings() -> None:
     pkt = brp.build_review_packet_dict(
         repo_root=REPO_ROOT,

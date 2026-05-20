@@ -105,3 +105,29 @@ def test_generate_scenarios_cli_json_stable_v2() -> None:
     data = json.loads(p1.stdout)
     assert data["version"] == 2
     assert len(data["rows"]) >= 1 * 3  # at least one scenario × default runtimes
+
+
+def test_generate_scenarios_cli_writes_utf8_output(tmp_path: Path) -> None:
+    out = tmp_path / "matrix.md"
+    p = subprocess.run(
+        [
+            sys.executable,
+            str(REPO_ROOT / "scripts" / "work_dev" / "generate_scenarios.py"),
+            "--scenario",
+            "handback_tail",
+            "--runtimes",
+            "openclaw",
+            "--format",
+            "markdown",
+            "--output",
+            out,
+        ],
+        cwd=REPO_ROOT,
+        capture_output=True,
+        text=True,
+        check=True,
+    )
+    assert p.stdout == ""
+    raw = out.read_bytes()
+    assert not raw.startswith(b"\xff\xfe")
+    assert out.read_text(encoding="utf-8").startswith("# Scenario Matrix")

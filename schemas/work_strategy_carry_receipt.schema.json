@@ -278,6 +278,23 @@
         },
         "reason": { "type": "string" }
       }
+    },
+    "arc_tags": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "arc_movement": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["movement_type", "summary", "evidence"],
+      "properties": {
+        "movement_type": {
+          "type": "string",
+          "enum": ["reinforces", "updates", "weakens", "opens", "closes", "mixed"]
+        },
+        "summary": { "type": "string", "minLength": 1 },
+        "evidence": { "type": "string", "minLength": 1 }
+      }
     }
   }
 }

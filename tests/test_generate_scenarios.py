@@ -12,11 +12,12 @@ HAND_BACK_MATRIX = (
 )
 
 
-def test_handback_tail_stress_openclaw_eight_stressors() -> None:
+def test_handback_tail_stress_openclaw_stressors_by_risk_stance() -> None:
     """handback_tail_stress.yaml: 1 runtime × 8 stressor dimension values."""
     rows = build_matrix(scenario_filter="handback_tail", runtimes=["openclaw"])
-    assert len(rows) == 8
+    assert len(rows) == 24
     stressor_tags = []
+    risk_stances = []
     for r in rows:
         assert r.scenario_id == "handback_tail_stress"
         assert r.runtime == "openclaw"
@@ -25,7 +26,10 @@ def test_handback_tail_stress_openclaw_eight_stressors() -> None:
         s = r.values.get("stressor")
         assert s is not None
         stressor_tags.append(str(s))
-    assert sorted(stressor_tags) == [
+        risk_stance = r.values.get("risk_stance")
+        assert risk_stance is not None
+        risk_stances.append(str(risk_stance))
+    assert sorted(set(stressor_tags)) == [
         "V-01_minimize",
         "V-02_authority",
         "V-03_time_pressure",
@@ -34,6 +38,11 @@ def test_handback_tail_stress_openclaw_eight_stressors() -> None:
         "V-06_hedging",
         "V-07_contradictory_prior",
         "V-08_ood_tail",
+    ]
+    assert sorted(set(risk_stances)) == [
+        "aligned_low",
+        "low_but_warns",
+        "manual_but_approves",
     ]
 
 

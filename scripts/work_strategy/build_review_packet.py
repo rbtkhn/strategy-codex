@@ -338,6 +338,17 @@ def render_review_packet_markdown(packet: dict[str, Any]) -> str:
     lines.append("")
     lines.append(hs.get("text", ""))
     lines.append("")
+    arc_tags = packet.get("arc_tags") or []
+    arc_movement = packet.get("arc_movement") or {}
+    if arc_tags or arc_movement:
+        lines.append("**Arc movement:**")
+        for tag in arc_tags:
+            lines.append(f"- arc_tag: `{tag}`")
+        if arc_movement:
+            lines.append(f"- movement_type: `{arc_movement.get('movement_type', '')}`")
+            lines.append(f"- summary: {arc_movement.get('summary', '')}")
+            lines.append(f"- evidence: {arc_movement.get('evidence', '')}")
+        lines.append("")
 
     lines.append("## E — Uncertainties")
     lines.append("")
@@ -664,6 +675,17 @@ def build_review_packet_dict(
             "notes": "Derived WORK artifact only; not SELF/EVIDENCE. Companion gate governs Record merges.",
         },
     }
+    if carry_loaded:
+        arc_tags = list(carry_loaded.get("arc_tags") or [])
+        arc_movement = carry_loaded.get("arc_movement")
+        if arc_tags:
+            packet["arc_tags"] = arc_tags
+        if isinstance(arc_movement, dict) and arc_movement:
+            packet["arc_movement"] = {
+                "movement_type": str(arc_movement.get("movement_type", "")),
+                "summary": str(arc_movement.get("summary", "")),
+                "evidence": str(arc_movement.get("evidence", "")),
+            }
     if task_shape_obj is not None:
         packet["task_shape"] = task_shape_obj
     return packet

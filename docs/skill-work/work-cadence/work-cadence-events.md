@@ -608,3 +608,19 @@ _(Append below this line.)_
 - **2026-05-20 01:32 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
 - **2026-05-20 01:33 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=codex model_tier=unknown picked=B
 - **2026-05-20 01:40 UTC** — coffee_close (strategy-codex) ok=true cursor_model=codex model_tier=unknown picked=B outcome=done readiness=ship_ready artifacts=scripts/canonical_change_detector.py,tests/test_derived_regeneration.py,docs/skill-work/work-dev/derived-regeneration.md next=review-stage-commit
+- **2026-05-20 02:04 UTC** — coffee_close (strategy-codex) ok=true cursor_model=codex model_tier=unknown picked=B outcome=done readiness=ship_ready artifacts=docs/skill-work/work-dev/scenarios/baseline_scenarios/handback_tail_stress.yaml,docs/skill-work/work-dev/scenarios/handback_tail_stress.matrix.md,scripts/work_dev/validate_handback_analysis.py,scripts next=review-stage-commit-gap-005-006
+- **2026-05-20 02:11 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=codex model_tier=unknown picked=C
+- **2026-05-20 05:59 UTC** — dream (strategy-codex) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=false reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
+- **2026-05-20 12:29 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=codex model_tier=unknown
+- **2026-05-20 12:29 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=codex model_tier=unknown picked=A steward=git
+- **2026-05-20 14:25 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=codex model_tier=unknown
+- **2026-05-20 14:28 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=codex model_tier=unknown picked=C
+- **2026-05-20 16:05 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-05-20 16:09 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=A steward=git
+- **2026-05-20 16:11 UTC** — coffee_close (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=A outcome=partial readiness=ship_ready artifacts=docs/skill-work/work-dev/scenarios/baseline_scenarios/handback_tail_stress.yaml,docs/skill-work/work-dev/scenarios/handback_tail_stress.matrix.md,scripts/work_dev/validate_handback_analysis.py next=commit-verified-handback-tail-slice
+- **2026-05-20 16:17 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=D
+- **2026-05-20 16:19 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=bernstein
+- **2026-05-20 17:22 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=karajan
+- **2026-05-20 17:27 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown verdict=receipt-crosswalk-brief-sealed conductor=karajan notebook_ref=docs/skill-work/work-dev/control-plane/receipt-crosswalk-job-brief.md
+- **2026-05-20 18:17 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=kleiber
+- **2026-05-20 18:19 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown verdict=Held conductor=kleiber notebook_ref=docs/skill-work/work-dev/control-plane/receipt-crosswalk.md falsify=no-fake-universal-log-no-duplicate-doctrine-no-file-dump

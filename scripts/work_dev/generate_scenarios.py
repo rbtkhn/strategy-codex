@@ -325,6 +325,12 @@ def main() -> int:
     )
     ap.add_argument("--format", default="json", choices=["json", "markdown"])
     ap.add_argument(
+        "--output",
+        type=Path,
+        default=None,
+        help="Write output to FILE with UTF-8 encoding instead of stdout.",
+    )
+    ap.add_argument(
         "--check",
         type=Path,
         default=None,
@@ -347,13 +353,22 @@ def main() -> int:
         return 0
 
     if args.format == "markdown":
-        sys.stdout.write(render_markdown(rows))
+        rendered = render_markdown(rows)
     else:
         payload = {
             "version": 2,
             "rows": [asdict(r) for r in rows],
         }
-        sys.stdout.write(json.dumps(payload, indent=2) + "\n")
+        rendered = json.dumps(payload, indent=2) + "\n"
+
+    if args.output is not None:
+        out = args.output
+        if not out.is_absolute():
+            out = REPO_ROOT / out
+        out.parent.mkdir(parents=True, exist_ok=True)
+        out.write_text(rendered, encoding="utf-8")
+    else:
+        sys.stdout.write(rendered)
     return 0
 
 

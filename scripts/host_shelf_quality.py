@@ -46,16 +46,21 @@ RESIDUAL_NOISE_TERMS = [
     "Bilkula",
     "Cining",
     "Cinping",
+    "Kaggon of doctrine",
     "Hin Matal",
     "Jai Shanka",
     "Kaakalis",
     "Mandi",
     "Manny",
     "Naboo",
+    "Pulkava",
+    "Ramshine",
     "Rigul",
+    "Ritterder",
     "Sining",
     "TAD",
     "Tajjikistan",
+    "Thrron",
     "Zalinski",
     "Zilinski",
     "chassis missiles",
@@ -63,6 +68,7 @@ RESIDUAL_NOISE_TERMS = [
     "non-coaching",
     "non-exchange",
     "sea of Azorov",
+    "straight of horm",
     "tourist missiles",
     "zero someum",
 ]
@@ -126,7 +132,7 @@ def _word_count(path: Path) -> int:
 
 
 def _residual_noise_terms(path: Path) -> list[str]:
-    text = path.read_text(encoding="utf-8")
+    text = path.read_text(encoding="utf-8-sig", errors="replace")
     found: list[str] = []
     for term in RESIDUAL_NOISE_TERMS:
         flags = 0 if any(ch.isupper() for ch in term) else re.IGNORECASE
