@@ -8,6 +8,10 @@ Refresh current officeholder facts before load-bearing use.
 
 Putin functions in the Russia lane as the visible presidential carrier of state continuity, security depth, and recognition demands. Treat the profile as an authority-carrier check, not as biography.
 
+## Civilizational Pattern Link
+
+Putin is the current presidential / security-state carrier of post-Soviet [Russia state memory](../civilization/objects/state-memory.md): supreme authority as custodian of state continuity after collapse, encirclement, and recognition loss. Use this profile to test how that deeper pattern is carried now, where it is institutionally supported, and where a transaction would depend too heavily on Putin's personal tactical choice.
+
 ## Authority Base
 
 - Formal authority: presidency, security command, diplomacy, appointment power.

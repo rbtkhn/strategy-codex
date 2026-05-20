@@ -8,6 +8,10 @@ Use this note when a Russia-lane instrument appears to require collective elite 
 
 The Security Council carrier represents the collective security-state surface: defense, intelligence, foreign policy, domestic security, and strategic planning.
 
+## Civilizational Pattern Link
+
+The Security Council is the institutional continuity surface for post-Soviet [Russia state memory](../civilization/objects/state-memory.md). Use it when a transaction must be framed as Russian state interest rather than presidential improvisation, especially when implementation requires military, intelligence, diplomatic, or domestic-security restraint.
+
 ## Carrier Function
 
 - Turns presidential preference into elite/institutional consensus.

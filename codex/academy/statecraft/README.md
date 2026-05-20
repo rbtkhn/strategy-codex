@@ -31,8 +31,9 @@ Civilization and Empire cycle: **Beautify -> Amplify -> Degrade -> Restore.** Ci
 - [Policy paper template](templates/policy-paper.md) - scaffold for policy papers and decision memoranda.
 - [Negotiation brief template](templates/negotiation-brief.md) - scaffold for bargaining packages and diplomatic instructions.
 - [National lane template](templates/national-lane.md) - scaffold for country-specific drafting lanes.
-- [Head-of-state profile template](templates/head-of-state-profile.md) - test leaders, offices, security councils, party centers, and successor authorities as settlement carriers rather than biography subjects.
+- [Head-of-state profile template](templates/head-of-state-profile.md) - legacy/shared carrier-profile grammar for leaders, offices, security councils, party centers, and successor authorities; use it as a profile aid, not folder doctrine.
 - [Authority carrier object template](templates/authority-carrier-object.md) - track ministers, negotiators, security figures, and institutional voices across raw-inputs as statecraft signals rather than biography.
+- [State memory template](templates/state-memory.md) - build civilization-layer authority memory objects with continuity pattern, authority forms, current carriers, transaction test, failure mode, and CIV-MEM provenance.
 - [Civilization / Empire helix template](templates/civilization-empire-helix.md) - scaffold for inherited code, outward striving, and statecraft regulation.
 - [Statecraft transaction template](templates/statecraft-transaction.md) - package speaker-state inputs into validated treaty, memo, brief, or off-ramp instruments.
 - [Cross-lane transaction bundles](transactions/) - compare one crisis object across several national lanes.
@@ -60,7 +61,7 @@ These folders are drafting benches, not country encyclopedias. Each lane synthes
 - [China](china/) - preserve leverage without energy disorder.
 - [Iran](iran/) - convert vulnerability into legitimate system leverage.
 
-Each lane has a local Civilization / Empire / Helix structure, a heads-of-state carrier bench, a crisis-test casebook, and a `transactions/` bench for spending speaker-state into validated instruments. The folder choreography is: `civilization/` remembers, `empire/` reaches, `state/` decides, `helix.md` regulates, and `transactions/` bind. The four lanes now also have authority carrier object benches for ministerial, institutional, and successor-legitimacy signal objects such as [J.D. Vance](america/state/objects/vance.md), [Sergey Lavrov](russia/state/objects/lavrov.md), [Wang Yi](china/state/objects/wang-yi.md), and [Abbas Araghchi](iran/state/objects/araghchi.md).
+Each lane has a local Civilization / Empire / Helix structure, a current state carrier bench, a crisis-test casebook, and a `transactions/` bench for spending speaker-state into validated instruments. The folder choreography is: `civilization/` remembers, `empire/` reaches, `state/` decides, `helix.md` regulates, and `transactions/` bind. Sharper lane law: **Civilization stores state memory. Empire converts memory into reach. State carries present authority. Objects transmit signals. Transactions test whether authority can become settlement.** The four lanes now also have authority carrier object benches for ministerial, institutional, and successor-legitimacy signal objects such as [J.D. Vance](america/state/objects/vance.md), [Sergey Lavrov](russia/state/objects/lavrov.md), [Wang Yi](china/state/objects/wang-yi.md), and [Abbas Araghchi](iran/state/objects/araghchi.md).
 
 First exemplar: [Hormuz recognition transit transaction](iran/transactions/hormuz-recognition-transit-transaction.md).
 

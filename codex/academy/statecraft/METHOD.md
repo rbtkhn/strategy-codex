@@ -6,6 +6,8 @@ Academy-statecraft turns political judgment into draftable instruments. It is no
 
 Canonical PH-CIV / statecraft hinge: **Civilizational pattern and narrative become statecraft only when converted into authority, restraint, and settlement.** Use [Civilizational Pattern To Statecraft](sheets/civilizational-pattern-to-statecraft.md) whenever a historical or civilizational pattern is invoked.
 
+Lane law: **Civilization stores state memory. Empire converts memory into reach. State carries present authority. Objects transmit signals. Transactions test whether authority can become settlement.** Use [State Memory Template](templates/state-memory.md) when a civilization-layer authority pattern needs to be connected to current state carriers and transaction tests.
+
 ## Drafting Loop
 
 1. **Name the state interest.** State the concrete interest in one sentence without moral theater or bureaucratic fog.
@@ -17,7 +19,7 @@ Canonical PH-CIV / statecraft hinge: **Civilizational pattern and narrative beco
 7. **Identify the institutional carrier.** Specify which offices, agencies, coalition bodies, courts, forces, secretariats, or treaty organs can carry the instrument after the headline moment passes.
 8. **Map the balance.** Name the parties, dependencies, veto points, outside patrons, escalation ladders, likely spoilers, and creditor extraction incentives.
 9. **Limit the aim.** Define what the instrument does not try to solve, so it can succeed at the thing it is actually built to do.
-10. **Run folder choreography.** Move through `civilization/`, `empire/`, `state/`, and `helix.md`: memory -> desire for control -> authority carrier -> restrained instrument.
+10. **Run folder choreography.** Move through `civilization/`, `empire/`, `state/`, and `helix.md`: state memory -> desire for reach -> present authority carrier -> restrained instrument.
 11. **Draft the mechanism.** Convert the judgment into obligations, procedures, thresholds, review cadence, enforcement hooks, and exit/off-ramp language. Package reusable outputs as [statecraft transactions](templates/statecraft-transaction.md) when they need provenance, historical continuity, validation, and revisit triggers.
 12. **Stress-test incentives.** Ask what each party gains by compliance, what it gains by cheating, and how violations become observable.
 13. **Preserve agency and legitimacy.** Keep necessity from becoming excuse; name who commands, who implements, who can refuse, and who bears responsibility.

@@ -14,6 +14,10 @@ Abbas Araghchi, Iranian foreign minister and negotiating carrier.
 
 Araghchi functions as Iran's foreign-ministry negotiating carrier: the official diplomatic voice most likely to convert wartime leverage, nuclear rights, sanctions grievance, Hormuz pressure, and dignity language into draftable settlement architecture. In academy-statecraft, he is not primarily a biography subject. He is a signal object for Iranian restraint conditions, non-capitulation formulas, sanctions-relief sequencing, and third-party channels.
 
+## Civilizational Pattern Link
+
+Araghchi is a diplomatic transmitter of [Iran state memory](../../civilization/objects/state-memory.md): dignity, sovereignty, sanctions grievance, nuclear rights, non-capitulation, and regional architecture. Compare his signals against the [authority structure](../authority-structure.md), [Supreme Leader](../supreme-leader.md), [president / government](../president-government.md), and [IRGC](../irgc.md) before treating them as implementable state policy.
+
 ## Why This Is Not Biography
 
 Araghchi matters here because the Iran lane needs to know which Iranian signals can become text: ceasefire conditions, enrichment language, frozen-asset claims, sanctions relief, Hormuz/transit formulas, and Russia / China / Oman / Pakistan channels. Speaker lanes interpret him differently, but the statecraft object asks what Iranian state position he is carrying and what instrument could make it credible.
@@ -70,7 +74,7 @@ Use these as starting surfaces, not an exhaustive set:
 - **Treaty design:** preserve enrichment rights, verification dignity, sanctions sequencing, and non-regime-change language when Araghchi is load-bearing.
 - **Negotiation brief:** ask what Iran can accept without appearing managed, humiliated, or stripped of leverage.
 - **Iran crisis transaction:** mark whether Tehran is monetizing leverage, preserving deterrence, or moving toward regional architecture.
-- **Authority-carrier check:** compare Araghchi to the Supreme Leader, president, SNSC, IRGC, parliament, and foreign ministry before treating a line as implementable.
+- **Authority-carrier check:** compare Araghchi to the authority structure, Supreme Leader, president / government, SNSC, IRGC, parliament, and foreign ministry before treating a line as implementable.
 - **Speaker-state intake:** use Parsi and Marandi to interpret Iranian bargaining logic, Ritter for force-risk skepticism, and Mercouris for institutional sequencing, but do not substitute them for Iranian official signals.
 
 ## Drafting Rule

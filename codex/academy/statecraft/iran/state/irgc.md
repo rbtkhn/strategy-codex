@@ -8,6 +8,10 @@ Refresh current officeholder facts before load-bearing use.
 
 The IRGC carrier represents deterrence, regional networks, escalation control, internal security, and coercive credibility.
 
+## Civilizational Pattern Link
+
+The IRGC is the security implementation carrier of [Iran state memory](../civilization/objects/state-memory.md): resistance, martyrdom/endurance, deterrent dignity, and refusal of external domination. Use this profile to test whether a transaction gives security institutions a reason to enforce restraint rather than profit from escalation.
+
 ## Authority Base
 
 - Formal / security authority: military and security roles within the state.

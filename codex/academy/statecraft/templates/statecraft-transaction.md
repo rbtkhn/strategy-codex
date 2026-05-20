@@ -57,7 +57,7 @@ Use when the transaction depends on debt, food, subsidy, currency, creditor, or 
 
 ## Head-Of-State Carrier Check
 
-Use [Head-Of-State Carrier Profile Template](head-of-state-profile.md) when a leader, office, security council, party center, supreme authority, or successor power determines whether the instrument can be signed, sold, implemented, or survive succession.
+Use [Head-Of-State Carrier Profile Template](head-of-state-profile.md) as a shared carrier-profile aid when a leader, office, security council, party center, supreme authority, or successor power determines whether the instrument can be signed, sold, implemented, or survive succession. It is not folder doctrine; current carriers belong in `state/`, and long authority memory belongs in `civilization/objects/state-memory.md`.
 
 - Required authority carrier:
 - What this carrier can sign credibly:

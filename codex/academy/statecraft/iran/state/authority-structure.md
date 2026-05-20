@@ -8,6 +8,10 @@ Refresh current officeholder facts before load-bearing use.
 
 Iran's statecraft carrier is split across supreme authority, elected government, clerical legitimacy, security institutions, parliament, foreign ministry, and the IRGC. A settlement is credible only if it can pass through the authority structure rather than merely one public office.
 
+## Civilizational Pattern Link
+
+This structure is the current carrier map for [Iran state memory](../civilization/objects/state-memory.md): sovereignty, dignity, resistance, sanctions endurance, and split clerical-republican authority. Use it to test whether a transaction can pass through the whole state rather than only one negotiator or faction.
+
 ## Carrier Map
 
 - Supreme authority: red lines, ultimate legitimacy, strategic restraint or retaliation.

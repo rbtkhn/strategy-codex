@@ -41,11 +41,11 @@ Use Richelieu to test whether Iran's leverage is carried by durable institutions
 - [Empire](empire/) - outward striving for deterrence, Hormuz leverage, sanctions relief, partner networks, and recognition.
 - [Helix](helix.md) - where dignity authorizes leverage, where leverage risks isolation, and what restraint turns power into settlement.
 
-## Heads Of State / Authority Carriers
+## Current State Carriers
 
 Use [Iran state](state/) to map supreme authority, elected government, foreign ministry, parliament, IRGC, and security carriers before treating restraint, retaliation, nuclear ambiguity, or sanctions relief as implementable.
 
-Inside that state bench, use [heads of state](state/heads-of-state/) for supreme, elected, and security carriers, and [authority carrier objects](state/objects/) for ministers, negotiators, clerical signals, security figures, and official institutional voices whose statements carry Iranian state intent across raw-inputs. First object: [Abbas Araghchi](state/objects/araghchi.md).
+Inside that state bench, use the [authority structure](state/authority-structure.md), [Supreme Leader](state/supreme-leader.md), [president / government](state/president-government.md), and [IRGC](state/irgc.md) for current authority carriers, and [authority carrier objects](state/objects/) for ministers, negotiators, clerical signals, security figures, and official institutional voices whose statements carry Iranian state intent across raw-inputs. First object: [Abbas Araghchi](state/objects/araghchi.md).
 
 ## Speaker-State Intake
 

@@ -38,3 +38,5 @@ Any successor Russian authority would still need strategic depth, secure borders
 ## Development Queue
 
 Start with [seed-patterns.md](seed-patterns.md). Promote a seed into a full note only when a transaction, current-event brief, or comparative test needs it.
+
+Use [civilization objects](objects/) when a recurring authority pattern needs to connect the Russia book surface to current state carriers, diplomatic transmitters, and transaction authority checks. First object: [state memory](objects/state-memory.md).

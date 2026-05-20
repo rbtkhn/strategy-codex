@@ -2,7 +2,7 @@
 
 WORK only; not Record.
 
-This bench tracks Iranian statecraft carriers that are not best treated as heads of state or ordinary speaker objects. These are ministers, negotiators, clerical signals, security figures, institutional voices, or offices whose statements carry Iranian state intent across raw-inputs.
+This bench tracks Iranian statecraft carriers that are not primary current state carriers or ordinary speaker objects. These are ministers, negotiators, clerical signals, security figures, institutional voices, or offices whose statements carry Iranian state intent across raw-inputs.
 
 Use this bench when a treaty, crisis transaction, or policy memo depends on whether a signal is only commentary or a durable Iranian state position.
 

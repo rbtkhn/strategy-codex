@@ -41,11 +41,11 @@ Use Richelieu to test whether Russian policy has a durable institutional carrier
 - [Empire](empire/) - outward striving for buffers, energy leverage, recognition formulas, military depth, and multipolar optionality.
 - [Helix](helix.md) - where security memory authorizes power, where power risks overbinding, and what restraint preserves timing.
 
-## Heads Of State / Authority Carriers
+## Current State Carriers
 
 Use [Russia state](state/) to test current government authority, Security Council consensus, elite coalition constraints, and whether a settlement expresses durable Russian state interest rather than personal improvisation.
 
-Inside that state bench, use [heads of state](state/heads-of-state/) for presidential and security-elite carriers, and [authority carrier objects](state/objects/) for ministers, negotiators, security figures, and official institutional voices whose statements carry Russian state intent across raw-inputs. First object: [Sergey Lavrov](state/objects/lavrov.md).
+Inside that state bench, use [Putin](state/putin.md) and the [Security Council](state/security-council.md) for current presidential / security-elite carriers, and [authority carrier objects](state/objects/) for ministers, negotiators, security figures, and official institutional voices whose statements carry Russian state intent across raw-inputs. First object: [Sergey Lavrov](state/objects/lavrov.md).
 
 ## Speaker-State Intake
 

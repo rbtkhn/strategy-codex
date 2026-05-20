@@ -9,22 +9,22 @@ Use this sheet when a crisis test, treaty clause, policy memo, or negotiation br
 The statecraft lane movement is:
 
 ```text
-civilization/ remembers -> empire/ reaches -> state/ decides -> helix.md regulates -> transactions/ bind
+civilization/ stores state memory -> empire/ converts memory into reach -> state/ carries present authority -> objects/ transmit signals -> transactions/ test settlement
 ```
 
 Short form:
 
 ```text
-memory -> desire for control -> authority carrier -> restrained instrument
+state memory -> reach -> present authority -> transmitted signal -> settlement test
 ```
 
 ## Internal Choreography
 
 Inside each national lane:
 
-- `civilization/` names inherited code: memory, legitimacy, geography, fear, continuity, and successor-stable state interest.
+- `civilization/` names inherited code and state memory: legitimacy, geography, fear, continuity, historical authority forms, and successor-stable state interest.
 - `empire/` names outward striving: force, finance, alliance, chokepoint, law, infrastructure, and dependency instruments.
-- `state/` names current carriers: heads of state, councils, ministries, negotiators, parties, security organs, and official objects.
+- `state/` names present authority carriers: leaders, councils, ministries, negotiators, parties, security organs, and official objects.
 - `helix.md` tests whether outward power protects civilization, deforms civilization, or needs restraint.
 - `transactions/` packages the result as a reusable instrument with provenance, continuity, validation, falsifiers, and revisit triggers.
 
@@ -45,10 +45,11 @@ The goal is one settlement spine that can survive four different readings, not o
 
 Before packaging a transaction, name:
 
-1. What `civilization/` remembers.
-2. What `empire/` wants to control.
-3. Which `state/` carrier can decide or veto.
-4. What `helix.md` says must be restrained.
-5. What `transactions/` can bind into text.
+1. What `civilization/` stores as state memory.
+2. What `empire/` converts into reach.
+3. Which `state/` carrier can authorize, decide, implement, or veto.
+4. Which `objects/` transmit reliable state signals.
+5. What `helix.md` says must be restrained.
+6. What `transactions/` can test and bind into text.
 
 If any step is missing, keep the artifact as analysis rather than presenting it as statecraft.

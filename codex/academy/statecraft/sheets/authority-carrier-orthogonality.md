@@ -2,16 +2,16 @@
 
 WORK only; not Record.
 
-Use this sheet when comparing heads-of-state / authority-carrier benches across the four academy-statecraft lanes. The purpose is not biography. The purpose is to preserve four distinct settlement-credibility problems.
+Use this sheet when comparing current state carrier and authority-carrier benches across the four academy-statecraft lanes. The purpose is not biography. The purpose is to preserve four distinct settlement-credibility problems.
 
 ## Core Distinction
 
 | lane | authority problem | main question | distinct risk |
 | --- | --- | --- | --- |
 | [America](../america/state/heads-of-state/) | fragmented / successor authority | Can the executive bind the state, Congress, allies, military, and possible successor America? | personal executive action that does not survive domestic rupture |
-| [Russia](../russia/state/heads-of-state/) | presidential-security elite carrier | Is the leader expressing durable Russian state interest or managing elite/security constraints? | personal or elite flexibility mistaken for durable settlement capacity |
+| [Russia](../russia/state/) | presidential-security elite carrier | Is the leader expressing durable Russian state interest or managing elite/security constraints? | personal or elite flexibility mistaken for durable settlement capacity |
 | [China](../china/state/heads-of-state/) | party-state implementation carrier | Can top leadership bind the party-state, bureaucracy, military, firms, banks, ports, and provinces? | visible leader commitment without enough quiet implementation capacity |
-| [Iran](../iran/state/heads-of-state/) | split authority structure | Who authorizes, who implements, who can spoil: supreme authority, government, IRGC, parliament? | a deal signed by one carrier but vetoed or hollowed out by another |
+| [Iran](../iran/state/) | split authority structure | Who authorizes, who implements, who can spoil: supreme authority, government, IRGC, parliament? | a deal signed by one carrier but vetoed or hollowed out by another |
 
 ## Productive Overlaps
 

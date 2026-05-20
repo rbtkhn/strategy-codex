@@ -6,7 +6,10 @@ Use this folder for the current Iranian state apparatus: supreme authority, elec
 
 ## Start Here
 
-- [Heads of state](heads-of-state/) - supreme authority, elected government, foreign ministry, parliament, IRGC, and security carriers.
+- [Authority structure](authority-structure.md) - split current authority across supreme, elected, diplomatic, security, parliamentary, and clerical surfaces.
+- [Supreme Leader carrier](supreme-leader.md) - ultimate legitimacy, red-line, dignity, and restraint-authorizing surface.
+- [President / government carrier](president-government.md) - administrative implementation, relief delivery, trade, budgets, and public-service surface.
+- [IRGC carrier](irgc.md) - deterrence, escalation, regional networks, and security implementation surface.
 - [Authority carrier objects](objects/) - ministers, negotiators, clerical signals, security figures, and institutional voices whose statements carry Iranian state intent across raw-inputs.
 - [Abbas Araghchi](objects/araghchi.md) - foreign-ministry negotiating carrier for sanctions relief, nuclear rights, dignity, transit leverage, and regional architecture.
 

@@ -8,6 +8,10 @@ Refresh current officeholder facts before load-bearing use.
 
 The supreme leader carrier represents ultimate legitimacy, strategic red lines, and the authority to frame restraint as dignity rather than surrender.
 
+## Civilizational Pattern Link
+
+The supreme leader is the current ultimate-legitimacy carrier of [Iran state memory](../civilization/objects/state-memory.md): sovereignty, dignity, martyrdom/endurance, anti-domination, and refusal of humiliation. Use this profile to test whether restraint can be authorized as protection of the revolution and state rather than capitulation.
+
 ## Authority Base
 
 - Formal authority: supreme constitutional / clerical authority.

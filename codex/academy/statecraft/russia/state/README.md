@@ -6,7 +6,8 @@ Use this folder for the current Russian state apparatus: government, presidency,
 
 ## Start Here
 
-- [Heads of state](heads-of-state/) - presidential authority, Security Council consensus, elite/security constraints, and succession carrying capacity.
+- [Putin carrier](putin.md) - current presidential / security-state carrier of state continuity, strategic depth, and recognition demands.
+- [Security Council carrier](security-council.md) - institutional continuity surface for elite/security consensus and durable implementation.
 - [Authority carrier objects](objects/) - ministers, negotiators, security figures, and institutional voices whose statements carry Russian state intent across raw-inputs.
 - [Sergey Lavrov](objects/lavrov.md) - foreign-ministry continuity carrier for agreement capability, red-line language, and settlement signals.
 

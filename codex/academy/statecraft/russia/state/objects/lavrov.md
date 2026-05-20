@@ -14,6 +14,10 @@ Sergey Lavrov, Russian foreign minister.
 
 Lavrov functions as a foreign-ministry continuity carrier: the official diplomatic voice that translates presidential and Security Council consensus into durable state language. In academy-statecraft, he is not primarily a commentator or biographical subject. He is a signal object for Russian agreement-capability judgments, mediation offers, red-line hardening, treaty memory, and diplomatic framing.
 
+## Civilizational Pattern Link
+
+Lavrov is a downstream diplomatic transmitter of post-Soviet [Russia state memory](../../civilization/objects/state-memory.md). Compare his signals against [Putin](../putin.md) and the [Security Council](../security-council.md) before treating them as durable state policy: he can translate presidential / security-state language into settlement terms, but he does not by himself prove the pattern is institutionally carryable.
+
 ## Why This Is Not Biography
 
 Lavrov matters here because multiple speaker lanes treat his words as state-weighted. Ritter reads Lavrov as a Putin-authorized signal. Mercouris reads Lavrov as an institutional policy marker. Other raw-inputs use Lavrov to identify whether Moscow is still leaving a settlement channel open or has hardened its view of the West.
