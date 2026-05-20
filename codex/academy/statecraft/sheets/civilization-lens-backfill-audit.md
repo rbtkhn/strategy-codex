@@ -30,26 +30,26 @@ Status thresholds:
 |---|---:|---|---|---|
 | `america-art` | 42 | Provisional | Good broad art definition and useful frontier / spectacle frame. | Flat source list, no MEM CONNECTIONS, no counterweights, mojibake paths. |
 | `america-lit` | 48 | Provisional | Strong republic-conscience / dissent / anti-imperial grammar with 8 literary MEMs. | No graph expansion from literature into constitutional, frontier, civil-war, or empire-critique counterweights. |
-| `america-war` | 50 | Provisional | Useful independence / civil-war / expeditionary legitimacy frame. | Needs graph path from war powers to Congress, empire, public fatigue, and failure cases. |
+| `america-war` | 86 | Full-strength | Upgraded after audit with direct retrieval, lens retrieval, MEM CONNECTIONS expansion, and counterweights from Wilson idealist overreach, Philippine-American occupation, Manifest Destiny conquest masking, MacArthur civilian-command failure, Vietnam / Nixon exit uncertainty, and blurred congressional war practice. | Keep testing clauses so lawful coercion does not become executive drift, allied blank-check burden, or empire disguised as republican defense. |
 | `america-peace` | 44 | Provisional | Clear lawful-off-ramp and allied-order use. | Needs settlement/reconstruction/alliance MEM CONNECTIONS and peace-as-control counterweights. |
 | `russia-art` | 41 | Provisional | Captures music, ballet, monument, Soviet form, and beauty under pressure. | Needs graph path from icon / sacred space / Soviet monumentality to state spectacle and imperial nostalgia counterweights. |
-| `russia-lit` | 43 | Provisional | Correct suffering, soul, humiliation, sacrifice, and state/soul tension frame. | Needs graph expansion through Dostoevsky, Tolstoy, exile, Orthodoxy, war memory, and fatalism counterweights. |
+| `russia-lit` | 85 | Full-strength | Upgraded after audit with direct retrieval, lens retrieval, MEM CONNECTIONS expansion, and counterweights from Crimean / Gorbachev institutional exhaustion, Third Rome finality, Chekhovian depletion, and Gogolian dead-form bureaucracy. | Keep testing settlement language so suffering becomes recognized restraint rather than permanent veto, sacred finality, or grievance theater. |
 | `russia-war` | 86 | Full-strength | Upgraded after audit with direct retrieval, lens retrieval, MEM CONNECTIONS expansion, and named counterweights from Crimean War, Kulikovo, Leningrad, Great Game, Barbarossa, and Cold War exhaustion. | Keep testing transaction clauses so bounded depth does not slide into unlimited buffer demand. |
-| `russia-peace` | 45 | Provisional | Useful recognition / buffer / non-subordination frame. | Needs Vienna/Yalta/Potsdam/security-depth graph path and frozen-domination counterweights. |
+| `russia-peace` | 86 | Full-strength | Upgraded after audit with direct retrieval, lens retrieval, MEM CONNECTIONS expansion, and counterweights from Vienna frozen guardianship, Great Game sphere suspension, Crimea / Black Sea non-neutralizability, Gorbachev authority collapse, and Cold War permanent rivalry. | Keep testing clauses so recognition and buffer design become equilibrium rather than frozen domination, managed humiliation, or third-party sovereignty sacrifice. |
 | `china-art` | 44 | Provisional | Good refinement / ritual / infrastructure beauty frame. | Needs graph path from calligraphy, landscape, ritual order, imperial aesthetics, and disorder concealment counterweights. |
 | `china-lit` | 39 | Provisional | Coherent sages / harmony / dynastic-cycle orientation. | Source base is too narrow; needs classics-to-statecraft graph and harmony-suppresses-warning counterweight. |
-| `china-war` | 50 | Provisional | Strong humiliation / civil-war / Taiwan / maritime sensitivity frame. | Needs graph path from Opium/Taiping/Boxer/Taiwan to PLA restraint, insurance panic, and anti-disorder escalation. |
+| `china-war` | 85 | Full-strength | Upgraded after audit with direct retrieval, lens retrieval, MEM CONNECTIONS expansion, and counterweights from Boxer coalition retaliation, First Opium survival-under-humiliation, ROC fragmentation, PRC / Mao mobilization costs, Deng development legitimacy, and Taiwan managed ambiguity. | Keep testing quarantine / blockade clauses so anti-disorder action does not manufacture insurance panic or coalition escalation. |
 | `china-peace` | 44 | Provisional | Useful quiet-implementation and development-continuity frame. | Needs diplomacy/development/ports/banks/provinces graph and public-responsibility-for-disorder counterweight. |
 | `iran-art` | 46 | Provisional | Strong beauty-as-recognition frame across palace, shrine, garden, plateau, and Gulf. | Needs graph path from Achaemenid/Sasanian/Safavid/Islamic art to nostalgia, prestige, and sacred-enclosure counterweights. |
 | `iran-lit` | 40 | Provisional | Good poetry-as-sovereignty and memory-beyond-regime frame. | Needs Ferdowsi/Persian language/conquest survival/Shi'a memory graph and grievance-capture counterweight. |
 | `iran-war` | 49 | Provisional | Useful parity / rupture / martyrdom / deterrence frame. | Needs graph path from plateau/Rome/Iran-Iraq/Hormuz to endurance-as-escalation counterweights. |
-| `iran-peace` | 47 | Provisional | Strong recognition, sequencing, dignity, and non-regime-change frame. | Needs Mossadegh/1953/nuclear/sanctions/Gulf graph and verification-as-humiliation counterweights. |
+| `iran-peace` | 85 | Full-strength | Upgraded after audit with direct retrieval, lens retrieval, MEM CONNECTIONS expansion, and counterweights from Qajar concessions, British / Mossadegh / 1953 memory, constitutional split authority, Iran-Iraq martyrdom, Rome-parity exhaustion, and Gulf overuse. | Keep testing clauses so dignity-preserving peace does not become relief dependency or verification humiliation. |
 
 ## Aggregate Findings
 
 - **All 16 are usable v1 orientation files.** They have coherent statecraft purpose, failure modes, CIV-MEM input lists, and transaction-use sections.
-- **One file is now full-strength.** `russia-war` has been upgraded with direct/lens/graph retrieval, opened connected MEMs, and named counterweights.
-- **The remaining 15 are usable but provisional.** They need explicit retrieval reports, MEM CONNECTIONS paths, and at least two counterweights each.
+- **Six files are now full-strength.** `russia-war`, `iran-peace`, `china-war`, `america-war`, `russia-lit`, and `russia-peace` have been upgraded with direct/lens/graph retrieval, opened connected MEMs, and named counterweights.
+- **The remaining 10 are usable but provisional.** They need explicit retrieval reports, MEM CONNECTIONS paths, and at least two counterweights each.
 - **The source lists are plausible but flat.** They cite relevant MEMs, but do not show how `MEM CONNECTIONS` discovered adjacent evidence, contradiction, analogy, rupture, or transaction constraints.
 - **Encoding hygiene needs a pass.** The remaining provisional files still contain malformed dash encoding in CIV-MEM path names, which should be corrected during each graph backfill.
 - **Transaction use is present but underpowered.** The files say when to use the lens, but do not yet generate clause tests, objection tests, or recursive-candidate triggers at the standard now demonstrated by `russia-god`.
@@ -58,16 +58,12 @@ Status thresholds:
 
 Upgrade in this order if the goal is maximum transaction utility:
 
-1. `iran-peace` - crucial for Hormuz, nuclear latency, sanctions relief, non-regime-change, and verification dignity.
-2. `china-war` - crucial for Taiwan quarantine, maritime access, blockade, and insurance-panic classification.
-3. `america-war` - crucial for executive overreach, congressional authority, allied burden, and war-fatigue tests.
-4. `russia-lit` - pairs naturally with `russia-god` and `russia-war` for humiliation, suffering, and sacred-safe clause design.
-5. `russia-peace` - now the best Russia-side complement because upgraded war memory needs a settlement-language counterpart.
-6. `china-lit` - needs strengthening because harmony/order language is central to Chinese settlement acceptability.
-7. `iran-lit` - needed to prevent dignity and martyrdom from being flattened into regime preference.
-8. `america-lit` - needed to test whether empire still sounds like a republic.
-9. Art lenses by transaction need: `china-art`, `iran-art`, `russia-art`, `america-art`.
-10. Remaining peace lenses by transaction need: `china-peace`, `america-peace`.
+1. `america-lit` - now the best America-side complement because upgraded war memory needs the republic-conscience and anti-imperial critique lens.
+2. `china-lit` - needs strengthening because harmony/order language is central to Chinese settlement acceptability.
+3. `china-peace` - now the best China-side complement because upgraded war memory needs a quiet-implementation and face-saving restraint counterpart.
+4. `iran-lit` - pairs naturally with upgraded `iran-peace` so dignity, poetry, martyrdom, and recognition do not flatten into regime preference.
+5. `america-peace` - pairs naturally with upgraded `america-war` to test lawful exit, allied burden-sharing, treaty legitimacy, and reconstruction restraint.
+6. Art lenses by transaction need: `china-art`, `iran-art`, `russia-art`, `america-art`.
 
 ## Backfill Contract
 
