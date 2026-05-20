@@ -57,6 +57,7 @@ Cross-lane bundles:
 
 - [Hormuz Transit / Sanctions Relief Compact](transactions/hormuz-transit-sanctions-relief-compact/)
 - [Iran Nuclear Latency Recognition Framework](transactions/iran-nuclear-latency-recognition-framework/)
+- [Protected Channel / Non-Regime-Change Framework](transactions/protected-channel-non-regime-change-framework/)
 
 ## Long Arc
 

@@ -36,6 +36,8 @@ Each transaction should separate:
 ## Exemplars
 
 - [Hormuz recognition transit transaction](hormuz-recognition-transit-transaction.md) - volatile first pass that converts Iran's Hormuz leverage into a recognition, restraint, sanctions-relief, and transit-security clause.
+- [Protected Channel / Non-Regime-Change Framework](../../transactions/protected-channel-non-regime-change-framework/) - two-lane Iran / America bundle that converts leadership-martyrdom and off-ramp-destruction risk into protected channels, no-partition language, and sovereignty-preserving sequencing.
+- [Minab Civilian-Harm De-Escalation Framework](../../transactions/minab-civilian-harm-deescalation-framework/) - two-lane Iran / America bundle that preserves Minab dignity while converting civilian-harm memory into inquiry, protected channels, no-regime-change language, and controlled leverage.
 
 ## Validity Questions
 

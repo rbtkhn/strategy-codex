@@ -27,10 +27,16 @@ Treat `america` as broader than current Washington. Each transaction should sepa
 
 - transit and maritime deconfliction guarantees;
 - sanctions relief sequences with snapback discipline;
+- protected-channel and non-regime-change assurances;
 - allied burden-sharing notes;
 - congressional or successor-stable authority clauses;
 - energy resilience and insurance mechanisms;
 - limited regional security architecture.
+
+## Exemplars
+
+- [Protected Channel / Non-Regime-Change Framework](../../transactions/protected-channel-non-regime-change-framework/) - two-lane America / Iran bundle that tests how Washington can preserve bargaining authority after leadership targeting without validating regime-change or partition as policy.
+- [Minab Civilian-Harm De-Escalation Framework](../../transactions/minab-civilian-harm-deescalation-framework/) - two-lane America / Iran bundle that converts civilian-harm memory into humanitarian review, protected channels, no-regime-change language, and reversible relief without forcing immediate admission politics.
 
 ## Validity Questions
 
