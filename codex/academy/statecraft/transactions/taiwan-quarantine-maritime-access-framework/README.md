@@ -8,6 +8,14 @@ Purpose: compare the Taiwan maritime-access crisis across China, America, Russia
 
 Taiwan maritime pressure becomes dangerous when legal classification collapses. A quarantine can be framed as inspection; a blockade can become war; insurance panic can create coercion without formal attack.
 
+## Status-Neutral Maritime Continuity Patch
+
+Use status-neutral maritime continuity as the first patch before drafting escalation language:
+
+`Inspection without blockade recognition; transit without sovereignty concession; commercial continuity without status alteration; deconfliction without symbolic surrender.`
+
+The patch treats inspection, quarantine, customs notice, transit reassurance, insurance reaction, and blockade as separate classifications until sustained interdiction, notice, failed consultation, and review prove otherwise.
+
 ## Lane Package
 
 | lane | transaction role | open |

@@ -46,6 +46,7 @@ Arc-lens doctrine: **each major civilization object is an arc-lens, not a topic 
 - [Civilizational pattern to statecraft](sheets/civilizational-pattern-to-statecraft.md) - convert PH-CIV pattern and narrative into authority, restraint, and settlement.
 - [Folder choreography](sheets/folder-choreography.md) - move from `civilization/` memory through `empire/` reach, `state/` decision, `helix.md` regulation, and `transactions/` binding.
 - [State lane development roadmap](sheets/state-lane-development-roadmap.md) - systematically seed, deepen, regulate, and extract each state lane's civilization and empire folders.
+- [Hexagon arc-lens stress test](sheets/hexagon-arc-lens-stress-test.md) - run god, lit, art, geo, war, and peace as a six-lens diagnostic before drafting or patching an instrument.
 - [CIV-MEM object retrieval matrix](sheets/civ-mem-object-retrieval-matrix.md) - run direct, lens, graph, counterweight, and arc-lens retrieval before major civilization backfills.
 - [National perspective orthogonality](sheets/national-perspective-orthogonality.md) - compare U.S., Russia, China, Iran, and other state views without collapsing them into one generic strategic lens.
 - [Authority carrier orthogonality](sheets/authority-carrier-orthogonality.md) - compare leader / office / party-state / security-carrier problems without flattening them into biography.

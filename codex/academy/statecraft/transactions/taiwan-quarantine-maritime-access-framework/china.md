@@ -61,6 +61,10 @@ Limited aim: inspection discipline and political pressure, not forced war clock.
 
 China shall frame any maritime inspection regime as time-limited safety and customs enforcement, paired with incident hotlines, published vessel categories, and a commercial safe-passage channel that does not require foreign recognition of a blockade.
 
+Status-neutral patch:
+
+China can accept deconfliction only if it is framed as maritime safety, customs, quarantine notification, and commercial continuity rather than blockade suspension or Taiwan-status negotiation. Public wording should avoid blockade, recognition, surrender, enforcement coalition, or reunification-success language. Inspection, quarantine, customs notice, transit reassurance, and blockade should remain distinct classifications unless sustained interdiction, notice, failed consultation, and review prove otherwise.
+
 ## Mirror Test
 
 - America: Is this a blockade by another name?

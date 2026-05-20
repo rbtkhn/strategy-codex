@@ -61,6 +61,10 @@ Limited aim: keep transit open without converting ambiguity into total confronta
 
 The United States shall support commercial safe-transit categories, insurance backstops, and emergency consultations while reserving formal blockade classification for sustained interdiction that blocks lawful transit after notice and failed consultation.
 
+Status-neutral patch:
+
+The United States should reassure transit without automatically recognizing blockade. Commercial continuity measures, insurance backstops, emergency consultations, and lawful reassurance should be described as incident prevention and maritime continuity, not as recognition settlement, blockade breaking, or surrender to inspection. Formal blockade classification should require sustained interdiction, notice, failed consultation, and review.
+
 ## Mirror Test
 
 - America: Does this avoid deterrence collapse?
