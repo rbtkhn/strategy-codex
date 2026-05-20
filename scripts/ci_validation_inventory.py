@@ -82,6 +82,10 @@ def _argv_validate_speaker_state_sets(_user: str) -> list[str]:
     return []
 
 
+def _argv_judgment_contract_gauntlets(_user: str) -> list[str]:
+    return []
+
+
 ALL_CHECKS: tuple[CheckSpec, ...] = (
     CheckSpec(
         id="assert_canonical_paths",
@@ -225,6 +229,16 @@ ALL_CHECKS: tuple[CheckSpec, ...] = (
         timeout_sec=60.0,
         ci_source="",
     ),
+    CheckSpec(
+        id="judgment_contract_gauntlets",
+        label="Judgment contract gauntlets",
+        script_relpath="scripts/validate_judgment_contracts.py",
+        argv_builder=_argv_judgment_contract_gauntlets,
+        user_scope="ignored",
+        groups=frozenset({"experimental"}),
+        timeout_sec=180.0,
+        ci_source="",
+    ),
 )
 
 
@@ -266,6 +280,7 @@ def checks_for_group(group: str) -> list[CheckSpec]:
             "validate_seed_phase_template",
             "validate_speaker_objects",
             "validate_speaker_state_sets",
+            "judgment_contract_gauntlets",
         ]
         return [by_id[i] for i in order]
     out = [c for c in ALL_CHECKS if g in c.groups]

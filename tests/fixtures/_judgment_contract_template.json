@@ -1,0 +1,23 @@
+{
+  "_comment": "Template for future judgment-contract fixture cases. Copy into a named fixture and replace placeholder values.",
+  "id": "EXAMPLE-G001",
+  "prompt_or_artifact": "Describe the prompt, artifact, skill, ledger, or workflow this case protects.",
+  "must_cover": [
+    "required behavior, section, source-boundary, or judgment discipline"
+  ],
+  "must_not": [
+    "forbidden collapse, shortcut, source misuse, or role drift"
+  ],
+  "expected_routing": [
+    "expected surface, lane, speaker role, or statecraft destination"
+  ],
+  "score": {
+    "coverage": 4,
+    "anti_pattern": 1.5,
+    "routing": 1,
+    "discipline": 1
+  },
+  "critical_failures": [
+    "failure condition that must fail the suite regardless of score"
+  ]
+}
