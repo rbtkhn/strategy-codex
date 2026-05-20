@@ -8,7 +8,7 @@ from typing import Any
 
 # Stable order from build_execution_paths: maps first three hub letters A/B/C (see coffee SKILL).
 _COFFEE_LETTER_AND_LABEL: dict[str, tuple[str, str]] = {
-    "today_field": ("C", "Strategist"),
+    "today_field": ("C", "Statecraft"),
     "build": ("B", "Engineer"),
     "steward": ("A", "Steward"),
 }
@@ -19,7 +19,7 @@ def coffee_menu_hint_from_dream(dream: dict[str, Any]) -> str | None:
     One-line hint for the next coffee Step 2 menu from last-dream.json.
 
     Maps execution_paths[suggested_execution_path_index] to A/B/C only
-    (Strategist, Engineer, Steward). Operational hint - not policy or Record.
+    (Statecraft, Engineer, Steward). Operational hint - not policy or Record.
     """
     paths = dream.get("execution_paths")
     if not isinstance(paths, list) or not paths:
@@ -33,7 +33,7 @@ def coffee_menu_hint_from_dream(dream: dict[str, Any]) -> str | None:
     letter, label = _COFFEE_LETTER_AND_LABEL.get(pid, ("?", "?"))
     if letter == "?":
         # Fallback: positional 0/1/2 matches build_execution_paths order.
-        fallbacks = (("C", "Strategist"), ("B", "Engineer"), ("A", "Steward"))
+        fallbacks = (("C", "Statecraft"), ("B", "Engineer"), ("A", "Steward"))
         letter, label = fallbacks[idx] if idx < len(fallbacks) else ("A", "Steward")
 
     reason = str(dream.get("execution_path_suggestion_reason") or "").strip()
@@ -120,9 +120,9 @@ def build_execution_paths(
     paths: list[dict[str, Any]] = [
         {
             "id": "today_field",
-            "title": "Daily Brief (generator + watch slices; optional KY-4 intel when chosen)",
-            "first_move": f"python3 scripts/operator_coffee.py -u {user_id} - then coffee menu C - Strategist",
-            "stop_rule": "One slice: daily brief path opened or optional intel pass started - enough for first block.",
+            "title": "Statecraft drafting (treaty / policy / negotiation bench)",
+            "first_move": f"python3 scripts/operator_coffee.py -u {user_id} - then coffee menu C - Statecraft",
+            "stop_rule": "One slice: choose treaty, policy, negotiation, or Richelieu/Bismarck stress test - enough for first block.",
             "signals_used": signals_field,
         },
         {

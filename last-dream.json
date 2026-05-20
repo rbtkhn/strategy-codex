@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-18T06:06:12.744873+00:00",
+  "generated_at": "2026-05-20T01:15:54.141007+00:00",
   "user_id": "strategy-codex",
   "agent_surface": {
     "cursor_model": "unknown"
@@ -9,17 +9,18 @@
   "ok": true,
   "integrity_ok": true,
   "governance_ok": true,
-  "self_memory_changed": true,
+  "self_memory_changed": false,
   "reviewable_count": 0,
   "contradiction_count": 0,
   "artifact_draft_count": 0,
   "promotable_draft_count": 0,
   "followups": [
-    "AI frontier watch: The Innermost Loop latest - Welcome to May 17, 2026 - consider Coffee C source hygiene if relevant tomorrow"
+    "Capture gap: Record hasn't grown in 14 days (last: ACT-0033, 2026-05-05) \u2014 run batch_ingest_observations.py or stage new Evidence",
+    "AI frontier watch: The Innermost Loop latest - The First Major-Exchange Compute Futures - consider explicit source hygiene if relevant tomorrow"
   ],
   "phases": {
     "recent": {
-      "self_memory_changed": true,
+      "self_memory_changed": false,
       "entry_count": 0,
       "relation_counts": {}
     },
@@ -31,19 +32,29 @@
     }
   },
   "coffee_rollup_24h": {
-    "window_start_utc": "2026-05-17T06:06:07.658758+00:00",
-    "window_end_utc": "2026-05-18T06:06:07.658758+00:00",
+    "window_start_utc": "2026-05-19T01:15:43.887518+00:00",
+    "window_end_utc": "2026-05-20T01:15:43.887518+00:00",
     "window_hours": 24.0,
-    "count": 3,
-    "first_ts": "2026-05-17T13:35:00+00:00",
-    "last_ts": "2026-05-18T04:44:00+00:00",
-    "span_hours": 15.15,
+    "count": 5,
+    "first_ts": "2026-05-19T03:37:00+00:00",
+    "last_ts": "2026-05-20T01:09:00+00:00",
+    "span_hours": 21.53,
     "by_mode": {
+      "work-start": 2,
       "first-command": 3
     },
     "runs": [
       {
-        "ts_iso": "2026-05-17T13:35:00+00:00",
+        "ts_iso": "2026-05-19T03:37:00+00:00",
+        "ok": true,
+        "mode": "work-start",
+        "kv": {
+          "cursor_model": "unknown",
+          "model_tier": "unknown"
+        }
+      },
+      {
+        "ts_iso": "2026-05-19T12:35:00+00:00",
         "ok": true,
         "mode": "first-command",
         "kv": {
@@ -52,7 +63,16 @@
         }
       },
       {
-        "ts_iso": "2026-05-17T18:35:00+00:00",
+        "ts_iso": "2026-05-19T12:51:00+00:00",
+        "ok": true,
+        "mode": "work-start",
+        "kv": {
+          "cursor_model": "unknown",
+          "model_tier": "unknown"
+        }
+      },
+      {
+        "ts_iso": "2026-05-19T15:33:00+00:00",
         "ok": true,
         "mode": "first-command",
         "kv": {
@@ -61,7 +81,7 @@
         }
       },
       {
-        "ts_iso": "2026-05-18T04:44:00+00:00",
+        "ts_iso": "2026-05-20T01:09:00+00:00",
         "ok": true,
         "mode": "first-command",
         "kv": {
@@ -72,60 +92,126 @@
     ],
     "picks": [
       {
-        "ts_iso": "2026-05-18T04:57:00+00:00",
-        "picked": "A",
-        "menu_label": "A",
-        "steward": "gate"
-      },
-      {
-        "ts_iso": "2026-05-18T05:03:00+00:00",
+        "ts_iso": "2026-05-19T03:49:00+00:00",
         "picked": "conductor",
         "menu_label": "conductor",
-        "conductor": "furtwangler"
+        "conductor": "karajan"
+      },
+      {
+        "ts_iso": "2026-05-19T05:10:00+00:00",
+        "picked": "conductor",
+        "menu_label": "conductor",
+        "conductor": "bernstein"
+      },
+      {
+        "ts_iso": "2026-05-19T12:36:00+00:00",
+        "picked": "A",
+        "menu_label": "A"
+      },
+      {
+        "ts_iso": "2026-05-19T16:36:00+00:00",
+        "picked": "conductor",
+        "menu_label": "conductor",
+        "conductor": "kleiber"
       }
     ],
     "by_picked": {
-      "A": 1,
-      "conductor": 1
+      "conductor": 3,
+      "A": 1
     }
   },
   "conductor_rollup_24h": {
-    "window_start_utc": "2026-05-17T06:06:07.658758+00:00",
-    "window_end_utc": "2026-05-18T06:06:07.658758+00:00",
+    "window_start_utc": "2026-05-19T01:15:43.887518+00:00",
+    "window_end_utc": "2026-05-20T01:15:43.887518+00:00",
     "window_hours": 24.0,
-    "pick_count": 1,
-    "outcome_count": 0,
-    "completed_passes": 0,
+    "pick_count": 3,
+    "outcome_count": 2,
+    "completed_passes": 2,
     "orientation_only": 1,
     "off_menu_refusals": 0,
-    "last_master": "furtwangler",
-    "last_outcome": null,
+    "last_master": "kleiber",
+    "last_outcome": {
+      "ts_iso": "2026-05-19T05:09:00+00:00",
+      "kind": "outcome",
+      "conductor": "karajan",
+      "verdict": "davis-title-inference-fixed",
+      "falsify": "host-only-davis-title-routes-as-guest-or-known-nonhost-title-remains-unresolved",
+      "notebook_ref": "commit:d7c91835"
+    },
     "by_conductor": {
-      "furtwangler": {
+      "karajan": {
+        "picks": 1,
+        "outcomes": 1,
+        "refusals": 0
+      },
+      "toscanini": {
+        "picks": 0,
+        "outcomes": 1,
+        "refusals": 0
+      },
+      "bernstein": {
+        "picks": 1,
+        "outcomes": 0,
+        "refusals": 0
+      },
+      "kleiber": {
         "picks": 1,
         "outcomes": 0,
         "refusals": 0
       }
     },
     "commits": [],
-    "falsifiers": [],
+    "falsifiers": [
+      "davis-batch-mixed-into-sovereignty-slice",
+      "host-only-davis-title-routes-as-guest-or-known-nonhost-title-remains-unresolved"
+    ],
     "events": [
       {
-        "ts_iso": "2026-05-18T05:03:00+00:00",
+        "ts_iso": "2026-05-19T03:49:00+00:00",
         "kind": "pick",
-        "conductor": "furtwangler",
+        "conductor": "karajan",
+        "menu_label": "conductor"
+      },
+      {
+        "ts_iso": "2026-05-19T04:43:00+00:00",
+        "kind": "outcome",
+        "conductor": "toscanini",
+        "verdict": "bridge-commit-clean",
+        "falsify": "davis-batch-mixed-into-sovereignty-slice",
+        "notebook_ref": "commit:50474f60"
+      },
+      {
+        "ts_iso": "2026-05-19T05:09:00+00:00",
+        "kind": "outcome",
+        "conductor": "karajan",
+        "verdict": "davis-title-inference-fixed",
+        "falsify": "host-only-davis-title-routes-as-guest-or-known-nonhost-title-remains-unresolved",
+        "notebook_ref": "commit:d7c91835"
+      },
+      {
+        "ts_iso": "2026-05-19T05:10:00+00:00",
+        "kind": "pick",
+        "conductor": "bernstein",
+        "menu_label": "conductor"
+      },
+      {
+        "ts_iso": "2026-05-19T16:36:00+00:00",
+        "kind": "pick",
+        "conductor": "kleiber",
         "menu_label": "conductor"
       }
     ],
-    "echo": "furtwangler carried the latest conductor line"
+    "echo": "kleiber carried the latest conductor line; last close: host-only-davis-title-routes-as-guest-or-known-nonhost-title-remains-unresolved; 2 closed pass(es)"
   },
   "execution_paths": [
     {
       "id": "today_field",
-      "title": "Daily Brief (generator + watch slices; optional KY-4 intel when chosen)",
-      "first_move": "python3 scripts/operator_coffee.py -u strategy-codex - then coffee menu C - Strategist",
-      "stop_rule": "One slice: daily brief path opened or optional intel pass started - enough for first block.",
-      "signals_used": []
+      "title": "Statecraft drafting (treaty / policy / negotiation bench)",
+      "first_move": "python3 scripts/operator_coffee.py -u strategy-codex - then coffee menu C - Statecraft",
+      "stop_rule": "One slice: choose treaty, policy, negotiation, or Richelieu/Bismarck stress test - enough for first block.",
+      "signals_used": [
+        "reentry_heavy"
+      ]
     },
     {
       "id": "build",
@@ -142,9 +228,9 @@
       "signals_used": []
     }
   ],
-  "suggested_execution_path_index": 0,
+  "suggested_execution_path_index": 2,
   "execution_path_suggestion_reason": "calendar_mod3",
-  "tomorrow_inherits": "Tomorrow inherits (hint): **Daily Brief (generator + watch slices; optional KY-4 intel when chosen)** - calendar rotation; not policy or Record.",
+  "tomorrow_inherits": "Tomorrow inherits (hint): **Steward / membrane (gate + template parity)** - calendar rotation; not policy or Record.",
   "civmem_echoes": [
     {
       "path": "book\\APPLIED-THEOLOGY-INSIGHTS-MERCOURIS-LENS.md",
@@ -160,62 +246,67 @@
   "capture_gap": {
     "last_evidence_date": "2026-05-05",
     "last_evidence_id": "ACT-0033",
-    "days_since_evidence": 13,
+    "days_since_evidence": 14,
     "last_merge_date": "2026-05-02",
-    "days_since_merge": 16,
+    "days_since_merge": 17,
     "pending_count": 3,
-    "level": "notice",
-    "message": "Record hasn't grown in 13 days (last: ACT-0033, 2026-05-05)"
+    "level": "warning",
+    "message": "Record hasn't grown in 14 days (last: ACT-0033, 2026-05-05)"
   },
   "capability_shift": {
     "category": "model",
-    "sources_checked": 6,
+    "sources_checked": 5,
     "sources_total": 6,
-    "alert_count": 10,
+    "alert_count": 7,
     "review_count": 0,
     "monitor_count": 1,
     "variant_count": 0,
-    "fetch_errors": []
+    "fetch_errors": [
+      {
+        "name": "OpenAI",
+        "error": "HTTP Error 403: Forbidden"
+      }
+    ]
   },
   "frontier_source_hint": {
     "source_id": "the-innermost-loop",
     "source_name": "The Innermost Loop",
     "feed_url": "https://theinnermostloop.substack.com/feed",
     "source_mode": "live_lookup",
-    "fetched_at": "2026-05-18T06:06:12.542441+00:00",
+    "fetched_at": "2026-05-20T01:15:53.956844+00:00",
     "status": "ok",
-    "title": "Welcome to May 17, 2026",
-    "url": "https://theinnermostloop.substack.com/p/welcome-to-may-17-2026",
-    "published_at": "2026-05-17T21:28:56+00:00",
-    "guidance": "AI frontier watch: latest The Innermost Loop post is \"Welcome to May 17, 2026\" (2026-05-17T21:28:56+00:00); decide tomorrow whether it merits Coffee C source hygiene."
+    "title": "The First Major-Exchange Compute Futures",
+    "url": "https://theinnermostloop.substack.com/p/the-first-major-exchange-compute",
+    "published_at": "2026-05-19T13:20:31+00:00",
+    "guidance": "AI frontier watch: latest The Innermost Loop post is \"The First Major-Exchange Compute Futures\" (2026-05-19T13:20:31+00:00); decide tomorrow whether it merits explicit source hygiene or Coffee D/C conversion."
   },
   "dream_catchup": {
     "semantics": "since_previous_dream",
     "timezone": "UTC",
     "previous_dream_generated_at": null,
     "local_calendar_dates": [
-      "2026-05-18"
+      "2026-05-20"
     ],
     "strategy_notebook_missing_day_headers": [
-      "2026-05-18"
+      "2026-05-20"
     ]
   },
   "last_coffee_echo": {
-    "timestamp": "2026-05-18T04:44:00+00:00",
-    "conductor": "furtwangler",
+    "timestamp": "2026-05-20T01:09:00+00:00",
+    "conductor": "kleiber",
     "mode": "first-command",
     "menu_letter": "conductor",
-    "highlight": "Yesterday\u2019s first-command coffee is still the thread. Menu pick: conductor. Conductor line: furtwangler.",
+    "highlight": "Yesterday\u2019s first-command coffee is still the thread. Menu pick: conductor. Conductor line: kleiber.",
     "source": "coffee_rollup_24h"
   },
   "handoffSchemaVersion": 3,
   "topActionReason": "calendar_mod3",
   "quietRun": false,
   "residueLedger": {
-    "must_resume": "AI frontier watch: The Innermost Loop latest - Welcome to May 17, 2026 - consider Coffee C source hygiene if relevant to",
+    "must_resume": "Capture gap: Record hasn't grown in 14 days (last: ACT-0033, 2026-05-05) \u2014 run batch_ingest_observations.py or stage new",
     "safe_to_drop": "",
     "blocked": "",
-    "watch_later": ""
+    "watch_later": "AI frontier watch: The Innermost Loop latest - The First Major-Exchange Compute Futures - consider explicit source hygie"
   },
   "worktreeState": "risky residue",
   "worktreeAdvice": "Large or wide diff \u2014 inspect before continuing; use bridge when closing session."

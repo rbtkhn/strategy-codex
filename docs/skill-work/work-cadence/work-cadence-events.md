@@ -595,3 +595,13 @@ _(Append below this line.)_
 - **2026-05-19 04:43 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown conductor=toscanini verdict=bridge-commit-clean notebook_ref=commit:50474f60 falsify=davis-batch-mixed-into-sovereignty-slice
 - **2026-05-19 05:09 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown conductor=karajan verdict=davis-title-inference-fixed notebook_ref=commit:d7c91835 falsify=host-only-davis-title-routes-as-guest-or-known-nonhost-title-remains-unresolved
 - **2026-05-19 05:10 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=bernstein
+- **2026-05-19 06:04 UTC** — dream (strategy-codex) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
+- **2026-05-19 12:35 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-05-19 12:36 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=A steward=git
+- **2026-05-19 12:51 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-05-19 15:33 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-05-19 16:36 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=kleiber
+- **2026-05-20 01:09 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-05-20 01:14 UTC** — dream (demo) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false handoff_written=true
+- **2026-05-20 01:15 UTC** — dream (strategy-codex) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=false reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
+- **2026-05-20 01:16 UTC** — dream (demo) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false handoff_written=true

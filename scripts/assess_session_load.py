@@ -240,7 +240,7 @@ def _compute_option_weights(
     weights: dict[str, dict[str, str]] = {
         "A": {"cost": "light", "note": "Steward — gate / template / integrity / git"},
         "B": {"cost": "moderate", "note": "Engineer — work-dev + skills"},
-        "C": {"cost": "light", "note": "Strategist - intel / bookshelf quiz / notebook"},
+        "C": {"cost": "light", "note": "Statecraft - treaty / policy / negotiation"},
         "D": {
             "cost": "moderate",
             "note": "Singularity - academy-singularity / agency under acceleration",
@@ -274,7 +274,7 @@ def _compute_option_weights(
         weights[target]["note"] = f"{weights[target]['note']}; last close is blocked"
         weights[target]["cost"] = "light"
     elif readiness == "orientation":
-        weights["C"]["note"] = "Strategist; last close is orientation-only"
+        weights["C"]["note"] = "Statecraft; last close is orientation-only"
         weights["C"]["cost"] = "light"
 
     return weights
@@ -302,7 +302,7 @@ def _pick_recommendation(
     if readiness == "execution_ready" and _artifacts_look_code_related(artifacts):
         return "B", "last coffee close is execution_ready on code/test artifacts"
     if readiness == "orientation":
-        return "C", "last coffee close is orientation-only - Strategist can crystallize the next move"
+        return "C", "last coffee close is orientation-only - Statecraft can turn orientation into an instrument"
     if readiness == "blocked":
         if _artifacts_look_code_related(artifacts):
             return "B", "last coffee close is blocked on code/test artifacts"
@@ -310,15 +310,15 @@ def _pick_recommendation(
 
     w = {k: weights[k] for k in ("A", "B", "C") if k in weights}
     if load_level == "heavy":
-        return "C", "heavy load - strategist submenu keeps the next move bounded"
+        return "C", "heavy load - Statecraft submenu keeps the next move bounded"
     if load_level == "moderate":
         light_options = [k for k, v in w.items() if v["cost"] == "light"]
         if "A" in light_options:
             return "A", "moderate load — bounded steward pass clears cognitive debt"
-        return "C", "moderate load - strategist submenu matches current pace"
+        return "C", "moderate load - Statecraft submenu matches current pace"
     moderate_options = [k for k, v in w.items() if v["cost"] in ("light", "moderate")]
     if "C" in moderate_options:
-        return "C", "light load - good conditions for strategist intel / quiz / notebook"
+        return "C", "light load - good conditions for statecraft drafting"
     return "B", "light load - good conditions for engineer / build work"
 
 
@@ -379,7 +379,7 @@ def format_annotated_menu(result: dict) -> str:
     labels = {
         "A": "Steward",
         "B": "Engineer",
-        "C": "Strategist",
+        "C": "Statecraft",
         "D": "Singularity",
     }
 

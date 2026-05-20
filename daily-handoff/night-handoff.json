@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-18T06:06:12.945139+00:00",
-  "date": "2026-05-18",
+  "generated_at": "2026-05-20T01:15:54.336989+00:00",
+  "date": "2026-05-20",
   "user_id": "strategy-codex",
   "ok": true,
   "integrity_ok": true,
@@ -9,14 +9,16 @@
   "topActionReason": "calendar_mod3",
   "worktreeState": "risky residue",
   "worktreeAdvice": "Large or wide diff \u2014 inspect before continuing; use bridge when closing session.",
-  "tomorrow_inherits": "Tomorrow inherits (hint): **Daily Brief (generator + watch slices; optional KY-4 intel when chosen)** - calendar rotation; not policy or Record.",
+  "tomorrow_inherits": "Tomorrow inherits (hint): **Steward / membrane (gate + template parity)** - calendar rotation; not policy or Record.",
   "execution_paths": [
     {
       "id": "today_field",
-      "title": "Daily Brief (generator + watch slices; optional KY-4 intel when chosen)",
-      "first_move": "python3 scripts/operator_coffee.py -u strategy-codex - then coffee menu C - Strategist",
-      "stop_rule": "One slice: daily brief path opened or optional intel pass started - enough for first block.",
-      "signals_used": []
+      "title": "Statecraft drafting (treaty / policy / negotiation bench)",
+      "first_move": "python3 scripts/operator_coffee.py -u strategy-codex - then coffee menu C - Statecraft",
+      "stop_rule": "One slice: choose treaty, policy, negotiation, or Richelieu/Bismarck stress test - enough for first block.",
+      "signals_used": [
+        "reentry_heavy"
+      ]
     },
     {
       "id": "build",
@@ -33,5 +35,5 @@
       "signals_used": []
     }
   ],
-  "suggested_execution_path_index": 0
+  "suggested_execution_path_index": 2
 }
