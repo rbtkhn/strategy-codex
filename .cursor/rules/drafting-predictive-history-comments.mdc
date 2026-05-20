@@ -1,0 +1,14 @@
+---
+description: >-
+  Predictive History YouTube comments: trust-first chapter-folder doorway. SSOT:
+  docs/skill-write/predictive-history-youtube-comments.md
+alwaysApply: false
+---
+
+# Predictive History YouTube comments (pointer)
+
+When drafting or tightening **Predictive History YouTube comments**, follow **[predictive-history-youtube-comments.md](../../docs/skill-write/predictive-history-youtube-comments.md)** in the **skill-write** doctrine hub ([README](../../docs/skill-write/README.md)).
+
+Default shape: one tailored top-level comment, quietly useful lecture-specific first sentence, exact GitHub chapter-folder link, paste-into-LLM action, and light `ph-civ` signature.
+
+Do not duplicate the full spec here. Edit the **docs/skill-write** file if the rule changes.
