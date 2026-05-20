@@ -14,7 +14,7 @@ Purpose: name the inherited American code that any durable America-lane instrume
 
 ## Historical Continuity
 
-Distinguish the current federal government from the deeper American state-space: continental geography, ports, rivers, food and energy base, military-industrial infrastructure, dollar institutions, constitutional memory, and successor claims to order.
+Distinguish the current federal government from the deeper American state-space: British imperial/provincial authority before 1775, revolutionary rupture from 1775 to 1783, U.S. recognized sovereignty after 1783, constitutional federal form after 1787-1789, continental geography, ports, rivers, food and energy base, military-industrial infrastructure, dollar institutions, constitutional memory, and successor claims to order.
 
 ## Legitimacy Memory
 
@@ -38,3 +38,5 @@ Any successor American power center would still need continental coherence, mari
 ## Development Queue
 
 Start with [seed-patterns.md](seed-patterns.md). Promote a seed into a full note only when a transaction, current-event brief, or comparative test needs it.
+
+Use [civilization objects](objects/) for long-pattern authority surfaces such as [state memory](objects/state-memory.md).

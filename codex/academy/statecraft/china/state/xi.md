@@ -8,6 +8,10 @@ Refresh current officeholder facts before load-bearing use.
 
 Xi functions in the China lane as the visible carrier of party-state authority, unity, rejuvenation, and anti-disorder discipline. Treat this as a settlement-credibility profile, not biography.
 
+## Civilizational Pattern Link
+
+Xi is the visible top-leader carrier of [China state memory](../civilization/objects/state-memory.md): continuity civilization, mandate performance, unity, anti-humiliation, party-state discipline, development legitimacy, and anti-disorder control. Use this profile to test whether a transaction can be framed as party-state continuity and order management rather than personal preference or visible concession.
+
 ## Authority Base
 
 - Formal authority: top party and state leadership roles, military command through party-state channels.

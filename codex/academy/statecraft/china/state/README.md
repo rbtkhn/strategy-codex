@@ -6,7 +6,8 @@ Use this folder for the current Chinese party-state apparatus: top leadership, p
 
 ## Start Here
 
-- [Heads of state](heads-of-state/) - top-leader authority, party-state implementation, military restraint, bureaucratic carrying capacity, and succession / factional adjustment.
+- [Xi carrier](xi.md) - visible top-leader carrier of party-state authority, unity, rejuvenation, and anti-disorder discipline.
+- [Party-state carrier](party-state.md) - institutional implementation surface for party organs, State Council, PLA, banks, firms, ports, insurers, and provinces.
 - [Authority carrier objects](objects/) - ministers, party-state officials, military figures, diplomats, and institutional voices whose statements carry Chinese state intent across raw-inputs.
 - [Wang Yi](objects/wang-yi.md) - foreign-ministry / national-security continuity carrier for anti-disorder posture, sanctions resistance, security architecture, and quiet mediation.
 

@@ -41,11 +41,11 @@ Use Richelieu to test institutional capacity: which ministries, banks, firms, po
 - [Empire](empire/) - outward striving for energy, routes, finance, infrastructure, technology, and anti-coercion control.
 - [Helix](helix.md) - where order authorizes expansion, where expansion creates disorder, and what quiet regulation preserves leverage.
 
-## Heads Of State / Authority Carriers
+## Current State Carriers
 
 Use [China state](state/) to test top-leader authority, party-state implementation, military restraint, bureaucratic carrying capacity, and whether a settlement can survive succession or factional adjustment.
 
-Inside that state bench, use [heads of state](state/heads-of-state/) for top-leader and party-state carriers, and [authority carrier objects](state/objects/) when ministers, party-state officials, military figures, diplomats, or offices carry state intent across many raw-inputs. First object: [Wang Yi](state/objects/wang-yi.md) as foreign-ministry / national-security continuity carrier.
+Inside that state bench, use [Xi](state/xi.md) and the [party-state carrier](state/party-state.md) for current top-leader and implementation carriers, and [authority carrier objects](state/objects/) when ministers, party-state officials, military figures, diplomats, or offices carry state intent across many raw-inputs. First object: [Wang Yi](state/objects/wang-yi.md) as foreign-ministry / national-security continuity carrier.
 
 ## Speaker-State Intake
 

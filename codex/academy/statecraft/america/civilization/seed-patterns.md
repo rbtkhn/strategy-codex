@@ -6,7 +6,7 @@ These seeds translate CIV-MEM into America-lane civilization patterns. State rul
 
 ## Constitutional Legitimacy
 
-- **CIV-MEM pointers:** `research/repos/civilization_memory/content/civilizations/AMERICA/CIV–CORE–AMERICA.md`; `research/repos/civilization_memory/content/civilizations/AMERICA/CIV–DOCTRINE–AMERICA.md`.
+- **CIV-MEM pointers:** `research/repos/civilization_memory/content/civilizations/AMERICA/CIV–CORE–AMERICA.md`; `research/repos/civilization_memory/content/civilizations/AMERICA/CIV–DOCTRINE–AMERICA.md`; `research/repos/civilization_memory/content/civilizations/AMERICA/MIGRATION–ANGLIA–TO–AMERICA–MEM–CHECKLIST.md`.
 - **Pattern:** American authority wants to appear constitutional even when acting imperially.
 - **Statecraft use:** Build authorization, review, congressional notice, judicial defensibility, and public-purpose language into instruments that use force, sanctions, platforms, or emergency powers.
 - **Failure mode:** Executive reach outruns legitimacy and turns a narrow instrument into evidence of arbitrary empire.

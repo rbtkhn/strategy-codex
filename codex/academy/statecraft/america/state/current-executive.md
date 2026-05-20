@@ -8,6 +8,12 @@ Refresh current officeholder facts before load-bearing use.
 
 The current U.S. executive is the first visible settlement carrier for crisis diplomacy, sanctions, military command, emergency declarations, and public legitimacy. The office is powerful but not sufficient by itself: Congress, courts, military command, states, allies, and successor legitimacy can determine whether an instrument survives.
 
+## Civilizational Pattern Link
+
+The current executive carries the visible federal face of [America state memory](../civilization/objects/state-memory.md): constitutional legitimacy, lawful command, maritime/commercial order, emergency-power temptation, and successor-stable continental interest.
+
+Use this file to test what the executive can initiate. Use the civilization object to test whether that initiative can remain American state interest after Congress, courts, allies, public fatigue, and successor authority touch it.
+
 ## Authority Base
 
 - Formal authority: executive power, commander-in-chief role, sanctions administration, diplomacy, emergency powers.

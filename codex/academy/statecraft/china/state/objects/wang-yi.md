@@ -14,6 +14,10 @@ Wang Yi, Chinese foreign minister and party-state diplomatic continuity carrier.
 
 Wang Yi functions as China's foreign-ministry and national-security continuity carrier: the official diplomatic voice most likely to translate Xi-level direction, party-state caution, industrial exposure, sovereignty doctrine, and anti-disorder priorities into statecraft language. In academy-statecraft, he is not primarily a biography subject. He is a signal object for Chinese order-management, security-architecture proposals, Taiwan warning language, Iran / Russia coordination, sanctions resistance, and quiet pressure.
 
+## Civilizational Pattern Link
+
+Wang Yi is a diplomatic transmitter of [China state memory](../../civilization/objects/state-memory.md): order management, anti-disorder posture, sovereignty doctrine, development continuity, sanctions resistance, and quiet mediation. Compare his signals against [Xi](../xi.md), the [party-state carrier](../party-state.md), MFA, Politburo signals, PLA conduct, banks, firms, ports, insurers, provinces, and partner behavior before treating them as implementable state policy.
+
 ## Why This Is Not Biography
 
 Wang Yi matters here because the China lane needs to distinguish Beijing's official diplomatic posture from speaker interpretation. Pape may identify shock clocks, Jiang may explain China-facing strategy, Sachs may map macro effects, and Mercouris / Baud / Johnson / Marandi may interpret Russia-China-Iran coordination. Wang Yi is the object that asks whether those interpretations have a Chinese state carrier capable of becoming a clause, channel, forum, guarantee, warning, or pressure mechanism.
@@ -77,7 +81,7 @@ Use these as starting surfaces, not an exhaustive set:
 - **Treaty design:** turn vague "security architecture" language into transit guarantees, regional forum clauses, insurance mechanisms, or non-aggression procedures that protect China's energy and trade exposure.
 - **Negotiation brief:** ask what China can support quietly without becoming responsible for Iran's escalation or the Gulf's policing burden.
 - **China crisis transaction:** mark whether Beijing is stabilizing, warning, coordinating, withholding pressure, or building an alternative architecture.
-- **Authority-carrier check:** compare Wang Yi to Xi, the MFA, Politburo signals, PLA conduct, commercial / energy behavior, and partner statements before treating a line as settled policy.
+- **Authority-carrier check:** compare Wang Yi to Xi, the party-state carrier, MFA, Politburo signals, PLA conduct, commercial / energy behavior, and partner statements before treating a line as settled policy.
 - **Speaker-state intake:** use Pape for shock clocks, Jiang for China-facing framing, Sachs for economic system effects, Parsi for architecture, and Mercouris / Baud / Johnson for Eurasian coordination, but do not substitute them for Chinese official signals.
 
 ## Drafting Rule

@@ -6,9 +6,11 @@ Use this folder for the current American state apparatus: executive authority, C
 
 ## Start Here
 
-- [Heads of state](heads-of-state/) - current executive authority, Congress, military command, allied carriers, and successor-authority patterns.
+- [Current executive](current-executive.md) - visible federal carrier for crisis diplomacy, sanctions, military command, emergency declarations, and public legitimacy.
+- [Successor authority patterns](successor-authority-patterns.md) - continuity tests for constitutional crisis, federal rupture, civil conflict, or successor continental authority.
 - [Authority carrier objects](objects/) - vice presidents, cabinet figures, congressional leaders, commanders, party figures, diplomats, and institutional voices whose statements carry American state intent across raw-inputs.
 - [J.D. Vance](objects/vance.md) - successor-legitimacy and restraint / realism carrier for domestic permission, exit channels, and post-Trump continuity.
+- [Elon Musk](objects/musk.md) - technology-industrial complex carrier for platform, compute, satellite, launch, AI, contracting, and private-infrastructure state capacity.
 
 ## Boundary
 

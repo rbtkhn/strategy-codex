@@ -7,6 +7,7 @@ Use this bench for American vice presidents, cabinet figures, congressional lead
 ## Objects
 
 - [J.D. Vance](vance.md) - vice-presidential successor-legitimacy and restraint / realism carrier for Ukraine fatigue, Iran exit pressure, Europe burden language, domestic-populist credibility, and post-Trump continuity.
+- [Elon Musk](musk.md) - technology-industrial complex carrier for private compute, satellite communications, launch capacity, AI, platforms, federal contracting, and sovereignty-under-acceleration risk.
 
 ## Use
 

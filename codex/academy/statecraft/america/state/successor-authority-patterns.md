@@ -4,6 +4,10 @@ WORK only; not Record.
 
 Use this note when the America lane needs to test whether an instrument survives a possible U.S. federal rupture, constitutional crisis, civil conflict, or reconstitution of continental authority.
 
+## Civilizational Pattern Link
+
+Successor authority patterns are the continuity surface for [America state memory](../civilization/objects/state-memory.md). They test whether a settlement can survive beyond one administration, one faction, or one emergency posture and still be carried as American state interest.
+
 ## Carrier Candidates
 
 - Federal executive with congressional backing.

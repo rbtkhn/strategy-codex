@@ -43,11 +43,11 @@ Use Richelieu to test whether American policy has a durable institutional carrie
 - [Empire](empire/) - outward striving for maritime, financial, alliance, technological, and escalation control.
 - [Helix](helix.md) - where empire protects the republic, where it deforms the republic, and what regulatory statecraft is needed.
 
-## Heads Of State / Authority Carriers
+## Current State Carriers
 
 Use [America state](state/) to test current executive authority, Congress, military command, allied carriers, and successor-authority patterns before treating a compact as durable American statecraft.
 
-Inside that state bench, use [heads of state](state/heads-of-state/) for formal authority and succession carriers, and [authority carrier objects](state/objects/) when vice presidents, cabinet figures, congressional leaders, military commanders, party figures, diplomats, or offices carry state intent across many raw-inputs. First object: [J.D. Vance](state/objects/vance.md) as successor-legitimacy and restraint / realism carrier.
+Inside that state bench, use [current executive](state/current-executive.md) and [successor authority patterns](state/successor-authority-patterns.md) for formal and successor-stable carriers. Use [authority carrier objects](state/objects/) when vice presidents, cabinet figures, congressional leaders, military commanders, party figures, diplomats, industrial actors, or offices carry state intent across many raw-inputs. First objects: [J.D. Vance](state/objects/vance.md) as successor-legitimacy and restraint / realism transmitter, and [Elon Musk](state/objects/musk.md) as technology-industrial complex transmitter, not final authority.
 
 ## Speaker-State Intake
 

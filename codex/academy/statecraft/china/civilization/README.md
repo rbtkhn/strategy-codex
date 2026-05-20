@@ -38,3 +38,5 @@ Any successor Chinese authority would still need unity, food and energy security
 ## Development Queue
 
 Start with [seed-patterns.md](seed-patterns.md). Promote a seed into a full note only when a transaction, current-event brief, or comparative test needs it.
+
+Use [civilization objects](objects/) when a recurring authority pattern needs to connect the China book surface to current state carriers, diplomatic transmitters, and transaction authority checks. First object: [state memory](objects/state-memory.md).

@@ -14,6 +14,10 @@ J.D. Vance, U.S. vice president and successor-legitimacy carrier.
 
 Vance functions as America's vice-presidential and successor-legitimacy carrier: the figure most useful for testing whether restraint, realism, anti-overextension, or negotiated exit can survive beyond Trumpian impulse and become institutional American policy. In academy-statecraft, he is not primarily a biography subject. He is a signal object for domestic legitimacy, America First constraint, Ukraine fatigue, Iran exit pressure, Europe burden language, and the possibility of a post-Trump American center of power.
 
+## Civilizational Pattern Link
+
+Vance transmits successor-legitimacy signals within [America state memory](../../civilization/objects/state-memory.md). Compare his signals against the [current executive](../current-executive.md), [successor authority patterns](../successor-authority-patterns.md), Congress, courts, Pentagon implementation, agencies, allies, and public war fatigue before treating them as durable authority.
+
 ## Why This Is Not Biography
 
 Vance matters here because the America lane is explicitly unstable. A draft cannot assume that presidential signaling, donor pressure, congressional hawkishness, military preference, and public legitimacy all point in the same direction. Vance is the object that asks whether there is a successor-stable carrier for limited aims, restraint after overreach, and domestic permission to stop doing imperial things badly.

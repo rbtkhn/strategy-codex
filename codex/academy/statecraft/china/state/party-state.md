@@ -8,6 +8,10 @@ Use this note when a China-lane instrument requires institutional implementation
 
 The party-state carrier joins party authority, state administration, military command, industrial policy, finance, ports, insurers, and provincial execution.
 
+## Civilizational Pattern Link
+
+The party-state is the institutional implementation carrier of [China state memory](../civilization/objects/state-memory.md). It converts civilizational order, mandate performance, development legitimacy, and anti-disorder discipline into ministries, banks, firms, ports, insurers, provinces, PLA restraint, and diplomatic execution.
+
 ## Carrier Function
 
 - Converts strategic line into bureaucratic and commercial execution.
