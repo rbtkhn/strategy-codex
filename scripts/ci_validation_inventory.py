@@ -236,7 +236,7 @@ ALL_CHECKS: tuple[CheckSpec, ...] = (
         argv_builder=_argv_judgment_contract_gauntlets,
         user_scope="ignored",
         groups=frozenset({"experimental"}),
-        timeout_sec=180.0,
+        timeout_sec=240.0,
         ci_source="",
     ),
 )

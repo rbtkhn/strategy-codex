@@ -1,0 +1,175 @@
+{
+  "score_bands": {
+    "pass": 100,
+    "warn": 75
+  },
+  "protected_judgment": "premise realism before crisis drafting",
+  "critical_gates": [
+    "Do not jump from capability to intent.",
+    "Test actor dependence on the target before attribution.",
+    "Consider accident, negligence, private actor behavior, third-party provocation, and opportunistic exploitation.",
+    "Reclassify a weak premise before drafting a transaction.",
+    "Preserve national-lane asymmetry and speaker-role discipline."
+  ],
+  "forbidden_phrases": [
+    "Russian sabotage by default",
+    "generic geopolitical analysis is enough",
+    "historical pattern proves current facts"
+  ],
+  "cases": [
+    {
+      "id": "CPR-G001",
+      "label": "Baltic infrastructure damage requires attribution discipline",
+      "points": 18,
+      "critical": true,
+      "paths": [
+        "skills-portable/_drafts/academy-statecraft-drafting/SKILL.md",
+        "codex/academy/statecraft/sheets/crisis-test-casebook.md"
+      ],
+      "must_cover": [
+        "Baltic infrastructure damage",
+        "capability to intent",
+        "actor dependence on the target",
+        "accident",
+        "negligence",
+        "third-party",
+        "attribution / negligence / gray-zone crisis",
+        "investigate before attributing",
+        "harden before retaliating"
+      ],
+      "must_not": [
+        "Russian sabotage by default"
+      ],
+      "expected_routing": [
+        "premise realism gate",
+        "reclassify"
+      ]
+    },
+    {
+      "id": "CPR-G002",
+      "label": "Hormuz transit disruption separates leverage from blockade",
+      "points": 16,
+      "critical": true,
+      "paths": [
+        "skills-portable/_drafts/academy-statecraft-drafting/SKILL.md",
+        "codex/academy/statecraft/sheets/crisis-test-casebook.md"
+      ],
+      "must_cover": [
+        "Hormuz transit disruption",
+        "coercive leverage",
+        "blockade",
+        "verified transit",
+        "shipping panic",
+        "escorted transit"
+      ],
+      "must_not": [
+        "Hormuz as permanent disruption"
+      ],
+      "expected_routing": [
+        "transit guarantee",
+        "settlement spine"
+      ]
+    },
+    {
+      "id": "CPR-G003",
+      "label": "Egypt debt / Suez / food crisis protects legitimacy goods",
+      "points": 16,
+      "critical": true,
+      "paths": [
+        "skills-portable/_drafts/academy-statecraft-drafting/SKILL.md",
+        "codex/academy/statecraft/sheets/crisis-test-casebook.md"
+      ],
+      "must_cover": [
+        "Egypt debt / Suez / food imports",
+        "protected domestic legitimacy goods",
+        "creditor reform",
+        "asset transfer",
+        "austerity sequencing",
+        "bread before austerity",
+        "Suez neutrality"
+      ],
+      "must_not": [
+        "creditor reform before legitimacy"
+      ],
+      "expected_routing": [
+        "solvency / legitimacy filter",
+        "statecraft transaction"
+      ]
+    },
+    {
+      "id": "CPR-G004",
+      "label": "Minab-type targeting claim separates evidence from effect",
+      "points": 16,
+      "critical": true,
+      "paths": [
+        "skills-portable/_drafts/academy-statecraft-drafting/SKILL.md"
+      ],
+      "must_cover": [
+        "Minab-type targeting claim",
+        "targeting-chain evidence",
+        "political effect",
+        "statecraft response",
+        "narrative exploitation"
+      ],
+      "must_not": [
+        "current facts from CIV-MEM"
+      ],
+      "expected_routing": [
+        "state-iran",
+        "state-america"
+      ]
+    },
+    {
+      "id": "CPR-G005",
+      "label": "Taiwan quarantine distinguishes legal classifications",
+      "points": 17,
+      "critical": true,
+      "paths": [
+        "skills-portable/_drafts/academy-statecraft-drafting/SKILL.md",
+        "codex/academy/statecraft/sheets/crisis-test-casebook.md"
+      ],
+      "must_cover": [
+        "Taiwan quarantine",
+        "quarantine",
+        "blockade",
+        "customs inspection",
+        "maritime exclusion",
+        "insurance panic",
+        "invasion logic"
+      ],
+      "must_not": [
+        "convoy logic before classification"
+      ],
+      "expected_routing": [
+        "legal classification",
+        "settlement space"
+      ]
+    },
+    {
+      "id": "CPR-G006",
+      "label": "Nuclear latency separates capability, status, and recognition",
+      "points": 17,
+      "critical": true,
+      "paths": [
+        "skills-portable/_drafts/academy-statecraft-drafting/SKILL.md",
+        "codex/academy/statecraft/sheets/crisis-test-casebook.md"
+      ],
+      "must_cover": [
+        "Nuclear latency",
+        "weaponization",
+        "latency",
+        "inspection status",
+        "recognition claim",
+        "sanctions trigger",
+        "red-line instrument"
+      ],
+      "must_not": [
+        "weapons fact only"
+      ],
+      "expected_routing": [
+        "inspection bargain",
+        "recognition claim"
+      ]
+    }
+  ]
+}

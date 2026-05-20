@@ -12,6 +12,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 TEST_TARGETS = [
     "tests/test_forecast_discipline_contract.py",
     "tests/test_speaker_orthogonality_contract.py",
+    "tests/test_crisis_premise_realism_contract.py",
     "tests/test_rehome_path_hygiene_contract.py",
     "tests/test_statecraft_transaction_validity_gauntlet.py",
     "tests/test_draft_skill_contract_gauntlets.py",

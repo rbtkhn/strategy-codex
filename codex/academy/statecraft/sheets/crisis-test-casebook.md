@@ -6,6 +6,12 @@ Crisis tests train academy-statecraft to identify the contested object, classify
 
 Use this sheet as method memory. The national lane casebooks preserve what each state learns from the same crisis: [America](../america/crisis-test-casebook.md), [Russia](../russia/crisis-test-casebook.md), [China](../china/crisis-test-casebook.md), and [Iran](../iran/crisis-test-casebook.md).
 
+## Premise Realism Gate
+
+Before a crisis test becomes a transaction, ask whether the premise deserves to be on the board in its current form. Do not jump from capability to intent; test actor dependence on the target, cost to the alleged actor, demonstrated behavior, and accident / negligence / third-party explanations.
+
+The Baltic case is the model failure check: damaged pipelines or cables should not become "Russian sabotage" by default when Russia may still use the route or benefit more from ambiguity than direct responsibility. Reclassify first as an attribution / negligence / gray-zone crisis; investigate before attributing, harden before retaliating.
+
 ## Casebook Index
 
 | crisis test | contested object | game type | filter learned | settlement spine | doctrine gained |

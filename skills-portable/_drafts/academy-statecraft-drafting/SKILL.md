@@ -72,9 +72,20 @@ Routing rule:
 
 Recent bundles such as `hormuz-transit-sanctions-relief-compact` and `iran-nuclear-latency-recognition-framework` are examples of the pattern, not mandatory templates.
 
-## Crisis object classification
+## Premise realism gate
 
-Before drafting a crisis instrument, run the realism / incentive filter, then identify the contested object whose legal or political character drives the game.
+Premise realism is mandatory before drafting any crisis brief, settlement spine, treaty clause, four-lane bundle, or statecraft transaction. The first question is not "what instrument can we draft?" but "should this premise be allowed onto the board in this form?"
+
+Do not jump from capability to intent. Test actor dependence on the target, cost to the alleged actor, demonstrated behavior, and alternative explanations first. If the premise is weak, reclassify the crisis before drafting; do not let an elegant instrument launder a bad premise into doctrine.
+
+The gate protects four tensions:
+
+- **Intent discipline:** separate deliberate state action from accident, negligence, private actor behavior, third-party provocation, opportunistic exploitation, and propaganda.
+- **Asymmetry discipline:** preserve national-lane differences; America, Russia, China, and Iran do not have the same institutions, vulnerabilities, or escalation tolerance.
+- **Role discipline:** use speaker-state inputs for their distinct jobs rather than collapsing them into generic current-affairs analysis.
+- **Memory discipline:** use CIV-MEM and historical pattern as restraint and settlement discipline, not proof of current facts.
+
+After the premise passes or is reclassified, identify the contested object whose legal or political character drives the game.
 
 Realism / incentive filter:
 
@@ -86,6 +97,15 @@ Realism / incentive filter:
 - What evidence would distinguish intent from accident, negligence, or exploitation after the fact?
 
 If the premise fails this filter, reclassify the crisis before drafting. Example: `Baltic cable sabotage escalation` may become `Baltic shadow-fleet infrastructure damage crisis`.
+
+Premise examples:
+
+- **Baltic infrastructure damage:** do not default to Russian sabotage when the alleged actor may depend on the route; treat it first as attribution / negligence / gray-zone pattern.
+- **Hormuz transit disruption:** distinguish coercive leverage, blockade, verified transit, shipping panic, and escorted transit before drafting guarantees.
+- **Egypt debt / Suez / food imports:** identify protected domestic legitimacy goods before creditor reform, asset transfer, or austerity sequencing.
+- **Minab-type targeting claim:** separate targeting-chain evidence from political effect, statecraft response, and narrative exploitation.
+- **Taiwan quarantine:** distinguish quarantine, blockade, customs inspection, maritime exclusion, insurance panic, and invasion logic before convoy drafting.
+- **Nuclear latency:** distinguish weaponization, latency, inspection status, recognition claim, sanctions trigger, and red-line instrument.
 
 Solvency / legitimacy filter:
 
