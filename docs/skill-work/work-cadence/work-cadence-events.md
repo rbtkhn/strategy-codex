@@ -605,3 +605,6 @@ _(Append below this line.)_
 - **2026-05-20 01:14 UTC** — dream (demo) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false handoff_written=true
 - **2026-05-20 01:15 UTC** — dream (strategy-codex) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=false reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
 - **2026-05-20 01:16 UTC** — dream (demo) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false handoff_written=true
+- **2026-05-20 01:32 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-05-20 01:33 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=codex model_tier=unknown picked=B
+- **2026-05-20 01:40 UTC** — coffee_close (strategy-codex) ok=true cursor_model=codex model_tier=unknown picked=B outcome=done readiness=ship_ready artifacts=scripts/canonical_change_detector.py,tests/test_derived_regeneration.py,docs/skill-work/work-dev/derived-regeneration.md next=review-stage-commit

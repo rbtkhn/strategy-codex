@@ -72,8 +72,29 @@ def test_change_detector_json_reports_matching_target() -> None:
     )
     payload = json.loads(proc.stdout)
     assert payload["changedPaths"] == ["self-library.md"]
+    assert payload["selectionMode"] == "direct"
     target_ids = {row["targetId"] for row in payload["targets"]}
     assert "library-index" in target_ids
+    assert {row["selectionReason"] for row in payload["targets"]} == {"direct"}
+
+
+def test_change_detector_incremental_json_includes_downstream_order() -> None:
+    proc = _run(
+        [
+            CHANGE_DETECTOR,
+            "--paths",
+            "scripts/derived_regeneration.py",
+            "--incremental",
+            "--json",
+        ]
+    )
+    payload = json.loads(proc.stdout)
+    assert payload["selectionMode"] == "incremental"
+    rows = {row["targetId"]: row for row in payload["targets"]}
+    ids = list(rows)
+    assert ids.index("derived-regeneration-manifest") < ids.index("rebuild-health-summary")
+    assert rows["derived-regeneration-manifest"]["selectionReason"] == "direct"
+    assert rows["rebuild-health-summary"]["selectionReason"] == "downstream"
 
 
 def test_expand_with_downstream_adds_lane_dashboards() -> None:

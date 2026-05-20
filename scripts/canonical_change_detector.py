@@ -11,9 +11,11 @@ from derived_regeneration import (
     REPO_ROOT,
     TARGETS,
     detect_git_changed_paths,
+    expand_with_downstream,
     matched_paths_for_target,
     normalize_rel_path,
     select_targets_for_paths,
+    topologically_sort_targets,
 )
 
 
@@ -30,6 +32,11 @@ def build_parser() -> argparse.ArgumentParser:
         "--json",
         action="store_true",
         help="emit machine-readable JSON",
+    )
+    parser.add_argument(
+        "--incremental",
+        action="store_true",
+        help="include downstream targets and report them in dependency order",
     )
     return parser
 
@@ -49,15 +56,23 @@ def _expand(values: list[str] | None) -> list[str]:
 def main() -> int:
     args = build_parser().parse_args()
     changed_paths = _expand(args.paths) or detect_git_changed_paths(REPO_ROOT)
-    selected = select_targets_for_paths(changed_paths)
+    directly_selected = select_targets_for_paths(changed_paths)
+    selected = (
+        topologically_sort_targets(expand_with_downstream(directly_selected))
+        if args.incremental
+        else directly_selected
+    )
+    direct_ids = {target.target_id for target in directly_selected}
 
     payload = {
         "repoRoot": str(REPO_ROOT),
         "changedPaths": changed_paths,
+        "selectionMode": "incremental" if args.incremental else "direct",
         "targets": [
             {
                 "targetId": target.target_id,
                 "description": target.description,
+                "selectionReason": "direct" if target.target_id in direct_ids else "downstream",
                 "matchedPaths": matched_paths_for_target(changed_paths, target),
                 "outputs": list(target.outputs),
             }
@@ -80,10 +95,14 @@ def main() -> int:
         print("No changed paths detected.")
     print()
     if selected:
-        print("Impacted derived targets:")
+        label = "Impacted derived targets"
+        if args.incremental:
+            label += " (incremental order)"
+        print(f"{label}:")
         for target in selected:
             matched = matched_paths_for_target(changed_paths, target)
-            print(f"- `{target.target_id}` — {target.description}")
+            reason = "direct" if target.target_id in direct_ids else "downstream"
+            print(f"- `{target.target_id}` ({reason}) - {target.description}")
             for path in matched:
                 print(f"  - `{path}`")
     else:

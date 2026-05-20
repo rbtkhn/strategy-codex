@@ -111,6 +111,12 @@ Inspect changed paths and impacted rebuild targets:
 python3 scripts/canonical_change_detector.py
 ```
 
+Preview changed targets with downstream incremental ordering:
+
+```bash
+python3 scripts/canonical_change_detector.py --incremental
+```
+
 Dry-run the repo-owned regeneration path:
 
 ```bash
