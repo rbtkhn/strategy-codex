@@ -34,3 +34,7 @@ Any successor Russian authority would still need strategic depth, secure borders
 - Which security concern survives any leadership change?
 - Where does civilizational sovereignty become useful statecraft rather than mood?
 - What settlement prevents borderland instability from becoming permanent mobilization?
+
+## Development Queue
+
+Start with [seed-patterns.md](seed-patterns.md). Promote a seed into a full note only when a transaction, current-event brief, or comparative test needs it.

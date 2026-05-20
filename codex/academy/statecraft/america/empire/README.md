@@ -34,3 +34,7 @@ Control must be bounded by lawful authority, domestic legitimacy, allied burden-
 - Which actor must America reassure rather than command?
 - What review, sunset, or authorization clause keeps force subordinate to legitimacy?
 - Where does coercion strengthen the adversary's claim to system-shaping power?
+
+## Development Queue
+
+Start with [seed-instruments.md](seed-instruments.md). Promote an instrument into a full note only when statecraft drafting needs its own regulator.

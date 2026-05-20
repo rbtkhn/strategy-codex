@@ -4,6 +4,8 @@ WORK only; not Record.
 
 This workshop is reserved for drafting statecraft artifacts: treaty language, policy papers, negotiation frameworks, sanctions designs, war-powers analysis, alliance architecture, intelligence assessments, sovereignty arguments, and institutional decision memos.
 
+It also supports **objection matrices** when a draft instrument needs actor-specific resistance, real-concern, and patch analysis before it is expanded.
+
 Its operating discipline is practical, not biographical. **Richelieu** and **Bismarck** function here as drafting lenses:
 
 - **Richelieu** tests whether an instrument names a durable state interest, gives it an institutional carrier, and survives ideology, faction, and long-war pressure.
@@ -33,12 +35,14 @@ Canonical PH-CIV / statecraft hinge: **Civilizational pattern and narrative beco
 - [Sheets](sheets/) - reusable prompt benches for fast statecraft sessions.
 - [Civilizational pattern to statecraft](sheets/civilizational-pattern-to-statecraft.md) - convert PH-CIV pattern and narrative into authority, restraint, and settlement.
 - [Folder choreography](sheets/folder-choreography.md) - move from `civilization/` memory through `empire/` reach, `state/` decision, `helix.md` regulation, and `transactions/` binding.
+- [State lane development roadmap](sheets/state-lane-development-roadmap.md) - systematically seed, deepen, regulate, and extract each state lane's civilization and empire folders.
 - [National perspective orthogonality](sheets/national-perspective-orthogonality.md) - compare U.S., Russia, China, Iran, and other state views without collapsing them into one generic strategic lens.
 - [Authority carrier orthogonality](sheets/authority-carrier-orthogonality.md) - compare leader / office / party-state / security-carrier problems without flattening them into biography.
 - [Crisis test casebook](sheets/crisis-test-casebook.md) - method memory for contested objects, game types, filters learned, and settlement spines.
 - [Pape coercive-center index](sheets/pape-coercive-center-index.md) - track a Pape-style great-power ranking by crisis leverage, chokepoints, systemic spillover, and diplomatic monetization.
 - [Mearsheimer structural-realist scoreboard](sheets/mearsheimer-structural-realist-scoreboard.md) - track structural power, balancing pressure, overextension, institutional carrier, and restraint.
 - [Sovereignty Under Acceleration](../singularity/workshop/sheets/sovereignty-under-acceleration.md) - bridge sheet for turning AI acceleration signals into treaty, policy, authority, and human-command artifacts.
+- Current-event command: `.cursor/skills/current-event/SKILL.md` - verify a named recent event, classify the crisis object, map actor interests / leverage / carriers, then convert it into a treaty, policy paper, negotiation brief, or Richelieu/Bismarck stress test.
 
 ## National Lanes
 

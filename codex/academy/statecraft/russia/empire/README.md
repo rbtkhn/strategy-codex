@@ -34,3 +34,7 @@ Russia's control must preserve strategic optionality. A commitment that removes 
 - Which ambiguity preserves options rather than postponing a reckoning?
 - What recognition formula increases security without maximal demand?
 - Where should Russia restrain an ally to preserve its own long game?
+
+## Development Queue
+
+Start with [seed-instruments.md](seed-instruments.md). Promote an instrument into a full note only when statecraft drafting needs its own regulator.

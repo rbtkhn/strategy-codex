@@ -34,3 +34,7 @@ Any successor Iranian authority would still need sovereignty, territorial integr
 - Which dignity condition is substantive rather than symbolic?
 - What survives a change in regime or constitutional form?
 - Where does resistance memory help bargaining, and where does it harden into trap?
+
+## Development Queue
+
+Start with [seed-patterns.md](seed-patterns.md). Promote a seed into a full note only when a transaction, current-event brief, or comparative test needs it.

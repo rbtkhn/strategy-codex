@@ -34,3 +34,7 @@ Control must serve anti-disorder. If a move increases energy chaos, supply-chain
 - Which partner action must China restrain quietly?
 - What finance or insurance mechanism makes stability real?
 - Where does China need silence more than public credit?
+
+## Development Queue
+
+Start with [seed-instruments.md](seed-instruments.md). Promote an instrument into a full note only when statecraft drafting needs its own regulator.

@@ -20,6 +20,14 @@ Empire deforms America when emergency power, permanent war, donor pressure, cens
 
 Regulation means command legitimacy, sunset clauses, burden-sharing, constrained objectives, public authority, and settlement language that works after a president, coalition, or federal arrangement changes.
 
+## Seed Crosswalk
+
+| Civilization pattern | Empire instrument | Statecraft regulator |
+| --- | --- | --- |
+| Constitutional legitimacy | Dollar and sanctions command | Review, relief benchmarks, and lawful authority |
+| Union and disunion | Alliance and basing command | Authorization thresholds and burden-sharing |
+| Maritime commercial republic | Maritime order command | Narrow transit categories and partner cost-sharing |
+
 ## Transaction Use
 
 Use this helix before drafting America-lane transactions involving war powers, maritime guarantees, sanctions relief, alliance commitments, or successor-stable authority.

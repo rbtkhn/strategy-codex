@@ -34,3 +34,7 @@ Leverage must be monetized into recognition, relief, and restraint. If Iran cann
 - What transit guarantee preserves deterrence while reopening diplomacy?
 - Which partner must Iran reassure before escalating?
 - Where does dignity language need an institutional carrier?
+
+## Development Queue
+
+Start with [seed-instruments.md](seed-instruments.md). Promote an instrument into a full note only when statecraft drafting needs its own regulator.

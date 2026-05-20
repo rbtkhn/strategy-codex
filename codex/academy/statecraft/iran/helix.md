@@ -20,6 +20,14 @@ Empire deforms Iran when leverage becomes permanent disruption, partner alienati
 
 Regulation means controlled transit guarantees, sanctions-relief benchmarks, non-regime-change assurances, mediator channels, and restraint that turns leverage into settlement.
 
+## Seed Crosswalk
+
+| Civilization pattern | Empire instrument | Statecraft regulator |
+| --- | --- | --- |
+| Dignity and sovereignty | Hormuz leverage | Commercial channel and relief trigger |
+| Resistance and martyrdom grammar | Partner network deterrence | Backchannel discipline and mediator-visible restraint |
+| Plateau continuity | Nuclear latency bargaining | Reversible caps and monitored relief phases |
+
 ## Transaction Use
 
 Use this helix before drafting Iran-lane transactions involving Hormuz, sanctions relief, deterrence, regional architecture, nuclear latency, or recognition formulas.

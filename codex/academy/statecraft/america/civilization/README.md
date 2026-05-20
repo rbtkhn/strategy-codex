@@ -34,3 +34,7 @@ Any successor American power center would still need continental coherence, mari
 - What policy protects the continental state-space without expanding emergency empire?
 - Where does liberty language become a cover for control rather than a restraint on it?
 - What settlement can survive a future constitutional or federal rupture?
+
+## Development Queue
+
+Start with [seed-patterns.md](seed-patterns.md). Promote a seed into a full note only when a transaction, current-event brief, or comparative test needs it.

@@ -131,8 +131,26 @@ Each session should produce one compact WORK artifact:
 - a negotiation brief;
 - a sanctions or relief mechanism;
 - an alliance architecture note;
+- an objection matrix;
 - a warning against overreach;
 - or a cross-shelf bridge to military, politics, theology, or strategy work.
+
+## Objection Matrix Pattern
+
+Use this when an instrument looks plausible but may fail in actor-specific ways. It sits between a negotiation brief and a stress test: concrete enough to patch clauses, skeptical enough to prevent elegant overreach.
+
+Format:
+
+| Actor | Likely objection | Real concern | Patch |
+| --- | --- | --- | --- |
+| Actor / institution | What they would say publicly | What interest, leverage, or fear drives it | Wording, mechanism, verification, concession, or off-ramp that improves durability |
+
+Rules:
+
+- Include at least the initiating state, target state, affected third parties, and implementation carriers.
+- Distinguish public objection from real concern.
+- End with the most dangerous objection and the best patch.
+- Do not treat the matrix as proof the instrument works; use it to revise the instrument or decide what to test next.
 
 ## Boundary
 

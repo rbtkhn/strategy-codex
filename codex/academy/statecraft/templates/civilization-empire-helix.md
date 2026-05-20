@@ -14,6 +14,13 @@ Shared grammar:
 - **Empire** = outward striving for security and control: force, finance, alliance, chokepoint, law, infrastructure, and dependency instruments.
 - **Statecraft** = regulatory art: knowing limits, restraining imperial desire, and converting control into durable sovereignty, security, and settlement.
 
+Source flow:
+
+1. CIV-MEM informs `civilization/` and `empire/` equally.
+2. `state/` draws from `civilization/` and `empire/`, not directly from CIV-MEM.
+3. `helix.md` regulates the tension between the two folders.
+4. `transactions/` test the regulated statecraft against current events and scenarios.
+
 ## civilization/README.md
 
 Required sections:
@@ -47,5 +54,6 @@ Required sections:
 - Empire Protects Civilization
 - Empire Deforms Civilization
 - Statecraft Regulation
+- Seed Crosswalk
 - Transaction Use
 - Drafting Prompts

@@ -20,6 +20,14 @@ Empire deforms China when control becomes visible overreach, partner crises forc
 
 Regulation means quiet leverage, anti-disorder compacts, limited public commitments, face-saving de-escalation channels, and mechanisms that protect energy without claiming ownership of the crisis.
 
+## Seed Crosswalk
+
+| Civilization pattern | Empire instrument | Statecraft regulator |
+| --- | --- | --- |
+| Order against chaos | Energy route security | Incident channels and public restraint |
+| Humiliation and containment memory | Quiet partner leverage | Face-saving offramps and private demarches |
+| Development legitimacy | Infrastructure and finance reach | Nonexclusive access and limited guarantees |
+
 ## Transaction Use
 
 Use this helix before drafting China-lane transactions involving energy compacts, transit guarantees, yuan settlement, regional forums, shipping insurance, or Iran-related leverage.

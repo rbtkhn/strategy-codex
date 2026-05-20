@@ -34,3 +34,7 @@ Any successor Chinese authority would still need unity, food and energy security
 - Which clause protects energy flows while reducing U.S. coercive reach?
 - Where does civilizational patience become strategic advantage?
 - What settlement lets China stabilize without inheriting imperial policing burdens?
+
+## Development Queue
+
+Start with [seed-patterns.md](seed-patterns.md). Promote a seed into a full note only when a transaction, current-event brief, or comparative test needs it.

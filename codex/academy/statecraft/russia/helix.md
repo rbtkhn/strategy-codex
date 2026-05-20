@@ -20,6 +20,14 @@ Empire deforms Russia when security depth becomes unlimited control, when partne
 
 Regulation means recognition formulas, limited aims, mediator roles, reciprocal security zones, and alliance optionality that keep Russia from confusing disruption with durable order.
 
+## Seed Crosswalk
+
+| Civilization pattern | Empire instrument | Statecraft regulator |
+| --- | --- | --- |
+| Encirclement and security depth | Borderland buffer control | Reciprocal deployment limits and inspection zones |
+| State continuity through collapse | Energy leverage | Contract floors and commercial dispute channels |
+| Great-power recognition | Mediator disruption optionality | Conditional support and nonownership of partner escalation |
+
 ## Transaction Use
 
 Use this helix before drafting Russia-lane transactions involving recognition, neutrality, security guarantees, energy leverage, mediator channels, or support for Iran.
