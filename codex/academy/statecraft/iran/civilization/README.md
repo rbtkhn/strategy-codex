@@ -37,6 +37,6 @@ Any successor Iranian authority would still need sovereignty, territorial integr
 
 ## Development Queue
 
-Start with [seed-patterns.md](seed-patterns.md). Promote a seed into a full note only when a transaction, current-event brief, or comparative test needs it.
+Start with [seed-patterns.md](seed-patterns.md). Use [god](god.md), [lit](lit.md), [art](art.md), [war](war.md), and [peace](peace.md) as compact statecraft lenses for sacred boundary, cultural memory, legitimacy, coercion, settlement, beauty, and failure modes. Promote a seed into a full note only when a transaction, current-event brief, or comparative test needs it.
 
 Use [civilization objects](objects/) when a recurring authority pattern needs to connect the Iran book surface to current state carriers, diplomatic transmitters, and transaction authority checks. First object: [state memory](objects/state-memory.md).
