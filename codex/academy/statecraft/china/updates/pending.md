@@ -8,19 +8,26 @@ Use [Recursive Update Candidate Template](../../templates/recursive-update-candi
 
 ## Pending
 
+No pending candidates.
+
+## Accepted
+
 ### Candidate: Bounded Alliance / Unbounded Lattice
 
 - **Source output:** `china hex us south korea` regionalization threshold read.
-- **Proposed target:** `civilization/objects/state-memory.md`, `civilization/geo.md`, or `sheets/china-order-arc.md`
+- **Proposed target:** `sheets/china-order-arc.md`
 - **Claim:** China can price in hostile or adverse alliances when they remain bounded to a local security problem, but resists even defensive capacity when it mutates into an unbounded regional lattice aimed at China containment.
 - **Evidence:** The U.S.-South Korea alliance is tolerable to Beijing when framed as peninsula deterrence against North Korea. It becomes threatening when Taiwan language, operational planning, missile-defense integration, drone / sensor networks, industrial-security alignment, or U.S.-Japan-ROK bloc visibility convert peninsula defense into Indo-Pacific contingency infrastructure.
 - **Statecraft consequence:** China reads alliance function more sharply than alliance existence. Current-event and transaction reads should test whether a military, technology, supply-chain, or basing instrument remains locally bounded or becomes a regional implementation surface.
 - **Failure / overreach warning:** Washington can accidentally harden China threat perception if it treats every allied upgrade as modular China-containment capacity; Beijing can overreact if it treats every defensive alliance improvement as encirclement.
 - **Suggested action:** review for integration as a China order / geo threshold: "bounded alliance is tolerable; unbounded lattice is threatening; Taiwan-operational integration is intolerable."
 
-## Accepted
+### Review Note
 
-No accepted candidates.
+- **Decision:** accept and integrate.
+- **Reviewer:** operator via "as you wish".
+- **Date:** 2026-05-20.
+- **Integration note:** Added an `Alliance Mutation Threshold` section to `sheets/china-order-arc.md`. Kept the rule in the order arc rather than rewriting China state-memory or `geo.md`; those can cross-link later if repeated cases prove the threshold belongs in the civilization book surfaces.
 
 ## Deferred
 
