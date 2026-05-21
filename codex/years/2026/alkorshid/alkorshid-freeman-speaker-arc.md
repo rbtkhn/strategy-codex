@@ -21,6 +21,15 @@ What makes this a real speaker arc is that the same shape keeps returning:
 
 ## Arc set
 
+### March 2026 cross-host safeguard
+
+For the full March Freeman run, open [freeman-march-2026-cross-host-arc.md](../freeman/freeman-march-2026-cross-host-arc.md). The Dialogue Works March items are a major part of the war-system activation arc:
+
+- 2026-03-06 *The War With Iran Is Breaking Everything the U.S. Planned* - captured on disk.
+- 2026-03-13 *Israel's Agenda Is Collapsing... And It's Happening Fast* - profile-discovered, needs capture.
+- 2026-03-20 *Ground Troops in Iran? This Could Collapse Netanyahu's Strategy* - captured on disk.
+- 2026-03-27 *If Troops Enter Iran... Israel's Entire Strategy FALLS APART* - captured on disk.
+
 1. [transcript-alkorshid-freeman-hormuz-ceasefire-gulf-states-china-2026-05-08.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-08/transcript-alkorshid-freeman-hormuz-ceasefire-gulf-states-china-2026-05-08.md)
    Best mature anchor. Strong on "ceasefire with Israeli characteristics," Gulf-state distancing, Hormuz control, and the claim that Anglo-American maritime order is breaking down.
 
@@ -40,6 +49,12 @@ The 2025 Dialogue Works shelf was already real, but it is now clearer on disk as
 
 That makes the second-half 2025 Dialogue Works Freeman run feel materially dense, not merely sufficient.
 
+December bridge: [2025-12-05 *Israel's Strategy Is Collapsing | EU Seems Paralyzed | Ceding the Future to China*](/C:/dev/strategy-codex/codex/years/2026/raw-input/2025-12-05/transcript-dialogue-works-amb-chas-freeman-israel-s-strategy-is-collapsing-eu-seems-paralyzed-ceding-the-future-to-china-2025-12-05.md) is the first captured Dialogue Works anchor for the Dec 2025-May 2026 Freeman arc-threads. It ties the Israel-collapse language to EU paralysis, sanctions failure, U.S. domestic/legal decay, and China's quiet beneficiary role.
+
+Joint-speaker bridge: [2025-12-12 *The U.S. Just Triggered a Chain Reaction It Can't Reverse*](/C:/dev/strategy-codex/codex/years/2026/raw-input/2025-12-12/transcript-dialogue-works-wilkerson-freeman-chain-reaction-2025-12-12.md) belongs to both the Freeman and Wilkerson Dialogue Works lanes. Use it when the Freeman arc needs the legal/diplomatic frame around Venezuela piracy, Monroe Doctrine revival, statecraft process collapse, mercantilist strategy, China competition, and Gulf-region counter-coalition formation, while preserving Wilkerson's separate military-statecraft register.
+
+Joint-speaker bridge: [2025-12-19 *The Middle East You Knew Is Disappearing*](/C:/dev/strategy-codex/codex/years/2026/raw-input/2025-12-19/transcript-dialogue-works-freeman-parsi-middle-east-you-knew-disappearing-2025-12-19.md) belongs to both the Freeman and Parsi lanes. Use it when the Freeman arc needs the Gulf-Arab/Iran common-interest turn, Israel-as-regional-destabilizer frame, axis-of-resistance deterrence debate, Venezuela-Iran narrative linkage, and the Ukraine/Europe asset-seizure coda in one live-pressure episode.
+
 ## Open first
 
 Open **2026-05-08** first when you want the clearest statement of why this host x guest run matters on its own.
@@ -49,6 +64,12 @@ Open **2025-11-21** first when the notebook specifically needs:
 - a late-2025 dead-end framing on both Ukraine and Israel
 - the clearest bridge from the 2025 pressure shelf into the sharper 2026 crisis lane
 - Freeman under live event stress rather than in the steadier Diesen format
+
+Open **2025-12-05** first when the notebook specifically needs the December root of the six Freeman arc-threads, especially the move from Israel's failing force-first strategy into U.S. adoption of Israeli practices and China's comparative gain.
+
+Open **2025-12-12** first when the notebook needs the Freeman-Wilkerson overlap rather than a single-guest Freeman file.
+
+Open **2025-12-19** first when the notebook needs the Freeman-Parsi overlap around Israel/Iran/GCC recalibration before the 2026 Iran-war lane hardens.
 
 ## Best paired read
 

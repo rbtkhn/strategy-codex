@@ -10,7 +10,8 @@ title: "Amb. Chas Freeman: Israel's Strategy Is Collapsing | EU Seems Paralyzed 
 channel_url: "https://www.youtube.com/@DialogueWorks01/videos"
 channel_slug: "dialogue-works"
 source_url: "https://www.youtube.com/watch?v=oKuDN1rYFTM"
-source_note: "Automated YouTube transcript fetch for Dialogue Works."
+source_note: "Automated YouTube transcript fetch for Dialogue Works; operator re-pasted matching transcript on 2026-05-20 during Freeman December arc-thread hardening."
+editorial_note: "Use as a captured raw-input anchor for the Dec 2025 start of the Freeman arc-threads: Israel strategy collapse, EU paralysis, U.S. decline, and China beneficiary framing. Verify embedded third-party clips before treating them as primary-source quotations."
 ---
 
 # Amb. Chas Freeman: Israel's Strategy Is Collapsing | EU Seems Paralyzed | Ceding the Future to China

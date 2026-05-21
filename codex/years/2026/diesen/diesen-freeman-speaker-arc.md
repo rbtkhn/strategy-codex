@@ -19,6 +19,14 @@ He is not the lane for wire-grade ORBAT or shipping arithmetic. He is the lane f
 
 ## Arc set
 
+### March 2026 cross-host safeguard
+
+For the full March Freeman run, open [freeman-march-2026-cross-host-arc.md](../freeman/freeman-march-2026-cross-host-arc.md). The Diesen March items keep the long-horizon order read visible inside the Iran-war activation month:
+
+- 2026-03-01 *The War Against Iran Could Destroy the U.S. Republic* - captured on disk.
+- 2026-03-14 *The Emerging Iran-Russia-China Axis & Israel's Possible Demise* - captured on disk.
+- 2026-03-23 *Trump Back Down - Armageddon Postponed?* - captured on disk.
+
 1. [transcript-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-06/transcript-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md)
    Best mature anchor. Strongest full statement of the **sea-power -> land-power** transition, Hormuz checkmate logic, petrodollar fragility, and post-hegemonic order consequences.
 
@@ -31,7 +39,8 @@ The 2025 Diesen shelf is now materially thicker than the original minimal Freema
 
 - `2025-10-06` *Coalition of the Deluded Pursues War with Russia*
 - `2025-11-20` *Fake Peace, Political Collapse & Major Wars*
-- `2025-12-18` *Age of Wars as Freedom of Navigation Ends*
+- `2025-12-04` *Thucydides Trap & US Reaction to China's Rise*
+- `2025-12-18` *Age of Wars as Freedom of Navigation Ends* - upgraded to operator-pasted transcript on 2026-05-21.
 
 That means the Diesen-side Freeman branch is not just an early 2025 precursor plus a 2026 hardening. It already has a substantial late-2025 order-transition run on disk.
 
@@ -44,6 +53,13 @@ Open **2025-12-18** first when you specifically need:
 - freedom-of-navigation breakdown
 - maritime-order transition
 - a late-2025 bridge from diplomatic decay into sea-power consequence
+- the cleanest December statement of boat murders, maritime piracy, unilateral sanctions, and the missing rulemaker problem
+
+Open **2025-12-04** first when you specifically need:
+
+- Thucydides trap as a description of U.S. behavior rather than Chinese behavior
+- multinodal order vocabulary
+- U.S.-China competition as American self-cannibalization plus Chinese competence
 
 ## Best paired read
 
