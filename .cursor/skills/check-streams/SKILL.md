@@ -90,6 +90,7 @@ If a stream has no upload on the target day, say so explicitly.
    - Query the tracked channels for the operator's local day.
    - Prefer the channel's **uploads playlist / channel-id feed** over a handle-based `/videos` page.
    - Treat a handle page as a fallback only; some channels can undercount, mis-order, or hide same-day uploads there.
+   - If a handle fallback returns obviously stale or impossible date windows for the target day, treat that source as corrupted for this run. Do not silently reuse it as if it were a trustworthy daily roster.
    - Preserve the **direct YouTube watch URL** for every discovered item. If discovery only surfaces a title through a secondary listing, keep that item flagged as unresolved until the watch URL is recovered or the operator explicitly accepts a scaffold.
    - Normalize each result into:
      - stream / channel
@@ -99,6 +100,7 @@ If a stream has no upload on the target day, say so explicitly.
      - duration
    - Keep the discovery pass separate from materialization.
    - Preserve a local **discovery receipt** for the day so later audits can compare what the channel exposed against what was materialized.
+   - A valid discovery receipt should record which discovery surface actually produced the result set, so later audits can tell `uploads feed` from `handle fallback` from `flat-playlist rescue`.
 
 2. **Run the highlight-clip filter**
    - Classify items into:
@@ -137,9 +139,9 @@ If a stream has no upload on the target day, say so explicitly.
    - Review `.codex-tmp/youtube-raw-input/<run-id>/materialization-summary.md` and `capture-summary.md` before claiming capture.
    - For apply-mode runs with `--with-appearances`, expect the materializer to refresh `artifacts/host-shelf-quality/<year>/<host>/<YYYY-MM>/quality-summary.md/json` unless `--no-quality-report` was explicitly used.
    - Close materialization/densification claims with the mandatory quality line from the capture summary: `Structure: <delta> | Purity: <delta/%> | Unresolved: <count> | Git: on-disk/verified/not-committed/not-pushed`.
-   - Preserve the receipt scope: materializer host-quality closeouts are `full-host-month`, even when the capture run started from one transcript.
+   - Preserve the receipt scope: the **item-level receipt closes the item**; materializer host-quality closeouts are `full-host-month` shelf benchmarks, even when the capture run started from one transcript. Label host-month closeouts as broader context and do not let odd month-level deltas overrule a clean item-level verdict.
    - Do not treat new routeable appearances as textual purity gains unless the quality report shows transcript-grade, cleaned-transcript, or transcript-bearing improvement.
-   - After every successful transcript raw-input completion, include an **item-level transcript quality receipt** in the operator-facing result. Prefer `python scripts/report_raw_input_quality.py --path <raw-input-file>`; if that helper is unavailable, use the host-shelf quality artifact or run a dry-run host-month report such as `python scripts/host_shelf_quality.py --host <host> --year <YYYY> --month <YYYY-MM>` and quote the matching artifact row. The receipt must include: raw-input path, evidence grade (`transcript-grade`, `cleaned-transcript`, `transcript-bearing`, `summary-grade`, or `legacy-appearance-only`), word count, routeable yes/no, unresolved speaker yes/no, residual noise terms, quality/provenance note, and the host-month `Structure | Purity | Unresolved | Git` closeout line.
+   - After every successful transcript raw-input completion, include an **item-level transcript quality receipt** in the operator-facing result. Prefer `python scripts/report_raw_input_quality.py --path <raw-input-file>`; if that helper is unavailable, use the host-shelf quality artifact or run a dry-run host-month report such as `python scripts/host_shelf_quality.py --host <host> --year <YYYY> --month <YYYY-MM>` and quote the matching artifact row as a fallback. The item receipt must include: raw-input path, evidence grade (`transcript-grade`, `cleaned-transcript`, `transcript-bearing`, `summary-grade`, or `legacy-appearance-only`), word count, routeable yes/no, unresolved speaker yes/no, residual noise terms, quality/provenance note, and a clear item verdict (`closed`, `repair-needed`, or `parked`). If a host-month `Structure | Purity | Unresolved | Git` closeout is shown, introduce it as `host-month benchmark`, not as the item verdict.
    - Residual-noise repair loop: if the item-level receipt reports residual noise terms, inspect each occurrence before closing. Automatically patch obvious speech-to-text/proper-noun artefacts when the local context makes the intended correction clear (for example known analyst names, public figures, or recurring transcript noise such as `Zalinski` -> `Zelensky` and `Mandi` in a professor/guest context -> `Marandi`). Rerun `python scripts/report_raw_input_quality.py --path <raw-input-file>` after the patch. Close with `residual noise: none` only after the rerun confirms it; if a term is ambiguous, leave it unchanged and list it as unresolved in the receipt.
    - If a transcript body is present but metadata causes the quality classifier to return `legacy-appearance-only`, say that explicitly and do not call it transcript-valid until the metadata is normalized.
    - Legacy transcript normalization rule: when an existing raw-input file has a real transcript body plus enough provenance to identify host, title, date, and source URL, normalize metadata before closeout unless the operator asked for read-only inspection. Add `source_type`, `transcript_type`, quality/provenance notes, and an explicit transcript marker while preserving the transcript body; then rerun `report_raw_input_quality.py --path <raw-input-file>` and close with the updated receipt.
@@ -150,6 +152,7 @@ If a stream has no upload on the target day, say so explicitly.
    - If the operator has already pasted the full transcript in the current Codex thread, treat that paste as a valid transcript source and hand the item down to the YouTube transcript workflow's **operator-paste fallback**. Prefer mechanical extraction from the local Codex session log over hand-copying long chat text. Do not call the result `partial-chat-capture` merely because the paste is long or awkward to patch.
    - For full operator-paste repairs, require an exact-match receipt before closing the item: `sourceChars`, `bodyChars`, and `exactMatch=True` between the extracted session transcript and the body written after `## Transcript`.
    - After exact-match verification passes, update the check-stream receipts as captured with `capture_status: full-operator-paste`; move the item out of the open repair queue. Use `partial-chat-capture` only when the source is truly incomplete or exact extraction cannot be verified, and leave that item queued as `full-transcript-import-needed`.
+   - After exact-match verification passes, run the item-level quality receipt and apply the residual-noise repair loop before calling the item closed.
    - If a date-scoped check remains unresolved after discovery, end with a **manual-fetch queue**:
      - list only direct YouTube watch URLs that are safely tied to the requested date,
      - order them `highest confidence first`,
@@ -357,7 +360,8 @@ After operator selection, report only the approved items being materialized and 
 - routeable: <yes/no>; unresolved speaker: <yes/no>
 - residual noise: <none or terms>
 - quality note: <source_note/editorial_note/quality_note>
-- host-month closeout: Structure: <delta> routeable | Purity: <delta> transcript-valid / <pct>% (<delta pp>) | Unresolved: <N> | Git: <state>
+- item verdict: <closed / repair-needed / parked> - <why>
+- host-month benchmark: Structure: <delta> routeable | Purity: <delta> transcript-valid / <pct>% (<delta pp>) | Unresolved: <N> | Git: <state> <optional; broader shelf context, not the item verdict>
 
 ## Speaker routing hints
 - <raw-input file> -> <primary speaker route> - <next action> - <why>

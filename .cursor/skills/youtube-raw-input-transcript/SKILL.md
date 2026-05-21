@@ -111,6 +111,7 @@ In strategy-codex, this skill is also the shared **transcript + appearance mater
    - If the output still has substantial caption noise, say so clearly.
    - If YouTube blocks metadata or captions, do not create a canonical stub. Use the receipt-side manual transcript scaffold instead, then wait for a human-filled body before routing appearances.
    - For operator-paste fallback, do not report success unless the canonical body is non-stub and exact-match verification against the extracted paste source passes.
+   - After operator-paste exact-match verification, run the item-level quality receipt and patch obvious proper-noun / speech-to-text artifacts when the local context makes the intended correction clear before final closeout.
 
 9. **Emit the appearance packet**
    - For strategy-codex captures, prefer `--with-appearances` so successful raw-input files immediately produce:
@@ -123,7 +124,7 @@ In strategy-codex, this skill is also the shared **transcript + appearance mater
    - For `--apply --with-appearances`, keep the host-shelf quality report enabled unless the operator explicitly uses `--no-quality-report`.
    - Close every densification pass with the quality contract line: `Structure: <delta> | Purity: <delta/%> | Unresolved: <count> | Git: on-disk/verified/not-committed/not-pushed`.
    - For ordinary one-off or daily captures, close with raw-input path, `youtube_id`, `caption_kind`, `caption_language`, `body_word_count`, `evidence_grade`, and verification reason.
-   - Treat materializer quality reports as `full-host-month` receipts; if a single-file run differs from the monthly shelf baseline, name the scope explicitly instead of implying shelf regression.
+   - Treat item and shelf receipts as separate scopes: a one-off capture closes on the raw-input item's own non-stub, provenance, evidence-grade, and residual-noise verdict; materializer quality reports are `full-host-month` shelf benchmarks. If a single-file run differs from the monthly shelf baseline, name the scope explicitly instead of implying shelf regression or reopening a clean item.
    - Distinguish topological progress from text-quality progress: route count and shelf coverage are not the same as transcript-grade or cleaned-transcript purity.
    - Stop at advisory artifacts unless the operator separately asks to edit speaker objects, arcs, helixes, lattice rows, or other interpretation surfaces.
 
