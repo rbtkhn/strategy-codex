@@ -37,6 +37,56 @@ For the compact strategy-language version of this rule, see [raw-input-lane-owne
 
 **Capture-type calibration (essay / transcript / social / wire–PDF):** For **type-specific** defaults — **`kind:`**, **`thread:`**, inbox stub shape, refined-page **`### Verbatim`** expectations — see **[`CAPTURE-TYPES.md`](CAPTURE-TYPES.md)** (grep-friendly **`##`** headings). Operator + assistant ingest should align that doc with the scaffold in [strategy-codex-template-raw-input.md](../../strategy-codex-template-raw-input.md) and [refined-page-template.md](../refined-page-template.md).
 
+When a file is a valid speaker capture, correct YAML and correct storage day are necessary but **not sufficient**. The capture is not fully integrated until it is wired into the correct host and/or speaker visibility surfaces.
+
+**Speaker wiring doctrine:** For the speaker-side route-map version of this rule, see [speaker-map/README.md](../speaker-map/README.md). This README is the canonical storage-side contract.
+
+## Raw-Input Wiring Contract
+
+`raw-input/` is a date-first evidence ledger, but a valid materialized speaker capture must not remain only in this tree.
+
+Every valid materialized speaker raw-input must become visible from the correct downstream routing surface:
+
+- a host-owned `core host lane`
+- a speaker-owned `non-core appearance bench`
+- both, when host ownership and speaker visibility are both required
+
+`discovery memory` is reserved for not-yet-materialized appearances only. Once a speaker appearance is valid and materialized as raw-input, leaving it only in discovery memory is broken wiring.
+
+If a valid raw-input exists but is absent from the correct speaker raw-input index, or absent from a required host visibility surface, treat that as an architecture defect and repair it.
+
+## Storage vs Routing
+
+Two distinct architectures overlap here and should not be conflated:
+
+- `raw-input/` = publication-day storage and literal-text SSOT
+- speaker and host surfaces = routing projections over that stored evidence
+
+That means `raw-input/` answers "what exact source text do we have, and on what publication day does it belong?" while speaker folders, host lanes, and related indexes answer "where should this capture be visible for judgment and re-entry?"
+
+Helper layers may still live nearby, but they are not the same thing as primary evidence units. Day files such as `YYYY-MM-DD-speaker.md`, verify sidecars, scaffold notes, inventories, and queue docs help operators and agents work the tree; they do not replace the underlying capture file.
+
+## Ownership And Downstream Obligations
+
+Standardize the downstream wiring rule by capture type:
+
+- designated host-stream interviews: raw-input ownership follows the host stream, but durable guest lanes still require speaker-side visibility
+- outside-channel expert captures: when the guest already has a real lane, raw-input ownership should usually follow the guest lane; host metadata stays visible in YAML, title, and later routing context
+- multi-guest captures: require at least one explicit primary ownership surface plus explicit secondary speaker visibility rules for the other durable guests
+
+Do not allow "present in raw-input only" as a final state for a valid speaker capture.
+
+## Conceptual Routing Manifest
+
+The repo does not need code for this yet, but each valid speaker raw-input should be easy to classify using the same conceptual manifest shape:
+
+- `ownership`: `host-owned` or `guest-owned`
+- `speaker_targets`: which speaker surfaces must expose the capture
+- `host_targets`: which host-local arc, host raw-input index, or host route surface must expose it
+- `status`: `materialized`, `discovery-only`, or `pending-date`
+
+Treat this as policy-first architecture that can later support audits or automation.
+
 ## Publication vocabulary (formal pin)
 
 - **Machine (grep / YAML / cold lines, `verify:` tails):** use **`pub_date`** and the tag **`pub_date:YYYY-MM-DD`**. **Do not** introduce new **`aired:`** tags; **`ingest_date`** remains “when the file entered this tree,” distinct from **publication**.
@@ -159,6 +209,17 @@ raw-input/
 **Other slugs:** `kebab-case`, unique within that day — e.g. `ritter-judging-freedom-2026-04-20.md`, `substack-simplicius-….md`, `davis-johnson-hormuz-full.md`.
 
 **Optional:** Add non-markdown payloads next to the `.md` file in the same folder (e.g. `.txt` exports) if you truly need byte-identical dumps; keep filenames descriptive.
+
+## Subtree semantics
+
+Treat the special subtrees and helper files as distinct from primary capture units:
+
+- `_aired-pending/` = unresolved `pub_date`; allowed temporarily, but the file should still carry intended routing metadata and must move into a dated folder once publication day is pinned
+- `snippets/` = scaffolding only; never a terminal home for valid captures
+- scaffold docs, inventories, and queue files = control surfaces; useful for coordination, but not evidence units
+- day helper files such as `YYYY-MM-DD-speaker.md`, `verify-*.md`, and similar sidecars = helper layers, not equivalent to primary transcript captures unless explicitly documented otherwise
+
+Any file graduating from scaffold or snippet status into a valid capture should be moved into a dated folder and wired downstream immediately.
 
 ## File template (recommended)
 

@@ -55,6 +55,13 @@ Long-form prose from a **single primary author** or outlet voice: Substack posts
 | **Refined `### Selected Passages`** | Often **lane-specific** (guest-only, or expert monologue) or **head + tail + omission line** per [refined-page-template.md](../refined-page-template.md) § Length; drop host filler if budget forces. |
 | **Pitfalls** | **`pub_date`** = upload vs live air mismatch; chunk merges dropping blank lines between speakers; on-air **numbers** need **`verify:`** before load-bearing use in **`days.md`**; editorial name drift where assistant-added speaker tags or metadata use a different naming style than the lane. |
 
+**Downstream wiring obligation:**
+
+- designated host-stream interviews are host-owned in `raw-input/`
+- durable guest lanes still need downstream visibility on the correct speaker surface
+- outside-channel guest captures should not remain raw-input-only; they must land in the guest speaker surface once materialized
+- multi-guest captures need an explicit primary ownership surface plus explicit secondary speaker visibility where the guests have real lanes
+
 **Transcript naming rule (explicit):**
 
 - If the field is preserving the source's public identity, keep the source form exactly.
@@ -78,6 +85,11 @@ Short-form or **threaded** social text: X/Twitter, Bluesky, **Locals**, Truth So
 | **Mechanical inbox stub** | Platform + handle + **`pub_date`** (post day) + **`partial`** vs **`full`** + **`verify:`** for breaking claims + **`not-Record`**. Flag **`screenshot-capture-tier`** or **`operator-pasted-transcript`** as appropriate. For `shortform-bundle`, include the source platform and bundle count in the stub. **`grep:`** handle + first distinctive phrase + date. |
 | **Refined `### Selected Passages`** | Short posts may **fit full** Selected Passages; long threads → **selected posts** + Appendix pointer to raw bundle. |
 | **Pitfalls** | **Deleted posts** (SSOT is “what we captured”); character-limit noise; mixing **hot takes** with wire facts without tier tags. |
+
+**Downstream wiring obligation:**
+
+- when a social capture clearly belongs to a durable speaker lane, materialization should make it visible from that speaker surface
+- if the capture is only a screenshot roll or unresolved mention, keep it out of the bench and treat it as discovery-only until it becomes a real raw-input unit
 
 **`grep:` keywords (optional tail):** `x-post`, `shortform-bundle`, `Locals`, `thread`, `screenshot`, `partial`.
 
