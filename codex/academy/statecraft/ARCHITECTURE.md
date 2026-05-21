@@ -79,11 +79,49 @@ If a surface cannot pass most of those checks, it may still be useful, but it is
 Use the following thresholds when deciding whether something should stay experimental or count as part of the stable architecture:
 
 - a **transaction** should usually be treated as an exemplar only after it has a real settlement spine, named carriers, observability or verification logic, and at least one plausible revisit condition
+- a **transaction candidate** should usually remain only a candidate when the work is still mostly diagnosis, warning, analogy, or leverage commentary rather than a draftable instrument with limited aim
 - a **lane stub** should usually become stable only after repeated transaction use proves which distinctions in `civilization/`, `empire/`, `state/`, `helix.md`, and `transactions/` actually matter
 - a **sheet** should usually become stable only after it improves more than one real drafting task and produces reusable output rather than clever framing alone
 - a **recursive queue or scoreboard habit** should usually become stable only after at least one real cycle shows that it changes later judgment rather than merely archiving movement
 
 The point is not to slow growth for its own sake. The point is to prevent orientation scaffolds, good notes, or volatile exemplars from being mistaken for settled architecture too early.
+
+## Transaction Threshold
+
+Not every good crisis note deserves a transaction, compact, or framework.
+
+A statecraft object should usually cross that threshold only when it can survive conversion into:
+
+- a distinct crisis object
+- a real settlement spine
+- named authority carriers
+- a plausible instrument form
+- limited aim, restraint, and off-ramp logic
+- falsifiers, review triggers, or other revisit discipline
+
+If the work is still primarily interpretation, pressure description, warning, or actor comparison, it is usually healthier as commentary, braid, memo, objection matrix, or router candidate than as a new transaction artifact.
+
+## Lifecycle Closure
+
+For statecraft crisis objects, the lifecycle question is not "can this become a transaction?" but "where should this note properly end its life?"
+
+Valid terminal states include:
+
+- commentary
+- braid
+- memo
+- objection matrix
+- router candidate
+- true transaction, only when the transaction threshold is met
+
+False terminal states include:
+
+- `important event -> automatic framework`
+- `good prose -> transaction by momentum`
+- `sharp diagnosis -> compact`
+- `strong analogy -> framework`
+
+The closeout owner is the statecraft drafting judgment of the workshop. A crisis note ends its life well when it reaches the smallest honest form that matches the object. Forcing premature transaction form is a closure error, not ambition.
 
 ## Failure Modes
 
@@ -93,6 +131,7 @@ The main architectural risk here is false program shape: the shelf looks rich, b
 - `template theater`: many templates exist, but few are pressure-tested by real lane work
 - `lane encyclopedism`: a national lane grows in volume without becoming better at producing instruments
 - `transaction overproduction`: every plausible crisis note becomes a framework, compact, or transaction whether or not the object deserves one
+- `threshold evasion`: the workshop starts treating urgency, elegance, or geopolitical importance as substitutes for settlement spine, carriers, and instrument form
 - `speaker capture drift`: speaker-state begins to function as a substitute for statecraft judgment rather than as input to it
 - `recursive fiction`: recursive update language exists, but no actual revisit or lane-learning loop changes later work
 - `cross-lane blur`: America, Russia, China, and Iran lose orthogonality and collapse into one generic strategic voice

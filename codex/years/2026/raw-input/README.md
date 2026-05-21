@@ -55,6 +55,30 @@ Every valid materialized speaker raw-input must become visible from the correct 
 
 If a valid raw-input exists but is absent from the correct speaker raw-input index, or absent from a required host visibility surface, treat that as an architecture defect and repair it.
 
+Hard law:
+
+- a valid materialized speaker capture may not be left in `raw-input/` as its terminal state
+- `_aired-pending/`, `snippets/`, queue docs, verify files, and discovery-memory notes may not serve as terminal homes for valid materialized captures
+- if a capture is stranded in any of those states, the ingest or routing task is still open
+
+## Lifecycle Closure
+
+For a valid speaker capture, storage is an intermediate state rather than the end of the lifecycle.
+
+The lifecycle works like this:
+
+1. discovery or intake finds the source
+2. materialization creates the dated evidence unit in `raw-input/`
+3. routing exposes the capture from the correct host and/or speaker surfaces
+4. closure happens only when that routed visibility is real, or when review shows the item is not actually a valid speaker capture
+
+In repo shorthand:
+
+- materialization starts the lifecycle
+- routed visibility ends it
+
+That is why `_aired-pending/`, `snippets/`, queue docs, verify sidecars, discovery-memory notes, and similar helper layers are temporary or supporting states only. They may assist the lifecycle, but they do not complete it.
+
 ## Storage vs Routing
 
 Two distinct architectures overlap here and should not be conflated:
@@ -102,6 +126,8 @@ Once a speaker capture is valid and materialized, the architecture imposes concr
 
 Treat those as completion conditions, not aspirations.
 
+If any of those obligations is unmet, do not describe the work as captured, integrated, or complete.
+
 ## Audit Questions
 
 Use these checks whenever you materialize, backfill, or review speaker captures:
@@ -115,6 +141,8 @@ Use these checks whenever you materialize, backfill, or review speaker captures:
 
 If one of those questions cannot be answered cleanly, treat the capture as under-wired.
 
+Under-wired captures are not a soft warning class. They are unresolved routing work.
+
 ## Failure Modes
 
 The common failure is not only missing files. It is false completion.
@@ -127,6 +155,16 @@ The common failure is not only missing files. It is false completion.
 - `ownership / visibility collapse`: the notebook forgets that primary ownership and downstream visibility are different decisions
 
 The contract is only healthy when those failure modes are actively checked rather than assumed away.
+
+## Closeout Rule
+
+A task that materializes, backfills, or normalizes speaker raw-input may close only after one of the following is true:
+
+- the capture is visible from the correct host and/or speaker route surfaces
+- the operator explicitly asked for storage-only work and the reply says the routing obligation remains open
+- the item is not actually a valid materialized speaker capture after review
+
+Absent one of those conditions, the correct status is `still open`.
 
 ## Publication vocabulary (formal pin)
 

@@ -42,6 +42,8 @@ Short operator test:
 `good doctrine` is not enough  
 `good architecture` can be reopened, audited, and entered correctly by someone else
 
+Sibling lens: [Lifecycle Closure Audit](lifecycle-closure-audit.md) asks where an object properly ends its life inside that architecture and which surface owns the right to call the lifecycle complete.
+
 ## The Recent Pattern
 
 Three recent improvements expose the same underlying move:
@@ -54,6 +56,8 @@ Three recent improvements expose the same underlying move:
    Stable and experimental surfaces were already named, but the architecture became fuller only when it named maturity checks, promotion thresholds, audit questions, and failure modes such as `commentary inflation`, `template theater`, and `cross-lane blur`.
 
 The common motif is that architectural fullness usually arrives one layer after the first good doctrine.
+
+The next adjacent move is lifecycle closure: once a surface is architecturally fuller, the repo can ask whether the objects moving through it actually reach valid terminal states rather than stopping at storage, mention, or rhetoric.
 
 ## What Fullness Adds
 

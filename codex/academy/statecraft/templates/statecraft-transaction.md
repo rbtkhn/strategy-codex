@@ -4,6 +4,21 @@ WORK only; not Record.
 
 Use this template when spending compact speaker-state and national-lane analysis into a reusable statecraft instrument. A transaction is valid only when it preserves provenance, historical continuity, authority, restraint, settlement, institutional carrier, limited aim, and off-ramp.
 
+## Threshold Before Use
+
+Do not use this template just because the event is important, the prose is strong, or the draft sounds plausible.
+
+Open a transaction only when the object already has:
+
+- a distinct crisis object
+- a real settlement spine
+- named authority carriers
+- a plausible instrument form
+- limited aim and off-ramp logic
+- at least one falsifier, review trigger, or revisit condition
+
+If the work is still mainly diagnosis, warning, naming, or comparison, stop at a lane note, braid, memo, objection matrix, or router candidate instead of forcing a transaction.
+
 If the transaction invokes a historical or civilizational pattern, use the canonical hinge:
 
 > Civilizational pattern and narrative become statecraft only when converted into authority, restraint, and settlement.
@@ -122,6 +137,8 @@ State the durable interest in one sentence.
 ## Instrument Text
 
 Draft the treaty clause, policy recommendation, negotiation instruction, sanctions mechanism, alliance note, crisis memo paragraph, or off-ramp language.
+
+Name the actual instrument form here. If you cannot say what the transaction is as an instrument, the object probably has not crossed the threshold yet.
 
 ## Mirror Test
 

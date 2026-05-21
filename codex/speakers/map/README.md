@@ -45,6 +45,32 @@ That means:
 
 An unwired valid raw-input is a routing defect, not a harmless omission.
 
+Enforcement rule:
+
+- do not treat a materialized capture as fully processed if the map cannot name its correct routed surface
+- do not let discovery-memory mentions, lattice mentions, or passing prose references count as routed visibility
+
+## Lifecycle Closure
+
+For speaker appearances, the lifecycle question is: where does this appearance properly end its life once it is valid and materialized?
+
+Valid terminal states:
+
+- `core host lane`
+- `non-core appearance bench`
+- `both`, when host-owned routing and speaker-side visibility are both required
+- `discarded after review`, when the item turns out not to be a valid routed speaker capture
+
+False terminal states:
+
+- `raw-input only`
+- `discovery memory only`
+- `lattice mention only`
+- `passing prose only`
+- `cross-host note only` when no correct routed surface exists underneath it
+
+The closeout owner is the routing stack, not storage. If speaker-map cannot name the correct routed surface, the appearance has not ended its life well enough to call the task complete.
+
 ## Audit Posture
 
 Speaker-map does not own provenance, but it does own the routing-side completion check after materialization.
@@ -77,5 +103,7 @@ Use speaker-map after materialization and routing:
 5. Update speaker-map indexes after the underlying speaker memory path is clear.
 
 Before considering routing complete, check that every valid speaker raw-input touched by the task has landed in the correct speaker path. If it has not, the work is still incomplete.
+
+If the capture is still stranded in storage, discovery memory, or a thin mention-only surface, the correct closeout is `routing still open`, not `done`.
 
 Do not auto-edit speaker-map from daily ingest unless the operator asks for that follow-up.

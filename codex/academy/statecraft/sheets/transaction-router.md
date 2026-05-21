@@ -25,6 +25,28 @@ Its first stress question is observability: what can commercial actors and partn
 - **Near fit:** the event rhymes with an existing object but differs in theater, actor mix, legal classification, or instrument. Use the transaction as analogy and name the mismatch.
 - **No fit:** do not create files automatically. Recommend a new transaction candidate with crisis object, primary lanes, settlement spine, entropy signal, and why the current 12 cannot absorb it.
 
+## Transaction Threshold
+
+Not every good crisis note deserves a transaction, compact, or framework.
+
+Treat a new transaction candidate as justified only when the object has:
+
+- a distinct crisis object rather than a general mood, grievance list, or thematic diagnosis
+- a real settlement spine rather than commentary about leverage, hypocrisy, escalation, or symbolism alone
+- named authority carriers that could actually sign, enforce, sell, or survive the instrument
+- at least one plausible instrument form such as a clause, memo, sequence, bargain, or reviewable restraint mechanism
+- recursive utility beyond the immediate paragraph so later lane work can reopen, compare, mutate, or falsify it
+
+The following are not enough on their own:
+
+- strong commentary
+- a sharp analogy
+- an important current event
+- a persuasive warning
+- a lane comparison that has not yet become an instrument
+
+If those threshold conditions are missing, keep the work as a braid, memo, objection matrix, lane note, or router candidate rather than forcing a new transaction object.
+
 Default current-event output should include:
 
 ```markdown
@@ -86,6 +108,7 @@ After choosing a fit, produce the smallest useful transaction-aware output:
 - **stage recursive update candidate** only when the read reveals a durable pattern, instrument, regulator, precedent, falsifier, or revisit trigger.
 
 When fit is **none**, recommend a candidate only. Do not create a new transaction directory unless the operator separately asks for implementation.
+If the threshold is still not met, stop at recommendation or lane note. Do not promote rhetoric, diagnosis, or urgency into a framework by momentum alone.
 
 ## Hormuz Distinction
 
