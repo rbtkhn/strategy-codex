@@ -24,6 +24,15 @@ Use this repeatable structure:
 4. One sentence telling readers to paste the link into ChatGPT, Claude, or Grok and ask for a guided study path.
 5. A light signature: "part of ph-civ, a public LLM-native Predictive History reader."
 
+## Two-phase rollout
+
+When running the full public rollout, keep the phases separate:
+
+1. **Phase 1:** the chapter-folder doorway comment described above.
+2. **Phase 2:** a second **top-level** comment that points to the chapter's corresponding `ph-mus` exhibit route.
+
+Phase 2 should stay companion-like and quiet. It should name the lecture, give the museum link, and invite study without hype. If a `ph-mus` route is missing or unpublished, park the item instead of inventing a link.
+
 ## Drafting rules
 
 - The first sentence should be about the lecture, not the repo.

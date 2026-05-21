@@ -44,6 +44,8 @@
 
 **Predictive History CIV-MEM context transfer package (optional):** [predictive-history-civmem-context/README.md](predictive-history-civmem-context/README.md) â€” transfer-ready doctrine, templates, voice rules, calibration examples, and a consolidated [implementation handoff](predictive-history-civmem-context/implementation-handoff.md) for later application in the external PH repo.
 
+**Predictive History comment rollout (optional):** [predictive-history-comment-rollout/README.md](predictive-history-comment-rollout/README.md) â€” two-phase public YouTube comment pipeline: chapter-folder doorway first, then `ph-mus` exhibit follow-up when the route exists.
+
 **Carry-stack observability (optional):** [observability.md](observability.md#carry-stack-observability-pr-5) â€” regenerable JSON/Markdown aggregate over runtime receipts/reports (`scripts/work_strategy/summarize_carry_receipts.py`); process metrics only.
 
 **Bottom line:** **`skill-strategy`** is not loose â€œanalysisâ€; it is **governed strategic accumulation** â€” preserving an operatorâ€™s evolving **geopoliticalâ€“historical judgment** in a **bounded WORK layer**, with **explicit seams** (/codex, inbox, `crosses:` / `seam:` / PH overlays), **explicit promotion rules** ([STRATEGY.md](STRATEGY.md), month `meta.md` when arcs stabilize), and **explicit distance** from identity-facing Record. In strategy-codex terms, the active quartet is **knowledge / library / memory / archive**: `days.md` and open-loop continuity are memory, `raw-input/` is archive-adjacent capture, and notebook judgment remains separate from both.
