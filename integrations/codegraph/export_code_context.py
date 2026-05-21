@@ -23,6 +23,14 @@ def _safe_node_id(value: Any, fallback: str) -> str:
     return text.replace(":", "_").replace("/", "_").replace("\\", "_").replace(" ", "_")
 
 
+def _symbol_match_node(match: Any) -> dict[str, Any]:
+    if isinstance(match, dict) and isinstance(match.get("node"), dict):
+        return match["node"]
+    if isinstance(match, dict):
+        return match
+    return {}
+
+
 def build_mermaid_graph(context_payload: dict[str, Any], max_edges: int = 20) -> str:
     nodes = context_payload.get("nodes", [])
     edges = context_payload.get("edges", [])
@@ -148,9 +156,10 @@ def build_markdown_report(
             lines.append(summary)
             if matches:
                 for match in matches[:5]:
-                    label = match.get("displayName") or match.get("name") or match.get("id") or "unknown"
-                    kind = match.get("kind") or "unknown"
-                    path_text = match.get("filePath") or match.get("path") or ""
+                    node = _symbol_match_node(match)
+                    label = node.get("displayName") or node.get("qualifiedName") or node.get("name") or node.get("id") or "unknown"
+                    kind = node.get("kind") or "unknown"
+                    path_text = node.get("filePath") or node.get("path") or ""
                     path_suffix = f" - `{path_text}`" if path_text else ""
                     lines.append(f"- `{kind}` `{label}`{path_suffix}")
             lines.append("")

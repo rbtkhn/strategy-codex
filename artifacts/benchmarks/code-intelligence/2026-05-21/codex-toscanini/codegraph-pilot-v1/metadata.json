@@ -1,0 +1,15 @@
+{
+  "benchmark_id": "codegraph-pilot-v1",
+  "runner": "codex-toscanini",
+  "run_date": "2026-05-21",
+  "repo_ref": "1902443e",
+  "project_scope": "strategy-codex",
+  "tasks": [
+    "Task A - Presentation service architecture",
+    "Task B - Presentation service impact review",
+    "Task C - Architecture bundle prep"
+  ],
+  "codegraph_status": "initialized",
+  "verdict": "Open",
+  "next_action": "Patch the Windows CodeGraph invocation so a fresh local export can be regenerated without npx spawn failures, then rerun the same three-task loop."
+}
