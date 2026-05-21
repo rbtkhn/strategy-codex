@@ -23,6 +23,7 @@ Use it when the operator names a recent event and wants judgment or an instrumen
 - Do not route to `check streams` unless the task is "what went up today across tracked streams?"
 - Do not route to daily brief unless the operator asks for a broad brief.
 - Convert sources into **statecraft objects**, not commentary sprawl.
+- When the event needs historical, civilizational, or empire-pattern grounding, use `codex/academy/statecraft/civ-emp/` as the active source base; keep `ph-civ` as the public Predictive History artifact and `CIV-MEM` as legacy/provenance only.
 
 ## Workflow
 
@@ -33,20 +34,21 @@ Use it when the operator names a recent event and wants judgment or an instrumen
    - **exact fit:** route to the existing transaction bundle and choose the best lane to open first;
    - **near fit:** use the closest transaction as an analogy and name the mismatch;
    - **no fit:** recommend a new transaction candidate with crisis object, lanes, and settlement spine, but do not create files automatically.
-5. **Run the mutation check.** Use `codex/academy/statecraft/sheets/mutation-statecraft.md` to ask whether the event keeps an old name while changing function:
+5. **Check CIV-EMP source fit.** If the event exposes a durable civilizational pattern, imperial instrument, recognition bargain, border/channel logic, or state-memory problem, open `codex/academy/statecraft/civ-emp/indexes/source-retrieval-matrix.md` and any lane object before drafting. If no CIV-EMP object fits, say `none` rather than borrowing from `CIV-MEM`.
+6. **Run the mutation check.** Use `codex/academy/statecraft/sheets/mutation-statecraft.md` to ask whether the event keeps an old name while changing function:
    - **yes:** name the original function, possible new function, trigger evidence, defensive reading, threatening reading, naming fight, and threshold formula;
    - **watch:** name the threshold that would prove mutation later;
    - **no:** state why the object remains within its bounded function.
-6. **Map actor interests.** For each main actor, name durable interest, immediate crisis leverage, constraint, and likely institutional carrier.
-7. **Choose output shape.** If the operator has not chosen one, default to the smallest useful artifact:
+7. **Map actor interests.** For each main actor, name durable interest, immediate crisis leverage, constraint, and likely institutional carrier.
+8. **Choose output shape.** If the operator has not chosen one, default to the smallest useful artifact:
    - **event read** for orientation;
    - **negotiation brief** when bargaining is live;
    - **policy paper** when a decision is needed;
    - **treaty / mechanism sketch** when obligations or verification matter;
    - **Richelieu/Bismarck stress test** when overreach risk is the point.
-8. **Draft the instrument.** Produce the chosen statecraft artifact with red lines, concessions, verification, fallback, and off-ramp as relevant.
-9. **Check for recursive update candidates.** If the event exposes a durable civilization pattern, empire instrument, state regulator, helix crosswalk, transaction precedent, falsifier, mutation threshold, or revisit trigger, suggest a compressed candidate for the relevant `<lane>/updates/pending.md`. Do not require a candidate for every event.
-10. **Offer four calibrated option paths.** End every default current-event read with exactly four labeled paths calibrated to the specific event, actors, crisis object, transaction fit, mutation check, and likely instruments. Do not reuse generic template labels as the option text. When an exact or near transaction fit exists, one option should usually be transaction-aware: draft from a selected lane, compare lanes, run an objection matrix, or stage a recursive update candidate. When mutation is live, one option should usually test the threshold or naming fight. When no fit exists, one option may recommend a transaction candidate, but it must not create transaction files unless the operator separately asks.
+9. **Draft the instrument.** Produce the chosen statecraft artifact with red lines, concessions, verification, fallback, and off-ramp as relevant.
+10. **Check for recursive update candidates.** If the event exposes a durable civilization pattern, empire instrument, state regulator, helix crosswalk, transaction precedent, falsifier, mutation threshold, or revisit trigger, suggest a compressed candidate for the relevant `<lane>/updates/pending.md`. Do not require a candidate for every event.
+11. **Offer four calibrated option paths.** End every default current-event read with exactly four labeled paths calibrated to the specific event, actors, crisis object, transaction fit, CIV-EMP source fit, mutation check, and likely instruments. Do not reuse generic template labels as the option text. When an exact or near transaction fit exists, one option should usually be transaction-aware: draft from a selected lane, compare lanes, run an objection matrix, or stage a recursive update candidate. When CIV-EMP fit is live, one option should usually deepen or falsify the source object. When mutation is live, one option should usually test the threshold or naming fight. When no fit exists, one option may recommend a transaction candidate, but it must not create transaction files unless the operator separately asks.
 
 ## Transaction-Aware Read
 
@@ -79,6 +81,12 @@ If the operator gives only an event and no artifact type, output:
 - Why this fit:
 - Mismatch / caution:
 - Best lane to open first:
+
+**CIV-EMP Source Fit**
+- Fit: exact / near / none
+- Source object:
+- Why this fit:
+- Mismatch / caution:
 
 **Mutation Check**
 - Present: yes / no / watch
@@ -135,7 +143,7 @@ When the operator replies with a letter after a current-event read, execute the 
 - `C` = the event-specific negotiation path
 - `D` = the event-specific Richelieu/Bismarck stress-test path
 
-Use `codex/academy/statecraft/METHOD.md`, `codex/academy/statecraft/sheets/transaction-router.md`, and the relevant template, transaction bundle, or lens. For power comparisons, apply the `strategic-power-analysis` distinction: structural power versus immediate crisis leverage.
+Use `codex/academy/statecraft/METHOD.md`, `codex/academy/statecraft/sheets/transaction-router.md`, `codex/academy/statecraft/civ-emp/indexes/source-retrieval-matrix.md`, and the relevant template, transaction bundle, CIV-EMP lane object, or lens. For power comparisons, apply the `strategic-power-analysis` distinction: structural power versus immediate crisis leverage.
 
 ## Nested Menu Rule
 
