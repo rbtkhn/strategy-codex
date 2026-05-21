@@ -8,7 +8,7 @@ Strategy-codex is scaffolded around **polyphonic cognition streams**: durable in
 
 The current lattice has eight streams: `Alkorshid`, `Diesen`, `Davis`, `Mercouris`, `Crooke`, `Parsi`, `Pape`, and `Ritter`. The count is not permanent; filenames, schemas, and public doctrine should stay count-neutral.
 
-Quick lookup: if you just need the eight-stream roster, start with [COGNITION-STREAMS-POINTER.md](COGNITION-STREAMS-POINTER.md). If you need recurring speakers by name, use [COGNITION-LATTICE-SPEAKERS.md](COGNITION-LATTICE-SPEAKERS.md).
+Quick lookup: if you just need the eight-stream roster, start with [COGNITION-STREAMS-POINTER.md](COGNITION-STREAMS-POINTER.md). If you need recurring speakers by name, use [speaker-lattice.md](speaker-lattice.md).
 
 ## Access and visibility doctrine
 

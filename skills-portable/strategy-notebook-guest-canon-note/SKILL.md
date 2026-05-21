@@ -76,7 +76,7 @@ Use this skill when a recurring guest run inside a host stream has become import
    - If the guest also appears elsewhere, that does not change the default placement of this note.
 
 6. **Wire the notebook surfaces**
-   - Add a citation from the guest row in `COGNITION-LATTICE-SPEAKERS.md` when the guest belongs in the lattice.
+   - Add a citation from the guest row in `speaker-lattice.md` when the guest belongs in the lattice.
    - Add or refine the `thread:<expert_id>` row in `strategy-commentator-threads.md`.
    - Point those surfaces at the speaker arc instead of duplicating the long explanation everywhere.
 

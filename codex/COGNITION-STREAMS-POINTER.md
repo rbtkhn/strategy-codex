@@ -13,6 +13,6 @@ If you only need the current eight cognition streams, use this page first:
 - `Pape` - `thread:pape` - `Escalation`
 - `Ritter` - `thread:ritter` - `Mechanics`
 
-If you need the recurring speakers index, use [COGNITION-LATTICE-SPEAKERS.md](COGNITION-LATTICE-SPEAKERS.md).
+If you need the recurring speakers index, use [speaker-lattice.md](speaker-lattice.md).
 
 For the longer explanation, see [COGNITION-STREAMS.md](COGNITION-STREAMS.md) and [strategy-commentator-threads.md](strategy-commentator-threads.md).

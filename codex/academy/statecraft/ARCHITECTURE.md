@@ -61,6 +61,54 @@ These are useful but should not yet be treated as final architecture:
 - Speaker-state intake mappings. The current table is a routing default, not a closed taxonomy.
 - Scoreboard weighting. Pape and Mearsheimer scoreboards should remain revisable as evidence accumulates.
 
+## Maturity Checks
+
+Use these checks before calling a lane, sheet, or transaction architecturally mature:
+
+1. **Entry clarity** - can a new operator tell where to start, what kind of question the surface is for, and what the next surface should be?
+2. **Carrier clarity** - does the artifact name the authority carrier, implementation layer, or institutional burden that would make the draft real?
+3. **Settlement clarity** - does it identify the actual settlement spine rather than only naming themes, leverage, or grievances?
+4. **Revisit discipline** - does it include falsifiers, review triggers, or score-moving conditions that would justify reopening it?
+5. **Comparative usefulness** - can the same object be compared across lanes, or is it trapped as one-off commentary?
+6. **Recursive usefulness** - does the work teach the lane something durable, or does it disappear after the immediate draft?
+
+If a surface cannot pass most of those checks, it may still be useful, but it is not yet mature architecture.
+
+## Promotion Thresholds
+
+Use the following thresholds when deciding whether something should stay experimental or count as part of the stable architecture:
+
+- a **transaction** should usually be treated as an exemplar only after it has a real settlement spine, named carriers, observability or verification logic, and at least one plausible revisit condition
+- a **lane stub** should usually become stable only after repeated transaction use proves which distinctions in `civilization/`, `empire/`, `state/`, `helix.md`, and `transactions/` actually matter
+- a **sheet** should usually become stable only after it improves more than one real drafting task and produces reusable output rather than clever framing alone
+- a **recursive queue or scoreboard habit** should usually become stable only after at least one real cycle shows that it changes later judgment rather than merely archiving movement
+
+The point is not to slow growth for its own sake. The point is to prevent orientation scaffolds, good notes, or volatile exemplars from being mistaken for settled architecture too early.
+
+## Failure Modes
+
+The main architectural risk here is false program shape: the shelf looks rich, but the workshop is not actually becoming more draftable.
+
+- `commentary inflation`: strong paragraphs accumulate, but they do not convert into authority, restraint, settlement, or transaction use
+- `template theater`: many templates exist, but few are pressure-tested by real lane work
+- `lane encyclopedism`: a national lane grows in volume without becoming better at producing instruments
+- `transaction overproduction`: every plausible crisis note becomes a framework, compact, or transaction whether or not the object deserves one
+- `speaker capture drift`: speaker-state begins to function as a substitute for statecraft judgment rather than as input to it
+- `recursive fiction`: recursive update language exists, but no actual revisit or lane-learning loop changes later work
+- `cross-lane blur`: America, Russia, China, and Iran lose orthogonality and collapse into one generic strategic voice
+
+Architecture is healthier when those failure modes are named early and treated as things to detect, not as accidents to notice later.
+
+## Audit Questions
+
+When reviewing this workshop, ask:
+
+1. Which surfaces are actually producing draftable instruments now?
+2. Which surfaces are only helping orientation and should remain explicitly experimental?
+3. Which lane distinctions have been validated by repeated use, and which are still hypothetical?
+4. Where does a real transaction teach the lane something back, rather than ending as a dead-end artifact?
+5. Is the workshop getting better at authority, restraint, and settlement, or only denser in commentary and scaffolding?
+
 ## Do Not Sprawl Next
 
 - Do not turn national lanes into country encyclopedias.

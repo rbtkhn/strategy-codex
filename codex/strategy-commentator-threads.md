@@ -5,7 +5,7 @@
 
 **Quick roster:** if you only need the eight-stream list and handles, start with [COGNITION-STREAMS-POINTER.md](COGNITION-STREAMS-POINTER.md).
 
-**Recurring speakers:** if you need the alphabetical lookup for recurring named people, start with [COGNITION-LATTICE-SPEAKERS.md](COGNITION-LATTICE-SPEAKERS.md).
+**Recurring speakers:** if you need the alphabetical lookup for recurring named people, start with [speaker-lattice.md](speaker-lattice.md).
 
 **Choreography (vs tri-mind):** Threads track **each commentator over time** (accuracy, narrative, compare–contrast). **Tri-mind** is a separate **analysis** pattern — usually **outboard** from `days.md`; see [STRATEGY-NOTEBOOK-ARCHITECTURE.md](STRATEGY-NOTEBOOK-ARCHITECTURE.md) § **Expert choreography**.
 
