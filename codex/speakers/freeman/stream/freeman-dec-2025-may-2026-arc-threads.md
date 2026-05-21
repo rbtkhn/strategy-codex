@@ -2,7 +2,9 @@
 
 WORK only; not Record.
 
-Purpose: preserve the six arc-threads in Chas Freeman's December 2025-May 2026 run so the arc is routeable as a synthesis, not only as scattered host appearances.
+Purpose: preserve the six arc-threads in Chas Freeman's December 2025-May 2026 run so the wider Freeman arc is routeable as a synthesis, not only as scattered host appearances.
+
+Model note: this file is a **thread atlas**, not a host-local arc by itself. It names the recurring thematic strands that monthly and host-local arcs braid differently. In the speaker template model, an **arc is a bounded helix of arc-threads**; this atlas supplies the arc-threads that Freeman arcs can braid.
 
 Boundary: December 2025 Freeman anchors are split across quality tiers. Diesen 2025-12-04, Dialogue Works 2025-12-05, Judging Freedom 2025-12-09, Dialogue Works 2025-12-12, Neutrality Studies 2025-12-15, Judging Freedom 2025-12-16, Diesen 2025-12-18, and Dialogue Works 2025-12-19 are captured raw-input. Additional December Freeman items were found by stream check but remain unmaterialized unless listed as captured below.
 
@@ -155,4 +157,4 @@ Boundary: Treat "beneficiary" as strategic-position analysis, not a claim that C
 
 ## Use
 
-Open this file when the question is about Freeman's December 2025-May 2026 arc-threads. Open the monthly arcs when the question is about March or April sequencing, and open raw-input before quoting.
+Open this file when the question is about Freeman's December 2025-May 2026 arc-threads or durable theses across appearances. Open the monthly or host-local arcs when the question is about bounded sequencing, host transformation, or how several arc-threads braid in one surface. Open raw-input before quoting.

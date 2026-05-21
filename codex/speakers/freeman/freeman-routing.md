@@ -14,6 +14,12 @@ Freeman does **not** need a native monthly shelf of his own. The efficient struc
 
 So this note is the **speaker-side index** into the real Freeman host lanes.
 
+Use the arc-as-helix model:
+
+- `arc-thread atlas`: recurring Freeman theses across months and hosts.
+- `host-local arc`: a bounded helix of arc-threads inside one host x Freeman surface.
+- `speaker helix`: cross-host comparison of multiple host-local arcs without flattening them.
+
 When the needed Freeman appearance is not cleanly host-local, route by ladder:
 
 - [2026 Freeman index](/C:/dev/strategy-codex/codex/speakers/freeman/index.md)
@@ -37,6 +43,7 @@ Interpret them this way:
 | phony ceasefires, live crisis pressure, Gulf-state positioning, or alliance strain under event stress | [alkorshid-freeman-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-freeman-speaker-arc.md) | Dialogue Works pushes Freeman into live-pressure diplomatic-memory form. |
 | anti-hegemonic legal-moral critique, war-powers skepticism, or legitimacy stress under current-event pressure | [napolitano-freeman-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-freeman-speaker-arc.md) | Napolitano gives Freeman a legal-moral, anti-war, and legitimacy-focused framing lane that stands alongside the other host transformations. |
 | cross-host orientation to Freeman as an object | [freeman-helix.md](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-helix.md) | The helix note explains how the four host strands fit together before you descend into a lane. |
+| durable Freeman thesis across months or hosts | [freeman-dec-2025-may-2026-arc-threads.md](/C:/dev/strategy-codex/codex/speakers/freeman/stream/freeman-dec-2025-may-2026-arc-threads.md) | This is the thread atlas: it names the recurring arc-threads that host-local arcs braid differently. |
 | accepted transcript-bearing appearances outside the four core host lanes | [freeman-raw-input-index.md](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-raw-input-index.md) | This is the `non-core appearance bench`: materialized raw-input without forcing every acceptable source into its own host arc. |
 | found or operator-pasted appearances that are still useful for routing but are not yet materialized raw-input | [freeman-march-2026-cross-host-arc.md](/C:/dev/strategy-codex/codex/speakers/freeman/stream/freeman-march-2026-cross-host-arc.md) / [freeman-april-2026-cross-host-arc.md](/C:/dev/strategy-codex/codex/speakers/freeman/stream/freeman-april-2026-cross-host-arc.md) | Those cross-host arc files are `discovery memory`, not active transcript authority. |
 
@@ -59,6 +66,7 @@ Interpret them this way:
 
 - Do not build a duplicate Freeman chronology here; the host shelves already do that.
 - Read Napolitano as a full Freeman host lane rather than as a mere add-on to the older three-host pattern.
+- Do not use the thread atlas as a replacement for host-local arcs; use it to identify recurring strands, then open the relevant arc or helix for bounded motion.
 - Do not solve non-core appearances by repeatedly naming channels in doctrine prose; route them through the `non-core appearance bench` unless they earn a true host-local arc.
 - Treat materialized non-core appearances as part of the live Freeman routing surface through the year-level bench, and treat unmaterialized items as `discovery memory` only.
 - Use this note for **routing speed**; use the host-local arc when the task is already stream-specific.

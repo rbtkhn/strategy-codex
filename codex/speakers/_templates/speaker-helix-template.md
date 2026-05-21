@@ -4,6 +4,8 @@ WORK only; not Record.
 
 Purpose: compare a recurring speaker across multiple host transformations. Use this when the speaker's value is clearer across host-local arcs than inside one stream alone. This is a comparative routing note, not a generic profile and not a replacement for the underlying arcs.
 
+Model: a **speaker helix** compares multiple host-local arcs without flattening them. Each host-local **arc is a bounded helix of arc-threads**; the speaker helix asks how those bounded helices reinforce, tension, or transform the same speaker.
+
 ## Core claim
 
 State the one-sentence reason the helix exists.
@@ -17,6 +19,16 @@ State the one-sentence reason the helix exists.
 | [{host-1} x {speaker}]({host-1-arc-path}) |  |  |
 | [{host-2} x {speaker}]({host-2-arc-path}) |  |  |
 | [{host-3} x {speaker}]({host-3-arc-path}) |  |  |
+
+## Arc-thread comparison
+
+Name only the recurring strands that travel across more than one host-local arc.
+
+- `{shared-arc-thread-1}`:
+- `{shared-arc-thread-2}`:
+- `{shared-arc-thread-3}`:
+
+State which host transforms each thread most sharply, and where a host-local arc should remain source-specific rather than absorbed into the speaker helix.
 
 ## Open first
 
@@ -43,6 +55,7 @@ Use this helix note when the notebook is doing one or more of the following:
 
 - comparing the same speaker across multiple stable host transformations
 - deciding which host-local arc should receive a new read
+- comparing how recurring arc-threads braid differently across host-local arcs
 - explaining cross-host reinforcement without flattening host differences
 - choosing a clean public-facing reading path
 
@@ -51,4 +64,5 @@ Use this helix note when the notebook is doing one or more of the following:
 - This helix is not a generic speaker profile.
 - Prefer the host-local arc or raw-input shelf when the task is stream-specific.
 - Do not flatten distinct host registers into one undifferentiated speaker theory.
+- Do not treat the speaker helix as a replacement for the arc-thread braid inside each host-local arc.
 - Do not claim a helix exists until multiple host-local strands are strong enough to compare.

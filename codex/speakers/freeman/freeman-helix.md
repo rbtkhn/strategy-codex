@@ -14,6 +14,12 @@ These arcs should be read together because they are not merely repeated appearan
 
 The multi-host structure is not only visible in 2025, but thicker there than the first minimal backfill suggested. The late-2025 shelf now shows stronger continuation across the established strands before the 2026 crisis-intensified phase, while 2026 makes the Napolitano lane fully legible as an equal part of the Freeman object.
 
+## Arc-as-helix model
+
+The Freeman speaker helix is the cross-host comparison of four host-local arcs. Each host-local arc is a bounded helix of arc-threads: recurring thematic strands braided by one host surface under one guest voice.
+
+Use [December 2025-May 2026 arc-threads](stream/freeman-dec-2025-may-2026-arc-threads.md) as the Freeman thread atlas. It names the durable strands; the host-local arcs show how those strands braid differently under Diesen, Davis, Dialogue Works, and Napolitano.
+
 ## The four strands
 
 | Host lane | Distinct register | What it reveals most clearly |
@@ -44,6 +50,7 @@ Use this helix note when the notebook is doing one or more of the following:
 
 - comparing the same guest across multiple stable host transformations
 - asking whether a Freeman claim is most clearly read as altitude, settlement realism, live pressure, or legal-moral legitimacy stress
+- deciding whether the task needs a thread atlas, a host-local arc, or the full speaker helix
 - routing Iran-war or diplomacy-collapse material toward the right Freeman lane
 - pulling the `non-core appearance bench` or `discovery memory` into the same comparative read as the four core host lanes
 - testing whether a single host arc is underselling Freeman's full range
@@ -52,6 +59,7 @@ Use this helix note when the notebook is doing one or more of the following:
 
 - This helix is not a generic Freeman profile; it is a host-transformation note.
 - Prefer the host-local arc when the task is stream-specific; use the helix when the task is comparative.
+- Prefer the thread atlas when the task is a recurring Freeman thesis across months or hosts.
 - The four strands are complementary, not redundant. Do not flatten them into one undifferentiated Freeman shelf.
 
 ## Phase note
