@@ -8,6 +8,9 @@ import pytest
 from integrations.presentations.civ_emp_adapter import CIV_EMP_ROOT, build_civ_emp_bundle, build_civ_emp_packet_bundle
 from integrations.presentations.ph_civ_adapter import build_ph_civ_bundle, build_ph_mus_packet_bundle
 
+REPO_ROOT = Path(__file__).resolve().parent.parent
+EXAMPLES_ROOT = REPO_ROOT / "artifacts" / "presentations" / "examples"
+
 
 def test_civ_emp_adapter_marks_work_safe_bundle() -> None:
     bundle = build_civ_emp_bundle(
@@ -31,6 +34,16 @@ def test_civ_emp_adapter_rejects_outside_paths(tmp_path: Path) -> None:
             title="Bad",
             audience="Operators",
             source_paths=[outside],
+        )
+
+
+def test_civ_emp_adapter_rejects_ce_mus_without_packet_input() -> None:
+    with pytest.raises(ValueError, match="require packet_json input"):
+        build_civ_emp_bundle(
+            intent="summary",
+            title="CE-MUS summary",
+            audience="Operators",
+            subsurface="ce-mus",
         )
 
 
@@ -154,3 +167,52 @@ def test_ph_mus_packet_bundle_accepts_public_packet(tmp_path: Path) -> None:
     assert bundle["family"] == "ph-civ"
     assert bundle["subsurface"] == "ph-mus"
     assert bundle["policy"]["source_mode"] == "ph-mus-cli-packet"
+
+
+def test_example_ph_mus_packet_builds_public_museum_bundle() -> None:
+    bundle = build_ph_mus_packet_bundle(
+        intent="lesson",
+        title="GT-16 Museum Lesson",
+        audience="Readers",
+        packet_path=EXAMPLES_ROOT / "ph-mus-gt16.packet.json",
+    )
+    assert bundle["family"] == "ph-civ"
+    assert bundle["subsurface"] == "ph-mus"
+    assert bundle["policy"]["classification"] == "public"
+    assert bundle["source_items"][0]["kind"] == "museum_route"
+    assert any(item["kind"] == "museum_artifact" for item in bundle["source_items"])
+
+
+def test_example_ce_mus_packet_builds_work_safe_museum_bundle() -> None:
+    bundle = build_civ_emp_packet_bundle(
+        intent="summary",
+        title="Hormuz Exhibit Summary",
+        audience="Operators",
+        subsurface="ce-mus",
+        packet_path=EXAMPLES_ROOT / "ce-mus-hormuz.packet.json",
+    )
+    assert bundle["family"] == "civ-emp"
+    assert bundle["subsurface"] == "ce-mus"
+    assert bundle["policy"]["classification"] == "work_public_safe"
+    assert bundle["policy"]["source_mode"] == "strategy-codex-ce-mus-packet"
+    assert len(bundle["source_items"]) >= 4
+
+
+def test_example_museum_packets_expose_parallel_taxonomy() -> None:
+    ph_bundle = build_ph_mus_packet_bundle(
+        intent="lesson",
+        title="GT-16 Museum Lesson",
+        audience="Readers",
+        packet_path=EXAMPLES_ROOT / "ph-mus-gt16.packet.json",
+    )
+    ce_bundle = build_civ_emp_packet_bundle(
+        intent="summary",
+        title="Hormuz Exhibit Summary",
+        audience="Operators",
+        subsurface="ce-mus",
+        packet_path=EXAMPLES_ROOT / "ce-mus-hormuz.packet.json",
+    )
+    assert ph_bundle["family"] == "ph-civ"
+    assert ph_bundle["subsurface"] == "ph-mus"
+    assert ce_bundle["family"] == "civ-emp"
+    assert ce_bundle["subsurface"] == "ce-mus"

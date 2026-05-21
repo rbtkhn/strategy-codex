@@ -164,6 +164,10 @@ def validate_bundle(bundle: dict[str, Any]) -> dict[str, Any]:
         )
 
     if family == "ph-civ":
+        if classification != "public":
+            raise BundleValidationError(
+                "ph-civ family bundles must use policy.classification='public'"
+            )
         for row in normalized_items:
             if not row["public"]:
                 raise BundleValidationError(

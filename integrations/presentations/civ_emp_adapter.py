@@ -104,6 +104,8 @@ def build_civ_emp_bundle(
     subsurface: str = "ce-emp",
     source_paths: list[Path] | None = None,
 ) -> dict[str, Any]:
+    if subsurface == "ce-mus":
+        raise ValueError("ce-mus bundles require packet_json input")
     selected = [
         _ensure_under_civ_emp(path)
         for path in (source_paths or DEFAULT_SOURCES_BY_SUBSURFACE[subsurface])

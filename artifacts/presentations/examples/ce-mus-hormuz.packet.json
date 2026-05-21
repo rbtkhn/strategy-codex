@@ -1,0 +1,36 @@
+{
+  "packet_type": "ce_mus_packet",
+  "source_id": "ce-mus-hormuz",
+  "title": "Hormuz Strategic Exhibit",
+  "subsurface": "ce-mus",
+  "source_items": [
+    {
+      "id": "ce-mus-hormuz:1",
+      "title": "Entrance Object: Strait as chokepoint",
+      "text": "Object frame: begin with the Strait of Hormuz as a strategic object rather than a headline event. The point is to let the operator see geography, recognition, transit, and restraint as one object cluster before moving to policy options.",
+      "citation": "packet:ce-mus-hormuz:1",
+      "kind": "museum_object"
+    },
+    {
+      "id": "ce-mus-hormuz:2",
+      "title": "Object Sequence: Recognition, transit, restraint",
+      "text": "Interpretive sequence: recognition decides who is seen as escalatory, transit decides who feels immediate cost, and restraint decides whether pressure remains coercive or becomes a legitimacy loss. This object sequence is meant to be walked, not skimmed.",
+      "citation": "packet:ce-mus-hormuz:2",
+      "kind": "museum_sequence"
+    },
+    {
+      "id": "ce-mus-hormuz:3",
+      "title": "Operational Relevance: Counterweights and decision points",
+      "text": "Operator use: the exhibit lane should end by naming counterweights, shipping exposure, recognition traps, and off-ramps. The deck should help an operator brief the object without collapsing it into one forecast.",
+      "citation": "packet:ce-mus-hormuz:3",
+      "kind": "museum_application"
+    },
+    {
+      "id": "ce-mus-hormuz:4",
+      "title": "Caution Object: What this deck is not",
+      "text": "Caution: this is an exhibit-style strategy deck, not canonical Record, not a legal memo, and not a direct prediction engine. Its job is to clarify the object sequence and improve briefing depth.",
+      "citation": "packet:ce-mus-hormuz:4",
+      "kind": "museum_caution"
+    }
+  ]
+}

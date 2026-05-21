@@ -14,17 +14,35 @@ from integrations.presentations.common import write_bundle
 
 
 def main() -> int:
-    ap = argparse.ArgumentParser(description="Build a CIV-EMP presentation bundle.")
-    ap.add_argument("--intent", required=True)
-    ap.add_argument("--title", required=True)
-    ap.add_argument("--audience", required=True)
-    ap.add_argument("--subsurface", default="ce-emp", choices=["ce-civ", "ce-emp", "ce-mus"])
-    ap.add_argument("--source-path", action="append", default=[])
-    ap.add_argument("--packet-json", type=Path)
-    ap.add_argument("--output", type=Path, required=True)
+    ap = argparse.ArgumentParser(
+        description="Build a civ-emp family deck bundle for ce-civ, ce-emp, or ce-mus."
+    )
+    ap.add_argument("--intent", required=True, help="Deck job such as briefing, summary, roadmap, or comparison.")
+    ap.add_argument("--title", required=True, help="Deck title shown to the operator or audience.")
+    ap.add_argument("--audience", required=True, help="Audience label used to frame the deck.")
+    ap.add_argument(
+        "--subsurface",
+        default="ce-emp",
+        choices=["ce-civ", "ce-emp", "ce-mus"],
+        help="CIV-EMP lane to render: civilization, empire/statecraft, or museum/exhibit.",
+    )
+    ap.add_argument(
+        "--source-path",
+        action="append",
+        default=[],
+        help="WORK-safe source markdown path. Use for ce-civ or ce-emp when building from repo sources.",
+    )
+    ap.add_argument(
+        "--packet-json",
+        type=Path,
+        help="Prepared packet JSON. Use for ce-mus and optional packet-driven ce-civ/ce-emp flows.",
+    )
+    ap.add_argument("--output", type=Path, required=True, help="Bundle JSON path to write.")
     args = ap.parse_args()
 
     out = args.output if args.output.is_absolute() else (REPO_ROOT / args.output)
+    if args.subsurface == "ce-mus" and not args.packet_json:
+        raise SystemExit("--packet-json is required for ce-mus bundles")
     if args.packet_json:
         packet_path = args.packet_json if args.packet_json.is_absolute() else (REPO_ROOT / args.packet_json)
         bundle = build_civ_emp_packet_bundle(

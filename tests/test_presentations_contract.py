@@ -88,3 +88,14 @@ def test_validate_bundle_rejects_ph_family_non_public_items() -> None:
     bundle["source_items"][0]["public"] = False
     with pytest.raises(BundleValidationError, match="public=true"):
         validate_bundle(bundle)
+
+
+def test_validate_bundle_rejects_ph_family_non_public_classification() -> None:
+    bundle = _base_bundle()
+    bundle["family"] = "ph-civ"
+    bundle["subsurface"] = "ph-civ"
+    bundle["intent"] = "summary"
+    bundle["policy"]["classification"] = "work_public_safe"
+    bundle["source_items"][0]["public"] = True
+    with pytest.raises(BundleValidationError, match="classification='public'"):
+        validate_bundle(bundle)
