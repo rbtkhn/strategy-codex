@@ -25,7 +25,40 @@ Civilization and Empire cycle: **Beautify -> Amplify -> Degrade -> Restore.** Ci
 
 Arc-lens doctrine: **each major civilization object is an arc-lens, not a topic page.** A state-memory, god, lit, art, geo, war, or peace object reads the present as a lens and carries memory through time as an arc. The point is to convert civilizational memory into perception, perception into statecraft judgment, and judgment into transaction use or recursive update.
 
-## Entry Points
+## Front Door
+
+Use this README as the canonical front door for the new layer.
+
+If you want the quickest usable path into the current architecture, start with the worked Hormuz sequence:
+
+1. [State braid model](sheets/state-braid-model.md) - identify the linked arcs that must stay together.
+2. [Transaction router](sheets/transaction-router.md) - decide whether the settlement spine is cross-lane or lane-local.
+3. [Hormuz recognition transit transaction](iran/transactions/hormuz-recognition-transit-transaction.md) - see the braid spent as a concrete Iran-lane instrument.
+
+What this front door is teaching:
+
+- do not begin with commentary; begin by deciding what linked crisis object must be drafted together
+- do not jump from a live event straight to clauses; first decide what settlement spine is actually being routed
+- do not mistake leverage for statecraft; the layer is only doing its job when leverage is converted into authority, restraint, and settlement
+
+The three opening questions are:
+
+1. What must stay braided together for the object to remain real?
+2. Which lane or bundle is actually carrying the settlement logic?
+3. What named instrument turns that logic into observable authority and restraint?
+
+Why Hormuz is the default worked path:
+
+- it forces passage, coercion, bargaining, legitimacy, and institutional carrier problems to stay in one frame
+- it shows the difference between a cross-lane regional compact and a lane-local recognition instrument
+- it demonstrates the workshop's main conversion rule: a strategic reading becomes statecraft only when it can survive as a clause, sequence, review mechanism, or off-ramp
+
+Use this front door when the task is not "summarize what happened" but "convert a live strategic object into a draftable instrument."
+
+Use the neighboring READMEs as local continuations, not competing entry points:
+
+- [Sheets](sheets/) - continue here when you need the reusable prompt benches after the front-door route is clear.
+- [Iran transactions](iran/transactions/) - continue here when the route has already resolved into an Iran-lane instrument.
 
 - [Method](METHOD.md) - compact statecraft drafting loop.
 - [Architecture](ARCHITECTURE.md) - current stable line, experimental surfaces, and anti-sprawl rules.
@@ -42,10 +75,10 @@ Arc-lens doctrine: **each major civilization object is an arc-lens, not a topic 
 - [Civilization / Empire helix template](templates/civilization-empire-helix.md) - scaffold for inherited code, outward striving, and statecraft regulation.
 - [Statecraft transaction template](templates/statecraft-transaction.md) - package speaker-state inputs into validated treaty, memo, brief, or off-ramp instruments.
 - [Cross-lane transaction bundles](transactions/) - compare one crisis object across several national lanes.
-- [Transaction router](sheets/transaction-router.md) - match a current-event crisis object to the 12 transaction objects before drafting or proposing a new object.
-- [State braid model](sheets/state-braid-model.md) - keep several linked arcs together long enough to draft one authority-bearing, restraint-bearing, settlement-bearing object; use `helix` instead for long-run recurrent patterns that return in transformed form over time.
+- [Transaction router](sheets/transaction-router.md) - match a current-event crisis object to the 12 transaction objects before drafting or proposing a new object; first worked route distinguishes the wider Hormuz compact from the Iran-local recognition transaction.
+- [State braid model](sheets/state-braid-model.md) - keep several linked arcs together long enough to draft one authority-bearing, restraint-bearing, settlement-bearing object; first worked path shows how Hormuz moves from braid to router to transaction. Use `helix` instead for long-run recurrent patterns that return in transformed form over time.
 - [Abraham helix](sheets/abraham-helix.md) - read long-run recurrence across Judaism, Christianity, and Islam when sacred inheritance, fulfillment, protection, and political order keep returning in new forms.
-- [Sheets](sheets/) - reusable prompt benches for fast statecraft sessions.
+- [Sheets](sheets/) - reusable prompt benches for fast statecraft sessions once the workshop front door has oriented the route.
 - [Book and machine](sheets/book-and-machine.md) - define each state lane as both a civilizational volume and a governed recursive update loop.
 - [Civilization and Empire cycle](sheets/civilization-empire-cycle.md) - diagnose beautification, amplification, civilizational entropy, and restoration.
 - [Civilizational pattern to statecraft](sheets/civilizational-pattern-to-statecraft.md) - convert PH-CIV pattern and narrative into authority, restraint, and settlement.
@@ -72,7 +105,7 @@ These folders are drafting benches, not country encyclopedias. Each lane synthes
 
 Each lane has a local Civilization / Empire / Helix structure, a current state carrier bench, a crisis-test casebook, and a `transactions/` bench for spending speaker-state into validated instruments. The folder choreography is: `civilization/` remembers, `empire/` reaches, `state/` decides, `helix.md` regulates, and `transactions/` bind. Sharper lane law: **Civilization stores state memory. Empire converts memory into reach. State carries present authority. Objects transmit signals. Transactions test whether authority can become settlement.** The four lanes now also have authority carrier object benches for ministerial, institutional, and successor-legitimacy signal objects such as [J.D. Vance](america/state/objects/vance.md), [Sergey Lavrov](russia/state/objects/lavrov.md), [Wang Yi](china/state/objects/wang-yi.md), and [Abbas Araghchi](iran/state/objects/araghchi.md).
 
-First exemplar: [Hormuz recognition transit transaction](iran/transactions/hormuz-recognition-transit-transaction.md).
+First exemplar and default worked path: [Hormuz recognition transit transaction](iran/transactions/hormuz-recognition-transit-transaction.md), reached through [State braid model](sheets/state-braid-model.md) -> [Transaction router](sheets/transaction-router.md) -> transaction clause.
 
 Cross-lane bundles:
 

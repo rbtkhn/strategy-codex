@@ -4,6 +4,24 @@ WORK only; not Record.
 
 These sheets are reusable prompt benches for academy-statecraft. They are not summaries of Richelieu, Bismarck, or any historical case. They are fast checks for making treaty drafts, policy papers, negotiation briefs, and statecraft memos more durable.
 
+This folder is not the primary front door. The canonical workshop entry lives in [../README.md](../README.md).
+
+Open this README after the workshop front door has already oriented the route, or when you specifically need the reusable prompt benches.
+
+Local continuation route:
+
+1. [State braid model](state-braid-model.md)
+2. [Transaction router](transaction-router.md)
+3. [Hormuz recognition transit transaction](../iran/transactions/hormuz-recognition-transit-transaction.md)
+
+That worked Hormuz path remains the clearest example of how a linked crisis object becomes a routed transaction rather than a pile of disconnected notes, but it should be entered through the workshop README when you are learning the layer.
+
+What the sheets bench adds after the front door:
+
+- the braid keeps the live object from fragmenting into separate topic notes
+- the router chooses the settlement spine before drafting expands
+- the later sheets stress authority, equilibrium, mutation, orthogonality, and failure modes once the route is clear
+
 ## Order
 
 1. **Richelieu test** - What durable state interest and institution carry the draft?
@@ -81,7 +99,7 @@ Open [Folder choreography](folder-choreography.md) when a statecraft artifact ne
 
 ### State Braid Model
 
-Open [state braid model](state-braid-model.md) when several arcs must be kept together as one draftable crisis object rather than split into separate topic notes or clauses.
+Open [state braid model](state-braid-model.md) when several arcs must be kept together as one draftable crisis object rather than split into separate topic notes or clauses. The default worked example is Hormuz: braid the arcs first, then route the settlement spine.
 
 ### Abraham Helix
 
@@ -147,7 +165,7 @@ Open [Crisis test casebook](crisis-test-casebook.md) when a new crisis test shou
 
 ### Transaction Router
 
-Open [transaction router](transaction-router.md) after a current-event read has classified the crisis object. It decides whether the event is an exact fit, near fit, or no fit for the 12 transaction objects, then points to the relevant bundle, first lane perspective, or candidate shape.
+Open [transaction router](transaction-router.md) after a current-event read has classified the crisis object. It decides whether the event is an exact fit, near fit, or no fit for the 12 transaction objects, then points to the relevant bundle, first lane perspective, or candidate shape. If you are learning the layer, use the Hormuz worked route: braid first, then choose between the cross-lane compact and the Iran-local recognition transaction.
 
 ### Great-Power Energy Absorber Threshold
 

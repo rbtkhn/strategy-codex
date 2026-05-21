@@ -43,6 +43,44 @@ Hormuz recognition-for-transit restraint clause.
 - Transaction use: This braid is being spent as a recognition-for-transit restraint clause.
 - Tensions / falsifiers: The braid weakens if material transit conditions do not match the announced line, if outside partners react as though Iran is seeking durable veto rather than governed leverage, or if bargaining posture no longer converts restraint into an actual sanctions-relief and security-recognition sequence.
 
+## Worked Example Placement
+
+This file is the concrete endpoint of the workshop's new three-step example:
+
+1. [State braid model](../../sheets/state-braid-model.md) keeps the Hormuz arcs together as one draftable object.
+2. [Transaction router](../../sheets/transaction-router.md) distinguishes the Iran-local recognition route from the wider cross-lane transit / sanctions route.
+3. This transaction spends the routed braid as one clause that couples transit restraint, recognition, relief sequencing, and review.
+
+The practical question answered here is not "can Hormuz be reopened?" It is "what would let Iran present reopening as recognized restraint rather than surrender or permanent spoiler leverage?"
+
+### Worked Example Snapshot
+
+- Braided arcs: commercial passage + coercive signaling + negotiation-room leverage
+- Lens: `announced-vs-material`
+- Router choice: Iran-local recognition through transit restraint
+- Authority carriers: Iranian foreign ministry, Supreme National Security Council, maritime / port authorities, mediator channel, sanctions-relief mechanisms
+- Spendable output: a renewable transit guarantee tied to reciprocal security assurances, phased sanctions relief, complaint review, and an observable compliance hinge
+
+If one of those lines drops out, the transaction degrades:
+
+- transit without recognition reads as capitulation pressure
+- coercion without review reads as spoiler leverage
+- sanctions relief without transit restraint reads as payment for instability
+- recognition without authority carrier reads as rhetoric
+
+## Observability Hinge
+
+The credibility test for this transaction is whether outside actors can observe that restraint is governed rather than merely declared.
+
+Minimum observable package:
+
+- Iran publishes a 30-day transit guarantee through named state carriers rather than through informal signaling alone.
+- A neutral channel circulates the active transit-notice and complaint-contact mechanism to commercial shippers, insurers, and key partner states.
+- During the guarantee window, Iran refrains from new transit interference against non-belligerent commercial vessels except under the suspension terms named in the clause.
+- A mediator or secretariat records whether reciprocal assurances, relief steps, and complaints were performed on schedule.
+
+If those signals are absent, the transaction should be read as a tactical pause rather than recognized restraint.
+
 ## Civilization / Empire Helix Input
 
 - Civilization input: dignity, sovereignty, and refusal to be managed as a disposable target.
@@ -64,6 +102,7 @@ Iran's durable interest is to convert the coupled Hormuz bundle of passage, coer
 
 - Institutional carrier: Iranian foreign ministry, Supreme National Security Council, port and maritime authorities, central bank / sanctions-relief channels, and a third-party mediator or treaty secretariat must be able to carry one aligned transit, restraint, and relief package rather than three drifting lines.
 - Administrative / fiscal / legal / military capacity: Maritime notification system, transit registry, sanctions-relief escrow, defensive-force command discipline, and complaint-resolution procedure are needed to keep the braid coordinated in practice.
+- Observability requirement: The same carriers must be able to make restraint visible through published notice, complaint handling, and recorded compliance milestones rather than through rhetoric alone.
 - Continuity risk: Factional actors may prefer maximal resistance language over a limited settlement; external actors may try to split Iranian institutions or detach transit from recognition and relief.
 - Ideology or faction pressure: Anti-humiliation rhetoric can harden into terms no adversary can publicly accept.
 - Long-pressure burden: Iran must sustain deterrence while proving it can regulate a coupled leverage bundle rather than merely threaten disruption.
@@ -81,7 +120,7 @@ Iran's durable interest is to convert the coupled Hormuz bundle of passage, coer
 
 Draft clause:
 
-> Upon written reciprocal assurances against regime-change operations, attacks on Iranian sovereign facilities, and interdiction of lawful Iranian energy commerce, and upon commencement of a phased sanctions-relief sequence verified through a neutral channel, Iran shall issue a renewable 30-day guarantee of safe commercial transit through the Strait of Hormuz for non-belligerent vessels. That guarantee shall operate as one coupled package of transit restraint, reciprocal security recognition, maritime notification, and complaint resolution, rather than as a standalone reopening gesture. Iran may suspend the guarantee only after documented violation of the reciprocal package, 72-hour notice to the mediator, and failure of urgent consultation, except in cases of direct armed attack. All parties shall treat the guarantee as controlled de-escalatory leverage tied to compliance and review, not as a concession severed from the wider recognition and relief sequence.
+> Upon written reciprocal assurances against regime-change operations, attacks on Iranian sovereign facilities, and interdiction of lawful Iranian energy commerce, and upon commencement of a phased sanctions-relief sequence verified through a neutral channel, Iran shall issue a renewable 30-day guarantee of safe commercial transit through the Strait of Hormuz for non-belligerent vessels. That guarantee shall operate as one coupled package of transit restraint, reciprocal security recognition, maritime notification, and complaint resolution, rather than as a standalone reopening gesture. Within 24 hours of issuance, the designated Iranian and mediator channels shall publish the guarantee window, complaint contact, and suspension standard to commercial carriers, insurers, and named partner states, and the mediator shall record whether transit conditions and reciprocal relief steps remained in compliance during the guarantee period. Iran may suspend the guarantee only after documented violation of the reciprocal package, 72-hour notice to the mediator, and failure of urgent consultation, except in cases of direct armed attack. All parties shall treat the guarantee as controlled de-escalatory leverage tied to compliance and review, not as a concession severed from the wider recognition and relief sequence.
 
 ## Mirror Test
 

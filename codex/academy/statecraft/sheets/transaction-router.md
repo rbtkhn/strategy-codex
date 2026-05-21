@@ -4,6 +4,21 @@ WORK only; not Record.
 
 Use this sheet after a current-event read classifies the crisis object. The router maps live events onto the 12-object transaction plateau so the operator can reuse an existing bundle before inventing a new one.
 
+## First Worked Route
+
+If you are learning this layer, start with the Hormuz path:
+
+1. Open [State Braid Model](state-braid-model.md) and keep the three arcs together: commercial passage, coercive signaling, and negotiation-room leverage.
+2. Ask whether the settlement spine is cross-lane or Iran-lane first.
+3. Route accordingly:
+
+- cross-lane shipping / sanctions / escort object -> [Hormuz Transit / Sanctions Relief Compact](../transactions/hormuz-transit-sanctions-relief-compact/)
+- Iran-local recognition-through-restraint object -> [Hormuz Recognition Transit Transaction](../iran/transactions/hormuz-recognition-transit-transaction.md)
+
+Use the second route when the real drafting question is: how does Iran monetize Hormuz restraint into recognition, relief sequencing, and controlled legitimacy rather than permanent spoiler leverage?
+
+Its first stress question is observability: what can commercial actors and partner states actually see that distinguishes governed restraint from a temporary tactical pause?
+
 ## Fit Rules
 
 - **Exact fit:** the event turns on the same crisis object and the same settlement spine as an existing transaction. Open that bundle and choose the first lane perspective.
@@ -71,3 +86,12 @@ After choosing a fit, produce the smallest useful transaction-aware output:
 - **stage recursive update candidate** only when the read reveals a durable pattern, instrument, regulator, precedent, falsifier, or revisit trigger.
 
 When fit is **none**, recommend a candidate only. Do not create a new transaction directory unless the operator separately asks for implementation.
+
+## Hormuz Distinction
+
+When both Hormuz entries look plausible, separate them this way:
+
+- Use [Hormuz Transit / Sanctions Relief Compact](../transactions/hormuz-transit-sanctions-relief-compact/) when the bargaining object is the wider shipping-and-relief package across several lanes.
+- Use [Hormuz Recognition Transit Transaction](../iran/transactions/hormuz-recognition-transit-transaction.md) when the bargaining object is specifically Iran's conversion of transit restraint into recognition, dignity, and sanctions-relief sequence.
+
+If you cannot tell which one applies, open the braid first and ask which authority carrier must keep the arcs aligned. If the answer is primarily Iranian carriers, the Iran-local transaction is usually the better first route.

@@ -110,6 +110,43 @@ In statecraft terms:
 
 If those arcs are drafted separately, the instrument tends to fail by category mistake: one clause assumes commercial openness, another assumes latent coercion, and a third assumes bargaining leverage without specifying which authority carrier can keep them aligned.
 
+### Worked Path: From Braid To Router To Transaction
+
+Use the Hormuz bundle as the default example for this layer:
+
+1. **Start in the braid.**
+Name the three arcs together:
+
+- commercial passage
+- coercive signaling
+- negotiation-room leverage
+
+Keep the lens `announced-vs-material`. The drafting claim is that Iran cannot turn Hormuz into a usable statecraft object if transit language, coercive posture, and bargaining leverage are split into separate notes.
+
+2. **Route the crisis object.**
+Open [Transaction Router](transaction-router.md) and ask which settlement spine is actually being drafted.
+
+- If the object is cross-lane and the main question is regional or system-wide bargaining over shipping, sanctions relief, escorts, and verification, route to [Hormuz Transit / Sanctions Relief Compact](../transactions/hormuz-transit-sanctions-relief-compact/).
+- If the object is Iran-lane first and the main question is how Tehran converts restraint into recognition without losing leverage, route to [Hormuz Recognition Transit Transaction](../iran/transactions/hormuz-recognition-transit-transaction.md).
+
+The worked example here takes the second path. The fit is not "shipping disruption in general." The fit is "Iran-local recognition through transit restraint."
+
+3. **Spend the braid inside the transaction.**
+In [Hormuz Recognition Transit Transaction](../iran/transactions/hormuz-recognition-transit-transaction.md), the braid becomes a clause with four coupled parts:
+
+- transit guarantee
+- reciprocal security recognition
+- sanctions-relief sequence
+- complaint / review mechanism
+
+The credibility hinge is observability. The bundle should let outside actors see that restraint is being carried by named institutions, published notice, and recorded compliance milestones rather than by verbal reassurance alone.
+
+That is the point of the braid. It preserves the linked arcs long enough for the transaction to draft one authority-bearing, restraint-bearing, settlement-bearing instrument instead of three incompatible gestures.
+
+Short operator rule:
+
+`braid the arcs -> route the settlement spine -> spend the bundle as a transaction`
+
 ## Validation
 
 ### Richelieu Check
