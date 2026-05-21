@@ -8,14 +8,14 @@ End state: each lane becomes a book and a machine. The book side is a complete, 
 
 ## Source Flow
 
-Statecraft lanes use a three-step source chain:
+Statecraft lanes use this source chain:
 
-1. CIV-MEM informs `civilization/` and `empire/` equally.
+1. CIV-EMP informs `civilization/` and `empire/` equally.
 2. `civilization/` names inherited code, durable fear, legitimacy memory, and successor-stable interests.
 3. `empire/` names outward control drives, instruments, overreach patterns, and limiting principles.
-4. `state/`, `transactions/`, and `helix.md` draw from `civilization/` and `empire/`, not directly from CIV-MEM.
+4. `state/`, `transactions/`, and `helix.md` draw from `civilization/` and `empire/`, not directly from the upstream source base.
 
-This keeps CIV-MEM from becoming an all-purpose citation sink. It is upstream memory. The state lane must translate it into two governed folders before drafting policy.
+CIV-EMP is the academy-statecraft local source base derived from the two-volume Civilization and Empire frame. This keeps CIV-EMP from becoming an all-purpose citation sink: the state lane must translate it into two governed folders before drafting policy.
 
 ## Standard Folder Spine
 
@@ -34,7 +34,7 @@ Each state lane should keep this minimum spine:
 
 ### Pass 1: Seed
 
-For each lane, add three civilization patterns and three empire instruments. Each seed should include a CIV-MEM source pointer, statecraft use, and failure mode.
+For each lane, add three civilization patterns and three empire instruments. Each seed should include a CIV-EMP source pointer, statecraft use, and failure mode.
 
 ### Pass 2: Deepen
 
@@ -52,7 +52,7 @@ Before a lane becomes an independent repo, verify that it can stand without reac
 - Civilization and empire folders each have their own pattern/instrument index.
 - State rules cite lane-local civilization and empire files.
 - Transactions cite lane-local state rules.
-- CIV-MEM references remain source pointers, not operational commands.
+- CIV-EMP references remain source pointers, not operational commands.
 
 ### Pass 5: Recurse
 
@@ -71,8 +71,8 @@ Use [Recursive Update Candidate Template](../templates/recursive-update-candidat
 
 ## Quality Tests
 
-- **Equal upstream test:** Does CIV-MEM inform both civilization and empire, or only one side?
-- **No direct-state shortcut:** Does `state/` draw from lane-local civilization and empire notes rather than raw CIV-MEM?
+- **Equal upstream test:** Does CIV-EMP inform both civilization and empire, or only one side?
+- **No direct-state shortcut:** Does `state/` draw from lane-local civilization and empire notes rather than raw CIV-EMP?
 - **Successor-stability test:** Would the pattern still matter after a leadership or regime change?
 - **Overreach test:** Does each empire instrument name the point where control starts damaging the civilization it claims to protect?
 - **Extraction test:** Could this state lane become a repo tomorrow with coherent internal navigation?

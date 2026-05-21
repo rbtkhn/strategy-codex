@@ -17,6 +17,8 @@ Every statecraft output should also establish historical continuity with the cur
 
 Canonical PH-CIV / statecraft hinge: **Civilizational pattern and narrative become statecraft only when converted into authority, restraint, and settlement.** Short form: `pattern / narrative -> authority / restraint / settlement`.
 
+CIV-EMP source base: `ph-civ` remains the public Predictive History / Civilization artifact; [civ-emp](civ-emp/) is the academy-statecraft local source base derived from Civilization and Empire and optimized for operational judgment.
+
 Mature lane doctrine: **each state lane is a book and a machine**. The book side grows into a complete, compelling, evidence-backed story of a civilization under power. The machine side stages reviewable updates from live statecraft work so the lane improves the next analysis without rewriting itself automatically.
 
 Civilization and Empire cycle: **Beautify -> Amplify -> Degrade -> Restore.** Civilization beautifies; empire amplifies; entropy degrades; statecraft restores.
@@ -35,7 +37,8 @@ Arc-lens doctrine: **each major civilization object is an arc-lens, not a topic 
 - [National lane template](templates/national-lane.md) - scaffold for country-specific drafting lanes.
 - [Head-of-state profile template](templates/head-of-state-profile.md) - legacy/shared carrier-profile grammar for leaders, offices, security councils, party centers, and successor authorities; use it as a profile aid, not folder doctrine.
 - [Authority carrier object template](templates/authority-carrier-object.md) - track ministers, negotiators, security figures, and institutional voices across raw-inputs as statecraft signals rather than biography.
-- [State memory template](templates/state-memory.md) - build civilization-layer authority memory objects with continuity pattern, authority forms, current carriers, transaction test, failure mode, and CIV-MEM provenance.
+- [CIV-EMP](civ-emp/) - local Civilization and Empire source base for academy-statecraft.
+- [State memory template](templates/state-memory.md) - build civilization-layer authority memory objects with continuity pattern, authority forms, current carriers, transaction test, failure mode, and CIV-EMP provenance.
 - [Civilization / Empire helix template](templates/civilization-empire-helix.md) - scaffold for inherited code, outward striving, and statecraft regulation.
 - [Statecraft transaction template](templates/statecraft-transaction.md) - package speaker-state inputs into validated treaty, memo, brief, or off-ramp instruments.
 - [Cross-lane transaction bundles](transactions/) - compare one crisis object across several national lanes.
@@ -49,7 +52,7 @@ Arc-lens doctrine: **each major civilization object is an arc-lens, not a topic 
 - [Folder choreography](sheets/folder-choreography.md) - move from `civilization/` memory through `empire/` reach, `state/` decision, `helix.md` regulation, and `transactions/` binding.
 - [State lane development roadmap](sheets/state-lane-development-roadmap.md) - systematically seed, deepen, regulate, and extract each state lane's civilization and empire folders.
 - [Hexagon arc-lens stress test](sheets/hexagon-arc-lens-stress-test.md) - run god, lit, art, geo, war, and peace as a six-lens diagnostic before drafting or patching an instrument.
-- [CIV-MEM object retrieval matrix](sheets/civ-mem-object-retrieval-matrix.md) - run direct, lens, graph, counterweight, and arc-lens retrieval before major civilization backfills.
+- [CIV-EMP source retrieval matrix](civ-emp/indexes/source-retrieval-matrix.md) - run source, lane, lens, counterweight, and arc-lens retrieval before major civilization and empire backfills.
 - [National perspective orthogonality](sheets/national-perspective-orthogonality.md) - compare U.S., Russia, China, Iran, and other state views without collapsing them into one generic strategic lens.
 - [Authority carrier orthogonality](sheets/authority-carrier-orthogonality.md) - compare leader / office / party-state / security-carrier problems without flattening them into biography.
 - [Crisis test casebook](sheets/crisis-test-casebook.md) - method memory for contested objects, game types, filters learned, and settlement spines.

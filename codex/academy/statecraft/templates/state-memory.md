@@ -41,6 +41,6 @@ Before a transaction treats a clause as carryable, ask:
 
 Name how state memory can deform: paranoia, humiliation lock, endless sacrifice, overextension, succession fragility, personalism, factional veto, or refusal to convert leverage into settlement.
 
-## CIV-MEM Inputs
+## CIV-EMP Inputs
 
-Name the upstream CIV-MEM, archive, or lane-local civilization files used to ground the object. Keep this as provenance, not as a license to edit CIV-MEM from statecraft.
+Name the upstream CIV-EMP object, archive, or lane-local civilization files used to ground the object. Legacy CIV-MEM references may remain as provenance, but new state-memory objects should route through CIV-EMP when possible. Keep this as provenance, not as a license to edit PH-CIV, CIV-MEM, or other upstream source corpora from statecraft.

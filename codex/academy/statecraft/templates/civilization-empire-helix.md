@@ -25,8 +25,8 @@ Cycle grammar:
 
 Source flow:
 
-1. CIV-MEM informs `civilization/` and `empire/` equally.
-2. `state/` draws from `civilization/` and `empire/`, not directly from CIV-MEM.
+1. CIV-EMP informs `civilization/` and `empire/` equally.
+2. `state/` draws from `civilization/` and `empire/`, not directly from CIV-EMP or upstream corpora.
 3. `helix.md` regulates the tension between the two folders.
 4. `transactions/` test the regulated statecraft against current events and scenarios.
 

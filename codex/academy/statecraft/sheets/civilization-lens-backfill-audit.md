@@ -4,9 +4,9 @@ WORK only; not Record.
 
 ## Purpose
 
-Audit the existing `art.md`, `lit.md`, `geo.md`, `war.md`, and `peace.md` civilization arc-lenses for America, Russia, China, and Iran against the CIV-MEM retrieval doctrine.
+Audit the existing `art.md`, `lit.md`, `geo.md`, `war.md`, and `peace.md` civilization arc-lenses for America, Russia, China, and Iran against the CIV-EMP retrieval doctrine.
 
-This sheet does not rewrite arc-lens files. It marks which surfaces are usable v1 orientation notes and which still need full graph-backed CIV-MEM backfill.
+This sheet does not rewrite arc-lens files. It marks which surfaces are usable v1 orientation notes and which still need full CIV-EMP-backed retrieval. Older entries may still name CIV-MEM as provenance for the historical backfill that produced the current arc-lens plateau.
 
 ## Benchmark
 
@@ -51,7 +51,7 @@ Status thresholds:
 
 ## Aggregate Findings
 
-- **All 20 art / lit / geo / war / peace arc-lenses are now full-strength.** Each file has coherent purpose, arc shape, failure mode, retrieval status, CIV-MEM inputs, transaction-use questions, and recursive-candidate check.
+- **All 20 art / lit / geo / war / peace arc-lenses are now full-strength.** Each file has coherent purpose, arc shape, failure mode, retrieval status, source inputs, transaction-use questions, and recursive-candidate check.
 - **The basic backfill plateau is complete.** The remaining work is command wiring, cross-arc-lens stress tests, book-quality synthesis, and periodic regression audits.
 - **MEM CONNECTIONS provenance is now the maintenance standard.** Future refinements should preserve the direct / lens / graph retrieval contract rather than reverting to flat source lists.
 - **Orthogonality is stronger but still needs live stress.** `god` owns sacred boundary, `lit` owns narrative / moral language, `art` owns form / beauty / spectacle, `geo` owns terrain / ecology / routes / resources, `war` owns coercion / sacrifice, and `peace` owns settlement / restraint.
@@ -68,16 +68,15 @@ Basic arc-lens completion is done. Next priority order:
 
 ## Backfill Contract
 
-When upgrading any arc-lens, use the object retrieval matrix:
+When upgrading any arc-lens, use the CIV-EMP source retrieval matrix:
 
-1. Open direct lane sources: `CIV-CORE`, `CIV-STATE` or doctrine, `MEM-RELEVANCE`, and seed patterns where present.
-2. Run lens retrieval from the matrix seed terms.
-3. Follow `MEM CONNECTIONS` into a 20-35 candidate pool.
-4. Open the strongest 8-12 MEM bodies.
-5. Include at least 2 connection-discovered counterweights.
-6. Add a `Retrieval Status` section to the lens.
-7. Correct mojibake paths while editing.
-8. Stage recursive candidates only in the lane-local `updates/pending.md` if a durable new lane rule emerges.
+1. Open the relevant CIV-EMP source object, volume map, or index entry once present.
+2. Open direct lane sources: `civilization/`, `empire/`, `state/`, `helix.md`, and seed patterns where present.
+3. Run lens retrieval from the matrix seed terms.
+4. Include at least one counterweight where the pattern degrades, reverses, overreaches, or becomes unusable.
+5. Add a `Retrieval Status` section to the lens.
+6. Correct mojibake paths while editing.
+7. Stage recursive candidates only in the lane-local `updates/pending.md` if a durable new lane rule emerges.
 
 ## Control Example
 

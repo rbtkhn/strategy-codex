@@ -8,6 +8,8 @@ Purpose: seal the current academy-statecraft arc so future additions extend a pr
 
 Academy-statecraft is a drafting workshop. It converts historical pattern, contemporary speaker-state, and national perspective into treaty clauses, policy papers, negotiation briefs, crisis memos, and reusable statecraft transactions.
 
+CIV-EMP is the workshop's local source base. `ph-civ` remains the public Predictive History / Civilization artifact; `civ-emp` converts the two-volume Civilization and Empire frame into operational statecraft retrieval.
+
 Its living-state hinge is:
 
 > Civilization generates the drive toward empire; durable statecraft regulates that drive through authority, restraint, and settlement so sovereignty and security survive over time.
@@ -16,9 +18,13 @@ Its mature lane form is:
 
 > A book and a machine: a complete, compelling, evidence-backed civilizational volume that recursively improves through governed statecraft work.
 
+The source hierarchy is:
+
+`ph-civ public source artifact -> civ-emp statecraft source base -> lane-local civilization / empire / state / helix / transaction files`
+
 The stable sequence is:
 
-1. **Pattern / narrative** supplies recurrence, story, legitimacy, and memory.
+1. **CIV-EMP source retrieval** supplies recurrence, story, legitimacy, memory, empire instrument, counterweight, and transaction hook.
 2. **National lane** converts the same crisis into one actor's state interest, fear, leverage, constraints, preferred instruments, and red lines.
 3. **Civilization / Empire helix** names inherited code, outward striving for security and control, and the regulatory limits needed for durable sovereignty.
 4. **Folder choreography** moves from `civilization/` memory through `empire/` reach, `state/` decision, `helix.md` regulation, and `transactions/` binding.
@@ -34,6 +40,7 @@ The stable sequence is:
 | --- | --- | --- |
 | [METHOD.md](METHOD.md) | drafting loop | It keeps the workshop oriented toward reusable instruments. |
 | [National lanes](README.md#national-lanes) | state-perspective benches | They preserve America, Russia, China, and Iran as distinct statecraft views. |
+| [CIV-EMP](civ-emp/) | local source base | It keeps Civilization and Empire distinct from both public PH-CIV and legacy CIV-MEM. |
 | [Civilization / Empire helix template](templates/civilization-empire-helix.md) | living-state scaffold | It keeps inherited code, imperial striving, and regulatory restraint visible in every lane. |
 | [Book and machine](sheets/book-and-machine.md) | recursive manuscript doctrine | It defines the lane as both a civilizational volume and a governed update loop. |
 | [Folder choreography](sheets/folder-choreography.md) | lane movement scaffold | It keeps the folders acting like organs of judgment rather than storage bins. |
