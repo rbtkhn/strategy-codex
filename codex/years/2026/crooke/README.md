@@ -4,6 +4,7 @@
 
 ## Shelf
 
+- Index: [index.md](index.md)
 - Profile: [crooke-profile.md](../../../profiles/crooke-profile.md)
 - Speaker helix: [crooke-helix.md](../../../speakers/crooke/crooke-helix.md)
 - Monthly book: [crooke-book-2026-04.md](crooke-book-2026-04.md)

@@ -4,6 +4,7 @@
 
 ## Shelf
 
+- Index: [index.md](index.md)
 - Profile: [mercouris-profile.md](../../profiles/mercouris-profile.md)
 - Speaker object: [mercouris-speaker-object.md](../speakers/mercouris/mercouris-speaker-object.md)
 - Current monthly shelf: [mercouris-shelf-2026-05.md](mercouris-shelf-2026-05.md)

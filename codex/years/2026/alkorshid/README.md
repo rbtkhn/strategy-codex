@@ -5,6 +5,7 @@
 ## Shelf
 
 - Profile: [alkorshid-profile.md](../../profiles/alkorshid-profile.md)
+- Index: [index.md](index.md)
 - Monthly shelf: [alkorshid-shelf-2026-04.md](alkorshid-shelf-2026-04.md)
 - Daily chapter seed: [alkorshid-chapter-2026-04-01.md](alkorshid-chapter-2026-04-01.md)
 - Speaker arcs:

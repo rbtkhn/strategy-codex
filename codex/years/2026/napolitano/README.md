@@ -5,6 +5,7 @@
 ## Shelf
 
 - Speaker object: [../speakers/napolitano/napolitano-speaker-object.md](../speakers/napolitano/napolitano-speaker-object.md)
+- Index: [index.md](index.md)
 - Monthly book: [napolitano-book-2025-11.md](napolitano-book-2025-11.md)
 - Monthly book: [napolitano-book-2025-12.md](napolitano-book-2025-12.md)
 - Monthly book: [napolitano-book-2026-01.md](napolitano-book-2026-01.md)

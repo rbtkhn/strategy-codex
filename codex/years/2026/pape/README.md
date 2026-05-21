@@ -4,6 +4,7 @@
 
 ## Shelf
 
+- Index: [index.md](index.md)
 - Profile: [pape-profile.md](../../../profiles/pape-profile.md)
 - Speaker object: [pape-speaker-object.md](../../../speakers/pape/pape-speaker-object.md)
 - Forecast ledger: [pape-forecast-ledger-2026.md](pape-forecast-ledger-2026.md)
