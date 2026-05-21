@@ -2,6 +2,7 @@
 node_modules/
 .pnp/
 .pnp.js
+.codegraph/
 
 # Build outputs
 build/
@@ -244,6 +245,10 @@ artifacts/classification-reports/*
 artifacts/route-recommendations/*
 !artifacts/route-recommendations/.gitkeep
 !artifacts/route-recommendations/README.md
+
+# CodeGraph pilot outputs (derived; see artifacts/codegraph/README.md)
+artifacts/codegraph/*
+!artifacts/codegraph/README.md
 
 # External codex neighborhood reports (derived; see artifacts/external-codex/README.md)
 artifacts/external-codex/*
