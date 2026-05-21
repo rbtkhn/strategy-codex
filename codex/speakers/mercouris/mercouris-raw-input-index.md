@@ -35,6 +35,7 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Alexa
 ## 2025-02
 - [youtube-alex-mercouris-trump-confirms-putin-call-putin-firm-4-regions-russian-ukraine-kursk-disaster-eu-gas-prices-surge-2025-02-10](../../years/2026/raw-input/2025-02-10/youtube-alex-mercouris-trump-confirms-putin-call-putin-firm-4-regions-russian-ukraine-kursk-disaster-eu-gas-prices-surge-2025-02-10.md)
 - [youtube-alex-mercouris-disastrous-zelensky-presser-angers-trump-zelensky-dictator-us-aid-gravy-train-hints-disengagement-2025-02-20](../../years/2026/raw-input/2025-02-20/youtube-alex-mercouris-disastrous-zelensky-presser-angers-trump-zelensky-dictator-us-aid-gravy-train-hints-disengagement-2025-02-20.md)
+- [youtube-daniel-davis-deep-dive-trump-abandon-or-protecting-ukraine-alexander-mercouris-2025-02-27](../../years/2025/raw-input/2025-02-27/youtube-daniel-davis-deep-dive-trump-abandon-or-protecting-ukraine-alexander-mercouris-2025-02-27.md)
 
 ## 2025-03
 - [youtube-alex-mercouris-ukraines-kursk-catastrophe-kiev-troops-routed-flee-in-chaos-villages-fall-riyadh-showdown-looms-2025-03-10](../../years/2026/raw-input/2025-03-10/youtube-alex-mercouris-ukraines-kursk-catastrophe-kiev-troops-routed-flee-in-chaos-villages-fall-riyadh-showdown-looms-2025-03-10.md)
@@ -71,11 +72,13 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Alexa
 - [youtube-alex-mercouris-russian-migs-scare-nato-us-again-halts-patriots-syrsky-told-pokrovsk-to-fall-iran-crisis-un-vote-2025-09-20](../../years/2026/raw-input/2025-09-20/youtube-alex-mercouris-russian-migs-scare-nato-us-again-halts-patriots-syrsky-told-pokrovsk-to-fall-iran-crisis-un-vote-2025-09-20.md)
 
 ## 2025-10
+- [youtube-daniel-davis-deep-dive-us-helps-ukraine-strike-deep-into-russia-alexander-mercouris-2025-10-02](../../years/2025/raw-input/2025-10-02/youtube-daniel-davis-deep-dive-us-helps-ukraine-strike-deep-into-russia-alexander-mercouris-2025-10-02.md)
 - [youtube-alex-mercouris-russias-strongest-strike-kiev-blackout-air-defence-fails-energy-collapse-moscow-pushes-to-dneiper-2025-10-10](../../years/2026/raw-input/2025-10-10/youtube-alex-mercouris-russias-strongest-strike-kiev-blackout-air-defence-fails-energy-collapse-moscow-pushes-to-dneiper-2025-10-10.md)
 - [youtube-alex-mercouris-trump-zelensky-furious-row-us-tells-kiev-accept-moscows-terms-or-be-destroyed-pokrovsk-falls-fast-2025-10-20](../../years/2026/raw-input/2025-10-20/youtube-alex-mercouris-trump-zelensky-furious-row-us-tells-kiev-accept-moscows-terms-or-be-destroyed-pokrovsk-falls-fast-2025-10-20.md)
 
 ## 2025-11
 - [youtube-alex-mercouris-kiev-faces-worst-defeat-russia-tells-pokrovsk-troops-to-surrender-breaks-through-zaporozhye-kharkov-2025-11-10](../../years/2026/raw-input/2025-11-10/youtube-alex-mercouris-kiev-faces-worst-defeat-russia-tells-pokrovsk-troops-to-surrender-breaks-through-zaporozhye-kharkov-2025-11-10.md)
+- [youtube-daniel-davis-deep-dive-us-largest-warship-in-latin-american-waters-alexander-mercouris-2025-11-12](../../years/2025/raw-input/2025-11-12/youtube-daniel-davis-deep-dive-us-largest-warship-in-latin-american-waters-alexander-mercouris-2025-11-12.md)
 - [youtube-alex-mercouris-kiev-defeats-force-us-u-turn-accept-istanbul-plus-kellogg-quits-kiev-eu-stunned-say-no-war-crisis-2025-11-20](../../years/2026/raw-input/2025-11-20/youtube-alex-mercouris-kiev-defeats-force-us-u-turn-accept-istanbul-plus-kellogg-quits-kiev-eu-stunned-say-no-war-crisis-2025-11-20.md)
 - [youtube-alex-mercouris-moscow-says-no-concessions-for-ukraine-peace-no-agreement-with-us-on-any-2025-11-27](../../years/2026/raw-input/2025-11-27/youtube-alex-mercouris-moscow-says-no-concessions-for-ukraine-peace-no-agreement-with-us-on-any-2025-11-27.md)
 - [youtube-alex-mercouris-putin-s-toughest-line-in-presser-no-kherson-zaporozhye-ceasefire-agreed-2025-11-28](../../years/2026/raw-input/2025-11-28/youtube-alex-mercouris-putin-s-toughest-line-in-presser-no-kherson-zaporozhye-ceasefire-agreed-2025-11-28.md)
@@ -123,6 +126,7 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Alexa
 - [youtube-alex-mercouris-us-russia-clash-us-seizes-tanker-moscow-sends-submarine-us-no-support-uk-2026-01-07](../../years/2026/raw-input/2026-01-07/youtube-alex-mercouris-us-russia-clash-us-seizes-tanker-moscow-sends-submarine-us-no-support-uk-2026-01-07.md)
 - [youtube-alex-mercouris-moscow-strikes-us-assets-in-ukraine-warns-will-protect-its-ships-calls-s-2026-01-08](../../years/2026/raw-input/2026-01-08/youtube-alex-mercouris-moscow-strikes-us-assets-in-ukraine-warns-will-protect-its-ships-calls-s-2026-01-08.md)
 - [youtube-alex-mercouris-oreshnik-strikes-giant-ukraine-gas-plant-mayor-urges-kiev-residents-go-b-2026-01-09](../../years/2026/raw-input/2026-01-09/youtube-alex-mercouris-oreshnik-strikes-giant-ukraine-gas-plant-mayor-urges-kiev-residents-go-b-2026-01-09.md)
+- [youtube-daniel-davis-deep-dive-russia-attacks-using-new-oreshnik-missile-alexander-mercouris-2026-01-09](../../years/2026/raw-input/2026-01-09/youtube-daniel-davis-deep-dive-russia-attacks-using-new-oreshnik-missile-alexander-mercouris-2026-01-09.md)
 - [youtube-alex-mercouris-medvedev-says-west-wants-war-russia-ready-oreshnik-hit-military-base-use-2026-01-10](../../years/2026/raw-input/2026-01-10/youtube-alex-mercouris-medvedev-says-west-wants-war-russia-ready-oreshnik-hit-military-base-use-2026-01-10.md)
 - [youtube-alex-mercouris-russia-prepares-biggest-ukraine-strike-duma-wants-reserve-armies-committ-2026-01-11](../../years/2026/raw-input/2026-01-11/youtube-alex-mercouris-russia-prepares-biggest-ukraine-strike-duma-wants-reserve-armies-committ-2026-01-11.md)
 - [youtube-alex-mercouris-russia-10-kms-from-zaporozhzhye-city-evacuations-begin-putin-returns-ira-2026-01-12](../../years/2026/raw-input/2026-01-12/youtube-alex-mercouris-russia-10-kms-from-zaporozhzhye-city-evacuations-begin-putin-returns-ira-2026-01-12.md)

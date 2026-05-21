@@ -6,6 +6,8 @@ Purpose: compare a recurring speaker across multiple host transformations. Use t
 
 Model: a **speaker helix** compares multiple host-local arcs without flattening them. Each host-local **arc is a bounded helix of arc-threads**; the speaker helix asks how those bounded helices reinforce, tension, or transform the same speaker.
 
+Creation threshold: a helix is not the minimum requirement for a speaker folder. The minimum is a routeable rationale. Create a helix only when multiple host-local arcs or equivalent mature strands are strong enough that cross-host comparison itself has become useful.
+
 ## Core claim
 
 State the one-sentence reason the helix exists.
@@ -66,3 +68,4 @@ Use this helix note when the notebook is doing one or more of the following:
 - Do not flatten distinct host registers into one undifferentiated speaker theory.
 - Do not treat the speaker helix as a replacement for the arc-thread braid inside each host-local arc.
 - Do not claim a helix exists until multiple host-local strands are strong enough to compare.
+- Do not create a helix merely to give a speaker folder a substantial-looking artifact; use a speaker object, profile, cross-host note, or index when the evidence is lighter.

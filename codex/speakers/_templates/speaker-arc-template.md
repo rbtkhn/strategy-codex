@@ -6,6 +6,8 @@ Purpose: explain why the recurring `{host} x {guest}` lane matters as a host-loc
 
 Model: an **arc is a bounded helix of arc-threads**. An **arc-thread** is a recurring thematic strand; the host-local arc is the braid of those strands inside one host x guest surface.
 
+Creation threshold: write this only when the host x guest lane has enough recurrence to make a reusable host-local form. A speaker folder can be valid with only a routeable rationale, profile, cross-host note, or host-arc pointer; do not create a speaker arc just because the folder exists.
+
 ## Why this guest run matters
 
 State the durable value of this host x guest pairing. Describe what the host brings out in the guest and why future agents should treat this as a reusable lane.
@@ -71,5 +73,6 @@ Do not overuse this arc as:
 - a generic biography of `{guest}`
 - a replacement for raw-input provenance
 - a loose chronology without recurring arc-threads
+- a maturity badge for a speaker folder that only needs a lighter routeable rationale
 - proof that every appearance by `{guest}` belongs to this host lane
 - a reason to redesign the lattice

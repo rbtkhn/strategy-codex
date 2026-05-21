@@ -37,7 +37,8 @@ The `2025` file shows the earlier Davis x Baud shape: weak bargaining hands, Wes
 | Rank | Date | Title | Why it matters most |
 |---|---|---|---|
 | 1 | 2026-04-20 | *Daniel Davis Deep Dive - Col. Jacques Baud (US-Iran diplomacy, Pakistan, Hormuz, trust)* | Best mature anchor. Strongest single file for perfidy, UNGA 3314 co-belligerency, Pakistan / Oman diplomacy, Hormuz deterrence, and the claim that the U.S. is cornered rather than negotiating from strength. Open this first. |
-| 2 | 2025-01-24 | *Western Leaders Weak Negotiating Hand v Putin* | Best root file. Strongest early expression of the lane's negotiation-sobriety and weak-bargaining-hand logic before it hardens into the later Iran-war register. |
+| 2 | 2026-03-12 | *Iran's Unwavering Attacks / Lt Col Daniel Davis & Col Jacques Baud* | Best early Iran-war Davis anchor. Strong on escalation pressure, Iran's endurance logic, and the first clear 2026 turn of the Davis x Baud lane toward the Persian Gulf crisis. |
+| 3 | 2025-01-24 | *Western Leaders Weak Negotiating Hand v Putin* | Best root file. Strongest early expression of the lane's negotiation-sobriety and weak-bargaining-hand logic before it hardens into the later Iran-war register. |
 
 ### Stream-discovered 2026 run
 
@@ -45,7 +46,6 @@ A fresh Davis-stream search shows that the 2026 lane is larger than the currentl
 
 | Date | Title | Status |
 |---|---|---|
-| 2026-03-12 | *Iran's Unwavering Attacks / Lt Col Daniel Davis & Col Jacques Baud* | stream-discovered; not materialized to canonical raw-input |
 | 2026-03-12 | *BOMBSHELL: FATAL FLAW in US WAR STRATEGY v Iran /Col Jacques Baud* | likely same-window companion; not materialized |
 | 2026-03-31 | *IRAN WAR LATEST /Col Jacques Baud & Lt Col Daniel Davis* | stream-discovered; not materialized to canonical raw-input |
 | 2026-04-20 | *More Like Blackmail, Than Peace Talks w/Iran / Col Jacques Baud & Lt Col Daniel Davis* | likely companion to the mature Apr 20 anchor |
@@ -62,14 +62,16 @@ If the operator needs only one file:
 
 - open [davis-deep-dive-baud-iran-pakistan-diplomacy.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-20/davis-deep-dive-baud-iran-pakistan-diplomacy.md)
 
-If the operator needs the best paired read:
+If the operator needs the best sequence:
 
 - open [davis-deep-dive-baud-iran-pakistan-diplomacy.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-20/davis-deep-dive-baud-iran-pakistan-diplomacy.md)
+- then [transcript-davis-baud-irans-unwavering-attacks-2026-03-12.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-03-12/transcript-davis-baud-irans-unwavering-attacks-2026-03-12.md)
 - then [youtube-daniel-davis-deep-dive-col-jacques-baud-western-leaders-weak-negotiating-hand-v-putin-2025-01-24.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2025-01-24/youtube-daniel-davis-deep-dive-col-jacques-baud-western-leaders-weak-negotiating-hand-v-putin-2025-01-24.md)
 
-That pair gives the clearest full lane shape:
+That sequence gives the clearest full lane shape:
 
 - early weak-bargaining-hand realism
+- first 2026 Iran-war turn
 - later Iran-war legality and coercive-failure logic
 - settlement talk versus blackmail
 - operational pressure versus mandate, trust, and alliance consequences

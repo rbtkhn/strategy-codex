@@ -6,6 +6,7 @@ This monthly shelf is the January 2026 routing object for the `davis` cognition 
 
 | Date | Guest | File |
 |---|---|---|
+| 2026-01-09 | Alexander Mercouris | [youtube-daniel-davis-deep-dive-russia-attacks-using-new-oreshnik-missile-alexander-mercouris-2026-01-09.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-01-09/youtube-daniel-davis-deep-dive-russia-attacks-using-new-oreshnik-missile-alexander-mercouris-2026-01-09.md) |
 | 2026-01-14 | John Mearsheimer | [youtube-daniel-davis-deep-dive-prof-john-mearsheimer-classic-u-s-regime-change-in-iran-2026-01-14.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-01-14/youtube-daniel-davis-deep-dive-prof-john-mearsheimer-classic-u-s-regime-change-in-iran-2026-01-14.md) |
 | 2026-01-15 | John Mearsheimer | [youtube-daniel-davis-deep-dive-prof-john-mearsheimer-dismantling-iran-the-four-part-strategy-2026-01-15.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-01-15/youtube-daniel-davis-deep-dive-prof-john-mearsheimer-dismantling-iran-the-four-part-strategy-2026-01-15.md) |
 | 2026-01-20 | Chas Freeman | [youtube-daniel-davis-deep-dive-iran-eu-trump-greenland-lt-col-daniel-davis-chas-freeman-2026-01-20.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-01-20/youtube-daniel-davis-deep-dive-iran-eu-trump-greenland-lt-col-daniel-davis-chas-freeman-2026-01-20.md) |
@@ -13,11 +14,11 @@ This monthly shelf is the January 2026 routing object for the `davis` cognition 
 
 ## Reading note
 
-January is now materially real on disk, but it is still thinner than the later Davis shelf. The month is anchored by a three-file Mearsheimer run plus one Freeman bridge file.
+January is now materially real on disk, but it is still thinner than the later Davis shelf. The month is anchored by a three-file Mearsheimer run, one Mercouris Oreshnik / Paris-ceasefire file, and one Freeman bridge file.
 
 ## Boundary
 
-- These four anchors are transcript-bearing and now lightly cleaned for shelf use.
+- These five anchors are transcript-bearing and now lightly cleaned for shelf use.
 - January remains narrower than the later March-April Davis body.
 - External January references such as the 2026-01-13 Substack item, the 2026-01-16 Substack item, and the 2026-01-22 Scott Horton appearance should be treated as reinforcement, not as the native January Davis shelf.
 

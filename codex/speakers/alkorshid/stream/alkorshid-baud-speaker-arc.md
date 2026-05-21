@@ -1,17 +1,17 @@
-# Dialogue Works × Baud speaker arc
+# Dialogue Works x Baud speaker arc
 
 WORK only; not Record.
 
 ## Why this guest run matters
 
-The `Dialogue Works × Baud` lane matters because it gives the notebook a repeated **law-of-war / mandate / strategic-rationality** register inside a host stream that presses the live crisis hard.
+The `Dialogue Works x Baud` lane matters because it gives the notebook a repeated **law-of-war / mandate / strategic-rationality** register inside a host stream that presses the live crisis hard.
 
 This run is most useful when the notebook needs:
 
 - a Baud lane that is more **current-events pressured** than a generic Europe or NATO law note
 - repeated framing on **Hormuz management**, **deterrence**, and why Iran sees negotiation without guarantees as strategically unserious
 - a current-events lane for **GCC liability**, **French or European posturing**, and **U.S. coercive irrationality**
-- a host × guest contour where Nima pushes the latest escalation and Baud answers in a legality, state-rationality, and strategic-coherence register
+- a host x guest contour where Nima pushes the latest escalation and Baud answers in a legality, state-rationality, and strategic-coherence register
 
 What makes this a real speaker arc is that the same shape keeps returning:
 
@@ -32,37 +32,38 @@ What makes this a real speaker arc is that the same shape keeps returning:
 
 ## Full known 2026 episode set
 
-The complete known `Dialogue Works × Baud` run in 2026 is broader than the currently mirrored transcript subset.
+The complete known `Dialogue Works x Baud` run in 2026 is broader than the currently mirrored transcript subset.
 
 Captured or mirrored on disk:
 
-- 2026-04-27 — [transcript-baud-dialogue-works-nima-2026-04-27.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-27/transcript-baud-dialogue-works-nima-2026-04-27.md)
-- 2026-05-04 — [transcript-baud-dialogue-works-nima-2026-05-04.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-04/transcript-baud-dialogue-works-nima-2026-05-04.md)
-- 2026-05-11 — [transcript-alkorshid-baud-hormuz-security-architecture-2026-05-11.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-11/transcript-alkorshid-baud-hormuz-security-architecture-2026-05-11.md)
+- 2026-03-02 - [youtube-dialogue-works-jacques-baud-middle-east-on-fire-is-this-the-start-of-something-bigger-2026-03-02.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-03-02/youtube-dialogue-works-jacques-baud-middle-east-on-fire-is-this-the-start-of-something-bigger-2026-03-02.md)
+- 2026-03-16 - [youtube-dialogue-works-col-jacques-baud-the-strait-that-controls-the-world-economy-and-iran-knows-it-2026-03-16.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-03-16/youtube-dialogue-works-col-jacques-baud-the-strait-that-controls-the-world-economy-and-iran-knows-it-2026-03-16.md)
+- 2026-03-23 - [transcript-dialogue-works-col-jacques-baud-iran-s-billion-power-move-monetizing-the-wo-2026-03-23.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-03-23/transcript-dialogue-works-col-jacques-baud-iran-s-billion-power-move-monetizing-the-wo-2026-03-23.md)
+- 2026-03-30 - [transcript-dialogue-works-col-jacques-baud-what-a-us-ground-invasion-of-iran-would-really-look-like-2026-03-30.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-03-30/transcript-dialogue-works-col-jacques-baud-what-a-us-ground-invasion-of-iran-would-really-look-like-2026-03-30.md)
+- 2026-04-06 - [transcript-dialogue-works-col-jacques-baud-iran-hammers-israel-and-gcc-countries-after-us-israel-attacks-2026-04-06.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-06/transcript-dialogue-works-col-jacques-baud-iran-hammers-israel-and-gcc-countries-after-us-israel-attacks-2026-04-06.md)
+- 2026-04-27 - [transcript-baud-dialogue-works-nima-2026-04-27.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-27/transcript-baud-dialogue-works-nima-2026-04-27.md)
+- 2026-05-04 - [transcript-baud-dialogue-works-nima-2026-05-04.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-04/transcript-baud-dialogue-works-nima-2026-05-04.md)
+- 2026-05-11 - [transcript-alkorshid-baud-hormuz-security-architecture-2026-05-11.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-11/transcript-alkorshid-baud-hormuz-security-architecture-2026-05-11.md)
+- 2026-05-18 - [transcript-dialogue-works-jacques-baud-israel-collapses-after-trumps-final-card-2026-05-18.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-18/transcript-dialogue-works-jacques-baud-israel-collapses-after-trumps-final-card-2026-05-18.md)
 
 Inventory-listed but not yet captured as full raw-input on disk:
 
-- 2026-01-06 — `The World Is Entering a Lawless Era`
-- 2026-01-19 — `EU Drops a Bombshell While NATO Faces Serious Trouble`
-- 2026-02-02 — `Why the EU Is Failing on Every Front`
-- 2026-02-16 — `Iran Goes All In -This Could Be the EU's Biggest Blunder Yet`
-- 2026-02-23 — `The West's Strategic Failure: Are We Running Out of Time?`
-- 2026-03-02 — `Middle East on Fire — Is This the Start of Something Bigger?`
-- 2026-03-09 — `The Middle East Just Changed Forever`
-- 2026-03-16 — `The Strait That Controls the World Economy - And Iran Knows It`
-- 2026-03-23 — `Iran's $Billion Power Move: Monetizing the World's Oil Lifeline`
-- 2026-03-30 — `What a US Ground Invasion of Iran Would REALLY Look Like`
-- 2026-04-06 — `Iran HAMMERS Israel AND GCC Countries After US-Israel Attacks on Key Facilities`
-- 2026-04-13 — `EU Destroys Trump's War Fantasy - Leaves Him HUMILIATED`
-- 2026-04-20 — `DESPERATE Move? Israel Just LOST - Trump's Last-Minute Move Changes Everything`
+- 2026-01-06 - `The World Is Entering a Lawless Era`
+- 2026-01-19 - `EU Drops a Bombshell While NATO Faces Serious Trouble`
+- 2026-02-02 - `Why the EU Is Failing on Every Front`
+- 2026-02-16 - `Iran Goes All In -This Could Be the EU's Biggest Blunder Yet`
+- 2026-02-23 - `The West's Strategic Failure: Are We Running Out of Time?`
+- 2026-03-09 - `The Middle East Just Changed Forever`
+- 2026-04-13 - `EU Destroys Trump's War Fantasy - Leaves Him HUMILIATED`
+- 2026-04-20 - `DESPERATE Move? Israel Just LOST - Trump's Last-Minute Move Changes Everything`
 
 So the current state is:
 
-- **16 known 2026 Dialogue Works × Baud episodes**
-- **3 captured or mirrored as usable raw-input files on disk**
-- **13 still inventory-known and uncaptured**
+- **17 known 2026 Dialogue Works x Baud episodes**
+- **9 captured or mirrored as usable raw-input files on disk**
+- **8 still inventory-known and uncaptured**
 
-This means the lane has a real serial cadence across 2026, even though the mirrored subset currently begins only at late April.
+This means the lane has a real serial cadence across 2026, even though the mirrored subset currently begins only in early March.
 
 ## Open first
 
@@ -92,7 +93,7 @@ Why: Marandi gives the regime-adjacent red-line and legitimacy register; Baud gi
 
 ## Routing use
 
-Use `Dialogue Works × Baud` when the notebook needs:
+Use `Dialogue Works x Baud` when the notebook needs:
 
 - Baud under live crisis pressure rather than as a generic Europe or NATO explainer
 - strong language on **treaty collapse**, **deterrence necessity**, or **Western strategic incoherence**

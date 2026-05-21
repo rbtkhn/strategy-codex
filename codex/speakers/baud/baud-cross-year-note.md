@@ -8,12 +8,12 @@ Purpose: compact note for keeping the Baud lane historically honest across years
 
 The current [Baud helix](/C:/dev/strategy-codex/codex/speakers/baud/baud-helix.md) is still correctly a **2026 double helix**:
 
-- [davis x baud](/C:/dev/strategy-codex/codex/years/2026/davis/davis-baud-speaker-arc.md)
-- [Dialogue Works x baud](/C:/dev/strategy-codex/codex/years/2026/alkorshid/alkorshid-baud-speaker-arc.md)
+- [davis x baud](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-baud-speaker-arc.md)
+- [Dialogue Works x Baud](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-baud-speaker-arc.md)
 
 However, fresh direct YouTube search confirms that a real **`Diesen x Baud`** lane also exists as a **2025** host branch. That means Baud does have a broader cross-host history than the 2026 object alone suggests, but the missing piece belongs to a different year.
 
-The host-local note for that branch is now [diesen-baud-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/diesen/diesen-baud-speaker-arc.md).
+The host-local note for that branch is now [diesen-baud-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-baud-speaker-arc.md).
 
 ## The 2025 Diesen strand
 

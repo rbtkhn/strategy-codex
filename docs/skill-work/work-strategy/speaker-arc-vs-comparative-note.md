@@ -10,6 +10,8 @@ Write a **speaker arc** when the notebook needs a compact, reusable note about a
 
 Write a **comparative note** only when two or more speaker arcs already exist and the notebook now needs to preserve what changes across host conditions without flattening those host-local objects.
 
+For a speaker folder itself, the minimum requirement is lighter: every canonical speaker folder needs a **routeable rationale**, not necessarily a speaker arc. A routeable rationale may be a speaker object, profile, index, cross-host note, authored ledger, native stream map, or pointer to a substantial host-local arc in another folder.
+
 ## Use a speaker arc when
 
 Use a **speaker arc** when:
@@ -55,6 +57,8 @@ Do **not** use a comparative note:
 - to collapse different host-conditioned objects into one generic guest profile
 - to create a stealth super-arc
 
+Do **not** create a speaker arc merely because a speaker folder exists. If the evidence is thin, preserve the folder with a routeable rationale and an explicit boundary instead.
+
 ## The boundary
 
 A **speaker arc** preserves:
@@ -79,12 +83,19 @@ The comparison sits above it.
 3. Only then ask whether the cross-host differential is itself worth preserving.
 4. If yes, write a comparative note above the arcs without replacing them.
 
+For lighter speakers, the practical sequence is:
+
+1. Write the routeable rationale.
+2. Route materialized appearances to the correct source or host surface.
+3. Create a host-local arc only after recurrence becomes useful.
+4. Create a helix or comparative note only after multiple mature strands need comparison.
+
 ## Current example
 
 For `speaker arc`, the host-local layer includes:
 
-- [diesen-freeman-speaker-arc.md](../../../codex/years/2026/diesen/diesen-freeman-speaker-arc.md)
-- [alkorshid-freeman-speaker-arc.md](../../../codex/years/2026/alkorshid/alkorshid-freeman-speaker-arc.md)
+- [diesen-freeman-speaker-arc.md](../../../codex/speakers/diesen/stream/diesen-freeman-speaker-arc.md)
+- [alkorshid-freeman-speaker-arc.md](../../../codex/speakers/alkorshid/stream/alkorshid-freeman-speaker-arc.md)
 
 The higher comparative question is:
 

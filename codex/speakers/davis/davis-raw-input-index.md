@@ -195,6 +195,10 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Danie
 
 - [youtube-daniel-davis-deep-dive-trump-forces-ukraine-strategy-the-world-rejects-it-2025-02-20](../../years/2026/raw-input/2025-02-20/youtube-daniel-davis-deep-dive-trump-forces-ukraine-strategy-the-world-rejects-it-2025-02-20.md)
 
+## 2025-02-27
+
+- [youtube-daniel-davis-deep-dive-trump-abandon-or-protecting-ukraine-alexander-mercouris-2025-02-27](../../years/2025/raw-input/2025-02-27/youtube-daniel-davis-deep-dive-trump-abandon-or-protecting-ukraine-alexander-mercouris-2025-02-27.md)
+
 ## 2025-03-10
 
 - [youtube-daniel-davis-deep-dive-breaking-ukraine-army-collapsing-in-kursk-russia-surrounds-ukrainian-soldiers-2025-03-10](../../years/2026/raw-input/2025-03-10/youtube-daniel-davis-deep-dive-breaking-ukraine-army-collapsing-in-kursk-russia-surrounds-ukrainian-soldiers-2025-03-10.md)
@@ -230,6 +234,10 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Danie
 
 - [youtube-daniel-davis-deep-dive-col-doug-macgregor-u-s-prepares-for-war-2025-10-01](../../years/2026/raw-input/2025-10-01/youtube-daniel-davis-deep-dive-col-doug-macgregor-u-s-prepares-for-war-2025-10-01.md)
 
+## 2025-10-02
+
+- [youtube-daniel-davis-deep-dive-us-helps-ukraine-strike-deep-into-russia-alexander-mercouris-2025-10-02](../../years/2025/raw-input/2025-10-02/youtube-daniel-davis-deep-dive-us-helps-ukraine-strike-deep-into-russia-alexander-mercouris-2025-10-02.md)
+
 ## 2025-10-10
 
 - [youtube-daniel-davis-deep-dive-pressure-on-putin-to-finish-ukraine-war-lt-col-daniel-davis-matt-hoh-2025-10-10](../../years/2026/raw-input/2025-10-10/youtube-daniel-davis-deep-dive-pressure-on-putin-to-finish-ukraine-war-lt-col-daniel-davis-matt-hoh-2025-10-10.md)
@@ -251,6 +259,10 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Danie
 ## 2025-11-05
 
 - [youtube-daniel-davis-deep-dive-col-doug-macgregor-russia-warns-ukraine-time-to-surrender-2025-11-05](../../years/2026/raw-input/2025-11-05/youtube-daniel-davis-deep-dive-col-doug-macgregor-russia-warns-ukraine-time-to-surrender-2025-11-05.md)
+
+## 2025-11-12
+
+- [youtube-daniel-davis-deep-dive-us-largest-warship-in-latin-american-waters-alexander-mercouris-2025-11-12](../../years/2025/raw-input/2025-11-12/youtube-daniel-davis-deep-dive-us-largest-warship-in-latin-american-waters-alexander-mercouris-2025-11-12.md)
 
 ## 2025-11-21
 
@@ -288,6 +300,10 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Danie
 ## 2025-12-29
 
 - [youtube-daniel-davis-deep-dive-russia-will-finish-off-ukraine-andrei-martyanov-and-lt-col-daniel-davis-2025-12-29](../../years/2026/raw-input/2025-12-29/youtube-daniel-davis-deep-dive-russia-will-finish-off-ukraine-andrei-martyanov-and-lt-col-daniel-davis-2025-12-29.md)
+
+## 2026-01-09
+
+- [youtube-daniel-davis-deep-dive-russia-attacks-using-new-oreshnik-missile-alexander-mercouris-2026-01-09](../../years/2026/raw-input/2026-01-09/youtube-daniel-davis-deep-dive-russia-attacks-using-new-oreshnik-missile-alexander-mercouris-2026-01-09.md)
 
 ## 2026-01-14
 

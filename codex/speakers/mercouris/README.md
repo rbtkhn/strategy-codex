@@ -10,8 +10,14 @@ Use it for speaker identity, host continuity, and route maps into the active Mer
 
 - [index.md](index.md)
 - [mercouris-speaker-object.md](mercouris-speaker-object.md)
+- [stream/mercouris-arc.md](stream/mercouris-arc.md)
+- [stream/mercouris-arc-threads.md](stream/mercouris-arc-threads.md)
 - [mercouris-cross-host-note.md](mercouris-cross-host-note.md)
 - [mercouris-raw-input-index.md](mercouris-raw-input-index.md)
+
+## Arc Model
+
+`mercouris-arc` is a stream-native bounded helix of recurring `mercouris-arc-threads`, not a mature cross-host speaker helix. The thread atlas names the recurring strands; monthly shelves and pages show how those strands braid in time.
 
 ## Stream
 

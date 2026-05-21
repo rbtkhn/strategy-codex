@@ -2,9 +2,9 @@
 
 WORK only; not Record.
 
-object_shape: stream-native
+object_shape: stream-native arc
 
-Purpose: define Mercouris as a first-class speaker object without forcing him into the wrong shape. Unlike Crooke or Ritter, whose most useful speaker notes are cross-host helixes, Mercouris is primarily a stream-native speaker object whose main body already exists as the native [mercouris cognition stream](/C:/dev/strategy-codex/codex/speakers/mercouris/README.md).
+Purpose: define Mercouris as a first-class speaker object without forcing him into the wrong shape. Unlike Crooke or Ritter, whose most useful speaker notes are cross-host helixes, Mercouris is primarily a stream-native speaker object whose main body already exists as the native [mercouris cognition stream](/C:/dev/strategy-codex/codex/speakers/mercouris/README.md). Within that stream, `mercouris-arc` should be read as a bounded helix containing multiple `mercouris-arc-threads`.
 
 ## Core claim
 
@@ -13,10 +13,17 @@ Mercouris is a real speaker object in this notebook, but his strength is not pri
 That means the cleanest first description is:
 
 - a **stream-anchored** speaker object
+- a **stream-native arc** whose recurring arc-threads braid across months
 - with unusually high **cadence**, **consistency**, and **materialized depth**
 - and with secondary guest appearances that reinforce the object without yet redefining it as a mature multi-host helix
 
 The native Mercouris stream is therefore not background evidence for some higher object elsewhere. It is the main body of the speaker object itself.
+
+## Arc doctrine
+
+`mercouris-arc` is not a synonym for the whole folder and not a single episode run. It is the bounded helix carried by the native stream. It contains multiple recurring `mercouris-arc-threads`, currently indexed at [mercouris-arc-threads.md](/C:/dev/strategy-codex/codex/speakers/mercouris/stream/mercouris-arc-threads.md).
+
+Use [mercouris-arc.md](/C:/dev/strategy-codex/codex/speakers/mercouris/stream/mercouris-arc.md) when the question is about the bounded arc shape. Use the thread atlas when the question is about durable theses. Use the monthly shelves and pages when the question is about dated sequencing.
 
 ## Why Mercouris matters
 
@@ -47,7 +54,7 @@ In other words: do not read Mercouris as a failed Crooke or an unfinished Ritter
 
 ## Secondary reinforcement
 
-The main secondary reinforcement currently visible is **Davis guest appearance support**. That matters because it shows the Mercouris voice can survive translation into another host lane, but the guest-distributed body is still much thinner than the native stream body.
+The main secondary reinforcement currently visible is the stable **Davis x Mercouris host-local arc**. That matters because it shows the Mercouris voice can survive translation into another host lane, especially under Davis's military-feasibility and policy-risk questioning. The guest-distributed body is now real enough to route, but it is still thinner than the native Mercouris stream body.
 
 See [mercouris-cross-host-note.md](/C:/dev/strategy-codex/codex/speakers/mercouris/mercouris-cross-host-note.md).
 
@@ -55,7 +62,7 @@ See [mercouris-cross-host-note.md](/C:/dev/strategy-codex/codex/speakers/mercour
 
 If the operator needs the best current entry into the speaker object:
 
-- open [mercouris-book-2026-05.md](/C:/dev/strategy-codex/codex/speakers/mercouris/stream/mercouris-book-2026-05.md)
+- open [mercouris-shelf-2026-05.md](/C:/dev/strategy-codex/codex/speakers/mercouris/stream/mercouris-shelf-2026-05.md)
 
 If the operator needs the sharpest current frontier page:
 
@@ -65,18 +72,25 @@ If the operator needs the object doctrine rather than the live stream:
 
 - stay here, then read [mercouris-cross-host-note.md](/C:/dev/strategy-codex/codex/speakers/mercouris/mercouris-cross-host-note.md)
 
+If the operator needs the Mercouris arc:
+
+- open [mercouris-arc.md](/C:/dev/strategy-codex/codex/speakers/mercouris/stream/mercouris-arc.md)
+- then open [mercouris-arc-threads.md](/C:/dev/strategy-codex/codex/speakers/mercouris/stream/mercouris-arc-threads.md)
+
 ## Routing use
 
 Use this speaker-object note when the notebook is doing one or more of the following:
 
 - asking why Mercouris belongs on the `speakers/` shelf even though his main body is a cognition stream
 - deciding whether Mercouris should be treated as a helix-first or stream-first object
+- routing `mercouris-arc` as a stream-native bounded helix of arc-threads
 - comparing depth-stable speaker importance against wider host-spread importance
 - routing Mercouris material without collapsing his rich native stream into a thin generic profile
 
 ## Boundaries
 
 - This note is not a Mercouris helix note.
+- `mercouris-arc` contains multiple `mercouris-arc-threads`; it is not a single undifferentiated continuity stream.
 - The native Mercouris stream remains canonical for day-to-day reading and frontier work.
 - Secondary guest appearances matter, but they do not yet outweigh the stream-native body.
 - If cross-host density materially thickens later, a separate `mercouris-helix.md` can be created without replacing this speaker-object note.

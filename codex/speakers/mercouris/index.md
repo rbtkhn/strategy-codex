@@ -8,9 +8,15 @@ Purpose: front door for the canonical Mercouris shelf.
 
 - [README.md](README.md)
 - [mercouris-speaker-object.md](mercouris-speaker-object.md)
+- [stream/mercouris-arc.md](stream/mercouris-arc.md)
+- [stream/mercouris-arc-threads.md](stream/mercouris-arc-threads.md)
 - [mercouris-cross-host-note.md](mercouris-cross-host-note.md)
 - [mercouris-raw-input-index.md](mercouris-raw-input-index.md)
 - [stream/mercouris-thread.md](stream/mercouris-thread.md)
+
+## Arc Model
+
+`mercouris-arc` is the stream-native bounded helix. It contains multiple `mercouris-arc-threads`; it is not merely the Diesen guest branch and not yet a mature Mercouris speaker helix.
 
 ## Stream Highlights
 

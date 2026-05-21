@@ -15,6 +15,7 @@ Open here when the question is not merely which Davis episode to read, but how D
 ## Native stream
 
 - Stream shelf: [stream/](stream/)
+- Davis x Mercouris host-local branch: [stream/davis-mercouris-speaker-arc.md](stream/davis-mercouris-speaker-arc.md)
 
 ## Boundary
 

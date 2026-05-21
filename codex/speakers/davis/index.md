@@ -23,6 +23,7 @@ Purpose: front door for the canonical Davis host shelf.
 - [stream/davis-macgregor-speaker-arc.md](stream/davis-macgregor-speaker-arc.md)
 - [stream/davis-marandi-speaker-arc.md](stream/davis-marandi-speaker-arc.md)
 - [stream/davis-mearsheimer-speaker-arc.md](stream/davis-mearsheimer-speaker-arc.md)
+- [stream/davis-mercouris-speaker-arc.md](stream/davis-mercouris-speaker-arc.md)
 - [stream/davis-ritter-speaker-arc.md](stream/davis-ritter-speaker-arc.md)
 
 ## Boundary

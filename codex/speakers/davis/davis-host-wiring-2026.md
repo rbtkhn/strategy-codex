@@ -30,6 +30,7 @@ Davis is the notebook's clearest host for **military feasibility, battlefield dy
 | Marandi | Iranian operational limits, war-feasibility, and political-resilience countervoice. | [arc](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-marandi-speaker-arc.md) | Open for Tehran-side resilience and U.S. force-posture realism. |
 | Martyanov | Military-feasibility, force-balance, and war-outcome realism. | [arc](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-martyanov-speaker-arc.md) | Open for the strongest Davis-side military balance and outcome check. |
 | Mearsheimer | War-feasibility, coercive limits, and bargaining geometry. | [arc](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-mearsheimer-speaker-arc.md) | Open when structural realism needs to be grounded in practical bargaining limits. |
+| Mercouris | Diplomatic sequencing, institutional politics, and escalation logic under Davis's force-feasibility questions. | [arc](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-mercouris-speaker-arc.md) | Open for Ukraine settlement mechanics, European spoiler logic, Iran/Venezuela spillover, Oreshnik signaling, and rule-of-law / statecraft erosion. |
 | Postol | Technical destruction, deterrence realism, and missile-effects correction. | [arc](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-postol-speaker-arc.md) | Open for engineering, missile defense, nuclear doctrine, and weapons-effects questions. |
 | Ritter | Operational failure and war-feasibility warning. | [arc](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-ritter-speaker-arc.md) | Open for stockpiles, skies, bases, blockade practicality, and war-plan reality checks. |
 
@@ -38,6 +39,7 @@ Davis is the notebook's clearest host for **military feasibility, battlefield dy
 - Best single Davis host arc for operational feasibility: [arc](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-ritter-speaker-arc.md)
 - Best technical branch: [arc](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-postol-speaker-arc.md)
 - Best diplomatic-process branch: [arc](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-crooke-speaker-arc.md)
+- Best diplomatic-sequencing / institutional-politics branch: [arc](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-mercouris-speaker-arc.md)
 - Best structural-realist branch: [arc](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-mearsheimer-speaker-arc.md)
 
 ## Routing Lesson - Title Inference

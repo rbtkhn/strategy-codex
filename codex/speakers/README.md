@@ -45,6 +45,17 @@ Existing `*-page-template.md` files are compatibility stubs for older page scaff
 
 A speaker folder becomes a first-class speaker-object folder when it contains a `*-speaker-object.md` note. That note is an orientation and routing object, not a provenance ledger.
 
+Minimum invariant: every canonical speaker folder needs a **routeable rationale**. That rationale answers why the folder exists, where a future agent should open first, what evidence or branch currently supports the object, and what maturity claim must not be overstated. A routeable rationale may be a speaker object, profile, native stream map, host-local arc pointer, cross-host note, authored ledger, or helix. It does **not** require a substantial arc in every folder.
+
+Use an arc, helix, or authored-pressure ledger only when the evidence warrants it:
+
+- a **host-local speaker arc** is earned by a recurring host x speaker lane
+- a **speaker helix** is earned by multiple host-local arcs that are strong enough to compare
+- an **authored-pressure ledger** is earned by a substantial authored corpus with interview pressure
+- a **profile-only** or **cross-host-reinforced** object is valid when the speaker is useful but recurrence is still thin or uneven
+
+This prevents two opposite errors: empty shelves with no re-entry path, and premature helix/arc language that makes a light or search-backed body look more embodied than it is.
+
 Each speaker-object note should include:
 
 - `WORK only; not Record.`
