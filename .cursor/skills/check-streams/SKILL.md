@@ -3,7 +3,7 @@ name: check-streams
 preferred_activation: check streams
 description: 'Check the daily tracked YouTube stream roster for Davis, Diesen, Alkorshid/Dialogue Works, Napolitano/Judging Freedom, and Mercouris: discover today''s uploads, filter suspected clips, list main uploads first, materialize only the operator-approved subset into canonical raw-input, and suggest speaker-folder routing hints.'
 portable: true
-version: 0.2.3
+version: 0.2.5
 tags:
 - operator
 - strategy
@@ -37,6 +37,100 @@ Treat `check streams` as the intake gate, not the durable interpretation layer.
 
 After materialization, prefer asking **which appearance was created and which route stack it strengthens** before updating lattice surfaces. Do not create or update speaker objects automatically from the daily check unless the operator explicitly asks.
 
+## Answer-first stopping rule
+
+When the operator asks for a **bounded retrieval object** inside the check-streams domain, return that object **immediately** and stop unless broader workflow was explicitly requested.
+
+Examples:
+
+- if the operator asks for **URLs**, return the URLs first
+- if the operator asks for a **priority order**, return the priority order first
+- if the operator asks for **which items are missing**, return the missing set first
+
+Do **not** expand a bounded retrieval ask into discovery repair, dependency installation, transcript materialization, routing updates, or rubric analysis unless the operator explicitly asks for that next layer after receiving the requested object.
+
+Short rule:
+
+`requested object in hand -> answer -> stop`
+
+The daily ingest workflow exists to support operator intent, not to outrank it.
+
+## Meaning of "check streams"
+
+Default interpretation:
+
+- **source discovery first**
+- **repo reconciliation second**
+- **materialization third**
+
+If the operator says `check-streams` or `check streams` without narrowing it to `repo-only`, assume they want you to check the live source surfaces first, especially YouTube, and only then compare that result against local `raw-input`, receipts, and inventories.
+
+Do not silently collapse `check streams` into a repo-only audit unless the operator explicitly asks for a local-only check.
+
+## Mode split
+
+Explicitly distinguish these three modes in your own reasoning and in operator-facing results when useful:
+
+- **YouTube discovery** = what appears to exist on the live source side for the requested day, month, stream, or speaker
+- **Repo audit** = what is already present locally in `raw-input`, receipts, inventories, and adjacent artifacts
+- **Repair / materialization** = taking an approved or operator-pasted item and turning it into canonical `raw-input`
+
+Short rule:
+
+`discover -> compare -> repair only if asked or clearly supplied`
+
+For bounded retrieval asks such as `find more Freeman`, `missing days list`, or `show URLs`, discovery should lead unless the operator explicitly says `repo-local`, `already on disk`, or similar.
+
+## Status labels
+
+When returning results, label each item or group with one of these statuses whenever feasible:
+
+- **already captured**
+- **found externally, missing locally**
+- **materialized from operator paste**
+- **discovered but unresolved**
+- **missing direct watch URL**
+
+Do not blur these states together in prose. In particular:
+
+- `already captured` means a local `raw-input` artifact already exists
+- `found externally, missing locally` means the item is evidenced outside the repo but not yet present in local `raw-input`
+- `materialized from operator paste` means the operator supplied the transcript body and you used that to create or strengthen the local artifact
+- `discovered but unresolved` means the title/date/source shape appears real, but transcript-grade or canonical-source conditions are not yet satisfied
+- `missing direct watch URL` means exactly that: you found external evidence, but not a trustworthy direct YouTube watch URL
+
+## URL confidence rule
+
+- If you have a **direct YouTube watch URL**, show it first.
+- If you have only a **secondary listing URL** such as a podcast mirror, transcript mirror, Apple Podcasts, Art19, Podbay, Podchaser, or similar, say so plainly.
+- Do **not** synthesize, infer, or guess a `youtube.com/watch?v=` URL from partial evidence.
+- When a direct watch URL is missing, keep the item labeled `missing direct watch URL` until it is actually recovered.
+
+## Inventory staleness rule
+
+Treat repo inventories, `needs capture` labels, and prior receipts as useful but non-authoritative hints.
+
+- A row marked `needs capture` may already exist in `raw-input`
+- A row marked `mirrored` may still be weak, stale, or incomplete
+- A missing inventory row does not prove the item never existed
+
+Before reporting an item as missing locally, check the actual date folders and likely filename variants in `raw-input`.
+
+Short rule:
+
+`inventory is a hint, raw-input tree is the authority`
+
+## Month-ledger closeout
+
+When the operator is working a month, a speaker batch, or another bounded calendar slice, prefer ending with a compact ledger:
+
+- **captured**
+- **found externally, missing locally**
+- **repaired this pass**
+- **still missing direct watch URL**
+
+This helps distinguish discovery completeness from transcript/materialization completeness.
+
 ## Fullness-before-closure rule
 
 Do not treat a successful daily run as complete merely because discovery and materialization succeeded.
@@ -58,7 +152,7 @@ Short rule:
 
 Use [skill-closure-doctrine.md](../../docs/skill-closure-doctrine.md) as the shared maturity test.
 
-For this skill, stronger synthesis belongs only after the daily run has yielded verified appearances and the correct next route. A successful ingest run does not, by itself, justify speaker doctrine, lattice interpretation, or shelf-level meaning.
+For this skill, stronger synthesis belongs only after the daily run has yielded verified appearances and the correct next route. A successful ingest run does not by itself justify speaker doctrine or shelf-level meaning.
 
 ## YouTube-first invariant
 
@@ -419,6 +513,7 @@ Use "candidate" when the target does not exist yet or would require a new speake
 - Never reuse blocked candidate ids from March `N` as if they belonged to March `N+1` without explicit date evidence.
 - Never end a partially failed day-check without showing the operator the exact manual-fetch queue that remains.
 - Never blur the final verdict: the answer must end with the **trusted set only**, not with mixed-confidence speculation.
+- Never continue into repair, capture, dependency, or routing work after a bounded retrieval ask has already been satisfied, unless the operator explicitly asks for the next step.
 
 ## Success condition
 
