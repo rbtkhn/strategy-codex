@@ -1,6 +1,11 @@
 #!/usr/bin/env python3
 """Triage inbox thread lines to per-expert transcript files (append + prune).
 
+Legacy machinery note: the canonical people-shelf contract is now
+``codex/speakers/<name>/`` plus ``codex/years/2026/raw-input/`` for provenance.
+This script still contains older path assumptions and should not be read as the
+architectural source of truth.
+
 For each indexed expert, extracts ``thread:<expert_id>`` lines from
 ``codex/daily-strategy-inbox.md``, appends new date/line pairs to the expert's
 active ``codex/years/2026/<expert_id>/<expert_id>-transcript.md`` file (preserving any operator edits),

@@ -33,7 +33,7 @@ Davis should currently be read as a **stream-native speaker object**.
 
 That means:
 
-- the main body of the object is [codex/years/2026/davis/](/C:/dev/strategy-codex/codex/years/2026/davis/)
+- the main body of the object is [codex/speakers/davis/stream/](/C:/dev/strategy-codex/codex/speakers/davis/stream/)
 - the speaker folder exists to orient the object at the same ontological level as `Mercouris`, `Parsi`, `Crooke`, or `Martyanov`
 - the notebook should not force Davis into helix language when the native stream is already the clearest and strongest entry path
 
@@ -41,11 +41,11 @@ That means:
 
 If the operator needs the main body of the object:
 
-- open [codex/years/2026/davis/README.md](/C:/dev/strategy-codex/codex/years/2026/davis/README.md)
+- open [codex/speakers/davis/README.md](/C:/dev/strategy-codex/codex/speakers/davis/README.md)
 
 If the operator needs the most useful guest-local routing surface:
 
-- open one of the host-local arc notes from the `davis/` shelf, for example [davis-martyanov-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/davis/davis-martyanov-speaker-arc.md) or [davis-crooke-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/davis/davis-crooke-speaker-arc.md)
+- open one of the host-local arc notes from the `davis/` shelf, for example [davis-martyanov-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-martyanov-speaker-arc.md) or [davis-crooke-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-crooke-speaker-arc.md)
 
 If the operator needs the object doctrine rather than the stream shelf:
 

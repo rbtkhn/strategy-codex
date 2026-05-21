@@ -17,7 +17,7 @@ Open here first when the question is not merely "what did Ritter say," but **whi
 
 Ritter's speaker object has two entwined but source-separated strands:
 
-- **Authored strand:** [ritter-forecast-ledger-2026.md](/C:/dev/strategy-codex/codex/years/2026/ritter/ritter-forecast-ledger-2026.md) holds the Substack-only warning and forecast spine.
+- **Authored strand:** [ritter-forecast-ledger-2026.md](/C:/dev/strategy-codex/codex/speakers/ritter/stream/ritter-forecast-ledger-2026.md) holds the Substack-only warning and forecast spine.
 - **Interview strand:** [ritter-interview-appearances-2025-2026.md](/C:/dev/strategy-codex/codex/speakers/ritter/ritter-interview-appearances-2025-2026.md) holds host-transformed appearances.
 - **Crossing surface:** [ritter-helix.md](/C:/dev/strategy-codex/codex/speakers/ritter/ritter-helix.md) explains where authored mechanisms and interview clusters reinforce, extend, or test each other.
 
@@ -31,13 +31,12 @@ In the [authored pressure quartet](/C:/dev/strategy-codex/codex/speakers/authore
 
 ## Longitudinal wiring
 
-- Year stream: [ritter README](/C:/dev/strategy-codex/codex/years/2026/ritter/README.md)
-- Forecast + warning ledger: [ritter-forecast-ledger-2026.md](/C:/dev/strategy-codex/codex/years/2026/ritter/ritter-forecast-ledger-2026.md)
-- Consolidation note: [ritter-lane-consolidation-2026-05.md](/C:/dev/strategy-codex/codex/years/2026/ritter/ritter-lane-consolidation-2026-05.md)
+- Forecast + warning ledger: [ritter-forecast-ledger-2026.md](/C:/dev/strategy-codex/codex/speakers/ritter/stream/ritter-forecast-ledger-2026.md)
+- Consolidation note: [ritter-lane-consolidation-2026-05.md](/C:/dev/strategy-codex/codex/speakers/ritter/stream/ritter-lane-consolidation-2026-05.md)
 
 ## Host lanes
 
-- [Diesen x Ritter](/C:/dev/strategy-codex/codex/years/2026/diesen/diesen-ritter-speaker-arc.md)
-- [Davis x Ritter](/C:/dev/strategy-codex/codex/years/2026/davis/davis-ritter-speaker-arc.md)
-- [Dialogue Works x Ritter](/C:/dev/strategy-codex/codex/years/2026/alkorshid/alkorshid-ritter-speaker-arc.md)
-- [Judging Freedom x Ritter](/C:/dev/strategy-codex/codex/years/2026/napolitano/napolitano-ritter-speaker-arc.md)
+- [Diesen x Ritter](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-ritter-speaker-arc.md)
+- [Davis x Ritter](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-ritter-speaker-arc.md)
+- [Dialogue Works x Ritter](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-ritter-speaker-arc.md)
+- [Judging Freedom x Ritter](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-ritter-speaker-arc.md)

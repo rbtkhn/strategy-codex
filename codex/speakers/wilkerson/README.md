@@ -17,6 +17,6 @@ Open here first when the question is not merely "what did Wilkerson say," but **
 
 ## Host lanes
 
-- [Dialogue Works x Wilkerson](/C:/dev/strategy-codex/codex/years/2026/alkorshid/alkorshid-wilkerson-speaker-arc.md)
-- [Diesen x Wilkerson](/C:/dev/strategy-codex/codex/years/2026/diesen/diesen-wilkerson-speaker-arc.md)
-- [Judging Freedom x Wilkerson](/C:/dev/strategy-codex/codex/years/2026/napolitano/napolitano-wilkerson-speaker-arc.md)
+- [Dialogue Works x Wilkerson](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-wilkerson-speaker-arc.md)
+- [Diesen x Wilkerson](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-wilkerson-speaker-arc.md)
+- [Judging Freedom x Wilkerson](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-wilkerson-speaker-arc.md)

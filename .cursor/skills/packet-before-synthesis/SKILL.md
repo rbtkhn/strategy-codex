@@ -91,9 +91,9 @@ If `5` is yes, stop and packet first.
 
 ## Working examples in this repo
 
-- **Mechanism:** [pape-page-2026-04-29-youtube-pape-grim-nuclear-iran-inevitable.md](../../codex/years/2026/pape/pape-page-2026-04-29-youtube-pape-grim-nuclear-iran-inevitable.md)
-- **Process:** [parsi-page-2026-04-21-x-ceasefire-hormuz-cluster.md](../../codex/years/2026/parsi/parsi-page-2026-04-21-x-ceasefire-hormuz-cluster.md)
-- **Register:** [marandi-page-2026-04-21-blockade-islamabad-hormuz.md](../../codex/years/2026/supporting-voices/marandi/marandi-page-2026-04-21-blockade-islamabad-hormuz.md)
+- **Mechanism:** [pape-page-2026-04-29-youtube-pape-grim-nuclear-iran-inevitable.md](../../codex/speakers/pape/stream/pape-page-2026-04-29-youtube-pape-grim-nuclear-iran-inevitable.md)
+- **Process:** [parsi-page-2026-04-21-x-ceasefire-hormuz-cluster.md](../../codex/speakers/parsi/stream/parsi-page-2026-04-21-x-ceasefire-hormuz-cluster.md)
+- **Register:** [marandi-page-2026-04-21-blockade-islamabad-hormuz.md](../../codex/speakers/marandi/marandi-page-2026-04-21-blockade-islamabad-hormuz.md)
 - **Dual-register hard-security seam:** [packet-before-synthesis-doctrine.md](../../docs/skill-work/work-strategy/packet-before-synthesis-doctrine.md)
 - **Dual-register legitimacy seam:** [rome-persia-legitimacy-signal-check.md](../../codex/rome-persia-legitimacy-signal-check.md)
 

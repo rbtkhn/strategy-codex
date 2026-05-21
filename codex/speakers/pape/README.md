@@ -16,10 +16,9 @@ Open here first when the question is not merely "what did Pape say," but how his
 
 ## Longitudinal wiring
 
-- Year stream: [pape README](/C:/dev/strategy-codex/codex/years/2026/pape/README.md)
-- Forecast ledger: [pape-forecast-ledger-2026.md](/C:/dev/strategy-codex/codex/years/2026/pape/pape-forecast-ledger-2026.md)
+- Forecast ledger: [pape-forecast-ledger-2026.md](/C:/dev/strategy-codex/codex/speakers/pape/stream/pape-forecast-ledger-2026.md)
 - Interview appearance map: [pape-interview-appearances-2026.md](/C:/dev/strategy-codex/codex/speakers/pape/pape-interview-appearances-2026.md)
-- Consolidation note: [pape-lane-consolidation-2026-05.md](/C:/dev/strategy-codex/codex/years/2026/pape/pape-lane-consolidation-2026-05.md)
+- Consolidation note: [pape-lane-consolidation-2026-05.md](/C:/dev/strategy-codex/codex/speakers/pape/stream/pape-lane-consolidation-2026-05.md)
 
 ## Two-strand helix
 

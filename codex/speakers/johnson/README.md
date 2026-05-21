@@ -17,7 +17,7 @@ Open here first when the question is not merely "what did Johnson say," but **wh
 
 ## Host lanes
 
-- [Diesen x Johnson](/C:/dev/strategy-codex/codex/years/2026/diesen/diesen-johnson-speaker-arc.md)
-- [Davis x Johnson](/C:/dev/strategy-codex/codex/years/2026/davis/davis-johnson-speaker-arc.md)
-- [Dialogue Works x Johnson](/C:/dev/strategy-codex/codex/years/2026/alkorshid/alkorshid-johnson-speaker-arc.md)
-- [Judging Freedom x Johnson](/C:/dev/strategy-codex/codex/years/2026/napolitano/napolitano-johnson-speaker-arc.md)
+- [Diesen x Johnson](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-johnson-speaker-arc.md)
+- [Davis x Johnson](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-johnson-speaker-arc.md)
+- [Dialogue Works x Johnson](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-johnson-speaker-arc.md)
+- [Judging Freedom x Johnson](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-johnson-speaker-arc.md)

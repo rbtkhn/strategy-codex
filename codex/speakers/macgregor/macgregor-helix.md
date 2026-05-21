@@ -20,19 +20,19 @@ A real April 2026 `Napolitano x Macgregor` branch now exists on disk as a useful
 
 | Host lane | Distinct register | What it reveals best |
 |---|---|---|
-| [diesen x macgregor](/C:/dev/strategy-codex/codex/years/2026/diesen/diesen-macgregor-speaker-arc.md) | Geopolitical altitude and imperial-distance consequence | NATO fracture, order consequence, logistics burden, and how Gulf and Europe become linked theaters of imperial exhaustion |
-| [davis x macgregor](/C:/dev/strategy-codex/codex/years/2026/davis/davis-macgregor-speaker-arc.md) | Force-feasibility and political danger | Project Freedom failure, Hormuz cost, inflation and logistics pain, and the domestic political danger of war rhetoric outrunning reality |
+| [diesen x macgregor](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-macgregor-speaker-arc.md) | Geopolitical altitude and imperial-distance consequence | NATO fracture, order consequence, logistics burden, and how Gulf and Europe become linked theaters of imperial exhaustion |
+| [davis x macgregor](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-macgregor-speaker-arc.md) | Force-feasibility and political danger | Project Freedom failure, Hormuz cost, inflation and logistics pain, and the domestic political danger of war rhetoric outrunning reality |
 
 ## Open first
 
 If the operator needs the cleanest single introduction to the helix:
 
-- open [davis-macgregor-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/davis/davis-macgregor-speaker-arc.md)
+- open [davis-macgregor-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-macgregor-speaker-arc.md)
 
 If the operator needs the best pair:
 
-- open [davis-macgregor-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/davis/davis-macgregor-speaker-arc.md)
-- then [diesen-macgregor-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/diesen/diesen-macgregor-speaker-arc.md)
+- open [davis-macgregor-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-macgregor-speaker-arc.md)
+- then [diesen-macgregor-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-macgregor-speaker-arc.md)
 
 That order works because Davis makes the immediate costs and political dangers cleaner, while Diesen widens the same voice into order consequence and imperial-distance framing.
 

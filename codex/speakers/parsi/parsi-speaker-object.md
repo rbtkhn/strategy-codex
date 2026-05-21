@@ -40,8 +40,8 @@ Parsi should now be read as a **two-strand policy-process helix**.
 
 That means:
 
-- the native [parsi cognition stream](/C:/dev/strategy-codex/codex/years/2026/parsi/README.md) is still the main body of the object
-- the authored [forecast and diplomacy ledger](/C:/dev/strategy-codex/codex/years/2026/parsi/parsi-forecast-ledger-2025-2026.md) is the canonical mechanism strand
+- the native [parsi cognition stream](/C:/dev/strategy-codex/codex/speakers/parsi/README.md) is still the main body of the object
+- the authored [forecast and diplomacy ledger](/C:/dev/strategy-codex/codex/speakers/parsi/stream/parsi-forecast-ledger-2025-2026.md) is the canonical mechanism strand
 - the [interview appearance map](/C:/dev/strategy-codex/codex/speakers/parsi/parsi-interview-appearances-2025-2026.md) is the host-pressure strand
 - the [parsi helix](/C:/dev/strategy-codex/codex/speakers/parsi/parsi-helix.md) shows where those strands cross
 
@@ -74,11 +74,11 @@ See [parsi-cross-host-note.md](/C:/dev/strategy-codex/codex/speakers/parsi/parsi
 
 If the operator needs the best current stream entry:
 
-- open [parsi-lane-consolidation-2026-05.md](/C:/dev/strategy-codex/codex/years/2026/parsi/parsi-lane-consolidation-2026-05.md)
+- open [parsi-lane-consolidation-2026-05.md](/C:/dev/strategy-codex/codex/speakers/parsi/stream/parsi-lane-consolidation-2026-05.md)
 
 If the operator needs the best refined page:
 
-- open [parsi-page-2026-04-21-x-ceasefire-hormuz-cluster.md](/C:/dev/strategy-codex/codex/years/2026/parsi/parsi-page-2026-04-21-x-ceasefire-hormuz-cluster.md)
+- open [parsi-page-2026-04-21-x-ceasefire-hormuz-cluster.md](/C:/dev/strategy-codex/codex/speakers/parsi/stream/parsi-page-2026-04-21-x-ceasefire-hormuz-cluster.md)
 
 If the operator needs the object doctrine rather than the live stream:
 

@@ -16,10 +16,9 @@ Open here first when the question is not merely "what did Parsi say," but how hi
 
 ## Longitudinal wiring
 
-- Year stream: [parsi README](/C:/dev/strategy-codex/codex/years/2026/parsi/README.md)
-- Forecast + diplomacy ledger: [parsi-forecast-ledger-2025-2026.md](/C:/dev/strategy-codex/codex/years/2026/parsi/parsi-forecast-ledger-2025-2026.md)
+- Forecast + diplomacy ledger: [parsi-forecast-ledger-2025-2026.md](/C:/dev/strategy-codex/codex/speakers/parsi/stream/parsi-forecast-ledger-2025-2026.md)
 - Interview appearance map: [parsi-interview-appearances-2025-2026.md](/C:/dev/strategy-codex/codex/speakers/parsi/parsi-interview-appearances-2025-2026.md)
-- Consolidation note: [parsi-lane-consolidation-2026-05.md](/C:/dev/strategy-codex/codex/years/2026/parsi/parsi-lane-consolidation-2026-05.md)
+- Consolidation note: [parsi-lane-consolidation-2026-05.md](/C:/dev/strategy-codex/codex/speakers/parsi/stream/parsi-lane-consolidation-2026-05.md)
 
 ## Two-strand helix
 

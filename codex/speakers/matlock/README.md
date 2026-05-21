@@ -9,7 +9,7 @@ Open here when the question is not simply "which Diesen episode contains Matlock
 ## Start here
 
 - [matlock-speaker-object.md](/C:/dev/strategy-codex/codex/speakers/matlock/matlock-speaker-object.md)
-- Diesen host arc: [diesen-matlock-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/diesen/diesen-matlock-speaker-arc.md)
+- Diesen host arc: [diesen-matlock-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-matlock-speaker-arc.md)
 
 ## Direct appearance set
 

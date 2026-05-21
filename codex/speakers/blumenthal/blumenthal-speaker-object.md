@@ -46,8 +46,8 @@ So Blumenthal is not best read as a failed helix. He is best read as a speaker o
 
 The clearest current reinforcement beyond the primary Nemo-side transcript is:
 
-- the `marandi-blumenthal-jf-primary` weave environment in [pape-thread.md](/C:/dev/strategy-codex/codex/years/2026/pape/pape-thread.md)
-- routing references in [davis-thread.md](/C:/dev/strategy-codex/codex/years/2026/davis/davis-thread.md) where Blumenthal is explicitly treated as a distinct U.S.-domestic and media amplifier rather than a substitute for Marandi or Pape
+- the `marandi-blumenthal-jf-primary` weave environment in [pape-thread.md](/C:/dev/strategy-codex/codex/speakers/pape/stream/pape-thread.md)
+- routing references in [davis-thread.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-thread.md) where Blumenthal is explicitly treated as a distinct U.S.-domestic and media amplifier rather than a substitute for Marandi or Pape
 
 See [blumenthal-cross-host-note.md](/C:/dev/strategy-codex/codex/speakers/blumenthal/blumenthal-cross-host-note.md).
 

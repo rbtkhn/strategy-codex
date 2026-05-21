@@ -14,5 +14,5 @@ provenance_roots = [
 
 [[guest_matrices]]
 file = "codex/speakers/davis/davis-host-wiring-2026.md"
-arc_glob = "codex/years/2026/davis/davis-*-speaker-arc.md"
+arc_glob = "codex/speakers/davis/stream/davis-*-speaker-arc.md"
 expected_count = 13

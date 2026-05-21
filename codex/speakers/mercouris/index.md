@@ -1,0 +1,24 @@
+# Mercouris Index
+
+WORK only; not Record.
+
+Purpose: front door for the canonical Mercouris shelf.
+
+## Open First
+
+- [README.md](README.md)
+- [mercouris-speaker-object.md](mercouris-speaker-object.md)
+- [mercouris-cross-host-note.md](mercouris-cross-host-note.md)
+- [mercouris-raw-input-index.md](mercouris-raw-input-index.md)
+- [stream/mercouris-thread.md](stream/mercouris-thread.md)
+
+## Stream Highlights
+
+- [stream/mercouris-shelf-2026-05.md](stream/mercouris-shelf-2026-05.md)
+- [stream/mercouris-page-2026-05-08-to-2026-05-12.md](stream/mercouris-page-2026-05-08-to-2026-05-12.md)
+- [stream/mercouris-page-2026-05-04-to-2026-05-07.md](stream/mercouris-page-2026-05-04-to-2026-05-07.md)
+- [stream/mercouris-page-2026-04-30-to-2026-05-02.md](stream/mercouris-page-2026-04-30-to-2026-05-02.md)
+
+## Boundary
+
+Mercouris is canonical under `codex/speakers/mercouris/`. Raw-text authority stays in [`codex/years/2026/raw-input/`](C:/dev/strategy-codex/codex/years/2026/raw-input).

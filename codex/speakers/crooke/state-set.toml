@@ -5,7 +5,7 @@ compact_state_files = [
   "codex/speakers/crooke/README.md",
   "codex/speakers/crooke/crooke-helix.md",
   "codex/speakers/crooke/crooke-interview-appearances-2025-2026.md",
-  "codex/years/2026/crooke/crooke-forecast-ledger-2026.md",
+  "codex/speakers/crooke/stream/crooke-forecast-ledger-2026.md",
 ]
 
 provenance_roots = [
@@ -13,7 +13,7 @@ provenance_roots = [
 ]
 
 [[source_sets]]
-file = "codex/years/2026/crooke/crooke-forecast-ledger-2026.md"
+file = "codex/speakers/crooke/stream/crooke-forecast-ledger-2026.md"
 expected_count = 24
 required_prefixes = ["substack-crooke-"]
 excluded_patterns = [

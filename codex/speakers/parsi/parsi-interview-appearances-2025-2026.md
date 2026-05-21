@@ -67,7 +67,7 @@ This is the crossing table between the interview strand and the authored diploma
 
 ## Backlog / Exclusions
 
-- Authored Substack and Responsible Statecraft captures stay in [parsi-forecast-ledger-2025-2026.md](/C:/dev/strategy-codex/codex/years/2026/parsi/parsi-forecast-ledger-2025-2026.md), not this Source Set.
+- Authored Substack and Responsible Statecraft captures stay in [parsi-forecast-ledger-2025-2026.md](/C:/dev/strategy-codex/codex/speakers/parsi/stream/parsi-forecast-ledger-2025-2026.md), not this Source Set.
 - Generic `transcript-parsi.md` stubs are excluded until host/source identity is resolved.
 - Date-named `*-parsi.md` files and `tparsi-x-bundle-*` captures are excluded from this v1 host-appearance layer; they may become a fast-cycle support layer later.
 - This note supplements the authored ledger and the Parsi helix; it does not replace the native Parsi year stream.

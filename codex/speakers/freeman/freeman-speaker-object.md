@@ -22,6 +22,8 @@ He should be read primarily as a **helix-first** object:
 
 This note is a thin object shim. It does not replace [freeman-routing.md](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-routing.md), [freeman-helix.md](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-helix.md), or [freeman-thread.md](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-thread.md).
 
+For the wider cross-host surface beyond the four core host lanes, open [2026 Freeman index](/C:/dev/strategy-codex/codex/speakers/freeman/index.md) and [Freeman raw-input index](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-raw-input-index.md). Use the year bench as a ladder: `core host lane` / `non-core appearance bench` / `discovery memory`.
+
 ## Why Freeman matters
 
 Freeman's utility profile is:
@@ -35,6 +37,8 @@ Freeman's utility profile is:
 ## Recent reinforcement
 
 - `2026-05-16` [Power Moves East: China Teaches USA a Big Lesson | Chas Freeman](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-16/youtube-neutrality-studies-power-moves-east-china-teaches-usa-a-big-lesson-chas-freeman-2026-05-16.md) reinforces the Freeman object through a Neutrality Studies host lane: Trump-Xi as equal-status encounter, China as cautious order-preserving world power, Hormuz as maritime-order precedent, and diplomacy as a deteriorated Western capability.
+
+Additional non-core Freeman surfaces are already wired at the year level. The key distinction is structural: materialized transcript-bearing appearances belong to the `non-core appearance bench`, while found-but-not-yet-materialized items belong to `discovery memory`.
 
 ## Open first
 
@@ -50,8 +54,15 @@ For recent accumulated prose:
 
 - [freeman-thread.md](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-thread.md)
 
+For cross-host discovery and reinforcement beyond the four main host lanes:
+
+- [2026 Freeman index](/C:/dev/strategy-codex/codex/speakers/freeman/index.md)
+- [Freeman raw-input index](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-raw-input-index.md)
+- [December 2025-May 2026 arc-threads](/C:/dev/strategy-codex/codex/speakers/freeman/stream/freeman-dec-2025-may-2026-arc-threads.md)
+
 ## Boundaries
 
 - Do not duplicate host chronology here.
 - Do not promote any Freeman claim beyond transcript-bearing WORK evidence without separate verification.
-- Treat Neutrality Studies as an auxiliary host reinforcement unless it becomes dense enough to deserve its own host-local Freeman arc.
+- Treat materialized transcript-bearing non-core appearances as part of the live object through the year-level Freeman bench unless they later become dense enough to deserve their own host-local arc.
+- Treat found or operator-pasted appearances as `discovery memory` only until they are materialized into raw-input.

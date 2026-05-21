@@ -18,7 +18,7 @@ Open here first when the question is not merely "what did Crooke say," but which
 
 Crooke's speaker helix has two entwined but source-separated strands:
 
-- **Authored strand:** [crooke-forecast-ledger-2026.md](/C:/dev/strategy-codex/codex/years/2026/crooke/crooke-forecast-ledger-2026.md) holds the Substack-only mechanism and tension spine.
+- **Authored strand:** [crooke-forecast-ledger-2026.md](/C:/dev/strategy-codex/codex/speakers/crooke/stream/crooke-forecast-ledger-2026.md) holds the Substack-only mechanism and tension spine.
 - **Interview strand:** [crooke-interview-appearances-2025-2026.md](/C:/dev/strategy-codex/codex/speakers/crooke/crooke-interview-appearances-2025-2026.md) holds host-transformed appearances.
 - **Crossing surface:** [crooke-helix.md](/C:/dev/strategy-codex/codex/speakers/crooke/crooke-helix.md) explains where authored mechanisms and interview clusters reinforce, extend, or tension each other.
 
@@ -26,16 +26,15 @@ In the [authored pressure quartet](/C:/dev/strategy-codex/codex/speakers/authore
 
 ## Longitudinal wiring
 
-- Year stream: [crooke README](/C:/dev/strategy-codex/codex/years/2026/crooke/README.md)
-- Forecast + tension ledger: [crooke-forecast-ledger-2026.md](/C:/dev/strategy-codex/codex/years/2026/crooke/crooke-forecast-ledger-2026.md)
+- Forecast + tension ledger: [crooke-forecast-ledger-2026.md](/C:/dev/strategy-codex/codex/speakers/crooke/stream/crooke-forecast-ledger-2026.md)
 - Interview appearances: [crooke-interview-appearances-2025-2026.md](/C:/dev/strategy-codex/codex/speakers/crooke/crooke-interview-appearances-2025-2026.md)
-- Consolidation note: [crooke-lane-consolidation-2026-05.md](/C:/dev/strategy-codex/codex/years/2026/crooke/crooke-lane-consolidation-2026-05.md)
+- Consolidation note: [crooke-lane-consolidation-2026-05.md](/C:/dev/strategy-codex/codex/speakers/crooke/stream/crooke-lane-consolidation-2026-05.md)
 
 ## Host lanes
 
-- [Diesen x Crooke](/C:/dev/strategy-codex/codex/years/2026/diesen/diesen-crooke-speaker-arc.md)
-- [Davis x Crooke](/C:/dev/strategy-codex/codex/years/2026/davis/davis-crooke-speaker-arc.md)
-- [Dialogue Works x Crooke](/C:/dev/strategy-codex/codex/years/2026/alkorshid/alkorshid-crooke-speaker-arc.md)
+- [Diesen x Crooke](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-crooke-speaker-arc.md)
+- [Davis x Crooke](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-crooke-speaker-arc.md)
+- [Dialogue Works x Crooke](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-crooke-speaker-arc.md)
 
 ## Boundary
 

@@ -82,10 +82,10 @@ This is the crossing table between the interview strand and the authored Substac
 
 ## Backlog / Exclusions
 
-- Authored Substack captures stay in [crooke-forecast-ledger-2026.md](/C:/dev/strategy-codex/codex/years/2026/crooke/crooke-forecast-ledger-2026.md), not this Source Set.
+- Authored Substack captures stay in [crooke-forecast-ledger-2026.md](/C:/dev/strategy-codex/codex/speakers/crooke/stream/crooke-forecast-ledger-2026.md), not this Source Set.
 - Article, rant, unhosted date-named, and generic stub files are excluded until a separate authored-support or cleanup layer is designed.
 - A pending untracked Napolitano/Crooke capture exists in this worktree; leave it for a follow-up source-boundary decision rather than mixing it into this v1 count.
-- Host-local interpretation remains canonical for stream-specific work: [Diesen x Crooke](/C:/dev/strategy-codex/codex/years/2026/diesen/diesen-crooke-speaker-arc.md), [Davis x Crooke](/C:/dev/strategy-codex/codex/years/2026/davis/davis-crooke-speaker-arc.md), and [Dialogue Works x Crooke](/C:/dev/strategy-codex/codex/years/2026/alkorshid/alkorshid-crooke-speaker-arc.md).
+- Host-local interpretation remains canonical for stream-specific work: [Diesen x Crooke](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-crooke-speaker-arc.md), [Davis x Crooke](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-crooke-speaker-arc.md), and [Dialogue Works x Crooke](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-crooke-speaker-arc.md).
 
 ## Verification Notes
 

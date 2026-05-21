@@ -16,6 +16,6 @@ Open here first when the question is not merely "what did Mearsheimer say," but 
 
 ## Host lanes
 
-- [Diesen x Mearsheimer](/C:/dev/strategy-codex/codex/years/2026/diesen/diesen-mearsheimer-speaker-arc.md)
-- [Davis x Mearsheimer](/C:/dev/strategy-codex/codex/years/2026/davis/davis-mearsheimer-speaker-arc.md)
-- [Judging Freedom x Mearsheimer](/C:/dev/strategy-codex/codex/years/2026/napolitano/napolitano-mearsheimer-speaker-arc.md)
+- [Diesen x Mearsheimer](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-mearsheimer-speaker-arc.md)
+- [Davis x Mearsheimer](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-mearsheimer-speaker-arc.md)
+- [Judging Freedom x Mearsheimer](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-mearsheimer-speaker-arc.md)

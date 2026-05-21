@@ -1,173 +1,61 @@
-# Lane-to-Corpus Promotion Policy
+# Lane-To-Corpus Promotion Policy
 
-**Purpose:** Define when one of the `codex/years/2026` strategy-author lanes should remain a **notebook-first lane over shared intake** and when it should be promoted into a **dedicated external corpus**. **WORK only**; not Record.
+WORK only; not Record.
+
+## Canonical rule
+
+Strategy-codex now uses a strict split:
+
+- [`codex/speakers/`](C:/dev/strategy-codex/codex/speakers) is the canonical home for every recurring person lane, including hosts.
+- [`codex/years/2026/raw-input/`](C:/dev/strategy-codex/codex/years/2026/raw-input) is the dated provenance layer.
+
+Do not treat `codex/years/2026/<person>/` as a live notebook lane model. That pattern is retired.
 
 ## Default model
 
-The default strategy-codex pattern is:
+The default pattern is:
 
-- `codex/years/2026/<lane>/` is the **internal notebook lane**
-- shared intake lives in:
-  - `codex/years/2026/raw-input/`
-  - `research/external/work-strategy/`
-  - `research/external/youtube-channels/`
-- a lane **consumes** shared external intake unless there is strong evidence that a dedicated corpus would improve retrieval, continuity, and analysis
+- person shelf in `codex/speakers/<name>/`
+- source capture in `codex/years/2026/raw-input/YYYY-MM-DD/`
+- host-local guest transformations owned by the host shelf, typically under `codex/speakers/<host>/stream/`
 
-This means the eight current lanes are **not** external by default:
+## Promotion question
 
-- `alkorshid`
-- `crooke`
-- `davis`
-- `diesen`
-- `mercouris`
-- `pape`
-- `parsi`
-- `ritter`
+The promotion decision is no longer "should this person get a year-lane?"
 
-They are notebook-first strategy-author lanes that sit on top of shared upstream source infrastructure.
+The real question is:
 
-## Why Jiang is different
+- should the person remain a lightweight speaker shelf over shared raw-input
+- or should the person gain a richer speaker-owned corpus inside `codex/speakers/<name>/stream/`
+- or, in rarer cases, should work also justify a dedicated external research corpus outside the speaker shelf
 
-Jiang is the exception/template, not the default commentator-lane model.
+## Promote within `codex/speakers` when
 
-`work-jiang` is already a corpus-first research program because it has:
+A speaker should gain richer `stream/` structure when most of the payoff comes from continuity rather than single captures:
 
-- book-scale structure
-- prediction-scale structure
-- dedicated source registry and metadata
-- recurring evidence-pack and chapter workflow
-- clear payoff from chronology, quote discipline, and cross-episode tracking
+- sustained source volume
+- repeated reuse in notebook work
+- recurring host transformations worth preserving
+- chronology or quote pressure that a thin route map no longer handles well
+- clear savings from lane-specific manifests, ledgers, shelves, or cross-host notes
 
-That is why Jiang justifies a dedicated external corpus at `codex/predictive-history/`. The eight commentator lanes do **not** inherit that shape automatically.
+## Do not promote just because
 
-## Promotion rule
+These are not enough by themselves:
 
-A lane should be promoted to a dedicated external corpus only when shared intake no longer provides enough:
+- importance or popularity
+- one strong week or month
+- a burst of raw-input activity
+- the fact that another speaker already has a richer shelf
 
-- structure
-- continuity
-- retrieval value
-- quote discipline
-- recurring-pattern tracking
+## External corpus threshold
+
+Move beyond `codex/speakers/<name>/` only when the work clearly needs a separate research world with its own maintenance burden, such as:
+
+- dedicated source registries
+- heavy quote-bank discipline
+- prediction tracking
+- evidence packs
+- project-scale analysis that would clutter the shared strategy shelf
 
 Promotion is a workflow decision, not a prestige decision.
-
-## Strict promotion threshold
-
-A lane should meet **all or nearly all** of the following before promotion:
-
-- **High corpus volume**
-  - sustained accumulation of transcripts, essays, interviews, or posts over time
-
-- **Strong recurrence in notebook work**
-  - the lane appears repeatedly as a major analytical voice, not just in isolated bursts
-
-- **Longitudinal analytical value**
-  - the main payoff comes from cross-episode continuity rather than single-capture use
-
-- **Workflow pressure on shared intake**
-  - the shared substrate is no longer enough for retrieval, chronology, quote discipline, or recurring-pattern tracking
-
-- **Need for corpus-specific structure**
-  - dedicated claims, chronology, quote bank, source registry, evidence packs, divergence tracking, or similar surfaces would clearly improve the work
-
-- **Tooling payoff**
-  - lane-specific normalization, indexes, or crosswalks would save real effort rather than create ornamental complexity
-
-### Not enough by itself
-
-These are **not** sufficient reasons to promote a lane:
-
-- lane importance alone
-- operator interest alone
-- one burst of raw-input activity
-- one strong month of coverage
-- vague arguments that a commentator “matters”
-- the fact that Jiang already has a corpus
-
-## Promoted target shape
-
-When a lane is promoted, the target is a **dedicated external corpus** under `research/external/`, not an improvised scattering of files.
-
-### Standard minimal skeleton
-
-Use this minimal shape unless a later plan explicitly justifies more:
-
-- `research/external/<lane-or-project>/README.md`
-- `metadata/` or `sources/`
-- `transcripts/` or equivalent source-text layer
-- `analysis/`
-- `claims/` or equivalent recurring-judgment layer
-
-Optional additions only when justified:
-
-- `quote-bank/` or quote index
-- `chronology/`
-- `prediction-tracking/`
-- `evidence-packs/`
-- `divergence-tracking/`
-
-### Boundary rules after promotion
-
-Promotion does **not** change the core architecture:
-
-- `codex/years/2026/<lane>/` remains the canonical notebook lane
-- `research/external/<lane-or-project>/` becomes the upstream structured source world for that lane
-- promoted corpora remain **external/operator research**, not Record
-- notebook judgment still lives in the strategy-codex lane files
-
-## Current-state matrix for the eight lanes
-
-This matrix is provisional and should be revised only when workflow evidence changes.
-
-| Lane | Current status | Why |
-|------|----------------|-----|
-| `alkorshid` | **Stay shared** | Host/interviewer lane; value comes from mirrored guest episodes and host framing, not from a standalone corpus-first world. |
-| `crooke` | **Stay shared** | Recurring and useful, but current use still fits shared intake plus lane-local notebook synthesis. |
-| `parsi` | **Stay shared** | Important scope lane, but not yet showing enough corpus pressure to justify dedicated external structure. |
-| `pape` | **Stay shared** | Strong analytical lane, but still largely manageable through shared raw-input plus notebook tracking. |
-| `ritter` | **Watch for promotion** | High recurrence and volume pressure are visible, but the shared substrate is not yet clearly failing. |
-| `davis` | **Near threshold** | Recurrent long-form material, repeated strategy use, cross-lane reuse, and growing continuity/retrieval pressure. |
-| `diesen` | **Near threshold** | Dense recurring output and repeated strategic reuse suggest that a dedicated corpus may soon pay for itself. |
-| `mercouris` | **Near threshold** | One of the densest recurring lanes; chronology, quote discipline, and cross-episode continuity may soon justify promotion. |
-
-### Reading the matrix
-
-- **Stay shared** means shared intake is still the correct default.
-- **Watch for promotion** means the lane should be monitored for workflow pain, not promoted yet.
-- **Near threshold** means the lane is the strongest candidate for a future promotion plan, but not an automatic promotion now.
-- **Promote now** should be used only when the workflow evidence is overwhelming. No current lane in the eight-stream set is being marked that way in this policy pass.
-
-## Non-goals and safeguards
-
-### Non-goals
-
-This policy does **not** mean:
-
-- one lane = one corpus by default
-- every important commentator deserves a Jiang-like structure
-- promotion makes the lane itself external
-- promotion is a prestige marker
-- dedicated corpora are always better than shared intake
-
-### Safeguards
-
-- prefer shared intake until pain is proven
-- do not split a lane into a corpus unless it will actually be maintained
-- do not duplicate the same source world across multiple promoted corpora without explicit ownership
-- treat host/interviewer lanes as especially poor candidates for standalone corpora unless the host framing becomes analytically primary
-
-## Naming
-
-Preferred phrase:
-
-- **lane promotion to dedicated external corpus**
-
-Avoid looser phrases such as:
-
-- lane expansion
-- source upgrade
-- corpusification
-- lane migration
-
-Those blur the distinction between notebook lanes and external corpora.

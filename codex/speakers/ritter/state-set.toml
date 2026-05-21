@@ -7,7 +7,7 @@ compact_state_files = [
   "codex/speakers/ritter/ritter-routing.md",
   "codex/speakers/ritter/ritter-helix.md",
   "codex/speakers/ritter/ritter-interview-appearances-2025-2026.md",
-  "codex/years/2026/ritter/ritter-forecast-ledger-2026.md",
+  "codex/speakers/ritter/stream/ritter-forecast-ledger-2026.md",
 ]
 
 provenance_roots = [
@@ -15,7 +15,7 @@ provenance_roots = [
 ]
 
 [[source_sets]]
-file = "codex/years/2026/ritter/ritter-forecast-ledger-2026.md"
+file = "codex/speakers/ritter/stream/ritter-forecast-ledger-2026.md"
 expected_count = 22
 required_prefixes = ["substack-ritter-"]
 excluded_patterns = [

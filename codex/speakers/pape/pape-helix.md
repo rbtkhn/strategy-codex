@@ -4,7 +4,7 @@ WORK only; not Record.
 
 Purpose: compact note for reading Pape's authored forecast spine together with his host appearances. This is not a substitute for the forecast ledger or the raw-input stream. It exists so future routing can answer: when should Pape be read as a formal forecast ledger, when as public forecast transmission, and where do the two strands cross?
 
-For the authored forecast spine, see [pape-forecast-ledger-2026.md](/C:/dev/strategy-codex/codex/years/2026/pape/pape-forecast-ledger-2026.md).
+For the authored forecast spine, see [pape-forecast-ledger-2026.md](/C:/dev/strategy-codex/codex/speakers/pape/stream/pape-forecast-ledger-2026.md).
 
 For the secondary host-appearance layer, see [pape-interview-appearances-2026.md](/C:/dev/strategy-codex/codex/speakers/pape/pape-interview-appearances-2026.md).
 
@@ -32,14 +32,14 @@ Reading rule: open the authored ledger first when the question is "what did Pape
 
 | strand | primary surface | what it reveals best |
 |---|---|---|
-| Authored forecast strand | [pape-forecast-ledger-2026.md](/C:/dev/strategy-codex/codex/years/2026/pape/pape-forecast-ledger-2026.md) | Dated predictions, mechanisms, falsifiers, revisit triggers, contradictions, and the fourth-center thesis guardrails |
+| Authored forecast strand | [pape-forecast-ledger-2026.md](/C:/dev/strategy-codex/codex/speakers/pape/stream/pape-forecast-ledger-2026.md) | Dated predictions, mechanisms, falsifiers, revisit triggers, contradictions, and the fourth-center thesis guardrails |
 | Interview pressure strand | [pape-interview-appearances-2026.md](/C:/dev/strategy-codex/codex/speakers/pape/pape-interview-appearances-2026.md) | How the forecast survives Davis, Redacted, Breaking Points / Ryan Grim, and Mario Nawfal pressure |
 
 ## Open first
 
 If the operator needs the cleanest single introduction to Pape:
 
-- open [pape-forecast-ledger-2026.md](/C:/dev/strategy-codex/codex/years/2026/pape/pape-forecast-ledger-2026.md)
+- open [pape-forecast-ledger-2026.md](/C:/dev/strategy-codex/codex/speakers/pape/stream/pape-forecast-ledger-2026.md)
 
 If the operator needs the best public-pressure entry:
 

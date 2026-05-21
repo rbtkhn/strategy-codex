@@ -31,7 +31,7 @@ Napolitano should currently be read as a **stream-native speaker object**.
 
 That means:
 
-- the main body of the object is [codex/years/2026/napolitano/](/C:/dev/strategy-codex/codex/years/2026/napolitano/)
+- the main body of the object is [codex/speakers/napolitano/stream/](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/)
 - the speaker folder exists so Napolitano can sit beside `Davis`, `Diesen`, and the guest-centered objects as a peer object
 - the notebook should not force Napolitano into helix language when the native host stream is already the clearest entry path
 
@@ -39,11 +39,11 @@ That means:
 
 If the operator needs the main body of the object:
 
-- open [codex/years/2026/napolitano/README.md](/C:/dev/strategy-codex/codex/years/2026/napolitano/README.md)
+- open [codex/speakers/napolitano/README.md](/C:/dev/strategy-codex/codex/speakers/napolitano/README.md)
 
 If the operator needs the host-local transformation of a specific guest:
 
-- open one of the host-local arc notes in the `napolitano/` shelf, for example [napolitano-johnson-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/napolitano/napolitano-johnson-speaker-arc.md) or [napolitano-ritter-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/napolitano/napolitano-ritter-speaker-arc.md)
+- open one of the host-local arc notes in the `napolitano/` shelf, for example [napolitano-johnson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-johnson-speaker-arc.md) or [napolitano-ritter-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-ritter-speaker-arc.md)
 
 If the operator needs the object doctrine rather than the stream shelf:
 

@@ -3,7 +3,7 @@
 
 WORK only; not Record.
 
-**Expert:** `mearsheimer` · **Interviewer:** Glenn Diesen · **Published:** 2026-01-31 · Sibling: [diesen-page-2026-01-31-diesen-mearsheimer-cold-war-nato-ukraine-2026-01-31.md](../diesen/diesen-page-2026-01-31-diesen-mearsheimer-cold-war-nato-ukraine-2026-01-31.md)
+**Expert:** `mearsheimer` · **Interviewer:** Glenn Diesen · **Published:** 2026-01-31 · Sibling: [diesen-page-2026-01-31-diesen-mearsheimer-cold-war-nato-ukraine-2026-01-31.md](../diesen/stream/diesen-page-2026-01-31-diesen-mearsheimer-cold-war-nato-ukraine-2026-01-31.md)
 
 ---
 
@@ -13,7 +13,7 @@ Guest, 31 Jan 2026. Mearsheimer’s opening: a multipolar system in which the Un
 
 ### Reflection
 
-Analytic lane only; the host’s “Europe expected unity and got division” is in the [diesen file](../diesen/diesen-page-2026-01-31-diesen-mearsheimer-cold-war-nato-ukraine-2026-01-31.md). Raw tail duplication is noted in `capture_note` (operator).
+Analytic lane only; the host’s “Europe expected unity and got division” is in the [diesen file](../diesen/stream/diesen-page-2026-01-31-diesen-mearsheimer-cold-war-nato-ukraine-2026-01-31.md). Raw tail duplication is noted in `capture_note` (operator).
 
 ### Foresight
 
@@ -23,8 +23,8 @@ Analytic lane only; the host’s “Europe expected unity and got division” is
 
 ### Appendix
 
-- **Full verbatim (capture):** [raw-input/2026-01-31/transcript-diesen-mearsheimer-cold-war-nato-ukraine-2026-01-31.md](../../raw-input/2026-01-31/transcript-diesen-mearsheimer-cold-war-nato-ukraine-2026-01-31.md)
+- **Full verbatim (capture):** [raw-input/2026-01-31/transcript-diesen-mearsheimer-cold-war-nato-ukraine-2026-01-31.md](../../../years/2026/raw-input/2026-01-31/transcript-diesen-mearsheimer-cold-war-nato-ukraine-2026-01-31.md)
 - **Inbox / triage:** [daily-strategy-inbox.md](../../daily-strategy-inbox.md)
-- **`thread:mearsheimer` × `thread:diesen` ·** Host: [../diesen/diesen-page-2026-01-31-diesen-mearsheimer-cold-war-nato-ukraine-2026-01-31.md](../diesen/diesen-page-2026-01-31-diesen-mearsheimer-cold-war-nato-ukraine-2026-01-31.md)
+- **`thread:mearsheimer` × `thread:diesen` ·** Host: [../diesen/stream/diesen-page-2026-01-31-diesen-mearsheimer-cold-war-nato-ukraine-2026-01-31.md](../diesen/stream/diesen-page-2026-01-31-diesen-mearsheimer-cold-war-nato-ukraine-2026-01-31.md)
 - **Canonical primary:** `https://www.youtube.com/watch?v=OV75YsYnE8U`
 - **Legacy stub:** [mearsheimer-page-2026-01-31-cold-war-nato-ukraine.md](mearsheimer-page-2026-01-31-cold-war-nato-ukraine.md)

@@ -3,6 +3,9 @@
 
 **Project:** Operator strategy-codex (grace-mar work-strategy)
 
+> [!IMPORTANT]
+> Path contract update: `codex/years/2026/` is no longer a live people-lane volume. It is reserved for dated raw-input provenance via `codex/years/2026/raw-input/`. Canonical people shelves now live under `codex/speakers/<name>/`, with host-local guest arcs owned by the host shelf, typically under `stream/`.
+
 **Relation to `skill-strategy`:** [`.cursor/skills/skill-strategy/SKILL.md`](../../../../.cursor/skills/skill-strategy/SKILL.md) is the **activation surface** for **`strategy`**. **This document**, [NOTEBOOK-PREFERENCES.md](NOTEBOOK-PREFERENCES.md), and [daily-strategy-inbox.md](daily-strategy-inbox.md) (paste-ready line SSOT) are **incorporated by reference** into that skill ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â **one contract**, split across files for readability and maintenance, **not** a parallel ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã¢â‚¬Å“architecture-onlyÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â track beside the skill.
 
 ## Volume / book / chapter / page scaffold
@@ -211,7 +214,7 @@ Single entry point (working name **`strategy_ingest`** or fold into **`strategy_
 
 #### Worked example ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â Alexander Mercouris ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â· air date **2026-04-16**
 
-Source: a time-scoped Mercouris transcript fence under `codex/years/2026/mercouris/` at **`## 2026-04-16`** (thesis-scaffold verbatim trimmed to policy). **Shape** for bold theses + separated paragraphs: [strategy-expert-template.md#thesis-scaffold-pattern](strategy-expert-template.md#thesis-scaffold-pattern). Below: **five theses** in narrative order, each with **sample verbatim sentences** (short excerpt table ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â same episode).
+Source: a time-scoped Mercouris transcript fence under `codex/speakers/mercouris/stream/` at **`## 2026-04-16`** (thesis-scaffold verbatim trimmed to policy). **Shape** for bold theses + separated paragraphs: [strategy-expert-template.md#thesis-scaffold-pattern](strategy-expert-template.md#thesis-scaffold-pattern). Below: **five theses** in narrative order, each with **sample verbatim sentences** (short excerpt table ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â same episode).
 
 | Order | Thesis (operator label) | Verbatim scaffold (excerpts) |
 |------|-------------------------|--------------------------------|

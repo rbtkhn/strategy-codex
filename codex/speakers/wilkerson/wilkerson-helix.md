@@ -20,19 +20,19 @@ A real April 2026 `Napolitano x Wilkerson` branch now exists on disk as well, bu
 
 | Host lane | Distinct register | What it reveals best |
 |---|---|---|
-| [diesen x wilkerson](/C:/dev/strategy-codex/codex/years/2026/diesen/diesen-wilkerson-speaker-arc.md) | Imperial-decline altitude and order consequence | Legitimacy collapse, BRICS / de-dollarization consequence, strategic self-harm, and the way Hormuz pressure widens into systemic imperial decline |
-| [Dialogue Works x Wilkerson](/C:/dev/strategy-codex/codex/years/2026/alkorshid/alkorshid-wilkerson-speaker-arc.md) | Live crisis pressure and military-statecraft warning | Blockade impossibility, point-of-no-return language, strategic incoherence under active stress, and the immediate cost of elite delusion |
+| [diesen x wilkerson](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-wilkerson-speaker-arc.md) | Imperial-decline altitude and order consequence | Legitimacy collapse, BRICS / de-dollarization consequence, strategic self-harm, and the way Hormuz pressure widens into systemic imperial decline |
+| [Dialogue Works x Wilkerson](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-wilkerson-speaker-arc.md) | Live crisis pressure and military-statecraft warning | Blockade impossibility, point-of-no-return language, strategic incoherence under active stress, and the immediate cost of elite delusion |
 
 ## Open first
 
 If the operator needs the cleanest single introduction to the helix:
 
-- open [diesen-wilkerson-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/diesen/diesen-wilkerson-speaker-arc.md)
+- open [diesen-wilkerson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-wilkerson-speaker-arc.md)
 
 If the operator needs the best pair:
 
-- open [diesen-wilkerson-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/diesen/diesen-wilkerson-speaker-arc.md)
-- then [alkorshid-wilkerson-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/alkorshid/alkorshid-wilkerson-speaker-arc.md)
+- open [diesen-wilkerson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-wilkerson-speaker-arc.md)
+- then [alkorshid-wilkerson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-wilkerson-speaker-arc.md)
 
 That order works because Diesen gives the wider architecture first, while Dialogue Works makes the same voice more acute under event-pressure conditions.
 

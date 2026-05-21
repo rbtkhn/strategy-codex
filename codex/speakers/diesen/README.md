@@ -14,7 +14,7 @@ Open here when the question is not merely which Diesen episode to read, but how 
 
 ## Native stream
 
-- Year stream: [codex/years/2026/diesen/README.md](/C:/dev/strategy-codex/codex/years/2026/diesen/README.md)
+- Stream shelf: [stream/](stream/)
 
 ## Boundary
 

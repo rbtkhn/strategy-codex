@@ -43,7 +43,7 @@ Napolitano is now a real auxiliary reinforcement branch rather than a canonical 
 
 The full Ritter object should be read as a **two-strand helix wrapped around the host triple-helix**:
 
-- **Authored/Substack strand:** the [forecast ledger](/C:/dev/strategy-codex/codex/years/2026/ritter/ritter-forecast-ledger-2026.md) records Ritter's own warnings, mechanisms, and tensions from `substack-ritter-*` captures.
+- **Authored/Substack strand:** the [forecast ledger](/C:/dev/strategy-codex/codex/speakers/ritter/stream/ritter-forecast-ledger-2026.md) records Ritter's own warnings, mechanisms, and tensions from `substack-ritter-*` captures.
 - **Interview/host strand:** the [interview appearance map](/C:/dev/strategy-codex/codex/speakers/ritter/ritter-interview-appearances-2025-2026.md) records how hosts make those claims operational, escalatory, live, or legal.
 - **Crossing rule:** do not mix source sets, but do read them together. Open the authored row for the claim, then open the host cluster that tests how the claim behaves under questioning.
 
@@ -57,7 +57,7 @@ If the operator needs the cleanest single orientation:
 
 If the operator needs the strongest host-local entry:
 
-- open [davis-ritter-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/davis/davis-ritter-speaker-arc.md)
+- open [davis-ritter-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-ritter-speaker-arc.md)
 
 If the operator needs cross-host comparison:
 
@@ -65,7 +65,7 @@ If the operator needs cross-host comparison:
 
 If the operator needs authored/native longitudinal state:
 
-- open [codex/years/2026/ritter/README.md](/C:/dev/strategy-codex/codex/years/2026/ritter/README.md)
+- open [codex/speakers/ritter/README.md](/C:/dev/strategy-codex/codex/speakers/ritter/README.md)
 
 ## Routing use
 

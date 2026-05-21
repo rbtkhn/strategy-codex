@@ -14,7 +14,7 @@ Open here when the question is not merely which Davis episode to read, but how D
 
 ## Native stream
 
-- Year stream: [codex/years/2026/davis/README.md](/C:/dev/strategy-codex/codex/years/2026/davis/README.md)
+- Stream shelf: [stream/](stream/)
 
 ## Boundary
 

@@ -1,6 +1,11 @@
 #!/usr/bin/env python3
 """Extract raw material for per-expert thread distillation.
 
+Legacy machinery note: the canonical people-shelf contract is now
+``codex/speakers/<name>/`` plus ``codex/years/2026/raw-input/`` for provenance.
+This script still contains older path assumptions and should not be read as the
+architectural source of truth.
+
 Reads from active ``codex/years/2026/<id>/<id>-transcript.md`` files (recent verbatim),
 **inbox lines** that link ``raw-input/â€¦`` for the same ``thread:<id>`` lane,
 ``strategy-page`` blocks, optional legacy on-disk index rows; writes structured

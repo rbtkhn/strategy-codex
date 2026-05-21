@@ -34,7 +34,7 @@ Local interview appearance count: 48 captures.
 | Diesen | 2025-10-07 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/raw-input/2025-10-07/youtube-glenn-diesen-scott-ritter-scott-ritter-tomahawks-end-of-nato-coming-nuclear-war-2025-10-07.md) | escalation horizon |
 | Diesen | 2025-10-24 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/raw-input/2025-10-24/youtube-glenn-diesen-scott-ritter-scott-ritter-russia-fed-up-with-nato-escalations-retaliation-is-coming-2025-10-24.md) | escalation horizon |
 | Diesen | 2025-12-01 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/raw-input/2025-12-01/youtube-glenn-diesen-scott-ritter-scott-ritter-war-has-been-won-russia-faces-a-dilemma-2025-12-01.md) | escalation horizon |
-| Diesen | 2025-12-09 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/raw-input/2025-12-09/youtube-glenn-diesen-scott-ritter-scott-ritter-the-u-s-now-considers-the-eu-an-enemy-2025-12-09.md) | escalation horizon |
+| Diesen | 2025-12-10 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/raw-input/2025-12-10/youtube-glenn-diesen-scott-ritter-scott-ritter-the-u-s-now-considers-the-eu-an-enemy-2025-12-10.md) | escalation horizon |
 | Diesen | 2026-01-13 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-01-13/youtube-glenn-diesen-scott-ritter-trump-set-up-putin-escalates-war-with-russia-2026-01-13.md) | escalation horizon |
 | Diesen | 2026-01-27 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-01-27/youtube-glenn-diesen-scott-ritter-us-iran-war-imminent-as-military-buildup-peaks-2026-01-27.md) | escalation horizon |
 | Diesen | 2026-02-19 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-02-19/youtube-glenn-diesen-scott-ritter-u-s-revives-empire-europe-is-no-longer-an-ally-2026-02-19.md) | escalation horizon |
@@ -81,10 +81,10 @@ Local interview appearance count: 48 captures.
 
 | host | function | open when |
 |---|---|---|
-| [Diesen x Ritter](/C:/dev/strategy-codex/codex/years/2026/diesen/diesen-ritter-speaker-arc.md) | escalation horizon | The question needs Russia/NATO, great-power escalation, sea-control consequence, or order-level mechanics. |
-| [Davis x Ritter](/C:/dev/strategy-codex/codex/years/2026/davis/davis-ritter-speaker-arc.md) | operational feasibility | The question needs stockpiles, skies, basing, blockade practicality, or war-plan reality checks. |
-| [Dialogue Works x Ritter](/C:/dev/strategy-codex/codex/years/2026/alkorshid/alkorshid-ritter-speaker-arc.md) | live war pressure | The question needs maximum event pressure, rapid inversion claims, or immediate Iran-war crisis motion. |
-| [Judging Freedom x Ritter](/C:/dev/strategy-codex/codex/years/2026/napolitano/napolitano-ritter-speaker-arc.md) | legality and command failure | The question needs war powers, command absurdity, blockade illegitimacy, or legal-libertarian pressure. |
+| [Diesen x Ritter](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-ritter-speaker-arc.md) | escalation horizon | The question needs Russia/NATO, great-power escalation, sea-control consequence, or order-level mechanics. |
+| [Davis x Ritter](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-ritter-speaker-arc.md) | operational feasibility | The question needs stockpiles, skies, basing, blockade practicality, or war-plan reality checks. |
+| [Dialogue Works x Ritter](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-ritter-speaker-arc.md) | live war pressure | The question needs maximum event pressure, rapid inversion claims, or immediate Iran-war crisis motion. |
+| [Judging Freedom x Ritter](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-ritter-speaker-arc.md) | legality and command failure | The question needs war powers, command absurdity, blockade illegitimacy, or legal-libertarian pressure. |
 | Cyrus Janssen x Ritter | energy and Hormuz shock | The question needs China/Asia-adjacent energy shock, Hormuz, or economic spillover from a non-core host. |
 | Consortium News x Ritter | adversarial debate / Russia-policy stress test | The question needs a debate setting, a Russia-policy stress test, or contrast against Ray McGovern. |
 
@@ -121,5 +121,5 @@ This is the crossing table between the interview strand and the authored Substac
 ## Verification Notes
 
 - Source Set intentionally includes 48 host-labeled captures, including the 2026-03-17, 2026-04-20, and 2026-05-18 Judging Freedom captures and the 2026-05-18 Consortium News debate capture.
-- The authored [Ritter forecast ledger](/C:/dev/strategy-codex/codex/years/2026/ritter/ritter-forecast-ledger-2026.md) remains Substack-only.
+- The authored [Ritter forecast ledger](/C:/dev/strategy-codex/codex/speakers/ritter/stream/ritter-forecast-ledger-2026.md) remains Substack-only.
 - This note preserves the existing triple helix: Diesen, Davis, and Dialogue Works remain canonical; Napolitano remains auxiliary legal reinforcement.

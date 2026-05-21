@@ -39,7 +39,7 @@ For the compact strategy-language version of this rule, see [raw-input-lane-owne
 
 When a file is a valid speaker capture, correct YAML and correct storage day are necessary but **not sufficient**. The capture is not fully integrated until it is wired into the correct host and/or speaker visibility surfaces.
 
-**Speaker wiring doctrine:** For the speaker-side route-map version of this rule, see [speaker-map/README.md](../speaker-map/README.md). This README is the canonical storage-side contract.
+**Speaker wiring doctrine:** For the speaker-side route-map version of this rule, see [codex/speakers/map/README.md](../../../speakers/map/README.md). This README is the canonical storage-side contract.
 
 ## Raw-Input Wiring Contract
 
@@ -64,6 +64,11 @@ Two distinct architectures overlap here and should not be conflated:
 
 That means `raw-input/` answers "what exact source text do we have, and on what publication day does it belong?" while speaker folders, host lanes, and related indexes answer "where should this capture be visible for judgment and re-entry?"
 
+Benchmark pin:
+
+- `raw-input/` owns provenance, publication day, capture materialization, and primary ownership
+- speaker and host routing surfaces own downstream visibility, re-entry paths, and completeness checks after materialization
+
 Helper layers may still live nearby, but they are not the same thing as primary evidence units. Day files such as `YYYY-MM-DD-speaker.md`, verify sidecars, scaffold notes, inventories, and queue docs help operators and agents work the tree; they do not replace the underlying capture file.
 
 ## Ownership And Downstream Obligations
@@ -86,6 +91,42 @@ The repo does not need code for this yet, but each valid speaker raw-input shoul
 - `status`: `materialized`, `discovery-only`, or `pending-date`
 
 Treat this as policy-first architecture that can later support audits or automation.
+
+## Wiring Obligations
+
+Once a speaker capture is valid and materialized, the architecture imposes concrete obligations:
+
+1. `raw-input/` must hold the publication-day evidence unit with correct primary ownership.
+2. The correct host and/or speaker surfaces must expose that unit for re-entry.
+3. Discovery memory must either promote the item into materialized routing or release it as a discarded lead; it must not act as a parking lot for already-materialized captures.
+
+Treat those as completion conditions, not aspirations.
+
+## Audit Questions
+
+Use these checks whenever you materialize, backfill, or review speaker captures:
+
+1. Does the file exist in the correct dated folder with stable publication-day placement?
+2. Is primary ownership legible from filename, YAML, and surrounding context?
+3. If the capture belongs to a durable speaker lane, where is its speaker-side visibility surface?
+4. If the capture belongs to a durable host lane, where is its host-side visibility surface?
+5. Is any discovery-memory note still carrying an item that is already materialized and should have been promoted?
+6. Is any scaffold, snippet, or pending-date file pretending to be a terminal home rather than a temporary state?
+
+If one of those questions cannot be answered cleanly, treat the capture as under-wired.
+
+## Failure Modes
+
+The common failure is not only missing files. It is false completion.
+
+- `stored but invisible`: the raw-input exists, but no correct speaker or host route exposes it
+- `speaker-only memory drift`: a speaker note mentions the appearance, but the materialized raw-input is absent or misowned
+- `discovery-memory trap`: a valid materialized capture is still described as a find rather than promoted into the bench or lane
+- `pending-date freeze`: a file stays in `_aired-pending/` after publication day is knowable
+- `scaffold capture confusion`: snippets, verify files, or queue docs begin to function as if they were evidence units
+- `ownership / visibility collapse`: the notebook forgets that primary ownership and downstream visibility are different decisions
+
+The contract is only healthy when those failure modes are actively checked rather than assumed away.
 
 ## Publication vocabulary (formal pin)
 

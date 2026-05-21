@@ -67,7 +67,7 @@ This is the crossing table between the interview strand and the authored Substac
 
 ## Backlog / Exclusions
 
-- Authored Substack captures stay in [pape-forecast-ledger-2026.md](/C:/dev/strategy-codex/codex/years/2026/pape/pape-forecast-ledger-2026.md), not this Source Set.
+- Authored Substack captures stay in [pape-forecast-ledger-2026.md](/C:/dev/strategy-codex/codex/speakers/pape/stream/pape-forecast-ledger-2026.md), not this Source Set.
 - Generic `transcript-pape.md` stubs are excluded even when they mention Cyrus Janssen or X material; they need a cleanup/source-identity pass before promotion.
 - `x-pape-*`, date-named captures, and `verify-pape-*` files are excluded from this v1 host-appearance layer; they may become a fast-cycle or verification support layer later.
 - This note supplements the authored forecast ledger and the Pape helix; it does not replace the native Pape year stream.

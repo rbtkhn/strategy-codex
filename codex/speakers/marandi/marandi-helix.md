@@ -16,20 +16,20 @@ Marandi is therefore best read as a **helix-first speaker object**: one of the c
 
 | Host lane | Distinct register | What it reveals best |
 |---|---|---|
-| [diesen x marandi](/C:/dev/strategy-codex/codex/years/2026/diesen/diesen-marandi-speaker-arc.md) | Strategic-order / escalation horizon | Iranian strategy, retaliation ladders, blockade logic, and how the war sits inside wider order transition |
-| [davis x marandi](/C:/dev/strategy-codex/codex/years/2026/davis/davis-marandi-speaker-arc.md) | Operational limits | Failed intimidation, Iranian resilience, shrinking U.S. options, and what force can no longer realistically recover |
-| [alkorshid x marandi](/C:/dev/strategy-codex/codex/years/2026/alkorshid/alkorshid-marandi-speaker-arc.md) | Live crisis pressure | Ultimata, strikes, Hormuz, Yemen, collapse claims, and immediate regional signaling under maximum pressure |
+| [diesen x marandi](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-marandi-speaker-arc.md) | Strategic-order / escalation horizon | Iranian strategy, retaliation ladders, blockade logic, and how the war sits inside wider order transition |
+| [davis x marandi](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-marandi-speaker-arc.md) | Operational limits | Failed intimidation, Iranian resilience, shrinking U.S. options, and what force can no longer realistically recover |
+| [alkorshid x marandi](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-marandi-speaker-arc.md) | Live crisis pressure | Ultimata, strikes, Hormuz, Yemen, collapse claims, and immediate regional signaling under maximum pressure |
 
 ## Open first
 
 If the operator needs the cleanest single introduction to the helix:
 
-- open [davis-marandi-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/davis/davis-marandi-speaker-arc.md)
+- open [davis-marandi-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-marandi-speaker-arc.md)
 
 If the operator needs the best helix pair:
 
-- open [davis-marandi-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/davis/davis-marandi-speaker-arc.md)
-- then [diesen-marandi-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/diesen/diesen-marandi-speaker-arc.md)
+- open [davis-marandi-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-marandi-speaker-arc.md)
+- then [diesen-marandi-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-marandi-speaker-arc.md)
 
 Add the Dialogue Works shelf when the notebook needs the highest-pressure present-tense sequence rather than only the Davis feasibility check and the Glenn escalation-horizon frame.
 

@@ -1,9 +1,10 @@
-# Deprecated experts path
+# Deprecated Experts Path
 
-`codex/experts/` is a compatibility pointer only. The active strategy-codex corpus now lives under `codex/years/2026/`.
+`codex/experts/` is a compatibility surface only.
 
-- Current cognition streams: `codex/years/2026/<author>/`
-- Speakers: `codex/speakers/<slug>/`
-- Shared raw input: `codex/years/2026/raw-input/`
+Canonical locations are now:
 
-Do not add new work here. Use the year-volume shelves under `/codex/years/2026`.
+- people lanes: [`codex/speakers/`](C:/dev/strategy-codex/codex/speakers)
+- dated provenance: [`codex/years/2026/raw-input/`](C:/dev/strategy-codex/codex/years/2026/raw-input)
+
+Do not create new canonical shelves under `codex/experts/` or under `codex/years/2026/<person>/`.

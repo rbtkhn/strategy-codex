@@ -6,7 +6,7 @@
 
 ## Primary 2026 Volume
 
-The active corpus home is now [`2026/`](2026/): a year-volume with first-class cognition-stream shelves for Alkorshid, Diesen, Mercouris, Davis, Pape, Parsi, Ritter, and Crooke. Durable channel profiles live in [`profiles/`](profiles/). Shared raw input lives under [`2026/raw-input/`](2026/raw-input/), and civ-mem appears as a compact analytical spine rather than a duplicate corpus.
+The active 2026 year layer is now provenance-only. Shared raw input lives under [`2026/raw-input/`](2026/raw-input/). Canonical people shelves, including hosts, live under [`speakers/`](speakers/). Durable channel profiles live in [`profiles/`](profiles/).
 
 Use the old `experts/` path only as a deprecated compatibility pointer.
 

@@ -4,7 +4,7 @@ WORK only; not Record.
 
 Purpose: compact note for reading Parsi's authored diplomacy spine together with his host appearances. This is not a substitute for the forecast ledger or the raw-input stream. It exists so future routing can answer: when should Parsi be read as policy-process author, when as interview witness under pressure, and where do the two strands cross?
 
-For the authored diplomacy spine, see [parsi-forecast-ledger-2025-2026.md](/C:/dev/strategy-codex/codex/years/2026/parsi/parsi-forecast-ledger-2025-2026.md).
+For the authored diplomacy spine, see [parsi-forecast-ledger-2025-2026.md](/C:/dev/strategy-codex/codex/speakers/parsi/stream/parsi-forecast-ledger-2025-2026.md).
 
 For the secondary host-appearance layer, see [parsi-interview-appearances-2025-2026.md](/C:/dev/strategy-codex/codex/speakers/parsi/parsi-interview-appearances-2025-2026.md).
 
@@ -32,14 +32,14 @@ Reading rule: open the authored ledger first when the question is "what is Parsi
 
 | strand | primary surface | what it reveals best |
 |---|---|---|
-| Authored diplomacy strand | [parsi-forecast-ledger-2025-2026.md](/C:/dev/strategy-codex/codex/years/2026/parsi/parsi-forecast-ledger-2025-2026.md) | Implementation over symbolism, Israel as escalation engine, coercion failure, ceasefire leverage, and regional security architecture |
+| Authored diplomacy strand | [parsi-forecast-ledger-2025-2026.md](/C:/dev/strategy-codex/codex/speakers/parsi/stream/parsi-forecast-ledger-2025-2026.md) | Implementation over symbolism, Israel as escalation engine, coercion failure, ceasefire leverage, and regional security architecture |
 | Interview pressure strand | [parsi-interview-appearances-2025-2026.md](/C:/dev/strategy-codex/codex/speakers/parsi/parsi-interview-appearances-2025-2026.md) | How the authored mechanism translates under Davis, Napolitano, Duran/Mercouris, and Diesen pressure |
 
 ## Open first
 
 If the operator needs the cleanest single introduction to Parsi:
 
-- open [parsi-forecast-ledger-2025-2026.md](/C:/dev/strategy-codex/codex/years/2026/parsi/parsi-forecast-ledger-2025-2026.md)
+- open [parsi-forecast-ledger-2025-2026.md](/C:/dev/strategy-codex/codex/speakers/parsi/stream/parsi-forecast-ledger-2025-2026.md)
 
 If the operator needs the best interview-pressure entry:
 

@@ -3,7 +3,7 @@
 
 WORK only; not Record.
 
-**Expert:** `mearsheimer` · **Interviewer:** Glenn Diesen · **Published:** 2026-02-25 · Sibling: [diesen-page-2026-02-25-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md](../diesen/diesen-page-2026-02-25-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md)
+**Expert:** `mearsheimer` · **Interviewer:** Glenn Diesen · **Published:** 2026-02-25 · Sibling: [diesen-page-2026-02-25-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md](../diesen/stream/diesen-page-2026-02-25-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md)
 
 ---
 
@@ -13,7 +13,7 @@ Guest, 25 Feb 2026. Mearsheimer’s layered “will it happen / should it” cas
 
 ### Reflection
 
-Guest thesis stack; SOTU-leaning host phrasing is in the [diesen file](../diesen/diesen-page-2026-02-25-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md).
+Guest thesis stack; SOTU-leaning host phrasing is in the [diesen file](../diesen/stream/diesen-page-2026-02-25-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md).
 
 ### Foresight
 
@@ -23,8 +23,8 @@ Guest thesis stack; SOTU-leaning host phrasing is in the [diesen file](../diesen
 
 ### Appendix
 
-- **Full verbatim (capture):** [raw-input/2026-02-25/transcript-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md](../../raw-input/2026-02-25/transcript-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md)
+- **Full verbatim (capture):** [raw-input/2026-02-25/transcript-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md](../../../years/2026/raw-input/2026-02-25/transcript-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md)
 - **Inbox / triage:** [daily-strategy-inbox.md](../../daily-strategy-inbox.md)
-- **`thread:mearsheimer` × `thread:diesen` ·** Host: [../diesen/diesen-page-2026-02-25-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md](../diesen/diesen-page-2026-02-25-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md)
+- **`thread:mearsheimer` × `thread:diesen` ·** Host: [../diesen/stream/diesen-page-2026-02-25-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md](../diesen/stream/diesen-page-2026-02-25-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md)
 - **Canonical primary:** `https://www.youtube.com/watch?v=vx1KnspP1gM`
 - **Legacy stub:** [mearsheimer-page-2026-02-25-case-for-nuclear-iran.md](mearsheimer-page-2026-02-25-case-for-nuclear-iran.md)

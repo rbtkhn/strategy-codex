@@ -20,19 +20,19 @@ An April 2026 `Napolitano x Mearsheimer` branch is now routeable on disk as well
 
 | Host lane | Distinct register | What it reveals best |
 |---|---|---|
-| [diesen x mearsheimer](/C:/dev/strategy-codex/codex/years/2026/diesen/diesen-mearsheimer-speaker-arc.md) | Structural altitude | Great-power geometry, NATO decline, security-dilemma logic, order transition, and the way local wars plug into wider systemic change |
-| [davis x mearsheimer](/C:/dev/strategy-codex/codex/years/2026/davis/davis-mearsheimer-speaker-arc.md) | Coercive failure and bargaining geometry | Failed punishment logic, shrinking leverage, settlement impossibility, and the gap between what Washington threatens and what it can actually impose |
+| [diesen x mearsheimer](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-mearsheimer-speaker-arc.md) | Structural altitude | Great-power geometry, NATO decline, security-dilemma logic, order transition, and the way local wars plug into wider systemic change |
+| [davis x mearsheimer](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-mearsheimer-speaker-arc.md) | Coercive failure and bargaining geometry | Failed punishment logic, shrinking leverage, settlement impossibility, and the gap between what Washington threatens and what it can actually impose |
 
 ## Open first
 
 If the operator needs the cleanest single introduction to the helix:
 
-- open [diesen-mearsheimer-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/diesen/diesen-mearsheimer-speaker-arc.md)
+- open [diesen-mearsheimer-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-mearsheimer-speaker-arc.md)
 
 If the operator needs the best pair:
 
-- open [diesen-mearsheimer-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/diesen/diesen-mearsheimer-speaker-arc.md)
-- then [davis-mearsheimer-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/davis/davis-mearsheimer-speaker-arc.md)
+- open [diesen-mearsheimer-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-mearsheimer-speaker-arc.md)
+- then [davis-mearsheimer-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-mearsheimer-speaker-arc.md)
 
 That order works because Diesen gives the wider architecture first, while Davis makes the same voice more concrete under war-feasibility pressure.
 

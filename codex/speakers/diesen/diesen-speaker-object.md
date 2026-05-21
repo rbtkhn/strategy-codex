@@ -33,7 +33,7 @@ Diesen should currently be read as a **stream-native speaker object**.
 
 That means:
 
-- the main body of the object is [codex/years/2026/diesen/](/C:/dev/strategy-codex/codex/years/2026/diesen/)
+- the main body of the object is [codex/speakers/diesen/stream/](/C:/dev/strategy-codex/codex/speakers/diesen/stream/)
 - the speaker folder exists to orient the object at the same ontological level as `Mercouris`, `Crooke`, `Ritter`, or `Mearsheimer`
 - the notebook should not force Diesen into helix language when the native stream is already the clearest and strongest entry path
 
@@ -41,11 +41,11 @@ That means:
 
 If the operator needs the main body of the object:
 
-- open [codex/years/2026/diesen/README.md](/C:/dev/strategy-codex/codex/years/2026/diesen/README.md)
+- open [codex/speakers/diesen/README.md](/C:/dev/strategy-codex/codex/speakers/diesen/README.md)
 
 If the operator needs the most useful guest-local routing surface:
 
-- open one of the host-local arc notes from the `diesen/` shelf, for example [diesen-crooke-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/diesen/diesen-crooke-speaker-arc.md) or [diesen-postol-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/diesen/diesen-postol-speaker-arc.md)
+- open one of the host-local arc notes from the `diesen/` shelf, for example [diesen-crooke-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-crooke-speaker-arc.md) or [diesen-postol-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-postol-speaker-arc.md)
 
 If the operator needs the object doctrine rather than the stream shelf:
 

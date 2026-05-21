@@ -48,8 +48,8 @@ Pape should now be read as a **two-strand forecast-pressure helix**.
 
 That means:
 
-- the native [pape cognition stream](/C:/dev/strategy-codex/codex/years/2026/pape/README.md) is still the main body of the object
-- the authored [forecast ledger](/C:/dev/strategy-codex/codex/years/2026/pape/pape-forecast-ledger-2026.md) is the canonical forecast strand
+- the native [pape cognition stream](/C:/dev/strategy-codex/codex/speakers/pape/README.md) is still the main body of the object
+- the authored [forecast ledger](/C:/dev/strategy-codex/codex/speakers/pape/stream/pape-forecast-ledger-2026.md) is the canonical forecast strand
 - the [interview appearance map](/C:/dev/strategy-codex/codex/speakers/pape/pape-interview-appearances-2026.md) is the public-pressure strand
 - the [pape helix](/C:/dev/strategy-codex/codex/speakers/pape/pape-helix.md) shows where those strands cross
 
@@ -81,7 +81,7 @@ See [pape-cross-host-note.md](/C:/dev/strategy-codex/codex/speakers/pape/pape-cr
 
 If the operator needs the best current stream entry:
 
-- open [pape-lane-consolidation-2026-05.md](/C:/dev/strategy-codex/codex/years/2026/pape/pape-lane-consolidation-2026-05.md)
+- open [pape-lane-consolidation-2026-05.md](/C:/dev/strategy-codex/codex/speakers/pape/stream/pape-lane-consolidation-2026-05.md)
 
 If the operator needs the clearest guest-distributed entry:
 

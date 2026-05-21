@@ -142,7 +142,7 @@ Canonical page paths and raw ingest lines live in **Segment 2** below (regenerat
 <!-- backfill:mearsheimer:end -->
 ## 2026-04
 
-_April **2026-04-20** ingests **Chris Hedges Report** operator transcript ([`raw-input/Ã¢â‚¬Â¦/transcript-hedges-mearsheimer-iran-2026-04-20.md`](../../raw-input/2026-04-20/transcript-hedges-mearsheimer-iran-2026-04-20.md)); Segment 2 remains **Page-index** + machine block._
+_April **2026-04-20** ingests **Chris Hedges Report** operator transcript ([`raw-input/Ã¢â‚¬Â¦/transcript-hedges-mearsheimer-iran-2026-04-20.md`](../../../years/2026/raw-input/2026-04-20/transcript-hedges-mearsheimer-iran-2026-04-20.md)); Segment 2 remains **Page-index** + machine block._
 
 April lattice is **Mercouris Ãƒâ€” Mearsheimer** (speech-act vs structural incentives) on Lebanon / Hormuz week Ã¢â‚¬â€ scaffold and blockade weaves carry the cross-expert seam; Pape Janssen block adds domestic escalation-trap vocabulary beside same cycle.
 
@@ -162,7 +162,7 @@ Verification stance for John Mearsheimer in 2026-04 should stay tier-honest: web
 - [strength: medium] **Fork:** `mercouris-mearsheimer-lebanon-split` Ã¢â‚¬â€ diplomatic surface vs incentive geometry Ã¢â‚¬â€ **do not** voice-merge.
 - [strength: medium] **Scaffold:** `marandi-ritter-mercouris-hormuz-scaffold` Ã¢â‚¬â€ DavisÃƒâ€”FreemanÃƒâ€”Mearsheimer parallel plane named in Page header.
 - [strength: medium] **Lattice:** `ritter-blockade-hormuz-weave` Ã‚Â· `pape-janssen-escalation-blockade` Ã¢â‚¬â€ blockade calendar vs structural off-ramp framing Ã¢â‚¬â€ tier discipline.
-- [strength: medium] **2026-04-20 Ã¢â‚¬â€ Chris Hedges Report:** Islamabad timing (<48h), Iran **10-point** scaffold, Hormuz blockade + ship-seizure breach frame, deal/extend-ceasefire vs escalation ladder, Israel lobby Ãƒâ€” economy cliff, Lebanon lever, **WSJ** tantrum (F-15 down) episode, Titanic/food/fertilizer/jet fuel Ã¢â‚¬â€ full transcript [`transcript-hedges-mearsheimer-iran-2026-04-20.md`](../../raw-input/2026-04-20/transcript-hedges-mearsheimer-iran-2026-04-20.md); **cross** `mercouris`, `ritter`, `pape`, IRI state bundles.
+- [strength: medium] **2026-04-20 Ã¢â‚¬â€ Chris Hedges Report:** Islamabad timing (<48h), Iran **10-point** scaffold, Hormuz blockade + ship-seizure breach frame, deal/extend-ceasefire vs escalation ladder, Israel lobby Ãƒâ€” economy cliff, Lebanon lever, **WSJ** tantrum (F-15 down) episode, Titanic/food/fertilizer/jet fuel Ã¢â‚¬â€ full transcript [`transcript-hedges-mearsheimer-iran-2026-04-20.md`](../../../years/2026/raw-input/2026-04-20/transcript-hedges-mearsheimer-iran-2026-04-20.md); **cross** `mercouris`, `ritter`, `pape`, IRI state bundles.
 
 ---
 <!-- strategy-page:start id="mercouris-mearsheimer-lebanon-split" date="2026-04-14" watch="accountability-language" -->

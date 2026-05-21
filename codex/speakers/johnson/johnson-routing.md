@@ -18,10 +18,10 @@ So this note is the **speaker-side index** into the real Johnson host lanes.
 
 | If the Codex needs... | Open first | Why |
 |---|---|---|
-| geopolitical altitude, regional realignment, Gulf vulnerability, or wider order consequence | [diesen-johnson-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/diesen/diesen-johnson-speaker-arc.md) | Diesen gives the highest-altitude Johnson lane and best translates crisis into regional and systemic consequence. |
-| operational feasibility, coercive failure, shrinking leverage, or best-case end-state realism | [davis-johnson-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/davis/davis-johnson-speaker-arc.md) | Davis gives Johnson his clearest force-versus-objective and practicality-testing ground. |
-| live crisis pressure, strike escalation, Hormuz stress, or humiliation of coercive displays | [alkorshid-johnson-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/alkorshid/alkorshid-johnson-speaker-arc.md) | Dialogue Works pushes Johnson into his sharpest present-tense crisis register. |
-| blockade skepticism, process pressure, or a compact auxiliary constitutional-libertarian reinforcement lane | [napolitano-johnson-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/napolitano/napolitano-johnson-speaker-arc.md) | Napolitano gives a real but secondary host form focused on process irrationality and war-power absurdity. |
+| geopolitical altitude, regional realignment, Gulf vulnerability, or wider order consequence | [diesen-johnson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-johnson-speaker-arc.md) | Diesen gives the highest-altitude Johnson lane and best translates crisis into regional and systemic consequence. |
+| operational feasibility, coercive failure, shrinking leverage, or best-case end-state realism | [davis-johnson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-johnson-speaker-arc.md) | Davis gives Johnson his clearest force-versus-objective and practicality-testing ground. |
+| live crisis pressure, strike escalation, Hormuz stress, or humiliation of coercive displays | [alkorshid-johnson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-johnson-speaker-arc.md) | Dialogue Works pushes Johnson into his sharpest present-tense crisis register. |
+| blockade skepticism, process pressure, or a compact auxiliary constitutional-libertarian reinforcement lane | [napolitano-johnson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-johnson-speaker-arc.md) | Napolitano gives a real but secondary host form focused on process irrationality and war-power absurdity. |
 | the cleanest all-around first orientation to Johnson as an object | [johnson-helix.md](/C:/dev/strategy-codex/codex/speakers/johnson/johnson-helix.md) | The helix note explains how the canonical triple structure fits together before you descend into a lane. |
 
 ## Best entry points
@@ -33,10 +33,10 @@ So this note is the **speaker-side index** into the real Johnson host lanes.
 
 ## By shelf function
 
-- **Best host for geopolitical-altitude reading:** [diesen](/C:/dev/strategy-codex/codex/years/2026/diesen/)
-- **Best host for operational-feasibility reading:** [davis](/C:/dev/strategy-codex/codex/years/2026/davis/)
-- **Best host for live crisis-pressure reading:** [alkorshid](/C:/dev/strategy-codex/codex/years/2026/alkorshid/)
-- **Best host for auxiliary process-and-war-power reinforcement:** [napolitano](/C:/dev/strategy-codex/codex/years/2026/napolitano/)
+- **Best host for geopolitical-altitude reading:** [diesen](/C:/dev/strategy-codex/codex/speakers/diesen/stream/)
+- **Best host for operational-feasibility reading:** [davis](/C:/dev/strategy-codex/codex/speakers/davis/stream/)
+- **Best host for live crisis-pressure reading:** [alkorshid](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/)
+- **Best host for auxiliary process-and-war-power reinforcement:** [napolitano](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/)
 
 ## Boundaries
 
