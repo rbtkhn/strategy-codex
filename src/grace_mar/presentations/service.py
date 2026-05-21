@@ -94,7 +94,12 @@ def create_app(
         template = str(
             render_options.get("template")
             or bundle["presentation_hints"]["template_key"]
-            or get_template_key(bundle["family"], bundle["subsurface"], bundle["intent"])
+            or get_template_key(
+                bundle["family"],
+                bundle["subsurface"],
+                bundle["intent"],
+                str(bundle.get("artifact_class") or ""),
+            )
         )
         language = str(render_options.get("language") or "English")
         n_slides = int(render_options.get("n_slides") or INTENT_REGISTRY[bundle["intent"]]["n_slides"])
@@ -114,8 +119,10 @@ def create_app(
             "ok": True,
             "id": service_id,
             "status": "rendered",
+            "bundle_type": bundle.get("bundle_type") or "single_bundle",
             "family": bundle["family"],
             "subsurface": bundle["subsurface"],
+            "artifact_class": bundle.get("artifact_class") or "",
             "intent": bundle["intent"],
             "title": bundle["title"],
             "audience": bundle["audience"],
@@ -145,8 +152,10 @@ def create_app(
             {
                 "id": service_id,
                 "rendered_at": now,
+                "bundle_type": bundle.get("bundle_type") or "single_bundle",
                 "family": bundle["family"],
                 "subsurface": bundle["subsurface"],
+                "artifact_class": bundle.get("artifact_class") or "",
                 "intent": bundle["intent"],
                 "title": bundle["title"],
                 "bundle_sha256": bundle_hash,

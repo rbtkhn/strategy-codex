@@ -16,8 +16,10 @@ class _FakeClient:
 
 def _bundle() -> dict:
     return {
+        "bundle_type": "single_bundle",
         "family": "civ-emp",
         "subsurface": "ce-emp",
+        "artifact_class": "statecraft_brief",
         "intent": "briefing",
         "title": "Hormuz Briefing",
         "audience": "Operators",
@@ -61,8 +63,10 @@ def test_service_render_and_lookup(tmp_path: Path) -> None:
     )
     assert resp.status_code == 201
     payload = resp.get_json()
+    assert payload["bundle_type"] == "single_bundle"
     assert payload["family"] == "civ-emp"
     assert payload["subsurface"] == "ce-emp"
+    assert payload["artifact_class"] == "statecraft_brief"
     assert payload["outputs"]["pptx_path"].endswith(".pptx")
     assert payload["outputs"]["web_view_path"].endswith("/edit")
 
@@ -80,3 +84,16 @@ def test_service_rejects_disallowed_outputs(tmp_path: Path) -> None:
     )
     assert resp.status_code == 422
     assert "not allowed" in resp.get_json()["error"]
+
+
+def test_service_rejects_unsupported_composite_bundle_type(tmp_path: Path) -> None:
+    app = create_app(client=_FakeClient(), store_root=tmp_path)
+    client = app.test_client()
+    bundle = _bundle()
+    bundle["bundle_type"] = "composite_comparison"
+    resp = client.post(
+        "/v1/bundles/render",
+        json={"bundle": bundle, "render_options": {"requested_outputs": ["pptx", "web"]}},
+    )
+    assert resp.status_code == 422
+    assert "single_bundle" in resp.get_json()["error"]

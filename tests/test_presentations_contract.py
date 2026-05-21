@@ -7,8 +7,10 @@ from grace_mar.presentations.contract import BundleValidationError, validate_bun
 
 def _base_bundle() -> dict:
     return {
+        "bundle_type": "single_bundle",
         "family": "civ-emp",
         "subsurface": "ce-emp",
+        "artifact_class": "statecraft_brief",
         "intent": "briefing",
         "title": "Hormuz Briefing",
         "audience": "Statecraft operators",
@@ -46,8 +48,10 @@ def _base_bundle() -> dict:
 
 def test_validate_bundle_accepts_valid_ce_emp() -> None:
     normalized = validate_bundle(_base_bundle())
+    assert normalized["bundle_type"] == "single_bundle"
     assert normalized["family"] == "civ-emp"
     assert normalized["subsurface"] == "ce-emp"
+    assert normalized["artifact_class"] == "statecraft_brief"
     assert normalized["intent"] == "briefing"
 
 
@@ -72,6 +76,20 @@ def test_validate_bundle_rejects_subsurface_intent_mismatch() -> None:
         validate_bundle(bundle)
 
 
+def test_validate_bundle_accepts_legacy_bundle_without_artifact_class() -> None:
+    bundle = _base_bundle()
+    bundle.pop("artifact_class")
+    normalized = validate_bundle(bundle)
+    assert normalized["artifact_class"] == ""
+
+
+def test_validate_bundle_rejects_unsupported_composite_bundle_type() -> None:
+    bundle = _base_bundle()
+    bundle["bundle_type"] = "composite_comparison"
+    with pytest.raises(BundleValidationError, match="single_bundle"):
+        validate_bundle(bundle)
+
+
 def test_validate_bundle_rejects_missing_hashes() -> None:
     bundle = _base_bundle()
     bundle["provenance"]["content_hashes"] = {}
@@ -83,8 +101,10 @@ def test_validate_bundle_rejects_ph_family_non_public_items() -> None:
     bundle = _base_bundle()
     bundle["family"] = "ph-civ"
     bundle["subsurface"] = "ph-mus"
+    bundle["artifact_class"] = "museum_route"
     bundle["intent"] = "lesson"
     bundle["policy"]["classification"] = "public"
+    bundle["policy"]["source_mode"] = "ph-mus-cli-packet"
     bundle["source_items"][0]["public"] = False
     with pytest.raises(BundleValidationError, match="public=true"):
         validate_bundle(bundle)
@@ -94,8 +114,51 @@ def test_validate_bundle_rejects_ph_family_non_public_classification() -> None:
     bundle = _base_bundle()
     bundle["family"] = "ph-civ"
     bundle["subsurface"] = "ph-civ"
+    bundle["artifact_class"] = "chapter_packet"
     bundle["intent"] = "summary"
     bundle["policy"]["classification"] = "work_public_safe"
+    bundle["policy"]["source_mode"] = "external-public-packet"
     bundle["source_items"][0]["public"] = True
     with pytest.raises(BundleValidationError, match="classification='public'"):
+        validate_bundle(bundle)
+
+
+def test_validate_bundle_rejects_ph_family_wrong_source_mode() -> None:
+    bundle = _base_bundle()
+    bundle["family"] = "ph-civ"
+    bundle["subsurface"] = "ph-civ"
+    bundle["artifact_class"] = "chapter_packet"
+    bundle["intent"] = "summary"
+    bundle["policy"]["classification"] = "public"
+    bundle["policy"]["source_mode"] = "strategy-codex-civ-emp-adapter"
+    bundle["source_items"][0]["public"] = True
+    with pytest.raises(BundleValidationError, match="policy.source_mode"):
+        validate_bundle(bundle)
+
+
+def test_validate_bundle_rejects_ph_mus_wrong_source_mode() -> None:
+    bundle = _base_bundle()
+    bundle["family"] = "ph-civ"
+    bundle["subsurface"] = "ph-mus"
+    bundle["artifact_class"] = "museum_route"
+    bundle["intent"] = "lesson"
+    bundle["policy"]["classification"] = "public"
+    bundle["policy"]["source_mode"] = "external-public-packet"
+    bundle["source_items"][0]["public"] = True
+    with pytest.raises(BundleValidationError, match="ph-mus"):
+        validate_bundle(bundle)
+
+
+def test_validate_bundle_rejects_invalid_artifact_class_for_subsurface() -> None:
+    bundle = _base_bundle()
+    bundle["artifact_class"] = "museum_route"
+    with pytest.raises(BundleValidationError, match="artifact_class"):
+        validate_bundle(bundle)
+
+
+def test_validate_bundle_rejects_invalid_artifact_class_intent_pair() -> None:
+    bundle = _base_bundle()
+    bundle["artifact_class"] = "statecraft_brief"
+    bundle["intent"] = "comparison"
+    with pytest.raises(BundleValidationError, match="artifact_class"):
         validate_bundle(bundle)

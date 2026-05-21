@@ -5,6 +5,7 @@ from pathlib import Path
 from typing import Any
 
 from grace_mar.presentations.contract import bundle_sha256
+from grace_mar.presentations.intents import default_sections_for
 
 from .common import REPO_ROOT, current_git_ref, file_sha256, markdown_excerpt, utc_now_iso
 
@@ -42,6 +43,14 @@ DEFAULT_SECTION_ORDERS = {
         "Cautions",
     ],
 }
+PACKET_TYPE_BY_SUBSURFACE = {
+    "ce-civ": {"ce_civ_packet": "civilization_pattern_packet"},
+    "ce-emp": {
+        "ce_emp_packet": "statecraft_brief",
+        "ce_emp_decision_comparison_packet": "decision_comparison",
+    },
+    "ce-mus": {"ce_mus_packet": "strategic_exhibit"},
+}
 
 
 def _ensure_under_civ_emp(path: Path) -> Path:
@@ -56,6 +65,7 @@ def _ensure_under_civ_emp(path: Path) -> Path:
 def _base_bundle(
     *,
     subsurface: str,
+    artifact_class: str,
     intent: str,
     title: str,
     audience: str,
@@ -66,6 +76,7 @@ def _base_bundle(
     bundle: dict[str, Any] = {
         "family": "civ-emp",
         "subsurface": subsurface,
+        "artifact_class": artifact_class,
         "intent": intent,
         "title": title,
         "audience": audience,
@@ -83,7 +94,7 @@ def _base_bundle(
             "content_hashes": hashes,
         },
         "presentation_hints": {
-            "section_order": DEFAULT_SECTION_ORDERS[subsurface],
+            "section_order": default_sections_for(subsurface, intent, artifact_class),
             "chart_candidates": ["Object map" if subsurface == "ce-mus" else "Counterweight coverage"],
             "visual_notes": [
                 "Neutral strategy visual style",
@@ -126,8 +137,12 @@ def build_civ_emp_bundle(
                 "public": False,
             }
         )
+    artifact_class = "civilization_pattern_packet"
+    if subsurface == "ce-emp":
+        artifact_class = "decision_comparison" if intent == "comparison" else "statecraft_brief"
     return _base_bundle(
         subsurface=subsurface,
+        artifact_class=artifact_class,
         intent=intent,
         title=title,
         audience=audience,
@@ -148,11 +163,25 @@ def build_civ_emp_packet_bundle(
     resolved = packet_path.resolve()
     packet = json.loads(resolved.read_text(encoding="utf-8"))
     packet_type = str(packet.get("packet_type") or "")
-    if subsurface == "ce-mus" and packet_type != "ce_mus_packet":
-        raise ValueError("ce-mus packet must use packet_type=ce_mus_packet")
+    allowed_packet_types = PACKET_TYPE_BY_SUBSURFACE[subsurface]
+    if packet_type not in allowed_packet_types:
+        allowed = ", ".join(sorted(allowed_packet_types))
+        raise ValueError(f"{subsurface} packet must use one of: {allowed}")
+    packet_subsurface = str(packet.get("subsurface") or "").strip()
+    if packet_subsurface and packet_subsurface != subsurface:
+        raise ValueError(
+            f"packet subsurface {packet_subsurface!r} does not match requested subsurface {subsurface!r}"
+        )
     source_id = str(packet.get("source_id") or "").strip()
     if not source_id:
         raise ValueError("packet must include source_id")
+    artifact_class = str(packet.get("artifact_class") or "").strip()
+    inferred_artifact_class = allowed_packet_types[packet_type]
+    if artifact_class and artifact_class != inferred_artifact_class:
+        raise ValueError(
+            f"packet artifact_class {artifact_class!r} does not match packet_type {packet_type!r}"
+        )
+    artifact_class = artifact_class or inferred_artifact_class
     sections = packet.get("source_items")
     if not isinstance(sections, list) or not sections:
         raise ValueError("packet must include non-empty source_items")
@@ -180,6 +209,7 @@ def build_civ_emp_packet_bundle(
     hashes = {resolved.as_posix(): file_sha256(resolved)}
     return _base_bundle(
         subsurface=subsurface,
+        artifact_class=artifact_class,
         intent=intent,
         title=title,
         audience=audience,

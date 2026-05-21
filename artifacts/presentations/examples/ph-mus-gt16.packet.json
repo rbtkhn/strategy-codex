@@ -1,5 +1,7 @@
 {
   "packet_type": "ph_mus_packet",
+  "subsurface": "ph-mus",
+  "artifact_class": "museum_route",
   "source_id": "gt-16",
   "title": "Game Theory #16: Pax Judaica Rising",
   "surface": "ph-apo",

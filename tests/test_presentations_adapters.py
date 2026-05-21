@@ -20,6 +20,7 @@ def test_civ_emp_adapter_marks_work_safe_bundle() -> None:
     )
     assert bundle["family"] == "civ-emp"
     assert bundle["subsurface"] == "ce-emp"
+    assert bundle["artifact_class"] == "statecraft_brief"
     assert bundle["policy"]["classification"] == "work_public_safe"
     assert bundle["policy"]["approved_for_render"] is True
     assert bundle["source_items"]
@@ -53,6 +54,8 @@ def test_civ_emp_packet_bundle_accepts_ce_mus_summary(tmp_path: Path) -> None:
         json.dumps(
             {
                 "packet_type": "ce_mus_packet",
+                "subsurface": "ce-mus",
+                "artifact_class": "strategic_exhibit",
                 "source_id": "ce-mus-demo",
                 "source_items": [
                     {
@@ -74,7 +77,71 @@ def test_civ_emp_packet_bundle_accepts_ce_mus_summary(tmp_path: Path) -> None:
         packet_path=packet,
     )
     assert bundle["subsurface"] == "ce-mus"
+    assert bundle["artifact_class"] == "strategic_exhibit"
     assert bundle["policy"]["source_mode"] == "strategy-codex-ce-mus-packet"
+    assert bundle["presentation_hints"]["section_order"][0] == "Exhibit Summary"
+
+
+def test_civ_emp_packet_bundle_rejects_subsurface_drift(tmp_path: Path) -> None:
+    packet = tmp_path / "ce-emp.json"
+    packet.write_text(
+        json.dumps(
+            {
+                "packet_type": "ce_emp_packet",
+                "subsurface": "ce-civ",
+                "source_id": "ce-emp-demo",
+                "source_items": [
+                    {
+                        "id": "ce-emp-demo:1",
+                        "title": "Brief",
+                        "text": "Decision packet text",
+                        "citation": "packet:ce-emp-demo:1",
+                    }
+                ],
+            }
+        ),
+        encoding="utf-8",
+    )
+    with pytest.raises(ValueError, match="does not match requested subsurface"):
+        build_civ_emp_packet_bundle(
+            intent="briefing",
+            title="CE-EMP briefing",
+            audience="Operators",
+            subsurface="ce-emp",
+            packet_path=packet,
+        )
+
+
+def test_civ_emp_packet_bundle_accepts_decision_comparison_packet(tmp_path: Path) -> None:
+    packet = tmp_path / "ce-emp-comparison.json"
+    packet.write_text(
+        json.dumps(
+            {
+                "packet_type": "ce_emp_decision_comparison_packet",
+                "subsurface": "ce-emp",
+                "artifact_class": "decision_comparison",
+                "source_id": "ce-emp-compare",
+                "source_items": [
+                    {
+                        "id": "ce-emp-compare:1",
+                        "title": "Option A",
+                        "text": "Decision path A",
+                        "citation": "packet:ce-emp-compare:1",
+                    }
+                ],
+            }
+        ),
+        encoding="utf-8",
+    )
+    bundle = build_civ_emp_packet_bundle(
+        intent="comparison",
+        title="CE-EMP comparison",
+        audience="Operators",
+        subsurface="ce-emp",
+        packet_path=packet,
+    )
+    assert bundle["artifact_class"] == "decision_comparison"
+    assert bundle["presentation_hints"]["section_order"][0] == "Comparison Frame"
 
 
 def test_ph_civ_adapter_rejects_forbidden_local_residue() -> None:
@@ -89,8 +156,28 @@ def test_ph_civ_adapter_rejects_forbidden_local_residue() -> None:
 
 
 def test_ph_civ_adapter_accepts_explicit_public_packet_for_ph_apo(tmp_path: Path) -> None:
-    packet = tmp_path / "public-packet.md"
-    packet.write_text("# Public packet\n\nVisible text", encoding="utf-8")
+    packet = tmp_path / "public-packet.json"
+    packet.write_text(
+        json.dumps(
+            {
+                "packet_type": "ph_public_packet",
+                "public": True,
+                "source_id": "gt-16",
+                "subsurface": "ph-apo",
+                "title": "PH-APO lesson",
+                "source_items": [
+                    {
+                        "id": "gt-16:1",
+                        "title": "GT-16 packet excerpt",
+                        "text": "Visible text",
+                        "citation": "public packet gt-16",
+                        "kind": "public_packet",
+                    }
+                ],
+            }
+        ),
+        encoding="utf-8",
+    )
     bundle = build_ph_civ_bundle(
         intent="lesson",
         title="PH-APO lesson",
@@ -101,8 +188,54 @@ def test_ph_civ_adapter_accepts_explicit_public_packet_for_ph_apo(tmp_path: Path
     )
     assert bundle["family"] == "ph-civ"
     assert bundle["subsurface"] == "ph-apo"
+    assert bundle["artifact_class"] == "chapter_packet"
     assert bundle["policy"]["classification"] == "public"
     assert bundle["source_items"][0]["public"] is True
+
+
+def test_ph_civ_adapter_rejects_non_packet_source_file(tmp_path: Path) -> None:
+    packet = tmp_path / "public-packet.md"
+    packet.write_text("# Not a packet\n\nVisible text", encoding="utf-8")
+    with pytest.raises(ValueError, match="valid JSON"):
+        build_ph_civ_bundle(
+            intent="summary",
+            title="PH-CIV summary",
+            audience="Readers",
+            source_paths=[packet],
+            subsurface="ph-civ",
+        )
+
+
+def test_ph_civ_adapter_rejects_packet_with_private_markers(tmp_path: Path) -> None:
+    packet = tmp_path / "public-packet.json"
+    packet.write_text(
+        json.dumps(
+            {
+                "packet_type": "ph_public_packet",
+                "public": True,
+                "source_id": "gt-16",
+                "subsurface": "ph-apo",
+                "title": "PH-APO lesson",
+                "source_items": [
+                    {
+                        "id": "gt-16:1",
+                        "title": "GT-16 packet excerpt",
+                        "text": "Visible text",
+                        "citation": "C:/private/source.md",
+                    }
+                ],
+            }
+        ),
+        encoding="utf-8",
+    )
+    with pytest.raises(ValueError, match="forbidden private marker"):
+        build_ph_civ_bundle(
+            intent="lesson",
+            title="PH-APO lesson",
+            audience="Readers",
+            source_paths=[packet],
+            subsurface="ph-apo",
+        )
 
 
 def test_ph_mus_packet_bundle_rejects_private_markers(tmp_path: Path) -> None:
@@ -136,11 +269,13 @@ def test_ph_mus_packet_bundle_accepts_public_packet(tmp_path: Path) -> None:
                 "packet_type": "ph_mus_packet",
                 "source_id": "gt-16",
                 "title": "GT-16 museum",
+                "surface": "ph-apo",
                 "museum_status": "curated_draft",
                 "museum_exhibit_path": "corpus/media-packs/gt-16.md",
                 "route_type": "application",
                 "what_changes_here": "Pressure shifts become legible through exhibit sequencing.",
                 "caveat": "Public orientation only.",
+                "conceptual_volumes": ["volume_ii"],
                 "visitor_path": ["entrance_artifact", "pressure_systems"],
                 "artifacts": [
                     {
@@ -166,7 +301,74 @@ def test_ph_mus_packet_bundle_accepts_public_packet(tmp_path: Path) -> None:
     )
     assert bundle["family"] == "ph-civ"
     assert bundle["subsurface"] == "ph-mus"
+    assert bundle["artifact_class"] == "museum_route"
     assert bundle["policy"]["source_mode"] == "ph-mus-cli-packet"
+
+
+def test_ph_mus_packet_bundle_rejects_missing_public_route_metadata(tmp_path: Path) -> None:
+    packet = tmp_path / "ph-mus.json"
+    packet.write_text(
+        json.dumps(
+            {
+                "packet_type": "ph_mus_packet",
+                "source_id": "gt-16",
+                "museum_exhibit_path": "corpus/media-packs/gt-16.md",
+                "visitor_path": ["entrance_artifact"],
+            }
+        ),
+        encoding="utf-8",
+    )
+    with pytest.raises(ValueError, match="public surface"):
+        build_ph_mus_packet_bundle(
+            intent="lesson",
+            title="GT-16 museum lesson",
+            audience="Readers",
+            packet_path=packet,
+        )
+
+
+def test_ph_mus_packet_bundle_accepts_artifact_set_comparison(tmp_path: Path) -> None:
+    packet = tmp_path / "ph-mus-artifact-set.json"
+    packet.write_text(
+        json.dumps(
+            {
+                "packet_type": "ph_mus_packet",
+                "subsurface": "ph-mus",
+                "artifact_class": "museum_artifact_set",
+                "source_id": "gt-16",
+                "title": "GT-16 artifacts",
+                "surface": "ph-apo",
+                "museum_status": "curated_draft",
+                "museum_exhibit_path": "corpus/media-packs/gt-16.md",
+                "route_type": "application",
+                "what_changes_here": "Artifacts carry the comparison.",
+                "caveat": "Public orientation only.",
+                "conceptual_volumes": ["volume_ii"],
+                "visitor_path": ["entrance_artifact", "pressure_systems"],
+                "artifacts": [
+                    {
+                        "artifact_id": "gt16-map-1",
+                        "title": "Map",
+                        "room": "pressure_systems",
+                        "artifact_type": "map",
+                        "what_to_notice": "Regional pressure nodes.",
+                        "lecture_connection": "Connects to crisis framing.",
+                        "limit_or_caution": "Illustrative, not exhaustive.",
+                        "curator_note": "Use as orientation.",
+                    }
+                ],
+            }
+        ),
+        encoding="utf-8",
+    )
+    bundle = build_ph_mus_packet_bundle(
+        intent="comparison",
+        title="GT-16 museum comparison",
+        audience="Readers",
+        packet_path=packet,
+    )
+    assert bundle["artifact_class"] == "museum_artifact_set"
+    assert bundle["presentation_hints"]["section_order"][0] == "Comparison Frame"
 
 
 def test_example_ph_mus_packet_builds_public_museum_bundle() -> None:
@@ -178,6 +380,7 @@ def test_example_ph_mus_packet_builds_public_museum_bundle() -> None:
     )
     assert bundle["family"] == "ph-civ"
     assert bundle["subsurface"] == "ph-mus"
+    assert bundle["artifact_class"] == "museum_route"
     assert bundle["policy"]["classification"] == "public"
     assert bundle["source_items"][0]["kind"] == "museum_route"
     assert any(item["kind"] == "museum_artifact" for item in bundle["source_items"])
@@ -193,6 +396,7 @@ def test_example_ce_mus_packet_builds_work_safe_museum_bundle() -> None:
     )
     assert bundle["family"] == "civ-emp"
     assert bundle["subsurface"] == "ce-mus"
+    assert bundle["artifact_class"] == "strategic_exhibit"
     assert bundle["policy"]["classification"] == "work_public_safe"
     assert bundle["policy"]["source_mode"] == "strategy-codex-ce-mus-packet"
     assert len(bundle["source_items"]) >= 4
@@ -214,5 +418,7 @@ def test_example_museum_packets_expose_parallel_taxonomy() -> None:
     )
     assert ph_bundle["family"] == "ph-civ"
     assert ph_bundle["subsurface"] == "ph-mus"
+    assert ph_bundle["artifact_class"] == "museum_route"
     assert ce_bundle["family"] == "civ-emp"
     assert ce_bundle["subsurface"] == "ce-mus"
+    assert ce_bundle["artifact_class"] == "strategic_exhibit"

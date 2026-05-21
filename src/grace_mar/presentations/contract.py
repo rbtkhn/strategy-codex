@@ -9,12 +9,65 @@ SUBSURFACES_BY_FAMILY: dict[str, tuple[str, ...]] = {
     "ph-civ": ("ph-civ", "ph-apo", "ph-mus"),
     "civ-emp": ("ce-civ", "ce-emp", "ce-mus"),
 }
+FAMILY_BY_SUBSURFACE = {
+    subsurface: family
+    for family, members in SUBSURFACES_BY_FAMILY.items()
+    for subsurface in members
+}
 SUBSURFACES = tuple(
     subsurface
     for members in SUBSURFACES_BY_FAMILY.values()
     for subsurface in members
 )
 INTENTS = ("briefing", "lesson", "summary", "roadmap", "comparison")
+SUPPORTED_BUNDLE_TYPES = ("single_bundle",)
+ARTIFACT_CLASSES = (
+    "chapter_packet",
+    "museum_route",
+    "museum_artifact_set",
+    "route_comparison",
+    "civilization_pattern_packet",
+    "statecraft_brief",
+    "strategic_exhibit",
+    "decision_comparison",
+)
+ARTIFACT_CLASSES_BY_SUBSURFACE: dict[str, tuple[str, ...]] = {
+    "ph-civ": ("chapter_packet", "route_comparison"),
+    "ph-apo": ("chapter_packet", "route_comparison"),
+    "ph-mus": ("museum_route", "museum_artifact_set"),
+    "ce-civ": ("civilization_pattern_packet",),
+    "ce-emp": ("statecraft_brief", "decision_comparison"),
+    "ce-mus": ("strategic_exhibit",),
+}
+ARTIFACT_CLASS_INTENT_MAP: dict[str, tuple[str, ...]] = {
+    "chapter_packet": ("lesson", "summary", "comparison"),
+    "museum_route": ("lesson", "summary"),
+    "museum_artifact_set": ("lesson", "comparison"),
+    "route_comparison": ("summary", "comparison"),
+    "civilization_pattern_packet": ("briefing", "lesson", "summary", "comparison"),
+    "statecraft_brief": ("briefing", "summary", "roadmap"),
+    "strategic_exhibit": ("lesson", "summary", "comparison"),
+    "decision_comparison": ("briefing", "comparison"),
+}
+ARTIFACT_CLASS_SOURCE_MODE_MAP: dict[str, tuple[str, ...]] = {
+    "chapter_packet": ("external-public-packet",),
+    "museum_route": ("ph-mus-cli-packet",),
+    "museum_artifact_set": ("ph-mus-cli-packet",),
+    "route_comparison": ("external-public-packet",),
+    "civilization_pattern_packet": (
+        "strategy-codex-civ-emp-adapter",
+        "strategy-codex-ce-civ-packet",
+    ),
+    "statecraft_brief": (
+        "strategy-codex-civ-emp-adapter",
+        "strategy-codex-ce-emp-packet",
+    ),
+    "strategic_exhibit": ("strategy-codex-ce-mus-packet",),
+    "decision_comparison": (
+        "strategy-codex-civ-emp-adapter",
+        "strategy-codex-ce-emp-packet",
+    ),
+}
 EXPORT_FORMATS = ("pptx", "web")
 
 INTENT_SUBSURFACE_MAP: dict[str, tuple[str, ...]] = {
@@ -24,6 +77,7 @@ INTENT_SUBSURFACE_MAP: dict[str, tuple[str, ...]] = {
     "roadmap": ("ce-emp",),
     "comparison": SUBSURFACES,
 }
+PH_CIV_SOURCE_MODES = ("external-public-packet", "ph-mus-cli-packet")
 
 
 class BundleValidationError(ValueError):
@@ -61,6 +115,12 @@ def validate_bundle(bundle: dict[str, Any]) -> dict[str, Any]:
     if not isinstance(bundle, dict):
         raise BundleValidationError("bundle must be an object")
 
+    bundle_type = str(bundle.get("bundle_type") or "single_bundle").strip()
+    if bundle_type not in SUPPORTED_BUNDLE_TYPES:
+        raise BundleValidationError(
+            "bundle_type must be 'single_bundle'; composite comparison bundles are not supported yet"
+        )
+
     family = _require_non_empty_string(bundle.get("family"), "family")
     if family not in FAMILIES:
         raise BundleValidationError(f"family must be one of {', '.join(FAMILIES)}")
@@ -79,6 +139,23 @@ def validate_bundle(bundle: dict[str, Any]) -> dict[str, Any]:
         raise BundleValidationError(
             f"intent {intent!r} is not allowed for subsurface {subsurface!r}"
         )
+
+    artifact_class = str(bundle.get("artifact_class") or "").strip()
+    if artifact_class:
+        if artifact_class not in ARTIFACT_CLASSES:
+            raise BundleValidationError(
+                f"artifact_class must be one of {', '.join(ARTIFACT_CLASSES)}"
+            )
+        if artifact_class not in ARTIFACT_CLASSES_BY_SUBSURFACE[subsurface]:
+            allowed = ", ".join(ARTIFACT_CLASSES_BY_SUBSURFACE[subsurface])
+            raise BundleValidationError(
+                f"artifact_class {artifact_class!r} is not allowed for subsurface {subsurface!r}; expected one of {allowed}"
+            )
+        if intent not in ARTIFACT_CLASS_INTENT_MAP[artifact_class]:
+            allowed = ", ".join(ARTIFACT_CLASS_INTENT_MAP[artifact_class])
+            raise BundleValidationError(
+                f"intent {intent!r} is not allowed for artifact_class {artifact_class!r}; expected one of {allowed}"
+            )
 
     title = _require_non_empty_string(bundle.get("title"), "title")
     audience = _require_non_empty_string(bundle.get("audience"), "audience")
@@ -132,6 +209,12 @@ def validate_bundle(bundle: dict[str, Any]) -> dict[str, Any]:
         raise BundleValidationError(
             f"policy.allowed_outputs contains invalid values: {invalid_outputs}"
         )
+    source_mode = str(policy.get("source_mode") or "")
+    if artifact_class and source_mode not in ARTIFACT_CLASS_SOURCE_MODE_MAP[artifact_class]:
+        allowed = ", ".join(ARTIFACT_CLASS_SOURCE_MODE_MAP[artifact_class])
+        raise BundleValidationError(
+            f"artifact_class {artifact_class!r} must use one of {allowed} as policy.source_mode"
+        )
 
     provenance = _require_mapping(bundle.get("provenance"), "provenance")
     normalized_provenance = {
@@ -168,6 +251,19 @@ def validate_bundle(bundle: dict[str, Any]) -> dict[str, Any]:
             raise BundleValidationError(
                 "ph-civ family bundles must use policy.classification='public'"
             )
+        source_mode = str(policy.get("source_mode") or "")
+        if source_mode not in PH_CIV_SOURCE_MODES:
+            raise BundleValidationError(
+                f"ph-civ family bundles must use one of {', '.join(PH_CIV_SOURCE_MODES)} as policy.source_mode"
+            )
+        if source_mode == "ph-mus-cli-packet" and subsurface != "ph-mus":
+            raise BundleValidationError(
+                "policy.source_mode='ph-mus-cli-packet' is only valid for subsurface 'ph-mus'"
+            )
+        if source_mode == "external-public-packet" and subsurface == "ph-mus":
+            raise BundleValidationError(
+                "subsurface 'ph-mus' must use policy.source_mode='ph-mus-cli-packet'"
+            )
         for row in normalized_items:
             if not row["public"]:
                 raise BundleValidationError(
@@ -177,6 +273,8 @@ def validate_bundle(bundle: dict[str, Any]) -> dict[str, Any]:
     return {
         "family": family,
         "subsurface": subsurface,
+        "artifact_class": artifact_class,
+        "bundle_type": bundle_type,
         "intent": intent,
         "title": title,
         "audience": audience,
@@ -185,7 +283,7 @@ def validate_bundle(bundle: dict[str, Any]) -> dict[str, Any]:
             "classification": classification,
             "approved_for_render": True,
             "allowed_outputs": allowed_outputs,
-            "source_mode": str(policy.get("source_mode") or ""),
+            "source_mode": source_mode,
         },
         "provenance": normalized_provenance,
         "presentation_hints": {

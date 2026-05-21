@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from typing import Any
 
-from .contract import INTENT_SUBSURFACE_MAP
+from .contract import ARTIFACT_CLASSES_BY_SUBSURFACE, FAMILY_BY_SUBSURFACE, INTENT_SUBSURFACE_MAP
 
 INTENT_REGISTRY: dict[str, dict[str, Any]] = {
     "briefing": {"n_slides": 10},
@@ -141,7 +141,76 @@ DEFAULT_SECTIONS: dict[str, dict[str, list[str]]] = {
     },
 }
 
-TEMPLATE_MAP: dict[tuple[str, str], str] = {
+DEFAULT_SECTIONS_BY_ARTIFACT_CLASS: dict[str, dict[str, list[str]]] = {
+    "chapter_packet": {
+        "lesson": ["Opening Thesis", "Reader Orientation", "Pattern", "Evidence", "Study Questions"],
+        "summary": ["Summary", "Pattern", "Evidence", "Reader Return Path"],
+        "comparison": ["Comparison Frame", "Pattern Side A", "Pattern Side B", "Tensions", "Synthesis"],
+    },
+    "museum_route": {
+        "lesson": ["Museum Orientation", "Visitor Path", "Key Artifacts", "What To Notice", "Cautions"],
+        "summary": ["Museum Summary", "Visitor Path", "Key Artifacts", "Cautions"],
+    },
+    "museum_artifact_set": {
+        "lesson": ["Museum Orientation", "Key Artifacts", "Interpretive Links", "What To Notice", "Cautions"],
+        "comparison": ["Comparison Frame", "Artifact Set A", "Artifact Set B", "What To Notice", "Cautions"],
+    },
+    "route_comparison": {
+        "summary": ["Comparison Summary", "Route Side A", "Route Side B", "Shared Pattern", "Reader Return Path"],
+        "comparison": ["Comparison Frame", "Route Side A", "Route Side B", "Tensions", "Synthesis"],
+    },
+    "civilization_pattern_packet": {
+        "briefing": ["Civilization Frame", "Institutional Pattern", "Evidence", "Application", "Next Moves"],
+        "lesson": ["Civilization Frame", "Institutional Pattern", "Evidence", "Application", "Study Questions"],
+        "summary": ["Summary", "Institutional Pattern", "Evidence", "Application"],
+        "comparison": ["Comparison Frame", "Civilization Side A", "Civilization Side B", "Institutional Tensions", "Synthesis"],
+    },
+    "statecraft_brief": {
+        "briefing": ["Executive Summary", "Statecraft Use", "Counterweights", "Decision Points", "Next Moves"],
+        "summary": ["Summary", "Statecraft Use", "Counterweights", "Appendix"],
+        "roadmap": ["Roadmap Thesis", "Current Position", "Workstreams", "Risks and Counterweights", "Decision Points"],
+    },
+    "strategic_exhibit": {
+        "lesson": ["Exhibit Frame", "Object Sequence", "Interpretation", "Operational Relevance", "Cautions"],
+        "summary": ["Exhibit Summary", "Object Sequence", "Operational Relevance", "Cautions"],
+        "comparison": ["Comparison Frame", "Object Sequence A", "Object Sequence B", "Interpretive Tensions", "Synthesis"],
+    },
+    "decision_comparison": {
+        "briefing": ["Executive Summary", "Decision Options", "Counterweights", "Implications", "Next Moves"],
+        "comparison": ["Comparison Frame", "Decision Side A", "Decision Side B", "Counterweights", "Synthesis"],
+    },
+}
+
+TEMPLATE_MAP: dict[tuple[str, str, str], str] = {
+    ("ce-civ", "civilization_pattern_packet", "briefing"): "ce-civ-civilization-pattern-packet-briefing",
+    ("ce-civ", "civilization_pattern_packet", "lesson"): "ce-civ-civilization-pattern-packet-lesson",
+    ("ce-civ", "civilization_pattern_packet", "summary"): "ce-civ-civilization-pattern-packet-summary",
+    ("ce-civ", "civilization_pattern_packet", "comparison"): "ce-civ-civilization-pattern-packet-comparison",
+    ("ce-emp", "statecraft_brief", "briefing"): "ce-emp-statecraft-brief-briefing",
+    ("ce-emp", "statecraft_brief", "summary"): "ce-emp-statecraft-brief-summary",
+    ("ce-emp", "statecraft_brief", "roadmap"): "ce-emp-statecraft-brief-roadmap",
+    ("ce-emp", "decision_comparison", "briefing"): "ce-emp-decision-comparison-briefing",
+    ("ce-emp", "decision_comparison", "comparison"): "ce-emp-decision-comparison-comparison",
+    ("ce-mus", "strategic_exhibit", "lesson"): "ce-mus-strategic-exhibit-lesson",
+    ("ce-mus", "strategic_exhibit", "summary"): "ce-mus-strategic-exhibit-summary",
+    ("ce-mus", "strategic_exhibit", "comparison"): "ce-mus-strategic-exhibit-comparison",
+    ("ph-civ", "chapter_packet", "lesson"): "ph-civ-chapter-packet-lesson",
+    ("ph-civ", "chapter_packet", "summary"): "ph-civ-chapter-packet-summary",
+    ("ph-civ", "chapter_packet", "comparison"): "ph-civ-chapter-packet-comparison",
+    ("ph-civ", "route_comparison", "summary"): "ph-civ-route-comparison-summary",
+    ("ph-civ", "route_comparison", "comparison"): "ph-civ-route-comparison-comparison",
+    ("ph-apo", "chapter_packet", "lesson"): "ph-apo-chapter-packet-lesson",
+    ("ph-apo", "chapter_packet", "summary"): "ph-apo-chapter-packet-summary",
+    ("ph-apo", "chapter_packet", "comparison"): "ph-apo-chapter-packet-comparison",
+    ("ph-apo", "route_comparison", "summary"): "ph-apo-route-comparison-summary",
+    ("ph-apo", "route_comparison", "comparison"): "ph-apo-route-comparison-comparison",
+    ("ph-mus", "museum_route", "lesson"): "ph-mus-museum-route-lesson",
+    ("ph-mus", "museum_route", "summary"): "ph-mus-museum-route-summary",
+    ("ph-mus", "museum_artifact_set", "lesson"): "ph-mus-museum-artifact-set-lesson",
+    ("ph-mus", "museum_artifact_set", "comparison"): "ph-mus-museum-artifact-set-comparison",
+}
+
+LEGACY_TEMPLATE_MAP: dict[tuple[str, str], str] = {
     ("ce-civ", "briefing"): "ce-civ-briefing",
     ("ce-civ", "lesson"): "ce-civ-lesson",
     ("ce-civ", "summary"): "ce-civ-summary",
@@ -165,12 +234,26 @@ TEMPLATE_MAP: dict[tuple[str, str], str] = {
 }
 
 
-def get_template_key(family: str, subsurface: str, intent: str) -> str:
-    del family
-    return TEMPLATE_MAP[(subsurface, intent)]
+def get_template_key(
+    family: str,
+    subsurface: str,
+    intent: str,
+    artifact_class: str = "",
+) -> str:
+    if artifact_class:
+        template = TEMPLATE_MAP.get((subsurface, artifact_class, intent))
+        if template:
+            return template
+    if family != FAMILY_BY_SUBSURFACE[subsurface]:
+        raise KeyError(f"family {family!r} does not match subsurface {subsurface!r}")
+    return LEGACY_TEMPLATE_MAP[(subsurface, intent)]
 
 
-def default_sections_for(subsurface: str, intent: str) -> list[str]:
+def default_sections_for(subsurface: str, intent: str, artifact_class: str = "") -> list[str]:
+    if artifact_class:
+        section_map = DEFAULT_SECTIONS_BY_ARTIFACT_CLASS.get(artifact_class, {})
+        if intent in section_map:
+            return list(section_map[intent])
     return list(DEFAULT_SECTIONS[subsurface][intent])
 
 
@@ -181,7 +264,15 @@ def list_intents() -> list[dict[str, Any]]:
             {
                 "intent": name,
                 "allowed_targets": [
-                    {"family": "ph-civ" if target.startswith("ph-") else "civ-emp", "subsurface": target}
+                    {
+                        "family": FAMILY_BY_SUBSURFACE[target],
+                        "subsurface": target,
+                        "artifact_classes": [
+                            artifact_class
+                            for artifact_class in ARTIFACT_CLASSES_BY_SUBSURFACE[target]
+                            if (target, artifact_class, name) in TEMPLATE_MAP
+                        ],
+                    }
                     for target in INTENT_SUBSURFACE_MAP[name]
                 ],
             }
@@ -191,20 +282,16 @@ def list_intents() -> list[dict[str, Any]]:
 
 def list_templates() -> list[dict[str, str]]:
     rows: list[dict[str, str]] = []
-    for intent, targets in INTENT_SUBSURFACE_MAP.items():
-        for subsurface in targets:
-            rows.append(
-                {
-                    "family": "ph-civ" if subsurface.startswith("ph-") else "civ-emp",
-                    "subsurface": subsurface,
-                    "intent": intent,
-                    "template": get_template_key(
-                        "ph-civ" if subsurface.startswith("ph-") else "civ-emp",
-                        subsurface,
-                        intent,
-                    ),
-                }
-            )
+    for (subsurface, artifact_class, intent), template in TEMPLATE_MAP.items():
+        rows.append(
+            {
+                "family": FAMILY_BY_SUBSURFACE[subsurface],
+                "subsurface": subsurface,
+                "artifact_class": artifact_class,
+                "intent": intent,
+                "template": template,
+            }
+        )
     return rows
 
 
@@ -212,17 +299,19 @@ def build_presenton_markdown(bundle: dict[str, Any]) -> str:
     intent = bundle["intent"]
     family = bundle["family"]
     subsurface = bundle["subsurface"]
+    artifact_class = str(bundle.get("artifact_class") or "")
     section_order = bundle["presentation_hints"]["section_order"]
     sections = (
         list(section_order)
         if section_order
-        else default_sections_for(subsurface, intent)
+        else default_sections_for(subsurface, intent, artifact_class)
     )
     lines = [
         f"# {bundle['title']}",
         "",
         f"Family: {family}",
         f"Subsurface: {subsurface}",
+        f"Artifact class: {artifact_class or 'legacy'}",
         f"Intent: {intent}",
         f"Audience: {bundle['audience']}",
         "",

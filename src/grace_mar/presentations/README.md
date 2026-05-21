@@ -9,6 +9,7 @@ The product surface is not "send markdown to Presenton." The product surface is:
 
 - choose a `family`
 - choose a `subsurface`
+- choose an `artifact_class`
 - choose an `intent`
 - render an editable deck
 
@@ -52,11 +53,28 @@ The render service is the shared engine.
 
 Short formula:
 
-`packet -> family/subsurface -> intent -> deck`
+`packet -> family/subsurface/artifact_class -> intent -> deck`
+
+## Comparison Boundary
+
+`comparison` currently means a comparison deck **inside one bundle family**.
+
+Supported now:
+
+- `ph-civ` vs `ph-civ`
+- `ph-mus` artifact set vs artifact set
+- `ce-emp` decision path vs decision path
+
+Not supported yet:
+
+- one render bundle that compares `ph-civ` and `civ-emp` directly
+- composite left/right bundle comparison payloads
+
+The current contract is intentionally `bundle_type=single_bundle` only. If cross-family comparison becomes a real product need, it should land as a higher-order composite bundle type rather than stretching a single-family bundle until it lies.
 
 ## Interfaces
 
-- bundle contract: `family`, `subsurface`, `intent`, `source_items`, policy, provenance
+- bundle contract: `bundle_type`, `family`, `subsurface`, `artifact_class`, `intent`, `source_items`, policy, provenance
 - render API: `POST /v1/bundles/render`
 - output: editable `pptx` plus web-view path
 - example packets: [artifacts/presentations/examples/README.md](/C:/dev/strategy-codex/artifacts/presentations/examples/README.md)

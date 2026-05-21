@@ -6,20 +6,23 @@ from grace_mar.presentations.intents import build_presenton_markdown, get_templa
 def test_intent_and_template_indexes_cover_required_examples() -> None:
     intents = {row["intent"]: row for row in list_intents()}
     templates = {
-        (row["family"], row["subsurface"], row["intent"]): row["template"]
+        (row["family"], row["subsurface"], row["artifact_class"], row["intent"]): row["template"]
         for row in list_templates()
     }
     assert "briefing" in intents
     assert "lesson" in intents
-    assert templates[("civ-emp", "ce-emp", "briefing")] == "ce-emp-briefing"
-    assert templates[("ph-civ", "ph-mus", "lesson")] == "ph-mus-lesson"
+    assert templates[("civ-emp", "ce-emp", "statecraft_brief", "briefing")] == "ce-emp-statecraft-brief-briefing"
+    assert templates[("ph-civ", "ph-mus", "museum_route", "lesson")] == "ph-mus-museum-route-lesson"
+    assert get_template_key("ph-civ", "ph-mus", "lesson", "museum_route") == "ph-mus-museum-route-lesson"
     assert get_template_key("ph-civ", "ph-civ", "summary") == "ph-civ-summary"
 
 
 def test_build_presenton_markdown_contains_sources_and_constraints() -> None:
     bundle = {
+        "bundle_type": "single_bundle",
         "family": "ph-civ",
         "subsurface": "ph-mus",
+        "artifact_class": "museum_route",
         "intent": "lesson",
         "title": "GT-16 museum lesson",
         "audience": "Public readers",
@@ -41,6 +44,7 @@ def test_build_presenton_markdown_contains_sources_and_constraints() -> None:
     assert "# GT-16 museum lesson" in out
     assert "Family: ph-civ" in out
     assert "Subsurface: ph-mus" in out
+    assert "Artifact class: museum_route" in out
     assert "Source material:" in out
     assert "GT 16 [gt-16]" in out
     assert "Do not invent facts" in out

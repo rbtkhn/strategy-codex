@@ -1,5 +1,7 @@
 {
   "packet_type": "ce_mus_packet",
+  "subsurface": "ce-mus",
+  "artifact_class": "strategic_exhibit",
   "source_id": "ce-mus-hormuz",
   "title": "Hormuz Strategic Exhibit",
   "subsurface": "ce-mus",
