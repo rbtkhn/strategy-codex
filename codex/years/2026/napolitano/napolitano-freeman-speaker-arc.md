@@ -14,7 +14,10 @@ Chas Freeman matters here as a **diplomatic-intellectual and settlement-pressure
 
 | Rank | Date | Title | Why it matters most |
 |---|---|---|---|
+| 6b | 2025-11-04 | *Trump and Xi: Who Won?* | Transcript-grade November China anchor. Strong on Busan as a meeting between equals, U.S. tariff retreat, Venezuela illegality, Ukraine attrition, and Syria/Israel ceasefire continuity. |
 | 6 | 2025-11-10 | *Trump: Israel or America First?* | Earliest November routeable anchor. Upgraded to operator-pasted transcript on 2026-05-20, with a preserved source-date tension because the transcript opening says November 11. |
+| 5d | 2025-11-18 | *MI6 and Venezuela: What The Brits Know* | Transcript-grade November anchor. Strong on Gaza pacification as non-peace, MI6/Five Eyes rupture over Caribbean killings, Venezuela piracy/war-crime exposure, and Ukraine's manpower-collapse horizon. |
+| 5c | 2025-11-25 | *Zelensky's Self-Caused Dilemma* | Transcript-grade November bridge. Strong on ceasefire theater in Gaza/Lebanon, the 28-point Ukraine proposal as partial realism, European denial, amateur envoy diplomacy, and Ukraine's narrowing choices. |
 | 5b | 2025-12-09 | *Does Anyone Want Peace?* | First transcript-grade December Napolitano/Freeman anchor. Strong on ceasefires masquerading as peace, U.S. co-belligerent mediation failure, illegal orders, Venezuela/Monroe Doctrine overreach, and NATO enlargement regret. |
 | 5 | 2025-12-16 | *Trump and US Hegemony* | Transcript-grade December anchor. Strong on Ukraine/NATO denial, frozen-asset theft, Israel impunity, the NSS as changed-target hegemony, and Syria as Israeli-fragmentation policy. |
 | 4 | 2026-01-06 | *China and Russia view Trump as a Kidnapper* | Earliest January routeable anchor. Summary-grade, but useful for sovereign-credibility and lawlessness framing before the later alliance and legitimacy files. |
@@ -43,7 +46,10 @@ For the full March Freeman run, open [freeman-march-2026-cross-host-arc.md](../f
 - [2026-01-06 Chas Freeman - China and Russia view Trump as a Kidnapper](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-01-06/transcript-napolitano-freeman-china-and-russia-view-trump-as-a-kidnapper-2026-01-06.md)
 - [2025-12-16 Chas Freeman - Trump and US Hegemony](/C:/dev/strategy-codex/codex/years/2026/raw-input/2025-12-16/transcript-napolitano-freeman-trump-and-us-hegemony-2025-12-16.md)
 - [2025-12-09 Chas Freeman - Does Anyone Want Peace?](/C:/dev/strategy-codex/codex/years/2026/raw-input/2025-12-09/transcript-napolitano-freeman-does-anyone-want-peace-2025-12-09.md)
+- [2025-11-25 Chas Freeman - Zelensky's Self-Caused Dilemma](/C:/dev/strategy-codex/codex/years/2026/raw-input/2025-11-25/transcript-napolitano-amb-chas-freeman-zelensky-s-self-caused-dilemma-2025-11-25.md)
+- [2025-11-18 Chas Freeman - MI6 and Venezuela: What The Brits Know](/C:/dev/strategy-codex/codex/years/2026/raw-input/2025-11-18/transcript-napolitano-amb-chas-freeman-mi6-and-venezuela-what-the-brits-know-2025-11-18.md)
 - [2025-11-10 Chas Freeman - Trump: Israel or America First?](/C:/dev/strategy-codex/codex/years/2026/raw-input/2025-11-10/transcript-napolitano-freeman-trump-israel-or-america-first-2025-11-10.md)
+- [2025-11-04 Chas Freeman - Trump and Xi: Who Won?](/C:/dev/strategy-codex/codex/years/2026/raw-input/2025-11-04/transcript-napolitano-amb-chas-freeman-trump-and-xi-who-won-2025-11-04.md)
 
 ## Routing use
 
@@ -55,6 +61,6 @@ Use this arc when the notebook needs:
 
 ## Boundaries
 
-- The November 10, December 9, and December 16, 2025 Freeman files are now operator-pasted transcripts.
+- The November 4, November 10, November 18, November 25, December 9, and December 16, 2025 Freeman files are now transcript-bearing; November 4/November 18/November 25 are manual YouTube captions, while November 10/December 9/December 16 are operator-pasted transcripts.
 - The April 14 and April 21, 2026 Freeman files are transcript-bearing operator paste and should be opened before relying on the April 28 summary-grade settlement file alone.
 - This arc reinforces Freeman's existing object rather than changing the larger Freeman triple-helix doctrine.

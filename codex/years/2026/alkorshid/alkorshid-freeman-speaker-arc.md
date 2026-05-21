@@ -44,6 +44,8 @@ For the full March Freeman run, open [freeman-march-2026-cross-host-arc.md](../f
 The 2025 Dialogue Works shelf was already real, but it is now clearer on disk as a long live-pressure continuation rather than a few scattered captures. In addition to the already-materialized `2025-01-19`, `2025-08-22`, `2025-09-05`, `2025-10-17`, `2025-10-31`, and `2025-12-05` files, the fuller 2025 lane now also includes:
 
 - `2025-01-17` *The Delusional Policies Driving America's Decline*
+- `2025-11-07` *Mamdani's Victory, Development in the Levant, and the Wolfowitz Doctrine*
+- `2025-11-14` *Global Power Shift: Ukraine, Central Asia, Middle East & Venezuela*
 - `2025-11-21` *Why Ukraine AND Israel Are Closer to a Dead End Than Ever*
 - `2025-11-28` *National Guard shooting | Israel's FORCE-FIRST Approach FAILING | Russia-Ukraine*
 
@@ -59,11 +61,15 @@ Joint-speaker bridge: [2025-12-19 *The Middle East You Knew Is Disappearing*](/C
 
 Open **2026-05-08** first when you want the clearest statement of why this host x guest run matters on its own.
 
+Open **2025-11-07** first when the notebook specifically needs the domestic-politics hinge: Mamdani, Zionist pressure, Cheney/global-war-on-terror memory, Syria/Lebanon/Gaza instability, Israel-first critique, and the Wolfowitz Doctrine failure frame.
+
 Open **2025-11-21** first when the notebook specifically needs:
 
 - a late-2025 dead-end framing on both Ukraine and Israel
 - the clearest bridge from the 2025 pressure shelf into the sharper 2026 crisis lane
 - Freeman under live event stress rather than in the steadier Diesen format
+
+Open **2025-11-14** first when the notebook specifically needs the wider pre-December spread: Venezuela and UK intelligence rupture, Ukraine manpower/corruption, Central Asia great-power competition, Japan/Taiwan history, and the Israel-first critique in one episode.
 
 Open **2025-12-05** first when the notebook specifically needs the December root of the six Freeman arc-threads, especially the move from Israel's failing force-first strategy into U.S. adoption of Israeli practices and China's comparative gain.
 

@@ -41,9 +41,14 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Chas 
 - [transcript-dialogue-works-amb-chas-freeman-israel-may-not-survive-this-china-and-trump-make-their-move-2025-10-31](../raw-input/2025-10-31/transcript-dialogue-works-amb-chas-freeman-israel-may-not-survive-this-china-and-trump-make-their-move-2025-10-31.md)
 
 ## 2025-11
+- [transcript-napolitano-amb-chas-freeman-trump-and-xi-who-won-2025-11-04](../raw-input/2025-11-04/transcript-napolitano-amb-chas-freeman-trump-and-xi-who-won-2025-11-04.md)
+- [transcript-dialogue-works-amb-chas-freeman-mamdani-s-victory-development-in-the-levant-and-the-wol-2025-11-07](../raw-input/2025-11-07/transcript-dialogue-works-amb-chas-freeman-mamdani-s-victory-development-in-the-levant-and-the-wol-2025-11-07.md)
 - [transcript-napolitano-freeman-trump-israel-or-america-first-2025-11-10](../raw-input/2025-11-10/transcript-napolitano-freeman-trump-israel-or-america-first-2025-11-10.md)
+- [transcript-dialogue-works-amb-chas-freeman-global-power-shift-ukraine-central-asia-middle-east-ven-2025-11-14](../raw-input/2025-11-14/transcript-dialogue-works-amb-chas-freeman-global-power-shift-ukraine-central-asia-middle-east-ven-2025-11-14.md)
+- [transcript-napolitano-amb-chas-freeman-mi6-and-venezuela-what-the-brits-know-2025-11-18](../raw-input/2025-11-18/transcript-napolitano-amb-chas-freeman-mi6-and-venezuela-what-the-brits-know-2025-11-18.md)
 - [youtube-glenn-diesen-chas-freeman-fake-peace-political-collapse-and-major-wars-2025-11-20](../raw-input/2025-11-20/youtube-glenn-diesen-chas-freeman-fake-peace-political-collapse-and-major-wars-2025-11-20.md)
 - [transcript-dialogue-works-amb-chas-freeman-why-ukraine-and-israel-are-closer-to-a-dead-end-than-ever-2025-11-21](../raw-input/2025-11-21/transcript-dialogue-works-amb-chas-freeman-why-ukraine-and-israel-are-closer-to-a-dead-end-than-ever-2025-11-21.md)
+- [transcript-napolitano-amb-chas-freeman-zelensky-s-self-caused-dilemma-2025-11-25](../raw-input/2025-11-25/transcript-napolitano-amb-chas-freeman-zelensky-s-self-caused-dilemma-2025-11-25.md)
 - [transcript-dialogue-works-amb-chas-freeman-national-guard-shooting-israel-s-force-first-approach-failing-russia-ukraine-2025-11-28](../raw-input/2025-11-28/transcript-dialogue-works-amb-chas-freeman-national-guard-shooting-israel-s-force-first-approach-failing-russia-ukraine-2025-11-28.md)
 
 ## 2025-12
