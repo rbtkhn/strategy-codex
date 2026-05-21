@@ -8,6 +8,8 @@ It does not replace the parent [`codex/speakers/`](../). Speaker folders remain 
 
 For the storage-side SSOT and the canonical raw-input-side version of the wiring rule, see [raw-input/README.md](../../years/2026/raw-input/README.md).
 
+This README is the governing speaker-routing doctrine. Speaker folders, year indexes, and lattice surfaces should implement this contract rather than restate it in local variants.
+
 ## Layer Contract
 
 - `raw-input/` = provenance
@@ -32,6 +34,20 @@ When a speaker has appearances beyond one stable host lane, prefer a three-tier 
 - `discovery memory`: found or operator-pasted appearances that still help routing but are not yet materialized raw-input
 
 Use this ladder as a reusable doctrine for all speakers when cross-host spread becomes thick enough to matter. It is optional for thin or single-stream objects, but once needed it should replace repeated source-name exceptions in prose.
+
+## Route Contract
+
+Use the ladder this way:
+
+- `core host lane` = the appearance belongs to a stable host transformation and should be entered through that host-local route surface
+- `non-core appearance bench` = the appearance is valid and materialized, but does not belong to a stable host transformation
+- `discovery memory` = the appearance is found, mentioned, or operator-pasted, but not yet materialized as raw-input
+
+Governance rule:
+
+- `speaker-map` owns the route contract
+- `speaker-lattice` may signal that a fuller route is needed, but it does not decide ownership or completion
+- local speaker folders may implement the ladder, but they should do so as applications of this contract, not as parallel doctrine
 
 ## Wiring Invariant
 

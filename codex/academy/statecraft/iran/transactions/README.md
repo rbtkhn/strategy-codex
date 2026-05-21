@@ -6,6 +6,8 @@ This bench spends compact speaker-state into Iran-lane instruments. Use the cano
 
 This folder is not the primary front door. The canonical workshop entry lives in [../../README.md](../../README.md).
 
+The general maturation doctrine also lives there. This folder assumes the object has already survived braid and routing, and is only the right stop once the Iran-lane transaction threshold has actually been crossed.
+
 Open this README once the workshop route has already resolved into an Iran-lane transaction, or when you are continuing directly from the braid -> router path.
 
 Local continuation route:
@@ -19,6 +21,12 @@ What this bench adds after the front door:
 - it stops the route at the point where Iran must convert leverage into recognized restraint
 - it asks which Iranian carriers can keep dignity, transit, deterrence, and relief sequencing aligned
 - it turns the routed object into spendable instrument language rather than leaving it as a strategic insight
+
+What this bench does not mean:
+
+- not every Iran crisis note belongs here
+- not every Hormuz observation deserves a transaction
+- if the object is still mostly diagnosis, warning, or comparison, it should remain earlier in the workshop line
 
 ## Transaction Bias
 

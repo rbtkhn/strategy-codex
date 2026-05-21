@@ -21,7 +21,7 @@ Open here first when the question is not merely "what did Freeman say," but **wh
 - `non-core appearance bench`: accepted transcript-bearing Freeman appearances outside the core host lanes
 - `discovery memory`: found or operator-pasted appearances that are still useful for routing but are not yet materialized raw-input
 
-Use this ladder to keep non-core Freeman appearances from becoming ad hoc exceptions. Promote by structure, not by channel name.
+Use this ladder as a Freeman-local implementation of the governing [speaker-map route contract](../map/README.md#route-contract). Promote by structure, not by channel name.
 
 ## Cross-host and Bench Files
 
@@ -36,6 +36,8 @@ Use these when the Freeman question is wider than the four core host arcs:
 - open the raw-input index for the `non-core appearance bench`
 - open the March/April cross-host arc files for `discovery memory`
 - open the year index for the combined front door
+
+Do not treat this folder as independent routing doctrine. The general contract lives in [speaker map](../map/README.md); this folder shows how Freeman instantiates it.
 
 ## Host lanes
 

@@ -76,6 +76,19 @@ Some seams should first become **disciplined potential**:
    - If the seam tempts a broad historical or civilizational claim, require an intermediate maturity ladder first.
    - Symbolic diplomacy, legitimacy gestures, and audience-facing moral language should not jump directly to â€œalignment,â€ â€œuniqueness,â€ or â€œcivilizational turnâ€ without layered support.
 
+7. **Check whether the destination surface is architecturally ready**
+   - Before broadening the seam into a stronger doctrine, route, or shelf claim, ask:
+     - does the destination surface have a clear front door?
+     - does it own the kind of claim you are about to strengthen?
+     - does it have enough audit or maturity discipline to absorb a sharpened synthesis honestly?
+   - If not, stop at packet, seam note, or source-hygiene level rather than using elegant synthesis to compensate for thin architecture.
+
+## Skill closure rule
+
+Use [skill-closure-doctrine.md](../../docs/skill-closure-doctrine.md) as the shared maturity test.
+
+For this skill, the default question is not "can I write the stronger sentence?" but "has the receiving route earned the stronger sentence yet?" If not, packet-first is the correct closure rather than an incomplete draft.
+
 ## Minimal operator test
 
 Before composing stronger prose, ask:
@@ -85,8 +98,9 @@ Before composing stronger prose, ask:
 3. Is the seam's main value mechanism, process, or register?
 4. Has any second institutional or field receipt matured the seam?
 5. If not, is the unresolved gap itself the most truthful object to preserve?
+6. Is the destination surface mature enough to absorb a stronger claim without pretending to closure it has not earned?
 
-If `5` is yes, stop and packet first.
+If `5` is yes, stop and packet first. If `6` is no, stop and packet first.
 
 ## Working examples in this repo
 
@@ -138,6 +152,7 @@ That is the feel of this skill: protect the seam from elegance before it earns i
 - Do not treat rhetoric as event-fact.
 - Do not use packet work to avoid making judgments forever; use it to delay judgment until the seam becomes more honest.
 - Do not create a new taxonomy shelf if the seam already has an owning lane or file.
+- Do not use a beautiful synthesis sentence to hide the fact that the receiving surface is still architecturally thin.
 
 ## Success condition
 

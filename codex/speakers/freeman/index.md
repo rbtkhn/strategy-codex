@@ -29,6 +29,8 @@ Purpose: front door for Chas Freeman materials that cut across host shelves.
 - `non-core appearance bench`: materialized transcript-bearing appearances outside those core lanes
 - `discovery memory`: found or operator-pasted appearances that remain useful for routing but are not yet materialized raw-input
 
+Read this ladder as a Freeman-local implementation of the governing [speaker-map route contract](../map/README.md#route-contract), not as independent doctrine.
+
 ## Host-Local Routes
 
 - [Judging Freedom / Napolitano arc](../napolitano/stream/napolitano-freeman-speaker-arc.md)
@@ -46,3 +48,4 @@ Purpose: front door for Chas Freeman materials that cut across host shelves.
 ## Boundary
 
 This index is a route map. Raw transcript authority stays in `raw-input`; discovered or operator-pasted entries become canonical only after materialization with a quality receipt.
+If Freeman-local surfaces and the general speaker-route contract ever diverge, repair the Freeman surfaces rather than weakening the shared doctrine.

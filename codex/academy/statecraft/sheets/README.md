@@ -6,6 +6,8 @@ These sheets are reusable prompt benches for academy-statecraft. They are not su
 
 This folder is not the primary front door. The canonical workshop entry lives in [../README.md](../README.md).
 
+The governing statecraft maturation line also lives in that workshop README. This folder implements the middle of that line after entry is complete.
+
 Open this README after the workshop front door has already oriented the route, or when you specifically need the reusable prompt benches.
 
 Local continuation route:
@@ -21,6 +23,12 @@ What the sheets bench adds after the front door:
 - the braid keeps the live object from fragmenting into separate topic notes
 - the router chooses the settlement spine before drafting expands
 - the later sheets stress authority, equilibrium, mutation, orthogonality, and failure modes once the route is clear
+
+What this bench does not own:
+
+- it does not replace the front door
+- it does not independently decide workshop maturity
+- it does not imply that every routed object deserves transaction form
 
 ## Order
 
@@ -166,6 +174,7 @@ Open [Crisis test casebook](crisis-test-casebook.md) when a new crisis test shou
 ### Transaction Router
 
 Open [transaction router](transaction-router.md) after a current-event read has classified the crisis object. It decides whether the event is an exact fit, near fit, or no fit for the 12 transaction objects, then points to the relevant bundle, first lane perspective, or candidate shape. If you are learning the layer, use the Hormuz worked route: braid first, then choose between the cross-lane compact and the Iran-local recognition transaction.
+The router is also where the workshop's transaction threshold becomes operational: a good note may stop at braid, memo, objection matrix, or router candidate instead of becoming a framework by momentum.
 
 ### Great-Power Energy Absorber Threshold
 

@@ -4,6 +4,8 @@ WORK only; not Record.
 
 Purpose: make the Freeman speaker object faster to route without duplicating host chronology. This note answers a narrower question than the helix note: **which host lane matches a given kind of Freeman use**.
 
+This note implements the governing [speaker-map route contract](../map/README.md#route-contract) for Freeman. It should not drift into a separate routing doctrine.
+
 ## Core rule
 
 Freeman does **not** need a native monthly shelf of his own. The efficient structure is:
@@ -33,6 +35,8 @@ Interpret them this way:
 - `core host lane`: one of the four stable host transformations below
 - `non-core appearance bench`: materialized transcript-bearing appearances outside those four lanes
 - `discovery memory`: found or operator-pasted appearances that remain useful for routing but are not yet materialized
+
+Freeman is the first concrete implementation of the general ladder, not an exception to it.
 
 ## Open by task
 

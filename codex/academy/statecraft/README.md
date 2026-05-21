@@ -29,6 +29,21 @@ Arc-lens doctrine: **each major civilization object is an arc-lens, not a topic 
 
 Use this README as the canonical front door for the new layer.
 
+This README also owns the governing statecraft maturation line for the workshop.
+
+Short governing line:
+
+1. braid the real crisis object before it fragments
+2. route the actual settlement spine before drafting expands
+3. spend the object in the smallest honest instrument form that can carry authority, restraint, and settlement
+4. stop earlier when the object is not yet mature enough for transaction form
+
+Supporting roles:
+
+- [Architecture](ARCHITECTURE.md) owns maturity checks, promotion thresholds, lifecycle closure, and failure modes
+- [Sheets](sheets/) own reusable benches after the route is clear
+- [Iran transactions](iran/transactions/) and other lane-local benches own local continuation once the route has already resolved
+
 If you want the quickest usable path into the current architecture, start with the worked Hormuz sequence:
 
 1. [State braid model](sheets/state-braid-model.md) - identify the linked arcs that must stay together.
@@ -40,6 +55,7 @@ What this front door is teaching:
 - do not begin with commentary; begin by deciding what linked crisis object must be drafted together
 - do not jump from a live event straight to clauses; first decide what settlement spine is actually being routed
 - do not mistake leverage for statecraft; the layer is only doing its job when leverage is converted into authority, restraint, and settlement
+- do not force every strong note into transaction form; the honest stopping point may still be braid, memo, objection matrix, or router candidate
 
 The three opening questions are:
 
@@ -52,6 +68,12 @@ Why Hormuz is the default worked path:
 - it forces passage, coercion, bargaining, legitimacy, and institutional carrier problems to stay in one frame
 - it shows the difference between a cross-lane regional compact and a lane-local recognition instrument
 - it demonstrates the workshop's main conversion rule: a strategic reading becomes statecraft only when it can survive as a clause, sequence, review mechanism, or off-ramp
+
+Why this worked path matters doctrinally:
+
+- it is the cleanest current example of the workshop's maturation rule
+- it shows that front door, routing, threshold, and transaction validity belong to one line rather than to separate notes
+- it teaches that the goal is not "make a framework" but "find the smallest real instrument the object can honestly support"
 
 Use this front door when the task is not "summarize what happened" but "convert a live strategic object into a draftable instrument."
 
@@ -147,6 +169,13 @@ Its cycle is:
 10. **Scoreboard.** Pape-style and Mearsheimer-style scoreboards track whether power, leverage, and restraint are changing over time.
 
 The goal is not to make the four state lanes agree. The goal is to preserve their orthogonality long enough to draft instruments that can survive contact with each actor's real incentives.
+
+In practical workshop terms:
+
+- the front door owns the entry sequence and worked example
+- the architecture owns the maturity law
+- the router owns fit and threshold decisions
+- lane-local transactions own instrument spending once the object has actually crossed the threshold
 
 ## Speaker-State Intake
 

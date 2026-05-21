@@ -53,6 +53,12 @@ Short rule:
 `captured` is not enough
 `complete` means the run leaves behind trustworthy provenance, clear appearance status, and the right next routing surface
 
+## Skill closure rule
+
+Use [skill-closure-doctrine.md](../../docs/skill-closure-doctrine.md) as the shared maturity test.
+
+For this skill, stronger synthesis belongs only after the daily run has yielded verified appearances and the correct next route. A successful ingest run does not, by itself, justify speaker doctrine, lattice interpretation, or shelf-level meaning.
+
 ## YouTube-first invariant
 
 For this skill, **transcript-bearing stream capture means YouTube-first provenance**.

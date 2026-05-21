@@ -20,6 +20,8 @@ Do not open this surface first when the real question is provenance, raw-input v
 
 This lattice is a front door for speaker identity and recurrence, not the authority for provenance or the full authority for speaker meaning.
 
+For the governing route contract once a speaker needs real routing doctrine, open [speaker map](speakers/map/README.md).
+
 ## Layer Contract
 
 The speaker lattice owns:
@@ -35,6 +37,7 @@ The speaker lattice does not own:
 - primary ownership of captures
 - host-local interpretation
 - full speaker routing doctrine once a mature speaker surface exists
+- completion authority for materialized captures
 
 Short split:
 
@@ -58,6 +61,8 @@ Typical promotion paths:
 - repeated cross-host recurrence -> year index or speaker folder front door
 - durable host transformation -> host-local speaker arc
 - irregular but accepted appearances -> non-core bench or comparable routed speaker surface
+
+Those promotion paths should follow the governing [speaker-map route contract](speakers/map/README.md#route-contract), not local lattice improvisation.
 
 If a speaker becomes operationally important but the lattice remains the only meaningful entry, that is usually a sign the architecture is still thin.
 
@@ -139,3 +144,4 @@ Healthy use means the lattice stays thin but decisive: enough to orient, not so 
 Use this roster when you want to find the recurring speaker fast, then jump toward the stream scaffold, routing table, year index, or speaker shelf for the deeper work.
 
 Do not treat lattice inclusion as proof of mature routing, complete provenance, or settled speaker doctrine.
+Do not let the lattice become a substitute for `core host lane`, `non-core appearance bench`, or `discovery memory` decisions once those are in play.

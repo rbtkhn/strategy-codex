@@ -6,7 +6,7 @@ Purpose: turn "where does this thing end its life?" into an explicit architectur
 
 ## Relation To Architectural Fullness
 
-This note is a sibling lens to [architectural-fullness.md](architectural-fullness.md), not a replacement for it.
+This note is a supporting lens under [architectural-fullness.md](architectural-fullness.md), not a replacement for it.
 
 `Fullness Before Closure` asks whether a surface has enough architecture to be treated as settled.
 
@@ -16,6 +16,8 @@ Short fit:
 
 - architectural fullness = is the surface mature enough to close?
 - lifecycle closure = did the object moving through it end in the right place?
+
+Use this note when the higher-level closure doctrine is already right, but a subsystem still needs a sharper answer to "what counts as a real terminal state here?"
 
 ## Core Pattern
 

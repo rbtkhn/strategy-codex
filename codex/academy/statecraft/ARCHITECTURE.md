@@ -4,6 +4,8 @@ WORK only; not Record.
 
 Purpose: seal the current academy-statecraft arc so future additions extend a program rather than sprawl into unrelated commentary.
 
+This note is the workshop's maturity and anti-false-completion backstop. The governing route line still lives in [README.md](README.md); this file explains when that line has actually been satisfied.
+
 ## Stable Line
 
 Academy-statecraft is a drafting workshop. It converts historical pattern, contemporary speaker-state, and national perspective into treaty clauses, policy papers, negotiation briefs, crisis memos, and reusable statecraft transactions.
@@ -33,6 +35,13 @@ The stable sequence is:
 7. **Transaction** packages the result with provenance, historical continuity, instrument text, falsifiers, revisit triggers, and validity status.
 8. **Recursive update** stages reviewable candidates back into `civilization/`, `empire/`, `state/`, `helix.md`, or `transactions/`.
 9. **Scoreboard** tracks whether leverage, power, restraint, and settlement capacity change over time.
+
+Read that sequence together with the workshop front door:
+
+- the braid keeps the crisis object real
+- the route identifies the settlement spine
+- the threshold prevents premature framework production
+- the transaction spends the object only when the draft can survive as an instrument
 
 ## Stable Surfaces
 
@@ -100,6 +109,8 @@ A statecraft object should usually cross that threshold only when it can survive
 - falsifiers, review triggers, or other revisit discipline
 
 If the work is still primarily interpretation, pressure description, warning, or actor comparison, it is usually healthier as commentary, braid, memo, objection matrix, or router candidate than as a new transaction artifact.
+
+That threshold is not a side rule. It is one of the workshop's main maturity laws.
 
 ## Lifecycle Closure
 

@@ -4,6 +4,8 @@ WORK only; not Record.
 
 Use this sheet after a current-event read classifies the crisis object. The router maps live events onto the 12-object transaction plateau so the operator can reuse an existing bundle before inventing a new one.
 
+This sheet implements the middle of the workshop's governing maturation line: braid the object, identify the settlement spine, then decide whether the object honestly deserves transaction form.
+
 ## First Worked Route
 
 If you are learning this layer, start with the Hormuz path:

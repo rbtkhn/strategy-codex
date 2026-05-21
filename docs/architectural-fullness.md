@@ -42,7 +42,18 @@ Short operator test:
 `good doctrine` is not enough  
 `good architecture` can be reopened, audited, and entered correctly by someone else
 
-Sibling lens: [Lifecycle Closure Audit](lifecycle-closure-audit.md) asks where an object properly ends its life inside that architecture and which surface owns the right to call the lifecycle complete.
+This is the governing closure doctrine.
+
+Supporting roles:
+
+- [Lifecycle Closure Audit](lifecycle-closure-audit.md) is the terminal-state test for objects moving through an architecture.
+- [Skill Closure Doctrine](skill-closure-doctrine.md) is the maturity test for when a skill, route, or scaffold may absorb stronger synthesis.
+- local closeout rules such as the raw-input wiring contract apply the doctrine inside one subsystem.
+
+Short governing line:
+
+`Fullness Before Closure` decides whether a surface is mature enough to close at all.  
+`Lifecycle Closure Audit` decides whether the objects moving through that surface have actually reached a valid end state.
 
 ## The Recent Pattern
 
@@ -58,6 +69,12 @@ Three recent improvements expose the same underlying move:
 The common motif is that architectural fullness usually arrives one layer after the first good doctrine.
 
 The next adjacent move is lifecycle closure: once a surface is architecturally fuller, the repo can ask whether the objects moving through it actually reach valid terminal states rather than stopping at storage, mention, or rhetoric.
+
+Taken together, the closure line is:
+
+1. make the surface architecturally full enough to bear reuse
+2. make the object lifecycle explicit enough to bear closeout
+3. make local subsystem rules strict enough that false terminal states do not count as completion
 
 ## What Fullness Adds
 

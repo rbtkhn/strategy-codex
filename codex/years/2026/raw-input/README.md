@@ -41,6 +41,8 @@ When a file is a valid speaker capture, correct YAML and correct storage day are
 
 **Speaker wiring doctrine:** For the speaker-side route-map version of this rule, see [codex/speakers/map/README.md](../../../speakers/map/README.md). This README is the canonical storage-side contract.
 
+**Closure doctrine:** The governing repo-level closure line lives in [architectural-fullness.md](../../../docs/architectural-fullness.md) and its supporting [lifecycle-closure-audit.md](../../../docs/lifecycle-closure-audit.md). This README applies that doctrine to storage and routing for speaker captures.
+
 ## Raw-Input Wiring Contract
 
 `raw-input/` is a date-first evidence ledger, but a valid materialized speaker capture must not remain only in this tree.

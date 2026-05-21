@@ -90,7 +90,14 @@ Model: a guest speaker arc is a **host-local arc**, and an arc is a bounded heli
      - is it explicit about what the arc owns versus what the lattice or thread roster owns?
      - does it point toward the right next surface instead of acting like a substitute for a missing speaker route?
      - if the guest run has grown beyond stream-local usefulness, should a fuller year index, speaker folder, or other route now exist?
+     - is this arc actually mature enough to absorb stronger synthesis, or is it still the honest stopping point?
    - If those answers are weak, the note may still be useful, but it is not yet a strong reusable arc.
+
+## Skill closure rule
+
+Use [skill-closure-doctrine.md](../../docs/skill-closure-doctrine.md) as the shared maturity test.
+
+For this skill, stronger synthesis belongs only when the host-local arc can clearly carry it. If the run still mainly needs routing help, stop at the compact arc and point toward the fuller destination rather than pretending that the fuller route already exists.
 
 8. **Keep boundaries honest**
    - Say what the guest lane is good for.
