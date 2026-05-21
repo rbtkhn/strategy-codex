@@ -155,6 +155,26 @@ Arc-thread motion: December directly names ceding the future to China, introduce
 
 Boundary: Treat "beneficiary" as strategic-position analysis, not a claim that China controls events or has assumed alliance obligations.
 
+## Live Update Hooks
+
+### 2026-05-21 - Hormuz boarding / blockade legitimacy / war-powers pressure
+
+Status: update candidate; not raw-input and not a substitute for the Freeman transcript anchors above.
+
+Live source hook:
+
+- AP reported U.S. boarding of an Iranian-flagged tanker in the Gulf of Oman, continued Persian Gulf vessel-stranding pressure, and Senate movement to force withdrawal from the Iran war: [AP, 2026-05-20](https://apnews.com/article/iran-blockade-oil-tanker-military-boards-8a1bafe95f2d76665d65db4effd91680).
+- AP separately framed Trump as pausing renewed Iran strikes while presenting serious negotiations and pressure deadlines: [AP, 2026-05-19](https://apnews.com/article/trump-iran-pressure-campaign-strait-hormuz-de-8166b4d513523ee8b73ff058210dc581).
+
+Arc-thread use:
+
+- **Law Gives Way To Raw Power:** boarding and blockade pressure test whether legal vocabulary is following force rather than governing it.
+- **Diplomacy Becomes Performance:** deadline-setting plus strike pause fits the Freeman line about coercive theater being described as negotiation.
+- **Iran Turns From Target Into System Lever:** Hormuz moves from regional pressure point to system-level bargaining and maritime-order stress.
+- **U.S. Domestic Decay And Strategic Decay Merge:** Senate war-powers pressure makes the foreign crisis a constitutional-order test.
+
+Boundary: Use this as a live update hook or `current-event` seed. Do not quote it as Freeman's position unless a Freeman appearance later absorbs the same facts.
+
 ## Use
 
 Open this file when the question is about Freeman's December 2025-May 2026 arc-threads or durable theses across appearances. Open the monthly or host-local arcs when the question is about bounded sequencing, host transformation, or how several arc-threads braid in one surface. Open raw-input before quoting.

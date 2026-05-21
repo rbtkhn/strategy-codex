@@ -36,6 +36,23 @@ Treat `check streams` as the intake gate, not the durable interpretation layer.
 
 After materialization, prefer asking **which appearance was created and which route stack it strengthens** before updating lattice surfaces. Do not create or update speaker objects automatically from the daily check unless the operator explicitly asks.
 
+## Fullness-before-closure rule
+
+Do not treat a successful daily run as complete merely because discovery and materialization succeeded.
+
+Before closure, ask:
+
+- did the run produce a trustworthy discovery receipt, rather than only a plausible list?
+- did each approved item become a verified appearance, rather than just a stored transcript?
+- did the routing hint name the correct next surface, rather than merely mentioning a speaker?
+- did any lattice or stream-facing suggestion avoid substituting for a fuller speaker route that should exist elsewhere?
+
+Short rule:
+
+`discovered` is not enough
+`captured` is not enough
+`complete` means the run leaves behind trustworthy provenance, clear appearance status, and the right next routing surface
+
 ## YouTube-first invariant
 
 For this skill, **transcript-bearing stream capture means YouTube-first provenance**.
@@ -159,8 +176,10 @@ If a stream has no upload on the target day, say so explicitly.
    - For a durable advisory queue, run `python scripts/build_speaker_routing_queue.py --start YYYY-MM-DD --end YYYY-MM-DD` and review `artifacts/speaker-routing/<start>_to_<end>/speaker-routing-queue.md` plus `appearance-ledger.jsonl`.
    - When the operator wants concrete follow-up proposals, run `python scripts/build_speaker_memory_actions.py --start YYYY-MM-DD --end YYYY-MM-DD` and review `artifacts/speaker-memory-actions/<start>_to_<end>/memory-action-queue.md`.
    - Prefer existing host-local speaker arcs as the primary route when host + guest match; list matching speaker objects or helix/cross-host notes as additional strengthened surfaces.
+   - Distinguish the surface type: use **host-local arc** for one host x guest braid, **thread atlas** for recurring strands across months or hosts, and **speaker helix** for cross-host comparison of multiple host-local arcs.
    - If no clear speaker route exists, say so and stop at raw-input.
    - Treat lattice rows as lookup pointers; update them only after the speaker object or arc path is clear and the operator asks for that follow-up.
+   - If the only available suggestion is a roster mention or vague lattice presence, say the route is still thin rather than implying completion.
 
 ## Clip-filter model
 

@@ -20,6 +20,8 @@ tags:
 
 Use this skill when a recurring guest run inside a host stream has become important enough to deserve a compact, reusable note that future routing can cite.
 
+Model: a guest speaker arc is a **host-local arc**, and an arc is a bounded helix of arc-threads. Use the arc note for the bounded host x guest braid; use a thread atlas when recurring strands cross months or hosts; use a speaker helix when comparing multiple host-local arcs.
+
 ## When to run
 
 - A host stream now has several raw-inputs with the same guest.
@@ -61,6 +63,7 @@ Use this skill when a recurring guest run inside a host stream has become import
      - purpose paragraph
      - `## Why this guest run matters`
      - `## Arc set`
+     - `## Arc-thread braid`
      - `## Open first`
      - `## Routing use`
      - `## Boundaries`
@@ -69,6 +72,7 @@ Use this skill when a recurring guest run inside a host stream has become import
      - date
      - title
      - why it matters most
+   - In the arc-thread braid, name the recurring strands that make the arc more than chronology.
 
 5. **Preserve stream-local logic**
    - The note should read as **Host x Guest**, not as a standalone worldview bucket.
@@ -80,7 +84,15 @@ Use this skill when a recurring guest run inside a host stream has become import
    - Add or refine the `thread:<expert_id>` row in `strategy-commentator-threads.md`.
    - Point those surfaces at the speaker arc instead of duplicating the long explanation everywhere.
 
-7. **Keep boundaries honest**
+7. **Run a fullness-before-closure check**
+   - Before calling the arc finished, ask:
+     - does it give a clean entry for a future operator?
+     - is it explicit about what the arc owns versus what the lattice or thread roster owns?
+     - does it point toward the right next surface instead of acting like a substitute for a missing speaker route?
+     - if the guest run has grown beyond stream-local usefulness, should a fuller year index, speaker folder, or other route now exist?
+   - If those answers are weak, the note may still be useful, but it is not yet a strong reusable arc.
+
+8. **Keep boundaries honest**
    - Say what the guest lane is good for.
    - Say what it is not the right tool for.
    - If the underlying files are auto-caption normalizations or otherwise imperfect, say so clearly.
@@ -99,7 +111,8 @@ Use this skill when a recurring guest run inside a host stream has become import
 - Do not rank by charisma, novelty, or word count alone.
 - Do not overclaim certainty; if the lane is speculative or high-variance, say so.
 - Do not flatten the guest into a generic ideology label when a more precise lane description is available.
+- Do not let a good stream-local note become an excuse to avoid building the fuller routed surface once recurrence is thick enough.
 
 ## Success condition
 
-The result is a compact host-stream speaker arc that future routing can cite directly, plus any needed lattice or thread pointers, without creating taxonomic drift.
+The result is a compact host-stream speaker arc that future routing can cite directly, plus any needed lattice or thread pointers, without creating taxonomic drift or false closure.
