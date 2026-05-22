@@ -46,3 +46,5 @@ Reseeded: 2026-04-14
 - 2026-05-05 10:49:35 | pipeline merge | CANDIDATE-0064 | approved by companion
 - 2026-05-05 14:13:46 | pipeline merge | CANDIDATE-0065 | approved by operator
 - 2026-05-05 14:13:46 | pipeline merge | CANDIDATE-0066 | approved by operator
+- 2026-05-21 10:46:40 | pipeline merge | CANDIDATE-0068 | approved by operator
+- 2026-05-21 11:00:39 | pipeline merge | CANDIDATE-0067 | approved by operator

@@ -8,6 +8,8 @@ Grace-Mar uses **derived** operator-facing surfaces (under `artifacts/`, in `doc
 
 **Related:** [operator surface registry](operator-surface-registry.md) (taxonomy), [runtime vs Record](runtime-vs-record.md) (canonical vs derived), [artifacts README](../artifacts/README.md) (producer table).
 
+**Constraint rule:** Read alongside [GRACEFUL-CONSTRAINT-DOCTRINE](graceful-constraint-doctrine.md). Under degraded conditions, operator-facing surfaces should degrade visibly and route back to authority rather than preserving a polished tone that outruns what is currently known.
+
 ## 2. Staleness principle
 
 A **stale** operator surface may still be **useful as a historical** snapshot (e.g. last run, last gate parse), but it must **not** be treated as the **only** or **binding** view of current operational reality when the **declared source inputs** have changed.
@@ -15,6 +17,16 @@ A **stale** operator surface may still be **useful as a historical** snapshot (e
 **Canonical** durable state (Record, gate file for pending candidates, and other governance-declared sources) lives where [AGENTS.md](../AGENTS.md) and [runtime vs Record](runtime-vs-record.md) say it livesâ€”not in a derived dashboard, report, or JSON feed, **regardless of freshness**. If a surface is out of date, **refresh the surface** (regenerate) or **read the source**; do not treat staleness as â€œmore trueâ€ or â€œless bindingâ€ of the *canonical* pathâ€”**canonical** is not determined by the artifact timestamp.
 
 **Authority:** A stale line in a **derived** file does not grant or remove **merge** authority, **gate** effect, or **Record** write access.
+
+### Graceful degradation
+
+When freshness is uncertain, the preferred behavior is:
+
+- **visible degradation** rather than silent confidence,
+- **return to source** rather than polished ambiguity,
+- **operator-readable uncertainty** rather than interface smoothness at any cost.
+
+The system should help the operator see when a surface is useful-but-old, partial, or historical, not just when it is beautifully rendered.
 
 ## 3. Staleness note format (Markdown)
 
@@ -51,6 +63,17 @@ Use these labels in registry metadata, JSON, or human prose when you need a **sh
 | `historical_only` | The artifact is a **record of a past** run, snapshot, or receiptâ€”**not** a live â€œcurrent system stateâ€ view unless regenerated. |
 
 **Staleness does not flip authority status:** a `current_declared` derived file is still **derived** (non-Record) unless doctrine elsewhere names it canonical.
+
+## 4a. Failure-mode reading
+
+These levels should be read through four broader failure modes:
+
+| Failure mode | Surface behavior | Correct response |
+|--------------|------------------|------------------|
+| **Abundance-only design** | Surface assumes regen, source access, or live helpers will always be available. | Add visible fallback or authority return path. |
+| **Graceful degradation** | Surface stays usable while clearly narrowing what it claims. | Preferred state. |
+| **Silent drift** | Surface still looks current even after freshness or source linkage has weakened. | Treat as a design defect. |
+| **Visible abstention** | Surface says what is missing and points back to source or rebuild path. | Honest degraded-state behavior. |
 
 ## 5. Surface-specific guidance
 
@@ -93,6 +116,16 @@ A **staleness note** or **staleness level** is **not**:
 - a substitute for **reading** the canonical file when the decision is identity- or merge-bearing.
 
 **Reminder:** [operator surface registry](operator-surface-registry.md) and this doc describe **operator navigation**; they are **not** merge authority. See [AGENTS.md](../AGENTS.md) gated pipeline.
+
+## 6a. Operator-facing rule
+
+If a surface is stale and the decision is load-bearing, the system should prefer:
+
+1. reading the source,
+2. rebuilding the surface,
+3. explicitly labeling the decision as using a historical or partial view,
+
+before it ever prefers a smooth but weakly grounded operator experience.
 
 ## 7. Minimal adoption policy (this repo)
 

@@ -2,8 +2,8 @@ Grace-mar paths and commands for this repository (from `.cursor/skills/strategy-
 
 | Topic | Path |
 |--------|------|
-| Existing stream-local speaker arcs | [codex/years/2026/diesen/](../../codex/years/2026/diesen/) |
-| Lattice speakers roster | [codex/COGNITION-LATTICE-SPEAKERS.md](../../codex/COGNITION-LATTICE-SPEAKERS.md) |
+| Existing stream-local speaker arcs | [codex/speakers/diesen/stream/](../../codex/speakers/diesen/stream/) |
+| Lattice speakers roster | [codex/speaker-lattice.md](../../codex/speaker-lattice.md) |
 | Thread handle roster | [codex/strategy-commentator-threads.md](../../codex/strategy-commentator-threads.md) |
 | Portable skill manifest | [skills-portable/manifest.yaml](../../../skills-portable/manifest.yaml) |
 | Sync script | [scripts/sync_portable_skills.py](../../../scripts/sync_portable_skills.py) |
@@ -13,8 +13,8 @@ Grace-mar paths and commands for this repository (from `.cursor/skills/strategy-
 
 - In this repo, guest speaker arcs belong to the **host stream** unless an existing taxonomy explicitly says otherwise.
 - Current reference pattern:
-  - [diesen-matlock-speaker-arc.md](../../codex/years/2026/diesen/diesen-matlock-speaker-arc.md)
-  - [diesen-jiang-speaker-arc.md](../../codex/years/2026/diesen/diesen-jiang-speaker-arc.md)
+  - [diesen-matlock-speaker-arc.md](../../codex/speakers/diesen/stream/diesen-matlock-speaker-arc.md)
+  - [diesen-jiang-speaker-arc.md](../../codex/speakers/diesen/stream/diesen-jiang-speaker-arc.md)
 - The lattice and `thread:` roster may cite the speaker arc, but the note itself should not invent a new shelf or corpus boundary.
 
 **Common local command pattern**

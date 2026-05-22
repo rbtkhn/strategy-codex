@@ -4,6 +4,8 @@ Project-local workflow skills for Grace-Mar operator routines.
 
 These skills package recurring "morning coffee" and territory pulse workflows into reusable commands for Cursor agents. They do not change the gated merge rule, and they do not create new memory lanes. They are read-only workflow surfaces over canonical repo state.
 
+For multi-turn Codex campaign work with explicit objectives, plans, completion, and blocked states, see [goal-mode-playbook.md](goal-mode-playbook.md).
+
 **Gate alias:** `knowledge-gate` and `recursion-gate` mean the same human approval membrane. The canonical file path remains `recursion-gate.md`.
 
 ## Contextual stewardship
@@ -93,7 +95,7 @@ Must answer:
 - Is repo integrity healthy?
 - Is the worktree noisy enough to affect the next move?
 - **Coffee:** **Polymarket** + **volume** + **independent** horserace poll (or none) ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â **only** after **menu C ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â Historian** (intel path) or explicit same-message request; same caveats and procedure as [polling-and-markets.md](skill-work/work-politics/polling-and-markets.md). Step 1 does **not** include this block.
-- **Coffee:** After **Step 1**, show the fixed **A-D** hub with no micro-hints row: **A Steward**, **B Engineer**, **C Strategist**, **D Singularity**. **D Singularity** opens the WORK-only academy-singularity route for agency under acceleration, agent control planes, alignment/substrate/displacement tests, and reusable artifacts. Conductor remains standalone by `conductor` or master name. Commercial, prose, offer, and `skill-write` work route by explicit request outside the Coffee D default.
+- **Coffee:** After **Step 1**, show the fixed **A-D** hub with no micro-hints row: **A Steward**, **B Engineer**, **C Strategist**, **D Singularity**. **D Singularity** opens the WORK-only singularity-academy route for agency under acceleration, agent control planes, alignment/substrate/displacement tests, and reusable artifacts. Conductor remains standalone by `conductor` or master name. Commercial, prose, offer, and `skill-write` work route by explicit request outside the Coffee D default.
 - **Signing-off `coffee`:** After **Step 1** (`operator_handoff_check.py` + paragraph), **same** fixed menu as work-start; **A ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â Steward** without gate/template split ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ **system pick**. See [menu-reference ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â signing-off intent](skill-work/work-coffee/menu-reference.md#signing-off-intent).
 
 ### `weekly-brief-run`

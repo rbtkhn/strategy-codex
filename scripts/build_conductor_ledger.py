@@ -107,6 +107,11 @@ def collect_friction_candidates(
                 if "<what failed" in line:
                     continue
                 text = line.strip()
+                if text.startswith("- "):
+                    text = text[2:].strip()
+                prefix = "**Friction / rule candidate (optional):**"
+                if text.startswith(prefix):
+                    text = text[len(prefix):].strip()
                 if not text.endswith(":") and text:
                     try:
                         display_path = str(path.relative_to(REPO_ROOT)).replace("\\", "/")
@@ -179,15 +184,22 @@ def render_conductor_ledger_markdown(payload: dict[str, Any]) -> str:
         f"- Generated: `{payload['generated_at']}`",
         f"- User: `{payload['user_id']}`",
         "",
-        "## Summary",
+        "## Snapshot",
         "",
-        f"- Explicit picks: `{audit['explicit_pick_count']}`",
-        f"- Explicit outcomes: `{audit['explicit_outcome_count']}`",
-        f"- Inferred outcomes: `{audit['inferred_outcome_count']}`",
-        f"- Unmatched explicit picks in window: `{closure['open_pick_count']}`",
-        f"- Inferred closure rate: `{closure['closure_rate']}`",
-        f"- Outcome lines with `notebook_ref=`: `{audit['evidence_richness']['notebook_ref']}`",
-        f"- Outcome lines with `falsify=`: `{audit['evidence_richness']['falsify']}`",
+        (
+            "- Picks / explicit outcomes / inferred outcomes: "
+            f"`{audit['explicit_pick_count']}` / `{audit['explicit_outcome_count']}` / "
+            f"`{audit['inferred_outcome_count']}`"
+        ),
+        (
+            "- Unmatched explicit picks / inferred closure rate: "
+            f"`{closure['open_pick_count']}` / `{closure['closure_rate']}`"
+        ),
+        (
+            "- Outcome receipts with `notebook_ref=` / `falsify=`: "
+            f"`{audit['evidence_richness']['notebook_ref']}` / "
+            f"`{audit['evidence_richness']['falsify']}`"
+        ),
         "",
         "## Continuity",
         "",
@@ -216,16 +228,25 @@ def render_conductor_ledger_markdown(payload: dict[str, Any]) -> str:
         | set(audit["inferred_outcomes_by_conductor"])
         | set(audit["coffee_close_closes_by_conductor"])
     )
-    for conductor in all_conductors:
-        lines.append(
-            "- `{}` picks={} explicit_outcomes={} inferred_outcomes={} coffee_closes={}".format(
-                conductor,
-                audit["explicit_picks_by_conductor"].get(conductor, 0),
-                audit["explicit_outcomes_by_conductor"].get(conductor, 0),
-                audit["inferred_outcomes_by_conductor"].get(conductor, 0),
-                audit["coffee_close_closes_by_conductor"].get(conductor, 0),
-            )
+    if all_conductors:
+        lines.extend(
+            [
+                "| Conductor | Picks | Explicit outcomes | Inferred outcomes | Coffee closes |",
+                "|---|---:|---:|---:|---:|",
+            ]
         )
+        for conductor in all_conductors:
+            lines.append(
+                "| `{}` | {} | {} | {} | {} |".format(
+                    conductor,
+                    audit["explicit_picks_by_conductor"].get(conductor, 0),
+                    audit["explicit_outcomes_by_conductor"].get(conductor, 0),
+                    audit["inferred_outcomes_by_conductor"].get(conductor, 0),
+                    audit["coffee_close_closes_by_conductor"].get(conductor, 0),
+                )
+            )
+    else:
+        lines.append("- None in window.")
 
     lines.extend(["", "## Unmatched Explicit Picks", ""])
     if audit["open_picks"]:
@@ -239,7 +260,8 @@ def render_conductor_ledger_markdown(payload: dict[str, Any]) -> str:
     lines.extend(["", "## Recent Closes", ""])
     if payload["recent_closes"]:
         for row in payload["recent_closes"]:
-            details: list[str] = [f"`{row['conductor']}`", row["kind"]]
+            ts = str(row.get("ts", ""))[:16]
+            details: list[str] = [f"`{ts}`", f"`{row['conductor']}`", row["kind"]]
             if row.get("verdict"):
                 details.append(f"verdict=`{row['verdict']}`")
             if row["kind"] == "coffee_conductor_outcome":

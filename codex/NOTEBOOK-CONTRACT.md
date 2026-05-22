@@ -9,7 +9,7 @@ WORK only; not Record.
 
 - **Cognition streams** are the top-level analytical scaffold; **strategy-pages** are standalone stream-level analytical objects; **strategy-chapters** are daily synthesis across streams; legacy **`thread:<expert_id>`** handles remain routing/provenance joins; **raw-input** is the literal SSOT.
 - The canonical scaffold shapes now live in [strategy-codex-template-raw-input.md](strategy-codex-template-raw-input.md), [strategy-codex-template-page.md](strategy-codex-template-page.md), [strategy-codex-template-chapter.md](strategy-codex-template-chapter.md), and [strategy-codex-template-book.md](strategy-codex-template-book.md). Legacy `strategy-expert-template.md` anchors remain compatibility redirects while links are updated.
-- Month continuity in the thread journal layer is a short bookended synthesis and index of that month's standalone strategy-page set. See [COGNITION-STREAMS.md](COGNITION-STREAMS.md), [STRATEGY-NOTEBOOK-ARCHITECTURE.md](STRATEGY-NOTEBOOK-ARCHITECTURE.md#thread-terminology), and the thread section of [strategy-expert-template.md](strategy-expert-template.md#thread-template).
+- Month continuity in the thread journal layer is a short bookended synthesis and index of that month's standalone strategy-page set. See [COGNITION-STREAMS.md](COGNITION-STREAMS.md), [STRATEGY-NOTEBOOK-ARCHITECTURE.md](STRATEGY-NOTEBOOK-ARCHITECTURE.md#thread-terminology), and [speakers/_templates/speaker-thread-template.md](speakers/_templates/speaker-thread-template.md).
 
 ## Compatibility naming
 

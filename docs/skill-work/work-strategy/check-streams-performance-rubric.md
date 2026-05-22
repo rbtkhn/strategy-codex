@@ -13,6 +13,7 @@ fail in another:
 - recovery can close real gaps even when the main audit path degrades
 - a run can materialize transcripts while still leaving weak receipts
 - a run can produce good files but poor closeout discipline
+- a run can discover the requested object early and still fail by continuing into unasked-for workflow
 
 Score each dimension separately from `0` to `3`.
 
@@ -70,6 +71,13 @@ How well did the run close the loop with the operator and the repo?
 - `1` - result is usable but scope, git state, or remaining gaps are fuzzy
 - `2` - result is clearly stated and remaining gaps are named
 - `3` - result is clearly stated, remaining gaps are named, and git/materialization scope is cleanly bounded
+
+For bounded retrieval asks, this dimension also includes the **stopping rule**:
+
+- once the requested object is in hand, answer first
+- do not continue into repair, capture, dependency, or routing work unless the operator asks for the next layer
+
+A run that finds the requested URLs quickly but keeps expanding into unasked-for workflow should score poorly here even if the deeper work is technically competent.
 
 This is the difference between "some work happened" and "the pass is governable."
 

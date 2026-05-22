@@ -29,6 +29,20 @@ Cross-territory WORK architecture (tiers, optional scaffolds): [work-template/RE
 
 **Optional judgment layer:** **[WORK-LEDGER.md](WORK-LEDGER.md)** â€” compounding index for watches and heuristics with **links** into integration docs; not a replacement entrypoint, not Record truth, instantiated from [work-template/WORK-LEDGER.md](../work-template/WORK-LEDGER.md).
 
+**Singularity-academy consolidation:** This lane remains canonically `work-dev`, but it is now also a live `singularity-academy` overlay when the operator is using technical work to test recursive AI, agent control planes, substrate questions, evals, automation loops, and durable code-intelligence leverage under acceleration. Canonical singularity hub: [Singularity Workshop](../../../codex/academy/singularity/workshop/README.md).
+
+When this lane is being used under `singularity-academy`, keep the normal `work-dev` docs and execution paths, but add one singularity question to the work:
+
+- what is accelerating
+- what the agent actually is
+- where authority and rollback live
+- whether recursive improvement is real or just tool assistance
+- what technical office, judgment layer, or control-plane burden is being displaced, strengthened, or redefined
+
+This overlay is WORK-only. Do not introduce `candidates` as part of the normal singularity workflow. `work-dev` keeps its own native gate-adjacent and governed-state doctrine, but `singularity-academy` does not absorb those mechanics into the workshop itself.
+
+When this lane is being used under `singularity-academy`, common route surfaces include OpenClaw and external agents, diagnostics and control planes, evals and benchmarks, workbench and interface artifacts, and code-intelligence pilot work such as [CodeGraph Pilot Benchmark](codegraph-pilot-benchmark.md). Normal integration, governance, or implementation work does not automatically become singularity work unless the operator is explicitly testing the singularity thesis.
+
 ---
 
 ## Current operator step
@@ -151,6 +165,7 @@ Use [postmortem-to-skill-feedback-loop.md](postmortem-to-skill-feedback-loop.md)
 | **[gap-classification.md](gap-classification.md)** | Severity / status vocabulary for [known-gaps.md](known-gaps.md). |
 | **[claim-proof-standard.md](claim-proof-standard.md)** | Implemented capabilities must cite tests, scripts, receipts, or demos. |
 | **[codex-chat-push-auth-boundary.md](codex-chat-push-auth-boundary.md)** | Commit vs push boundary for Codex chat, PowerShell, SSH config, sandbox elevation, and remote receipts. |
+| **[codegraph-pilot-benchmark.md](codegraph-pilot-benchmark.md)** | Smallest real-world benchmark loop for deciding whether the CodeGraph pilot should expand, contain itself, or retire. |
 | **[../../doctrine-drift-radar.md](../../doctrine-drift-radar.md)** | **Doctrine Drift Radar** â€” read-only drift audit for high-leverage authority and governance slips across scripts, docs, and derived artifacts. |
 | **[../../counterfactual-fork-simulator.md](../../counterfactual-fork-simulator.md)** | **Counterfactual Fork Simulator** â€” scratch-only governance foresight report for proposed changes before they enter the normal gate path. |
 | **[../../authority-values.md](../../authority-values.md)** | **Authority Values** â€” shared vocabulary for non-authority fields used by diagnostics, portable emulation, counterfactual simulation, interface artifacts, and agent surfaces. |

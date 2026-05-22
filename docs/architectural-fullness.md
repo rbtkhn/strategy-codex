@@ -24,7 +24,7 @@ The point is not to make every note heavy. The point is to prevent false complet
 
 **Fullness Before Closure**
 
-Do not treat a surface as settled, mature, or complete merely because it has a strong idea, a good route, or a persuasive draft. Before closure, ask whether the surface has enough architectural fullness to survive reuse.
+Do not treat a surface as settled merely because it has a strong idea, a good route, or persuasive prose. Before closure, ask whether it has enough architecture to survive reuse.
 
 In repo shorthand:
 
@@ -34,13 +34,11 @@ In repo shorthand:
 - no closure without audit questions
 - no closure without named failure modes
 
-Use this principle when the repo is tempted to say "done" because the concept is right even though the operating contract is still thin.
-
 Short operator test:
 
 `good idea` is not enough  
 `good doctrine` is not enough  
-`good architecture` can be reopened, audited, and entered correctly by someone else
+`good architecture` can be reopened and reused cleanly
 
 This is the governing closure doctrine.
 
@@ -57,7 +55,7 @@ Short governing line:
 
 ## The Recent Pattern
 
-Three recent improvements expose the same underlying move:
+Three recent improvements show the same move:
 
 1. **Raw-input wiring contract**
    Storage was already real, but the architecture became fuller only when it named ownership, downstream visibility obligations, audit questions, and false-completion traps such as `stored but invisible` and `discovery-memory trap`.
@@ -66,9 +64,7 @@ Three recent improvements expose the same underlying move:
 3. **Statecraft architecture**
    Stable and experimental surfaces were already named, but the architecture became fuller only when it named maturity checks, promotion thresholds, audit questions, and failure modes such as `commentary inflation`, `template theater`, and `cross-lane blur`.
 
-The common motif is that architectural fullness usually arrives one layer after the first good doctrine.
-
-The next adjacent move is lifecycle closure: once a surface is architecturally fuller, the repo can ask whether the objects moving through it actually reach valid terminal states rather than stopping at storage, mention, or rhetoric.
+The common motif is that architectural fullness usually arrives one layer after the first good doctrine. The next move is lifecycle closure: once a surface is fuller, ask whether the objects moving through it actually reach valid end states rather than stopping at storage, mention, or rhetoric.
 
 Taken together, the closure line is:
 
@@ -93,7 +89,7 @@ When a surface is becoming fuller, look for these additions:
 6. **Promotion thresholds**
    What distinguishes a scaffold, exemplar, or experiment from a stable architectural surface?
 
-Not every document needs all six in equal weight. But if a system keeps drifting, confusing, or overclaiming, one of these layers is usually missing.
+Not every document needs all six in equal weight. But if a system keeps drifting or overclaiming, one of these layers is usually missing.
 
 ## Typical False-Completion Traps
 
@@ -107,8 +103,6 @@ These traps recur across very different surfaces:
 - `discovery parking lot`: unresolved or temporary surfaces become long-term homes
 - `maturity drift`: orientation scaffolds are treated as if they were already stable architecture
 
-Architectural fullness is often the act of naming these traps before the shelf hardens around them.
-
 ## Review Questions
 
 Use these questions when reviewing a doctrine surface, README, routing note, or workshop architecture:
@@ -120,7 +114,7 @@ Use these questions when reviewing a doctrine surface, README, routing note, or 
 5. Can they tell how the surface most commonly fails?
 6. Can they tell what is stable versus still provisional?
 
-If several answers are no, the surface may have a good idea without yet having full architecture.
+If several answers are no, the surface is still thin.
 
 ## Good Uses
 
@@ -143,4 +137,4 @@ Nearby systems that appear ready for this treatment:
 
 ## Boundary
 
-Architectural fullness is a design and doctrine lens. It does not mean every surface should become longer, heavier, or more abstract. Some notes should stay thin. The test is whether added structure reduces ambiguity, false completion, and operator friction rather than merely increasing textual mass.
+Architectural fullness is a design lens. It does not mean every surface should become longer. Some notes should stay thin. The test is whether added structure reduces ambiguity and false completion rather than merely adding text.

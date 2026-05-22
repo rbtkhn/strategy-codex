@@ -93,7 +93,7 @@ If you reverse those questions, the notebook starts to blur:
 
 - [transcript-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md](../../../codex/years/2026/raw-input/2026-05-06/transcript-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md)
   - raw-input ownership: **Diesen-first**
-  - later supports [diesen-freeman-speaker-arc.md](../../../codex/years/2026/diesen/diesen-freeman-speaker-arc.md) because the recurring host-local run is real
+  - later supports [diesen-freeman-speaker-arc.md](../../../codex/speakers/diesen/stream/diesen-freeman-speaker-arc.md) because the recurring host-local run is real
 
 ## Bottom line
 

@@ -3,6 +3,7 @@ node_modules/
 .pnp/
 .pnp.js
 .codegraph/
+.forecast/
 
 # Build outputs
 build/
@@ -125,6 +126,10 @@ artifacts/context-failure-reports/*
 artifacts/rejection_analysis.json
 # Forecast observability report (rebuildable; scripts/build_forecast_observability_report.py)
 artifacts/forecast/observability-report.md
+
+# Scenario Lab pilot outputs (derived; see artifacts/simulations/README.md)
+artifacts/simulations/*
+!artifacts/simulations/README.md
 
 # Strategy notebook extension (rebuildable; see artifacts/work-strategy/strategy-notebook/README.md)
 artifacts/work-strategy/strategy-notebook/receipts/*

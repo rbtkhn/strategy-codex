@@ -257,4 +257,18 @@ entries:
     warrant: "Keep the claim tied to Madison's institutional design rather than generalizing it into a broader founding-era slogan."
     provenance: human_approved
 
+  - id: LEARN-0032
+    date: 2026-05-21
+    topic: "See source_exchange.operator (staged paste)."
+    source: pipeline merge
+    evidence_id: ACT-0038
+    provenance: human_approved
+
+  - id: LEARN-0033
+    date: 2026-05-21
+    topic: "See source_exchange.operator (staged paste)."
+    source: pipeline merge
+    evidence_id: ACT-0039
+    provenance: human_approved
+
 ```

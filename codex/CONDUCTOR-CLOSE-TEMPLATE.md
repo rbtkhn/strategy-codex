@@ -7,6 +7,8 @@ Copy into **`chapters/YYYY-MM/days.md`** under the same `## YYYY-MM-DD` block yo
 
 **Preferred routine close:** use the compact shape first: `Object` -> `What moved / seam` -> `Falsify / next test` -> `Next wedge`. Expand to the fuller lines below only when the pass genuinely needs the extra composition.
 
+**Vocabulary:** `behavioral/non-durable` means the movement only settled in chat. `durable` means it left an on-disk notebook anchor or a `coffee_conductor_outcome` with `conductor=<slug>`, `verdict=`, and `notebook_ref=` or `falsify=`.
+
 ```markdown
 ### Conductor close
 - **Stance / conductor:** <slug, e.g. toscanini | furtwangler | karajan | kleiber | bernstein>
@@ -29,7 +31,7 @@ Copy into **`chapters/YYYY-MM/days.md`** under the same `## YYYY-MM-DD` block yo
 - **Next wedge:** <the single next operator action, or `No next action recommended`>
 ```
 
-**Chat-only / non-durable note:** if a selected movement was satisfied only as a behavioral commitment or spoken distinction, label it as **behavioral/non-durable**. Only notebook anchors or `coffee_conductor_outcome` count as durable closes.
+**Chat-only / non-durable note:** if a selected movement was satisfied only as a behavioral commitment or spoken distinction, label it as **behavioral/non-durable**. Only notebook anchors or `coffee_conductor_outcome` lines count as durable closes.
 
 **Lightest valid line** (if you only have thirty seconds): keep **Stance**, **Object**, and **Falsify** as a single **bulleted** line each.
 

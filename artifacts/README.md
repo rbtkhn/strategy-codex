@@ -71,6 +71,7 @@ When in doubt, commit the source doctrine, script, test, or receipt that proves 
 | `artifacts/gate-board.md` | `scripts/build_gate_board.py` | **Kanban-style** candidate/review snapshot — not authoritative; [docs/gate-board.md](../docs/gate-board.md). |
 | `artifacts/work-lanes-dashboard.json` | `scripts/build_work_lanes_dashboard.py` | **WORK** telemetry aggregate; input to lane dashboard script. |
 | `artifacts/forecast/` | `scripts/run_forecast_baselines.py` | **Forecast artifact JSON** + optional `.summary.md` — WORK-layer; [policy](forecast/README.md), [lane](../docs/skill-work/work-forecast/README.md). |
+| `artifacts/simulations/` | `python -m integrations.scenario_lab.run_gated_simulation`, `python -m integrations.scenario_lab.visualize_simulation` | **Derived** Scenario Lab pilot packets, run reports, manifests, and visualization-ready outputs; simulation-only, advisory, and not governed truth; see [bucket README](simulations/README.md). |
 | `artifacts/receipts/forecast/` | `scripts/run_forecast_baselines.py` | **Forecast run receipts** — legibility only; [policy](receipts/forecast/README.md). |
 | `artifacts/uncertainty-reports/` | _(optional)_ operator / CI | **Optional** sidecars for uncertainty envelope JSON — not Record; [folder README](uncertainty-reports/README.md). |
 | `artifacts/review-packets/` | `scripts/runtime/review_orchestrator.py` | **Optional** Markdown review packets (`--output`; **`--task-anchor` required**) — not Record; [folder README](review-packets/README.md). |

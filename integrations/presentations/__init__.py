@@ -1,1 +1,1 @@
-"""Source adapters for the Presenton-backed presentation service."""
+"""Source adapters that turn family-specific packets into presentation bundles."""

@@ -67,7 +67,7 @@ Not live candidates — copy the shape when adding real **pending** blocks above
 ```yaml
 impact_tier: low
 envelope_class: none
-status: pending
+status: approved
 # … other required candidate keys …
 ```
 
@@ -78,7 +78,7 @@ status: pending
 ```yaml
 impact_tier: boundary
 envelope_class: required
-status: pending
+status: approved
 # … other required candidate keys …
 ```
 
@@ -124,6 +124,48 @@ reflection_ack: heavy
 ## Candidates
 
 ## Processed
+
+### CANDIDATE-0067 (Business credit facility)
+
+```yaml
+status: approved
+timestamp: 2026-05-21 16:44:59
+channel_key: operator:cursor:stage-paste
+source: operator — scripts/stage_gate_candidate.py
+source_exchange:
+  operator: |
+    We have a $80,000 line of credit.
+mind_category: knowledge
+signal_type: operator_paste
+priority_score: 3
+summary: "Operator reports a $80,000 line of credit is available."
+convergence: first
+profile_target: IX-A. KNOWLEDGE
+suggested_entry: "See source_exchange.operator (staged paste)."
+prompt_section: YOUR KNOWLEDGE
+prompt_addition: none
+```
+
+### CANDIDATE-0068 (Rural Colorado property)
+
+```yaml
+status: approved
+timestamp: 2026-05-21 16:45:38
+channel_key: operator:cursor:stage-paste
+source: operator — scripts/stage_gate_candidate.py
+source_exchange:
+  operator: |
+    We have a 5 acre property in rural Colorado mountains, near Pine Colorado.
+mind_category: knowledge
+signal_type: operator_paste
+priority_score: 3
+summary: "Operator reports a 5-acre property in the rural Colorado mountains near Pine, Colorado."
+convergence: first
+profile_target: IX-A. KNOWLEDGE
+suggested_entry: "See source_exchange.operator (staged paste)."
+prompt_section: YOUR KNOWLEDGE
+prompt_addition: none
+```
 
 ### CANDIDATE-0065 (IX-A - Fourth Lateran canon on Jews and public office; external source)
 

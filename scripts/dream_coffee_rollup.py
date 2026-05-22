@@ -312,13 +312,28 @@ def rollup_conductor_24h(
     max_events: int = 60,
 ) -> dict[str, Any]:
     """Aggregate recent Conductor telemetry for dream -> coffee handoff."""
-    return rollup_conductor_window(
+    rollup = rollup_conductor_window(
         user_id=user_id,
         now_utc=now_utc,
         events_path=events_path,
         window_hours=window_hours,
         max_events=max_events,
     )
+    keep = {
+        "window_start_utc",
+        "window_end_utc",
+        "window_hours",
+        "pick_count",
+        "outcome_count",
+        "completed_passes",
+        "orientation_only",
+        "off_menu_refusals",
+        "last_master",
+        "last_outcome",
+        "echo",
+        "note",
+    }
+    return {key: value for key, value in rollup.items() if key in keep}
 
 
 def rollup_conductor_window(

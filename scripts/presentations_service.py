@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+"""Run the local presentation service for ph-civ and civ-emp deck generation."""
 from __future__ import annotations
 
 import os

@@ -619,6 +619,16 @@ entries: []
 >   correct_answer: "Madison's design seeks to resist factional domination while preserving political legitimacy through representation and a large republic."
 >   validation_note: "Companion's open-ended synthesis captured the intended Madison paradox across Federalist 10 and 51."
 >   staged_claim: "Knows: Madison's constitutional project was to design institutions that preserve legitimacy through representation while checking faction through separation of powers and an extended republic."
+
+**[2026-05-21 10:46:40]** `APPROVED` (Operator)
+> CANDIDATE-0068 → ACT-0038
+> Operator reports a 5-acre property in the rural Colorado mountains near Pine, Colorado.
+> operator: | We have a 5 acre property in rural Colorado mountains, near Pine Colorado.
+
+**[2026-05-21 11:00:39]** `APPROVED` (Operator)
+> CANDIDATE-0067 → ACT-0039
+> Operator reports a $80,000 line of credit is available.
+> operator: | We have a $80,000 line of credit.
 END OF FILE — EVIDENCE grace-mar v0.2 (reseeded)
 
   - id: ACT-0001
@@ -988,5 +998,25 @@ END OF FILE — EVIDENCE grace-mar v0.2 (reseeded)
     mind_category: knowledge
     source: pipeline merge
     summary: "IX-A: Madison on faction, representation, and constitutional design"
+    curated_by: user
+    evidence_tier: 3
+
+  - id: ACT-0038
+    date: 2026-05-21
+    modality: text (pipeline merge)
+    activity_type: knowledge — curated observation
+    mind_category: knowledge
+    source: pipeline merge
+    summary: "Operator reports a 5-acre property in the rural Colorado mountains near Pine, Colorado."
+    curated_by: user
+    evidence_tier: 3
+
+  - id: ACT-0039
+    date: 2026-05-21
+    modality: text (pipeline merge)
+    activity_type: knowledge — curated observation
+    mind_category: knowledge
+    source: pipeline merge
+    summary: "Operator reports a $80,000 line of credit is available."
     curated_by: user
     evidence_tier: 3

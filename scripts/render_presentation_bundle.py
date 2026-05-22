@@ -12,11 +12,13 @@ sys.path.insert(0, str(REPO_ROOT / "src"))
 
 
 def main() -> int:
-    ap = argparse.ArgumentParser(description="Submit a prepared presentation bundle to the local presentation service.")
-    ap.add_argument("--bundle", type=Path, required=True)
-    ap.add_argument("--service-url", default="http://127.0.0.1:5060")
-    ap.add_argument("--n-slides", type=int, default=None)
-    ap.add_argument("--language", default="English")
+    ap = argparse.ArgumentParser(
+        description="Render a prepared ph-civ or civ-emp deck bundle through the local presentation service."
+    )
+    ap.add_argument("--bundle", type=Path, required=True, help="Prepared bundle JSON for a deck family/subsurface.")
+    ap.add_argument("--service-url", default="http://127.0.0.1:5060", help="Local presentation service base URL.")
+    ap.add_argument("--n-slides", type=int, default=None, help="Optional slide-count override.")
+    ap.add_argument("--language", default="English", help="Render language passed through to the deck engine.")
     args = ap.parse_args()
 
     bundle_path = args.bundle if args.bundle.is_absolute() else (REPO_ROOT / args.bundle)

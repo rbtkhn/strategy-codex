@@ -13,6 +13,7 @@
 | **Narrative & differentiation** | [WHITE-PAPER](white-paper.md) | Full story, positioning, technical model. |
 | **Business** | [BUSINESS-PLAN](business-plan.md), [BUSINESS-PROSPECTUS](business-prospectus.md), [BUSINESS-ROADMAP](business-roadmap.md) | Operating plan, market, revenue, roadmap. |
 | **Implementation** | [AGENTS](../AGENTS.md), [ARCHITECTURE](architecture.md) | Guardrails for AI and developers; system design. **Conductors (WORK stance routing):** full layer table [skill-work/work-coffee/CONDUCTOR-LAYER-MAP.md](skill-work/work-coffee/CONDUCTOR-LAYER-MAP.md); short pointer also in [AGENTS](../AGENTS.md) (after the `coffee` / Conductor paragraph). |
+| **Graceful constraint** | [GRACEFUL-CONSTRAINT-DOCTRINE](graceful-constraint-doctrine.md) | System-wide rule: a governed layer must preserve discipline under degraded conditions, not only under ideal dependency comfort. |
 | **Trust layers (tools)** | [TRUST-LAYERS](trust-layers.md) | Reliability vs adversarial surfaces; complements knowledge boundary. |
 | **MCP capability registry (planned integrations)** | [mcp/governed-mcp-layer.md](mcp/governed-mcp-layer.md) | Policy classes + audit report for hypothetical MCP tools; not live wiring; Record merge stays gated. |
 | **MCP stack overview** | [mcp/mcp-stack-overview.md](mcp/mcp-stack-overview.md) | Layer table: registry, bindings, receipts, risk, adapters; SSOT pointers; no live MCP implied. |

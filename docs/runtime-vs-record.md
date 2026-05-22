@@ -6,6 +6,8 @@ Primary doctrine in this repo stays **derived / rebuildable / non-canonical**. I
 
 **Companion:** [operator-mental-model.md](operator-mental-model.md) (navigation-oriented summary).
 
+**Constraint rule:** Read alongside [GRACEFUL-CONSTRAINT-DOCTRINE](graceful-constraint-doctrine.md). When regeneration fails, dependencies disappear, or context thins, the system should degrade visibly and preserve authority boundaries rather than bluffing freshness.
+
 ---
 
 ## Durable Record (four surfaces)
@@ -51,6 +53,19 @@ These change only through the **gated pipeline** and companion-approved merge ([
 ### Runtime complements (membrane v1)
 
 External runtimes (Letta, Mem0, Thoth, etc.) exchange material with this repo only through **explicit export bundles** and **inbox + receipt** imports, not by walking Record trees. The membrane extends live interaction and operator workflow; it does **not** change what counts as governed Record. Anything that should become SELF, EVIDENCE, or prompt still stages and passes through the normal gate. See [docs/runtime/runtime-complements.md](runtime/runtime-complements.md).
+
+## Degraded conditions
+
+When preferred helpers or regeneration paths are unavailable:
+
+- **Record authority does not move.** SELF, SELF-LIBRARY, SKILLS, EVIDENCE, and the approval inbox remain authoritative even if every derived convenience surface is stale or absent.
+- **Derived surfaces must fail visibly.** A skill card, lane compression, runtime memory payload, or dashboard may become incomplete, stale, or unavailable; it must not silently posture as current Record truth.
+- **Runtime layers may narrow, not promote.** If continuity aids are thin, the system may abstain, shorten output, or fall back to direct source reading. It must not compensate by treating runtime material as canonical.
+- **Provenance outranks fluency.** Under constraint, it is better to name the missing regeneration or missing source than to keep a polished surface that has lost its evidentiary footing.
+
+### Practical rule
+
+If a runtime-only or derived surface cannot currently prove freshness, treat it as advisory or historical until it is rebuilt or checked against source. Constraint does not weaken Record authority; it narrows what derivative layers may honestly claim.
 
 ---
 

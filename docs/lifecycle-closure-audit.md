@@ -2,7 +2,7 @@
 
 WORK documentation. Not Record.
 
-Purpose: turn "where does this thing end its life?" into an explicit architectural lens for completion, false completion, and closeout ownership.
+Purpose: turn "where does this thing end its life?" into an explicit lens for completion, false completion, and closeout ownership.
 
 ## Relation To Architectural Fullness
 
@@ -17,7 +17,7 @@ Short fit:
 - architectural fullness = is the surface mature enough to close?
 - lifecycle closure = did the object moving through it end in the right place?
 
-Use this note when the higher-level closure doctrine is already right, but a subsystem still needs a sharper answer to "what counts as a real terminal state here?"
+Use this note when the higher-level closure doctrine is already right, but a subsystem still needs a sharper answer to "what is the real terminal state here?"
 
 ## Core Pattern
 
@@ -26,8 +26,6 @@ Use this compact sequence:
 `object -> lifecycle -> valid terminal states -> false terminal states -> closeout owner`
 
 The point is to make completion legible.
-
-Many repo surfaces already have storage, vocabulary, and routes. The failure often comes one step later: the object exists, but the notebook cannot say where its lifecycle properly ends, which intermediate states are only temporary, or which surface owns the right to call the work complete.
 
 ## What To Ask
 
@@ -38,7 +36,7 @@ For any architectural object, answer four questions:
 3. Which states only look terminal but are actually incomplete?
 4. Which surface owns the completion check?
 
-If those questions cannot be answered cleanly, the system is vulnerable to false closure.
+If those questions cannot be answered cleanly, closure is still thin.
 
 ## Valid And False Terminal States
 
@@ -82,4 +80,4 @@ If step 6 is unclear, the work is not ready to close.
 
 This doctrine is meant to sharpen completion logic, not to force every note into heavy process language.
 
-Use explicit lifecycle wording where it reduces ambiguity and catches false completion. Elsewhere, the same logic may be expressed more quietly through ownership, obligations, and closeout rules.
+Use explicit lifecycle wording where it catches false completion. Elsewhere, the same logic may be expressed through ownership, obligations, and closeout rules.

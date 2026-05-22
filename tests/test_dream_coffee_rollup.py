@@ -78,14 +78,14 @@ def test_rollup_conductor_24h_pairs_outcomes_with_active_master(tmp_path: Path) 
     assert r["outcome_count"] == 2
     assert r["completed_passes"] == 1
     assert r["off_menu_refusals"] == 1
-    assert r["notebook_ref_count"] == 0
-    assert r["falsify_count"] == 1
     assert r["last_master"] == "bernstein"
-    assert r["falsifiers"] == ["redesign-not-patch"]
     assert r["last_outcome"]["conductor"] == "bernstein"
-    assert r["open_arcs"] == []
-    assert len(r["recent_closed"]) == 2
     assert "bernstein" in r["echo"]
+    assert "notebook_ref_count" not in r
+    assert "falsify_count" not in r
+    assert "falsifiers" not in r
+    assert "open_arcs" not in r
+    assert "recent_closed" not in r
 
 
 def test_rollup_conductor_window_keeps_open_arcs_and_notebook_counts(tmp_path: Path) -> None:
@@ -103,6 +103,29 @@ def test_rollup_conductor_window_keeps_open_arcs_and_notebook_counts(tmp_path: P
     assert r["falsify_count"] == 1
     assert r["open_arcs"] == [
         {"conductor": "karajan", "ts_iso": "2026-04-02T15:00:00+00:00", "menu_label": "conductor"}
+    ]
+
+
+def test_rollup_conductor_24h_exposes_handoff_fields_only(tmp_path: Path) -> None:
+    md = """- **2026-04-02 14:00 UTC** Ã¢â‚¬â€ coffee_pick (grace-mar) ok=true picked=conductor conductor=kleiber
+- **2026-04-02 14:05 UTC** Ã¢â‚¬â€ coffee_conductor_outcome (grace-mar) ok=true conductor=kleiber verdict=watch notebook_ref=docs/x.md falsify=stay-narrow
+"""
+    p = tmp_path / "cadence.md"
+    p.write_text(md, encoding="utf-8")
+    now = datetime(2026, 4, 2, 16, 0, tzinfo=timezone.utc)
+    r = rollup_conductor_24h(user_id="grace-mar", now_utc=now, events_path=p)
+    assert sorted(r.keys()) == [
+        "completed_passes",
+        "echo",
+        "last_master",
+        "last_outcome",
+        "off_menu_refusals",
+        "orientation_only",
+        "outcome_count",
+        "pick_count",
+        "window_end_utc",
+        "window_hours",
+        "window_start_utc",
     ]
 
 

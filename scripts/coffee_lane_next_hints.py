@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Coffee Step 1 — one-line "next task" hints for work-dev and academy-singularity.
+Coffee Step 1 — one-line "next task" hints for work-dev and singularity-academy.
 
 Used by operator_coffee.py after session load. Sources are markdown on disk;
 operators maintain canonical surfaces (workspace § Next actions and Singularity workshop).
@@ -168,14 +168,14 @@ def next_work_cici_line(repo: Path) -> str:
 def next_academy_singularity_line(repo: Path) -> str:
     base = repo / "codex/academy/singularity/workshop"
     if not base.is_dir():
-        return "Next academy-singularity: missing codex/academy/singularity/workshop"
+        return "Next singularity-academy: missing codex/academy/singularity/workshop"
 
     sheets = base / "sheets"
     innermost = sorted(sheets.glob("innermost-loop-*.md")) if sheets.is_dir() else []
     target = innermost[-1] if innermost else base / "README.md"
     rel = target.relative_to(repo).as_posix()
     return (
-        "Next academy-singularity: "
+        "Next singularity-academy: "
         f"{rel} - name acceleration, name agent, then test alignment/substrate/displacement."
     )
 
@@ -188,7 +188,7 @@ def format_lane_next_hints(repo: Path | None = None) -> str:
 
 
 def main() -> int:
-    p = argparse.ArgumentParser(description="Print work-dev + academy-singularity next-task hints for coffee.")
+    p = argparse.ArgumentParser(description="Print work-dev + singularity-academy next-task hints for coffee.")
     p.add_argument(
         "--repo",
         type=Path,

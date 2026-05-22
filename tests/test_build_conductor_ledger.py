@@ -54,6 +54,7 @@ def test_collect_friction_candidates_skips_template_placeholders(tmp_path: Path)
     rows = collect_friction_candidates(search_roots=(notebook,), max_items=4)
     assert len(rows) == 1
     assert rows[0]["path"].endswith("journal/day.md")
+    assert rows[0]["text"] == "Conductor worked once options named concrete batch outcomes."
 
 
 def test_build_and_render_conductor_ledger_reports_active_arc_and_shortcut(
@@ -86,4 +87,5 @@ _(Append below this line.)_
     assert "# Conductor Ledger" in markdown
     assert "Advisory compiled shortcut offer: `karajan-review`" in markdown
     assert "Inferred active conductor arc: `karajan`" in markdown
-    assert "Outcome lines with `falsify=`: `2`" in markdown
+    assert "Outcome receipts with `notebook_ref=` / `falsify=`: `2` / `2`" in markdown
+    assert "| Conductor | Picks | Explicit outcomes | Inferred outcomes | Coffee closes |" in markdown

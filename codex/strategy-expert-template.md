@@ -44,20 +44,16 @@ Companion files: thread, transcript, codex-page, strategy page, mind.
 
 WORK only; not Record.
 
-The thread file is the month-bounded continuity surface for a cognition stream. It keeps:
+This section is now a compatibility redirect.
 
-- the narrative journal for the month
-- the page index for that month
-- the machine extraction block
+**Canonical scaffold:** [speakers/_templates/speaker-thread-template.md](speakers/_templates/speaker-thread-template.md)
+
+Use the dedicated speaker thread template for:
+
+- topical `*-thread-<topic>.md` files
+- arc-vs-thread boundary guidance
 
 **Thread contract:** [THREAD-CONTRACT.md](THREAD-CONTRACT.md)
-
-**Core rules:**
-
-- Compose the month from that month's `strategy-page` set.
-- Keep the journal above the machine block.
-- Keep one file per month when possible; legacy `thread.md` only while migrating.
-- Use `thread-page` links to track continuity, not to duplicate page prose.
 
 Companion files: profile, transcript, mind, and page surfaces.
 

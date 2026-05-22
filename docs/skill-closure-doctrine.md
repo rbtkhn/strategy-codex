@@ -2,7 +2,7 @@
 
 WORK documentation. Not Record.
 
-Purpose: define when a skill, route, or scaffold is mature enough to absorb stronger synthesis instead of stopping at packet, discovery, routing hint, or narrow local note.
+Purpose: define when a skill, route, or scaffold is mature enough to absorb stronger synthesis rather than stopping earlier.
 
 ## Core Rule
 
@@ -14,7 +14,7 @@ Short form:
 
 `signal -> route -> owning surface -> maturity check -> synthesis`
 
-If the route or owning surface is still thin, the honest result is usually a packet, routing hint, arc note, queue item, scaffold, or unresolved seam rather than a stronger doctrinal or shelf-level claim.
+If the route or owner is still thin, the honest result is usually a packet, routing hint, arc note, queue item, scaffold, or unresolved seam.
 
 ## Maturity Test
 
@@ -26,7 +26,7 @@ A skill, route, or scaffold is usually mature enough to absorb stronger synthesi
 4. **Next surface** - can it point cleanly to the next durable route rather than acting as a parking lot?
 5. **Closure rule** - can the skill say what counts as complete and what still counts as open?
 
-If several answers are no, the synthesis is probably ahead of the architecture.
+If several answers are no, the synthesis is ahead of the architecture.
 
 ## Typical Honest Stopping Points
 
@@ -68,4 +68,4 @@ This doctrine currently governs three nearby skill families:
 
 This doctrine does not mean synthesis should be postponed forever.
 
-It means stronger synthesis should land only where the route, owner, and closure conditions are already strong enough to keep the claim honest on reuse.
+It means stronger synthesis should land only where route, ownership, and closure are already strong enough to keep the claim honest on reuse.

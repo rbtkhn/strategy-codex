@@ -18,7 +18,7 @@ Do not open this surface first when the real question is provenance, raw-input v
 - [strategy-commentator-threads.md](strategy-commentator-threads.md) for routing handles and machine joins
 - the relevant year or speaker folder when a mature routed surface already exists
 
-This lattice is a front door for speaker identity and recurrence, not the authority for provenance or the full authority for speaker meaning.
+This lattice is a front door for speaker identity and recurrence, not the authority for provenance or full speaker meaning.
 
 For the governing route contract once a speaker needs real routing doctrine, open [speaker map](speakers/map/README.md).
 
@@ -48,7 +48,7 @@ Short split:
 
 Roster rule: interviewee-only. Exclude host-side roles, exclude Conductor/workflow terms, and exclude the cognition-stream owners themselves unless they are being referenced only as routing anchors in other docs.
 
-A name belongs here when recurrence is real enough to improve orientation. It does not need a fully mature speaker folder first, but it should be more than a one-off mention or a single tactical appearance.
+A name belongs here when recurrence is real enough to improve orientation. It should be more than a one-off mention or a single tactical appearance.
 
 ## Promotion Signal
 
@@ -63,8 +63,6 @@ Typical promotion paths:
 - irregular but accepted appearances -> non-core bench or comparable routed speaker surface
 
 Those promotion paths should follow the governing [speaker-map route contract](speakers/map/README.md#route-contract), not local lattice improvisation.
-
-If a speaker becomes operationally important but the lattice remains the only meaningful entry, that is usually a sign the architecture is still thin.
 
 Source anchors for the roster:
 
@@ -100,7 +98,7 @@ Use these checks when reviewing the lattice:
 4. Has this speaker become important enough that the lattice should no longer be the main entry point?
 5. Is the row acting like a substitute for a missing speaker route, index, or host arc?
 
-If the lattice can name the speaker but cannot point toward a more durable surface when one clearly should exist, the roster is under-architected.
+If the lattice can name the speaker but not a more durable surface when one should exist, the roster is under-architected.
 
 ## Failure Modes
 
@@ -112,7 +110,7 @@ The main risk is false completion: the roster feels useful enough that the repo 
 - `stale orientation`: the row still points to old streams or weak paths after the speaker's real usage has changed
 - `lattice substitution`: the roster begins to function like a speaker doctrine shelf rather than a lookup surface
 
-Healthy use means the lattice stays thin but decisive: enough to orient, not so much that it absorbs duties that belong elsewhere.
+Healthy use means the lattice stays thin but decisive.
 
 | Speaker | Handle / aliases | Common streams / lanes | Role note | Sources |
 |---|---|---|---|---|
@@ -125,7 +123,7 @@ Healthy use means the lattice stays thin but decisive: enough to orient, not so 
 | Glenn Greenwald | `ggreenwald` | Mate, Blumenthal, Parsi, Davis, Mercouris | Executive claims, media seams, and antiwar narrative tension. | [lattice](COGNITION-STREAMS.md) / [threads](strategy-commentator-threads.md) |
 | Jeffrey Sachs | `Sachs` | Diesen, Mearsheimer, Mercouris | UN and macro-institutional decline frame; war-and-peace vacuum. | [lattice](COGNITION-STREAMS.md) / [threads](strategy-commentator-threads.md) |
 | Sergey Karaganov | `Karaganov` | Diesen, Mercouris, Mearsheimer | Russian elite strategic and civilizational-state voice; unusually valuable on deterrence doctrine, Greater Eurasia, Siberization, and post-West identity framing. | [lattice](COGNITION-STREAMS.md) / [threads](strategy-commentator-threads.md) / [speaker arc](2026/diesen/diesen-karaganov-speaker-arc.md) |
-| Jacques Baud | `Baud` | Ritter, Macgregor, Davis, Barnes | Law-of-war and NATO or intel-adjacent framing; useful for evidential tension. | [lattice](COGNITION-STREAMS.md) / [threads](strategy-commentator-threads.md) / [Dialogue Works arc](2026/alkorshid/alkorshid-baud-speaker-arc.md) |
+| Jacques Baud | `Baud` | Ritter, Macgregor, Davis, Barnes | Law-of-war and NATO or intel-adjacent framing; useful for evidential tension. | [lattice](COGNITION-STREAMS.md) / [threads](strategy-commentator-threads.md) / [Dialogue Works arc](2026/alkorshid/alkorshid-baud-arc.md) |
 | Jack Matlock | `Matlock` | Diesen, Sachs, Mearsheimer | U.S. diplomatic-memory witness for the negotiated end of the Cold War and the later failure of the post-Cold War European security settlement. | [lattice](COGNITION-STREAMS.md) / [threads](strategy-commentator-threads.md) / [speaker arc](2026/diesen/diesen-matlock-speaker-arc.md) |
 | Jermy | `Steve Jermy` | Davis, Ritter, Mearsheimer | Energy, logistics, and closure-recovery economics. | [lattice](COGNITION-STREAMS.md) / [threads](strategy-commentator-threads.md) |
 | Jiang Xueqin | `Jiang` | Diesen, Mearsheimer, Sachs, Freeman | High-variance civilizational and game-theoretic voice on empire decline, world-order transition, and petrodollar or debt-war linkage claims. | [lattice](COGNITION-STREAMS.md) / [threads](strategy-commentator-threads.md) / [speaker arc](2026/diesen/diesen-jiang-speaker-arc.md) |
@@ -143,5 +141,4 @@ Healthy use means the lattice stays thin but decisive: enough to orient, not so 
 
 Use this roster when you want to find the recurring speaker fast, then jump toward the stream scaffold, routing table, year index, or speaker shelf for the deeper work.
 
-Do not treat lattice inclusion as proof of mature routing, complete provenance, or settled speaker doctrine.
-Do not let the lattice become a substitute for `core host lane`, `non-core appearance bench`, or `discovery memory` decisions once those are in play.
+Do not treat lattice inclusion as proof of mature routing, complete provenance, or settled speaker doctrine. Do not let the lattice substitute for `core host lane`, `non-core appearance bench`, or `discovery memory` decisions once those are in play.
