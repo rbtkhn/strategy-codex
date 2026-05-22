@@ -180,6 +180,66 @@ Then let Codex:
 - verify
 - report completion or blockage honestly
 
+## Bounded Arc Goal Template
+
+Use this when you want a new goal-mode session to stay strictly inside one arc-shaped mission such as `freeman-arc`, `crooke-arc`, or `baud-arc`.
+
+```text
+New goal-mode session.
+Workspace: `C:\dev\strategy-codex`.
+
+Boundary:
+This session is strictly bounded to `<arc-name>`.
+
+Interpret `<arc-name>` as the sole mission container for this session.
+It may include multiple directly related surfaces only where they are genuinely necessary to the same bounded arc-level campaign.
+It does not authorize:
+- broader shelf work
+- neighboring speaker cleanup
+- general benchmark work
+- repo-wide cleanup
+- opportunistic adjacent fixes
+- absorption of unrelated dirty-worktree material
+
+Operating rule:
+Before any action, apply this filter:
+"Does this directly serve the bounded `<arc-name>` mission?"
+If no, leave it alone.
+
+Goal-mode rule:
+Keep the objective explicit, the plan explicit, and the execution bounded.
+Do not declare completion early.
+Do not declare blockage unless real progress is impossible without operator input or external state change.
+
+Scope rule:
+Neighboring inconsistencies are out of scope unless they directly affect `<arc-name>`.
+Unrelated files are not in scope.
+No broadening by implication.
+
+Repo rule:
+The worktree may be noisy.
+Do not touch unrelated files.
+Preserve narrow commit boundaries if commits become appropriate.
+Governed Record surfaces remain governed.
+
+Prime directive:
+Maintain strict scope discipline.
+Protect the integrity, coherence, and boundedness of `<arc-name>`.
+```
+
+Optional strengthening line for multi-surface arcs:
+
+```text
+Arc-local surfaces are in scope only if they are part of the same arc object; adjacent shelf doctrine is not in scope unless the arc cannot be stabilized without it.
+```
+
+Good uses:
+
+- `freeman-arc`
+- `crooke-arc`
+- `baud-arc`
+- `johnson-arc`
+
 ## Completion Discipline
 
 A goal should be marked complete only when:
