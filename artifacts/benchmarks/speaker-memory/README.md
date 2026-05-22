@@ -112,6 +112,26 @@ python scripts/validate_speaker_memory_benchmark_family.py
 
 This is the primary green-path command for the benchmark family. It is designed to run with the active repo interpreter in the bundled Codex environment and does not require `pytest`.
 
+Expected success receipt:
+
+- headline: `speaker-memory benchmark family: OK`
+- required passing checks:
+  - `fixture_completeness`
+  - `registry_consistency`
+  - `scorer_smoke`
+  - `portable_skill_verify`
+  - `speaker_object_baseline`
+  - `benchmark_wiring`
+
+Failure classes covered by the harness:
+
+- missing or incomplete fixture packs
+- scorer/fixture registry drift
+- strong/weak benchmark sample misclassification
+- portable skill verify regressions for `check-streams`
+- speaker-object baseline validator failures
+- benchmark id wiring gaps across artifacts, scripts, and tests
+
 Secondary engineering checks for debugging, local-dev validation, or CI:
 
 ```bash
