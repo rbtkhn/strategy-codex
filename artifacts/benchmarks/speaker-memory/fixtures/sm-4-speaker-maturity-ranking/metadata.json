@@ -1,0 +1,9 @@
+{
+  "benchmark_id": "sm-4-speaker-maturity-ranking",
+  "prompt_version": "speaker-memory-benchmark-v1-sm-4",
+  "rubric_version": "speaker-memory-maturity-ranking-rubric-v1",
+  "source_mode": "source_pack",
+  "target_surface": "speaker-comparison",
+  "fixture_status": "ready",
+  "notes": "Compare several speaker shelves using the shared structure metrics and defend a maturity ranking without treating volume as enough."
+}

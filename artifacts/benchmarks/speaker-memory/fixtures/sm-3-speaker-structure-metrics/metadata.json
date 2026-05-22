@@ -1,0 +1,9 @@
+{
+  "benchmark_id": "sm-3-speaker-structure-metrics",
+  "prompt_version": "speaker-memory-benchmark-v1-sm-3",
+  "rubric_version": "speaker-memory-structure-rubric-v1",
+  "source_mode": "source_pack",
+  "target_surface": "speaker-structure",
+  "fixture_status": "ready",
+  "notes": "Score one speaker shelf on density, completeness, coherence, and maturity without collapsing the answer into file count or vibe."
+}

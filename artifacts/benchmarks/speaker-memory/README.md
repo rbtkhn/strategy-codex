@@ -31,6 +31,18 @@ artifacts/benchmarks/speaker-memory/
       source-pack.md
       expected-output-shape.md
       rubric.md
+    sm-3-speaker-structure-metrics/
+      metadata.json
+      prompt.md
+      source-pack.md
+      expected-output-shape.md
+      rubric.md
+    sm-4-speaker-maturity-ranking/
+      metadata.json
+      prompt.md
+      source-pack.md
+      expected-output-shape.md
+      rubric.md
 ```
 
 ## Benchmarks
@@ -38,6 +50,25 @@ artifacts/benchmarks/speaker-memory/
 `SM-1 speaker-object-repair` tests whether an agent can compose or repair a `*-speaker-object.md` note from existing speaker-folder evidence, templates, and boundary rules.
 
 `SM-2 speaker-arc-ranking` tests whether an agent can rank a host x guest arc, choose the best open-first path, name a paired read, and keep lattice rows secondary.
+
+`SM-3 speaker-structure-metrics` tests whether an agent can score a speaker shelf on quantitative and quasi-quantitative structure dimensions without collapsing recurrence, completeness, and maturity into one vague impression.
+
+`SM-4 speaker-maturity-ranking` tests whether an agent can compare several speaker objects using the shared metric language and produce a defended ranking that does not confuse raw volume with maturity.
+
+## Metric Policy
+
+For speaker quality work, prefer a **vector** over a single magic number.
+
+Primary dimensions:
+
+- `density`
+- `completeness`
+- `coherence`
+- `maturity`
+
+`Maturity` may be reported as a weighted composite, but only after the other three are surfaced separately. A high-volume but incoherent shelf should not outrank a lower-volume but highly routeable one by file count alone.
+
+See [speaker-structure-benchmark.md](speaker-structure-benchmark.md) for the metric definitions and weighting guidance.
 
 ## Closeout
 
@@ -72,7 +103,7 @@ After adding or scoring a speaker-memory benchmark, run:
 python scripts/validate_speaker_objects.py
 python scripts/sync_portable_skills.py --verify --skill check-streams
 python -m pytest tests/test_speaker_routing_queue.py tests/test_validate_speaker_objects.py -q --basetemp .codex-test-temp/speaker-memory-benchmark-pytest
-rg -n "sm-1-speaker-object-repair|sm-2-speaker-arc-ranking|speaker-memory-benchmark-v1" artifacts/benchmarks docs scripts tests
+rg -n "sm-1-speaker-object-repair|sm-2-speaker-arc-ranking|sm-3-speaker-structure-metrics|sm-4-speaker-maturity-ranking|speaker-memory-benchmark-v1" artifacts/benchmarks docs scripts tests
 git diff -- self.md self-archive.md recursion-gate.md session-log.md bot/prompt.py
 ```
 
