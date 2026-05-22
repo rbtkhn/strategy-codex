@@ -2,7 +2,7 @@
 
 WORK only; not Record.
 
-object_shape: stream-native arc
+object_shape: stream-native
 
 Purpose: define Mercouris as a first-class speaker object without forcing him into the wrong shape. Unlike Crooke or Ritter, whose most useful speaker notes are cross-host helixes, Mercouris is primarily a stream-native speaker object whose main body already exists as the native [mercouris cognition stream](/C:/dev/strategy-codex/codex/speakers/mercouris/README.md). Within that stream, `mercouris-arc` should be read as a bounded helix containing multiple `mercouris-arc-threads`.
 

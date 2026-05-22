@@ -97,14 +97,40 @@ Use the repair queue as telemetry, not automation. Fix one target, rerun the sco
 
 ## Validation Commands
 
-After adding or scoring a speaker-memory benchmark, run:
+Use a two-tier validation model:
+
+- **Primary operator path:** bundle-first harness that runs in the bundled Codex runtime
+- **Secondary engineering path:** deeper component checks in a richer local dev interpreter or CI
+
+Do not treat missing `pytest` in the bundled runtime as a benchmark-family failure. The canonical green-path command is the harness below.
+
+Canonical bundle-first validation path:
+
+```bash
+python scripts/validate_speaker_memory_benchmark_family.py
+```
+
+This is the primary green-path command for the benchmark family. It is designed to run with the active repo interpreter in the bundled Codex environment and does not require `pytest`.
+
+Secondary engineering checks for debugging, local-dev validation, or CI:
 
 ```bash
 python scripts/validate_speaker_objects.py
 python scripts/sync_portable_skills.py --verify --skill check-streams
-python -m pytest tests/test_speaker_routing_queue.py tests/test_validate_speaker_objects.py -q --basetemp .codex-test-temp/speaker-memory-benchmark-pytest
+python scripts/score_speaker_memory_benchmark.py --run artifacts/benchmarks/speaker-memory/runs/YYYY-MM-DD/<runner>/<benchmark-id>
 rg -n "sm-1-speaker-object-repair|sm-2-speaker-arc-ranking|sm-3-speaker-structure-metrics|sm-4-speaker-maturity-ranking|speaker-memory-benchmark-v1" artifacts/benchmarks docs scripts tests
+```
+
+Optional deeper test-runner path when `pytest` is available in the active interpreter:
+
+```bash
+python -m pytest tests/test_score_speaker_memory_benchmark.py tests/test_validate_speaker_memory_benchmark_family.py -q --basetemp .codex-test-temp/speaker-memory-benchmark-pytest
+```
+
+Optional post-edit hygiene check:
+
+```bash
 git diff -- self.md self-archive.md recursion-gate.md session-log.md bot/prompt.py
 ```
 
-The final diff command should show no benchmark-introduced changes to governed Record surfaces.
+The governed-surface diff should show no benchmark-introduced changes to Record surfaces.
