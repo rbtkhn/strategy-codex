@@ -66,7 +66,7 @@ Primary dimensions:
 - `coherence`
 - `maturity`
 
-`Maturity` may be reported as a weighted composite, but only after the other three are surfaced separately. A high-volume but incoherent shelf should not outrank a lower-volume but highly routeable one by file count alone.
+`Maturity` should remain a visible dimension in the score vector. A separate weighted composite may be reported only after all four dimensions are surfaced. A high-volume but incoherent shelf should not outrank a lower-volume but highly routeable one by file count alone.
 
 See [speaker-structure-benchmark.md](speaker-structure-benchmark.md) for the metric definitions and weighting guidance.
 

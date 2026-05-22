@@ -120,6 +120,63 @@ Freeman is broadly useful.
 """
 
 
+STRONG_SM3 = """Freeman is the strongest shelf in this comparison set because the structure is not only dense, but visibly complete and coherent.
+
+| metric | score | note |
+|---|---:|---|
+| density | 5 | multi-host recurrence across host-local arcs and helix surfaces |
+| completeness | 4 | most known appearances are materialized, though watch URL coverage is partial |
+| coherence | 5 | README, object, routing, and helix surfaces agree |
+| maturity | 5 | cross-year continuity and open-first routes survive extension |
+
+Composite: 4.7
+
+| evidence | value |
+|---|---|
+| host_lanes | 4 |
+| materialized_transcripts | 23 |
+| host-local arcs | 4 |
+| helix_present | yes |
+| cross-year note | yes |
+| watch_url_coverage | partial |
+
+Notes:
+- Density is structured, not mere transcript pileup.
+- The main gap is partial watch URL coverage.
+"""
+
+
+WEAK_SM3 = """Freeman feels mature and complete.
+
+Composite: 5
+
+It is just better overall.
+"""
+
+
+STRONG_SM4 = """Freeman comes out ahead because its density, completeness, coherence, and maturity all reinforce each other rather than merely piling up files.
+
+| speaker | density | completeness | coherence | maturity | rank |
+|---|---:|---:|---:|---:|---:|
+| freeman | 5 | 4 | 5 | 5 | 1 |
+| crooke | 4 | 4 | 5 | 4 | 2 |
+| baud | 5 | 3 | 4 | 4 | 3 |
+| armstrong | 3 | 4 | 4 | 4 | 4 |
+
+Strongest shelf:
+Freeman is the top-ranked shelf and wins because its helix-first structure is backed by cross-year continuity and stable host transformations.
+
+Most instructive mismatch case:
+Baud is dense but that density does not fully translate into maturity when completeness lags. Armstrong is a thinner but cleaner single-branch mature shelf that scores above its raw volume. Crooke remains a strong cross-host reinforced comparative object rather than an embryonic shelf.
+"""
+
+
+WEAK_SM4 = """Baud is best.
+
+All speakers always follow the same maturity law.
+"""
+
+
 def write_run(tmp_path: Path, benchmark_id: str, output: str) -> Path:
     run = tmp_path / benchmark_id
     run.mkdir()
@@ -182,6 +239,35 @@ def test_missing_work_boundary_targets_source_note(tmp_path: Path) -> None:
         action["failure_code"]: action for action in result["repair_actions"]
     }
     assert actions["missing_work_boundary"]["target_type"] == "source_note"
+
+
+def test_strong_sm3_scores_held(tmp_path: Path) -> None:
+    result = score(write_run(tmp_path, "sm-3-speaker-structure-metrics", STRONG_SM3))
+
+    assert result["closeout"] == "Held"
+    assert result["failure_codes"] == []
+
+
+def test_weak_sm3_emits_metric_vector_failure(tmp_path: Path) -> None:
+    result = score(write_run(tmp_path, "sm-3-speaker-structure-metrics", WEAK_SM3))
+
+    assert result["closeout"] == "Broke"
+    assert "missing_metric_vector" in result["failure_codes"]
+
+
+def test_strong_sm4_scores_held(tmp_path: Path) -> None:
+    result = score(write_run(tmp_path, "sm-4-speaker-maturity-ranking", STRONG_SM4))
+
+    assert result["closeout"] == "Held"
+    assert result["failure_codes"] == []
+
+
+def test_weak_sm4_emits_ranking_and_mismatch_failures(tmp_path: Path) -> None:
+    result = score(write_run(tmp_path, "sm-4-speaker-maturity-ranking", WEAK_SM4))
+
+    assert result["closeout"] == "Broke"
+    assert "insufficient_ranking_set" in result["failure_codes"]
+    assert "missing_mismatch_case" in result["failure_codes"]
 
 
 def test_no_write_emits_no_files_and_normal_mode_writes_outputs(tmp_path: Path) -> None:

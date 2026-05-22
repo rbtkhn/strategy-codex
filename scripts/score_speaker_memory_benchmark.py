@@ -27,6 +27,8 @@ CORE_FAILURES = {
     "generic_guest_profile",
     "lattice_overload",
     "premature_helix",
+    "missing_metric_vector",
+    "insufficient_ranking_set",
 }
 
 REPAIR_ROUTING = {
@@ -41,11 +43,21 @@ REPAIR_ROUTING = {
     "lattice_overload": ("template", "Reinforce lattice-as-pointer doctrine."),
     "unsupported_claim_risk": ("prompt", "Tighten source-pack restraint and unsupported-claim penalties."),
     "premature_helix": ("source_note", "Remove or qualify premature helix claims."),
+    "missing_metric_vector": ("prompt", "Require the full density/completeness/coherence/maturity vector explicitly."),
+    "weak_evidence_grounding": ("source_note", "Add concrete shelf evidence such as host lanes, arcs, URL coverage, or cross-year continuity."),
+    "missing_composite_discipline": ("rubric", "Clarify that any composite comes after the visible metric vector."),
+    "weak_gap_awareness": ("rubric", "Require the report to name at least one real limiting factor or shelf gap."),
+    "insufficient_ranking_set": ("prompt", "Require at least three ranked speaker shelves."),
+    "missing_mismatch_case": ("prompt", "Require one dense-but-messy or thin-but-clean mismatch case."),
+    "weak_shape_awareness": ("template", "Reinforce distinctions like helix-first, single-branch mature, and cross-host reinforced."),
+    "unbounded_claim_risk": ("rubric", "Penalize universal doctrine claims not bounded to the compared shelves."),
 }
 
 DEFAULT_TARGETS = {
     "sm-1-speaker-object-repair": "codex/speakers/sachs/sachs-speaker-object.md",
-    "sm-2-speaker-arc-ranking": "codex/years/2026/diesen/diesen-freeman-speaker-arc.md",
+    "sm-2-speaker-arc-ranking": "codex/speakers/diesen/stream/diesen-freeman-speaker-arc.md",
+    "sm-3-speaker-structure-metrics": "artifacts/benchmarks/speaker-memory/speaker-structure-benchmark.md",
+    "sm-4-speaker-maturity-ranking": "artifacts/benchmarks/speaker-memory/speaker-structure-benchmark.md",
 }
 
 TARGET_BY_TYPE = {
@@ -412,6 +424,202 @@ def score_sm2(text: str) -> tuple[list[Check], list[str]]:
     return checks, failures
 
 
+def count_metric_mentions(text: str) -> int:
+    return sum(
+        1
+        for metric in ("density", "completeness", "coherence", "maturity")
+        if re.search(rf"\b{re.escape(metric)}\b", text, flags=re.IGNORECASE)
+    )
+
+
+def distinct_speakers_present(text: str) -> int:
+    names = ("freeman", "crooke", "baud", "armstrong", "blumenthal")
+    return sum(1 for name in names if re.search(rf"\b{re.escape(name)}\b", text, flags=re.IGNORECASE))
+
+
+def score_sm3(text: str) -> tuple[list[Check], list[str]]:
+    checks: list[Check] = []
+    failures: list[str] = []
+
+    metric_count = count_metric_mentions(text)
+    add_check(
+        checks,
+        failures,
+        name="metric_vector_visibility",
+        score=20 if metric_count == 4 else 10 if metric_count >= 3 else 0,
+        max_score=20,
+        passed=metric_count == 4,
+        message=f"Visible metric dimensions found: {metric_count}/4.",
+        failure_code="missing_metric_vector",
+    )
+
+    lower = text.casefold()
+    composite_idx = lower.find("composite")
+    metric_positions = [lower.find(metric) for metric in ("density", "completeness", "coherence", "maturity")]
+    metric_positions = [pos for pos in metric_positions if pos >= 0]
+    composite_ok = composite_idx < 0 or (metric_positions and composite_idx > max(metric_positions))
+    add_check(
+        checks,
+        failures,
+        name="composite_discipline",
+        score=15 if composite_ok else 0,
+        max_score=15,
+        passed=composite_ok,
+        message="Composite, if present, comes after the metric vector." if composite_ok else "Composite appears before or instead of the metric vector.",
+        failure_code="missing_composite_discipline",
+    )
+
+    evidence_terms = [
+        "host lane",
+        "host_lanes",
+        "host-local",
+        "materialized",
+        "transcript",
+        "raw-input",
+        "helix",
+        "cross-year",
+        "watch url",
+        "url coverage",
+        "arc",
+    ]
+    evidence_hits = sum(1 for term in evidence_terms if term in lower)
+    add_check(
+        checks,
+        failures,
+        name="evidence_grounding",
+        score=20 if evidence_hits >= 5 else 10 if evidence_hits >= 3 else 0,
+        max_score=20,
+        passed=evidence_hits >= 3,
+        message=f"Concrete shelf-evidence term hits: {evidence_hits}.",
+        failure_code="weak_evidence_grounding",
+    )
+
+    gap_terms = ["gap", "missing", "incomplete", "partial", "limiting factor", "not yet", "still unresolved"]
+    gap_ok = contains_any(text, gap_terms)
+    add_check(
+        checks,
+        failures,
+        name="gap_awareness",
+        score=15 if gap_ok else 0,
+        max_score=15,
+        passed=gap_ok,
+        message="Report names at least one gap or limiting factor." if gap_ok else "Report does not name a clear shelf gap or limiting factor.",
+        failure_code="weak_gap_awareness",
+    )
+
+    evidence_table_ok = contains_any(text, ["| evidence", "host_lanes", "watch_url_coverage", "materialized_transcripts"])
+    add_check(
+        checks,
+        failures,
+        name="evidence_surface_shape",
+        score=15 if evidence_table_ok else 0,
+        max_score=15,
+        passed=evidence_table_ok,
+        message="Evidence section or evidence-style fields are visible." if evidence_table_ok else "No clear evidence section or evidence fields found.",
+        failure_code="weak_evidence_grounding",
+    )
+
+    distinct_ok = contains_any(text, ["density is", "completeness is", "coherence is", "maturity is", "density:", "completeness:", "coherence:", "maturity:"])
+    add_check(
+        checks,
+        failures,
+        name="metric_distinction",
+        score=15 if distinct_ok else 0,
+        max_score=15,
+        passed=distinct_ok,
+        message="Metrics appear as distinct evaluative dimensions." if distinct_ok else "Metrics are mentioned but not clearly separated as dimensions.",
+        failure_code="missing_metric_vector",
+    )
+    return checks, failures
+
+
+def score_sm4(text: str) -> tuple[list[Check], list[str]]:
+    checks: list[Check] = []
+    failures: list[str] = []
+
+    metric_count = count_metric_mentions(text)
+    add_check(
+        checks,
+        failures,
+        name="metric_vector_visibility",
+        score=15 if metric_count == 4 else 8 if metric_count >= 3 else 0,
+        max_score=15,
+        passed=metric_count == 4,
+        message=f"Visible metric dimensions found: {metric_count}/4.",
+        failure_code="missing_metric_vector",
+    )
+
+    speaker_count = distinct_speakers_present(text)
+    add_check(
+        checks,
+        failures,
+        name="ranking_set_size",
+        score=20 if speaker_count >= 3 else 0,
+        max_score=20,
+        passed=speaker_count >= 3,
+        message=f"Distinct ranked speakers found from calibration set: {speaker_count}.",
+        failure_code="insufficient_ranking_set",
+    )
+
+    mismatch_ok = contains_any(
+        text,
+        ["does not fully translate", "dense but", "thin but", "mismatch", "despite its volume", "above its raw volume"],
+    )
+    add_check(
+        checks,
+        failures,
+        name="mismatch_case",
+        score=20 if mismatch_ok else 0,
+        max_score=20,
+        passed=mismatch_ok,
+        message="Mismatch case is explicitly named." if mismatch_ok else "No clear dense-vs-maturity mismatch case found.",
+        failure_code="missing_mismatch_case",
+    )
+
+    shape_ok = contains_any(
+        text,
+        ["helix-first", "single-branch mature", "cross-host reinforced", "embryonic"],
+    )
+    add_check(
+        checks,
+        failures,
+        name="shape_awareness",
+        score=20 if shape_ok else 0,
+        max_score=20,
+        passed=shape_ok,
+        message="Shape distinctions are visible." if shape_ok else "Shape distinctions are missing or too vague.",
+        failure_code="weak_shape_awareness",
+    )
+
+    unbounded = contains_any(
+        text,
+        ["all speakers", "every speaker", "universal doctrine", "always true", "in all cases"],
+    )
+    add_check(
+        checks,
+        failures,
+        name="boundary_restraint",
+        score=15 if not unbounded else 0,
+        max_score=15,
+        passed=not unbounded,
+        message="Claims stay bounded to the compared shelves." if not unbounded else "Claims overreach into universal doctrine.",
+        failure_code="unbounded_claim_risk",
+    )
+
+    winner_ok = contains_any(text, ["wins because", "top-ranked", "strongest shelf", "winner", "comes out ahead"])
+    add_check(
+        checks,
+        failures,
+        name="winner_explanation",
+        score=10 if winner_ok else 0,
+        max_score=10,
+        passed=winner_ok,
+        message="Top shelf is explicitly defended." if winner_ok else "Winner is not clearly defended.",
+        failure_code="insufficient_ranking_set",
+    )
+    return checks, failures
+
+
 def unique(items: list[str]) -> list[str]:
     seen: set[str] = set()
     out: list[str] = []
@@ -496,6 +704,10 @@ def build_score(run_path: Path) -> dict[str, Any]:
         checks, failures = score_sm1(text)
     elif benchmark_id == "sm-2-speaker-arc-ranking":
         checks, failures = score_sm2(text)
+    elif benchmark_id == "sm-3-speaker-structure-metrics":
+        checks, failures = score_sm3(text)
+    elif benchmark_id == "sm-4-speaker-maturity-ranking":
+        checks, failures = score_sm4(text)
     else:
         checks = [Check("supported_benchmark", 0, 1, False, f"Unsupported benchmark_id: {benchmark_id}")]
         failures = []
@@ -506,6 +718,8 @@ def build_score(run_path: Path) -> dict[str, Any]:
     closeout = closeout_for(total, max_score, failures, open_error=benchmark_id not in {
         "sm-1-speaker-object-repair",
         "sm-2-speaker-arc-ranking",
+        "sm-3-speaker-structure-metrics",
+        "sm-4-speaker-maturity-ranking",
     })
     actions = repair_actions_for(benchmark_id, failures)
     return {
