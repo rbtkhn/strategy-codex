@@ -4,14 +4,15 @@ host: Judge Andrew Napolitano
 guest: Scott Ritter
 pub_date: 2026-02-23
 thread: ritter
-source_url: https://www.youtube.com/watch?v=XzvbRHd57EU
+source_url: "https://www.youtube.com/watch?v=XzvbRHd57EU"
 source_type: web-transcript-derived-summary
 transcript_type: operator_summary_from_web_transcript
 status: raw-input
-editorial_note: "Direct YouTube caption fetch was blocked from this environment during the Napolitano February 2026 densification pass. Date and title were corroborated from podcast mirrors, and this file preserves a conservative summary body rather than a clean verbatim or auto-caption transcript."
+editorial_note: Direct YouTube caption fetch was blocked from this environment during the Napolitano February 2026 densification pass. Date and title were corroborated from podcast mirrors, and this file preserves a conservative summary body rather than a clean verbatim or auto-caption transcript.
+quality_note: Normalized to remove sponsor/promo copy and transcript noise; minor artifacts may remain.
 ---
 
-# Scott Ritter: What War With Iran Will Look Like
+Scott Ritter: What War With Iran Will Look Like
 
 This file gives the `Judging Freedom x Ritter` lane a February opening point and makes the later March and April Napolitano-side files clearly part of an ongoing branch.
 

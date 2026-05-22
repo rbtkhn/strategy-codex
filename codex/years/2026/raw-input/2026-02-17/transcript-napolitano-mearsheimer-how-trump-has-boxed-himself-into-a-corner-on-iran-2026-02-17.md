@@ -4,14 +4,15 @@ host: Judge Andrew Napolitano
 guest: John Mearsheimer
 pub_date: 2026-02-17
 thread: mearsheimer
-source_url: https://www.youtube.com/watch?v=f9o5eiyKsOs
+source_url: "https://www.youtube.com/watch?v=f9o5eiyKsOs"
 source_type: web-transcript-derived-summary
 transcript_type: operator_summary_from_web_transcript
 status: raw-input
-editorial_note: "Direct YouTube caption fetch was blocked from this environment during the Napolitano February 2026 densification pass. Date/title were corroborated from Apple Podcasts and transcript mirrors, and this file preserves a conservative summary body rather than a clean verbatim or auto-caption transcript."
+editorial_note: Direct YouTube caption fetch was blocked from this environment during the Napolitano February 2026 densification pass. Date/title were corroborated from Apple Podcasts and transcript mirrors, and this file preserves a conservative summary body rather than a clean verbatim or auto-caption transcript.
+quality_note: Normalized to remove sponsor/promo copy and transcript noise; minor artifacts may remain.
 ---
 
-# John Mearsheimer: How Trump Has Boxed Himself Into a Corner on Iran
+John Mearsheimer: How Trump Has Boxed Himself Into a Corner on Iran
 
 This February anchor gives the `Judging Freedom x Mearsheimer` lane a materially real starting point on disk before the March and April Napolitano-side files.
 

@@ -9,7 +9,8 @@ source_url: "https://www.youtube.com/watch?v=n05ufH9BHjw"
 source_type: youtube
 transcript_type: operator_pasted_transcript
 status: raw-input
-editorial_note: "Upgraded from summary-grade to operator-pasted transcript on 2026-05-21. Transcript opening states the show date as Tuesday, 2025-12-16."
+editorial_note: Upgraded from summary-grade to operator-pasted transcript on 2026-05-21. Transcript opening states the show date as Tuesday, 2025-12-16.
+quality_note: Normalized to remove sponsor/promo copy and transcript noise; minor artifacts may remain.
 ---
 
 # Chas Freeman: Trump and US Hegemony
@@ -205,5 +206,3 @@ Ambassador Freeman, thank you very much for your time. Appreciated, as always. W
 Thanks. Yeah, you too.
 
 ## Judge Andrew Napolitano
-
-Coming up later today at 11:00 this morning, Scott Ritter; at 1:00 this afternoon, Aaron Maté; at 2:00 this afternoon, Matt Hoh; at 3:00 this afternoon, Karen Kwiatkowski; and tomorrow at 11:00 in the morning, the best-known media figure in the world joins Judging Freedom, my friend and former Fox colleague, Tucker Carlson. Judge Napolitano for Judging Freedom.

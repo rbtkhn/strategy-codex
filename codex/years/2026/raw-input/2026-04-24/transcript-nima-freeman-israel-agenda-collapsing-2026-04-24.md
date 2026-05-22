@@ -6,6 +6,9 @@ show: Dialogue Works
 host: Nima
 guest: Chas W. Freeman
 thread: freeman
+source_url: https://www.youtube.com/watch?v=fie-q0V82_E
+source_type: operator-pasted-youtube-transcript
+transcript_type: operator_paste
 source_note: Operator YouTube transcript paste; pin canonical Dialogue Works watch URL. (The Grayzone is Max Blumenthal / Aaron Maté’s publication — distinct from Nima’s Dialogue Works interview channel.)
 title_slug: nima-freeman-israel-agenda-collapsing-2026-04-24
 ---

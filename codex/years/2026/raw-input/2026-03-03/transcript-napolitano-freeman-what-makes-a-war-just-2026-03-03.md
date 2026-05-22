@@ -4,11 +4,11 @@ host: Judge Andrew Napolitano
 guest: Chas Freeman
 pub_date: 2026-03-03
 thread: freeman
-source_url: https://www.youtube.com/watch?v=EbzgbnxtCzU
+source_url: "https://www.youtube.com/watch?v=EbzgbnxtCzU"
 source_type: web-transcript-derived-summary
 transcript_type: operator_summary_from_web_transcript
 status: raw-input
-editorial_note: "Direct YouTube caption fetch was blocked from this environment during the Napolitano March 2026 densification pass. This file preserves a conservative summary body derived from title/date corroboration and partial web transcript/snippet evidence, not a clean verbatim or auto-caption transcript."
+editorial_note: Direct YouTube caption fetch was blocked from this environment during the Napolitano March 2026 densification pass. This file preserves a conservative summary body derived from title/date corroboration and partial web transcript/snippet evidence, not a clean verbatim or auto-caption transcript.
 ---
 
 # Chas Freeman: What Makes a War Just?

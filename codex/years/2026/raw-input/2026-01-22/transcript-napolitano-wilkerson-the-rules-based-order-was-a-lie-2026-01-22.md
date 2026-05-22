@@ -4,11 +4,11 @@ host: Judge Andrew Napolitano
 guest: Col. Lawrence Wilkerson
 pub_date: 2026-01-22
 thread: wilkerson
-source_url: https://www.youtube.com/watch?v=p34m7DvSudw
+source_url: "https://www.youtube.com/watch?v=p34m7DvSudw"
 source_type: web-transcript-derived-summary
 transcript_type: operator_summary_from_web_transcript
 status: raw-input
-editorial_note: "Direct YouTube caption fetch was blocked from this environment during the Napolitano January 2026 densification pass. Date and title were corroborated from podcast mirrors, and this file preserves a conservative summary body rather than a clean verbatim or auto-caption transcript."
+editorial_note: Direct YouTube caption fetch was blocked from this environment during the Napolitano January 2026 densification pass. Date and title were corroborated from podcast mirrors, and this file preserves a conservative summary body rather than a clean verbatim or auto-caption transcript.
 ---
 
 # COL. Lawrence Wilkerson: The Rules-Based Order Was a Lie

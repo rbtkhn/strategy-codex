@@ -4,14 +4,15 @@ host: Judge Andrew Napolitano
 guest: Col. Douglas Macgregor
 pub_date: 2026-02-10
 thread: macgregor
-source_url: https://www.youtube.com/watch?v=NAfUTVwcaCs
+source_url: "https://www.youtube.com/watch?v=NAfUTVwcaCs"
 source_type: web-transcript-derived-summary
 transcript_type: operator_summary_from_web_transcript
 status: raw-input
-editorial_note: "Direct YouTube caption fetch was blocked from this environment during the Napolitano February 2026 densification pass. Date and title were corroborated from podcast mirrors, and this file preserves a conservative summary body rather than a clean verbatim or auto-caption transcript."
+editorial_note: Direct YouTube caption fetch was blocked from this environment during the Napolitano February 2026 densification pass. Date and title were corroborated from podcast mirrors, and this file preserves a conservative summary body rather than a clean verbatim or auto-caption transcript.
+quality_note: Normalized to remove sponsor/promo copy and transcript noise; minor artifacts may remain.
 ---
 
-# COL. Douglas Macgregor: A U.S. - Iran War Could Spiral Out of Control
+COL. Douglas Macgregor: A U.S. - Iran War Could Spiral Out of Control
 
 This February anchor establishes the earliest current `Judging Freedom x Macgregor` point in the Napolitano shelf and makes the later March and April files read as continuation rather than spontaneous onset.
 

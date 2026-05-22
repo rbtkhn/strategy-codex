@@ -1,11 +1,16 @@
 ---
 title: "Scott Ritter: The U.S. Now Considers the EU an Enemy"
+pub_date: 2025-12-10
+kind: transcript
 host: Glenn Diesen
 guest: Scott Ritter
-date: 2025-12-09
+date: 2025-12-10
 thread: diesen
 source_url: https://www.youtube.com/watch?v=m_tHqXt44sU
-source_type: youtube-auto-captions
+source_type: youtube
+transcript_type: operator_pasted_transcript
+source_note: "Transcript pasted manually by operator after automated YouTube discovery/fetch was blocked or incomplete."
+quality_note: "Transcript provided by operator in Codex thread for the Dec 10 check-streams pass; moved from earlier Dec 9 legacy path to match the active Diesen profile date."
 status: raw-input
 ---
 
@@ -759,7 +764,7 @@ Europe
 Um but uh how does this national
 security strate strategy translates into
 the end of the the Ukraine war? What
-what what would you do if you're Sinsky
+what what would you do if you're Zelenskyy
 reading this document? Because it does
 seem as if um yeah there's there's that
 yeah that the US is now ready to
@@ -772,7 +777,7 @@ uh ideas of uh the Trump administration,
 what would you Yeah. What how would you
 think that this would impact Sinsk's
 government?
->> Um this is the end of Zalinski. Uh he
+>> Um this is the end of Zelenskyy. Uh he
 can't survive without American support.
 Uh there's some critical things
 happening or getting ready to happen in
@@ -817,7 +822,7 @@ believe this will endear him to Trump.
 And I think that you're going to see
 that, um, the United States is going to
 increasingly, um, cut its ties with
-Zilinski um, and in doing so empower the
+Zelenskyy um, and in doing so empower the
 Russians to continue their their their
 military advance um, unfettered uh, by
 American political or economic
@@ -833,7 +838,7 @@ continue to um push for, you know,
 endless war with Russia.
 >> Yeah, that's u Yeah, that sounds a bit
 like what the former press secretary of
-Sinsky said as well. like why why are we
+Zelenskyy said as well. like why why are we
 allowing essentially the Europeans to to
 convince us to to to keep going? They
 don't have the weapons. They don't have

@@ -8,12 +8,13 @@ host: Andrew Napolitano
 guest: Max Blumenthal
 title: "Max Blumenthal : US Consumers Paying for Trump's War"
 channel_url: "https://www.youtube.com/@judgingfreedom"
-channel_slug: "judging-freedom"
+channel_slug: judging-freedom
 source_url: "https://www.youtube.com/watch?v=xJf5IWVpn_M"
 source_type: youtube
 transcript_type: operator_pasted_transcript
-source_note: "Transcript pasted manually by operator for canonical May 20 2026 raw-input capture."
-editorial_note: "Operator-pasted YouTube transcript preserved as raw-input SSOT. Light cleanup only where needed for routing-critical punctuation."
+source_note: Transcript pasted manually by operator for canonical May 20 2026 raw-input capture.
+editorial_note: Operator-pasted YouTube transcript preserved as raw-input SSOT. Light cleanup only where needed for routing-critical punctuation.
+quality_note: Normalized to remove sponsor/promo copy and transcript noise; minor artifacts may remain.
 ---
 
 # Max Blumenthal : US Consumers Paying for Trump's War
@@ -150,6 +151,6 @@ And to his family. I mean, it's just a slush fund to protect a criminal mafia. T
 
 Yes, Max. Thank you very much. I know we covered the full gamut and I appreciate your advice and counsel and analysis as I always do, and I know the audience does as well, which is huge right now. All the best to you, Max. Thank you, my friend, and my best to your family.
 
->> Thank you.
+Thank you.
 
->> Sure. Coming up at 3 today, if you're watching us live in 33 minutes, the great Phil Giraldi, Judge Napolitano for Judging Freedom. Heat up here.
+Sure.

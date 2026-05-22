@@ -4,16 +4,17 @@ host: Judge Andrew Napolitano
 guest: Larry Johnson
 pub_date: 2025-12-22
 thread: johnson
-source_url: https://www.youtube.com/watch?v=S85lXEX9WXM
+source_url: "https://www.youtube.com/watch?v=S85lXEX9WXM"
 source_type: web-transcript-derived-summary
 transcript_type: operator_summary_from_web_transcript
 status: raw-input
-editorial_note: "Direct YouTube caption fetch was blocked from this environment during the Napolitano December 2025 densification pass. Date and title were corroborated from podcast mirrors, and this file preserves a conservative summary body rather than a clean verbatim or auto-caption transcript."
+editorial_note: Direct YouTube caption fetch was blocked from this environment during the Napolitano December 2025 densification pass. Date and title were corroborated from podcast mirrors, and this file preserves a conservative summary body rather than a clean verbatim or auto-caption transcript.
+quality_note: Normalized to remove sponsor/promo copy and transcript noise; minor artifacts may remain.
 ---
 
 # Larry Johnson: Why Is the West Ignorant of Russia?
 
-This December file is the earliest current `Judging Freedom x Johnson` anchor on disk and opens the Napolitano-side Johnson branch before the more explicitly Iran-centered 2026 files.
+Johnson` anchor on disk and opens the Napolitano-side Johnson branch before the more explicitly Iran-centered 2026 files.
 
 The useful line is strategic ignorance as a political choice. Johnson is being used here to ask why the West keeps refusing to understand an adversary it is willing to escalate against. Under Napolitano's host pressure, that critique becomes part intelligence-process failure, part elite-indictment: ignorance is no longer accidental once it is continually reproduced by the institutions making war decisions.
 

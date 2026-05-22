@@ -4,10 +4,11 @@ host: Judge Andrew Napolitano
 guest: Col. Lawrence Wilkerson
 pub_date: 2026-03-26
 thread: wilkerson
-source_url: https://www.youtube.com/watch?v=aq32fmNwp9A
+source_url: "https://www.youtube.com/watch?v=aq32fmNwp9A"
 source_type: youtube
 transcript_type: manual_transcript
 status: raw-input
+quality_note: Normalized to remove sponsor/promo copy and transcript noise; minor artifacts may remain.
 ---
 
 # COL. Lawrence Wilkerson: Why Trump Is Wedded to Israel
@@ -16,7 +17,7 @@ Undeclared wars are commonplace. Tragically, our government engages in preemptiv
 
 What if sometimes to love your country, you had to alter or abolish the government? What if Jefferson was right? What if that government is best which governs least? What if it is dangerous to be right when the government is wrong? What if it is better to perish fighting for freedom than to live as a slave? What if freedom's greatest hour of danger is now? Hi everyone, Judge Andrew Napolitano here for Judging Freedom.
 
-Today is Thursday, March 26th, 2026. Colonel Lawrence Wilkerson joins us now. Colonel Larry, welcome here, my dear friend. Thank you for accommodating my schedule. We had some technical issues, but you are well worth the wait, young man. And I appreciate your dedication to this cause. Colonel, the Pentagon is apparently considering diverting US military aid from Iran to Israel. A, does this surprise you? B, what does this mean?
+Lawrence Wilkerson joins us now. Colonel Larry, welcome here, my dear friend. Thank you for accommodating my schedule. We had some technical issues, but you are well worth the wait, young man. And I appreciate your dedication to this cause. Colonel, the Pentagon is apparently considering diverting US military aid from Iran to Israel. A, does this surprise you? B, what does this mean?
 
 I think it means exactly what it sounds like it means. Israel is in deep trouble right now. And let me back up and give you a real taste of the trouble they're in. Most of the video of late has shown simply nothing going up and lots coming in from both Hezbollah and Iran. And it's coming in with a rare synchronicity and planning and targeting. And it is hitting almost everything at which it is targeted. Some serious damage is being done to Israel and there is nothing going up in the way of air defense. It is so bad that in fact Iran is probably going to shift back to its cheaper versions, that is to say drones primarily, and continue to pummel Israel because they don't even have the capacity to shoot those down now. So it's growing increasingly perilous for Israel.
 

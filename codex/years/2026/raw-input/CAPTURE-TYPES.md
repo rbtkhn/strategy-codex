@@ -62,6 +62,11 @@ Long-form prose from a **single primary author** or outlet voice: Substack posts
 - outside-channel guest captures should not remain raw-input-only; they must land in the guest speaker surface once materialized
 - multi-guest captures need an explicit primary ownership surface plus explicit secondary speaker visibility where the guests have real lanes
 
+Closeout law:
+
+- do not call a transcript capture complete merely because the transcript body is on disk
+- if the item is materialized but still lacks the required host or speaker visibility surface, the work is still open
+
 **Transcript naming rule (explicit):**
 
 - If the field is preserving the source's public identity, keep the source form exactly.
@@ -90,6 +95,11 @@ Short-form or **threaded** social text: X/Twitter, Bluesky, **Locals**, Truth So
 
 - when a social capture clearly belongs to a durable speaker lane, materialization should make it visible from that speaker surface
 - if the capture is only a screenshot roll or unresolved mention, keep it out of the bench and treat it as discovery-only until it becomes a real raw-input unit
+
+Closeout law:
+
+- a social capture with real speaker-lane significance may not close as `raw-input only`
+- screenshot rolls, unresolved mentions, and discovery placeholders may remain unresolved, but they must not be described as fully routed captures
 
 **`grep:` keywords (optional tail):** `x-post`, `shortform-bundle`, `Locals`, `thread`, `screenshot`, `partial`.
 

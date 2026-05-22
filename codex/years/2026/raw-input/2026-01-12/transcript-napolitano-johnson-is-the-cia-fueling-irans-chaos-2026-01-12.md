@@ -4,14 +4,15 @@ host: Judge Andrew Napolitano
 guest: Larry Johnson
 pub_date: 2026-01-12
 thread: johnson
-source_url: https://www.youtube.com/watch?v=938lwWOtXhM
+source_url: "https://www.youtube.com/watch?v=938lwWOtXhM"
 source_type: web-transcript-derived-summary
 transcript_type: operator_summary_from_web_transcript
 status: raw-input
-editorial_note: "Direct YouTube caption fetch was blocked from this environment during the Napolitano January 2026 densification pass. Date and title were corroborated from Apple Podcasts and podcast mirrors, and this file preserves a conservative summary body rather than a clean verbatim or auto-caption transcript."
+editorial_note: Direct YouTube caption fetch was blocked from this environment during the Napolitano January 2026 densification pass. Date and title were corroborated from Apple Podcasts and podcast mirrors, and this file preserves a conservative summary body rather than a clean verbatim or auto-caption transcript.
+quality_note: Normalized to remove sponsor/promo copy and transcript noise; minor artifacts may remain.
 ---
 
-# Larry Johnson: Is the CIA Fueling Iran's Chaos?
+Larry Johnson: Is the CIA Fueling Iran's Chaos?
 
 This January anchor gives the `Judging Freedom x Johnson` lane its earliest currently embodied starting point in the Napolitano shelf.
 

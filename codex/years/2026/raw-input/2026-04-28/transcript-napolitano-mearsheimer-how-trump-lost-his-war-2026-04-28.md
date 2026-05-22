@@ -4,11 +4,11 @@ host: Judge Andrew Napolitano
 guest: John Mearsheimer
 pub_date: 2026-04-28
 thread: mearsheimer
-source_url: https://www.youtube.com/watch?v=VHXJxEU7Ses
+source_url: "https://www.youtube.com/watch?v=VHXJxEU7Ses"
 source_type: operator-note-derived-youtube
 transcript_type: operator_summary_from_cleaned_transcript
 status: raw-input
-editorial_note: "Direct YouTube caption fetch was blocked from this environment during the Napolitano April-May 2026 densification pass. This file preserves the operator-pasted cleaned-transcript substance already cited in the notebook, but it is not a clean verbatim or auto-caption transcript body."
+editorial_note: Direct YouTube caption fetch was blocked from this environment during the Napolitano April-May 2026 densification pass. This file preserves the operator-pasted cleaned-transcript substance already cited in the notebook, but it is not a clean verbatim or auto-caption transcript body.
 ---
 
 # John Mearsheimer: How Trump Lost His War

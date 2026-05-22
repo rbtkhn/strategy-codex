@@ -1,7 +1,7 @@
 ---
 title: "COL. Douglas Macgregor: The Pentagon's Terrible War Planning"
-aired: "2026-04-23"
-ingested: "2026-04-25"
+aired: 2026-04-23
+ingested: 2026-04-25
 source: operator_file
 operator_source: /Users/robertkuhne/Documents/macgregor-2026-04-23.md
 show: Judging Freedom (Judge Napolitano)
@@ -9,6 +9,7 @@ thread: macgregor
 kind: cleaned-transcript
 editorial_note: Inferred speaker labels; sponsor block present.
 canonical_url: TBD
+quality_note: Normalized to remove sponsor/promo copy and transcript noise; minor artifacts may remain.
 ---
 
 # COL. Douglas Macgregor: The Pentagon’s Terrible War Planning
@@ -23,17 +24,7 @@ canonical_url: TBD
 
 Undeclared wars are commonplace. Tragically, our government engages in preemptive war, otherwise known as aggression, with no complaints from the American people. Sadly, we have become accustomed to living with the illegitimate use of force by government. To develop a truly free society, the issue of initiating force must be understood and rejected. What if sometimes to love your country you had to alter or abolish the government? What if Jefferson was right? What if that government is best which governs least? What if it is dangerous to be right when the government is wrong? What if it is better to perish fighting for freedom than to live as a slave? What if freedom's greatest hour of danger is now? Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Thursday, April 23rd, 2026. Colonel Douglas Macgregor will be here with us in just a moment.
 
-Just how bad, how poor were the Pentagon plans for this war in Iran? But first, this.
-
-## Sponsor message
-
-Don't you just cringe when people say, "I told you so." Sorry. I told you gold and silver would reap the benefits due to excessive money printing, inflation, and global uncertainty. It's here. It's happened. Gold and silver have reached all-time highs. Did you call Lear Capital and buy some? It's not too late. Experts are predicting higher prices ahead. Why? Nothing has changed. Geopolitical chaos, cost of living crisis, and a weaker dollar are driving central banks to boost their gold reserves. Forecast suggest gold could hit $6,000 an ounce and silver $200 an ounce. Even Morgan Stanley ditched the 6040 rule for 60 2020, putting 20% into precious metals. They're getting educated and you should too. Call the best in the business and the people I trust. Lear Capital. Get their reports. Get the facts. Get some gold and silver.
-
-Tell them the judge sent you and get up to $20,000 in bonus gold or silver. Call 8005114620 or go to learjudgenap.com.
-
-## Judge Andrew Napolitano
-
-Colonel Macgregor, thank you my dear friend. Welcome here and thank you for accommodating my schedule as you always do. In your view and from your perceptions, did the American negotiators in Islamabad a week and a half ago negotiate in behalf of the United States or in behalf of Israel?
+Welcome here and thank you for accommodating my schedule as you always do. In your view and from your perceptions, did the American negotiators in Islamabad a week and a half ago negotiate in behalf of the United States or in behalf of Israel?
 
 ## Col. Douglas Macgregor
 
@@ -193,4 +184,4 @@ Okay, same to you. Thanks, J.
 
 ## Col. Douglas Macgregor
 
-Thank you. Coming up tomorrow, Friday, at the end of the day at 3:30 in the afternoon Eastern, the end of the week, the intelligence community roundtable with Larry Johnson and Ray McGovern and maybe a surprise addition. Thank you for watching. Judge Napolitano for judging freedom.
+Thank you.

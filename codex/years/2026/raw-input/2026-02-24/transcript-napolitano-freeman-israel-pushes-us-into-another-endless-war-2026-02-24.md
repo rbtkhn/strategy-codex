@@ -4,11 +4,11 @@ host: Judge Andrew Napolitano
 guest: Chas Freeman
 pub_date: 2026-02-24
 thread: freeman
-source_url: https://www.youtube.com/watch?v=g-zo08G3Ot4
+source_url: "https://www.youtube.com/watch?v=g-zo08G3Ot4"
 source_type: web-transcript-derived-summary
 transcript_type: operator_summary_from_web_transcript
 status: raw-input
-editorial_note: "Direct YouTube caption fetch was blocked from this environment during the Napolitano February 2026 densification pass. Date and title were corroborated from podcast mirrors, and this file preserves a conservative summary body rather than a clean verbatim or auto-caption transcript."
+editorial_note: Direct YouTube caption fetch was blocked from this environment during the Napolitano February 2026 densification pass. Date and title were corroborated from podcast mirrors, and this file preserves a conservative summary body rather than a clean verbatim or auto-caption transcript.
 ---
 
 # Chas Freeman: Israel Pushes US into Another Endless War

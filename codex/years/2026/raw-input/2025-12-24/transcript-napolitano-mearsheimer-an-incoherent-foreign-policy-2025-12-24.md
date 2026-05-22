@@ -4,11 +4,11 @@ host: Judge Andrew Napolitano
 guest: John Mearsheimer
 pub_date: 2025-12-24
 thread: mearsheimer
-source_url: https://www.youtube.com/watch?v=27r7ZK1Pnro
+source_url: "https://www.youtube.com/watch?v=27r7ZK1Pnro"
 source_type: web-transcript-derived-summary
 transcript_type: operator_summary_from_web_transcript
 status: raw-input
-editorial_note: "Direct YouTube caption fetch was blocked from this environment during the Napolitano December 2025 densification pass. Date and title were corroborated from transcript mirrors and podcast mirrors, and this file preserves a conservative summary body rather than a clean verbatim or auto-caption transcript."
+editorial_note: Direct YouTube caption fetch was blocked from this environment during the Napolitano December 2025 densification pass. Date and title were corroborated from transcript mirrors and podcast mirrors, and this file preserves a conservative summary body rather than a clean verbatim or auto-caption transcript.
 ---
 
 # John Mearsheimer: An Incoherent Foreign Policy

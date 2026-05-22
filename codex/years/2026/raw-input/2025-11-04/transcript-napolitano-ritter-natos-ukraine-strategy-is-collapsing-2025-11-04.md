@@ -4,11 +4,11 @@ host: Judge Andrew Napolitano
 guest: Scott Ritter
 pub_date: 2025-11-04
 thread: ritter
-source_url: https://www.youtube.com/watch?v=WXtjMDaj-gE
+source_url: "https://www.youtube.com/watch?v=WXtjMDaj-gE"
 source_type: web-transcript-derived-summary
 transcript_type: operator_summary_from_web_transcript
 status: raw-input
-editorial_note: "Direct YouTube caption fetch was blocked from this environment during the Napolitano November 2025 densification pass. Date and title were corroborated from podcast mirrors, and this file preserves a conservative summary body rather than a clean verbatim or auto-caption transcript."
+editorial_note: Direct YouTube caption fetch was blocked from this environment during the Napolitano November 2025 densification pass. Date and title were corroborated from podcast mirrors, and this file preserves a conservative summary body rather than a clean verbatim or auto-caption transcript.
 ---
 
 # Scott Ritter: NATO's Ukraine Strategy Is Collapsing
