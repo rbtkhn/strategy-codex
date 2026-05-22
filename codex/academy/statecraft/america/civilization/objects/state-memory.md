@@ -4,6 +4,50 @@ WORK only; not Record.
 
 This civilization object stores the long authority grammar behind the America lane. It treats America as a British imperial/provincial authority field until the independence rupture, then as a procedural republic whose outward empire must be carried through lawful, domestic, allied, and successor-stable authority or it becomes emergency drift.
 
+Primary family: `when do older strategic memories continue to constrain present actors`
+
+Secondary family: `when does a pressured hegemon misread its own power, limits, or durability`
+
+## Source Basis
+
+- Legacy `civ-mem` provenance:
+  - `research/repos/civilization_memory/content/civilizations/AMERICA/CIVâ€“COREâ€“AMERICA.md`
+  - `research/repos/civilization_memory/content/civilizations/AMERICA/CIVâ€“STATEâ€“AMERICA.md`
+  - `research/repos/civilization_memory/content/civilizations/AMERICA/CIVâ€“DOCTRINEâ€“AMERICA.md`
+  - `research/repos/civilization_memory/content/civilizations/AMERICA/DIBâ€“AMERICAâ€“PRESIDENTIALâ€“DOCTRINEâ€“BRIEF.md`
+  - `research/repos/civilization_memory/content/civilizations/AMERICA/MEMâ€“AMERICAâ€“LAWâ€“CONSTITUTION.md`
+  - `research/repos/civilization_memory/content/civilizations/AMERICA/MEMâ€“AMERICAâ€“LAWâ€“CONGRESS.md`
+  - `research/repos/civilization_memory/content/civilizations/AMERICA/MEMâ€“AMERICAâ€“LAWâ€“FEDERALISM.md`
+  - `research/repos/civilization_memory/content/civilizations/AMERICA/MEMâ€“AMERICAâ€“WARâ€“AMERICANâ€“CIVILâ€“VICKSBURG.md`
+  - `research/repos/civilization_memory/content/civilizations/AMERICA/MEMâ€“AMERICAâ€“WARâ€“AMERICANâ€“CIVILâ€“SHERIDAN.md`
+  - `research/repos/civilization_memory/content/civilizations/AMERICA/MIGRATIONâ€“ANGLIAâ€“TOâ€“AMERICAâ€“MEMâ€“CHECKLIST.md`
+- Lane-local translation inputs:
+  - [America civilization seed patterns](../seed-patterns.md)
+  - [America helix](../../helix.md)
+
+## Arc Pattern
+
+Origin: America begins inside British imperial authority, carrying legal, parliamentary, maritime, settler, and commercial habits before it becomes a sovereign state. Continuity: the revolutionary rupture converts provincial authority into recognized sovereignty and then into a constitutional republic whose legitimacy depends on consent, federal process, public purpose, and successor-stable authority. Current carrier: the modern United States projects maritime, financial, military, legal, and platform power outward, but it can only carry that reach durably when constitutional procedure, congressional legitimacy, lawful command, allied burden-sharing, and successor continuity remain credible. Failure mode: republic-versus-empire tension hardens into emergency drift, where instruments outrun the legitimacy grammar that is supposed to authorize them.
+
+## Statecraft Use
+
+Use state memory to test whether an America-lane clause can survive as more than a presidential preference. The object is strongest when checking successor-stability, lawful command, congressional carry, civil-war displacement risk, and whether an outward instrument still reads as protection of the republic rather than emergency empire.
+
+## Counterweight
+
+The counterweight is that America often uses constitutional language to bless instruments that no longer remain constitutionally governable in practice. Executive speed, donor pressure, sanctions-finance convenience, and alliance management can all appear compatible with the republic while slowly hollowing the public consent and review structure that makes the claim believable.
+
+## Transaction Hooks
+
+- authorization and review clauses that can survive executive turnover
+- sanctions, force, or alliance instruments that require congressional carry rather than after-the-fact rationalization
+- successor-stability tests for whether a clause remains legitimate after court review, public fatigue, or federal rupture
+- domestic-carry language that distinguishes bounded command from empire drift
+
+## Symmetry Link
+
+This object is the civilization-side pair to [America empire instrument](../../empire/seed-instruments.md). State memory names the inherited legitimacy grammar that can authorize outward amplification; the empire object names the control stack that must remain bounded by constitutional legitimacy, burden-sharing, and settlement path if America is to avoid republic-consuming drift.
+
 ## Continuity Pattern
 
 American state memory begins inside British imperial authority. Before 1775, the operative state carrier is the British Empire: Crown, Parliament, imperial trade law, colonial governors, charter companies, navy, and settler assemblies operating under imperial sovereignty. This pre-sovereign layer gives America inherited legal, maritime, commercial, Protestant, parliamentary, and imperial habits before America becomes a state in its own right.
@@ -56,21 +100,6 @@ If the answer depends only on one president's will, the transaction is not succe
 America state memory fails when constitutional process becomes theater, executive emergency power becomes empire, allied guarantees become blank checks, sanctions or platform control bypass consent, foreign policy becomes substitute civil war, or successor authority cannot inherit the settlement without repudiating it.
 
 The most dangerous degradation pattern is emergency drift: a narrow stability instrument becomes a permanent executive-pressure regime that cannot be defended through Congress, courts, allies, military command, or public consent.
-
-## CIV-MEM Inputs
-
-- `research/repos/civilization_memory/content/civilizations/AMERICA/CIV–CORE–AMERICA.md`
-- `research/repos/civilization_memory/content/civilizations/AMERICA/CIV–STATE–AMERICA.md`
-- `research/repos/civilization_memory/content/civilizations/AMERICA/CIV–DOCTRINE–AMERICA.md`
-- `research/repos/civilization_memory/content/civilizations/AMERICA/DIB–AMERICA–PRESIDENTIAL–DOCTRINE–BRIEF.md`
-- `research/repos/civilization_memory/content/civilizations/AMERICA/MEM–AMERICA–LAW–CONSTITUTION.md`
-- `research/repos/civilization_memory/content/civilizations/AMERICA/MEM–AMERICA–LAW–CONGRESS.md`
-- `research/repos/civilization_memory/content/civilizations/AMERICA/MEM–AMERICA–LAW–FEDERALISM.md`
-- `research/repos/civilization_memory/content/civilizations/AMERICA/MEM–AMERICA–WAR–AMERICAN–CIVIL–VICKSBURG.md`
-- `research/repos/civilization_memory/content/civilizations/AMERICA/MEM–AMERICA–WAR–AMERICAN–CIVIL–SHERIDAN.md`
-- `research/repos/civilization_memory/content/civilizations/AMERICA/MIGRATION–ANGLIA–TO–AMERICA–MEM–CHECKLIST.md`
-- [America civilization seed patterns](../seed-patterns.md)
-- [America helix](../../helix.md)
 
 ## Falsifiers / Drift Checks
 

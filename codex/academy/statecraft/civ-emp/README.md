@@ -65,6 +65,7 @@ Each CIV-EMP source object should be short and usable. It should include:
 ## Indexes
 
 - [Source retrieval matrix](indexes/source-retrieval-matrix.md) - default retrieval contract for state-memory, god, lit, art, geo, war, peace, and empire-instrument work.
+- [Migration workspace](migration/README.md) - symmetric-first control plane for moving active statecraft lanes off direct legacy `civ-mem` dependency.
 
 ## Proof Objects
 

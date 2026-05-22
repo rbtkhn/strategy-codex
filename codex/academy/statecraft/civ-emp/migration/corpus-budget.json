@@ -1,0 +1,497 @@
+{
+  "summary": {
+    "generated_from": "scripts/build_civ_emp_migration_inventory.py",
+    "occurrence_count": 544,
+    "files_with_direct_refs": 33,
+    "unique_upstream_refs": 229,
+    "active_lanes": [
+      "America",
+      "Russia",
+      "China",
+      "Iran"
+    ],
+    "first_wave_target_count": 20,
+    "canonical_question_families": [
+      "what makes a settlement real rather than theatrical",
+      "when does a pressured hegemon misread its own power, limits, or durability",
+      "when do older strategic memories continue to constrain present actors",
+      "when does coercion fail to convert into the political outcome it claims to serve",
+      "when do broken contact regimes and arms-control inheritances make escalation more dangerous than the proxy-war script admits",
+      "how does remembered exclusion shape the politics of direct great-power settlement"
+    ],
+    "current_lane_surface_words": 49720,
+    "current_civ_emp_words": 14225,
+    "first_wave_core_current_words": 16569
+  },
+  "corpus_budget": {
+    "v1_target": 150000,
+    "v1_band": [
+      120000,
+      180000
+    ],
+    "hard_ceiling": 180000,
+    "volume_targets": {
+      "civilization": {
+        "target": 90000,
+        "band": [
+          70000,
+          100000
+        ]
+      },
+      "empire": {
+        "target": 60000,
+        "band": [
+          50000,
+          80000
+        ]
+      }
+    },
+    "first_wave_core_minimum": [
+      60000,
+      90000
+    ],
+    "first_wave_object_core": [
+      58000,
+      78000
+    ],
+    "hinge_budget": [
+      8000,
+      12000
+    ],
+    "first_wave_practical_target": [
+      66000,
+      90000
+    ],
+    "v1_remainder": {
+      "cross_lane_canonical_family_synthesis": [
+        18000,
+        25000
+      ],
+      "volume_level_orientation_and_retrieval": [
+        6000,
+        10000
+      ],
+      "second_wave_depth_reserve": [
+        20000,
+        35000
+      ]
+    },
+    "symmetry_rule": {
+      "minimum_empire_share_of_civilization": 0.6,
+      "maximum_civilization_to_empire_ratio": 2.0,
+      "max_single_lane_share_of_v1_total": 0.3
+    }
+  },
+  "word_metrics": {
+    "lane_totals": {
+      "America": {
+        "words": 13194,
+        "file_count": 23
+      },
+      "Russia": {
+        "words": 11964,
+        "file_count": 22
+      },
+      "China": {
+        "words": 11935,
+        "file_count": 22
+      },
+      "Iran": {
+        "words": 12627,
+        "file_count": 25
+      }
+    },
+    "civ_emp_total_words": 14225,
+    "civ_emp_file_count": 32,
+    "target_word_counts": {
+      "america-state-memory": 1341,
+      "america-geo": 661,
+      "america-war": 1198,
+      "america-peace": 579,
+      "america-empire-instrument": 703,
+      "russia-state-memory": 1075,
+      "russia-geo": 707,
+      "russia-war": 1038,
+      "russia-peace": 1287,
+      "russia-empire-instrument": 214,
+      "china-state-memory": 1144,
+      "china-geo": 688,
+      "china-war": 1073,
+      "china-peace": 1051,
+      "china-empire-instrument": 228,
+      "iran-state-memory": 1044,
+      "iran-geo": 649,
+      "iran-war": 589,
+      "iran-peace": 1075,
+      "iran-empire-instrument": 225
+    },
+    "first_wave_core_total_words": 16569,
+    "first_wave_lane_totals": {
+      "America": {
+        "target_ids": [
+          "america-state-memory",
+          "america-geo",
+          "america-war",
+          "america-peace",
+          "america-empire-instrument"
+        ],
+        "civilization_words": 3779,
+        "empire_words": 703,
+        "hinge_words": 270,
+        "civilization_to_empire_ratio": 5.38,
+        "empire_share_of_civilization": 0.19
+      },
+      "Russia": {
+        "target_ids": [
+          "russia-state-memory",
+          "russia-geo",
+          "russia-war",
+          "russia-peace",
+          "russia-empire-instrument"
+        ],
+        "civilization_words": 4107,
+        "empire_words": 214,
+        "hinge_words": 642,
+        "civilization_to_empire_ratio": 19.19,
+        "empire_share_of_civilization": 0.05
+      },
+      "China": {
+        "target_ids": [
+          "china-state-memory",
+          "china-geo",
+          "china-war",
+          "china-peace",
+          "china-empire-instrument"
+        ],
+        "civilization_words": 3956,
+        "empire_words": 228,
+        "hinge_words": 257,
+        "civilization_to_empire_ratio": 17.35,
+        "empire_share_of_civilization": 0.06
+      },
+      "Iran": {
+        "target_ids": [
+          "iran-state-memory",
+          "iran-geo",
+          "iran-war",
+          "iran-peace",
+          "iran-empire-instrument"
+        ],
+        "civilization_words": 3357,
+        "empire_words": 225,
+        "hinge_words": 261,
+        "civilization_to_empire_ratio": 14.92,
+        "empire_share_of_civilization": 0.07
+      }
+    },
+    "canonical_family_word_counts": {
+      "when do older strategic memories continue to constrain present actors": 4604,
+      "how does remembered exclusion shape the politics of direct great-power settlement": 2705,
+      "when does coercion fail to convert into the political outcome it claims to serve": 3898,
+      "what makes a settlement real rather than theatrical": 3992,
+      "when does a pressured hegemon misread its own power, limits, or durability": 1370
+    }
+  },
+  "first_wave_targets": [
+    {
+      "target_object_id": "america-state-memory",
+      "lane": "America",
+      "volume_side": "civilization",
+      "object_class": "state-memory",
+      "current_word_count": 1341,
+      "target_word_band": "3500-4500",
+      "canonical_question_family": "when do older strategic memories continue to constrain present actors",
+      "secondary_canonical_family": "when does a pressured hegemon misread its own power, limits, or durability",
+      "status": "cut_over",
+      "counterweight_present": "yes",
+      "transaction_hook_present": "yes",
+      "symmetry_partner_id": "america-empire-instrument",
+      "symmetry_partner_status": "cut_over"
+    },
+    {
+      "target_object_id": "america-geo",
+      "lane": "America",
+      "volume_side": "civilization",
+      "object_class": "geo",
+      "current_word_count": 661,
+      "target_word_band": "2500-3500",
+      "canonical_question_family": "how does remembered exclusion shape the politics of direct great-power settlement",
+      "secondary_canonical_family": "when do older strategic memories continue to constrain present actors",
+      "status": "unstarted",
+      "counterweight_present": "no",
+      "transaction_hook_present": "no",
+      "symmetry_partner_id": "america-empire-instrument",
+      "symmetry_partner_status": "cut_over"
+    },
+    {
+      "target_object_id": "america-war",
+      "lane": "America",
+      "volume_side": "civilization",
+      "object_class": "war",
+      "current_word_count": 1198,
+      "target_word_band": "3000-4000",
+      "canonical_question_family": "when does coercion fail to convert into the political outcome it claims to serve",
+      "secondary_canonical_family": "when do broken contact regimes and arms-control inheritances make escalation more dangerous than the proxy-war script admits",
+      "status": "unstarted",
+      "counterweight_present": "no",
+      "transaction_hook_present": "no",
+      "symmetry_partner_id": "america-empire-instrument",
+      "symmetry_partner_status": "cut_over"
+    },
+    {
+      "target_object_id": "america-peace",
+      "lane": "America",
+      "volume_side": "civilization",
+      "object_class": "peace",
+      "current_word_count": 579,
+      "target_word_band": "3000-4000",
+      "canonical_question_family": "what makes a settlement real rather than theatrical",
+      "secondary_canonical_family": "how does remembered exclusion shape the politics of direct great-power settlement",
+      "status": "unstarted",
+      "counterweight_present": "no",
+      "transaction_hook_present": "no",
+      "symmetry_partner_id": "america-empire-instrument",
+      "symmetry_partner_status": "cut_over"
+    },
+    {
+      "target_object_id": "america-empire-instrument",
+      "lane": "America",
+      "volume_side": "empire",
+      "object_class": "empire-instrument",
+      "current_word_count": 703,
+      "target_word_band": "2500-3500",
+      "canonical_question_family": "when does a pressured hegemon misread its own power, limits, or durability",
+      "secondary_canonical_family": "when does coercion fail to convert into the political outcome it claims to serve",
+      "status": "cut_over",
+      "counterweight_present": "yes",
+      "transaction_hook_present": "yes",
+      "symmetry_partner_id": "america-state-memory",
+      "symmetry_partner_status": "cut_over"
+    },
+    {
+      "target_object_id": "russia-state-memory",
+      "lane": "Russia",
+      "volume_side": "civilization",
+      "object_class": "state-memory",
+      "current_word_count": 1075,
+      "target_word_band": "3500-4500",
+      "canonical_question_family": "when do older strategic memories continue to constrain present actors",
+      "secondary_canonical_family": "when does a pressured hegemon misread its own power, limits, or durability",
+      "status": "unstarted",
+      "counterweight_present": "no",
+      "transaction_hook_present": "no",
+      "symmetry_partner_id": "russia-empire-instrument",
+      "symmetry_partner_status": "unstarted"
+    },
+    {
+      "target_object_id": "russia-geo",
+      "lane": "Russia",
+      "volume_side": "civilization",
+      "object_class": "geo",
+      "current_word_count": 707,
+      "target_word_band": "2500-3500",
+      "canonical_question_family": "how does remembered exclusion shape the politics of direct great-power settlement",
+      "secondary_canonical_family": "when do older strategic memories continue to constrain present actors",
+      "status": "unstarted",
+      "counterweight_present": "no",
+      "transaction_hook_present": "no",
+      "symmetry_partner_id": "russia-empire-instrument",
+      "symmetry_partner_status": "unstarted"
+    },
+    {
+      "target_object_id": "russia-war",
+      "lane": "Russia",
+      "volume_side": "civilization",
+      "object_class": "war",
+      "current_word_count": 1038,
+      "target_word_band": "3000-4000",
+      "canonical_question_family": "when does coercion fail to convert into the political outcome it claims to serve",
+      "secondary_canonical_family": "when do broken contact regimes and arms-control inheritances make escalation more dangerous than the proxy-war script admits",
+      "status": "unstarted",
+      "counterweight_present": "no",
+      "transaction_hook_present": "no",
+      "symmetry_partner_id": "russia-empire-instrument",
+      "symmetry_partner_status": "unstarted"
+    },
+    {
+      "target_object_id": "russia-peace",
+      "lane": "Russia",
+      "volume_side": "civilization",
+      "object_class": "peace",
+      "current_word_count": 1287,
+      "target_word_band": "3000-4000",
+      "canonical_question_family": "what makes a settlement real rather than theatrical",
+      "secondary_canonical_family": "how does remembered exclusion shape the politics of direct great-power settlement",
+      "status": "unstarted",
+      "counterweight_present": "no",
+      "transaction_hook_present": "no",
+      "symmetry_partner_id": "russia-empire-instrument",
+      "symmetry_partner_status": "unstarted"
+    },
+    {
+      "target_object_id": "russia-empire-instrument",
+      "lane": "Russia",
+      "volume_side": "empire",
+      "object_class": "empire-instrument",
+      "current_word_count": 214,
+      "target_word_band": "2500-3500",
+      "canonical_question_family": "when does a pressured hegemon misread its own power, limits, or durability",
+      "secondary_canonical_family": "when does coercion fail to convert into the political outcome it claims to serve",
+      "status": "unstarted",
+      "counterweight_present": "no",
+      "transaction_hook_present": "no",
+      "symmetry_partner_id": "russia-state-memory",
+      "symmetry_partner_status": "unstarted"
+    },
+    {
+      "target_object_id": "china-state-memory",
+      "lane": "China",
+      "volume_side": "civilization",
+      "object_class": "state-memory",
+      "current_word_count": 1144,
+      "target_word_band": "3500-4500",
+      "canonical_question_family": "when do older strategic memories continue to constrain present actors",
+      "secondary_canonical_family": "when does a pressured hegemon misread its own power, limits, or durability",
+      "status": "unstarted",
+      "counterweight_present": "no",
+      "transaction_hook_present": "no",
+      "symmetry_partner_id": "china-empire-instrument",
+      "symmetry_partner_status": "unstarted"
+    },
+    {
+      "target_object_id": "china-geo",
+      "lane": "China",
+      "volume_side": "civilization",
+      "object_class": "geo",
+      "current_word_count": 688,
+      "target_word_band": "2500-3500",
+      "canonical_question_family": "how does remembered exclusion shape the politics of direct great-power settlement",
+      "secondary_canonical_family": "when do older strategic memories continue to constrain present actors",
+      "status": "unstarted",
+      "counterweight_present": "no",
+      "transaction_hook_present": "no",
+      "symmetry_partner_id": "china-empire-instrument",
+      "symmetry_partner_status": "unstarted"
+    },
+    {
+      "target_object_id": "china-war",
+      "lane": "China",
+      "volume_side": "civilization",
+      "object_class": "war",
+      "current_word_count": 1073,
+      "target_word_band": "3000-4000",
+      "canonical_question_family": "when does coercion fail to convert into the political outcome it claims to serve",
+      "secondary_canonical_family": "when do broken contact regimes and arms-control inheritances make escalation more dangerous than the proxy-war script admits",
+      "status": "unstarted",
+      "counterweight_present": "no",
+      "transaction_hook_present": "no",
+      "symmetry_partner_id": "china-empire-instrument",
+      "symmetry_partner_status": "unstarted"
+    },
+    {
+      "target_object_id": "china-peace",
+      "lane": "China",
+      "volume_side": "civilization",
+      "object_class": "peace",
+      "current_word_count": 1051,
+      "target_word_band": "3000-4000",
+      "canonical_question_family": "what makes a settlement real rather than theatrical",
+      "secondary_canonical_family": "how does remembered exclusion shape the politics of direct great-power settlement",
+      "status": "unstarted",
+      "counterweight_present": "no",
+      "transaction_hook_present": "no",
+      "symmetry_partner_id": "china-empire-instrument",
+      "symmetry_partner_status": "unstarted"
+    },
+    {
+      "target_object_id": "china-empire-instrument",
+      "lane": "China",
+      "volume_side": "empire",
+      "object_class": "empire-instrument",
+      "current_word_count": 228,
+      "target_word_band": "2500-3500",
+      "canonical_question_family": "when does a pressured hegemon misread its own power, limits, or durability",
+      "secondary_canonical_family": "when does coercion fail to convert into the political outcome it claims to serve",
+      "status": "unstarted",
+      "counterweight_present": "no",
+      "transaction_hook_present": "no",
+      "symmetry_partner_id": "china-state-memory",
+      "symmetry_partner_status": "unstarted"
+    },
+    {
+      "target_object_id": "iran-state-memory",
+      "lane": "Iran",
+      "volume_side": "civilization",
+      "object_class": "state-memory",
+      "current_word_count": 1044,
+      "target_word_band": "3500-4500",
+      "canonical_question_family": "when do older strategic memories continue to constrain present actors",
+      "secondary_canonical_family": "when does a pressured hegemon misread its own power, limits, or durability",
+      "status": "unstarted",
+      "counterweight_present": "no",
+      "transaction_hook_present": "no",
+      "symmetry_partner_id": "iran-empire-instrument",
+      "symmetry_partner_status": "unstarted"
+    },
+    {
+      "target_object_id": "iran-geo",
+      "lane": "Iran",
+      "volume_side": "civilization",
+      "object_class": "geo",
+      "current_word_count": 649,
+      "target_word_band": "2500-3500",
+      "canonical_question_family": "how does remembered exclusion shape the politics of direct great-power settlement",
+      "secondary_canonical_family": "when do older strategic memories continue to constrain present actors",
+      "status": "unstarted",
+      "counterweight_present": "no",
+      "transaction_hook_present": "no",
+      "symmetry_partner_id": "iran-empire-instrument",
+      "symmetry_partner_status": "unstarted"
+    },
+    {
+      "target_object_id": "iran-war",
+      "lane": "Iran",
+      "volume_side": "civilization",
+      "object_class": "war",
+      "current_word_count": 589,
+      "target_word_band": "3000-4000",
+      "canonical_question_family": "when does coercion fail to convert into the political outcome it claims to serve",
+      "secondary_canonical_family": "when do broken contact regimes and arms-control inheritances make escalation more dangerous than the proxy-war script admits",
+      "status": "unstarted",
+      "counterweight_present": "no",
+      "transaction_hook_present": "no",
+      "symmetry_partner_id": "iran-empire-instrument",
+      "symmetry_partner_status": "unstarted"
+    },
+    {
+      "target_object_id": "iran-peace",
+      "lane": "Iran",
+      "volume_side": "civilization",
+      "object_class": "peace",
+      "current_word_count": 1075,
+      "target_word_band": "3000-4000",
+      "canonical_question_family": "what makes a settlement real rather than theatrical",
+      "secondary_canonical_family": "how does remembered exclusion shape the politics of direct great-power settlement",
+      "status": "unstarted",
+      "counterweight_present": "no",
+      "transaction_hook_present": "no",
+      "symmetry_partner_id": "iran-empire-instrument",
+      "symmetry_partner_status": "unstarted"
+    },
+    {
+      "target_object_id": "iran-empire-instrument",
+      "lane": "Iran",
+      "volume_side": "empire",
+      "object_class": "empire-instrument",
+      "current_word_count": 225,
+      "target_word_band": "2500-3500",
+      "canonical_question_family": "when does a pressured hegemon misread its own power, limits, or durability",
+      "secondary_canonical_family": "when does coercion fail to convert into the political outcome it claims to serve",
+      "status": "unstarted",
+      "counterweight_present": "no",
+      "transaction_hook_present": "no",
+      "symmetry_partner_id": "iran-state-memory",
+      "symmetry_partner_status": "unstarted"
+    }
+  ]
+}

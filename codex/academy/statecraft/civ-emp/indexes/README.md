@@ -13,6 +13,7 @@ Use this folder for maps that answer operational questions:
 Current index:
 
 - [Source retrieval matrix](source-retrieval-matrix.md)
+- [Migration workspace](../migration/README.md)
 - [Freeman theme companions](freeman/README.md)
 - [Crooke theme companions](crooke/README.md)
 - [Mercouris theme companions](mercouris/README.md)

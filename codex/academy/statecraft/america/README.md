@@ -43,6 +43,8 @@ Use Richelieu to test whether American policy has a durable institutional carrie
 - [Empire](empire/) - outward striving for maritime, financial, alliance, technological, and escalation control.
 - [Helix](helix.md) - where empire protects the republic, where it deforms the republic, and what regulatory statecraft is needed.
 
+Phase-one CIV-EMP migration now has an active America pilot pair: [state memory](civilization/objects/state-memory.md) and the [America empire instrument](empire/seed-instruments.md). Use those as the preferred civilization / empire openings before expanding into broader lane surfaces.
+
 ## Current State Carriers
 
 Use [America state](state/) to test current executive authority, Congress, military command, allied carriers, and successor-authority patterns before treating a compact as durable American statecraft.

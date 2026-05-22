@@ -37,4 +37,4 @@ Control must be bounded by lawful authority, domestic legitimacy, allied burden-
 
 ## Development Queue
 
-Start with [seed-instruments.md](seed-instruments.md). Promote an instrument into a full note only when statecraft drafting needs its own regulator.
+Start with [seed-instruments.md](seed-instruments.md). It now serves as the active America phase-one `empire-instrument` object and is the preferred first stop for the America empire side. Only split out a separate note once statecraft drafting needs a narrower regulator than the shared pilot object can provide.
