@@ -3,7 +3,7 @@ name: check-streams
 preferred_activation: check streams
 description: 'Check the daily tracked YouTube stream roster for Davis, Diesen, Alkorshid/Dialogue Works, Napolitano/Judging Freedom, and Mercouris: discover today''s uploads, filter suspected clips, list main uploads first, materialize only the operator-approved subset into canonical raw-input, and suggest speaker-folder routing hints.'
 portable: true
-version: 0.2.5
+version: 0.2.6
 tags:
 - operator
 - strategy
@@ -130,6 +130,85 @@ When the operator is working a month, a speaker batch, or another bounded calend
 - **still missing direct watch URL**
 
 This helps distinguish discovery completeness from transcript/materialization completeness.
+
+When the operator is driving transcript recovery by paste, prefer the stronger four-line closeout vocabulary used in the Freeman month passes:
+
+- **already captured**
+- **materialized from operator paste**
+- **found externally, missing locally**
+- **still missing direct watch URL**
+
+Use the exact labels when possible so month-closeout replies remain comparable across runs.
+
+## Date-conflict rule
+
+When a stream item has a **recording/opening date** that conflicts with an earlier **publication/discovery date**, do not flatten the conflict away.
+
+Short rule:
+
+`pick one canonical pub_date for the file -> preserve the conflicting date explicitly in source_note`
+
+Preferred precedence:
+
+1. direct source publication evidence
+2. trustworthy secondary publication listing
+3. spoken/opening date inside the transcript
+
+Typical cases:
+
+- transcript says `Friday, June 20` but the episode was published `June 22`
+- transcript says `Tuesday, June 17` but the episode surfaced externally as `June 18`
+- transcript says the wrong month entirely due to transcript noise
+
+In those cases:
+
+- materialize under the most defensible **publication date**
+- keep the conflict explicit in `source_note`
+- mention the ambiguity in the operator-facing closeout
+
+Do **not** silently rewrite or ignore date tensions.
+
+## Operator-paste recovery rule
+
+If the operator pastes a full transcript body for a discovered item, that is sufficient to perform **local raw-input recovery** even when the direct YouTube watch URL remains unresolved.
+
+In that situation:
+
+- create the canonical raw-input file
+- mark `transcript_type: operator_pasted_transcript`
+- keep `source_type: youtube` if the appearance is clearly a YouTube stream item
+- state in `source_note` that the transcript was operator-pasted and the direct watch URL is not yet recovered
+- report the item as **materialized from operator paste**
+- keep any unresolved YouTube URL issue separately labeled as **missing direct watch URL**
+
+Do **not** block local transcript recovery merely because the direct watch URL is still missing, as long as the appearance identity is otherwise well anchored.
+
+## Multi-guest naming rule
+
+For guest-heavy stream appearances, preserve a stable canonical shape in both filename and frontmatter.
+
+- filenames should include the visible principal guests in title order, normalized to slug-safe text
+- frontmatter should keep:
+  - `thread` for the primary speaker of the current recovery tranche
+  - `thread_2`, `thread_3`, etc. for additional principal guests when useful
+  - `guest`, `guest_2`, `guest_3`, etc. in spoken/title order
+
+Examples:
+
+- `freeman` + `wilkerson`
+- `freeman` + `wilkerson` + `parsi`
+
+The goal is not perfect ontology. The goal is stable month-ledger accounting and later speaker-route discoverability.
+
+## Direct-URL absence is not transcript absence
+
+Keep this distinction sharp:
+
+- **missing direct watch URL** does **not** mean the appearance is fake
+- **found externally, missing locally** means the appearance is evidenced but not yet recovered in `raw-input`
+- **materialized from operator paste** means local transcript presence is now solved even if URL provenance is not fully solved
+
+Do not let URL incompleteness erase transcript completeness.
 
 ## Fullness-before-closure rule
 
