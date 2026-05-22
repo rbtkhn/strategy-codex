@@ -198,3 +198,4 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Glenn
 - [shared-themes-may-19-russia-iran-streams](../../years/2026/raw-input/2026-05-19/shared-themes-may-19-russia-iran-streams.md)
 - [youtube-glenn-diesen-scott-ritter-europe-attacked-russia-retaliation-is-now-unavoidable-2026-05-19](../../years/2026/raw-input/2026-05-19/youtube-glenn-diesen-scott-ritter-europe-attacked-russia-retaliation-is-now-unavoidable-2026-05-19.md)
 - [youtube-diesen-dmitry-polyanskiy-nuclear-retaliation-against-europe-no-longer-unthinkable-2026-05-20](../../years/2026/raw-input/2026-05-20/youtube-diesen-dmitry-polyanskiy-nuclear-retaliation-against-europe-no-longer-unthinkable-2026-05-20.md)
+- [youtube-glenn-diesen-larry-johnson-defeat-in-the-iran-war-will-end-the-u-s-empire-2026-05-22](../../years/2026/raw-input/2026-05-22/youtube-glenn-diesen-larry-johnson-defeat-in-the-iran-war-will-end-the-u-s-empire-2026-05-22.md)

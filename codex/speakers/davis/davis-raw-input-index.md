@@ -609,6 +609,10 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Danie
 
 - [transcript-daniel-davis-iran-attack-on-hold-2026-05-19](../../years/2026/raw-input/2026-05-19/transcript-daniel-davis-iran-attack-on-hold-2026-05-19.md)
 
+## 2026-05-22
+
+- [youtube-daniel-davis-deep-dive-nuclear-fear-of-russia-can-bring-stability-alastair-crooke-lt-col-daniel-davis-2026-05-22](../../years/2026/raw-input/2026-05-22/youtube-daniel-davis-deep-dive-nuclear-fear-of-russia-can-bring-stability-alastair-crooke-lt-col-daniel-davis-2026-05-22.md)
+
 ## Discovery Surfaces
 
 - [daniel-davis-april-2026-scaffold](../../years/2026/raw-input/daniel-davis-april-2026-scaffold.md)

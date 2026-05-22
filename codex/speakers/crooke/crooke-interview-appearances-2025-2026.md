@@ -35,6 +35,7 @@ Expected v1 count: 21 files.
 | 2026-03-13 | Iran's Asymmetrical War | [raw-input](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-03-13/transcript-davis-crooke-irans-asymmetrical-war-2026-03-13.md) | operational leverage |
 | 2026-04-23 | Iranians Only Getting Tougher | [raw-input](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-23/transcript-davis-crooke-iranians-only-getting-tougher-2026-04-23.md) | bargaining reality |
 | 2026-05-11 | Diplomatic Solution or More War | [raw-input](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-11/transcript-davis-crooke-diplomatic-solution-more-war-2026-05-11.md) | off-ramp test |
+| 2026-05-22 | Nuclear Fear of Russia Can Bring Stability | [raw-input](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-22/youtube-daniel-davis-deep-dive-nuclear-fear-of-russia-can-bring-stability-alastair-crooke-lt-col-daniel-davis-2026-05-22.md) | deterrence fear and escalation ceiling |
 
 ### Dialogue Works / Alkorshid
 
