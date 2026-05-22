@@ -23,3 +23,9 @@ The first two completed seeds for this scaffold are:
 - [Freeman vs Crooke second-seed note](freeman-vs-crooke-second-seed-note.md)
 
 Use those surfaces as the worked example for how speaker-local activation can be turned into deeper historical scaffolding without collapsing the membrane between commentary and answer-authority.
+
+The third completed seed is:
+
+- [Mercouris historical themes](../speakers/mercouris/themes/README.md)
+- [Mercouris `civ-emp` companions](../academy/statecraft/civ-emp/indexes/mercouris/README.md)
+- [Freeman, Crooke, and Mercouris third-seed note](freeman-crooke-mercouris-third-seed-note.md)

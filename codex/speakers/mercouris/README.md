@@ -9,6 +9,8 @@ Use it for speaker identity, host continuity, and route maps into the active Mer
 ## Open First
 
 - [index.md](index.md)
+- [mercouris-historical-examples-audit.md](mercouris-historical-examples-audit.md)
+- [themes/README.md](themes/README.md)
 - [mercouris-speaker-object.md](mercouris-speaker-object.md)
 - [stream/mercouris-arc.md](stream/mercouris-arc.md)
 - [stream/mercouris-arc-threads.md](stream/mercouris-arc-threads.md)
@@ -39,6 +41,14 @@ The transformed continuity lives under [stream/](stream/), including:
 - refined pages
 - thread and transcript compatibility files
 - chapter seeds and long-form stream notes
+
+## Historical Scaffold
+
+The Mercouris third-seed historical scaffold now adds:
+
+- [Mercouris historical examples audit](mercouris-historical-examples-audit.md)
+- [Mercouris historical themes](themes/README.md)
+- [Mercouris `civ-emp` companions](../../academy/statecraft/civ-emp/indexes/mercouris/README.md)
 
 ## Boundary
 

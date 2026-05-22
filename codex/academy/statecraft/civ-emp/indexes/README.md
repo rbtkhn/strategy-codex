@@ -15,6 +15,7 @@ Current index:
 - [Source retrieval matrix](source-retrieval-matrix.md)
 - [Freeman theme companions](freeman/README.md)
 - [Crooke theme companions](crooke/README.md)
+- [Mercouris theme companions](mercouris/README.md)
 - [Speaker-question lattice](../../../speaker-question-lattice/README.md)
 
 Proof object:
