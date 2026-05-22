@@ -2,7 +2,28 @@
 
 WORK only; not Record.
 
-The Singularity Workshop is the active-use layer of academy singularity. It begins with agency under acceleration, not a 25-book canon.
+The Singularity Workshop is the active-use layer of singularity-academy. It begins with agency under acceleration, not a 25-book canon.
+
+## Consolidated Overlay Lanes
+
+`singularity-academy` may consolidate other WORK lanes when the purpose is not merely to operate them, but to test the Innermost Loop / Moonshots thesis in live conditions: recursive self-improving AI, agent control, substrate dependence, skill displacement, and real-world leverage across unrelated projects.
+
+Canonical paths stay where they are. The consolidation is interpretive and comparative, not a folder move.
+
+This consolidation is WORK-only. `singularity-academy` does not use `candidates`, `recursion-gate`, or governed Record routing as part of its normal flow. If a durable cross-session fact or identity-level claim later needs governed treatment, route it out of the workshop explicitly at the boundary rather than building gate mechanics into the workshop itself.
+
+- [work-business](../../../../docs/skill-work/work-business/README.md) - operator ventures such as Grace Gems become live singularity test cases when the question is whether agents improve throughput, judgment, marketing, bookkeeping, or business formation over repeated cycles.
+- [work-cici](../../../../docs/skill-work/work-cici/README.md) - Cici AI / cohort / advisor work becomes a live singularity test case when the question is whether recursive AI scaffolds help novices start, coordinate, learn, and compound faster than ordinary onboarding or coaching.
+- [work-dev](../../../../docs/skill-work/work-dev/README.md) - OpenClaw, external-agent, eval, control-plane, substrate, and code-intelligence work becomes a live singularity test case when the question is whether recursive tooling, agents, and technical control planes create durable leverage under acceleration.
+
+Use the workshop to compare these lanes by the same fields:
+
+- what is accelerating
+- what the agent actually is
+- where authority and rollback live
+- whether recursive improvement is real or just tool assistance
+- what human office or skill is being displaced, strengthened, or redefined
+- what technical office, judgment layer, or control-plane burden is being displaced, strengthened, or redefined
 
 ## Workflow
 
@@ -24,10 +45,14 @@ The Singularity Workshop is the active-use layer of academy singularity. It begi
 ## First Sheet
 
 - [Coffee D - Singularity Operating Sheet](sheets/coffee-d-singularity.md) - reusable Coffee D route for agency under acceleration, route-away gates, and compact output prompts.
+- [Apprentice Studio - 30-Day Pilot](sheets/apprentice-studio-30-day-pilot.md) - compact pilot doctrine for using Grace Gems as a real-work substrate, cici-ai as the onboarding/progress surface, and singularity-academy as the evaluation layer.
+- [Predictive History YouTube Comment Lab](sheets/predictive-history-youtube-comment-lab.md) - public-interface lab for testing whether AI-assisted comment workflows can create reusable distribution, audience formation, and cohort-readable outreach leverage for `ph-civ`.
 - [Agent control plane](sheets/agent-control-plane.md) - first reusable singularity worksheet for agent governance, substrate authority, and human-gated control.
 - [Sovereignty Under Acceleration](sheets/sovereignty-under-acceleration.md) - statecraft bridge for human agency, infrastructure power, control planes, and treaty/policy outputs.
+- [Scenario Lab Pilot](sheets/scenario-lab-pilot.md) - bounded futures substrate for structured branching, actor pressure, and scenario-family work inside singularity-academy.
 - [AI interface as operating layer - 2028 horizon](sheets/interface-operating-layer-2028.md) - two-year design horizon for voice, browser, coding, memory, tools, and agents collapsing into one operating layer.
 - [Narrative-Shaped Alignment](sheets/narrative-shaped-alignment.md) - practical bridge for rule-shaped versus story-shaped alignment, PH-CIV formation material, and model-facing cultural substrate.
+- [CodeGraph pilot benchmark](../../../../docs/skill-work/work-dev/codegraph-pilot-benchmark.md) - bounded technical proving-ground loop for deciding whether local code-intelligence actually compounds enough to expand.
 
 ## Keystone Helix
 
@@ -39,6 +64,7 @@ The Singularity Workshop is the active-use layer of academy singularity. It begi
 - [The Innermost Loop - 2026-05-16](sheets/innermost-loop-2026-05-16.md) - weekly acceleration bundle mapped into world models, memory, agent swarms, substrate, synthetic reality, and token economics.
 - [The Innermost Loop - 2026-05-17](sheets/innermost-loop-2026-05-17.md) - weekly acceleration bundle mapped into agency, substrate, rollback, and cross-shelf bridge questions.
 - [Moonshots EP #255 - Singularity Economy](sheets/moonshots-ep-255-singularity-economy.md) - podcast bridge for Anthropic/SpaceX compute, singularity economics, recursive agents, alignment narratives, and orbital infrastructure.
+- [Moonshots EP #256 - Inner Loop, Full Stack, and Trust Infrastructure](sheets/moonshots-ep-256-inner-loop-full-stack-trust.md) - podcast bridge for recursive self-improvement, stack control, ambient agents, trust infrastructure, and compute/chips as singularity substrate.
 - [AI interface as operating layer - 2028 horizon](sheets/interface-operating-layer-2028.md) - practical design sheet for outcome-first workflows, agent-addressable actions, memory, permissions, receipts, and rollback.
 - [Narrative-Shaped Alignment](sheets/narrative-shaped-alignment.md) - WORK-only strategy sheet for tracking how cultural material, PH-CIV discipline, and positive future stories may shape model behavior.
 - [Karpathy Watchlist](sheets/karpathy-watchlist.md) - source-bound bridge from the Karpathy profile and pinned repos into agency, substrate, and educational-baseline questions.
@@ -204,3 +230,5 @@ Full local captures live here for close reading. Interpretive source sheets stay
 ## Boundary
 
 This workshop may generate WORK notes. It does not replace AI news capture, model benchmarks, product-release tracking, raw-input, speaker folders, technical specs, or Record surfaces.
+
+Normal workshop output is WORK artifact, not candidate generation.
