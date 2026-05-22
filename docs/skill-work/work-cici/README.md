@@ -108,6 +108,7 @@ Ciciâ€™s **companion** or **chosen instance** repository (Identity Fork Pro
 **BrewMind (Philippines pilot):** [brewmind-philippines-onboarding-guide.md](brewmind-philippines-onboarding-guide.md) â€” bundle hub for strategy, brand, field script, and PH market notes ([INDEX.md](INDEX.md) lists all BrewMind WORK files).
 
 **Community measurement:** [cici-ai-community-dashboard.md](cici-ai-community-dashboard.md), [cici-ai-first-task-proof-packet.md](cici-ai-first-task-proof-packet.md), and [cici-ai-weekly-governance-review-template.md](cici-ai-weekly-governance-review-template.md). **Weekly review instances** live in [reviews/](reviews/).
+**Daily team/group brief:** [cici-ai-daily-telegram-brief.md](cici-ai-daily-telegram-brief.md) defines the Telegram-ready daily operating brief, source hierarchy, confidence rules, and automation path for `cici-ai`.
 
 **Apprentice Studio pilot:** [apprentice-studio-pilot-ops.md](apprentice-studio-pilot-ops.md) is the month-one operating layer for using Grace Gems as a real-work substrate, `cici-ai` as the onboarding/progress surface, and `singularity-academy` as the evaluation lens.
 

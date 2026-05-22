@@ -37,6 +37,7 @@ The first team message frames the cohort as a 10-scholarship opportunity for AI-
 
 - [cici-ai-first-task-proof-packet.md](cici-ai-first-task-proof-packet.md)  
 - [cici-ai-weekly-governance-review-template.md](cici-ai-weekly-governance-review-template.md)  
+- [cici-ai-daily-telegram-brief.md](cici-ai-daily-telegram-brief.md)
 - [evidence/cici-ai-first-telegram-message-2026-04-30.md](evidence/cici-ai-first-telegram-message-2026-04-30.md)
 - [evidence/cici-ai-next-steps-message-2026-05-01.md](evidence/cici-ai-next-steps-message-2026-05-01.md)
 - [evidence/cici-ai-first-applicant-wave-2026-04-30.md](evidence/cici-ai-first-applicant-wave-2026-04-30.md)
