@@ -51,6 +51,14 @@ _CONDUCTOR_MENU: list[tuple[str, str]] = [
     ("Bernstein", "bernstein"),
 ]
 KNOWN_CONDUCTOR_SLUGS = frozenset(s for _n, s in _CONDUCTOR_MENU)
+CONDUCTOR_MOVEMENT_LETTERS = frozenset({"A", "B", "C", "D"})
+COMPILED_CONDUCTOR_SHORTCUTS: dict[str, str] = {
+    "toscanini": "toscanini-verify",
+    "furtwangler": "furtwangler-tension",
+    "karajan": "karajan-review",
+    "kleiber": "kleiber-close",
+    "bernstein": "bernstein-stakes",
+}
 
 # Deprecated master-selection row. Kept only so old log helpers can import
 # a stable shape; do not emit these letters in user-facing prompts.
@@ -86,6 +94,15 @@ def conductor_slug_for_menu_pick(pick: str) -> str | None:
     if p == "D":
         return None
     return MENU_PICK_TO_CONDUCTOR.get(p)
+
+
+def _is_explicit_conductor_pick(event: dict[str, Any]) -> bool:
+    if event.get("kind") != "coffee_pick":
+        return False
+    kv = event.get("kv") or {}
+    picked = str(kv.get("picked", "")).strip()
+    conductor = normalize_conductor_slug(kv.get("conductor"))
+    return picked in _PICKED_CONDUCTOR and conductor in KNOWN_CONDUCTOR_SLUGS
 
 
 def _strip_accents(s: str) -> str:
@@ -305,6 +322,89 @@ def last_logged_conductor(events: list[dict[str, Any]]) -> str | None:
     return normalize_conductor_slug(str(c))
 
 
+def _is_conductor_close_event(event: dict[str, Any], conductor: str) -> bool:
+    if event.get("kind") != "coffee_close":
+        return False
+    kv = event.get("kv") or {}
+    state = str(kv.get("conductor_state", "")).strip().lower()
+    closed_conductor = normalize_conductor_slug(kv.get("conductor"))
+    return state == "closed" and closed_conductor == conductor
+
+
+def active_conductor_arc(events: list[dict[str, Any]]) -> dict[str, Any] | None:
+    """Return the most recent unresolved conductor arc from cadence-style events.
+
+    This helper is conservative: a bare movement letter may continue only if the
+    latest relevant conductor event is an explicit conductor pick and no later
+    `coffee_close conductor_state=closed` sealed that same arc. Outcome lines
+    enrich the arc but do not open a fresh one.
+    """
+    relevant = sorted(events, key=lambda e: e.get("dt"))
+    active: dict[str, Any] | None = None
+    for event in relevant:
+        if _is_explicit_conductor_pick(event):
+            kv = event.get("kv") or {}
+            conductor = normalize_conductor_slug(kv.get("conductor"))
+            active = {
+                "conductor": conductor,
+                "focus": str(kv.get("focus", "")).strip() or None,
+                "arc": str(kv.get("arc", "")).strip() or None,
+                "picked_at": event.get("dt"),
+                "picked_line": event.get("line"),
+                "latest_event_kind": "coffee_pick",
+                "outcome_count": 0,
+                "closed": False,
+            }
+            continue
+        if active is None:
+            continue
+        conductor = active["conductor"]
+        kv = event.get("kv") or {}
+        if event.get("kind") == "coffee_conductor_outcome":
+            explicit = normalize_conductor_slug(kv.get("conductor"))
+            if explicit and explicit != conductor:
+                continue
+            active["outcome_count"] += 1
+            active["latest_event_kind"] = "coffee_conductor_outcome"
+            active["latest_outcome"] = {
+                "dt": event.get("dt"),
+                "verdict": str(kv.get("verdict", "")).strip() or None,
+                "notebook_ref": str(kv.get("notebook_ref", "")).strip() or None,
+                "falsify": str(kv.get("falsify", "")).strip() or None,
+            }
+            continue
+        if _is_conductor_close_event(event, conductor):
+            active["closed"] = True
+            active["latest_event_kind"] = "coffee_close"
+            active["closed_at"] = event.get("dt")
+
+    if active is None or active.get("closed"):
+        return None
+    return active
+
+
+def resolve_active_conductor_movement(
+    movement: str | None,
+    events: list[dict[str, Any]],
+) -> dict[str, Any] | None:
+    """Resolve a bare movement letter against the current active conductor arc."""
+    letter = str(movement or "").strip().upper()
+    if letter not in CONDUCTOR_MOVEMENT_LETTERS:
+        return None
+    active = active_conductor_arc(events)
+    if active is None:
+        return None
+    return {
+        "conductor": active["conductor"],
+        "movement": letter,
+        "source": "active_conductor_arc",
+        "focus": active.get("focus"),
+        "arc": active.get("arc"),
+        "picked_at": active.get("picked_at"),
+        "outcome_count": int(active.get("outcome_count") or 0),
+    }
+
+
 def format_coffee_hub_e_line(user_id: str) -> str:
     """Compatibility helper for the removed coffee conductor hub line.
 
@@ -442,3 +542,34 @@ def d2_conductor_resolved(
 def d2_conductor_from_assess_load(assess: dict[str, Any]) -> str:
     """Backward-compatible alias for assess-only recommendation helper."""
     return system_recommended_conductor(dream=None, assess=assess)
+
+
+def compiled_shortcut_for_conductor(slug: str | None) -> str | None:
+    """User-facing compiled shortcut name for a mature conductor line."""
+    if slug is None:
+        return None
+    return COMPILED_CONDUCTOR_SHORTCUTS.get(normalize_conductor_slug(slug))
+
+
+def should_offer_compiled_shortcut(
+    events: list[dict[str, Any]],
+    slug: str | None,
+    *,
+    min_picks: int = 2,
+    min_outcomes: int = 2,
+) -> bool:
+    """Conservative heuristic for when a compiled shortcut is mature enough to offer."""
+    normalized = normalize_conductor_slug(slug)
+    if normalized not in KNOWN_CONDUCTOR_SLUGS:
+        return False
+    pick_count = 0
+    outcome_count = 0
+    for event in events:
+        kv = event.get("kv") or {}
+        event_slug = normalize_conductor_slug(kv.get("conductor"))
+        if event.get("kind") == "coffee_pick" and _is_explicit_conductor_pick(event):
+            if event_slug == normalized:
+                pick_count += 1
+        elif event.get("kind") == "coffee_conductor_outcome" and event_slug == normalized:
+            outcome_count += 1
+    return pick_count >= min_picks and outcome_count >= min_outcomes

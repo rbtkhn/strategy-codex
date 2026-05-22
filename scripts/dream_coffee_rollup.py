@@ -312,6 +312,28 @@ def rollup_conductor_24h(
     max_events: int = 60,
 ) -> dict[str, Any]:
     """Aggregate recent Conductor telemetry for dream -> coffee handoff."""
+    return rollup_conductor_window(
+        user_id=user_id,
+        now_utc=now_utc,
+        events_path=events_path,
+        window_hours=window_hours,
+        max_events=max_events,
+    )
+
+
+def rollup_conductor_window(
+    *,
+    user_id: str,
+    now_utc: datetime | None = None,
+    events_path: Path = DEFAULT_EVENTS_PATH,
+    window_hours: float = 24.0,
+    max_events: int = 60,
+) -> dict[str, Any]:
+    """Aggregate conductor telemetry over an arbitrary UTC look-back window.
+
+    This keeps the 24h dream handoff intact while also supporting longer
+    review windows for conductor ledgers and monthly audits.
+    """
     if now_utc is None:
         now_utc = datetime.now(timezone.utc)
     if now_utc.tzinfo is None:
@@ -327,9 +349,13 @@ def rollup_conductor_24h(
         "completed_passes": 0,
         "orientation_only": 0,
         "off_menu_refusals": 0,
+        "notebook_ref_count": 0,
+        "falsify_count": 0,
         "last_master": None,
         "last_outcome": None,
         "by_conductor": {},
+        "open_arcs": [],
+        "recent_closed": [],
         "commits": [],
         "falsifiers": [],
         "events": [],
@@ -351,16 +377,42 @@ def rollup_conductor_24h(
     outcomes = [e for e in events if e.get("kind") == "outcome"]
     refusal_count = sum(1 for e in outcomes if _is_refusal_outcome(e))
     completed = max(0, len(outcomes) - refusal_count)
+    notebook_ref_count = sum(1 for e in outcomes if e.get("notebook_ref"))
+    falsify_count = sum(1 for e in outcomes if e.get("falsify"))
     by_conductor: dict[str, dict[str, int]] = {}
+    open_arcs: list[dict[str, Any]] = []
+    recent_closed: list[dict[str, Any]] = []
     for event in events:
         conductor = str(event.get("conductor") or "unknown")
         bucket = by_conductor.setdefault(conductor, {"picks": 0, "outcomes": 0, "refusals": 0})
         if event.get("kind") == "pick":
             bucket["picks"] += 1
+            open_arcs.append(
+                {
+                    "conductor": conductor,
+                    "ts_iso": event.get("ts_iso"),
+                    "menu_label": event.get("menu_label"),
+                }
+            )
         else:
             bucket["outcomes"] += 1
             if _is_refusal_outcome(event):
                 bucket["refusals"] += 1
+            recent_closed.append(
+                {
+                    "conductor": conductor,
+                    "ts_iso": event.get("ts_iso"),
+                    "verdict": event.get("verdict"),
+                    "notebook_ref": event.get("notebook_ref"),
+                    "falsify": event.get("falsify"),
+                    "action": event.get("action"),
+                }
+            )
+            if open_arcs:
+                for idx in range(len(open_arcs) - 1, -1, -1):
+                    if open_arcs[idx]["conductor"] == conductor:
+                        open_arcs.pop(idx)
+                        break
 
     commits = [str(e["commit"]) for e in outcomes if e.get("commit")]
     falsifiers = [str(e["falsify"]) for e in outcomes if e.get("falsify")]
@@ -387,6 +439,8 @@ def rollup_conductor_24h(
             "completed_passes": completed,
             "orientation_only": orientation_only,
             "off_menu_refusals": refusal_count,
+            "notebook_ref_count": notebook_ref_count,
+            "falsify_count": falsify_count,
             "last_master": (
                 str(last_event_with_master.get("conductor"))
                 if last_event_with_master and last_event_with_master.get("conductor")
@@ -394,6 +448,8 @@ def rollup_conductor_24h(
             ),
             "last_outcome": last_outcome,
             "by_conductor": by_conductor,
+            "open_arcs": open_arcs[-8:],
+            "recent_closed": recent_closed[-8:],
             "commits": commits[-8:],
             "falsifiers": falsifiers[-8:],
             "events": events,

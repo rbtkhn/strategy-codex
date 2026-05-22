@@ -20,7 +20,9 @@ Usage:
       --kv verdict=watch notebook_ref=chapters/2026-04/days.md
 
 **coffee_conductor_outcome (optional kvs, documented in CONDUCTOR-IMPROVEMENT-LOOP):**
-`verdict=`, and optionally `notebook_ref=`, `falsify=`, `conductor=` (quote values with spaces).
+Preferred compact close shape: `verdict=`, `conductor=`, and at least one of
+`notebook_ref=` or `falsify=`. Fastest good outcome line:
+`verdict=watch conductor=kleiber notebook_ref=docs/path.md falsify=one-test-line`
 
 **Agent surface (audit parity with bridge/harvest packets):** every line includes
 ``cursor_model=…`` and ``model_tier=…`` (frontier / fast / unknown).
@@ -71,7 +73,7 @@ HEADER = (
     ">\n"
     "> **Format:** `- **YYYY-MM-DD HH:MM UTC** — kind (user) key=value …` (machine-audit line).\n"
     "> **coffee_close** — optional close receipt after a coffee-selected branch materially settles (**picked=**, **outcome=**, **readiness=**, optional **artifacts=**, **loops=**, **next=**, **conductor=**, **conductor_state=**).\n"
-    "> **coffee_conductor_outcome** — optional closure after a conductor run (**verdict=** e.g. watch / promote / shelf / no_action); optional **notebook_ref=**, **falsify=**, **conductor=** (see strategy-notebook **CONDUCTOR-IMPROVEMENT-LOOP** § 3).\n"
+    "> **coffee_conductor_outcome** — optional closure after a conductor run (**verdict=** e.g. watch / promote / shelf / no_action); preferred compact close carries **conductor=** plus **notebook_ref=** or **falsify=** (both preferred) (see strategy-notebook **CONDUCTOR-IMPROVEMENT-LOOP** § 3).\n"
     "> **coffee_pick** may include optional **focus=** or **arc=** (named work object).\n"
     "> **Companion-facing:** Skills read this file and speak **Recent rhythm** in chat — plain\n"
     "> language, concrete specifics, no clock times in that prose. See [work-cadence README](README.md).\n"

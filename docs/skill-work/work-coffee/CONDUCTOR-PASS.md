@@ -70,13 +70,13 @@ Open **standalone** Conductor (no `coffee`) by **master name** or **`conductor <
 
 Use conductor names when the operator needs to choose or switch stance: `toscanini`, `furtwangler`, `karajan`, `kleiber`, or `bernstein`. Do not emit a lettered master-selection row.
 
-| Conductor | Movement | What this stance does |
+| Conductor | Movement | Primary question | What this stance does |
 |-----------|----------|-----------------------|
-| Toscanini | Precision | **Truth-to-form**: cut the fluff, verify the seam, and force the score to match the facts. |
-| Furtwangler | Flow | **Organic emergence**: hold the tension, resist premature closure, and let the real conflict declare itself. |
-| Karajan | Elegance | **Long arc**: shape the whole arc so the structure lands cleanly and nothing important gets wasted. |
-| Kleiber | Selectivity | **Depth by refusal**: pick one hotspot, falsify it fast, and stop when the scope is answered. |
-| Bernstein | Vitality | **Communicative heat**: name the stake, press the point, and make the next move feel unavoidable. |
+| Toscanini | Precision | What is the exact score and what is wrong with it? | **Truth-to-form**: cut the fluff, verify the seam, and force the score to match the facts. |
+| Furtwangler | Flow | Which tension should stay unresolved longer? | **Organic emergence**: hold the tension, resist premature closure, and let the real conflict declare itself. |
+| Karajan | Elegance | What long arc should govern this slice? | **Long arc**: shape the whole arc so the structure lands cleanly and nothing important gets wasted. |
+| Kleiber | Selectivity | What is the smallest alive wedge worth pursuing? | **Depth by refusal**: pick one hotspot, falsify it fast, and stop when the scope is answered. |
+| Bernstein | Vitality | Why does this matter to the human reader or operator now? | **Communicative heat**: name the stake, press the point, and make the next move feel unavoidable. |
 
 Continuity may mention the last `coffee_pick` slug, optional `focus` / `arc`, and the dream / session-load **advisory** match when relevant, but those are prose hints, not a second menu.
 
@@ -94,11 +94,11 @@ For the Kleiber benchmark, the close must also name the single next operator act
 
 **Operator line:** Conductor offers **four movement-labeled choices**; off-menu behavior is the refusal / park / no-action signal. When one action is clearly strongest, add one nearby line: **`Recommended default: <letter> - <one-line reason>`**. This is decision support only; it does not add another option or change refusal handling.
 
-**Compiled doctrine path:** Once the same conductor line has stabilized across multiple turns, offer **compiled doctrine** as a consolidation path instead of continuing movement-by-movement. This should compress the settled distinction, operational rule, and next execution wedge into one durable synthesis proposal.
+**Compiled doctrine path:** Once the same conductor line has stabilized across multiple turns, offer **compiled doctrine** as a consolidation path instead of continuing movement-by-movement. This should compress the settled distinction, operational rule, and next execution wedge into one durable synthesis proposal. User-facing shortcut shape may be explicit, for example `karajan-review`, `kleiber-close`, or `toscanini-verify`, but it remains an offer rather than an automatic mode switch.
 
 This is a **new** **four-line** movement list **after** the master is resolved, with **this** pass's **repo** next moves. Label it **`Conductor Action Menu`** and instruct **Reply A-D** for **this** pass. Each line is a **concrete, repo-grounded**, affirmative next move with **verbs and constraints** that match the **active** `conductor` slug (see [`.cursor/skills/conductor/SKILL.md`](../../../.cursor/skills/conductor/SKILL.md) **Conductor action MCQ**). Do **not** spend one of the four options on refusal / no-action; if the operator does anything other than choose **A**, **B**, **C**, or **D**, record that as refusal / park / no-action in the outcome. **Omit** only if the operator says **"orientation only"** or **"no action menu"** in the same turn. **Kleiber** is not the only mode that gets a menu; **Bernstein, Toscanini,** etc. all get **their own** four movement options with the same **A-D** letters.
 
-**Partial arc state:** If the operator selects only part of a Conductor Action Menu, preserve that state on the next menu instead of restarting. Prefix each movement with `Complete -`, `Open -`, or `Parked -`; keep completed movements visible; and distinguish open because unresolved from open because deferred, awaiting durability, or intentionally not worth doing. D / Finale is not required for every useful arc: it should seal only when evidence is ready to move lifecycle state.
+**Partial arc state:** If the operator selects only part of a Conductor Action Menu, preserve that state on the next menu instead of restarting. Prefix each movement with `Complete -`, `Open -`, or `Parked -`; keep completed movements visible; and distinguish open because unresolved from open because deferred, awaiting durability, or intentionally not worth doing. A bare movement letter should continue the active resolved arc rather than re-showing a fresh menu. D / Finale is not required for every useful arc: it should seal only when evidence is ready to move lifecycle state.
 
 **Actionability close:** A completed movement, especially **D. Finale** or a benchmark, must not stop at "artifact exists" or "verdict recorded." Close with exactly one operator-facing next action, or explicitly state `No next action recommended` with the reason. If a benchmark closes as `Held`, `Weakened`, `Broke`, or `Open`, translate that verdict into the next decision: commit, rerun with a source pack, promote a rule, park as calibration residue, or decline further action.
 
@@ -126,6 +126,8 @@ Cadence lines alone are **insufficient** to store *what* improved in the work. *
 
 1. A **Conductor close** in **`chapters/YYYY-MM/days.md`** (or a `strategy-page` **Reflection**), using the paste block in [CONDUCTOR-CLOSE-TEMPLATE.md](../../../codex/CONDUCTOR-CLOSE-TEMPLATE.md) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â *stance, object, falsify / next test, escalation*; or
 2. **`coffee_conductor_outcome`** in [work-cadence-events.md](../work-cadence/work-cadence-events.md) with `conductor=<slug>` + `verdict=` and `notebook_ref=` or `falsify=` (both preferred). If the pass closed without that line, add a repair outcome on the next turn rather than leaving attribution implicit.
+
+**Preferred compact close:** For routine passes, favor the shorter shape `Object -> What moved / seam -> Falsify / next test -> Next wedge` over a longer reflective block. If a movement was satisfied in chat only, label it as **behavioral/non-durable** rather than implying that it left a notebook or cadence close.
 
 **SSOT (layer map, mermaid, gate boundary):** [CONDUCTOR-IMPROVEMENT-LOOP.md](../../../codex/CONDUCTOR-IMPROVEMENT-LOOP.md). **Not** Record; **not** a substitute for full **EOD** `strategy page` when the day needs a real compose.
 

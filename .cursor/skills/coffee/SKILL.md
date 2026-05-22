@@ -48,7 +48,7 @@ Multiple `coffee` sessions per day are normal. That is not redundancy; it is the
 
 `coffee` should feel like a sip. `dream` should feel like sleep. See `.cursor/skills/dream/SKILL.md` ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ *Cadence choreography* for the day's sequence and data handoff.
 
-**Coffee -> dream conductor handoff:** Coffee may leave a conductor turn as **orientation-only** when no close exists; dream may report that as `orientation_only`, but must not treat it as completed work. A closed conductor turn needs either [CONDUCTOR-CLOSE-TEMPLATE.md](../../../codex/CONDUCTOR-CLOSE-TEMPLATE.md) in a notebook/page reflection or a `coffee_conductor_outcome` with `conductor=<slug>`, `verdict=`, and `notebook_ref=` or `falsify=`. Tomorrow's coffee may surface dream's **Conductor echo** as continuity, not as a hidden conductor action menu.
+**Coffee -> dream conductor handoff:** Coffee may leave a conductor turn as **orientation-only** when no close exists; dream may report that as `orientation_only`, but must not treat it as completed work. A closed conductor turn needs either [CONDUCTOR-CLOSE-TEMPLATE.md](../../../codex/CONDUCTOR-CLOSE-TEMPLATE.md) in a notebook/page reflection or a `coffee_conductor_outcome` with `conductor=<slug>`, `verdict=`, and `notebook_ref=` or `falsify=`. Tomorrow's coffee may surface dream's **Conductor echo** as continuity, not as a hidden conductor action menu or auto-reactivated conductor state.
 
 <a id="conductor-only-no-coffee"></a>
 
@@ -78,7 +78,7 @@ The **five masters** (**Toscanini**, **Furtw?ngler**, **Karajan**, **Kleiber**, 
 
 <a id="hub-e-auto-continue"></a>
 
-**Standalone Conductor continuation:** When the operator chooses a master directly after **`coffee`** Step 1, **`last_logged_conductor`** from cadence (**`coffee_pick`** with **`conductor=`**) is the default resolved slug.
+**Standalone Conductor continuation:** When the operator chooses a master directly after **`coffee`** Step 1, **`last_logged_conductor`** from cadence (**`coffee_pick`** with **`conductor=`**) is the default resolved slug. After a resolved conductor is active, a bare movement letter should continue that arc rather than re-showing the menu, unless the operator clearly restarts or switches conductors.
 
 - **If a slug exists:** **Continue that master immediately** ? short orientation + **Conductor action MCQ** for that slug. Do not paste any lettered master-selection row; ask for a conductor name only when switching is requested without a name.
 - **If no slug exists:** prompt once for a conductor name (`toscanini`, `furtwangler`, `karajan`, `kleiber`, or `bernstein`) ? do **not** invent a default and do **not** show lettered master choices.
@@ -181,13 +181,13 @@ Immediately **after** Step 1 content, output the **hub** menu - **four lines** (
 A. Steward
 B. Engineer
 C. Statecraft
-D. Singularity - <one short line: academy-singularity module / agency under acceleration / alignment, substrate, displacement, reuse>
+D. Singularity - <one short line: singularity-academy module / agency under acceleration / alignment, substrate, displacement, reuse>
 <!-- Conductor is standalone only and does not appear as a coffee hub letter. -->
 ```
 
 **Hub lines end at D:** the coffee hub is four lines only. Conductor is standalone and does not appear as a coffee hub letter.
 
-**Filling D - Singularity:** activate the WORK-only academy-singularity module at [Singularity Workshop](../../../codex/academy/singularity/workshop/README.md). Use its workflow: name acceleration, name agent, test alignment, test substrate, test displacement, produce reuse. Ground the turn in one workshop target such as [agent-control-plane.md](../../../codex/academy/singularity/workshop/sheets/agent-control-plane.md), [keystone-helix.md](../../../codex/academy/singularity/workshop/keystone-helix.md), the latest Innermost Loop sheet, or [interface-operating-layer-2028.md](../../../codex/academy/singularity/workshop/sheets/interface-operating-layer-2028.md).
+**Filling D - Singularity:** activate the WORK-only singularity-academy module at [Singularity Workshop](../../../codex/academy/singularity/workshop/README.md). Use its workflow: name acceleration, name agent, test alignment, test substrate, test displacement, produce reuse. Ground the turn in one workshop target such as [agent-control-plane.md](../../../codex/academy/singularity/workshop/sheets/agent-control-plane.md), [keystone-helix.md](../../../codex/academy/singularity/workshop/keystone-helix.md), the latest Innermost Loop sheet, or [interface-operating-layer-2028.md](../../../codex/academy/singularity/workshop/sheets/interface-operating-layer-2028.md).
 
 When hub **D** is chosen, reply with a bounded **Singularity menu - reply A-D** unless the operator already named a specific Singularity artifact:
 
@@ -217,7 +217,7 @@ When hub **D** is chosen, reply with a bounded **Singularity menu - reply A-D** 
 
 **Standalone Conductor:** the coffee hub ends at D. Direct Conductor activation uses a master name, `conductor`, or the standalone conductor skill.
 
-**Step 1 context for B / D:** `operator_coffee.py` prints **`Lane context (for hub B / D ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â Engineer & Singularity hints)`** ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â two lines from `scripts/coffee_lane_next_hints.py` (work-dev + academy-singularity). Use when choosing **B**, **D**, or when wording those lines.
+**Step 1 context for B / D:** `operator_coffee.py` prints **`Lane context (for hub B / D ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â Engineer & Singularity hints)`** ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â two lines from `scripts/coffee_lane_next_hints.py` (work-dev + singularity-academy). Use when choosing **B**, **D**, or when wording those lines.
 
 **Step 1 context for standalone Conductor:** After lane hints, `operator_coffee.py` prints the four-line coffee hub only; Conductor is handled separately.
 
@@ -238,7 +238,7 @@ When hub **D** is chosen, reply with a bounded **Singularity menu - reply A-D** 
 
   **Statecraft source use:** sources become instruments. Use [METHOD.md](../../../codex/academy/statecraft/METHOD.md), [civ-emp](../../../codex/academy/statecraft/civ-emp/README.md), [treaty-framework.md](../../../codex/academy/statecraft/templates/treaty-framework.md), [policy-paper.md](../../../codex/academy/statecraft/templates/policy-paper.md), [negotiation-brief.md](../../../codex/academy/statecraft/templates/negotiation-brief.md), [richelieu.md](../../../codex/academy/statecraft/lenses/richelieu.md), and [bismarck.md](../../../codex/academy/statecraft/lenses/bismarck.md). Current-events watches, daily briefs, and stream checks remain explicit routes; specific recent-event analysis should start with **`current-event`** before becoming a statecraft artifact. *(Legacy hub **C - Strategist / daily brief** is compatibility-only.)*
 
-- **D. Singularity** - **academy-singularity** WORK module: agency under acceleration, agent control planes, alignment/substrate/displacement tests, and reusable strategy artifacts. When hub D is chosen, open a bounded **Singularity menu - reply A-D** or recommend one default from that module.
+- **D. Singularity** - **singularity-academy** WORK module: agency under acceleration, agent control planes, alignment/substrate/displacement tests, and reusable strategy artifacts. When hub D is chosen, open a bounded **Singularity menu - reply A-D** or recommend one default from that module.
 
 - **Conductor** ? standalone only; not part of the coffee hub.
 
@@ -246,7 +246,7 @@ When hub **D** is chosen, reply with a bounded **Singularity menu - reply A-D** 
 
 **Exit / re-offer:** After **A**, **B**, or **D**, re-offer the full **coffee** hub **A?D** after the current branch settles. If a standalone Conductor turn was opened, stay on the Conductor track rather than re-offering coffee in the same reply. After **C**, exit to normal workflow unless **`stay in coffee`**. After **A** (Steward), see [menu-reference ? Steward follow-up fork](../../../docs/skill-work/work-coffee/menu-reference.md#steward-follow-up-fork-implement-now-vs-later) *(legacy docs may still say **B** for Steward ? read **A**).* Synonyms **`A+ship`** / **`EXECUTE`** ? **Implement now** on steward track. **Decision-fatigue rule:** after a hub branch opens one submenu, the next assistant turn should execute the selected item, recommend one default, or report the blocker rather than opening another broad menu.
 
-Legacy **A-G** detail tables in [menu-reference.md](../../../docs/skill-work/work-coffee/menu-reference.md) still describe historical workloads. Current map: Statecraft -> C; Build -> B; Steward -> A; academy-singularity module -> D. Daily Brief / `check streams`, self-knowledge elicitation, Book / Jiang / Predictive History, and commercial / teaching bookshelf work now route by explicit request unless the operator asks to turn them into a statecraft artifact. Symphony conductors are standalone by `conductor` / master name without `coffee`.
+Legacy **A-G** detail tables in [menu-reference.md](../../../docs/skill-work/work-coffee/menu-reference.md) still describe historical workloads. Current map: Statecraft -> C; Build -> B; Steward -> A; singularity-academy module -> D. Daily Brief / `check streams`, self-knowledge elicitation, Book / Jiang / Predictive History, and commercial / teaching bookshelf work now route by explicit request unless the operator asks to turn them into a statecraft artifact. Symphony conductors are standalone by `conductor` / master name without `coffee`.
 
 **Done when:** The operator has picked **A-D** (or a named standalone Conductor), the selected branch has been executed, and the re-offer or exit rule has been applied.
 

@@ -12,6 +12,7 @@ from dream_coffee_rollup import (
     parse_coffee_cadence_lines,
     rollup_coffee_24h,
     rollup_conductor_24h,
+    rollup_conductor_window,
 )
 from dream_civmem_echoes import (
     ANALOGY_CANDIDATE_LABEL,
@@ -77,10 +78,32 @@ def test_rollup_conductor_24h_pairs_outcomes_with_active_master(tmp_path: Path) 
     assert r["outcome_count"] == 2
     assert r["completed_passes"] == 1
     assert r["off_menu_refusals"] == 1
+    assert r["notebook_ref_count"] == 0
+    assert r["falsify_count"] == 1
     assert r["last_master"] == "bernstein"
     assert r["falsifiers"] == ["redesign-not-patch"]
     assert r["last_outcome"]["conductor"] == "bernstein"
+    assert r["open_arcs"] == []
+    assert len(r["recent_closed"]) == 2
     assert "bernstein" in r["echo"]
+
+
+def test_rollup_conductor_window_keeps_open_arcs_and_notebook_counts(tmp_path: Path) -> None:
+    md = """- **2026-04-02 14:00 UTC** â€” coffee_pick (grace-mar) ok=true picked=conductor conductor=kleiber
+- **2026-04-02 14:05 UTC** â€” coffee_conductor_outcome (grace-mar) ok=true conductor=kleiber verdict=watch notebook_ref=docs/x.md falsify=stay-narrow
+- **2026-04-02 15:00 UTC** â€” coffee_pick (grace-mar) ok=true picked=conductor conductor=karajan focus=month-arc
+"""
+    p = tmp_path / "cadence.md"
+    p.write_text(md, encoding="utf-8")
+    now = datetime(2026, 4, 2, 16, 0, tzinfo=timezone.utc)
+    r = rollup_conductor_window(user_id="grace-mar", now_utc=now, events_path=p, window_hours=72)
+    assert r["pick_count"] == 2
+    assert r["outcome_count"] == 1
+    assert r["notebook_ref_count"] == 1
+    assert r["falsify_count"] == 1
+    assert r["open_arcs"] == [
+        {"conductor": "karajan", "ts_iso": "2026-04-02T15:00:00+00:00", "menu_label": "conductor"}
+    ]
 
 
 def test_malformed_line_skipped() -> None:

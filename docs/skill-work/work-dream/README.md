@@ -102,7 +102,7 @@ Cici notebook (work-cici) â€” `cici_journal_ob1_digest.py --catch-up-from-l
 | `promotable_draft_count` | int | Drafts ready for promotion |
 | `followups` | string[] | Human-readable follow-up items for morning |
 | `coffee_rollup_24h` | object | Rolling 24h summary of `coffee` lines from [`work-cadence-events.md`](../work-cadence/work-cadence-events.md) (`count`, `by_mode`, `by_picked`, `picks`, `first_ts`, `last_ts`, `runs`, â€¦) |
-| `conductor_rollup_24h` | object | Rolling 24h summary of Conductor `coffee_pick conductor=...` and `coffee_conductor_outcome` lines. Includes `last_master`, `completed_passes`, `orientation_only`, `off_menu_refusals`, recent `commits`, recent `falsifiers`, and one compact `echo` for morning coffee. WORK telemetry only; not Record. |
+| `conductor_rollup_24h` | object | Rolling 24h summary of Conductor `coffee_pick conductor=...` and `coffee_conductor_outcome` lines. Includes `last_master`, `completed_passes`, `orientation_only`, `off_menu_refusals`, `notebook_ref_count`, `falsify_count`, `open_arcs`, recent closes / commits / falsifiers, and one compact `echo` for morning coffee. WORK telemetry only; not Record. |
 | `execution_paths` | object[] | Three deterministic morning paths (`today_field`, `build`, `steward`) with `first_move`, `stop_rule`, `signals_used` |
 | `suggested_execution_path_index` | int | 0â€“2; **Steward (2)** if integrity or governance failed this run, else **Steward** if gate pending > `max_pending_candidates` in `config/fork-config.json`, else **calendar** `(tomorrow_tm_yday - 1) % 3` |
 | `execution_path_suggestion_reason` | string | `integrity_or_governance_fail` \| `gate_backlog` \| `calendar_mod3` |

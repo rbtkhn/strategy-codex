@@ -10,7 +10,9 @@ from __future__ import annotations
 from datetime import datetime, timezone
 from scripts.audit_cadence_rhythm import parse_events
 from scripts.cadence_conductor_resolution import (
+    active_conductor_arc,
     build_conductor_mcq_for_user,
+    compiled_shortcut_for_conductor,
     conductor_for_d1_continuation,
     conductor_slug_for_menu_pick,
     conductor_submenu_letter_to_slug,
@@ -24,7 +26,9 @@ from scripts.cadence_conductor_resolution import (
     last_logged_conductor,
     menu_pick_for_conductor_slug,
     normalize_conductor_slug,
+    resolve_active_conductor_movement,
     resolve_d_conductor,
+    should_offer_compiled_shortcut,
     system_recommended_menu_pick,
 )
 
@@ -215,4 +219,91 @@ def test_last_logged_conductor_accepts_new_conductor_pick_shape() -> None:
 def test_last_logged_conductor_accepts_hub_e_with_conductor() -> None:
     events = [_pick(_ts(), picked="E", conductor="bernstein")]
     assert last_logged_conductor(events) == "bernstein"
+
+
+def test_active_conductor_arc_requires_unclosed_pick() -> None:
+    events = [
+        _pick(_ts(day=1, hour=8), picked="conductor", conductor="kleiber", focus="front-door"),
+        {
+            "dt": _ts(day=1, hour=8, minute=5),
+            "kind": "coffee_conductor_outcome",
+            "user": "grace-mar",
+            "kv": {"conductor": "kleiber", "verdict": "watch", "falsify": "stay-narrow"},
+            "line": "",
+        },
+    ]
+    active = active_conductor_arc(events)
+    assert active is not None
+    assert active["conductor"] == "kleiber"
+    assert active["focus"] == "front-door"
+    assert active["outcome_count"] == 1
+
+
+def test_active_conductor_arc_clears_after_closed_coffee_close() -> None:
+    events = [
+        _pick(_ts(day=1, hour=8), picked="conductor", conductor="karajan"),
+        {
+            "dt": _ts(day=1, hour=8, minute=10),
+            "kind": "coffee_close",
+            "user": "grace-mar",
+            "kv": {"conductor": "karajan", "conductor_state": "closed"},
+            "line": "",
+        },
+    ]
+    assert active_conductor_arc(events) is None
+
+
+def test_resolve_active_conductor_movement_uses_latest_open_arc() -> None:
+    events = [
+        _pick(_ts(day=1, hour=8), picked="conductor", conductor="toscanini"),
+        _pick(_ts(day=1, hour=9), picked="conductor", conductor="bernstein"),
+    ]
+    resolved = resolve_active_conductor_movement("b", events)
+    assert resolved == {
+        "conductor": "bernstein",
+        "movement": "B",
+        "source": "active_conductor_arc",
+        "focus": None,
+        "arc": None,
+        "picked_at": _ts(day=1, hour=9),
+        "outcome_count": 0,
+    }
+
+
+def test_resolve_active_conductor_movement_returns_none_without_active_arc() -> None:
+    events = [
+        _pick(_ts(day=1, hour=8), picked="conductor", conductor="kleiber"),
+        {
+            "dt": _ts(day=1, hour=8, minute=20),
+            "kind": "coffee_close",
+            "user": "grace-mar",
+            "kv": {"conductor": "kleiber", "conductor_state": "closed"},
+            "line": "",
+        },
+    ]
+    assert resolve_active_conductor_movement("d", events) is None
+
+
+def test_compiled_shortcut_helpers_are_conservative() -> None:
+    events = [
+        _pick(_ts(day=1, hour=8), picked="conductor", conductor="karajan"),
+        {
+            "dt": _ts(day=1, hour=8, minute=10),
+            "kind": "coffee_conductor_outcome",
+            "user": "grace-mar",
+            "kv": {"conductor": "karajan", "verdict": "watch"},
+            "line": "",
+        },
+        _pick(_ts(day=2, hour=8), picked="conductor", conductor="karajan"),
+        {
+            "dt": _ts(day=2, hour=8, minute=10),
+            "kind": "coffee_conductor_outcome",
+            "user": "grace-mar",
+            "kv": {"conductor": "karajan", "verdict": "hold"},
+            "line": "",
+        },
+    ]
+    assert compiled_shortcut_for_conductor("karajan") == "karajan-review"
+    assert should_offer_compiled_shortcut(events, "karajan") is True
+    assert should_offer_compiled_shortcut(events, "bernstein") is False
 
