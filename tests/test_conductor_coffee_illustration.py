@@ -284,6 +284,35 @@ def test_resolve_active_conductor_movement_returns_none_without_active_arc() -> 
     assert resolve_active_conductor_movement("d", events) is None
 
 
+def test_closed_arc_stays_dead_after_later_unattributed_outcome() -> None:
+    events = [
+        _pick(_ts(day=1, hour=8), picked="conductor", conductor="kleiber", focus="comment-lab"),
+        {
+            "dt": _ts(day=1, hour=8, minute=5),
+            "kind": "coffee_conductor_outcome",
+            "user": "grace-mar",
+            "kv": {"conductor": "kleiber", "verdict": "tighten", "falsify": "no clear membrane"},
+            "line": "",
+        },
+        {
+            "dt": _ts(day=1, hour=8, minute=10),
+            "kind": "coffee_close",
+            "user": "grace-mar",
+            "kv": {"conductor": "kleiber", "conductor_state": "closed", "outcome": "done"},
+            "line": "",
+        },
+        {
+            "dt": _ts(day=1, hour=9),
+            "kind": "coffee_conductor_outcome",
+            "user": "grace-mar",
+            "kv": {"verdict": "stray-note"},
+            "line": "",
+        },
+    ]
+    assert active_conductor_arc(events) is None
+    assert resolve_active_conductor_movement("b", events) is None
+
+
 def test_compiled_shortcut_helpers_are_conservative() -> None:
     events = [
         _pick(_ts(day=1, hour=8), picked="conductor", conductor="karajan"),

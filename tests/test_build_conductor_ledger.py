@@ -84,5 +84,6 @@ _(Append below this line.)_
 
     markdown = render_conductor_ledger_markdown(payload)
     assert "# Conductor Ledger" in markdown
-    assert "Compiled shortcut offer: `karajan-review`" in markdown
+    assert "Advisory compiled shortcut offer: `karajan-review`" in markdown
+    assert "Inferred active conductor arc: `karajan`" in markdown
     assert "Outcome lines with `falsify=`: `2`" in markdown

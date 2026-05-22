@@ -75,9 +75,9 @@ def collect_recent_conductor_closes(
                         "ts": event["dt"].isoformat(),
                         "conductor": conductor,
                         "verdict": str(kv.get("outcome", "")).strip() or None,
-                        "notebook_ref": str(kv.get("artifacts", "")).strip() or None,
-                        "falsify": str(kv.get("next", "")).strip() or None,
-                        "action": str(kv.get("loops", "")).strip() or None,
+                        "artifacts": str(kv.get("artifacts", "")).strip() or None,
+                        "next": str(kv.get("next", "")).strip() or None,
+                        "loops": str(kv.get("loops", "")).strip() or None,
                     }
                 )
     return closes[-limit:]
@@ -184,8 +184,8 @@ def render_conductor_ledger_markdown(payload: dict[str, Any]) -> str:
         f"- Explicit picks: `{audit['explicit_pick_count']}`",
         f"- Explicit outcomes: `{audit['explicit_outcome_count']}`",
         f"- Inferred outcomes: `{audit['inferred_outcome_count']}`",
-        f"- Open arcs: `{closure['open_pick_count']}`",
-        f"- Closure rate: `{closure['closure_rate']}`",
+        f"- Unmatched explicit picks in window: `{closure['open_pick_count']}`",
+        f"- Inferred closure rate: `{closure['closure_rate']}`",
         f"- Outcome lines with `notebook_ref=`: `{audit['evidence_richness']['notebook_ref']}`",
         f"- Outcome lines with `falsify=`: `{audit['evidence_richness']['falsify']}`",
         "",
@@ -195,7 +195,7 @@ def render_conductor_ledger_markdown(payload: dict[str, Any]) -> str:
     if active:
         lines.extend(
             [
-                f"- Active conductor: `{active['conductor']}`",
+                f"- Inferred active conductor arc: `{active['conductor']}`",
                 f"- Picked at: `{active['picked_at'].isoformat()}`",
                 f"- Outcome count since pick: `{active['outcome_count']}`",
             ]
@@ -204,10 +204,10 @@ def render_conductor_ledger_markdown(payload: dict[str, Any]) -> str:
             lines.append(f"- Focus: `{active['focus']}`")
         if payload.get("compiled_shortcut_offer"):
             lines.append(
-                f"- Compiled shortcut offer: `{payload['compiled_shortcut_offer']}`"
+                f"- Advisory compiled shortcut offer: `{payload['compiled_shortcut_offer']}`"
             )
     else:
-        lines.append("- No open conductor arc detected from cadence.")
+        lines.append("- No inferred open conductor arc detected from cadence.")
 
     lines.extend(["", "## Per-Conductor Counts", ""])
     all_conductors = sorted(
@@ -227,7 +227,7 @@ def render_conductor_ledger_markdown(payload: dict[str, Any]) -> str:
             )
         )
 
-    lines.extend(["", "## Open Arcs", ""])
+    lines.extend(["", "## Unmatched Explicit Picks", ""])
     if audit["open_picks"]:
         for row in audit["open_picks"][:8]:
             lines.append(
@@ -242,10 +242,18 @@ def render_conductor_ledger_markdown(payload: dict[str, Any]) -> str:
             details: list[str] = [f"`{row['conductor']}`", row["kind"]]
             if row.get("verdict"):
                 details.append(f"verdict=`{row['verdict']}`")
-            if row.get("notebook_ref"):
-                details.append(f"ref=`{row['notebook_ref']}`")
-            if row.get("falsify"):
-                details.append(f"falsify=`{row['falsify']}`")
+            if row["kind"] == "coffee_conductor_outcome":
+                if row.get("notebook_ref"):
+                    details.append(f"notebook_ref=`{row['notebook_ref']}`")
+                if row.get("falsify"):
+                    details.append(f"falsify=`{row['falsify']}`")
+            elif row["kind"] == "coffee_close":
+                if row.get("artifacts"):
+                    details.append(f"artifacts=`{row['artifacts']}`")
+                if row.get("next"):
+                    details.append(f"next=`{row['next']}`")
+                if row.get("loops"):
+                    details.append(f"loops=`{row['loops']}`")
             lines.append("- " + " | ".join(details))
     else:
         lines.append("- None in window.")
