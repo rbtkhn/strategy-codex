@@ -20,6 +20,14 @@ The coffee hub now ends at **D**. You may still open **Conductor** **without** `
 
 **Why name-only matters:** A conductor name is an operator-chosen stance, not another multiple-choice layer. Keeping conductor selection name-only preserves operator agency, prevents the coffee hub from growing a hidden fifth branch, and reserves **A-D** for the only place letters help: choosing concrete movement actions after the stance is already resolved. The meaning of the ritual is not "pick a personality"; it is "choose a mode of attention, then move on disk with that mode made audible."
 
+**Vocabulary contract:**
+
+- **Active arc** = the current conductor arc inferred from cadence: the latest explicit `coffee_pick picked=conductor conductor=<slug>` that has not been superseded or sealed by a same-conductor `coffee_close conductor_state=closed`.
+- **Open movement** = a menu movement still available inside the current arc. Open may mean unresolved, deferred, awaiting durability, or intentionally not worth doing; say which when it is clear.
+- **Closed arc** = a conductor arc explicitly sealed by durable evidence or a `coffee_close conductor_state=closed`; a closed arc is not reactivated by continuity prose or a later stray outcome.
+- **Behavioral / non-durable** = a movement satisfied only in chat as a distinction, acknowledgment, or behavior commitment. It may be useful, but it is not durable evidence.
+- **Durable close** = an on-disk notebook/close-template anchor or a `coffee_conductor_outcome` with `conductor=<slug>`, `verdict=`, and `notebook_ref=` or `falsify=`. Durability belongs to evidence, not merely to momentum.
+
 ---
 
 ## The five master modes (abstraction)
@@ -98,7 +106,7 @@ For the Kleiber benchmark, the close must also name the single next operator act
 
 This is a **new** **four-line** movement list **after** the master is resolved, with **this** pass's **repo** next moves. Label it **`Conductor Action Menu`** and instruct **Reply A-D** for **this** pass. Each line is a **concrete, repo-grounded**, affirmative next move with **verbs and constraints** that match the **active** `conductor` slug (see [`.cursor/skills/conductor/SKILL.md`](../../../.cursor/skills/conductor/SKILL.md) **Conductor action MCQ**). Do **not** spend one of the four options on refusal / no-action; if the operator does anything other than choose **A**, **B**, **C**, or **D**, record that as refusal / park / no-action in the outcome. **Omit** only if the operator says **"orientation only"** or **"no action menu"** in the same turn. **Kleiber** is not the only mode that gets a menu; **Bernstein, Toscanini,** etc. all get **their own** four movement options with the same **A-D** letters.
 
-**Partial arc state:** If the operator selects only part of a Conductor Action Menu, preserve that state on the next menu instead of restarting. Prefix each movement with `Complete -`, `Open -`, or `Parked -`; keep completed movements visible; and distinguish open because unresolved from open because deferred, awaiting durability, or intentionally not worth doing. A bare movement letter should continue the active resolved arc rather than re-showing a fresh menu. D / Finale is not required for every useful arc: it should seal only when evidence is ready to move lifecycle state.
+**Partial arc state:** If the operator selects only part of a Conductor Action Menu, preserve that state on the next menu instead of restarting. Prefix each movement with `Complete -`, `Open -`, or `Parked -`; keep completed movements visible; and distinguish open because unresolved from open because deferred, awaiting durability, or intentionally not worth doing. A bare movement letter should continue the active arc rather than re-showing a fresh menu. D / Finale is not required for every useful arc: it should seal only when evidence is ready to move lifecycle state.
 
 **Actionability close:** A completed movement, especially **D. Finale** or a benchmark, must not stop at "artifact exists" or "verdict recorded." Close with exactly one operator-facing next action, or explicitly state `No next action recommended` with the reason. If a benchmark closes as `Held`, `Weakened`, `Broke`, or `Open`, translate that verdict into the next decision: commit, rerun with a source pack, promote a rule, park as calibration residue, or decline further action.
 
@@ -127,7 +135,7 @@ Cadence lines alone are **insufficient** to store *what* improved in the work. *
 1. A **Conductor close** in **`chapters/YYYY-MM/days.md`** (or a `strategy-page` **Reflection**), using the paste block in [CONDUCTOR-CLOSE-TEMPLATE.md](../../../codex/CONDUCTOR-CLOSE-TEMPLATE.md) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â *stance, object, falsify / next test, escalation*; or
 2. **`coffee_conductor_outcome`** in [work-cadence-events.md](../work-cadence/work-cadence-events.md) with `conductor=<slug>` + `verdict=` and `notebook_ref=` or `falsify=` (both preferred). If the pass closed without that line, add a repair outcome on the next turn rather than leaving attribution implicit.
 
-**Preferred compact close:** For routine passes, favor the shorter shape `Object -> What moved / seam -> Falsify / next test -> Next wedge` over a longer reflective block. If a movement was satisfied in chat only, label it as **behavioral/non-durable** rather than implying that it left a notebook or cadence close.
+**Preferred compact close:** For routine passes, favor the shorter shape `Object -> What moved / seam -> Falsify / next test -> Next wedge` over a longer reflective block. If a movement was satisfied in chat only, label it as **behavioral/non-durable** rather than implying that it left a notebook or cadence close. Only notebook anchors and `coffee_conductor_outcome` lines count as durable closes.
 
 **SSOT (layer map, mermaid, gate boundary):** [CONDUCTOR-IMPROVEMENT-LOOP.md](../../../codex/CONDUCTOR-IMPROVEMENT-LOOP.md). **Not** Record; **not** a substitute for full **EOD** `strategy page` when the day needs a real compose.
 

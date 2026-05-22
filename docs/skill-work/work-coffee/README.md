@@ -6,6 +6,17 @@
 
 **Not** Record truth. **Not** MEMORY. **Not** a second merge path. **Not** generic repo hygiene, and **not** a broad health/caffeine territory. `work-coffee` is a WORK lane for ritual architecture and operator ergonomics.
 
+## Conductor Stack At A Glance
+
+- **Continuity:** `dream_coffee_rollup.py` remembers what is still warm enough to matter next.
+- **Observability:** `build_conductor_ledger.py` shows the conductor pattern over a review window.
+- **Durable judgment:** `conductor-arc-impact-journal.md` records what the system actually learned.
+
+Fast doorway:
+- overview and rationale: [README.md](/C:/dev/strategy-codex/docs/skill-work/work-coffee/README.md)
+- one-glance map: [CONDUCTOR-LAYER-MAP.md](/C:/dev/strategy-codex/docs/skill-work/work-coffee/CONDUCTOR-LAYER-MAP.md)
+- portable pass shape: [CONDUCTOR-PASS.md](/C:/dev/strategy-codex/docs/skill-work/work-coffee/CONDUCTOR-PASS.md)
+
 ---
 
 ## Role
@@ -32,6 +43,22 @@ This split is intentional:
 **`coffee` C - Statecraft** opens the WORK-only academy-statecraft drafting bench at [Statecraft Workshop](../../../codex/academy/statecraft/README.md): **A. Treaty framework**, **B. Policy paper**, **C. Negotiation brief**, and **D. Richelieu/Bismarck stress test**. Agents should **not** auto-run the daily brief, `check streams`, bookshelf elicitation, or archived Tri-Frame before this submenu. Those remain explicit named routes unless the operator asks to convert source material into a statecraft instrument.
 
 **Symphony / Conductor:** Conductor is standalone name-only; strategy-notebook cadence lives in [COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md](../work-strategy/strategy-notebook/COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md) + [CONDUCTOR-PASS.md](CONDUCTOR-PASS.md). Invoke by conductor name, **`conductor <name>`**, or [conductor skill](../../../.cursor/skills/conductor/SKILL.md) without opening **`coffee`** when preferred.
+
+### Why the conductor stack helps
+
+The conductor stack exists so the system can do three different human jobs without confusing them:
+
+- **continuity** - remember what was just alive enough to matter next
+- **observability** - measure the pattern of picks, closes, and falsifiers over time
+- **durable learning** - decide what the system actually learned and whether that lesson generalized
+
+In repo terms:
+
+- `dream_coffee_rollup.py` is the warm handoff surface
+- `build_conductor_ledger.py` is the derived review surface
+- `conductor-arc-impact-journal.md` is the durable judgment surface
+
+This matters because a system that mixes those jobs becomes hard to trust. It either overstates a warm impression as truth, or buries a useful human lesson inside raw counters.
 
 ---
 
@@ -120,7 +147,7 @@ In scope:
 
 - operator cadence design
 - activation rituals
-- work-start / signing-off (merged into one fixed coffee flow; treaty/policy/negotiation drafting lands under **C - Statecraft**; academy-singularity activation lands under **D - Singularity**; Rome / Jiang / notebook synthesis, self-knowledge bookshelf quiz, skill-write, and commercial slices route by explicit request outside the coffee hub unless converted into statecraft output; Conductor is standalone by name; see [coffee SKILL](../../../.cursor/skills/coffee/SKILL.md))
+- work-start / signing-off (merged into one fixed coffee flow; treaty/policy/negotiation drafting lands under **C - Statecraft**; singularity-academy activation lands under **D - Singularity**; Rome / Jiang / notebook synthesis, self-knowledge bookshelf quiz, skill-write, and commercial slices route by explicit request outside the coffee hub unless converted into statecraft output; Conductor is standalone by name; see [coffee SKILL](../../../.cursor/skills/coffee/SKILL.md))
 - reorientation and multi-`coffee` behavior
 - survey/cadence workflow design
 - relationship between hub flow and territory execution

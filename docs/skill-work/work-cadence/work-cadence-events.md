@@ -624,3 +624,12 @@ _(Append below this line.)_
 - **2026-05-20 17:27 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown verdict=receipt-crosswalk-brief-sealed conductor=karajan notebook_ref=docs/skill-work/work-dev/control-plane/receipt-crosswalk-job-brief.md
 - **2026-05-20 18:17 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=kleiber
 - **2026-05-20 18:19 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown verdict=Held conductor=kleiber notebook_ref=docs/skill-work/work-dev/control-plane/receipt-crosswalk.md falsify=no-fake-universal-log-no-duplicate-doctrine-no-file-dump
+- **2026-05-21 05:46 UTC** — dream (strategy-codex) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
+- **2026-05-21 11:56 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-05-21 15:50 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-05-21 15:50 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=C
+- **2026-05-21 16:09 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-05-21 16:35 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-05-22 06:12 UTC** — dream (strategy-codex) ok=false mode=default cursor_model=unknown model_tier=unknown phase=both integrity=fail governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=true handoff_written=true
+- **2026-05-22 06:13 UTC** — dream (strategy-codex) ok=false mode=default cursor_model=unknown model_tier=unknown phase=both integrity=fail governance=pass mem_changed=false reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=true handoff_written=true
+- **2026-05-22 14:31 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown

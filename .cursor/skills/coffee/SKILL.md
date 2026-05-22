@@ -43,12 +43,13 @@ Multiple `coffee` sessions per day are normal. That is not redundancy; it is the
 `coffee` and `dream` form a biological-cognitive pair:
 - **`coffee`** = repeated framing dose (many per day)
 - **`dream`** = end-of-day consolidation pass (usually once)
-- **Conductor** = named mid-day emphasis: `coffee_pick picked=conductor conductor=<slug>` creates the stance signal; `coffee_conductor_outcome` or a notebook close makes it durable enough for dream to compress.
+- **Conductor** = named mid-day emphasis: `coffee_pick picked=conductor conductor=<slug>` creates the stance signal; a notebook close or `coffee_conductor_outcome` makes it durable enough for dream to compress.
+- **Active arc** = the latest explicit conductor pick still unresolved by cadence. Continuity may surface it; continuity does not silently reopen a closed arc.
 - **`coffee_close`** = optional post-branch receipt: what actually settled, what remains unresolved, which artifacts matter, readiness state, and conductor open/closed state. It is WORK telemetry only.
 
 `coffee` should feel like a sip. `dream` should feel like sleep. See `.cursor/skills/dream/SKILL.md` ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ *Cadence choreography* for the day's sequence and data handoff.
 
-**Coffee -> dream conductor handoff:** Coffee may leave a conductor turn as **orientation-only** when no close exists; dream may report that as `orientation_only`, but must not treat it as completed work. A closed conductor turn needs either [CONDUCTOR-CLOSE-TEMPLATE.md](../../../codex/CONDUCTOR-CLOSE-TEMPLATE.md) in a notebook/page reflection or a `coffee_conductor_outcome` with `conductor=<slug>`, `verdict=`, and `notebook_ref=` or `falsify=`. Tomorrow's coffee may surface dream's **Conductor echo** as continuity, not as a hidden conductor action menu or auto-reactivated conductor state.
+**Coffee -> dream conductor handoff:** Coffee may leave a conductor turn as **orientation-only** when no durable close exists; dream may report that as `orientation_only`, but must not treat it as completed work. A closed conductor turn needs either [CONDUCTOR-CLOSE-TEMPLATE.md](../../../codex/CONDUCTOR-CLOSE-TEMPLATE.md) in a notebook/page reflection or a `coffee_conductor_outcome` with `conductor=<slug>`, `verdict=`, and `notebook_ref=` or `falsify=`. Tomorrow's coffee may surface dream's **Conductor echo** as continuity, not as a hidden conductor action menu or auto-reactivated conductor state.
 
 <a id="conductor-only-no-coffee"></a>
 
@@ -78,7 +79,7 @@ The **five masters** (**Toscanini**, **Furtw?ngler**, **Karajan**, **Kleiber**, 
 
 <a id="hub-e-auto-continue"></a>
 
-**Standalone Conductor continuation:** When the operator chooses a master directly after **`coffee`** Step 1, **`last_logged_conductor`** from cadence (**`coffee_pick`** with **`conductor=`**) is the default resolved slug. After a resolved conductor is active, a bare movement letter should continue that arc rather than re-showing the menu, unless the operator clearly restarts or switches conductors.
+**Standalone Conductor continuation:** When the operator chooses a master directly after **`coffee`** Step 1, **`last_logged_conductor`** from cadence (**`coffee_pick`** with **`conductor=`**) is the default resolved slug. After an active arc exists, a bare movement letter should continue that arc rather than re-showing the menu, unless the operator clearly restarts or switches conductors.
 
 - **If a slug exists:** **Continue that master immediately** ? short orientation + **Conductor action MCQ** for that slug. Do not paste any lettered master-selection row; ask for a conductor name only when switching is requested without a name.
 - **If no slug exists:** prompt once for a conductor name (`toscanini`, `furtwangler`, `karajan`, `kleiber`, or `bernstein`) ? do **not** invent a default and do **not** show lettered master choices.

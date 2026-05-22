@@ -2,7 +2,7 @@
   "version": "1.2",
   "grace_mar": true,
   "user_id": "strategy-codex",
-  "generated_at": "2026-05-14T00:20:40.935498",
+  "generated_at": "2026-05-22T00:13:13.372652",
   "checksum": "f4a4ba13c365c9187b8c723cf9d959701eb16a6cad451cfff3e038a8092dda1a",
   "runtime_mode": "adjunct_runtime",
   "runtime_modes": {
@@ -123,7 +123,7 @@
   "intent_snapshot": {
     "ok": false,
     "user_id": "strategy-codex",
-    "generated_at": "2026-05-14T00:20:40.935498",
+    "generated_at": "2026-05-22T00:13:13.368474",
     "error": "missing intent.md at C:\\dev\\strategy-codex\\users\\strategy-codex\\intent.md",
     "goals": {},
     "tradeoff_rules": [],

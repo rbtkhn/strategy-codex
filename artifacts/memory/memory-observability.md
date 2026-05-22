@@ -2,7 +2,7 @@
 
 **Status:** derived WORK-layer observability. Not Record truth and not self-memory.
 
-**Generated:** 2026-05-20T01:16:00.856459+00:00
+**Generated:** 2026-05-22T06:13:54.968427+00:00
 **User:** `strategy-codex`
 **Overall status:** `ok`
 
@@ -10,10 +10,10 @@
 
 | Surface | Status | Observed | Age (h) | Detail |
 |---------|--------|----------|---------|--------|
-| cadence events | `ok` | 2026-05-20T01:15:00+00:00 | 0.02 | 81 event(s) found for strategy-codex |
-| last dream | `ok` | 2026-05-20T01:15:54.141007+00:00 | 0.0 | ok=True |
-| night handoff | `ok` | 2026-05-20T01:15:54.336989+00:00 | 0.0 | night handoff present |
-| bridge state | `ok` | 2026-05-02T04:33:00+00:00 | 428.72 | bridge state present |
+| cadence events | `ok` | 2026-05-22T06:13:00+00:00 | 0.02 | 108 event(s) found for strategy-codex |
+| last dream | `ok` | 2026-05-22T06:13:53.937407+00:00 | 0.0 | ok=True |
+| night handoff | `ok` | 2026-05-22T06:13:54.434460+00:00 | 0.0 | night handoff present |
+| bridge state | `ok` | 2026-05-02T04:33:00+00:00 | 481.68 | bridge state present |
 
 ## Missing/stale inputs
 

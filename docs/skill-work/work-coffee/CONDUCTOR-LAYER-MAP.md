@@ -64,6 +64,18 @@ Clarifications:
 
 ---
 
+## 4a. One-Glance Stack
+
+| Function | Main surface | Human question | What it should feel like |
+|---|---|---|---|
+| **Continuity** | `dream_coffee_rollup.py` | What is still warm enough to matter on the next re-entry? | short handoff, lightweight memory, no grand claims |
+| **Observability** | `build_conductor_ledger.py` | What pattern is visible in the conductor machinery over a review window? | derived telemetry, compact evidence, honest inference labels |
+| **Durable judgment** | `conductor-arc-impact-journal.md` | What did the system actually learn, and did that learning generalize? | narrative judgment, method learning, human interpretation |
+
+**Failure mode when blurred:** continuity starts pretending to be analysis, observability starts pretending to be judgment, or the journal turns into a duplicate metrics dump.
+
+---
+
 ## 5. Menu Naming Standard
 
 Define the three menu names:
