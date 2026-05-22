@@ -16,6 +16,8 @@ Purpose: front door for the canonical Crooke shelf, with the minimal route map f
 ## Core Lane Files
 
 - [Speaker folder README](../../../speakers/crooke/README.md)
+- [Historical examples audit](crooke-historical-examples-audit.md)
+- [Historical themes](themes/README.md)
 - [Monthly book](stream/crooke-book-2026-04.md)
 - [Daily chapter seed](stream/crooke-chapter-2026-04-01.md)
 - [Thread compatibility file](stream/crooke-thread.md) - legacy continuity surface; not a canonical topical thread

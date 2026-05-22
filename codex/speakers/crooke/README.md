@@ -32,6 +32,12 @@ In the [authored pressure quartet](/C:/dev/strategy-codex/codex/speakers/authore
 - Interview appearances: [crooke-interview-appearances-2025-2026.md](/C:/dev/strategy-codex/codex/speakers/crooke/crooke-interview-appearances-2025-2026.md)
 - Consolidation note: [crooke-lane-consolidation-2026-05.md](/C:/dev/strategy-codex/codex/speakers/crooke/stream/crooke-lane-consolidation-2026-05.md)
 
+## Historical audit and themes
+
+- [Crooke historical examples audit](/C:/dev/strategy-codex/codex/speakers/crooke/crooke-historical-examples-audit.md)
+- [Crooke historical themes](themes/README.md)
+- [Freeman vs Crooke second-seed note](/C:/dev/strategy-codex/codex/speaker-question-lattice/freeman-vs-crooke-second-seed-note.md)
+
 ## Compatibility shape
 
 This shelf already has a genuine canonical structure:
