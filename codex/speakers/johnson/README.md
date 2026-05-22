@@ -15,7 +15,7 @@ Open here first when the question is not merely "what did Johnson say," but **wh
 
 - [johnson-helix.md](/C:/dev/strategy-codex/codex/speakers/johnson/johnson-helix.md)
 - [johnson-cross-year-note.md](/C:/dev/strategy-codex/codex/speakers/johnson/johnson-cross-year-note.md)
-- [Jiang vs Johnson - May 2026](/C:/dev/strategy-codex/codex/speakers/jiang/jiang-vs-johnson-2026-05.md)
+- [Jiang vs Johnson - May 2026](/C:/dev/strategy-codex/codex/speakers/relations/jiang-vs-johnson-2026-05.md)
 
 ## Compatibility shape
 

@@ -13,7 +13,7 @@ Local surfaces under review:
 - [alkorshid-johnson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-johnson-speaker-arc.md)
 - [napolitano-johnson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-johnson-speaker-arc.md)
 - [johnson-cross-year-note.md](/C:/dev/strategy-codex/codex/speakers/johnson/johnson-cross-year-note.md)
-- [Jiang vs Johnson - May 2026](/C:/dev/strategy-codex/codex/speakers/jiang/jiang-vs-johnson-2026-05.md)
+- [Jiang vs Johnson - May 2026](/C:/dev/strategy-codex/codex/speakers/relations/jiang-vs-johnson-2026-05.md)
 - [johnson-thread.md](/C:/dev/strategy-codex/codex/speakers/johnson/johnson-thread.md)
 
 Bounded claim:
@@ -40,7 +40,7 @@ Comparison-only notes:
 - [johnson-helix.md](/C:/dev/strategy-codex/codex/speakers/johnson/johnson-helix.md)
 - [johnson-routing.md](/C:/dev/strategy-codex/codex/speakers/johnson/johnson-routing.md)
 - [johnson-cross-year-note.md](/C:/dev/strategy-codex/codex/speakers/johnson/johnson-cross-year-note.md)
-- [Jiang vs Johnson - May 2026](/C:/dev/strategy-codex/codex/speakers/jiang/jiang-vs-johnson-2026-05.md)
+- [Jiang vs Johnson - May 2026](/C:/dev/strategy-codex/codex/speakers/relations/jiang-vs-johnson-2026-05.md)
 
 ## Arc audit
 
@@ -85,7 +85,7 @@ The shelf's usable structure is host-transformation driven, not topic-thread dri
 
 `comparison note mistaken for continuity surface`
 
-- [Jiang vs Johnson - May 2026](/C:/dev/strategy-codex/codex/speakers/jiang/jiang-vs-johnson-2026-05.md) is a real routing object, but it does not own Johnson continuity; it maps a disagreement between macro-intent scripting and operational realism
+- [Jiang vs Johnson - May 2026](/C:/dev/strategy-codex/codex/speakers/relations/jiang-vs-johnson-2026-05.md) is a real routing object in the neutral `relations/` namespace, but it does not own Johnson continuity; it maps a disagreement between macro-intent scripting and operational realism
 
 `same frame, different role`
 

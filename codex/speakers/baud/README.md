@@ -12,7 +12,7 @@ Open here when the question is not merely what Baud said in one appearance, but 
 - [baud-thread-international-law.md](baud-thread-international-law.md)
 - [baud-helix.md](baud-helix.md)
 - [baud-surface-orthogonality-2026-05.md](baud-surface-orthogonality-2026-05.md)
-- [Baud-Crooke law cluster review](/C:/dev/strategy-codex/codex/speakers/baud-crooke-international-law-orthogonality-2026-05.md)
+- [Baud-Crooke law cluster review](/C:/dev/strategy-codex/codex/speakers/relations/baud-crooke-international-law-orthogonality-2026-05.md)
 - [baud-cross-year-note.md](baud-cross-year-note.md)
 - [baud-profile.md](baud-profile.md)
 

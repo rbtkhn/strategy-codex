@@ -12,8 +12,9 @@ Use it when the notebook needs Jiang's long-horizon civilizational or game-theor
 - [jiang-thread.md](jiang-thread.md) - legacy distilled companion thread surface; not a canonical topical thread under the newer speaker taxonomy
 - [jiang-transcript.md](jiang-transcript.md)
 - [jiang-on-china.md](jiang-on-china.md)
-- [jiang-vs-johnson-2026-05.md](jiang-vs-johnson-2026-05.md)
-- [jiang-vs-johnson-others-2026-05.md](jiang-vs-johnson-others-2026-05.md)
+- [jiang-china-russia-continental-depth.md](jiang-china-russia-continental-depth.md)
+- [Jiang vs Johnson - May 2026](/C:/dev/strategy-codex/codex/speakers/relations/jiang-vs-johnson-2026-05.md) - neutral relation note; not Jiang continuity ownership
+- [Jiang vs Johnson - Where Other Speakers Stand](/C:/dev/strategy-codex/codex/speakers/relations/jiang-vs-johnson-others-2026-05.md) - neutral relation note; not Jiang continuity ownership
 - [jiang-surface-orthogonality-2026-05.md](jiang-surface-orthogonality-2026-05.md)
 
 ## Current Shape

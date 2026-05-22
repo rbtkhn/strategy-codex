@@ -14,6 +14,8 @@ Speaker folders are the durable accumulation layer for recurring figures. Use th
 
 Raw-input remains provenance. An **appearance** is one derived host/speaker/date/source event from a verified raw-input capture. Speaker arcs remain host-local interpretation. Speaker objects remain orientation and routing. Speaker helixes and cross-host notes remain comparative surfaces. In this shelf, lattice rows are lookup pointers only; they may cite speaker folders, but they should not become the place where every interpretation lives.
 
+Cross-speaker disagreement or comparison objects that do not belong to one speaker's continuity ownership should live under [`relations/`](relations/), not inside a single speaker folder by default.
+
 For map-like navigation across the shelf, use [`../speaker-map/`](../speaker-map/). Speaker-map is an index layer over this shelf, not a rename and not a replacement. Durable memory stays here; route views, adjacency maps, and open-first route maps live there.
 
 For the authored/interview subtype, use [authored-pressure-quartet.md](/C:/dev/strategy-codex/codex/speakers/authored-pressure-quartet.md). It clusters Crooke, Ritter, Pape, and Parsi as a repeatable crisis-analysis pass: forecast clock, force constraint, settlement architecture, and structural misreading.

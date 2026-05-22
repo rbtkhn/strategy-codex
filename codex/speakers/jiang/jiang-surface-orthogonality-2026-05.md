@@ -6,25 +6,28 @@ This review checks whether the current Jiang shelf is partitioned sharply enough
 
 ## Scope
 
-Surfaces reviewed:
+Local Jiang surfaces reviewed:
 
 - [jiang-profile.md](/C:/dev/strategy-codex/codex/speakers/jiang/jiang-profile.md)
 - [jiang-thread.md](/C:/dev/strategy-codex/codex/speakers/jiang/jiang-thread.md)
 - [jiang-transcript.md](/C:/dev/strategy-codex/codex/speakers/jiang/jiang-transcript.md)
 - [jiang-on-china.md](/C:/dev/strategy-codex/codex/speakers/jiang/jiang-on-china.md)
-- [jiang-vs-johnson-2026-05.md](/C:/dev/strategy-codex/codex/speakers/jiang/jiang-vs-johnson-2026-05.md)
-- [jiang-vs-johnson-others-2026-05.md](/C:/dev/strategy-codex/codex/speakers/jiang/jiang-vs-johnson-others-2026-05.md)
+
+Adjacent neutral relation notes:
+
+- [Jiang vs Johnson - May 2026](/C:/dev/strategy-codex/codex/speakers/relations/jiang-vs-johnson-2026-05.md)
+- [Jiang vs Johnson - Where Other Speakers Stand](/C:/dev/strategy-codex/codex/speakers/relations/jiang-vs-johnson-others-2026-05.md)
 
 Bounded claim:
 
 - this note audits the current Jiang shelf as it actually exists in May 2026
-- it tests distinctness between continuity surfaces and comparison surfaces
+- it tests distinctness between Jiang continuity surfaces and adjacent relation surfaces
 - it does not try to redesign the whole Predictive History membrane in one pass
 
 ## Surfaces under review
 
 - **continuity / routing surfaces:** `jiang-profile.md`, `jiang-thread.md`, `jiang-transcript.md`, `jiang-on-china.md`
-- **comparison-only surfaces:** `jiang-vs-johnson-2026-05.md`, `jiang-vs-johnson-others-2026-05.md`
+- **adjacent neutral relation surfaces:** `relations/jiang-vs-johnson-2026-05.md`, `relations/jiang-vs-johnson-others-2026-05.md`
 
 The main orthogonality pressure is not among the comparison notes. It is between the Jiang shelf's legacy `profile + thread + transcript` companion trio and the newer speaker-surface taxonomy where `thread` now means a canonical topical thread inside an arc.
 
@@ -66,8 +69,8 @@ The filename `jiang-thread.md` should therefore not be read as evidence that the
 
 ## Redundancy findings
 
-- `comparison note mistaken for continuity surface`
-  - The two Jiang-vs-Johnson notes are correctly bounded comparison notes and should stay outside continuity ownership.
+- `comparison note kept outside continuity surface ownership`
+  - The two Jiang-vs-Johnson notes now live in the neutral `relations/` namespace, which is the cleaner membrane for bounded cross-speaker routing objects.
 - `same source spine, different use`
   - `jiang-profile.md`, `jiang-thread.md`, and `jiang-transcript.md` all point back to the same Jiang lane, but they serve distinct routing, distillation, and receipt roles.
 - `legacy naming pressure`
@@ -75,7 +78,7 @@ The filename `jiang-thread.md` should therefore not be read as evidence that the
 
 ## Recommended actions
 
-- `keep as is` for `jiang-profile.md`, `jiang-transcript.md`, `jiang-on-china.md`, and both Jiang-vs-Johnson notes
+- `keep as is` for `jiang-profile.md`, `jiang-transcript.md`, `jiang-on-china.md`, and the two neutral Jiang-vs-Johnson relation notes
 - `rename for clearer ownership` only if a later migration pass wants to normalize the legacy companion files
 - `clarify role` now by explicitly labeling `jiang-thread.md` as a legacy distilled companion thread, not a canonical topical thread
 - `do not create new topical threads` until one bounded recurring strand can defend distinct object, mechanism, and use
@@ -85,7 +88,7 @@ The filename `jiang-thread.md` should therefore not be read as evidence that the
 Use this review when the notebook needs:
 
 - a live example of orthogonality pressure inside a real speaker shelf
-- a reminder that comparison notes should not be mistaken for continuity surfaces
+- a reminder that comparison notes should not be mistaken for continuity surfaces or housed as one speaker's continuity
 - a warning that legacy filenames can create taxonomy confusion even when the actual functions remain distinct
 - a basis for future Jiang shelf cleanup if the membrane becomes a fuller arc system
 
