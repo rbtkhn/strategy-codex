@@ -1,16 +1,16 @@
 ---
-name: ideation-engine
-preferred_activation: ideation engine
-description: Generate approval-first Top 3 opportunity briefs from existing lanes, current assets, and source-backed signals for a solo operator.
+name: "ideation-engine"
+preferred_activation: "ideation engine"
+description: "Generate approval-first Top 3 opportunity briefs from existing lanes, current assets, and source-backed signals for a solo operator."
 portable: true
-version: 0.2.0
+version: "0.2.0"
 tags:
-- operator
-- entrepreneurship
-- strategy
-- opportunity
-portable_source: skills-portable/ideation-engine/SKILL.md
-synced_by: sync_portable_skills.py
+  - "operator"
+  - "entrepreneurship"
+  - "strategy"
+  - "opportunity"
+portable_source: "skills-portable/ideation-engine/SKILL.md"
+synced_by: "sync_portable_skills.py"
 ---
 # Ideation Engine
 
@@ -183,7 +183,7 @@ Do not assume those skills exist unless the host provides them.
 
 ## Cursor / grace-mar instance
 
-Grace-Mar routing and source notes for this repository.
+﻿Grace-Mar routing and source notes for this repository.
 
 ## Routing
 

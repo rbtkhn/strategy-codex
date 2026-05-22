@@ -1,16 +1,16 @@
 ---
-name: strategy-notebook-expert-cross-weave
-preferred_activation: weave expert cross
-description: Legacy alias for strategy-codex expert cross-weave: fold two expert-thread ingests into one host-equivalent daily seam (Chronicle/Reflection/References/Open), with optional batch-analysis rows and a month-level grep anchor; WORK lane only.
+name: "strategy-notebook-expert-cross-weave"
+preferred_activation: "weave expert cross"
+description: "Legacy alias for strategy-codex expert cross-weave: fold two expert-thread ingests into one host-equivalent daily seam (Chronicle/Reflection/References/Open), with optional batch-analysis rows and a month-level grep anchor; WORK lane only."
 portable: true
-version: 0.2.0
+version: "0.2.0"
 tags:
-- operator
-- work-strategy
-- strategy-codex
-- strategy-notebook-legacy
-portable_source: skills-portable/strategy-notebook-expert-cross-weave/SKILL.md
-synced_by: sync_portable_skills.py
+  - "operator"
+  - "work-strategy"
+  - "strategy-codex"
+  - "strategy-notebook-legacy"
+portable_source: "skills-portable/strategy-notebook-expert-cross-weave/SKILL.md"
+synced_by: "sync_portable_skills.py"
 ---
 # Strategy-codex expert cross-weave
 
@@ -113,4 +113,4 @@ Grace-mar paths (from `.cursor/skills/strategy-notebook-expert-cross-weave/`).
 | Parent lane skill | [.cursor/skills/skill-strategy/SKILL.md](../skill-strategy/SKILL.md) |
 | Manifest / sync | [skills-portable/manifest.yaml](../../../skills-portable/manifest.yaml) · [scripts/sync_portable_skills.py](../../../scripts/sync_portable_skills.py) |
 
-**Worked example (2026-04):** Ritter × Davis weave - `crosses:ritter+davis`; commits `c09cedcc`, `ecac8c0e`, `4fff0860` on `main`.
+**Worked example (2026-04):** Ritter × Davis weave — `crosses:ritter+davis`; commits `c09cedcc`, `ecac8c0e`, `4fff0860` on `main`.

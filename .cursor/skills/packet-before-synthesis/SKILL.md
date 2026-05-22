@@ -1,17 +1,17 @@
 ---
-name: packet-before-synthesis
-preferred_activation: packet-first
-description: Apply packet-first strategist discipline to a mixed live seam: identify whether its main value is mechanism, process, or register; check for official-primary versus attributed gloss layering; preserve the seam in a packet or layered note before composing stronger notebook judgment. Use when synthesis would risk flattening multiple evidence layers into one claim.
+name: "packet-before-synthesis"
+preferred_activation: "packet-first"
+description: "Apply packet-first strategist discipline to a mixed live seam: identify whether its main value is mechanism, process, or register; check for official-primary versus attributed gloss layering; preserve the seam in a packet or layered note before composing stronger notebook judgment. Use when synthesis would risk flattening multiple evidence layers into one claim."
 portable: true
-version: 0.2.0
+version: "0.2.0"
 tags:
-- operator
-- strategy
-- source-hygiene
-- doctrine
-- notebook
-portable_source: skills-portable/packet-before-synthesis/SKILL.md
-synced_by: sync_portable_skills.py
+  - "operator"
+  - "strategy"
+  - "source-hygiene"
+  - "doctrine"
+  - "notebook"
+portable_source: "skills-portable/packet-before-synthesis/SKILL.md"
+synced_by: "sync_portable_skills.py"
 ---
 # Packet before synthesis
 
