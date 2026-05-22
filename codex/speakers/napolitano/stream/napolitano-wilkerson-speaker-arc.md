@@ -30,6 +30,16 @@ Lawrence Wilkerson matters here as an **imperial-decline and military-statecraft
 - [2025-12-18 Lawrence Wilkerson - A Disaster to Invade Venezuela](/C:/dev/strategy-codex/codex/years/2026/raw-input/2025-12-18/transcript-napolitano-wilkerson-a-disaster-to-invade-venezuela-2025-12-18.md)
 - [2025-11-25 Lawrence Wilkerson - No One Can Trust Netanyahu](/C:/dev/strategy-codex/codex/years/2026/raw-input/2025-11-25/transcript-napolitano-wilkerson-no-one-can-trust-netanyahu-2025-11-25.md)
 
+## Orthogonality guide
+
+Quick separation rule:
+
+- `Napolitano x Wilkerson` is the anti-war constitutional edge and legitimacy-warning lane.
+- `Diesen x Wilkerson` is the imperial-decline altitude and order-consequence lane.
+- `Dialogue Works x Wilkerson` is the live crisis-pressure and military-statecraft warning lane.
+
+Do not use this arc as a shortcut for BRICS / de-dollarization consequence or highest-temperature live-pressure warning. Its distinctive job is to press Wilkerson's imperial-decline voice through constitutional skepticism, legal-moral illegitimacy, and alliance-capture critique.
+
 ## Routing use
 
 Use this arc when the notebook needs:
@@ -39,6 +49,8 @@ Use this arc when the notebook needs:
 - auxiliary reinforcement outside the `Diesen + Dialogue Works` durable pair
 
 ## Boundaries
+
+- If the question is mainly about wider imperial consequence or system-level decline rather than legal-moral illegitimacy and anti-war edge, route outward to [diesen-wilkerson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-wilkerson-speaker-arc.md).
 
 - This is a real November 2025-April 2026 Napolitano branch.
 - The November-through-March files are routeable but summary-grade; the April 30 file remains the strongest native opening point.

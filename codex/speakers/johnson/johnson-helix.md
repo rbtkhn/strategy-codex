@@ -24,6 +24,18 @@ A real April 2026 `Napolitano x Johnson` branch now exists on disk as well, but 
 | [davis x johnson](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-johnson-speaker-arc.md) | Operational feasibility | Impractical objectives, coercive failure, shrinking leverage, and what force can no longer realistically recover |
 | [alkorshid x johnson](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-johnson-speaker-arc.md) | Live crisis pressure | Strike escalation, Hormuz stress, humiliation of coercive displays, and immediate crisis-motion under maximum event pressure |
 
+## Orthogonality guide
+
+These host arcs should be read as **distinct transformations of one Johnson voice**, not as three parallel summaries of the same conclusion.
+
+Quick separation rule:
+
+- `diesen x johnson` = strategic altitude, regional exposure, and wider order consequence
+- `davis x johnson` = force feasibility, failed coercion, and what policy can no longer extract from military pressure
+- `alkorshid x johnson` = immediate crisis motion, event pressure, and the humiliation tempo of escalation
+
+If a Johnson claim could sit in several of these without changing the operator's use, prefer the narrower host lane or keep it at raw-input level rather than broadening the helix claim.
+
 ## Open first
 
 If the operator needs the cleanest single introduction to the helix:
@@ -51,6 +63,7 @@ Use this helix note when the notebook is doing one or more of the following:
 - This helix is not a generic Johnson profile; it is a host-transformation note.
 - Prefer the host-local arc or raw-input shelf when the task is stream-specific; use the helix when the task is comparative.
 - The three strands are complementary, not redundant. Do not flatten them into one undifferentiated Johnson shelf.
+- Do not treat `diesen x johnson` as a substitute for feasibility testing, or `davis x johnson` as a substitute for live crisis pressure. Those are different retrieval jobs.
 
 ## Phase note
 

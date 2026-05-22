@@ -64,6 +64,16 @@ That pair gives the clearest mature lane shape:
 - engineering correction under live Iran-war pressure
 - deterrence realism rather than rhetorical escalation
 
+## Orthogonality guide
+
+Quick separation rule:
+
+- `Davis x Postol` is the engineering-constraint and destructive-capacity-truth lane.
+- `Dialogue Works x Postol` is the live-pressure, technical-destruction, and deterrence-correction lane.
+- `Diesen x Postol` is the deterrence-consequence and escalation-horizon lane.
+
+Do not use this arc as a shortcut for live crisis narration or wider order-level nuclear consequence. Its distinctive job is to test whether strikes, bunkers, radars, and missile defenses can physically do what public rhetoric claims.
+
 ## Routing use
 
 Use this speaker arc when a Davis ingest or batch pass is doing one or more of the following:
@@ -81,6 +91,8 @@ Typical pairings around the guest lane:
 - `sachs`
 
 ## Boundaries
+
+- If the question is mainly about how technical underperformance widens into strategic-order consequence rather than about the mechanism itself, route outward to [diesen-postol-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-postol-speaker-arc.md).
 
 - Postol is strongest here on engineering and deterrence realism, not on domestic liability, coalition politics, or diplomatic sequencing.
 - This arc is strongly real in the stream, but much of it is still not materialized to canonical raw-input on disk.

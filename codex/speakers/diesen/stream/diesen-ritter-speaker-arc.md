@@ -60,6 +60,17 @@ If the operator needs the cleanest Iran-war escalation pair inside the Diesen st
 - open [youtube-glenn-diesen-scott-ritter-full-scale-war-as-iran-attacks-all-u-s-targets-2026-02-28.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-02-28/youtube-glenn-diesen-scott-ritter-full-scale-war-as-iran-attacks-all-u-s-targets-2026-02-28.md)
 - then [youtube-glenn-diesen-scott-ritter-war-goes-horribly-wrong-u-s-could-use-nuclear-weapons-2026-04-07.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-07/youtube-glenn-diesen-scott-ritter-war-goes-horribly-wrong-u-s-could-use-nuclear-weapons-2026-04-07.md)
 
+## Orthogonality guide
+
+Quick separation rule:
+
+- `Diesen x Ritter` is the escalation-horizon and cross-theater consequence lane.
+- `Davis x Ritter` is the operational-feasibility and material-limit lane.
+- `Dialogue Works x Ritter` is the maximum live-war-pressure and loss-of-control lane.
+- `Napolitano x Ritter` is the legal-pressure and command-absurdity lane.
+
+Do not use this arc as a shortcut for immediate collapse rhetoric, hard force-feasibility triage, or juridical pressure. Its distinctive job is to bind mechanics-heavy Ritter analysis to wider Europe/Gulf escalation horizon and order-level consequence.
+
 ## Routing use
 
 Use this guest speaker arc when a Diesen ingest or batch pass is doing one or more of the following:
@@ -77,6 +88,8 @@ Typical pairings around the guest lane:
 - `johnson`
 
 ## Boundaries
+
+- If the question is mainly about what military means can still realistically achieve rather than how escalation propagates across theaters, route outward to [davis-ritter-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-ritter-speaker-arc.md).
 
 - This guest run is no longer small; it is a real 15-appearance cross-year branch with both Europe-theater and Iran-war shelves.
 - The April 17 file is not a full cleaned transcript; it is a unified lane-split SSOT / triage-spine capture.

@@ -39,6 +39,17 @@ In this lane the useful transformation is:
 - [2025-12-01 Scott Ritter - Did Hegseth Order Murders?](/C:/dev/strategy-codex/codex/years/2026/raw-input/2025-12-01/transcript-napolitano-ritter-did-hegseth-order-murders-2025-12-01.md)
 - [2025-11-04 Scott Ritter - NATO's Ukraine Strategy Is Collapsing](/C:/dev/strategy-codex/codex/years/2026/raw-input/2025-11-04/transcript-napolitano-ritter-natos-ukraine-strategy-is-collapsing-2025-11-04.md)
 
+## Orthogonality guide
+
+Quick separation rule:
+
+- `Napolitano x Ritter` is the legal-pressure and command-absurdity lane.
+- `Davis x Ritter` is the operational-feasibility and material-limit lane.
+- `Diesen x Ritter` is the escalation-horizon and cross-theater consequence lane.
+- `Dialogue Works x Ritter` is the maximum live-war-pressure and collapse-temperature lane.
+
+Do not use this arc as a shortcut for calmer feasibility triage, Europe/Gulf escalation horizon, or high-temperature collapse rhetoric. Its distinctive job is to press Ritter's war mechanics through legality, piracy, war-crime exposure, and command failure.
+
 ## Routing use
 
 Use this arc when the notebook needs:
@@ -49,6 +60,8 @@ Use this arc when the notebook needs:
 - war-crime or command-responsibility pressure where Ritter's military reading is being juridically sharpened by the host
 
 ## Boundaries
+
+- If the question is mainly about whether the military plan is feasible or materially sustainable rather than whether it is legally absurd or piratical, route outward to [davis-ritter-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-ritter-speaker-arc.md).
 
 - This is now a materially real November 2025-May 2026 Napolitano branch.
 - The November-through-March files are routeable but mixed in grade; the March 17, April 20, and May 18 transcript-bearing files now form the strongest native opening shelf.

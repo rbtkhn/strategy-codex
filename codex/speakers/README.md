@@ -37,9 +37,40 @@ Canonical templates:
 
 - [speaker object template](_templates/speaker-object-template.md)
 - [speaker arc template](_templates/speaker-arc-template.md)
+- [speaker thread template](_templates/speaker-thread-template.md)
 - [speaker helix template](_templates/speaker-helix-template.md)
 
 Existing `*-page-template.md` files are compatibility stubs for older page scaffolds. Do not use them as the speaker-memory templates.
+
+## Thread compatibility rule
+
+The newer `speakers/` taxonomy uses **topical threads** in the form `<speaker>-thread-<topic>.md` as support surfaces beneath an arc.
+
+Some folders still carry older single-file `*-thread.md` continuity artifacts. Unless a folder explicitly says otherwise, treat those as **legacy distilled continuity files**, not as proof that the shelf already has canonical topical threads.
+
+When a legacy `*-thread.md` is retained:
+
+- it should declare itself as a **compatibility continuity surface**
+- it should include an explicit **orthogonality guide** that routes upward to the canonical arc, helix, thread atlas, or light profile-first surface that now owns the structure
+- it should not silently behave like a second canonical topical-thread system
+
+Do not proliferate new thread files merely because a legacy `*-thread.md` exists. Create a canonical topical thread only when:
+
+- a parent person arc or relational arc already exists or is clearly implicit
+- one recurring topic deserves its own reusable surface
+- the new thread can defend distinct object, mechanism, and retrieval use under the orthogonality rule
+
+## Arc compatibility rule
+
+The current canonical relational-arc grammar is `<host>-<speaker>-arc.md`.
+
+Some shelves still carry older `<host>-<speaker>-speaker-arc.md` files. Treat those as **compatibility spellings of relational arcs**, not as a second arc class.
+
+When both exist:
+
+- treat `<host>-<speaker>-arc.md` as the canonical continuity-bearing surface
+- treat `<host>-<speaker>-speaker-arc.md` as an alias or compatibility stub
+- do not count the two filenames as evidence of arc multiplicity or added orthogonality
 
 ## Speaker object contract
 

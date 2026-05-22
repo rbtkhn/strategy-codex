@@ -4,6 +4,19 @@ WORK only; not Record.
 
 Purpose: compact reuse note for the `Davis × Barnes` run inside the Davis stream. This is not a substitute for the raw-input files. It exists so future routing can quickly answer: which Barnes guest episodes matter most inside this stream, what kind of lane this is, and which file to open first.
 
+## Orthogonality guide
+
+This file should be read as the **domestic-liability and constitutional-process** Barnes branch inside Davis, not as a generic law or political-theater surface.
+
+Quick separation rule:
+
+- `Davis x Barnes` = war powers, legal exposure, executive-process fracture, coalition sell, and domestic political survivability
+- [davis-postol-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-postol-speaker-arc.md) = engineering limits and destructive-capacity truth
+- [davis-johnson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-johnson-speaker-arc.md) = intelligence-political causation and operational consequence
+- [greenwald/README.md](/C:/dev/strategy-codex/codex/speakers/greenwald/README.md) surfaces = media-state and civil-liberties pressure rather than Barnes's war-powers/process lane
+
+If the notebook needs to know who can authorize, sustain, or politically survive an escalation path, route here. If it needs engineering correction, operational causation, or media-state critique, route to the neighboring surfaces instead.
+
 ## Why this guest run matters
 
 Robert Barnes matters here less as a generic pundit than as a recurring **domestic-liability / constitutional-process** voice inside a host stream otherwise centered on military feasibility, escalation, and bargaining pressure.
@@ -65,9 +78,16 @@ Typical pairings around the guest lane:
 - `johnson`
 - `greenwald`
 
+Distinct from:
+
+- [davis-postol-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-postol-speaker-arc.md), which is stronger on physical mechanism than on legal liability
+- [davis-johnson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-johnson-speaker-arc.md), which is stronger on intelligence and geopolitical causation than on domestic process failure
+- the Greenwald surfaces, which are stronger on media-state pressure and civil-liberties framing than on Barnes's constitutional war-powers lane
+
 ## Boundaries
 
 - Barnes is strongest here on domestic liability, legal architecture, and executive-process interpretation, not on ORBAT, hull counts, or shipping arithmetic.
 - The May 12 file is currently `auto_subtitles_vtt`, so treat it as a useful continuation anchor rather than the cleanest textual statement.
 - The February 16 file is part of the arc, but it is best read as a proto-form rather than as part of the mature Iran-war core.
 - Prefer this guest run when the notebook needs the U.S. domestic or legal plane of the crisis, not when it needs primary diplomatic text or battlefield verification.
+- Do not let this branch silently absorb Postol's engineering lane, Johnson's geopolitical-intelligence lane, or Greenwald's media-state lane.

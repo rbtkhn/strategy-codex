@@ -26,6 +26,18 @@ Pape is now wired as a **two-strand forecast-pressure helix**: the authored Subs
 
 In the [authored pressure quartet](/C:/dev/strategy-codex/codex/speakers/authored-pressure-quartet.md), Pape is the **forecast engine**: clocks, thresholds, falsifiers, revisit dates, and coercive system-leverage indicators.
 
+## Compatibility shape
+
+This shelf already has a genuine canonical structure:
+
+- [pape-helix.md](/C:/dev/strategy-codex/codex/speakers/pape/pape-helix.md) is the crossing surface
+- [stream/pape-forecast-ledger-2026.md](stream/pape-forecast-ledger-2026.md) carries the authored forecast mechanism
+- [pape-interview-appearances-2026.md](/C:/dev/strategy-codex/codex/speakers/pape/pape-interview-appearances-2026.md) carries the interview-pressure strand
+
+The older [stream/pape-thread.md](stream/pape-thread.md) file is therefore a **legacy continuity compatibility surface**, not the place where Pape's real structural orthogonality is defined.
+
+Do not treat `pape-thread.md` as a parallel canonical thread system beside the authored ledger and interview map. The orthogonality-bearing structure lives in the helix and its two source-separated strands.
+
 ## Boundary
 
 Pape is not a Crooke/Ritter-style triple host helix. His stronger shape is authored forecast spine plus targeted public-pressure strand.

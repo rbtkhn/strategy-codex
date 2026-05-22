@@ -16,19 +16,28 @@ These arcs should be read together because they are not merely repeated appearan
 
 | Host lane | Distinct register | What it reveals best |
 |---|---|---|
-| [davis x baud](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-baud-speaker-arc.md) | Alliance mandate and coercive feasibility | Perfidy, co-belligerency, negotiation blackmail, Gulf-base liability, and the legal-strategic incoherence of coercive threats without a credible end state |
-| [alkorshid x baud](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-baud-speaker-arc.md) | Live crisis pressure | Treaty skepticism, Hormuz management, deterrence logic, European impotence, and strategic rationality under immediate event stress |
+| [davis x baud](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-baud-arc.md) | Alliance mandate and coercive feasibility | Perfidy, co-belligerency, negotiation blackmail, Gulf-base liability, and the legal-strategic incoherence of coercive threats without a credible end state |
+| [alkorshid x baud](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-baud-arc.md) | Live crisis pressure | Treaty skepticism, Hormuz management, deterrence logic, European impotence, and strategic rationality under immediate event stress |
+
+## Orthogonality guide
+
+Quick separation rule:
+
+- `Davis x Baud` is where Baud's law-of-war voice becomes alliance-mandate critique and coercive-feasibility testing.
+- `Alkhorshid x Baud` is where the same voice becomes present-tense deterrence logic and treaty skepticism under live event pressure.
+
+Do not use `Davis` as a shortcut for immediate crisis signaling, or `Alkhorshid` as a shortcut for mandate architecture and coercive-feasibility diagnosis. The double helix only adds value if both strands keep their separate jobs.
 
 ## Open first
 
 If the operator needs the cleanest single introduction to the helix:
 
-- open [alkorshid-baud-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-baud-speaker-arc.md)
+- open [alkorshid-baud-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-baud-arc.md)
 
 If the operator needs the best pair:
 
-- open [alkorshid-baud-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-baud-speaker-arc.md)
-- then [davis-baud-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-baud-speaker-arc.md)
+- open [alkorshid-baud-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-baud-arc.md)
+- then [davis-baud-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-baud-arc.md)
 
 That order works because Dialogue Works gives the stronger serial lane and sharper present-tense stress, while Davis makes the legal-mandate and coercive-feasibility register cleaner.
 
@@ -48,3 +57,4 @@ Use this helix note when the notebook is doing one or more of the following:
 - This note is not a generic Baud profile; it is a host-transformation note.
 - Prefer the host-local arc when the task is stream-specific; use the helix when the task is comparative.
 - The two strands are complementary, not redundant. Do not flatten them into one undifferentiated Baud shelf.
+- For Baud's recurring legal-taxonomic lane across hosts and months, route to [baud-thread-international-law.md](/C:/dev/strategy-codex/codex/speakers/baud/baud-thread-international-law.md) rather than stuffing that work into the helix.

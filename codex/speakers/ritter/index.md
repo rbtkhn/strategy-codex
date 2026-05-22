@@ -17,9 +17,19 @@ Purpose: front door for the canonical Ritter shelf, surfacing the authored strea
 - [Lane consolidation](ritter-lane-consolidation-2026-05.md)
 - [Monthly book](ritter-book-2026-04.md)
 - [Daily chapter seed](ritter-chapter-2026-04-01.md)
-- [Thread compatibility file](ritter-thread.md)
+- [Thread compatibility file](ritter-thread.md) - legacy continuity surface; not a canonical topical-thread system
 - [Transcript compatibility file](ritter-transcript.md)
 - [Pages manifest](ritter-pages-manifest.yaml)
+
+## Canonical Structure
+
+Ritter's orthogonality-bearing structure is:
+
+- [Forecast + warning ledger](ritter-forecast-ledger-2026.md) for the authored mechanism
+- [Interview appearance map](ritter-interview-appearances-2025-2026.md) for the host-transformed interview strand
+- [Speaker helix](ritter-helix.md) for the crossing surface between those two strands
+
+Do not read [ritter-thread.md](ritter-thread.md) or the dated `ritter-thread-2026-*.md` files as a second competing topical-thread system. They are legacy compatibility files carried forward from the older expert-thread machinery.
 
 ## Main Host Arcs
 

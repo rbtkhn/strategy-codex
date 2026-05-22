@@ -30,6 +30,16 @@ John Mearsheimer matters here as a **structural-realist and bargaining-geometry*
 - [2025-12-24 John Mearsheimer - An Incoherent Foreign Policy](/C:/dev/strategy-codex/codex/years/2026/raw-input/2025-12-24/transcript-napolitano-mearsheimer-an-incoherent-foreign-policy-2025-12-24.md)
 - [2025-11-17 John Mearsheimer - Israel's Nightmare](/C:/dev/strategy-codex/codex/years/2026/raw-input/2025-11-17/transcript-napolitano-mearsheimer-israels-nightmare-2025-11-17.md)
 
+## Orthogonality guide
+
+Quick separation rule:
+
+- `Napolitano x Mearsheimer` is the defeat-accounting and self-entrapment lane.
+- `Davis x Mearsheimer` is the feasibility, coercive-limits, and bargaining-geometry lane.
+- `Diesen x Mearsheimer` is the structural-realist architecture and order-transition lane.
+
+Do not use this arc as a shortcut for full realist world-order theory or Davis-side feasibility triage. Its distinctive job is to press Mearsheimer's logic through foreign-policy incoherence, self-boxing, and defeat-accounting under Napolitano pressure.
+
 ## Routing use
 
 Use this arc when the notebook needs:
@@ -39,6 +49,8 @@ Use this arc when the notebook needs:
 - a conservative third-lane reinforcement without helix inflation
 
 ## Boundaries
+
+- If the question is mainly about coercive leverage and bargaining geometry rather than how Washington boxed itself in and lost sequence control, route outward to [davis-mearsheimer-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-mearsheimer-speaker-arc.md).
 
 - The November 2025 through April 2026 files are routeable and on disk, but not yet clean transcript-grade primaries.
 - This arc should be treated as real reinforcement for the Mearsheimer object, not as proof of stable triple-helix maturity.

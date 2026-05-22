@@ -62,6 +62,17 @@ If the operator needs the strongest bridge from shock escalation to sustained-lo
 - open [youtube-dialogue-works-scott-ritter-iran-wins-the-long-war-us-israel-losing-ground-2026-03-04.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-03-04/youtube-dialogue-works-scott-ritter-iran-wins-the-long-war-us-israel-losing-ground-2026-03-04.md)
 - then [transcript-dialogue-works-scott-ritter-the-u-s-has-lost-and-is-trapped-in-the-iran-war-with-no-way-2026-03-11.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-03-11/transcript-dialogue-works-scott-ritter-the-u-s-has-lost-and-is-trapped-in-the-iran-war-with-no-way-2026-03-11.md)
 
+## Orthogonality guide
+
+Quick separation rule:
+
+- `Dialogue Works x Ritter` is the maximum live-war-pressure and loss-of-control lane.
+- `Davis x Ritter` is the operational-feasibility and material-limit lane.
+- `Diesen x Ritter` is the escalation-horizon and cross-theater consequence lane.
+- `Napolitano x Ritter` is the legal-pressure and command-absurdity lane.
+
+Do not use this arc as a shortcut for calmer force-feasibility diagnosis, Europe/Gulf escalation-horizon framing, or juridical sharpening. Its distinctive job is to translate fast crisis motion into immediate collapse and lost-control claims.
+
 ## Routing use
 
 Use this speaker arc when a Dialogue Works ingest or batch pass is doing one or more of the following:
@@ -79,6 +90,8 @@ Typical pairings around the guest lane:
 - `johnson`
 
 ## Boundaries
+
+- If the question is mainly about what the U.S. can materially sustain or impose rather than how fast control is collapsing, route outward to [davis-ritter-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-ritter-speaker-arc.md).
 
 - Ritter is strongest here on immediate war-motion and crisis pressure, not on balanced sequencing or calmer feasibility analysis.
 - Prefer this lane when the notebook needs the sharpest present-tense Ritter register; prefer the Diesen lane for broader strategic consequence and the Davis lane for operational practicality.

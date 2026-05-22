@@ -56,6 +56,16 @@ Open [transcript-alkorshid-wilkerson-hormuz-blockade-2026-05-05.md](/C:/dev/stra
 
 Open [2025-12-12 Wilkerson/Freeman](/C:/dev/strategy-codex/codex/years/2026/raw-input/2025-12-12/transcript-dialogue-works-wilkerson-freeman-chain-reaction-2025-12-12.md) first when you need the joint-speaker origin of the live-pressure lane: piracy and Venezuela, Monroe Doctrine revival, no policy process, China-war complacency, and the U.S./Israel responsibility split.
 
+## Orthogonality guide
+
+Quick separation rule:
+
+- `Dialogue Works x Wilkerson` is the live crisis-pressure and military-statecraft warning lane.
+- `Diesen x Wilkerson` is the imperial-decline altitude and order-consequence lane.
+- `Napolitano x Wilkerson` is the anti-war constitutional edge and legitimacy-warning lane.
+
+Do not use this arc as a shortcut for BRICS / de-dollarization consequence or Napolitano's anti-war legal-moral edge. Its distinctive job is to convert immediate crisis motion into blockade impossibility, strategic stupidity, and elite-loss-of-control warnings.
+
 ## Best paired read
 
 Best paired read: [diesen-wilkerson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-wilkerson-speaker-arc.md)
@@ -76,6 +86,8 @@ Use `Dialogue Works x Wilkerson` when the notebook needs:
 - a compact entry point into the Dialogue Works side of Wilkerson's 2026 run
 
 ## Boundaries
+
+- If the question is mainly about imperial legitimacy collapse, BRICS consequence, or the wider order-level effects of decline rather than immediate crisis-warning pressure, route outward to [diesen-wilkerson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-wilkerson-speaker-arc.md).
 
 Do not use this speaker arc as:
 

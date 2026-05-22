@@ -14,6 +14,7 @@ Open here first when the question is not merely "what did Freeman say," but **wh
 
 - [freeman-helix.md](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-helix.md)
 - [freeman-cross-year-note.md](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-cross-year-note.md)
+- [freeman-surface-orthogonality-2026-05.md](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-surface-orthogonality-2026-05.md)
 
 ## Appearance Ladder
 
@@ -36,6 +37,18 @@ Use these when the Freeman question is wider than the four core host arcs:
 - open the raw-input index for the `non-core appearance bench`
 - open the March/April cross-host arc files for `discovery memory`
 - open the year index for the combined front door
+
+## Compatibility shape
+
+This shelf already has a genuine canonical structure:
+
+- [freeman-helix.md](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-helix.md) is the crossing surface
+- [stream/freeman-dec-2025-may-2026-arc-threads.md](stream/freeman-dec-2025-may-2026-arc-threads.md) is the canonical atlas of recurring Freeman arc-threads across the core host lanes
+- the four host-local arcs carry the distinct host transformations
+
+The older [freeman-thread.md](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-thread.md) file is therefore a **legacy continuity compatibility surface**, not a second canonical thread system.
+
+Do not treat `freeman-thread.md` as competing with `freeman-dec-2025-may-2026-arc-threads.md`. The orthogonality-bearing thread structure lives in the helix plus the arc-thread atlas.
 
 Do not treat this folder as independent routing doctrine. The general contract lives in [speaker map](../map/README.md); this folder shows how Freeman instantiates it.
 

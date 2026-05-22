@@ -2,14 +2,23 @@
 
 WORK only; not Record.
 
-Purpose: front door for the canonical Wilkerson shelf, surfacing the speaker-routing doctrine, the three main host arcs, and the full raw-input appearance map for a heavily dispersed cross-host expert.
+Purpose: front door for the canonical Wilkerson shelf, surfacing the speaker-routing doctrine, the canonical host pair plus auxiliary branch, and the full raw-input appearance map for a heavily dispersed cross-host expert.
 
 ## Open First
 
 - [Lane README](README.md) - shelf overview, speaker-routing links, and lane-role framing.
+- [Surface orthogonality review](wilkerson-surface-orthogonality-2026-05.md) - explicit audit of why Wilkerson stays a durable double helix plus auxiliary reinforcement.
 - [Raw-input index](wilkerson-raw-input-index.md) - exhaustive route map for every resolved Wilkerson raw-input appearance currently materialized in the repo.
 - [Speaker routing note](../../../speakers/wilkerson/wilkerson-routing.md) - fastest answer to which host lane to open first.
 - [Speaker helix note](../../../speakers/wilkerson/wilkerson-helix.md) - why the main host pair belongs together.
+
+## Canonical Structure
+
+The orthogonality-bearing structure on this shelf is:
+
+- [wilkerson-helix.md](../../../speakers/wilkerson/wilkerson-helix.md), which compares the canonical host pair
+- the two main host arcs listed below, plus one auxiliary host branch
+- [wilkerson-cross-year-note.md](../../../speakers/wilkerson/wilkerson-cross-year-note.md), which preserves the longitudinal maturity claim
 
 ## Core Speaker Files
 

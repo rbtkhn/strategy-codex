@@ -71,6 +71,16 @@ That pair gives the clearest mature lane shape:
 - Iran-war systems realism
 - one recurring host pressure form
 
+## Orthogonality guide
+
+Quick separation rule:
+
+- `Dialogue Works x Martyanov` is the live-pressure, systems-realism, and strategic-collapse lane.
+- `Davis x Martyanov` is the military-feasibility and outcome-correction lane.
+- `Diesen x Martyanov` is the escalation-horizon and order-consequence lane.
+
+Do not use this arc as a shortcut for calmer feasibility triage or order-transition architecture. Its distinctive job is to turn high-temperature crisis narration into force-balance, systems, and collapse realism under live pressure.
+
 ## Routing use
 
 Use this speaker arc when an Alkorshid ingest or batch pass is doing one or more of the following:
@@ -88,6 +98,8 @@ Typical pairings around the guest lane:
 - `crooke`
 
 ## Boundaries
+
+- If the question is mainly about what the battlefield outcome or force balance can realistically sustain rather than how fast crisis rhetoric is outrunning reality, route outward to [davis-martyanov-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-martyanov-speaker-arc.md).
 
 - Martyanov is strongest here on force balance, military systems, and strategic-collapse language, not on bargaining-room diplomacy.
 - The materialized shelf is now real and useful, but it is still a conservative subset of the broader host run.

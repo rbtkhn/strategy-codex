@@ -3,6 +3,18 @@
 
 WORK only; not Record.
 
+## Orthogonality guide
+
+Read this file as a **month chapter of compatibility continuity**, not as an independent Ritter strand.
+
+Quick separation rule:
+
+- this file = one calendar-month chapter in the split continuity journal
+- [ritter-thread.md](ritter-thread.md) = the parent compatibility continuity surface
+- the authored ledger, appearance map, and [ritter-helix.md](../ritter-helix.md) named there = the actual orthogonality-bearing Ritter surfaces
+
+If a question is about authored forecast structure, host transformation, or canonical routing, route to those Ritter surfaces instead of treating this month chapter as its own strand.
+
 **Source:** Human **narrative journal** (below) + [`strategy-expert-ritter-transcript.md`](strategy-expert-ritter-transcript.md) (verbatim ingests) + relevant **`strategy-page`** work (where this expert’s material was used).
 **Process:** `python3 scripts/strategy_thread.py` triages inbox → transcript, then fills **only** the **machine layer** between the **strategy-expert-thread** HTML start and end comments. Operator / assistant maintains the **journal layer** above the start marker in **readable prose** (optional **ledger** after the end marker).
 **Updated:** Narrative — when you distill; **machine layer** — when you run **`thread`**.

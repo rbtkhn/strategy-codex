@@ -9,7 +9,17 @@ Open here when the question is not simply "which Diesen episode mentions Karagan
 ## Start here
 
 - [karaganov-speaker-object.md](/C:/dev/strategy-codex/codex/speakers/karaganov/karaganov-speaker-object.md)
-- Diesen host arc: [diesen-karaganov-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/diesen/diesen-karaganov-speaker-arc.md)
+- Diesen host arc: [diesen-karaganov-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-karaganov-speaker-arc.md)
+
+## Compatibility shape
+
+This shelf already has a real canonical structure:
+
+- [karaganov-speaker-object.md](/C:/dev/strategy-codex/codex/speakers/karaganov/karaganov-speaker-object.md) defines the object
+- [diesen-karaganov-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-karaganov-speaker-arc.md) is the mature host-local branch
+- the direct appearance set below preserves the anchored source spine
+
+Karaganov is therefore best read as a **single-helix, Diesen-anchored strategic-doctrine object**, not as a generic profile stub and not as a mature multi-host helix.
 
 ## Direct appearance set
 

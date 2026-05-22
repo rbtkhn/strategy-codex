@@ -35,6 +35,15 @@ Reading rule: open the authored ledger first when the question is "what did Pape
 | Authored forecast strand | [pape-forecast-ledger-2026.md](/C:/dev/strategy-codex/codex/speakers/pape/stream/pape-forecast-ledger-2026.md) | Dated predictions, mechanisms, falsifiers, revisit triggers, contradictions, and the fourth-center thesis guardrails |
 | Interview pressure strand | [pape-interview-appearances-2026.md](/C:/dev/strategy-codex/codex/speakers/pape/pape-interview-appearances-2026.md) | How the forecast survives Davis, Redacted, Breaking Points / Ryan Grim, and Mario Nawfal pressure |
 
+## Orthogonality guide
+
+Quick separation rule:
+
+- The `authored forecast strand` is where Pape states mechanisms, falsifiers, and dated warning structure in his own voice.
+- The `interview pressure strand` is where those mechanisms get translated, compressed, simplified, or stress-tested under host questioning.
+
+Do not use the interview map as a substitute for the forecast ledger when mechanism precision matters, and do not use the forecast ledger as a substitute for the interview layer when the question is how Pape's theory survives public pressure. The helix is useful only if authored mechanism and public transmission stay distinct.
+
 ## Open first
 
 If the operator needs the cleanest single introduction to Pape:
@@ -65,3 +74,4 @@ Use this helix note when the notebook is doing one or more of the following:
 - Do not treat generic `transcript-pape.md`, X bundles, date-named captures, or verification notes as interview-strand sources until a separate source-boundary pass promotes them.
 - Pape remains primarily a forecast-mechanism object. Do not flatten him into pure economics, pure war mechanics, or pure power-rank commentary.
 - This helix is mature enough to route, but smaller than the Crooke/Ritter interview shelves. Its strength is forecast discipline plus targeted public pressure.
+- If the question is mainly "what did Pape actually predict and what would falsify it?", route to [pape-forecast-ledger-2026.md](/C:/dev/strategy-codex/codex/speakers/pape/stream/pape-forecast-ledger-2026.md) rather than overloading the helix with ledger work.

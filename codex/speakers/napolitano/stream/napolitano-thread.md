@@ -1,8 +1,21 @@
-# Napolitano thread
+# Legacy compatibility surface — `napolitano-thread`
 
 WORK only; not Record.
 
+## Orthogonality guide
+
+Read this file as a **legacy continuity checkpoint**, not as a host thread that competes with the current Napolitano shelf structure.
+
+Quick separation rule:
+
+- this file = backward-compatible host continuity and journal carryover
+- the compatibility note below = names the actual orthogonality-bearing Napolitano shelf surfaces
+
+If a question is about host transformation, guest differentiation, or canonical routing, route to those shelf surfaces instead of widening this file.
+
 Purpose: compatibility thread for the native `Judging Freedom` host shelf. Use this file to keep the November 2025-May 2026 Napolitano lane legible as one host territory instead of scattering all interpretation into guest folders.
+
+Compatibility note: this is a legacy host-continuity surface, not a canonical topical thread in the newer `speaker-thread-<topic>` grammar.
 
 ## November 2025 core anchors
 

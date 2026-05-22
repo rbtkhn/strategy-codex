@@ -36,6 +36,19 @@ No additional non-canonical items currently meet the inclusion bar for this file
 
 `escalation push -> proliferation/order breakdown -> Israeli strategy in tatters -> bombing-power fallacy -> Islamabad performative talks -> phony-ceasefire collapse -> Hormuz padlock -> diplomacy-dead/clientitis -> agenda collapse -> Russia-backed settlement ordering`
 
+## Orthogonality guide
+
+Quick separation rule:
+
+- `Dialogue Works` carries April Freeman's Israeli-strategy-collapse, phony-ceasefire, and live crisis-pressure role.
+- `Diesen` carries the proliferation, Hormuz padlock, and wider order-breakdown role.
+- `Davis` carries the bombing-power fallacy and force-to-settlement mismatch role.
+- `Napolitano` carries the Islamabad-hoax, clientitis, blockade-legitimacy, and Russia-backed settlement-ordering role.
+
+Do not use this monthly cross-host arc as a substitute for the host-local arcs when the question is really about one host transformation. Its distinctive job is to preserve how the same April thesis distributed across four different host pressures.
+
 ## Boundary
 
 Use captured raw-input for transcript claims. Use found-but-uncaptured entries as routing memory only until materialized with a quality receipt.
+
+If the question is mainly about one lane's stable function rather than April's whole sequence, route outward to the host-local arc rather than keeping the analysis at the month-spine layer.

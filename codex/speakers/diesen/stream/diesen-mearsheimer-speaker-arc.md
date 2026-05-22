@@ -57,6 +57,16 @@ That pair gives the clearest combination of:
 - NATO and Ukraine architecture
 - wider order-change and nuclear-risk framing
 
+## Orthogonality guide
+
+Quick separation rule:
+
+- `Diesen x Mearsheimer` is the structural-realist architecture and order-transition lane.
+- `Davis x Mearsheimer` is the feasibility, coercive-limits, and bargaining-geometry lane.
+- `Napolitano x Mearsheimer` is the defeat-accounting and self-entrapment lane.
+
+Do not use this arc as a shortcut for host-level feasibility triage or Napolitano's immediate defeat-accounting pressure. Its distinctive job is to translate crises into great-power geometry, NATO architecture, and wider system transition.
+
 If the operator specifically needs the 2025 roots:
 
 - open [youtube-glenn-diesen-john-mearsheimer-john-mearsheimer-west-s-failure-to-adjust-to-a-multipolar-world-2025-09-07.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2025-09-07/youtube-glenn-diesen-john-mearsheimer-john-mearsheimer-west-s-failure-to-adjust-to-a-multipolar-world-2025-09-07.md)
@@ -79,6 +89,8 @@ Typical pairings around the guest lane:
 - `davis`
 
 ## Boundaries
+
+- If the question is mainly about whether coercion can still work in practice rather than how structure shapes the whole conflict, route outward to [davis-mearsheimer-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-mearsheimer-speaker-arc.md).
 
 - Mearsheimer is strongest on structure, incentives, and bargaining space, not on fine-grained operational detail.
 - The current run is rich, but the underlying files are operator transcripts with analyst-tier caveats rather than a uniform external corpus.

@@ -11,6 +11,7 @@ Open here first when the question is not merely "what did Ritter say," but **whi
 - [authored-pressure-quartet.md](/C:/dev/strategy-codex/codex/speakers/authored-pressure-quartet.md)
 - [ritter-speaker-object.md](/C:/dev/strategy-codex/codex/speakers/ritter/ritter-speaker-object.md)
 - [ritter-routing.md](/C:/dev/strategy-codex/codex/speakers/ritter/ritter-routing.md)
+- [ritter-surface-orthogonality-2026-05.md](/C:/dev/strategy-codex/codex/speakers/ritter/ritter-surface-orthogonality-2026-05.md)
 - [expert-orthogonality-note.md](/C:/dev/strategy-codex/codex/speakers/expert-orthogonality-note.md)
 
 ## Two-strand helix
@@ -33,6 +34,18 @@ In the [authored pressure quartet](/C:/dev/strategy-codex/codex/speakers/authore
 
 - Forecast + warning ledger: [ritter-forecast-ledger-2026.md](/C:/dev/strategy-codex/codex/speakers/ritter/stream/ritter-forecast-ledger-2026.md)
 - Consolidation note: [ritter-lane-consolidation-2026-05.md](/C:/dev/strategy-codex/codex/speakers/ritter/stream/ritter-lane-consolidation-2026-05.md)
+
+## Compatibility shape
+
+This shelf already has a genuine canonical structure:
+
+- [ritter-helix.md](/C:/dev/strategy-codex/codex/speakers/ritter/ritter-helix.md) is the crossing surface
+- [stream/ritter-forecast-ledger-2026.md](stream/ritter-forecast-ledger-2026.md) carries the authored warning and forecast spine
+- [ritter-interview-appearances-2025-2026.md](/C:/dev/strategy-codex/codex/speakers/ritter/ritter-interview-appearances-2025-2026.md) carries the interview strand
+
+The older [stream/ritter-thread.md](stream/ritter-thread.md) file and the dated `ritter-thread-2026-*.md` files are therefore **legacy continuity compatibility surfaces**, not a canonical topical-thread system.
+
+Do not treat those thread-shaped files as proof of real thread orthogonality inside Ritter. The orthogonality-bearing structure lives in the helix and its source-separated authored/interview strands.
 
 ## Host lanes
 

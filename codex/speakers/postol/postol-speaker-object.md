@@ -33,9 +33,9 @@ Postol carries a distinct utility profile:
 
 Postol should currently be read as a **helix-first speaker object with three materially real host-local branches**:
 
-- [Davis x Postol](/C:/dev/strategy-codex/codex/years/2026/davis/davis-postol-speaker-arc.md)
-- [Diesen x Postol](/C:/dev/strategy-codex/codex/years/2026/diesen/diesen-postol-speaker-arc.md)
-- [Alkorshid x Postol](/C:/dev/strategy-codex/codex/years/2026/alkorshid/alkorshid-postol-speaker-arc.md)
+- [Davis x Postol](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-postol-speaker-arc.md)
+- [Diesen x Postol](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-postol-speaker-arc.md)
+- [Alkorshid x Postol](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-postol-speaker-arc.md)
 
 That means:
 
@@ -59,15 +59,15 @@ See [postol-cross-host-note.md](/C:/dev/strategy-codex/codex/speakers/postol/pos
 
 If the operator needs the clearest current host-local entry:
 
-- open [davis-postol-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/davis/davis-postol-speaker-arc.md)
+- open [davis-postol-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-postol-speaker-arc.md)
 
 If the operator needs the clearest strategic-order branch:
 
-- open [diesen-postol-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/diesen/diesen-postol-speaker-arc.md)
+- open [diesen-postol-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-postol-speaker-arc.md)
 
 If the operator needs the clearest live-pressure branch already on disk:
 
-- open [alkorshid-postol-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/alkorshid/alkorshid-postol-speaker-arc.md)
+- open [alkorshid-postol-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-postol-speaker-arc.md)
 
 If the operator needs the strongest current materialized raw-input file:
 

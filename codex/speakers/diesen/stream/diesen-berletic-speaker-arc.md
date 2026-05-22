@@ -4,6 +4,19 @@ WORK only; not Record.
 
 Purpose: compact reuse note for the `Diesen x Berletic` run inside the Diesen stream. This is not a substitute for the full raw-input shelf. It exists so future routing can quickly answer: what kind of Berletic lane Diesen elicits, which full-form episodes matter most, and why this is the clearest current Berletic branch on the shelf.
 
+## Orthogonality guide
+
+This file should be read as the **industrial-capacity and proxy-war-logistics** Berletic lane inside Diesen, not as a generic realism or technical-correction surface.
+
+Quick separation rule:
+
+- `Diesen x Berletic` = production base, force generation, proxy infrastructure, sanctions absorption, and long-run adversary capability
+- [diesen-jermy-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-jermy-speaker-arc.md) = maritime-order fallout and alliance-system consequence
+- [diesen-krainer-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-krainer-speaker-arc.md) = macro-financial and commodity-system consequence
+- [diesen-martyanov-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-martyanov-speaker-arc.md) = operational and technical military correction under direct force reality
+
+If the notebook needs the material base that sustains or constrains war over time, route here. If it needs maritime-systems, macro-finance, or operational technical correction, route to the neighboring arcs instead.
+
 ## Why this guest run matters
 
 Brian Berletic matters here less as a generic geopolitical commentator than as a recurring **industrial-capacity, proxy-war-logistics, and adversary-capability** voice inside a host stream otherwise centered on civilizational order, multipolar transition, and institutional sequence.
@@ -74,9 +87,16 @@ Typical pairings around the guest lane:
 - `jermy`
 - `mearsheimer`
 
+Distinct from:
+
+- [diesen-jermy-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-jermy-speaker-arc.md), which is stronger on maritime-order fracture and systemic fallout than on industrial force generation
+- [diesen-krainer-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-krainer-speaker-arc.md), which is stronger on debt, commodities, and macro-order consequence than on production/logistics structure
+- [diesen-martyanov-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-martyanov-speaker-arc.md), which is stronger on direct military-technical and operational correction than on throughput and proxy architecture
+
 ## Boundaries
 
 - Berletic is strongest here on industrial capacity, proxy-war logistics, and long-run material reality, not on bargaining-room diplomacy, legal architecture, or engineering micro-detail.
 - This arc is clearly real in the stream, but it is still not materially captured to canonical raw-input on disk.
 - The lane is real because the host-local shape repeats across many full-form Glenn Diesen episodes, not because every episode carries equal weight.
 - Prefer this guest run when the notebook needs the material base of war rather than only its tactical or rhetorical surface.
+- Do not let this branch silently absorb Jermy's maritime-order lane, Krainer's macro-financial lane, or Martyanov's operational-correction lane.

@@ -4,6 +4,19 @@ WORK only; not Record.
 
 Purpose: compact reuse note for the `Davis x Jermy` run inside the Davis stream. This is not a substitute for the full raw-input shelf. It exists so future routing can quickly answer: what kind of Jermy lane Davis elicits, which full-form episodes matter most, and why this is the primary Jermy branch.
 
+## Orthogonality guide
+
+This file should be read as the **closure-geometry and recovery-lag** Jermy branch, not as the whole Jermy object and not as the public-indictment or order-transition versions of him.
+
+Quick separation rule:
+
+- `Davis x Jermy` = blockade closure geometry, reopening operations, energy/food lag, and shipping-system consequence under feasibility pressure
+- [diesen-jermy-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-jermy-speaker-arc.md) = maritime-order fallout and alliance-system breakup at strategic altitude
+- [peacemonger-jermy-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/jermy/peacemonger-jermy-speaker-arc.md) = anti-hubris public indictment of failed strategy
+- [jermy-speaker-object.md](/C:/dev/strategy-codex/codex/speakers/jermy/jermy-speaker-object.md) = the higher-level triple-helix doctrine
+
+If the notebook needs to know how Hormuz closes, what reopening entails, and how maritime-system damage propagates under military feasibility pressure, route here. If it needs elite-hubris critique or Europe-order consequence, route to the neighboring branches instead.
+
 ## Why this guest run matters
 
 Steve Jermy matters here less as a generic naval commentator than as a recurring **maritime-closure, energy-system, and recovery-lag** voice inside a host stream otherwise centered on military feasibility, bargaining pressure, and escalation management.
@@ -76,8 +89,15 @@ Typical pairings around the guest lane:
 - `mearsheimer`
 - `armstrong`
 
+Distinct from:
+
+- [diesen-jermy-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-jermy-speaker-arc.md), which is less about reopening mechanics and more about alliance fracture and global-system fallout
+- [peacemonger-jermy-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/jermy/peacemonger-jermy-speaker-arc.md), which is less about closure geometry and more about public-facing strategy-failure critique
+- the legacy [jermy-thread.md](/C:/dev/strategy-codex/codex/speakers/jermy/jermy-thread.md), which is continuity residue rather than the canonical Jermy strand system
+
 ## Boundaries
 
 - Jermy is strongest here on maritime chokepoints, energy-system lag, and reopening timelines, not on factory throughput, legal process, or engineering micro-detail.
 - This arc is real because the host-local shape repeats densely across early 2026, not because every macro number in the shows should be treated as wire-grade fact.
 - Prefer this guest run when the notebook needs closure geometry and system knock-on, not when it needs primary diplomatic text or pure naval ORBAT.
+- Do not let this branch silently absorb the Peacemonger anti-hubris lane or the Diesen order-transition lane.

@@ -11,21 +11,33 @@ Purpose: front door for the canonical Diesen host shelf.
 - [diesen-cross-host-note.md](diesen-cross-host-note.md)
 - [diesen-host-wiring-2026.md](diesen-host-wiring-2026.md)
 - [diesen-raw-input-index.md](diesen-raw-input-index.md)
-- [stream/diesen-thread.md](stream/diesen-thread.md)
+- [stream/diesen-thread.md](stream/diesen-thread.md) - legacy host-continuity surface; not a canonical topical thread
+
+## Canonical Structure
+
+The orthogonality-bearing structure on this shelf is:
+
+- the host shelf front door in [README.md](README.md)
+- the distinct guest arcs under `stream/`
+- the raw-input route map in [diesen-raw-input-index.md](diesen-raw-input-index.md)
+
+The older [stream/diesen-thread.md](stream/diesen-thread.md) file is a legacy host-continuity compatibility surface, not a canonical topical-thread atlas.
 
 ## Stream Highlights
 
 - [stream/diesen-shelf-2026-04.md](stream/diesen-shelf-2026-04.md)
-- [stream/diesen-crooke-speaker-arc.md](stream/diesen-crooke-speaker-arc.md)
-- [stream/diesen-freeman-speaker-arc.md](stream/diesen-freeman-speaker-arc.md)
-- [stream/diesen-johnson-speaker-arc.md](stream/diesen-johnson-speaker-arc.md)
-- [stream/diesen-marandi-speaker-arc.md](stream/diesen-marandi-speaker-arc.md)
-- [stream/diesen-macgregor-speaker-arc.md](stream/diesen-macgregor-speaker-arc.md)
-- [stream/diesen-mearsheimer-speaker-arc.md](stream/diesen-mearsheimer-speaker-arc.md)
-- [stream/diesen-mercouris-speaker-arc.md](stream/diesen-mercouris-speaker-arc.md)
-- [stream/diesen-ritter-speaker-arc.md](stream/diesen-ritter-speaker-arc.md)
-- [stream/diesen-wilkerson-speaker-arc.md](stream/diesen-wilkerson-speaker-arc.md)
+- [stream/diesen-crooke-speaker-arc.md](stream/diesen-crooke-speaker-arc.md) - embodied relational arc in legacy compatibility spelling
+- [stream/diesen-freeman-speaker-arc.md](stream/diesen-freeman-speaker-arc.md) - embodied relational arc in legacy compatibility spelling
+- [stream/diesen-johnson-speaker-arc.md](stream/diesen-johnson-speaker-arc.md) - embodied relational arc in legacy compatibility spelling
+- [stream/diesen-marandi-speaker-arc.md](stream/diesen-marandi-speaker-arc.md) - embodied relational arc in legacy compatibility spelling
+- [stream/diesen-macgregor-speaker-arc.md](stream/diesen-macgregor-speaker-arc.md) - embodied relational arc in legacy compatibility spelling
+- [stream/diesen-mearsheimer-speaker-arc.md](stream/diesen-mearsheimer-speaker-arc.md) - embodied relational arc in legacy compatibility spelling
+- [stream/diesen-mercouris-speaker-arc.md](stream/diesen-mercouris-speaker-arc.md) - embodied relational arc in legacy compatibility spelling
+- [stream/diesen-ritter-speaker-arc.md](stream/diesen-ritter-speaker-arc.md) - embodied relational arc in legacy compatibility spelling
+- [stream/diesen-wilkerson-speaker-arc.md](stream/diesen-wilkerson-speaker-arc.md) - embodied relational arc in legacy compatibility spelling
 
 ## Boundary
 
 Diesen is canonical under `codex/speakers/diesen/`. Raw-text authority stays in [`codex/years/2026/raw-input/`](C:/dev/strategy-codex/codex/years/2026/raw-input).
+
+Do not read the older `*-speaker-arc.md` filenames as a different arc category from the newer `<host>-<speaker>-arc.md` grammar. In this shelf they are the current embodied guest arcs until a later normalization pass changes the spellings.

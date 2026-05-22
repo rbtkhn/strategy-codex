@@ -4,6 +4,8 @@ WORK only; not Record.
 
 Purpose: make the Diesen host stream navigable as a host-native object. Crooke and Ritter wiring asks how an expert voice persists across hosts. This note asks what Diesen reliably elicits from different expert voices inside his own stream.
 
+Compatibility note: the guest matrix below points mostly to embodied relational arcs still spelled `diesen-*-speaker-arc.md`. In the current repo doctrine, those should be read as compatibility spellings of canonical relational arcs, not as a separate second arc class. Where both spellings exist, prefer the `*-arc.md` file.
+
 ## Host Thesis
 
 Diesen is the notebook's clearest host for **civilizational order, multipolar transition, institutional sequence, and geopolitical legitimacy**. He tends to pull guests upward from event detail into world-order consequence, alliance fracture, imperial decline, and the post-unipolar transition.
@@ -19,7 +21,7 @@ Diesen is the notebook's clearest host for **civilizational order, multipolar tr
 
 | guest | what Diesen elicits | arc | when to open |
 |---|---|---|---|
-| Baud | European security, law-of-war, and strategic-rationality context. | [arc](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-baud-speaker-arc.md) | Open for NATO/Europe legitimacy, law-of-war, and cross-year correction. |
+| Baud | European security, law-of-war, and strategic-rationality context. | [arc](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-baud-arc.md) | Open for NATO/Europe legitimacy, law-of-war, and cross-year correction. |
 | Beebe | Escalation-management, bargaining geometry, and retrenchment-order realism. | [arc](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-beebe-speaker-arc.md) | Open when the task needs intelligence-statecraft under multipolar pressure. |
 | Berletic | Industrial capacity, proxy-war logistics, and adversary-capability analysis. | [arc](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-berletic-speaker-arc.md) | Open for capacity, logistics, manufacturing, and proxy-war sustainment. |
 | Crooke | Civilizational-statecraft and order-transition interpretation. | [arc](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-crooke-speaker-arc.md) | Open when Crooke needs the widest world-order and civilizational frame. |

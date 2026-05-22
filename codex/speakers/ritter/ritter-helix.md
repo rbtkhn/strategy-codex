@@ -47,6 +47,16 @@ Reading rule: open the authored row first when the question is "what is Ritter's
 | [davis x ritter](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-ritter-speaker-arc.md) | Operational feasibility | Stockpiles, skies, basing pressure, blockade impracticality, and what the U.S. military can no longer realistically impose |
 | [alkorshid x ritter](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-ritter-speaker-arc.md) | Live war pressure | Rapid escalation, Hormuz vulnerability, loss-of-control claims, and immediate crisis-motion under maximum event stress |
 
+## Orthogonality guide
+
+Quick separation rule:
+
+- `Diesen x Ritter` is where Ritter's war-mechanics voice becomes escalation-horizon and wider strategic-consequence reading.
+- `Davis x Ritter` is where the same voice becomes operational feasibility and material-limit diagnosis.
+- `Alkhorshid x Ritter` is where the same voice becomes immediate crisis motion and maximum live-war pressure.
+
+Do not use `Diesen` as a shortcut for force-feasibility diagnosis, `Davis` as a shortcut for live crisis tempo, or `Alkhorshid` as a shortcut for cross-theater escalation horizon. The helix is only additive when those roles remain separate.
+
 ## Open first
 
 If the operator needs the cleanest single introduction to the helix:
@@ -75,6 +85,7 @@ Use this helix note when the notebook is doing one or more of the following:
 - Prefer the host-local arc or raw-input shelf when the task is stream-specific; use the helix when the task is comparative.
 - The three strands are complementary, not redundant. Do not flatten them into one undifferentiated Ritter shelf.
 - Ritter's cognition-stream richness belongs inside the Ritter speaker object as a property of cadence, materialization, and presence; it is not a separate shadow object beside the helix.
+- If the question is mainly about authored warnings, route through [ritter-forecast-ledger-2026.md](/C:/dev/strategy-codex/codex/speakers/ritter/stream/ritter-forecast-ledger-2026.md) before using the helix as a host-pressure comparison surface.
 
 ## Phase note
 

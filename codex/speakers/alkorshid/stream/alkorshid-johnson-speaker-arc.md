@@ -59,6 +59,17 @@ That pair gives the clearest lane shape:
 - humiliation of coercive displays
 - a guest voice translating live crisis motion into immediate strategic collapse language
 
+## Orthogonality guide
+
+Quick separation rule:
+
+- `Alkorshid x Johnson` is the live crisis-pressure and immediate-escalation lane.
+- `Davis x Johnson` is the operational-feasibility and coercive-failure lane.
+- `Diesen x Johnson` is the geopolitical-altitude and regional-order-consequence lane.
+- `Napolitano x Johnson` is the process-pressure and constitutional-absurdity lane.
+
+Do not use this arc as a shortcut for calmer feasibility testing, wider order consequence, or institutional-process critique. Its distinctive job is to translate rapid event motion into immediate strategic unraveling and collapsing control.
+
 ## Routing use
 
 Use this speaker arc when a Dialogue Works ingest or batch pass is doing one or more of the following:
@@ -76,6 +87,8 @@ Typical pairings around the guest lane:
 - `freeman`
 
 ## Boundaries
+
+- If the question is mainly about what military pressure can still achieve rather than how fast the crisis is worsening in real time, route outward to [davis-johnson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-johnson-speaker-arc.md).
 
 - Johnson is strongest here on immediate crisis interpretation and pressure, not on balanced sequencing or measured feasibility analysis.
 - Prefer this lane when the notebook needs the sharpest present-tense Johnson register; prefer the Diesen lane for altitude and the Davis lane for practicality.

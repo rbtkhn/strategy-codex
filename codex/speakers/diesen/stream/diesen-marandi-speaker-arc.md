@@ -59,6 +59,16 @@ That pair gives the clearest mature lane shape:
 - retaliation ladders and blockade consequence
 - Iranian resolve translated into wider order language
 
+## Orthogonality guide
+
+Quick separation rule:
+
+- `Diesen x Marandi` is the strategic-order and escalation-horizon lane.
+- `Davis x Marandi` is the operational-limit and failed-intimidation lane.
+- `Dialogue Works x Marandi` is the live crisis-pressure and regional-signaling lane.
+
+Do not use this arc as a shortcut for force-feasibility triage or regime-adjacent live-pressure signaling. Its distinctive job is to translate Iranian retaliation logic and Hormuz pressure into wider order-transition consequence.
+
 ## Routing use
 
 Use this speaker arc when a Diesen ingest or batch pass is doing one or more of the following:
@@ -77,6 +87,8 @@ Typical pairings around the guest lane:
 - `freeman`
 
 ## Boundaries
+
+- If the question is mainly about what intimidation can no longer practically achieve rather than how escalation propagates through the wider system, route outward to [davis-marandi-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-marandi-speaker-arc.md).
 
 - Marandi is strongest here on red lines, retaliation logic, and strategic consequence, not on neutral tactical verification.
 - This is now a real on-disk 2026 lane, but it remains distinct from the more operational Davis-side Marandi and the more pressurized Dialogue Works Marandi.

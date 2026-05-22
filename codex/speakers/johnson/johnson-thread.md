@@ -3,6 +3,19 @@
 
 WORK only; not Record.
 
+## Orthogonality guide
+
+Read this file as a **legacy continuity checkpoint**, not as a thread that competes with the current Johnson helix structure.
+
+Quick separation rule:
+
+- this file = backward-compatible continuity and journal carryover
+- the compatibility note below = names the actual orthogonality-bearing Johnson surfaces
+
+If a question is about host transformation, comparison use, or canonical routing, route to those named surfaces instead of widening this file.
+
+Compatibility note: this file is a legacy continuity surface from the older expert-thread machinery. In the current Johnson shelf, the canonical orthogonality-bearing structure is [johnson-helix.md](johnson-helix.md) plus the distinct host-local arcs it compares, not this file.
+
 **Source:** Distilled from [`strategy-expert-johnson-transcript.md`](strategy-expert-johnson-transcript.md) (what the expert said recently) and relevant pages (where that material was used in strategy work).
 **Process:** `python3 scripts/strategy_thread.py` triages inbox Ã¢â€ â€™ transcript, then fills **only** the **machine layer** between the **strategy-expert-thread** HTML start and end comments. Operator / assistant maintains the **journal layer** above the start marker in **readable prose** (optional **ledger** after the end marker).
 **Updated:** Narrative Ã¢â‚¬â€ when you distill; **machine layer** Ã¢â‚¬â€ when you run **`thread`**.

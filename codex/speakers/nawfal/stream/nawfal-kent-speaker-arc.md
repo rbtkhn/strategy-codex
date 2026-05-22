@@ -37,6 +37,17 @@ Second-best paired read: [Diesen x Kent](/C:/dev/strategy-codex/codex/speakers/d
 
 Why: Diesen supplies the structural-order version of the same institutional-capture problem.
 
+## Orthogonality guide
+
+Quick separation rule:
+
+- `Nawfal x Kent` is the political-pressure and legitimacy-strain lane.
+- `Davis x Kent` is the operational exit and force-feasibility lane.
+- `Diesen x Kent` is the structural-history and order-transition lane.
+- `Carlson x Kent` is the testimony and inside-decision-environment lane.
+
+Do not use this arc as a shortcut for walkaway feasibility, war-on-terror genealogy, or inside-decision testimony. Its distinctive job is to translate Iran-war failure into Trump pressure, morale strain, and domestic trust breakdown.
+
 ## Routing use
 
 Use `Nawfal x Kent` when the notebook needs:
@@ -51,3 +62,4 @@ Use `Nawfal x Kent` when the notebook needs:
 - This is a single-appearance arc, not an active host shelf.
 - Treat assassination/security-pressure material as commentary and hypothesis unless independently verified.
 - Do not use this arc to flatten Kent into a generic conspiracy voice; its value is the tension between proximity, speculation, and institutional critique.
+- If the question is mainly about military-political end state or Hormuz exit logic, route outward to [davis-kent-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-kent-speaker-arc.md) instead of overloading this political-pressure lane.

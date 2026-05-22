@@ -81,6 +81,16 @@ That pair gives the clearest combination of:
 - imperial decline and strategic self-harm
 - BRICS / de-dollarization pressure as war consequence
 
+## Orthogonality guide
+
+Quick separation rule:
+
+- `Diesen x Wilkerson` is the imperial-decline altitude and order-consequence lane.
+- `Dialogue Works x Wilkerson` is the live crisis-pressure and military-statecraft warning lane.
+- `Napolitano x Wilkerson` is the anti-war constitutional edge and legitimacy-warning lane.
+
+Do not use this arc as a shortcut for immediate crisis-temperature warning or Napolitano's constitutional anti-war emphasis. Its distinctive job is to translate Iran-war escalation into imperial legitimacy collapse, BRICS consequence, and strategic self-harm at altitude.
+
 ## Routing use
 
 Use this speaker arc when a Diesen ingest or batch pass is doing one or more of the following:
@@ -98,6 +108,8 @@ Typical pairings around the guest lane:
 - `johnson`
 
 ## Boundaries
+
+- If the question is mainly about blockade impossibility, point-of-no-return language, or acute elite incompetence under live pressure rather than wider imperial consequence, route outward to [alkorshid-wilkerson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-wilkerson-speaker-arc.md).
 
 - Wilkerson is strongest here on imperial consequence, legitimacy collapse, and strategic self-harm, not on technical strike verification or exact fleet arithmetic.
 - The materialized shelf is real but still partial relative to the fresh stream search; absence from canonical raw-input should not be mistaken for absence from the lane.

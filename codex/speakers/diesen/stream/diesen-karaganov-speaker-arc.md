@@ -4,6 +4,20 @@ WORK only; not Record.
 
 Purpose: compact reuse note for the `Diesen × Karaganov` run inside the Diesen stream. This is not a substitute for the raw-input files. It exists so future routing can quickly answer: which Karaganov guest episodes matter most inside this stream, what kind of lane this is, and which file to open first.
 
+## Orthogonality guide
+
+This file should be read as the **Russian elite deterrence-and-civilizational doctrine** lane inside Diesen, not as a generic world-order speculation surface.
+
+Quick separation rule:
+
+- `Diesen x Karaganov` = Russian elite deterrence doctrine, nuclear-threshold argument, Greater Eurasia, and post-West identity vocabulary
+- [diesen-jiang-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-jiang-speaker-arc.md) = speculative empire-maintenance and game-theoretic world-order framing
+- [diesen-matlock-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-matlock-speaker-arc.md) = diplomatic memory of negotiated settlement and anti-expansion warning lineage
+- [diesen-beebe-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-beebe-speaker-arc.md) = retrenchment and settlement geometry from a U.S. intelligence-statecraft angle
+- [diesen-krainer-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-krainer-speaker-arc.md) = macro-financial and commodity-system consequences
+
+If the notebook needs internal Russian elite strategic vocabulary, route here. If it needs speculative empire theory, diplomatic memory, settlement design, or macro-financial translation, route to the neighboring arcs instead.
+
 ## Why this guest run matters
 
 Sergey Karaganov matters here less as a generic Russia commentator than as a Russian elite strategic and civilizational voice for:
@@ -62,8 +76,16 @@ Typical pairings around the guest lane:
 - `mercouris`
 - `crooke`
 
+Distinct from:
+
+- [diesen-jiang-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-jiang-speaker-arc.md), which is more free-ranging and speculative than Karaganov's elite doctrinal lane
+- [diesen-matlock-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-matlock-speaker-arc.md), which is grounded in U.S. diplomatic memory rather than Russian strategic doctrine
+- [diesen-beebe-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-beebe-speaker-arc.md), which is stronger on bargaining architecture than on deterrence-threshold argument
+- [diesen-krainer-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-krainer-speaker-arc.md), which is stronger on macro-order economics than on nuclear-threshold and identity language
+
 ## Boundaries
 
 - Karaganov is especially valuable as a carrier of elite Russian strategic and civilizational vocabulary, not as a neutral documentary source.
 - This guest run is strongest on doctrine, identity, and strategic imagination, not on narrow battlefield detail.
 - The underlying files are operator-pasted or operator-shaped transcript captures, not a uniform external corpus with one transcript-processing method.
+- Do not let this branch silently absorb Jiang's speculation lane, Matlock's diplomatic-memory lane, Beebe's bargaining lane, or Krainer's macro-financial lane.

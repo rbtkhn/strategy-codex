@@ -33,8 +33,8 @@ McGovern carries a distinct utility profile:
 
 McGovern should currently be read as a **double-helix speaker object**:
 
-- [Diesen x McGovern](/C:/dev/strategy-codex/codex/years/2026/diesen/diesen-mcgovern-speaker-arc.md)
-- [Alkorshid x McGovern](/C:/dev/strategy-codex/codex/years/2026/alkorshid/alkorshid-mcgovern-speaker-arc.md)
+- [Diesen x McGovern](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-mcgovern-speaker-arc.md)
+- [Alkorshid x McGovern](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-mcgovern-speaker-arc.md)
 
 That means:
 
@@ -55,11 +55,11 @@ See [mcgovern-cross-host-note.md](/C:/dev/strategy-codex/codex/speakers/mcgovern
 
 If the operator needs the clearest current strategic branch:
 
-- open [diesen-mcgovern-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/diesen/diesen-mcgovern-speaker-arc.md)
+- open [diesen-mcgovern-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-mcgovern-speaker-arc.md)
 
 If the operator needs the clearest current live-pressure branch:
 
-- open [alkorshid-mcgovern-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/alkorshid/alkorshid-mcgovern-speaker-arc.md)
+- open [alkorshid-mcgovern-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-mcgovern-speaker-arc.md)
 
 If the operator needs the strongest current Diesen anchor:
 

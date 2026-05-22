@@ -8,6 +8,21 @@ Model note: this file is a **thread atlas**, not a host-local arc by itself. It 
 
 Boundary: December 2025 Freeman anchors are split across quality tiers. Diesen 2025-12-04, Dialogue Works 2025-12-05, Judging Freedom 2025-12-09, Dialogue Works 2025-12-12, Neutrality Studies 2025-12-15, Judging Freedom 2025-12-16, Diesen 2025-12-18, and Dialogue Works 2025-12-19 are captured raw-input. Additional December Freeman items were found by stream check but remain unmaterialized unless listed as captured below.
 
+## Orthogonality guide
+
+These arc-threads should be read as **distinct recurring strands inside one Freeman run**, not as six stylistic variations of the same anti-hegemonic thesis.
+
+Quick separation rule:
+
+- `law gives way to raw power` = legality, piracy, sovereignty breach, and the collapse of binding constraint
+- `diplomacy becomes performance` = negotiation theater, envoys without authority, and fake settlement process
+- `Israel captures U.S. strategy` = alliance subordination and U.S. policy serving Israeli war aims
+- `Iran turns from target into system lever` = endurance, missiles, Hormuz, and bargaining leverage
+- `U.S. domestic decay and strategic decay merge` = constitutional disorder at home feeding strategic incoherence abroad
+- `China becomes the quiet beneficiary` = geopolitical gain through U.S. self-depletion rather than direct intervention
+
+If a new Freeman item could sit in several of these without changing how the operator would use it, prefer the narrower parent strand or keep it at page level instead of broadening the atlas.
+
 ## Spine
 
 `december warning -> sovereignty breach -> fake diplomacy -> Israeli capture -> Iran leverage -> U.S. self-damage -> China's quiet gain`
@@ -54,6 +69,11 @@ Anchors:
 
 Arc-thread motion: December opens with hegemony under stress, fictional peace ceremonies, piracy/theft language around Venezuela, Caribbean naval seizures, and force substituting for legitimacy; Dec. 16 adds frozen-asset theft and consensus-based rules versus hegemonic rules; January frames the sovereignty breach as a watershed; March translates that into just-war and legitimacy collapse; April adds piracy, blockade, and ambassadorial clientitis; May moves the same question to maritime order and Hormuz.
 
+Distinct from:
+
+- `Diplomacy becomes performance`, which is about fake negotiation process rather than the collapse of legal constraint itself
+- `U.S. domestic decay and strategic decay merge`, which is about constitutional and executive disorder rather than the law-versus-force question as such
+
 Boundary: The arc-thread is an operator synthesis over captured appearances. Use the linked raw-input for load-bearing quotations or claims.
 
 ## 2. Diplomacy Becomes Performance
@@ -74,6 +94,11 @@ Anchors:
 
 Arc-thread motion: December already treats peace plans and ceasefires as nominal forms that fail when the underlying strategy remains coercive; the Dec. 9 Napolitano file sharpens the distinction between ceasefires that paper over war and peace that creates durable security; the Dec. 12 Dialogue Works bridge adds the no-policy-process / amateur-statecraft layer; Dec. 15 extends it through the State Department/diplomatic-service collapse and "political theater" critique; February's negotiation-brink frame becomes March's diplomacy-dead line; April hardens it into Islamabad as performative diplomacy, the door-vs-padlock Hormuz vocabulary, and the claim that the United States no longer knows how to negotiate a credible end state.
 
+Distinct from:
+
+- `Law gives way to raw power`, which is about broken legality rather than diplomacy as staged performance
+- `Israel captures U.S. strategy`, which is about alliance subordination rather than the negotiation theater that surrounds it
+
 Boundary: March 10 and March 31 Judging Freedom items remain routing memory in the March arc unless separately materialized; this synthesis does not treat them as hard raw-input anchors.
 
 ## 3. Israel Captures U.S. Strategy
@@ -91,6 +116,11 @@ Anchors:
 - 2026-05-01 - Dialogue Works, *Israel's Grand Plan Collapsed in Record Time*: [raw-input](../../../years/2026/raw-input/2026-05-01/transcript-dialogue-works-amb-chas-freeman-israel-s-grand-plan-collapsed-in-record-time-2026-05-01.md)
 
 Arc-thread motion: December starts with Israel's strategy as permanent coercion and expansion without coexistence; Dec. 19 adds the Parsi/Freeman two-voice turn in which Gulf Arabs and Iran begin to see Israel as the harder-to-manage regional threat while Netanyahu may seek another Iran phase to avoid ending with mutual deterrence; February sets the alliance-driven war-extension frame; March and April show Netanyahu's agenda becoming the U.S. operating frame; May recasts that as Israeli grand-strategy failure rather than American victory.
+
+Distinct from:
+
+- `Diplomacy becomes performance`, which is about fake process and envoys without authority rather than Israeli capture of U.S. strategy
+- `Iran turns from target into system lever`, which is about Iran's leverage position rather than why U.S. policy was bent toward Israeli aims in the first place
 
 Boundary: This is a Freeman-position synthesis, not an independent factual finding about Israeli intent. Use the cited transcripts when quoting or testing the claim.
 
@@ -110,6 +140,11 @@ Anchors:
 - 2026-05-08 - Dialogue Works, *Hormuz, Ceasefire, Gulf States, and China's Role*: [raw-input](../../../years/2026/raw-input/2026-05-08/transcript-alkorshid-freeman-hormuz-ceasefire-gulf-states-china-2026-05-08.md)
 
 Arc-thread motion: December links coercion, navigation, and hegemonic decline; Dec. 15 supplies the law-of-sea/shipping-warfare bridge from Caribbean seizure and "shadow fleet" attacks into Dec. 18's freedom-of-navigation breakdown, where the problem becomes global rule collapse across the Caribbean, Black Sea, Red Sea, South China Sea, Baltic, Arctic, fishing, and seabed mining; Dec. 19 ties the same maritime-energy logic back to Iran, Venezuela, Hormuz, and the Arab-Iran balance against Israel; the January-February warning that Iran can respond becomes the April claim that the United States has lost control of the strait, then the May claim that Hormuz has turned Iran into a system-level bargaining power.
+
+Distinct from:
+
+- `China becomes the quiet beneficiary`, which is about who gains from U.S. self-depletion rather than Iran's leverage as such
+- `Israel captures U.S. strategy`, which is about alliance domination rather than Iran becoming the bargaining center of the crisis
 
 Boundary: Quantitative claims about oil, shipping throughput, mines, or naval condition should be verified against primary or specialist sources before reuse.
 
@@ -132,6 +167,11 @@ Anchors:
 
 Arc-thread motion: December supplies the hegemony-decay prelude: declining legitimacy, executive indulgence, illegal-order anxiety, no policy process, political theater replacing strategic reasoning, and force replacing consent. Dec. 16 makes the hegemony frame explicit: the United States has not renounced hegemony so much as changed targets from transatlantic management toward open Western Hemisphere dominance. Dec. 19 adds the bank-reserves/BlackRock/amateur-diplomacy layer and treats European Ukraine financing as denial rather than strategy. February treats war extension as a domestic constitutional problem; March names republic-level damage; April ties that to executive irrationality, Vance/Netanyahu process failure, and nuclear-command anxiety; May folds it into visible defeat management.
 
+Distinct from:
+
+- `Law gives way to raw power`, which is about external legality and sovereignty breach rather than internal constitutional and executive decay
+- `China becomes the quiet beneficiary`, which is about geopolitical payoff rather than U.S. domestic-system breakdown itself
+
 Boundary: Claims about individual cognition, health, or scandal exposure should stay attributed to Freeman/Napolitano discourse unless independently sourced.
 
 ## 6. China Becomes The Quiet Beneficiary
@@ -152,6 +192,11 @@ Anchors:
 - 2026-05-16 - Neutrality Studies, *Power Moves East: China Teaches USA a Big Lesson*: [raw-input](../../../years/2026/raw-input/2026-05-16/youtube-neutrality-studies-power-moves-east-china-teaches-usa-a-big-lesson-chas-freeman-2026-05-16.md)
 
 Arc-thread motion: December directly names ceding the future to China, introduces the multinodal frame, links Monroe Doctrine revival to Latin American China drift, treats Europe as absent from the science/technology lead table, and ties maritime disorder to hegemonic decline; Dec. 15 adds the Japan-Taiwan-China ambiguity break as a Pacific security counterpart to the Caribbean maritime breakdown; Dec. 18 then states the missing-rulemaker problem directly: the United States no longer leads, China does not want the burdens, Europe cannot lead, and neither BRICS nor SCO has yet supplied a rulemaking substitute. January introduces China as a sovereignty-order reader; March shows China watching U.S. overextension and the Iran-Russia-China alignment; May makes the payoff explicit as Gulf actors, energy flows, and postwar influence move east.
+
+Distinct from:
+
+- `Iran turns from target into system lever`, which is about Iran's direct leverage role rather than the larger beneficiary of the shift
+- `U.S. domestic decay and strategic decay merge`, which is about the American failure mechanism rather than who quietly gains from it
 
 Boundary: Treat "beneficiary" as strategic-position analysis, not a claim that China controls events or has assumed alliance obligations.
 

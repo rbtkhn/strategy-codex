@@ -48,6 +48,17 @@ Second-best paired read: [Kent helix](/C:/dev/strategy-codex/codex/speakers/kent
 
 Why: the helix explains how Davis differs from Diesen, Nawfal, and Barnes quote-surface reinforcement.
 
+## Orthogonality guide
+
+Quick separation rule:
+
+- `Davis x Kent` is the operational exit and force-feasibility lane.
+- `Carlson x Kent` is the testimony and inside-decision-environment lane.
+- `Diesen x Kent` is the structural-history and order-transition lane.
+- `Nawfal x Kent` is the political-pressure and legitimacy-strain lane.
+
+Do not use this arc as a shortcut for Kent's witness testimony, war-on-terror genealogy, or Trump-pressure psychology. Its distinctive job is to test whether any walkaway, negotiation, or military-political end state is still feasible once coercion has failed.
+
 ## Routing use
 
 Use `Davis x Kent` when the notebook needs:
@@ -65,3 +76,5 @@ Do not overuse this arc as:
 - a replacement for raw-input provenance
 - proof that every Kent claim is verified beyond transcript-grade commentary
 - a reason to treat Kent as a technical military verifier in the Postol sense
+
+If the question is mainly about what Kent says happened inside the administration rather than whether the war can be exited, route outward to [carlson-kent-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/carlson/stream/carlson-kent-speaker-arc.md).

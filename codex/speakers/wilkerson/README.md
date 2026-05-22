@@ -9,11 +9,23 @@ Open here first when the question is not merely "what did Wilkerson say," but **
 ## Start here
 
 - [wilkerson-routing.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-routing.md)
+- [wilkerson-surface-orthogonality-2026-05.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-surface-orthogonality-2026-05.md)
 
 ## Structural notes
 
 - [wilkerson-helix.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-helix.md)
 - [wilkerson-cross-year-note.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-cross-year-note.md)
+
+## Compatibility shape
+
+This shelf already has a genuine canonical structure:
+
+- [wilkerson-helix.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-helix.md) is the crossing surface
+- the two main host-local arcs carry the stable canonical host transformations
+- the Napolitano branch is real auxiliary reinforcement without becoming a third equal strand
+- [wilkerson-cross-year-note.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-cross-year-note.md) preserves the longitudinal maturity claim
+
+The shelf is therefore a **durable double helix rather than profile-first**. Do not reduce Wilkerson to any one host lane when the question is really about how the same voice changes across hosts, but do not overread the auxiliary Napolitano branch as proof of a stable triple helix.
 
 ## Host lanes
 

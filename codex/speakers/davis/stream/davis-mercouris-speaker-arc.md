@@ -6,6 +6,19 @@ Purpose: compact reuse note for the `Davis x Mercouris` run inside the Daniel Da
 
 Model note: this file is a host-local branch inside the wider Mercouris system. `mercouris-arc` remains the stream-native bounded helix with multiple `mercouris-arc-threads`; the Davis branch braids the military-practical and restraint-policy strands most strongly.
 
+## Orthogonality guide
+
+This file should be read as the **Davis-pressure branch** of Mercouris, not as a substitute for Mercouris's native stream or his thread atlas.
+
+Quick separation rule:
+
+- `Davis x Mercouris` = force-feasibility pressure on Mercouris's diplomatic and institutional read
+- [mercouris-arc.md](/C:/dev/strategy-codex/codex/speakers/mercouris/stream/mercouris-arc.md) = native bounded arc shape
+- [mercouris-arc-threads.md](/C:/dev/strategy-codex/codex/speakers/mercouris/stream/mercouris-arc-threads.md) = canonical recurring-strand atlas
+- [diesen-mercouris-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-mercouris-speaker-arc.md) = legitimacy-order-transition branch at higher European-system altitude
+
+If a Mercouris item matters mainly because Davis is testing whether Western policy can actually be executed, routed, supplied, or sustained, it belongs here. If the item matters mainly because it advances a native Mercouris strand regardless of host pressure, prefer the native arc or thread atlas.
+
 ## Why this guest run matters
 
 Alexander Mercouris matters here as a diplomatic-sequencing and institutional-politics voice paired with Davis's force-feasibility frame. The lane is useful when the notebook needs continuity between:
@@ -110,9 +123,16 @@ Typical pairings around the guest lane:
 - `johnson`
 - `freeman`
 
+Distinct from:
+
+- the native [mercouris-arc.md](/C:/dev/strategy-codex/codex/speakers/mercouris/stream/mercouris-arc.md), which carries the main stream continuity
+- [mercouris-arc-threads.md](/C:/dev/strategy-codex/codex/speakers/mercouris/stream/mercouris-arc-threads.md), which separates the recurring strands inside that native continuity
+- [diesen-mercouris-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-mercouris-speaker-arc.md), which is less about feasibility pressure and more about European legitimacy and order transition
+
 ## Boundaries
 
 - This arc is under-materialized locally relative to the public stream; absence from raw-input is not absence from the Davis stream.
 - Do not treat podcast-confirmed items as transcript-bearing until captured.
 - Do not treat Davis as merely a host wrapper; his force-feasibility questions are part of why this branch matters.
 - Prefer this arc when the notebook needs a Davis-hosted feasibility check on Mercouris's institutional / diplomatic sequencing, not when it needs day-by-day Mercouris monologue continuity.
+- Do not let this branch silently absorb the native Mercouris arc or the separate Diesen branch.

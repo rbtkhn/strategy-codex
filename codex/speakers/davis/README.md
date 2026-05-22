@@ -17,6 +17,15 @@ Open here when the question is not merely which Davis episode to read, but how D
 - Stream shelf: [stream/](stream/)
 - Davis x Mercouris host-local branch: [stream/davis-mercouris-speaker-arc.md](stream/davis-mercouris-speaker-arc.md)
 
+## Compatibility shape
+
+This shelf is already stream-native and strong, but its live host-continuity files still use older compatibility spellings:
+
+- [stream/davis-thread.md](stream/davis-thread.md) is a legacy distilled continuity surface, not a canonical topical thread in the newer `speaker-thread-<topic>` sense
+- the guest-run files under `stream/` currently live mostly as `davis-*-speaker-arc.md`, which should be read as the embodied relational arcs for this host shelf, not as a separate second arc class
+
+Until a later normalization pass creates canonical `*-arc.md` spellings here, do not count the older filenames as extra arc multiplicity or extra orthogonality.
+
 ## Boundary
 
 Davis is `object_shape: stream-native`. The main body remains the 2026 Davis stream; this speaker folder is the higher-order orientation surface.

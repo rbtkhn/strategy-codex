@@ -4,6 +4,19 @@ WORK only; not Record.
 
 Purpose: compact reuse note for the `Diesen x Jermy` run inside the Diesen stream. This is not a substitute for the full raw-input shelf. It exists so future routing can quickly answer: what kind of Jermy lane Diesen elicits, which full-form episodes matter most, and how this branch differs from the denser Davis lane.
 
+## Orthogonality guide
+
+This file should be read as the **maritime-order and alliance-fracture** Jermy branch, not as the closure-geometry Davis branch and not as the public anti-hubris Peacemonger branch.
+
+Quick separation rule:
+
+- `Diesen x Jermy` = maritime-order fallout, NATO/U.S.-EU divorce, Europe-system breakdown, and geopolitical consequence
+- [davis-jermy-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-jermy-speaker-arc.md) = blockade mechanics, reopening lag, and shipping/energy propagation under feasibility pressure
+- [peacemonger-jermy-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/jermy/peacemonger-jermy-speaker-arc.md) = hubris, hypocrisy, and public indictment of failed strategy
+- [jermy-speaker-object.md](/C:/dev/strategy-codex/codex/speakers/jermy/jermy-speaker-object.md) = the higher-level triple-helix doctrine
+
+If the notebook needs Jermy to widen maritime stress into civilizational, European, and alliance-system consequence, route here. If it needs operational closure logic or a sharper anti-elite indictment register, route to Davis or Peacemonger instead.
+
 ## Why this guest run matters
 
 Steve Jermy matters here less as a generic navy voice than as a recurring **strategic-systemic, maritime-order, and Europe-breakdown** voice inside a host stream otherwise centered on civilizational order, multipolar transition, and institutional consequence.
@@ -68,8 +81,15 @@ Typical pairings around the guest lane:
 - `krainer`
 - `crooke`
 
+Distinct from:
+
+- [davis-jermy-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-jermy-speaker-arc.md), which is stronger on closure geometry, reopening timelines, and immediate system knock-on
+- [peacemonger-jermy-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/jermy/peacemonger-jermy-speaker-arc.md), which is stronger on public anti-hubris indictment than on order-transition consequence
+- the legacy [jermy-thread.md](/C:/dev/strategy-codex/codex/speakers/jermy/jermy-thread.md), which is compatibility continuity rather than a competing canonical arc strand
+
 ## Boundaries
 
 - Jermy is strongest here on strategic-systemic and alliance fallout, not on the detailed reopening geometry that dominates the Davis lane.
 - This branch is clearly real, but less dense than `Davis x Jermy`.
 - Prefer this guest run when the notebook needs maritime consequence widened into Europe-order or NATO-fracture language.
+- Do not let this branch silently absorb the Davis closure-geometry lane or the Peacemonger anti-hubris lane.

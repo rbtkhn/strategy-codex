@@ -11,6 +11,16 @@ Open here when the question is not simply "which Diesen episode contains Matlock
 - [matlock-speaker-object.md](/C:/dev/strategy-codex/codex/speakers/matlock/matlock-speaker-object.md)
 - Diesen host arc: [diesen-matlock-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-matlock-speaker-arc.md)
 
+## Compatibility shape
+
+This shelf already has a real canonical structure:
+
+- [matlock-speaker-object.md](/C:/dev/strategy-codex/codex/speakers/matlock/matlock-speaker-object.md) defines the object
+- [diesen-matlock-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-matlock-speaker-arc.md) is the mature host-local branch
+- the direct appearance set below preserves the anchored source spine
+
+Matlock is therefore best read as a **single-helix, Diesen-anchored diplomatic-memory object**, not as a generic profile stub and not as a mature multi-host helix.
+
 ## Direct appearance set
 
 - [2026-04-19 Diesen x Matlock](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-19/transcript-diesen-matlock-how-nato-expansionism-broke-european-security-2026-04-19.md)

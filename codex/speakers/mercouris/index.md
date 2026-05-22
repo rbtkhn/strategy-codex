@@ -12,11 +12,18 @@ Purpose: front door for the canonical Mercouris shelf.
 - [stream/mercouris-arc-threads.md](stream/mercouris-arc-threads.md)
 - [mercouris-cross-host-note.md](mercouris-cross-host-note.md)
 - [mercouris-raw-input-index.md](mercouris-raw-input-index.md)
-- [stream/mercouris-thread.md](stream/mercouris-thread.md)
+- [stream/mercouris-thread.md](stream/mercouris-thread.md) - legacy continuity compatibility surface; not the canonical arc-thread atlas
 
-## Arc Model
+## Canonical Structure
 
 `mercouris-arc` is the stream-native bounded helix. It contains multiple `mercouris-arc-threads`; it is not merely the Diesen guest branch and not yet a mature Mercouris speaker helix.
+
+The canonical orthogonality-bearing split is:
+
+- `mercouris-arc.md` for the continuity-bearing arc
+- `mercouris-arc-threads.md` for the distinct recurring strands inside that arc
+
+Do not read `mercouris-thread.md` as a second competing thread system. It is a legacy compatibility file carried forward from the older expert-thread machinery.
 
 ## Stream Highlights
 

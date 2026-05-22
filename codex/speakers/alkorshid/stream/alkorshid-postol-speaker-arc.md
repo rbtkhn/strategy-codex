@@ -67,6 +67,16 @@ If the operator needs the best companion surfaces for the uncaptured run:
 
 That pair gives the clearest sense that this is not a one-off file but a real recurring lane awaiting broader materialization.
 
+## Orthogonality guide
+
+Quick separation rule:
+
+- `Dialogue Works x Postol` is the live-pressure, technical-destruction, and deterrence-correction lane.
+- `Davis x Postol` is the engineering-constraint and destructive-capacity-truth lane.
+- `Diesen x Postol` is the deterrence-consequence and escalation-horizon lane.
+
+Do not use this arc as a shortcut for longer-form engineering adjudication or order-level deterrence architecture. Its distinctive job is to strip live military panic back to radars, interceptors, bunker limits, and deterrence realism under current-event pressure.
+
 ## Routing use
 
 Use this speaker arc when an Alkorshid ingest or batch pass is doing one or more of the following:
@@ -84,6 +94,8 @@ Typical pairings around the guest lane:
 - `freeman`
 
 ## Boundaries
+
+- If the question is mainly about what can physically be destroyed or intercepted rather than live crisis pressure around those systems, route outward to [davis-postol-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-postol-speaker-arc.md).
 
 - Postol is strongest here on technical correction, deterrence realism, and destructive-capacity analysis, not on diplomatic sequencing or bargaining-room logic.
 - The materialized shelf is still a conservative subset of the broader stream-discovered run.

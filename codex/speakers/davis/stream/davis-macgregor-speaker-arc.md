@@ -75,6 +75,16 @@ That pair gives the clearest full lane shape:
 - inflationary and logistical consequence
 - political danger inside the United States
 
+## Orthogonality guide
+
+Quick separation rule:
+
+- `Davis x Macgregor` is the war-feasibility, imperial-overreach, and political-danger lane.
+- `Diesen x Macgregor` is the force-balance altitude and imperial-distance-consequence lane.
+- `Napolitano x Macgregor` is the anti-aggression and undeclared-war-pressure lane.
+
+Do not use this arc as a shortcut for broad order-level empire commentary or Napolitano's sharper illegitimate-war framing. Its distinctive job is to reduce war rhetoric to logistics, inflation, force limits, and domestic political damage.
+
 ## Routing use
 
 Use this speaker arc when a Davis ingest or batch pass is doing one or more of the following:
@@ -92,6 +102,8 @@ Typical pairings around the guest lane:
 - `mearsheimer`
 
 ## Boundaries
+
+- If the question is mainly about undeclared-war normality or anti-aggression indictment rather than force-feasibility and overreach, route outward to [napolitano-macgregor-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-macgregor-speaker-arc.md).
 
 - Macgregor is strongest here on overreach, force limits, and political-danger severity, not on neutral documentary verification.
 - The shelf on disk is already real, but still partial relative to the very dense fresh live run.

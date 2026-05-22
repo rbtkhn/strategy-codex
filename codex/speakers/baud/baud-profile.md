@@ -73,7 +73,7 @@ The block below **Rolling ingest** is replaced on each `strategy_thread.py` / `s
 
 ---
 
-**Companion files:** [`strategy-expert-baud-transcript.md`](strategy-expert-baud-transcript.md) (7-day rolling verbatim) and [`strategy-expert-baud-thread.md`](strategy-expert-baud-thread.md) (distilled analytical thread).
+**Companion files:** [`strategy-expert-baud-transcript.md`](strategy-expert-baud-transcript.md) (7-day rolling verbatim), [baud-arc.md](baud-arc.md) (distilled analytical arc), and [baud-thread-international-law.md](baud-thread-international-law.md) (topical law / law-of-war continuity surface).
 
 ## Archive / backfill note
 

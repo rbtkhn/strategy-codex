@@ -4,6 +4,19 @@ WORK only; not Record.
 
 Purpose: compact reuse note for the `Diesen x McGovern` run inside the Diesen stream. This is not a substitute for the full raw-input shelf. It exists so future routing can quickly answer: what kind of McGovern lane Diesen elicits, which full-form episodes matter most, and why this branch is materially real on disk.
 
+## Orthogonality guide
+
+This file should be read as the **order-transition and arms-control** McGovern branch, not as the live-pressure Dialogue Works version of him.
+
+Quick separation rule:
+
+- `Diesen x McGovern` = NATO decay, arms-control collapse, strategic-restraint failure, and intelligence memory at order-transition altitude
+- [alkorshid-mcgovern-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-mcgovern-speaker-arc.md) = live Iran/Russia escalation and imperial-unreality warning under present-tense pressure
+- [diesen-beebe-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-beebe-speaker-arc.md) = bargaining architecture and statecraft design rather than dissident insider warning
+- [diesen-crooke-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-crooke-speaker-arc.md) = civilizational-legitimacy and sovereignty crisis rather than arms-control memory
+
+If the notebook needs a former insider reading how NATO and restraint architecture are breaking under order transition, route here. If it needs live crisis warning, bargaining design, or civilizational legitimacy framing, route to the neighboring branches instead.
+
 ## Why this guest run matters
 
 Ray McGovern matters here less as a generic former CIA analyst than as a recurring **intelligence-dissent, arms-control, and late-imperial reality-check** voice inside a host stream otherwise centered on multipolar transition, European disorder, and strategic consequence.
@@ -70,9 +83,16 @@ Typical pairings around the guest lane:
 - `mearsheimer`
 - `crooke`
 
+Distinct from:
+
+- [alkorshid-mcgovern-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-mcgovern-speaker-arc.md), which is stronger on live escalation and Iran-war immediacy
+- [diesen-beebe-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-beebe-speaker-arc.md), which is stronger on negotiation architecture than on intelligence-dissent memory
+- [diesen-crooke-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-crooke-speaker-arc.md), which is stronger on legitimacy and sovereignty than on restraint-system collapse
+
 ## Boundaries
 
 - McGovern is strongest here on intelligence memory, arms-control collapse, and elite unreality, not on military-technical correction.
 - `Judging Freedom x McGovern` appears dense in search, but it is not materially imported in this pass and should not be treated as an equal on-disk branch yet.
 - This lane is real because the host-local shape repeats across several full-form Glenn Diesen episodes, not because every episode carries equal weight.
 - Prefer this guest run when the Codex needs strategic consequence disciplined by institutional memory and dissent.
+- Do not let this branch silently absorb the live-pressure Alkorshid McGovern lane or the neighboring Beebe and Crooke functions.

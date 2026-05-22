@@ -35,6 +35,15 @@ Reading rule: open the authored ledger first when the question is "what is Parsi
 | Authored diplomacy strand | [parsi-forecast-ledger-2025-2026.md](/C:/dev/strategy-codex/codex/speakers/parsi/stream/parsi-forecast-ledger-2025-2026.md) | Implementation over symbolism, Israel as escalation engine, coercion failure, ceasefire leverage, and regional security architecture |
 | Interview pressure strand | [parsi-interview-appearances-2025-2026.md](/C:/dev/strategy-codex/codex/speakers/parsi/parsi-interview-appearances-2025-2026.md) | How the authored mechanism translates under Davis, Napolitano, Duran/Mercouris, and Diesen pressure |
 
+## Orthogonality guide
+
+Quick separation rule:
+
+- The `authored diplomacy strand` is where Parsi states settlement architecture, sanctions logic, and implementation-heavy policy mechanism in his own terms.
+- The `interview pressure strand` is where that mechanism is pressured by host demands for blame, leverage, off-ramp design, and primacy interpretation.
+
+Do not use the interview layer as a substitute for Parsi's authored policy architecture when drafting statecraft language, and do not use the authored ledger as a substitute for host-pressure translation when the question is how his diplomacy logic behaves in live argument. The helix only works if authored procedure and interview testing remain separate.
+
 ## Open first
 
 If the operator needs the cleanest single introduction to Parsi:
@@ -65,3 +74,4 @@ Use this helix note when the notebook is doing one or more of the following:
 - Do not treat X bundles, generic stubs, or date-named captures as interview-strand sources until a separate source-boundary pass promotes them.
 - Parsi remains primarily a diplomacy and policy-process object. Do not force him into a war-mechanics or civilizational-register role just because the host context is kinetic.
 - This helix is mature enough to route, but still smaller than the Crooke/Ritter interview shelves. Its strength is authored depth plus targeted host pressure.
+- If the task is treaty, ceasefire, or regional-security architecture drafting, route through [parsi-forecast-ledger-2025-2026.md](/C:/dev/strategy-codex/codex/speakers/parsi/stream/parsi-forecast-ledger-2025-2026.md) before using the helix as a pressure check.

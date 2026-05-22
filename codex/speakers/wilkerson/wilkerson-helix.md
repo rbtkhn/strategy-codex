@@ -23,6 +23,17 @@ A real April 2026 `Napolitano x Wilkerson` branch now exists on disk as well, bu
 | [diesen x wilkerson](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-wilkerson-speaker-arc.md) | Imperial-decline altitude and order consequence | Legitimacy collapse, BRICS / de-dollarization consequence, strategic self-harm, and the way Hormuz pressure widens into systemic imperial decline |
 | [Dialogue Works x Wilkerson](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-wilkerson-speaker-arc.md) | Live crisis pressure and military-statecraft warning | Blockade impossibility, point-of-no-return language, strategic incoherence under active stress, and the immediate cost of elite delusion |
 
+## Orthogonality guide
+
+These host arcs should be read as **two different transformations of one Wilkerson warning voice**, not as interchangeable repetitions.
+
+Quick separation rule:
+
+- `diesen x wilkerson` = imperial-decline altitude, legitimacy collapse, and system-level consequence
+- `alkorshid x wilkerson` = acute event pressure, military-statecraft warning, and immediate escalation cost
+
+If a Wilkerson claim could sit in both lanes without changing why the operator would open one rather than the other, prefer the narrower host lane or keep it at raw-input level instead of widening the helix claim.
+
 ## Open first
 
 If the operator needs the cleanest single introduction to the helix:
@@ -51,6 +62,7 @@ Use this helix note when the notebook is doing one or more of the following:
 - Do not quietly promote this to a three-strand object while `Davis x Wilkerson` remains absent in fresh live search.
 - This note is not a generic Wilkerson profile; it is a host-transformation note.
 - Prefer the host-local arc when the task is stream-specific; use the helix when the task is comparative.
+- Do not use the Diesen strand as a shortcut for live crisis-statecraft warning, or the Dialogue Works strand as a shortcut for imperial-order consequence. Those are distinct retrieval surfaces.
 
 ## Phase note
 

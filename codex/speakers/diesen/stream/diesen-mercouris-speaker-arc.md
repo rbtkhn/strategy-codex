@@ -6,6 +6,19 @@ Purpose: compact reuse note for the `Diesen x Mercouris` run inside the Diesen s
 
 Model note: this file is one host-local branch inside the wider Mercouris system. `mercouris-arc` itself is a stream-native bounded helix with multiple recurring `mercouris-arc-threads`; the Diesen branch braids only some of those strands, especially legitimacy crisis and diplomatic sequencing.
 
+## Orthogonality guide
+
+This file should be read as the **Diesen-pressure branch** of Mercouris, not as a generic Europe file and not as a proxy for the native Mercouris stream.
+
+Quick separation rule:
+
+- `Diesen x Mercouris` = order-transition and legitimacy-crisis pressure on Mercouris's institutional read
+- [mercouris-arc.md](/C:/dev/strategy-codex/codex/speakers/mercouris/stream/mercouris-arc.md) = native bounded arc shape
+- [mercouris-arc-threads.md](/C:/dev/strategy-codex/codex/speakers/mercouris/stream/mercouris-arc-threads.md) = canonical recurring-strand atlas
+- [davis-mercouris-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-mercouris-speaker-arc.md) = force-feasibility and restraint-policy branch
+
+If a Mercouris item matters mainly because Diesen is asking what Europe's crisis means for order transition, sovereignty, and post-unipolar placement, it belongs here. If it matters mainly because Mercouris is extending one of his native recurring strands independent of host pressure, prefer the native arc or thread atlas.
+
 ## Why this guest run matters
 
 Alexander Mercouris matters here less as a generic European politics commentator than as a recurring **institutional-legitimacy and diplomatic-sequencing** voice. Inside the Diesen stream, that makes the appearance useful when the notebook needs continuity between:
@@ -75,9 +88,16 @@ Typical pairings around the guest lane:
 - `wilkerson`
 - `mearsheimer`
 
+Distinct from:
+
+- the native [mercouris-arc.md](/C:/dev/strategy-codex/codex/speakers/mercouris/stream/mercouris-arc.md), which carries the broader stream-native motion
+- [mercouris-arc-threads.md](/C:/dev/strategy-codex/codex/speakers/mercouris/stream/mercouris-arc-threads.md), which separates recurring Mercouris strands regardless of host
+- [davis-mercouris-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-mercouris-speaker-arc.md), which is less about European legitimacy and more about execution, sustainability, and force reality
+
 ## Boundaries
 
 - This arc is transcript-bearing but still a thin three-file branch, not a mature multi-episode Diesen x Mercouris run on the scale of the native Mercouris stream or the Davis x Mercouris branch.
 - Do not treat this file as replacing Mercouris's native stream or the wider `mercouris-arc`, which remains the main body.
 - Do not treat Diesen as merely a host wrapper; his order-transition frame is part of why this appearance matters.
 - Prefer this arc when the notebook needs Europe-legitimacy diagnosis at order-transition altitude, not when it needs day-by-day Mercouris monologue continuity.
+- Do not let this branch silently absorb the native Mercouris arc or the separate Davis branch.

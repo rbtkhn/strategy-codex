@@ -40,6 +40,16 @@ Reading rule: open the authored row first when the question is "what is Crooke's
 | [davis x crooke](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-crooke-speaker-arc.md) | Bargaining room and strategic-room realism | Negotiation structure, spoiler logic, Iranian internal decision architecture, and the gap between coercive theater and actual leverage |
 | [alkorshid x crooke](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-crooke-speaker-arc.md) | Live crisis pressure and event meaning | Why immediate escalations matter beyond themselves, how war lessons travel outward, and how present-tense crisis becomes civilizational or geopolitical signal |
 
+## Orthogonality guide
+
+Quick separation rule:
+
+- `Diesen x Crooke` is where Crooke's civilizational-statecraft mechanism becomes order-transition altitude and system-shock reading.
+- `Davis x Crooke` is where the same mechanism becomes bargaining-room realism and leverage diagnosis.
+- `Alkhorshid x Crooke` is where the same mechanism becomes present-tense event meaning under live crisis pressure.
+
+Do not use `Diesen` as a shortcut for bargaining structure, `Davis` as a shortcut for civilizational signal extraction under event tempo, or `Alkhorshid` as a shortcut for world-order altitude. The helix is only truly additive when those roles stay distinct.
+
 ## Open first
 
 If the operator needs the cleanest single introduction to the helix:
@@ -70,6 +80,7 @@ For source-level routing across host appearances, use [crooke-interview-appearan
 - Do not merge the Substack Source Set into the interview Source Set; the helix is a reading pattern, not a source-class collapse.
 - Prefer the host-local arc when the task is stream-specific; use the helix when the task is comparative.
 - The three strands are complementary, not redundant. Do not flatten them into one undifferentiated Crooke shelf.
+- For Crooke's recurring legitimacy-order strand across hosts, route to [crooke-thread-international-law.md](/C:/dev/strategy-codex/codex/speakers/crooke/stream/crooke-thread-international-law.md) when the question is really about law, sovereignty, and shared constraint rather than host transformation.
 
 ## Phase note
 

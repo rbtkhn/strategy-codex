@@ -3,6 +3,19 @@
 
 WORK only; not Record.
 
+## Orthogonality guide
+
+Read this file as a **legacy continuity checkpoint**, not as a host thread that competes with the current canonical Alkorshid shelf.
+
+Quick separation rule:
+
+- this file = backward-compatible host continuity and journal carryover
+- the compatibility note below = names the actual orthogonality-bearing shelf surfaces
+
+If a question is about host transformation, guest differentiation, or canonical routing, route to those named shelf surfaces instead of widening this file.
+
+Compatibility note: this file is a **legacy host-continuity compatibility surface** carried forward from the earlier strategy-thread system. The canonical Alkorshid structure now lives in the host shelf front door at [alkorshid/README.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/README.md), the host routing surface at [alkorshid/index.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/index.md), and the distinct guest arcs under this host. Do not treat this file as a competing canonical topical-thread atlas.
+
 **Source:** Distilled from [`transcript.md`](transcript.md) (what the host said recently) and relevant pages (where that material was used in strategy work).
 **Process:** `python3 scripts/strategy_thread.py` triages inbox ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ transcript, then fills **only** the **machine layer** between the **strategy-expert-thread** HTML start and end comments. Operator / assistant maintains the **journal layer** above the start marker in **readable prose** (optional **ledger** after the end marker).
 **Updated:** Narrative ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â when you distill; **machine layer** ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â when you run **`thread`**.

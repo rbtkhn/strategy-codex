@@ -3,6 +3,18 @@
 
 WORK only; not Record.
 
+## Orthogonality guide
+
+Read this file as a **month chapter of compatibility continuity**, not as an independent Ritter strand.
+
+Quick separation rule:
+
+- this file = one calendar-month chapter in the split continuity journal
+- [ritter-thread.md](ritter-thread.md) = the parent compatibility continuity surface
+- the authored ledger, appearance map, and [ritter-helix.md](../ritter-helix.md) named there = the actual orthogonality-bearing Ritter surfaces
+
+If a question is about authored forecast structure, host transformation, or canonical routing, route to those Ritter surfaces instead of treating this month chapter as its own strand.
+
 **Source:** Human **narrative journal** (below) + [`transcript.md`](transcript.md) (verbatim ingests) + relevant **`strategy-page`** work. **This file** is the **canonical** January 2026 chapter. During phased split, [`thread.md`](thread.md) may still contain a duplicate `## 2026-01` block until all months are migrated; discovery **dedupes** the same `strategy-page` `id=`, **preferring** this monthly file.
 **Process:** `python3 scripts/strategy_thread.py` triages inbox → transcript, then fills **only** the **machine layer** between the **strategy-expert-thread** HTML start and end comments. Operator / assistant maintains the **journal layer** above the start marker in **readable prose**.
 **Updated:** Narrative — when you distill; **machine layer** — when you run **`thread`**.
@@ -11,7 +23,7 @@ WORK only; not Record.
 ---
 ## Journal layer — Narrative (operator)
 
-_This monthly chapter is **one** calendar month. Optional **Continuity (month open):** a short opening paragraph (carried from late prior month, open pins) so the file reads as a **chapter**— see [strategy-expert-template.md](../../strategy-expert-template.md#thread-template)._
+_This monthly chapter is **one** calendar month. Optional **Continuity (month open):** a short opening paragraph (carried from late prior month, open pins) so the file reads as a **chapter**— see [speaker-thread-template.md](../../_templates/speaker-thread-template.md)._
 
 **Default:** at least **~500 words** of substantive prose in `## 2026-01` (see `validate_strategy_expert_threads.py`); list lines with `[strength: …]` do not count toward the minimum by default.
 

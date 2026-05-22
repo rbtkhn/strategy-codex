@@ -13,8 +13,8 @@ Purpose: keep Ray McGovern's cross-host status honest by separating what is mate
 
 Those two branches are now strong enough to justify an on-disk **double-helix** reading:
 
-- [diesen-mcgovern-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/diesen/diesen-mcgovern-speaker-arc.md)
-- [alkorshid-mcgovern-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/alkorshid/alkorshid-mcgovern-speaker-arc.md)
+- [diesen-mcgovern-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-mcgovern-speaker-arc.md)
+- [alkorshid-mcgovern-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-mcgovern-speaker-arc.md)
 
 ### Search-backed but not yet imported here
 
@@ -41,11 +41,11 @@ So the object is now materially real as a **double-helix**, while still leaving 
 
 Open:
 
-- [diesen-mcgovern-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/diesen/diesen-mcgovern-speaker-arc.md)
+- [diesen-mcgovern-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-mcgovern-speaker-arc.md)
 
 Then:
 
-- [alkorshid-mcgovern-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/alkorshid/alkorshid-mcgovern-speaker-arc.md)
+- [alkorshid-mcgovern-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-mcgovern-speaker-arc.md)
 
 ## Doctrine boundary
 

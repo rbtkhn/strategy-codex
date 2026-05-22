@@ -15,9 +15,19 @@ Purpose: front door for the canonical Mearsheimer shelf, surfacing the speaker-r
 
 - [Speaker folder README](../../../speakers/mearsheimer/README.md)
 - [Speaker profile](../../../speakers/mearsheimer/mearsheimer-profile.md)
-- [Thread compatibility file](../../../speakers/mearsheimer/mearsheimer-thread.md)
+- [Thread compatibility file](../../../speakers/mearsheimer/mearsheimer-thread.md) - legacy continuity surface; not a canonical topical-thread system
 - [Transcript compatibility file](../../../speakers/mearsheimer/mearsheimer-transcript.md)
 - [Page template](../../../speakers/mearsheimer/mearsheimer-page-template.md)
+
+## Canonical Structure
+
+Mearsheimer's orthogonality-bearing structure is:
+
+- [Speaker helix](../../../speakers/mearsheimer/mearsheimer-helix.md) for the current double-helix crossing surface
+- the two main host-local arcs for stable distinct host transformations
+- the Napolitano branch as reinforcing orbit material rather than a third canonical strand
+
+Do not read [mearsheimer-thread.md](../../../speakers/mearsheimer/mearsheimer-thread.md) as a second competing topical-thread system. It is a legacy compatibility file carried forward from the older expert-thread machinery.
 
 ## Main Host Arcs
 

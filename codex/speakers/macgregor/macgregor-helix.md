@@ -23,6 +23,15 @@ A real April 2026 `Napolitano x Macgregor` branch now exists on disk as a useful
 | [diesen x macgregor](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-macgregor-speaker-arc.md) | Geopolitical altitude and imperial-distance consequence | NATO fracture, order consequence, logistics burden, and how Gulf and Europe become linked theaters of imperial exhaustion |
 | [davis x macgregor](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-macgregor-speaker-arc.md) | Force-feasibility and political danger | Project Freedom failure, Hormuz cost, inflation and logistics pain, and the domestic political danger of war rhetoric outrunning reality |
 
+## Orthogonality guide
+
+Quick separation rule:
+
+- `Diesen x Macgregor` is where Macgregor's force-balance voice becomes geopolitical altitude and cross-theater imperial consequence.
+- `Davis x Macgregor` is where the same voice becomes feasibility testing, domestic political danger, and immediate cost accounting.
+
+Do not use `Diesen` as a shortcut for near-term force-feasibility diagnosis, or `Davis` as a shortcut for wider order consequence and imperial-distance framing. The double helix only matters if those two functions stay separate.
+
 ## Open first
 
 If the operator needs the cleanest single introduction to the helix:
@@ -51,6 +60,7 @@ Use this helix note when the notebook is doing one or more of the following:
 - Do not quietly promote this to a three-strand object while `Dialogue Works x Macgregor` remains absent in fresh live search.
 - This note is not a generic Macgregor profile; it is a host-transformation note.
 - Prefer the host-local arc when the task is stream-specific; use the helix when the task is comparative.
+- Treat the `Napolitano x Macgregor` lane as auxiliary reinforcement, not as a third canonical strand that erases the stable `Diesen + Davis` structure.
 
 ## Phase note
 

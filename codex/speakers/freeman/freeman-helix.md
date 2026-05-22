@@ -29,6 +29,17 @@ Use [December 2025-May 2026 arc-threads](stream/freeman-dec-2025-may-2026-arc-th
 | [alkorshid x freeman](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-freeman-speaker-arc.md) | Live crisis pressure | Emergency diplomacy, alliance strain, phony ceasefires, and hegemonic breakdown under immediate event stress |
 | [napolitano x freeman](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-freeman-speaker-arc.md) | Legal-moral legitimacy stress | Anti-war framing, war-powers skepticism, legitimacy critique, and anti-hegemonic legal-moral pressure under current-event stress |
 
+## Orthogonality guide
+
+Quick separation rule:
+
+- `Diesen x Freeman` is where Freeman's diplomacy becomes world-order altitude and imperial-decay interpretation.
+- `Davis x Freeman` is where Freeman's diplomacy becomes settlement realism and leverage-withdrawal discipline.
+- `Alkhorshid x Freeman` is where Freeman's diplomacy gets tested under immediate crisis tempo, alliance strain, and event-surface phony resolution.
+- `Napolitano x Freeman` is where Freeman's diplomacy becomes legal-moral legitimacy critique under anti-war and constitutional pressure.
+
+Do not use `Diesen` as a shortcut for bargaining realism, `Davis` as a shortcut for legal-moral critique, `Alkhorshid` as a shortcut for world-order altitude, or `Napolitano` as a shortcut for live event tempo. The helix is useful only if each strand keeps its own explanatory role.
+
 ## Supporting surfaces beyond the four host lanes
 
 The four strands are the main host transformations, but the Freeman object also has a year-level support bench that should stay wired into routing:
@@ -61,6 +72,7 @@ Use this helix note when the notebook is doing one or more of the following:
 - Prefer the host-local arc when the task is stream-specific; use the helix when the task is comparative.
 - Prefer the thread atlas when the task is a recurring Freeman thesis across months or hosts.
 - The four strands are complementary, not redundant. Do not flatten them into one undifferentiated Freeman shelf.
+- If a question is mainly about recurring Freeman theses, route to [December 2025-May 2026 arc-threads](stream/freeman-dec-2025-may-2026-arc-threads.md) rather than overloading the helix with thread work.
 
 ## Phase note
 

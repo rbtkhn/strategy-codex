@@ -87,6 +87,17 @@ Second-best paired read: [alkorshid-marandi-speaker-arc.md](/C:/dev/strategy-cod
 
 Why: both runs live in the same host stream, but they split sharply by register. Freeman gives diplomatic-memory and order interpretation; Marandi gives red-line, legitimacy, and endurance language.
 
+## Orthogonality guide
+
+Quick separation rule:
+
+- `Dialogue Works x Freeman` is the live crisis-pressure and diplomatic-memory lane.
+- `Diesen x Freeman` is the steadier maritime-order and long-horizon statecraft lane.
+- `Davis x Freeman` is the settlement-realism and coercion-limit lane.
+- `Napolitano x Freeman` is the legal-moral legitimacy and anti-war-pressure lane.
+
+Do not use this arc as a shortcut for Freeman's long-horizon order interpretation, settlement-discipline realism, or legal-moral critique. Its distinctive job is to translate immediate crisis moves into statecraft decline and alliance strain under present-tense pressure.
+
 ## Routing use
 
 Use `Dialogue Works x Freeman` when the notebook needs:
@@ -106,3 +117,5 @@ Do not use this speaker arc as:
 - a claim that Freeman's host-stream rhetoric equals a settled institutional or state position
 
 This arc is strongest as a **live-pressure diplomatic-memory form**: Alkorshid pushes the crisis forward, Freeman translates it into statecraft decline, alliance strain, and order-language.
+
+If the question is mainly about blockade legality, constitutional war skepticism, or anti-war legitimacy language, route outward to [napolitano-freeman-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-freeman-speaker-arc.md) rather than overloading this arc.

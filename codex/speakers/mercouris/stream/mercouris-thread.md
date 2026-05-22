@@ -1,7 +1,20 @@
-# Expert thread - `mercouris`
+# Legacy compatibility surface — `mercouris-thread`
 <!-- word_count: 17441 -->
 
 WORK only; not Record.
+
+## Orthogonality guide
+
+Read this file as a **legacy continuity checkpoint**, not as a thread that competes with the current Mercouris arc and thread-atlas structure.
+
+Quick separation rule:
+
+- this file = backward-compatible continuity and journal carryover
+- the compatibility note below = names the actual orthogonality-bearing Mercouris surfaces
+
+If a question is about native arc shape, strand separation, or canonical routing, route to those named surfaces instead of widening this file.
+
+Compatibility note: this file is a legacy continuity surface from the older expert-thread machinery. In the current Mercouris shelf, the canonical orthogonality-bearing structure is [mercouris-arc.md](mercouris-arc.md) plus [mercouris-arc-threads.md](mercouris-arc-threads.md), not this file.
 
 **Source:** Human **narrative journal** (below) + [mercouris-transcript.md](mercouris-transcript.md) (verbatim ingests) + relevant refined-page work (where this stream's material was used).
 **Process:** `python3 scripts/strategy_thread.py` triages inbox to transcript, then fills **only** the **machine layer** between the **strategy-expert-thread** HTML start and end comments. Operator / assistant maintains the **journal layer** above the start marker in **readable prose**.

@@ -62,6 +62,16 @@ That pair gives the clearest current lane shape:
 - material military outcome from Martyanov
 - repeated feasibility correction
 
+## Orthogonality guide
+
+Quick separation rule:
+
+- `Davis x Martyanov` is the military-feasibility and outcome-correction lane.
+- `Dialogue Works x Martyanov` is the live-pressure, systems-realism, and strategic-collapse lane.
+- `Diesen x Martyanov` is the escalation-horizon and order-consequence lane.
+
+Do not use this arc as a shortcut for high-temperature collapse rhetoric or wider order-level consequence. Its distinctive job is to test political claims against force balance, attrition, and what the battlefield has already decided.
+
 ## Routing use
 
 Use this speaker arc when a Davis ingest or batch pass is doing one or more of the following:
@@ -79,6 +89,8 @@ Typical pairings around the guest lane:
 - `postol`
 
 ## Boundaries
+
+- If the question is mainly about acute crisis pressure or systems-collapse language rather than feasibility correction, route outward to [alkorshid-martyanov-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-martyanov-speaker-arc.md).
 
 - Martyanov is strongest here on force balance, attrition, and military feasibility, not on domestic-process or diplomatic-legitimacy questions.
 - The branch is now materially real on disk, but its current shelf is still thinner than the Alkorshid branch.

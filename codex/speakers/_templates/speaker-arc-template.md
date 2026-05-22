@@ -1,12 +1,42 @@
-# {Host} x {Guest} speaker arc
+# {Host} x {Guest} arc
 
 WORK only; not Record.
 
 Purpose: explain why the recurring `{host} x {guest}` lane matters as a host-local conversational form. This is an interpretive routing note downstream of raw-input accumulation, not a provenance ledger and not a lattice row.
 
+System grammar: this template is for a **relational arc**, not a person arc and not a topical thread.
+
+- **Person arc:** `{guest}-arc.md` when the surface is centered on the speaker across hosts and contexts.
+- **Relational arc:** `{host}-{guest}-arc.md` when the surface is centered on what a specific host repeatedly elicits from that guest.
+- **Topical thread:** `{guest}-thread-{topic}.md` when the surface is centered on one recurring topic inside a larger speaker corpus.
+
+Ownership rule:
+
+- Choose an **arc** when the question is "whose continuity is this?"
+- Choose a **relational arc** when the answer is "this host's recurring transformation of that guest"
+- Choose a **thread** when the question is "which recurring strand inside this arc deserves its own named surface?"
+
+Orthogonality rule:
+
+- A new arc should justify its existence by adding **distinct explanatory value**.
+- Do not split one continuity into multiple arcs unless the new arc changes the host transformation, source habit, explanatory frame, or routing use in a meaningful way.
+- If two arcs reach the same conclusion, keep them separate only when they arrive there by materially different mechanisms or support different downstream use.
+
 Model: an **arc is a bounded helix of arc-threads**. An **arc-thread** is a recurring thematic strand; the host-local arc is the braid of those strands inside one host x guest surface.
 
-Creation threshold: write this only when the host x guest lane has enough recurrence to make a reusable host-local form. A speaker folder can be valid with only a routeable rationale, profile, cross-host note, or host-arc pointer; do not create a speaker arc just because the folder exists.
+Arc quality test:
+
+- the arc should have internal depth because its strands differ from one another
+- the arc should have external distinctness because it is not just a reworded neighboring arc
+
+Creation threshold: write this only when the host x guest lane has enough recurrence to make a reusable host-local form. A speaker folder can be valid with only a routeable rationale, profile, cross-host note, or host-arc pointer; do not create a relational arc just because the folder exists.
+
+This is the best default when the notebook needs:
+
+- a ranked entry into one recurring host x guest run
+- a host-conditioned version of a guest's register
+- a braid of recurring strands inside one bounded pair lane
+- the continuity-bearing surface within which topical threads can sit
 
 ## Why this guest run matters
 
@@ -71,6 +101,8 @@ Use `{host} x {guest}` when the notebook needs:
 Do not overuse this arc as:
 
 - a generic biography of `{guest}`
+- the canonical person surface for `{guest}`
+- a topical continuity file such as `{guest}-thread-{topic}.md`
 - a replacement for raw-input provenance
 - a loose chronology without recurring arc-threads
 - a maturity badge for a speaker folder that only needs a lighter routeable rationale

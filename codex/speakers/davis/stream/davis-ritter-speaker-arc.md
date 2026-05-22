@@ -57,6 +57,17 @@ That pair gives the clearest mature lane shape:
 - shrinking leverage
 - the operational argument that the war is less controllable than advertised
 
+## Orthogonality guide
+
+Quick separation rule:
+
+- `Davis x Ritter` is the operational-feasibility and material-limit lane.
+- `Diesen x Ritter` is the escalation-horizon and cross-theater consequence lane.
+- `Dialogue Works x Ritter` is the maximum live-war-pressure and loss-of-control lane.
+- `Napolitano x Ritter` is the legal-pressure and command-absurdity lane.
+
+Do not use this arc as a shortcut for collapse-temperature rhetoric, Europe/Gulf escalation horizon, or juridical sharpening. Its distinctive job is to test whether the military means, stockpiles, skies, and blockade posture can still produce the stated political objective.
+
 ## Routing use
 
 Use this speaker arc when a Davis ingest or batch pass is doing one or more of the following:
@@ -74,6 +85,8 @@ Typical pairings around the guest lane:
 - `marandi`
 
 ## Boundaries
+
+- If the question is mainly about legal absurdity, piracy framing, or war-crime exposure rather than material feasibility, route outward to [napolitano-ritter-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-ritter-speaker-arc.md).
 
 - Ritter is strongest here on war-feasibility, stockpiles, skies, and operational implausibility, not on calm diplomatic framing.
 - Prefer this lane when the notebook needs the Davis-side military test; prefer the Diesen lane for broader escalation consequence and the Dialogue Works lane for the sharpest live-pressure reading.

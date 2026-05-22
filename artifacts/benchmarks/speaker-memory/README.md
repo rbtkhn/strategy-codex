@@ -55,6 +55,16 @@ artifacts/benchmarks/speaker-memory/
 
 `SM-4 speaker-maturity-ranking` tests whether an agent can compare several speaker objects using the shared metric language and produce a defended ranking that does not confuse raw volume with maturity.
 
+## Calibration Pack
+
+For live repo-grounded examples rather than synthetic strong/weak harness samples, use:
+
+- [calibration/README.md](calibration/README.md)
+- [SM-3 Freeman calibration](calibration/sm-3-freeman-calibration.md)
+- [SM-4 Freeman-Crooke-Baud calibration](calibration/sm-4-freeman-crooke-baud-calibration.md)
+
+These are read-only doctrinal examples. They are not run artifacts and they do not replace scored benchmark runs.
+
 ## Metric Policy
 
 For speaker quality work, prefer a **vector** over a single magic number.

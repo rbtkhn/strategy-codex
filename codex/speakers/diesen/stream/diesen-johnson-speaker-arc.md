@@ -59,6 +59,17 @@ That pair gives the clearest lane shape:
 - regional-order consequence
 - U.S. strategic exposure widening through escalation
 
+## Orthogonality guide
+
+Quick separation rule:
+
+- `Diesen x Johnson` is the geopolitical-altitude and regional-order-consequence lane.
+- `Davis x Johnson` is the operational-feasibility and coercive-failure lane.
+- `Alkorshid x Johnson` is the live crisis-pressure and immediate-escalation lane.
+- `Napolitano x Johnson` is the process-pressure and constitutional-absurdity lane.
+
+Do not use this arc as a shortcut for feasibility triage, highest-temperature event reading, or institutional-process critique. Its distinctive job is to convert Iran-war escalation into Gulf realignment, strategic blowback, and wider regional consequence.
+
 ## Routing use
 
 Use this speaker arc when a Diesen ingest or batch pass is doing one or more of the following:
@@ -76,6 +87,8 @@ Typical pairings around the guest lane:
 - `freeman`
 
 ## Boundaries
+
+- If the question is mainly about what coercion can no longer practically achieve rather than how the regional picture is being redrawn, route outward to [davis-johnson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-johnson-speaker-arc.md).
 
 - Johnson is strongest here on geopolitical consequence and widening pressure, not on narrow tactical verification.
 - Prefer this lane when the notebook needs altitude and consequence; prefer the Davis lane for feasibility limits and the Dialogue Works lane for highest-pressure event-surface reading.

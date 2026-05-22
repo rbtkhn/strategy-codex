@@ -4,6 +4,19 @@ WORK only; not Record.
 
 Purpose: compact reuse note for the `Dialogue Works x Aguilar` run inside the Alkorshid stream. This is not a substitute for the raw-input files. It exists so future routing can quickly answer: what kind of Aguilar lane Nima elicits, which files matter most, and why this is currently the canonical Aguilar branch on disk.
 
+## Orthogonality guide
+
+This file should be read as the **operational-posture and war-conduct** Aguilar branch inside Dialogue Works, not as a generic military-correction surface.
+
+Quick separation rule:
+
+- `Dialogue Works x Aguilar` = blockade posture, coalition burden, practitioner-facing operational consequence, and moral-military rupture
+- [alkorshid-postol-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-postol-speaker-arc.md) = engineering limits, destruction mechanics, and technical system truth
+- [alkorshid-ritter-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-ritter-speaker-arc.md) = maximal live-war pressure and strategic inversion under headline tempo
+- [alkorshid-johnson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-johnson-speaker-arc.md) = intelligence-political causation and regime-choice reading
+
+If the notebook needs to know whether ships, coalitions, and deployments can actually sustain blockade or escalation claims in practitioner terms, route here. If it needs mechanism proof, maximal crisis interpretation, or political intelligence framing, route to the neighboring branches instead.
+
 ## Why this guest run matters
 
 Anthony Aguilar matters here less as a generic military commentator than as a recurring **operational-blockade, regional-force-posture, and war-conduct** voice inside a host stream built for live geopolitical pressure testing.
@@ -68,8 +81,15 @@ Typical pairings around the guest lane:
 - `ritter`
 - `johnson`
 
+Distinct from:
+
+- [alkorshid-postol-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-postol-speaker-arc.md), which tests claims at the engineering-destruction layer
+- [alkorshid-ritter-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-ritter-speaker-arc.md), which translates the same crisis into maximal immediate loss-of-control language
+- [alkorshid-johnson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-johnson-speaker-arc.md), which is stronger on intelligence, policy, and elite causation than on practitioner-facing force posture
+
 ## Boundaries
 
 - Aguilar is strongest here on operational and war-conduct reading, not on engineering-destruction detail or diplomatic sequencing.
 - The materialized shelf is still early, but it now has a clearer three-file 2026 contour.
 - This arc is real enough to justify the object, but not enough to imply wider host maturity.
+- Do not let this branch silently absorb Postol's engineering lane or Ritter's maximal live-pressure lane.

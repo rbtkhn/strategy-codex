@@ -18,10 +18,20 @@ Purpose: front door for Chas Freeman materials that cut across host shelves.
 
 - [Speaker folder README](../../../speakers/freeman/README.md)
 - [Speaker profile](../../../speakers/freeman/freeman-profile.md)
-- [Thread compatibility file](../../../speakers/freeman/freeman-thread.md)
+- [Thread compatibility file](../../../speakers/freeman/freeman-thread.md) - legacy continuity surface; not the canonical arc-thread atlas
 - [Transcript compatibility file](../../../speakers/freeman/freeman-transcript.md)
 - [Page template](../../../speakers/freeman/freeman-page-template.md)
 - [Cross-year note](../../../speakers/freeman/freeman-cross-year-note.md)
+
+## Canonical Structure
+
+Freeman's orthogonality-bearing structure is:
+
+- [Speaker helix](../../../speakers/freeman/freeman-helix.md) for the crossing surface across the four core host lanes
+- [December 2025-May 2026 arc-threads](stream/freeman-dec-2025-may-2026-arc-threads.md) for the recurring thread atlas across those host lanes
+- the four host-local arcs themselves for distinct host transformations
+
+Do not read [freeman-thread.md](../../../speakers/freeman/freeman-thread.md) as a second competing topical-thread system. It is a legacy compatibility file carried forward from the older expert-thread machinery.
 
 ## Ladder
 

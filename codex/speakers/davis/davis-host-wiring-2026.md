@@ -20,7 +20,7 @@ Davis is the notebook's clearest host for **military feasibility, battlefield dy
 | guest | what Davis elicits | arc | when to open |
 |---|---|---|---|
 | Barnes | Domestic-liability and constitutional-process checks inside war and bargaining pressure. | [arc](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-barnes-speaker-arc.md) | Open when the question turns on legality, presidential authority, domestic process, or political liability. |
-| Baud | Law-of-war, alliance-mandate, and coercive-feasibility sobriety. | [arc](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-baud-speaker-arc.md) | Open for NATO mandate, legal-military framing, and weak bargaining-hand logic. |
+| Baud | Law-of-war, alliance-mandate, and coercive-feasibility sobriety. | [arc](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-baud-arc.md) | Open for NATO mandate, legal-military framing, and weak bargaining-hand logic. |
 | Crooke | Diplomatic-process and strategic-room realism under force pressure. | [arc](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-crooke-speaker-arc.md) | Open when the problem is negotiation structure, spoiler logic, or whether an off-ramp is real. |
 | Freeman | Statecraft sobriety and diplomatic memory inside practical crisis assessment. | [arc](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-freeman-speaker-arc.md) | Open when military choices need career-diplomat restraint and historical statecraft context. |
 | Jermy | Maritime closure, energy-system exposure, and recovery-lag analysis. | [arc](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-jermy-speaker-arc.md) | Open for Hormuz, naval closure, shipping, fuel, and repair timelines. |

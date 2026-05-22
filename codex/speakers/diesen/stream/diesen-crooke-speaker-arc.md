@@ -68,6 +68,17 @@ That pair gives the clearest combination of:
 - strategic irrationality in Washington and Europe
 - Iran-war escalation as system transition rather than isolated theater
 
+## Orthogonality guide
+
+Quick separation rule:
+
+- `Diesen x Crooke` is the order-transition and system-shock lane.
+- `Davis x Crooke` is the bargaining-room and strategic-room realism lane.
+- `Dialogue Works x Crooke` is the live crisis-meaning and event-pressure lane.
+- The authored Crooke ledger is where Crooke's mechanism is stated directly rather than translated by host pressure.
+
+Do not use this arc as a shortcut for settlement-room analysis, immediate crisis-significance extraction, or authored forecast mechanism. Its distinctive job is to convert the Iran-war shelf into systemic rupture, supply-line consequence, and civilizational-statecraft reading.
+
 ## Routing use
 
 Use this speaker arc when a Diesen ingest or batch pass is doing one or more of the following:
@@ -85,6 +96,8 @@ Typical pairings around the guest lane:
 - `johnson`
 
 ## Boundaries
+
+- If the question is mainly about spoiler logic, diplomatic room, or what settlement architecture is structurally possible, route outward to [davis-crooke-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-crooke-speaker-arc.md) instead of stretching this altitude lane into bargaining analysis.
 
 - Crooke is strongest here on statecraft memory, civilizational motive, and systemic consequence, not on technical military verification or exact shipping arithmetic.
 - The materialized shelf is real but still partial relative to the fresh stream search; absence from canonical raw-input should not be mistaken for absence from the lane.

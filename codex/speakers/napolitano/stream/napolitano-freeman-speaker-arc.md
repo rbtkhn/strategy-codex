@@ -51,6 +51,17 @@ For the full March Freeman run, open [freeman-march-2026-cross-host-arc.md](../.
 - [2025-11-10 Chas Freeman - Trump: Israel or America First?](/C:/dev/strategy-codex/codex/years/2026/raw-input/2025-11-10/transcript-napolitano-freeman-trump-israel-or-america-first-2025-11-10.md)
 - [2025-11-04 Chas Freeman - Trump and Xi: Who Won?](/C:/dev/strategy-codex/codex/years/2026/raw-input/2025-11-04/transcript-napolitano-amb-chas-freeman-trump-and-xi-who-won-2025-11-04.md)
 
+## Orthogonality guide
+
+Quick separation rule:
+
+- `Napolitano x Freeman` is the legal-moral legitimacy and anti-war-pressure lane.
+- `Diesen x Freeman` is the maritime-order and strategic-altitude lane.
+- `Davis x Freeman` is the settlement-realism and coercion-limit lane.
+- `Dialogue Works x Freeman` is the live crisis-pressure and performative-negotiation lane.
+
+Do not use this arc as a shortcut for live event tempo, sea-power transition altitude, or settlement-discipline realism. Its distinctive job is to press Freeman through illegitimacy, war-powers skepticism, mediation failure, and moral-strategic incoherence.
+
 ## Routing use
 
 Use this arc when the notebook needs:
@@ -64,3 +75,4 @@ Use this arc when the notebook needs:
 - The November 4, November 10, November 18, November 25, December 9, and December 16, 2025 Freeman files are now transcript-bearing; November 4/November 18/November 25 are manual YouTube captions, while November 10/December 9/December 16 are operator-pasted transcripts.
 - The April 14 and April 21, 2026 Freeman files are transcript-bearing operator paste and should be opened before relying on the April 28 summary-grade settlement file alone.
 - This arc reinforces Freeman's existing object rather than changing the larger Freeman triple-helix doctrine.
+- If the question is mainly about phony ceasefire tempo, Gulf-state repositioning, or immediate crisis messaging, route outward to [alkorshid-freeman-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-freeman-speaker-arc.md) instead of stretching this arc into live-pressure work.

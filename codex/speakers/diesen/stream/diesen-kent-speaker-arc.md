@@ -39,6 +39,17 @@ Second-best paired read: [Kent helix](/C:/dev/strategy-codex/codex/speakers/kent
 
 Why: the helix keeps this thin but important Diesen strand proportionate against the thicker Davis branch.
 
+## Orthogonality guide
+
+Quick separation rule:
+
+- `Diesen x Kent` is the structural-history and order-transition lane.
+- `Davis x Kent` is the operational exit and force-feasibility lane.
+- `Carlson x Kent` is the testimony and inside-decision-environment lane.
+- `Nawfal x Kent` is the political-pressure and legitimacy-strain lane.
+
+Do not use this arc as a shortcut for walkaway feasibility, witness testimony, or Trump-pressure psychology. Its distinctive job is to connect Iran-war dissent back to Iraq/Syria/ISIS memory, institutional continuity, and wider imperial decline.
+
 ## Routing use
 
 Use `Diesen x Kent` when the notebook needs:
@@ -52,3 +63,4 @@ Use `Diesen x Kent` when the notebook needs:
 - This is a real but thin arc: one transcript-grade core plus bridge context.
 - Do not let the Diesen strand outweigh the thicker Davis strand until more Diesen-Kent appearances are materialized.
 - Do not promote claims about Israeli influence, ISIS creation, or internal U.S. pressure beyond commentary tier without separate verification.
+- If the question is mainly about present feasibility or exit sequencing, route outward to [davis-kent-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-kent-speaker-arc.md) rather than stretching this structural arc into operational work.

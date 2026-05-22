@@ -12,24 +12,36 @@ Kent is best read as a **thin but real cross-host helix**: Carlson makes him a r
 
 | Host lane | Distinct register | What it reveals best |
 |---|---|---|
-| [Carlson x Kent](/C:/dev/strategy-codex/codex/years/2026/carlson/carlson-kent-speaker-arc.md) | public testimony and resignation-letter spine | inside-system claims about imminent threat, Israeli influence, intelligence-channel bypass, Trump pressure, and an exit formula |
-| [Davis x Kent](/C:/dev/strategy-codex/codex/years/2026/davis/davis-kent-speaker-arc.md) | operational exit realism | Iran war feasibility, Hormuz pressure, walkaway logic, military-political objective failure |
-| [Diesen x Kent](/C:/dev/strategy-codex/codex/years/2026/diesen/diesen-kent-speaker-arc.md) | structural order critique | Israeli influence, Iraq/Syria/ISIS memory, imperial overreach, multipolar consequence |
-| [Nawfal x Kent](/C:/dev/strategy-codex/codex/years/2026/nawfal/nawfal-kent-speaker-arc.md) | political pressure and system-capture register | Trump trapped between exit desire and pressure, domestic legitimacy, military morale, public trust |
+| [Carlson x Kent](/C:/dev/strategy-codex/codex/speakers/carlson/stream/carlson-kent-speaker-arc.md) | public testimony and resignation-letter spine | inside-system claims about imminent threat, Israeli influence, intelligence-channel bypass, Trump pressure, and an exit formula |
+| [Davis x Kent](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-kent-speaker-arc.md) | operational exit realism | Iran war feasibility, Hormuz pressure, walkaway logic, military-political objective failure |
+| [Diesen x Kent](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-kent-speaker-arc.md) | structural order critique | Israeli influence, Iraq/Syria/ISIS memory, imperial overreach, multipolar consequence |
+| [Nawfal x Kent](/C:/dev/strategy-codex/codex/speakers/nawfal/stream/nawfal-kent-speaker-arc.md) | political pressure and system-capture register | Trump trapped between exit desire and pressure, domestic legitimacy, military morale, public trust |
 | [Barnes quote-surface](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-21/x-barnes-kent-exit-ramp-qt-2026-04-21.md) | compact exit-ramp endorsement | Kent as a reusable Trump-messaging and de-escalation signal |
+
+## Orthogonality guide
+
+Quick separation rule:
+
+- `Carlson x Kent` is where Kent functions as an inside-witness and resignation-letter testimony surface.
+- `Davis x Kent` is where the same voice becomes operational exit realism and force-feasibility judgment.
+- `Diesen x Kent` is where the same voice becomes structural order critique and war-on-terror continuity reading.
+- `Nawfal x Kent` is where the same voice becomes political-pressure and legitimacy-strain interpretation.
+- `Barnes` is not a full host strand at all; it is only compact confirmation that Kent's exit-ramp framing traveled outward.
+
+Do not use `Carlson` as a shortcut for operational realism, `Davis` as a shortcut for inside-decision testimony, `Diesen` as a shortcut for immediate Trump-pressure politics, or `Nawfal` as a shortcut for structural war-history critique. The helix only adds value if each strand keeps its distinct function.
 
 ## Open first
 
 If the operator needs the cleanest single introduction to the helix:
 
-- open [Carlson x Kent](/C:/dev/strategy-codex/codex/years/2026/carlson/carlson-kent-speaker-arc.md), then [Joe Kent Reveals All](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-03-18/youtube-tucker-carlson-joe-kent-reveals-all-in-first-interview-since-resigning-as-trump-s-count-2026-03-18.md)
+- open [Carlson x Kent](/C:/dev/strategy-codex/codex/speakers/carlson/stream/carlson-kent-speaker-arc.md), then [Joe Kent Reveals All](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-03-18/youtube-tucker-carlson-joe-kent-reveals-all-in-first-interview-since-resigning-as-trump-s-count-2026-03-18.md)
 
 If the operator needs the best paired read:
 
-- open [Davis x Kent](/C:/dev/strategy-codex/codex/years/2026/davis/davis-kent-speaker-arc.md)
-- then [Nawfal x Kent](/C:/dev/strategy-codex/codex/years/2026/nawfal/nawfal-kent-speaker-arc.md)
+- open [Davis x Kent](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-kent-speaker-arc.md)
+- then [Nawfal x Kent](/C:/dev/strategy-codex/codex/speakers/nawfal/stream/nawfal-kent-speaker-arc.md)
 
-That pair shows the same exit problem in two different registers: force feasibility and political-system pressure. Add [Carlson x Kent](/C:/dev/strategy-codex/codex/years/2026/carlson/carlson-kent-speaker-arc.md) when the question is what Kent claims happened inside the decision environment.
+That pair shows the same exit problem in two different registers: force feasibility and political-system pressure. Add [Carlson x Kent](/C:/dev/strategy-codex/codex/speakers/carlson/stream/carlson-kent-speaker-arc.md) when the question is what Kent claims happened inside the decision environment.
 
 ## Host transformations
 
@@ -52,6 +64,7 @@ Use this helix note when the notebook is doing one or more of the following:
 ## Boundaries
 
 - This helix is thin, not mature. Davis is the thick branch; Diesen and Nawfal are meaningful but currently much thinner.
-- Prefer [Davis x Kent](/C:/dev/strategy-codex/codex/years/2026/davis/davis-kent-speaker-arc.md) when the task is operational Iran-war exit analysis.
+- Prefer [Davis x Kent](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-kent-speaker-arc.md) when the task is operational Iran-war exit analysis.
 - Prefer raw-input when security-pressure, assassination-pressure, Israeli influence, or internal-administration claims become load-bearing.
 - Do not flatten Kent into either "Trump loyalist" or "generic dissident"; the value lies in the tension between Trump alignment, inside-system experience, and anti-interventionist rupture.
+- Do not promote the Barnes quote-surface into a fifth canonical strand; it is reinforcement, not a parallel cognition stream.

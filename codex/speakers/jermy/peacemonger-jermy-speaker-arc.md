@@ -4,6 +4,19 @@ WORK only; not Record.
 
 Purpose: compact reuse note for the `Peacemonger x Jermy` run. This is not a substitute for the full raw-input shelf. It exists so future routing can quickly answer: what kind of Jermy lane Peacemonger elicits, which full-form episodes matter most, and why this branch completes the Jermy triad rather than remaining loose reinforcement.
 
+## Orthogonality guide
+
+This file should be read as the **anti-hubris and public-indictment** Jermy branch, not as a substitute for the denser Davis maritime-geometry branch or the Diesen order-transition branch.
+
+Quick separation rule:
+
+- `Peacemonger x Jermy` = strategy failure, hubris, public-facing indictment, and maritime consequence widened into elite vanity critique
+- [davis-jermy-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-jermy-speaker-arc.md) = closure geometry, reopening lag, shipping choke, and operational system consequence
+- [diesen-jermy-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-jermy-speaker-arc.md) = maritime-order fallout, alliance divorce, and Europe/system consequence
+- [jermy-speaker-object.md](/C:/dev/strategy-codex/codex/speakers/jermy/jermy-speaker-object.md) = the higher-level triple-helix doctrine tying the host transformations together
+
+If the notebook needs Jermy as a blunt critic of elite arrogance and failed war planning, route here. If it needs closure mechanics or order-transition framing, route to Davis or Diesen instead.
+
 ## Why this guest run matters
 
 Steve Jermy matters here less as a generic navy or energy commentator than as a recurring **anti-hubris, strategy-failure, and public-facing maritime consequence** voice inside a host lane that presses policy arrogance and civilizational overreach more directly than Davis or Diesen.
@@ -69,8 +82,15 @@ Typical pairings around the guest lane:
 - `ritter`
 - `krainer`
 
+Distinct from:
+
+- [davis-jermy-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-jermy-speaker-arc.md), which is stronger on blockade operations, reopening timelines, and shipping-system consequence
+- [diesen-jermy-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-jermy-speaker-arc.md), which is stronger on Europe-order fracture and maritime-system fallout at strategic altitude
+- the legacy [jermy-thread.md](/C:/dev/strategy-codex/codex/speakers/jermy/jermy-thread.md), which is continuity residue rather than a competing canonical strand
+
 ## Boundaries
 
 - Jermy is strongest here on anti-hubris and strategy-failure framing, not on the most detailed closure geometry or alliance-theory abstraction.
 - This branch is clearly real, but it is less operationally detailed than `Davis x Jermy`.
 - Prefer this guest run when the notebook needs a public-facing indictment of failed strategy, not the most technical maritime breakdown.
+- Do not let this branch silently absorb the Davis closure-geometry lane or the Diesen order-transition lane.

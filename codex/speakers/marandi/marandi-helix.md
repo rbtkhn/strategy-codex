@@ -20,6 +20,16 @@ Marandi is therefore best read as a **helix-first speaker object**: one of the c
 | [davis x marandi](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-marandi-speaker-arc.md) | Operational limits | Failed intimidation, Iranian resilience, shrinking U.S. options, and what force can no longer realistically recover |
 | [alkorshid x marandi](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-marandi-speaker-arc.md) | Live crisis pressure | Ultimata, strikes, Hormuz, Yemen, collapse claims, and immediate regional signaling under maximum pressure |
 
+## Orthogonality guide
+
+Quick separation rule:
+
+- `Diesen x Marandi` is where Marandi's Iran-war analysis becomes escalation-horizon and order-transition interpretation.
+- `Davis x Marandi` is where the same voice becomes feasibility testing and force-limit diagnosis.
+- `Alkhorshid x Marandi` is where the same voice becomes immediate regional signaling under live crisis tempo.
+
+Do not use `Diesen` as a shortcut for near-term feasibility, `Davis` as a shortcut for regional signaling tempo, or `Alkhorshid` as a shortcut for wider order-transition logic. The helix works only if those roles stay distinct.
+
 ## Open first
 
 If the operator needs the cleanest single introduction to the helix:
@@ -47,3 +57,4 @@ Use this helix note when the notebook is doing one or more of the following:
 - This helix is not a generic Marandi profile; it is a host-transformation note.
 - Prefer the host-local arc or raw-input shelf when the task is stream-specific; use the helix when the task is comparative.
 - The Dialogue Works branch is the densest, the Diesen branch gives more altitude, and the Davis branch gives the cleanest operational-limit read. Do not flatten them into one undifferentiated Marandi shelf.
+- If the question is mostly about Iran's live red-line signaling sequence, prefer the Dialogue Works arc rather than treating the helix as a present-tense event log.

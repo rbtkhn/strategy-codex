@@ -23,6 +23,17 @@ An April 2026 `Napolitano x Mearsheimer` branch is now routeable on disk as well
 | [diesen x mearsheimer](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-mearsheimer-speaker-arc.md) | Structural altitude | Great-power geometry, NATO decline, security-dilemma logic, order transition, and the way local wars plug into wider systemic change |
 | [davis x mearsheimer](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-mearsheimer-speaker-arc.md) | Coercive failure and bargaining geometry | Failed punishment logic, shrinking leverage, settlement impossibility, and the gap between what Washington threatens and what it can actually impose |
 
+## Orthogonality guide
+
+These host arcs should be read as **two distinct realizations of one structural-realist voice**, not as duplicative Mearsheimer packaging.
+
+Quick separation rule:
+
+- `diesen x mearsheimer` = order-transition architecture, great-power geometry, and system-level consequence
+- `davis x mearsheimer` = coercive failure, bargaining limits, and what escalation cannot realistically achieve
+
+If a Mearsheimer claim could sit in both lanes without changing the operator's use, prefer the narrower host lane or keep it at raw-input level rather than widening the double-helix claim.
+
 ## Open first
 
 If the operator needs the cleanest single introduction to the helix:
@@ -52,3 +63,4 @@ Use this helix note when the notebook is doing one or more of the following:
 - Third-strand materials do exist in the broader Mearsheimer shelf, including [transcript-hedges-mearsheimer-iran-2026-04-20.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-20/transcript-hedges-mearsheimer-iran-2026-04-20.md) and [transcript-mearsheimer-redacted-trump-iran-2026-04-21.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-21/transcript-mearsheimer-redacted-trump-iran-2026-04-21.md), but those do not yet constitute a stable third canonical cognition-stream arc.
 - This note is not a generic Mearsheimer profile; it is a host-transformation note.
 - Prefer the host-local arc when the task is stream-specific; use the helix when the task is comparative.
+- Do not use the Diesen strand as a shortcut for bargaining-feasibility critique, or the Davis strand as a shortcut for order-transition architecture. Those are distinct retrieval surfaces.

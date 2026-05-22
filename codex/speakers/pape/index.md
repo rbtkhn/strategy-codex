@@ -15,10 +15,20 @@ Purpose: front door for the canonical Pape shelf, with the active stream first a
 
 - [Monthly book](stream/pape-book-2026-04.md)
 - [Daily chapter seed](stream/pape-chapter-2026-04-01.md)
-- [Thread compatibility file](stream/pape-thread.md)
+- [Thread compatibility file](stream/pape-thread.md) - legacy continuity surface; not the canonical authored/interview split
 - [Transcript compatibility file](stream/pape-transcript.md)
 - [Source-hygiene note](stream/pape-source-hygiene-2026-04-29-pape-grim.md)
 - [Page template](pape-page-template.md)
+
+## Canonical Structure
+
+Pape's orthogonality-bearing structure is:
+
+- [Forecast ledger](stream/pape-forecast-ledger-2026.md) for the canonical authored mechanism
+- [Interview appearance map](pape-interview-appearances-2026.md) for the interview-pressure strand
+- [Speaker helix](pape-helix.md) for the crossing surface between those two strands
+
+Do not read [stream/pape-thread.md](stream/pape-thread.md) as a second competing thread system. It is a legacy compatibility file carried forward from the older expert-thread machinery.
 
 ## Frontier Pages
 

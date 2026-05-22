@@ -26,6 +26,18 @@ Parsi is now wired as a **two-strand policy-process helix**: the authored diplom
 
 In the [authored pressure quartet](/C:/dev/strategy-codex/codex/speakers/authored-pressure-quartet.md), Parsi is the **diplomacy engine**: bargain structure, off-ramps, implementation, sanctions relief, guarantees, and regional architecture.
 
+## Compatibility shape
+
+This shelf already has a genuine canonical structure:
+
+- [parsi-helix.md](/C:/dev/strategy-codex/codex/speakers/parsi/parsi-helix.md) is the crossing surface
+- [stream/parsi-forecast-ledger-2025-2026.md](stream/parsi-forecast-ledger-2025-2026.md) carries the authored diplomacy mechanism
+- [parsi-interview-appearances-2025-2026.md](/C:/dev/strategy-codex/codex/speakers/parsi/parsi-interview-appearances-2025-2026.md) carries the interview-pressure strand
+
+The older [stream/parsi-thread.md](stream/parsi-thread.md) file is therefore a **legacy continuity compatibility surface**, not the place where Parsi's real structural orthogonality is defined.
+
+Do not treat `parsi-thread.md` as a parallel canonical thread system beside the authored ledger and interview map. The orthogonality-bearing structure lives in the helix and its two source-separated strands.
+
 ## Boundary
 
 Parsi is not a Crooke/Ritter-style triple host helix. His stronger shape is authored diplomacy spine plus targeted host-pressure strand.

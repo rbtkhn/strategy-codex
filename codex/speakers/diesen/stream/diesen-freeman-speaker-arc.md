@@ -71,6 +71,17 @@ Second-best paired read: [diesen-jiang-speaker-arc.md](/C:/dev/strategy-codex/co
 
 Why: Jiang and Freeman can touch the same order-transition terrain, but Freeman is steadier and more statecraft-coded while Jiang is more speculative and high-variance.
 
+## Orthogonality guide
+
+Quick separation rule:
+
+- `Diesen x Freeman` is the maritime-order and diplomatic-decay altitude lane.
+- `Davis x Freeman` is the settlement-realism and coercion-limit lane.
+- `Dialogue Works x Freeman` is the immediate crisis-pressure and performative-negotiation lane.
+- `Napolitano x Freeman` is the legal-moral legitimacy and anti-war-pressure lane.
+
+Do not use this arc as a shortcut for battlefield-to-settlement realism, live event tempo, or constitutional anti-war critique. Its distinctive job is to interpret blockade, diplomacy, and U.S.-China order talk at strategic altitude.
+
 ## Routing use
 
 Use `Diesen x Freeman` when the notebook needs:
@@ -89,3 +100,5 @@ Do not overuse Freeman as:
 - a pure civ-mem or prophetic voice
 
 He is strongest as a **career-diplomat order interpreter**, not as a primary on-the-ground verifier.
+
+If the question is mainly about phony ceasefires, current-event alliance strain, or immediate crisis messaging, route outward to [alkorshid-freeman-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-freeman-speaker-arc.md) instead of forcing this arc to do live-pressure work.

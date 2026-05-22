@@ -10,9 +10,9 @@ Postol is not only an Alkorshid-adjacent voice. There is now clear evidence that
 
 The clearest current host-local branches are:
 
-- [Davis x Postol](/C:/dev/strategy-codex/codex/years/2026/davis/davis-postol-speaker-arc.md)
-- [Diesen x Postol](/C:/dev/strategy-codex/codex/years/2026/diesen/diesen-postol-speaker-arc.md)
-- [Alkorshid x Postol](/C:/dev/strategy-codex/codex/years/2026/alkorshid/alkorshid-postol-speaker-arc.md)
+- [Davis x Postol](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-postol-speaker-arc.md)
+- [Diesen x Postol](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-postol-speaker-arc.md)
+- [Alkorshid x Postol](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-postol-speaker-arc.md)
 
 There is also shelf-supporting inventory evidence for the broader Dialogue Works / Alkorshid run:
 

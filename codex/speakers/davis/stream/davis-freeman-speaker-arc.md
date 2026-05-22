@@ -73,6 +73,17 @@ That pair gives the clearest full lane shape:
 - battlefield pressure versus political end-state realism
 - force talk versus actual statecraft
 
+## Orthogonality guide
+
+Quick separation rule:
+
+- `Davis x Freeman` is the settlement-realism and diplomatic-collapse lane.
+- `Diesen x Freeman` is the order-transition and maritime-order lane.
+- `Dialogue Works x Freeman` is the live crisis-pressure and phony-ceasefire lane.
+- `Napolitano x Freeman` is the legal-moral legitimacy and anti-war-pressure lane.
+
+Do not use this arc as a shortcut for Freeman's maritime-order altitude, live crisis tempo, or legal-moral critique. Its distinctive job is to show what coercion cannot negotiate back once diplomacy and political end states have degraded.
+
 ## Routing use
 
 Use this speaker arc when a Davis ingest or batch pass is doing one or more of the following:
@@ -95,3 +106,4 @@ Typical pairings around the guest lane:
 - The 2026 lane is now real on disk, but it remains smaller than the Mearsheimer shelf; do not overstate its scale.
 - The 2025 Ukraine files are not noise. They are the roots that make the 2026 Iran files legible as a transformed continuation rather than a separate guest coincidence.
 - Some older Davis x Freeman files on disk still have malformed guest metadata from earlier ingestion; use the host-local lane and the titles correctly, not the legacy malformed `guest:` fields, when routing older shelf items.
+- If the question is mainly about sea-power transition or Hormuz as world-order lever, route outward to [diesen-freeman-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-freeman-speaker-arc.md) rather than stretching this arc beyond its settlement-realism role.

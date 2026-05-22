@@ -86,6 +86,16 @@ That pair still gives the clearest combination of:
 - military talk versus structural limits
 - the recurring Davis-hosted question of what Washington can really force
 
+## Orthogonality guide
+
+Quick separation rule:
+
+- `Davis x Mearsheimer` is the feasibility, coercive-limits, and bargaining-geometry lane.
+- `Diesen x Mearsheimer` is the structural-realist architecture and order-transition lane.
+- `Napolitano x Mearsheimer` is the defeat-accounting and self-entrapment lane.
+
+Do not use this arc as a shortcut for broad realist world-order explanation or Napolitano's sharper defeat-accounting register. Its distinctive job is to test whether coercive escalation can still produce a politically usable outcome.
+
 ## Routing use
 
 Use this speaker arc when a Davis ingest or batch pass is doing one or more of the following:
@@ -103,6 +113,8 @@ Typical pairings around the guest lane:
 - `diesen`
 
 ## Boundaries
+
+- If the question is mainly about self-entrapment, incoherent process, or foreign-war-to-domestic-crackdown sequencing rather than bargaining geometry and feasibility, route outward to [napolitano-mearsheimer-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-mearsheimer-speaker-arc.md).
 
 - Mearsheimer is strongest here on structure, incentives, and bargaining geometry, not on fine-grained tactical verification or technical military mechanics.
 - The 2026-04-30 file is the clearest mature anchor, but the deeper channel search shows that the 2026 run is under-materialized locally; absence from canonical raw-input should not be mistaken for absence from the stream.

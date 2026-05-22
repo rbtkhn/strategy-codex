@@ -4,6 +4,20 @@ WORK only; not Record.
 
 Purpose: compact reuse note for the `Diesen x Beebe` run inside the Diesen stream. This is not a substitute for the full raw-input shelf. It exists so future routing can quickly answer: what kind of Beebe lane Diesen elicits, which full-form episodes matter most, and why this branch is materially real on disk.
 
+## Orthogonality guide
+
+This file should be read as the **bargaining-geometry and retrenchment-order** lane inside Diesen, not as a generic high-level realist surface.
+
+Quick separation rule:
+
+- `Diesen x Beebe` = off-ramp design, settlement architecture, escalation management, and retrenchment choices
+- [diesen-matlock-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-matlock-speaker-arc.md) = historical diplomatic memory of how earlier settlements were negotiated or broken
+- [diesen-jiang-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-jiang-speaker-arc.md) = speculative empire and game-theoretic horizon expansion
+- [diesen-krainer-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-krainer-speaker-arc.md) = macro-financial consequence and commodity-system translation
+- [diesen-karaganov-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-karaganov-speaker-arc.md) = Russian elite deterrence and Eurasian doctrine
+
+If the notebook needs to know whether a viable settlement architecture still exists, and what retrenchment or escalation-management choices remain, route here. If it needs negotiation memory, speculation, macro-economics, or Russian doctrinal language, route to the neighboring arcs instead.
+
 ## Why this guest run matters
 
 George Beebe matters here less as a generic former intelligence official than as a recurring **escalation-management, bargaining-geometry, and retrenchment-order** voice inside a host stream otherwise centered on multipolar transition, European disorder, and strategic consequence.
@@ -75,9 +89,17 @@ Typical pairings around the guest lane:
 - `crooke`
 - `beebe`
 
+Distinct from:
+
+- [diesen-matlock-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-matlock-speaker-arc.md), which is stronger on historical witness than on present-tense off-ramp design
+- [diesen-jiang-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-jiang-speaker-arc.md), which is stronger on speculative horizon expansion than on settlement geometry
+- [diesen-krainer-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-krainer-speaker-arc.md), which is stronger on market and commodity consequence than on bargaining architecture
+- [diesen-karaganov-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-karaganov-speaker-arc.md), which is stronger on Russian elite doctrine than on off-ramp design
+
 ## Boundaries
 
 - Beebe is strongest here on settlement geometry, escalation management, and retrenchment logic, not on domestic-politics narration or technical weapons correction.
 - `The Duran x Beebe` appears real in search, but it is not materially imported in this pass and should not be treated as an equal on-disk branch yet.
 - This lane is real because the host-local shape repeats across many full-form Glenn Diesen episodes, not because every episode carries equal weight.
 - Prefer this guest run when the Codex needs strategic consequence disciplined by bargaining and escalation logic.
+- Do not let this branch silently absorb Matlock's diplomatic-memory lane, Jiang's theory lane, Krainer's macro-financial lane, or Karaganov's doctrinal lane.

@@ -6,6 +6,20 @@ Purpose: define the current `mercouris-arc` as a bounded helix of recurring Merc
 
 Model note: an **arc is a bounded helix of arc-threads**. For Mercouris, the arc is primarily stream-native: the native Duran/Mercouris continuity is the main body, while Davis and Diesen guest-host appearances reinforce the same thread lines without yet promoting the object into a mature speaker helix.
 
+## Orthogonality guide
+
+This file should be read as the **native bounded-arc surface**, not as a replacement for either the detailed thread atlas or the host-local branches.
+
+Quick separation rule:
+
+- `mercouris-arc` = the durable native arc shape and its main motion
+- [mercouris-arc-threads.md](mercouris-arc-threads.md) = the canonical atlas of distinct recurring strands inside that arc
+- [mercouris-thread.md](mercouris-thread.md) = legacy continuity compatibility, useful for dated browsing but not a second canonical thread system
+- `Davis x Mercouris` = feasibility-pressure reinforcement branch
+- `Diesen x Mercouris` = legitimacy-order-transition reinforcement branch
+
+If a question is mainly about how one recurring Mercouris thesis differs from another, route to the thread atlas. If it is mainly about how a host changes the Mercouris read, route to the relevant host-local arc rather than widening this native arc surface.
+
 ## Arc Shape
 
 `mercouris-arc` = a **stream-native bounded helix**.
@@ -36,6 +50,12 @@ Current reinforcement branches:
 - [Diesen x Mercouris](../../diesen/stream/diesen-mercouris-speaker-arc.md) - a thin but meaningful host-local branch that braids the legitimacy-crisis thread with Diesen's order-transition frame.
 - [Davis x Mercouris](../../davis/stream/davis-mercouris-speaker-arc.md) - a stable host-local branch that braids Davis's military-feasibility frame with Mercouris's diplomatic sequencing, European spoiler logic, and institutional-politics register.
 
+Distinct from:
+
+- [mercouris-arc-threads.md](mercouris-arc-threads.md), which carries the internal strand differentiation rather than the overall arc shape
+- [mercouris-thread.md](mercouris-thread.md), which preserves continuity browsing but should not be treated as the orthogonality-bearing thread surface
+- the host-local branches above, which show how external host pressure changes the usable Mercouris object
+
 ## Open First
 
 If the operator needs the durable thesis layer:
@@ -57,5 +77,6 @@ If the operator needs speaker-object doctrine:
 
 - Do not treat `mercouris-arc` as a mature `mercouris-helix`.
 - Do not treat the Diesen branch as the whole Mercouris arc.
+- Do not let the Davis or Diesen branches silently stand in for the native Mercouris arc.
 - Do not flatten Mercouris's thread atlas into one generic "multipolar" thesis.
 - Open raw-input before quoting or making claim-grade factual use.

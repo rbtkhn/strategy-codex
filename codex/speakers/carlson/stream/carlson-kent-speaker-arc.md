@@ -28,6 +28,17 @@ Compared with Davis, Diesen, and Nawfal, Carlson makes Kent's role more juridica
 - `Nawfal` asks why Trump remains trapped despite apparent anti-war instinct.
 - `Carlson` asks Kent to state, on the record, what happened inside the decision environment and why the stated imminent-threat theory fails.
 
+## Orthogonality guide
+
+Quick separation rule:
+
+- `Carlson x Kent` is the testimony and inside-decision-environment lane.
+- `Davis x Kent` is the operational exit and force-feasibility lane.
+- `Diesen x Kent` is the structural-history and order-transition lane.
+- `Nawfal x Kent` is the political-pressure and legitimacy-strain lane.
+
+Do not use this arc as a shortcut for walkaway feasibility, Iraq/Syria/ISIS structural critique, or Trump-pressure psychology. Its distinctive job is to preserve Kent as a witness figure speaking on the record about what happened inside the decision process.
+
 ## Claims To Keep Separate
 
 Use raw-input when any of these become load-bearing:
@@ -42,3 +53,5 @@ The notebook may route these as Kent testimony, but it should not convert them i
 ## Relation to Kent helix
 
 This arc upgrades the Kent helix: Carlson is the public-testimony branch. Davis remains the operational-exit branch, Diesen the structural-history branch, and Nawfal the political-pressure branch.
+
+If the question is mainly about whether the war can be exited or won, route outward to [davis-kent-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-kent-speaker-arc.md) rather than stretching this testimony lane into force-feasibility work.

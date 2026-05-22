@@ -3,6 +3,19 @@
 
 WORK only; not Record.
 
+## Orthogonality guide
+
+Read this file as a **legacy continuity checkpoint**, not as a thread that competes with the current Pape helix structure.
+
+Quick separation rule:
+
+- this file = backward-compatible continuity and journal carryover
+- the compatibility note below = names the actual orthogonality-bearing Pape surfaces
+
+If a question is about coercion-routing, host transformation, or canonical structure, route to those named surfaces instead of widening this file.
+
+Compatibility note: this file is a legacy continuity surface from the older expert-thread machinery. In the current Pape shelf, the canonical orthogonality-bearing structure is the authored forecast ledger plus the interview appearance map, crossed by [pape-helix.md](../pape-helix.md), not this file.
+
 **Source:** Human **narrative journal** (below) + [`strategy-expert-pape-transcript.md`](strategy-expert-pape-transcript.md) (7-day verbatim) + relevant **pages** (where this voice was used in strategy work).
 **Process:** `python3 scripts/strategy_thread.py` triages inbox ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ transcript, then fills **only** the **machine layer** between the **strategy-expert-thread** HTML start and end comments. Operator / assistant maintains the **journal layer** above the start marker in **readable prose** (optional **ledger** after the end marker).
 **Updated:** Narrative ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â when you distill; **machine layer** ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â when you run **`thread`**.

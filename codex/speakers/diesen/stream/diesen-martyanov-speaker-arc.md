@@ -52,6 +52,16 @@ That pair gives the clearest current lane shape:
 - NATO and Europe consequence
 - order-transition widened through military reality
 
+## Orthogonality guide
+
+Quick separation rule:
+
+- `Diesen x Martyanov` is the escalation-horizon and order-consequence lane.
+- `Davis x Martyanov` is the military-feasibility and outcome-correction lane.
+- `Dialogue Works x Martyanov` is the live-pressure, systems-realism, and strategic-collapse lane.
+
+Do not use this arc as a shortcut for feasibility triage or highest-temperature collapse narration. Its distinctive job is to widen military outcome into NATO decline, European consequence, and strategic-order interpretation.
+
 ## Routing use
 
 Use this speaker arc when a Diesen ingest or batch pass is doing one or more of the following:
@@ -69,6 +79,8 @@ Typical pairings around the guest lane:
 - `berletic`
 
 ## Boundaries
+
+- If the question is mainly about whether the battlefield has already decided the issue rather than how that outcome reshapes wider order, route outward to [davis-martyanov-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-martyanov-speaker-arc.md).
 
 - Martyanov is strongest here on strategic consequence grounded in military outcome, not on diplomacy-first sequence or legitimacy framing.
 - This branch is materially real on disk, but thinner than the Alkorshid and Davis branches in the current shelf.

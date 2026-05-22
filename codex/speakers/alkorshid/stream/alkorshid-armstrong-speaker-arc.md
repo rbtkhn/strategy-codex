@@ -4,6 +4,19 @@ WORK only; not Record.
 
 Purpose: compact reuse note for the `Dialogue Works x Armstrong` run inside the Alkorshid stream. This is not a substitute for the raw-input shelf. It exists so future routing can quickly answer: what kind of Armstrong lane Alkorshid elicits, which files matter most, and why this is now the clearest mature Armstrong branch on disk.
 
+## Orthogonality guide
+
+This file should be read as the **macro-war convergence and sovereign-stress** Armstrong branch inside Dialogue Works, not as a generic world-order collapse surface.
+
+Quick separation rule:
+
+- `Dialogue Works x Armstrong` = debt, capital stress, tariffs/BRICS pressure, and macro-war convergence
+- [diesen-jermy-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-jermy-speaker-arc.md) = maritime-order fracture and alliance divorce at order-transition altitude
+- [sachs/README.md](/C:/dev/strategy-codex/codex/speakers/sachs/README.md) surfaces = development, macro-policy, and system-design critique rather than cycle-stress prophecy
+- [pape/README.md](/C:/dev/strategy-codex/codex/speakers/pape/README.md) surfaces = coercion, war aims, and strategic pressure mechanics rather than sovereign-debt and systemic reset language
+
+If the notebook needs to widen a conflict into sovereign stress, fiscal consequence, and macro-order fracture, route here. If it needs maritime-system fallout, policy-design critique, or coercion mechanics, route to those neighboring surfaces instead.
+
 ## Why this guest run matters
 
 Martin Armstrong matters here less as a generic macro commentator than as a recurring **cycle-stress, sovereign-debt, and macro-war convergence** voice inside a host stream built to pressure-test live geopolitical crises.
@@ -72,8 +85,15 @@ Typical pairings around the guest lane:
 - `sachs`
 - `pape`
 
+Distinct from:
+
+- the Jermy surfaces, which are stronger on maritime order and alliance breakup than on debt and macro-cycle stress
+- the Sachs surfaces, which are stronger on macro-policy structure and political economy than on Armstrong's systemic-war and cycle language
+- the Pape surfaces, which are stronger on coercive strategy and campaign logic than on fiscal rupture and civilizational reset framing
+
 ## Boundaries
 
 - Armstrong is strongest here on macro-war, sovereign-stress, and order-fracture language, not on military engineering detail or bargaining-room diplomacy.
 - This branch is materially real and mature on disk, but it should not be mistaken for a proof of equal maturity in every other host lane.
 - The existence of this branch does not by itself justify a formal double-helix claim for Armstrong.
+- Do not let this branch silently absorb maritime-order, strategy-mechanics, or policy-design lanes that belong elsewhere.

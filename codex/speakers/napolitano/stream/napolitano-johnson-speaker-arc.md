@@ -35,6 +35,17 @@ In this lane the useful transformation is:
 - [2025-12-22 Larry Johnson - Why Is the West Ignorant of Russia?](/C:/dev/strategy-codex/codex/years/2026/raw-input/2025-12-22/transcript-napolitano-johnson-why-is-the-west-ignorant-of-russia-2025-12-22.md)
 - [2025-11-24 Larry Johnson - 28-Point Plan Is Dead on Arrival](/C:/dev/strategy-codex/codex/years/2026/raw-input/2025-11-24/transcript-napolitano-johnson-28-point-plan-is-dead-on-arrival-2025-11-24.md)
 
+## Orthogonality guide
+
+Quick separation rule:
+
+- `Napolitano x Johnson` is the process-pressure and constitutional-absurdity lane.
+- `Davis x Johnson` is the operational-feasibility and coercive-failure lane.
+- `Diesen x Johnson` is the geopolitical-altitude and regional-order-consequence lane.
+- `Alkorshid x Johnson` is the live crisis-pressure and immediate-escalation lane.
+
+Do not use this arc as a shortcut for feasibility triage, wider regional redrawing, or high-temperature event narration. Its distinctive job is to press Johnson's crisis reading through war-powers skepticism, process irrationality, and elite-failure exposure.
+
 ## Routing use
 
 Use this arc when the notebook needs:
@@ -44,6 +55,8 @@ Use this arc when the notebook needs:
 - the same-day seam with `Ritter x Napolitano` without flattening the two lanes
 
 ## Boundaries
+
+- If the question is mainly about whether the military plan is materially workable rather than whether the process is absurd or self-entrapping, route outward to [davis-johnson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-johnson-speaker-arc.md).
 
 - This is now a materially real November 2025-April 2026 Napolitano branch.
 - The November-through-March files are routeable but summary-grade; the April 20 file remains the strongest native opening point.

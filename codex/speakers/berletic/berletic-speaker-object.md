@@ -36,7 +36,7 @@ Berletic should currently be read as a **cross-host reinforced speaker object wh
 That means:
 
 - the object is stronger than a one-off guest shelf because it has real recurring reuse
-- the [Diesen x Berletic speaker arc](/C:/dev/strategy-codex/codex/years/2026/diesen/diesen-berletic-speaker-arc.md) is presently the clearest stable host-local form on disk
+- the [Diesen x Berletic speaker arc](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-berletic-speaker-arc.md) is presently the clearest stable host-local form on disk
 - The Duran materially reinforces the object and widens its usefulness
 - but the notebook should not yet overstate this as a mature double or triple speaker-helix without denser host-local arc structure actually materialized on disk outside Diesen
 
@@ -61,7 +61,7 @@ See [berletic-cross-host-note.md](/C:/dev/strategy-codex/codex/speakers/berletic
 
 If the operator needs the clearest current host-local entry:
 
-- open [diesen-berletic-speaker-arc.md](/C:/dev/strategy-codex/codex/years/2026/diesen/diesen-berletic-speaker-arc.md)
+- open [diesen-berletic-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-berletic-speaker-arc.md)
 
 If the operator needs the strongest current orientation entry:
 

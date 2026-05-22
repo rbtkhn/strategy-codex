@@ -53,6 +53,16 @@ That pair gives the clearest combination of:
 - imperial-distance and logistics burden
 - late-2025 continuity into the harder 2026 Gulf-war framing
 
+## Orthogonality guide
+
+Quick separation rule:
+
+- `Diesen x Macgregor` is the force-balance altitude and imperial-distance-consequence lane.
+- `Davis x Macgregor` is the war-feasibility, imperial-overreach, and political-danger lane.
+- `Napolitano x Macgregor` is the anti-aggression and undeclared-war-pressure lane.
+
+Do not use this arc as a shortcut for domestic political-danger emphasis or Napolitano's anti-war indictment. Its distinctive job is to bind force-balance severity to NATO decline, imperial distance, and wider order consequence.
+
 ## Routing use
 
 Use this guest speaker arc when a Diesen ingest or batch pass is doing one or more of the following:
@@ -70,6 +80,8 @@ Typical pairings around the guest lane:
 - `baud`
 
 ## Boundaries
+
+- If the question is mainly about whether Washington can materially sustain its preferred war outcome rather than what imperial distance does to the whole system, route outward to [davis-macgregor-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-macgregor-speaker-arc.md).
 
 - This guest run is no longer just a thin prehistory. It is still narrower than the very dense Davis branch, but the 2025 shelf is now materially real.
 - An additional Diesen x Macgregor file exists under `_aired-pending`, but it is excluded from the arc set until a publish date is pinned and it is promoted into the canonical date tree.

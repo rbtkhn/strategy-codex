@@ -11,6 +11,16 @@ Purpose: front door for the canonical Blumenthal shelf, surfacing the existing s
 - [Speaker object](blumenthal-speaker-object.md) - object doctrine and routing use.
 - [Cross-host note](blumenthal-cross-host-note.md) - why Blumenthal belongs as a recurring cross-host commentary object.
 
+## Canonical Structure
+
+The orthogonality-bearing structure on this shelf is:
+
+- [blumenthal-speaker-object.md](blumenthal-speaker-object.md), which defines Blumenthal as a cross-host reinforced commentary object
+- [blumenthal-cross-host-note.md](blumenthal-cross-host-note.md), which preserves the live reinforcement claim without overstating helix maturity
+- [blumenthal-raw-input-index.md](blumenthal-raw-input-index.md), which routes the actual on-disk appearance map
+
+The older [blumenthal-thread.md](blumenthal-thread.md) file is a **legacy continuity compatibility surface**, not a canonical topical-thread atlas.
+
 ## Core Lane Files
 
 - [Speaker profile](blumenthal-profile.md)

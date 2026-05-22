@@ -16,9 +16,19 @@ Purpose: front door for the canonical Johnson shelf, surfacing the speaker-routi
 - [Speaker folder README](../../../speakers/johnson/README.md)
 - [Cross-year note](../../../speakers/johnson/johnson-cross-year-note.md)
 - [Speaker profile](../../../speakers/johnson/johnson-profile.md)
-- [Thread compatibility file](../../../speakers/johnson/johnson-thread.md)
+- [Thread compatibility file](../../../speakers/johnson/johnson-thread.md) - legacy continuity surface; not a canonical topical-thread system
 - [Transcript compatibility file](../../../speakers/johnson/johnson-transcript.md)
 - [Page template](../../../speakers/johnson/johnson-page-template.md)
+
+## Canonical Structure
+
+Johnson's orthogonality-bearing structure is:
+
+- [Speaker helix](../../../speakers/johnson/johnson-helix.md) for the crossing surface across the main host lanes
+- the three main host-local arcs for distinct host transformations
+- [Cross-year note](../../../speakers/johnson/johnson-cross-year-note.md) for the longitudinal maturity claim
+
+Do not read [johnson-thread.md](../../../speakers/johnson/johnson-thread.md) as a second competing topical-thread system. It is a legacy compatibility file carried forward from the older expert-thread machinery.
 
 ## Main Host Arcs
 

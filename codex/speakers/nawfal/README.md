@@ -10,6 +10,15 @@ It is not currently a full cognition stream shelf. Use it only when a materializ
 
 - [Nawfal x Kent](/C:/dev/strategy-codex/codex/speakers/nawfal/stream/nawfal-kent-speaker-arc.md)
 
+## Compatibility shape
+
+This shelf is intentionally a **small host-local mini-shelf**, not a full host stream.
+
+Its current canonical structure is therefore light:
+
+- [Nawfal x Kent](/C:/dev/strategy-codex/codex/speakers/nawfal/stream/nawfal-kent-speaker-arc.md) is the one materially useful host-local arc
+- the shelf exists only to preserve Nawfal as a host-conditioned transformation when that transformation strengthens a guest object
+
 ## Boundary
 
 - Do not treat this as a full watchlist stream.

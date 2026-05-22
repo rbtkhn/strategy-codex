@@ -8,6 +8,23 @@ Model note: this file is a **thread atlas**, not the arc itself. It names the re
 
 Boundary: Mercouris remains primarily stream-native. These arc-threads are operator synthesis over captured and indexed appearances. Open linked pages or raw-input before quoting or making claim-grade use.
 
+Compatibility note: [mercouris-thread.md](mercouris-thread.md) remains as a legacy continuity surface from the older expert-thread machinery. It is not a second canonical thread atlas. For Mercouris, the orthogonality-bearing thread structure lives here.
+
+## Orthogonality guide
+
+These arc-threads should be read as **distinct recurring strands inside one bounded Mercouris arc**, not as six ways to restate the same thesis.
+
+Quick separation rule:
+
+- `institutional narrative` = who is speaking, what room exists, and how signals are sequenced
+- `Hormuz system lever` = chokepoint leverage and the Gulf-energy bargaining system
+- `Ukraine attrition` = proxy-war exhaustion and Western instrument failure
+- `sanctions and energy` = self-damaging economic pressure and supply dependency
+- `multipolar room` = Russia-China-Iran coordination as diplomatic architecture
+- `legitimacy crisis` = internal authority erosion across Europe and the wider order
+
+If a new Mercouris item can live equally well in several of these without changing how the operator would use it, prefer the narrower parent strand or keep it at page level instead of widening the atlas.
+
 ## Spine
 
 `institutional narrative -> diplomatic room -> Hormuz leverage -> Ukraine attrition -> sanctions stress -> multipolar coordination -> legitimacy crisis`
@@ -35,6 +52,11 @@ Anchors:
 
 Arc-thread motion: the strand begins as close reading of official rooms and public statements, then turns into a statecraft grammar for reading blockade announcements, ceasefire windows, warning language, and visible retreat.
 
+Distinct from:
+
+- `Hormuz becomes a system lever`, which is about chokepoint leverage itself rather than the room-reading grammar around it
+- `Russia-China-Iran coordination thickens the multipolar room`, which is about alternative diplomatic architecture rather than institutional sequencing as such
+
 Boundary: Use this strand for narrative sequence and institutional-position reading. Do not convert it into primary factual proof of naval events, intelligence claims, or hidden intent.
 
 ## 2. Hormuz Becomes A System Lever
@@ -50,6 +72,11 @@ Anchors:
 - 2026-05-05 - Hormuz / UAE / Russia / China: [raw-input](../../../years/2026/raw-input/2026-05-05/transcript-mercouris-hormuz-uae-russia-china-2026-05-05.md)
 
 Arc-thread motion: March frames Hormuz as shock, closure, and energy leverage; April turns it into blockade credibility and U.S. retreat theater; May reads the same object as a Gulf-China-Russia-U.S. bargaining system.
+
+Distinct from:
+
+- `Sanctions and energy expose Western self-damage`, which is about economic blowback and dependency rather than the chokepoint as a coercive system lever
+- `Institutional narrative turns signals into statecraft`, which is about official sequencing and authority rather than the Hormuz object itself
 
 Boundary: Quantitative transit, tanker, blockade, or ORBAT claims need primary or specialist verification before reuse.
 
@@ -71,6 +98,11 @@ Anchors:
 
 Arc-thread motion: the strand moves from battlefield pressure to institutional exhaustion: Europe cannot fund and arm at the level its rhetoric implies, Ukraine's command and corruption crises become strategic variables, and Russia's tempo forces political choices.
 
+Distinct from:
+
+- `Western legitimacy crisis moves from Europe to the whole order`, which is about political authority erosion rather than proxy-war instrument exhaustion
+- `Sanctions and energy expose Western self-damage`, which focuses on economic pressure mechanisms instead of the Ukraine war-management system
+
 Boundary: Treat battlefield maps, casualty claims, and equipment claims as verification-dependent. This strand is strongest as institutional and sequencing analysis.
 
 ## 4. Sanctions And Energy Expose Western Self-Damage
@@ -86,6 +118,11 @@ Anchors:
 
 Arc-thread motion: sanctions appear first as pressure tools, then as self-damaging exposure of supply dependency, energy-market limits, and European political brittleness.
 
+Distinct from:
+
+- `Ukraine attrition becomes Western instrument exhaustion`, which focuses on proxy-war material failure rather than sanctions blowback
+- `Hormuz becomes a system lever`, which focuses on chokepoint coercion rather than the broader sanctions-and-fuel self-damage pattern
+
 Boundary: Energy and sanctions claims should be checked against market data, legal texts, and shipping/commodity reporting before publication-grade reuse.
 
 ## 5. Russia-China-Iran Coordination Thickens The Multipolar Room
@@ -100,6 +137,11 @@ Anchors:
 - 2026-05-15 - China warns U.S. over Taiwan / will not pressure Iran: [raw-input](../../../years/2026/raw-input/2026-05-15/youtube-alex-mercouris-china-warns-us-of-war-over-taiwan-won-t-pressure-iran-russia-hunts-destroys-us-ukraine-investments-2026-05-15.md)
 
 Arc-thread motion: Russia and China begin as diplomatic responders to U.S. overreach, then become part of an alternative room that complicates U.S. coercion against Iran and Ukraine at the same time.
+
+Distinct from:
+
+- `Institutional narrative turns signals into statecraft`, which reads official rooms and sequences without necessarily implying an alternative multipolar room
+- `Western legitimacy crisis moves from Europe to the whole order`, which is about decline and authority erosion rather than the positive construction of a different diplomatic room
 
 Boundary: Do not flatten coordination into alliance. The strand is about diplomatic room, signaling, and mutual leverage unless primary documents show harder commitments.
 
@@ -117,6 +159,11 @@ Anchors:
 - 2026-05-19 - Russia warns NATO / Baltic war test / nuclear forces: [raw-input](../../../years/2026/raw-input/2026-05-19/youtube-alex-mercouris-russia-warns-nato-baltic-war-test-nuclear-forces-putin-to-china-trump-iran-retreat-konstantinovka-2026-05-19.md)
 
 Arc-thread motion: early reinforcement through Davis frames NATO wartime posture; the later Davis branch adds rule-of-law erosion and U.S. force-posture legitimacy; Diesen makes the European legitimacy crisis explicit; late-May native stream material shows the same crisis moving through Moldova, Belarus, Baltic warning, Russia talks, and NATO escalation rhetoric.
+
+Distinct from:
+
+- `Ukraine attrition becomes Western instrument exhaustion`, which is about operational and proxy-war depletion rather than legitimacy as such
+- `Russia-China-Iran coordination thickens the multipolar room`, which is about the external alternative diplomatic room rather than the internal crisis of Western authority
 
 Boundary: This is the arc-thread most likely to become a richer host-local braid if additional Diesen or Davis appearances materialize.
 

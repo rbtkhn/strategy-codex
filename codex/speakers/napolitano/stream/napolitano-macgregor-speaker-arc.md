@@ -30,6 +30,16 @@ Douglas Macgregor matters here as a **force-balance and imperial-overreach** gue
 - [2025-12-11 Douglas Macgregor - Why Threaten Venezuela?](/C:/dev/strategy-codex/codex/years/2026/raw-input/2025-12-11/transcript-napolitano-macgregor-why-threaten-venezuela-2025-12-11.md)
 - [2025-11-13 Douglas Macgregor - War Is Coming Soon](/C:/dev/strategy-codex/codex/years/2026/raw-input/2025-11-13/transcript-napolitano-macgregor-war-is-coming-soon-2025-11-13.md)
 
+## Orthogonality guide
+
+Quick separation rule:
+
+- `Napolitano x Macgregor` is the anti-aggression and undeclared-war-pressure lane.
+- `Davis x Macgregor` is the war-feasibility, imperial-overreach, and political-danger lane.
+- `Diesen x Macgregor` is the force-balance altitude and imperial-distance-consequence lane.
+
+Do not use this arc as a shortcut for logistics-heavy feasibility testing or broad order-level empire consequence. Its distinctive job is to press Macgregor through illegitimate-war critique, elite war-planning indictment, and undeclared-war normalization.
+
 ## Routing use
 
 Use this arc when the notebook needs:
@@ -39,6 +49,8 @@ Use this arc when the notebook needs:
 - auxiliary Macgregor reinforcement outside the `Diesen + Davis` durable pair
 
 ## Boundaries
+
+- If the question is mainly about force sustainability, inflation, or Hormuz cost rather than undeclared-war indictment, route outward to [davis-macgregor-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-macgregor-speaker-arc.md).
 
 - This is a real November 2025-April 2026 Napolitano branch.
 - The November-through-March files are routeable but summary-grade; the April 23 file remains the strongest native opening point.

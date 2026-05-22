@@ -68,6 +68,17 @@ That pair gives the clearest combination of:
 - war metamorphosis
 - why the conflict matters to powers beyond the theater itself
 
+## Orthogonality guide
+
+Quick separation rule:
+
+- `Dialogue Works x Crooke` is the live crisis-meaning and event-pressure lane.
+- `Davis x Crooke` is the bargaining-room and strategic-room realism lane.
+- `Diesen x Crooke` is the order-transition and system-shock lane.
+- The authored Crooke ledger is where Crooke states the mechanism in his own voice rather than through host pressure.
+
+Do not use this arc as a shortcut for bargaining structure, slower leverage diagnosis, or world-order altitude. Its distinctive job is to widen immediate crisis motion into deeper civilizational and geopolitical meaning under live event pressure.
+
 ## Routing use
 
 Use this speaker arc when an Alkorshid ingest or batch pass is doing one or more of the following:
@@ -85,6 +96,8 @@ Typical pairings around the guest lane:
 - `marandi`
 
 ## Boundaries
+
+- If the question is mainly about negotiation room, sanctions leverage, or settlement architecture, route outward to [davis-crooke-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-crooke-speaker-arc.md) rather than stretching this live-pressure lane into bargaining work.
 
 - Crooke is strongest here on live-pressure meaning, strategic transformation, and civilizational-statecraft interpretation, not on tactical micro-verification.
 - The new materialized shelf is real, but it is still a conservative subset of the full stream-discovered run.

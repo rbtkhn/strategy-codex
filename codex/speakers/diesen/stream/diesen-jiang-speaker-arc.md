@@ -4,6 +4,20 @@ WORK only; not Record.
 
 Purpose: compact reuse note for the `Diesen × Jiang` run inside the Diesen stream. This is not a substitute for the raw-input files. It exists so future routing can quickly answer: which Jiang guest episodes matter most inside this stream, what kind of lane this is, and which file to open first.
 
+## Orthogonality guide
+
+This file should be read as the **high-variance civilizational and empire-system speculation** lane inside Diesen, not as a generic macro or diplomatic-memory surface.
+
+Quick separation rule:
+
+- `Diesen x Jiang` = speculative game-theoretic, civilizational, and empire-maintenance framing
+- [diesen-krainer-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-krainer-speaker-arc.md) = macro-financial and commodity-system breakdown
+- [diesen-matlock-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-matlock-speaker-arc.md) = Cold War settlement memory and diplomatic architecture
+- [diesen-beebe-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-beebe-speaker-arc.md) = bargaining geometry and retrenchment-order design
+- [diesen-karaganov-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-karaganov-speaker-arc.md) = Russian elite deterrence doctrine and Greater Eurasia identity language
+
+If the notebook needs horizon-expansion, regime-stability speculation, or empire/debt/world-war framing, route here. If it needs macro-financial mechanism, diplomatic memory, bargaining design, or Russian elite doctrine, route to the neighboring arcs instead.
+
 ## Why this guest run matters
 
 Jiang Xueqin matters here less as a conventional policy commentator than as a high-variance long-horizon voice for:
@@ -64,8 +78,16 @@ Typical pairings around the guest lane:
 - `sachs`
 - `freeman`
 
+Distinct from:
+
+- [diesen-krainer-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-krainer-speaker-arc.md), which is stronger on debt, commodities, and market-system mechanism than on civilizational speculation
+- [diesen-matlock-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-matlock-speaker-arc.md), which is stronger on diplomatic-memory evidence than on horizon-expanding theory
+- [diesen-beebe-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-beebe-speaker-arc.md), which is stronger on settlement architecture and escalation management than on speculative empire-decline narrative
+- [diesen-karaganov-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-karaganov-speaker-arc.md), which carries Russian elite doctrinal vocabulary rather than Jiang's more free-ranging game-theoretic register
+
 ## Boundaries
 
 - Jiang is often more speculative and higher-variance than Matlock, Sachs, or Mearsheimer.
 - The value of this run is pressure-testing and horizon-expansion, not immediate factual authority.
 - Prefer this guest run when the notebook needs theory, strategic imagination, or empire-decline framing, not when it needs narrow documentary or battlefield certainty.
+- Do not let this branch silently absorb Krainer's macro-financial lane, Matlock's diplomatic-memory lane, Beebe's bargaining-design lane, or Karaganov's Russian-elite doctrine lane.

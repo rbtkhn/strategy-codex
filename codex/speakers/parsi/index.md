@@ -15,11 +15,21 @@ Purpose: front door for the canonical Parsi shelf, with the diplomacy stream fir
 
 - [Monthly book](stream/parsi-book-2026-04.md)
 - [Daily chapter seed](stream/parsi-chapter-2026-04-01.md)
-- [Thread compatibility file](stream/parsi-thread.md)
+- [Thread compatibility file](stream/parsi-thread.md) - legacy continuity surface; not the canonical authored/interview split
 - [Transcript compatibility file](stream/parsi-transcript.md)
 - [Source-hygiene note](stream/parsi-source-hygiene-2026-04-21-ceasefire-hormuz.md)
 - [Refined page](parsi-page-2026-04-21-x-ceasefire-hormuz-cluster.md)
 - [Page template](parsi-page-template.md)
+
+## Canonical Structure
+
+Parsi's orthogonality-bearing structure is:
+
+- [Forecast ledger](stream/parsi-forecast-ledger-2025-2026.md) for the canonical authored diplomacy mechanism
+- [Interview appearance map](parsi-interview-appearances-2025-2026.md) for the interview-pressure strand
+- [Speaker helix](parsi-helix.md) for the crossing surface between those two strands
+
+Do not read [stream/parsi-thread.md](stream/parsi-thread.md) as a second competing thread system. It is a legacy compatibility file carried forward from the older expert-thread machinery.
 
 ## Speaker-Side Routing
 

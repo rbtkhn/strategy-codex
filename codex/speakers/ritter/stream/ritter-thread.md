@@ -3,6 +3,20 @@
 
 WORK only; not Record.
 
+## Orthogonality guide
+
+Read this file as a **legacy continuity checkpoint**, not as a thread that competes with the current Ritter helix and authored-ledger structure.
+
+Quick separation rule:
+
+- this file = backward-compatible continuity and journal carryover
+- the compatibility note below = names the actual orthogonality-bearing Ritter surfaces
+- the dated `ritter-thread-2026-*.md` files = month chapters of compatibility continuity, not independent strands
+
+If a question is about authored forecast structure, host transformation, or canonical routing, route to those named surfaces instead of widening this file.
+
+Compatibility note: this file is a legacy continuity surface from the older expert-thread machinery. In the current Ritter shelf, the canonical orthogonality-bearing structure is the authored forecast ledger plus the interview appearance map, crossed by [ritter-helix.md](../ritter-helix.md), not this file. The dated `ritter-thread-2026-*.md` files are also compatibility residue, not a canonical topical-thread atlas.
+
 **Source:** Human **narrative journal** (below) + [`transcript.md`](transcript.md) (verbatim ingests) + relevant **`strategy-page`** work (where this expertÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢s material was used).
 **Process:** `python3 scripts/strategy_thread.py` triages inbox ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ transcript, then fills **only** the **machine layer** between the **strategy-expert-thread** HTML start and end comments. Operator / assistant maintains the **journal layer** above the start marker in **readable prose** (optional **ledger** after the end marker).
 **Updated:** Narrative ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â when you distill; **machine layer** ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â when you run **`thread`**.

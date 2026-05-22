@@ -19,6 +19,15 @@ Host-owned continuity and guest transformations live under [stream/](stream/), i
 - chapter seeds
 - host-local guest arcs
 
+## Compatibility shape
+
+This shelf still exposes its main continuity through older compatibility spellings:
+
+- [stream/alkorshid-thread.md](stream/alkorshid-thread.md) is a legacy distilled continuity surface, not a canonical topical thread in the newer `speaker-thread-<topic>` sense
+- the guest-run files currently live mostly as `alkorshid-*-speaker-arc.md`, which should be read as the embodied relational arcs for this host shelf, not as a separate second arc class
+
+Until a later normalization pass creates canonical `*-arc.md` spellings here, do not infer extra orthogonality merely from the older filenames.
+
 ## Boundary
 
 Alkorshid is canonical under `codex/speakers/alkorshid/`. Raw-text authority stays in [`codex/years/2026/raw-input/`](C:/dev/strategy-codex/codex/years/2026/raw-input).

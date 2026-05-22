@@ -4,6 +4,20 @@ WORK only; not Record.
 
 Purpose: compact reuse note for the `Diesen x Krainer` run inside the Diesen stream. This is not a substitute for the full raw-input shelf. It exists so future routing can quickly answer: what kind of Krainer lane Diesen elicits, which full-form episodes matter most, and why this is the clearest current Krainer branch on disk.
 
+## Orthogonality guide
+
+This file should be read as the **macro-financial and commodity-system** lane inside Diesen, not as a generic theory or diplomatic-memory surface.
+
+Quick separation rule:
+
+- `Diesen x Krainer` = sanctions, commodities, oligarchic decay, debt, and imperial-breakdown translated through economic systems
+- [diesen-jiang-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-jiang-speaker-arc.md) = civilizational/game-theoretic speculation and empire-maintenance narrative
+- [diesen-beebe-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-beebe-speaker-arc.md) = settlement architecture and escalation management
+- [diesen-matlock-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-matlock-speaker-arc.md) = Cold War settlement memory and NATO-expansion warning lineage
+- [diesen-karaganov-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-karaganov-speaker-arc.md) = Russian elite deterrence and civilizational doctrine
+
+If the notebook needs geopolitical crisis widened into market, commodity, and debt-system consequence, route here. If it needs speculation, bargaining design, diplomatic memory, or Russian doctrinal language, route to the neighboring arcs instead.
+
 ## Why this guest run matters
 
 Alex Krainer matters here less as a generic market analyst than as a recurring **macro-financial, imperial-breakdown, and world-order-transition** voice inside a host stream otherwise centered on civilizational order, multipolar transition, and institutional sequence.
@@ -79,9 +93,17 @@ Typical pairings around the guest lane:
 - `crooke`
 - `mercouris`
 
+Distinct from:
+
+- [diesen-jiang-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-jiang-speaker-arc.md), which is higher-variance and less mechanism-bound than Krainer's economic-system lane
+- [diesen-beebe-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-beebe-speaker-arc.md), which is stronger on off-ramp and retrenchment design than on macro-financial translation
+- [diesen-matlock-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-matlock-speaker-arc.md), which is stronger on historical architecture than on commodities and oligarchic breakdown
+- [diesen-karaganov-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-karaganov-speaker-arc.md), which is stronger on Russian elite doctrine than on economic consequence
+
 ## Boundaries
 
 - Krainer is strongest here on macro-financial and imperial-breakdown interpretation, not on engineering detail, legal architecture, or bargaining-room diplomacy.
 - This arc is clearly real in the stream, but most of it is still not materialized to canonical raw-input on disk.
 - The lane is real because the host-local shape repeats across many full-form Glenn Diesen episodes, not because every episode carries equal weight.
 - Prefer this guest run when the notebook needs order-transition argument widened through markets, commodities, debt, and systemic elite failure.
+- Do not let this branch silently absorb Jiang's speculation lane, Beebe's bargaining lane, Matlock's diplomatic-memory lane, or Karaganov's doctrinal lane.

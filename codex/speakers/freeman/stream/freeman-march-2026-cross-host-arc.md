@@ -38,6 +38,17 @@ Use this file before opening host-local arcs when the question is about Freeman'
 
 `republic-damage warning -> just-war collapse -> war plan breakage -> diplomacy-dead companion read -> China-read of U.S. self-depletion -> axis visibility -> China hedge -> ground-war escalation risk -> temporary pause -> troop-entry collapse scenario -> exit-without-victory panic -> Gulf refusal`
 
+## Orthogonality guide
+
+Quick separation rule:
+
+- `Diesen` carries March Freeman's republic-damage, axis-visibility, and strategic-altitude role.
+- `Napolitano` carries the just-war, legitimacy, and China-credibility pressure role.
+- `Dialogue Works` carries the war-plan-breakage, troop-entry, and live crisis-motion role.
+- `Davis` carries the companion settlement-realism and diplomacy-dead role.
+
+Do not use this monthly cross-host arc as a substitute for the host-local arcs when the question is really about one host transformation. Its distinctive job is to preserve the month-level system activation sequence across hosts.
+
 ## Host-Local Routes
 
 - Judging Freedom: [napolitano-freeman-speaker-arc.md](../../napolitano/stream/napolitano-freeman-speaker-arc.md)
@@ -48,3 +59,5 @@ Use this file before opening host-local arcs when the question is about Freeman'
 ## Boundary
 
 Do not treat discovered or operator-pasted entries as canonical transcript captures until they are materialized into `raw-input` with a quality receipt. Use them as routing memory and analysis prompts only.
+
+If the question is mainly about one host's stable transformation of Freeman rather than March as a whole, route outward to the host-local arc instead of holding the analysis at the month-spine level.

@@ -18,9 +18,21 @@ Purpose: front door for the canonical Crooke shelf, with the minimal route map f
 - [Speaker folder README](../../../speakers/crooke/README.md)
 - [Monthly book](stream/crooke-book-2026-04.md)
 - [Daily chapter seed](stream/crooke-chapter-2026-04-01.md)
-- [Thread compatibility file](stream/crooke-thread.md)
+- [Thread compatibility file](stream/crooke-thread.md) - legacy continuity surface; not a canonical topical thread
+- [Topical thread: international law](stream/crooke-thread-international-law.md) - canonical topical thread inside the broader Crooke corpus
 - [Transcript compatibility file](stream/crooke-transcript.md)
 - [Pages manifest](stream/crooke-pages-manifest.yaml)
+
+## Canonical Structure
+
+Crooke's orthogonality-bearing structure is:
+
+- [Forecast ledger](stream/crooke-forecast-ledger-2026.md) for the authored mechanism and tension spine
+- [Interview appearance map](crooke-interview-appearances-2025-2026.md) for the host-transformed interview strand
+- [Speaker helix](crooke-helix.md) for the crossing surface between those two strands
+- [Topical thread: international law](stream/crooke-thread-international-law.md) for one real bounded recurring strand inside the broader Crooke corpus
+
+Do not read [stream/crooke-thread.md](stream/crooke-thread.md) as a second competing topical-thread system. It is a legacy compatibility file carried forward from the older expert-thread machinery.
 
 ## Raw-Input Coverage
 

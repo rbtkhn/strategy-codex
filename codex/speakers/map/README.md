@@ -8,7 +8,7 @@ It does not replace the parent [`codex/speakers/`](../). Speaker folders remain 
 
 For the storage-side SSOT and the canonical raw-input-side version of the wiring rule, see [raw-input/README.md](../../years/2026/raw-input/README.md).
 
-This README is the governing speaker-routing doctrine. Speaker folders, year indexes, and lattice surfaces should implement this contract rather than restate it in local variants.
+This README is the governing speaker-routing doctrine. Speaker folders, year indexes, and lattice surfaces should implement this contract rather than restate it.
 
 ## Layer Contract
 
@@ -33,7 +33,7 @@ When a speaker has appearances beyond one stable host lane, prefer a three-tier 
 - `non-core appearance bench`: materialized transcript-bearing appearances outside those core lanes
 - `discovery memory`: found or operator-pasted appearances that still help routing but are not yet materialized raw-input
 
-Use this ladder as a reusable doctrine for all speakers when cross-host spread becomes thick enough to matter. It is optional for thin or single-stream objects, but once needed it should replace repeated source-name exceptions in prose.
+Use this ladder when cross-host spread becomes thick enough to matter. Once needed, it should replace repeated source-name exceptions in prose.
 
 ## Route Contract
 
@@ -47,7 +47,32 @@ Governance rule:
 
 - `speaker-map` owns the route contract
 - `speaker-lattice` may signal that a fuller route is needed, but it does not decide ownership or completion
-- local speaker folders may implement the ladder, but they should do so as applications of this contract, not as parallel doctrine
+- local speaker folders implement the ladder as applications of this contract, not as parallel doctrine
+
+## Orthogonality Invariant
+
+Speaker memory should strive for **orthogonality across surfaces**.
+
+This applies at two levels:
+
+- **between arcs**: different person arcs, relational arcs, or host-local arcs should contribute materially different explanatory value rather than restating the same continuity in slightly different wording
+- **between threads inside an arc**: each topical thread should isolate a genuinely distinct recurring strand, not a near-duplicate of a neighboring thread
+
+Working rule:
+
+- if two arcs produce the same conclusion, check whether they arrive there by different mechanisms, source habits, or explanatory layers
+- if two threads sit inside one arc, check whether they differ in object, causal grammar, or retrieval use
+- if a proposed surface cannot defend its distinctness, collapse it, rename it, or keep the material inside the parent arc
+
+The target is not maximal fragmentation. The target is **maximum cognitive depth, breadth, and connectivity with minimum redundant surface area**.
+
+Operational tests:
+
+1. **Frame test** - does this surface see something differently, or only repeat it?
+2. **Evidence test** - does it rely on a distinct source spine or recurring receipt pattern?
+3. **Use test** - would an operator open this surface for a meaningfully different reason than a neighboring one?
+
+When the answer is no, do not add another surface just because it is possible.
 
 ## Wiring Invariant
 
@@ -59,7 +84,7 @@ That means:
 - if it is valid and materialized but does not belong to a stable host transformation, wire it into that speaker's `non-core appearance bench`
 - if it is only found, mentioned, or partially pasted and not yet materialized as raw-input, keep it in `discovery memory` until it can be either materialized or discarded
 
-An unwired valid raw-input is a routing defect, not a harmless omission.
+An unwired valid raw-input is a routing defect.
 
 Enforcement rule:
 
@@ -85,7 +110,7 @@ False terminal states:
 - `passing prose only`
 - `cross-host note only` when no correct routed surface exists underneath it
 
-The closeout owner is the routing stack, not storage. If speaker-map cannot name the correct routed surface, the appearance has not ended its life well enough to call the task complete.
+The closeout owner is the routing stack, not storage. If speaker-map cannot name the correct routed surface, the task is not complete.
 
 ## Audit Posture
 
@@ -98,9 +123,9 @@ Ask:
 3. Is any item still sitting in `discovery memory` even though the raw-input has already been materialized?
 4. Is the route complete for the touched speaker, or only mentioned in passing somewhere nearby?
 
-If the map can name the speaker but cannot name the correct routed surface, the work is not complete.
+If the map can name the speaker but not the correct routed surface, the work is not complete.
 
-Speaker-map may point to speaker memory. It should not become the authority for a speaker's meaning. If a map and a speaker object disagree, open the speaker object and repair the map later.
+Speaker-map may point to speaker memory, but it is not the authority for speaker meaning. If a map and a speaker object disagree, repair the map later.
 
 ## Initial Views
 

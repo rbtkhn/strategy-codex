@@ -15,10 +15,20 @@ Purpose: front door for the canonical Macgregor shelf, surfacing the speaker-rou
 
 - [Speaker folder README](../../../speakers/macgregor/README.md)
 - [Speaker profile](../../../speakers/macgregor/macgregor-profile.md)
-- [Thread compatibility file](../../../speakers/macgregor/macgregor-thread.md)
+- [Thread compatibility file](../../../speakers/macgregor/macgregor-thread.md) - legacy continuity surface; not a canonical topical-thread system
 - [Transcript compatibility file](../../../speakers/macgregor/macgregor-transcript.md)
 - [Page template](../../../speakers/macgregor/macgregor-page-template.md)
 - [Cross-year note](../../../speakers/macgregor/macgregor-cross-year-note.md)
+
+## Canonical Structure
+
+Macgregor's orthogonality-bearing structure is:
+
+- [Speaker helix](../../../speakers/macgregor/macgregor-helix.md) for the current double-helix crossing surface
+- the two main host-local arcs for stable distinct host transformations
+- [Cross-year note](../../../speakers/macgregor/macgregor-cross-year-note.md) for the longitudinal maturity claim
+
+Do not read [macgregor-thread.md](../../../speakers/macgregor/macgregor-thread.md) as a second competing topical-thread system. It is a legacy compatibility file carried forward from the older expert-thread machinery.
 
 ## Main Host Arcs
 

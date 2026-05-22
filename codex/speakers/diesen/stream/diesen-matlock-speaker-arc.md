@@ -4,6 +4,20 @@ WORK only; not Record.
 
 Purpose: compact reuse note for the `Diesen × Matlock` run inside the Diesen stream. This is not a substitute for the raw-input files. It exists so future routing can quickly answer: which Matlock guest episodes matter most inside this stream, what kind of lane this is, and which file to open first.
 
+## Orthogonality guide
+
+This file should be read as the **Cold War settlement-memory and diplomatic-architecture** lane inside Diesen, not as a generic anti-NATO or order-transition surface.
+
+Quick separation rule:
+
+- `Diesen x Matlock` = diplomatic memory, late Cold War negotiation practice, NATO-expansion warning lineage, and the architecture of failed inclusive settlement
+- [diesen-beebe-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-beebe-speaker-arc.md) = present-tense bargaining geometry and retrenchment design
+- [diesen-jiang-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-jiang-speaker-arc.md) = speculative empire and world-order theory
+- [diesen-karaganov-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-karaganov-speaker-arc.md) = Russian elite deterrence and Eurasian identity doctrine
+- [diesen-krainer-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-krainer-speaker-arc.md) = macro-financial and commodity-system consequence
+
+If the notebook needs firsthand diplomatic memory of how the post-Cold War settlement was or was not built, route here. If it needs current bargaining design, speculative empire theory, Russian doctrinal language, or macro-economic consequence, route to the neighboring arcs instead.
+
 ## Why this guest run matters
 
 Jack Matlock matters here less as a generic realist commentator than as a U.S. diplomatic-memory witness to:
@@ -64,8 +78,16 @@ Typical pairings around the guest lane:
 - `sachs`
 - `crooke`
 
+Distinct from:
+
+- [diesen-beebe-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-beebe-speaker-arc.md), which is stronger on present settlement geometry than on historical negotiation memory
+- [diesen-jiang-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-jiang-speaker-arc.md), which is more speculative and less evidentiary than Matlock's diplomatic-memory lane
+- [diesen-karaganov-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-karaganov-speaker-arc.md), which is Russian elite doctrine rather than U.S. diplomatic witness
+- [diesen-krainer-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-krainer-speaker-arc.md), which is stronger on macro-order economics than on negotiation history
+
 ## Boundaries
 
 - Matlock is strong on diplomatic memory and settlement logic, not on detailed contemporary battlefield mechanics.
 - The current raw-input set is mostly `speaker_normalized_from_auto_subtitles`, not human-cleaned verbatim transcripts.
 - Prefer this guest run when the notebook needs historical architecture, not when it needs ORBAT or immediate tactical judgment.
+- Do not let this branch silently absorb Beebe's bargaining lane, Jiang's theory lane, Karaganov's doctrine lane, or Krainer's macro-financial lane.

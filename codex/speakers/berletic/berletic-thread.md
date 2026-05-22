@@ -3,6 +3,19 @@
 
 WORK only; not Record.
 
+## Orthogonality guide
+
+Read this file as a **legacy continuity checkpoint**, not as a thread that competes with the current Berletic speaker structure.
+
+Quick separation rule:
+
+- this file = backward-compatible continuity and journal carryover
+- the compatibility note below = names the actual orthogonality-bearing Berletic surfaces
+
+If a question is about industrial/logistics routing or canonical shelf structure, route to those named surfaces instead of widening this file.
+
+Compatibility note: this file is a **legacy continuity compatibility surface** carried forward from the earlier strategy-thread system. The canonical Berletic structure now lives in [berletic-speaker-object.md](/C:/dev/strategy-codex/codex/speakers/berletic/berletic-speaker-object.md), [berletic-cross-host-note.md](/C:/dev/strategy-codex/codex/speakers/berletic/berletic-cross-host-note.md), and the mature [diesen-berletic-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-berletic-speaker-arc.md). Do not treat this file as a competing canonical topical-thread atlas.
+
 **Source:** Distilled from [`strategy-expert-berletic-transcript.md`](strategy-expert-berletic-transcript.md) (what the expert said recently) and relevant pages (where that material was used in strategy work).
 **Process:** `python3 scripts/strategy_thread.py` triages inbox Ã¢â€ â€™ transcript, then fills **only** the **machine layer** between the **strategy-expert-thread** HTML start and end comments. Operator / assistant maintains the **journal layer** above the start marker in **readable prose** (optional **ledger** after the end marker).
 **Updated:** Narrative Ã¢â‚¬â€ when you distill; **machine layer** Ã¢â‚¬â€ when you run **`thread`**.

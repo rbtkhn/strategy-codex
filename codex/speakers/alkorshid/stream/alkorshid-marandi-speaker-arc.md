@@ -49,6 +49,16 @@ Open **2026-04-21** first when the question is about:
 - blockade escalation
 - how the lane first established its coercive logic
 
+## Orthogonality guide
+
+Quick separation rule:
+
+- `Dialogue Works x Marandi` is the live crisis-pressure and regional-signaling lane.
+- `Davis x Marandi` is the operational-limit and failed-intimidation lane.
+- `Diesen x Marandi` is the strategic-order and escalation-horizon lane.
+
+Do not use this arc as a shortcut for operational-feasibility triage or wider order-transition framing. Its distinctive job is to preserve Marandi's red-line, legitimacy, and selective-Hormuz signaling under live host pressure.
+
 ## Best paired read
 
 Best paired read: [diesen-freeman-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-freeman-speaker-arc.md)
@@ -69,6 +79,8 @@ Use `Dialogue Works × Marandi` when the notebook needs:
 - a way to enter the Marandi corpus through recurring **conversational contour**, not only through topic grep or thread chronology
 
 ## Boundaries
+
+- If the question is mainly about what force can still accomplish or whether coercion has already failed, route outward to [davis-marandi-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-marandi-speaker-arc.md).
 
 Do not use this speaker arc as:
 

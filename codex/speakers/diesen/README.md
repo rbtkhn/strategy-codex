@@ -16,6 +16,16 @@ Open here when the question is not merely which Diesen episode to read, but how 
 
 - Stream shelf: [stream/](stream/)
 
+## Compatibility shape
+
+This shelf is already stream-native and high-density, but its live host-continuity files still use older compatibility spellings:
+
+- [stream/diesen-thread.md](stream/diesen-thread.md) is a legacy distilled continuity surface, not a canonical topical thread in the newer `speaker-thread-<topic>` sense
+- the guest-run files under `stream/` currently live mostly as `diesen-*-speaker-arc.md`, which should be read as the embodied relational arcs for this host shelf, not as a separate second arc class
+- where both spellings exist, such as `diesen-baud-arc.md` and `diesen-baud-speaker-arc.md`, the `*-arc.md` file is canonical and the `*-speaker-arc.md` file is only a compatibility alias
+
+Until a later normalization pass creates broader canonical `*-arc.md` spellings here, do not count the older filenames as extra arc multiplicity or extra orthogonality.
+
 ## Boundary
 
 Diesen is `object_shape: stream-native`. The main body remains the 2026 Diesen stream; this speaker folder is the higher-order orientation surface.

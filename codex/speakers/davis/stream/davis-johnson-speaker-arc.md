@@ -59,6 +59,17 @@ That pair gives the clearest mature lane shape:
 - false de-escalation signals
 - best-case outcomes already worse than official framing admits
 
+## Orthogonality guide
+
+Quick separation rule:
+
+- `Davis x Johnson` is the operational-feasibility and coercive-failure lane.
+- `Diesen x Johnson` is the geopolitical-altitude and regional-order-consequence lane.
+- `Alkorshid x Johnson` is the live crisis-pressure and immediate-escalation lane.
+- `Napolitano x Johnson` is the process-pressure and constitutional-absurdity lane.
+
+Do not use this arc as a shortcut for high-temperature event interpretation, wider order consequence, or institutional-process critique. Its distinctive job is to show what coercive moves can no longer realistically recover once leverage, logistics, and end-state realism collapse.
+
 ## Routing use
 
 Use this speaker arc when a Davis ingest or batch pass is doing one or more of the following:
@@ -76,6 +87,8 @@ Typical pairings around the guest lane:
 - `mearsheimer`
 
 ## Boundaries
+
+- If the question is mainly about blockade skepticism as process absurdity or executive-quality failure rather than operational practicality, route outward to [napolitano-johnson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-johnson-speaker-arc.md).
 
 - Johnson is strongest here on feasibility, coercive failure, and impractical objectives, not on neutral tactical verification.
 - Prefer this lane when the notebook needs the Davis-side operational test; prefer the Diesen lane for broader order consequence and the Dialogue Works lane for highest-pressure event-surface interpretation.
