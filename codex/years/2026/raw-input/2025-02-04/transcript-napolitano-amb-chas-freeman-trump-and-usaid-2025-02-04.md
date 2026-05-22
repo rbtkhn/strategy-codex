@@ -9,7 +9,7 @@ guest: Chas Freeman
 title: "AMB. Chas Freeman : Trump and USAID."
 source_type: youtube
 transcript_type: operator_pasted_transcript
-source_note: "Operator pasted full transcript in Codex chat. Direct YouTube watch URL not yet recovered."
+source_note: "Operator pasted full transcript in Codex chat. Direct watch URL recovered as https://www.youtube.com/watch?v=matczgR0wUw."
 quality_note: "Normalized to remove sponsor/promo copy and transcript noise; minor artifacts may remain."
 ---
 

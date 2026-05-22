@@ -10,7 +10,7 @@ title: "AMB. Chas Freeman : Is Trump Afraid of Netanyahu?"
 source_type: youtube
 transcript_type: operator_pasted_transcript
 capture_status: full-operator-paste
-source_note: "Operator pasted transcript body in Codex chat. The spoken episode open says Tuesday February 11th 2025."
+source_note: "Operator pasted transcript body in Codex chat. Direct watch URL recovered as https://www.youtube.com/watch?v=l8YtFElXI18. The spoken episode open says Tuesday February 11th 2025."
 quality_note: "Normalized from operator paste for readability; minor transcript noise may remain."
 ---
 
