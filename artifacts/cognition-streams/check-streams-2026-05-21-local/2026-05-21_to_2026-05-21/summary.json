@@ -1,0 +1,70 @@
+{
+  "main_total": 14,
+  "captured_main": 0,
+  "overall_pct": 0.0,
+  "recent_main_total": 14,
+  "recent_captured_main": 0,
+  "recent_pct": 0.0,
+  "must_capture_remaining": 14,
+  "benchmark": {
+    "overall_pct_min": 0.7,
+    "recent_pct_min": 0.9,
+    "must_capture_remaining_max": 0
+  },
+  "status": "below-threshold",
+  "overall_backlog_status": "below-threshold",
+  "target_window": {
+    "start": "2026-05-21",
+    "end": "2026-05-21"
+  },
+  "target_window_status": "below-threshold",
+  "target_window_main_total": 14,
+  "target_window_captured_main": 0,
+  "target_window_pct": 0.0,
+  "target_window_must_capture_remaining": 14,
+  "per_date": {
+    "2026-05-21": {
+      "rows": 18,
+      "main_total": 14,
+      "captured_main": 0,
+      "coverage_pct": 0.0,
+      "must_capture_remaining": 14
+    }
+  },
+  "per_channel": {
+    "alex-mercouris": {
+      "rows": 1,
+      "main_total": 1,
+      "captured_main": 0,
+      "coverage_pct": 0.0,
+      "must_capture_remaining": 1
+    },
+    "dialogue-works": {
+      "rows": 4,
+      "main_total": 4,
+      "captured_main": 0,
+      "coverage_pct": 0.0,
+      "must_capture_remaining": 4
+    },
+    "glenn-diesen": {
+      "rows": 5,
+      "main_total": 1,
+      "captured_main": 0,
+      "coverage_pct": 0.0,
+      "must_capture_remaining": 1
+    },
+    "napolitano": {
+      "rows": 8,
+      "main_total": 8,
+      "captured_main": 0,
+      "coverage_pct": 0.0,
+      "must_capture_remaining": 8
+    }
+  },
+  "target_date": "2026-05-21",
+  "target_date_status": "below-threshold",
+  "target_date_main_total": 14,
+  "target_date_captured_main": 0,
+  "target_date_pct": 0.0,
+  "target_date_must_capture_remaining": 14
+}

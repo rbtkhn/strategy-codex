@@ -1,0 +1,126 @@
+| date | channel_key | youtube_id | classification | priority | captured | title |
+|---|---|---|---|---|---:|---|
+|  | alex-mercouris | `-RUWotSz-J8` | uncaptured-main | probably-capture | 0 | US Prepares Huge Iran Strike; Russian Spy Satellite Data Helps Iran; Kiev Fears Big Oreshnik Strike |
+|  | alex-mercouris | `0cYL9G9krlc` | uncaptured-main | probably-capture | 0 | Russia China Meet Plan Expel US Mideast; Trump Blockade Fails; EU Panics As Russia Brings Asset Case |
+|  | alex-mercouris | `1L-HI4zDBHs` | uncaptured-main | probably-capture | 0 | Israel AD Fails 80% Iran Missiles Hit Target; China: US Bombing Must Stop; UK Says Iran Moscow Proxy |
+|  | alex-mercouris | `1hBvMSLYviA` | uncaptured-main | probably-capture | 0 | Russia Moldova Decree Stuns EU; Assembles Belarus Force; Brushes Off Zelensky Drones; Putin To China |
+|  | alex-mercouris | `4YnCu_xC4rQ` | uncaptured-main | probably-capture | 0 | Putin Says Europe Aims Dismantle Russia All Ukraine Talks Have Ended; Iran Says Targets US Warships |
+|  | alex-mercouris | `69QSYtPHrpw` | hidden-short | hide-default | 0 | Ukraine War  No Peace, Only Battlefield Decisions by Russians |
+|  | alex-mercouris | `6BdVF67o-y8` | uncaptured-main | probably-capture | 0 | Iran Defies US Refuses Talk Ceasefire About To End; Russia Warns Donbass Falling Baltics Will Follow |
+|  | alex-mercouris | `6aV9-8xxcEk` | uncaptured-main | probably-capture | 0 | Russia Resumes Donbass Offensive Tells Kiev Pull Out; US No To Iran Terms Debates Ground Op; Starmer |
+|  | alex-mercouris | `753q7_U9FgM` | uncaptured-main | probably-capture | 0 | Russia Targets Kiev & Odessa After Donbass Fall; Sarmat; China Tightens Rare Earths; US China Summit |
+|  | alex-mercouris | `78xYTgmGNpM` | hidden-short | hide-default | 0 | America's Growing Geopolitical Disaster from the Iran War |
+|  | alex-mercouris | `7k6Igz-l7rc` | uncaptured-main | probably-capture | 0 | Russia: EU Makes Drones For Kiev; Medvedev Warns; Iran Welcomes Pakistan Chief; Lavrov Saudi FM Talk |
+|  | alex-mercouris | `8L21nezG_ZU` | uncaptured-main | probably-capture | 0 | Zelensky Panics Says Russia Will Attack Kiev Decision Centres; Slaviansk Defence Collapse; Bond Rout |
+|  | alex-mercouris | `AJP9FYH0Og8` | uncaptured-main | probably-capture | 0 | Lavrov Warns Europe Declared War On Russia; Aragchi To Moscow Won't Talk To US; EU: Kiev Cannot Join |
+|  | alex-mercouris | `Ao0O9HQnYJg` | uncaptured-main | probably-capture | 0 | Russia Makes Strongest Threats Tells EU Diplomats To Leave Kiev; EU Refuses; Kiev Violates May Truce |
+|  | alex-mercouris | `Bukq0oTYlKY` | uncaptured-main | probably-capture | 0 | Iran Calls US Bluff Rejects Talks; Saudi Closes Airspace Tells US End War; Russia Cracks Kiev Drones |
+|  | alex-mercouris | `FTQn7Fv9a9I` | hidden-short | hide-default | 0 | Energy Markets Facing Collapse |
+|  | alex-mercouris | `GtqvH_zAFDw` | uncaptured-main | probably-capture | 0 | Iran Shoots Down US A10 Hunts F15 Pilot; Trump Sacks More Generals; Russia Hunts Kiev AD; Oil Shock |
+|  | alex-mercouris | `J37-kIE82LQ` | uncaptured-main | probably-capture | 0 | Iran Strikes US Base Destroys US AWACS; Defiant Over US Ground Op; Russian Intel Helps Iran Prepare |
+|  | alex-mercouris | `KkCN_rOxT1I` | uncaptured-main | probably-capture | 0 | US Says EU Has No Ukraine Plan; Ukraine Wants More EU Funds Russia Economy Strong; Iran Scorns Talks |
+|  | alex-mercouris | `LmJWmgtsaps` | uncaptured-main | probably-capture | 0 | Russian MoD Iran Hail Joint Alliance; Iran Denies Leadership Split; Zelensky Sacks Kupiansk Generals |
+|  | alex-mercouris | `MLOfpI_5b_o` | uncaptured-main | probably-capture | 0 | Iran Scents Victory As Trump Backs Off Extends Ceasefire; Putin Hard Line Slaviansk Defence Crumbles |
+|  | alex-mercouris | `MZkXR2swEd0` | uncaptured-main | probably-capture | 0 | Zelensky Threatens Moscow Parade; Putin Allows Strike Central Kiev; Oreshnik; Visits HQs; US Hormuz |
+|  | alex-mercouris | `NbT9s-QcCyg` | hidden-short | hide-default | 0 | America's Grand Plan to Control Energy and how China is reacting |
+|  | alex-mercouris | `Nj2t4nN-w58` | uncaptured-main | probably-capture | 0 | EU Shock Fuel Crisis Putin Blocks Kazakh Pipeline; Russian Offensive Syrsky Panic; Sanctions; Iran |
+|  | alex-mercouris | `NuR9xJWTLm8` | uncaptured-main | probably-capture | 0 | Trump Begs Iran Talks; Gives Up On Hormuz; Lavrov Crisis Becoming World War; Chechens Fight For Iran |
+|  | alex-mercouris | `PZmepeZ7kb8` | uncaptured-main | probably-capture | 0 | China Ends US Sanctions Era Tells Refiners Buy Russian Oil; Zelensky Corruption Crisis Donbas Battle |
+|  | alex-mercouris | `Q2nF8AN8Ris` | hidden-short | hide-default | 0 | Why Russia Will Not Be Defeated |
+|  | alex-mercouris | `RsMRz7UrbC8` | uncaptured-main | probably-capture | 0 | China Warns US Of War Over Taiwan; WON'T Pressure Iran; Russia Hunts Destroys US Ukraine Investments |
+|  | alex-mercouris | `U08zsL1uRbE` | uncaptured-main | probably-capture | 0 | China Tough Stance In Trump Visit; Russia Biggest Strike; Kiev Shredded AD Collapses; Zelensky Panic |
+|  | alex-mercouris | `V93i8GOIi-U` | uncaptured-main | probably-capture | 0 | Iran US Truce Unravels; Israel Attacks Lebanon; Iran Blocks Hormuz; Russian Fleet Defies Panics UK |
+|  | alex-mercouris | `X1lO5Qd47R4` | uncaptured-main | probably-capture | 0 | Russia Warns US Will 'Intensify' Iran War; China Warns Navy Protect China Oil Tankers; Putin Xi Trip |
+|  | alex-mercouris | `X2VilASEwF8` | uncaptured-main | probably-capture | 0 | US Gives Iran Control Of Hormuz For 2 Week Truce; Talks Iran 10 Points; US Out Of Military Options |
+|  | alex-mercouris | `YD9sBc4qpgE` | uncaptured-main | probably-capture | 0 | Russia Gives Iran More Drones; Fibre Optic Tech; EU Fear NATO Collapse; Putin Army Will Take Donbass |
+|  | alex-mercouris | `YLjZXnUqkPg` | uncaptured-main | probably-capture | 0 | Putin Harshly Warns Trump Against Further Iran Attacks; Russia Warns Europe Risks World War; Donbas |
+|  | alex-mercouris | `Zv6xKMJp3xk` | uncaptured-main | probably-capture | 0 | Russia Makes US Force Zelensky Accept 9 May Truce Putin Victory Coming; Russia Helps Iran Defeat US |
+|  | alex-mercouris | `_YFxPQ7bq1Y` | uncaptured-main | probably-capture | 0 | Russia Says US Blockade Failing; 40 Iran Ships Transit Hormuz; US Mulls Retreat; Kiev Army Dwindles |
+|  | alex-mercouris | `ayN1VXz4QtM` | uncaptured-main | probably-capture | 0 | Zelensky Corruption Crisis Escalates; Yermak Accused; Baltics Fear Russia Hacks Kiev Drones; Starmer |
+|  | alex-mercouris | `bZGvLbH3jcc` | uncaptured-main | probably-capture | 0 | Trump Threatens US NATO Exit; Russia Winning Donbas Victory Warns US Kiev Of Harder Terms; Ground Op |
+|  | alex-mercouris | `bxMBqOQmKcc` | uncaptured-main | probably-capture | 0 | Lavrov Says US Iran War About Oil; Targets China; Warns Russia Will Enforce Baltic Red Line; Aragchi |
+|  | alex-mercouris | `dL2NsBX8RCg` | uncaptured-main | probably-capture | 0 | Iran Destroys Multiple US Aircraft US Rescues F15 Pilot; US Readies Huge Bombing; US Abandons Kiev |
+|  | alex-mercouris | `dcz8PeuTAps` | uncaptured-main | probably-capture | 0 | Russia Prepares Final Donbass Battle UK Drops Plan Seize Russian Ships; Hormuz Crisis Deepens; Talks |
+|  | alex-mercouris | `eU6mhg4GKjs` | uncaptured-main | probably-capture | 0 | Gulf States Follow UAE Beg US Aid; Kiev EU Row; Russia Tells Kiev Troops Konstantinovka Surrender |
+|  | alex-mercouris | `iD2u8Gjts5o` | hidden-short | hide-default | 0 | Stalemate in Ukraine? |
+|  | alex-mercouris | `irI2s-HuG0g` | uncaptured-main | probably-capture | 0 | UAE Quits OPEC As Gulf States Buckle; Putin Debates SMO Upgrade; Kiev Tuapse Attack; Konstantinovka |
+|  | alex-mercouris | `jS42akaMR6Q` | uncaptured-main | probably-capture | 0 | Trump Threatens Wider Bombing Sacks General; Iran Defiant; F15 Lost; Medvedev Rules Out Kiev Join EU |
+|  | alex-mercouris | `l7KJsso1ILM` | hidden-short | hide-default | 0 | Full military power of the US fails to pressure Iran into accepting ultimate political goals |
+|  | alex-mercouris | `lOGxx0WvY74` | uncaptured-main | probably-capture | 0 | EU Split on Russia Talks; Russia Conducts Huge Ukraine Strike Reports New Weapon Hits Dnipro; Iran |
+|  | alex-mercouris | `nC5IAxI8D3U` | uncaptured-main | probably-capture | 0 | Russia China Act As Trump Iran War Address Fails; Russia Saudi Talks China 5 Point Plan Markets Fall |
+|  | alex-mercouris | `nJhaW_x14Bw` | uncaptured-main | probably-capture | 0 | Iran Furious Shuts Hormuz Defies US Denies Trump Claims; Russia Ominous War Warning To Baltic States |
+|  | alex-mercouris | `pqVBMVm5YbE` | hidden-short | hide-default | 0 | US Rhetoric Sparks Fears of Coming China Clash |
+|  | alex-mercouris | `rRPwqWA0rAw` | uncaptured-main | probably-capture | 0 | Russia Warns NATO Baltic War Test Nuclear Forces; Putin To China; Trump Iran Retreat; Konstantinovka |
+|  | alex-mercouris | `rTNbtvE3z2M` | uncaptured-main | probably-capture | 0 | Iran Toughens Terms As Aragchi Meets Putin; Refuses Talks On Enrichment; Russia Prepares War With EU |
+|  | alex-mercouris | `sub1-K7SX2E` | uncaptured-main | probably-capture | 0 | Iran Keeps Hormuz, Russia Keeps Advancing, Two Wars at a Crossroads. Russian Subs Prowl UK Seas |
+|  | alex-mercouris | `tsenhIVfkpM` | uncaptured-main | probably-capture | 0 | Houthis Join War; Strike Israel; Medvedev Warns Big Nuclear Risks; Massive Russian Donbass Buildup |
+|  | alex-mercouris | `uWJYIebZhOI` | uncaptured-main | probably-capture | 0 | EU Kiev Crisis; US Stops Arms Deliveries Pulls Out 5000 Troops; Merz Flounders; Russia Odessa Goal |
+|  | alex-mercouris | `vFVNSSVaRgg` | uncaptured-main | probably-capture | 0 | US Iran Sea Blockade: Talks Collapse; Iran Calls Putin, Lavrov To China; Budanov Kiev Faces Disaster |
+|  | alex-mercouris | `vysZ1lBJK9A` | uncaptured-main | probably-capture | 0 | Desperate West Spreads Russian Coup Story; Economy Rebounds Konstantinovka Encircled; Hormuz Crisis |
+|  | alex-mercouris | `woIYtlSfdXk` | uncaptured-main | probably-capture | 0 | Russia Demands US Drop Ultimatums Offers Mediation; Iran Rejects US Ceasefire Terms; US Isfahan Flop |
+|  | alex-mercouris | `x1xKkvi1wVQ` | uncaptured-main | probably-capture | 0 | US Hormuz Op Fails Begs Iran Deal; Russia Rejects Zelensky Truce Will 'Terrify' EU Into Peace; Merz |
+|  | alex-mercouris | `zII4bK-Z-So` | hidden-short | hide-default | 0 | Why do the Europeans persist with the Ukraine illusion |
+|  | dialogue-works | `08G4JD4bBNg` | uncaptured-main | probably-capture | 0 | Laith Marouf: Hezbollah JUST HIT 3 Iron Dome Batteries – Buffer Zone Agenda CRUSHED |
+|  | dialogue-works | `FeTkzRHdYBQ` | uncaptured-main | probably-capture | 0 | Matthew Hoh: The Pentagon’s Biggest Lie About Iran |
+|  | dialogue-works | `HB2XHtH5bok` | uncaptured-main | probably-capture | 0 | Scott Ritter: Trump’s Iran Attack Is a TRAP That Leads to HUGE Humiliation |
+|  | dialogue-works | `X6ZR2lK6q2M` | uncaptured-main | probably-capture | 0 | Ray McGovern: Iran Can DECIMATE Israel in Hours If War Restarts |
+|  | napolitano | `0Pat322Q1T0` | uncaptured-main | probably-capture | 0 | Pepe Escobar  :  A Babe in the Woods in Beijing |
+|  | napolitano | `139z8vbFacQ` | uncaptured-main | probably-capture | 0 | INTEL Roundtable w/ Johnson & McGovern., and Scott Ritter :  Weekly Wrap. 8-May |
+|  | napolitano | `1NmsdfF0jK8` | uncaptured-main | probably-capture | 0 | Ray McGovern  :  Is War in Europe Expanding? |
+|  | napolitano | `1bvNiyAlxek` | hidden-short | hide-default | 0 | Why Trump has no cards with China — rare earths problem |
+|  | napolitano | `2BsTqTGtT0o` | uncaptured-main | probably-capture | 0 | CPT. Matt Hoh  :  Iran Ready if Trump Bombs Again |
+|  | napolitano | `4wd6mdRR3yE` | uncaptured-main | probably-capture | 0 | Max Blumenthal :  Is Trump going to bomb Iran AGAIN ? |
+|  | napolitano | `5aotPFzer8I` | hidden-short | hide-default | 0 | The Myth of Air Power: Why Regime Change Failed |
+|  | napolitano | `5ua3aRTDHqE` | uncaptured-main | probably-capture | 0 | Phil Giraldi  :  War and Rumors of War |
+|  | napolitano | `5wx9cAPk5ps` | hidden-short | hide-default | 0 | A straightforward plea: stop the blockade and go home |
+|  | napolitano | `8whXGoa7O4k` | uncaptured-main | probably-capture | 0 | Prof. Jeffrey Sachs  :  What the Chinese Think of Trump |
+|  | napolitano | `Ai48FpArr8Q` | uncaptured-main | probably-capture | 0 | COL. Lawrence Wilkerson  :  Checkmate in Iran |
+|  | napolitano | `DqF2fxRb-fU` | hidden-short | hide-default | 0 | An Entente Forms: Russia, China and Iran Unite |
+|  | napolitano | `EYaoxmfjJxA` | uncaptured-main | probably-capture | 0 | LtCOL. Karen Kwiatkowski  :  If Trump Resumes Bombing |
+|  | napolitano | `Ewd-K-ERQD4` | hidden-short | hide-default | 0 | Military collapse: 'Zero across the board' strategic defeat |
+|  | napolitano | `G7EXnvfqqsM` | uncaptured-main | probably-capture | 0 | Prof. Glenn Diesen  :  Trump in China: What Can He Accomplish? |
+|  | napolitano | `HMYH50d7ARI` | hidden-short | hide-default | 0 | Could the US defend Taiwan? 'Game, match, China.' |
+|  | napolitano | `HPuY0-nzKhk` | uncaptured-main | probably-capture | 0 | Aaron Maté  :  A False Flag on Syrian Chemical Weapons |
+|  | napolitano | `Hmwyu4FDJWQ` | hidden-short | hide-default | 0 | Why Trump has no leverage with China |
+|  | napolitano | `K11UJgBSMGs` | hidden-short | hide-default | 0 | Did Israel secretly build a base in Iraq? |
+|  | napolitano | `KfWXyh9yu9o` | uncaptured-main | probably-capture | 0 | Gilbert Doctorow  :  Is Europe at War With Russia? |
+|  | napolitano | `LBLqfUhUBc8` | uncaptured-main | probably-capture | 0 | Israel, Gaza, and the Weaponization of Sexual Violence  w/ Aaron Maté |
+|  | napolitano | `LgbaYuppV-g` | hidden-short | hide-default | 0 | How the war is driving oil, food and price shocks |
+|  | napolitano | `Mdyg1mRxwYs` | uncaptured-main | probably-capture | 0 | CPT. Matt Hoh  :  Netanyahu Becomes Desperate |
+|  | napolitano | `Mq5asgUD6sk` | uncaptured-main | probably-capture | 0 | Prof. Mohammad Marandi   :  FROM TEHRAN: Why Iran Stands Firm |
+|  | napolitano | `OWosQyuae0g` | uncaptured-main | probably-capture | 0 | Prof. Jeffrey Sachs  :  The Economic Consequences of Trump's War |
+|  | napolitano | `QJAMVtWUWqE` | uncaptured-main | probably-capture | 0 | Gilbert Doctorow  :  Will the Ukraine War End Soon? |
+|  | napolitano | `RrBBKUT-PQg` | uncaptured-main | probably-capture | 0 | Pepe Escobar  : Russia/Iran/China: The New Triangle |
+|  | napolitano | `W0OVhZyeV0k` | uncaptured-main | probably-capture | 0 | Prof. Glenn Diesen  :  A Limit to Putin’s Patience |
+|  | napolitano | `W_xnbalL9zA` | uncaptured-main | probably-capture | 0 | AMB Chas Freeman  :  China Rising, US Falling |
+|  | napolitano | `XFLATar6mNQ` | uncaptured-main | probably-capture | 0 | Phil Giraldi : A Neocon Turns on Trump |
+|  | napolitano | `Y0W2vpjIQoM` | uncaptured-main | probably-capture | 0 | Scott Ritter  :  The US Will Never Learn |
+|  | napolitano | `Z5BBLbw9ZmY` | uncaptured-main | probably-capture | 0 | Alastair Crooke:  The Western Way of War Is a Bust |
+|  | napolitano | `ZXvUpuhAIBk` | uncaptured-main | probably-capture | 0 | Scott Ritter  :  Why Iran Is Still Winning Trump's War |
+|  | napolitano | `_WFdPIW8EH4` | uncaptured-main | probably-capture | 0 | Larry Johnson :  Troops on the move!  Is the US Empire about to strike? |
+|  | napolitano | `c8punfiKEYw` | uncaptured-main | probably-capture | 0 | Prof. Glenn Diesen  : How Strong Is Iran? |
+|  | napolitano | `cS7l27u8WMI` | uncaptured-main | probably-capture | 0 | Professor Mohammad Marandi  : LIVE  FROM TEHRAN: Iran Prepared and Not Intimidated |
+|  | napolitano | `cjOu_-FFbQo` | uncaptured-main | probably-capture | 0 | Phil Giraldi  :  Trump Strikes Out Again |
+|  | napolitano | `ieniCA4svQo` | hidden-short | hide-default | 0 | Trump's AI Uno stunt  the viral meme that shows he 'has no cards' in the Iran crisis |
+|  | napolitano | `jKnZuhKekj4` | uncaptured-main | probably-capture | 0 | Max Blumenthal  :  Trump Talks Violence, and Trash, to Children. |
+|  | napolitano | `jNbofr7DwK4` | hidden-short | hide-default | 0 | Has the war achieved its objectives? Why it failed |
+|  | napolitano | `kOO8UWGxujY` | uncaptured-main | probably-capture | 0 | COL. Douglas Macgregor  :  How Iran Defeated the US and Israel |
+|  | napolitano | `kruMb0w28G0` | hidden-short | hide-default | 0 | Perpetual war reshaping Israeli society |
+|  | napolitano | `mKi0-9_jqlg` | uncaptured-main | probably-capture | 0 | Prof. Jeffrey Sachs  :  Israel On the Brink |
+|  | napolitano | `nT3BOQyAwZ8` | uncaptured-main | probably-capture | 0 | LtCOL. Karen Kwiatkowski  :  Trump’s Blunders Haunt Him |
+|  | napolitano | `nUpOQfelaaI` | uncaptured-main | probably-capture | 0 | Larry Johnson  :  Israel Secretly Invades Iraq |
+|  | napolitano | `pjsPWciNThE` | uncaptured-main | probably-capture | 0 | Prof. John Mearsheimer  :  Don’t Go Hunting For Monsters |
+|  | napolitano | `qgUR2BUjBsg` | uncaptured-main | probably-capture | 0 | AMB. Chas Freeman  :  What Awaits Trump In China |
+|  | napolitano | `slaSIKyGid0` | hidden-short | hide-default | 0 | Attempting a 'Snatch-and-Grab' in Iran Would Be Suicidal |
+|  | napolitano | `tGKTvQ0-wKQ` | hidden-short | hide-default | 0 | Russian nuclear threats and Europe's alarming position |
+|  | napolitano | `tOfZZaWHyHM` | uncaptured-main | probably-capture | 0 | Alastair Crooke  :  Israel's War Unraveling America |
+|  | napolitano | `tXgqtj2ro-E` | uncaptured-main | probably-capture | 0 | COL. Lawrence Wilkerson  :  What Happens If the US Resumes Bombing? |
+|  | napolitano | `u3wnhAm0SJU` | uncaptured-main | probably-capture | 0 | COL. Douglas Macgregor  :  Is China a Danger to the US? |
+|  | napolitano | `u4JqT8QCmTc` | uncaptured-main | probably-capture | 0 | INTEL Roundtable w/ Johnson & McGovern  - Weekly Wrap  15-May |
+|  | napolitano | `uu-eYwWgWYI` | hidden-short | hide-default | 0 | Iran defeated the US and Israel; Iraq's sovereignty violated |
+|  | napolitano | `xB48pdgfo3s` | uncaptured-main | probably-capture | 0 | Gilbert Doctorow  :  Ukraine War Hits Russians’ Pocketbooks |
+|  | napolitano | `xJf5IWVpn_M` | uncaptured-main | probably-capture | 0 | Max Blumenthal  :  US Consumers Paying for Trump’s War |
+|  | napolitano | `yI6wSTZ7cZc` | uncaptured-main | probably-capture | 0 | Prof. John Mearsheimer  :  The Future of Great Power Politics |
+|  | napolitano | `z968wCMjRec` | uncaptured-main | probably-capture | 0 | Ray McGovern  :  Trump's Trip a Win for China |
+|  | napolitano | `zHlHXaH8wmw` | hidden-short | hide-default | 0 | Putin urged restraint; can Trump stop Israel? |
+|  | napolitano | `zpX2t1KWNbo` | uncaptured-main | probably-capture | 0 | Larry Johnson : US Getting Ready for More War |
