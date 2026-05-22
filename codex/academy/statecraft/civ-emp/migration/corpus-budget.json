@@ -19,9 +19,9 @@
       "when do broken contact regimes and arms-control inheritances make escalation more dangerous than the proxy-war script admits",
       "how does remembered exclusion shape the politics of direct great-power settlement"
     ],
-    "current_lane_surface_words": 49720,
-    "current_civ_emp_words": 14225,
-    "first_wave_core_current_words": 16569
+    "current_lane_surface_words": 51350,
+    "current_civ_emp_words": 16491,
+    "first_wave_core_current_words": 18199
   },
   "corpus_budget": {
     "v1_target": 150000,
@@ -85,7 +85,7 @@
   "word_metrics": {
     "lane_totals": {
       "America": {
-        "words": 13194,
+        "words": 14824,
         "file_count": 23
       },
       "Russia": {
@@ -101,14 +101,14 @@
         "file_count": 25
       }
     },
-    "civ_emp_total_words": 14225,
-    "civ_emp_file_count": 32,
+    "civ_emp_total_words": 16491,
+    "civ_emp_file_count": 35,
     "target_word_counts": {
-      "america-state-memory": 1341,
+      "america-state-memory": 1591,
       "america-geo": 661,
       "america-war": 1198,
       "america-peace": 579,
-      "america-empire-instrument": 703,
+      "america-empire-instrument": 2083,
       "russia-state-memory": 1075,
       "russia-geo": 707,
       "russia-war": 1038,
@@ -125,7 +125,7 @@
       "iran-peace": 1075,
       "iran-empire-instrument": 225
     },
-    "first_wave_core_total_words": 16569,
+    "first_wave_core_total_words": 18199,
     "first_wave_lane_totals": {
       "America": {
         "target_ids": [
@@ -135,11 +135,11 @@
           "america-peace",
           "america-empire-instrument"
         ],
-        "civilization_words": 3779,
-        "empire_words": 703,
+        "civilization_words": 4029,
+        "empire_words": 2083,
         "hinge_words": 270,
-        "civilization_to_empire_ratio": 5.38,
-        "empire_share_of_civilization": 0.19
+        "civilization_to_empire_ratio": 1.93,
+        "empire_share_of_civilization": 0.52
       },
       "Russia": {
         "target_ids": [
@@ -185,11 +185,11 @@
       }
     },
     "canonical_family_word_counts": {
-      "when do older strategic memories continue to constrain present actors": 4604,
+      "when do older strategic memories continue to constrain present actors": 4854,
       "how does remembered exclusion shape the politics of direct great-power settlement": 2705,
       "when does coercion fail to convert into the political outcome it claims to serve": 3898,
       "what makes a settlement real rather than theatrical": 3992,
-      "when does a pressured hegemon misread its own power, limits, or durability": 1370
+      "when does a pressured hegemon misread its own power, limits, or durability": 2750
     }
   },
   "first_wave_targets": [
@@ -198,7 +198,7 @@
       "lane": "America",
       "volume_side": "civilization",
       "object_class": "state-memory",
-      "current_word_count": 1341,
+      "current_word_count": 1591,
       "target_word_band": "3500-4500",
       "canonical_question_family": "when do older strategic memories continue to constrain present actors",
       "secondary_canonical_family": "when does a pressured hegemon misread its own power, limits, or durability",
@@ -258,7 +258,7 @@
       "lane": "America",
       "volume_side": "empire",
       "object_class": "empire-instrument",
-      "current_word_count": 703,
+      "current_word_count": 2083,
       "target_word_band": "2500-3500",
       "canonical_question_family": "when does a pressured hegemon misread its own power, limits, or durability",
       "secondary_canonical_family": "when does coercion fail to convert into the political outcome it claims to serve",

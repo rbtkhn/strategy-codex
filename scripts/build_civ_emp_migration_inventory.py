@@ -98,6 +98,20 @@ WORD_BANDS = {
     "peace": "3000-4000",
     "empire-instrument": "2500-3500",
 }
+PILOT_PAIR_DEFAULTS = {
+    "america-state-memory": {
+        "status": "cut_over",
+        "counterweight_present": "yes",
+        "transaction_hook_present": "yes",
+        "notes": "phase-one pilot pair materialized; America README routing now prefers the pair and legacy civ-mem remains explicit provenance inside the object",
+    },
+    "america-empire-instrument": {
+        "status": "cut_over",
+        "counterweight_present": "yes",
+        "transaction_hook_present": "yes",
+        "notes": "phase-one pilot pair materialized; existing seed path now carries the active empire object and America README routing prefers it as the empire-side opening",
+    },
+}
 CORPUS_BUDGET = {
     "v1_target": 150000,
     "v1_band": [120000, 180000],
@@ -125,6 +139,8 @@ REF_RE = re.compile(
     r"research/repos/civilization_memory/content/civilizations/[A-Z]+/[^`\s]+\.md"
 )
 TABLE_ROW_RE = re.compile(r"^\|(.+)\|$")
+STATUS_VALUES = {"unstarted", "in_progress", "materialized", "cut_over", "verified"}
+YES_NO_VALUES = {"yes", "no"}
 
 
 @dataclass(frozen=True)
@@ -161,6 +177,24 @@ def parse_markdown_table(path: Path) -> dict[str, list[str]]:
             continue
         rows[cells[0]] = cells
     return rows
+
+
+def get_existing_ledger_value(
+    row: list[str], index: int, allowed: set[str] | None = None, default: str = ""
+) -> str:
+    if len(row) <= index:
+        return default
+    value = row[index]
+    if allowed is not None and value not in allowed:
+        return default
+    return value
+
+
+def get_existing_note(row: list[str], default: str) -> str:
+    value = get_existing_ledger_value(row, 15, None, default)
+    if value in YES_NO_VALUES or value in STATUS_VALUES or not value:
+        return default
+    return value
 
 
 def word_count(text: str) -> int:
@@ -325,6 +359,9 @@ def compute_inventory(occurrences: list[Occurrence], word_metrics: dict) -> dict
             )
     duplicate_entries.sort(key=lambda item: (-item["consumer_count"], item["upstream_ref"]))
 
+    default_note = (
+        "phase-one symmetric target; cut over only when lane-local citation order prefers civ-emp and legacy civ-mem remains provenance only"
+    )
     first_wave_targets = []
     for lane, lane_meta in LANES.items():
         empire_id = f"{lane}-empire-instrument"
@@ -336,6 +373,7 @@ def compute_inventory(occurrences: list[Occurrence], word_metrics: dict) -> dict
             direct_ref_count = target_ref_counts[(lane, object_class)]
             existing_ledger = existing_ledger_rows.get(object_id, [])
             existing_manifest = existing_manifest_rows.get(object_id, [])
+            pilot_defaults = PILOT_PAIR_DEFAULTS.get(object_id, {})
             if object_class == "empire-instrument":
                 symmetry_partner_id = f"{lane}-state-memory"
                 current_consumers = consumers or [f"{lane_meta['lane_root'].relative_to(REPO_ROOT).as_posix()}/empire/seed-instruments.md"]
@@ -367,19 +405,30 @@ def compute_inventory(occurrences: list[Occurrence], word_metrics: dict) -> dict
                     "upstream_civ_mem_sources": [lane_meta["folder"]],
                     "current_lane_local_consumers": current_consumers,
                     "current_consumer_note": current_consumer_note,
-                    "status": existing_ledger[8] if len(existing_ledger) > 8 else "unstarted",
-                    "counterweight_present": existing_ledger[9] if len(existing_ledger) > 9 else "no",
-                    "transaction_hook_present": existing_ledger[10] if len(existing_ledger) > 10 else "no",
+                    "status": get_existing_ledger_value(
+                        existing_ledger,
+                        10,
+                        STATUS_VALUES,
+                        pilot_defaults.get("status", "unstarted"),
+                    ),
+                    "counterweight_present": get_existing_ledger_value(
+                        existing_ledger,
+                        11,
+                        YES_NO_VALUES,
+                        pilot_defaults.get("counterweight_present", "no"),
+                    ),
+                    "transaction_hook_present": get_existing_ledger_value(
+                        existing_ledger,
+                        12,
+                        YES_NO_VALUES,
+                        pilot_defaults.get("transaction_hook_present", "no"),
+                    ),
                     "symmetry_partner_id": symmetry_partner_id,
                     "target_surface": target_surface,
                     "direct_civ_mem_reference_count": direct_ref_count,
                     "current_word_count": word_metrics["target_word_counts"].get(object_id, 0),
                     "target_word_band": WORD_BANDS[object_class],
-                    "symmetry_partner_status": (
-                        existing_ledger_rows.get(symmetry_partner_id, [""] * 9)[8]
-                        if symmetry_partner_id in existing_ledger_rows
-                        else "unstarted"
-                    ),
+                    "symmetry_partner_status": "unstarted",
                     "lane_civilization_words": lane_budget["civilization_words"],
                     "lane_empire_words": lane_budget["empire_words"],
                     "lane_hinge_words": lane_budget["hinge_words"],
@@ -388,11 +437,23 @@ def compute_inventory(occurrences: list[Occurrence], word_metrics: dict) -> dict
                     "provenance_rule": existing_manifest[4]
                     if len(existing_manifest) > 4
                     else "retain explicit Source basis naming upstream civ-mem files; after cutover use civ-mem only as provenance or gap fallback",
-                    "notes": existing_ledger[12]
-                    if len(existing_ledger) > 12
-                    else "phase-one symmetric target; cut over only when lane-local citation order prefers civ-emp and legacy civ-mem remains provenance only",
+                    "notes": get_existing_note(
+                        existing_ledger,
+                        pilot_defaults.get(
+                            "notes",
+                            default_note,
+                        ),
+                    ),
                 }
             )
+
+    target_status_map = {
+        target["target_object_id"]: target["status"] for target in first_wave_targets
+    }
+    for target in first_wave_targets:
+        target["symmetry_partner_status"] = target_status_map.get(
+            target["symmetry_partner_id"], "unstarted"
+        )
 
     current_total_words = sum(item["words"] for item in word_metrics["lane_totals"].values())
     return {

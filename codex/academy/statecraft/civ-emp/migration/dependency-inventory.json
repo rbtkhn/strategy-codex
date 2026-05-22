@@ -19,9 +19,9 @@
       "when do broken contact regimes and arms-control inheritances make escalation more dangerous than the proxy-war script admits",
       "how does remembered exclusion shape the politics of direct great-power settlement"
     ],
-    "current_lane_surface_words": 49720,
-    "current_civ_emp_words": 14225,
-    "first_wave_core_current_words": 16569
+    "current_lane_surface_words": 51350,
+    "current_civ_emp_words": 16491,
+    "first_wave_core_current_words": 18199
   },
   "direct_ref_occurrences": [
     {
@@ -651,7 +651,7 @@
       "object_class": "state-memory",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/AMERICA/CIVâ€“COREâ€“AMERICA.md",
       "upstream_folder": "AMERICA",
-      "line_number": 14,
+      "line_number": 30,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/AMERICA/CIVâ€“COREâ€“AMERICA.md`"
     },
     {
@@ -661,7 +661,7 @@
       "object_class": "state-memory",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/AMERICA/CIVâ€“STATEâ€“AMERICA.md",
       "upstream_folder": "AMERICA",
-      "line_number": 15,
+      "line_number": 31,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/AMERICA/CIVâ€“STATEâ€“AMERICA.md`"
     },
     {
@@ -671,7 +671,7 @@
       "object_class": "state-memory",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/AMERICA/CIVâ€“DOCTRINEâ€“AMERICA.md",
       "upstream_folder": "AMERICA",
-      "line_number": 16,
+      "line_number": 32,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/AMERICA/CIVâ€“DOCTRINEâ€“AMERICA.md`"
     },
     {
@@ -681,7 +681,7 @@
       "object_class": "state-memory",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/AMERICA/DIBâ€“AMERICAâ€“PRESIDENTIALâ€“DOCTRINEâ€“BRIEF.md",
       "upstream_folder": "AMERICA",
-      "line_number": 17,
+      "line_number": 33,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/AMERICA/DIBâ€“AMERICAâ€“PRESIDENTIALâ€“DOCTRINEâ€“BRIEF.md`"
     },
     {
@@ -691,7 +691,7 @@
       "object_class": "state-memory",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/AMERICA/MEMâ€“AMERICAâ€“LAWâ€“CONSTITUTION.md",
       "upstream_folder": "AMERICA",
-      "line_number": 18,
+      "line_number": 34,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/AMERICA/MEMâ€“AMERICAâ€“LAWâ€“CONSTITUTION.md`"
     },
     {
@@ -701,7 +701,7 @@
       "object_class": "state-memory",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/AMERICA/MEMâ€“AMERICAâ€“LAWâ€“CONGRESS.md",
       "upstream_folder": "AMERICA",
-      "line_number": 19,
+      "line_number": 35,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/AMERICA/MEMâ€“AMERICAâ€“LAWâ€“CONGRESS.md`"
     },
     {
@@ -711,7 +711,7 @@
       "object_class": "state-memory",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/AMERICA/MEMâ€“AMERICAâ€“LAWâ€“FEDERALISM.md",
       "upstream_folder": "AMERICA",
-      "line_number": 20,
+      "line_number": 36,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/AMERICA/MEMâ€“AMERICAâ€“LAWâ€“FEDERALISM.md`"
     },
     {
@@ -721,7 +721,7 @@
       "object_class": "state-memory",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/AMERICA/MEMâ€“AMERICAâ€“WARâ€“AMERICANâ€“CIVILâ€“VICKSBURG.md",
       "upstream_folder": "AMERICA",
-      "line_number": 21,
+      "line_number": 37,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/AMERICA/MEMâ€“AMERICAâ€“WARâ€“AMERICANâ€“CIVILâ€“VICKSBURG.md`"
     },
     {
@@ -731,7 +731,7 @@
       "object_class": "state-memory",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/AMERICA/MEMâ€“AMERICAâ€“WARâ€“AMERICANâ€“CIVILâ€“SHERIDAN.md",
       "upstream_folder": "AMERICA",
-      "line_number": 22,
+      "line_number": 38,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/AMERICA/MEMâ€“AMERICAâ€“WARâ€“AMERICANâ€“CIVILâ€“SHERIDAN.md`"
     },
     {
@@ -741,7 +741,7 @@
       "object_class": "state-memory",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/AMERICA/MIGRATIONâ€“ANGLIAâ€“TOâ€“AMERICAâ€“MEMâ€“CHECKLIST.md",
       "upstream_folder": "AMERICA",
-      "line_number": 23,
+      "line_number": 39,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/AMERICA/MIGRATIONâ€“ANGLIAâ€“TOâ€“AMERICAâ€“MEMâ€“CHECKLIST.md`"
     },
     {
@@ -1261,7 +1261,7 @@
       "object_class": "empire-instrument",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/AMERICA/CIVâ€“COREâ€“AMERICA.md",
       "upstream_folder": "AMERICA",
-      "line_number": 20,
+      "line_number": 36,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/AMERICA/CIVâ€“COREâ€“AMERICA.md`"
     },
     {
@@ -1271,7 +1271,7 @@
       "object_class": "empire-instrument",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/AMERICA/CIVâ€“STATEâ€“AMERICA.md",
       "upstream_folder": "AMERICA",
-      "line_number": 21,
+      "line_number": 37,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/AMERICA/CIVâ€“STATEâ€“AMERICA.md`"
     },
     {
@@ -1281,7 +1281,7 @@
       "object_class": "empire-instrument",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/AMERICA/CIVâ€“DOCTRINEâ€“AMERICA.md",
       "upstream_folder": "AMERICA",
-      "line_number": 22,
+      "line_number": 38,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/AMERICA/CIVâ€“DOCTRINEâ€“AMERICA.md`"
     },
     {
@@ -1291,7 +1291,7 @@
       "object_class": "empire-instrument",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/AMERICA/MEMâ€“RELEVANCEâ€“AMERICA.md",
       "upstream_folder": "AMERICA",
-      "line_number": 23,
+      "line_number": 39,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/AMERICA/MEMâ€“RELEVANCEâ€“AMERICA.md`"
     },
     {
@@ -1301,7 +1301,7 @@
       "object_class": "empire-instrument",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/AMERICA/MEMâ€“AMERICAâ€“DIPLOMACYâ€“MONROEâ€“DOCTRINE.md",
       "upstream_folder": "AMERICA",
-      "line_number": 24,
+      "line_number": 40,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/AMERICA/MEMâ€“AMERICAâ€“DIPLOMACYâ€“MONROEâ€“DOCTRINE.md`"
     },
     {
@@ -1311,7 +1311,7 @@
       "object_class": "empire-instrument",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/AMERICA/MEMâ€“AMERICAâ€“DIPLOMACYâ€“COLDâ€“WAR.md",
       "upstream_folder": "AMERICA",
-      "line_number": 25,
+      "line_number": 41,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/AMERICA/MEMâ€“AMERICAâ€“DIPLOMACYâ€“COLDâ€“WAR.md`"
     },
     {
@@ -1321,7 +1321,7 @@
       "object_class": "empire-instrument",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/AMERICA/MEMâ€“AMERICAâ€“WARâ€“NAVY.md",
       "upstream_folder": "AMERICA",
-      "line_number": 26,
+      "line_number": 42,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/AMERICA/MEMâ€“AMERICAâ€“WARâ€“NAVY.md`"
     },
     {
@@ -1331,7 +1331,7 @@
       "object_class": "empire-instrument",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/AMERICA/MEMâ€“AMERICAâ€“LAWâ€“CONSTITUTION.md",
       "upstream_folder": "AMERICA",
-      "line_number": 27,
+      "line_number": 43,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/AMERICA/MEMâ€“AMERICAâ€“LAWâ€“CONSTITUTION.md`"
     },
     {
@@ -1341,7 +1341,7 @@
       "object_class": "empire-instrument",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/AMERICA/MEMâ€“AMERICAâ€“LAWâ€“CONGRESS.md",
       "upstream_folder": "AMERICA",
-      "line_number": 28,
+      "line_number": 44,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/AMERICA/MEMâ€“AMERICAâ€“LAWâ€“CONGRESS.md`"
     },
     {
@@ -6632,14 +6632,14 @@
       "symmetry_partner_id": "america-empire-instrument",
       "target_surface": "codex/academy/statecraft/america/civilization/objects/state-memory.md",
       "direct_civ_mem_reference_count": 10,
-      "current_word_count": 1341,
+      "current_word_count": 1591,
       "target_word_band": "3500-4500",
       "symmetry_partner_status": "cut_over",
-      "lane_civilization_words": 3779,
-      "lane_empire_words": 703,
+      "lane_civilization_words": 4029,
+      "lane_empire_words": 2083,
       "lane_hinge_words": 270,
-      "lane_civilization_to_empire_ratio": 5.38,
-      "lane_empire_share_of_civilization": 0.19,
+      "lane_civilization_to_empire_ratio": 1.93,
+      "lane_empire_share_of_civilization": 0.52,
       "provenance_rule": "retain explicit Source basis naming upstream civ-mem files; pilot pair is cut over and now prefers the civ-emp object as the operational opening",
       "notes": "phase-one pilot pair materialized; America README routing now prefers the pair and legacy civ-mem remains explicit provenance inside the object"
     },
@@ -6667,11 +6667,11 @@
       "current_word_count": 661,
       "target_word_band": "2500-3500",
       "symmetry_partner_status": "cut_over",
-      "lane_civilization_words": 3779,
-      "lane_empire_words": 703,
+      "lane_civilization_words": 4029,
+      "lane_empire_words": 2083,
       "lane_hinge_words": 270,
-      "lane_civilization_to_empire_ratio": 5.38,
-      "lane_empire_share_of_civilization": 0.19,
+      "lane_civilization_to_empire_ratio": 1.93,
+      "lane_empire_share_of_civilization": 0.52,
       "provenance_rule": "retain explicit Source basis naming upstream civ-mem files; after cutover use civ-mem only as provenance or gap fallback",
       "notes": "phase-one symmetric target; cut over only when lane-local citation order prefers civ-emp and legacy civ-mem remains provenance only"
     },
@@ -6699,11 +6699,11 @@
       "current_word_count": 1198,
       "target_word_band": "3000-4000",
       "symmetry_partner_status": "cut_over",
-      "lane_civilization_words": 3779,
-      "lane_empire_words": 703,
+      "lane_civilization_words": 4029,
+      "lane_empire_words": 2083,
       "lane_hinge_words": 270,
-      "lane_civilization_to_empire_ratio": 5.38,
-      "lane_empire_share_of_civilization": 0.19,
+      "lane_civilization_to_empire_ratio": 1.93,
+      "lane_empire_share_of_civilization": 0.52,
       "provenance_rule": "retain explicit Source basis naming upstream civ-mem files; after cutover use civ-mem only as provenance or gap fallback",
       "notes": "phase-one symmetric target; cut over only when lane-local citation order prefers civ-emp and legacy civ-mem remains provenance only"
     },
@@ -6731,11 +6731,11 @@
       "current_word_count": 579,
       "target_word_band": "3000-4000",
       "symmetry_partner_status": "cut_over",
-      "lane_civilization_words": 3779,
-      "lane_empire_words": 703,
+      "lane_civilization_words": 4029,
+      "lane_empire_words": 2083,
       "lane_hinge_words": 270,
-      "lane_civilization_to_empire_ratio": 5.38,
-      "lane_empire_share_of_civilization": 0.19,
+      "lane_civilization_to_empire_ratio": 1.93,
+      "lane_empire_share_of_civilization": 0.52,
       "provenance_rule": "retain explicit Source basis naming upstream civ-mem files; after cutover use civ-mem only as provenance or gap fallback",
       "notes": "phase-one symmetric target; cut over only when lane-local citation order prefers civ-emp and legacy civ-mem remains provenance only"
     },
@@ -6760,14 +6760,14 @@
       "symmetry_partner_id": "america-state-memory",
       "target_surface": "codex/academy/statecraft/america/empire/seed-instruments.md",
       "direct_civ_mem_reference_count": 9,
-      "current_word_count": 703,
+      "current_word_count": 2083,
       "target_word_band": "2500-3500",
       "symmetry_partner_status": "cut_over",
-      "lane_civilization_words": 3779,
-      "lane_empire_words": 703,
+      "lane_civilization_words": 4029,
+      "lane_empire_words": 2083,
       "lane_hinge_words": 270,
-      "lane_civilization_to_empire_ratio": 5.38,
-      "lane_empire_share_of_civilization": 0.19,
+      "lane_civilization_to_empire_ratio": 1.93,
+      "lane_empire_share_of_civilization": 0.52,
       "provenance_rule": "retain explicit Source basis naming upstream civ-mem files; existing seed path now serves as the active pilot object and is preferred operationally after cutover",
       "notes": "phase-one pilot pair materialized; existing seed path now carries the active empire object and America README routing prefers it as the empire-side opening"
     },
@@ -7299,7 +7299,7 @@
   "word_metrics": {
     "lane_totals": {
       "America": {
-        "words": 13194,
+        "words": 14824,
         "file_count": 23
       },
       "Russia": {
@@ -7315,14 +7315,14 @@
         "file_count": 25
       }
     },
-    "civ_emp_total_words": 14225,
-    "civ_emp_file_count": 32,
+    "civ_emp_total_words": 16491,
+    "civ_emp_file_count": 35,
     "target_word_counts": {
-      "america-state-memory": 1341,
+      "america-state-memory": 1591,
       "america-geo": 661,
       "america-war": 1198,
       "america-peace": 579,
-      "america-empire-instrument": 703,
+      "america-empire-instrument": 2083,
       "russia-state-memory": 1075,
       "russia-geo": 707,
       "russia-war": 1038,
@@ -7339,7 +7339,7 @@
       "iran-peace": 1075,
       "iran-empire-instrument": 225
     },
-    "first_wave_core_total_words": 16569,
+    "first_wave_core_total_words": 18199,
     "first_wave_lane_totals": {
       "America": {
         "target_ids": [
@@ -7349,11 +7349,11 @@
           "america-peace",
           "america-empire-instrument"
         ],
-        "civilization_words": 3779,
-        "empire_words": 703,
+        "civilization_words": 4029,
+        "empire_words": 2083,
         "hinge_words": 270,
-        "civilization_to_empire_ratio": 5.38,
-        "empire_share_of_civilization": 0.19
+        "civilization_to_empire_ratio": 1.93,
+        "empire_share_of_civilization": 0.52
       },
       "Russia": {
         "target_ids": [
@@ -7399,11 +7399,11 @@
       }
     },
     "canonical_family_word_counts": {
-      "when do older strategic memories continue to constrain present actors": 4604,
+      "when do older strategic memories continue to constrain present actors": 4854,
       "how does remembered exclusion shape the politics of direct great-power settlement": 2705,
       "when does coercion fail to convert into the political outcome it claims to serve": 3898,
       "what makes a settlement real rather than theatrical": 3992,
-      "when does a pressured hegemon misread its own power, limits, or durability": 1370
+      "when does a pressured hegemon misread its own power, limits, or durability": 2750
     }
   },
   "corpus_budget": {

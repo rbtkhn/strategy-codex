@@ -10,8 +10,8 @@ This report inventories direct legacy `civ-mem` references inside the four activ
 - Files with direct references: `33`
 - Unique upstream `civ-mem` files referenced: `229`
 - First-wave symmetric targets: `20`
-- Current active-lane words: `49720`
-- Current `civ-emp` subtree words: `14225`
+- Current active-lane words: `51350`
+- Current `civ-emp` subtree words: `16491`
 
 ## Direct References By Lane
 
@@ -104,11 +104,11 @@ This report inventories direct legacy `civ-mem` references inside the four activ
 
 | Target object | Volume side | Current lane-local consumers | Direct reference count | Current words | Target band | Current note |
 | --- | --- | --- | ---: | ---: | --- | --- |
-| `america-state-memory` | `civilization` | codex/academy/statecraft/america/civilization/objects/state-memory.md | 10 | 1341 | `3500-4500` | direct CIV-MEM dependency already present |
+| `america-state-memory` | `civilization` | codex/academy/statecraft/america/civilization/objects/state-memory.md | 10 | 1591 | `3500-4500` | direct CIV-MEM dependency already present |
 | `america-geo` | `civilization` | codex/academy/statecraft/america/civilization/geo.md | 13 | 661 | `2500-3500` | direct CIV-MEM dependency already present |
 | `america-war` | `civilization` | codex/academy/statecraft/america/civilization/war.md | 31 | 1198 | `3000-4000` | direct CIV-MEM dependency already present |
 | `america-peace` | `civilization` | codex/academy/statecraft/america/civilization/peace.md | 13 | 579 | `3000-4000` | direct CIV-MEM dependency already present |
-| `america-empire-instrument` | `empire` | codex/academy/statecraft/america/empire/seed-instruments.md | 9 | 703 | `2500-3500` | direct CIV-MEM dependency already present |
+| `america-empire-instrument` | `empire` | codex/academy/statecraft/america/empire/seed-instruments.md | 9 | 2083 | `2500-3500` | direct CIV-MEM dependency already present |
 | `russia-state-memory` | `civilization` | codex/academy/statecraft/russia/civilization/objects/state-memory.md | 13 | 1075 | `3500-4500` | direct CIV-MEM dependency already present |
 | `russia-geo` | `civilization` | codex/academy/statecraft/russia/civilization/geo.md | 13 | 707 | `2500-3500` | direct CIV-MEM dependency already present |
 | `russia-war` | `civilization` | codex/academy/statecraft/russia/civilization/war.md | 16 | 1038 | `3000-4000` | direct CIV-MEM dependency already present |

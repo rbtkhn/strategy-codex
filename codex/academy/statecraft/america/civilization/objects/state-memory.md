@@ -2,11 +2,27 @@
 
 WORK only; not Record.
 
-This civilization object stores the long authority grammar behind the America lane. It treats America as a British imperial/provincial authority field until the independence rupture, then as a procedural republic whose outward empire must be carried through lawful, domestic, allied, and successor-stable authority or it becomes emergency drift.
+This civilization object stores the long authority grammar behind the America lane. It treats America as a British imperial/provincial authority field until the independence rupture, then as a procedural republic whose outward reach must still be carried through lawful domestic authority, allied cooperation, and a form that a later government can plausibly inherit. When that carrying grammar fails, republic becomes emergency empire by drift rather than by declaration.
 
 Primary family: `when do older strategic memories continue to constrain present actors`
 
 Secondary family: `when does a pressured hegemon misread its own power, limits, or durability`
+
+## Where This Sits
+
+Use this as the civilization-side opening for the America lane when the real question is not what Washington can do today, but what kind of American authority can still carry a policy tomorrow. It sits above current-office analysis and below full civilizational history.
+
+## Reading Posture
+
+Read this as a bounded pattern surface, not as a total history of the United States. Its job is to show which older legitimacy habits still constrain present action, especially when America tries to convert outward power into durable order.
+
+## Historical Pressure Points
+
+The pressure points are easy to name even when they are hard to solve: imperial inheritance versus republican self-understanding, executive speed versus constitutional carry, maritime reach versus domestic consent, and external command versus the fear of internal fracture.
+
+## Limits Of The Frame
+
+This object cannot decide current policy by itself. It does not tell you whether a given war, sanction, alliance, or settlement is wise on operational grounds. It tells you what kinds of moves are likely to outrun the authority grammar that makes American power durable in the first place.
 
 ## Source Basis
 
@@ -47,6 +63,10 @@ The counterweight is that America often uses constitutional language to bless in
 ## Symmetry Link
 
 This object is the civilization-side pair to [America empire instrument](../../empire/seed-instruments.md). State memory names the inherited legitimacy grammar that can authorize outward amplification; the empire object names the control stack that must remain bounded by constitutional legitimacy, burden-sharing, and settlement path if America is to avoid republic-consuming drift.
+
+## Return Path
+
+If the question is about current carriers, move next to [America state](../../state/). If the question is about outward instruments, move to the paired [America empire instrument](../../empire/seed-instruments.md). If the question is about the full civilization / empire cycle, move to [America helix](../../helix.md).
 
 ## Continuity Pattern
 

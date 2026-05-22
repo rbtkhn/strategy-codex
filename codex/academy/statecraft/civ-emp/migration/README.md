@@ -16,6 +16,9 @@ The migration rule here is symmetric first. Phase one does not allow `Civilizati
 - [Corpus budget](corpus-budget.md) - live word-budget target, current baseline, and lane/object symmetry counts.
 - [Corpus budget JSON](corpus-budget.json) - machine-readable budget and current word-count metrics.
 - [Status report template](status-report-template.md) - deterministic wave-close format for later materialization and cutover passes.
+- [Pilot-lane audit template](pilot-lane-audit-template.md) - reusable six-audit checklist for deciding whether a lane can move from pilot to template status.
+- [America pilot lane audit](america-pilot-lane-audit.md) - first proving-case scorecard for the active America pair.
+- [Russia transfer probe](russia-transfer-probe.md) - bounded next-lane test of whether the America pilot pattern transfers cleanly without materializing Russia yet.
 
 ## Two-Volume Rule
 
@@ -79,6 +82,29 @@ A first-wave slice is only `verified` when:
 - transaction hook exists
 - provenance to upstream `civ-mem` is preserved
 - the slice's symmetry partner is at least `cut_over`
+
+## Pilot-Lane Audit Gate
+
+Before any lane is treated as the reusable scaling template, it must pass a six-audit gate:
+
+1. `civ-emp` object contract audit
+2. cutover honesty audit
+3. budget / generator audit
+4. provenance membrane audit
+5. scaffold-answer audit
+6. public orientation and attractiveness audit
+
+The first five audits test internal correctness. The sixth tests whether the pair can orient, invite, and guide a serious outsider in a PH-CIV-like way rather than reading as migration residue or insider shorthand.
+
+Pass thresholds:
+
+- Hard pass: no audit category below `4`, and the pair-level public orientation average is at least `4.2`
+- Conditional pass: one or two categories may score `3` when paired with explicit revision notes and no pair-level category falls below `4`
+- Fail: any category scores `1-2`, or the pair remains internally correct but publicly inert, jargon-heavy, or unguided
+
+Lane promotion rule:
+
+- no lane becomes the reusable template until both pilot objects pass the first five audits and the pair passes the public orientation and attractiveness audit
 
 ## Operational Boundary
 
