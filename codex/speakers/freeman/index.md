@@ -11,8 +11,8 @@ Purpose: front door for Chas Freeman materials that cut across host shelves.
 - [Speaker routing note](../../../speakers/freeman/freeman-routing.md) - fastest answer to which host lane should carry the Freeman reading.
 - [Speaker helix note](../../../speakers/freeman/freeman-helix.md) - why the core host lanes and the non-core appearance bench belong to one Freeman object.
 - [December 2025-May 2026 arc-threads](stream/freeman-dec-2025-may-2026-arc-threads.md) - six arc-thread synthesis across law, diplomacy, Israel, Iran, U.S. self-damage, and China, with December evidence tiers marked explicitly.
-- [March 2026 cross-host arc](stream/freeman-march-2026-cross-host-arc.md) - war-system activation month; links captured raw-input, found-but-uncaptured items, and host-local routes; functions partly as `discovery memory`.
-- [April 2026 cross-host arc](stream/freeman-april-2026-cross-host-arc.md) - settlement failure, Hormuz control, blockade blowback, and diplomacy-dead sequence; functions partly as `discovery memory`.
+- [March 2026 cross-host arc](stream/freeman-march-2026-cross-host-arc.md) - war-system activation month; links captured raw-input, found-but-uncaptured items, and host-local routes; captured sections are active month-spine routing while uncaptured items function as `discovery memory`.
+- [April 2026 cross-host arc](stream/freeman-april-2026-cross-host-arc.md) - settlement failure, Hormuz control, blockade blowback, and diplomacy-dead sequence; captured sections are active month-spine routing while uncaptured items function as `discovery memory`.
 
 ## Core Speaker Files
 
@@ -46,7 +46,7 @@ Read this ladder as a Freeman-local implementation of the governing [speaker-map
 - [Judging Freedom / Napolitano arc](../napolitano/stream/napolitano-freeman-speaker-arc.md)
 - [Dialogue Works / Alkhorshid arc](../alkorshid/stream/alkorshid-freeman-speaker-arc.md)
 - [Glenn Diesen arc](../diesen/stream/diesen-freeman-speaker-arc.md)
-- [Daniel Davis folder](../davis/)
+- [Daniel Davis arc](../davis/stream/davis-freeman-speaker-arc.md)
 
 ## Raw-Input Coverage
 

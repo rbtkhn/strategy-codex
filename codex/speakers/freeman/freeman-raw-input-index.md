@@ -71,8 +71,11 @@ Promotion rule:
 - [transcript-diesen-freeman-thucydides-trap-us-reaction-china-rise-2025-12-04](../../years/2026/raw-input/2025-12-04/transcript-diesen-freeman-thucydides-trap-us-reaction-china-rise-2025-12-04.md)
 - [transcript-dialogue-works-amb-chas-freeman-israel-s-strategy-is-collapsing-eu-seems-paralyzed-ceding-the-future-to-china-2025-12-05](../../years/2026/raw-input/2025-12-05/transcript-dialogue-works-amb-chas-freeman-israel-s-strategy-is-collapsing-eu-seems-paralyzed-ceding-the-future-to-china-2025-12-05.md)
 - [transcript-napolitano-freeman-does-anyone-want-peace-2025-12-09](../../years/2026/raw-input/2025-12-09/transcript-napolitano-freeman-does-anyone-want-peace-2025-12-09.md)
+- [transcript-dialogue-works-wilkerson-freeman-chain-reaction-2025-12-12](../../years/2026/raw-input/2025-12-12/transcript-dialogue-works-wilkerson-freeman-chain-reaction-2025-12-12.md)
+- [transcript-neutrality-studies-freeman-us-naval-seizures-caribbean-2025-12-15](../../years/2026/raw-input/2025-12-15/transcript-neutrality-studies-freeman-us-naval-seizures-caribbean-2025-12-15.md)
 - [transcript-napolitano-freeman-trump-and-us-hegemony-2025-12-16](../../years/2026/raw-input/2025-12-16/transcript-napolitano-freeman-trump-and-us-hegemony-2025-12-16.md)
 - [youtube-glenn-diesen-chas-freeman-age-of-wars-as-freedom-of-navigation-ends-2025-12-18](../../years/2026/raw-input/2025-12-18/youtube-glenn-diesen-chas-freeman-age-of-wars-as-freedom-of-navigation-ends-2025-12-18.md)
+- [transcript-dialogue-works-freeman-parsi-middle-east-you-knew-disappearing-2025-12-19](../../years/2026/raw-input/2025-12-19/transcript-dialogue-works-freeman-parsi-middle-east-you-knew-disappearing-2025-12-19.md)
 
 ## 2026-01
 - [transcript-dialogue-works-amb-chas-freeman-mohammad-marandi-trump-issues-warning-to-iran-tehran-fi-2026-01-02.cleaned](../../years/2026/raw-input/2026-01-02/transcript-dialogue-works-amb-chas-freeman-mohammad-marandi-trump-issues-warning-to-iran-tehran-fi-2026-01-02.cleaned.md)

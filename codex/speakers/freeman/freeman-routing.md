@@ -49,7 +49,7 @@ Freeman is the first concrete implementation of the general ladder, not an excep
 | cross-host orientation to Freeman as an object | [freeman-helix.md](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-helix.md) | The helix note explains how the four host strands fit together before you descend into a lane. |
 | durable Freeman thesis across months or hosts | [freeman-dec-2025-may-2026-arc-threads.md](/C:/dev/strategy-codex/codex/speakers/freeman/stream/freeman-dec-2025-may-2026-arc-threads.md) | This is the thread atlas: it names the recurring arc-threads that host-local arcs braid differently. |
 | accepted transcript-bearing appearances outside the four core host lanes | [freeman-raw-input-index.md](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-raw-input-index.md) | This is the `non-core appearance bench`: materialized raw-input without forcing every acceptable source into its own host arc. |
-| found or operator-pasted appearances that are still useful for routing but are not yet materialized raw-input | [freeman-march-2026-cross-host-arc.md](/C:/dev/strategy-codex/codex/speakers/freeman/stream/freeman-march-2026-cross-host-arc.md) / [freeman-april-2026-cross-host-arc.md](/C:/dev/strategy-codex/codex/speakers/freeman/stream/freeman-april-2026-cross-host-arc.md) | Those cross-host arc files are `discovery memory`, not active transcript authority. |
+| month-level Freeman sequencing across hosts, including captured anchors plus any still-unmaterialized routing memory | [freeman-march-2026-cross-host-arc.md](/C:/dev/strategy-codex/codex/speakers/freeman/stream/freeman-march-2026-cross-host-arc.md) / [freeman-april-2026-cross-host-arc.md](/C:/dev/strategy-codex/codex/speakers/freeman/stream/freeman-april-2026-cross-host-arc.md) | Those cross-host arc files are mixed month-spine surfaces: use their captured sections as routeable month structure, and treat their uncaptured entries as `discovery memory` only. |
 
 ## Entry points
 
@@ -64,7 +64,7 @@ Freeman is the first concrete implementation of the general ladder, not an excep
 - **Settlement-realism reading:** [davis](/C:/dev/strategy-codex/codex/speakers/davis/stream/)
 - **Live crisis-pressure reading:** [alkorshid](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/)
 - **Legal-moral and legitimacy reading:** [napolitano](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/)
-- **Cross-host / reinforcement / YouTube bench:** [freeman](/C:/dev/strategy-codex/codex/speakers/freeman/stream/)
+- **Cross-host / reinforcement / month-spine bench:** [freeman](/C:/dev/strategy-codex/codex/speakers/freeman/stream/)
 
 ## Boundaries
 

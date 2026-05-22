@@ -35,7 +35,7 @@ Use this ladder as a Freeman-local implementation of the governing [speaker-map 
 Use these when the Freeman question is wider than the four core host arcs:
 
 - open the raw-input index for the `non-core appearance bench`
-- open the March/April cross-host arc files for `discovery memory`
+- open the March/April cross-host arc files for month-level cross-host sequencing that may also carry `discovery memory`
 - open the year index for the combined front door
 
 ## Compatibility shape
