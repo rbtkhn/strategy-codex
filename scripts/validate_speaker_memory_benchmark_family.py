@@ -13,12 +13,11 @@ from dataclasses import asdict, dataclass
 from pathlib import Path
 from typing import Any, Callable
 
-from speaker_memory_benchmark_samples import SAMPLE_OUTPUTS
-
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SCRIPTS_DIR = Path(__file__).resolve().parent
 FIXTURES_DIR = REPO_ROOT / "artifacts" / "benchmarks" / "speaker-memory" / "fixtures"
+SAMPLES_PATH = REPO_ROOT / "artifacts" / "benchmarks" / "speaker-memory" / "benchmark_samples.py"
 README_PATH = REPO_ROOT / "artifacts" / "benchmarks" / "speaker-memory" / "README.md"
 SCORE_SCRIPT_PATH = REPO_ROOT / "scripts" / "score_speaker_memory_benchmark.py"
 SCORE_TEST_PATH = REPO_ROOT / "tests" / "test_score_speaker_memory_benchmark.py"
@@ -55,6 +54,9 @@ def load_module(path: Path, module_name: str) -> Any:
     sys.modules[module_name] = module
     spec.loader.exec_module(module)
     return module
+
+
+SAMPLE_OUTPUTS = load_module(SAMPLES_PATH, "speaker_memory_benchmark_samples").SAMPLE_OUTPUTS
 
 
 def run_command(argv: list[str], *, cwd: Path = REPO_ROOT) -> subprocess.CompletedProcess[str]:
