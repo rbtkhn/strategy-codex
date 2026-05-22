@@ -11,7 +11,7 @@ WORK only; not Record.
 
 ## Why This Belongs Here
 
-This post is useful for academy singularity because it frames acceleration as optimizer recursion: systems improving the workflows, benchmarks, hardware paths, and economic structures that improve systems.
+This post is useful for singularity-academy because it frames acceleration as optimizer recursion: systems improving the workflows, benchmarks, hardware paths, and economic structures that improve systems.
 
 Do not use this sheet as model-release tracking. Use it when testing recursive improvement, compute sovereignty, cyber hardening windows, valuation confusion, and institutional lag.
 

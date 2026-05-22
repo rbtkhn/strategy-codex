@@ -58,6 +58,30 @@ This warning weakens if major AI buildouts can show all three at once:
 - transparent public review with legible receipts
 - real local veto or meaningful refusal power, not symbolic consultation
 
+## Worked Example: Compute Futures As Control-Plane Leak
+
+Use this as a compact hint-backed note when the source trail is incomplete but the control-plane pattern is already visible.
+
+**Local evidence base:**
+
+- [The Innermost Loop raw - 2026-03-01](../raw-input/innermost-loop/innermost-loop-2026-03-01.md) names Ornn as a market for "GPU and more broadly compute futures," which frames compute scarcity as something to price, hedge, and route.
+- [The Innermost Loop raw - 2026-05-13](../raw-input/innermost-loop/innermost-loop-2026-05-13.md) ties orbital data centers, launch cadence, and power-beaming infrastructure to a near-term May 19 horizon.
+- No local `2026-05-19` Innermost Loop raw capture or source sheet is present here yet, so treat this as a workshop note, not a settled source-sheet claim.
+
+- **Agent:** The market-and-infrastructure stack that prices future compute access before end users, local governments, or public institutions can meaningfully contest it.
+- **Objective:** Turn anticipated compute scarcity into tradable advantage, earlier siting commitments, launch priority, and bargaining power over downstream model deployment.
+- **Authority:** Split across forecast markets, cloud or launch operators, labs, capital allocators, and the policy actors left reacting after capacity has already been pre-committed.
+- **Observability:** Medium. The narrative is visible through financing language, launch targets, and substrate deals, but the real allocation logic remains partially hidden inside private contracts and insider expectations.
+- **Rollback:** Weakening. Once compute is pre-priced and future capacity is effectively spoken for, public review tends to arrive after the control decision has already migrated upstream.
+
+### Source-Hygiene Warning
+
+Do not cite a nonexistent May 19 source sheet or imply that the workshop has already verified a dedicated "compute futures" post for `2026-05-19`. The reusable claim here is narrower: local materials already show the control plane moving from model behavior toward forecasted compute allocation and orbital substrate planning.
+
+### Coffee D / C Reuse
+
+For a future Coffee D or Statecraft pass, this note is best used to ask one question: when compute is treated as a futures market plus infrastructure queue, who still has the authority to say no before the queue becomes destiny?
+
 ## Output Prompts
 
 - Write a control-plane note with five fields: agent, objective, authority, observability, rollback.

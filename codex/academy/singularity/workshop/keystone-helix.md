@@ -4,7 +4,7 @@ WORK only; not Record.
 
 ## Thesis
 
-The Innermost Loop and Moonshots constitute the keystone helix of academy singularity.
+The Innermost Loop and Moonshots constitute the keystone helix of singularity-academy.
 
 They are not interchangeable sources. They are paired strands:
 

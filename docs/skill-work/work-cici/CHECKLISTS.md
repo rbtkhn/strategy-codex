@@ -28,7 +28,7 @@ Run this for war powers, transparency spikes, and correction-context posts.
 
 ## Week-close checklist
 
-- [ ] KPI scorecard updated
+- [ ] Scoreboard updated
 - [ ] Budget log updated and compared to cap
 - [ ] Stress-test register complete
 - [ ] Friday recap built from live posts only

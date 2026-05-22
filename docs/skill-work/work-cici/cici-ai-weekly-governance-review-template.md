@@ -25,6 +25,35 @@
 - Returned within 7d:
 - Issue / PR / artifact:
 - Helper behavior:
+- Predictive History comment quality:
+- Predictive History comment reach:
+- Notes:
+
+## 2a. Apprentice Studio pilot readout
+
+- Participants attempted:
+- Evidence-linked completions:
+- Accepted:
+- Accepted with edits:
+- Not yet reusable:
+- Returning participants:
+- Second tasks completed:
+- Reused prompt/workflow improvement:
+- What improved because of AI scaffolding:
+- What still depended on operator rescue:
+- Notes:
+
+## 2b. Predictive History comment rollout
+
+- Target videos scored:
+- Draft packets completed:
+- Comments approved:
+- Comments posted:
+- Quality average:
+- Reach average:
+- Best-performing archetype:
+- What AI helped with:
+- What still depended on operator rescue:
 - Notes:
 
 ## 3. Proposal/governance health
@@ -45,6 +74,7 @@
 - community claims lack evidence confidence tags
 - private/personally identifying data is copied unnecessarily
 - legacy Xavier naming appears in active prose outside allowed contexts
+- Predictive History comments are treated as vanity posting instead of a measured public-output surface
 
 ## 5. Candidate actions
 

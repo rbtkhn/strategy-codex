@@ -2,7 +2,7 @@
 
 WORK only; not Record.
 
-This bridge sheet connects academy-singularity and academy-statecraft. Use it when compute, models, agents, memory, identity, permissions, data centers, audit, rollback, or automation are becoming strategic infrastructure and the question is no longer only technical: **who can still inspect, refuse, pause, reverse, contest, audit, and govern the system?**
+This bridge sheet connects singularity-academy and academy-statecraft. Use it when compute, models, agents, memory, identity, permissions, data centers, audit, rollback, or automation are becoming strategic infrastructure and the question is no longer only technical: **who can still inspect, refuse, pause, reverse, contest, audit, and govern the system?**
 
 Core thesis: sovereignty under acceleration means legitimate human or institutional authority remains meaningful after systems become faster, cheaper, more autonomous, more scalable, or more recursive.
 

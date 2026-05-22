@@ -14,7 +14,7 @@ The design question is not only "which rule prevents the failure?" It is also "w
 
 Moonshots EP #255 treats Anthropic's "teaching models why" discussion as more than a safety footnote. The episode links improved agentic-misalignment behavior to training material that gives models reasons, examples, and positive future frames rather than only prohibitions.
 
-For academy singularity, this becomes a practical hook:
+For singularity-academy, this becomes a practical hook:
 
 - **Rule-shaped alignment:** specify constraints, refusals, policies, eval thresholds, and stop conditions.
 - **Narrative-shaped alignment:** shape the cultural material models retrieve, imitate, compress, and use when reasoning about human futures.

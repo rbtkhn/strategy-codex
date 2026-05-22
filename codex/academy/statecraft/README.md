@@ -29,7 +29,7 @@ Arc-lens doctrine: **each major civilization object is an arc-lens, not a topic 
 
 Use this README as the canonical front door for the new layer.
 
-This README also owns the governing statecraft maturation line for the workshop.
+This README owns the governing statecraft maturation line for the workshop.
 
 Short governing line:
 
@@ -50,7 +50,7 @@ If you want the quickest usable path into the current architecture, start with t
 2. [Transaction router](sheets/transaction-router.md) - decide whether the settlement spine is cross-lane or lane-local.
 3. [Hormuz recognition transit transaction](iran/transactions/hormuz-recognition-transit-transaction.md) - see the braid spent as a concrete Iran-lane instrument.
 
-What this front door is teaching:
+This front door teaches:
 
 - do not begin with commentary; begin by deciding what linked crisis object must be drafted together
 - do not jump from a live event straight to clauses; first decide what settlement spine is actually being routed
@@ -69,7 +69,7 @@ Why Hormuz is the default worked path:
 - it shows the difference between a cross-lane regional compact and a lane-local recognition instrument
 - it demonstrates the workshop's main conversion rule: a strategic reading becomes statecraft only when it can survive as a clause, sequence, review mechanism, or off-ramp
 
-Why this worked path matters doctrinally:
+Why this worked path matters:
 
 - it is the cleanest current example of the workshop's maturation rule
 - it shows that front door, routing, threshold, and transaction validity belong to one line rather than to separate notes
@@ -170,10 +170,10 @@ Its cycle is:
 
 The goal is not to make the four state lanes agree. The goal is to preserve their orthogonality long enough to draft instruments that can survive contact with each actor's real incentives.
 
-In practical workshop terms:
+In practical terms:
 
 - the front door owns the entry sequence and worked example
-- the architecture owns the maturity law
+- the architecture owns maturity rules
 - the router owns fit and threshold decisions
 - lane-local transactions own instrument spending once the object has actually crossed the threshold
 

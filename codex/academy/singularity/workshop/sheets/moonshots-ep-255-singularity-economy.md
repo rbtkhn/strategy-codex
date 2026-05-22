@@ -11,7 +11,7 @@ WORK only; not Record.
 
 ## Why This Belongs Here
 
-This episode is useful for academy singularity because it turns the same acceleration fronts visible in The Innermost Loop into a live synthesis conversation: Anthropic compute demand, SpaceX/Colossus as hyperscaler substrate, Leopold Aschenbrenner's singularity-economy thesis, recursive self-improving agents, AI alignment through narrative, legal and small-business unhobbling, orbital data centers, and disclosure/UAP speculation.
+This episode is useful for singularity-academy because it turns the same acceleration fronts visible in The Innermost Loop into a live synthesis conversation: Anthropic compute demand, SpaceX/Colossus as hyperscaler substrate, Leopold Aschenbrenner's singularity-economy thesis, recursive self-improving agents, AI alignment through narrative, legal and small-business unhobbling, orbital data centers, and disclosure/UAP speculation.
 
 Use this source as a bridge between raw signal capture and agency analysis. It is not just AI news. It asks what happens when compute, capital, models, agents, law, labor, infrastructure, and public imagination begin feeding one another.
 
@@ -59,7 +59,7 @@ This episode is not part of the newsletter series, but it reinforces several lon
 
 ## Keystone Helix Role
 
-Moonshots is the synthesis strand of the academy-singularity keystone helix. Where The Innermost Loop supplies dated signal pulse, Moonshots tests consequence: which signals become economy, infrastructure, institution, culture, alignment story, or control-plane problem.
+Moonshots is the synthesis strand of the singularity-academy keystone helix. Where The Innermost Loop supplies dated signal pulse, Moonshots tests consequence: which signals become economy, infrastructure, institution, culture, alignment story, or control-plane problem.
 
 Use the episode to ask whether a recurring Innermost Loop front has crossed from "interesting acceleration" into "structural singularity pressure."
 

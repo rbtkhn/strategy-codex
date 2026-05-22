@@ -10,7 +10,7 @@ WORK only; not Record.
 
 ## Why This Belongs Here
 
-Karpathy is a good academy-singularity watch surface because the profile and pinned repos make the acceleration front visible in a compact form: autonomous research loops, training substrate, and educational baseline model-building.
+Karpathy is a good singularity-academy watch surface because the profile and pinned repos make the acceleration front visible in a compact form: autonomous research loops, training substrate, and educational baseline model-building.
 
 This sheet is not generic AI news capture. It is a watchlist bridge for asking which repo best represents agency under acceleration, which repo best represents substrate and efficiency, and which repo best represents reproducible model-building.
 
@@ -55,4 +55,4 @@ This sheet is not generic AI news capture. It is a watchlist bridge for asking w
 
 ## Next Use
 
-Use this sheet as the academy-singularity bridge from watchlist refresh into workshop synthesis. The next move is to compare `autoresearch` against the agent-control-plane sheet, compare `llm.c` against substrate and power questions, and keep `nanoGPT` as the educational baseline when discussing model-building legibility.
+Use this sheet as the singularity-academy bridge from watchlist refresh into workshop synthesis. The next move is to compare `autoresearch` against the agent-control-plane sheet, compare `llm.c` against substrate and power questions, and keep `nanoGPT` as the educational baseline when discussing model-building legibility.

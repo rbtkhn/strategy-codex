@@ -11,7 +11,7 @@ WORK only; not Record.
 
 ## Why This Belongs Here
 
-This post is useful for academy singularity because it compresses several acceleration fronts into one weekly object: frontier models, autonomous agents, cyber capability, compute infrastructure, robotics, biotechnology, finance, and institutional adaptation.
+This post is useful for singularity-academy because it compresses several acceleration fronts into one weekly object: frontier models, autonomous agents, cyber capability, compute infrastructure, robotics, biotechnology, finance, and institutional adaptation.
 
 Do not use this sheet as generic AI news capture. Use it when testing agency under acceleration: what can now act, who controls it, what infrastructure it needs, and what human roles or institutions lag behind it.
 

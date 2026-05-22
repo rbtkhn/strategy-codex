@@ -2,7 +2,7 @@
 
 WORK only; not Record.
 
-This note tracks a small external GitHub watchlist that is useful for academy-singularity routing. It is a signal surface, not a canon surface.
+This note tracks a small external GitHub watchlist that is useful for singularity-academy routing. It is a signal surface, not a canon surface.
 
 ## Current Candidate
 
@@ -22,6 +22,6 @@ This note tracks a small external GitHub watchlist that is useful for academy-si
 
 ## Use
 
-Use this watchlist when a new Karpathy-related repo movement should be routed into the academy-singularity workshop, helix, or a future source sheet.
+Use this watchlist when a new Karpathy-related repo movement should be routed into the singularity-academy workshop, helix, or a future source sheet.
 
 This manifest is compatible with the generalized `watchlist-repo-refresh` skill, which can use the profile and repo list as the watch source for refresh and report runs.

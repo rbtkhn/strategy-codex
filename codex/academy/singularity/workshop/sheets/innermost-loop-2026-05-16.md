@@ -11,7 +11,7 @@ WORK only; not Record.
 
 ## Why This Belongs Here
 
-This post is useful for academy singularity because it frames acceleration as a shift in reality production, long-context navigation, agent multiplication, infrastructure strain, and labor-market repricing.
+This post is useful for singularity-academy because it frames acceleration as a shift in reality production, long-context navigation, agent multiplication, infrastructure strain, and labor-market repricing.
 
 Do not use this sheet as model-release tracking. Use it when testing what happens when AI systems can render, remember, coordinate, inspect, persuade, and physically mediate the world faster than institutions can adapt.
 

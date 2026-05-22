@@ -63,3 +63,21 @@ Short, plain-language definitions used in `work-cici`.
 - **Lane**  
   Path ownership boundary for PR/work scope (keeps unrelated changes separated).
 
+- **Conductor**  
+  A named mode of attention like `toscanini`, `karajan`, or `bernstein`. It changes how we approach the work, not who has authority.
+
+- **Continuity**  
+  The short-horizon memory of what was just active or unfinished, so the next session can restart cleanly.
+
+- **Telemetry / observability**  
+  The derived measurements that show what the system is doing over time: picks, closes, falsifiers, and repeated patterns. Useful for review, but not the same thing as truth.
+
+- **Durable learning**  
+  The higher-level lesson that survives after review: what the system actually learned, what rule changed, or what method got better.
+
+- **Behavioral / non-durable**  
+  A useful chat-only result, like a distinction or commitment, that did not leave an on-disk receipt.
+
+- **Durable close**  
+  A conductor result that did leave a real receipt on disk, such as a notebook note or a `coffee_conductor_outcome`.
+

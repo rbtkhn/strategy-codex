@@ -40,3 +40,13 @@ Do not optimize all lanes equally every week. Choose the lane that is blocking t
 ## Boundary
 
 Lane files may summarize, stage, and route. They must not silently rewrite Cici governed-state, applicant claims, payment commitments, or identity facts.
+
+## Apprentice Studio overlay
+
+When the operator is running the `Apprentice Studio` pilot, these same lanes still apply:
+
+- **Telegram** asks for one artifact at a time and keeps members moving
+- **Core** owns the task pack, safety boundary, and apprentice instructions
+- **Progress** records proof packets, reviewer dispositions, and weekly counts
+
+Use [apprentice-studio-pilot-ops.md](apprentice-studio-pilot-ops.md) for the month-one operating details. The pilot is a WORK-layer coordination pattern, not a replacement for these lanes.

@@ -28,6 +28,7 @@ Define what counts as "first task completed" so activation claims are evidence-l
 - task type
 - artifact link or evidence pointer
 - evidence confidence: A / B / C
+- reviewer status: accepted / accepted with edits / not yet reusable
 - owner/reviewer
 - follow-up needed
 - graduation status: not yet / candidate helper / helper
@@ -56,11 +57,42 @@ Define what counts as "first task completed" so activation claims are evidence-l
 - task type:
 - artifact link or evidence pointer:
 - evidence confidence (A/B/C):
+- reviewer status (accepted / accepted with edits / not yet reusable):
 - owner/reviewer:
 - follow-up needed:
 - graduation status (not yet / candidate helper / helper):
 ```
 
-## 7. Boundary reminder
+## 7. Apprentice Studio note
+
+When the first task comes from `Apprentice Studio`, the artifact should also identify the Grace Gems task class when relevant:
+
+- listing QA
+- stone/provenance QA
+- policy consistency check
+- message draft
+- market research summary
+- workflow cleanup note
+
+`accepted with edits` still counts as a completed task if the artifact is real, reviewable, and evidence-linked.
+
+## 7a. Predictive History comment note
+
+When the first task comes from the Predictive History comment rollout, the task type should identify one of:
+
+- target-video card
+- comment draft packet
+- approved comment draft
+- posting receipt
+- reach follow-up note
+
+Use the companion surfaces:
+
+- [predictive-history-comment-targeting-rubric.md](predictive-history-comment-targeting-rubric.md)
+- [predictive-history-comment-template-pack.md](predictive-history-comment-template-pack.md)
+- [predictive-history-comment-tracker.md](predictive-history-comment-tracker.md)
+- [predictive-history-comment-draft-workflow.md](predictive-history-comment-draft-workflow.md)
+
+## 8. Boundary reminder
 
 Any durable identity or governed-state change for Cici must go through Cici's own repo and approval path.

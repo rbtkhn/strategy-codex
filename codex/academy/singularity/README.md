@@ -10,7 +10,7 @@ Use this folder for singularity concepts and study structure, not for generic AI
 
 ## Keystone Helix
 
-[The Innermost Loop and Moonshots constitute the keystone helix](workshop/keystone-helix.md) of academy singularity: Innermost Loop supplies the dated frontier signal pulse, while Moonshots supplies conversational synthesis about economy, infrastructure, agency, alignment, and culture.
+[The Innermost Loop and Moonshots constitute the keystone helix](workshop/keystone-helix.md) of singularity-academy: Innermost Loop supplies the dated frontier signal pulse, while Moonshots supplies conversational synthesis about economy, infrastructure, agency, alignment, and culture.
 
 ## Current Workshop Anchor
 

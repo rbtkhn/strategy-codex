@@ -23,6 +23,8 @@ This lane turns Telegram introductions and GitHub activity into a clear operator
 - Standardize the beginner daily journal flow for all OB1 members.
 - Keep the journal system as a guidance package in `work-cici`; do not imply ownership of any OB1 repo.
 - Compare the public GitHub coordination pattern with the login-gated app path and decide which one should be the default.
+- Treat the Predictive History comment rollout as a tracked public-output measure, with quality and reach measured separately.
+- Use the singularity module [Predictive History YouTube Comment Lab](../../../../codex/academy/singularity/workshop/sheets/predictive-history-youtube-comment-lab.md) when that measure is being treated as a recursive-AI public-interface test rather than simple outreach.
 
 ## Next action
 
@@ -36,6 +38,8 @@ Update the community dashboard with a lane-owned applicant table: name, country,
 - [cici-ai-daily-report-template.md](../cici-ai-daily-report-template.md)
 - [daily-journal/README.md](../daily-journal/README.md)
 - [public-github-coordination-pattern.md](public-github-coordination-pattern.md)
+- [cici-ai-community-dashboard.md](../cici-ai-community-dashboard.md)
 - [cici-ai-weekly-governance-review-template.md](../cici-ai-weekly-governance-review-template.md)
+- [Predictive History YouTube Comment Lab](../../../../codex/academy/singularity/workshop/sheets/predictive-history-youtube-comment-lab.md)
 - [reviews/README.md](../reviews/README.md)
 - [evidence/cici-ai-first-applicant-wave-2026-04-30.md](../evidence/cici-ai-first-applicant-wave-2026-04-30.md)

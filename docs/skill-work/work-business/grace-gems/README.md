@@ -44,6 +44,7 @@ Grace Gems (GraceGemsUS) sells customized fine jewelry with natural, untreated g
 | **[market-research-and-automation-ideas.md](market-research-and-automation-ideas.md)** | Deep market research (Etsy jewelry, natural vs lab-grown, pain points) and automation integration ideas aligned with Grace-Mar (handback, draft-only message assist, staged candidates). |
 | **[jewelry-industry-research-pre1970.md](jewelry-industry-research-pre1970.md)** | History and science of gems, jewelry crafting, mining, selling — **sources from 1969 or earlier only**. |
 | **[agent-encoding.md](agent-encoding.md)** | Phase 1 agent reference: provenance–stone table, terminology glossary, meta-rules, handback semantics, tone guidelines, example drafts (message assist, listing validation). |
+| **[apprentice-studio-task-pack.md](apprentice-studio-task-pack.md)** | Month-one task menu, reviewer rubric, and escalation boundary for Apprentice Studio participants working on Grace Gems under review. |
 | **[message-assist-calibration.md](message-assist-calibration.md)** | Calibration loop: operator feedback when drafts miss the mark; message-assist loads it if present. |
 | **[../accounting/1099k-2025-grace-gems-etsy.md](../accounting/1099k-2025-grace-gems-etsy.md)** | 2025 Form 1099-K totals and monthly Box 5 (no TINs) — reconcile to Etsy + bank ledger. |
 | *scripts/grace_gems_message_assist.py* | Message assist — draft-only reply for Etsy customer messages. `python3 scripts/grace_gems_message_assist.py -m "message"` |

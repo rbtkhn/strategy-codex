@@ -6,9 +6,46 @@
 
 `work-cici` is a WORK territory in the grace-mar repo for coordinating advisor/project work with Cici, formerly tracked as Xavier. It preserves the prior Xavier / BrewMind / SMM materials while normalizing the active workspace name to Cici.
 
+**Singularity-academy consolidation:** This lane remains canonically `work-cici`, but it is now also a live `singularity-academy` overlay when the operator is using Cici AI, cohort onboarding, or advisor tooling to test whether recursive AI systems can help people learn, coordinate, and accomplish real work faster. Canonical singularity hub: [Singularity Workshop](../../../codex/academy/singularity/workshop/README.md).
+
+Under that overlay, keep the work in WORK artifacts. `singularity-academy` is not a `candidates` workflow and should not inherit governed-state overhead during ordinary Cici-singularity passes.
+
 This folder is the **operator/advisor layer:** contracts, mirrors, runbooks, content plans, operator navigation, work profile, capability rubric, handoffs, evidence pointers, and BrewMind pilot materials.
 
 It is not Ciciâ€™s sovereign Record repository and not a canonical Record surface.
+
+### Singularity-use contract
+
+When this lane is being used under `singularity-academy`, the live question is not only "how do we support Cici?" but also "does recursive AI actually help beginners or distributed teams compound capability in the wild?"
+
+Keep the advisor boundary intact and ask:
+
+- what part of the learning or coordination loop is being recursively improved?
+- what human gate still matters for trust, judgment, and durable progress?
+- which results generalize beyond one person or one prompt?
+- where does the control plane live: repo doctrine, runbook, Telegram group, cohort artifact, model behavior, or operator review?
+
+### Why `cici-ai` matters to the singularity thesis
+
+`work-cici` is valuable to `singularity-academy` because it tests a different claim than pure operator productivity.
+
+- `work-business` asks whether AI can compress expert or founder work.
+- `work-cici` asks whether AI can raise the floor for newer people, cohorts, or distributed teams.
+- If both work, the thesis starts to look broader than "the operator got faster."
+
+Treat this lane as evidence for the thesis only when the gains are durable and reusable:
+
+- onboarding gets easier without collapsing quality
+- people complete real tasks they would otherwise stall on
+- support patterns become reusable runbooks instead of heroic one-off coaching
+- progress survives beyond a single session, prompt, or human rescuer
+
+Failure modes to watch:
+
+- the operator is secretly doing the hard part while AI gets credit
+- the system creates enthusiasm without durable competence
+- outputs depend on one unusually motivated person and do not generalize
+- coordination overhead grows faster than capability
 
 ## Rename note
 
@@ -71,6 +108,8 @@ Ciciâ€™s **companion** or **chosen instance** repository (Identity Fork Pro
 **BrewMind (Philippines pilot):** [brewmind-philippines-onboarding-guide.md](brewmind-philippines-onboarding-guide.md) â€” bundle hub for strategy, brand, field script, and PH market notes ([INDEX.md](INDEX.md) lists all BrewMind WORK files).
 
 **Community measurement:** [cici-ai-community-dashboard.md](cici-ai-community-dashboard.md), [cici-ai-first-task-proof-packet.md](cici-ai-first-task-proof-packet.md), and [cici-ai-weekly-governance-review-template.md](cici-ai-weekly-governance-review-template.md). **Weekly review instances** live in [reviews/](reviews/).
+
+**Apprentice Studio pilot:** [apprentice-studio-pilot-ops.md](apprentice-studio-pilot-ops.md) is the month-one operating layer for using Grace Gems as a real-work substrate, `cici-ai` as the onboarding/progress surface, and `singularity-academy` as the evaluation lens.
 
 **Active `cici-ai` work lanes:** [cici-ai-lanes.md](cici-ai-lanes.md) splits the current operator surface into [cici-ai-telegram](cici-ai-telegram/README.md), [cici-ai-core](cici-ai-core/README.md), and [cici-ai-progress](cici-ai-progress/README.md). These lanes route action for the `cici-ai` team; they do not replace evidence, governed-state, or Cici's own repo.
 

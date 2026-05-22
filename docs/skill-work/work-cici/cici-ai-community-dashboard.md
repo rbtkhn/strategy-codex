@@ -25,6 +25,12 @@ In this project, the `cici-ai` team is a cohort activation surface: it should mo
 
 Do not treat `cici-ai` as Cici's Record, as the canonical repository, or as a vanity audience metric. A member has not "activated" merely by joining.
 
+The Predictive History comment rollout is one of the group's core public-output measures: the team should measure both **comment quality** and **comment reach** as a public-output signal. Quality is the primary score and should reflect doctrine fit, specificity, usefulness, and tone; reach is the distribution score and should reflect whether the comment is actually being seen, engaged, or replied to in public.
+
+When this measure is also being used as a recursive-AI test surface, route it through [Predictive History YouTube Comment Lab](../../../../codex/academy/singularity/workshop/sheets/predictive-history-youtube-comment-lab.md) so the public-output work stays connected to control-plane, training, and reuse questions rather than flattening into generic promotion.
+
+Boundary reminder: this tracked measure covers the promotion/distribution experiment around `ph-civ`; it does not stand in for corpus completion, commentary quality, or editorial progress inside the actual Predictive History repo/folder surfaces.
+
 The first team message frames the cohort as a 10-scholarship opportunity for AI-curious aspiring entrepreneurs. Treat scholarship, employment, equity, and crypto-payment language as offer-sensitive: track it for operator follow-up, but do not convert it into legal or HR commitments inside work-cici.
 
 ## 2. Source pointers
@@ -43,6 +49,12 @@ The first team message frames the cohort as a 10-scholarship opportunity for AI-
 - [evidence/cici-operator-screenshots-ingest-2026-04-30.md](evidence/cici-operator-screenshots-ingest-2026-04-30.md)
 - [handoffs/cici-cici-ai-launch-instructions.md](handoffs/cici-cici-ai-launch-instructions.md)  
 - [cici-pilot-propagation-low-cost-operator.md](cici-pilot-propagation-low-cost-operator.md)  
+- [apprentice-studio-pilot-ops.md](apprentice-studio-pilot-ops.md)
+- [predictive-history-comment-targeting-rubric.md](predictive-history-comment-targeting-rubric.md)
+- [predictive-history-comment-template-pack.md](predictive-history-comment-template-pack.md)
+- [predictive-history-comment-tracker.md](predictive-history-comment-tracker.md)
+- [predictive-history-comment-draft-workflow.md](predictive-history-comment-draft-workflow.md)
+- [../work-business/grace-gems/apprentice-studio-task-pack.md](../work-business/grace-gems/apprentice-studio-task-pack.md)
 - Treasury / payment rail note: `1NzCF9NTqU25NvX9KfXE9zoH1wEadkmjWJ`
 
 Weekly review instances: [reviews/](reviews/).
@@ -69,6 +81,22 @@ invited
 |  |  |  |  |  |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |  |  |  |  |
 
+## 4a. Apprentice Studio weekly row
+
+Use this subsection when Grace Gems is serving as the real-work substrate for the month-one pilot.
+
+| Week of | Participants attempted | Evidence-linked completions | Accepted | Accepted with edits | Not yet reusable | Returning participants | Second tasks completed | Reused prompt/workflow improvement | Notes |
+| :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | :--- | :--- |
+| YYYY-MM-DD |  |  |  |  |  |  |  |  |  |
+
+### Apprentice Studio readout
+
+Every filled row should be able to answer:
+
+- did activation energy drop?
+- did output quality become more reusable?
+- did the operator spend less time rescuing basic execution?
+
 ### Evidence-linked row rule
 
 Every nonzero metric must point to one of: a source pointer, an artifact link, an evidence file, a weekly governance review note, or a proof packet. If a count is known but evidence is incomplete, mark it with confidence **C** and add a follow-up note.
@@ -82,6 +110,8 @@ Every nonzero metric must point to one of: a source pointer, an artifact link, a
 ### First task completed rule
 
 **First task completed** is not satisfied by joining, reacting, or expressing interest. It requires a [proof packet](cici-ai-first-task-proof-packet.md) or equivalent evidence-linked artifact. See [cici-ai-first-task-proof-packet.md](cici-ai-first-task-proof-packet.md).
+
+For `Apprentice Studio`, `accepted` and `accepted with edits` both count as completed tasks if the artifact is real, evidence-linked, and reviewable. `not yet reusable` counts as an attempt, not a completion.
 
 ### Helper behavior graduation threshold
 
@@ -136,12 +166,58 @@ Each completed weekly dashboard row should either link to a weekly governance re
 
 - Treat the optional one-line team description as a parked polish item, not a blocker for the launch being live.
 
-## 7. Next experiment
+## 7. Predictive History comment rollout
+
+Treat the public Predictive History comment rollout as a tracked measure for `cici-ai`.
+
+Singularity overlay reference: [Predictive History YouTube Comment Lab](../../../../codex/academy/singularity/workshop/sheets/predictive-history-youtube-comment-lab.md)
+
+### Score dimensions
+
+| Dimension | What it measures | Evidence |
+| :--- | :--- | :--- |
+| Quality | Whether the comment follows the doctrine, stays lecture-specific, uses the right phase template, and offers a useful reader path without hype | Review note, approved draft, posting receipt |
+| Reach | Whether the comment actually lands in public and gets visible engagement | Posted comment URL, likes, replies, creator response, thread follow-up |
+
+### Quality scoring guide
+
+- **5** = exact doctrine fit, specific to the lecture, quiet tone, useful reader path, no boilerplate drift
+- **4** = strong fit with minor wording polish needed
+- **3** = acceptable but generic or slightly repetitive
+- **2** = weak fit, too vague, or too close to template spam
+- **1** = off-tone or not useful
+
+### Reach scoring guide
+
+- **5** = posted to a target video and receives visible engagement or creator interaction
+- **4** = posted to a target video with clear public visibility and at least one engagement signal
+- **3** = posted to a target video with no engagement yet
+- **2** = parked, delayed, or posted without a verifiable public receipt
+- **1** = not posted or not attributable
+
+### Weekly scoreboard row
+
+Add a comment-rollout row to the weekly dashboard review:
+
+| Week of | Phase 1 comments posted | Phase 2 comments posted | Quality avg | Reach avg | Notes |
+| :--- | ---: | ---: | ---: | ---: | :--- |
+| YYYY-MM-DD |  |  |  |  |  |
+
+### Operational surfaces
+
+Use these together when the comment rollout becomes a real workflow rather than an abstract score:
+
+- [predictive-history-comment-targeting-rubric.md](predictive-history-comment-targeting-rubric.md)
+- [predictive-history-comment-template-pack.md](predictive-history-comment-template-pack.md)
+- [predictive-history-comment-tracker.md](predictive-history-comment-tracker.md)
+- [predictive-history-comment-draft-workflow.md](predictive-history-comment-draft-workflow.md)
+
+## 8. Next experiment
 
 | Experiment | Expected signal | Measurement window | Stop condition | Follow-up action |
 | :--- | :--- | :--- | :--- | :--- |
 | Individual OB1 instance buildout, then shared `cici-ai` OB1, then public-use `cici-ai` | Phase 1: each member builds their own OB1 instance with GitHub-visible progress; Phase 2: the cohort opens a shared `cici-ai` OB1 instance for collective use; Phase 3: a public-use `cici-ai` variation is produced, calibrated for the Philippines first and adaptable elsewhere | About 1 month for Phase 1; Phase 2 and Phase 3 follow after the individual phase is materially complete | Do not open the shared instance until the individual phase has enough repo evidence; do not shift to the public-use variant until the shared instance is stable enough to support reuse | Draft the shared-instance onboarding / contribution plan, then the public-use adaptation plan |
 
-## 8. Boundary reminder
+## 9. Boundary reminder
 
 This dashboard may produce coaching notes, handoff drafts, candidate suggestions, or cici-ai proposal ideas. It does not update Cici’s Record. Any durable identity, policy, or governed-state change for Cici must go through Cici’s own repository and approval path.
