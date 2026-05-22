@@ -1,4 +1,4 @@
-# Portable skill schema (grace-mar)
+# Portable skill schema (strategy-codex)
 
 ## Folder
 
@@ -23,8 +23,10 @@ skills-portable/<skill-name>/
 ## Body rules (portable core)
 
 - Prefer **placeholders** for repo roots and script names in the main methodology.
-- Put **grace-mar paths** only in `.cursor/skills/.../CURSOR_APPENDIX.md`, not in the portable core.
+- Put **host-specific paths** only in `.cursor/skills/.../CURSOR_APPENDIX.md`, not in the portable core.
 - **Forbidden substrings** in core (enforced by `sync_portable_skills.py --verify` when configured): instance user dirs, merge scripts — keep those in the appendix.
+- Prefer host-equivalent placeholders such as `<operator-profile>`, `<approval-process>`, or `<calendar-notebook>` when the portable methodology would otherwise assume repo-specific files.
+- Portable cores may describe **proposal** or **stage-only** outputs, but should not imply direct merge authority on Record-bearing surfaces.
 
 ## Optional: Agent behavior norms (social contract)
 
@@ -46,7 +48,7 @@ Authoring guide: [docs/skills/skill-authoring-norms.md](../docs/skills/skill-aut
 
 ## Generated `.cursor/skills/.../SKILL.md`
 
-- Appends appendix under heading `## Cursor / grace-mar instance`.
+- Appends appendix under heading `## Cursor / strategy-codex instance`.
 - Adds `portable_source` and `synced_by` to frontmatter for audit.
 
 ## Versioning

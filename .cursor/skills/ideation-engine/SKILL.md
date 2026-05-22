@@ -3,7 +3,7 @@ name: ideation-engine
 preferred_activation: ideation engine
 description: Generate approval-first Top 3 opportunity briefs from existing lanes, current assets, and source-backed signals for a solo operator.
 portable: true
-version: 0.1.0
+version: 0.2.0
 tags:
 - operator
 - entrepreneurship
@@ -47,6 +47,7 @@ Prioritize existing lanes before new abstractions. An opportunity is stronger wh
 1. **Gather signals**
    - Read current lanes, recent work, source-backed notes, and constraints.
    - If source signal is thin, say so and recommend a broader scan instead of inventing demand.
+   - Check whether the strongest opportunity is actually an extension of an existing lane rather than a new surface.
 2. **Generate candidates**
    - Produce a small set of plausible opportunities.
    - Prefer ideas that connect at least two existing assets, lanes, skills, or relationships.
@@ -57,8 +58,17 @@ Prioritize existing lanes before new abstractions. An opportunity is stronger wh
    - Return exactly three opportunity briefs unless the operator asks for a wider portfolio.
    - Include one recommended winner when the evidence supports it.
 5. **Prepare approval memo**
-   - Recommend approve, refine, or archive.
+   - Recommend approve, refine, extend-existing, or archive.
    - Name the first reversible next step.
+
+## Grounding checks
+
+Before ranking, ask:
+
+1. Is the demand signal sourced, observed, or merely analogical?
+2. Is there already an owning lane, memo, or experiment that should be extended instead of cloned?
+3. Are time, budget, reputation, or trust constraints strong enough to change the ranking?
+4. Would a thinner but more reversible move be more honest than a fresh project claim?
 
 ## Fatigue and Residue Handling
 
@@ -94,6 +104,7 @@ Risk scoring convention:
 
 **Inputs checked:** [active lanes, recent work, source library, budget constraints]
 **Cycle quality:** strong / mixed / thin
+**Duplicate-lane check:** clear / extend existing / unresolved
 
 ### Top 3 Opportunities
 
@@ -113,7 +124,8 @@ Risk scoring convention:
 **Estimated effort / budget:** [rough range]
 **Success metric:** [what would count as early proof]
 **Kill criteria:** [when to stop]
-**Approval memo:** approve / refine / archive - [reason]
+**Evidence basis:** [observed / sourced / analogical / mixed]
+**Approval memo:** approve / refine / extend-existing / archive - [reason]
 
 #### 2. [One-line hook]
 
@@ -133,6 +145,7 @@ Risk scoring convention:
 - **Fatigue-aware bounds** - Prefer Top 3 or single-idea mode; do not keep branching after a clear recommended move.
 - **Source discipline** - Do not invent market size, demand, pricing, or competitor facts.
 - **Existing-lane bias** - Prefer leverage from current assets before proposing new surfaces.
+- **No duplicate-lane sprawl** - If an existing lane or note already owns the opportunity, prefer extending it and say so explicitly.
 - **Thin-cycle honesty** - If evidence is weak, say "thin cycle" and recommend what to inspect next.
 - **Risk visibility** - Public-facing ideas must flag verification, identity, trust, regulatory, and reputation issues.
 - **No silent proliferation** - New lanes or projects require explicit human approval through the host's decision process.
@@ -170,7 +183,7 @@ Do not assume those skills exist unless the host provides them.
 
 ## Cursor / grace-mar instance
 
-﻿Grace-Mar routing and source notes for this repository.
+Grace-Mar routing and source notes for this repository.
 
 ## Routing
 

@@ -1,16 +1,28 @@
-# Portable skills (grace-mar)
+# Portable skills (strategy-codex)
 
-**Purpose:** Vendor-neutral **skill cores** you can copy into other hosts (ChatGPT custom instructions, Copilot skill packs, another Cursor repo) without dragging grace-mar-only paths into the default body.
+**Purpose:** Vendor-neutral **skill cores** you can copy into other hosts (ChatGPT custom instructions, Copilot skill packs, another Cursor repo) without dragging strategy-codex-only paths into the default body.
 
 **Canonical layout**
 
 | Path | Role |
 |------|------|
 | `skills-portable/<skill-name>/SKILL.md` | Portable core: frontmatter + methodology (minimal instance paths) |
-| `.cursor/skills/<skill-name>/CURSOR_APPENDIX.md` | **grace-mar only:** repo paths, script commands, internal doc links |
+| `.cursor/skills/<skill-name>/CURSOR_APPENDIX.md` | **Host-only:** repo paths, script commands, internal doc links |
 | `.cursor/skills/<skill-name>/SKILL.md` | **Generated** — do not hand-edit; run sync (see below) |
 
 **Canonical source:** For every manifest-listed skill, **`skills-portable/<skill-name>/SKILL.md`** is the **only** hand-edited methodology body. Edits under `.cursor/skills/*/SKILL.md` **without** syncing are **drift** — the next `sync_portable_skills.py` overwrites them. After changing a portable core or appendix, always run **`python3 scripts/sync_portable_skills.py`** (and `--verify` before commit when unsure).
+
+## Portable core principles
+
+Portable skills should reflect the same core boundary rules that govern the repo:
+
+- **Host-equivalents, not assumed files.** `self-llm.txt` currently proves that some hosts may not have `self.md` or `self-knowledge.md` at all. Portable cores should ask for host equivalents or placeholders, not assume a Grace-Mar-shaped Record tree.
+- **Propose or stage only; never merge.** A portable skill may help draft approval packets or stage-only review material, but it must not imply direct Record editing or approval bypass.
+- **Grounded before elegant.** If a skill cannot point to operator-provided assets, current receipts, or source-bound material, it should narrow the claim or say the evidence is thin.
+- **No duplicate-lane sprawl.** When a similar lane, note, or asset already exists, the skill should prefer reuse, extension, or explicit comparison over silently spawning a near-duplicate.
+- **Human pass stays load-bearing.** Approval, publication, execution, and canonization remain human acts even when the skill produces polished text quickly.
+
+See [skills-portable-drift-audit-2026-05-22.md](skills-portable-drift-audit-2026-05-22.md) for the current inventory, drift analysis, and before/after examples.
 
 **In-repo examples:** `politics-massie` (content skill) · `jurisdiction-campaign-history` (work-politics framing) · `portable-skills-sync` (pipeline skill — use when changing this layout).
 
@@ -22,7 +34,7 @@ python3 scripts/sync_portable_skills.py --dry-run
 python3 scripts/sync_portable_skills.py --verify
 ```
 
-**Consume outside grace-mar**
+**Consume outside strategy-codex**
 
 1. Copy `skills-portable/<skill>/SKILL.md` (and optional `examples/` if present).
 2. Add your own appendix: paths to *your* policy docs, account rules, and compliance notes.

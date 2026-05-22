@@ -3,7 +3,7 @@ name: packet-before-synthesis
 preferred_activation: packet-first
 description: "Apply packet-first strategist discipline to a mixed live seam: identify whether its main value is mechanism, process, or register; check for official-primary versus attributed gloss layering; preserve the seam in a packet or layered note before composing stronger notebook judgment. Use when synthesis would risk flattening multiple evidence layers into one claim."
 portable: true
-version: 0.1.0
+version: 0.2.0
 tags:
   - operator
   - strategy
@@ -37,6 +37,14 @@ Some seams should first become **disciplined potential**:
 - tiered
 - held open until they mature
 
+## Portable rule
+
+Packet-first is a source-bound holding pattern, not stealth closure.
+
+- Preserve the seam before strengthening the claim.
+- Keep official-primary, attributed gloss, and later corroboration visibly separate.
+- Do not use packet work to smuggle a canon claim, Record claim, or approval-ready synthesis through a lower-maturity route.
+
 ## Workflow
 
 1. **Name the seam's real value**
@@ -44,13 +52,13 @@ Some seams should first become **disciplined potential**:
      - **mechanism**
      - **process**
      - **register**
-   - Use [packet-crosswalk.md](../../docs/skill-work/work-strategy/packet-crosswalk.md) if the choice is not obvious.
+   - Use the host's equivalent packet crosswalk or seam taxonomy if the choice is not obvious.
 
 2. **Check for a dual-register problem**
    - Ask whether the seam contains:
      - an **official-primary** line
      - plus an **attributed gloss**, interpreter layer, or elite-English translation
-   - If yes, do not collapse them into one â€œstate saysâ€ or â€œposition isâ€ sentence yet.
+   - If yes, do not collapse them into one "state says" or "position is" sentence yet.
 
 3. **Decide whether to packet first**
    - Use packet-first discipline when:
@@ -63,7 +71,7 @@ Some seams should first become **disciplined potential**:
      - a **refined page**
      - a **source-hygiene note**
      - or a layered seam note if the owning file already exists
-   - Follow [source-hygiene-packets.md](../../docs/skill-work/work-strategy/source-hygiene-packets.md) for the output shape.
+   - Follow the host's source-hygiene packet shape for the output.
 
 5. **Use the dual-register maturity sequence when needed**
    - Preserve:
@@ -74,7 +82,7 @@ Some seams should first become **disciplined potential**:
 
 6. **Protect against historical overreach**
    - If the seam tempts a broad historical or civilizational claim, require an intermediate maturity ladder first.
-   - Symbolic diplomacy, legitimacy gestures, and audience-facing moral language should not jump directly to â€œalignment,â€ â€œuniqueness,â€ or â€œcivilizational turnâ€ without layered support.
+   - Symbolic diplomacy, legitimacy gestures, and audience-facing moral language should not jump directly to "alignment," "uniqueness," or "civilizational turn" without layered support.
 
 7. **Check whether the destination surface is architecturally ready**
    - Before broadening the seam into a stronger doctrine, route, or shelf claim, ask:
@@ -85,9 +93,9 @@ Some seams should first become **disciplined potential**:
 
 ## Skill closure rule
 
-Use [skill-closure-doctrine.md](../../docs/skill-closure-doctrine.md) as the shared maturity test.
+Use the host's shared skill-closure doctrine as the maturity test.
 
-For this skill, the default question is not "can I write the stronger sentence?" but "has the receiving route earned the stronger sentence yet?" If not, packet-first is the correct closure rather than an incomplete draft.
+For this skill, the default question is not "can I write the stronger sentence?" but "has the receiving route earned it yet?" If not, packet-first is the correct closure.
 
 ## Minimal operator test
 
@@ -98,17 +106,17 @@ Before composing stronger prose, ask:
 3. Is the seam's main value mechanism, process, or register?
 4. Has any second institutional or field receipt matured the seam?
 5. If not, is the unresolved gap itself the most truthful object to preserve?
-6. Is the destination surface mature enough to absorb a stronger claim without pretending to closure it has not earned?
+6. Is the destination surface mature enough to absorb a stronger claim without pretending to a closure it has not earned?
 
 If `5` is yes, stop and packet first. If `6` is no, stop and packet first.
 
-## Working examples in this repo
+## Working examples in the host repo
 
-- **Mechanism:** [pape-page-2026-04-29-youtube-pape-grim-nuclear-iran-inevitable.md](../../codex/years/2026/pape/pape-page-2026-04-29-youtube-pape-grim-nuclear-iran-inevitable.md)
-- **Process:** [parsi-page-2026-04-21-x-ceasefire-hormuz-cluster.md](../../codex/years/2026/parsi/parsi-page-2026-04-21-x-ceasefire-hormuz-cluster.md)
-- **Register:** [marandi-page-2026-04-21-blockade-islamabad-hormuz.md](../../codex/speakers/marandi/marandi-page-2026-04-21-blockade-islamabad-hormuz.md)
-- **Dual-register hard-security seam:** [packet-before-synthesis-doctrine.md](../../docs/skill-work/work-strategy/packet-before-synthesis-doctrine.md)
-- **Dual-register legitimacy seam:** [rome-persia-legitimacy-signal-check.md](../../codex/rome-persia-legitimacy-signal-check.md)
+- **Mechanism:** use a seam where one source clarifies how the machine works.
+- **Process:** use a seam where the main value is sequencing, bargaining, or procedural logic.
+- **Register:** use a seam where rhetoric and audience-positioning are the key object.
+- **Dual-register hard-security seam:** preserve official-primary and interpreter gloss separately.
+- **Dual-register legitimacy seam:** hold the symbolic wedge open until institutional uptake matures.
 
 ## Worked example
 
@@ -147,12 +155,13 @@ That is the feel of this skill: protect the seam from elegance before it earns i
 
 ## Guardrails
 
-- Do not turn packet work into stealth `days.md` composition.
+- Do not turn packet work into stealth daily composition.
 - Do not merge official-primary wording and commentator gloss into one synthetic state line before maturity.
 - Do not treat rhetoric as event-fact.
 - Do not use packet work to avoid making judgments forever; use it to delay judgment until the seam becomes more honest.
 - Do not create a new taxonomy shelf if the seam already has an owning lane or file.
 - Do not use a beautiful synthesis sentence to hide the fact that the receiving surface is still architecturally thin.
+- Do not turn a packet into a candidate, merge, canon claim, or doctrine upgrade unless the operator separately asks for that stronger move.
 
 ## Success condition
 

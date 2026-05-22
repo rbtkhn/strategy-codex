@@ -1,9 +1,9 @@
 ---
 name: strategy-notebook-guest-canon-note
 preferred_activation: speaker arc
-description: "Create a host-stream guest speaker arc from repeated host x guest raw-inputs: rank the key episodes, explain the lane, place the note inside the host stream, and wire lattice or thread surfaces to cite it without inventing a new category."
+description: "Create a host-stream guest speaker arc from repeated host x guest raw inputs: rank the key episodes, explain the lane, place the note inside the host stream, and wire lattice or thread surfaces to cite it without inventing a new category."
 portable: true
-version: 0.1.0
+version: 0.2.0
 tags:
   - operator
   - strategy-codex
@@ -22,9 +22,18 @@ Use this skill when a recurring guest run inside a host stream has become import
 
 Model: a guest speaker arc is a **host-local arc**, and an arc is a bounded helix of arc-threads. Use the arc note for the bounded host x guest braid; use a thread atlas when recurring strands cross months or hosts; use a speaker helix when comparing multiple host-local arcs.
 
+## Required host equivalents
+
+| Purpose | Portable placeholder |
+|---------|----------------------|
+| Canonical host x guest raw inputs | `<stream-raw-input>` |
+| Host-stream routing surface | `<speaker-routing>` |
+| Lattice or speaker index surface | `<lattice-surface>` |
+| Thread roster or expert continuity surface | `<thread-surface>` |
+
 ## When to run
 
-- A host stream now has several raw-inputs with the same guest.
+- A host stream now has several raw inputs with the same guest.
 - The guest lane is clearly useful, but not a new lattice category by itself.
 - The notebook needs a durable answer to:
   - why this guest run matters
@@ -39,12 +48,12 @@ Model: a guest speaker arc is a **host-local arc**, and an arc is a bounded heli
    - Identify the **host stream** and the **guest run**.
    - Default to a **stream-local** note inside the host stream.
    - Do not invent a new top-level category just because the guest matters.
-   - Do not place the note under shelves like `supporting-voices` unless the repo already uses that as a real taxonomy.
+   - Do not place the note under shelves like `supporting-voices` unless the host already uses that as a real taxonomy.
 
 2. **Collect the ground set**
    - Find the canonical raw-input files for the host x guest run.
    - Make sure the run is real, not just a one-off appearance.
-   - Prefer files already materialized in canonical raw-input over pointers or loose references.
+   - Prefer files already materialized in canonical raw input over pointers or loose references.
 
 3. **Rank by strategic value**
    - Rank the episodes by reusable notebook value, not by length or recency alone.
@@ -80,8 +89,8 @@ Model: a guest speaker arc is a **host-local arc**, and an arc is a bounded heli
    - If the guest also appears elsewhere, that does not change the default placement of this note.
 
 6. **Wire the notebook surfaces**
-   - Add a citation from the guest row in `speaker-lattice.md` when the guest belongs in the lattice.
-   - Add or refine the `thread:<expert_id>` row in `strategy-commentator-threads.md`.
+   - Add a citation from the guest row in the host's lattice surface when the guest belongs there.
+   - Add or refine the `thread:<expert_id>` row in the host's thread surface when appropriate.
    - Point those surfaces at the speaker arc instead of duplicating the long explanation everywhere.
 
 7. **Run a fullness-before-closure check**
@@ -95,18 +104,19 @@ Model: a guest speaker arc is a **host-local arc**, and an arc is a bounded heli
 
 ## Skill closure rule
 
-Use [skill-closure-doctrine.md](../../docs/skill-closure-doctrine.md) as the shared maturity test.
+Use the host's shared skill-closure doctrine as the maturity test.
 
-For this skill, stronger synthesis belongs only when the host-local arc can clearly carry it. If the run still mainly needs routing help, stop at the compact arc and point toward the fuller destination rather than pretending that the fuller route already exists.
+For this skill, stronger synthesis belongs only when the host-local arc can clearly carry it. If the run still mainly needs routing help, stop at the compact arc and point toward the fuller destination.
 
-8. **Keep boundaries honest**
-   - Say what the guest lane is good for.
-   - Say what it is not the right tool for.
-   - If the underlying files are auto-caption normalizations or otherwise imperfect, say so clearly.
+## Keep boundaries honest
+
+- Say what the guest lane is good for.
+- Say what it is not the right tool for.
+- If the underlying files are auto-caption normalizations or otherwise imperfect, say so clearly.
 
 ## Placement rule
 
-- Preferred home: `codex/<year>/<host-stream>/<host>-<guest>-speaker-arc.md`
+- Preferred home: the host's stream-local note path for `<host>-<guest>-speaker-arc.md`
 - The note belongs to the **host stream**.
 - The lattice and thread surfaces may cite the note.
 - The note itself should not silently redefine the lattice.
@@ -114,11 +124,12 @@ For this skill, stronger synthesis belongs only when the host-local arc can clea
 ## Guardrails
 
 - Do not create a new ontology shelf just because a guest feels important.
-- Do not confuse a guest speaker arc with a raw-input, profile, or corpus boundary.
+- Do not confuse a guest speaker arc with a raw input, profile, or corpus boundary.
 - Do not rank by charisma, novelty, or word count alone.
 - Do not overclaim certainty; if the lane is speculative or high-variance, say so.
 - Do not flatten the guest into a generic ideology label when a more precise lane description is available.
 - Do not let a good stream-local note become an excuse to avoid building the fuller routed surface once recurrence is thick enough.
+- Do not promote a host-local arc into Record-bearing truth, permanent taxonomy, or a cross-host canon claim without an explicit human decision.
 
 ## Success condition
 
