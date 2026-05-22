@@ -1,0 +1,18 @@
+{
+  "appearance_count": 1,
+  "speaker_count": 1,
+  "speakers": {
+    "davis": {
+      "appearance_count": 1,
+      "appearance_ids": [
+        "ap-a5e5f32f8b56"
+      ],
+      "hosts": {
+        "diesen": 1
+      },
+      "route_types": {
+        "existing-speaker-object": 1
+      }
+    }
+  }
+}

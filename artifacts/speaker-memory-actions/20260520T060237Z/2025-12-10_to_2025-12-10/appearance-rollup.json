@@ -1,0 +1,18 @@
+{
+  "appearance_count": 1,
+  "speaker_count": 1,
+  "speakers": {
+    "macgregor": {
+      "appearance_count": 1,
+      "appearance_ids": [
+        "ap-71c4c51929ce"
+      ],
+      "hosts": {
+        "diesen": 1
+      },
+      "route_types": {
+        "existing-speaker-arc": 1
+      }
+    }
+  }
+}

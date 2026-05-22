@@ -1,0 +1,18 @@
+{
+  "appearance_count": 1,
+  "speaker_count": 1,
+  "speakers": {
+    "freeman": {
+      "appearance_count": 1,
+      "appearance_ids": [
+        "ap-457022b9c1f4"
+      ],
+      "hosts": {
+        "napolitano": 1
+      },
+      "route_types": {
+        "existing-speaker-arc": 1
+      }
+    }
+  }
+}

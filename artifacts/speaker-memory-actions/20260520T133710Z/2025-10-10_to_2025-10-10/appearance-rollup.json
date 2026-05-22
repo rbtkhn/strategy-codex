@@ -1,0 +1,18 @@
+{
+  "appearance_count": 1,
+  "speaker_count": 1,
+  "speakers": {
+    "hoh": {
+      "appearance_count": 1,
+      "appearance_ids": [
+        "ap-6577a0b7d5b7"
+      ],
+      "hosts": {
+        "davis": 1
+      },
+      "route_types": {
+        "candidate-speaker-arc": 1
+      }
+    }
+  }
+}

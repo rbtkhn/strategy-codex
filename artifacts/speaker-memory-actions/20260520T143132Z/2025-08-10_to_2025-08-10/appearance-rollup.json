@@ -1,0 +1,18 @@
+{
+  "appearance_count": 1,
+  "speaker_count": 1,
+  "speakers": {
+    "berletic": {
+      "appearance_count": 1,
+      "appearance_ids": [
+        "ap-f9b9e8aa34d2"
+      ],
+      "hosts": {
+        "diesen": 1
+      },
+      "route_types": {
+        "existing-speaker-arc": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "appearance_count": 1,
+  "speaker_count": 1,
+  "speakers": {
+    "vilano": {
+      "appearance_count": 1,
+      "appearance_ids": [
+        "ap-bf691d50068e"
+      ],
+      "hosts": {
+        "davis": 1
+      },
+      "route_types": {
+        "candidate-speaker-arc": 1
+      }
+    }
+  }
+}

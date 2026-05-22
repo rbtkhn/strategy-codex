@@ -1,0 +1,18 @@
+{
+  "appearance_count": 1,
+  "speaker_count": 1,
+  "speakers": {
+    "freeman": {
+      "appearance_count": 1,
+      "appearance_ids": [
+        "ap-a395651abc2a"
+      ],
+      "hosts": {
+        "davis": 1
+      },
+      "route_types": {
+        "existing-speaker-arc": 1
+      }
+    }
+  }
+}
