@@ -12,7 +12,11 @@ WORK only; not Record.
 
 Speaker folders are the durable accumulation layer for recurring figures. Use them to accumulate judgment about who a speaker is in the notebook, why the speaker matters, where to open first, and what not to overclaim.
 
+Creation threshold: do **not** create a speaker folder for thin, accidental, or one-off recurrence. A speaker belongs on this shelf only after the notebook has enough real continuity that future routing would otherwise keep rebuilding the same judgment from scratch.
+
 Raw-input remains provenance. An **appearance** is one derived host/speaker/date/source event from a verified raw-input capture. Speaker arcs remain host-local interpretation. Speaker objects remain orientation and routing. Speaker helixes and cross-host notes remain comparative surfaces. In this shelf, lattice rows are lookup pointers only; they may cite speaker folders, but they should not become the place where every interpretation lives.
+
+Layering rule: a **speaker arc** in the speaker shelf is the canonical person-level continuity surface; **host-local arcs** in host shelves are bounded transformations of that speaker under one host's pressure; **bench or month-spine support** in the speaker shelf exists only to route non-core appearances and month-level sequencing without replacing the canonical arc; and **statecraft intake** remains downstream, drawing speaker-state from these surfaces to build country, transaction, or civilizational instruments without becoming the owner of the speaker object itself. Freeman is the model case for this layering.
 
 Cross-speaker disagreement or comparison objects that do not belong to one speaker's continuity ownership should live under [`relations/`](relations/), not inside a single speaker folder by default.
 
@@ -78,16 +82,23 @@ When both exist:
 
 A speaker folder becomes a first-class speaker-object folder when it contains a `*-speaker-object.md` note. That note is an orientation and routing object, not a provenance ledger.
 
-Minimum invariant: every canonical speaker folder needs a **routeable rationale**. That rationale answers why the folder exists, where a future agent should open first, what evidence or branch currently supports the object, and what maturity claim must not be overstated. A routeable rationale may be a speaker object, profile, native stream map, host-local arc pointer, cross-host note, authored ledger, or helix. It does **not** require a substantial arc in every folder.
+Minimum invariant: every canonical speaker folder needs a **routeable rationale**. That rationale answers why the folder exists, where a future agent should open first, what evidence or branch currently supports the object, and what maturity claim must not be overstated. A routeable rationale may be a speaker object, profile, native stream map, host-local arc pointer, cross-host note, authored ledger, or helix.
+
+But the stricter shelf rule is now:
+
+- if the speaker does **not** have enough real continuity, do **not** create the folder
+- if the speaker does have enough real continuity to justify a folder, the folder should eventually become strong enough to state its own continuity honestly rather than staying permanently skeletal
+- if the speaker is a **major speaker** with broad recurrence across hosts, contexts, or time, the shelf should converge toward one canonical **person arc** file: `<speaker>-arc.md`
 
 Use an arc, helix, or authored-pressure ledger only when the evidence warrants it:
 
 - a **host-local speaker arc** is earned by a recurring host x speaker lane
+- a **person arc** is earned when one speaker's continuity across hosts, contexts, and time has become a reusable notebook object in its own right
 - a **speaker helix** is earned by multiple host-local arcs that are strong enough to compare
 - an **authored-pressure ledger** is earned by a substantial authored corpus with interview pressure
-- a **profile-only** or **cross-host-reinforced** object is valid when the speaker is useful but recurrence is still thin or uneven
+- a **profile-only** or **cross-host-reinforced** object is valid only when the speaker already has enough real recurrence to justify the folder, but the continuity is not yet broad enough to consolidate into a person arc or helix
 
-This prevents two opposite errors: empty shelves with no re-entry path, and premature helix/arc language that makes a light or search-backed body look more embodied than it is.
+This prevents two opposite errors: creating shelves for speakers who do not yet deserve one, and inflating a real but still-maturing speaker into premature helix/arc language that makes a light or search-backed body look more embodied than it is.
 
 Each speaker-object note should include:
 
@@ -100,6 +111,7 @@ Each speaker-object note should include:
 Allowed object shapes:
 
 - `profile-only` - a light orientation shelf, not yet a mature thread, stream, or helix
+- `person-arc-first` - a canonical person arc is the primary way to enter the object, with helix, routing, and bench surfaces supporting it
 - `stream-native` - the main body of the object is one native cognition stream
 - `stream-anchored` - one native stream is primary, but the object is less stream-native than depth-native
 - `stream-anchored-with-cross-host-reinforcement` - one native stream remains primary, while guest appearances materially reinforce the object
