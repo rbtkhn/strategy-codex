@@ -50,6 +50,6 @@ Do not treat `mearsheimer-thread.md` as competing with the helix or the host-loc
 
 ## Host lanes
 
-- [Diesen x Mearsheimer](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-mearsheimer-speaker-arc.md)
-- [Davis x Mearsheimer](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-mearsheimer-speaker-arc.md)
-- [Judging Freedom x Mearsheimer](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-mearsheimer-speaker-arc.md)
+- [Diesen x Mearsheimer](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-mearsheimer-arc.md)
+- [Davis x Mearsheimer](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-mearsheimer-arc.md)
+- [Judging Freedom x Mearsheimer](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-mearsheimer-arc.md)

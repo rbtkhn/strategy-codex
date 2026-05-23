@@ -22,8 +22,8 @@ Purpose: April 2026 monthly index for the native `Judging Freedom` shelf.
 - [napolitano-johnson-speaker-arc.md](napolitano-johnson-speaker-arc.md)
 - [napolitano-ritter-speaker-arc.md](napolitano-ritter-speaker-arc.md)
 - [napolitano-macgregor-speaker-arc.md](napolitano-macgregor-speaker-arc.md)
-- [napolitano-mearsheimer-speaker-arc.md](napolitano-mearsheimer-speaker-arc.md)
-- [napolitano-freeman-speaker-arc.md](napolitano-freeman-speaker-arc.md)
+- [napolitano-mearsheimer-arc.md](napolitano-mearsheimer-arc.md)
+- [napolitano-freeman-arc.md](napolitano-freeman-arc.md)
 - [napolitano-wilkerson-speaker-arc.md](napolitano-wilkerson-speaker-arc.md)
 
 ## Reading note

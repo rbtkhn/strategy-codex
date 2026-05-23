@@ -23,12 +23,12 @@ Quick separation rule:
 
 Its core embodied lanes are:
 
-1. [Diesen x Mearsheimer](../diesen/stream/diesen-mearsheimer-speaker-arc.md) - structural altitude and order-transition architecture
-2. [Davis x Mearsheimer](../davis/stream/davis-mearsheimer-speaker-arc.md) - coercive failure, bargaining geometry, and war-feasibility limits
+1. [Diesen x Mearsheimer](../diesen/stream/diesen-mearsheimer-arc.md) - structural altitude and order-transition architecture
+2. [Davis x Mearsheimer](../davis/stream/davis-mearsheimer-arc.md) - coercive failure, bargaining geometry, and war-feasibility limits
 
 Reinforcing orbit:
 
-- [Napolitano x Mearsheimer](../napolitano/stream/napolitano-mearsheimer-speaker-arc.md)
+- [Napolitano x Mearsheimer](../napolitano/stream/napolitano-mearsheimer-arc.md)
 - additional shelf material outside the two main host strands
 
 ## What makes this an arc
@@ -50,8 +50,8 @@ That motion is broad enough that Mearsheimer now deserves a person arc, even tho
 
 Core host transformations:
 
-- [Diesen x Mearsheimer](../diesen/stream/diesen-mearsheimer-speaker-arc.md) - best for order-transition architecture
-- [Davis x Mearsheimer](../davis/stream/davis-mearsheimer-speaker-arc.md) - best for coercive failure and bargaining geometry
+- [Diesen x Mearsheimer](../diesen/stream/diesen-mearsheimer-arc.md) - best for order-transition architecture
+- [Davis x Mearsheimer](../davis/stream/davis-mearsheimer-arc.md) - best for coercive failure and bargaining geometry
 
 Supporting surfaces:
 
@@ -71,7 +71,7 @@ If the operator needs the fastest host-conditioned entry:
 
 If the operator needs the cleanest structural anchor:
 
-- open [diesen-mearsheimer-speaker-arc.md](../diesen/stream/diesen-mearsheimer-speaker-arc.md)
+- open [diesen-mearsheimer-arc.md](../diesen/stream/diesen-mearsheimer-arc.md)
 
 ## Boundary
 

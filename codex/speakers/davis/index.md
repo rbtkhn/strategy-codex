@@ -28,11 +28,11 @@ The older [stream/davis-thread.md](stream/davis-thread.md) file is a legacy host
 - [stream/davis-shelf-2026-01.md](stream/davis-shelf-2026-01.md)
 - [stream/davis-shelf-2026-04.md](stream/davis-shelf-2026-04.md)
 - [stream/davis-crooke-speaker-arc.md](stream/davis-crooke-speaker-arc.md) - embodied relational arc in legacy compatibility spelling
-- [stream/davis-freeman-speaker-arc.md](stream/davis-freeman-speaker-arc.md) - embodied relational arc in legacy compatibility spelling
+- [stream/davis-freeman-arc.md](stream/davis-freeman-arc.md) - embodied relational Freeman arc
 - [stream/davis-johnson-speaker-arc.md](stream/davis-johnson-speaker-arc.md) - embodied relational arc in legacy compatibility spelling
 - [stream/davis-macgregor-speaker-arc.md](stream/davis-macgregor-speaker-arc.md) - embodied relational arc in legacy compatibility spelling
 - [stream/davis-marandi-speaker-arc.md](stream/davis-marandi-speaker-arc.md) - embodied relational arc in legacy compatibility spelling
-- [stream/davis-mearsheimer-speaker-arc.md](stream/davis-mearsheimer-speaker-arc.md) - embodied relational arc in legacy compatibility spelling
+- [stream/davis-mearsheimer-arc.md](stream/davis-mearsheimer-arc.md) - embodied relational arc
 - [stream/davis-mercouris-speaker-arc.md](stream/davis-mercouris-speaker-arc.md) - embodied relational arc in legacy compatibility spelling
 - [stream/davis-ritter-speaker-arc.md](stream/davis-ritter-speaker-arc.md) - embodied relational arc in legacy compatibility spelling
 

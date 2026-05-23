@@ -8,9 +8,9 @@ Local surfaces under review:
 
 - [mearsheimer-helix.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-helix.md)
 - [mearsheimer-routing.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-routing.md)
-- [diesen-mearsheimer-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-mearsheimer-speaker-arc.md)
-- [davis-mearsheimer-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-mearsheimer-speaker-arc.md)
-- [napolitano-mearsheimer-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-mearsheimer-speaker-arc.md)
+- [diesen-mearsheimer-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-mearsheimer-arc.md)
+- [davis-mearsheimer-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-mearsheimer-arc.md)
+- [napolitano-mearsheimer-arc.md](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-mearsheimer-arc.md)
 - [mearsheimer-thread.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-thread.md)
 
 Bounded claim:
@@ -23,9 +23,9 @@ Bounded claim:
 
 Arcs under review:
 
-- [diesen-mearsheimer-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-mearsheimer-speaker-arc.md)
-- [davis-mearsheimer-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-mearsheimer-speaker-arc.md)
-- [napolitano-mearsheimer-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-mearsheimer-speaker-arc.md)
+- [diesen-mearsheimer-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-mearsheimer-arc.md)
+- [davis-mearsheimer-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-mearsheimer-arc.md)
+- [napolitano-mearsheimer-arc.md](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-mearsheimer-arc.md)
 
 Threads under review:
 
@@ -48,9 +48,9 @@ Comparison-only notes:
 
 | Arc | Owned continuity | Distinct frame | Distinct evidence habit | Distinct use | Status |
 |---|---|---|---|---|---|
-| `diesen-mearsheimer-speaker-arc.md` | great-power geometry across Ukraine, Iran, NATO, and order transition | structural-realist architecture | mature transcript spine with strong 2025-2026 continuity | open when the task needs altitude, security-dilemma logic, or order-transition consequence | keep |
-| `davis-mearsheimer-speaker-arc.md` | bargaining geometry across coercion, punishment, and settlement failure | feasibility and leverage limits | dense anti-war and war-feasibility host pressure, including under-materialized 2026 recurrence | open when the task needs coercive-failure or settlement-impossibility analysis | keep |
-| `napolitano-mearsheimer-speaker-arc.md` | defeat-accounting and self-entrapment reinforcement | sequence loss, incoherence, and boxed-in executive behavior | thinner, more summary-grade orbit branch with real recurring use | keep as orbit material, not a third canonical strand |
+| `diesen-mearsheimer-arc.md` | great-power geometry across Ukraine, Iran, NATO, and order transition | structural-realist architecture | mature transcript spine with strong 2025-2026 continuity | open when the task needs altitude, security-dilemma logic, or order-transition consequence | keep |
+| `davis-mearsheimer-arc.md` | bargaining geometry across coercion, punishment, and settlement failure | feasibility and leverage limits | dense anti-war and war-feasibility host pressure, including under-materialized 2026 recurrence | open when the task needs coercive-failure or settlement-impossibility analysis | keep |
+| `napolitano-mearsheimer-arc.md` | defeat-accounting and self-entrapment reinforcement | sequence loss, incoherence, and boxed-in executive behavior | thinner, more summary-grade orbit branch with real recurring use | keep as orbit material, not a third canonical strand |
 
 ## Thread audit
 

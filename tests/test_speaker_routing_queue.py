@@ -485,7 +485,7 @@ def test_summary_grade_is_preserved(tmp_path: Path) -> None:
     obj = speakers / "mearsheimer" / "mearsheimer-speaker-object.md"
     obj.parent.mkdir(parents=True)
     obj.write_text("# Mearsheimer\n", encoding="utf-8")
-    arc = notebook / "napolitano" / "napolitano-mearsheimer-speaker-arc.md"
+    arc = notebook / "napolitano" / "napolitano-mearsheimer-arc.md"
     arc.parent.mkdir(parents=True)
     arc.write_text("# Napolitano x Mearsheimer\n", encoding="utf-8")
     raw = notebook / "raw-input" / "2026-04-28" / "napolitano-mearsheimer.md"

@@ -17,8 +17,8 @@ Use Mearsheimer's speaker state as the main theory input:
 
 - [Mearsheimer routing](../../../speakers/mearsheimer/mearsheimer-routing.md)
 - [Mearsheimer helix](../../../speakers/mearsheimer/mearsheimer-helix.md)
-- [Diesen x Mearsheimer](../../../years/2026/diesen/diesen-mearsheimer-speaker-arc.md)
-- [Davis x Mearsheimer](../../../years/2026/davis/davis-mearsheimer-speaker-arc.md)
+- [Diesen x Mearsheimer](../../../speakers/diesen/stream/diesen-mearsheimer-arc.md)
+- [Davis x Mearsheimer](../../../speakers/davis/stream/davis-mearsheimer-arc.md)
 
 Use Richelieu and Bismarck as statecraft lenses, not as substitutes for Mearsheimer's structural logic:
 

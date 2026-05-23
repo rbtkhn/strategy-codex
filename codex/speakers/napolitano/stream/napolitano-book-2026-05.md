@@ -20,8 +20,8 @@ The May shelf therefore acts as the live routing surface for April-May Napolitan
 - [napolitano-johnson-speaker-arc.md](napolitano-johnson-speaker-arc.md)
 - [napolitano-ritter-speaker-arc.md](napolitano-ritter-speaker-arc.md)
 - [napolitano-macgregor-speaker-arc.md](napolitano-macgregor-speaker-arc.md)
-- [napolitano-mearsheimer-speaker-arc.md](napolitano-mearsheimer-speaker-arc.md)
-- [napolitano-freeman-speaker-arc.md](napolitano-freeman-speaker-arc.md)
+- [napolitano-mearsheimer-arc.md](napolitano-mearsheimer-arc.md)
+- [napolitano-freeman-arc.md](napolitano-freeman-arc.md)
 - [napolitano-wilkerson-speaker-arc.md](napolitano-wilkerson-speaker-arc.md)
 
 ## Boundary

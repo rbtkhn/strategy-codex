@@ -20,9 +20,9 @@ So this note is the **speaker-side index** into the real Mearsheimer host lanes.
 
 | If the Codex needs... | Open first | Why |
 |---|---|---|
-| structural realism, great-power geometry, NATO decline, or order-transition altitude | [diesen-mearsheimer-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-mearsheimer-speaker-arc.md) | Diesen gives the highest-altitude Mearsheimer lane and best translates crisis into systemic consequence. |
-| coercive failure, bargaining geometry, settlement impossibility, or war-feasibility limits | [davis-mearsheimer-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-mearsheimer-speaker-arc.md) | Davis gives Mearsheimer his clearest force-versus-bargaining and punishment-failure testing ground. |
-| defeat accounting, sequence control, or a compact auxiliary anti-war reinforcement lane | [napolitano-mearsheimer-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-mearsheimer-speaker-arc.md) | Napolitano gives a real but secondary host form focused on what Washington has already lost. |
+| structural realism, great-power geometry, NATO decline, or order-transition altitude | [diesen-mearsheimer-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-mearsheimer-arc.md) | Diesen gives the highest-altitude Mearsheimer lane and best translates crisis into systemic consequence. |
+| coercive failure, bargaining geometry, settlement impossibility, or war-feasibility limits | [davis-mearsheimer-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-mearsheimer-arc.md) | Davis gives Mearsheimer his clearest force-versus-bargaining and punishment-failure testing ground. |
+| defeat accounting, sequence control, or a compact auxiliary anti-war reinforcement lane | [napolitano-mearsheimer-arc.md](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-mearsheimer-arc.md) | Napolitano gives a real but secondary host form focused on what Washington has already lost. |
 | the cleanest all-around first orientation to Mearsheimer as an object | [mearsheimer-helix.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-helix.md) | The helix note explains how the durable double structure fits together before you descend into a lane. |
 
 ## Best entry points

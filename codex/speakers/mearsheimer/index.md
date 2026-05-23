@@ -43,9 +43,9 @@ Read this ladder as a Mearsheimer-local implementation of the governing [speaker
 
 ## Main Host Arcs
 
-- [Diesen x Mearsheimer](../diesen/stream/diesen-mearsheimer-speaker-arc.md)
-- [Davis x Mearsheimer](../davis/stream/davis-mearsheimer-speaker-arc.md)
-- [Judging Freedom x Mearsheimer](../napolitano/stream/napolitano-mearsheimer-speaker-arc.md)
+- [Diesen x Mearsheimer](../diesen/stream/diesen-mearsheimer-arc.md)
+- [Davis x Mearsheimer](../davis/stream/davis-mearsheimer-arc.md)
+- [Judging Freedom x Mearsheimer](../napolitano/stream/napolitano-mearsheimer-arc.md)
 
 ## Best Live Entry Files
 

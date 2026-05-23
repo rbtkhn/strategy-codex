@@ -28,8 +28,8 @@ The older [stream/napolitano-thread.md](stream/napolitano-thread.md) file is a l
 - [stream/napolitano-johnson-speaker-arc.md](stream/napolitano-johnson-speaker-arc.md) - embodied relational arc in legacy compatibility spelling
 - [stream/napolitano-ritter-speaker-arc.md](stream/napolitano-ritter-speaker-arc.md) - embodied relational arc in legacy compatibility spelling
 - [stream/napolitano-macgregor-speaker-arc.md](stream/napolitano-macgregor-speaker-arc.md) - embodied relational arc in legacy compatibility spelling
-- [stream/napolitano-mearsheimer-speaker-arc.md](stream/napolitano-mearsheimer-speaker-arc.md) - embodied relational arc in legacy compatibility spelling
-- [stream/napolitano-freeman-speaker-arc.md](stream/napolitano-freeman-speaker-arc.md) - embodied relational arc in legacy compatibility spelling
+- [stream/napolitano-mearsheimer-arc.md](stream/napolitano-mearsheimer-arc.md) - embodied relational arc
+- [stream/napolitano-freeman-arc.md](stream/napolitano-freeman-arc.md) - embodied relational Freeman arc
 - [stream/napolitano-wilkerson-speaker-arc.md](stream/napolitano-wilkerson-speaker-arc.md) - embodied relational arc in legacy compatibility spelling
 
 ## Boundary
