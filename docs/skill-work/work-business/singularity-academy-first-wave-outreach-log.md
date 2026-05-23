@@ -16,6 +16,19 @@ One row per real send or meaningful reply.
 
 If nothing was sent, do not backfill theater.
 
+## Ready-to-send queue
+
+Use this section before any real send.
+
+These rows are preparation metadata only.
+They do not imply contact has occurred.
+
+| Prospect | Stage truth | Priority | Contact path | First send subject | Personalization anchor | Ask to make | Follow-up target |
+|----------|-------------|----------|--------------|--------------------|------------------------|-------------|------------------|
+| AI Adjacent | `idea` | 1 | `hello@aiadjacent.com` | `A workflow thought on AI Adjacent's editorial pipeline` | public About page names an agentic research pipeline, a human editor, lightly automated daily briefs, and git-backed build artifacts | send the one-page packet if useful | `4-6` business days after real send |
+| 2389 Research | `idea` | 2 | `hello@2389.ai` | `Possible fit for one 2389 workflow` | public pages emphasize products, research, AI workflow infrastructure, human gates, and checkpointing | send the one-page packet if useful | `4-6` business days after real send |
+| deep.org | `idea` | 3 | `hello@deep.org` | `A workflow idea for deep` | public standards emphasize signal over volume, clarity over hype, independent judgment, and quick corrections | send the one-page packet if useful | `4-6` business days after real send |
+
 ## Log table
 
 | Date | Prospect | Event | Channel | Version used | Personalization anchor | Ask made | Result | Next follow-up |
@@ -62,6 +75,14 @@ Add stage truth to:
 ## Failure signal
 
 If the log starts to fill with sends but no reply quality improves, the problem is probably the offer framing or prospect fit, not just volume.
+
+## Use note
+
+When a real send happens:
+
+1. keep the `ready-to-send` row as preflight history
+2. add a new row to the log table with the real event
+3. update stage truth in the pipeline
 
 ## Related surfaces
 

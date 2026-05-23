@@ -44,19 +44,34 @@ When this lane is being used under `singularity-academy`, do not flatten busines
 | **[singularity-academy-ai-operating-system-sprint.md](singularity-academy-ai-operating-system-sprint.md)** | WORK-only offer surface for packaging singularity-academy as a paid AI workflow install. |
 | **[singularity-academy-5000mo-roadmap.md](singularity-academy-5000mo-roadmap.md)** | Revenue-path planning note for reaching `$5,000` per month through a narrow service wedge. |
 | **[singularity-academy-sprint-sales-page.md](singularity-academy-sprint-sales-page.md)** | Short buyer-facing page for the AI operating system sprint. |
+| **[singularity-academy-sprint-one-page-packet.md](singularity-academy-sprint-one-page-packet.md)** | Concise external packet for first live prospect sends or one-pager requests. |
+| **[singularity-academy-sprint-external-packet.md](singularity-academy-sprint-external-packet.md)** | Plain-text external packet with no repo framing, suitable for email, Notion, or simple forwarding. |
+| **[singularity-academy-sprint-external-landing-page.md](singularity-academy-sprint-external-landing-page.md)** | Simple buyer-facing landing page draft with no repo references. |
 | **[singularity-academy-sprint-variant-founder-operator.md](singularity-academy-sprint-variant-founder-operator.md)** | Tailored sprint framing for founder-operators with reporting and workflow sprawl. |
 | **[singularity-academy-sprint-variant-cohort-operator.md](singularity-academy-sprint-variant-cohort-operator.md)** | Tailored sprint framing for cohort or education operators with proof and rescue problems. |
 | **[singularity-academy-sprint-variant-research-content.md](singularity-academy-sprint-variant-research-content.md)** | Tailored sprint framing for research or content teams with review blur and hidden cleanup. |
 | **[singularity-academy-sprint-outreach-sequence.md](singularity-academy-sprint-outreach-sequence.md)** | Draft outreach sequence for testing the sprint with close-fit prospects. |
 | **[singularity-academy-sprint-proof-packet.md](singularity-academy-sprint-proof-packet.md)** | Compact evidence packet tying the sprint offer to existing repo proof surfaces. |
+| **[singularity-academy-sprint-faq.md](singularity-academy-sprint-faq.md)** | Concise buyer-facing FAQ that answers the most likely questions after the one-page packet. |
 | **[singularity-academy-sprint-prospect-pipeline.md](singularity-academy-sprint-prospect-pipeline.md)** | Lightweight pipeline sheet for tracking early sprint prospects, objections, and conversion movement. |
 | **[singularity-academy-sprint-discovery-call.md](singularity-academy-sprint-discovery-call.md)** | Bounded qualification and workflow-fit guide for sprint sales calls. |
+| **[singularity-academy-sprint-discovery-call-worksheet.md](singularity-academy-sprint-discovery-call-worksheet.md)** | Fillable call worksheet so qualification evidence survives the conversation. |
 | **[singularity-academy-sprint-proposal-template.md](singularity-academy-sprint-proposal-template.md)** | Reusable proposal scaffold for base and proof-loop sprint packages. |
+| **[singularity-academy-sprint-proposal-cover-notes.md](singularity-academy-sprint-proposal-cover-notes.md)** | Short cover-note templates for packet, call, proposal, and parked follow-up moments. |
+| **[singularity-academy-sprint-sample-proposal-research-content.md](singularity-academy-sprint-sample-proposal-research-content.md)** | Near-send sample proposal for a `$2,500` research/content workflow sprint. |
+| **[singularity-academy-sprint-sample-proposal-cohort-proof-loop.md](singularity-academy-sprint-sample-proposal-cohort-proof-loop.md)** | Near-send sample proposal for a `$5,000` cohort proof-loop sprint. |
 | **[singularity-academy-first-wave-targeting.md](singularity-academy-first-wave-targeting.md)** | First-batch buyer map tying the sprint offer to the repo's strongest proof clusters. |
 | **[singularity-academy-first-batch-worksheet.md](singularity-academy-first-batch-worksheet.md)** | Fillable first-10 prospect sheet translating archetypes into actual outreach candidates. |
 | **[singularity-academy-public-seed-targets-2026-05.md](singularity-academy-public-seed-targets-2026-05.md)** | Public seed list of named organizations that resemble the first-wave sprint archetypes. |
 | **[singularity-academy-top5-outreach-shortlist-2026-05.md](singularity-academy-top5-outreach-shortlist-2026-05.md)** | Highest-priority first-send shortlist with contact routes and tailored opening lines. |
 | **[singularity-academy-top3-outreach-drafts-2026-05.md](singularity-academy-top3-outreach-drafts-2026-05.md)** | Ready-to-personalize first messages for the three strongest public outreach candidates. |
+| **[singularity-academy-top3-target-refresh-2026-05-23.md](singularity-academy-top3-target-refresh-2026-05-23.md)** | Current official-page refresh for the top three targets, used to keep first-contact notes source-bound and current. |
+| **[singularity-academy-top3-execution-bundle-2026-05-23.md](singularity-academy-top3-execution-bundle-2026-05-23.md)** | One-file send bundle for the top three prospects with exact first-send and packet-follow-up instructions. |
+| **[singularity-academy-packet-followups-top3-2026-05-23.md](singularity-academy-packet-followups-top3-2026-05-23.md)** | Ready packet-follow-up notes for the top three when they ask for more detail. |
+| **[singularity-academy-mock-prospect-progression-ai-adjacent.md](singularity-academy-mock-prospect-progression-ai-adjacent.md)** | Rehearsal of one full first-sale chain from first send through proposal for the cleanest top-wave fit. |
+| **[singularity-academy-target-packet-deep-2026-05.md](singularity-academy-target-packet-deep-2026-05.md)** | Tight fit hypothesis and send wrapper for deep.org. |
+| **[singularity-academy-target-packet-2389-research-2026-05.md](singularity-academy-target-packet-2389-research-2026-05.md)** | Tight fit hypothesis and send wrapper for 2389 Research. |
+| **[singularity-academy-target-packet-ai-adjacent-2026-05.md](singularity-academy-target-packet-ai-adjacent-2026-05.md)** | Tight fit hypothesis and send wrapper for AI Adjacent. |
 | **[singularity-academy-first-wave-send-checklist.md](singularity-academy-first-wave-send-checklist.md)** | Pre-send execution checklist so the first outreach wave is specific, honest, and logged. |
 | **[singularity-academy-first-wave-outreach-log.md](singularity-academy-first-wave-outreach-log.md)** | Lightweight send and reply log for the first real outreach wave. |
 | **[singularity-academy-first-response-handling.md](singularity-academy-first-response-handling.md)** | Reply-routing pack for turning first responses into packet, call, proposal, parked, or lost outcomes. |

@@ -131,3 +131,5 @@ If this scope looks right, confirm:
 - [Singularity-Academy AI Operating System Sprint](singularity-academy-ai-operating-system-sprint.md)
 - [Singularity-Academy Sprint Discovery Call](singularity-academy-sprint-discovery-call.md)
 - [Singularity-Academy Sprint Prospect Pipeline](singularity-academy-sprint-prospect-pipeline.md)
+- [AI Operating System Sprint Proposal - Sample Research / Content Team](singularity-academy-sprint-sample-proposal-research-content.md)
+- [AI Operating System Sprint Proposal - Sample Cohort Proof-Loop](singularity-academy-sprint-sample-proposal-cohort-proof-loop.md)

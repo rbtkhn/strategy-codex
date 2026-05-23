@@ -33,9 +33,20 @@ If a prospect is so distant that the first sentence must explain the whole philo
 
 | Prospect | Archetype | Workflow pain | Fit score (1-5) | Stage | Last touch | Likely package | Main objection | Next step |
 |----------|-----------|---------------|-----------------|-------|------------|----------------|----------------|-----------|
-| deep.org | Founder-operator / research-content | briefing workflow and editorial trust work may still depend on invisible founder filtering | 4 | idea | 2026-05-23 | `$2,500` base sprint | unknown | personalize short outreach to `hello@deep.org` |
-| 2389 Research | Founder-operator | public product/research shipping may still carry hidden founder trust work across review and handoff | 4 | idea | 2026-05-23 | `$2,500` base sprint | unknown | send founder-operator version to `hello@2389.ai` |
-| AI Adjacent | Research / content | agentic drafting may be ahead of review and reuse discipline | 5 | idea | 2026-05-23 | `$2,500` base sprint | unknown | send research/content version to `hello@aiadjacent.com` |
+| deep.org | Founder-operator / research-content | briefing workflow and editorial trust work may still depend on invisible founder filtering | 4 | idea | 2026-05-23 | `$2,500` base sprint | unknown | send in wave `3` using refreshed deep draft; follow up `4-6` business days after real send |
+| 2389 Research | Founder-operator | public product/research shipping may still carry hidden founder trust work across review and handoff | 4 | idea | 2026-05-23 | `$2,500` base sprint | unknown | send in wave `2` using refreshed 2389 draft; follow up `4-6` business days after real send |
+| AI Adjacent | Research / content | agentic drafting may be ahead of review and reuse discipline | 5 | idea | 2026-05-23 | `$2,500` base sprint | unknown | send in wave `1` using refreshed AI Adjacent draft; follow up `4-6` business days after real send |
+
+## Ready-to-send metadata
+
+These fields are preparation state only.
+They do not change stage truth.
+
+| Prospect | Send order | Primary contact | Alternate contact | Draft family | Packet bundle | Best next ask |
+|----------|------------|-----------------|-------------------|--------------|---------------|---------------|
+| AI Adjacent | 1 | `hello@aiadjacent.com` | `tips@aiadjacent.com` | research / content | one-page packet + FAQ + AI Adjacent target packet | ask which editorial workflow carries the most hidden trust work |
+| 2389 Research | 2 | `hello@2389.ai` | `+1 (814) 666-2389` | founder-operator / control-plane | one-page packet + FAQ + 2389 target packet | ask which internal workflow already has AI or automation but still depends on invisible senior trust work |
+| deep.org | 3 | `hello@deep.org` | none | founder-operator / editorial trust | one-page packet + FAQ + deep target packet | ask which editorial or briefing workflow relies most on hidden human filtering |
 
 ## Fit heuristics
 

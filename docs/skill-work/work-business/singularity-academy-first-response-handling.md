@@ -69,6 +69,8 @@ Signal:
 Route:
 
 - send:
+  - [Singularity-Academy Sprint One-Page Packet](singularity-academy-sprint-one-page-packet.md)
+  - [Singularity-Academy Sprint FAQ](singularity-academy-sprint-faq.md)
   - [Singularity-Academy Sprint Sales Page](singularity-academy-sprint-sales-page.md)
   - [Singularity-Academy Sprint Proof Packet](singularity-academy-sprint-proof-packet.md)
 - ask for a short call only after they have the packet
@@ -76,7 +78,7 @@ Route:
 Reply shape:
 
 ```text
-Absolutely. I am sending the short page plus a compact proof packet.
+Absolutely. I am sending the short one-page packet plus the compact proof packet.
 
 If the shape looks close after that, the best next step is a 30-minute workflow call to decide whether there is one real workflow worth scoping.
 ```
@@ -229,6 +231,7 @@ Do not send the proposal template before the call.
 Use:
 
 - [Singularity-Academy Sprint Proposal Template](singularity-academy-sprint-proposal-template.md)
+- [Singularity-Academy Sprint Proposal Cover Notes](singularity-academy-sprint-proposal-cover-notes.md)
 
 only after:
 
@@ -263,6 +266,10 @@ then the outreach or targeting is drifting away from the real wedge.
 ## Related surfaces
 
 - [Singularity-Academy Sprint Discovery Call](singularity-academy-sprint-discovery-call.md)
+- [Singularity-Academy Sprint Discovery Call Worksheet](singularity-academy-sprint-discovery-call-worksheet.md)
 - [Singularity-Academy Sprint Proposal Template](singularity-academy-sprint-proposal-template.md)
+- [Singularity-Academy Sprint Proposal Cover Notes](singularity-academy-sprint-proposal-cover-notes.md)
+- [Singularity-Academy Sprint FAQ](singularity-academy-sprint-faq.md)
+- [Singularity-Academy Sprint One-Page Packet](singularity-academy-sprint-one-page-packet.md)
 - [Singularity-Academy Sprint Sales Page](singularity-academy-sprint-sales-page.md)
 - [Singularity-Academy Sprint Proof Packet](singularity-academy-sprint-proof-packet.md)

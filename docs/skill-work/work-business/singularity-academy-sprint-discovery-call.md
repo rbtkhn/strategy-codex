@@ -145,6 +145,7 @@ After the call, capture:
 Add the result to:
 
 - [Singularity-Academy Sprint Prospect Pipeline](singularity-academy-sprint-prospect-pipeline.md)
+- [Singularity-Academy Sprint Discovery Call Worksheet](singularity-academy-sprint-discovery-call-worksheet.md)
 
 ## Failure signals
 
@@ -158,3 +159,9 @@ The call is going badly if:
 ## Success signal
 
 The call worked if the prospect leaves with a clearer picture of one workflow and you can say yes, no, or not yet without hand-waving.
+
+## Related surfaces
+
+- [Singularity-Academy Sprint Discovery Call Worksheet](singularity-academy-sprint-discovery-call-worksheet.md)
+- [Singularity-Academy Sprint Proposal Template](singularity-academy-sprint-proposal-template.md)
+- [Singularity-Academy Sprint Prospect Pipeline](singularity-academy-sprint-prospect-pipeline.md)
