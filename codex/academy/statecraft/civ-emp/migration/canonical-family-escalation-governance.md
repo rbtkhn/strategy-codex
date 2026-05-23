@@ -154,6 +154,10 @@ Use this note when the real problem is:
 
 That is the point of the meta-surface. It tells you when escalation governance itself has become the larger object.
 
+If the shared structure is already clear and the next need is lane divergence, continue to:
+
+- [Lane comparison: escalation governance](canonical-family-escalation-governance-lane-comparison.md)
+
 ## Return Path
 
 If the unresolved issue is still mostly about enoughness and political conversion, return to [Canonical-family synthesis: coercion conversion](canonical-family-coercion-conversion.md).

@@ -154,6 +154,10 @@ Use this note when the real problem is:
 
 That is the point of the meta-surface. It tells you when the room itself has become the larger object.
 
+If the shared structure is already clear and the next need is lane divergence, continue to:
+
+- [Lane comparison: settlement-room architecture](canonical-family-settlement-room-lane-comparison.md)
+
 ## Return Path
 
 If the unresolved issue is still mostly about peace ownership and successor carry, return to [Canonical-family synthesis: real settlement](canonical-family-settlement-real.md).

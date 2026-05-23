@@ -20,7 +20,7 @@
       "how does remembered exclusion shape the politics of direct great-power settlement"
     ],
     "current_lane_surface_words": 98134,
-    "current_civ_emp_words": 47866,
+    "current_civ_emp_words": 57546,
     "first_wave_core_current_words": 59381
   },
   "direct_ref_occurrences": [
@@ -8072,8 +8072,8 @@
         "file_count": 25
       }
     },
-    "civ_emp_total_words": 47866,
-    "civ_emp_file_count": 65,
+    "civ_emp_total_words": 57546,
+    "civ_emp_file_count": 72,
     "target_word_counts": {
       "america-state-memory": 3553,
       "america-geo": 2683,
@@ -8230,8 +8230,8 @@
         }
       },
       "canonical_family_synthesis_surfaces": {
-        "surface_count": 8,
-        "current_words": 10498,
+        "surface_count": 12,
+        "current_words": 16440,
         "surfaces": [
           {
             "path": "codex/academy/statecraft/civ-emp/migration/canonical-family-broken-contact-regimes.md",
@@ -8242,8 +8242,20 @@
             "words": 1114
           },
           {
+            "path": "codex/academy/statecraft/civ-emp/migration/canonical-family-continuity-misread-architecture.md",
+            "words": 1437
+          },
+          {
+            "path": "codex/academy/statecraft/civ-emp/migration/canonical-family-continuity-misread-lane-comparison.md",
+            "words": 1537
+          },
+          {
+            "path": "codex/academy/statecraft/civ-emp/migration/canonical-family-escalation-governance-lane-comparison.md",
+            "words": 1532
+          },
+          {
             "path": "codex/academy/statecraft/civ-emp/migration/canonical-family-escalation-governance.md",
-            "words": 1338
+            "words": 1359
           },
           {
             "path": "codex/academy/statecraft/civ-emp/migration/canonical-family-exclusion-settlement.md",
@@ -8263,21 +8275,33 @@
           },
           {
             "path": "codex/academy/statecraft/civ-emp/migration/canonical-family-settlement-room-architecture.md",
-            "words": 1263
+            "words": 1284
+          },
+          {
+            "path": "codex/academy/statecraft/civ-emp/migration/canonical-family-settlement-room-lane-comparison.md",
+            "words": 1394
           }
         ]
       },
       "orientation_and_retrieval_surfaces": {
-        "surface_count": 2,
-        "current_words": 2149,
+        "surface_count": 4,
+        "current_words": 4819,
         "surfaces": [
           {
+            "path": "codex/academy/statecraft/civ-emp/migration/orientation-clause-review-checklist.md",
+            "words": 1313
+          },
+          {
             "path": "codex/academy/statecraft/civ-emp/migration/orientation-helix-front-door.md",
-            "words": 1080
+            "words": 1095
+          },
+          {
+            "path": "codex/academy/statecraft/civ-emp/migration/orientation-operator-task-router.md",
+            "words": 1298
           },
           {
             "path": "codex/academy/statecraft/civ-emp/migration/orientation-problem-shape-router.md",
-            "words": 1069
+            "words": 1113
           }
         ]
       }

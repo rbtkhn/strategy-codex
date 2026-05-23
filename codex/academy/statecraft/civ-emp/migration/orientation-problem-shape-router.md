@@ -102,6 +102,11 @@ Shared hinge:
 
 - present action becomes unstable when inherited memory and inherited self-image stop being checked against actual carrying capacity
 
+Meta-surface:
+
+- [Meta-synthesis: continuity and self-misread architecture](canonical-family-continuity-misread-architecture.md)
+  Use when the real question is whether inherited plausibility filters and present self-reading have become one larger review architecture problem rather than two adjacent issues.
+
 ## Quick Router
 
 If the object is still blurry, use this shorter sequence:
@@ -149,18 +154,19 @@ The current synthesis layer now covers three broad entry-problem zones:
 - **Continuity and self-misread**
   - [older strategic memories](canonical-family-older-strategic-memories.md)
   - [pressured hegemon misreading power](canonical-family-pressured-hegemon.md)
+  - [continuity and self-misread architecture](canonical-family-continuity-misread-architecture.md)
 
 That means the family layer is no longer only complete by title. It is now also grouped by entry problem.
 
 ## What To Build Next
 
-Now that the family grid has both title coverage and problem-shape routing, the next highest-value surfaces are:
+Now that the family grid has both title coverage and problem-shape routing, and the corpus now also has [an operator-task router](orientation-operator-task-router.md), the next highest-value surfaces are:
 
-- a later corpus-level surface that groups by **operator task** rather than by family or problem-shape: diagnosis, clause-drafting, settlement design, escalation review, or lane-comparison
-- a lane-comparison surface that groups lanes by how they validate or falsify room architecture once a settlement is signed
-- a lane-comparison surface that groups lanes by how they validate or falsify escalation governance once coercive pressure has already begun
+- deeper comparison work only when later architecture classes genuinely emerge
+- later domain-specific drafting instruments only if one class repeatedly proves distinct enough to justify them
+- a checkpoint audit if the operator wants to seal the current three-architecture Phase 2 layer as a durable milestone
 
-Those are higher leverage now than additional basic routing because the family layer is complete, the problem-shape layer exists, and both architecture-class meta-layers have now begun.
+Those are higher leverage now than additional basic routing because the family layer is complete, the problem-shape layer exists, the task router exists, three architecture-class meta-layers now exist, three comparison surfaces now exist, and a bounded clause-review instrument now exists above them.
 
 ## Return Path
 

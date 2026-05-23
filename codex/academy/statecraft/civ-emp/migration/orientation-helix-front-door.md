@@ -117,6 +117,8 @@ Once the top-level line is clear, descend by question type:
 
 - [Helix-first front door](orientation-helix-front-door.md)
 - [Helix-first problem-shape router](orientation-problem-shape-router.md)
+- [Helix-first operator-task router](orientation-operator-task-router.md)
+- [Helix-first clause-review checklist](orientation-clause-review-checklist.md)
 
 ## What To Build Next
 
@@ -124,11 +126,11 @@ This front door also shows the remaining gap clearly.
 
 The next highest-value surfaces are now:
 
-- a later corpus-level surface that groups by operator task rather than by family title or problem-shape alone
-- a lane-comparison surface that tests how different lanes validate or falsify room architecture after a settlement is signed
-- a lane-comparison surface that tests how different lanes validate or falsify escalation governance once coercive pressure is already active
+- a lane-comparison surface for continuity / self-misread architecture if the new meta-surface proves strong enough to deserve one
+- lane-comparison deepening only if later synthesis produces a genuinely new architecture class
+- later domain-specific checklists only if one drafting class proves distinct enough to deserve a more specialized instrument
 
-Those three would give the corpus a much stronger retrieval spine because the family grid is now complete, the problem-shape layer now exists, and both settlement-room and escalation-governance meta-layers have now begun.
+The retrieval spine is now materially stronger because the family grid is complete, the problem-shape layer exists, the corpus can be entered by operator task, two architecture-class comparison surfaces exist, a third architecture-class meta-surface now exists, and there is now a bounded clause-review instrument above them.
 
 ## Return Path
 
