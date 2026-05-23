@@ -10,7 +10,9 @@ Mearsheimer does **not** need a native monthly shelf of his own. The efficient s
 
 - host shelves hold chronology
 - the speaker folder holds object identity
-- host-local speaker arcs do the routing work
+- host-local speaker arcs do the primary routing work
+- the raw-input index holds the current `non-core appearance bench`
+- the Napolitano lane should be read as reinforcing orbit unless it later earns fuller structural status
 
 So this note is the **speaker-side index** into the real Mearsheimer host lanes.
 
@@ -34,9 +36,11 @@ So this note is the **speaker-side index** into the real Mearsheimer host lanes.
 - **Best host for structural-order reading:** [diesen](/C:/dev/strategy-codex/codex/speakers/diesen/stream/)
 - **Best host for coercive-failure / bargaining-geometry reading:** [davis](/C:/dev/strategy-codex/codex/speakers/davis/stream/)
 - **Best host for auxiliary defeat-accounting reinforcement:** [napolitano](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/)
+- **Current non-core appearance bench:** [mearsheimer-raw-input-index.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-raw-input-index.md)
 
 ## Boundaries
 
 - Do not build a duplicate Mearsheimer chronology here; the host shelves already do that.
 - Do not let the real Napolitano branch quietly promote Mearsheimer into a triple helix.
+- Use the raw-input index when an appearance matters to the shelf but does not belong to the stable double-helix core.
 - Use this note for **routing speed**; use the host-local arc when the task is already stream-specific.

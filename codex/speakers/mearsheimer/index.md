@@ -7,13 +7,15 @@ Purpose: front door for the canonical Mearsheimer shelf, surfacing the speaker-r
 ## Open First
 
 - [Lane README](README.md) - shelf overview, speaker-routing links, and lane-role framing.
-- [Raw-input index](mearsheimer-raw-input-index.md) - exhaustive route map for every resolved Mearsheimer raw-input appearance currently materialized in the repo.
+- [Raw-input index](mearsheimer-raw-input-index.md) - exhaustive route map for every resolved Mearsheimer raw-input appearance currently materialized in the repo; also the current Mearsheimer `non-core appearance bench`.
 - [Speaker routing note](../../../speakers/mearsheimer/mearsheimer-routing.md) - fastest answer to which host lane to open first.
 - [Speaker helix note](../../../speakers/mearsheimer/mearsheimer-helix.md) - why the main host transformations belong together.
+- [Speaker arc](../../../speakers/mearsheimer/mearsheimer-arc.md) - canonical whole-speaker continuity surface.
 
 ## Core Speaker Files
 
 - [Speaker folder README](../../../speakers/mearsheimer/README.md)
+- [Speaker object](../../../speakers/mearsheimer/mearsheimer-speaker-object.md)
 - [Speaker profile](../../../speakers/mearsheimer/mearsheimer-profile.md)
 - [Thread compatibility file](../../../speakers/mearsheimer/mearsheimer-thread.md) - legacy continuity surface; not a canonical topical-thread system
 - [Transcript compatibility file](../../../speakers/mearsheimer/mearsheimer-transcript.md)
@@ -23,11 +25,21 @@ Purpose: front door for the canonical Mearsheimer shelf, surfacing the speaker-r
 
 Mearsheimer's orthogonality-bearing structure is:
 
+- [Speaker arc](../../../speakers/mearsheimer/mearsheimer-arc.md) for the whole-speaker continuity surface
 - [Speaker helix](../../../speakers/mearsheimer/mearsheimer-helix.md) for the current double-helix crossing surface
 - the two main host-local arcs for stable distinct host transformations
 - the Napolitano branch as reinforcing orbit material rather than a third canonical strand
+- [mearsheimer-raw-input-index.md](mearsheimer-raw-input-index.md) as the current `non-core appearance bench`
 
 Do not read [mearsheimer-thread.md](../../../speakers/mearsheimer/mearsheimer-thread.md) as a second competing topical-thread system. It is a legacy compatibility file carried forward from the older expert-thread machinery.
+
+## Ladder
+
+- `core host lane`: one of the stable Diesen / Davis host transformations
+- `reinforcing orbit`: routeable Mearsheimer material that strengthens the shelf without becoming an equal helix strand
+- `non-core appearance bench`: resolved raw-input appearances outside the stable core lanes
+
+Read this ladder as a Mearsheimer-local implementation of the governing [speaker-map route contract](../map/README.md#route-contract), not as independent doctrine.
 
 ## Main Host Arcs
 
@@ -46,6 +58,7 @@ Do not read [mearsheimer-thread.md](../../../speakers/mearsheimer/mearsheimer-th
 
 - Full file-by-file coverage lives in [mearsheimer-raw-input-index.md](mearsheimer-raw-input-index.md).
 - Chronology remains primarily host-owned in raw-input: Diesen, Davis, Napolitano, and authored Mearsheimer surfaces each retain their own provenance.
+- The arc files stay useful as interpretive routes; the raw-input index is the active `non-core appearance bench`.
 - This shelf exists because Mearsheimer is too important and too dispersed to recover efficiently by host memory alone.
 
 ## Boundary
