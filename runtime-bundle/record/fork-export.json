@@ -1,7 +1,7 @@
 {
   "version": "1.2",
   "format": "grace-mar-fork-export",
-  "generated_at": "2026-05-22T00:13:13.925110",
+  "generated_at": "2026-05-23T06:54:57.041618",
   "user_id": "strategy-codex",
   "ontology": {
     "self": "full identity markdown (`self.md`)",
@@ -96,13 +96,13 @@
     "pipeline_applied": 31,
     "pipeline_rejected": 0,
     "last_applied_ts": "2026-05-21T11:00:39.099219",
-    "generated_at": "2026-05-22T00:13:13.553135"
+    "generated_at": "2026-05-23T06:54:56.708531"
   },
   "agent_manifest": {
     "version": "1.2",
     "grace_mar": true,
     "user_id": "strategy-codex",
-    "generated_at": "2026-05-22T00:13:13.372652",
+    "generated_at": "2026-05-23T06:54:56.533480",
     "checksum": "f4a4ba13c365c9187b8c723cf9d959701eb16a6cad451cfff3e038a8092dda1a",
     "runtime_mode": "adjunct_runtime",
     "runtime_modes": {
@@ -223,7 +223,7 @@
     "intent_snapshot": {
       "ok": false,
       "user_id": "strategy-codex",
-      "generated_at": "2026-05-22T00:13:13.368474",
+      "generated_at": "2026-05-23T06:54:56.533480",
       "error": "missing intent.md at C:\\dev\\strategy-codex\\users\\strategy-codex\\intent.md",
       "goals": {},
       "tradeoff_rules": [],
