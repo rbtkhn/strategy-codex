@@ -72,7 +72,7 @@ Best paired read: [diesen-wilkerson-speaker-arc.md](/C:/dev/strategy-codex/codex
 
 Why: the same guest becomes legible through two different hosts. Diesen gives the steadier imperial-decline and order-consequence lane; Alkorshid gives the sharper live-pressure lane. Together they show that the Wilkerson voice is stable, but the host changes the contour.
 
-Second-best paired read: [alkorshid-freeman-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-freeman-speaker-arc.md)
+Second-best paired read: [nima-freeman-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-freeman-arc.md)
 
 Why: both runs live in the same host stream, but they split by register. Freeman gives diplomatic-memory and order-language; Wilkerson gives imperial exhaustion, military-statecraft warning, and strategic self-harm.
 

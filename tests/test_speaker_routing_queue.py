@@ -76,11 +76,11 @@ def test_guest_matching_existing_speaker_object_routes_to_object_and_candidate_a
     assert row["recommended_route"].endswith("speakers/ritter/ritter-speaker-object.md")
     assert row["primary_route"] == row["recommended_route"]
     assert row["next_action"] == "create-candidate-arc"
-    assert row["also_strengthens"][0].endswith("codex/years/2026/alkorshid/alkorshid-ritter-speaker-arc.md")
+    assert row["also_strengthens"][0].endswith("codex/years/2026/nima/nima-ritter-speaker-arc.md")
     assert row["appearance"]["appearance_id"].startswith("ap-")
     assert row["appearance"]["speaker"] == "Scott Ritter"
     assert row["appearance"]["speaker_slug"] == "ritter"
-    assert row["appearance"]["host_slug"] == "alkorshid"
+    assert row["appearance"]["host_slug"] == "nima"
     assert row["appearance"]["speaker_resolution"] == "guest-metadata-match"
     assert row["appearance"]["raw_input_path"].endswith(
         "codex/years/2026/raw-input/2026-05-12/dialogue-works-ritter.md"
@@ -415,10 +415,10 @@ def test_davis_ranked_host_alias_canonicalizes_to_davis(tmp_path: Path) -> None:
     assert row["appearance"]["host_slug"] == "davis"
 
 
-def test_dialogue_works_short_host_alias_canonicalizes_to_alkorshid(tmp_path: Path) -> None:
+def test_dialogue_works_short_host_alias_canonicalizes_to_nima(tmp_path: Path) -> None:
     notebook, speakers, _inventory_obj = _inventory(tmp_path)
     (speakers / "freeman").mkdir(parents=True)
-    arc = notebook / "alkorshid" / "alkorshid-freeman-speaker-arc.md"
+    arc = notebook / "nima" / "nima-freeman-arc.md"
     arc.parent.mkdir(parents=True)
     arc.write_text("# Alkhorshid x Freeman\n", encoding="utf-8")
     raw = notebook / "raw-input" / "2025-10-17" / "alkorshid-freeman.md"
@@ -441,9 +441,9 @@ def test_dialogue_works_short_host_alias_canonicalizes_to_alkorshid(tmp_path: Pa
     row = srq.build_rows([raw], inventory, notebook)[0]
 
     assert row["route_type"] == "existing-speaker-arc"
-    assert row["recommended_route"].endswith("alkorshid/alkorshid-freeman-speaker-arc.md")
+    assert row["recommended_route"].endswith("nima/nima-freeman-arc.md")
     assert row["appearance"]["speaker_slug"] == "freeman"
-    assert row["appearance"]["host_slug"] == "alkorshid"
+    assert row["appearance"]["host_slug"] == "nima"
 
 
 def test_cleaned_transcript_grade_is_preserved(tmp_path: Path) -> None:
@@ -517,7 +517,7 @@ def test_legacy_transcript_without_source_or_transcript_type_is_not_transcript_b
     obj = speakers / "freeman" / "freeman-speaker-object.md"
     obj.parent.mkdir(parents=True)
     obj.write_text("# Freeman\n", encoding="utf-8")
-    arc = notebook / "alkorshid" / "alkorshid-freeman-speaker-arc.md"
+    arc = notebook / "nima" / "nima-freeman-arc.md"
     arc.parent.mkdir(parents=True)
     arc.write_text("# Alkhorshid x Freeman\n", encoding="utf-8")
     raw = notebook / "raw-input" / "2025-08-22" / "alkorshid-freeman.md"
@@ -532,7 +532,7 @@ def test_legacy_transcript_without_source_or_transcript_type_is_not_transcript_b
         "show: Dialogue Works\n"
         "host: Nima Alkhorshid\n"
         "guest: Chas Freeman\n"
-        "thread: alkorshid\n"
+        "thread: nima\n"
         "---\n"
         "body\n",
         encoding="utf-8",

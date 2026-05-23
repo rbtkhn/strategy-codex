@@ -12,8 +12,8 @@ Quick separation rule:
 
 - `Alkorshid x McGovern` = present-tense Iran/Russia escalation, intelligence dissent under live pressure, and imperial unreality warnings
 - [diesen-mcgovern-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-mcgovern-speaker-arc.md) = arms-control decay, NATO consequence, and strategic-restraint failure at order-transition altitude
-- [alkorshid-johnson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-johnson-speaker-arc.md) = intelligence-political explanation with a stronger operational-causation and elite-choice read
-- [alkorshid-marandi-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-marandi-speaker-arc.md) = Iran-centered diplomatic and regional-positioning read rather than former-insider dissent
+- [nima-johnson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-johnson-speaker-arc.md) = intelligence-political explanation with a stronger operational-causation and elite-choice read
+- [nima-marandi-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-marandi-speaker-arc.md) = Iran-centered diplomatic and regional-positioning read rather than former-insider dissent
 
 If the notebook needs a former insider warning that a live crisis has outrun official comprehension, route here. If it needs order-level arms-control consequence, Iranian diplomatic positioning, or intelligence-political explanation without McGovern's dissident register, route to the neighboring branches instead.
 
@@ -86,8 +86,8 @@ Typical pairings around the guest lane:
 Distinct from:
 
 - [diesen-mcgovern-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-mcgovern-speaker-arc.md), which is less present-tense and more about NATO, arms control, and strategic consequence
-- [alkorshid-johnson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-johnson-speaker-arc.md), which is stronger on policy causation and political intelligence synthesis than on McGovern's insider-dissent tone
-- [alkorshid-marandi-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-marandi-speaker-arc.md), which is stronger on Iran's state and regional posture than on U.S. intelligence-system unreality
+- [nima-johnson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-johnson-speaker-arc.md), which is stronger on policy causation and political intelligence synthesis than on McGovern's insider-dissent tone
+- [nima-marandi-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-marandi-speaker-arc.md), which is stronger on Iran's state and regional posture than on U.S. intelligence-system unreality
 
 ## Boundaries
 

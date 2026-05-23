@@ -6,7 +6,7 @@ WORK only; not Record.
 
 Strategy-codex is scaffolded around **polyphonic cognition streams**: durable interpretive voices that can receive daily inputs, preserve source provenance, and be compared contrapuntally without forcing synthesis.
 
-The current lattice has eight streams: `Alkorshid`, `Diesen`, `Davis`, `Mercouris`, `Crooke`, `Parsi`, `Pape`, and `Ritter`. The count is not permanent; filenames, schemas, and public doctrine should stay count-neutral.
+The current lattice has eight streams: `Nima`, `Diesen`, `Davis`, `Mercouris`, `Crooke`, `Parsi`, `Pape`, and `Ritter`. The count is not permanent; filenames, schemas, and public doctrine should stay count-neutral.
 
 Quick lookup: if you just need the eight-stream roster, start with [COGNITION-STREAMS-POINTER.md](COGNITION-STREAMS-POINTER.md). If you need recurring speakers by name, use [speaker-lattice.md](speaker-lattice.md).
 
@@ -71,7 +71,7 @@ New prose should prefer **cognition stream** when naming the analytical lane, an
 
 | Stream | Stable handle | Axis | Source/provenance note |
 |--------|---------------|------|------------------------|
-| Alkorshid | `thread:alkorshid` | Synthesis | Dialogue Works / host-framing captures |
+| Nima | `thread:nima` | Synthesis | Dialogue Works / host-framing captures |
 | Diesen | `thread:diesen` | Order | Glenn Diesen channel and multipolar-order inputs |
 | Davis | `thread:davis` | Conflict | Daniel Davis / military feasibility inputs |
 | Mercouris | `thread:mercouris` | Statecraft | Alexander Mercouris and The Duran captures |

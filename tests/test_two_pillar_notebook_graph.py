@@ -39,7 +39,7 @@ def test_guess_guest_block_handles_embedded_guest_names() -> None:
     assert (
         _guess_guest_block(
             "Nima x Glenn Diesen - Iran, War, and Order",
-            pillar_id="alkorshid",
+            pillar_id="nima",
         )
         == "Glenn Diesen"
     )
@@ -195,7 +195,7 @@ def test_build_graph_creates_polyphonic_cognition_streams_and_cohost_nodes() -> 
         streams = {node["stream_id"]: node for node in graph["nodes"] if node["type"] == "stream"}
 
         assert set(streams) == {
-            "alkorshid",
+            "nima",
             "diesen",
             "davis",
             "mercouris_duran",
@@ -204,10 +204,10 @@ def test_build_graph_creates_polyphonic_cognition_streams_and_cohost_nodes() -> 
             "pape",
             "ritter",
         }
-        assert streams["alkorshid"]["display_name"] == "Alkorshid"
+        assert streams["nima"]["display_name"] == "Nima"
         assert streams["mercouris_duran"]["display_name"] == "Mercouris"
         assert streams["mercouris_duran"]["source_channels"] == ["@AlexMercouris", "@TheDuran"]
-        assert streams["alkorshid"]["axis_label"] == "Synthesis"
+        assert streams["nima"]["axis_label"] == "Synthesis"
         assert streams["diesen"]["axis_label"] == "Order"
         assert streams["davis"]["axis_label"] == "Conflict"
         assert streams["mercouris_duran"]["axis_label"] == "Statecraft"
@@ -230,13 +230,13 @@ def test_build_graph_creates_polyphonic_cognition_streams_and_cohost_nodes() -> 
 
         assert guests["jeffrey-sachs"]["is_bridge"] is True
         assert guests["jeffrey-sachs"]["pillar_ids"] == [
-            "alkorshid",
+            "nima",
             "davis",
             "diesen",
             "mercouris_duran",
         ]
         assert bridges["jeffrey-sachs"]["episode_counts_by_pillar"] == {
-            "alkorshid": 1,
+            "nima": 1,
             "davis": 1,
             "diesen": 1,
             "mercouris_duran": 1,
@@ -316,7 +316,7 @@ def test_index_only_backfill_writes_raw_input_without_transcript_body() -> None:
 
 
 def test_codex_2026_author_shelves_include_civ_mem_fields() -> None:
-    authors = ["alkorshid", "diesen", "mercouris", "davis", "pape", "parsi", "ritter", "crooke"]
+    authors = ["nima", "diesen", "mercouris", "davis", "pape", "parsi", "ritter", "crooke"]
     for author in authors:
         shelf = REPO_ROOT / "codex" / "2026" / author
         assert (shelf / "README.md").is_file()

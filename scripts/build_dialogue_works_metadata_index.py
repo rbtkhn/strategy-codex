@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Build the Dialogue Works metadata-only episode index from the YouTube crawl.
 
 This script intentionally stops at metadata:
@@ -31,7 +31,7 @@ from youtube_transcripts.index_rows import load_index_videos  # noqa: E402
 
 CHANNEL_URL = "https://www.youtube.com/@dialogueworks01/videos"
 START_DATE = date(2026, 1, 1)
-PROFILE_PATH = REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook/experts/alkorshid/profile.md"
+PROFILE_PATH = REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook/experts/nima/profile.md"
 INVENTORY_PATH = REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook/raw-input/dialogue-works-inventory.md"
 
 ROUTE_HINTS = (
@@ -163,12 +163,12 @@ def render_table(rows: list[DialogueWorksRow]) -> str:
 
 def render_profile(rows: list[DialogueWorksRow]) -> str:
     table = render_table(rows)
-    return f"""# Strategy expert - `alkorshid`
+    return f"""# Strategy expert - `nima`
 <!-- word_count: ~700 -->
 
 WORK only; not Record.
 
-**Canonical index:** [strategy-commentator-threads.md](strategy-commentator-threads.md) - **`alkorshid`** lane.
+**Canonical index:** [strategy-commentator-threads.md](strategy-commentator-threads.md) - **`nima`** lane.
 
 ---
 
@@ -177,8 +177,8 @@ WORK only; not Record.
 | Field | Value |
 |-------|-------|
 | **Name** | Nima Alkorshid |
-| **expert_id** | `alkorshid` |
-| **Role** | Dialogue Works host / interviewer for long-form geopolitical dialogue; use `thread:alkorshid` alongside `thread:<guest>` on shared episodes so inbox triage and raw-input thread lists mirror both sides. |
+| **expert_id** | `nima` |
+| **Role** | Dialogue Works host / interviewer for long-form geopolitical dialogue; use `thread:nima` alongside `thread:<guest>` on shared episodes so inbox triage and raw-input thread lists mirror both sides. |
 | **Default grep tags** | `Alkorshid`, `Dialogue Works`, or `DialogueWorks` in cold |
 | **Typical pairings** | x `marandi`, x `diesen`, x `mercouris`, x `davis` |
 | **Notebook-use tags** | `narrate` |
@@ -208,18 +208,18 @@ Promotion and refresh defaults: [strategy-expert-template.md section Voice finge
 
 ## Failure modes / overreads
 
-- Guest `thread:` lines without `thread:alkorshid` on the same episode can create asymmetric raw-input mirroring; fix by adding the host line when host prompts are load-bearing.
+- Guest `thread:` lines without `thread:nima` on the same episode can create asymmetric raw-input mirroring; fix by adding the host line when host prompts are load-bearing.
 
 ## Archive / backfill note
 
 - Archive discovery is useful, but it is not a completeness mandate.
 - Treat Dialogue Works as a discovery index; capture only substantial episodes worth preserving.
 - Automation feeds `raw-input/` only. Pages and thread files are composed later in a separate pass.
-- Host prompts matter on shared episodes, so keep `thread:alkorshid` when the host framing is load-bearing.
+- Host prompts matter on shared episodes, so keep `thread:nima` when the host framing is load-bearing.
 
 ## Automation target
 
-1. `https://www.youtube.com/@dialogueworks01/videos` -> `thread: alkorshid`
+1. `https://www.youtube.com/@dialogueworks01/videos` -> `thread: nima`
 2. Graph-first YouTube queue: [`youtube-transcript-queue.md`](../../raw-input/youtube-transcript-queue.md) and [`scripts/backfill_youtube_channel_raw_input.py`](../../../../../scripts/backfill_youtube_channel_raw_input.py)
 
 ## Published sources (operator web index)
@@ -251,7 +251,7 @@ def render_inventory(rows: list[DialogueWorksRow]) -> str:
 
 **Last audited:** 2026-05-01 — YouTube index-only crawl with metadata enrichment.
 
-**Routing reminder:** For symmetric expert mirroring, same-episode ingests should carry **`thread:<guest>`** plus **`thread:alkorshid`** where host prompts matter — see [`experts/alkorshid/profile.md`](../experts/alkorshid/profile.md).
+**Routing reminder:** For symmetric expert mirroring, same-episode ingests should carry **`thread:<guest>`** plus **`thread:nima`** where host prompts matter — see [`experts/nima/profile.md`](../experts/nima/profile.md).
 
 {table}
 """

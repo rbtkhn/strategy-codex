@@ -4,7 +4,7 @@ WORK only; not Record.
 
 If you only need the current eight cognition streams, use this page first:
 
-- `Alkorshid` - `thread:alkorshid` - `Synthesis`
+- `Nima` - `thread:nima` - `Synthesis`
 - `Diesen` - `thread:diesen` - `Order`
 - `Davis` - `thread:davis` - `Conflict`
 - `Mercouris` - `thread:mercouris` - `Statecraft`

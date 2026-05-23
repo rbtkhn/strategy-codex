@@ -52,7 +52,7 @@ Use the generic helper for the majority of cases:
 
 Thin wrappers exist for the common rollout targets:
 
-- `scripts/backfill_alkorshid_youtube_raw_input.py`
+- `scripts/backfill_nima_youtube_raw_input.py`
 - `scripts/backfill_alexmercouris_youtube_raw_input.py`
 - `scripts/backfill_davis_youtube_raw_input.py`
 - `scripts/backfill_diesen_youtube_raw_input.py`

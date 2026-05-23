@@ -11,9 +11,9 @@ This file should be read as the **operational-posture and war-conduct** Aguilar 
 Quick separation rule:
 
 - `Dialogue Works x Aguilar` = blockade posture, coalition burden, practitioner-facing operational consequence, and moral-military rupture
-- [alkorshid-postol-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-postol-speaker-arc.md) = engineering limits, destruction mechanics, and technical system truth
-- [alkorshid-ritter-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-ritter-speaker-arc.md) = maximal live-war pressure and strategic inversion under headline tempo
-- [alkorshid-johnson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-johnson-speaker-arc.md) = intelligence-political causation and regime-choice reading
+- [nima-postol-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-postol-speaker-arc.md) = engineering limits, destruction mechanics, and technical system truth
+- [nima-ritter-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-ritter-speaker-arc.md) = maximal live-war pressure and strategic inversion under headline tempo
+- [nima-johnson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-johnson-speaker-arc.md) = intelligence-political causation and regime-choice reading
 
 If the notebook needs to know whether ships, coalitions, and deployments can actually sustain blockade or escalation claims in practitioner terms, route here. If it needs mechanism proof, maximal crisis interpretation, or political intelligence framing, route to the neighboring branches instead.
 
@@ -83,9 +83,9 @@ Typical pairings around the guest lane:
 
 Distinct from:
 
-- [alkorshid-postol-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-postol-speaker-arc.md), which tests claims at the engineering-destruction layer
-- [alkorshid-ritter-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-ritter-speaker-arc.md), which translates the same crisis into maximal immediate loss-of-control language
-- [alkorshid-johnson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-johnson-speaker-arc.md), which is stronger on intelligence, policy, and elite causation than on practitioner-facing force posture
+- [nima-postol-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-postol-speaker-arc.md), which tests claims at the engineering-destruction layer
+- [nima-ritter-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-ritter-speaker-arc.md), which translates the same crisis into maximal immediate loss-of-control language
+- [nima-johnson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-johnson-speaker-arc.md), which is stronger on intelligence, policy, and elite causation than on practitioner-facing force posture
 
 ## Boundaries
 

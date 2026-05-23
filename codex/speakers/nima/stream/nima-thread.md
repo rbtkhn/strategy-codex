@@ -1,11 +1,11 @@
-﻿# Expert thread ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â `alkorshid`
+# Expert thread - `nima`
 <!-- word_count: ~120 -->
 
 WORK only; not Record.
 
 ## Orthogonality guide
 
-Read this file as a **legacy continuity checkpoint**, not as a host thread that competes with the current canonical Alkorshid shelf.
+Read this file as a **legacy continuity checkpoint**, not as a host thread that competes with the current canonical Nima shelf.
 
 Quick separation rule:
 
@@ -14,18 +14,18 @@ Quick separation rule:
 
 If a question is about host transformation, guest differentiation, or canonical routing, route to those named shelf surfaces instead of widening this file.
 
-Compatibility note: this file is a **legacy host-continuity compatibility surface** carried forward from the earlier strategy-thread system. The canonical Alkorshid structure now lives in the host shelf front door at [alkorshid/README.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/README.md), the host routing surface at [alkorshid/index.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/index.md), and the distinct guest arcs under this host. Do not treat this file as a competing canonical topical-thread atlas.
+Compatibility note: this file is a **legacy host-continuity compatibility surface** carried forward from the earlier strategy-thread system. The canonical Nima structure now lives in the host shelf front door at [nima/README.md](/C:/dev/strategy-codex/codex/speakers/nima/README.md), the host routing surface at [nima/index.md](/C:/dev/strategy-codex/codex/speakers/nima/index.md), and the distinct guest arcs under this host. Do not treat this file as a competing canonical topical-thread atlas.
 
 **Source:** Distilled from [`transcript.md`](transcript.md) (what the host said recently) and relevant pages (where that material was used in strategy work).
 **Process:** `python3 scripts/strategy_thread.py` triages inbox ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ transcript, then fills **only** the **machine layer** between the **strategy-expert-thread** HTML start and end comments. Operator / assistant maintains the **journal layer** above the start marker in **readable prose** (optional **ledger** after the end marker).
 **Updated:** Narrative ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â when you distill; **machine layer** ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â when you run **`thread`**.
-**Companion files:** [alkorshid-profile.md](../../../profiles/alkorshid-profile.md) and [alkorshid-transcript.md](alkorshid-transcript.md).
+**Companion files:** [nima-profile.md](../../../profiles/nima-profile.md) and [nima-transcript.md](nima-transcript.md).
 
 ---
 
 ## Journal layer ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Narrative (operator)
 
-_Write here in full sentences. For **`alkorshid`**, note **same-episode** symmetry: when a **guest** ingest uses **`thread:<guest>`**, add a **second** paste-ready line with **`thread:alkorshid`** for host-side framing so **`raw-input`** YAML **`thread:`** lists and **`thread`** triage mirror **both** experts._
+_Write here in full sentences. For **`nima`**, note **same-episode** symmetry: when a **guest** ingest uses **`thread:<guest>`**, add a **second** paste-ready line with **`thread:nima`** for host-side framing so **`raw-input`** YAML **`thread:`** lists and **`thread`** triage mirror **both** experts._
 
 **Layout:** Stay on **one** `thread.md` file. Within the **journal layer**, each **`## YYYY-MM`** heading is a **month segment**.
 
@@ -35,7 +35,7 @@ _Write here in full sentences. For **`alkorshid`**, note **same-episode** symmet
 
 ## 2026-04
 
-**Seed:** Minimal **host / interviewer** lane ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â **Dialogue Works** ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â opened so **Nima Alkorshid** has an indexed **`thread:alkorshid`** beside recurring guests (**e.g.** **`marandi`**, **`diesen`**) on shared long-forms. Not a substitute for guest analytic **`thread:`** rows.
+**Seed:** Minimal **host / interviewer** lane ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â **Dialogue Works** ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â opened so **Nima Alkorshid** has an indexed **`thread:nima`** beside recurring guests (**e.g.** **`marandi`**, **`diesen`**) on shared long-forms. Not a substitute for guest analytic **`thread:`** rows.
 
 ---
 <!-- strategy-expert-thread:start -->
@@ -46,11 +46,11 @@ _Auto-generated from `transcript.md` + **on-disk** and **inbox** `raw-input/` (d
 ### Recent transcript material
 
 ## 2026-04-28
-- Inbox | cold: full text in [`transcript-baud-dialogue-works-nima-2026-04-27.md`](raw-input/2026-04-27/transcript-baud-dialogue-works-nima-2026-04-27.md) (pointer; SSOT raw-input) | thread:alkorshid
-- Inbox | cold: full text in [`transcript-nima-freeman-israel-agenda-collapsing-2026-04-24.md`](raw-input/2026-04-24/transcript-nima-freeman-israel-agenda-collapsing-2026-04-24.md) (pointer; SSOT raw-input) | thread:alkorshid
-- Inbox | cold: full text in [`transcript-marandi-blockade-trump-nima-2026-04-21.md`](raw-input/2026-04-21/transcript-marandi-blockade-trump-nima-2026-04-21.md) (pointer; SSOT raw-input) | thread:alkorshid
-- Inbox | cold: full text in [`transcript-marandi-dialogue-works-trump-plan-dead-after-strike-2026-04-28.md`](raw-input/2026-04-28/transcript-marandi-dialogue-works-trump-plan-dead-after-strike-2026-04-28.md) (pointer; SSOT raw-input **Marandi** episode **/** host lane ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â symmetric `crosses:marandi`) | thread:alkorshid
-- Inbox | cold: full text in [`transcript-alkorshid-helmer-middle-east-unthinkable-iran-play-2026-04-28.md`](raw-input/2026-04-28/transcript-alkorshid-helmer-middle-east-unthinkable-iran-play-2026-04-28.md) (pointer; SSOT raw-input) | thread:alkorshid
+- Inbox | cold: full text in [`transcript-baud-dialogue-works-nima-2026-04-27.md`](raw-input/2026-04-27/transcript-baud-dialogue-works-nima-2026-04-27.md) (pointer; SSOT raw-input) | thread:nima
+- Inbox | cold: full text in [`transcript-nima-freeman-israel-agenda-collapsing-2026-04-24.md`](raw-input/2026-04-24/transcript-nima-freeman-israel-agenda-collapsing-2026-04-24.md) (pointer; SSOT raw-input) | thread:nima
+- Inbox | cold: full text in [`transcript-marandi-blockade-trump-nima-2026-04-21.md`](raw-input/2026-04-21/transcript-marandi-blockade-trump-nima-2026-04-21.md) (pointer; SSOT raw-input) | thread:nima
+- Inbox | cold: full text in [`transcript-marandi-dialogue-works-trump-plan-dead-after-strike-2026-04-28.md`](raw-input/2026-04-28/transcript-marandi-dialogue-works-trump-plan-dead-after-strike-2026-04-28.md) (pointer; SSOT raw-input **Marandi** episode **/** host lane ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â symmetric `crosses:marandi`) | thread:nima
+- Inbox | cold: full text in [`transcript-alkorshid-helmer-middle-east-unthinkable-iran-play-2026-04-28.md`](raw-input/2026-04-28/transcript-alkorshid-helmer-middle-east-unthinkable-iran-play-2026-04-28.md) (pointer; SSOT raw-input) | thread:nima
 
 ### Recent raw-input (lane)
 

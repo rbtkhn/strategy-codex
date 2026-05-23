@@ -91,11 +91,11 @@ Do not use this arc as a shortcut for alliance-liability diagnosis, cross-year 2
 
 ## Best paired read
 
-Best paired read: [alkorshid-freeman-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-freeman-speaker-arc.md)
+Best paired read: [nima-freeman-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-freeman-arc.md)
 
 Why: Freeman gives the diplomatic-memory and order-transition lane; Baud gives the law-of-war, treaty-credibility, and strategic-rationality lane. They often touch the same crisis terrain, but they justify their readings differently.
 
-Second-best paired read: [alkorshid-marandi-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-marandi-speaker-arc.md)
+Second-best paired read: [nima-marandi-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-marandi-speaker-arc.md)
 
 Why: Marandi gives the regime-adjacent red-line and legitimacy register; Baud gives the legality, deterrence, and European-failure register. Together they show how the same host pressure elicits very different strategic grammars.
 

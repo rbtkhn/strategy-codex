@@ -61,7 +61,7 @@ Do not use this arc as a shortcut for operational-feasibility triage or wider or
 
 ## Best paired read
 
-Best paired read: [diesen-freeman-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-freeman-speaker-arc.md)
+Best paired read: [diesen-freeman-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-freeman-arc.md)
 
 Why: Freeman gives the steadier diplomatic-memory and order-interpretation lane; Marandi on Dialogue Works gives the sharper Tehran-facing red-line and legitimacy lane. They often touch the same terrain, but from very different speaking positions.
 

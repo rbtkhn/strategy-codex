@@ -6,7 +6,7 @@ YouTube crawl indices already present on disk, folds them into one graph, and
 emits a JSON graph plus a Markdown companion view focused on a count-neutral
 lattice of cognition streams. The current lattice has eight streams:
 
-- Alkorshid (`alkorshid`)
+- Nima (`nima`)
 - Diesen (`diesen`)
 - Davis (`davis`)
 - Mercouris (`mercouris_duran`)
@@ -56,16 +56,16 @@ WINDOW_START = date(2025, 5, 1)
 WINDOW_END = date(2026, 5, 1)
 
 PILLARS = {
-    "alkorshid": {
-        "pillar_id": "alkorshid",
-        "stream_id": "alkorshid",
+    "nima": {
+        "pillar_id": "nima",
+        "stream_id": "nima",
         "stream_kind": "host_channel",
-        "display_name": "Alkorshid",
+        "display_name": "Nima",
         "axis_label": "Synthesis",
         "voice_note": "Synthesis through long-form cross-guest interviews.",
-        "host_id": "alkorshid",
+        "host_id": "nima",
         "host_name": "Nima Alkorshid",
-        "host_thread": "thread:alkorshid",
+        "host_thread": "thread:nima",
         "channel_url": "https://www.youtube.com/@dialogueworks01/videos",
         "source_channels": ["@dialogueworks01"],
         "source_label": "Dialogue Works; dialogue-works-full-latest/index.json",
@@ -276,7 +276,7 @@ THEME_RULES: list[tuple[str, str]] = [
 ]
 
 HOST_LOOKUP_KEYS = {
-    "alkorshid": {"nima", "alkorshid", "alkhorshid", "nima alkhorshid", "nima alkorshid"},
+    "nima": {"nima", "alkorshid", "alkhorshid", "nima alkhorshid", "nima alkorshid"},
     "diesen": {"glenn", "diesen", "glenn diesen"},
     "davis": {"daniel", "davis", "daniel davis", "lt col daniel davis", "lt. col. daniel davis"},
     "mercouris_duran": {
@@ -783,10 +783,10 @@ def _guess_guest_block(title: str, *, pillar_id: str) -> str | None:
                 if candidate:
                     return candidate
         return None
-    if pillar_id == "alkorshid" and low.startswith("nima x "):
+    if pillar_id == "nima" and low.startswith("nima x "):
         candidate = text[7:].strip()
         candidate = _best_person_fragment(candidate)
-        if candidate and _lookup_key(candidate) not in HOST_LOOKUP_KEYS["alkorshid"]:
+        if candidate and _lookup_key(candidate) not in HOST_LOOKUP_KEYS["nima"]:
             return candidate
     if pillar_id == "davis" and "daniel davis" in low:
         host_idx = low.find("daniel davis")
@@ -1177,9 +1177,9 @@ def build_graph(
     thread_map = _load_thread_id_map()
 
     rows_by_pillar = {
-        "alkorshid": _build_rows(
+        "nima": _build_rows(
             index_path=dialogue_index,
-            pillar_id="alkorshid",
+            pillar_id="nima",
             window_start=window_start,
             window_end=window_end,
             raw_video_ids=raw_video_ids,
@@ -1510,13 +1510,13 @@ def build_graph(
             "end": window_end.isoformat(),
         },
         "sources": {
-            "alkorshid": {
+            "nima": {
                 "index_path": str(dialogue_index.relative_to(REPO_ROOT))
                 if dialogue_index.is_relative_to(REPO_ROOT)
                 else str(dialogue_index),
-                "channel_url": PILLARS["alkorshid"]["channel_url"],
-                "source_label": PILLARS["alkorshid"]["source_label"],
-                "axis_label": PILLARS["alkorshid"]["axis_label"],
+                "channel_url": PILLARS["nima"]["channel_url"],
+                "source_label": PILLARS["nima"]["source_label"],
+                "axis_label": PILLARS["nima"]["axis_label"],
             },
             "diesen": {
                 "index_path": str(diesen_index.relative_to(REPO_ROOT))
@@ -1741,7 +1741,7 @@ def render_markdown(graph: dict) -> str:
                 str(rank),
                 guest["display_name"],
                 str(guest["episode_count"]),
-                str(guest["counts_by_pillar"].get("alkorshid", 0)),
+                str(guest["counts_by_pillar"].get("nima", 0)),
                 str(guest["counts_by_pillar"].get("diesen", 0)),
                 str(guest["counts_by_pillar"].get("davis", 0)),
                 str(guest["counts_by_pillar"].get("mercouris_duran", 0)),
@@ -1752,7 +1752,7 @@ def render_markdown(graph: dict) -> str:
         )
     lines.append(
         _build_table(
-            ["#", "Guest", "Episodes", "Alkorshid", "Diesen", "Davis", "Mercouris", "Bridge", "First", "Last"],
+            ["#", "Guest", "Episodes", "Nima", "Diesen", "Davis", "Mercouris", "Bridge", "First", "Last"],
             roster_rows,
         )
     )
@@ -1772,12 +1772,12 @@ def render_markdown(graph: dict) -> str:
             bridge_rows.append(
                 [
                     bridge["display_name"],
-                    str(counts.get("alkorshid", 0)),
+                    str(counts.get("nima", 0)),
                     str(counts.get("diesen", 0)),
                     str(counts.get("davis", 0)),
                     str(counts.get("mercouris_duran", 0)),
                     ", ".join(stream_names.get(pid, pid) for pid in bridge["pillar_ids"]),
-                    _episode_links(bridge["episode_ids_by_pillar"].get("alkorshid", [])),
+                    _episode_links(bridge["episode_ids_by_pillar"].get("nima", [])),
                     _episode_links(bridge["episode_ids_by_pillar"].get("diesen", [])),
                     _episode_links(bridge["episode_ids_by_pillar"].get("davis", [])),
                     _episode_links(bridge["episode_ids_by_pillar"].get("mercouris_duran", [])),
@@ -1787,12 +1787,12 @@ def render_markdown(graph: dict) -> str:
             _build_table(
                 [
                     "Guest",
-                    "Alkorshid",
+                    "Nima",
                     "Diesen",
                     "Davis",
                     "Mercouris",
                     "Streams",
-                    "Alkorshid episodes",
+                    "Nima episodes",
                     "Diesen episodes",
                     "Davis episodes",
                     "Mercouris episodes",

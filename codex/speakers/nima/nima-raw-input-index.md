@@ -1,4 +1,4 @@
-# Alkorshid Raw-Input Index
+# Nima Raw-Input Index
 
 WORK only; not Record.
 
@@ -178,6 +178,8 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Nima 
 - [transcript-alkorshid-helmer-hormuz-beijing-2026-05-05](../../years/2026/raw-input/2026-05-05/transcript-alkorshid-helmer-hormuz-beijing-2026-05-05.md)
 - [transcript-alkorshid-marandi-hormuz-uae-china-2026-05-05](../../years/2026/raw-input/2026-05-05/transcript-alkorshid-marandi-hormuz-uae-china-2026-05-05.md)
 - [transcript-alkorshid-wilkerson-hormuz-blockade-2026-05-05](../../years/2026/raw-input/2026-05-05/transcript-alkorshid-wilkerson-hormuz-blockade-2026-05-05.md)
+- [transcript-dialogue-works-stanislav-krapivnik-tulsi-gabbard-resigns-hezbollah-crushes-idf-war-becomes-unaffordable-2026-05-22](../../years/2026/raw-input/2026-05-22/transcript-dialogue-works-stanislav-krapivnik-tulsi-gabbard-resigns-hezbollah-crushes-idf-war-becomes-unaffordable-2026-05-22.md)
+- [transcript-dialogue-works-larry-johnson-col-wilkerson-irans-unseen-move-us-laser-destroyers-cant-stop-whats-coming-2026-05-22](../../years/2026/raw-input/2026-05-22/transcript-dialogue-works-larry-johnson-col-wilkerson-irans-unseen-move-us-laser-destroyers-cant-stop-whats-coming-2026-05-22.md)
 - [transcript-alkorshid-ritter-operation-freedom-hormuz-iran-2026-05-06](../../years/2026/raw-input/2026-05-06/transcript-alkorshid-ritter-operation-freedom-hormuz-iran-2026-05-06.md)
 - [transcript-alkorshid-martyanov-iran-silent-weapon-that-frightens-the-pentagon-more-than-nukes-2026-05-07](../../years/2026/raw-input/2026-05-07/transcript-alkorshid-martyanov-iran-silent-weapon-that-frightens-the-pentagon-more-than-nukes-2026-05-07.md)
 - [transcript-alkorshid-freeman-hormuz-ceasefire-gulf-states-china-2026-05-08](../../years/2026/raw-input/2026-05-08/transcript-alkorshid-freeman-hormuz-ceasefire-gulf-states-china-2026-05-08.md)

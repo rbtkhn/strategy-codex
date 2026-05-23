@@ -184,9 +184,20 @@ def _discover_inventory(speakers_dir: Path, notebook_root: Path) -> SpeakerInven
 
     arcs: dict[tuple[str, str], Path] = {}
     if notebook_root.exists():
-        for path in sorted(notebook_root.rglob("*-speaker-arc.md")):
+        arc_paths = sorted(notebook_root.rglob("*-speaker-arc.md"))
+        arc_paths.extend(
+            path
+            for path in sorted(notebook_root.rglob("*-arc.md"))
+            if not path.name.endswith("-speaker-arc.md")
+        )
+        for path in arc_paths:
             stem = path.stem
-            base = stem.removesuffix("-speaker-arc")
+            if stem.endswith("-speaker-arc"):
+                base = stem.removesuffix("-speaker-arc")
+            elif stem.endswith("-arc"):
+                base = stem.removesuffix("-arc")
+            else:
+                continue
             parts = [part for part in base.split("-") if part]
             if len(parts) < 2:
                 continue
@@ -260,8 +271,15 @@ def _canonical_host_slug(meta: dict[str, Any]) -> str:
         return "diesen"
     if host_slug in {"daniel-davis", "davis", "daniel-davis-deep-dive", "col-daniel-davis", "lt-col-daniel-davis"}:
         return "davis"
-    if host_slug in {"dialogue-works", "alkhorshid", "nima", "nima-alkhorshid"}:
-        return "alkorshid"
+    if host_slug in {
+        "dialogue-works",
+        "alkhorshid",
+        "alkorshid",
+        "nima",
+        "nima-alkhorshid",
+        "nima-alkorshid",
+    }:
+        return "nima"
     if host_slug in {"alexander-mercouris", "alex-mercouris", "mercouris"}:
         return "mercouris"
     if host_slug in {"judge-andrew-napolitano", "andrew-napolitano", "judging-freedom", "napolitano"}:

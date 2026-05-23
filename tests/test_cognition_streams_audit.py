@@ -268,7 +268,7 @@ def test_may_regression_classifications_and_queue(tmp_path: Path) -> None:
                         "handle_url": "https://www.youtube.com/@dialogueworks01",
                         "show": "Dialogue Works",
                         "host": "Nima Alkhorshid",
-                        "thread": "alkorshid",
+                        "thread": "nima",
                         "file_prefix": "transcript-dialogue-works",
                         "discovery_priority": csa.DISCOVERY_SOURCE_ORDER,
                     },

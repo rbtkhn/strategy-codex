@@ -1,33 +1,13 @@
-# Alkorshid
+# Alkorshid (Legacy Compatibility Pointer)
 
 WORK only; not Record.
 
-This is the canonical Alkorshid host shelf for `Dialogue Works`.
+`alkorshid` is now a legacy compatibility spelling.
 
-## Open First
+The canonical Dialogue Works host shelf lives here:
 
-- [index.md](index.md)
-- [alkorshid-raw-input-index.md](alkorshid-raw-input-index.md)
-- [Profile](../../profiles/alkorshid-profile.md)
+- [Nima README](../nima/README.md)
+- [Nima index](../nima/index.md)
+- [Nima raw-input index](../nima/nima-raw-input-index.md)
 
-## Stream
-
-Host-owned continuity and guest transformations live under [stream/](stream/), including:
-
-- monthly shelves
-- thread and transcript compatibility files
-- chapter seeds
-- host-local guest arcs
-
-## Compatibility shape
-
-This shelf still exposes its main continuity through older compatibility spellings:
-
-- [stream/alkorshid-thread.md](stream/alkorshid-thread.md) is a legacy distilled continuity surface, not a canonical topical thread in the newer `speaker-thread-<topic>` sense
-- the guest-run files currently live mostly as `alkorshid-*-speaker-arc.md`, which should be read as the embodied relational arcs for this host shelf, not as a separate second arc class
-
-Until a later normalization pass creates canonical `*-arc.md` spellings here, do not infer extra orthogonality merely from the older filenames.
-
-## Boundary
-
-Alkorshid is canonical under `codex/speakers/alkorshid/`. Raw-text authority stays in [`codex/years/2026/raw-input/`](C:/dev/strategy-codex/codex/years/2026/raw-input).
+Use `nima` as the canonical host/thread identity in new doctrine, routing, and host-owned shelf work.
