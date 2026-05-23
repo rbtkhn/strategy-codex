@@ -29,6 +29,8 @@ When the needed Freeman appearance is not cleanly host-local, route by ladder:
 - [December 2025-May 2026 arc-threads](/C:/dev/strategy-codex/codex/speakers/freeman/stream/freeman-dec-2025-may-2026-arc-threads.md)
 - [March 2026 cross-host arc](/C:/dev/strategy-codex/codex/speakers/freeman/stream/freeman-march-2026-cross-host-arc.md)
 - [April 2026 cross-host arc](/C:/dev/strategy-codex/codex/speakers/freeman/stream/freeman-april-2026-cross-host-arc.md)
+- [May 2026 cross-host arc](/C:/dev/strategy-codex/codex/speakers/freeman/stream/freeman-may-2026-cross-host-arc.md)
+- [Backward extension note](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-backward-extension-note.md)
 
 Interpret them this way:
 
@@ -42,14 +44,15 @@ Freeman is the first concrete implementation of the general ladder, not an excep
 
 | If the Codex needs... | Open | Why |
 |---|---|---|
-| historical altitude, maritime-order transition, diplomatic decay, or multipolar consequence | [diesen-freeman-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-freeman-speaker-arc.md) | Diesen translates crisis into statecraft and order consequence through long-arc diplomatic memory. |
-| settlement realism, what coercion cannot negotiate back, or diplomatic collapse under military pressure | [davis-freeman-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-freeman-speaker-arc.md) | Davis gives Freeman a force-versus-political-end-state testing ground. |
-| phony ceasefires, live crisis pressure, Gulf-state positioning, or alliance strain under event stress | [alkorshid-freeman-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-freeman-speaker-arc.md) | Dialogue Works pushes Freeman into live-pressure diplomatic-memory form. |
-| anti-hegemonic legal-moral critique, war-powers skepticism, or legitimacy stress under current-event pressure | [napolitano-freeman-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-freeman-speaker-arc.md) | Napolitano gives Freeman a legal-moral, anti-war, and legitimacy-focused framing lane that stands alongside the other host transformations. |
+| historical altitude, maritime-order transition, diplomatic decay, or multipolar consequence | [diesen-freeman-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-freeman-arc.md) | Diesen translates crisis into statecraft and order consequence through long-arc diplomatic memory. |
+| settlement realism, what coercion cannot negotiate back, or diplomatic collapse under military pressure | [davis-freeman-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-freeman-arc.md) | Davis gives Freeman a force-versus-political-end-state testing ground. |
+| phony ceasefires, live crisis pressure, Gulf-state positioning, or alliance strain under event stress | [alkorshid-freeman-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-freeman-arc.md) | Dialogue Works pushes Freeman into live-pressure diplomatic-memory form. |
+| anti-hegemonic legal-moral critique, war-powers skepticism, or legitimacy stress under current-event pressure | [napolitano-freeman-arc.md](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-freeman-arc.md) | Napolitano gives Freeman a legal-moral, anti-war, and legitimacy-focused framing lane that stands alongside the other host transformations. |
 | cross-host orientation to Freeman as an object | [freeman-helix.md](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-helix.md) | The helix note explains how the four host strands fit together before you descend into a lane. |
 | durable Freeman thesis across months or hosts | [freeman-dec-2025-may-2026-arc-threads.md](/C:/dev/strategy-codex/codex/speakers/freeman/stream/freeman-dec-2025-may-2026-arc-threads.md) | This is the thread atlas: it names the recurring arc-threads that host-local arcs braid differently. |
 | accepted transcript-bearing appearances outside the four core host lanes | [freeman-raw-input-index.md](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-raw-input-index.md) | This is the `non-core appearance bench`: materialized raw-input without forcing every acceptable source into its own host arc. |
-| month-level Freeman sequencing across hosts, including captured anchors plus any still-unmaterialized routing memory | [freeman-march-2026-cross-host-arc.md](/C:/dev/strategy-codex/codex/speakers/freeman/stream/freeman-march-2026-cross-host-arc.md) / [freeman-april-2026-cross-host-arc.md](/C:/dev/strategy-codex/codex/speakers/freeman/stream/freeman-april-2026-cross-host-arc.md) | Those cross-host arc files are mixed month-spine surfaces: use their captured sections as routeable month structure, and treat their uncaptured entries as `discovery memory` only. |
+| month-level Freeman sequencing across hosts, including captured anchors plus any still-unmaterialized routing memory | [freeman-march-2026-cross-host-arc.md](/C:/dev/strategy-codex/codex/speakers/freeman/stream/freeman-march-2026-cross-host-arc.md) / [freeman-april-2026-cross-host-arc.md](/C:/dev/strategy-codex/codex/speakers/freeman/stream/freeman-april-2026-cross-host-arc.md) / [freeman-may-2026-cross-host-arc.md](/C:/dev/strategy-codex/codex/speakers/freeman/stream/freeman-may-2026-cross-host-arc.md) | Those cross-host arc files are mixed month-spine surfaces: use their captured sections as routeable month structure, and treat their uncaptured entries as `discovery memory` only. |
+| how to extend the canonical Freeman atlas backward without creating a competing second atlas | [freeman-backward-extension-note.md](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-backward-extension-note.md) | This note defines the governed path from the current December-start atlas back toward January 2025. |
 
 ## Entry points
 

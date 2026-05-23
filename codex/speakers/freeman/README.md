@@ -34,13 +34,16 @@ Use this ladder as a Freeman-local implementation of the governing [speaker-map 
 - [December 2025-May 2026 arc-threads](/C:/dev/strategy-codex/codex/speakers/freeman/stream/freeman-dec-2025-may-2026-arc-threads.md)
 - [March 2026 cross-host arc](/C:/dev/strategy-codex/codex/speakers/freeman/stream/freeman-march-2026-cross-host-arc.md)
 - [April 2026 cross-host arc](/C:/dev/strategy-codex/codex/speakers/freeman/stream/freeman-april-2026-cross-host-arc.md)
+- [May 2026 cross-host arc](/C:/dev/strategy-codex/codex/speakers/freeman/stream/freeman-may-2026-cross-host-arc.md)
+- [Backward extension note](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-backward-extension-note.md)
 
 Use these when the Freeman question is wider than the four core host arcs:
 
 - open the raw-input index for the `non-core appearance bench`
 - open the historical audit to rank Freeman historical-example use and benchmark it
 - open the historical themes folder when you need the top-six Jan 2025-present Freeman historical-theme classes
-- open the March/April cross-host arc files for month-level cross-host sequencing that may also carry `discovery memory`
+- open the March/April/May cross-host arc files for month-level cross-host sequencing that may also carry `discovery memory`
+- open the backward extension note when the task is not current routing but how to widen the canonical atlas back toward January 2025
 - open the year index for the combined front door
 
 ## Compatibility shape
@@ -60,7 +63,7 @@ Do not treat this folder as independent routing doctrine. The general contract l
 
 ## Host lanes
 
-- [Diesen x Freeman](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-freeman-speaker-arc.md)
-- [Davis x Freeman](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-freeman-speaker-arc.md)
-- [Dialogue Works x Freeman](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-freeman-speaker-arc.md)
-- [Judging Freedom x Freeman](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-freeman-speaker-arc.md)
+- [Diesen x Freeman](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-freeman-arc.md)
+- [Davis x Freeman](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-freeman-arc.md)
+- [Dialogue Works x Freeman](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-freeman-arc.md)
+- [Judging Freedom x Freeman](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-freeman-arc.md)

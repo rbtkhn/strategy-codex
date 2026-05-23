@@ -13,6 +13,10 @@ Purpose: front door for Chas Freeman materials that cut across host shelves.
 - [December 2025-May 2026 arc-threads](stream/freeman-dec-2025-may-2026-arc-threads.md) - six arc-thread synthesis across law, diplomacy, Israel, Iran, U.S. self-damage, and China, with December evidence tiers marked explicitly.
 - [March 2026 cross-host arc](stream/freeman-march-2026-cross-host-arc.md) - war-system activation month; links captured raw-input, found-but-uncaptured items, and host-local routes; captured sections are active month-spine routing while uncaptured items function as `discovery memory`.
 - [April 2026 cross-host arc](stream/freeman-april-2026-cross-host-arc.md) - settlement failure, Hormuz control, blockade blowback, and diplomacy-dead sequence; captured sections are active month-spine routing while uncaptured items function as `discovery memory`.
+- [May 2026 cross-host arc](stream/freeman-may-2026-cross-host-arc.md) - post-Hormuz and post-defeat sequence; mixes core host lanes with accepted non-core bench appearances while keeping them structurally distinct.
+- [Backward extension note](freeman-backward-extension-note.md) - design note for extending the canonical Freeman atlas from December 2025 back toward January 2025 without creating a second competing atlas.
+- [Historical examples audit](freeman-historical-examples-audit.md) - quote-backed Freeman historical-example audit with benchmark scorecard and `civ-emp` bridge logic.
+- [Historical themes](themes/README.md) - top-six Jan 2025-present Freeman historical-theme commentary surfaces paired to `civ-emp` companions.
 
 ## Core Speaker Files
 
@@ -22,11 +26,13 @@ Purpose: front door for Chas Freeman materials that cut across host shelves.
 - [Transcript compatibility file](../../../speakers/freeman/freeman-transcript.md)
 - [Page template](../../../speakers/freeman/freeman-page-template.md)
 - [Cross-year note](../../../speakers/freeman/freeman-cross-year-note.md)
+- [Backward extension note](../../../speakers/freeman/freeman-backward-extension-note.md)
 
 ## Canonical Structure
 
 Freeman's orthogonality-bearing structure is:
 
+- [Speaker arc](../../../speakers/freeman/freeman-arc.md) for the whole-speaker continuity surface
 - [Speaker helix](../../../speakers/freeman/freeman-helix.md) for the crossing surface across the four core host lanes
 - [December 2025-May 2026 arc-threads](stream/freeman-dec-2025-may-2026-arc-threads.md) for the recurring thread atlas across those host lanes
 - the four host-local arcs themselves for distinct host transformations
@@ -43,10 +49,10 @@ Read this ladder as a Freeman-local implementation of the governing [speaker-map
 
 ## Host-Local Routes
 
-- [Judging Freedom / Napolitano arc](../napolitano/stream/napolitano-freeman-speaker-arc.md)
-- [Dialogue Works / Alkhorshid arc](../alkorshid/stream/alkorshid-freeman-speaker-arc.md)
-- [Glenn Diesen arc](../diesen/stream/diesen-freeman-speaker-arc.md)
-- [Daniel Davis arc](../davis/stream/davis-freeman-speaker-arc.md)
+- [Judging Freedom / Napolitano arc](../napolitano/stream/napolitano-freeman-arc.md)
+- [Dialogue Works / Alkhorshid arc](../alkorshid/stream/alkorshid-freeman-arc.md)
+- [Glenn Diesen arc](../diesen/stream/diesen-freeman-arc.md)
+- [Daniel Davis arc](../davis/stream/davis-freeman-arc.md)
 
 ## Raw-Input Coverage
 
