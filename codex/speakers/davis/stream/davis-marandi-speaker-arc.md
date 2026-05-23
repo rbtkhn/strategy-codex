@@ -69,6 +69,12 @@ Quick separation rule:
 
 Do not use this arc as a shortcut for Hormuz-at-altitude framing or regime-adjacent live-pressure signaling. Its distinctive job is to test what coercion can no longer realistically recover once Iranian resilience and retaliation logic harden.
 
+## Shelf-level support surfaces
+
+- [Marandi routing](../../marandi/marandi-routing.md)
+- [Marandi arc](../../marandi/marandi-arc.md)
+- [Marandi 2025-present arc threads](../../marandi/stream/marandi-2025-present-arc-threads.md)
+
 ## Routing use
 
 Use this speaker arc when a Davis ingest or batch pass is doing one or more of the following:

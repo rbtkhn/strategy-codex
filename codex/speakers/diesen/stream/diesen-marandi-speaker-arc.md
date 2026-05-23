@@ -40,6 +40,7 @@ This lane is materially present on disk as a 2026 Iran-war run. It should be rea
 | 6 | 2026-03-18 | *U.S. Attacked World's Largest Gas Field* | Best energy-war file. Strong on why strategic infrastructure attacks cannot be read as narrow battlefield moves. |
 | 7 | 2026-03-03 | *Iran's Military Strategy, U.S. Miscalculations* | Best first root file. Strongest early statement of Marandi in the Diesen register before the spring run fully matures. |
 | 8 | 2026-05-01 | *U.S. Attack on Iran Could Be Imminent* | Best imminent-war threshold file; useful for the lane's reading of pressure just before the May hardening. |
+| 9 | 2026-05-23 | *Iran Closes Its Airspace as Negotiations Fail and the U.S. Prepares to Strike* | Best late-May alert-state file in the Diesen register; useful for the lane's negotiation-failure and imminent-strike framing after the May hardening is already established. |
 
 ## Open first
 
@@ -68,6 +69,12 @@ Quick separation rule:
 - `Dialogue Works x Marandi` is the live crisis-pressure and regional-signaling lane.
 
 Do not use this arc as a shortcut for force-feasibility triage or regime-adjacent live-pressure signaling. Its distinctive job is to translate Iranian retaliation logic and Hormuz pressure into wider order-transition consequence.
+
+## Shelf-level support surfaces
+
+- [Marandi routing](../../marandi/marandi-routing.md)
+- [Marandi arc](../../marandi/marandi-arc.md)
+- [Marandi 2025-present arc threads](../../marandi/stream/marandi-2025-present-arc-threads.md)
 
 ## Routing use
 

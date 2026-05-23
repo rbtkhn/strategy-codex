@@ -6,6 +6,9 @@ WORK only; not Record.
 
 Local surfaces under review:
 
+- [marandi-arc.md](/C:/dev/strategy-codex/codex/speakers/marandi/marandi-arc.md)
+- [marandi-routing.md](/C:/dev/strategy-codex/codex/speakers/marandi/marandi-routing.md)
+- [marandi-2025-present-arc-threads.md](/C:/dev/strategy-codex/codex/speakers/marandi/stream/marandi-2025-present-arc-threads.md)
 - [marandi-speaker-object.md](/C:/dev/strategy-codex/codex/speakers/marandi/marandi-speaker-object.md)
 - [marandi-helix.md](/C:/dev/strategy-codex/codex/speakers/marandi/marandi-helix.md)
 - [davis-marandi-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-marandi-speaker-arc.md)
@@ -15,7 +18,7 @@ Local surfaces under review:
 
 Bounded claim:
 
-- this review checks whether the Marandi shelf is partitioned well enough as a helix-first speaker object rather than a depth-first native stream
+- this review checks whether the Marandi shelf is partitioned well enough as a speaker-first, helix-centered person-arc stack rather than a depth-first native stream
 - overlap is suspected because all three host arcs can produce Iran-resilience and failed-coercion conclusions, while the older thread file can still look like a competing continuity surface if opened without context
 - this review does not decide whether Marandi is correct; it only tests whether the shelf preserves distinct retrieval jobs without false multiplication
 
@@ -33,6 +36,9 @@ Threads under review:
 
 Comparison-only notes:
 
+- [marandi-arc.md](/C:/dev/strategy-codex/codex/speakers/marandi/marandi-arc.md)
+- [marandi-routing.md](/C:/dev/strategy-codex/codex/speakers/marandi/marandi-routing.md)
+- [marandi-2025-present-arc-threads.md](/C:/dev/strategy-codex/codex/speakers/marandi/stream/marandi-2025-present-arc-threads.md)
 - [marandi-speaker-object.md](/C:/dev/strategy-codex/codex/speakers/marandi/marandi-speaker-object.md)
 - [marandi-helix.md](/C:/dev/strategy-codex/codex/speakers/marandi/marandi-helix.md)
 
@@ -54,15 +60,24 @@ Comparison-only notes:
 
 ## Thread audit
 
-There is no current canonical topical thread inside the Marandi shelf. That is the right choice for now.
+There is now a canonical recurring thread atlas inside the Marandi shelf, and that is the right choice for the mature `2025-present` stack.
 
-The shelf's real structure is helix-first. The older [marandi-thread.md](/C:/dev/strategy-codex/codex/speakers/marandi/marandi-thread.md) does not isolate a recurring mechanism that the speaker object, helix, and three host arcs fail to carry.
+The shelf's real structure is now:
+
+- person arc for whole-speaker continuity
+- routing note for host-and-task entry
+- recurring thread atlas for cross-host continuity families
+- helix for host-transformation comparison
+- host-local arcs for retrieval
+
+The older [marandi-thread.md](/C:/dev/strategy-codex/codex/speakers/marandi/marandi-thread.md) still does not isolate a recurring mechanism that the newer stack fails to carry, so it remains compatibility-only.
 
 ### Thread distinctness table
 
-| Thread | Object | Mechanism | Source spine | Retrieval use | Status |
+| Thread surface | Object | Mechanism | Source spine | Retrieval use | Status |
 |---|---|---|---|---|---|
-| `marandi-thread.md` | legacy continuity residue | none distinct from speaker object plus helix plus host arcs | mixed older continuity surface | compatibility only; not needed for canonical retrieval | keep as compatibility residue |
+| `stream/marandi-2025-present-arc-threads.md` | canonical recurring thread atlas | names cross-host continuity families such as legitimacy, Hormuz leverage, siege, complicity, diplomacy, and sovereignty | 2025-present raw-input substrate with spring 2026 mature core | open when the task is "which recurring thread is this?" | keep |
+| `marandi-thread.md` | legacy continuity residue | none distinct from person arc plus routing plus atlas plus helix plus host arcs | mixed older continuity surface | compatibility only; not needed for canonical retrieval | keep as compatibility residue |
 
 ## Redundancy findings
 
@@ -77,6 +92,7 @@ The shelf's real structure is helix-first. The older [marandi-thread.md](/C:/dev
 `same frame, different role`
 
 - [marandi-speaker-object.md](/C:/dev/strategy-codex/codex/speakers/marandi/marandi-speaker-object.md) and [marandi-helix.md](/C:/dev/strategy-codex/codex/speakers/marandi/marandi-helix.md) do not own separate continuity; they are comparison and routing surfaces that justify why the three host arcs belong together
+- [marandi-arc.md](/C:/dev/strategy-codex/codex/speakers/marandi/marandi-arc.md), [marandi-routing.md](/C:/dev/strategy-codex/codex/speakers/marandi/marandi-routing.md), and [marandi-2025-present-arc-threads.md](/C:/dev/strategy-codex/codex/speakers/marandi/stream/marandi-2025-present-arc-threads.md) now split the old "continuity" burden into continuity, routing, and recurring-thread jobs
 
 `comparison note mistaken for continuity surface`
 
@@ -90,8 +106,11 @@ Main confusion zones:
 
 ## Recommended actions
 
-- keep the current helix-first structure
-- keep all three host-local arcs as distinct canonical strands
+- keep the current speaker-first, helix-centered structure
+- keep [marandi-arc.md](/C:/dev/strategy-codex/codex/speakers/marandi/marandi-arc.md) as the person-level continuity surface
+- keep [marandi-routing.md](/C:/dev/strategy-codex/codex/speakers/marandi/marandi-routing.md) as the fast host-and-task routing surface
+- keep [marandi-2025-present-arc-threads.md](/C:/dev/strategy-codex/codex/speakers/marandi/stream/marandi-2025-present-arc-threads.md) as the canonical recurring thread atlas
+- keep all three host-local arcs as distinct canonical threads
 - keep [marandi-speaker-object.md](/C:/dev/strategy-codex/codex/speakers/marandi/marandi-speaker-object.md) as the shelf's first justification surface
 - keep [marandi-helix.md](/C:/dev/strategy-codex/codex/speakers/marandi/marandi-helix.md) as the compact cross-host routing surface
 - continue routing feasibility and failed-intimidation questions to Davis first
@@ -104,10 +123,11 @@ Main confusion zones:
 Use this review when the notebook needs:
 
 - a direct audit of whether the Marandi shelf is actually helix-first or secretly overgrown
+- a direct audit of whether the Marandi shelf's person arc, routing note, thread atlas, helix, and host-local arcs are staying orthogonal
 - a routing answer for Davis versus Dialogue Works when both sound like anti-coercion lanes
 - a reminder that the speaker object and helix justify structure, while the host arcs own retrieval
 
 Current judgment:
 
-- the Marandi shelf is well partitioned as a **helix-first speaker object with three canonical host transformations**
+- the Marandi shelf is well partitioned as a **speaker-first, helix-centered person-arc stack with three canonical host transformations**
 - the strongest future collapse pressure is Davis versus Dialogue Works, with a secondary risk that the speaker object or helix gets mistaken for a retrieval surface rather than a routing surface

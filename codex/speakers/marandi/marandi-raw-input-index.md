@@ -71,6 +71,8 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Moham
 - [transcript-dialogue-works-seyed-m-marandi-hezbollah-s-fpv-drones-humiliate-israeli-air-defenses-mu-2026-05-12](../../years/2026/raw-input/2026-05-12/transcript-dialogue-works-seyed-m-marandi-hezbollah-s-fpv-drones-humiliate-israeli-air-defenses-mu-2026-05-12.md)
 - [transcript-dialogue-works-seyed-m-marandi-iran-just-warned-next-attack-total-obliteration-2026-05-16](../../years/2026/raw-input/2026-05-16/transcript-dialogue-works-seyed-m-marandi-iran-just-warned-next-attack-total-obliteration-2026-05-16.md)
 - [youtube-glenn-diesen-seyed-m-marandi-iran-ready-with-overwhelming-retaliation-2026-05-16](../../years/2026/raw-input/2026-05-16/youtube-glenn-diesen-seyed-m-marandi-iran-ready-with-overwhelming-retaliation-2026-05-16.md)
+- [youtube-glenn-diesen-seyed-m-marandi-iran-closes-its-airspace-as-negotiations-fail-and-the-u-s-prepares-to-strike-2026-05-23](../../years/2026/raw-input/2026-05-23/youtube-glenn-diesen-seyed-m-marandi-iran-closes-its-airspace-as-negotiations-fail-and-the-u-s-prepares-to-strike-2026-05-23.md)
+- [youtube-nima-alkorshid-marandi-irans-armed-forces-enter-highest-state-of-alert-war-next-2026-05-23](../../years/2026/raw-input/2026-05-23/youtube-nima-alkorshid-marandi-irans-armed-forces-enter-highest-state-of-alert-war-next-2026-05-23.md)
 
 ## Discovery Surfaces
 
