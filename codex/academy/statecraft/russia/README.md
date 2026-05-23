@@ -36,10 +36,25 @@ Use Richelieu to test whether Russian policy has a durable institutional carrier
 
 ## Civilization / Empire Helix
 
+- [Helix](helix.md) - primary lane interpretation; use this first when the question spans continuity, strategic depth, leverage, deformation, and restoration together.
+
+Russia is now the second helix-first transfer case. Start with [helix](helix.md) when the lane question has split across several notes and you need the governing line again. The helix is the primary authored interpretation; the first-wave objects below are the supporting strand surfaces.
+
+Phase-one CIV-EMP migration still matters underneath that cutover. The active Russia pilot pair remains [Russia state memory](civilization/objects/state-memory.md) and [Russia empire instrument](empire/seed-instruments.md), but they now function as strand inputs beneath the helix rather than as competing top-level openings.
+
+Russia's broader first-wave strand set is now usable as an ordered drafting surface beneath the helix:
+
+- [state memory](civilization/objects/state-memory.md) for continuity, recognition, and strategic-depth legitimacy
+- [geo](civilization/geo.md) for corridor exposure, control nodes, and settlement geometry
+- [war](civilization/war.md) for coercive depth, escalation channels, and the boundary between defense and overbind
+- [peace](civilization/peace.md) for reciprocal limits, recognition formulas, review, and bounded equilibrium
+- [empire instrument](empire/seed-instruments.md) for the outward control stack that protects, overreaches, or traps Russian timing
+
+Use these after the helix has clarified which strand is actually governing the clause. Use older lane notes or direct `civ-mem` provenance only when the first-wave set still leaves a real gap.
+
 - [State](state/) - current government, presidential-security authority, Security Council carrier, and foreign-ministry signal objects.
 - [Civilization](civilization/) - inherited Russian code: strategic depth, invasion memory, state continuity, sovereignty, and recognition.
 - [Empire](empire/) - outward striving for buffers, energy leverage, recognition formulas, military depth, and multipolar optionality.
-- [Helix](helix.md) - where security memory authorizes power, where power risks overbinding, and what restraint preserves timing.
 
 ## Current State Carriers
 

@@ -6,6 +6,8 @@ WORK only; not Record.
 
 Use this object as the phase-one America empire-side carrier for the symmetric-first CIV-EMP migration. It names the outward control instruments through which America tries to secure maritime order, alliance geometry, and sanctions-finance reach without letting emergency empire outrun constitutional legitimacy.
 
+Helix-first role: in the America proving case, this object now functions as the supporting empire-side strand beneath the primary [America helix](../helix.md). Use the helix for the integrated lane reading; use this object when the governing question has clearly narrowed to the outward control stack itself.
+
 ## Instrument Family
 
 America's empire-side carrier is not one weapon or one bureaucracy. It is a linked control system built from maritime command, dollar and sanctions command, alliance and basing command, and platform-adjacent administrative reach. The common question is not whether America has instruments, but whether those instruments remain governable enough to protect the republic they claim to defend.
@@ -51,11 +53,21 @@ This object does not tell you whether a specific strike, tariff, base, treaty, o
 
 America's empire instruments begin as an attempt to protect a maritime commercial republic without restoring old-world empire in explicit form. Over time the carrier thickens: naval reach protects sea lanes, alliance and basing systems project deterrence forward, dollar clearing and sanctions design extend control through finance, and platform-era administrative tools widen the enforcement surface. The continuity is outward amplification in the name of internal security. The failure mode is imperial drift: instruments that were supposed to preserve constitutional legitimacy start treating constitutional legitimacy as a speed bump.
 
+The middle stage of that arc matters as much as the beginning and the end. American instruments rarely present themselves as empire in the abstract; they present themselves as emergency management for a system that would otherwise become disorderly. That self-description is often partly true. Maritime patrol can keep transit open, alliance structure can suppress opportunistic escalation, and sanctions can impose real cost on predatory actors. But each success also creates a temptation to widen the mission. A tool that solved one narrow problem begins to inherit neighboring problems simply because it is already in place, already staffed, and already narrated as indispensable.
+
+That is where misreading enters. The United States often treats the persistence of the instrument as evidence that the political architecture behind it is equally persistent. A carrier group still sails, a sanctions regime still bites, a base still operates, a partner still asks for reassurance, so policymakers infer that the whole order remains durable. In practice, instrument continuity can mask political decay for quite a long time. The republic may be losing consent, allies may be consuming credibility faster than they replenish it, and rivals may be adapting around the very controls that once looked decisive.
+
+Restoration in this arc does not mean renouncing reach altogether. It means forcing outward power back into a form that can still be politically carried. Instruments return to health when they are narrowed, reviewed, reauthorized, and tied to a settlement path that someone outside the implementing bureaucracy can actually describe. The contrast is not between power and restraint in the abstract. It is between bounded amplification that still protects the republic and a self-justifying control system that slowly treats domestic legitimacy as an obstacle to be managed.
+
 ## Statecraft Use
 
 Use this object when a draft depends on maritime control, sanctions leverage, alliance burden-sharing, chokepoint assurance, or whether a U.S. guarantee can remain narrow enough to survive executive turnover and allied stress. The strongest use is to test whether America is making a bounded control claim or silently asking its instruments to perform unlimited political conversion.
 
 The practical question is always whether the instrument still has a political carrier behind it. A guarantee can look credible on paper and still fail if Congress, allied partners, military planners, insurers, courts, or the next administration cannot carry its cost. This object is therefore most useful when a draft sounds tactically forceful but has not yet answered how enforcement, review, domestic legitimacy, and settlement logic fit together.
+
+In practice, this means reading proposed instruments in two directions at once. Outward, ask what the instrument changes in the theater itself: deterrence timing, commercial cost, alliance confidence, rival adaptation, escalation risk, or bargaining leverage. Inward, ask what kind of American polity is being assumed in order for the instrument to remain active: a legislature willing to renew it, a public willing to absorb the burden, allies willing to share cost, and a successor administration willing to inherit the logic rather than disclaim it.
+
+This two-direction read is especially important when an instrument appears attractive because it promises to avoid the uglier alternatives. Sanctions look better than bombing, naval patrol looks better than occupation, forward basing looks better than last-minute mobilization. Often that comparison is reasonable. The danger comes when the "less bad" instrument is allowed to accumulate obligations that no one would have accepted had they been stated openly from the start. A good America-lane draft therefore asks not only whether a control tool is preferable to a worse one, but whether it remains narrow enough to stay politically real after the immediate emergency passes.
 
 ## Counterweight
 
@@ -70,9 +82,15 @@ That counterweight also means America should be suspicious of elegant control sc
 - maritime guarantees limited by vessel category, incident channel, and partner cost-sharing
 - enforcement clauses that preserve deterrence while still naming an exit condition
 
+Those hooks should be read as restoration devices, not as legal ornament. Review clocks create moments when the political system must restate the purpose of a coercive tool. Burden-sharing clauses keep allies from free-riding on abstract American credibility. Vessel limits and incident channels keep maritime posture tied to recognizable commercial protection rather than symbolic dominance. Exit conditions force policymakers to explain what changed world the instrument is supposed to help produce.
+
+A useful drafting test is whether each hook would still make sense if read aloud by a skeptical legislator, ally, insurer, or citizen. If the answer is no, the clause is probably too dependent on insider ritual. America's empire-side language is strongest when it can survive plain-language scrutiny: what is being protected, who is carrying cost, what authority governs the tool, what evidence triggers review, and what path allows contraction once the purpose has been met.
+
 ## Symmetry Link
 
 This object is the outward amplifier paired with [America state memory](../civilization/objects/state-memory.md). State memory names the inherited legitimacy grammar that can authorize control; this object names the control stack that must remain regulable by that grammar if America is to avoid empire drift. Shared hinge reading: constitutional legitimacy, burden-sharing, and settlement path are the restoration logic that keep American amplification from consuming the republic.
+
+For the broader first-wave civilization set, this same empire object is also the geographic carrier partner for [America geo](../civilization/geo.md): maritime command operates on Atlantic, Pacific, and chokepoint routes; alliance and basing command operates on forward position and port geography; dollar and sanctions command operates on shipping, insurance, and clearing corridors. The geo object names the continental and maritime substrate; this empire object names the outward instruments that use, protect, or overextend that substrate.
 
 ## Return Path
 

@@ -73,8 +73,8 @@ FIRST_WAVE_FAMILIES = [
         "id": 6,
         "family": "how does remembered exclusion shape the politics of direct great-power settlement",
         "civilization_reading": "status memory, humiliation, exclusion anxiety",
-        "empire_reading": "room geometry, bargaining architecture, outer-power settlement mechanics",
-        "hinge_reading": "durable bargaining must answer symbolic inclusion and actual room design together",
+        "empire_reading": "bargaining geography, corridor access, and outer-power settlement mechanics",
+        "hinge_reading": "durable bargaining must answer symbolic inclusion and actual geographic access together",
     },
 ]
 PRIMARY_FAMILY_BY_CLASS = {
@@ -116,6 +116,7 @@ CORPUS_BUDGET = {
     "v1_target": 150000,
     "v1_band": [120000, 180000],
     "hard_ceiling": 180000,
+    "phase2_active_proving_cases": ["America", "Russia"],
     "volume_targets": {
         "civilization": {"target": 90000, "band": [70000, 100000]},
         "empire": {"target": 60000, "band": [50000, 80000]},
@@ -133,6 +134,12 @@ CORPUS_BUDGET = {
         "minimum_empire_share_of_civilization": 0.6,
         "maximum_civilization_to_empire_ratio": 2.0,
         "max_single_lane_share_of_v1_total": 0.30,
+    },
+    "phase2_tracking": {
+        "helix_object_words": "track per-lane helix surface growth without replacing the historical strand scaffold",
+        "strand_subtotals": "track first-wave strand words by lane beneath the helix layer",
+        "canonical_family_synthesis_surfaces": "track future cross-lane family synthesis notes once they exist",
+        "orientation_and_retrieval_surfaces": "track future top-layer orientation and retrieval surfaces once they exist",
     },
 }
 REF_RE = re.compile(
@@ -271,6 +278,7 @@ def target_surface_for(lane: str, object_class: str) -> str:
 def compute_word_metrics() -> dict:
     lane_totals = {}
     first_wave_totals_by_lane = {}
+    helix_totals_by_lane = {}
     civ_emp_total = 0
     civ_emp_file_count = 0
     target_word_counts: dict[str, int] = {}
@@ -291,6 +299,8 @@ def compute_word_metrics() -> dict:
         hinge_words = file_word_count(hinge_path) if hinge_path.exists() else 0
         civ_words = 0
         emp_words = 0
+        pilot_civ_words = 0
+        pilot_emp_words = 0
         target_ids = []
         for object_class in FIRST_WAVE_CLASSES:
             target_id = f"{lane}-{object_class}"
@@ -299,21 +309,63 @@ def compute_word_metrics() -> dict:
             target_word_counts[target_id] = words
             first_wave_core_total += words
             family_word_counts[PRIMARY_FAMILY_BY_CLASS[object_class]] += words
+            secondary_family = SECONDARY_FAMILY_BY_CLASS[object_class]
+            if secondary_family != PRIMARY_FAMILY_BY_CLASS[object_class]:
+                family_word_counts[secondary_family] += words
             target_ids.append(target_id)
             if object_class == "empire-instrument":
                 emp_words += words
+                pilot_emp_words += words
             else:
                 civ_words += words
+                if object_class == "state-memory":
+                    pilot_civ_words += words
         ratio = round(civ_words / emp_words, 2) if emp_words else None
         share = round(emp_words / civ_words, 2) if civ_words else None
+        pilot_ratio = round(pilot_civ_words / pilot_emp_words, 2) if pilot_emp_words else None
+        pilot_share = round(pilot_emp_words / pilot_civ_words, 2) if pilot_civ_words else None
+        helix_totals_by_lane[lane_meta["title"]] = {
+            "path": hinge_path.relative_to(REPO_ROOT).as_posix() if hinge_path.exists() else "",
+            "words": hinge_words,
+        }
         first_wave_totals_by_lane[lane_meta["title"]] = {
             "target_ids": target_ids,
             "civilization_words": civ_words,
             "empire_words": emp_words,
             "hinge_words": hinge_words,
+            "strand_words": civ_words + emp_words,
             "civilization_to_empire_ratio": ratio,
             "empire_share_of_civilization": share,
+            "pilot_civilization_words": pilot_civ_words,
+            "pilot_empire_words": pilot_emp_words,
+            "pilot_civilization_to_empire_ratio": pilot_ratio,
+            "pilot_empire_share_of_civilization": pilot_share,
         }
+
+    phase2_metrics = {
+        "helix_objects": {
+            "active_proving_cases": CORPUS_BUDGET["phase2_active_proving_cases"],
+            "total_words": sum(item["words"] for item in helix_totals_by_lane.values()),
+            "by_lane": helix_totals_by_lane,
+        },
+        "strand_subtotals_by_lane": {
+            lane: {
+                "words": item["strand_words"],
+                "object_count": len(FIRST_WAVE_CLASSES),
+            }
+            for lane, item in first_wave_totals_by_lane.items()
+        },
+        "canonical_family_synthesis_surfaces": {
+            "surface_count": 0,
+            "current_words": 0,
+            "surfaces": [],
+        },
+        "orientation_and_retrieval_surfaces": {
+            "surface_count": 0,
+            "current_words": 0,
+            "surfaces": [],
+        },
+    }
 
     return {
         "lane_totals": lane_totals,
@@ -323,6 +375,7 @@ def compute_word_metrics() -> dict:
         "first_wave_core_total_words": first_wave_core_total,
         "first_wave_lane_totals": first_wave_totals_by_lane,
         "canonical_family_word_counts": dict(family_word_counts),
+        "phase2_metrics": phase2_metrics,
     }
 
 
@@ -645,6 +698,7 @@ def write_corpus_budget_json(data: dict) -> None:
         "summary": data["summary"],
         "corpus_budget": data["corpus_budget"],
         "word_metrics": data["word_metrics"],
+        "phase2_metrics": data["word_metrics"]["phase2_metrics"],
         "first_wave_targets": [
             {
                 "target_object_id": target["target_object_id"],
@@ -672,18 +726,20 @@ def write_corpus_budget_json(data: dict) -> None:
 
 def write_corpus_budget_md(data: dict) -> None:
     budget = data["corpus_budget"]
+    phase2_metrics = data["word_metrics"]["phase2_metrics"]
     lines = [
         "WORK only; not Record.",
         "",
         "# CIV-EMP Corpus Budget",
         "",
-        "This note locks the v1 two-volume materialization target and ties it to the live first-wave object grid, lane totals, and current subtree counts.",
+        "This note locks the v1 two-volume materialization target and ties it to the live first-wave object grid, lane totals, and current subtree counts. It now also reports Phase 2 helix-first proving-case metrics alongside the historical strand scaffold metrics rather than replacing them.",
         "",
         "## Locked Targets",
         "",
         f"- Full v1 target: `{budget['v1_target']}` words",
         f"- Acceptable v1 band: `{budget['v1_band'][0]}` to `{budget['v1_band'][1]}`",
         f"- Hard ceiling: `{budget['hard_ceiling']}`",
+        f"- Phase 2 active proving cases: `{', '.join(budget['phase2_active_proving_cases'])}`",
         f"- Volume I: Civilization target `{budget['volume_targets']['civilization']['target']}`, band `{budget['volume_targets']['civilization']['band'][0]}` to `{budget['volume_targets']['civilization']['band'][1]}`",
         f"- Volume II: Empire target `{budget['volume_targets']['empire']['target']}`, band `{budget['volume_targets']['empire']['band'][0]}` to `{budget['volume_targets']['empire']['band'][1]}`",
         f"- First-wave core minimum: `{budget['first_wave_core_minimum'][0]}` to `{budget['first_wave_core_minimum'][1]}`",
@@ -721,7 +777,29 @@ def write_corpus_budget_md(data: dict) -> None:
     lines.extend(
         [
             "",
-            "## Lane Symmetry Budget",
+            "## Pilot Pair Symmetry Budget",
+            "",
+            "These rows measure the proving-case pair only: `state-memory` versus `empire-instrument`. This is the scope where the `60%` empire-share floor and `2.0:1` ceiling apply.",
+            "",
+            "| Lane | Pilot civilization words | Pilot empire words | Pilot ratio | Pilot empire share |",
+            "| --- | ---: | ---: | ---: | ---: |",
+        ]
+    )
+    for lane, item in data["word_metrics"]["first_wave_lane_totals"].items():
+        ratio = item["pilot_civilization_to_empire_ratio"]
+        share = item["pilot_empire_share_of_civilization"]
+        ratio_text = f"{ratio:.2f}" if ratio is not None else "n/a"
+        share_text = f"{share:.2f}" if share is not None else "n/a"
+        lines.append(
+            f"| {lane} | {item['pilot_civilization_words']} | {item['pilot_empire_words']} | {ratio_text} | {share_text} |"
+        )
+
+    lines.extend(
+        [
+            "",
+            "## First-Wave Grid Balance",
+            "",
+            "These rows measure the broader first-wave civilization grid against the single phase-one empire object. They are useful for maturity tracking, but they are not governed by the pilot-pair `60%` / `2.0:1` template rule because the grid intentionally contains four civilization classes and one empire class.",
             "",
             "| Lane | Civilization words | Empire words | Hinge words | Civilization:Empire ratio | Empire share of civilization |",
             "| --- | ---: | ---: | ---: | ---: | ---: |",
@@ -739,7 +817,46 @@ def write_corpus_budget_md(data: dict) -> None:
     lines.extend(
         [
             "",
+            "## Phase 2 Helix-First Metrics",
+            "",
+            "These rows are additive. They describe the active helix-first proving cases and the underlying strand totals without discarding the historical two-volume scaffold metrics above. America and Russia are the current proving cases in this phase; the other helix rows remain baseline measurements, not transfer claims.",
+            "",
+            "### Helix Objects",
+            "",
+            "| Lane | Helix words | Path |",
+            "| --- | ---: | --- |",
+        ]
+    )
+    for lane, item in phase2_metrics["helix_objects"]["by_lane"].items():
+        lines.append(f"| {lane} | {item['words']} | `{item['path']}` |")
+
+    lines.extend(
+        [
+            "",
+            f"- Total helix-object words across active lanes: `{phase2_metrics['helix_objects']['total_words']}`",
+            "",
+            "### Strand Subtotals By Lane",
+            "",
+            "| Lane | First-wave strand words | Strand object count |",
+            "| --- | ---: | ---: |",
+        ]
+    )
+    for lane, item in phase2_metrics["strand_subtotals_by_lane"].items():
+        lines.append(f"| {lane} | {item['words']} | {item['object_count']} |")
+
+    lines.extend(
+        [
+            "",
+            "### Future Phase 2 Surface Classes",
+            "",
+            "| Surface class | Current surfaces | Current words | Notes |",
+            "| --- | ---: | ---: | --- |",
+            f"| Canonical-family synthesis | {phase2_metrics['canonical_family_synthesis_surfaces']['surface_count']} | {phase2_metrics['canonical_family_synthesis_surfaces']['current_words']} | not yet instantiated in the control plane |",
+            f"| Orientation / retrieval | {phase2_metrics['orientation_and_retrieval_surfaces']['surface_count']} | {phase2_metrics['orientation_and_retrieval_surfaces']['current_words']} | not yet instantiated as distinct Phase 2 surfaces |",
+            "",
             "## Canonical Family Coverage",
+            "",
+            "Counts below are family-served first-wave words. A target contributes to a family when that family is named as either its primary or secondary linkage, so these rows measure answer-capacity rather than partitioned word totals.",
             "",
             "| Canonical family | Current mapped first-wave words |",
             "| --- | ---: |",
@@ -761,8 +878,8 @@ def write_corpus_budget_md(data: dict) -> None:
             "",
             "## Budget Rules",
             "",
-            f"- Empire must hold at least `{int(budget['symmetry_rule']['minimum_empire_share_of_civilization'] * 100)}`%` of civilization-side weight once a lane is mature enough to cut over.",
-            f"- Pause civilization expansion if a lane exceeds a `{budget['symmetry_rule']['maximum_civilization_to_empire_ratio']}:1` civilization-to-empire ratio.",
+            f"- The pilot pair (`state-memory` / `empire-instrument`) must hold at least `{int(budget['symmetry_rule']['minimum_empire_share_of_civilization'] * 100)}`%` empire share and remain below a `{budget['symmetry_rule']['maximum_civilization_to_empire_ratio']}:1` ratio once a lane is mature enough to cut over.",
+            "- The broader first-wave grid uses those pilot-pair metrics as a template-readiness test, not as a class-completion requirement.",
             f"- No single lane should consume more than `{int(budget['symmetry_rule']['max_single_lane_share_of_v1_total'] * 100)}`%` of the v1 total unless a later corpus audit justifies it.",
         ]
     )

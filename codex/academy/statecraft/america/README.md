@@ -41,9 +41,21 @@ Use Richelieu to test whether American policy has a durable institutional carrie
 - [State](state/) - current government, executive authority, Congress, military command, allied carriers, and successor legitimacy.
 - [Civilization](civilization/) - inherited American code: republic, frontier, constitutional process, civil-war recurrence, and successor-stable continental interest.
 - [Empire](empire/) - outward striving for maritime, financial, alliance, technological, and escalation control.
-- [Helix](helix.md) - where empire protects the republic, where it deforms the republic, and what regulatory statecraft is needed.
+- [Helix](helix.md) - primary lane interpretation; use this first when the question spans authorization, amplification, deformation, and restoration together.
 
-Phase-one CIV-EMP migration now has an active America pilot pair: [state memory](civilization/objects/state-memory.md) and the [America empire instrument](empire/seed-instruments.md). Use those as the preferred civilization / empire openings before expanding into broader lane surfaces.
+America is now the first helix-first proving case. Start with [helix](helix.md) when the lane question has split across several notes and you need the governing line again. The helix is the primary authored interpretation; the first-wave objects below are the supporting strand surfaces.
+
+Phase-one CIV-EMP migration still matters underneath that cutover. The active America pilot pair remains [state memory](civilization/objects/state-memory.md) and the [America empire instrument](empire/seed-instruments.md), but they now function as strand inputs beneath the helix rather than as competing top-level openings.
+
+America's broader first-wave strand set is now usable as an ordered drafting surface beneath the helix:
+
+- [state memory](civilization/objects/state-memory.md) for inherited legitimacy, lawful carry, and successor authority
+- [geo](civilization/geo.md) for continental resilience, allocation strain, and maritime / inland carrying systems
+- [war](civilization/war.md) for coercive carry, command limits, escalation channels, and bounded force
+- [peace](civilization/peace.md) for lawful settlement, burden-sharing, review, and successor-stable exit
+- [empire instrument](empire/seed-instruments.md) for the outward control stack that protects, overreaches, or deforms the republic
+
+Use these after the helix has clarified which strand is actually governing the clause. Use older lane notes or direct `civ-mem` provenance only when the first-wave set still leaves a real gap.
 
 ## Current State Carriers
 

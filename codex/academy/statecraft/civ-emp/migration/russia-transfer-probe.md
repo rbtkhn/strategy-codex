@@ -2,19 +2,19 @@ WORK only; not Record.
 
 # Russia Transfer Probe
 
-This is a bounded transfer probe against the current America pilot template. It does not materialize Russia to pilot maturity. Its job is only to test whether the current America pattern transfers cleanly enough that Russia can become the next lane without redesigning the scaffold.
+This note is now historical Phase 1 / early Phase 2 evidence. It began as a bounded transfer probe against the America pilot template before Russia had a real pair, a full Phase 1C lane, or helix-first routing. It is preserved because it records what the repo learned before Russia was fully materialized and later transferred.
 
-## Pair Under Review
+## Original Pair Under Review
 
 - Lane: `Russia`
 - Civilization-side object: [Russia state memory](../../russia/civilization/objects/state-memory.md)
 - Empire-side object: [Russia empire seed instruments](../../russia/empire/seed-instruments.md)
-- Current statuses from the control plane: `unstarted` / `unstarted`
+- Current statuses from the control plane at the time of the original probe: `unstarted` / `unstarted`
 - Reviewer / date: Codex / 2026-05-22
 
-## Transfer Verdict
+## Original Transfer Verdict
 
-The America pattern **does transfer structurally**, but not yet operationally.
+The America pattern **did transfer structurally**, but at the time of the original probe it had not yet transferred operationally.
 
 That means:
 
@@ -131,8 +131,33 @@ The probe teaches three useful things about the current America template:
    - metrics recompute
    - full pilot audit
 
-## Recommendation
+## Original Recommendation
 
 Do not materialize Russia yet.
 
 America should still be brought to full template readiness first. But once America clears that bar, Russia is a valid next lane and does not require a redesign of the migration scaffold. The main requirement is to start Russia with a more explicit contract-normalization pass than America needed.
+
+## Historical Outcome
+
+The original probe is now overtaken by events. Russia no longer sits at the speculative transfer stage.
+
+What is true now:
+
+- Russia state memory was contract-normalized
+- [Russia empire seed instruments](../../russia/empire/seed-instruments.md) was promoted into a real empire object
+- Russia achieved a full Phase 1C maturity-complete first-wave lane
+- Russia now also has a Phase 2 transfer result in [Russia helix verification](russia-helix-verification.md)
+
+So this note should now be read as pre-transfer reasoning rather than as the live Russia architecture claim.
+
+## Update After Pair Cutover And Audit
+
+Russia state memory has now been contract-normalized into the top-level `civ-emp` shape, [Russia empire seed instruments](../../russia/empire/seed-instruments.md) has been promoted into a real first-wave empire object, and the Russia lane READMEs now prefer the paired pilot objects as the operational first stop. Russia therefore now has a recognizable and honest `cut_over` pilot pair rather than a transfer hypothesis.
+
+The first full Russia scorecard now exists at [Russia pilot lane audit](russia-pilot-lane-audit.md). That means the main remaining Russia work is no longer pair formation. It is pair maturity:
+
+1. deepen both pilot objects toward their target bands
+2. improve the civilization / empire balance from the current `2.44:1` ratio and `0.41` empire share
+3. trim remaining workshop-language burden from the first screen of the pair before revisiting template readiness
+
+Russia is now a real second proving case, but this final sentence is no longer the live state. Russia has since moved past pilot-pair maturity and now has a separate [Russia helix verification](russia-helix-verification.md) note for the Phase 2 transfer layer.

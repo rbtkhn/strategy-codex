@@ -4,6 +4,10 @@ WORK only; not Record.
 
 Purpose: name the inherited Russian code that shapes security-depth demands, sovereignty claims, and the fear of encirclement.
 
+Helix-first role: this folder now serves as the civilization-side strand bench beneath the primary [Russia helix](../helix.md). Use the helix for the integrated lane interpretation; use the notes here when the governing question has clearly narrowed to continuity memory, geography, war grammar, peace grammar, or later second-wave arc-lenses.
+
+Phase-one CIV-EMP opening: start with [state memory](objects/state-memory.md) when the live question is whether a proposal can carry Russian continuity, recognition, and strategic depth as state memory rather than as a temporary leadership preference.
+
 ## Inherited Code
 
 - Geography of depth, exposure, and invasion corridors.
@@ -43,4 +47,15 @@ For Russia-specific depth analysis, use the [Russia depth arc](../../sheets/russ
 
 Use the [present-day arc extension matrix](../../sheets/present-day-arc-extension-matrix.md) when a Russia read needs to bridge older depth, recognition, encirclement, or system-equilibrium arcs into modern carriers such as energy routing, sanctions resistance, China absorption risk, nuclear warning time, or Black Sea / Baltic / Arctic pressure.
 
-Use [civilization objects](objects/) when a recurring authority pattern needs to connect the Russia book surface to current state carriers, diplomatic transmitters, and transaction authority checks. First object: [state memory](objects/state-memory.md).
+Use [civilization objects](objects/) when a recurring authority pattern needs to connect the Russia book surface to current state carriers, diplomatic transmitters, and transaction authority checks. First object: [state memory](objects/state-memory.md), paired with [Russia empire instrument](../empire/seed-instruments.md) as the active phase-one civ/emp opening set, but now operating as supporting strand inputs beneath the [Russia helix](../helix.md).
+
+## First-Wave Openings
+
+Use the first-wave civilization objects in this order when the drafting problem is still at lane scale:
+
+- [state memory](objects/state-memory.md) for continuity, strategic depth, and recognition-bearing authority
+- [geo](geo.md) for exposed corridors, control nodes, and geographic settlement carry
+- [war](war.md) for coercive depth, command compression, and escalation architecture
+- [peace](peace.md) for reciprocal limits, recognition formulas, and bounded equilibrium
+
+These are now the preferred Russia civilization-side strand openings ahead of older compact notes or direct `civ-mem` provenance files. Use them after the [Russia helix](../helix.md) has identified which strand should lead the draft.

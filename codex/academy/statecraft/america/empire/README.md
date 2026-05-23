@@ -4,6 +4,8 @@ WORK only; not Record.
 
 Purpose: name America's outward striving for security and control so statecraft can regulate it instead of pretending the drive does not exist.
 
+Helix-first role: this folder now serves as the empire-side strand bench beneath the primary [America helix](../helix.md). Use the helix for the integrated lane interpretation; use this folder when the real question has narrowed to the control stack itself.
+
 ## Desired Control
 
 America seeks to control or shape maritime order, reserve-currency infrastructure, alliance command, sanctions access, technology platforms, intelligence flows, energy security, and escalation ladders.
@@ -37,4 +39,4 @@ Control must be bounded by lawful authority, domestic legitimacy, allied burden-
 
 ## Development Queue
 
-Start with [seed-instruments.md](seed-instruments.md). It now serves as the active America phase-one `empire-instrument` object and is the preferred first stop for the America empire side. Only split out a separate note once statecraft drafting needs a narrower regulator than the shared pilot object can provide.
+Start with [seed-instruments.md](seed-instruments.md). It now serves as the active America phase-one `empire-instrument` object and the preferred empire-side strand surface beneath the [America helix](../helix.md). Only split out a separate note once statecraft drafting needs a narrower regulator than the shared pilot object can provide.

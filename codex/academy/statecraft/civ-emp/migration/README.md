@@ -6,6 +6,20 @@ This workspace governs the migration from legacy `civ-mem` dependency into the a
 
 The migration rule here is symmetric first. Phase one does not allow `Civilization` to fill up while `Empire` trails behind as a future clean-up promise. The first wave deliberately materializes both sides together across the four active lanes: `America`, `Russia`, `China`, and `Iran`. Every phase-one slice must be legible as a pair, even when the `Empire` side is shorter or presently less developed.
 
+Current staged reality:
+
+- `state-memory` and `empire-instrument` are now `cut_over` across all four active lanes.
+- `geo`, `war`, and `peace` are now `verified` across all four active lanes.
+- README-level widening has now begun in every active lane, so the first-wave civilization set is operationally preferred rather than hidden lane residue.
+- America and Russia are now the active Phase 2 proving cases: both lanes route through a helix-first interpretation while China and Iran remain on the Phase 1C first-wave architecture.
+
+## Phase State
+
+- **Phase 1A complete:** the four active lanes now have reusable proving-case pilot pairs. `state-memory` and `empire-instrument` are `cut_over` across America, Russia, China, and Iran, and the pilot-lane audit stack has produced template-ready pairs.
+- **Phase 1B complete:** `geo`, `war`, and `peace` are now all `verified` across the four active lanes, and the control plane reflects that state.
+- **Phase 1C complete:** the remaining work is no longer lane-level first-wave maturity. All four active lanes now have maturity-complete first-wave sets. The next work is lane-set verification, cross-lane synthesis, and the v1 remainder work beyond the first-wave grid.
+- **Phase 2 proving cases active:** America is now the first helix-primary lane, and Russia is now the first transferred helix-primary lane. China and Iran remain on the Phase 1C architecture until that transfer proof is judged strong enough to broaden again.
+
 ## Control Artifacts
 
 - [Dependency inventory](dependency-inventory.md) - grouped report of direct `civ-mem` references inside the active lanes.
@@ -15,10 +29,26 @@ The migration rule here is symmetric first. Phase one does not allow `Civilizati
 - [Source-map manifest](source-map-manifest.md) - links each target object to upstream provenance and current lane-local consumers.
 - [Corpus budget](corpus-budget.md) - live word-budget target, current baseline, and lane/object symmetry counts.
 - [Corpus budget JSON](corpus-budget.json) - machine-readable budget and current word-count metrics.
+- [Helix-first architecture](helix-first-architecture.md) - locks the Phase 2 doctrine shift from strand scaffold to helix-authored layer without deleting the first-wave source base.
 - [Status report template](status-report-template.md) - deterministic wave-close format for later materialization and cutover passes.
 - [Pilot-lane audit template](pilot-lane-audit-template.md) - reusable six-audit checklist for deciding whether a lane can move from pilot to template status.
 - [America pilot lane audit](america-pilot-lane-audit.md) - first proving-case scorecard for the active America pair.
-- [Russia transfer probe](russia-transfer-probe.md) - bounded next-lane test of whether the America pilot pattern transfers cleanly without materializing Russia yet.
+- [America first-wave verification note](america-first-wave-verification.md) - evidence check for which America civilization-side first-wave slices can move beyond `materialized`.
+- [America lane-level verification](america-lane-verification.md) - first Phase 1C proving-case note for lane-level verification above slice-level status, now also the first maturity-complete proving case.
+- [America helix verification](america-helix-verification.md) - Phase 2 proving-case note for whether America now works as a helix-primary lane above the mature strand scaffold.
+- [Russia transfer probe](russia-transfer-probe.md) - historical pre-transfer note showing how the America pilot pattern was first tested against Russia before Russia became a real helix-first lane.
+- [Russia pilot lane audit](russia-pilot-lane-audit.md) - first full six-audit scorecard for the materialized Russia pair.
+- [Russia first-wave verification note](russia-first-wave-verification.md) - evidence check for which Russia civilization-side first-wave slices can move beyond `materialized`.
+- [Russia lane-level verification](russia-lane-verification.md) - Phase 1C lane-level verification note for the Russia first-wave set, now also the second maturity-complete proving case.
+- [Russia helix verification](russia-helix-verification.md) - Phase 2 transfer-case note for whether Russia now works as a helix-primary lane above the mature strand scaffold.
+- [China transfer probe](china-transfer-probe.md) - bounded stage note after China civilization-side normalization and before empire-side pilot promotion.
+- [China pilot lane audit](china-pilot-lane-audit.md) - first full six-audit scorecard for the materialized China pair.
+- [China first-wave verification note](china-first-wave-verification.md) - evidence check for which China civilization-side first-wave slices can move beyond `materialized`.
+- [China lane-level verification](china-lane-verification.md) - Phase 1C lane-level verification note for the China first-wave set, now also the third maturity-complete proving case.
+- [Iran transfer probe](iran-transfer-probe.md) - bounded stage note after Iran civilization-side normalization and before empire-side pilot promotion.
+- [Iran pilot lane audit](iran-pilot-lane-audit.md) - first full six-audit scorecard for the materialized Iran pair.
+- [Iran first-wave verification note](iran-first-wave-verification.md) - evidence check for which Iran civilization-side first-wave slices can move beyond `materialized`.
+- [Iran lane-level verification](iran-lane-verification.md) - Phase 1C lane-level verification note for the Iran first-wave set, now also the fourth maturity-complete proving case.
 
 ## Two-Volume Rule
 
@@ -61,8 +91,8 @@ Each canonical question family must appear on both sides of the phase-one corpus
 
 6. `how does remembered exclusion shape the politics of direct great-power settlement`
    Civilization: status memory, humiliation, exclusion anxiety
-   Empire: room geometry, bargaining architecture, outer-power settlement mechanics
-   Hinge: durable bargaining must answer symbolic inclusion and actual room design together
+   Empire: bargaining geography, corridor access, and outer-power settlement mechanics
+   Hinge: durable bargaining must answer symbolic inclusion and actual geographic access together
 
 ## Waves
 
@@ -71,17 +101,27 @@ Each canonical question family must appear on both sides of the phase-one corpus
 `Wave 3`: cut over lane-local files so they prefer `civ-emp`  
 `Wave 4`: verify symmetry, completeness, and provenance discipline
 
+Interpretation note:
+
+- pilot-lane template readiness is judged on the paired `state-memory` / `empire-instrument` proving case
+- full lane maturity is judged on the broader first-wave grid, including `geo`, `war`, and `peace`
+
 ## Acceptance Rule
 
 A first-wave slice is only `verified` when:
 
 - both volume sides needed for that slice exist
 - lane-local files prefer `civ-emp`
-- at least one canonical family is served on both sides
+- at least one canonical family is served on both sides, or the symmetry link explicitly shows how the empire-side partner supplies the guarantor, enforcement, geographic-carrier, or regulation function that the civilization-side slice requires
 - counterweight exists
 - transaction hook exists
 - provenance to upstream `civ-mem` is preserved
 - the slice's symmetry partner is at least `cut_over`
+
+Interpretation note:
+
+- direct canonical-family overlap remains the strongest and simplest verification path
+- for non-pilot civilization classes such as `peace` or `geo`, the same criterion may also be satisfied when the civilization-side object and the paired empire object explicitly describe a shared hinge: the civilization file names the settlement or geographic grammar, and the empire file names the outward carrier that makes that grammar governable rather than theatrical
 
 ## Pilot-Lane Audit Gate
 
@@ -109,3 +149,5 @@ Lane promotion rule:
 ## Operational Boundary
 
 This workspace is a control plane, not the migration itself. It names what must be built, in what order, and under what acceptance rule. It does not justify mirroring the legacy corpus file-for-file, and it does not authorize direct `civ-mem` use to remain the default once a corresponding `civ-emp` slice exists.
+
+For Phase 2, the same control-plane discipline still applies. Helix-first cutover may change the lane's top-level interpretation, but it does not authorize silent deletion of strand objects, silent erosion of provenance, or automatic transfer of the pattern to other lanes before the proving cases are explicitly judged strong enough to broaden.

@@ -4,6 +4,8 @@ WORK only; not Record.
 
 Purpose: name the inherited American code that any durable America-lane instrument must respect, even if the current United States fractures, reforms, or gives way to a successor continental authority.
 
+Helix-first role: this folder now serves as the civilization-side strand bench beneath the primary [America helix](../helix.md). Use the helix for the integrated lane interpretation; use the notes here when the governing question has clearly narrowed to legitimacy memory, geography, war grammar, peace grammar, or later second-wave arc-lenses.
+
 ## Inherited Code
 
 - Continental scale and frontier memory.
@@ -43,4 +45,15 @@ Use the [present-day arc extension matrix](../../sheets/present-day-arc-extensio
 
 For America-specific empire / republic analysis, use the [America empire-republic arc](../../sheets/america-empire-republic-arc.md) to distinguish imperial-provincial inheritance, revolutionary-republic, constitutional-union, continental-expansion, maritime-commercial order, emergency-empire, and platform-sovereignty before turning lawful reach, sanctions, alliances, technology, extraction, suppression, or successor legitimacy into clause language.
 
-Use [civilization objects](objects/) for long-pattern authority surfaces such as [state memory](objects/state-memory.md). In the phase-one symmetric CIV-EMP migration, state memory is the preferred America civilization-side opening and is paired directly with the [America empire instrument](../empire/seed-instruments.md).
+Use [civilization objects](objects/) for long-pattern authority surfaces such as [state memory](objects/state-memory.md). In the phase-one symmetric CIV-EMP migration, state memory is the preferred America civilization-side opening and is paired directly with the [America empire instrument](../empire/seed-instruments.md), but it now operates as a supporting strand input beneath the [America helix](../helix.md).
+
+## First-Wave Openings
+
+Use the first-wave civilization objects in this order when the drafting problem is still at lane scale:
+
+- [state memory](objects/state-memory.md) for legality, successor carry, and republic / empire drift
+- [geo](geo.md) for continental resilience, maritime / inland carrying systems, and scarcity concealed by abundance
+- [war](war.md) for coercive design, command ceilings, contact architecture, and the boundary between defense and imperial drift
+- [peace](peace.md) for lawful settlement, review, relief, burden-sharing, and successor-stable exit
+
+These are now the preferred America civilization-side strand openings ahead of older compact notes or direct `civ-mem` provenance files. Use them after the [America helix](../helix.md) has identified which strand should lead the draft.
