@@ -22,7 +22,7 @@ Crooke repeatedly contrasts two diplomatic worlds. In the first, states negotiat
 
 ## Exact Quote Anchors
 
-- [2026-01-25 Dialogue Works / Alkorshid raw-input](../../../years/2026/raw-input/2026-01-25/transcript-alkorshid-crooke-systemic-collapse-explained-why-two-fronts-matter-2026-01-25.md): "that has to be agreed formally, state to state, in a treaty or in a legal document"
+- [2026-01-25 Dialogue Works / Nima raw-input](../../../years/2026/raw-input/2026-01-25/transcript-alkorshid-crooke-systemic-collapse-explained-why-two-fronts-matter-2026-01-25.md): "that has to be agreed formally, state to state, in a treaty or in a legal document"
 - same source: "did you have that in writing? and no, they didn't."
 
 ## What Crooke Is Arguing
@@ -33,7 +33,7 @@ That is why this theme matters across both strands of the Crooke shelf. In the a
 
 ## Route-Family Spread
 
-- Dialogue Works / Alkorshid carries the cleanest quote-backed treaty-form version.
+- Dialogue Works / Nima carries the cleanest quote-backed treaty-form version.
 - Davis reinforces the same concern through bargaining-room realism and the rejection of fake off-ramps.
 - Authored Substack sharpens the same logic into "deceptive diplomacy" and sovereign-settlement impossibility.
 

@@ -27,7 +27,7 @@ The Crooke helix is not only `Diesen x Davis x Dialogue Works`. It also has a so
 | `CROOKE-2026-F001`, `CROOKE-2026-F010`, `CROOKE-2026-F021`, `CROOKE-2026-F024` | Diesen order-transition run | Substack gives structural rupture, Western mechanistic misreading, and unraveling risk; Diesen turns those into world-order altitude and Russia/China consequence. |
 | `CROOKE-2026-F012`, `CROOKE-2026-F015`, `CROOKE-2026-F017`, `CROOKE-2026-F020` | Diesen Hormuz and global-economy run | Substack gives Iran empowerment and system shock; interviews show the same logic through energy, shipping, market calm, and order-transition pressure. |
 | `CROOKE-2026-F006`, `CROOKE-2026-F011`, `CROOKE-2026-F016`, `CROOKE-2026-F022` | Davis bargaining and strategic-room run | Substack gives off-ramp destruction and negotiation theater; Davis makes Crooke cash it out as room dynamics, spoiler logic, and settlement impossibility. |
-| `CROOKE-2026-F004`, `CROOKE-2026-F008`, `CROOKE-2026-F013`, `CROOKE-2026-F014` | Dialogue Works / Alkorshid live-war run | Substack gives attack-window, gamble, no-plan, and Iran-steadfastness mechanisms; live interviews show those claims under event tempo. |
+| `CROOKE-2026-F004`, `CROOKE-2026-F008`, `CROOKE-2026-F013`, `CROOKE-2026-F014` | Dialogue Works / Nima live-war run | Substack gives attack-window, gamble, no-plan, and Iran-steadfastness mechanisms; live interviews show those claims under event tempo. |
 | `CROOKE-2026-T001`, `CROOKE-2026-T002`, `CROOKE-2026-T003` | 2025 prelude across all hosts | The 2025 appearances reveal the same tensions before the 2026 authored ledger thickens them: Trump agency versus trap, diplomacy versus theater, and empowerment versus escalation danger. |
 
 Reading rule: open the authored row first when the question is "what is Crooke's mechanism?" Open the host cluster first when the question is "where does this mechanism become usable under pressure?" For serious statecraft analysis, cross both before drawing a conclusion.
@@ -38,7 +38,7 @@ Reading rule: open the authored row first when the question is "what is Crooke's
 |---|---|---|
 | [diesen x crooke](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-crooke-speaker-arc.md) | Order-transition altitude | Multipolar consequence, strategic irrationality at the center, supply-line and Hormuz system shock, and how a regional war becomes a world-order event |
 | [davis x crooke](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-crooke-speaker-arc.md) | Bargaining room and strategic-room realism | Negotiation structure, spoiler logic, Iranian internal decision architecture, and the gap between coercive theater and actual leverage |
-| [alkorshid x crooke](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-crooke-speaker-arc.md) | Live crisis pressure and event meaning | Why immediate escalations matter beyond themselves, how war lessons travel outward, and how present-tense crisis becomes civilizational or geopolitical signal |
+| [dialogue works x crooke](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-crooke-speaker-arc.md) | Live crisis pressure and event meaning | Why immediate escalations matter beyond themselves, how war lessons travel outward, and how present-tense crisis becomes civilizational or geopolitical signal |
 
 ## Orthogonality guide
 
@@ -46,9 +46,9 @@ Quick separation rule:
 
 - `Diesen x Crooke` is where Crooke's civilizational-statecraft mechanism becomes order-transition altitude and system-shock reading.
 - `Davis x Crooke` is where the same mechanism becomes bargaining-room realism and leverage diagnosis.
-- `Alkhorshid x Crooke` is where the same mechanism becomes present-tense event meaning under live crisis pressure.
+- `Dialogue Works x Crooke` is where the same mechanism becomes present-tense event meaning under live crisis pressure.
 
-Do not use `Diesen` as a shortcut for bargaining structure, `Davis` as a shortcut for civilizational signal extraction under event tempo, or `Alkhorshid` as a shortcut for world-order altitude. The helix is only truly additive when those roles stay distinct.
+Do not use `Diesen` as a shortcut for bargaining structure, `Davis` as a shortcut for civilizational signal extraction under event tempo, or `Dialogue Works` as a shortcut for world-order altitude. The helix is only truly additive when those roles stay distinct.
 
 ## Open first
 
@@ -61,7 +61,7 @@ If the operator needs the best helix pair:
 - open [davis-crooke-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-crooke-speaker-arc.md)
 - then [diesen-crooke-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-crooke-speaker-arc.md)
 
-Add [alkorshid-crooke-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-crooke-speaker-arc.md) when the notebook needs the sharpest present-tense event pressure rather than only the bargaining room and the wider order-transition frame.
+Add [nima-crooke-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-crooke-speaker-arc.md) when the notebook needs the sharpest present-tense event pressure rather than only the bargaining room and the wider order-transition frame.
 
 ## Routing use
 

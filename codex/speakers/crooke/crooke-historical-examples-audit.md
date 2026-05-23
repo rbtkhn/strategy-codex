@@ -26,7 +26,7 @@ Discovery and routing base:
 - [Crooke helix](crooke-helix.md)
 - [Crooke interview appearances](crooke-interview-appearances-2025-2026.md)
 - [Crooke forecast ledger](stream/crooke-forecast-ledger-2026.md)
-- host-local arcs in `diesen/`, `davis/`, `alkorshid/`, and `napolitano/`
+- host-local arcs in `diesen/`, `davis/`, `nima/`, and `napolitano/`
 
 Interpretive source base:
 
@@ -44,7 +44,7 @@ Inclusion bar for scored entries:
 
 Coverage basis:
 
-- major route families counted here are `authored Substack`, `diesen`, `davis`, `dialogue works / alkorshid`, and `napolitano`
+- major route families counted here are `authored Substack`, `diesen`, `davis`, `dialogue works / nima`, and `napolitano`
 - front-door surfaces and the forecast ledger were used for discovery and routing, not as quote authority
 
 ### Aggregate metrics
@@ -71,7 +71,7 @@ Coverage basis:
 | Authored Substack | 2 |
 | Diesen | 2 |
 | Davis | 1 |
-| Dialogue Works / Alkorshid | 3 |
+| Dialogue Works / Nima | 3 |
 | Napolitano | 1 |
 
 ### By example type
@@ -104,7 +104,7 @@ Coverage basis:
 ### 1. End-of-Cold-War verbal assurances as a warning against stakeholder theater without treaty form
 
 - Example: `end of the Cold War verbal assurance / not one inch further`
-- Source: [2026-01-25 Dialogue Works / Alkorshid](../../years/2026/raw-input/2026-01-25/transcript-alkorshid-crooke-systemic-collapse-explained-why-two-fronts-matter-2026-01-25.md)
+- Source: [2026-01-25 Dialogue Works / Nima](../../years/2026/raw-input/2026-01-25/transcript-alkorshid-crooke-systemic-collapse-explained-why-two-fronts-matter-2026-01-25.md)
 - Exact quote:
 
 > "that has to be agreed formally, state to state, in a treaty or in a legal document, not ... the end of the Cold War ... done verbally"
@@ -162,7 +162,7 @@ Coverage basis:
 ### 3. The Cold War outspend-the-USSR model as the dead inheritance of the American way of war
 
 - Example: `Cold War overmatch against the Soviet Union`
-- Source: [2026-05-13 Dialogue Works / Alkorshid](../../years/2026/raw-input/2026-05-13/transcript-alkorshid-crooke-iran-smashed-the-us-military-model-china-is-watching-2026-05-13.md)
+- Source: [2026-05-13 Dialogue Works / Nima](../../years/2026/raw-input/2026-05-13/transcript-alkorshid-crooke-iran-smashed-the-us-military-model-china-is-watching-2026-05-13.md)
 - Exact quote:
 
 > "the American way of war is as dead as the dodo. It was conceived during the cold war against the Soviet Union. It was about outspending Russia"
@@ -383,7 +383,7 @@ Compared with Freeman, Crooke is less treaty-catalogue rich and more diagnostic 
 Strongest current lanes for quote-backed historical use:
 
 - authored Substack for Cold War inheritance, Monroe reassertion, and deterrence-memory
-- Dialogue Works / Alkorshid for treaty credibility, collapse fantasy, and system pressure
+- Dialogue Works / Nima for treaty credibility, collapse fantasy, and system pressure
 - Davis and Napolitano for Ben-Gurion, Clausewitz, and permanent-security / redemptive-war diagnostics
 
 Best candidates for later `civ-emp` upgrade:

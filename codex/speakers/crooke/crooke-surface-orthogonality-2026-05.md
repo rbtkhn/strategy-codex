@@ -9,15 +9,20 @@ Local surfaces under review:
 - [crooke-helix.md](/C:/dev/strategy-codex/codex/speakers/crooke/crooke-helix.md)
 - [crooke-interview-appearances-2025-2026.md](/C:/dev/strategy-codex/codex/speakers/crooke/crooke-interview-appearances-2025-2026.md)
 - [crooke-forecast-ledger-2026.md](/C:/dev/strategy-codex/codex/speakers/crooke/stream/crooke-forecast-ledger-2026.md)
+- [crooke-march-may-2026-interview-arc-threads.md](/C:/dev/strategy-codex/codex/speakers/crooke/stream/crooke-march-may-2026-interview-arc-threads.md)
+- [crooke-march-2026-interview-cross-host-arc.md](/C:/dev/strategy-codex/codex/speakers/crooke/stream/crooke-march-2026-interview-cross-host-arc.md)
+- [crooke-april-2026-interview-cross-host-arc.md](/C:/dev/strategy-codex/codex/speakers/crooke/stream/crooke-april-2026-interview-cross-host-arc.md)
+- [crooke-may-2026-interview-cross-host-arc.md](/C:/dev/strategy-codex/codex/speakers/crooke/stream/crooke-may-2026-interview-cross-host-arc.md)
 - [crooke-thread-international-law.md](/C:/dev/strategy-codex/codex/speakers/crooke/stream/crooke-thread-international-law.md)
 - [diesen-crooke-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-crooke-speaker-arc.md)
 - [davis-crooke-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-crooke-speaker-arc.md)
-- [alkorshid-crooke-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-crooke-speaker-arc.md)
+- [nima-crooke-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-crooke-speaker-arc.md)
 - [crooke-thread.md](/C:/dev/strategy-codex/codex/speakers/crooke/stream/crooke-thread.md)
 
 Bounded claim:
 
 - this review checks whether the Crooke shelf is partitioned well enough across authored mechanism, interview host transformation, and one real topical thread
+- the dense interview core may now also carry bounded month spines and a recurring-strand atlas as long as those remain subordinate to the interview strand rather than flattening source classes
 - overlap is suspected because Crooke's order-transition, bargaining-room, and legitimacy-order language can all sound adjacent in crisis windows
 - this review does not settle whether Crooke is correct; it only tests whether the current shelf arrangement preserves distinct retrieval jobs without collapsing source classes
 
@@ -27,7 +32,7 @@ Arcs under review:
 
 - [diesen-crooke-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-crooke-speaker-arc.md)
 - [davis-crooke-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-crooke-speaker-arc.md)
-- [alkorshid-crooke-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-crooke-speaker-arc.md)
+- [nima-crooke-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-crooke-speaker-arc.md)
 
 Threads under review:
 
@@ -39,6 +44,10 @@ Comparison-only notes:
 - [crooke-helix.md](/C:/dev/strategy-codex/codex/speakers/crooke/crooke-helix.md)
 - [crooke-interview-appearances-2025-2026.md](/C:/dev/strategy-codex/codex/speakers/crooke/crooke-interview-appearances-2025-2026.md)
 - [crooke-forecast-ledger-2026.md](/C:/dev/strategy-codex/codex/speakers/crooke/stream/crooke-forecast-ledger-2026.md)
+- [crooke-march-may-2026-interview-arc-threads.md](/C:/dev/strategy-codex/codex/speakers/crooke/stream/crooke-march-may-2026-interview-arc-threads.md)
+- [crooke-march-2026-interview-cross-host-arc.md](/C:/dev/strategy-codex/codex/speakers/crooke/stream/crooke-march-2026-interview-cross-host-arc.md)
+- [crooke-april-2026-interview-cross-host-arc.md](/C:/dev/strategy-codex/codex/speakers/crooke/stream/crooke-april-2026-interview-cross-host-arc.md)
+- [crooke-may-2026-interview-cross-host-arc.md](/C:/dev/strategy-codex/codex/speakers/crooke/stream/crooke-may-2026-interview-cross-host-arc.md)
 
 ## Arc audit
 
@@ -54,7 +63,7 @@ Comparison-only notes:
 |---|---|---|---|---|---|
 | `diesen-crooke-speaker-arc.md` | regional crisis translated into world-order and supply-line consequence | order-transition and system-shock reading | multi-episode host run emphasizing altitude and global consequence | open when the task needs systemic consequence rather than tactical or bargaining detail | keep |
 | `davis-crooke-speaker-arc.md` | coercive pressure translated into actual bargaining room and strategic room | leverage realism and settlement structure | compact but strong host run emphasizing negotiation room and spoiler logic | open when the task needs real settlement architecture or leverage diagnosis | keep |
-| `alkorshid-crooke-speaker-arc.md` | present-tense escalation translated into deeper war meaning and transformation | live crisis meaning and event pressure | dense high-temperature host run emphasizing event-surface significance | open when the task needs immediate crisis motion widened into civilizational or geopolitical signal | keep |
+| `nima-crooke-speaker-arc.md` | present-tense escalation translated into deeper war meaning and transformation | live crisis meaning and event pressure | dense high-temperature host run emphasizing event-surface significance | open when the task needs immediate crisis motion widened into civilizational or geopolitical signal | keep |
 
 ## Thread audit
 
@@ -83,11 +92,12 @@ The older [crooke-thread.md](/C:/dev/strategy-codex/codex/speakers/crooke/stream
 
 `same frame, different use`
 
-- Alkorshid and Diesen can both make civilizational-order claims, but Alkorshid derives them from live crisis motion while Diesen derives them from broader systemic consequence
+- Dialogue Works / Nima and Diesen can both make civilizational-order claims, but Dialogue Works / Nima derives them from live crisis motion while Diesen derives them from broader systemic consequence
 
 `comparison note mistaken for continuity surface`
 
 - the helix and interview-appearances file are essential routing tools, but neither should be mistaken for an additional Crooke continuity lane beyond the authored strand, the host arcs, and the law thread
+- the interview month spines and interview arc-thread atlas are valid only as **interview-strand** continuity layers, not as a flattened whole-Crooke chronology
 
 Main confusion zones:
 
@@ -97,11 +107,12 @@ Main confusion zones:
 ## Recommended actions
 
 - keep the current authored-plus-interview shelf architecture as is
+- permit a bounded March-May 2026 interview month-spine and interview-atlas layer so long as source-class discipline remains explicit
 - keep the real `international-law` topical thread as the only canonical Crooke thread for now
 - continue routing authored-mechanism questions to the forecast ledger first
 - continue routing order-transition consequence to Diesen first
 - continue routing bargaining-room realism to Davis first
-- continue routing live event-pressure meaning to Alkorshid first
+- continue routing live event-pressure meaning to Dialogue Works first
 
 ## Notebook use
 

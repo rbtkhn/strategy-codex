@@ -23,7 +23,7 @@ This theme holds Crooke's argument that a military-economic model forged in the 
 
 ## Exact Quote Anchors
 
-- [2026-05-13 Dialogue Works / Alkorshid raw-input](../../../years/2026/raw-input/2026-05-13/transcript-alkorshid-crooke-iran-smashed-the-us-military-model-china-is-watching-2026-05-13.md): "the American way of war is as dead as the dodo"
+- [2026-05-13 Dialogue Works / Nima raw-input](../../../years/2026/raw-input/2026-05-13/transcript-alkorshid-crooke-iran-smashed-the-us-military-model-china-is-watching-2026-05-13.md): "the American way of war is as dead as the dodo"
 - same source: "It was conceived during the cold war against the Soviet Union. It was about outspending Russia"
 - [2026-05-20 Substack raw-input](../../../years/2026/raw-input/2026-05-20/substack-crooke-paradoxically-fear-is-the-foundation-of-stability-deterrence-works-2026-05-20.md): "The implosion of the Soviet Union in 1991, however, tilted it back."
 
@@ -35,7 +35,7 @@ This is why the Iran war becomes so important in the Crooke shelf. It is not jus
 
 ## Route-Family Spread
 
-- Dialogue Works / Alkorshid carries the cleanest "American way of war" diagnosis.
+- Dialogue Works / Nima carries the cleanest "American way of war" diagnosis.
 - The authored Substack deterrence piece deepens the psychological side of the Cold War inheritance.
 - Diesen gives the theme its order-transition altitude and wider great-power consequence.
 

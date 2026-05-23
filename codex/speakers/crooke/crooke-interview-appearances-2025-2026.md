@@ -37,7 +37,7 @@ Expected v1 count: 21 files.
 | 2026-05-11 | Diplomatic Solution or More War | [raw-input](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-11/transcript-davis-crooke-diplomatic-solution-more-war-2026-05-11.md) | off-ramp test |
 | 2026-05-22 | Nuclear Fear of Russia Can Bring Stability | [raw-input](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-22/youtube-daniel-davis-deep-dive-nuclear-fear-of-russia-can-bring-stability-alastair-crooke-lt-col-daniel-davis-2026-05-22.md) | deterrence fear and escalation ceiling |
 
-### Dialogue Works / Alkorshid
+### Dialogue Works / Nima
 
 | date | title | raw-input | function |
 |---|---|---|---|
@@ -55,7 +55,7 @@ Expected v1 count: 21 files.
 |---|---|---|
 | Diesen | Order-transition altitude | Use for Crooke as a world-order analyst: Western irrationality, Russia/China consequence, Hormuz as system shock, and the Iran war as an order-transition event. |
 | Davis | Bargaining-room realism | Use for Crooke as a strategic-room interpreter: negotiation structure, spoiler logic, operational leverage, and the gap between coercive theater and actual settlement capacity. |
-| Dialogue Works / Alkorshid | Live crisis pressure and event meaning | Use for Crooke under present-tense pressure: what the latest escalation means, why local events travel outward, and how tactical episodes become civilizational or geopolitical signals. |
+| Dialogue Works / Nima | Live crisis pressure and event meaning | Use for Crooke under present-tense pressure: what the latest escalation means, why local events travel outward, and how tactical episodes become civilizational or geopolitical signals. |
 
 ## Ledger Bridge
 
@@ -67,8 +67,8 @@ This is the crossing table between the interview strand and the authored Substac
 | Diesen Hormuz and global economy run | extends | `CROOKE-2026-F012`, `CROOKE-2026-F015`, `CROOKE-2026-F017`, `CROOKE-2026-F020` | This cluster turns Iran empowerment into system-level consequence: energy, shipping, world order, and market calm versus strategic deterioration. |
 | Davis bargaining and strategic-room run | reinforces | `CROOKE-2026-F006`, `CROOKE-2026-F011`, `CROOKE-2026-F016`, `CROOKE-2026-F022` | Davis is the cleanest interview lane for off-ramp destruction, negotiation theater, and settlement impossibility. |
 | Davis Iran operational leverage run | extends | `CROOKE-2026-F012`, `CROOKE-2026-F014`, `CROOKE-2026-F019` | Davis pressure-tests whether Iran's steadfastness is only rhetoric or a real change in operational and diplomatic leverage. |
-| Dialogue Works / Alkorshid live-war run | reinforces | `CROOKE-2026-F004`, `CROOKE-2026-F008`, `CROOKE-2026-F013`, `CROOKE-2026-F014` | The live-pressure lane preserves the attack-window, gamble, no-plan, and wheels-coming-off feel of the Crooke corpus. |
-| Dialogue Works / Alkorshid war-model failure run | extends | `CROOKE-2026-F021`, `CROOKE-2026-F023`, `CROOKE-2026-T005` | The May 2026 live lane is the strongest interview support for the mechanistic-fallacy and war-metamorphosis claims. |
+| Dialogue Works / Nima live-war run | reinforces | `CROOKE-2026-F004`, `CROOKE-2026-F008`, `CROOKE-2026-F013`, `CROOKE-2026-F014` | The live-pressure lane preserves the attack-window, gamble, no-plan, and wheels-coming-off feel of the Crooke corpus. |
+| Dialogue Works / Nima war-model failure run | extends | `CROOKE-2026-F021`, `CROOKE-2026-F023`, `CROOKE-2026-T005` | The May 2026 live lane is the strongest interview support for the mechanistic-fallacy and war-metamorphosis claims. |
 | 2025 prelude across all hosts | tension | `CROOKE-2026-T001`, `CROOKE-2026-T002`, `CROOKE-2026-T003` | The 2025 appearances show the same tensions before the 2026 authored ledger starts: Trump agency versus trap, diplomacy versus theater, Iran empowerment versus escalation danger. |
 
 ## Open First
@@ -78,7 +78,7 @@ This is the crossing table between the interview strand and the authored Substac
 | Best all-around interview entry | Davis, 2026-04-23, "Iranians Only Getting Tougher" - open via the Source Set above. |
 | Best Diesen entry | Diesen, 2026-04-27, "Iran, Global War, World Order" - open via the Source Set above. |
 | Best Davis entry | Davis, 2026-04-23, "Iranians Only Getting Tougher" - open via the Source Set above. |
-| Best Dialogue Works / Alkorshid entry | Dialogue Works / Alkorshid, 2026-05-13, "Iran Smashed the U.S. Military Model, China Is Watching" - open via the Source Set above. |
+| Best Dialogue Works / Nima entry | Dialogue Works / Nima, 2026-05-13, "Iran Smashed the U.S. Military Model, China Is Watching" - open via the Source Set above. |
 | Best 2025 prelude | Dialogue Works, 2025-06-25, "Iran-Israel Ceasefire: Inside the 12-Day War" - open via the Source Set above. |
 
 ## Backlog / Exclusions
@@ -86,12 +86,12 @@ This is the crossing table between the interview strand and the authored Substac
 - Authored Substack captures stay in [crooke-forecast-ledger-2026.md](/C:/dev/strategy-codex/codex/speakers/crooke/stream/crooke-forecast-ledger-2026.md), not this Source Set.
 - Article, rant, unhosted date-named, and generic stub files are excluded until a separate authored-support or cleanup layer is designed.
 - A pending untracked Napolitano/Crooke capture exists in this worktree; leave it for a follow-up source-boundary decision rather than mixing it into this v1 count.
-- Host-local interpretation remains canonical for stream-specific work: [Diesen x Crooke](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-crooke-speaker-arc.md), [Davis x Crooke](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-crooke-speaker-arc.md), and [Dialogue Works x Crooke](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-crooke-speaker-arc.md).
+- Host-local interpretation remains canonical for stream-specific work: [Diesen x Crooke](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-crooke-speaker-arc.md), [Davis x Crooke](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-crooke-speaker-arc.md), and [Dialogue Works x Crooke](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-crooke-speaker-arc.md).
 
 ## Verification Notes
 
 - Source Set includes exactly 21 tracked host-labeled Crooke appearances.
-- Host split: Diesen 8, Davis 6, Dialogue Works / Alkorshid 7.
+- Host split: Diesen 8, Davis 6, Dialogue Works / Nima 7.
 - Each included file is referenced once in the Source Set.
 - Excluded source classes do not appear in the Source Set.
 - This note supplements the authored forecast ledger; it does not change source-class discipline there.

@@ -27,7 +27,7 @@ Its main interview lanes are:
 
 1. [Diesen x Crooke](../diesen/stream/diesen-crooke-speaker-arc.md) - order-transition altitude and system-shock consequence
 2. [Davis x Crooke](../davis/stream/davis-crooke-speaker-arc.md) - bargaining-room realism and leverage diagnosis
-3. [Dialogue Works x Crooke](../alkorshid/stream/alkorshid-crooke-speaker-arc.md) - live crisis pressure and event-surface meaning
+3. [Dialogue Works x Crooke](../nima/stream/nima-crooke-speaker-arc.md) - live crisis pressure and event-surface meaning
 
 Its authored mechanism spine is:
 
@@ -54,7 +54,7 @@ Interview transformations:
 
 - [Diesen x Crooke](../diesen/stream/diesen-crooke-speaker-arc.md) - best for order-transition altitude
 - [Davis x Crooke](../davis/stream/davis-crooke-speaker-arc.md) - best for bargaining-room realism
-- [Dialogue Works x Crooke](../alkorshid/stream/alkorshid-crooke-speaker-arc.md) - best for live crisis meaning
+- [Dialogue Works x Crooke](../nima/stream/nima-crooke-speaker-arc.md) - best for live crisis meaning
 
 Authored mechanism:
 
@@ -65,6 +65,10 @@ Supporting surfaces:
 - [crooke-helix.md](crooke-helix.md)
 - [crooke-cross-year-note.md](crooke-cross-year-note.md)
 - [crooke-interview-appearances-2025-2026.md](crooke-interview-appearances-2025-2026.md)
+- [stream/crooke-march-may-2026-interview-arc-threads.md](stream/crooke-march-may-2026-interview-arc-threads.md)
+- [stream/crooke-march-2026-interview-cross-host-arc.md](stream/crooke-march-2026-interview-cross-host-arc.md)
+- [stream/crooke-april-2026-interview-cross-host-arc.md](stream/crooke-april-2026-interview-cross-host-arc.md)
+- [stream/crooke-may-2026-interview-cross-host-arc.md](stream/crooke-may-2026-interview-cross-host-arc.md)
 - [index.md](index.md)
 
 ## Open first
@@ -85,5 +89,6 @@ If the operator needs the fastest host-conditioned entry:
 
 - Do not treat `crooke-arc` as a substitute for the helix; the helix still owns host-transformation comparison.
 - Do not merge authored and interview source classes into one undifferentiated shelf.
+- Do not treat the interview month spines or interview atlas as replacing the authored mechanism spine; they sit inside the interview strand only.
 - Do not let any one host branch silently stand in for the whole Crooke continuity.
 - Open raw-input or authored source surfaces before quoting or making claim-grade factual use.
