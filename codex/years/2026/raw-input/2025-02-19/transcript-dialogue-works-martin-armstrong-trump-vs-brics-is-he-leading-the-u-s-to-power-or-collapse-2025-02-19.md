@@ -2,7 +2,7 @@
 ingest_date: 2026-05-15
 pub_date: 2025-02-19
 kind: transcript
-thread: alkorshid
+thread: nima
 show: Dialogue Works
 host: Nima Alkhorshid
 guest: Martin Armstrong

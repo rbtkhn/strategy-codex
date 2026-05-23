@@ -3,7 +3,7 @@ title: "Col. Larry Wilkerson: The Iran War Threat RETURNS — But Iran Has Trans
 host: Nima Alkhorshid
 guest: Col. Larry Wilkerson
 date: 2025-10-14
-thread: alkorshid
+thread: nima
 source_url: https://www.youtube.com/watch?v=1mFJ1TDGMcU
 source_type: youtube-auto-captions
 status: raw-input

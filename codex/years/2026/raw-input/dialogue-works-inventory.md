@@ -1,11 +1,11 @@
-﻿# Dialogue Works Ã¢â‚¬â€ metadata index
+# Dialogue Works Ã¢â‚¬â€ metadata index
 <!-- word_count: ~500 -->
 
 **Purpose:** Metadata-only index of **Dialogue Works** (host **Nima Alkhorshid**) from the public YouTube crawl starting at **`2026-01-01`** through the latest upload returned by the crawl. Transcript bodies are not backfilled in this pass. **WORK only** Ã¢â‚¬â€ not Record.
 
 **Last audited:** 2026-05-12 Ã¢â‚¬â€ YouTube index-only crawl plus targeted inventory reconciliation against captured raw-input files.
 
-**Routing reminder:** For symmetric expert mirroring, same-episode ingests should carry **`thread:<guest>`** plus **`thread:alkorshid`** where host prompts matter Ã¢â‚¬â€ see [alkorshid-profile.md](../../alkorshid/alkorshid-profile.md).
+**Routing reminder:** For symmetric expert mirroring, same-episode ingests should carry **`thread:<guest>`** plus **`thread:nima`** where host prompts matter Ã¢â‚¬â€ see [alkorshid-profile.md](../../alkorshid/alkorshid-profile.md).
 
 | pub_date | Title | Guest | URL | Routing / note | raw-input |
 |----------|-------|-------|-----|----------------|-----------|

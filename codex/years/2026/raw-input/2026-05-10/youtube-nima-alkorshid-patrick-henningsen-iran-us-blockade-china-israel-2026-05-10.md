@@ -2,7 +2,7 @@
 ingest_date: 2026-05-10
 pub_date: 2026-05-10
 kind: transcript
-thread: alkorshid
+thread: nima
 show: Dialogue Works
 host: Nima Alkorshid
 guest: Patrick Henningsen

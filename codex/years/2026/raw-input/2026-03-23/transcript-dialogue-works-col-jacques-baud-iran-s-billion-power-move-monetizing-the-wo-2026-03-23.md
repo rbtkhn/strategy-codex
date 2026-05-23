@@ -13,7 +13,7 @@ editorial_note: Operator-pasted transcript body; not independently verified as v
 show: Dialogue Works
 host: Nima Alkhorshid
 guest: Col. Jacques Baud
-thread: alkorshid
+thread: nima
 channel_url: https://www.youtube.com/@dialogueworks01
 evidence_grade: transcript-bearing
 ---

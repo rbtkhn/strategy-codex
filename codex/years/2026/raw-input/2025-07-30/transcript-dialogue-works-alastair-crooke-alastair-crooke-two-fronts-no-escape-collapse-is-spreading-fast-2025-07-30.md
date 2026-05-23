@@ -3,7 +3,7 @@ title: "Alastair Crooke: Two Fronts, No Escape — Collapse Is Spreading Fast"
 host: Nima Alkhorshid
 guest: Alastair Crooke
 date: 2025-07-30
-thread: alkorshid
+thread: nima
 source_url: https://www.youtube.com/watch?v=bYv-ZMKkGCo
 source_type: youtube-auto-captions
 status: raw-input

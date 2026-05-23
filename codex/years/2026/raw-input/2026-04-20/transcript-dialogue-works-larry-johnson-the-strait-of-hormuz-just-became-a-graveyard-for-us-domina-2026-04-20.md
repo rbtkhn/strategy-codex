@@ -2,7 +2,7 @@
 ingest_date: 2026-05-13
 pub_date: 2026-04-20
 kind: transcript
-thread: alkorshid
+thread: nima
 show: Dialogue Works
 host: Nima Alkhorshid
 guest: Larry Johnson

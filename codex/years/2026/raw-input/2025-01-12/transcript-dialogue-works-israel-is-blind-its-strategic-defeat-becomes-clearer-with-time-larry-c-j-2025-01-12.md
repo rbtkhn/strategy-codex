@@ -2,7 +2,7 @@
 ingest_date: 2026-05-02
 pub_date: 2025-01-12
 kind: transcript
-thread: alkorshid
+thread: nima
 show: Dialogue Works
 host: Nima Alkhorshid
 title: "Israel is BLIND & its Strategic Defeat Becomes Clearer with Time | Larry C. Johnson & Scott Ritter"

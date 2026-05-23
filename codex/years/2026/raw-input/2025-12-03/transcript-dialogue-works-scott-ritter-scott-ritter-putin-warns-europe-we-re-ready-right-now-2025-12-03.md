@@ -3,7 +3,7 @@ title: "Scott Ritter: Putin Warns Europe: “We’re Ready Right Now”"
 host: Nima Alkhorshid
 guest: Scott Ritter
 date: 2025-12-03
-thread: alkorshid
+thread: nima
 source_url: https://www.youtube.com/watch?v=SO05kKsi0w0
 source_type: youtube-auto-captions
 status: raw-input

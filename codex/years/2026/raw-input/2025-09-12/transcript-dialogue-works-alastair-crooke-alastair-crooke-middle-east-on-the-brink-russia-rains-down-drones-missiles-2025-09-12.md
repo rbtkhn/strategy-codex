@@ -3,7 +3,7 @@ title: "Alastair Crooke: Middle East on the BRINK - Russia Rains Down Drones & M
 host: Nima Alkhorshid
 guest: Alastair Crooke
 date: 2025-09-12
-thread: alkorshid
+thread: nima
 source_url: https://www.youtube.com/watch?v=TtZr_v4rWBo
 source_type: youtube-auto-captions
 status: raw-input

@@ -2,7 +2,7 @@
 ingest_date: 2026-05-02
 pub_date: 2025-01-14
 kind: transcript
-thread: alkorshid
+thread: nima
 show: Dialogue Works
 host: Nima Alkhorshid
 guest: Israel Shaken

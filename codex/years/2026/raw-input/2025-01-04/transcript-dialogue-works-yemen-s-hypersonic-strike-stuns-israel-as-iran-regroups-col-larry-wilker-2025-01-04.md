@@ -2,7 +2,7 @@
 ingest_date: 2026-05-02
 pub_date: 2025-01-04
 kind: transcript
-thread: alkorshid
+thread: nima
 show: Dialogue Works
 host: Nima Alkhorshid
 title: "Yemen's Hypersonic Strike Stuns Israel as Iran Regroups | Col. Larry Wilkerson & Larry C. Johnson"

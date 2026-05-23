@@ -5,7 +5,7 @@ kind: cleaned-transcript
 show: Dialogue Works
 host: Nima Alkhorshid
 guest: Larry Johnson
-thread: alkorshid
+thread: nima
 source_url: https://www.youtube.com/watch?v=gFqQmy5DAuM
 source_note: User-pasted cleaned YouTube transcript with speaker labels; preserve Alkhorshid host-stream ownership.
 title_slug: alkorshid-johnson-hormuz-qatar-brics-trump-china-2026-05-08

@@ -5,7 +5,7 @@ kind: cleaned-transcript
 show: Dialogue Works
 host: Nima Alkhorshid
 guest: Larry Johnson
-thread: alkorshid
+thread: nima
 title: "Larry Johnson: Netanyahu, Hormuz, China, and Israel's Strategic Failure"
 source_note: Operator-pasted cleaned transcript with speaker labels; source URL not supplied in session.
 editorial_note: Preserve as raw cleaned transcript; verify polling, military, sanctions, and market-impact claims before promotion beyond analyst tier.

@@ -2,7 +2,7 @@
 ingest_date: 2026-05-20
 pub_date: 2025-08-10
 kind: transcript
-thread: alkorshid
+thread: nima
 show: Dialogue Works
 host: Nima Alkhorshid
 guest: "Col. Larry Wilkerson; Scott Ritter"

@@ -3,7 +3,7 @@ title: "Larry C. Johnson & Col. Larry Wilkerson: Putin Hits Back HARD—Calls Ou
 host: Nima Alkhorshid
 guest: Larry C. Johnson
 date: 2025-12-05
-thread: alkorshid
+thread: nima
 source_url: https://www.youtube.com/watch?v=FTdUfTBNzaU
 source_type: youtube-auto-captions
 status: raw-input

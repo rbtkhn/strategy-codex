@@ -3,7 +3,7 @@ title: "Amb. Chas Freeman: National Guard shooting | Israel's FORCE-FIRST Approa
 host: Dialogue Works
 guest: Amb. Chas Freeman
 date: 2025-11-28
-thread: alkorshid
+thread: nima
 source_url: https://www.youtube.com/watch?v=T3oEqTNHrXI
 source_type: youtube-auto-captions
 status: raw-input

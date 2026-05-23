@@ -3,7 +3,7 @@ title: "Larry C. Johnson: Russia Launches Largest Missile & Drone Attack Yet"
 host: Nima Alkhorshid
 guest: Larry C. Johnson
 date: 2025-12-15
-thread: alkorshid
+thread: nima
 source_url: https://www.youtube.com/watch?v=-1Cpb5Nh7zc
 source_type: youtube-auto-captions
 status: raw-input

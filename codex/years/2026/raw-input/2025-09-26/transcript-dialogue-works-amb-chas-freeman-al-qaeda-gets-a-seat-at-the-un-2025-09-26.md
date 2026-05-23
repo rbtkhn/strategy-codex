@@ -5,7 +5,7 @@ kind: transcript
 thread: freeman
 threads:
   - freeman
-  - alkorshid
+  - nima
 show: Dialogue Works
 host: Nima Alkhorshid
 guests:

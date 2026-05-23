@@ -2,7 +2,7 @@
 ingest_date: 2026-05-09
 pub_date: 2026-05-09
 kind: transcript
-thread: alkorshid
+thread: nima
 show: Dialogue Works
 host: Nima Alkorshid
 guest: Seyed Mohammad Marandi
@@ -43,4 +43,4 @@ He closes by saying that Russia, China, and Iran have all grown stronger togethe
 
 - YouTube: `https://www.youtube.com/watch?v=RDvZv4mZTlg`
 - Channel: `https://www.youtube.com/watch?v=RDvZv4mZTlg`
-- Thread: `thread:alkorshid`
+- Thread: `thread:nima`
