@@ -14,6 +14,8 @@ Quick separation rule:
 
 - `johnson-arc` = Johnson's canonical continuity across hosts, contexts, and time
 - [johnson-helix.md](johnson-helix.md) = cross-host comparison of the main host transformations
+- [johnson-april-may-2026-arc-threads.md](stream/johnson-april-may-2026-arc-threads.md) = canonical recurring-strand atlas for the dense April-May 2026 core
+- [johnson-april-2026-cross-host-arc.md](stream/johnson-april-2026-cross-host-arc.md) and [johnson-may-2026-cross-host-arc.md](stream/johnson-may-2026-cross-host-arc.md) = bounded month sequencing for that dense core
 - [johnson-routing.md](johnson-routing.md) = fastest host-selection surface
 - host-local arcs = bounded realizations of Johnson under one host's pressure
 
@@ -27,7 +29,7 @@ Its main embodied lanes are:
 
 1. [Diesen x Johnson](../diesen/stream/diesen-johnson-speaker-arc.md) - geopolitical altitude and regional-order consequence
 2. [Davis x Johnson](../davis/stream/davis-johnson-speaker-arc.md) - operational feasibility and failed coercion
-3. [Dialogue Works x Johnson](../alkorshid/stream/alkorshid-johnson-speaker-arc.md) - live crisis pressure and humiliation tempo
+3. [Dialogue Works x Johnson](../nima/stream/nima-johnson-speaker-arc.md) - live crisis pressure and humiliation tempo
 
 Auxiliary reinforcement:
 
@@ -54,12 +56,16 @@ Core host transformations:
 
 - [Diesen x Johnson](../diesen/stream/diesen-johnson-speaker-arc.md) - best for altitude and regional-order consequence
 - [Davis x Johnson](../davis/stream/davis-johnson-speaker-arc.md) - best for feasibility and coercive failure
-- [Dialogue Works x Johnson](../alkorshid/stream/alkorshid-johnson-speaker-arc.md) - best for live crisis pressure
+- [Dialogue Works x Johnson](../nima/stream/nima-johnson-speaker-arc.md) - best for live crisis pressure
 
 Supporting surfaces:
 
 - [johnson-helix.md](johnson-helix.md)
+- [johnson-april-may-2026-arc-threads.md](stream/johnson-april-may-2026-arc-threads.md)
+- [johnson-april-2026-cross-host-arc.md](stream/johnson-april-2026-cross-host-arc.md)
+- [johnson-may-2026-cross-host-arc.md](stream/johnson-may-2026-cross-host-arc.md)
 - [johnson-cross-year-note.md](johnson-cross-year-note.md)
+- [johnson-backward-extension-note.md](johnson-backward-extension-note.md)
 - [johnson-raw-input-index.md](johnson-raw-input-index.md)
 - [index.md](index.md)
 
@@ -68,6 +74,10 @@ Supporting surfaces:
 If the operator needs the strongest whole-speaker comparative entry:
 
 - open [johnson-helix.md](johnson-helix.md)
+
+If the operator needs the cleanest dense-core thesis map:
+
+- open [johnson-april-may-2026-arc-threads.md](stream/johnson-april-may-2026-arc-threads.md)
 
 If the operator needs the fastest host-conditioned entry:
 
@@ -82,4 +92,5 @@ If the operator needs the cleanest single host-local anchor:
 - Do not treat `johnson-arc` as a substitute for the helix; the helix still owns host-transformation comparison.
 - Do not let any one host branch silently stand in for the whole Johnson continuity.
 - Do not overpromote the Napolitano branch into a fourth canonical strand unless its continuity thickens materially.
+- Do not let the recurring-strand atlas or bounded month spines silently replace the helix or the host-local arcs; those newer surfaces compress the dense core, but they do not erase host difference.
 - Open raw-input before quoting or making claim-grade factual use.

@@ -24,7 +24,7 @@ Quick separation rule:
 Its core embodied lanes are:
 
 1. [Diesen x Wilkerson](../diesen/stream/diesen-wilkerson-speaker-arc.md) - imperial-decline altitude and systemic consequence
-2. [Dialogue Works x Wilkerson](../alkorshid/stream/alkorshid-wilkerson-speaker-arc.md) - live crisis pressure and military-statecraft warning
+2. [Dialogue Works x Wilkerson](../nima/stream/nima-wilkerson-speaker-arc.md) - live crisis pressure and military-statecraft warning
 
 Auxiliary reinforcement:
 
@@ -50,7 +50,7 @@ That motion is broad enough that Wilkerson now deserves a person arc, even thoug
 Core host transformations:
 
 - [Diesen x Wilkerson](../diesen/stream/diesen-wilkerson-speaker-arc.md) - best for imperial-order consequence
-- [Dialogue Works x Wilkerson](../alkorshid/stream/alkorshid-wilkerson-speaker-arc.md) - best for live crisis warning
+- [Dialogue Works x Wilkerson](../nima/stream/nima-wilkerson-speaker-arc.md) - best for live crisis warning
 
 Supporting surfaces:
 

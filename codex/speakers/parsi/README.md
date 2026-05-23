@@ -8,6 +8,7 @@ Open here first when the question is not merely "what did Parsi say," but how hi
 
 ## Start here
 
+- [parsi-arc.md](/C:/dev/strategy-codex/codex/speakers/parsi/parsi-arc.md)
 - [authored-pressure-quartet.md](/C:/dev/strategy-codex/codex/speakers/authored-pressure-quartet.md)
 - [parsi-speaker-object.md](/C:/dev/strategy-codex/codex/speakers/parsi/parsi-speaker-object.md)
 - [parsi-helix.md](/C:/dev/strategy-codex/codex/speakers/parsi/parsi-helix.md)
@@ -30,6 +31,7 @@ In the [authored pressure quartet](/C:/dev/strategy-codex/codex/speakers/authore
 
 This shelf already has a genuine canonical structure:
 
+- [parsi-arc.md](/C:/dev/strategy-codex/codex/speakers/parsi/parsi-arc.md) is the canonical person-level continuity surface
 - [parsi-helix.md](/C:/dev/strategy-codex/codex/speakers/parsi/parsi-helix.md) is the crossing surface
 - [stream/parsi-forecast-ledger-2025-2026.md](stream/parsi-forecast-ledger-2025-2026.md) carries the authored diplomacy mechanism
 - [parsi-interview-appearances-2025-2026.md](/C:/dev/strategy-codex/codex/speakers/parsi/parsi-interview-appearances-2025-2026.md) carries the interview-pressure strand

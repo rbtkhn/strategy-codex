@@ -65,7 +65,7 @@ Treat valid-but-unwired speaker raw-input as a defect.
 
 - Napolitano densification: open [`../napolitano/`](../napolitano/), then Freeman, Johnson, Macgregor arcs.
 - Freeman: open [`../freeman/index.md`](../freeman/index.md), then the March cross-host arc or matching host-local arc.
-- Dialogue Works x Freeman: open [`../alkorshid/stream/alkorshid-freeman-speaker-arc.md`](../alkorshid/stream/alkorshid-freeman-speaker-arc.md), then [`../freeman/freeman-march-2026-cross-host-arc.md`](../freeman/freeman-march-2026-cross-host-arc.md) if the question crosses hosts.
+- Dialogue Works x Freeman: open [`../nima/stream/nima-freeman-arc.md`](../nima/stream/nima-freeman-arc.md), then [`../freeman/freeman-march-2026-cross-host-arc.md`](../freeman/freeman-march-2026-cross-host-arc.md) if the question crosses hosts.
 - Davis x Barnes: open [`../davis/stream/davis-barnes-speaker-arc.md`](../davis/stream/davis-barnes-speaker-arc.md), then the Barnes speaker folder if it exists.
 
 ## Boundary

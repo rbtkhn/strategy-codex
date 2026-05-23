@@ -8,6 +8,7 @@ Open here first when the question is not merely "what did Macgregor say," but **
 
 ## Start here
 
+- [macgregor-arc.md](/C:/dev/strategy-codex/codex/speakers/macgregor/macgregor-arc.md)
 - [macgregor-routing.md](/C:/dev/strategy-codex/codex/speakers/macgregor/macgregor-routing.md)
 - [macgregor-surface-orthogonality-2026-05.md](/C:/dev/strategy-codex/codex/speakers/macgregor/macgregor-surface-orthogonality-2026-05.md)
 
@@ -20,6 +21,7 @@ Open here first when the question is not merely "what did Macgregor say," but **
 
 This shelf already has a genuine canonical structure:
 
+- [macgregor-arc.md](/C:/dev/strategy-codex/codex/speakers/macgregor/macgregor-arc.md) is the canonical person-level continuity surface
 - [macgregor-helix.md](/C:/dev/strategy-codex/codex/speakers/macgregor/macgregor-helix.md) is the crossing surface
 - the two main host-local arcs carry the stable distinct host transformations
 - [macgregor-cross-year-note.md](/C:/dev/strategy-codex/codex/speakers/macgregor/macgregor-cross-year-note.md) preserves the longitudinal maturity claim

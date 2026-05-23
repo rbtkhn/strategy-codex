@@ -7,13 +7,21 @@ Purpose: front door for the canonical Johnson shelf, surfacing the speaker-routi
 ## Open First
 
 - [Lane README](README.md) - shelf overview, speaker-routing links, and lane-role framing.
+- [Speaker arc](../../../speakers/johnson/johnson-arc.md) - canonical person-level continuity surface.
+- [Speaker helix note](../../../speakers/johnson/johnson-helix.md) - why the canonical host-comparison structure holds together.
+- [April-May 2026 arc-threads](../../../speakers/johnson/stream/johnson-april-may-2026-arc-threads.md) - canonical recurring-strand atlas for the dense 2026 core.
+- [April 2026 cross-host arc](../../../speakers/johnson/stream/johnson-april-2026-cross-host-arc.md) - bounded month spine for blockade theater, ceasefire contradiction, and widening shock.
+- [May 2026 cross-host arc](../../../speakers/johnson/stream/johnson-may-2026-cross-host-arc.md) - bounded month spine for Gulf repositioning and post-control reality.
 - [Raw-input index](johnson-raw-input-index.md) - exhaustive route map for every resolved Johnson raw-input appearance currently materialized in the repo.
 - [Speaker routing note](../../../speakers/johnson/johnson-routing.md) - fastest answer to which host lane to open first.
-- [Speaker helix note](../../../speakers/johnson/johnson-helix.md) - why the canonical triple structure holds together.
+- [Backward extension note](../../../speakers/johnson/johnson-backward-extension-note.md) - governed path from the dense 2026 core back into late 2025 and early 2025 roots.
 
 ## Core Speaker Files
 
 - [Speaker folder README](../../../speakers/johnson/README.md)
+- [Speaker arc](../../../speakers/johnson/johnson-arc.md)
+- [Speaker helix](../../../speakers/johnson/johnson-helix.md)
+- [Backward extension note](../../../speakers/johnson/johnson-backward-extension-note.md)
 - [Cross-year note](../../../speakers/johnson/johnson-cross-year-note.md)
 - [Speaker profile](../../../speakers/johnson/johnson-profile.md)
 - [Thread compatibility file](../../../speakers/johnson/johnson-thread.md) - legacy continuity surface; not a canonical topical-thread system
@@ -24,9 +32,13 @@ Purpose: front door for the canonical Johnson shelf, surfacing the speaker-routi
 
 Johnson's orthogonality-bearing structure is:
 
+- [Speaker arc](../../../speakers/johnson/johnson-arc.md) for the person-level continuity surface
 - [Speaker helix](../../../speakers/johnson/johnson-helix.md) for the crossing surface across the main host lanes
+- [April-May 2026 arc-threads](../../../speakers/johnson/stream/johnson-april-may-2026-arc-threads.md) for the canonical recurring-strand atlas of the dense 2026 core
+- [April 2026 cross-host arc](../../../speakers/johnson/stream/johnson-april-2026-cross-host-arc.md) and [May 2026 cross-host arc](../../../speakers/johnson/stream/johnson-may-2026-cross-host-arc.md) for bounded month sequencing inside that core
 - the three main host-local arcs for distinct host transformations
 - [Cross-year note](../../../speakers/johnson/johnson-cross-year-note.md) for the longitudinal maturity claim
+- [Backward extension note](../../../speakers/johnson/johnson-backward-extension-note.md) for the governed path back into 2025
 
 Do not read [johnson-thread.md](../../../speakers/johnson/johnson-thread.md) as a second competing topical-thread system. It is a legacy compatibility file carried forward from the older expert-thread machinery.
 
@@ -34,7 +46,7 @@ Do not read [johnson-thread.md](../../../speakers/johnson/johnson-thread.md) as 
 
 - [Davis x Johnson](../davis/stream/davis-johnson-speaker-arc.md)
 - [Diesen x Johnson](../diesen/stream/diesen-johnson-speaker-arc.md)
-- [Dialogue Works x Johnson](../alkorshid/stream/alkorshid-johnson-speaker-arc.md)
+- [Dialogue Works x Johnson](../nima/stream/nima-johnson-speaker-arc.md)
 - [Judging Freedom x Johnson](../napolitano/stream/napolitano-johnson-speaker-arc.md)
 
 ## Best Live Entry Files

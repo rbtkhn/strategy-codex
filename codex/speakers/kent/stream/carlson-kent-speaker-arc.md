@@ -2,7 +2,7 @@
 
 WORK only; not Record.
 
-Purpose: preserve the Tucker Carlson transformation of Joe Kent as a host-local lane. This is the resignation-letter spine of the Kent object: the place where Kent's inside-system dissent is framed as public testimony about Iran war decision-making, Israeli influence, intelligence-channel bypass, Trump pressure, and a possible exit path.
+Purpose: preserve the Tucker Carlson transformation of Joe Kent as a Kent-owned host-conditioned branch. This is the resignation-letter spine of the Kent object: the place where Kent's inside-system dissent is framed as public testimony about Iran war decision-making, Israeli influence, intelligence-channel bypass, Trump pressure, and a possible exit path.
 
 ## Core function
 
@@ -39,7 +39,7 @@ Quick separation rule:
 
 Do not use this arc as a shortcut for walkaway feasibility, Iraq/Syria/ISIS structural critique, or Trump-pressure psychology. Its distinctive job is to preserve Kent as a witness figure speaking on the record about what happened inside the decision process.
 
-## Claims To Keep Separate
+## Claims to keep separate
 
 Use raw-input when any of these become load-bearing:
 

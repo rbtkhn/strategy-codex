@@ -35,7 +35,7 @@ Do not read [ritter-thread.md](ritter-thread.md) or the dated `ritter-thread-202
 
 - [Davis x Ritter](../davis/stream/davis-ritter-speaker-arc.md)
 - [Diesen x Ritter](../diesen/stream/diesen-ritter-speaker-arc.md)
-- [Dialogue Works x Ritter](../alkorshid/stream/alkorshid-ritter-speaker-arc.md)
+- [Dialogue Works x Ritter](../nima/stream/nima-ritter-speaker-arc.md)
 - [Judging Freedom x Ritter](../napolitano/stream/napolitano-ritter-speaker-arc.md)
 
 ## Best Live Entry Files

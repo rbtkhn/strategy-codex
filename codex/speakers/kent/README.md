@@ -19,17 +19,17 @@ This shelf already has a genuine canonical structure:
 
 - [kent-speaker-object.md](/C:/dev/strategy-codex/codex/speakers/kent/kent-speaker-object.md) defines the thin but real cross-host reinforced object
 - [davis-kent-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-kent-speaker-arc.md) is the thickest recurring branch
-- [carlson-kent-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/carlson/stream/carlson-kent-speaker-arc.md) preserves the witness spine
+- [carlson-kent-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/kent/stream/carlson-kent-speaker-arc.md) preserves the witness spine
 - [kent-helix.md](/C:/dev/strategy-codex/codex/speakers/kent/kent-helix.md) is the crossing surface that compares the lighter host transformations without overstating equal maturity
 
 The shelf is therefore **cross-host reinforced rather than profile-first**. Do not reduce Kent to the Carlson resignation interview alone, but do not overstate the shelf as a mature equal-strand helix either.
 
 ## Host lanes
 
-- [Carlson x Kent](/C:/dev/strategy-codex/codex/speakers/carlson/stream/carlson-kent-speaker-arc.md)
+- [Carlson x Kent](/C:/dev/strategy-codex/codex/speakers/kent/stream/carlson-kent-speaker-arc.md)
 - [Davis x Kent](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-kent-speaker-arc.md)
 - [Diesen x Kent](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-kent-speaker-arc.md)
-- [Nawfal x Kent](/C:/dev/strategy-codex/codex/speakers/nawfal/stream/nawfal-kent-speaker-arc.md)
+- [Nawfal x Kent](/C:/dev/strategy-codex/codex/speakers/kent/stream/nawfal-kent-speaker-arc.md)
 
 ## Current evidence anchors
 

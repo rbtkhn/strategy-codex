@@ -9,7 +9,7 @@ Local surfaces under review:
 - [baud-arc.md](/C:/dev/strategy-codex/codex/speakers/baud/baud-arc.md)
 - [baud-helix.md](/C:/dev/strategy-codex/codex/speakers/baud/baud-helix.md)
 - [baud-thread-international-law.md](/C:/dev/strategy-codex/codex/speakers/baud/baud-thread-international-law.md)
-- [alkorshid-baud-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-baud-arc.md)
+- [nima-baud-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-baud-arc.md)
 - [davis-baud-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-baud-arc.md)
 - [diesen-baud-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-baud-arc.md)
 - [baud-thread.md](/C:/dev/strategy-codex/codex/speakers/baud/baud-thread.md)
@@ -25,7 +25,7 @@ Bounded claim:
 Arcs under review:
 
 - [baud-arc.md](/C:/dev/strategy-codex/codex/speakers/baud/baud-arc.md)
-- [alkorshid-baud-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-baud-arc.md)
+- [nima-baud-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-baud-arc.md)
 - [davis-baud-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-baud-arc.md)
 - [diesen-baud-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-baud-arc.md)
 
@@ -53,7 +53,7 @@ Comparison-only notes:
 | Arc | Owned continuity | Distinct frame | Distinct evidence habit | Distinct use | Status |
 |---|---|---|---|---|---|
 | `baud-arc.md` | person-level continuity across Europe, coercion, and law | broad Baud continuity and older journal surface | mixed historical journal plus machine layer continuity | open when the question is broader than one host or one legal strand | keep |
-| `alkorshid-baud-arc.md` | live crisis pressure translated into deterrence and treaty skepticism | present-tense legal-rationality under event tempo | dense 2026 serial host run | open when the task needs Baud under immediate crisis pressure | keep |
+| `nima-baud-arc.md` | live crisis pressure translated into deterrence and treaty skepticism | present-tense legal-rationality under event tempo | dense 2026 serial host run | open when the task needs Baud under immediate crisis pressure | keep |
 | `davis-baud-arc.md` | war talk translated into mandate, liability, and coercive-feasibility critique | alliance-mandate and legal-strategic feasibility | thinner but real host run with strong Iran-war legality anchors | open when the task needs co-belligerency, perfidy, mandate, or liability logic | keep |
 | `diesen-baud-arc.md` | 2025 European-security legality and diplomatic failure | cross-year correction and historical host transformation | 2025 host lane with partial but real materialization | open when the task needs the historical Diesen transformation without inflating the 2026 object | keep |
 

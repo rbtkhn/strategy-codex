@@ -34,7 +34,7 @@ McGovern carries a distinct utility profile:
 McGovern should currently be read as a **double-helix speaker object**:
 
 - [Diesen x McGovern](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-mcgovern-speaker-arc.md)
-- [Alkorshid x McGovern](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-mcgovern-speaker-arc.md)
+- [Alkorshid x McGovern](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-mcgovern-speaker-arc.md)
 
 That means:
 
@@ -59,7 +59,7 @@ If the operator needs the clearest current strategic branch:
 
 If the operator needs the clearest current live-pressure branch:
 
-- open [alkorshid-mcgovern-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-mcgovern-speaker-arc.md)
+- open [nima-mcgovern-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-mcgovern-speaker-arc.md)
 
 If the operator needs the strongest current Diesen anchor:
 

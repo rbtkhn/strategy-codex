@@ -8,10 +8,10 @@ Local surfaces under review:
 
 - [kent-speaker-object.md](/C:/dev/strategy-codex/codex/speakers/kent/kent-speaker-object.md)
 - [kent-helix.md](/C:/dev/strategy-codex/codex/speakers/kent/kent-helix.md)
-- [carlson-kent-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/carlson/stream/carlson-kent-speaker-arc.md)
+- [carlson-kent-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/kent/stream/carlson-kent-speaker-arc.md)
 - [davis-kent-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-kent-speaker-arc.md)
 - [diesen-kent-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-kent-speaker-arc.md)
-- [nawfal-kent-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/nawfal/stream/nawfal-kent-speaker-arc.md)
+- [nawfal-kent-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/kent/stream/nawfal-kent-speaker-arc.md)
 - [2026-04-21 Barnes x Kent exit-ramp quote](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-21/x-barnes-kent-exit-ramp-qt-2026-04-21.md)
 
 Bounded claim:
@@ -24,10 +24,10 @@ Bounded claim:
 
 Arcs under review:
 
-- [carlson-kent-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/carlson/stream/carlson-kent-speaker-arc.md)
+- [carlson-kent-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/kent/stream/carlson-kent-speaker-arc.md)
 - [davis-kent-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-kent-speaker-arc.md)
 - [diesen-kent-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-kent-speaker-arc.md)
-- [nawfal-kent-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/nawfal/stream/nawfal-kent-speaker-arc.md)
+- [nawfal-kent-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/kent/stream/nawfal-kent-speaker-arc.md)
 
 Threads under review:
 
@@ -102,9 +102,9 @@ Main confusion zones:
 
 - keep Kent as a **cross-host reinforced object**, not a mature equal-strand helix
 - keep [davis-kent-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-kent-speaker-arc.md) as the thickest branch and default retrieval lane for Iran-war exit logic
-- keep [carlson-kent-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/carlson/stream/carlson-kent-speaker-arc.md) as the witness spine
+- keep [carlson-kent-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/kent/stream/carlson-kent-speaker-arc.md) as the witness spine
 - keep [diesen-kent-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-kent-speaker-arc.md) as the structural-history branch without overstating its density
-- keep [nawfal-kent-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/nawfal/stream/nawfal-kent-speaker-arc.md) as a real but thinner political-pressure branch
+- keep [nawfal-kent-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/kent/stream/nawfal-kent-speaker-arc.md) as a real but thinner political-pressure branch
 - keep [kent-helix.md](/C:/dev/strategy-codex/codex/speakers/kent/kent-helix.md) as a comparative routing surface, but do not let shelf-front wording imply stronger maturity than the object doctrine supports
 - keep Barnes as reinforcement only
 

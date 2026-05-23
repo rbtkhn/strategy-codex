@@ -18,7 +18,7 @@ Quick separation rule:
 - `baud-arc.md` = older person-level continuity and longitudinal journal surface
 - [baud-thread-international-law.md](/C:/dev/strategy-codex/codex/speakers/baud/baud-thread-international-law.md) = canonical topical law thread
 - [baud-helix.md](/C:/dev/strategy-codex/codex/speakers/baud/baud-helix.md) = cross-host comparison and host-strand separation surface
-- [alkorshid-baud-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-baud-arc.md), [davis-baud-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-baud-arc.md), and [diesen-baud-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-baud-arc.md) = host-local retrieval surfaces
+- [nima-baud-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-baud-arc.md), [davis-baud-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-baud-arc.md), and [diesen-baud-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-baud-arc.md) = host-local retrieval surfaces
 - [baud-thread.md](/C:/dev/strategy-codex/codex/speakers/baud/baud-thread.md) = legacy continuity compatibility, not a competing canonical thread system
 
 If the operator needs the law lane, route to `baud-thread-international-law.md`. If the operator needs host transformation, route to the helix or the relevant host-local arc. Use this file for person-level continuity and historical journal context, not to collapse those other surfaces back into one object.

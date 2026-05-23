@@ -22,7 +22,7 @@ So this note is the **speaker-side index** into the real Ritter host lanes, not 
 |---|---|---|
 | operational feasibility, stockpiles, skies, basing pressure, or blockade impracticality | [davis-ritter-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-ritter-speaker-arc.md) | Davis gives Ritter his clearest military-practicality and war-feasibility testing ground. |
 | escalation horizon, sea-control pressure, cross-theater spillover, or mechanics beneath geopolitical framing | [diesen-ritter-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-ritter-speaker-arc.md) | Diesen gives the highest-altitude Ritter lane while still preserving the military-mechanics seam. |
-| live war pressure, rapid inversion claims, Hormuz vulnerability, or immediate crisis-motion | [alkorshid-ritter-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-ritter-speaker-arc.md) | Dialogue Works pushes Ritter into his sharpest present-tense war-pressure register. |
+| live war pressure, rapid inversion claims, Hormuz vulnerability, or immediate crisis-motion | [nima-ritter-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-ritter-speaker-arc.md) | Dialogue Works pushes Ritter into his sharpest present-tense war-pressure register. |
 | blockade legality, piracy framing, or a compact auxiliary legal-libertarian reinforcement lane | [napolitano-ritter-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-ritter-speaker-arc.md) | Napolitano gives a real but secondary host form focused on legality, command absurdity, and war-power critique. |
 | the cleanest all-around first orientation to Ritter as an object | [ritter-helix.md](/C:/dev/strategy-codex/codex/speakers/ritter/ritter-helix.md) | The helix note explains how the canonical triple structure fits together and how the earlier double-helix phase feeds it. |
 | the authored claim behind an interview pattern | [ritter-forecast-ledger-2026.md](/C:/dev/strategy-codex/codex/speakers/ritter/stream/ritter-forecast-ledger-2026.md), then [ritter-interview-appearances-2025-2026.md](/C:/dev/strategy-codex/codex/speakers/ritter/ritter-interview-appearances-2025-2026.md) | Open the Substack row for the doctrine, then the interview cluster that reinforces, extends, or stress-tests it. |
@@ -40,7 +40,7 @@ So this note is the **speaker-side index** into the real Ritter host lanes, not 
 
 - **Best host for military-practicality reading:** [davis](/C:/dev/strategy-codex/codex/speakers/davis/stream/)
 - **Best host for escalation-horizon reading:** [diesen](/C:/dev/strategy-codex/codex/speakers/diesen/stream/)
-- **Best host for live war-pressure reading:** [alkorshid](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/)
+- **Best host for live war-pressure reading:** [alkorshid](/C:/dev/strategy-codex/codex/speakers/nima/stream/)
 - **Best host for auxiliary legality-and-command-failure reinforcement:** [napolitano](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/)
 
 ## Boundaries

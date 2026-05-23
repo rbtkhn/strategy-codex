@@ -26,7 +26,7 @@ The older [marandi-thread.md](marandi-thread.md) file is a **legacy continuity c
 
 - [Davis x Marandi](../davis/stream/davis-marandi-speaker-arc.md)
 - [Diesen x Marandi](../diesen/stream/diesen-marandi-speaker-arc.md)
-- [Dialogue Works x Marandi](../alkorshid/stream/alkorshid-marandi-speaker-arc.md)
+- [Dialogue Works x Marandi](../nima/stream/nima-marandi-speaker-arc.md)
 
 ## Compatibility Files
 

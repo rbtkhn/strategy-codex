@@ -35,7 +35,7 @@ Postol should currently be read as a **helix-first speaker object with three mat
 
 - [Davis x Postol](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-postol-speaker-arc.md)
 - [Diesen x Postol](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-postol-speaker-arc.md)
-- [Alkorshid x Postol](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-postol-speaker-arc.md)
+- [Alkorshid x Postol](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-postol-speaker-arc.md)
 
 That means:
 
@@ -67,7 +67,7 @@ If the operator needs the clearest strategic-order branch:
 
 If the operator needs the clearest live-pressure branch already on disk:
 
-- open [alkorshid-postol-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-postol-speaker-arc.md)
+- open [nima-postol-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-postol-speaker-arc.md)
 
 If the operator needs the strongest current materialized raw-input file:
 

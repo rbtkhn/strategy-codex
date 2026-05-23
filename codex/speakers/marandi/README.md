@@ -6,6 +6,7 @@ This is the canonical Marandi speaker shelf.
 
 ## Open First
 
+- [marandi-arc.md](marandi-arc.md)
 - [index.md](index.md)
 - [marandi-speaker-object.md](marandi-speaker-object.md)
 - [marandi-helix.md](marandi-helix.md)
@@ -16,6 +17,7 @@ This is the canonical Marandi speaker shelf.
 
 This shelf already has a genuine canonical structure:
 
+- [marandi-arc.md](marandi-arc.md) is the canonical person-level continuity surface
 - [marandi-speaker-object.md](marandi-speaker-object.md) defines the speaker as a helix-first object
 - [marandi-helix.md](marandi-helix.md) is the crossing surface
 - the three main host-local arcs carry the distinct host transformations
@@ -36,7 +38,7 @@ Marandi is speaker-first rather than year-lane-first.
 
 - [Davis x Marandi](../davis/stream/davis-marandi-speaker-arc.md)
 - [Diesen x Marandi](../diesen/stream/diesen-marandi-speaker-arc.md)
-- [Dialogue Works x Marandi](../alkorshid/stream/alkorshid-marandi-speaker-arc.md)
+- [Dialogue Works x Marandi](../nima/stream/nima-marandi-speaker-arc.md)
 
 ## Boundary
 

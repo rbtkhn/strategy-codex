@@ -18,7 +18,7 @@ Marandi is therefore best read as a **helix-first speaker object**: one of the c
 |---|---|---|
 | [diesen x marandi](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-marandi-speaker-arc.md) | Strategic-order / escalation horizon | Iranian strategy, retaliation ladders, blockade logic, and how the war sits inside wider order transition |
 | [davis x marandi](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-marandi-speaker-arc.md) | Operational limits | Failed intimidation, Iranian resilience, shrinking U.S. options, and what force can no longer realistically recover |
-| [alkorshid x marandi](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-marandi-speaker-arc.md) | Live crisis pressure | Ultimata, strikes, Hormuz, Yemen, collapse claims, and immediate regional signaling under maximum pressure |
+| [alkorshid x marandi](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-marandi-speaker-arc.md) | Live crisis pressure | Ultimata, strikes, Hormuz, Yemen, collapse claims, and immediate regional signaling under maximum pressure |
 
 ## Orthogonality guide
 

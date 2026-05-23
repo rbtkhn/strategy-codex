@@ -10,7 +10,7 @@ Local surfaces under review:
 - [marandi-helix.md](/C:/dev/strategy-codex/codex/speakers/marandi/marandi-helix.md)
 - [davis-marandi-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-marandi-speaker-arc.md)
 - [diesen-marandi-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-marandi-speaker-arc.md)
-- [alkorshid-marandi-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-marandi-speaker-arc.md)
+- [nima-marandi-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-marandi-speaker-arc.md)
 - [marandi-thread.md](/C:/dev/strategy-codex/codex/speakers/marandi/marandi-thread.md)
 
 Bounded claim:
@@ -25,7 +25,7 @@ Arcs under review:
 
 - [davis-marandi-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-marandi-speaker-arc.md)
 - [diesen-marandi-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-marandi-speaker-arc.md)
-- [alkorshid-marandi-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-marandi-speaker-arc.md)
+- [nima-marandi-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-marandi-speaker-arc.md)
 
 Threads under review:
 
@@ -50,7 +50,7 @@ Comparison-only notes:
 |---|---|---|---|---|---|
 | `davis-marandi-speaker-arc.md` | Iran-war pressure translated into failed coercion and unrecoverable military leverage | operational feasibility and intimidation failure | dense spring 2026 run under military-practicality host pressure | open when the task asks what force can no longer realistically achieve against Iran | keep |
 | `diesen-marandi-speaker-arc.md` | Iran-war pressure translated into escalation ladders and wider order consequence | strategic-order altitude and blockade consequence | mature 2026 Hormuz and escalation run under multipolar-transition host pressure | open when the task asks how Iranian resolve alters wider regional or systemic structure | keep |
-| `alkorshid-marandi-speaker-arc.md` | live crisis movement translated into red-line signaling and legitimacy claims | present-tense regional signaling and regime-adjacent pressure language | highest-temperature crisis run with strong selective-Hormuz and GCC-complicity emphasis | open when the task needs Tehran-facing red-line language under maximum pressure | keep |
+| `nima-marandi-speaker-arc.md` | live crisis movement translated into red-line signaling and legitimacy claims | present-tense regional signaling and regime-adjacent pressure language | highest-temperature crisis run with strong selective-Hormuz and GCC-complicity emphasis | open when the task needs Tehran-facing red-line language under maximum pressure | keep |
 
 ## Thread audit
 

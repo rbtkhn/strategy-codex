@@ -2,13 +2,15 @@
 
 WORK only; not Record.
 
-Purpose: compact cross-host note for reading the recurring Johnson lanes together. This is not a substitute for the host-local speaker arcs and raw-input runs. It exists so future routing can quickly answer: why these lanes belong together, what each host transforms in the Johnson voice, and where to enter the helix.
+Purpose: compact cross-host note for reading the recurring Johnson lanes together. This is not a substitute for the host-local speaker arcs, the dense-core month spines, the recurring-strand atlas, or raw-input runs. It exists so future routing can quickly answer: why these lanes belong together, what each host transforms in the Johnson voice, and where to enter the helix.
 
 For the faster speaker-side entry surface that answers **which host lane to open first**, see [johnson-routing.md](/C:/dev/strategy-codex/codex/speakers/johnson/johnson-routing.md).
 
 ## Core claim
 
 The Johnson triple helix is one pressure-interpreting voice transformed by three hosts: Diesen gives geopolitical altitude, Davis tests operational feasibility, and Dialogue Works applies maximum live crisis pressure.
+
+The canonical recurring-strand atlas for the dense 2026 core is [johnson-april-may-2026-arc-threads.md](/C:/dev/strategy-codex/codex/speakers/johnson/stream/johnson-april-may-2026-arc-threads.md). Bounded sequencing for that same core lives in [johnson-april-2026-cross-host-arc.md](/C:/dev/strategy-codex/codex/speakers/johnson/stream/johnson-april-2026-cross-host-arc.md) and [johnson-may-2026-cross-host-arc.md](/C:/dev/strategy-codex/codex/speakers/johnson/stream/johnson-may-2026-cross-host-arc.md).
 
 These arcs should be read together because they are not merely repeated appearances, but distinct host transformations of the same underlying voice. Read together, they show more of Johnson's range than any single host lane can carry on its own.
 
@@ -22,7 +24,7 @@ A real April 2026 `Napolitano x Johnson` branch now exists on disk as well, but 
 |---|---|---|
 | [diesen x johnson](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-johnson-speaker-arc.md) | Geopolitical altitude | Gulf vulnerability, regional realignment, strategic exposure, and the wider order consequences of Iran-war escalation |
 | [davis x johnson](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-johnson-speaker-arc.md) | Operational feasibility | Impractical objectives, coercive failure, shrinking leverage, and what force can no longer realistically recover |
-| [alkorshid x johnson](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-johnson-speaker-arc.md) | Live crisis pressure | Strike escalation, Hormuz stress, humiliation of coercive displays, and immediate crisis-motion under maximum event pressure |
+| [dialogue works x johnson](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-johnson-speaker-arc.md) | Live crisis pressure | Strike escalation, Hormuz stress, humiliation of coercive displays, and immediate crisis-motion under maximum event pressure |
 
 ## Orthogonality guide
 
@@ -32,7 +34,7 @@ Quick separation rule:
 
 - `diesen x johnson` = strategic altitude, regional exposure, and wider order consequence
 - `davis x johnson` = force feasibility, failed coercion, and what policy can no longer extract from military pressure
-- `alkorshid x johnson` = immediate crisis motion, event pressure, and the humiliation tempo of escalation
+- `dialogue works x johnson` = immediate crisis motion, event pressure, and the humiliation tempo of escalation
 
 If a Johnson claim could sit in several of these without changing the operator's use, prefer the narrower host lane or keep it at raw-input level rather than broadening the helix claim.
 
@@ -47,7 +49,7 @@ If the operator needs the best helix pair:
 - open [davis-johnson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-johnson-speaker-arc.md)
 - then [diesen-johnson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-johnson-speaker-arc.md)
 
-Add [alkorshid-johnson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-johnson-speaker-arc.md) when the notebook needs the sharpest present-tense pressure surface rather than only the feasibility and altitude lanes.
+Add [nima-johnson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-johnson-speaker-arc.md) when the notebook needs the sharpest present-tense pressure surface rather than only the feasibility and altitude lanes.
 
 ## Routing use
 

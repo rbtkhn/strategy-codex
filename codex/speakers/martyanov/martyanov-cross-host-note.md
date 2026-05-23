@@ -10,7 +10,7 @@ Martyanov is no longer only a Dialogue Works-adjacent voice.
 
 There is now clear on-disk evidence that the same Martyanov object recurs across at least three distinct host environments:
 
-- [Alkhorshid x Martyanov](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-martyanov-speaker-arc.md)
+- [Alkhorshid x Martyanov](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-martyanov-speaker-arc.md)
 - [Davis x Martyanov](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-martyanov-speaker-arc.md)
 - [Diesen x Martyanov](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-martyanov-speaker-arc.md)
 

@@ -11,6 +11,7 @@ Purpose: front door for the Jiang shelf, keeping the Predictive History routing 
 - [jiang-thread.md](jiang-thread.md)
 - [jiang-transcript.md](jiang-transcript.md)
 - [jiang-on-china.md](jiang-on-china.md)
+- [jiang-china-russia-continental-depth.md](jiang-china-russia-continental-depth.md)
 - [jiang-surface-orthogonality-2026-05.md](jiang-surface-orthogonality-2026-05.md)
 
 ## Best Entry Points
@@ -19,6 +20,7 @@ Purpose: front door for the Jiang shelf, keeping the Predictive History routing 
 - [jiang-thread.md](jiang-thread.md) - legacy distilled companion continuity surface when PH-derived material has been routed in; not a canonical topical thread under the newer speaker taxonomy.
 - [jiang-transcript.md](jiang-transcript.md) - rolling verbatim companion file for recent Jiang-facing work.
 - [jiang-on-china.md](jiang-on-china.md) - compact routing note on Jiang's split view of Chinese civilization, Chinese elites, and the dollar order.
+- [jiang-china-russia-continental-depth.md](jiang-china-russia-continental-depth.md) - narrower routing note on where Jiang treats Russia as a dependence risk for China and where a continental-depth counter-reading pushes back.
 - [jiang-surface-orthogonality-2026-05.md](jiang-surface-orthogonality-2026-05.md) - review note on where the current Jiang shelf is distinct by use and where legacy naming still causes taxonomy pressure.
 
 ## Shape

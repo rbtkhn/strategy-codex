@@ -11,7 +11,7 @@ Local surfaces under review:
 - [ritter-forecast-ledger-2026.md](/C:/dev/strategy-codex/codex/speakers/ritter/stream/ritter-forecast-ledger-2026.md)
 - [diesen-ritter-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-ritter-speaker-arc.md)
 - [davis-ritter-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-ritter-speaker-arc.md)
-- [alkorshid-ritter-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-ritter-speaker-arc.md)
+- [nima-ritter-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-ritter-speaker-arc.md)
 - [napolitano-ritter-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-ritter-speaker-arc.md)
 - [ritter-thread.md](/C:/dev/strategy-codex/codex/speakers/ritter/stream/ritter-thread.md)
 
@@ -27,7 +27,7 @@ Arcs under review:
 
 - [diesen-ritter-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-ritter-speaker-arc.md)
 - [davis-ritter-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-ritter-speaker-arc.md)
-- [alkorshid-ritter-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-ritter-speaker-arc.md)
+- [nima-ritter-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-ritter-speaker-arc.md)
 - [napolitano-ritter-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-ritter-speaker-arc.md)
 
 Threads under review:
@@ -56,7 +56,7 @@ Comparison-only notes:
 |---|---|---|---|---|---|
 | `diesen-ritter-speaker-arc.md` | military escalation translated into cross-theater consequence | escalation horizon and wider strategic consequence | broad 2025-2026 host run with strong Europe/Gulf linkage | open when the task asks how military mechanics propagate into wider consequence | keep |
 | `davis-ritter-speaker-arc.md` | military claims translated into hard feasibility limits | operational feasibility and material constraint | compact but dense 2026 host run around stockpiles, skies, and blockade practicality | open when the task asks what can actually be imposed or sustained | keep |
-| `alkorshid-ritter-speaker-arc.md` | rapid war motion translated into immediate loss-of-control claims | maximum live-war pressure and collapse temperature | high-tempo cross-year host run | open when the task needs the sharpest present-tense Ritter register | keep |
+| `nima-ritter-speaker-arc.md` | rapid war motion translated into immediate loss-of-control claims | maximum live-war pressure and collapse temperature | high-tempo cross-year host run | open when the task needs the sharpest present-tense Ritter register | keep |
 | `napolitano-ritter-speaker-arc.md` | war mechanics translated into legality and command-failure pressure | legal-pressure and command absurdity | real but auxiliary November 2025-May 2026 branch | keep as auxiliary host branch, not part of the canonical triple helix | keep |
 
 ## Thread audit

@@ -58,7 +58,7 @@ If the operator needs the strongest host-local entry:
 
 If the operator needs the most regime-adjacent pressure lane:
 
-- open [alkorshid-marandi-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-marandi-speaker-arc.md)
+- open [nima-marandi-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-marandi-speaker-arc.md)
 
 ## Routing use
 

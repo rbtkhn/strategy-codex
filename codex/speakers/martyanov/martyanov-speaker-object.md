@@ -39,7 +39,7 @@ Martyanov should currently be read as a **helix-first speaker object with three 
 
 That means:
 
-- [Alkhorshid x Martyanov](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-martyanov-speaker-arc.md) is the clearest mature branch
+- [Alkhorshid x Martyanov](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-martyanov-speaker-arc.md) is the clearest mature branch
 - [Davis x Martyanov](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-martyanov-speaker-arc.md) is a strong real secondary branch
 - [Diesen x Martyanov](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-martyanov-speaker-arc.md) is materially real on disk, but currently thinner than the other two
 
@@ -49,7 +49,7 @@ The notebook should therefore enter Martyanov through host transformation first,
 
 If the operator needs the strongest current host-local lane:
 
-- open [alkorshid-martyanov-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-martyanov-speaker-arc.md)
+- open [nima-martyanov-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-martyanov-speaker-arc.md)
 
 If the operator needs the strongest non-Alkhorshid branch:
 

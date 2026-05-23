@@ -17,7 +17,7 @@ Use this file when the notebook needs **Baud on international law as a topical c
 Do not use this file as a substitute for:
 
 - [baud-arc.md](/C:/dev/strategy-codex/codex/speakers/baud/baud-arc.md) for person-level continuity
-- [alkorshid-baud-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-baud-arc.md) for live-crisis legality under Nima pressure
+- [nima-baud-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-baud-arc.md) for live-crisis legality under Nima pressure
 - [davis-baud-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-baud-arc.md) for alliance-mandate and coercive-feasibility framing
 - [diesen-baud-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-baud-arc.md) for order-transition and legitimacy-system consequence
 
@@ -37,7 +37,7 @@ Distinct from:
 
 - [crooke-thread-international-law.md](/C:/dev/strategy-codex/codex/speakers/crooke/stream/crooke-thread-international-law.md), which is stronger on negotiated-order credibility and sovereignty recognition than on legal taxonomy
 - [baud-arc.md](/C:/dev/strategy-codex/codex/speakers/baud/baud-arc.md), which carries broader Baud person-level continuity beyond the law lane
-- [alkorshid-baud-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-baud-arc.md), [davis-baud-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-baud-arc.md), and [diesen-baud-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-baud-arc.md), which apply the same legal grammar under different host pressures
+- [nima-baud-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-baud-arc.md), [davis-baud-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-baud-arc.md), and [diesen-baud-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-baud-arc.md), which apply the same legal grammar under different host pressures
 
 ## Core thesis
 
@@ -67,7 +67,7 @@ Primary Baud materials already in the repo that strongly feed this lane:
 
 Best relational companions when this topic needs host-specific pressure:
 
-- [alkorshid-baud-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-baud-arc.md)
+- [nima-baud-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-baud-arc.md)
 - [davis-baud-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-baud-arc.md)
 - [diesen-baud-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-baud-arc.md)
 
@@ -94,7 +94,7 @@ Baud’s legal talk is usually tied to battlefield or diplomatic consequence:
 - co-belligerency changes state liability
 - nuclear or escalatory choices run into proportionality and distinction problems
 
-Distinct from host arcs: this topical thread isolates the reusable legal grammar itself. Open [davis-baud-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-baud-arc.md) when the question is military feasibility under legal constraint; open [alkorshid-baud-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-baud-arc.md) when the question is live crisis pressure.
+Distinct from host arcs: this topical thread isolates the reusable legal grammar itself. Open [davis-baud-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-baud-arc.md) when the question is military feasibility under legal constraint; open [nima-baud-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-baud-arc.md) when the question is live crisis pressure.
 
 ### 4. Above-the-law rhetoric is civilizationally destabilizing
 

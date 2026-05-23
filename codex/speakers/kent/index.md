@@ -17,8 +17,8 @@ The orthogonality-bearing structure on this shelf is:
 
 - [kent-speaker-object.md](/C:/dev/strategy-codex/codex/speakers/kent/kent-speaker-object.md), which defines Kent as a cross-host reinforced object
 - [davis-kent-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-kent-speaker-arc.md), which is the thickest recurring branch
-- [carlson-kent-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/carlson/stream/carlson-kent-speaker-arc.md), which preserves the witness spine
-- [diesen-kent-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-kent-speaker-arc.md) and [nawfal-kent-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/nawfal/stream/nawfal-kent-speaker-arc.md), which carry thinner but distinct host transformations
+- [carlson-kent-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/kent/stream/carlson-kent-speaker-arc.md), which preserves the witness spine
+- [diesen-kent-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-kent-speaker-arc.md) and [nawfal-kent-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/kent/stream/nawfal-kent-speaker-arc.md), which carry thinner but distinct host transformations
 - [kent-helix.md](/C:/dev/strategy-codex/codex/speakers/kent/kent-helix.md), which compares the branches without implying equal maturity
 
 The Barnes quote-surface is reinforcement, not a fifth canonical strand:
@@ -27,10 +27,10 @@ The Barnes quote-surface is reinforcement, not a fifth canonical strand:
 
 ## Main Host Routes
 
-- [Carlson x Kent](/C:/dev/strategy-codex/codex/speakers/carlson/stream/carlson-kent-speaker-arc.md)
+- [Carlson x Kent](/C:/dev/strategy-codex/codex/speakers/kent/stream/carlson-kent-speaker-arc.md)
 - [Davis x Kent](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-kent-speaker-arc.md)
 - [Diesen x Kent](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-kent-speaker-arc.md)
-- [Nawfal x Kent](/C:/dev/strategy-codex/codex/speakers/nawfal/stream/nawfal-kent-speaker-arc.md)
+- [Nawfal x Kent](/C:/dev/strategy-codex/codex/speakers/kent/stream/nawfal-kent-speaker-arc.md)
 
 ## Boundary
 

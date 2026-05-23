@@ -2,7 +2,7 @@
 
 WORK only; not Record.
 
-Purpose: preserve the fact that the Johnson helix is a single cross-host object while clarifying that its full triple-helix structure was already materially mature in 2025.
+Purpose: preserve the fact that the Johnson helix is a single cross-host object while clarifying that its full triple-helix structure was already materially mature in 2025, before the newer dense-core atlas and month-spine layer was added.
 
 ## Core claim
 
@@ -20,6 +20,7 @@ The restored 2025 shelf makes three things clearer:
 
 - [johnson-routing.md](/C:/dev/strategy-codex/codex/speakers/johnson/johnson-routing.md) is the fastest speaker-side routing surface
 - [johnson-helix.md](/C:/dev/strategy-codex/codex/speakers/johnson/johnson-helix.md) is the canonical Johnson helix note
+- [johnson-april-may-2026-arc-threads.md](/C:/dev/strategy-codex/codex/speakers/johnson/stream/johnson-april-may-2026-arc-threads.md), [johnson-april-2026-cross-host-arc.md](/C:/dev/strategy-codex/codex/speakers/johnson/stream/johnson-april-2026-cross-host-arc.md), and [johnson-may-2026-cross-host-arc.md](/C:/dev/strategy-codex/codex/speakers/johnson/stream/johnson-may-2026-cross-host-arc.md) now materialize the dense 2026 core
 - this cross-year note exists to show that the helix was already structurally complete before the denser 2026 shelf
 - the years are phase and density information inside the helix, not separate helix objects
 

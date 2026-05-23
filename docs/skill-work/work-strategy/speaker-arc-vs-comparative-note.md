@@ -10,7 +10,9 @@ Write a **speaker arc** when the notebook needs a compact, reusable note about a
 
 Write a **comparative note** only when two or more speaker arcs already exist and the notebook now needs to preserve what changes across host conditions without flattening those host-local objects.
 
-For a speaker folder itself, the minimum requirement is lighter: every canonical speaker folder needs a **routeable rationale**, not necessarily a speaker arc. A routeable rationale may be a speaker object, profile, index, cross-host note, authored ledger, native stream map, or pointer to a substantial host-local arc in another folder.
+For a speaker folder itself, the minimum requirement is lighter only **after the folder is justified**: every canonical speaker folder needs a **routeable rationale**, not necessarily a speaker arc on day one. A routeable rationale may be a speaker object, profile, index, cross-host note, authored ledger, native stream map, or pointer to a substantial host-local arc in another folder.
+
+Stricter shelf rule: if the speaker does not have enough real continuity, do **not** create the folder.
 
 ## Use a speaker arc when
 
@@ -57,7 +59,7 @@ Do **not** use a comparative note:
 - to collapse different host-conditioned objects into one generic guest profile
 - to create a stealth super-arc
 
-Do **not** create a speaker arc merely because a speaker folder exists. If the evidence is thin, preserve the folder with a routeable rationale and an explicit boundary instead.
+Do **not** create a speaker arc merely because a speaker folder exists. If the evidence is thin, do not create the folder yet. If the folder is already justified but the continuity has not yet consolidated, preserve it with a routeable rationale and an explicit boundary instead.
 
 ## The boundary
 
@@ -85,17 +87,19 @@ The comparison sits above it.
 
 For lighter speakers, the practical sequence is:
 
-1. Write the routeable rationale.
-2. Route materialized appearances to the correct source or host surface.
-3. Create a host-local arc only after recurrence becomes useful.
-4. Create a helix or comparative note only after multiple mature strands need comparison.
+1. Verify the speaker has enough real continuity to deserve a folder at all.
+2. Write the routeable rationale.
+3. Route materialized appearances to the correct source or host surface.
+4. Create a host-local arc only after recurrence becomes useful.
+5. If the speaker becomes major across hosts, contexts, or time, consolidate toward a canonical person arc.
+6. Create a helix or comparative note only after multiple mature strands need comparison.
 
 ## Current example
 
 For `speaker arc`, the host-local layer includes:
 
-- [diesen-freeman-speaker-arc.md](../../../codex/speakers/diesen/stream/diesen-freeman-speaker-arc.md)
-- [alkorshid-freeman-speaker-arc.md](../../../codex/speakers/alkorshid/stream/alkorshid-freeman-speaker-arc.md)
+- [diesen-freeman-arc.md](../../../codex/speakers/diesen/stream/diesen-freeman-arc.md)
+- [nima-freeman-arc.md](../../../codex/speakers/nima/stream/nima-freeman-arc.md)
 
 The higher comparative question is:
 

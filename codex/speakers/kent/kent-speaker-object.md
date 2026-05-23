@@ -60,11 +60,11 @@ If the operator needs the cleanest host-local entry:
 
 If the operator needs the resignation-letter spine:
 
-- open [carlson-kent-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/carlson/stream/carlson-kent-speaker-arc.md)
+- open [carlson-kent-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/kent/stream/carlson-kent-speaker-arc.md)
 
 If the operator needs the cleanest political-pressure entry:
 
-- open [nawfal-kent-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/nawfal/stream/nawfal-kent-speaker-arc.md)
+- open [nawfal-kent-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/kent/stream/nawfal-kent-speaker-arc.md)
 
 If the operator needs the strongest existing walkaway anchor:
 

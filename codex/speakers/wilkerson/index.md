@@ -27,7 +27,7 @@ The orthogonality-bearing structure on this shelf is:
 
 ## Main Host Arcs
 
-- [Dialogue Works x Wilkerson](../alkorshid/stream/alkorshid-wilkerson-speaker-arc.md)
+- [Dialogue Works x Wilkerson](../nima/stream/nima-wilkerson-speaker-arc.md)
 - [Diesen x Wilkerson](../diesen/stream/diesen-wilkerson-speaker-arc.md)
 - [Judging Freedom x Wilkerson](../napolitano/stream/napolitano-wilkerson-speaker-arc.md)
 

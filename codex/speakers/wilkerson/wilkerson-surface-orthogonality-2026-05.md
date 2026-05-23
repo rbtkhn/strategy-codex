@@ -9,7 +9,7 @@ Local surfaces under review:
 - [wilkerson-routing.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-routing.md)
 - [wilkerson-helix.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-helix.md)
 - [wilkerson-cross-year-note.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-cross-year-note.md)
-- [alkorshid-wilkerson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-wilkerson-speaker-arc.md)
+- [nima-wilkerson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-wilkerson-speaker-arc.md)
 - [diesen-wilkerson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-wilkerson-speaker-arc.md)
 - [napolitano-wilkerson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-wilkerson-speaker-arc.md)
 
@@ -23,7 +23,7 @@ Bounded claim:
 
 Arcs under review:
 
-- [alkorshid-wilkerson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-wilkerson-speaker-arc.md)
+- [nima-wilkerson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-wilkerson-speaker-arc.md)
 - [diesen-wilkerson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-wilkerson-speaker-arc.md)
 - [napolitano-wilkerson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-wilkerson-speaker-arc.md)
 
@@ -50,7 +50,7 @@ Comparison-only notes:
 | Arc | Owned continuity | Distinct frame | Distinct evidence habit | Distinct use | Status |
 |---|---|---|---|---|---|
 | `diesen-wilkerson-speaker-arc.md` | Wilkerson as imperial-decline and order-consequence reader | strategic altitude and legitimacy-collapse consequence | mature 2025-2026 transcript-bearing branch with strong late-spring anchors | open when the task asks how crisis pressure propagates into larger order breakdown | keep |
-| `alkorshid-wilkerson-speaker-arc.md` | Wilkerson as live crisis and military-statecraft warning voice | present-tense escalation pressure and blockade impossibility | dense 2025 continuation plus stream-discovered 2026 warning run | open when the task asks what current crisis motion reveals about strategic incoherence and force limits | keep |
+| `nima-wilkerson-speaker-arc.md` | Wilkerson as live crisis and military-statecraft warning voice | present-tense escalation pressure and blockade impossibility | dense 2025 continuation plus stream-discovered 2026 warning run | open when the task asks what current crisis motion reveals about strategic incoherence and force limits | keep |
 | `napolitano-wilkerson-speaker-arc.md` | Wilkerson as anti-war constitutional and alliance-capture critic | legal-moral illegitimacy and compact anti-war reinforcement | routeable November 2025-April 2026 branch with one strongest native anchor and several summary-grade continuations | keep as auxiliary branch, not a third canonical strand |
 
 ## Thread audit
@@ -92,7 +92,7 @@ Main confusion zones:
 ## Recommended actions
 
 - keep Wilkerson as a **durable double helix with one auxiliary host branch**
-- keep [diesen-wilkerson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-wilkerson-speaker-arc.md) and [alkorshid-wilkerson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-wilkerson-speaker-arc.md) as the canonical pair
+- keep [diesen-wilkerson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-wilkerson-speaker-arc.md) and [nima-wilkerson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-wilkerson-speaker-arc.md) as the canonical pair
 - keep [napolitano-wilkerson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-wilkerson-speaker-arc.md) as real auxiliary reinforcement without promoting it into a third equal strand
 - keep [wilkerson-helix.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-helix.md) and [wilkerson-cross-year-note.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-cross-year-note.md) as the justification surfaces for that double-helix reading
 - update shelf-front wording so it no longer implies three equal host-local arcs

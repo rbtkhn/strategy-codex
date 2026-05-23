@@ -83,7 +83,7 @@ Local interview appearance count: 48 captures.
 |---|---|---|
 | [Diesen x Ritter](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-ritter-speaker-arc.md) | escalation horizon | The question needs Russia/NATO, great-power escalation, sea-control consequence, or order-level mechanics. |
 | [Davis x Ritter](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-ritter-speaker-arc.md) | operational feasibility | The question needs stockpiles, skies, basing, blockade practicality, or war-plan reality checks. |
-| [Dialogue Works x Ritter](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-ritter-speaker-arc.md) | live war pressure | The question needs maximum event pressure, rapid inversion claims, or immediate Iran-war crisis motion. |
+| [Dialogue Works x Ritter](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-ritter-speaker-arc.md) | live war pressure | The question needs maximum event pressure, rapid inversion claims, or immediate Iran-war crisis motion. |
 | [Judging Freedom x Ritter](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-ritter-speaker-arc.md) | legality and command failure | The question needs war powers, command absurdity, blockade illegitimacy, or legal-libertarian pressure. |
 | Cyrus Janssen x Ritter | energy and Hormuz shock | The question needs China/Asia-adjacent energy shock, Hormuz, or economic spillover from a non-core host. |
 | Consortium News x Ritter | adversarial debate / Russia-policy stress test | The question needs a debate setting, a Russia-policy stress test, or contrast against Ray McGovern. |

@@ -6,7 +6,7 @@ object_shape: {allowed-object-shape}
 
 Purpose: define `{speaker}` as a durable speaker object for routing, judgment accumulation, and clean re-entry. This is an orientation object, not a provenance ledger and not a substitute for host-local speaker arcs or raw-input.
 
-Minimum invariant: every canonical speaker folder needs a **routeable rationale**, not necessarily a substantial arc. This note may be that rationale when the speaker does not yet warrant a host-local arc, helix, or authored-pressure ledger. Keep the claim proportional: explain why the folder exists, where to open first, what evidence supports the object, and what not to promote yet.
+Minimum invariant: every canonical speaker folder needs a **routeable rationale**. But do not create a canonical speaker folder for thin or accidental recurrence in the first place. This note may be that rationale only after the speaker has enough real continuity to justify a durable folder. Keep the claim proportional: explain why the folder exists, where to open first, what evidence supports the object, and what not to promote yet.
 
 ## Identity
 
@@ -31,6 +31,7 @@ State the active object shape and why it is the right routing claim.
 Allowed values:
 
 - `profile-only`
+- `person-arc-first`
 - `stream-native`
 - `stream-anchored`
 - `stream-anchored-with-cross-host-reinforcement`
@@ -42,11 +43,14 @@ Allowed values:
 
 Use this section to say whether future agents should enter through a native stream, a profile, a host-local arc, a thread atlas, a helix, or a cross-host reinforcement note.
 
-Do not force every folder to contain its own arc. If the substantial arc lives under a host folder, route to it. If no substantial arc exists yet, say so and preserve the lighter routeable rationale without pretending a helix exists.
+Do not force every folder to contain its own arc immediately. If the substantial arc lives under a host folder, route to it. If no substantial arc exists yet, say so and preserve the lighter routeable rationale without pretending a helix exists.
+
+But do not let that lighter state become permanent for major speakers. If the speaker is a major recurring notebook figure across hosts, contexts, or time, the shelf should converge toward a canonical **person arc** file: `{speaker}-arc.md`.
 
 Routing model:
 
 - `profile`: identity, role, and durable usefulness.
+- `person arc`: one speaker's continuity across hosts, contexts, and time.
 - `host-local arc`: bounded motion inside one host x speaker surface; an arc is a bounded helix of arc-threads.
 - `thread atlas`: recurring arc-threads that cross time periods or host surfaces without replacing the host-local arcs.
 - `speaker helix`: cross-host comparison of multiple host-local arcs.
@@ -110,6 +114,7 @@ If a non-core bench or discovery-memory split is active, make the completion che
 - Raw-input decides whether a capture is materialized and what its primary ownership is; speaker surfaces decide whether that capture is visible from the correct route.
 - This note is not a wire-grade verifier unless the speaker's role is explicitly evidentiary.
 - This note may be the folder's routeable rationale when the body is still light; do not inflate it into an arc or helix merely to satisfy a shape preference.
+- But also do not use this note to justify folders that never earned real continuity. Thin recurrence should stay unfoldered until the continuity threshold is real.
 - Do not flatten host-local speaker arcs into one generic speaker theory; use a thread atlas for recurring strands and a speaker helix for cross-host comparison.
 - Do not overclaim beyond the available raw-input, arcs, and cited notes.
 - If a bench/discovery split is active, do not mix them: materialized appearances belong to the bench, unresolved finds belong to discovery memory.

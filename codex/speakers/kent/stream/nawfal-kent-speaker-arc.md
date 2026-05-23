@@ -2,7 +2,7 @@
 
 WORK only; not Record.
 
-Purpose: preserve the one currently materialized `Nawfal x Kent` appearance as a host-conditioned speaker arc. This is a single-appearance arc because the appearance is long, transcript-bearing, and distinct enough to route; it should not be mistaken for a mature host shelf.
+Purpose: preserve the one currently materialized `Nawfal x Kent` appearance as a Kent-owned host-conditioned branch. This is a single-appearance arc because the appearance is long, transcript-bearing, and distinct enough to route; it should not be mistaken for a mature host shelf.
 
 ## Why this guest run matters
 

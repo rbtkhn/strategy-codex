@@ -37,7 +37,7 @@ Open the host-local arcs when the question is about how a specific host transfor
 
 - [Diesen x Baud](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-baud-arc.md)
 - [Davis x Baud](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-baud-arc.md)
-- [Dialogue Works x Baud](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-baud-arc.md)
+- [Dialogue Works x Baud](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-baud-arc.md)
 
 ## Boundary
 

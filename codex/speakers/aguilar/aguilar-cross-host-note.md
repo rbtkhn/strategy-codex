@@ -10,7 +10,7 @@ Aguilar is now a real speaker object on the shelf, but he is not yet a meaningfu
 
 The current materially real branch is:
 
-- [Alkhorshid x Aguilar](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-aguilar-speaker-arc.md)
+- [Alkhorshid x Aguilar](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-aguilar-speaker-arc.md)
 
 There is now also one materially real non-Alkhorshid appearance on disk:
 

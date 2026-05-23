@@ -26,7 +26,7 @@ What makes this a real speaker arc is that the same host x guest shape keeps ret
 This lane is now materially present on disk as a 2026 Iran-war and Gulf-pressure run. It should be read as the Johnson branch that gives the most geopolitical altitude, distinct from:
 
 - `davis x johnson` for operational feasibility and coercive impracticality
-- `alkorshid x johnson` for live crisis pressure and immediate event-surface escalation
+- `dialogue works x johnson` for live crisis pressure and immediate event-surface escalation
 
 ### Mature 2026 core
 

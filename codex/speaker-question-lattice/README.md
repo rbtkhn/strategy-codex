@@ -29,3 +29,7 @@ The third completed seed is:
 - [Mercouris historical themes](../speakers/mercouris/themes/README.md)
 - [Mercouris `civ-emp` companions](../academy/statecraft/civ-emp/indexes/mercouris/README.md)
 - [Freeman, Crooke, and Mercouris third-seed note](freeman-crooke-mercouris-third-seed-note.md)
+
+Current normalization layer:
+
+- [Three-seed orthogonality hardening](three-seed-orthogonality-hardening.md)

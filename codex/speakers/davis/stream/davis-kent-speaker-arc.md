@@ -77,4 +77,4 @@ Do not overuse this arc as:
 - proof that every Kent claim is verified beyond transcript-grade commentary
 - a reason to treat Kent as a technical military verifier in the Postol sense
 
-If the question is mainly about what Kent says happened inside the administration rather than whether the war can be exited, route outward to [carlson-kent-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/carlson/stream/carlson-kent-speaker-arc.md).
+If the question is mainly about what Kent says happened inside the administration rather than whether the war can be exited, route outward to [carlson-kent-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/kent/stream/carlson-kent-speaker-arc.md).

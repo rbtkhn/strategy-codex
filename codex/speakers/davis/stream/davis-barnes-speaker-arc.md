@@ -13,7 +13,7 @@ Quick separation rule:
 - `Davis x Barnes` = war powers, legal exposure, executive-process fracture, coalition sell, and domestic political survivability
 - [davis-postol-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-postol-speaker-arc.md) = engineering limits and destructive-capacity truth
 - [davis-johnson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-johnson-speaker-arc.md) = intelligence-political causation and operational consequence
-- [greenwald/README.md](/C:/dev/strategy-codex/codex/speakers/greenwald/README.md) surfaces = media-state and civil-liberties pressure rather than Barnes's war-powers/process lane
+- [greenwald-profile.md](/C:/dev/strategy-codex/codex/profiles/greenwald-profile.md) = media-state and civil-liberties pressure rather than Barnes's war-powers/process lane
 
 If the notebook needs to know who can authorize, sustain, or politically survive an escalation path, route here. If it needs engineering correction, operational causation, or media-state critique, route to the neighboring surfaces instead.
 

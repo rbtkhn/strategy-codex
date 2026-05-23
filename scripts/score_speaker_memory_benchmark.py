@@ -55,7 +55,7 @@ REPAIR_ROUTING = {
 
 DEFAULT_TARGETS = {
     "sm-1-speaker-object-repair": "codex/speakers/sachs/sachs-speaker-object.md",
-    "sm-2-speaker-arc-ranking": "codex/speakers/diesen/stream/diesen-freeman-speaker-arc.md",
+    "sm-2-speaker-arc-ranking": "codex/speakers/diesen/stream/diesen-freeman-arc.md",
     "sm-3-speaker-structure-metrics": "artifacts/benchmarks/speaker-memory/speaker-structure-benchmark.md",
     "sm-4-speaker-maturity-ranking": "artifacts/benchmarks/speaker-memory/speaker-structure-benchmark.md",
 }

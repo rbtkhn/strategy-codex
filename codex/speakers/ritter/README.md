@@ -8,6 +8,7 @@ Open here first when the question is not merely "what did Ritter say," but **whi
 
 ## Start here
 
+- [ritter-arc.md](/C:/dev/strategy-codex/codex/speakers/ritter/ritter-arc.md)
 - [authored-pressure-quartet.md](/C:/dev/strategy-codex/codex/speakers/authored-pressure-quartet.md)
 - [ritter-speaker-object.md](/C:/dev/strategy-codex/codex/speakers/ritter/ritter-speaker-object.md)
 - [ritter-routing.md](/C:/dev/strategy-codex/codex/speakers/ritter/ritter-routing.md)
@@ -39,6 +40,7 @@ In the [authored pressure quartet](/C:/dev/strategy-codex/codex/speakers/authore
 
 This shelf already has a genuine canonical structure:
 
+- [ritter-arc.md](/C:/dev/strategy-codex/codex/speakers/ritter/ritter-arc.md) is the canonical person-level continuity surface
 - [ritter-helix.md](/C:/dev/strategy-codex/codex/speakers/ritter/ritter-helix.md) is the crossing surface
 - [stream/ritter-forecast-ledger-2026.md](stream/ritter-forecast-ledger-2026.md) carries the authored warning and forecast spine
 - [ritter-interview-appearances-2025-2026.md](/C:/dev/strategy-codex/codex/speakers/ritter/ritter-interview-appearances-2025-2026.md) carries the interview strand
@@ -51,5 +53,5 @@ Do not treat those thread-shaped files as proof of real thread orthogonality ins
 
 - [Diesen x Ritter](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-ritter-speaker-arc.md)
 - [Davis x Ritter](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-ritter-speaker-arc.md)
-- [Dialogue Works x Ritter](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-ritter-speaker-arc.md)
+- [Dialogue Works x Ritter](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-ritter-speaker-arc.md)
 - [Judging Freedom x Ritter](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-ritter-speaker-arc.md)

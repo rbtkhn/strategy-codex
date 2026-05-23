@@ -31,6 +31,6 @@ The shelf is therefore a **durable double helix rather than profile-first**. Do 
 
 ## Host lanes
 
-- [Dialogue Works x Wilkerson](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-wilkerson-speaker-arc.md)
+- [Dialogue Works x Wilkerson](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-wilkerson-speaker-arc.md)
 - [Diesen x Wilkerson](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-wilkerson-speaker-arc.md)
 - [Judging Freedom x Wilkerson](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-wilkerson-speaker-arc.md)

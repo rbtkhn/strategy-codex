@@ -4,7 +4,7 @@ Use these local sources:
 
 - Speaker shelf contract: `codex/2026/speakers/README.md`
 - Speaker arc template: `codex/2026/speakers/_templates/speaker-arc-template.md`
-- Current Diesen x Freeman arc: `codex/2026/diesen/diesen-freeman-speaker-arc.md`
+- Current Diesen x Freeman arc: `codex/speakers/diesen/stream/diesen-freeman-arc.md`
 - Paired-read candidate: `codex/2026/diesen/diesen-matlock-speaker-arc.md`
 - Paired-read candidate: `codex/2026/diesen/diesen-jiang-speaker-arc.md`
 - Raw-input anchor: `codex/2026/raw-input/2026-05-06/transcript-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md`

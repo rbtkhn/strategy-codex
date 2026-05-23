@@ -109,7 +109,7 @@ Typical pairings around the guest lane:
 
 ## Boundaries
 
-- If the question is mainly about blockade impossibility, point-of-no-return language, or acute elite incompetence under live pressure rather than wider imperial consequence, route outward to [alkorshid-wilkerson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-wilkerson-speaker-arc.md).
+- If the question is mainly about blockade impossibility, point-of-no-return language, or acute elite incompetence under live pressure rather than wider imperial consequence, route outward to [nima-wilkerson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-wilkerson-speaker-arc.md).
 
 - Wilkerson is strongest here on imperial consequence, legitimacy collapse, and strategic self-harm, not on technical strike verification or exact fleet arithmetic.
 - The materialized shelf is real but still partial relative to the fresh stream search; absence from canonical raw-input should not be mistaken for absence from the lane.

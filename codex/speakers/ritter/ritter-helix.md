@@ -45,7 +45,7 @@ Reading rule: open the authored row first when the question is "what is Ritter's
 |---|---|---|
 | [diesen x ritter](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-ritter-speaker-arc.md) | Escalation horizon | Hormuz mechanics, cross-theater spillover, sea-control pressure, and how immediate war events scale into larger strategic consequence |
 | [davis x ritter](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-ritter-speaker-arc.md) | Operational feasibility | Stockpiles, skies, basing pressure, blockade impracticality, and what the U.S. military can no longer realistically impose |
-| [alkorshid x ritter](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-ritter-speaker-arc.md) | Live war pressure | Rapid escalation, Hormuz vulnerability, loss-of-control claims, and immediate crisis-motion under maximum event stress |
+| [alkorshid x ritter](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-ritter-speaker-arc.md) | Live war pressure | Rapid escalation, Hormuz vulnerability, loss-of-control claims, and immediate crisis-motion under maximum event stress |
 
 ## Orthogonality guide
 
@@ -68,7 +68,7 @@ If the operator needs the best helix pair:
 - open [davis-ritter-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-ritter-speaker-arc.md)
 - then [diesen-ritter-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-ritter-speaker-arc.md)
 
-Add [alkorshid-ritter-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-ritter-speaker-arc.md) when the notebook needs the sharpest live-pressure surface rather than only the feasibility and escalation-horizon lanes.
+Add [nima-ritter-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-ritter-speaker-arc.md) when the notebook needs the sharpest live-pressure surface rather than only the feasibility and escalation-horizon lanes.
 
 ## Routing use
 

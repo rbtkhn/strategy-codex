@@ -48,7 +48,7 @@ Each non-quartet speaker folder appears once in this register. The secondary col
 | [Marandi](/C:/dev/strategy-codex/codex/speakers/marandi/) | Crooke | Parsi | Legitimacy, Iranian red lines, and regional-order pressure clarify the adaptive adversary side of Crooke's frame. |
 | [McGovern](/C:/dev/strategy-codex/codex/speakers/mcgovern/) | Crooke | Ritter | Intelligence-memory correction and elite self-deception sit closest to structural misreading. |
 | [Blumenthal](/C:/dev/strategy-codex/codex/speakers/blumenthal/) | Crooke | Parsi | Media-legitimacy critique and elite-access suspicion support the metapolitical and narrative-control layer. |
-| [Greenwald](/C:/dev/strategy-codex/codex/speakers/greenwald/) | Crooke | Parsi | Civil-libertarian and media-power critique are best treated as narrative-legitimacy support around structural misreading. |
+| [Greenwald profile](/C:/dev/strategy-codex/codex/profiles/greenwald-profile.md) | Crooke | Parsi | Civil-libertarian and media-power critique are best treated as narrative-legitimacy support around structural misreading. |
 | [Mate](/C:/dev/strategy-codex/codex/speakers/mate/) | Crooke | Parsi | Media, propaganda, and anti-establishment critique reinforce the narrative and legitimacy side of Crooke's engine. |
 
 ## When To Open

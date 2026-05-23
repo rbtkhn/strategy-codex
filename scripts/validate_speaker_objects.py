@@ -14,6 +14,7 @@ DEFAULT_SPEAKERS_DIR = REPO_ROOT / "codex" / "speakers"
 
 ALLOWED_SHAPES = {
     "profile-only",
+    "person-arc-first",
     "stream-native",
     "stream-anchored",
     "stream-anchored-with-cross-host-reinforcement",
@@ -28,6 +29,10 @@ SHAPE_PHRASES = {
     "profile-only": (
         "profile-only speaker object",
         "profile only speaker object",
+    ),
+    "person-arc-first": (
+        "person-arc-first speaker object",
+        "person arc first speaker object",
     ),
     "stream-native": (
         "stream-native speaker object",

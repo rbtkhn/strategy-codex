@@ -8,9 +8,12 @@ Local surfaces under review:
 
 - [johnson-helix.md](/C:/dev/strategy-codex/codex/speakers/johnson/johnson-helix.md)
 - [johnson-routing.md](/C:/dev/strategy-codex/codex/speakers/johnson/johnson-routing.md)
+- [johnson-april-may-2026-arc-threads.md](/C:/dev/strategy-codex/codex/speakers/johnson/stream/johnson-april-may-2026-arc-threads.md)
+- [johnson-april-2026-cross-host-arc.md](/C:/dev/strategy-codex/codex/speakers/johnson/stream/johnson-april-2026-cross-host-arc.md)
+- [johnson-may-2026-cross-host-arc.md](/C:/dev/strategy-codex/codex/speakers/johnson/stream/johnson-may-2026-cross-host-arc.md)
 - [diesen-johnson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-johnson-speaker-arc.md)
 - [davis-johnson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-johnson-speaker-arc.md)
-- [alkorshid-johnson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-johnson-speaker-arc.md)
+- [nima-johnson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-johnson-speaker-arc.md)
 - [napolitano-johnson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-johnson-speaker-arc.md)
 - [johnson-cross-year-note.md](/C:/dev/strategy-codex/codex/speakers/johnson/johnson-cross-year-note.md)
 - [Jiang vs Johnson - May 2026](/C:/dev/strategy-codex/codex/speakers/relations/jiang-vs-johnson-2026-05.md)
@@ -28,12 +31,13 @@ Arcs under review:
 
 - [diesen-johnson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-johnson-speaker-arc.md)
 - [davis-johnson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-johnson-speaker-arc.md)
-- [alkorshid-johnson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-johnson-speaker-arc.md)
+- [nima-johnson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-johnson-speaker-arc.md)
 - [napolitano-johnson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-johnson-speaker-arc.md)
 
 Threads under review:
 
-- none canonical; [johnson-thread.md](/C:/dev/strategy-codex/codex/speakers/johnson/johnson-thread.md) remains a compatibility continuity surface
+- [johnson-april-may-2026-arc-threads.md](/C:/dev/strategy-codex/codex/speakers/johnson/stream/johnson-april-may-2026-arc-threads.md) is canonical for the dense April-May 2026 core
+- [johnson-thread.md](/C:/dev/strategy-codex/codex/speakers/johnson/johnson-thread.md) remains a legacy compatibility continuity surface
 
 Comparison-only notes:
 
@@ -48,7 +52,7 @@ Comparison-only notes:
 
 `Davis x Johnson` owns the feasibility lane: coercive failure, shrinking leverage, impractical objectives, and end-state realism.
 
-`Alkorshid x Johnson` owns the live-pressure lane: strike escalation, Hormuz stress, blockade humiliation, and present-tense crisis motion.
+`Dialogue Works x Johnson` owns the live-pressure lane: strike escalation, Hormuz stress, blockade humiliation, and present-tense crisis motion.
 
 `Napolitano x Johnson` owns a narrower but still real auxiliary lane: blockade skepticism under constitutional-libertarian pressure, process irrationality, and war-power absurdity.
 
@@ -58,20 +62,21 @@ Comparison-only notes:
 |---|---|---|---|---|---|
 | `diesen-johnson-speaker-arc.md` | Iran-war escalation translated into regional and systemic consequence | geopolitical altitude and order consequence | sustained spring 2026 Gulf-pressure run under multipolar-transition host pressure | open when the task asks what crisis moves do to the wider regional picture | keep |
 | `davis-johnson-speaker-arc.md` | coercive pressure translated into impractical objectives and shrinking leverage | operational feasibility and coercive failure | dense feasibility-testing run under military-practicality host pressure | open when the task asks what force can no longer realistically achieve | keep |
-| `alkorshid-johnson-speaker-arc.md` | rapid crisis movement translated into immediate strategic unraveling | live pressure and humiliation tempo | highest-temperature 2026 event-surface run | open when the task needs present-tense crisis motion and event pressure | keep |
+| `nima-johnson-speaker-arc.md` | rapid crisis movement translated into immediate strategic unraveling | live pressure and humiliation tempo | highest-temperature 2026 event-surface run | open when the task needs present-tense crisis motion and event pressure | keep |
 | `napolitano-johnson-speaker-arc.md` | crisis pressure translated into process absurdity and war-power skepticism | constitutional-libertarian and elite-failure pressure | thinner but real November 2025-April 2026 reinforcement branch | keep as auxiliary host branch, not part of the canonical triple helix |
 
 ## Thread audit
 
-There is no current canonical topical thread inside the Johnson shelf. That is the right choice for now.
+The shelf now has a canonical recurring-strand atlas for the dense April-May 2026 core, and that is the right bounded choice.
 
-The shelf's usable structure is host-transformation driven, not topic-thread driven. The older [johnson-thread.md](/C:/dev/strategy-codex/codex/speakers/johnson/johnson-thread.md) does not isolate a mechanism that the helix and host arcs fail to carry.
+The shelf's usable structure is still primarily host-transformation driven. The newer [johnson-april-may-2026-arc-threads.md](/C:/dev/strategy-codex/codex/speakers/johnson/stream/johnson-april-may-2026-arc-threads.md) isolates the dense-core recurring theses without replacing the helix or the host arcs. The older [johnson-thread.md](/C:/dev/strategy-codex/codex/speakers/johnson/johnson-thread.md) does not isolate a mechanism that the newer atlas fails to carry.
 
 ### Thread distinctness table
 
 | Thread | Object | Mechanism | Source spine | Retrieval use | Status |
 |---|---|---|---|---|---|
-| `johnson-thread.md` | legacy continuity residue | none distinct from helix plus host arcs | mixed older continuity surface | compatibility only; not needed for canonical retrieval | keep as compatibility residue |
+| `johnson-april-may-2026-arc-threads.md` | canonical recurring-strand atlas for the dense 2026 core | bounded strand extraction across April-May 2026 | month-spine-backed cross-host dense core | canonical dense-core retrieval without erasing host difference | keep |
+| `johnson-thread.md` | legacy continuity residue | none distinct from helix plus host arcs plus canonical atlas | mixed older continuity surface | compatibility only; not needed for canonical retrieval | keep as compatibility residue |
 
 ## Redundancy findings
 
@@ -90,6 +95,7 @@ The shelf's usable structure is host-transformation driven, not topic-thread dri
 `same frame, different role`
 
 - [johnson-cross-year-note.md](/C:/dev/strategy-codex/codex/speakers/johnson/johnson-cross-year-note.md) helps justify maturity, but it is evidence for the helix rather than an additional retrieval lane
+- [johnson-april-2026-cross-host-arc.md](/C:/dev/strategy-codex/codex/speakers/johnson/stream/johnson-april-2026-cross-host-arc.md) and [johnson-may-2026-cross-host-arc.md](/C:/dev/strategy-codex/codex/speakers/johnson/stream/johnson-may-2026-cross-host-arc.md) add bounded dense-core sequencing, but should not be mistaken for new host lanes
 
 Main confusion zones:
 
@@ -99,10 +105,11 @@ Main confusion zones:
 ## Recommended actions
 
 - keep the canonical triple helix as is
+- keep the canonical dense-core atlas and month spines as bounded supporting layers, not replacements for the host arcs
 - keep Napolitano as a real auxiliary host branch without promoting it into a fourth canonical strand
 - continue routing altitude work to Diesen first
 - continue routing feasibility and leverage-collapse work to Davis first
-- continue routing sharp present-tense event pressure to Alkorshid first
+- continue routing sharp present-tense event pressure to Dialogue Works first
 - continue treating the Jiang note as relational comparison material, not Johnson continuity
 
 ## Notebook use
@@ -115,5 +122,5 @@ Use this review when the notebook needs:
 
 Current judgment:
 
-- the Johnson shelf is well partitioned as a **canonical triple helix with one auxiliary host branch**
-- the strongest future collapse pressure is Davis versus Napolitano, with a secondary risk that Alkorshid's high-temperature language gets mistaken for a substitute for Diesen altitude rather than a distinct event-pressure surface
+- the Johnson shelf is well partitioned as a **canonical triple helix with one auxiliary host branch plus a bounded dense-core atlas/month layer**
+- the strongest future collapse pressure is Davis versus Napolitano, with a secondary risk that Dialogue Works' high-temperature language gets mistaken for a substitute for Diesen altitude rather than a distinct event-pressure surface

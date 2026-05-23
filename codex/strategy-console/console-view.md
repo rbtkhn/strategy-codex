@@ -62,7 +62,7 @@
 - Derived tension group count: 17
 - Latest continuity date scanned: 2026-04-29
 
-- **alkorshid** â€” `due` â€” `2026/alkorshid/alkorshid-page-2026-04-01-civ-mem-scaffold.md` â€” Call: Alkorshid Page — 2026-04-01 Civ-Mem Scaffold Revisit: not explicit Next: Revisit in days.md or month continuity and tag outcome.
+- **alkorshid** â€” `due` â€” `2026/nima/nima-page-2026-04-01-civ-mem-scaffold.md` â€” Call: Alkorshid Page — 2026-04-01 Civ-Mem Scaffold Revisit: not explicit Next: Revisit in days.md or month continuity and tag outcome.
 - **crooke** â€” `due` â€” `2026/crooke/crooke-page-2026-01-08-the-rubican-crossed-team-trumps-nihilistic.md` â€” Call: Crooke refined page — 2026-01-08 (*the rubican crossed team trumps nihilistic*) Revisit: --- Next: Revisit in days.md or month continuity and tag outcome.
 - **crooke** â€” `due` â€” `2026/crooke/crooke-page-2026-01-15-deciphering-trumps-externalised-internal.md` â€” Call: Crooke refined page — 2026-01-15 (*deciphering trumps externalised internal*) Revisit: --- Next: Revisit in days.md or month continuity and tag outcome.
 - **crooke** â€” `due` â€” `2026/crooke/crooke-page-2026-01-21-what-may-be-the-greenland-endgame.md` â€” Call: Crooke refined page — 2026-01-21 (*what may be the greenland endgame*) Revisit: --- Next: Revisit in days.md or month continuity and tag outcome.

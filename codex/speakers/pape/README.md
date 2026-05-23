@@ -8,6 +8,7 @@ Open here first when the question is not merely "what did Pape say," but how his
 
 ## Start here
 
+- [pape-arc.md](/C:/dev/strategy-codex/codex/speakers/pape/pape-arc.md)
 - [authored-pressure-quartet.md](/C:/dev/strategy-codex/codex/speakers/authored-pressure-quartet.md)
 - [pape-speaker-object.md](/C:/dev/strategy-codex/codex/speakers/pape/pape-speaker-object.md)
 - [pape-helix.md](/C:/dev/strategy-codex/codex/speakers/pape/pape-helix.md)
@@ -30,6 +31,7 @@ In the [authored pressure quartet](/C:/dev/strategy-codex/codex/speakers/authore
 
 This shelf already has a genuine canonical structure:
 
+- [pape-arc.md](/C:/dev/strategy-codex/codex/speakers/pape/pape-arc.md) is the canonical person-level continuity surface
 - [pape-helix.md](/C:/dev/strategy-codex/codex/speakers/pape/pape-helix.md) is the crossing surface
 - [stream/pape-forecast-ledger-2026.md](stream/pape-forecast-ledger-2026.md) carries the authored forecast mechanism
 - [pape-interview-appearances-2026.md](/C:/dev/strategy-codex/codex/speakers/pape/pape-interview-appearances-2026.md) carries the interview-pressure strand

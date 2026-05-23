@@ -101,4 +101,4 @@ Do not overuse Freeman as:
 
 He is strongest as a **career-diplomat order interpreter**, not as a primary on-the-ground verifier.
 
-If the question is mainly about phony ceasefires, current-event alliance strain, or immediate crisis messaging, route outward to [alkorshid-freeman-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-freeman-speaker-arc.md) instead of forcing this arc to do live-pressure work.
+If the question is mainly about phony ceasefires, current-event alliance strain, or immediate crisis messaging, route outward to [nima-freeman-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-freeman-arc.md) instead of forcing this arc to do live-pressure work.

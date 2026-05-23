@@ -28,7 +28,7 @@ Do not read [baud-thread.md](baud-thread.md) as a second competing topical-threa
 
 - [Diesen x Baud](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-baud-arc.md)
 - [Davis x Baud](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-baud-arc.md)
-- [Dialogue Works x Baud](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-baud-arc.md)
+- [Dialogue Works x Baud](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-baud-arc.md)
 
 ## Boundary
 

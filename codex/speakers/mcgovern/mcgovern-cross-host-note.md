@@ -14,7 +14,7 @@ Purpose: keep Ray McGovern's cross-host status honest by separating what is mate
 Those two branches are now strong enough to justify an on-disk **double-helix** reading:
 
 - [diesen-mcgovern-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-mcgovern-speaker-arc.md)
-- [alkorshid-mcgovern-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-mcgovern-speaker-arc.md)
+- [nima-mcgovern-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-mcgovern-speaker-arc.md)
 
 ### Search-backed but not yet imported here
 
@@ -45,7 +45,7 @@ Open:
 
 Then:
 
-- [alkorshid-mcgovern-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-mcgovern-speaker-arc.md)
+- [nima-mcgovern-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-mcgovern-speaker-arc.md)
 
 ## Doctrine boundary
 

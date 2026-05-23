@@ -17,7 +17,7 @@ These arcs should be read together because they are not merely repeated appearan
 | Host lane | Distinct register | What it reveals best |
 |---|---|---|
 | [davis x baud](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-baud-arc.md) | Alliance mandate and coercive feasibility | Perfidy, co-belligerency, negotiation blackmail, Gulf-base liability, and the legal-strategic incoherence of coercive threats without a credible end state |
-| [alkorshid x baud](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-baud-arc.md) | Live crisis pressure | Treaty skepticism, Hormuz management, deterrence logic, European impotence, and strategic rationality under immediate event stress |
+| [alkorshid x baud](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-baud-arc.md) | Live crisis pressure | Treaty skepticism, Hormuz management, deterrence logic, European impotence, and strategic rationality under immediate event stress |
 
 ## Orthogonality guide
 
@@ -32,11 +32,11 @@ Do not use `Davis` as a shortcut for immediate crisis signaling, or `Alkhorshid`
 
 If the operator needs the cleanest single introduction to the helix:
 
-- open [alkorshid-baud-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-baud-arc.md)
+- open [nima-baud-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-baud-arc.md)
 
 If the operator needs the best pair:
 
-- open [alkorshid-baud-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-baud-arc.md)
+- open [nima-baud-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-baud-arc.md)
 - then [davis-baud-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-baud-arc.md)
 
 That order works because Dialogue Works gives the stronger serial lane and sharper present-tense stress, while Davis makes the legal-mandate and coercive-feasibility register cleaner.
