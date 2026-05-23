@@ -37,6 +37,8 @@ Use Richelieu to test institutional capacity: which ministries, banks, firms, po
 ## Civilization / Empire Helix
 
 - [Helix](helix.md) - primary lane interpretation; use this first when the question spans order, continuity, leverage, deformation, and restoration together.
+- [China doctrine](china-doctrine.md) - durable upstream statement of the lane's philosophical-historical worldview.
+- [China volume writing brief](china-volume-writing-brief.md) - concise drafting-facing compression of that doctrine for chapter materialization.
 
 China is now the third helix-first transfer case. Start with [helix](helix.md) when the lane question has split across several notes and you need the governing line again. The helix is the primary authored interpretation; the first-wave objects below are the supporting strand surfaces.
 
@@ -67,6 +69,7 @@ Inside that state bench, use [Xi](state/xi.md) and the [party-state carrier](sta
 Open Pape for shock clocks and coercive leverage, Jiang for China-facing strategic framing, Sachs for system-economic effects, Crooke / Diesen for order transition, and Parsi for regional architecture. Extract the live mechanism and translate it into instruments.
 
 For the accumulating upstream chapter-seed list, use [China chapter seeds](chapter-seeds.md). That file is where cross-arc chapter ideas should now accumulate.
+Use [China doctrine](china-doctrine.md) when the chapter needs the full lane worldview stated in one place. Use [China volume writing brief](china-volume-writing-brief.md) when you are already drafting and need the shorter operative control surface.
 
 For the first detailed bridge from `strategy-codex` speaker work into China Volume I chapter generation, use [Freeman to China volume seeds](../../../speakers/freeman/freeman-to-china-volume-seeds.md). That note is meant to generate chapter pressure and analogy discipline, not to replace the China lane's own helix or strand surfaces.
 
