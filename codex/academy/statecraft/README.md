@@ -31,6 +31,28 @@ Use this README as the canonical front door for the new layer.
 
 This README owns the governing statecraft maturation line for the workshop.
 
+## Read This First
+
+Use this order if you are entering the workshop for the first time and want the architecture before the details:
+
+1. [Statecraft README](README.md) - front door, conversion rule, and workshop maturity line.
+2. [CIV-EMP README](civ-emp/README.md) - shared Civilization and Empire source base for operational judgment.
+3. [America README](america/README.md) - hegemonic order, credibility, burden-sharing, and bounded coercive centers.
+4. [Russia README](russia/README.md) - disruption, recognition, optionality, and anti-entrapment.
+5. [China README](china/README.md) - anti-chaos stabilization, energy security, and quiet leverage.
+6. [Iran README](iran/README.md) - vulnerability converted into recognized leverage under coercive pressure.
+7. [Hormuz recognition transit transaction](iran/transactions/hormuz-recognition-transit-transaction.md) - current worked exemplar showing the architecture spent as an instrument.
+
+Current maturity order:
+
+- `Iran` is the current worked transaction exemplar.
+- `America` is the next proof exemplar through the protected-channel / non-regime-change object.
+- `Russia` and `China` are structurally ready benches, but not yet equally spent proof lanes.
+
+Short architecture formula:
+
+`source memory -> national translation -> authority carrier -> regulated pattern -> transaction instrument`
+
 Short governing line:
 
 1. braid the real crisis object before it fragments
@@ -49,6 +71,10 @@ If you want the quickest usable path into the current architecture, start with t
 1. [State braid model](sheets/state-braid-model.md) - identify the linked arcs that must stay together.
 2. [Transaction router](sheets/transaction-router.md) - decide whether the settlement spine is cross-lane or lane-local.
 3. [Hormuz recognition transit transaction](iran/transactions/hormuz-recognition-transit-transaction.md) - see the braid spent as a concrete Iran-lane instrument.
+
+If you want the next cadence after Hormuz, open the America proof exemplar:
+
+4. [Protected Channel / Non-Regime-Change Framework](transactions/protected-channel-non-regime-change-framework/) - next proof exemplar showing how America can preserve bargaining authority after leadership targeting without validating regime-change.
 
 This front door teaches:
 
@@ -129,12 +155,14 @@ Each lane has a local Civilization / Empire / Helix structure, a current state c
 
 First exemplar and default worked path: [Hormuz recognition transit transaction](iran/transactions/hormuz-recognition-transit-transaction.md), reached through [State braid model](sheets/state-braid-model.md) -> [Transaction router](sheets/transaction-router.md) -> transaction clause.
 
+Next proof exemplar for lane balance: [Protected Channel / Non-Regime-Change Framework](transactions/protected-channel-non-regime-change-framework/), the current first America-bearing spent object.
+
 Cross-lane bundles:
 
-- [Hormuz Transit / Sanctions Relief Compact](transactions/hormuz-transit-sanctions-relief-compact/)
-- [Iran Nuclear Latency Recognition Framework](transactions/iran-nuclear-latency-recognition-framework/)
 - [Protected Channel / Non-Regime-Change Framework](transactions/protected-channel-non-regime-change-framework/)
 - [Minab Civilian-Harm De-Escalation Framework](transactions/minab-civilian-harm-deescalation-framework/)
+- [Hormuz Transit / Sanctions Relief Compact](transactions/hormuz-transit-sanctions-relief-compact/)
+- [Iran Nuclear Latency Recognition Framework](transactions/iran-nuclear-latency-recognition-framework/)
 - [Zangezur Transit / Sovereignty Framework](transactions/zangezur-transit-sovereignty-framework/)
 - [Taiwan Quarantine / Maritime Access Framework](transactions/taiwan-quarantine-maritime-access-framework/)
 - [Baltic Shadow-Fleet Infrastructure Damage Framework](transactions/baltic-shadow-fleet-infrastructure-damage-framework/)

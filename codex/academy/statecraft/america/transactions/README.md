@@ -35,8 +35,18 @@ Treat `america` as broader than current Washington. Each transaction should sepa
 
 ## Exemplars
 
-- [Protected Channel / Non-Regime-Change Framework](../../transactions/protected-channel-non-regime-change-framework/) - two-lane America / Iran bundle that tests how Washington can preserve bargaining authority after leadership targeting without validating regime-change or partition as policy.
-- [Minab Civilian-Harm De-Escalation Framework](../../transactions/minab-civilian-harm-deescalation-framework/) - two-lane America / Iran bundle that converts civilian-harm memory into humanitarian review, protected channels, no-regime-change language, and reversible relief without forcing immediate admission politics.
+- [Protected Channel / Non-Regime-Change Framework](../../transactions/protected-channel-non-regime-change-framework/) - canonical America proof exemplar and current first spent form for this lane; a two-lane America / Iran bundle that tests how Washington can preserve bargaining authority after leadership targeting without validating regime-change or partition as policy.
+- [Minab Civilian-Harm De-Escalation Framework](../../transactions/minab-civilian-harm-deescalation-framework/) - secondary America / Iran exemplar focused on humanitarian recognition, protected channels, and reversible relief without forcing immediate admission politics.
+
+## Current Maturity
+
+America is no longer only "closest to proof." Its first proof anchor is the protected-channel / non-regime-change object above.
+
+The maturity order inside this bench is:
+
+- first proof exemplar: protected-channel / non-regime-change
+- supporting adjacent exemplar: Minab civilian-harm de-escalation
+- further America transaction families: still bench-ready, not yet equally spent
 
 ## Validity Questions
 
