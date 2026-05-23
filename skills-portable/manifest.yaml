@@ -149,4 +149,11 @@ skills:
     verify_forbidden_substrings:
       - users/grace-mar/
       - process_approved_candidates
+  - name: arc-to-chapter-seeds
+    source: arc-to-chapter-seeds/SKILL.md
+    appendix: .cursor/skills/arc-to-chapter-seeds/CURSOR_APPENDIX.md
+    target: .cursor/skills/arc-to-chapter-seeds/SKILL.md
+    verify_forbidden_substrings:
+      - users/grace-mar/
+      - process_approved_candidates
 

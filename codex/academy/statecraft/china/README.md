@@ -66,6 +66,10 @@ Inside that state bench, use [Xi](state/xi.md) and the [party-state carrier](sta
 
 Open Pape for shock clocks and coercive leverage, Jiang for China-facing strategic framing, Sachs for system-economic effects, Crooke / Diesen for order transition, and Parsi for regional architecture. Extract the live mechanism and translate it into instruments.
 
+For the accumulating upstream chapter-seed list, use [China chapter seeds](chapter-seeds.md). That file is where cross-arc chapter ideas should now accumulate.
+
+For the first detailed bridge from `strategy-codex` speaker work into China Volume I chapter generation, use [Freeman to China volume seeds](../../../speakers/freeman/freeman-to-china-volume-seeds.md). That note is meant to generate chapter pressure and analogy discipline, not to replace the China lane's own helix or strand surfaces.
+
 ## Preferred Instruments
 
 Transit compacts, energy and LNG arrangements, yuan settlement, shipping insurance alternatives, regional security forums, infrastructure guarantees, quiet pressure, and face-saving de-escalation channels.

@@ -16,6 +16,7 @@ Open here first when the question is not merely "what did Freeman say," but **wh
 - [freeman-helix.md](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-helix.md)
 - [freeman-cross-year-note.md](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-cross-year-note.md)
 - [freeman-surface-orthogonality-2026-05.md](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-surface-orthogonality-2026-05.md)
+- [Freeman to China volume seeds](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-to-china-volume-seeds.md)
 
 ## Appearance Ladder
 
@@ -65,5 +66,5 @@ Do not treat this folder as independent routing doctrine. The general contract l
 
 - [Diesen x Freeman](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-freeman-arc.md)
 - [Davis x Freeman](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-freeman-arc.md)
-- [Dialogue Works x Freeman](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-freeman-arc.md)
+- [Dialogue Works x Freeman](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-freeman-arc.md)
 - [Judging Freedom x Freeman](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-freeman-arc.md)

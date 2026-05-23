@@ -123,3 +123,22 @@ Canonical method: [skills-portable/strategy-notebook-expert-cross-weave/SKILL.md
   - `promoted`
 
 Canonical method: [skills-portable/statecraft-helix-synthesis/SKILL.md](statecraft-helix-synthesis/SKILL.md)
+
+---
+
+## arc-to-chapter-seeds
+
+- **What it is**
+  - An upstream extraction skill for turning a speaker arc, lane arc, or cross-host arc into additive chapter-seed ideas with clean attribution.
+- **When to use it**
+  - Use when the operator wants chapter ideas harvested from an arc without letting that arc silently govern the destination volume or lane architecture.
+- **Inputs you'll need**
+  - A real arc on disk, its strongest raw-input or theme support, and the upstream seed surface that will receive the harvested ideas.
+- **What you get**
+  - A detailed bridge note, an additive seed-list section, or an attribution-correction pass that preserves chapter-generating ideas.
+- **Boundary**
+  - WORK only; not Record, not destination-corpus doctrine, and not a substitute for full chapter writing.
+- **Current status**
+  - `promoted`
+
+Canonical method: [skills-portable/arc-to-chapter-seeds/SKILL.md](arc-to-chapter-seeds/SKILL.md)
