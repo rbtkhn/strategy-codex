@@ -15,6 +15,8 @@ Open here first when the question is not merely "what did Mearsheimer say," but 
 
 - [mearsheimer-helix.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-helix.md)
 - [mearsheimer-surface-orthogonality-2026-05.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-surface-orthogonality-2026-05.md)
+- [mearsheimer-historical-examples-audit.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-historical-examples-audit.md)
+- [themes/README.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/themes/README.md)
 
 ## Appearance ladder
 
@@ -34,6 +36,7 @@ Use these when the Mearsheimer question is wider than the two core host arcs:
 - open the raw-input index for the current `non-core appearance bench`
 - open the index for the combined front door and best live entry files
 - open the orthogonality review when the task is deciding whether the double helix is still the right structure
+- open the historical examples audit and theme pack when the task is historical-pattern retrieval rather than only routing
 
 ## Compatibility shape
 
