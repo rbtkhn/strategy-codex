@@ -36,10 +36,25 @@ Use Richelieu to test whether Iran's leverage is carried by durable institutions
 
 ## Civilization / Empire Helix
 
+- [Helix](helix.md) - primary lane interpretation; use this first when the question spans dignity, sovereignty, leverage, deformation, and restoration together.
+
+Iran is now the fourth helix-first transfer case. Start with [helix](helix.md) when the lane question has split across several notes and you need the governing line again. The helix is the primary authored interpretation; the first-wave objects below are the supporting strand surfaces.
+
+Phase-one CIV-EMP migration still matters underneath that cutover. The active Iran pilot pair remains [Iran state memory](civilization/objects/state-memory.md) and [Iran empire instrument](empire/seed-instruments.md), but they now function as strand inputs beneath the helix rather than as competing top-level openings.
+
+Iran's broader first-wave strand set is now usable as an ordered drafting surface beneath the helix:
+
+- [state memory](civilization/objects/state-memory.md) for sovereignty, dignity, deterrent continuity, and anti-humiliation authority
+- [geo](civilization/geo.md) for plateau exposure, Hormuz carry, and settlement geometry
+- [war](civilization/war.md) for deterrent conversion, escalation channels, and the boundary between endurance and coercive recursion
+- [peace](civilization/peace.md) for recognition formulas, review, relief, and bounded equilibrium
+- [empire instrument](empire/seed-instruments.md) for the outward control stack that protects, overreaches, or self-isolates Iranian leverage
+
+Use these after the helix has clarified which strand is actually governing the clause. Use older lane notes or direct `civ-mem` provenance only when the first-wave set still leaves a real gap.
+
 - [State](state/) - current split authority, supreme/elected government, foreign ministry, parliament, IRGC, and security carriers.
 - [Civilization](civilization/) - inherited Iranian code: Persian continuity, Shi'a legitimacy, dignity, sovereignty, and resistance memory.
 - [Empire](empire/) - outward striving for deterrence, Hormuz leverage, sanctions relief, partner networks, and recognition.
-- [Helix](helix.md) - where dignity authorizes leverage, where leverage risks isolation, and what restraint turns power into settlement.
 
 ## Current State Carriers
 

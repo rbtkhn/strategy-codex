@@ -116,7 +116,7 @@ CORPUS_BUDGET = {
     "v1_target": 150000,
     "v1_band": [120000, 180000],
     "hard_ceiling": 180000,
-    "phase2_active_proving_cases": ["America", "Russia"],
+    "phase2_active_proving_cases": ["America", "Russia", "China", "Iran"],
     "volume_targets": {
         "civilization": {"target": 90000, "band": [70000, 100000]},
         "empire": {"target": 60000, "band": [50000, 80000]},
@@ -342,6 +342,11 @@ def compute_word_metrics() -> dict:
             "pilot_empire_share_of_civilization": pilot_share,
         }
 
+    canonical_family_synthesis_files = sorted(MIGRATION_ROOT.glob("canonical-family-*.md"))
+    orientation_and_retrieval_files = sorted(MIGRATION_ROOT.glob("orientation-*.md")) + sorted(
+        MIGRATION_ROOT.glob("retrieval-*.md")
+    )
+
     phase2_metrics = {
         "helix_objects": {
             "active_proving_cases": CORPUS_BUDGET["phase2_active_proving_cases"],
@@ -356,14 +361,26 @@ def compute_word_metrics() -> dict:
             for lane, item in first_wave_totals_by_lane.items()
         },
         "canonical_family_synthesis_surfaces": {
-            "surface_count": 0,
-            "current_words": 0,
-            "surfaces": [],
+            "surface_count": len(canonical_family_synthesis_files),
+            "current_words": sum(file_word_count(path) for path in canonical_family_synthesis_files),
+            "surfaces": [
+                {
+                    "path": path.relative_to(REPO_ROOT).as_posix(),
+                    "words": file_word_count(path),
+                }
+                for path in canonical_family_synthesis_files
+            ],
         },
         "orientation_and_retrieval_surfaces": {
-            "surface_count": 0,
-            "current_words": 0,
-            "surfaces": [],
+            "surface_count": len(orientation_and_retrieval_files),
+            "current_words": sum(file_word_count(path) for path in orientation_and_retrieval_files),
+            "surfaces": [
+                {
+                    "path": path.relative_to(REPO_ROOT).as_posix(),
+                    "words": file_word_count(path),
+                }
+                for path in orientation_and_retrieval_files
+            ],
         },
     }
 
@@ -819,7 +836,7 @@ def write_corpus_budget_md(data: dict) -> None:
             "",
             "## Phase 2 Helix-First Metrics",
             "",
-            "These rows are additive. They describe the active helix-first proving cases and the underlying strand totals without discarding the historical two-volume scaffold metrics above. America and Russia are the current proving cases in this phase; the other helix rows remain baseline measurements, not transfer claims.",
+            "These rows are additive. They describe the active helix-first proving cases and the underlying strand totals without discarding the historical two-volume scaffold metrics above. America, Russia, China, and Iran are now the current proving cases in this phase.",
             "",
             "### Helix Objects",
             "",
@@ -851,8 +868,8 @@ def write_corpus_budget_md(data: dict) -> None:
             "",
             "| Surface class | Current surfaces | Current words | Notes |",
             "| --- | ---: | ---: | --- |",
-            f"| Canonical-family synthesis | {phase2_metrics['canonical_family_synthesis_surfaces']['surface_count']} | {phase2_metrics['canonical_family_synthesis_surfaces']['current_words']} | not yet instantiated in the control plane |",
-            f"| Orientation / retrieval | {phase2_metrics['orientation_and_retrieval_surfaces']['surface_count']} | {phase2_metrics['orientation_and_retrieval_surfaces']['current_words']} | not yet instantiated as distinct Phase 2 surfaces |",
+            f"| Canonical-family synthesis | {phase2_metrics['canonical_family_synthesis_surfaces']['surface_count']} | {phase2_metrics['canonical_family_synthesis_surfaces']['current_words']} | {'active first synthesis surfaces now exist in the control plane' if phase2_metrics['canonical_family_synthesis_surfaces']['surface_count'] else 'not yet instantiated in the control plane'} |",
+            f"| Orientation / retrieval | {phase2_metrics['orientation_and_retrieval_surfaces']['surface_count']} | {phase2_metrics['orientation_and_retrieval_surfaces']['current_words']} | {'active orientation or retrieval surfaces now exist in the control plane' if phase2_metrics['orientation_and_retrieval_surfaces']['surface_count'] else 'not yet instantiated as distinct Phase 2 surfaces'} |",
             "",
             "## Canonical Family Coverage",
             "",

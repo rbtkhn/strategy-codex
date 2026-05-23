@@ -10,8 +10,8 @@ This report inventories direct legacy `civ-mem` references inside the four activ
 - Files with direct references: `36`
 - Unique upstream `civ-mem` files referenced: `333`
 - First-wave symmetric targets: `20`
-- Current active-lane words: `95391`
-- Current `civ-emp` subtree words: `32247`
+- Current active-lane words: `98134`
+- Current `civ-emp` subtree words: `47866`
 
 ## Direct References By Lane
 
@@ -114,13 +114,13 @@ This report inventories direct legacy `civ-mem` references inside the four activ
 | `russia-war` | `civilization` | codex/academy/statecraft/russia/civilization/war.md | 19 | 2889 | `3000-4000` | direct CIV-MEM dependency already present |
 | `russia-peace` | `civilization` | codex/academy/statecraft/russia/civilization/peace.md | 23 | 2958 | `3000-4000` | direct CIV-MEM dependency already present |
 | `russia-empire-instrument` | `empire` | codex/academy/statecraft/russia/empire/seed-instruments.md | 9 | 3230 | `2500-3500` | direct CIV-MEM dependency already present |
-| `china-state-memory` | `civilization` | codex/academy/statecraft/china/civilization/objects/state-memory.md | 24 | 3533 | `3500-4500` | direct CIV-MEM dependency already present |
-| `china-geo` | `civilization` | codex/academy/statecraft/china/civilization/geo.md | 18 | 2528 | `2500-3500` | direct CIV-MEM dependency already present |
-| `china-war` | `civilization` | codex/academy/statecraft/china/civilization/war.md | 22 | 2943 | `3000-4000` | direct CIV-MEM dependency already present |
-| `china-peace` | `civilization` | codex/academy/statecraft/china/civilization/peace.md | 24 | 2833 | `3000-4000` | direct CIV-MEM dependency already present |
-| `china-empire-instrument` | `empire` | codex/academy/statecraft/china/empire/seed-instruments.md | 9 | 3018 | `2500-3500` | direct CIV-MEM dependency already present |
-| `iran-state-memory` | `civilization` | codex/academy/statecraft/iran/civilization/objects/state-memory.md | 21 | 3229 | `3500-4500` | direct CIV-MEM dependency already present |
-| `iran-geo` | `civilization` | codex/academy/statecraft/iran/civilization/geo.md | 17 | 2545 | `2500-3500` | direct CIV-MEM dependency already present |
-| `iran-war` | `civilization` | codex/academy/statecraft/iran/civilization/war.md | 18 | 2751 | `3000-4000` | direct CIV-MEM dependency already present |
-| `iran-peace` | `civilization` | codex/academy/statecraft/iran/civilization/peace.md | 22 | 2773 | `3000-4000` | direct CIV-MEM dependency already present |
-| `iran-empire-instrument` | `empire` | codex/academy/statecraft/iran/empire/seed-instruments.md | 8 | 2787 | `2500-3500` | direct CIV-MEM dependency already present |
+| `china-state-memory` | `civilization` | codex/academy/statecraft/china/civilization/objects/state-memory.md | 24 | 3580 | `3500-4500` | direct CIV-MEM dependency already present |
+| `china-geo` | `civilization` | codex/academy/statecraft/china/civilization/geo.md | 18 | 2575 | `2500-3500` | direct CIV-MEM dependency already present |
+| `china-war` | `civilization` | codex/academy/statecraft/china/civilization/war.md | 22 | 2990 | `3000-4000` | direct CIV-MEM dependency already present |
+| `china-peace` | `civilization` | codex/academy/statecraft/china/civilization/peace.md | 24 | 2880 | `3000-4000` | direct CIV-MEM dependency already present |
+| `china-empire-instrument` | `empire` | codex/academy/statecraft/china/empire/seed-instruments.md | 9 | 3063 | `2500-3500` | direct CIV-MEM dependency already present |
+| `iran-state-memory` | `civilization` | codex/academy/statecraft/iran/civilization/objects/state-memory.md | 21 | 3276 | `3500-4500` | direct CIV-MEM dependency already present |
+| `iran-geo` | `civilization` | codex/academy/statecraft/iran/civilization/geo.md | 17 | 2592 | `2500-3500` | direct CIV-MEM dependency already present |
+| `iran-war` | `civilization` | codex/academy/statecraft/iran/civilization/war.md | 18 | 2799 | `3000-4000` | direct CIV-MEM dependency already present |
+| `iran-peace` | `civilization` | codex/academy/statecraft/iran/civilization/peace.md | 22 | 2819 | `3000-4000` | direct CIV-MEM dependency already present |
+| `iran-empire-instrument` | `empire` | codex/academy/statecraft/iran/empire/seed-instruments.md | 8 | 2832 | `2500-3500` | direct CIV-MEM dependency already present |

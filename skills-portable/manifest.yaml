@@ -142,4 +142,11 @@ skills:
     verify_forbidden_substrings:
       - users/grace-mar/
       - process_approved_candidates
+  - name: statecraft-helix-synthesis
+    source: statecraft-helix-synthesis/SKILL.md
+    appendix: .cursor/skills/statecraft-helix-synthesis/CURSOR_APPENDIX.md
+    target: .cursor/skills/statecraft-helix-synthesis/SKILL.md
+    verify_forbidden_substrings:
+      - users/grace-mar/
+      - process_approved_candidates
 

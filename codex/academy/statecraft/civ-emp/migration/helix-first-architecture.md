@@ -32,7 +32,7 @@ The strand layer is therefore preserved, not displaced. Helix-first cutover does
 
 ## Active Proving Cases
 
-America is the first proving case, and Russia is the first transferred proving case, in this pass.
+America is the first proving case. Russia, China, and Iran are now transferred proving cases built from that initial proof rather than from fresh architecture redesign.
 
 That means:
 
@@ -43,8 +43,14 @@ That means:
 - [Russia helix](../../russia/helix.md) is the first transfer case promoted using the America proof rather than a fresh architecture redesign
 - [Russia README](../../russia/README.md) now routes to the helix first and to strand objects second
 - the older [Russia lane-level verification](russia-lane-verification.md) note remains valid as Phase 1C evidence rather than being rewritten away
+- [China helix](../../china/helix.md) is the second transfer case promoted using the established America-plus-Russia proof rather than a fresh architecture redesign
+- [China README](../../china/README.md) now routes to the helix first and to strand objects second
+- the older [China lane-level verification](china-lane-verification.md) note remains valid as Phase 1C evidence rather than being rewritten away
+- [Iran helix](../../iran/helix.md) is the third transfer case promoted using the established three-lane proof rather than a fresh architecture redesign
+- [Iran README](../../iran/README.md) now routes to the helix first and to strand objects second
+- the older [Iran lane-level verification](iran-lane-verification.md) note remains valid as Phase 1C evidence rather than being rewritten away
 
-China and Iran remain on the Phase 1C architecture until the America-plus-Russia transfer proof is explicitly judged strong enough to broaden again.
+The first lane-set result now exists at [Four-lane helix verification](lane-set-helix-verification.md). That note closes the lane-transfer question for the active set and shifts the next work upward into cross-lane synthesis and orientation surfaces.
 
 ## Verification Implication
 

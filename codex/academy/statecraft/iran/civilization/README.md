@@ -4,6 +4,10 @@ WORK only; not Record.
 
 Purpose: name the inherited Iranian code that shapes sovereignty, dignity, deterrence, resistance, and the demand to be treated as a necessary regional actor.
 
+Helix-first role: this folder now serves as the civilization-side strand bench beneath the primary [Iran helix](../helix.md). Use the helix for the integrated lane interpretation; use the notes here when the governing question has clearly narrowed to continuity memory, geography, war grammar, peace grammar, or later second-wave arc-lenses.
+
+Phase-one CIV-EMP opening: start with [state memory](objects/state-memory.md) when the live question is whether a proposal can carry Iranian sovereignty, dignity, deterrent continuity, and anti-humiliation competence as state memory rather than as temporary tactical survival.
+
 ## Inherited Code
 
 - Persian / Iranian state continuity and plateau geography.
@@ -43,4 +47,15 @@ Use the [present-day arc extension matrix](../../sheets/present-day-arc-extensio
 
 For Iran-specific dignity analysis, use the [Iran dignity-sovereignty arc](../../sheets/iran-dignity-sovereignty-arc.md) to distinguish plateau-sovereignty, righteous-order, Persianate-continuity, Shi'a-resistance, resource-sovereignty, martyrdom-endurance, and sanctions-sovereignty before turning recognition, relief, verification, or restraint claims into clause language.
 
-Use [civilization objects](objects/) when a recurring authority pattern needs to connect the Iran book surface to current state carriers, diplomatic transmitters, and transaction authority checks. First object: [state memory](objects/state-memory.md).
+Use [civilization objects](objects/) when a recurring authority pattern needs to connect the Iran book surface to current state carriers, diplomatic transmitters, and transaction authority checks. First object: [state memory](objects/state-memory.md), paired with [Iran empire instrument](../empire/seed-instruments.md) as the active phase-one civ/emp opening set.
+
+## First-Wave Openings
+
+Use the first-wave civilization objects in this order when the drafting problem is still at lane scale:
+
+- [state memory](objects/state-memory.md) for sovereignty, dignity, and deterrence-bearing authority
+- [geo](geo.md) for plateau exposure, Hormuz carrying systems, and geographic settlement carry
+- [war](war.md) for deterrent conversion, escalation channels, and endurance limits
+- [peace](peace.md) for recognition formulas, review, relief, and bounded equilibrium
+
+These are now the preferred Iran civilization-side openings ahead of older compact notes or direct `civ-mem` provenance files.

@@ -9,7 +9,7 @@ This note locks the v1 two-volume materialization target and ties it to the live
 - Full v1 target: `150000` words
 - Acceptable v1 band: `120000` to `180000`
 - Hard ceiling: `180000`
-- Phase 2 active proving cases: `America, Russia`
+- Phase 2 active proving cases: `America, Russia, China, Iran`
 - Volume I: Civilization target `90000`, band `70000` to `100000`
 - Volume II: Empire target `60000`, band `50000` to `80000`
 - First-wave core minimum: `60000` to `90000`
@@ -17,17 +17,17 @@ This note locks the v1 two-volume materialization target and ties it to the live
 
 ## Current Baseline
 
-- Current active-lane words across America, Russia, China, and Iran: `95391`
-- Current `civ-emp` subtree words: `32247`
-- Current first-wave core words on the 20 target surfaces: `58915`
+- Current active-lane words across America, Russia, China, and Iran: `98134`
+- Current `civ-emp` subtree words: `47866`
+- Current first-wave core words on the 20 target surfaces: `59381`
 
 | Surface | Current words | File count |
 | --- | ---: | ---: |
 | America lane | 24920 | 23 |
 | Russia lane | 24150 | 22 |
-| China lane | 22900 | 22 |
-| Iran lane | 23421 | 25 |
-| `civ-emp` subtree | 32247 | 52 |
+| China lane | 24301 | 22 |
+| Iran lane | 24763 | 25 |
+| `civ-emp` subtree | 47866 | 65 |
 
 ## First-Wave Object Targets
 
@@ -43,16 +43,16 @@ This note locks the v1 two-volume materialization target and ties it to the live
 | `russia-war` | 2889 | `3000-4000` | `verified` | `yes` | `yes` | `cut_over` |
 | `russia-peace` | 2958 | `3000-4000` | `verified` | `yes` | `yes` | `cut_over` |
 | `russia-empire-instrument` | 3230 | `2500-3500` | `cut_over` | `yes` | `yes` | `cut_over` |
-| `china-state-memory` | 3533 | `3500-4500` | `cut_over` | `yes` | `yes` | `cut_over` |
-| `china-geo` | 2528 | `2500-3500` | `verified` | `yes` | `yes` | `cut_over` |
-| `china-war` | 2943 | `3000-4000` | `verified` | `yes` | `yes` | `cut_over` |
-| `china-peace` | 2833 | `3000-4000` | `verified` | `yes` | `yes` | `cut_over` |
-| `china-empire-instrument` | 3018 | `2500-3500` | `cut_over` | `yes` | `yes` | `cut_over` |
-| `iran-state-memory` | 3229 | `3500-4500` | `cut_over` | `yes` | `yes` | `cut_over` |
-| `iran-geo` | 2545 | `2500-3500` | `verified` | `yes` | `yes` | `cut_over` |
-| `iran-war` | 2751 | `3000-4000` | `verified` | `yes` | `yes` | `cut_over` |
-| `iran-peace` | 2773 | `3000-4000` | `verified` | `yes` | `yes` | `cut_over` |
-| `iran-empire-instrument` | 2787 | `2500-3500` | `cut_over` | `yes` | `yes` | `cut_over` |
+| `china-state-memory` | 3580 | `3500-4500` | `cut_over` | `yes` | `yes` | `cut_over` |
+| `china-geo` | 2575 | `2500-3500` | `verified` | `yes` | `yes` | `cut_over` |
+| `china-war` | 2990 | `3000-4000` | `verified` | `yes` | `yes` | `cut_over` |
+| `china-peace` | 2880 | `3000-4000` | `verified` | `yes` | `yes` | `cut_over` |
+| `china-empire-instrument` | 3063 | `2500-3500` | `cut_over` | `yes` | `yes` | `cut_over` |
+| `iran-state-memory` | 3276 | `3500-4500` | `cut_over` | `yes` | `yes` | `cut_over` |
+| `iran-geo` | 2592 | `2500-3500` | `verified` | `yes` | `yes` | `cut_over` |
+| `iran-war` | 2799 | `3000-4000` | `verified` | `yes` | `yes` | `cut_over` |
+| `iran-peace` | 2819 | `3000-4000` | `verified` | `yes` | `yes` | `cut_over` |
+| `iran-empire-instrument` | 2832 | `2500-3500` | `cut_over` | `yes` | `yes` | `cut_over` |
 
 ## Pilot Pair Symmetry Budget
 
@@ -62,8 +62,8 @@ These rows measure the proving-case pair only: `state-memory` versus `empire-ins
 | --- | ---: | ---: | ---: | ---: |
 | America | 3553 | 2821 | 1.26 | 0.79 |
 | Russia | 3443 | 3230 | 1.07 | 0.94 |
-| China | 3533 | 3018 | 1.17 | 0.85 |
-| Iran | 3229 | 2787 | 1.16 | 0.86 |
+| China | 3580 | 3063 | 1.17 | 0.86 |
+| Iran | 3276 | 2832 | 1.16 | 0.86 |
 
 ## First-Wave Grid Balance
 
@@ -73,12 +73,12 @@ These rows measure the broader first-wave civilization grid against the single p
 | --- | ---: | ---: | ---: | ---: | ---: |
 | America | 12069 | 2821 | 1164 | 4.28 | 0.23 |
 | Russia | 11855 | 3230 | 1577 | 3.67 | 0.27 |
-| China | 11837 | 3018 | 257 | 3.92 | 0.25 |
-| Iran | 11298 | 2787 | 261 | 4.05 | 0.25 |
+| China | 12025 | 3063 | 1225 | 3.93 | 0.25 |
+| Iran | 11486 | 2832 | 1207 | 4.06 | 0.25 |
 
 ## Phase 2 Helix-First Metrics
 
-These rows are additive. They describe the active helix-first proving cases and the underlying strand totals without discarding the historical two-volume scaffold metrics above. America and Russia are the current proving cases in this phase; the other helix rows remain baseline measurements, not transfer claims.
+These rows are additive. They describe the active helix-first proving cases and the underlying strand totals without discarding the historical two-volume scaffold metrics above. America, Russia, China, and Iran are now the current proving cases in this phase.
 
 ### Helix Objects
 
@@ -86,10 +86,10 @@ These rows are additive. They describe the active helix-first proving cases and 
 | --- | ---: | --- |
 | America | 1164 | `codex/academy/statecraft/america/helix.md` |
 | Russia | 1577 | `codex/academy/statecraft/russia/helix.md` |
-| China | 257 | `codex/academy/statecraft/china/helix.md` |
-| Iran | 261 | `codex/academy/statecraft/iran/helix.md` |
+| China | 1225 | `codex/academy/statecraft/china/helix.md` |
+| Iran | 1207 | `codex/academy/statecraft/iran/helix.md` |
 
-- Total helix-object words across active lanes: `3259`
+- Total helix-object words across active lanes: `5173`
 
 ### Strand Subtotals By Lane
 
@@ -97,15 +97,15 @@ These rows are additive. They describe the active helix-first proving cases and 
 | --- | ---: | ---: |
 | America | 14890 | 5 |
 | Russia | 15085 | 5 |
-| China | 14855 | 5 |
-| Iran | 14085 | 5 |
+| China | 15088 | 5 |
+| Iran | 14318 | 5 |
 
 ### Future Phase 2 Surface Classes
 
 | Surface class | Current surfaces | Current words | Notes |
 | --- | ---: | ---: | --- |
-| Canonical-family synthesis | 0 | 0 | not yet instantiated in the control plane |
-| Orientation / retrieval | 0 | 0 | not yet instantiated as distinct Phase 2 surfaces |
+| Canonical-family synthesis | 8 | 10498 | active first synthesis surfaces now exist in the control plane |
+| Orientation / retrieval | 2 | 2149 | active orientation or retrieval surfaces now exist in the control plane |
 
 ## Canonical Family Coverage
 
@@ -113,12 +113,12 @@ Counts below are family-served first-wave words. A target contributes to a famil
 
 | Canonical family | Current mapped first-wave words |
 | --- | ---: |
-| what makes a settlement real rather than theatrical | 11455 |
-| when does a pressured hegemon misread its own power, limits, or durability | 25614 |
-| when do older strategic memories continue to constrain present actors | 24079 |
-| when does coercion fail to convert into the political outcome it claims to serve | 23381 |
-| when do broken contact regimes and arms-control inheritances make escalation more dangerous than the proxy-war script admits | 11525 |
-| how does remembered exclusion shape the politics of direct great-power settlement | 21776 |
+| what makes a settlement real rather than theatrical | 11548 |
+| when does a pressured hegemon misread its own power, limits, or durability | 25798 |
+| when do older strategic memories continue to constrain present actors | 24267 |
+| when does coercion fail to convert into the political outcome it claims to serve | 23566 |
+| when do broken contact regimes and arms-control inheritances make escalation more dangerous than the proxy-war script admits | 11620 |
+| how does remembered exclusion shape the politics of direct great-power settlement | 21963 |
 
 ## V1 Remainder Allocation
 

@@ -36,10 +36,25 @@ Use Richelieu to test institutional capacity: which ministries, banks, firms, po
 
 ## Civilization / Empire Helix
 
+- [Helix](helix.md) - primary lane interpretation; use this first when the question spans order, continuity, leverage, deformation, and restoration together.
+
+China is now the third helix-first transfer case. Start with [helix](helix.md) when the lane question has split across several notes and you need the governing line again. The helix is the primary authored interpretation; the first-wave objects below are the supporting strand surfaces.
+
+Phase-one CIV-EMP migration still matters underneath that cutover. The active China pilot pair remains [China state memory](civilization/objects/state-memory.md) and [China empire instrument](empire/seed-instruments.md), but they now function as strand inputs beneath the helix rather than as competing top-level openings.
+
+China's broader first-wave strand set is now usable as an ordered drafting surface beneath the helix:
+
+- [state memory](civilization/objects/state-memory.md) for continuity, unity, development legitimacy, and anti-humiliation authority
+- [geo](civilization/geo.md) for route exposure, coastal / inland carry, and settlement geometry
+- [war](civilization/war.md) for coercive classification, escalation channels, and the boundary between order restoration and disorder production
+- [peace](civilization/peace.md) for stabilization formulas, review, recognition, and bounded equilibrium
+- [empire instrument](empire/seed-instruments.md) for the outward control stack that protects, overreaches, or exposes Chinese leverage
+
+Use these after the helix has clarified which strand is actually governing the clause. Use older lane notes or direct `civ-mem` provenance only when the first-wave set still leaves a real gap.
+
 - [State](state/) - current party-state authority, top leadership, bureaucracy, PLA, banks, firms, ports, and diplomatic carriers.
 - [Civilization](civilization/) - inherited Chinese code: order, continuity, mandate logic, humiliation memory, and unity.
 - [Empire](empire/) - outward striving for energy, routes, finance, infrastructure, technology, and anti-coercion control.
-- [Helix](helix.md) - where order authorizes expansion, where expansion creates disorder, and what quiet regulation preserves leverage.
 
 ## Current State Carriers
 

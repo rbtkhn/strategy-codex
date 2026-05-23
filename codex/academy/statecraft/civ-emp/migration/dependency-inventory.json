@@ -19,9 +19,9 @@
       "when do broken contact regimes and arms-control inheritances make escalation more dangerous than the proxy-war script admits",
       "how does remembered exclusion shape the politics of direct great-power settlement"
     ],
-    "current_lane_surface_words": 95391,
-    "current_civ_emp_words": 32247,
-    "first_wave_core_current_words": 58915
+    "current_lane_surface_words": 98134,
+    "current_civ_emp_words": 47866,
+    "first_wave_core_current_words": 59381
   },
   "direct_ref_occurrences": [
     {
@@ -3061,7 +3061,7 @@
       "object_class": "geo",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/CIVâ€“COREâ€“CHINA.md",
       "upstream_folder": "CHINA",
-      "line_number": 32,
+      "line_number": 34,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/CIVâ€“COREâ€“CHINA.md`"
     },
     {
@@ -3071,7 +3071,7 @@
       "object_class": "geo",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/CIVâ€“STATEâ€“CHINA.md",
       "upstream_folder": "CHINA",
-      "line_number": 33,
+      "line_number": 35,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/CIVâ€“STATEâ€“CHINA.md`"
     },
     {
@@ -3081,7 +3081,7 @@
       "object_class": "geo",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/CIVâ€“DOCTRINEâ€“CHINA.md",
       "upstream_folder": "CHINA",
-      "line_number": 34,
+      "line_number": 36,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/CIVâ€“DOCTRINEâ€“CHINA.md`"
     },
     {
@@ -3091,7 +3091,7 @@
       "object_class": "geo",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“RELEVANCEâ€“CHINA.md",
       "upstream_folder": "CHINA",
-      "line_number": 35,
+      "line_number": 37,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“RELEVANCEâ€“CHINA.md`"
     },
     {
@@ -3101,7 +3101,7 @@
       "object_class": "geo",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/CIVâ€“COREâ€“CHINA.md",
       "upstream_folder": "CHINA",
-      "line_number": 151,
+      "line_number": 153,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/CIVâ€“COREâ€“CHINA.md`"
     },
     {
@@ -3111,7 +3111,7 @@
       "object_class": "geo",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/CIVâ€“STATEâ€“CHINA.md",
       "upstream_folder": "CHINA",
-      "line_number": 152,
+      "line_number": 154,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/CIVâ€“STATEâ€“CHINA.md`"
     },
     {
@@ -3121,7 +3121,7 @@
       "object_class": "geo",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/CIVâ€“DOCTRINEâ€“CHINA.md",
       "upstream_folder": "CHINA",
-      "line_number": 153,
+      "line_number": 155,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/CIVâ€“DOCTRINEâ€“CHINA.md`"
     },
     {
@@ -3131,7 +3131,7 @@
       "object_class": "geo",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“RELEVANCEâ€“CHINA.md",
       "upstream_folder": "CHINA",
-      "line_number": 154,
+      "line_number": 156,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“RELEVANCEâ€“CHINA.md`"
     },
     {
@@ -3141,7 +3141,7 @@
       "object_class": "geo",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“GEOâ€“YELLOWâ€“RIVER.md",
       "upstream_folder": "CHINA",
-      "line_number": 155,
+      "line_number": 157,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“GEOâ€“YELLOWâ€“RIVER.md`"
     },
     {
@@ -3151,7 +3151,7 @@
       "object_class": "geo",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“GEOâ€“YANGTZEâ€“RIVER.md",
       "upstream_folder": "CHINA",
-      "line_number": 156,
+      "line_number": 158,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“GEOâ€“YANGTZEâ€“RIVER.md`"
     },
     {
@@ -3161,7 +3161,7 @@
       "object_class": "geo",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“GRANDâ€“CANAL.md",
       "upstream_folder": "CHINA",
-      "line_number": 157,
+      "line_number": 159,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“GRANDâ€“CANAL.md`"
     },
     {
@@ -3171,7 +3171,7 @@
       "object_class": "geo",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“GEOâ€“PEARLâ€“RIVER.md",
       "upstream_folder": "CHINA",
-      "line_number": 158,
+      "line_number": 160,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“GEOâ€“PEARLâ€“RIVER.md`"
     },
     {
@@ -3181,7 +3181,7 @@
       "object_class": "geo",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“GEOâ€“TAIWANâ€“STRAIT.md",
       "upstream_folder": "CHINA",
-      "line_number": 159,
+      "line_number": 161,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“GEOâ€“TAIWANâ€“STRAIT.md`"
     },
     {
@@ -3191,7 +3191,7 @@
       "object_class": "geo",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“GEOâ€“SOUTHâ€“CHINAâ€“SEA.md",
       "upstream_folder": "CHINA",
-      "line_number": 160,
+      "line_number": 162,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“GEOâ€“SOUTHâ€“CHINAâ€“SEA.md`"
     },
     {
@@ -3201,7 +3201,7 @@
       "object_class": "geo",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“GEOâ€“EASTâ€“CHINAâ€“SEA.md",
       "upstream_folder": "CHINA",
-      "line_number": 161,
+      "line_number": 163,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“GEOâ€“EASTâ€“CHINAâ€“SEA.md`"
     },
     {
@@ -3211,7 +3211,7 @@
       "object_class": "geo",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“GEOâ€“GOBIâ€“DESERT.md",
       "upstream_folder": "CHINA",
-      "line_number": 162,
+      "line_number": 164,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“GEOâ€“GOBIâ€“DESERT.md`"
     },
     {
@@ -3221,7 +3221,7 @@
       "object_class": "geo",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“GEOâ€“TIBET.md",
       "upstream_folder": "CHINA",
-      "line_number": 163,
+      "line_number": 165,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“GEOâ€“TIBET.md`"
     },
     {
@@ -3231,7 +3231,7 @@
       "object_class": "geo",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“GEOâ€“MANCHURIA.md",
       "upstream_folder": "CHINA",
-      "line_number": 164,
+      "line_number": 166,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“GEOâ€“MANCHURIA.md`"
     },
     {
@@ -3581,7 +3581,7 @@
       "object_class": "state-memory",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/CIV-CORE-CHINA.md",
       "upstream_folder": "CHINA",
-      "line_number": 28,
+      "line_number": 30,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/CIV-CORE-CHINA.md`"
     },
     {
@@ -3591,7 +3591,7 @@
       "object_class": "state-memory",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/CIV-STATE-CHINA.md",
       "upstream_folder": "CHINA",
-      "line_number": 29,
+      "line_number": 31,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/CIV-STATE-CHINA.md`"
     },
     {
@@ -3601,7 +3601,7 @@
       "object_class": "state-memory",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/CIV-DOCTRINE-CHINA.md",
       "upstream_folder": "CHINA",
-      "line_number": 30,
+      "line_number": 32,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/CIV-DOCTRINE-CHINA.md`"
     },
     {
@@ -3611,7 +3611,7 @@
       "object_class": "state-memory",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEM-RELEVANCE-CHINA.md",
       "upstream_folder": "CHINA",
-      "line_number": 31,
+      "line_number": 33,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEM-RELEVANCE-CHINA.md`"
     },
     {
@@ -3621,7 +3621,7 @@
       "object_class": "state-memory",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEM-CHINA-DYNASTY-XIA.md",
       "upstream_folder": "CHINA",
-      "line_number": 32,
+      "line_number": 34,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEM-CHINA-DYNASTY-XIA.md`"
     },
     {
@@ -3631,7 +3631,7 @@
       "object_class": "state-memory",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEM-CHINA-DYNASTY-SHANG.md",
       "upstream_folder": "CHINA",
-      "line_number": 33,
+      "line_number": 35,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEM-CHINA-DYNASTY-SHANG.md`"
     },
     {
@@ -3641,7 +3641,7 @@
       "object_class": "state-memory",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEM-CHINA-DYNASTY-ZHOU.md",
       "upstream_folder": "CHINA",
-      "line_number": 34,
+      "line_number": 36,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEM-CHINA-DYNASTY-ZHOU.md`"
     },
     {
@@ -3651,7 +3651,7 @@
       "object_class": "state-memory",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEM-CHINA-DYNASTY-QIN.md",
       "upstream_folder": "CHINA",
-      "line_number": 35,
+      "line_number": 37,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEM-CHINA-DYNASTY-QIN.md`"
     },
     {
@@ -3661,7 +3661,7 @@
       "object_class": "state-memory",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEM-CHINA-DYNASTY-HAN.md",
       "upstream_folder": "CHINA",
-      "line_number": 36,
+      "line_number": 38,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEM-CHINA-DYNASTY-HAN.md`"
     },
     {
@@ -3671,7 +3671,7 @@
       "object_class": "state-memory",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEM-CHINA-DYNASTY-TANG.md",
       "upstream_folder": "CHINA",
-      "line_number": 37,
+      "line_number": 39,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEM-CHINA-DYNASTY-TANG.md`"
     },
     {
@@ -3681,7 +3681,7 @@
       "object_class": "state-memory",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEM-CHINA-DYNASTY-SONG.md",
       "upstream_folder": "CHINA",
-      "line_number": 38,
+      "line_number": 40,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEM-CHINA-DYNASTY-SONG.md`"
     },
     {
@@ -3691,7 +3691,7 @@
       "object_class": "state-memory",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEM-CHINA-DYNASTY-MING.md",
       "upstream_folder": "CHINA",
-      "line_number": 39,
+      "line_number": 41,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEM-CHINA-DYNASTY-MING.md`"
     },
     {
@@ -3701,7 +3701,7 @@
       "object_class": "state-memory",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEM-CHINA-DYNASTY-YUAN.md",
       "upstream_folder": "CHINA",
-      "line_number": 40,
+      "line_number": 42,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEM-CHINA-DYNASTY-YUAN.md`"
     },
     {
@@ -3711,7 +3711,7 @@
       "object_class": "state-memory",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEM-CHINA-DYNASTY-QING.md",
       "upstream_folder": "CHINA",
-      "line_number": 41,
+      "line_number": 43,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEM-CHINA-DYNASTY-QING.md`"
     },
     {
@@ -3721,7 +3721,7 @@
       "object_class": "state-memory",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEM-CHINA-WAR-FIRST-OPIUM.md",
       "upstream_folder": "CHINA",
-      "line_number": 42,
+      "line_number": 44,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEM-CHINA-WAR-FIRST-OPIUM.md`"
     },
     {
@@ -3731,7 +3731,7 @@
       "object_class": "state-memory",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEM-CHINA-WAR-TAIPING-REBELLION.md",
       "upstream_folder": "CHINA",
-      "line_number": 43,
+      "line_number": 45,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEM-CHINA-WAR-TAIPING-REBELLION.md`"
     },
     {
@@ -3741,7 +3741,7 @@
       "object_class": "state-memory",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEM-CHINA-WAR-BOXER-REBELLION.md",
       "upstream_folder": "CHINA",
-      "line_number": 44,
+      "line_number": 46,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEM-CHINA-WAR-BOXER-REBELLION.md`"
     },
     {
@@ -3751,7 +3751,7 @@
       "object_class": "state-memory",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEM-CHINA-ROC.md",
       "upstream_folder": "CHINA",
-      "line_number": 45,
+      "line_number": 47,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEM-CHINA-ROC.md`"
     },
     {
@@ -3761,7 +3761,7 @@
       "object_class": "state-memory",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEM-CHINA-TAIWAN.md",
       "upstream_folder": "CHINA",
-      "line_number": 46,
+      "line_number": 48,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEM-CHINA-TAIWAN.md`"
     },
     {
@@ -3771,7 +3771,7 @@
       "object_class": "state-memory",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEM-CHINA-PRC.md",
       "upstream_folder": "CHINA",
-      "line_number": 47,
+      "line_number": 49,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEM-CHINA-PRC.md`"
     },
     {
@@ -3781,7 +3781,7 @@
       "object_class": "state-memory",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEM-CHINA-PRC-MAO-ZEDONG.md",
       "upstream_folder": "CHINA",
-      "line_number": 48,
+      "line_number": 50,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEM-CHINA-PRC-MAO-ZEDONG.md`"
     },
     {
@@ -3791,7 +3791,7 @@
       "object_class": "state-memory",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEM-CHINA-PRC-DENG-XIAOPING.md",
       "upstream_folder": "CHINA",
-      "line_number": 49,
+      "line_number": 51,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEM-CHINA-PRC-DENG-XIAOPING.md`"
     },
     {
@@ -3801,7 +3801,7 @@
       "object_class": "state-memory",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEM-CHINA-GRAND-CANAL.md",
       "upstream_folder": "CHINA",
-      "line_number": 50,
+      "line_number": 52,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEM-CHINA-GRAND-CANAL.md`"
     },
     {
@@ -3811,7 +3811,7 @@
       "object_class": "state-memory",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEM-CHINA-SILK-ROAD.md",
       "upstream_folder": "CHINA",
-      "line_number": 51,
+      "line_number": 53,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEM-CHINA-SILK-ROAD.md`"
     },
     {
@@ -3821,7 +3821,7 @@
       "object_class": "peace",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/CIVâ€“COREâ€“CHINA.md",
       "upstream_folder": "CHINA",
-      "line_number": 32,
+      "line_number": 34,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/CIVâ€“COREâ€“CHINA.md`"
     },
     {
@@ -3831,7 +3831,7 @@
       "object_class": "peace",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/CIVâ€“STATEâ€“CHINA.md",
       "upstream_folder": "CHINA",
-      "line_number": 33,
+      "line_number": 35,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/CIVâ€“STATEâ€“CHINA.md`"
     },
     {
@@ -3841,7 +3841,7 @@
       "object_class": "peace",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/CIVâ€“DOCTRINEâ€“CHINA.md",
       "upstream_folder": "CHINA",
-      "line_number": 34,
+      "line_number": 36,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/CIVâ€“DOCTRINEâ€“CHINA.md`"
     },
     {
@@ -3851,7 +3851,7 @@
       "object_class": "peace",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“RELEVANCEâ€“CHINA.md",
       "upstream_folder": "CHINA",
-      "line_number": 35,
+      "line_number": 37,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“RELEVANCEâ€“CHINA.md`"
     },
     {
@@ -3861,7 +3861,7 @@
       "object_class": "peace",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/CIVâ€“COREâ€“CHINA.md",
       "upstream_folder": "CHINA",
-      "line_number": 183,
+      "line_number": 185,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/CIVâ€“COREâ€“CHINA.md`"
     },
     {
@@ -3871,7 +3871,7 @@
       "object_class": "peace",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/CIVâ€“STATEâ€“CHINA.md",
       "upstream_folder": "CHINA",
-      "line_number": 184,
+      "line_number": 186,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/CIVâ€“STATEâ€“CHINA.md`"
     },
     {
@@ -3881,7 +3881,7 @@
       "object_class": "peace",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/CIVâ€“DOCTRINEâ€“CHINA.md",
       "upstream_folder": "CHINA",
-      "line_number": 185,
+      "line_number": 187,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/CIVâ€“DOCTRINEâ€“CHINA.md`"
     },
     {
@@ -3891,7 +3891,7 @@
       "object_class": "peace",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“RELEVANCEâ€“CHINA.md",
       "upstream_folder": "CHINA",
-      "line_number": 186,
+      "line_number": 188,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“RELEVANCEâ€“CHINA.md`"
     },
     {
@@ -3901,7 +3901,7 @@
       "object_class": "peace",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“LITâ€“KONGZI.md",
       "upstream_folder": "CHINA",
-      "line_number": 187,
+      "line_number": 189,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“LITâ€“KONGZI.md`"
     },
     {
@@ -3911,7 +3911,7 @@
       "object_class": "peace",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“LITâ€“LAOZI.md",
       "upstream_folder": "CHINA",
-      "line_number": 188,
+      "line_number": 190,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“LITâ€“LAOZI.md`"
     },
     {
@@ -3921,7 +3921,7 @@
       "object_class": "peace",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“PRCâ€“ZHOUâ€“ENLAI.md",
       "upstream_folder": "CHINA",
-      "line_number": 189,
+      "line_number": 191,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“PRCâ€“ZHOUâ€“ENLAI.md`"
     },
     {
@@ -3931,7 +3931,7 @@
       "object_class": "peace",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“PRCâ€“DENGâ€“XIAOPING.md",
       "upstream_folder": "CHINA",
-      "line_number": 190,
+      "line_number": 192,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“PRCâ€“DENGâ€“XIAOPING.md`"
     },
     {
@@ -3941,7 +3941,7 @@
       "object_class": "peace",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“PRCâ€“KISSINGER.md",
       "upstream_folder": "CHINA",
-      "line_number": 191,
+      "line_number": 193,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“PRCâ€“KISSINGER.md`"
     },
     {
@@ -3951,7 +3951,7 @@
       "object_class": "peace",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“PRC.md",
       "upstream_folder": "CHINA",
-      "line_number": 192,
+      "line_number": 194,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“PRC.md`"
     },
     {
@@ -3961,7 +3961,7 @@
       "object_class": "peace",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“GRANDâ€“CANAL.md",
       "upstream_folder": "CHINA",
-      "line_number": 193,
+      "line_number": 195,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“GRANDâ€“CANAL.md`"
     },
     {
@@ -3971,7 +3971,7 @@
       "object_class": "peace",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“SILKâ€“ROAD.md",
       "upstream_folder": "CHINA",
-      "line_number": 194,
+      "line_number": 196,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“SILKâ€“ROAD.md`"
     },
     {
@@ -3981,7 +3981,7 @@
       "object_class": "peace",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“TAIWAN.md",
       "upstream_folder": "CHINA",
-      "line_number": 195,
+      "line_number": 197,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“TAIWAN.md`"
     },
     {
@@ -3991,7 +3991,7 @@
       "object_class": "peace",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“GEOâ€“TAIWANâ€“STRAIT.md",
       "upstream_folder": "CHINA",
-      "line_number": 196,
+      "line_number": 198,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“GEOâ€“TAIWANâ€“STRAIT.md`"
     },
     {
@@ -4001,7 +4001,7 @@
       "object_class": "peace",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“GEOâ€“SOUTHâ€“CHINAâ€“SEA.md",
       "upstream_folder": "CHINA",
-      "line_number": 197,
+      "line_number": 199,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“GEOâ€“SOUTHâ€“CHINAâ€“SEA.md`"
     },
     {
@@ -4011,7 +4011,7 @@
       "object_class": "peace",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“GEOâ€“EASTâ€“CHINAâ€“SEA.md",
       "upstream_folder": "CHINA",
-      "line_number": 198,
+      "line_number": 200,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“GEOâ€“EASTâ€“CHINAâ€“SEA.md`"
     },
     {
@@ -4021,7 +4021,7 @@
       "object_class": "peace",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“WARâ€“FIRSTâ€“OPIUM.md",
       "upstream_folder": "CHINA",
-      "line_number": 199,
+      "line_number": 201,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“WARâ€“FIRSTâ€“OPIUM.md`"
     },
     {
@@ -4031,7 +4031,7 @@
       "object_class": "peace",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“WARâ€“TAIPINGâ€“REBELLION.md",
       "upstream_folder": "CHINA",
-      "line_number": 200,
+      "line_number": 202,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“WARâ€“TAIPINGâ€“REBELLION.md`"
     },
     {
@@ -4041,7 +4041,7 @@
       "object_class": "peace",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“WARâ€“BOXERâ€“REBELLION.md",
       "upstream_folder": "CHINA",
-      "line_number": 201,
+      "line_number": 203,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“WARâ€“BOXERâ€“REBELLION.md`"
     },
     {
@@ -4051,7 +4051,7 @@
       "object_class": "peace",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“ROC.md",
       "upstream_folder": "CHINA",
-      "line_number": 202,
+      "line_number": 204,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“ROC.md`"
     },
     {
@@ -4311,7 +4311,7 @@
       "object_class": "war",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/CIVâ€“COREâ€“CHINA.md",
       "upstream_folder": "CHINA",
-      "line_number": 32,
+      "line_number": 34,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/CIVâ€“COREâ€“CHINA.md`"
     },
     {
@@ -4321,7 +4321,7 @@
       "object_class": "war",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/CIVâ€“STATEâ€“CHINA.md",
       "upstream_folder": "CHINA",
-      "line_number": 33,
+      "line_number": 35,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/CIVâ€“STATEâ€“CHINA.md`"
     },
     {
@@ -4331,7 +4331,7 @@
       "object_class": "war",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/CIVâ€“DOCTRINEâ€“CHINA.md",
       "upstream_folder": "CHINA",
-      "line_number": 34,
+      "line_number": 36,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/CIVâ€“DOCTRINEâ€“CHINA.md`"
     },
     {
@@ -4341,7 +4341,7 @@
       "object_class": "war",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“RELEVANCEâ€“CHINA.md",
       "upstream_folder": "CHINA",
-      "line_number": 35,
+      "line_number": 37,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“RELEVANCEâ€“CHINA.md`"
     },
     {
@@ -4351,7 +4351,7 @@
       "object_class": "war",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/CIVâ€“COREâ€“CHINA.md",
       "upstream_folder": "CHINA",
-      "line_number": 168,
+      "line_number": 170,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/CIVâ€“COREâ€“CHINA.md`"
     },
     {
@@ -4361,7 +4361,7 @@
       "object_class": "war",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/CIVâ€“STATEâ€“CHINA.md",
       "upstream_folder": "CHINA",
-      "line_number": 169,
+      "line_number": 171,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/CIVâ€“STATEâ€“CHINA.md`"
     },
     {
@@ -4371,7 +4371,7 @@
       "object_class": "war",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/CIVâ€“DOCTRINEâ€“CHINA.md",
       "upstream_folder": "CHINA",
-      "line_number": 170,
+      "line_number": 172,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/CIVâ€“DOCTRINEâ€“CHINA.md`"
     },
     {
@@ -4381,7 +4381,7 @@
       "object_class": "war",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“RELEVANCEâ€“CHINA.md",
       "upstream_folder": "CHINA",
-      "line_number": 171,
+      "line_number": 173,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“RELEVANCEâ€“CHINA.md`"
     },
     {
@@ -4391,7 +4391,7 @@
       "object_class": "war",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“WARâ€“FIRSTâ€“OPIUM.md",
       "upstream_folder": "CHINA",
-      "line_number": 172,
+      "line_number": 174,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“WARâ€“FIRSTâ€“OPIUM.md`"
     },
     {
@@ -4401,7 +4401,7 @@
       "object_class": "war",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“WARâ€“SECONDâ€“OPIUM.md",
       "upstream_folder": "CHINA",
-      "line_number": 173,
+      "line_number": 175,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“WARâ€“SECONDâ€“OPIUM.md`"
     },
     {
@@ -4411,7 +4411,7 @@
       "object_class": "war",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“WARâ€“TAIPINGâ€“REBELLION.md",
       "upstream_folder": "CHINA",
-      "line_number": 174,
+      "line_number": 176,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“WARâ€“TAIPINGâ€“REBELLION.md`"
     },
     {
@@ -4421,7 +4421,7 @@
       "object_class": "war",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“WARâ€“BOXERâ€“REBELLION.md",
       "upstream_folder": "CHINA",
-      "line_number": 175,
+      "line_number": 177,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“WARâ€“BOXERâ€“REBELLION.md`"
     },
     {
@@ -4431,7 +4431,7 @@
       "object_class": "war",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“ROC.md",
       "upstream_folder": "CHINA",
-      "line_number": 176,
+      "line_number": 178,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“ROC.md`"
     },
     {
@@ -4441,7 +4441,7 @@
       "object_class": "war",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“PRC.md",
       "upstream_folder": "CHINA",
-      "line_number": 177,
+      "line_number": 179,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“PRC.md`"
     },
     {
@@ -4451,7 +4451,7 @@
       "object_class": "war",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“PRCâ€“MAOâ€“ZEDONG.md",
       "upstream_folder": "CHINA",
-      "line_number": 178,
+      "line_number": 180,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“PRCâ€“MAOâ€“ZEDONG.md`"
     },
     {
@@ -4461,7 +4461,7 @@
       "object_class": "war",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“PRCâ€“DENGâ€“XIAOPING.md",
       "upstream_folder": "CHINA",
-      "line_number": 179,
+      "line_number": 181,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“PRCâ€“DENGâ€“XIAOPING.md`"
     },
     {
@@ -4471,7 +4471,7 @@
       "object_class": "war",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“WARâ€“SONGâ€“YUAN.md",
       "upstream_folder": "CHINA",
-      "line_number": 180,
+      "line_number": 182,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“WARâ€“SONGâ€“YUAN.md`"
     },
     {
@@ -4481,7 +4481,7 @@
       "object_class": "war",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“GRANDâ€“CANAL.md",
       "upstream_folder": "CHINA",
-      "line_number": 181,
+      "line_number": 183,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“GRANDâ€“CANAL.md`"
     },
     {
@@ -4491,7 +4491,7 @@
       "object_class": "war",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“TAIWAN.md",
       "upstream_folder": "CHINA",
-      "line_number": 182,
+      "line_number": 184,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“TAIWAN.md`"
     },
     {
@@ -4501,7 +4501,7 @@
       "object_class": "war",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“GEOâ€“TAIWANâ€“STRAIT.md",
       "upstream_folder": "CHINA",
-      "line_number": 183,
+      "line_number": 185,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“GEOâ€“TAIWANâ€“STRAIT.md`"
     },
     {
@@ -4511,7 +4511,7 @@
       "object_class": "war",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“GEOâ€“EASTâ€“CHINAâ€“SEA.md",
       "upstream_folder": "CHINA",
-      "line_number": 184,
+      "line_number": 186,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“GEOâ€“EASTâ€“CHINAâ€“SEA.md`"
     },
     {
@@ -4521,7 +4521,7 @@
       "object_class": "war",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“GEOâ€“SOUTHâ€“CHINAâ€“SEA.md",
       "upstream_folder": "CHINA",
-      "line_number": 185,
+      "line_number": 187,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEMâ€“CHINAâ€“GEOâ€“SOUTHâ€“CHINAâ€“SEA.md`"
     },
     {
@@ -4531,7 +4531,7 @@
       "object_class": "empire-instrument",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/CIV-CORE-CHINA.md",
       "upstream_folder": "CHINA",
-      "line_number": 40,
+      "line_number": 42,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/CIV-CORE-CHINA.md`"
     },
     {
@@ -4541,7 +4541,7 @@
       "object_class": "empire-instrument",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/CIV-STATE-CHINA.md",
       "upstream_folder": "CHINA",
-      "line_number": 41,
+      "line_number": 43,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/CIV-STATE-CHINA.md`"
     },
     {
@@ -4551,7 +4551,7 @@
       "object_class": "empire-instrument",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/CIV-DOCTRINE-CHINA.md",
       "upstream_folder": "CHINA",
-      "line_number": 42,
+      "line_number": 44,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/CIV-DOCTRINE-CHINA.md`"
     },
     {
@@ -4561,7 +4561,7 @@
       "object_class": "empire-instrument",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEM-RELEVANCE-CHINA.md",
       "upstream_folder": "CHINA",
-      "line_number": 43,
+      "line_number": 45,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEM-RELEVANCE-CHINA.md`"
     },
     {
@@ -4571,7 +4571,7 @@
       "object_class": "empire-instrument",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEM-CHINA-SILK-ROAD.md",
       "upstream_folder": "CHINA",
-      "line_number": 44,
+      "line_number": 46,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEM-CHINA-SILK-ROAD.md`"
     },
     {
@@ -4581,7 +4581,7 @@
       "object_class": "empire-instrument",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEM-CHINA-GRAND-CANAL.md",
       "upstream_folder": "CHINA",
-      "line_number": 45,
+      "line_number": 47,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEM-CHINA-GRAND-CANAL.md`"
     },
     {
@@ -4591,7 +4591,7 @@
       "object_class": "empire-instrument",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEM-CHINA-TAIWAN.md",
       "upstream_folder": "CHINA",
-      "line_number": 46,
+      "line_number": 48,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEM-CHINA-TAIWAN.md`"
     },
     {
@@ -4601,7 +4601,7 @@
       "object_class": "empire-instrument",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEM-CHINA-PRC-DENG-XIAOPING.md",
       "upstream_folder": "CHINA",
-      "line_number": 47,
+      "line_number": 49,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEM-CHINA-PRC-DENG-XIAOPING.md`"
     },
     {
@@ -4611,7 +4611,7 @@
       "object_class": "empire-instrument",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/CHINA/MEM-CHINA-PRC-MAO-ZEDONG.md",
       "upstream_folder": "CHINA",
-      "line_number": 48,
+      "line_number": 50,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/CHINA/MEM-CHINA-PRC-MAO-ZEDONG.md`"
     },
     {
@@ -4761,7 +4761,7 @@
       "object_class": "geo",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/CIVâ€“COREâ€“PERSIA.md",
       "upstream_folder": "PERSIA",
-      "line_number": 32,
+      "line_number": 34,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/CIVâ€“COREâ€“PERSIA.md`"
     },
     {
@@ -4771,7 +4771,7 @@
       "object_class": "geo",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/CIVâ€“STATEâ€“PERSIA.md",
       "upstream_folder": "PERSIA",
-      "line_number": 33,
+      "line_number": 35,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/CIVâ€“STATEâ€“PERSIA.md`"
     },
     {
@@ -4781,7 +4781,7 @@
       "object_class": "geo",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/CIVâ€“DOCTRINEâ€“PERSIA.md",
       "upstream_folder": "PERSIA",
-      "line_number": 34,
+      "line_number": 36,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/CIVâ€“DOCTRINEâ€“PERSIA.md`"
     },
     {
@@ -4791,7 +4791,7 @@
       "object_class": "geo",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/CIVâ€“COREâ€“PERSIA.md",
       "upstream_folder": "PERSIA",
-      "line_number": 156,
+      "line_number": 158,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/CIVâ€“COREâ€“PERSIA.md`"
     },
     {
@@ -4801,7 +4801,7 @@
       "object_class": "geo",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/CIVâ€“STATEâ€“PERSIA.md",
       "upstream_folder": "PERSIA",
-      "line_number": 157,
+      "line_number": 159,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/CIVâ€“STATEâ€“PERSIA.md`"
     },
     {
@@ -4811,7 +4811,7 @@
       "object_class": "geo",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/CIVâ€“DOCTRINEâ€“PERSIA.md",
       "upstream_folder": "PERSIA",
-      "line_number": 158,
+      "line_number": 160,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/CIVâ€“DOCTRINEâ€“PERSIA.md`"
     },
     {
@@ -4821,7 +4821,7 @@
       "object_class": "geo",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“GEOâ€“IRANIANâ€“PLATEAU.md",
       "upstream_folder": "PERSIA",
-      "line_number": 159,
+      "line_number": 161,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“GEOâ€“IRANIANâ€“PLATEAU.md`"
     },
     {
@@ -4831,7 +4831,7 @@
       "object_class": "geo",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“GEOâ€“PERSIANâ€“GULF.md",
       "upstream_folder": "PERSIA",
-      "line_number": 160,
+      "line_number": 162,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“GEOâ€“PERSIANâ€“GULF.md`"
     },
     {
@@ -4841,7 +4841,7 @@
       "object_class": "geo",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“GEOâ€“CASPIAN.md",
       "upstream_folder": "PERSIA",
-      "line_number": 161,
+      "line_number": 163,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“GEOâ€“CASPIAN.md`"
     },
     {
@@ -4851,7 +4851,7 @@
       "object_class": "geo",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“GEOâ€“CAUCASUS.md",
       "upstream_folder": "PERSIA",
-      "line_number": 162,
+      "line_number": 164,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“GEOâ€“CAUCASUS.md`"
     },
     {
@@ -4861,7 +4861,7 @@
       "object_class": "geo",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“GEOâ€“MESOPOTAMIA.md",
       "upstream_folder": "PERSIA",
-      "line_number": 163,
+      "line_number": 165,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“GEOâ€“MESOPOTAMIA.md`"
     },
     {
@@ -4871,7 +4871,7 @@
       "object_class": "geo",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“GEOâ€“INDIANâ€“OCEAN.md",
       "upstream_folder": "PERSIA",
-      "line_number": 164,
+      "line_number": 166,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“GEOâ€“INDIANâ€“OCEAN.md`"
     },
     {
@@ -4881,7 +4881,7 @@
       "object_class": "geo",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“GEOâ€“LEVANT.md",
       "upstream_folder": "PERSIA",
-      "line_number": 165,
+      "line_number": 167,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“GEOâ€“LEVANT.md`"
     },
     {
@@ -4891,7 +4891,7 @@
       "object_class": "geo",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“ACHAEMENIDâ€“DYNASTY.md",
       "upstream_folder": "PERSIA",
-      "line_number": 166,
+      "line_number": 168,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“ACHAEMENIDâ€“DYNASTY.md`"
     },
     {
@@ -4901,7 +4901,7 @@
       "object_class": "geo",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“LAWâ€“SASANIAN.md",
       "upstream_folder": "PERSIA",
-      "line_number": 167,
+      "line_number": 169,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“LAWâ€“SASANIAN.md`"
     },
     {
@@ -4911,7 +4911,7 @@
       "object_class": "geo",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“WARâ€“IRANâ€“IRAQ.md",
       "upstream_folder": "PERSIA",
-      "line_number": 168,
+      "line_number": 170,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“WARâ€“IRANâ€“IRAQ.md`"
     },
     {
@@ -4921,7 +4921,7 @@
       "object_class": "geo",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“IRANâ€“ISLAMICâ€“REPUBLIC.md",
       "upstream_folder": "PERSIA",
-      "line_number": 169,
+      "line_number": 171,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“IRANâ€“ISLAMICâ€“REPUBLIC.md`"
     },
     {
@@ -5211,7 +5211,7 @@
       "object_class": "state-memory",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/CIV-CORE-PERSIA.md",
       "upstream_folder": "PERSIA",
-      "line_number": 28,
+      "line_number": 30,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/CIV-CORE-PERSIA.md`"
     },
     {
@@ -5221,7 +5221,7 @@
       "object_class": "state-memory",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/CIV-STATE-PERSIA.md",
       "upstream_folder": "PERSIA",
-      "line_number": 29,
+      "line_number": 31,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/CIV-STATE-PERSIA.md`"
     },
     {
@@ -5231,7 +5231,7 @@
       "object_class": "state-memory",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEM-PERSIA-MEDES.md",
       "upstream_folder": "PERSIA",
-      "line_number": 30,
+      "line_number": 32,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEM-PERSIA-MEDES.md`"
     },
     {
@@ -5241,7 +5241,7 @@
       "object_class": "state-memory",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEM-PERSIA-ACHAEMENID-DYNASTY.md",
       "upstream_folder": "PERSIA",
-      "line_number": 31,
+      "line_number": 33,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEM-PERSIA-ACHAEMENID-DYNASTY.md`"
     },
     {
@@ -5251,7 +5251,7 @@
       "object_class": "state-memory",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEM-PERSIA-ACHAEMENID-CYRUS-II.md",
       "upstream_folder": "PERSIA",
-      "line_number": 32,
+      "line_number": 34,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEM-PERSIA-ACHAEMENID-CYRUS-II.md`"
     },
     {
@@ -5261,7 +5261,7 @@
       "object_class": "state-memory",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEM-PERSIA-ACHAEMENID-DARIUS-I.md",
       "upstream_folder": "PERSIA",
-      "line_number": 33,
+      "line_number": 35,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEM-PERSIA-ACHAEMENID-DARIUS-I.md`"
     },
     {
@@ -5271,7 +5271,7 @@
       "object_class": "state-memory",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEM-PERSIA-SATRAPIES.md",
       "upstream_folder": "PERSIA",
-      "line_number": 34,
+      "line_number": 36,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEM-PERSIA-SATRAPIES.md`"
     },
     {
@@ -5281,7 +5281,7 @@
       "object_class": "state-memory",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEM-PERSIA-PARTHIAN.md",
       "upstream_folder": "PERSIA",
-      "line_number": 35,
+      "line_number": 37,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEM-PERSIA-PARTHIAN.md`"
     },
     {
@@ -5291,7 +5291,7 @@
       "object_class": "state-memory",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEM-PERSIA-SASANIAN-DYNASTY.md",
       "upstream_folder": "PERSIA",
-      "line_number": 36,
+      "line_number": 38,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEM-PERSIA-SASANIAN-DYNASTY.md`"
     },
     {
@@ -5301,7 +5301,7 @@
       "object_class": "state-memory",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEM-PERSIA-LAW-SASANIAN.md",
       "upstream_folder": "PERSIA",
-      "line_number": 37,
+      "line_number": 39,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEM-PERSIA-LAW-SASANIAN.md`"
     },
     {
@@ -5311,7 +5311,7 @@
       "object_class": "state-memory",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEM-PERSIA-ISLAM.md",
       "upstream_folder": "PERSIA",
-      "line_number": 38,
+      "line_number": 40,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEM-PERSIA-ISLAM.md`"
     },
     {
@@ -5321,7 +5321,7 @@
       "object_class": "state-memory",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEM-PERSIA-SAFAVID-DYNASTY.md",
       "upstream_folder": "PERSIA",
-      "line_number": 39,
+      "line_number": 41,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEM-PERSIA-SAFAVID-DYNASTY.md`"
     },
     {
@@ -5331,7 +5331,7 @@
       "object_class": "state-memory",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEM-PERSIA-QAJAR.md",
       "upstream_folder": "PERSIA",
-      "line_number": 40,
+      "line_number": 42,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEM-PERSIA-QAJAR.md`"
     },
     {
@@ -5341,7 +5341,7 @@
       "object_class": "state-memory",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEM-PERSIA-LAW-CONSTITUTION.md",
       "upstream_folder": "PERSIA",
-      "line_number": 41,
+      "line_number": 43,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEM-PERSIA-LAW-CONSTITUTION.md`"
     },
     {
@@ -5351,7 +5351,7 @@
       "object_class": "state-memory",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEM-PERSIA-LAW-MONARCHY.md",
       "upstream_folder": "PERSIA",
-      "line_number": 42,
+      "line_number": 44,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEM-PERSIA-LAW-MONARCHY.md`"
     },
     {
@@ -5361,7 +5361,7 @@
       "object_class": "state-memory",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEM-PERSIA-IRAN-MOSSADEGH.md",
       "upstream_folder": "PERSIA",
-      "line_number": 43,
+      "line_number": 45,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEM-PERSIA-IRAN-MOSSADEGH.md`"
     },
     {
@@ -5371,7 +5371,7 @@
       "object_class": "state-memory",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEM-PERSIA-IRAN-ISLAMIC-REVOLUTION.md",
       "upstream_folder": "PERSIA",
-      "line_number": 44,
+      "line_number": 46,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEM-PERSIA-IRAN-ISLAMIC-REVOLUTION.md`"
     },
     {
@@ -5381,7 +5381,7 @@
       "object_class": "state-memory",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEM-PERSIA-IRAN-ISLAMIC-REPUBLIC.md",
       "upstream_folder": "PERSIA",
-      "line_number": 45,
+      "line_number": 47,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEM-PERSIA-IRAN-ISLAMIC-REPUBLIC.md`"
     },
     {
@@ -5391,7 +5391,7 @@
       "object_class": "state-memory",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEM-PERSIA-WAR-IRAN-IRAQ.md",
       "upstream_folder": "PERSIA",
-      "line_number": 46,
+      "line_number": 48,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEM-PERSIA-WAR-IRAN-IRAQ.md`"
     },
     {
@@ -5401,7 +5401,7 @@
       "object_class": "state-memory",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEM-PERSIA-GEO-IRANIAN-PLATEAU.md",
       "upstream_folder": "PERSIA",
-      "line_number": 47,
+      "line_number": 49,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEM-PERSIA-GEO-IRANIAN-PLATEAU.md`"
     },
     {
@@ -5411,7 +5411,7 @@
       "object_class": "state-memory",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEM-PERSIA-GEO-PERSIAN-GULF.md",
       "upstream_folder": "PERSIA",
-      "line_number": 48,
+      "line_number": 50,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEM-PERSIA-GEO-PERSIAN-GULF.md`"
     },
     {
@@ -5421,7 +5421,7 @@
       "object_class": "peace",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/CIVâ€“COREâ€“PERSIA.md",
       "upstream_folder": "PERSIA",
-      "line_number": 32,
+      "line_number": 34,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/CIVâ€“COREâ€“PERSIA.md`"
     },
     {
@@ -5431,7 +5431,7 @@
       "object_class": "peace",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/CIVâ€“STATEâ€“PERSIA.md",
       "upstream_folder": "PERSIA",
-      "line_number": 33,
+      "line_number": 35,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/CIVâ€“STATEâ€“PERSIA.md`"
     },
     {
@@ -5441,7 +5441,7 @@
       "object_class": "peace",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/CIVâ€“DOCTRINEâ€“PERSIA.md",
       "upstream_folder": "PERSIA",
-      "line_number": 34,
+      "line_number": 36,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/CIVâ€“DOCTRINEâ€“PERSIA.md`"
     },
     {
@@ -5451,7 +5451,7 @@
       "object_class": "peace",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/CIVâ€“COREâ€“PERSIA.md",
       "upstream_folder": "PERSIA",
-      "line_number": 166,
+      "line_number": 168,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/CIVâ€“COREâ€“PERSIA.md`"
     },
     {
@@ -5461,7 +5461,7 @@
       "object_class": "peace",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/CIVâ€“STATEâ€“PERSIA.md",
       "upstream_folder": "PERSIA",
-      "line_number": 167,
+      "line_number": 169,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/CIVâ€“STATEâ€“PERSIA.md`"
     },
     {
@@ -5471,7 +5471,7 @@
       "object_class": "peace",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/CIVâ€“DOCTRINEâ€“PERSIA.md",
       "upstream_folder": "PERSIA",
-      "line_number": 168,
+      "line_number": 170,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/CIVâ€“DOCTRINEâ€“PERSIA.md`"
     },
     {
@@ -5481,7 +5481,7 @@
       "object_class": "peace",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“ACHAEMENIDâ€“CYRUSâ€“II.md",
       "upstream_folder": "PERSIA",
-      "line_number": 169,
+      "line_number": 171,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“ACHAEMENIDâ€“CYRUSâ€“II.md`"
     },
     {
@@ -5491,7 +5491,7 @@
       "object_class": "peace",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“LAWâ€“SASANIAN.md",
       "upstream_folder": "PERSIA",
-      "line_number": 170,
+      "line_number": 172,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“LAWâ€“SASANIAN.md`"
     },
     {
@@ -5501,7 +5501,7 @@
       "object_class": "peace",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“PARTHIAN.md",
       "upstream_folder": "PERSIA",
-      "line_number": 171,
+      "line_number": 173,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“PARTHIAN.md`"
     },
     {
@@ -5511,7 +5511,7 @@
       "object_class": "peace",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“WARâ€“ROME.md",
       "upstream_folder": "PERSIA",
-      "line_number": 172,
+      "line_number": 174,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“WARâ€“ROME.md`"
     },
     {
@@ -5521,7 +5521,7 @@
       "object_class": "peace",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“ISLAM.md",
       "upstream_folder": "PERSIA",
-      "line_number": 173,
+      "line_number": 175,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“ISLAM.md`"
     },
     {
@@ -5531,7 +5531,7 @@
       "object_class": "peace",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“SAFAVIDâ€“DYNASTY.md",
       "upstream_folder": "PERSIA",
-      "line_number": 174,
+      "line_number": 176,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“SAFAVIDâ€“DYNASTY.md`"
     },
     {
@@ -5541,7 +5541,7 @@
       "object_class": "peace",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“QAJAR.md",
       "upstream_folder": "PERSIA",
-      "line_number": 175,
+      "line_number": 177,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“QAJAR.md`"
     },
     {
@@ -5551,7 +5551,7 @@
       "object_class": "peace",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“BRITISHâ€“EMPIRE.md",
       "upstream_folder": "PERSIA",
-      "line_number": 176,
+      "line_number": 178,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“BRITISHâ€“EMPIRE.md`"
     },
     {
@@ -5561,7 +5561,7 @@
       "object_class": "peace",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“IRAN.md",
       "upstream_folder": "PERSIA",
-      "line_number": 177,
+      "line_number": 179,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“IRAN.md`"
     },
     {
@@ -5571,7 +5571,7 @@
       "object_class": "peace",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“LAWâ€“CONSTITUTION.md",
       "upstream_folder": "PERSIA",
-      "line_number": 178,
+      "line_number": 180,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“LAWâ€“CONSTITUTION.md`"
     },
     {
@@ -5581,7 +5581,7 @@
       "object_class": "peace",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“IRANâ€“MOSSADEGH.md",
       "upstream_folder": "PERSIA",
-      "line_number": 179,
+      "line_number": 181,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“IRANâ€“MOSSADEGH.md`"
     },
     {
@@ -5591,7 +5591,7 @@
       "object_class": "peace",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“IRANâ€“ISLAMICâ€“REVOLUTION.md",
       "upstream_folder": "PERSIA",
-      "line_number": 180,
+      "line_number": 182,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“IRANâ€“ISLAMICâ€“REVOLUTION.md`"
     },
     {
@@ -5601,7 +5601,7 @@
       "object_class": "peace",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“IRANâ€“ISLAMICâ€“REPUBLIC.md",
       "upstream_folder": "PERSIA",
-      "line_number": 181,
+      "line_number": 183,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“IRANâ€“ISLAMICâ€“REPUBLIC.md`"
     },
     {
@@ -5611,7 +5611,7 @@
       "object_class": "peace",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“WARâ€“IRANâ€“IRAQ.md",
       "upstream_folder": "PERSIA",
-      "line_number": 182,
+      "line_number": 184,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“WARâ€“IRANâ€“IRAQ.md`"
     },
     {
@@ -5621,7 +5621,7 @@
       "object_class": "peace",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“GEOâ€“IRANIANâ€“PLATEAU.md",
       "upstream_folder": "PERSIA",
-      "line_number": 183,
+      "line_number": 185,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“GEOâ€“IRANIANâ€“PLATEAU.md`"
     },
     {
@@ -5631,7 +5631,7 @@
       "object_class": "peace",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“GEOâ€“PERSIANâ€“GULF.md",
       "upstream_folder": "PERSIA",
-      "line_number": 184,
+      "line_number": 186,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“GEOâ€“PERSIANâ€“GULF.md`"
     },
     {
@@ -5871,7 +5871,7 @@
       "object_class": "war",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/CIVâ€“COREâ€“PERSIA.md",
       "upstream_folder": "PERSIA",
-      "line_number": 32,
+      "line_number": 34,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/CIVâ€“COREâ€“PERSIA.md`"
     },
     {
@@ -5881,7 +5881,7 @@
       "object_class": "war",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/CIVâ€“STATEâ€“PERSIA.md",
       "upstream_folder": "PERSIA",
-      "line_number": 33,
+      "line_number": 35,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/CIVâ€“STATEâ€“PERSIA.md`"
     },
     {
@@ -5891,7 +5891,7 @@
       "object_class": "war",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/CIVâ€“COREâ€“PERSIA.md",
       "upstream_folder": "PERSIA",
-      "line_number": 166,
+      "line_number": 168,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/CIVâ€“COREâ€“PERSIA.md`"
     },
     {
@@ -5901,7 +5901,7 @@
       "object_class": "war",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/CIVâ€“STATEâ€“PERSIA.md",
       "upstream_folder": "PERSIA",
-      "line_number": 167,
+      "line_number": 169,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/CIVâ€“STATEâ€“PERSIA.md`"
     },
     {
@@ -5911,7 +5911,7 @@
       "object_class": "war",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“ACHAEMENIDâ€“DYNASTY.md",
       "upstream_folder": "PERSIA",
-      "line_number": 168,
+      "line_number": 170,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“ACHAEMENIDâ€“DYNASTY.md`"
     },
     {
@@ -5921,7 +5921,7 @@
       "object_class": "war",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“WARâ€“MARATHON.md",
       "upstream_folder": "PERSIA",
-      "line_number": 169,
+      "line_number": 171,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“WARâ€“MARATHON.md`"
     },
     {
@@ -5931,7 +5931,7 @@
       "object_class": "war",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“WARâ€“SALAMIS.md",
       "upstream_folder": "PERSIA",
-      "line_number": 170,
+      "line_number": 172,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“WARâ€“SALAMIS.md`"
     },
     {
@@ -5941,7 +5941,7 @@
       "object_class": "war",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“WARâ€“THERMOPYLAE.md",
       "upstream_folder": "PERSIA",
-      "line_number": 171,
+      "line_number": 173,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“WARâ€“THERMOPYLAE.md`"
     },
     {
@@ -5951,7 +5951,7 @@
       "object_class": "war",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“WARâ€“CARRHAE.md",
       "upstream_folder": "PERSIA",
-      "line_number": 172,
+      "line_number": 174,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“WARâ€“CARRHAE.md`"
     },
     {
@@ -5961,7 +5961,7 @@
       "object_class": "war",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“WARâ€“ROME.md",
       "upstream_folder": "PERSIA",
-      "line_number": 173,
+      "line_number": 175,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“WARâ€“ROME.md`"
     },
     {
@@ -5971,7 +5971,7 @@
       "object_class": "war",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“WARâ€“ALEXANDER.md",
       "upstream_folder": "PERSIA",
-      "line_number": 174,
+      "line_number": 176,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“WARâ€“ALEXANDER.md`"
     },
     {
@@ -5981,7 +5981,7 @@
       "object_class": "war",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“PARTHIAN.md",
       "upstream_folder": "PERSIA",
-      "line_number": 175,
+      "line_number": 177,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“PARTHIAN.md`"
     },
     {
@@ -5991,7 +5991,7 @@
       "object_class": "war",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“SASANIANâ€“DYNASTY.md",
       "upstream_folder": "PERSIA",
-      "line_number": 176,
+      "line_number": 178,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“SASANIANâ€“DYNASTY.md`"
     },
     {
@@ -6001,7 +6001,7 @@
       "object_class": "war",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“MONGOLâ€“EMPIRE.md",
       "upstream_folder": "PERSIA",
-      "line_number": 177,
+      "line_number": 179,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“MONGOLâ€“EMPIRE.md`"
     },
     {
@@ -6011,7 +6011,7 @@
       "object_class": "war",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“WARâ€“IRANâ€“IRAQ.md",
       "upstream_folder": "PERSIA",
-      "line_number": 178,
+      "line_number": 180,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“WARâ€“IRANâ€“IRAQ.md`"
     },
     {
@@ -6021,7 +6021,7 @@
       "object_class": "war",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“GEOâ€“PERSIANâ€“GULF.md",
       "upstream_folder": "PERSIA",
-      "line_number": 179,
+      "line_number": 181,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“GEOâ€“PERSIANâ€“GULF.md`"
     },
     {
@@ -6031,7 +6031,7 @@
       "object_class": "war",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“IRANâ€“ISLAMICâ€“REPUBLIC.md",
       "upstream_folder": "PERSIA",
-      "line_number": 180,
+      "line_number": 182,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEMâ€“PERSIAâ€“IRANâ€“ISLAMICâ€“REPUBLIC.md`"
     },
     {
@@ -6041,7 +6041,7 @@
       "object_class": "war",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/IRANâ€“WARâ€“CHRONICLE.md",
       "upstream_folder": "PERSIA",
-      "line_number": 181,
+      "line_number": 183,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/IRANâ€“WARâ€“CHRONICLE.md`"
     },
     {
@@ -6051,7 +6051,7 @@
       "object_class": "empire-instrument",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/CIV-CORE-PERSIA.md",
       "upstream_folder": "PERSIA",
-      "line_number": 40,
+      "line_number": 42,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/CIV-CORE-PERSIA.md`"
     },
     {
@@ -6061,7 +6061,7 @@
       "object_class": "empire-instrument",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/CIV-STATE-PERSIA.md",
       "upstream_folder": "PERSIA",
-      "line_number": 41,
+      "line_number": 43,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/CIV-STATE-PERSIA.md`"
     },
     {
@@ -6071,7 +6071,7 @@
       "object_class": "empire-instrument",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEM-PERSIA-IRAN-MOSSADEGH.md",
       "upstream_folder": "PERSIA",
-      "line_number": 42,
+      "line_number": 44,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEM-PERSIA-IRAN-MOSSADEGH.md`"
     },
     {
@@ -6081,7 +6081,7 @@
       "object_class": "empire-instrument",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEM-PERSIA-IRAN-ISLAMIC-REVOLUTION.md",
       "upstream_folder": "PERSIA",
-      "line_number": 43,
+      "line_number": 45,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEM-PERSIA-IRAN-ISLAMIC-REVOLUTION.md`"
     },
     {
@@ -6091,7 +6091,7 @@
       "object_class": "empire-instrument",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEM-PERSIA-IRAN-ISLAMIC-REPUBLIC.md",
       "upstream_folder": "PERSIA",
-      "line_number": 44,
+      "line_number": 46,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEM-PERSIA-IRAN-ISLAMIC-REPUBLIC.md`"
     },
     {
@@ -6101,7 +6101,7 @@
       "object_class": "empire-instrument",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEM-PERSIA-WAR-IRAN-IRAQ.md",
       "upstream_folder": "PERSIA",
-      "line_number": 45,
+      "line_number": 47,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEM-PERSIA-WAR-IRAN-IRAQ.md`"
     },
     {
@@ -6111,7 +6111,7 @@
       "object_class": "empire-instrument",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEM-PERSIA-GEO-PERSIAN-GULF.md",
       "upstream_folder": "PERSIA",
-      "line_number": 46,
+      "line_number": 48,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEM-PERSIA-GEO-PERSIAN-GULF.md`"
     },
     {
@@ -6121,7 +6121,7 @@
       "object_class": "empire-instrument",
       "upstream_ref": "research/repos/civilization_memory/content/civilizations/PERSIA/MEM-PERSIA-GEO-IRANIAN-PLATEAU.md",
       "upstream_folder": "PERSIA",
-      "line_number": 47,
+      "line_number": 49,
       "line_text": "- `research/repos/civilization_memory/content/civilizations/PERSIA/MEM-PERSIA-GEO-IRANIAN-PLATEAU.md`"
     }
   ],
@@ -7709,13 +7709,13 @@
       "symmetry_partner_id": "china-empire-instrument",
       "target_surface": "codex/academy/statecraft/china/civilization/objects/state-memory.md",
       "direct_civ_mem_reference_count": 24,
-      "current_word_count": 3533,
+      "current_word_count": 3580,
       "target_word_band": "3500-4500",
       "symmetry_partner_status": "cut_over",
-      "lane_civilization_words": 11837,
-      "lane_empire_words": 3018,
-      "lane_hinge_words": 257,
-      "lane_civilization_to_empire_ratio": 3.92,
+      "lane_civilization_words": 12025,
+      "lane_empire_words": 3063,
+      "lane_hinge_words": 1225,
+      "lane_civilization_to_empire_ratio": 3.93,
       "lane_empire_share_of_civilization": 0.25,
       "provenance_rule": "retain explicit Source basis naming upstream civ-mem files; contract-normalized and now preferred through China lane routing, with civ-mem retained as provenance",
       "notes": "contract-normalized civilization object with PH-CIV-style orientation; China lane, civilization, and empire READMEs now prefer the paired pilot objects as the first operational opening"
@@ -7741,13 +7741,13 @@
       "symmetry_partner_id": "china-empire-instrument",
       "target_surface": "codex/academy/statecraft/china/civilization/geo.md",
       "direct_civ_mem_reference_count": 18,
-      "current_word_count": 2528,
+      "current_word_count": 2575,
       "target_word_band": "2500-3500",
       "symmetry_partner_status": "cut_over",
-      "lane_civilization_words": 11837,
-      "lane_empire_words": 3018,
-      "lane_hinge_words": 257,
-      "lane_civilization_to_empire_ratio": 3.92,
+      "lane_civilization_words": 12025,
+      "lane_empire_words": 3063,
+      "lane_hinge_words": 1225,
+      "lane_civilization_to_empire_ratio": 3.93,
       "lane_empire_share_of_civilization": 0.25,
       "provenance_rule": "retain explicit Source basis naming upstream civ-mem files; after cutover use civ-mem only as provenance or gap fallback",
       "notes": "geo object now clears the broadened non-pilot verification rule: README routing prefers it, provenance remains explicit, and the symmetry link shows how the China empire object carries the port, corridor, and strait-geography side of outward control"
@@ -7773,13 +7773,13 @@
       "symmetry_partner_id": "china-empire-instrument",
       "target_surface": "codex/academy/statecraft/china/civilization/war.md",
       "direct_civ_mem_reference_count": 22,
-      "current_word_count": 2943,
+      "current_word_count": 2990,
       "target_word_band": "3000-4000",
       "symmetry_partner_status": "cut_over",
-      "lane_civilization_words": 11837,
-      "lane_empire_words": 3018,
-      "lane_hinge_words": 257,
-      "lane_civilization_to_empire_ratio": 3.92,
+      "lane_civilization_words": 12025,
+      "lane_empire_words": 3063,
+      "lane_hinge_words": 1225,
+      "lane_civilization_to_empire_ratio": 3.93,
       "lane_empire_share_of_civilization": 0.25,
       "provenance_rule": "retain explicit Source basis naming upstream civ-mem files; after cutover use civ-mem only as provenance or gap fallback",
       "notes": "war object now clears the verification rule: README routing prefers it, provenance remains explicit, and its shared coercion-failure family with the China empire object is documented in the China first-wave verification note"
@@ -7805,13 +7805,13 @@
       "symmetry_partner_id": "china-empire-instrument",
       "target_surface": "codex/academy/statecraft/china/civilization/peace.md",
       "direct_civ_mem_reference_count": 24,
-      "current_word_count": 2833,
+      "current_word_count": 2880,
       "target_word_band": "3000-4000",
       "symmetry_partner_status": "cut_over",
-      "lane_civilization_words": 11837,
-      "lane_empire_words": 3018,
-      "lane_hinge_words": 257,
-      "lane_civilization_to_empire_ratio": 3.92,
+      "lane_civilization_words": 12025,
+      "lane_empire_words": 3063,
+      "lane_hinge_words": 1225,
+      "lane_civilization_to_empire_ratio": 3.93,
       "lane_empire_share_of_civilization": 0.25,
       "provenance_rule": "retain explicit Source basis naming upstream civ-mem files; after cutover use civ-mem only as provenance or gap fallback",
       "notes": "peace object now clears the broadened non-pilot verification rule: README routing prefers it, provenance remains explicit, and the symmetry link shows how the China empire object carries the outward stabilizer and implementation side of bounded peace"
@@ -7837,13 +7837,13 @@
       "symmetry_partner_id": "china-state-memory",
       "target_surface": "codex/academy/statecraft/china/empire/seed-instruments.md",
       "direct_civ_mem_reference_count": 9,
-      "current_word_count": 3018,
+      "current_word_count": 3063,
       "target_word_band": "2500-3500",
       "symmetry_partner_status": "cut_over",
-      "lane_civilization_words": 11837,
-      "lane_empire_words": 3018,
-      "lane_hinge_words": 257,
-      "lane_civilization_to_empire_ratio": 3.92,
+      "lane_civilization_words": 12025,
+      "lane_empire_words": 3063,
+      "lane_hinge_words": 1225,
+      "lane_civilization_to_empire_ratio": 3.93,
       "lane_empire_share_of_civilization": 0.25,
       "provenance_rule": "retain explicit Source basis naming upstream civ-mem files; existing seed path now serves as the active China empire object and is preferred through China lane routing",
       "notes": "promoted from seed shelf into a real first-wave empire object; China lane, civilization, and empire READMEs now prefer the paired pilot objects as the first operational opening"
@@ -7869,13 +7869,13 @@
       "symmetry_partner_id": "iran-empire-instrument",
       "target_surface": "codex/academy/statecraft/iran/civilization/objects/state-memory.md",
       "direct_civ_mem_reference_count": 21,
-      "current_word_count": 3229,
+      "current_word_count": 3276,
       "target_word_band": "3500-4500",
       "symmetry_partner_status": "cut_over",
-      "lane_civilization_words": 11298,
-      "lane_empire_words": 2787,
-      "lane_hinge_words": 261,
-      "lane_civilization_to_empire_ratio": 4.05,
+      "lane_civilization_words": 11486,
+      "lane_empire_words": 2832,
+      "lane_hinge_words": 1207,
+      "lane_civilization_to_empire_ratio": 4.06,
       "lane_empire_share_of_civilization": 0.25,
       "provenance_rule": "retain explicit Source basis naming upstream civ-mem files; contract-normalized and now preferred through Iran lane routing, with civ-mem retained as provenance",
       "notes": "contract-normalized civilization object with PH-CIV-style orientation; Iran lane, civilization, and empire READMEs now prefer the paired pilot objects as the first operational opening"
@@ -7901,13 +7901,13 @@
       "symmetry_partner_id": "iran-empire-instrument",
       "target_surface": "codex/academy/statecraft/iran/civilization/geo.md",
       "direct_civ_mem_reference_count": 17,
-      "current_word_count": 2545,
+      "current_word_count": 2592,
       "target_word_band": "2500-3500",
       "symmetry_partner_status": "cut_over",
-      "lane_civilization_words": 11298,
-      "lane_empire_words": 2787,
-      "lane_hinge_words": 261,
-      "lane_civilization_to_empire_ratio": 4.05,
+      "lane_civilization_words": 11486,
+      "lane_empire_words": 2832,
+      "lane_hinge_words": 1207,
+      "lane_civilization_to_empire_ratio": 4.06,
       "lane_empire_share_of_civilization": 0.25,
       "provenance_rule": "retain explicit Source basis naming upstream civ-mem files; after cutover use civ-mem only as provenance or gap fallback",
       "notes": "geo object now clears the broadened non-pilot verification rule: README routing prefers it, provenance remains explicit, and the symmetry link shows how the Iran empire object carries the plateau, corridor, and chokepoint side of outward control"
@@ -7933,13 +7933,13 @@
       "symmetry_partner_id": "iran-empire-instrument",
       "target_surface": "codex/academy/statecraft/iran/civilization/war.md",
       "direct_civ_mem_reference_count": 18,
-      "current_word_count": 2751,
+      "current_word_count": 2799,
       "target_word_band": "3000-4000",
       "symmetry_partner_status": "cut_over",
-      "lane_civilization_words": 11298,
-      "lane_empire_words": 2787,
-      "lane_hinge_words": 261,
-      "lane_civilization_to_empire_ratio": 4.05,
+      "lane_civilization_words": 11486,
+      "lane_empire_words": 2832,
+      "lane_hinge_words": 1207,
+      "lane_civilization_to_empire_ratio": 4.06,
       "lane_empire_share_of_civilization": 0.25,
       "provenance_rule": "retain explicit Source basis naming upstream civ-mem files; after cutover use civ-mem only as provenance or gap fallback",
       "notes": "war object now clears the verification rule: README routing prefers it, provenance remains explicit, and its shared coercion-failure family with the Iran empire object is documented in the Iran first-wave verification note"
@@ -7965,13 +7965,13 @@
       "symmetry_partner_id": "iran-empire-instrument",
       "target_surface": "codex/academy/statecraft/iran/civilization/peace.md",
       "direct_civ_mem_reference_count": 22,
-      "current_word_count": 2773,
+      "current_word_count": 2819,
       "target_word_band": "3000-4000",
       "symmetry_partner_status": "cut_over",
-      "lane_civilization_words": 11298,
-      "lane_empire_words": 2787,
-      "lane_hinge_words": 261,
-      "lane_civilization_to_empire_ratio": 4.05,
+      "lane_civilization_words": 11486,
+      "lane_empire_words": 2832,
+      "lane_hinge_words": 1207,
+      "lane_civilization_to_empire_ratio": 4.06,
       "lane_empire_share_of_civilization": 0.25,
       "provenance_rule": "retain explicit Source basis naming upstream civ-mem files; after cutover use civ-mem only as provenance or gap fallback",
       "notes": "peace object now clears the broadened non-pilot verification rule: README routing prefers it, provenance remains explicit, and the symmetry link shows how the Iran empire object carries the outward deterrent, recognition, and relief side of bounded peace"
@@ -7997,13 +7997,13 @@
       "symmetry_partner_id": "iran-state-memory",
       "target_surface": "codex/academy/statecraft/iran/empire/seed-instruments.md",
       "direct_civ_mem_reference_count": 8,
-      "current_word_count": 2787,
+      "current_word_count": 2832,
       "target_word_band": "2500-3500",
       "symmetry_partner_status": "cut_over",
-      "lane_civilization_words": 11298,
-      "lane_empire_words": 2787,
-      "lane_hinge_words": 261,
-      "lane_civilization_to_empire_ratio": 4.05,
+      "lane_civilization_words": 11486,
+      "lane_empire_words": 2832,
+      "lane_hinge_words": 1207,
+      "lane_civilization_to_empire_ratio": 4.06,
       "lane_empire_share_of_civilization": 0.25,
       "provenance_rule": "retain explicit Source basis naming upstream civ-mem files; existing seed path now serves as the active Iran empire object and is preferred through Iran lane routing",
       "notes": "promoted from seed shelf into a real first-wave empire object; Iran lane, civilization, and empire READMEs now prefer the paired pilot objects as the first operational opening"
@@ -8064,16 +8064,16 @@
         "file_count": 22
       },
       "China": {
-        "words": 22900,
+        "words": 24301,
         "file_count": 22
       },
       "Iran": {
-        "words": 23421,
+        "words": 24763,
         "file_count": 25
       }
     },
-    "civ_emp_total_words": 32247,
-    "civ_emp_file_count": 52,
+    "civ_emp_total_words": 47866,
+    "civ_emp_file_count": 65,
     "target_word_counts": {
       "america-state-memory": 3553,
       "america-geo": 2683,
@@ -8085,18 +8085,18 @@
       "russia-war": 2889,
       "russia-peace": 2958,
       "russia-empire-instrument": 3230,
-      "china-state-memory": 3533,
-      "china-geo": 2528,
-      "china-war": 2943,
-      "china-peace": 2833,
-      "china-empire-instrument": 3018,
-      "iran-state-memory": 3229,
-      "iran-geo": 2545,
-      "iran-war": 2751,
-      "iran-peace": 2773,
-      "iran-empire-instrument": 2787
+      "china-state-memory": 3580,
+      "china-geo": 2575,
+      "china-war": 2990,
+      "china-peace": 2880,
+      "china-empire-instrument": 3063,
+      "iran-state-memory": 3276,
+      "iran-geo": 2592,
+      "iran-war": 2799,
+      "iran-peace": 2819,
+      "iran-empire-instrument": 2832
     },
-    "first_wave_core_total_words": 58915,
+    "first_wave_core_total_words": 59381,
     "first_wave_lane_totals": {
       "America": {
         "target_ids": [
@@ -8144,16 +8144,16 @@
           "china-peace",
           "china-empire-instrument"
         ],
-        "civilization_words": 11837,
-        "empire_words": 3018,
-        "hinge_words": 257,
-        "strand_words": 14855,
-        "civilization_to_empire_ratio": 3.92,
+        "civilization_words": 12025,
+        "empire_words": 3063,
+        "hinge_words": 1225,
+        "strand_words": 15088,
+        "civilization_to_empire_ratio": 3.93,
         "empire_share_of_civilization": 0.25,
-        "pilot_civilization_words": 3533,
-        "pilot_empire_words": 3018,
+        "pilot_civilization_words": 3580,
+        "pilot_empire_words": 3063,
         "pilot_civilization_to_empire_ratio": 1.17,
-        "pilot_empire_share_of_civilization": 0.85
+        "pilot_empire_share_of_civilization": 0.86
       },
       "Iran": {
         "target_ids": [
@@ -8163,33 +8163,35 @@
           "iran-peace",
           "iran-empire-instrument"
         ],
-        "civilization_words": 11298,
-        "empire_words": 2787,
-        "hinge_words": 261,
-        "strand_words": 14085,
-        "civilization_to_empire_ratio": 4.05,
+        "civilization_words": 11486,
+        "empire_words": 2832,
+        "hinge_words": 1207,
+        "strand_words": 14318,
+        "civilization_to_empire_ratio": 4.06,
         "empire_share_of_civilization": 0.25,
-        "pilot_civilization_words": 3229,
-        "pilot_empire_words": 2787,
+        "pilot_civilization_words": 3276,
+        "pilot_empire_words": 2832,
         "pilot_civilization_to_empire_ratio": 1.16,
         "pilot_empire_share_of_civilization": 0.86
       }
     },
     "canonical_family_word_counts": {
-      "when do older strategic memories continue to constrain present actors": 24079,
-      "when does a pressured hegemon misread its own power, limits, or durability": 25614,
-      "how does remembered exclusion shape the politics of direct great-power settlement": 21776,
-      "when does coercion fail to convert into the political outcome it claims to serve": 23381,
-      "when do broken contact regimes and arms-control inheritances make escalation more dangerous than the proxy-war script admits": 11525,
-      "what makes a settlement real rather than theatrical": 11455
+      "when do older strategic memories continue to constrain present actors": 24267,
+      "when does a pressured hegemon misread its own power, limits, or durability": 25798,
+      "how does remembered exclusion shape the politics of direct great-power settlement": 21963,
+      "when does coercion fail to convert into the political outcome it claims to serve": 23566,
+      "when do broken contact regimes and arms-control inheritances make escalation more dangerous than the proxy-war script admits": 11620,
+      "what makes a settlement real rather than theatrical": 11548
     },
     "phase2_metrics": {
       "helix_objects": {
         "active_proving_cases": [
           "America",
-          "Russia"
+          "Russia",
+          "China",
+          "Iran"
         ],
-        "total_words": 3259,
+        "total_words": 5173,
         "by_lane": {
           "America": {
             "path": "codex/academy/statecraft/america/helix.md",
@@ -8201,11 +8203,11 @@
           },
           "China": {
             "path": "codex/academy/statecraft/china/helix.md",
-            "words": 257
+            "words": 1225
           },
           "Iran": {
             "path": "codex/academy/statecraft/iran/helix.md",
-            "words": 261
+            "words": 1207
           }
         }
       },
@@ -8219,23 +8221,65 @@
           "object_count": 5
         },
         "China": {
-          "words": 14855,
+          "words": 15088,
           "object_count": 5
         },
         "Iran": {
-          "words": 14085,
+          "words": 14318,
           "object_count": 5
         }
       },
       "canonical_family_synthesis_surfaces": {
-        "surface_count": 0,
-        "current_words": 0,
-        "surfaces": []
+        "surface_count": 8,
+        "current_words": 10498,
+        "surfaces": [
+          {
+            "path": "codex/academy/statecraft/civ-emp/migration/canonical-family-broken-contact-regimes.md",
+            "words": 1420
+          },
+          {
+            "path": "codex/academy/statecraft/civ-emp/migration/canonical-family-coercion-conversion.md",
+            "words": 1114
+          },
+          {
+            "path": "codex/academy/statecraft/civ-emp/migration/canonical-family-escalation-governance.md",
+            "words": 1338
+          },
+          {
+            "path": "codex/academy/statecraft/civ-emp/migration/canonical-family-exclusion-settlement.md",
+            "words": 1318
+          },
+          {
+            "path": "codex/academy/statecraft/civ-emp/migration/canonical-family-older-strategic-memories.md",
+            "words": 1479
+          },
+          {
+            "path": "codex/academy/statecraft/civ-emp/migration/canonical-family-pressured-hegemon.md",
+            "words": 1443
+          },
+          {
+            "path": "codex/academy/statecraft/civ-emp/migration/canonical-family-settlement-real.md",
+            "words": 1123
+          },
+          {
+            "path": "codex/academy/statecraft/civ-emp/migration/canonical-family-settlement-room-architecture.md",
+            "words": 1263
+          }
+        ]
       },
       "orientation_and_retrieval_surfaces": {
-        "surface_count": 0,
-        "current_words": 0,
-        "surfaces": []
+        "surface_count": 2,
+        "current_words": 2149,
+        "surfaces": [
+          {
+            "path": "codex/academy/statecraft/civ-emp/migration/orientation-helix-front-door.md",
+            "words": 1080
+          },
+          {
+            "path": "codex/academy/statecraft/civ-emp/migration/orientation-problem-shape-router.md",
+            "words": 1069
+          }
+        ]
       }
     }
   },
@@ -8248,7 +8292,9 @@
     "hard_ceiling": 180000,
     "phase2_active_proving_cases": [
       "America",
-      "Russia"
+      "Russia",
+      "China",
+      "Iran"
     ],
     "volume_targets": {
       "civilization": {

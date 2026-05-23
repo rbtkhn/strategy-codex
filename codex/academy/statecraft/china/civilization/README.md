@@ -4,6 +4,10 @@ WORK only; not Record.
 
 Purpose: name the inherited Chinese code that shapes order, continuity, industrial confidence, and the fear of disorder.
 
+Helix-first role: this folder now serves as the civilization-side strand bench beneath the primary [China helix](../helix.md). Use the helix for the integrated lane interpretation; use the notes here when the governing question has clearly narrowed to continuity memory, geography, war grammar, peace grammar, or later second-wave arc-lenses.
+
+Phase-one CIV-EMP opening: start with [state memory](objects/state-memory.md) when the live question is whether a proposal can carry Chinese order, unity, development continuity, and anti-humiliation competence as state memory rather than as a brittle tactical move.
+
 ## Inherited Code
 
 - Centrality, continuity, and the memory of civilizational restoration.
@@ -43,4 +47,15 @@ Use the [present-day arc extension matrix](../../sheets/present-day-arc-extensio
 
 For China-specific order analysis, use the [China order arc](../../sheets/china-order-arc.md) to distinguish mandate-order, standardization-order, hydraulic-order, fragmentation-memory, development-order, party-state-order, and compute-order before turning stability or unity claims into clause language.
 
-Use [civilization objects](objects/) when a recurring authority pattern needs to connect the China book surface to current state carriers, diplomatic transmitters, and transaction authority checks. First object: [state memory](objects/state-memory.md).
+Use [civilization objects](objects/) when a recurring authority pattern needs to connect the China book surface to current state carriers, diplomatic transmitters, and transaction authority checks. First object: [state memory](objects/state-memory.md), paired with [China empire instrument](../empire/seed-instruments.md) as the active phase-one civ/emp opening set, but now operating as supporting strand inputs beneath the [China helix](../helix.md).
+
+## First-Wave Openings
+
+Use the first-wave civilization objects in this order when the drafting problem is still at lane scale:
+
+- [state memory](objects/state-memory.md) for continuity, unity, and development-bearing authority
+- [geo](geo.md) for route exposure, coastal / inland carrying systems, and geographic settlement carry
+- [war](war.md) for coercive classification, party-state command, and escalation architecture
+- [peace](peace.md) for stabilization formulas, review, recognition, and bounded equilibrium
+
+These are now the preferred China civilization-side strand openings ahead of older compact notes or direct `civ-mem` provenance files. Use them after the [China helix](../helix.md) has identified which strand should lead the draft.

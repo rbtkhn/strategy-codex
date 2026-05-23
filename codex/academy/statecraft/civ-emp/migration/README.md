@@ -11,14 +11,14 @@ Current staged reality:
 - `state-memory` and `empire-instrument` are now `cut_over` across all four active lanes.
 - `geo`, `war`, and `peace` are now `verified` across all four active lanes.
 - README-level widening has now begun in every active lane, so the first-wave civilization set is operationally preferred rather than hidden lane residue.
-- America and Russia are now the active Phase 2 proving cases: both lanes route through a helix-first interpretation while China and Iran remain on the Phase 1C first-wave architecture.
+- America, Russia, China, and Iran are now the active Phase 2 proving cases: all four lanes route through a helix-first interpretation while preserving the first-wave strand scaffold beneath it.
 
 ## Phase State
 
 - **Phase 1A complete:** the four active lanes now have reusable proving-case pilot pairs. `state-memory` and `empire-instrument` are `cut_over` across America, Russia, China, and Iran, and the pilot-lane audit stack has produced template-ready pairs.
 - **Phase 1B complete:** `geo`, `war`, and `peace` are now all `verified` across the four active lanes, and the control plane reflects that state.
-- **Phase 1C complete:** the remaining work is no longer lane-level first-wave maturity. All four active lanes now have maturity-complete first-wave sets. The next work is lane-set verification, cross-lane synthesis, and the v1 remainder work beyond the first-wave grid.
-- **Phase 2 proving cases active:** America is now the first helix-primary lane, and Russia is now the first transferred helix-primary lane. China and Iran remain on the Phase 1C architecture until that transfer proof is judged strong enough to broaden again.
+- **Phase 1C complete:** the remaining work is no longer lane-level first-wave maturity. All four active lanes now have maturity-complete first-wave sets. The next work is cross-lane synthesis and the v1 remainder work beyond the first-wave grid.
+- **Phase 2 lane transfer complete:** America is now the first helix-primary lane, and Russia, China, and Iran are now transferred helix-primary lanes. The four-lane set now has its own helix-layer coherence check, so the next work is no longer lane transfer but corpus-level synthesis and retrieval.
 
 ## Control Artifacts
 
@@ -30,6 +30,16 @@ Current staged reality:
 - [Corpus budget](corpus-budget.md) - live word-budget target, current baseline, and lane/object symmetry counts.
 - [Corpus budget JSON](corpus-budget.json) - machine-readable budget and current word-count metrics.
 - [Helix-first architecture](helix-first-architecture.md) - locks the Phase 2 doctrine shift from strand scaffold to helix-authored layer without deleting the first-wave source base.
+- [Canonical-family synthesis: real settlement](canonical-family-settlement-real.md) - first cross-lane Phase 2 synthesis note for `what makes a settlement real rather than theatrical`.
+- [Canonical-family synthesis: coercion conversion](canonical-family-coercion-conversion.md) - second cross-lane Phase 2 synthesis note for `when does coercion fail to convert into the political outcome it claims to serve`.
+- [Canonical-family synthesis: exclusion and direct settlement](canonical-family-exclusion-settlement.md) - third cross-lane Phase 2 synthesis note for `how does remembered exclusion shape the politics of direct great-power settlement`.
+- [Canonical-family synthesis: pressured hegemon misreading power](canonical-family-pressured-hegemon.md) - fourth cross-lane Phase 2 synthesis note for `when does a pressured hegemon misread its own power, limits, or durability`.
+- [Canonical-family synthesis: older strategic memories](canonical-family-older-strategic-memories.md) - fifth cross-lane Phase 2 synthesis note for `when do older strategic memories continue to constrain present actors`.
+- [Canonical-family synthesis: broken contact regimes and arms-control inheritances](canonical-family-broken-contact-regimes.md) - sixth cross-lane Phase 2 synthesis note for `when do broken contact regimes and arms-control inheritances make escalation more dangerous than the proxy-war script admits`.
+- [Meta-synthesis: settlement-room architecture](canonical-family-settlement-room-architecture.md) - first Phase 2 meta-surface above the family layer, joining `real settlement` and `remembered exclusion` into one larger room-architecture problem.
+- [Meta-synthesis: escalation governance](canonical-family-escalation-governance.md) - second Phase 2 meta-surface above the family layer, joining `coercion conversion` and `broken contact regimes` into one larger escalation-governance problem.
+- [Helix-first orientation surface](orientation-helix-front-door.md) - first corpus-level Phase 2 retrieval surface for choosing between lane helixes, strand descent, and cross-lane synthesis.
+- [Helix-first problem-shape router](orientation-problem-shape-router.md) - second corpus-level Phase 2 retrieval surface for grouping the six synthesis notes by entry problem instead of by title alone.
 - [Status report template](status-report-template.md) - deterministic wave-close format for later materialization and cutover passes.
 - [Pilot-lane audit template](pilot-lane-audit-template.md) - reusable six-audit checklist for deciding whether a lane can move from pilot to template status.
 - [America pilot lane audit](america-pilot-lane-audit.md) - first proving-case scorecard for the active America pair.
@@ -41,14 +51,17 @@ Current staged reality:
 - [Russia first-wave verification note](russia-first-wave-verification.md) - evidence check for which Russia civilization-side first-wave slices can move beyond `materialized`.
 - [Russia lane-level verification](russia-lane-verification.md) - Phase 1C lane-level verification note for the Russia first-wave set, now also the second maturity-complete proving case.
 - [Russia helix verification](russia-helix-verification.md) - Phase 2 transfer-case note for whether Russia now works as a helix-primary lane above the mature strand scaffold.
-- [China transfer probe](china-transfer-probe.md) - bounded stage note after China civilization-side normalization and before empire-side pilot promotion.
+- [China transfer probe](china-transfer-probe.md) - historical pre-transfer note showing how China moved from normalized pair formation into the later helix-first transfer layer.
 - [China pilot lane audit](china-pilot-lane-audit.md) - first full six-audit scorecard for the materialized China pair.
 - [China first-wave verification note](china-first-wave-verification.md) - evidence check for which China civilization-side first-wave slices can move beyond `materialized`.
 - [China lane-level verification](china-lane-verification.md) - Phase 1C lane-level verification note for the China first-wave set, now also the third maturity-complete proving case.
+- [China helix verification](china-helix-verification.md) - Phase 2 transfer-case note for whether China now works as a helix-primary lane above the mature strand scaffold.
 - [Iran transfer probe](iran-transfer-probe.md) - bounded stage note after Iran civilization-side normalization and before empire-side pilot promotion.
 - [Iran pilot lane audit](iran-pilot-lane-audit.md) - first full six-audit scorecard for the materialized Iran pair.
 - [Iran first-wave verification note](iran-first-wave-verification.md) - evidence check for which Iran civilization-side first-wave slices can move beyond `materialized`.
 - [Iran lane-level verification](iran-lane-verification.md) - Phase 1C lane-level verification note for the Iran first-wave set, now also the fourth maturity-complete proving case.
+- [Iran helix verification](iran-helix-verification.md) - Phase 2 transfer-case note for whether Iran now works as a helix-primary lane above the mature strand scaffold.
+- [Four-lane helix verification](lane-set-helix-verification.md) - Phase 2 lane-set note for whether the active four-lane corpus now coheres as one helix-first layer above the shared strand scaffold.
 
 ## Two-Volume Rule
 
