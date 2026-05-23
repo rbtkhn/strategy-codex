@@ -8,6 +8,7 @@ Open here first when the question is not merely "what did Johnson say," but **wh
 
 ## Start here
 
+- [johnson-arc.md](/C:/dev/strategy-codex/codex/speakers/johnson/johnson-arc.md)
 - [johnson-routing.md](/C:/dev/strategy-codex/codex/speakers/johnson/johnson-routing.md)
 - [johnson-surface-orthogonality-2026-05.md](/C:/dev/strategy-codex/codex/speakers/johnson/johnson-surface-orthogonality-2026-05.md)
 
@@ -21,6 +22,7 @@ Open here first when the question is not merely "what did Johnson say," but **wh
 
 This shelf already has a genuine canonical structure:
 
+- [johnson-arc.md](/C:/dev/strategy-codex/codex/speakers/johnson/johnson-arc.md) is the canonical person-level continuity surface
 - [johnson-helix.md](/C:/dev/strategy-codex/codex/speakers/johnson/johnson-helix.md) is the crossing surface
 - the three main host-local arcs carry the distinct host transformations
 - [johnson-cross-year-note.md](/C:/dev/strategy-codex/codex/speakers/johnson/johnson-cross-year-note.md) preserves the longitudinal maturity claim

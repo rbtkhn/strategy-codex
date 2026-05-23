@@ -8,6 +8,7 @@ Open here first when the question is not merely "what did Wilkerson say," but **
 
 ## Start here
 
+- [wilkerson-arc.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-arc.md)
 - [wilkerson-routing.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-routing.md)
 - [wilkerson-surface-orthogonality-2026-05.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-surface-orthogonality-2026-05.md)
 
@@ -20,6 +21,7 @@ Open here first when the question is not merely "what did Wilkerson say," but **
 
 This shelf already has a genuine canonical structure:
 
+- [wilkerson-arc.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-arc.md) is the canonical person-level continuity surface
 - [wilkerson-helix.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-helix.md) is the crossing surface
 - the two main host-local arcs carry the stable canonical host transformations
 - the Napolitano branch is real auxiliary reinforcement without becoming a third equal strand

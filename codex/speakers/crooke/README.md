@@ -8,6 +8,7 @@ Open here first when the question is not merely "what did Crooke say," but which
 
 ## Start here
 
+- [crooke-arc.md](/C:/dev/strategy-codex/codex/speakers/crooke/crooke-arc.md)
 - [authored-pressure-quartet.md](/C:/dev/strategy-codex/codex/speakers/authored-pressure-quartet.md)
 - [crooke-helix.md](/C:/dev/strategy-codex/codex/speakers/crooke/crooke-helix.md)
 - [crooke-surface-orthogonality-2026-05.md](/C:/dev/strategy-codex/codex/speakers/crooke/crooke-surface-orthogonality-2026-05.md)
@@ -42,6 +43,7 @@ In the [authored pressure quartet](/C:/dev/strategy-codex/codex/speakers/authore
 
 This shelf already has a genuine canonical structure:
 
+- [crooke-arc.md](/C:/dev/strategy-codex/codex/speakers/crooke/crooke-arc.md) is the canonical person-level continuity surface
 - [crooke-helix.md](/C:/dev/strategy-codex/codex/speakers/crooke/crooke-helix.md) is the crossing surface
 - [stream/crooke-forecast-ledger-2026.md](stream/crooke-forecast-ledger-2026.md) carries the authored mechanism and tension spine
 - [crooke-interview-appearances-2025-2026.md](/C:/dev/strategy-codex/codex/speakers/crooke/crooke-interview-appearances-2025-2026.md) carries the interview strand

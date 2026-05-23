@@ -8,6 +8,7 @@ Open here first when the question is not merely "what did Mearsheimer say," but 
 
 ## Start here
 
+- [mearsheimer-arc.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-arc.md)
 - [mearsheimer-routing.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-routing.md)
 - [mearsheimer-surface-orthogonality-2026-05.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-surface-orthogonality-2026-05.md)
 
@@ -19,6 +20,7 @@ Open here first when the question is not merely "what did Mearsheimer say," but 
 
 This shelf already has a genuine canonical structure:
 
+- [mearsheimer-arc.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-arc.md) is the canonical person-level continuity surface
 - [mearsheimer-helix.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-helix.md) is the crossing surface
 - the two main host-local arcs carry the stable distinct host transformations
 - the Napolitano branch exists as reinforcing orbit material without yet becoming a third canonical strand

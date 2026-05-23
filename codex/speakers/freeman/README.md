@@ -8,6 +8,7 @@ Open here first when the question is not merely "what did Freeman say," but **wh
 
 ## Start here
 
+- [freeman-arc.md](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-arc.md)
 - [freeman-routing.md](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-routing.md)
 
 ## Structural notes
@@ -28,6 +29,8 @@ Use this ladder as a Freeman-local implementation of the governing [speaker-map 
 
 - [2026 Freeman index](/C:/dev/strategy-codex/codex/speakers/freeman/index.md)
 - [Freeman raw-input index](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-raw-input-index.md)
+- [Historical examples audit](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-historical-examples-audit.md)
+- [Historical themes](themes/README.md)
 - [December 2025-May 2026 arc-threads](/C:/dev/strategy-codex/codex/speakers/freeman/stream/freeman-dec-2025-may-2026-arc-threads.md)
 - [March 2026 cross-host arc](/C:/dev/strategy-codex/codex/speakers/freeman/stream/freeman-march-2026-cross-host-arc.md)
 - [April 2026 cross-host arc](/C:/dev/strategy-codex/codex/speakers/freeman/stream/freeman-april-2026-cross-host-arc.md)
@@ -35,6 +38,8 @@ Use this ladder as a Freeman-local implementation of the governing [speaker-map 
 Use these when the Freeman question is wider than the four core host arcs:
 
 - open the raw-input index for the `non-core appearance bench`
+- open the historical audit to rank Freeman historical-example use and benchmark it
+- open the historical themes folder when you need the top-six Jan 2025-present Freeman historical-theme classes
 - open the March/April cross-host arc files for month-level cross-host sequencing that may also carry `discovery memory`
 - open the year index for the combined front door
 
@@ -42,6 +47,7 @@ Use these when the Freeman question is wider than the four core host arcs:
 
 This shelf already has a genuine canonical structure:
 
+- [freeman-arc.md](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-arc.md) is the canonical person-level continuity surface
 - [freeman-helix.md](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-helix.md) is the crossing surface
 - [stream/freeman-dec-2025-may-2026-arc-threads.md](stream/freeman-dec-2025-may-2026-arc-threads.md) is the canonical atlas of recurring Freeman arc-threads across the core host lanes
 - the four host-local arcs carry the distinct host transformations
