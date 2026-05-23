@@ -34,7 +34,7 @@ If a new Freeman item could sit in several of these without changing how the ope
 - [April 2026 cross-host arc](freeman-april-2026-cross-host-arc.md)
 - [May 2026 cross-host arc](freeman-may-2026-cross-host-arc.md)
 - [Judging Freedom / Napolitano arc](../../napolitano/stream/napolitano-freeman-arc.md)
-- [Dialogue Works / Alkhorshid arc](../../alkorshid/stream/alkorshid-freeman-arc.md)
+- [Dialogue Works / Nima arc](../../nima/stream/nima-freeman-arc.md)
 - [Glenn Diesen arc](../../diesen/stream/diesen-freeman-arc.md)
 - [Backward extension note](../freeman-backward-extension-note.md)
 

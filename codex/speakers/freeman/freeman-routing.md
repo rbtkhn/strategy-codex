@@ -46,7 +46,7 @@ Freeman is the first concrete implementation of the general ladder, not an excep
 |---|---|---|
 | historical altitude, maritime-order transition, diplomatic decay, or multipolar consequence | [diesen-freeman-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-freeman-arc.md) | Diesen translates crisis into statecraft and order consequence through long-arc diplomatic memory. |
 | settlement realism, what coercion cannot negotiate back, or diplomatic collapse under military pressure | [davis-freeman-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-freeman-arc.md) | Davis gives Freeman a force-versus-political-end-state testing ground. |
-| phony ceasefires, live crisis pressure, Gulf-state positioning, or alliance strain under event stress | [alkorshid-freeman-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-freeman-arc.md) | Dialogue Works pushes Freeman into live-pressure diplomatic-memory form. |
+| phony ceasefires, live crisis pressure, Gulf-state positioning, or alliance strain under event stress | [nima-freeman-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-freeman-arc.md) | Dialogue Works pushes Freeman into live-pressure diplomatic-memory form. |
 | anti-hegemonic legal-moral critique, war-powers skepticism, or legitimacy stress under current-event pressure | [napolitano-freeman-arc.md](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-freeman-arc.md) | Napolitano gives Freeman a legal-moral, anti-war, and legitimacy-focused framing lane that stands alongside the other host transformations. |
 | cross-host orientation to Freeman as an object | [freeman-helix.md](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-helix.md) | The helix note explains how the four host strands fit together before you descend into a lane. |
 | durable Freeman thesis across months or hosts | [freeman-dec-2025-may-2026-arc-threads.md](/C:/dev/strategy-codex/codex/speakers/freeman/stream/freeman-dec-2025-may-2026-arc-threads.md) | This is the thread atlas: it names the recurring arc-threads that host-local arcs braid differently. |
@@ -65,7 +65,7 @@ Freeman is the first concrete implementation of the general ladder, not an excep
 
 - **Order-transition reading:** [diesen](/C:/dev/strategy-codex/codex/speakers/diesen/stream/)
 - **Settlement-realism reading:** [davis](/C:/dev/strategy-codex/codex/speakers/davis/stream/)
-- **Live crisis-pressure reading:** [alkorshid](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/)
+- **Live crisis-pressure reading:** [nima](/C:/dev/strategy-codex/codex/speakers/nima/stream/)
 - **Legal-moral and legitimacy reading:** [napolitano](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/)
 - **Cross-host / reinforcement / month-spine bench:** [freeman](/C:/dev/strategy-codex/codex/speakers/freeman/stream/)
 

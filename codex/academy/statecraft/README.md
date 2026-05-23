@@ -209,6 +209,8 @@ In practical terms:
 
 Speaker-state is input, not authority. Open speaker folders to extract mechanisms, clocks, constraints, and settlement logic; then let the national lane convert those inputs into state-interest language.
 
+Layering rule: the speaker shelf owns the canonical speaker object, person arc, and host-local arc structure; statecraft remains downstream and may consume those surfaces as input, but it does not become the owner of speaker continuity merely because a speaker is strategically valuable.
+
 | lane | primary intake | secondary intake | what the lane must not flatten |
 | --- | --- | --- | --- |
 | [America](america/) | [Pape](../../speakers/pape/) for coercive leverage and falsifiers; [Parsi](../../speakers/parsi/) for settlement architecture | [Ritter](../../speakers/ritter/) / [Postol](../../speakers/postol/) for military danger; [Freeman](../../speakers/freeman/) / [Beebe](../../speakers/beebe/) / [Mearsheimer](../../speakers/mearsheimer/) for realist diplomacy | Do not turn U.S. policy into either pure force control or pure exit language; domestic legitimacy and successor-stable authority matter. |

@@ -24,10 +24,10 @@ Use [December 2025-May 2026 arc-threads](stream/freeman-dec-2025-may-2026-arc-th
 
 | Host lane | Distinct register | What it reveals most clearly |
 |---|---|---|
-| [diesen x freeman](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-freeman-speaker-arc.md) | Historical altitude | Imperial exhaustion, diplomatic decay, and multipolar constraint becoming concrete through the year |
-| [davis x freeman](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-freeman-speaker-arc.md) | Settlement realism | What coercion cannot negotiate back once battlefield loss, war pressure, and degraded statecraft have narrowed the end state |
-| [alkorshid x freeman](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-freeman-speaker-arc.md) | Live crisis pressure | Emergency diplomacy, alliance strain, phony ceasefires, and hegemonic breakdown under immediate event stress |
-| [napolitano x freeman](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-freeman-speaker-arc.md) | Legal-moral legitimacy stress | Anti-war framing, war-powers skepticism, legitimacy critique, and anti-hegemonic legal-moral pressure under current-event stress |
+| [diesen x freeman](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-freeman-arc.md) | Historical altitude | Imperial exhaustion, diplomatic decay, and multipolar constraint becoming concrete through the year |
+| [davis x freeman](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-freeman-arc.md) | Settlement realism | What coercion cannot negotiate back once battlefield loss, war pressure, and degraded statecraft have narrowed the end state |
+| [nima x freeman](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-freeman-arc.md) | Live crisis pressure | Emergency diplomacy, alliance strain, phony ceasefires, and hegemonic breakdown under immediate event stress |
+| [napolitano x freeman](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-freeman-arc.md) | Legal-moral legitimacy stress | Anti-war framing, war-powers skepticism, legitimacy critique, and anti-hegemonic legal-moral pressure under current-event stress |
 
 ## Orthogonality guide
 
@@ -35,10 +35,10 @@ Quick separation rule:
 
 - `Diesen x Freeman` is where Freeman's diplomacy becomes world-order altitude and imperial-decay interpretation.
 - `Davis x Freeman` is where Freeman's diplomacy becomes settlement realism and leverage-withdrawal discipline.
-- `Alkhorshid x Freeman` is where Freeman's diplomacy gets tested under immediate crisis tempo, alliance strain, and event-surface phony resolution.
+- `Nima x Freeman` is where Freeman's diplomacy gets tested under immediate crisis tempo, alliance strain, and event-surface phony resolution.
 - `Napolitano x Freeman` is where Freeman's diplomacy becomes legal-moral legitimacy critique under anti-war and constitutional pressure.
 
-Do not use `Diesen` as a shortcut for bargaining realism, `Davis` as a shortcut for legal-moral critique, `Alkhorshid` as a shortcut for world-order altitude, or `Napolitano` as a shortcut for live event tempo. The helix is useful only if each strand keeps its own explanatory role.
+Do not use `Diesen` as a shortcut for bargaining realism, `Davis` as a shortcut for legal-moral critique, `Nima` as a shortcut for world-order altitude, or `Napolitano` as a shortcut for live event tempo. The helix is useful only if each strand keeps its own explanatory role.
 
 ## Supporting surfaces beyond the four host lanes
 
