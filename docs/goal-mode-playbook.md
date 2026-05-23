@@ -192,7 +192,6 @@ Boundary:
 This session is strictly bounded to `<arc-name>`.
 
 Interpret `<arc-name>` as the sole mission container for this session.
-It may include multiple directly related surfaces only where they are genuinely necessary to the same bounded arc-level campaign.
 It does not authorize:
 - broader shelf work
 - neighboring speaker cleanup
