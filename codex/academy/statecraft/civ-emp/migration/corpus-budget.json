@@ -20,7 +20,7 @@
       "how does remembered exclusion shape the politics of direct great-power settlement"
     ],
     "current_lane_surface_words": 98134,
-    "current_civ_emp_words": 57546,
+    "current_civ_emp_words": 57662,
     "first_wave_core_current_words": 59381
   },
   "corpus_budget": {
@@ -113,7 +113,7 @@
         "file_count": 25
       }
     },
-    "civ_emp_total_words": 57546,
+    "civ_emp_total_words": 57662,
     "civ_emp_file_count": 72,
     "target_word_counts": {
       "america-state-memory": 3553,
@@ -326,7 +326,7 @@
       },
       "orientation_and_retrieval_surfaces": {
         "surface_count": 4,
-        "current_words": 4819,
+        "current_words": 4888,
         "surfaces": [
           {
             "path": "codex/academy/statecraft/civ-emp/migration/orientation-clause-review-checklist.md",
@@ -334,11 +334,11 @@
           },
           {
             "path": "codex/academy/statecraft/civ-emp/migration/orientation-helix-front-door.md",
-            "words": 1095
+            "words": 1098
           },
           {
             "path": "codex/academy/statecraft/civ-emp/migration/orientation-operator-task-router.md",
-            "words": 1298
+            "words": 1364
           },
           {
             "path": "codex/academy/statecraft/civ-emp/migration/orientation-problem-shape-router.md",
@@ -450,7 +450,7 @@
     },
     "orientation_and_retrieval_surfaces": {
       "surface_count": 4,
-      "current_words": 4819,
+      "current_words": 4888,
       "surfaces": [
         {
           "path": "codex/academy/statecraft/civ-emp/migration/orientation-clause-review-checklist.md",
@@ -458,11 +458,11 @@
         },
         {
           "path": "codex/academy/statecraft/civ-emp/migration/orientation-helix-front-door.md",
-          "words": 1095
+          "words": 1098
         },
         {
           "path": "codex/academy/statecraft/civ-emp/migration/orientation-operator-task-router.md",
-          "words": 1298
+          "words": 1364
         },
         {
           "path": "codex/academy/statecraft/civ-emp/migration/orientation-problem-shape-router.md",

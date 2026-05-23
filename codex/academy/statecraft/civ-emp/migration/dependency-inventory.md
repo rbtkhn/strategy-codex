@@ -11,7 +11,7 @@ This report inventories direct legacy `civ-mem` references inside the four activ
 - Unique upstream `civ-mem` files referenced: `333`
 - First-wave symmetric targets: `20`
 - Current active-lane words: `98134`
-- Current `civ-emp` subtree words: `57546`
+- Current `civ-emp` subtree words: `57662`
 
 ## Direct References By Lane
 

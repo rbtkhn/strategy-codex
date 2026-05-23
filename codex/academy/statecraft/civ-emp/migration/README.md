@@ -19,6 +19,7 @@ Current staged reality:
 - **Phase 1B complete:** `geo`, `war`, and `peace` are now all `verified` across the four active lanes, and the control plane reflects that state.
 - **Phase 1C complete:** the remaining work is no longer lane-level first-wave maturity. All four active lanes now have maturity-complete first-wave sets. The next work is cross-lane synthesis and the v1 remainder work beyond the first-wave grid.
 - **Phase 2 lane transfer complete:** America is now the first helix-primary lane, and Russia, China, and Iran are now transferred helix-primary lanes. The four-lane set now has its own helix-layer coherence check, so the next work is no longer lane transfer but corpus-level synthesis and retrieval.
+- **Phase 2 three-architecture checkpoint complete:** the repo now has a complete family layer, three architecture-class meta-surfaces, three matching lane-comparison surfaces, a four-surface retrieval spine, and a bounded clause-review instrument. The next work should be selective deepening or a genuinely new architecture class, not more missing-scaffold fill.
 
 ## Control Artifacts
 

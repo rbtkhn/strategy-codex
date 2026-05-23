@@ -74,6 +74,8 @@ Then descend:
   Use when the clause is about peace ownership, review carry, access, or room inhabitability.
 - [Meta-synthesis: escalation governance](canonical-family-escalation-governance.md)
   Use when the clause is about pressure, enoughness, reciprocal stop conditions, or living contact procedure.
+- [Meta-synthesis: continuity and self-misread architecture](canonical-family-continuity-misread-architecture.md)
+  Use when the clause is about inherited plausibility filters, continuity review, or correcting self-misread before pressure or settlement language hardens around a false carrying picture.
 
 Finish in:
 
@@ -150,11 +152,13 @@ Current best comparison entrypoints:
 
 - [Meta-synthesis: settlement-room architecture](canonical-family-settlement-room-architecture.md)
 - [Meta-synthesis: escalation governance](canonical-family-escalation-governance.md)
+- [Meta-synthesis: continuity and self-misread architecture](canonical-family-continuity-misread-architecture.md)
 
 Current live comparison surface:
 
 - [Lane comparison: settlement-room architecture](canonical-family-settlement-room-lane-comparison.md)
 - [Lane comparison: escalation governance](canonical-family-escalation-governance-lane-comparison.md)
+- [Lane comparison: continuity and self-misread architecture](canonical-family-continuity-misread-lane-comparison.md)
 
 Current next leverage:
 
@@ -216,11 +220,11 @@ That means the corpus can now be entered by:
 
 Now that the retrieval layer can route by lane, family, problem-shape, and task, the next highest-value surfaces are:
 
-- additional lane-comparison surfaces if other meta-layers emerge later
-- any further comparison work only if a genuinely new architecture class appears
+- selective deepening inside one of the three current architecture classes only if practice exposes a real weak seam
 - later domain-specific checklists only if one drafting class proves distinct enough to deserve a separate instrument
+- a genuinely new architecture class only if the corpus exposes one rather than us forcing it
 
-The retrieval spine is now stronger because drafting no longer stops at routing and comparison. It now has a bounded review instrument above them.
+The retrieval spine is now stronger because drafting no longer stops at routing and comparison. It now has a bounded review instrument above three active architecture classes and their matching comparison layers.
 
 ## Return Path
 

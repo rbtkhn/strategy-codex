@@ -18,7 +18,7 @@ This note locks the v1 two-volume materialization target and ties it to the live
 ## Current Baseline
 
 - Current active-lane words across America, Russia, China, and Iran: `98134`
-- Current `civ-emp` subtree words: `57546`
+- Current `civ-emp` subtree words: `57662`
 - Current first-wave core words on the 20 target surfaces: `59381`
 
 | Surface | Current words | File count |
@@ -27,7 +27,7 @@ This note locks the v1 two-volume materialization target and ties it to the live
 | Russia lane | 24150 | 22 |
 | China lane | 24301 | 22 |
 | Iran lane | 24763 | 25 |
-| `civ-emp` subtree | 57546 | 72 |
+| `civ-emp` subtree | 57662 | 72 |
 
 ## First-Wave Object Targets
 
@@ -105,7 +105,7 @@ These rows are additive. They describe the active helix-first proving cases and 
 | Surface class | Current surfaces | Current words | Notes |
 | --- | ---: | ---: | --- |
 | Canonical-family synthesis | 12 | 16440 | active first synthesis surfaces now exist in the control plane |
-| Orientation / retrieval | 4 | 4819 | active orientation or retrieval surfaces now exist in the control plane |
+| Orientation / retrieval | 4 | 4888 | active orientation or retrieval surfaces now exist in the control plane |
 
 ## Canonical Family Coverage
 

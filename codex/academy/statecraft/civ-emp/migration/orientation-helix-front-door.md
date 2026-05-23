@@ -126,11 +126,11 @@ This front door also shows the remaining gap clearly.
 
 The next highest-value surfaces are now:
 
-- a lane-comparison surface for continuity / self-misread architecture if the new meta-surface proves strong enough to deserve one
-- lane-comparison deepening only if later synthesis produces a genuinely new architecture class
+- selective deepening inside one of the three current architecture classes only if practice exposes a real weak seam
 - later domain-specific checklists only if one drafting class proves distinct enough to deserve a more specialized instrument
+- a genuinely new architecture class only if the corpus exposes one rather than us forcing it
 
-The retrieval spine is now materially stronger because the family grid is complete, the problem-shape layer exists, the corpus can be entered by operator task, two architecture-class comparison surfaces exist, a third architecture-class meta-surface now exists, and there is now a bounded clause-review instrument above them.
+The retrieval spine is now materially stronger because the family grid is complete, the problem-shape layer exists, the corpus can be entered by operator task, all three current architecture classes now have matching comparison layers, and there is now a bounded clause-review instrument above them.
 
 ## Return Path
 
