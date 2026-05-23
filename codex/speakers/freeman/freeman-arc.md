@@ -26,10 +26,10 @@ If the question is mainly "which Freeman strand is this?", open the thread atlas
 
 Its main embodied lanes are:
 
-1. [Diesen x Freeman](../diesen/stream/diesen-freeman-speaker-arc.md) - historical altitude and imperial-order reading
-2. [Davis x Freeman](../davis/stream/davis-freeman-speaker-arc.md) - settlement realism and coercive-limit discipline
-3. [Dialogue Works x Freeman](../alkorshid/stream/alkorshid-freeman-speaker-arc.md) - live crisis pressure and phony-resolution critique
-4. [Napolitano x Freeman](../napolitano/stream/napolitano-freeman-speaker-arc.md) - legal-moral legitimacy stress and anti-war constitutional edge
+1. [Diesen x Freeman](../diesen/stream/diesen-freeman-arc.md) - historical altitude and imperial-order reading
+2. [Davis x Freeman](../davis/stream/davis-freeman-arc.md) - settlement realism and coercive-limit discipline
+3. [Dialogue Works x Freeman](../nima/stream/nima-freeman-arc.md) - live crisis pressure and phony-resolution critique
+4. [Napolitano x Freeman](../napolitano/stream/napolitano-freeman-arc.md) - legal-moral legitimacy stress and anti-war constitutional edge
 
 Its main recurring strands are named in [stream/freeman-dec-2025-may-2026-arc-threads.md](stream/freeman-dec-2025-may-2026-arc-threads.md):
 
@@ -60,10 +60,10 @@ That motion is why Freeman now deserves a person arc rather than only a helix pl
 
 Core host transformations:
 
-- [Diesen x Freeman](../diesen/stream/diesen-freeman-speaker-arc.md) - best for order altitude and multipolar consequence
-- [Davis x Freeman](../davis/stream/davis-freeman-speaker-arc.md) - best for settlement realism and leverage withdrawal
-- [Dialogue Works x Freeman](../alkorshid/stream/alkorshid-freeman-speaker-arc.md) - best for live crisis pressure and phony ceasefire language
-- [Napolitano x Freeman](../napolitano/stream/napolitano-freeman-speaker-arc.md) - best for anti-war legitimacy and constitutional stress
+- [Diesen x Freeman](../diesen/stream/diesen-freeman-arc.md) - best for order altitude and multipolar consequence
+- [Davis x Freeman](../davis/stream/davis-freeman-arc.md) - best for settlement realism and leverage withdrawal
+- [Dialogue Works x Freeman](../nima/stream/nima-freeman-arc.md) - best for live crisis pressure and phony ceasefire language
+- [Napolitano x Freeman](../napolitano/stream/napolitano-freeman-arc.md) - best for anti-war legitimacy and constitutional stress
 
 Support surfaces that remain part of the wider Freeman object:
 

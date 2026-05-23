@@ -8,19 +8,21 @@ This note implements the governing [speaker-map route contract](../map/README.md
 
 ## Core rule
 
-Freeman does **not** need a native monthly shelf of his own. The efficient structure is:
+Freeman now has a full native continuity stack of his own. The efficient structure is:
 
-- host shelves hold chronology
+- host shelves still hold raw chronology
 - the speaker folder holds object identity
-- host-local speaker arcs do the routing work
+- host-local speaker arcs still do the primary routing work
+- bounded month spines and one canonical recurring-strand atlas help the dense 2026 core stay readable without flattening host differences
 
-So this note is the **speaker-side index** into the real Freeman host lanes.
+So this note is the **speaker-side index** into the real Freeman host lanes plus the new continuity surfaces.
 
 Use the arc-as-helix model:
 
 - `arc-thread atlas`: recurring Freeman theses across months and hosts.
 - `host-local arc`: a bounded helix of arc-threads inside one host x Freeman surface.
 - `speaker helix`: cross-host comparison of multiple host-local arcs without flattening them.
+- `month spine`: bounded cross-host sequencing for one crisis month without pretending to replace host-local arcs.
 
 When the needed Freeman appearance is not cleanly host-local, route by ladder:
 
@@ -71,7 +73,7 @@ Freeman is the first concrete implementation of the general ladder, not an excep
 
 ## Boundaries
 
-- Do not build a duplicate Freeman chronology here; the host shelves already do that.
+- Do not build a duplicate Freeman chronology here; the host shelves, month spines, and atlas already do the bounded continuity work.
 - Read Napolitano as a full Freeman host lane rather than as a mere add-on to the older three-host pattern.
 - Do not use the thread atlas as a replacement for host-local arcs; use it to identify recurring strands, then open the relevant arc or helix for bounded motion.
 - Do not solve non-core appearances by repeatedly naming channels in doctrine prose; route them through the `non-core appearance bench` unless they earn a true host-local arc.

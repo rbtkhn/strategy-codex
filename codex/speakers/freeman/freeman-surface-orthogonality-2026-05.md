@@ -8,10 +8,10 @@ Surfaces reviewed:
 
 - [freeman-helix.md](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-helix.md)
 - [freeman-dec-2025-may-2026-arc-threads.md](/C:/dev/strategy-codex/codex/speakers/freeman/stream/freeman-dec-2025-may-2026-arc-threads.md)
-- [diesen-freeman-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-freeman-speaker-arc.md)
-- [davis-freeman-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-freeman-speaker-arc.md)
-- [alkorshid-freeman-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/alkorshid/stream/alkorshid-freeman-speaker-arc.md)
-- [napolitano-freeman-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-freeman-speaker-arc.md)
+- [diesen-freeman-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-freeman-arc.md)
+- [davis-freeman-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-freeman-arc.md)
+- [nima-freeman-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-freeman-arc.md)
+- [napolitano-freeman-arc.md](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-freeman-arc.md)
 
 Bounded claim:
 

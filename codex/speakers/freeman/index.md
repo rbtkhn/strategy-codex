@@ -50,7 +50,7 @@ Read this ladder as a Freeman-local implementation of the governing [speaker-map
 ## Host-Local Routes
 
 - [Judging Freedom / Napolitano arc](../napolitano/stream/napolitano-freeman-arc.md)
-- [Dialogue Works / Alkhorshid arc](../alkorshid/stream/alkorshid-freeman-arc.md)
+- [Dialogue Works / Nima arc](../nima/stream/nima-freeman-arc.md)
 - [Glenn Diesen arc](../diesen/stream/diesen-freeman-arc.md)
 - [Daniel Davis arc](../davis/stream/davis-freeman-arc.md)
 

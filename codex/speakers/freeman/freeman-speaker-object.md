@@ -2,25 +2,27 @@
 
 WORK only; not Record.
 
-object_shape: helix-first
+object_shape: person-arc-first
 
 Purpose: define Chas Freeman as a first-class speaker object while keeping chronology in the host shelves and existing Freeman files.
 
 ## Object shape
 
-Freeman should currently be read as a **helix-first speaker object**: the speaker folder holds identity and routing, while host-local arcs and raw-input files carry chronology and transcript evidence.
+Freeman should currently be read as a **person-arc-first speaker object**: [freeman-arc.md](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-arc.md) holds the canonical speaker continuity, [freeman-helix.md](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-helix.md) compares the four core host transformations, and host-local arcs plus raw-input carry chronology and transcript evidence.
 
 ## Core claim
 
 Freeman is a durable speaker object in this notebook because his appearances repeatedly supply diplomatic-memory readings of U.S.-China, West Asia, maritime order, constitutional war powers, and the decay of professional statecraft.
 
-He should be read primarily as a **helix-first** object:
+He should be read primarily as a **person-arc-first** object:
 
+- `freeman-arc` holds the whole-speaker continuity surface
 - the speaker folder holds identity and routing
+- the helix holds cross-host comparison
 - host-local arcs hold chronology and pressure context
 - the raw-input shelf holds transcript evidence
 
-This note is a thin object shim. It does not replace [freeman-routing.md](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-routing.md), [freeman-helix.md](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-helix.md), or [freeman-thread.md](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-thread.md).
+This note is a routing-oriented object statement. It does not replace [freeman-arc.md](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-arc.md), [freeman-routing.md](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-routing.md), or [freeman-helix.md](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-helix.md).
 
 For the wider cross-host surface beyond the four core host lanes, open [2026 Freeman index](/C:/dev/strategy-codex/codex/speakers/freeman/index.md) and [Freeman raw-input index](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-raw-input-index.md). Use the year bench as a ladder: `core host lane` / `non-core appearance bench` / `discovery memory`.
 
@@ -46,11 +48,15 @@ For routing:
 
 - [freeman-routing.md](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-routing.md)
 
+For whole-speaker continuity:
+
+- [freeman-arc.md](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-arc.md)
+
 For object shape:
 
 - [freeman-helix.md](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-helix.md)
 
-For recent accumulated prose:
+For legacy continuity carryover only:
 
 - [freeman-thread.md](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-thread.md)
 

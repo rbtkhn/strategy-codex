@@ -51,9 +51,9 @@ Do not use this monthly cross-host arc as a substitute for the host-local arcs w
 
 ## Host-Local Routes
 
-- Judging Freedom: [napolitano-freeman-speaker-arc.md](../../napolitano/stream/napolitano-freeman-speaker-arc.md)
-- Dialogue Works: [alkorshid-freeman-speaker-arc.md](../../alkorshid/stream/alkorshid-freeman-speaker-arc.md)
-- Glenn Diesen: [diesen-freeman-speaker-arc.md](../../diesen/stream/diesen-freeman-speaker-arc.md)
+- Judging Freedom: [napolitano-freeman-arc.md](../../napolitano/stream/napolitano-freeman-arc.md)
+- Dialogue Works: [nima-freeman-arc.md](../../nima/stream/nima-freeman-arc.md)
+- Glenn Diesen: [diesen-freeman-arc.md](../../diesen/stream/diesen-freeman-arc.md)
 - Daniel Davis: [davis](../../davis/stream/)
 
 ## Boundary

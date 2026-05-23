@@ -42,7 +42,7 @@ Do not use this monthly cross-host arc as a substitute for the host-local arcs w
 
 ## Host-Local Routes
 
-- Dialogue Works: [alkorshid-freeman-arc.md](../../alkorshid/stream/alkorshid-freeman-arc.md)
+- Dialogue Works: [nima-freeman-arc.md](../../nima/stream/nima-freeman-arc.md)
 - Glenn Diesen: [diesen-freeman-arc.md](../../diesen/stream/diesen-freeman-arc.md)
 - Non-core appearance bench: [freeman-raw-input-index.md](../freeman-raw-input-index.md)
 
