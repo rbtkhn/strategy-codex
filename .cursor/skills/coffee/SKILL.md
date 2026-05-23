@@ -94,13 +94,23 @@ Optional **one line** after auto-continue prose: *Say a conductor name to switch
 
 When the operator begins with **`coffee`** (or clearly the same intent; legacy **`hey`** still counts), treat it as opening a **coffee session**.
 
-**Fresh chat default:** If `coffee` is the first command in a new strategy-codex chat, use the executable first-command bootstrap:
+**Fresh chat default:** If `coffee` is the first command in a new strategy-codex chat, resolve a Python executable **before** any coffee script runs. Do not assume `python`, `python3`, or `py` is on `PATH`.
+
+**Python resolution order for new-chat coffee:**
+
+1. Prefer a working shell executable in this order: `python3`, then `python`, then `py -3`.
+2. If none of those resolve, load the Codex bundled workspace runtime and use its Python:
+   `C:\Users\rober\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe`
+3. Reuse that resolved interpreter for the entire coffee flow in the current chat (`operator_coffee.py`, warmup scripts, handoff scripts, cadence helpers, and ad hoc `pytest` checks).
+4. If no interpreter is available even after the bundled-runtime fallback, say so explicitly and fall back to manual read-only reconstruction of the coffee checkpoint.
+
+After resolution, use the executable first-command bootstrap with the resolved interpreter:
 
 ```bash
-python3 scripts/operator_coffee.py -u strategy-codex --mode first-command
+<python_cmd> scripts/operator_coffee.py -u strategy-codex --mode first-command
 ```
 
-This prints a **Coffee Bootstrap Brief** first, then runs the compact cold-thread stack. The brief includes read-only **Repo identity**, **Git credentials**, **Git state**, and **Pytest** lines for the current sandbox (`verify_repo_identity.py`; `origin` protocol + `gh auth status` hint; `git status --short --branch`; `python -m pytest --version`) so a fresh chat can tell whether it is in the right checkout and whether shell push, local repo stewardship, or test work needs setup before ship work. Use `--verbose` only when the operator needs the detailed underlying handoff / warmup / harness blocks. Ordinary in-thread `coffee`, `coffee light`, `coffee minimal`, and signing-off behavior stay unchanged.
+This prints a **Coffee Bootstrap Brief** first, then runs the compact cold-thread stack. The brief includes read-only **Repo identity**, **Git credentials**, **Git state**, and **Pytest** lines for the current sandbox (`verify_repo_identity.py`; `origin` protocol + `gh auth status` hint; `git status --short --branch`; `<python_cmd> -m pytest --version`) so a fresh chat can tell whether it is in the right checkout and whether shell push, local repo stewardship, or test work needs setup before ship work. Use `--verbose` only when the operator needs the detailed underlying handoff / warmup / harness blocks. Ordinary in-thread `coffee`, `coffee light`, `coffee minimal`, and signing-off behavior stay unchanged.
 
 For Step 0 recent rhythm, prefer the executable formatter in `scripts/coffee_bootstrap_brief.py` over manual log synthesis. It reads `coffee_close` receipts first, names readiness / artifact anchors / repeated unresolved loops, and keeps the first screen free of timestamp walls.
 
