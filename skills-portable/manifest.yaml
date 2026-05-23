@@ -156,4 +156,10 @@ skills:
     verify_forbidden_substrings:
       - users/grace-mar/
       - process_approved_candidates
-
+  - name: first-wave-service-sales
+    source: first-wave-service-sales/SKILL.md
+    appendix: .cursor/skills/first-wave-service-sales/CURSOR_APPENDIX.md
+    target: .cursor/skills/first-wave-service-sales/SKILL.md
+    verify_forbidden_substrings:
+      - users/grace-mar/
+      - process_approved_candidates

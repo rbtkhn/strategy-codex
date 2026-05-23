@@ -88,6 +88,25 @@ Canonical method: [skills-portable/_drafts/graceful-constraint-reporting/SKILL.m
 
 ---
 
+## first-wave-service-sales
+
+- **What it is**
+  - A first-contact sales skill for turning a bounded service offer into a real shortlist, first sends, logged contact, and clean reply routing.
+- **When to use it**
+  - Use when the offer and package already exist and the real task is moving from planning into the first live outreach wave.
+- **Inputs you'll need**
+  - Offer surface, proof packet, buyer map, prospect shortlist, and pipeline sheet.
+- **What you get**
+  - A first-batch send plan, personalized outreach logic, logging discipline, objection capture, and call or proposal handoff rules.
+- **Boundary**
+  - Does not invent demand, does not treat internal demos as client proof, and does not widen a bounded service into generic consulting.
+- **Current status**
+  - `promoted`
+
+Canonical method: [skills-portable/first-wave-service-sales/SKILL.md](first-wave-service-sales/SKILL.md)
+
+---
+
 ## strategy-notebook-expert-cross-weave
 
 - **What it is**

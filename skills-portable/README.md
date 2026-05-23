@@ -2,6 +2,8 @@
 
 **Purpose:** Vendor-neutral **skill cores** you can copy into other hosts (ChatGPT custom instructions, Copilot skill packs, another Cursor repo) without dragging strategy-codex-only paths into the default body.
 
+**Discovery layer:** [catalog.md](catalog.md) - short human-readable cards for selected promoted and draft skills. Derivative only; canonical method remains in each `SKILL.md`.
+
 **Canonical layout**
 
 | Path | Role |

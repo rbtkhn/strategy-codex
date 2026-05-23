@@ -109,6 +109,8 @@ Ciciâ€™s **companion** or **chosen instance** repository (Identity Fork Pro
 
 **Community measurement:** [cici-ai-community-dashboard.md](cici-ai-community-dashboard.md), [cici-ai-first-task-proof-packet.md](cici-ai-first-task-proof-packet.md), and [cici-ai-weekly-governance-review-template.md](cici-ai-weekly-governance-review-template.md). **Weekly review instances** live in [reviews/](reviews/).
 **Daily team/group brief:** [cici-ai-daily-telegram-brief.md](cici-ai-daily-telegram-brief.md) defines the Telegram-ready daily operating brief, source hierarchy, confidence rules, and automation path for `cici-ai`.
+**Daily brief quickstart:** [cici-ai-daily-brief-quickstart.md](cici-ai-daily-brief-quickstart.md) is the beginner-facing wrapper for proof reply, re-entry, and boundary clarity.
+**Daily brief control-plane pilot:** [cici-ai-daily-brief-control-plane-pilot.md](cici-ai-daily-brief-control-plane-pilot.md) defines the first live test for whether a partially automated brief can improve routing and proof without blurring authority.
 
 **Apprentice Studio pilot:** [apprentice-studio-pilot-ops.md](apprentice-studio-pilot-ops.md) is the month-one operating layer for using Grace Gems as a real-work substrate, `cici-ai` as the onboarding/progress surface, and `singularity-academy` as the evaluation lens.
 

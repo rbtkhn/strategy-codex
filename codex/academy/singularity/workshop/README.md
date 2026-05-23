@@ -54,6 +54,11 @@ Use the workshop to compare these lanes by the same fields:
 - [Narrative-Shaped Alignment](sheets/narrative-shaped-alignment.md) - practical bridge for rule-shaped versus story-shaped alignment, PH-CIV formation material, and model-facing cultural substrate.
 - [CodeGraph pilot benchmark](../../../../docs/skill-work/work-dev/codegraph-pilot-benchmark.md) - bounded technical proving-ground loop for deciding whether local code-intelligence actually compounds enough to expand.
 
+## Commercial Wedge
+
+- [Singularity-Academy AI Operating System Sprint](../../../../docs/skill-work/work-business/singularity-academy-ai-operating-system-sprint.md) - WORK-only service offer for testing whether control-plane, reporting, and beginner-safe workflow doctrine can become a real paid install.
+- [Singularity-Academy `$5k/mo` Roadmap](../../../../docs/skill-work/work-business/singularity-academy-5000mo-roadmap.md) - narrow business path for turning the workshop's live-lane doctrine into one sellable service instead of a content-only posture.
+
 ## Keystone Helix
 
 - [Keystone Helix](keystone-helix.md) - Innermost Loop as dated frontier signal pulse, Moonshots as conversational synthesis, paired into the workshop's living interpretive spine.
@@ -63,6 +68,8 @@ Use the workshop to compare these lanes by the same fields:
 - [The Innermost Loop - 2026-05-15](sheets/innermost-loop-2026-05-15.md) - weekly acceleration bundle mapped into optimizer recursion, cyber hardening windows, compute sovereignty, data-center legitimacy, and value perception.
 - [The Innermost Loop - 2026-05-16](sheets/innermost-loop-2026-05-16.md) - weekly acceleration bundle mapped into world models, memory, agent swarms, substrate, synthetic reality, and token economics.
 - [The Innermost Loop - 2026-05-17](sheets/innermost-loop-2026-05-17.md) - weekly acceleration bundle mapped into agency, substrate, rollback, and cross-shelf bridge questions.
+- [Compute Futures: The Singularity Gets a Price Curve](sheets/compute-futures-singularity-price-curve.md) - workshop-strict bridge note connecting the May 2026 Innermost Loop pulses and recent Moonshots synthesis around compute financialization, agentic distribution, trust infrastructure, and science as proving ground.
+- [Future Roadmap Implications](sheets/future-roadmap-implications.md) - downstream bridge note translating the compute-financialization and agentic-distribution pattern into roadmap priorities across substrate governance, control planes, trust infrastructure, and live WORK lanes.
 - [Moonshots EP #255 - Singularity Economy](sheets/moonshots-ep-255-singularity-economy.md) - podcast bridge for Anthropic/SpaceX compute, singularity economics, recursive agents, alignment narratives, and orbital infrastructure.
 - [Moonshots EP #256 - Inner Loop, Full Stack, and Trust Infrastructure](sheets/moonshots-ep-256-inner-loop-full-stack-trust.md) - podcast bridge for recursive self-improvement, stack control, ambient agents, trust infrastructure, and compute/chips as singularity substrate.
 - [AI interface as operating layer - 2028 horizon](sheets/interface-operating-layer-2028.md) - practical design sheet for outcome-first workflows, agent-addressable actions, memory, permissions, receipts, and rollback.

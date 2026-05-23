@@ -387,7 +387,7 @@ Build this in three stages:
 1. **Manual template stage**
    - operator fills the brief from dashboard + evidence pointers
 2. **Semi-automated digest stage**
-   - script assembles candidate movements, names, and asks
+   - [scripts/generate_cici_ai_daily_brief.py](../../../scripts/generate_cici_ai_daily_brief.py) assembles candidate movements, names, and asks
 3. **Telegram-posting stage**
    - script or assistant emits the final post-ready message after operator review
 
