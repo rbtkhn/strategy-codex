@@ -14,7 +14,7 @@ Quick separation rule:
 
 If a question is about diplomacy routing, host transformation, or canonical structure, route to those named surfaces instead of widening this file.
 
-Compatibility note: this file is a legacy continuity surface from the older expert-thread machinery. In the current Parsi shelf, the canonical orthogonality-bearing structure is the authored diplomacy ledger plus the interview appearance map, crossed by [parsi-helix.md](../parsi-helix.md), not this file.
+Compatibility note: this file is a legacy continuity surface from the older expert-thread machinery. In the current Parsi shelf, the canonical structure now lives in [parsi-arc.md](../parsi-arc.md), [parsi-routing.md](../parsi-routing.md), [parsi-helix.md](../parsi-helix.md), [parsi-2025-present-arc-threads.md](parsi-2025-present-arc-threads.md), [parsi-forecast-ledger-2025-2026.md](parsi-forecast-ledger-2025-2026.md), and [parsi-interview-appearances-2025-2026.md](../parsi-interview-appearances-2025-2026.md), not this file.
 
 **Source:** Distilled from [`strategy-expert-parsi-transcript.md`](strategy-expert-parsi-transcript.md) (what the expert said recently) and relevant pages (where that material was used in strategy work).
 **Process:** `python3 scripts/strategy_thread.py` triages inbox ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ transcript, then fills **only** the **machine layer** between the **strategy-expert-thread** HTML start and end comments. Operator / assistant maintains the **journal layer** above the start marker in **readable prose** (optional **ledger** after the end marker).

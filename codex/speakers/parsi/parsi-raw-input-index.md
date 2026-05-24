@@ -4,13 +4,41 @@ WORK only; not Record.
 
 Purpose: exhaustive route map for every resolved `raw-input` appearance of Trita Parsi currently materialized in this repo, including authored diplomacy captures, host-owned interview appearances, shorthand day files, generic `transcript-parsi` surfaces, and fast-cycle support captures.
 
+## 2025-05
+
+- [transcript-dialogue-works-amb-chas-freeman-and-trita-parsi-trump-s-wake-up-call-yemen-s-chaos-forcing-a-deal-with-iran-2025-05-09](../../years/2026/raw-input/2025-05-09/transcript-dialogue-works-amb-chas-freeman-and-trita-parsi-trump-s-wake-up-call-yemen-s-chaos-forcing-a-deal-with-iran-2025-05-09.md)
+
+## 2025-06
+
+- [transcript-dialogue-works-col-larry-wilkerson-amb-chas-freeman-and-trita-parsi-the-us-could-face-a-war-it-can-t-win-2025-06-22](../../years/2026/raw-input/2025-06-22/transcript-dialogue-works-col-larry-wilkerson-amb-chas-freeman-and-trita-parsi-the-us-could-face-a-war-it-can-t-win-2025-06-22.md)
+
+## 2025-07
+
+- [transcript-dialogue-works-amb-chas-freeman-and-trita-parsi-how-the-iran-israel-war-changed-everything-overnight-2025-07-26](../../years/2026/raw-input/2025-07-26/transcript-dialogue-works-amb-chas-freeman-and-trita-parsi-how-the-iran-israel-war-changed-everything-overnight-2025-07-26.md)
+
+## 2025-08
+
+- [transcript-dialogue-works-amb-chas-freeman-and-trita-parsi-the-next-israel-iran-war-is-coming-2025-08-15](../../years/2026/raw-input/2025-08-15/transcript-dialogue-works-amb-chas-freeman-and-trita-parsi-the-next-israel-iran-war-is-coming-2025-08-15.md)
+
+## 2025-09
+
+- [substack-parsi-the-real-reason-behind-the-eus-escalation-with-iran-at-the-un-2025-09-19](../../years/2025/raw-input/2025-09-19/substack-parsi-the-real-reason-behind-the-eus-escalation-with-iran-at-the-un-2025-09-19.md)
+- [substack-parsi-how-recognition-of-palestine-can-be-turned-into-more-than-symbolism-2025-09-22](../../years/2025/raw-input/2025-09-22/substack-parsi-how-recognition-of-palestine-can-be-turned-into-more-than-symbolism-2025-09-22.md)
+
 ## 2025-10
 
+- [responsiblestatecraft-parsi-trump-gaza-deal-will-work-if-he-keeps-pressure-on-israel-2025-10-09](../../years/2025/raw-input/2025-10-09/responsiblestatecraft-parsi-trump-gaza-deal-will-work-if-he-keeps-pressure-on-israel-2025-10-09.md)
 - [youtube-daniel-davis-irans-nuclear-dilemma-trita-parsi-lt-col-daniel-davis-2025-10-20](../../years/2026/raw-input/2025-10-20/youtube-daniel-davis-irans-nuclear-dilemma-trita-parsi-lt-col-daniel-davis-2025-10-20.md)
+
+## 2025-11
+
+- [responsiblestatecraft-parsi-arab-leaders-are-no-longer-buying-washingtons-iran-story-2025-11-04](../../years/2025/raw-input/2025-11-04/responsiblestatecraft-parsi-arab-leaders-are-no-longer-buying-washingtons-iran-story-2025-11-04.md)
 
 ## 2025-12
 
 - [transcript-dialogue-works-freeman-parsi-middle-east-you-knew-disappearing-2025-12-19](../../years/2026/raw-input/2025-12-19/transcript-dialogue-works-freeman-parsi-middle-east-you-knew-disappearing-2025-12-19.md)
+- [substack-parsi-netanyahu-is-back-demanding-more-war-with-iran-2025-12-20](../../years/2025/raw-input/2025-12-20/substack-parsi-netanyahu-is-back-demanding-more-war-with-iran-2025-12-20.md)
+- [responsiblestatecraft-parsi-did-netanyahu-just-ask-trump-for-another-war-and-get-it-2025-12-30](../../years/2025/raw-input/2025-12-30/responsiblestatecraft-parsi-did-netanyahu-just-ask-trump-for-another-war-and-get-it-2025-12-30.md)
 
 ## 2026-01
 
@@ -54,6 +82,6 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Trita
 
 ## Boundary Notes
 
-- Parsi is a two-strand policy-process lane, so this index intentionally includes both the authored diplomacy body and the thinner host-pressure interview strand.
+- Parsi is a two-track policy-process lane, so this index intentionally includes both the authored diplomacy body and the interview-pressure base.
 - Host-owned interview appearances remain listed here for discovery, but they do not displace host ownership inside their native lanes.
 - Generic `transcript-parsi` stubs, date-named `*-parsi.md` files, and the `tparsi-x-bundle-*` capture remain listed because they are distinct raw-input surfaces on disk, even when they are treated more cautiously in speaker-side source-boundary notes.

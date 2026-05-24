@@ -2,48 +2,45 @@
 
 WORK only; not Record.
 
-Purpose: keep the guest-distributed side of the Parsi object visible and connect it to the authored diplomacy spine without overstating host-arc maturity.
+Purpose: keep the interview-pressure and host-distributed side of the Parsi object visible without overstating it into a dense host-local arc system.
 
 ## Core note
 
-Parsi is not only a native cognition stream. There are real cross-host appearances and comparative seams that reinforce the speaker object.
+Parsi is not only an authored diplomacy lane. There are real host-distributed appearances and comparative seams that reinforce the speaker object.
 
 The clearest current examples on disk are:
 
-- [2026-03-16 Davis x Parsi](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-03-16/youtube-daniel-davis-deep-dive-iran-making-it-painful-for-u-s-trita-parsi-lt-col-daniel-davis-2026-03-16.md)
-- [2026-03-16 Napolitano x Parsi](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-03-16/transcript-napolitano-parsi-how-washington-underestimated-iran-2026-03-16.md)
-- [2026-05-06 Mercouris x Parsi](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-06/transcript-duran-mercouris-trita-parsi-us-iran-blockade-diplomacy-2026-05-06.md)
-- [2026-05-18 Diesen x Parsi](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-18/youtube-glenn-diesen-trita-parsi-iran-war-marks-the-end-of-american-primacy-2026-05-18.md)
-
-That matters because it shows that the Parsi voice remains intact outside the native stream: policy-process reasoning, blockade critique, negotiation leverage, and diplomatic sequencing all survive translation into host environments.
+- [2025-05-09 Dialogue Works/Freeman x Parsi](../../years/2026/raw-input/2025-05-09/transcript-dialogue-works-amb-chas-freeman-and-trita-parsi-trump-s-wake-up-call-yemen-s-chaos-forcing-a-deal-with-iran-2025-05-09.md)
+- [2025-06-22 Dialogue Works/Freeman/Wilkerson x Parsi](../../years/2026/raw-input/2025-06-22/transcript-dialogue-works-col-larry-wilkerson-amb-chas-freeman-and-trita-parsi-the-us-could-face-a-war-it-can-t-win-2025-06-22.md)
+- [2025-07-26 Dialogue Works/Freeman x Parsi](../../years/2026/raw-input/2025-07-26/transcript-dialogue-works-amb-chas-freeman-and-trita-parsi-how-the-iran-israel-war-changed-everything-overnight-2025-07-26.md)
+- [2025-08-15 Dialogue Works/Freeman x Parsi](../../years/2026/raw-input/2025-08-15/transcript-dialogue-works-amb-chas-freeman-and-trita-parsi-the-next-israel-iran-war-is-coming-2025-08-15.md)
+- [2025-10-20 Davis x Parsi](../../years/2026/raw-input/2025-10-20/youtube-daniel-davis-irans-nuclear-dilemma-trita-parsi-lt-col-daniel-davis-2025-10-20.md)
+- [2025-12-19 Dialogue Works/Freeman x Parsi](../../years/2026/raw-input/2025-12-19/transcript-dialogue-works-freeman-parsi-middle-east-you-knew-disappearing-2025-12-19.md)
+- [2026-03-16 Davis x Parsi](../../years/2026/raw-input/2026-03-16/youtube-daniel-davis-deep-dive-iran-making-it-painful-for-u-s-trita-parsi-lt-col-daniel-davis-2026-03-16.md)
+- [2026-03-16 Napolitano x Parsi](../../years/2026/raw-input/2026-03-16/transcript-napolitano-parsi-how-washington-underestimated-iran-2026-03-16.md)
+- [2026-05-06 Duran/Mercouris x Parsi](../../years/2026/raw-input/2026-05-06/transcript-duran-mercouris-trita-parsi-us-iran-blockade-diplomacy-2026-05-06.md)
+- [2026-05-18 Diesen x Parsi](../../years/2026/raw-input/2026-05-18/youtube-glenn-diesen-trita-parsi-iran-war-marks-the-end-of-american-primacy-2026-05-18.md)
 
 ## How to read that reinforcement
 
 Read the reinforcement this way:
 
-- it **confirms** that Parsi is more than a sealed local lane
-- it **does not yet confirm** a Crooke/Ritter-style dense triple host helix
-- it **does** justify a two-strand helix: authored diplomacy spine plus host-pressure translation
-
-There is also a meaningful comparative seam with `thread:davis` and related Davis-adjacent analysis work:
-
-- Parsi tends to carry **speech-act, process, and negotiation** language
-- Davis tends to carry **war-powers, congressional, and constitutional-accountability** language
-
-Those lanes are complementary, but they are not the same thing and should not be flattened into one joint object without denser direct host evidence.
+- it confirms that Parsi is more than a sealed authored lane
+- it does not justify overbuilding dense host-local speaker arcs that the corpus still does not support
+- it does justify a full two-track stack: authored mechanism plus interview-pressure translation
 
 ## Why this still matters
 
-Even modest cross-host reinforcement matters here because Parsi's main value is already strong on the native stream side. A smaller number of guest appearances can still show that the object is usable beyond one folder, even if it remains fundamentally stream-anchored.
+Even without a Marandi-style three-host system, the distributed interview base matters because it shows that Parsi's diplomacy voice survives across multiple host environments and time windows.
 
-For the formal crossing map, use [parsi-helix.md](/C:/dev/strategy-codex/codex/speakers/parsi/parsi-helix.md) and [parsi-interview-appearances-2025-2026.md](/C:/dev/strategy-codex/codex/speakers/parsi/parsi-interview-appearances-2025-2026.md).
+For the formal crossing map, use [parsi-helix.md](parsi-helix.md) and [parsi-interview-appearances-2025-2026.md](parsi-interview-appearances-2025-2026.md).
 
 ## Future trigger
 
-Expand beyond the current two-strand helix only if one or more of the following becomes materially real:
+Expand beyond the current two-track helix only if one or more of the following becomes materially real:
 
-- a dense enough recurring guest lane to justify a stable host-local speaker-arc note
-- a second recurring host lane beyond the native Parsi stream
-- enough comparative value that cross-host transformation becomes one of the main ways the notebook should read Parsi
+- a dense enough recurring host lane to justify a stable host-local speaker-arc note
+- a second recurring host lane beyond the current interview map
+- enough comparative value that host transformation becomes one of the main ways the notebook should read Parsi
 
-Until then, keep Parsi classified as an authored diplomacy object with targeted interview-pressure reinforcement.
+Until then, keep Parsi classified as an authored diplomacy object with distributed interview-pressure reinforcement.

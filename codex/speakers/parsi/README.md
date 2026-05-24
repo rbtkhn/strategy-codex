@@ -2,44 +2,56 @@
 
 WORK only; not Record.
 
-This folder is the **speaker-object entry surface** for Trita Parsi.
+This is the canonical Parsi speaker shelf.
 
-Open here first when the question is not merely "what did Parsi say," but how his diplomacy, legitimacy, bargaining, and regional-architecture mechanisms should be routed across the notebook.
+## Open First
 
-## Start here
+- [parsi-arc.md](parsi-arc.md)
+- [parsi-routing.md](parsi-routing.md)
+- [stream/parsi-2025-present-arc-threads.md](stream/parsi-2025-present-arc-threads.md)
+- [parsi-speaker-object.md](parsi-speaker-object.md)
+- [parsi-helix.md](parsi-helix.md)
+- [themes/README.md](themes/README.md)
+- [parsi-cross-year-note.md](parsi-cross-year-note.md)
+- [parsi-raw-input-index.md](parsi-raw-input-index.md)
 
-- [parsi-arc.md](/C:/dev/strategy-codex/codex/speakers/parsi/parsi-arc.md)
-- [authored-pressure-quartet.md](/C:/dev/strategy-codex/codex/speakers/authored-pressure-quartet.md)
-- [parsi-speaker-object.md](/C:/dev/strategy-codex/codex/speakers/parsi/parsi-speaker-object.md)
-- [parsi-helix.md](/C:/dev/strategy-codex/codex/speakers/parsi/parsi-helix.md)
-- [parsi-cross-host-note.md](/C:/dev/strategy-codex/codex/speakers/parsi/parsi-cross-host-note.md)
-- [expert-orthogonality-note.md](/C:/dev/strategy-codex/codex/speakers/expert-orthogonality-note.md)
+## Canonical structure
 
-## Longitudinal wiring
+This shelf now has a full person-arc stack:
 
-- Forecast + diplomacy ledger: [parsi-forecast-ledger-2025-2026.md](/C:/dev/strategy-codex/codex/speakers/parsi/stream/parsi-forecast-ledger-2025-2026.md)
-- Interview appearance map: [parsi-interview-appearances-2025-2026.md](/C:/dev/strategy-codex/codex/speakers/parsi/parsi-interview-appearances-2025-2026.md)
-- Consolidation note: [parsi-lane-consolidation-2026-05.md](/C:/dev/strategy-codex/codex/speakers/parsi/stream/parsi-lane-consolidation-2026-05.md)
+- [parsi-arc.md](parsi-arc.md) is the canonical person-level continuity surface
+- [parsi-routing.md](parsi-routing.md) is the fast context-and-task routing surface
+- [stream/parsi-2025-present-arc-threads.md](stream/parsi-2025-present-arc-threads.md) is the canonical recurring thread atlas
+- [parsi-speaker-object.md](parsi-speaker-object.md) defines the object and hierarchy
+- [parsi-helix.md](parsi-helix.md) owns authored-versus-interview crossing
+- [themes/README.md](themes/README.md) owns recurring theme-family routing
 
-## Two-strand helix
+The older [stream/parsi-thread.md](stream/parsi-thread.md) file remains a **legacy continuity compatibility surface**, not a competing canonical thread atlas.
 
-Parsi is now wired as a **two-strand policy-process helix**: the authored diplomacy ledger carries the canonical mechanism, while the interview map shows how that mechanism behaves under Davis, Napolitano, Duran/Mercouris, and Diesen pressure.
+## Routing
 
-In the [authored pressure quartet](/C:/dev/strategy-codex/codex/speakers/authored-pressure-quartet.md), Parsi is the **diplomacy engine**: bargain structure, off-ramps, implementation, sanctions relief, guarantees, and regional architecture.
+Parsi is speaker-first and cross-context rather than year-lane-first.
+
+- speaker doctrine stays at the shelf root
+- cross-context continuity lives under this shelf and its `stream/` subtree
+- authored mechanism and interview-pressure surfaces stay distinct
+- theme-family reuse stays under `themes/`
+
+## Main context surfaces
+
+- [Forecast + diplomacy ledger](stream/parsi-forecast-ledger-2025-2026.md)
+- [Interview appearances](parsi-interview-appearances-2025-2026.md)
+- [Cross-host note](parsi-cross-host-note.md)
 
 ## Compatibility shape
 
-This shelf already has a genuine canonical structure:
+Compatibility files still present on this shelf:
 
-- [parsi-arc.md](/C:/dev/strategy-codex/codex/speakers/parsi/parsi-arc.md) is the canonical person-level continuity surface
-- [parsi-helix.md](/C:/dev/strategy-codex/codex/speakers/parsi/parsi-helix.md) is the crossing surface
-- [stream/parsi-forecast-ledger-2025-2026.md](stream/parsi-forecast-ledger-2025-2026.md) carries the authored diplomacy mechanism
-- [parsi-interview-appearances-2025-2026.md](/C:/dev/strategy-codex/codex/speakers/parsi/parsi-interview-appearances-2025-2026.md) carries the interview-pressure strand
+- [stream/parsi-thread.md](stream/parsi-thread.md)
+- [stream/parsi-transcript.md](stream/parsi-transcript.md)
 
-The older [stream/parsi-thread.md](stream/parsi-thread.md) file is therefore a **legacy continuity compatibility surface**, not the place where Parsi's real structural orthogonality is defined.
-
-Do not treat `parsi-thread.md` as a parallel canonical thread system beside the authored ledger and interview map. The orthogonality-bearing structure lives in the helix and its two source-separated strands.
+Use them as compatibility or support surfaces, not as replacements for the person arc, routing note, thread atlas, or authored/interview crossing.
 
 ## Boundary
 
-Parsi is not a Crooke/Ritter-style triple host helix. His stronger shape is authored diplomacy spine plus targeted host-pressure strand.
+Parsi is canonical under `codex/speakers/parsi/`. Raw-text authority stays in [`codex/years/2026/raw-input/`](/C:/dev/strategy-codex/codex/years/2026/raw-input), with 2025-present continuity routed through [parsi-raw-input-index.md](parsi-raw-input-index.md).
