@@ -69,18 +69,17 @@ Signal:
 Route:
 
 - send:
-  - [Singularity-Academy Sprint One-Page Packet](singularity-academy-sprint-one-page-packet.md)
-  - [Singularity-Academy Sprint FAQ](singularity-academy-sprint-faq.md)
-  - [Singularity-Academy Sprint Sales Page](singularity-academy-sprint-sales-page.md)
-  - [Singularity-Academy Sprint Proof Packet](singularity-academy-sprint-proof-packet.md)
+  - [Singularity-Academy Sprint External Packet](singularity-academy-sprint-external-packet.md)
+  - the matching target packet
+- add [Singularity-Academy Sprint FAQ](singularity-academy-sprint-faq.md) only if the reply shows practical confusion, price friction, or uncertainty about what the sprint is
 - ask for a short call only after they have the packet
 
 Reply shape:
 
 ```text
-Absolutely. I am sending the short one-page packet plus the compact proof packet.
+Absolutely. I am sending the short packet plus a tighter note on why I thought the fit might be real.
 
-If the shape looks close after that, the best next step is a 30-minute workflow call to decide whether there is one real workflow worth scoping.
+If the shape looks close after that, the best next step is a short workflow call to decide whether there is one real workflow worth scoping.
 ```
 
 Next stage:
@@ -223,6 +222,21 @@ Offer the call only when at least one of these is true:
 - the packet produced real curiosity rather than polite interest
 
 If none of those are true, do not force the call.
+
+## FAQ routing rule
+
+Do not send the FAQ by default.
+
+Use it only when the reply implies:
+
+- practical questions about how the sprint works
+- price confusion
+- uncertainty about what would actually happen during the 30 days
+
+If the reply is simply positive and asks for more, default to:
+
+- [Singularity-Academy Sprint External Packet](singularity-academy-sprint-external-packet.md)
+- the matching target packet
 
 ## Proposal routing rule
 

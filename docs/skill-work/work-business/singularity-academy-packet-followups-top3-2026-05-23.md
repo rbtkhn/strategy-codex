@@ -42,9 +42,14 @@ If the shape feels close, the best next step is a short workflow call.
 
 Send with:
 
-- [Singularity-Academy Sprint One-Page Packet](singularity-academy-sprint-one-page-packet.md)
-- [Singularity-Academy Sprint FAQ](singularity-academy-sprint-faq.md)
+- [Singularity-Academy Sprint External Packet](singularity-academy-sprint-external-packet.md)
 - the matching target packet
+
+Add the FAQ only if the reply shows:
+
+- practical confusion
+- price friction
+- uncertainty about what the sprint actually includes
 
 Do not use these before a target asks for more.
 

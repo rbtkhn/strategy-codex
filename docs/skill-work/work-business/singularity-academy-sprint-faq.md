@@ -53,9 +53,9 @@ The sprint is not a custom software build.
 
 ### What is the difference between the `$2,500` and `$5,000` packages?
 
-`$2,500` is for one workflow.
+`$2,500` is the normal starting package for one workflow.
 
-`$5,000` is for a second workflow, a cohort layer, or a more explicit before/after proof pass.
+`$5,000` is the upgrade only when a second workflow, a cohort layer, or a more explicit before/after proof pass is clearly needed.
 
 ### What does success look like?
 

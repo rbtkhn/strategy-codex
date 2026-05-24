@@ -1,6 +1,6 @@
 # AI Operating System Sprint
 
-Install one trustworthy AI-assisted workflow in 30 days.
+Install one clearer, more trustworthy AI-assisted workflow in 30 days.
 
 If your team is already using AI, the next problem is usually not access.
 It is trust.
@@ -10,7 +10,7 @@ Weak reporting.
 Unclear review ownership.
 Hidden operator rescue.
 
-This sprint fixes one recurring workflow so it becomes easier to run, easier to review, and easier to reuse.
+This sprint is designed to improve one recurring workflow so it becomes easier to run, easier to review, and easier to reuse.
 
 ## Who this is for
 
@@ -34,7 +34,7 @@ The goal is one workflow that becomes easier to trust without giving up human ju
 
 ## What changes by the end
 
-You should have:
+A strong-fit team should usually have:
 
 - one workflow that is clearer to run
 - stronger proof standards
@@ -62,13 +62,19 @@ Rerun the workflow, compare what changed, and hand off the playbook.
 
 ## Pricing
 
+Most teams should start with the smaller package.
+
 ### Base sprint - `$2,500`
 
 Best when one workflow is enough.
 
+This is the normal first step.
+
 ### Proof-loop sprint - `$5,000`
 
 Best when you need a second workflow, a cohort layer, or a before/after proof pass.
+
+This is the upgrade, not the default.
 
 ## What this is not
 

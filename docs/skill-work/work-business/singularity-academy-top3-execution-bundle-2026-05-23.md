@@ -30,8 +30,7 @@ Use these with every target:
 - [Singularity-Academy First-Wave Send Checklist](singularity-academy-first-wave-send-checklist.md)
 - [Singularity-Academy First-Wave Outreach Log](singularity-academy-first-wave-outreach-log.md)
 - [Singularity-Academy First-Response Handling](singularity-academy-first-response-handling.md)
-- [Singularity-Academy Sprint One-Page Packet](singularity-academy-sprint-one-page-packet.md)
-- [Singularity-Academy Sprint FAQ](singularity-academy-sprint-faq.md)
+- [Singularity-Academy Sprint External Packet](singularity-academy-sprint-external-packet.md)
 
 ## 1. AI Adjacent
 
@@ -66,9 +65,12 @@ Use:
 
 Send:
 
-- [Singularity-Academy Sprint One-Page Packet](singularity-academy-sprint-one-page-packet.md)
-- [Singularity-Academy Sprint FAQ](singularity-academy-sprint-faq.md)
+- [Singularity-Academy Sprint External Packet](singularity-academy-sprint-external-packet.md)
 - [Singularity-Academy Target Packet - AI Adjacent - 2026-05](singularity-academy-target-packet-ai-adjacent-2026-05.md)
+
+Add only if needed:
+
+- [Singularity-Academy Sprint FAQ](singularity-academy-sprint-faq.md)
 
 Packet follow-up note:
 
@@ -117,9 +119,12 @@ Use:
 
 Send:
 
-- [Singularity-Academy Sprint One-Page Packet](singularity-academy-sprint-one-page-packet.md)
-- [Singularity-Academy Sprint FAQ](singularity-academy-sprint-faq.md)
+- [Singularity-Academy Sprint External Packet](singularity-academy-sprint-external-packet.md)
 - [Singularity-Academy Target Packet - 2389 Research - 2026-05](singularity-academy-target-packet-2389-research-2026-05.md)
+
+Add only if needed:
+
+- [Singularity-Academy Sprint FAQ](singularity-academy-sprint-faq.md)
 
 Packet follow-up note:
 
@@ -167,9 +172,12 @@ Use:
 
 Send:
 
-- [Singularity-Academy Sprint One-Page Packet](singularity-academy-sprint-one-page-packet.md)
-- [Singularity-Academy Sprint FAQ](singularity-academy-sprint-faq.md)
+- [Singularity-Academy Sprint External Packet](singularity-academy-sprint-external-packet.md)
 - [Singularity-Academy Target Packet - deep.org - 2026-05](singularity-academy-target-packet-deep-2026-05.md)
+
+Add only if needed:
+
+- [Singularity-Academy Sprint FAQ](singularity-academy-sprint-faq.md)
 
 Packet follow-up note:
 
@@ -208,5 +216,5 @@ It does not convert any target into a qualified lead by itself.
 
 - [Singularity-Academy Top 3 Target Refresh - 2026-05-23](singularity-academy-top3-target-refresh-2026-05-23.md)
 - [Singularity-Academy Top 3 Outreach Drafts - 2026-05](singularity-academy-top3-outreach-drafts-2026-05.md)
-- [Singularity-Academy Sprint One-Page Packet](singularity-academy-sprint-one-page-packet.md)
+- [Singularity-Academy Sprint External Packet](singularity-academy-sprint-external-packet.md)
 - [Singularity-Academy First-Wave Outreach Log](singularity-academy-first-wave-outreach-log.md)

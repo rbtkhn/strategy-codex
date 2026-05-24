@@ -25,7 +25,7 @@ This is a weak fit for:
 
 Most teams do not need more AI tools first.
 
-They need one workflow that actually works.
+They need one workflow that is clearer, more reviewable, and less dependent on hidden rescue.
 
 Typical symptoms:
 
@@ -46,11 +46,11 @@ The sprint wraps one real workflow with:
 - one handoff playbook
 
 The point is not "more AI."
-The point is one workflow that becomes easier to run and easier to trust.
+The point is one workflow that becomes easier to run and easier to trust if the workflow is concrete enough to support a bounded intervention.
 
 ## What changes by the end
 
-By the end of the sprint, you should have:
+By the end of the sprint, a strong-fit team should usually have:
 
 - one workflow that is clearer to run
 - stronger proof standards
@@ -82,6 +82,8 @@ Week 4:
 
 ## Packages
 
+Most first engagements should start here.
+
 ### Base sprint - `$2,500`
 
 Best when one workflow is enough.
@@ -93,6 +95,8 @@ Includes:
 - one review and receipt layer
 - one handoff packet
 
+Move to the larger package only when a second layer is clearly necessary.
+
 ### Proof-loop sprint - `$5,000`
 
 Best when a second workflow, cohort layer, or before/after proof pass is needed.
@@ -103,6 +107,11 @@ Includes:
 - one second workflow or cohort layer
 - one measured before/after operator readout
 - one follow-on decision memo
+
+In plain terms:
+
+- `$2,500` is the normal front door
+- `$5,000` is the upgrade when one workflow is not enough
 
 ## What this is not
 
@@ -122,7 +131,7 @@ What exists already:
 - review-gated internal operating surfaces
 - clear receipt and rollback logic
 - beginner-safe proof ladders
-- internal demo packaging that shows what a sprint receipt and case study would look like
+- internal demo packaging that shows what a sprint receipt and case study can look like
 
 ## Best next step
 
@@ -134,4 +143,4 @@ Reply with one sentence answering any of these:
 
 ## Short version for forwarding
 
-`I run a 30-day AI Operating System Sprint for small teams already using AI. The sprint fixes one recurring workflow by installing a better reporting layer, review/receipt contract, authority boundary, and handoff playbook. Base package is $2,500 for one workflow; proof-loop package is $5,000 when a second workflow or before/after pass is needed.`
+`I run a 30-day AI Operating System Sprint for small teams already using AI. The normal starting package is $2,500 for one workflow. The $5,000 proof-loop version is only for cases where a second workflow, cohort layer, or before/after proof pass is clearly needed.`
