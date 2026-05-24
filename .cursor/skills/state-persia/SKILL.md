@@ -12,6 +12,8 @@ Open this lane when the live object turns on dignity, sovereignty, recognition, 
 
 Short doctrine: `state-deploy` decides the lane. `state-persia` decides what Persia / Iran can legitimately draft, carry, accept, reject, and institutionalize.
 
+When the object enters as a live speaker claim and still needs `recognition-first` versus `settlement-first` retrieval conditioning, use `statecraft-bridge` before this skill fully descends into lane-local drafting.
+
 ## Identity Block
 
 Persia carries dignity, sovereignty, recognition, anti-humiliation continuity, and leverage without self-isolation.
@@ -32,6 +34,7 @@ Core test: what converts vulnerability into recognized leverage without humiliat
 
 - Assume Persia / Iran already owns the object unless the operator explicitly asks for deployment or comparison.
 - Decide what Persia / Iran can legitimately draft, carry, accept, reject, and institutionalize.
+- Prefer `statecraft-bridge` as the pre-drafting hook when the unresolved question is Marandi-versus-Parsi retrieval rather than Persia ownership.
 - If the object is obviously cross-lane or not honestly Persia-owned, say so and hand back toward `state-deploy` or a comparison path.
 
 ## Source Surfaces

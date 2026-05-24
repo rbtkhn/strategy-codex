@@ -46,6 +46,8 @@ The first decision is therefore not "treaty or policy paper?" but "which civiliz
 
 Operational precedence: explicit `coffee -> C. Statecraft` wins for entry ritual, ambiguous ownership calls for `state-deploy`, and obvious ownership goes straight to the relevant `state-*` lane.
 
+Post-lane bridge rule: when a Persia/Iran-owned object arrives as a live speaker claim or event claim and still needs `recognition-first` versus `settlement-first` routing, open `statecraft-bridge` before descending into lane-local drafting. This is a retrieval bridge, not a fifth lane: `state-deploy` still decides ownership, `statecraft-bridge` chooses the Marandi or Parsi `civ-emp` retrieval profile, and `state-persia` still owns substantive drafting.
+
 ## Read This First
 
 Use this order if you are entering the workshop for the first time and want the architecture before the details:
@@ -101,6 +103,7 @@ This front door teaches:
 - do not jump from a live event straight to clauses; first decide what settlement spine is actually being routed
 - do not mistake leverage for statecraft; the layer is only doing its job when leverage is converted into authority, restraint, and settlement
 - do not force every strong note into transaction form; the honest stopping point may still be braid, memo, objection matrix, or router candidate
+- do not flatten every Persia/Iran speaker claim into one lane descent; use `statecraft-bridge` first when the real uncertainty is adapter choice rather than lane ownership
 
 The three opening questions are:
 
@@ -246,6 +249,8 @@ Layering rule: the speaker shelf owns the canonical speaker object, person arc, 
 | [Iran](iran/) | [Pape](../../speakers/pape/) for the fourth-center thesis; [Parsi](../../speakers/parsi/) / [Marandi](../../speakers/marandi/) for Iranian bargaining logic | [Crooke](../../speakers/crooke/) for Western misreading; [Ritter](../../speakers/ritter/) for regime-change skepticism and military risk; [Freeman](../../speakers/freeman/) for regional settlement memory | Do not equate coercive leverage with legitimacy; Iran must convert leverage into recognized restraint, not permanent spoiler status. |
 
 For wider routing around the four authored-pressure engines, use the [speaker cluster map](../../speakers/speaker-cluster-map.md). For exact source-state contracts, use the relevant speaker folder and `state-set.toml` before making load-bearing claims.
+
+When the intake question is not `which lane owns this?` but `which Persia/Iran retrieval profile should read this speaker claim?`, use `statecraft-bridge` as the post-lane hook before opening `state-persia`.
 
 ## Command Aliases
 

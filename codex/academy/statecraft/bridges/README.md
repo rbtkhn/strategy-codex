@@ -23,6 +23,7 @@ Handoff chain:
 - Speaker shelves should not have to secretly perform retrieval conversion.
 - Bridge adapters should not become biography shelves or chronology layers.
 - Use this layer only when a live speaker claim needs to be converted into disciplined `civ-emp` retrieval and then back into lane-local statecraft output.
+- Operator-facing trigger: when Persia/Iran already owns the object and the remaining uncertainty is adapter choice rather than lane choice, invoke `statecraft-bridge` as the post-lane bridge workflow.
 
 ## Shared Retrieval Algorithm
 

@@ -16,6 +16,8 @@ How does Iran convert vulnerability into recognized system leverage without invi
 
 Start with a dignity-preserving instrument such as a transit-security bargain, phased sanctions-relief sequence, reciprocal de-escalation clause, non-regime-change guarantee, or recognition formula that converts leverage into recognition without courting isolation.
 
+If the object arrived as a live speaker claim or event claim and the real uncertainty is still `recognition-first` versus `settlement-first`, invoke `statecraft-bridge` before descending into helix, strand, or transaction work. In that sequence, `statecraft-bridge` chooses the Marandi or Parsi retrieval profile; this lane still owns the substantive Persia/Iran draft after the bridge resolves.
+
 ## State Interest
 
 Iran seeks regime survival, sovereignty, territorial integrity, sanctions relief, deterrence, energy and export autonomy, and recognition as a necessary regional actor rather than a disposable target.
@@ -74,6 +76,7 @@ Open Pape for the fourth-center thesis and shortage clocks, Parsi / Marandi for 
 
 For `civ-emp` retrieval conditioned by speaker logic rather than by lane-first drafting alone, use the quiet bridge pair:
 
+- `statecraft-bridge` when you want the operator-facing post-lane bridge workflow rather than direct adapter selection
 - [Marandi CIV-EMP retrieval adapter](../bridges/marandi-civ-emp-retrieval-adapter.md) for recognition-first, legitimacy-first, and sovereignty-pressure reads
 - [Parsi CIV-EMP retrieval adapter](../bridges/parsi-civ-emp-retrieval-adapter.md) for settlement-first, guarantee-first, and architecture reads
 
