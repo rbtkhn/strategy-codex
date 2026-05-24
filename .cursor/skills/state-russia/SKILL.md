@@ -10,6 +10,8 @@ description: "Open the Russia academy-statecraft lane directly. Use when the ope
 
 Open this lane when the live object turns on strategic depth, parity, recognition, disruption under control, or how Russia preserves optionality without becoming trapped by another actor's escalation calendar.
 
+Short doctrine: `state-deploy` decides the lane. `state-russia` decides what Russia can legitimately draft, carry, accept, reject, and institutionalize.
+
 ## Identity Block
 
 Russia carries depth, parity, anti-managed humiliation, disruption without entrapment, and equilibrium-bearing recognition.
@@ -22,6 +24,14 @@ Core test: what secures recognition and optionality without walking into another
 - Start at the lane front door before descending.
 - Use the literature lens as a subordinate civilization-layer test, not as a separate top-level mode.
 - Do not directly rewrite lane books from live drafting.
+
+## Constitutional Split
+
+`state-russia` is a substantive lane skill, not a routing skill.
+
+- Assume Russia already owns the object unless the operator explicitly asks for deployment or comparison.
+- Decide what Russia can legitimately draft, carry, accept, reject, and institutionalize.
+- If the object is obviously cross-lane or not honestly Russia-owned, say so and hand back toward `state-deploy` or a comparison path.
 
 ## Source Surfaces
 

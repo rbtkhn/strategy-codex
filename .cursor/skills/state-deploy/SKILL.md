@@ -10,6 +10,8 @@ description: "Deploy a live object to the right academy-statecraft lane. Use whe
 
 Use it to decide which substantive lane should carry a live object now, whether the object is lane-local or cross-lane, and what work shape should open first.
 
+Short doctrine: `state-deploy` decides the lane. The `state-*` skills decide the instrument.
+
 ## Boundary
 
 - WORK only; not Record.
@@ -17,6 +19,19 @@ Use it to decide which substantive lane should carry a live object now, whether 
 - Do not replace lane READMEs, helixes, or transactions.
 - Do not become a generic geopolitics commentary mode.
 - Keep the handoff explicit: deployment judgment first, substantive drafting second.
+
+## Constitutional Split
+
+`state-deploy` is the routing layer. Its job is to answer `who owns this object now?`
+
+The `state-*` skills are the substantive lane layer. Their job is to answer `what can this owner legitimately draft, carry, accept, reject, and institutionalize?`
+
+Preserve that split:
+
+- `state-deploy` chooses lane, arena, depth, and work shape.
+- `state-deploy` may recommend one lane, two-lane comparison, or compact path.
+- `state-deploy` must not become a fifth lane or a substitute for lane doctrine.
+- `state-*` skills inherit once the handoff is clear and do the actual civilizational drafting.
 
 ## Source Surfaces
 

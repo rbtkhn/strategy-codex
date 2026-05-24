@@ -148,6 +148,7 @@ Use the neighboring READMEs as local continuations, not competing entry points:
 - [Abraham helix](sheets/abraham-helix.md) - read long-run recurrence across Judaism, Christianity, and Islam when sacred inheritance, fulfillment, protection, and political order keep returning in new forms.
 - [Sheets](sheets/) - reusable prompt benches for fast statecraft sessions once the workshop front door has oriented the route.
 - [Book and machine](sheets/book-and-machine.md) - define each state lane as both a civilizational volume and a governed recursive update loop.
+- [State skill stack doctrine](sheets/state-skill-stack-doctrine.md) - constitutional split between `state-deploy` as router and `state-*` skills as substantive lane machines.
 - [Civilization and Empire cycle](sheets/civilization-empire-cycle.md) - diagnose beautification, amplification, civilizational entropy, and restoration.
 - [Civilizational pattern to statecraft](sheets/civilizational-pattern-to-statecraft.md) - convert PH-CIV pattern and narrative into authority, restraint, and settlement.
 - [Folder choreography](sheets/folder-choreography.md) - move from `civilization/` memory through `empire/` reach, `state/` decision, `helix.md` regulation, and `transactions/` binding.

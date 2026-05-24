@@ -10,6 +10,8 @@ description: "Open the China academy-statecraft lane directly. Use when the oper
 
 Open this lane when the live object turns on continuity, route stability, administrative carry, anti-disorder legitimacy, or how China preserves leverage without inheriting visible chaos.
 
+Short doctrine: `state-deploy` decides the lane. `state-china` decides what China can legitimately draft, carry, accept, reject, and institutionalize.
+
 ## Identity Block
 
 China carries order, continuity, anti-disorder legitimacy, administrative carry, and quiet leverage.
@@ -22,6 +24,14 @@ Core test: what preserves leverage without forcing China to own visible disorder
 - Start at the lane front door before descending.
 - Use the literature lens as a subordinate civilization-layer test, not as a separate top-level mode.
 - Do not directly rewrite lane books from live drafting.
+
+## Constitutional Split
+
+`state-china` is a substantive lane skill, not a routing skill.
+
+- Assume China already owns the object unless the operator explicitly asks for deployment or comparison.
+- Decide what China can legitimately draft, carry, accept, reject, and institutionalize.
+- If the object is obviously cross-lane or not honestly China-owned, say so and hand back toward `state-deploy` or a comparison path.
 
 ## Source Surfaces
 

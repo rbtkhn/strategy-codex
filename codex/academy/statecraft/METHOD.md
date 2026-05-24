@@ -142,10 +142,12 @@ When the analysis should become a draft, open the matching national lane: [Ameri
 
 Direct command aliases:
 
+- `state-deploy` - decide which lane owns the object, or whether it belongs to comparison / compact first.
 - `state-america` - draft from the America lane.
 - `state-russia` - draft from the Russia lane.
 - `state-china` - draft from the China lane.
 - `state-iran` - draft from the Iran lane.
+- `state-persia` - draft from the Iran lane through the Persia-facing civilizational entrypoint.
 
 For the Iran / India / fourth-center problem, the default questions are:
 
