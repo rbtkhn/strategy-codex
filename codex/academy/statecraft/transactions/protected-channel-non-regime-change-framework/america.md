@@ -52,7 +52,25 @@ America's durable interest is to end the Iran crisis without proving that decapi
 
 Draft clause:
 
-> The United States shall publicly affirm that this framework is not a regime-change or partition instrument, and shall designate protected diplomatic, mediator, and high-authority communication channels for the duration of talks. The United States shall not target, facilitate targeting of, or publicly humiliate named channel carriers while the framework is active. Alleged violations shall first trigger mediator notice, urgent consultation, and congressional reporting before any sanctions snapback or military escalation.
+> 1. The United States shall publicly affirm that this framework is not a regime-change or partition instrument and that its purpose is bounded de-escalation, civilian continuity, and restored bargaining authority.
+>
+> 2. Upon activation, the United States, through the Secretary of State and the designated mediator, shall identify protected diplomatic, mediator, and high-authority communication carriers whose physical security, communications access, and public standing shall not be deliberately degraded while the framework is active.
+>
+> 3. The United States shall not target, facilitate targeting of, sanction into unusability, or publicly humiliate named protected carriers while the framework is active. Any strike, proxy action, or public threat against those carriers shall be treated as a material breach requiring immediate mediator notice.
+>
+> 4. Activation of the protected-channel designation shall be paired with one reversible but visible first-step measure: a narrow humanitarian or technical sanctions waiver, a temporary deconfliction assurance, or another named marker sufficient to show that channel protection is not merely process without reciprocity.
+>
+> 5. Alleged violations shall first trigger confidential mediator notice, urgent consultation, congressional notification, and a written legal-basis review before any sanctions snapback or military escalation, except where a documented force-protection override is invoked under the operational annex and reported immediately after use.
+
+## First-step package
+
+Minimum American opening package:
+
+- public no-regime-change / no-partition assurance
+- named protected diplomatic and mediator carriers
+- material-breach rule for attacks on those carriers
+- one reversible but visible first-step relief or deconfliction marker
+- congressional notification and short review clock so the instrument reads as bounded command, not executive drift
 
 ## Mirror Test
 

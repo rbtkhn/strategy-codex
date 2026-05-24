@@ -43,7 +43,7 @@ For America, the crisis is not simply whether leadership targeting works. It is 
 
 Minimum clause family:
 
-> High-authority talks, mediator communications, and named diplomatic personnel shall not be targeted, sanctioned into unusability, or publicly humiliated while this framework is active. Any alleged violation shall move first to mediator notice and urgent consultation before military or sanctions escalation.
+> High-authority talks, mediator communications, and named diplomatic personnel shall not be targeted, sanctioned into unusability, or publicly humiliated while this framework is active. The framework shall begin only after a public no-regime-change / no-partition assurance, named protected carriers, and one reversible but visible reciprocal marker are in place. Any alleged violation shall move first to mediator notice, urgent consultation, and review before military or sanctions escalation.
 
 ## Instrument Spine
 
@@ -54,6 +54,40 @@ This object is valid only if it can hold all four elements together:
 - reversible de-escalation sequencing that does not demand immediate humiliation from Iran;
 - successor-stable American authority language that can survive beyond one executive impulse.
 
+## Minimum activation package
+
+The framework is not mature enough to spend unless all four opening elements appear together:
+
+1. public U.S. no-regime-change / no-partition assurance
+2. named protected diplomatic and mediator carriers
+3. material-breach rule for attacks on those carriers
+4. one reversible but visible first-step relief or deconfliction marker
+
+## Stress Test
+
+- [Objection matrix](objection-matrix.md) - actor-specific resistance, real concern, and patch analysis before further clause hardening
+- [America carrier test](carrier-test.md) - tests whether the framework has a durable U.S.-side institutional carrier
+- [Sequence brief](sequence-brief.md) - five-step rollout from public assurance to breach ladder
+
 ## Validity
 
 Status: `volatile`. This framework depends on whether the United States can credibly separate de-escalation from regime-change, whether Iran can accept protected-channel sequencing without appearing to reward assassination, whether spoilers can be restrained long enough for a first reversible step, and whether the American side can express the instrument through durable authority rather than one-off tactical messaging.
+
+## Toscanini receipt
+
+What changed:
+
+- the objection matrix isolated the main actor resistances and named the best patch
+- the America and Iran lane texts now carry the same four-part minimum activation package
+- the America-side carrier test is now explicit rather than implicit
+- the five-step rollout sequence is now explicit rather than buried inside clause logic
+
+What still blocks real-world carry:
+
+- the America side must still prove that Congress, allies, and the mediator layer can treat bounded restraint as command rather than retreat
+- the Iran side still requires the full dignity-bearing opening package to appear together; partial delivery collapses credibility
+
+Current bottleneck:
+
+- the main bottleneck is no longer conceptual design
+- the main bottleneck is **carrier durability across the America-side institutional stack**

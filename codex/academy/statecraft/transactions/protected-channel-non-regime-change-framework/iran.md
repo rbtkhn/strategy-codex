@@ -52,7 +52,39 @@ Iran's durable interest is to preserve sovereign authority after leadership atta
 
 Draft clause:
 
-> Iran shall accept mediator-protected talks once the opposing parties publicly affirm that the framework is not a regime-change or partition instrument and identify protected channel carriers. Iran shall treat attacks on named carriers or supreme-authority succession organs as material breach, while reserving calibrated defensive rights. Initial Iranian de-escalation shall be paired with visible sanctions-relief steps and a written assurance that no settlement term requires Iran to validate prior leadership attacks as lawful pressure.
+> 1. Iran shall accept mediator-protected talks once the opposing parties publicly affirm that the framework is not a regime-change or partition instrument and identify protected diplomatic, mediator, and high-authority communication carriers in writing.
+>
+> 2. Iran shall treat attacks on named protected carriers, mediator channels, or supreme-authority succession organs as material breach, while reserving calibrated defensive rights and immediate mediator notice rights.
+>
+> 3. Iran's first-step participation shall be paired with one visible reciprocal marker: a narrow sanctions-relief step, a named deconfliction assurance, or another dignity-bearing concession sufficient to show that protected-channel entry is not merely pressure-management theater.
+>
+> 4. No settlement term under this framework shall require Iran to validate prior leadership attacks, bargaining-figure targeting, regime-change signaling, or partition pressure as lawful or legitimate bargaining instruments.
+>
+> 5. Iran shall retain the right to suspend channel participation after mediator notice if protected carriers are targeted again, but should calibrate any responsive action through named authority carriers so that sovereign dignity is preserved without collapsing the mediator path into permanent war logic.
+
+## First-step package
+
+Minimum Iranian acceptance threshold:
+
+- explicit no-regime-change / no-partition assurance
+- named protected carriers and mediator chain
+- material-breach recognition for attacks on those carriers
+- one visible reciprocal relief or deconfliction marker
+- written non-validation language so talks cannot be read domestically as retroactive approval of leadership targeting
+
+## Dignity threshold judgment
+
+The Iran-side dignity threshold now passes **conditionally**.
+
+It passes only if the opening package appears together:
+
+- no-regime-change / no-partition assurance
+- named protected carriers
+- material-breach rule
+- visible reciprocal marker
+- written non-validation language
+
+If any one of those drops out, the object reverts to assassination-normalization theater and the IRGC / hardliner objection becomes decisive again.
 
 ## Mirror Test
 
