@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-05-23T06:25:59.292451+00:00",
-  "date": "2026-05-23",
+  "generated_at": "2026-05-24T05:49:16.982361+00:00",
+  "date": "2026-05-24",
   "user_id": "strategy-codex",
-  "ok": false,
-  "integrity_ok": false,
+  "ok": true,
+  "integrity_ok": true,
   "governance_ok": true,
   "quietRun": false,
-  "topActionReason": "integrity_or_governance_fail",
+  "topActionReason": "calendar_mod3",
   "worktreeState": "risky residue",
   "worktreeAdvice": "Large or wide diff \u2014 inspect before continuing; use bridge when closing session.",
-  "tomorrow_inherits": "Tomorrow inherits (hint): **Steward / membrane (gate + template parity)** - integrity or governance did not fully pass this dream; not policy or Record.",
+  "tomorrow_inherits": "Tomorrow inherits (hint): **Statecraft drafting (treaty / policy / negotiation bench)** - calendar rotation; not policy or Record.",
   "execution_paths": [
     {
       "id": "today_field",
       "title": "Statecraft drafting (treaty / policy / negotiation bench)",
       "first_move": "python3 scripts/operator_coffee.py -u strategy-codex - then coffee menu C - Statecraft",
       "stop_rule": "One slice: choose treaty, policy, negotiation, or Richelieu/Bismarck stress test - enough for first block.",
-      "signals_used": []
+      "signals_used": [
+        "reentry_heavy"
+      ]
     },
     {
       "id": "build",
       "title": "Build / integrate (repo + work-dev)",
       "first_move": "python3 scripts/validate-integrity.py --user strategy-codex --json",
-      "stop_rule": "Fix reported integrity errors before shipping.",
-      "signals_used": [
-        "integrity_fail"
-      ]
+      "stop_rule": "Integrity passes; then optional: python3 scripts/refresh_derived_exports.py -u strategy-codex",
+      "signals_used": []
     },
     {
       "id": "steward",
@@ -35,5 +35,5 @@
       "signals_used": []
     }
   ],
-  "suggested_execution_path_index": 2
+  "suggested_execution_path_index": 0
 }

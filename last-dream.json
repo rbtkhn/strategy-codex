@@ -1,49 +1,59 @@
 {
-  "generated_at": "2026-05-23T06:25:58.792741+00:00",
+  "generated_at": "2026-05-24T05:49:16.642831+00:00",
   "user_id": "strategy-codex",
   "agent_surface": {
     "cursor_model": "unknown"
   },
   "strict_mode": false,
   "phase": "both",
-  "ok": false,
-  "integrity_ok": false,
+  "ok": true,
+  "integrity_ok": true,
   "governance_ok": true,
-  "self_memory_changed": true,
+  "self_memory_changed": false,
   "reviewable_count": 0,
   "contradiction_count": 0,
   "artifact_draft_count": 0,
   "promotable_draft_count": 0,
   "followups": [
-    "AI frontier watch: The Innermost Loop latest - Welcome to May 22, 2026 - consider explicit source hygiene if relevant tomorrow"
+    "AI frontier watch: The Innermost Loop latest - The First Consumer-Scale Interspecies Foundation Model - consider explicit source hygiene if relevant tomorrow"
   ],
   "phases": {
     "recent": {
-      "self_memory_changed": true,
+      "self_memory_changed": false,
       "entry_count": 0,
       "relation_counts": {}
     },
     "structural": {
-      "integrity": "fail",
+      "integrity": "pass",
       "governance": "pass",
       "entry_count": 0,
       "relation_counts": {}
     }
   },
   "coffee_rollup_24h": {
-    "window_start_utc": "2026-05-22T06:25:53.444450+00:00",
-    "window_end_utc": "2026-05-23T06:25:53.444450+00:00",
+    "window_start_utc": "2026-05-23T05:49:11.449310+00:00",
+    "window_end_utc": "2026-05-24T05:49:11.449310+00:00",
     "window_hours": 24.0,
-    "count": 2,
-    "first_ts": "2026-05-22T14:31:00+00:00",
-    "last_ts": "2026-05-22T15:05:00+00:00",
-    "span_hours": 0.57,
+    "count": 6,
+    "first_ts": "2026-05-23T12:45:00+00:00",
+    "last_ts": "2026-05-24T03:47:00+00:00",
+    "span_hours": 15.03,
     "by_mode": {
-      "first-command": 2
+      "work-start": 1,
+      "first-command": 5
     },
     "runs": [
       {
-        "ts_iso": "2026-05-22T14:31:00+00:00",
+        "ts_iso": "2026-05-23T12:45:00+00:00",
+        "ok": true,
+        "mode": "work-start",
+        "kv": {
+          "cursor_model": "unknown",
+          "model_tier": "unknown"
+        }
+      },
+      {
+        "ts_iso": "2026-05-23T13:13:00+00:00",
         "ok": true,
         "mode": "first-command",
         "kv": {
@@ -52,7 +62,34 @@
         }
       },
       {
-        "ts_iso": "2026-05-22T15:05:00+00:00",
+        "ts_iso": "2026-05-23T13:16:00+00:00",
+        "ok": true,
+        "mode": "first-command",
+        "kv": {
+          "cursor_model": "unknown",
+          "model_tier": "unknown"
+        }
+      },
+      {
+        "ts_iso": "2026-05-23T13:26:00+00:00",
+        "ok": true,
+        "mode": "first-command",
+        "kv": {
+          "cursor_model": "unknown",
+          "model_tier": "unknown"
+        }
+      },
+      {
+        "ts_iso": "2026-05-24T03:29:00+00:00",
+        "ok": true,
+        "mode": "first-command",
+        "kv": {
+          "cursor_model": "unknown",
+          "model_tier": "unknown"
+        }
+      },
+      {
+        "ts_iso": "2026-05-24T03:47:00+00:00",
         "ok": true,
         "mode": "first-command",
         "kv": {
@@ -65,8 +102,8 @@
     "by_picked": {}
   },
   "conductor_rollup_24h": {
-    "window_start_utc": "2026-05-22T06:25:53.444450+00:00",
-    "window_end_utc": "2026-05-23T06:25:53.444450+00:00",
+    "window_start_utc": "2026-05-23T05:49:11.449310+00:00",
+    "window_end_utc": "2026-05-24T05:49:11.449310+00:00",
     "window_hours": 24.0,
     "pick_count": 0,
     "outcome_count": 0,
@@ -83,16 +120,16 @@
       "title": "Statecraft drafting (treaty / policy / negotiation bench)",
       "first_move": "python3 scripts/operator_coffee.py -u strategy-codex - then coffee menu C - Statecraft",
       "stop_rule": "One slice: choose treaty, policy, negotiation, or Richelieu/Bismarck stress test - enough for first block.",
-      "signals_used": []
+      "signals_used": [
+        "reentry_heavy"
+      ]
     },
     {
       "id": "build",
       "title": "Build / integrate (repo + work-dev)",
       "first_move": "python3 scripts/validate-integrity.py --user strategy-codex --json",
-      "stop_rule": "Fix reported integrity errors before shipping.",
-      "signals_used": [
-        "integrity_fail"
-      ]
+      "stop_rule": "Integrity passes; then optional: python3 scripts/refresh_derived_exports.py -u strategy-codex",
+      "signals_used": []
     },
     {
       "id": "steward",
@@ -102,13 +139,21 @@
       "signals_used": []
     }
   ],
-  "suggested_execution_path_index": 2,
-  "execution_path_suggestion_reason": "integrity_or_governance_fail",
-  "tomorrow_inherits": "Tomorrow inherits (hint): **Steward / membrane (gate + template parity)** - integrity or governance did not fully pass this dream; not policy or Record.",
-  "civmem_echoes": [],
+  "suggested_execution_path_index": 0,
+  "execution_path_suggestion_reason": "calendar_mod3",
+  "tomorrow_inherits": "Tomorrow inherits (hint): **Statecraft drafting (treaty / policy / negotiation bench)** - calendar rotation; not policy or Record.",
+  "civmem_echoes": [
+    {
+      "path": "book\\APPLIED-THEOLOGY-INSIGHTS-MERCOURIS-LENS.md",
+      "overlap": 4,
+      "snippet_preview": "**Purpose:** Identify structural and procedural insights from CIV\u2013MIND\u2013MERCOURIS (legitimacy, delegation/format, faction persistence, time horizon, asymmetric information) that the book does not yet s",
+      "analogy_label": "Analogy candidate only \u2014 not evidence, not recommendation, not Record.",
+      "specificity_pass": true,
+      "score": 6.0
+    }
+  ],
   "civmem_disclaimer": "Analogical / historical depth from in-repo civ-mem (token overlap); not current truth, not Voice knowledge, not part of the Record.",
   "civmem_index_missing": false,
-  "civmem_suppressed_reason": "suppressed_integrity_fail",
   "capture_gap": {
     "last_evidence_date": "2026-05-21",
     "last_evidence_id": "ACT-0038",
@@ -134,26 +179,26 @@
     "source_name": "The Innermost Loop",
     "feed_url": "https://theinnermostloop.substack.com/feed",
     "source_mode": "live_lookup",
-    "fetched_at": "2026-05-23T06:25:58.527727+00:00",
+    "fetched_at": "2026-05-24T05:49:16.426627+00:00",
     "status": "ok",
-    "title": "Welcome to May 22, 2026",
-    "url": "https://theinnermostloop.substack.com/p/welcome-to-may-22-2026",
-    "published_at": "2026-05-23T00:43:16+00:00",
-    "guidance": "AI frontier watch: latest The Innermost Loop post is \"Welcome to May 22, 2026\" (2026-05-23T00:43:16+00:00); decide tomorrow whether it merits explicit source hygiene or Coffee D/C conversion."
+    "title": "The First Consumer-Scale Interspecies Foundation Model",
+    "url": "https://theinnermostloop.substack.com/p/the-first-consumer-scale-interspecies",
+    "published_at": "2026-05-23T16:40:26+00:00",
+    "guidance": "AI frontier watch: latest The Innermost Loop post is \"The First Consumer-Scale Interspecies Foundation Model\" (2026-05-23T16:40:26+00:00); decide tomorrow whether it merits explicit source hygiene or Coffee D/C conversion."
   },
   "dream_catchup": {
     "semantics": "since_previous_dream",
     "timezone": "UTC",
     "previous_dream_generated_at": null,
     "local_calendar_dates": [
-      "2026-05-23"
+      "2026-05-24"
     ],
     "strategy_notebook_missing_day_headers": [
-      "2026-05-23"
+      "2026-05-24"
     ]
   },
   "last_coffee_echo": {
-    "timestamp": "2026-05-22T15:05:00+00:00",
+    "timestamp": "2026-05-24T03:47:00+00:00",
     "conductor": null,
     "mode": "first-command",
     "menu_letter": null,
@@ -161,12 +206,12 @@
     "source": "coffee_rollup_24h"
   },
   "handoffSchemaVersion": 3,
-  "topActionReason": "integrity_or_governance_fail",
+  "topActionReason": "calendar_mod3",
   "quietRun": false,
   "residueLedger": {
-    "must_resume": "AI frontier watch: The Innermost Loop latest - Welcome to May 22, 2026 - consider explicit source hygiene if relevant to",
+    "must_resume": "AI frontier watch: The Innermost Loop latest - The First Consumer-Scale Interspecies Foundation Model - consider explici",
     "safe_to_drop": "",
-    "blocked": "Dream reported not ok \u2014 review integrity/governance before new work.",
+    "blocked": "",
     "watch_later": ""
   },
   "worktreeState": "risky residue",
