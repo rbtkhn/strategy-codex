@@ -1,11 +1,16 @@
 ---
 ingest_date: 2026-04-25
 pub_date: 2026-02-07
-kind: operator-transcript
+kind: transcript
+source_type: youtube
+transcript_type: operator_pasted_transcript
 show: Glenn Diesen (channel / program — pin canonical series title when pinned)
 host: Glenn Diesen
 guest: Daniel Davis
-thread_expert: davis
+source_url: "https://www.youtube.com/watch?v=StIeZ7QY7Wk"
+thread: diesen
+editorial_note: "Treat as a transcript-grade raw-input capture. Operator-supplied transcript body in Codex chat on 2026-05-24 resolved prior audit ambiguity."
+evidence_grade: transcript-bearing
 source_note: Operator paste. Aired / published 2026-02-07 (operator + YouTube metadata). Pre-war “knife’s edge” framing — objectives vs combat power, protest narrative, deterrence, Venezuela–Iran analogy — analysis tier unless wired.
 title_slug: davis-diesen-iran-attack-regional-war-2026-02-07
 ---

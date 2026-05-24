@@ -2,6 +2,8 @@
 ingest_date: 2026-05-13
 pub_date: 2026-02-06
 kind: transcript
+source_type: youtube
+transcript_type: operator_pasted_transcript
 thread: nima
 show: Dialogue Works
 host: Nima Alkhorshid
@@ -10,7 +12,9 @@ title: "Amb. Chas Freeman: Negotiations\u2026 or the Brink of All-Out War?"
 channel_url: "https://www.youtube.com/@dialogueworks01/videos"
 channel_slug: "dialogue-works"
 source_url: "https://www.youtube.com/watch?v=AdJzX_YXSEU"
-source_note: "Automated YouTube index mirror for Dialogue Works host capture."
+source_note: "Direct YouTube watch URL already on disk; transcript body confirmed from operator paste in Codex chat on 2026-05-24."
+editorial_note: "Treat as a transcript-grade raw-input capture. Operator-supplied transcript body resolved prior audit ambiguity."
+evidence_grade: transcript-bearing
 ---
 # Amb. Chas Freeman: Negotiations… or the Brink of All-Out War?
 

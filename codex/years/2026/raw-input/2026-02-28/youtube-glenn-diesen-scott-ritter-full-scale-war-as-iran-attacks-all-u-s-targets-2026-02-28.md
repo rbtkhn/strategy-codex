@@ -3,7 +3,7 @@ ingest_date: 2026-05-13
 pub_date: 2026-02-28
 kind: transcript
 source_type: youtube
-transcript_type: auto_subtitles_vtt
+transcript_type: operator_pasted_transcript
 thread: diesen
 show: Glenn Diesen
 host: Glenn Diesen
@@ -12,8 +12,8 @@ title: "Scott Ritter: Full-Scale War as Iran Attacks All U.S. Targets"
 channel_url: "https://www.youtube.com/@GDiesen1/videos"
 channel_slug: "glenn-diesen"
 source_url: "https://www.youtube.com/watch?v=2zjuZqUrCAo"
-source_note: "Automated YouTube transcript fetch for Glenn Diesen; operator-pasted transcript checked against this capture on 2026-05-18."
-editorial_note: "Subtitle-derived transcript; operator paste confirms episode/body alignment but text is not independently human-verified verbatim."
+source_note: "Direct YouTube watch URL already on disk; transcript body confirmed from operator paste in Codex chat on 2026-05-24."
+editorial_note: "Treat as a transcript-grade raw-input capture. Operator-supplied transcript body resolved prior audit ambiguity."
 evidence_grade: transcript-bearing
 ---
 

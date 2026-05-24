@@ -2,6 +2,8 @@
 ingest_date: 2026-05-13
 pub_date: 2026-02-18
 kind: transcript
+source_type: youtube
+transcript_type: operator_pasted_transcript
 thread: nima
 show: Dialogue Works
 host: Nima Alkhorshid
@@ -10,7 +12,9 @@ title: "Scott Ritter: Hormuz Blocked! Iran\u2019s Missile Fire Can Leave the US 
 channel_url: "https://www.youtube.com/@dialogueworks01/videos"
 channel_slug: "dialogue-works"
 source_url: "https://www.youtube.com/watch?v=DCDuxei5dj8"
-source_note: "Automated YouTube transcript fetch for Dialogue Works."
+source_note: "Direct YouTube watch URL already on disk; transcript body confirmed from operator paste in Codex chat on 2026-05-24."
+editorial_note: "Treat as a transcript-grade raw-input capture. Operator-supplied transcript body resolved prior audit ambiguity."
+evidence_grade: transcript-bearing
 ---
 
 # Scott Ritter: Hormuz Blocked! Iran’s Missile Fire Can Leave the US Navy DEFENSELESS

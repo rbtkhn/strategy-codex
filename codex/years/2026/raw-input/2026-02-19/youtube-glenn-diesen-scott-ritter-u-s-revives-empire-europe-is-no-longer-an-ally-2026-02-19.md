@@ -2,6 +2,8 @@
 ingest_date: 2026-05-13
 pub_date: 2026-02-19
 kind: transcript
+source_type: youtube
+transcript_type: operator_pasted_transcript
 thread: diesen
 show: Glenn Diesen
 host: Glenn Diesen
@@ -10,7 +12,9 @@ title: "Scott Ritter: U.S. Revives Empire & Europe Is No Longer An Ally"
 channel_url: "https://www.youtube.com/@GDiesen1/videos"
 channel_slug: "glenn-diesen"
 source_url: "https://www.youtube.com/watch?v=BCRE6IDTTLI"
-source_note: "Automated YouTube transcript fetch for Glenn Diesen."
+source_note: "Direct YouTube watch URL already on disk; transcript body confirmed from operator paste in Codex chat on 2026-05-24."
+editorial_note: "Treat as a transcript-grade raw-input capture. Operator-supplied transcript body resolved prior audit ambiguity."
+evidence_grade: transcript-bearing
 ---
 
 # Scott Ritter: U.S. Revives Empire & Europe Is No Longer An Ally
