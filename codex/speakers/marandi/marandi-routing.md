@@ -42,6 +42,7 @@ After the first host route, typical next surfaces are:
 - [stream/marandi-may-2026-cross-host-arc.md](stream/marandi-may-2026-cross-host-arc.md)
 - [themes/README.md](themes/README.md)
 - [marandi-cross-year-note.md](marandi-cross-year-note.md)
+- [Marandi CIV-EMP retrieval adapter](../../academy/statecraft/bridges/marandi-civ-emp-retrieval-adapter.md) when the question becomes recognition-first Iran-lane retrieval rather than shelf-only comparison
 
 ## Boundaries
 

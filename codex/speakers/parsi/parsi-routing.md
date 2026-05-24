@@ -43,6 +43,7 @@ After the first route, typical next surfaces are:
 - [stream/parsi-may-2026-cross-context-arc.md](stream/parsi-may-2026-cross-context-arc.md)
 - [themes/README.md](themes/README.md)
 - [parsi-cross-year-note.md](parsi-cross-year-note.md)
+- [Parsi CIV-EMP retrieval adapter](../../academy/statecraft/bridges/parsi-civ-emp-retrieval-adapter.md) when the question becomes settlement-first Iran-lane retrieval rather than shelf-only comparison
 
 ## Boundaries
 

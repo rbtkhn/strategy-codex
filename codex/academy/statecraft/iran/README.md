@@ -72,6 +72,11 @@ Inside that state bench, use the [authority structure](state/authority-structure
 
 Open Pape for the fourth-center thesis and shortage clocks, Parsi / Marandi for Iranian bargaining logic, Crooke for Western misreading, and Ritter for regime-change skepticism and military risk. Convert these into recognition, deterrence, and off-ramp language.
 
+For `civ-emp` retrieval conditioned by speaker logic rather than by lane-first drafting alone, use the quiet bridge pair:
+
+- [Marandi CIV-EMP retrieval adapter](../bridges/marandi-civ-emp-retrieval-adapter.md) for recognition-first, legitimacy-first, and sovereignty-pressure reads
+- [Parsi CIV-EMP retrieval adapter](../bridges/parsi-civ-emp-retrieval-adapter.md) for settlement-first, guarantee-first, and architecture reads
+
 ## Preferred Instruments
 
 Transit-security bargains, phased sanctions relief, non-regime-change guarantees, regional non-aggression clauses, Oman or Gulf backchannels, energy-export mechanisms, and dignity-preserving recognition formulas.
