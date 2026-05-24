@@ -12,11 +12,20 @@ Open this lane when the live object turns on strategic depth, parity, recognitio
 
 Short doctrine: `state-deploy` decides the lane. `state-russia` decides what Russia can legitimately draft, carry, accept, reject, and institutionalize.
 
+Fast lane rule: classify the object first as `parity`, `depth`, `timing`, or `entrapment`, then draft from the dominant failure mode rather than from generic Russia posture.
+
 ## Identity Block
 
 Russia carries depth, parity, anti-managed humiliation, disruption without entrapment, and equilibrium-bearing recognition.
 
 Core test: what secures recognition and optionality without walking into another actor's escalation calendar?
+
+Secondary tests:
+
+- `parity`: does the mechanism require Russian compliance before recognition?
+- `depth`: does the mechanism reduce strategic buffer or recode exposure as normalization?
+- `timing`: who controls the review, retaliation, and escalation clock?
+- `entrapment`: does the mechanism lure Russia into overreach, fake peace, or another actor's war timetable?
 
 ## Boundary
 
@@ -57,6 +66,21 @@ Descend only with a named reason:
 - Descend to `helix.md` by default once Russia is clearly the lane.
 - Descend further only when the object is narrower and name the reason briefly.
 
+## Failure-Mode Classifier
+
+Before drafting, identify the dominant Russia-lane pressure:
+
+- `parity problem`
+  - Russia fears status loss, sequencing asymmetry, symbolic recognition without institutional consequence, or compliance-before-recognition architecture.
+- `depth problem`
+  - Russia fears strategic exposure, buffer erosion, corridor loss, alliance hardening on its borders, or settlement language that shrinks options while flattering prestige.
+- `timing problem`
+  - Russia fears being pushed onto another actor's military, media, or negotiation calendar.
+- `entrapment problem`
+  - Russia fears overcommitment, fake settlement, partner-driven escalation, or tactical advantage that expands into strategic burden.
+
+If two pressures are active, name the primary one first and draft the first instrument around that pressure rather than trying to solve all four at once.
+
 ## Folded Literature Lens
 
 Use the folded literature route when the object needs:
@@ -69,6 +93,17 @@ Use the folded literature route when the object needs:
 
 Keep that lens inside the lane machine rather than as a separate skill.
 
+## Default Drafting Bias
+
+Unless the object clearly requires otherwise:
+
+- solve `parity` with reciprocal recognition language
+- solve `depth` with buffer, exposure, and security-order protection language
+- solve `timing` with reciprocal review cadence and anti-calendar control
+- solve `entrapment` with bounded aims, reversible mechanisms, and anti-overbind clauses
+
+Prefer the smallest instrument that preserves optionality over the grandest instrument that promises settlement.
+
 ## Default Output
 
 When invoked without a named object, output exactly this shape:
@@ -77,14 +112,15 @@ When invoked without a named object, output exactly this shape:
 **Russia Statecraft**
 - Identity test:
 - Governing question:
+- Dominant pressure: parity / depth / timing / entrapment
 - Best next move:
 - Default descent:
 
 **Russia Menu - reply A-D**
 A. Parity / recognition diagnosis
-B. Depth-versus-entrapment check
-C. Equilibrium-bearing draft
-D. Anti-humiliation stress test
+B. Depth / exposure diagnosis
+C. Timing / entrapment audit
+D. Equilibrium-bearing draft
 ```
 
 When invoked with a named object, make the A-D options topic-specific.
