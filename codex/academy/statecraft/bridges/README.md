@@ -6,11 +6,22 @@ Purpose: connect speaker-arc interpretation to `civ-emp` retrieval without colla
 
 This bridge layer is a quiet statecraft substrate. It lives under academy-statecraft, not on the speaker shelves, because its job is to regulate how statecraft retrieval uses speaker arcs rather than to redefine the arcs themselves.
 
+Short constitutional split:
+
+- `speaker shelf` = human-facing notebook object
+- `bridge adapter` = statecraft-facing retrieval converter
+
+Handoff chain:
+
+`speaker shelf -> speaker claim -> bridge adapter -> civ-emp retrieval -> lane translation -> statecraft output`
+
 ## Boundary
 
 - Speaker shelves remain authoritative for speaker continuity, pressure, and recurring claims.
 - `civ-emp` remains the statecraft source base and lane-local translation substrate.
 - These bridge notes do not replace lane `helix.md`, transactions, raw-input, PH-CIV, or speaker routing.
+- Speaker shelves should not have to secretly perform retrieval conversion.
+- Bridge adapters should not become biography shelves or chronology layers.
 - Use this layer only when a live speaker claim needs to be converted into disciplined `civ-emp` retrieval and then back into lane-local statecraft output.
 
 ## Shared Retrieval Algorithm
