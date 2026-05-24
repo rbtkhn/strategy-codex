@@ -8,7 +8,7 @@ Use Coffee D when the live question is agency under acceleration: AI substrate, 
 
 ## Operating Thesis
 
-Steward protects the system. Engineer builds the system. Strategist chooses direction. Singularity tests the future substrate those choices must survive.
+Steward protects the system. Engineer builds the system. Statecraft chooses the civilizational-state lane. Singularity tests the future substrate those choices must survive.
 
 Coffee D is WORK-first. Do not treat `candidates`, `recursion-gate`, or governed Record updates as part of the normal singularity pass.
 
@@ -35,7 +35,7 @@ Coffee D should help the operator act early without pretending the future is alr
 | Inspectable anxiety | What exactly accelerated? | Name the acceleration before reacting to it. |
 | Academy fit | Which academy source or workshop sheet does this touch? | Add a light source anchor. |
 | Horizon discipline | Is this foothills language, possible-climb language, or an overclaimed summit claim? | Calibrate the claim before expanding it. |
-| A/B/C complement | What does D reveal that Steward, Engineer, and Strategist do not? | Add a future-substrate stress test. |
+| A/B/C complement | What does D reveal that Steward, Engineer, and Statecraft do not? | Add a future-substrate stress test. |
 | Higher leverage | What risk or opportunity precedes monetization? | Capture the upstream leverage note. |
 | Commercial containment | Is product logic pressuring Record, Voice, or WORK boundaries too early? | Add a boundary warning. |
 | Frontier checkpoint | What changed since the last frontier pulse? | Produce a dated pulse or next-watch item. |
@@ -61,12 +61,12 @@ Coffee D Singularity is under a three-session practical trial. Until three real 
 - reusable artifact, if any
 - next watch item, if any
 
-Keep D only if it clarifies agency, control, substrate, displacement, or reuse better than Steward, Engineer, or Strategist would have done.
+Keep D only if it clarifies agency, control, substrate, displacement, or reuse better than Steward, Engineer, or Statecraft would have done.
 
 ## Route Away From D
 
 - Revenue, offers, positioning, sales, pricing, and public copy route by explicit `work-business`, `write`, `skill-write`, or named commercial request unless the operator is explicitly treating that business lane as a singularity-academy proving ground.
-- Current-event judgment without a substrate or agency question routes to **C. Strategist**.
+- Current-event judgment without a substrate or agency question routes to **C. Statecraft**.
 - Implementation, tests, scripts, and specs route to **B. Engineer**.
 - Git, gate, integrity, branch, and repo stewardship route to **A. Steward**.
 

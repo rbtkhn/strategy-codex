@@ -6,9 +6,15 @@ WORK only; not Record.
 
 Use this lane to draft from China's statecraft perspective: industrial continuity, energy security, trade-route stability, anti-chaos diplomacy, and quiet leverage under long time horizons.
 
+China is the continuity-and-order lane: open it when the drafting problem is how a civilizational stabilizer preserves energy flows, industrial rhythm, and leverage without inheriting imperial policing burdens.
+
 ## Core Question
 
 How does China preserve Iran's usefulness against U.S. coercion while preventing energy disorder from damaging China's industrial base?
+
+## Best Next Drafting Move
+
+Start with an order-preserving instrument such as a transit compact, energy-security arrangement, yuan-settlement mechanism, insurer workaround, or quiet broker note that lowers disorder without forcing visible bloc ownership.
 
 ## State Interest
 

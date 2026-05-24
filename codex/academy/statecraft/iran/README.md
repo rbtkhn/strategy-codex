@@ -6,9 +6,15 @@ WORK only; not Record.
 
 Use this lane to draft from Iran's statecraft perspective: sovereignty, deterrence, sanctions endurance, regional legitimacy, controlled chokepoint leverage, and survival under coercive pressure.
 
+Iran is the sovereignty-and-recognition lane, and coffee may name it **Persia** when the operator needs the deeper civilizational frame of dignity, continuity, leverage, and recognition rather than a narrow event desk.
+
 ## Core Question
 
 How does Iran convert vulnerability into recognized system leverage without inviting regime-threatening overreach?
+
+## Best Next Drafting Move
+
+Start with a dignity-preserving instrument such as a transit-security bargain, phased sanctions-relief sequence, reciprocal de-escalation clause, non-regime-change guarantee, or recognition formula that converts leverage into recognition without courting isolation.
 
 ## State Interest
 

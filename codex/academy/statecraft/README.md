@@ -31,6 +31,15 @@ Use this README as the canonical front door for the new layer.
 
 This README owns the governing statecraft maturation line for the workshop.
 
+`coffee -> C. Statecraft` now enters here through four civilizational-state lanes rather than through instrument types:
+
+- [America](america/README.md) - hegemonic order under strain
+- [China](china/README.md) - civilizational stabilizer
+- [Iran / Persia](iran/README.md) - deep civilization, dignity, leverage, recognition
+- [Russia](russia/README.md) - strategic depth, disruption, optionality
+
+The first decision is therefore not "treaty or policy paper?" but "which civilization-state lens is actually carrying the settlement problem?" Treaty frameworks, policy papers, negotiation briefs, and Richelieu/Bismarck stress tests remain downstream drafting moves once the lane is clear.
+
 ## Read This First
 
 Use this order if you are entering the workshop for the first time and want the architecture before the details:
@@ -38,9 +47,9 @@ Use this order if you are entering the workshop for the first time and want the 
 1. [Statecraft README](README.md) - front door, conversion rule, and workshop maturity line.
 2. [CIV-EMP README](civ-emp/README.md) - shared Civilization and Empire source base for operational judgment.
 3. [America README](america/README.md) - hegemonic order, credibility, burden-sharing, and bounded coercive centers.
-4. [Russia README](russia/README.md) - disruption, recognition, optionality, and anti-entrapment.
-5. [China README](china/README.md) - anti-chaos stabilization, energy security, and quiet leverage.
-6. [Iran README](iran/README.md) - vulnerability converted into recognized leverage under coercive pressure.
+4. [China README](china/README.md) - anti-chaos stabilization, energy security, and quiet leverage.
+5. [Iran README](iran/README.md) - vulnerability converted into recognized leverage under coercive pressure; coffee may name this lane **Persia** to foreground civilizational continuity.
+6. [Russia README](russia/README.md) - disruption, recognition, optionality, and anti-entrapment.
 7. [Hormuz recognition transit transaction](iran/transactions/hormuz-recognition-transit-transaction.md) - current worked exemplar showing the architecture spent as an instrument.
 
 Current maturity order:
@@ -52,6 +61,10 @@ Current maturity order:
 Short architecture formula:
 
 `source memory -> national translation -> authority carrier -> regulated pattern -> transaction instrument`
+
+Short coffee-routing formula:
+
+`civilizational lane -> core question -> best next drafting move -> downstream instrument`
 
 Short governing line:
 
@@ -88,6 +101,13 @@ The three opening questions are:
 1. What must stay braided together for the object to remain real?
 2. Which lane or bundle is actually carrying the settlement logic?
 3. What named instrument turns that logic into observable authority and restraint?
+
+The four lane-opening questions are:
+
+1. Is the crisis primarily about preserving order without proving decline? Open [America](america/README.md).
+2. Is the crisis primarily about preserving leverage without allowing disorder to damage continuity? Open [China](china/README.md).
+3. Is the crisis primarily about converting vulnerability into recognized leverage with dignity intact? Open [Iran / Persia](iran/README.md).
+4. Is the crisis primarily about exploiting disruption without becoming trapped by someone else's escalation ladder? Open [Russia](russia/README.md).
 
 Why Hormuz is the default worked path:
 
@@ -147,9 +167,9 @@ Use the neighboring READMEs as local continuations, not competing entry points:
 These folders are drafting benches, not country encyclopedias. Each lane synthesizes contemporary speaker-state analysis with historical statecraft discipline, then produces treaty clauses, policy options, negotiation briefs, crisis memos, and off-ramps. Over time, each lane should also become a statecraft manuscript: readable as a civilizational volume, usable as an analytic machine.
 
 - [America](america/) - bound coercive centers without proving their veto power.
-- [Russia](russia/) - exploit disruption without entrapment.
 - [China](china/) - preserve leverage without energy disorder.
 - [Iran](iran/) - convert vulnerability into legitimate system leverage.
+- [Russia](russia/) - exploit disruption without entrapment.
 
 Each lane has a local Civilization / Empire / Helix structure, a current state carrier bench, a crisis-test casebook, and a `transactions/` bench for spending speaker-state into validated instruments. The folder choreography is: `civilization/` remembers, `empire/` reaches, `state/` decides, `helix.md` regulates, and `transactions/` bind. Sharper lane law: **Civilization stores state memory. Empire converts memory into reach. State carries present authority. Objects transmit signals. Transactions test whether authority can become settlement.** The four lanes now also have authority carrier object benches for ministerial, institutional, and successor-legitimacy signal objects such as [J.D. Vance](america/state/objects/vance.md), [Sergey Lavrov](russia/state/objects/lavrov.md), [Wang Yi](china/state/objects/wang-yi.md), and [Abbas Araghchi](iran/state/objects/araghchi.md).
 

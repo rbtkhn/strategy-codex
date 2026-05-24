@@ -8,9 +8,15 @@ Aliases: United States, U.S., Washington.
 
 Use this lane to draft from America's statecraft perspective: alliance management, maritime order, deterrence, sanctions design, domestic legitimacy, and the problem of bounding coercive centers without advertising their veto power.
 
+America is the republic-and-empire lane: open it when hegemonic order is under strain and the drafting problem is how to preserve legitimacy, burden-sharing, and command without proving decline.
+
 ## Core Question
 
 How does America bound Iran's coercive leverage without escalating in ways that prove Iran has system-shaping power?
+
+## Best Next Drafting Move
+
+Start with a bounded-command instrument such as a transit guarantee, allied burden-sharing memo, sanctions-relief sequence, or authorization-and-review brief that protects credibility without promising open-ended escalation.
 
 ## State Interest
 

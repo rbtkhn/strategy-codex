@@ -6,9 +6,15 @@ WORK only; not Record.
 
 Use this lane to draft from Russia's statecraft perspective: security depth, great-power recognition, sanctions endurance, multipolar bargaining, and the use of disruption without strategic overcommitment.
 
+Russia is the strategic-depth lane: open it when the drafting problem is how a civilization with imperial memory exploits disruption, protects recognition, and preserves optionality without becoming trapped by someone else's escalation ladder.
+
 ## Core Question
 
 How does Russia exploit disruption to weaken U.S. primacy without becoming trapped by an ally's escalation calendar?
+
+## Best Next Drafting Move
+
+Start with an optionality-preserving instrument such as a recognition formula, security guarantee, mediator channel, linkage note, sanctions workaround, or deconfliction mechanism that weakens U.S. primacy without overbinding Moscow.
 
 ## State Interest
 

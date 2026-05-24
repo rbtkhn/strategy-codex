@@ -1,6 +1,6 @@
 # COFFEE (daily rhythm) â€” Cici instance (`fork_id` / template id: xavier, **her repo**)
 
-*Filename `GOOD-MORNING.md` is legacy; grace-mar operator activation is **coffee** (work-start vs **signing-off** intent - same **A-D** menu: Steward, Engineer, Strategist, Singularity), with standalone name-only Conductor and legacy **hey** still accepted - mirror the current vocabulary in chat.*
+*Filename `GOOD-MORNING.md` is legacy; grace-mar operator activation is **coffee** (work-start vs **signing-off** intent - same **A-D** menu: Steward, Engineer, Statecraft, Singularity), with coffee **C** opening America, China, Persia, and Russia as civilizational-state lanes. Standalone name-only Conductor and legacy **hey** are still accepted - mirror the current vocabulary in chat.*
 
 **Where Record paths live:** [INSTANCE-PATHS.md](INSTANCE-PATHS.md). Run harness / integrity / gate steps **in Ciciâ€™s `companion-xavier` instance repository** (or her chosen repo name), not in grace-mar.
 
