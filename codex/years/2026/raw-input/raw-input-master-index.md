@@ -1,6 +1,6 @@
 # Raw-input master index
 
-Generated: `2026-05-24 13:44:23Z`
+Generated: `2026-05-24 17:07:48Z`
 
 WORK only; not Record. This file is generated from the on-disk raw-input tree.
 
@@ -8,16 +8,16 @@ Authority rule: the dated raw-input folders remain authoritative; this index is 
 
 ## Scope
 
-- canonical date-bucket captures: `1243`
+- canonical date-bucket captures: `1244`
 - `_aired-pending` captures: `1`
-- helper surfaces and inventories: `14`
-- transcript-kind canonical captures: `819`
+- helper surfaces and inventories: `15`
+- transcript-kind canonical captures: `820`
 
 ## Canonical counts by kind
 
 | class | count |
 |---|---:|
-| `transcript` | 819 |
+| `transcript` | 820 |
 | `(none)` | 132 |
 | `substack-post` | 107 |
 | `operator-transcript` | 74 |
@@ -37,8 +37,8 @@ Authority rule: the dated raw-input folders remain authoritative; this index is 
 
 | class | count |
 |---|---:|
-| `full-transcript-body` | 473 |
-| `short-body` | 238 |
+| `full-transcript-body` | 480 |
+| `short-body` | 232 |
 | `pointer-only` | 106 |
 | `missing-body` | 2 |
 
@@ -58,10 +58,10 @@ Authority rule: the dated raw-input folders remain authoritative; this index is 
 | `2025-10` | 31 | 17 | 16 | 1 |
 | `2025-11` | 41 | 20 | 14 | 6 |
 | `2025-12` | 67 | 45 | 18 | 27 |
-| `2026-01` | 100 | 42 | 14 | 28 |
-| `2026-02` | 89 | 49 | 29 | 20 |
-| `2026-03` | 199 | 117 | 96 | 21 |
-| `2026-04` | 273 | 190 | 64 | 126 |
+| `2026-01` | 100 | 42 | 15 | 27 |
+| `2026-02` | 89 | 49 | 33 | 16 |
+| `2026-03` | 200 | 118 | 97 | 21 |
+| `2026-04` | 273 | 190 | 65 | 125 |
 | `2026-05` | 159 | 100 | 97 | 3 |
 
 ## 2025-01
@@ -1316,7 +1316,7 @@ Authority rule: the dated raw-input folders remain authoritative; this index is 
 
 ### 2026-01-30 (1)
 
-- [youtube-alex-mercouris-moscow-rejects-us-kiev-security-guarantees-says-kiev-energy-truce-ends-s-2026-01-30.md](2026-01-30/youtube-alex-mercouris-moscow-rejects-us-kiev-security-guarantees-says-kiev-energy-truce-ends-s-2026-01-30.md) — Moscow Rejects US Kiev Security Guarantees Says Kiev Energy Truce Ends Sunday Zelensky Baffled; Iran | `kind:transcript` | `body:short-body` | `thread:mercouris` | `host:Alexander Mercouris` | `grade:legacy-appearance-only`
+- [youtube-alex-mercouris-moscow-rejects-us-kiev-security-guarantees-says-kiev-energy-truce-ends-s-2026-01-30.md](2026-01-30/youtube-alex-mercouris-moscow-rejects-us-kiev-security-guarantees-says-kiev-energy-truce-ends-s-2026-01-30.md) — Moscow Rejects US Kiev Security Guarantees Says Kiev Energy Truce Ends Sunday Zelensky Baffled; Iran | `kind:transcript` | `body:full-transcript-body` | `thread:mercouris` | `host:Alexander Mercouris` | `grade:transcript-bearing`
 
 ### 2026-01-31 (4)
 
@@ -1330,7 +1330,7 @@ Authority rule: the dated raw-input folders remain authoritative; this index is 
 
 ### 2026-02-01 (1)
 
-- [youtube-alex-mercouris-iran-readies-for-big-war-zelensky-dithers-postpones-talks-predicts-failu-2026-02-01.md](2026-02-01/youtube-alex-mercouris-iran-readies-for-big-war-zelensky-dithers-postpones-talks-predicts-failu-2026-02-01.md) — Iran Readies For Big War; Zelensky Dithers Postpones Talks Predicts Failure; Russia Restarts Strikes | `kind:transcript` | `body:short-body` | `thread:mercouris` | `host:Alexander Mercouris` | `grade:legacy-appearance-only`
+- [youtube-alex-mercouris-iran-readies-for-big-war-zelensky-dithers-postpones-talks-predicts-failu-2026-02-01.md](2026-02-01/youtube-alex-mercouris-iran-readies-for-big-war-zelensky-dithers-postpones-talks-predicts-failu-2026-02-01.md) — Iran Readies For Big War; Zelensky Dithers Postpones Talks Predicts Failure; Russia Restarts Strikes | `kind:transcript` | `body:full-transcript-body` | `thread:mercouris` | `host:Alexander Mercouris` | `grade:transcript-bearing`
 
 ### 2026-02-02 (3)
 
@@ -1340,7 +1340,7 @@ Authority rule: the dated raw-input folders remain authoritative; this index is 
 
 ### 2026-02-03 (1)
 
-- [youtube-alex-mercouris-moscow-says-zelensky-terrorist-for-valdai-attack-confirms-harder-stance-2026-02-03.md](2026-02-03/youtube-alex-mercouris-moscow-says-zelensky-terrorist-for-valdai-attack-confirms-harder-stance-2026-02-03.md) — Moscow Says Zelensky Terrorist For Valdai Attack; Confirms Harder Stance; Huge Strike 60 Iskanders | `kind:transcript` | `body:short-body` | `thread:mercouris` | `host:Alexander Mercouris` | `grade:legacy-appearance-only`
+- [youtube-alex-mercouris-moscow-says-zelensky-terrorist-for-valdai-attack-confirms-harder-stance-2026-02-03.md](2026-02-03/youtube-alex-mercouris-moscow-says-zelensky-terrorist-for-valdai-attack-confirms-harder-stance-2026-02-03.md) — Moscow Says Zelensky Terrorist For Valdai Attack; Confirms Harder Stance; Huge Strike 60 Iskanders | `kind:transcript` | `body:full-transcript-body` | `thread:mercouris` | `host:Alexander Mercouris` | `grade:transcript-bearing`
 
 ### 2026-02-04 (3)
 
@@ -1374,7 +1374,7 @@ Authority rule: the dated raw-input folders remain authoritative; this index is 
 
 ### 2026-02-09 (1)
 
-- [youtube-alex-mercouris-starmer-clings-on-as-uk-gov-unravels-furious-lavrov-us-betrayed-russia-a-2026-02-09.md](2026-02-09/youtube-alex-mercouris-starmer-clings-on-as-uk-gov-unravels-furious-lavrov-us-betrayed-russia-a-2026-02-09.md) — Starmer Clings On As UK Gov Unravels; Furious Lavrov US Betrayed Russia After Anchorage; Russia Iran | `kind:transcript` | `body:short-body` | `thread:mercouris` | `host:Alexander Mercouris` | `grade:legacy-appearance-only`
+- [youtube-alex-mercouris-starmer-clings-on-as-uk-gov-unravels-furious-lavrov-us-betrayed-russia-a-2026-02-09.md](2026-02-09/youtube-alex-mercouris-starmer-clings-on-as-uk-gov-unravels-furious-lavrov-us-betrayed-russia-a-2026-02-09.md) — Starmer Clings On As UK Gov Unravels; Furious Lavrov US Betrayed Russia After Anchorage; Russia Iran | `kind:transcript` | `body:full-transcript-body` | `thread:mercouris` | `host:Alexander Mercouris` | `grade:transcript-bearing`
 
 ### 2026-02-10 (4)
 
@@ -1398,7 +1398,7 @@ Authority rule: the dated raw-input folders remain authoritative; this index is 
 
 ### 2026-02-13 (1)
 
-- [youtube-alex-mercouris-russia-china-defy-us-china-offers-iran-j20-fighter-spy-ship-tracks-us-fl-2026-02-13.md](2026-02-13/youtube-alex-mercouris-russia-china-defy-us-china-offers-iran-j20-fighter-spy-ship-tracks-us-fl-2026-02-13.md) — Russia China Defy US; China Offers Iran J20 Fighter Spy Ship Tracks US Fleet; Russia Sends Cuba Oil | `kind:transcript` | `body:short-body` | `thread:mercouris` | `host:Alexander Mercouris` | `grade:legacy-appearance-only`
+- [youtube-alex-mercouris-russia-china-defy-us-china-offers-iran-j20-fighter-spy-ship-tracks-us-fl-2026-02-13.md](2026-02-13/youtube-alex-mercouris-russia-china-defy-us-china-offers-iran-j20-fighter-spy-ship-tracks-us-fl-2026-02-13.md) — Russia China Defy US; China Offers Iran J20 Fighter Spy Ship Tracks US Fleet; Russia Sends Cuba Oil | `kind:transcript` | `body:full-transcript-body` | `thread:mercouris` | `host:Alexander Mercouris` | `grade:transcript-bearing`
 
 ### 2026-02-14 (2)
 
@@ -1785,12 +1785,13 @@ Authority rule: the dated raw-input folders remain authoritative; this index is 
 - [transcript-dialogue-works-larry-c-johnson-full-escalation-yemen-joins-hezbollah-crushes-tanks-us-iran-on-brink-2026-03-30.md](2026-03-30/transcript-dialogue-works-larry-c-johnson-full-escalation-yemen-joins-hezbollah-crushes-tanks-us-iran-on-brink-2026-03-30.md) — Larry C. Johnson: FULL ESCALATION: Yemen Joins, Hezbollah Crushes Tanks, US–Iran on Brink | `kind:transcript` | `body:full-transcript-body` | `thread:johnson` | `host:Nima Alkhorshid` | `guest:Larry C. Johnson` | `grade:transcript-bearing`
 - [youtube-alex-mercouris-israel-ad-fails-80-iran-missiles-hit-target-china-us-bombing-must-stop-u-2026-03-30.md](2026-03-30/youtube-alex-mercouris-israel-ad-fails-80-iran-missiles-hit-target-china-us-bombing-must-stop-u-2026-03-30.md) — Israel AD Fails 80% Iran Missiles Hit Target; China: US Bombing Must Stop; UK Says Iran Moscow Proxy | `kind:transcript` | `body:full-transcript-body` | `thread:mercouris` | `host:Alexander Mercouris` | `guest:Israel AD Fails 80% Iran Missiles Hit Target; China` | `grade:legacy-appearance-only`
 
-### 2026-03-31 (8)
+### 2026-03-31 (9)
 
 - [transcript-napolitano-mearsheimer-will-trump-go-kamikaze-2026-03-31.md](2026-03-31/transcript-napolitano-mearsheimer-will-trump-go-kamikaze-2026-03-31.md) — John Mearsheimer: Will Trump Go Kamikaze? | `kind:(none)` | `body:full-transcript-body` | `thread:mearsheimer` | `host:Judge Andrew Napolitano` | `guest:John Mearsheimer`
 - [transcript-napolitano-ritter-why-iran-is-winning-2026-03-31.md](2026-03-31/transcript-napolitano-ritter-why-iran-is-winning-2026-03-31.md) — Scott Ritter: Why Iran Is Winning | `kind:(none)` | `body:full-transcript-body` | `thread:ritter` | `host:Judge Andrew Napolitano` | `guest:Scott Ritter`
 - [mercouris-trump-iran-talks-lavrov-chechens-2026-03-31.md](2026-03-31/mercouris-trump-iran-talks-lavrov-chechens-2026-03-31.md) — Trump Begs Iran for Talks; Gives Up On Hormuz; Lavrov Warns of World War; Chechens Ready to Fight For Iran (operator transcript) | `kind:operator-transcript` | `body:non-transcript` | `thread:mercouris`
 - [substack-simplicius-trump-signals-final-sadistic-punishment-2026-03-31.md](2026-03-31/substack-simplicius-trump-signals-final-sadistic-punishment-2026-03-31.md) — Trump Signals Final Sadistic Punishment as Consolation For Lost War | `kind:substack-post` | `body:non-transcript` | `thread:simplicius`
+- [transcript-davis-baud-iran-war-latest-2026-03-31.md](2026-03-31/transcript-davis-baud-iran-war-latest-2026-03-31.md) — IRAN WAR LATEST /Col Jacques Baud & Lt Col Daniel Davis | `kind:transcript` | `body:full-transcript-body` | `grade:legacy-appearance-only`
 - [transcript-dialogue-works-col-larry-wilkerson-israel-might-not-survive-this-end-everything-israel-iran-nuclear-scenario-2026-03-31.md](2026-03-31/transcript-dialogue-works-col-larry-wilkerson-israel-might-not-survive-this-end-everything-israel-iran-nuclear-scenario-2026-03-31.md) — Col. Larry Wilkerson: Israel Might Not Survive This… END EVERYTHING… Israel & Iran Nuclear Scenario | `kind:transcript` | `body:full-transcript-body` | `thread:johnson` | `host:Nima Alkhorshid` | `guest:Col. Larry Wilkerson` | `grade:transcript-bearing`
 - [transcript-dialogue-works-seyed-m-marandi-yemen-strikes-israel-they-hit-iran-s-water-power-now-ret-2026-03-31.md](2026-03-31/transcript-dialogue-works-seyed-m-marandi-yemen-strikes-israel-they-hit-iran-s-water-power-now-ret-2026-03-31.md) — Seyed M. Marandi: Yemen STRIKES Israel - They Hit Iran\u2019s WATER & POWER\u2026 Now RETALIATION Has Started | `kind:transcript` | `body:full-transcript-body` | `thread:nima` | `host:Nima Alkorshid` | `guest:Seyed M. Marandi` | `grade:legacy-appearance-only`
 - [youtube-alex-mercouris-trump-begs-iran-talks-gives-up-on-hormuz-lavrov-crisis-becoming-world-wa-2026-03-31.md](2026-03-31/youtube-alex-mercouris-trump-begs-iran-talks-gives-up-on-hormuz-lavrov-crisis-becoming-world-wa-2026-03-31.md) — Trump Begs Iran Talks; Gives Up On Hormuz; Lavrov Crisis Becoming World War; Chechens Fight For Iran | `kind:transcript` | `body:short-body` | `thread:mercouris` | `host:Alexander Mercouris` | `grade:legacy-appearance-only`
@@ -1867,7 +1868,7 @@ Authority rule: the dated raw-input folders remain authoritative; this index is 
 
 ### 2026-04-09 (1)
 
-- [youtube-alex-mercouris-iran-us-truce-unravels-israel-attacks-lebanon-iran-blocks-hormuz-russian-2026-04-09.md](2026-04-09/youtube-alex-mercouris-iran-us-truce-unravels-israel-attacks-lebanon-iran-blocks-hormuz-russian-2026-04-09.md) — Iran US Truce Unravels; Israel Attacks Lebanon; Iran Blocks Hormuz; Russian Fleet Defies Panics UK | `kind:transcript` | `body:short-body` | `thread:mercouris` | `host:Alexander Mercouris` | `grade:legacy-appearance-only`
+- [youtube-alex-mercouris-iran-us-truce-unravels-israel-attacks-lebanon-iran-blocks-hormuz-russian-2026-04-09.md](2026-04-09/youtube-alex-mercouris-iran-us-truce-unravels-israel-attacks-lebanon-iran-blocks-hormuz-russian-2026-04-09.md) — Iran US Truce Unravels; Israel Attacks Lebanon; Iran Blocks Hormuz; Russian Fleet Defies Panics UK | `kind:transcript` | `body:full-transcript-body` | `thread:mercouris` | `host:Alexander Mercouris` | `grade:transcript-bearing`
 
 ### 2026-04-10 (4)
 
@@ -1973,7 +1974,7 @@ Authority rule: the dated raw-input folders remain authoritative; this index is 
 ### 2026-04-20 (14)
 
 - [transcript-hedges-mearsheimer-iran-2026-04-20.md](2026-04-20/transcript-hedges-mearsheimer-iran-2026-04-20.md) — Chris Hedges × John Mearsheimer — Iran, Islamabad, Hormuz (operator transcript) | `kind:operator-transcript` | `body:non-transcript` | `host:Chris Hedges` | `guest:John Mearsheimer`
-- [davis-deep-dive-baud-iran-pakistan-diplomacy.md](2026-04-20/davis-deep-dive-baud-iran-pakistan-diplomacy.md) — Daniel Davis Deep Dive — Col. Jacques Baud (US–Iran diplomacy, Pakistan, Hormuz, trust) | `kind:transcript` | `body:pointer-only` | `thread:baud` | `grade:legacy-appearance-only`
+- [davis-deep-dive-baud-iran-pakistan-diplomacy.md](2026-04-20/davis-deep-dive-baud-iran-pakistan-diplomacy.md) — Reigniting the Iran War /Col Jacques Baud & Lt Col Daniel Davis | `kind:transcript` | `body:pointer-only` | `thread:baud` | `grade:legacy-appearance-only`
 - [judging-freedom-johnson-who-controls-hormuz-2026-04-20.md](2026-04-20/judging-freedom-johnson-who-controls-hormuz-2026-04-20.md) — Judging Freedom — *Who Controls Hormuz?* (Monday, April 20, 2026) | `kind:transcript` | `body:full-transcript-body` | `thread:johnson` | `grade:legacy-appearance-only`
 - [judging-freedom-trump-hegseth-2026-04-20.md](2026-04-20/judging-freedom-trump-hegseth-2026-04-20.md) — Scott Ritter: Trump and Hegseth Haven't a Clue | `kind:transcript` | `body:full-transcript-body` | `thread:napolitano` | `host:Andrew Napolitano` | `guest:Scott Ritter` | `grade:transcript-bearing`
 - [mercouris-russia-blockade-40-ships-hormuz-2026-04-20.md](2026-04-20/mercouris-russia-blockade-40-ships-hormuz-2026-04-20.md) — The Duran — *Russia Says US Blockade Failing; 40 Iran Ships Transit Hormuz; US Mulls Retreat; Kiev Army Dwindles* (Monday, 20 April 2026) | `kind:transcript` | `body:full-transcript-body` | `thread:mercouris` | `grade:legacy-appearance-only`
@@ -2404,7 +2405,7 @@ Authority rule: the dated raw-input folders remain authoritative; this index is 
 
 | class | count |
 |---|---:|
-| `helper-surface` | 13 |
+| `helper-surface` | 14 |
 | `snippet-helper` | 1 |
 
 - [.pruning-suspended](.pruning-suspended) — Raw-input auto-prune policy (grace-mar) | `helper-surface` | `kind:(none)`
@@ -2418,6 +2419,7 @@ Authority rule: the dated raw-input folders remain authoritative; this index is 
 - [fetch-sources.json](fetch-sources.json) — fetch-sources | `helper-surface` | `kind:(none)`
 - [glenn-diesen-april-2026-scaffold.md](glenn-diesen-april-2026-scaffold.md) — Glenn Diesen ? April 2026 scaffold | `helper-surface` | `kind:(none)`
 - [mercouris-duran-april-2026-scaffold.md](mercouris-duran-april-2026-scaffold.md) — Mercouris / The Duran ? April 2026 scaffold | `helper-surface` | `kind:(none)`
+- [raw-input-index-audit.md](raw-input-index-audit.md) — Raw-input index architecture audit | `helper-surface` | `kind:(none)`
 - [raw-input-master-index.md](raw-input-master-index.md) — Raw-input master index | `helper-surface` | `kind:(none)`
 - [new-paste-bundle.md](snippets/new-paste-bundle.md) — Paste-bundle stub (copy into `raw-input/<pub_date>/<slug>.md`) | `snippet-helper` | `kind:(none)`
 - [youtube-transcript-queue.md](youtube-transcript-queue.md) — YouTube transcript queue | `helper-surface` | `kind:(none)`

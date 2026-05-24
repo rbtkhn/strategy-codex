@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-05-24T13:44:26Z",
+  "generated_at": "2026-05-24T17:07:51Z",
   "raw_root": "codex/years/2026/raw-input",
   "speakers_root": "codex/speakers",
   "master_index": {
@@ -148,7 +148,7 @@
     },
     {
       "speaker": "baud",
-      "reason": "transcript mentions=30; speaker markdown=11"
+      "reason": "transcript mentions=31; speaker markdown=11"
     },
     {
       "speaker": "jiang",
@@ -201,7 +201,7 @@
       "local_markdown": 9
     },
     "baud": {
-      "transcript_mentions": 30,
+      "transcript_mentions": 31,
       "stream_markdown": 0,
       "local_markdown": 11
     },
@@ -231,7 +231,7 @@
       "local_markdown": 10
     },
     "davis": {
-      "transcript_mentions": 200,
+      "transcript_mentions": 201,
       "stream_markdown": 25,
       "local_markdown": 6
     },

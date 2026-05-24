@@ -1,6 +1,6 @@
 # Raw-input index architecture audit
 
-Generated: `2026-05-24T13:44:26Z`
+Generated: `2026-05-24T17:07:51Z`
 
 WORK only; not Record. This is a heuristic audit over raw-input and speaker routing surfaces.
 
@@ -55,7 +55,7 @@ WORK only; not Record. This is a heuristic audit over raw-input and speaker rout
 - `aguilar` | transcript mentions=3; speaker markdown=2
 - `armstrong` | transcript mentions=11; speaker markdown=8
 - `barnes` | transcript mentions=13; speaker markdown=9
-- `baud` | transcript mentions=30; speaker markdown=11
+- `baud` | transcript mentions=31; speaker markdown=11
 - `jiang` | transcript mentions=5; speaker markdown=9
 - `kent` | transcript mentions=6; stream markdown=2; speaker markdown=5
 - `krainer` | transcript mentions=6; speaker markdown=2
@@ -72,13 +72,13 @@ WORK only; not Record. This is a heuristic audit over raw-input and speaker rout
 | `alkorshid` | 20 | 0 | 1 |
 | `armstrong` | 11 | 0 | 8 |
 | `barnes` | 13 | 0 | 9 |
-| `baud` | 30 | 0 | 11 |
+| `baud` | 31 | 0 | 11 |
 | `beebe` | 0 | 0 | 4 |
 | `berletic` | 2 | 0 | 8 |
 | `blumenthal` | 5 | 0 | 9 |
 | `carlson` | 3 | 0 | 0 |
 | `crooke` | 13 | 33 | 10 |
-| `davis` | 200 | 25 | 6 |
+| `davis` | 201 | 25 | 6 |
 | `diesen` | 90 | 37 | 6 |
 | `freeman` | 115 | 4 | 16 |
 | `greenwald` | 0 | 0 | 0 |

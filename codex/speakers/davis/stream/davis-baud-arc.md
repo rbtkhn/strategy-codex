@@ -47,9 +47,9 @@ A fresh Davis-stream search shows that the 2026 lane is larger than the currentl
 | Date | Title | Status |
 |---|---|---|
 | 2026-03-12 | *BOMBSHELL: FATAL FLAW in US WAR STRATEGY v Iran /Col Jacques Baud* | likely same-window companion; not materialized |
-| 2026-03-31 | *IRAN WAR LATEST /Col Jacques Baud & Lt Col Daniel Davis* | stream-discovered; not materialized to canonical raw-input |
+| 2026-03-31 | *IRAN WAR LATEST /Col Jacques Baud & Lt Col Daniel Davis* | materialized: [transcript-davis-baud-iran-war-latest-2026-03-31.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-03-31/transcript-davis-baud-iran-war-latest-2026-03-31.md) |
 | 2026-04-20 | *More Like Blackmail, Than Peace Talks w/Iran / Col Jacques Baud & Lt Col Daniel Davis* | likely companion to the mature Apr 20 anchor |
-| 2026-04-20 | *Reigniting the Iran War /Col Jacques Baud & Lt Col Daniel Davis* | stream-discovered; not materialized to canonical raw-input |
+| 2026-04-20 | *Reigniting the Iran War /Col Jacques Baud & Lt Col Daniel Davis* | materialized: [davis-deep-dive-baud-iran-pakistan-diplomacy.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-20/davis-deep-dive-baud-iran-pakistan-diplomacy.md) |
 
 This means the lane should be read two ways:
 
