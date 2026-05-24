@@ -24,9 +24,9 @@ from typing import Any
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SCHEMA_PATH = REPO_ROOT / "schema-registry" / "external-research-artifact.v1.json"
 
-try:  # Optional in runtime, present in dev/test.
+try:
     import jsonschema
-except Exception:  # pragma: no cover - optional dependency at runtime
+except Exception:  # pragma: no cover - surfaced explicitly at runtime
     jsonschema = None
 
 LANE_ROOTS = {
@@ -94,6 +94,71 @@ def extract_bullet_candidate(line: str) -> str | None:
     return None
 
 
+def clean_labeled_value(text: str) -> str:
+    cleaned = re.sub(r"^(citation|reference|paper)\s*:\s*", "", text.strip(), flags=re.IGNORECASE)
+    cleaned = re.sub(r"[\s.]*doi(?:\s*:)?\s*$", "", cleaned, flags=re.IGNORECASE).strip(" -:;,.")
+    return cleaned.strip()
+
+
+def validate_artifact_fallback(artifact: dict[str, Any], schema: dict[str, Any]) -> None:
+    required = set(schema.get("required", []))
+    properties = schema.get("properties", {})
+
+    missing = sorted(key for key in required if key not in artifact)
+    if missing:
+        raise ValueError(f"Artifact missing required fields: {', '.join(missing)}")
+
+    unexpected = sorted(key for key in artifact if key not in properties)
+    if unexpected:
+        raise ValueError(f"Artifact has unexpected fields: {', '.join(unexpected)}")
+
+    lane_enum = properties["lane"]["enum"]
+    record_impact_enum = properties["record_impact"]["enum"]
+    ingest_mode_enum = properties["ingest_mode"]["enum"]
+    citation_status_enum = properties["citations"]["items"]["properties"]["resolution_status"]["enum"]
+
+    if artifact["artifact_schema_version"] != 1:
+        raise ValueError("artifact_schema_version must equal 1")
+    if artifact["lane"] not in lane_enum:
+        raise ValueError(f"Unsupported lane: {artifact['lane']}")
+    if artifact["record_impact"] not in record_impact_enum:
+        raise ValueError(f"Unsupported record_impact: {artifact['record_impact']}")
+    if artifact["ingest_mode"] not in ingest_mode_enum:
+        raise ValueError(f"Unsupported ingest_mode: {artifact['ingest_mode']}")
+    if not re.fullmatch(r"^[a-z0-9]+(?:-[a-z0-9]+)*$", artifact["topic_slug"]):
+        raise ValueError("topic_slug must be lowercase kebab-case")
+
+    for key in ("source", "query", "raw_capture", "summary"):
+        if not isinstance(artifact[key], str) or not artifact[key].strip():
+            raise ValueError(f"{key} must be a non-empty string")
+
+    for key in ("key_claims", "citations", "tensions", "open_questions", "proposed_ix_updates", "proposed_skill_updates", "prepared_context_tags"):
+        if not isinstance(artifact[key], list):
+            raise ValueError(f"{key} must be a list")
+
+    for claim in artifact["key_claims"]:
+        if not isinstance(claim, dict):
+            raise ValueError("Each key_claim must be an object")
+        if set(claim) - {"claim", "citations", "evidence_strength", "notes"}:
+            raise ValueError("Each key_claim may only contain claim, citations, evidence_strength, and notes")
+        if not isinstance(claim.get("claim"), str) or not claim["claim"].strip():
+            raise ValueError("Each key_claim.claim must be a non-empty string")
+        if not isinstance(claim.get("citations"), list):
+            raise ValueError("Each key_claim.citations must be a list")
+
+    for citation in artifact["citations"]:
+        if not isinstance(citation, dict):
+            raise ValueError("Each citation must be an object")
+        if set(citation) - {"id", "title", "authors", "year", "doi", "url", "pdf_url", "relevance", "snippet", "raw_text", "resolution_status"}:
+            raise ValueError("Each citation contains unsupported fields")
+        if not re.fullmatch(r"^cit-[0-9]{3}$", str(citation.get("id", ""))):
+            raise ValueError("Each citation id must match cit-000 format")
+        if not isinstance(citation.get("raw_text"), str) or not citation["raw_text"].strip():
+            raise ValueError("Each citation.raw_text must be a non-empty string")
+        if citation.get("resolution_status") not in citation_status_enum:
+            raise ValueError("Each citation.resolution_status must be resolved, partial, or unresolved")
+
+
 def infer_list_items(text: str, *, labels: tuple[str, ...]) -> list[str]:
     items: list[str] = []
     for line in text.splitlines():
@@ -103,10 +168,6 @@ def infer_list_items(text: str, *, labels: tuple[str, ...]) -> list[str]:
             after_colon = stripped.split(":", 1)
             if len(after_colon) == 2 and after_colon[1].strip():
                 items.append(after_colon[1].strip())
-            continue
-        candidate = extract_bullet_candidate(line)
-        if candidate:
-            items.append(candidate)
     return items
 
 
@@ -165,7 +226,7 @@ def infer_citations(text: str) -> list[dict[str, Any]]:
             title_guess = title_guess.replace(url, "").strip(" -:;,.")
         if doi_match:
             title_guess = title_guess.replace(doi_match.group(0), "").strip(" -:;,.")
-        title = title_guess or None
+        title = clean_labeled_value(title_guess) or None
         status = "resolved" if (doi_match or url) and title else "partial" if (doi_match or url) else "unresolved"
         key = (title, doi_match.group(0) if doi_match else None, url)
         if key in seen_keys:
@@ -227,6 +288,8 @@ def validate_artifact(artifact: dict[str, Any]) -> None:
     schema = json.loads(SCHEMA_PATH.read_text(encoding="utf-8"))
     if jsonschema is not None:
         jsonschema.validate(artifact, schema)
+        return
+    validate_artifact_fallback(artifact, schema)
 
 
 def ensure_dir(path: Path) -> None:

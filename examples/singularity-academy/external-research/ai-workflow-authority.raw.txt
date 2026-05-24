@@ -1,0 +1,12 @@
+AI systems are becoming more useful in research-heavy workflows.
+
+- Agent scaffolds can reduce operator rescue when evidence is visible and review remains local.
+- Small-team adoption improves when reporting, receipts, and rollback are explicit.
+- Faster synthesis can still weaken judgment if provenance is weak.
+
+Citation: Smith et al. 2024. Review-gated AI workflows. DOI: 10.1234/example-doi
+PDF: https://example.org/research-paper.pdf
+Reference: Workflow receipts under pressure https://example.org/control-plane-note
+
+Open question: How much authority can be delegated before local review becomes ceremonial?
+Tension: Faster synthesis can still weaken judgment if provenance is weak.

@@ -26,6 +26,7 @@ Normal flow:
 
 1. Paste a Sci-Bot answer into a local text file.
 2. Ingest it into a validated singularity-academy artifact under `queries/`.
+   The script enforces validation locally and uses `jsonschema` when available.
 3. Optionally emit:
    - an academy brief under `briefs/`
    - an offer memo under `docs/skill-work/work-business/singularity-academy-research-memos/`
@@ -50,6 +51,8 @@ Expected outputs:
 - `research/external/singularity-academy/queries/<date>-<topic>.json`
 - `research/external/singularity-academy/briefs/<date>-<topic>-academy-brief.md`
 - optionally a work-business memo and derived self-proposal draft when requested
+
+Stable examples for this workflow live under `examples/singularity-academy/external-research/`.
 
 ## Boundaries
 

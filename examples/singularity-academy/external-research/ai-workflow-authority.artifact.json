@@ -1,0 +1,78 @@
+{
+  "artifact_schema_version": 1,
+  "source": "sci-bot.ru",
+  "source_url": null,
+  "lane": "singularity-academy",
+  "topic_slug": "ai-workflow-authority",
+  "captured_at": "2026-05-24T05:10:38+00:00",
+  "ingest_mode": "paste",
+  "record_impact": "none",
+  "query": "How should review-gated AI workflow research be applied to singularity academy?",
+  "raw_capture": "AI systems are becoming more useful in research-heavy workflows.\n\n- Agent scaffolds can reduce operator rescue when evidence is visible and review remains local.\n- Small-team adoption improves when reporting, receipts, and rollback are explicit.\n- Faster synthesis can still weaken judgment if provenance is weak.\n\nCitation: Smith et al. 2024. Review-gated AI workflows. DOI: 10.1234/example-doi\nPDF: https://example.org/research-paper.pdf\nReference: Workflow receipts under pressure https://example.org/control-plane-note\n\nOpen question: How much authority can be delegated before local review becomes ceremonial?\nTension: Faster synthesis can still weaken judgment if provenance is weak.",
+  "summary": "AI systems are becoming more useful in research-heavy workflows.",
+  "key_claims": [
+    {
+      "claim": "Agent scaffolds can reduce operator rescue when evidence is visible and review remains local.",
+      "citations": [],
+      "evidence_strength": null,
+      "notes": null
+    },
+    {
+      "claim": "Small-team adoption improves when reporting, receipts, and rollback are explicit.",
+      "citations": [],
+      "evidence_strength": null,
+      "notes": null
+    },
+    {
+      "claim": "Faster synthesis can still weaken judgment if provenance is weak.",
+      "citations": [],
+      "evidence_strength": null,
+      "notes": null
+    }
+  ],
+  "citations": [
+    {
+      "id": "cit-001",
+      "title": "Smith et al. 2024. Review-gated AI workflows",
+      "authors": [],
+      "year": 2024,
+      "doi": "10.1234/example-doi",
+      "url": "https://example.org/research-paper.pdf",
+      "pdf_url": "https://example.org/research-paper.pdf",
+      "relevance": null,
+      "snippet": null,
+      "raw_text": "Citation: Smith et al. 2024. Review-gated AI workflows. DOI: 10.1234/example-doi",
+      "resolution_status": "resolved"
+    },
+    {
+      "id": "cit-003",
+      "title": "Workflow receipts under pressure",
+      "authors": [],
+      "year": null,
+      "doi": null,
+      "url": "https://example.org/control-plane-note",
+      "pdf_url": null,
+      "relevance": null,
+      "snippet": null,
+      "raw_text": "Reference: Workflow receipts under pressure https://example.org/control-plane-note",
+      "resolution_status": "resolved"
+    }
+  ],
+  "tensions": [
+    "Faster synthesis can still weaken judgment if provenance is weak."
+  ],
+  "open_questions": [
+    "How much authority can be delegated before local review becomes ceremonial?"
+  ],
+  "proposed_ix_updates": [],
+  "proposed_skill_updates": [],
+  "prepared_context_tags": [],
+  "academy_surface": "workshop",
+  "acceleration_vector": "research synthesis and workflow routing",
+  "agent_type": "model plus operator workflow",
+  "alignment_risk": "faster synthesis can outrun review discipline",
+  "substrate_notes": "authority, review, and rollback remain local to the operator surface",
+  "displacement_notes": "operator review can become ceremonial if receipts weaken",
+  "commercial_relevance": "research and content teams with visible AI usage but weak review contracts",
+  "reuse_output": "derive one workshop note and one AI Operating System Sprint memo"
+}

@@ -66,8 +66,10 @@ def test_build_artifact_extracts_claims_and_citations():
     assert len(artifact["citations"]) == 2
     assert artifact["citations"][0]["doi"] == "10.1234/example-doi"
     assert artifact["citations"][0]["pdf_url"] == "https://example.org/research-paper.pdf"
-    assert artifact["tensions"]
-    assert artifact["open_questions"]
+    assert artifact["citations"][0]["title"] == "Smith et al. 2024. Review-gated AI workflows"
+    assert artifact["citations"][1]["title"] == "Workflow receipts under pressure"
+    assert artifact["tensions"] == ["Faster synthesis can still weaken judgment if provenance is weak."]
+    assert artifact["open_questions"] == ["How much authority can be delegated before local review becomes ceremonial?"]
 
 
 def test_write_outputs_keeps_gate_untouched(tmp_path, monkeypatch):
@@ -156,3 +158,43 @@ Reference: A paper title without DOI or URL
     citations = mod.infer_citations(text)
     assert citations
     assert citations[0]["resolution_status"] == "unresolved"
+    assert citations[0]["title"] == "A paper title without DOI or URL"
+
+
+def test_validation_falls_back_without_jsonschema(monkeypatch):
+    mod = _load_module()
+    monkeypatch.setattr(mod, "jsonschema", None)
+
+    class Args:
+        source = "sci-bot.ru"
+        source_url = None
+        lane = "singularity-academy"
+        topic = "AI workflow authority"
+        record_impact = "none"
+        query = "How should review-gated AI workflow research be applied to singularity academy?"
+        summary = None
+        prepared_context_tag = []
+        academy_surface = None
+        acceleration_vector = None
+        agent_type = None
+        alignment_risk = None
+        substrate_notes = None
+        displacement_notes = None
+        commercial_relevance = None
+        reuse_output = None
+        ix_update = []
+        skill_update = []
+
+    artifact = mod.build_artifact(Args, _sample_text())
+
+    mod.validate_artifact(artifact)
+
+    broken = dict(artifact)
+    broken["lane"] = "not-a-lane"
+
+    try:
+        mod.validate_artifact(broken)
+    except ValueError as exc:
+        assert "Unsupported lane" in str(exc)
+    else:
+        raise AssertionError("fallback validation should still reject invalid artifacts")
