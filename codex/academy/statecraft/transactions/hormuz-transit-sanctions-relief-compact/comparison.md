@@ -36,6 +36,19 @@ A workable compact needs five shared features:
 
 The first serious instrument should not be a grand regional settlement. It should be a renewable 30-day compact: transit guarantee, relief benchmark, non-regime-change assurance, notification channel, complaint process, and review meeting.
 
+## External Redlines Vs Iran Line
+
+| lane | what the external draft tries to change | what Iran can accept | what Iran would refuse |
+| --- | --- | --- | --- |
+| America | Narrow recognition language, keep relief revocable, and bar any implied Iranian veto over navigation. | A limited-scope clause, neutral reporting, and explicit non-final-status language. | Recognition stripped to symbolism, leverage depoliticized, or relief snapback left to unilateral U.S. discretion. |
+| Gulf states | Add direct littoral participation, incident reporting, and sovereignty-protection language. | Gulf notification and deconfliction channels that protect shipping and reassure littoral states. | Any Gulf role that becomes supervisory authority, multilateral management of Iranian waters, or a second veto layer over implementation. |
+| Russia | Prevent unilateral Western interpretation and preserve room for later bargaining. | Mediated reversibility, anti-unilateral compliance interpretation, and explicit reservation of wider regional issues. | Iran becoming a prop inside great-power choreography while real relief and recognition are indefinitely postponed. |
+| China | Make the mechanism market-legible, anti-disorder, and commercially predictable. | Insurer-facing notice, compliance ledgers, and continuity standards that show governed restraint. | Reducing the clause to shipping management or insurer comfort while fading the political meaning of recognition and sovereign dignity. |
+
+## Comparison Use
+
+Read the canonical Iran transaction first, then use this table to see where the four external redlines press against it. The compact should compare those pressures, not overwrite the Iran line with a second lane-local authority.
+
 ## Revisit Triggers
 
 - Any state publicly rejects the principle of paired transit restraint and sanctions relief.

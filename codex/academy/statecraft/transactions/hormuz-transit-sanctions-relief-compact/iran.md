@@ -6,6 +6,8 @@ WORK only; not Record.
 
 Recognition-for-transit restraint clause.
 
+Compact-facing lane summary only. Canonical clause authority remains [Hormuz recognition transit transaction](../../iran/transactions/hormuz-recognition-transit-transaction.md).
+
 ## State Lane
 
 `iran`
@@ -49,11 +51,14 @@ Iran's durable interest is to monetize Hormuz leverage into recognition, sanctio
 - Alliance geometry: Preserve partner depth while reopening enough commerce to keep partners aligned.
 - Restraint after advantage: Reopen transit in phases as relief and assurance benchmarks begin.
 
-## Instrument Text
+## Compact Position
 
-Draft clause:
+The Iran lane enters the compact with four non-negotiable requirements derived from the canonical transaction:
 
-> Iran shall provide renewable safe-passage guarantees for non-belligerent commercial vessels through the Strait of Hormuz after receipt of reciprocal non-regime-change assurances, initial sanctions-relief benchmarks, and recognition of Iran's legitimate security interests. Iran may suspend the guarantee only after documented violation, mediator notice, and failed urgent consultation, except in case of direct armed attack.
+1. Transit restraint must be coupled to reciprocal recognition and a front-loaded, renewable relief step.
+2. Gulf participation may support notification and deconfliction, but not supervisory authority over Iranian sovereign decision-making.
+3. Observability must be neutral and market-legible through published notices, a complaint channel, and a compliance ledger.
+4. Relief cannot be reversed unilaterally outside the same mediated compliance process that judges transit performance.
 
 ## Mirror Test
 
@@ -76,6 +81,10 @@ Draft clause:
 ## Historical Continuity
 
 Legacy normalization note: Iran's successor-stable interest is Hormuz salience, export autonomy, sovereignty recognition, and sanctions relief without humiliation.
+
+## Compact Boundary
+
+This file is intentionally shorter than the canonical Iran transaction. Use it to compare the Iran lane against [america.md](america.md), [russia.md](russia.md), and [china.md](china.md). Update the canonical clause first when the Iran line changes; then refresh this summary if the comparison surface needs it.
 
 ## Recursive Update Candidates
 

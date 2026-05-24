@@ -29,6 +29,14 @@ Hormuz disruption creates coercive system leverage. A durable compact has to reo
 
 Use [comparison.md](comparison.md) after reading the four lane drafts. The comparison does not select a winner; it shows which authority, restraint, and settlement conditions each lane needs in order to accept the same compact.
 
+## Authority Split
+
+- Canonical Iran clause: [Hormuz recognition transit transaction](../../iran/transactions/hormuz-recognition-transit-transaction.md)
+- Compact Iran view: [iran.md](iran.md) summarizes the lane position for cross-lane comparison; it should not carry a competing standalone clause text.
+- External redlines and comparison logic: [comparison.md](comparison.md)
+
+The compact folder is for four-lane comparison, not for maintaining a second Iran-local transaction in parallel with the canonical lane file.
+
 ## Validity
 
 Status: `volatile`. The compact depends on moving facts: shipping behavior, sanctions posture, Gulf state alignment, U.S. war powers, Chinese insurance / energy action, Russian support posture, and Iranian transit terms.
