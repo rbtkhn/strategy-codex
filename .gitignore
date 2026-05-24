@@ -78,6 +78,10 @@ npm-debug.log*
 coverage/
 .pytest_cache/
 .tmp-pytest-*/
+.pytest-temp/
+.pytest-tmp*/
+_pytest_basetemp/
+tmp_pytest_outcome_once/
 .codex-test-temp/
 
 # PDF tools (bundled; run setup_pdf_tools.sh to fetch)
@@ -210,6 +214,7 @@ user.md
 harness-events.jsonl
 compute-ledger.jsonl
 continuity-log.jsonl
+runtime-memory-*/
 runtime-bundle/runtime/*
 runtime-bundle/audit/*.jsonl
 
