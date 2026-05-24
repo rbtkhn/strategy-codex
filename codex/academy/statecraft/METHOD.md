@@ -6,6 +6,8 @@ Academy-statecraft turns political judgment into draftable instruments. It is no
 
 Canonical PH-CIV / statecraft hinge: **Civilizational pattern and narrative become statecraft only when converted into authority, restraint, and settlement.** Use [Civilizational Pattern To Statecraft](sheets/civilizational-pattern-to-statecraft.md) whenever a historical or civilizational pattern is invoked.
 
+Constitutional source split: [civ-emp](civ-emp/) is the upstream Civilization and Empire source base; academy-statecraft is the downstream Civilizational Statecraft activity layer. Short form: `civ-emp remembers -> Civilizational Statecraft drafts`.
+
 Lane law: **Civilization stores state memory. Empire converts memory into reach. State carries present authority. Objects transmit signals. Transactions test whether authority can become settlement.** Use [State Memory Template](templates/state-memory.md) when a civilization-layer authority pattern needs to be connected to current state carriers and transaction tests.
 
 Arc-lens rule: **Each major civilization object is an arc-lens, not a topic page.** The lens reads the present; the arc carries the civilizational development that makes the reading legitimate. A file such as `god.md`, `lit.md`, `art.md`, `geo.md`, `war.md`, or `peace.md` should therefore trace origin, continuity, transformation, current carrier, failure mode, and transaction use while also naming what it helps the operator see now.
@@ -31,6 +33,18 @@ Abraham-helix rule: use the [Abraham Helix](sheets/abraham-helix.md) when the lo
 13. **Stress-test incentives.** Ask what each party gains by compliance, what it gains by cheating, and how violations become observable.
 14. **Preserve agency and legitimacy.** Keep necessity from becoming excuse; name who commands, who implements, who can refuse, and who bears responsibility.
 15. **Produce reuse.** End with a treaty clause, policy recommendation, negotiating instruction, warning, amendment, transaction-use brief, or recursive update candidate that can be reused.
+
+## Upstream Candidate Rule
+
+When live drafting discovers a durable source insight, do not patch both layers ad hoc.
+
+- If the discovery changes source pattern, retrieval logic, historical counterweight, or object schema, stage it as an upstream `civ-emp` candidate.
+- If the discovery changes lane routing, deployer behavior, helix judgment, objection handling, or instrument design, keep it in Civilizational Statecraft.
+- If the discovery affects both, draft the downstream statecraft adjustment first and then stage a reviewable upstream candidate rather than silently synchronizing both surfaces.
+
+Short membrane:
+
+`civ-emp remembers; Civilizational Statecraft drafts; reviewable candidates travel upstream.`
 
 ## Realism / Incentive Filter
 

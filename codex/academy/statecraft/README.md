@@ -17,7 +17,11 @@ Every statecraft output should also establish historical continuity with the cur
 
 Canonical PH-CIV / statecraft hinge: **Civilizational pattern and narrative become statecraft only when converted into authority, restraint, and settlement.** Short form: `pattern / narrative -> authority / restraint / settlement`.
 
-CIV-EMP source base: `ph-civ` remains the public Predictive History / Civilization artifact; [civ-emp](civ-emp/) is the academy-statecraft local source base derived from Civilization and Empire and optimized for operational judgment.
+CIV-EMP source base: `ph-civ` remains the public Predictive History / Civilization artifact; [civ-emp](civ-emp/) is the upstream Civilization and Empire source-base repo consumed by this downstream Civilizational Statecraft workshop.
+
+Short constitutional split:
+
+`civ-emp remembers -> Civilizational Statecraft drafts`
 
 Mature lane doctrine: **each state lane is a book and a machine**. The book side grows into a complete, compelling, evidence-backed story of a civilization under power. The machine side stages reviewable updates from live statecraft work so the lane improves the next analysis without rewriting itself automatically.
 

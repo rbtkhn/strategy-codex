@@ -19,6 +19,15 @@ For each arc-lens or empire instrument, run four retrieval layers:
 
 During migration, older CIV-MEM files may serve as provenance for CIV-EMP objects, but statecraft outputs should cite the CIV-EMP object or lane-local translation whenever one exists.
 
+## Arc-Conditioned Retrieval
+
+Some live claims arrive through speaker arcs before they are mature enough for direct transaction routing. In those cases, use the quiet bridge layer in [academy-statecraft bridges](../../bridges/README.md) to choose the right retrieval profile before opening lane surfaces.
+
+Current pilot adapters:
+
+- [Marandi CIV-EMP retrieval adapter](../../bridges/marandi-civ-emp-retrieval-adapter.md) for recognition, legitimacy, sovereignty, and leverage-meaning claims
+- [Parsi CIV-EMP retrieval adapter](../../bridges/parsi-civ-emp-retrieval-adapter.md) for guarantees, sequencing, architecture, and settlement-durability claims
+
 ## Citation Preference
 
 Prefer the narrowest source that can carry the claim:
@@ -75,3 +84,27 @@ Route durable discoveries as:
 `CIV-EMP signal -> named statecraft pattern -> lane-local update candidate -> human review -> accepted lane change`
 
 Use `<lane>/updates/pending.md` for candidates. Do not directly rewrite transactions, PH-CIV, CIV-MEM, Record surfaces, raw-input, speaker sources, or current state carrier files unless the operator separately requests that implementation.
+
+## Upstream-Candidate Rule
+
+When downstream Civilizational Statecraft work exposes a durable source insight, classify it before editing anything:
+
+1. **Send upstream to `civ-emp`** when the discovery changes:
+   - source pattern
+   - retrieval logic
+   - historical counterweight
+   - source-object contract
+2. **Keep downstream in Civilizational Statecraft** when the discovery changes:
+   - menu or deployer behavior
+   - lane-local routing
+   - helix judgment
+   - objection handling
+   - transaction or clause design
+3. **When both layers are implicated**
+   - draft the live downstream instrument first
+   - then stage one explicit upstream candidate rather than silently mutating both layers
+
+Default test:
+
+- `Would another lane benefit from this as source memory or retrieval discipline?` Send it upstream.
+- `Is this mainly about how we route, phrase, or carry an instrument here?` Keep it downstream.

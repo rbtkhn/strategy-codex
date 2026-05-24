@@ -4,7 +4,11 @@ WORK only; not Record.
 
 **CIV-EMP = Civilization and Empire.**
 
-CIV-EMP is the academy-statecraft local source base derived from the two-volume Civilization and Empire frame. It is not the public PH-CIV artifact and it is not the legacy CIV-MEM graph. It is the statecraft working canon: compact enough to retrieve during drafting, structured enough to carry civilizational depth, and practical enough to support treaty, policy, negotiation, sanctions, and settlement design.
+CIV-EMP is the academy-statecraft local working source base derived from the two-volume Civilization and Empire frame. It is not the public PH-CIV artifact and it is not the legacy CIV-MEM graph. It is the upstream source base consumed by downstream Civilizational Statecraft: compact enough to retrieve during drafting, structured enough to carry civilizational depth, and practical enough to support treaty, policy, negotiation, sanctions, and settlement design.
+
+Short constitutional split:
+
+`civ-emp remembers -> Civilizational Statecraft drafts`
 
 ## Boundary
 
@@ -20,9 +24,9 @@ Use three tiers:
 
 1. **Public source artifact:** `ph-civ` preserves the public two-volume Civilization and Empire source world.
 2. **Statecraft source base:** `civ-emp` distills that world into compact patterns, counterweights, and transaction hooks.
-3. **Operational lane translation:** `america/`, `russia/`, `china/`, and `iran/` convert CIV-EMP patterns into lane-local civilization, empire, state, helix, and transaction files.
+3. **Civilizational Statecraft operating layer:** academy-statecraft menus, deployers, lane READMEs, skills, and transactions convert CIV-EMP patterns into lane-local civilization, empire, state, helix, and instrument files.
 
-The hierarchy is one-way. Statecraft work may stage improvements to lane-local files, but it should not rewrite the public source artifact or upstream legacy memory graph.
+The hierarchy is one-way. Civilizational Statecraft may stage reviewable improvements upstream, but it should not rewrite the public source artifact or upstream legacy memory graph through ambient drift.
 
 ## Operating Thesis
 
@@ -65,6 +69,7 @@ Each CIV-EMP source object should be short and usable. It should include:
 ## Indexes
 
 - [Source retrieval matrix](indexes/source-retrieval-matrix.md) - default retrieval contract for state-memory, god, lit, art, geo, war, peace, and empire-instrument work.
+- [Arc-conditioned retrieval bridge](../bridges/README.md) - quiet adapter layer for routing speaker-arc claims into disciplined `civ-emp` retrieval.
 - [Migration workspace](migration/README.md) - symmetric-first control plane for moving active statecraft lanes off direct legacy `civ-mem` dependency.
 
 ## Proof Objects
