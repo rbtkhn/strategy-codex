@@ -11,9 +11,42 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of John 
 - [youtube-daniel-davis-deep-dive-john-mearsheimer-there-ll-be-no-ceasefire-in-ukraine-2025-01-19](../../years/2026/raw-input/2025-01-19/youtube-daniel-davis-deep-dive-john-mearsheimer-there-ll-be-no-ceasefire-in-ukraine-2025-01-19.md)
 - [youtube-daniel-davis-deep-dive-john-mearsheimer-putin-peace-can-only-happen-on-my-terms-2025-01-29](../../years/2026/raw-input/2025-01-29/youtube-daniel-davis-deep-dive-john-mearsheimer-putin-peace-can-only-happen-on-my-terms-2025-01-29.md)
 
-## 2025-03
+## 2025-02
+  
+  - [youtube-americano-rebuilding-gaza-a-deal-with-putin-professor-john-mearsheimer-on-trump-2025-02-12](../../years/2026/raw-input/2025-02-12/youtube-americano-rebuilding-gaza-a-deal-with-putin-professor-john-mearsheimer-on-trump-2025-02-12.md)
+  - [transcript-diesen-mearsheimer-mercouris-trump-to-force-ukraine-peace-on-europe-2025-02-15](../../years/2026/raw-input/2025-02-15/transcript-diesen-mearsheimer-mercouris-trump-to-force-ukraine-peace-on-europe-2025-02-15.md)
+  - [youtube-daniel-davis-deep-dive-white-house-tussle-trump-v-zelensky-prof-john-mearsheimer-2025-02-28](../../years/2026/raw-input/2025-02-28/youtube-daniel-davis-deep-dive-white-house-tussle-trump-v-zelensky-prof-john-mearsheimer-2025-02-28.md)
 
-- [youtube-daniel-davis-deep-dive-john-mearsheimer-therell-be-no-meaningfulf-ceasefire-in-ukraine-russia-war-2025-03-20](../../years/2026/raw-input/2025-03-20/youtube-daniel-davis-deep-dive-john-mearsheimer-therell-be-no-meaningfulf-ceasefire-in-ukraine-russia-war-2025-03-20.md)
+## 2025-03
+  
+  - [transcript-diesen-mearsheimer-mercouris-the-us-push-for-peace-and-europe-panics-2025-03-08](../../years/2026/raw-input/2025-03-08/transcript-diesen-mearsheimer-mercouris-the-us-push-for-peace-and-europe-panics-2025-03-08.md)
+  - [youtube-daniel-davis-deep-dive-john-mearsheimer-therell-be-no-meaningfulf-ceasefire-in-ukraine-russia-war-2025-03-20](../../years/2026/raw-input/2025-03-20/youtube-daniel-davis-deep-dive-john-mearsheimer-therell-be-no-meaningfulf-ceasefire-in-ukraine-russia-war-2025-03-20.md)
+
+## 2025-04
+
+- [youtube-al-arabiya-english-ukraine-will-be-eliminated-john-mearsheimer-and-putin-advisor-discuss-us-russia-relations-2025-04-01](../../years/2026/raw-input/2025-04-01/youtube-al-arabiya-english-ukraine-will-be-eliminated-john-mearsheimer-and-putin-advisor-discuss-us-russia-relations-2025-04-01.md)
+- [transcript-napolitano-mearsheimer-trump-netanyahu-and-iran-2025-04-10](../../years/2026/raw-input/2025-04-10/transcript-napolitano-mearsheimer-trump-netanyahu-and-iran-2025-04-10.md)
+
+## 2025-05
+
+- [transcript-diesen-mearsheimer-mercouris-ukraine-is-now-trumps-war-2025-05-02](../../years/2026/raw-input/2025-05-02/transcript-diesen-mearsheimer-mercouris-ukraine-is-now-trumps-war-2025-05-02.md)
+- [youtube-daniel-davis-deep-dive-john-mearsheimer-trump-is-disrespecting-russia-not-smart-2025-05-10](../../years/2026/raw-input/2025-05-10/youtube-daniel-davis-deep-dive-john-mearsheimer-trump-is-disrespecting-russia-not-smart-2025-05-10.md)
+- [transcript-diesen-mearsheimer-mercouris-russia-won-the-war-2025-05-29](../../years/2026/raw-input/2025-05-29/transcript-diesen-mearsheimer-mercouris-russia-won-the-war-2025-05-29.md)
+
+## 2025-06
+
+- [transcript-davis-mearsheimer-russia-is-angry-risk-of-them-using-nukes-harder-to-dismiss-2025-06-04](../../years/2026/raw-input/2025-06-04/transcript-davis-mearsheimer-russia-is-angry-risk-of-them-using-nukes-harder-to-dismiss-2025-06-04.md)
+- [transcript-napolitano-mearsheimer-what-if-the-us-does-attack-iran-2025-06-20](../../years/2026/raw-input/2025-06-20/transcript-napolitano-mearsheimer-what-if-the-us-does-attack-iran-2025-06-20.md)
+- [transcript-diesen-mearsheimer-mercouris-israel-has-walked-off-a-cliff-2025-06-20](../../years/2026/raw-input/2025-06-20/transcript-diesen-mearsheimer-mercouris-israel-has-walked-off-a-cliff-2025-06-20.md)
+- [transcript-napolitano-mearsheimer-why-israel-will-fail-2025-06-26](../../years/2026/raw-input/2025-06-26/transcript-napolitano-mearsheimer-why-israel-will-fail-2025-06-26.md)
+
+## 2025-08
+
+- [transcript-diesen-mearsheimer-liberal-delusions-and-how-nato-led-ukraine-down-the-primrose-path-2025-08-01](../../years/2026/raw-input/2025-08-01/transcript-diesen-mearsheimer-liberal-delusions-and-how-nato-led-ukraine-down-the-primrose-path-2025-08-01.md)
+- [transcript-napolitano-mearsheimer-a-brief-history-of-israel-2025-08-07](../../years/2026/raw-input/2025-08-07/transcript-napolitano-mearsheimer-a-brief-history-of-israel-2025-08-07.md)
+- [transcript-davis-mearsheimer-putin-will-not-lose-at-alaska-summit-2025-08-13](../../years/2026/raw-input/2025-08-13/transcript-davis-mearsheimer-putin-will-not-lose-at-alaska-summit-2025-08-13.md)
+- [transcript-davis-mearsheimer-deadly-attacks-are-russias-answer-to-sloppy-peace-strategies-2025-08-28](../../years/2026/raw-input/2025-08-28/transcript-davis-mearsheimer-deadly-attacks-are-russias-answer-to-sloppy-peace-strategies-2025-08-28.md)
+- [transcript-napolitano-mearsheimer-ukraine-and-israel-destroying-themselves-2025-08-28](../../years/2026/raw-input/2025-08-28/transcript-napolitano-mearsheimer-ukraine-and-israel-destroying-themselves-2025-08-28.md)
 
 ## 2025-09
 
@@ -23,12 +56,19 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of John 
 
 - [youtube-glenn-diesen-john-mearsheimer-john-mearsheimer-west-destroying-itself-in-ukraine-gaza-2025-10-08](../../years/2026/raw-input/2025-10-08/youtube-glenn-diesen-john-mearsheimer-john-mearsheimer-west-destroying-itself-in-ukraine-gaza-2025-10-08.md)
 
+- [transcript-diesen-mearsheimer-mercouris-window-of-opportunity-for-peace-is-closing-2025-10-22](../../years/2026/raw-input/2025-10-22/transcript-diesen-mearsheimer-mercouris-window-of-opportunity-for-peace-is-closing-2025-10-22.md)
+
 ## 2025-11
 
+- [transcript-diesen-mearsheimer-bleak-future-of-europe-defeated-broken-2025-11-26](../../years/2026/raw-input/2025-11-26/transcript-diesen-mearsheimer-bleak-future-of-europe-defeated-broken-2025-11-26.md)
+- [transcript-napolitano-mearsheimer-ukraine-and-reality-2025-11-20](../../years/2026/raw-input/2025-11-20/transcript-napolitano-mearsheimer-ukraine-and-reality-2025-11-20.md)
 - [transcript-napolitano-mearsheimer-israels-nightmare-2025-11-17](../../years/2026/raw-input/2025-11-17/transcript-napolitano-mearsheimer-israels-nightmare-2025-11-17.md)
+- [transcript-davis-mearsheimer-how-dangerous-is-russia-to-america-to-the-world-2025-11-14](../../years/2026/raw-input/2025-11-14/transcript-davis-mearsheimer-how-dangerous-is-russia-to-america-to-the-world-2025-11-14.md)
+- [transcript-napolitano-mearsheimer-putins-calculus-why-russia-might-welcome-a-long-war-2025-11-13](../../years/2026/raw-input/2025-11-13/transcript-napolitano-mearsheimer-putins-calculus-why-russia-might-welcome-a-long-war-2025-11-13.md)
 
 ## 2025-12
 
+- [transcript-diesen-mearsheimer-mercouris-fake-diplomacy-and-permanent-conflict-2025-12-19](../../years/2026/raw-input/2025-12-19/transcript-diesen-mearsheimer-mercouris-fake-diplomacy-and-permanent-conflict-2025-12-19.md)
 - [transcript-napolitano-mearsheimer-an-incoherent-foreign-policy-2025-12-24](../../years/2026/raw-input/2025-12-24/transcript-napolitano-mearsheimer-an-incoherent-foreign-policy-2025-12-24.md)
 
 ## 2026-01

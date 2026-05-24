@@ -16,6 +16,7 @@ These files are not deep-history objects. They are speaker-side commentary surfa
 - [Broken assurances and doomed settlements](broken-assurances-and-doomed-settlements.md)
 - [Balance of power and expansion traps](balance-of-power-and-expansion-traps.md)
 - [Bipolar memory and multipolar transition](bipolar-memory-and-multipolar-transition.md)
+- [Disrespect and distrust poison negotiation](disrespect-and-distrust-poison-negotiation.md)
 - [Punishment does not equal surrender](punishment-does-not-equal-surrender.md)
 - [False decline analogies and the limits of Suez](false-decline-analogies-and-the-limits-of-suez.md)
 
