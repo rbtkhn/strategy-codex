@@ -40,6 +40,8 @@ This README owns the governing statecraft maturation line for the workshop.
 
 The first decision is therefore not "treaty or policy paper?" but "which civilization-state lens is actually carrying the settlement problem?" Treaty frameworks, policy papers, negotiation briefs, and Richelieu/Bismarck stress tests remain downstream drafting moves once the lane is clear.
 
+Operational precedence: explicit `coffee -> C. Statecraft` wins for entry ritual, ambiguous ownership calls for `state-deploy`, and obvious ownership goes straight to the relevant `state-*` lane.
+
 ## Read This First
 
 Use this order if you are entering the workshop for the first time and want the architecture before the details:

@@ -8,6 +8,10 @@ Short form:
 
 `Deploy decides the lane. The lane decides the instrument.`
 
+Precedence rule:
+
+`Explicit coffee wins for entry ritual. Ambiguous ownership calls for state-deploy. Obvious ownership goes straight to state-*.`
+
 ## Two Layers
 
 There are two different jobs in the skill stack:
