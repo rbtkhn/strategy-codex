@@ -26,6 +26,7 @@ from yaml_compat import safe_dump, safe_load_text  # noqa: E402
 import build_speaker_memory_actions as speaker_actions  # noqa: E402
 import build_speaker_routing_queue as speaker_routing  # noqa: E402
 import host_shelf_quality  # noqa: E402
+import raw_input_master_index  # noqa: E402
 from youtube_transcripts.discovery import extract_video_id  # noqa: E402
 from youtube_transcripts.metadata import fetch_metadata_ytdlp  # noqa: E402
 from youtube_transcripts.subtitles_ytdlp import fetch_subtitles_ytdlp  # noqa: E402
@@ -1207,6 +1208,17 @@ def write_receipts(
     return paths
 
 
+def build_master_index_artifacts(*, notebook_root: Path) -> dict[str, str]:
+    raw_root = notebook_root / "raw-input"
+    written = raw_input_master_index.write_outputs(raw_root)
+    return {
+        "raw_input_master_index_markdown": str(written["markdown"]),
+        "raw_input_master_index_json": str(written["json"]),
+        "raw_input_index_audit_markdown": str(written["audit_markdown"]),
+        "raw_input_index_audit_json": str(written["audit_json"]),
+    }
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--url", action="append", default=[], help="Approved YouTube watch URL. Repeatable.")
@@ -1295,6 +1307,12 @@ def main(argv: list[str] | None = None) -> int:
                     notebook_root=args.notebook_root.resolve(),
                 )
             )
+    if args.apply:
+        artifact_paths.update(
+            build_master_index_artifacts(
+                notebook_root=args.notebook_root.resolve(),
+            )
+        )
     paths = write_receipts(
         rows,
         receipt_dir,

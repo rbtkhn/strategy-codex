@@ -1,17 +1,17 @@
 ---
-name: check-streams
-preferred_activation: check streams
-description: 'Check the daily tracked YouTube stream roster for Davis, Diesen, Alkorshid/Dialogue Works, Napolitano/Judging Freedom, and Mercouris: discover today''s uploads, filter suspected clips, list main uploads first, materialize only the operator-approved subset into canonical raw-input, and suggest speaker-folder routing hints.'
+name: "check-streams"
+preferred_activation: "check streams"
+description: "Check the daily tracked YouTube stream roster for Davis, Diesen, Alkorshid/Dialogue Works, Napolitano/Judging Freedom, and Mercouris: discover today's uploads with YouTube-first tooling, filter suspected clips, list main uploads first, materialize only the operator-approved subset into canonical raw-input, and suggest speaker-folder routing hints."
 portable: true
-version: 0.2.6
+version: "0.2.7"
 tags:
-- operator
-- strategy
-- raw-input
-- youtube
-- daily
-portable_source: skills-portable/check-streams/SKILL.md
-synced_by: sync_portable_skills.py
+  - "operator"
+  - "strategy"
+  - "raw-input"
+  - "youtube"
+  - "daily"
+portable_source: "skills-portable/check-streams/SKILL.md"
+synced_by: "sync_portable_skills.py"
 ---
 # Check streams
 
@@ -23,7 +23,7 @@ Use the single-URL YouTube transcript workflow for one-off URLs. Use this skill 
 
 **Legacy activation:** `cognition streams` remains accepted as a compatibility alias. Treat `check streams` as canonical in new docs, Coffee C routing, and operator-facing prose.
 
-For the higher-level notebook meaning of this routine, see [cognition-streams-daily-aperture.md](../../docs/skill-work/work-strategy/cognition-streams-daily-aperture.md). For grading a run after the fact, see [check-streams-performance-rubric.md](../../docs/skill-work/work-strategy/check-streams-performance-rubric.md).
+For the higher-level notebook meaning of this routine, see [cognition-streams-daily-aperture.md](../../docs/skill-work/work-strategy/cognition-streams-daily-aperture.md).
 
 ## Durable routing model
 
@@ -55,6 +55,35 @@ Short rule:
 
 The daily ingest workflow exists to support operator intent, not to outrank it.
 
+## Episode-object retrieval rule
+
+When the requested object is an **actual episode object** rather than a repo summary, discovery must start with the strongest available **YouTube-first** retrieval path.
+
+Examples:
+
+- `show me the episode titles and urls`
+- `find more mearsheimer, feb 2025`
+- `which Mearsheimer episodes are missing that month`
+
+Default behavior:
+
+- use the host's YouTube discovery tooling first
+- if `yt-dlp` is available in the host, treat it as the default direct-episode recovery path
+- return direct watch URLs and canonical episode titles first when they can be recovered
+
+Do **not** satisfy an episode-object request with only:
+
+- repo-local raw-input counts
+- prior receipts
+- secondary mirrors
+- web snippets
+
+when a direct YouTube-first recovery path is available and has not yet been tried.
+
+Short rule:
+
+`episode object requested -> yt-dlp / YouTube-first discovery first -> answer with titles + direct URLs -> stop`
+
 ## Meaning of "check streams"
 
 Default interpretation:
@@ -66,6 +95,8 @@ Default interpretation:
 If the operator says `check-streams` or `check streams` without narrowing it to `repo-only`, assume they want you to check the live source surfaces first, especially YouTube, and only then compare that result against local `raw-input`, receipts, and inventories.
 
 Do not silently collapse `check streams` into a repo-only audit unless the operator explicitly asks for a local-only check.
+
+If the operator asks for **episode objects**, **missing episode recovery**, or **show URLs**, a repo-only audit is not enough. Treat receipts and local inventories as secondary until the YouTube-first path has been attempted or has clearly failed.
 
 ## Mode split
 
@@ -80,6 +111,8 @@ Short rule:
 `discover -> compare -> repair only if asked or clearly supplied`
 
 For bounded retrieval asks such as `find more Freeman`, `missing days list`, or `show URLs`, discovery should lead unless the operator explicitly says `repo-local`, `already on disk`, or similar.
+
+For those bounded retrieval asks, **discovery** means **direct-source discovery**, not merely searching local notes about prior discovery. If the host exposes `yt-dlp` or an equivalent YouTube retrieval tool, use that path before falling back to receipts, mirrors, or secondary web search.
 
 ## Status labels
 
@@ -105,6 +138,7 @@ Do not blur these states together in prose. In particular:
 - If you have only a **secondary listing URL** such as a podcast mirror, transcript mirror, Apple Podcasts, Art19, Podbay, Podchaser, or similar, say so plainly.
 - Do **not** synthesize, infer, or guess a `youtube.com/watch?v=` URL from partial evidence.
 - When a direct watch URL is missing, keep the item labeled `missing direct watch URL` until it is actually recovered.
+- When `yt-dlp` or an equivalent YouTube retrieval path is available, try that direct-source recovery before closing with only secondary URLs, unless the operator explicitly asked for a repo-local or web-only answer.
 
 ## Inventory staleness rule
 
@@ -119,6 +153,27 @@ Before reporting an item as missing locally, check the actual date folders and l
 Short rule:
 
 `inventory is a hint, raw-input tree is the authority`
+
+The maintained helper surface for quick repo-wide lookup is `codex/years/2026/raw-input/raw-input-master-index.md` with `raw-input-master-index.json` as the machine-readable companion. Use it as a fast route map, but if the index and the tree ever disagree, the dated raw-input folders win.
+
+The companion audit surfaces are `codex/years/2026/raw-input/raw-input-index-audit.md/json`. They are heuristic architecture checks, not authority and not a hard gate.
+
+## Index hierarchy and routing choice
+
+After materialization, treat the routing stack this way:
+
+- the raw-input master index is the maintained corpus-wide route map
+- a speaker raw-input index is added only when it functions as a real `non-core appearance bench`
+- arc files remain interpretive surfaces by default
+
+Do not split an arc into a dedicated index surface unless the speaker-map threshold is met: the arc is no longer a practical front door, the items form a distinct retrieval domain, and the new surface would answer a different operator question than the neighboring bench or arc.
+
+If a speaker is touched during ingest or routing, choose one of these outcomes explicitly:
+
+- existing speaker raw-input index
+- existing host / core lane
+- existing arc / object / routing surface
+- explicit note that no new index is justified
 
 ## Month-ledger closeout
 
@@ -284,9 +339,9 @@ If a stream has no upload on the target day, say so explicitly.
 
 1. **Discover today's uploads**
    - Query the tracked channels for the operator's local day.
+   - Prefer a direct-source YouTube retrieval path. When available in the host, use `yt-dlp` as the default discovery and metadata-recovery tool before falling back to weaker channel-page or web-snippet methods.
    - Prefer the channel's **uploads playlist / channel-id feed** over a handle-based `/videos` page.
    - Treat a handle page as a fallback only; some channels can undercount, mis-order, or hide same-day uploads there.
-   - If a handle fallback returns obviously stale or impossible date windows for the target day, treat that source as corrupted for this run. Do not silently reuse it as if it were a trustworthy daily roster.
    - Preserve the **direct YouTube watch URL** for every discovered item. If discovery only surfaces a title through a secondary listing, keep that item flagged as unresolved until the watch URL is recovered or the operator explicitly accepts a scaffold.
    - Normalize each result into:
      - stream / channel
@@ -296,7 +351,6 @@ If a stream has no upload on the target day, say so explicitly.
      - duration
    - Keep the discovery pass separate from materialization.
    - Preserve a local **discovery receipt** for the day so later audits can compare what the channel exposed against what was materialized.
-   - A valid discovery receipt should record which discovery surface actually produced the result set, so later audits can tell `uploads feed` from `handle fallback` from `flat-playlist rescue`.
 
 2. **Run the highlight-clip filter**
    - Classify items into:
@@ -309,11 +363,6 @@ If a stream has no upload on the target day, say so explicitly.
    - Show the **Main uploads** first.
    - Add one short line if clips were hidden:
      - `N suspected clips hidden; show if wanted`
-   - When the target day is only partially verified, always split the result into these buckets:
-     - **Aired / trusted-set**
-     - **Upcoming / not-yet-aired**
-     - **Date-ambiguous / unresolved**
-   - Do not collapse those buckets together in operator-facing prose.
    - Do not materialize anything yet.
 
 4. **Wait for operator selection**
@@ -334,10 +383,11 @@ If a stream has no upload on the target day, say so explicitly.
      - verify the written raw-input has a non-stub transcript body before reporting success
    - Review `.codex-tmp/youtube-raw-input/<run-id>/materialization-summary.md` and `capture-summary.md` before claiming capture.
    - For apply-mode runs with `--with-appearances`, expect the materializer to refresh `artifacts/host-shelf-quality/<year>/<host>/<YYYY-MM>/quality-summary.md/json` unless `--no-quality-report` was explicitly used.
+   - For all apply-mode materialization runs, expect the materializer to refresh `codex/years/2026/raw-input/raw-input-master-index.md` and `raw-input-master-index.json`.
    - Close materialization/densification claims with the mandatory quality line from the capture summary: `Structure: <delta> | Purity: <delta/%> | Unresolved: <count> | Git: on-disk/verified/not-committed/not-pushed`.
-   - Preserve the receipt scope: the **item-level receipt closes the item**; materializer host-quality closeouts are `full-host-month` shelf benchmarks, even when the capture run started from one transcript. Label host-month closeouts as broader context and do not let odd month-level deltas overrule a clean item-level verdict.
+   - Preserve the receipt scope: materializer host-quality closeouts are `full-host-month`, even when the capture run started from one transcript.
    - Do not treat new routeable appearances as textual purity gains unless the quality report shows transcript-grade, cleaned-transcript, or transcript-bearing improvement.
-   - After every successful transcript raw-input completion, include an **item-level transcript quality receipt** in the operator-facing result. Prefer `python scripts/report_raw_input_quality.py --path <raw-input-file>`; if that helper is unavailable, use the host-shelf quality artifact or run a dry-run host-month report such as `python scripts/host_shelf_quality.py --host <host> --year <YYYY> --month <YYYY-MM>` and quote the matching artifact row as a fallback. The item receipt must include: raw-input path, evidence grade (`transcript-grade`, `cleaned-transcript`, `transcript-bearing`, `summary-grade`, or `legacy-appearance-only`), word count, routeable yes/no, unresolved speaker yes/no, residual noise terms, quality/provenance note, and a clear item verdict (`closed`, `repair-needed`, or `parked`). If a host-month `Structure | Purity | Unresolved | Git` closeout is shown, introduce it as `host-month benchmark`, not as the item verdict.
+   - After every successful transcript raw-input completion, include an **item-level transcript quality receipt** in the operator-facing result. Prefer `python scripts/report_raw_input_quality.py --path <raw-input-file>`; if that helper is unavailable, use the host-shelf quality artifact or run a dry-run host-month report such as `python scripts/host_shelf_quality.py --host <host> --year <YYYY> --month <YYYY-MM>` and quote the matching artifact row. The receipt must include: raw-input path, evidence grade (`transcript-grade`, `cleaned-transcript`, `transcript-bearing`, `summary-grade`, or `legacy-appearance-only`), word count, routeable yes/no, unresolved speaker yes/no, residual noise terms, quality/provenance note, and the host-month `Structure | Purity | Unresolved | Git` closeout line.
    - Residual-noise repair loop: if the item-level receipt reports residual noise terms, inspect each occurrence before closing. Automatically patch obvious speech-to-text/proper-noun artefacts when the local context makes the intended correction clear (for example known analyst names, public figures, or recurring transcript noise such as `Zalinski` -> `Zelensky` and `Mandi` in a professor/guest context -> `Marandi`). Rerun `python scripts/report_raw_input_quality.py --path <raw-input-file>` after the patch. Close with `residual noise: none` only after the rerun confirms it; if a term is ambiguous, leave it unchanged and list it as unresolved in the receipt.
    - If a transcript body is present but metadata causes the quality classifier to return `legacy-appearance-only`, say that explicitly and do not call it transcript-valid until the metadata is normalized.
    - Legacy transcript normalization rule: when an existing raw-input file has a real transcript body plus enough provenance to identify host, title, date, and source URL, normalize metadata before closeout unless the operator asked for read-only inspection. Add `source_type`, `transcript_type`, quality/provenance notes, and an explicit transcript marker while preserving the transcript body; then rerun `report_raw_input_quality.py --path <raw-input-file>` and close with the updated receipt.
@@ -348,13 +398,6 @@ If a stream has no upload on the target day, say so explicitly.
    - If the operator has already pasted the full transcript in the current Codex thread, treat that paste as a valid transcript source and hand the item down to the YouTube transcript workflow's **operator-paste fallback**. Prefer mechanical extraction from the local Codex session log over hand-copying long chat text. Do not call the result `partial-chat-capture` merely because the paste is long or awkward to patch.
    - For full operator-paste repairs, require an exact-match receipt before closing the item: `sourceChars`, `bodyChars`, and `exactMatch=True` between the extracted session transcript and the body written after `## Transcript`.
    - After exact-match verification passes, update the check-stream receipts as captured with `capture_status: full-operator-paste`; move the item out of the open repair queue. Use `partial-chat-capture` only when the source is truly incomplete or exact extraction cannot be verified, and leave that item queued as `full-transcript-import-needed`.
-   - After exact-match verification passes, run the item-level quality receipt and apply the residual-noise repair loop before calling the item closed.
-   - If a date-scoped check remains unresolved after discovery, end with a **manual-fetch queue**:
-     - list only direct YouTube watch URLs that are safely tied to the requested date,
-     - order them `highest confidence first`,
-     - attach the recovered title when the title is date-tied and verified,
-     - otherwise label the item `title unresolved locally`,
-     - never pad the queue with stale neighboring-day candidates merely to appear complete.
 
 6. **Default transcript class**
    - Default to `auto_subtitles_vtt`.
@@ -478,25 +521,9 @@ When checking whether a day is complete:
 - report the requested target date or item first; historical backlog is secondary context
 - when `summary.json` includes `target_date_*` or `target_window_*`, use those fields for the operator-facing verdict
 - treat `overall_backlog_status` as a backlog-health signal, not as the answer to a date-scoped request
-- when candidate ids are recovered from a blocked or partial sweep, do **not** reuse them for another day unless you have explicit date-tying evidence for that day
-- treat neighboring-day blocked ids as contaminated until re-proven for the requested date
 - when you need a computed score, repair queue, and durable receipts, run `python scripts/cognition_streams_audit.py --start YYYY-MM-DD --end YYYY-MM-DD --recent-start YYYY-MM-DD` against the active `/codex/<year>` notebook root
 - when you need a derived speaker-routing queue after materialization, run `python scripts/build_speaker_routing_queue.py --start YYYY-MM-DD --end YYYY-MM-DD`; this emits advisory queue and appearance-ledger artifacts only and does not edit speaker folders
 - when you need concrete speaker-memory follow-up proposals, run `python scripts/build_speaker_memory_actions.py --start YYYY-MM-DD --end YYYY-MM-DD`; this emits advisory action artifacts only and does not edit speaker folders
-
-### Date-bucket discipline
-
-For date-scoped checks, use these verdict buckets consistently:
-
-- **Aired / trusted-set**: direct YouTube watch URL plus date-tied evidence that the item belongs to the requested day
-- **Upcoming / not-yet-aired**: scheduled live event, premiere, or extractor message showing the event had not started yet
-- **Date-ambiguous / unresolved**: likely relevant item, but you do not yet have safe date-tying evidence for the requested day
-
-Rules:
-
-- Never present an `upcoming` item as if it were a same-day aired upload.
-- Never attach a title to a URL unless that title is tied to the requested day, not merely recalled from another pass.
-- If an item is only known from stale blocked ids, it belongs in `Date-ambiguous / unresolved`, not in `Aired / trusted-set`.
 
 ### Capture mode diagnosis
 
@@ -523,17 +550,6 @@ Use this shape by default:
 N suspected clips hidden; show if wanted.
 ```
 
-When the day is unresolved or partially verified, append:
-
-```markdown
-## Manual-fetch queue
-- <channel> â€” <title or "title unresolved locally"> â€” <watch-url>
-
-## Trusted closeout
-- trusted set only: <what is actually date-tied and safe>
-- excluded from trust: <upcoming / ambiguous / stale-neighbor candidates>
-```
-
 If the operator asks to see clips:
 
 ```markdown
@@ -558,8 +574,7 @@ After operator selection, report only the approved items being materialized and 
 - routeable: <yes/no>; unresolved speaker: <yes/no>
 - residual noise: <none or terms>
 - quality note: <source_note/editorial_note/quality_note>
-- item verdict: <closed / repair-needed / parked> - <why>
-- host-month benchmark: Structure: <delta> routeable | Purity: <delta> transcript-valid / <pct>% (<delta pp>) | Unresolved: <N> | Git: <state> <optional; broader shelf context, not the item verdict>
+- host-month closeout: Structure: <delta> routeable | Purity: <delta> transcript-valid / <pct>% (<delta pp>) | Unresolved: <N> | Git: <state>
 
 ## Speaker routing hints
 - <raw-input file> -> <primary speaker route> - <next action> - <why>
@@ -589,9 +604,6 @@ Use "candidate" when the target does not exist yet or would require a new speake
 - Never remove an item from the repair queue on operator-paste evidence unless the canonical raw-input body is non-stub and exact-match verification has passed.
 - Never create or update speaker folders, speaker objects, speaker arcs, helixes, or lattice rows from the daily check unless the operator explicitly asks.
 - Do not let the lattice become the first durable destination. Raw-input comes first; speaker-folder routing comes next; lattice updates are secondary pointers.
-- Never reuse blocked candidate ids from March `N` as if they belonged to March `N+1` without explicit date evidence.
-- Never end a partially failed day-check without showing the operator the exact manual-fetch queue that remains.
-- Never blur the final verdict: the answer must end with the **trusted set only**, not with mixed-confidence speculation.
 - Never continue into repair, capture, dependency, or routing work after a bounded retrieval ask has already been satisfied, unless the operator explicitly asks for the next step.
 
 ## Success condition

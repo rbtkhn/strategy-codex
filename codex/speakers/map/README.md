@@ -35,6 +35,14 @@ When a speaker has appearances beyond one stable host lane, prefer a three-tier 
 
 Use this ladder when cross-host spread becomes thick enough to matter. Once needed, it should replace repeated source-name exceptions in prose.
 
+The ladder is intentionally sparse:
+
+- the corpus-wide raw-input master index handles global lookup
+- the speaker raw-input index handles a real `non-core appearance bench`
+- the arc handles interpretation
+
+Do not add a separate index surface for every arc by default.
+
 ## Route Contract
 
 Use the ladder this way:
@@ -73,6 +81,23 @@ Operational tests:
 3. **Use test** - would an operator open this surface for a meaningfully different reason than a neighboring one?
 
 When the answer is no, do not add another surface just because it is possible.
+
+## When an arc deserves its own index
+
+An arc-specific index is exceptional and should only be created when all of the following are true:
+
+1. **Front-door test** - the parent arc is no longer a practical front door for the material it now contains.
+2. **Retrieval-domain test** - the items being indexed form a distinct retrieval domain rather than just a chronology, month run, or reading order.
+3. **Question-difference test** - the proposed index answers a meaningfully different operator question than the neighboring speaker raw-input index, host lane, or arc.
+4. **Completion-role test** - the surface has a stable ownership story and a real completion role in the routing stack.
+
+If those tests are not all satisfied, keep the material in:
+
+- the corpus-wide raw-input master index for global lookup
+- the speaker raw-input index for `non-core appearance bench` retrieval
+- the arc itself for interpretation
+
+This is the speaker-map application of the repo's `Fullness Before Closure` doctrine: do not multiply index surfaces until the extra route is functionally necessary.
 
 ## Wiring Invariant
 

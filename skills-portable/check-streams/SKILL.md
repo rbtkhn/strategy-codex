@@ -1,9 +1,9 @@
 ---
 name: check-streams
 preferred_activation: check streams
-description: "Check the daily tracked YouTube stream roster for Davis, Diesen, Alkorshid/Dialogue Works, Napolitano/Judging Freedom, and Mercouris: discover today's uploads, filter suspected clips, list main uploads first, materialize only the operator-approved subset into canonical raw-input, and suggest speaker-folder routing hints."
+description: "Check the daily tracked YouTube stream roster for Davis, Diesen, Alkorshid/Dialogue Works, Napolitano/Judging Freedom, and Mercouris: discover today's uploads with YouTube-first tooling, filter suspected clips, list main uploads first, materialize only the operator-approved subset into canonical raw-input, and suggest speaker-folder routing hints."
 portable: true
-version: 0.2.6
+version: 0.2.7
 tags:
   - operator
   - strategy
@@ -54,6 +54,35 @@ Short rule:
 
 The daily ingest workflow exists to support operator intent, not to outrank it.
 
+## Episode-object retrieval rule
+
+When the requested object is an **actual episode object** rather than a repo summary, discovery must start with the strongest available **YouTube-first** retrieval path.
+
+Examples:
+
+- `show me the episode titles and urls`
+- `find more mearsheimer, feb 2025`
+- `which Mearsheimer episodes are missing that month`
+
+Default behavior:
+
+- use the host's YouTube discovery tooling first
+- if `yt-dlp` is available in the host, treat it as the default direct-episode recovery path
+- return direct watch URLs and canonical episode titles first when they can be recovered
+
+Do **not** satisfy an episode-object request with only:
+
+- repo-local raw-input counts
+- prior receipts
+- secondary mirrors
+- web snippets
+
+when a direct YouTube-first recovery path is available and has not yet been tried.
+
+Short rule:
+
+`episode object requested -> yt-dlp / YouTube-first discovery first -> answer with titles + direct URLs -> stop`
+
 ## Meaning of "check streams"
 
 Default interpretation:
@@ -65,6 +94,8 @@ Default interpretation:
 If the operator says `check-streams` or `check streams` without narrowing it to `repo-only`, assume they want you to check the live source surfaces first, especially YouTube, and only then compare that result against local `raw-input`, receipts, and inventories.
 
 Do not silently collapse `check streams` into a repo-only audit unless the operator explicitly asks for a local-only check.
+
+If the operator asks for **episode objects**, **missing episode recovery**, or **show URLs**, a repo-only audit is not enough. Treat receipts and local inventories as secondary until the YouTube-first path has been attempted or has clearly failed.
 
 ## Mode split
 
@@ -79,6 +110,8 @@ Short rule:
 `discover -> compare -> repair only if asked or clearly supplied`
 
 For bounded retrieval asks such as `find more Freeman`, `missing days list`, or `show URLs`, discovery should lead unless the operator explicitly says `repo-local`, `already on disk`, or similar.
+
+For those bounded retrieval asks, **discovery** means **direct-source discovery**, not merely searching local notes about prior discovery. If the host exposes `yt-dlp` or an equivalent YouTube retrieval tool, use that path before falling back to receipts, mirrors, or secondary web search.
 
 ## Status labels
 
@@ -104,6 +137,7 @@ Do not blur these states together in prose. In particular:
 - If you have only a **secondary listing URL** such as a podcast mirror, transcript mirror, Apple Podcasts, Art19, Podbay, Podchaser, or similar, say so plainly.
 - Do **not** synthesize, infer, or guess a `youtube.com/watch?v=` URL from partial evidence.
 - When a direct watch URL is missing, keep the item labeled `missing direct watch URL` until it is actually recovered.
+- When `yt-dlp` or an equivalent YouTube retrieval path is available, try that direct-source recovery before closing with only secondary URLs, unless the operator explicitly asked for a repo-local or web-only answer.
 
 ## Inventory staleness rule
 
@@ -118,6 +152,27 @@ Before reporting an item as missing locally, check the actual date folders and l
 Short rule:
 
 `inventory is a hint, raw-input tree is the authority`
+
+The maintained helper surface for quick repo-wide lookup is `codex/years/2026/raw-input/raw-input-master-index.md` with `raw-input-master-index.json` as the machine-readable companion. Use it as a fast route map, but if the index and the tree ever disagree, the dated raw-input folders win.
+
+The companion audit surfaces are `codex/years/2026/raw-input/raw-input-index-audit.md/json`. They are heuristic architecture checks, not authority and not a hard gate.
+
+## Index hierarchy and routing choice
+
+After materialization, treat the routing stack this way:
+
+- the raw-input master index is the maintained corpus-wide route map
+- a speaker raw-input index is added only when it functions as a real `non-core appearance bench`
+- arc files remain interpretive surfaces by default
+
+Do not split an arc into a dedicated index surface unless the speaker-map threshold is met: the arc is no longer a practical front door, the items form a distinct retrieval domain, and the new surface would answer a different operator question than the neighboring bench or arc.
+
+If a speaker is touched during ingest or routing, choose one of these outcomes explicitly:
+
+- existing speaker raw-input index
+- existing host / core lane
+- existing arc / object / routing surface
+- explicit note that no new index is justified
 
 ## Month-ledger closeout
 
@@ -283,6 +338,7 @@ If a stream has no upload on the target day, say so explicitly.
 
 1. **Discover today's uploads**
    - Query the tracked channels for the operator's local day.
+   - Prefer a direct-source YouTube retrieval path. When available in the host, use `yt-dlp` as the default discovery and metadata-recovery tool before falling back to weaker channel-page or web-snippet methods.
    - Prefer the channel's **uploads playlist / channel-id feed** over a handle-based `/videos` page.
    - Treat a handle page as a fallback only; some channels can undercount, mis-order, or hide same-day uploads there.
    - Preserve the **direct YouTube watch URL** for every discovered item. If discovery only surfaces a title through a secondary listing, keep that item flagged as unresolved until the watch URL is recovered or the operator explicitly accepts a scaffold.
@@ -326,6 +382,7 @@ If a stream has no upload on the target day, say so explicitly.
      - verify the written raw-input has a non-stub transcript body before reporting success
    - Review `.codex-tmp/youtube-raw-input/<run-id>/materialization-summary.md` and `capture-summary.md` before claiming capture.
    - For apply-mode runs with `--with-appearances`, expect the materializer to refresh `artifacts/host-shelf-quality/<year>/<host>/<YYYY-MM>/quality-summary.md/json` unless `--no-quality-report` was explicitly used.
+   - For all apply-mode materialization runs, expect the materializer to refresh `codex/years/2026/raw-input/raw-input-master-index.md` and `raw-input-master-index.json`.
    - Close materialization/densification claims with the mandatory quality line from the capture summary: `Structure: <delta> | Purity: <delta/%> | Unresolved: <count> | Git: on-disk/verified/not-committed/not-pushed`.
    - Preserve the receipt scope: materializer host-quality closeouts are `full-host-month`, even when the capture run started from one transcript.
    - Do not treat new routeable appearances as textual purity gains unless the quality report shows transcript-grade, cleaned-transcript, or transcript-bearing improvement.

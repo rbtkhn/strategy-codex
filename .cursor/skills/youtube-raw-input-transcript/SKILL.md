@@ -119,14 +119,24 @@ In strategy-codex, this skill is also the shared **transcript + appearance mater
      - `speaker-routing-queue.md/jsonl`
      - `memory-action-queue.md/jsonl`
      - `artifacts/host-shelf-quality/<year>/<host>/<YYYY-MM>/quality-summary.md/json`
+     - `codex/years/2026/raw-input/raw-input-master-index.md/json`
+     - `codex/years/2026/raw-input/raw-input-index-audit.md/json`
      - `.codex-tmp/youtube-raw-input/<run-id>/capture-summary.md`
    - Route only files from the approved run or densification tranche; do not sweep every file in the same date folder.
    - For `--apply --with-appearances`, keep the host-shelf quality report enabled unless the operator explicitly uses `--no-quality-report`.
+   - Any `--apply` run should leave the raw-input master index refreshed; treat that index as a maintained route map, not as stronger authority than the dated raw-input folders themselves.
+   - The companion raw-input index audit is advisory only. Use it to spot index sprawl or plausible missing benches, but do not let it outrank the dated tree or turn ordinary capture into a hard failure.
    - Close every densification pass with the quality contract line: `Structure: <delta> | Purity: <delta/%> | Unresolved: <count> | Git: on-disk/verified/not-committed/not-pushed`.
    - For ordinary one-off or daily captures, close with raw-input path, `youtube_id`, `caption_kind`, `caption_language`, `body_word_count`, `evidence_grade`, and verification reason.
    - Treat item and shelf receipts as separate scopes: a one-off capture closes on the raw-input item's own non-stub, provenance, evidence-grade, and residual-noise verdict; materializer quality reports are `full-host-month` shelf benchmarks. If a single-file run differs from the monthly shelf baseline, name the scope explicitly instead of implying shelf regression or reopening a clean item.
    - Distinguish topological progress from text-quality progress: route count and shelf coverage are not the same as transcript-grade or cleaned-transcript purity.
    - Stop at advisory artifacts unless the operator separately asks to edit speaker objects, arcs, helixes, lattice rows, or other interpretation surfaces.
+   - If a speaker is touched during ingest or routing, resolve it through one of these paths and say which one applies when useful:
+     - existing speaker raw-input index
+     - existing host / core lane
+     - existing arc / object / routing surface
+     - explicit note that no new index is justified
+   - Do not create an arc-specific index by default. Arc files stay interpretive unless the doctrine threshold is clearly met: the parent arc is no longer a practical front door, the indexed items form a distinct retrieval domain, and the new surface answers a different operator question than the neighboring bench or arc.
 
 ## Guardrails
 

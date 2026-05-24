@@ -1,5 +1,12 @@
 # Strategy raw input (full retention, 7 days)
+<!-- master-index: raw-input-master-index.md -->
 <!-- word_count: 1720 -->
+
+**Master index:** [`raw-input-master-index.md`](raw-input-master-index.md) is the generated corpus-wide route map for this tree, with [`raw-input-master-index.json`](raw-input-master-index.json) as its machine-readable companion. It is a maintained summary surface, not the authority itself: the dated `raw-input/` folders remain canonical.
+
+The companion audit surface is [`raw-input-index-audit.md`](raw-input-index-audit.md), with [`raw-input-index-audit.json`](raw-input-index-audit.json) as its machine-readable companion. It is heuristic and non-gating by design: use it to spot index sprawl, weak index justification, and plausible missing benches without letting it outrank the canonical tree.
+
+Rebuild command: `python scripts/raw_input_master_index.py --raw-root codex/years/2026/raw-input --apply` (or let `materialize_youtube_raw_input.py --apply` refresh it automatically).
 
 **Purpose:** Store **complete** transcripts and **all** strategy-ingest source material you want kept verbatim — without bloating [daily-strategy-inbox.md](../daily-strategy-inbox.md) or hitting the **~2000 word** per-block budget on [experts/*/transcript.md](../experts/ritter/transcript.md) that **`thread`** triage targets.
 
@@ -42,6 +49,22 @@ When a file is a valid speaker capture, correct YAML and correct storage day are
 **Speaker wiring doctrine:** For the speaker-side route-map version of this rule, see [codex/speakers/map/README.md](../../../speakers/map/README.md). This README is the canonical storage-side contract.
 
 **Closure doctrine:** The governing repo-level closure line lives in [architectural-fullness.md](../../../docs/architectural-fullness.md) and its supporting [lifecycle-closure-audit.md](../../../docs/lifecycle-closure-audit.md). This README applies that doctrine to storage and routing for speaker captures.
+
+## Index hierarchy
+
+Use the indexing ladder sparsely and on purpose:
+
+- `raw-input-master-index.md/json` = the only corpus-wide route map for this tree
+- speaker raw-input indexes = selective retrieval benches when a speaker needs a real `non-core appearance bench`
+- arc files = interpretive surfaces, not default index surfaces
+
+Per-arc indexes are exceptional, not standard. Do not create a dedicated arc index merely because an arc has chronology, multiple pages, or month-level density. The default path is:
+
+- global lookup through the master index
+- speaker-side retrieval through an existing speaker raw-input index when one is justified
+- interpretation through the arc itself
+
+If an arc-specific index is proposed, it should satisfy the stronger speaker-map threshold: the parent arc is no longer a practical front door, the indexed items form a distinct retrieval domain rather than a chronology, and the new surface answers a different operator question than the neighboring speaker index or arc.
 
 ## Raw-Input Wiring Contract
 

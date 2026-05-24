@@ -102,6 +102,7 @@ These traps recur across very different surfaces:
 - `ownership collapse`: provenance, visibility, and interpretation silently blur into one another
 - `discovery parking lot`: unresolved or temporary surfaces become long-term homes
 - `maturity drift`: orientation scaffolds are treated as if they were already stable architecture
+- `index proliferation`: new index-like surfaces appear faster than new operator questions, so retrieval duplicates interpretation and route ownership becomes blurry
 
 ## Review Questions
 
