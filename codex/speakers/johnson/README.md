@@ -2,45 +2,22 @@
 
 WORK only; not Record.
 
-This folder is the **speaker-object entry surface** for Larry Johnson.
+This legacy codex front door is now compatibility-only.
 
-Open here first when the question is not merely "what did Johnson say," but **which host lane should carry the Johnson reading**.
+Canonical Johnson statecraft work now lives at:
 
-## Start here
+- [statecraft/speakers/johnson/README.md](/C:/dev/strategy-codex/statecraft/speakers/johnson/README.md)
+- [statecraft/speakers/johnson/index.md](/C:/dev/strategy-codex/statecraft/speakers/johnson/index.md)
 
-- [johnson-arc.md](/C:/dev/strategy-codex/codex/speakers/johnson/johnson-arc.md)
-- [johnson-routing.md](/C:/dev/strategy-codex/codex/speakers/johnson/johnson-routing.md)
-- [johnson-surface-orthogonality-2026-05.md](/C:/dev/strategy-codex/codex/speakers/johnson/johnson-surface-orthogonality-2026-05.md)
+Open the statecraft shelf for:
 
-## Structural notes
+- person arc
+- routing
+- raw-input bench
+- helix
+- support spine
+- bounded January through May 2026 monthly synthesis
+- April-May dense-core strand atlas
+- `civ-emp` historical audit scaffold
 
-- [johnson-helix.md](/C:/dev/strategy-codex/codex/speakers/johnson/johnson-helix.md)
-- [johnson-april-may-2026-arc-threads.md](/C:/dev/strategy-codex/codex/speakers/johnson/stream/johnson-april-may-2026-arc-threads.md)
-- [johnson-april-2026-cross-host-arc.md](/C:/dev/strategy-codex/codex/speakers/johnson/stream/johnson-april-2026-cross-host-arc.md)
-- [johnson-may-2026-cross-host-arc.md](/C:/dev/strategy-codex/codex/speakers/johnson/stream/johnson-may-2026-cross-host-arc.md)
-- [johnson-cross-year-note.md](/C:/dev/strategy-codex/codex/speakers/johnson/johnson-cross-year-note.md)
-- [johnson-backward-extension-note.md](/C:/dev/strategy-codex/codex/speakers/johnson/johnson-backward-extension-note.md)
-- [Jiang vs Johnson - May 2026](/C:/dev/strategy-codex/codex/speakers/relations/jiang-vs-johnson-2026-05.md)
-
-## Compatibility shape
-
-This shelf already has a genuine canonical continuity structure:
-
-- [johnson-arc.md](/C:/dev/strategy-codex/codex/speakers/johnson/johnson-arc.md) is the canonical person-level continuity surface
-- [johnson-helix.md](/C:/dev/strategy-codex/codex/speakers/johnson/johnson-helix.md) is the crossing surface
-- [johnson-april-may-2026-arc-threads.md](/C:/dev/strategy-codex/codex/speakers/johnson/stream/johnson-april-may-2026-arc-threads.md) is the canonical recurring-strand atlas for the dense April-May 2026 core
-- [johnson-april-2026-cross-host-arc.md](/C:/dev/strategy-codex/codex/speakers/johnson/stream/johnson-april-2026-cross-host-arc.md) and [johnson-may-2026-cross-host-arc.md](/C:/dev/strategy-codex/codex/speakers/johnson/stream/johnson-may-2026-cross-host-arc.md) are the bounded month-spine surfaces for that core
-- the three main host-local arcs carry the distinct host transformations
-- [johnson-cross-year-note.md](/C:/dev/strategy-codex/codex/speakers/johnson/johnson-cross-year-note.md) preserves the longitudinal maturity claim
-- [johnson-backward-extension-note.md](/C:/dev/strategy-codex/codex/speakers/johnson/johnson-backward-extension-note.md) preserves the governed path from the dense 2026 core back into late 2025 and then the thinner early-2025 roots
-
-The older [johnson-thread.md](/C:/dev/strategy-codex/codex/speakers/johnson/johnson-thread.md) file is therefore a **legacy continuity compatibility surface**, not a second canonical topical-thread system.
-
-Do not treat `johnson-thread.md` as competing with the helix, the month spines, the recurring-strand atlas, or the host-local arc structure. Johnson now uses the full Freeman-style continuity pattern: person arc, helix, host-local transformations, bounded month spines, canonical recurring-strand atlas, and a backward-extension path.
-
-## Host lanes
-
-- [Diesen x Johnson](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-johnson-speaker-arc.md)
-- [Davis x Johnson](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-johnson-speaker-arc.md)
-- [Dialogue Works x Johnson](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-johnson-speaker-arc.md)
-- [Judging Freedom x Johnson](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-johnson-speaker-arc.md)
+Keep this codex folder as compatibility residue, migration scaffolding, and older supporting material only.

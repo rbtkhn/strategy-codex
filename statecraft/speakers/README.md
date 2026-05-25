@@ -73,3 +73,4 @@ The active normalized 2026 shelf set is:
 - [Mercouris](mercouris/README.md)
 - [Macgregor](macgregor/README.md)
 - [Ritter](ritter/README.md)
+- [Johnson](johnson/README.md)
