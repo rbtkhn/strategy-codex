@@ -1,4 +1,6 @@
 generated_by: scripts/strategy/build_ritter_refined_pages.py
+compatibility_note: "Codex-side refined pages remain compatibility residue after the canonical Ritter migration; use statecraft/speakers/ritter/README.md and the canonical month ladder first."
+canonical_shelf: /C:/dev/strategy-codex/statecraft/speakers/ritter/README.md
 primary_capture_count: 24
 backlog:
 - note: Substack *The Consequences of Incompetence* (2026-04-19) — listed in inbox/transcript;
@@ -270,7 +272,8 @@ pages:
   preamble_label: Aired
   preamble_date: '2026-04-17'
   display_title: Russia Threatens Strike on Finland & Baltic States
-  source_url: https://www.youtube.com/watch?v=TBD-diesen-ritter-finland-baltic-2026-04
+  source_url: unresolved-local-watch-url
+  source_url_note: canonical YouTube watch URL unresolved locally; use href_verbatim until pinned
   href_verbatim: ../../../../years/2026/raw-input/2026-04-17/transcript-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md
 - raw_input_relative: raw-input/2026-04-20/judging-freedom-trump-hegseth-2026-04-20.md
   voice_date: '2026-04-20'
@@ -282,7 +285,7 @@ pages:
   preamble_label: Aired
   preamble_date: '2026-04-20'
   display_title: Trump and Hegseth Haven't a Clue
-  source_url: https://www.youtube.com/watch?v=TBD-judging-freedom-ritter-2026-04-20
+  source_url: https://www.youtube.com/watch?v=QRkC8xniXkQ
   href_verbatim: ../../../../years/2026/raw-input/2026-04-20/judging-freedom-trump-hegseth-2026-04-20.md
 - raw_input_relative: raw-input/2026-04-20/ritter-rant-shorting-america-7pXI52jKcOU.md
   voice_date: '2026-04-20'
