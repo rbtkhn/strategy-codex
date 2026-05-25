@@ -43,6 +43,12 @@ The strongest current motion is:
 
 That motion is why the daily pages belong to one arc rather than only to a dated episode pile.
 
+January 2026 is the **continuity-setup month** immediately before that bridge: the point where Europe shock, Iran pressure, Ukraine deterioration, and opening negotiation hardening begin to gather without yet fully fusing.
+
+February 2026 is currently the clearest **bridge month** inside that motion: the point where negotiation hardening, dirty-war escalation, Ukrainian infrastructure collapse, and widening Iran/Europe coupling become one continuous sequence, but before the March-May dense core fully stabilizes.
+
+March 2026 is the first **mature dense-core month** in that motion: the point where Hormuz, Iran-war attrition, sanctions-energy shock, Russia-China-Iran coordination, and Ukraine/Europe exhaustion become one sustained retrieval object rather than a bridge into one.
+
 ## Host-Local Branches
 
 Current reinforcement branches:
@@ -65,6 +71,9 @@ If the operator needs the durable thesis layer:
 If the operator needs dated continuity:
 
 - open [mercouris-thread.md](mercouris-thread.md)
+- open [mercouris-shelf-2026-01.md](mercouris-shelf-2026-01.md)
+- open [mercouris-shelf-2026-02.md](mercouris-shelf-2026-02.md)
+- open [mercouris-shelf-2026-03.md](mercouris-shelf-2026-03.md)
 - open [mercouris-shelf-2026-04.md](mercouris-shelf-2026-04.md)
 - open [mercouris-shelf-2026-05.md](mercouris-shelf-2026-05.md)
 

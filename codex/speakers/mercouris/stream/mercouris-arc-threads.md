@@ -32,6 +32,9 @@ If a new Mercouris item can live equally well in several of these without changi
 ## Route Stack
 
 - [Mercouris arc](mercouris-arc.md)
+- [January setup shelf](mercouris-shelf-2026-01.md)
+- [February bridge shelf](mercouris-shelf-2026-02.md)
+- [March dense-core shelf](mercouris-shelf-2026-03.md)
 - [Mercouris thread](mercouris-thread.md)
 - [April shelf](mercouris-shelf-2026-04.md)
 - [May shelf](mercouris-shelf-2026-05.md)
@@ -51,6 +54,16 @@ Anchors:
 - 2026-05-06 - Hormuz rollback / Axios memo / unipolar moment: [raw-input](../../../years/2026/raw-input/2026-05-06/youtube-mercouris-hormuz-rollback-axios-memo-unipolar-moment-2026-05-06.md)
 
 Arc-thread motion: the strand begins as close reading of official rooms and public statements, then turns into a statecraft grammar for reading blockade announcements, ceasefire windows, warning language, and visible retreat.
+
+January setup note: January 2026 gathers the institutional ingredients that February later fuses. Trump-Europe shock, the early negotiation room, and widening non-Ukraine pressure are already being read as one developing sequence, but not yet as the harder theater of February.
+
+February bridge note: this strand thickens decisively in February 2026, when Abu Dhabi / Geneva negotiation sequencing stops reading as mere diplomatic process and starts reading as hardening theater. The bridge month matters here because Mercouris begins fusing room-reading, retaliation logic, and visible stress signals into one continuous institutional narrative rather than treating them as adjacent updates.
+
+March dense-core note: by March 2026 this strand is no longer only bridging. It becomes a stable dense-core object: official-room sequencing, failed ultimatums, and public coercive theater are all being read inside one sustained Iran-Hormuz-world-order crisis field.
+
+April dense-core note: April keeps this strand dense by shifting from first-shock sequencing to durability-testing. The question becomes whether diplomacy, ultimata, and blockade claims can still impose outcomes once the alternative room has already thickened.
+
+May frontier dense-core note: May carries the same strand forward at the live edge. Official-room reading now centers on rollback theater, coalition stress, and the credibility gap between warning language and executable power.
 
 Distinct from:
 
@@ -72,6 +85,14 @@ Anchors:
 - 2026-05-05 - Hormuz / UAE / Russia / China: [raw-input](../../../years/2026/raw-input/2026-05-05/transcript-mercouris-hormuz-uae-russia-china-2026-05-05.md)
 
 Arc-thread motion: March frames Hormuz as shock, closure, and energy leverage; April turns it into blockade credibility and U.S. retreat theater; May reads the same object as a Gulf-China-Russia-U.S. bargaining system.
+
+February bridge note: February does not yet make Hormuz the full system lever it becomes later, but it is the month where Iran-facing escalation starts coupling directly to the native Mercouris stream. The bridge function here is preparatory: Russia-China-Iran coordination, war-read language, and widening confrontation make the later Hormuz-centered system object legible before March turns it into the dominant lever.
+
+March dense-core note: March is the month where this strand fully stabilizes. Hormuz is no longer just preparatory context but the central system lever binding energy shock, Gulf pressure, U.S. naval credibility, Russia-China diplomacy, and the wider coercion-failure read into one repeatable object.
+
+April dense-core note: April tests that stabilized lever under continued pressure. The core question is no longer whether Hormuz matters, but whether blockade claims, bargaining leverage, and Gulf-state exposure can be sustained in practice.
+
+May frontier dense-core note: May advances this strand into rollback and deterrent-management territory. Hormuz remains central, but the emphasis shifts toward the political and strategic consequences of an unresolved chokepoint rather than the first closure shock.
 
 Distinct from:
 
@@ -98,6 +119,16 @@ Anchors:
 
 Arc-thread motion: the strand moves from battlefield pressure to institutional exhaustion: Europe cannot fund and arm at the level its rhetoric implies, Ukraine's command and corruption crises become strategic variables, and Russia's tempo forces political choices.
 
+January setup note: January already prepares this strand by shifting the Ukraine read from front-line commentary toward reserve strain, strike preparation, and visible Kiev stress. The month matters as setup because the exhaustion logic is gathering before February turns it into explicit instrument-failure reading.
+
+February bridge note: this strand hardens sharply in February 2026. The Alexeyev attempt, Ukraine's energy collapse, Oreshnik fear, and Zelensky-side stress all make the war look less like ordinary attritional pressure and more like exhaustion of the Western-managed instrument itself. February is therefore the bridge from battlefield commentary into overt instrument-failure reading.
+
+March dense-core note: March keeps this strand inside the dense core by making Ukraine exhaustion downstream of the Iran-war and arsenal-depletion field. The result is a more stable reading of Western instrument failure across theaters rather than a Ukraine-only exhaustion thesis.
+
+April dense-core note: April sustains that cross-theater exhaustion read by tying Iran pressure, European drone posture, and continuing Ukraine fragility into one operational field rather than letting Ukraine drift back into a separate story.
+
+May frontier dense-core note: May moves this strand toward command-and-corruption exposure inside Kiev. The exhaustion logic now appears not only in weapons and alliance strain, but in the internal governability of the Ukrainian instrument itself.
+
 Distinct from:
 
 - `Western legitimacy crisis moves from Europe to the whole order`, which is about political authority erosion rather than proxy-war instrument exhaustion
@@ -118,6 +149,16 @@ Anchors:
 
 Arc-thread motion: sanctions appear first as pressure tools, then as self-damaging exposure of supply dependency, energy-market limits, and European political brittleness.
 
+January setup note: January contributes early setup here by coupling Trump-Europe shock, tariff and strategic disorientation language, and widening external-pressure fields to the later self-damage read. It is not yet the dominant sanctions-and-energy month, but it begins to make the dependency pattern legible.
+
+February bridge note: the sanctions-and-energy strand is present in February more as widening context than as its own dominant object. The bridge-month value is that energy collapse inside Ukraine and Russia-China / Cuba / Iran linkage begin to push Mercouris toward a larger self-damage and dependency read that later becomes more explicit in March through May.
+
+March dense-core note: March is where this strand becomes explicit and repeatable. Energy shock, exports, sanctions unraveling, and recession-fear logic cease to be background context and become one of the stable structural pillars of the month's crisis object.
+
+April dense-core note: April keeps this pillar active by moving from pure shock into bargaining-system stress, Gulf exposure, and continued fuel-pressure logic. The self-damage read remains structural rather than episodic.
+
+May frontier dense-core note: May carries the same strand into live coalition brittleness and rollback consequences. The emphasis is less on first-order price shock and more on whether the West still has coherent economic tools left that match its rhetoric.
+
 Distinct from:
 
 - `Ukraine attrition becomes Western instrument exhaustion`, which focuses on proxy-war material failure rather than sanctions blowback
@@ -137,6 +178,16 @@ Anchors:
 - 2026-05-15 - China warns U.S. over Taiwan / will not pressure Iran: [raw-input](../../../years/2026/raw-input/2026-05-15/youtube-alex-mercouris-china-warns-us-of-war-over-taiwan-won-t-pressure-iran-russia-hunts-destroys-us-ukraine-investments-2026-05-15.md)
 
 Arc-thread motion: Russia and China begin as diplomatic responders to U.S. overreach, then become part of an alternative room that complicates U.S. coercion against Iran and Ukraine at the same time.
+
+January setup note: January lays the groundwork for this strand by widening the native stream beyond Ukraine-only framing and making early Iran pressure, Trump shock, and alternative diplomatic positioning part of the same running field. The room is not yet thick, but its contours are forming.
+
+February bridge note: this is one of the clearest February bridge strands. The month's repaired nodes, especially around 2026-02-14, 2026-02-15, and 2026-02-19, show Mercouris moving from simple commentary on parallel actors to a more explicit alternative-room read in which Russia, China, Iran, and even Cuba begin to appear inside one widening diplomatic and strategic field.
+
+March dense-core note: March turns that widening room into a stable dense-core feature. Russia-China-Iran coordination now recurs often enough, and under enough pressure, that it reads as a durable alternative diplomatic architecture rather than a series of parallel reactions.
+
+April dense-core note: April deepens the room by adding backfill, tanker protection, and bargaining persistence. Coordination is no longer only visible in warnings; it is visible in the practical maintenance of the alternative field.
+
+May frontier dense-core note: May keeps this strand at the frontier by showing the alternative room surviving U.S. rollback theater and continuing to shape the pace of escalation even when public Western language still claims initiative.
 
 Distinct from:
 
@@ -159,6 +210,16 @@ Anchors:
 - 2026-05-19 - Russia warns NATO / Baltic war test / nuclear forces: [raw-input](../../../years/2026/raw-input/2026-05-19/youtube-alex-mercouris-russia-warns-nato-baltic-war-test-nuclear-forces-putin-to-china-trump-iran-retreat-konstantinovka-2026-05-19.md)
 
 Arc-thread motion: early reinforcement through Davis frames NATO wartime posture; the later Davis branch adds rule-of-law erosion and U.S. force-posture legitimacy; Diesen makes the European legitimacy crisis explicit; late-May native stream material shows the same crisis moving through Moldova, Belarus, Baltic warning, Russia talks, and NATO escalation rhetoric.
+
+January setup note: January is an important setup month here because Europe's strategic disorientation, Greenland shock, and widening mismatch between anti-Russia language and real capacity begin to accumulate before February makes legitimacy crisis a clearer explicit object.
+
+February bridge note: this strand also matures in February. Europe's war rhetoric, UK internal crisis, anti-Russia theatricality, and the widening mismatch between language and material reality begin to converge into a real legitimacy-crisis read rather than remaining separate British, EU, or NATO irritants. February is therefore the bridge into the later explicit Europe-wide legitimacy phase.
+
+March dense-core note: March keeps this strand inside the dense core by tying Europe and U.S. legitimacy stress to the same failed-coercion, sanctions, and war-capacity field. The legitimacy problem is now not only rhetorical mismatch but a persistent systems-level inability to make language, force, and economic tools cohere.
+
+April dense-core note: April sustains this legitimacy read through persistence rather than rupture. Europe and the wider West now look less like shocked actors and more like systems trapped in a credibility problem they cannot resolve.
+
+May frontier dense-core note: May pushes the legitimacy strand into internal brittleness and coalition fatigue. The mismatch between language and capacity is now joined by visible political and command strain inside the same Western-managed field.
 
 Distinct from:
 

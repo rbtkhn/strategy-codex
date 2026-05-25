@@ -25,6 +25,8 @@ The native Mercouris stream is therefore not background evidence for some higher
 
 Use [mercouris-arc.md](/C:/dev/strategy-codex/codex/speakers/mercouris/stream/mercouris-arc.md) when the question is about the bounded arc shape. Use the thread atlas when the question is about durable theses. Use the monthly shelves and pages when the question is about dated sequencing.
 
+Mercouris now also has visible month-support stratification inside the native stream: January functions as a **continuity-setup month**, February functions as a **mature bridge month**, while March through May function as **mature dense-core shelves**.
+
 ## Why Mercouris matters
 
 Mercouris carries a distinct utility profile:
@@ -63,6 +65,18 @@ See [mercouris-cross-host-note.md](/C:/dev/strategy-codex/codex/speakers/mercour
 If the operator needs the best current entry into the speaker object:
 
 - open [mercouris-shelf-2026-05.md](/C:/dev/strategy-codex/codex/speakers/mercouris/stream/mercouris-shelf-2026-05.md)
+
+If the operator needs the escalation bridge rather than the live frontier:
+
+- open [mercouris-shelf-2026-02.md](/C:/dev/strategy-codex/codex/speakers/mercouris/stream/mercouris-shelf-2026-02.md)
+
+If the operator needs the pre-bridge setup rather than the escalation bridge or live frontier:
+
+- open [mercouris-shelf-2026-01.md](/C:/dev/strategy-codex/codex/speakers/mercouris/stream/mercouris-shelf-2026-01.md)
+
+If the operator needs the first dense-core crisis month rather than the bridge or latest frontier:
+
+- open [mercouris-shelf-2026-03.md](/C:/dev/strategy-codex/codex/speakers/mercouris/stream/mercouris-shelf-2026-03.md)
 
 If the operator needs the sharpest current frontier page:
 
