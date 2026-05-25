@@ -63,6 +63,7 @@ Use these tests in order:
 
 - Route to `state-america` when lawful authority, burden-sharing, bounded coercion, or successor-stable settlement is central.
 - Route to `state-china` when continuity, order, anti-disorder legitimacy, route stability, or quiet leverage is central.
+  Fast China signals: flow or corridor stabilization problems, visible-disorder ownership traps, administrative-carry questions, and market-calming needs without overt coercive theater.
 - Route to `state-persia` when dignity, sovereignty, recognition, leverage under pressure, or verification without humiliation is central.
   Fast Persia signals: supervision-before-recognition sequencing, dignity pressure, reversible relief traps, and chokepoint or survivability leverage under coercive time pressure.
 - Route to `state-russia` when depth, parity, anti-managed humiliation, disruption, or equilibrium-bearing recognition is central.
