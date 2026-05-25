@@ -6,7 +6,7 @@ description: "Bridge a live speaker claim into the correct Persia/Iran CIV-EMP r
 
 # Statecraft Bridge
 
-`statecraft-bridge` is the post-lane bridge step for Persia/Iran speaker-state intake. It is a retrieval-conditioning surface, not an ownership surface. It is not a fifth lane, not a coffee menu option, and not a substitute for `state-deploy` or `state-persia`.
+`statecraft-bridge` is the post-lane bridge step for Persia/Iran speaker-state intake. It is a retrieval-conditioning surface, not an ownership surface. It is not a fifth lane, not a general coffee submenu, and not a substitute for `state-deploy` or `state-persia`.
 
 Use it when the object is already speaker-heavy and Persia/Iran-owned, but still needs the right `civ-emp` retrieval profile before lane-local drafting begins.
 

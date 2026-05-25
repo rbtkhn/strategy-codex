@@ -32,14 +32,16 @@ Restore this canonical sequence next:
 Reopen with these questions:
 
 1. What is the real crisis object?
-2. Which lane owns the settlement logic?
-3. What is the narrowest honest output form?
-4. What belongs downstream in statecraft, and what belongs back upstream to `civ-emp`?
+2. Which constitutional layer owns the next move?
+3. Which lane owns the settlement logic if ownership is already clear?
+4. What is the narrowest honest output form?
+5. What belongs downstream in statecraft, and what belongs back upstream to `civ-emp`?
 
-On first contact, force these three calls early:
+On first contact, force these calls early:
 
 - **crisis object**: what is actually being contested?
-- **lane ownership**: who has to carry the settlement logic?
+- **constitutional layer**: is the next move deploy, compact, speaker-bridge, or lane-direct?
+- **lane ownership**: who has to carry the settlement logic once routing narrows?
 - **output form**: is this still commentary, already a lane note, or near a transaction-use brief?
 
 When reopening from one live object, take the first valid move in this order:
@@ -173,12 +175,13 @@ If those are missing, stop earlier. Early stopping is healthy architecture, not 
 
 ## Precedence Rules
 
-1. `coffee -> C. Statecraft` opens the system front door.
+1. `coffee -> C. Statecraft` opens the router-first front door.
 2. `state-deploy` answers `who owns this object now?`
-3. `state-*` skills answer `what can this owner legitimately draft, carry, accept, reject, and institutionalize?`
-4. `statecraft-bridge` answers `which retrieval profile should read this Persia/Iran speaker-heavy object?`
-5. the transaction router answers `does this belong to an existing transaction plateau object?`
-6. review queues and pending files capture learning without silent rewrite
+3. `compact` owns cross-lane or objection-shaped objects after ownership is understood.
+4. `state-*` skills answer `what can this owner legitimately draft, carry, accept, reject, and institutionalize?`
+5. `statecraft-bridge` answers `which retrieval profile should read this Persia/Iran speaker-heavy object?`
+6. the transaction router answers `does this belong to an existing transaction plateau object?`
+7. review queues and pending files capture learning without silent rewrite
 
 ## CIV-EMP Protocol
 

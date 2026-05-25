@@ -21,7 +21,7 @@ Multiple `coffee` sessions per day are normal. That is not redundancy; it is the
 
 **Coffee Hub Menu (terminology):** **`coffee` Step 2** fixed **A-D** hub (**Steward / Engineer / Statecraft / Singularity**) is the **Coffee Hub Menu**. **Conductor** is separate and routes directly by conductor name: `toscanini`, `furtwangler`, `karajan`, `kleiber`, or `bernstein`. Bare `conductor` is incomplete and should ask for one of those names. Once a conductor name resolves, emit the **Conductor Action Menu**: four movement-labeled **A-D** repo-grounded next moves; see [CONDUCTOR-PASS - Conductor action MCQ](../../../docs/skill-work/work-coffee/CONDUCTOR-PASS.md#conductor-action-mcq). Layer map: [CONDUCTOR-LAYER-MAP.md](../../../docs/skill-work/work-coffee/CONDUCTOR-LAYER-MAP.md).
 
-**Legacy label compatibility:** Older checks and notes may say **`C. Strategy (daily brief)`**, **`C. Strategist`**, or daily brief via **C**. Treat those as compatibility aliases only. Live **C. Statecraft** now opens four civilizational-state lanes inside repo-root [statecraft](../../../statecraft/README.md): **America**, **China**, **Persia**, and **Russia**. Treaty, policy, negotiation, and Richelieu/Bismarck drafting remain available downstream inside those lanes. Daily brief, `check streams`, bookshelf elicitation, and generic current-events judgment now require explicit named requests. Use **`current-event`** when the operator names a recent event and wants it verified, classified, and converted into a statecraft object or instrument.
+**Legacy label compatibility:** Older checks and notes may say **`C. Strategy (daily brief)`**, **`C. Strategist`**, or daily brief via **C**. Treat those as compatibility aliases only. Live **C. Statecraft** now opens a router-first statecraft entry inside repo-root [statecraft](../../../statecraft/README.md): **Deploy**, **Compact**, **Speaker-Bridge**, or **Lane Direct**. Treaty, policy, negotiation, and Richelieu/Bismarck drafting remain available downstream after routing. Daily brief, `check streams`, bookshelf elicitation, and generic current-events judgment now require explicit named requests. Use **`current-event`** when the operator names a recent event and wants it verified, classified, and converted into a statecraft object or instrument.
 
 ## Guardrails
 
@@ -132,7 +132,7 @@ If the file is missing or empty below the anchor, state that under **Recent rhyt
 ### Step 1 ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â Automated actions (one flow, two weights)
 ### Statecraft C - civilizational-state lane routing
 **Detect intent**
-**Operator intent (strategy-codex default):** **coffee -> C - Statecraft** does **not** auto-run daily brief, `check streams`, bookshelf elicitation, or archived Tri-Frame. It presents the repo-root statecraft civilizational-state bench:
+**Operator intent (strategy-codex default):** **coffee -> C - Statecraft** does **not** auto-run daily brief, `check streams`, bookshelf elicitation, or archived Tri-Frame. It presents a router-first repo-root statecraft entry:
 
 - **A. America** - route to [America](../../../statecraft/america/README.md) when the drafting problem is hegemonic order under strain, legitimacy, burden-sharing, and bounded command.
 - **B. China** - route to [China](../../../statecraft/china/README.md) when the drafting problem is continuity, energy stability, industrial rhythm, and anti-chaos order management.
@@ -244,14 +244,31 @@ When hub **D** is chosen, reply with a bounded **Singularity menu - reply A-D** 
 
 - **B. Engineer** ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â **work-dev + skills/meta** (not git/ship or full membrane audits ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â those are **A**): `docs/skill-work/work-dev/` + [work-dev-sources.md](../../../docs/skill-work/work-dev/work-dev-sources.md); **skills / meta** when **`skills`** / **`meta`** with **B**. **work-cici** ops when engineering-shaped. **When hub B is chosen:** After **one short orientation line**, deliver **Engineer next moves** ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â **3ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã¢â‚¬Å“5 options** labeled **A through E** (**or AÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã¢â‚¬Å“D** if four), **each option its own line**, under an explicit heading such as **`Engineer menu ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â reply AÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã¢â‚¬Å“E`** ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â **not** `B1`ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã¢â‚¬Å“`B5` and not unlabeled lists. Each new submenu **restarts letters from A**; disambiguate from the **Coffee hub** with the menu title (same idea as **letter-collision** labeling for Conductor action MCQ vs hub). Each line is a **repo-grounded** plausible next step (work-dev wedge, script, CI, **skills** path) ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â **enumeration only** until the operator picks. Use Step 1 **`Lane context (for hub B / D)`** and [workspace.md](../../../docs/skill-work/work-dev/workspace.md) ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ **Next actions** when helpful. **Detail:** [menu-reference ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ Engineer (B) ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â detailed scope](../../../docs/skill-work/work-coffee/menu-reference.md#build-b--detailed-scope) *(legacy letter **Build** / old hub **A**).*
 
-- **C. Statecraft** - Opens the repo-root statecraft civilizational-state bench. Do **not** auto-run daily brief, `check streams`, bookshelf elicitation, or archived Tri-Frame before this submenu. Output:
-  - `Statecraft menu - reply A-D`
-  - `A. America - hegemonic order under strain`
-  - `B. China - civilizational stabilizer`
-  - `C. Persia - deep civilization, dignity, leverage, recognition`
-  - `D. Russia - strategic depth, disruption, optionality`
+- **C. Statecraft** - Opens the repo-root statecraft routing front door. Do **not** auto-run daily brief, `check streams`, bookshelf elicitation, or archived Tri-Frame before this submenu. Output one short orientation sentence using deployer pressure grammar, then:
+  - `Statecraft router - reply A-D`
+  - `A. Deploy - lane ownership unresolved`
+  - `B. Compact - cross-lane or objection-shaped object`
+  - `C. Speaker-Bridge - Persia/Iran speaker-heavy object after ownership is clear`
+  - `D. Lane Direct - ownership already clear`
 
-  After the pick, route directly to the corresponding lane front door: [America](../../../statecraft/america/README.md), [China](../../../statecraft/china/README.md), [Persia](../../../statecraft/iran/README.md), or [Russia](../../../statecraft/russia/README.md). Outside coffee, direct fast paths now belong to `state-deploy` for lane selection and `state-america`, `state-china`, `state-persia`, or `state-russia` for lane-owned drafting. Treaty frameworks, policy papers, negotiation briefs, and Richelieu/Bismarck stress tests remain downstream drafting moves inside those lanes. **Statecraft source use:** sources become instruments. Use [statecraft.md](../../../statecraft/statecraft.md), [METHOD.md](../../../statecraft/METHOD.md), [civ-emp](../../../statecraft/civ-emp/README.md), [treaty-framework.md](../../../statecraft/templates/treaty-framework.md), [policy-paper.md](../../../statecraft/templates/policy-paper.md), [negotiation-brief.md](../../../statecraft/templates/negotiation-brief.md), [richelieu.md](../../../statecraft/lenses/richelieu.md), and [bismarck.md](../../../statecraft/lenses/bismarck.md) after lane selection. Current-events watches, daily briefs, and stream checks remain explicit routes; specific recent-event analysis should start with **`current-event`** before becoming a statecraft artifact. *(Legacy hub **C - Strategist / daily brief** is compatibility-only.)*
+  Use recommendation law:
+  - recommend **A** when ownership is still unsettled
+  - recommend **B** when the object is already multi-actor and mechanism-shaped
+  - recommend **C** only when Persia/Iran ownership is already clear and the remaining uncertainty is Marandi-vs-Parsi retrieval
+  - recommend **D** when the lane is already explicit
+
+  Branch behavior:
+  - **A** routes directly to `state-deploy`
+  - **B** opens [statecraft/compact/README.md](../../../statecraft/compact/README.md)
+  - **C** routes to `statecraft-bridge`, but if ownership is still unresolved it must hand back to `state-deploy`
+  - **D** opens:
+    - `Lane Direct - reply A-D`
+    - `A. America - hegemonic order under strain`
+    - `B. China - civilizational stabilizer`
+    - `C. Persia - deep civilization, dignity, leverage, recognition`
+    - `D. Russia - strategic depth, disruption, optionality`
+
+  After a lane-direct pick, route directly to the corresponding lane front door: [America](../../../statecraft/america/README.md), [China](../../../statecraft/china/README.md), [Persia](../../../statecraft/iran/README.md), or [Russia](../../../statecraft/russia/README.md). Outside coffee, direct fast paths still belong to `state-deploy` for lane selection and `state-america`, `state-china`, `state-persia`, or `state-russia` for lane-owned drafting. Treaty frameworks, policy papers, negotiation briefs, and Richelieu/Bismarck stress tests remain downstream drafting moves after routing. **Statecraft source use:** sources become instruments. Use [statecraft.md](../../../statecraft/statecraft.md), [METHOD.md](../../../statecraft/METHOD.md), [civ-emp](../../../statecraft/civ-emp/README.md), [treaty-framework.md](../../../statecraft/templates/treaty-framework.md), [policy-paper.md](../../../statecraft/templates/policy-paper.md), [negotiation-brief.md](../../../statecraft/templates/negotiation-brief.md), [richelieu.md](../../../statecraft/lenses/richelieu.md), and [bismarck.md](../../../statecraft/lenses/bismarck.md) after routing. Current-events watches, daily briefs, and stream checks remain explicit routes; specific recent-event analysis should start with **`current-event`** before becoming a statecraft artifact. *(Legacy hub **C - Strategist / daily brief** is compatibility-only.)*
 
 - **D. Singularity** - **singularity-academy** WORK module: agency under acceleration, agent control planes, alignment/substrate/displacement tests, and reusable strategy artifacts. When hub D is chosen, open a bounded **Singularity menu - reply A-D** or recommend one default from that module.
 

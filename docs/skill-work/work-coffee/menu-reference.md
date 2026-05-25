@@ -4,17 +4,31 @@
 
 **Deprecation guard:** `companion-self` template sync and Grace-Mar-vs-template reconciliation are legacy/archive lanes in strategy-codex. Do not invoke them from bare **A. Steward**, `coffee`, integrity, or boundary hygiene unless the operator explicitly asks for that obsolete migration context.
 
-**Statecraft C - civilizational-state bench:** Choosing **C - Statecraft** presents the repo-root statecraft lane menu and nothing else:
+**Statecraft C - router-first statecraft bench:** Choosing **C - Statecraft** presents the repo-root statecraft router and nothing else:
 
 ```markdown
-Statecraft menu - reply A-D
+Statecraft router - reply A-D
+A. Deploy - lane ownership unresolved
+B. Compact - cross-lane or objection-shaped object
+C. Speaker-Bridge - Persia/Iran speaker-heavy object after ownership is clear
+D. Lane Direct - ownership already clear
+```
+
+Branch behavior:
+- **A** routes to `state-deploy`
+- **B** routes to [statecraft/compact/README.md](../../../statecraft/compact/README.md)
+- **C** routes to `statecraft-bridge` only when Persia/Iran ownership is already clear; otherwise bounce to `state-deploy`
+- **D** opens:
+
+```markdown
+Lane Direct - reply A-D
 A. America - hegemonic order under strain
 B. China - civilizational stabilizer
 C. Persia - deep civilization, dignity, leverage, recognition
 D. Russia - strategic depth, disruption, optionality
 ```
 
-After the lane pick, route directly to [America](../../../statecraft/america/README.md), [China](../../../statecraft/china/README.md), [Persia](../../../statecraft/iran/README.md), or [Russia](../../../statecraft/russia/README.md). **Statecraft sources:** [statecraft.md](../../../statecraft/statecraft.md), [METHOD.md](../../../statecraft/METHOD.md), [treaty-framework.md](../../../statecraft/templates/treaty-framework.md), [policy-paper.md](../../../statecraft/templates/policy-paper.md), [negotiation-brief.md](../../../statecraft/templates/negotiation-brief.md), [richelieu.md](../../../statecraft/lenses/richelieu.md), [bismarck.md](../../../statecraft/lenses/bismarck.md), and [sheets/README.md](../../../statecraft/sheets/README.md) remain downstream drafting tools after lane selection.
+After the lane-direct pick, route directly to [America](../../../statecraft/america/README.md), [China](../../../statecraft/china/README.md), [Persia](../../../statecraft/iran/README.md), or [Russia](../../../statecraft/russia/README.md). **Statecraft sources:** [statecraft.md](../../../statecraft/statecraft.md), [METHOD.md](../../../statecraft/METHOD.md), [treaty-framework.md](../../../statecraft/templates/treaty-framework.md), [policy-paper.md](../../../statecraft/templates/policy-paper.md), [negotiation-brief.md](../../../statecraft/templates/negotiation-brief.md), [richelieu.md](../../../statecraft/lenses/richelieu.md), [bismarck.md](../../../statecraft/lenses/bismarck.md), and [sheets/README.md](../../../statecraft/sheets/README.md) remain downstream drafting tools after routing.
 
 **Legacy C compatibility:** Older docs may map Daily Brief, Intel, Bookshelf quiz, or Bridge ideas to Coffee C. Those are explicit named routes now: `check streams` / daily brief for stream work, `current-event` for a named recent event that should be verified and converted into a statecraft object, `elicit-knowledge` / survey for Record-bound self-knowledge, and work-strategy / Predictive History requests for notebook synthesis. Coffee C owns them only when the operator asks to convert source material into a statecraft lane object or a downstream treaty, policy memo, negotiation brief, sanctions/alliance design, sovereignty argument, or institutional statecraft artifact.
 
@@ -105,16 +119,23 @@ The **first** coffee reply ends **Step 2** with the fixed menu. **Follow-up beha
 
 <a id="tri-frame-daily-brief"></a>
 
-### Statecraft C - civilizational-state lane routing
+### Statecraft C - router-first statecraft routing
 
-**Operator intent (strategy-codex default):** **`coffee` -> C - Statecraft** does **not** auto-run daily brief, `check streams`, bookshelf elicitation, or archived Tri-Frame. It presents exactly four civilizational-state options:
+**Operator intent (strategy-codex default):** **`coffee` -> C - Statecraft** does **not** auto-run daily brief, `check streams`, bookshelf elicitation, or archived Tri-Frame. It presents exactly four routing options first:
+
+- **A. Deploy** - lane ownership unresolved.
+- **B. Compact** - cross-lane or objection-shaped object.
+- **C. Speaker-Bridge** - Persia/Iran speaker-heavy object after ownership is clear.
+- **D. Lane Direct** - ownership already clear.
+
+Only after **D** does the lane-direct menu appear:
 
 - **A. America** - hegemonic order under strain.
 - **B. China** - civilizational stabilizer.
 - **C. Persia** - deep civilization, dignity, leverage, recognition.
 - **D. Russia** - strategic depth, disruption, optionality.
 
-After the pick, route directly to the lane front door. Treaty, policy, negotiation, and Richelieu/Bismarck drafting remain visible as the next drafting moves inside the lane rather than as the first coffee submenu.
+Treaty, policy, negotiation, and Richelieu/Bismarck drafting remain visible as downstream drafting moves after routing rather than as the first coffee submenu.
 
 When the operator asks for the daily main-stream update, route through the explicit **`check streams`** skill. That command owns the list-first daily Davis / Diesen / Alkorshid / Napolitano / Mercouris check; materialization still waits for operator selection and then hands approved URLs to the YouTube transcript workflow. `cognition streams` remains a legacy alias.
 

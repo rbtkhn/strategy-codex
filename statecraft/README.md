@@ -8,14 +8,14 @@ Open [statecraft.md](statecraft.md) first when you need the full continuity surf
 
 ## Front Door
 
-`coffee -> C. Statecraft` enters here through four civilizational-state lanes:
+`coffee -> C. Statecraft` now enters here through a router-first front door:
 
-- [America](america/README.md) - hegemonic order under strain
-- [China](china/README.md) - civilizational stabilizer
-- [Iran / Persia](iran/README.md) - deep civilization, dignity, leverage, recognition
-- [Russia](russia/README.md) - strategic depth, disruption, optionality
+- `Deploy` - lane ownership unresolved
+- `Compact` - cross-lane or objection-shaped object
+- `Speaker-Bridge` - Persia/Iran speaker-heavy object after ownership is clear
+- `Lane Direct` - ownership already clear, then choose America, China, Iran/Persia, or Russia
 
-The first decision is which lane is actually carrying the settlement problem. If ownership is unresolved, use `state-deploy`. If ownership is already clear and the object is Persia/Iran speaker-heavy, `statecraft-bridge` is the post-lane retrieval step when adapter choice is still the real uncertainty.
+The first decision is which constitutional layer is actually carrying the next move. If ownership is unresolved, use `state-deploy`. If the object is already multi-actor and mechanism-shaped, use [compact](compact/README.md). If ownership is already clear and the object is Persia/Iran speaker-heavy, `statecraft-bridge` is the post-lane retrieval step when adapter choice is still the real uncertainty.
 
 Speaker-state continuity that belongs to live statecraft now opens from [statecraft/speakers/](speakers/README.md), not from an external speaker shelf by default. The target is whole-corpus statecraft-native speaker continuity, with `codex/speakers/` retained only as compatibility/archive during migration.
 
@@ -25,6 +25,7 @@ Speaker-state continuity that belongs to live statecraft now opens from [statecr
 - Need the fastest cold-open rule? `statecraft.md -> crisis object -> lane ownership -> output form`.
 - Need the next-week operator roadmap? Open [statecraft-v1-upgrade-plan-2026-05-25.md](statecraft-v1-upgrade-plan-2026-05-25.md).
 - Need lane ownership? Open `state-deploy`.
+- Need a cross-lane mechanism or objection-shaped object? Open [compact](compact/README.md).
 - Need a Persia/Iran retrieval profile after lane ownership is clear? Open `statecraft-bridge`.
 - Need the current default worked instrument? Open [Hormuz recognition transit transaction](iran/transactions/hormuz-recognition-transit-transaction.md).
 - Need the shared crisis-object fit check? Open [Transaction Router](sheets/transaction-router.md).
@@ -33,8 +34,9 @@ Read the stack in this order:
 
 1. [statecraft.md](statecraft.md) to restore the machine
 2. `state-deploy` if ownership is unresolved
-3. the owning lane once the carrier is real
-4. the router or a known transaction when the object is already clearly mechanism-shaped
+3. `compact` if the object is already cross-lane and mechanism-shaped
+4. the owning lane once the carrier is real
+5. the router or a known transaction when the object is already clearly mechanism-shaped
 
 ## Delegated Modules
 
