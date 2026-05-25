@@ -6,7 +6,7 @@ description: "Bridge a live speaker claim into the correct Persia/Iran CIV-EMP r
 
 # Statecraft Bridge
 
-`statecraft-bridge` is the post-lane bridge step for Persia/Iran speaker-state intake. It is not a fifth lane, not a coffee menu option, and not a substitute for `state-deploy` or `state-persia`.
+`statecraft-bridge` is the post-lane bridge step for Persia/Iran speaker-state intake. It is a retrieval-conditioning surface, not an ownership surface. It is not a fifth lane, not a coffee menu option, and not a substitute for `state-deploy` or `state-persia`.
 
 Use it when the object is already speaker-heavy and Persia/Iran-owned, but still needs the right `civ-emp` retrieval profile before lane-local drafting begins.
 
@@ -15,6 +15,14 @@ Short doctrine:
 - `state-deploy` decides the lane
 - `statecraft-bridge` decides the retrieval profile
 - `state-persia` decides what Persia/Iran can draft, carry, accept, reject, and institutionalize
+
+## Entry Gate
+
+Before staying in bridge mode, check this in order:
+
+- if Persia/Iran ownership is unresolved, hand back to `state-deploy`
+- if the object is already fully transaction-shaped, hand to `state-persia`, the transaction router, or named transaction reuse
+- remain in bridge mode only when Persia/Iran ownership is already clear and the unresolved question is Marandi-vs-Parsi retrieval conditioning
 
 ## Boundary
 
@@ -27,6 +35,13 @@ Short doctrine:
 - Do not restate full lane doctrine.
 - Do not become generic speaker commentary.
 - If the object is already fully transactional, hand off instead of re-bridging.
+
+## Bridge Misuse Warnings
+
+The bridge is being misused when it is asked to:
+
+- avoid a lane-ownership judgment that still belongs to `state-deploy`
+- intervene after the object is already mature enough for lane drafting, transaction reuse, or objection work
 
 ## Source Order
 
@@ -103,6 +118,7 @@ When invoked without a settled output shape, use exactly this format:
 - Shared source object:
 - Why this route:
 - Main counterweight:
+- Ambiguity type: [recognition-first vs settlement-first / sacred-injury vs implementation architecture / false Persia ownership]
 
 **Bridge Result**
 - Recognition or settlement read:

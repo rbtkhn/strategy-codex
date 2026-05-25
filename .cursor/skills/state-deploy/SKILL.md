@@ -59,6 +59,33 @@ Use these tests in order:
 4. **Maturity test** - is the object still orientation, comparison, or draftable instrument?
 5. **Depth test** - should the next move be one lane, two-lane comparison, or multi-lane compact?
 
+## Misdeployment Warnings
+
+`state-deploy` is most likely to drift when it mistakes:
+
+- salience for ownership
+- speaker force for lane ownership
+- transaction maturity for real instrument readiness
+- a cross-lane compact for something that has already been honestly owned by one lane
+- a Persia/Iran bridge step for an ownership decision that has not yet been made
+
+The deployer should slow down whenever the object sounds vivid before its legitimacy grammar, carrier, and arena are actually stable.
+
+## False-Ownership Recognizers
+
+Use these corrections when the first instinct is probably wrong:
+
+- `Taiwan quarantine`
+  - do not route to Persia just because blockade or chokepoint language feels familiar
+  - settle whether the object is quarantine, maritime access, customs exclusion, or convoy logic first
+  - comparison or America-first ownership is more honest than a premature bridge call
+- `Hormuz recognition transit`
+  - Persia usually owns the object first
+  - use the bridge only if speaker-conditioning remains unresolved after Persia ownership is already clear
+- `sanctions relief and guarantees`
+  - open the lane that must carry the guarantee architecture
+  - do not route by commentator intensity or rhetorical fluency alone
+
 ## Routing Contract
 
 - Route to `state-america` when lawful authority, burden-sharing, bounded coercion, or successor-stable settlement is central.
@@ -71,6 +98,8 @@ Use these tests in order:
   Fast Russia signals: parity pressure, compliance-before-recognition sequencing, depth or buffer shrinkage, and escalation-calendar or entrapment traps.
 - Route to a comparison or compact only when no single lane can honestly own the object.
 
+Do not call `statecraft-bridge` from the deployer unless Persia/Iran ownership is already clear. If ownership is still contested, hand back to a lane judgment or comparison call first.
+
 ## Default Output
 
 When invoked without a settled lane, output exactly this shape:
@@ -79,7 +108,7 @@ When invoked without a settled lane, output exactly this shape:
 **State Deploy**
 - Live object:
 - Why lane choice matters:
-- Deployment judgment:
+- Deployment judgment: [single-lane ownership / comparison required / compact path after ownership split / transaction-aware reuse]
 - Recommended handoff:
 
 **Deploy Menu - reply A-D**
@@ -90,6 +119,12 @@ D. [transaction or stress-test path]
 ```
 
 The options must be specific to the named object. Do not use generic labels like `more analysis`.
+Each option must reflect a genuinely different honest next move:
+
+- `A` = owning lane handoff
+- `B` = comparison because ownership is genuinely contested
+- `C` = compact / objection path only after ownership is understood
+- `D` = transaction / stress-test / mature-object reuse
 
 ## Handoff Rule
 
