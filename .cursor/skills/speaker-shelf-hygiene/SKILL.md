@@ -32,6 +32,7 @@ This skill is for:
 - deciding whether a month deserves bounded support
 - checking whether raw-input items were wrongly excluded
 - fixing placeholder leakage and compatibility overreach
+- deciding whether a migrated statecraft-side month layer is chronology-owning, synthesis-only, or still host-led
 
 This skill is **not** for:
 
@@ -64,6 +65,14 @@ Short rule:
 `front door -> support spine -> provenance bench -> compatibility last`
 
 The shelf should make these distinctions legible without forcing every speaker into the exact same shape.
+
+Month-layer note:
+
+- a speaker may own no native month layer at all
+- a speaker may own a **bounded monthly synthesis** layer without taking chronology ownership
+- a speaker may own a stronger native month layer that carries chronology more directly
+
+Do not collapse those three cases into one binary.
 
 Wrapper note:
 
@@ -122,6 +131,8 @@ Exception:
 
 - if a month is mature but its useful first-open jobs are already cleanly owned by host-local arcs, the shelf may use a `speaker-owned support spine` that explains why chronology stays host-led instead of creating a native speaker month page
 - in that case, the audit should say explicitly that the month is mature, but `host-led mature` rather than `speaker-month-led`
+- if the shelf has already migrated into a statecraft-side canonical speaker shelf, it may still create **bounded monthly synthesis** shelves even when chronology remains host-led
+- in that case, the audit should say explicitly that the month is `speaker-synthesis-led` rather than `chronology-owning`
 
 ### 4. Arc-preserving repair priority
 
@@ -137,6 +148,12 @@ Month-status labels:
 - `continuity carryover` = useful continuity, but not yet a bounded support month
 - `mature bridge month` = a real retrieval month where the crisis logic or recurring strands are clearly forming, but not yet fully stabilized
 - `mature dense-core month` = a mature month where repeated structures are stable enough to justify strong bounded support and first-open month retrieval
+
+Month-ownership labels:
+
+- `host-led` = host-local arcs still own chronology; the speaker shelf should not create native month pages yet
+- `speaker-synthesis-led` = the speaker shelf may own bounded monthly synthesis pages, but chronology still belongs to host-local arcs
+- `speaker-chronology-led` = the speaker shelf owns month pages strongly enough that chronology is materially carried on the speaker side
 
 Short rule:
 
@@ -174,6 +191,15 @@ If a month is already mature but several key captures remain header-only, stub-l
 - `mature but structurally under-repaired`
 
 Treat those thin captures as structural shelf inputs, not only provenance defects.
+
+For migrated statecraft-side shelves, add one more question:
+
+- does the month need a bounded speaker-owned synthesis page even though chronology is still host-led?
+
+If yes, prefer `speaker-synthesis-led` wording over either:
+
+- pretending no native month layer exists
+- or silently promoting the month into chronology ownership
 
 #### Repair rubric for thin captures
 
@@ -239,6 +265,8 @@ This doctrine is not for:
 - replacing [`check-streams`](../check-streams/SKILL.md) live discovery or raw-input materialization
 - replacing transcript cleanup or transcript-quality repair workflows
 
+If the question is whether the canonical speaker surfaces still agree with each other after month-support work lands, hand off to [`speaker-structural-continuity`](../speaker-structural-continuity/SKILL.md).
+
 ### 5. Audit source boundaries
 
 Keep this distinction explicit:
@@ -248,6 +276,11 @@ Keep this distinction explicit:
 - `thread / transcript` = compatibility or carryover unless clearly promoted
 
 Helper captures, generic transcript stubs, X bundles, and date-named placeholders may remain visible in exhaustive benches, but they should not masquerade as top-tier speaker evidence.
+
+Migration-side boundary:
+
+- if a speaker has a canonical shelf under `statecraft/speakers/`, the codex-side front door should not keep behaving like live authority
+- month-support and doctrine audits may move statecraft-side while legacy codex files remain as stubs or residue
 
 ### 6. Audit placeholder leakage
 
@@ -278,6 +311,18 @@ Default repair order:
 
 Do not start by rewriting the biggest legacy file if a smaller page, manifest, or month surface can make the shelf honest first.
 
+Migration variant:
+
+If the shelf is being migrated into `statecraft/speakers/`, use this repair order:
+
+1. canonical statecraft-side shelf
+2. support spine and month-layer doctrine
+3. codex front-door pointer demotion
+4. codex compatibility stubs for moved canonical files
+5. legacy residue nudges
+
+Do not rely only on `README.md` and `index.md` pointers if other repo surfaces or compatibility residue still expect codex-local core files to resolve.
+
 ### 8. Verify
 
 After edits, test these questions:
@@ -293,6 +338,7 @@ Also verify:
 - no unresolved `TBD` markers in primary surfaces
 - compatibility files are visibly non-canonical
 - raw-input benches remain broader than canonical support surfaces where appropriate
+- if a statecraft-side migration occurred, codex-side stubs resolve cleanly and do not preserve a competing route stack
 
 ## Comparison mode
 
@@ -310,6 +356,7 @@ Useful comparison axes:
 - source-boundary strictness
 - compatibility containment
 - citation hygiene
+- month-layer ownership discipline
 
 ## Success condition
 
@@ -318,6 +365,7 @@ After the pass, a future agent should be able to tell:
 - what the speaker shelf owns
 - where to open first
 - which months are mature
+- whether mature months are host-led, speaker-synthesis-led, or speaker-chronology-led
 - which surfaces are support vs provenance
 - which legacy files are compatibility only
 

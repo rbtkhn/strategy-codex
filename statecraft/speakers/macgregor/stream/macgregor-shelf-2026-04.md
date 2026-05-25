@@ -1,0 +1,34 @@
+# Macgregor Shelf - 2026-04
+
+WORK only; not Record.
+
+This monthly shelf is the April 2026 synthesis/index for the migrated Macgregor statecraft shelf.
+
+Month status: `mature retrieval month`
+
+## April index
+
+- [transcript-macgregor-diesen-total-war-iran-2026-04-21.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-21/transcript-macgregor-diesen-total-war-iran-2026-04-21.md)
+  - Altitude lane gives the clearest order-consequence and total-war framing node.
+- [transcript-napolitano-macgregor-pentagon-terrible-war-planning-2026-04-23.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-23/transcript-napolitano-macgregor-pentagon-terrible-war-planning-2026-04-23.md)
+  - Auxiliary indictment lane sharpens undeclared-war and elite-planning critique.
+- [2026-04-23-macgregor.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-23/2026-04-23-macgregor.md)
+  - Support-tier shorthand node that preserves local April continuity.
+- [2026-04-25-macgregor.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-25/2026-04-25-macgregor.md)
+  - Support-tier continuation node.
+- [2026-04-26-macgregor.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-26/2026-04-26-macgregor.md)
+  - Support-tier continuation node.
+- [2026-04-27-macgregor.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-27/2026-04-27-macgregor.md)
+  - Support-tier continuation node.
+- [2026-04-28-macgregor.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-28/2026-04-28-macgregor.md)
+  - Support-tier continuation node.
+- [youtube-davis-macgregor-trump-dangerous-2026-04-29.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-29/youtube-davis-macgregor-trump-dangerous-2026-04-29.md)
+  - Davis lane caps the month with feasibility, danger, and overreach cost language.
+
+## Reading note
+
+April is the densest visible month on the Macgregor bench. It is the clearest full-spectrum month for the shelf because altitude, indictment, and practical severity all appear in one short span. That makes April the best native monthly synthesis opening file, but the month still depends on host-local arcs and raw-input for chronology-grade reading.
+
+## Repair note
+
+April remains the hardest source-boundary month because shorthand day files and one unresolved-canon Napolitano seam sit beside the main host captures. The monthly shelf should acknowledge that pressure rather than smoothing it away.

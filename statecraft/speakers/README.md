@@ -42,7 +42,7 @@ Speaker-state continuity lives here. Bridge adapters still live in [statecraft/b
 The migration is phased, but the constitutional target is already fixed:
 
 1. whole-corpus doctrine and compatibility law
-2. active migration fronts such as [Mercouris](mercouris/README.md) and [Crooke](crooke/README.md)
+2. active migration fronts such as [Mercouris](mercouris/README.md), [Crooke](crooke/README.md), and [Macgregor](macgregor/README.md)
 3. support-spine shelf exemplars
 4. remaining active statecraft speakers
 5. long-tail archive cleanup
