@@ -91,3 +91,63 @@ The active normalized 2026 shelf set is:
 Canonical cross-context exception shelves now also include:
 
 - [Parsi](parsi/README.md)
+
+## Shelf classes
+
+The repo now recognizes three shelf classes.
+
+### 1. Normalized month-ladder shelves
+
+These use the full canonical statecraft speaker grammar:
+
+- `README.md` and `index.md`
+- arc
+- routing
+- provenance bench
+- crossing surface
+- support spine
+- bounded `2026-01` through `2026-05` synthesis ladder
+- historical audit
+- `themes/README.md`
+
+Current examples:
+
+- [Freeman](freeman/README.md)
+- [Crooke](crooke/README.md)
+- [Mercouris](mercouris/README.md)
+- [Macgregor](macgregor/README.md)
+- [Ritter](ritter/README.md)
+- [Johnson](johnson/README.md)
+
+### 2. Cross-context exception shelves
+
+These are still canonical `statecraft/speakers/` shelves, but their real inner law is not a host-style monthly ladder. Recurring thread continuity and source-class crossing are structurally primary, and month support appears only where mature cross-context pressure is real.
+
+Current example:
+
+- [Parsi](parsi/README.md)
+
+### 3. Host-led mature-month exception shelves
+
+These have genuinely mature months, but those months are still owned more cleanly by host arcs, reinforcing orbit, or a non-core appearance bench than by speaker-native month shelves.
+
+For these shelves:
+
+- support spine owns the maturity explanation
+- routing owns first-open discipline
+- raw-input bench and host-local arcs remain the real month-entry layer
+- migration should not proceed by symmetry alone
+
+Current deliberate case:
+
+- `Mearsheimer` remains under review in `codex/speakers/` as the main host-led mature-month exception shelf
+
+## Current constitutional choice
+
+The repo no longer assumes that every mature speaker must collapse into one monthly grammar.
+
+Instead:
+
+- normalize where the shelf truly wants a canonical month ladder
+- preserve cross-context shelves where source-class crossing is primary
+- preserve host-led mature-month exception shelves where month ownership still belongs to host arcs and the non-core bench

@@ -60,6 +60,32 @@ Examples of inner variation that still pass continuity:
 
 Do not mistake a shared outer scaffold for a demand that every speaker become the same type of object.
 
+## Exception classes
+
+Outer-grammar normalization does **not** erase legitimate exception classes.
+
+Use these three classes explicitly:
+
+1. `normalized month-ladder shelf`
+   - canonical `statecraft/speakers/<speaker>/`
+   - bounded `2026-01` through `2026-05` synthesis ladder
+   - support spine owns month-status law
+   - examples: `Macgregor`, `Ritter`, `Freeman`, `Johnson`
+
+2. `cross-context exception shelf`
+   - canonical `statecraft/speakers/<speaker>/`
+   - recurring thread atlas and source-class crossing are structurally primary
+   - bounded month support appears only where mature cross-context pressure is real
+   - example: `Parsi`
+
+3. `host-led mature-month exception shelf`
+   - may still be codex-side or later migrate statecraft-side
+   - mature months exist, but they are owned more cleanly by host arcs, reinforcing orbit, or a non-core bench than by speaker-native month shelves
+   - support spine and routing own the maturity explanation
+   - current main example: `Mearsheimer`
+
+Continuity work must decide which class a shelf belongs to before forcing it toward a migration pattern.
+
 ## What To Check
 
 Audit these continuity surfaces in order:
@@ -77,6 +103,7 @@ Check for agreement on:
 
 - the canonical route stack
 - the normalized outer grammar when the shelf is statecraft-side canonical
+- which shelf class governs the object
 - whether the shelf is stream-native, helix-first, or host-led
 - whether the shelf is host-led, speaker-synthesis-led, or speaker-chronology-led at the month layer
 - month ladder ordering
@@ -93,6 +120,8 @@ Use these tests:
   - can a future agent enter the shelf from the README and reach the correct canonical surfaces without being pushed into compatibility residue?
 - `outer-grammar continuity`
   - if this is a normalized `statecraft/speakers/` shelf, are `README`, `index`, support spine, monthly ladder, audit, and themes all visibly present and legible?
+- `shelf-class continuity`
+  - is the shelf being described as the same class everywhere, or are different surfaces half-describing different constitutional types?
 - `route-stack continuity`
   - do README, speaker object, arc, and atlas point to the same primary ladder?
 - `segment continuity`
@@ -144,6 +173,8 @@ Continuity fails if:
 - dense-core claims appear in one surface but not the others
 - outer grammar is normalized, but the speaker-object or inner core still describes an older incompatible route stack
 - a codex transcript or thread still routes to codex-side arc / routing / helix after statecraft-side canon is live
+- a host-led mature-month exception shelf is being migrated as if it already wanted a native monthly ladder
+- a cross-context exception shelf is being flattened into host-style month law for symmetry alone
 
 ## Output Format
 
@@ -185,6 +216,7 @@ If you repair continuity:
 - preserve existing maturity judgments unless the shelf already clearly contradicts itself
 - if a statecraft-side migration is in progress, prefer restoring one canonical authority path plus thin codex compatibility stubs rather than maintaining two rich front doors
 - if the shelf already has the normalized outer grammar, repair codex residue by updating compatibility notes rather than rebuilding codex-side doctrine
+- if the shelf is still in an unresolved exception class, fix the doctrinal classification first rather than forcing a migration shape by momentum
 
 ## Success Condition
 
