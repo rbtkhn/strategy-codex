@@ -1,6 +1,6 @@
 # Coffee ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â menu and protocol reference
 
-**Canonical Step 2 menu (strategy-codex):** **four** hub lines - **A** Steward, **B** Engineer, **C** Statecraft, **D** Singularity. **C. Statecraft** activates the WORK-only repo-root [statecraft](../../../statecraft/README.md) civilizational-state bench. **D. Singularity** activates the WORK-only singularity-academy module at [Singularity Workshop](../../../codex/academy/singularity/workshop/README.md). **Conductor** is standalone only and opens by master name, `conductor`, or the conductor skill; it is not a coffee hub letter.
+**Canonical Step 2 menu (strategy-codex):** **four** hub lines - **A** Steward, **B** Engineer, **C** Statecraft, **D** Singularity. **C. Statecraft** activates the WORK-only repo-root [statecraft](../../../statecraft/README.md) router-first front door: `Deploy / Compact / Speaker-Bridge / Lane Direct`, with the civilizational-state lane menu appearing only after `D. Lane Direct`. **D. Singularity** activates the WORK-only singularity-academy module at [Singularity Workshop](../../../codex/academy/singularity/workshop/README.md). **Conductor** is standalone only and opens by master name, `conductor`, or the conductor skill; it is not a coffee hub letter.
 
 **Deprecation guard:** `companion-self` template sync and Grace-Mar-vs-template reconciliation are legacy/archive lanes in strategy-codex. Do not invoke them from bare **A. Steward**, `coffee`, integrity, or boundary hygiene unless the operator explicitly asks for that obsolete migration context.
 

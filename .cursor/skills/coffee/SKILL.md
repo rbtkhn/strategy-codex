@@ -130,16 +130,20 @@ For Step 0 recent rhythm, prefer the executable formatter in `scripts/coffee_boo
 If the file is missing or empty below the anchor, state that under **Recent rhythm** and continue Step 1.
 
 ### Step 1 ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â Automated actions (one flow, two weights)
-### Statecraft C - civilizational-state lane routing
+### Statecraft C - router-first statecraft routing
 **Detect intent**
 **Operator intent (strategy-codex default):** **coffee -> C - Statecraft** does **not** auto-run daily brief, `check streams`, bookshelf elicitation, or archived Tri-Frame. It presents a router-first repo-root statecraft entry:
 
-- **A. America** - route to [America](../../../statecraft/america/README.md) when the drafting problem is hegemonic order under strain, legitimacy, burden-sharing, and bounded command.
-- **B. China** - route to [China](../../../statecraft/china/README.md) when the drafting problem is continuity, energy stability, industrial rhythm, and anti-chaos order management.
-- **C. Persia** - route to [Iran / Persia](../../../statecraft/iran/README.md) when the drafting problem is dignity, sovereignty, chokepoint leverage, recognition, and sanctions endurance.
-- **D. Russia** - route to [Russia](../../../statecraft/russia/README.md) when the drafting problem is strategic depth, disruption, recognition, and optionality without entrapment.
+- **A. Deploy** - route to `state-deploy` when lane ownership is unresolved.
+- **B. Compact** - route to [statecraft/compact/README.md](../../../statecraft/compact/README.md) when the object is already cross-lane, objection-shaped, or mechanism-shaped.
+- **C. Speaker-Bridge** - route to `statecraft-bridge` only when Persia/Iran ownership is already clear and the unresolved question is retrieval profile rather than lane ownership.
+- **D. Lane Direct** - open the secondary lane menu only when ownership is already clear:
+  - **A. America** - route to [America](../../../statecraft/america/README.md) when the drafting problem is hegemonic order under strain, legitimacy, burden-sharing, and bounded command.
+  - **B. China** - route to [China](../../../statecraft/china/README.md) when the drafting problem is continuity, energy stability, industrial rhythm, and anti-chaos order management.
+  - **C. Persia** - route to [Iran / Persia](../../../statecraft/iran/README.md) when the drafting problem is dignity, sovereignty, chokepoint leverage, recognition, and sanctions endurance.
+  - **D. Russia** - route to [Russia](../../../statecraft/russia/README.md) when the drafting problem is strategic depth, disruption, recognition, and optionality without entrapment.
 
-After lane selection, treaty frameworks, policy papers, negotiation briefs, and Richelieu/Bismarck stress tests become the next drafting moves inside that lane rather than the first coffee submenu.
+After routing, treaty frameworks, policy papers, negotiation briefs, and Richelieu/Bismarck stress tests become the next drafting moves inside the chosen path rather than the first coffee submenu.
 
 **Statecraft grounding:** convert sources into instruments, not commentary. When source material matters, name the actor, interest, institutional carrier, leverage point, and proposed instrument before drafting. When a draft needs historical, civilizational, or empire-pattern grounding, prefer [civ-emp](../../../statecraft/civ-emp/README.md) as the active Civilization and Empire source base; keep `ph-civ` public-facing and `CIV-MEM` legacy/provenance-only. Useful sheets include [speaker-insight-to-policy-memo.md](../../../statecraft/sheets/speaker-insight-to-policy-memo.md), [comprehensive-power-vs-coercive-center.md](../../../statecraft/sheets/comprehensive-power-vs-coercive-center.md), and [sovereignty-under-acceleration.md](../../../codex/academy/singularity/workshop/sheets/sovereignty-under-acceleration.md).
 
