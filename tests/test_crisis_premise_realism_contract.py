@@ -1,4 +1,4 @@
-"""Premise-realism contract for academy-statecraft crisis drafting.
+"""Premise-realism contract for repo-root statecraft crisis drafting.
 
 This protects the pre-drafting judgment: weak or over-attributed crisis
 premises must be reclassified before they become elegant instruments.
@@ -26,7 +26,7 @@ REQUIRED_CASE_FIELDS = {
     "expected_routing",
 }
 SKILL_PATH = REPO_ROOT / "skills-portable" / "_drafts" / "academy-statecraft-drafting" / "SKILL.md"
-CASEBOOK_PATH = REPO_ROOT / "codex" / "academy" / "statecraft" / "sheets" / "crisis-test-casebook.md"
+CASEBOOK_PATH = REPO_ROOT / "statecraft" / "sheets" / "crisis-test-casebook.md"
 
 
 def _load_fixture() -> dict:
@@ -130,7 +130,7 @@ def _hard_gate_failures(fixture: dict) -> list[str]:
     ]
     missing_skill = _missing_terms(required_skill_terms, skill)
     if missing_skill:
-        failures.append(f"academy-statecraft skill missing premise gate terms: {missing_skill}")
+        failures.append(f"statecraft drafting skill missing premise gate terms: {missing_skill}")
 
     required_casebook_terms = [
         "Premise Realism Gate",

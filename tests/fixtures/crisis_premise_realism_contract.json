@@ -24,7 +24,7 @@
       "critical": true,
       "paths": [
         "skills-portable/_drafts/academy-statecraft-drafting/SKILL.md",
-        "codex/academy/statecraft/sheets/crisis-test-casebook.md"
+        "statecraft/sheets/crisis-test-casebook.md"
       ],
       "must_cover": [
         "Baltic infrastructure damage",
@@ -52,7 +52,7 @@
       "critical": true,
       "paths": [
         "skills-portable/_drafts/academy-statecraft-drafting/SKILL.md",
-        "codex/academy/statecraft/sheets/crisis-test-casebook.md"
+        "statecraft/sheets/crisis-test-casebook.md"
       ],
       "must_cover": [
         "Hormuz transit disruption",
@@ -77,7 +77,7 @@
       "critical": true,
       "paths": [
         "skills-portable/_drafts/academy-statecraft-drafting/SKILL.md",
-        "codex/academy/statecraft/sheets/crisis-test-casebook.md"
+        "statecraft/sheets/crisis-test-casebook.md"
       ],
       "must_cover": [
         "Egypt debt / Suez / food imports",
@@ -126,7 +126,7 @@
       "critical": true,
       "paths": [
         "skills-portable/_drafts/academy-statecraft-drafting/SKILL.md",
-        "codex/academy/statecraft/sheets/crisis-test-casebook.md"
+        "statecraft/sheets/crisis-test-casebook.md"
       ],
       "must_cover": [
         "Taiwan quarantine",
@@ -152,7 +152,7 @@
       "critical": true,
       "paths": [
         "skills-portable/_drafts/academy-statecraft-drafting/SKILL.md",
-        "codex/academy/statecraft/sheets/crisis-test-casebook.md"
+        "statecraft/sheets/crisis-test-casebook.md"
       ],
       "must_cover": [
         "Nuclear latency",
