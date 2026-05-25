@@ -1,10 +1,10 @@
 # Coffee ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â menu and protocol reference
 
-**Canonical Step 2 menu (strategy-codex):** **four** hub lines - **A** Steward, **B** Engineer, **C** Statecraft, **D** Singularity. **C. Statecraft** activates the WORK-only academy-statecraft civilizational-state bench at [Statecraft Workshop](../../../codex/academy/statecraft/README.md). **D. Singularity** activates the WORK-only singularity-academy module at [Singularity Workshop](../../../codex/academy/singularity/workshop/README.md). **Conductor** is standalone only and opens by master name, `conductor`, or the conductor skill; it is not a coffee hub letter.
+**Canonical Step 2 menu (strategy-codex):** **four** hub lines - **A** Steward, **B** Engineer, **C** Statecraft, **D** Singularity. **C. Statecraft** activates the WORK-only repo-root [statecraft](../../../statecraft/README.md) civilizational-state bench. **D. Singularity** activates the WORK-only singularity-academy module at [Singularity Workshop](../../../codex/academy/singularity/workshop/README.md). **Conductor** is standalone only and opens by master name, `conductor`, or the conductor skill; it is not a coffee hub letter.
 
 **Deprecation guard:** `companion-self` template sync and Grace-Mar-vs-template reconciliation are legacy/archive lanes in strategy-codex. Do not invoke them from bare **A. Steward**, `coffee`, integrity, or boundary hygiene unless the operator explicitly asks for that obsolete migration context.
 
-**Statecraft C - civilizational-state bench:** Choosing **C - Statecraft** presents the academy-statecraft lane menu and nothing else:
+**Statecraft C - civilizational-state bench:** Choosing **C - Statecraft** presents the repo-root statecraft lane menu and nothing else:
 
 ```markdown
 Statecraft menu - reply A-D
@@ -14,7 +14,7 @@ C. Persia - deep civilization, dignity, leverage, recognition
 D. Russia - strategic depth, disruption, optionality
 ```
 
-After the lane pick, route directly to [America](../../../codex/academy/statecraft/america/README.md), [China](../../../codex/academy/statecraft/china/README.md), [Persia](../../../codex/academy/statecraft/iran/README.md), or [Russia](../../../codex/academy/statecraft/russia/README.md). **Statecraft sources:** [METHOD.md](../../../codex/academy/statecraft/METHOD.md), [treaty-framework.md](../../../codex/academy/statecraft/templates/treaty-framework.md), [policy-paper.md](../../../codex/academy/statecraft/templates/policy-paper.md), [negotiation-brief.md](../../../codex/academy/statecraft/templates/negotiation-brief.md), [richelieu.md](../../../codex/academy/statecraft/lenses/richelieu.md), [bismarck.md](../../../codex/academy/statecraft/lenses/bismarck.md), and [sheets/README.md](../../../codex/academy/statecraft/sheets/README.md) remain downstream drafting tools after lane selection.
+After the lane pick, route directly to [America](../../../statecraft/america/README.md), [China](../../../statecraft/china/README.md), [Persia](../../../statecraft/iran/README.md), or [Russia](../../../statecraft/russia/README.md). **Statecraft sources:** [statecraft.md](../../../statecraft/statecraft.md), [METHOD.md](../../../statecraft/METHOD.md), [treaty-framework.md](../../../statecraft/templates/treaty-framework.md), [policy-paper.md](../../../statecraft/templates/policy-paper.md), [negotiation-brief.md](../../../statecraft/templates/negotiation-brief.md), [richelieu.md](../../../statecraft/lenses/richelieu.md), [bismarck.md](../../../statecraft/lenses/bismarck.md), and [sheets/README.md](../../../statecraft/sheets/README.md) remain downstream drafting tools after lane selection.
 
 **Legacy C compatibility:** Older docs may map Daily Brief, Intel, Bookshelf quiz, or Bridge ideas to Coffee C. Those are explicit named routes now: `check streams` / daily brief for stream work, `current-event` for a named recent event that should be verified and converted into a statecraft object, `elicit-knowledge` / survey for Record-bound self-knowledge, and work-strategy / Predictive History requests for notebook synthesis. Coffee C owns them only when the operator asks to convert source material into a statecraft lane object or a downstream treaty, policy memo, negotiation brief, sanctions/alliance design, sovereignty argument, or institutional statecraft artifact.
 

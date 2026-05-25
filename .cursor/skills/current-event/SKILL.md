@@ -23,19 +23,19 @@ Use it when the operator names a recent event and wants judgment or an instrumen
 - Do not route to `check streams` unless the task is "what went up today across tracked streams?"
 - Do not route to daily brief unless the operator asks for a broad brief.
 - Convert sources into **statecraft objects**, not commentary sprawl.
-- When the event needs historical, civilizational, or empire-pattern grounding, use `codex/academy/statecraft/civ-emp/` as the active source base; keep `ph-civ` as the public Predictive History artifact and `CIV-MEM` as legacy/provenance only.
+- When the event needs historical, civilizational, or empire-pattern grounding, use repo-root `statecraft/civ-emp/` as the active source base; keep `ph-civ` as the public Predictive History artifact and `CIV-MEM` as legacy/provenance only.
 
 ## Workflow
 
 1. **Verify event fact.** Confirm date, actors, location, and what happened with primary or reputable sources. Name source confidence briefly.
 2. **Separate fact from interpretation.** State what is known, what is inferred, and what remains unverified.
 3. **Classify the crisis object.** Name the contested object: alliance signal, sanctions channel, transit route, nuclear latency, recognition claim, ceasefire monitor, protected legitimacy good, command authority, identity system, corridor, quarantine, attribution problem, etc.
-4. **Run the transaction fit check.** Use `codex/academy/statecraft/sheets/transaction-router.md` to compare the crisis object against the 12-object transaction plateau:
+4. **Run the transaction fit check.** Use `statecraft/sheets/transaction-router.md` to compare the crisis object against the 12-object transaction plateau:
    - **exact fit:** route to the existing transaction bundle and choose the best lane to open first;
    - **near fit:** use the closest transaction as an analogy and name the mismatch;
    - **no fit:** recommend a new transaction candidate with crisis object, lanes, and settlement spine, but do not create files automatically.
-5. **Check CIV-EMP source fit.** If the event exposes a durable civilizational pattern, imperial instrument, recognition bargain, border/channel logic, or state-memory problem, open `codex/academy/statecraft/civ-emp/indexes/source-retrieval-matrix.md` and any lane object before drafting. If no CIV-EMP object fits, say `none` rather than borrowing from `CIV-MEM`.
-6. **Run the mutation check.** Use `codex/academy/statecraft/sheets/mutation-statecraft.md` to ask whether the event keeps an old name while changing function:
+5. **Check CIV-EMP source fit.** If the event exposes a durable civilizational pattern, imperial instrument, recognition bargain, border/channel logic, or state-memory problem, open `statecraft/civ-emp/indexes/source-retrieval-matrix.md` and any lane object before drafting. If no CIV-EMP object fits, say `none` rather than borrowing from `CIV-MEM`.
+6. **Run the mutation check.** Use `statecraft/sheets/mutation-statecraft.md` to ask whether the event keeps an old name while changing function:
    - **yes:** name the original function, possible new function, trigger evidence, defensive reading, threatening reading, naming fight, and threshold formula;
    - **watch:** name the threshold that would prove mutation later;
    - **no:** state why the object remains within its bounded function.
@@ -143,7 +143,7 @@ When the operator replies with a letter after a current-event read, execute the 
 - `C` = the event-specific negotiation path
 - `D` = the event-specific Richelieu/Bismarck stress-test path
 
-Use `codex/academy/statecraft/METHOD.md`, `codex/academy/statecraft/sheets/transaction-router.md`, `codex/academy/statecraft/civ-emp/indexes/source-retrieval-matrix.md`, and the relevant template, transaction bundle, CIV-EMP lane object, or lens. For power comparisons, apply the `strategic-power-analysis` distinction: structural power versus immediate crisis leverage.
+Use `statecraft/METHOD.md`, `statecraft/sheets/transaction-router.md`, `statecraft/civ-emp/indexes/source-retrieval-matrix.md`, and the relevant template, transaction bundle, CIV-EMP lane object, or lens. For power comparisons, apply the `strategic-power-analysis` distinction: structural power versus immediate crisis leverage.
 
 ## Nested Menu Rule
 

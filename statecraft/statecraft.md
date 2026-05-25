@@ -43,6 +43,21 @@ When reopening from one live object, take the first valid move in this order:
 3. decide whether the remaining uncertainty is lane judgment or retrieval conditioning
 4. choose the narrowest honest output form before drafting mechanism
 
+Use these fast recognizers when the object family is already obvious:
+
+- **transit / recognition / chokepoint pressure**
+  - usually opens Persia first
+  - if the object is speaker-heavy after lane ownership is clear, use `statecraft-bridge`
+  - check existing Hormuz-style transaction fit before inventing a new framework
+- **alliance command / maritime access / quarantine pressure**
+  - usually opens America first when the live problem is guarantee design, burden-sharing, or bounded command
+  - compare China only when continuity, trade rhythm, or anti-chaos order is the real pressure
+- **sanctions relief / guarantees / sequenced settlement pressure**
+  - open the lane that must carry the guarantee architecture
+  - test transaction fit and objection structure before promoting to full framework
+
+If none of those recognizers settle ownership, return to `state-deploy` rather than forcing an elegant synthesis.
+
 ## Continuity Manifesto
 
 Statecraft begins when pattern, memory, and pressure stop being only interpretation and become an authority problem, a restraint problem, and a settlement problem.
