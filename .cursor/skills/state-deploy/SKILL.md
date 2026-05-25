@@ -62,6 +62,7 @@ Use these tests in order:
 ## Routing Contract
 
 - Route to `state-america` when lawful authority, burden-sharing, bounded coercion, or successor-stable settlement is central.
+  Fast America signals: lawful-authority strain, burden-sharing or coalition-carriage problems, coercive-success but settlement-conversion problems, and clock-driven overreach risk under superior force.
 - Route to `state-china` when continuity, order, anti-disorder legitimacy, route stability, or quiet leverage is central.
   Fast China signals: flow or corridor stabilization problems, visible-disorder ownership traps, administrative-carry questions, and market-calming needs without overt coercive theater.
 - Route to `state-persia` when dignity, sovereignty, recognition, leverage under pressure, or verification without humiliation is central.
