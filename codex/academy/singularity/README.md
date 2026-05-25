@@ -15,7 +15,7 @@ Use this folder for singularity concepts and study structure, not for generic AI
 ## Current Workshop Anchor
 
 - [Coffee D - Singularity Operating Sheet](workshop/sheets/coffee-d-singularity.md) - compact route for using Coffee D as agency-under-acceleration work rather than default commercial work.
-- [Sovereignty Under Acceleration](workshop/sheets/sovereignty-under-acceleration.md) - bridge to academy-statecraft for preserving human agency when AI becomes infrastructure power.
+- [Sovereignty Under Acceleration](workshop/sheets/sovereignty-under-acceleration.md) - bridge into repo-root `statecraft/` when AI becomes infrastructure power and the problem turns into authority, carrier, and sovereignty design.
 - [Keystone Helix](workshop/keystone-helix.md) - defines the paired Innermost Loop / Moonshots method for turning acceleration signals into workshop cases.
 - [The Innermost Loop - 2026-05-15](workshop/sheets/innermost-loop-2026-05-15.md) - source-bound acceleration map for optimizer recursion, cyber hardening, compute sovereignty, data-center legitimacy, and value-perception checks.
 - [The Innermost Loop - 2026-05-16](workshop/sheets/innermost-loop-2026-05-16.md) - source-bound acceleration map for world models, memory, agent swarms, synthetic reality, token economics, and human-meaning checks.
