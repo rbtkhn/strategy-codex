@@ -6,6 +6,14 @@ Purpose: answer which Mercouris surface to open first without forcing stream-nat
 
 ## Core rule
 
+Carveout by object shape: Mercouris is **stream-native**, so transcript-first is not the universal first-open rule for the whole speaker object.
+
+Use transcript-first evidence inside transcript-bearing subquestions or reinforcement passes, but preserve Mercouris's real shelf shape:
+
+- native stream continuity remains the primary entry rule
+- transcript-bearing raw-input still carries provenance authority
+- transcript-derived host-local or cross-host reinforcement stays downstream of the native stream rather than replacing it
+
 Mercouris now has the same outer canonical shelf grammar as the other normalized speakers, but his strongest inner continuity remains stream-native.
 
 Use the shelf this way:
@@ -29,4 +37,5 @@ Use the shelf this way:
 ## Boundaries
 
 - Do not mistake the normalized outer shelf grammar for a change in Mercouris's inner shape.
+- Do not flatten this stream-native object into a transcript-led host-routing object just to match the wider transcript-first rule.
 - Use monthly shelves for bounded synthesis, not chronology takeover.

@@ -17,6 +17,8 @@ Use it when the notebook needs the Grayzone-adjacent investigative register arou
 
 This shelf does not yet have a mature host-local arc, cross-host note, or helix surface.
 
+Carveout by object shape: Mate is currently **profile-only**, so transcript-first is not the primary entry rule for this folder. When transcript-bearing Mate material later becomes strong enough to route as a real host-local or cross-host object, transcript-first should govern that new transcript-led surface rather than this light profile shelf.
+
 Its current canonical structure is therefore intentionally light:
 
 - [mate-profile.md](mate-profile.md) carries the routeable rationale

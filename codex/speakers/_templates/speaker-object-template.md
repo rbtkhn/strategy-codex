@@ -6,6 +6,8 @@ object_shape: {allowed-object-shape}
 
 Purpose: define `{speaker}` as a durable speaker object for routing, judgment accumulation, and clean re-entry. This is an orientation object, not a provenance ledger and not a substitute for host-local speaker arcs or raw-input.
 
+Transcript-first evidence, arc-first interpretation, unless the object's shape honestly requires another first-open rule.
+
 Minimum invariant: every canonical speaker folder needs a **routeable rationale**. But do not create a canonical speaker folder for thin or accidental recurrence in the first place. This note may be that rationale only after the speaker has enough real continuity to justify a durable folder. Keep the claim proportional: explain why the folder exists, where to open first, what evidence supports the object, and what not to promote yet.
 
 ## Identity
@@ -43,6 +45,14 @@ Allowed values:
 
 Use this section to say whether future agents should enter through a native stream, a profile, a host-local arc, a thread atlas, a helix, or a cross-host reinforcement note.
 
+Routing precedence for transcript-led speaker use:
+
+1. actual transcript or transcript-bearing raw-input
+2. transcript-derived host-local arc
+3. helix, routing note, cross-host note, or broader synthesis
+
+Preserve the seam between transcript-backed and synthesized claims when the route extends beyond transcript truth.
+
 Do not force every folder to contain its own arc immediately. If the substantial arc lives under a host folder, route to it. If no substantial arc exists yet, say so and preserve the lighter routeable rationale without pretending a helix exists.
 
 But do not let that lighter state become permanent for major speakers. If the speaker is a major recurring notebook figure across hosts, contexts, or time, the shelf should converge toward a canonical **person arc** file: `{speaker}-arc.md`.
@@ -65,6 +75,8 @@ If the speaker has enough off-lane or irregular cross-host spread that routing w
 Use that ladder for all speakers when applicable. Do not treat it as Freeman-only doctrine.
 
 State the wiring invariant plainly when it matters: no valid speaker raw-input should remain unwired from the correct speaker surface. Materialized appearances must land either in a host-local lane or in the speaker's non-core bench; only unresolved or not-yet-materialized items belong in discovery memory.
+
+If this speaker is authored-first, stream-native, profile-only, or otherwise mixed-provenance, say so explicitly here and state why transcript-first is not the primary entry rule for this object shape.
 
 ## Open first
 

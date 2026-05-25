@@ -4,6 +4,16 @@ WORK only; not Record.
 
 Purpose: explain why the recurring `{host} x {guest}` lane matters as a host-local conversational form. This is an interpretive routing note downstream of raw-input accumulation, not a provenance ledger and not a lattice row.
 
+Derived speaker arcs are interpretive routing surfaces downstream of transcript/raw-input, not substitutes for transcript authority.
+
+Transcript-first evidence, arc-first interpretation:
+
+1. open the strongest actual transcript or transcript-bearing raw-input anchor first
+2. use this arc to interpret the recurring host-conditioned transformation of that transcript material
+3. extend to helix or broader synthesis only after the transcript and arc layers
+
+If transcript coverage is thin, preserve the seam between transcript-backed and synthesized claims rather than letting the arc sound like primary source authority.
+
 System grammar: this template is for a **relational arc**, not a person arc and not a topical thread.
 
 - **Person arc:** `{guest}-arc.md` when the surface is centered on the speaker across hosts and contexts.
@@ -75,6 +85,8 @@ Open **{best-date-or-title}** first when the operator needs:
 
 - {open-first-use-1}
 - {open-first-use-2}
+
+When possible, name the actual transcript or transcript-bearing raw-input anchor alongside this arc-first guidance.
 
 ## Best paired read
 

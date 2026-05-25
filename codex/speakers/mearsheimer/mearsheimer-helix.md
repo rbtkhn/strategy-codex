@@ -5,8 +5,11 @@ WORK only; not Record.
 Purpose: compact cross-host note for reading the current recurring Mearsheimer lanes together. This is not a substitute for the host-local speaker arcs. It exists so future routing can quickly answer: why these lanes belong together, what each host transforms in the Mearsheimer voice, and where to enter the helix without pretending a full three-strand object already exists.
 
 For the faster speaker-side entry surface that answers **which host lane to open first**, see [mearsheimer-routing.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-routing.md).
+For the speaker-owned maturity and host-led month-support explanation, see [mearsheimer-support-spine-2025-2026.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-support-spine-2025-2026.md).
 
 ## Core claim
+
+Transcript-first evidence, arc-first interpretation: open the strongest actual transcript or transcript-bearing raw-input first, then the relevant host-local arc, and use this helix only after those layers when the task is cross-host comparison rather than primary-source grounding.
 
 The Mearsheimer helix is currently a **double helix**: one structural-realist voice transformed by two hosts. Diesen gives order-transition and great-power altitude; Davis tests coercive failure, bargaining geometry, and war-feasibility limits.
 
@@ -59,6 +62,7 @@ Use this helix note when the notebook is doing one or more of the following:
 ## Boundaries
 
 - This is a helix in the general sense, but in current form it is a **double helix**, not a triple helix.
+- This note is downstream of transcript/raw-input and host-local arcs; it is not transcript authority.
 - Do not quietly promote this to a three-strand object while the third host remains only orbit material rather than a stable speaker-arc.
 - Third-strand materials do exist in the broader Mearsheimer shelf, including [transcript-hedges-mearsheimer-iran-2026-04-20.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-20/transcript-hedges-mearsheimer-iran-2026-04-20.md) and [transcript-mearsheimer-redacted-trump-iran-2026-04-21.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-21/transcript-mearsheimer-redacted-trump-iran-2026-04-21.md), but those do not yet constitute a stable third canonical cognition-stream arc.
 - This note is not a generic Mearsheimer profile; it is a host-transformation note.

@@ -6,6 +6,10 @@ Purpose: make the Ritter speaker object faster to route without duplicating host
 
 ## Core rule
 
+Transcript-first evidence, arc-first interpretation applies to Ritter's interview-side routing.
+
+For transcript-led Ritter analysis, open the strongest actual transcript or transcript-bearing raw-input first, then use the host-local arc to interpret the host-conditioned transformation. Extend into this routing note, the helix, or month-support synthesis only after the transcript and arc layers, and preserve the seam when synthesized claims go beyond transcript truth.
+
 Ritter now has both a real native 2026 shelf and a mature statecraft-side speaker folder, but **interview-side routing should still open through the host-local arcs first**.
 
 The efficient structure is therefore:
@@ -46,6 +50,7 @@ The efficient structure is therefore:
 
 - Do not build a duplicate Ritter chronology here; the host shelves already do that.
 - Do not merge the Substack source set into the interview source set; the helix is a reading pattern, not a source-class collapse.
+- Do not treat this routing note or the host-local arcs as substitutes for transcript authority on interview-side claims.
 - Do not let the real Napolitano branch quietly rewrite the existing Ritter triple helix into a four-strand object.
 - Do not let compatibility continuity or helper captures displace the canonical month ladder for first-open month reading.
 - Do not let the bounded month layer quietly become chronology-owning; it is speaker-side synthesis over host-owned chronology.

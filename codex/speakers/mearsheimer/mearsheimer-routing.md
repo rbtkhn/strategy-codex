@@ -6,6 +6,10 @@ Purpose: make the Mearsheimer speaker object faster to route without duplicating
 
 ## Core rule
 
+Transcript-first evidence, arc-first interpretation.
+
+For transcript-led Mearsheimer analysis, open the strongest actual transcript or transcript-bearing raw-input first, then use the host-local arc to interpret the host-conditioned transformation. Extend into this routing note, the helix, or broader synthesis only after the transcript and arc layers, and preserve the seam when synthesized claims go beyond transcript truth.
+
 Mearsheimer does **not** need a native monthly shelf of his own. The efficient structure is:
 
 - host shelves hold chronology
@@ -24,6 +28,7 @@ So this note is the **speaker-side index** into the real Mearsheimer host lanes.
 | coercive failure, bargaining geometry, settlement impossibility, or war-feasibility limits | [davis-mearsheimer-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-mearsheimer-arc.md) | Davis gives Mearsheimer his clearest force-versus-bargaining and punishment-failure testing ground. |
 | defeat accounting, sequence control, or a compact auxiliary anti-war reinforcement lane | [napolitano-mearsheimer-arc.md](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-mearsheimer-arc.md) | Napolitano gives a real but secondary host form focused on what Washington has already lost. |
 | the cleanest all-around first orientation to Mearsheimer as an object | [mearsheimer-helix.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-helix.md) | The helix note explains how the durable double structure fits together before you descend into a lane. |
+| the month-status answer or the reason Mearsheimer still does not need native speaker month pages | [mearsheimer-support-spine-2025-2026.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-support-spine-2025-2026.md) | The support spine owns the maturity and host-led month-support explanation at speaker scope. |
 
 ## Best entry points
 
@@ -36,6 +41,7 @@ So this note is the **speaker-side index** into the real Mearsheimer host lanes.
 - **Best host for structural-order reading:** [diesen](/C:/dev/strategy-codex/codex/speakers/diesen/stream/)
 - **Best host for coercive-failure / bargaining-geometry reading:** [davis](/C:/dev/strategy-codex/codex/speakers/davis/stream/)
 - **Best host for auxiliary defeat-accounting reinforcement:** [napolitano](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/)
+- **Best speaker-owned maturity surface:** [mearsheimer-support-spine-2025-2026.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-support-spine-2025-2026.md)
 - **Current non-core appearance bench:** [mearsheimer-raw-input-index.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-raw-input-index.md)
 
 ## Boundaries
@@ -43,4 +49,5 @@ So this note is the **speaker-side index** into the real Mearsheimer host lanes.
 - Do not build a duplicate Mearsheimer chronology here; the host shelves already do that.
 - Do not let the real Napolitano branch quietly promote Mearsheimer into a triple helix.
 - Use the raw-input index when an appearance matters to the shelf but does not belong to the stable double-helix core.
+- Do not treat this routing note or the host-local arcs as substitutes for transcript authority; they are downstream interpretive surfaces.
 - Use this note for **routing speed**; use the host-local arc when the task is already stream-specific.

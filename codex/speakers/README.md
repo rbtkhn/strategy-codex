@@ -31,6 +31,19 @@ Creation threshold: do **not** create a speaker folder for thin, accidental, or 
 
 Raw-input remains provenance. An **appearance** is one derived host/speaker/date/source event from a verified raw-input capture. Speaker arcs remain host-local interpretation. Speaker objects remain orientation and routing. Speaker helixes and cross-host notes remain comparative surfaces. In this shelf, lattice rows are lookup pointers only; they may cite speaker folders, but they should not become the place where every interpretation lives.
 
+Transcript-first evidence, arc-first interpretation.
+
+Routing precedence for speaker-grounded analysis:
+
+1. open the strongest available actual transcript or transcript-bearing raw-input
+2. extend through the transcript-derived host-local arc when interpretation or host transformation is needed
+3. extend through speaker routing notes, helixes, cross-host notes, or other synthesis only after the transcript and host-arc layer
+4. preserve the seam between transcript-backed and synthesized claims whenever the analysis extends beyond transcript truth
+
+Derived speaker arcs are interpretive routing surfaces downstream of transcript/raw-input, not substitutes for transcript authority.
+
+Carveout rule: object shape controls whether transcript-first is the correct default. Transcript-bearing relational arcs and transcript-backed routing notes should use this order by default. Authored-first, stream-native, profile-only, or otherwise mixed-provenance speakers should say so explicitly and keep the first-open surface that matches their real object shape.
+
 Layering rule: before migration, a **speaker arc** in the speaker shelf is the canonical person-level continuity surface; **host-local arcs** in host shelves are bounded transformations of that speaker under one host's pressure; **bench or month-spine support** in the speaker shelf exists only to route non-core appearances and month-level sequencing without replacing the canonical arc; and **statecraft intake** remains downstream, drawing speaker-state from these surfaces to build country, transaction, or civilizational instruments without becoming the owner of the speaker object itself. After migration, those live continuity jobs belong under repo-root `statecraft/speakers/`, while this tree should point there rather than compete with it. Freeman is the model case for this layering.
 
 Cross-speaker disagreement or comparison objects that do not belong to one speaker's continuity ownership should live under [`relations/`](relations/), not inside a single speaker folder by default.
