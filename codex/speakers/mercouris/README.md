@@ -1,3 +1,5 @@
+WORK only; not Record.
+
 # Compatibility Pointer
 
 The canonical statecraft-relevant surface now lives at [README.md](/C:/dev/strategy-codex/statecraft/speakers/mercouris/README.md).

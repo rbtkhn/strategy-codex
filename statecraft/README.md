@@ -17,7 +17,7 @@ Open [statecraft.md](statecraft.md) first when you need the full continuity surf
 
 The first decision is which lane is actually carrying the settlement problem. If ownership is unresolved, use `state-deploy`. If ownership is already clear and the object is Persia/Iran speaker-heavy, `statecraft-bridge` is the post-lane retrieval step when adapter choice is still the real uncertainty.
 
-Speaker-state continuity that belongs to live statecraft now opens from [statecraft/speakers/](speakers/README.md), not from an external speaker shelf by default.
+Speaker-state continuity that belongs to live statecraft now opens from [statecraft/speakers/](speakers/README.md), not from an external speaker shelf by default. The target is whole-corpus statecraft-native speaker continuity, with `codex/speakers/` retained only as compatibility/archive during migration.
 
 ## Quick Routes
 

@@ -1,5 +1,20 @@
 # Speakers
 
+`codex/speakers/` is now a compatibility/archive layer during the statecraft speaker migration.
+
+Canonical live speaker authority belongs under [statecraft/speakers/](/C:/dev/strategy-codex/statecraft/speakers/README.md). This legacy tree remains for:
+
+- compatibility pointers
+- non-statecraft speaker storage that has not been promoted into live statecraft use
+- archive residue and older shelf structures during phased cutover
+
+Do not treat `codex/speakers/` as a second live canonical speaker tree once a speaker has migrated into repo-root `statecraft/speakers/`.
+
+Short constitutional split:
+
+- `statecraft/speakers/` = canonical live speaker continuity
+- `codex/speakers/` = compatibility/archive and not-yet-migrated residue
+
 Speakers are higher-order strategy-codex objects outside the current eight-stream scaffold. They may carry speaker-arcs, speaker-helixes, cross-year notes, profiles, and other speaker-local materials without becoming first-class cognition streams in this volume.
 
 Do not use this shelf for text-first analyst-writer folders such as `simplicius` or `bigserge`; those belong under [`../writers/`](../writers/).
@@ -16,7 +31,7 @@ Creation threshold: do **not** create a speaker folder for thin, accidental, or 
 
 Raw-input remains provenance. An **appearance** is one derived host/speaker/date/source event from a verified raw-input capture. Speaker arcs remain host-local interpretation. Speaker objects remain orientation and routing. Speaker helixes and cross-host notes remain comparative surfaces. In this shelf, lattice rows are lookup pointers only; they may cite speaker folders, but they should not become the place where every interpretation lives.
 
-Layering rule: a **speaker arc** in the speaker shelf is the canonical person-level continuity surface; **host-local arcs** in host shelves are bounded transformations of that speaker under one host's pressure; **bench or month-spine support** in the speaker shelf exists only to route non-core appearances and month-level sequencing without replacing the canonical arc; and **statecraft intake** remains downstream, drawing speaker-state from these surfaces to build country, transaction, or civilizational instruments without becoming the owner of the speaker object itself. Freeman is the model case for this layering.
+Layering rule: before migration, a **speaker arc** in the speaker shelf is the canonical person-level continuity surface; **host-local arcs** in host shelves are bounded transformations of that speaker under one host's pressure; **bench or month-spine support** in the speaker shelf exists only to route non-core appearances and month-level sequencing without replacing the canonical arc; and **statecraft intake** remains downstream, drawing speaker-state from these surfaces to build country, transaction, or civilizational instruments without becoming the owner of the speaker object itself. After migration, those live continuity jobs belong under repo-root `statecraft/speakers/`, while this tree should point there rather than compete with it. Freeman is the model case for this layering.
 
 Cross-speaker disagreement or comparison objects that do not belong to one speaker's continuity ownership should live under [`relations/`](relations/), not inside a single speaker folder by default.
 
