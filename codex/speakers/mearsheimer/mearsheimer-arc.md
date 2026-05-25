@@ -46,6 +46,12 @@ The strongest current motion is:
 
 That motion is broad enough that Mearsheimer now deserves a person arc, even though the host-comparison object remains a double helix rather than a triple one.
 
+This also means the arc now sits inside the shelf's deliberate `host-led mature-month exception` law:
+
+- Mearsheimer has true month maturity
+- but month ownership still routes outward to host arcs and the non-core bench
+- the speaker shelf owns explanation and comparison rather than native month chronology
+
 ## Host-local branches
 
 Core host transformations:
@@ -56,14 +62,23 @@ Core host transformations:
 Supporting surfaces:
 
 - [mearsheimer-helix.md](mearsheimer-helix.md)
+- [mearsheimer-support-spine-2025-2026.md](mearsheimer-support-spine-2025-2026.md)
 - [mearsheimer-raw-input-index.md](mearsheimer-raw-input-index.md)
 - [index.md](index.md)
 
 ## Open first
 
+If the operator needs the canonical whole-speaker continuity answer:
+
+- stay on [mearsheimer-arc.md](mearsheimer-arc.md)
+
 If the operator needs the strongest whole-speaker comparative entry:
 
 - open [mearsheimer-helix.md](mearsheimer-helix.md)
+
+If the operator needs the strongest speaker-owned maturity and month-support explanation:
+
+- open [mearsheimer-support-spine-2025-2026.md](mearsheimer-support-spine-2025-2026.md)
 
 If the operator needs the fastest host-conditioned entry:
 
@@ -79,3 +94,4 @@ If the operator needs the cleanest structural anchor:
 - Do not quietly promote reinforcing outer-orbit material into a third canonical strand until it is materially stable.
 - Do not let either Diesen or Davis silently stand in for the whole Mearsheimer continuity.
 - Open raw-input before quoting or making claim-grade factual use.
+- Mature month density currently lives through host arcs, the non-core bench, and speaker-owned explanation rather than through native Mearsheimer month pages.

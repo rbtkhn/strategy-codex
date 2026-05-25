@@ -6,16 +6,30 @@ This folder is the **speaker-object entry surface** for John Mearsheimer.
 
 Open here first when the question is not merely "what did Mearsheimer say," but **which host lane should carry the Mearsheimer reading**.
 
+## Shelf class
+
+Mearsheimer is the current canonical `host-led mature-month exception shelf`.
+
+That means:
+
+- the shelf is genuinely mature
+- several 2026 months are real retrieval months
+- but month ownership still belongs more cleanly to host-local arcs, reinforcing orbit, and the non-core appearance bench than to speaker-native month shelves
+- this codex-side shelf remains canonical by deliberate doctrine, not by migration backlog
+
 ## Start here
 
 - [mearsheimer-arc.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-arc.md)
 - [mearsheimer-routing.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-routing.md)
+- [mearsheimer-raw-input-index.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-raw-input-index.md)
+- [mearsheimer-helix.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-helix.md)
 
 ## Structural notes
 
-- [mearsheimer-helix.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-helix.md)
+- [mearsheimer-support-spine-2025-2026.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-support-spine-2025-2026.md)
 - [mearsheimer-surface-orthogonality-2026-05.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-surface-orthogonality-2026-05.md)
 - [mearsheimer-historical-examples-audit.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-historical-examples-audit.md)
+- [mearsheimer-shelf-hygiene-2026-05.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-shelf-hygiene-2026-05.md)
 - [themes/README.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/themes/README.md)
 
 ## Appearance ladder
@@ -44,12 +58,15 @@ This shelf already has a genuine canonical structure:
 
 - [mearsheimer-arc.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-arc.md) is the canonical person-level continuity surface
 - [mearsheimer-helix.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-helix.md) is the crossing surface across the stable double-helix core
+- [mearsheimer-support-spine-2025-2026.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-support-spine-2025-2026.md) is the speaker-owned maturity and host-led month-support explanation
 - the two main host-local arcs carry the stable distinct host transformations
 - the Napolitano branch exists as reinforcing orbit material without yet becoming a third canonical strand
 
 The older [mearsheimer-thread.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-thread.md) file is therefore a **legacy continuity compatibility surface**, not a second canonical topical-thread system.
 
 Do not treat `mearsheimer-thread.md` as competing with the helix or the host-local arc structure. The orthogonality-bearing structure lives in the double helix plus the distinct host transformations it compares.
+
+This is why Mearsheimer is not currently being migrated by symmetry alone into `statecraft/speakers/`: the shelf law now recognizes a real `host-led mature-month exception` class, and Mearsheimer is the main deliberate case.
 
 ## Host lanes
 

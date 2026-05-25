@@ -4,13 +4,24 @@ WORK only; not Record.
 
 Purpose: front door for the canonical Mearsheimer shelf, surfacing the speaker-routing doctrine, the three main host arcs, and the full raw-input appearance map for a high-value cross-host strategist.
 
+## Shelf class
+
+Mearsheimer is the canonical `host-led mature-month exception shelf`.
+
+Read that to mean:
+
+- mature months exist
+- support spine owns the maturity explanation
+- host-local arcs and the non-core bench still own the best month-entry layer
+- this shelf remains codex-side on purpose rather than by neglect
+
 ## Open First
 
-- [Lane README](README.md) - shelf overview, speaker-routing links, and lane-role framing.
-- [Raw-input index](mearsheimer-raw-input-index.md) - exhaustive route map for every resolved Mearsheimer raw-input appearance currently materialized in the repo; also the current Mearsheimer `non-core appearance bench`.
+- [Speaker arc](mearsheimer-arc.md) - person-level continuity and the canonical answer to who Mearsheimer is as a speaker object.
 - [Speaker routing note](../../../speakers/mearsheimer/mearsheimer-routing.md) - fastest answer to which host lane to open first.
+- [Raw-input index](mearsheimer-raw-input-index.md) - exhaustive route map for every resolved Mearsheimer raw-input appearance currently materialized in the repo; also the current Mearsheimer `non-core appearance bench`.
 - [Speaker helix note](../../../speakers/mearsheimer/mearsheimer-helix.md) - why the main host transformations belong together.
-- [Speaker arc](../../../speakers/mearsheimer/mearsheimer-arc.md) - canonical whole-speaker continuity surface.
+- [Lane README](README.md) - wrapper front door for the whole shelf.
 - [Historical examples audit](../../../speakers/mearsheimer/mearsheimer-historical-examples-audit.md) - v1 benchmarkable audit of Mearsheimer's recurring historical examples.
 - [Theme pack](../../../speakers/mearsheimer/themes/README.md) - recurring Mearsheimer historical-theme commentary surfaces.
 
@@ -24,6 +35,8 @@ Purpose: front door for the canonical Mearsheimer shelf, surfacing the speaker-r
 - [Thread compatibility file](../../../speakers/mearsheimer/mearsheimer-thread.md) - legacy continuity surface; not a canonical topical-thread system
 - [Transcript compatibility file](../../../speakers/mearsheimer/mearsheimer-transcript.md)
 - [Page template](../../../speakers/mearsheimer/mearsheimer-page-template.md)
+- [Support spine](../../../speakers/mearsheimer/mearsheimer-support-spine-2025-2026.md)
+- [Shelf hygiene audit](../../../speakers/mearsheimer/mearsheimer-shelf-hygiene-2026-05.md)
 
 ## Canonical Structure
 
@@ -31,6 +44,7 @@ Mearsheimer's orthogonality-bearing structure is:
 
 - [Speaker arc](../../../speakers/mearsheimer/mearsheimer-arc.md) for the whole-speaker continuity surface
 - [Speaker helix](../../../speakers/mearsheimer/mearsheimer-helix.md) for the current double-helix crossing surface
+- [Support spine](../../../speakers/mearsheimer/mearsheimer-support-spine-2025-2026.md) for cross-year maturity and host-led month-support logic
 - the two main host-local arcs for stable distinct host transformations
 - the Napolitano branch as reinforcing orbit material rather than a third canonical strand
 - [mearsheimer-raw-input-index.md](mearsheimer-raw-input-index.md) as the current `non-core appearance bench`
@@ -38,6 +52,12 @@ Mearsheimer's orthogonality-bearing structure is:
 Do not read [mearsheimer-thread.md](../../../speakers/mearsheimer/mearsheimer-thread.md) as a second competing topical-thread system. It is a legacy compatibility file carried forward from the older expert-thread machinery.
 
 The historical examples audit and theme pack are speaker-side support surfaces. They widen retrieval and statecraft relevance without replacing the canonical arc / helix / host-arc structure.
+
+Current constitutional reading:
+
+`person arc -> routing -> raw-input / non-core bench -> helix -> support spine -> compatibility residue last`
+
+That is a deliberate exception-class reading, not a temporary workaround while waiting for a native month ladder.
 
 ## Ladder
 

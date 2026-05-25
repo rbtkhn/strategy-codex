@@ -124,4 +124,5 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of John 
 - Mearsheimer is a dense cross-host expert whose chronology is still primarily host-owned, so this index is intentionally broader than any single shelf.
 - The main canonical host transformations are Diesen, Davis, and Napolitano; authored Mearsheimer surfaces are also listed because they materially shape the 2026 lane.
 - The shorthand day files remain listed because they are distinct raw-input surfaces on disk, even when a fuller host capture exists nearby.
-- Discovery surfaces are included because they explicitly carry Mearsheimer rows inside `raw-input`, but they do not replace transcript-grade or video-title-grade captures.
+- The shorthand day files are support-tier provenance surfaces, not preferred citation anchors when a fuller transcript-bearing file exists for the same nearby Mearsheimer lane.
+- Discovery surfaces are included because they explicitly carry Mearsheimer rows inside `raw-input`, but they are support-tier bench surfaces and do not replace transcript-grade or video-title-grade captures.
