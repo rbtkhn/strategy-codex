@@ -1,12 +1,12 @@
 ---
 name: state-deploy
 preferred_activation: state-deploy
-description: "Deploy a live object to the right academy-statecraft lane. Use when the operator says state-deploy, deploy statecraft, which lane, which state skill, or asks whether a problem belongs to America, China, Persia, Russia, a two-lane comparison, or a cross-lane compact."
+description: "Deploy a live object to the right statecraft lane. Use when the operator says state-deploy, deploy statecraft, which lane, which state skill, or asks whether a problem belongs to America, China, Persia, Russia, a two-lane comparison, or a cross-lane compact."
 ---
 
 # State Deploy
 
-`state-deploy` is the academy-statecraft deployment skill. It is a router with judgment, not a fifth civilizational lane.
+`state-deploy` is the repo-root statecraft deployment skill. It is a router with judgment, not a fifth civilizational lane.
 
 Use it to decide which substantive lane should carry a live object now, whether the object is lane-local or cross-lane, and what work shape should open first.
 
@@ -37,17 +37,17 @@ Preserve that split:
 
 Open these first when the deployment call needs grounding:
 
-1. `codex/academy/statecraft/README.md`
-2. `codex/academy/statecraft/METHOD.md`
-3. `codex/academy/statecraft/civ-emp/README.md`
-4. `codex/academy/statecraft/sheets/transaction-router.md`
+1. `statecraft/README.md`
+2. `statecraft/METHOD.md`
+3. `statecraft/civ-emp/README.md`
+4. `statecraft/sheets/transaction-router.md`
 
 Use the lane front doors only as needed for the deployment judgment:
 
-- `codex/academy/statecraft/america/README.md`
-- `codex/academy/statecraft/china/README.md`
-- `codex/academy/statecraft/iran/README.md`
-- `codex/academy/statecraft/russia/README.md`
+- `statecraft/america/README.md`
+- `statecraft/china/README.md`
+- `statecraft/iran/README.md`
+- `statecraft/russia/README.md`
 
 ## Decision Rules
 

@@ -6,7 +6,7 @@ description: "Bridge a live speaker claim into the correct Persia/Iran CIV-EMP r
 
 # Statecraft Bridge
 
-`statecraft-bridge` is the post-lane retrieval bridge for Persia/Iran statecraft. It is not a fifth lane, not a coffee menu option, and not a substitute for `state-deploy` or `state-persia`.
+`statecraft-bridge` is the post-lane bridge step for Persia/Iran speaker-state intake. It is not a fifth lane, not a coffee menu option, and not a substitute for `state-deploy` or `state-persia`.
 
 Use it when the object is already speaker-heavy and Persia/Iran-owned, but still needs the right `civ-emp` retrieval profile before lane-local drafting begins.
 
@@ -32,11 +32,11 @@ Short doctrine:
 
 Open sources in this order unless the request is already narrower:
 
-1. `codex/academy/statecraft/bridges/README.md`
+1. `statecraft/bridges/README.md`
 2. the relevant adapter:
-   - `codex/academy/statecraft/bridges/marandi-civ-emp-retrieval-adapter.md`
-   - `codex/academy/statecraft/bridges/parsi-civ-emp-retrieval-adapter.md`
-3. `codex/academy/statecraft/bridges/worked-examples.md` when the object is mixed, unfamiliar, or disputed
+   - `statecraft/bridges/marandi-civ-emp-retrieval-adapter.md`
+   - `statecraft/bridges/parsi-civ-emp-retrieval-adapter.md`
+3. `statecraft/bridges/worked-examples.md` when the object is mixed, unfamiliar, or disputed
 4. the narrowest relevant `civ-emp` object
 5. the named Iran-lane follow-on surfaces
 
@@ -63,9 +63,33 @@ Open sources in this order unless the request is already narrower:
 - If the claim is mixed, name the ambiguity explicitly and let the menu resolve emphasis.
 - If the object is already fully in transaction form, hand off to:
   - `state-persia`
-  - `codex/academy/statecraft/sheets/transaction-router.md`
+  - `statecraft/sheets/transaction-router.md`
   - a named Iran transaction
 - If the object is not honestly Persia/Iran-owned, say so and hand back toward `state-deploy`.
+
+## Menu Calibration Rule
+
+The A-D menu must feel like the next real move for the named object, not like a reusable template.
+
+- For recognition-heavy objects such as `Graham Iran today`, bias toward:
+  - recognition leakage or dignity read
+  - settlement-frame objection
+  - named Persia/Iran lane or Hormuz-related handoff
+  - counterweight on overclaiming Iranian success
+- For settlement-heavy objects such as `what sanctions relief and guarantees would make Iran restraint durable`, bias toward:
+  - guarantee stack
+  - sequencing design
+  - transaction-aware handoff
+  - counterweight on humiliating verification or weak carriers
+- For mixed sacred-injury objects such as `Minab`, keep both dignity and mechanism visible:
+  - forbidden-bargain or recognition-threshold read
+  - humanitarian mechanism or protected-channel read
+  - named Iran transaction or lane descent
+  - counterweight on martyrdom lock or confession politics
+- For false-ownership objects such as `Taiwan quarantine`, do not fake a Persia path:
+  - say the object is not honestly Persia/Iran-owned
+  - hand back to `state-deploy`
+  - if a menu is still useful, make one option the recommended redeploy path rather than a Persia read
 
 ## Default Output
 
@@ -111,7 +135,7 @@ If repeated bridge usage exposes a durable retrieval pattern, confusion class, o
 
 Do not directly rewrite:
 
-- `codex/academy/statecraft/bridges/`
-- `codex/academy/statecraft/iran/helix.md`
-- `codex/academy/statecraft/iran/civilization/`
-- `codex/academy/statecraft/iran/transactions/`
+- `statecraft/bridges/`
+- `statecraft/iran/helix.md`
+- `statecraft/iran/civilization/`
+- `statecraft/iran/transactions/`

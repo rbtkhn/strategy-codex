@@ -1,7 +1,7 @@
 ---
 name: state-persia
 preferred_activation: state-persia
-description: "Open the Persia academy-statecraft lane directly. Use when the operator says state-persia, Persia state skill, Iran state skill, or wants the Iran/Persia lane to carry a statecraft object through dignity, sovereignty, recognition, anti-humiliation continuity, leverage under pressure, or verification without humiliation."
+description: "Open the Persia statecraft lane directly. Use when the operator says state-persia, Persia state skill, Iran state skill, or wants the Iran/Persia lane to carry a statecraft object through dignity, sovereignty, recognition, anti-humiliation continuity, leverage under pressure, or verification without humiliation."
 ---
 
 # State Persia
@@ -12,7 +12,7 @@ Open this lane when the live object turns on dignity, sovereignty, recognition, 
 
 Short doctrine: `state-deploy` decides the lane. `state-persia` decides what Persia / Iran can legitimately draft, carry, accept, reject, and institutionalize.
 
-When the object enters as a live speaker claim and still needs `recognition-first` versus `settlement-first` retrieval conditioning, use `statecraft-bridge` before this skill fully descends into lane-local drafting.
+When the object enters as a live speaker claim and still needs `recognition-first` versus `settlement-first` retrieval conditioning, use `statecraft-bridge` as the post-lane bridge step before this skill fully descends into lane-local drafting.
 
 ## Identity Block
 
@@ -23,7 +23,7 @@ Core test: what converts vulnerability into recognized leverage without humiliat
 ## Boundary
 
 - WORK only; not Record.
-- Map `Persia` to `codex/academy/statecraft/iran/`.
+- Map `Persia` to `statecraft/iran/`.
 - Start at the lane front door before descending.
 - Use the literature lens as a subordinate civilization-layer test, not as a separate top-level mode.
 - Do not directly rewrite lane books from live drafting.
@@ -34,26 +34,26 @@ Core test: what converts vulnerability into recognized leverage without humiliat
 
 - Assume Persia / Iran already owns the object unless the operator explicitly asks for deployment or comparison.
 - Decide what Persia / Iran can legitimately draft, carry, accept, reject, and institutionalize.
-- Prefer `statecraft-bridge` as the pre-drafting hook when the unresolved question is Marandi-versus-Parsi retrieval rather than Persia ownership.
+- Prefer `statecraft-bridge` as the post-lane bridge step when the unresolved question is Marandi-versus-Parsi retrieval rather than Persia ownership.
 - If the object is obviously cross-lane or not honestly Persia-owned, say so and hand back toward `state-deploy` or a comparison path.
 
 ## Source Surfaces
 
 Open in this order unless the request is already narrower:
 
-1. `codex/academy/statecraft/iran/README.md`
-2. `codex/academy/statecraft/iran/helix.md`
+1. `statecraft/iran/README.md`
+2. `statecraft/iran/helix.md`
 
 Descend only with a named reason:
 
-- `codex/academy/statecraft/iran/civilization/objects/state-memory.md` for dignity, continuity, sacrifice, recognition, and anti-humiliation authority
-- `codex/academy/statecraft/iran/civilization/geo.md` for plateau exposure, Hormuz carry, and settlement geometry
-- `codex/academy/statecraft/iran/civilization/war.md` for deterrent conversion and escalation boundaries
-- `codex/academy/statecraft/iran/civilization/peace.md` for recognition formulas, review, relief, and bounded equilibrium
-- `codex/academy/statecraft/iran/empire/seed-instruments.md` for outward leverage, sanctions endurance, and deterrent control stack
-- `codex/academy/statecraft/iran/state/` for present carriers and implementation burden
-- `codex/academy/statecraft/iran/transactions/` for draftable instruments
-- `codex/academy/statecraft/iran/civilization/lit.md` for dignity, martyrdom, continuity, or clause-language stress tests
+- `statecraft/iran/civilization/objects/state-memory.md` for dignity, continuity, sacrifice, recognition, and anti-humiliation authority
+- `statecraft/iran/civilization/geo.md` for plateau exposure, Hormuz carry, and settlement geometry
+- `statecraft/iran/civilization/war.md` for deterrent conversion and escalation boundaries
+- `statecraft/iran/civilization/peace.md` for recognition formulas, review, relief, and bounded equilibrium
+- `statecraft/iran/empire/seed-instruments.md` for outward leverage, sanctions endurance, and deterrent control stack
+- `statecraft/iran/state/` for present carriers and implementation burden
+- `statecraft/iran/transactions/` for draftable instruments
+- `statecraft/iran/civilization/lit.md` for dignity, martyrdom, continuity, or clause-language stress tests
 
 ## Routing Rule
 
@@ -95,7 +95,7 @@ When invoked with a named object, make the A-D options topic-specific.
 
 ## Recursive-Update Membrane
 
-If live drafting exposes a durable Iranian / Persian pattern, carrier, threshold, or precedent, stage a reviewable candidate in `codex/academy/statecraft/iran/updates/pending.md`.
+If live drafting exposes a durable Iranian / Persian pattern, carrier, threshold, or precedent, stage a reviewable candidate in `statecraft/iran/updates/pending.md`.
 
 Do not directly rewrite:
 

@@ -1,7 +1,7 @@
 ---
 name: state-america
 preferred_activation: state-america
-description: "Open the America academy-statecraft lane directly. Use when the operator says state-america, America state skill, or wants America to carry a statecraft object through lawful authority, constitutional carry, bounded coercion, burden-sharing, or successor-stable settlement."
+description: "Open the America statecraft lane directly. Use when the operator says state-america, America state skill, or wants America to carry a statecraft object through lawful authority, constitutional carry, bounded coercion, burden-sharing, or successor-stable settlement."
 ---
 
 # State America
@@ -37,19 +37,19 @@ Core test: what kind of American authority can still carry this tomorrow?
 
 Open in this order unless the request is already narrower:
 
-1. `codex/academy/statecraft/america/README.md`
-2. `codex/academy/statecraft/america/helix.md`
+1. `statecraft/america/README.md`
+2. `statecraft/america/helix.md`
 
 Descend only with a named reason:
 
-- `codex/academy/statecraft/america/civilization/objects/state-memory.md` for legitimacy, continuity, rights, dissent, and successor authority
-- `codex/academy/statecraft/america/civilization/geo.md` for continental carry and route geometry
-- `codex/academy/statecraft/america/civilization/war.md` for coercion, escalation, and command limits
-- `codex/academy/statecraft/america/civilization/peace.md` for lawful settlement, review, and burden-sharing
-- `codex/academy/statecraft/america/empire/seed-instruments.md` for maritime, alliance, sanctions, and outward control instruments
-- `codex/academy/statecraft/america/state/` for current carriers and implementation burden
-- `codex/academy/statecraft/america/transactions/` for draftable instruments
-- `codex/academy/statecraft/america/civilization/lit.md` for republic-conscience, anti-imperial, constitutional-language, or dissent tests
+- `statecraft/america/civilization/objects/state-memory.md` for legitimacy, continuity, rights, dissent, and successor authority
+- `statecraft/america/civilization/geo.md` for continental carry and route geometry
+- `statecraft/america/civilization/war.md` for coercion, escalation, and command limits
+- `statecraft/america/civilization/peace.md` for lawful settlement, review, and burden-sharing
+- `statecraft/america/empire/seed-instruments.md` for maritime, alliance, sanctions, and outward control instruments
+- `statecraft/america/state/` for current carriers and implementation burden
+- `statecraft/america/transactions/` for draftable instruments
+- `statecraft/america/civilization/lit.md` for republic-conscience, anti-imperial, constitutional-language, or dissent tests
 
 ## Routing Rule
 
@@ -91,7 +91,7 @@ When invoked with a named object, make the A-D options topic-specific.
 
 ## Recursive-Update Membrane
 
-If live drafting exposes a durable American pattern, carrier, threshold, or precedent, stage a reviewable candidate in `codex/academy/statecraft/america/updates/pending.md`.
+If live drafting exposes a durable American pattern, carrier, threshold, or precedent, stage a reviewable candidate in `statecraft/america/updates/pending.md`.
 
 Do not directly rewrite:
 

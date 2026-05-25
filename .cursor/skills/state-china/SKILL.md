@@ -1,7 +1,7 @@
 ---
 name: state-china
 preferred_activation: state-china
-description: "Open the China academy-statecraft lane directly. Use when the operator says state-china, China state skill, or wants China to carry a statecraft object through order, continuity, anti-disorder legitimacy, administrative carry, route stability, or quiet leverage."
+description: "Open the China statecraft lane directly. Use when the operator says state-china, China state skill, or wants China to carry a statecraft object through order, continuity, anti-disorder legitimacy, administrative carry, route stability, or quiet leverage."
 ---
 
 # State China
@@ -37,19 +37,19 @@ Core test: what preserves leverage without forcing China to own visible disorder
 
 Open in this order unless the request is already narrower:
 
-1. `codex/academy/statecraft/china/README.md`
-2. `codex/academy/statecraft/china/helix.md`
+1. `statecraft/china/README.md`
+2. `statecraft/china/helix.md`
 
 Descend only with a named reason:
 
-- `codex/academy/statecraft/china/civilization/objects/state-memory.md` for continuity, face, anti-humiliation authority, and development legitimacy
-- `codex/academy/statecraft/china/civilization/geo.md` for route exposure and settlement geometry
-- `codex/academy/statecraft/china/civilization/war.md` for coercive classification and escalation boundaries
-- `codex/academy/statecraft/china/civilization/peace.md` for stabilization formulas, review, and bounded equilibrium
-- `codex/academy/statecraft/china/empire/seed-instruments.md` for outward leverage, finance, shipping, insurance, and control stack
-- `codex/academy/statecraft/china/state/` for present carriers and implementation burden
-- `codex/academy/statecraft/china/transactions/` for draftable instruments
-- `codex/academy/statecraft/china/civilization/lit.md` for harmony, face, hierarchy, patience, or clause-language stress tests
+- `statecraft/china/civilization/objects/state-memory.md` for continuity, face, anti-humiliation authority, and development legitimacy
+- `statecraft/china/civilization/geo.md` for route exposure and settlement geometry
+- `statecraft/china/civilization/war.md` for coercive classification and escalation boundaries
+- `statecraft/china/civilization/peace.md` for stabilization formulas, review, and bounded equilibrium
+- `statecraft/china/empire/seed-instruments.md` for outward leverage, finance, shipping, insurance, and control stack
+- `statecraft/china/state/` for present carriers and implementation burden
+- `statecraft/china/transactions/` for draftable instruments
+- `statecraft/china/civilization/lit.md` for harmony, face, hierarchy, patience, or clause-language stress tests
 
 ## Routing Rule
 
@@ -91,7 +91,7 @@ When invoked with a named object, make the A-D options topic-specific.
 
 ## Recursive-Update Membrane
 
-If live drafting exposes a durable Chinese pattern, carrier, threshold, or precedent, stage a reviewable candidate in `codex/academy/statecraft/china/updates/pending.md`.
+If live drafting exposes a durable Chinese pattern, carrier, threshold, or precedent, stage a reviewable candidate in `statecraft/china/updates/pending.md`.
 
 Do not directly rewrite:
 

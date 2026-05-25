@@ -1,0 +1,204 @@
+# Statecraft
+
+WORK only; not Record.
+
+This file is the **human-AI cognitive continuity interface** for repo-root `statecraft/`. It is also the constitutional kernel, but its first job is more basic: when you open it cold, it should restore the machine in your head quickly enough that you do not have to re-derive statecraft from scattered notes.
+
+Statecraft exists to convert strategic, historical, civilizational, and speaker-state input into bounded operational artifacts that can carry authority, restraint, and settlement.
+
+It is not:
+
+- a country encyclopedia
+- a speaker shelf
+- a public PH-CIV surface
+- a generic commentary bench
+- a silent source-memory mutation path
+
+## Reopen This System
+
+Restore these invariants first:
+
+- `civ-emp remembers -> statecraft drafts`
+- `pattern / narrative -> authority / restraint / settlement`
+- lane orthogonality matters more than elegant synthesis
+- braid keeps the live coupled object real; helix tracks long-run recurrence and transformation
+- leverage is not yet statecraft
+- promotion must be earned
+
+Restore this canonical sequence next:
+
+`source memory -> routing -> lane judgment -> output selection -> mechanism draft -> validation -> governed recursive learning`
+
+Reopen with these questions:
+
+1. What is the real crisis object?
+2. Which lane owns the settlement logic?
+3. What is the narrowest honest output form?
+4. What belongs downstream in statecraft, and what belongs back upstream to `civ-emp`?
+
+When reopening from one live object, take the first valid move in this order:
+
+1. decide whether the object is still braided or already classifiable
+2. decide whether lane ownership is unresolved or already clear
+3. decide whether the remaining uncertainty is lane judgment or retrieval conditioning
+4. choose the narrowest honest output form before drafting mechanism
+
+## Continuity Manifesto
+
+Statecraft begins when pattern, memory, and pressure stop being only interpretation and become an authority problem, a restraint problem, and a settlement problem.
+
+The machine works only if a few distinctions stay alive:
+
+- **source memory vs drafting**
+  - `civ-emp` stores recurrence, memory, counterweight, and retrieval depth
+  - `statecraft` converts that memory into bounded operational judgment
+- **braid vs helix**
+  - `braid` keeps a live coupled object together long enough to draft it honestly
+  - `helix` names long-run recurrence, deformation, and restoration across time
+- **lane ownership vs retrieval conditioning**
+  - `state-deploy` decides who owns the object
+  - the lane decides what that owner can carry
+  - `statecraft-bridge` only intervenes when the unresolved question is retrieval profile rather than ownership
+- **leverage vs settlement**
+  - pressure, position, or coercive salience do not yet count as statecraft
+  - statecraft begins when the object can be converted into authority, restraint, and settlement
+- **importance vs maturity**
+  - an important event does not automatically deserve a framework
+  - a sharp note does not automatically deserve transaction form
+
+The system stays healthy when it preserves orthogonality long enough to draft something real:
+
+- America is not China with different preferences
+- China is not Iran with a larger economy
+- Iran is not Russia with less depth
+- Russia is not America without liberal language
+
+Each lane must keep its own legitimacy grammar, fear structure, leverage profile, carrier burden, and settlement logic long enough for a real instrument to emerge.
+
+## Core Ontology
+
+- **source base**: `civ-emp` as the upstream source-memory and retrieval substrate
+- **lane**: America, China, Iran/Persia, Russia as state-perspective drafting benches
+- **speaker-state intake**: speaker arcs, thread atlases, host-local arcs, routing notes, and bridge adapters as governed input classes
+- **crisis object**: the contested object whose classification drives leverage, escalation, or settlement
+- **braid**: a live coupled bundle that must stay together long enough to become one real draftable object
+- **helix**: long-run recurrence and transformation across time
+- **output class**: the terminal form a given pass honestly deserves
+- **transaction**: a mature reusable statecraft package with instrument form and revisit discipline
+- **recursive update candidate**: governed learning proposed for later review rather than silent doctrine mutation
+
+## Output Taxonomy
+
+Valid terminal forms are:
+
+- **commentary** - descriptive or interpretive read that should not pretend to be an instrument
+- **braid** - keep coupled lines together before lane spending is honest
+- **lane note** - one-state interpretation without full instrument form
+- **memo** - compact advisory or bounded recommendation surface
+- **objection matrix** - actor-resistance and patch analysis for a fragile but plausible instrument
+- **comparison** - structured cross-lane or cross-arc contrast
+- **router candidate / transaction-fit note** - threshold surface before transaction promotion
+- **transaction-use brief** - spend an existing transaction bundle without inventing a new framework
+- **lane draft** - lane-local draft instrument or clause package
+- **full transaction** - reusable transaction only after crisis object, settlement spine, named carriers, instrument form, and revisit discipline are present
+- **recursive update candidate** - learning surface for later review, not direct doctrine mutation
+
+Use [artifact-registry.md](artifact-registry.md) to classify new or touched outputs by class and maturity.
+
+## Promotion And Terminal-Form Law
+
+Do not promote because an event is important, the prose is strong, or the analogy is sharp.
+
+Promotion to lane draft or full transaction usually requires:
+
+- a named crisis object
+- a real settlement spine
+- explicit authority carriers
+- plausible mechanism or clause form
+- bounded aim
+- review, falsifier, or revisit discipline
+
+If those are missing, stop earlier. Early stopping is healthy architecture, not underperformance.
+
+## Precedence Rules
+
+1. `coffee -> C. Statecraft` opens the system front door.
+2. `state-deploy` answers `who owns this object now?`
+3. `state-*` skills answer `what can this owner legitimately draft, carry, accept, reject, and institutionalize?`
+4. `statecraft-bridge` answers `which retrieval profile should read this Persia/Iran speaker-heavy object?`
+5. the transaction router answers `does this belong to an existing transaction plateau object?`
+6. review queues and pending files capture learning without silent rewrite
+
+## CIV-EMP Protocol
+
+Downstream from `civ-emp` into statecraft:
+
+- source pattern
+- origin / continuity / transformation
+- current carrier
+- failure mode
+- counterweight
+- transaction hooks
+- stabilized retrieval logic
+
+Upstream from statecraft back into `civ-emp`, only as reviewable candidates:
+
+- source-pattern correction
+- retrieval-logic refinement
+- missing counterweight
+- object-schema improvement
+- historical-comparative correction exposed by drafting
+- transaction-hook refinement discovered through repeated use
+
+Transport rule:
+
+- use [civ-emp/review-queue.md](civ-emp/review-queue.md)
+- do not silently patch both layers from one live drafting pass
+
+## Speaker-Arc Input Protocol
+
+Speaker arcs are first-class input classes, not statecraft authority.
+
+Recognized classes include:
+
+- person arc
+- helix
+- thread atlas
+- host-local arc
+- routing note
+- bridge adapter
+- speaker-state intake mapping
+
+Speaker arcs may feed:
+
+- commentary
+- comparison
+- braid
+- lane note
+- bridge step
+- mature transaction-use work
+- recursive update candidates
+
+Speaker arcs may not:
+
+- own lane judgment
+- substitute for `civ-emp`
+- become transaction authority by proximity
+- silently define a lane's state interest
+- bypass deployer / lane / bridge precedence
+
+Bridge rule:
+
+If the unresolved question is not lane ownership but how a speaker-conditioned claim should be read against source memory, route through a bridge surface before descending into substantive drafting.
+
+## Delegated Modules
+
+- [README.md](README.md) owns front-door orientation only.
+- [METHOD.md](METHOD.md) owns drafting procedure only.
+- [ARCHITECTURE.md](ARCHITECTURE.md) owns maturity, anti-sprawl, and lifecycle governance only.
+- [artifact-registry.md](artifact-registry.md) owns the minimal metadata law for output classification.
+- [civ-emp/review-queue.md](civ-emp/review-queue.md) owns the upstream source-candidate staging surface.
+
+## Compatibility
+
+The previous academy namespace remains temporarily available through compatibility pointers under [codex/academy/statecraft/](/C:/dev/strategy-codex/codex/academy/statecraft/). The repo-root `statecraft/` tree is the live operational system.

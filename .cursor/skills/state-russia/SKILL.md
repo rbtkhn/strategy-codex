@@ -1,7 +1,7 @@
 ---
 name: state-russia
 preferred_activation: state-russia
-description: "Open the Russia academy-statecraft lane directly. Use when the operator says state-russia, Russia state skill, or wants Russia to carry a statecraft object through depth, parity, anti-managed humiliation, disruption without entrapment, or equilibrium-bearing recognition."
+description: "Open the Russia statecraft lane directly. Use when the operator says state-russia, Russia state skill, or wants Russia to carry a statecraft object through depth, parity, anti-managed humiliation, disruption without entrapment, or equilibrium-bearing recognition."
 ---
 
 # State Russia
@@ -46,19 +46,19 @@ Secondary tests:
 
 Open in this order unless the request is already narrower:
 
-1. `codex/academy/statecraft/russia/README.md`
-2. `codex/academy/statecraft/russia/helix.md`
+1. `statecraft/russia/README.md`
+2. `statecraft/russia/helix.md`
 
 Descend only with a named reason:
 
-- `codex/academy/statecraft/russia/civilization/objects/state-memory.md` for recognition, humiliation, continuity, and strategic-depth legitimacy
-- `codex/academy/statecraft/russia/civilization/geo.md` for corridor exposure and settlement geometry
-- `codex/academy/statecraft/russia/civilization/war.md` for coercive depth, escalation, and overbind risk
-- `codex/academy/statecraft/russia/civilization/peace.md` for reciprocal limits, recognition formulas, review, and bounded equilibrium
-- `codex/academy/statecraft/russia/empire/seed-instruments.md` for outward leverage, energy, ambiguity, and optionality-preserving control stack
-- `codex/academy/statecraft/russia/state/` for present carriers and implementation burden
-- `codex/academy/statecraft/russia/transactions/` for draftable instruments
-- `codex/academy/statecraft/russia/civilization/lit.md` for humiliation, sacrifice, state-soul, or clause-language stress tests
+- `statecraft/russia/civilization/objects/state-memory.md` for recognition, humiliation, continuity, and strategic-depth legitimacy
+- `statecraft/russia/civilization/geo.md` for corridor exposure and settlement geometry
+- `statecraft/russia/civilization/war.md` for coercive depth, escalation, and overbind risk
+- `statecraft/russia/civilization/peace.md` for reciprocal limits, recognition formulas, review, and bounded equilibrium
+- `statecraft/russia/empire/seed-instruments.md` for outward leverage, energy, ambiguity, and optionality-preserving control stack
+- `statecraft/russia/state/` for present carriers and implementation burden
+- `statecraft/russia/transactions/` for draftable instruments
+- `statecraft/russia/civilization/lit.md` for humiliation, sacrifice, state-soul, or clause-language stress tests
 
 ## Routing Rule
 
@@ -127,7 +127,7 @@ When invoked with a named object, make the A-D options topic-specific.
 
 ## Recursive-Update Membrane
 
-If live drafting exposes a durable Russian pattern, carrier, threshold, or precedent, stage a reviewable candidate in `codex/academy/statecraft/russia/updates/pending.md`.
+If live drafting exposes a durable Russian pattern, carrier, threshold, or precedent, stage a reviewable candidate in `statecraft/russia/updates/pending.md`.
 
 Do not directly rewrite:
 
