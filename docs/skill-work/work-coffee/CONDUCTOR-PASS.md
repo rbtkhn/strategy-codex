@@ -28,6 +28,10 @@ The coffee hub now ends at **D**. You may still open **Conductor** **without** `
 - **Behavioral / non-durable** = a movement satisfied only in chat as a distinction, acknowledgment, or behavior commitment. It may be useful, but it is not durable evidence.
 - **Durable close** = an on-disk notebook/close-template anchor or a `coffee_conductor_outcome` with `conductor=<slug>`, `verdict=`, and `notebook_ref=` or `falsify=`. Durability belongs to evidence, not merely to momentum.
 
+**`bravo` close token** = a compact operator signal that the completed conductor arc has landed. It does not mean "pick B." It means the full **A-D** movement sequence can be treated as closed in chat. Default response: acknowledge completion, name any durable close if present, state plainly when the close is behavioral/chat-level only, and do not reopen the Conductor Action Menu unless the operator starts a new pass.
+
+**`weak` dissatisfaction token** = a compact operator signal that the conductor pass did not land strongly enough. It is not a request for argument. Default response: one short acknowledgment such as `I'll try to do better next time.`, then move to a new bounded menu or choice surface. `weak` marks dissatisfaction behaviorally without forcing an immediate postmortem.
+
 ---
 
 ## The five master modes (abstraction)

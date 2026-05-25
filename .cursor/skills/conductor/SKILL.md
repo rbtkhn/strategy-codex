@@ -17,6 +17,10 @@ description: "Conductor: name-only WORK execution stance. Read HARD-PROTOCOL.md 
 
 **Vocabulary contract:** `active arc` means the latest explicit `coffee_pick picked=conductor conductor=<slug>` that cadence still treats as unresolved. `open` means a movement is still available inside that arc; it does not by itself mean urgent or unfinished in the same way every time. `closed` means the arc has been durably sealed or explicitly marked `conductor_state=closed`. `behavioral/non-durable` means a movement settled only in chat. `durable close` means an on-disk notebook anchor or a `coffee_conductor_outcome` with `conductor=<slug>`, `verdict=`, and `notebook_ref=` or `falsify=`.
 
+**`bravo` close token:** In conductor context, treat **`bravo`** as a compact **end-of-arc closure signal**, not as coffee-hub **B** and not as a new movement pick. It means the full **A-D** conductor cycle landed to the operator's satisfaction. Default behavior: close the current conductor arc cleanly, do not reopen the Conductor Action Menu in the same reply, and give a short close shape naming `what landed`, `durable receipt if any`, and `whether anything remains open`. If the pass is only chat-complete, say that plainly rather than implying an on-disk close.
+
+**`weak` dissatisfaction token:** In conductor context, treat **`weak`** as the lightweight negative counterpart to **`bravo`**. It means the pass did not land strongly enough and should not be treated as a satisfying close. Default behavior: reply with one short acknowledgment such as `I'll try to do better next time.`, avoid defensive analysis unless the operator asks for it, and move on to the next bounded menu or fresh choice instead of lingering on the failed pass.
+
 **Operational layer map:** This skill is the **operational router** (stance ? disk actions ? logging), not synthesis doctrine ? see [CONDUCTOR-LAYER-MAP.md](../../../docs/skill-work/work-coffee/CONDUCTOR-LAYER-MAP.md). **Conductor names** select stance. **Conductor Action Menu** = four movement-labeled next moves after `conductor=<slug>` resolves ([CONDUCTOR-PASS ? Conductor action MCQ](../../../docs/skill-work/work-coffee/CONDUCTOR-PASS.md#conductor-action-mcq)). **Prefer conductor slugs** in logs/metadata (`toscanini`, `furtwangler`, ?), not stable storage of hub/action letters.
 
 **Coding-agent prompts:** When using Conductor to shape a coding-agent proposal, load [conductor proposal lenses](../../../docs/skill-work/work-dev/conductor-proposal-lenses.md); if proposed actions still feel identical across conductors, use the **Beethoven test** appendix there for crisis-driven collapse, or the **Brahms test** appendix when the problem feels **dense, overlapping, or inert** rather than crisis-driven.
@@ -387,6 +391,10 @@ python3 scripts/log_cadence_event.py --kind coffee_conductor_outcome -u strategy
 - [STRATEGY-NOTEBOOK-ARCHITECTURE](../../../docs/skill-work/work-strategy/strategy-notebook/STRATEGY-NOTEBOOK-ARCHITECTURE.md) (when the object is `days.md` / weave)
 
 **Done when:** Master resolved; orientation delivered; **Conductor action MCQ** (four movement-labeled **A-D** choices) unless operator opted out; **`coffee_pick`** if applicable; optional **`coffee_conductor_outcome`**. If the pass ends without an attributed outcome line, the next best move is to log a repair outcome rather than leave the close implicit. When the **Coffee Hub Menu** routes into Conductor and produces **orientation + action MCQ**, omit the Coffee Hub Menu in that same reply and wait for the **Conductor Action Menu** **`A-D`** choice first. **`stay in coffee`** may re-offer the Coffee Hub Menu on the following turn after action resolves or closes; else normal workflow.
+
+When the operator closes with **`bravo`**, treat the pass as behaviorally complete unless they immediately reopen it. Report the close, name any durable receipt if present, and return to normal workflow rather than reissuing the action menu.
+
+When the operator replies **`weak`**, do not count the pass as landed. Give the short acknowledgment and continue with a new bounded menu rather than attempting to defend or relitigate the same conductor cycle unless the operator explicitly asks.
 
 ## Due/open loop surfacing
 

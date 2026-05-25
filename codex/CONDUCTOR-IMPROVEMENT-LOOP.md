@@ -24,6 +24,10 @@
 
 **Rule:** A conductor run without a same-day or same-session anchor in the notebook or an outcome line is **orientation-only** for chat - fine for a sip, but **not** a complete loop for recursive improvement.
 
+**`bravo` distinction:** The operator may still close a conductor pass with **`bravo`**. Treat that as a meaningful behavioral end-of-arc signal: the A-D movement sequence landed and should not be reopened by default. But `bravo` alone does not upgrade an orientation-only or chat-only pass into a durable improvement-loop close. Notebook anchors and `coffee_conductor_outcome` lines remain the concrete receipts.
+
+**`weak` distinction:** The operator may also mark a conductor pass as **`weak`**. Treat that as lightweight dissatisfaction feedback for recursive improvement: the pass did not land, but the response should stay light. A short acknowledgment is enough unless the operator requests diagnosis. `weak` does not create a durable negative receipt by itself; it simply prevents the pass from being treated as behaviorally successful.
+
 **Coffee / dream contract:** `coffee` owns stance selection and action-menu execution; `dream` owns compression. A `coffee_pick` with `picked=conductor conductor=<slug>` is enough for tomorrow's coffee to remember the latest stance, but it is not enough for dream to call the pass complete. Dream may carry the stance forward as `orientation_only`; only a notebook/page close or `coffee_conductor_outcome` with `conductor=<slug>`, `verdict=`, and `notebook_ref=` or `falsify=` counts as a closed conductor pass in `conductor_rollup_24h`.
 
 **Repair receipt - 2026-05-14:** A Toscanini/Furtwangler conductor sequence failed by treating conductor names as a **style overlay** instead of executing the established protocol. Exact failure: the assistant produced generic, interchangeable A-D options and let persona color outrun the required score: resolve one `conductor=<slug>`, give the slug's short orientation, then emit a concrete, repo-grounded **Conductor Action Menu** with exactly **A. Allegro**, **B. Andante**, **C. Scherzo**, and **D. Finale**. Restored protocol: [AGENTS.md](../AGENTS.md) is the Layer-1 contract; [CONDUCTOR-PASS.md](../docs/skill-work/work-coffee/CONDUCTOR-PASS.md) is the shared cross-lane shape; [`.cursor/skills/conductor/SKILL.md`](../.cursor/skills/conductor/SKILL.md) is subordinate mode routing and voice. Falsifier: any future conductor-name turn that emits a lettered master chooser, omits the movement-labeled action menu, or offers options without exact file/command/artifact targets has regressed.
@@ -55,6 +59,8 @@ flowchart TD
 
 - A **Conductor close** in `chapters/YYYY-MM/days.md` for that day, or in a `strategy-page` Reflection, using [CONDUCTOR-CLOSE-TEMPLATE.md](CONDUCTOR-CLOSE-TEMPLATE.md).
 - A `coffee_conductor_outcome` line with `conductor=<slug>`, `verdict=`, and `notebook_ref=` or `falsify=`.
+
+**Behavioral close:** If the operator says **`bravo`**, the arc may be socially complete even when no notebook or cadence receipt was written. Treat that as a real ritual close, but distinguish it from a durable close.
 
 **Full pass:** the same, plus an explicit test line and, when the arc deserves it, ladder / STRATEGY; gate only when the update is governed behavior.
 

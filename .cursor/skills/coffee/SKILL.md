@@ -73,6 +73,10 @@ The **five masters** (**Toscanini**, **Furtw?ngler**, **Karajan**, **Kleiber**, 
 
 **Conductor close (optimal loop):** Same as before ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â [CONDUCTOR-CLOSE-TEMPLATE.md](../../../codex/CONDUCTOR-CLOSE-TEMPLATE.md) in **`days.md`** / page **Reflection**, or **`coffee_conductor_outcome`** ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â [CONDUCTOR-IMPROVEMENT-LOOP.md](../../../codex/CONDUCTOR-IMPROVEMENT-LOOP.md). For auditability, every new outcome line should carry **`conductor=<slug>`** and **`verdict=`**, plus **`notebook_ref=`** or **`falsify=`** (both preferred). If a pass ended without that line, log a repair outcome on the next turn rather than leaving the close implicit.
 
+**`bravo` in conductor context:** If the operator replies **`bravo`** after a conductor pass, treat it as an **end-of-arc close token**: the whole **A-D** conductor cycle landed, no further conductor menu should be reopened by default, and the assistant should give a short close shape plus any durable receipt status. This is not coffee-hub **B** and not an Engineer pick.
+
+**`weak` in conductor context:** If the operator replies **`weak`** after a conductor pass, treat it as a lightweight dissatisfaction token rather than a request for analysis. Default response: one short acknowledgment such as `I'll try to do better next time.` Then move on by reopening a bounded menu or fresh choice surface. Do not treat `weak` as coffee-hub **B** or as a cue to defend the just-finished pass unless the operator explicitly asks.
+
 **Loop surfacing:** When the derived reader finds live pressure, show **Open loops due for revisit** before the Conductor action MCQ via `build_conductor_revisit_block('strategy-codex')`. Keep it advisory, prefer the active lane first, and include the shared **`Tension`** subsection when multiple streams disagree on the same horizon.
 
 **After the reply:** return to **normal workflow** unless the operator says **`stay in coffee`** or **`coffee`**.
