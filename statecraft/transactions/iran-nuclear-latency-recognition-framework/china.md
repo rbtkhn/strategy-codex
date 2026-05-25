@@ -12,7 +12,7 @@ Anti-disorder nuclear restraint compact.
 
 ## Source Inputs
 
-- Speaker-state inputs: [Pape](../../../../speakers/pape/) for system leverage and clocks; [Jiang](../../../../speakers/jiang/) for China-facing strategic framing; [Sachs](../../../../speakers/sachs/) for macro-system effects; [Parsi](../../../../speakers/parsi/) for regional architecture; [Crooke](../../../../speakers/crooke/) / [Diesen](../../../../speakers/diesen/) for order transition.
+- Speaker-state inputs: [Pape](../../../../speakers/pape/) for system leverage and clocks; [Jiang](../../../../speakers/jiang/) for China-facing strategic framing; [Sachs](../../../../speakers/sachs/) for macro-system effects; [Parsi](../../../../speakers/parsi/) for regional architecture; [Crooke](../../../speakers/crooke/README.md) / [Diesen](../../../../speakers/diesen/) for order transition.
 - Scoreboards used: [Pape coercive-center index](../../sheets/pape-coercive-center-index.md); [Mearsheimer structural-realist scoreboard](../../sheets/mearsheimer-structural-realist-scoreboard.md).
 - Raw-input / provenance anchors: [Parsi 2026-02-20](../../../../years/2026/raw-input/2026-02-20/substack-parsi-no-even-a-small-attack-on-iran-will-lead-to-war-2026-02-20.md); [Parsi 2026-05-03](../../../../years/2026/raw-input/2026-05-03/substack-parsi-a-few-observations-on-irans-latest-proposal-to-trump-2026-05-03.md); [Pape 2026-05-13](../../../../years/2026/raw-input/2026-05-13/substack-pape-with-china-its-getting-late-early-2026-05-13.md).
 

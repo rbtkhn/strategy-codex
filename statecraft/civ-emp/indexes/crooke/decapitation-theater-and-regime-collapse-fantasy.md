@@ -8,7 +8,7 @@ Provide a `civ-emp` source scaffold for the Crooke theme in which interveners re
 
 ## Modern Activation
 
-Crooke-side activation surface: [Decapitation theater and regime-collapse fantasy](../../../../../speakers/crooke/themes/decapitation-theater-and-regime-collapse-fantasy.md)
+Crooke-side activation surface: [Decapitation theater and regime-collapse fantasy](../../../../speakers/crooke/themes/decapitation-theater-and-regime-collapse-fantasy.md)
 
 ## Backward Historical Question
 

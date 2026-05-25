@@ -36,12 +36,24 @@ Reopen with these questions:
 3. What is the narrowest honest output form?
 4. What belongs downstream in statecraft, and what belongs back upstream to `civ-emp`?
 
+On first contact, force these three calls early:
+
+- **crisis object**: what is actually being contested?
+- **lane ownership**: who has to carry the settlement logic?
+- **output form**: is this still commentary, already a lane note, or near a transaction-use brief?
+
 When reopening from one live object, take the first valid move in this order:
 
 1. decide whether the object is still braided or already classifiable
 2. decide whether lane ownership is unresolved or already clear
 3. decide whether the remaining uncertainty is lane judgment or retrieval conditioning
 4. choose the narrowest honest output form before drafting mechanism
+
+Use this quick transaction-fit instinct before you draft:
+
+- if the object is still mostly naming and framing pressure, stop at commentary or lane note
+- if the lane is clear but the mechanism is still thin, stop at memo, comparison, or router candidate
+- if the object already sounds like a known corridor, guarantee, transit, or sanctions bargain, check existing transaction fit before inventing a fresh framework
 
 Use these fast recognizers when the object family is already obvious:
 
@@ -57,6 +69,30 @@ Use these fast recognizers when the object family is already obvious:
   - test transaction fit and objection structure before promoting to full framework
 
 If none of those recognizers settle ownership, return to `state-deploy` rather than forcing an elegant synthesis.
+
+Do not linger in the kernel longer than needed:
+
+- if ownership is unresolved, go to `state-deploy`
+- if ownership is clear, open the lane
+- if the object is already clearly transaction-shaped, check the router or the nearest existing transaction before widening the analysis
+
+When the machine gets fooled, it usually gets fooled in one of these ways:
+
+- it mistakes salience for settlement and drafts too early
+- it mistakes speaker force for lane ownership and skips the deployer
+- it mistakes one state's leverage for another state's legitimacy grammar
+- it mistakes a sharp analogy for a mature transaction
+- it prefers elegant synthesis over honest orthogonality
+
+The felt warning sign is false elegance: the draft starts sounding coherent before the crisis object, carrier, and classification are actually stable.
+
+Mini reclassification example:
+
+- first read: `Taiwan quarantine` sounds like convoy or blockade theater
+- better read: first classify whether the object is quarantine, customs inspection, exclusion, insurance panic, or invasion preparation
+- statecraft gain: the legal and political classification changes which lane opens first, what instrument is honest, and whether the first move is guarantee design, routing comparison, or de-escalation language
+
+When in doubt, prefer one reclassification step over one premature clause.
 
 ## Continuity Manifesto
 
@@ -177,12 +213,16 @@ Speaker arcs are first-class input classes, not statecraft authority.
 Recognized classes include:
 
 - person arc
+- speaker month-support surface
+- segment-maturity ladder
 - helix
 - thread atlas
 - host-local arc
 - routing note
 - bridge adapter
 - speaker-state intake mapping
+
+When a speaker-conditioned crisis sequence or thread needs bounded continuity before lane descent, statecraft-governed speaker month pages, thread atlases, routing notes, and other speaker-state continuity surfaces belong in the live [statecraft/speakers/](speakers/README.md) tree rather than outside statecraft by default.
 
 Speaker arcs may feed:
 

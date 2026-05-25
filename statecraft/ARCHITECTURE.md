@@ -2,7 +2,7 @@
 
 WORK only; not Record.
 
-This file is a delegated module under [statecraft.md](statecraft.md). It owns maturity checks, anti-sprawl rules, lifecycle closure, and stable-versus-experimental governance. It does not redefine the system’s ontology or protocols.
+This file is a delegated module under [statecraft.md](statecraft.md). It owns maturity checks, anti-sprawl rules, lifecycle closure, and stable-versus-experimental governance. It does not redefine the system's ontology or protocols.
 
 ## Stable Line
 
@@ -11,10 +11,11 @@ Statecraft is a drafting system. It converts historical pattern, contemporary sp
 The stable sequence is:
 
 1. `civ-emp` retrieval supplies recurrence, memory, counterweight, and transaction hook.
-2. Lane routing identifies the correct owner or comparison frame.
-3. Lane doctrine converts the crisis into one actor’s state interest, fear, leverage, constraints, and preferred instrument.
-4. Drafting method converts the object into a bounded artifact.
-5. Reviewable candidates feed durable discoveries back either to lane update surfaces or to the `civ-emp` review queue.
+2. Speaker-state continuity surfaces may condition retrieval when the live object arrives through a speaker-state route.
+3. Lane routing identifies the correct owner or comparison frame.
+4. Lane doctrine converts the crisis into one actor's state interest, fear, leverage, constraints, and preferred instrument.
+5. Drafting method converts the object into a bounded artifact.
+6. Reviewable candidates feed durable discoveries back either to lane update surfaces or to the `civ-emp` review queue.
 
 ## Stable Surfaces
 
@@ -24,7 +25,19 @@ The stable sequence is:
 | [README.md](README.md) | front door | It gives one entry sequence without becoming a competing core. |
 | [METHOD.md](METHOD.md) | drafting loop | It keeps the system instrument-oriented. |
 | [artifact-registry.md](artifact-registry.md) | metadata law | It gives new or touched outputs a canonical class and maturity shape. |
+| [speakers/README.md](speakers/README.md) | speaker-state continuity home | It keeps statecraft-relevant speaker-state surfaces inside the live system without collapsing them into bridge or lane authority. |
 | [civ-emp/review-queue.md](civ-emp/review-queue.md) | upstream learning loop | It governs source-memory feedback without silent mutation. |
+
+## Speaker-State Placement
+
+Keep these layers distinct:
+
+- `statecraft/speakers/` = speaker-state continuity surfaces, month ladders, routing notes, thread atlases, and theme activators used by live statecraft work
+- `statecraft/bridges/` = retrieval adapters that regulate how speaker-state material conditions `civ-emp` retrieval
+- lane benches = substantive state interest, authority-carrier, and instrument drafting surfaces
+- `statecraft/civ-emp/` = retrieval memory and reviewable source-memory discipline
+
+Bridge adapters regulate retrieval use of speaker-state material. They do not replace the speaker-state continuity layer, and they do not become the canonical home of the speakers themselves.
 
 ## Maturity Checks
 
@@ -60,6 +73,7 @@ If the work is still mostly interpretation, warning, analogy, or pressure descri
 - transaction overproduction
 - threshold evasion
 - speaker capture drift
+- mixed-home speaker drift
 - recursive fiction
 - cross-lane blur
 - source-memory bleed from live drafting back into `civ-emp`

@@ -12,7 +12,7 @@ Hormuz leverage-without-entrapment formula.
 
 ## Source Inputs
 
-- Speaker-state inputs: [Crooke](../../../../speakers/crooke/) for order rupture and Western misreading; [Diesen](../../../../speakers/diesen/) for multipolar structure; [Ritter](../../../../speakers/ritter/) / [Macgregor](../../../../speakers/macgregor/) / [Martyanov](../../../../speakers/martyanov/) for force constraints; [Parsi](../../../../speakers/parsi/) / [Freeman](../../../../speakers/freeman/) for settlement architecture.
+- Speaker-state inputs: [Crooke](../../../speakers/crooke/README.md) for order rupture and Western misreading; [Diesen](../../../../speakers/diesen/) for multipolar structure; [Ritter](../../../../speakers/ritter/) / [Macgregor](../../../../speakers/macgregor/) / [Martyanov](../../../../speakers/martyanov/) for force constraints; [Parsi](../../../../speakers/parsi/) / [Freeman](../../../../speakers/freeman/) for settlement architecture.
 - Scoreboards used: [Pape coercive-center index](../../sheets/pape-coercive-center-index.md); [Mearsheimer structural-realist scoreboard](../../sheets/mearsheimer-structural-realist-scoreboard.md).
 - Raw-input / provenance anchors: [Pape 2026-05-18](../../../../years/2026/raw-input/2026-05-18/substack-pape-june-could-be-the-most-brutal-month-2026-05-18.md); [Parsi 2026-05-03](../../../../years/2026/raw-input/2026-05-03/substack-parsi-a-few-observations-on-irans-latest-proposal-to-trump-2026-05-03.md).
 - Prior statecraft drafts: [Hormuz Reciprocal Transit De-escalation Framework v2.1](../../../../hormuz-reciprocal-transit-deescalation-framework-v2-1.md).

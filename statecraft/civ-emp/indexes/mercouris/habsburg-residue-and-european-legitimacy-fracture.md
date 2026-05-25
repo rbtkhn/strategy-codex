@@ -8,7 +8,7 @@ Provide a thin `civ-emp` scaffold for the Mercouris theme in which older regiona
 
 ## Modern Activation
 
-Mercouris-side activation surface: [Habsburg residue and European legitimacy fracture](../../../../../speakers/mercouris/themes/habsburg-residue-and-european-legitimacy-fracture.md)
+Mercouris-side activation surface: [Habsburg residue and European legitimacy fracture](../../../../speakers/mercouris/themes/habsburg-residue-and-european-legitimacy-fracture.md)
 
 ## Backward Historical Question
 

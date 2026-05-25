@@ -8,7 +8,7 @@ Provide a `civ-emp` source scaffold for the Crooke theme in which strategic acto
 
 ## Modern Activation
 
-Crooke-side activation surface: [Mechanistic fallacy and civilizational memory](../../../../../speakers/crooke/themes/mechanistic-fallacy-and-civilizational-memory.md)
+Crooke-side activation surface: [Mechanistic fallacy and civilizational memory](../../../../speakers/crooke/themes/mechanistic-fallacy-and-civilizational-memory.md)
 
 ## Backward Historical Question
 

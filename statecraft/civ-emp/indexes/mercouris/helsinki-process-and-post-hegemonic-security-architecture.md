@@ -8,7 +8,7 @@ Provide a `civ-emp` source scaffold for the Mercouris theme in which postwar coe
 
 ## Modern Activation
 
-Mercouris-side activation surface: [Helsinki process and post-hegemonic security architecture](../../../../../speakers/mercouris/themes/helsinki-process-and-post-hegemonic-security-architecture.md)
+Mercouris-side activation surface: [Helsinki process and post-hegemonic security architecture](../../../../speakers/mercouris/themes/helsinki-process-and-post-hegemonic-security-architecture.md)
 
 ## Backward Historical Question
 

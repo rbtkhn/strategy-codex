@@ -17,27 +17,24 @@ Open [statecraft.md](statecraft.md) first when you need the full continuity surf
 
 The first decision is which lane is actually carrying the settlement problem. If ownership is unresolved, use `state-deploy`. If ownership is already clear and the object is Persia/Iran speaker-heavy, `statecraft-bridge` is the post-lane retrieval step when adapter choice is still the real uncertainty.
 
-## Why Repo-Root Statecraft
-
-`statecraft/` now lives at repo root because it is no longer just an academy subfolder or a workshop shelf. It is the main operational system for turning memory, pressure, and lane judgment into bounded statecraft artifacts.
-
-Open it cold like this:
-
-1. open [statecraft.md](statecraft.md) if you need the full machine restored in your head
-2. use this README when the continuity frame is already live and you just need the right entry surface
-3. use `state-deploy` when ownership is still unclear
-4. descend into the owning lane once the settlement problem has a real carrier
-
-The practical rule is simple: `civ-emp` remembers, `statecraft` drafts, and repo-root `statecraft/` is where those two layers now meet in the open.
+Speaker-state continuity that belongs to live statecraft now opens from [statecraft/speakers/](speakers/README.md), not from an external speaker shelf by default.
 
 ## Quick Routes
 
 - Need the full machine back in your head? Open [statecraft.md](statecraft.md).
+- Need the fastest cold-open rule? `statecraft.md -> crisis object -> lane ownership -> output form`.
 - Need the next-week operator roadmap? Open [statecraft-v1-upgrade-plan-2026-05-25.md](statecraft-v1-upgrade-plan-2026-05-25.md).
 - Need lane ownership? Open `state-deploy`.
 - Need a Persia/Iran retrieval profile after lane ownership is clear? Open `statecraft-bridge`.
 - Need the current default worked instrument? Open [Hormuz recognition transit transaction](iran/transactions/hormuz-recognition-transit-transaction.md).
 - Need the shared crisis-object fit check? Open [Transaction Router](sheets/transaction-router.md).
+
+Read the stack in this order:
+
+1. [statecraft.md](statecraft.md) to restore the machine
+2. `state-deploy` if ownership is unresolved
+3. the owning lane once the carrier is real
+4. the router or a known transaction when the object is already clearly mechanism-shaped
 
 ## Delegated Modules
 
@@ -47,5 +44,7 @@ The practical rule is simple: `civ-emp` remembers, `statecraft` drafts, and repo
 - [artifact-registry.md](artifact-registry.md) owns the minimal metadata shape for new or touched outputs.
 
 ## Compatibility
+
+The practical rule is simple: `civ-emp` remembers, `statecraft` drafts, and repo-root `statecraft/` is where those two layers now meet in the open.
 
 The former academy entrypoint remains at [codex/academy/statecraft/README.md](/C:/dev/strategy-codex/codex/academy/statecraft/README.md) as a compatibility pointer during migration. The repo-root `statecraft/` tree is the canonical live system.

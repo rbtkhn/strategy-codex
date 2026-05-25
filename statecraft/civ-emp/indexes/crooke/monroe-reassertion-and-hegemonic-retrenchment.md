@@ -8,7 +8,7 @@ Provide a `civ-emp` source scaffold for the Crooke theme in which a pressured he
 
 ## Modern Activation
 
-Crooke-side activation surface: [Monroe reassertion and hegemonic retrenchment](../../../../../speakers/crooke/themes/monroe-reassertion-and-hegemonic-retrenchment.md)
+Crooke-side activation surface: [Monroe reassertion and hegemonic retrenchment](../../../../speakers/crooke/themes/monroe-reassertion-and-hegemonic-retrenchment.md)
 
 ## Backward Historical Question
 

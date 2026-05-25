@@ -8,7 +8,7 @@ Provide a `civ-emp` source scaffold for the Crooke theme in which serious settle
 
 ## Modern Activation
 
-Crooke-side activation surface: [Treaty form vs transactional settlement](../../../../../speakers/crooke/themes/treaty-form-vs-transactional-settlement.md)
+Crooke-side activation surface: [Treaty form vs transactional settlement](../../../../speakers/crooke/themes/treaty-form-vs-transactional-settlement.md)
 
 ## Backward Historical Question
 

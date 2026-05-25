@@ -8,7 +8,7 @@ Provide a `civ-emp` source scaffold for the Crooke theme in which the late-Cold-
 
 ## Modern Activation
 
-Crooke-side activation surface: [Cold War overmatch and war metamorphosis](../../../../../speakers/crooke/themes/cold-war-overmatch-and-war-metamorphosis.md)
+Crooke-side activation surface: [Cold War overmatch and war metamorphosis](../../../../speakers/crooke/themes/cold-war-overmatch-and-war-metamorphosis.md)
 
 ## Backward Historical Question
 
