@@ -59,6 +59,10 @@ Use these tests in order:
 4. **Maturity test** - is the object still orientation, comparison, or draftable instrument?
 5. **Depth test** - should the next move be one lane, two-lane comparison, or multi-lane compact?
 
+Ask one transaction-aware reuse question before you widen the pass:
+
+- does this object already resemble a known transit, guarantee, sanctions, quarantine, recognition, or settlement bundle strongly enough that the honest next move is fit-check or reuse rather than a fresh framework?
+
 ## Misdeployment Warnings
 
 `state-deploy` is most likely to drift when it mistakes:
@@ -98,6 +102,8 @@ Use these corrections when the first instinct is probably wrong:
   Fast Russia signals: parity pressure, compliance-before-recognition sequencing, depth or buffer shrinkage, and escalation-calendar or entrapment traps.
 - Route to a comparison or compact only when no single lane can honestly own the object.
 
+If the crisis object is already strongly mechanism-shaped, the deployer should say so early and recommend transaction-aware reuse rather than pretending the first need is broad orientation.
+
 Do not call `statecraft-bridge` from the deployer unless Persia/Iran ownership is already clear. If ownership is still contested, hand back to a lane judgment or comparison call first.
 
 ## Default Output
@@ -109,7 +115,7 @@ When invoked without a settled lane, output exactly this shape:
 - Live object:
 - Why lane choice matters:
 - Deployment judgment: [single-lane ownership / comparison required / compact path after ownership split / transaction-aware reuse]
-- Recommended handoff:
+- Recommended handoff: [owning lane / comparison / compact path / transaction-fit check]
 
 **Deploy Menu - reply A-D**
 A. [single-lane handoff]
@@ -125,6 +131,8 @@ Each option must reflect a genuinely different honest next move:
 - `B` = comparison because ownership is genuinely contested
 - `C` = compact / objection path only after ownership is understood
 - `D` = transaction / stress-test / mature-object reuse
+
+Make the `Deployment judgment` line sound like a real decision, not a category reminder. Make the `Recommended handoff` line name the next surface or move directly.
 
 ## Handoff Rule
 

@@ -1,7 +1,7 @@
 ---
 name: academy-statecraft-drafting
-preferred_activation: academy-statecraft
-description: "Draft workflow for turning speaker-state and historical statecraft discipline into treaties, policy papers, negotiation briefs, crisis memos, and four-lane crisis transaction bundles. Use for academy-statecraft, state-russia/state-china/state-iran/state-america, crisis transaction, four-lane transaction, do it again, make it concrete, settlement spine, folder choreography, civilization / empire / state / helix, and Richelieu/Bismarck prompts."
+preferred_activation: statecraft
+description: "Draft workflow for turning speaker-state and historical statecraft discipline into treaties, policy papers, negotiation briefs, crisis memos, and four-lane crisis transaction bundles. Use for statecraft, academy-statecraft (compatibility alias), state-russia/state-china/state-iran/state-america, crisis transaction, four-lane transaction, do it again, make it concrete, settlement spine, folder choreography, civilization / empire / state / helix, and Richelieu/Bismarck prompts."
 portable: true
 version: 0.1.0-draft
 tags:
@@ -12,12 +12,12 @@ tags:
   - speaker-state
 ---
 
-# Academy statecraft drafting
+# Statecraft drafting
 
 Use this draft skill when the operator asks for:
 
 - `statecraft`
-- `academy-statecraft`
+- `academy-statecraft` (compatibility alias)
 - `draft a treaty`
 - `draft a policy paper`
 - `policy paper from speaker state`
@@ -134,7 +134,7 @@ Examples:
 
 ## Core rule
 
-Academy-statecraft synthesizes two inputs:
+Repo-root statecraft drafting synthesizes two inputs:
 
 1. **Contemporary speaker state** - compact current-state analysis from speaker folders, scoreboards, ledgers, helixes, routing notes, and raw-input-backed lanes.
 2. **Historical statecraft discipline** - Richelieu for durable state interest and institutional carrier; Bismarck for limited aims, alliance geometry, equilibrium, and restraint.
@@ -149,8 +149,9 @@ Do not produce generic commentary. End with a draftable instrument or a concrete
 
 Open the statecraft surface first:
 
-- `codex/academy/statecraft/README.md`
-- `codex/academy/statecraft/METHOD.md`
+- `statecraft/statecraft.md`
+- `statecraft/README.md`
+- `statecraft/METHOD.md`
 
 Then choose the smallest useful tool:
 
@@ -158,8 +159,8 @@ Then choose the smallest useful tool:
 - Sheet: folder choreography, national perspective, power metric, Pape index, Mearsheimer scoreboard, or speaker-insight memo.
 - Template: treaty framework, policy paper, or negotiation brief.
 
-When historical or civilizational pattern/narrative is invoked, also open `codex/academy/statecraft/sheets/civilizational-pattern-to-statecraft.md`.
-When a statecraft artifact needs the full lane movement, also open `codex/academy/statecraft/sheets/folder-choreography.md`.
+When historical or civilizational pattern/narrative is invoked, also open `statecraft/sheets/civilizational-pattern-to-statecraft.md`.
+When a statecraft artifact needs the full lane movement, also open `statecraft/sheets/folder-choreography.md`.
 
 ## Command aliases
 
@@ -167,10 +168,10 @@ Treat these as direct lane activators:
 
 | command | opens | default posture | output bias |
 | --- | --- | --- | --- |
-| `state-america` | `codex/academy/statecraft/america/` | America as current U.S. federal actor plus possible successor continental power center. | Bound coercive centers, preserve command legitimacy, avoid overextension, define successor-stable instruments. |
-| `state-russia` | `codex/academy/statecraft/russia/` | Russia as security-depth disruptor and multipolar balancer. | Exploit disruption without entrapment, preserve optionality, seek recognition and equilibrium. |
-| `state-china` | `codex/academy/statecraft/china/` | China as industrial pole and anti-disorder stabilizer. | Preserve leverage without energy disorder, protect supply chains, use quiet compact design. |
-| `state-iran` | `codex/academy/statecraft/iran/` | Iran as coercive-center / denial-power actor seeking legitimated leverage. | Monetize leverage without losing control, preserve dignity, seek sanctions relief and regional architecture. |
+| `state-america` | `statecraft/america/` | America as current U.S. federal actor plus possible successor continental power center. | Bound coercive centers, preserve command legitimacy, avoid overextension, define successor-stable instruments. |
+| `state-russia` | `statecraft/russia/` | Russia as security-depth disruptor and multipolar balancer. | Exploit disruption without entrapment, preserve optionality, seek recognition and equilibrium. |
+| `state-china` | `statecraft/china/` | China as industrial pole and anti-disorder stabilizer. | Preserve leverage without energy disorder, protect supply chains, use quiet compact design. |
+| `state-iran` | `statecraft/iran/` | Iran as coercive-center / denial-power actor seeking legitimated leverage. | Monetize leverage without losing control, preserve dignity, seek sanctions relief and regional architecture. |
 
 When one of these commands appears alone, respond with a compact statecraft brief from that lane unless the operator asks for file edits. When paired with a topic, draft from that lane's point of view. When paired with `compare`, run the mirror test against the other three lanes.
 
@@ -179,10 +180,10 @@ When one of these commands appears alone, respond with a compact statecraft brie
 Use a national lane when the output should be written from one state's point of view.
 
 1. Open the matching lane:
-   - `codex/academy/statecraft/america/`
-   - `codex/academy/statecraft/russia/`
-   - `codex/academy/statecraft/china/`
-   - `codex/academy/statecraft/iran/`
+   - `statecraft/america/`
+   - `statecraft/russia/`
+   - `statecraft/china/`
+   - `statecraft/iran/`
 2. Extract the lane's core question, state interest, historical continuity, fear, leverage, constraints, preferred instruments, red lines, and off-ramps.
 3. Classify the crisis object if the problem turns on the legal or political status of a route, chokepoint, guarantee, recognition claim, sanction, capability, or authority surface.
 4. Run the solvency / legitimacy filter if the problem turns on debt, food, subsidy, currency, creditor, or public-order pressure.
@@ -346,7 +347,7 @@ Before closing a repo-editing pass:
 
 1. Confirm no Record surfaces were edited.
 2. Confirm statecraft links resolve if Markdown was changed.
-3. Run `git diff --check -- codex/academy/statecraft` for statecraft edits.
+3. Run `git diff --check -- statecraft` for statecraft edits.
 4. If a skill or docs candidate was changed, run `git diff --check` on the touched files.
 
 ## Anti-patterns
