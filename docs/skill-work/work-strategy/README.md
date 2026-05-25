@@ -28,6 +28,8 @@
 
 **When elegance becomes dangerous (optional):** [when-elegance-becomes-dangerous.md](when-elegance-becomes-dangerous.md) â€” notebook-philosophy note on when smooth synthesis starts distorting layered seams and packet-first discipline should interrupt it.
 
+**Statecraft workflow retrospective (optional):** [statecraft-root-workflow-retrospective-2026-05-25.md](statecraft-root-workflow-retrospective-2026-05-25.md) â€” operator memo on how the repo-root `statecraft/` kernel would have improved the immediately preceding seven-day build/use cycle, with ten concrete workflow gains.
+
 **Conductor recursive-improvement benchmark (optional):** [conductor-recursive-improvement-benchmark.md](conductor-recursive-improvement-benchmark.md) â€” scorecard and formulas for testing whether named conductor stances plus the four-movement arc are increasing recursive self-improvement power.
 
 **Conductor arc impact journal (optional):** [conductor-arc-impact-journal.md](conductor-arc-impact-journal.md) â€” append-only narrative ledger for benchmark windows, provisional scores, and what changed.
