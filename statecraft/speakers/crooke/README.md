@@ -1,84 +1,67 @@
-# Crooke
-
 WORK only; not Record.
 
-This folder is the **canonical statecraft speaker-object entry surface** for Alastair Crooke.
+# Crooke
 
-Open here first when the question is not merely "what did Crooke say," but which Crooke surface should carry the reading: authored mechanism, host transformation, topical law strand, or whole-speaker continuity.
+This is the canonical Crooke statecraft speaker shelf.
 
-## Start here
+Use it for speaker identity, authored/interview continuity, route maps, bounded 2026 monthly synthesis, and `civ-emp`-aware historical audit work.
+
+## Open First
 
 - [crooke-arc.md](crooke-arc.md)
 - [crooke-routing.md](crooke-routing.md)
 - [crooke-raw-input-index.md](crooke-raw-input-index.md)
 - [crooke-helix.md](crooke-helix.md)
-- [crooke-forecast-ledger-2026.md](stream/crooke-forecast-ledger-2026.md)
-- [crooke-interview-appearances-2025-2026.md](crooke-interview-appearances-2025-2026.md)
-- [crooke-thread-international-law.md](stream/crooke-thread-international-law.md)
-- [Interview arc-threads: March-May 2026](stream/crooke-march-may-2026-interview-arc-threads.md)
-- [March 2026 interview cross-host arc](stream/crooke-march-2026-interview-cross-host-arc.md)
-- [April 2026 interview cross-host arc](stream/crooke-april-2026-interview-cross-host-arc.md)
-- [May 2026 interview cross-host arc](stream/crooke-may-2026-interview-cross-host-arc.md)
-- [crooke-shelf-hygiene-2026-05.md](/C:/dev/strategy-codex/codex/speakers/crooke/crooke-shelf-hygiene-2026-05.md)
-- [crooke-surface-orthogonality-2026-05.md](/C:/dev/strategy-codex/codex/speakers/crooke/crooke-surface-orthogonality-2026-05.md)
-- [crooke-cross-year-note.md](crooke-cross-year-note.md)
-- [authored-pressure-quartet.md](/C:/dev/strategy-codex/codex/speakers/authored-pressure-quartet.md)
-- [Baud-Crooke law cluster review](/C:/dev/strategy-codex/codex/speakers/relations/baud-crooke-international-law-orthogonality-2026-05.md)
-- [expert-orthogonality-note.md](/C:/dev/strategy-codex/codex/speakers/expert-orthogonality-note.md)
+- [crooke-support-spine-2025-2026.md](crooke-support-spine-2025-2026.md)
+- [stream/crooke-shelf-2026-03.md](stream/crooke-shelf-2026-03.md)
+- [stream/crooke-shelf-2026-04.md](stream/crooke-shelf-2026-04.md)
+- [crooke-historical-examples-audit.md](crooke-historical-examples-audit.md)
+- [themes/README.md](themes/README.md)
 
 ## Canonical Structure
 
-Crooke's canonical structure has two source-class strands and one person-level continuity surface:
+Crooke's canonical structure now has five speaker-owned layers:
 
-- **Person arc:** [crooke-arc.md](crooke-arc.md) holds the whole-speaker continuity surface across authored and interview contexts.
-- **Provenance bench:** [crooke-raw-input-index.md](crooke-raw-input-index.md) remains the exhaustive route map for captured Crooke appearances.
-- **Authored strand:** [crooke-forecast-ledger-2026.md](stream/crooke-forecast-ledger-2026.md) holds the Substack-only mechanism and tension spine.
-- **Interview strand:** [crooke-interview-appearances-2025-2026.md](crooke-interview-appearances-2025-2026.md) holds host-transformed appearances.
-- **Interview dense-core atlas:** [stream/crooke-march-may-2026-interview-arc-threads.md](stream/crooke-march-may-2026-interview-arc-threads.md) holds the canonical recurring-strand atlas for the dense interview core.
-- **Interview month spines:** [stream/crooke-march-2026-interview-cross-host-arc.md](stream/crooke-march-2026-interview-cross-host-arc.md), [stream/crooke-april-2026-interview-cross-host-arc.md](stream/crooke-april-2026-interview-cross-host-arc.md), and [stream/crooke-may-2026-interview-cross-host-arc.md](stream/crooke-may-2026-interview-cross-host-arc.md) hold bounded month-sequence routing for that interview core.
-- **Crossing surface:** [crooke-helix.md](crooke-helix.md) explains where authored mechanisms and interview clusters reinforce, extend, or tension each other.
-- **Routing surface:** [crooke-routing.md](crooke-routing.md) answers which Crooke surface to open first.
-- **Real topical thread:** [stream/crooke-thread-international-law.md](stream/crooke-thread-international-law.md) isolates one canonical law / legitimacy-order strand inside the broader Crooke corpus.
+- **Person arc:** [crooke-arc.md](crooke-arc.md) holds whole-speaker continuity across authored and interview contexts.
+- **Routing surface:** [crooke-routing.md](crooke-routing.md) answers which source-class strand, host lane, or monthly shelf to open first.
+- **Provenance bench:** [crooke-raw-input-index.md](crooke-raw-input-index.md) remains the canonical route map for materialized Crooke appearances.
+- **Crossing surface:** [crooke-helix.md](crooke-helix.md) explains how the authored mechanism spine and interview strand reinforce, extend, or pressure one another.
+- **Support spine:** [crooke-support-spine-2025-2026.md](crooke-support-spine-2025-2026.md) owns maturity law, month-status law, and the rule for how the canonical month ladder relates to source-class and host-owned chronology.
 
-In the [authored pressure quartet](/C:/dev/strategy-codex/codex/speakers/authored-pressure-quartet.md), Crooke is the **mechanism and metapolitics engine**: structural rupture, elite misreading, order transition, and why the system keeps refusing the bargain.
+Support and segmentation surfaces:
 
-## Longitudinal wiring
+- [crooke-interview-appearances-2025-2026.md](crooke-interview-appearances-2025-2026.md) remains the interview support map.
+- [stream/crooke-forecast-ledger-2026.md](stream/crooke-forecast-ledger-2026.md) remains the authored mechanism spine.
+- [stream/crooke-march-may-2026-interview-arc-threads.md](stream/crooke-march-may-2026-interview-arc-threads.md) remains the dense-core interview atlas.
+- [stream/crooke-thread-international-law.md](stream/crooke-thread-international-law.md) remains the real topical law strand inside the broader Crooke corpus.
+- [stream/README.md](stream/README.md) holds the bounded 2026 monthly synthesis shelves.
+- [crooke-cross-year-note.md](crooke-cross-year-note.md), [crooke-surface-orthogonality-2026-05.md](crooke-surface-orthogonality-2026-05.md), and [crooke-shelf-hygiene-2026-05.md](crooke-shelf-hygiene-2026-05.md) now live canonically on this shelf.
 
-- Forecast + tension ledger: [crooke-forecast-ledger-2026.md](stream/crooke-forecast-ledger-2026.md)
-- Interview appearances: [crooke-interview-appearances-2025-2026.md](crooke-interview-appearances-2025-2026.md)
-- Consolidation note: [crooke-lane-consolidation-2026-05.md](/C:/dev/strategy-codex/codex/speakers/crooke/stream/crooke-lane-consolidation-2026-05.md)
+## Monthly Shelf Rule
 
-## Historical audit and themes
+Crooke now has a full canonical 2026 month ladder for the live year, but the monthly files are **bounded synthesis shelves**, not chronology owners.
+
+- host-local arcs still own chronology
+- the support spine still owns maturity law
+- monthly shelves summarize what each month contributes to the Crooke object
+- March through May keep their interview dense-core role without becoming the whole shelf grammar
+
+## Historical Scaffold
 
 - [Crooke historical examples audit](crooke-historical-examples-audit.md)
 - [Crooke historical themes](themes/README.md)
-- [Freeman vs Crooke second-seed note](/C:/dev/strategy-codex/codex/speaker-question-lattice/freeman-vs-crooke-second-seed-note.md)
 
-## Compatibility shape
+`civ-emp` enters here as the primary interpretive source base, not as a routing co-pilot and not as a Crooke-specific bridge adapter.
 
-This shelf already has a genuine canonical structure:
+## Compatibility Shape
 
-- [crooke-arc.md](crooke-arc.md) is the canonical person-level continuity surface
-- [crooke-routing.md](crooke-routing.md) is the speaker-side routing surface
-- [crooke-helix.md](crooke-helix.md) is the crossing surface
-- [stream/crooke-forecast-ledger-2026.md](stream/crooke-forecast-ledger-2026.md) carries the authored mechanism and tension spine
-- [crooke-interview-appearances-2025-2026.md](crooke-interview-appearances-2025-2026.md) carries the interview strand
-- [stream/crooke-march-may-2026-interview-arc-threads.md](stream/crooke-march-may-2026-interview-arc-threads.md) is the canonical recurring-strand atlas for the dense interview core
-- [stream/crooke-march-2026-interview-cross-host-arc.md](stream/crooke-march-2026-interview-cross-host-arc.md), [stream/crooke-april-2026-interview-cross-host-arc.md](stream/crooke-april-2026-interview-cross-host-arc.md), and [stream/crooke-may-2026-interview-cross-host-arc.md](stream/crooke-may-2026-interview-cross-host-arc.md) are the bounded month-spine surfaces for the interview strand
-- [stream/crooke-thread-international-law.md](stream/crooke-thread-international-law.md) is a real canonical topical thread inside the broader Crooke corpus
+The legacy `codex/speakers/crooke/` path is now front-door compatibility only.
 
-The older [stream/crooke-thread.md](stream/crooke-thread.md) file is therefore a **legacy continuity compatibility surface**, not a second canonical thread system.
+- [codex/speakers/crooke/README.md](/C:/dev/strategy-codex/codex/speakers/crooke/README.md) and [index.md](/C:/dev/strategy-codex/codex/speakers/crooke/index.md) are compatibility pointers.
+- older codex-side thread and transcript files remain compatibility residue.
+- this statecraft shelf is now self-contained for canonical Crooke self-description.
 
-Do not flatten these surfaces together:
-
-- `crooke-thread-international-law.md` is real topical orthogonality
-- `crooke-thread.md` is compatibility residue from the older expert-thread machinery
-- the authored ledger and interview strand are both canonical, but they are not the same source class
-- the interview month spines and interview arc-thread atlas are canonical **inside the interview strand**, not a replacement for the authored ledger
-- the helix compares host transformations inside the interview strand; it does not replace the person arc or the authored mechanism spine
-- [stream/crooke-transcript.md](stream/crooke-transcript.md) is verbatim compatibility carryover only, not a first-open citation route
-
-## Host lanes
+## Host Lanes
 
 - [Diesen x Crooke](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-crooke-speaker-arc.md)
 - [Davis x Crooke](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-crooke-speaker-arc.md)
@@ -86,6 +69,4 @@ Do not flatten these surfaces together:
 
 ## Boundary
 
-Crooke is a mature person-arc with an authored/interview crossing and a triple-helix interview core. The 2026 shelf is a denser crisis phase, not the first year the object exists.
-
-This statecraft subtree is the canonical home for Crooke's statecraft-relevant speaker-state surfaces. The older `codex/speakers/crooke/` path remains compatibility-only during migration.
+Crooke is canonical here under `statecraft/speakers/crooke/`. Raw-text authority stays in [`codex/years/2026/raw-input/`](/C:/dev/strategy-codex/codex/years/2026/raw-input), bridge adapters still live under [`statecraft/bridges/`](/C:/dev/strategy-codex/statecraft/bridges/README.md), and lanes still own substantive drafting.

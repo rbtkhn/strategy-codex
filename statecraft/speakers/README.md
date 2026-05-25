@@ -42,7 +42,7 @@ Speaker-state continuity lives here. Bridge adapters still live in [statecraft/b
 The migration is phased, but the constitutional target is already fixed:
 
 1. whole-corpus doctrine and compatibility law
-2. active migration fronts such as [Mercouris](mercouris/README.md), [Crooke](crooke/README.md), and [Macgregor](macgregor/README.md)
+2. active migration fronts such as [Freeman](freeman/README.md), [Mercouris](mercouris/README.md), [Crooke](crooke/README.md), [Macgregor](macgregor/README.md), and [Ritter](ritter/README.md)
 3. support-spine shelf exemplars
 4. remaining active statecraft speakers
 5. long-tail archive cleanup
@@ -53,3 +53,23 @@ During migration:
 - bridge adapters stay in [statecraft/bridges/](../bridges/)
 - lane judgment stays in lanes
 - raw-input stays outside speaker folders
+
+## Normalized 2026 Shelf Level
+
+The current normalized shelf level is the `Macgregor / Ritter` grammar:
+
+- canonical home under `statecraft/speakers/<speaker>/`
+- `README.md` and `index.md` front doors
+- speaker arc, routing note, provenance bench, and crossing surface
+- speaker-owned support spine
+- bounded monthly synthesis ladder for `2026-01` through `2026-05`
+- historical audit and `themes/README.md`
+- codex front doors reduced to compatibility pointers
+
+The active normalized 2026 shelf set is:
+
+- [Freeman](freeman/README.md)
+- [Crooke](crooke/README.md)
+- [Mercouris](mercouris/README.md)
+- [Macgregor](macgregor/README.md)
+- [Ritter](ritter/README.md)

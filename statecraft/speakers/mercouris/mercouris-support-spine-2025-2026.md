@@ -1,0 +1,51 @@
+# Mercouris support spine - 2025-2026
+
+WORK only; not Record.
+
+Purpose: own Mercouris's maturity law, month-status law, and the rule for how the canonical Jan-May 2026 month ladder relates to stream-owned chronology.
+
+## What this spine owns
+
+- cross-year maturity explanation
+- month-status explanation
+- the rule for bounded monthly synthesis
+
+Quick separation rule:
+
+- [mercouris-arc.md](mercouris-arc.md) = whole-speaker continuity wrapper
+- [mercouris-routing.md](mercouris-routing.md) = fastest arc or month selection
+- [mercouris-raw-input-index.md](mercouris-raw-input-index.md) = provenance bench
+- [mercouris-helix.md](mercouris-helix.md) = crossing-surface wrapper
+- [stream/mercouris-arc.md](stream/mercouris-arc.md) = inner continuity core
+- [stream/README.md](stream/README.md) = bounded monthly synthesis shelves
+- this file = maturity and month-support law
+
+## Month-status law
+
+### 2026-01
+
+Status: continuity/setup month.
+
+### 2026-02
+
+Status: mature bridge month.
+
+### 2026-03
+
+Status: mature dense-core month.
+
+### 2026-04
+
+Status: mature dense-core month.
+
+### 2026-05
+
+Status: mature frontier month.
+
+## Monthly shelf rule
+
+Mercouris's month ladder is bounded synthesis only:
+
+- the native stream still owns chronology
+- the month shelves summarize what each month contributes to the Mercouris object
+- the support spine owns month-status law

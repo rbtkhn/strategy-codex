@@ -1,67 +1,7 @@
-# Chas Freeman Index
-
 WORK only; not Record.
 
-Purpose: front door for Chas Freeman materials that cut across host shelves.
+# Compatibility Pointer
 
-## Open First
+The canonical statecraft-relevant Freeman shelf now lives at [statecraft/speakers/freeman/README.md](/C:/dev/strategy-codex/statecraft/speakers/freeman/README.md).
 
-- [Lane README](README.md) - shelf overview, speaker-routing links, and lane-role framing.
-- [Raw-input index](freeman-raw-input-index.md) - exhaustive route map for every resolved Freeman raw-input appearance currently materialized in the repo; also the Freeman `non-core appearance bench`.
-- [Speaker routing note](../../../speakers/freeman/freeman-routing.md) - fastest answer to which host lane should carry the Freeman reading.
-- [Speaker helix note](../../../speakers/freeman/freeman-helix.md) - why the core host lanes and the non-core appearance bench belong to one Freeman object.
-- [December 2025-May 2026 arc-threads](stream/freeman-dec-2025-may-2026-arc-threads.md) - six arc-thread synthesis across law, diplomacy, Israel, Iran, U.S. self-damage, and China, with December evidence tiers marked explicitly.
-- [March 2026 cross-host arc](stream/freeman-march-2026-cross-host-arc.md) - war-system activation month; links captured raw-input, found-but-uncaptured items, and host-local routes; captured sections are active month-spine routing while uncaptured items function as `discovery memory`.
-- [April 2026 cross-host arc](stream/freeman-april-2026-cross-host-arc.md) - settlement failure, Hormuz control, blockade blowback, and diplomacy-dead sequence; captured sections are active month-spine routing while uncaptured items function as `discovery memory`.
-- [May 2026 cross-host arc](stream/freeman-may-2026-cross-host-arc.md) - post-Hormuz and post-defeat sequence; mixes core host lanes with accepted non-core bench appearances while keeping them structurally distinct.
-- [Backward extension note](freeman-backward-extension-note.md) - design note for extending the canonical Freeman atlas from December 2025 back toward January 2025 without creating a second competing atlas.
-- [Historical examples audit](freeman-historical-examples-audit.md) - quote-backed Freeman historical-example audit with benchmark scorecard and `civ-emp` bridge logic.
-- [Historical themes](themes/README.md) - top-six Jan 2025-present Freeman historical-theme commentary surfaces paired to `civ-emp` companions.
-
-## Core Speaker Files
-
-- [Speaker folder README](../../../speakers/freeman/README.md)
-- [Speaker profile](../../../speakers/freeman/freeman-profile.md)
-- [Thread compatibility file](../../../speakers/freeman/freeman-thread.md) - legacy continuity surface; not the canonical arc-thread atlas
-- [Transcript compatibility file](../../../speakers/freeman/freeman-transcript.md)
-- [Page template](../../../speakers/freeman/freeman-page-template.md)
-- [Cross-year note](../../../speakers/freeman/freeman-cross-year-note.md)
-- [Backward extension note](../../../speakers/freeman/freeman-backward-extension-note.md)
-
-## Canonical Structure
-
-Freeman's orthogonality-bearing structure is:
-
-- [Speaker arc](../../../speakers/freeman/freeman-arc.md) for the whole-speaker continuity surface
-- [Speaker helix](../../../speakers/freeman/freeman-helix.md) for the crossing surface across the four core host lanes
-- [December 2025-May 2026 arc-threads](stream/freeman-dec-2025-may-2026-arc-threads.md) for the recurring thread atlas across those host lanes
-- the four host-local arcs themselves for distinct host transformations
-
-Do not read [freeman-thread.md](../../../speakers/freeman/freeman-thread.md) as a second competing topical-thread system. It is a legacy compatibility file carried forward from the older expert-thread machinery.
-
-## Ladder
-
-- `core host lane`: stable Freeman host transformation with its own route surface
-- `non-core appearance bench`: materialized transcript-bearing appearances outside those core lanes
-- `discovery memory`: found or operator-pasted appearances that remain useful for routing but are not yet materialized raw-input
-
-Read this ladder as a Freeman-local implementation of the governing [speaker-map route contract](../map/README.md#route-contract), not as independent doctrine.
-
-## Host-Local Routes
-
-- [Judging Freedom / Napolitano arc](../napolitano/stream/napolitano-freeman-arc.md)
-- [Dialogue Works / Nima arc](../nima/stream/nima-freeman-arc.md)
-- [Glenn Diesen arc](../diesen/stream/diesen-freeman-arc.md)
-- [Daniel Davis arc](../davis/stream/davis-freeman-arc.md)
-
-## Raw-Input Coverage
-
-- Full file-by-file coverage lives in [freeman-raw-input-index.md](freeman-raw-input-index.md).
-- The arc files stay useful as interpretive routes; the raw-input index is the active `non-core appearance bench`.
-- Materialized non-core appearances should enter through structure, not by repeatedly naming source channels in doctrine prose.
-- A valid Freeman raw-input that is not visible from the correct Freeman surface should be treated as a wiring defect and repaired.
-
-## Boundary
-
-This index is a route map. Raw transcript authority stays in `raw-input`; discovered or operator-pasted entries become canonical only after materialization with a quality receipt.
-If Freeman-local surfaces and the general speaker-route contract ever diverge, repair the Freeman surfaces rather than weakening the shared doctrine.
+This legacy `codex/speakers/freeman/index.md` path remains only as a compatibility/archive pointer during the whole-corpus speaker migration into repo-root `statecraft/`.

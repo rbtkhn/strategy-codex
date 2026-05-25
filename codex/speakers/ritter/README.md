@@ -1,57 +1,7 @@
-# Ritter
-
 WORK only; not Record.
 
-This folder is the **speaker-object entry surface** for Scott Ritter.
+# Compatibility Pointer
 
-Open here first when the question is not merely "what did Ritter say," but **which host lane should carry the Ritter reading**.
+The canonical statecraft-relevant Ritter shelf now lives at [statecraft/speakers/ritter/README.md](/C:/dev/strategy-codex/statecraft/speakers/ritter/README.md).
 
-## Start here
-
-- [ritter-arc.md](/C:/dev/strategy-codex/codex/speakers/ritter/ritter-arc.md)
-- [authored-pressure-quartet.md](/C:/dev/strategy-codex/codex/speakers/authored-pressure-quartet.md)
-- [ritter-speaker-object.md](/C:/dev/strategy-codex/codex/speakers/ritter/ritter-speaker-object.md)
-- [ritter-routing.md](/C:/dev/strategy-codex/codex/speakers/ritter/ritter-routing.md)
-- [ritter-surface-orthogonality-2026-05.md](/C:/dev/strategy-codex/codex/speakers/ritter/ritter-surface-orthogonality-2026-05.md)
-- [expert-orthogonality-note.md](/C:/dev/strategy-codex/codex/speakers/expert-orthogonality-note.md)
-
-## Two-strand helix
-
-Ritter's speaker object has two entwined but source-separated strands:
-
-- **Authored strand:** [ritter-forecast-ledger-2026.md](/C:/dev/strategy-codex/codex/speakers/ritter/stream/ritter-forecast-ledger-2026.md) holds the Substack-only warning and forecast spine.
-- **Interview strand:** [ritter-interview-appearances-2025-2026.md](/C:/dev/strategy-codex/codex/speakers/ritter/ritter-interview-appearances-2025-2026.md) holds host-transformed appearances.
-- **Crossing surface:** [ritter-helix.md](/C:/dev/strategy-codex/codex/speakers/ritter/ritter-helix.md) explains where authored mechanisms and interview clusters reinforce, extend, or test each other.
-
-In the [authored pressure quartet](/C:/dev/strategy-codex/codex/speakers/authored-pressure-quartet.md), Ritter is the **warning and force-constraint engine**: operational limits, danger thresholds, and military-professional warning.
-
-## Structural notes
-
-- [ritter-helix.md](/C:/dev/strategy-codex/codex/speakers/ritter/ritter-helix.md)
-- [ritter-cross-year-note.md](/C:/dev/strategy-codex/codex/speakers/ritter/ritter-cross-year-note.md)
-- [ritter-interview-appearances-2025-2026.md](/C:/dev/strategy-codex/codex/speakers/ritter/ritter-interview-appearances-2025-2026.md)
-
-## Longitudinal wiring
-
-- Forecast + warning ledger: [ritter-forecast-ledger-2026.md](/C:/dev/strategy-codex/codex/speakers/ritter/stream/ritter-forecast-ledger-2026.md)
-- Consolidation note: [ritter-lane-consolidation-2026-05.md](/C:/dev/strategy-codex/codex/speakers/ritter/stream/ritter-lane-consolidation-2026-05.md)
-
-## Compatibility shape
-
-This shelf already has a genuine canonical structure:
-
-- [ritter-arc.md](/C:/dev/strategy-codex/codex/speakers/ritter/ritter-arc.md) is the canonical person-level continuity surface
-- [ritter-helix.md](/C:/dev/strategy-codex/codex/speakers/ritter/ritter-helix.md) is the crossing surface
-- [stream/ritter-forecast-ledger-2026.md](stream/ritter-forecast-ledger-2026.md) carries the authored warning and forecast spine
-- [ritter-interview-appearances-2025-2026.md](/C:/dev/strategy-codex/codex/speakers/ritter/ritter-interview-appearances-2025-2026.md) carries the interview strand
-
-The older [stream/ritter-thread.md](stream/ritter-thread.md) file and the dated `ritter-thread-2026-*.md` files are therefore **legacy continuity compatibility surfaces**, not a canonical topical-thread system.
-
-Do not treat those thread-shaped files as proof of real thread orthogonality inside Ritter. The orthogonality-bearing structure lives in the helix and its source-separated authored/interview strands.
-
-## Host lanes
-
-- [Diesen x Ritter](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-ritter-speaker-arc.md)
-- [Davis x Ritter](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-ritter-speaker-arc.md)
-- [Dialogue Works x Ritter](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-ritter-speaker-arc.md)
-- [Judging Freedom x Ritter](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-ritter-speaker-arc.md)
+This legacy `codex/speakers/ritter/` path remains only as a compatibility/archive pointer during the whole-corpus speaker migration into repo-root `statecraft/`.

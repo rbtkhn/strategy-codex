@@ -18,7 +18,7 @@ The restored 2025 shelf makes three things clearer:
 
 ## How to read it
 
-- [crooke-helix.md](/C:/dev/strategy-codex/codex/speakers/crooke/crooke-helix.md) is the canonical Crooke speaker-helix note
+- [crooke-helix.md](crooke-helix.md) is the canonical Crooke speaker-helix note
 - [crooke-interview-appearances-2025-2026.md](/C:/dev/strategy-codex/codex/speakers/crooke/crooke-interview-appearances-2025-2026.md) is the source-level interview wiring that shows the 2025-to-2026 host pattern directly
 - this cross-year note exists to show that the triple structure was already materially present before the denser 2026 shelf
 - the years are phase and density information inside the object, not separate speaker-helixes
