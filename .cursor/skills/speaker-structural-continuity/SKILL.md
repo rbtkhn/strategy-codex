@@ -15,6 +15,7 @@ This skill audits **structural continuity across a speaker shelf**:
 - thread atlas
 - month-support shelves
 - migration boundary between `statecraft/speakers/` and `codex/speakers/` when present
+- canonical outer grammar when a shelf has normalized into `statecraft/speakers/`
 
 It is for **agreement checks**, **drift detection**, and **route-stack coherence**.
 
@@ -28,20 +29,54 @@ It is not for:
 
 For month-status classification, repair ranking, or `mature every segment` doctrine, use [`speaker-shelf-hygiene`](../speaker-shelf-hygiene/SKILL.md).
 
+## Normalized outer grammar
+
+When a speaker has normalized into `statecraft/speakers/`, treat this as the expected outer shelf grammar unless the shelf explicitly says otherwise:
+
+1. `README.md`
+2. `index.md`
+3. `person arc`
+4. `routing`
+5. `raw-input bench`
+6. `helix / crossing surface`
+7. `support spine`
+8. `stream/README.md`
+9. bounded monthly synthesis ladder for `2026-01` through `2026-05`
+10. `historical audit`
+11. `themes/README.md`
+12. codex compatibility fronts and residue
+
+Short rule:
+
+`canonical statecraft shelf first -> bounded monthly synthesis -> codex compatibility last`
+
+This is an **outer grammar**, not a claim that every speaker has identical inner structure.
+
+Examples of inner variation that still pass continuity:
+
+- `Macgregor / Ritter` = direct canonical template
+- `Crooke` = authored plus interview dual-source-class object inside the same outer grammar
+- `Mercouris` = stream-native inner core wrapped by the same outer grammar
+
+Do not mistake a shared outer scaffold for a demand that every speaker become the same type of object.
+
 ## What To Check
 
 Audit these continuity surfaces in order:
 
 1. `README` or shelf front door
-2. `speaker-object` note
-3. `*-arc.md`
-4. `*-arc-threads.md` or equivalent atlas
-5. month-support shelves
-6. codex-side compatibility fronts and stubs if the speaker has migrated into `statecraft/speakers/`
+2. `index.md` if present
+3. `speaker-object` note if present
+4. `*-arc.md`
+5. `*-arc-threads.md` or equivalent atlas
+6. support spine
+7. month-support shelves
+8. codex-side compatibility fronts and stubs if the speaker has migrated into `statecraft/speakers/`
 
 Check for agreement on:
 
 - the canonical route stack
+- the normalized outer grammar when the shelf is statecraft-side canonical
 - whether the shelf is stream-native, helix-first, or host-led
 - whether the shelf is host-led, speaker-synthesis-led, or speaker-chronology-led at the month layer
 - month ladder ordering
@@ -56,6 +91,8 @@ Use these tests:
 
 - `front-door continuity`
   - can a future agent enter the shelf from the README and reach the correct canonical surfaces without being pushed into compatibility residue?
+- `outer-grammar continuity`
+  - if this is a normalized `statecraft/speakers/` shelf, are `README`, `index`, support spine, monthly ladder, audit, and themes all visibly present and legible?
 - `route-stack continuity`
   - do README, speaker object, arc, and atlas point to the same primary ladder?
 - `segment continuity`
@@ -70,6 +107,29 @@ Use these tests:
   - are compatibility files still demoted, or have they silently become quasi-canonical again?
 - `migration continuity`
   - if the speaker moved into `statecraft/speakers/`, do the codex-side pointer fronts and compatibility stubs still resolve without preserving dual authority?
+- `inner-shape continuity`
+  - does the normalized outer scaffold preserve the speaker's real inner shape rather than forcing a fake one?
+
+## Stream-native wrapper rule
+
+Some speakers normalize into the same outer grammar while keeping a different inner core.
+
+Use `Mercouris` as the main example:
+
+- the outer shelf still needs `README`, `index`, routing, raw-input bench, crossing surface, support spine, month ladder, audit, and themes
+- but the inner continuity core may still be a native stream arc and arc-thread atlas
+
+Continuity passes if:
+
+- the outer statecraft shelf clearly owns the canonical opening path
+- the inner stream-native logic remains legible and unflattened
+- the support spine explains how bounded monthly synthesis relates to stream-owned chronology
+
+Continuity fails if:
+
+- the wrapper implies a fake helix-first or host-led identity the inner shelf does not support
+- the month ladder silently takes chronology ownership without saying so
+- the codex-side stream residue keeps behaving like co-equal canon
 
 ## Common Failure Modes
 
@@ -78,9 +138,12 @@ Use these tests:
 - support spine still says "no native monthly shelf" after bounded synthesis shelves were introduced
 - thread atlas stops carrying the ladder after one or two months
 - README still routes to old compatibility surfaces after canonical shelves mature
+- statecraft-side shelf has normalized, but lacks `index.md`, support spine, or `stream/README.md`
 - codex-side stubs exist, but thread/transcript residue still points to removed or contradictory core files
 - frontier months use old generic templates while earlier months use explicit month-status doctrine
 - dense-core claims appear in one surface but not the others
+- outer grammar is normalized, but the speaker-object or inner core still describes an older incompatible route stack
+- a codex transcript or thread still routes to codex-side arc / routing / helix after statecraft-side canon is live
 
 ## Output Format
 
@@ -96,29 +159,39 @@ Then report:
 - what diverges
 - the smallest next fix that would restore full continuity
 
+When useful, name both:
+
+- `outer-grammar verdict`
+- `inner-shape verdict`
+
 Prefer concise findings like:
 
 - `May shelf still uses old frontier template, so dense-core ladder is doctrinally asymmetric.`
 - `Arc and speaker-object agree on February as bridge, but atlas does not yet carry the same month-phase wording.`
 - `Statecraft-side monthly shelves are bounded synthesis, but the support spine still describes the shelf as if no native month layer exists.`
 - `Codex-side front door demotes correctly, but one compatibility residue file still routes as if the old shelf were canonical.`
+- `Outer scaffold is normalized, but the stream-native inner core is still being described as if it were a cross-host helix.`
+- `Month ladder is present, but the support spine still has not claimed month-status law.`
 
 ## Editing Guidance
 
 If you repair continuity:
 
 - prefer the smallest canonical surface that can restore agreement
+- fix statecraft-side canonical wording before widening codex residue
 - do not duplicate month summaries into the atlas
 - do not turn the README into a second speaker-object note
 - keep compatibility residue explicitly demoted
 - preserve existing maturity judgments unless the shelf already clearly contradicts itself
 - if a statecraft-side migration is in progress, prefer restoring one canonical authority path plus thin codex compatibility stubs rather than maintaining two rich front doors
+- if the shelf already has the normalized outer grammar, repair codex residue by updating compatibility notes rather than rebuilding codex-side doctrine
 
 ## Success Condition
 
 The shelf is continuous when:
 
 - a future agent can enter from the front door
+- see the normalized outer grammar if the shelf is statecraft-side canonical
 - reach the correct arc and thread surfaces
 - follow the month ladder in order
 - understand whether the month layer is synthesis-only or chronology-owning

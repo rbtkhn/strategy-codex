@@ -3,6 +3,8 @@
 
 WORK only; not Record.
 
+Compatibility note: this file is legacy continuity residue. It is safe for carryover context, but unsafe as a first-open citation surface when the canonical Freeman stack now lives under [statecraft/speakers/freeman/](/C:/dev/strategy-codex/statecraft/speakers/freeman/README.md) and already routes through the person arc, routing note, bounded month ladder, helix, support spine, and raw-input bench.
+
 ## Orthogonality guide
 
 Read this file as a **legacy continuity checkpoint**, not as a thread that competes with the current Freeman helix and thread-atlas structure.
@@ -14,7 +16,7 @@ Quick separation rule:
 
 If a question is about host transformation, strand separation, or canonical routing, route to those named surfaces instead of widening this file.
 
-Compatibility note: this file is a legacy continuity surface from the older expert-thread machinery. In the current Freeman shelf, the canonical orthogonality-bearing structure is [freeman-helix.md](freeman-helix.md) plus [stream/freeman-dec-2025-may-2026-arc-threads.md](stream/freeman-dec-2025-may-2026-arc-threads.md), not this file.
+Compatibility note: this file is a legacy continuity surface from the older expert-thread machinery. In the current Freeman shelf, the canonical orthogonality-bearing structure is the statecraft-side [freeman-helix.md](/C:/dev/strategy-codex/statecraft/speakers/freeman/freeman-helix.md) together with the canonical month ladder and support spine, not this file.
 
 **Source:** Distilled from [`strategy-expert-freeman-transcript.md`](strategy-expert-freeman-transcript.md) (what the expert said recently) and relevant pages (where that material was used in strategy work).
 **Process:** `python3 scripts/strategy_thread.py` triages inbox Ã¢â€ â€™ transcript, then fills **only** the **machine layer** between the **strategy-expert-thread** HTML start and end comments. Operator / assistant maintains the **journal layer** above the start marker in **readable prose** (optional **ledger** after the end marker).
