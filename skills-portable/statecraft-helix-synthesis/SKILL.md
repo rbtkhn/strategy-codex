@@ -1,6 +1,6 @@
 ---
 name: statecraft-helix-synthesis
-description: "Build helix-first academy-statecraft synthesis and retrieval surfaces above mature lane objects. Use when the operator asks for canonical-family synthesis, problem-shape routing, meta-synthesis, settlement-room or escalation-governance comparison, or corpus-level orientation surfaces in codex/academy/statecraft/civ-emp."
+description: "Build helix-first repo-root statecraft synthesis and retrieval surfaces above mature lane objects. Use when the operator asks for canonical-family synthesis, problem-shape routing, meta-synthesis, settlement-room or escalation-governance comparison, or corpus-level orientation surfaces in statecraft/civ-emp."
 portable: true
 version: 0.1.0
 tags:
@@ -12,7 +12,7 @@ tags:
 
 # Statecraft Helix Synthesis
 
-Use this skill to build the helix-first synthesis and retrieval layer above mature academy-statecraft lanes.
+Use this skill to build the helix-first synthesis and retrieval layer above mature repo-root statecraft lanes.
 
 This skill starts **after** lane-level first-wave work is already materially real. Its job is not to create base lane objects from scratch. Its job is to turn an already-usable lane set into a corpus with:
 

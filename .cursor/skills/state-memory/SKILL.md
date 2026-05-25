@@ -1,11 +1,11 @@
 ---
 name: state-memory
-description: "Build, mirror, audit, or backfill academy-statecraft civilization memory surfaces from CIV-MEM. Use when the operator says state-memory, asks to convert CIV-MEM into civilization/objects/state-memory.md, mirror state-memory architecture, audit current state carriers, create or refine civilization arc-lenses such as god.md, lit.md, art.md, geo.md, war.md, or peace.md, demands deep CIV-MEM search/analysis, or wants to prevent biography drift and shallow summary backfills in academy-statecraft lanes."
+description: "Build, mirror, audit, or backfill repo-root statecraft civilization memory surfaces from CIV-MEM. Use when the operator says state-memory, asks to convert CIV-MEM into civilization/objects/state-memory.md, mirror state-memory architecture, audit current state carriers, create or refine civilization arc-lenses such as god.md, lit.md, art.md, geo.md, war.md, or peace.md, demands deep CIV-MEM search/analysis, or wants to prevent biography drift and shallow summary backfills in statecraft lanes."
 ---
 
 # State Memory
 
-`state-memory` turns CIV-MEM and lane-local statecraft material into the academy-statecraft authority-memory and civilization arc-lens layers. It keeps the lanes from sliding into biography or shallow summary by enforcing:
+`state-memory` turns CIV-MEM and lane-local statecraft material into the repo-root statecraft authority-memory and civilization arc-lens layers. It keeps the lanes from sliding into biography or shallow summary by enforcing:
 
 > Civilization stores state memory. Empire converts memory into reach. State carries present authority. Objects transmit signals. Transactions test whether authority can become settlement.
 
@@ -17,7 +17,7 @@ Second rule: every major civilization object is an arc-lens, not a topic page. A
 - Do not edit PH-CIV corpus or CIV-MEM source files from this workflow.
 - Do not create transaction files unless the operator separately asks.
 - Use lane-local `updates/pending.md` for durable recursive candidates; live analysis proposes, human review decides.
-- Preserve unrelated dirty files. State-memory edits should stay inside `codex/academy/statecraft/` unless the operator explicitly expands scope.
+- Preserve unrelated dirty files. State-memory edits should stay inside `statecraft/` unless the operator explicitly expands scope.
 - Do not build civilization arc-lens backfills only from existing lane summaries. Use direct CIV-MEM discovery, `MEM CONNECTIONS`, and opened source bodies before drafting.
 
 ## Workflow
@@ -25,7 +25,7 @@ Second rule: every major civilization object is an arc-lens, not a topic page. A
 1. **Ground in repo truth.** Search the target lane and CIV-MEM inputs before drafting:
 
 ```powershell
-rg -n "state-memory|heads-of-state|authority-structure|objects|CIV-MEM|CIV|STATE" codex/academy/statecraft research/repos/civilization_memory
+rg -n "state-memory|heads-of-state|authority-structure|objects|CIV-MEM|CIV|STATE" statecraft research/repos/civilization_memory
 ```
 
 2. **Identify CIV-MEM inputs.** Prefer the target civilization's `CIV-CORE-*`, `CIV-STATE-*`, doctrine / index files, relevance files, and lane-local `civilization/seed-patterns.md`. Cite them in `## CIV-MEM Inputs`; do not rewrite them.
@@ -36,12 +36,12 @@ rg -n "state-memory|heads-of-state|authority-structure|objects|CIV-MEM|CIV|STATE
    - historical authority memory -> `civilization/objects/state-memory.md`
    - current state carrier -> `state/<carrier>.md`
    - diplomatic / ministerial / institutional signal transmitter -> `state/objects/<object>.md`
-7. **Use the template.** Follow `codex/academy/statecraft/templates/state-memory.md`: `Continuity Pattern`, `Arc Shape`, `Authority Forms`, `Current Carriers`, `Transaction Test`, `Failure Mode`, `CIV-MEM Inputs`.
+7. **Use the template.** Follow `statecraft/templates/state-memory.md`: `Continuity Pattern`, `Arc Shape`, `Authority Forms`, `Current Carriers`, `Transaction Test`, `Failure Mode`, `CIV-MEM Inputs`.
 8. **Wire the layer.** Link state-memory to current carriers, current carriers back to state-memory, and transmitter objects to both.
 9. **Sweep stale links.** After moving files, search for old paths and biography drift:
 
 ```powershell
-rg -n "heads-of-state|head-of-state.md|head-of-state pattern|biography" codex/academy/statecraft/<lane>
+rg -n "heads-of-state|head-of-state.md|head-of-state pattern|biography" statecraft/<lane>
 ```
 
 10. **Validate.** Run `python scripts/validate_skills.py`. If skill files were not touched, still use the stale-link search and a manual path check.
@@ -61,14 +61,14 @@ These backfills must be cognitively dense and source-supported. Existing statecr
 
 ### Required CIV-MEM Pass
 
-Before drafting a major state-memory or civilization arc-lens backfill, use a three-stage retrieval path. CIV-MEM is the deep civilizational memory graph; academy-statecraft is the operational command surface. Do not let urgency collapse the graph into summary.
+Before drafting a major state-memory or civilization arc-lens backfill, use a three-stage retrieval path. CIV-MEM is the deep civilizational memory graph; repo-root statecraft is the operational command surface. Do not let urgency collapse the graph into summary.
 
 1. **Fix the lane, object, and civilization id.**
    - America -> `AMERICA`
    - Russia -> `RUSSIA`
    - China -> `CHINA`
    - Iran -> `PERSIA`
-2. **Check the object-aware retrieval matrix.** Open `codex/academy/statecraft/sheets/civ-mem-object-retrieval-matrix.md` when it exists. Use the row for the target object, such as `russia-god`, `china-art`, `iran-peace`, or `america-war`, to set seed terms, required source classes, connection expansion, and counterweight expectations.
+2. **Check the object-aware retrieval matrix.** Open `statecraft/sheets/civ-mem-object-retrieval-matrix.md` when it exists. Use the row for the target object, such as `russia-god`, `china-art`, `iran-peace`, or `america-war`, to set seed terms, required source classes, connection expansion, and counterweight expectations.
 3. **Run or emulate direct lane discovery.** Prefer:
 
 ```powershell
