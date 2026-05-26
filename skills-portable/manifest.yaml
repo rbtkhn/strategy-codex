@@ -149,6 +149,20 @@ skills:
     verify_forbidden_substrings:
       - users/grace-mar/
       - process_approved_candidates
+  - name: statecraft-source-intake
+    source: statecraft-source-intake/SKILL.md
+    appendix: .cursor/skills/statecraft-source-intake/CURSOR_APPENDIX.md
+    target: .cursor/skills/statecraft-source-intake/SKILL.md
+    verify_forbidden_substrings:
+      - users/grace-mar/
+      - process_approved_candidates
+  - name: civ-emp-volume-harden
+    source: civ-emp-volume-harden/SKILL.md
+    appendix: .cursor/skills/civ-emp-volume-harden/CURSOR_APPENDIX.md
+    target: .cursor/skills/civ-emp-volume-harden/SKILL.md
+    verify_forbidden_substrings:
+      - users/grace-mar/
+      - process_approved_candidates
   - name: arc-to-chapter-seeds
     source: arc-to-chapter-seeds/SKILL.md
     appendix: .cursor/skills/arc-to-chapter-seeds/CURSOR_APPENDIX.md

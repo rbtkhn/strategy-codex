@@ -3,7 +3,7 @@ name: statecraft-source-intake
 preferred_activation: statecraft source intake
 description: "Capture operator-supplied transcript-bearing source objects into the canonical statecraft source archive with the correct family pattern, truthful provenance, and no summary-or-stub drift."
 portable: true
-version: 0.1.3
+version: 0.1.4
 tags:
   - operator
   - statecraft
@@ -36,8 +36,21 @@ This skill is for **archive intake**, not for helix drafting, speaker synthesis,
 ## Core law
 
 - `source-archive` holds the full source object
+- `civilization_memory` is the evidence layer for longer civilizational/source-memory arguments
+- `civ-emp` is the operator-facing source base for statecraft interpretation
+- lane and transaction surfaces are the downstream drafting layer
 - `statecraft/` holds routing, continuity, synthesis, drafting, and control
 - this workflow must not leak summaries, stubs, or control notes into the archive
+
+## Layer boundary
+
+This skill is for archive intake only.
+
+- It does **not** draft CIV-EMP doctrine.
+- It does **not** let source-archive captures silently become operator truth.
+- It does **not** collapse archive intake into lane synthesis or civilization-state argument.
+
+If the operator's next move is interpretation, route from the landed archive object into `civ-emp` or the relevant lane-local surfaces rather than continuing to treat the archive file as the working doctrine surface.
 
 ## Workflow
 
@@ -121,6 +134,24 @@ This skill is for **archive intake**, not for helix drafting, speaker synthesis,
 
 - Preserve the Diesen-side naming cues that often include the guest surname set in the filename.
 - When multiple major guests appear, prefer the established neighboring Diesen naming pattern instead of inventing a new compact scheme.
+
+### Daniel Davis Deep Dive
+
+- Use `youtube-daniel-davis-deep-dive-*` for standard Daniel Davis Deep Dive YouTube captures unless a different neighboring family clearly governs the object.
+- Default metadata for this lane:
+  - `show: Daniel Davis Deep Dive`
+  - `host: Daniel Davis`
+  - `thread: davis`
+- Preserve the full transcript body by default.
+- Do not assume the guest field is globally standardized across the whole Daniel Davis lane; verify against neighboring files before normalizing titles, rank prefixes, or first-name variants.
+- Strip only clearly separable routine closing promos such as "coming up next" or "just a few minutes from now" when they are non-substantive show-lineup tails.
+- If the closing setup contains substantive transition context or is entangled with the interview close, leave it in place.
+
+### Guest normalization
+
+- Normalize unstable ASR guest spellings to the established archive form when confidence is high.
+- Keep guest normalization narrow and evidence-backed; do not promote a lane-wide normalization rule from one fresh example.
+- For Seyed Marandi appearances in the Daniel Davis lane, prefer `guest: Seyed M. Marandi` even when the pasted transcript varies across forms such as `say Mandi`, `Seyed Marandi`, or `Seyed Morandi`.
 
 ## Guardrails
 
