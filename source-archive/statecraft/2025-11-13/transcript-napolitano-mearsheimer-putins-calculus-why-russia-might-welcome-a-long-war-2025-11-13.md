@@ -15,13 +15,7 @@ source_note: "Direct YouTube watch URL supplied by operator in Codex chat. Full 
 
 ## Transcript
 
-Heat. Heat. N. Hi everyone, Judge Andrew Npalitano here for Judging Freedom. Today is Thursday, November 13th, 2025. Professor John Mir Shmer will be with us in just a moment on what is the Russian calculus? Does President Putin want a long war? But first, this history tells us every market eventually falls.
-
-Currencies collapse and look at where we are now. 37 trillion in national debt. Stocks at record highs defying gravity. So what happens next? Groceries, gas, housing, everything's going up. And this dollar, it buys less every day. When the system breaks, your stocks won't save you. And your dollars won't either.
-
-But one thing will. Gold. I've said it on my show for years. Gold survives collapse. Central bankers know this and [music] billionaires know it. That's why they're buying more. Is it too late to buy or is it just the right time? Call my friends at Lear Capital to find out. Ask questions. Get the free [music] information. There's no pressure.
-
-And that's why I buy my gold and silver from [music] Lear. And right now you can get up to $20,000 in [music] bonus medals with a qualified purchase. Call 8005114620 [music] or go to leerjudgenap.com today. Professor Mir Shammer, good day to you, my dear friend. Thank you as always for joining us.
+Hi everyone, Judge Andrew Npalitano here for Judging Freedom. Today is Thursday, November 13th, 2025. Professor John Mir Shmer will be with us in just a moment on what is the Russian calculus? Does President Putin want a long war? Professor Mir Shammer, good day to you, my dear friend. Thank you as always for joining us.
 
 Thank you especially for accommodating [clears throat] my schedule. Not your usual day or your usual time, but you are always welcome here, my friend. Before we get to President Putin's plans and the tolerance level of the Russian elites and the Russian people, a few questions about Israel. From [snorts] your understanding, has the Israeli prison rape scandal strengthened or weakened Prime Minister Netanyahu's standing amongst the Israeli people?
 
@@ -163,6 +157,4 @@ I know it's not your usual day, your usual time, but it is your usual audience a
 
 >> And I'll look forward to seeing you next week, judge.
 
->> Thank you, my dear friend. All the best. And coming, if you're watching us live in 20 minutes, Pepe will be here.
-
-I say here, God only knows where he is. But at 8:45 this morning, Pepe Escobar at 11 this morning on the destruction of MAGA by Epstein Kirk the response to Charlie's murder and Israel Max Blumenthal and at 1:00 this afternoon Matt Hoe judge Npalitano for judging freedom.
+>> Thank you, my dear friend. All the best.

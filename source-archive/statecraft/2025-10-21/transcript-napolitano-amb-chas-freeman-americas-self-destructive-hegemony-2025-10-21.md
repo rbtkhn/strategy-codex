@@ -62,5 +62,3 @@ Just before we conclude, here's the man who wants to redevelop Gaza thanks to th
 Would you say now having been there that it was genocide?
 
 Ambassador, thank you very much. Thanks for your time, my dear friend. Thanks for accommodating my schedule. It's good to be back. It's good to be back with you. All the best. We'll look forward to seeing you next week, my friend.
-
-If you're watching us live in five minutes, Alastair Crooke at 8:30 this morning Eastern. At 10:00, Ray McGovern. At 11:00, if we can find him in Moscow, Larry Johnson. At 2:00, Matt Ho. At 3:00, Colonel Karen Kwiatkowski.

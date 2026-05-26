@@ -19,13 +19,7 @@ Undeclared wars are commonplace. Tragically, our government engages in >> [music
 
 What if sometimes to love [music] your country, you had to alter or abolish the government? What if Jefferson was right? [music] What if that government is best which governs least? What if it is dangerous to be right when the government is wrong? What if it is better to perish fighting for freedom [music] than to live as a slave? What if freedom's greatest hour of danger is now? >> [music] >> Hi everyone, Judge Andrew Napolitano here for Judging Freedom.
 
-Today is Monday, February 23rd, 2026. My dear friend Larry Johnson will be with us in just a moment on President Trump's decision-making and Mike Huckabee's buffoonery. How dangerous is that? But first, this. Don't you just cringe when people say, "I told you so"? Sorry, I told you gold and silver would reap the benefits due to excessive money printing, inflation, and global uncertainty. It's here. It's happened.
-
-Gold and silver reached all-time highs. Did you call Lear Capital and buy some? It's not [music] too late. Experts are predicting higher prices ahead. Why? Nothing has changed. [music] Geopolitical chaos, cost of living crises, and a weaker dollar are driving [music] central banks to boost their gold reserves.
-
-Forecast suggests gold could hit $6,000 an ounce and silver $200 an ounce. [music] Even Morgan Stanley ditch the 60/40 rule for 60/20/20 putting 20% into precious metals. They're getting educated and you [music] should too. Call the best in the business and the people I trust, Lear Capital. [music] Get their reports, get the facts, get some gold and silver.
-
-Tell them [music] the judge sent you and get up to $20,000 in bonus gold or silver. Call 800-511-4620 [music] or go to Lear Judgenap.com. Larry Johnson, good day to you my friend. Thank you as always for accommodating my schedule. Before we get uh to the president's uh decision-making on attacking Iran and before we get to the buffoonery of his uh ambassador uh in in Telebre Tel Aviv, how dangerous was it for the British to have worked estrated an attack on a Russian um machine shop that makes parts for nuclear weapons 1,300 km from the Russian-Ukraine border? Yeah, on a scale of 1 to 10, I think this is a 10.
+Today is Monday, February 23rd, 2026. My dear friend Larry Johnson will be with us in just a moment on President Trump's decision-making and Mike Huckabee's buffoonery. How dangerous is that? Larry Johnson, good day to you my friend. Thank you as always for accommodating my schedule. Before we get uh to the president's uh decision-making on attacking Iran and before we get to the buffoonery of his uh ambassador uh in in Telebre Tel Aviv, how dangerous was it for the British to have worked estrated an attack on a Russian um machine shop that makes parts for nuclear weapons 1,300 km from the Russian-Ukraine border? Yeah, on a scale of 1 to 10, I think this is a 10.
 
 Uh the the the the word circulating in Moscow is that uh Medvedev in particular uh since you know this was his area of responsibility overseeing the production of the war material for Russia. Uh we can't rule out that uh Russia will retaliate by hitting the factory, the plant in England that was producing these missiles.
 
@@ -141,10 +135,4 @@ Those are the two main uh locations where US military assets are parked right no
 
 " So they've got uh they've got uh some cleanup to do on aisle four. Putting it mildly. Larry, thank you very much. >> My dear friend. Great great analysis. As always, look forward to seeing you at the end of the week with Ray McGovern. Stay swarm stay warm and don't shovel snow. Get someone else to do it, okay? You got it, my friend.
 
-It's 18 in here in New York and still coming down, but you got it, my friend. Thank you. Okay. And Ray McGovern will be here in just a few minutes if you're watching us live at 10:00 and at 2:00 this afternoon on all of this particularly on the British attack on a Russian munitions factory. Scott Ritter, judging the power town for judging freedom.
-
->> [music] [music] >> Christian Zionism, I want to go back cuz that's where we started. I'm not going to let you off on this because you have three times that God gave this land to this people. And so it is entirely [music] fair for me with respect to ask what land are you talking about because I just read Genesis 15 as I have many times.
-
-And that land, I think it says from the Nile [music] to the Euphrates, which is once again basically the entire Middle East. [music] So God gave that land to his people, the Jews, or he didn't. You're saying he did. What does that mean? Does Israel have the right to that land? Because you're appealing to Genesis.
-
-You're saying that's the [music] original deed. It would be fine if they took it all.
+It's 18 in here in New York and still coming down, but you got it, my friend. Thank you.

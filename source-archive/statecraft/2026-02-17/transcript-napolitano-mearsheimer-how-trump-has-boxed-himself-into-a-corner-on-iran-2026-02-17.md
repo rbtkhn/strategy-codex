@@ -19,13 +19,7 @@ Undeclared wars are commonplace. Tragically, our government engages in preemptiv
 
 What if sometimes to love your [music] country you had to alter or abolish the government? What if Jefferson was right? >> [music] >> What if that government is best which governs least? What if it is dangerous to be right when [music] the government is wrong? What if it is better to perish fighting for freedom than to live as [music] a slave? What if freedom's greatest hour of danger is now? >> [music] [music] >> Hi everyone, Judge Andrew Napolitano here for Judging Freedom.
 
-Today is Tuesday, February 17th, 2026. Professor John Mearsheimer will be with us in just a moment on just how did Donald Trump box himself into a corner diplomatically on Iran. But first this. Don't you just cringe when people say, "I told you so"? Sorry, I told you gold and silver would reap the benefits due to excessive money printing, inflation, and global uncertainty. It's here. It's happened.
-
-Gold and silver reached all-time [music] highs. Did you call Lear Capital and buy some? It's not too late. Experts [music] are predicting higher prices ahead. Why? Nothing has changed. Geopolitical chaos, cost of living crises, and a weaker [music] dollar are driving central banks to boost their gold reserves.
-
-Forecasts suggest gold could hit $6,000 an ounce and silver [music] $200 an ounce. Even Morgan Stanley ditched the 60/40 rule for 60/20/20, putting 20% [music] into precious metals. They're getting educated and you should too. Call the best in the business and the people I trust, [music] Lear Capital. Get their reports, get the facts, get some gold and silver.
-
-Tell them the Judge [music] sent you and get up to $20,000 in bonus gold or silver. Call 800-511-4620 [music] or go to Learjudgenap.com. Professor Mearsheimer, good day to you, my dear friend. Thank you for uh coming onto the show as always and accommodating my schedule. Before we get to President Trump, uh and Iran, do you assign any significance to the arrival of the Deputy Russian Foreign Minister to the trilateral talks between Russia, Ukraine, and the United States and the movement of those talks from Abu Dhabi to Geneva? Not really.
+Today is Tuesday, February 17th, 2026. Professor John Mearsheimer will be with us in just a moment on just how did Donald Trump box himself into a corner diplomatically on Iran. Professor Mearsheimer, good day to you, my dear friend. Thank you for uh coming onto the show as always and accommodating my schedule. Before we get to President Trump, uh and Iran, do you assign any significance to the arrival of the Deputy Russian Foreign Minister to the trilateral talks between Russia, Ukraine, and the United States and the movement of those talks from Abu Dhabi to Geneva? Not really.
 
 Uh I mean, there's been a lot of talk in the media uh that the appointment of Vladimir uh Medinsky to head the Russian delegation means that the Russians are toughening their position. Uh there's a feeling that the Russians think they're on the threshold of victory. Uh and now is not the time to compromise and if anything what they want to do is broaden the agenda and play hardball with the Ukrainians uh and with the United States.
 
@@ -131,4 +125,4 @@ This was in June of last year, and Trump did not want that to happen. And one wo
 
 Agreed. Professor Mearsheimer, thank you very much, my dear friend. Thank you for coming on in what is not your usual time. I appreciate your accommodating my schedule. Safe travels to you. We'll look forward to seeing you next week. Likewise, Judge, and of course I look forward to seeing you as well.
 
-Thank you. Coming up later today at 2:00 this afternoon, Matt Hoh at 3:00 this afternoon, she asks a very interesting question. What if Trump starts World War III? Colonel Karen Kwiatkowski, Justin Amash on Judging Freedom. >> [music] [music] [music]
+Thank you.

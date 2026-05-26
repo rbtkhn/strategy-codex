@@ -109,6 +109,4 @@ Uh there's a lot more about uh from Huckabe. He he defends his friendship with J
 
 Huckabe, Ambassador Huckabe has even met with him in the American embassy in Jerusalem. Um and that is a was seen widely correctly as a statement of support for Mr. colored and by implication uh a dismissal of the consequences of what he did as important. So u this is not a good show. >> Ambassador, thank you very much.
 
-Thanks for your time. Thanks for your terrific analysis. We'll look forward to seeing you next week. Thank you. Uh coming up later today, if you're watching us live in half an hour, uh at 9:00 this morning, Professor John Mirshimer at 2 this afternoon, Matt Hoe at 3 this afternoon, Colonel Karen Qucowski, Judge Npalit Tano for judging freedom.
-
-Heat. [music] [music] [music] >> [music]
+Thanks for your time. Thanks for your terrific analysis. We'll look forward to seeing you next week. Thank you.

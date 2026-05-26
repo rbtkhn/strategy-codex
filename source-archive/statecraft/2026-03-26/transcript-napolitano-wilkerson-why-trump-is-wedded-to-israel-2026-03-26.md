@@ -124,5 +124,3 @@ And we fall for it every time, but we fall for it because of what he was saying 
 Colonel Lawrence Wilkerson, always a pleasure, my dear friend, no matter what we're talking about. Always worth waiting for. Always fascinating to chat with you, my dear friend. Let me know if you're going to be up in the New York City area again, so I can kiss your head. Getting balder and balder. Thank you, Colonel. God love you. Have a nice weekend.
 
 You too.
-
-Thank you. If you're watching us live in 23 minutes at 3:00 on these same subjects, Colonel Douglas McGregor. Judge Napolitano for Judging Freedom.

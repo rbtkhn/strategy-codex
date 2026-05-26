@@ -15,13 +15,7 @@ source_note: "Direct YouTube watch URL pinned from the existing local object. Fu
 
 ## Transcript
 
-Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Thursday, November 6th, 2025. Professor John Mearsheimer will be with us in just a moment on Israel's nightmare. But first this. History tells us every market eventually falls, currencies collapse, and look at where we are now. 37 trillion in national debt, stocks at record highs defying gravity.
-
-So, what happens next? Groceries, gas, housing, everything's going up, and this dollar, it buys less every day. When the system breaks, your stocks won't save you, and your dollars won't either. But one thing will, gold. I've said it on my show for years. >> [music] >> Gold survives collapse. Central bankers know this, and billionaires know it.
-
-That's why they're buying more. Is it too late to buy, or is it just the right time? [music] Call my friends at Lear Capital to find out. Ask questions, get the free information. There's no pressure, and that's why I buy my gold and silver from Lear. And right now, you can get up to $20,000 in bonus metals with a qualified purchase.
-
-Call 800-511-4620 [music] or go to LearJudgenap.com today. Professor Mearsheimer, welcome here, my dear friend. What is Israel's nightmare? Well, I think Israel's nightmare has a number of dimensions. One is what's happening inside Israel. Number two is what's happening with Israel and its neighbors, especially Iran.
+Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Thursday, November 6th, 2025. Professor John Mearsheimer will be with us in just a moment on Israel's nightmare. Professor Mearsheimer, welcome here, my dear friend. What is Israel's nightmare? Well, I think Israel's nightmare has a number of dimensions. One is what's happening inside Israel. Number two is what's happening with Israel and its neighbors, especially Iran.
 
 And then three, what's happening with Israel and the United States. And Israel is in deep trouble on all three fronts. Just to go inside Israel. First of all, there's the Palestinian problem. Uh and I don't have to go that into that in any detail cuz we're all familiar with that situation. They have not solved the problem in Gaza.
 
@@ -123,4 +117,4 @@ Facts and logic is not on their side. I so I told you, that's what Steve and I f
 
 That sent shivers up their spine. The last thing they want to do is have Steve Walt and John Mearsheimer debate them out in an open forum because it is for us like shooting fish in a barrel. Wow. Professor Mearsheimer, thank you very much, my dear friend. I know you've been traveling. I appreciate your time this afternoon.
 
-We'll look forward to seeing you next week. I will look forward to seeing you as well, and have a good week. Thank you, you as well. And coming up at 4:00 at the end of our long day to wrap all of this up, who else? Max Blumenthal. Just in time for Judging Freedom.
+We'll look forward to seeing you next week. I will look forward to seeing you as well, and have a good week. Thank you, you as well.

@@ -173,6 +173,4 @@ You cannot address me by my first name. I am General Marshall and you are presid
 
 So, we we have to find a way to get back to that sort of thing. Wow, Colonel, what a great uh series of analyses starting with this crazy thing out of Pakistan, who knows, and ending up with a historical vignette that I hadn't heard of and which is very, very telling and all of your knowledge and clarity in between. Thank you, Colonel.
 
-Uh, a happy Memorial Day, enjoyable weekend to you and your family. We'll look forward to seeing you next week. Thank you. The same to you, Judge. Sure. Wow. Uh, a very good day for all of us and I hope for all of you. Tomorrow, Friday, at 9 in the morning, Professor Jeffrey Saxs, did Benjamin Netanyahu really plan a coup in Thrron? And then at 4:00, the intelligence community roundt, Larry Johnson, Ray McGovern, and Scott Ritter.
-
-Judge Npalit Tanner for judging freedom. Heat up here.
+Uh, a happy Memorial Day, enjoyable weekend to you and your family. We'll look forward to seeing you next week. Thank you. The same to you, Judge.

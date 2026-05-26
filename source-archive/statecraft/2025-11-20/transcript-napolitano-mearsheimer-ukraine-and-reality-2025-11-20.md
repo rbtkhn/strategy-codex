@@ -15,13 +15,7 @@ source_note: "Direct YouTube watch URL supplied by operator in Codex chat. Full 
 
 ## Transcript
 
-Hi everyone, Judge Andrew Npalitano here for Judging Freedom. Today is Thursday, November 20th, 2025. Professor John Mir Sharmmer will be with us in just a moment on Ukraine and reality. But first, this history tells us every market eventually falls. Currencies collapse. And look at where we are now. 38 trillion in national debt.
-
-Stocks at record highs defying gravity. So what happens next? Groceries, gas, housing, everything's going up. And this dollar, it buys less every day. When the system breaks, your stocks won't save you. And your dollars won't either. But one thing will. Gold. I've said it on my show for years. Gold survives [music] collapse.
-
-Central bankers know this and billionaires know it. That's why they're buying more. [music] Is it too late to buy or is it just the right time? Call my friends at Lear Capital to find out. Ask questions. [music] Get the free information. There's no pressure. And that's why I buy my gold and silver from Lear.
-
-And right now you can get [music] up to $20,000 in bonus medals with a qualified purchase. [music] Call 8005114620 or go to leerjudgenap.com today. Professor Mir Shamber, welcome here my dear friend. Thank you for accommodating my schedule. Much appreciated. Before we get uh to Ukraine and reality, can you tell us why the United States of America is planning a coup in Venezuela and what 18,000 troops are doing at the ready in Puerto Rico? I think the explanation, the main explanation is that the United States does not tolerate left-leaning governments uh either in South America
+Hi everyone, Judge Andrew Npalitano here for Judging Freedom. Today is Thursday, November 20th, 2025. Professor John Mir Sharmmer will be with us in just a moment on Ukraine and reality. Professor Mir Shamber, welcome here my dear friend. Thank you for accommodating my schedule. Much appreciated. Before we get uh to Ukraine and reality, can you tell us why the United States of America is planning a coup in Venezuela and what 18,000 troops are doing at the ready in Puerto Rico? I think the explanation, the main explanation is that the United States does not tolerate left-leaning governments uh either in South America
 or Central America. And as soon as they see a government that they think is uh considerably to the left of center, we move in to replace that government. We have a rich history of doing this. And [clears throat] ever since Chavez won in Venezuela uh a decade or so ago, the United States has had its gun sites on Venezuela and nothing has changed.
 
 We want to get rid of Maduro and we would prefer to put in place a right-wing government. If you have any doubts about this, all you have to do is look at our relationship with Cuba since 1959 when Fidel Castro took over there. We've had our gun sights on Cuba ever since. We cannot stand the fact that Cuba has a government that is to the left of center.
@@ -206,5 +200,3 @@ We have a short week next week, but I hope we can spend a little time with you b
 >> And the same to you, judge.
 
 >> Thank you.
-
-Coming up at 4:00 today, I think in Moscow, but somewhere in Russia for sure, Pepe Escobar, Judge Npalitano for judging freedom. Heat. Heat.

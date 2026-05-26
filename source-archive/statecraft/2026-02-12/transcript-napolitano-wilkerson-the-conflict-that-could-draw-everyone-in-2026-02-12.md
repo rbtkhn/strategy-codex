@@ -147,4 +147,4 @@ The attorney general. The attorney general is not the president's lawyer. He is 
 
 " Whereupon this congresswoman said, "Sorry, I couldn't tell." >> Well, that's an embarrassment to secretaries. [laughter] She wouldn't even make a good secretary. >> No. Uncle Larry, Colonel Wilkerson, a pleasure, my dear friend. I'm sorry that some of this stuff is so tasteless, but I appreciate your uh willingness to address all of it.
 
-And uh thank you for everything you do for us. We'll look forward to seeing you next week. >> Surely take care of yourself. >> Thank you. You as well, Colonel. And uh coming up at 3:00 today on all of this on Iran, on China, a little bit on Japan, Professor John Mirshimer, judge the Paul Tanner for judging freedom. [music] >> [music] [music] [music] >> Heat.
+And uh thank you for everything you do for us. We'll look forward to seeing you next week. >> Surely take care of yourself. >> Thank you. You as well, Colonel.
