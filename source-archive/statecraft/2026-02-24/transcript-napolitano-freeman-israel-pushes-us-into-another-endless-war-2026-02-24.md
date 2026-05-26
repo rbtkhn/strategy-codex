@@ -15,9 +15,7 @@ evidence_grade: transcript-bearing
 
 # Chas Freeman: Israel Pushes US into Another Endless War
 
-Undeclared wars are commonplace. Tragically, our government engages in preemptive war, otherwise known as aggression, with no complaints from the American people. [music] Sadly, we have become accustomed to living with the illegitimate use of force by government. To develop a truly [music] free society, the issue of initiating force must be understood and rejected.
-
-What if sometimes to love your country you had to alter or abolish the government? What if Jefferson was right? What if that government is best which governs [music] least? What if it is dangerous to be right when the government is wrong? What if it is better to [music] perish fighting for freedom than to live as a slave? What if freedom's greatest [music] hour of danger is now? >> [music] >> Hi everyone, Judge Andrew Npalitano here for Judging Freedom.
+Hi everyone, Judge Andrew Npalitano here for Judging Freedom.
 
 Today is Tuesday, February 24th, 2026. Ambassador Chaz Freeman joins us now. Ambassador Freeman, thank you very much for coming with us as you do nearly every Tuesday at this hour. It's a pleasure to chat with you. Thank you for accommodating my schedule. Before we talk to talk about the Israeli uh push for another Middle Eastern war, I want to ask you a question about Ukraine.
 

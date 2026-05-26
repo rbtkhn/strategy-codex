@@ -16,11 +16,7 @@ quality_note: Normalized to remove ad boundaries and transcript noise; minor art
 
 ## Transcript
 
-Undeclared wars are commonplace. Tragically, our government engages in preemptive war, otherwise known as aggression, with no complaints from the American people. Sadly, we have become accustomed to living with the illegitimate use of force by government. To develop a truly free society, the issue of initiating force must be understood and rejected.
-
-What if sometimes to love your country you had to alter or abolish the government? What if Jefferson was right? What if that government is best which governs least? What if it is dangerous to be right when the government is wrong? What if it is better to perish fighting for freedom than to live as a slave? What if freedom's greatest hour of danger is now?
-
-Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Tuesday, May 26, 2026. It seems like a Monday because we in the US were off yesterday. Alastair Crooke will be here with us in just a moment. Is fear, fear of nuclear weapons, a legitimate and effective deterrent to war?
+Hi everyone, Judge Andrew Npalitano here for Judging Freedom. Today is Tuesday, May 26, 2026. It seems like a Monday because we in the US were off yesterday. Alastair Crooke will be here with us in just a moment. Is fear, fear of nuclear weapons, a legitimate and effective deterrent to war?
 
 Alastair, welcome here, my dear friend, and thank you as always for your time. Before we get to the possession, or even the use, of nuclear weapons as a deterrent, did the United States just bomb Iran last night in self-defense, it claimed?
 

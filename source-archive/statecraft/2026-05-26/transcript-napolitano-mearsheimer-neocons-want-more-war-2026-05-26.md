@@ -16,11 +16,7 @@ quality_note: Normalized to remove ad copy boundaries and transcript noise; mino
 
 ## Transcript
 
-Undeclared wars are commonplace. Tragically, our government engages in preemptive war, otherwise known as aggression, with no complaints from the American people. Sadly, we have become accustomed to living with the illegitimate use of force by government. To develop a truly free society, the issue of initiating force must be understood and rejected.
-
-What if sometimes to love your country you had to alter or abolish the government? What if Jefferson was right? What if that government is best which governs least? What if it is dangerous to be right when the government is wrong? What if it is better to perish fighting for freedom than to live as a slave? What if freedom's greatest hour of danger is now?
-
-Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Tuesday, May 26, 2026. Professor John Mearsheimer will be with us in just a moment on the neocons and their lust for war.
+Hi everyone, Judge Andrew Npalitano here for Judging Freedom. Today is Tuesday, May 26, 2026. Professor John Mearsheimer will be with us in just a moment on the neocons and their lust for war.
 
 Professor Mearsheimer, welcome here. Before we get to a general conversation about the neocons and a dynamite clip from the debate that you and Professor Walt had with Mrs. Nuland and Secretary Pompeo, did the United States just resume attacking Iranian military assets, in this case speedboats?
 

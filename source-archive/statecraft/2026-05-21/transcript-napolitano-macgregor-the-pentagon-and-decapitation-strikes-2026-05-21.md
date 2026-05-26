@@ -18,16 +18,14 @@ air_day: Thursday, May 21, 2026
 source_note: Transcript pasted manually by operator for canonical May 21 2026 Judging Freedom raw-input capture.
 editorial_note: Operator-pasted YouTube transcript preserved as raw-input SSOT. This paste appears incomplete and currently ends mid-episode; preserve exactly as provided rather than smoothing it into a full capture.
 evidence_grade: transcript-bearing
-quality_note: Normalized to remove sponsor/promo copy and transcript noise; minor artifacts may remain.
+quality_note: Normalized to remove routine ideological cold open, sponsor/promo copy, and transcript noise; minor artifacts may remain.
 ---
 
 # COL. Douglas Macgregor : The Pentagon and Decapitation Strikes
 
 ## Transcript
 
-Undeclared wars are commonplace. Tragically, our government engages in preemptive war, otherwise known as aggression, with no complaints from the American people. Sadly, we have become accustomed to living with the illegitimate use of force by government. To develop a truly free society, the issue of initiating force must be understood and rejected.
-
-What if sometimes to love your country you had to alter or abolish the government? What if Jefferson was right? What if that government is best which governs least? What if it is dangerous to be right when the government is wrong? What if it is better to perish fighting for freedom than to live as a slave? What if freedom's greatest hour of danger is now? Hi everyone, Judge Andrew Npalitaniano here for Judging Freedom.
+Hi everyone, Judge Andrew Npalitano here for Judging Freedom.
 
 Today is Thursday, May 21st, 2026. Colonel Douglas McGregor joins us now. Colonel, to breaking news first. We of course don't know if this is true but uh there are reports coming out of uh Pakistan that there are expected terms in a final draft of a US Iran agreement. Uh the written document that's floating around the internet and we don't know if it's true or not says immediate and comprehensive ceasefire on all fronts.
 

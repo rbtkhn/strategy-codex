@@ -16,16 +16,14 @@ guest: Larry Johnson
 thread: johnson
 channel_url: "https://www.youtube.com/@judgingfreedom"
 evidence_grade: transcript-bearing
-quality_note: Normalized to remove sponsor/promo copy and transcript noise; minor artifacts may remain.
+quality_note: Normalized to remove routine ideological cold open, sponsor/promo copy, and transcript noise; minor artifacts may remain.
 ---
 
 # Larry Johnson: Trump Afraid of the Zionists
 
 ## Transcript
 
-Undeclared wars are commonplace. Tragically, our government engages in preemptive war, otherwise known as aggression, with no complaints from the American people. Sadly, we have become accustomed to living with the illegitimate use of force by government. To develop a truly free society, the issue of initiating force must be understood and rejected.
-
-What if sometimes to love your country you had to alter or abolish the government? What if Jefferson was right? What if that government is best which governs least? What if it is dangerous to be right when the government is wrong? What if it is better to perish fighting for freedom than to live as a slave? What if freedom's greatest hour of danger is now? Hi everyone, Judge Andrew Napolitano here for Judging Freedom.
+Hi everyone, Judge Andrew Npalitano here for Judging Freedom.
 
 Today is Tuesday, May 26, 2026. My longtime friend and collaborator, Larry Johnson, joins us now. Larry, a pleasure as always. I want to talk to you about Trump and the control that the Zionist lobby has over him. But before we get to that, couple of significant military events over the weekend. How significant was the US attack on Iranian speedboats which killed some revolutionary guard sailors?
 

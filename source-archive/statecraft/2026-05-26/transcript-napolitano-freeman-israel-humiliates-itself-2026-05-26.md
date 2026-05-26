@@ -16,11 +16,7 @@ quality_note: Normalized into readable paragraphs and light speaker separation; 
 
 ## Transcript
 
-Undeclared wars are commonplace. Tragically, our government engages in preemptive war, otherwise known as aggression, with no complaints from the American people. Sadly, we have become accustomed to living with the illegitimate use of force by government. To develop a truly free society, the issue of initiating force must be understood and rejected.
-
-What if sometimes to love your country you had to alter or abolish the government? What if Jefferson was right? What if that government is best which governs least? What if it is dangerous to be right when the government is wrong? What if it is better to perish fighting for freedom than to live as a slave? What if freedom's greatest hour of danger is now?
-
-Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Tuesday, May 26, 2026. Ambassador Chas Freeman joins us now. Ambassador, a pleasure as always. Is anyone throwing Trump a lifeline to get him out of this mess in Iran?
+Hi everyone, Judge Andrew Npalitano here for Judging Freedom. Today is Tuesday, May 26, 2026. Ambassador Chas Freeman joins us now. Ambassador, a pleasure as always. Is anyone throwing Trump a lifeline to get him out of this mess in Iran?
 
 No. He announced he was getting close to a deal. He got a call from Benjamin Netanyahu who said, "No, you don't," and insisted that he insert terms that make any deal with Iran impossible. These include affirming Israel's so-called right to defend itself in Lebanon. Israel has doubled down and intensified its warfare in Lebanon, although Iran has made it very clear that a ceasefire and an end to the fighting in Lebanon is an essential component of any deal.
 

@@ -8,14 +8,12 @@ source_url: "https://www.youtube.com/watch?v=m_hL84kCcgA"
 source_type: youtube
 transcript_type: manual_transcript
 status: raw-input
-quality_note: Normalized to remove sponsor/promo copy and transcript noise; minor artifacts may remain.
+quality_note: Normalized to remove routine ideological cold open, sponsor/promo copy, and transcript noise; minor artifacts may remain.
 ---
 
 # COL. Douglas Macgregor: Why Trump Is Now Desperate
 
-Undeclared wars are commonplace. Tragically, our government engages in preemptive war, otherwise known as aggression, with no complaints from the American people. Sadly, we have become accustomed to living with the illegitimate use of force by government. To develop a truly free society, the issue of initiating force must be understood and rejected.
-
-What if sometimes to love your country you had to alter or abolish the government? What if Jefferson was right? What if that government is best which governs least? What if it is dangerous to be right when the government is wrong? What if it is better to perish fighting for freedom than to live as a slave? What if freedom's greatest hour of danger is now? Hi everyone, Judge Andrew Npalitano here for Judging Freedom.
+Hi everyone, Judge Andrew Npalitano here for Judging Freedom.
 
 Welcome here. Thank you for accommodating my schedule. Why is President Trump so desperate over this war in Iran?
 

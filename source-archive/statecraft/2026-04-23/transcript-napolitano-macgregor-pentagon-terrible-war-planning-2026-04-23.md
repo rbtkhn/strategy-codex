@@ -10,7 +10,7 @@ kind: cleaned-transcript
 editorial_note: Inferred speaker labels; sponsor block present.
 canonical_url: TBD
 source_note: Canonical watch URL unresolved locally as of 2026-05-24; route by title/date and transcript body until recovered.
-quality_note: Normalized to remove sponsor/promo copy and transcript noise; minor artifacts may remain.
+quality_note: Normalized to remove routine ideological cold open, sponsor/promo copy, and transcript noise; minor artifacts may remain.
 ---
 
 # COL. Douglas Macgregor: The Pentagon’s Terrible War Planning
@@ -23,7 +23,7 @@ quality_note: Normalized to remove sponsor/promo copy and transcript noise; mino
 
 ## Judge Andrew Napolitano
 
-Undeclared wars are commonplace. Tragically, our government engages in preemptive war, otherwise known as aggression, with no complaints from the American people. Sadly, we have become accustomed to living with the illegitimate use of force by government. To develop a truly free society, the issue of initiating force must be understood and rejected. What if sometimes to love your country you had to alter or abolish the government? What if Jefferson was right? What if that government is best which governs least? What if it is dangerous to be right when the government is wrong? What if it is better to perish fighting for freedom than to live as a slave? What if freedom's greatest hour of danger is now? Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Thursday, April 23rd, 2026. Colonel Douglas Macgregor will be here with us in just a moment.
+Hi everyone, Judge Andrew Npalitano here for Judging Freedom. Today is Thursday, April 23rd, 2026. Colonel Douglas Macgregor will be here with us in just a moment.
 
 Welcome here and thank you for accommodating my schedule as you always do. In your view and from your perceptions, did the American negotiators in Islamabad a week and a half ago negotiate in behalf of the United States or in behalf of Israel?
 

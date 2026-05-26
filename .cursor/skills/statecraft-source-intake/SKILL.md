@@ -1,16 +1,17 @@
 ---
-name: statecraft-source-intake
-preferred_activation: statecraft source intake
+name: "statecraft-source-intake"
+preferred_activation: "statecraft source intake"
 description: "Capture operator-supplied transcript-bearing source objects into the canonical statecraft source archive with the correct family pattern, truthful provenance, and no summary-or-stub drift."
 portable: true
-version: 0.1.3
+version: "0.1.3"
 tags:
-  - operator
-  - statecraft
-  - source-archive
-  - transcript
+  - "operator"
+  - "statecraft"
+  - "source-archive"
+  - "transcript"
+portable_source: "skills-portable/statecraft-source-intake/SKILL.md"
+synced_by: "sync_portable_skills.py"
 ---
-
 # Statecraft source intake
 
 **Preferred activation (operator):** say **`statecraft source intake`**.
@@ -134,3 +135,46 @@ This skill is for **archive intake**, not for helix drafting, speaker synthesis,
 ## Success condition
 
 The source ends as a **real full-source archive object** in the canonical statecraft source archive, filed under the right family, with honest provenance and no archive/control-plane drift.
+
+
+## Cursor / grace-mar instance
+
+## strategy-codex instance
+
+- Canonical archive root for this skill: [source-archive/statecraft](/C:/dev/strategy-codex/source-archive/statecraft)
+- Deprecated compatibility surfaces that must **not** receive new captures:
+  - [codex/years/2026/raw-input](/C:/dev/strategy-codex/codex/years/2026/raw-input)
+  - [codex/years/2026/provenance](/C:/dev/strategy-codex/codex/years/2026/provenance)
+- Primary neighboring families this skill should check before writing:
+  - `Dialogue Works / Nima`
+  - `Judging Freedom / Napolitano`
+  - `Glenn Diesen`
+  - `The Duran / Mercouris`
+
+**Current live examples**
+
+- Nima / Dialogue Works:
+  - [source-archive/statecraft/2026-05-26/transcript-alkorshid-marandi-iran-opens-fire-on-american-fighter-jets-2026-05-26.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/transcript-alkorshid-marandi-iran-opens-fire-on-american-fighter-jets-2026-05-26.md)
+- Napolitano / Judging Freedom:
+  - [source-archive/statecraft/2026-05-26/transcript-napolitano-freeman-israel-humiliates-itself-2026-05-26.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/transcript-napolitano-freeman-israel-humiliates-itself-2026-05-26.md)
+  - [source-archive/statecraft/2026-05-26/transcript-napolitano-mearsheimer-neocons-want-more-war-2026-05-26.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/transcript-napolitano-mearsheimer-neocons-want-more-war-2026-05-26.md)
+  - [source-archive/statecraft/2026-05-26/transcript-napolitano-crooke-fear-as-a-deterrent-to-war-2026-05-26.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/transcript-napolitano-crooke-fear-as-a-deterrent-to-war-2026-05-26.md)
+- Glenn Diesen:
+  - [source-archive/statecraft/2026-05-26/youtube-glenn-diesen-lawrence-wilkerson-failing-to-adjust-to-a-multipolar-world-2026-05-26.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/youtube-glenn-diesen-lawrence-wilkerson-failing-to-adjust-to-a-multipolar-world-2026-05-26.md)
+- The Duran / Mercouris:
+  - [source-archive/statecraft/2026-05-26/transcript-duran-mercouris-pressure-to-walk-away-from-a-good-iran-deal-2026-05-26.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/transcript-duran-mercouris-pressure-to-walk-away-from-a-good-iran-deal-2026-05-26.md)
+
+**Repo notes**
+
+- `statecraft/` is downstream interpretation and control, not archive storage.
+- For manual file creation or edits, use `apply_patch`.
+- Prefer the closest same-family recent file as the pattern authority.
+- When a transcript is already supplied in chat, this skill can proceed without YouTube fetching.
+
+**Preferred maintenance commands after skill edits**
+
+```powershell
+python scripts/sync_portable_skills.py --skill statecraft-source-intake
+python scripts/sync_portable_skills.py --verify --skill statecraft-source-intake
+python scripts/validate_skills.py
+```

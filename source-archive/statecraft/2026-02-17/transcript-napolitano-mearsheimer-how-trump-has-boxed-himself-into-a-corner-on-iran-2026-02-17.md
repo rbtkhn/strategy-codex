@@ -15,9 +15,7 @@ evidence_grade: transcript-bearing
 
 # John Mearsheimer: How Trump Has Boxed Himself Into a Corner on Iran
 
-Undeclared wars are commonplace. Tragically, our government engages in preemptive war, otherwise known as aggression, with no complaints from the American people. Sadly, we have become accustomed to living with the illegitimate use of force by government. To develop a truly free society, the issue of initiating force must [music] be understood and rejected.
-
-What if sometimes to love your [music] country you had to alter or abolish the government? What if Jefferson was right? >> [music] >> What if that government is best which governs least? What if it is dangerous to be right when [music] the government is wrong? What if it is better to perish fighting for freedom than to live as [music] a slave? What if freedom's greatest hour of danger is now? >> [music] [music] >> Hi everyone, Judge Andrew Napolitano here for Judging Freedom.
+Hi everyone, Judge Andrew Npalitano here for Judging Freedom.
 
 Today is Tuesday, February 17th, 2026. Professor John Mearsheimer will be with us in just a moment on just how did Donald Trump box himself into a corner diplomatically on Iran. Professor Mearsheimer, good day to you, my dear friend. Thank you for uh coming onto the show as always and accommodating my schedule. Before we get to President Trump, uh and Iran, do you assign any significance to the arrival of the Deputy Russian Foreign Minister to the trilateral talks between Russia, Ukraine, and the United States and the movement of those talks from Abu Dhabi to Geneva? Not really.
 

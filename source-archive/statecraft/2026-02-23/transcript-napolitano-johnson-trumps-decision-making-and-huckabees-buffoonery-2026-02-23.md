@@ -15,9 +15,7 @@ evidence_grade: transcript-bearing
 
 # Larry Johnson: Trump's Decision Making and Huckabee's Buffoonery
 
-Undeclared wars are commonplace. Tragically, our government engages in >> [music] >> preemptive war, otherwise known as aggression, with no complaints from the American people. >> [music] >> Sadly, we have become accustomed to living with the illegitimate use of force by government. To develop a truly free society, the issue of initiating force [music] must be understood and rejected.
-
-What if sometimes to love [music] your country, you had to alter or abolish the government? What if Jefferson was right? [music] What if that government is best which governs least? What if it is dangerous to be right when the government is wrong? What if it is better to perish fighting for freedom [music] than to live as a slave? What if freedom's greatest hour of danger is now? >> [music] >> Hi everyone, Judge Andrew Napolitano here for Judging Freedom.
+Hi everyone, Judge Andrew Npalitano here for Judging Freedom.
 
 Today is Monday, February 23rd, 2026. My dear friend Larry Johnson will be with us in just a moment on President Trump's decision-making and Mike Huckabee's buffoonery. How dangerous is that? Larry Johnson, good day to you my friend. Thank you as always for accommodating my schedule. Before we get uh to the president's uh decision-making on attacking Iran and before we get to the buffoonery of his uh ambassador uh in in Telebre Tel Aviv, how dangerous was it for the British to have worked estrated an attack on a Russian um machine shop that makes parts for nuclear weapons 1,300 km from the Russian-Ukraine border? Yeah, on a scale of 1 to 10, I think this is a 10.
 

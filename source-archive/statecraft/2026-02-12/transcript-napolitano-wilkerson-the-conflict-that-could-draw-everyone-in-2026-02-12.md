@@ -15,9 +15,7 @@ evidence_grade: transcript-bearing
 
 # COL. Lawrence Wilkerson: The Conflict That Could Draw Everyone In
 
-Undeclared wars are commonplace. Tragically, our government engages in preemptive war, otherwise known as aggression, with no complaints from the American people. [music] Sadly, we have become accustomed to living with the illegitimate use of force by government. To develop a truly free society, the issue of initiating force [music] must be understood and rejected.
-
-What if sometimes to love your country you had to alter or abolish the government? What if Jefferson was right? What if that government is best which governs least? What if it is dangerous to be right when the government is wrong? What if it is better to perish [music] fighting for freedom than to live as a slave? What if freedom's greatest [music] hour of danger is now? >> [music] >> Hi everyone, Judge Andrew Npalitano here for a judging freedom.
+Hi everyone, Judge Andrew Npalitano here for Judging Freedom.
 
 Today is Thursday, February 12th, 2026. My dear friend, Colonel Lawrence Wilkerson joins us now. Colonel, I want to talk to you um about your understanding of what could happen militarily and regionally uh if the president of the United States along with the Israelis uh attacks Iran. Uh but before we get there, a couple of other semi-related issues.
 

@@ -9,18 +9,14 @@ source_type: operator-pasted-youtube-transcript
 transcript_type: operator_paste
 status: raw-input
 editorial_note: Operator pasted the YouTube transcript into Codex on 2026-05-20 after an April Freeman check-streams pass found the missing Judging Freedom item. Preserve as transcript-bearing operator paste; not mechanically exact-matched against a session log.
-quality_note: Normalized to remove sponsor/promo copy and transcript noise; minor artifacts may remain.
+quality_note: Normalized to remove routine ideological cold open, sponsor/promo copy, and transcript noise; minor artifacts may remain.
 ---
 
 # AMB. Chas Freeman: US Diplomacy Is Dead - And the World Knows It
 
 ## Transcript
 
-Undeclared wars are commonplace. Tragically, our government engages in preemptive war, otherwise known as aggression, with no complaints from the American people. Sadly, we have become accustomed to living with the illegitimate use of force by government. To develop a truly free society, the issue of initiating force must be understood and rejected.
-
-What if sometimes to love your country you had to alter or abolish the government? What if Jefferson was right? What if that government is best which governs least? What if it is dangerous to be right when the government is wrong? What if it is better to perish fighting for freedom than to live as a slave? What if freedom's greatest hour of danger is now?
-
-Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Tuesday, April 21st, 2026. Ambassador Chas Freeman joins us now. Ambassador, I want to have a rather extended conversation with you on whether United States diplomacy is effectively dead, but let's sort of work our way into the project. Were the Islamabad negotiations last week a hoax?
+Hi everyone, Judge Andrew Npalitano here for Judging Freedom. Today is Tuesday, April 21st, 2026. Ambassador Chas Freeman joins us now. Ambassador, I want to have a rather extended conversation with you on whether United States diplomacy is effectively dead, but let's sort of work our way into the project. Were the Islamabad negotiations last week a hoax?
 
 They were an opportunity to deliver an ultimatum backed by delusions rather than real strength. I think the Iranian delegation left correctly stating that there was no trust established with the American delegation headed by Vice President Vance, but in effect under the surveillance of Witkoff and Kushner, who have completely forfeited any respect from the Iranian side. So, I guess you could call it a hoax. It was performative. It was not real. There was no effort to reach an agreement. There were instead each side posturing and presenting its own demands as they were. And the United States doing so on the basis of the delusion that if you drop enough bombs on someone, you've won the war.
 
