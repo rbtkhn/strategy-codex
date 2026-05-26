@@ -64,11 +64,11 @@ volumes:
         chapters: [hn-iv-russia-imperial, hn-iv-anglia-imperial]
 
   - id: vol-v
-    title: "Modern (1945–present)"
-    thesis: "The world the operator analyzes every day. Cold War, decolonization, unipolarity, and the current crisis landscape."
+    title: "Cybernetic (1945-present)"
+    thesis: "The post-industrial order formed after the apotheosis of machine killing. Cold War deterrence, decolonization, unipolarity, platform power, computation, signal, and the current crisis landscape."
     sub_groups:
       - label: "Architects"
-        thesis: "Powers that build or inherit the post-1945 order. One holds it; the other quietly displaces it."
+        thesis: "Powers that build or inherit the post-1945 cybernetic order. One holds it; the other quietly displaces it."
         chapters: [hn-v-america-hegemonic, hn-v-china-modern]
       - label: "Endurance Powers"
         thesis: "Civilizations that survive the architects' order rather than running it. Formation under siege — persistence as the primary strategic output."
@@ -516,7 +516,7 @@ chapters:
     linked_skills: []
     cross_refs: [hn-iii-anglia, hn-iv-america]
 
-  # --- Vol V: Modern ---
+  # --- Vol V: Cybernetic ---
   - id: hn-v-america-hegemonic
     volume: v
     title: "America — Cold War to Overreach"

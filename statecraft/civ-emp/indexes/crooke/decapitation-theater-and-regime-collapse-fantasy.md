@@ -6,7 +6,7 @@ WORK only; not Record.
 
 Provide a `civ-emp` source scaffold for the Crooke theme in which interveners repeatedly imagine that leadership strikes, buyouts, or initial shock will collapse the target system.
 
-## Modern Activation
+## Cybernetic Activation
 
 Crooke-side activation surface: [Decapitation theater and regime-collapse fantasy](../../../../speakers/crooke/themes/decapitation-theater-and-regime-collapse-fantasy.md)
 

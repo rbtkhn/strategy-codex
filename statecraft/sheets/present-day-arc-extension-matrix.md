@@ -8,7 +8,7 @@ Use this sheet when a `hex` read, current-event brief, transaction route, or rec
 
 Governing rule:
 
-**Every ancient arc must name its modern carrier.**
+**Every ancient arc must name its cybernetic carrier.**
 
 This matrix is an overlay for live analysis. It does not replace the decentralized hexagon: `god`, `lit`, `art`, `geo`, `war`, and `peace` still vote separately.
 
@@ -17,14 +17,14 @@ This matrix is an overlay for live analysis. It does not replace the decentraliz
 1. Name the lane and live object.
 2. Identify the old arc being activated.
 3. Name the present-day form of that arc.
-4. Name the modern carrier: institution, infrastructure, market, platform, route, command surface, legitimacy channel, or technology stack.
+4. Name the cybernetic carrier: institution, infrastructure, market, platform, route, command surface, legitimacy channel, or technology stack.
 5. Run the optionality / dependency test.
 6. Name the overreach or failure mode.
 7. Route to the best transaction test or lane-local recursive candidate.
 
 ## Matrix
 
-| Lane | Old arc | Present-day form | Modern carrier | Optionality / dependency test | Overreach / failure mode | Best transaction tests | Recursive candidate trigger |
+| Lane | Old arc | Present-day form | Cybernetic carrier | Optionality / dependency test | Overreach / failure mode | Best transaction tests | Recursive candidate trigger |
 |---|---|---|---|---|---|---|---|
 | America | Empire-republic / constitutional legitimacy / continental order | Platform power, sanctions-finance reach, alliance burden, executive overreach, technology-industrial authority, successor-stable legitimacy | Congress, courts, executive agencies, dollar system, Treasury sanctions, military command, alliances, platforms, cloud / AI firms, ports, energy and water infrastructure | Does the instrument make empire answer to republic, or does republican language launder extraction, suppression, emergency power, or platform control? | Liberty language masks control; development masks extraction; safety masks ideological suppression or surveillance; executive action outruns law; platforms become quasi-state authority; allies are burdened without consent; domestic legitimacy fractures. | Panama Canal water / transit sovereignty; U.S. digital identity collapse; Egypt debt / Suez / bread; Taiwan maritime access; Pakistan command integrity | A current event shows constitutional authority, platform infrastructure, sanctions reach, extraction / suppression pressure, or successor legitimacy carrying imperial functions without adequate lawful restraint. |
 | Russia | Depth / recognition / encirclement / system equilibrium | Energy routing, sanctions resistance, China absorption risk, nuclear warning time, Baltic / Black Sea / Arctic pressure, system-depth | Security Council, energy firms, pipelines, shadow / alternative shipping, payments channels, nuclear command, Black Sea / Baltic / Arctic posture, China market access, diplomatic treaty architecture | Does the instrument expand Russia's optionality through China and system anchoring, or create dependency on China as absorber? | Depth becomes empire; optionality becomes dependency; power becomes encirclement; sacrifice becomes veto; energy routing becomes junior alignment. | Great-power energy absorber threshold; Hormuz transit / sanctions relief; Baltic shadow-fleet infrastructure damage; Zangezur transit / sovereignty; Taiwan maritime access | A live read reveals a new depth form, absorber dependency threshold, warning-time constraint, or equilibrium rule not already captured by `russia-depth-arc.md`. |
@@ -39,7 +39,7 @@ This matrix is an overlay for live analysis. It does not replace the decentraliz
 - Live object:
 - Old arc:
 - Present-day form:
-- Modern carrier:
+- Cybernetic carrier:
 - Optionality / dependency test:
 - Overreach / failure mode:
 - Best transaction tests:
@@ -55,4 +55,4 @@ This matrix is an overlay for live analysis. It does not replace the decentraliz
 
 ## Membrane Rule
 
-If a live read reveals a durable new modern carrier, threshold, or failure mode, stage it only as a lane-local recursive candidate in `<lane>/updates/pending.md`. Do not directly rewrite transactions, CIV-MEM, PH-CIV, Record, raw-input, or current carrier files unless separately requested.
+If a live read reveals a durable new cybernetic carrier, threshold, or failure mode, stage it only as a lane-local recursive candidate in `<lane>/updates/pending.md`. Do not directly rewrite transactions, CIV-MEM, PH-CIV, Record, raw-input, or current carrier files unless separately requested.

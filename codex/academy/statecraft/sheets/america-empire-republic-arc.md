@@ -74,7 +74,7 @@ Use this sheet to sharpen:
 - Authority object:
 - Empire-republic form:
 - Historical spine:
-- Modern carrier:
+- Cybernetic carrier:
 - Failure mode:
 - Best lawful-reach formula:
 - Overreach warning:

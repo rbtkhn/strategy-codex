@@ -6,7 +6,7 @@ WORK only; not Record.
 
 Provide a `civ-emp` source scaffold for the Crooke theme in which a pressured hegemon secures its hemisphere or approaches as the base condition for continued outer competition.
 
-## Modern Activation
+## Cybernetic Activation
 
 Crooke-side activation surface: [Monroe reassertion and hegemonic retrenchment](../../../../../speakers/crooke/themes/monroe-reassertion-and-hegemonic-retrenchment.md)
 

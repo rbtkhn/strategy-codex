@@ -6,7 +6,7 @@ WORK only; not Record.
 
 Provide a `civ-emp` source scaffold for the Freeman theme in which legitimacy decline, epistemic decay, and shrinking institutional competence mutate regime form.
 
-## Modern Activation
+## Cybernetic Activation
 
 Freeman-side activation surface: [Roman collapse and strong-man return](../../../../../speakers/freeman/themes/roman-collapse-and-strong-man-return.md)
 

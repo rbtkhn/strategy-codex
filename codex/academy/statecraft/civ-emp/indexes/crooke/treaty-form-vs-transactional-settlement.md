@@ -6,7 +6,7 @@ WORK only; not Record.
 
 Provide a `civ-emp` source scaffold for the Crooke theme in which serious settlements require lawful state form, treaty credibility, and sovereignty terms rather than investor brokerage or personality-deal optics.
 
-## Modern Activation
+## Cybernetic Activation
 
 Crooke-side activation surface: [Treaty form vs transactional settlement](../../../../../speakers/crooke/themes/treaty-form-vs-transactional-settlement.md)
 

@@ -30,6 +30,18 @@ Speaker-state continuity that belongs to live statecraft now opens from [statecr
 - Need the current default worked instrument? Open [Hormuz recognition transit transaction](iran/transactions/hormuz-recognition-transit-transaction.md).
 - Need the shared crisis-object fit check? Open [Transaction Router](sheets/transaction-router.md).
 
+## Era Schema
+
+When a live object clearly depends on deep historical periodization, use the preferred background spine:
+
+- `Ancient` -> `476`
+- `Medieval` -> `1453`
+- `Colonial` -> `1815`
+- `Industrial` -> `1945`
+- `Cybernetic` -> `1945-present`
+
+This is a retrieval aid, not a mandatory first-router. Use it when order collapse, inherited period form, deterrence, computation, platform authority, signal management, or systems governance are doing real explanatory work. Canonical doctrine lives in [Power, Truth, Time](civ-emp/power-truth-time-annex.md) and the bounded operator pass lives in [Power, Truth, Time Retrieval Checklist](civ-emp/power-truth-time-retrieval-checklist.md).
+
 Read the stack in this order:
 
 1. [statecraft.md](statecraft.md) to restore the machine

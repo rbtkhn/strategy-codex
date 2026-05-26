@@ -19,7 +19,7 @@ Assume by default:
 
 Do not write China chapters as if legitimacy were merely economic performance or merely nationalist fervor.
 
-## Modern Carriers
+## Cybernetic Carriers
 
 Test these carriers every time:
 

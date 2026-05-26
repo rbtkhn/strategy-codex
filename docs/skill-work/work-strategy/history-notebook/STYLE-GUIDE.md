@@ -23,7 +23,7 @@ Use the **traditional BC / AD** system everywhere in History Notebook prose, tab
 - **Before the common era:** year + **BC** (e.g. `53 BC`, `445 BC`).  
 - **In the common era:** year + **AD** or **AD** + year (e.g. `476 AD`, `AD 476`); for ranges, repeat or mark once as needed (e.g. `476 AD–1453 AD`, `1453 AD–1815 AD`, `1815 AD–1945 AD`).
 
-**Bookshelf era buckets** (shelf / `Shelf` rows): **ancient** through ~476 AD (fall of Rome in the West); **medieval** through ~1453 AD (fall of Constantinople); **colonial** (Vol III) through ~1815 AD (Congress of Vienna); **industrial** (Vol IV) through ~1945 AD; **modern** (Vol V) post-1945 — full rule in [BOOKSHELF-RUNBOOK.md](research/BOOKSHELF-RUNBOOK.md#era-boundaries-bookshelf-rule).
+**Bookshelf era buckets** (shelf / `Shelf` rows): **ancient** through ~476 AD (fall of Rome in the West); **medieval** through ~1453 AD (fall of Constantinople); **colonial** (Vol III) through ~1815 AD (Congress of Vienna); **industrial** (Vol IV) through ~1945 AD; **cybernetic** (Vol V) post-1945 — full rule in [BOOKSHELF-RUNBOOK.md](research/BOOKSHELF-RUNBOOK.md#era-boundaries-bookshelf-rule). `Cybernetic` is preferred over `Digital` because the post-1945 order is defined by deterrence, computation, control systems, signal, and managed interdependence rather than by gadgets alone.
 
 ---
 

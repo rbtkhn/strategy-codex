@@ -6,7 +6,7 @@ WORK only; not Record.
 
 Provide a `civ-emp` source scaffold for the Freeman theme in which durable settlements depend on architecture, trust, and implementation rather than on ceasefire optics alone.
 
-## Modern Activation
+## Cybernetic Activation
 
 Freeman-side activation surface: [Settlement precedent and broken agreement](../../../../../speakers/freeman/themes/settlement-precedent-and-broken-agreement.md)
 

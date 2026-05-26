@@ -45,7 +45,7 @@ Start with [seed-patterns.md](seed-patterns.md). Use [god](god.md), [lit](lit.md
 
 For Russia-specific depth analysis, use the [Russia depth arc](../../sheets/russia-depth-arc.md) to distinguish frontier-depth, symbolic-depth, imperial-depth, space-depth, system-depth, and dependency-depth before turning exposure into recognition language.
 
-Use the [present-day arc extension matrix](../../sheets/present-day-arc-extension-matrix.md) when a Russia read needs to bridge older depth, recognition, encirclement, or system-equilibrium arcs into modern carriers such as energy routing, sanctions resistance, China absorption risk, nuclear warning time, or Black Sea / Baltic / Arctic pressure.
+Use the [present-day arc extension matrix](../../sheets/present-day-arc-extension-matrix.md) when a Russia read needs to bridge older depth, recognition, encirclement, or system-equilibrium arcs into cybernetic carriers such as energy routing, sanctions resistance, China absorption risk, nuclear warning time, or Black Sea / Baltic / Arctic pressure.
 
 Use [civilization objects](objects/) when a recurring authority pattern needs to connect the Russia book surface to current state carriers, diplomatic transmitters, and transaction authority checks. First object: [state memory](objects/state-memory.md), paired with [Russia empire instrument](../empire/seed-instruments.md) as the active phase-one civ/emp opening set, but now operating as supporting strand inputs beneath the [Russia helix](../helix.md).
 

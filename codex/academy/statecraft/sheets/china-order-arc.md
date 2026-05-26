@@ -93,7 +93,7 @@ Use this sheet to sharpen:
 - Order problem:
 - Order form:
 - Historical spine:
-- Modern carrier:
+- Cybernetic carrier:
 - Failure mode:
 - Best face-saving formula:
 - Overreach warning:
@@ -107,4 +107,4 @@ Use this sheet to sharpen:
 
 ## Membrane Rule
 
-If a live read reveals a durable new order form, modern carrier, threshold, or rule, stage it in `china/updates/pending.md` before changing China lane book surfaces.
+If a live read reveals a durable new order form, cybernetic carrier, threshold, or rule, stage it in `china/updates/pending.md` before changing China lane book surfaces.

@@ -74,6 +74,13 @@ Each CIV-EMP source object should be short and usable. It should include:
 - [Arc-conditioned retrieval bridge](../bridges/README.md) - quiet adapter layer for routing speaker-arc claims into disciplined `civ-emp` retrieval.
 - [Migration workspace](migration/README.md) - symmetric-first control plane for moving active statecraft lanes off direct legacy `civ-mem` dependency.
 
+## Orientation Annexes
+
+- [Power, Truth, Time](power-truth-time-annex.md) - higher-order orientation frame for CIV-EMP, plus academic literature review and genealogy linking `civilization / empire`, `faith / science`, and `memory / desire`.
+- [Power, Truth, Time Retrieval Checklist](power-truth-time-retrieval-checklist.md) - bounded operator pass for deciding when a live object is governed mainly by power, truth, or time before lane translation or clause drafting.
+
+The preferred era spine for these orientation surfaces is `Ancient / Medieval / Colonial / Industrial / Cybernetic`, with boundaries at `476 / 1453 / 1815 / 1945`. `Cybernetic` is preferred over `Digital` because the post-1945 order is organized by deterrence, computation, control systems, signal, and managed interdependence rather than by consumer technology alone.
+
 ## Proof Objects
 
 - [Iran: Hormuz Recognition / Transit Restraint](iran/hormuz-recognition-transit-restraint.md) - first proof object showing how CIV-EMP converts Civilization and Empire into an operational source pattern for a live Iran-lane transaction.

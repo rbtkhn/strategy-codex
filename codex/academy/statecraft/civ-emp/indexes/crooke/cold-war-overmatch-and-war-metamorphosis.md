@@ -6,7 +6,7 @@ WORK only; not Record.
 
 Provide a `civ-emp` source scaffold for the Crooke theme in which the late-Cold-War overmatch model became an inherited but increasingly false theory of how war works.
 
-## Modern Activation
+## Cybernetic Activation
 
 Crooke-side activation surface: [Cold War overmatch and war metamorphosis](../../../../../speakers/crooke/themes/cold-war-overmatch-and-war-metamorphosis.md)
 

@@ -6,7 +6,7 @@ WORK only; not Record.
 
 Provide a `civ-emp` source scaffold for the Freeman theme in which republics or empires justify privileged spheres and degrade legitimacy by claiming asymmetrical sovereignty.
 
-## Modern Activation
+## Cybernetic Activation
 
 Freeman-side activation surface: [Monroe Doctrine and hemispheric prerogative](../../../../../speakers/freeman/themes/monroe-doctrine-and-hemispheric-prerogative.md)
 

@@ -8,7 +8,7 @@
 #   title, author: string (author may be "Various" or unknown)
 #   year: optional int or string (publication / composition hint)
 #   isbn: optional string
-#   era: required â€” primary bucket for upload order (ancient | medieval | colonial | industrial | modern)
+#   era: required â€” primary bucket for upload order (ancient | medieval | colonial | industrial | cybernetic)
 #   eras: optional list â€” when a work logically spans multiple buckets, list all that apply; must include era
 #   added_batch: optional string (e.g. 2026-04-18-ancient-a) for traceability
 #   tags: optional list of strings
@@ -25,12 +25,13 @@
 #   place, publisher, edition, series: optional strings â€” imprint / edition (Chicago-style export)
 #   editor, translator: optional strings â€” for build_hn_bookshelf_bibliography.py output
 #
-# Upload order: ancient â†’ medieval â†’ colonial â†’ industrial â†’ modern (see BOOKSHELF-RUNBOOK.md).
+# Upload order: ancient â†’ medieval â†’ colonial â†’ industrial â†’ cybernetic (see BOOKSHELF-RUNBOOK.md).
 # Era "ancient" = through fall of Western Roman Empire (~476 AD); late Roman / fall-of-the-West titles stay ancient.
 # Era "medieval" = post-476 AD formations through fall of Constantinople (~1453 AD); straddles into Vol III use eras/notes.
 # Era "colonial" (Vol III) = post-1453 through ~1815 AD (Congress of Vienna); straddles into Vol IV use eras/notes.
 # Era "industrial" (Vol IV) = post-1815 through ~1945 AD (end of WWII); straddles into Vol V use eras/notes.
-# Ancient / medieval / modern (operator) 2026-04-18: shelf photos â€” Landmark (a); Assyria/Persians (b); Everitt/Goldsworthy/Oxford (c); late Romeâ€“Byzantine (d); Roman livesâ€“empire (e); Everyman Library canons (f); Penguin Clothbound epics (g). Medieval/early modern batches 2026-04-18: shelf-batch-a/b (Europe + Ottoman), batch-c (Weatherford + Khazaria), batch-d (Penguin Clothbound medieval canon). Colonial batches 2026-04-18: colonial-shelf-a (Wilson TYW + dedupe note vs Shelf-0065/0066), b (Voltaire/French Rev), c (US founders), d (Atlantic), e (Library of America), f (Everyman Shakespeare + Enlightenment), g (Russia/Spain/Europe). Industrial/modern fiction + philosophy shelf (batch 2026-04-18-modern-shelf-photos-12): Penguin Clothbound / Everyman's / Little Black Classics / Library of America â€” see Shelf-0129+. Assets: .cursor/projects/.../assets/photo_2026-04-18_11.*â€“12.*.png (incl. 22 files photo_2026-04-18_12.15.*â€“12.17.*).
+# Era "cybernetic" (Vol V) = post-1945 through the present; use for deterrence, computation, control systems, signal, and platform-era order rather than generic "digital" gadget chronology.
+# Ancient / medieval / cybernetic (operator) 2026-04-18: shelf photos â€” Landmark (a); Assyria/Persians (b); Everitt/Goldsworthy/Oxford (c); late Romeâ€“Byzantine (d); Roman livesâ€“empire (e); Everyman Library canons (f); Penguin Clothbound epics (g). Medieval/early modern batches 2026-04-18: shelf-batch-a/b (Europe + Ottoman), batch-c (Weatherford + Khazaria), batch-d (Penguin Clothbound medieval canon). Colonial batches 2026-04-18: colonial-shelf-a (Wilson TYW + dedupe note vs Shelf-0065/0066), b (Voltaire/French Rev), c (US founders), d (Atlantic), e (Library of America), f (Everyman Shakespeare + Enlightenment), g (Russia/Spain/Europe). Industrial/cybernetic fiction + philosophy shelf (batch 2026-04-18-modern-shelf-photos-12): Penguin Clothbound / Everyman's / Little Black Classics / Library of America â€” see Shelf-0129+. Assets: .cursor/projects/.../assets/photo_2026-04-18_11.*â€“12.*.png (incl. 22 files photo_2026-04-18_12.15.*â€“12.17.*).
 # 2026-04-21 shelf photos: US history, Crowley, LOA, Bradbury, Vonnegut, Narnia, etc. â€” Shelf-0241+.
 # Workspace assets (same batch): .cursor/projects/Users-robertkuhne-Documents-grace-mar/assets/photo_2026-04-21_13.15.*.png
 
@@ -324,7 +325,7 @@ items:
     year: 2024
     isbn: "9780802162519"
     publisher: "Grove Press"
-    era: modern
+    era: cybernetic
     added_batch: "2026-04-18-shelf-d-late-antiquity"
     tags: [Iraq, Mesopotamia, Tigris, Euphrates, Middle East]
     hn_volume: vol-v
@@ -1441,7 +1442,7 @@ items:
     isbn: "9780307280510"
     publisher: "Vintage"
     era: industrial
-    eras: [colonial, industrial, modern]
+    eras: [colonial, industrial, cybernetic]
     added_batch: "2026-04-18-colonial-shelf-g-europe-empires"
     tags: [Russia, dynasty, Romanov]
     hn_volume: vol-iv
@@ -1482,7 +1483,7 @@ items:
     isbn: "9780345438317"
     publisher: "Random House Trade Paperbacks"
     era: industrial
-    eras: [industrial, modern]
+    eras: [industrial, cybernetic]
     added_batch: "2026-04-18-colonial-shelf-g-europe-empires"
     tags: [Russia, Romanov, World War I, biography]
     hn_volume: vol-iv
@@ -3438,13 +3439,13 @@ items:
     year: 2015
     isbn: "9781594206532"
     publisher: "Penguin Press"
-    era: modern
+    era: cybernetic
     added_batch: "2026-04-21-bookshelf-photos-2"
     tags: ['America', 'diplomacy', 'Cold War', 'biography', 'Ferguson', 'Kissinger', 'Volume I', 'shelf photo 2026-04-21', '2026-04-21-bookshelf-photos-2']
     primary_arc: america
     hn_volume: vol-v
     candidate_hn_chapters: ['hn-v-america-hegemonic', 'hn-iv-germany']
-    notes: "Publication 2010s; era=modern, vol-v. Volume 2 if purchased laterâ€”add new Shelf."
+    notes: "Publication 2010s; era=cybernetic, vol-v. Volume 2 if purchased laterâ€”add new Shelf."
   - id: Shelf-0266
     title: "A Week, Walden, Maine Woods, Cape Cod"
     author: "Henry David Thoreau"
@@ -3786,7 +3787,7 @@ items:
     isbn: "9780553905045"
     publisher: "Bantam"
     era: industrial
-    eras: [industrial, modern]
+    eras: [industrial, cybernetic]
     added_batch: "2026-04-21-bookshelf-photos-3-partial-spine"
     tags: ['India', 'Britain', 'empire', 'World War', 'decolonization', 'Bantam', 'self-library-bookshelf add from shelf photo', 'shelf photo 2026-04-21']
     primary_arc: anglia
@@ -3822,7 +3823,7 @@ items:
   - id: Shelf-0300
     title: "History of Western Philosophy"
     author: "Bertrand Russell"
-    era: modern
+    era: cybernetic
     added_batch: "2026-05-16-academy-theology-crosswalk"
     tags: [philosophy, intellectual history, Western canon, synthesis]
     hn_volume: vol-v
@@ -3869,7 +3870,7 @@ items:
     title: "The Second World War"
     author: "Winston S. Churchill"
     era: industrial
-    eras: [industrial, modern]
+    eras: [industrial, cybernetic]
     added_batch: "2026-05-16-academy-military"
     tags: [World War II, Britain, Churchill, memoir, grand strategy]
     hn_volume: vol-iv
@@ -3880,8 +3881,8 @@ items:
   - id: Shelf-0305
     title: "A History of the English-Speaking Peoples"
     author: "Winston S. Churchill"
-    era: modern
-    eras: [medieval, colonial, industrial, modern]
+    era: cybernetic
+    eras: [medieval, colonial, industrial, cybernetic]
     added_batch: "2026-05-16-academy-politics"
     tags: [Britain, English-speaking peoples, constitutional history, parliament, empire, liberty, Churchill, political history]
     hn_volume: vol-v

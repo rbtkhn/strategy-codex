@@ -25,7 +25,7 @@ Process the shelf in this **fixed sequence** (batches of **five titles** within 
 2. **medieval**
 3. **colonial** (operator label; maps mainly to early modern / maritimeâ€“colonial themes in Vol III)
 4. **industrial**
-5. **modern**
+5. **cybernetic**
 
 | `era` value | Typical HN volume hint (`hn_volume`) |
 |-------------|--------------------------------------|
@@ -33,7 +33,7 @@ Process the shelf in this **fixed sequence** (batches of **five titles** within 
 | `medieval` | `vol-ii` |
 | `colonial` | `vol-iii` (note cross-straddle to `vol-iv` in `notes` when needed) |
 | `industrial` | `vol-iv` |
-| `modern` | `vol-v` |
+| `cybernetic` | `vol-v` |
 
 **Multiple temporal categories:** When a work **logically belongs** in more than one bucket (e.g. Gibbonâ€™s narrative spans late antiquity and medieval Europe), set **`eras`** to the full list and keep **`era`** as the **primary** bucket (upload order, default shelf file). Example: `era: medieval` + `eras: [ancient, medieval]`. Omit **`eras`** when a single category is enough.
 
@@ -53,9 +53,9 @@ Process the shelf in this **fixed sequence** (batches of **five titles** within 
 
 **`industrial`** (Vol IV) picks up **post-1815** themes for this book; use **`notes`** when a title straddles 1815.
 
-**`industrial` ends with the end of the Second World War** (traditional **1945 AD**), matching [History Notebook Vol IV](../README.md) (1815 ADâ€“1945 AD). Works whose narrative crosses into the **modern** order (Cold War, decolonization, post-1945 institutions) may use **`eras: [industrial, modern]`** (or **`notes`**) â€” pick primary **`era`** for shelf sort.
+**`industrial` ends with the end of the Second World War** (traditional **1945 AD**), matching [History Notebook Vol IV](../README.md) (1815 ADâ€“1945 AD). Works whose narrative crosses into the **cybernetic** order (Cold War, deterrence, decolonization, post-1945 institutions, platform and information systems) may use **`eras: [industrial, cybernetic]`** (or **`notes`**) â€” pick primary **`era`** for shelf sort.
 
-**`modern`** (Vol V) picks up **post-1945** themes for this book; use **`notes`** when a title straddles 1945.
+**`cybernetic`** (Vol V) picks up **post-1945** themes for this book; use **`notes`** when a title straddles 1945. `Cybernetic` is preferred over `Digital` because the age is organized less by production alone than by deterrence, computation, control systems, signal, and managed interdependence.
 
 If a title straddles (e.g. one volume covers 400â€“600 AD, or 1400â€“1500 AD across 1453, or 1750â€“1850 AD across 1815, or 1930â€“1960 AD across 1945), set **`eras`** when multiple buckets apply; use **`notes`** for nuance; pick one **`era`** as primary for batch/sort, or split editions later.
 

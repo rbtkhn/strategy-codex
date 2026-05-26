@@ -6,7 +6,7 @@ WORK only; not Record.
 
 Provide a `civ-emp` source scaffold for the Crooke theme in which bounded political war gives way to permanent-security and redemptive war logic.
 
-## Modern Activation
+## Cybernetic Activation
 
 Crooke-side activation surface: [Ben-Gurion, Clausewitz, and redemptive permanent war](../../../../speakers/crooke/themes/ben-gurion-clausewitz-and-redemptive-permanent-war.md)
 

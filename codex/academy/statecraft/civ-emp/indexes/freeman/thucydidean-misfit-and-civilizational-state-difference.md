@@ -6,7 +6,7 @@ WORK only; not Record.
 
 Provide a `civ-emp` source scaffold for the Freeman theme in which imported great-power models fail because civilizational form and state continuity differ.
 
-## Modern Activation
+## Cybernetic Activation
 
 Freeman-side activation surface: [Thucydidean misfit and civilizational-state difference](../../../../../speakers/freeman/themes/thucydidean-misfit-and-civilizational-state-difference.md)
 

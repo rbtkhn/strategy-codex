@@ -6,7 +6,7 @@ WORK only; not Record.
 
 Provide a thin `civ-emp` scaffold for the Mercouris theme in which older regional or imperial residues reappear during legitimacy crisis and bloc fracture.
 
-## Modern Activation
+## Cybernetic Activation
 
 Mercouris-side activation surface: [Habsburg residue and European legitimacy fracture](../../../../speakers/mercouris/themes/habsburg-residue-and-european-legitimacy-fracture.md)
 

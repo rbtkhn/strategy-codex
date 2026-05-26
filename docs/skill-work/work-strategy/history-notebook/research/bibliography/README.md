@@ -6,7 +6,7 @@ Markdown files in this directory are **generated** from [../bookshelf-catalog.ya
 
 | File | Use |
 |------|-----|
-| [REFERENCES-shelf-by-era.md](REFERENCES-shelf-by-era.md) | All shelf rows grouped by `era` (ancient → modern) |
+| [REFERENCES-shelf-by-era.md](REFERENCES-shelf-by-era.md) | All shelf rows grouped by `era` (ancient → cybernetic) |
 | [REFERENCES-shelf-by-shelf-id.md](REFERENCES-shelf-by-shelf-id.md) | Same entries, sorted by `Shelf-NNNN` |
 
 **Regenerate:** `python3 scripts/build_hn_bookshelf_bibliography.py`  

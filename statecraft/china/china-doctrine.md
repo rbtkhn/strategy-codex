@@ -22,7 +22,7 @@ China is therefore best understood as a **Confucian-Legalist civilizational stat
 
 Buddhism is secondary but real. It matters as an inherited civilizational layer and part of China's moral atmosphere, but it should not outrank Confucian-Legalist order in explaining the lane's main statecraft logic.
 
-## Continuity and Modern Carriers
+## Continuity and Cybernetic Carriers
 
 The strongest signal of deep Chinese continuity is **administrative carry**. Dynasties matter, humiliation memory matters, ritual matters, and sovereignty doctrine matters. But the most durable continuity signal is that Chinese legitimacy keeps returning to the same practical test: can authority unify, classify, provision, standardize, absorb shocks, and keep outside coercion from dictating internal order?
 

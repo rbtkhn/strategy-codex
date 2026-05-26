@@ -48,7 +48,7 @@ What this bench does not own:
 14. [Pape coercive-center index](pape-coercive-center-index.md) - Track great-power ranking by crisis leverage rather than size alone.
 15. [Mearsheimer structural-realist scoreboard](mearsheimer-structural-realist-scoreboard.md) - Track structural power, balancing pressure, overextension risk, institutional carrier, and restraint.
 16. [Hexagon arc-lens stress test](hexagon-arc-lens-stress-test.md) - Run `god`, `lit`, `art`, `geo`, `war`, and `peace` as a six-lens diagnostic before drafting or patching an instrument.
-17. [Present-day arc extension matrix](present-day-arc-extension-matrix.md) - Extend deep America, Russia, China, and Iran arcs into modern carriers for `hex`, current-event, transaction, and recursive-candidate reads.
+17. [Present-day arc extension matrix](present-day-arc-extension-matrix.md) - Extend deep America, Russia, China, and Iran arcs into cybernetic carriers for `hex`, current-event, transaction, and recursive-candidate reads.
 18. [Mutation statecraft](mutation-statecraft.md) - Detect when a familiar object changes function under pressure: alliance to lattice, trade to dependency, deterrence to escalation platform, recognition to humiliation trap, or republic to emergency empire.
 19. [Russia depth arc](russia-depth-arc.md) - Test frontier-depth, symbolic-depth, imperial-depth, space-depth, system-depth, and dependency-depth when a Russia read invokes exposure, recognition, encirclement, or equilibrium.
 20. [China order arc](china-order-arc.md) - Test mandate-order, standardization-order, hydraulic-order, fragmentation-memory, development-order, party-state-order, and compute-order when a China read invokes order, unity, routes, implementation, or disorder.
@@ -135,7 +135,7 @@ Open [hexagon arc-lens stress test](hexagon-arc-lens-stress-test.md) when a cris
 
 ### Present-Day Arc Extension Matrix
 
-Open [present-day arc extension matrix](present-day-arc-extension-matrix.md) when a live read needs to name the modern carrier of an older civilization arc before routing to `hex`, a transaction object, or a recursive candidate.
+Open [present-day arc extension matrix](present-day-arc-extension-matrix.md) when a live read needs to name the cybernetic carrier of an older civilization arc before routing to `hex`, a transaction object, or a recursive candidate.
 
 ### Mutation Statecraft
 

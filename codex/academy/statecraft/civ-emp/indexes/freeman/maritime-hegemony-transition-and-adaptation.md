@@ -6,7 +6,7 @@ WORK only; not Record.
 
 Provide a `civ-emp` source scaffold for the Freeman theme in which maritime dominance passes historically, chokepoints become bargaining systems, and infrastructure adaptation weakens stale sea-control assumptions.
 
-## Modern Activation
+## Cybernetic Activation
 
 Freeman-side activation surface: [Maritime hegemony transition and adaptation](../../../../../speakers/freeman/themes/maritime-hegemony-transition-and-adaptation.md)
 

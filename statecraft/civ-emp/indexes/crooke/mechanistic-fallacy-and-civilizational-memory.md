@@ -6,7 +6,7 @@ WORK only; not Record.
 
 Provide a `civ-emp` source scaffold for the Crooke theme in which strategic actors misread the world by treating living civilizational or imperial memory as though it were inert material responsive only to pressure.
 
-## Modern Activation
+## Cybernetic Activation
 
 Crooke-side activation surface: [Mechanistic fallacy and civilizational memory](../../../../speakers/crooke/themes/mechanistic-fallacy-and-civilizational-memory.md)
 

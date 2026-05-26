@@ -6,7 +6,7 @@ WORK only; not Record.
 
 Provide a `civ-emp` source scaffold for the Mercouris theme in which false sequencing destroys trust and later negotiations return under harsher military conditions.
 
-## Modern Activation
+## Cybernetic Activation
 
 Mercouris-side activation surface: [Broken settlement, Minsk, and Istanbul sequencing](../../../../speakers/mercouris/themes/broken-settlement-minsk-and-istanbul-sequencing.md)
 

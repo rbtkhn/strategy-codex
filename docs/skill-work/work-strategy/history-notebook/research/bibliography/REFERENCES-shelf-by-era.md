@@ -326,7 +326,7 @@ Regenerate: `python3 scripts/build_hn_bookshelf_bibliography.py`
 - William Shakespeare. n.d. *The Sonnets and A Lover's Complaint*. `Shelf-0129`
 - Winston S. Churchill. n.d. *The Second World War*. `Shelf-0304`
 
-### Modern (Vol V–style bucket) (`modern`)
+### Cybernetic (Vol V-style bucket) (`cybernetic`)
 
 - Bartle Bull. 2024. *Land Between the Rivers*. Grove Press. ISBN 9780802162519. `Shelf-0025`
 - Bertrand Russell. n.d. *History of Western Philosophy*. `Shelf-0300`

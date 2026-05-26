@@ -6,7 +6,7 @@ WORK only; not Record.
 
 Provide a `civ-emp` source scaffold for the Mercouris theme in which conference memory, myth, and exclusion anxiety shape how secondary powers react to direct great-power bargaining.
 
-## Modern Activation
+## Cybernetic Activation
 
 Mercouris-side activation surface: [Yalta myth and European exclusion anxiety](../../../../speakers/mercouris/themes/yalta-myth-and-european-exclusion-anxiety.md)
 

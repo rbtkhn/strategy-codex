@@ -6,7 +6,7 @@ WORK only; not Record.
 
 Provide a `civ-emp` source scaffold for the Mercouris theme in which postwar coexistence may require regional non-aggression architecture rather than continued hegemonic coercion.
 
-## Modern Activation
+## Cybernetic Activation
 
 Mercouris-side activation surface: [Helsinki process and post-hegemonic security architecture](../../../../speakers/mercouris/themes/helsinki-process-and-post-hegemonic-security-architecture.md)
 

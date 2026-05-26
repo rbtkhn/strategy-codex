@@ -6,7 +6,7 @@ WORK only; not Record.
 
 Provide a `civ-emp` source scaffold for the Mercouris theme in which dangerous rivals still require contact channels, remembered escalation boundaries, and treaty-shaped deterrence literacy.
 
-## Modern Activation
+## Cybernetic Activation
 
 Mercouris-side activation surface: [Cold War contact, deterrence, and arms-control inheritance](../../../../../speakers/mercouris/themes/cold-war-contact-deterrence-and-arms-control-inheritance.md)
 

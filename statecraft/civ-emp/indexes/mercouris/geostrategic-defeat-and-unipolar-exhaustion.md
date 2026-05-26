@@ -6,7 +6,7 @@ WORK only; not Record.
 
 Provide a `civ-emp` source scaffold for the Mercouris theme in which a conflict outcome reverses the prestige and self-understanding of a hegemon rather than simply imposing local battlefield loss.
 
-## Modern Activation
+## Cybernetic Activation
 
 Mercouris-side activation surface: [Geostrategic defeat and unipolar exhaustion](../../../../speakers/mercouris/themes/geostrategic-defeat-and-unipolar-exhaustion.md)
 

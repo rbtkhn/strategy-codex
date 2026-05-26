@@ -6,7 +6,7 @@ WORK only; not Record.
 
 Provide a `civ-emp` source scaffold for the Freeman theme in which coercion, bombardment, or battlefield punishment fail to convert automatically into recognized order or durable settlement.
 
-## Modern Activation
+## Cybernetic Activation
 
 Freeman-side activation surface: [Bombing is not political success](../../../../../speakers/freeman/themes/bombing-is-not-political-success.md)
 

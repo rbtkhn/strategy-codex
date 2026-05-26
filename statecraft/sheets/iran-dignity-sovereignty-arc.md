@@ -73,7 +73,7 @@ Use this sheet to sharpen:
 - Dignity object:
 - Dignity form:
 - Historical spine:
-- Modern carrier:
+- Cybernetic carrier:
 - Failure mode:
 - Best dignity-preserving formula:
 - Overreach warning:
@@ -87,4 +87,4 @@ Use this sheet to sharpen:
 
 ## Membrane Rule
 
-If a live read reveals a durable new dignity form, sanctions sequence, verification rule, modern carrier, or failure threshold, stage it in `iran/updates/pending.md` before changing Iran lane book surfaces.
+If a live read reveals a durable new dignity form, sanctions sequence, verification rule, cybernetic carrier, or failure threshold, stage it in `iran/updates/pending.md` before changing Iran lane book surfaces.
