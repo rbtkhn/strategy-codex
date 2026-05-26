@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Read-only Strategy-codex return hint for explicit strategy/source return.
 
-This helper inspects the canonical Strategy-codex inbox/raw-input surfaces and
+This helper inspects the canonical Strategy-codex inbox/source-archive surfaces and
 returns a compact re-entry hint. It does not compose notebook prose, fetch
 sources, or mutate any files.
 """
@@ -19,9 +19,9 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 CODEX_ROOT = REPO_ROOT / "codex"
 DEFAULT_INBOX = CODEX_ROOT / "daily-strategy-inbox.md"
 DEFAULT_STATUS = CODEX_ROOT / "STATUS.md"
-DEFAULT_RAW_ROOT = CODEX_ROOT / "years" / "2026" / "raw-input"
+DEFAULT_RAW_ROOT = REPO_ROOT / "source-archive" / "statecraft"
 RE_URL = re.compile(r"https://[^\s\]>)}]+")
-RE_RAW_INPUT_MD = re.compile(r"raw-input/[^\s\])]+\.md")
+RE_RAW_INPUT_MD = re.compile(r"(?:raw-input|provenance|source-archive/statecraft)/[^\s\])]+\.md")
 
 APPEND_MARKERS = (
     "_(Append below this line during the day.)_",
@@ -52,7 +52,7 @@ class StrategyReturnHint:
             (
                 "- Inbox triage: "
                 f"ready={self.ready}, verify={self.verify}, "
-                f"raw-input gap={self.raw_input_gap}, carry={self.carry}{chapter_tail}"
+                f"source-archive gap={self.raw_input_gap}, carry={self.carry}{chapter_tail}"
             ),
             f"- Suggested strategy move: {self.suggested_move}",
             "",
@@ -154,7 +154,7 @@ def source_urls_from_raw(raw_root: Path) -> set[str]:
 
 
 def raw_input_pointer_rows(live_text: str) -> set[str]:
-    """Rows that already point at a raw-input markdown file."""
+    """Rows that already point at a source markdown file."""
     out: set[str] = set()
     for raw_line in live_text.splitlines():
         line = raw_line.strip()
@@ -242,7 +242,7 @@ def compress_line(line: str, max_len: int = 180) -> str:
 
 def suggested_c_move(*, raw_input_gap: int, verify: int, ready: int) -> str:
     if raw_input_gap:
-        return "source hygiene first - close raw-input gaps before composing."
+        return "source hygiene first - close source-archive gaps before composing."
     if verify:
         return "verify seam first - resolve source/claim status before synthesis."
     if ready:
@@ -258,7 +258,7 @@ def build_strategy_return_hint(
     status_path: Path | None = None,
 ) -> StrategyReturnHint:
     inbox = inbox_path or repo_root / "codex" / "daily-strategy-inbox.md"
-    raw = raw_root or repo_root / "codex" / "years" / "2026" / "raw-input"
+    raw = raw_root or repo_root / "source-archive" / "statecraft"
     status = status_path or repo_root / "codex" / "STATUS.md"
 
     live_text = live_accumulator_text(read_text(inbox))

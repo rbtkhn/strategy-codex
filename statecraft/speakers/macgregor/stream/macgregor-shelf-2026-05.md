@@ -8,9 +8,9 @@ Month status: `support-only month`
 
 ## May index
 
-- [transcript-davis-macgregor-project-freedom-hormuz-2026-05-05.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-05/transcript-davis-macgregor-project-freedom-hormuz-2026-05-05.md)
+- [transcript-davis-macgregor-project-freedom-hormuz-2026-05-05.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-05/transcript-davis-macgregor-project-freedom-hormuz-2026-05-05.md)
   - Davis lane centers Hormuz and practical severity.
-- [youtube-daniel-davis-deep-dive-col-doug-macgregor-trump-visits-china-2026-05-12.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-12/youtube-daniel-davis-deep-dive-col-doug-macgregor-trump-visits-china-2026-05-12.md)
+- [youtube-daniel-davis-deep-dive-col-doug-macgregor-trump-visits-china-2026-05-12.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-12/youtube-daniel-davis-deep-dive-col-doug-macgregor-trump-visits-china-2026-05-12.md)
   - Davis lane extends the same practical-severity and geopolitical-cost register.
 
 ## Reading note

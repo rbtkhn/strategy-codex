@@ -44,8 +44,8 @@ rg -n "JD Vance|J\\.D\\. Vance|Vance|Vice President Vance|J D Vance" codex/years
 Snapshot from the first object pass:
 
 - `codex/years` contains 202 local files with a Vance match.
-- `codex/years/2026/raw-input` contains 175 local files with a Vance match.
-- `codex/years/2026/raw-input` contains 639 matching lines.
+- `source-archive/statecraft` contains 175 local files with a Vance match.
+- `source-archive/statecraft` contains 639 matching lines.
 
 Treat these counts as a refreshable search snapshot, not as a fixed source set.
 
@@ -66,13 +66,13 @@ When a new Vance hit appears, classify it before using it:
 
 Use these as starting surfaces, not an exhaustive set:
 
-- **Mercouris / Vance-Colby-Pentagon skepticism on Ukraine:** [2026-01-02 Mercouris](../../../../../years/2026/raw-input/2026-01-02/youtube-alex-mercouris-zelensky-sidelined-budanov-named-no-2-cia-role-in-drone-strikes-confirme-2026-01-02.cleaned.md)
-- **Barnes / Vance as geopolitical-realist and domestic-populist carrier:** [2026-01-13 Mercouris / Barnes](../../../../../years/2026/raw-input/2026-01-13/transcript-mercouris-barnes-regime-change-escalator-2026-01-13.md)
-- **Diesen / Davis / Iran trust problem:** [2026-02-07 Davis / Diesen](../../../../../years/2026/raw-input/2026-02-07/transcript-davis-diesen-iran-knife-edge-2026-02-07.md)
-- **Ritter / Hormuz negotiation exposure:** [2026-02-18 Dialogue Works / Ritter](../../../../../years/2026/raw-input/2026-02-18/transcript-dialogue-works-scott-ritter-hormuz-blocked-iran-s-missile-fire-can-leave-the-us-navy-de-2026-02-18.md)
-- **Mercouris / Vance-Netanyahu tense call and Iran exit role:** [2026-03-28 Mercouris](../../../../../years/2026/raw-input/2026-03-28/youtube-alex-mercouris-houthis-join-war-strike-israel-medvedev-warns-big-nuclear-risks-massive-2026-03-28.md)
-- **Jiang / Vance and Europe-civilization pressure:** [2026-01-05 Diesen / Jiang](../../../../../years/2026/raw-input/2026-01-05/transcript-diesen-jiang-predictions-2026-empire-rivalry-collapse-2026-01-05.md)
-- **Freeman / Vance reads briefings and asks questions:** [2025-05-31 Diesen / Freeman](../../../../../years/2026/raw-input/2025-05-31/youtube-glenn-diesen-chas-freeman-the-collapse-of-american-diplomacy-2025-05-31.md)
+- **Mercouris / Vance-Colby-Pentagon skepticism on Ukraine:** [2026-01-02 Mercouris](../../../../../years/2026/provenance/2026-01-02/youtube-alex-mercouris-zelensky-sidelined-budanov-named-no-2-cia-role-in-drone-strikes-confirme-2026-01-02.cleaned.md)
+- **Barnes / Vance as geopolitical-realist and domestic-populist carrier:** [2026-01-13 Mercouris / Barnes](../../../../../years/2026/provenance/2026-01-13/transcript-mercouris-barnes-regime-change-escalator-2026-01-13.md)
+- **Diesen / Davis / Iran trust problem:** [2026-02-07 Davis / Diesen](../../../../../years/2026/provenance/2026-02-07/transcript-davis-diesen-iran-knife-edge-2026-02-07.md)
+- **Ritter / Hormuz negotiation exposure:** [2026-02-18 Dialogue Works / Ritter](../../../../../years/2026/provenance/2026-02-18/transcript-dialogue-works-scott-ritter-hormuz-blocked-iran-s-missile-fire-can-leave-the-us-navy-de-2026-02-18.md)
+- **Mercouris / Vance-Netanyahu tense call and Iran exit role:** [2026-03-28 Mercouris](../../../../../years/2026/provenance/2026-03-28/youtube-alex-mercouris-houthis-join-war-strike-israel-medvedev-warns-big-nuclear-risks-massive-2026-03-28.md)
+- **Jiang / Vance and Europe-civilization pressure:** [2026-01-05 Diesen / Jiang](../../../../../years/2026/provenance/2026-01-05/transcript-diesen-jiang-predictions-2026-empire-rivalry-collapse-2026-01-05.md)
+- **Freeman / Vance reads briefings and asks questions:** [2025-05-31 Diesen / Freeman](../../../../../years/2026/provenance/2025-05-31/youtube-glenn-diesen-chas-freeman-the-collapse-of-american-diplomacy-2025-05-31.md)
 
 ## Statecraft Uses
 

@@ -32,7 +32,7 @@ Short constitutional split:
 
 - lane judgment
 - transaction authority
-- raw-input itself
+- provenance itself
 - silent `civ-emp` mutation
 
 Speaker-state continuity lives here. Bridge adapters still live in [statecraft/bridges/](../bridges/), `civ-emp` still owns retrieval memory, and lanes still own substantive drafting.
@@ -41,12 +41,12 @@ Transcript-first evidence, arc-first interpretation.
 
 When live statecraft work names a speaker or needs speaker-grounded analysis, use this routing order unless the speaker's object shape explicitly says otherwise:
 
-1. open the strongest available actual transcript or transcript-bearing raw-input
+1. open the strongest available actual transcript or transcript-bearing provenance capture
 2. extend through the transcript-derived host-local arc when the task needs host-conditioned interpretation
 3. extend through routing notes, helixes, support spines, or month-support synthesis only after the transcript and host-arc layer
 4. preserve the seam between transcript-backed and synthesized claims whenever analysis extends beyond transcript truth
 
-Derived speaker arcs are interpretive routing surfaces downstream of transcript/raw-input, not substitutes for transcript authority.
+Derived speaker arcs are interpretive routing surfaces downstream of transcript/provenance, not substitutes for transcript authority.
 
 Carveout rule: transcript-first is the default for transcript-bearing relational arcs and transcript-backed routing notes. Authored-first, stream-native, profile-only, or mixed-provenance speakers should state their carveout explicitly and keep the first-open surface that matches the real shelf shape.
 
@@ -65,7 +65,7 @@ During migration:
 - live authority should move here
 - bridge adapters stay in [statecraft/bridges/](../bridges/)
 - lane judgment stays in lanes
-- raw-input stays outside speaker folders
+- provenance stays outside speaker folders
 
 ## Normalized 2026 Shelf Level
 
@@ -135,7 +135,7 @@ For these shelves:
 
 - support spine owns the maturity explanation
 - routing owns first-open discipline
-- raw-input bench and host-local arcs remain the real month-entry layer
+- provenance bench and host-local arcs remain the real month-entry layer
 - migration should not proceed by symmetry alone
 
 Current deliberate case:

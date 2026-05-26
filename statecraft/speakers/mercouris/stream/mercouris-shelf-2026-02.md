@@ -18,35 +18,35 @@ February matters because it carries a visible phase transition inside the native
 
 ## February bridge index
 
-- [youtube-alex-mercouris-russia-furious-as-kiev-tries-to-kill-deputy-of-russia-s-chief-negotiator-2026-02-06](../../../years/2026/raw-input/2026-02-06/youtube-alex-mercouris-russia-furious-as-kiev-tries-to-kill-deputy-of-russia-s-chief-negotiator-2026-02-06.md)
+- [youtube-alex-mercouris-russia-furious-as-kiev-tries-to-kill-deputy-of-russia-s-chief-negotiator-2026-02-06](../../../years/2026/provenance/2026-02-06/youtube-alex-mercouris-russia-furious-as-kiev-tries-to-kill-deputy-of-russia-s-chief-negotiator-2026-02-06.md)
   - Dirty-war escalation enters the diplomatic sequence directly.
-- [youtube-alex-mercouris-russia-knocks-out-kiev-s-nuclear-power-zelensky-panics-blames-ukraine-ad-2026-02-07](../../../years/2026/raw-input/2026-02-07/youtube-alex-mercouris-russia-knocks-out-kiev-s-nuclear-power-zelensky-panics-blames-ukraine-ad-2026-02-07.md)
+- [youtube-alex-mercouris-russia-knocks-out-kiev-s-nuclear-power-zelensky-panics-blames-ukraine-ad-2026-02-07](../../../years/2026/provenance/2026-02-07/youtube-alex-mercouris-russia-knocks-out-kiev-s-nuclear-power-zelensky-panics-blames-ukraine-ad-2026-02-07.md)
   - Energy-system collapse becomes part of the main strategic read.
-- [youtube-alex-mercouris-russia-alexeyev-gunman-kiev-agent-energy-crisis-zelensky-rages-blames-of-2026-02-08](../../../years/2026/raw-input/2026-02-08/youtube-alex-mercouris-russia-alexeyev-gunman-kiev-agent-energy-crisis-zelensky-rages-blames-of-2026-02-08.md)
+- [youtube-alex-mercouris-russia-alexeyev-gunman-kiev-agent-energy-crisis-zelensky-rages-blames-of-2026-02-08](../../../years/2026/provenance/2026-02-08/youtube-alex-mercouris-russia-alexeyev-gunman-kiev-agent-energy-crisis-zelensky-rages-blames-of-2026-02-08.md)
   - Full transcript-grade bridge anchor: Alexeyev attempt, Abu Dhabi hardening, and urban energy breakdown held together in one sequence.
-- [youtube-alex-mercouris-russia-strike-coming-zelensky-rejects-election-call-eu-again-eyes-russia-2026-02-11](../../../years/2026/raw-input/2026-02-11/youtube-alex-mercouris-russia-strike-coming-zelensky-rejects-election-call-eu-again-eyes-russia-2026-02-11.md)
+- [youtube-alex-mercouris-russia-strike-coming-zelensky-rejects-election-call-eu-again-eyes-russia-2026-02-11](../../../years/2026/provenance/2026-02-11/youtube-alex-mercouris-russia-strike-coming-zelensky-rejects-election-call-eu-again-eyes-russia-2026-02-11.md)
   - Escalation pressure and Europe-side rhetoric continue to tighten.
-- [youtube-alex-mercouris-russia-china-rush-military-aid-to-iran-trump-backs-off-argues-with-netan-2026-02-12](../../../years/2026/raw-input/2026-02-12/youtube-alex-mercouris-russia-china-rush-military-aid-to-iran-trump-backs-off-argues-with-netan-2026-02-12.md)
+- [youtube-alex-mercouris-russia-china-rush-military-aid-to-iran-trump-backs-off-argues-with-netan-2026-02-12](../../../years/2026/provenance/2026-02-12/youtube-alex-mercouris-russia-china-rush-military-aid-to-iran-trump-backs-off-argues-with-netan-2026-02-12.md)
   - Iran theater thickens and starts coupling more directly to the wider stream.
-- [youtube-alex-mercouris-russia-china-defy-us-china-offers-iran-j20-fighter-spy-ship-tracks-us-fl-2026-02-13](../../../years/2026/raw-input/2026-02-13/youtube-alex-mercouris-russia-china-defy-us-china-offers-iran-j20-fighter-spy-ship-tracks-us-fl-2026-02-13.md)
+- [youtube-alex-mercouris-russia-china-defy-us-china-offers-iran-j20-fighter-spy-ship-tracks-us-fl-2026-02-13](../../../years/2026/provenance/2026-02-13/youtube-alex-mercouris-russia-china-defy-us-china-offers-iran-j20-fighter-spy-ship-tracks-us-fl-2026-02-13.md)
   - Alternative-room and escalation-coupling logic become more explicit.
-- [youtube-alex-mercouris-kiev-trembles-ahead-oreshnik-strike-russia-china-together-back-iran-cuba-2026-02-14](../../../years/2026/raw-input/2026-02-14/youtube-alex-mercouris-kiev-trembles-ahead-oreshnik-strike-russia-china-together-back-iran-cuba-2026-02-14.md)
+- [youtube-alex-mercouris-kiev-trembles-ahead-oreshnik-strike-russia-china-together-back-iran-cuba-2026-02-14](../../../years/2026/provenance/2026-02-14/youtube-alex-mercouris-kiev-trembles-ahead-oreshnik-strike-russia-china-together-back-iran-cuba-2026-02-14.md)
   - Full transcript-grade bridge anchor: Oreshnik fear, Europe war rhetoric, and Russia-China-Iran-Cuba coupling.
-- [youtube-alex-mercouris-moscow-ridicules-uk-navalny-frog-poison-claim-gerasimov-talks-dnepro-off-2026-02-15](../../../years/2026/raw-input/2026-02-15/youtube-alex-mercouris-moscow-ridicules-uk-navalny-frog-poison-claim-gerasimov-talks-dnepro-off-2026-02-15.md)
+- [youtube-alex-mercouris-moscow-ridicules-uk-navalny-frog-poison-claim-gerasimov-talks-dnepro-off-2026-02-15](../../../years/2026/provenance/2026-02-15/youtube-alex-mercouris-moscow-ridicules-uk-navalny-frog-poison-claim-gerasimov-talks-dnepro-off-2026-02-15.md)
   - Full transcript-grade bridge anchor: hardening Russia line, war-preparation logic, and widening confrontation.
-- [youtube-alex-mercouris-uk-shock-as-andrew-arrested-russian-chinese-warships-join-iran-navy-medi-2026-02-19](../../../years/2026/raw-input/2026-02-19/youtube-alex-mercouris-uk-shock-as-andrew-arrested-russian-chinese-warships-join-iran-navy-medi-2026-02-19.md)
+- [youtube-alex-mercouris-uk-shock-as-andrew-arrested-russian-chinese-warships-join-iran-navy-medi-2026-02-19](../../../years/2026/provenance/2026-02-19/youtube-alex-mercouris-uk-shock-as-andrew-arrested-russian-chinese-warships-join-iran-navy-medi-2026-02-19.md)
   - Full transcript-grade bridge anchor: UK internal crisis, Medinsky hardening, and visible fusion of theaters.
-- [youtube-alex-mercouris-putin-orders-medinsky-tough-line-zelensky-meltdown-wants-3-year-war-kiev-2026-02-21](../../../years/2026/raw-input/2026-02-21/youtube-alex-mercouris-putin-orders-medinsky-tough-line-zelensky-meltdown-wants-3-year-war-kiev-2026-02-21.md)
+- [youtube-alex-mercouris-putin-orders-medinsky-tough-line-zelensky-meltdown-wants-3-year-war-kiev-2026-02-21](../../../years/2026/provenance/2026-02-21/youtube-alex-mercouris-putin-orders-medinsky-tough-line-zelensky-meltdown-wants-3-year-war-kiev-2026-02-21.md)
   - Late-month hardening sequence becomes explicit.
-- [youtube-alex-mercouris-zelensky-coup-fears-kiev-crisis-restarts-moscow-blames-uk-for-alexeyev-h-2026-02-22](../../../years/2026/raw-input/2026-02-22/youtube-alex-mercouris-zelensky-coup-fears-kiev-crisis-restarts-moscow-blames-uk-for-alexeyev-h-2026-02-22.md)
+- [youtube-alex-mercouris-zelensky-coup-fears-kiev-crisis-restarts-moscow-blames-uk-for-alexeyev-h-2026-02-22](../../../years/2026/provenance/2026-02-22/youtube-alex-mercouris-zelensky-coup-fears-kiev-crisis-restarts-moscow-blames-uk-for-alexeyev-h-2026-02-22.md)
   - Internal-fragility and escalation sequence continue to compound.
-- [youtube-alex-mercouris-iran-debacle-us-military-intel-chiefs-doubt-success-russia-nato-naval-wa-2026-02-23](../../../years/2026/raw-input/2026-02-23/youtube-alex-mercouris-iran-debacle-us-military-intel-chiefs-doubt-success-russia-nato-naval-wa-2026-02-23.md)
+- [youtube-alex-mercouris-iran-debacle-us-military-intel-chiefs-doubt-success-russia-nato-naval-wa-2026-02-23](../../../years/2026/provenance/2026-02-23/youtube-alex-mercouris-iran-debacle-us-military-intel-chiefs-doubt-success-russia-nato-naval-wa-2026-02-23.md)
   - Systemic war-read starts to dominate.
-- [youtube-alex-mercouris-medvedev-wants-kiev-moscow-uk-france-plot-giving-kiev-nuke-slaviansk-tru-2026-02-24](../../../years/2026/raw-input/2026-02-24/youtube-alex-mercouris-medvedev-wants-kiev-moscow-uk-france-plot-giving-kiev-nuke-slaviansk-tru-2026-02-24.md)
-- [youtube-alex-mercouris-putin-says-kiev-plans-black-sea-pipeline-attack-gives-west-nuclear-warni-2026-02-25](../../../years/2026/raw-input/2026-02-25/youtube-alex-mercouris-putin-says-kiev-plans-black-sea-pipeline-attack-gives-west-nuclear-warni-2026-02-25.md)
-- [youtube-alex-mercouris-kiev-fortifying-odessa-as-zaporozhzhia-counter-attack-fails-desperate-ze-2026-02-26](../../../years/2026/raw-input/2026-02-26/youtube-alex-mercouris-kiev-fortifying-odessa-as-zaporozhzhia-counter-attack-fails-desperate-ze-2026-02-26.md)
-- [mercouris-us-iran-geneva-embassies-konstantinovka-uk-2026-02-27](../../../years/2026/raw-input/2026-02-27/mercouris-us-iran-geneva-embassies-konstantinovka-uk-2026-02-27.md)
-- [youtube-alex-mercouris-iran-strikes-back-hits-us-bases-across-mideast-after-us-israel-strikes-t-2026-02-28](../../../years/2026/raw-input/2026-02-28/youtube-alex-mercouris-iran-strikes-back-hits-us-bases-across-mideast-after-us-israel-strikes-t-2026-02-28.md)
+- [youtube-alex-mercouris-medvedev-wants-kiev-moscow-uk-france-plot-giving-kiev-nuke-slaviansk-tru-2026-02-24](../../../years/2026/provenance/2026-02-24/youtube-alex-mercouris-medvedev-wants-kiev-moscow-uk-france-plot-giving-kiev-nuke-slaviansk-tru-2026-02-24.md)
+- [youtube-alex-mercouris-putin-says-kiev-plans-black-sea-pipeline-attack-gives-west-nuclear-warni-2026-02-25](../../../years/2026/provenance/2026-02-25/youtube-alex-mercouris-putin-says-kiev-plans-black-sea-pipeline-attack-gives-west-nuclear-warni-2026-02-25.md)
+- [youtube-alex-mercouris-kiev-fortifying-odessa-as-zaporozhzhia-counter-attack-fails-desperate-ze-2026-02-26](../../../years/2026/provenance/2026-02-26/youtube-alex-mercouris-kiev-fortifying-odessa-as-zaporozhzhia-counter-attack-fails-desperate-ze-2026-02-26.md)
+- [mercouris-us-iran-geneva-embassies-konstantinovka-uk-2026-02-27](../../../years/2026/provenance/2026-02-27/mercouris-us-iran-geneva-embassies-konstantinovka-uk-2026-02-27.md)
+- [youtube-alex-mercouris-iran-strikes-back-hits-us-bases-across-mideast-after-us-israel-strikes-t-2026-02-28](../../../years/2026/provenance/2026-02-28/youtube-alex-mercouris-iran-strikes-back-hits-us-bases-across-mideast-after-us-israel-strikes-t-2026-02-28.md)
 
 ## Reading note
 

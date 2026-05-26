@@ -8,9 +8,9 @@ March is the bridge month where Johnson stops being just a recurring cross-host 
 
 Best openings:
 
-- [2026-03-11 Davis](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-03-11/transcript-davis-johnson-trumps-lost-control-2026-03-11.md)
-- [2026-03-15 Diesen](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-03-15/youtube-glenn-diesen-larry-johnson-u-s-attack-on-kharg-island-will-destroy-the-gulf-states-2026-03-15.md)
-- [2026-03-16 Dialogue Works](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-03-16/youtube-dialogue-works-pepe-escobar-larry-c-johnson-trump-is-losing-control-iran-wipes-out-strategic-military-targets-2026-03-16.md)
+- [2026-03-11 Davis](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-11/transcript-davis-johnson-trumps-lost-control-2026-03-11.md)
+- [2026-03-15 Diesen](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-15/youtube-glenn-diesen-larry-johnson-u-s-attack-on-kharg-island-will-destroy-the-gulf-states-2026-03-15.md)
+- [2026-03-16 Dialogue Works](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-16/youtube-dialogue-works-pepe-escobar-larry-c-johnson-trump-is-losing-control-iran-wipes-out-strategic-military-targets-2026-03-16.md)
 
 Month spine:
 

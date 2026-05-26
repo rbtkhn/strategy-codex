@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Build a derived speaker-routing queue from raw-input frontmatter.
+"""Build a derived speaker-routing queue from source-archive frontmatter.
 
-WORK-layer advisory automation only. This script reads raw-input files and the
+WORK-layer advisory automation only. This script reads source-archive files and the
 current speaker/arc inventory, then writes queue artifacts under artifacts/.
-It does not edit speaker folders, lattice rows, or raw-input files.
+It does not edit speaker folders, lattice rows, or source-archive files.
 """
 
 from __future__ import annotations
@@ -27,7 +27,7 @@ if str(SCRIPTS_DIR) not in sys.path:
 from yaml_compat import safe_load_text  # noqa: E402
 
 
-DEFAULT_NOTEBOOK_ROOT = REPO_ROOT / "codex" / "years" / str(date.today().year)
+DEFAULT_NOTEBOOK_ROOT = REPO_ROOT / "source-archive" / "statecraft"
 DEFAULT_SPEAKERS_DIR = REPO_ROOT / "codex" / "speakers"
 DEFAULT_OUT_DIR = REPO_ROOT / "artifacts" / "speaker-routing"
 EVIDENCE_GRADES = {
@@ -576,7 +576,7 @@ def main(argv: list[str] | None = None) -> int:
 
     notebook_root = args.notebook_root.resolve()
     speakers_dir = (args.speakers_dir or DEFAULT_SPEAKERS_DIR).resolve()
-    raw_root = notebook_root / "raw-input"
+    raw_root = notebook_root
     inventory = _discover_inventory(speakers_dir, notebook_root)
     explicit_paths = list(args.raw_input)
     if args.raw_input_list:

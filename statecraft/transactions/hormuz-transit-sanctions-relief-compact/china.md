@@ -14,7 +14,7 @@ Anti-disorder Hormuz energy compact.
 
 - Speaker-state inputs: [Pape](../../../../speakers/pape/) for shock clocks and coercive leverage; [Jiang](../../../../speakers/jiang/) for China-facing strategic framing; [Sachs](../../../../speakers/sachs/) / [Krainer](../../../../speakers/krainer/) for macro-system effects; [Crooke](../../../speakers/crooke/README.md) / [Diesen](../../../../speakers/diesen/) for order transition; [Parsi](../../../../speakers/parsi/) for regional architecture.
 - Scoreboards used: [Pape coercive-center index](../../sheets/pape-coercive-center-index.md); [Mearsheimer structural-realist scoreboard](../../sheets/mearsheimer-structural-realist-scoreboard.md).
-- Raw-input / provenance anchors: [Pape 2026-05-18](../../../../years/2026/raw-input/2026-05-18/substack-pape-june-could-be-the-most-brutal-month-2026-05-18.md); [Pape 2026-05-13](../../../../years/2026/raw-input/2026-05-13/substack-pape-with-china-its-getting-late-early-2026-05-13.md); [Parsi 2026-05-03](../../../../years/2026/raw-input/2026-05-03/substack-parsi-a-few-observations-on-irans-latest-proposal-to-trump-2026-05-03.md).
+- Raw-input / provenance anchors: [Pape 2026-05-18](../../../../years/2026/provenance/2026-05-18/substack-pape-june-could-be-the-most-brutal-month-2026-05-18.md); [Pape 2026-05-13](../../../../years/2026/provenance/2026-05-13/substack-pape-with-china-its-getting-late-early-2026-05-13.md); [Parsi 2026-05-03](../../../../years/2026/provenance/2026-05-03/substack-parsi-a-few-observations-on-irans-latest-proposal-to-trump-2026-05-03.md).
 - Prior statecraft drafts: [Hormuz Reciprocal Transit De-escalation Framework v2.1](../../../../hormuz-reciprocal-transit-deescalation-framework-v2-1.md).
 
 ## Civilization / Empire Helix Input

@@ -3,7 +3,7 @@
 
 Scans ``docs/skill-work/work-strategy/strategy-notebook/raw-input/`` for
 subdirectories named ``YYYY-MM-DD`` (by convention **pub_date** / air day — see
-``raw-input/README.md`` § Layout) and deletes those strictly before the cutoff
+``provenance/README.md`` § Layout) and deletes those strictly before the cutoff
 date (local timezone). Non-date dirs (e.g. ``_aired-pending``) are skipped.
 
 If ``.pruning-suspended`` exists under the raw-input root, ``--apply`` refuses

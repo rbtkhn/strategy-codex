@@ -15,15 +15,15 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 
 FILES: tuple[str, ...] = (
     "docs/skill-work/README.md",
-    "docs/skill-work/work-cici/DAILY-OPS-CARD.md",
-    "docs/skill-work/work-cici/GOOD-MORNING.md",
-    "docs/skill-work/work-cici/README.md",
-    "docs/skill-work/work-cici/INDEX.md",
-    "docs/skill-work/work-cici/LANES.md",
-    "docs/skill-work/work-cici/LEAKAGE-CHECKLIST.md",
-    "docs/skill-work/work-cici/SYNC-DAILY.md",
-    "docs/skill-work/work-cici/work-dev-mirror/SYNC-CONTRACT.md",
-    "docs/skill-work/work-cici/work-politics-mirror/SYNC-CONTRACT.md",
+    "singularity/work-cici/DAILY-OPS-CARD.md",
+    "singularity/work-cici/GOOD-MORNING.md",
+    "singularity/work-cici/README.md",
+    "singularity/work-cici/INDEX.md",
+    "singularity/work-cici/LANES.md",
+    "singularity/work-cici/LEAKAGE-CHECKLIST.md",
+    "singularity/work-cici/SYNC-DAILY.md",
+    "singularity/work-cici/work-dev-mirror/SYNC-CONTRACT.md",
+    "singularity/work-cici/work-politics-mirror/SYNC-CONTRACT.md",
 )
 
 ALLOWS: tuple[str, ...] = (

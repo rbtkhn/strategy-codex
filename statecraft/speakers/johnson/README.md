@@ -71,4 +71,4 @@ The legacy `codex/speakers/johnson/` path is now front-door compatibility only.
 
 ## Boundary
 
-Johnson is canonical here under `statecraft/speakers/johnson/`. Raw-text authority stays in [`codex/years/2026/raw-input/`](/C:/dev/strategy-codex/codex/years/2026/raw-input), bridge adapters still live under [`statecraft/bridges/`](/C:/dev/strategy-codex/statecraft/bridges/README.md), and lanes still own substantive drafting.
+Johnson is canonical here under `statecraft/speakers/johnson/`. Raw-text authority stays in [`source-archive/statecraft/`](/C:/dev/strategy-codex/source-archive/statecraft), bridge adapters still live under [`statecraft/bridges/`](/C:/dev/strategy-codex/statecraft/bridges/README.md), and lanes still own substantive drafting.

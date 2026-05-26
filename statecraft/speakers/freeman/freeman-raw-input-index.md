@@ -1,8 +1,8 @@
-# Freeman raw-input index
+# Freeman provenance index
 
 WORK only; not Record.
 
-Purpose: act as the canonical statecraft-side provenance bench for Freeman while raw-text authority stays in `raw-input`.
+Purpose: act as the canonical statecraft-side provenance bench for Freeman while raw-text authority stays in `provenance`.
 
 ## Bench rule
 

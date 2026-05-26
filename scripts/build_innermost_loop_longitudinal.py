@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Build longitudinal views over Innermost Loop raw captures.
 
-Reads full local captures from the academy singularity workshop and writes:
+Reads full local captures from the singularity-academy workshop and writes:
   - workshop/longitudinal/innermost-loop.md
   - workshop/longitudinal/innermost-loop-signals.json
 
@@ -19,7 +19,7 @@ import re
 from typing import Iterable
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_WORKSHOP = REPO_ROOT / "codex/academy/singularity/workshop"
+DEFAULT_WORKSHOP = REPO_ROOT / "singularity/workshop"
 DEFAULT_RAW_ROOT = DEFAULT_WORKSHOP / "raw-input/innermost-loop"
 DEFAULT_OUT_DIR = DEFAULT_WORKSHOP / "longitudinal"
 DEFAULT_README = DEFAULT_WORKSHOP / "README.md"
@@ -402,7 +402,7 @@ def build_index(raw_root: Path) -> dict[str, object]:
 
 def _md_link_from_out(raw_path: str) -> str:
     filename = Path(raw_path).name
-    return f"../raw-input/innermost-loop/{filename}"
+    return f"../../../source-archive/singularity/innermost-loop/{filename}"
 
 
 def _format_fronts(fronts: list[dict[str, object]], limit: int = 4) -> str:

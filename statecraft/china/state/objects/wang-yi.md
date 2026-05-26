@@ -44,8 +44,8 @@ rg -n "Wang Yi|Chinese foreign minister|China's foreign minister|China foreign m
 Snapshot from the first object pass:
 
 - `codex/years` contains 25 local files with a Wang Yi / Chinese foreign minister match.
-- `codex/years/2026/raw-input` contains 23 local files with a Wang Yi / Chinese foreign minister match.
-- `codex/years/2026/raw-input` contains 24 matching lines.
+- `source-archive/statecraft` contains 23 local files with a Wang Yi / Chinese foreign minister match.
+- `source-archive/statecraft` contains 24 matching lines.
 
 Treat these counts as a refreshable search snapshot, not as a fixed source set.
 
@@ -66,15 +66,15 @@ When a new Wang Yi hit appears, classify it before using it:
 
 Use these as starting surfaces, not an exhaustive set:
 
-- **Mercouris / China supports Iranian sovereignty:** [2026-03-06 Mercouris](../../../../../years/2026/raw-input/2026-03-06/youtube-alex-mercouris-iran-destroyed-us-mideast-ad-radars-oil-crisis-aragchi-russia-china-help-2026-03-06.md)
-- **Mercouris / China-Russia coordination with Lavrov:** [2026-04-15 Mercouris](../../../../../years/2026/raw-input/2026-04-15/mercouris-russia-intensify-china-tankers-putin-xi-2026-04-15.md)
-- **Mercouris / Pakistan initiative and Chinese backing:** [2026-04-02 Mercouris](../../../../../years/2026/raw-input/2026-04-02/youtube-alex-mercouris-russia-china-act-as-trump-iran-war-address-fails-russia-saudi-talks-chin-2026-04-02.md)
-- **Gao / China behind-the-scenes peace pressure:** [2026-04-24 Haiphong / Gao](../../../../../years/2026/raw-input/2026-04-24/transcript-haiphong-gao-brutal-warning-trump-iran-china-2026-04-24.md)
-- **Baud / sanctions resistance and Eurasian linkage:** [2026-05-11 Baud](../../../../../years/2026/raw-input/2026-05-11/transcript-alkorshid-baud-hormuz-security-architecture-2026-05-11.md)
-- **Johnson / Gulf security architecture phrase:** [2026-05-08 Diesen / Johnson](../../../../../years/2026/raw-input/2026-05-08/transcript-diesen-johnson-iran-war-creates-a-new-middle-east-2026-05-08.md)
-- **Johnson / Qatar and Gulf architecture:** [2026-05-08 Alkorshid / Johnson](../../../../../years/2026/raw-input/2026-05-08/transcript-alkorshid-johnson-hormuz-qatar-brics-trump-china-2026-05-08.md)
-- **Marandi / coordinated Iran-China message:** [2026-05-16 Dialogue Works / Marandi](../../../../../years/2026/raw-input/2026-05-16/transcript-dialogue-works-seyed-m-marandi-iran-just-warned-next-attack-total-obliteration-2026-05-16.md)
-- **Mercouris / Taiwan and Iran pressure boundary:** [2026-05-15 Mercouris](../../../../../years/2026/raw-input/2026-05-15/youtube-alex-mercouris-china-warns-us-of-war-over-taiwan-won-t-pressure-iran-russia-hunts-destroys-us-ukraine-investments-2026-05-15.md)
+- **Mercouris / China supports Iranian sovereignty:** [2026-03-06 Mercouris](../../../../../years/2026/provenance/2026-03-06/youtube-alex-mercouris-iran-destroyed-us-mideast-ad-radars-oil-crisis-aragchi-russia-china-help-2026-03-06.md)
+- **Mercouris / China-Russia coordination with Lavrov:** [2026-04-15 Mercouris](../../../../../years/2026/provenance/2026-04-15/mercouris-russia-intensify-china-tankers-putin-xi-2026-04-15.md)
+- **Mercouris / Pakistan initiative and Chinese backing:** [2026-04-02 Mercouris](../../../../../years/2026/provenance/2026-04-02/youtube-alex-mercouris-russia-china-act-as-trump-iran-war-address-fails-russia-saudi-talks-chin-2026-04-02.md)
+- **Gao / China behind-the-scenes peace pressure:** [2026-04-24 Haiphong / Gao](../../../../../years/2026/provenance/2026-04-24/transcript-haiphong-gao-brutal-warning-trump-iran-china-2026-04-24.md)
+- **Baud / sanctions resistance and Eurasian linkage:** [2026-05-11 Baud](../../../../../years/2026/provenance/2026-05-11/transcript-alkorshid-baud-hormuz-security-architecture-2026-05-11.md)
+- **Johnson / Gulf security architecture phrase:** [2026-05-08 Diesen / Johnson](../../../../../years/2026/provenance/2026-05-08/transcript-diesen-johnson-iran-war-creates-a-new-middle-east-2026-05-08.md)
+- **Johnson / Qatar and Gulf architecture:** [2026-05-08 Alkorshid / Johnson](../../../../../years/2026/provenance/2026-05-08/transcript-alkorshid-johnson-hormuz-qatar-brics-trump-china-2026-05-08.md)
+- **Marandi / coordinated Iran-China message:** [2026-05-16 Dialogue Works / Marandi](../../../../../years/2026/provenance/2026-05-16/transcript-dialogue-works-seyed-m-marandi-iran-just-warned-next-attack-total-obliteration-2026-05-16.md)
+- **Mercouris / Taiwan and Iran pressure boundary:** [2026-05-15 Mercouris](../../../../../years/2026/provenance/2026-05-15/youtube-alex-mercouris-china-warns-us-of-war-over-taiwan-won-t-pressure-iran-russia-hunts-destroys-us-ukraine-investments-2026-05-15.md)
 
 ## Statecraft Uses
 

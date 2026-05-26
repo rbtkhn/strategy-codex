@@ -70,7 +70,7 @@ Use these after the helix has clarified which strand is actually governing the c
 
 Use [Iran state](state/) to map supreme authority, elected government, foreign ministry, parliament, IRGC, and security carriers before treating restraint, retaliation, nuclear ambiguity, or sanctions relief as implementable.
 
-Inside that state bench, use the [authority structure](state/authority-structure.md), [Supreme Leader](state/supreme-leader.md), [president / government](state/president-government.md), and [IRGC](state/irgc.md) for current authority carriers, and [authority carrier objects](state/objects/) for ministers, negotiators, clerical signals, security figures, and official institutional voices whose statements carry Iranian state intent across raw-inputs. First object: [Abbas Araghchi](state/objects/araghchi.md).
+Inside that state bench, use the [authority structure](state/authority-structure.md), [Supreme Leader](state/supreme-leader.md), [president / government](state/president-government.md), and [IRGC](state/irgc.md) for current authority carriers, and [authority carrier objects](state/objects/) for ministers, negotiators, clerical signals, security figures, and official institutional voices whose statements carry Iranian state intent across provenance captures. First object: [Abbas Araghchi](state/objects/araghchi.md).
 
 ## Speaker-State Intake
 

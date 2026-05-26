@@ -19,6 +19,7 @@ It is not:
 Restore these invariants first:
 
 - `civ-emp remembers -> statecraft drafts`
+- `source-archive remembers source text -> statecraft classifies and drafts`
 - `pattern / narrative -> authority / restraint / settlement`
 - lane orthogonality matters more than elegant synthesis
 - braid keeps the live coupled object real; helix tracks long-run recurrence and transformation

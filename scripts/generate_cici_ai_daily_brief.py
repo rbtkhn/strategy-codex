@@ -3,8 +3,8 @@
 Generate a Telegram-ready daily brief for the cici-ai team.
 
 The script reads bounded WORK-layer sources:
-- docs/skill-work/work-cici/cici-ai-community-dashboard.md
-- docs/skill-work/work-cici/member-profiles/*.md
+- singularity/work-cici/cici-ai-community-dashboard.md
+- singularity/work-cici/member-profiles/*.md
 
 It emits:
 - a structured operator digest
@@ -27,11 +27,11 @@ from typing import Iterable
 
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-DASHBOARD_PATH = REPO_ROOT / "docs" / "skill-work" / "work-cici" / "cici-ai-community-dashboard.md"
-PROFILE_DIR = REPO_ROOT / "docs" / "skill-work" / "work-cici" / "member-profiles"
-PROGRESS_README_PATH = REPO_ROOT / "docs" / "skill-work" / "work-cici" / "cici-ai-progress" / "README.md"
-TELEGRAM_README_PATH = REPO_ROOT / "docs" / "skill-work" / "work-cici" / "cici-ai-telegram" / "README.md"
-EVIDENCE_DIR = REPO_ROOT / "docs" / "skill-work" / "work-cici" / "evidence"
+DASHBOARD_PATH = REPO_ROOT / "singularity" / "work-cici" / "cici-ai-community-dashboard.md"
+PROFILE_DIR = REPO_ROOT / "singularity" / "work-cici" / "member-profiles"
+PROGRESS_README_PATH = REPO_ROOT / "singularity" / "work-cici" / "cici-ai-progress" / "README.md"
+TELEGRAM_README_PATH = REPO_ROOT / "singularity" / "work-cici" / "cici-ai-telegram" / "README.md"
+EVIDENCE_DIR = REPO_ROOT / "singularity" / "work-cici" / "evidence"
 
 
 @dataclass
@@ -496,11 +496,11 @@ def build_digest(repo_root: Path = REPO_ROOT, brief_date: date | None = None) ->
         who_needs_action=build_followups(profiles, today),
         reply_format=reply_format,
         source_paths=[
-            "docs/skill-work/work-cici/cici-ai-community-dashboard.md",
-            "docs/skill-work/work-cici/cici-ai-progress/README.md",
-            "docs/skill-work/work-cici/cici-ai-telegram/README.md",
-            "docs/skill-work/work-cici/evidence/",
-            "docs/skill-work/work-cici/member-profiles/",
+            "singularity/work-cici/cici-ai-community-dashboard.md",
+            "singularity/work-cici/cici-ai-progress/README.md",
+            "singularity/work-cici/cici-ai-telegram/README.md",
+            "singularity/work-cici/evidence/",
+            "singularity/work-cici/member-profiles/",
         ],
     )
     return digest

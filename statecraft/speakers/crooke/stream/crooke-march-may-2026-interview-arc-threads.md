@@ -30,9 +30,9 @@ Crooke repeatedly treats coercive theater as a trap, not a solution. The intervi
 
 Primary files:
 
-- [2026-03-13 Davis x Crooke](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-03-13/transcript-davis-crooke-irans-asymmetrical-war-2026-03-13.md)
-- [2026-03-17 Dialogue Works x Crooke](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-03-17/transcript-alkorshid-crooke-iran-was-ready-for-this-war-and-it-could-change-the-middle-east-forever-2026-03-17.md)
-- [2026-05-11 Davis x Crooke](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-11/transcript-davis-crooke-diplomatic-solution-more-war-2026-05-11.md)
+- [2026-03-13 Davis x Crooke](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-13/transcript-davis-crooke-irans-asymmetrical-war-2026-03-13.md)
+- [2026-03-17 Dialogue Works x Crooke](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-17/transcript-alkorshid-crooke-iran-was-ready-for-this-war-and-it-could-change-the-middle-east-forever-2026-03-17.md)
+- [2026-05-11 Davis x Crooke](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-11/transcript-davis-crooke-diplomatic-solution-more-war-2026-05-11.md)
 
 ### 2. Iran's steadfastness turns pressure into bargaining and strategic leverage
 
@@ -40,9 +40,9 @@ The interview strand keeps returning to Iranian preparedness, strategic patience
 
 Primary files:
 
-- [2026-03-13 Davis x Crooke](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-03-13/transcript-davis-crooke-irans-asymmetrical-war-2026-03-13.md)
-- [2026-03-17 Dialogue Works x Crooke](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-03-17/transcript-alkorshid-crooke-iran-was-ready-for-this-war-and-it-could-change-the-middle-east-forever-2026-03-17.md)
-- [2026-04-23 Davis x Crooke](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-23/transcript-davis-crooke-iranians-only-getting-tougher-2026-04-23.md)
+- [2026-03-13 Davis x Crooke](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-13/transcript-davis-crooke-irans-asymmetrical-war-2026-03-13.md)
+- [2026-03-17 Dialogue Works x Crooke](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-17/transcript-alkorshid-crooke-iran-was-ready-for-this-war-and-it-could-change-the-middle-east-forever-2026-03-17.md)
+- [2026-04-23 Davis x Crooke](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-23/transcript-davis-crooke-iranians-only-getting-tougher-2026-04-23.md)
 
 ### 3. Hormuz and system exposure turn local war into wider dependency shock
 
@@ -50,9 +50,9 @@ The interview core makes Hormuz more than a chokepoint episode. It becomes the m
 
 Primary files:
 
-- [2026-03-20 Diesen x Crooke](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-03-20/transcript-diesen-crooke-iran-sets-conditions-for-access-to-the-strait-of-hormuz-2026-03-20.md)
-- [2026-04-07 Diesen x Crooke](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-07/transcript-diesen-crooke-iran-will-emerge-stronger-after-the-war-reshape-the-global-economy-2026-04-07.md)
-- [2026-04-23 Davis x Crooke](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-23/transcript-davis-crooke-iranians-only-getting-tougher-2026-04-23.md)
+- [2026-03-20 Diesen x Crooke](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-20/transcript-diesen-crooke-iran-sets-conditions-for-access-to-the-strait-of-hormuz-2026-03-20.md)
+- [2026-04-07 Diesen x Crooke](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-07/transcript-diesen-crooke-iran-will-emerge-stronger-after-the-war-reshape-the-global-economy-2026-04-07.md)
+- [2026-04-23 Davis x Crooke](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-23/transcript-davis-crooke-iranians-only-getting-tougher-2026-04-23.md)
 
 ### 4. the Western war model and mechanistic reading of conflict are breaking down
 
@@ -60,8 +60,8 @@ Crooke uses the interview core to show that the military and intellectual model 
 
 Primary files:
 
-- [2026-04-27 Diesen x Crooke](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-27/transcript-diesen-crooke-iran-global-war-world-order-2026-04-27.md)
-- [2026-05-13 Dialogue Works x Crooke](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-13/transcript-alkorshid-crooke-iran-smashed-the-us-military-model-china-is-watching-2026-05-13.md)
+- [2026-04-27 Diesen x Crooke](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-27/transcript-diesen-crooke-iran-global-war-world-order-2026-04-27.md)
+- [2026-05-13 Dialogue Works x Crooke](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-13/transcript-alkorshid-crooke-iran-smashed-the-us-military-model-china-is-watching-2026-05-13.md)
 
 ### 5. diplomatic process degrades into settlement theater and room without an off-ramp
 
@@ -69,8 +69,8 @@ Across the dense core, Crooke keeps distinguishing public motion from real settl
 
 Primary files:
 
-- [2026-04-23 Davis x Crooke](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-23/transcript-davis-crooke-iranians-only-getting-tougher-2026-04-23.md)
-- [2026-05-11 Davis x Crooke](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-11/transcript-davis-crooke-diplomatic-solution-more-war-2026-05-11.md)
+- [2026-04-23 Davis x Crooke](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-23/transcript-davis-crooke-iranians-only-getting-tougher-2026-04-23.md)
+- [2026-05-11 Davis x Crooke](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-11/transcript-davis-crooke-diplomatic-solution-more-war-2026-05-11.md)
 
 ### 6. regional war widens into order-transition and civilizational consequence
 
@@ -78,10 +78,10 @@ The mature interview sequence repeatedly widens the conflict beyond the local wa
 
 Primary files:
 
-- [2026-03-17 Dialogue Works x Crooke](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-03-17/transcript-alkorshid-crooke-iran-was-ready-for-this-war-and-it-could-change-the-middle-east-forever-2026-03-17.md)
-- [2026-04-07 Diesen x Crooke](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-07/transcript-diesen-crooke-iran-will-emerge-stronger-after-the-war-reshape-the-global-economy-2026-04-07.md)
-- [2026-04-27 Diesen x Crooke](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-27/transcript-diesen-crooke-iran-global-war-world-order-2026-04-27.md)
-- [2026-05-13 Dialogue Works x Crooke](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-13/transcript-alkorshid-crooke-iran-smashed-the-us-military-model-china-is-watching-2026-05-13.md)
+- [2026-03-17 Dialogue Works x Crooke](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-17/transcript-alkorshid-crooke-iran-was-ready-for-this-war-and-it-could-change-the-middle-east-forever-2026-03-17.md)
+- [2026-04-07 Diesen x Crooke](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-07/transcript-diesen-crooke-iran-will-emerge-stronger-after-the-war-reshape-the-global-economy-2026-04-07.md)
+- [2026-04-27 Diesen x Crooke](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-27/transcript-diesen-crooke-iran-global-war-world-order-2026-04-27.md)
+- [2026-05-13 Dialogue Works x Crooke](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-13/transcript-alkorshid-crooke-iran-smashed-the-us-military-model-china-is-watching-2026-05-13.md)
 
 ## How to use this atlas
 

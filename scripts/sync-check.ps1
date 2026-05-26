@@ -125,18 +125,18 @@ function Get-BranchSyncState {
 }
 
 $repoRoot = Get-RepoRoot
-$canonicalRawRoot = Join-Path $repoRoot "codex\years\2026\raw-input"
+$canonicalRawRoot = Join-Path $repoRoot "source-archive\statecraft"
 $cutoff = (Get-Date).AddDays(-1 * $SinceDays)
 $worktrees = Get-WorktreeRecords -RepoRoot $repoRoot
 $branchSync = Get-BranchSyncState -RepoRoot $repoRoot
 
 Write-Host "sync-check: canonical repo = $repoRoot"
-Write-Host "sync-check: looking for raw-input drift since $($cutoff.ToString("yyyy-MM-dd HH:mm"))"
+Write-Host "sync-check: looking for source-archive drift since $($cutoff.ToString("yyyy-MM-dd HH:mm"))"
 Write-Host ""
 
 $currentBranch = (git -C $repoRoot branch --show-current).Trim()
 if ($currentBranch -ne "main") {
-    Write-Warning "Current checkout branch is '$currentBranch'. Raw-input publishing is safest from 'main'."
+    Write-Warning "Current checkout branch is '$currentBranch'. Source-archive publishing is safest from 'main'."
     Write-Host ""
 }
 
@@ -159,9 +159,9 @@ if ($syncWarnings.Count -gt 0) {
     Write-Host ""
 }
 
-$mainStatus = git -C $repoRoot status --short -- "codex/years/2026/raw-input"
+$mainStatus = git -C $repoRoot status --short -- "source-archive/statecraft"
 if ($mainStatus) {
-    Write-Warning "Canonical checkout has pending raw-input changes:"
+    Write-Warning "Canonical checkout has pending source-archive changes:"
     $mainStatus | ForEach-Object { Write-Host "  $_" }
     Write-Host ""
 }
@@ -179,7 +179,7 @@ foreach ($wt in $worktrees) {
         continue
     }
 
-    $rawRoot = Join-Path $resolvedWt "codex\years\2026\raw-input"
+    $rawRoot = Join-Path $resolvedWt "source-archive\statecraft"
     $recentFiles = Get-RecentRawInputFiles -RawRoot $rawRoot -Cutoff $cutoff
     foreach ($file in $recentFiles) {
         $relative = $file.FullName.Substring($rawRoot.Length + 1)
@@ -216,7 +216,7 @@ $hasRawInputChanges = [bool]$mainStatus
 $hasDrift = $ordered.Count -gt 0
 
 if ($hasDrift) {
-    Write-Warning ("Found {0} recent raw-input file(s) in other worktrees that are missing or different in this checkout." -f $ordered.Count)
+    Write-Warning ("Found {0} recent source-archive file(s) in other worktrees that are missing or different in this checkout." -f $ordered.Count)
     Write-Host ""
     Write-Host "Suggested next step:"
     Write-Host "  Copy the listed files into $canonicalRawRoot, then commit/push from this checkout."
@@ -234,16 +234,16 @@ if ($hasDrift) {
 }
 
 if (-not $hasDrift) {
-    Write-Host "sync-check: raw-input drift = none"
+    Write-Host "sync-check: source-archive drift = none"
 }
 
 if (-not $hasRawInputChanges) {
-    Write-Host "sync-check: canonical raw-input worktree = clean"
+    Write-Host "sync-check: canonical source-archive worktree = clean"
 }
 
 Write-Host ""
 if (-not $hasBranchProblem -and -not $hasRawInputChanges -and -not $hasDrift) {
-    Write-Host "OK: raw-input continuity is clean."
+    Write-Host "OK: source-archive continuity is clean."
     exit 0
 }
 

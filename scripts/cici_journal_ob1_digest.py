@@ -5,7 +5,7 @@ Queries the GitHub REST API for commits on the configured branch within the
 calendar day (timezone-aware), then prints or writes **`YYYY-MM-DD.md`** (journal
 ordinal inside the body): **Day overview** heuristics from commit messages,
 optional **inbox** / **session-transcript** / **artifacts**, plus linked commit
-lines. See docs/skill-work/work-cici/cici-notebook/README.md.
+lines. See singularity/work-cici/cici-notebook/README.md.
 
 Environment:
   GITHUB_TOKEN â€” optional; raises unauthenticated rate limits (60/hr/IP).
@@ -44,7 +44,7 @@ _SCRIPTS = REPO_ROOT / "scripts"
 if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
 
-DEFAULT_JOURNAL = REPO_ROOT / "docs/skill-work/work-cici/cici-notebook"
+DEFAULT_JOURNAL = REPO_ROOT / "singularity/work-cici/cici-notebook"
 DEFAULT_OWNER = "Xavier-x01"
 DEFAULT_REPO = "Cici"
 DEFAULT_BRANCH = "main"

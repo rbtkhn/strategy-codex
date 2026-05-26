@@ -23,9 +23,9 @@ This theme gathers the historical and quasi-historical figures Crooke uses to di
 
 ## Exact Quote Anchors
 
-- [2026-05-11 Davis raw-input](../../../years/2026/raw-input/2026-05-11/transcript-davis-crooke-diplomatic-solution-more-war-2026-05-11.md): "our army is ... a means to finding solutions"
+- [2026-05-11 Davis raw-input](../../../years/2026/provenance/2026-05-11/transcript-davis-crooke-diplomatic-solution-more-war-2026-05-11.md): "our army is ... a means to finding solutions"
 - same source: "Clausewitzian ... being a tool of politics not an end in itself"
-- [2026-05-18 Napolitano raw-input](../../../years/2026/raw-input/2026-05-18/transcript-napolitano-crooke-israels-war-unraveling-america-2026-05-18.md): "permanent security is a sort of idea that came from ... Germany in the Second World War"
+- [2026-05-18 Napolitano raw-input](../../../years/2026/provenance/2026-05-18/transcript-napolitano-crooke-israels-war-unraveling-america-2026-05-18.md): "permanent security is a sort of idea that came from ... Germany in the Second World War"
 - same source: "was considered at Nuremberg ... a war crime"
 
 ## What Crooke Is Arguing

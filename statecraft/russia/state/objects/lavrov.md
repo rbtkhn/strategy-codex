@@ -44,8 +44,8 @@ rg -n "Lavrov|Sergey Lavrov|Sergei Lavrov" codex/years
 Snapshot from the first object pass:
 
 - `codex/years` contains 107 local files with a Lavrov match.
-- `codex/years/2026/raw-input` contains 92 local files with a Lavrov match.
-- `codex/years/2026/raw-input` contains 286 Lavrov-line matches.
+- `source-archive/statecraft` contains 92 local files with a Lavrov match.
+- `source-archive/statecraft` contains 286 Lavrov-line matches.
 
 Treat these counts as a refreshable search snapshot, not as a fixed source set.
 
@@ -65,8 +65,8 @@ When a new Lavrov hit appears, classify it before using it:
 
 Ritter's May 2026 use is narrow but important: Lavrov becomes evidence that Moscow has judged the United States to be structurally unreliable as a treaty partner.
 
-- Ritter in Dialogue Works: [2026-05-13 raw-input](../../../../../years/2026/raw-input/2026-05-13/transcript-dialogue-works-scott-ritter-iran-didn-t-break-it-adapted-now-stronger-than-ever-2026-05-13.md)
-- Ritter / McGovern debate: [2026-05-18 raw-input](../../../../../years/2026/raw-input/2026-05-18/transcript-consortium-news-russia-debate-scott-ritter-vs-ray-mcgovern-2026-05-18.md)
+- Ritter in Dialogue Works: [2026-05-13 raw-input](../../../../../years/2026/provenance/2026-05-13/transcript-dialogue-works-scott-ritter-iran-didn-t-break-it-adapted-now-stronger-than-ever-2026-05-13.md)
+- Ritter / McGovern debate: [2026-05-18 raw-input](../../../../../years/2026/provenance/2026-05-18/transcript-consortium-news-russia-debate-scott-ritter-vs-ray-mcgovern-2026-05-18.md)
 
 Statecraft reading: if Lavrov says the United States is agreement-incapable and Ritter treats Lavrov as Putin-authorized, the Russia lane should not draft a settlement that relies only on U.S. verbal assurances. It should demand institutional lock-in, third-party custody, staged performance, material guarantees, or self-enforcing mechanisms.
 
@@ -74,13 +74,13 @@ Statecraft reading: if Lavrov says the United States is agreement-incapable and 
 
 Use these as starting surfaces, not an exhaustive set:
 
-- **Ritter / agreement capability:** [2026-05-18 Consortium News debate](../../../../../years/2026/raw-input/2026-05-18/transcript-consortium-news-russia-debate-scott-ritter-vs-ray-mcgovern-2026-05-18.md)
-- **Ritter / Iran agreement skepticism:** [2026-05-13 Dialogue Works](../../../../../years/2026/raw-input/2026-05-13/transcript-dialogue-works-scott-ritter-iran-didn-t-break-it-adapted-now-stronger-than-ever-2026-05-13.md)
-- **Mercouris / Russia-China-Iran energy and enrichment mechanism:** [2026-04-15 Mercouris](../../../../../years/2026/raw-input/2026-04-15/mercouris-russia-intensify-china-tankers-putin-xi-2026-04-15.md)
-- **Mercouris / Europe war language:** [2026-04-25 Mercouris](../../../../../years/2026/raw-input/2026-04-25/youtube-alex-mercouris-lavrov-warns-europe-declared-war-on-russia-aragchi-to-moscow-won-t-talk-2026-04-25.md)
-- **Helmer / Lavrov as military-side faction signal:** [2026-04-28 Helmer](../../../../../years/2026/raw-input/2026-04-28/transcript-alkorshid-helmer-middle-east-unthinkable-iran-play-2026-04-28.md)
-- **Baud / Eurasian linkage:** [2026-05-11 Baud](../../../../../years/2026/raw-input/2026-05-11/transcript-alkorshid-baud-hormuz-security-architecture-2026-05-11.md)
-- **Ritter authored historical baseline:** [2026-02-22 Substack](../../../../../years/2026/raw-input/2026-02-22/substack-ritter-the-flamingo-effect-2026-02-22.md)
+- **Ritter / agreement capability:** [2026-05-18 Consortium News debate](../../../../../years/2026/provenance/2026-05-18/transcript-consortium-news-russia-debate-scott-ritter-vs-ray-mcgovern-2026-05-18.md)
+- **Ritter / Iran agreement skepticism:** [2026-05-13 Dialogue Works](../../../../../years/2026/provenance/2026-05-13/transcript-dialogue-works-scott-ritter-iran-didn-t-break-it-adapted-now-stronger-than-ever-2026-05-13.md)
+- **Mercouris / Russia-China-Iran energy and enrichment mechanism:** [2026-04-15 Mercouris](../../../../../years/2026/provenance/2026-04-15/mercouris-russia-intensify-china-tankers-putin-xi-2026-04-15.md)
+- **Mercouris / Europe war language:** [2026-04-25 Mercouris](../../../../../years/2026/provenance/2026-04-25/youtube-alex-mercouris-lavrov-warns-europe-declared-war-on-russia-aragchi-to-moscow-won-t-talk-2026-04-25.md)
+- **Helmer / Lavrov as military-side faction signal:** [2026-04-28 Helmer](../../../../../years/2026/provenance/2026-04-28/transcript-alkorshid-helmer-middle-east-unthinkable-iran-play-2026-04-28.md)
+- **Baud / Eurasian linkage:** [2026-05-11 Baud](../../../../../years/2026/provenance/2026-05-11/transcript-alkorshid-baud-hormuz-security-architecture-2026-05-11.md)
+- **Ritter authored historical baseline:** [2026-02-22 Substack](../../../../../years/2026/provenance/2026-02-22/substack-ritter-the-flamingo-effect-2026-02-22.md)
 
 ## Statecraft Uses
 

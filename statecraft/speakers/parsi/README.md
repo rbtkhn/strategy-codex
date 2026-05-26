@@ -74,4 +74,4 @@ The legacy `codex/speakers/parsi/` path is now front-door compatibility only.
 
 ## Boundary
 
-Parsi is canonical here under `statecraft/speakers/parsi/`. Raw-text authority stays in [`codex/years/2026/raw-input/`](/C:/dev/strategy-codex/codex/years/2026/raw-input), bridge adapters remain in [`statecraft/bridges/`](/C:/dev/strategy-codex/statecraft/bridges/README.md), and lanes still own substantive drafting.
+Parsi is canonical here under `statecraft/speakers/parsi/`. Raw-text authority stays in [`source-archive/statecraft/`](/C:/dev/strategy-codex/source-archive/statecraft), bridge adapters remain in [`statecraft/bridges/`](/C:/dev/strategy-codex/statecraft/bridges/README.md), and lanes still own substantive drafting.

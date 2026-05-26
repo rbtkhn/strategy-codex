@@ -22,7 +22,7 @@ Crooke repeatedly contrasts two diplomatic worlds. In the first, states negotiat
 
 ## Exact Quote Anchors
 
-- [2026-01-25 Dialogue Works / Nima raw-input](../../../years/2026/raw-input/2026-01-25/transcript-alkorshid-crooke-systemic-collapse-explained-why-two-fronts-matter-2026-01-25.md): "that has to be agreed formally, state to state, in a treaty or in a legal document"
+- [2026-01-25 Dialogue Works / Nima raw-input](../../../years/2026/provenance/2026-01-25/transcript-alkorshid-crooke-systemic-collapse-explained-why-two-fronts-matter-2026-01-25.md): "that has to be agreed formally, state to state, in a treaty or in a legal document"
 - same source: "did you have that in writing? and no, they didn't."
 
 ## What Crooke Is Arguing

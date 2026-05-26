@@ -17,9 +17,9 @@ Minab is not only a strike allegation. In the speaker-state lattice it becomes a
 
 ## Shared Source Frame
 
-- [Ritter 2026-03-14](../../../../years/2026/raw-input/2026-03-14/substack-ritter-the-backpack-girls-2026-03-14.md) for the Minab factual scaffold and targeting-logic allegation.
-- [Marandi 2026-04-28](../../../../years/2026/raw-input/2026-04-28/transcript-marandi-dialogue-works-trump-plan-dead-after-strike-2026-04-28.md) for Iranian moral-register treatment of Minab and Dana.
-- [Mercouris / Parsi 2026-05-06](../../../../years/2026/raw-input/2026-05-06/transcript-duran-mercouris-trita-parsi-us-iran-blockade-diplomacy-2026-05-06.md) for blockade failure, U.S. limits, and diplomacy architecture.
+- [Ritter 2026-03-14](../../../../years/2026/provenance/2026-03-14/substack-ritter-the-backpack-girls-2026-03-14.md) for the Minab factual scaffold and targeting-logic allegation.
+- [Marandi 2026-04-28](../../../../years/2026/provenance/2026-04-28/transcript-marandi-dialogue-works-trump-plan-dead-after-strike-2026-04-28.md) for Iranian moral-register treatment of Minab and Dana.
+- [Mercouris / Parsi 2026-05-06](../../../../years/2026/provenance/2026-05-06/transcript-duran-mercouris-trita-parsi-us-iran-blockade-diplomacy-2026-05-06.md) for blockade failure, U.S. limits, and diplomacy architecture.
 - [Mercouris thread](../../../../years/2026/mercouris/mercouris-thread.md) for the room-read rule: humanitarian, Holy See, MFA, family, and ORBAT registers must stay seamed unless primaries support a merge.
 - [Parsi speaker object](../../../../speakers/parsi/parsi-speaker-object.md), [Marandi speaker object](../../../../speakers/marandi/marandi-speaker-object.md), and [Mercouris speaker object](../../../speakers/mercouris/mercouris-speaker-object.md) for voice roles.
 

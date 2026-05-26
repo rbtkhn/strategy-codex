@@ -49,4 +49,9 @@ Read the stack in this order:
 
 The practical rule is simple: `civ-emp` remembers, `statecraft` drafts, and repo-root `statecraft/` is where those two layers now meet in the open.
 
+Archive law:
+
+- `source-archive/statecraft/` stores source-bearing full captures for statecraft
+- `statecraft/` owns live routing, continuity, bridge conditioning, and drafting control
+
 The former academy entrypoint remains at [codex/academy/statecraft/README.md](/C:/dev/strategy-codex/codex/academy/statecraft/README.md) as a compatibility pointer during migration. The repo-root `statecraft/` tree is the canonical live system.

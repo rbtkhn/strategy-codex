@@ -29,9 +29,9 @@ So this note is the **speaker-side index** into the real Macgregor host lanes an
 
 ## Best entry points
 
-- **Best single opening file:** [transcript-davis-macgregor-project-freedom-hormuz-2026-05-05.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-05/transcript-davis-macgregor-project-freedom-hormuz-2026-05-05.md)
-- **Best geopolitical-altitude opening file:** [transcript-macgregor-diesen-total-war-iran-2026-04-21.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-21/transcript-macgregor-diesen-total-war-iran-2026-04-21.md)
-- **Best Napolitano opening file:** [transcript-napolitano-macgregor-pentagon-terrible-war-planning-2026-04-23.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-23/transcript-napolitano-macgregor-pentagon-terrible-war-planning-2026-04-23.md)
+- **Best single opening file:** [transcript-davis-macgregor-project-freedom-hormuz-2026-05-05.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-05/transcript-davis-macgregor-project-freedom-hormuz-2026-05-05.md)
+- **Best geopolitical-altitude opening file:** [transcript-macgregor-diesen-total-war-iran-2026-04-21.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-21/transcript-macgregor-diesen-total-war-iran-2026-04-21.md)
+- **Best Napolitano opening file:** [transcript-napolitano-macgregor-pentagon-terrible-war-planning-2026-04-23.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-23/transcript-napolitano-macgregor-pentagon-terrible-war-planning-2026-04-23.md)
 - **Best mature monthly synthesis opening file:** [stream/macgregor-shelf-2026-04.md](stream/macgregor-shelf-2026-04.md)
 
 ## By shelf function

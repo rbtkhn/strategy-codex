@@ -104,7 +104,7 @@ Coverage basis:
 ### 1. End-of-Cold-War verbal assurances as a warning against stakeholder theater without treaty form
 
 - Example: `end of the Cold War verbal assurance / not one inch further`
-- Source: [2026-01-25 Dialogue Works / Nima](../../years/2026/raw-input/2026-01-25/transcript-alkorshid-crooke-systemic-collapse-explained-why-two-fronts-matter-2026-01-25.md)
+- Source: [2026-01-25 Dialogue Works / Nima](../../years/2026/provenance/2026-01-25/transcript-alkorshid-crooke-systemic-collapse-explained-why-two-fronts-matter-2026-01-25.md)
 - Exact quote:
 
 > "that has to be agreed formally, state to state, in a treaty or in a legal document, not ... the end of the Cold War ... done verbally"
@@ -133,7 +133,7 @@ Coverage basis:
 ### 2. The Monroe Doctrine as hemispheric base security rather than mere geographic curiosity
 
 - Example: `Monroe Doctrine`
-- Source: [2026-01-21 Substack](../../years/2026/raw-input/2026-01-21/substack-crooke-what-may-be-the-greenland-endgame-2026-01-21.md)
+- Source: [2026-01-21 Substack](../../years/2026/provenance/2026-01-21/substack-crooke-what-may-be-the-greenland-endgame-2026-01-21.md)
 - Exact quote:
 
 > "The Monroe Doctrine reassertion enables the Asia strategy. It does not replace it."
@@ -162,7 +162,7 @@ Coverage basis:
 ### 3. The Cold War outspend-the-USSR model as the dead inheritance of the American way of war
 
 - Example: `Cold War overmatch against the Soviet Union`
-- Source: [2026-05-13 Dialogue Works / Nima](../../years/2026/raw-input/2026-05-13/transcript-alkorshid-crooke-iran-smashed-the-us-military-model-china-is-watching-2026-05-13.md)
+- Source: [2026-05-13 Dialogue Works / Nima](../../years/2026/provenance/2026-05-13/transcript-alkorshid-crooke-iran-smashed-the-us-military-model-china-is-watching-2026-05-13.md)
 - Exact quote:
 
 > "the American way of war is as dead as the dodo. It was conceived during the cold war against the Soviet Union. It was about outspending Russia"
@@ -191,7 +191,7 @@ Coverage basis:
 ### 4. Vietnam and Afghanistan as proof of an imperial fantasy that mistakes unlimited violence for victory
 
 - Example: `Vietnam / Afghanistan`
-- Source: [2025-10-09 Glenn Diesen](../../years/2026/raw-input/2025-10-09/youtube-glenn-diesen-alastair-crooke-alastair-crooke-fake-peace-in-gaza-full-scale-war-with-iran-2025-10-09.md)
+- Source: [2025-10-09 Glenn Diesen](../../years/2026/provenance/2025-10-09/youtube-glenn-diesen-alastair-crooke-alastair-crooke-fake-peace-in-gaza-full-scale-war-with-iran-2025-10-09.md)
 - Exact quote:
 
 > "Trump said specifically look you know Vietnam we lost because we were politically correct."
@@ -220,7 +220,7 @@ Coverage basis:
 ### 5. Soviet implosion, fear, and the end of the old arms-control order
 
 - Example: `Soviet implosion / late Cold War arms-control order`
-- Source: [2026-05-20 Substack](../../years/2026/raw-input/2026-05-20/substack-crooke-paradoxically-fear-is-the-foundation-of-stability-deterrence-works-2026-05-20.md)
+- Source: [2026-05-20 Substack](../../years/2026/provenance/2026-05-20/substack-crooke-paradoxically-fear-is-the-foundation-of-stability-deterrence-works-2026-05-20.md)
 - Exact quote:
 
 > "Russian deterrence had had its effect - fear of nuclear war began to tip the balance of power ... for a while. The implosion of the Soviet Union in 1991, however, tilted it back."
@@ -251,7 +251,7 @@ Coverage basis:
 ### 6. Ottoman lineage as a warning against reading Syria as an empty contemporary chessboard
 
 - Example: `Ottoman lineage`
-- Source: [2025-09-12 Dialogue Works](../../years/2026/raw-input/2025-09-12/transcript-dialogue-works-alastair-crooke-alastair-crooke-middle-east-on-the-brink-russia-rains-down-drones-missiles-2025-09-12.md)
+- Source: [2025-09-12 Dialogue Works](../../years/2026/provenance/2025-09-12/transcript-dialogue-works-alastair-crooke-alastair-crooke-middle-east-on-the-brink-russia-rains-down-drones-missiles-2025-09-12.md)
 - Exact quote:
 
 > "the parts of Syria that were Ottoman [are] still part of the Ottoman lineage"
@@ -278,7 +278,7 @@ Coverage basis:
 ### 7. Iraq, Syria, Yemen, and Venezuela as one recurring regime-collapse fantasy
 
 - Example: `Iraq / Syria / Yemen / Venezuela house-of-cards logic`
-- Source: [2026-01-06 Glenn Diesen](../../years/2026/raw-input/2026-01-06/transcript-diesen-crooke-decline-irrationality-war-on-iran-2026-01-06.md)
+- Source: [2026-01-06 Glenn Diesen](../../years/2026/provenance/2026-01-06/transcript-diesen-crooke-decline-irrationality-war-on-iran-2026-01-06.md)
 - Exact quote:
 
 > "They did that in Syria, too. They promised money. They did that in Iraq. They bought off the Republican Guards in Iraq"
@@ -309,7 +309,7 @@ Coverage basis:
 ### 8. Ben-Gurion and Clausewitz as the lost alternative to permanent war
 
 - Example: `Ben-Gurion / Clausewitz`
-- Source: [2026-05-11 Daniel Davis](../../years/2026/raw-input/2026-05-11/transcript-davis-crooke-diplomatic-solution-more-war-2026-05-11.md)
+- Source: [2026-05-11 Daniel Davis](../../years/2026/provenance/2026-05-11/transcript-davis-crooke-diplomatic-solution-more-war-2026-05-11.md)
 - Exact quote:
 
 > "Ben-Gurion said we also ... our army is not about if you like warfare it is a means to finding solutions."
@@ -338,7 +338,7 @@ Coverage basis:
 ### 9. German Second World War "permanent security" and Nuremberg as the warning against redemptive extermination logic
 
 - Example: `German Second World War permanent security / Nuremberg`
-- Source: [2026-05-18 Judging Freedom](../../years/2026/raw-input/2026-05-18/transcript-napolitano-crooke-israels-war-unraveling-america-2026-05-18.md)
+- Source: [2026-05-18 Judging Freedom](../../years/2026/provenance/2026-05-18/transcript-napolitano-crooke-israels-war-unraveling-america-2026-05-18.md)
 - Exact quote:
 
 > "permanent security is a sort of idea that came from, in fact, from Germany in the Second World War"

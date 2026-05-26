@@ -22,9 +22,9 @@ Mercouris repeatedly uses Cold War history not as nostalgia but as a measuring d
 
 ## Exact Quote Anchors
 
-- [2025-01-10 native raw-input](../../../years/2026/raw-input/2025-01-10/youtube-alex-mercouris-putiin-trump-summit-coming-eu-frets-trump-will-cancel-sanctions-zelensky-2025-01-10.md): "even during the coldest periods of the Cold War there had continued to be some level of contact"
+- [2025-01-10 native raw-input](../../../years/2026/provenance/2025-01-10/youtube-alex-mercouris-putiin-trump-summit-coming-eu-frets-trump-will-cancel-sanctions-zelensky-2025-01-10.md): "even during the coldest periods of the Cold War there had continued to be some level of contact"
 - same source: "something completely different from anything we have seen ... during the Cold War"
-- [2026-05-19 native raw-input](../../../years/2026/raw-input/2026-05-19/youtube-alex-mercouris-russia-warns-nato-baltic-war-test-nuclear-forces-putin-to-china-trump-iran-retreat-konstantinovka-2026-05-19.md): "every single operational RSD10 Pioneer ... was destroyed after the 1987 INF treaty"
+- [2026-05-19 native raw-input](../../../years/2026/provenance/2026-05-19/youtube-alex-mercouris-russia-warns-nato-baltic-war-test-nuclear-forces-putin-to-china-trump-iran-retreat-konstantinovka-2026-05-19.md): "every single operational RSD10 Pioneer ... was destroyed after the 1987 INF treaty"
 
 ## What Mercouris Is Arguing
 

@@ -51,7 +51,7 @@ rg -n "Elon Musk|Musk|SpaceX|Starlink|Tesla|xAI|Neuralink" codex/years
 Snapshot from the first object pass:
 
 - `codex/years` contains 81 local files with a Musk / Musk-adjacent match.
-- `codex/years/2026/raw-input` contains 74 local files with a Musk / Musk-adjacent match.
+- `source-archive/statecraft` contains 74 local files with a Musk / Musk-adjacent match.
 
 Treat these counts as a refreshable search snapshot, not as a fixed source set.
 

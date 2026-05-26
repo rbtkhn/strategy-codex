@@ -60,7 +60,7 @@ DEFAULT_RAW_ROOT = DEFAULT_NOTEBOOK / "raw-input"
 DEFAULT_CONFIG = DEFAULT_RAW_ROOT / "fetch-sources.json"
 INBOX_APPEND_LINE = "_(Append below this line during the day.)_"
 USER_AGENT = (
-    "grace-mar-fetch-strategy-raw-input/1.0 "
+    "grace-mar-fetch-strategy-provenance/1.0 "
     "(+https://github.com/grace-mar; local strategy notebook ingest)"
 )
 

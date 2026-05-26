@@ -22,7 +22,7 @@ This theme holds Crooke's argument that Western strategy repeatedly mistakes dec
 
 ## Exact Quote Anchors
 
-- [2026-01-06 Diesen raw-input](../../../years/2026/raw-input/2026-01-06/transcript-diesen-crooke-decline-irrationality-war-on-iran-2026-01-06.md): "They did that in Iraq. They bought off the Republican Guards in Iraq"
+- [2026-01-06 Diesen raw-input](../../../years/2026/provenance/2026-01-06/transcript-diesen-crooke-decline-irrationality-war-on-iran-2026-01-06.md): "They did that in Iraq. They bought off the Republican Guards in Iraq"
 - same source: "Russia is a house of cards ... Venezuela is a house of cards. One shove"
 
 ## What Crooke Is Arguing

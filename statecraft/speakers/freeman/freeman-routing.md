@@ -8,13 +8,13 @@ Purpose: answer which Freeman lane or month shelf to open first without duplicat
 
 Transcript-first evidence, arc-first interpretation applies to Freeman's transcript-led host lanes.
 
-For transcript-led Freeman analysis, open the strongest actual transcript or transcript-bearing raw-input first, then use the relevant host-local arc to interpret the host-conditioned transformation. Extend into this routing note, the helix, month synthesis, or the provenance bench only after the transcript and arc layers, and preserve the seam when analysis moves beyond transcript truth.
+For transcript-led Freeman analysis, open the strongest actual transcript or transcript-bearing provenance capture first, then use the relevant host-local arc to interpret the host-conditioned transformation. Extend into this routing note, the helix, month synthesis, or the provenance bench only after the transcript and arc layers, and preserve the seam when analysis moves beyond transcript truth.
 
 Freeman now has a canonical statecraft shelf of his own, but the efficient reading order is still:
 
 - host-local arcs own chronology
 - the speaker shelf owns identity, support law, and bounded month synthesis
-- the raw-input bench owns provenance breadth
+- the provenance bench owns breadth
 
 ## Open by task
 
@@ -33,4 +33,4 @@ Freeman now has a canonical statecraft shelf of his own, but the efficient readi
 - Do not build a duplicate Freeman chronology here.
 - Do not treat this routing note, the month ladder, or the host-local arcs as substitutes for transcript authority.
 - Use the month ladder for bounded synthesis, not host replacement.
-- Use the raw-input bench when the needed appearance is outside the four core host lanes.
+- Use the provenance bench when the needed appearance is outside the four core host lanes.

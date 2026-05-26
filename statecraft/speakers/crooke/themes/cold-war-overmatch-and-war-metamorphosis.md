@@ -23,9 +23,9 @@ This theme holds Crooke's argument that a military-economic model forged in the 
 
 ## Exact Quote Anchors
 
-- [2026-05-13 Dialogue Works / Nima raw-input](../../../years/2026/raw-input/2026-05-13/transcript-alkorshid-crooke-iran-smashed-the-us-military-model-china-is-watching-2026-05-13.md): "the American way of war is as dead as the dodo"
+- [2026-05-13 Dialogue Works / Nima raw-input](../../../years/2026/provenance/2026-05-13/transcript-alkorshid-crooke-iran-smashed-the-us-military-model-china-is-watching-2026-05-13.md): "the American way of war is as dead as the dodo"
 - same source: "It was conceived during the cold war against the Soviet Union. It was about outspending Russia"
-- [2026-05-20 Substack raw-input](../../../years/2026/raw-input/2026-05-20/substack-crooke-paradoxically-fear-is-the-foundation-of-stability-deterrence-works-2026-05-20.md): "The implosion of the Soviet Union in 1991, however, tilted it back."
+- [2026-05-20 Substack raw-input](../../../years/2026/provenance/2026-05-20/substack-crooke-paradoxically-fear-is-the-foundation-of-stability-deterrence-works-2026-05-20.md): "The implosion of the Soviet Union in 1991, however, tilted it back."
 
 ## What Crooke Is Arguing
 

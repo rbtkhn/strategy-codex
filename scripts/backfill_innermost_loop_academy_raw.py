@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""Backfill The Innermost Loop into the academy singularity workshop.
+"""Backfill The Innermost Loop into the singularity-academy workshop.
 
 Uses Substack's public JSON endpoints:
   GET https://theinnermostloop.substack.com/api/v1/archive?sort=new&offset=N&limit=50
   GET https://theinnermostloop.substack.com/api/v1/posts/{slug}
 
 Writes one full, local, plain-text raw capture per newsletter under:
-  codex/academy/singularity/workshop/raw-input/innermost-loop/
+  source-archive/singularity/innermost-loop/
 
 WORK only; not Record.
 """
@@ -29,9 +29,9 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_HOST = "theinnermostloop.substack.com"
 DEFAULT_RAW_ROOT = (
     REPO_ROOT
-    / "codex/academy/singularity/workshop/raw-input/innermost-loop"
+    / "source-archive/singularity/innermost-loop"
 )
-DEFAULT_WORKSHOP_README = REPO_ROOT / "codex/academy/singularity/workshop/README.md"
+DEFAULT_WORKSHOP_README = REPO_ROOT / "singularity/workshop/README.md"
 DEFAULT_SHELF_README = REPO_ROOT / "codex/academy/singularity/README.md"
 USER_AGENT = "strategy-codex-innermost-loop-backfill/1.0 (+local academy singularity)"
 
@@ -266,12 +266,12 @@ def _update_readmes(
     workshop_body = (
         "Full local captures live here for close reading. Interpretive source sheets stay in "
         "`sheets/`; this folder preserves the newsletter text used to build them.\n\n"
-        + "\n".join(_render_index_lines(results, link_prefix="raw-input/innermost-loop"))
+        + "\n".join(_render_index_lines(results, link_prefix="../../source-archive/singularity/innermost-loop"))
     )
     shelf_body = (
         "Full local captures for the current Innermost Loop backfill live under "
-        "`workshop/raw-input/innermost-loop/`.\n\n"
-        + "\n".join(_render_index_lines(results, link_prefix="workshop/raw-input/innermost-loop"))
+        "`source-archive/singularity/innermost-loop/`.\n\n"
+        + "\n".join(_render_index_lines(results, link_prefix="../source-archive/singularity/innermost-loop"))
     )
 
     if workshop_readme.is_file():

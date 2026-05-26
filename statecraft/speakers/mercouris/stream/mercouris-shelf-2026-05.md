@@ -15,6 +15,11 @@ Month status: `mature dense-core month`
 - [mercouris-page-2026-05-08-to-2026-05-12.md](mercouris-page-2026-05-08-to-2026-05-12.md)
   - Dense-core frontier: Victory Day deterrence, coalition brittleness, corruption signals, and command stress inside Kiev.
 
+## Late-May reinforcement
+
+- [2026-05-24 Mercouris provenance capture](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-24/youtube-alex-mercouris-russian-massive-oreshnik-kiev-revenge-attack-stuns-ukraine-eu-zelensky-fears-russian-kiev-offensive-2026-05-24.md)
+  - Late-May frontier reinforcement: Starobelsk retaliation, large Kiev/Oreshnik strike, Bila Tserkva command-post speculation, Zelensky's fear of a renewed Kiev axis, and renewed Iran-negotiation pressure under U.S. neocon escalation talk.
+
 ## Reading note
 
 May 2026 Mercouris should be read less as a sequence of isolated episodes and more as the live frontier of the same dense-core run that stabilized in March and thickened in April. The emphasis shifts from first shock and blockade credibility toward persistence: whether U.S. and European language can still cohere with usable military, diplomatic, and financial instruments while Russia and Iran increasingly shape tempo through deterrent warning and exhaustion logic rather than theatrical declaration.
@@ -22,6 +27,8 @@ May 2026 Mercouris should be read less as a sequence of isolated episodes and mo
 ## Repair note
 
 May is a **mature dense-core month** already, but it is also a frontier month and therefore naturally less settled than March. The support surface is operationally strong enough to route now, yet future refinement may still sharpen individual May nodes as the month’s pages condense or extend. That does not change its dense-core status; it only reflects that frontier dense-core months mature while still live.
+
+The newly restored `2026-05-24` Mercouris capture strengthens the late-May frontier without yet forcing a new bounded page split. For now it should be read as reinforcement inside the same mature May object rather than as evidence that the month grammar itself needs redesign.
 
 ## Adjacent shelf
 

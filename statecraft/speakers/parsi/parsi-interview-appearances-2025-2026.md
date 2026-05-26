@@ -14,10 +14,10 @@ Purpose: canonical interview-pressure surface for the Parsi shelf.
 
 ## Best first openings
 
-- [2026-05-06 Duran / Mercouris](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-06/transcript-duran-mercouris-trita-parsi-us-iran-blockade-diplomacy-2026-05-06.md)
-- [2026-03-16 Davis](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-03-16/youtube-daniel-davis-deep-dive-iran-making-it-painful-for-u-s-trita-parsi-lt-col-daniel-davis-2026-03-16.md)
-- [2026-03-16 Napolitano](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-03-16/transcript-napolitano-parsi-how-washington-underestimated-iran-2026-03-16.md)
-- [2026-05-18 Diesen](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-18/youtube-glenn-diesen-trita-parsi-iran-war-marks-the-end-of-american-primacy-2026-05-18.md)
+- [2026-05-06 Duran / Mercouris](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-06/transcript-duran-mercouris-trita-parsi-us-iran-blockade-diplomacy-2026-05-06.md)
+- [2026-03-16 Davis](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-16/youtube-daniel-davis-deep-dive-iran-making-it-painful-for-u-s-trita-parsi-lt-col-daniel-davis-2026-03-16.md)
+- [2026-03-16 Napolitano](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-16/transcript-napolitano-parsi-how-washington-underestimated-iran-2026-03-16.md)
+- [2026-05-18 Diesen](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-18/youtube-glenn-diesen-trita-parsi-iran-war-marks-the-end-of-american-primacy-2026-05-18.md)
 
 ## Boundary
 

@@ -62,8 +62,8 @@ Status: continuity carryover
 Open:
 
 - [stream/ritter-shelf-2026-01.md](stream/ritter-shelf-2026-01.md)
-- [2026-01-27 Diesen](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-01-27/youtube-glenn-diesen-scott-ritter-us-iran-war-imminent-as-military-buildup-peaks-2026-01-27.md)
-- [2026-01-12 Judging Freedom](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-01-12/transcript-napolitano-ritter-how-close-is-putin-to-escalation-2026-01-12.md)
+- [2026-01-27 Diesen](/C:/dev/strategy-codex/source-archive/statecraft/2026-01-27/youtube-glenn-diesen-scott-ritter-us-iran-war-imminent-as-military-buildup-peaks-2026-01-27.md)
+- [2026-01-12 Judging Freedom](/C:/dev/strategy-codex/source-archive/statecraft/2026-01-12/transcript-napolitano-ritter-how-close-is-putin-to-escalation-2026-01-12.md)
 - [stream/ritter-forecast-ledger-2026.md](stream/ritter-forecast-ledger-2026.md)
 
 Monthly shelf rule:
@@ -78,9 +78,9 @@ Status: bridge month
 Open:
 
 - [stream/ritter-shelf-2026-02.md](stream/ritter-shelf-2026-02.md)
-- [2026-02-18 Dialogue Works](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-02-18/transcript-dialogue-works-scott-ritter-hormuz-blocked-iran-s-missile-fire-can-leave-the-us-navy-de-2026-02-18.md)
-- [2026-02-19 Diesen](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-02-19/youtube-glenn-diesen-scott-ritter-u-s-revives-empire-europe-is-no-longer-an-ally-2026-02-19.md)
-- [2026-02-23 Judging Freedom](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-02-23/transcript-napolitano-ritter-what-war-with-iran-will-look-like-2026-02-23.md)
+- [2026-02-18 Dialogue Works](/C:/dev/strategy-codex/source-archive/statecraft/2026-02-18/transcript-dialogue-works-scott-ritter-hormuz-blocked-iran-s-missile-fire-can-leave-the-us-navy-de-2026-02-18.md)
+- [2026-02-19 Diesen](/C:/dev/strategy-codex/source-archive/statecraft/2026-02-19/youtube-glenn-diesen-scott-ritter-u-s-revives-empire-europe-is-no-longer-an-ally-2026-02-19.md)
+- [2026-02-23 Judging Freedom](/C:/dev/strategy-codex/source-archive/statecraft/2026-02-23/transcript-napolitano-ritter-what-war-with-iran-will-look-like-2026-02-23.md)
 
 Monthly shelf rule:
 
@@ -111,10 +111,10 @@ Status: mature dense-core month
 Open:
 
 - [stream/ritter-shelf-2026-04.md](stream/ritter-shelf-2026-04.md)
-- [2026-04-13 Davis](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-13/youtube-daniel-davis-deep-dive-scott-ritter-trump-s-blockade-is-a-joke-2026-04-13.md)
-- [2026-04-08 Dialogue Works](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-08/transcript-dialogue-works-scott-ritter-the-us-war-on-iran-just-collapsed-ceasefire-does-the-imposs-2026-04-08.md)
-- [2026-04-17 Diesen](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-17/transcript-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md)
-- [2026-04-20 Judging Freedom](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-20/judging-freedom-trump-hegseth-2026-04-20.md)
+- [2026-04-13 Davis](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-13/youtube-daniel-davis-deep-dive-scott-ritter-trump-s-blockade-is-a-joke-2026-04-13.md)
+- [2026-04-08 Dialogue Works](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-08/transcript-dialogue-works-scott-ritter-the-us-war-on-iran-just-collapsed-ceasefire-does-the-imposs-2026-04-08.md)
+- [2026-04-17 Diesen](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-17/transcript-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md)
+- [2026-04-20 Judging Freedom](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-20/judging-freedom-trump-hegseth-2026-04-20.md)
 
 Why April matters:
 
@@ -127,10 +127,10 @@ Status: mature retrieval month
 Open:
 
 - [stream/ritter-shelf-2026-05.md](stream/ritter-shelf-2026-05.md)
-- [2026-05-04 Diesen](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-04/transcript-diesen-ritter-hormuz-return-to-war-2026-05-04.md)
-- [2026-05-06 Davis](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-06/youtube-daniel-davis-deep-dive-scott-ritter-we-ve-not-impacted-iran-as-we-re-being-told-2026-05-06.md)
-- [2026-05-13 Dialogue Works](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-13/transcript-dialogue-works-scott-ritter-iran-didn-t-break-it-adapted-now-stronger-than-ever-2026-05-13.md)
-- [2026-05-18 Judging Freedom](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-18/transcript-napolitano-ritter-the-us-will-never-learn-2026-05-18.md)
+- [2026-05-04 Diesen](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-04/transcript-diesen-ritter-hormuz-return-to-war-2026-05-04.md)
+- [2026-05-06 Davis](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-06/youtube-daniel-davis-deep-dive-scott-ritter-we-ve-not-impacted-iran-as-we-re-being-told-2026-05-06.md)
+- [2026-05-13 Dialogue Works](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-13/transcript-dialogue-works-scott-ritter-iran-didn-t-break-it-adapted-now-stronger-than-ever-2026-05-13.md)
+- [2026-05-18 Judging Freedom](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-18/transcript-napolitano-ritter-the-us-will-never-learn-2026-05-18.md)
 
 Why:
 

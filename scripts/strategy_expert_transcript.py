@@ -2,7 +2,7 @@
 """Triage inbox thread lines to per-expert transcript files (append + prune).
 
 Legacy machinery note: the canonical people-shelf contract is now
-``codex/speakers/<name>/`` plus ``codex/years/2026/raw-input/`` for provenance.
+``codex/speakers/<name>/`` plus ``source-archive/statecraft/`` for provenance.
 This script still contains older path assumptions and should not be read as the
 architectural source of truth.
 
@@ -131,7 +131,7 @@ def _iter_raw_input_md_paths(raw_root: Path, cutoff: date) -> list[Path]:
     """Markdown files under ``raw-input/YYYY-MM-DD/`` with folder date strictly after ``cutoff``.
 
     Folder names follow the notebook convention **publication / air day** (``pub_date``),
-    not ingest day; see ``raw-input/README.md`` § Layout.
+    not ingest day; see ``provenance/README.md`` § Layout.
     """
     if not raw_root.is_dir():
         return []

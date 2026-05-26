@@ -108,7 +108,7 @@ def build_dashboard_context(
     hint = build_strategy_return_hint(repo_root)
     inbox_path = repo_root / "codex" / "daily-strategy-inbox.md"
     status_path = repo_root / "codex" / "STATUS.md"
-    raw_root = repo_root / "codex" / "years" / "2026" / "raw-input"
+    raw_root = repo_root / "source-archive" / "statecraft"
     inbox_text = read_text(inbox_path)
     acc_date = accumulator_date_from_inbox(inbox_text)
     drift_days = accumulator_drift_days(acc_date, today=today)
@@ -154,7 +154,7 @@ def render_dashboard_html(ctx: DashboardContext) -> str:
         source_panel = f"""
         <section class="panel warning">
           <h2>Source Hygiene Panel</h2>
-          <p><strong>{h.raw_input_gap}</strong> possible raw-input gap(s) remain after ignoring placeholder YouTube IDs and rows with same-line raw-input pointers.</p>
+          <p><strong>{h.raw_input_gap}</strong> possible source-archive gap(s) remain after ignoring placeholder YouTube IDs and rows with same-line source pointers.</p>
           <ul class="source-list">
             {gap_items}
           </ul>
@@ -165,7 +165,7 @@ def render_dashboard_html(ctx: DashboardContext) -> str:
         source_panel = """
         <section class="panel calm">
           <h2>Source Hygiene Panel</h2>
-          <p>No raw-input gaps detected by the current heuristic. Keep treating this as advisory, not proof of complete sourcing.</p>
+          <p>No source-archive gaps detected by the current heuristic. Keep treating this as advisory, not proof of complete sourcing.</p>
         </section>
         """
 
@@ -173,7 +173,7 @@ def render_dashboard_html(ctx: DashboardContext) -> str:
         [
             card("Ready", h.ready, "Synthesis-ready clusters: batch-analysis, page-ready, strategy-page, compose-read, or weave.", "ready"),
             card("Verify", h.verify, "Lines carrying verify pressure or pending-primary language.", "verify"),
-            card("Raw-input gap", h.raw_input_gap, "Article-like URLs not matched to raw-input source_url or same-row raw-input pointer.", "gap"),
+            card("Source-archive gap", h.raw_input_gap, "Article-like URLs not matched to source-archive `source_url` or same-row source pointer.", "gap"),
             card("Carry", h.carry, "Open loop, revisit, falsifier, carry, or live-tension signals.", "carry"),
             card("Active chapter", h.active_chapter or "unknown", h.active_days_path or "No active days.md path resolved.", "chapter"),
             card("Accumulator drift", accumulator_drift_label(ctx.accumulator_drift_days), ctx.accumulator_status, "freshness"),
@@ -283,7 +283,7 @@ def render_dashboard_html(ctx: DashboardContext) -> str:
     <header>
       <div class="eyebrow">Derived Strategy-codex Operator View</div>
       <h1>Strategy Return Dashboard</h1>
-      <p class="lede">A static HTML reading layer for the Strategy return hint. It does not replace Markdown, raw-input, strategy pages, chapters, Coffee C Statecraft, or governed Record surfaces.</p>
+      <p class="lede">A static HTML reading layer for the Strategy return hint. It does not replace Markdown, source-archive, strategy pages, chapters, Coffee C Statecraft, or governed Record surfaces.</p>
       <div class="warning-strip">Non-canonical / derived / rebuildable. No files were mutated by this dashboard.</div>
     </header>
 

@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Build a durable master index for strategy-codex raw-input surfaces.
+"""Build a durable master index for strategy-codex source-archive surfaces.
 
-WORK only. This script reads the raw-input tree and writes a generated
-corpus-wide index plus a machine-readable JSON companion. It does not edit
-speaker folders, host shelves, or Record surfaces.
+WORK only. This script reads the statecraft source-archive tree and writes generated
+statecraft-side index artifacts plus machine-readable JSON companions. It does
+not edit source-archive captures, speaker folders, host shelves, or Record surfaces.
 """
 
 from __future__ import annotations
@@ -27,7 +27,8 @@ if str(SCRIPTS_DIR) not in sys.path:
 import build_speaker_routing_queue as speaker_routing  # noqa: E402
 
 
-DEFAULT_RAW_ROOT = REPO_ROOT / "codex" / "years" / str(date.today().year) / "raw-input"
+DEFAULT_RAW_ROOT = REPO_ROOT / "source-archive" / "statecraft"
+DEFAULT_OUTPUT_ROOT = REPO_ROOT / "statecraft" / "sheets"
 DATE_DIR_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 FRONTMATTER_RE = re.compile(r"^---\s*\n(.*?)\n---\s*\n", re.DOTALL)
 WORD_RE = re.compile(r"\b[\w'-]+\b")
@@ -376,6 +377,7 @@ def build_audit_payload(
     raw_root: Path,
     *,
     canonical: list[RawInputRecord],
+    output_root: Path = DEFAULT_OUTPUT_ROOT,
 ) -> dict[str, Any]:
     speakers_root = _speakers_root(raw_root)
     speaker_indexes = _speaker_index_paths(speakers_root)
@@ -422,9 +424,9 @@ def build_audit_payload(
         "speakers_root": _rel(speakers_root),
         "master_index": {
             "expected_markdown": 1,
-            "found_markdown": 1 if (raw_root / "raw-input-master-index.md").exists() else 0,
+            "found_markdown": 1 if (output_root / "source-archive-master-index.md").exists() else 0,
             "expected_json": 1,
-            "found_json": 1 if (raw_root / "raw-input-master-index.json").exists() else 0,
+            "found_json": 1 if (output_root / "source-archive-master-index.json").exists() else 0,
         },
         "speaker_raw_input_indexes": [
             {"speaker": path.parent.name, "path": _rel(path)} for path in speaker_indexes
@@ -450,25 +452,26 @@ def render_audit_markdown(
     raw_root: Path,
     *,
     canonical: list[RawInputRecord],
+    output_root: Path = DEFAULT_OUTPUT_ROOT,
 ) -> str:
-    payload = build_audit_payload(raw_root, canonical=canonical)
+    payload = build_audit_payload(raw_root, canonical=canonical, output_root=output_root)
     lines = [
-        "# Raw-input index architecture audit",
+        "# Source-Archive index architecture audit",
         "",
         f"Generated: `{payload['generated_at']}`",
         "",
-        "WORK only; not Record. This is a heuristic audit over raw-input and speaker routing surfaces.",
+        "WORK only; not Record. This is a heuristic audit over source-archive and speaker routing surfaces.",
         "",
         "## Summary",
         "",
         f"- corpus-wide master indexes expected: `markdown={payload['master_index']['expected_markdown']}`, `json={payload['master_index']['expected_json']}`",
         f"- corpus-wide master indexes found: `markdown={payload['master_index']['found_markdown']}`, `json={payload['master_index']['found_json']}`",
-        f"- speaker raw-input indexes present: `{payload['summary']['speaker_raw_input_index_count']}`",
+        f"- speaker source-capture indexes present: `{payload['summary']['speaker_raw_input_index_count']}`",
         f"- candidate arc index surfaces: `{payload['summary']['candidate_arc_index_surface_count']}`",
         f"- weak justification signals: `{payload['summary']['weak_justification_signal_count']}`",
         f"- plausible missing benches: `{payload['summary']['missing_bench_candidate_count']}`",
         "",
-        "## Speaker raw-input indexes",
+        "## Speaker source-capture indexes",
         "",
     ]
     for row in payload["speaker_raw_input_indexes"]:
@@ -520,13 +523,13 @@ def render_markdown(
     day_records = _day_summary(canonical)
 
     lines = [
-        "# Raw-input master index",
+        "# Source-Archive master index",
         "",
         f"Generated: `{generated_at}`",
         "",
-        "WORK only; not Record. This file is generated from the on-disk raw-input tree.",
+        "WORK only; not Record. This file is generated from the on-disk source-archive tree.",
         "",
-        "Authority rule: the dated raw-input folders remain authoritative; this index is the durable route map over that tree.",
+        "Authority rule: the dated source-archive folders remain authoritative; this index is the durable route map over that tree.",
         "",
         "## Scope",
         "",
@@ -628,17 +631,19 @@ def build_payload(raw_root: Path) -> dict[str, Any]:
 def write_outputs(
     raw_root: Path,
     *,
-    index_name: str = "raw-input-master-index",
+    output_root: Path = DEFAULT_OUTPUT_ROOT,
+    index_name: str = "source-archive-master-index",
 ) -> dict[str, Path]:
     canonical, pending, helpers = discover_records(raw_root)
     markdown = render_markdown(raw_root=raw_root, canonical=canonical, pending=pending, helpers=helpers)
     payload = build_payload(raw_root)
-    audit_markdown = render_audit_markdown(raw_root, canonical=canonical)
-    audit_payload = build_audit_payload(raw_root, canonical=canonical)
-    md_path = raw_root / f"{index_name}.md"
-    json_path = raw_root / f"{index_name}.json"
-    audit_md_path = raw_root / "raw-input-index-audit.md"
-    audit_json_path = raw_root / "raw-input-index-audit.json"
+    audit_markdown = render_audit_markdown(raw_root, canonical=canonical, output_root=output_root)
+    audit_payload = build_audit_payload(raw_root, canonical=canonical, output_root=output_root)
+    output_root.mkdir(parents=True, exist_ok=True)
+    md_path = output_root / f"{index_name}.md"
+    json_path = output_root / f"{index_name}.json"
+    audit_md_path = output_root / "source-archive-index-audit.md"
+    audit_json_path = output_root / "source-archive-index-audit.json"
     md_path.write_text(markdown, encoding="utf-8")
     json_path.write_text(json.dumps(payload, indent=2, ensure_ascii=True) + "\n", encoding="utf-8")
     audit_md_path.write_text(audit_markdown, encoding="utf-8")
@@ -653,8 +658,9 @@ def write_outputs(
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--raw-root", type=Path, default=DEFAULT_RAW_ROOT, help="Raw-input root to index.")
-    parser.add_argument("--index-name", default="raw-input-master-index", help="Base filename for generated outputs.")
+    parser.add_argument("--raw-root", type=Path, default=DEFAULT_RAW_ROOT, help="Statecraft source-archive root to index.")
+    parser.add_argument("--output-root", type=Path, default=DEFAULT_OUTPUT_ROOT, help="Statecraft sheets directory for generated outputs.")
+    parser.add_argument("--index-name", default="source-archive-master-index", help="Base filename for generated outputs.")
     parser.add_argument("--json", action="store_true", help="Print JSON payload to stdout instead of writing files.")
     parser.add_argument("--markdown", action="store_true", help="Print Markdown index to stdout instead of writing files.")
     parser.add_argument("--audit-json", action="store_true", help="Print the index-architecture audit JSON to stdout.")
@@ -684,7 +690,7 @@ def main(argv: list[str] | None = None) -> int:
     if not args.apply:
         print("raw_input_master_index: pass --apply, --json, --markdown, --audit-json, or --audit-markdown", file=sys.stderr)
         return 2
-    outputs = write_outputs(raw_root, index_name=args.index_name)
+    outputs = write_outputs(raw_root, output_root=args.output_root.resolve(), index_name=args.index_name)
     print(json.dumps({key: _rel(value) for key, value in outputs.items()}, indent=2, ensure_ascii=True))
     return 0
 

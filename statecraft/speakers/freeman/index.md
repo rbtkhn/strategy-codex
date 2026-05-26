@@ -8,7 +8,7 @@ Purpose: front door for the canonical Freeman statecraft shelf, surfacing the pe
 
 - [Speaker arc](freeman-arc.md) - whole-speaker continuity and the canonical answer to who Freeman is as a speaker object.
 - [Speaker routing note](freeman-routing.md) - fastest answer to which host lane or monthly shelf to open first.
-- [Raw-input index](freeman-raw-input-index.md) - exhaustive route map for materialized Freeman appearances currently in the repo.
+- [Provenance index](freeman-raw-input-index.md) - exhaustive route map for materialized Freeman appearances currently in the repo.
 - [Speaker helix note](freeman-helix.md) - why the four core host lanes, non-core bench, and month ladder fit together before you descend into one lane.
 - [Support spine](freeman-support-spine-2025-2026.md) - canonical maturity and month-support law.
 - [March monthly shelf](stream/freeman-shelf-2026-03.md) - first mature war-system month.
@@ -52,4 +52,4 @@ These monthly files are bounded synthesis shelves. They do not replace host-loca
 
 ## Boundary
 
-This index is a route map. Raw-text authority stays in `raw-input`; host-local arcs still own chronology; speaker identity, maturity, monthly synthesis, and historical scaffolding live on this statecraft-side shelf.
+This index is a route map. Raw-text authority stays in `provenance`; host-local arcs still own chronology; speaker identity, maturity, monthly synthesis, and historical scaffolding live on this statecraft-side shelf.

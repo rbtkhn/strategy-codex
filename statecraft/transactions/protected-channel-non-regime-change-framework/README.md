@@ -27,8 +27,8 @@ For America, the crisis is not simply whether leadership targeting works. It is 
 
 ## Shared Source Frame
 
-- [Parsi 2026-03-08](../../../../years/2026/raw-input/2026-03-08/substack-parsi-why-the-iranian-theocracy-will-likely-survive-2026-03-08.md) for the warning that collapse assumptions misread Iranian institutional resilience after Khamenei's assassination.
-- [Parsi 2026-03-17](../../../../years/2026/raw-input/2026-03-17/substack-parsi-why-was-larijani-targeted-2026-03-17.md) for the claim that targeting Larijani likely destroys off-ramps and narrows Trump's path to ending the war.
+- [Parsi 2026-03-08](../../../../years/2026/provenance/2026-03-08/substack-parsi-why-the-iranian-theocracy-will-likely-survive-2026-03-08.md) for the warning that collapse assumptions misread Iranian institutional resilience after Khamenei's assassination.
+- [Parsi 2026-03-17](../../../../years/2026/provenance/2026-03-17/substack-parsi-why-was-larijani-targeted-2026-03-17.md) for the claim that targeting Larijani likely destroys off-ramps and narrows Trump's path to ending the war.
 - [Parsi speaker object](../../../../speakers/parsi/parsi-speaker-object.md) and [Parsi helix](../../../../speakers/parsi/parsi-helix.md) for the policy-process reading rule.
 - [Iran authority structure](../../iran/state/authority-structure.md) and [Supreme Leader carrier profile](../../iran/state/supreme-leader.md) for Iranian continuity and sovereign authority.
 

@@ -35,7 +35,7 @@ _RE_RAW_INPUT_DATED = re.compile(
     r"(?:^|/)raw-input/(\d{4}-\d{2}-\d{2})/"
 )
 # _aired-pending and similar
-_RE_RAW_INPUT_PENDING = re.compile(r"(?:^|/)raw-input/_aired-pending/")
+_RE_RAW_INPUT_PENDING = re.compile(r"(?:^|/)provenance/_aired-pending/")
 
 # Managed HTML word count (line-anchored for detection; in-place number swap for updates)
 RE_MANAGED_WC = re.compile(
@@ -84,8 +84,8 @@ def _is_eligible_path(rel: Path) -> bool:
     if _RE_RAW_INPUT_DATED.search(s):
         return False
     if "/raw-input/" in s or s.startswith("raw-input/"):
-        # Only raw-input/README.md at notebook root
-        if s in ("raw-input/README.md", "raw-input\\README.md"):
+        # Only provenance/README.md at notebook root
+        if s in ("provenance/README.md", "raw-input\\README.md"):
             return True
         return False
     return True

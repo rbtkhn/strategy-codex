@@ -2,7 +2,7 @@
 """
 Generate a cici-ai support review from standardized member profiles.
 
-The script reads docs/skill-work/work-cici/member-profiles/*.md, extracts the
+The script reads singularity/work-cici/member-profiles/*.md, extracts the
 standard fields, and emits:
 - a markdown support review table
 - a Telegram-ready payment-track message
@@ -21,7 +21,7 @@ from pathlib import Path
 
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-PROFILE_DIR = REPO_ROOT / "docs" / "skill-work" / "work-cici" / "member-profiles"
+PROFILE_DIR = REPO_ROOT / "singularity" / "work-cici" / "member-profiles"
 OUTPUT_PATH = PROFILE_DIR / "support-review.md"
 
 

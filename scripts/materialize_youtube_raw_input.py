@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Atomically materialize approved YouTube URLs into strategy-codex raw-input.
+"""Atomically materialize approved YouTube URLs into the statecraft source-archive.
 
 WORK only; not Record. This script consumes operator-approved URLs. It does
 not decide which stream items deserve capture.
@@ -43,7 +43,7 @@ WATCHLIST_PATH = (
     / "work-strategy"
     / "cognition-streams-watchlist.json"
 )
-DEFAULT_NOTEBOOK_ROOT = REPO_ROOT / "codex" / "years" / str(date.today().year)
+DEFAULT_NOTEBOOK_ROOT = REPO_ROOT / "source-archive" / "statecraft"
 DEFAULT_RECEIPT_ROOT = REPO_ROOT / ".codex-tmp" / "youtube-raw-input"
 DEFAULT_ROUTING_OUT = REPO_ROOT / "artifacts" / "speaker-routing"
 DEFAULT_ACTION_OUT = REPO_ROOT / "artifacts" / "speaker-memory-actions"
@@ -265,7 +265,7 @@ def classify_evidence_grade(frontmatter: dict[str, Any], verification_reason: st
 
 
 def find_existing_valid_raw_input(notebook_root: Path, url: str) -> tuple[Path, VerificationResult] | None:
-    raw_root = notebook_root / "raw-input"
+    raw_root = notebook_root
     if not raw_root.is_dir():
         return None
     canonical = canonical_watch_url(url)
@@ -501,7 +501,7 @@ def build_frontmatter(
 
 
 def output_path_for(notebook_root: Path, pub_date: str, file_prefix: str, title: str) -> Path:
-    return notebook_root / "raw-input" / pub_date / f"{file_prefix}-{slugify(title)}-{pub_date}.md"
+    return notebook_root / pub_date / f"{file_prefix}-{slugify(title)}-{pub_date}.md"
 
 
 def manual_context(item: ApprovedUrl) -> dict[str, Any]:
@@ -938,7 +938,7 @@ def _manual_frontmatter(row: dict[str, Any], *, ingest_date: str) -> dict[str, A
         "title": str(row.get("title") or "PASTE TITLE HERE"),
         "source_url": source_url,
         "source_note": "Transcript pasted manually by operator after automated yt-dlp fetch failed.",
-        "editorial_note": "Manual scaffold generated in receipts only; save to canonical raw-input only after replacing the paste marker with a real transcript body.",
+        "editorial_note": "Manual scaffold generated in receipts only; save to the canonical statecraft source-archive only after replacing the paste marker with a real transcript body.",
     }
     for key in ("youtube_id", "channel_slug", "show", "host", "guest", "thread"):
         value = str(row.get(key) or "").strip()
@@ -963,7 +963,7 @@ def _manual_draft_text(row: dict[str, Any], *, ingest_date: str) -> str:
     return (
         f"{_manual_frontmatter_text(row, ingest_date=ingest_date)}\n"
         f"# {title}\n\n"
-        "[PASTE FULL TRANSCRIPT BODY HERE. Delete this line before saving canonical raw-input.]\n"
+        "[PASTE FULL TRANSCRIPT BODY HERE. Delete this line before saving canonical source-archive capture.]\n"
     )
 
 
@@ -981,7 +981,7 @@ def _manual_paste_body_text(row: dict[str, Any], *, target_path: Path | None) ->
 
 def _manual_verify_command(target_path: Path | None) -> str:
     if not target_path:
-        return "After saving the canonical raw-input, run the materializer with --raw-input <path> --with-appearances."
+        return "After saving the canonical source-archive capture, run the materializer with --raw-input <path> --with-appearances."
     return (
         f'python scripts\\materialize_youtube_raw_input.py --raw-input "{target_path}" '
         "--with-appearances --purpose one-off --tranche-label manual-transcript"
@@ -991,7 +991,7 @@ def _manual_verify_command(target_path: Path | None) -> str:
 def _manual_verify_script(command: str) -> str:
     return (
         "# Manual transcript verification helper.\n"
-        "# Run from the strategy-codex repository root after saving the filled raw-input draft.\n"
+        "# Run from the strategy-codex repository root after saving the filled source-archive draft.\n"
         f"{command}\n"
     )
 
@@ -1026,7 +1026,7 @@ def _manual_scaffold_body(
         "2. Copy the full transcript, not only a summary or chapter list.\n"
         "3. Paste into the `.paste-body.txt` buffer if you want a scratch step.\n"
         "4. Replace the paste marker in the `.draft.md` file with the transcript body.\n"
-        "5. Save the filled draft to the canonical raw-input path above.\n"
+        "5. Save the filled draft to the canonical source-archive path above.\n"
         "6. Run the verification/routing command below before claiming capture.\n\n"
         "## Curator Notes\n\n"
         "- curator_note: \n"
@@ -1078,7 +1078,7 @@ def _manual_queue_body(entries: list[dict[str, str]]) -> str:
             "",
             "- `needs-paste`: no human transcript body has been added yet.",
             "- `pasted-needs-verify`: body has been pasted into the draft but verification has not passed yet.",
-            "- `verified`: canonical raw-input exists and the materializer accepted it.",
+            "- `verified`: canonical source-archive capture exists and the materializer accepted it.",
             "- `blocked`: human transcript source is unavailable or incomplete.",
         ]
     )
@@ -1209,7 +1209,7 @@ def write_receipts(
 
 
 def build_master_index_artifacts(*, notebook_root: Path) -> dict[str, str]:
-    raw_root = notebook_root / "raw-input"
+    raw_root = notebook_root
     written = raw_input_master_index.write_outputs(raw_root)
     return {
         "raw_input_master_index_markdown": str(written["markdown"]),
@@ -1225,7 +1225,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--input", type=Path, default=None, help="JSONL or plain-text approved URL list.")
     parser.add_argument("--notebook-root", type=Path, default=DEFAULT_NOTEBOOK_ROOT)
     parser.add_argument("--ingest-date", default=date.today().isoformat(), help="YYYY-MM-DD")
-    parser.add_argument("--apply", action="store_true", help="Write canonical raw-input files.")
+    parser.add_argument("--apply", action="store_true", help="Write canonical statecraft source-archive files.")
     parser.add_argument("--no-apply", action="store_false", dest="apply", help="Dry-run without canonical writes.")
     parser.add_argument("--receipt-root", type=Path, default=DEFAULT_RECEIPT_ROOT)
     parser.add_argument("--run-id", default="", help="Receipt subdirectory name. Defaults to UTC timestamp.")

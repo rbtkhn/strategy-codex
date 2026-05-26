@@ -1,0 +1,224 @@
+# cici-ai Community Dashboard
+
+**Status:** WORK / operator dashboard  
+**Scope:** cici-ai team / Neural Sandbox / GitHub activation loop
+**Boundary:** This dashboard is not Cici's Record. It tracks community activation signals for the Grace-Mar advisor lane only.
+
+### Owner / cadence
+
+- Owner:
+- Review cadence: weekly
+- Review day:
+- Evidence window:
+- Review output: updated dashboard row + weekly governance review note
+- Primary templates:
+  - [cici-ai-first-task-proof-packet.md](cici-ai-first-task-proof-packet.md)
+  - [cici-ai-weekly-governance-review-template.md](cici-ai-weekly-governance-review-template.md)
+
+---
+
+## 1. Purpose
+
+Track whether the cici-ai community is producing real companion / OB1 / coding / learning activation, not passive joins alone. This dashboard is a WORK surface for operator decisions, coaching focus, and next experiments.
+
+In this project, the `cici-ai` team is a cohort activation surface: it should move people from curiosity into safe first setup, visible troubleshooting, repeatable check-ins, and eventually peer help. Telegram provides the social room; GitHub provides durable artifacts; work-cici records evidence and coaching signals for the operator.
+
+Do not treat `cici-ai` as Cici's Record, as the canonical repository, or as a vanity audience metric. A member has not "activated" merely by joining.
+
+The Predictive History comment rollout is one of the group's core public-output measures: the team should measure both **comment quality** and **comment reach** as a public-output signal. Quality is the primary score and should reflect doctrine fit, specificity, usefulness, and tone; reach is the distribution score and should reflect whether the comment is actually being seen, engaged, or replied to in public.
+
+When this measure is also being used as a recursive-AI test surface, route it through [Predictive History YouTube Comment Lab](../../../../singularity/workshop/sheets/predictive-history-youtube-comment-lab.md) so the public-output work stays connected to control-plane, training, and reuse questions rather than flattening into generic promotion.
+
+Boundary reminder: this tracked measure covers the promotion/distribution experiment around `ph-civ`; it does not stand in for corpus completion, commentary quality, or editorial progress inside the actual Predictive History repo/folder surfaces.
+
+The first team message frames the cohort as a 10-scholarship opportunity for AI-curious aspiring entrepreneurs. Treat scholarship, employment, equity, and crypto-payment language as offer-sensitive: track it for operator follow-up, but do not convert it into legal or HR commitments inside work-cici.
+
+## 2. Source pointers
+
+- [cici-ai-first-task-proof-packet.md](cici-ai-first-task-proof-packet.md)  
+- [cici-ai-weekly-governance-review-template.md](cici-ai-weekly-governance-review-template.md)  
+- [cici-ai-daily-telegram-brief.md](cici-ai-daily-telegram-brief.md)
+- [evidence/cici-ai-first-telegram-message-2026-04-30.md](evidence/cici-ai-first-telegram-message-2026-04-30.md)
+- [evidence/cici-ai-next-steps-message-2026-05-01.md](evidence/cici-ai-next-steps-message-2026-05-01.md)
+- [evidence/cici-ai-first-applicant-wave-2026-04-30.md](evidence/cici-ai-first-applicant-wave-2026-04-30.md)
+- [evidence/cici-telegram-cici-ai-group-operator-2026-04-25.md](evidence/cici-telegram-cici-ai-group-operator-2026-04-25.md)
+- [evidence/cici-telegram-cici-ai-members-snapshot-2026-04-27.md](evidence/cici-telegram-cici-ai-members-snapshot-2026-04-27.md)  
+- [evidence/cici-ai-github-telegram-match-report-2026-04-24.md](evidence/cici-ai-github-telegram-match-report-2026-04-24.md)  
+- [evidence/github-neural-sandbox-cohort-2026-04-24.md](evidence/github-neural-sandbox-cohort-2026-04-24.md)  
+- [cici-community-mission-operator.md](cici-community-mission-operator.md)  
+- [telegram-cici-ai-pinned-and-welcome-copy.md](telegram-cici-ai-pinned-and-welcome-copy.md)  
+- [evidence/cici-operator-screenshots-ingest-2026-04-30.md](evidence/cici-operator-screenshots-ingest-2026-04-30.md)
+- [handoffs/cici-cici-ai-launch-instructions.md](handoffs/cici-cici-ai-launch-instructions.md)  
+- [cici-pilot-propagation-low-cost-operator.md](cici-pilot-propagation-low-cost-operator.md)  
+- [apprentice-studio-pilot-ops.md](apprentice-studio-pilot-ops.md)
+- [predictive-history-comment-targeting-rubric.md](predictive-history-comment-targeting-rubric.md)
+- [predictive-history-comment-template-pack.md](predictive-history-comment-template-pack.md)
+- [predictive-history-comment-tracker.md](predictive-history-comment-tracker.md)
+- [predictive-history-comment-draft-workflow.md](predictive-history-comment-draft-workflow.md)
+- [../work-business/grace-gems/apprentice-studio-task-pack.md](../work-business/grace-gems/apprentice-studio-task-pack.md)
+- Treasury / payment rail note: `1NzCF9NTqU25NvX9KfXE9zoH1wEadkmjWJ`
+
+Weekly review instances: [reviews/](reviews/).
+
+## 3. Funnel
+
+invited  
+-> joined  
+-> introduced self  
+-> stated goal  
+-> cloned repo / opened workspace  
+-> completed first guided task  
+-> returned within 7 days  
+-> opened issue / PR / artifact  
+-> became helper for another member
+
+## 4. Weekly snapshot table
+
+| Week of | Evidence links reviewed | Invited | Joined | Introduced | Goal stated | First task completed | Returned within 7d | Issue / PR / artifact | Helper behavior | Notes |
+| :--- | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | :--- |
+| 2026-04-30 | [first message](evidence/cici-ai-first-telegram-message-2026-04-30.md); [first applicant wave](evidence/cici-ai-first-applicant-wave-2026-04-30.md) | 10 | 5 | 5 | 0 | 0 | 0 | 0 | 0 | Confidence B from operator-supplied Telegram text. Five applicants introduced themselves and shared GitHub accounts; OB1 fork / first task not yet evidenced. |
+| 2026-05-01 | [Telegram self-claims](evidence/cici-ai-telegram-self-claims-2026-05-01.md); [GitHub match report](evidence/cici-ai-github-telegram-match-report-2026-04-24.md) | 0 | 4 | 4 | 0 | 0 | 0 | 0 | 0 | Confidence B from operator-supplied Telegram text. Four direct self-claims confirm existing GitHub mappings; two messages include fork signals, but first task is still not evidenced. |
+| YYYY-MM-DD |  |  |  |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |  |  |  |
+
+## 4a. Apprentice Studio weekly row
+
+Use this subsection when Grace Gems is serving as the real-work substrate for the month-one pilot.
+
+| Week of | Participants attempted | Evidence-linked completions | Accepted | Accepted with edits | Not yet reusable | Returning participants | Second tasks completed | Reused prompt/workflow improvement | Notes |
+| :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | :--- | :--- |
+| YYYY-MM-DD |  |  |  |  |  |  |  |  |  |
+
+### Apprentice Studio readout
+
+Every filled row should be able to answer:
+
+- did activation energy drop?
+- did output quality become more reusable?
+- did the operator spend less time rescuing basic execution?
+
+### Evidence-linked row rule
+
+Every nonzero metric must point to one of: a source pointer, an artifact link, an evidence file, a weekly governance review note, or a proof packet. If a count is known but evidence is incomplete, mark it with confidence **C** and add a follow-up note.
+
+### Confidence tags
+
+- **A** = direct artifact or repo-visible evidence
+- **B** = direct operator observation or private evidence pointer
+- **C** = indirect claim, self-report, or inferred activity requiring confirmation
+
+### First task completed rule
+
+**First task completed** is not satisfied by joining, reacting, or expressing interest. It requires a [proof packet](cici-ai-first-task-proof-packet.md) or equivalent evidence-linked artifact. See [cici-ai-first-task-proof-packet.md](cici-ai-first-task-proof-packet.md).
+
+For `Apprentice Studio`, `accepted` and `accepted with edits` both count as completed tasks if the artifact is real, evidence-linked, and reviewable. `not yet reusable` counts as an attempt, not a completion.
+
+### Helper behavior graduation threshold
+
+**Candidate helper**
+
+- one verified first task
+- plus one observable support action
+
+**Helper**
+
+- two observable support actions  
+- or one successful onboarding/support action that helps another member complete a task
+
+### Weekly governance review rule
+
+Each completed weekly dashboard row should either link to a weekly governance review note, or explicitly say `review not yet completed.` Use [cici-ai-weekly-governance-review-template.md](cici-ai-weekly-governance-review-template.md) for the review.
+
+## 5. Activation definitions
+
+- **Invited**: A direct invite, referral, or explicit outreach attempt is logged in operator evidence or outreach notes.  
+- **Joined**: Visible membership or explicit join evidence exists in linked community evidence.  
+- **Introduced self**: A message introduces their background, intent, or role.  
+- **Goal stated**: The member declares a concrete target (learning, build, deployment, workflow, or contribution outcome).  
+- **Cloned repo / opened workspace**: Observable setup activity exists (clone confirmation, workspace screenshot, setup note, or equivalent artifact pointer).  
+- **First task completed**: Requires proof packet or equivalent (see [cici-ai-first-task-proof-packet.md](cici-ai-first-task-proof-packet.md)); not met by interest-only signals.  
+- **Returned within 7d**: Observable follow-up activity appears within seven days of first activation.  
+- **Issue / PR / artifact**: A visible output is published or shared for review.  
+- **Helper behavior**: The member supports another member with guidance, feedback, troubleshooting, or onboarding help.  
+
+## 6. Qualitative observations
+
+### What worked
+
+- Operator screenshot evidence indicates the `cici-ai` launch sequence successfully moved from copy to live setup: pinned message, welcome, join-link evidence, team avatar, and repo-committed brand assets.
+
+### What confused people
+
+- 
+
+### What produced action
+
+- The first scholarship message produced five visible applicant introductions with GitHub accounts shared: Jon, Jayr, Xavier, Pango, and Troy. Treat this as early funnel activation, not proof of OB1 fork or first task completion.
+- The new next-steps message clarifies the roles of OB1 and Cici: member-owned workspace versus community guide/reference path.
+- Live GitHub review shows the cohort is past pure sign-up mode: Troy, Ka Kyle, Pango, Ell, Kekervs, Han nah, and Xavier all have visible fork activity, while `jiaj259` and `salajosefinosys` still need handle cleanup before we trust the mapping.
+- The latest 48-hour sweep adds fresh motion from `salajosefinojr-sys`, `Adelle-sims`, `jhon-ell16`, `PenguinPH739`, `nana-rpix`, and `Xavier-x01`; `jiaj259` is still unresolved and the quieter accounts remain on the follow-up list rather than the active-change list.
+
+### What needs a simpler prompt
+
+- Next prompt should ask for one concrete artifact only: "Reply with your OB1 fork URL or a screenshot showing the fork in your GitHub account."
+
+### What should be retired or simplified
+
+- Treat the optional one-line team description as a parked polish item, not a blocker for the launch being live.
+
+## 7. Predictive History comment rollout
+
+Treat the public Predictive History comment rollout as a tracked measure for `cici-ai`.
+
+Singularity overlay reference: [Predictive History YouTube Comment Lab](../../../../singularity/workshop/sheets/predictive-history-youtube-comment-lab.md)
+
+### Score dimensions
+
+| Dimension | What it measures | Evidence |
+| :--- | :--- | :--- |
+| Quality | Whether the comment follows the doctrine, stays lecture-specific, uses the right phase template, and offers a useful reader path without hype | Review note, approved draft, posting receipt |
+| Reach | Whether the comment actually lands in public and gets visible engagement | Posted comment URL, likes, replies, creator response, thread follow-up |
+
+### Quality scoring guide
+
+- **5** = exact doctrine fit, specific to the lecture, quiet tone, useful reader path, no boilerplate drift
+- **4** = strong fit with minor wording polish needed
+- **3** = acceptable but generic or slightly repetitive
+- **2** = weak fit, too vague, or too close to template spam
+- **1** = off-tone or not useful
+
+### Reach scoring guide
+
+- **5** = posted to a target video and receives visible engagement or creator interaction
+- **4** = posted to a target video with clear public visibility and at least one engagement signal
+- **3** = posted to a target video with no engagement yet
+- **2** = parked, delayed, or posted without a verifiable public receipt
+- **1** = not posted or not attributable
+
+### Weekly scoreboard row
+
+Add a comment-rollout row to the weekly dashboard review:
+
+| Week of | Phase 1 comments posted | Phase 2 comments posted | Quality avg | Reach avg | Notes |
+| :--- | ---: | ---: | ---: | ---: | :--- |
+| YYYY-MM-DD |  |  |  |  |  |
+
+### Operational surfaces
+
+Use these together when the comment rollout becomes a real workflow rather than an abstract score:
+
+- [predictive-history-comment-targeting-rubric.md](predictive-history-comment-targeting-rubric.md)
+- [predictive-history-comment-template-pack.md](predictive-history-comment-template-pack.md)
+- [predictive-history-comment-tracker.md](predictive-history-comment-tracker.md)
+- [predictive-history-comment-draft-workflow.md](predictive-history-comment-draft-workflow.md)
+
+## 8. Next experiment
+
+| Experiment | Expected signal | Measurement window | Stop condition | Follow-up action |
+| :--- | :--- | :--- | :--- | :--- |
+| Individual OB1 instance buildout, then shared `cici-ai` OB1, then public-use `cici-ai` | Phase 1: each member builds their own OB1 instance with GitHub-visible progress; Phase 2: the cohort opens a shared `cici-ai` OB1 instance for collective use; Phase 3: a public-use `cici-ai` variation is produced, calibrated for the Philippines first and adaptable elsewhere | About 1 month for Phase 1; Phase 2 and Phase 3 follow after the individual phase is materially complete | Do not open the shared instance until the individual phase has enough repo evidence; do not shift to the public-use variant until the shared instance is stable enough to support reuse | Draft the shared-instance onboarding / contribution plan, then the public-use adaptation plan |
+
+## 9. Boundary reminder
+
+This dashboard may produce coaching notes, handoff drafts, candidate suggestions, or cici-ai proposal ideas. It does not update Cici’s Record. Any durable identity, policy, or governed-state change for Cici must go through Cici’s own repository and approval path.

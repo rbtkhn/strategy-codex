@@ -22,7 +22,7 @@ This theme holds Crooke's use of Monroe-style hemispheric doctrine and perimeter
 
 ## Exact Quote Anchors
 
-- [2026-01-21 Substack raw-input](../../../years/2026/raw-input/2026-01-21/substack-crooke-what-may-be-the-greenland-endgame-2026-01-21.md): "The Monroe Doctrine reassertion enables the Asia strategy. It does not replace it."
+- [2026-01-21 Substack raw-input](../../../years/2026/provenance/2026-01-21/substack-crooke-what-may-be-the-greenland-endgame-2026-01-21.md): "The Monroe Doctrine reassertion enables the Asia strategy. It does not replace it."
 
 ## What Crooke Is Arguing
 

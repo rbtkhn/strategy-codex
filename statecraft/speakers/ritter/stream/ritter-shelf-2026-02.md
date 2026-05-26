@@ -8,17 +8,17 @@ Month status: `bridge month`
 
 ## February index
 
-- [transcript-dialogue-works-scott-ritter-game-over-trump-s-iran-strategy-might-blow-up-and-start-a-r-2026-02-04.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-02-04/transcript-dialogue-works-scott-ritter-game-over-trump-s-iran-strategy-might-blow-up-and-start-a-r-2026-02-04.md)
+- [transcript-dialogue-works-scott-ritter-game-over-trump-s-iran-strategy-might-blow-up-and-start-a-r-2026-02-04.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-02-04/transcript-dialogue-works-scott-ritter-game-over-trump-s-iran-strategy-might-blow-up-and-start-a-r-2026-02-04.md)
   - Opens the live war-pressure lane for the 2026 Iran run.
-- [substack-ritter-alas-babylon-2026-02-05.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-02-05/substack-ritter-alas-babylon-2026-02-05.md)
+- [substack-ritter-alas-babylon-2026-02-05.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-02-05/substack-ritter-alas-babylon-2026-02-05.md)
   - Raises the nuclear and apocalyptic warning register.
-- [transcript-dialogue-works-scott-ritter-hormuz-blocked-iran-s-missile-fire-can-leave-the-us-navy-de-2026-02-18.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-02-18/transcript-dialogue-works-scott-ritter-hormuz-blocked-iran-s-missile-fire-can-leave-the-us-navy-de-2026-02-18.md)
+- [transcript-dialogue-works-scott-ritter-hormuz-blocked-iran-s-missile-fire-can-leave-the-us-navy-de-2026-02-18.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-02-18/transcript-dialogue-works-scott-ritter-hormuz-blocked-iran-s-missile-fire-can-leave-the-us-navy-de-2026-02-18.md)
   - Gives the first strong Hormuz and missile-pressure crisis node.
-- [youtube-glenn-diesen-scott-ritter-u-s-revives-empire-europe-is-no-longer-an-ally-2026-02-19.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-02-19/youtube-glenn-diesen-scott-ritter-u-s-revives-empire-europe-is-no-longer-an-ally-2026-02-19.md)
+- [youtube-glenn-diesen-scott-ritter-u-s-revives-empire-europe-is-no-longer-an-ally-2026-02-19.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-02-19/youtube-glenn-diesen-scott-ritter-u-s-revives-empire-europe-is-no-longer-an-ally-2026-02-19.md)
   - Expands the same month into U.S./Europe order consequence.
-- [transcript-napolitano-ritter-what-war-with-iran-will-look-like-2026-02-23.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-02-23/transcript-napolitano-ritter-what-war-with-iran-will-look-like-2026-02-23.md)
+- [transcript-napolitano-ritter-what-war-with-iran-will-look-like-2026-02-23.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-02-23/transcript-napolitano-ritter-what-war-with-iran-will-look-like-2026-02-23.md)
   - Legal-command and war-shape compression before the full March run.
-- [youtube-glenn-diesen-scott-ritter-full-scale-war-as-iran-attacks-all-u-s-targets-2026-02-28.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-02-28/youtube-glenn-diesen-scott-ritter-full-scale-war-as-iran-attacks-all-u-s-targets-2026-02-28.md)
+- [youtube-glenn-diesen-scott-ritter-full-scale-war-as-iran-attacks-all-u-s-targets-2026-02-28.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-02-28/youtube-glenn-diesen-scott-ritter-full-scale-war-as-iran-attacks-all-u-s-targets-2026-02-28.md)
   - Caps the month with full-war framing.
 
 ## Reading note

@@ -12,9 +12,9 @@ March 2026 is where the Crooke interview strand first locks into a real three-ho
 
 | date | host | title | raw-input | arc job |
 |---|---|---|---|---|
-| 2026-03-13 | Davis | Iran's Asymmetrical War | [raw-input](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-03-13/transcript-davis-crooke-irans-asymmetrical-war-2026-03-13.md) | bargaining room, asymmetry, leverage reality |
-| 2026-03-17 | Dialogue Works / Nima | Iran Was Ready for This War | [raw-input](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-03-17/transcript-alkorshid-crooke-iran-was-ready-for-this-war-and-it-could-change-the-middle-east-forever-2026-03-17.md) | live-pressure meaning, readiness, regional consequence |
-| 2026-03-20 | Diesen | Iran Sets Conditions for Access to the Strait of Hormuz | [raw-input](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-03-20/transcript-diesen-crooke-iran-sets-conditions-for-access-to-the-strait-of-hormuz-2026-03-20.md) | Hormuz governance, order shock, system exposure |
+| 2026-03-13 | Davis | Iran's Asymmetrical War | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-13/transcript-davis-crooke-irans-asymmetrical-war-2026-03-13.md) | bargaining room, asymmetry, leverage reality |
+| 2026-03-17 | Dialogue Works / Nima | Iran Was Ready for This War | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-17/transcript-alkorshid-crooke-iran-was-ready-for-this-war-and-it-could-change-the-middle-east-forever-2026-03-17.md) | live-pressure meaning, readiness, regional consequence |
+| 2026-03-20 | Diesen | Iran Sets Conditions for Access to the Strait of Hormuz | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-20/transcript-diesen-crooke-iran-sets-conditions-for-access-to-the-strait-of-hormuz-2026-03-20.md) | Hormuz governance, order shock, system exposure |
 
 ## Useful found-but-not-yet-canonical reinforcement
 

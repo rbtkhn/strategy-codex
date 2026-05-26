@@ -47,4 +47,4 @@ Short membrane:
 
 ## Boundary
 
-This method can use raw-input, statecraft-native speaker-state continuity surfaces, historical analogies, lane objects, and existing transactions as sources. It does not define statecraft's governing invariants and it does not directly mutate `civ-emp`.
+This method can use `source-archive`, statecraft-native speaker-state continuity surfaces, historical analogies, lane objects, and existing transactions as sources. It does not define statecraft's governing invariants and it does not directly mutate `civ-emp`.

@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Advisory heuristic: URLs in daily-strategy-inbox vs source_url in raw-input YAML.
+"""Advisory heuristic: URLs in daily-strategy-inbox vs source_url in source-archive YAML.
 
 Does NOT enforce policy or CI-gate merges — surfaces possible misses when chat-first
-capture omitted verbatim files. See codex/years/2026/raw-input/README.md.
+capture omitted verbatim files. See source-archive/statecraft/README.md.
 
 Default mode considers **article-ish** URLs only (Substack `/p/`, `conflictsforum.substack.com`,
 YouTube `watch?v=`). Use **`--all-urls`** for every `https://` in the inbox (noisy: wires, X, stubs).
@@ -22,7 +22,7 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_NOTEBOOK = REPO_ROOT / "codex"
 DEFAULT_INBOX = DEFAULT_NOTEBOOK / "daily-strategy-inbox.md"
-DEFAULT_RAW = DEFAULT_NOTEBOOK / "years" / "2026" / "raw-input"
+DEFAULT_RAW = REPO_ROOT / "source-archive" / "statecraft"
 RE_URL = re.compile(r"https://[^\s\]>)}]+")
 
 
@@ -91,7 +91,7 @@ def main() -> int:
         "--raw-root",
         type=Path,
         default=DEFAULT_RAW,
-        help="strategy-notebook raw-input root",
+        help="statecraft source-archive root",
     )
     ap.add_argument(
         "--verbose",
@@ -137,11 +137,11 @@ def main() -> int:
         rel = args.inbox.relative_to(REPO_ROOT) if args.inbox.is_file() else args.inbox
         print(f"No matching URLs in {rel}")
         return 0
-    print(f"Inbox URLs: {len(inbox_urls)} | raw-input source_url: {len(raw_urls)}")
+    print(f"Inbox URLs: {len(inbox_urls)} | source-archive source_url: {len(raw_urls)}")
     if not hints:
         print("No obvious gaps (heuristic).")
         return 0
-    print(f"Possible gaps ({len(hints)}) — inbox URLs not matched to raw-input YAML:")
+    print(f"Possible gaps ({len(hints)}) — inbox URLs not matched to source-archive YAML:")
     for u in hints:
         print(f"  - {u}")
     if args.verbose:

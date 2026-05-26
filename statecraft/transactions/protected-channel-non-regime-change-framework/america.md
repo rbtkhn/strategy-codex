@@ -14,7 +14,7 @@ Protected-channel and no-regime-change assurance.
 
 - Speaker-state inputs: [Parsi](../../../../speakers/parsi/) for diplomacy architecture and off-ramp destruction; [Ritter](../../../../speakers/ritter/) for regime-change blowback warnings; [Marandi](../../../../speakers/marandi/) for Iranian institutional continuity; [Pape](../../../../speakers/pape/) for coercive-system leverage and crisis clocks.
 - Scoreboards used: [Pape coercive-center index](../../sheets/pape-coercive-center-index.md); [Mearsheimer structural-realist scoreboard](../../sheets/mearsheimer-structural-realist-scoreboard.md).
-- Raw-input / provenance anchors: [Parsi 2026-03-08](../../../../years/2026/raw-input/2026-03-08/substack-parsi-why-the-iranian-theocracy-will-likely-survive-2026-03-08.md); [Parsi 2026-03-17](../../../../years/2026/raw-input/2026-03-17/substack-parsi-why-was-larijani-targeted-2026-03-17.md).
+- Raw-input / provenance anchors: [Parsi 2026-03-08](../../../../years/2026/provenance/2026-03-08/substack-parsi-why-the-iranian-theocracy-will-likely-survive-2026-03-08.md); [Parsi 2026-03-17](../../../../years/2026/provenance/2026-03-17/substack-parsi-why-was-larijani-targeted-2026-03-17.md).
 
 ## Civilization / Empire Helix Input
 

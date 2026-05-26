@@ -15,7 +15,7 @@ This runs **two automatic steps**:
 1. **Triage** (``strategy_expert_transcript.py``) — routes ``thread:`` lines
    from the inbox to per-expert ``transcript`` files (append-only, 7-day prune),
    and merges one-line stubs from ``raw-input/**`` markdown with valid YAML
-   ``thread: <expert_id>`` and an included ``kind:`` (see ``raw-input/README.md``
+   ``thread: <expert_id>`` and an included ``kind:`` (see ``provenance/README.md``
    — ``rss-item``, ``transcript``, ``paste-bundle``, etc.; a small **index-only**
    exclude list skips screenshot indexes). Bodies on disk are **not** re-pasted
    into the transcript; pointers only when the line already names ``raw-input/...``.

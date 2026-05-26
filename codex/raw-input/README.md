@@ -1,5 +1,5 @@
 # Deprecated raw-input pointer
 
-The shared raw-input layer moved to [`../years/2026/raw-input/`](../years/2026/raw-input/).
+The shared statecraft source archive moved to [../../source-archive/statecraft/README.md](/C:/dev/strategy-codex/source-archive/statecraft/README.md).
 
-Do not add new captures here. Use `codex/years/2026/raw-input/` for the active 2026 volume.
+Do not add new captures here. Use `source-archive/statecraft/` for full source-bearing archive material.
