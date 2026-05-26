@@ -10,6 +10,25 @@ Short constitutional split:
 
 `civ-emp remembers -> Civilizational Statecraft drafts`
 
+`statecraft.md` is the constitutional kernel that governs how repo-root `statecraft/` may use `civ-emp`. `civ-emp` is the upstream source-memory substrate: it stores civilizational pattern, continuity, transformation, current carrier, failure mode, counterweight, and transaction hooks. `statecraft` is the downstream operating layer: it routes live objects, assigns lane ownership, selects output form, and converts remembered pattern into authority-, restraint-, and settlement-bearing drafts. `civ-emp` gives `statecraft` depth; `statecraft.md` prevents that depth from becoming inert memory or undisciplined analogy by enforcing a governed membrane. Downstream drafts may consume source memory, but upstream correction must return through explicit review rather than silent dual mutation.
+
+```mermaid
+flowchart TD
+    A["Public / legacy source world<br/>PH-CIV, provenance, older CIV-MEM"] --> B["CIV-EMP<br/>source-memory substrate"]
+    B --> C["statecraft.md<br/>constitutional kernel / membrane"]
+    C --> D["Routing layer<br/>deploy, compact, bridge, lane"]
+    D --> E["Lane surfaces<br/>America, China, Persia, Russia"]
+    E --> F["Draft forms<br/>commentary, memo, comparison, lane draft"]
+    F --> G["Transaction layer<br/>full reusable instruments"]
+    G --> H["Validation / falsifier / revisit discipline"]
+    H --> I["Governed learning"]
+    I --> J["CIV-EMP review queue<br/>explicit upstream candidate"]
+    J --> B
+
+    B --> K["Retrieval matrix / annexes<br/>source retrieval, power-truth-time"]
+    K --> C
+```
+
 ## Boundary
 
 - `ph-civ` is the public Predictive History / Civilization artifact and remains upstream public authority.
@@ -29,6 +48,57 @@ Use three tiers:
 The constitutional owner of the downstream/upstream exchange membrane is now [statecraft/statecraft.md](../statecraft.md). Upstream source-memory feedback from live drafting should be staged through [review-queue.md](review-queue.md), not silently patched into both layers.
 
 The hierarchy is one-way. Civilizational Statecraft may stage reviewable improvements upstream, but it should not rewrite the public source artifact or upstream legacy memory graph through ambient drift.
+
+## Civilization-State Function
+
+The five CIV-EMP volumes are not a decorative civilizational shelf. They are an authoritative working illustration of the **civilization-state** as a comparative strategic category.
+
+Here, a civilization-state means a political order in which:
+
+- sovereignty is carried through a long continuity chain rather than only by one regime moment
+- a deeper sacred or civilizational grammar legitimates that chain
+- rupture mutates the chain without fully erasing it
+- a present carrier still bears enough continuity for live statecraft use
+
+The category is comparative, not flat. China, Persia, Rome, and Russia are the stronger core cases. America is retained as the deliberately contested edge case that clarifies the concept under modern strain rather than being silently excluded from it.
+
+## Opener Doctrine
+
+Each volume should be read through a three-layer opener doctrine:
+
+- **Deep grammar** - the sacred, mythic, literary, or civilizational substrate beneath the chain
+- **Sovereign opening** - the first figure or formation that opens the volume's political continuity chain
+- **Current carrier** - the present institution, regime, church, or state form that bears the chain now
+
+The five volumes use a common opener structure, but not all sovereign openings have the same historical status: some are documentary founders, some are traditional founders, and some open longer continuity chains whose present state appears later.
+
+Use these opener types:
+
+- **Foundational sovereign** - a historically legible political founder who opens the sovereignty chain
+- **Traditional foundational sovereign** - a conventional or narrative sovereign opener whose historicity or administrative firmness is less secure
+- **Foundational continuity sovereign** - a sovereign opener for a longer continuity chain that culminates in a later state rather than beginning that state directly
+
+This opener doctrine should also guide retrieval:
+
+- **Deep grammar** points toward sacred grammar, literature, and legitimacy surfaces
+- **Sovereign opening** points toward state-memory, founding, and origin objects
+- **Current carrier** points toward helix, state, and transaction surfaces
+
+## Volume Order
+
+The front-door CIV-EMP order is now five volumes:
+
+1. [Vol I - China](volumes/vol-i-china/README.md)
+2. [Vol II - Persia](volumes/vol-ii-persia/README.md)
+3. [Vol III - Rome](volumes/vol-iii-rome/README.md)
+4. [Vol IV - Russia](volumes/vol-iv-russia/README.md)
+5. [Vol V - America](volumes/vol-v-america/README.md)
+
+Each volume is internally ordered by `Ancient / Medieval / Colonial / Industrial / Cybernetic`.
+
+The order is chronological by **sovereignty-chain emergence**, not by the earliest possible mythic, sacred, or ethnocultural precursor. That is why China remains first, Persia second, Rome third, Russia fourth, and America fifth.
+
+This volume layer organizes retrieval and source-memory entry. It does not replace the live lane-local storage under repo-root `statecraft/<lane>/`. Each volume should now be read as a chain-of-sovereignty argument nested through the five-era spine, not as a loose bibliography.
 
 ## Operating Thesis
 
@@ -70,6 +140,7 @@ Each CIV-EMP source object should be short and usable. It should include:
 
 ## Indexes
 
+- [Volume map](volumes/README.md) - preferred civilization-first opening order for CIV-EMP.
 - [Source retrieval matrix](indexes/source-retrieval-matrix.md) - default retrieval contract for state-memory, god, lit, art, geo, war, peace, and empire-instrument work.
 - [Arc-conditioned retrieval bridge](../bridges/README.md) - quiet adapter layer for routing speaker-arc claims into disciplined `civ-emp` retrieval.
 - [Migration workspace](migration/README.md) - symmetric-first control plane for moving active statecraft lanes off direct legacy `civ-mem` dependency.
@@ -83,4 +154,4 @@ The preferred era spine for these orientation surfaces is `Ancient / Medieval / 
 
 ## Proof Objects
 
-- [Iran: Hormuz Recognition / Transit Restraint](iran/hormuz-recognition-transit-restraint.md) - first proof object showing how CIV-EMP converts Civilization and Empire into an operational source pattern for a live Iran-lane transaction.
+- [Persia: Hormuz Recognition / Transit Restraint](persia/hormuz-recognition-transit-restraint.md) - first proof object showing how CIV-EMP converts Civilization and Empire into an operational source pattern for a live Persia-lane transaction.

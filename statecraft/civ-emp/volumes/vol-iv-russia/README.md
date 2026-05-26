@@ -10,6 +10,11 @@ The inheritance from Kievan Rus is contested in modern historiography, but CIV-E
 
 Primary live lane: [Russia statecraft lane](../../../russia/README.md)
 
+**Opener Block**
+- Deep grammar: Orthodoxy, suffering, endurance, and gathering after fracture
+- Sovereign opening: Rurik as the foundational sovereign
+- Current carrier: present Russian state / Russian Federation
+
 **Civilization-State Diagnostic**
 - Civilization-state claim: strong civilization-state because sovereignty survives repeated disorder rather than remaining institutionally smooth
 - Sovereignty chain: `Rurik -> Putin`
