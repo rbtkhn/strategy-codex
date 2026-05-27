@@ -1,0 +1,32 @@
+# Statecraft Archive - 2026-05-03
+
+_Generated inventory note. Rebuild with `python scripts/build_statecraft_day_indices.py`._
+
+## Stats
+
+- Source files: `3`
+- Type mix: `substack` (2), `article` (1)
+- Distinct channels/shows: `2`
+- Distinct hosts: `0`
+- Distinct guests: `0`
+- Distinct threads: `3`
+
+## Channel / Show Rollup
+
+- `escalationtrap.substack.com` (1), `substack.com/@tritaparsi` (1)
+
+## Host / Guest / Thread Rollup
+
+- Hosts: (none)
+- Guests: (none)
+- Threads: `pape` (1), `parsi` (1), `ritter` (1)
+
+## Filename Family Fallbacks
+
+- `substack-*` (2), `article-ritter-*` (1)
+
+## Files
+
+- `article-ritter-fifth-year-russia-smo-2026-05-03.md`
+- `substack-pape-what-the-first-60-days-actually-changed-and-why-the-next-30-will-be-worse-2026-05-03.md`
+- `substack-parsi-a-few-observations-on-irans-latest-proposal-to-trump-2026-05-03.md`

@@ -1,23 +1,29 @@
 # Statecraft Archive - 2026-05-26
 
-## Day Abstract
+_Generated inventory note. Rebuild with `python scripts/build_statecraft_day_indices.py`._
 
-May 26, 2026's statecraft archive coheres around a single theme: U.S.-aligned coercion is being portrayed across multiple channels as increasingly unable to produce stable political outcomes in either the Iran theater or the Russia-Ukraine theater. On Iran, Napolitano, AlKorshid, Daniel Davis, and Diesen-linked material converge on the view that Washington cannot easily convert military pressure into a durable settlement because Israeli escalation, domestic U.S. factional pressure, and maritime-economic blowback keep collapsing the space for a clean deal. On Ukraine, Mercouris, Ritter, Barnes, Helmer, and related segments treat the Lavrov-Rubio warning and subsequent strike rhetoric as a threshold moment, arguing that Western observers have mistaken prior Russian restraint for a permanent ceiling. Across both theaters, the deepest through-line is a crisis of coercive credibility: these sources repeatedly frame the United States and its partners as still speaking in the language of command while increasingly reacting to escalation dynamics they no longer fully control.
+## Stats
 
-## Channel Matrix
+- Source files: `15`
+- Type mix: `transcript` (10), `youtube` (5)
+- Distinct channels/shows: `6`
+- Distinct hosts: `6`
+- Distinct guests: `12`
+- Distinct threads: `10`
 
-- `Napolitano`:
-  - Iran pressure, Israeli constraint, U.S. incoherence, moral and legal critique.
-- `AlKorshid / Nima`:
-  - Iran deal fragility, Russian escalation risk, broader geopolitical system stress.
-- `Daniel Davis Deep Dive`:
-  - Tactical-operational framing of Iran and Ukraine escalation with heavy emphasis on U.S. strategic incoherence.
-- `Mercouris`:
-  - Most document-centered reading of the Lavrov-Rubio warning and Russian signaling.
-- `Glenn Diesen / Wilkerson`:
-  - Multipolar adjustment failure and Western inability to update strategy to new power realities.
-- `Matt Hoh`:
-  - Narrative maintenance, Pentagon dishonesty, and elite political inability to exit self-defeating war structures.
+## Channel / Show Rollup
+
+- `Daniel Davis Deep Dive` (3), `Dialogue Works` (3), `Judging Freedom` (2), `Alexander Mercouris` (1), `Glenn Diesen` (1), `The Duran` (1)
+
+## Host / Guest / Thread Rollup
+
+- Hosts: `Andrew Napolitano` (6), `Daniel Davis` (3), `Nima Alkorshid` (3), `Alex Christoforou` (1), `Alexander Mercouris` (1), `Glenn Diesen` (1)
+- Guests: `Scott Ritter` (2), `Seyed M. Marandi` (2), `Alastair Crooke` (1), `Alexander Mercouris` (1), `Chas Freeman` (1), `Doug Macgregor` (1), `John Helmer` (1), `John Mearsheimer` (1), `Larry Johnson` (1), `Lawrence Wilkerson` (1), `Matt Hoh` (1), `Robert Barnes` (1)
+- Threads: `davis` (3), `nima` (3), `mercouris` (2), `crooke` (1), `diesen` (1), `freeman` (1), `hoh` (1), `johnson` (1), `mearsheimer` (1), `ritter` (1)
+
+## Filename Family Fallbacks
+
+- `transcript-napolitano-*` (4), `youtube-alex-mercouris-*` (1)
 
 ## Files
 

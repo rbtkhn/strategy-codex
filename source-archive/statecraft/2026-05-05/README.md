@@ -1,0 +1,39 @@
+# Statecraft Archive - 2026-05-05
+
+_Generated inventory note. Rebuild with `python scripts/build_statecraft_day_indices.py`._
+
+## Stats
+
+- Source files: `10`
+- Type mix: `transcript` (9), `strategy` (1)
+- Distinct channels/shows: `4`
+- Distinct hosts: `4`
+- Distinct guests: `7`
+- Distinct threads: `4`
+
+## Channel / Show Rollup
+
+- `Daniel Davis Deep Dive` (3), `Dialogue Works` (3), `Diesen` (2), `Mercouris` (1)
+
+## Host / Guest / Thread Rollup
+
+- Hosts: `Daniel Davis` (3), `Nima Alkhorshid` (3), `Diesen` (2), `Alexander Mercouris` (1)
+- Guests: `Seyed M. Marandi` (2), `Douglas Macgregor` (1), `John Helmer` (1), `Larry Johnson` (1), `Larry Wilkerson` (1), `Mike Adams` (1), `Yanis Varoufakis` (1)
+- Threads: `davis` (3), `nima` (3), `diesen` (2), `mercouris` (1)
+
+## Filename Family Fallbacks
+
+- `strategy-codex-*` (1), `transcript-*` (1)
+
+## Files
+
+- `strategy-codex-session-2026-05-05.md`
+- `transcript-alkorshid-helmer-hormuz-beijing-2026-05-05.md`
+- `transcript-alkorshid-marandi-hormuz-uae-china-2026-05-05.md`
+- `transcript-alkorshid-wilkerson-hormuz-blockade-2026-05-05.md`
+- `transcript-davis-adams-famine-food-chain-2026-05-05.md`
+- `transcript-davis-johnson-hormuz-freedom-2026-05-05.md`
+- `transcript-davis-macgregor-project-freedom-hormuz-2026-05-05.md`
+- `transcript-diesen-marandi-hormuz-all-out-war-2026-05-05.md`
+- `transcript-diesen-varoufakis-europe-decline-2026-05-05.md`
+- `transcript-mercouris-hormuz-uae-russia-china-2026-05-05.md`

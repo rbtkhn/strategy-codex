@@ -1,0 +1,39 @@
+# Statecraft Archive - 2026-05-14
+
+_Generated inventory note. Rebuild with `python scripts/build_statecraft_day_indices.py`._
+
+## Stats
+
+- Source files: `10`
+- Type mix: `youtube` (4), `substack` (3), `transcript` (2), `predictive` (1)
+- Distinct channels/shows: `4`
+- Distinct hosts: `5`
+- Distinct guests: `6`
+- Distinct threads: `7`
+
+## Channel / Show Rollup
+
+- `Dialogue Works` (2), `Alexander Mercouris` (1), `Daniel Davis Deep Dive` (1), `Mario Nawfal` (1)
+
+## Host / Guest / Thread Rollup
+
+- Hosts: `Nima Alkhorshid` (2), `Alexander Mercouris` (1), `Daniel Davis` (1), `Glenn Diesen` (1), `Mario Nawfal` (1)
+- Guests: `Alexander Mercouris` (1), `Andrei Martyanov` (1), `Anthony Aguilar` (1), `George Beebe` (1), `Larry Johnson` (1), `Scott Ritter` (1)
+- Threads: `nima` (2), `pape` (2), `crooke` (1), `davis` (1), `diesen` (1), `johnson` (1), `mercouris` (1)
+
+## Filename Family Fallbacks
+
+- `substack-*` (3), `predictive-history-*` (1), `youtube-glenn-diesen-*` (1)
+
+## Files
+
+- `predictive-history-game-theory-25-trump-visits-china-2026-05-14.md`
+- `substack-crooke-israels-war-to-the-root-may-unravel-america-2026-05-14.md`
+- `substack-pape-its-getting-late-early-for-trump-2026-05-14.md`
+- `substack-pape-the-damage-you-cant-hide-2026-05-14.md`
+- `transcript-dialogue-works-andrei-martyanov-iran-and-russia-just-changed-war-forever-here-s-how-2026-05-14.md`
+- `transcript-dialogue-works-lt-col-anthony-aguilar-israel-s-defeat-begins-hezbollah-and-yemen-just-h-2026-05-14.md`
+- `youtube-alex-mercouris-china-tough-stance-in-trump-visit-russia-biggest-strike-kiev-shredded-ad-collapses-zelensky-panic-2026-05-14.md`
+- `youtube-daniel-davis-deep-dive-scott-ritter-russia-retaliation-on-europe-no-longer-in-doubt-2026-05-14.md`
+- `youtube-glenn-diesen-george-beebe-europe-russia-war-as-the-u-s-pulls-back-2026-05-14.md`
+- `youtube-larry-johnson-mario-nawfal-trump-xi-offered-to-help-open-strait-of-hormuz-w-ex-cia-larry-johnson-2026-05-14.md`
