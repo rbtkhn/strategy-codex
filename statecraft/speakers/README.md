@@ -99,6 +99,9 @@ Canonical lighter first-pass shelves now also include:
 
 - [Barnes](barnes/README.md)
 - [Marandi](marandi/README.md)
+- [Postol](postol/README.md)
+- [McGovern](mcgovern/README.md)
+- [Martyanov](martyanov/README.md)
 
 ## Shelf classes
 
@@ -151,6 +154,9 @@ Current examples:
 
 - [Barnes](barnes/README.md)
 - [Marandi](marandi/README.md)
+- [Postol](postol/README.md)
+- [McGovern](mcgovern/README.md)
+- [Martyanov](martyanov/README.md)
 
 ### 4. Host-led mature-month exception shelves
 

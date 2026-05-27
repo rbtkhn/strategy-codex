@@ -1,0 +1,22 @@
+WORK only; not Record.
+
+# Postol Index
+
+Open this shelf when the real question is not ideology, legality, or domestic factionalism, but what weapons, radars, interceptors, defenses, or targets can physically do.
+
+## First Opens
+
+- [postol-arc.md](postol-arc.md) for whole-speaker continuity
+- [postol-routing.md](postol-routing.md) for first-open discipline
+- [postol-raw-input-index.md](postol-raw-input-index.md) for direct archive entry
+
+## Shelf Map
+
+- [postol-helix.md](postol-helix.md) explains the `Davis + Diesen + Dialogue Works` helix.
+- [postol-support-spine-2025-2026.md](postol-support-spine-2025-2026.md) explains why the shelf is canonical but still intentionally lighter than a month ladder.
+
+## Fast Route
+
+- open [2026-05-15 Davis x Postol](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-15/youtube-daniel-davis-deep-dive-bombs-will-not-end-iran-war-mit-professsor-ted-postol-2026-05-15.md) for bunker-buster, strike-feasibility, and destructive-capacity questions
+- open [2026-05-08 Dialogue Works x Postol](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-08/transcript-alkorshid-postol-third-round-war-israel-worst-nightmare-yet-2026-05-08.md) for live-pressure missile-defense collapse and Iran-war escalation reads
+- open [Diesen x Postol](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-postol-speaker-arc.md) when the technical mechanism needs to be translated into strategic-order consequence
