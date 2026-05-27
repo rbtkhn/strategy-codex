@@ -1,3 +1,3 @@
-[submodule "codex/academy/ph-civ"]
-	path = codex/academy/ph-civ
+[submodule "statecraft/speakers/jiang/ph-civ"]
+	path = statecraft/speakers/jiang/ph-civ
 	url = https://github.com/rbtkhn/ph-civ.git

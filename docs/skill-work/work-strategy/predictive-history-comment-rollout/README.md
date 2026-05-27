@@ -2,6 +2,8 @@
 
 This work-strategy note documents the two-phase public comment rollout for the Predictive History YouTube channel.
 
+The default model remains the trust-first doorway rollout. A separate local pilot now also exists for `civ-01` through `civ-06`: [Wave One: `civ-01` to `civ-06`](wave-one-civ-01-to-civ-06.md). That pilot treats comments as statecraft proof objects rather than repo doorways.
+
 ## Phases
 
 - **Phase 1:** one top-level trust-first comment per video, using the chapter-folder doorway packet from `ph-civ`.
@@ -11,8 +13,8 @@ If the route is missing or unpublished, the item is parked instead of inventing 
 
 ## Canonical sources
 
-- Public source list: [`codex/academy/ph-civ/docs/source-video-index.md`](../../../../academy/ph-civ/docs/source-video-index.md)
-- Museum manifest index: [`codex/academy/ph-civ/data/museum/index.json`](../../../../academy/ph-civ/data/museum/index.json)
+- Public source list: [`statecraft/speakers/jiang/ph-civ/docs/source-video-index.md`](../../../../statecraft/speakers/jiang/ph-civ/docs/source-video-index.md)
+- Museum manifest index: [`statecraft/speakers/jiang/ph-civ/data/museum/index.json`](../../../../statecraft/speakers/jiang/ph-civ/data/museum/index.json)
 - Comment doctrine: [`docs/skill-write/predictive-history-youtube-comments.md`](../../../skill-write/predictive-history-youtube-comments.md)
 
 ## Queue and commands
@@ -20,6 +22,12 @@ If the route is missing or unpublished, the item is parked instead of inventing 
 The rollout queue is stored at:
 
 - [`queue.json`](queue.json)
+
+The readable local Phase 1 review drafts are rendered under:
+
+- [`drafts/`](drafts/)
+
+`queue.json` is the canonical workflow ledger for readiness, approval, and posting state. The Markdown files under `drafts/` are local review surfaces only. They are generated from queue state and rollout inputs so comment drafting stays inside `strategy-codex` rather than the public `ph-civ` repo.
 
 Recommended commands:
 
@@ -35,6 +43,14 @@ python scripts/predictive_history_comment_rollout.py post --phase 1 --dry-run
 ## Guardrails
 
 - Keep the rollout review-gated.
+- Keep draft comments local to `strategy-codex`; do not store them in the public `ph-civ` repo.
 - Use `commentThreads.insert` only for approved top-level comments.
 - Do not fabricate a `ph-mus` link if no exhibit route exists.
 - Preserve the quiet, lecture-first tone from the comment doctrine.
+
+For the Wave One pilot:
+
+- comments may omit links entirely
+- comments should demonstrate statecraft synthesis in public without exposing internal machinery
+- each comment must include at least two concrete historical examples
+- those examples should explicitly support the thesis rather than sit as vague references

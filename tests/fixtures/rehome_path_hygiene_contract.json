@@ -5,22 +5,24 @@
   },
   "required_roots": [
     "codex/academy",
-    "codex/academy/ph-civ",
     "codex/speakers",
     "codex/years",
     "codex/years/2025",
-    "codex/years/2026"
+    "codex/years/2026",
+    "statecraft/speakers/jiang",
+    "statecraft/speakers/jiang/ph-civ"
   ],
   "forbidden_roots": [
     "codex/2025",
     "codex/2026"
   ],
   "gitmodules": {
-    "required_submodule": "[submodule \"codex/academy/ph-civ\"]",
-    "required_path": "path = codex/academy/ph-civ",
+    "required_submodule": "[submodule \"statecraft/speakers/jiang/ph-civ\"]",
+    "required_path": "path = statecraft/speakers/jiang/ph-civ",
     "forbidden_path": "path = codex/2026/academy/ph-civ"
   },
   "stale_content_patterns": [
+    "codex[/\\\\]academy[/\\\\]ph-civ",
     "codex[/\\\\]2026[/\\\\]academy",
     "codex[/\\\\]2026[/\\\\]speakers",
     "codex[/\\\\]2026[/\\\\]raw-input",
