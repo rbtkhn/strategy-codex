@@ -170,10 +170,10 @@ skills:
     verify_forbidden_substrings:
       - users/grace-mar/
       - process_approved_candidates
-  - name: civ-state-frame
-    source: civ-state-frame/SKILL.md
-    appendix: .cursor/skills/civ-state-frame/CURSOR_APPENDIX.md
-    target: .cursor/skills/civ-state-frame/SKILL.md
+  - name: statecraft-framework
+    source: statecraft-framework/SKILL.md
+    appendix: .cursor/skills/statecraft-framework/CURSOR_APPENDIX.md
+    target: .cursor/skills/statecraft-framework/SKILL.md
     verify_forbidden_substrings:
       - users/grace-mar/
       - process_approved_candidates

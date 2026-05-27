@@ -9,7 +9,7 @@
 **Preferred maintenance commands after skill edits**
 
 ```powershell
-python scripts/sync_portable_skills.py --skill civ-state-frame
-python scripts/sync_portable_skills.py --verify --skill civ-state-frame
+python scripts/sync_portable_skills.py --skill statecraft-framework
+python scripts/sync_portable_skills.py --verify --skill statecraft-framework
 python scripts/validate_skills.py
 ```

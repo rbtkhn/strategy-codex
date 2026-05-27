@@ -1,6 +1,6 @@
 ---
-name: civ-state-frame
-preferred_activation: civ-state-frame
+name: statecraft-framework
+preferred_activation: statecraft-framework
 description: "Diagnose a live statecraft object through the Civilizational Statecraft Framework. Use when the operator wants to identify whether an object is governed by civilization, empire, faith, science, memory, or desire; name the governing pair, likely misread layer, likely failure layer, and route to the right downstream surface before drafting."
 portable: true
 version: 0.1.0
@@ -12,11 +12,13 @@ tags:
   - routing
 ---
 
-# Civ-State Frame
+# Statecraft Framework
 
-**Preferred activation (operator):** say **`civ-state-frame`**.
+**Preferred activation (operator):** say **`statecraft-framework`**.
 
 Use this skill to diagnose a live object through the **Civilizational Statecraft Framework** before lane descent, clause drafting, or transaction design.
+
+Compatibility note: older references to **`civ-state-frame`** mean this skill. In live doctrine, `civ-state` now means the **civilization-state** object under interpretation, not the name of this framework.
 
 This is not a drafting skill. It is a pre-draft diagnosis and routing skill.
 

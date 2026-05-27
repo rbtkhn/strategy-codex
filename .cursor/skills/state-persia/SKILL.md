@@ -37,7 +37,7 @@ Core test: what converts vulnerability into recognized leverage without humiliat
 - Prefer `statecraft-bridge` as the post-lane bridge step when the unresolved question is Marandi-versus-Parsi retrieval rather than Persia ownership.
 - If the object is obviously cross-lane or not honestly Persia-owned, say so and hand back toward `state-deploy` or a comparison path.
 
-Once lane ownership is clear, identify the governing pair within the **Civilizational Statecraft Framework** before descending.
+Once lane ownership is clear, identify the governing pair within the **Civilizational Statecraft Framework** before descending. If the pair is not already obvious, run `statecraft-framework` first.
 
 ## Source Surfaces
 

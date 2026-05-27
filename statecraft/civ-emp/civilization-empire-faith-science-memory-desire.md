@@ -42,6 +42,13 @@ The old triad remains useful as historical residue, but it is no longer the prim
 
 The older `god / lit / art / geo / war / peace` families also survive, but only as downstream object classes. They are no longer coequal explanatory doctrine. The new six name **what governs**; the older six name **where that governance becomes visible** in specific statecraft objects.
 
+Terminology note:
+
+- `civ-state` means **civilization state**
+- **Civilizational Statecraft Framework** means the governing six-part doctrine
+- `statecraft-framework` is the operational skill/interface that applies that doctrine
+- `statecraft` remains the downstream operating layer for routing, drafting, and transaction design
+
 ## The six terms
 
 ### Civilization

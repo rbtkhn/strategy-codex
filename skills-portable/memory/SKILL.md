@@ -32,6 +32,12 @@ It is not a catch-all skill for all six layers. Its main job remains rebuilding 
 
 The **Civilizational Statecraft Framework** governs interpretation first. Older families such as `god`, `lit`, `art`, `geo`, `war`, and `peace` remain useful only as **secondary retrieval-and-expression families** chosen after the governing layer has been identified. Build them as subordinate arc-lenses, not as primary ontology.
 
+Terminology note:
+
+- `civ-state` means the civilization-state object being interpreted
+- **Civilizational Statecraft Framework** is the doctrine
+- `statecraft-framework` is the operational skill for running that diagnosis before subordinate family selection
+
 It keeps the lanes from sliding into biography or shallow summary by enforcing:
 
 > Civilization stores state memory. Empire converts memory into reach. State carries present authority. Objects transmit signals. Transactions test whether authority can become settlement.

@@ -118,6 +118,13 @@ The active higher-order CIV-EMP doctrine is now the **Civilizational Statecraft 
 
 Read these as three structural pairs rather than six floating topics. `civilization` and `empire` replace the old overloaded power frame; `faith` and `science` replace the old overly broad truth frame; `memory` and `desire` replace the old under-specified time frame. Faith and science are coequal truth-orders, and memory and desire must both be read if continuity is to remain honest.
 
+Terminology note:
+
+- `civ-state` means the **civilization-state** object being interpreted and drafted for
+- **Civilizational Statecraft Framework** is the doctrine that helps interpret that object
+- `statecraft-framework` is the operational skill/interface for running that diagnosis
+- `statecraft` remains the downstream operating layer
+
 ## Source Flow
 
 Statecraft lanes use this source chain:

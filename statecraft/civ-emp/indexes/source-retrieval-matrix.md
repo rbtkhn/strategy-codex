@@ -37,6 +37,13 @@ Route by governing layer or governing pair:
 - continuity carry -> **memory**
 - acceleration, distortion, or appetite -> **desire**
 
+Terminology note:
+
+- `civ-state` means the **civilization-state** object under interpretation
+- **Civilizational Statecraft Framework** is the governing doctrine
+- `statecraft-framework` is the operational skill/interface for diagnosing the governing pair
+- `statecraft` remains the downstream routing and drafting layer
+
 During migration, older CIV-MEM files may serve as provenance for CIV-EMP objects, but statecraft outputs should cite the CIV-EMP object or lane-local translation whenever one exists.
 
 ## Retrieval Contract
@@ -111,7 +118,7 @@ Use them like this:
 - `war` -> mostly **empire**, often bent by **memory** or **desire**
 - `peace` -> settlement-facing downstream class, not a coequal doctrine layer
 
-Keep the existing filenames and retrieval seeds for compatibility. The hierarchy changes; the object-family names do not. In operator terms, use `civ-state-frame` to diagnose the governing pair first, then choose one of these secondary retrieval-and-expression families only if it sharpens the read.
+Keep the existing filenames and retrieval seeds for compatibility. The hierarchy changes; the object-family names do not. In operator terms, use `statecraft-framework` to diagnose the governing pair first, then choose one of these secondary retrieval-and-expression families only if it sharpens the read.
 
 | Object | CIV-EMP lane | Source classes | Seed terms | Counterweight requirement |
 |---|---|---|---|---|

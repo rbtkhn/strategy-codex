@@ -1,4 +1,4 @@
-# Civilization and Empire vs Civilizational Statecraft
+# Civilization and Empire vs Statecraft
 
 WORK only; not Record.
 
@@ -7,12 +7,13 @@ This note distinguishes two adjacent but different layers in academy-statecraft.
 Short form:
 
 - `Civilization and Empire` is the reference historical corpus and source base
-- `Civilizational Statecraft` is the menu, workflow, and output layer built on top of that source base
+- `statecraft` is the menu, workflow, and output layer built on top of that source base
 
 Another short form:
 
 - `civ-emp` = source memory and imperial pattern base
-- `civ-state` = lane activity, drafting, routing, and state-bearing instrument design
+- `statecraft` = lane activity, drafting, routing, and state-bearing instrument design
+- `civ-state` = the civilization-state object the downstream layer is trying to understand and draft for
 
 ## Civilization and Empire
 
@@ -39,9 +40,9 @@ Its governing question is:
 
 This layer is upstream. Its job is to preserve patterns, counterweights, and historical mechanism.
 
-## Civilizational Statecraft
+## Statecraft
 
-`Civilizational Statecraft` is the statecraft menu and all related activity and output.
+`statecraft` is the statecraft menu and all related activity and output.
 
 In repo terms, this includes the statecraft workshop surface, deployer/lane routing, lane-local judgment, drafting, comparison, objections, compacts, and transactions.
 
@@ -69,15 +70,15 @@ This layer is downstream. Its job is to turn source memory into usable judgment,
 The clean constitutional relationship is:
 
 `civ-emp` is the upstream source-base repo.  
-`Civilizational Statecraft` is the downstream operating layer that consumes it.
+`statecraft` is the downstream operating layer that consumes it.
 
 Short doctrine:
 
-`civ-emp remembers; Civilizational Statecraft drafts.`
+`civ-emp remembers; statecraft drafts.`
 
 Slightly fuller:
 
-`civ-emp` supplies historical pattern memory and imperial structure. `Civilizational Statecraft` turns that source base into lane judgment, routing, and instruments.
+`civ-emp` supplies historical pattern memory and imperial structure. `statecraft` turns that source base into lane judgment, routing, and instruments.
 
 ### `civ-emp` owns
 
@@ -87,7 +88,7 @@ Slightly fuller:
 - historical counterweights
 - source-base proof objects
 
-### Civilizational Statecraft owns
+### Statecraft owns
 
 - menu surfaces
 - `state-deploy`
@@ -100,12 +101,12 @@ Slightly fuller:
 ### Membrane
 
 - `civ-emp` sends patterns, hooks, and retrieval structure downstream
-- Civilizational Statecraft sends reviewable update candidates upstream
+- statecraft sends reviewable update candidates upstream
 - neither layer should silently rewrite the other through ambient drift
 
 ## Upstream-Candidate Workflow
 
-Use this workflow when live Civilizational Statecraft work discovers something durable.
+Use this workflow when live statecraft work discovers something durable.
 
 1. **Classify the discovery**
    - source pattern
@@ -117,7 +118,7 @@ Use this workflow when live Civilizational Statecraft work discovers something d
    - transaction pattern
 2. **Decide the owning layer**
    - if it changes source memory, retrieval architecture, counterweight logic, or object contract, it belongs upstream in `civ-emp`
-   - if it changes menus, deployers, lane-local judgment, objections, or instrument design, it belongs downstream in Civilizational Statecraft
+   - if it changes menus, deployers, lane-local judgment, objections, or instrument design, it belongs downstream in statecraft
 3. **Draft downstream first when the live object needs it**
    - do not block a real instrument waiting for source-base perfection
 4. **Stage the upstream candidate explicitly**
@@ -136,11 +137,11 @@ Default test:
 
 ## Why The Difference Matters
 
-A draft can fail `civ-state` even when it is strategically clever, because it humiliates the actor, breaks legitimacy, or asks a state to speak in a foreign grammar.
+A draft can fail the **civilization-state test** even when it is strategically clever, because it humiliates the actor, breaks legitimacy, or asks a state to speak in a foreign grammar.
 
 A settlement can fail `civ-emp` even when it sounds morally or diplomatically acceptable, because it ignores corridors, enforcement geometry, balance structure, or chokepoint control.
 
-If `civ-emp` is how power travels, `civ-state` is how authority speaks.
+If `civ-emp` is how power travels, the **civilization-state** question is how authority speaks.
 
 Both are necessary. Reach without legitimacy overextends. Legitimacy without reach becomes ornamental.
 
@@ -149,16 +150,16 @@ Both are necessary. Reach without legitimacy overextends. Legitimacy without rea
 In this repo, the clean operating split is:
 
 - `civ-emp/` holds the compact source base derived from the Civilization and Empire corpus
-- academy-statecraft is the Civilizational Statecraft activity layer built on top of that base
+- statecraft is the downstream activity layer built on top of that base
 - lane-local `civilization/`, `empire/`, `state/`, `helix.md`, and `transactions/` convert those patterns into drafting judgment
-- `state-deploy` decides lane ownership inside Civilizational Statecraft
+- `state-deploy` decides lane ownership inside statecraft
 - `state-*` skills perform lane work once ownership is settled
 
 So:
 
 - `Civilization and Empire` is the reference historical corpus
 - `civ-emp` is its local working source base
-- `Civilizational Statecraft` is the menu, workflow, and output layer above it
+- `statecraft` is the menu, workflow, and output layer above it
 
 ## Four-Lane Stress Test
 
@@ -167,56 +168,56 @@ So:
 `civ-emp` question:
 How much alliance, financial, maritime, and institutional reach can America still organize and sustain?
 
-`civ-state` question:
+**civilization-state** question:
 What can American authority still lawfully carry tomorrow without proving constitutional exhaustion or imperial fraud?
 
 Failure modes:
 
 - fail `civ-emp`: ignore burden-sharing, coercive-center limits, or system-maintenance costs
-- fail `civ-state`: draft a clause that sounds tactically strong but illegitimate to American successor authority
+- fail the civilization-state test: draft a clause that sounds tactically strong but illegitimate to American successor authority
 
 ### China
 
 `civ-emp` question:
 How does China shape flows, corridors, supply continuity, and anti-disorder order without overowning visible disorder?
 
-`civ-state` question:
+**civilization-state** question:
 What can the Chinese state carry as orderly, patient, and legitimate without being forced into theatrical coercion?
 
 Failure modes:
 
 - fail `civ-emp`: miss substrate control, energy exposure, or commercial-route geometry
-- fail `civ-state`: force China into language or timing that violates administrative poise and anti-chaos legitimacy
+- fail the civilization-state test: force China into language or timing that violates administrative poise and anti-chaos legitimacy
 
 ### Persia
 
 `civ-emp` question:
 What leverage exists in transit, geography, proxy depth, sanctions friction, and regional bargaining position?
 
-`civ-state` question:
+**civilization-state** question:
 What can Iran carry with dignity, sovereignty, recognition, and verification without humiliation?
 
 Failure modes:
 
 - fail `civ-emp`: ignore Hormuz, deterrent reach, or regional pressure geometry
-- fail `civ-state`: draft a technically smart deal that reads in Tehran as submission disguised as procedure
+- fail the civilization-state test: draft a technically smart deal that reads in Tehran as submission disguised as procedure
 
 ### Russia
 
 `civ-emp` question:
 How does Russia preserve strategic depth, disruption capacity, escalation leverage, and parity theater across the system?
 
-`civ-state` question:
+**civilization-state** question:
 What can the Russian state carry without accepting managed humiliation, entrapment, or false settlement language?
 
 Failure modes:
 
 - fail `civ-emp`: ignore depth, buffers, force posture, and coercive timing
-- fail `civ-state`: ask Russia to sign a clause that erases parity or recodes defeat as peace
+- fail the civilization-state test: ask Russia to sign a clause that erases parity or recodes defeat as peace
 
 ## Practical Rule
 
-When a draft feels strategically sound but politically impossible, check `civ-state`.
+When a draft feels strategically sound but politically impossible, check the **civilization-state** test.
 
 When a draft feels morally elegant but geopolitically naive, check `civ-emp`.
 
@@ -224,7 +225,7 @@ The strongest statecraft objects survive both tests.
 
 ## Four-Lane Membrane Table
 
-| Lane | Downstream Civilizational Statecraft keeps | Upstream `civ-emp` candidate learns |
+| Lane | Downstream statecraft keeps | Upstream `civ-emp` candidate learns |
 | --- | --- | --- |
 | America | clause wording, carrier choice, ally sequencing, lawful-restraint framing in the live instrument | declining hegemons preserve bargaining legitimacy when restraint is framed as lawful continuity rather than concession |
 | Russia | parity wording, verification acceptability, off-ramp sequencing, anti-humiliation settlement carriage | anti-humiliation powers reject settlement forms that require compliance before parity recognition |

@@ -8,7 +8,7 @@ description: "Apply the Russia sacred-boundary lens to statecraft problems. Use 
 
 `russia-god` is a WORK-only academy-statecraft command. It applies Russia's civilization `god.md` surface to operational statecraft judgment.
 
-Compatibility note: `russia-god` is a **secondary lane-lens skill** beneath the active **Civilizational Statecraft Framework**. Identify the governing pair first; then use this skill only when `god` is the right downstream expression surface rather than the governing ontology itself.
+Compatibility note: `russia-god` is a **secondary lane-lens skill** beneath the active **Civilizational Statecraft Framework**. Identify the governing pair first, using `statecraft-framework` if needed; then use this skill only when `god` is the right downstream expression surface rather than the governing ontology itself.
 
 It is not theology, devotional writing, or metaphysical adjudication. It converts Russian sacred legitimacy into tests for forbidden bargains, sacred-safe clause design, humiliation, Orthodoxy / Rus inheritance, suffering / redemption, civilizational sovereignty, and managed-periphery refusal.
 

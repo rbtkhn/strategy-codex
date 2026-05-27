@@ -8,7 +8,7 @@ description: "Apply the China civilization literature lens to statecraft problem
 
 `china-lit` is a WORK-only academy-statecraft command. It applies China's civilization `lit.md` surface to operational statecraft judgment.
 
-Compatibility note: `china-lit` is a **secondary lane-lens skill** beneath the active **Civilizational Statecraft Framework**. Identify the governing pair first; then use this skill only when `lit` is the right downstream expression surface rather than the governing ontology itself.
+Compatibility note: `china-lit` is a **secondary lane-lens skill** beneath the active **Civilizational Statecraft Framework**. Identify the governing pair first, using `statecraft-framework` if needed; then use this skill only when `lit` is the right downstream expression surface rather than the governing ontology itself.
 
 It is not literary criticism, author biography, or cultural commentary for its own sake. It converts Chinese narrative memory into tests for harmony, anti-disorder language, patience, moral hierarchy, face, and whether settlement wording still sounds like order rather than public humiliation.
 

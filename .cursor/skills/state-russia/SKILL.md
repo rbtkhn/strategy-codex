@@ -42,7 +42,7 @@ Secondary tests:
 - Decide what Russia can legitimately draft, carry, accept, reject, and institutionalize.
 - If the object is obviously cross-lane or not honestly Russia-owned, say so and hand back toward `state-deploy` or a comparison path.
 
-Once lane ownership is clear, identify the governing pair within the **Civilizational Statecraft Framework** before descending.
+Once lane ownership is clear, identify the governing pair within the **Civilizational Statecraft Framework** before descending. If the pair is not already obvious, run `statecraft-framework` first.
 
 ## Source Surfaces
 

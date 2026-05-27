@@ -8,7 +8,7 @@ description: "Apply the America civilization literature lens to statecraft probl
 
 `america-lit` is a WORK-only academy-statecraft command. It applies America's civilization `lit.md` surface to operational statecraft judgment.
 
-Compatibility note: `america-lit` is a **secondary lane-lens skill** beneath the active **Civilizational Statecraft Framework**. Identify the governing pair first; then use this skill only when `lit` is the right downstream expression surface rather than the governing ontology itself.
+Compatibility note: `america-lit` is a **secondary lane-lens skill** beneath the active **Civilizational Statecraft Framework**. Identify the governing pair first, using `statecraft-framework` if needed; then use this skill only when `lit` is the right downstream expression surface rather than the governing ontology itself.
 
 It is not literary criticism, author biography, or cultural commentary for its own sake. It converts American narrative memory into tests for republic conscience, rights language, dissent, anti-imperial warning, covenantal tone, and whether a clause still sounds lawfully American.
 
