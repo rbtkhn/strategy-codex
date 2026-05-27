@@ -1,48 +1,27 @@
-# Pape Index
-
 WORK only; not Record.
 
-Purpose: front door for the canonical Pape shelf, with the active stream first and the full raw-input appearance map one click away.
+# Pape Index
 
-## Open First
+This is a compatibility front door pointing to the canonical Pape statecraft shelf.
 
-- [Lane README](README.md) - shelf overview, profile/object links, and lane-role framing.
-- [Raw-input index](pape-raw-input-index.md) - exhaustive route map for every resolved Pape raw-input appearance currently materialized in the repo.
-- [Lane consolidation](stream/pape-lane-consolidation-2026-05.md) - operator-facing timeline, source-class separation, and current lane argument.
-- [Forecast ledger](stream/pape-forecast-ledger-2026.md) - predictions, thresholds, and ongoing mechanism tracking.
+## Canonical shelf
 
-## Core Lane Files
+- [statecraft/speakers/pape/README.md](/C:/dev/strategy-codex/statecraft/speakers/pape/README.md)
+- [Pape index](/C:/dev/strategy-codex/statecraft/speakers/pape/index.md)
+- [Pape arc](/C:/dev/strategy-codex/statecraft/speakers/pape/pape-arc.md)
+- [Pape routing](/C:/dev/strategy-codex/statecraft/speakers/pape/pape-routing.md)
+- [Pape forecast ledger](/C:/dev/strategy-codex/statecraft/speakers/pape/stream/pape-forecast-ledger-2026.md)
+- [Pape interview appearances](/C:/dev/strategy-codex/statecraft/speakers/pape/pape-interview-appearances-2025-2026.md)
+- [Pape helix](/C:/dev/strategy-codex/statecraft/speakers/pape/pape-helix.md)
+- [Pape raw-input index](/C:/dev/strategy-codex/statecraft/speakers/pape/pape-raw-input-index.md)
 
-- [Monthly book](stream/pape-book-2026-04.md)
-- [Daily chapter seed](stream/pape-chapter-2026-04-01.md)
-- [Thread compatibility file](stream/pape-thread.md) - legacy continuity surface; not the canonical authored/interview split
-- [Transcript compatibility file](stream/pape-transcript.md)
-- [Source-hygiene note](stream/pape-source-hygiene-2026-04-29-pape-grim.md)
-- [Page template](pape-page-template.md)
+## Codex-side residue
 
-## Canonical Structure
+Use the remaining codex files only as compatibility or migration support:
 
-Pape's orthogonality-bearing structure is:
-
-- [Forecast ledger](stream/pape-forecast-ledger-2026.md) for the canonical authored mechanism
-- [Interview appearance map](pape-interview-appearances-2026.md) for the interview-pressure strand
-- [Speaker helix](pape-helix.md) for the crossing surface between those two strands
-
-Do not read [stream/pape-thread.md](stream/pape-thread.md) as a second competing thread system. It is a legacy compatibility file carried forward from the older expert-thread machinery.
-
-## Frontier Pages
-
-- [2026-04-29 page](pape-page-2026-04-29-youtube-pape-grim-nuclear-iran-inevitable.md)
-- [2026-05-03 page](pape-page-2026-05-03.md)
-- [2026-04-22 page](pape-page-2026-04-22.md)
-- [2026-04-16 page](pape-page-2026-04-16.md)
-
-## Raw-Input Coverage
-
-- Full file-by-file coverage lives in [pape-raw-input-index.md](pape-raw-input-index.md).
-- Direct Pape-authored Substack captures belong to the `pape` lane directly.
-- Outside-channel appearances, shorthand captures, and transcript snapshots remain host-owned or capture-owned in raw-input even when the Pape lane indexes them for discovery.
-
-## Boundary
-
-This index is a route map. Raw-text authority stays in `raw-input`; lane interpretation and routing live in the Pape shelf files above.
+- `stream/pape-thread.md`
+- `stream/pape-transcript.md`
+- `stream/pape-lane-consolidation-2026-05.md`
+- `stream/pape-source-hygiene-2026-04-29-pape-grim.md`
+- `pape-cross-host-note.md`
+- `pape-speaker-object.md`

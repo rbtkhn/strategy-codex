@@ -14,6 +14,10 @@ This support spine owns five notebook jobs:
 - the argument for why chronology remains host-led even in mature months
 - the distinction between `reinforcing orbit` and `non-core appearance bench`
 
+One-sentence constitutional rule:
+
+`Mearsheimer is mature enough to need a strong speaker-owned spine, but not yet speaker-native enough to justify a statecraft shelf or a native month ladder.`
+
 Quick separation rule:
 
 - [mearsheimer-arc.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-arc.md) = whole-speaker continuity
@@ -44,6 +48,8 @@ not:
 And under the current repo doctrine, that reading now has an explicit class name:
 
 `host-led mature-month exception shelf`
+
+This is not migration lag. It is the current best structural description of the shelf.
 
 ## Host-role and bench map
 
@@ -93,8 +99,8 @@ Status: continuity carryover
 
 Open:
 
-- [transcript-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-02-25/transcript-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md)
-- [transcript-napolitano-mearsheimer-how-trump-has-boxed-himself-into-a-corner-on-iran-2026-02-17.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-02-17/transcript-napolitano-mearsheimer-how-trump-has-boxed-himself-into-a-corner-on-iran-2026-02-17.md)
+- [transcript-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-02-25/transcript-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md)
+- [transcript-napolitano-mearsheimer-how-trump-has-boxed-himself-into-a-corner-on-iran-2026-02-17.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-02-17/transcript-napolitano-mearsheimer-how-trump-has-boxed-himself-into-a-corner-on-iran-2026-02-17.md)
 
 Why:
 
@@ -113,11 +119,11 @@ Open:
 
 Best raw-input cluster:
 
-- [2026-03-04 Davis x Mearsheimer](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-03-04/transcript-davis-mearsheimer-next-move-in-iran-us-causing-insurrection-2026-03-04.md)
-- [2026-03-10 Diesen x Mearsheimer](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-03-10/transcript-diesen-mearsheimer-us-already-lost-no-offramp-2026-03-10.md)
-- [2026-03-27 Diesen x Mearsheimer](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-03-27/transcript-diesen-mearsheimer-iran-holds-all-the-cards-2026-03-27.md)
-- [2026-03-29 authored Mearsheimer](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-03-29/substack-mearsheimer-will-trump-go-kamikaze-2026-03-29.md)
-- [2026-03-31 Napolitano x Mearsheimer](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-03-31/transcript-napolitano-mearsheimer-will-trump-go-kamikaze-2026-03-31.md)
+- [2026-03-04 Davis x Mearsheimer](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-04/transcript-davis-mearsheimer-next-move-in-iran-us-causing-insurrection-2026-03-04.md)
+- [2026-03-10 Diesen x Mearsheimer](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-10/transcript-diesen-mearsheimer-us-already-lost-no-offramp-2026-03-10.md)
+- [2026-03-27 Diesen x Mearsheimer](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-27/transcript-diesen-mearsheimer-iran-holds-all-the-cards-2026-03-27.md)
+- [2026-03-29 authored Mearsheimer](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-29/substack-mearsheimer-will-trump-go-kamikaze-2026-03-29.md)
+- [2026-03-31 Napolitano x Mearsheimer](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-31/transcript-napolitano-mearsheimer-will-trump-go-kamikaze-2026-03-31.md)
 
 Why still no native month file:
 
@@ -130,11 +136,11 @@ Status: mature retrieval month, host-led
 
 Open:
 
-- [transcript-diesen-mearsheimer-world-changed-forever-2026-04-10.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-10/transcript-diesen-mearsheimer-world-changed-forever-2026-04-10.md)
-- [transcript-napolitano-mearsheimer-how-trump-lost-his-war-2026-04-28.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-28/transcript-napolitano-mearsheimer-how-trump-lost-his-war-2026-04-28.md)
-- [transcript-davis-mearsheimer-weve-lost-the-iran-war-were-screwed-2026-04-30.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-30/transcript-davis-mearsheimer-weve-lost-the-iran-war-were-screwed-2026-04-30.md)
-- [transcript-hedges-mearsheimer-iran-2026-04-20.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-20/transcript-hedges-mearsheimer-iran-2026-04-20.md)
-- [transcript-mearsheimer-redacted-trump-iran-2026-04-21.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-21/transcript-mearsheimer-redacted-trump-iran-2026-04-21.md)
+- [transcript-diesen-mearsheimer-world-changed-forever-2026-04-10.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-10/transcript-diesen-mearsheimer-world-changed-forever-2026-04-10.md)
+- [transcript-napolitano-mearsheimer-how-trump-lost-his-war-2026-04-28.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-28/transcript-napolitano-mearsheimer-how-trump-lost-his-war-2026-04-28.md)
+- [transcript-davis-mearsheimer-weve-lost-the-iran-war-were-screwed-2026-04-30.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-30/transcript-davis-mearsheimer-weve-lost-the-iran-war-were-screwed-2026-04-30.md)
+- [transcript-hedges-mearsheimer-iran-2026-04-20.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-20/transcript-hedges-mearsheimer-iran-2026-04-20.md)
+- [transcript-mearsheimer-redacted-trump-iran-2026-04-21.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-21/transcript-mearsheimer-redacted-trump-iran-2026-04-21.md)
 
 Why April matters:
 
@@ -153,9 +159,9 @@ Status: mature retrieval month, host-led
 
 Open:
 
-- [transcript-diesen-mearsheimer-world-order-ending-risk-nuclear-war-2026-05-04.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-04/transcript-diesen-mearsheimer-world-order-ending-risk-nuclear-war-2026-05-04.md)
-- [youtube-daniel-davis-deep-dive-prof-john-mearsheimer-trump-will-be-forced-to-cut-a-deal-w-iran-2026-05-13.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-13/youtube-daniel-davis-deep-dive-prof-john-mearsheimer-trump-will-be-forced-to-cut-a-deal-w-iran-2026-05-13.md)
-- [youtube-glenn-diesen-john-mearsheimer-toward-all-out-war-with-both-russia-and-iran-2026-05-18.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-18/youtube-glenn-diesen-john-mearsheimer-toward-all-out-war-with-both-russia-and-iran-2026-05-18.md)
+- [transcript-diesen-mearsheimer-world-order-ending-risk-nuclear-war-2026-05-04.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-04/transcript-diesen-mearsheimer-world-order-ending-risk-nuclear-war-2026-05-04.md)
+- [youtube-daniel-davis-deep-dive-prof-john-mearsheimer-trump-will-be-forced-to-cut-a-deal-w-iran-2026-05-13.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-13/youtube-daniel-davis-deep-dive-prof-john-mearsheimer-trump-will-be-forced-to-cut-a-deal-w-iran-2026-05-13.md)
+- [youtube-glenn-diesen-john-mearsheimer-toward-all-out-war-with-both-russia-and-iran-2026-05-18.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-18/youtube-glenn-diesen-john-mearsheimer-toward-all-out-war-with-both-russia-and-iran-2026-05-18.md)
 
 Why:
 
@@ -191,4 +197,5 @@ Mearsheimer does not yet need that because:
 - do not turn this file into a duplicate chronology ledger
 - do not let it compete with the helix
 - do not read the existence of mature months as proof that native speaker month pages are now required
+- do not treat codex-side canonical ownership as temporary unless a later review proves that speaker-native chronology has become clearer than host-led chronology
 - use this file to understand Mearsheimer's maturity; use host arcs, raw-input, and the non-core bench to do the actual reading

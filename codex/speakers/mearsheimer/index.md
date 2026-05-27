@@ -18,38 +18,44 @@ Read that to mean:
 ## Open First
 
 - [Speaker arc](mearsheimer-arc.md) - person-level continuity and the canonical answer to who Mearsheimer is as a speaker object.
-- [Speaker routing note](../../../speakers/mearsheimer/mearsheimer-routing.md) - fastest answer to which host lane to open first.
-- [Raw-input index](mearsheimer-raw-input-index.md) - exhaustive route map for every resolved Mearsheimer raw-input appearance currently materialized in the repo; also the current Mearsheimer `non-core appearance bench`.
-- [Speaker helix note](../../../speakers/mearsheimer/mearsheimer-helix.md) - why the main host transformations belong together.
+- [Speaker routing note](mearsheimer-routing.md) - fastest answer to which host lane or bench to open first.
+- [Raw-input index](mearsheimer-raw-input-index.md) - exhaustive route map for every resolved Mearsheimer raw-input appearance currently materialized in the repo; also the active `non-core appearance bench`.
+- [Speaker helix note](mearsheimer-helix.md) - why the main host transformations belong together without becoming a triple helix.
+- [Support spine](mearsheimer-support-spine-2025-2026.md) - why mature months still remain host-led rather than speaker-native.
 - [Lane README](README.md) - wrapper front door for the whole shelf.
-- [Historical examples audit](../../../speakers/mearsheimer/mearsheimer-historical-examples-audit.md) - v1 benchmarkable audit of Mearsheimer's recurring historical examples.
-- [Theme pack](../../../speakers/mearsheimer/themes/README.md) - recurring Mearsheimer historical-theme commentary surfaces.
+- [Historical examples audit](mearsheimer-historical-examples-audit.md) - v1 benchmarkable audit of Mearsheimer's recurring historical examples.
+- [Theme pack](themes/README.md) - recurring Mearsheimer historical-theme commentary surfaces.
 
-## Core Speaker Files
+## Shelf Families
 
-- [Speaker folder README](../../../speakers/mearsheimer/README.md)
-- [Speaker object](../../../speakers/mearsheimer/mearsheimer-speaker-object.md)
-- [Speaker profile](../../../speakers/mearsheimer/mearsheimer-profile.md)
-- [Historical examples audit](../../../speakers/mearsheimer/mearsheimer-historical-examples-audit.md)
-- [Historical themes](../../../speakers/mearsheimer/themes/README.md)
-- [Thread compatibility file](../../../speakers/mearsheimer/mearsheimer-thread.md) - legacy continuity surface; not a canonical topical-thread system
-- [Transcript compatibility file](../../../speakers/mearsheimer/mearsheimer-transcript.md)
-- [Page template](../../../speakers/mearsheimer/mearsheimer-page-template.md)
-- [Support spine](../../../speakers/mearsheimer/mearsheimer-support-spine-2025-2026.md)
-- [Shelf hygiene audit](../../../speakers/mearsheimer/mearsheimer-shelf-hygiene-2026-05.md)
+### Core host lanes
+
+- [Diesen x Mearsheimer](../diesen/stream/diesen-mearsheimer-arc.md)
+- [Davis x Mearsheimer](../davis/stream/davis-mearsheimer-arc.md)
+
+### Reinforcing orbit
+
+- [Judging Freedom x Mearsheimer](../napolitano/stream/napolitano-mearsheimer-arc.md)
+
+### Non-core appearance bench
+
+- [mearsheimer-raw-input-index.md](mearsheimer-raw-input-index.md)
+- [2026-03-29 authored Mearsheimer](../../years/2026/provenance/2026-03-29/substack-mearsheimer-will-trump-go-kamikaze-2026-03-29.md)
+- [2026-04-20 Hedges x Mearsheimer](../../years/2026/provenance/2026-04-20/transcript-hedges-mearsheimer-iran-2026-04-20.md)
+- [2026-04-21 Redacted x Mearsheimer](../../years/2026/provenance/2026-04-21/transcript-mearsheimer-redacted-trump-iran-2026-04-21.md)
 
 ## Canonical Structure
 
 Mearsheimer's orthogonality-bearing structure is:
 
-- [Speaker arc](../../../speakers/mearsheimer/mearsheimer-arc.md) for the whole-speaker continuity surface
-- [Speaker helix](../../../speakers/mearsheimer/mearsheimer-helix.md) for the current double-helix crossing surface
-- [Support spine](../../../speakers/mearsheimer/mearsheimer-support-spine-2025-2026.md) for cross-year maturity and host-led month-support logic
+- [Speaker arc](mearsheimer-arc.md) for the whole-speaker continuity surface
+- [Speaker helix](mearsheimer-helix.md) for the current double-helix crossing surface
+- [Support spine](mearsheimer-support-spine-2025-2026.md) for cross-year maturity and host-led month-support logic
 - the two main host-local arcs for stable distinct host transformations
 - the Napolitano branch as reinforcing orbit material rather than a third canonical strand
 - [mearsheimer-raw-input-index.md](mearsheimer-raw-input-index.md) as the current `non-core appearance bench`
 
-Do not read [mearsheimer-thread.md](../../../speakers/mearsheimer/mearsheimer-thread.md) as a second competing topical-thread system. It is a legacy compatibility file carried forward from the older expert-thread machinery.
+Do not read [mearsheimer-thread.md](mearsheimer-thread.md) as a second competing topical-thread system. It is a legacy compatibility file carried forward from the older expert-thread machinery.
 
 The historical examples audit and theme pack are speaker-side support surfaces. They widen retrieval and statecraft relevance without replacing the canonical arc / helix / host-arc structure.
 
@@ -67,23 +73,23 @@ That is a deliberate exception-class reading, not a temporary workaround while w
 
 Read this ladder as a Mearsheimer-local implementation of the governing [speaker-map route contract](../map/README.md#route-contract), not as independent doctrine.
 
-## Main Host Arcs
+Read the ladder in this order when routing:
 
-- [Diesen x Mearsheimer](../diesen/stream/diesen-mearsheimer-arc.md)
-- [Davis x Mearsheimer](../davis/stream/davis-mearsheimer-arc.md)
-- [Judging Freedom x Mearsheimer](../napolitano/stream/napolitano-mearsheimer-arc.md)
+1. core host lane
+2. reinforcing orbit
+3. non-core appearance bench
 
 ## Best Live Entry Files
 
-- [2026-05-18 Diesen x Mearsheimer](../../years/2026/raw-input/2026-05-18/youtube-glenn-diesen-john-mearsheimer-toward-all-out-war-with-both-russia-and-iran-2026-05-18.md)
-- [2026-04-30 Davis x Mearsheimer](../../years/2026/raw-input/2026-04-30/transcript-davis-mearsheimer-weve-lost-the-iran-war-were-screwed-2026-04-30.md)
-- [2026-04-28 Judging Freedom x Mearsheimer](../../years/2026/raw-input/2026-04-28/transcript-napolitano-mearsheimer-how-trump-lost-his-war-2026-04-28.md)
-- [2026-03-29 Authored Mearsheimer](../../years/2026/raw-input/2026-03-29/substack-mearsheimer-will-trump-go-kamikaze-2026-03-29.md)
+- [2026-05-18 Diesen x Mearsheimer](../../years/2026/provenance/2026-05-18/youtube-glenn-diesen-john-mearsheimer-toward-all-out-war-with-both-russia-and-iran-2026-05-18.md)
+- [2026-04-30 Davis x Mearsheimer](../../years/2026/provenance/2026-04-30/transcript-davis-mearsheimer-weve-lost-the-iran-war-were-screwed-2026-04-30.md)
+- [2026-04-28 Judging Freedom x Mearsheimer](../../years/2026/provenance/2026-04-28/transcript-napolitano-mearsheimer-how-trump-lost-his-war-2026-04-28.md)
+- [2026-03-29 Authored Mearsheimer](../../years/2026/provenance/2026-03-29/substack-mearsheimer-will-trump-go-kamikaze-2026-03-29.md)
 
 ## Raw-Input Coverage
 
 - Full file-by-file coverage lives in [mearsheimer-raw-input-index.md](mearsheimer-raw-input-index.md).
-- Chronology remains primarily host-owned in raw-input: Diesen, Davis, Napolitano, and authored Mearsheimer surfaces each retain their own provenance.
+- Chronology remains primarily host-owned in raw-input: Diesen, Davis, Napolitano, and authored / non-core bench surfaces each retain their own provenance.
 - The arc files stay useful as interpretive routes; the raw-input index is the active `non-core appearance bench`.
 - This shelf exists because Mearsheimer is too important and too dispersed to recover efficiently by host memory alone.
 

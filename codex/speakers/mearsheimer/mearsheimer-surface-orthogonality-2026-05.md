@@ -102,3 +102,4 @@ Current judgment:
 
 - the Mearsheimer shelf is well partitioned as a **double helix with orbit material**
 - the strongest future collapse pressure is not between Diesen and Davis, but between Davis and Napolitano if defeat-accounting starts to substitute for bargaining-geometry
+- a second collapse pressure is false month-ladder symmetry, where dense March-April-May material is mistaken for proof that speaker-native chronology is cleaner than host-led chronology

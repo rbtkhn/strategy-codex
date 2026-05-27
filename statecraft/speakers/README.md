@@ -55,7 +55,7 @@ Carveout rule: transcript-first is the default for transcript-bearing relational
 The migration is phased, but the constitutional target is already fixed:
 
 1. whole-corpus doctrine and compatibility law
-2. active migration fronts such as [Freeman](freeman/README.md), [Mercouris](mercouris/README.md), [Crooke](crooke/README.md), [Macgregor](macgregor/README.md), [Ritter](ritter/README.md), [Barnes](barnes/README.md), and [Marandi](marandi/README.md)
+2. active migration fronts such as [Freeman](freeman/README.md), [Mercouris](mercouris/README.md), [Crooke](crooke/README.md), [Macgregor](macgregor/README.md), [Ritter](ritter/README.md), [Barnes](barnes/README.md), [Marandi](marandi/README.md), and [Pape](pape/README.md)
 3. support-spine shelf exemplars
 4. remaining active statecraft speakers
 5. long-tail archive cleanup
@@ -99,7 +99,7 @@ Canonical lighter first-pass shelves now also include:
 
 ## Shelf classes
 
-The repo now recognizes three shelf classes.
+The repo now recognizes four shelf classes.
 
 ### 1. Normalized month-ladder shelves
 
@@ -131,6 +131,7 @@ These are still canonical `statecraft/speakers/` shelves, but their real inner l
 Current example:
 
 - [Parsi](parsi/README.md)
+- [Pape](pape/README.md)
 
 ### 3. Lighter first-pass canonical shelves
 
@@ -161,7 +162,7 @@ For these shelves:
 
 Current deliberate case:
 
-- `Mearsheimer` remains under review in `codex/speakers/` as the main host-led mature-month exception shelf
+- `Mearsheimer` remains in `codex/speakers/` by doctrine, not backlog, as the main host-led mature-month exception shelf
 
 ## Current constitutional choice
 
