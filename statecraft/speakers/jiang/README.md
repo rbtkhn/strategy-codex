@@ -8,6 +8,7 @@ Use it for Jiang-facing statecraft routing, Predictive History mirror access, an
 
 ## Open First
 
+- [jiang-predictive-history-master-index.md](jiang-predictive-history-master-index.md)
 - [jiang-routing.md](jiang-routing.md)
 - [jiang-arc.md](jiang-arc.md)
 - [jiang-raw-input-index.md](jiang-raw-input-index.md)
@@ -18,6 +19,7 @@ Use it for Jiang-facing statecraft routing, Predictive History mirror access, an
 
 Jiang's canonical statecraft shelf currently has four speaker-owned layers plus one embedded mirror:
 
+- **Master Predictive History count/routing index:** [jiang-predictive-history-master-index.md](jiang-predictive-history-master-index.md)
 - **Person arc:** [jiang-arc.md](jiang-arc.md)
 - **Routing surface:** [jiang-routing.md](jiang-routing.md)
 - **Raw-input / source bench:** [jiang-raw-input-index.md](jiang-raw-input-index.md)
