@@ -2,27 +2,25 @@
 
 WORK only; not Record.
 
-Purpose: front door for the canonical Barnes shelf.
+Purpose: compatibility front door pointing to the canonical Barnes statecraft shelf.
 
 ## Open First
 
-- [README.md](/C:/dev/strategy-codex/codex/speakers/barnes/README.md)
+- [statecraft/speakers/barnes/README.md](/C:/dev/strategy-codex/statecraft/speakers/barnes/README.md)
+- [statecraft/speakers/barnes/barnes-arc.md](/C:/dev/strategy-codex/statecraft/speakers/barnes/barnes-arc.md)
+- [statecraft/speakers/barnes/barnes-routing.md](/C:/dev/strategy-codex/statecraft/speakers/barnes/barnes-routing.md)
+- [statecraft/speakers/barnes/barnes-raw-input-index.md](/C:/dev/strategy-codex/statecraft/speakers/barnes/barnes-raw-input-index.md)
+- [statecraft/speakers/barnes/barnes-helix.md](/C:/dev/strategy-codex/statecraft/speakers/barnes/barnes-helix.md)
+- [statecraft/speakers/barnes/barnes-support-spine-2025-2026.md](/C:/dev/strategy-codex/statecraft/speakers/barnes/barnes-support-spine-2025-2026.md)
+
+## Compatibility residue
+
 - [barnes-speaker-object.md](/C:/dev/strategy-codex/codex/speakers/barnes/barnes-speaker-object.md)
 - [barnes-cross-host-note.md](/C:/dev/strategy-codex/codex/speakers/barnes/barnes-cross-host-note.md)
 - [barnes-mind.md](/C:/dev/strategy-codex/codex/speakers/barnes/barnes-mind.md)
+- [barnes-thread.md](/C:/dev/strategy-codex/codex/speakers/barnes/barnes-thread.md)
+- [barnes-transcript.md](/C:/dev/strategy-codex/codex/speakers/barnes/barnes-transcript.md)
 
-## Canonical Structure
+## Note
 
-The orthogonality-bearing structure on this shelf is:
-
-- [davis-barnes-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-barnes-speaker-arc.md), which is the clearest stable host-local branch
-- [barnes-speaker-object.md](/C:/dev/strategy-codex/codex/speakers/barnes/barnes-speaker-object.md), which defines Barnes as a cross-host reinforced object
-- [barnes-cross-host-note.md](/C:/dev/strategy-codex/codex/speakers/barnes/barnes-cross-host-note.md), which keeps the wider reinforcement claim honest
-
-The older [barnes-thread.md](/C:/dev/strategy-codex/codex/speakers/barnes/barnes-thread.md) file is a **legacy continuity compatibility surface**, not a canonical topical-thread atlas.
-
-## Compatibility Files
-
-- [Barnes thread](/C:/dev/strategy-codex/codex/speakers/barnes/barnes-thread.md) - legacy continuity surface retained for compatibility.
-- [Barnes transcript](/C:/dev/strategy-codex/codex/speakers/barnes/barnes-transcript.md) - rolling companion verbatim surface.
-
+The canonical Barnes shelf is now the statecraft shelf. The codex-side files remain useful, but they are no longer the primary front door.

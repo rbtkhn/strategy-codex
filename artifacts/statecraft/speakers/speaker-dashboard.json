@@ -1,0 +1,1547 @@
+{
+  "schemaVersion": "1.0.0-statecraft-speaker-dashboard",
+  "generatedAt": "2026-05-27T02:36:02.592781+00:00",
+  "root": "C:\\dev\\strategy-codex\\source-archive\\statecraft",
+  "coverage": {
+    "dayCount": 348,
+    "sourceFileCount": 1178,
+    "guestAppearanceCount": 729,
+    "distinctGuestCount": 164,
+    "firstDay": "2025-01-01",
+    "lastDay": "2026-05-26"
+  },
+  "aggregates": {
+    "topSpeakers": [
+      {
+        "name": "Chas Freeman",
+        "slug": "chas-freeman",
+        "fileCount": 101,
+        "dayCount": 97,
+        "topHosts": [
+          {
+            "name": "Andrew Napolitano",
+            "count": 29
+          },
+          {
+            "name": "Nima Alkhorshid",
+            "count": 26
+          },
+          {
+            "name": "Glenn Diesen",
+            "count": 22
+          },
+          {
+            "name": "Nema",
+            "count": 10
+          },
+          {
+            "name": "Daniel Davis",
+            "count": 8
+          },
+          {
+            "name": "Dialogue Works",
+            "count": 2
+          },
+          {
+            "name": "Pascal Lottaz",
+            "count": 2
+          },
+          {
+            "name": "Judish Raj",
+            "count": 1
+          }
+        ],
+        "topChannels": [
+          {
+            "name": "Dialogue Works",
+            "count": 36
+          },
+          {
+            "name": "Judging Freedom",
+            "count": 22
+          },
+          {
+            "name": "Glenn Diesen",
+            "count": 20
+          },
+          {
+            "name": "Daniel Davis Deep Dive",
+            "count": 8
+          },
+          {
+            "name": "Neutrality Studies",
+            "count": 2
+          },
+          {
+            "name": "India and Global Left",
+            "count": 1
+          },
+          {
+            "name": "youtube.com",
+            "count": 1
+          }
+        ],
+        "topThreads": [
+          {
+            "name": "freeman",
+            "count": 58
+          },
+          {
+            "name": "diesen",
+            "count": 20
+          },
+          {
+            "name": "nima",
+            "count": 15
+          },
+          {
+            "name": "davis",
+            "count": 7
+          },
+          {
+            "name": "daniel-davis-deep-dive",
+            "count": 1
+          },
+          {
+            "name": "napolitano",
+            "count": 1
+          },
+          {
+            "name": "wilkerson",
+            "count": 1
+          }
+        ],
+        "firstDay": "2025-01-07",
+        "lastDay": "2026-05-26",
+        "peakDay": "2026-04-03",
+        "peakDayCount": 2
+      },
+      {
+        "name": "Scott Ritter",
+        "slug": "scott-ritter",
+        "fileCount": 73,
+        "dayCount": 63,
+        "topHosts": [
+          {
+            "name": "Nima Alkhorshid",
+            "count": 15
+          },
+          {
+            "name": "Glenn Diesen",
+            "count": 14
+          },
+          {
+            "name": "Andrew Napolitano",
+            "count": 9
+          },
+          {
+            "name": "Daniel Davis",
+            "count": 9
+          },
+          {
+            "name": "Diesen",
+            "count": 2
+          },
+          {
+            "name": "Cyrus Janssen",
+            "count": 1
+          },
+          {
+            "name": "Dialogue Works",
+            "count": 1
+          }
+        ],
+        "topChannels": [
+          {
+            "name": "Dialogue Works",
+            "count": 10
+          },
+          {
+            "name": "Daniel Davis Deep Dive",
+            "count": 9
+          },
+          {
+            "name": "Glenn Diesen",
+            "count": 7
+          },
+          {
+            "name": "Judging Freedom",
+            "count": 4
+          },
+          {
+            "name": "Diesen (Greater Eurasia)",
+            "count": 2
+          },
+          {
+            "name": "Let's Talk Geopolitics",
+            "count": 1
+          }
+        ],
+        "topThreads": [
+          {
+            "name": "ritter",
+            "count": 32
+          },
+          {
+            "name": "diesen",
+            "count": 14
+          },
+          {
+            "name": "nima",
+            "count": 13
+          },
+          {
+            "name": "davis",
+            "count": 9
+          },
+          {
+            "name": "[diesen, ritter]",
+            "count": 2
+          },
+          {
+            "name": "napolitano",
+            "count": 2
+          }
+        ],
+        "firstDay": "2025-05-24",
+        "lastDay": "2026-05-26",
+        "peakDay": "2026-05-06",
+        "peakDayCount": 3
+      },
+      {
+        "name": "John Mearsheimer",
+        "slug": "john-mearsheimer",
+        "fileCount": 42,
+        "dayCount": 40,
+        "topHosts": [
+          {
+            "name": "Daniel Davis",
+            "count": 16
+          },
+          {
+            "name": "Andrew Napolitano",
+            "count": 11
+          },
+          {
+            "name": "Diesen",
+            "count": 7
+          },
+          {
+            "name": "Glenn Diesen",
+            "count": 4
+          },
+          {
+            "name": "Chris Hedges",
+            "count": 1
+          },
+          {
+            "name": "Clayton Morris, Natali Morris",
+            "count": 1
+          },
+          {
+            "name": "Freddy Gray",
+            "count": 1
+          },
+          {
+            "name": "Melinda Nucifora",
+            "count": 1
+          }
+        ],
+        "topChannels": [
+          {
+            "name": "Daniel Davis Deep Dive",
+            "count": 15
+          },
+          {
+            "name": "Diesen (Greater Eurasia)",
+            "count": 7
+          },
+          {
+            "name": "Judging Freedom",
+            "count": 2
+          },
+          {
+            "name": "Americano",
+            "count": 1
+          },
+          {
+            "name": "Counterpoints",
+            "count": 1
+          },
+          {
+            "name": "Glenn Diesen",
+            "count": 1
+          },
+          {
+            "name": "Redacted News",
+            "count": 1
+          },
+          {
+            "name": "The Chris Hedges Report",
+            "count": 1
+          }
+        ],
+        "topThreads": [
+          {
+            "name": "davis",
+            "count": 15
+          },
+          {
+            "name": "mearsheimer",
+            "count": 13
+          },
+          {
+            "name": "[diesen, mearsheimer]",
+            "count": 7
+          },
+          {
+            "name": "diesen",
+            "count": 3
+          },
+          {
+            "name": "napolitano",
+            "count": 2
+          }
+        ],
+        "firstDay": "2025-01-17",
+        "lastDay": "2026-05-26",
+        "peakDay": "2026-05-13",
+        "peakDayCount": 2
+      },
+      {
+        "name": "Larry Johnson",
+        "slug": "larry-johnson",
+        "fileCount": 41,
+        "dayCount": 39,
+        "topHosts": [
+          {
+            "name": "Glenn Diesen",
+            "count": 9
+          },
+          {
+            "name": "Nima Alkhorshid",
+            "count": 9
+          },
+          {
+            "name": "Andrew Napolitano",
+            "count": 8
+          },
+          {
+            "name": "Daniel Davis",
+            "count": 8
+          },
+          {
+            "name": "Daniel Davis / Deep Dive",
+            "count": 3
+          },
+          {
+            "name": "Diesen",
+            "count": 2
+          },
+          {
+            "name": "Mario Nawfal",
+            "count": 1
+          }
+        ],
+        "topChannels": [
+          {
+            "name": "Dialogue Works",
+            "count": 9
+          },
+          {
+            "name": "Daniel Davis Deep Dive",
+            "count": 8
+          },
+          {
+            "name": "Glenn Diesen",
+            "count": 6
+          },
+          {
+            "name": "Judging Freedom",
+            "count": 3
+          },
+          {
+            "name": "Diesen",
+            "count": 2
+          },
+          {
+            "name": "Mario Nawfal",
+            "count": 1
+          }
+        ],
+        "topThreads": [
+          {
+            "name": "diesen",
+            "count": 10
+          },
+          {
+            "name": "nima",
+            "count": 10
+          },
+          {
+            "name": "davis",
+            "count": 9
+          },
+          {
+            "name": "johnson",
+            "count": 9
+          },
+          {
+            "name": "daniel-davis-deep-dive",
+            "count": 1
+          },
+          {
+            "name": "napolitano",
+            "count": 1
+          }
+        ],
+        "firstDay": "2025-04-10",
+        "lastDay": "2026-05-26",
+        "peakDay": "2026-05-18",
+        "peakDayCount": 2
+      },
+      {
+        "name": "Seyed M. Marandi",
+        "slug": "seyed-m-marandi",
+        "fileCount": 31,
+        "dayCount": 26,
+        "topHosts": [
+          {
+            "name": "Nima Alkorshid",
+            "count": 10
+          },
+          {
+            "name": "Glenn Diesen",
+            "count": 9
+          },
+          {
+            "name": "Daniel Davis",
+            "count": 8
+          },
+          {
+            "name": "Nima Alkhorshid",
+            "count": 3
+          },
+          {
+            "name": "Diesen",
+            "count": 1
+          }
+        ],
+        "topChannels": [
+          {
+            "name": "Dialogue Works",
+            "count": 13
+          },
+          {
+            "name": "Glenn Diesen",
+            "count": 9
+          },
+          {
+            "name": "Daniel Davis Deep Dive",
+            "count": 8
+          },
+          {
+            "name": "Diesen",
+            "count": 1
+          }
+        ],
+        "topThreads": [
+          {
+            "name": "nima",
+            "count": 12
+          },
+          {
+            "name": "diesen",
+            "count": 10
+          },
+          {
+            "name": "davis",
+            "count": 8
+          },
+          {
+            "name": "marandi",
+            "count": 1
+          }
+        ],
+        "firstDay": "2026-02-11",
+        "lastDay": "2026-05-26",
+        "peakDay": "2026-05-26",
+        "peakDayCount": 2
+      },
+      {
+        "name": "Jacques Baud",
+        "slug": "jacques-baud",
+        "fileCount": 24,
+        "dayCount": 24,
+        "topHosts": [
+          {
+            "name": "Nima Alkhorshid",
+            "count": 13
+          },
+          {
+            "name": "Glenn Diesen",
+            "count": 4
+          },
+          {
+            "name": "Daniel Davis",
+            "count": 3
+          },
+          {
+            "name": "Dialogue Works",
+            "count": 2
+          },
+          {
+            "name": "Nima Alkorshid",
+            "count": 2
+          }
+        ],
+        "topChannels": [
+          {
+            "name": "Dialogue Works",
+            "count": 17
+          },
+          {
+            "name": "Glenn Diesen",
+            "count": 4
+          },
+          {
+            "name": "Daniel Davis Deep Dive",
+            "count": 3
+          }
+        ],
+        "topThreads": [
+          {
+            "name": "baud",
+            "count": 10
+          },
+          {
+            "name": "nima",
+            "count": 5
+          },
+          {
+            "name": "diesen",
+            "count": 4
+          },
+          {
+            "name": "daniel-davis-deep-dive",
+            "count": 2
+          },
+          {
+            "name": "davis",
+            "count": 1
+          },
+          {
+            "name": "dialogue-works",
+            "count": 1
+          }
+        ],
+        "firstDay": "2025-01-24",
+        "lastDay": "2026-05-25",
+        "peakDay": "2026-05-25",
+        "peakDayCount": 1
+      },
+      {
+        "name": "Douglas Macgregor",
+        "slug": "douglas-macgregor",
+        "fileCount": 23,
+        "dayCount": 22,
+        "topHosts": [
+          {
+            "name": "Glenn Diesen",
+            "count": 13
+          },
+          {
+            "name": "Andrew Napolitano",
+            "count": 6
+          },
+          {
+            "name": "Daniel Davis",
+            "count": 4
+          }
+        ],
+        "topChannels": [
+          {
+            "name": "Daniel Davis Deep Dive",
+            "count": 4
+          },
+          {
+            "name": "Glenn Diesen",
+            "count": 4
+          },
+          {
+            "name": "Glenn Diesen (channel / program \u2014 pin canonical series title when known)",
+            "count": 1
+          },
+          {
+            "name": "Glenn Diesen (channel / program \u2014 pin canonical series title when pinned)",
+            "count": 1
+          },
+          {
+            "name": "Judging Freedom",
+            "count": 1
+          }
+        ],
+        "topThreads": [
+          {
+            "name": "diesen",
+            "count": 9
+          },
+          {
+            "name": "macgregor",
+            "count": 6
+          },
+          {
+            "name": "davis",
+            "count": 3
+          },
+          {
+            "name": "[diesen, macgregor]",
+            "count": 1
+          }
+        ],
+        "firstDay": "2025-01-16",
+        "lastDay": "2026-05-21",
+        "peakDay": "2026-05-21",
+        "peakDayCount": 2
+      },
+      {
+        "name": "Alastair Crooke",
+        "slug": "alastair-crooke",
+        "fileCount": 22,
+        "dayCount": 22,
+        "topHosts": [
+          {
+            "name": "Glenn Diesen",
+            "count": 4
+          },
+          {
+            "name": "Nima Alkorshid",
+            "count": 4
+          },
+          {
+            "name": "Andrew Napolitano",
+            "count": 3
+          },
+          {
+            "name": "Daniel Davis / Deep Dive",
+            "count": 3
+          },
+          {
+            "name": "Diesen",
+            "count": 3
+          },
+          {
+            "name": "Nima Alkhorshid",
+            "count": 3
+          },
+          {
+            "name": "Daniel Davis",
+            "count": 1
+          }
+        ],
+        "topChannels": [
+          {
+            "name": "Dialogue Works",
+            "count": 4
+          },
+          {
+            "name": "Diesen",
+            "count": 3
+          },
+          {
+            "name": "Judging Freedom",
+            "count": 2
+          },
+          {
+            "name": "Daniel Davis Deep Dive",
+            "count": 1
+          },
+          {
+            "name": "Glenn Diesen",
+            "count": 1
+          }
+        ],
+        "topThreads": [
+          {
+            "name": "nima",
+            "count": 7
+          },
+          {
+            "name": "diesen",
+            "count": 6
+          },
+          {
+            "name": "davis",
+            "count": 4
+          },
+          {
+            "name": "crooke",
+            "count": 2
+          },
+          {
+            "name": "[diesen, crooke]",
+            "count": 1
+          },
+          {
+            "name": "napolitano",
+            "count": 1
+          }
+        ],
+        "firstDay": "2025-06-25",
+        "lastDay": "2026-05-26",
+        "peakDay": "2026-05-26",
+        "peakDayCount": 1
+      },
+      {
+        "name": "Lawrence Wilkerson",
+        "slug": "lawrence-wilkerson",
+        "fileCount": 20,
+        "dayCount": 20,
+        "topHosts": [
+          {
+            "name": "Glenn Diesen",
+            "count": 11
+          },
+          {
+            "name": "Andrew Napolitano",
+            "count": 6
+          }
+        ],
+        "topChannels": [
+          {
+            "name": "Glenn Diesen",
+            "count": 3
+          },
+          {
+            "name": "youtube.com",
+            "count": 2
+          },
+          {
+            "name": "Judging Freedom",
+            "count": 1
+          }
+        ],
+        "topThreads": [
+          {
+            "name": "diesen",
+            "count": 14
+          },
+          {
+            "name": "wilkerson",
+            "count": 5
+          }
+        ],
+        "firstDay": "2025-02-15",
+        "lastDay": "2026-05-26",
+        "peakDay": "2026-05-26",
+        "peakDayCount": 1
+      },
+      {
+        "name": "Andrei Martyanov",
+        "slug": "andrei-martyanov",
+        "fileCount": 20,
+        "dayCount": 19,
+        "topHosts": [
+          {
+            "name": "Nima Alkhorshid",
+            "count": 13
+          },
+          {
+            "name": "Daniel Davis",
+            "count": 4
+          },
+          {
+            "name": "Glenn Diesen",
+            "count": 3
+          }
+        ],
+        "topChannels": [
+          {
+            "name": "Dialogue Works",
+            "count": 13
+          },
+          {
+            "name": "Daniel Davis Deep Dive",
+            "count": 3
+          },
+          {
+            "name": "Deep Dive",
+            "count": 1
+          }
+        ],
+        "topThreads": [
+          {
+            "name": "nima",
+            "count": 8
+          },
+          {
+            "name": "martyanov",
+            "count": 5
+          },
+          {
+            "name": "davis",
+            "count": 4
+          },
+          {
+            "name": "diesen",
+            "count": 3
+          }
+        ],
+        "firstDay": "2025-01-26",
+        "lastDay": "2026-05-21",
+        "peakDay": "2026-01-01",
+        "peakDayCount": 2
+      },
+      {
+        "name": "Charles Freeman",
+        "slug": "charles-freeman",
+        "fileCount": 18,
+        "dayCount": 18,
+        "topHosts": [
+          {
+            "name": "Andrew Napolitano",
+            "count": 17
+          },
+          {
+            "name": "Nima Alkhorshid",
+            "count": 1
+          }
+        ],
+        "topChannels": [
+          {
+            "name": "Judging Freedom",
+            "count": 17
+          },
+          {
+            "name": "Dialogue Works",
+            "count": 1
+          }
+        ],
+        "topThreads": [
+          {
+            "name": "freeman",
+            "count": 17
+          },
+          {
+            "name": "nima",
+            "count": 1
+          }
+        ],
+        "firstDay": "2025-02-18",
+        "lastDay": "2026-05-08",
+        "peakDay": "2026-05-08",
+        "peakDayCount": 1
+      },
+      {
+        "name": "Alexander Mercouris",
+        "slug": "alexander-mercouris",
+        "fileCount": 15,
+        "dayCount": 15,
+        "topHosts": [
+          {
+            "name": "Alex Christoforou",
+            "count": 3
+          },
+          {
+            "name": "Daniel Davis",
+            "count": 3
+          },
+          {
+            "name": "Glenn Diesen",
+            "count": 2
+          },
+          {
+            "name": "Alexander Mercouris",
+            "count": 1
+          }
+        ],
+        "topChannels": [
+          {
+            "name": "Daniel Davis Deep Dive",
+            "count": 3
+          },
+          {
+            "name": "The Duran",
+            "count": 3
+          },
+          {
+            "name": "Glenn Diesen",
+            "count": 2
+          },
+          {
+            "name": "Alexander Mercouris",
+            "count": 1
+          }
+        ],
+        "topThreads": [
+          {
+            "name": "mercouris",
+            "count": 10
+          },
+          {
+            "name": "davis",
+            "count": 2
+          },
+          {
+            "name": "diesen",
+            "count": 2
+          },
+          {
+            "name": "daniel-davis-deep-dive",
+            "count": 1
+          }
+        ],
+        "firstDay": "2025-03-01",
+        "lastDay": "2026-05-26",
+        "peakDay": "2026-05-26",
+        "peakDayCount": 1
+      },
+      {
+        "name": "Larry Wilkerson",
+        "slug": "larry-wilkerson",
+        "fileCount": 14,
+        "dayCount": 14,
+        "topHosts": [
+          {
+            "name": "Nima Alkhorshid",
+            "count": 9
+          },
+          {
+            "name": "Dialogue Works",
+            "count": 4
+          },
+          {
+            "name": "Mario Nawfal",
+            "count": 1
+          }
+        ],
+        "topChannels": [
+          {
+            "name": "Dialogue Works",
+            "count": 5
+          },
+          {
+            "name": "Mario Nawfal",
+            "count": 1
+          }
+        ],
+        "topThreads": [
+          {
+            "name": "nima",
+            "count": 10
+          },
+          {
+            "name": "freeman",
+            "count": 2
+          },
+          {
+            "name": "wilkerson",
+            "count": 2
+          },
+          {
+            "name": "johnson",
+            "count": 1
+          }
+        ],
+        "firstDay": "2025-05-30",
+        "lastDay": "2026-05-20",
+        "peakDay": "2026-05-20",
+        "peakDayCount": 1
+      },
+      {
+        "name": "Ray McGovern",
+        "slug": "ray-mcgovern",
+        "fileCount": 14,
+        "dayCount": 14,
+        "topHosts": [
+          {
+            "name": "Nima Alkhorshid",
+            "count": 6
+          },
+          {
+            "name": "Glenn Diesen",
+            "count": 5
+          },
+          {
+            "name": "Andrew Napolitano",
+            "count": 2
+          },
+          {
+            "name": "Dialogue Works",
+            "count": 1
+          }
+        ],
+        "topChannels": [
+          {
+            "name": "Dialogue Works",
+            "count": 7
+          },
+          {
+            "name": "Glenn Diesen",
+            "count": 5
+          },
+          {
+            "name": "Judging Freedom",
+            "count": 2
+          }
+        ],
+        "topThreads": [
+          {
+            "name": "diesen",
+            "count": 5
+          },
+          {
+            "name": "nima",
+            "count": 5
+          },
+          {
+            "name": "mcgovern",
+            "count": 2
+          },
+          {
+            "name": "dialogue-works",
+            "count": 1
+          },
+          {
+            "name": "napolitano",
+            "count": 1
+          }
+        ],
+        "firstDay": "2025-02-05",
+        "lastDay": "2026-05-20",
+        "peakDay": "2026-05-20",
+        "peakDayCount": 1
+      },
+      {
+        "name": "john-mearsheimer",
+        "slug": "john-mearsheimer",
+        "fileCount": 13,
+        "dayCount": 12,
+        "topHosts": [
+          {
+            "name": "glenn-diesen",
+            "count": 7
+          },
+          {
+            "name": "daniel-davis",
+            "count": 3
+          },
+          {
+            "name": "napolitano",
+            "count": 3
+          }
+        ],
+        "topChannels": [],
+        "topThreads": [],
+        "firstDay": "2025-02-15",
+        "lastDay": "2025-12-19",
+        "peakDay": "2025-08-28",
+        "peakDayCount": 2
+      },
+      {
+        "name": "Doug Macgregor",
+        "slug": "doug-macgregor",
+        "fileCount": 12,
+        "dayCount": 11,
+        "topHosts": [
+          {
+            "name": "Daniel Davis",
+            "count": 12
+          }
+        ],
+        "topChannels": [
+          {
+            "name": "Daniel Davis Deep Dive",
+            "count": 12
+          }
+        ],
+        "topThreads": [
+          {
+            "name": "davis",
+            "count": 12
+          }
+        ],
+        "firstDay": "2025-01-06",
+        "lastDay": "2026-05-26",
+        "peakDay": "2025-01-06",
+        "peakDayCount": 2
+      },
+      {
+        "name": "George Beebe",
+        "slug": "george-beebe",
+        "fileCount": 10,
+        "dayCount": 10,
+        "topHosts": [
+          {
+            "name": "Glenn Diesen",
+            "count": 10
+          }
+        ],
+        "topChannels": [
+          {
+            "name": "Glenn Diesen",
+            "count": 9
+          }
+        ],
+        "topThreads": [
+          {
+            "name": "diesen",
+            "count": 10
+          }
+        ],
+        "firstDay": "2025-04-16",
+        "lastDay": "2026-05-14",
+        "peakDay": "2026-05-14",
+        "peakDayCount": 1
+      },
+      {
+        "name": "Jeffrey Sachs",
+        "slug": "jeffrey-sachs",
+        "fileCount": 8,
+        "dayCount": 7,
+        "topHosts": [
+          {
+            "name": "Glenn Diesen",
+            "count": 4
+          },
+          {
+            "name": "Diesen",
+            "count": 2
+          },
+          {
+            "name": "Alexander Mercouris",
+            "count": 1
+          },
+          {
+            "name": "Andrew Napolitano",
+            "count": 1
+          }
+        ],
+        "topChannels": [
+          {
+            "name": "Glenn Diesen",
+            "count": 4
+          },
+          {
+            "name": "Diesen",
+            "count": 2
+          },
+          {
+            "name": "Judging Freedom",
+            "count": 1
+          },
+          {
+            "name": "The Duran",
+            "count": 1
+          }
+        ],
+        "topThreads": [
+          {
+            "name": "diesen",
+            "count": 5
+          },
+          {
+            "name": "mercouris",
+            "count": 1
+          },
+          {
+            "name": "napolitano",
+            "count": 1
+          }
+        ],
+        "firstDay": "2025-08-11",
+        "lastDay": "2026-05-23",
+        "peakDay": "2026-03-16",
+        "peakDayCount": 2
+      },
+      {
+        "name": "Robert Barnes",
+        "slug": "robert-barnes",
+        "fileCount": 8,
+        "dayCount": 7,
+        "topHosts": [
+          {
+            "name": "Daniel Davis",
+            "count": 5
+          },
+          {
+            "name": "Alexander Mercouris",
+            "count": 2
+          },
+          {
+            "name": "Nima Alkorshid",
+            "count": 1
+          }
+        ],
+        "topChannels": [
+          {
+            "name": "Daniel Davis Deep Dive",
+            "count": 5
+          },
+          {
+            "name": "The Duran",
+            "count": 2
+          },
+          {
+            "name": "Dialogue Works",
+            "count": 1
+          }
+        ],
+        "topThreads": [
+          {
+            "name": "davis",
+            "count": 5
+          },
+          {
+            "name": "[mercouris, barnes]",
+            "count": 2
+          },
+          {
+            "name": "nima",
+            "count": 1
+          }
+        ],
+        "firstDay": "2026-01-13",
+        "lastDay": "2026-05-26",
+        "peakDay": "2026-02-16",
+        "peakDayCount": 2
+      },
+      {
+        "name": "Daniel Davis",
+        "slug": "daniel-davis",
+        "fileCount": 7,
+        "dayCount": 7,
+        "topHosts": [
+          {
+            "name": "Glenn Diesen",
+            "count": 5
+          },
+          {
+            "name": "Daniel Davis",
+            "count": 2
+          }
+        ],
+        "topChannels": [
+          {
+            "name": "Glenn Diesen (channel / program \u2014 pin canonical series title when pinned)",
+            "count": 3
+          },
+          {
+            "name": "Daniel Davis Deep Dive",
+            "count": 2
+          },
+          {
+            "name": "Glenn Diesen",
+            "count": 1
+          },
+          {
+            "name": "Glenn Diesen (channel / program \u2014 pin canonical series title when known)",
+            "count": 1
+          }
+        ],
+        "topThreads": [
+          {
+            "name": "davis",
+            "count": 2
+          },
+          {
+            "name": "diesen",
+            "count": 2
+          }
+        ],
+        "firstDay": "2025-08-18",
+        "lastDay": "2026-05-15",
+        "peakDay": "2026-05-15",
+        "peakDayCount": 1
+      },
+      {
+        "name": "Martin Armstrong",
+        "slug": "martin-armstrong",
+        "fileCount": 7,
+        "dayCount": 7,
+        "topHosts": [
+          {
+            "name": "Nima Alkhorshid",
+            "count": 6
+          },
+          {
+            "name": "Glenn Diesen",
+            "count": 1
+          }
+        ],
+        "topChannels": [
+          {
+            "name": "Dialogue Works",
+            "count": 6
+          },
+          {
+            "name": "Glenn Diesen",
+            "count": 1
+          }
+        ],
+        "topThreads": [
+          {
+            "name": "nima",
+            "count": 6
+          },
+          {
+            "name": "diesen",
+            "count": 1
+          }
+        ],
+        "firstDay": "2025-02-19",
+        "lastDay": "2026-02-27",
+        "peakDay": "2026-02-27",
+        "peakDayCount": 1
+      },
+      {
+        "name": "Trita Parsi",
+        "slug": "trita-parsi",
+        "fileCount": 7,
+        "dayCount": 7,
+        "topHosts": [
+          {
+            "name": "Nima Alkhorshid",
+            "count": 3
+          },
+          {
+            "name": "Alexander Mercouris",
+            "count": 1
+          },
+          {
+            "name": "Andrew Napolitano",
+            "count": 1
+          },
+          {
+            "name": "Daniel Davis",
+            "count": 1
+          },
+          {
+            "name": "Glenn Diesen",
+            "count": 1
+          }
+        ],
+        "topChannels": [
+          {
+            "name": "Dialogue Works",
+            "count": 3
+          },
+          {
+            "name": "Deep Dive",
+            "count": 1
+          },
+          {
+            "name": "Glenn Diesen",
+            "count": 1
+          },
+          {
+            "name": "Judging Freedom",
+            "count": 1
+          },
+          {
+            "name": "Mercouris",
+            "count": 1
+          }
+        ],
+        "topThreads": [
+          {
+            "name": "freeman",
+            "count": 3
+          },
+          {
+            "name": "davis",
+            "count": 1
+          },
+          {
+            "name": "diesen",
+            "count": 1
+          },
+          {
+            "name": "mercouris",
+            "count": 1
+          },
+          {
+            "name": "napolitano",
+            "count": 1
+          }
+        ],
+        "firstDay": "2025-07-26",
+        "lastDay": "2026-05-18",
+        "peakDay": "2026-05-18",
+        "peakDayCount": 1
+      },
+      {
+        "name": "Joe Kent",
+        "slug": "joe-kent",
+        "fileCount": 7,
+        "dayCount": 5,
+        "topHosts": [
+          {
+            "name": "Daniel Davis",
+            "count": 4
+          },
+          {
+            "name": "Glenn Diesen",
+            "count": 1
+          },
+          {
+            "name": "Mario Nawfal",
+            "count": 1
+          },
+          {
+            "name": "Tucker Carlson",
+            "count": 1
+          }
+        ],
+        "topChannels": [
+          {
+            "name": "Daniel Davis Deep Dive",
+            "count": 4
+          },
+          {
+            "name": "Glenn Diesen",
+            "count": 1
+          },
+          {
+            "name": "Mario Nawfal",
+            "count": 1
+          },
+          {
+            "name": "Tucker Carlson",
+            "count": 1
+          }
+        ],
+        "topThreads": [
+          {
+            "name": "davis",
+            "count": 4
+          },
+          {
+            "name": "kent",
+            "count": 2
+          },
+          {
+            "name": "diesen",
+            "count": 1
+          }
+        ],
+        "firstDay": "2026-03-18",
+        "lastDay": "2026-05-15",
+        "peakDay": "2026-05-08",
+        "peakDayCount": 2
+      },
+      {
+        "name": "Larry C. Johnson",
+        "slug": "larry-c-johnson",
+        "fileCount": 6,
+        "dayCount": 6,
+        "topHosts": [
+          {
+            "name": "Nima Alkhorshid",
+            "count": 5
+          },
+          {
+            "name": "Dialogue Works",
+            "count": 1
+          }
+        ],
+        "topChannels": [
+          {
+            "name": "Dialogue Works",
+            "count": 3
+          }
+        ],
+        "topThreads": [
+          {
+            "name": "nima",
+            "count": 3
+          },
+          {
+            "name": "johnson",
+            "count": 2
+          },
+          {
+            "name": "dialogue-works",
+            "count": 1
+          }
+        ],
+        "firstDay": "2025-11-21",
+        "lastDay": "2026-04-06",
+        "peakDay": "2026-04-06",
+        "peakDayCount": 1
+      },
+      {
+        "name": "Alex Krainer",
+        "slug": "alex-krainer",
+        "fileCount": 5,
+        "dayCount": 5,
+        "topHosts": [
+          {
+            "name": "Glenn Diesen",
+            "count": 2
+          },
+          {
+            "name": "Nima Alkhorshid",
+            "count": 2
+          },
+          {
+            "name": "Diesen",
+            "count": 1
+          }
+        ],
+        "topChannels": [
+          {
+            "name": "Dialogue Works",
+            "count": 2
+          },
+          {
+            "name": "Glenn Diesen",
+            "count": 2
+          },
+          {
+            "name": "Diesen",
+            "count": 1
+          }
+        ],
+        "topThreads": [
+          {
+            "name": "diesen",
+            "count": 2
+          },
+          {
+            "name": "dialogue-works",
+            "count": 1
+          },
+          {
+            "name": "glenn-diesen",
+            "count": 1
+          },
+          {
+            "name": "krainer",
+            "count": 1
+          }
+        ],
+        "firstDay": "2025-07-20",
+        "lastDay": "2026-05-21",
+        "peakDay": "2026-05-21",
+        "peakDayCount": 1
+      }
+    ]
+  },
+  "artifacts": {
+    "markdown": "C:\\dev\\strategy-codex\\artifacts\\statecraft\\speakers\\speaker-dashboard.md",
+    "json": "C:\\dev\\strategy-codex\\artifacts\\statecraft\\speakers\\speaker-dashboard.json"
+  },
+  "savedSlices": [
+    "chas-freeman",
+    "scott-ritter",
+    "john-mearsheimer",
+    "larry-johnson",
+    "seyed-m-marandi",
+    "jacques-baud",
+    "douglas-macgregor",
+    "alastair-crooke",
+    "lawrence-wilkerson",
+    "andrei-martyanov"
+  ]
+}

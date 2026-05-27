@@ -2,40 +2,31 @@
 
 WORK only; not Record.
 
-This is the canonical Marandi speaker shelf.
+This folder is now a **compatibility front door** for Marandi.
 
-## Open First
+The canonical Marandi shelf now lives under [`statecraft/speakers/marandi/`](/C:/dev/strategy-codex/statecraft/speakers/marandi/README.md).
 
-- [marandi-arc.md](marandi-arc.md)
-- [marandi-routing.md](marandi-routing.md)
-- [stream/marandi-2025-present-arc-threads.md](stream/marandi-2025-present-arc-threads.md)
-- [marandi-speaker-object.md](marandi-speaker-object.md)
-- [marandi-helix.md](marandi-helix.md)
-- [themes/README.md](themes/README.md)
-- [marandi-cross-year-note.md](marandi-cross-year-note.md)
-- [marandi-raw-input-index.md](marandi-raw-input-index.md)
+## Canonical front door
 
-## Canonical structure
+- [statecraft/speakers/marandi/README.md](/C:/dev/strategy-codex/statecraft/speakers/marandi/README.md)
+- [statecraft/speakers/marandi/index.md](/C:/dev/strategy-codex/statecraft/speakers/marandi/index.md)
+- [statecraft/speakers/marandi/marandi-arc.md](/C:/dev/strategy-codex/statecraft/speakers/marandi/marandi-arc.md)
+- [statecraft/speakers/marandi/marandi-routing.md](/C:/dev/strategy-codex/statecraft/speakers/marandi/marandi-routing.md)
+- [statecraft/speakers/marandi/marandi-raw-input-index.md](/C:/dev/strategy-codex/statecraft/speakers/marandi/marandi-raw-input-index.md)
+- [statecraft/speakers/marandi/marandi-helix.md](/C:/dev/strategy-codex/statecraft/speakers/marandi/marandi-helix.md)
+- [statecraft/speakers/marandi/marandi-support-spine-2025-2026.md](/C:/dev/strategy-codex/statecraft/speakers/marandi/marandi-support-spine-2025-2026.md)
 
-This shelf now has a full person-arc stack:
+## Compatibility residue
 
-- [marandi-arc.md](marandi-arc.md) is the canonical person-level continuity surface
-- [marandi-routing.md](marandi-routing.md) is the fast host-and-task routing surface
-- [stream/marandi-2025-present-arc-threads.md](stream/marandi-2025-present-arc-threads.md) is the canonical recurring thread atlas
-- [marandi-speaker-object.md](marandi-speaker-object.md) defines the object and hierarchy
-- [marandi-helix.md](marandi-helix.md) owns host-transformation comparison
-- [themes/README.md](themes/README.md) owns recurring theme-family routing
-
-The older [marandi-thread.md](marandi-thread.md) file remains a **legacy continuity compatibility surface**, not a competing canonical thread atlas.
-
-## Routing
-
-Marandi is speaker-first rather than year-lane-first.
-
-- speaker doctrine stays at the shelf root
-- cross-host continuity lives under this shelf and its `stream/` subtree
-- host-local guest transformations stay with the host shelves
-- theme-family reuse stays under `themes/`
+- [marandi-speaker-object.md](/C:/dev/strategy-codex/codex/speakers/marandi/marandi-speaker-object.md)
+- [marandi-arc.md](/C:/dev/strategy-codex/codex/speakers/marandi/marandi-arc.md)
+- [marandi-routing.md](/C:/dev/strategy-codex/codex/speakers/marandi/marandi-routing.md)
+- [marandi-helix.md](/C:/dev/strategy-codex/codex/speakers/marandi/marandi-helix.md)
+- [marandi-raw-input-index.md](/C:/dev/strategy-codex/codex/speakers/marandi/marandi-raw-input-index.md)
+- [stream/](/C:/dev/strategy-codex/codex/speakers/marandi/stream/)
+- [themes/README.md](/C:/dev/strategy-codex/codex/speakers/marandi/themes/README.md)
+- [marandi-thread.md](/C:/dev/strategy-codex/codex/speakers/marandi/marandi-thread.md)
+- [marandi-transcript.md](/C:/dev/strategy-codex/codex/speakers/marandi/marandi-transcript.md)
 
 ## Host lanes
 
@@ -45,13 +36,12 @@ Marandi is speaker-first rather than year-lane-first.
 
 ## Compatibility shape
 
-Compatibility files still present on this shelf:
+Treat the codex-side Marandi files as compatibility residue and migration scaffolds.
 
-- [marandi-thread.md](marandi-thread.md)
-- [marandi-transcript.md](marandi-transcript.md)
-
-Use them as compatibility or support surfaces, not as replacements for the person arc, routing note, thread atlas, or host-local arcs.
+- the canonical Marandi statecraft opening path is now under [`statecraft/speakers/marandi/`](/C:/dev/strategy-codex/statecraft/speakers/marandi/README.md)
+- the codex-side files remain useful for continuity and prior doctrinal steps
+- do not treat codex-side Marandi files as co-equal canonical continuity surfaces against the statecraft shelf
 
 ## Boundary
 
-Marandi is canonical under `codex/speakers/marandi/`. Raw-text authority stays in [`codex/years/2026/raw-input/`](/C:/dev/strategy-codex/codex/years/2026/raw-input), with 2025-present continuity routed through [marandi-raw-input-index.md](marandi-raw-input-index.md).
+Raw-text authority stays in [`source-archive/statecraft/`](/C:/dev/strategy-codex/source-archive/statecraft). This codex-side folder is no longer the canonical first-open shelf.

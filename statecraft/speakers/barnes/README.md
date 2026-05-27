@@ -1,0 +1,55 @@
+WORK only; not Record.
+
+# Barnes
+
+This is the canonical Barnes statecraft speaker shelf.
+
+Use it for cross-host speaker identity, domestic-liability and constitutional-process routing, executive-instability reads, and fast provenance entry into the live Barnes corpus.
+
+The shelf is intentionally a lighter first pass. Barnes is already a real cross-host speaker object, but not yet a Johnson-scale month-ladder shelf.
+
+## Open First
+
+- [barnes-arc.md](barnes-arc.md)
+- [barnes-routing.md](barnes-routing.md)
+- [barnes-raw-input-index.md](barnes-raw-input-index.md)
+- [barnes-helix.md](barnes-helix.md)
+- [barnes-support-spine-2025-2026.md](barnes-support-spine-2025-2026.md)
+
+## Canonical Structure
+
+Barnes's canonical statecraft shelf currently has five speaker-owned layers:
+
+- **Person arc:** [barnes-arc.md](barnes-arc.md) holds whole-speaker continuity across hosts and the January through May 2026 run.
+- **Routing surface:** [barnes-routing.md](barnes-routing.md) answers which host lane or source file to open first for a given Barnes use.
+- **Provenance bench:** [barnes-raw-input-index.md](barnes-raw-input-index.md) is the canonical route map for materialized Barnes appearances and support-tier Barnes-adjacent captures.
+- **Cross-host note:** [barnes-helix.md](barnes-helix.md) explains the real host-conditioned structure without overstating non-Davis maturity.
+- **Support spine:** [barnes-support-spine-2025-2026.md](barnes-support-spine-2025-2026.md) owns maturity law and the rule for how this lighter shelf should extend later.
+
+## Current Shelf Shape
+
+The real hierarchy on disk is:
+
+- [Davis x Barnes](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-barnes-speaker-arc.md) is the clearest mature host-local branch.
+- `Mercouris x Barnes` is a real reinforcing lane with January, March, and April guest captures.
+- `Nima x Barnes` is still thin, but the May 26, 2026 Dialogue Works appearance is strong enough to matter as a late-stage reinforcing entry, not just an appendix.
+- `Johnson x Barnes` currently exists as useful support-tier domestic-process residue, not as a co-equal mature host-local Barnes strand.
+
+## Compatibility Shape
+
+The legacy `codex/speakers/barnes/` path is now front-door compatibility only.
+
+- [codex/speakers/barnes/README.md](/C:/dev/strategy-codex/codex/speakers/barnes/README.md) and [index.md](/C:/dev/strategy-codex/codex/speakers/barnes/index.md) are compatibility pointers.
+- codex-side thread, transcript, speaker-object, cross-host, mind, and profile files remain compatibility residue or migration scaffolds.
+- this statecraft shelf is now the canonical opening path for Barnes statecraft work.
+
+## Host Lanes
+
+- [Davis x Barnes](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-barnes-speaker-arc.md)
+- [Mercouris x Barnes](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-23/transcript-mercouris-barnes-fractured-iran-trump-2026-04-23.md)
+- [Nima x Barnes](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/transcript-alkorshid-barnes-us-iran-final-confrontation-as-russia-drops-heaviest-strikes-on-ukraine-yet-2026-05-26.md)
+- [Johnson x Barnes support](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-17/barnes-countercurrent-2026-04-17-verbatim.md)
+
+## Boundary
+
+Barnes is canonical here under `statecraft/speakers/barnes/`. Raw-text authority stays in [`source-archive/statecraft/`](/C:/dev/strategy-codex/source-archive/statecraft), host-local chronology still lives primarily in host arcs and source captures, and this shelf is a routing and synthesis surface only.

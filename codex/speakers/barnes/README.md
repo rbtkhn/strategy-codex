@@ -2,33 +2,36 @@
 
 WORK only; not Record.
 
-This folder is the **speaker-object entry surface** for Robert Barnes.
+This folder is now a **compatibility front door** for Robert Barnes.
 
-Open here first when the question is not merely "what did Barnes say," but **which Barnes structure is actually canonical on disk**.
+The canonical Barnes shelf now lives under [`statecraft/speakers/barnes/`](/C:/dev/strategy-codex/statecraft/speakers/barnes/README.md).
 
-## Start here
+## Canonical front door
 
-- [index.md](/C:/dev/strategy-codex/codex/speakers/barnes/index.md)
+- [statecraft/speakers/barnes/README.md](/C:/dev/strategy-codex/statecraft/speakers/barnes/README.md)
+- [statecraft/speakers/barnes/index.md](/C:/dev/strategy-codex/statecraft/speakers/barnes/index.md)
+- [statecraft/speakers/barnes/barnes-arc.md](/C:/dev/strategy-codex/statecraft/speakers/barnes/barnes-arc.md)
+- [statecraft/speakers/barnes/barnes-routing.md](/C:/dev/strategy-codex/statecraft/speakers/barnes/barnes-routing.md)
+- [statecraft/speakers/barnes/barnes-raw-input-index.md](/C:/dev/strategy-codex/statecraft/speakers/barnes/barnes-raw-input-index.md)
+- [statecraft/speakers/barnes/barnes-helix.md](/C:/dev/strategy-codex/statecraft/speakers/barnes/barnes-helix.md)
+- [statecraft/speakers/barnes/barnes-support-spine-2025-2026.md](/C:/dev/strategy-codex/statecraft/speakers/barnes/barnes-support-spine-2025-2026.md)
 
-## Structural notes
+## Compatibility residue
 
 - [barnes-speaker-object.md](/C:/dev/strategy-codex/codex/speakers/barnes/barnes-speaker-object.md)
 - [barnes-cross-host-note.md](/C:/dev/strategy-codex/codex/speakers/barnes/barnes-cross-host-note.md)
 - [barnes-mind.md](/C:/dev/strategy-codex/codex/speakers/barnes/barnes-mind.md)
+- [barnes-thread.md](/C:/dev/strategy-codex/codex/speakers/barnes/barnes-thread.md)
+- [barnes-transcript.md](/C:/dev/strategy-codex/codex/speakers/barnes/barnes-transcript.md)
 
 ## Compatibility shape
 
-This shelf already has a real canonical structure:
+Treat the codex-side Barnes files as compatibility residue and migration scaffolds.
 
-- [davis-barnes-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-barnes-speaker-arc.md) is the clearest mature host-local branch
-- [barnes-speaker-object.md](/C:/dev/strategy-codex/codex/speakers/barnes/barnes-speaker-object.md) defines the cross-host reinforced object shape
-- [barnes-cross-host-note.md](/C:/dev/strategy-codex/codex/speakers/barnes/barnes-cross-host-note.md) preserves the broader reinforcement claim without overstating helix maturity
-
-The older [barnes-thread.md](/C:/dev/strategy-codex/codex/speakers/barnes/barnes-thread.md) file is therefore a **legacy continuity compatibility surface**, not a second canonical topical-thread system.
-
-Do not treat `barnes-thread.md` as competing with the mature Davis branch or the object doctrine that explains it.
+- the canonical Barnes statecraft opening path is now under [`statecraft/speakers/barnes/`](/C:/dev/strategy-codex/statecraft/speakers/barnes/README.md)
+- the codex-side files remain useful for continuity and prior doctrinal steps
+- do not treat codex-side Barnes files as co-equal canonical continuity surfaces against the statecraft shelf
 
 ## Host lanes
 
 - [Davis x Barnes](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-barnes-speaker-arc.md)
-

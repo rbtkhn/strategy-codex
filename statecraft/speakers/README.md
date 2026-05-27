@@ -55,7 +55,7 @@ Carveout rule: transcript-first is the default for transcript-bearing relational
 The migration is phased, but the constitutional target is already fixed:
 
 1. whole-corpus doctrine and compatibility law
-2. active migration fronts such as [Freeman](freeman/README.md), [Mercouris](mercouris/README.md), [Crooke](crooke/README.md), [Macgregor](macgregor/README.md), and [Ritter](ritter/README.md)
+2. active migration fronts such as [Freeman](freeman/README.md), [Mercouris](mercouris/README.md), [Crooke](crooke/README.md), [Macgregor](macgregor/README.md), [Ritter](ritter/README.md), [Barnes](barnes/README.md), and [Marandi](marandi/README.md)
 3. support-spine shelf exemplars
 4. remaining active statecraft speakers
 5. long-tail archive cleanup
@@ -92,6 +92,11 @@ Canonical cross-context exception shelves now also include:
 
 - [Parsi](parsi/README.md)
 
+Canonical lighter first-pass shelves now also include:
+
+- [Barnes](barnes/README.md)
+- [Marandi](marandi/README.md)
+
 ## Shelf classes
 
 The repo now recognizes three shelf classes.
@@ -127,7 +132,23 @@ Current example:
 
 - [Parsi](parsi/README.md)
 
-### 3. Host-led mature-month exception shelves
+### 3. Lighter first-pass canonical shelves
+
+These are canonical `statecraft/speakers/` shelves with real speaker identity, routing, provenance, and maturity law, but not yet enough density to justify a bounded month ladder.
+
+For these shelves:
+
+- the arc and routing surfaces do most of the work
+- the support spine explains why the shelf remains intentionally lighter
+- host arcs and provenance still own most chronology
+- extension should be driven by density, not symmetry
+
+Current examples:
+
+- [Barnes](barnes/README.md)
+- [Marandi](marandi/README.md)
+
+### 4. Host-led mature-month exception shelves
 
 These have genuinely mature months, but those months are still owned more cleanly by host arcs, reinforcing orbit, or a non-core appearance bench than by speaker-native month shelves.
 
