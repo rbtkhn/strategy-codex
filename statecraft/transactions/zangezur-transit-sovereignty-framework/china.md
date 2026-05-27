@@ -14,7 +14,7 @@ Zangezur infrastructure access without ownership of dispute.
 
 - Speaker-state inputs: China-facing infrastructure and anti-disorder sources TBD.
 - Scoreboards used: Pape for transit leverage; Mearsheimer for balancing risk.
-- Raw-input / provenance anchors: future current-event packet required.
+- Raw-input / provenance anchors: future verified live-event packet required.
 - Prior statecraft drafts: crisis test casebook corridor entry.
 
 ## Realism / Incentive Filter

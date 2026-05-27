@@ -14,7 +14,7 @@ Zangezur mediation without overbinding.
 
 - Speaker-state inputs: security-depth and multipolar-order sources TBD.
 - Scoreboards used: Mearsheimer for buffer and overextension risk; Pape for corridor leverage.
-- Raw-input / provenance anchors: future current-event packet required.
+- Raw-input / provenance anchors: future verified live-event packet required.
 - Prior statecraft drafts: crisis test casebook corridor entry.
 
 ## Realism / Incentive Filter

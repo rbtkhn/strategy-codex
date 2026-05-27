@@ -2,7 +2,7 @@
 
 WORK only; not Record.
 
-Use this template when a current-event read, transaction, objection matrix, or scenario test exposes a durable lane improvement. The candidate is the membrane between the machine and the book: live analysis proposes, human review decides, and book surfaces update only after acceptance.
+Use this template when a verified live-event read, transaction, objection matrix, or scenario test exposes a durable lane improvement. The candidate is the membrane between the machine and the book: live analysis proposes, human review decides, and book surfaces update only after acceptance.
 
 Allowed targets:
 

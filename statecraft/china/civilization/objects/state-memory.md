@@ -55,7 +55,7 @@ This object cannot decide current policy by itself. It does not tell you whether
   - [China civilization](../)
   - [China helix](../../helix.md)
   - [China civilization seed patterns](../seed-patterns.md)
-  - lane-local current-event and transaction work should stage durable improvements through [China updates](../../updates/pending.md), not rewrite civilization memory directly
+  - lane-local verified live-event and transaction work should stage durable improvements through [China updates](../../updates/pending.md), not rewrite civilization memory directly
 
 ## Arc Pattern
 
@@ -185,5 +185,5 @@ State memory deforms when order becomes brittle control, anti-humiliation become
 ## Revisit Triggers
 
 - Any major Xi, Politburo, State Council, PLA, MFA, PBC, commerce, port, insurer, or provincial signal on Taiwan, Iran, Russia, sanctions, energy, shipping, compute sovereignty, or regional security architecture.
-- Any current-event read involving blockade, quarantine, sanctions resistance, energy absorber behavior, security architecture, Taiwan warning, or U.S. coercive pressure.
+- Any verified live-event read involving blockade, quarantine, sanctions resistance, energy absorber behavior, security architecture, Taiwan warning, or U.S. coercive pressure.
 - Any China-lane transaction that asks Beijing to broker, insure, finance, route, restrain, warn, guarantee, or quietly pressure another actor.

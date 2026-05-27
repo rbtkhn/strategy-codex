@@ -43,7 +43,7 @@ This object cannot decide current policy by itself. It does not tell you whether
 - Lane-local translation inputs:
   - [Russia civilization](../)
   - [Russia helix](../../helix.md)
-  - lane-local current-event and transaction work should stage durable improvements through [Russia updates](../../updates/pending.md), not rewrite civilization memory directly
+  - lane-local verified live-event and transaction work should stage durable improvements through [Russia updates](../../updates/pending.md), not rewrite civilization memory directly
 
 ## Arc Pattern
 

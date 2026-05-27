@@ -14,7 +14,7 @@ Taiwan transit reassurance without automatic blockade recognition.
 
 - Speaker-state inputs: realist diplomacy and force-risk sources TBD.
 - Scoreboards used: Mearsheimer for alliance geometry; Pape for systemic spillover.
-- Raw-input / provenance anchors: future current-event packet required.
+- Raw-input / provenance anchors: future verified live-event packet required.
 - Prior statecraft drafts: crisis test casebook Taiwan entry.
 
 ## Realism / Incentive Filter

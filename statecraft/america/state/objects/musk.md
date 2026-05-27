@@ -99,5 +99,5 @@ When Musk is load-bearing in an America-lane draft, the instrument must answer:
 
 ## Revisit Triggers
 
-- Any America-lane current-event read involving Starlink, SpaceX, X, xAI, Tesla, AI infrastructure, launch capacity, drones, identity rails, federal data access, procurement, China business exposure, platform moderation, sanctions, protest communications, or emergency state modernization.
+- Any America-lane verified live-event read involving Starlink, SpaceX, X, xAI, Tesla, AI infrastructure, launch capacity, drones, identity rails, federal data access, procurement, China business exposure, platform moderation, sanctions, protest communications, or emergency state modernization.
 - Any transaction where U.S. leverage depends on private technology capacity more than ordinary public authority.

@@ -26,7 +26,7 @@ Score each lane out of 100.
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
 | [Russia](../russia/) | 18 | 17 | 14 | 16 | 13 | 8 | **86** | Strong collapse / restoration memory and clear Putin + Security Council carrier model. Needs more explicit China-dependence and pricing-risk scoring before energy absorber work becomes mature. |
 | [China](../china/) | 18 | 18 | 14 | 17 | 14 | 8 | **89** | Strong party-state implementation grammar and anti-disorder benchmark. Highest machine readiness because transaction tests name banks, firms, ports, insurers, provinces, PLA restraint, and energy / shipping continuity. |
-| [Iran](../iran/) | 19 | 18 | 14 | 18 | 13 | 9 | **91** | Strongest memory-to-transaction conversion: dignity, sovereignty, sanctions, nuclear rights, Hormuz, and split authority all produce concrete transaction tests. Main risk is humiliation lock or security-spoiler veto. |
+| [Persia](../persia/) | 19 | 18 | 14 | 18 | 13 | 9 | **91** | Strongest memory-to-transaction conversion: dignity, sovereignty, sanctions, nuclear rights, Hormuz, and split authority all produce concrete transaction tests. Main risk is humiliation lock or security-spoiler veto. |
 
 ## Evidence Notes
 
@@ -48,9 +48,9 @@ Score each lane out of 100.
 
 ### Iran
 
-- **Memory:** [Iran state memory](../iran/civilization/objects/state-memory.md) defines sovereignty under pressure, dignity, siege endurance, 1953 guarantee-distrust, Iran-Iraq martyrdom, sanctions, and compute-siege autonomy.
-- **Current carriers:** [Authority structure](../iran/state/authority-structure.md), [Supreme Leader](../iran/state/supreme-leader.md), [president / government](../iran/state/president-government.md), and [IRGC](../iran/state/irgc.md) must align for a settlement to carry.
-- **Transmitter:** [Araghchi](../iran/state/objects/araghchi.md) translates sanctions relief, nuclear rights, dignity, transit leverage, and regional architecture.
+- **Memory:** [Iran state memory](../persia/civilization/objects/state-memory.md) defines sovereignty under pressure, dignity, siege endurance, 1953 guarantee-distrust, Iran-Iraq martyrdom, sanctions, and compute-siege autonomy.
+- **Current carriers:** [Authority structure](../persia/state/authority-structure.md), [Supreme Leader](../persia/state/supreme-leader.md), [president / government](../persia/state/president-government.md), and [IRGC](../persia/state/irgc.md) must align for a settlement to carry.
+- **Transmitter:** [Araghchi](../persia/state/objects/araghchi.md) translates sanctions relief, nuclear rights, dignity, transit leverage, and regional architecture.
 - **Transaction utility:** strongest for Hormuz, nuclear latency, protected channel, Minab civilian harm, and Iran-local recognition transit.
 - **Friction watch:** Iran can monetize leverage, but humiliation lock, martyrdom-as-veto, or IRGC/security implementation failure can block settlement.
 
@@ -87,13 +87,13 @@ Score each lane out of 100.
 
 ## Recursive Recommendations
 
-These are recommendations only. Stage in the relevant lane-local `updates/pending.md` only if a future current-event read gives fresh evidence.
+These are recommendations only. Stage in the relevant lane-local `updates/pending.md` only if a future verified live-event read gives fresh evidence.
 
 | candidate | lane | condition for staging | target |
 | --- | --- | --- | --- |
 | China energy absorber mechanism | China | A concrete payments, insurance, shipping, sanctions-insulation, pipeline, or transit mechanism appears after a China-Russia-Iran energy signal. | `china/updates/pending.md` |
 | Russia dependence/pricing warning | Russia | Evidence shows Moscow accepting lower optionality, pricing power loss, or policy dependence on Chinese demand. | `russia/updates/pending.md` |
-| Iran dignity-to-restraint conversion | Iran | An Iranian carrier offers a formula that converts leverage into restraint without appearing humiliated. | `iran/updates/pending.md` |
+| Iran dignity-to-restraint conversion | Persia | An Iranian carrier offers a formula that converts leverage into restraint without appearing humiliated. | `persia/updates/pending.md` |
 | Trilateral architecture candidate | China / Russia / Iran | All three lanes show compatible carrier signals for a shared forum, transit, inspection, insurance, or sanctions-relief mechanism. | relevant lane queue first; transaction candidate only after review |
 
 ## Audit Use

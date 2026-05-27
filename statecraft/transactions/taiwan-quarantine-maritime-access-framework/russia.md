@@ -14,7 +14,7 @@ Taiwan maritime precedent management.
 
 - Speaker-state inputs: multipolar order and U.S. overextension sources TBD.
 - Scoreboards used: Mearsheimer for balancing; Pape for spillover.
-- Raw-input / provenance anchors: future current-event packet required.
+- Raw-input / provenance anchors: future verified live-event packet required.
 - Prior statecraft drafts: crisis test casebook Taiwan entry.
 
 ## Realism / Incentive Filter

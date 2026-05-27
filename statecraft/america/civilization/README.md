@@ -39,7 +39,7 @@ Any successor American power center would still need continental coherence, mari
 
 ## Development Queue
 
-Start with [seed-patterns.md](seed-patterns.md). Use [god](god.md), [lit](lit.md), [art](art.md), [geo](geo.md), [war](war.md), and [peace](peace.md) as compact statecraft arc-lenses for sacred boundary, cultural memory, legitimacy, terrain, coercion, settlement, beauty, and failure modes. Promote a seed into a full note only when a transaction, current-event brief, or comparative test needs it.
+Start with [seed-patterns.md](seed-patterns.md). Use [god](god.md), [lit](lit.md), [art](art.md), [geo](geo.md), [war](war.md), and [peace](peace.md) as compact statecraft arc-lenses for sacred boundary, cultural memory, legitimacy, terrain, coercion, settlement, beauty, and failure modes. Promote a seed into a full note only when a transaction, verified live-event read, or comparative test needs it.
 
 Use the [present-day arc extension matrix](../../sheets/present-day-arc-extension-matrix.md) when an America read needs to bridge older constitutional, frontier, empire / republic, or civil-war arcs into modern carriers such as platforms, sanctions finance, alliances, executive authority, technology industry, or successor legitimacy.
 

@@ -27,7 +27,7 @@ Each state lane should keep this minimum spine:
 - `empire/seed-instruments.md`: three to five instruments ready for expansion.
 - `state/`: regulated doctrine and decision rules built from the two upstream folders.
 - `helix.md`: the balancing mechanism between civilization and empire.
-- `transactions/`: current-event and scenario drafts that test the lane against reality.
+- `transactions/`: live-event and scenario drafts that test the lane against reality.
 - `updates/pending.md`: the membrane where live outputs stage recursive update candidates before book surfaces change.
 
 ## Development Passes
@@ -38,7 +38,7 @@ For each lane, add three civilization patterns and three empire instruments. Eac
 
 ### Pass 2: Deepen
 
-Promote each seed into its own note only when it becomes active in a transaction, current-event brief, or comparative statecraft test. Avoid expanding notes merely because more history is available.
+Promote each seed into its own note only when it becomes active in a transaction, verified live-event read, or comparative statecraft test. Avoid expanding notes merely because more history is available.
 
 ### Pass 3: Regulate
 
@@ -56,7 +56,7 @@ Before a lane becomes an independent repo, verify that it can stand without reac
 
 ### Pass 5: Recurse
 
-After a current-event brief, transaction, objection matrix, or scenario test, stage candidate improvements in `<lane>/updates/pending.md`:
+After a verified live-event read, transaction, objection matrix, or scenario test, stage candidate improvements in `<lane>/updates/pending.md`:
 
 - new civilization pattern
 - new empire instrument

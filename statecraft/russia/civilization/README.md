@@ -41,7 +41,7 @@ Any successor Russian authority would still need strategic depth, secure borders
 
 ## Development Queue
 
-Start with [seed-patterns.md](seed-patterns.md). Use [god](god.md), [lit](lit.md), [art](art.md), [geo](geo.md), [war](war.md), and [peace](peace.md) as compact statecraft arc-lenses for sacred boundaries, cultural memory, legitimacy, terrain, coercion, settlement, beauty, and failure modes. Promote a seed into a full note only when a transaction, current-event brief, or comparative test needs it.
+Start with [seed-patterns.md](seed-patterns.md). Use [god](god.md), [lit](lit.md), [art](art.md), [geo](geo.md), [war](war.md), and [peace](peace.md) as compact statecraft arc-lenses for sacred boundaries, cultural memory, legitimacy, terrain, coercion, settlement, beauty, and failure modes. Promote a seed into a full note only when a transaction, verified live-event read, or comparative test needs it.
 
 For Russia-specific depth analysis, use the [Russia depth arc](../../sheets/russia-depth-arc.md) to distinguish frontier-depth, symbolic-depth, imperial-depth, space-depth, system-depth, and dependency-depth before turning exposure into recognition language.
 

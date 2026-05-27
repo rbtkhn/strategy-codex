@@ -41,7 +41,7 @@ Any successor Chinese authority would still need unity, food and energy security
 
 ## Development Queue
 
-Start with [seed-patterns.md](seed-patterns.md). Use [god](god.md), [lit](lit.md), [art](art.md), [geo](geo.md), [war](war.md), and [peace](peace.md) as compact statecraft arc-lenses for sacred boundary, cultural memory, legitimacy, terrain, coercion, settlement, beauty, and failure modes. Promote a seed into a full note only when a transaction, current-event brief, or comparative test needs it.
+Start with [seed-patterns.md](seed-patterns.md). Use [god](god.md), [lit](lit.md), [art](art.md), [geo](geo.md), [war](war.md), and [peace](peace.md) as compact statecraft arc-lenses for sacred boundary, cultural memory, legitimacy, terrain, coercion, settlement, beauty, and failure modes. Promote a seed into a full note only when a transaction, verified live-event read, or comparative test needs it.
 
 Use the [present-day arc extension matrix](../../sheets/present-day-arc-extension-matrix.md) when a China read needs to bridge older mandate, order, unity, humiliation, or restoration arcs into cybernetic carriers such as compute sovereignty, industrial capacity, ports, insurers, maritime ambiguity, Taiwan quarantine logic, or party-state implementation.
 

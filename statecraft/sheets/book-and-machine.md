@@ -36,7 +36,7 @@ The model is not a country encyclopedia. It is closer to a Will Durant-scale civ
 
 The machine side should let the lane learn through use:
 
-1. A current-event command, transaction, objection matrix, or scenario test produces a statecraft output.
+1. A verified live-event read, transaction, objection matrix, or scenario test produces a statecraft output.
 2. The output exposes a new pattern, instrument, authority carrier, overreach warning, settlement form, or falsifier.
 3. The lane stages an update candidate in `<lane>/updates/pending.md` for `civilization/`, `empire/`, `state/`, `helix.md`, or `transactions/`.
 4. A human review accepts, revises, defers, or rejects the candidate.
@@ -44,7 +44,7 @@ The machine side should let the lane learn through use:
 
 Recursive means the lane modifies itself through governed work. It does not mean automatic rewriting.
 
-When the input begins as a current-event read, use [Transaction Router](transaction-router.md) before staging a new transaction candidate, so exact and near fits are absorbed by the 12-object plateau first.
+When the input begins as a verified live-event read, use [Transaction Router](transaction-router.md) before staging a new transaction candidate, so exact and near fits are absorbed by the 12-object plateau first.
 
 ## Update Candidate Types
 

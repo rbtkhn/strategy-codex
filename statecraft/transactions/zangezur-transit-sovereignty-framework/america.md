@@ -14,7 +14,7 @@ Zangezur access guarantee without extraterritoriality.
 
 - Speaker-state inputs: realist diplomacy and alliance-restraint inputs TBD.
 - Scoreboards used: Pape and Mearsheimer sheets for corridor leverage versus structural overreach.
-- Raw-input / provenance anchors: future current-event packet required.
+- Raw-input / provenance anchors: future verified live-event packet required.
 - Prior statecraft drafts: crisis test casebook corridor entry.
 
 ## Realism / Incentive Filter
