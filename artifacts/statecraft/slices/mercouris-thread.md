@@ -2,17 +2,17 @@
 
 _Generated observability artifact. Rebuild with `python scripts/build_statecraft_day_dashboard.py`._
 
-- Generated: `2026-05-27T02:30:36.054713+00:00`
+- Generated: `2026-05-27T02:30:26.585059+00:00`
 - Root: `C:\dev\strategy-codex\source-archive\statecraft`
-- Indexed days: `348`
-- Source files: `1178`
-- Covered span: `2025-01-01` to `2026-05-26`
+- Indexed days: `219`
+- Source files: `951`
+- Covered span: `2025-01-03` to `2026-05-26`
 
 ## Active Query
 
-- Slug: (default dashboard)
+- Slug: `mercouris-thread`
 - Channels: (none)
-- Threads: (none)
+- Threads: `mercouris`
 - Hosts: (none)
 - Guests: (none)
 
@@ -22,7 +22,6 @@ _Generated observability artifact. Rebuild with `python scripts/build_statecraft
 | --- | ---: |
 | [2026-03-16](C:/dev/strategy-codex/source-archive/statecraft/2026-03-16/README.md) | 19 |
 | [2026-05-26](C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/README.md) | 15 |
-| [2026-04-17](C:/dev/strategy-codex/source-archive/statecraft/2026-04-17/README.md) | 14 |
 | [2026-04-18](C:/dev/strategy-codex/source-archive/statecraft/2026-04-18/README.md) | 14 |
 | [2026-04-20](C:/dev/strategy-codex/source-archive/statecraft/2026-04-20/README.md) | 14 |
 | [2026-05-18](C:/dev/strategy-codex/source-archive/statecraft/2026-05-18/README.md) | 13 |
@@ -30,85 +29,86 @@ _Generated observability artifact. Rebuild with `python scripts/build_statecraft
 | [2026-04-13](C:/dev/strategy-codex/source-archive/statecraft/2026-04-13/README.md) | 10 |
 | [2026-04-21](C:/dev/strategy-codex/source-archive/statecraft/2026-04-21/README.md) | 10 |
 | [2026-05-05](C:/dev/strategy-codex/source-archive/statecraft/2026-05-05/README.md) | 10 |
+| [2026-05-14](C:/dev/strategy-codex/source-archive/statecraft/2026-05-14/README.md) | 10 |
 
 ## Quiet Days (1-2 files)
 
 | Day | Source files |
 | --- | ---: |
-| [2025-01-01](C:/dev/strategy-codex/source-archive/statecraft/2025-01-01/README.md) | 2 |
-| [2025-01-17](C:/dev/strategy-codex/source-archive/statecraft/2025-01-17/README.md) | 2 |
-| [2025-01-27](C:/dev/strategy-codex/source-archive/statecraft/2025-01-27/README.md) | 2 |
-| [2025-02-04](C:/dev/strategy-codex/source-archive/statecraft/2025-02-04/README.md) | 1 |
-| [2025-02-05](C:/dev/strategy-codex/source-archive/statecraft/2025-02-05/README.md) | 2 |
-| [2025-02-07](C:/dev/strategy-codex/source-archive/statecraft/2025-02-07/README.md) | 1 |
-| [2025-02-10](C:/dev/strategy-codex/source-archive/statecraft/2025-02-10/README.md) | 2 |
-| [2025-02-11](C:/dev/strategy-codex/source-archive/statecraft/2025-02-11/README.md) | 1 |
-| [2025-02-12](C:/dev/strategy-codex/source-archive/statecraft/2025-02-12/README.md) | 1 |
-| [2025-02-15](C:/dev/strategy-codex/source-archive/statecraft/2025-02-15/README.md) | 2 |
+| [2025-02-20](C:/dev/strategy-codex/source-archive/statecraft/2025-02-20/README.md) | 2 |
+| [2025-03-01](C:/dev/strategy-codex/source-archive/statecraft/2025-03-01/README.md) | 1 |
+| [2025-05-10](C:/dev/strategy-codex/source-archive/statecraft/2025-05-10/README.md) | 2 |
+| [2025-07-10](C:/dev/strategy-codex/source-archive/statecraft/2025-07-10/README.md) | 1 |
+| [2025-08-07](C:/dev/strategy-codex/source-archive/statecraft/2025-08-07/README.md) | 2 |
+| [2025-08-09](C:/dev/strategy-codex/source-archive/statecraft/2025-08-09/README.md) | 1 |
+| [2025-08-12](C:/dev/strategy-codex/source-archive/statecraft/2025-08-12/README.md) | 1 |
+| [2025-08-15](C:/dev/strategy-codex/source-archive/statecraft/2025-08-15/README.md) | 2 |
+| [2025-08-16](C:/dev/strategy-codex/source-archive/statecraft/2025-08-16/README.md) | 1 |
+| [2025-08-17](C:/dev/strategy-codex/source-archive/statecraft/2025-08-17/README.md) | 1 |
 
 ## Channel / Show Leaderboard
 
 | Name | Count |
 | --- | ---: |
-| `Daniel Davis Deep Dive` | 194 |
 | `Mercouris` | 188 |
-| `Dialogue Works` | 172 |
-| `Glenn Diesen` | 91 |
-| `simplicius76.substack.com` | 62 |
-| `Judging Freedom` | 59 |
-| `Alexander Mercouris` | 42 |
-| `escalationtrap.substack.com` | 33 |
+| `Daniel Davis Deep Dive` | 157 |
+| `Dialogue Works` | 131 |
+| `Glenn Diesen` | 64 |
+| `simplicius76.substack.com` | 61 |
+| `Alexander Mercouris` | 39 |
+| `escalationtrap.substack.com` | 31 |
+| `Judging Freedom` | 27 |
 | `Diesen` | 11 |
-| `substack.com/@tritaparsi` | 11 |
+| `substack.com/@tritaparsi` | 9 |
 
 ## Host Leaderboard
 
 | Name | Count |
 | --- | ---: |
-| `Alexander Mercouris` | 231 |
-| `Daniel Davis` | 198 |
-| `Nima Alkhorshid` | 142 |
-| `Glenn Diesen` | 135 |
-| `Andrew Napolitano` | 98 |
-| `Diesen` | 23 |
-| `Nima Alkorshid` | 21 |
-| `Dialogue Works` | 17 |
-| `Nema` | 12 |
-| `glenn-diesen` | 7 |
+| `Alexander Mercouris` | 228 |
+| `Daniel Davis` | 160 |
+| `Nima Alkhorshid` | 105 |
+| `Glenn Diesen` | 78 |
+| `Andrew Napolitano` | 58 |
+| `Diesen` | 22 |
+| `Nima Alkorshid` | 19 |
+| `Dialogue Works` | 14 |
+| `Mario Nawfal` | 5 |
+| `Alex Christoforou` | 3 |
 
 ## Guest Leaderboard
 
 | Name | Count |
 | --- | ---: |
-| `Chas Freeman` | 101 |
-| `Scott Ritter` | 73 |
-| `John Mearsheimer` | 42 |
-| `Larry Johnson` | 41 |
-| `Seyed M. Marandi` | 31 |
-| `Jacques Baud` | 24 |
-| `Douglas Macgregor` | 23 |
-| `Alastair Crooke` | 22 |
-| `Andrei Martyanov` | 20 |
-| `Lawrence Wilkerson` | 20 |
+| `Scott Ritter` | 64 |
+| `Chas Freeman` | 47 |
+| `Larry Johnson` | 34 |
+| `John Mearsheimer` | 29 |
+| `Seyed M. Marandi` | 29 |
+| `Jacques Baud` | 18 |
+| `Alexander Mercouris` | 15 |
+| `Douglas Macgregor` | 14 |
+| `Alastair Crooke` | 13 |
+| `Andrei Martyanov` | 13 |
 
 ## Thread Leaderboard
 
 | Name | Count |
 | --- | ---: |
 | `mercouris` | 241 |
-| `davis` | 203 |
-| `diesen` | 140 |
-| `nima` | 123 |
-| `freeman` | 79 |
-| `simplicius` | 62 |
-| `pape` | 49 |
-| `ritter` | 37 |
+| `davis` | 166 |
+| `nima` | 96 |
+| `diesen` | 85 |
+| `simplicius` | 61 |
+| `pape` | 45 |
+| `ritter` | 34 |
 | `crooke` | 28 |
-| `johnson` | 20 |
+| `freeman` | 24 |
+| `johnson` | 18 |
 
 ## Anomalies / Gaps
 
-- Fallback-heavy days: `2026-04-18` (13), `2026-04-17` (11), `2026-04-20` (11), `2026-03-03` (10), `2026-04-21` (10), `2026-04-23` (9), `2026-03-01` (7), `2026-03-02` (7), `2026-02-28` (6), `2026-03-04` (6)
+- Fallback-heavy days: `2026-04-18` (13), `2026-04-20` (11), `2026-03-03` (10), `2026-04-21` (10), `2026-04-23` (9), `2026-03-01` (7), `2026-03-02` (7), `2026-02-28` (6), `2026-03-04` (6), `2026-03-09` (6)
 - Missing host or guest coverage: `2025-02-20` (1), `2025-07-10` (1), `2025-08-09` (1), `2025-08-12` (1), `2025-08-16` (1), `2025-08-17` (1), `2025-08-20` (1), `2025-09-10` (1), `2025-11-27` (1), `2025-11-29` (1)
 - Missing local READMEs: (none)
 
@@ -116,8 +116,6 @@ _Generated observability artifact. Rebuild with `python scripts/build_statecraft
 
 | Day | Files | Top channels/shows | Threads | Fallback families | README |
 | --- | ---: | --- | ---: | ---: | --- |
-| [2025-01-01](C:/dev/strategy-codex/source-archive/statecraft/2025-01-01/README.md) | 2 | Daniel Davis Deep Dive | 1 | 0 | yes |
-| [2025-01-02](C:/dev/strategy-codex/source-archive/statecraft/2025-01-02/README.md) | 5 | Daniel Davis Deep Dive | 1 | 0 | yes |
 | [2025-01-03](C:/dev/strategy-codex/source-archive/statecraft/2025-01-03/README.md) | 3 | Daniel Davis Deep Dive, Mercouris | 2 | 1 | yes |
 | [2025-01-04](C:/dev/strategy-codex/source-archive/statecraft/2025-01-04/README.md) | 4 | Daniel Davis Deep Dive, Dialogue Works, Mercouris | 3 | 2 | yes |
 | [2025-01-05](C:/dev/strategy-codex/source-archive/statecraft/2025-01-05/README.md) | 5 | Daniel Davis Deep Dive, Dialogue Works, Mercouris | 3 | 1 | yes |
@@ -125,167 +123,47 @@ _Generated observability artifact. Rebuild with `python scripts/build_statecraft
 | [2025-01-07](C:/dev/strategy-codex/source-archive/statecraft/2025-01-07/README.md) | 7 | Daniel Davis Deep Dive, Judging Freedom, Mercouris | 3 | 1 | yes |
 | [2025-01-08](C:/dev/strategy-codex/source-archive/statecraft/2025-01-08/README.md) | 4 | Daniel Davis Deep Dive, Mercouris | 2 | 1 | yes |
 | [2025-01-09](C:/dev/strategy-codex/source-archive/statecraft/2025-01-09/README.md) | 5 | Daniel Davis Deep Dive, Mercouris | 2 | 1 | yes |
-| [2025-01-10](C:/dev/strategy-codex/source-archive/statecraft/2025-01-10/README.md) | 4 | Daniel Davis Deep Dive, Alexander Mercouris | 3 | 2 | yes |
 | [2025-01-11](C:/dev/strategy-codex/source-archive/statecraft/2025-01-11/README.md) | 4 | Dialogue Works, Daniel Davis Deep Dive, Mercouris | 3 | 1 | yes |
 | [2025-01-12](C:/dev/strategy-codex/source-archive/statecraft/2025-01-12/README.md) | 4 | Daniel Davis Deep Dive, Dialogue Works, Mercouris | 3 | 2 | yes |
 | [2025-01-13](C:/dev/strategy-codex/source-archive/statecraft/2025-01-13/README.md) | 3 | Daniel Davis Deep Dive, Mercouris | 2 | 1 | yes |
 | [2025-01-14](C:/dev/strategy-codex/source-archive/statecraft/2025-01-14/README.md) | 5 | Daniel Davis Deep Dive, Dialogue Works, Judging Freedom | 4 | 1 | yes |
 | [2025-01-15](C:/dev/strategy-codex/source-archive/statecraft/2025-01-15/README.md) | 5 | Daniel Davis Deep Dive, Dialogue Works, Mercouris | 3 | 1 | yes |
 | [2025-01-16](C:/dev/strategy-codex/source-archive/statecraft/2025-01-16/README.md) | 3 | Daniel Davis Deep Dive, Mercouris | 2 | 1 | yes |
-| [2025-01-17](C:/dev/strategy-codex/source-archive/statecraft/2025-01-17/README.md) | 2 | Daniel Davis Deep Dive | 2 | 1 | yes |
 | [2025-01-18](C:/dev/strategy-codex/source-archive/statecraft/2025-01-18/README.md) | 5 | Daniel Davis Deep Dive, Dialogue Works, Mercouris | 3 | 1 | yes |
 | [2025-01-19](C:/dev/strategy-codex/source-archive/statecraft/2025-01-19/README.md) | 6 | Daniel Davis Deep Dive, Dialogue Works, Mercouris | 3 | 2 | yes |
 | [2025-01-20](C:/dev/strategy-codex/source-archive/statecraft/2025-01-20/README.md) | 3 | Daniel Davis Deep Dive, Mercouris | 2 | 2 | yes |
-| [2025-01-21](C:/dev/strategy-codex/source-archive/statecraft/2025-01-21/README.md) | 6 | Daniel Davis Deep Dive, Judging Freedom | 2 | 0 | yes |
-| [2025-01-22](C:/dev/strategy-codex/source-archive/statecraft/2025-01-22/README.md) | 4 | Daniel Davis Deep Dive | 1 | 0 | yes |
 | [2025-01-23](C:/dev/strategy-codex/source-archive/statecraft/2025-01-23/README.md) | 3 | Daniel Davis Deep Dive, Mercouris | 2 | 1 | yes |
 | [2025-01-24](C:/dev/strategy-codex/source-archive/statecraft/2025-01-24/README.md) | 4 | Daniel Davis Deep Dive, Dialogue Works, Mercouris | 3 | 1 | yes |
 | [2025-01-25](C:/dev/strategy-codex/source-archive/statecraft/2025-01-25/README.md) | 4 | Daniel Davis Deep Dive, Dialogue Works, Mercouris | 3 | 1 | yes |
 | [2025-01-26](C:/dev/strategy-codex/source-archive/statecraft/2025-01-26/README.md) | 3 | Daniel Davis Deep Dive, Dialogue Works, Mercouris | 3 | 1 | yes |
-| [2025-01-27](C:/dev/strategy-codex/source-archive/statecraft/2025-01-27/README.md) | 2 | Daniel Davis Deep Dive | 1 | 1 | yes |
 | [2025-01-28](C:/dev/strategy-codex/source-archive/statecraft/2025-01-28/README.md) | 9 | Daniel Davis Deep Dive, Judging Freedom, Mercouris | 3 | 1 | yes |
 | [2025-01-29](C:/dev/strategy-codex/source-archive/statecraft/2025-01-29/README.md) | 4 | Daniel Davis Deep Dive, Mercouris | 2 | 1 | yes |
 | [2025-01-30](C:/dev/strategy-codex/source-archive/statecraft/2025-01-30/README.md) | 3 | Daniel Davis Deep Dive, Mercouris | 2 | 1 | yes |
 | [2025-01-31](C:/dev/strategy-codex/source-archive/statecraft/2025-01-31/README.md) | 3 | Daniel Davis Deep Dive, Mercouris | 2 | 1 | yes |
-| [2025-02-04](C:/dev/strategy-codex/source-archive/statecraft/2025-02-04/README.md) | 1 | Judging Freedom | 1 | 0 | yes |
-| [2025-02-05](C:/dev/strategy-codex/source-archive/statecraft/2025-02-05/README.md) | 2 | Daniel Davis Deep Dive, Glenn Diesen | 2 | 0 | yes |
-| [2025-02-07](C:/dev/strategy-codex/source-archive/statecraft/2025-02-07/README.md) | 1 | Dialogue Works | 1 | 0 | yes |
-| [2025-02-10](C:/dev/strategy-codex/source-archive/statecraft/2025-02-10/README.md) | 2 | Alexander Mercouris, Daniel Davis Deep Dive | 2 | 1 | yes |
-| [2025-02-11](C:/dev/strategy-codex/source-archive/statecraft/2025-02-11/README.md) | 1 | Judging Freedom | 1 | 0 | yes |
-| [2025-02-12](C:/dev/strategy-codex/source-archive/statecraft/2025-02-12/README.md) | 1 | Americano | 1 | 0 | yes |
-| [2025-02-15](C:/dev/strategy-codex/source-archive/statecraft/2025-02-15/README.md) | 2 | (none) | 1 | 2 | yes |
-| [2025-02-18](C:/dev/strategy-codex/source-archive/statecraft/2025-02-18/README.md) | 1 | Judging Freedom | 1 | 0 | yes |
-| [2025-02-19](C:/dev/strategy-codex/source-archive/statecraft/2025-02-19/README.md) | 1 | Dialogue Works | 1 | 0 | yes |
 | [2025-02-20](C:/dev/strategy-codex/source-archive/statecraft/2025-02-20/README.md) | 2 | Daniel Davis Deep Dive, Mercouris | 2 | 2 | yes |
-| [2025-02-25](C:/dev/strategy-codex/source-archive/statecraft/2025-02-25/README.md) | 1 | Judging Freedom | 1 | 0 | yes |
-| [2025-02-28](C:/dev/strategy-codex/source-archive/statecraft/2025-02-28/README.md) | 1 | Daniel Davis Deep Dive | 1 | 0 | yes |
 | [2025-03-01](C:/dev/strategy-codex/source-archive/statecraft/2025-03-01/README.md) | 1 | The Duran | 1 | 0 | yes |
-| [2025-03-08](C:/dev/strategy-codex/source-archive/statecraft/2025-03-08/README.md) | 1 | (none) | 0 | 1 | yes |
-| [2025-03-10](C:/dev/strategy-codex/source-archive/statecraft/2025-03-10/README.md) | 3 | Daniel Davis Deep Dive, Alexander Mercouris | 2 | 1 | yes |
-| [2025-03-12](C:/dev/strategy-codex/source-archive/statecraft/2025-03-12/README.md) | 2 | Glenn Diesen, Judging Freedom | 2 | 0 | yes |
-| [2025-03-14](C:/dev/strategy-codex/source-archive/statecraft/2025-03-14/README.md) | 1 | Glenn Diesen | 1 | 0 | yes |
-| [2025-03-18](C:/dev/strategy-codex/source-archive/statecraft/2025-03-18/README.md) | 1 | Judging Freedom | 1 | 0 | yes |
 | [2025-03-20](C:/dev/strategy-codex/source-archive/statecraft/2025-03-20/README.md) | 3 | Alexander Mercouris, Daniel Davis Deep Dive, Glenn Diesen | 3 | 1 | yes |
-| [2025-03-21](C:/dev/strategy-codex/source-archive/statecraft/2025-03-21/README.md) | 1 | Dialogue Works | 1 | 0 | yes |
-| [2025-03-25](C:/dev/strategy-codex/source-archive/statecraft/2025-03-25/README.md) | 1 | Judging Freedom | 1 | 0 | yes |
-| [2025-03-28](C:/dev/strategy-codex/source-archive/statecraft/2025-03-28/README.md) | 1 | Dialogue Works | 1 | 0 | yes |
-| [2025-04-01](C:/dev/strategy-codex/source-archive/statecraft/2025-04-01/README.md) | 1 | Counterpoints | 1 | 0 | yes |
-| [2025-04-04](C:/dev/strategy-codex/source-archive/statecraft/2025-04-04/README.md) | 1 | Glenn Diesen | 1 | 0 | yes |
-| [2025-04-08](C:/dev/strategy-codex/source-archive/statecraft/2025-04-08/README.md) | 2 | Judging Freedom | 2 | 1 | yes |
 | [2025-04-10](C:/dev/strategy-codex/source-archive/statecraft/2025-04-10/README.md) | 4 | Daniel Davis Deep Dive, Alexander Mercouris, Judging Freedom | 3 | 1 | yes |
-| [2025-04-16](C:/dev/strategy-codex/source-archive/statecraft/2025-04-16/README.md) | 1 | Glenn Diesen | 1 | 0 | yes |
-| [2025-04-18](C:/dev/strategy-codex/source-archive/statecraft/2025-04-18/README.md) | 1 | Dialogue Works | 1 | 0 | yes |
-| [2025-04-20](C:/dev/strategy-codex/source-archive/statecraft/2025-04-20/README.md) | 1 | Glenn Diesen | 1 | 0 | yes |
-| [2025-04-22](C:/dev/strategy-codex/source-archive/statecraft/2025-04-22/README.md) | 1 | Judging Freedom | 1 | 0 | yes |
-| [2025-04-27](C:/dev/strategy-codex/source-archive/statecraft/2025-04-27/README.md) | 1 | (none) | 1 | 1 | yes |
-| [2025-04-29](C:/dev/strategy-codex/source-archive/statecraft/2025-04-29/README.md) | 2 | Judging Freedom | 2 | 1 | yes |
-| [2025-05-02](C:/dev/strategy-codex/source-archive/statecraft/2025-05-02/README.md) | 2 | Dialogue Works | 1 | 1 | yes |
-| [2025-05-06](C:/dev/strategy-codex/source-archive/statecraft/2025-05-06/README.md) | 1 | Judging Freedom | 1 | 0 | yes |
-| [2025-05-09](C:/dev/strategy-codex/source-archive/statecraft/2025-05-09/README.md) | 1 | Dialogue Works | 1 | 0 | yes |
 | [2025-05-10](C:/dev/strategy-codex/source-archive/statecraft/2025-05-10/README.md) | 2 | Alexander Mercouris, Daniel Davis Deep Dive | 2 | 1 | yes |
-| [2025-05-12](C:/dev/strategy-codex/source-archive/statecraft/2025-05-12/README.md) | 1 | Glenn Diesen | 1 | 0 | yes |
-| [2025-05-13](C:/dev/strategy-codex/source-archive/statecraft/2025-05-13/README.md) | 1 | Judging Freedom | 1 | 0 | yes |
-| [2025-05-15](C:/dev/strategy-codex/source-archive/statecraft/2025-05-15/README.md) | 1 | Dialogue Works | 1 | 0 | yes |
-| [2025-05-21](C:/dev/strategy-codex/source-archive/statecraft/2025-05-21/README.md) | 1 | (none) | 1 | 1 | yes |
-| [2025-05-24](C:/dev/strategy-codex/source-archive/statecraft/2025-05-24/README.md) | 2 | Dialogue Works | 2 | 1 | yes |
-| [2025-05-28](C:/dev/strategy-codex/source-archive/statecraft/2025-05-28/README.md) | 1 | Judging Freedom | 1 | 0 | yes |
-| [2025-05-29](C:/dev/strategy-codex/source-archive/statecraft/2025-05-29/README.md) | 2 | Glenn Diesen | 1 | 1 | yes |
-| [2025-05-30](C:/dev/strategy-codex/source-archive/statecraft/2025-05-30/README.md) | 1 | (none) | 1 | 1 | yes |
-| [2025-05-31](C:/dev/strategy-codex/source-archive/statecraft/2025-05-31/README.md) | 1 | Glenn Diesen | 1 | 0 | yes |
-| [2025-06-01](C:/dev/strategy-codex/source-archive/statecraft/2025-06-01/README.md) | 1 | Glenn Diesen | 1 | 0 | yes |
-| [2025-06-02](C:/dev/strategy-codex/source-archive/statecraft/2025-06-02/README.md) | 1 | Glenn Diesen | 1 | 0 | yes |
-| [2025-06-04](C:/dev/strategy-codex/source-archive/statecraft/2025-06-04/README.md) | 2 | Judging Freedom | 1 | 1 | yes |
 | [2025-06-10](C:/dev/strategy-codex/source-archive/statecraft/2025-06-10/README.md) | 4 | Alexander Mercouris, Judging Freedom | 3 | 3 | yes |
-| [2025-06-14](C:/dev/strategy-codex/source-archive/statecraft/2025-06-14/README.md) | 1 | Dialogue Works | 1 | 0 | yes |
-| [2025-06-16](C:/dev/strategy-codex/source-archive/statecraft/2025-06-16/README.md) | 2 | (none) | 1 | 2 | yes |
-| [2025-06-17](C:/dev/strategy-codex/source-archive/statecraft/2025-06-17/README.md) | 1 | Glenn Diesen | 1 | 0 | yes |
-| [2025-06-18](C:/dev/strategy-codex/source-archive/statecraft/2025-06-18/README.md) | 1 | Judging Freedom | 1 | 0 | yes |
 | [2025-06-20](C:/dev/strategy-codex/source-archive/statecraft/2025-06-20/README.md) | 4 | Daniel Davis Deep Dive, Judging Freedom, Mercouris | 3 | 3 | yes |
-| [2025-06-22](C:/dev/strategy-codex/source-archive/statecraft/2025-06-22/README.md) | 2 | Dialogue Works, Glenn Diesen | 2 | 0 | yes |
-| [2025-06-24](C:/dev/strategy-codex/source-archive/statecraft/2025-06-24/README.md) | 1 | Judging Freedom | 1 | 0 | yes |
-| [2025-06-25](C:/dev/strategy-codex/source-archive/statecraft/2025-06-25/README.md) | 2 | Dialogue Works | 2 | 1 | yes |
-| [2025-06-26](C:/dev/strategy-codex/source-archive/statecraft/2025-06-26/README.md) | 1 | (none) | 0 | 1 | yes |
-| [2025-07-02](C:/dev/strategy-codex/source-archive/statecraft/2025-07-02/README.md) | 1 | (none) | 1 | 1 | yes |
-| [2025-07-08](C:/dev/strategy-codex/source-archive/statecraft/2025-07-08/README.md) | 1 | Judging Freedom | 1 | 0 | yes |
 | [2025-07-10](C:/dev/strategy-codex/source-archive/statecraft/2025-07-10/README.md) | 1 | Alexander Mercouris | 1 | 1 | yes |
-| [2025-07-11](C:/dev/strategy-codex/source-archive/statecraft/2025-07-11/README.md) | 2 | Dialogue Works, Glenn Diesen | 1 | 0 | yes |
-| [2025-07-15](C:/dev/strategy-codex/source-archive/statecraft/2025-07-15/README.md) | 1 | Judging Freedom | 1 | 0 | yes |
-| [2025-07-18](C:/dev/strategy-codex/source-archive/statecraft/2025-07-18/README.md) | 1 | Dialogue Works | 1 | 0 | yes |
 | [2025-07-20](C:/dev/strategy-codex/source-archive/statecraft/2025-07-20/README.md) | 3 | Dialogue Works, Mercouris | 2 | 1 | yes |
-| [2025-07-22](C:/dev/strategy-codex/source-archive/statecraft/2025-07-22/README.md) | 2 | Glenn Diesen | 1 | 1 | yes |
-| [2025-07-24](C:/dev/strategy-codex/source-archive/statecraft/2025-07-24/README.md) | 1 | Dialogue Works | 1 | 0 | yes |
-| [2025-07-26](C:/dev/strategy-codex/source-archive/statecraft/2025-07-26/README.md) | 1 | Dialogue Works | 1 | 0 | yes |
-| [2025-07-29](C:/dev/strategy-codex/source-archive/statecraft/2025-07-29/README.md) | 1 | Judging Freedom | 1 | 0 | yes |
-| [2025-07-30](C:/dev/strategy-codex/source-archive/statecraft/2025-07-30/README.md) | 2 | (none) | 2 | 2 | yes |
-| [2025-08-01](C:/dev/strategy-codex/source-archive/statecraft/2025-08-01/README.md) | 3 | Daniel Davis Deep Dive, Dialogue Works | 2 | 1 | yes |
-| [2025-08-04](C:/dev/strategy-codex/source-archive/statecraft/2025-08-04/README.md) | 1 | Glenn Diesen | 1 | 0 | yes |
-| [2025-08-06](C:/dev/strategy-codex/source-archive/statecraft/2025-08-06/README.md) | 1 | Dialogue Works | 1 | 0 | yes |
 | [2025-08-07](C:/dev/strategy-codex/source-archive/statecraft/2025-08-07/README.md) | 2 | Alexander Mercouris | 1 | 2 | yes |
-| [2025-08-08](C:/dev/strategy-codex/source-archive/statecraft/2025-08-08/README.md) | 1 | Dialogue Works | 1 | 0 | yes |
 | [2025-08-09](C:/dev/strategy-codex/source-archive/statecraft/2025-08-09/README.md) | 1 | Alexander Mercouris | 1 | 1 | yes |
 | [2025-08-10](C:/dev/strategy-codex/source-archive/statecraft/2025-08-10/README.md) | 3 | Alexander Mercouris, Dialogue Works, Glenn Diesen | 3 | 1 | yes |
-| [2025-08-11](C:/dev/strategy-codex/source-archive/statecraft/2025-08-11/README.md) | 1 | Glenn Diesen | 1 | 0 | yes |
 | [2025-08-12](C:/dev/strategy-codex/source-archive/statecraft/2025-08-12/README.md) | 1 | Alexander Mercouris | 1 | 1 | yes |
-| [2025-08-13](C:/dev/strategy-codex/source-archive/statecraft/2025-08-13/README.md) | 1 | (none) | 0 | 1 | yes |
 | [2025-08-14](C:/dev/strategy-codex/source-archive/statecraft/2025-08-14/README.md) | 3 | Glenn Diesen, Alexander Mercouris | 2 | 1 | yes |
 | [2025-08-15](C:/dev/strategy-codex/source-archive/statecraft/2025-08-15/README.md) | 2 | Alexander Mercouris, Dialogue Works | 2 | 1 | yes |
 | [2025-08-16](C:/dev/strategy-codex/source-archive/statecraft/2025-08-16/README.md) | 1 | Alexander Mercouris | 1 | 1 | yes |
 | [2025-08-17](C:/dev/strategy-codex/source-archive/statecraft/2025-08-17/README.md) | 1 | Alexander Mercouris | 1 | 1 | yes |
-| [2025-08-18](C:/dev/strategy-codex/source-archive/statecraft/2025-08-18/README.md) | 1 | Glenn Diesen | 1 | 0 | yes |
-| [2025-08-19](C:/dev/strategy-codex/source-archive/statecraft/2025-08-19/README.md) | 1 | Judging Freedom | 1 | 0 | yes |
 | [2025-08-20](C:/dev/strategy-codex/source-archive/statecraft/2025-08-20/README.md) | 1 | Mercouris | 1 | 1 | yes |
-| [2025-08-21](C:/dev/strategy-codex/source-archive/statecraft/2025-08-21/README.md) | 3 | Dialogue Works, Glenn Diesen | 2 | 1 | yes |
-| [2025-08-22](C:/dev/strategy-codex/source-archive/statecraft/2025-08-22/README.md) | 1 | Dialogue Works | 1 | 0 | yes |
-| [2025-08-28](C:/dev/strategy-codex/source-archive/statecraft/2025-08-28/README.md) | 3 | (none) | 1 | 3 | yes |
-| [2025-08-29](C:/dev/strategy-codex/source-archive/statecraft/2025-08-29/README.md) | 2 | Dialogue Works | 2 | 1 | yes |
-| [2025-09-05](C:/dev/strategy-codex/source-archive/statecraft/2025-09-05/README.md) | 1 | Dialogue Works | 1 | 0 | yes |
-| [2025-09-07](C:/dev/strategy-codex/source-archive/statecraft/2025-09-07/README.md) | 1 | (none) | 1 | 1 | yes |
 | [2025-09-10](C:/dev/strategy-codex/source-archive/statecraft/2025-09-10/README.md) | 1 | Alexander Mercouris | 1 | 1 | yes |
-| [2025-09-11](C:/dev/strategy-codex/source-archive/statecraft/2025-09-11/README.md) | 1 | Glenn Diesen | 1 | 0 | yes |
-| [2025-09-12](C:/dev/strategy-codex/source-archive/statecraft/2025-09-12/README.md) | 2 | (none) | 2 | 2 | yes |
-| [2025-09-15](C:/dev/strategy-codex/source-archive/statecraft/2025-09-15/README.md) | 3 | Daniel Davis Deep Dive | 2 | 1 | yes |
-| [2025-09-16](C:/dev/strategy-codex/source-archive/statecraft/2025-09-16/README.md) | 1 | Judging Freedom | 1 | 0 | yes |
-| [2025-09-17](C:/dev/strategy-codex/source-archive/statecraft/2025-09-17/README.md) | 1 | (none) | 1 | 1 | yes |
 | [2025-09-20](C:/dev/strategy-codex/source-archive/statecraft/2025-09-20/README.md) | 3 | Glenn Diesen, Mercouris | 2 | 1 | yes |
-| [2025-09-23](C:/dev/strategy-codex/source-archive/statecraft/2025-09-23/README.md) | 1 | Judging Freedom | 1 | 0 | yes |
-| [2025-09-25](C:/dev/strategy-codex/source-archive/statecraft/2025-09-25/README.md) | 1 | (none) | 1 | 1 | yes |
-| [2025-09-26](C:/dev/strategy-codex/source-archive/statecraft/2025-09-26/README.md) | 1 | Dialogue Works | 1 | 0 | yes |
-| [2025-09-30](C:/dev/strategy-codex/source-archive/statecraft/2025-09-30/README.md) | 1 | Judging Freedom | 1 | 0 | yes |
-| [2025-10-01](C:/dev/strategy-codex/source-archive/statecraft/2025-10-01/README.md) | 2 | Daniel Davis Deep Dive | 2 | 1 | yes |
-| [2025-10-03](C:/dev/strategy-codex/source-archive/statecraft/2025-10-03/README.md) | 1 | Dialogue Works | 1 | 0 | yes |
-| [2025-10-06](C:/dev/strategy-codex/source-archive/statecraft/2025-10-06/README.md) | 1 | (none) | 1 | 1 | yes |
-| [2025-10-07](C:/dev/strategy-codex/source-archive/statecraft/2025-10-07/README.md) | 2 | Judging Freedom | 2 | 1 | yes |
-| [2025-10-08](C:/dev/strategy-codex/source-archive/statecraft/2025-10-08/README.md) | 1 | (none) | 1 | 1 | yes |
-| [2025-10-09](C:/dev/strategy-codex/source-archive/statecraft/2025-10-09/README.md) | 1 | (none) | 1 | 1 | yes |
 | [2025-10-10](C:/dev/strategy-codex/source-archive/statecraft/2025-10-10/README.md) | 3 | Alexander Mercouris, Daniel Davis Deep Dive, Glenn Diesen | 3 | 1 | yes |
-| [2025-10-13](C:/dev/strategy-codex/source-archive/statecraft/2025-10-13/README.md) | 1 | Judging Freedom | 1 | 0 | yes |
-| [2025-10-14](C:/dev/strategy-codex/source-archive/statecraft/2025-10-14/README.md) | 1 | (none) | 1 | 1 | yes |
-| [2025-10-15](C:/dev/strategy-codex/source-archive/statecraft/2025-10-15/README.md) | 1 | (none) | 1 | 1 | yes |
-| [2025-10-17](C:/dev/strategy-codex/source-archive/statecraft/2025-10-17/README.md) | 1 | Dialogue Works | 1 | 0 | yes |
-| [2025-10-19](C:/dev/strategy-codex/source-archive/statecraft/2025-10-19/README.md) | 1 | (none) | 1 | 1 | yes |
 | [2025-10-20](C:/dev/strategy-codex/source-archive/statecraft/2025-10-20/README.md) | 4 | Deep Dive, Glenn Diesen, Mercouris | 3 | 1 | yes |
-| [2025-10-21](C:/dev/strategy-codex/source-archive/statecraft/2025-10-21/README.md) | 1 | Judging Freedom | 1 | 0 | yes |
-| [2025-10-22](C:/dev/strategy-codex/source-archive/statecraft/2025-10-22/README.md) | 2 | Glenn Diesen | 1 | 1 | yes |
-| [2025-10-23](C:/dev/strategy-codex/source-archive/statecraft/2025-10-23/README.md) | 1 | (none) | 1 | 1 | yes |
-| [2025-10-24](C:/dev/strategy-codex/source-archive/statecraft/2025-10-24/README.md) | 1 | (none) | 1 | 1 | yes |
-| [2025-10-25](C:/dev/strategy-codex/source-archive/statecraft/2025-10-25/README.md) | 1 | Glenn Diesen | 1 | 0 | yes |
-| [2025-10-28](C:/dev/strategy-codex/source-archive/statecraft/2025-10-28/README.md) | 1 | Judging Freedom | 1 | 0 | yes |
-| [2025-10-30](C:/dev/strategy-codex/source-archive/statecraft/2025-10-30/README.md) | 2 | (none) | 1 | 2 | yes |
-| [2025-10-31](C:/dev/strategy-codex/source-archive/statecraft/2025-10-31/README.md) | 2 | Dialogue Works | 1 | 0 | yes |
-| [2025-11-04](C:/dev/strategy-codex/source-archive/statecraft/2025-11-04/README.md) | 4 | Judging Freedom | 4 | 3 | yes |
-| [2025-11-05](C:/dev/strategy-codex/source-archive/statecraft/2025-11-05/README.md) | 2 | Daniel Davis Deep Dive | 2 | 1 | yes |
-| [2025-11-07](C:/dev/strategy-codex/source-archive/statecraft/2025-11-07/README.md) | 2 | Dialogue Works | 2 | 1 | yes |
 | [2025-11-10](C:/dev/strategy-codex/source-archive/statecraft/2025-11-10/README.md) | 2 | Alexander Mercouris, Judging Freedom | 2 | 1 | yes |
-| [2025-11-13](C:/dev/strategy-codex/source-archive/statecraft/2025-11-13/README.md) | 3 | Dialogue Works | 3 | 2 | yes |
-| [2025-11-14](C:/dev/strategy-codex/source-archive/statecraft/2025-11-14/README.md) | 2 | Dialogue Works | 2 | 1 | yes |
-| [2025-11-17](C:/dev/strategy-codex/source-archive/statecraft/2025-11-17/README.md) | 1 | (none) | 1 | 1 | yes |
-| [2025-11-18](C:/dev/strategy-codex/source-archive/statecraft/2025-11-18/README.md) | 2 | Judging Freedom | 2 | 1 | yes |
 | [2025-11-20](C:/dev/strategy-codex/source-archive/statecraft/2025-11-20/README.md) | 4 | Alexander Mercouris, Dialogue Works, Glenn Diesen | 4 | 2 | yes |
-| [2025-11-21](C:/dev/strategy-codex/source-archive/statecraft/2025-11-21/README.md) | 4 | Dialogue Works, Glenn Diesen | 4 | 2 | yes |
-| [2025-11-23](C:/dev/strategy-codex/source-archive/statecraft/2025-11-23/README.md) | 1 | Glenn Diesen | 1 | 0 | yes |
-| [2025-11-24](C:/dev/strategy-codex/source-archive/statecraft/2025-11-24/README.md) | 1 | (none) | 1 | 1 | yes |
-| [2025-11-25](C:/dev/strategy-codex/source-archive/statecraft/2025-11-25/README.md) | 2 | Judging Freedom | 2 | 1 | yes |
-| [2025-11-26](C:/dev/strategy-codex/source-archive/statecraft/2025-11-26/README.md) | 4 | Daniel Davis Deep Dive, Glenn Diesen | 3 | 2 | yes |
 | [2025-11-27](C:/dev/strategy-codex/source-archive/statecraft/2025-11-27/README.md) | 1 | Mercouris | 1 | 1 | yes |
 | [2025-11-28](C:/dev/strategy-codex/source-archive/statecraft/2025-11-28/README.md) | 4 | Dialogue Works, Mercouris | 3 | 3 | yes |
 | [2025-11-29](C:/dev/strategy-codex/source-archive/statecraft/2025-11-29/README.md) | 1 | Mercouris | 1 | 1 | yes |
@@ -318,7 +196,6 @@ _Generated observability artifact. Rebuild with `python scripts/build_statecraft
 | [2025-12-29](C:/dev/strategy-codex/source-archive/statecraft/2025-12-29/README.md) | 3 | Daniel Davis Deep Dive, Dialogue Works, Mercouris | 3 | 1 | yes |
 | [2025-12-30](C:/dev/strategy-codex/source-archive/statecraft/2025-12-30/README.md) | 2 | Mercouris | 2 | 2 | yes |
 | [2025-12-31](C:/dev/strategy-codex/source-archive/statecraft/2025-12-31/README.md) | 1 | Mercouris | 1 | 1 | yes |
-| [2026-01-01](C:/dev/strategy-codex/source-archive/statecraft/2026-01-01/README.md) | 2 | Dialogue Works | 1 | 0 | yes |
 | [2026-01-02](C:/dev/strategy-codex/source-archive/statecraft/2026-01-02/README.md) | 7 | Dialogue Works, Alexander Mercouris, simplicius76.substack.com | 4 | 3 | yes |
 | [2026-01-03](C:/dev/strategy-codex/source-archive/statecraft/2026-01-03/README.md) | 3 | Mercouris, simplicius76.substack.com | 3 | 3 | yes |
 | [2026-01-04](C:/dev/strategy-codex/source-archive/statecraft/2026-01-04/README.md) | 2 | Mercouris, simplicius76.substack.com | 2 | 2 | yes |
@@ -419,12 +296,10 @@ _Generated observability artifact. Rebuild with `python scripts/build_statecraft
 | [2026-04-09](C:/dev/strategy-codex/source-archive/statecraft/2026-04-09/README.md) | 1 | Mercouris | 1 | 1 | yes |
 | [2026-04-10](C:/dev/strategy-codex/source-archive/statecraft/2026-04-10/README.md) | 4 | Dialogue Works, Diesen (Greater Eurasia), Mercouris | 4 | 2 | yes |
 | [2026-04-11](C:/dev/strategy-codex/source-archive/statecraft/2026-04-11/README.md) | 3 | Diesen - Greater Eurasia Podcast, Mercouris, simplicius76.substack.com | 3 | 2 | yes |
-| [2026-04-12](C:/dev/strategy-codex/source-archive/statecraft/2026-04-12/README.md) | 2 | Glenn Diesen, substack.com/@tritaparsi | 2 | 1 | yes |
 | [2026-04-13](C:/dev/strategy-codex/source-archive/statecraft/2026-04-13/README.md) | 10 | Daniel Davis Deep Dive, Dialogue Works, Mercouris | 6 | 2 | yes |
 | [2026-04-14](C:/dev/strategy-codex/source-archive/statecraft/2026-04-14/README.md) | 3 | Mercouris, substack.com/@tritaparsi | 3 | 3 | yes |
 | [2026-04-15](C:/dev/strategy-codex/source-archive/statecraft/2026-04-15/README.md) | 4 | Glenn Diesen, Mercouris, simplicius76.substack.com | 3 | 3 | yes |
 | [2026-04-16](C:/dev/strategy-codex/source-archive/statecraft/2026-04-16/README.md) | 8 | Daniel Davis Deep Dive, Glenn Diesen, Mercouris | 5 | 5 | yes |
-| [2026-04-17](C:/dev/strategy-codex/source-archive/statecraft/2026-04-17/README.md) | 14 | Daniel Davis Deep Dive, Diesen (Greater Eurasia), escalationtrap.substack.com | 10 | 11 | yes |
 | [2026-04-18](C:/dev/strategy-codex/source-archive/statecraft/2026-04-18/README.md) | 14 | Dialogue Works, Mercouris | 11 | 13 | yes |
 | [2026-04-19](C:/dev/strategy-codex/source-archive/statecraft/2026-04-19/README.md) | 5 | Daniel Davis Deep Dive, Diesen - Greater Eurasia Podcast, Mercouris | 5 | 3 | yes |
 | [2026-04-20](C:/dev/strategy-codex/source-archive/statecraft/2026-04-20/README.md) | 14 | Dialogue Works, Judging Freedom, Mercouris | 8 | 11 | yes |
@@ -435,12 +310,10 @@ _Generated observability artifact. Rebuild with `python scripts/build_statecraft
 | [2026-04-25](C:/dev/strategy-codex/source-archive/statecraft/2026-04-25/README.md) | 3 | Mercouris, simplicius76.substack.com | 2 | 3 | yes |
 | [2026-04-26](C:/dev/strategy-codex/source-archive/statecraft/2026-04-26/README.md) | 3 | Mercouris, Let's Talk Geopolitics | 2 | 2 | yes |
 | [2026-04-27](C:/dev/strategy-codex/source-archive/statecraft/2026-04-27/README.md) | 7 | Dialogue Works, Mercouris, simplicius76.substack.com | 6 | 5 | yes |
-| [2026-04-28](C:/dev/strategy-codex/source-archive/statecraft/2026-04-28/README.md) | 5 | Dialogue Works | 5 | 4 | yes |
 | [2026-04-29](C:/dev/strategy-codex/source-archive/statecraft/2026-04-29/README.md) | 6 | Daniel Davis Deep Dive, Mercouris, Breaking Points | 4 | 2 | yes |
 | [2026-04-30](C:/dev/strategy-codex/source-archive/statecraft/2026-04-30/README.md) | 5 | Mercouris, Daniel Davis Deep Dive, Diesen | 3 | 2 | yes |
 | [2026-05-01](C:/dev/strategy-codex/source-archive/statecraft/2026-05-01/README.md) | 4 | Dialogue Works, Glenn Diesen, Mercouris | 4 | 2 | yes |
 | [2026-05-02](C:/dev/strategy-codex/source-archive/statecraft/2026-05-02/README.md) | 4 | Dialogue Works, Mercouris, Msn.Com/En Ie/News/Other | 4 | 3 | yes |
-| [2026-05-03](C:/dev/strategy-codex/source-archive/statecraft/2026-05-03/README.md) | 3 | escalationtrap.substack.com, substack.com/@tritaparsi | 3 | 3 | yes |
 | [2026-05-04](C:/dev/strategy-codex/source-archive/statecraft/2026-05-04/README.md) | 7 | Diesen (Greater Eurasia), Dialogue Works, Mercouris | 6 | 4 | yes |
 | [2026-05-05](C:/dev/strategy-codex/source-archive/statecraft/2026-05-05/README.md) | 10 | Daniel Davis Deep Dive, Dialogue Works, Diesen | 4 | 2 | yes |
 | [2026-05-06](C:/dev/strategy-codex/source-archive/statecraft/2026-05-06/README.md) | 9 | Daniel Davis Deep Dive, Mercouris, youtube.com | 5 | 5 | yes |
@@ -450,7 +323,6 @@ _Generated observability artifact. Rebuild with `python scripts/build_statecraft
 | [2026-05-10](C:/dev/strategy-codex/source-archive/statecraft/2026-05-10/README.md) | 6 | Alexander Mercouris, Daniel Davis Deep Dive, Dialogue Works | 5 | 1 | yes |
 | [2026-05-11](C:/dev/strategy-codex/source-archive/statecraft/2026-05-11/README.md) | 6 | Dialogue Works, Alexander Mercouris, Diesen - Greater Eurasia Podcast | 5 | 3 | yes |
 | [2026-05-12](C:/dev/strategy-codex/source-archive/statecraft/2026-05-12/README.md) | 9 | Daniel Davis Deep Dive, Glenn Diesen, Alexander Mercouris | 5 | 3 | yes |
-| [2026-05-13](C:/dev/strategy-codex/source-archive/statecraft/2026-05-13/README.md) | 6 | Dialogue Works, Daniel Davis Deep Dive | 3 | 1 | yes |
 | [2026-05-14](C:/dev/strategy-codex/source-archive/statecraft/2026-05-14/README.md) | 10 | Dialogue Works, Alexander Mercouris, Daniel Davis Deep Dive | 7 | 5 | yes |
 | [2026-05-15](C:/dev/strategy-codex/source-archive/statecraft/2026-05-15/README.md) | 6 | Daniel Davis Deep Dive, Alexander Mercouris, Glenn Diesen | 4 | 1 | yes |
 | [2026-05-16](C:/dev/strategy-codex/source-archive/statecraft/2026-05-16/README.md) | 10 | Daniel Davis Deep Dive, Dialogue Works, Glenn Diesen | 6 | 1 | yes |
@@ -458,7 +330,6 @@ _Generated observability artifact. Rebuild with `python scripts/build_statecraft
 | [2026-05-18](C:/dev/strategy-codex/source-archive/statecraft/2026-05-18/README.md) | 13 | Judging Freedom, Daniel Davis Deep Dive, Dialogue Works | 10 | 4 | yes |
 | [2026-05-19](C:/dev/strategy-codex/source-archive/statecraft/2026-05-19/README.md) | 4 | Alexander Mercouris, Daniel Davis Deep Dive, Glenn Diesen | 3 | 3 | yes |
 | [2026-05-20](C:/dev/strategy-codex/source-archive/statecraft/2026-05-20/README.md) | 10 | Dialogue Works, Mario Nawfal, Alexander Mercouris | 10 | 2 | yes |
-| [2026-05-21](C:/dev/strategy-codex/source-archive/statecraft/2026-05-21/README.md) | 6 | Dialogue Works, Glenn Diesen, Judging Freedom | 5 | 1 | yes |
 | [2026-05-22](C:/dev/strategy-codex/source-archive/statecraft/2026-05-22/README.md) | 6 | Alexander Mercouris, Dialogue Works, Daniel Davis Deep Dive | 5 | 2 | yes |
 | [2026-05-23](C:/dev/strategy-codex/source-archive/statecraft/2026-05-23/README.md) | 6 | Glenn Diesen, Alexander Mercouris, Daniel Davis Deep Dive | 5 | 3 | yes |
 | [2026-05-24](C:/dev/strategy-codex/source-archive/statecraft/2026-05-24/README.md) | 2 | Alexander Mercouris, Glenn Diesen | 2 | 1 | yes |

@@ -9,6 +9,7 @@ from collections import Counter
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
+import re
 
 from statecraft_day_archive import (
     DEFAULT_ROOT,
@@ -23,6 +24,7 @@ from statecraft_day_archive import (
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 OUT_DIR = REPO_ROOT / "artifacts" / "statecraft"
+SLICES_DIR = OUT_DIR / "slices"
 OUT_MD = OUT_DIR / "day-dashboard.md"
 OUT_JSON = OUT_DIR / "day-dashboard.json"
 SCHEMA_VERSION = "1.0.0-statecraft-day-dashboard"
@@ -34,6 +36,11 @@ class DashboardArgs:
     year: str | None
     from_day: str | None
     to_day: str | None
+    channels: tuple[str, ...]
+    threads: tuple[str, ...]
+    hosts: tuple[str, ...]
+    guests: tuple[str, ...]
+    slug: str | None
 
 
 def parse_args() -> DashboardArgs:
@@ -42,12 +49,22 @@ def parse_args() -> DashboardArgs:
     ap.add_argument("--year", type=str, default=None, help="Only include YYYY day folders for this year.")
     ap.add_argument("--from", dest="from_day", type=str, default=None, help="Lower date bound YYYY-MM-DD.")
     ap.add_argument("--to", dest="to_day", type=str, default=None, help="Upper date bound YYYY-MM-DD.")
+    ap.add_argument("--channel", dest="channels", action="append", default=[], help="Only include days matching this channel/show label. Repeatable.")
+    ap.add_argument("--thread", dest="threads", action="append", default=[], help="Only include days matching this thread label. Repeatable.")
+    ap.add_argument("--host", dest="hosts", action="append", default=[], help="Only include days matching this host label. Repeatable.")
+    ap.add_argument("--guest", dest="guests", action="append", default=[], help="Only include days matching this guest label. Repeatable.")
+    ap.add_argument("--slug", type=str, default=None, help="Write this filtered view to artifacts/statecraft/slices/<slug>.md and .json instead of the default dashboard paths.")
     args = ap.parse_args()
     return DashboardArgs(
         root=args.root.resolve(),
         year=args.year,
         from_day=args.from_day,
         to_day=args.to_day,
+        channels=tuple(args.channels),
+        threads=tuple(args.threads),
+        hosts=tuple(args.hosts),
+        guests=tuple(args.guests),
+        slug=args.slug,
     )
 
 
@@ -79,6 +96,44 @@ def load_day_summary(day_dir: Path) -> DaySummary:
     return summarize_day_dir(day_dir, has_readme=(day_dir / "README.md").is_file(), readme_parse_ok=False)
 
 
+def _normalize_filter_values(values: tuple[str, ...]) -> tuple[str, ...]:
+    normalized: list[str] = []
+    for value in values:
+        clean = " ".join(value.split()).strip().lower()
+        if clean and clean not in normalized:
+            normalized.append(clean)
+    return tuple(normalized)
+
+
+def _counter_matches(counter: Counter[str], required: tuple[str, ...]) -> bool:
+    if not required:
+        return True
+    available = {" ".join(name.split()).strip().lower() for name in counter}
+    return all(value in available for value in required)
+
+
+def filter_day_summaries(
+    days: list[DaySummary],
+    *,
+    channels: tuple[str, ...] = (),
+    threads: tuple[str, ...] = (),
+    hosts: tuple[str, ...] = (),
+    guests: tuple[str, ...] = (),
+) -> list[DaySummary]:
+    want_channels = _normalize_filter_values(channels)
+    want_threads = _normalize_filter_values(threads)
+    want_hosts = _normalize_filter_values(hosts)
+    want_guests = _normalize_filter_values(guests)
+    return [
+        day
+        for day in days
+        if _counter_matches(day.channel_counter, want_channels)
+        and _counter_matches(day.thread_counter, want_threads)
+        and _counter_matches(day.host_counter, want_hosts)
+        and _counter_matches(day.guest_counter, want_guests)
+    ]
+
+
 def _merge_counter(days: list[DaySummary], attr: str) -> Counter[str]:
     counter: Counter[str] = Counter()
     for day in days:
@@ -97,7 +152,30 @@ def _format_day_link(root: Path, date: str) -> str:
     return f"[{date}]({readme_path.as_posix()})"
 
 
-def build_dashboard_payload(root: Path, days: list[DaySummary]) -> dict:
+def _normalize_slug(value: str) -> str:
+    slug = re.sub(r"[^a-z0-9]+", "-", value.strip().lower()).strip("-")
+    if not slug:
+        raise SystemExit("slug must contain at least one alphanumeric character")
+    return slug
+
+
+def resolve_output_paths(slug: str | None) -> tuple[Path, Path]:
+    if not slug:
+        return OUT_MD, OUT_JSON
+    clean = _normalize_slug(slug)
+    return SLICES_DIR / f"{clean}.md", SLICES_DIR / f"{clean}.json"
+
+
+def build_dashboard_payload(
+    root: Path,
+    days: list[DaySummary],
+    *,
+    channels: tuple[str, ...] = (),
+    threads: tuple[str, ...] = (),
+    hosts: tuple[str, ...] = (),
+    guests: tuple[str, ...] = (),
+    slug: str | None = None,
+) -> dict:
     total_sources = sum(day.source_count for day in days)
     aggregate_channels = _merge_counter(days, "channel_counter")
     aggregate_hosts = _merge_counter(days, "host_counter")
@@ -122,6 +200,13 @@ def build_dashboard_payload(root: Path, days: list[DaySummary]) -> dict:
         "schemaVersion": SCHEMA_VERSION,
         "generatedAt": datetime.now(timezone.utc).isoformat(),
         "root": str(root),
+        "query": {
+            "channels": list(channels),
+            "threads": list(threads),
+            "hosts": list(hosts),
+            "guests": list(guests),
+            "slug": slug,
+        },
         "coverage": {
             "dayCount": len(days),
             "sourceFileCount": total_sources,
@@ -190,6 +275,7 @@ def _render_counter_table(counter: Counter[str], header: str, limit: int = 10) -
 
 def render_dashboard_markdown(root: Path, payload: dict) -> str:
     coverage = payload["coverage"]
+    query = payload["query"]
     aggregate_channels = Counter({item["name"]: item["count"] for item in payload["aggregates"]["channels"]})
     aggregate_hosts = Counter({item["name"]: item["count"] for item in payload["aggregates"]["hosts"]})
     aggregate_guests = Counter({item["name"]: item["count"] for item in payload["aggregates"]["guests"]})
@@ -205,6 +291,14 @@ def render_dashboard_markdown(root: Path, payload: dict) -> str:
         f"- Indexed days: `{coverage['dayCount']}`",
         f"- Source files: `{coverage['sourceFileCount']}`",
         f"- Covered span: `{coverage['firstDay']}` to `{coverage['lastDay']}`",
+        "",
+        "## Active Query",
+        "",
+        f"- Slug: `{query['slug']}`" if query["slug"] else "- Slug: (default dashboard)",
+        f"- Channels: {', '.join(f'`{value}`' for value in query['channels']) if query['channels'] else '(none)'}",
+        f"- Threads: {', '.join(f'`{value}`' for value in query['threads']) if query['threads'] else '(none)'}",
+        f"- Hosts: {', '.join(f'`{value}`' for value in query['hosts']) if query['hosts'] else '(none)'}",
+        f"- Guests: {', '.join(f'`{value}`' for value in query['guests']) if query['guests'] else '(none)'}",
         "",
         "## Heaviest Days",
         "",
@@ -267,14 +361,35 @@ def render_dashboard_markdown(root: Path, payload: dict) -> str:
 def main() -> int:
     args = parse_args()
     day_dirs = _select_day_dirs(args.root, args.year, args.from_day, args.to_day)
-    day_summaries = [load_day_summary(day_dir) for day_dir in day_dirs]
-    payload = build_dashboard_payload(args.root, day_summaries)
+    all_day_summaries = [load_day_summary(day_dir) for day_dir in day_dirs]
+    filtered_day_summaries = filter_day_summaries(
+        all_day_summaries,
+        channels=args.channels,
+        threads=args.threads,
+        hosts=args.hosts,
+        guests=args.guests,
+    )
+    payload = build_dashboard_payload(
+        args.root,
+        filtered_day_summaries,
+        channels=args.channels,
+        threads=args.threads,
+        hosts=args.hosts,
+        guests=args.guests,
+        slug=args.slug,
+    )
 
-    OUT_DIR.mkdir(parents=True, exist_ok=True)
-    OUT_JSON.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8", newline="\n")
-    OUT_MD.write_text(render_dashboard_markdown(args.root, payload), encoding="utf-8", newline="\n")
-    print(f"wrote {OUT_MD}")
-    print(f"wrote {OUT_JSON}")
+    out_md, out_json = resolve_output_paths(args.slug)
+    out_md.parent.mkdir(parents=True, exist_ok=True)
+    out_json.parent.mkdir(parents=True, exist_ok=True)
+    payload["artifacts"] = {
+        "markdown": str(out_md),
+        "json": str(out_json),
+    }
+    out_json.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8", newline="\n")
+    out_md.write_text(render_dashboard_markdown(args.root, payload), encoding="utf-8", newline="\n")
+    print(f"wrote {out_md}")
+    print(f"wrote {out_json}")
     return 0
 
 
