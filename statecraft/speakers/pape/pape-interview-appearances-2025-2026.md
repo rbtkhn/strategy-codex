@@ -29,6 +29,7 @@ Purpose: route Pape's host appearances by function and show how they reinforce, 
 | date | title | raw-input | function |
 |---|---|---|---|
 | 2026-05-12 | Trump's Next Iran Steps Revealed | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-12/youtube-pape-mario-nawfal-trump-s-next-iran-steps-revealed-2026-05-12.md) | warning-signs compression and public forecast translation |
+| 2026-05-20 | Iran Warns U.S. of 'Surprises'; Xi, Putin Meet in Beijing | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-20/youtube-pape-mario-nawfal-iran-warns-u-s-of-surprises-xi-putin-meet-in-beijing-2026-05-20.md) | no-off-ramp compression, Gulf coercion signaling, and cross-theater escalation translation |
 
 ## Host Function Map
 

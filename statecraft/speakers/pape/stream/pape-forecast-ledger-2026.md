@@ -6,7 +6,7 @@ Purpose: canonical compact ledger for Pape's authored 2026 forecast spine: phase
 
 ## Source Set
 
-Primary corpus: Pape-authored `substack-pape-*` captures in [/C:/dev/strategy-codex/source-archive/statecraft/](/C:/dev/strategy-codex/source-archive/statecraft), concentrated from `2026-02-25` through `2026-05-18`.
+Primary corpus: Pape-authored `substack-pape-*` captures in [/C:/dev/strategy-codex/source-archive/statecraft/](/C:/dev/strategy-codex/source-archive/statecraft), concentrated from `2026-02-25` through `2026-05-23`.
 
 ## Phase Spine
 
@@ -50,6 +50,14 @@ Key anchors:
 
 Core claim: the crisis can move from shortage to synchronized contraction, while Iran emerges as a coercive system-shaping center even without becoming a full-spectrum peer power.
 
+### Smart Bomb Trap Re-entry
+
+Key anchors:
+
+- [2026-05-23 Trump May Be Approaching the Biggest Smart Bomb Trap Yet](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-23/substack-pape-trump-may-be-approaching-the-biggest-2026-05-23.md)
+
+Core claim: later-stage tactical intelligence and decapitation temptation can reactivate the original smart-bomb trap at a higher rung, where apparent precision success worsens strategic control and economic instability simultaneously.
+
 ## Key Forecast Rows
 
 | id | anchor | prediction | main falsifier |
@@ -59,6 +67,7 @@ Core claim: the crisis can move from shortage to synchronized contraction, while
 | `PAPE-2026-F015` | [2026-04-22](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-22/substack-pape-within-10-days-shortages-already-2026-04-22.md) | crisis moves from price shock to physical shortage faster than consensus expects | shortages fail to appear and volatility remains financial rather than material |
 | `PAPE-2026-F018` | [2026-05-04](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-04/substack-pape-the-united-states-just-made-a-bet-2026-05-04.md) | U.S. escort strategy is a credibility bet it cannot afford to lose | escort posture restores durable shipping confidence and lowers insurance costs |
 | `PAPE-2026-F023` | [2026-05-03](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-03/substack-pape-what-the-first-60-days-actually-changed-and-why-the-next-30-will-be-worse-2026-05-03.md) | Iran may become a fourth coercive center of world power | Hormuz loses coercive salience and global actors stop routing decisions around Iran |
+| `PAPE-2026-F027` | [2026-05-23](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-23/substack-pape-trump-may-be-approaching-the-biggest-2026-05-23.md) | decapitation-style tactical intelligence will deepen rather than resolve the smart-bomb trap if Iran retains escalation and economic leverage | renewed strikes produce durable political control without wider Gulf disruption, leadership retaliation risk, or intensified instability |
 
 ## Boundary
 

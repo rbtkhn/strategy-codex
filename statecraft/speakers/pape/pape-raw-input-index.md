@@ -34,12 +34,17 @@ Purpose: route map for the materialized Pape corpus in `source-archive/statecraf
 - [2026-05-11 The 5 Warning Signs That the Iran War Is Escalating](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-11/substack-pape-the-5-warning-signs-that-the-iran-war-is-escalating-2026-05-11.md)
 - [2026-05-18 June Could Be the Most Brutal Month Yet](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-18/substack-pape-june-could-be-the-most-brutal-month-2026-05-18.md)
 
+### Renewed Smart-Bomb Trap Warning
+
+- [2026-05-23 Trump May Be Approaching the Biggest Smart Bomb Trap Yet](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-23/substack-pape-trump-may-be-approaching-the-biggest-2026-05-23.md)
+
 ## Interview-Pressure Anchors
 
 - [2026-03-10 Davis x Pape - The Escalation Trap](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-10/transcript-davis-pape-escalation-trap-2026-03-10.md)
 - [2026-04-20 Redacted x Pape - The Collapse Is Now Ahead of Schedule](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-20/redacted-pape-collapse-ahead-of-schedule-2026-04-20.md)
 - [2026-04-29 Breaking Points / Ryan Grim x Pape - Why a Nuclear Iran Is Inevitable](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-29/youtube-pape-grim-nuclear-iran-inevitable-2026-04-29.md)
 - [2026-05-12 Mario Nawfal x Pape - Trump's Next Iran Steps Revealed](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-12/youtube-pape-mario-nawfal-trump-s-next-iran-steps-revealed-2026-05-12.md)
+- [2026-05-20 Mario Nawfal x Pape - Iran Warns U.S. of 'Surprises'; Xi, Putin Meet in Beijing](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-20/youtube-pape-mario-nawfal-iran-warns-u-s-of-surprises-xi-putin-meet-in-beijing-2026-05-20.md)
 
 ## Support-Tier Bench
 

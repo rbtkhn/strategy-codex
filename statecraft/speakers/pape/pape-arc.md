@@ -23,11 +23,11 @@ What makes this a real arc:
 
 - Pape repeatedly turns crisis commentary into portable mechanisms: traps, ledgers, thresholds, clocks, and warning branches
 - the same mechanism language survives public host pressure rather than collapsing into generic anti-war rhetoric
-- the object widens from air-power illusion and escalation trap into blockade clocks, shortage logic, relative China gain, and the fourth-center thesis
+- the object widens from air-power illusion and escalation trap into blockade clocks, shortage logic, relative China gain, and the fourth-center thesis before folding back into a renewed smart-bomb-trap warning at a higher escalation level
 
 The strongest current motion is:
 
-`2026 authored forecast thickening -> targeted public-pressure translation -> reusable clock-and-threshold speaker system`
+`2026 authored forecast thickening -> targeted public-pressure translation -> reusable clock-and-threshold speaker system -> renewed smart-bomb-trap warning under decapitation pressure`
 
 ## Open First
 
