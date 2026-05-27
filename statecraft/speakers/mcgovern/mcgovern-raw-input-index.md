@@ -13,6 +13,7 @@ Purpose: provide the canonical route map for materialized McGovern appearances a
 - [2025-11-23 - Zelensky's dilemma: bad peace or total defeat](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-23/youtube-glenn-diesen-ray-mcgovern-zelensky-s-dilemma-bad-peace-or-total-defeat-2025-11-23.md)
 - [2026-01-17 - The road to war, arms control collapsing](/C:/dev/strategy-codex/source-archive/statecraft/2026-01-17/youtube-glenn-diesen-ray-mcgovern-the-road-war-arms-control-collapsing-2026-01-17.md)
 - [2026-04-05 - The death of NATO, time for a new strategy](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-05/youtube-glenn-diesen-ray-mcgovern-the-death-of-nato-time-for-a-new-strategy-2026-04-05.md)
+- [2026-05-27 - Russia escalates with new strategy](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-27/youtube-glenn-diesen-ray-mcgovern-russia-escalates-with-new-strategy-2026-05-27.md)
 
 ### Dialogue Works / Nima
 

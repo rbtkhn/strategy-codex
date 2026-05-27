@@ -33,11 +33,12 @@ This lane is now materially present on disk as a dense cross-year run that start
 | Rank | Date | Title | Why it matters most |
 |---|---|---|---|
 | 1 | 2026-05-13 | *Scott Ritter: Iran Didn't Break. It Adapted, Now Stronger Than Ever* | Best mature anchor. Strongest single file for the lane's claim that prolonged pressure is hardening rather than weakening Iran. Open this first. |
-| 2 | 2026-04-08 | *Scott Ritter: The US War on Iran Just COLLAPSED - Ceasefire Does the Impossible* | Best collapse-frame file. Strongest for rapid reversal, narrative failure, and live crisis disorientation. |
-| 3 | 2026-03-04 | *Scott Ritter: Iran Wins the Long War - U.S. & Israel Losing Ground!* | Best long-war transition file. Strongest for the lane's shift from shock headlines to a sustained-loss argument. |
-| 4 | 2026-03-11 | *Scott Ritter: The U.S. Has Lost and Is Trapped in the Iran War With No Way Out* | Best entrapment file. Useful for the lane's highest-pressure read on lost initiative and narrowing exits. |
-| 5 | 2026-02-18 | *Scott Ritter: Hormuz Blocked! Iran's Missile Fire Can Leave the US Navy DEFENSELESS* | Best Hormuz and missile-pressure file. Strongest for maritime vulnerability in the live-pressure register. |
-| 6 | 2026-05-06 | *Operation Freedom Hormuz* | Best cleaned-transcript anchor for the lane's later blockade-war shape and one of the clearest reusable files on disk. |
+| 2 | 2026-05-27 | *Scott Ritter: Iran Just HIT an MQ-9 & Opened Fire on an RQ-4 and F-35 - Russia Escalates W/ Oreshnik* | Best late-May convergence file. Strongest for the lane's fusion of Hormuz friction, Trump instability, and the Ukraine-to-Europe escalation jump. |
+| 3 | 2026-04-08 | *Scott Ritter: The US War on Iran Just COLLAPSED - Ceasefire Does the Impossible* | Best collapse-frame file. Strongest for rapid reversal, narrative failure, and live crisis disorientation. |
+| 4 | 2026-03-04 | *Scott Ritter: Iran Wins the Long War - U.S. & Israel Losing Ground!* | Best long-war transition file. Strongest for the lane's shift from shock headlines to a sustained-loss argument. |
+| 5 | 2026-03-11 | *Scott Ritter: The U.S. Has Lost and Is Trapped in the Iran War With No Way Out* | Best entrapment file. Useful for the lane's highest-pressure read on lost initiative and narrowing exits. |
+| 6 | 2026-02-18 | *Scott Ritter: Hormuz Blocked! Iran's Missile Fire Can Leave the US Navy DEFENSELESS* | Best Hormuz and missile-pressure file. Strongest for maritime vulnerability in the live-pressure register. |
+| 7 | 2026-05-06 | *Operation Freedom Hormuz* | Best cleaned-transcript anchor for the lane's later blockade-war shape and one of the clearest reusable files on disk. |
 
 ## Open first
 

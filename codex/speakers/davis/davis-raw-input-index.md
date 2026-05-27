@@ -617,6 +617,11 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Danie
 
 - [youtube-daniel-davis-deep-dive-deep-dive-intel-briefing-5-23-2026-lt-col-daniel-davis-2026-05-23](../../years/2026/provenance/2026-05-23/youtube-daniel-davis-deep-dive-deep-dive-intel-briefing-5-23-2026-lt-col-daniel-davis-2026-05-23.md)
 
+## 2026-05-27
+
+- [youtube-daniel-davis-deep-dive-iran-trump-has-no-good-military-options-fmr-cia-analyst-larry-johnson-2026-05-27](../../../source-archive/statecraft/2026-05-27/youtube-daniel-davis-deep-dive-iran-trump-has-no-good-military-options-fmr-cia-analyst-larry-johnson-2026-05-27.md)
+- [youtube-daniel-davis-deep-dive-ukraine-russia-war-expansion-the-duran-s-alexander-mercouris-lt-col-daniel-davis-2026-05-27](../../../source-archive/statecraft/2026-05-27/youtube-daniel-davis-deep-dive-ukraine-russia-war-expansion-the-duran-s-alexander-mercouris-lt-col-daniel-davis-2026-05-27.md)
+
 ## Discovery Surfaces
 
 - [daniel-davis-april-2026-scaffold](../../years/2026/provenance/daniel-davis-april-2026-scaffold.md)

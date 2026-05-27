@@ -20,6 +20,8 @@ Month status: `mature retrieval month`
   - Support-tier energy-shock extension.
 - [2026-05-18 Consortium News](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-18/transcript-consortium-news-russia-debate-scott-ritter-vs-ray-mcgovern-2026-05-18.md)
   - Support-tier debate-pressure extension.
+- [2026-05-27 Dialogue Works](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-27/transcript-dialogue-works-scott-ritter-iran-hit-an-mq-9-russia-escalates-with-oreshnik-2026-05-27.md)
+  - Sharpest late-May convergence of Iran-war loss-of-control and Ukraine-to-Europe escalation pressure.
 
 ## Reading note
 

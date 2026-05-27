@@ -33,13 +33,14 @@ This lane is now materially present on disk as a 2026 Iran-war run. It should be
 | Rank | Date | Title | Why it matters most |
 |---|---|---|---|
 | 1 | 2026-05-05 | *Iran War: Buffet of Stupidity & Lies* | Best mature anchor. Strongest single file for the lane's view that official war framing and real feasibility have decisively separated. Open this first. |
-| 2 | 2026-04-29 | *Iran War's Global Economic Shockwave* | Best broad consequence file. Most useful for linking military adventurism to economic and systemic blowback. |
-| 3 | 2026-04-22 | *Iran War End: Best Case Scenario* | Best end-state file. Strongest for realistic settlement ceilings once the crisis has already outrun preferred narratives. |
-| 4 | 2026-04-17 | *HORMUZ OPENING, CEASEFIRE ENDING: Conflicting Messages* | Best contradiction-under-pressure file. Useful for the lane's reading of mixed signals, fragile pauses, and deteriorating coercive coherence. |
-| 5 | 2026-04-16 | *IRAN DEMANDS NOT CHANGING* | Best demands-and-leverage file. Strongest for the claim that military pressure is not moving the core political terms. |
-| 6 | 2026-04-08 | *You Call This a CeaseFire?* | Best ceasefire-skepticism file. Useful for seeing the lane before later May hardening. |
-| 7 | 2026-04-01 | *IRAN WAR: No One is Winding Down* | Best early continuity file for escalation without meaningful de-escalation architecture. |
-| 8 | 2026-03-25 | *US MILITARY IMPRACTICAL OBJECTIVES in IRAN* | Best pure feasibility file and one of the cleanest statements of the lane's core operational thesis. |
+| 2 | 2026-05-27 | *IRAN: Trump Has No Good Military Options* | Best late-May feasibility file. Strongest for the lane's fusion of failed diplomacy, constrained force posture, and market unreality under blockade pressure. |
+| 3 | 2026-04-29 | *Iran War's Global Economic Shockwave* | Best broad consequence file. Most useful for linking military adventurism to economic and systemic blowback. |
+| 4 | 2026-04-22 | *Iran War End: Best Case Scenario* | Best end-state file. Strongest for realistic settlement ceilings once the crisis has already outrun preferred narratives. |
+| 5 | 2026-04-17 | *HORMUZ OPENING, CEASEFIRE ENDING: Conflicting Messages* | Best contradiction-under-pressure file. Useful for the lane's reading of mixed signals, fragile pauses, and deteriorating coercive coherence. |
+| 6 | 2026-04-16 | *IRAN DEMANDS NOT CHANGING* | Best demands-and-leverage file. Strongest for the claim that military pressure is not moving the core political terms. |
+| 7 | 2026-04-08 | *You Call This a CeaseFire?* | Best ceasefire-skepticism file. Useful for seeing the lane before later May hardening. |
+| 8 | 2026-04-01 | *IRAN WAR: No One is Winding Down* | Best early continuity file for escalation without meaningful de-escalation architecture. |
+| 9 | 2026-03-25 | *US MILITARY IMPRACTICAL OBJECTIVES in IRAN* | Best pure feasibility file and one of the cleanest statements of the lane's core operational thesis. |
 
 ## Open first
 
