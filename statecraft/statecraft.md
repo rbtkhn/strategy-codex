@@ -68,6 +68,8 @@ Use this quick transaction-fit instinct before you draft:
 - if the lane is clear but the mechanism is still thin, stop at memo, comparison, or router candidate
 - if the object already sounds like a known corridor, guarantee, transit, or sanctions bargain, check existing transaction fit before inventing a fresh framework
 
+Named recent events do not open a separate function anymore. Verify the unstable fact pattern, classify the crisis object, then route through `state-deploy` or directly into the owning lane once ownership is honestly clear.
+
 Use these fast recognizers when the object family is already obvious:
 
 - **transit / recognition / chokepoint pressure**
@@ -187,7 +189,7 @@ If those are missing, stop earlier. Early stopping is healthy architecture, not 
 ## Precedence Rules
 
 1. `coffee -> C. Statecraft` opens the router-first front door.
-2. `state-deploy` answers `who owns this object now?`
+2. `state-deploy` answers `who owns this object now?` and absorbs verified named recent events when ownership is not yet clear.
 3. `compact` owns cross-lane or objection-shaped objects after ownership is understood.
 4. `state-*` skills answer `what can this owner legitimately draft, carry, accept, reject, and institutionalize?`
 5. `statecraft-bridge` answers `which retrieval profile should read this Persia speaker-heavy object?`

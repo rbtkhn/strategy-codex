@@ -11,7 +11,7 @@ Use this surface after ownership has been judged, not instead of ownership judgm
 - `state-deploy` still decides who owns the object.
 - `statecraft/compact` exists for objects that are already shared, cross-lane, or compact-shaped.
 - This is not a generic treaty shortcut.
-- This is not a substitute for `current-event`, `state-deploy`, or a named lane.
+- This is not a substitute for live-event verification, `state-deploy`, or a named lane.
 
 ## Entry Rule
 

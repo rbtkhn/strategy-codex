@@ -48,12 +48,15 @@ The active higher-order interpretive frame for this stack is now:
 
 Use it to decide what layer actually governs the live object before routing or drafting.
 
+Named recent events no longer open a separate `current-event` function. Verify the unstable fact pattern briefly, then route through `state-deploy` if ownership is still unsettled or hand directly to the owning lane when the carrier is already obvious.
+
 ## Quick Routes
 
 - Need the full machine back in your head? Open [statecraft.md](statecraft.md).
 - Need the fastest cold-open rule? `statecraft.md -> crisis object -> lane ownership -> output form`.
 - Need the next-week operator roadmap? Open [statecraft-v1-upgrade-plan-2026-05-25.md](statecraft-v1-upgrade-plan-2026-05-25.md).
 - Need lane ownership? Open `state-deploy`.
+- Need to turn a named recent event into a statecraft object? Verify it, name the crisis object, then open `state-deploy`.
 - Need a cross-lane mechanism or objection-shaped object? Open [compact](compact/README.md).
 - Need a Persia retrieval profile after lane ownership is clear? Open `statecraft-bridge`.
 - Need the current default worked instrument? Open [Hormuz recognition transit transaction](persia/transactions/hormuz-recognition-transit-transaction.md).

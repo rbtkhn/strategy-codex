@@ -44,12 +44,12 @@ What this bench does not own:
 10. [National perspective orthogonality](national-perspective-orthogonality.md) - Compare U.S., Russia, China, Iran, or other state views without flattening their interests, fears, instruments, and off-ramps.
 11. [Authority carrier orthogonality](authority-carrier-orthogonality.md) - Compare leader, office, party-state, security-council, and split-authority carrier problems.
 12. [Crisis test casebook](crisis-test-casebook.md) - Preserve what each crisis test taught about contested objects, game types, filters, and settlement spines.
-13. [Transaction router](transaction-router.md) - Match a current-event crisis object to the 12-object transaction plateau before drafting or proposing a new object.
+13. [Transaction router](transaction-router.md) - Match a verified live-event or crisis-object read to the 12-object transaction plateau before drafting or proposing a new object.
 14. [Great-power energy absorber threshold](great-power-energy-absorber-threshold.md) - Decide when an energy-alignment signal becomes a new transaction candidate rather than a near fit.
 15. [Pape coercive-center index](pape-coercive-center-index.md) - Track great-power ranking by crisis leverage rather than size alone.
 16. [Mearsheimer structural-realist scoreboard](mearsheimer-structural-realist-scoreboard.md) - Track structural power, balancing pressure, overextension risk, institutional carrier, and restraint.
 17. [Civilization, empire, faith, science, memory, desire](../civ-emp/civilization-empire-faith-science-memory-desire.md) - Run the six-part governing-layer doctrine before drafting when inheritance, instrument, legitimacy, procedure, continuity, or appetite are competing for control of the read.
-18. [Present-day arc extension matrix](present-day-arc-extension-matrix.md) - Extend deep America, Russia, China, and Iran arcs into cybernetic carriers for current-event, transaction, and recursive-candidate reads.
+18. [Present-day arc extension matrix](present-day-arc-extension-matrix.md) - Extend deep America, Russia, China, and Iran arcs into cybernetic carriers for live-event, transaction, and recursive-candidate reads.
 19. [Mutation statecraft](mutation-statecraft.md) - Detect when a familiar object changes function under pressure: alliance to lattice, trade to dependency, deterrence to escalation platform, recognition to humiliation trap, or republic to emergency empire.
 20. [Russia depth arc](russia-depth-arc.md) - Test frontier-depth, symbolic-depth, imperial-depth, space-depth, system-depth, and dependency-depth when a Russia read invokes exposure, recognition, encirclement, or equilibrium.
 21. [China order arc](china-order-arc.md) - Test mandate-order, standardization-order, hydraulic-order, fragmentation-memory, development-order, party-state-order, and compute-order when a China read invokes order, unity, routes, implementation, or disorder.
@@ -132,7 +132,7 @@ Open [Mearsheimer structural-realist scoreboard](mearsheimer-structural-realist-
 
 ### Civilization, Empire, Faith, Science, Memory, Desire
 
-Open [civilization, empire, faith, science, memory, desire](../civ-emp/civilization-empire-faith-science-memory-desire.md) when a crisis, transaction, clause, or current-event read needs a higher-order governing-layer diagnosis before the draft is trusted.
+Open [civilization, empire, faith, science, memory, desire](../civ-emp/civilization-empire-faith-science-memory-desire.md) when a crisis, transaction, clause, or live-event read needs a higher-order governing-layer diagnosis before the draft is trusted.
 
 ### Present-Day Arc Extension Matrix
 
@@ -174,7 +174,7 @@ Open [Crisis test casebook](crisis-test-casebook.md) when a new crisis test shou
 
 ### Transaction Router
 
-Open [transaction router](transaction-router.md) after a current-event read has classified the crisis object. It decides whether the event is an exact fit, near fit, or no fit for the 12 transaction objects, then points to the relevant bundle, first lane perspective, or candidate shape. If you are learning the layer, use the Hormuz worked route: braid first, then choose between the cross-lane compact and the Iran-local recognition transaction.
+Open [transaction router](transaction-router.md) after a verified live-event or crisis-object read has classified the crisis object. It decides whether the event is an exact fit, near fit, or no fit for the 12 transaction objects, then points to the relevant bundle, first lane perspective, or candidate shape. If you are learning the layer, use the Hormuz worked route: braid first, then choose between the cross-lane compact and the Iran-local recognition transaction.
 The router is also where the workshop's transaction threshold becomes operational: a good note may stop at braid, memo, objection matrix, or router candidate instead of becoming a framework by momentum.
 
 ### Great-Power Energy Absorber Threshold

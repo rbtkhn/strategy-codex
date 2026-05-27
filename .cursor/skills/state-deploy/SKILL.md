@@ -1,7 +1,7 @@
 ---
 name: state-deploy
 preferred_activation: state-deploy
-description: "Deploy a live object to the right statecraft lane. Use when the operator says state-deploy, deploy statecraft, which lane, which state skill, or asks whether a problem belongs to America, China, Persia, Russia, a two-lane comparison, or a cross-lane compact."
+description: "Deploy a live object to the right statecraft lane. Use when the operator says state-deploy, deploy statecraft, which lane, which state skill, or asks whether a problem or named recent event belongs to America, China, Persia, Russia, a two-lane comparison, or a cross-lane compact."
 ---
 
 # State Deploy
@@ -15,6 +15,7 @@ Short doctrine: `state-deploy` decides the lane. The `state-*` skills decide the
 ## Boundary
 
 - WORK only; not Record.
+- Verify unstable facts first when the object is a named recent event.
 - Do not restate America, China, Persia, or Russia doctrine in full.
 - Do not replace lane READMEs, helixes, or transactions.
 - Do not become a generic geopolitics commentary mode.
@@ -48,6 +49,19 @@ Use the lane front doors only as needed for the deployment judgment:
 - `statecraft/china/README.md`
 - `statecraft/iran/README.md`
 - `statecraft/russia/README.md`
+
+## Named Recent Event Rule
+
+There is no longer a separate `current-event` function.
+
+When the operator names a recent event, absorb it here:
+
+1. verify date, actors, location, and what happened with current sources;
+2. separate fact from interpretation briefly;
+3. name the crisis object before lane judgment;
+4. then run the normal deployment tests.
+
+If lane ownership is already obvious after verification, hand directly to the owning `state-*` lane. If not, keep the deployer in charge.
 
 ## Decision Rules
 
