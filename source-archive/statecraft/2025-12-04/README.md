@@ -1,0 +1,32 @@
+# Statecraft Archive - 2025-12-04
+
+_Generated inventory note. Rebuild with `python scripts/build_statecraft_day_indices.py`._
+
+## Stats
+
+- Source files: `3`
+- Type mix: `transcript` (2), `youtube` (1)
+- Distinct channels/shows: `3`
+- Distinct hosts: `3`
+- Distinct guests: `2`
+- Distinct threads: `3`
+
+## Channel / Show Rollup
+
+- `Dialogue Works` (1), `Glenn Diesen` (1), `Mercouris` (1)
+
+## Host / Guest / Thread Rollup
+
+- Hosts: `Alexander Mercouris` (1), `Glenn Diesen` (1), `Nima Alkhorshid` (1)
+- Guests: `Andrei Martyanov` (1), `Chas Freeman` (1)
+- Threads: `freeman` (1), `mercouris` (1), `nima` (1)
+
+## Filename Family Fallbacks
+
+- `youtube-alex-mercouris-*` (1)
+
+## Files
+
+- `transcript-dialogue-works-andrei-martyanov-russia-has-made-its-choice-wiping-out-every-threat-2025-12-04.md`
+- `transcript-diesen-freeman-thucydides-trap-us-reaction-china-rise-2025-12-04.md`
+- `youtube-alex-mercouris-kiev-troops-mirnograd-admit-trap-beg-food-help-eu-officials-say-ursula-s-2025-12-04.md`

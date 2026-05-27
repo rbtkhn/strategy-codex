@@ -1,0 +1,32 @@
+# Statecraft Archive - 2025-12-29
+
+_Generated inventory note. Rebuild with `python scripts/build_statecraft_day_indices.py`._
+
+## Stats
+
+- Source files: `3`
+- Type mix: `youtube` (2), `transcript` (1)
+- Distinct channels/shows: `3`
+- Distinct hosts: `3`
+- Distinct guests: `2`
+- Distinct threads: `3`
+
+## Channel / Show Rollup
+
+- `Daniel Davis Deep Dive` (1), `Dialogue Works` (1), `Mercouris` (1)
+
+## Host / Guest / Thread Rollup
+
+- Hosts: `Alexander Mercouris` (1), `Daniel Davis` (1), `Nima Alkhorshid` (1)
+- Guests: `Andrei Martyanov` (1), `Ray McGovern` (1)
+- Threads: `davis` (1), `mercouris` (1), `nima` (1)
+
+## Filename Family Fallbacks
+
+- `youtube-alex-mercouris-*` (1)
+
+## Files
+
+- `transcript-dialogue-works-ray-mcgovern-did-russia-have-a-choice-2025-12-29.md`
+- `youtube-alex-mercouris-ukraine-calamitous-month-mirnograd-huliaipole-rodinska-stepnogorsk-fall-2025-12-29.md`
+- `youtube-daniel-davis-deep-dive-russia-will-finish-off-ukraine-andrei-martyanov-and-lt-col-daniel-davis-2025-12-29.md`

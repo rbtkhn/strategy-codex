@@ -1,0 +1,34 @@
+# Statecraft Archive - 2025-01-06
+
+_Generated inventory note. Rebuild with `python scripts/build_statecraft_day_indices.py`._
+
+## Stats
+
+- Source files: `5`
+- Type mix: `youtube` (5)
+- Distinct channels/shows: `2`
+- Distinct hosts: `2`
+- Distinct guests: `3`
+- Distinct threads: `2`
+
+## Channel / Show Rollup
+
+- `Daniel Davis Deep Dive` (4), `Mercouris` (1)
+
+## Host / Guest / Thread Rollup
+
+- Hosts: `Daniel Davis` (4), `Alexander Mercouris` (1)
+- Guests: `Doug Macgregor` (2), `LIVE from RUSSIA` (1), `Ukraine Launches NEW KURSK OFFENSIVE` (1)
+- Threads: `davis` (4), `mercouris` (1)
+
+## Filename Family Fallbacks
+
+- `youtube-alex-mercouris-*` (1)
+
+## Files
+
+- `youtube-alex-mercouris-ukraine-kursk-offensive-fails-russia-kurakhovo-captured-russia-qatar-gas-2025-01-06.md`
+- `youtube-daniel-davis-deep-dive-col-doug-macgregor-netanyahu-wants-war-w-iran-2025-01-06.md`
+- `youtube-daniel-davis-deep-dive-col-doug-macgregor-zelensky-s-lex-fridman-interview-2025-01-06.md`
+- `youtube-daniel-davis-deep-dive-live-from-russia-a-soldier-s-view-from-the-battlefield-2025-01-06.md`
+- `youtube-daniel-davis-deep-dive-ukraine-launches-new-kursk-offensive-2025-01-06.md`
