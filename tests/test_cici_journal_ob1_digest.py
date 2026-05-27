@@ -144,7 +144,7 @@ def test_artifact_sidecar(tmp_path: Path) -> None:
     inbox = tmp_path / "inbox"
     inbox.mkdir(parents=True)
     (inbox / "2026-04-10-artifacts.txt").write_text(
-        "# comment\ndocs/skill-work/work-cici/README.md\n",
+        "# comment\nsingularity/work-cici/README.md\n",
         encoding="utf-8",
     )
     body, prov, arts = xj.load_inbox_for_day(tmp_path, date(2026, 4, 10), no_inbox=False)

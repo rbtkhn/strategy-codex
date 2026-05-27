@@ -19,8 +19,8 @@ def test_title_or_slug_date_wins_over_published_date() -> None:
 
 
 def test_run_writes_full_local_captures_and_indexes_them(tmp_path, monkeypatch) -> None:
-    raw_root = tmp_path / "codex/academy/singularity/workshop/raw-input/innermost-loop"
-    workshop_readme = tmp_path / "codex/academy/singularity/workshop/README.md"
+    raw_root = tmp_path / "singularity/workshop/raw-input/innermost-loop"
+    workshop_readme = tmp_path / "singularity/workshop/README.md"
     shelf_readme = tmp_path / "codex/academy/singularity/README.md"
     workshop_readme.parent.mkdir(parents=True, exist_ok=True)
     shelf_readme.parent.mkdir(parents=True, exist_ok=True)
@@ -89,11 +89,11 @@ def test_run_writes_full_local_captures_and_indexes_them(tmp_path, monkeypatch) 
 
     workshop = workshop_readme.read_text(encoding="utf-8")
     assert "## Raw Captures" in workshop
-    assert "raw-input/innermost-loop/innermost-loop-2026-05-15.md" in workshop
+    assert "../../source-archive/singularity/innermost-loop/innermost-loop-2026-05-15.md" in workshop
     assert "## First Instruments To Build" in workshop
     shelf = shelf_readme.read_text(encoding="utf-8")
     assert "## Raw Capture Backfill" in shelf
-    assert "workshop/raw-input/innermost-loop/innermost-loop-2026-05-17.md" in shelf
+    assert "../source-archive/singularity/innermost-loop/innermost-loop-2026-05-17.md" in shelf
 
 
 def test_existing_capture_is_not_overwritten_without_flag(tmp_path, monkeypatch) -> None:
