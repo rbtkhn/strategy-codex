@@ -7,7 +7,7 @@ WORK only; not Record.
 | America | access and partner credibility | corridor imperialism or adversary alignment | access guarantee without extraterritoriality |
 | Russia | mediator relevance and depth | overbinding and encirclement backlash | reciprocal limits and optionality |
 | China | financeable route stability | ownership of a sovereignty dispute | nonexclusive infrastructure access |
-| Iran | sovereignty firewall | territorial severance and encirclement | transit under local customs and jurisdiction |
+| Persia | sovereignty firewall | territorial severance and encirclement | transit under local customs and jurisdiction |
 
 ## Shared Settlement Phrase
 

@@ -7,7 +7,7 @@ WORK only; not Record.
 | America | rights and legal continuity | platform sovereignty or emergency permanence | audit, fallback, appeal, rollback |
 | China | public order restoration | brittle total lock-in | redundancy and bounded emergency permissions |
 | Russia | sovereign resilience | isolation trap | audited sovereign rails with interoperability |
-| Iran | sanctions-resilient continuity | surveillance overreach | reviewable identity and payment fallback |
+| Persia | sanctions-resilient continuity | surveillance overreach | reviewable identity and payment fallback |
 
 ## Shared Settlement Phrase
 

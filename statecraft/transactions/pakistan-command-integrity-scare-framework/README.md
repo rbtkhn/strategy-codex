@@ -15,7 +15,7 @@ The danger is not only nuclear weapons. It is uncertainty over who can command, 
 | America | command reassurance without sovereignty humiliation | [america.md](america.md) |
 | China | patron reassurance without ownership of Pakistan's fracture | [china.md](china.md) |
 | Russia | strategic-stability channel without opportunistic escalation | [russia.md](russia.md) |
-| Iran | regional spillover caution without sectarian or border overreach | [iran.md](iran.md) |
+| Persia | regional spillover caution without sectarian or border overreach | [persia.md](persia.md) |
 
 ## Shared Source Frame
 

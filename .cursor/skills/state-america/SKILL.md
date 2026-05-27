@@ -72,6 +72,7 @@ Compact `faith / science` rule:
 - Once America is clearly the lane, diagnose the governing pair immediately.
 - Descend to `helix.md` by default after the governing pair is named.
 - Descend further only when the object is narrower and name the reason briefly in governing-pair terms.
+- If the governing pair still feels smoother than the retrieval consequences, run `statecraft-framework` before narrower descent.
 
 ## Subordinate Families
 
@@ -93,6 +94,8 @@ When invoked without a named object, output exactly this shape:
 **America Statecraft**
 - Identity test:
 - Governing question:
+- Governing pair:
+- Dominant layer:
 - Best next move:
 - Default descent:
 
@@ -104,6 +107,8 @@ D. Richelieu / Bismarck stress test
 ```
 
 When invoked with a named object, make the A-D options topic-specific.
+
+When invoked with a named object, also name the governing pair and dominant layer before offering subordinate-family descent.
 
 ## Recursive-Update Membrane
 

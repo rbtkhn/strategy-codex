@@ -15,7 +15,7 @@ Zangezur is a corridor-class problem: access, inspection, customs, security, and
 | America | access guarantee without appearing to impose corridor sovereignty | [america.md](america.md) |
 | Russia | security-depth and mediation role without overclaiming control | [russia.md](russia.md) |
 | China | infrastructure continuity without owning a border dispute | [china.md](china.md) |
-| Iran | sovereignty firewall against extraterritorial corridor logic | [iran.md](iran.md) |
+| Persia | sovereignty firewall against extraterritorial corridor logic | [persia.md](persia.md) |
 
 ## Shared Source Frame
 

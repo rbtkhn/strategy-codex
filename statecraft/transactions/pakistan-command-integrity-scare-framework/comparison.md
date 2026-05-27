@@ -7,7 +7,7 @@ WORK only; not Record.
 | America | nuclear reassurance | sovereignty humiliation and panic | confidential command channel |
 | China | partner stability | ownership of Pakistan's fracture | quiet patron reassurance |
 | Russia | strategic-stability relevance | opportunistic entrapment | consultation without crisis ownership |
-| Iran | regional spillover restraint | sectarian or border overreach | noninterference and command continuity |
+| Persia | regional spillover restraint | sectarian or border overreach | noninterference and command continuity |
 
 ## Shared Settlement Phrase
 

@@ -15,7 +15,7 @@ The contested object is identity infrastructure under failure: who can prove per
 | America | identity continuity before platform control | [america.md](america.md) |
 | China | order-preserving identity recovery without totalizing lock-in | [china.md](china.md) |
 | Russia | sovereignty and resilience without isolation trap | [russia.md](russia.md) |
-| Iran | sanctions-resilient identity continuity without surveillance overreach | [iran.md](iran.md) |
+| Persia | sanctions-resilient identity continuity without surveillance overreach | [persia.md](persia.md) |
 
 ## Shared Source Frame
 

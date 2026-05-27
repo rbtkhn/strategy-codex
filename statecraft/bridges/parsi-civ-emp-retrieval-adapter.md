@@ -40,9 +40,9 @@ This weighting keeps the retrieval focused on whether a civilizational/state pat
 
 After the first `civ-emp` object, open:
 
-- [Iran helix](../iran/helix.md)
-- [Iran peace](../iran/civilization/peace.md)
-- [Iran transactions](../iran/transactions/README.md)
+- [Iran helix](../persia/helix.md)
+- [Iran peace](../persia/civilization/peace.md)
+- [Iran transactions](../persia/transactions/README.md)
 - [Transaction router](../sheets/transaction-router.md)
 - [National perspective orthogonality](../sheets/national-perspective-orthogonality.md)
 

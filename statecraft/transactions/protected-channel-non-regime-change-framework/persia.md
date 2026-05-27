@@ -21,7 +21,7 @@ Sovereignty-preserving protected-channel sequence.
 - Civilization input: Iranian sovereignty, dignity, anti-partition memory, religious-political legitimacy, and continuity after attacks on supreme authority.
 - Empire input: Iran wants deterrent reach, sanctions relief, Hormuz leverage, partner depth, and recognition as a necessary regional actor.
 - Statecraft regulation: Accept channel protection only when it preserves dignity and converts resistance into a durable settlement path.
-- Relevant lane helix: [Iran helix](../../iran/helix.md).
+- Relevant lane helix: [Iran helix](../../persia/helix.md).
 
 ## State Interest
 

@@ -44,7 +44,7 @@ Initial hypothesis for tracking. Scores are deliberately revisable.
 | 1 | [America / United States](../america/) | 91 | incumbent system manager / possible successor continent | Dollar, sanctions, alliances, bases, maritime order, energy production, nuclear force, and system-wide spillover. | Domestic fracture that weakens federal command or sanctions/military credibility. |
 | 2 | [China](../china/) | 85 | industrial pole / stabilizer under constraint | Industrial center of gravity, reserves, supply-chain weight, Russia/Iran links, and capacity to absorb or redirect shocks. | Energy disorder, Indian diplomatic gain, or visible overcommitment to Iran. |
 | 3 | [Russia](../russia/) | 84 | security-depth disruptor | Nuclear depth, energy leverage, sanctions endurance, military-industrial recovery, and strategic depth with China/Iran. | Overbinding to Iran, battlefield exhaustion, or partner hedging. |
-| 4 | [Iran](../iran/) | 79 | coercive chokepoint center | Hormuz, denial capacity, nuclear latency, resource self-sufficiency, sanctions resilience, and Russia/China depth. | Hormuz loses salience, GCC re-coheres, or Iran cannot monetize restraint. |
+| 4 | [Persia](../persia/) | 79 | coercive chokepoint center | Hormuz, denial capacity, nuclear latency, resource self-sufficiency, sanctions resilience, and Russia/China depth. | Hormuz loses salience, GCC re-coheres, or Iran cannot monetize restraint. |
 | 5 | India | 72 | comprehensive-power candidate | Population, market scale, technical depth, military scale, diaspora, and Indian Ocean position. | Resource insecurity, China/Pakistan pressure, or failure to shape the crisis directly. |
 | 6 | Saudi Arabia | 69 | energy swing power | Oil market salience, OPEC+ role, Gulf geography, capital, and hedging between America and China. | Transit vulnerability, domestic succession pressure, or inability to act without U.S. protection. |
 | 7 | Turkey | 66 | broker / chokepoint balancer | Bosporus, NATO position, drones, Black Sea / Middle East reach, migration leverage, and brokerage capacity. | Domestic economic fragility or overextension across too many theaters. |
@@ -76,7 +76,7 @@ Update the index when one of these changes:
 
 Use this index before drafting a treaty, policy paper, or negotiation brief when the actor's power type is contested.
 
-1. Open the relevant national lane: [America](../america/), [Russia](../russia/), [China](../china/), or [Iran](../iran/).
+1. Open the relevant national lane: [America](../america/), [Russia](../russia/), [China](../china/), or [Persia](../persia/).
 2. Decide whether the policy problem is about comprehensive power, coercive center leverage, chokepoint denial, or diplomatic brokerage.
 3. Use the index to name what would change the ranking.
 4. Draft the instrument around the moving criterion, not around a vague claim that one state is "rising" or "declining."

@@ -18,7 +18,7 @@ How do maritime systems pass, decay, or get bypassed by geography, infrastructur
 
 - Freeman modern activation around the Seven Years' War, Bismarck Sea, Vietnam rail repair, and Hormuz
 - CIV-EMP retrieval contracts for `geo` and `peace`
-- Existing [Hormuz Recognition / Transit Restraint](../../iran/hormuz-recognition-transit-restraint.md)
+- Existing [Hormuz Recognition / Transit Restraint](../../persia/hormuz-recognition-transit-restraint.md)
 - Lane-local geo, peace, helix, and transaction surfaces where present
 - Legacy `civ-mem` only if older sea-power or chokepoint provenance later becomes necessary
 

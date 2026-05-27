@@ -1,4 +1,4 @@
-# Iran - Iran Nuclear Latency Recognition Framework
+# Persia - Iran Nuclear Latency Recognition Framework
 
 WORK only; not Record.
 
@@ -8,7 +8,7 @@ Dignity-preserving latency restraint.
 
 ## State Lane
 
-`iran`
+`persia`
 
 ## Source Inputs
 
@@ -21,7 +21,7 @@ Dignity-preserving latency restraint.
 - Civilization input: Iran's dignity, sovereignty, resistance memory, and refusal of humiliation.
 - Empire input: Iran seeks deterrence, nuclear latency, sanctions relief, recognition, and bargaining immunity from attack.
 - Statecraft regulation: Trade threshold ambiguity for relief and assurances without surrendering sovereign nuclear dignity.
-- Relevant lane helix: [Iran helix](../../iran/helix.md).
+- Relevant lane helix: [Iran helix](../../persia/helix.md).
 
 ## State Interest
 

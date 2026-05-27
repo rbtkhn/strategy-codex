@@ -1,4 +1,4 @@
-# Iran Nuclear Latency Recognition Framework
+# Persia Nuclear Latency Recognition Framework
 
 WORK only; not Record.
 
@@ -15,7 +15,7 @@ Iran's nuclear latency is not the same as an openly declared nuclear arsenal. It
 | America | threshold containment bargain that prevents breakout without making regime change the hidden objective | [america.md](america.md) |
 | Russia | latency-recognition formula that weakens unilateral U.S. coercion without accelerating proliferation chaos | [russia.md](russia.md) |
 | China | anti-disorder nuclear restraint compact that preserves regional stability and energy flows | [china.md](china.md) |
-| Iran | dignity-preserving latency restraint that trades threshold ambiguity for relief, recognition, and security assurances | [iran.md](iran.md) |
+| Persia | dignity-preserving latency restraint that trades threshold ambiguity for relief, recognition, and security assurances | [persia.md](persia.md) |
 
 ## Shared Source Frame
 

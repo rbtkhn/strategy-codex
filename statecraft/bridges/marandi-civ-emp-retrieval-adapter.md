@@ -40,11 +40,11 @@ This weighting keeps the retrieval focused on how a Persian/Iranian state-positi
 
 After the first `civ-emp` object, open:
 
-- [Iran helix](../iran/helix.md)
-- [Iran state memory](../iran/civilization/objects/state-memory.md)
-- [Iran geo](../iran/civilization/geo.md)
-- [Iran peace](../iran/civilization/peace.md)
-- [Hormuz Recognition / Transit Restraint](../civ-emp/iran/hormuz-recognition-transit-restraint.md)
+- [Iran helix](../persia/helix.md)
+- [Iran state memory](../persia/civilization/objects/state-memory.md)
+- [Iran geo](../persia/civilization/geo.md)
+- [Iran peace](../persia/civilization/peace.md)
+- [Hormuz Recognition / Transit Restraint](../civ-emp/persia/hormuz-recognition-transit-restraint.md)
 
 Speaker-side return path when needed:
 

@@ -44,7 +44,7 @@ Minab dignity-preserving de-escalation sequence.
 - Civilization input: memory of children killed, sovereignty violated, and dignity defended.
 - Empire input: deterrent reach, Hormuz leverage, retaliation capacity, and regional recognition.
 - Statecraft regulation: Spend moral leverage into inquiry, protected channels, and sanctions relief before it hardens into endless war.
-- Relevant lane helix: [Iran helix](../../iran/helix.md).
+- Relevant lane helix: [Iran helix](../../persia/helix.md).
 
 ## Pattern / Narrative Conversion
 

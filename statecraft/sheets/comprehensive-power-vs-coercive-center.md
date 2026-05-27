@@ -40,7 +40,7 @@ When this distinction becomes a policy paper, open [National perspective orthogo
 - **U.S. view:** bound Iran's leverage. Use the [America lane](../america/) when this becomes a U.S. policy draft.
 - **Russian view:** use Iran's leverage without entrapment.
 - **Chinese view:** preserve Iran's leverage without energy disorder.
-- **Iranian view:** legitimate and monetize leverage without losing escalation control. Use the [Iran lane](../iran/) when this becomes an Iranian bargaining or regional architecture draft.
+- **Iranian view:** legitimate and monetize leverage without losing escalation control. Use the [Persia lane](../persia/) when this becomes an Iranian bargaining or regional architecture draft.
 
 Keep India as the shadow comparator rather than folding it into the four national lanes: India remains the comprehensive-power test; Iran is the coercive-center test.
 

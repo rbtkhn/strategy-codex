@@ -15,7 +15,7 @@ Hormuz disruption creates coercive system leverage. A durable compact has to reo
 | America | bounded transit guarantee that restores maritime predictability without proving Iran has a permanent veto | [america.md](america.md) |
 | Russia | leverage-without-entrapment formula that benefits from U.S. overextension without becoming hostage to Hormuz escalation | [russia.md](russia.md) |
 | China | anti-disorder energy compact that preserves leverage while preventing energy chaos | [china.md](china.md) |
-| Iran | recognition-for-transit restraint that monetizes leverage into sanctions relief and dignity-preserving recognition | [iran.md](iran.md) |
+| Persia | recognition-for-transit restraint that monetizes leverage into sanctions relief and dignity-preserving recognition | [persia.md](persia.md) |
 
 ## Shared Source Frame
 
@@ -23,7 +23,7 @@ Hormuz disruption creates coercive system leverage. A durable compact has to reo
 - [Mearsheimer structural-realist scoreboard](../../sheets/mearsheimer-structural-realist-scoreboard.md) for balancing pressure, restraint, and structural limits.
 - [Pape 2026-05-18](../../../../years/2026/provenance/2026-05-18/substack-pape-june-could-be-the-most-brutal-month-2026-05-18.md) for the contraction clock.
 - [Parsi 2026-05-03](../../../../years/2026/provenance/2026-05-03/substack-parsi-a-few-observations-on-irans-latest-proposal-to-trump-2026-05-03.md) for proposal / architecture logic.
-- Existing Iran-lane seed: [Hormuz recognition transit transaction](../../iran/transactions/hormuz-recognition-transit-transaction.md).
+- Existing Persia-lane seed: [Hormuz recognition transit transaction](../../persia/transactions/hormuz-recognition-transit-transaction.md).
 
 ## Comparison
 
@@ -31,11 +31,11 @@ Use [comparison.md](comparison.md) after reading the four lane drafts. The compa
 
 ## Authority Split
 
-- Canonical Iran clause: [Hormuz recognition transit transaction](../../iran/transactions/hormuz-recognition-transit-transaction.md)
-- Compact Iran view: [iran.md](iran.md) summarizes the lane position for cross-lane comparison; it should not carry a competing standalone clause text.
+- Canonical Persia clause: [Hormuz recognition transit transaction](../../persia/transactions/hormuz-recognition-transit-transaction.md)
+- Compact Persia view: [persia.md](persia.md) summarizes the lane position for cross-lane comparison; it should not carry a competing standalone clause text.
 - External redlines and comparison logic: [comparison.md](comparison.md)
 
-The compact folder is for four-lane comparison, not for maintaining a second Iran-local transaction in parallel with the canonical lane file.
+The compact folder is for four-lane comparison, not for maintaining a second Persia-local transaction in parallel with the canonical lane file.
 
 ## Validity
 

@@ -54,7 +54,7 @@ Initial hypothesis for tracking. Scores are deliberately revisable.
 | 2 | [China](../china/) | 87 | rising regional-hegemon candidate | Massive industrial base, population, state capacity, and regional weight, but maritime exposure and balancing coalitions constrain expansion. | Energy disruption, Taiwan / maritime crisis, India alignment, or anti-China coalition hardening. |
 | 3 | [Russia](../russia/) | 78 | continental security-depth power | Nuclear force, strategic depth, resource base, and sanctions endurance; weaker comprehensive economy than China or America but strong denial position. | Ukraine settlement, overbinding to Iran, China dependence, or European rearmament cohesion. |
 | 4 | India | 76 | latent regional-hegemon candidate | Population, geography, technical capacity, military scale, and Indian Ocean position; constrained by China, Pakistan, resource insecurity, and state-capacity unevenness. | Direct crisis-shaping role, energy security improvement, or tighter U.S. / anti-China alignment. |
-| 5 | [Iran](../iran/) | 66 | regional denial power / coercive center | Strong denial capacity, geography, energy/resource depth, and strategic partners, but limited comprehensive capacity and high encirclement pressure. | Hormuz leverage monetized, regime cohesion cracks, or Russia / China support deepens or retreats. |
+| 5 | [Persia](../persia/) | 66 | regional denial power / coercive center | Strong denial capacity, geography, energy/resource depth, and strategic partners, but limited comprehensive capacity and high encirclement pressure. | Hormuz leverage monetized, regime cohesion cracks, or Russia / China support deepens or retreats. |
 | 6 | Turkey | 64 | regional balancer / straits power | Bosporus, NATO position, defense industry, Black Sea / Caucasus / Middle East reach, and brokerage capacity. | Economic instability, NATO rupture, or overextension across too many fronts. |
 | 7 | Saudi Arabia | 58 | resource monarchy / swing-energy actor | Oil leverage and capital matter, but security dependence and institutional vulnerability limit autonomous great-power position. | U.S. guarantee weakens, China security role grows, or Gulf compact changes autonomy. |
 | 8 | Pakistan | 57 | nuclear spoiler / balance hinge | Nuclear arsenal, China link, and India pressure point create structural relevance despite weak domestic and economic base. | Domestic fracture, India escalation, or China dependence deepens. |
@@ -105,7 +105,7 @@ Update the scoreboard when one of these changes:
 
 Use this scoreboard before drafting a treaty, policy paper, or negotiation brief when the issue turns on structural incentives.
 
-1. Open the relevant national lane: [America](../america/), [Russia](../russia/), [China](../china/), or [Iran](../iran/).
+1. Open the relevant national lane: [America](../america/), [Russia](../russia/), [China](../china/), or [Persia](../persia/).
 2. Ask whether the draft aligns with balance-of-power incentives or fights them.
 3. Apply the Richelieu overlay to test institutional carrier.
 4. Apply the Bismarck overlay to test limited aims and restraint.

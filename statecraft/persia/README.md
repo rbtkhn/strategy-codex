@@ -1,4 +1,4 @@
-# Iran Statecraft Lane
+# Persia Statecraft Lane
 
 WORK only; not Record.
 
@@ -6,7 +6,7 @@ WORK only; not Record.
 
 Use this lane to draft from Iran's statecraft perspective: sovereignty, deterrence, sanctions endurance, regional legitimacy, controlled chokepoint leverage, and survival under coercive pressure.
 
-Iran is the sovereignty-and-recognition lane, and coffee may name it **Persia** when the operator needs the deeper civilizational frame of dignity, continuity, leverage, and recognition rather than a narrow event desk.
+Persia is the sovereignty-and-recognition lane, and coffee may name it **Persia** when the operator needs the deeper civilizational frame of dignity, continuity, leverage, and recognition rather than a narrow event desk.
 
 This lane is a subordinate operational surface under [statecraft.md](../statecraft.md). It owns substantive Persia/Iran drafting, not system-wide routing or output law.
 
@@ -48,11 +48,11 @@ Use Richelieu to test whether Iran's leverage is carried by durable institutions
 
 - [Helix](helix.md) - primary lane interpretation; use this first when the question spans dignity, sovereignty, leverage, deformation, and restoration together.
 
-Iran is now the fourth helix-first transfer case. Start with [helix](helix.md) when the lane question has split across several notes and you need the governing line again. The helix is the primary authored interpretation; the first-wave objects below are the supporting strand surfaces.
+Persia is now the fourth helix-first transfer case. Start with [helix](helix.md) when the lane question has split across several notes and you need the governing line again. The helix is the primary authored interpretation; the first-wave objects below are the supporting strand surfaces.
 
-Phase-one CIV-EMP migration still matters underneath that cutover. The active Iran pilot pair remains [Iran state memory](civilization/objects/state-memory.md) and [Iran empire instrument](empire/seed-instruments.md), but they now function as strand inputs beneath the helix rather than as competing top-level openings.
+Phase-one CIV-EMP migration still matters underneath that cutover. The active Persia pilot pair remains [Persia state memory](civilization/objects/state-memory.md) and [Iran empire instrument](empire/seed-instruments.md), but they now function as strand inputs beneath the helix rather than as competing top-level openings.
 
-Iran's broader first-wave strand set is now usable as an ordered drafting surface beneath the helix:
+Persia's broader first-wave strand set is now usable as an ordered drafting surface beneath the helix:
 
 - [state memory](civilization/objects/state-memory.md) for sovereignty, dignity, deterrent continuity, and anti-humiliation authority
 - [geo](civilization/geo.md) for plateau exposure, Hormuz carry, and settlement geometry
@@ -88,11 +88,11 @@ Transit-security bargains, phased sanctions relief, non-regime-change guarantees
 
 ## Transactions
 
-Use [Iran statecraft transactions](transactions/) to spend speaker-state into reusable instruments with provenance, historical continuity, Richelieu / Bismarck validation, mirror test, and revisit triggers.
+Use [Persia statecraft transactions](transactions/) to spend speaker-state into reusable instruments with provenance, historical continuity, Richelieu / Bismarck validation, mirror test, and revisit triggers.
 
 ## Crisis Test Casebook
 
-Use [Iran crisis test casebook](crisis-test-casebook.md) to preserve what each crisis teaches Iran to see, fear, leverage, phrase, and draft.
+Use [Persia crisis test casebook](crisis-test-casebook.md) to preserve what each crisis teaches Iran to see, fear, leverage, phrase, and draft.
 
 ## Red Lines
 

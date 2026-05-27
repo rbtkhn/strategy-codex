@@ -23,7 +23,7 @@ The patch treats inspection, quarantine, customs notice, transit reassurance, in
 | China | inspection and pressure without premature war ownership | [china.md](china.md) |
 | America | transit reassurance without automatic blockade recognition | [america.md](america.md) |
 | Russia | precedent management and anti-U.S. leverage without escalation trap | [russia.md](russia.md) |
-| Iran | sanctions/blockade analogy without overidentifying with Taiwan crisis | [iran.md](iran.md) |
+| Persia | sanctions/blockade analogy without overidentifying with Taiwan crisis | [persia.md](persia.md) |
 
 ## Shared Source Frame
 

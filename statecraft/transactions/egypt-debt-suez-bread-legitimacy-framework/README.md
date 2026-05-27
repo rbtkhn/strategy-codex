@@ -15,7 +15,7 @@ Egypt's debt, Suez throughput, and food-import pressure can become a legitimacy 
 | America | creditor restraint and canal neutrality without austerity collapse | [america.md](america.md) |
 | China | debt/infrastructure leverage without legitimacy-destroying extraction | [china.md](china.md) |
 | Russia | food and security diplomacy without overpromising | [russia.md](russia.md) |
-| Iran | regional legitimacy reading without claiming ownership | [iran.md](iran.md) |
+| Persia | regional legitimacy reading without claiming ownership | [persia.md](persia.md) |
 
 ## Shared Source Frame
 

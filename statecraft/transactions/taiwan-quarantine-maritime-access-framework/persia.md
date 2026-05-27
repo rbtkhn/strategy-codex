@@ -14,7 +14,7 @@ Taiwan blockade-precedent discipline.
 
 - Speaker-state inputs: sanctions, blockade, and sovereignty sources TBD.
 - Scoreboards used: Pape for coercive leverage; Mearsheimer for balancing.
-- Raw-input / provenance anchors: future current-event packet required.
+- Raw-input / provenance anchors: future verified live-event packet required.
 - Prior statecraft drafts: crisis test casebook Taiwan entry.
 
 ## Realism / Incentive Filter

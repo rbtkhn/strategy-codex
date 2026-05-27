@@ -53,7 +53,7 @@ This object cannot decide current policy by itself. It does not tell you whether
   - [Iran civilization](../)
   - [Iran helix](../../helix.md)
   - [Iran civilization seed patterns](../seed-patterns.md)
-  - lane-local current-event and transaction work should stage durable improvements through [Iran updates](../../updates/pending.md), not rewrite civilization memory directly
+  - lane-local verified live-event and transaction work should stage durable improvements through [Iran updates](../../updates/pending.md), not rewrite civilization memory directly
 
 ## Arc Pattern
 
@@ -181,5 +181,5 @@ State memory deforms when dignity becomes humiliation lock, martyrdom becomes en
 ## Revisit Triggers
 
 - Any major Supreme Leader, president, IRGC, parliament, SNSC, or foreign ministry statement on nuclear rights, sanctions relief, Hormuz, regional architecture, or non-regime-change.
-- Any current-event read involving regime-change pressure, decapitation, sanctions sequencing, verification dignity, or third-party guarantees.
+- Any verified live-event read involving regime-change pressure, decapitation, sanctions sequencing, verification dignity, or third-party guarantees.
 - Any Iran-lane transaction that asks Tehran to regulate leverage, restrain escalation, accept inspection, reopen transit, or trade latency for recognition.

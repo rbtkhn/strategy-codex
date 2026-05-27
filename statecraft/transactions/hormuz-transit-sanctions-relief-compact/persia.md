@@ -6,7 +6,7 @@ WORK only; not Record.
 
 Recognition-for-transit restraint clause.
 
-Compact-facing lane summary only. Canonical clause authority remains [Hormuz recognition transit transaction](../../iran/transactions/hormuz-recognition-transit-transaction.md).
+Compact-facing lane summary only. Canonical clause authority remains [Hormuz recognition transit transaction](../../persia/transactions/hormuz-recognition-transit-transaction.md).
 
 ## State Lane
 
@@ -14,7 +14,7 @@ Compact-facing lane summary only. Canonical clause authority remains [Hormuz rec
 
 ## Source Inputs
 
-- Full Iran-lane seed: [Hormuz recognition transit transaction](../../iran/transactions/hormuz-recognition-transit-transaction.md).
+- Full Persia-lane seed: [Hormuz recognition transit transaction](../../persia/transactions/hormuz-recognition-transit-transaction.md).
 - Speaker-state inputs: [Pape](../../../../speakers/pape/) for fourth-center leverage and shortage clocks; [Parsi](../../../../speakers/parsi/) / [Marandi](../../../../speakers/marandi/) for Iranian bargaining logic; [Crooke](../../../speakers/crooke/README.md) for Western misreading; [Ritter](../../../../speakers/ritter/) for regime-change skepticism and military risk.
 - Scoreboards used: [Pape coercive-center index](../../sheets/pape-coercive-center-index.md); [Mearsheimer structural-realist scoreboard](../../sheets/mearsheimer-structural-realist-scoreboard.md).
 - Raw-input / provenance anchors: [Pape 2026-04-16](../../../../years/2026/provenance/2026-04-16/substack-pape-the-iran-war-is-about-to-hit-a-supply-2026-04-16.md); [Pape 2026-05-18](../../../../years/2026/provenance/2026-05-18/substack-pape-june-could-be-the-most-brutal-month-2026-05-18.md); [Parsi 2026-05-01](../../../../years/2026/provenance/2026-05-01/substack-parsi-trumps-blockade-snatches-defeat-from-the-jaws-of-victory-2026-05-01.md); [Parsi 2026-05-03](../../../../years/2026/provenance/2026-05-03/substack-parsi-a-few-observations-on-irans-latest-proposal-to-trump-2026-05-03.md).
@@ -24,7 +24,7 @@ Compact-facing lane summary only. Canonical clause authority remains [Hormuz rec
 - Civilization input: Iran's dignity, sovereignty, resistance memory, Persian continuity, and refusal of humiliation.
 - Empire input: Iran's outward striving for deterrence, Hormuz leverage, sanctions relief, partner networks, and recognition.
 - Statecraft regulation: Convert leverage into recognized restraint before disruption becomes isolation.
-- Relevant lane helix: [Iran helix](../../iran/helix.md).
+- Relevant lane helix: [Iran helix](../../persia/helix.md).
 
 ## State Interest
 

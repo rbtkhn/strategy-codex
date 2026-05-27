@@ -63,6 +63,8 @@ When the operator names a recent event, absorb it here:
 
 If lane ownership is already obvious after verification, hand directly to the owning `state-*` lane. If not, keep the deployer in charge.
 
+If the event is verified but the governing layer is still being confused with lane ownership, use `statecraft-framework` as the pre-handoff diagnosis rather than guessing from salience.
+
 ## Decision Rules
 
 Use these tests in order:
@@ -77,6 +79,8 @@ Ask one transaction-aware reuse question before you widen the pass:
 
 - does this object already resemble a known transit, guarantee, sanctions, quarantine, recognition, or settlement bundle strongly enough that the honest next move is fit-check or reuse rather than a fresh framework?
 
+Use `statecraft-framework` only after the deployer can already name the live object honestly. Use it to clarify the governing pair, not to replace lane judgment.
+
 ## Misdeployment Warnings
 
 `state-deploy` is most likely to drift when it mistakes:
@@ -88,6 +92,12 @@ Ask one transaction-aware reuse question before you widen the pass:
 - a Persia/Iran bridge step for an ownership decision that has not yet been made
 
 The deployer should slow down whenever the object sounds vivid before its legitimacy grammar, carrier, and arena are actually stable.
+
+When that happens, run a short false-elegance check:
+
+- what lane would a headline reader choose too quickly?
+- what lane would a mechanism drafter choose too quickly?
+- which ownership call still makes the next retrieval surface more obvious than the others?
 
 ## False-Ownership Recognizers
 
@@ -119,6 +129,8 @@ Use these corrections when the first instinct is probably wrong:
 If the crisis object is already strongly mechanism-shaped, the deployer should say so early and recommend transaction-aware reuse rather than pretending the first need is broad orientation.
 
 Do not call `statecraft-bridge` from the deployer unless Persia/Iran ownership is already clear. If ownership is still contested, hand back to a lane judgment or comparison call first.
+
+When ownership is clear but pair diagnosis is not, hand to the owning lane with an explicit note to run `statecraft-framework` before narrow descent.
 
 ## Default Output
 

@@ -6,7 +6,7 @@ WORK only; not Record.
 
 - CIV-EMP lane: `iran`
 - Source frame: Civilization and Empire, applied to Iran's plateau / Gulf geography, dignity-sovereignty memory, and imperial chokepoint leverage.
-- Lane translations used: [Iran geo](../../iran/civilization/geo.md), [Iran peace](../../iran/civilization/peace.md), [Iran helix](../../iran/helix.md), and [Hormuz recognition transit transaction](../../iran/transactions/hormuz-recognition-transit-transaction.md).
+- Lane translations used: [Iran geo](../../persia/civilization/geo.md), [Iran peace](../../persia/civilization/peace.md), [Iran helix](../../persia/helix.md), and [Hormuz recognition transit transaction](../../persia/transactions/hormuz-recognition-transit-transaction.md).
 - Legacy provenance: older Iran arc-lenses may still cite CIV-MEM Persia materials; this object is the statecraft-local CIV-EMP retrieval surface for the Hormuz recognition pattern.
 
 ## Pattern

@@ -13,7 +13,7 @@ Minab is not only a strike allegation. In the speaker-state lattice it becomes a
 | lane | transaction role | open |
 | --- | --- | --- |
 | America | civilian-harm recognition and protected-channel clause that preserves bargaining authority without regime-change signaling | [america.md](america.md) |
-| Iran | dignity-preserving de-escalation sequence that converts Minab memory into inquiry, guarantees, and controlled leverage | [iran.md](iran.md) |
+| Persia | dignity-preserving de-escalation sequence that converts Minab memory into inquiry, guarantees, and controlled leverage | [persia.md](persia.md) |
 
 ## Shared Source Frame
 

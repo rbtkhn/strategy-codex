@@ -14,7 +14,7 @@ Zangezur sovereignty firewall.
 
 - Speaker-state inputs: Iranian sovereignty and regional architecture sources TBD.
 - Scoreboards used: Pape for corridor leverage; Mearsheimer for encirclement and autonomy.
-- Raw-input / provenance anchors: future current-event packet required.
+- Raw-input / provenance anchors: future verified live-event packet required.
 - Prior statecraft drafts: crisis test casebook corridor entry.
 
 ## Realism / Incentive Filter

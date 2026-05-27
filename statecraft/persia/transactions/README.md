@@ -1,36 +1,36 @@
-# Iran Statecraft Transactions
+# Persia Statecraft Transactions
 
 WORK only; not Record.
 
-This bench spends compact speaker-state into Iran-lane instruments. Use the canonical [Statecraft Transaction Template](../../templates/statecraft-transaction.md) for any reusable transaction.
+This bench spends compact speaker-state into Persia-lane instruments. Use the canonical [Statecraft Transaction Template](../../templates/statecraft-transaction.md) for any reusable transaction.
 
 This folder is not the primary front door. The canonical workshop entry lives in [../../README.md](../../README.md).
 
-The general maturation doctrine also lives there. This folder assumes the object has already survived braid and routing, and is only the right stop once the Iran-lane transaction threshold has actually been crossed.
+The general maturation doctrine also lives there. This folder assumes the object has already survived braid and routing, and is only the right stop once the Persia-lane transaction threshold has actually been crossed.
 
-Open this README once the workshop route has already resolved into an Iran-lane transaction, or when you are continuing directly from the braid -> router path.
+Open this README once the workshop route has already resolved into a Persia-lane transaction, or when you are continuing directly from the braid -> router path.
 
 Local continuation route:
 
 1. [State braid model](../../sheets/state-braid-model.md) - keep the linked Hormuz arcs together.
-2. [Transaction router](../../sheets/transaction-router.md) - confirm that the fit is the Iran-local recognition route, not the wider cross-lane compact.
-3. [Hormuz recognition transit transaction](hormuz-recognition-transit-transaction.md) - spend the bundle as a concrete Iran-lane clause.
+2. [Transaction router](../../sheets/transaction-router.md) - confirm that the fit is the Persia-local recognition route, not the wider cross-lane compact.
+3. [Hormuz recognition transit transaction](hormuz-recognition-transit-transaction.md) - spend the bundle as a concrete Persia-lane clause.
 
 What this bench adds after the front door:
 
-- it stops the route at the point where Iran must convert leverage into recognized restraint
+- it stops the route at the point where Persia must convert leverage into recognized restraint
 - it asks which Iranian carriers can keep dignity, transit, deterrence, and relief sequencing aligned
 - it turns the routed object into spendable instrument language rather than leaving it as a strategic insight
 
 What this bench does not mean:
 
-- not every Iran crisis note belongs here
+- not every Persia crisis note belongs here
 - not every Hormuz observation deserves a transaction
 - if the object is still mostly diagnosis, warning, or comparison, it should remain earlier in the workshop line
 
 ## Transaction Bias
 
-Iran transactions should prioritize legitimated coercive leverage, sanctions relief, deterrence with control, dignity-preserving recognition, and regional architecture that prevents Iran from being treated as a disposable target.
+Persia transactions should prioritize legitimated coercive leverage, sanctions relief, deterrence with control, dignity-preserving recognition, and regional architecture that prevents Iran from being treated as a disposable target.
 
 Each transaction should separate:
 
@@ -60,8 +60,8 @@ Each transaction should separate:
 ## Exemplars
 
 - [Hormuz recognition transit transaction](hormuz-recognition-transit-transaction.md) - volatile first pass and default worked example for the braid -> router -> transaction path. It converts Iran's Hormuz leverage into a recognition, restraint, sanctions-relief, and transit-security clause.
-- [Protected Channel / Non-Regime-Change Framework](../../transactions/protected-channel-non-regime-change-framework/) - two-lane Iran / America bundle that converts leadership-martyrdom and off-ramp-destruction risk into protected channels, no-partition language, and sovereignty-preserving sequencing.
-- [Minab Civilian-Harm De-Escalation Framework](../../transactions/minab-civilian-harm-deescalation-framework/) - two-lane Iran / America bundle that preserves Minab dignity while converting civilian-harm memory into inquiry, protected channels, no-regime-change language, and controlled leverage.
+- [Protected Channel / Non-Regime-Change Framework](../../transactions/protected-channel-non-regime-change-framework/) - two-lane Persia / America bundle that converts leadership-martyrdom and off-ramp-destruction risk into protected channels, no-partition language, and sovereignty-preserving sequencing.
+- [Minab Civilian-Harm De-Escalation Framework](../../transactions/minab-civilian-harm-deescalation-framework/) - two-lane Persia / America bundle that preserves Minab dignity while converting civilian-harm memory into inquiry, protected channels, no-regime-change language, and controlled leverage.
 
 ## Validity Questions
 

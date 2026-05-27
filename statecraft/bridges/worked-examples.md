@@ -23,8 +23,8 @@ The goal is not to prove one adapter right and the other wrong. The goal is to p
 
 Both runs start from the same source base:
 
-- [Hormuz Recognition / Transit Restraint](../civ-emp/iran/hormuz-recognition-transit-restraint.md)
-- [Iran helix](../iran/helix.md)
+- [Hormuz Recognition / Transit Restraint](../civ-emp/persia/hormuz-recognition-transit-restraint.md)
+- [Iran helix](../persia/helix.md)
 
 The test is whether the adapters produce different statecraft outputs from the same object rather than from different corpora.
 
@@ -39,9 +39,9 @@ The test is whether the adapters produce different statecraft outputs from the s
   - `current carrier`
   - `failure mode`
 - Main follow-on surfaces:
-  - [Iran state memory](../iran/civilization/objects/state-memory.md)
-  - [Iran geo](../iran/civilization/geo.md)
-  - [Iran peace](../iran/civilization/peace.md)
+  - [Iran state memory](../persia/civilization/objects/state-memory.md)
+  - [Iran geo](../persia/civilization/geo.md)
+  - [Iran peace](../persia/civilization/peace.md)
 
 Recognition-threshold result:
 
@@ -65,10 +65,10 @@ Failure test:
   - `counterweight`
   - `transaction hooks`
 - Main follow-on surfaces:
-  - [Iran peace](../iran/civilization/peace.md)
-  - [Iran transactions](../iran/transactions/README.md)
+  - [Iran peace](../persia/civilization/peace.md)
+  - [Iran transactions](../persia/transactions/README.md)
   - [Transaction router](../sheets/transaction-router.md)
-  - [Hormuz recognition transit transaction](../iran/transactions/hormuz-recognition-transit-transaction.md)
+  - [Hormuz recognition transit transaction](../persia/transactions/hormuz-recognition-transit-transaction.md)
 
 Settlement-durability result:
 
@@ -112,9 +112,9 @@ Do not let this note become a second archive of current events. Keep it to compa
 
 Both runs start from the same source cluster:
 
-- [Iran empire instrument](../iran/empire/seed-instruments.md) - especially the nuclear latency bargaining section
-- [Iran helix](../iran/helix.md)
-- [Iran Nuclear Latency Recognition Framework](../transactions/iran-nuclear-latency-recognition-framework/README.md)
+- [Iran empire instrument](../persia/empire/seed-instruments.md) - especially the nuclear latency bargaining section
+- [Iran helix](../persia/helix.md)
+- [Iran Nuclear Latency Recognition Framework](../transactions/persia-nuclear-latency-recognition-framework/README.md)
 
 The test is whether the adapters change how nuclear latency is interpreted before it is drafted.
 
@@ -129,9 +129,9 @@ The test is whether the adapters change how nuclear latency is interpreted befor
   - `current carrier`
   - `failure mode`
 - Main follow-on surfaces:
-  - [Iran state memory](../iran/civilization/objects/state-memory.md)
-  - [Iran peace](../iran/civilization/peace.md)
-  - [Iran helix](../iran/helix.md)
+  - [Iran state memory](../persia/civilization/objects/state-memory.md)
+  - [Iran peace](../persia/civilization/peace.md)
+  - [Iran helix](../persia/helix.md)
 
 Recognition-threshold result:
 
@@ -155,9 +155,9 @@ Failure test:
   - `counterweight`
   - `transaction hooks`
 - Main follow-on surfaces:
-  - [Iran peace](../iran/civilization/peace.md)
-  - [Iran Nuclear Latency Recognition Framework](../transactions/iran-nuclear-latency-recognition-framework/README.md)
-  - [Iran lane draft](../transactions/iran-nuclear-latency-recognition-framework/iran.md)
+  - [Iran peace](../persia/civilization/peace.md)
+  - [Iran Nuclear Latency Recognition Framework](../transactions/persia-nuclear-latency-recognition-framework/README.md)
+  - [Iran lane draft](../transactions/persia-nuclear-latency-recognition-framework/persia.md)
   - [Transaction router](../sheets/transaction-router.md)
 
 Settlement-durability result:
@@ -193,9 +193,9 @@ Shortest split:
 Both runs start from the same source cluster:
 
 - [Minab Civilian-Harm De-Escalation Framework](../transactions/minab-civilian-harm-deescalation-framework/README.md)
-- [Iran lane draft](../transactions/minab-civilian-harm-deescalation-framework/iran.md)
-- [Iran god](../iran/civilization/god.md)
-- [Iran state memory](../iran/civilization/objects/state-memory.md)
+- [Iran lane draft](../transactions/minab-civilian-harm-deescalation-framework/persia.md)
+- [Iran god](../persia/civilization/god.md)
+- [Iran state memory](../persia/civilization/objects/state-memory.md)
 
 The test is whether the adapters can stay distinct even when sacred injury and settlement mechanism are tightly entangled.
 
@@ -210,10 +210,10 @@ The test is whether the adapters can stay distinct even when sacred injury and s
   - `current carrier`
   - `failure mode`
 - Main follow-on surfaces:
-  - [Iran god](../iran/civilization/god.md)
-  - [Iran state memory](../iran/civilization/objects/state-memory.md)
-  - [Iran art](../iran/civilization/art.md)
-  - [Iran peace](../iran/civilization/peace.md)
+  - [Iran god](../persia/civilization/god.md)
+  - [Iran state memory](../persia/civilization/objects/state-memory.md)
+  - [Iran art](../persia/civilization/art.md)
+  - [Iran peace](../persia/civilization/peace.md)
 
 Recognition-threshold result:
 
@@ -237,10 +237,10 @@ Failure test:
   - `counterweight`
   - `transaction hooks`
 - Main follow-on surfaces:
-  - [Iran peace](../iran/civilization/peace.md)
-  - [Minab Iran lane draft](../transactions/minab-civilian-harm-deescalation-framework/iran.md)
+  - [Iran peace](../persia/civilization/peace.md)
+  - [Minab Iran lane draft](../transactions/minab-civilian-harm-deescalation-framework/persia.md)
   - [Transaction router](../sheets/transaction-router.md)
-  - [Iran transactions](../iran/transactions/README.md)
+  - [Iran transactions](../persia/transactions/README.md)
 
 Settlement-durability result:
 
