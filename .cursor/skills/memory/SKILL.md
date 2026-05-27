@@ -23,11 +23,21 @@ Compatibility note: older references to **`state-memory`** as a skill mean this 
 
 This skill is the lane-local implementation surface for the CIV-EMP **evidence-spine law** and the `MEM CONNECTIONS` quantitative default.
 
+Inside the active **Civilizational Statecraft Framework**, `memory` is the thickness-restoring tool mainly for:
+
+- **civilization** surfaces
+- **faith** surfaces
+- **memory** surfaces
+
+It is not a catch-all skill for all six layers. Its main job remains rebuilding continuity-bearing and legitimacy-bearing substrates when they are thin, stale, or contested.
+
+The **Civilizational Statecraft Framework** governs interpretation first. Older families such as `god`, `lit`, `art`, `geo`, `war`, and `peace` remain useful only as **secondary retrieval-and-expression families** chosen after the governing layer has been identified. Build them as subordinate arc-lenses, not as primary ontology.
+
 It keeps the lanes from sliding into biography or shallow summary by enforcing:
 
 > Civilization stores state memory. Empire converts memory into reach. State carries present authority. Objects transmit signals. Transactions test whether authority can become settlement.
 
-Second rule: every major civilization object is an arc-lens, not a topic page. A lens reads the present; an arc carries the civilizational development that makes the reading legitimate. In this workflow the two are one object: memory becomes perception, perception becomes judgment, and judgment becomes a possible update. Every arc-lens must trace origin, continuity, transformation, current carrier, failure mode, and transaction use.
+Second rule: every major civilization object is an arc-lens, not a topic page. A lens reads the present; an arc carries the civilizational development that makes the reading legitimate. In this workflow the two are one object: memory becomes perception, perception becomes judgment, and judgment becomes a possible update. These arc-lenses are downstream expression surfaces, not coequal doctrine. Every arc-lens must trace origin, continuity, transformation, current carrier, failure mode, and transaction use.
 
 ## Boundary
 
@@ -82,6 +92,8 @@ Use this branch when creating or refining lane-local civilization arc-lenses suc
 - `civilization/peace.md`
 
 These backfills must be cognitively dense and source-supported. Existing statecraft summaries may guide the question, but they are not enough.
+
+Use them only after the governing pair inside the **Civilizational Statecraft Framework** is clear. The backfill question is not "which lens is sovereign?" It is "which secondary object family best expresses the already-identified governing layer?"
 
 ### Required CIV-MEM Pass
 
@@ -177,7 +189,7 @@ Every major arc-lens must make four claims explicit:
 
 1. **Lens side:** what the object detects in a present crisis, transaction, clause, or policy question.
 2. **Arc side:** origin, continuity, transformation, current carrier, failure mode, and transaction use.
-3. **Orthogonality side:** what the object must not steal from neighboring objects:
+3. **Orthogonality side:** what the object must not steal from neighboring objects once the governing six-part layer has already been identified:
    - `god.md` owns sacred boundary and forbidden bargain;
    - `lit.md` owns narrative, moral language, witness, dissent, and memory;
    - `art.md` owns form, beauty, spectacle, ceremony, architecture, music, and public image;

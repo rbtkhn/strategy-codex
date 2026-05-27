@@ -55,11 +55,14 @@ Use the opener block operationally:
 - **Sovereign opening** routes toward founding, origin, and state-memory objects
 - **Current carrier** routes toward helix, state, and transaction surfaces
 
+The canonical CIV-EMP shelf for deep-grammar retrieval is now [Sacred Grammar Library](../sacred-grammar/README.md). Use it when the problem is legitimacy substrate rather than sovereign opener or present carrier.
+
 ## Usage Rule
 
 - Use a volume README when you need the best current opening sequence for one civilization across time.
+- Use [Sacred Grammar Library](../sacred-grammar/README.md) when the object is specifically about deep legitimacy grammar and continuity through rupture.
 - Use the lane README when ownership is already clear and the drafting problem is live.
-- Use [Power, Truth, Time](../power-truth-time-annex.md) when the object is really about explanatory layer rather than civilizational carrier.
+- Use [Civilization, Empire, Faith, Science, Memory, Desire](../civilization-empire-faith-science-memory-desire.md) when the object is really about governing layer rather than civilizational carrier.
 - Use the [Source retrieval matrix](../indexes/source-retrieval-matrix.md) when you already know the object class and need the narrowest workable source.
 
 Every volume should be read the same way:

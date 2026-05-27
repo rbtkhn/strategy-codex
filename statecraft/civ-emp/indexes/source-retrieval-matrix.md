@@ -19,6 +19,24 @@ Use this constitution in order:
 3. **Lane retrieval** - return downstream into lane-local `state-memory`, `god`, `helix`, `state/`, and transaction surfaces as needed.
 4. **Counterweight retrieval** - require at least one source or lane object where the pattern degrades, reverses, overreaches, or becomes unusable.
 
+The active higher-order routing frame is now the **Civilizational Statecraft Framework**:
+
+- **civilization** -> inherited order, legitimacy substrate, continuity-bearing pattern
+- **empire** -> outward instrument, amplification stack, coercive or procedural reach
+- **faith** -> sacred, moral, covenantal, or civil-religious truth-order
+- **science** -> technical, procedural, expert, managerial, or cybernetic truth-order
+- **memory** -> continuity-bearing recollection, humiliation, restoration, inheritance, rupture-tracking
+- **desire** -> prestige hunger, appetite, resentment, novelty drive, acceleration, compensatory ambition
+
+Route by governing layer or governing pair:
+
+- legitimacy substrate -> **civilization**
+- outward instrument -> **empire**
+- sacred or moral authorization -> **faith**
+- procedural or technical authorization -> **science**
+- continuity carry -> **memory**
+- acceleration, distortion, or appetite -> **desire**
+
 During migration, older CIV-MEM files may serve as provenance for CIV-EMP objects, but statecraft outputs should cite the CIV-EMP object or lane-local translation whenever one exists.
 
 ## Retrieval Contract
@@ -29,6 +47,8 @@ For each arc-lens or empire instrument, run four retrieval layers:
 2. **Lane retrieval** - open the lane's `civilization/`, `empire/`, `state/`, `helix.md`, and seed-pattern surfaces where present.
 3. **Lens retrieval** - search for the object-specific seed terms below.
 4. **Counterweight retrieval** - find at least one source or lane object where the pattern degrades, reverses, overreaches, or becomes unusable.
+
+Object selection comes second, not first. First identify the governing six-part layer or pair. Only then choose a secondary object class if it will sharpen retrieval, writing, or stress-testing.
 
 ## Evidence Spine Rule
 
@@ -78,7 +98,20 @@ Gather evidence for each component:
 
 Mark an object `Provisional` if it cannot identify origin, transformation, failure mode, and transaction use.
 
-## Object Matrix
+## Secondary Object Classes
+
+The older `god / lit / art / geo / war / peace` families remain useful, but only as downstream output families and retrieval surfaces beneath the six-part doctrine. They are not a peer ontology.
+
+Use them like this:
+
+- `god` -> mostly **faith**, sometimes **civilization**
+- `lit` -> mostly **memory**, sometimes **desire** and **civilization**
+- `art` -> mostly **civilization** and **desire**, sometimes **empire**
+- `geo` -> mostly **empire**, sometimes **civilization**
+- `war` -> mostly **empire**, often bent by **memory** or **desire**
+- `peace` -> settlement-facing downstream class, not a coequal doctrine layer
+
+Keep the existing filenames and retrieval seeds for compatibility. The hierarchy changes; the object-family names do not. In operator terms, use `civ-state-frame` to diagnose the governing pair first, then choose one of these secondary retrieval-and-expression families only if it sharpens the read.
 
 | Object | CIV-EMP lane | Source classes | Seed terms | Counterweight requirement |
 |---|---|---|---|---|

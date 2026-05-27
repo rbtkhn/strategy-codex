@@ -4,7 +4,7 @@ WORK only; not Record.
 
 ## Purpose
 
-Use this sheet when an Iran-lane read, hexagon stress test, transaction, clause, or current event invokes dignity, sovereignty, deterrence, sanctions endurance, nuclear latency, Hormuz leverage, non-regime-change, verification, martyrdom, or imposed vulnerability.
+Use this sheet when an Iran-lane read, six-part doctrine read, transaction, clause, or current event invokes dignity, sovereignty, deterrence, sanctions endurance, nuclear latency, Hormuz leverage, non-regime-change, verification, martyrdom, or imposed vulnerability.
 
 The governing test:
 
@@ -40,9 +40,9 @@ Verify behavior without making Iran itself the disorder to be disciplined.
 6. Is verification reciprocal, technical, reversible, and relief-linked, or does it read as confession and disarmament?
 7. What would prove the dignity claim has become martyrdom veto, solvency trap, Hormuz overuse, or split-authority sabotage?
 
-## Hexagon Use
+## Six-Lens Use
 
-When running `iran hex <topic>`, use the dignity-sovereignty arc as an Iran-specific substrate after the six lenses vote:
+When a live read still benefits from separate `god`, `lit`, `art`, `geo`, `war`, and `peace` pressure checks, use the dignity-sovereignty arc as an Iran-specific substrate after those lenses are read separately:
 
 - `god` tests sacred dignity, righteous resistance, martyrdom, and forbidden humiliation.
 - `peace` tests recognition, relief sequencing, non-regime-change, and verification without humiliation.
@@ -51,7 +51,7 @@ When running `iran hex <topic>`, use the dignity-sovereignty arc as an Iran-spec
 - `lit` tests Persianate continuity, poetry / memory, grievance capture, and dignity beyond regime.
 - `art` tests recognition form, sacred geometry, shrine / imperial memory, and visible endurance.
 
-Do not let the dignity-sovereignty arc become the central pillar of the hexagon. It is an Iran-lane diagnostic overlay.
+Do not let the dignity-sovereignty arc become the whole doctrine. It is an Iran-lane diagnostic overlay inside a larger six-part frame.
 
 ## Transaction Use
 

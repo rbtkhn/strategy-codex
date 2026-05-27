@@ -34,10 +34,18 @@ Use it when the operator names a recent event and wants judgment or an instrumen
    - **exact fit:** route to the existing transaction bundle and choose the best lane to open first;
    - **near fit:** use the closest transaction as an analogy and name the mismatch;
    - **no fit:** recommend a new transaction candidate with crisis object, lanes, and settlement spine, but do not create files automatically.
-5. **Check CIV-EMP source fit.** If the event exposes a durable civilizational pattern, imperial instrument, recognition bargain, border/channel logic, or state-memory problem, open `statecraft/civ-emp/indexes/source-retrieval-matrix.md` before drafting. Distinguish the fit:
-   - **legitimacy / truth-order question** -> open `statecraft/civ-emp/sacred-grammar/README.md` first;
-   - **continuity / succession / humiliation-memory question** -> open the relevant lane `state-memory` object first;
-   - **other crisis object** -> use matrix-directed lane retrieval.
+5. **Check CIV-EMP source fit.** If the event exposes a durable civilizational pattern, imperial instrument, recognition bargain, border/channel logic, or state-memory problem, open `statecraft/civ-emp/indexes/source-retrieval-matrix.md` before drafting. Use the six-part governing questions directly:
+   - what **civilizational inheritance** is at stake?
+   - what **empire instrument** is carrying it?
+   - what **faith-order** authorizes it?
+   - what **science-order** authorizes it?
+   - what **memory** sustains it?
+   - what **desire** distorts or accelerates it?
+
+   Distinguish the fit:
+   - **civilization / faith question** -> open `statecraft/civ-emp/sacred-grammar/README.md` first;
+   - **memory question** -> open the relevant lane `state-memory` object first;
+   - **empire / science / desire question** -> use matrix-directed lane retrieval and the most relevant implementation, mutation, or transaction surface.
    If no CIV-EMP object fits, say `none` rather than borrowing from `CIV-MEM`.
 6. **Run the mutation check.** Use `statecraft/sheets/mutation-statecraft.md` to ask whether the event keeps an old name while changing function:
    - **yes:** name the original function, possible new function, trigger evidence, defensive reading, threatening reading, naming fight, and threshold formula;

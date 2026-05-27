@@ -33,6 +33,8 @@ Core test: what kind of American authority can still carry this tomorrow?
 - Decide what America can legitimately draft, carry, accept, reject, and institutionalize.
 - If the object is obviously cross-lane or not honestly America-owned, say so and hand back toward `state-deploy` or a comparison path.
 
+Once lane ownership is clear, identify the governing pair within the **Civilizational Statecraft Framework** before descending.
+
 ## Source Surfaces
 
 Open in this order unless the request is already narrower:
@@ -51,15 +53,29 @@ Descend only with a named reason:
 - `statecraft/america/transactions/` for draftable instruments
 - `statecraft/america/civilization/lit.md` for republic-conscience, anti-imperial, constitutional-language, or dissent tests
 
+## Governing-Pair Rule
+
+After ownership is clear, force this diagnosis immediately:
+
+- what governing pair is load-bearing: `civilization / empire`, `faith / science`, or `memory / desire`?
+- what dominant layer inside that pair is actually governing the object?
+
+Compact `faith / science` rule:
+
+- treat sacred or constitutional legitimacy and procedural or technical competence as separate truth-orders
+- do not collapse sacred authorization into technical competence
+- do not collapse technical competence into sacred legitimacy
+
 ## Routing Rule
 
 - Stay at `README.md` when the operator still needs lane orientation.
-- Descend to `helix.md` by default once America is clearly the lane.
-- Descend further only when the object is narrower and name the reason briefly.
+- Once America is clearly the lane, diagnose the governing pair immediately.
+- Descend to `helix.md` by default after the governing pair is named.
+- Descend further only when the object is narrower and name the reason briefly in governing-pair terms.
 
-## Folded Literature Lens
+## Subordinate Families
 
-Use the folded literature route when the object needs:
+Use subordinate families only after the governing pair is named:
 
 - republic-conscience testing
 - constitutional-language testing
@@ -67,7 +83,7 @@ Use the folded literature route when the object needs:
 - frontier / empire critique
 - clause-language stress tests for whether power still sounds lawful
 
-Keep that lens inside the lane machine rather than as a separate skill.
+`lit` remains subordinate. `geo / war / peace` are also subordinate retrieval-and-expression families. None of them should be treated as alternate top-level modes.
 
 ## Default Output
 

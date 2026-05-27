@@ -10,6 +10,7 @@ Primary live lane: [America statecraft lane](../../../america/README.md)
 
 **Opener Block**
 - Deep grammar: Anglo constitutional inheritance and Protestant / civil-religious legitimacy
+- Deep grammar retrieval: [America sacred grammar](../../sacred-grammar/america.md)
 - Sovereign opening: Alfred the Great as the foundational continuity sovereign
 - Birth of present state: 1776
 - Current carrier: United States

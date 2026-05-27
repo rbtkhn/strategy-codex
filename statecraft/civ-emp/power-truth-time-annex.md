@@ -2,12 +2,16 @@
 
 WORK only; not Record.
 
-Status: Active annex
+Status: Superseded by `civilization-empire-faith-science-memory-desire.md`
 Surface: `civ-emp`
 Purpose: provide a higher-order orientation frame and academic genealogy for Civilization and Empire retrieval
 Last updated: 2026-05-26
 
 ## Why this annex exists
+
+This note is retained as genealogy and historical residue.
+
+The active CIV-EMP doctrine now lives in [Civilization, Empire, Faith, Science, Memory, Desire](civilization-empire-faith-science-memory-desire.md). Use this older annex only when you specifically need the compressed triadic genealogy or the academic literature review that accompanied it.
 
 `civ-emp` is named for **Civilization and Empire**, but repeated use quickly reveals that the pair sits inside a larger architecture.
 
@@ -290,7 +294,7 @@ Use this annex when:
 - a civilizational comparison needs more than routes, coercion, and institutions
 - the operator needs a higher-order orientation frame before descending back into helix, family, or lane work
 
-For the bounded operator version of that move, use the [Power, Truth, Time Retrieval Checklist](power-truth-time-retrieval-checklist.md).
+For the active bounded operator version of that move, use the [Civilization, Empire, Faith, Science, Memory, Desire Retrieval Checklist](civilization-empire-faith-science-memory-desire-retrieval-checklist.md). Use the older triadic checklist only for comparison or migration archaeology.
 
 For post-1945 objects centered on deterrence, compute, identity rails, platform authority, signal management, or systems governance, treat `Cybernetic` as a likely retrieval overlay rather than as a mandatory first-router.
 

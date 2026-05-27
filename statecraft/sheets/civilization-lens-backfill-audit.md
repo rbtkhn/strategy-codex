@@ -8,6 +8,8 @@ Audit the existing `art.md`, `lit.md`, `geo.md`, `war.md`, and `peace.md` civili
 
 This sheet does not rewrite arc-lens files. It marks which surfaces are usable v1 orientation notes and which still need full CIV-EMP-backed retrieval. Older entries may still name CIV-MEM as provenance for the historical backfill that produced the current arc-lens plateau.
 
+These are now **secondary lens families**, not top-level explanatory doctrine. The six-part CIV-EMP frame governs interpretation first; these families exist to keep retrieval, expression, and orthogonality sharp after that governing layer has been named.
+
 ## Benchmark
 
 Score each arc-lens out of 100:
@@ -52,16 +54,16 @@ Status thresholds:
 ## Aggregate Findings
 
 - **All 20 art / lit / geo / war / peace arc-lenses are now full-strength.** Each file has coherent purpose, arc shape, failure mode, retrieval status, source inputs, transaction-use questions, and recursive-candidate check.
-- **The basic backfill plateau is complete.** The remaining work is command wiring, cross-arc-lens stress tests, book-quality synthesis, and periodic regression audits.
+- **The basic secondary-lens plateau is complete.** The remaining work is command wiring, cross-lens orthogonality checks, book-quality synthesis, and periodic regression audits.
 - **MEM CONNECTIONS provenance is now the maintenance standard.** Future refinements should preserve the direct / lens / graph retrieval contract rather than reverting to flat source lists.
-- **Orthogonality is stronger but still needs live stress.** `god` owns sacred boundary, `lit` owns narrative / moral language, `art` owns form / beauty / spectacle, `geo` owns terrain / ecology / routes / resources, `war` owns coercion / sacrifice, and `peace` owns settlement / restraint.
+- **Orthogonality is stronger but still needs live stress.** As secondary families beneath the six-part doctrine, `god` owns sacred boundary, `lit` owns narrative / moral language, `art` owns form / beauty / spectacle, `geo` owns terrain / ecology / routes / resources, `war` owns coercion / sacrifice, and `peace` owns settlement / restraint.
 - **Transaction use is now present across the plateau.** The next test is whether crisis reads and transaction briefs actually use the arc-lens objects without collapsing them into generic culture notes.
 
 ## Maintenance Priorities
 
 Basic arc-lens completion is done. Next priority order:
 
-1. Cross-arc-lens stress tests - verify `god`, `lit`, `art`, `geo`, `war`, and `peace` stay orthogonal under the same crisis.
+1. Cross-lens orthogonality checks - verify `god`, `lit`, `art`, `geo`, `war`, and `peace` stay orthogonal under the same crisis without reviving a standalone hexagon ritual.
 2. Command coverage - add or upgrade lane-specific `art`, `peace`, `war`, `lit`, and `god` commands only where actual use demands them.
 3. Book-quality synthesis - convert arcs into civilization-volume prose without losing retrieval provenance.
 4. Recursive membrane checks - stage durable discoveries in lane-local `updates/pending.md` only.

@@ -8,6 +8,8 @@ description: "Apply the America civilization art lens to statecraft problems. Us
 
 `america-art` is a WORK-only academy-statecraft command. It applies America's civilization art surface to operational statecraft judgment.
 
+Compatibility note: `america-art` is a **secondary lane-lens skill** beneath the active CIV-EMP six-part doctrine. Identify the governing layer first; then use this skill only when `art` is the right downstream expression surface rather than the governing ontology itself.
+
 It is not an art-history lecture, artist biography, or style survey. It converts American aesthetic memory into tests for civic myth, spectacle, technological confidence, public legitimacy, built form, and whether visible power is lawfully carried.
 
 ## Boundary

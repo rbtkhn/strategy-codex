@@ -10,6 +10,7 @@ Primary live lane: [China statecraft lane](../../../china/README.md)
 
 **Opener Block**
 - Deep grammar: mandate, ritual order, and anti-chaos civilization
+- Deep grammar retrieval: [China sacred grammar](../../sacred-grammar/china.md)
 - Sovereign opening: Yu the Great as the traditional foundational sovereign
 - Current carrier: PRC party-state
 - Opener note: Xia is the foundational narrative layer and early state memory, not equally firm documentary administration

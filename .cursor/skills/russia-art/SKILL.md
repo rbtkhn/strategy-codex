@@ -8,6 +8,8 @@ description: "Apply the Russia civilization art lens to statecraft problems. Use
 
 `russia-art` is a WORK-only academy-statecraft command. It applies Russia's civilization art surface to operational statecraft judgment.
 
+Compatibility note: `russia-art` is a **secondary lane-lens skill** beneath the active CIV-EMP six-part doctrine. Identify the governing layer first; then use this skill only when `art` is the right downstream expression surface rather than the governing ontology itself.
+
 It is not an art-history lecture, artist biography, or style survey. It converts Russian aesthetic memory into tests for ceremonial dignity, sacred / imperial form, sacrifice, recognition, endurance, and beauty under pressure.
 
 ## Boundary

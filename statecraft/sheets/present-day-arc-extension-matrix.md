@@ -4,13 +4,13 @@ WORK only; not Record.
 
 ## Purpose
 
-Use this sheet when a `hex` read, current-event brief, transaction route, or recursive candidate scan needs to extend deep civilization arcs into present-day operating forms.
+Use this sheet when a current-event brief, transaction route, recursive candidate scan, or six-part doctrine read needs to extend deep civilization arcs into present-day operating forms.
 
 Governing rule:
 
 **Every ancient arc must name its cybernetic carrier.**
 
-This matrix is an overlay for live analysis. It does not replace the decentralized hexagon: `god`, `lit`, `art`, `geo`, `war`, and `peace` still vote separately.
+This matrix is an overlay for live analysis. It does not replace the distributed lens logic of `god`, `lit`, `art`, `geo`, `war`, and `peace`, but there is no standalone hexagon command anymore.
 
 ## Use Sequence
 

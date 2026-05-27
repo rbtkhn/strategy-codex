@@ -4,7 +4,7 @@ WORK only; not Record.
 
 ## Purpose
 
-Use this sheet when an America-lane read, hexagon stress test, transaction, clause, or current event invokes empire / republic tension, constitutional authority, executive emergency power, sanctions-finance reach, resource extraction, ideological suppression, alliance burden, maritime order, platform power, technology-industrial capacity, or successor legitimacy.
+Use this sheet when an America-lane read, six-part doctrine read, transaction, clause, or current event invokes empire / republic tension, constitutional authority, executive emergency power, sanctions-finance reach, resource extraction, ideological suppression, alliance burden, maritime order, platform power, technology-industrial capacity, or successor legitimacy.
 
 The governing test:
 
@@ -41,9 +41,9 @@ Keep technology as carrier, not sovereign.
 7. Does republican language restrain empire, or launder it?
 8. What would prove the policy has become resource extraction, ideological suppression, emergency empire, platform rule, allied abandonment, or civil-war proxy?
 
-## Hexagon Use
+## Six-Lens Use
 
-When running `america hex <topic>`, use the empire-republic arc as an America-specific substrate after the six lenses vote:
+When a live read still benefits from separate `god`, `lit`, `art`, `geo`, `war`, and `peace` pressure checks, use the empire-republic arc as an America-specific substrate after those lenses are read separately:
 
 - `peace` tests lawful exit, treaty legitimacy, allied burden-sharing, reconstruction limits, and successor-stable restraint.
 - `war` prices authorization, civilian command, escalation, war fatigue, and exit design.
@@ -52,7 +52,7 @@ When running `america hex <topic>`, use the empire-republic arc as an America-sp
 - `art` tests civic form, monument, spectacle, mass culture, technology confidence, and public legitimacy.
 - `geo` names continental scale, buffers, ports, canals, rivers, water, food, energy, and infrastructure constraints.
 
-Do not let the empire-republic arc become the central pillar of the hexagon. It is an America-lane diagnostic overlay.
+Do not let the empire-republic arc become the whole doctrine. It is an America-lane diagnostic overlay inside a larger six-part frame.
 
 ## Transaction Use
 

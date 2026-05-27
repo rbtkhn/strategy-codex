@@ -1,0 +1,113 @@
+---
+name: civ-state-frame
+preferred_activation: civ-state-frame
+description: "Diagnose a live statecraft object through the Civilizational Statecraft Framework. Use when the operator wants to identify whether an object is governed by civilization, empire, faith, science, memory, or desire; name the governing pair, likely misread layer, likely failure layer, and route to the right downstream surface before drafting."
+portable: true
+version: 0.1.0
+tags:
+  - operator
+  - statecraft
+  - civ-emp
+  - doctrine
+  - routing
+---
+
+# Civ-State Frame
+
+**Preferred activation (operator):** say **`civ-state-frame`**.
+
+Use this skill to diagnose a live object through the **Civilizational Statecraft Framework** before lane descent, clause drafting, or transaction design.
+
+This is not a drafting skill. It is a pre-draft diagnosis and routing skill.
+
+## Core law
+
+The Civilizational Statecraft Framework reads live objects through three governing pairs:
+
+- **civilization / empire**
+- **faith / science**
+- **memory / desire**
+
+The operator task is not to recite all six terms. It is to identify the **governing pair first**, then the dominant layer inside that pair, then the most likely misread and failure layers.
+
+Older families such as `god`, `lit`, `art`, `geo`, `war`, and `peace` are **secondary retrieval-and-expression families**, not primary ontology. Use them only after the governing pair is clear and only when they materially sharpen the read.
+
+## Boundary
+
+- WORK only; not Record.
+- Do not draft transactions, lane books, or clause packages directly from this skill unless the operator separately widens scope.
+- Do not use this skill as a substitute for Sacred Grammar, `state-memory`, helix, or transaction router surfaces. It exists to choose among them.
+- Use lane-local or CIV-EMP objects after diagnosis; do not remain at frame level longer than needed.
+
+## Workflow
+
+1. **Identify the live object.**
+   Name the crisis object, argument, lane problem, routing uncertainty, or draft target in one line.
+
+2. **Run the six governing questions.**
+   Ask:
+   - what civilizational inheritance is at stake?
+   - what empire instrument is carrying it?
+   - what faith-order authorizes it?
+   - what science-order authorizes it?
+   - what memory sustains it?
+   - what desire distorts or accelerates it?
+
+3. **Name the governing pair first.**
+   Choose the load-bearing pair:
+   - `civilization / empire`
+   - `faith / science`
+   - `memory / desire`
+
+4. **Name the dominant layer inside that pair.**
+   Say which side of the pair is actually governing the object.
+
+5. **Name the likely outsider misread.**
+   What is the layer most likely to be flattened, ignored, or mistaken by outsiders?
+
+6. **Name the likely failure layer.**
+   Which layer is most likely to distort the object, break the settlement, or cause overreach?
+
+7. **Choose the return path.**
+   Route by dominant layer:
+   - `civilization` or `faith` -> Sacred Grammar or adjacent legitimacy surfaces
+   - `memory` -> `state-memory`
+   - `empire` -> empire / helix / transaction / routing surfaces
+   - `science` -> procedural / governance / verification / implementation surfaces
+   - `desire` -> mutation / escalation / overreach surfaces
+
+8. **Recommend a secondary family only if it helps.**
+   Only after the route is clear, name `god`, `lit`, `art`, `geo`, `war`, or `peace` if one will materially sharpen retrieval or stress-testing.
+
+## Compact rule for faith / science
+
+`faith` and `science` are coequal truth-orders.
+
+- Do not collapse sacred authorization into technical competence.
+- Do not collapse technical competence into sacred legitimacy.
+- In modern objects, many failures come from pretending one truth-order can silently substitute for the other.
+
+## Output
+
+Use this shape by default:
+
+```markdown
+**Civilizational Statecraft Framework**
+- Live object:
+- Governing pair:
+- Dominant layer:
+- Likely outsider misread:
+- Likely failure layer:
+- Best return path:
+- Secondary family, if useful:
+```
+
+## Success condition
+
+This skill succeeds when the next move becomes obvious:
+
+- which pair governs
+- which layer dominates
+- what others are most likely to misread
+- what is most likely to fail
+- where the operator should retrieve next

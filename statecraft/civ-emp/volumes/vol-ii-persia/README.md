@@ -10,6 +10,7 @@ Primary live lane: [Persia statecraft lane](../../../persia/README.md)
 
 **Opener Block**
 - Deep grammar: Zoroaster as the deeper sacred grammar
+- Deep grammar retrieval: [Persia sacred grammar](../../sacred-grammar/persia.md)
 - Sovereign opening: Cyrus as the foundational sovereign
 - Current carrier: Islamic Republic Iran
 

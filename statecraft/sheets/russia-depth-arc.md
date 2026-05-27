@@ -4,7 +4,7 @@ WORK only; not Record.
 
 ## Purpose
 
-Use this sheet when a Russia-lane read, hexagon stress test, transaction, clause, or current event invokes Russian depth, exposure, encirclement, recognition, buffers, access, sanctions resistance, or great-power equilibrium.
+Use this sheet when a Russia-lane read, six-part doctrine read, transaction, clause, or current event invokes Russian depth, exposure, encirclement, recognition, buffers, access, sanctions resistance, or great-power equilibrium.
 
 The governing test:
 
@@ -39,9 +39,9 @@ Convert power into equilibrium before power becomes encirclement.
 6. Is power being converted into equilibrium before it summons a balancing coalition?
 7. What would prove the depth claim has become imperial depth, dependency-depth, or sacrifice veto?
 
-## Hexagon Use
+## Six-Lens Use
 
-When running `russia hex <topic>`, use the depth arc as a Russia-specific substrate after the six lenses vote:
+When a live read still benefits from separate `god`, `lit`, `art`, `geo`, `war`, and `peace` pressure checks, use the depth arc as a Russia-specific substrate after those lenses are read separately:
 
 - `geo` names the exposure and material constraint.
 - `war` prices command, sacrifice, and escalation.
@@ -50,7 +50,7 @@ When running `russia hex <topic>`, use the depth arc as a Russia-specific substr
 - `lit` tests whether grievance captures the instrument.
 - `art` tests whether visible form makes Russia look recognized or managed.
 
-Do not let the depth arc become the central pillar of the hexagon. It is a Russia-lane diagnostic overlay.
+Do not let the depth arc become the whole doctrine. It is a Russia-lane diagnostic overlay inside a larger six-part frame.
 
 ## Transaction Use
 

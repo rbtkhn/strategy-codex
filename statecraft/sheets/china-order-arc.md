@@ -4,7 +4,7 @@ WORK only; not Record.
 
 ## Purpose
 
-Use this sheet when a China-lane read, hexagon stress test, transaction, clause, or current event invokes order, mandate, unity, development continuity, maritime ambiguity, party-state implementation, compute sovereignty, or fear of disorder.
+Use this sheet when a China-lane read, six-part doctrine read, transaction, clause, or current event invokes order, mandate, unity, development continuity, maritime ambiguity, party-state implementation, compute sovereignty, or fear of disorder.
 
 The governing test:
 
@@ -60,9 +60,9 @@ Diagnostic sequence:
 4. Can China still describe the instrument as local deterrence, or must it describe it as containment infrastructure?
 5. Would resisting the instrument preserve order, or overread defensive adaptation as encirclement?
 
-## Hexagon Use
+## Six-Lens Use
 
-When running `china hex <topic>`, use the order arc as a China-specific substrate after the six lenses vote:
+When a live read still benefits from separate `god`, `lit`, `art`, `geo`, `war`, and `peace` pressure checks, use the order arc as a China-specific substrate after those lenses are read separately:
 
 - `geo` names flow, route, water, port, energy, food, and maritime constraints.
 - `peace` tests face-saving restraint, quiet implementation, and development continuity.
@@ -71,7 +71,7 @@ When running `china hex <topic>`, use the order arc as a China-specific substrat
 - `lit` tests moral narrative, sages, patience, disorder memory, and grievance capture.
 - `art` tests form, ceremony, refinement, infrastructure beauty, and visible legitimacy.
 
-Do not let the order arc become the central pillar of the hexagon. It is a China-lane diagnostic overlay.
+Do not let the order arc become the whole doctrine. It is a China-lane diagnostic overlay inside a larger six-part frame.
 
 ## Transaction Use
 

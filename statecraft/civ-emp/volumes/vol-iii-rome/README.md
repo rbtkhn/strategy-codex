@@ -10,6 +10,7 @@ Primary source base: [Rome source corpus](../../../../research/repos/civilizatio
 
 **Opener Block**
 - Deep grammar: Aeneas / Troy as mythic prehistory, with Roman law and civic order as civilizational grammar
+- Deep grammar retrieval: [Rome sacred grammar](../../sacred-grammar/rome.md)
 - Sovereign opening: Romulus as the foundational sovereign
 - Current carrier: Catholic Church
 - Continuity state: Byzantium as the indispensable continuity state
@@ -81,5 +82,5 @@ Best current carriers:
 - Rupture or mutation: Rome's danger is false death on one side and theatrical revivalism on the other
 Best current carriers:
 - [Roman collapse and strong-man return](../../indexes/freeman/roman-collapse-and-strong-man-return.md)
-- [Power, Truth, Time annex](../../power-truth-time-annex.md)
+- [Civilization, Empire, Faith, Science, Memory, Desire](../../civilization-empire-faith-science-memory-desire.md)
 - [Use legacy Rome sources only when a deeper successor-order chain is truly necessary](../../indexes/freeman/roman-collapse-and-strong-man-return.md)

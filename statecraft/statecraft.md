@@ -6,6 +6,8 @@ This file is the **human-AI cognitive continuity interface** for repo-root `stat
 
 Statecraft exists to convert strategic, historical, civilizational, and speaker-state input into bounded operational artifacts that can carry authority, restraint, and settlement.
 
+`statecraft.md` is the constitutional kernel that governs how repo-root `statecraft/` may use `civ-emp`. `civ-emp` is the upstream source-memory substrate: it stores civilizational pattern, continuity, transformation, current carrier, failure mode, counterweight, and transaction hooks. `statecraft` is the downstream operating layer: it routes live objects, assigns lane ownership, selects output form, and converts remembered pattern into authority-, restraint-, and settlement-bearing drafts. The linkage is therefore neither ornamental nor merely bibliographic. `civ-emp` gives `statecraft` depth; this kernel prevents that depth from becoming inert memory or undisciplined analogy by enforcing a governed membrane: downstream drafts may consume source memory, but upstream correction must return through explicit review rather than silent dual mutation.
+
 It is not:
 
 - a country encyclopedia
@@ -25,6 +27,14 @@ Restore these invariants first:
 - braid keeps the live coupled object real; helix tracks long-run recurrence and transformation
 - leverage is not yet statecraft
 - promotion must be earned
+
+Restore this higher-order frame too:
+
+- **civilization / empire**
+- **faith / science**
+- **memory / desire**
+
+Use it to distinguish inheritance from instrument, sacred or moral authorization from technical or procedural authorization, and continuity from appetite before drafting a mechanism.
 
 Restore this canonical sequence next:
 
@@ -132,7 +142,7 @@ Each lane must keep its own legitimacy grammar, fear structure, leverage profile
 ## Core Ontology
 
 - **source base**: `civ-emp` as the upstream source-memory and retrieval substrate
-- **lane**: America, China, Iran/Persia, Russia as state-perspective drafting benches
+- **lane**: America, China, Persia, Russia as state-perspective drafting benches
 - **speaker-state intake**: speaker arcs, thread atlases, host-local arcs, routing notes, and bridge adapters as governed input classes
 - **crisis object**: the contested object whose classification drives leverage, escalation, or settlement
 - **braid**: a live coupled bundle that must stay together long enough to become one real draftable object
@@ -180,11 +190,28 @@ If those are missing, stop earlier. Early stopping is healthy architecture, not 
 2. `state-deploy` answers `who owns this object now?`
 3. `compact` owns cross-lane or objection-shaped objects after ownership is understood.
 4. `state-*` skills answer `what can this owner legitimately draft, carry, accept, reject, and institutionalize?`
-5. `statecraft-bridge` answers `which retrieval profile should read this Persia/Iran speaker-heavy object?`
+5. `statecraft-bridge` answers `which retrieval profile should read this Persia speaker-heavy object?`
 6. the transaction router answers `does this belong to an existing transaction plateau object?`
 7. review queues and pending files capture learning without silent rewrite
 
 ## CIV-EMP Protocol
+
+```mermaid
+flowchart TD
+    A["Public / legacy source world<br/>PH-CIV, provenance, older CIV-MEM"] --> B["CIV-EMP<br/>source-memory substrate"]
+    B --> C["statecraft.md<br/>constitutional kernel / membrane"]
+    C --> D["Routing layer<br/>deploy, compact, bridge, lane"]
+    D --> E["Lane surfaces<br/>America, China, Persia, Russia"]
+    E --> F["Draft forms<br/>commentary, memo, comparison, lane draft"]
+    F --> G["Transaction layer<br/>full reusable instruments"]
+    G --> H["Validation / falsifier / revisit discipline"]
+    H --> I["Governed learning"]
+    I --> J["CIV-EMP review queue<br/>explicit upstream candidate"]
+    J --> B
+
+    B --> K["Retrieval matrix / doctrine<br/>source retrieval, six-part frame"]
+    K --> C
+```
 
 Downstream from `civ-emp` into statecraft:
 

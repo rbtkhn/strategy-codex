@@ -12,6 +12,7 @@ Primary live lane: [Russia statecraft lane](../../../russia/README.md)
 
 **Opener Block**
 - Deep grammar: Orthodoxy, suffering, endurance, and gathering after fracture
+- Deep grammar retrieval: [Russia sacred grammar](../../sacred-grammar/russia.md)
 - Sovereign opening: Rurik as the foundational sovereign
 - Current carrier: present Russian state / Russian Federation
 

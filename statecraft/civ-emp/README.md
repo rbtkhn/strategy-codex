@@ -25,7 +25,7 @@ flowchart TD
     I --> J["CIV-EMP review queue<br/>explicit upstream candidate"]
     J --> B
 
-    B --> K["Retrieval matrix / annexes<br/>source retrieval, power-truth-time"]
+    B --> K["Retrieval matrix / doctrine<br/>source retrieval, six-part frame"]
     K --> C
 ```
 
@@ -84,6 +84,8 @@ This opener doctrine should also guide retrieval:
 - **Sovereign opening** points toward state-memory, founding, and origin objects
 - **Current carrier** points toward helix, state, and transaction surfaces
 
+The canonical CIV-EMP deep-grammar shelf is now [Sacred Grammar Library](sacred-grammar/README.md). It is built from `civilization_memory` as evidence through seed MEM plus `MEM CONNECTIONS` traversal, then translated back into CIV-EMP doctrine.
+
 ## Volume Order
 
 The front-door CIV-EMP order is now five volumes:
@@ -107,6 +109,14 @@ History is pattern memory for strategic operators. Civilization stores inherited
 Short form:
 
 `civilization beautifies -> empire amplifies -> entropy degrades -> statecraft restores`
+
+The active higher-order CIV-EMP doctrine is now the **Civilizational Statecraft Framework**:
+
+- **civilization / empire**
+- **faith / science**
+- **memory / desire**
+
+Read these as three structural pairs rather than six floating topics. `civilization` and `empire` replace the old overloaded power frame; `faith` and `science` replace the old overly broad truth frame; `memory` and `desire` replace the old under-specified time frame. Faith and science are coequal truth-orders, and memory and desire must both be read if continuity is to remain honest.
 
 ## Source Flow
 
@@ -141,14 +151,17 @@ Each CIV-EMP source object should be short and usable. It should include:
 ## Indexes
 
 - [Volume map](volumes/README.md) - preferred civilization-first opening order for CIV-EMP.
+- [Sacred Grammar Library](sacred-grammar/README.md) - canonical deep-grammar retrieval shelf beneath the volume opener doctrine.
 - [Source retrieval matrix](indexes/source-retrieval-matrix.md) - default retrieval contract for state-memory, god, lit, art, geo, war, peace, and empire-instrument work.
 - [Arc-conditioned retrieval bridge](../bridges/README.md) - quiet adapter layer for routing speaker-arc claims into disciplined `civ-emp` retrieval.
 - [Migration workspace](migration/README.md) - symmetric-first control plane for moving active statecraft lanes off direct legacy `civ-mem` dependency.
 
-## Orientation Annexes
+## Orientation Doctrine
 
-- [Power, Truth, Time](power-truth-time-annex.md) - higher-order orientation frame for CIV-EMP, plus academic literature review and genealogy linking `civilization / empire`, `faith / science`, and `memory / desire`.
-- [Power, Truth, Time Retrieval Checklist](power-truth-time-retrieval-checklist.md) - bounded operator pass for deciding when a live object is governed mainly by power, truth, or time before lane translation or clause drafting.
+- [Civilizational Statecraft Framework](civilization-empire-faith-science-memory-desire.md) - the active higher-order orientation frame for CIV-EMP.
+- [Civilization, Empire, Faith, Science, Memory, Desire Retrieval Checklist](civilization-empire-faith-science-memory-desire-retrieval-checklist.md) - bounded operator pass for deciding which layer or pair actually governs a live object before lane translation or clause drafting.
+- [Power, Truth, Time](power-truth-time-annex.md) - superseded active shorthand retained only as historical residue and genealogy.
+- [Power, Truth, Time Retrieval Checklist](power-truth-time-retrieval-checklist.md) - superseded checklist retained only as historical residue.
 
 The preferred era spine for these orientation surfaces is `Ancient / Medieval / Colonial / Industrial / Cybernetic`, with boundaries at `476 / 1453 / 1815 / 1945`. `Cybernetic` is preferred over `Digital` because the post-1945 order is organized by deterrence, computation, control systems, signal, and managed interdependence rather than by consumer technology alone.
 

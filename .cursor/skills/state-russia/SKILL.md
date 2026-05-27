@@ -42,6 +42,8 @@ Secondary tests:
 - Decide what Russia can legitimately draft, carry, accept, reject, and institutionalize.
 - If the object is obviously cross-lane or not honestly Russia-owned, say so and hand back toward `state-deploy` or a comparison path.
 
+Once lane ownership is clear, identify the governing pair within the **Civilizational Statecraft Framework** before descending.
+
 ## Source Surfaces
 
 Open in this order unless the request is already narrower:
@@ -60,11 +62,25 @@ Descend only with a named reason:
 - `statecraft/russia/transactions/` for draftable instruments
 - `statecraft/russia/civilization/lit.md` for humiliation, sacrifice, state-soul, or clause-language stress tests
 
+## Governing-Pair Rule
+
+After ownership is clear, force this diagnosis immediately:
+
+- what governing pair is load-bearing: `civilization / empire`, `faith / science`, or `memory / desire`?
+- what dominant layer inside that pair is actually governing the object?
+
+Compact `faith / science` rule:
+
+- treat sacred or civilizational legitimacy and procedural or technical competence as separate truth-orders
+- do not collapse sacred authorization into technical competence
+- do not collapse technical competence into sacred legitimacy
+
 ## Routing Rule
 
 - Stay at `README.md` when the operator still needs lane orientation.
-- Descend to `helix.md` by default once Russia is clearly the lane.
-- Descend further only when the object is narrower and name the reason briefly.
+- Once Russia is clearly the lane, diagnose the governing pair immediately.
+- Descend to `helix.md` by default after the governing pair is named.
+- Descend further only when the object is narrower and name the reason briefly in governing-pair terms.
 
 ## Failure-Mode Classifier
 
@@ -81,9 +97,9 @@ Before drafting, identify the dominant Russia-lane pressure:
 
 If two pressures are active, name the primary one first and draft the first instrument around that pressure rather than trying to solve all four at once.
 
-## Folded Literature Lens
+## Subordinate Families
 
-Use the folded literature route when the object needs:
+Use subordinate families only after the governing pair is named:
 
 - humiliation / recognition testing
 - sacrifice / endurance testing
@@ -91,7 +107,7 @@ Use the folded literature route when the object needs:
 - anti-managed humiliation checks
 - clause-language stress tests for whether equilibrium lowers grievance without rewarding maximal demand
 
-Keep that lens inside the lane machine rather than as a separate skill.
+`lit` remains subordinate. `geo / war / peace` are also subordinate retrieval-and-expression families. `god` should be treated as subordinate when sacred-boundary pressure becomes load-bearing. None of them should be treated as alternate top-level modes.
 
 ## Default Drafting Bias
 

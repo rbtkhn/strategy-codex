@@ -12,6 +12,9 @@ Use this folder for maps that answer operational questions:
 
 Current index:
 
+- [Volume map](../volumes/README.md)
+- [Civilization, Empire, Faith, Science, Memory, Desire](../civilization-empire-faith-science-memory-desire.md)
+- [Civilization, Empire, Faith, Science, Memory, Desire Retrieval Checklist](../civilization-empire-faith-science-memory-desire-retrieval-checklist.md)
 - [Source retrieval matrix](source-retrieval-matrix.md)
 - [Migration workspace](../migration/README.md)
 - [Freeman theme companions](freeman/README.md)
@@ -21,4 +24,4 @@ Current index:
 
 Proof object:
 
-- [Iran: Hormuz Recognition / Transit Restraint](../iran/hormuz-recognition-transit-restraint.md)
+- [Persia: Hormuz Recognition / Transit Restraint](../persia/hormuz-recognition-transit-restraint.md)
