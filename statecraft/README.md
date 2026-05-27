@@ -40,6 +40,8 @@ The first decision is which constitutional layer is actually carrying the next m
 
 Speaker-state continuity that belongs to live statecraft now opens from [statecraft/speakers/](speakers/README.md), not from an external speaker shelf by default. The target is whole-corpus statecraft-native speaker continuity, with `codex/speakers/` retained only as compatibility/archive during migration.
 
+Host-native continuity that belongs to live statecraft now opens from [statecraft/hosts/](hosts/README.md), not from retired `codex/speakers/<host>/...` paths.
+
 The active higher-order interpretive frame for this stack is now:
 
 - **civilization / empire**
@@ -61,6 +63,8 @@ Named recent events no longer open a separate `current-event` function. Verify t
 - Need a Persia retrieval profile after lane ownership is clear? Open `statecraft-bridge`.
 - Need the current default worked instrument? Open [Hormuz recognition transit transaction](persia/transactions/hormuz-recognition-transit-transaction.md).
 - Need the shared crisis-object fit check? Open [Transaction Router](sheets/transaction-router.md).
+- Need the shortest teaching path from a named recent event to a draftable instrument? Open [Verified live-event to instrument](sheets/verified-live-event-to-instrument.md).
+- Need live host-law for `Davis` or `Napolitano`? Open [statecraft/hosts/](hosts/README.md).
 
 ## Era Schema
 

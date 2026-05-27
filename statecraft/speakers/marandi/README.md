@@ -48,7 +48,7 @@ The legacy `codex/speakers/marandi/` path is now front-door compatibility only.
 
 - [Dialogue Works x Marandi](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-marandi-speaker-arc.md)
 - [Diesen x Marandi](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-marandi-speaker-arc.md)
-- [Davis x Marandi](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-marandi-speaker-arc.md)
+- [Davis host shelf](/C:/dev/strategy-codex/statecraft/hosts/davis/README.md)
 
 ## Boundary
 

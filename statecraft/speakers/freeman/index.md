@@ -46,9 +46,9 @@ These monthly files are bounded synthesis shelves. They do not replace host-loca
 ## Host Arcs
 
 - [Diesen x Freeman](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-freeman-arc.md)
-- [Davis x Freeman](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-freeman-arc.md)
+- [Davis host shelf](/C:/dev/strategy-codex/statecraft/hosts/davis/README.md)
 - [Dialogue Works x Freeman](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-freeman-arc.md)
-- [Judging Freedom x Freeman](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-freeman-arc.md)
+- [Napolitano host shelf](/C:/dev/strategy-codex/statecraft/hosts/napolitano/README.md)
 
 ## Boundary
 

@@ -21,12 +21,12 @@ Purpose: define `johnson-arc` as the canonical person-level continuity surface f
 Its main embodied lanes are:
 
 1. [Diesen x Johnson](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-johnson-speaker-arc.md) for geopolitical altitude and regional-order consequence
-2. [Davis x Johnson](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-johnson-speaker-arc.md) for operational feasibility and failed coercion
+2. [Davis host shelf](/C:/dev/strategy-codex/statecraft/hosts/davis/README.md) for operational feasibility and failed coercion
 3. [Dialogue Works x Johnson](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-johnson-speaker-arc.md) for live crisis pressure and humiliation tempo
 
 Auxiliary reinforcement:
 
-- [Napolitano x Johnson](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-johnson-speaker-arc.md) is real on disk but still reinforcement rather than a fourth canonical strand
+- the [Napolitano host shelf](/C:/dev/strategy-codex/statecraft/hosts/napolitano/README.md) is real on disk but still reinforcement rather than a fourth canonical strand
 
 ## What Makes This An Arc
 

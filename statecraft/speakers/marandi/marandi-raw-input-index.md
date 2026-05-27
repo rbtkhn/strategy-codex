@@ -92,7 +92,7 @@ Useful for auditability or nearby continuity, but not shelf-defining:
 
 - **Best mature lane:** [Dialogue Works x Marandi](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-marandi-speaker-arc.md)
 - **Best strategic-altitude lane:** [Diesen x Marandi](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-marandi-speaker-arc.md)
-- **Best operational-limit lane:** [Davis x Marandi](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-marandi-speaker-arc.md)
+- **Best operational-limit lane:** [Davis host shelf](/C:/dev/strategy-codex/statecraft/hosts/davis/README.md)
 - **Best late-May reinforcement and mature-cluster endpoint:** [2026-05-26 / Dialogue Works x Marandi](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/transcript-alkorshid-marandi-iran-opens-fire-on-american-fighter-jets-2026-05-26.md)
 
 ## Boundary

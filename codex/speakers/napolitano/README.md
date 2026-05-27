@@ -2,34 +2,20 @@
 
 WORK only; not Record.
 
-This is the canonical Napolitano host shelf.
+This path is retained as compatibility residue.
 
-Use this folder for `Judging Freedom` continuity, host-local guest arcs, and Napolitano-specific routing.
+The canonical live Napolitano host shelf now lives at [statecraft/hosts/napolitano/README.md](/C:/dev/strategy-codex/statecraft/hosts/napolitano/README.md).
 
-## Open First
+## Use This Path For
 
-- [index.md](index.md)
-- [napolitano-speaker-object.md](napolitano-speaker-object.md)
-- [napolitano-cross-host-note.md](napolitano-cross-host-note.md)
-- [napolitano-raw-input-index.md](napolitano-raw-input-index.md)
+- legacy `Judging Freedom` chronology
+- older stream residue under [stream/](stream/)
+- archive continuity that has not yet been rehomed into repo-root `statecraft/`
 
-## Host Stream
+## Do Not Use This Path For
 
-Host-owned continuity and guest transformations live under [stream/](stream/), including:
+- live Napolitano host-law
+- current guest-lane classification
+- repo-root statecraft host-family routing
 
-- monthly books
-- thread and transcript compatibility files
-- host-local guest arcs
-
-## Compatibility shape
-
-This shelf is already dense and routeable, but its live host-continuity files still use older compatibility spellings:
-
-- [stream/napolitano-thread.md](stream/napolitano-thread.md) is a legacy distilled continuity surface, not a canonical topical thread in the newer `speaker-thread-<topic>` sense
-- the guest-run files under `stream/` currently live as `napolitano-*-speaker-arc.md`, which should be read as the embodied relational arcs for this host shelf, not as a separate second arc class
-
-Until a later normalization pass creates canonical `*-arc.md` spellings here, do not count the older filenames as extra arc multiplicity or extra orthogonality.
-
-## Boundary
-
-Napolitano is canonical under `codex/speakers/napolitano/`. Raw-text authority stays in [`codex/years/2026/provenance/`](C:/dev/strategy-codex/codex/years/2026/provenance).
+Open [statecraft/hosts/napolitano/index.md](/C:/dev/strategy-codex/statecraft/hosts/napolitano/index.md) for the live routing surface.

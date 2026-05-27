@@ -47,10 +47,10 @@ This wave does not yet promote individual Ritter theme files. The shelf now has 
 
 ## Host Arcs
 
-- [Davis x Ritter](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-ritter-speaker-arc.md)
+- [Davis host shelf](/C:/dev/strategy-codex/statecraft/hosts/davis/README.md)
 - [Diesen x Ritter](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-ritter-speaker-arc.md)
 - [Dialogue Works x Ritter](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-ritter-speaker-arc.md)
-- [Judging Freedom x Ritter](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-ritter-speaker-arc.md)
+- [Napolitano host shelf](/C:/dev/strategy-codex/statecraft/hosts/napolitano/README.md)
 
 ## Boundary
 

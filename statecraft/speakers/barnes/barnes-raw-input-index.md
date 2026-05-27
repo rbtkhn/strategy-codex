@@ -62,7 +62,7 @@ Helpful as pressure-cluster residue and exit-ramp signal, but not part of the pr
 
 ## Open first by corpus layer
 
-- **Best mature lane:** [Davis x Barnes](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-barnes-speaker-arc.md)
+- **Best mature lane:** [Davis host shelf](/C:/dev/strategy-codex/statecraft/hosts/davis/README.md)
 - **Best non-Davis lane:** [2026-04-23 / Mercouris x Barnes](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-23/transcript-mercouris-barnes-fractured-iran-trump-2026-04-23.md)
 - **Best late-May reinforcement:** [2026-05-26 / Nima x Barnes](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/transcript-alkorshid-barnes-us-iran-final-confrontation-as-russia-drops-heaviest-strikes-on-ukraine-yet-2026-05-26.md)
 

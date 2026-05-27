@@ -46,10 +46,10 @@ not:
 
 | Host lane | Speaker-owned role | Best use |
 |---|---|---|
-| [davis-ritter-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-ritter-speaker-arc.md) | practical military lane | stockpiles, skies, basing pressure, blockade impracticality, force-feasibility failure |
+| [Davis host shelf](/C:/dev/strategy-codex/statecraft/hosts/davis/README.md) | practical military lane | stockpiles, skies, basing pressure, blockade impracticality, force-feasibility failure |
 | [diesen-ritter-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-ritter-speaker-arc.md) | escalation-horizon lane | Hormuz return-to-war pressure, Europe spillover, sea-control consequence, Russia/NATO widening |
 | [nima-ritter-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-ritter-speaker-arc.md) | live war-pressure lane | immediate crisis motion, no-way-out pressure, rapid inversion claims |
-| [napolitano-ritter-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-ritter-speaker-arc.md) | auxiliary legal-command lane | war powers, piracy/blockade illegitimacy, command absurdity, command-failure reinforcement |
+| [Napolitano host shelf](/C:/dev/strategy-codex/statecraft/hosts/napolitano/README.md) | auxiliary legal-command lane | war powers, piracy/blockade illegitimacy, command absurdity, command-failure reinforcement |
 
 This table is the main reason the shelf's monthly files must stay bounded syntheses rather than chronology owners: each mature stretch already has a host-owned first-open home.
 
@@ -94,10 +94,10 @@ Status: mature dense-core month
 Open:
 
 - [stream/ritter-shelf-2026-03.md](stream/ritter-shelf-2026-03.md)
-- [Davis x Ritter](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-ritter-speaker-arc.md)
+- [Davis host shelf](/C:/dev/strategy-codex/statecraft/hosts/davis/README.md)
 - [Diesen x Ritter](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-ritter-speaker-arc.md)
 - [Dialogue Works x Ritter](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-ritter-speaker-arc.md)
-- [Napolitano x Ritter](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-ritter-speaker-arc.md)
+- [Napolitano host shelf](/C:/dev/strategy-codex/statecraft/hosts/napolitano/README.md)
 
 Why March matters:
 

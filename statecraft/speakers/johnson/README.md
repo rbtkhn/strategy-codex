@@ -65,9 +65,9 @@ The legacy `codex/speakers/johnson/` path is now front-door compatibility only.
 ## Host Lanes
 
 - [Diesen x Johnson](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-johnson-speaker-arc.md)
-- [Davis x Johnson](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-johnson-speaker-arc.md)
+- [Davis host shelf](/C:/dev/strategy-codex/statecraft/hosts/davis/README.md)
 - [Dialogue Works x Johnson](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-johnson-speaker-arc.md)
-- [Judging Freedom x Johnson](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-johnson-speaker-arc.md)
+- [Napolitano host shelf](/C:/dev/strategy-codex/statecraft/hosts/napolitano/README.md)
 
 ## Boundary
 

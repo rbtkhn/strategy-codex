@@ -21,7 +21,7 @@ That is stronger than a Davis-only guest run, but weaker than a co-equal double 
 
 | Lane | Structural status | Distinct register |
 |---|---|---|
-| [Davis x Barnes](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-barnes-speaker-arc.md) | mature primary strand | war powers, domestic liability, executive-process fracture, coalition sell |
+| [Davis host shelf](/C:/dev/strategy-codex/statecraft/hosts/davis/README.md) | mature primary strand | war powers, domestic liability, executive-process fracture, coalition sell |
 | [Mercouris x Barnes](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-23/transcript-mercouris-barnes-fractured-iran-trump-2026-04-23.md) | reinforcing strand | carries the same executive-chaos and regime-decline voice into a more overt geopolitical host frame |
 | [Nima x Barnes](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/transcript-alkorshid-barnes-us-iran-final-confrontation-as-russia-drops-heaviest-strikes-on-ukraine-yet-2026-05-26.md) | thin reinforcing strand | adds a late-stage pressure cluster where Iran, Israel-lobby capture, Trump decline, Gulf economics, China, and Ukraine are read together |
 | [Johnson support](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-17/barnes-countercurrent-2026-04-17-verbatim.md) | adjunct support | useful room-dynamics residue, but not yet a formalized host-local Barnes strand |
@@ -57,7 +57,7 @@ Do not use `Nima` as the default Barnes lane just because it is the newest confi
 Also keep one non-Davis seam explicit:
 
 - Barnes = domestic liability, political survivability, factional coherence, and war-powers exposure
-- [Napolitano x Johnson](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-johnson-speaker-arc.md) = process-pressure, constitutional absurdity, and blockade skepticism pushed through an institutional-irrationality host frame
+- [Napolitano host shelf](/C:/dev/strategy-codex/statecraft/hosts/napolitano/README.md) = process-pressure, constitutional absurdity, and blockade skepticism pushed through an institutional-irrationality host frame
 
 That overlap is real, but the first-open jobs are different.
 
@@ -65,7 +65,7 @@ That overlap is real, but the first-open jobs are different.
 
 If the operator needs the cleanest Barnes helix entry:
 
-- open [Davis x Barnes](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-barnes-speaker-arc.md)
+- open the [Davis host shelf](/C:/dev/strategy-codex/statecraft/hosts/davis/README.md)
 - then [2026-04-23 / Mercouris x Barnes](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-23/transcript-mercouris-barnes-fractured-iran-trump-2026-04-23.md)
 
 If the operator specifically needs the late-May reassessment:

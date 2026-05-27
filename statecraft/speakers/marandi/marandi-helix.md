@@ -23,7 +23,7 @@ Dialogue Works is still the strongest single lane, but the shelf is not honestly
 |---|---|---|
 | [Dialogue Works x Marandi](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-marandi-speaker-arc.md) | mature primary strand | live pressure, legitimacy, red-line signaling, selective Hormuz, Gulf complicity |
 | [Diesen x Marandi](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-marandi-speaker-arc.md) | mature co-supporting strand | strategic-order altitude, blockade logic, escalation horizon, anti-hegemonic consequence |
-| [Davis x Marandi](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-marandi-speaker-arc.md) | mature co-supporting strand | operational limits, failed intimidation, Iranian resilience, shrinking U.S. options |
+| [Davis host shelf](/C:/dev/strategy-codex/statecraft/hosts/davis/README.md) | mature co-supporting strand | operational limits, failed intimidation, Iranian resilience, shrinking U.S. options |
 
 ## What May 26 changes
 
@@ -51,7 +51,7 @@ Also keep the cross-speaker seams explicit:
 
 - Marandi = Iran-facing legitimacy, sovereignty, endurance, and selective leverage
 - [Barnes](/C:/dev/strategy-codex/statecraft/speakers/barnes/README.md) = U.S. domestic liability, executive-process fracture, and war-powers exposure
-- [Johnson via Davis](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-johnson-speaker-arc.md) = operational-feasibility and coercive-failure interpretation from the U.S. side
+- [Davis host shelf](/C:/dev/strategy-codex/statecraft/hosts/davis/README.md) = operational-feasibility and coercive-failure interpretation from the U.S. side
 
 That overlap is real on some crisis days, but the first-open jobs are different.
 
@@ -61,7 +61,7 @@ If the operator needs the cleanest Marandi helix entry:
 
 - open [Dialogue Works x Marandi](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-marandi-speaker-arc.md)
 - then [Diesen x Marandi](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-marandi-speaker-arc.md)
-- then [Davis x Marandi](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-marandi-speaker-arc.md)
+- then the [Davis host shelf](/C:/dev/strategy-codex/statecraft/hosts/davis/README.md)
 
 If the operator specifically needs the late-May endpoint:
 

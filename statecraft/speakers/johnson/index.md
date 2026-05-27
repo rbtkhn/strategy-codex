@@ -46,10 +46,10 @@ Johnson's orthogonality-bearing structure is:
 
 ## Main Host Arcs
 
-- [Davis x Johnson](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-johnson-speaker-arc.md)
+- [Davis host shelf](/C:/dev/strategy-codex/statecraft/hosts/davis/README.md)
 - [Diesen x Johnson](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-johnson-speaker-arc.md)
 - [Dialogue Works x Johnson](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-johnson-speaker-arc.md)
-- [Judging Freedom x Johnson](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-johnson-speaker-arc.md)
+- [Napolitano host shelf](/C:/dev/strategy-codex/statecraft/hosts/napolitano/README.md)
 
 ## Best Live Entry Files
 

@@ -34,7 +34,7 @@ Purpose: route Pape's host appearances by function and show how they reinforce, 
 
 | host | function | best use |
 |---|---|---|
-| Davis | strategic substance and military feasibility | test escalation trap, ground thresholds, and the gap between victory narrative and escalation reality |
+| [Davis](/C:/dev/strategy-codex/statecraft/hosts/davis/README.md) | strategic substance and military feasibility | test escalation trap, ground thresholds, and the gap between victory narrative and escalation reality |
 | Redacted | public macro shock translation | translate shortage clocks and contraction mechanisms into consumer-facing energy and commodity stress |
 | Breaking Points / Ryan Grim | political-system and fourth-center framing | draw out U.S. loss of control, Gulf fragmentation, and Iran as a coercive center |
 | Mario Nawfal | fast public forecast compression | compress warning signs, Trump options, and near-term escalation branches |

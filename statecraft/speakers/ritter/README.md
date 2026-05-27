@@ -63,9 +63,9 @@ The legacy `codex/speakers/ritter/` path is now front-door compatibility only.
 ## Host Lanes
 
 - [Diesen x Ritter](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-ritter-speaker-arc.md)
-- [Davis x Ritter](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-ritter-speaker-arc.md)
+- [Davis host shelf](/C:/dev/strategy-codex/statecraft/hosts/davis/README.md)
 - [Dialogue Works x Ritter](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-ritter-speaker-arc.md)
-- [Judging Freedom x Ritter](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-ritter-speaker-arc.md)
+- [Napolitano host shelf](/C:/dev/strategy-codex/statecraft/hosts/napolitano/README.md)
 
 ## Boundary
 

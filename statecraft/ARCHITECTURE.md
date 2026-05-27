@@ -25,6 +25,7 @@ The stable sequence is:
 | [README.md](README.md) | front door | It gives one entry sequence without becoming a competing core. |
 | [METHOD.md](METHOD.md) | drafting loop | It keeps the system instrument-oriented. |
 | [artifact-registry.md](artifact-registry.md) | metadata law | It gives new or touched outputs a canonical class and maturity shape. |
+| [hosts/README.md](hosts/README.md) | host-family continuity home | It keeps live host-law and guest-lane routing inside the repo-root statecraft system instead of retired codex host shelves. |
 | [speakers/README.md](speakers/README.md) | speaker-state continuity home | It keeps statecraft-relevant speaker-state surfaces inside the live system without collapsing them into bridge or lane authority. |
 | [civ-emp/review-queue.md](civ-emp/review-queue.md) | upstream learning loop | It governs source-memory feedback without silent mutation. |
 
@@ -32,12 +33,13 @@ The stable sequence is:
 
 Keep these layers distinct:
 
+- `statecraft/hosts/` = live host-family continuity, host-law, and guest-lane routing for migrated hosts
 - `statecraft/speakers/` = speaker-state continuity surfaces, month ladders, routing notes, thread atlases, and theme activators used by live statecraft work
 - `statecraft/bridges/` = retrieval adapters that regulate how speaker-state material conditions `civ-emp` retrieval
 - lane benches = substantive state interest, authority-carrier, and instrument drafting surfaces
 - `statecraft/civ-emp/` = retrieval memory and reviewable source-memory discipline
 
-Bridge adapters regulate retrieval use of speaker-state material. They do not replace the speaker-state continuity layer, and they do not become the canonical home of the speakers themselves.
+Bridge adapters regulate retrieval use of speaker-state material. They do not replace the host-family or speaker-state continuity layers, and they do not become the canonical home of the speakers themselves.
 
 ## Maturity Checks
 

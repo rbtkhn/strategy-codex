@@ -16,6 +16,7 @@ This subtree is speaker-organized rather than lane-organized so the same speaker
 Short constitutional split:
 
 - `statecraft/speakers/` = canonical live speaker continuity
+- `statecraft/hosts/` = canonical live host-family continuity for migrated hosts
 - `codex/speakers/` = compatibility, archive residue, or not-yet-migrated legacy storage
 
 ## What Belongs Here
@@ -36,6 +37,8 @@ Short constitutional split:
 - silent `civ-emp` mutation
 
 Speaker-state continuity lives here. Bridge adapters still live in [statecraft/bridges/](../bridges/), `civ-emp` still owns retrieval memory, and lanes still own substantive drafting.
+
+When the real question is host-law rather than speaker identity, open [statecraft/hosts/](../hosts/README.md) instead of treating retired `codex/speakers/<host>/...` surfaces as live authority.
 
 Transcript-first evidence, arc-first interpretation.
 

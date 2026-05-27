@@ -22,7 +22,7 @@ The default first-open lane is usually [Dialogue Works x Marandi](/C:/dev/strate
 | the cleanest Marandi lane for legitimacy, selective-Hormuz signaling, and Gulf complicity | [nima-marandi-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-marandi-speaker-arc.md) | Dialogue Works gives Marandi his sharpest Tehran-facing live-pressure register. |
 | the best single Marandi file | [2026-05-05 / Dialogue Works x Marandi](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-05/transcript-alkorshid-marandi-hormuz-uae-china-2026-05-05.md) | It is the clearest one-file anchor for the strongest Marandi host lane. |
 | strategic-order altitude, escalation horizon, and blockade logic as wider order consequence | [diesen-marandi-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-marandi-speaker-arc.md) | Diesen gives the highest-altitude Marandi lane. |
-| operational limits, failed intimidation, and shrinking U.S. coercive room | [davis-marandi-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-marandi-speaker-arc.md) | Davis gives the cleanest force-versus-resilience test. |
+| operational limits, failed intimidation, and shrinking U.S. coercive room | [davis-lane-map-2026-05.md](/C:/dev/strategy-codex/statecraft/hosts/davis/davis-lane-map-2026-05.md) | Davis gives the cleanest force-versus-resilience test. |
 | the late-stage May pressure cluster, especially mixed U.S. signals, ceasefire sabotage, and Hormuz leverage | [2026-05-26 / Dialogue Works x Marandi](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/transcript-alkorshid-marandi-iran-opens-fire-on-american-fighter-jets-2026-05-26.md) | The May 26 file is the best entry when the question is the end-of-window pressure cluster. |
 | the provenance route map rather than a substantive lane | [marandi-raw-input-index.md](marandi-raw-input-index.md) | Use the raw-input index when the question is what exists and how thick each branch really is. |
 | the host-conditioned structure answer | [marandi-helix.md](marandi-helix.md) | The helix note explains how the three host transformations differ without flattening them. |
@@ -47,8 +47,7 @@ Open another lane first in those cases, such as:
 
 - [Barnes shelf](/C:/dev/strategy-codex/statecraft/speakers/barnes/README.md) for U.S. domestic-liability, executive-process, and war-powers exposure
 - [Mercouris shelf](/C:/dev/strategy-codex/statecraft/speakers/mercouris/README.md) for document-centered diplomatic and escalation interpretation
-- [Postol via Davis](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-postol-speaker-arc.md) for engineering and destructive-capacity truth
-- [Johnson via Davis](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-johnson-speaker-arc.md) for operational-feasibility and coercive-failure interpretation from the U.S. side
+- [Davis host shelf](/C:/dev/strategy-codex/statecraft/hosts/davis/README.md) for engineering-adjacent, operational-feasibility, and coercive-failure routing from the U.S. side
 
 ## Boundaries
 

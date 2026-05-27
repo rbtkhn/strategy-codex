@@ -32,7 +32,7 @@ That role survives host translation strongly enough that Marandi reads as a spea
 |---|---|---|
 | [Dialogue Works x Marandi](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-marandi-speaker-arc.md) | mature primary lane | live pressure, legitimacy, selective-Hormuz signaling, Gulf complicity, regional security architecture |
 | [Diesen x Marandi](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-marandi-speaker-arc.md) | mature co-supporting lane | strategic-order altitude, escalation horizon, blockade logic, and wider anti-hegemonic consequence |
-| [Davis x Marandi](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-marandi-speaker-arc.md) | mature co-supporting lane | operational limits, failed intimidation, Iranian resilience, and shrinking U.S. coercive room |
+| [Davis host shelf](/C:/dev/strategy-codex/statecraft/hosts/davis/README.md) | mature co-supporting lane | operational limits, failed intimidation, Iranian resilience, and shrinking U.S. coercive room |
 
 ## Recurring retrieval jobs
 
