@@ -8,10 +8,10 @@ This is the minimal registry law for new or touched statecraft outputs. It does 
 
 Every new or materially revised statecraft artifact should be classifiable by:
 
-- `lane`: `america`, `china`, `iran`, `russia`, `comparison`, `cross-lane`, or `shared`
+- `lane`: `america`, `china`, `persia`, `russia`, `comparison`, `cross-lane`, or `shared`
 - `output_class`: `commentary`, `braid`, `lane-note`, `memo`, `objection-matrix`, `comparison`, `router-candidate`, `transaction-use-brief`, `lane-draft`, `full-transaction`, or `recursive-update-candidate`
 - `maturity`: `orientation`, `draftable`, `reusable`, or `review-only`
-- `source_family`: `civ-emp`, `speaker-state`, `current-event`, `lane-local`, or `mixed`
+- `source_family`: `civ-emp`, `speaker-state`, `verified-live-event`, `lane-local`, or `mixed`
 - `bridge_usage`: `none`, `marandi`, `parsi`, or `other-adapter`
 - `transaction_relevance`: `none`, `fit-check`, `existing-transaction`, or `new-candidate`
 
@@ -33,7 +33,7 @@ Use this block near the top of a new or touched artifact when practical, or keep
 
 - Use the **narrowest honest output class**.
 - `maturity` measures what the artifact can currently support, not what the operator hopes it will become.
-- `source_family` should name the real dominant feed, not every citation in the document.
+- `source_family` should name the real dominant feed, not every citation in the document. Use `verified-live-event` when the artifact is primarily driven by a bounded live-event read or packet rather than deep source shelves alone.
 - `bridge_usage` is only for retrieval conditioning, not for ordinary speaker citation.
 - `transaction_relevance` should say whether the artifact is outside the transaction plateau, checking fit, spending an existing bundle, or proposing a genuinely new candidate.
 
