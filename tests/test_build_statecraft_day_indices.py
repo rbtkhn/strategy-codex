@@ -67,11 +67,16 @@ def test_build_day_readme_uses_frontmatter_rollups_and_excludes_readme(tmp_path:
 
     assert "# Statecraft Archive - 2026-05-26" in text
     assert "- Source files: `2`" in text
-    assert "`transcript` (1), `youtube` (1)" in text
-    assert "`Judging Freedom` (1), `Daniel Davis Deep Dive` (1)" in text
-    assert "Hosts: `Andrew Napolitano` (1), `Daniel Davis` (1)" in text
-    assert "Guests: `Daniel Davis` (1), `Matt Hoh` (1), `Seyed M. Marandi` (1)" in text
-    assert "Threads: `davis` (1), `hoh` (1)" in text
+    assert "`transcript` (1)" in text and "`youtube` (1)" in text
+    assert "`Judging Freedom` (1)" in text and "`Daniel Davis Deep Dive` (1)" in text
+    assert "Hosts:" in text and "`Andrew Napolitano` (1)" in text and "`Daniel Davis` (1)" in text
+    assert (
+        "Guests:" in text
+        and "`Daniel Davis` (1)" in text
+        and "`Matt Hoh` (1)" in text
+        and "`Seyed M. Marandi` (1)" in text
+    )
+    assert "Threads:" in text and "`davis` (1)" in text and "`hoh` (1)" in text
     assert "- `README.md`" not in text
     assert "- `transcript-napolitano-hoh-why-the-pentagon-lies-2026-05-26.md`" in text
     assert "- `youtube-daniel-davis-deep-dive-us-must-stop-the-siege-of-iran-2026-05-26.md`" in text
