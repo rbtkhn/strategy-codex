@@ -7,7 +7,7 @@ WORK only; not Record.
 
 ## Center of gravity
 
-- **Cognition streams** are the top-level analytical scaffold; **strategy-pages** are standalone stream-level analytical objects; **strategy-chapters** are daily synthesis across streams; legacy **`thread:<expert_id>`** handles remain routing/provenance joins; **raw-input** is the literal SSOT.
+- **Cognition streams** are the top-level analytical scaffold; **strategy-pages** are standalone stream-level analytical objects; **strategy-chapters** are daily synthesis across streams; legacy **`thread:<expert_id>`** handles remain routing/source-archive joins; **source-archive** is the literal SSOT for full source capture.
 - The canonical scaffold shapes now live in [strategy-codex-template-raw-input.md](strategy-codex-template-raw-input.md), [strategy-codex-template-page.md](strategy-codex-template-page.md), [strategy-codex-template-chapter.md](strategy-codex-template-chapter.md), and [strategy-codex-template-book.md](strategy-codex-template-book.md). Legacy `strategy-expert-template.md` anchors remain compatibility redirects while links are updated.
 - Month continuity in the thread journal layer is a short bookended synthesis and index of that month's standalone strategy-page set. See [COGNITION-STREAMS.md](COGNITION-STREAMS.md), [STRATEGY-NOTEBOOK-ARCHITECTURE.md](STRATEGY-NOTEBOOK-ARCHITECTURE.md#thread-terminology), and [speakers/_templates/speaker-thread-template.md](speakers/_templates/speaker-thread-template.md).
 
@@ -16,7 +16,7 @@ WORK only; not Record.
 Use this naming split consistently:
 
 - **strategy-codex** = the active public name for the notebook/workspace.
-- **strategy-notebook** = the legacy path and file-contract name still present on disk and in some tooling.
+- **strategy-notebook** = a deprecated compatibility name still present on disk and in some tooling.
 - **strategy-author** = the active public name for the author lane / analytical voice tracked in the codex.
 - **strategy-expert** = the legacy filename, parser, and marker contract still present in templates, scripts, and tests.
 
@@ -35,9 +35,9 @@ If a document needs both names, make the compatibility status explicit rather th
 
 **Brief advisory:** Before composing a major strategy page or public-facing synthesis, write or infer a WORK job brief: audience, objective, evidence surface, success criteria, and acceptance check. This is a drift-control aid, not a requirement for every page and not a substitute for the page/thread contract.
 
-**Watch / worry:** Do not let the brief become a mandatory ceremony for ordinary page edits. The brief exists to clarify ambiguous, public-facing, or delegation-shaped work; when the page shape is already obvious from raw-input, thread context, and operator direction, proceed with the page contract.
+**Watch / worry:** Do not let the brief become a mandatory ceremony for ordinary page edits. The brief exists to clarify ambiguous, public-facing, or delegation-shaped work; when the page shape is already obvious from source capture, thread context, and operator direction, proceed with the page contract.
 
-**Elicitation checkpoint:** When stream ownership, raw-input routing, page shape, contrapuntal relation, or civ-mem lens choice is unclear, use `skill-elicitation` as an optional bounded checkpoint before writing. It should surface operator judgment and then return to the existing page/thread contract; it is not a new compose path and not an automatic coffee or dream action.
+**Elicitation checkpoint:** When stream ownership, source-archive routing, page shape, contrapuntal relation, or civ-mem lens choice is unclear, use `skill-elicitation` as an optional bounded checkpoint before writing. It should surface operator judgment and then return to the existing page/thread contract; it is not a new compose path and not an automatic coffee or dream action.
 
 ## Page-thread binding
 
@@ -46,8 +46,8 @@ If a document needs both names, make the compatibility status explicit rather th
 Standalone strategy-pages may use these continuity bullets in `### Sources` when stream indexing needs them:
 
 ```markdown
-- **Primary raw-input:** [raw-input/YYYY-MM-DD/<slug>.md](...)
-- **Supporting raw-input:** [raw-input/YYYY-MM-DD/<slug>.md](...)  <!-- optional; keep the set small -->
+- **Primary source capture:** [../source-archive/statecraft/YYYY-MM-DD/<slug>.md](...)
+- **Supporting source capture:** [../source-archive/statecraft/YYYY-MM-DD/<slug>.md](...)  <!-- optional; keep the set small -->
 - **Thread file:** [experts/<expert_id>/<expert_id>-thread-YYYY-MM.md](experts/<expert_id>/<expert_id>-thread-YYYY-MM.md)  <!-- or legacy thread.md -->
 - **Thread month:** `YYYY-MM`
 - **Thread role:** `new-thesis` | `update` | `contradiction` | `falsifier` | `synthesis` | `carry-forward`
@@ -66,17 +66,17 @@ Standalone strategy-pages may use these continuity bullets in `### Sources` when
 
 The thread index **does not duplicate** the page. It answers: *why does this page matter to this author's temporal continuity?*
 
-**Drafting flow:** before picking the Signal body for a strategy-page, reduce the prior month thread files into a bounded context packet. The packet is a compose aid only: it orients quote selection and synthesis, while source capture remains the literal SSOT.
+**Drafting flow:** before picking the Signal body for a strategy-page, reduce the prior month thread files into a bounded context packet. The packet is a compose aid only: it orients quote selection and synthesis, while source-archive capture remains the literal SSOT.
 
 **Continuity review rule:** when a later day materially updates an earlier strategy-page or day-level judgment, record whether that earlier prediction **held**, **weakened**, **broke**, or is **still open**. Keep this lightweight and prose-native; do not turn every day into a ledger entry.
 
-**Source-first ingest:** `raw-input/` may hold transcripts, essays, posts, bundles, or other captures even when the speaker or outlet does **not** map to an existing author folder. Treat it as archive-adjacent capture, not knowledge by itself, and keep it unthreaded unless later routing assigns it to an existing lane.
+**Source-first ingest:** `source-archive/statecraft/` may hold transcripts, essays, posts, bundles, or other captures even when the speaker or outlet does **not** map to an existing author folder. Treat it as archive capture, not knowledge by itself, and keep it unthreaded unless later routing assigns it to an existing lane.
 
-**Selective backfill rule:** When using archive or feed discovery to populate `raw-input/`, treat the archive as a discovery index, not a completeness mandate. Backfill the substantial items you want preserved; leave light, repetitive, or low-signal archive-visible items out when that is the better editorial choice.
+**Selective backfill rule:** When using archive or feed discovery to populate `source-archive/statecraft/`, treat the archive as a discovery index, not a completeness mandate. Backfill the substantial items you want preserved; leave light, repetitive, or low-signal archive-visible items out when that is the better editorial choice.
 
 ## Where the rules live
 
-Use this file as the routing hub. If another notebook document appears to duplicate a rule, prefer the narrower owner below: template syntax in `strategy-expert-template.md`, operational architecture in `STRATEGY-NOTEBOOK-ARCHITECTURE.md`, script receipts in the trace contract, and source-capture policy in `raw-input/README.md` plus `raw-input/BACKFILL-SOURCES.md`. Keep this hub short rather than copying those rules here.
+Use this file as the routing hub. If another notebook document appears to duplicate a rule, prefer the narrower owner below: template syntax in `strategy-expert-template.md`, operational architecture in `STRATEGY-NOTEBOOK-ARCHITECTURE.md`, script receipts in the trace contract, and source-capture policy in [`../source-archive/README.md`](../source-archive/README.md) plus `raw-input/BACKFILL-SOURCES.md`. Keep this hub short rather than copying those rules here.
 
 | Topic | Document / tool |
 |-------|-----------------|

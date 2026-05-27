@@ -90,7 +90,7 @@ def test_raw_input_gap_ignores_tbd_and_nearby_raw_pointer(tmp_path: Path) -> Non
     live = "\n".join(
         [
             "- YT | cold: placeholder | https://www.youtube.com/watch?v=TBD-davis-hormuz",
-            "- YT | cold: pointed | [raw-input/2026-04-29/source.md](raw-input/2026-04-29/source.md) | https://www.youtube.com/watch?v=abc123",
+            "- YT | cold: pointed | [provenance/2026-04-29/source.md](provenance/2026-04-29/source.md) | https://www.youtube.com/watch?v=abc123",
         ]
     )
 

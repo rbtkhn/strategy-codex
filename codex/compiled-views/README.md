@@ -33,7 +33,7 @@ Use them for **long reads**, **handoff**, and **browsing** — not to replace on
 ## Source of truth (SSOT)
 
 - [`daily-strategy-inbox.md`](../daily-strategy-inbox.md)
-- [`raw-input/`](../raw-input/README.md)
+- [`source-archive/statecraft/`](../../source-archive/statecraft/README.md)
 - Expert [`transcript.md`](../strategy-expert-template.md) and **`experts/<expert_id>/thread.md`** (or monthly thread files) — **Journal** (above the machine fence) + **Machine** layer (between `<!-- strategy-expert-thread:start -->` … `end`)
 - **`strategy-page`** blocks in thread files
 - [`chapters/YYYY-MM/days.md`](../chapters/2026-04/days.md) and **`meta.md`**

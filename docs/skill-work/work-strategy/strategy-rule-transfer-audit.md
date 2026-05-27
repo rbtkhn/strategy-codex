@@ -10,7 +10,7 @@ Purpose: identify which strategy-oriented `.cursor/rules/*.mdc` files still carr
 
 The strategy rule layer is in better shape than the general `.mdc` layer.
 
-Many strategy rules already behave like **adapters** rather than hidden law: they point to strong neutral docs such as `STRATEGY-NOTEBOOK-ARCHITECTURE.md`, `raw-input/README.md`, `NOTEBOOK-PREFERENCES.md`, and `minds/README.md`.
+Many strategy rules already behave like **adapters** rather than hidden law: they point to strong neutral docs such as `STRATEGY-NOTEBOOK-ARCHITECTURE.md`, `source-archive/statecraft/README.md`, `NOTEBOOK-PREFERENCES.md`, and `minds/README.md`.
 
 The main remaining work is smaller:
 
@@ -27,7 +27,7 @@ The main remaining work is smaller:
 **Judgment:** mostly transferred already.
 
 Neutral homes present:
-- `docs/skill-work/work-strategy/strategy-notebook/raw-input/README.md`
+- `source-archive/statecraft/README.md`
 - `docs/skill-work/work-strategy/strategy-notebook/raw-input/CAPTURE-TYPES.md`
 - `docs/skill-work/work-strategy/strategy-notebook/NOTEBOOK-PREFERENCES.md`
 - `docs/skill-work/work-strategy/strategy-notebook/STRATEGY-NOTEBOOK-ARCHITECTURE.md`
