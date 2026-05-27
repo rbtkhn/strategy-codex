@@ -113,6 +113,12 @@ Signs this pass matters:
 - the actor cannot be understood without its sacred, ideological, or expert grammar
 - outside observers keep misreading the actor as cynical when it is partly doctrinal, or as doctrinal when it is mostly procedural
 
+Default router for this pass:
+
+- if the live question is legitimacy, sacred order, covenant, providence, Orthodoxy, juridical universality, or constitutional creed with civilizational depth, open the [Sacred Grammar Library](sacred-grammar/README.md) first
+- use the shelf's evidence spine before forming statecraft claims
+- only then return downstream to lane-local `god`, `state-memory`, `lit`, helix, or transaction surfaces
+
 If this pass adds nothing real, note that and continue. Not every object requires a heavy truth-order read.
 
 ## 3. Time pass
@@ -163,7 +169,8 @@ Return to:
 ### If truth is clearly governing
 Return to:
 
-- `god`, `lit`, `state-memory`, or adjacent civilization objects where present
+- [Sacred Grammar Library](sacred-grammar/README.md) first
+- then lane-local `god`, `state-memory`, `lit`, or adjacent civilization objects where present
 - relevant speaker-state retrieval adapters if the object arrived through a speaker arc
 - cross-lane family notes only after the truth-order has been named clearly
 

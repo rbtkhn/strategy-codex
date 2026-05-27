@@ -34,7 +34,11 @@ Use it when the operator names a recent event and wants judgment or an instrumen
    - **exact fit:** route to the existing transaction bundle and choose the best lane to open first;
    - **near fit:** use the closest transaction as an analogy and name the mismatch;
    - **no fit:** recommend a new transaction candidate with crisis object, lanes, and settlement spine, but do not create files automatically.
-5. **Check CIV-EMP source fit.** If the event exposes a durable civilizational pattern, imperial instrument, recognition bargain, border/channel logic, or state-memory problem, open `statecraft/civ-emp/indexes/source-retrieval-matrix.md` and any lane object before drafting. If no CIV-EMP object fits, say `none` rather than borrowing from `CIV-MEM`.
+5. **Check CIV-EMP source fit.** If the event exposes a durable civilizational pattern, imperial instrument, recognition bargain, border/channel logic, or state-memory problem, open `statecraft/civ-emp/indexes/source-retrieval-matrix.md` before drafting. Distinguish the fit:
+   - **legitimacy / truth-order question** -> open `statecraft/civ-emp/sacred-grammar/README.md` first;
+   - **continuity / succession / humiliation-memory question** -> open the relevant lane `state-memory` object first;
+   - **other crisis object** -> use matrix-directed lane retrieval.
+   If no CIV-EMP object fits, say `none` rather than borrowing from `CIV-MEM`.
 6. **Run the mutation check.** Use `statecraft/sheets/mutation-statecraft.md` to ask whether the event keeps an old name while changing function:
    - **yes:** name the original function, possible new function, trigger evidence, defensive reading, threatening reading, naming fight, and threshold formula;
    - **watch:** name the threshold that would prove mutation later;

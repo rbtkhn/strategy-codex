@@ -156,6 +156,13 @@ skills:
     verify_forbidden_substrings:
       - users/grace-mar/
       - process_approved_candidates
+  - name: memory
+    source: memory/SKILL.md
+    appendix: .cursor/skills/memory/CURSOR_APPENDIX.md
+    target: .cursor/skills/memory/SKILL.md
+    verify_forbidden_substrings:
+      - users/grace-mar/
+      - process_approved_candidates
   - name: civ-emp-volume-harden
     source: civ-emp-volume-harden/SKILL.md
     appendix: .cursor/skills/civ-emp-volume-harden/CURSOR_APPENDIX.md

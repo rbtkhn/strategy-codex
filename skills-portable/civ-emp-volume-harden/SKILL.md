@@ -95,9 +95,11 @@ Do not force false symmetry. Some founders are documentary. Some are traditional
 
 6. **Bind the doctrine to retrieval.**
    Make the next move clearer:
-   - deep grammar -> sacred grammar / literature / legitimacy
+   - deep grammar -> Sacred Grammar / literature / legitimacy
    - sovereign opening -> state-memory / founding / origin objects
    - current carrier -> helix / state / transaction
+
+   When legitimacy is clearly governing, route to the Sacred Grammar shelf first rather than directly to lane-local summaries.
 
 7. **Close in CIV-EMP language.**
    The final prose should read like operator doctrine: compact, comparative, and retrieval-aware.

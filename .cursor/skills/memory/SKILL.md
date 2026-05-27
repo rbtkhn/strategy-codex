@@ -1,11 +1,29 @@
 ---
-name: state-memory
-description: "Build, mirror, audit, or backfill repo-root statecraft civilization memory surfaces from CIV-MEM. Use when the operator says state-memory, asks to convert CIV-MEM into civilization/objects/state-memory.md, mirror state-memory architecture, audit current state carriers, create or refine civilization arc-lenses such as god.md, lit.md, art.md, geo.md, war.md, or peace.md, demands deep CIV-MEM search/analysis, or wants to prevent biography drift and shallow summary backfills in statecraft lanes."
+name: "memory"
+preferred_activation: "memory"
+description: "Build, mirror, audit, or backfill repo-root statecraft state-memory and civilization arc-lens surfaces from CIV-MEM. Use when the operator says memory or legacy state-memory, asks to convert CIV-MEM into civilization/objects/state-memory.md, mirror state-memory architecture, audit current state carriers, create or refine god.md, lit.md, art.md, geo.md, war.md, or peace.md, or wants deep CIV-MEM search without biography drift."
+portable: true
+version: "0.1.0"
+tags:
+  - "operator"
+  - "statecraft"
+  - "civ-mem"
+  - "state-memory"
+  - "civilization"
+portable_source: "skills-portable/memory/SKILL.md"
+synced_by: "sync_portable_skills.py"
 ---
+# Memory
 
-# State Memory
+**Preferred activation (operator):** say **`memory`**.
 
-`state-memory` turns CIV-MEM and lane-local statecraft material into the repo-root statecraft authority-memory and civilization arc-lens layers. It keeps the lanes from sliding into biography or shallow summary by enforcing:
+Use this skill to build, mirror, audit, or backfill repo-root statecraft **state-memory** and civilization arc-lens layers from CIV-MEM and lane-local statecraft material.
+
+Compatibility note: older references to **`state-memory`** as a skill mean this skill. The **skill name** is now `memory`; the **statecraft object family** remains `state-memory`.
+
+This skill is the lane-local implementation surface for the CIV-EMP **evidence-spine law** and the `MEM CONNECTIONS` quantitative default.
+
+It keeps the lanes from sliding into biography or shallow summary by enforcing:
 
 > Civilization stores state memory. Empire converts memory into reach. State carries present authority. Objects transmit signals. Transactions test whether authority can become settlement.
 
@@ -17,7 +35,7 @@ Second rule: every major civilization object is an arc-lens, not a topic page. A
 - Do not edit PH-CIV corpus or CIV-MEM source files from this workflow.
 - Do not create transaction files unless the operator separately asks.
 - Use lane-local `updates/pending.md` for durable recursive candidates; live analysis proposes, human review decides.
-- Preserve unrelated dirty files. State-memory edits should stay inside `statecraft/` unless the operator explicitly expands scope.
+- Preserve unrelated dirty files. Memory-skill edits should stay inside `statecraft/` unless the operator explicitly expands scope.
 - Do not build civilization arc-lens backfills only from existing lane summaries. Use direct CIV-MEM discovery, `MEM CONNECTIONS`, and opened source bodies before drafting.
 
 ## Workflow
@@ -38,13 +56,19 @@ rg -n "state-memory|heads-of-state|authority-structure|objects|CIV-MEM|CIV|STATE
    - diplomatic / ministerial / institutional signal transmitter -> `state/objects/<object>.md`
 7. **Use the template.** Follow `statecraft/templates/state-memory.md`: `Continuity Pattern`, `Arc Shape`, `Authority Forms`, `Current Carriers`, `Transaction Test`, `Failure Mode`, `CIV-MEM Inputs`.
 8. **Wire the layer.** Link state-memory to current carriers, current carriers back to state-memory, and transmitter objects to both.
-9. **Sweep stale links.** After moving files, search for old paths and biography drift:
+9. **Expose the evidence spine.** For major objects, make the construction auditable:
+   - `Seed MEM`
+   - `MEM CONNECTIONS cluster`
+   - `Overview corroborators`
+   - `Counterweight`
+   - `Current-carrier bridge`
+10. **Sweep stale links.** After moving files, search for old paths and biography drift:
 
 ```powershell
 rg -n "heads-of-state|head-of-state.md|head-of-state pattern|biography" statecraft/<lane>
 ```
 
-10. **Validate.** Run `python scripts/validate_skills.py`. If skill files were not touched, still use the stale-link search and a manual path check.
+11. **Validate.** Run `python scripts/validate_skills.py`. If skill files were not touched, still use the stale-link search and a manual path check.
 
 ## Civilization Arc-Lens Backfills
 
@@ -110,6 +134,18 @@ Use `PYTHONIOENCODING=utf-8` if PowerShell cannot print CIV-MEM dashes. If the r
 9. **Shape the arc.** Convert the extracted patterns into origin, continuity, transformation, current carrier, failure mode, and transaction use. This is the arc side of the arc-lens. A source list without an arc is still shallow.
 10. **Cite every opened source that materially shaped the arc-lens** in `## CIV-MEM Inputs`. Do not cite paths that were not opened unless clearly marked as pointers for later.
 11. **Preserve the membrane.** If graph retrieval reveals a durable new lane insight, stage it only as a candidate in `<lane>/updates/pending.md`. Do not directly rewrite transaction files, CIV-MEM, PH-CIV, Record surfaces, or current state carrier files unless the operator separately requests that work.
+
+### Evidence-Spine Rule
+
+For major backfills, the final object should expose:
+
+- **Seed MEM**
+- **MEM CONNECTIONS cluster**
+- **Overview corroborators**
+- **Counterweight**
+- **Current-carrier bridge**
+
+Treat one-file doctrine as shallow by default. An object is not full-strength if it was built from one `CIV-CORE-*` overview alone or if it cannot name a counterweight and current-carrier relation.
 
 ### Lens-Specific Search Terms
 
@@ -212,3 +248,24 @@ When answering without file edits, provide a compact architecture recommendation
 - carrier files moved or linked, if relevant;
 - stale links checked;
 - validation result.
+
+
+## Cursor / grace-mar instance
+
+**strategy-codex instance notes**
+
+- Preferred operator invocation: `memory`
+- Legacy alias note: older references to `state-memory` as a skill mean this skill
+- Keep `state-memory` as the canonical statecraft object family:
+  - `civilization/objects/state-memory.md`
+  - `statecraft/templates/state-memory.md`
+  - migration and inventory object-class keys
+- Do not blur this skill with repo meanings such as `self-memory`, runtime memory, or speaker-memory.
+
+**Preferred maintenance commands after skill edits**
+
+```powershell
+python scripts/sync_portable_skills.py --skill memory
+python scripts/sync_portable_skills.py --verify --skill memory
+python scripts/validate_skills.py
+```

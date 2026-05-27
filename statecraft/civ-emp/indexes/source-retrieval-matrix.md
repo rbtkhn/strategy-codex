@@ -8,16 +8,41 @@ Use this matrix before creating or upgrading academy-statecraft civilization, em
 
 CIV-EMP is the local Civilization and Empire source base for academy-statecraft. It replaces active CIV-MEM reliance in this workshop while preserving CIV-MEM as legacy provenance where older lane objects already cite it.
 
+## Retrieval Constitution
+
+`MEM CONNECTIONS` is not a local trick. It is the default construction law for serious CIV-EMP objects.
+
+Use this constitution in order:
+
+1. **Deep grammar retrieval** - when the live question is legitimacy, truth-order, covenant, ritual order, Orthodoxy, providence, juridical universality, or what makes authority feel rightful, open the [Sacred Grammar Library](../sacred-grammar/README.md) first.
+2. **Sacred-grammar evidence spine** - move from the shelf into one seed MEM, then its `MEM CONNECTIONS` cluster, then overview corroborators.
+3. **Lane retrieval** - return downstream into lane-local `state-memory`, `god`, `helix`, `state/`, and transaction surfaces as needed.
+4. **Counterweight retrieval** - require at least one source or lane object where the pattern degrades, reverses, overreaches, or becomes unusable.
+
+During migration, older CIV-MEM files may serve as provenance for CIV-EMP objects, but statecraft outputs should cite the CIV-EMP object or lane-local translation whenever one exists.
+
 ## Retrieval Contract
 
 For each arc-lens or empire instrument, run four retrieval layers:
 
-1. **CIV-EMP source retrieval** - open the relevant CIV-EMP source object, volume map, or index entry once present.
+1. **CIV-EMP source retrieval** - open the relevant CIV-EMP source object, [volume map](../volumes/README.md), or index entry.
 2. **Lane retrieval** - open the lane's `civilization/`, `empire/`, `state/`, `helix.md`, and seed-pattern surfaces where present.
 3. **Lens retrieval** - search for the object-specific seed terms below.
 4. **Counterweight retrieval** - find at least one source or lane object where the pattern degrades, reverses, overreaches, or becomes unusable.
 
-During migration, older CIV-MEM files may serve as provenance for CIV-EMP objects, but statecraft outputs should cite the CIV-EMP object or lane-local translation whenever one exists.
+## Evidence Spine Rule
+
+Every major CIV-EMP object should expose a compact **evidence spine**:
+
+- **Seed MEM** - the file that most directly names the governing pattern
+- **MEM CONNECTIONS cluster** - the connected MEM path that expands, complicates, or tests the seed
+- **Overview corroborators** - `CIV-CORE-*`, `CIV-STATE-*`, `CIV-DOCTRINE-*`, or other overview layers used as corroboration rather than as sole authority
+- **Counterweight** - the source where the pattern degrades, overreaches, or becomes unusable
+- **Current-carrier relation** - the institution, regime, transmitter, or implementation surface that bears the pattern now
+
+Full-strength objects are **connection-built and counterweighted**. If an object cannot name a seed MEM, a useful `MEM CONNECTIONS` cluster, a counterweight, and a current-carrier relation, mark it `Provisional` rather than pretending the construction is mature.
+
+Use the [Evidence Spine Audit Checklist](evidence-spine-audit-checklist.md) when you need a lightweight human falsification pass before treating an object as mature doctrine.
 
 ## Arc-Conditioned Retrieval
 
@@ -57,10 +82,10 @@ Mark an object `Provisional` if it cannot identify origin, transformation, failu
 
 | Object | CIV-EMP lane | Source classes | Seed terms | Counterweight requirement |
 |---|---|---|---|---|
-| `state-memory` | America, Russia, China, Iran | CIV-EMP source object, lane civilization, lane state, helix | continuity, succession, legitimacy, geography, state form, collapse, restoration | Find where continuity becomes coercion, personalism, paralysis, or imperial overreach. |
-| `god` | America, Russia, China, Iran | CIV-EMP sacred grammar, lane civilization, state-memory | covenant, providence, Orthodoxy, mandate, Asha, Druj, Shia, legitimacy, sacred order | Find where sacred grammar becomes domination, broken mandate, instrumentalized faith, or martyrdom lock. |
-| `lit` | America, Russia, China, Iran | CIV-EMP narrative/language, lane civilization, speaker-state use | conscience, suffering, classics, poetry, dignity, memory, witness, face | Find where narrative becomes paralysis, grievance capture, warning suppression, or hollow moral theater. |
-| `art` | America, Russia, China, Iran | CIV-EMP form/beauty, lane civilization, empire instrument | landscape, icon, calligraphy, monument, garden, spectacle, architecture | Find where beauty becomes nostalgia, spectacle, coercive form, or prestige demand. |
+| `state-memory` | America, Russia, China, Iran | CIV-EMP source object, lane civilization, lane state, helix, evidence spine | continuity, succession, legitimacy, geography, state form, collapse, restoration | Build as a connection-built continuity object. Find where continuity becomes coercion, personalism, paralysis, or imperial overreach. |
+| `god` | America, Russia, China, Iran | CIV-EMP sacred grammar, lane civilization, state-memory, evidence spine | covenant, providence, Orthodoxy, mandate, Asha, Druj, Shia, legitimacy, sacred order | Build from Sacred Grammar first. Find where sacred grammar becomes domination, broken mandate, instrumentalized faith, or martyrdom lock. |
+| `lit` | America, Russia, China, Iran | CIV-EMP narrative/language, lane civilization, speaker-state use, evidence spine | conscience, suffering, classics, poetry, dignity, memory, witness, face | Build as a connection-built language object. Find where narrative becomes paralysis, grievance capture, warning suppression, or hollow moral theater. |
+| `art` | America, Russia, China, Iran | CIV-EMP form/beauty, lane civilization, empire instrument, evidence spine | landscape, icon, calligraphy, monument, garden, spectacle, architecture | Build as a connection-built form object. Find where beauty becomes nostalgia, spectacle, coercive form, or prestige demand. |
 | `geo` | America, Russia, China, Iran | CIV-EMP geography, lane civilization, lane empire, transaction route | continent, steppe, river, plateau, Gulf, ports, water, food, energy, chokepoint | Find where geography becomes scarcity, expansion trap, ecological pressure, or corridor exposure. |
 | `war` | America, Russia, China, Iran | CIV-EMP war memory, lane civilization, lane empire, current carrier | civil war, invasion, humiliation, martyrdom, sacrifice, deterrence, blockade | Find where coercion exceeds authority, sacrifice becomes unlimited claim, or deterrence substitutes for settlement. |
 | `peace` | America, Russia, China, Iran | CIV-EMP settlement memory, lane civilization, state carrier, transaction object | treaty, recognition, neutrality, relief, verification, restraint, guarantees | Find where peace becomes domination, humiliation, creditor leverage, or endless enforcement. |
@@ -71,6 +96,7 @@ Mark an object `Provisional` if it cannot identify origin, transformation, failu
 A full-strength object should improve statecraft retrieval over direct search alone:
 
 - It gives one named pattern and one named counterweight.
+- It exposes a usable evidence spine.
 - It links civilization memory to an empire instrument or state carrier.
 - It produces at least one transaction hook.
 - It can be cited from a treaty, memo, negotiation brief, or crisis route without reopening the entire upstream corpus.
