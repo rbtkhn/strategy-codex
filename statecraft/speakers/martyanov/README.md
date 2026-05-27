@@ -40,7 +40,7 @@ The real hierarchy on disk is:
 The legacy `codex/speakers/martyanov/` path is now front-door compatibility only.
 
 - [codex/speakers/martyanov/README.md](/C:/dev/strategy-codex/codex/speakers/martyanov/README.md) and [index.md](/C:/dev/strategy-codex/codex/speakers/martyanov/index.md) are compatibility pointers.
-- codex-side `speaker-object` and `cross-host` files remain compatibility residue or migration scaffolds.
+- codex-side `speaker-object` and `cross-host` files are now compatibility pointers back into this shelf, not parallel doctrine surfaces.
 - this statecraft shelf is now the canonical opening path for Martyanov statecraft work.
 
 ## Host Lanes
