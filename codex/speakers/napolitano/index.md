@@ -34,6 +34,6 @@ The older [stream/napolitano-thread.md](stream/napolitano-thread.md) file is a l
 
 ## Boundary
 
-Napolitano is canonical under `codex/speakers/napolitano/`. Raw-text authority stays in [`codex/years/2026/raw-input/`](C:/dev/strategy-codex/codex/years/2026/raw-input).
+Napolitano is canonical under `codex/speakers/napolitano/`. Raw-text authority stays in [`codex/years/2026/provenance/`](C:/dev/strategy-codex/codex/years/2026/provenance).
 
 Do not read the older `*-speaker-arc.md` filenames as a different arc category from the newer `<host>-<speaker>-arc.md` grammar. In this shelf they are the current embodied guest arcs until a later normalization pass changes the spellings.

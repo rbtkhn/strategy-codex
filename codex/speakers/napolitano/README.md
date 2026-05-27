@@ -32,4 +32,4 @@ Until a later normalization pass creates canonical `*-arc.md` spellings here, do
 
 ## Boundary
 
-Napolitano is canonical under `codex/speakers/napolitano/`. Raw-text authority stays in [`codex/years/2026/raw-input/`](C:/dev/strategy-codex/codex/years/2026/raw-input).
+Napolitano is canonical under `codex/speakers/napolitano/`. Raw-text authority stays in [`codex/years/2026/provenance/`](C:/dev/strategy-codex/codex/years/2026/provenance).
