@@ -48,6 +48,6 @@ English/fa→EN posture often skews **Option C**-colored (**cost-imposition**, �
 | File | Role |
 |------|------|
 | [`../iri-institutional/thread.md`](../iri-institutional/thread.md) | **Canonical** month segments + `strategy-page` (tri-voice); this voice → **### Voice — Ghalibaf (Majlis)** |
-| [`../../../raw-input/2026-04-20/x-ghalibaf-marandi-repost-siege-battlefield.md`](../../../raw-input/2026-04-20/x-ghalibaf-marandi-repost-siege-battlefield.md) | Operator capture (example seed) |
+| [`../../../../source-archive/statecraft/2026-04-20/x-ghalibaf-marandi-repost-siege-battlefield.md`](../../../../source-archive/statecraft/2026-04-20/x-ghalibaf-marandi-repost-siege-battlefield.md) | Operator capture (example seed) |
 | [`../../chapters/2026-04/april-2026-slice-registry.md`](../../chapters/2026-04/april-2026-slice-registry.md) | Date → bundle pointers (when present) |
 | [`../../chapters/2026-04/days.md`](../../chapters/2026-04/days.md) | Iran-lane day continuity |

@@ -50,6 +50,6 @@ English lane often emphasizes **Option B** (dialogue, honoring commitments, nego
 | File | Role |
 |------|------|
 | [`../iri-institutional/thread.md`](../iri-institutional/thread.md) | **Canonical** month segments + `strategy-page` (tri-voice); this voice → **### Voice — Pezeshkian (President)** |
-| [`../../../raw-input/2026-04-20/x-drpezeshkian-april-2026-posts-bundle.md`](../../../raw-input/2026-04-20/x-drpezeshkian-april-2026-posts-bundle.md) | April 2026 post table |
+| [`../../../../source-archive/statecraft/2026-04-20/x-drpezeshkian-april-2026-posts-bundle.md`](../../../../source-archive/statecraft/2026-04-20/x-drpezeshkian-april-2026-posts-bundle.md) | April 2026 post table |
 | [`../../chapters/2026-04/april-2026-slice-registry.md`](../../chapters/2026-04/april-2026-slice-registry.md) | Date → bundle pointers (when present) |
 | [`../../chapters/2026-04/days.md`](../../chapters/2026-04/days.md) | Iran-lane continuity |

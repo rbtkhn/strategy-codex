@@ -52,6 +52,6 @@ English lane skews toward **Option B** (negotiated settlement / formula, inspect
 | [`../iri-institutional/thread.md`](../iri-institutional/thread.md) | **Legacy** month segments + `strategy-page` (tri-voice); this voice → **### Voice — Araghchi (FM)** |
 | [`../../weave/2026-04-institutional-ledger.md`](../../weave/2026-04-institutional-ledger.md) | **Preferred** for **new** month **signaling** (signal-class) |
 | [`../../channels/diplomacy/profile.md`](../../channels/diplomacy/profile.md) | **Channel** judgment aid |
-| [`../../../raw-input/2026-04-20/x-araghchi-april-2026-posts-bundle.md`](../../../raw-input/2026-04-20/x-araghchi-april-2026-posts-bundle.md) | Full April 2026 post table + status URLs |
+| [`../../../../source-archive/statecraft/2026-04-20/x-araghchi-april-2026-posts-bundle.md`](../../../../source-archive/statecraft/2026-04-20/x-araghchi-april-2026-posts-bundle.md) | Full April 2026 post table + status URLs |
 | [`../../chapters/2026-04/april-2026-slice-registry.md`](../../chapters/2026-04/april-2026-slice-registry.md) | Date → bundle pointers (when present) |
 | [`../../chapters/2026-04/days.md`](../../chapters/2026-04/days.md) | Iran-lane day continuity |
