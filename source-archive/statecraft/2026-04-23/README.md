@@ -4,22 +4,22 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Stats
 
-- Source files: `9`
-- Type mix: `transcript` (6), `substack` (2), `youtube` (1)
-- Distinct channels/shows: `6`
-- Distinct hosts: `1`
-- Distinct guests: `1`
-- Distinct threads: `8`
+- Source files: `10`
+- Type mix: `transcript` (7), `substack` (2), `youtube` (1)
+- Distinct channels/shows: `7`
+- Distinct hosts: `2`
+- Distinct guests: `2`
+- Distinct threads: `9`
 
 ## Channel / Show Rollup
 
-- `Mercouris` (2), `Diesen (host) × Pepe Escobar (guest — not strategy expert_id; named in copy)` (1), `Judging Freedom (Judge Napolitano)` (1), `The Duran` (1), `YouTube (Deep Dive / Daniel Davis — confirm channel)` (1), `simplicius76.substack.com` (1)
+- `Mercouris` (2), `Dialogue Works` (1), `Diesen (host) × Pepe Escobar (guest — not strategy expert_id; named in copy)` (1), `Judging Freedom (Judge Napolitano)` (1), `The Duran` (1), `YouTube (Deep Dive / Daniel Davis — confirm channel)` (1), `simplicius76.substack.com` (1)
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Alexander Mercouris` (1)
-- Guests: `[mercouris, barnes, christoforou]` (1)
-- Threads: `mercouris` (2), `[davis, crooke]` (1), `[mercouris, barnes]` (1), `crooke` (1), `davis` (1), `diesen` (1), `macgregor` (1), `simplicius` (1)
+- Hosts: `Alexander Mercouris` (1), `Nima Alkhorshid` (1)
+- Guests: `Andrei Martyanov` (1), `[mercouris, barnes, christoforou]` (1)
+- Threads: `mercouris` (2), `[davis, crooke]` (1), `[mercouris, barnes]` (1), `crooke` (1), `davis` (1), `diesen` (1), `macgregor` (1), `martyanov` (1), `simplicius` (1)
 
 ## Filename Family Fallbacks
 
@@ -31,6 +31,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - `substack-simplicius-secretary-navy-third-carrier-iran-2026-04-23.md`
 - `transcript-davis-crooke-iranians-only-getting-tougher-2026-04-23.md`
 - `transcript-davis-trump-all-time-in-the-world-2026-04-23.md`
+- `transcript-dialogue-works-andrei-martyanov-iran-just-shot-down-trump-s-blockade-and-israel-s-strategy-is-in-tatters-2026-04-23.md`
 - `transcript-diesen-escobar-connectivity-wars-multipolarity-2026-04-23.md`
 - `transcript-mercouris-barnes-fractured-iran-trump-2026-04-23.md`
 - `transcript-mercouris-eu-shock-fuel-crisis-putin-iran-2026-04-23.md`

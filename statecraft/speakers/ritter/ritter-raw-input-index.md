@@ -22,6 +22,7 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Scott
 
 ## 2025-09
 
+- [transcript-dialogue-works-andrei-martyanov-scott-ritter-the-us-is-committing-geopolitical-suicide-2025-09-06](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-06/transcript-dialogue-works-andrei-martyanov-scott-ritter-the-us-is-committing-geopolitical-suicide-2025-09-06.md)
 - [youtube-glenn-diesen-scott-ritter-scott-ritter-nato-prepares-for-war-with-russia-2025-09-17](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-17/youtube-glenn-diesen-scott-ritter-scott-ritter-nato-prepares-for-war-with-russia-2025-09-17.md)
 
 ## 2025-10
@@ -32,6 +33,7 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Scott
 
 ## 2025-11
 
+- [transcript-dialogue-works-scott-ritter-andrei-martyanov-its-all-blowing-up-iran-russia-vow-to-wipe-out-any-attack-2025-11-02](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-02/transcript-dialogue-works-scott-ritter-andrei-martyanov-its-all-blowing-up-iran-russia-vow-to-wipe-out-any-attack-2025-11-02.md)
 - [transcript-napolitano-ritter-natos-ukraine-strategy-is-collapsing-2025-11-04](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-04/transcript-napolitano-ritter-natos-ukraine-strategy-is-collapsing-2025-11-04.md)
 - [transcript-dialogue-works-scott-ritter-scott-ritter-russia-iran-just-triggered-it-all-2025-11-05](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-05/transcript-dialogue-works-scott-ritter-scott-ritter-russia-iran-just-triggered-it-all-2025-11-05.md)
 
