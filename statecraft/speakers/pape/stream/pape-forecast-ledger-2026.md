@@ -6,7 +6,7 @@ Purpose: canonical compact ledger for Pape's authored 2026 forecast spine: phase
 
 ## Source Set
 
-Primary corpus: Pape-authored `substack-pape-*` captures in [/C:/dev/strategy-codex/source-archive/statecraft/](/C:/dev/strategy-codex/source-archive/statecraft), concentrated from `2026-02-25` through `2026-05-23`.
+Primary corpus: Pape-authored `substack-pape-*` captures in [/C:/dev/strategy-codex/source-archive/statecraft/](/C:/dev/strategy-codex/source-archive/statecraft), concentrated from `2026-02-25` through `2026-05-27`.
 
 ## Phase Spine
 
@@ -58,6 +58,14 @@ Key anchors:
 
 Core claim: later-stage tactical intelligence and decapitation temptation can reactivate the original smart-bomb trap at a higher rung, where apparent precision success worsens strategic control and economic instability simultaneously.
 
+### Postwar Energy Repricing
+
+Key anchors:
+
+- [2026-05-27 The Price of Oil Is the Real Iran Deal](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-27/substack-pape-the-price-of-oil-is-the-real-iran-2026-05-27.md)
+
+Core claim: the strategic outcome of the war may ultimately be decided not by formal reopening of Hormuz or nuclear bargaining alone, but by whether Iran can sustain a structurally higher Gulf risk premium and keep energy prices elevated long enough to reprice relative power.
+
 ## Key Forecast Rows
 
 | id | anchor | prediction | main falsifier |
@@ -68,6 +76,7 @@ Core claim: later-stage tactical intelligence and decapitation temptation can re
 | `PAPE-2026-F018` | [2026-05-04](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-04/substack-pape-the-united-states-just-made-a-bet-2026-05-04.md) | U.S. escort strategy is a credibility bet it cannot afford to lose | escort posture restores durable shipping confidence and lowers insurance costs |
 | `PAPE-2026-F023` | [2026-05-03](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-03/substack-pape-what-the-first-60-days-actually-changed-and-why-the-next-30-will-be-worse-2026-05-03.md) | Iran may become a fourth coercive center of world power | Hormuz loses coercive salience and global actors stop routing decisions around Iran |
 | `PAPE-2026-F027` | [2026-05-23](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-23/substack-pape-trump-may-be-approaching-the-biggest-2026-05-23.md) | decapitation-style tactical intelligence will deepen rather than resolve the smart-bomb trap if Iran retains escalation and economic leverage | renewed strikes produce durable political control without wider Gulf disruption, leadership retaliation risk, or intensified instability |
+| `PAPE-2026-F030` | [2026-05-27](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-27/substack-pape-the-price-of-oil-is-the-real-iran-2026-05-27.md) | even after Hormuz reopens, a durable Gulf risk premium can keep oil materially above prewar baselines and shift relative power through controlled instability | war-risk premiums compress, tanker confidence normalizes, and oil returns near prewar range without a sustained strategic repricing window |
 
 ## Boundary
 

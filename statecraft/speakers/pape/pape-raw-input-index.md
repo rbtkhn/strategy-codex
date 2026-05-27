@@ -38,6 +38,10 @@ Purpose: route map for the materialized Pape corpus in `source-archive/statecraf
 
 - [2026-05-23 Trump May Be Approaching the Biggest Smart Bomb Trap Yet](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-23/substack-pape-trump-may-be-approaching-the-biggest-2026-05-23.md)
 
+### Postwar Energy Repricing
+
+- [2026-05-27 The Price of Oil Is the Real Iran Deal](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-27/substack-pape-the-price-of-oil-is-the-real-iran-2026-05-27.md)
+
 ## Interview-Pressure Anchors
 
 - [2026-03-10 Davis x Pape - The Escalation Trap](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-10/transcript-davis-pape-escalation-trap-2026-03-10.md)
