@@ -4,8 +4,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Stats
 
-- Source files: `6`
-- Type mix: `youtube` (4), `substack` (1), `transcript` (1)
+- Source files: `7`
+- Type mix: `youtube` (4), `substack` (2), `transcript` (1)
 - Distinct channels/shows: `5`
 - Distinct hosts: `4`
 - Distinct guests: `2`
@@ -23,11 +23,12 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Filename Family Fallbacks
 
-- `substack-*` (1), `youtube-alex-mercouris-*` (1), `youtube-daniel-davis-deep-dive-*` (1)
+- `substack-*` (2), `youtube-alex-mercouris-*` (1), `youtube-daniel-davis-deep-dive-*` (1)
 
 ## Files
 
 - `substack-pape-trump-may-be-approaching-the-biggest-2026-05-23.md`
+- `substack-predictive-history-the-loneliness-of-mad-king-trump-2026-05-23.md`
 - `transcript-diesen-sachs-the-baltic-states-are-now-the-most-dangerous-place-in-the-world-2026-05-23.md`
 - `youtube-alex-mercouris-russia-vows-starobelsk-retaliation-nato-says-russia-hijacking-kiev-s-drones-msm-us-losing-iran-war-2026-05-23.md`
 - `youtube-daniel-davis-deep-dive-deep-dive-intel-briefing-5-23-2026-lt-col-daniel-davis-2026-05-23.md`

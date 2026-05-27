@@ -24,14 +24,14 @@ Freeman repeatedly uses maritime history to show that sea control is contingent,
 
 ## Exact Quote Anchors
 
-- [2026-05-06 Glenn Diesen](../../years/2026/raw-input/2026-05-06/transcript-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md)
+- [2026-05-06 Glenn Diesen](../../years/2026/provenance/2026-05-06/transcript-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md)
   > "In 1763, at the end of the Seven Years' War, Britain decisively defeated French naval power and became the dominant power on the seas"
 
   > "The Battle of the Bismarck Sea began on that day ... it was the moment at which historians date the transition from British to American dominance of the seas"
 
   > "We should have learned that in Vietnam, where there were 300,000 Chinese military engineers who kept the railroads operating for the Vietnamese"
 
-- [2025-12-18 Glenn Diesen](../../years/2026/raw-input/2025-12-18/youtube-glenn-diesen-chas-freeman-age-of-wars-as-freedom-of-navigation-ends-2025-12-18.md)
+- [2025-12-18 Glenn Diesen](../../years/2026/provenance/2025-12-18/youtube-glenn-diesen-chas-freeman-age-of-wars-as-freedom-of-navigation-ends-2025-12-18.md)
   > "we had essentially during the Cold War period ... control of the world seas ... And so we're trying to hold on to control which is no longer possible"
 
 ## What Freeman Is Arguing

@@ -84,7 +84,7 @@ IHL content: useful for notebook legal seams; adjudication belongs to courts or 
 
 ### Appendix
 
-- **Full verbatim (capture):** [raw-input/2026-04-20/ritter-rant-shorting-america-7pXI52jKcOU.md](../../../../years/2026/raw-input/2026-04-20/ritter-rant-shorting-america-7pXI52jKcOU.md)
+- **Full verbatim (capture):** [provenance/2026-04-20/ritter-rant-shorting-america-7pXI52jKcOU.md](../../../../years/2026/provenance/2026-04-20/ritter-rant-shorting-america-7pXI52jKcOU.md)
 - **Inbox / triage:** [daily-strategy-inbox.md](../../daily-strategy-inbox.md) (search `thread:ritter`, 2026-04-20)
 - **`thread:ritter`** · **verify:** primary capture on disk + voice date + inbox row (SS | / JF | / YT | as applicable)
 - **Canonical primary:** https://www.youtube.com/watch?v=7pXI52jKcOU

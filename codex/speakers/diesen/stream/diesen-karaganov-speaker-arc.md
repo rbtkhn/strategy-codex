@@ -47,12 +47,12 @@ Current canonical `Diesen × Karaganov` raw-inputs on disk:
 
 If the operator needs only one file:
 
-- open [youtube-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-10/youtube-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md)
+- open [youtube-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-10/youtube-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md)
 
 If the operator needs the best paired read:
 
-- open [youtube-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-10/youtube-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md)
-- then [transcript-diesen-karaganov-russias-eurasian-future-spiritual-revival-2025-05-14.md](/C:/dev/strategy-codex/codex/years/2025/raw-input/2025-05-14/transcript-diesen-karaganov-russias-eurasian-future-spiritual-revival-2025-05-14.md)
+- open [youtube-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-10/youtube-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md)
+- then [transcript-diesen-karaganov-russias-eurasian-future-spiritual-revival-2025-05-14.md](/C:/dev/strategy-codex/codex/years/2025/provenance/2025-05-14/transcript-diesen-karaganov-russias-eurasian-future-spiritual-revival-2025-05-14.md)
 
 That pair gives the clearest combination of:
 

@@ -24,8 +24,8 @@ Guest lane holds **Ritter-analytic** moves; Diesen’s interview bridges live in
 
 ### Appendix
 
-- **Full verbatim (capture SSOT):** [raw-input/2026-04-17/transcript-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md](../../../../years/2026/raw-input/2026-04-17/transcript-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md)
+- **Full verbatim (capture SSOT):** [provenance/2026-04-17/transcript-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md](../../../../years/2026/provenance/2026-04-17/transcript-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md)
 - **Inbox / triage:** [daily-strategy-inbox.md](../../daily-strategy-inbox.md)
 - **`thread:ritter` × `thread:diesen` ·** Host: [../../diesen/stream/diesen-page-2026-04-17-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md](../../diesen/stream/diesen-page-2026-04-17-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md) · **verify:** `pub_date:2026-04-17`
-- **Canonical primary:** `https://www.youtube.com/watch?v=TBD-diesen-ritter-finland-baltic-2026-04`
+- **Canonical primary:** unresolved locally; use the linked raw-input capture until the watch URL is pinned.
 - **`ritter-pages-manifest.yaml`:** `skip_assembly: true` on this `raw_input_relative` — do not run `assemble_ritter_pages_verbatim.py` expecting to refresh this guest lane from stub SSOT.

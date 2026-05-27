@@ -217,7 +217,7 @@ If, indeed, they can survive the experience.
 
 ### Appendix
 
-- **Full verbatim (capture):** [raw-input/2026-02-05/substack-ritter-alas-babylon-2026-02-05.md](../../../../years/2026/raw-input/2026-02-05/substack-ritter-alas-babylon-2026-02-05.md)
+- **Full verbatim (capture):** [provenance/2026-02-05/substack-ritter-alas-babylon-2026-02-05.md](../../../../years/2026/provenance/2026-02-05/substack-ritter-alas-babylon-2026-02-05.md)
 - **Inbox / triage:** [daily-strategy-inbox.md](../../daily-strategy-inbox.md) (search `thread:ritter`, 2026-02-05)
 - **`thread:ritter`** · **verify:** primary capture on disk + voice date + inbox row (SS | / JF | / YT | as applicable)
 - **Canonical primary:** https://scottritter.substack.com/p/alas-babylon

@@ -60,12 +60,12 @@ This is enough to treat `Diesen x Beebe` as a real recurring host-local branch r
 
 If the operator needs only one file:
 
-- open [2026-05-14 Diesen x Beebe](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-14/youtube-glenn-diesen-george-beebe-europe-russia-war-as-the-u-s-pulls-back-2026-05-14.md)
+- open [2026-05-14 Diesen x Beebe](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-14/youtube-glenn-diesen-george-beebe-europe-russia-war-as-the-u-s-pulls-back-2026-05-14.md)
 
 If the operator needs the best paired read:
 
-- open [2025-11-26 Diesen x Beebe](/C:/dev/strategy-codex/codex/years/2026/raw-input/2025-11-26/youtube-glenn-diesen-george-beebe-ukraine-faces-destruction-if-europe-derails-peace-2025-11-26.md)
-- then [2026-01-23 Diesen x Beebe](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-01-23/youtube-glenn-diesen-george-beebe-a-new-us-grand-strategy-europe-s-strategic-failure-2026-01-23.md)
+- open [2025-11-26 Diesen x Beebe](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-11-26/youtube-glenn-diesen-george-beebe-ukraine-faces-destruction-if-europe-derails-peace-2025-11-26.md)
+- then [2026-01-23 Diesen x Beebe](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-01-23/youtube-glenn-diesen-george-beebe-a-new-us-grand-strategy-europe-s-strategic-failure-2026-01-23.md)
 
 That pair gives the clearest lane shape:
 

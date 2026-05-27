@@ -45,7 +45,7 @@ Primary Freeman surface:
 
 Raw-input anchor:
 
-- [2025-12-04 Diesen / Freeman](../../years/2026/raw-input/2025-12-04/transcript-diesen-freeman-thucydides-trap-us-reaction-china-rise-2025-12-04.md)
+- [2025-12-04 Diesen / Freeman](../../years/2026/provenance/2025-12-04/transcript-diesen-freeman-thucydides-trap-us-reaction-china-rise-2025-12-04.md)
 
 Why it matters:
 
@@ -84,7 +84,7 @@ Primary Freeman surfaces:
 
 Raw-input anchor:
 
-- [2026-05-06 Diesen / Freeman](../../years/2026/raw-input/2026-05-06/transcript-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md)
+- [2026-05-06 Diesen / Freeman](../../years/2026/provenance/2026-05-06/transcript-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md)
 
 Why it matters:
 

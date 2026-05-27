@@ -27,7 +27,7 @@ In this lane the episode reads as a single coherent escalation narrative: diplom
 
 ### Appendix
 
-- **Full verbatim (capture):** [raw-input/2026-04-21/2026-04-21-mercouris-verbatim.md](../../../../years/2026/raw-input/2026-04-21/2026-04-21-mercouris-verbatim.md)
+- **Full verbatim (capture):** [provenance/2026-04-21/2026-04-21-mercouris-verbatim.md](../../../../years/2026/provenance/2026-04-21/2026-04-21-mercouris-verbatim.md)
 - **Inbox / triage:** [daily-strategy-inbox.md](../../daily-strategy-inbox.md) (search `thread:mercouris`, 2026-04-21)
 - **`thread:mercouris`** · **verify:** full-text + verbatim path + operator-transcript tier
 - **Canonical video:** Pin when known — see raw-input frontmatter or episode cold line (replace TBD placeholder)

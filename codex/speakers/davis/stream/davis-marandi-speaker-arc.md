@@ -45,12 +45,12 @@ This lane is now materially present on disk as a 2026 Iran-war run. It should be
 
 If the operator needs only one file:
 
-- open [youtube-daniel-davis-deep-dive-iran-intimidation-has-failed-professor-seyed-marandi-2026-05-10.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-10/youtube-daniel-davis-deep-dive-iran-intimidation-has-failed-professor-seyed-marandi-2026-05-10.md)
+- open [youtube-daniel-davis-deep-dive-iran-intimidation-has-failed-professor-seyed-marandi-2026-05-10.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-10/youtube-daniel-davis-deep-dive-iran-intimidation-has-failed-professor-seyed-marandi-2026-05-10.md)
 
 If the operator needs the best paired read:
 
-- open [youtube-daniel-davis-deep-dive-iran-intimidation-has-failed-professor-seyed-marandi-2026-05-10.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-10/youtube-daniel-davis-deep-dive-iran-intimidation-has-failed-professor-seyed-marandi-2026-05-10.md)
-- then [davis-marandi-too-late-for-ground-attack-in-iran-2026-05-07.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-07/davis-marandi-too-late-for-ground-attack-in-iran-2026-05-07.md)
+- open [youtube-daniel-davis-deep-dive-iran-intimidation-has-failed-professor-seyed-marandi-2026-05-10.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-10/youtube-daniel-davis-deep-dive-iran-intimidation-has-failed-professor-seyed-marandi-2026-05-10.md)
+- then [davis-marandi-too-late-for-ground-attack-in-iran-2026-05-07.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-07/davis-marandi-too-late-for-ground-attack-in-iran-2026-05-07.md)
 
 That pair gives the clearest mature lane shape:
 

@@ -18,6 +18,6 @@ Daily continuity seed for `alkorshid` inside the 2026 strategy-codex volume. Use
 
 ## Source Links
 
-- Shared raw input: [`../../../years/2026/raw-input/`](../../../years/2026/raw-input/)
+- Shared raw input: [`../../../years/2026/provenance/`](../../../years/2026/provenance/)
 
 WORK only; not Record.

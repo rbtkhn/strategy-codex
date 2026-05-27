@@ -22,10 +22,10 @@ Freeman invokes Monroe not as a schoolbook historical note, but as a still-opera
 
 ## Exact Quote Anchors
 
-- [2025-12-15 Neutrality Studies](../../years/2026/raw-input/2025-12-15/transcript-neutrality-studies-freeman-us-naval-seizures-caribbean-2025-12-15.md)
+- [2025-12-15 Neutrality Studies](../../years/2026/provenance/2025-12-15/transcript-neutrality-studies-freeman-us-naval-seizures-caribbean-2025-12-15.md)
   > "it basically asserts a right of the United States under a Trump corollary to the Monroe Doctrine to ignore the sovereignty of every country in the Western Hemisphere while demanding that every other country respect American sovereignty"
 
-- [2025-01-24 Dialogue Works](../../years/2026/raw-input/2025-01-24/transcript-dialogue-works-amb-chas-freeman-is-the-world-on-the-brink-of-total-chaos-2025-01-24.md)
+- [2025-01-24 Dialogue Works](../../years/2026/provenance/2025-01-24/transcript-dialogue-works-amb-chas-freeman-is-the-world-on-the-brink-of-total-chaos-2025-01-24.md)
   > "we may be retreating to the Western Hemisphere ... the Trump White House issued what they called the Trump corollary to the Monroe Doctrine"
 
 ## What Freeman Is Arguing

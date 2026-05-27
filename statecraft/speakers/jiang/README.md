@@ -17,7 +17,7 @@ Use it for Jiang-facing statecraft routing, Predictive History mirror access, an
 
 ## Canonical Structure
 
-Jiang's canonical statecraft shelf currently has four speaker-owned layers plus one embedded mirror:
+Jiang's canonical statecraft shelf has one count/routing SSOT, three shelf surfaces, one support spine, and one embedded mirror:
 
 - **Master Predictive History count/routing index:** [jiang-predictive-history-master-index.md](jiang-predictive-history-master-index.md)
 - **Person arc:** [jiang-arc.md](jiang-arc.md)
@@ -39,4 +39,4 @@ This shelf owns the local opening path. Public repo identity remains `rbtkhn/ph-
 
 ## Boundary
 
-Jiang is canonical here under `statecraft/speakers/jiang/`. The embedded mirror remains a real standalone git work tree, raw transcript/source authority still lives in [`source-archive/statecraft/`](/C:/dev/strategy-codex/source-archive/statecraft), and lanes still own substantive drafting outside the mirror itself.
+Jiang is canonical here under `statecraft/speakers/jiang/`. Use the Jiang shelf to decide which layer you mean, the embedded mirror for public corpus files, and [`source-archive/statecraft/`](/C:/dev/strategy-codex/source-archive/statecraft) for raw source authority outside the mirror.

@@ -35,7 +35,7 @@ So the right use of this page is: trust it for **Pape's framework**, not yet for
 
 ### Appendix
 
-- **Full verbatim (capture):** [raw-input/2026-04-29/youtube-pape-grim-nuclear-iran-inevitable-2026-04-29.md](../../../../years/2026/raw-input/2026-04-29/youtube-pape-grim-nuclear-iran-inevitable-2026-04-29.md)
+- **Full verbatim (capture):** [provenance/2026-04-29/youtube-pape-grim-nuclear-iran-inevitable-2026-04-29.md](../../../../years/2026/provenance/2026-04-29/youtube-pape-grim-nuclear-iran-inevitable-2026-04-29.md)
 - **Inbox / triage:** [daily-strategy-inbox.md](../../daily-strategy-inbox.md) (search `thread:pape`, 2026-04-29)
 - **`thread:pape`** · **verify:** `pub_date:2026-04-29` + full-text under raw-input path above
 - **Canonical primary:** https://www.youtube.com/watch?v=OjH35ZKmF48

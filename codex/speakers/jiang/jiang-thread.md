@@ -160,17 +160,17 @@ _Auto-generated from `transcript.md` + **on-disk** and **inbox** `raw-input/` (d
 ### Recent transcript material
 
 ## 2026-04-28
-- Inbox | cold: full text in [`substack-jiang-trump-new-deal-2026-04-25.md`](raw-input/2026-04-25/substack-jiang-trump-new-deal-2026-04-25.md) (pointer; SSOT raw-input) | thread:jiang
+- Inbox | cold: full text in [`substack-jiang-trump-new-deal-2026-04-25.md`](provenance/2026-04-25/substack-jiang-trump-new-deal-2026-04-25.md) (pointer; SSOT raw-input) | thread:jiang
 ## 2026-04-27
-- Inbox | cold: full text in [`substack-jiang-trump-new-deal-2026-04-25.md`](raw-input/2026-04-25/substack-jiang-trump-new-deal-2026-04-25.md) (pointer; SSOT raw-input) | thread:jiang
+- Inbox | cold: full text in [`substack-jiang-trump-new-deal-2026-04-25.md`](provenance/2026-04-25/substack-jiang-trump-new-deal-2026-04-25.md) (pointer; SSOT raw-input) | thread:jiang
 ## 2026-04-26
-- Inbox | cold: full text in [`substack-jiang-trump-new-deal-2026-04-25.md`](raw-input/2026-04-25/substack-jiang-trump-new-deal-2026-04-25.md) (pointer; SSOT raw-input) | thread:jiang
+- Inbox | cold: full text in [`substack-jiang-trump-new-deal-2026-04-25.md`](provenance/2026-04-25/substack-jiang-trump-new-deal-2026-04-25.md) (pointer; SSOT raw-input) | thread:jiang
 ## 2026-04-25
-- Inbox | cold: full text in [`substack-jiang-trump-new-deal-2026-04-25.md`](raw-input/2026-04-25/substack-jiang-trump-new-deal-2026-04-25.md) (pointer; SSOT raw-input) | thread:jiang
+- Inbox | cold: full text in [`substack-jiang-trump-new-deal-2026-04-25.md`](provenance/2026-04-25/substack-jiang-trump-new-deal-2026-04-25.md) (pointer; SSOT raw-input) | thread:jiang
 
 ### Recent raw-input (lane)
 
 _Union of **on-disk** `raw-input/Ã¢â‚¬Â¦` files tagged with this expertÃ¢â‚¬â„¢s `thread:` and **inbox** lines (same paths de-duped; disk line kept first)._
 
-- [substack-jiang-trump-new-deal-2026-04-25.md](raw-input/2026-04-25/substack-jiang-trump-new-deal-2026-04-25.md) _on-disk_
+- [substack-jiang-trump-new-deal-2026-04-25.md](provenance/2026-04-25/substack-jiang-trump-new-deal-2026-04-25.md) _on-disk_
 <!-- strategy-expert-thread:end -->

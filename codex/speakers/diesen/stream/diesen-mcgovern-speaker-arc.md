@@ -54,12 +54,12 @@ This is enough to treat `Diesen x McGovern` as a real recurring host-local branc
 
 If the operator needs only one file:
 
-- open [2026-04-05 Diesen x McGovern](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-05/youtube-glenn-diesen-ray-mcgovern-the-death-of-nato-time-for-a-new-strategy-2026-04-05.md)
+- open [2026-04-05 Diesen x McGovern](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-05/youtube-glenn-diesen-ray-mcgovern-the-death-of-nato-time-for-a-new-strategy-2026-04-05.md)
 
 If the operator needs the best paired read:
 
-- open [2026-01-17 Diesen x McGovern](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-01-17/youtube-glenn-diesen-ray-mcgovern-the-road-war-arms-control-collapsing-2026-01-17.md)
-- then [2026-04-05 Diesen x McGovern](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-05/youtube-glenn-diesen-ray-mcgovern-the-death-of-nato-time-for-a-new-strategy-2026-04-05.md)
+- open [2026-01-17 Diesen x McGovern](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-01-17/youtube-glenn-diesen-ray-mcgovern-the-road-war-arms-control-collapsing-2026-01-17.md)
+- then [2026-04-05 Diesen x McGovern](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-05/youtube-glenn-diesen-ray-mcgovern-the-death-of-nato-time-for-a-new-strategy-2026-04-05.md)
 
 That pair gives the clearest lane shape:
 

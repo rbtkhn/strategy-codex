@@ -23,7 +23,7 @@ Host: narrative-of-disappointment to set up the episode title’s question (stra
 
 ### Appendix
 
-- **Full verbatim (capture):** [raw-input/2026-03-27/transcript-diesen-mearsheimer-iran-holds-all-the-cards-2026-03-27.md](../../../../years/2026/raw-input/2026-03-27/transcript-diesen-mearsheimer-iran-holds-all-the-cards-2026-03-27.md)
+- **Full verbatim (capture):** [provenance/2026-03-27/transcript-diesen-mearsheimer-iran-holds-all-the-cards-2026-03-27.md](../../../../years/2026/provenance/2026-03-27/transcript-diesen-mearsheimer-iran-holds-all-the-cards-2026-03-27.md)
 - **Inbox / triage:** [daily-strategy-inbox.md](../../daily-strategy-inbox.md)
 - **`thread:diesen` × `thread:mearsheimer` ·** Guest: [../mearsheimer/mearsheimer-page-2026-03-27-diesen-mearsheimer-iran-holds-all-the-cards-2026-03-27.md](../mearsheimer/mearsheimer-page-2026-03-27-diesen-mearsheimer-iran-holds-all-the-cards-2026-03-27.md) · **verify:** `pub_date:2026-03-27`
 - **Canonical primary:** `https://www.youtube.com/watch?v=DBOVT0UdHXg`

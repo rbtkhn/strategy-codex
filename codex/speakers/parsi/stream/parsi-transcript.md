@@ -3,6 +3,8 @@
 
 WORK only; not Record.
 
+Compatibility note: this is a legacy continuity transcript surface. Use it as support residue, not as a first-open citation path when the person arc, routing note, thread atlas, bounded month arcs, or raw-input bench already answer the question more directly.
+
 **Source:** Verbatim blocks from [`daily-strategy-inbox.md`](daily-strategy-inbox.md) that include `thread:parsi` (first line + optional continuation paragraphs), routed on ingest.
 **Length:** Target **â‰¤ 2000 words** per ingest block; whole file soft **â‰¤ 20000 words** after prune (7-day window makes overrun unlikely).
 **Retention:** 7-day rolling window; date sections older than 7 days are pruned automatically.

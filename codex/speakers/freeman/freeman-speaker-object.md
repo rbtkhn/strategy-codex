@@ -38,7 +38,7 @@ Freeman's utility profile is:
 
 ## Recent reinforcement
 
-- `2026-05-16` [Power Moves East: China Teaches USA a Big Lesson | Chas Freeman](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-16/youtube-neutrality-studies-power-moves-east-china-teaches-usa-a-big-lesson-chas-freeman-2026-05-16.md) reinforces the Freeman object through a Neutrality Studies host lane: Trump-Xi as equal-status encounter, China as cautious order-preserving world power, Hormuz as maritime-order precedent, and diplomacy as a deteriorated Western capability.
+- `2026-05-16` [Power Moves East: China Teaches USA a Big Lesson | Chas Freeman](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-16/youtube-neutrality-studies-power-moves-east-china-teaches-usa-a-big-lesson-chas-freeman-2026-05-16.md) reinforces the Freeman object through a Neutrality Studies host lane: Trump-Xi as equal-status encounter, China as cautious order-preserving world power, Hormuz as maritime-order precedent, and diplomacy as a deteriorated Western capability.
 
 Additional non-core Freeman surfaces are already wired at the year level. The key distinction is structural: materialized transcript-bearing appearances belong to the `non-core appearance bench`, while found-but-not-yet-materialized items belong to `discovery memory`.
 

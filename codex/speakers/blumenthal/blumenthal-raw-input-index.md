@@ -6,19 +6,19 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Max B
 
 ## 2026-04
 
-- [transcript-blumenthal-israel-defeat-zionist-power-2026-04-21](../../years/2026/raw-input/2026-04-21/transcript-blumenthal-israel-defeat-zionist-power-2026-04-21.md)
-- [2026-04-25-blumenthal](../../years/2026/raw-input/2026-04-25/2026-04-25-blumenthal.md)
-- [2026-04-26-blumenthal](../../years/2026/raw-input/2026-04-26/2026-04-26-blumenthal.md)
-- [2026-04-27-blumenthal](../../years/2026/raw-input/2026-04-27/2026-04-27-blumenthal.md)
-- [2026-04-28-blumenthal](../../years/2026/raw-input/2026-04-28/2026-04-28-blumenthal.md)
+- [transcript-blumenthal-israel-defeat-zionist-power-2026-04-21](../../years/2026/provenance/2026-04-21/transcript-blumenthal-israel-defeat-zionist-power-2026-04-21.md)
+- [2026-04-25-blumenthal](../../years/2026/provenance/2026-04-25/2026-04-25-blumenthal.md)
+- [2026-04-26-blumenthal](../../years/2026/provenance/2026-04-26/2026-04-26-blumenthal.md)
+- [2026-04-27-blumenthal](../../years/2026/provenance/2026-04-27/2026-04-27-blumenthal.md)
+- [2026-04-28-blumenthal](../../years/2026/provenance/2026-04-28/2026-04-28-blumenthal.md)
 
 ## 2026-05
 
-- [youtube-blumenthal-judging-freedom-us-consumers-paying-for-trump-s-war-2026-05-20](../../years/2026/raw-input/2026-05-20/youtube-blumenthal-judging-freedom-us-consumers-paying-for-trump-s-war-2026-05-20.md)
+- [youtube-blumenthal-judging-freedom-us-consumers-paying-for-trump-s-war-2026-05-20](../../years/2026/provenance/2026-05-20/youtube-blumenthal-judging-freedom-us-consumers-paying-for-trump-s-war-2026-05-20.md)
 
 ## Inventory / Discovery Surface
 
-- [dialogue-works-inventory](../../years/2026/raw-input/dialogue-works-inventory.md)
+- [dialogue-works-inventory](../../years/2026/provenance/dialogue-works-inventory.md)
 
 ## Boundary Notes
 

@@ -136,7 +136,7 @@ We failed in our duty to keep it.
 
 ### Appendix
 
-- **Full verbatim (capture):** [raw-input/2026-01-13/substack-ritter-losing-the-republic-2026-01-13.md](../../../../years/2026/raw-input/2026-01-13/substack-ritter-losing-the-republic-2026-01-13.md)
+- **Full verbatim (capture):** [provenance/2026-01-13/substack-ritter-losing-the-republic-2026-01-13.md](../../../../years/2026/provenance/2026-01-13/substack-ritter-losing-the-republic-2026-01-13.md)
 - **Inbox / triage:** [daily-strategy-inbox.md](../../daily-strategy-inbox.md) (search `thread:ritter`, 2026-01-13)
 - **`thread:ritter`** · **verify:** primary capture on disk + voice date + inbox row (SS | / JF | / YT | as applicable)
 - **Canonical primary:** https://scottritter.substack.com/p/loosing-the-republic

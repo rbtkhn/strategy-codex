@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # Jiang Routing
 
-Use this file to decide whether to open the Jiang shelf or the embedded mirror first.
+Use this file to decide which Jiang layer to open first.
 
 ## Open the Jiang shelf first when
 
@@ -19,14 +19,18 @@ Use this file to decide whether to open the Jiang shelf or the embedded mirror f
 - the task is checking source-video indexes, museum manifests, or public repo docs
 - the task is about mirror sync, remote identity, or public-repo parity
 
-## First-open mirror path
+## Open the raw archive first when
 
-- [ph-civ/README.md](ph-civ/README.md)
+- the task is about operator-pasted captures outside the public mirror
+- the task is about recent Jiang / PH source residue not yet surfaced publicly
+- the task is checking raw local transcript or Substack preservation
 
-## First-open shelf count path
+## First-open paths
 
-- [jiang-predictive-history-master-index.md](jiang-predictive-history-master-index.md)
+- Count and scope: [jiang-predictive-history-master-index.md](jiang-predictive-history-master-index.md)
+- Public mirror: [ph-civ/README.md](ph-civ/README.md)
+- Raw archive bench: [source-archive/statecraft/jiang-predictive-history-index.md](/C:/dev/strategy-codex/source-archive/statecraft/jiang-predictive-history-index.md)
 
 ## Routing rule
 
-The Jiang shelf is the canonical statecraft-side front door, but the embedded `ph-civ/` repo remains the authoritative local mirror object. Use the shelf for speaker law, count disambiguation, and routing; use the mirror for corpus-local files.
+The Jiang shelf is the canonical statecraft-side front door. Use the shelf for speaker law, count disambiguation, and layer choice; use the mirror for public corpus files; use the raw archive bench for source residue outside the mirror.

@@ -18,7 +18,7 @@ The current notebook truth is:
 
 Recent representation note:
 
-- [2026-05-16 Diesen x Mercouris](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-mercouris-speaker-arc.md) should be read as both a Diesen host-shelf event and a Mercouris speaker-object reinforcement. The raw transcript remains single-source at [youtube-glenn-diesen-alexander-mercouris-the-political-legitimacy-crisis-across-europe-2026-05-16.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-16/youtube-glenn-diesen-alexander-mercouris-the-political-legitimacy-crisis-across-europe-2026-05-16.md).
+- [2026-05-16 Diesen x Mercouris](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-mercouris-speaker-arc.md) should be read as both a Diesen host-shelf event and a Mercouris speaker-object reinforcement. The raw transcript remains single-source at [youtube-glenn-diesen-alexander-mercouris-the-political-legitimacy-crisis-across-europe-2026-05-16.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-16/youtube-glenn-diesen-alexander-mercouris-the-political-legitimacy-crisis-across-europe-2026-05-16.md).
 
 ## How to read the split
 

@@ -248,7 +248,7 @@ You’ll all be dead
 
 ### Appendix
 
-- **Full verbatim (capture):** [raw-input/2026-01-18/substack-ritter-dont-drink-the-water-2026-01-18.md](../../../../years/2026/raw-input/2026-01-18/substack-ritter-dont-drink-the-water-2026-01-18.md)
+- **Full verbatim (capture):** [provenance/2026-01-18/substack-ritter-dont-drink-the-water-2026-01-18.md](../../../../years/2026/provenance/2026-01-18/substack-ritter-dont-drink-the-water-2026-01-18.md)
 - **Inbox / triage:** [daily-strategy-inbox.md](../../daily-strategy-inbox.md) (search `thread:ritter`, 2026-01-18)
 - **`thread:ritter`** · **verify:** primary capture on disk + voice date + inbox row (SS | / JF | / YT | as applicable)
 - **Canonical primary:** https://scottritter.substack.com/p/dont-drink-the-water

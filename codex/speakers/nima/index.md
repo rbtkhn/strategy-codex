@@ -32,6 +32,6 @@ The older [stream/nima-thread.md](stream/nima-thread.md) file is a legacy host-c
 
 ## Boundary
 
-`nima` is canonical under `codex/speakers/nima/`. `alkorshid` survives only as a compatibility spelling and alias surface. Raw-text authority stays in [`codex/years/2026/raw-input/`](C:/dev/strategy-codex/codex/years/2026/raw-input).
+`nima` is canonical under `codex/speakers/nima/`. `alkorshid` survives only as a compatibility spelling and alias surface. Raw-text authority stays in [`codex/years/2026/provenance/`](C:/dev/strategy-codex/codex/years/2026/provenance).
 
 Do not read the older `*-speaker-arc.md` filenames as a different arc category from the newer `<host>-<speaker>-arc.md` grammar. In this shelf they are the current embodied guest arcs until a later normalization pass changes the spellings.

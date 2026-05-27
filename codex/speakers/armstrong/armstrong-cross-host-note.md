@@ -20,7 +20,7 @@ The native Armstrong shelf still matters as a real body and orientation surface:
 
 There is also one materially real outside-host reinforcement on disk:
 
-- [2026-02-24 Diesen x Armstrong](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-02-24/youtube-glenn-diesen-martin-armstrong-martin-armstrong-how-europe-destroyed-itself-what-comes-next-2026-02-24.md)
+- [2026-02-24 Diesen x Armstrong](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-02-24/youtube-glenn-diesen-martin-armstrong-martin-armstrong-how-europe-destroyed-itself-what-comes-next-2026-02-24.md)
 
 And there are real page-level and thread-level reinforcements elsewhere in the Codex:
 

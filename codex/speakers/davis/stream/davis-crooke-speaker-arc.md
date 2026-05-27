@@ -34,12 +34,12 @@ Current complete `Davis x Crooke` episode set on disk:
 
 If the operator needs only one file:
 
-- open [transcript-davis-crooke-diplomatic-solution-more-war-2026-05-11.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-11/transcript-davis-crooke-diplomatic-solution-more-war-2026-05-11.md)
+- open [transcript-davis-crooke-diplomatic-solution-more-war-2026-05-11.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-11/transcript-davis-crooke-diplomatic-solution-more-war-2026-05-11.md)
 
 If the operator needs the best paired read:
 
-- open [transcript-davis-crooke-diplomatic-solution-more-war-2026-05-11.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-11/transcript-davis-crooke-diplomatic-solution-more-war-2026-05-11.md)
-- then [transcript-davis-crooke-iranians-only-getting-tougher-2026-04-23.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-23/transcript-davis-crooke-iranians-only-getting-tougher-2026-04-23.md)
+- open [transcript-davis-crooke-diplomatic-solution-more-war-2026-05-11.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-11/transcript-davis-crooke-diplomatic-solution-more-war-2026-05-11.md)
+- then [transcript-davis-crooke-iranians-only-getting-tougher-2026-04-23.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-23/transcript-davis-crooke-iranians-only-getting-tougher-2026-04-23.md)
 
 That pair gives the clearest combination of:
 

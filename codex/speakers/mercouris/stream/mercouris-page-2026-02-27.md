@@ -33,7 +33,7 @@ The Iran thread is a single escalation-read: diplomatic gap is unbridgeable on t
 
 ### Appendix
 
-- **Full verbatim (capture):** [raw-input/2026-02-27/duran-mercouris-us-iran-geneva-embassies-konstantinovka-uk-2026-02-27.md](../../../../years/2026/raw-input/2026-02-27/duran-mercouris-us-iran-geneva-embassies-konstantinovka-uk-2026-02-27.md)
+- **Full verbatim (capture):** [provenance/2026-02-27/duran-mercouris-us-iran-geneva-embassies-konstantinovka-uk-2026-02-27.md](../../../../years/2026/provenance/2026-02-27/duran-mercouris-us-iran-geneva-embassies-konstantinovka-uk-2026-02-27.md)
 - **Inbox / triage:** [daily-strategy-inbox.md](../../daily-strategy-inbox.md) (search `thread:mercouris`, aired 2026-02-27)
 - **`thread:mercouris`** · **verify:** full-text + raw-input + operator-transcript + `aired:2026-02-27` (ingest landed 2026-04-25 in frontmatter)
-- **Canonical video:** [raw-input frontmatter `source_url`](../../../../years/2026/raw-input/2026-02-27/duran-mercouris-us-iran-geneva-embassies-konstantinovka-uk-2026-02-27.md) — replace TBD watch ID when pinned
+- **Canonical video:** [raw-input frontmatter `source_url`](../../../../years/2026/provenance/2026-02-27/duran-mercouris-us-iran-geneva-embassies-konstantinovka-uk-2026-02-27.md) — replace TBD watch ID when pinned

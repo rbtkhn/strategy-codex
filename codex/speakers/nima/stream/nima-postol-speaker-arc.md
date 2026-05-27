@@ -58,11 +58,11 @@ This means the lane should be read two ways:
 
 If the operator needs only one file:
 
-- open [2026-05-08 Alkorshid x Postol](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-08/transcript-alkorshid-postol-third-round-war-israel-worst-nightmare-yet-2026-05-08.md)
+- open [2026-05-08 Alkorshid x Postol](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-08/transcript-alkorshid-postol-third-round-war-israel-worst-nightmare-yet-2026-05-08.md)
 
 If the operator needs the best companion surfaces for the uncaptured run:
 
-- open [dialogue-works-inventory.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/dialogue-works-inventory.md)
+- open [dialogue-works-inventory.md](/C:/dev/strategy-codex/codex/years/2026/provenance/dialogue-works-inventory.md)
 - then [alkorshid-profile.md](/C:/dev/strategy-codex/codex/profiles/alkorshid-profile.md)
 
 That pair gives the clearest sense that this is not a one-off file but a real recurring lane awaiting broader materialization.

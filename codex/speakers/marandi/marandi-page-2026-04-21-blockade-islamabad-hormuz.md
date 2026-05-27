@@ -38,6 +38,6 @@ What is not yet safe to load heavily as fact without primaries is the exact bloc
 
 ### Appendix
 
-- **Full verbatim (capture):** [raw-input/2026-04-21/transcript-marandi-blockade-trump-nima-2026-04-21.md](../../../years/2026/raw-input/2026-04-21/transcript-marandi-blockade-trump-nima-2026-04-21.md)
+- **Full verbatim (capture):** [provenance/2026-04-21/transcript-marandi-blockade-trump-nima-2026-04-21.md](../../../years/2026/provenance/2026-04-21/transcript-marandi-blockade-trump-nima-2026-04-21.md)
 - **Companion primary seam:** [strategy-state-iran/voices/iri-institutional/thread.md](../../strategy-state-iran/voices/iri-institutional/thread.md)
 - **Companion note:** [marandi-source-hygiene-2026-04-21-blockade-islamabad-hormuz.md](marandi-source-hygiene-2026-04-21-blockade-islamabad-hormuz.md)

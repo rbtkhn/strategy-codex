@@ -29,5 +29,5 @@ Do not treat `sachs-thread.md` as competing with the main Diesen-side branch or 
 
 ## Main host route
 
-- [2026-05-12 Diesen x Sachs](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-12/youtube-glenn-diesen-jeffrey-sachs-new-european-military-bloc-for-war-against-russia-2026-05-12.md)
+- [2026-05-12 Diesen x Sachs](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-12/youtube-glenn-diesen-jeffrey-sachs-new-european-military-bloc-for-war-against-russia-2026-05-12.md)
 

@@ -31,7 +31,7 @@ Guest lane holds the structural theses. Host lane [diesen file](../diesen/stream
 
 ### Appendix
 
-- **Full verbatim (capture):** [raw-input/2026-04-10/transcript-diesen-mearsheimer-world-changed-forever-2026-04-10.md](../../../years/2026/raw-input/2026-04-10/transcript-diesen-mearsheimer-world-changed-forever-2026-04-10.md)
+- **Full verbatim (capture):** [provenance/2026-04-10/transcript-diesen-mearsheimer-world-changed-forever-2026-04-10.md](../../../years/2026/provenance/2026-04-10/transcript-diesen-mearsheimer-world-changed-forever-2026-04-10.md)
 - **Inbox / triage:** [daily-strategy-inbox.md](../../daily-strategy-inbox.md) (search `thread:mearsheimer`, 2026-04-10)
 - **`thread:mearsheimer` × `thread:diesen` ·** Host: [../diesen/stream/diesen-page-2026-04-10-diesen-mearsheimer-world-changed-forever-2026-04-10.md](../diesen/stream/diesen-page-2026-04-10-diesen-mearsheimer-world-changed-forever-2026-04-10.md) · **verify:** `pub_date:2026-04-10` + `watch?v=H2K3qDshr70`
 - **Canonical primary:** `https://www.youtube.com/watch?v=H2K3qDshr70`

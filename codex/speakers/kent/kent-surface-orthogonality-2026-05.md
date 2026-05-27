@@ -12,7 +12,7 @@ Local surfaces under review:
 - [davis-kent-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-kent-speaker-arc.md)
 - [diesen-kent-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-kent-speaker-arc.md)
 - [nawfal-kent-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/kent/stream/nawfal-kent-speaker-arc.md)
-- [2026-04-21 Barnes x Kent exit-ramp quote](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-21/x-barnes-kent-exit-ramp-qt-2026-04-21.md)
+- [2026-04-21 Barnes x Kent exit-ramp quote](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-21/x-barnes-kent-exit-ramp-qt-2026-04-21.md)
 
 Bounded claim:
 
@@ -37,7 +37,7 @@ Comparison-only notes:
 
 - [kent-speaker-object.md](/C:/dev/strategy-codex/codex/speakers/kent/kent-speaker-object.md)
 - [kent-helix.md](/C:/dev/strategy-codex/codex/speakers/kent/kent-helix.md)
-- [2026-04-21 Barnes x Kent exit-ramp quote](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-21/x-barnes-kent-exit-ramp-qt-2026-04-21.md)
+- [2026-04-21 Barnes x Kent exit-ramp quote](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-21/x-barnes-kent-exit-ramp-qt-2026-04-21.md)
 
 ## Arc audit
 
@@ -90,7 +90,7 @@ Kent's shelf is not yet a thread-bearing speaker shelf. Its usable structure is 
 
 `reinforcement mistaken for strand`
 
-- [2026-04-21 Barnes x Kent exit-ramp quote](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-21/x-barnes-kent-exit-ramp-qt-2026-04-21.md) confirms that Kent's exit-ramp framing traveled, but it does not constitute a fifth canonical branch
+- [2026-04-21 Barnes x Kent exit-ramp quote](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-21/x-barnes-kent-exit-ramp-qt-2026-04-21.md) confirms that Kent's exit-ramp framing traveled, but it does not constitute a fifth canonical branch
 
 Main confusion zones:
 

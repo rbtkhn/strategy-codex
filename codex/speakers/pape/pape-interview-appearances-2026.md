@@ -16,25 +16,25 @@ Expected v1 count: 4 files.
 
 | date | title | raw-input | function |
 |---|---|---|---|
-| 2026-03-10 | The Escalation Trap: Why Escalation Favors Iran | [raw-input](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-03-10/transcript-davis-pape-escalation-trap-2026-03-10.md) | escalation mechanics and ground-war threshold |
+| 2026-03-10 | The Escalation Trap: Why Escalation Favors Iran | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-10/transcript-davis-pape-escalation-trap-2026-03-10.md) | escalation mechanics and ground-war threshold |
 
 ### Redacted
 
 | date | title | raw-input | function |
 |---|---|---|---|
-| 2026-04-20 | The Collapse is Now Ahead of Schedule | [raw-input](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-20/redacted-pape-collapse-ahead-of-schedule-2026-04-20.md) | shortage clock and contraction compression |
+| 2026-04-20 | The Collapse is Now Ahead of Schedule | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-20/redacted-pape-collapse-ahead-of-schedule-2026-04-20.md) | shortage clock and contraction compression |
 
 ### Breaking Points / Ryan Grim
 
 | date | title | raw-input | function |
 |---|---|---|---|
-| 2026-04-29 | Why a Nuclear Iran Is Inevitable | [raw-input](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-29/youtube-pape-grim-nuclear-iran-inevitable-2026-04-29.md) | fourth-center thesis and U.S. loss of control |
+| 2026-04-29 | Why a Nuclear Iran Is Inevitable | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-29/youtube-pape-grim-nuclear-iran-inevitable-2026-04-29.md) | fourth-center thesis and U.S. loss of control |
 
 ### Mario Nawfal
 
 | date | title | raw-input | function |
 |---|---|---|---|
-| 2026-05-12 | Trump's Next Iran Steps Revealed | [raw-input](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-12/youtube-pape-mario-nawfal-trump-s-next-iran-steps-revealed-2026-05-12.md) | warning-signs compression and public forecast translation |
+| 2026-05-12 | Trump's Next Iran Steps Revealed | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-12/youtube-pape-mario-nawfal-trump-s-next-iran-steps-revealed-2026-05-12.md) | warning-signs compression and public forecast translation |
 
 ## Host Function Map
 

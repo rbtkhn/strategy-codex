@@ -287,7 +287,7 @@ IHL content: useful for notebook legal seams; adjudication belongs to courts or 
 
 ### Appendix
 
-- **Full verbatim (capture):** [raw-input/2026-03-14/substack-ritter-the-backpack-girls-2026-03-14.md](../../../../years/2026/raw-input/2026-03-14/substack-ritter-the-backpack-girls-2026-03-14.md)
+- **Full verbatim (capture):** [provenance/2026-03-14/substack-ritter-the-backpack-girls-2026-03-14.md](../../../../years/2026/provenance/2026-03-14/substack-ritter-the-backpack-girls-2026-03-14.md)
 - **Inbox / triage:** [daily-strategy-inbox.md](../../daily-strategy-inbox.md) (search `thread:ritter`, 2026-03-14)
 - **`thread:ritter`** · **verify:** primary capture on disk + voice date + inbox row (SS | / JF | / YT | as applicable)
 - **Canonical primary:** https://scottritter.substack.com/p/the-backpack-girls

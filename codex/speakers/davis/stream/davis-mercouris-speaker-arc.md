@@ -80,12 +80,12 @@ Treat those as historical stream context, not current capture priorities, unless
 
 If the operator needs the raw source:
 
-- open [youtube-daniel-davis-deep-dive-the-european-gamble-backing-ukraine-alexander-mercouris-lt-col-daniel-davis-2025-12-10.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2025-12-10/youtube-daniel-davis-deep-dive-the-european-gamble-backing-ukraine-alexander-mercouris-lt-col-daniel-davis-2025-12-10.md)
-- open [youtube-daniel-davis-deep-dive-us-helps-ukraine-strike-deep-into-russia-alexander-mercouris-2025-10-02.md](/C:/dev/strategy-codex/codex/years/2025/raw-input/2025-10-02/youtube-daniel-davis-deep-dive-us-helps-ukraine-strike-deep-into-russia-alexander-mercouris-2025-10-02.md)
-- open [youtube-daniel-davis-deep-dive-russia-attacks-using-new-oreshnik-missile-alexander-mercouris-2026-01-09.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-01-09/youtube-daniel-davis-deep-dive-russia-attacks-using-new-oreshnik-missile-alexander-mercouris-2026-01-09.md)
-- open [youtube-daniel-davis-deep-dive-us-largest-warship-in-latin-american-waters-alexander-mercouris-2025-11-12.md](/C:/dev/strategy-codex/codex/years/2025/raw-input/2025-11-12/youtube-daniel-davis-deep-dive-us-largest-warship-in-latin-american-waters-alexander-mercouris-2025-11-12.md)
-- open [youtube-daniel-davis-deep-dive-trump-abandon-or-protecting-ukraine-alexander-mercouris-2025-02-27.md](/C:/dev/strategy-codex/codex/years/2025/raw-input/2025-02-27/youtube-daniel-davis-deep-dive-trump-abandon-or-protecting-ukraine-alexander-mercouris-2025-02-27.md)
-- open [youtube-daniel-davis-deep-dive-the-duran-s-alexander-mercouris-nato-preparing-for-war-w-russia-2025-01-16.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2025-01-16/youtube-daniel-davis-deep-dive-the-duran-s-alexander-mercouris-nato-preparing-for-war-w-russia-2025-01-16.md)
+- open [youtube-daniel-davis-deep-dive-the-european-gamble-backing-ukraine-alexander-mercouris-lt-col-daniel-davis-2025-12-10.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-12-10/youtube-daniel-davis-deep-dive-the-european-gamble-backing-ukraine-alexander-mercouris-lt-col-daniel-davis-2025-12-10.md)
+- open [youtube-daniel-davis-deep-dive-us-helps-ukraine-strike-deep-into-russia-alexander-mercouris-2025-10-02.md](/C:/dev/strategy-codex/codex/years/2025/provenance/2025-10-02/youtube-daniel-davis-deep-dive-us-helps-ukraine-strike-deep-into-russia-alexander-mercouris-2025-10-02.md)
+- open [youtube-daniel-davis-deep-dive-russia-attacks-using-new-oreshnik-missile-alexander-mercouris-2026-01-09.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-01-09/youtube-daniel-davis-deep-dive-russia-attacks-using-new-oreshnik-missile-alexander-mercouris-2026-01-09.md)
+- open [youtube-daniel-davis-deep-dive-us-largest-warship-in-latin-american-waters-alexander-mercouris-2025-11-12.md](/C:/dev/strategy-codex/codex/years/2025/provenance/2025-11-12/youtube-daniel-davis-deep-dive-us-largest-warship-in-latin-american-waters-alexander-mercouris-2025-11-12.md)
+- open [youtube-daniel-davis-deep-dive-trump-abandon-or-protecting-ukraine-alexander-mercouris-2025-02-27.md](/C:/dev/strategy-codex/codex/years/2025/provenance/2025-02-27/youtube-daniel-davis-deep-dive-trump-abandon-or-protecting-ukraine-alexander-mercouris-2025-02-27.md)
+- open [youtube-daniel-davis-deep-dive-the-duran-s-alexander-mercouris-nato-preparing-for-war-w-russia-2025-01-16.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-01-16/youtube-daniel-davis-deep-dive-the-duran-s-alexander-mercouris-nato-preparing-for-war-w-russia-2025-01-16.md)
 
 If the operator needs the next capture candidates:
 

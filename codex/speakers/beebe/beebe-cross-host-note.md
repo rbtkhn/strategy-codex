@@ -53,7 +53,7 @@ Open:
 
 Then:
 
-- [2026-05-14 Diesen x Beebe](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-14/youtube-glenn-diesen-george-beebe-europe-russia-war-as-the-u-s-pulls-back-2026-05-14.md)
+- [2026-05-14 Diesen x Beebe](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-14/youtube-glenn-diesen-george-beebe-europe-russia-war-as-the-u-s-pulls-back-2026-05-14.md)
 
 ## Doctrine boundary
 

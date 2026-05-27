@@ -126,7 +126,7 @@ IHL content: useful for notebook legal seams; adjudication belongs to courts or 
 
 ### Appendix
 
-- **Full verbatim (capture):** [raw-input/2026-04-20/judging-freedom-trump-hegseth-2026-04-20.md](../../../../years/2026/raw-input/2026-04-20/judging-freedom-trump-hegseth-2026-04-20.md)
+- **Full verbatim (capture):** [provenance/2026-04-20/judging-freedom-trump-hegseth-2026-04-20.md](../../../../years/2026/provenance/2026-04-20/judging-freedom-trump-hegseth-2026-04-20.md)
 - **Inbox / triage:** [daily-strategy-inbox.md](../../daily-strategy-inbox.md) (search `thread:ritter`, 2026-04-20)
 - **`thread:ritter`** · **verify:** primary capture on disk + voice date + inbox row (SS | / JF | / YT | as applicable)
-- **Canonical primary:** https://www.youtube.com/watch?v=TBD-judging-freedom-ritter-2026-04-20
+- **Canonical primary:** https://www.youtube.com/watch?v=QRkC8xniXkQ

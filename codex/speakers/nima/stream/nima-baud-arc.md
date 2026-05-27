@@ -21,13 +21,13 @@ What makes this a real pair arc is that the same shape keeps returning:
 
 ## Arc set
 
-1. [transcript-alkorshid-baud-hormuz-security-architecture-2026-05-11.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-11/transcript-alkorshid-baud-hormuz-security-architecture-2026-05-11.md)
+1. [transcript-alkorshid-baud-hormuz-security-architecture-2026-05-11.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-11/transcript-alkorshid-baud-hormuz-security-architecture-2026-05-11.md)
    Best mature anchor. Strong on why repeated attacks make Iranian deterrence more rational, why Hormuz becomes managed rather than open, and why French or European "peacekeeping" talk is strategically unserious.
 
-2. [transcript-baud-dialogue-works-nima-2026-05-04.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-04/transcript-baud-dialogue-works-nima-2026-05-04.md)
+2. [transcript-baud-dialogue-works-nima-2026-05-04.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-04/transcript-baud-dialogue-works-nima-2026-05-04.md)
    Best blockade-process file. Strong on Project Freedom, filtered passage through Hormuz, GCC vulnerability, and the difference between show of force and usable strategy.
 
-3. [transcript-baud-dialogue-works-nima-2026-04-27.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-27/transcript-baud-dialogue-works-nima-2026-04-27.md)
+3. [transcript-baud-dialogue-works-nima-2026-04-27.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-27/transcript-baud-dialogue-works-nima-2026-04-27.md)
    Best first anchor. Strong on Islamabad, Oman, managed passage logic, strategic asymmetry, and the claim that the West fights tactically without coherent political objectives.
 
 ## Full known 2026 episode set
@@ -36,23 +36,23 @@ The complete known `Dialogue Works x Baud` run in 2026 is broader than the curre
 
 Captured or mirrored on disk:
 
-- 2026-01-06 - [transcript-dialogue-works-col-jacques-baud-the-world-is-entering-a-lawless-era-2026-01-06.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-01-06/transcript-dialogue-works-col-jacques-baud-the-world-is-entering-a-lawless-era-2026-01-06.md)
-- 2026-01-19 - [transcript-dialogue-works-col-jacques-baud-eu-drops-a-bombshell-while-nato-faces-serious-trouble-2025-01-19.md](/C:/dev/strategy-codex/codex/years/2025/raw-input/2025-01-19/transcript-dialogue-works-col-jacques-baud-eu-drops-a-bombshell-while-nato-faces-serious-trouble-2025-01-19.md)
-- 2026-02-02 - [transcript-dialogue-works-col-jacques-baud-why-the-eu-is-failing-on-every-front-2026-02-02.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-02-02/transcript-dialogue-works-col-jacques-baud-why-the-eu-is-failing-on-every-front-2026-02-02.md)
-- 2026-02-16 - [transcript-dialogue-works-col-jacques-baud-iran-goes-all-in-this-could-be-the-eu-s-biggest-blunder-yet-2026-02-16.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-02-16/transcript-dialogue-works-col-jacques-baud-iran-goes-all-in-this-could-be-the-eu-s-biggest-blunder-yet-2026-02-16.md)
-- 2026-02-23 - [transcript-dialogue-works-col-jacques-baud-the-west-s-strategic-failure-are-we-running-out-of-time-2026-02-23.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-02-23/transcript-dialogue-works-col-jacques-baud-the-west-s-strategic-failure-are-we-running-out-of-time-2026-02-23.md)
-- 2026-03-02 - [youtube-dialogue-works-jacques-baud-middle-east-on-fire-is-this-the-start-of-something-bigger-2026-03-02.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-03-02/youtube-dialogue-works-jacques-baud-middle-east-on-fire-is-this-the-start-of-something-bigger-2026-03-02.md)
-- 2026-03-09 - [transcript-dialogue-works-col-jacques-baud-the-middle-east-just-changed-forever-2026-03-09.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-03-09/transcript-dialogue-works-col-jacques-baud-the-middle-east-just-changed-forever-2026-03-09.md)
-- 2026-03-16 - [youtube-dialogue-works-col-jacques-baud-the-strait-that-controls-the-world-economy-and-iran-knows-it-2026-03-16.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-03-16/youtube-dialogue-works-col-jacques-baud-the-strait-that-controls-the-world-economy-and-iran-knows-it-2026-03-16.md)
-- 2026-03-23 - [transcript-dialogue-works-col-jacques-baud-iran-s-billion-power-move-monetizing-the-wo-2026-03-23.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-03-23/transcript-dialogue-works-col-jacques-baud-iran-s-billion-power-move-monetizing-the-wo-2026-03-23.md)
-- 2026-03-30 - [transcript-dialogue-works-col-jacques-baud-what-a-us-ground-invasion-of-iran-would-really-look-like-2026-03-30.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-03-30/transcript-dialogue-works-col-jacques-baud-what-a-us-ground-invasion-of-iran-would-really-look-like-2026-03-30.md)
-- 2026-04-06 - [transcript-dialogue-works-col-jacques-baud-iran-hammers-israel-and-gcc-countries-after-us-israel-attacks-2026-04-06.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-06/transcript-dialogue-works-col-jacques-baud-iran-hammers-israel-and-gcc-countries-after-us-israel-attacks-2026-04-06.md)
-- 2026-04-13 - [transcript-dialogue-works-col-jacques-baud-eu-destroys-trump-s-war-fantasy-leaves-him-humiliated-2026-04-13.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-13/transcript-dialogue-works-col-jacques-baud-eu-destroys-trump-s-war-fantasy-leaves-him-humiliated-2026-04-13.md)
-- 2026-04-20 - [transcript-dialogue-works-col-jacques-baud-desperate-move-israel-just-lost-trump-s-last-minute-mov-2026-04-20.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-20/transcript-dialogue-works-col-jacques-baud-desperate-move-israel-just-lost-trump-s-last-minute-mov-2026-04-20.md)
-- 2026-04-27 - [transcript-baud-dialogue-works-nima-2026-04-27.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-27/transcript-baud-dialogue-works-nima-2026-04-27.md)
-- 2026-05-04 - [transcript-baud-dialogue-works-nima-2026-05-04.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-04/transcript-baud-dialogue-works-nima-2026-05-04.md)
-- 2026-05-11 - [transcript-alkorshid-baud-hormuz-security-architecture-2026-05-11.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-11/transcript-alkorshid-baud-hormuz-security-architecture-2026-05-11.md)
-- 2026-05-18 - [transcript-dialogue-works-jacques-baud-israel-collapses-after-trumps-final-card-2026-05-18.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-18/transcript-dialogue-works-jacques-baud-israel-collapses-after-trumps-final-card-2026-05-18.md)
+- 2026-01-06 - [transcript-dialogue-works-col-jacques-baud-the-world-is-entering-a-lawless-era-2026-01-06.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-01-06/transcript-dialogue-works-col-jacques-baud-the-world-is-entering-a-lawless-era-2026-01-06.md)
+- 2026-01-19 - [transcript-dialogue-works-col-jacques-baud-eu-drops-a-bombshell-while-nato-faces-serious-trouble-2025-01-19.md](/C:/dev/strategy-codex/codex/years/2025/provenance/2025-01-19/transcript-dialogue-works-col-jacques-baud-eu-drops-a-bombshell-while-nato-faces-serious-trouble-2025-01-19.md)
+- 2026-02-02 - [transcript-dialogue-works-col-jacques-baud-why-the-eu-is-failing-on-every-front-2026-02-02.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-02-02/transcript-dialogue-works-col-jacques-baud-why-the-eu-is-failing-on-every-front-2026-02-02.md)
+- 2026-02-16 - [transcript-dialogue-works-col-jacques-baud-iran-goes-all-in-this-could-be-the-eu-s-biggest-blunder-yet-2026-02-16.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-02-16/transcript-dialogue-works-col-jacques-baud-iran-goes-all-in-this-could-be-the-eu-s-biggest-blunder-yet-2026-02-16.md)
+- 2026-02-23 - [transcript-dialogue-works-col-jacques-baud-the-west-s-strategic-failure-are-we-running-out-of-time-2026-02-23.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-02-23/transcript-dialogue-works-col-jacques-baud-the-west-s-strategic-failure-are-we-running-out-of-time-2026-02-23.md)
+- 2026-03-02 - [youtube-dialogue-works-jacques-baud-middle-east-on-fire-is-this-the-start-of-something-bigger-2026-03-02.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-02/youtube-dialogue-works-jacques-baud-middle-east-on-fire-is-this-the-start-of-something-bigger-2026-03-02.md)
+- 2026-03-09 - [transcript-dialogue-works-col-jacques-baud-the-middle-east-just-changed-forever-2026-03-09.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-09/transcript-dialogue-works-col-jacques-baud-the-middle-east-just-changed-forever-2026-03-09.md)
+- 2026-03-16 - [youtube-dialogue-works-col-jacques-baud-the-strait-that-controls-the-world-economy-and-iran-knows-it-2026-03-16.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-16/youtube-dialogue-works-col-jacques-baud-the-strait-that-controls-the-world-economy-and-iran-knows-it-2026-03-16.md)
+- 2026-03-23 - [transcript-dialogue-works-col-jacques-baud-iran-s-billion-power-move-monetizing-the-wo-2026-03-23.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-23/transcript-dialogue-works-col-jacques-baud-iran-s-billion-power-move-monetizing-the-wo-2026-03-23.md)
+- 2026-03-30 - [transcript-dialogue-works-col-jacques-baud-what-a-us-ground-invasion-of-iran-would-really-look-like-2026-03-30.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-30/transcript-dialogue-works-col-jacques-baud-what-a-us-ground-invasion-of-iran-would-really-look-like-2026-03-30.md)
+- 2026-04-06 - [transcript-dialogue-works-col-jacques-baud-iran-hammers-israel-and-gcc-countries-after-us-israel-attacks-2026-04-06.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-06/transcript-dialogue-works-col-jacques-baud-iran-hammers-israel-and-gcc-countries-after-us-israel-attacks-2026-04-06.md)
+- 2026-04-13 - [transcript-dialogue-works-col-jacques-baud-eu-destroys-trump-s-war-fantasy-leaves-him-humiliated-2026-04-13.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-13/transcript-dialogue-works-col-jacques-baud-eu-destroys-trump-s-war-fantasy-leaves-him-humiliated-2026-04-13.md)
+- 2026-04-20 - [transcript-dialogue-works-col-jacques-baud-desperate-move-israel-just-lost-trump-s-last-minute-mov-2026-04-20.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-20/transcript-dialogue-works-col-jacques-baud-desperate-move-israel-just-lost-trump-s-last-minute-mov-2026-04-20.md)
+- 2026-04-27 - [transcript-baud-dialogue-works-nima-2026-04-27.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-27/transcript-baud-dialogue-works-nima-2026-04-27.md)
+- 2026-05-04 - [transcript-baud-dialogue-works-nima-2026-05-04.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-04/transcript-baud-dialogue-works-nima-2026-05-04.md)
+- 2026-05-11 - [transcript-alkorshid-baud-hormuz-security-architecture-2026-05-11.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-11/transcript-alkorshid-baud-hormuz-security-architecture-2026-05-11.md)
+- 2026-05-18 - [transcript-dialogue-works-jacques-baud-israel-collapses-after-trumps-final-card-2026-05-18.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-18/transcript-dialogue-works-jacques-baud-israel-collapses-after-trumps-final-card-2026-05-18.md)
 
 So the current state is:
 

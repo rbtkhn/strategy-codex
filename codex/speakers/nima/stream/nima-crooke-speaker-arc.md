@@ -54,12 +54,12 @@ This means the lane should be read two ways:
 
 If the operator needs only one file:
 
-- open [transcript-alkorshid-crooke-iran-smashed-the-us-military-model-china-is-watching-2026-05-13.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-13/transcript-alkorshid-crooke-iran-smashed-the-us-military-model-china-is-watching-2026-05-13.md)
+- open [transcript-alkorshid-crooke-iran-smashed-the-us-military-model-china-is-watching-2026-05-13.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-13/transcript-alkorshid-crooke-iran-smashed-the-us-military-model-china-is-watching-2026-05-13.md)
 
 If the operator needs the best paired read:
 
-- open [transcript-alkorshid-crooke-iran-smashed-the-us-military-model-china-is-watching-2026-05-13.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-13/transcript-alkorshid-crooke-iran-smashed-the-us-military-model-china-is-watching-2026-05-13.md)
-- then [transcript-alkorshid-crooke-iran-was-ready-for-this-war-and-it-could-change-the-middle-east-forever-2026-03-17.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-03-17/transcript-alkorshid-crooke-iran-was-ready-for-this-war-and-it-could-change-the-middle-east-forever-2026-03-17.md)
+- open [transcript-alkorshid-crooke-iran-smashed-the-us-military-model-china-is-watching-2026-05-13.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-13/transcript-alkorshid-crooke-iran-smashed-the-us-military-model-china-is-watching-2026-05-13.md)
+- then [transcript-alkorshid-crooke-iran-was-ready-for-this-war-and-it-could-change-the-middle-east-forever-2026-03-17.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-17/transcript-alkorshid-crooke-iran-was-ready-for-this-war-and-it-could-change-the-middle-east-forever-2026-03-17.md)
 
 That pair gives the clearest combination of:
 

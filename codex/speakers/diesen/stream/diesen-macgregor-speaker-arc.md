@@ -40,12 +40,12 @@ The 2025 shelf is now materially broader than the earlier minimal core. In addit
 
 If the operator needs only one file:
 
-- open [transcript-macgregor-diesen-total-war-iran-2026-04-21.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-21/transcript-macgregor-diesen-total-war-iran-2026-04-21.md)
+- open [transcript-macgregor-diesen-total-war-iran-2026-04-21.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-21/transcript-macgregor-diesen-total-war-iran-2026-04-21.md)
 
 If the operator needs the best paired read:
 
-- open [youtube-glenn-diesen-douglas-macgregor-douglas-macgregor-nato-lost-the-war-empire-of-lies-collapses-2025-11-26.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2025-11-26/youtube-glenn-diesen-douglas-macgregor-douglas-macgregor-nato-lost-the-war-empire-of-lies-collapses-2025-11-26.md)
-- then [transcript-macgregor-diesen-total-war-iran-2026-04-21.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-21/transcript-macgregor-diesen-total-war-iran-2026-04-21.md)
+- open [youtube-glenn-diesen-douglas-macgregor-douglas-macgregor-nato-lost-the-war-empire-of-lies-collapses-2025-11-26.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-11-26/youtube-glenn-diesen-douglas-macgregor-douglas-macgregor-nato-lost-the-war-empire-of-lies-collapses-2025-11-26.md)
+- then [transcript-macgregor-diesen-total-war-iran-2026-04-21.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-21/transcript-macgregor-diesen-total-war-iran-2026-04-21.md)
 
 That pair gives the clearest combination of:
 

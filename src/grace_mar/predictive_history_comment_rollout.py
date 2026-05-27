@@ -36,6 +36,7 @@ SOURCE_INDEX_PATH = PH_CIV_ROOT / "docs" / "source-video-index.md"
 MUSEUM_INDEX_PATH = PH_CIV_ROOT / "data" / "museum" / "index.json"
 QUEUE_DIR = REPO_ROOT / "docs" / "skill-work" / "work-strategy" / "predictive-history-comment-rollout"
 QUEUE_PATH = QUEUE_DIR / "queue.json"
+DRAFTS_DIR = QUEUE_DIR / "drafts"
 PH_CIV_GITHUB_BASE = "https://github.com/rbtkhn/ph-civ"
 PH_CIV_TREE_BASE = f"{PH_CIV_GITHUB_BASE}/tree/main"
 PH_CIV_BLOB_BASE = f"{PH_CIV_GITHUB_BASE}/blob/main"
@@ -70,6 +71,11 @@ def _read_text(path: Path) -> str:
 def _write_text(path: Path, text: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(text, encoding="utf-8")
+
+
+def _slugify_filename(value: str) -> str:
+    slug = re.sub(r"[^a-zA-Z0-9_-]+", "-", value).strip("-").lower()
+    return slug or "untitled"
 
 
 def load_source_videos(path: Path = SOURCE_INDEX_PATH) -> list[SourceVideo]:
@@ -292,6 +298,78 @@ def save_queue(rows: list[dict[str, Any]], path: Path = QUEUE_PATH) -> None:
     _write_text(path, json.dumps(payload, indent=2, ensure_ascii=False) + "\n")
 
 
+def _render_phase1_draft_markdown(row: dict[str, Any]) -> str:
+    lines = [
+        f"# {row['source_id']} - Phase 1 YouTube comment draft",
+        "",
+        "> Local-only draft review surface stored in `strategy-codex`.",
+        "> Canonical workflow state lives in `queue.json`.",
+        "",
+        "## Metadata",
+        "",
+        f"- Source ID: `{row['source_id']}`",
+        f"- Title: {row.get('title', '')}",
+        f"- YouTube URL: {row.get('youtube_url', '')}",
+        f"- Chapter-folder target URL: {row.get('target_url', '') or '(not ready)'}",
+        f"- Packet review status: `{row.get('review_status', '') or 'n/a'}`",
+        f"- Workflow status: `{row.get('status', '')}`",
+        f"- Approval state: `{row.get('approval_state', '')}`",
+        f"- Source link type: `{row.get('source_link_type', '') or 'chapter_folder'}`",
+    ]
+    if row.get("chapter_folder_path"):
+        lines.append(f"- Chapter-folder path: `{row['chapter_folder_path']}`")
+    if row.get("posted_comment_url"):
+        lines.append(f"- Posted comment URL: {row['posted_comment_url']}")
+    if row.get("posted_at_utc"):
+        lines.append(f"- Posted at UTC: `{row['posted_at_utc']}`")
+    if row.get("park_reason"):
+        lines.append(f"- Park reason: {row['park_reason']}")
+    lines.extend(
+        [
+            "",
+            "## Draft",
+            "",
+        ]
+    )
+    if row.get("comment_draft"):
+        lines.extend([row["comment_draft"], ""])
+    else:
+        lines.extend(
+            [
+                "_No draft text rendered yet._",
+                "",
+            ]
+        )
+    lines.extend(
+        [
+            "## Notes",
+            "",
+            "- These files are for human review readability only.",
+            "- Edit workflow/posting state through the canonical queue, not by treating this file as a second source of truth.",
+            "- Posted YouTube comments are public outputs, but the drafting workspace remains local to `strategy-codex`.",
+        ]
+    )
+    return "\n".join(lines) + "\n"
+
+
+def render_phase1_drafts(rows: list[dict[str, Any]], drafts_dir: Path = DRAFTS_DIR) -> list[Path]:
+    drafts_dir.mkdir(parents=True, exist_ok=True)
+    written: list[Path] = []
+    expected_names: set[str] = set()
+    for row in rows:
+        if int(row.get("phase", 0)) != 1:
+            continue
+        filename = f"{_slugify_filename(str(row['source_id']))}.md"
+        expected_names.add(filename)
+        path = drafts_dir / filename
+        _write_text(path, _render_phase1_draft_markdown(row))
+        written.append(path)
+    for existing in drafts_dir.glob("*.md"):
+        if existing.name not in expected_names:
+            existing.unlink()
+    return written
+
+
 def load_queue(path: Path = QUEUE_PATH) -> list[dict[str, Any]]:
     if not path.exists():
         return []
@@ -494,7 +572,9 @@ def _cmd_build(args: argparse.Namespace) -> int:
     rows = build_queue_rows(queue_path=args.queue, source_index_path=args.source_index, museum_index_path=args.museum_index)
     if args.write:
         save_queue(rows, args.queue)
+        draft_paths = render_phase1_drafts(rows)
         print(f"wrote: {args.queue}")
+        print(f"wrote phase 1 drafts: {len(draft_paths)} -> {DRAFTS_DIR}")
     else:
         print(render_markdown_summary(rows))
     return 0

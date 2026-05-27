@@ -34,7 +34,7 @@ Aguilar should currently be read as a **single-helix speaker object whose cleare
 That means:
 
 - [Alkhorshid x Aguilar](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-aguilar-speaker-arc.md) is the canonical way to enter the object
-- [2026-02-27 Kiriakou x Aguilar](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-02-27/transcript-kiriakou-anthony-aguilar-gaza-whistleblower-death-by-design-2026-02-27.md) is real second-host evidence, but not yet a stable second branch
+- [2026-02-27 Kiriakou x Aguilar](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-02-27/transcript-kiriakou-anthony-aguilar-gaza-whistleblower-death-by-design-2026-02-27.md) is real second-host evidence, but not yet a stable second branch
 - the object is real enough to deserve its own folder
 - but the notebook should not yet imply any meaningful second or third branch
 
@@ -48,7 +48,7 @@ If the operator needs the clearest live lane:
 
 If the operator needs the strongest current anchor file:
 
-- open [2026-05-04 Alkorshid x Aguilar](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-04/transcript-alkorshid-anthony-aguilar-hormuz-canberra-blockade-2026-05-04.md)
+- open [2026-05-04 Alkorshid x Aguilar](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-04/transcript-alkorshid-anthony-aguilar-hormuz-canberra-blockade-2026-05-04.md)
 
 If the operator needs the object doctrine rather than the live branch:
 

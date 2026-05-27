@@ -16,7 +16,7 @@ It is not a final synthesis page. It is a lane-orientation document so later pag
 This pass reflects the currently recovered `parsi` raw-input items in:
 
 - `codex/years/2025/raw-input/`
-- `codex/years/2026/raw-input/`
+- `codex/years/2026/provenance/`
 
 with emphasis on:
 

@@ -192,7 +192,7 @@ And now to Jefferson’s letter:
 
 ### Appendix
 
-- **Full verbatim (capture):** [raw-input/2026-01-06/substack-ritter-the-battle-of-new-york-2026-01-06.md](../../../../years/2026/raw-input/2026-01-06/substack-ritter-the-battle-of-new-york-2026-01-06.md)
+- **Full verbatim (capture):** [provenance/2026-01-06/substack-ritter-the-battle-of-new-york-2026-01-06.md](../../../../years/2026/provenance/2026-01-06/substack-ritter-the-battle-of-new-york-2026-01-06.md)
 - **Inbox / triage:** [daily-strategy-inbox.md](../../daily-strategy-inbox.md) (search `thread:ritter`, 2026-01-06)
 - **`thread:ritter`** · **verify:** primary capture on disk + voice date + inbox row (SS | / JF | / YT | as applicable)
 - **Canonical primary:** https://scottritter.substack.com/p/the-battle-of-new-york

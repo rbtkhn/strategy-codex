@@ -83,7 +83,7 @@ def test_guest_matching_existing_speaker_object_routes_to_object_and_candidate_a
     assert row["appearance"]["host_slug"] == "nima"
     assert row["appearance"]["speaker_resolution"] == "guest-metadata-match"
     assert row["appearance"]["raw_input_path"].endswith(
-        "codex/years/2026/raw-input/2026-05-12/dialogue-works-ritter.md"
+        "source-archive/statecraft/2026-05-12/dialogue-works-ritter.md"
     )
     assert row["confidence"] == "high"
     assert row["evidence_grade"] == "legacy-appearance-only"

@@ -24,7 +24,7 @@ WORK only; not Record.
 
 ### Appendix
 
-- **Full verbatim (capture):** [raw-input/2026-04-10/substack-crooke-irans-determination-to-breakout-from-2026-04-10.md](../../../../years/2026/raw-input/2026-04-10/substack-crooke-irans-determination-to-breakout-from-2026-04-10.md)
+- **Full verbatim (capture):** [provenance/2026-04-10/substack-crooke-irans-determination-to-breakout-from-2026-04-10.md](../../../../years/2026/provenance/2026-04-10/substack-crooke-irans-determination-to-breakout-from-2026-04-10.md)
 - **Inbox / triage:** [daily-strategy-inbox.md](../../daily-strategy-inbox.md) (search `thread:crooke`, 2026-04-10)
 - **`thread:crooke`** · **verify:** primary capture on disk + `pub_date` + inbox row; Conflicts Forum tier as analyst commentary unless wire-backed.
 - **Canonical primary:** https://conflictsforum.substack.com/p/irans-determination-to-breakout-from

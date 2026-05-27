@@ -58,10 +58,10 @@ Freeman is the first concrete implementation of the general ladder, not an excep
 
 ## Entry points
 
-- [transcript-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-06/transcript-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md)
-- [youtube-daniel-davis-deep-dive-diplomacy-is-dead-w-iran-lt-col-daniel-davis-fmr-amb-chas-freeman-2026-03-06.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-03-06/youtube-daniel-davis-deep-dive-diplomacy-is-dead-w-iran-lt-col-daniel-davis-fmr-amb-chas-freeman-2026-03-06.md)
-- [transcript-alkorshid-freeman-hormuz-ceasefire-gulf-states-china-2026-05-08.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-08/transcript-alkorshid-freeman-hormuz-ceasefire-gulf-states-china-2026-05-08.md)
-- [transcript-napolitano-freeman-what-russia-can-do-for-iran-2026-04-28.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-28/transcript-napolitano-freeman-what-russia-can-do-for-iran-2026-04-28.md)
+- [transcript-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-06/transcript-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md)
+- [youtube-daniel-davis-deep-dive-diplomacy-is-dead-w-iran-lt-col-daniel-davis-fmr-amb-chas-freeman-2026-03-06.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-06/youtube-daniel-davis-deep-dive-diplomacy-is-dead-w-iran-lt-col-daniel-davis-fmr-amb-chas-freeman-2026-03-06.md)
+- [transcript-alkorshid-freeman-hormuz-ceasefire-gulf-states-china-2026-05-08.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-08/transcript-alkorshid-freeman-hormuz-ceasefire-gulf-states-china-2026-05-08.md)
+- [transcript-napolitano-freeman-what-russia-can-do-for-iran-2026-04-28.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-28/transcript-napolitano-freeman-what-russia-can-do-for-iran-2026-04-28.md)
 
 ## Host lanes by function
 

@@ -1,12 +1,12 @@
-# Pape × Grim source-hygiene note — 2026-04-29
+# Pape Ã— Grim source-hygiene note â€” 2026-04-29
 
 WORK only; not Record.
 
-**Anchor item:** [pape-page-2026-04-29-youtube-pape-grim-nuclear-iran-inevitable.md](pape-page-2026-04-29-youtube-pape-grim-nuclear-iran-inevitable.md)  
-**Raw-input SSOT:** [raw-input/2026-04-29/youtube-pape-grim-nuclear-iran-inevitable-2026-04-29.md](../../../../years/2026/raw-input/2026-04-29/youtube-pape-grim-nuclear-iran-inevitable-2026-04-29.md)  
+**Anchor item:** [pape-page-2026-04-29-youtube-pape-grim-nuclear-iran-inevitable.md](pape-page-2026-04-29-youtube-pape-grim-nuclear-iran-inevitable.md)
+**Raw-input SSOT:** [provenance/2026-04-29/youtube-pape-grim-nuclear-iran-inevitable-2026-04-29.md](../../../../years/2026/provenance/2026-04-29/youtube-pape-grim-nuclear-iran-inevitable-2026-04-29.md)
 **Canonical venue URL:** [YouTube](https://www.youtube.com/watch?v=OjH35ZKmF48)
 
-This note is the compact packaging layer for the April 29 `Pape × Grim` seam. Its job is not to restate the whole interview; its job is to separate what is already reusable from what still needs primary pinning.
+This note is the compact packaging layer for the April 29 `Pape Ã— Grim` seam. Its job is not to restate the whole interview; its job is to separate what is already reusable from what still needs primary pinning.
 
 ## What is primary here
 
@@ -24,7 +24,7 @@ Use those as **attributed Pape claims**, not neutral facts.
 
 These are central to the interview, but they should stay tagged as **Pape's read** unless separately pinned:
 
-- Iran as the emerging **“fourth center of world power”**
+- Iran as the emerging **â€œfourth center of world powerâ€**
 - the claim that the United States has already **lost**, not merely is losing, control
 - the idea that Hormuz control lets Iran optimize oil prices at a preferred level
 - the argument that Iran is laying groundwork for eventual nuclear weapons acquisition
@@ -34,10 +34,10 @@ These are valuable because they show the lane's structure, not because they are 
 
 ## What needs external primary pinning before heavier reuse
 
-- **UAE / OPEC move:** exact action, timing, and whether “out of OPEC by May 1” is the correct description.
+- **UAE / OPEC move:** exact action, timing, and whether â€œout of OPEC by May 1â€ is the correct description.
 - **German leader humiliation line:** exact speaker, wording, and venue.
-- **Rubio Strait definition:** the “coordinate with Iran + pay toll” formulation, including the cited **$2 million per ship** figure.
-- **Patriot / THAAD depletion:** exact sourcing for the “roughly 50 percent” estimate.
+- **Rubio Strait definition:** the â€œcoordinate with Iran + pay tollâ€ formulation, including the cited **$2 million per ship** figure.
+- **Patriot / THAAD depletion:** exact sourcing for the â€œroughly 50 percentâ€ estimate.
 - **Obama / Russia / JCPOA reconstruction:** the missile-defense concession chain should be pinned to primary reporting or memoir-grade sourcing before it becomes a notebook premise.
 
 ## What we can reuse now

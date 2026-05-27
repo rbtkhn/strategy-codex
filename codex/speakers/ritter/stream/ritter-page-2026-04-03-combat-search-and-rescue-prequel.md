@@ -100,7 +100,7 @@ It was clear to everyone that the crew of "Corvette 3" had been taken prisoner b
 
 ### Appendix
 
-- **Full verbatim (capture):** [raw-input/2026-04-03/substack-ritter-combat-search-and-rescue-prequel-2026-04-03.md](../../../../years/2026/raw-input/2026-04-03/substack-ritter-combat-search-and-rescue-prequel-2026-04-03.md)
+- **Full verbatim (capture):** [provenance/2026-04-03/substack-ritter-combat-search-and-rescue-prequel-2026-04-03.md](../../../../years/2026/provenance/2026-04-03/substack-ritter-combat-search-and-rescue-prequel-2026-04-03.md)
 - **Inbox / triage:** [daily-strategy-inbox.md](../../daily-strategy-inbox.md) (search `thread:ritter`, 2026-04-03)
 - **`thread:ritter`** · **verify:** primary capture on disk + voice date + inbox row (SS | / JF | / YT | as applicable)
 - **Canonical primary:** https://scottritter.substack.com/p/combat-search-and-rescue-the-prequel

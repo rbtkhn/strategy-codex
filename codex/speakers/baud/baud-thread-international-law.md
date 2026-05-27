@@ -59,11 +59,11 @@ When this lane is active, Baud usually makes one of four moves:
 
 Primary Baud materials already in the repo that strongly feed this lane:
 
-- [transcript-dialogue-works-col-jacques-baud-the-world-is-entering-a-lawless-era-2026-01-06.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-01-06/transcript-dialogue-works-col-jacques-baud-the-world-is-entering-a-lawless-era-2026-01-06.md)
-- [transcript-dialogue-works-col-jacques-baud-why-the-eu-is-failing-on-every-front-2026-02-02.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-02-02/transcript-dialogue-works-col-jacques-baud-why-the-eu-is-failing-on-every-front-2026-02-02.md)
-- [transcript-dialogue-works-col-jacques-baud-iran-goes-all-in-this-could-be-the-eu-s-biggest-blunder-yet-2026-02-16.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-02-16/transcript-dialogue-works-col-jacques-baud-iran-goes-all-in-this-could-be-the-eu-s-biggest-blunder-yet-2026-02-16.md)
-- [transcript-baud-dialogue-works-nima-2026-04-27.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-27/transcript-baud-dialogue-works-nima-2026-04-27.md)
-- [transcript-baud-dialogue-works-nima-2026-05-04.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-04/transcript-baud-dialogue-works-nima-2026-05-04.md)
+- [transcript-dialogue-works-col-jacques-baud-the-world-is-entering-a-lawless-era-2026-01-06.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-01-06/transcript-dialogue-works-col-jacques-baud-the-world-is-entering-a-lawless-era-2026-01-06.md)
+- [transcript-dialogue-works-col-jacques-baud-why-the-eu-is-failing-on-every-front-2026-02-02.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-02-02/transcript-dialogue-works-col-jacques-baud-why-the-eu-is-failing-on-every-front-2026-02-02.md)
+- [transcript-dialogue-works-col-jacques-baud-iran-goes-all-in-this-could-be-the-eu-s-biggest-blunder-yet-2026-02-16.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-02-16/transcript-dialogue-works-col-jacques-baud-iran-goes-all-in-this-could-be-the-eu-s-biggest-blunder-yet-2026-02-16.md)
+- [transcript-baud-dialogue-works-nima-2026-04-27.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-27/transcript-baud-dialogue-works-nima-2026-04-27.md)
+- [transcript-baud-dialogue-works-nima-2026-05-04.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-04/transcript-baud-dialogue-works-nima-2026-05-04.md)
 
 Best relational companions when this topic needs host-specific pressure:
 

@@ -6,6 +6,22 @@ This is the canonical Jiang-shelf master index for Predictive History retrieval 
 
 Use this file when the question is not merely "where is one lecture?" but "what exists, in which layer, and in what count?"
 
+## The retrieval hierarchy
+
+The three totals are not competing answers. They describe three nested layers of the same Jiang / Predictive History surface:
+
+- `150` = the broad public mirror corpus
+- `63` = the subset of that mirror currently surfaced in one explicit YouTube source-video table
+- `13` = the local raw-capture bench preserved outside the mirror
+
+Read them from largest to smallest:
+
+1. **Public mirror corpus**: "How much public Predictive History is materially present here?"
+2. **Public source-video table**: "How much of that public corpus has been surfaced in one fast URL table?"
+3. **Local raw archive bench**: "What additional Jiang / Predictive History source captures are preserved locally outside the mirror?"
+
+So if the question is "why are there only 13?", the answer is: `13` is not the corpus total. It is only the raw local capture bench.
+
 ## Decisive count split
 
 There are three different totals in play:
@@ -14,15 +30,13 @@ There are three different totals in play:
 | --- | --- | --- | --- |
 | Public mirror corpus | Materialized public Predictive History units in the official `ph-civ` mirror | `150` | [ph-civ/data/cards.jsonl](/C:/dev/strategy-codex/statecraft/speakers/jiang/ph-civ/data/cards.jsonl) |
 | Public source-video table | Public mirror entries with explicit YouTube source rows in one table | `63` | [ph-civ/docs/source-video-index.md](/C:/dev/strategy-codex/statecraft/speakers/jiang/ph-civ/docs/source-video-index.md) |
-| Local raw archive captures | Jiang / Predictive History captures preserved in `source-archive/statecraft` outside the public mirror | `12` | [source-archive/statecraft/jiang-predictive-history-index.md](/C:/dev/strategy-codex/source-archive/statecraft/jiang-predictive-history-index.md) |
-
-So if the question is "why are there only 12?", the answer is: `12` is only the raw local capture bench, not the full public corpus.
+| Local raw archive captures | Jiang / Predictive History captures preserved in `source-archive/statecraft` outside the public mirror | `13` | [source-archive/statecraft/jiang-predictive-history-index.md](/C:/dev/strategy-codex/source-archive/statecraft/jiang-predictive-history-index.md) |
 
 ## Canonical rule
 
-- Use the **public mirror corpus** count when you mean the broad public `ph-civ` artifact.
-- Use the **source-video table** when you need YouTube URLs in one place.
-- Use the **raw archive** count when you mean local source-bearing captures preserved outside the mirror.
+- Answer from the **public mirror corpus** first unless the user explicitly asks for a narrower layer.
+- Drop to the **source-video table** when the task is specifically about YouTube URLs or URL-paired transcript paths.
+- Drop to the **raw archive bench** only when the task is specifically about local source-bearing captures preserved outside the mirror.
 
 ## Public mirror corpus
 
@@ -48,7 +62,7 @@ Primary mirror front doors:
 
 ## Public source-video subset
 
-This is narrower than the full public corpus. It is the explicit source-video table, not the full manuscript/corpus count.
+This is the middle layer in the hierarchy: narrower than the full public corpus, but broader than the local raw bench. It is the explicit source-video table, not the full manuscript/corpus count.
 
 Current source-video row counts:
 
@@ -69,7 +83,7 @@ Use this file when you need:
 
 ## Local raw archive bench
 
-This is the Jiang-facing source-bearing residue outside the public mirror.
+This is the narrowest layer in the hierarchy: Jiang-facing source-bearing residue outside the public mirror.
 
 Current raw capture counts:
 
@@ -77,23 +91,39 @@ Current raw capture counts:
 | --- | --- | --- | --- |
 | Interviews | `4` | [source-archive/statecraft/jiang-predictive-history-index.md](/C:/dev/strategy-codex/source-archive/statecraft/jiang-predictive-history-index.md) | Includes recent Diesen/Jiang interview captures. |
 | Game Theory | `6` | [source-archive/statecraft/jiang-predictive-history-index.md](/C:/dev/strategy-codex/source-archive/statecraft/jiang-predictive-history-index.md) | Includes `gt-23` through `gt-28` raw captures. |
-| Great Books | `1` | [source-archive/statecraft/jiang-predictive-history-index.md](/C:/dev/strategy-codex/source-archive/statecraft/jiang-predictive-history-index.md) | Includes `gb-11`, which is ahead of the current public mirror. |
+| Great Books | `2` | [source-archive/statecraft/jiang-predictive-history-index.md](/C:/dev/strategy-codex/source-archive/statecraft/jiang-predictive-history-index.md) | Includes `gb-11` and `gb-12`, both ahead of the current public mirror. |
 | Essays | `1` | [source-archive/statecraft/jiang-predictive-history-index.md](/C:/dev/strategy-codex/source-archive/statecraft/jiang-predictive-history-index.md) | Local Substack capture. |
 
 Important current gaps between layers:
 
 - `gt-28` exists in the raw archive but not yet in the current public source-video table.
-- `gb-11` exists in the raw archive but the current public mirror materializes Great Books through `gb-10`.
+- `gb-11` and `gb-12` exist in the raw archive but the current public mirror materializes Great Books through `gb-10`.
+- those Dante continuations should be promoted as Volume I / Civilization literary-spine material when public chapter units are created.
 - the raw archive currently preserves four Jiang interviews that are not surfaced as a public interview lane in the mirror.
 
 ## Retrieval order
 
 If the user asks:
 
-- "How many Predictive History lectures are there?" -> start with the **public mirror corpus** count here.
+- "How many Predictive History lectures are there?" -> start with the **public mirror corpus** count here, not the raw archive.
 - "Where is the YouTube link for lecture X?" -> open [ph-civ/docs/source-video-index.md](/C:/dev/strategy-codex/statecraft/speakers/jiang/ph-civ/docs/source-video-index.md).
 - "Do we have a raw local capture of this Jiang / PH item?" -> open [source-archive/statecraft/jiang-predictive-history-index.md](/C:/dev/strategy-codex/source-archive/statecraft/jiang-predictive-history-index.md).
 - "What is the canonical Jiang shelf front door?" -> stay in [README.md](/C:/dev/strategy-codex/statecraft/speakers/jiang/README.md) and this file.
+
+## Falsify check
+
+Re-verify the Jiang master-index totals with:
+
+```powershell
+& 'C:\Users\rober\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' 'C:\dev\strategy-codex\scripts\check_jiang_predictive_history_index.py'
+```
+
+Current expected result:
+
+- `public_total=150`
+- `source_video_total=63`
+- `raw_total=13`
+- `status=ok`
 
 ## Shelf law
 

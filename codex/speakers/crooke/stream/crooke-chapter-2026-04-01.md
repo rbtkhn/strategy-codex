@@ -18,6 +18,6 @@ Daily continuity seed for `crooke` inside the 2026 strategy-codex volume. Use on
 
 ## Source Links
 
-- Shared raw input: [`../../../years/2026/raw-input/`](../../../years/2026/raw-input/)
+- Shared raw input: [`../../../years/2026/provenance/`](../../../years/2026/provenance/)
 
 WORK only; not Record.

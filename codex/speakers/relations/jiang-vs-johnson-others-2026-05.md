@@ -10,12 +10,12 @@ It is a bounded **speaker-position audit** for the **May 11-21, 2026** Iran / Mi
 
 Primary local anchors:
 
-- [Douglas Macgregor on Glenn Diesen, 2026-05-21](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-21/transcript-macgregor-diesen-nato-attacked-russia-us-being-pushed-out-of-the-middle-east-2026-05-21.md)
-- [Douglas Macgregor on Judging Freedom, 2026-05-21](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-21/transcript-napolitano-macgregor-the-pentagon-and-decapitation-strikes-2026-05-21.md)
-- [Alex Krainer on Dialogue Works, 2026-05-21](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-21/transcript-dialogue-works-alex-krainer-the-middle-east-and-europe-just-shifted-overnight-2026-05-21.md)
-- [Andrei Martyanov on Dialogue Works, 2026-05-21](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-21/transcript-dialogue-works-andrei-martyanov-hezbollah-annihilates-air-defense-its-all-blowing-up-2026-05-21.md)
-- [Pepe Escobar on Dialogue Works, 2026-05-21](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-21/transcript-dialogue-works-pepe-escobar-iran-wipes-out-trumps-attack-russia-chinas-massive-move-2026-05-21.md)
-- [Jacques Baud on Dialogue Works, 2026-05-11](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-11/transcript-alkorshid-baud-hormuz-security-architecture-2026-05-11.md)
+- [Douglas Macgregor on Glenn Diesen, 2026-05-21](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-21/transcript-macgregor-diesen-nato-attacked-russia-us-being-pushed-out-of-the-middle-east-2026-05-21.md)
+- [Douglas Macgregor on Judging Freedom, 2026-05-21](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-21/transcript-napolitano-macgregor-the-pentagon-and-decapitation-strikes-2026-05-21.md)
+- [Alex Krainer on Dialogue Works, 2026-05-21](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-21/transcript-dialogue-works-alex-krainer-the-middle-east-and-europe-just-shifted-overnight-2026-05-21.md)
+- [Andrei Martyanov on Dialogue Works, 2026-05-21](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-21/transcript-dialogue-works-andrei-martyanov-hezbollah-annihilates-air-defense-its-all-blowing-up-2026-05-21.md)
+- [Pepe Escobar on Dialogue Works, 2026-05-21](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-21/transcript-dialogue-works-pepe-escobar-iran-wipes-out-trumps-attack-russia-chinas-massive-move-2026-05-21.md)
+- [Jacques Baud on Dialogue Works, 2026-05-11](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-11/transcript-alkorshid-baud-hormuz-security-architecture-2026-05-11.md)
 
 Bounded claim:
 

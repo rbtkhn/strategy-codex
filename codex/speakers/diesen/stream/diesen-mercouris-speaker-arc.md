@@ -56,9 +56,9 @@ Older cross-host appearances found during the same check, such as 2024 Duran pan
 
 If the operator needs the raw source:
 
-- open [youtube-glenn-diesen-alexander-mercouris-the-political-legitimacy-crisis-across-europe-2026-05-16.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-16/youtube-glenn-diesen-alexander-mercouris-the-political-legitimacy-crisis-across-europe-2026-05-16.md)
-- open [youtube-glenn-diesen-fake-diplomacy-permanent-conflict-mearsheimer-mercouris-diesen-2025-12-19.md](/C:/dev/strategy-codex/codex/years/2025/raw-input/2025-12-19/youtube-glenn-diesen-fake-diplomacy-permanent-conflict-mearsheimer-mercouris-diesen-2025-12-19.md)
-- open [youtube-glenn-diesen-alexander-mercouris-iran-war-transforms-ukraine-war-2026-03-21.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-03-21/youtube-glenn-diesen-alexander-mercouris-iran-war-transforms-ukraine-war-2026-03-21.md)
+- open [youtube-glenn-diesen-alexander-mercouris-the-political-legitimacy-crisis-across-europe-2026-05-16.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-16/youtube-glenn-diesen-alexander-mercouris-the-political-legitimacy-crisis-across-europe-2026-05-16.md)
+- open [youtube-glenn-diesen-fake-diplomacy-permanent-conflict-mearsheimer-mercouris-diesen-2025-12-19.md](/C:/dev/strategy-codex/codex/years/2025/provenance/2025-12-19/youtube-glenn-diesen-fake-diplomacy-permanent-conflict-mearsheimer-mercouris-diesen-2025-12-19.md)
+- open [youtube-glenn-diesen-alexander-mercouris-iran-war-transforms-ukraine-war-2026-03-21.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-21/youtube-glenn-diesen-alexander-mercouris-iran-war-transforms-ukraine-war-2026-03-21.md)
 
 If the operator needs Mercouris as speaker object:
 

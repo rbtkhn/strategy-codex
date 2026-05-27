@@ -2,7 +2,7 @@
 
 WORK only; not Record.
 
-**Superseded (lane split):** This file previously duplicated the full line-by-line transcript. **SSOT** is [raw-input/2026-02-25/transcript-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md](../../../years/2026/raw-input/2026-02-25/transcript-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md) only.
+**Superseded (lane split):** This file previously duplicated the full line-by-line transcript. **SSOT** is [provenance/2026-02-25/transcript-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md](../../../years/2026/provenance/2026-02-25/transcript-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md) only.
 
 - **Guest lane (Mearsheimer analysis):** [mearsheimer-page-2026-02-25-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md](mearsheimer-page-2026-02-25-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md)
 - **Host lane (Diesen / Greater Eurasia show):** [../diesen/stream/diesen-page-2026-02-25-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md](../diesen/stream/diesen-page-2026-02-25-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md)

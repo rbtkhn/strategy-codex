@@ -16,7 +16,7 @@ Kent is best read as a **thin but real cross-host helix**: Carlson makes him a r
 | [Davis x Kent](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-kent-speaker-arc.md) | operational exit realism | Iran war feasibility, Hormuz pressure, walkaway logic, military-political objective failure |
 | [Diesen x Kent](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-kent-speaker-arc.md) | structural order critique | Israeli influence, Iraq/Syria/ISIS memory, imperial overreach, multipolar consequence |
 | [Nawfal x Kent](/C:/dev/strategy-codex/codex/speakers/kent/stream/nawfal-kent-speaker-arc.md) | political pressure and system-capture register | Trump trapped between exit desire and pressure, domestic legitimacy, military morale, public trust |
-| [Barnes quote-surface](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-21/x-barnes-kent-exit-ramp-qt-2026-04-21.md) | compact exit-ramp endorsement | Kent as a reusable Trump-messaging and de-escalation signal |
+| [Barnes quote-surface](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-21/x-barnes-kent-exit-ramp-qt-2026-04-21.md) | compact exit-ramp endorsement | Kent as a reusable Trump-messaging and de-escalation signal |
 
 ## Orthogonality guide
 
@@ -34,7 +34,7 @@ Do not use `Carlson` as a shortcut for operational realism, `Davis` as a shortcu
 
 If the operator needs the cleanest single introduction to the helix:
 
-- open [Carlson x Kent](/C:/dev/strategy-codex/codex/speakers/kent/stream/carlson-kent-speaker-arc.md), then [Joe Kent Reveals All](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-03-18/youtube-tucker-carlson-joe-kent-reveals-all-in-first-interview-since-resigning-as-trump-s-count-2026-03-18.md)
+- open [Carlson x Kent](/C:/dev/strategy-codex/codex/speakers/kent/stream/carlson-kent-speaker-arc.md), then [Joe Kent Reveals All](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-18/youtube-tucker-carlson-joe-kent-reveals-all-in-first-interview-since-resigning-as-trump-s-count-2026-03-18.md)
 
 If the operator needs the best paired read:
 

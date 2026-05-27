@@ -14,7 +14,7 @@ Purpose: front door for the canonical Sachs shelf.
 
 The orthogonality-bearing structure on this shelf is:
 
-- the Diesen-side Sachs lane, currently best anchored by [2026-05-12 Diesen x Sachs](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-12/youtube-glenn-diesen-jeffrey-sachs-new-european-military-bloc-for-war-against-russia-2026-05-12.md)
+- the Diesen-side Sachs lane, currently best anchored by [2026-05-12 Diesen x Sachs](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-12/youtube-glenn-diesen-jeffrey-sachs-new-european-military-bloc-for-war-against-russia-2026-05-12.md)
 - [sachs-speaker-object.md](/C:/dev/strategy-codex/codex/speakers/sachs/sachs-speaker-object.md), which defines Sachs as a cross-host reinforced object
 - [sachs-cross-host-note.md](/C:/dev/strategy-codex/codex/speakers/sachs/sachs-cross-host-note.md), which keeps the wider reinforcement claim honest
 

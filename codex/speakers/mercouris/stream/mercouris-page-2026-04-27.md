@@ -27,7 +27,7 @@ Single-thread institutional read: the episode stacks **material constraints** (a
 
 ### Appendix
 
-- **Full verbatim (capture):** [raw-input/2026-04-27/2026-04-27-mercouris-verbatim.md](../../../../years/2026/raw-input/2026-04-27/2026-04-27-mercouris-verbatim.md)
+- **Full verbatim (capture):** [provenance/2026-04-27/2026-04-27-mercouris-verbatim.md](../../../../years/2026/provenance/2026-04-27/2026-04-27-mercouris-verbatim.md)
 - **Inbox / triage:** [daily-strategy-inbox.md](../../daily-strategy-inbox.md) (search `thread:mercouris`, 2026-04-27)
 - **`thread:mercouris`** · **verify:** full-text + `pub_date:2026-04-27` + pin canonical The Duran `watch?v=` when known
 - **Canonical primary:** `https://www.youtube.com/watch?v=TBD-mercouris-2026-04-27` (replace TBD when pinned)

@@ -10,5 +10,5 @@ raw-input index for canonical provenance routing and materialized Johnson
 appearance coverage.
 
 Raw-text authority still lives under
-[codex/years/2026/raw-input/](/C:/dev/strategy-codex/codex/years/2026/raw-input),
+[codex/years/2026/provenance/](/C:/dev/strategy-codex/codex/years/2026/provenance),
 but the canonical Johnson provenance bench is now statecraft-side.

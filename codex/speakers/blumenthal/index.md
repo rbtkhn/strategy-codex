@@ -30,8 +30,8 @@ The older [blumenthal-thread.md](blumenthal-thread.md) file is a **legacy contin
 
 ## Live Raw-Input Anchors
 
-- [2026-04-21 transcript](../../years/2026/raw-input/2026-04-21/transcript-blumenthal-israel-defeat-zionist-power-2026-04-21.md)
-- [2026-05-20 Judging Freedom capture](../../years/2026/raw-input/2026-05-20/youtube-blumenthal-judging-freedom-us-consumers-paying-for-trump-s-war-2026-05-20.md)
+- [2026-04-21 transcript](../../years/2026/provenance/2026-04-21/transcript-blumenthal-israel-defeat-zionist-power-2026-04-21.md)
+- [2026-05-20 Judging Freedom capture](../../years/2026/provenance/2026-05-20/youtube-blumenthal-judging-freedom-us-consumers-paying-for-trump-s-war-2026-05-20.md)
 
 ## Raw-Input Coverage
 

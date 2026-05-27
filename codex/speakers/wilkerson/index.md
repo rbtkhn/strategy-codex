@@ -33,9 +33,9 @@ The orthogonality-bearing structure on this shelf is:
 
 ## Best Live Entry Files
 
-- [2026-05-06 Diesen x Wilkerson](../../years/2026/raw-input/2026-05-06/transcript-diesen-wilkerson-hormuz-brics-2026-05-06.md)
-- [2026-05-05 Dialogue Works x Wilkerson](../../years/2026/raw-input/2026-05-05/transcript-alkorshid-wilkerson-hormuz-blockade-2026-05-05.md)
-- [2026-04-30 Judging Freedom x Wilkerson](../../years/2026/raw-input/2026-04-30/transcript-wilkerson-judging-freedom-iran-new-friend-2026-04-30.md)
+- [2026-05-06 Diesen x Wilkerson](../../years/2026/provenance/2026-05-06/transcript-diesen-wilkerson-hormuz-brics-2026-05-06.md)
+- [2026-05-05 Dialogue Works x Wilkerson](../../years/2026/provenance/2026-05-05/transcript-alkorshid-wilkerson-hormuz-blockade-2026-05-05.md)
+- [2026-04-30 Judging Freedom x Wilkerson](../../years/2026/provenance/2026-04-30/transcript-wilkerson-judging-freedom-iran-new-friend-2026-04-30.md)
 
 ## Raw-Input Coverage
 

@@ -23,7 +23,7 @@ Host: multipolarity-as-show-theme and “Europe expected X, got Y.” Guest: col
 
 ### Appendix
 
-- **Full verbatim (capture):** [raw-input/2026-01-31/transcript-diesen-mearsheimer-cold-war-nato-ukraine-2026-01-31.md](../../../../years/2026/raw-input/2026-01-31/transcript-diesen-mearsheimer-cold-war-nato-ukraine-2026-01-31.md)
+- **Full verbatim (capture):** [provenance/2026-01-31/transcript-diesen-mearsheimer-cold-war-nato-ukraine-2026-01-31.md](../../../../years/2026/provenance/2026-01-31/transcript-diesen-mearsheimer-cold-war-nato-ukraine-2026-01-31.md)
 - **Inbox / triage:** [daily-strategy-inbox.md](../../daily-strategy-inbox.md)
 - **`thread:diesen` × `thread:mearsheimer` ·** Guest: [../mearsheimer/mearsheimer-page-2026-01-31-diesen-mearsheimer-cold-war-nato-ukraine-2026-01-31.md](../mearsheimer/mearsheimer-page-2026-01-31-diesen-mearsheimer-cold-war-nato-ukraine-2026-01-31.md) · **verify:** `pub_date:2026-01-31`
 - **Canonical primary:** `https://www.youtube.com/watch?v=OV75YsYnE8U`

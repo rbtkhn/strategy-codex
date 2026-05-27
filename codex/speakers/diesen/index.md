@@ -38,6 +38,6 @@ The older [stream/diesen-thread.md](stream/diesen-thread.md) file is a legacy ho
 
 ## Boundary
 
-Diesen is canonical under `codex/speakers/diesen/`. Raw-text authority stays in [`codex/years/2026/raw-input/`](C:/dev/strategy-codex/codex/years/2026/raw-input).
+Diesen is canonical under `codex/speakers/diesen/`. Raw-text authority stays in [`codex/years/2026/provenance/`](C:/dev/strategy-codex/codex/years/2026/provenance).
 
 Do not read the older `*-speaker-arc.md` filenames as a different arc category from the newer `<host>-<speaker>-arc.md` grammar. In this shelf they are the current embodied guest arcs until a later normalization pass changes the spellings.

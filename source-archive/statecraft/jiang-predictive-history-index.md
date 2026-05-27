@@ -15,9 +15,9 @@ Current local capture counts:
 
 - `Interviews`: `4`
 - `Game Theory`: `6`
-- `Great Books`: `1`
+- `Great Books`: `2`
 - `Substack essays`: `1`
-- Total indexed local Predictive History / Jiang captures: `12`
+- Total indexed local Predictive History / Jiang captures: `13`
 
 ## Interviews
 
@@ -44,6 +44,7 @@ Current local capture counts:
 | Date | ID | Title | Source | Local file |
 | --- | --- | --- | --- | --- |
 | 2026-05-26 | `gb-11` | *Dante's Revolution* | [YouTube](https://www.youtube.com/watch?v=otyUpKhpTYM) | [predictive-history-gb-11-dantes-revolution-2026-05-26.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/predictive-history-gb-11-dantes-revolution-2026-05-26.md) |
+| 2026-05-26 | `gb-12` | *Dante in Paradise* | [YouTube](https://www.youtube.com/watch?v=FspDllFoiDE) | [predictive-history-gb-12-dante-in-paradise-2026-05-26.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/predictive-history-gb-12-dante-in-paradise-2026-05-26.md) |
 
 ## Essays
 
@@ -55,4 +56,5 @@ Current local capture counts:
 
 - This is a local archive navigation file, not a public `ph-civ` publishing surface.
 - Some local captures may precede or exceed what is currently materialized in the public mirror.
+- The new `gb-11` / `gb-12` Dante captures are best read as future Volume I / Civilization continuations rather than as detached archive-only material.
 - The `statecraft/speakers/jiang/ph-civ` mirror remains the canonical public-facing lecture/manuscript environment.

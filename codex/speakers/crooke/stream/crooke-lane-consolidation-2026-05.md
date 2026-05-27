@@ -20,7 +20,7 @@ This is not a final synthesis page. It is a lane-orientation note so later page,
 
 This pass reflects the currently recovered Crooke material in:
 
-- `codex/years/2026/raw-input/`
+- `codex/years/2026/provenance/`
 - `codex/speakers/crooke/stream/`
 
 with emphasis on:

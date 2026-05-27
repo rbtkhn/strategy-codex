@@ -49,12 +49,12 @@ Current complete `Davis × Barnes` episode set on disk:
 
 If the operator needs only one file:
 
-- open [transcript-davis-deep-dive-robert-barnes-war-crimes-hormuz-2026-04-03.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-03/transcript-davis-deep-dive-robert-barnes-war-crimes-hormuz-2026-04-03.md)
+- open [transcript-davis-deep-dive-robert-barnes-war-crimes-hormuz-2026-04-03.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-03/transcript-davis-deep-dive-robert-barnes-war-crimes-hormuz-2026-04-03.md)
 
 If the operator needs the best paired read:
 
-- open [transcript-davis-deep-dive-robert-barnes-war-crimes-hormuz-2026-04-03.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-03/transcript-davis-deep-dive-robert-barnes-war-crimes-hormuz-2026-04-03.md)
-- then [transcript-davis-deep-dive-robert-barnes-iran-rug-pull-behavioral-dementia-2026-04-24.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-24/transcript-davis-deep-dive-robert-barnes-iran-rug-pull-behavioral-dementia-2026-04-24.md)
+- open [transcript-davis-deep-dive-robert-barnes-war-crimes-hormuz-2026-04-03.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-03/transcript-davis-deep-dive-robert-barnes-war-crimes-hormuz-2026-04-03.md)
+- then [transcript-davis-deep-dive-robert-barnes-iran-rug-pull-behavioral-dementia-2026-04-24.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-24/transcript-davis-deep-dive-robert-barnes-iran-rug-pull-behavioral-dementia-2026-04-24.md)
 
 That pair gives the clearest combination of:
 

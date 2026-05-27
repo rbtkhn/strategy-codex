@@ -46,20 +46,20 @@ _Auto-generated from `transcript.md` + **on-disk** and **inbox** `raw-input/` (d
 ### Recent transcript material
 
 ## 2026-04-28
-- Inbox | cold: full text in [`transcript-baud-dialogue-works-nima-2026-04-27.md`](raw-input/2026-04-27/transcript-baud-dialogue-works-nima-2026-04-27.md) (pointer; SSOT raw-input) | thread:nima
-- Inbox | cold: full text in [`transcript-nima-freeman-israel-agenda-collapsing-2026-04-24.md`](raw-input/2026-04-24/transcript-nima-freeman-israel-agenda-collapsing-2026-04-24.md) (pointer; SSOT raw-input) | thread:nima
-- Inbox | cold: full text in [`transcript-marandi-blockade-trump-nima-2026-04-21.md`](raw-input/2026-04-21/transcript-marandi-blockade-trump-nima-2026-04-21.md) (pointer; SSOT raw-input) | thread:nima
-- Inbox | cold: full text in [`transcript-marandi-dialogue-works-trump-plan-dead-after-strike-2026-04-28.md`](raw-input/2026-04-28/transcript-marandi-dialogue-works-trump-plan-dead-after-strike-2026-04-28.md) (pointer; SSOT raw-input **Marandi** episode **/** host lane ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â symmetric `crosses:marandi`) | thread:nima
-- Inbox | cold: full text in [`transcript-alkorshid-helmer-middle-east-unthinkable-iran-play-2026-04-28.md`](raw-input/2026-04-28/transcript-alkorshid-helmer-middle-east-unthinkable-iran-play-2026-04-28.md) (pointer; SSOT raw-input) | thread:nima
+- Inbox | cold: full text in [`transcript-baud-dialogue-works-nima-2026-04-27.md`](provenance/2026-04-27/transcript-baud-dialogue-works-nima-2026-04-27.md) (pointer; SSOT raw-input) | thread:nima
+- Inbox | cold: full text in [`transcript-nima-freeman-israel-agenda-collapsing-2026-04-24.md`](provenance/2026-04-24/transcript-nima-freeman-israel-agenda-collapsing-2026-04-24.md) (pointer; SSOT raw-input) | thread:nima
+- Inbox | cold: full text in [`transcript-marandi-blockade-trump-nima-2026-04-21.md`](provenance/2026-04-21/transcript-marandi-blockade-trump-nima-2026-04-21.md) (pointer; SSOT raw-input) | thread:nima
+- Inbox | cold: full text in [`transcript-marandi-dialogue-works-trump-plan-dead-after-strike-2026-04-28.md`](provenance/2026-04-28/transcript-marandi-dialogue-works-trump-plan-dead-after-strike-2026-04-28.md) (pointer; SSOT raw-input **Marandi** episode **/** host lane ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â symmetric `crosses:marandi`) | thread:nima
+- Inbox | cold: full text in [`transcript-alkorshid-helmer-middle-east-unthinkable-iran-play-2026-04-28.md`](provenance/2026-04-28/transcript-alkorshid-helmer-middle-east-unthinkable-iran-play-2026-04-28.md) (pointer; SSOT raw-input) | thread:nima
 
 ### Recent raw-input (lane)
 
 _Union of **on-disk** `raw-input/ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦` files tagged with this expertÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢s `thread:` and **inbox** lines (same paths de-duped; disk line kept first)._
 
-- [transcript-alkorshid-helmer-middle-east-unthinkable-iran-play-2026-04-28.md](raw-input/2026-04-28/transcript-alkorshid-helmer-middle-east-unthinkable-iran-play-2026-04-28.md) _on-disk_
-- [transcript-marandi-dialogue-works-trump-plan-dead-after-strike-2026-04-28.md](raw-input/2026-04-28/transcript-marandi-dialogue-works-trump-plan-dead-after-strike-2026-04-28.md)
-- [transcript-baud-dialogue-works-nima-2026-04-27.md](raw-input/2026-04-27/transcript-baud-dialogue-works-nima-2026-04-27.md)
-- [transcript-nima-freeman-israel-agenda-collapsing-2026-04-24.md](raw-input/2026-04-24/transcript-nima-freeman-israel-agenda-collapsing-2026-04-24.md)
-- [transcript-marandi-blockade-trump-nima-2026-04-21.md](raw-input/2026-04-21/transcript-marandi-blockade-trump-nima-2026-04-21.md)
+- [transcript-alkorshid-helmer-middle-east-unthinkable-iran-play-2026-04-28.md](provenance/2026-04-28/transcript-alkorshid-helmer-middle-east-unthinkable-iran-play-2026-04-28.md) _on-disk_
+- [transcript-marandi-dialogue-works-trump-plan-dead-after-strike-2026-04-28.md](provenance/2026-04-28/transcript-marandi-dialogue-works-trump-plan-dead-after-strike-2026-04-28.md)
+- [transcript-baud-dialogue-works-nima-2026-04-27.md](provenance/2026-04-27/transcript-baud-dialogue-works-nima-2026-04-27.md)
+- [transcript-nima-freeman-israel-agenda-collapsing-2026-04-24.md](provenance/2026-04-24/transcript-nima-freeman-israel-agenda-collapsing-2026-04-24.md)
+- [transcript-marandi-blockade-trump-nima-2026-04-21.md](provenance/2026-04-21/transcript-marandi-blockade-trump-nima-2026-04-21.md)
 <!-- strategy-expert-thread:end -->
 

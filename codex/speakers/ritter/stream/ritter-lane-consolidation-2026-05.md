@@ -24,7 +24,7 @@ Without separation, the lane can feel sharper than it is actually grounded. This
 
 This pass reflects the currently recovered Ritter material in:
 
-- `codex/years/2026/raw-input/`
+- `codex/years/2026/provenance/`
 - `codex/speakers/ritter/stream/`
 
 with awareness of one earlier mixed-host transcript under `2025-01-05`.

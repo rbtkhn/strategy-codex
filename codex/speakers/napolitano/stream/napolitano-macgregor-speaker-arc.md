@@ -23,12 +23,12 @@ Douglas Macgregor matters here as a **force-balance and imperial-overreach** gue
 
 ## Open first
 
-- [2026-04-23 Douglas Macgregor - The Pentagon's Terrible War Planning](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-23/transcript-napolitano-macgregor-pentagon-terrible-war-planning-2026-04-23.md)
-- [2026-03-26 Douglas Macgregor - Why Trump Is Now Desperate](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-03-26/transcript-napolitano-macgregor-why-trump-is-now-desperate-2026-03-26.md)
-- [2026-02-10 Douglas Macgregor - A U.S. - Iran War Could Spiral Out of Control](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-02-10/transcript-napolitano-macgregor-us-iran-war-could-spiral-out-of-control-2026-02-10.md)
-- [2026-01-07 Douglas Macgregor - Trump Is Sleepwalking Into Another War](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-01-07/transcript-napolitano-macgregor-trump-is-sleepwalking-into-another-war-2026-01-07.md)
-- [2025-12-11 Douglas Macgregor - Why Threaten Venezuela?](/C:/dev/strategy-codex/codex/years/2026/raw-input/2025-12-11/transcript-napolitano-macgregor-why-threaten-venezuela-2025-12-11.md)
-- [2025-11-13 Douglas Macgregor - War Is Coming Soon](/C:/dev/strategy-codex/codex/years/2026/raw-input/2025-11-13/transcript-napolitano-macgregor-war-is-coming-soon-2025-11-13.md)
+- [2026-04-23 Douglas Macgregor - The Pentagon's Terrible War Planning](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-23/transcript-napolitano-macgregor-pentagon-terrible-war-planning-2026-04-23.md)
+- [2026-03-26 Douglas Macgregor - Why Trump Is Now Desperate](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-26/transcript-napolitano-macgregor-why-trump-is-now-desperate-2026-03-26.md)
+- [2026-02-10 Douglas Macgregor - A U.S. - Iran War Could Spiral Out of Control](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-02-10/transcript-napolitano-macgregor-us-iran-war-could-spiral-out-of-control-2026-02-10.md)
+- [2026-01-07 Douglas Macgregor - Trump Is Sleepwalking Into Another War](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-01-07/transcript-napolitano-macgregor-trump-is-sleepwalking-into-another-war-2026-01-07.md)
+- [2025-12-11 Douglas Macgregor - Why Threaten Venezuela?](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-12-11/transcript-napolitano-macgregor-why-threaten-venezuela-2025-12-11.md)
+- [2025-11-13 Douglas Macgregor - War Is Coming Soon](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-11-13/transcript-napolitano-macgregor-war-is-coming-soon-2025-11-13.md)
 
 ## Orthogonality guide
 

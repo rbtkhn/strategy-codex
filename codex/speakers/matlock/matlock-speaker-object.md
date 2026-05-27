@@ -28,11 +28,11 @@ The direct branch is:
 
 The direct raw-input set is:
 
-- [2026-04-19 Diesen x Matlock](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-19/transcript-diesen-matlock-how-nato-expansionism-broke-european-security-2026-04-19.md)
-- [2025-03-27 Diesen x Matlock](/C:/dev/strategy-codex/codex/years/2025/raw-input/2025-03-27/transcript-diesen-matlock-negotiating-end-cold-war-instigating-new-cold-war-2025-03-27.md)
-- [2025-12-10 Diesen x Matlock](/C:/dev/strategy-codex/codex/years/2025/raw-input/2025-12-10/transcript-diesen-matlock-nato-expansion-coup-subversion-ukraine-started-war-2025-12-10.md)
-- [2025-06-21 Diesen x Matlock](/C:/dev/strategy-codex/codex/years/2025/raw-input/2025-06-21/transcript-diesen-matlock-superpower-illusions-reviving-cold-war-2025-06-21.md)
-- [2025-09-01 Diesen x Matlock](/C:/dev/strategy-codex/codex/years/2025/raw-input/2025-09-01/transcript-diesen-matlock-western-leaders-ideological-war-criminals-2025-09-01.md)
+- [2026-04-19 Diesen x Matlock](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-19/transcript-diesen-matlock-how-nato-expansionism-broke-european-security-2026-04-19.md)
+- [2025-03-27 Diesen x Matlock](/C:/dev/strategy-codex/codex/years/2025/provenance/2025-03-27/transcript-diesen-matlock-negotiating-end-cold-war-instigating-new-cold-war-2025-03-27.md)
+- [2025-12-10 Diesen x Matlock](/C:/dev/strategy-codex/codex/years/2025/provenance/2025-12-10/transcript-diesen-matlock-nato-expansion-coup-subversion-ukraine-started-war-2025-12-10.md)
+- [2025-06-21 Diesen x Matlock](/C:/dev/strategy-codex/codex/years/2025/provenance/2025-06-21/transcript-diesen-matlock-superpower-illusions-reviving-cold-war-2025-06-21.md)
+- [2025-09-01 Diesen x Matlock](/C:/dev/strategy-codex/codex/years/2025/provenance/2025-09-01/transcript-diesen-matlock-western-leaders-ideological-war-criminals-2025-09-01.md)
 
 References to Matlock inside Freeman, Sachs, McGovern, Johnson, or other host files are reinforcement surfaces. They do not yet create separate Matlock host branches.
 
@@ -44,12 +44,12 @@ If the operator needs Matlock's mature thesis:
 
 If the operator needs one direct source:
 
-- open [2026-04-19 Diesen x Matlock](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-19/transcript-diesen-matlock-how-nato-expansionism-broke-european-security-2026-04-19.md)
+- open [2026-04-19 Diesen x Matlock](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-19/transcript-diesen-matlock-how-nato-expansionism-broke-european-security-2026-04-19.md)
 
 If the operator needs the strongest paired read:
 
-- first [2026-04-19 Diesen x Matlock](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-19/transcript-diesen-matlock-how-nato-expansionism-broke-european-security-2026-04-19.md)
-- then [2025-03-27 Diesen x Matlock](/C:/dev/strategy-codex/codex/years/2025/raw-input/2025-03-27/transcript-diesen-matlock-negotiating-end-cold-war-instigating-new-cold-war-2025-03-27.md)
+- first [2026-04-19 Diesen x Matlock](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-19/transcript-diesen-matlock-how-nato-expansionism-broke-european-security-2026-04-19.md)
+- then [2025-03-27 Diesen x Matlock](/C:/dev/strategy-codex/codex/years/2025/provenance/2025-03-27/transcript-diesen-matlock-negotiating-end-cold-war-instigating-new-cold-war-2025-03-27.md)
 
 That pair gives the clearest combination of Cold War ending mechanics, negotiation method, NATO-expansion warning, and lost settlement architecture.
 

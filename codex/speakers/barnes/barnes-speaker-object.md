@@ -46,11 +46,11 @@ So Barnes is not best read as a failed helix. He is best read as a speaker objec
 
 The clearest reinforcement beyond Davis is:
 
-- [2026-04-23 Mercouris x Barnes](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-23/transcript-duran-mercouris-barnes-fractured-iran-trump-2026-04-23.md)
+- [2026-04-23 Mercouris x Barnes](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-23/transcript-duran-mercouris-barnes-fractured-iran-trump-2026-04-23.md)
 
 There is also meaningful work-politics adjacency:
 
-- [2026-04-17 Barnes x Johnson verbatim](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-17/barnes-countercurrent-2026-04-17-verbatim.md)
+- [2026-04-17 Barnes x Johnson verbatim](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-17/barnes-countercurrent-2026-04-17-verbatim.md)
 
 See [barnes-cross-host-note.md](/C:/dev/strategy-codex/codex/speakers/barnes/barnes-cross-host-note.md).
 
@@ -62,7 +62,7 @@ If the operator needs the clearest single host-local entry:
 
 If the operator needs the strongest non-Davis reinforcement:
 
-- open [transcript-duran-mercouris-barnes-fractured-iran-trump-2026-04-23.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-23/transcript-duran-mercouris-barnes-fractured-iran-trump-2026-04-23.md)
+- open [transcript-duran-mercouris-barnes-fractured-iran-trump-2026-04-23.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-23/transcript-duran-mercouris-barnes-fractured-iran-trump-2026-04-23.md)
 
 If the operator needs the object doctrine rather than a live lane:
 

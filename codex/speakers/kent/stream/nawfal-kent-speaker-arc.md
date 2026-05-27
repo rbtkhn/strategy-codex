@@ -16,7 +16,7 @@ The lane is useful because:
 
 ## Arc set
 
-1. [Trump Stuck in a War He Doesn't Want to Continue - w/ Ex-Head of Counter-Terrorism Joe Kent](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-15/youtube-mario-nawfal-trump-stuck-in-a-war-he-doesnt-want-to-continue-w-ex-head-of-counter-terrorism-joe-kent-2026-05-15.md)
+1. [Trump Stuck in a War He Doesn't Want to Continue - w/ Ex-Head of Counter-Terrorism Joe Kent](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-15/youtube-mario-nawfal-trump-stuck-in-a-war-he-doesnt-want-to-continue-w-ex-head-of-counter-terrorism-joe-kent-2026-05-15.md)
    Why it anchors the arc: currently the only materialized Nawfal-Kent appearance, but it is a long transcript-bearing interview and does a different job from the Davis and Diesen branches.
 
 ## Open first

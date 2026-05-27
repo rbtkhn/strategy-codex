@@ -25,36 +25,36 @@ Expected v2 count: 10 files.
 
 | date | title | raw-input | function |
 |---|---|---|---|
-| 2025-05-09 | Trump's Wake-Up Call: Yemen's Chaos Forcing a Deal with Iran | [raw-input](/C:/dev/strategy-codex/codex/years/2026/raw-input/2025-05-09/transcript-dialogue-works-amb-chas-freeman-and-trita-parsi-trump-s-wake-up-call-yemen-s-chaos-forcing-a-deal-with-iran-2025-05-09.md) | early bargain pressure and regional spillover |
-| 2025-06-22 | The U.S. Could Face a War It Can't Win | [raw-input](/C:/dev/strategy-codex/codex/years/2026/raw-input/2025-06-22/transcript-dialogue-works-col-larry-wilkerson-amb-chas-freeman-and-trita-parsi-the-us-could-face-a-war-it-can-t-win-2025-06-22.md) | coercive overreach and strategic caution |
-| 2025-07-26 | How the Iran-Israel War Changed Everything Overnight | [raw-input](/C:/dev/strategy-codex/codex/years/2026/raw-input/2025-07-26/transcript-dialogue-works-amb-chas-freeman-and-trita-parsi-how-the-iran-israel-war-changed-everything-overnight-2025-07-26.md) | war reset and regional-order consequence |
-| 2025-08-15 | The Next Israel-Iran War Is Coming | [raw-input](/C:/dev/strategy-codex/codex/years/2026/raw-input/2025-08-15/transcript-dialogue-works-amb-chas-freeman-and-trita-parsi-the-next-israel-iran-war-is-coming-2025-08-15.md) | escalation warning and prevention logic |
-| 2025-12-19 | The Middle East You Knew Disappearing | [raw-input](/C:/dev/strategy-codex/codex/years/2026/raw-input/2025-12-19/transcript-dialogue-works-freeman-parsi-middle-east-you-knew-disappearing-2025-12-19.md) | regional transformation and architecture pressure |
+| 2025-05-09 | Trump's Wake-Up Call: Yemen's Chaos Forcing a Deal with Iran | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-05-09/transcript-dialogue-works-amb-chas-freeman-and-trita-parsi-trump-s-wake-up-call-yemen-s-chaos-forcing-a-deal-with-iran-2025-05-09.md) | early bargain pressure and regional spillover |
+| 2025-06-22 | The U.S. Could Face a War It Can't Win | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-06-22/transcript-dialogue-works-col-larry-wilkerson-amb-chas-freeman-and-trita-parsi-the-us-could-face-a-war-it-can-t-win-2025-06-22.md) | coercive overreach and strategic caution |
+| 2025-07-26 | How the Iran-Israel War Changed Everything Overnight | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-07-26/transcript-dialogue-works-amb-chas-freeman-and-trita-parsi-how-the-iran-israel-war-changed-everything-overnight-2025-07-26.md) | war reset and regional-order consequence |
+| 2025-08-15 | The Next Israel-Iran War Is Coming | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-08-15/transcript-dialogue-works-amb-chas-freeman-and-trita-parsi-the-next-israel-iran-war-is-coming-2025-08-15.md) | escalation warning and prevention logic |
+| 2025-12-19 | The Middle East You Knew Disappearing | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-12-19/transcript-dialogue-works-freeman-parsi-middle-east-you-knew-disappearing-2025-12-19.md) | regional transformation and architecture pressure |
 
 ### Davis
 
 | date | title | raw-input | function |
 |---|---|---|---|
-| 2025-10-20 | Iran's Nuclear Dilemma | [raw-input](/C:/dev/strategy-codex/codex/years/2026/raw-input/2025-10-20/youtube-daniel-davis-irans-nuclear-dilemma-trita-parsi-lt-col-daniel-davis-2025-10-20.md) | nuclear pressure and bargaining constraints |
-| 2026-03-16 | Iran Making It Painful for U.S. | [raw-input](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-03-16/youtube-daniel-davis-deep-dive-iran-making-it-painful-for-u-s-trita-parsi-lt-col-daniel-davis-2026-03-16.md) | coercion cost and bargaining leverage |
+| 2025-10-20 | Iran's Nuclear Dilemma | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-10-20/youtube-daniel-davis-irans-nuclear-dilemma-trita-parsi-lt-col-daniel-davis-2025-10-20.md) | nuclear pressure and bargaining constraints |
+| 2026-03-16 | Iran Making It Painful for U.S. | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-16/youtube-daniel-davis-deep-dive-iran-making-it-painful-for-u-s-trita-parsi-lt-col-daniel-davis-2026-03-16.md) | coercion cost and bargaining leverage |
 
 ### Napolitano
 
 | date | title | raw-input | function |
 |---|---|---|---|
-| 2026-03-16 | How Washington Underestimated Iran | [raw-input](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-03-16/transcript-napolitano-parsi-how-washington-underestimated-iran-2026-03-16.md) | Washington misread and legal-political responsibility |
+| 2026-03-16 | How Washington Underestimated Iran | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-16/transcript-napolitano-parsi-how-washington-underestimated-iran-2026-03-16.md) | Washington misread and legal-political responsibility |
 
 ### Duran / Mercouris
 
 | date | title | raw-input | function |
 |---|---|---|---|
-| 2026-05-06 | US-Iran Blockade Diplomacy | [raw-input](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-06/transcript-duran-mercouris-trita-parsi-us-iran-blockade-diplomacy-2026-05-06.md) | blockade failure and diplomatic architecture |
+| 2026-05-06 | US-Iran Blockade Diplomacy | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-06/transcript-duran-mercouris-trita-parsi-us-iran-blockade-diplomacy-2026-05-06.md) | blockade failure and diplomatic architecture |
 
 ### Diesen
 
 | date | title | raw-input | function |
 |---|---|---|---|
-| 2026-05-18 | Iran War Marks the End of American Primacy | [raw-input](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-18/youtube-glenn-diesen-trita-parsi-iran-war-marks-the-end-of-american-primacy-2026-05-18.md) | order-transition consequence |
+| 2026-05-18 | Iran War Marks the End of American Primacy | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-18/youtube-glenn-diesen-trita-parsi-iran-war-marks-the-end-of-american-primacy-2026-05-18.md) | order-transition consequence |
 
 ## Host Function Map
 

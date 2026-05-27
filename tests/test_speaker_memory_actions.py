@@ -37,7 +37,7 @@ def row(
             "pub_date": "2026-05-12",
             "title": "Example",
             "source_url": f"https://www.youtube.com/watch?v={appearance_id[-11:]}",
-            "raw_input_path": f"codex/years/2026/raw-input/2026-05-12/{appearance_id}.md",
+            "raw_input_path": f"source-archive/statecraft/2026-05-12/{appearance_id}.md",
         },
         "route_type": route_type,
         "next_action": next_action,

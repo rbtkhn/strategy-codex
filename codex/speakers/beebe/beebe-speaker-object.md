@@ -84,11 +84,11 @@ If the operator needs the clearest mature branch:
 
 If the operator needs the clearest currently materialized raw-input file:
 
-- open [2026-05-14 Diesen x Beebe](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-14/youtube-glenn-diesen-george-beebe-europe-russia-war-as-the-u-s-pulls-back-2026-05-14.md)
+- open [2026-05-14 Diesen x Beebe](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-14/youtube-glenn-diesen-george-beebe-europe-russia-war-as-the-u-s-pulls-back-2026-05-14.md)
 
 If the operator needs the strongest late-2025 anchor:
 
-- open [2025-11-26 Diesen x Beebe](/C:/dev/strategy-codex/codex/years/2026/raw-input/2025-11-26/youtube-glenn-diesen-george-beebe-ukraine-faces-destruction-if-europe-derails-peace-2025-11-26.md)
+- open [2025-11-26 Diesen x Beebe](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-11-26/youtube-glenn-diesen-george-beebe-ukraine-faces-destruction-if-europe-derails-peace-2025-11-26.md)
 
 If the operator needs the object doctrine rather than the lane:
 

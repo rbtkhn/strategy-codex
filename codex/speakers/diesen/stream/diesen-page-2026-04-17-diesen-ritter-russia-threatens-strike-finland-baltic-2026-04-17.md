@@ -23,7 +23,7 @@ Host lane owns **paired-thread** hygiene (`thread:diesen` × `thread:ritter`) an
 
 ### Appendix
 
-- **Full verbatim (capture SSOT):** [raw-input/2026-04-17/transcript-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md](../../../../years/2026/raw-input/2026-04-17/transcript-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md)
+- **Full verbatim (capture SSOT):** [provenance/2026-04-17/transcript-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md](../../../../years/2026/provenance/2026-04-17/transcript-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md)
 - **Inbox / triage:** [daily-strategy-inbox.md](../../daily-strategy-inbox.md) (search `diesen` + `Ritter` + 2026-04-17)
 - **`thread:diesen` × `thread:ritter` ·** Guest: [../../ritter/stream/ritter-page-2026-04-17-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md](../../ritter/stream/ritter-page-2026-04-17-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md) · **verify:** `pub_date:2026-04-17` + pin `watch?v=`
 - **Canonical primary:** `https://www.youtube.com/watch?v=TBD-diesen-ritter-finland-baltic-2026-04`

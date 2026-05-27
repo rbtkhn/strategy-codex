@@ -33,4 +33,4 @@ Treat those as transition-era compatibility surfaces, not co-equal canonical nam
 
 ## Boundary
 
-`nima` is the canonical host/thread id under `codex/speakers/nima/`. Raw-text authority stays in [`codex/years/2026/raw-input/`](C:/dev/strategy-codex/codex/years/2026/raw-input).
+`nima` is the canonical host/thread id under `codex/speakers/nima/`. Raw-text authority stays in [`codex/years/2026/provenance/`](C:/dev/strategy-codex/codex/years/2026/provenance).

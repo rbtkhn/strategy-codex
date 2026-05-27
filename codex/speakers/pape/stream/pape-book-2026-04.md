@@ -45,7 +45,7 @@ escalation traps, commitment ratchets, and coercive bargaining branches.
 
 ## Source / Provenance Notes
 
-- Shared raw input lives under [`../../../years/2026/raw-input/`](../../../years/2026/raw-input/).
+- Shared raw input lives under [`../../../years/2026/provenance/`](../../../years/2026/provenance/).
 - Use readable case-family labels plus exact civ-mem paths when known.
 
 WORK only; not Record.

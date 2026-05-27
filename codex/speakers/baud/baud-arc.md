@@ -94,20 +94,20 @@ _Auto-generated from `transcript.md` + **on-disk** and **inbox** `raw-input/` (d
 ### Recent transcript material
 
 ## 2026-04-28
-- Inbox | cold: full text in [`transcript-baud-dialogue-works-nima-2026-04-27.md`](raw-input/2026-04-27/transcript-baud-dialogue-works-nima-2026-04-27.md) (pointer; SSOT raw-input) | thread:baud
-- Inbox | cold: full text in [`davis-deep-dive-baud-iran-pakistan-diplomacy.md`](raw-input/2026-04-20/davis-deep-dive-baud-iran-pakistan-diplomacy.md) (pointer; SSOT raw-input) | thread:baud
+- Inbox | cold: full text in [`transcript-baud-dialogue-works-nima-2026-04-27.md`](provenance/2026-04-27/transcript-baud-dialogue-works-nima-2026-04-27.md) (pointer; SSOT raw-input) | thread:baud
+- Inbox | cold: full text in [`davis-deep-dive-baud-iran-pakistan-diplomacy.md`](provenance/2026-04-20/davis-deep-dive-baud-iran-pakistan-diplomacy.md) (pointer; SSOT raw-input) | thread:baud
 ## 2026-04-27
-- Inbox | cold: full text in [`transcript-baud-dialogue-works-nima-2026-04-27.md`](raw-input/2026-04-27/transcript-baud-dialogue-works-nima-2026-04-27.md) (pointer; SSOT raw-input) | thread:baud
-- Inbox | cold: full text in [`davis-deep-dive-baud-iran-pakistan-diplomacy.md`](raw-input/2026-04-20/davis-deep-dive-baud-iran-pakistan-diplomacy.md) (pointer; SSOT raw-input) | thread:baud
+- Inbox | cold: full text in [`transcript-baud-dialogue-works-nima-2026-04-27.md`](provenance/2026-04-27/transcript-baud-dialogue-works-nima-2026-04-27.md) (pointer; SSOT raw-input) | thread:baud
+- Inbox | cold: full text in [`davis-deep-dive-baud-iran-pakistan-diplomacy.md`](provenance/2026-04-20/davis-deep-dive-baud-iran-pakistan-diplomacy.md) (pointer; SSOT raw-input) | thread:baud
 ## 2026-04-26
-- Inbox | cold: full text in [`davis-deep-dive-baud-iran-pakistan-diplomacy.md`](raw-input/2026-04-20/davis-deep-dive-baud-iran-pakistan-diplomacy.md) (pointer; SSOT raw-input) | thread:baud
+- Inbox | cold: full text in [`davis-deep-dive-baud-iran-pakistan-diplomacy.md`](provenance/2026-04-20/davis-deep-dive-baud-iran-pakistan-diplomacy.md) (pointer; SSOT raw-input) | thread:baud
 ## 2026-04-25
-- YT | cold: **Daniel Davis** ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â **Col. Jacques Baud** (*Daniel Davis Deep Dive*) ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â **Trump** **Fox** **Pakistan-signing** **frame** **vs** **IRI** **no-show** **Islamabad** **(CBS** **wire** **in** **voice);** **carrotÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œstick** **/** **blackmail** **read;** **ceasefire** **as** **rear** **arm** **(Ukraine** **parallel);** **Strait** **/** **Hormuz** **deterrent;** **UNGA** **3314** **co-belligerent** **(GCC** **territory** **/** **airspace);** **UAE** **FM** **ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã¢â‚¬Å“gulf** **of** **trustÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â** **vs** **aggression** **facts;** **perfidy** **/** **Geneva** **timing;** **Keane** **blockade** **claims** **vs** **energy** **/** **Bab** **el-Mandeb** **escalation** **geometry;** **Europe** **vassal** **thesis** **(E3** **Mar** **1)** // hook: **`thread:baud`** **law-of-war** **+** **alliance** **mandate** **ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â** **host** **`thread:davis`**; **full** **verbatim** [raw-input/2026-04-20/davis-deep-dive-baud-iran-pakistan-diplomacy.md](raw-input/2026-04-20/davis-deep-dive-baud-iran-pakistan-diplomacy.md) | https://www.youtube.com/watch?v=TBD-davis-baud-deep-dive | verify:full-text+raw-input+pin-canonical-URL+aired:TBD | thread:baud | grep:Baud+Davis+Pakistan+Hormuz+3314+trust
+- YT | cold: **Daniel Davis** ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â **Col. Jacques Baud** (*Daniel Davis Deep Dive*) ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â **Trump** **Fox** **Pakistan-signing** **frame** **vs** **IRI** **no-show** **Islamabad** **(CBS** **wire** **in** **voice);** **carrotÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œstick** **/** **blackmail** **read;** **ceasefire** **as** **rear** **arm** **(Ukraine** **parallel);** **Strait** **/** **Hormuz** **deterrent;** **UNGA** **3314** **co-belligerent** **(GCC** **territory** **/** **airspace);** **UAE** **FM** **ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã¢â‚¬Å“gulf** **of** **trustÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â** **vs** **aggression** **facts;** **perfidy** **/** **Geneva** **timing;** **Keane** **blockade** **claims** **vs** **energy** **/** **Bab** **el-Mandeb** **escalation** **geometry;** **Europe** **vassal** **thesis** **(E3** **Mar** **1)** // hook: **`thread:baud`** **law-of-war** **+** **alliance** **mandate** **ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â** **host** **`thread:davis`**; **full** **verbatim** [provenance/2026-04-20/davis-deep-dive-baud-iran-pakistan-diplomacy.md](provenance/2026-04-20/davis-deep-dive-baud-iran-pakistan-diplomacy.md) | https://www.youtube.com/watch?v=TBD-davis-baud-deep-dive | verify:full-text+raw-input+pin-canonical-URL+aired:TBD | thread:baud | grep:Baud+Davis+Pakistan+Hormuz+3314+trust
 
 ### Recent raw-input (lane)
 
 _Union of **on-disk** `raw-input/ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¦` files tagged with this expertÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢s `thread:` and **inbox** lines (same paths de-duped; disk line kept first)._
 
-- [transcript-baud-dialogue-works-nima-2026-04-27.md](raw-input/2026-04-27/transcript-baud-dialogue-works-nima-2026-04-27.md) _on-disk_
-- [davis-deep-dive-baud-iran-pakistan-diplomacy.md](raw-input/2026-04-20/davis-deep-dive-baud-iran-pakistan-diplomacy.md)
+- [transcript-baud-dialogue-works-nima-2026-04-27.md](provenance/2026-04-27/transcript-baud-dialogue-works-nima-2026-04-27.md) _on-disk_
+- [davis-deep-dive-baud-iran-pakistan-diplomacy.md](provenance/2026-04-20/davis-deep-dive-baud-iran-pakistan-diplomacy.md)
 <!-- strategy-expert-thread:end -->

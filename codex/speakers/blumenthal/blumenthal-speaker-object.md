@@ -36,7 +36,7 @@ Blumenthal should currently be read as a **cross-host reinforced commentary obje
 That means:
 
 - the object is stronger than a one-off commentator shelf because there is real recurring reuse
-- the clearest live on-disk anchor is [transcript-blumenthal-israel-defeat-zionist-power-2026-04-21.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-21/transcript-blumenthal-israel-defeat-zionist-power-2026-04-21.md)
+- the clearest live on-disk anchor is [transcript-blumenthal-israel-defeat-zionist-power-2026-04-21.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-21/transcript-blumenthal-israel-defeat-zionist-power-2026-04-21.md)
 - the same voice also shows up as a comparative amplifier in the `marandi` and `pape` weave environment
 - but the notebook should not yet overstate this as a mature double- or triple-speaker-helix without denser host-local arc structure and clearer canonical branch separation
 
@@ -55,7 +55,7 @@ See [blumenthal-cross-host-note.md](/C:/dev/strategy-codex/codex/speakers/blumen
 
 If the operator needs the clearest current live anchor:
 
-- open [transcript-blumenthal-israel-defeat-zionist-power-2026-04-21.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-21/transcript-blumenthal-israel-defeat-zionist-power-2026-04-21.md)
+- open [transcript-blumenthal-israel-defeat-zionist-power-2026-04-21.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-21/transcript-blumenthal-israel-defeat-zionist-power-2026-04-21.md)
 
 If the operator needs the best current routing shelf:
 

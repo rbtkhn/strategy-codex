@@ -17,7 +17,7 @@ Carlson turns Kent from a recurring anti-intervention analyst into a **witness f
 
 ## Transcript anchor
 
-- `2026-03-18` [Joe Kent Reveals All in First Interview Since Resigning as Trump's Counterterrorism Director](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-03-18/youtube-tucker-carlson-joe-kent-reveals-all-in-first-interview-since-resigning-as-trump-s-count-2026-03-18.md) - operator-pasted, transcript-bearing; automated yt-dlp metadata fetch hit YouTube bot verification.
+- `2026-03-18` [Joe Kent Reveals All in First Interview Since Resigning as Trump's Counterterrorism Director](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-18/youtube-tucker-carlson-joe-kent-reveals-all-in-first-interview-since-resigning-as-trump-s-count-2026-03-18.md) - operator-pasted, transcript-bearing; automated yt-dlp metadata fetch hit YouTube bot verification.
 
 ## What Carlson changes
 

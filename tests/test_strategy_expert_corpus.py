@@ -87,10 +87,10 @@ def test_render_thread_extraction_includes_raw_input_pointers() -> None:
         transcript_lines=[],
         page_refs=[],
         page_blocks=[],
-        raw_input_lane_lines=["- [a.md](raw-input/2026-04-24/a.md)"],
+        raw_input_lane_lines=["- [a.md](provenance/2026-04-24/a.md)"],
     )
     assert "Recent raw-input" in text
-    assert "raw-input/2026-04-24/a.md" in text
+    assert "provenance/2026-04-24/a.md" in text
     assert "_(No transcript, raw-input lane, or page material" not in text
 
 
@@ -101,7 +101,7 @@ def test_render_thread_extraction_raw_input_lane_suffices_without_transcript() -
         transcript_lines=[],
         page_refs=[],
         page_blocks=[],
-        raw_input_lane_lines=["- [b.md](raw-input/2026-04-24/b.md) _on-disk_"],
+        raw_input_lane_lines=["- [b.md](provenance/2026-04-24/b.md) _on-disk_"],
     )
     assert "Union of" in text or "de-duped" in text
     assert "_(No transcript, raw-input lane, or page material" not in text
@@ -115,8 +115,8 @@ def test_collect_inbox_raw_input_pointers_respects_thread_tag_and_month(
     ri.mkdir(parents=True)
     (ri / "foo.md").write_text("x", encoding="utf-8")
     inbox.write_text(
-        "- x | [raw](raw-input/2026-04-20/foo.md) | thread:ritter\n"
-        "- y | [raw](raw-input/2026-03-01/bar.md) | thread:ritter\n",
+        "- x | [raw](provenance/2026-04-20/foo.md) | thread:ritter\n"
+        "- y | [raw](provenance/2026-03-01/bar.md) | thread:ritter\n",
         encoding="utf-8",
     )
     all_ptrs = collect_inbox_raw_input_pointers(

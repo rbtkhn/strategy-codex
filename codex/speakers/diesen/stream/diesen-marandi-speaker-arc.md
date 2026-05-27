@@ -46,12 +46,12 @@ This lane is materially present on disk as a 2026 Iran-war run. It should be rea
 
 If the operator needs only one file:
 
-- open [transcript-diesen-marandi-hormuz-all-out-war-2026-05-05.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-05/transcript-diesen-marandi-hormuz-all-out-war-2026-05-05.md)
+- open [transcript-diesen-marandi-hormuz-all-out-war-2026-05-05.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-05/transcript-diesen-marandi-hormuz-all-out-war-2026-05-05.md)
 
 If the operator needs the best paired read:
 
-- open [transcript-diesen-marandi-hormuz-all-out-war-2026-05-05.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-05/transcript-diesen-marandi-hormuz-all-out-war-2026-05-05.md)
-- then [youtube-glenn-diesen-seyed-m-marandi-iran-rejects-u-s-deal-war-is-likely-imminent-2026-05-09.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-09/youtube-glenn-diesen-seyed-m-marandi-iran-rejects-u-s-deal-war-is-likely-imminent-2026-05-09.md)
+- open [transcript-diesen-marandi-hormuz-all-out-war-2026-05-05.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-05/transcript-diesen-marandi-hormuz-all-out-war-2026-05-05.md)
+- then [youtube-glenn-diesen-seyed-m-marandi-iran-rejects-u-s-deal-war-is-likely-imminent-2026-05-09.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-09/youtube-glenn-diesen-seyed-m-marandi-iran-rejects-u-s-deal-war-is-likely-imminent-2026-05-09.md)
 
 That pair gives the clearest mature lane shape:
 

@@ -26,9 +26,9 @@ So this note is the **speaker-side index** into the canonical Wilkerson host pai
 
 ## Best entry points
 
-- **Best single opening file:** [transcript-diesen-wilkerson-hormuz-brics-2026-05-06.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-06/transcript-diesen-wilkerson-hormuz-brics-2026-05-06.md)
-- **Best live-pressure opening file:** [transcript-alkorshid-wilkerson-hormuz-blockade-2026-05-05.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-05/transcript-alkorshid-wilkerson-hormuz-blockade-2026-05-05.md)
-- **Best Napolitano opening file:** [transcript-wilkerson-judging-freedom-iran-new-friend-2026-04-30.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-30/transcript-wilkerson-judging-freedom-iran-new-friend-2026-04-30.md)
+- **Best single opening file:** [transcript-diesen-wilkerson-hormuz-brics-2026-05-06.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-06/transcript-diesen-wilkerson-hormuz-brics-2026-05-06.md)
+- **Best live-pressure opening file:** [transcript-alkorshid-wilkerson-hormuz-blockade-2026-05-05.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-05/transcript-alkorshid-wilkerson-hormuz-blockade-2026-05-05.md)
+- **Best Napolitano opening file:** [transcript-wilkerson-judging-freedom-iran-new-friend-2026-04-30.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-30/transcript-wilkerson-judging-freedom-iran-new-friend-2026-04-30.md)
 
 ## By shelf function
 

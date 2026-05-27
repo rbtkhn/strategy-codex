@@ -46,11 +46,11 @@ So Sachs is not best read as a failed helix. He is best read as a speaker object
 
 The clearest reinforcement beyond Diesen is:
 
-- [2026-05-07 Mercouris x Sachs](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-07/transcript-duran-mercouris-jeffrey-sachs-iran-miscalculation-could-trigger-a-decade-long-economic-crisis-2026-05-07.md)
+- [2026-05-07 Mercouris x Sachs](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-07/transcript-duran-mercouris-jeffrey-sachs-iran-miscalculation-could-trigger-a-decade-long-economic-crisis-2026-05-07.md)
 
 There is also meaningful wider reinforcement:
 
-- [2026-04-24 Tucker Carlson x Sachs](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-24/transcript-sachs-carlson-iran-war-origins-2026-04-24.md)
+- [2026-04-24 Tucker Carlson x Sachs](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-24/transcript-sachs-carlson-iran-war-origins-2026-04-24.md)
 
 See [sachs-cross-host-note.md](/C:/dev/strategy-codex/codex/speakers/sachs/sachs-cross-host-note.md).
 
@@ -58,11 +58,11 @@ See [sachs-cross-host-note.md](/C:/dev/strategy-codex/codex/speakers/sachs/sachs
 
 If the operator needs the clearest current host-local entry:
 
-- open [2026-05-12 Diesen x Sachs](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-12/youtube-glenn-diesen-jeffrey-sachs-new-european-military-bloc-for-war-against-russia-2026-05-12.md)
+- open [2026-05-12 Diesen x Sachs](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-12/youtube-glenn-diesen-jeffrey-sachs-new-european-military-bloc-for-war-against-russia-2026-05-12.md)
 
 If the operator needs the strongest non-Diesen reinforcement:
 
-- open [2026-05-07 Mercouris x Sachs](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-07/transcript-duran-mercouris-jeffrey-sachs-iran-miscalculation-could-trigger-a-decade-long-economic-crisis-2026-05-07.md)
+- open [2026-05-07 Mercouris x Sachs](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-07/transcript-duran-mercouris-jeffrey-sachs-iran-miscalculation-could-trigger-a-decade-long-economic-crisis-2026-05-07.md)
 
 If the operator needs the object doctrine rather than a live lane:
 

@@ -59,12 +59,12 @@ That means the Davis-side Freeman branch already had a visible late-2025 continu
 
 If the operator needs only one file:
 
-- open [youtube-daniel-davis-deep-dive-diplomacy-is-dead-w-iran-lt-col-daniel-davis-fmr-amb-chas-freeman-2026-03-06.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-03-06/youtube-daniel-davis-deep-dive-diplomacy-is-dead-w-iran-lt-col-daniel-davis-fmr-amb-chas-freeman-2026-03-06.md)
+- open [youtube-daniel-davis-deep-dive-diplomacy-is-dead-w-iran-lt-col-daniel-davis-fmr-amb-chas-freeman-2026-03-06.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-06/youtube-daniel-davis-deep-dive-diplomacy-is-dead-w-iran-lt-col-daniel-davis-fmr-amb-chas-freeman-2026-03-06.md)
 
 If the operator needs the best paired read:
 
-- open [youtube-daniel-davis-deep-dive-diplomacy-is-dead-w-iran-lt-col-daniel-davis-fmr-amb-chas-freeman-2026-03-06.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-03-06/youtube-daniel-davis-deep-dive-diplomacy-is-dead-w-iran-lt-col-daniel-davis-fmr-amb-chas-freeman-2026-03-06.md)
-- then [youtube-daniel-davis-deep-dive-what-ukraine-lost-in-battle-can-t-be-regained-negotiating-w-amb-chas-fre-2025-01-26.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2025-01-26/youtube-daniel-davis-deep-dive-what-ukraine-lost-in-battle-can-t-be-regained-negotiating-w-amb-chas-fre-2025-01-26.md)
+- open [youtube-daniel-davis-deep-dive-diplomacy-is-dead-w-iran-lt-col-daniel-davis-fmr-amb-chas-freeman-2026-03-06.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-06/youtube-daniel-davis-deep-dive-diplomacy-is-dead-w-iran-lt-col-daniel-davis-fmr-amb-chas-freeman-2026-03-06.md)
+- then [youtube-daniel-davis-deep-dive-what-ukraine-lost-in-battle-can-t-be-regained-negotiating-w-amb-chas-fre-2025-01-26.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-01-26/youtube-daniel-davis-deep-dive-what-ukraine-lost-in-battle-can-t-be-regained-negotiating-w-amb-chas-fre-2025-01-26.md)
 
 That pair gives the clearest full lane shape:
 

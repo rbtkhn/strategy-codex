@@ -30,13 +30,13 @@ For the full March Freeman run, open [freeman-march-2026-cross-host-arc.md](../.
 - 2026-03-20 *Ground Troops in Iran? This Could Collapse Netanyahu's Strategy* - captured on disk.
 - 2026-03-27 *If Troops Enter Iran... Israel's Entire Strategy FALLS APART* - captured on disk.
 
-1. [transcript-alkorshid-freeman-hormuz-ceasefire-gulf-states-china-2026-05-08.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-08/transcript-alkorshid-freeman-hormuz-ceasefire-gulf-states-china-2026-05-08.md)
+1. [transcript-alkorshid-freeman-hormuz-ceasefire-gulf-states-china-2026-05-08.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-08/transcript-alkorshid-freeman-hormuz-ceasefire-gulf-states-china-2026-05-08.md)
    Best mature anchor. Strong on "ceasefire with Israeli characteristics," Gulf-state distancing, Hormuz control, and the claim that Anglo-American maritime order is breaking down.
 
-2. [transcript-nima-freeman-israel-agenda-collapsing-2026-04-24.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-24/transcript-nima-freeman-israel-agenda-collapsing-2026-04-24.md)
+2. [transcript-nima-freeman-israel-agenda-collapsing-2026-04-24.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-24/transcript-nima-freeman-israel-agenda-collapsing-2026-04-24.md)
    Best early mature file. Strong on phony ceasefire language, attritional diplomacy, NATO strain, Armenia exposure, and the performative quality of U.S. negotiations.
 
-3. [transcript-freeman.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-17/transcript-freeman.md)
+3. [transcript-freeman.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-17/transcript-freeman.md)
    Best first host-stream capture. More provisional than the later cleaned files, but important for establishing the original Dialogue Works Freeman contour around Hormuz, GCC hedge, and U.S. decay.
 
 ### 2025 densification
@@ -51,11 +51,11 @@ The 2025 Dialogue Works shelf was already real, but it is now clearer on disk as
 
 That makes the second-half 2025 Dialogue Works Freeman run feel materially dense, not merely sufficient.
 
-December bridge: [2025-12-05 *Israel's Strategy Is Collapsing | EU Seems Paralyzed | Ceding the Future to China*](/C:/dev/strategy-codex/codex/years/2026/raw-input/2025-12-05/transcript-dialogue-works-amb-chas-freeman-israel-s-strategy-is-collapsing-eu-seems-paralyzed-ceding-the-future-to-china-2025-12-05.md) is the first captured Dialogue Works anchor for the Dec 2025-May 2026 Freeman arc-threads. It ties the Israel-collapse language to EU paralysis, sanctions failure, U.S. domestic/legal decay, and China's quiet beneficiary role.
+December bridge: [2025-12-05 *Israel's Strategy Is Collapsing | EU Seems Paralyzed | Ceding the Future to China*](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-12-05/transcript-dialogue-works-amb-chas-freeman-israel-s-strategy-is-collapsing-eu-seems-paralyzed-ceding-the-future-to-china-2025-12-05.md) is the first captured Dialogue Works anchor for the Dec 2025-May 2026 Freeman arc-threads. It ties the Israel-collapse language to EU paralysis, sanctions failure, U.S. domestic/legal decay, and China's quiet beneficiary role.
 
-Joint-speaker bridge: [2025-12-12 *The U.S. Just Triggered a Chain Reaction It Can't Reverse*](/C:/dev/strategy-codex/codex/years/2026/raw-input/2025-12-12/transcript-dialogue-works-wilkerson-freeman-chain-reaction-2025-12-12.md) belongs to both the Freeman and Wilkerson Dialogue Works lanes. Use it when the Freeman arc needs the legal/diplomatic frame around Venezuela piracy, Monroe Doctrine revival, statecraft process collapse, mercantilist strategy, China competition, and Gulf-region counter-coalition formation, while preserving Wilkerson's separate military-statecraft register.
+Joint-speaker bridge: [2025-12-12 *The U.S. Just Triggered a Chain Reaction It Can't Reverse*](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-12-12/transcript-dialogue-works-wilkerson-freeman-chain-reaction-2025-12-12.md) belongs to both the Freeman and Wilkerson Dialogue Works lanes. Use it when the Freeman arc needs the legal/diplomatic frame around Venezuela piracy, Monroe Doctrine revival, statecraft process collapse, mercantilist strategy, China competition, and Gulf-region counter-coalition formation, while preserving Wilkerson's separate military-statecraft register.
 
-Joint-speaker bridge: [2025-12-19 *The Middle East You Knew Is Disappearing*](/C:/dev/strategy-codex/codex/years/2026/raw-input/2025-12-19/transcript-dialogue-works-freeman-parsi-middle-east-you-knew-disappearing-2025-12-19.md) belongs to both the Freeman and Parsi lanes. Use it when the Freeman arc needs the Gulf-Arab/Iran common-interest turn, Israel-as-regional-destabilizer frame, axis-of-resistance deterrence debate, Venezuela-Iran narrative linkage, and the Ukraine/Europe asset-seizure coda in one live-pressure episode.
+Joint-speaker bridge: [2025-12-19 *The Middle East You Knew Is Disappearing*](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-12-19/transcript-dialogue-works-freeman-parsi-middle-east-you-knew-disappearing-2025-12-19.md) belongs to both the Freeman and Parsi lanes. Use it when the Freeman arc needs the Gulf-Arab/Iran common-interest turn, Israel-as-regional-destabilizer frame, axis-of-resistance deterrence debate, Venezuela-Iran narrative linkage, and the Ukraine/Europe asset-seizure coda in one live-pressure episode.
 
 ## Open first
 

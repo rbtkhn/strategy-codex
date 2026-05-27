@@ -63,11 +63,11 @@ If the operator needs the clearest current live-pressure branch:
 
 If the operator needs the strongest current Diesen anchor:
 
-- open [2026-04-05 Diesen x McGovern](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-05/youtube-glenn-diesen-ray-mcgovern-the-death-of-nato-time-for-a-new-strategy-2026-04-05.md)
+- open [2026-04-05 Diesen x McGovern](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-05/youtube-glenn-diesen-ray-mcgovern-the-death-of-nato-time-for-a-new-strategy-2026-04-05.md)
 
 If the operator needs the strongest current Dialogue Works anchor:
 
-- open [2026-03-08 Dialogue Works x McGovern](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-03-08/transcript-dialogue-works-ray-mcgovern-does-armageddon-loom-iran-comes-close-to-decimating-israel-in-the-coming-weeks-2026-03-08.md)
+- open [2026-03-08 Dialogue Works x McGovern](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-08/transcript-dialogue-works-ray-mcgovern-does-armageddon-loom-iran-comes-close-to-decimating-israel-in-the-coming-weeks-2026-03-08.md)
 
 If the operator needs the object doctrine rather than a host branch:
 

@@ -23,7 +23,7 @@ The orthogonality-bearing structure on this shelf is:
 
 The Barnes quote-surface is reinforcement, not a fifth canonical strand:
 
-- [2026-04-21 Barnes x Kent exit-ramp quote](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-04-21/x-barnes-kent-exit-ramp-qt-2026-04-21.md)
+- [2026-04-21 Barnes x Kent exit-ramp quote](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-21/x-barnes-kent-exit-ramp-qt-2026-04-21.md)
 
 ## Main Host Routes
 
@@ -34,4 +34,4 @@ The Barnes quote-surface is reinforcement, not a fifth canonical strand:
 
 ## Boundary
 
-Kent is canonical under `codex/speakers/kent/`. Raw-text authority stays in [`codex/years/2026/raw-input/`](C:/dev/strategy-codex/codex/years/2026/raw-input).
+Kent is canonical under `codex/speakers/kent/`. Raw-text authority stays in [`codex/years/2026/provenance/`](C:/dev/strategy-codex/codex/years/2026/provenance).

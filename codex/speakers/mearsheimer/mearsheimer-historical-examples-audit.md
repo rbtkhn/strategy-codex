@@ -98,7 +98,7 @@ Coverage basis:
 ### 1. Budapest Memorandum and Minsk as false guarantees and failed political carriers
 
 - Example: `Budapest Memorandum / Minsk Accords`
-- Source: [2025-03-20 Daniel Davis](../../years/2026/raw-input/2025-03-20/youtube-daniel-davis-deep-dive-john-mearsheimer-therell-be-no-meaningfulf-ceasefire-in-ukraine-russia-war-2025-03-20.md)
+- Source: [2025-03-20 Daniel Davis](../../years/2026/provenance/2025-03-20/youtube-daniel-davis-deep-dive-john-mearsheimer-therell-be-no-meaningfulf-ceasefire-in-ukraine-russia-war-2025-03-20.md)
 - Exact quote:
 
 > "the Minsk accords were doomed from the get-go."
@@ -128,7 +128,7 @@ Coverage basis:
 ### 2. NATO expansion after de-nuclearization as a prescription for disaster
 
 - Example: `NATO expansion after Budapest`
-- Source: [2025-03-20 Daniel Davis](../../years/2026/raw-input/2025-03-20/youtube-daniel-davis-deep-dive-john-mearsheimer-therell-be-no-meaningfulf-ceasefire-in-ukraine-russia-war-2025-03-20.md)
+- Source: [2025-03-20 Daniel Davis](../../years/2026/provenance/2025-03-20/youtube-daniel-davis-deep-dive-john-mearsheimer-therell-be-no-meaningfulf-ceasefire-in-ukraine-russia-war-2025-03-20.md)
 - Exact quote:
 
 > "This was a prescription for disaster because the Russians made it clear that this was not going to happen and that they would destroy Ukraine before they would let it come into the alliance."
@@ -156,7 +156,7 @@ Coverage basis:
 ### 3. Cold War bipolarity versus present multipolarity as a structural regime change
 
 - Example: `Cold War bipolarity / post-2017 multipolarity`
-- Source: [2026-05-04 Glenn Diesen](../../years/2026/raw-input/2026-05-04/transcript-diesen-mearsheimer-world-order-ending-risk-nuclear-war-2026-05-04.md)
+- Source: [2026-05-04 Glenn Diesen](../../years/2026/provenance/2026-05-04/transcript-diesen-mearsheimer-world-order-ending-risk-nuclear-war-2026-05-04.md)
 - Exact quote:
 
 > "During the Cold War, we lived in a bipolar world."
@@ -184,7 +184,7 @@ Coverage basis:
 ### 4. "Unthinkable during the Cold War" as an escalation-discipline warning
 
 - Example: `Cold War taboo memory`
-- Source: [2026-05-04 Glenn Diesen](../../years/2026/raw-input/2026-05-04/transcript-diesen-mearsheimer-world-order-ending-risk-nuclear-war-2026-05-04.md)
+- Source: [2026-05-04 Glenn Diesen](../../years/2026/provenance/2026-05-04/transcript-diesen-mearsheimer-world-order-ending-risk-nuclear-war-2026-05-04.md)
 - Exact quote:
 
 > "This would have been unthinkable during the Cold War. Unthinkable."
@@ -213,8 +213,8 @@ Coverage basis:
 
 - Example: `Japan / Germany / Iraq / maximum pressure / big battalions`
 - Sources:
-  - [2026-04-30 Daniel Davis](../../years/2026/raw-input/2026-04-30/transcript-davis-mearsheimer-weve-lost-the-iran-war-were-screwed-2026-04-30.md)
-  - [2026-03-29 authored Mearsheimer](../../years/2026/raw-input/2026-03-29/substack-mearsheimer-will-trump-go-kamikaze-2026-03-29.md)
+  - [2026-04-30 Daniel Davis](../../years/2026/provenance/2026-04-30/transcript-davis-mearsheimer-weve-lost-the-iran-war-were-screwed-2026-04-30.md)
+  - [2026-03-29 authored Mearsheimer](../../years/2026/provenance/2026-03-29/substack-mearsheimer-will-trump-go-kamikaze-2026-03-29.md)
 - Exact quote:
 
 > "We saw this in World War II with the bombing campaigns against Japan and Germany."
@@ -246,7 +246,7 @@ Coverage basis:
 ### 6. Suez as a false analogy for the United States
 
 - Example: `Suez crisis`
-- Source: [2026-04-20 Hedges](../../years/2026/raw-input/2026-04-20/transcript-hedges-mearsheimer-iran-2026-04-20.md)
+- Source: [2026-04-20 Hedges](../../years/2026/provenance/2026-04-20/transcript-hedges-mearsheimer-iran-2026-04-20.md)
 - Exact quote:
 
 > "It's not our Suez crisis."

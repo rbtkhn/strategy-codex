@@ -50,7 +50,7 @@ So Postol is no longer best read as merely cross-host reinforced. He is better r
 
 The broader Postol run is visible in shelf-supporting inventory and profile surfaces:
 
-- [dialogue-works-inventory.md](/C:/dev/strategy-codex/codex/years/2026/raw-input/dialogue-works-inventory.md)
+- [dialogue-works-inventory.md](/C:/dev/strategy-codex/codex/years/2026/provenance/dialogue-works-inventory.md)
 - [alkorshid-profile.md](/C:/dev/strategy-codex/codex/profiles/alkorshid-profile.md)
 
 See [postol-cross-host-note.md](/C:/dev/strategy-codex/codex/speakers/postol/postol-cross-host-note.md).
@@ -71,7 +71,7 @@ If the operator needs the clearest live-pressure branch already on disk:
 
 If the operator needs the strongest current materialized raw-input file:
 
-- open [2026-05-08 Alkorshid x Postol](/C:/dev/strategy-codex/codex/years/2026/raw-input/2026-05-08/transcript-alkorshid-postol-third-round-war-israel-worst-nightmare-yet-2026-05-08.md)
+- open [2026-05-08 Alkorshid x Postol](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-08/transcript-alkorshid-postol-third-round-war-israel-worst-nightmare-yet-2026-05-08.md)
 
 If the operator needs the object doctrine rather than a live lane:
 

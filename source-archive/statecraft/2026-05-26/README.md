@@ -4,9 +4,9 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Stats
 
-- Source files: `15`
-- Type mix: `transcript` (10), `youtube` (5)
-- Distinct channels/shows: `6`
+- Source files: `18`
+- Type mix: `transcript` (10), `youtube` (5), `predictive` (3)
+- Distinct channels/shows: `7`
 - Distinct hosts: `6`
 - Distinct guests: `12`
 - Distinct threads: `10`
@@ -14,6 +14,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Channel / Show Rollup
 
 - `Daniel Davis Deep Dive` (3), `Dialogue Works` (3), `Judging Freedom` (2), `Alexander Mercouris` (1), `Glenn Diesen` (1), `The Duran` (1)
+- `Predictive History` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -23,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Filename Family Fallbacks
 
-- `transcript-napolitano-*` (4), `youtube-alex-mercouris-*` (1)
+- `predictive-history-*` (3), `transcript-napolitano-*` (4), `youtube-alex-mercouris-*` (1)
 
 ## Files
 
@@ -36,7 +37,10 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - `transcript-napolitano-hoh-why-the-pentagon-lies-2026-05-26.md`
 - `transcript-napolitano-johnson-trump-afraid-of-the-zionists-2026-05-26.md`
 - `transcript-napolitano-mearsheimer-neocons-want-more-war-2026-05-26.md`
+- `predictive-history-gb-11-dantes-revolution-2026-05-26.md`
+- `predictive-history-gb-12-dante-in-paradise-2026-05-26.md`
 - `transcript-napolitano-ritter-why-bother-to-negotiate-with-trump-2026-05-26.md`
+- `predictive-history-game-theory-28-predictive-history-2026-05-26.md`
 - `youtube-alex-mercouris-russian-fiercest-warning-kiev-decision-centres-will-be-attacked-patience-exhausted-west-quit-kiev-2026-05-26.md`
 - `youtube-daniel-davis-deep-dive-col-douglas-macgregor-u-s-strikes-iran-again-2026-05-26.md`
 - `youtube-daniel-davis-deep-dive-scott-ritter-ukraine-the-death-of-a-nation-2026-05-26.md`
