@@ -92,16 +92,16 @@ THREAD_MARKER_END = "<!-- strategy-expert-thread:end -->"
 RE_IN_FOLDER_MONTH_THREAD = re.compile(r"^(.+)-thread-(\d{4}-\d{2})\.md$")
 RE_FLAT_MONTH_THREAD = re.compile(r"^strategy-expert-(.+)-thread-(\d{4}-\d{2})\.md$")
 RE_TRANSCRIPT_DATE_SECTION = re.compile(r"^##\s+(\d{4}-\d{2}-\d{2})\s*$")
-# Paths like raw-input/YYYY-MM-DD/slug.md (inbox / markdown links)
+# Legacy and current provenance-style paths carried in inbox / markdown links.
 RE_RAW_INPUT_MD_PATH = re.compile(
-    r"raw-input/(\d{4}-\d{2}-\d{2})/([A-Za-z0-9_./-]+\.md)"
+    r"(?:raw-input|provenance)/(\d{4}-\d{2}-\d{2})/([A-Za-z0-9_./-]+\.md)"
 )
 
 
 def raw_input_paths_in_text(text: str) -> set[str]:
-    """Return normalized ``raw-input/YYYY-MM-DD/file.md`` paths mentioned in *text*."""
+    """Return normalized provenance-style paths mentioned in *text*."""
     return {
-        f"raw-input/{m.group(1)}/{m.group(2)}"
+        f"provenance/{m.group(1)}/{m.group(2)}"
         for m in RE_RAW_INPUT_MD_PATH.finditer(text)
     }
 
@@ -140,11 +140,13 @@ def collect_inbox_raw_input_pointers(
             ymd, fname = m.group(1), m.group(2)
             if month_filter_ym and not ymd.startswith(month_filter_ym + "-"):
                 continue
-            rel = f"raw-input/{ymd}/{fname}"
+            rel = f"provenance/{ymd}/{fname}"
             if rel in seen:
                 continue
             seen.add(rel)
-            target = notebook_dir / rel
+            target = notebook_dir / "raw-input" / ymd / fname
+            if not target.is_file():
+                target = notebook_dir / rel
             name = Path(fname).name
             if target.is_file():
                 out.append(f"- [{name}]({rel})")

@@ -216,9 +216,10 @@ def collect_thread_tagged_raw_ingests(
             title = _extract_markdown_h1_title(body)
             url = (fm.get("source_url") or "").strip()
             k = (fm.get("kind") or "capture").strip() or "capture"
+            display_rel = rel_s.replace("raw-input/", "provenance/", 1)
             verbatim = (
                 f"- raw-input | kind:{k} | cold: **{title}** // "
-                f"[`{path.name}`]({rel_s})"
+                f"[`{path.name}`]({display_rel})"
                 f" | {url} | verify:raw-input+thread-triage | thread:{tid}"
             )
             nested[tid][d].append(verbatim)
@@ -244,7 +245,7 @@ def fold_verbatim_if_raw_input_linked(verbatim: str, expert_id: str) -> str | No
     for _line in verbatim.splitlines():
         m = RE_RAW_INPUT_MD_PATH.search(_line)
         if m:
-            rel = f"raw-input/{m.group(1)}/{m.group(2)}"
+            rel = f"provenance/{m.group(1)}/{m.group(2)}"
             fn = m.group(2)
             return (
                 f"- Inbox | cold: full text in [`{fn}`]({rel}) (pointer; SSOT raw-input) "

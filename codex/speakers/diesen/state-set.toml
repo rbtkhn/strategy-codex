@@ -9,10 +9,10 @@ compact_state_files = [
 ]
 
 provenance_roots = [
-  "codex/years/2026/raw-input",
+  "source-archive/statecraft",
 ]
 
 [[guest_matrices]]
 file = "codex/speakers/diesen/diesen-host-wiring-2026.md"
 arc_glob = "codex/speakers/diesen/stream/diesen-*-speaker-arc.md"
-expected_count = 21
+expected_count = 20

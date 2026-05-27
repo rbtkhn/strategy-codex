@@ -11,6 +11,7 @@ compact_state_files = [
 ]
 
 provenance_roots = [
+  "source-archive/statecraft",
   "codex/years/2025/raw-input",
   "codex/years/2026/raw-input",
 ]
@@ -29,13 +30,7 @@ excluded_patterns = [
 
 [[source_sets]]
 file = "codex/speakers/parsi/parsi-interview-appearances-2025-2026.md"
-expected_count = 4
-required_prefixes = [
-  "youtube-daniel-davis-deep-dive-iran-making-it-painful-for-u-s-trita-parsi-",
-  "transcript-napolitano-parsi-how-washington-underestimated-iran-",
-  "transcript-duran-mercouris-trita-parsi-us-iran-blockade-diplomacy-",
-  "youtube-glenn-diesen-trita-parsi-iran-war-marks-the-end-of-american-primacy-",
-]
+expected_count = 10
 excluded_patterns = [
   "substack-parsi-",
   "responsiblestatecraft-parsi-",

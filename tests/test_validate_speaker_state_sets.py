@@ -77,7 +77,7 @@ WORK only; not Record.
 
 | date | source |
 | --- | --- |
-| 2026-01-01 | [missing](../raw-input/2026-01-01/substack-pape-missing.md) |
+| 2026-01-01 | [missing](../provenance/2026-01-01/substack-pape-missing.md) |
 """,
     )
 
@@ -192,7 +192,7 @@ def test_strict_state_boundary_converts_boundary_warning_to_failure(tmp_path: Pa
 
 ## Open first
 
-- [source](../../years/2026/raw-input/2026-01-01/example.md)
+- [source](../../years/2026/provenance/2026-01-01/example.md)
 """,
     )
 
@@ -221,7 +221,7 @@ def test_manifest_slug_mismatch_fails(tmp_path: Path) -> None:
         """version = 1
 slug = "wrong"
 compact_state_files = []
-provenance_roots = ["codex/years/2026/raw-input"]
+provenance_roots = ["source-archive/statecraft"]
 """,
     )
     (tmp_path / "codex" / "years" / "2026" / "raw-input").mkdir(parents=True)
@@ -257,7 +257,7 @@ WORK only; not Record.
         f"""version = 1
 slug = "pape"
 compact_state_files = ["{ledger.relative_to(tmp_path).as_posix()}"]
-provenance_roots = ["codex/years/2026/raw-input"]
+provenance_roots = ["source-archive/statecraft"]
 
 [[source_sets]]
 file = "{ledger.relative_to(tmp_path).as_posix()}"
@@ -290,9 +290,9 @@ def test_current_repo_manifests_load_and_counts_are_registered() -> None:
     assert davis_errors == []
     assert diesen_errors == []
     assert crooke is not None and crooke.source_sets[1].expected_count == 21
-    assert ritter is not None and ritter.source_sets[1].expected_count == 45
+    assert ritter is not None and ritter.source_sets[1].expected_count == 48
     assert davis is not None and davis.guest_matrices[0].expected_count == 13
-    assert diesen is not None and diesen.guest_matrices[0].expected_count == 21
+    assert diesen is not None and diesen.guest_matrices[0].expected_count == 20
 
 
 def test_list_prints_registered_state_files() -> None:

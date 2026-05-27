@@ -21,7 +21,7 @@ Diesen is the notebook's clearest host for **civilizational order, multipolar tr
 
 | guest | what Diesen elicits | arc | when to open |
 |---|---|---|---|
-| Baud | European security, law-of-war, and strategic-rationality context. | [arc](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-baud-arc.md) | Open for NATO/Europe legitimacy, law-of-war, and cross-year correction. |
+| Baud | European security, law-of-war, and strategic-rationality context. | [arc](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-baud-speaker-arc.md) | Open for NATO/Europe legitimacy, law-of-war, and cross-year correction. |
 | Beebe | Escalation-management, bargaining geometry, and retrenchment-order realism. | [arc](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-beebe-speaker-arc.md) | Open when the task needs intelligence-statecraft under multipolar pressure. |
 | Berletic | Industrial capacity, proxy-war logistics, and adversary-capability analysis. | [arc](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-berletic-speaker-arc.md) | Open for capacity, logistics, manufacturing, and proxy-war sustainment. |
 | Crooke | Civilizational-statecraft and order-transition interpretation. | [arc](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-crooke-speaker-arc.md) | Open when Crooke needs the widest world-order and civilizational frame. |
@@ -37,7 +37,7 @@ Diesen is the notebook's clearest host for **civilizational order, multipolar tr
 | Martyanov | Strategic-military, escalation-horizon, and order-consequence force analysis. | [arc](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-martyanov-speaker-arc.md) | Open when military balance needs to be lifted into geopolitical consequence. |
 | Matlock | U.S. diplomatic-memory witness and Cold War settlement context. | [arc](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-matlock-speaker-arc.md) | Open for diplomatic history, Russia memory, and lost-settlement context. |
 | McGovern | Intelligence dissent, arms control, and late-imperial reality check. | [arc](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-mcgovern-speaker-arc.md) | Open for intelligence dissent and arms-control pressure inside order decline. |
-| Mearsheimer | Structural realism, U.S. grand strategy, and off-ramp logic. | [arc](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-mearsheimer-arc.md) | Open for the strongest Diesen-side structural-realist branch. |
+| Mearsheimer | Structural realism, U.S. grand strategy, and off-ramp logic. | [arc](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-mearsheimer-speaker-arc.md) | Open for the strongest Diesen-side structural-realist branch. |
 | Mercouris | Institutional legitimacy and diplomatic sequencing. | [arc](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-mercouris-speaker-arc.md) | Open for Europe legitimacy crisis, diplomatic process, and Mercouris reinforcement. |
 | Postol | Technical destruction, deterrence, and escalation-horizon analysis. | [arc](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-postol-speaker-arc.md) | Open when technical weapons analysis needs escalation and order framing. |
 | Ritter | Mechanics-heavy escalation horizon and sea-control consequence. | [arc](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-ritter-speaker-arc.md) | Open for Ritter as order-level escalation mechanic rather than only feasibility check. |
@@ -46,7 +46,7 @@ Diesen is the notebook's clearest host for **civilizational order, multipolar tr
 ## Best Entry Points
 
 - Best single Diesen host arc for order-transition reading: [arc](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-crooke-speaker-arc.md)
-- Best structural-realist branch: [arc](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-mearsheimer-arc.md)
+- Best structural-realist branch: [arc](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-mearsheimer-speaker-arc.md)
 - Best escalation-mechanics branch: [arc](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-ritter-speaker-arc.md)
 - Best macro-financial branch: [arc](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-krainer-speaker-arc.md)
 - Best Russian elite doctrine branch: [arc](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-karaganov-speaker-arc.md)

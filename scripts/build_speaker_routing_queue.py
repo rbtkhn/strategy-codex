@@ -96,10 +96,27 @@ def _slug_candidates(value: object) -> list[str]:
 
 
 def _rel(path: Path) -> str:
+    def _rewrite(relative: str) -> str:
+        rel = relative.replace("\\", "/")
+        if "/codex/2026/raw-input/" in f"/{rel}":
+            _, tail = rel.split("/codex/2026/raw-input/", 1)
+            return f"source-archive/statecraft/{tail}"
+        if "/codex/2026/speakers/" in f"/{rel}":
+            _, tail = rel.split("/codex/2026/speakers/", 1)
+            return f"codex/speakers/{tail}"
+        if "/codex/2026/" in f"/{rel}":
+            _, tail = rel.split("/codex/2026/", 1)
+            return f"codex/years/2026/{tail}"
+        return rel
+
     try:
-        return path.resolve().relative_to(REPO_ROOT).as_posix()
+        return _rewrite(path.resolve().relative_to(REPO_ROOT).as_posix())
     except ValueError:
-        return path.as_posix()
+        parts = list(path.resolve().parts)
+        for anchor in ("codex", "source-archive", "artifacts"):
+            if anchor in parts:
+                return _rewrite(Path(*parts[parts.index(anchor) :]).as_posix())
+        return _rewrite(path.as_posix())
 
 
 def _read_frontmatter(path: Path) -> dict[str, Any]:

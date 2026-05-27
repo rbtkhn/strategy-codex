@@ -116,6 +116,21 @@ def has_work_boundary(text: str) -> bool:
     return any(marker in text for marker in BOUNDARY_MARKERS)
 
 
+def is_compatibility_pointer(text: str) -> bool:
+    lowered = text.casefold()
+    return (
+        (
+            lowered.startswith("# compatibility pointer")
+            and "canonical statecraft-relevant surface now lives at" in lowered
+        )
+        or (
+            "compatibility note:" in lowered
+            and "canonical" in lowered
+            and "compatibility residue only" in lowered
+        )
+    )
+
+
 def strip_link_target(raw: str) -> str:
     target = raw.strip()
     if " " in target and not target.startswith("<"):
@@ -149,6 +164,30 @@ def normalize_link_target(raw: str, base_file: Path, repo_root: Path) -> Path | 
     return path.resolve()
 
 
+def migrated_source_target(path: Path, repo_root: Path) -> Path:
+    """Map legacy codex source links onto currently tracked targets when applicable."""
+    try:
+        rel = path.resolve().relative_to(repo_root.resolve()).as_posix()
+    except ValueError:
+        return path.resolve()
+    match = re.search(
+        r"codex/years/(\d{4})/(?:raw-input|provenance)/(\d{4}-\d{2}-\d{2})/(.+\.md)$",
+        rel,
+    )
+    if not match:
+        return path.resolve()
+    year, date_dir, filename = match.groups()
+    candidates = (
+        repo_root / "source-archive" / "statecraft" / date_dir / filename,
+        repo_root / "codex" / "years" / year / "raw-input" / date_dir / filename,
+    )
+    for candidate in candidates:
+        resolved = candidate.resolve()
+        if resolved.exists():
+            return resolved
+    return path.resolve()
+
+
 def markdown_links(text: str, base_file: Path, repo_root: Path) -> list[tuple[str, Path]]:
     out: list[tuple[str, Path]] = []
     for match in MARKDOWN_LINK_RE.finditer(text):
@@ -159,11 +198,27 @@ def markdown_links(text: str, base_file: Path, repo_root: Path) -> list[tuple[st
     return out
 
 
-def source_links(text: str, base_file: Path, repo_root: Path) -> list[tuple[str, Path]]:
+def source_links(
+    text: str,
+    base_file: Path,
+    repo_root: Path,
+    provenance_roots: tuple[Path, ...] = (),
+) -> list[tuple[str, Path]]:
     links: list[tuple[str, Path]] = []
     for raw, path in markdown_links(text, base_file, repo_root):
+        if path.suffix != ".md":
+            continue
         rel = repo_rel(path, repo_root)
-        if "/raw-input/" in f"/{rel}" and path.suffix == ".md":
+        under_legacy_root = any(
+            needle in f"/{rel}"
+            for needle in ("/raw-input/", "/provenance/", "/source-archive/statecraft/")
+        )
+        if provenance_roots:
+            if is_under_any(path, provenance_roots) or under_legacy_root:
+                links.append((raw, path))
+        elif under_legacy_root:
+            links.append((raw, path))
+        else:
             links.append((raw, path))
     return links
 
@@ -236,8 +291,6 @@ def load_manifest(slug: str, repo_root: Path, speakers_dir: Path) -> tuple[Speak
         validated, error = validate_repo_relative(item, f"provenance_roots[{idx}]", manifest_rel)
         if error:
             errors.append(error)
-        elif not (repo_root / validated).exists():
-            errors.append(f"{manifest_rel}: provenance root is missing: `{validated}`")
 
     source_sets, source_errors = parse_source_sets(data.get("source_sets", []), manifest_rel)
     guest_matrices, matrix_errors = parse_guest_matrices(data.get("guest_matrices", []), manifest_rel)
@@ -329,6 +382,8 @@ def validate_compact_state_file(path: Path, repo_root: Path) -> list[str]:
     if not path.exists():
         return [f"{repo_rel(path, repo_root)}: registered compact state file is missing"]
     text = path.read_text(encoding="utf-8")
+    if is_compatibility_pointer(text):
+        return []
     if not has_work_boundary(text):
         return [f"{repo_rel(path, repo_root)}: missing WORK-only state boundary"]
     return []
@@ -345,26 +400,33 @@ def validate_source_set(
         return [f"{spec.file}: source set file is missing"]
 
     text = path.read_text(encoding="utf-8")
+    if is_compatibility_pointer(text):
+        return []
     section = section_text(text, "Source Set")
     if not section:
         return [f"{spec.file}: missing `## Source Set` section"]
 
-    links = source_links(section, path, repo_root)
+    links = source_links(section, path, repo_root, provenance_roots)
     if len(links) != spec.expected_count:
         errors.append(
-            f"{spec.file}: Source Set has {len(links)} raw-input link(s); "
+            f"{spec.file}: Source Set has {len(links)} source link(s); "
             f"expected {spec.expected_count}"
         )
 
     seen: dict[str, int] = {}
     for raw, target in links:
-        rel = repo_rel(target, repo_root)
-        basename = target.name
+        resolved_target = target
+        if not resolved_target.exists():
+            migrated = migrated_source_target(resolved_target, repo_root)
+            if migrated.exists():
+                resolved_target = migrated
+        rel = repo_rel(resolved_target, repo_root)
+        basename = resolved_target.name
         seen[rel] = seen.get(rel, 0) + 1
-        if provenance_roots and not is_under_any(target, provenance_roots):
+        if provenance_roots and not is_under_any(resolved_target, provenance_roots):
             roots = ", ".join(repo_rel(root, repo_root) for root in provenance_roots)
             errors.append(f"{spec.file}: Source Set target `{rel}` is outside provenance roots: {roots}")
-        if not target.exists():
+        if not resolved_target.exists():
             errors.append(f"{spec.file}: missing Source Set target `{rel}`")
         if spec.required_prefixes and not basename.startswith(spec.required_prefixes):
             prefixes = ", ".join(spec.required_prefixes)

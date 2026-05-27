@@ -11,7 +11,7 @@ compact_state_files = [
 ]
 
 provenance_roots = [
-  "codex/years/2026/raw-input",
+  "source-archive/statecraft",
 ]
 
 [[source_sets]]
