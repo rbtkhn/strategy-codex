@@ -1,12 +1,19 @@
 ---
-ingest_date: 2026-04-25
-pub_date: 2026-04-24
-kind: operator-transcript
+ingest_date: '2026-04-25'
+pub_date: '2026-04-24'
+kind: transcript
+source_type: youtube
+transcript_type: operator_cleaned_transcript
+title: "Jeffrey Sachs on the Real Origins of the Iran War and the Coming Economic Devastation"
 show: Tucker Carlson
 host: Tucker Carlson
-guest: Jeffrey D. Sachs
-thread_expert: sachs
-source_note: YouTube transcript pasted by operator; speaker labels, punctuation, paragraphing, and obvious transcription errors cleaned; sponsor reads omitted and marked. Pin canonical watch URL when available.
+guest: Jeffrey Sachs
+thread: carlson
+channel_slug: tucker-carlson
+source_note: YouTube transcript pasted manually by operator; speaker labels, punctuation, paragraphing, and obvious transcription errors cleaned. Canonical watch URL remains unresolved on disk.
+editorial_note: Operator-pasted cleaned transcript body; not independently verified as verbatim.
+evidence_grade: transcript-bearing
+quality_note: Sponsor reads were omitted and marked; some transcript artifacts may remain.
 title_slug: sachs-carlson-iran-war-origins-2026-04-24
 ---
 

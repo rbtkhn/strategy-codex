@@ -3,7 +3,7 @@ name: "check-streams"
 preferred_activation: "check streams"
 description: "Check the daily tracked YouTube stream roster for Davis, Diesen, Alkorshid/Dialogue Works, Napolitano/Judging Freedom, and Mercouris: discover today's uploads with YouTube-first tooling, filter suspected clips, list main uploads first, materialize only the operator-approved subset into canonical raw-input, and suggest speaker-folder routing hints."
 portable: true
-version: "0.2.7"
+version: "0.2.8"
 tags:
   - "operator"
   - "strategy"
@@ -36,6 +36,8 @@ Treat `check streams` as the intake gate, not the durable interpretation layer.
 - **lattice / cognition-streams surfaces** = secondary lookup and analysis views over accumulated speaker material
 
 After materialization, prefer asking **which appearance was created and which route stack it strengthens** before updating lattice surfaces. Do not create or update speaker objects automatically from the daily check unless the operator explicitly asks.
+
+When routing friction becomes a **speaker shelf** problem rather than an ingest problem, hand off to [`speaker-shelf-hygiene`](../speaker-shelf-hygiene/SKILL.md) instead of improvising shelf doctrine inside the daily check.
 
 ## Answer-first stopping rule
 
@@ -238,6 +240,29 @@ In that situation:
 
 Do **not** block local transcript recovery merely because the direct watch URL is still missing, as long as the appearance identity is otherwise well anchored.
 
+## Source-archive closeout rule
+
+When a check-stream or one-off recovery **adds or strengthens canonical `source-archive/statecraft/` raw-input**, close the ingest loop at every still-live index layer touched by that capture.
+
+Minimum required follow-ons:
+
+- refresh the touched day folder `README.md`
+- verify whether the capture belongs to an existing live `statecraft/speakers/<speaker>/` shelf with a `*-raw-input-index.md` provenance bench
+- if such a shelf exists and the new capture is route-relevant for that speaker, update the speaker raw-input bench in the same pass before closing
+
+Short rule:
+
+`source-archive upload -> day index refresh -> touched speaker raw-input bench refresh -> close`
+
+Do not assume day-index regeneration is enough. If the live speaker shelf owns a provenance bench, that bench is part of canonical ingest completion.
+
+If the new capture materially changes the continuity story rather than only extending the bench, also tighten the minimally affected live shelf surfaces, usually:
+
+- `*-arc.md`
+- `*-routing.md`
+
+Do this narrowly. Do not widen a simple ingest into full shelf redesign unless the operator asks.
+
 ## Multi-guest naming rule
 
 For guest-heavy stream appearances, preserve a stable canonical shape in both filename and frontmatter.
@@ -398,6 +423,8 @@ If a stream has no upload on the target day, say so explicitly.
    - If the operator has already pasted the full transcript in the current Codex thread, treat that paste as a valid transcript source and hand the item down to the YouTube transcript workflow's **operator-paste fallback**. Prefer mechanical extraction from the local Codex session log over hand-copying long chat text. Do not call the result `partial-chat-capture` merely because the paste is long or awkward to patch.
    - For full operator-paste repairs, require an exact-match receipt before closing the item: `sourceChars`, `bodyChars`, and `exactMatch=True` between the extracted session transcript and the body written after `## Transcript`.
    - After exact-match verification passes, update the check-stream receipts as captured with `capture_status: full-operator-paste`; move the item out of the open repair queue. Use `partial-chat-capture` only when the source is truly incomplete or exact extraction cannot be verified, and leave that item queued as `full-transcript-import-needed`.
+   - After any successful apply-mode or operator-paste materialization into `source-archive/statecraft/`, refresh the touched day `README.md` and then refresh any already-existing live speaker `*-raw-input-index.md` bench that the new capture clearly strengthens.
+   - If the bench refresh changes the shelf's practical first-open logic or current-motion story, patch the narrowest relevant live shelf files, usually `*-arc.md` and `*-routing.md`, in the same pass.
 
 6. **Default transcript class**
    - Default to `auto_subtitles_vtt`.

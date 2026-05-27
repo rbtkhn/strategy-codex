@@ -3,7 +3,7 @@ name: statecraft-source-intake
 preferred_activation: statecraft source intake
 description: "Capture operator-supplied transcript-bearing source objects into the canonical statecraft source archive with the correct family pattern, truthful provenance, and no summary-or-stub drift."
 portable: true
-version: 0.1.4
+version: 0.1.6
 tags:
   - operator
   - statecraft
@@ -76,11 +76,15 @@ If the operator's next move is interpretation, route from the landed archive obj
      - cleaned transcript pasted by operator
      - transcript-bearing source capture
    - Do not silently promote a rough paste into human-verified verbatim.
+   - Keep **front-door completeness** separate from **transcript reality**:
+     - a real full transcript may still have an unresolved direct watch surface
+     - if so, preserve that seam explicitly in `source_note` rather than flattening it away
 
 4. **Place it in the canonical archive**
    - Use the published date as the archive date unless the operator explicitly gives a different authoritative date.
    - Write into the canonical statecraft archive day folder.
    - Keep filenames and frontmatter aligned with neighboring family examples.
+   - When publication date comes from a trustworthy secondary surface because the direct watch URL is still missing, use that date but say so plainly in `source_note`.
 
 5. **Normalize lightly**
    - Fix obvious spacing, formatting, and title/date typos when confidence is high.
@@ -99,6 +103,56 @@ If the operator's next move is interpretation, route from the landed archive obj
    - State the family shape used.
    - State whether tests were run.
    - State whether the intake batch remains uncommitted if that is still true.
+
+## Verification and closeout
+
+Use a simple Windows-safe verification sequence after every new archive capture.
+
+- Prefer small single-target `rg` checks over large multi-path quoted PowerShell commands.
+- Prefer verifying one surface at a time when using PowerShell.
+- Default verification order:
+  - confirm the new archive file exists and contains `source_url` or `youtube_id`
+  - confirm the target day `README.md` includes the filename after rebuild
+  - confirm the required host bench and/or speaker bench entry exists
+- Archive intake is not complete until the required downstream routing surfaces are updated when the lane calls for them.
+
+Default closeout law:
+
+- if the source is host-owned but guest-significant, archive completion includes both:
+  - the host-side bench or stream surface
+  - the guest-side provenance bench or shelf surface when that guest already has a materially real shelf
+
+Migration routing law:
+
+- prefer `statecraft/speakers/...` when that shelf is canonical
+- use `codex/speakers/...` only when it still owns the real branch surface or when the statecraft side is only a pointer or stub
+
+## Partial front-door doctrine
+
+When the operator provides a full transcript but the exact direct watch URL is still missing, the archive may still accept the object if identity is well anchored.
+
+Minimum anchor set:
+
+- full transcript body
+- stable host/show identity
+- stable episode title
+- trustworthy publication date from direct metadata or a trustworthy secondary listing
+
+In that situation:
+
+- land the archive object
+- keep provenance explicit
+- preserve the unresolved front-door seam in `source_note`
+- do not guess or synthesize a `youtube.com/watch?v=` URL
+
+Preferred metadata rule:
+
+- if the object is clearly a known YouTube host-family episode and only the exact watch URL is missing, it is acceptable to keep the host-family context while stating that the direct watch URL was not recovered
+- if the only actually confirmed source surface is a podcast or mirror page, prefer the truthful confirmed `source_url` over an inferred YouTube front door
+
+Short rule:
+
+`real transcript + anchored identity + unresolved direct URL -> archive yes, fiction no`
 
 ## Family-resolution heuristics
 
@@ -134,6 +188,7 @@ If the operator's next move is interpretation, route from the landed archive obj
 
 - Preserve the Diesen-side naming cues that often include the guest surname set in the filename.
 - When multiple major guests appear, prefer the established neighboring Diesen naming pattern instead of inventing a new compact scheme.
+- If a Glenn Diesen transcript is real but the direct YouTube watch URL is still missing, do not block archive intake on that basis alone. Use the best trustworthy dated surface available, keep `show`/`host`/`thread` stable, and make the unresolved watch-surface seam explicit in `source_note`.
 
 ### Daniel Davis Deep Dive
 

@@ -1,15 +1,22 @@
 ---
-ingest_date: 2026-05-07
-pub_date: 2026-05-07
-kind: cleaned-transcript
+ingest_date: '2026-05-07'
+pub_date: '2026-05-07'
+kind: transcript
+source_type: youtube
+transcript_type: operator_cleaned_transcript
+title: "Alexander Mercouris & Alex Christoforou with Professor Jeffrey Sachs: Iran Miscalculation Could Trigger a Decade-Long Economic Crisis"
 show: The Duran
 host: Alexander Mercouris
 guest: Professor Jeffrey Sachs
 thread: mercouris
+channel_slug: the-duran
 source_url: https://www.youtube.com/watch?v=0Ib4NPabrgE
+youtube_id: 0Ib4NPabrgE
 source_note: User-pasted cleaned YouTube transcript with speaker labels; preserve Mercouris host-stream ownership.
 title_slug: mercouris-jeffrey-sachs-iran-miscalculation-could-trigger-a-decade-long-economic-crisis-2026-05-07
-editorial_note: Preserve as raw cleaned transcript; verify all claims about the Strait of Hormuz, energy markets, negotiation capacity, and military outcomes before promotion beyond analyst tier.
+editorial_note: Operator-pasted cleaned transcript body; not independently verified as verbatim.
+evidence_grade: transcript-bearing
+quality_note: Cleaned transcript capture with light normalization; verify claims about the Strait of Hormuz, energy markets, negotiation capacity, and military outcomes before promotion beyond analyst tier.
 ---
 
 # Alexander Mercouris & Alex Christoforou with Professor Jeffrey Sachs: Iran Miscalculation Could Trigger a Decade-Long Economic Crisis

@@ -3,7 +3,7 @@ name: youtube-raw-input-transcript
 preferred_activation: youtube transcript
 description: "Extract YouTube metadata and captions, then materialize a canonical raw-input transcript with conservative provenance, speaker normalization, and date-safe frontmatter."
 portable: true
-version: 0.1.1
+version: 0.1.2
 tags:
   - operator
   - raw-input
@@ -59,14 +59,34 @@ In strategy-codex, this skill is also the shared **transcript + appearance mater
    - If the operator pasted a full YouTube transcript in the current Codex thread, treat it as transcript-bearing source material even when YouTube metadata, bot-check, or subtitle fetch failed.
    - Prefer mechanical extraction from the local Codex session log over hand-copying or summarizing long chat text. Look under `$CODEX_HOME/sessions/<YYYY>/<MM>/<DD>/` or `~/.codex/sessions/<YYYY>/<MM>/<DD>/` for the rollout JSONL that contains the distinctive title plus `Transcripts:`.
    - Extract the `event_msg` whose payload type is `user_message`, then split the message body on `Transcripts:\r?\n`. The text after that marker is the transcript source.
-   - Write canonical raw-input with explicit provenance, for example:
-     - `source_type: youtube_transcript_operator_paste`
-     - `transcript_type: operator_pasted_youtube_transcript`
-     - `capture_status: full-operator-paste`
-     - `source_note: mechanically extracted from local Codex session log after operator pasted full transcript`
+   - Write canonical raw-input with explicit provenance. Prefer repo-native transcript language such as:
+     - `source_type: youtube`
+     - `transcript_type: operator_pasted_transcript`
+     - `source_note: transcript pasted manually by operator` or `mechanically extracted from local Codex session log after operator pasted full transcript`
+   - If the direct watch URL is still unresolved, this workflow should usually hand off to the archive intake layer rather than pretending the front door is complete. Preserve the unresolved seam explicitly in `source_note`.
    - Verify exact correspondence between the extracted transcript source and the file body after `## Transcript`. Report `sourceChars`, `bodyChars`, and `exactMatch=True` before claiming capture.
    - Use `partial-chat-capture` only if the session source cannot be found, the operator clearly supplied an excerpt rather than a full transcript, or exact-match verification fails. Partial captures remain repair-queue items with `full-transcript-import-needed`.
    - Operator-paste fallback is not the same as auto subtitles or a human-cleaned transcript. It is a useful transcript-bearing capture with honest provenance unless separately cleaned or independently verified.
+
+## Front-door completeness rule
+
+This skill is strongest when a **specific YouTube episode URL** is already in hand.
+
+- If a trustworthy direct YouTube watch URL exists, proceed normally.
+- If subtitle or metadata fetch fails but the watch URL still exists, operator-paste fallback can still finish the capture.
+- If the direct watch URL itself is still missing and the item is anchored only by a secondary listing plus transcript paste, do **not** invent or guess a YouTube front door here.
+
+In that last case:
+
+- preserve the transcript as real
+- preserve the unresolved watch-surface seam explicitly
+- prefer handing the item to `statecraft source intake` if the operator's real task is canonical archive filing rather than URL-grade YouTube capture
+
+Short rule:
+
+`known watch URL -> youtube transcript`
+
+`unknown watch URL but full transcript + anchored identity -> archive intake with explicit provenance`
 
 4. **Use tranche mode when the operator has a vetted batch**
    - If the operator already has an approved set of exact watch URLs, treat the task as a targeted tranche rather than a channel crawl.
