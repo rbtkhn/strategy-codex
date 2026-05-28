@@ -7,6 +7,7 @@ These files are the canonical bounded monthly synthesis surfaces for Mercouris.
 Prehistory:
 
 - [2025-01](mercouris-shelf-2025-01.md)
+- [2025-02](mercouris-shelf-2025-02.md)
 
 Live 2026 ladder:
 
@@ -26,4 +27,4 @@ Rule:
 - these files are bounded synthesis shelves
 - the native stream still owns chronology
 - [mercouris-support-spine-2025-2026.md](../mercouris-support-spine-2025-2026.md) owns month-status law
-- `2025-01` is a prehistory doorway, not the start of a full retroactive 2025 ladder
+- `2025-01 -> 2025-02` are prehistory doorways, not the start of a full retroactive 2025 ladder

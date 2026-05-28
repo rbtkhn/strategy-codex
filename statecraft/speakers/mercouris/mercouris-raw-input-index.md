@@ -23,3 +23,15 @@ Use these when the task is early-strand continuity rather than the live 2026 rep
 Best first-open for January 2025 continuity:
 
 - [stream/mercouris-shelf-2025-01.md](stream/mercouris-shelf-2025-01.md)
+
+## 2025-02 prehistory anchors
+
+Use these when the task is tracing how the January setup month compresses into a thinner but sharper negotiation-crisis hinge:
+
+- [2025-02-10 | Trump confirms Putin call / four regions / Kursk disaster / EU gas prices surge](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-10/youtube-alex-mercouris-trump-confirms-putin-call-putin-firm-4-regions-russian-ukraine-kursk-disaster-eu-gas-prices-surge-2025-02-10.md)
+- [2025-02-15 | Diesen x Mearsheimer x Mercouris | Trump to force Ukraine peace on Europe](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-15/transcript-diesen-mearsheimer-mercouris-trump-to-force-ukraine-peace-on-europe-2025-02-15.md)
+- [2025-02-20 | Disastrous Zelensky presser / Trump anger / U.S. aid gravy train / disengagement hints](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-20/youtube-alex-mercouris-disastrous-zelensky-presser-angers-trump-zelensky-dictator-us-aid-gravy-train-hints-disengagement-2025-02-20.md)
+
+Best first-open for February 2025 continuity:
+
+- [stream/mercouris-shelf-2025-02.md](stream/mercouris-shelf-2025-02.md)
