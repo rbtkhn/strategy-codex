@@ -13,6 +13,7 @@ Use it for speaker identity, stream-native continuity, route maps, bounded 2026 
 - [mercouris-raw-input-index.md](mercouris-raw-input-index.md)
 - [mercouris-helix.md](mercouris-helix.md)
 - [mercouris-support-spine-2025-2026.md](mercouris-support-spine-2025-2026.md)
+- [stream/mercouris-shelf-2025-01.md](stream/mercouris-shelf-2025-01.md)
 - [stream/mercouris-shelf-2026-02.md](stream/mercouris-shelf-2026-02.md)
 - [stream/mercouris-shelf-2026-03.md](stream/mercouris-shelf-2026-03.md)
 - [stream/mercouris-shelf-2026-04.md](stream/mercouris-shelf-2026-04.md)
@@ -38,11 +39,12 @@ Support and segmentation surfaces:
 
 ## Monthly Shelf Rule
 
-Mercouris now has a full canonical 2026 month ladder for the live year, but the monthly files are **bounded synthesis shelves**, not chronology owners.
+Mercouris now has a full canonical 2026 month ladder for the live year, plus a bounded January 2025 prehistory shelf for origin tracing. These monthly files are **bounded synthesis shelves**, not chronology owners.
 
 - the native stream still owns day-to-day chronology
 - the support spine still owns maturity law
 - monthly shelves summarize what each month contributes to the Mercouris object
+- the `2025-01` shelf is a prehistory doorway, not part of the live 2026 ladder
 
 ## Historical Scaffold
 

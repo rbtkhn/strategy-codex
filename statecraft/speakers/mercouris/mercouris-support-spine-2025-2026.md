@@ -2,7 +2,7 @@
 
 WORK only; not Record.
 
-Purpose: own Mercouris's maturity law, month-status law, and the rule for how the canonical Jan-May 2026 month ladder relates to stream-owned chronology.
+Purpose: own Mercouris's maturity law, month-status law, and the rule for how the January 2025 prehistory shelf plus the canonical Jan-May 2026 month ladder relate to stream-owned chronology.
 
 ## What this spine owns
 
@@ -21,6 +21,10 @@ Quick separation rule:
 - this file = maturity and month-support law
 
 ## Month-status law
+
+### 2025-01
+
+Status: prehistory setup month.
 
 ### 2026-01
 
@@ -44,8 +48,10 @@ Status: mature frontier month.
 
 ## Monthly shelf rule
 
-Mercouris's month ladder is bounded synthesis only:
+Mercouris's month support layer is bounded synthesis only:
 
 - the native stream still owns chronology
 - the month shelves summarize what each month contributes to the Mercouris object
 - the support spine owns month-status law
+- `2025-01` is an origin-tracing prehistory shelf
+- `2026-01 -> 2026-05` is the live repaired month ladder

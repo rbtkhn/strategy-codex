@@ -1,8 +1,14 @@
 WORK only; not Record.
 
-# Mercouris 2026 Monthly Shelves
+# Mercouris Monthly Shelves
 
-These files are the canonical bounded monthly synthesis ladder for Mercouris in the live materialized 2026 run.
+These files are the canonical bounded monthly synthesis surfaces for Mercouris.
+
+Prehistory:
+
+- [2025-01](mercouris-shelf-2025-01.md)
+
+Live 2026 ladder:
 
 - [2026-01](mercouris-shelf-2026-01.md)
 - [2026-02](mercouris-shelf-2026-02.md)
@@ -20,3 +26,4 @@ Rule:
 - these files are bounded synthesis shelves
 - the native stream still owns chronology
 - [mercouris-support-spine-2025-2026.md](../mercouris-support-spine-2025-2026.md) owns month-status law
+- `2025-01` is a prehistory doorway, not the start of a full retroactive 2025 ladder
