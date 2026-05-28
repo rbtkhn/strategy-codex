@@ -4,22 +4,22 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Stats
 
-- Source files: `2`
-- Type mix: `transcript` (1), `youtube` (1)
-- Distinct channels/shows: `1`
-- Distinct hosts: `2`
-- Distinct guests: `2`
-- Distinct threads: `2`
+- Source files: `3`
+- Type mix: `transcript` (2), `youtube` (1)
+- Distinct channels/shows: `3`
+- Distinct hosts: `3`
+- Distinct guests: `3`
+- Distinct threads: `3`
 
 ## Channel / Show Rollup
 
-- `Dialogue Works` (1)
+- `Dialogue Works` (1), `Glenn Diesen` (1), `Judging Freedom` (1)
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Glenn Diesen` (1), `Nima Alkhorshid` (1)
-- Guests: `Alastair Crooke` (1), `Chas Freeman` (1)
-- Threads: `diesen` (1), `freeman` (1)
+- Hosts: `Andrew Napolitano` (1), `Glenn Diesen` (1), `Nima Alkhorshid` (1)
+- Guests: `Alastair Crooke` (1), `Chas Freeman` (1), `Jeffrey Sachs` (1)
+- Threads: `diesen` (1), `freeman` (1), `napolitano` (1)
 
 ## Filename Family Fallbacks
 
@@ -28,4 +28,5 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Files
 
 - `transcript-dialogue-works-amb-chas-freeman-america-s-fatal-mistake-a-disaster-in-the-making-2025-08-29.md`
+- `transcript-napolitano-sachs-rubios-shameful-and-illegal-interference-with-the-un-2025-08-29.md`
 - `youtube-glenn-diesen-alastair-crooke-alastair-crooke-russia-s-patience-is-over-escalation-begins-2025-08-29.md`

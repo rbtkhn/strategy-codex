@@ -4,22 +4,22 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Stats
 
-- Source files: `1`
-- Type mix: `youtube` (1)
-- Distinct channels/shows: `0`
-- Distinct hosts: `1`
-- Distinct guests: `1`
-- Distinct threads: `1`
+- Source files: `2`
+- Type mix: `youtube` (2)
+- Distinct channels/shows: `1`
+- Distinct hosts: `2`
+- Distinct guests: `2`
+- Distinct threads: `2`
 
 ## Channel / Show Rollup
 
-- (none)
+- `Judging Freedom` (1)
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Glenn Diesen` (1)
-- Guests: `Douglas Macgregor` (1)
-- Threads: `diesen` (1)
+- Hosts: `Andrew Napolitano` (1), `Glenn Diesen` (1)
+- Guests: `Douglas Macgregor` (1), `Jeffrey Sachs` (1)
+- Threads: `diesen` (1), `napolitano` (1)
 
 ## Filename Family Fallbacks
 
@@ -28,3 +28,4 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Files
 
 - `youtube-glenn-diesen-douglas-macgregor-douglas-macgregor-war-is-inevitable-2025-09-25.md`
+- `youtube-napolitano-sachs-al-qaeda-at-the-un-2025-09-25.md`

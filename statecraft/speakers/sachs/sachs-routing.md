@@ -23,6 +23,10 @@ Best current direct anchors:
 - [2025-05-19 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-19/transcript-diesen-sachs-europes-declining-economy-security-and-common-sense-2025-05-19.md)
 - [2025-06-04 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-04/transcript-diesen-sachs-nato-and-russia-on-the-brink-of-nuclear-war-2025-06-04.md)
 - [2025-06-17 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-17/transcript-diesen-sachs-us-prepares-to-join-war-against-iran-2025-06-17.md)
+- [2025-07-30 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-07-30/transcript-diesen-sachs-at-the-precipice-of-world-war-3-2025-07-30.md)
+- [2025-08-11 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-08-11/transcript-diesen-sachs-trump-putin-meeting-peace-or-deception-2025-08-11.md)
+- [2025-09-18 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-18/transcript-glenn-diesen-jeffrey-sachs-us-and-china-edge-toward-war-over-taiwan-2025-09-18.md)
+- [2025-09-27 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-27/transcript-glenn-diesen-jeffrey-sachs-nato-warmongers-and-the-world-on-the-edge-of-war-2025-09-27.md)
 - [2026-05-12 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-12/youtube-glenn-diesen-jeffrey-sachs-new-european-military-bloc-for-war-against-russia-2026-05-12.md)
 - [2026-05-23 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-23/transcript-diesen-sachs-the-baltic-states-are-now-the-most-dangerous-place-in-the-world-2026-05-23.md)
 
@@ -41,10 +45,20 @@ Best current direct anchors:
 - [2025-02-03 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-03/youtube-napolitano-sachs-iran-wants-peace-israel-wants-more-war-2025-02-03.md)
 - [2025-05-07 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-07/transcript-napolitano-sachs-can-the-kremlin-trust-trump-2025-05-07.md)
 - [2025-06-24 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-24/transcript-napolitano-sachs-is-the-us-subordinated-to-israel-2025-06-24.md)
+- [2025-07-08 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-07-08/transcript-napolitano-sachs-is-netanyahu-lobbying-for-more-war-2025-07-08.md)
+- [2025-08-04 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-08-04/transcript-napolitano-sachs-trumps-dangerous-moves-2025-08-04.md)
+- [2025-08-21 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-08-21/transcript-napolitano-sachs-netanyahu-ready-to-invade-2025-08-21.md)
+- [2025-08-27 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-08-27/transcript-napolitano-sachs-a-very-dangerous-foreign-policy-2025-08-27.md)
+- [2025-08-29 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-08-29/transcript-napolitano-sachs-rubios-shameful-and-illegal-interference-with-the-un-2025-08-29.md)
+- [2025-09-10 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-10/youtube-napolitano-sachs-how-israel-blackmails-washington-2025-09-10.md)
+- [2025-09-17 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-17/youtube-napolitano-sachs-definitely-genocide-2025-09-17.md)
+- [2025-09-25 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-25/youtube-napolitano-sachs-al-qaeda-at-the-un-2025-09-25.md)
+- [2025-09-30 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-30/youtube-napolitano-sachs-netanyahu-stumbles-2025-09-30.md)
 - [2026-03-16 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-16/transcript-napolitano-sachs-are-we-drifting-toward-a-global-war-2026-03-16.md)
 - [2026-05-27 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-27/transcript-napolitano-sachs-trump-has-no-lifeline-out-of-iran-2026-05-27.md)
 
 Treat the `2025-02-03` anchor as a confirmed full front door below transcript-grade, not as a transcript-bearing local body.
+
 
 ## Open Mercouris Or Tucker First
 

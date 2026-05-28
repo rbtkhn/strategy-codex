@@ -1,4 +1,4 @@
-# Statecraft Archive - 2025-08-11
+# Statecraft Archive - 2025-08-27
 
 _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_indices.py`._
 
@@ -13,13 +13,13 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Glenn Diesen` (1)
+- `Judging Freedom` (1)
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Glenn Diesen` (1)
+- Hosts: `Andrew Napolitano` (1)
 - Guests: `Jeffrey Sachs` (1)
-- Threads: `diesen` (1)
+- Threads: `napolitano` (1)
 
 ## Filename Family Fallbacks
 
@@ -27,4 +27,4 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Files
 
-- `transcript-diesen-sachs-trump-putin-meeting-peace-or-deception-2025-08-11.md`
+- `transcript-napolitano-sachs-a-very-dangerous-foreign-policy-2025-08-27.md`
