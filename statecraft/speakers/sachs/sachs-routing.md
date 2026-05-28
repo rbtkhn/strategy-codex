@@ -21,6 +21,8 @@ Best current direct anchors:
 - [2025-04-07 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-07/transcript-diesen-sachs-chaos-and-restructuring-of-the-global-economy-2025-04-07.md)
 - [2025-05-02 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-02/transcript-diesen-sachs-chinese-statecraft-and-a-new-world-order-2025-05-02.md)
 - [2025-05-19 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-19/transcript-diesen-sachs-europes-declining-economy-security-and-common-sense-2025-05-19.md)
+- [2025-06-04 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-04/transcript-diesen-sachs-nato-and-russia-on-the-brink-of-nuclear-war-2025-06-04.md)
+- [2025-06-17 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-17/transcript-diesen-sachs-us-prepares-to-join-war-against-iran-2025-06-17.md)
 - [2026-05-12 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-12/youtube-glenn-diesen-jeffrey-sachs-new-european-military-bloc-for-war-against-russia-2026-05-12.md)
 - [2026-05-23 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-23/transcript-diesen-sachs-the-baltic-states-are-now-the-most-dangerous-place-in-the-world-2026-05-23.md)
 
@@ -35,8 +37,14 @@ Open [Napolitano host shelf](/C:/dev/strategy-codex/statecraft/hosts/napolitano/
 
 Best current direct anchors:
 
+- [2025-01-08 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-01-08/transcript-napolitano-sachs-does-trump-want-peace-2025-01-08.md)
+- [2025-02-03 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-03/youtube-napolitano-sachs-iran-wants-peace-israel-wants-more-war-2025-02-03.md)
+- [2025-05-07 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-07/transcript-napolitano-sachs-can-the-kremlin-trust-trump-2025-05-07.md)
+- [2025-06-24 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-24/transcript-napolitano-sachs-is-the-us-subordinated-to-israel-2025-06-24.md)
 - [2026-03-16 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-16/transcript-napolitano-sachs-are-we-drifting-toward-a-global-war-2026-03-16.md)
 - [2026-05-27 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-27/transcript-napolitano-sachs-trump-has-no-lifeline-out-of-iran-2026-05-27.md)
+
+Treat the `2025-02-03` anchor as a confirmed full front door below transcript-grade, not as a transcript-bearing local body.
 
 ## Open Mercouris Or Tucker First
 
@@ -48,6 +56,7 @@ Open the Mercouris or Tucker anchors first when the real question is:
 
 Best current anchors:
 
+- [2025-06-11 / Tucker x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-11/transcript-sachs-carlson-dark-forces-pushing-trump-into-war-with-iran-2025-06-11.md)
 - [2026-05-07 / Mercouris x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-07/transcript-mercouris-jeffrey-sachs-iran-miscalculation-could-trigger-a-decade-long-economic-crisis-2026-05-07.md)
 - [2026-04-24 / Tucker x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-24/transcript-sachs-carlson-iran-war-origins-2026-04-24.md)
 

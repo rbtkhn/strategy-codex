@@ -14,6 +14,8 @@ Purpose: provide the canonical route map for materialized Sachs appearances and 
 - [2025-04-07 - Chaos & Restructuring of the Global Economy](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-07/transcript-diesen-sachs-chaos-and-restructuring-of-the-global-economy-2025-04-07.md)
 - [2025-05-02 - Chinese Statecraft & a New World Order](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-02/transcript-diesen-sachs-chinese-statecraft-and-a-new-world-order-2025-05-02.md)
 - [2025-05-19 - Europe's Declining Economy, Security & Common Sense](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-19/transcript-diesen-sachs-europes-declining-economy-security-and-common-sense-2025-05-19.md)
+- [2025-06-04 - NATO & Russia On the Brink of Nuclear War](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-04/transcript-diesen-sachs-nato-and-russia-on-the-brink-of-nuclear-war-2025-06-04.md)
+- [2025-06-17 - US Prepares to Join War Against Iran](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-17/transcript-diesen-sachs-us-prepares-to-join-war-against-iran-2025-06-17.md)
 - [2025-08-11 - Trump-Putin Meeting: Peace or Deception?](/C:/dev/strategy-codex/source-archive/statecraft/2025-08-11/youtube-glenn-diesen-jeffrey-sachs-trump-putin-meeting-peace-or-deception-2025-08-11.md)
 - [2026-02-28 - US & Israel Attack Iran - War Is Spreading Across the Region](/C:/dev/strategy-codex/source-archive/statecraft/2026-02-28/transcript-diesen-sachs-us-israel-attack-iran-war-is-spreading-across-the-region-2026-02-28.md)
 - [2026-03-16 - Israel Could Use Nuclear Weapons Against Iran](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-16/youtube-glenn-diesen-jeffrey-sachs-israel-could-use-nuclear-weapons-against-iran-2026-03-16.md)
@@ -25,6 +27,9 @@ Purpose: provide the canonical route map for materialized Sachs appearances and 
 ### Judging Freedom
 
 - [2025-01-08 - Does Trump Want Peace?](/C:/dev/strategy-codex/source-archive/statecraft/2025-01-08/transcript-napolitano-sachs-does-trump-want-peace-2025-01-08.md)
+- [2025-02-03 - Iran wants peace / Israel wants more war!](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-03/youtube-napolitano-sachs-iran-wants-peace-israel-wants-more-war-2025-02-03.md)
+- [2025-05-07 - Can the Kremlin Trust Trump?](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-07/transcript-napolitano-sachs-can-the-kremlin-trust-trump-2025-05-07.md)
+- [2025-06-24 - Is the US Subordinated to Israel?](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-24/transcript-napolitano-sachs-is-the-us-subordinated-to-israel-2025-06-24.md)
 - [2026-03-16 - Are We Drifting Toward a Global War?](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-16/transcript-napolitano-sachs-are-we-drifting-toward-a-global-war-2026-03-16.md)
 - [2026-05-27 - Trump Has No Lifeline Out of Iran](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-27/transcript-napolitano-sachs-trump-has-no-lifeline-out-of-iran-2026-05-27.md)
 
@@ -34,6 +39,7 @@ Purpose: provide the canonical route map for materialized Sachs appearances and 
 
 ### Tucker Carlson
 
+- [2025-06-11 - The Dark Forces Pushing Trump Into War With Iran, & Ukraine/Russia New Escalation](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-11/transcript-sachs-carlson-dark-forces-pushing-trump-into-war-with-iran-2025-06-11.md)
 - [2026-04-24 - The Real Origins of the Iran War and the Coming Economic Devastation](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-24/transcript-sachs-carlson-iran-war-origins-2026-04-24.md)
 
 ## Host-Arc Entries
