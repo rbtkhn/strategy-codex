@@ -8,23 +8,23 @@ Month status: `continuity carryover` with explicit setup value for the later Feb
 
 ## January setup index
 
-- [youtube-alex-mercouris-trump-rubio-rule-venezuela-directly-seize-oil-chavista-gov-in-control-ki-2026-01-04.md](../../../years/2026/provenance/2026-01-04/youtube-alex-mercouris-trump-rubio-rule-venezuela-directly-seize-oil-chavista-gov-in-control-ki-2026-01-04.md)
+- [youtube-alex-mercouris-trump-rubio-rule-venezuela-directly-seize-oil-chavista-gov-in-control-ki-2026-01-04.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-01-04/youtube-alex-mercouris-trump-rubio-rule-venezuela-directly-seize-oil-chavista-gov-in-control-ki-2026-01-04.md)
   - Early non-Ukraine widening: Venezuela, U.S. coercive posture, and the larger frontier mood around Trump's return.
-- [youtube-alex-mercouris-russia-prepares-biggest-ukraine-strike-duma-wants-reserve-armies-committ-2026-01-11.md](../../../years/2026/provenance/2026-01-11/youtube-alex-mercouris-russia-prepares-biggest-ukraine-strike-duma-wants-reserve-armies-committ-2026-01-11.md)
+- [youtube-alex-mercouris-russia-prepares-biggest-ukraine-strike-duma-wants-reserve-armies-committ-2026-01-11.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-01-11/youtube-alex-mercouris-russia-prepares-biggest-ukraine-strike-duma-wants-reserve-armies-committ-2026-01-11.md)
   - Ukraine-front deterioration and reserve / strike / offensive framing begin to thicken.
-- [youtube-alex-mercouris-iran-says-protests-end-prepares-for-war-us-debates-options-kiev-crisis-b-2026-01-14.md](../../../years/2026/provenance/2026-01-14/youtube-alex-mercouris-iran-says-protests-end-prepares-for-war-us-debates-options-kiev-crisis-b-2026-01-14.md)
+- [youtube-alex-mercouris-iran-says-protests-end-prepares-for-war-us-debates-options-kiev-crisis-b-2026-01-14.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-01-14/youtube-alex-mercouris-iran-says-protests-end-prepares-for-war-us-debates-options-kiev-crisis-b-2026-01-14.md)
   - Iran-war pressure becomes explicit inside the same running field as Ukraine and Europe.
-- [youtube-alex-mercouris-zelensky-rushes-top-envoys-to-us-as-kiev-crisis-deepens-trump-focus-gree-2026-01-17.md](../../../years/2026/provenance/2026-01-17/youtube-alex-mercouris-zelensky-rushes-top-envoys-to-us-as-kiev-crisis-deepens-trump-focus-gree-2026-01-17.md)
+- [youtube-alex-mercouris-zelensky-rushes-top-envoys-to-us-as-kiev-crisis-deepens-trump-focus-gree-2026-01-17.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-01-17/youtube-alex-mercouris-zelensky-rushes-top-envoys-to-us-as-kiev-crisis-deepens-trump-focus-gree-2026-01-17.md)
   - Kiev stress, U.S. pressure, and widening geopolitical attention start to braid.
-- [youtube-alex-mercouris-trump-hits-uk-eu-big-greenland-tariffs-uk-eu-rage-in-shock-without-plan-2026-01-18.md](../../../years/2026/provenance/2026-01-18/youtube-alex-mercouris-trump-hits-uk-eu-big-greenland-tariffs-uk-eu-rage-in-shock-without-plan-2026-01-18.md)
+- [youtube-alex-mercouris-trump-hits-uk-eu-big-greenland-tariffs-uk-eu-rage-in-shock-without-plan-2026-01-18.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-01-18/youtube-alex-mercouris-trump-hits-uk-eu-big-greenland-tariffs-uk-eu-rage-in-shock-without-plan-2026-01-18.md)
   - Europe's strategic disorientation and rhetoric-reality mismatch become visible in the native stream.
-- [youtube-alex-mercouris-trump-mocks-eu-on-nobel-prize-and-greenland-invites-putin-gaza-board-big-2026-01-19.md](../../../years/2026/provenance/2026-01-19/youtube-alex-mercouris-trump-mocks-eu-on-nobel-prize-and-greenland-invites-putin-gaza-board-big-2026-01-19.md)
+- [youtube-alex-mercouris-trump-mocks-eu-on-nobel-prize-and-greenland-invites-putin-gaza-board-big-2026-01-19.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-01-19/youtube-alex-mercouris-trump-mocks-eu-on-nobel-prize-and-greenland-invites-putin-gaza-board-big-2026-01-19.md)
   - The same Europe / Trump / negotiation geometry keeps gathering without yet becoming the February rupture.
-- [youtube-alex-mercouris-russia-hits-kiev-biggest-strike-as-us-military-joins-us-russia-ukraine-t-2026-01-24.md](../../../years/2026/provenance/2026-01-24/youtube-alex-mercouris-russia-hits-kiev-biggest-strike-as-us-military-joins-us-russia-ukraine-t-2026-01-24.md)
+- [youtube-alex-mercouris-russia-hits-kiev-biggest-strike-as-us-military-joins-us-russia-ukraine-t-2026-01-24.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-01-24/youtube-alex-mercouris-russia-hits-kiev-biggest-strike-as-us-military-joins-us-russia-ukraine-t-2026-01-24.md)
   - Ukraine pressure and negotiation theater are now clearly interacting.
-- [youtube-alex-mercouris-moscow-says-no-progress-abu-dhabi-talks-zelensky-won-t-give-up-territory-2026-01-26.md](../../../years/2026/provenance/2026-01-26/youtube-alex-mercouris-moscow-says-no-progress-abu-dhabi-talks-zelensky-won-t-give-up-territory-2026-01-26.md)
+- [youtube-alex-mercouris-moscow-says-no-progress-abu-dhabi-talks-zelensky-won-t-give-up-territory-2026-01-26.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-01-26/youtube-alex-mercouris-moscow-says-no-progress-abu-dhabi-talks-zelensky-won-t-give-up-territory-2026-01-26.md)
   - The opening negotiation geometry hardens before the later February bridge.
-- [youtube-alex-mercouris-russian-prepares-2026-offensive-lyman-falling-drones-spy-kiev-reserve-ar-2026-01-28.md](../../../years/2026/provenance/2026-01-28/youtube-alex-mercouris-russian-prepares-2026-offensive-lyman-falling-drones-spy-kiev-reserve-ar-2026-01-28.md)
+- [youtube-alex-mercouris-russian-prepares-2026-offensive-lyman-falling-drones-spy-kiev-reserve-ar-2026-01-28.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-01-28/youtube-alex-mercouris-russian-prepares-2026-offensive-lyman-falling-drones-spy-kiev-reserve-ar-2026-01-28.md)
   - The month closes with offensive preparation and exhaustion logic already gathering force.
 
 ## Reading note

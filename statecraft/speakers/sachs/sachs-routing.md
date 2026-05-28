@@ -6,7 +6,7 @@ Use Sachs when the notebook needs scale change: from a hot crisis to the larger 
 
 ## Open Diesen First
 
-Open [Diesen x Sachs](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-sachs-speaker-arc.md) first when the real question is:
+Open [Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-19/transcript-diesen-sachs-europes-declining-economy-security-and-common-sense-2025-05-19.md) first when the real question is:
 
 - what this crisis means for the wider balance
 - how escalation fits into Eurasian or multipolar transition

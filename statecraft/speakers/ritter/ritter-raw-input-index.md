@@ -109,11 +109,7 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Scott
 - [transcript-ritter](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-19/transcript-ritter.md)
 - [judging-freedom-trump-hegseth-2026-04-20](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-20/judging-freedom-trump-hegseth-2026-04-20.md)
 - [ritter-rant-shorting-america-7pXI52jKcOU](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-20/ritter-rant-shorting-america-7pXI52jKcOU.md)
-- [2026-04-25-ritter](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-25/2026-04-25-ritter.md)
-- [2026-04-26-ritter](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-26/2026-04-26-ritter.md)
 - [substack-ritter-new-middle-eastern-power-paradigm-2026-04-27](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-27/substack-ritter-new-middle-eastern-power-paradigm-2026-04-27.md)
-- [2026-04-27-ritter](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-27/2026-04-27-ritter.md)
-- [2026-04-28-ritter](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-28/2026-04-28-ritter.md)
 
 ## 2026-05
 
@@ -133,8 +129,8 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Scott
 
 ## Discovery Surfaces
 
-- [dialogue-works-inventory](/C:/dev/strategy-codex/source-archive/statecraft/dialogue-works-inventory.md)
-- [glenn-diesen-april-2026-scaffold](/C:/dev/strategy-codex/source-archive/statecraft/glenn-diesen-april-2026-scaffold.md)
+- [dialogue-works-inventory](/C:/dev/strategy-codex/statecraft/sheets/source-archive-control/dialogue-works-inventory.md)
+- [glenn-diesen-april-2026-scaffold](/C:/dev/strategy-codex/statecraft/sheets/source-archive-residue/2026-04-26/2026-04-26-diesen.md)
 
 ## Boundary Notes
 

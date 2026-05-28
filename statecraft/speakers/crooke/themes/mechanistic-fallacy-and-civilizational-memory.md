@@ -22,8 +22,8 @@ Crooke often argues that Western strategy treats adversaries as mechanical syste
 
 ## Exact Quote Anchors
 
-- [2025-09-12 Dialogue Works raw-input](../../../years/2026/provenance/2025-09-12/transcript-dialogue-works-alastair-crooke-alastair-crooke-middle-east-on-the-brink-russia-rains-down-drones-missiles-2025-09-12.md): "the parts of Syria that were Ottoman [are] still part of the Ottoman lineage"
-- [2026-04-23 Substack raw-input](../../../years/2026/provenance/2026-04-23/substack-crooke-the-mechanistic-fallacy-why-the-west-2026-04-23.md) is the authored mechanism spine for the same family
+- [2025-09-12 Dialogue Works raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-12/transcript-dialogue-works-alastair-crooke-alastair-crooke-middle-east-on-the-brink-russia-rains-down-drones-missiles-2025-09-12.md): "the parts of Syria that were Ottoman [are] still part of the Ottoman lineage"
+- [2026-04-23 Substack raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-23/substack-crooke-the-mechanistic-fallacy-why-the-west-2026-04-23.md) is the authored mechanism spine for the same family
 
 ## What Crooke Is Arguing
 
@@ -43,7 +43,7 @@ Crooke keeps treating misreading itself as a strategic variable. This theme recu
 
 ## CIV-EMP Bridge
 
-Open [Mechanistic fallacy and civilizational memory](../../../../academy/statecraft/civ-emp/indexes/crooke/mechanistic-fallacy-and-civilizational-memory.md) when the task is turning this modern Crooke pressure into deeper state-memory and civilizational-reading scaffolding.
+Open [Mechanistic fallacy and civilizational memory](/C:/dev/strategy-codex/statecraft/civ-emp/indexes/crooke/mechanistic-fallacy-and-civilizational-memory.md) when the task is turning this modern Crooke pressure into deeper state-memory and civilizational-reading scaffolding.
 
 ## Benchmark Snapshot
 

@@ -16,38 +16,38 @@ Expected v1 count: 21 files.
 
 | date | title | raw-input | function |
 |---|---|---|---|
-| 2025-08-29 | Russia's Patience Is Over, Escalation Begins | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-08-29/youtube-glenn-diesen-alastair-crooke-alastair-crooke-russia-s-patience-is-over-escalation-begins-2025-08-29.md) | order-transition altitude |
-| 2025-10-09 | Fake Peace in Gaza, Full-Scale War with Iran | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-10-09/youtube-glenn-diesen-alastair-crooke-alastair-crooke-fake-peace-in-gaza-full-scale-war-with-iran-2025-10-09.md) | order-transition altitude |
-| 2025-11-07 | Western Politics Broken, China/Russia Triumph | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-11-07/youtube-glenn-diesen-alastair-crooke-alastair-crooke-western-politics-broken-china-russia-triumph-2025-11-07.md) | order-transition altitude |
-| 2026-01-06 | Decline, Irrationality, War on Iran | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-01-06/transcript-diesen-crooke-decline-irrationality-war-on-iran-2026-01-06.md) | structural rupture |
-| 2026-03-02 | Iran's Strategy: Evict the U.S. from the Middle East | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-02/youtube-glenn-diesen-alastair-crooke-irans-strategy-evict-the-u-s-from-the-middle-east-2026-03-02.md) | Iran empowerment |
-| 2026-03-20 | Iran Sets Conditions for Access to the Strait of Hormuz | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-20/transcript-diesen-crooke-iran-sets-conditions-for-access-to-the-strait-of-hormuz-2026-03-20.md) | chokepoint leverage |
-| 2026-04-07 | Iran Will Emerge Stronger and Reshape the Global Economy | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-07/transcript-diesen-crooke-iran-will-emerge-stronger-after-the-war-reshape-the-global-economy-2026-04-07.md) | global consequence |
-| 2026-04-27 | Iran, Global War, World Order | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-27/transcript-diesen-crooke-iran-global-war-world-order-2026-04-27.md) | world-order stress test |
+| 2025-08-29 | Russia's Patience Is Over, Escalation Begins | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2025-08-29/youtube-glenn-diesen-alastair-crooke-alastair-crooke-russia-s-patience-is-over-escalation-begins-2025-08-29.md) | order-transition altitude |
+| 2025-10-09 | Fake Peace in Gaza, Full-Scale War with Iran | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-09/youtube-glenn-diesen-alastair-crooke-alastair-crooke-fake-peace-in-gaza-full-scale-war-with-iran-2025-10-09.md) | order-transition altitude |
+| 2025-11-07 | Western Politics Broken, China/Russia Triumph | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-07/youtube-glenn-diesen-alastair-crooke-alastair-crooke-western-politics-broken-china-russia-triumph-2025-11-07.md) | order-transition altitude |
+| 2026-01-06 | Decline, Irrationality, War on Iran | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-01-06/transcript-diesen-crooke-decline-irrationality-war-on-iran-2026-01-06.md) | structural rupture |
+| 2026-03-02 | Iran's Strategy: Evict the U.S. from the Middle East | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-02/youtube-glenn-diesen-alastair-crooke-irans-strategy-evict-the-u-s-from-the-middle-east-2026-03-02.md) | Iran empowerment |
+| 2026-03-20 | Iran Sets Conditions for Access to the Strait of Hormuz | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-20/transcript-diesen-crooke-iran-sets-conditions-for-access-to-the-strait-of-hormuz-2026-03-20.md) | chokepoint leverage |
+| 2026-04-07 | Iran Will Emerge Stronger and Reshape the Global Economy | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-07/transcript-diesen-crooke-iran-will-emerge-stronger-after-the-war-reshape-the-global-economy-2026-04-07.md) | global consequence |
+| 2026-04-27 | Iran, Global War, World Order | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-27/transcript-diesen-crooke-iran-global-war-world-order-2026-04-27.md) | world-order stress test |
 
 ### Davis
 
 | date | title | raw-input | function |
 |---|---|---|---|
-| 2025-10-30 | Trump, China: Who's Coming Out on Top? | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-10-30/youtube-daniel-davis-deep-dive-alastair-crooke-trump-china-who-s-coming-out-on-top-lt-col-daniel-davis-alastair-crooke-2025-10-30.md) | strategic-room realism |
-| 2025-11-21 | Trump's Ukraine Peace Plan, EU/Zelensky Resisting | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-11-21/youtube-daniel-davis-deep-dive-alastair-crooke-trump-s-ukraine-peace-plan-eu-zelensky-resisting-alastair-crooke-lt-col-daniel-davis-2025-11-21.md) | bargaining room |
-| 2025-12-17 | Putin Says There Is Hysteria from the West | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-12-17/youtube-daniel-davis-deep-dive-alastair-crooke-putin-says-there-s-hysteria-from-the-west-alastair-crooke-lt-col-daniel-davis-2025-12-17.md) | strategic-room realism |
-| 2026-03-13 | Iran's Asymmetrical War | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-13/transcript-davis-crooke-irans-asymmetrical-war-2026-03-13.md) | operational leverage |
-| 2026-04-23 | Iranians Only Getting Tougher | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-23/transcript-davis-crooke-iranians-only-getting-tougher-2026-04-23.md) | bargaining reality |
-| 2026-05-11 | Diplomatic Solution or More War | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-11/transcript-davis-crooke-diplomatic-solution-more-war-2026-05-11.md) | off-ramp test |
-| 2026-05-22 | Nuclear Fear of Russia Can Bring Stability | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-22/youtube-daniel-davis-deep-dive-nuclear-fear-of-russia-can-bring-stability-alastair-crooke-lt-col-daniel-davis-2026-05-22.md) | deterrence fear and escalation ceiling |
+| 2025-10-30 | Trump, China: Who's Coming Out on Top? | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-30/youtube-daniel-davis-deep-dive-alastair-crooke-trump-china-who-s-coming-out-on-top-lt-col-daniel-davis-alastair-crooke-2025-10-30.md) | strategic-room realism |
+| 2025-11-21 | Trump's Ukraine Peace Plan, EU/Zelensky Resisting | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-21/youtube-daniel-davis-deep-dive-alastair-crooke-trump-s-ukraine-peace-plan-eu-zelensky-resisting-alastair-crooke-lt-col-daniel-davis-2025-11-21.md) | bargaining room |
+| 2025-12-17 | Putin Says There Is Hysteria from the West | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-17/youtube-daniel-davis-deep-dive-alastair-crooke-putin-says-there-s-hysteria-from-the-west-alastair-crooke-lt-col-daniel-davis-2025-12-17.md) | strategic-room realism |
+| 2026-03-13 | Iran's Asymmetrical War | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-13/transcript-davis-crooke-irans-asymmetrical-war-2026-03-13.md) | operational leverage |
+| 2026-04-23 | Iranians Only Getting Tougher | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-23/transcript-davis-crooke-iranians-only-getting-tougher-2026-04-23.md) | bargaining reality |
+| 2026-05-11 | Diplomatic Solution or More War | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-11/transcript-davis-crooke-diplomatic-solution-more-war-2026-05-11.md) | off-ramp test |
+| 2026-05-22 | Nuclear Fear of Russia Can Bring Stability | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-22/youtube-daniel-davis-deep-dive-nuclear-fear-of-russia-can-bring-stability-alastair-crooke-lt-col-daniel-davis-2026-05-22.md) | deterrence fear and escalation ceiling |
 
 ### Dialogue Works / Nima
 
 | date | title | raw-input | function |
 |---|---|---|---|
-| 2025-06-25 | Iran-Israel Ceasefire: Inside the 12-Day War | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-06-25/transcript-dialogue-works-alastair-crooke-alastair-crooke-iran-israel-ceasefire-inside-the-12-day-war-trump-s-peace-deal-2025-06-25.md) | live crisis pressure |
-| 2025-07-30 | Two Fronts, No Escape, Collapse Is Spreading Fast | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-07-30/transcript-dialogue-works-alastair-crooke-alastair-crooke-two-fronts-no-escape-collapse-is-spreading-fast-2025-07-30.md) | live crisis pressure |
-| 2025-09-12 | Middle East on the Brink, Russia Rains Down Drones and Missiles | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-09-12/transcript-dialogue-works-alastair-crooke-alastair-crooke-middle-east-on-the-brink-russia-rains-down-drones-missiles-2025-09-12.md) | event meaning |
-| 2026-01-25 | Systemic Collapse Explained: Why Two Fronts Matter | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-01-25/transcript-alkorshid-crooke-systemic-collapse-explained-why-two-fronts-matter-2026-01-25.md) | systemic pressure |
-| 2026-02-20 | Trump's Final Gamble, Iran Dares to Strike Back | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-02-20/transcript-alkorshid-crooke-trumps-final-gamble-iran-dares-to-strike-back-2026-02-20.md) | escalation pressure |
-| 2026-03-17 | Iran Was Ready for This War | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-17/transcript-alkorshid-crooke-iran-was-ready-for-this-war-and-it-could-change-the-middle-east-forever-2026-03-17.md) | readiness and consequence |
-| 2026-05-13 | Iran Smashed the U.S. Military Model, China Is Watching | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-13/transcript-alkorshid-crooke-iran-smashed-the-us-military-model-china-is-watching-2026-05-13.md) | war-model failure |
+| 2025-06-25 | Iran-Israel Ceasefire: Inside the 12-Day War | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-25/transcript-dialogue-works-alastair-crooke-alastair-crooke-iran-israel-ceasefire-inside-the-12-day-war-trump-s-peace-deal-2025-06-25.md) | live crisis pressure |
+| 2025-07-30 | Two Fronts, No Escape, Collapse Is Spreading Fast | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2025-07-30/transcript-dialogue-works-alastair-crooke-alastair-crooke-two-fronts-no-escape-collapse-is-spreading-fast-2025-07-30.md) | live crisis pressure |
+| 2025-09-12 | Middle East on the Brink, Russia Rains Down Drones and Missiles | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-12/transcript-dialogue-works-alastair-crooke-alastair-crooke-middle-east-on-the-brink-russia-rains-down-drones-missiles-2025-09-12.md) | event meaning |
+| 2026-01-25 | Systemic Collapse Explained: Why Two Fronts Matter | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-01-25/transcript-alkorshid-crooke-systemic-collapse-explained-why-two-fronts-matter-2026-01-25.md) | systemic pressure |
+| 2026-02-20 | Trump's Final Gamble, Iran Dares to Strike Back | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-02-20/transcript-alkorshid-crooke-trumps-final-gamble-iran-dares-to-strike-back-2026-02-20.md) | escalation pressure |
+| 2026-03-17 | Iran Was Ready for This War | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-17/transcript-alkorshid-crooke-iran-was-ready-for-this-war-and-it-could-change-the-middle-east-forever-2026-03-17.md) | readiness and consequence |
+| 2026-05-13 | Iran Smashed the U.S. Military Model, China Is Watching | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-13/transcript-alkorshid-crooke-iran-smashed-the-us-military-model-china-is-watching-2026-05-13.md) | war-model failure |
 
 ## Host Function Map
 

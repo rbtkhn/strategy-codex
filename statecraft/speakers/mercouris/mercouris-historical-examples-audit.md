@@ -26,13 +26,12 @@ Discovery and routing base:
 - [Mercouris speaker object](mercouris-speaker-object.md)
 - [Mercouris arc](stream/mercouris-arc.md)
 - [Mercouris arc-threads](stream/mercouris-arc-threads.md)
-- [Mercouris surface orthogonality note](mercouris-surface-orthogonality-2026-05.md)
 
 Interpretive source base:
 
-- [CIV-EMP README](../../academy/statecraft/civ-emp/README.md)
-- [Academy-statecraft architecture](../../academy/statecraft/ARCHITECTURE.md)
-- [CIV-EMP source retrieval matrix](../../academy/statecraft/civ-emp/indexes/source-retrieval-matrix.md)
+- [CIV-EMP README](/C:/dev/strategy-codex/statecraft/civ-emp/indexes/source-retrieval-matrix.md)
+- [Academy-statecraft architecture](/C:/dev/strategy-codex/statecraft/ARCHITECTURE.md)
+- [CIV-EMP source retrieval matrix](/C:/dev/strategy-codex/statecraft/civ-emp/indexes/source-retrieval-matrix.md)
 
 Inclusion bar for scored entries:
 
@@ -102,7 +101,7 @@ Coverage basis:
 ### 1. Minsk as the failed ceasefire-first model that exhausted Russian trust
 
 - Example: `Minsk agreement`
-- Source: [2025-04-10 Daniel Davis](../../years/2026/provenance/2025-04-10/youtube-daniel-davis-deep-dive-russian-realism-european-dreams-ukraine-defeat-2025-04-10.md)
+- Source: [2025-04-10 Daniel Davis](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-10/youtube-daniel-davis-deep-dive-russian-realism-european-dreams-ukraine-defeat-2025-04-10.md)
 - Exact quote:
 
 > "we've been there before. We tried that. That was what the Minsk agreement was all about and it didn't work"
@@ -129,7 +128,7 @@ Coverage basis:
 ### 2. Istanbul 2022 and Istanbul Plus as the lost or deferred settlement line
 
 - Example: `Istanbul 2022 / Istanbul Plus`
-- Source: [2025-01-10 native channel](../../years/2026/provenance/2025-01-10/youtube-alex-mercouris-putiin-trump-summit-coming-eu-frets-trump-will-cancel-sanctions-zelensky-2025-01-10.md), [2025-02-10 native channel](../../years/2026/provenance/2025-02-10/youtube-alex-mercouris-trump-confirms-putin-call-putin-firm-4-regions-russian-ukraine-kursk-disaster-eu-gas-prices-surge-2025-02-10.md)
+- Source: [2025-01-10 native channel](/C:/dev/strategy-codex/source-archive/statecraft/2025-01-10/youtube-alex-mercouris-putiin-trump-summit-coming-eu-frets-trump-will-cancel-sanctions-zelensky-2025-01-10.md), [2025-02-10 native channel](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-10/youtube-alex-mercouris-trump-confirms-putin-call-putin-firm-4-regions-russian-ukraine-kursk-disaster-eu-gas-prices-surge-2025-02-10.md)
 - Exact quote:
 
 > "there was a draft agreement signed or at least initial and almost sealed agreed in Istanbul in April 2022"
@@ -160,7 +159,7 @@ Coverage basis:
 ### 3. Contact collapse after February 2022 as a breach worse than the coldest Cold War periods
 
 - Example: `coldest periods of the Cold War`
-- Source: [2025-01-10 native channel](../../years/2026/provenance/2025-01-10/youtube-alex-mercouris-putiin-trump-summit-coming-eu-frets-trump-will-cancel-sanctions-zelensky-2025-01-10.md)
+- Source: [2025-01-10 native channel](/C:/dev/strategy-codex/source-archive/statecraft/2025-01-10/youtube-alex-mercouris-putiin-trump-summit-coming-eu-frets-trump-will-cancel-sanctions-zelensky-2025-01-10.md)
 - Exact quote:
 
 > "even during the coldest periods of the Cold War there had continued to be some level of contact"
@@ -187,7 +186,7 @@ Coverage basis:
 ### 4. Public strikes on Russian territory as a line even Cold War proxy conflicts avoided
 
 - Example: `Cold War proxy conflicts`
-- Source: [2025-01-10 native channel](../../years/2026/provenance/2025-01-10/youtube-alex-mercouris-putiin-trump-summit-coming-eu-frets-trump-will-cancel-sanctions-zelensky-2025-01-10.md)
+- Source: [2025-01-10 native channel](/C:/dev/strategy-codex/source-archive/statecraft/2025-01-10/youtube-alex-mercouris-putiin-trump-summit-coming-eu-frets-trump-will-cancel-sanctions-zelensky-2025-01-10.md)
 - Exact quote:
 
 > "that is something completely different from anything we have seen in any conflict any superpower conflict that has taken place previously during the Cold War"
@@ -214,7 +213,7 @@ Coverage basis:
 ### 5. SS20 / INF memory as a reminder that old deterrence systems belong to a different technological and treaty world
 
 - Example: `RSD10 Pioneer / SS20 / INF treaty`
-- Source: [2026-05-19 native channel](../../years/2026/provenance/2026-05-19/youtube-alex-mercouris-russia-warns-nato-baltic-war-test-nuclear-forces-putin-to-china-trump-iran-retreat-konstantinovka-2026-05-19.md)
+- Source: [2026-05-19 native channel](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-19/youtube-alex-mercouris-russia-warns-nato-baltic-war-test-nuclear-forces-putin-to-china-trump-iran-retreat-konstantinovka-2026-05-19.md)
 - Exact quote:
 
 > "every single operational RSD10 Pioneer in the Soviet Union and Russia was destroyed after the 1987 INF treaty came into force"
@@ -243,7 +242,7 @@ Coverage basis:
 ### 6. Munich 2007 and Munich 2022 as the place where Russian warning memory hardened
 
 - Example: `Munich Security Conference`
-- Source: [2025-02-10 native channel](../../years/2026/provenance/2025-02-10/youtube-alex-mercouris-trump-confirms-putin-call-putin-firm-4-regions-russian-ukraine-kursk-disaster-eu-gas-prices-surge-2025-02-10.md)
+- Source: [2025-02-10 native channel](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-10/youtube-alex-mercouris-trump-confirms-putin-call-putin-firm-4-regions-russian-ukraine-kursk-disaster-eu-gas-prices-surge-2025-02-10.md)
 - Exact quote:
 
 > "the Russians have bad memories about the Munich security conference"
@@ -272,7 +271,7 @@ Coverage basis:
 ### 7. Yalta as Europe's recurring fear that America and Russia will settle the continent over its head
 
 - Example: `Yalta Conference`
-- Source: [2025-02-10 native channel](../../years/2026/provenance/2025-02-10/youtube-alex-mercouris-trump-confirms-putin-call-putin-firm-4-regions-russian-ukraine-kursk-disaster-eu-gas-prices-surge-2025-02-10.md)
+- Source: [2025-02-10 native channel](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-10/youtube-alex-mercouris-trump-confirms-putin-call-putin-firm-4-regions-russian-ukraine-kursk-disaster-eu-gas-prices-surge-2025-02-10.md)
 - Exact quote:
 
 > "to understand how haunted the Europeans are about this all you need to do is to go back to the Yalta Conference"
@@ -303,7 +302,7 @@ Coverage basis:
 ### 8. The Habsburg residue as a bloc-memory explanation for Central European dissent
 
 - Example: `Austria-Hungary / Habsburg Empire`
-- Source: [2025-01-10 native channel](../../years/2026/provenance/2025-01-10/youtube-alex-mercouris-putiin-trump-summit-coming-eu-frets-trump-will-cancel-sanctions-zelensky-2025-01-10.md)
+- Source: [2025-01-10 native channel](/C:/dev/strategy-codex/source-archive/statecraft/2025-01-10/youtube-alex-mercouris-putiin-trump-summit-coming-eu-frets-trump-will-cancel-sanctions-zelensky-2025-01-10.md)
 - Exact quote:
 
 > "the former Empire of the hapsburgs Austria Hungary is gradually being reconstructed along this precise issue"
@@ -330,7 +329,7 @@ Coverage basis:
 ### 9. Vietnam and the end-of-Cold-War glow as the measure of U.S. geostrategic defeat
 
 - Example: `Vietnam / end of the Cold War`
-- Source: [2025-01-10 native channel](../../years/2026/provenance/2025-01-10/youtube-alex-mercouris-putiin-trump-summit-coming-eu-frets-trump-will-cancel-sanctions-zelensky-2025-01-10.md)
+- Source: [2025-01-10 native channel](/C:/dev/strategy-codex/source-archive/statecraft/2025-01-10/youtube-alex-mercouris-putiin-trump-summit-coming-eu-frets-trump-will-cancel-sanctions-zelensky-2025-01-10.md)
 - Exact quote:
 
 > "it is the biggest defeat in international terms that the United States has ever suffered it's a far bigger defeat potentially than the defeat that the United States experienced in Vietnam"
@@ -361,7 +360,7 @@ Coverage basis:
 ### 10. Helsinki as the model for a postwar Persian Gulf non-aggression architecture
 
 - Example: `1970s Helsinki process`
-- Source: [2026-05-19 native channel](../../years/2026/provenance/2026-05-19/youtube-alex-mercouris-russia-warns-nato-baltic-war-test-nuclear-forces-putin-to-china-trump-iran-retreat-konstantinovka-2026-05-19.md)
+- Source: [2026-05-19 native channel](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-19/youtube-alex-mercouris-russia-warns-nato-baltic-war-test-nuclear-forces-putin-to-china-trump-iran-retreat-konstantinovka-2026-05-19.md)
 - Exact quote:
 
 > "Riyad is eyeing as a potential model the 1970s Helsinki process that eased end tensions in Europe during the Cold War"

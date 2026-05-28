@@ -22,7 +22,7 @@ This theme holds Mercouris's use of Helsinki-style process, non-aggression frame
 
 ## Exact Quote Anchors
 
-- [2026-05-19 native raw-input](../../../years/2026/provenance/2026-05-19/youtube-alex-mercouris-russia-warns-nato-baltic-war-test-nuclear-forces-putin-to-china-trump-iran-retreat-konstantinovka-2026-05-19.md): "a potential model the 1970s Helsinki process"
+- [2026-05-19 native raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-19/youtube-alex-mercouris-russia-warns-nato-baltic-war-test-nuclear-forces-putin-to-china-trump-iran-retreat-konstantinovka-2026-05-19.md): "a potential model the 1970s Helsinki process"
 - same source: "a new security architecture in the Persian Gulf involving some of the leading Arab states, including the Saudis and by the way also the Iranians"
 
 ## What Mercouris Is Arguing
@@ -44,7 +44,7 @@ Mercouris keeps returning to the idea that failed coercive projects do not end h
 
 ## CIV-EMP Bridge
 
-Open [Helsinki process and post-hegemonic security architecture](../../../../academy/statecraft/civ-emp/indexes/mercouris/helsinki-process-and-post-hegemonic-security-architecture.md) when the task shifts from Mercouris's activation surface to deeper regional-architecture and non-aggression retrieval.
+Open [Helsinki process and post-hegemonic security architecture](/C:/dev/strategy-codex/statecraft/civ-emp/indexes/mercouris/helsinki-process-and-post-hegemonic-security-architecture.md) when the task shifts from Mercouris's activation surface to deeper regional-architecture and non-aggression retrieval.
 
 ## Benchmark Snapshot
 

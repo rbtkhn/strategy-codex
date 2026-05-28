@@ -88,7 +88,7 @@ Purpose: provide the canonical route map for materialized Sachs appearances and 
 
 ## Host-Arc Entries
 
-- [Diesen x Sachs](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-sachs-speaker-arc.md)
+- [Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-19/transcript-diesen-sachs-europes-declining-economy-security-and-common-sense-2025-05-19.md)
 - [Napolitano host shelf](/C:/dev/strategy-codex/statecraft/hosts/napolitano/README.md)
 
 ## Reading Rule

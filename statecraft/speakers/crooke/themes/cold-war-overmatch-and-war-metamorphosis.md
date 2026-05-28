@@ -23,9 +23,9 @@ This theme holds Crooke's argument that a military-economic model forged in the 
 
 ## Exact Quote Anchors
 
-- [2026-05-13 Dialogue Works / Nima raw-input](../../../years/2026/provenance/2026-05-13/transcript-alkorshid-crooke-iran-smashed-the-us-military-model-china-is-watching-2026-05-13.md): "the American way of war is as dead as the dodo"
+- [2026-05-13 Dialogue Works / Nima raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-13/transcript-alkorshid-crooke-iran-smashed-the-us-military-model-china-is-watching-2026-05-13.md): "the American way of war is as dead as the dodo"
 - same source: "It was conceived during the cold war against the Soviet Union. It was about outspending Russia"
-- [2026-05-20 Substack raw-input](../../../years/2026/provenance/2026-05-20/substack-crooke-paradoxically-fear-is-the-foundation-of-stability-deterrence-works-2026-05-20.md): "The implosion of the Soviet Union in 1991, however, tilted it back."
+- [2026-05-20 Substack raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-20/substack-crooke-paradoxically-fear-is-the-foundation-of-stability-deterrence-works-2026-05-20.md): "The implosion of the Soviet Union in 1991, however, tilted it back."
 
 ## What Crooke Is Arguing
 
@@ -45,7 +45,7 @@ Crooke keeps returning to historical mislearning as the hidden driver of present
 
 ## CIV-EMP Bridge
 
-Open [Cold War overmatch and war metamorphosis](../../../../academy/statecraft/civ-emp/indexes/crooke/cold-war-overmatch-and-war-metamorphosis.md) when the task is backward historical deepening into war-memory, procurement logic, and strategic inheritance.
+Open [Cold War overmatch and war metamorphosis](/C:/dev/strategy-codex/statecraft/civ-emp/indexes/crooke/cold-war-overmatch-and-war-metamorphosis.md) when the task is backward historical deepening into war-memory, procurement logic, and strategic inheritance.
 
 ## Benchmark Snapshot
 

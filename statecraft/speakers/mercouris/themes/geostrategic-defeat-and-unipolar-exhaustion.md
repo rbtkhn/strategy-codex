@@ -22,9 +22,9 @@ Mercouris repeatedly uses Vietnam, the end of the Cold War, and broader invasion
 
 ## Exact Quote Anchors
 
-- [2025-01-10 native raw-input](../../../years/2026/provenance/2025-01-10/youtube-alex-mercouris-putiin-trump-summit-coming-eu-frets-trump-will-cancel-sanctions-zelensky-2025-01-10.md): "a far bigger defeat potentially than the defeat that the United States experienced in Vietnam"
+- [2025-01-10 native raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2025-01-10/youtube-alex-mercouris-putiin-trump-summit-coming-eu-frets-trump-will-cancel-sanctions-zelensky-2025-01-10.md): "a far bigger defeat potentially than the defeat that the United States experienced in Vietnam"
 - same source: "reverses to a great extent the glow of victory that the United States gave itself at the end of the Cold War"
-- [2025-04-10 Daniel Davis raw-input](../../../years/2026/provenance/2025-04-10/youtube-daniel-davis-deep-dive-russian-realism-european-dreams-ukraine-defeat-2025-04-10.md): "they don't understand or at least they don't want to understand Russian history"
+- [2025-04-10 Daniel Davis raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-10/youtube-daniel-davis-deep-dive-russian-realism-european-dreams-ukraine-defeat-2025-04-10.md): "they don't understand or at least they don't want to understand Russian history"
 
 ## What Mercouris Is Arguing
 
@@ -45,7 +45,7 @@ Mercouris's stream-native shelf is built around continuity and outcome. Order ex
 
 ## CIV-EMP Bridge
 
-Open [Geostrategic defeat and unipolar exhaustion](../../../../academy/statecraft/civ-emp/indexes/mercouris/geostrategic-defeat-and-unipolar-exhaustion.md) when the task shifts from Mercouris's activation surface to deeper defeat-memory and order-transition retrieval.
+Open [Geostrategic defeat and unipolar exhaustion](/C:/dev/strategy-codex/statecraft/civ-emp/indexes/mercouris/geostrategic-defeat-and-unipolar-exhaustion.md) when the task shifts from Mercouris's activation surface to deeper defeat-memory and order-transition retrieval.
 
 ## Benchmark Snapshot
 

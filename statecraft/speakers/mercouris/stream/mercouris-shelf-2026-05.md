@@ -8,16 +8,16 @@ Month status: `mature dense-core month`
 
 ## May dense-core frontier index
 
-- [mercouris-page-2026-04-30-to-2026-05-02.md](mercouris-page-2026-04-30-to-2026-05-02.md)
+- [/C:/dev/strategy-codex/codex/speakers/mercouris/stream/mercouris-page-2026-04-30-to-2026-05-02.md](/C:/dev/strategy-codex/codex/speakers/mercouris/stream/mercouris-page-2026-04-30-to-2026-05-02.md)
   - Transition from warning and blockade rhetoric into coalition-stress sequencing across Gulf, EU, and Ukraine.
-- [mercouris-page-2026-05-04-to-2026-05-07.md](mercouris-page-2026-05-04-to-2026-05-07.md)
+- [/C:/dev/strategy-codex/codex/speakers/mercouris/stream/mercouris-page-2026-05-04-to-2026-05-07.md](/C:/dev/strategy-codex/codex/speakers/mercouris/stream/mercouris-page-2026-05-04-to-2026-05-07.md)
   - Failed-coercion cluster: Kremlin panic narratives, Hormuz rollback theater, and the gap between rhetoric and executable power.
-- [mercouris-page-2026-05-08-to-2026-05-12.md](mercouris-page-2026-05-08-to-2026-05-12.md)
+- [/C:/dev/strategy-codex/codex/speakers/mercouris/stream/mercouris-page-2026-05-08-to-2026-05-12.md](/C:/dev/strategy-codex/codex/speakers/mercouris/stream/mercouris-page-2026-05-08-to-2026-05-12.md)
   - Dense-core frontier: Victory Day deterrence, coalition brittleness, corruption signals, and command stress inside Kiev.
 
 ## Late-May reinforcement
 
-- [2026-05-24 Mercouris provenance capture](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-24/youtube-alex-mercouris-russian-massive-oreshnik-kiev-revenge-attack-stuns-ukraine-eu-zelensky-fears-russian-kiev-offensive-2026-05-24.md)
+- [2026-05-24 Mercouris provenance capture](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-24/youtube-alex-mercouris-russian-massive-oreshnik-kiev-revenge-attack-stuns-ukraine-eu-zelensky-fears-russian-kiev-offensive-2026-05-24.md)
   - Late-May frontier reinforcement: Starobelsk retaliation, large Kiev/Oreshnik strike, Bila Tserkva command-post speculation, Zelensky's fear of a renewed Kiev axis, and renewed Iran-negotiation pressure under U.S. neocon escalation talk.
 - [2026-05-27 Mercouris provenance capture](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-27/youtube-alex-mercouris-russia-plans-kiev-capture-prepares-next-strike-decision-centres-kiev-without-ad-zaporozhzhye-crisis-2026-05-27.md)
   - Late-May frontier reinforcement: embassy-withdrawal warning logic, the claim that Kiev's air-defense umbrella is now effectively hollow, Zaporizhzhia-line deterioration, and the argument that Russia is sequencing toward a sustained Kiev pressure campaign rather than a one-off revenge strike.
@@ -35,5 +35,5 @@ The newly restored `2026-05-24` Mercouris capture strengthens the late-May front
 ## Adjacent shelf
 
 - Previous month: [mercouris-shelf-2026-04.md](mercouris-shelf-2026-04.md)
-- Thread compatibility: [mercouris-thread.md](mercouris-thread.md)
-- Transcript compatibility: [mercouris-transcript.md](mercouris-transcript.md)
+- Thread compatibility: [/C:/dev/strategy-codex/codex/speakers/mercouris/stream/mercouris-thread.md](/C:/dev/strategy-codex/codex/speakers/mercouris/stream/mercouris-thread.md)
+- Transcript compatibility: [/C:/dev/strategy-codex/codex/speakers/mercouris/stream/mercouris-transcript.md](/C:/dev/strategy-codex/codex/speakers/mercouris/stream/mercouris-transcript.md)

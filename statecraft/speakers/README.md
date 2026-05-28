@@ -175,6 +175,36 @@ Current deliberate case:
 
 - `Mearsheimer` remains in `codex/speakers/` by doctrine, not backlog, as the main host-led mature-month exception shelf
 
+### 5. Starter exception shelves
+
+These are truthful doorway shelves that have enough density for routing and provenance support, but not yet enough maturity for a full canonical speaker grammar.
+
+For these shelves:
+
+- the README should say explicitly that the shelf is still a starter surface
+- routing and provenance are primary
+- absent arc, helix, or support-spine layers should not be faked for symmetry
+- promotion to a fuller shelf should be driven by real density, not classification pressure
+
+Current example:
+
+- [Hoh](hoh/README.md)
+
+### 6. Mirror-bearing exception shelves
+
+These are canonical speaker shelves whose primary structural role includes an embedded public mirror or corpus bench, so they should not be judged by ordinary month-ladder or ordinary speaker-link expectations alone.
+
+For these shelves:
+
+- the mirror or embedded corpus is part of the shelf's official opening grammar
+- shelf-level routing should distinguish mirror-facing entry from ordinary speaker continuity
+- generic shelf-health audits should carve the mirror out unless the task is specifically mirror integrity
+- month-ladder symmetry is not the right maturity test
+
+Current example:
+
+- [Jiang](jiang/README.md)
+
 ## Current constitutional choice
 
 The repo no longer assumes that every mature speaker must collapse into one monthly grammar.

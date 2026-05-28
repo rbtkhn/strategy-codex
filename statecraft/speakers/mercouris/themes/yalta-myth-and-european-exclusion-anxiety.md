@@ -22,7 +22,7 @@ Mercouris uses Yalta and Munich as conference-memory examples. They are not just
 
 ## Exact Quote Anchors
 
-- [2025-02-10 native raw-input](../../../years/2026/provenance/2025-02-10/youtube-alex-mercouris-trump-confirms-putin-call-putin-firm-4-regions-russian-ukraine-kursk-disaster-eu-gas-prices-surge-2025-02-10.md): "to understand how haunted the Europeans are about this all you need to do is to go back to the Yalta Conference"
+- [2025-02-10 native raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-10/youtube-alex-mercouris-trump-confirms-putin-call-putin-firm-4-regions-russian-ukraine-kursk-disaster-eu-gas-prices-surge-2025-02-10.md): "to understand how haunted the Europeans are about this all you need to do is to go back to the Yalta Conference"
 - same source: "the mythology that the leaders at Yalta actually divided Europe ... doesn't correspond to the actual record"
 - same source: "the Russians have bad memories about the Munich security conference"
 
@@ -45,7 +45,7 @@ Mercouris is highly attentive to diplomatic staging and to who is inside or outs
 
 ## CIV-EMP Bridge
 
-Open [Yalta myth and European exclusion anxiety](../../../../academy/statecraft/civ-emp/indexes/mercouris/yalta-myth-and-european-exclusion-anxiety.md) when the task shifts from Mercouris's activation surface to deeper conference-memory and exclusion-psychology retrieval.
+Open [Yalta myth and European exclusion anxiety](/C:/dev/strategy-codex/statecraft/civ-emp/indexes/mercouris/yalta-myth-and-european-exclusion-anxiety.md) when the task shifts from Mercouris's activation surface to deeper conference-memory and exclusion-psychology retrieval.
 
 ## Benchmark Snapshot
 

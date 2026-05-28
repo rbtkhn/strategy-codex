@@ -68,12 +68,7 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Dougl
 ## 2026-04
 
 - [transcript-macgregor-diesen-total-war-iran-2026-04-21](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-21/transcript-macgregor-diesen-total-war-iran-2026-04-21.md)
-- [2026-04-23-macgregor](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-23/2026-04-23-macgregor.md)
 - [transcript-napolitano-macgregor-pentagon-terrible-war-planning-2026-04-23](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-23/transcript-napolitano-macgregor-pentagon-terrible-war-planning-2026-04-23.md)
-- [2026-04-25-macgregor](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-25/2026-04-25-macgregor.md)
-- [2026-04-26-macgregor](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-26/2026-04-26-macgregor.md)
-- [2026-04-27-macgregor](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-27/2026-04-27-macgregor.md)
-- [2026-04-28-macgregor](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-28/2026-04-28-macgregor.md)
 - [youtube-davis-macgregor-trump-dangerous-2026-04-29](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-29/youtube-davis-macgregor-trump-dangerous-2026-04-29.md)
 
 ## 2026-05
