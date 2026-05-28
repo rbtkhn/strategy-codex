@@ -1,7 +1,7 @@
 ---
 name: statecraft-source-intake
 preferred_activation: statecraft source intake
-description: "Capture operator-supplied transcript-bearing source objects into the canonical statecraft source archive with the correct family pattern, truthful provenance, and no summary-or-stub drift."
+description: "Capture an operator-supplied transcript-bearing source object into the canonical statecraft source archive with the correct family pattern, truthful provenance, and no summary-or-stub drift. Use when the operator already has the transcript body or a transcript-bearing source object in hand and the main problem is archive family resolution and canonical filing. Do not use for direct YouTube metadata/caption fetch, month inventory work, or downstream synthesis."
 portable: true
 version: 0.1.7
 tags:
@@ -17,7 +17,7 @@ tags:
 
 Use this skill when the operator already has a transcript-bearing source object in hand, usually a pasted YouTube transcript, and wants it landed into the canonical statecraft source archive with the right family pattern.
 
-This skill is for **archive intake**, not for helix drafting, speaker synthesis, or transcript cleanup. Its job is to create the correct full-source object honestly and consistently.
+This skill is for **archive intake**, not for helix drafting, speaker synthesis, transcript cleanup, or broad month auditing. Its job is to create the correct full-source object honestly and consistently.
 
 ## Use this skill when
 

@@ -1,7 +1,7 @@
 ---
 name: statecraft-framework
 preferred_activation: statecraft-framework
-description: "Diagnose a live statecraft object through the Civilizational Statecraft Framework. Use when the operator wants to identify whether an object is governed by civilization, empire, faith, science, memory, or desire; name the governing pair, likely misread layer, likely failure layer, and route to the right downstream surface before drafting."
+description: "Diagnose a live statecraft object through the Civilizational Statecraft Framework before drafting. Use when the operator needs the governing pair named first: civilization/empire, faith/science, or memory/desire; then the dominant layer, likely outsider misread, likely failure layer, and the right downstream retrieval surface. Do not use for volume-front-door hardening, lane synthesis artifacts, or direct transaction drafting."
 portable: true
 version: 0.1.0
 tags:

@@ -1,7 +1,7 @@
 ---
 name: youtube-raw-input-transcript
 preferred_activation: youtube transcript
-description: "Extract YouTube metadata and captions, then materialize a canonical raw-input transcript with conservative provenance, speaker normalization, and date-safe frontmatter."
+description: "Extract metadata and captions for a specific YouTube episode, then materialize a canonical transcript-bearing raw-input file with conservative provenance, speaker normalization, and date-safe frontmatter. Use when the operator already has a specific watch URL or exact episode in hand and wants transcript materialization or re-materialization. Do not use for archive family resolution, month-slice inventory work, or post-capture cleanup passes."
 portable: true
 version: 0.1.2
 tags:

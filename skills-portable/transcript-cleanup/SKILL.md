@@ -1,7 +1,7 @@
 ---
 name: transcript-cleanup
 preferred_activation: transcript cleanup
-description: "Clean verified transcript-bearing raw-input into study-ready derivative transcripts with a visible cleaned-80 rubric, conservative proper-noun normalization, preserved source provenance, and cleanup receipts."
+description: "Clean an already-verified transcript-bearing raw-input into a study-ready derivative transcript with a visible cleaned-80 rubric, conservative proper-noun normalization, preserved source provenance, and cleanup receipts. Use after capture succeeds but subtitle noise still makes the text hard to study. Do not use for first-pass transcript materialization, archive family intake, or narrow proper-noun-only patching."
 portable: true
 version: 0.1.0
 tags:

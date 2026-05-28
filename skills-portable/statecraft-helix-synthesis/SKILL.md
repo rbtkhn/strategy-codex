@@ -1,6 +1,6 @@
 ---
 name: statecraft-helix-synthesis
-description: "Build helix-first repo-root statecraft synthesis and retrieval surfaces above mature lane objects. Use when the operator asks for canonical-family synthesis, problem-shape routing, meta-synthesis, settlement-room or escalation-governance comparison, or corpus-level orientation surfaces in statecraft/civ-state."
+description: "Build helix-first repo-root statecraft synthesis and retrieval surfaces above already-mature lane objects. Use when the operator asks for canonical-family synthesis, problem-shape routing, meta-synthesis, settlement-room or escalation-governance comparison, or corpus-level orientation surfaces in statecraft/civ-state. Do not use for first-wave lane construction, governing-pair diagnosis, or CIV-STATE front-door/volume hardening."
 portable: true
 version: 0.1.0
 tags:

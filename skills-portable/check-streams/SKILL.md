@@ -1,7 +1,7 @@
 ---
 name: check-streams
 preferred_activation: check streams
-description: "Check the daily tracked YouTube stream roster for Davis, Diesen, Alkorshid/Dialogue Works, Napolitano/Judging Freedom, and Mercouris: discover today's uploads with YouTube-first tooling, filter suspected clips, list main uploads first, materialize only the operator-approved subset into canonical raw-input, and suggest speaker-folder routing hints."
+description: "Check the daily tracked YouTube stream roster for Davis, Diesen, Alkorshid/Dialogue Works, Napolitano/Judging Freedom, and Mercouris. Use for daily or bounded roster discovery, operator selection, clip filtering, and handoff of approved watch URLs to transcript materialization. Do not use for one-off YouTube URL capture, archive family filing, or month-slice deepening unless the operator explicitly wants the roster layer first."
 portable: true
 version: 0.3.0
 tags:
