@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0-statecraft-day-dashboard",
-  "generatedAt": "2026-05-28T16:18:19.345499+00:00",
+  "generatedAt": "2026-05-28T18:10:13.481522+00:00",
   "root": "C:\\dev\\strategy-codex\\source-archive\\statecraft",
   "query": {
     "channels": [],
@@ -12,8 +12,8 @@
     "slug": "mercouris-thread"
   },
   "coverage": {
-    "dayCount": 222,
-    "sourceFileCount": 983,
+    "dayCount": 232,
+    "sourceFileCount": 997,
     "firstDay": "2025-01-03",
     "lastDay": "2026-05-27"
   },
@@ -78,28 +78,28 @@
         "sourceCount": 2
       },
       {
-        "date": "2025-05-10",
+        "date": "2025-04-04",
         "sourceCount": 2
       },
       {
-        "date": "2025-07-10",
+        "date": "2025-04-05",
         "sourceCount": 1
       },
       {
-        "date": "2025-08-07",
+        "date": "2025-04-06",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-04-07",
         "sourceCount": 2
       },
       {
-        "date": "2025-08-09",
+        "date": "2025-04-09",
         "sourceCount": 1
       },
       {
-        "date": "2025-08-12",
+        "date": "2025-04-11",
         "sourceCount": 1
-      },
-      {
-        "date": "2025-08-15",
-        "sourceCount": 2
       }
     ],
     "channels": [
@@ -125,7 +125,7 @@
       },
       {
         "name": "Alexander Mercouris",
-        "count": 42
+        "count": 52
       },
       {
         "name": "Judging Freedom",
@@ -263,7 +263,7 @@
     "hosts": [
       {
         "name": "Alexander Mercouris",
-        "count": 231
+        "count": 241
       },
       {
         "name": "Daniel Davis",
@@ -275,11 +275,11 @@
       },
       {
         "name": "Glenn Diesen",
-        "count": 80
+        "count": 83
       },
       {
         "name": "Andrew Napolitano",
-        "count": 64
+        "count": 65
       },
       {
         "name": "Diesen",
@@ -393,7 +393,7 @@
       },
       {
         "name": "Chas Freeman",
-        "count": 48
+        "count": 49
       },
       {
         "name": "Larry Johnson",
@@ -409,7 +409,7 @@
       },
       {
         "name": "Andrei Martyanov",
-        "count": 19
+        "count": 20
       },
       {
         "name": "Jacques Baud",
@@ -425,7 +425,7 @@
       },
       {
         "name": "Jeffrey Sachs",
-        "count": 14
+        "count": 15
       },
       {
         "name": "Alastair Crooke",
@@ -496,6 +496,10 @@
         "count": 4
       },
       {
+        "name": "Charles Freeman",
+        "count": 3
+      },
+      {
         "name": "Davis",
         "count": 3
       },
@@ -525,10 +529,6 @@
       },
       {
         "name": "Brian Berletic",
-        "count": 2
-      },
-      {
-        "name": "Charles Freeman",
         "count": 2
       },
       {
@@ -963,7 +963,7 @@
     "threads": [
       {
         "name": "mercouris",
-        "count": 244
+        "count": 254
       },
       {
         "name": "davis",
@@ -975,7 +975,7 @@
       },
       {
         "name": "diesen",
-        "count": 87
+        "count": 90
       },
       {
         "name": "simplicius",
@@ -995,7 +995,7 @@
       },
       {
         "name": "freeman",
-        "count": 25
+        "count": 26
       },
       {
         "name": "johnson",
@@ -1141,7 +1141,7 @@
     "fallbackFamilies": [
       {
         "name": "youtube-alex-mercouris-*",
-        "count": 207
+        "count": 216
       },
       {
         "name": "substack-*",
@@ -1332,42 +1332,42 @@
         "hasGuests": false
       },
       {
+        "date": "2025-04-05",
+        "hasHosts": true,
+        "hasGuests": false
+      },
+      {
+        "date": "2025-04-06",
+        "hasHosts": true,
+        "hasGuests": false
+      },
+      {
+        "date": "2025-04-09",
+        "hasHosts": true,
+        "hasGuests": false
+      },
+      {
+        "date": "2025-04-11",
+        "hasHosts": true,
+        "hasGuests": false
+      },
+      {
+        "date": "2025-04-12",
+        "hasHosts": true,
+        "hasGuests": false
+      },
+      {
+        "date": "2025-04-13",
+        "hasHosts": true,
+        "hasGuests": false
+      },
+      {
+        "date": "2025-04-14",
+        "hasHosts": true,
+        "hasGuests": false
+      },
+      {
         "date": "2025-07-10",
-        "hasHosts": true,
-        "hasGuests": false
-      },
-      {
-        "date": "2025-08-09",
-        "hasHosts": true,
-        "hasGuests": false
-      },
-      {
-        "date": "2025-08-12",
-        "hasHosts": true,
-        "hasGuests": false
-      },
-      {
-        "date": "2025-08-16",
-        "hasHosts": true,
-        "hasGuests": false
-      },
-      {
-        "date": "2025-08-17",
-        "hasHosts": true,
-        "hasGuests": false
-      },
-      {
-        "date": "2025-08-20",
-        "hasHosts": true,
-        "hasGuests": false
-      },
-      {
-        "date": "2025-11-27",
-        "hasHosts": true,
-        "hasGuests": false
-      },
-      {
-        "date": "2025-11-29",
         "hasHosts": true,
         "hasGuests": false
       }
@@ -3671,6 +3671,296 @@
       "readmeParseOk": true
     },
     {
+      "date": "2025-04-04",
+      "fileCount": 2,
+      "channels": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        },
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Chas Freeman",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "fallbackFamilies": [],
+      "fileNames": [
+        "youtube-alex-mercouris-kievs-toretsk-disaster-russias-advances-all-fronts-eu-panic-to-speak-to-putin-china-hits-back-2025-04-04.md",
+        "youtube-glenn-diesen-chas-freeman-diplomacy-at-an-impasse-trump-escalates-actions-against-russia-and-iran-2025-04-04.md"
+      ],
+      "hasReadme": true,
+      "readmeParseOk": true
+    },
+    {
+      "date": "2025-04-05",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "guests": [],
+      "threads": [
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "fallbackFamilies": [
+        {
+          "name": "youtube-alex-mercouris-*",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "youtube-alex-mercouris-us-neocons-sabotage-russia-talks-stop-putin-call-want-ultimatum-sanctions-huge-russian-build-up-2025-04-05.md"
+      ],
+      "hasReadme": true,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-04-06",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "guests": [],
+      "threads": [
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "fallbackFamilies": [
+        {
+          "name": "youtube-alex-mercouris-*",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "youtube-alex-mercouris-russia-offensive-starts-big-missile-strike-advances-eu-splits-starmer-deluded-macron-says-leads-2025-04-06.md"
+      ],
+      "hasReadme": true,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-04-07",
+      "fileCount": 2,
+      "channels": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        },
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "fallbackFamilies": [
+        {
+          "name": "youtube-alex-mercouris-*",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "transcript-diesen-sachs-chaos-and-restructuring-of-the-global-economy-2025-04-07.md",
+        "youtube-alex-mercouris-eu-chaos-on-tariffs-scared-leaders-ukraine-mania-no-plan-afd-surges-big-russian-breakthroughs-2025-04-07.md"
+      ],
+      "hasReadme": true,
+      "readmeParseOk": true
+    },
+    {
+      "date": "2025-04-08",
+      "fileCount": 3,
+      "channels": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        },
+        {
+          "name": "Andrew Napolitano",
+          "count": 1
+        },
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        },
+        {
+          "name": "Charles Freeman",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "freeman",
+          "count": 1
+        },
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "fallbackFamilies": [
+        {
+          "name": "youtube-alex-mercouris-*",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "transcript-napolitano-amb-charles-freeman-donald-and-bibi-need-a-war-2025-04-08.md",
+        "youtube-alex-mercouris-china-us-economic-war-beijing-defiant-kiev-troops-lose-retreat-all-fronts-us-pulls-out-of-key-base-2025-04-08.md",
+        "youtube-glenn-diesen-andrei-martyanov-the-war-is-over-and-russia-may-seize-odessa-2025-04-08.md"
+      ],
+      "hasReadme": true,
+      "readmeParseOk": true
+    },
+    {
+      "date": "2025-04-09",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "guests": [],
+      "threads": [
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "fallbackFamilies": [
+        {
+          "name": "youtube-alex-mercouris-*",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "youtube-alex-mercouris-china-hits-back-trump-wants-deal-tariffs-explode-russian-offensive-gains-speed-afd-overtakes-cdu-2025-04-09.md"
+      ],
+      "hasReadme": true,
+      "readmeParseOk": true
+    },
+    {
       "date": "2025-04-10",
       "fileCount": 4,
       "channels": [
@@ -3757,6 +4047,166 @@
       ],
       "hasReadme": true,
       "readmeParseOk": true
+    },
+    {
+      "date": "2025-04-11",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "guests": [],
+      "threads": [
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "fallbackFamilies": [
+        {
+          "name": "youtube-alex-mercouris-*",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "youtube-alex-mercouris-kiev-admits-short-of-troops-huge-russian-troops-firepower-superiority-starmers-coalition-implodes-2025-04-11.md"
+      ],
+      "hasReadme": true,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-04-12",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "guests": [],
+      "threads": [
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "fallbackFamilies": [
+        {
+          "name": "youtube-alex-mercouris-*",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "youtube-alex-mercouris-putin-no-to-us-ultimatum-on-ukraine-witkoff-us-must-accept-moscows-terms-kellogg-backs-starmer-2025-04-12.md"
+      ],
+      "hasReadme": true,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-04-13",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "guests": [],
+      "threads": [
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "fallbackFamilies": [
+        {
+          "name": "youtube-alex-mercouris-*",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "youtube-alex-mercouris-putin-takes-tough-line-on-ukraine-moscow-fears-us-china-war-offers-us-brics-deal-help-with-iran-2025-04-13.md"
+      ],
+      "hasReadme": true,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-04-14",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "guests": [],
+      "threads": [
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "fallbackFamilies": [
+        {
+          "name": "youtube-alex-mercouris-*",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "youtube-alex-mercouris-moscow-says-300-kiev-troops-trapped-in-church-more-russian-advances-us-china-standoff-grows-2025-04-14.md"
+      ],
+      "hasReadme": true,
+      "readmeParseOk": false
     },
     {
       "date": "2025-05-10",
