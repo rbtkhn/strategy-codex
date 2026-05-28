@@ -29,7 +29,7 @@ Return to [Iran helix](../helix.md) for the integrated line, to [Iran state](../
 
 Helix-first role: this folder now serves as the civilization-side strand bench beneath the primary [Iran helix](../helix.md). Use the helix for the integrated lane interpretation; use the notes here when the governing question has clearly narrowed to continuity memory, geography, war grammar, peace grammar, or later second-wave arc-lenses.
 
-Phase-one CIV-EMP opening: start with [state memory](objects/state-memory.md) when the live question is whether a proposal can carry Iranian sovereignty, dignity, deterrent continuity, and anti-humiliation competence as state memory rather than as temporary tactical survival.
+Phase-one CIV-STATE opening: start with [state memory](objects/state-memory.md) when the live question is whether a proposal can carry Iranian sovereignty, dignity, deterrent continuity, and anti-humiliation competence as state memory rather than as temporary tactical survival.
 
 ## Inherited Code
 

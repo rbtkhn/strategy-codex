@@ -54,7 +54,7 @@ Use Richelieu to test whether American policy has a durable institutional carrie
 
 America is now the first helix-first proving case. Start with [helix](helix.md) when the lane question has split across several notes and you need the governing line again. The helix is the primary authored interpretation; the first-wave objects below are the supporting strand surfaces.
 
-Phase-one CIV-EMP migration still matters underneath that cutover. The active America pilot pair remains [state memory](civilization/objects/state-memory.md) and the [America empire instrument](empire/seed-instruments.md), but they now function as strand inputs beneath the helix rather than as competing top-level openings.
+Phase-one CIV-STATE migration still matters underneath that cutover. The active America pilot pair remains [state memory](civilization/objects/state-memory.md) and the [America empire instrument](empire/seed-instruments.md), but they now function as strand inputs beneath the helix rather than as competing top-level openings.
 
 America's broader first-wave strand set is now usable as an ordered drafting surface beneath the helix:
 

@@ -29,7 +29,7 @@ Return to [Russia helix](../helix.md) when the integrated line needs restoration
 
 Helix-first role: this folder now serves as the civilization-side strand bench beneath the primary [Russia helix](../helix.md). Use the helix for the integrated lane interpretation; use the notes here when the governing question has clearly narrowed to continuity memory, geography, war grammar, peace grammar, or later second-wave arc-lenses.
 
-Phase-one CIV-EMP opening: start with [state memory](objects/state-memory.md) when the live question is whether a proposal can carry Russian continuity, recognition, and strategic depth as state memory rather than as a temporary leadership preference.
+Phase-one CIV-STATE opening: start with [state memory](objects/state-memory.md) when the live question is whether a proposal can carry Russian continuity, recognition, and strategic depth as state memory rather than as a temporary leadership preference.
 
 ## Inherited Code
 

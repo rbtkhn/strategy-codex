@@ -11,7 +11,7 @@ Every new or materially revised statecraft artifact should be classifiable by:
 - `lane`: `america`, `china`, `persia`, `russia`, `comparison`, `cross-lane`, or `shared`
 - `output_class`: `commentary`, `braid`, `lane-note`, `memo`, `objection-matrix`, `comparison`, `router-candidate`, `transaction-use-brief`, `lane-draft`, `full-transaction`, or `recursive-update-candidate`
 - `maturity`: `orientation`, `draftable`, `reusable`, or `review-only`
-- `source_family`: `civ-emp`, `speaker-state`, `verified-live-event`, `lane-local`, or `mixed`
+- `source_family`: `civ-state`, `speaker-state`, `verified-live-event`, `lane-local`, or `mixed`
 - `bridge_usage`: `none`, `marandi`, `parsi`, or `other-adapter`
 - `transaction_relevance`: `none`, `fit-check`, `existing-transaction`, or `new-candidate`
 

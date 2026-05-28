@@ -10,12 +10,12 @@ Statecraft is a drafting system. It converts historical pattern, contemporary sp
 
 The stable sequence is:
 
-1. `civ-emp` retrieval supplies recurrence, memory, counterweight, and transaction hook.
+1. `civ-state` retrieval supplies recurrence, memory, counterweight, and transaction hook.
 2. Speaker-state continuity surfaces may condition retrieval when the live object arrives through a speaker-state route.
 3. Lane routing identifies the correct owner or comparison frame.
 4. Lane doctrine converts the crisis into one actor's state interest, fear, leverage, constraints, and preferred instrument.
 5. Drafting method converts the object into a bounded artifact.
-6. Reviewable candidates feed durable discoveries back either to lane update surfaces or to the `civ-emp` review queue.
+6. Reviewable candidates feed durable discoveries back either to lane update surfaces or to the `civ-state` review queue.
 
 The stable lane sequence, once a lane is mature enough to deserve hardening, is:
 
@@ -35,7 +35,7 @@ Support material should strengthen that route, not compete with it.
 | [artifact-registry.md](artifact-registry.md) | metadata law | It gives new or touched outputs a canonical class and maturity shape. |
 | [hosts/README.md](hosts/README.md) | host-family continuity home | It keeps live host-law and guest-lane routing inside the repo-root statecraft system instead of retired codex host shelves. |
 | [speakers/README.md](speakers/README.md) | speaker-state continuity home | It keeps statecraft-relevant speaker-state surfaces inside the live system without collapsing them into bridge or lane authority. |
-| [civ-emp/review-queue.md](civ-emp/review-queue.md) | upstream learning loop | It governs source-memory feedback without silent mutation. |
+| [civ-state/review-queue.md](civ-state/review-queue.md) | upstream learning loop | It governs source-memory feedback without silent mutation. |
 
 ## Speaker-State Placement
 
@@ -43,9 +43,9 @@ Keep these layers distinct:
 
 - `statecraft/hosts/` = live host-family continuity, host-law, and guest-lane routing for migrated hosts
 - `statecraft/speakers/` = speaker-state continuity surfaces, month ladders, routing notes, thread atlases, and theme activators used by live statecraft work
-- `statecraft/bridges/` = retrieval adapters that regulate how speaker-state material conditions `civ-emp` retrieval
+- `statecraft/bridges/` = retrieval adapters that regulate how speaker-state material conditions `civ-state` retrieval
 - lane benches = substantive state interest, authority-carrier, and instrument drafting surfaces
-- `statecraft/civ-emp/` = retrieval memory and reviewable source-memory discipline
+- `statecraft/civ-state/` = retrieval memory and reviewable source-memory discipline
 
 Bridge adapters regulate retrieval use of speaker-state material. They do not replace the host-family or speaker-state continuity layers, and they do not become the canonical home of the speakers themselves.
 
@@ -58,7 +58,7 @@ Use these checks before calling a lane, sheet, or transaction mature:
 3. **Settlement clarity** - does it identify the real settlement spine rather than themes alone?
 4. **Revisit discipline** - does it include falsifiers, review triggers, or score-moving conditions?
 5. **Comparative usefulness** - can the object be compared across lanes or reused later?
-6. **Recursive usefulness** - does the work teach either the lane or `civ-emp` something durable?
+6. **Recursive usefulness** - does the work teach either the lane or `civ-state` something durable?
 
 For lane maturity specifically, use these additional checks:
 
@@ -105,7 +105,7 @@ If those conditions are missing, forcing a hardening layer is template theater.
 - mixed-home speaker drift
 - recursive fiction
 - cross-lane blur
-- source-memory bleed from live drafting back into `civ-emp`
+- source-memory bleed from live drafting back into `civ-state`
 - false maturity, where a lane's doctrine looks sharp but its proof inventory is still borrowed
 - bridge proliferation, where every interesting distinction becomes a bridge instead of only recurrent posture thresholds
 - support-ring creep, where strengthening material starts competing with the canonical route

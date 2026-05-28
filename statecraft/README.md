@@ -8,11 +8,11 @@ Open [statecraft.md](statecraft.md) first when you need the full continuity surf
 
 ## Constitutional Linkage
 
-`statecraft.md` governs how repo-root `statecraft/` may use `civ-emp`. `civ-emp` is the upstream source-memory substrate: it stores civilizational pattern, continuity, transformation, current carrier, failure mode, counterweight, and transaction hooks. `statecraft` is the downstream operating layer: it routes live objects, assigns lane ownership, selects output form, and converts remembered pattern into authority-, restraint-, and settlement-bearing drafts. `civ-emp` gives `statecraft` depth; `statecraft.md` prevents that depth from becoming inert memory or undisciplined analogy by enforcing a governed membrane. Downstream drafts may consume source memory, but upstream correction must return through explicit review rather than silent dual mutation.
+`statecraft.md` governs how repo-root `statecraft/` may use `civ-state`. `civ-state` is the upstream source-memory substrate: it stores civilizational pattern, continuity, transformation, current carrier, failure mode, counterweight, and transaction hooks. `statecraft` is the downstream operating layer: it routes live objects, assigns lane ownership, selects output form, and converts remembered pattern into authority-, restraint-, and settlement-bearing drafts. `civ-state` gives `statecraft` depth; `statecraft.md` prevents that depth from becoming inert memory or undisciplined analogy by enforcing a governed membrane. Downstream drafts may consume source memory, but upstream correction must return through explicit review rather than silent dual mutation.
 
 ```mermaid
 flowchart TD
-    A["Public / legacy source world<br/>PH-CIV, provenance, older CIV-MEM"] --> B["CIV-EMP<br/>source-memory substrate"]
+    A["Public / legacy source world<br/>PH-CIV, provenance, older CIV-MEM"] --> B["CIV-STATE<br/>source-memory substrate"]
     B --> C["statecraft.md<br/>constitutional kernel / membrane"]
     C --> D["Routing layer<br/>deploy, compact, bridge, lane"]
     D --> E["Lane surfaces<br/>America, China, Persia, Russia"]
@@ -20,7 +20,7 @@ flowchart TD
     F --> G["Transaction layer<br/>full reusable instruments"]
     G --> H["Validation / falsifier / revisit discipline"]
     H --> I["Governed learning"]
-    I --> J["CIV-EMP review queue<br/>explicit upstream candidate"]
+    I --> J["CIV-STATE review queue<br/>explicit upstream candidate"]
     J --> B
 
     B --> K["Retrieval matrix / doctrine<br/>source retrieval, six-part frame"]
@@ -81,7 +81,7 @@ When a live object clearly depends on deep historical periodization, use the pre
 - `Industrial` -> `1945`
 - `Cybernetic` -> `1945-present`
 
-This is a retrieval aid, not a mandatory first-router. Use it when order collapse, inherited period form, deterrence, computation, platform authority, signal management, or systems governance are doing real explanatory work. Canonical doctrine lives in [Civilization, Empire, Faith, Science, Memory, Desire](civ-emp/civilization-empire-faith-science-memory-desire.md) and the bounded operator pass lives in [Civilization, Empire, Faith, Science, Memory, Desire Retrieval Checklist](civ-emp/civilization-empire-faith-science-memory-desire-retrieval-checklist.md).
+This is a retrieval aid, not a mandatory first-router. Use it when order collapse, inherited period form, deterrence, computation, platform authority, signal management, or systems governance are doing real explanatory work. Canonical doctrine lives in [Civilization, Empire, Faith, Science, Memory, Desire](civ-state/civilization-empire-faith-science-memory-desire.md) and the bounded operator pass lives in [Civilization, Empire, Faith, Science, Memory, Desire Retrieval Checklist](civ-state/civilization-empire-faith-science-memory-desire-retrieval-checklist.md).
 
 Read the stack in this order:
 
@@ -100,7 +100,7 @@ Read the stack in this order:
 
 ## Compatibility
 
-The practical rule is simple: `civ-emp` remembers, `statecraft` drafts, and repo-root `statecraft/` is where those two layers now meet in the open.
+The practical rule is simple: `civ-state` remembers, `statecraft` drafts, and repo-root `statecraft/` is where those two layers now meet in the open.
 
 Archive law:
 

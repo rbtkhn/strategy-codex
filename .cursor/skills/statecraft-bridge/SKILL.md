@@ -1,14 +1,14 @@
 ---
 name: statecraft-bridge
 preferred_activation: statecraft-bridge
-description: "Bridge a live speaker claim into the correct Persia/Iran CIV-EMP retrieval profile. Use when the operator says statecraft-bridge, bridge a speaker claim, recognition-first vs settlement-first, or needs a Marandi-vs-Parsi retrieval choice before Persia/Iran statecraft drafting."
+description: "Bridge a live speaker claim into the correct Persia/Iran CIV-STATE retrieval profile. Use when the operator says statecraft-bridge, bridge a speaker claim, recognition-first vs settlement-first, or needs a Marandi-vs-Parsi retrieval choice before Persia/Iran statecraft drafting."
 ---
 
 # Statecraft Bridge
 
 `statecraft-bridge` is the post-lane bridge step for Persia/Iran speaker-state intake. It is a retrieval-conditioning surface, not an ownership surface. It is not a fifth lane, not a general coffee submenu, and not a substitute for `state-deploy` or `state-persia`.
 
-Use it when the object is already speaker-heavy and Persia/Iran-owned, but still needs the right `civ-emp` retrieval profile before lane-local drafting begins.
+Use it when the object is already speaker-heavy and Persia/Iran-owned, but still needs the right `civ-state` retrieval profile before lane-local drafting begins.
 
 Short doctrine:
 
@@ -49,10 +49,10 @@ Open sources in this order unless the request is already narrower:
 
 1. `statecraft/bridges/README.md`
 2. the relevant adapter:
-   - `statecraft/bridges/marandi-civ-emp-retrieval-adapter.md`
-   - `statecraft/bridges/parsi-civ-emp-retrieval-adapter.md`
+   - `statecraft/bridges/marandi-civ-state-retrieval-adapter.md`
+   - `statecraft/bridges/parsi-civ-state-retrieval-adapter.md`
 3. `statecraft/bridges/worked-examples.md` when the object is mixed, unfamiliar, or disputed
-4. the narrowest relevant `civ-emp` object
+4. the narrowest relevant `civ-state` object
 5. the named Iran-lane follow-on surfaces
 
 ## Workflow
@@ -63,7 +63,7 @@ Open sources in this order unless the request is already narrower:
 2. **Choose the adapter**
    - Marandi for recognition-first, legitimacy-first, sovereignty-pressure reads
    - Parsi for settlement-first, guarantee-first, architecture reads
-3. **Open the narrowest relevant `civ-emp` object first**
+3. **Open the narrowest relevant `civ-state` object first**
 4. **Translate into the Iran lane**
    - open only the surfaces named by the adapter
 5. **Force one counterweight check**

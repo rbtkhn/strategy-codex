@@ -49,7 +49,7 @@ Use Richelieu to test whether Russian policy has a durable institutional carrier
 
 Russia is now the second helix-first transfer case. Start with [helix](helix.md) when the lane question has split across several notes and you need the governing line again. The helix is the primary authored interpretation; the first-wave objects below are the supporting strand surfaces.
 
-Phase-one CIV-EMP migration still matters underneath that cutover. The active Russia pilot pair remains [Russia state memory](civilization/objects/state-memory.md) and [Russia empire instrument](empire/seed-instruments.md), but they now function as strand inputs beneath the helix rather than as competing top-level openings.
+Phase-one CIV-STATE migration still matters underneath that cutover. The active Russia pilot pair remains [Russia state memory](civilization/objects/state-memory.md) and [Russia empire instrument](empire/seed-instruments.md), but they now function as strand inputs beneath the helix rather than as competing top-level openings.
 
 Russia's broader first-wave strand set is now usable as an ordered drafting surface beneath the helix:
 

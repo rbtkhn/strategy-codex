@@ -53,7 +53,7 @@ Use Richelieu to test whether Iran's leverage is carried by durable institutions
 
 Persia is now the fourth helix-first transfer case. Start with [helix](helix.md) when the lane question has split across several notes and you need the governing line again. The helix is the primary authored interpretation; the first-wave objects below are the supporting strand surfaces.
 
-Phase-one CIV-EMP migration still matters underneath that cutover. The active Persia pilot pair remains [Persia state memory](civilization/objects/state-memory.md) and [Iran empire instrument](empire/seed-instruments.md), but they now function as strand inputs beneath the helix rather than as competing top-level openings.
+Phase-one CIV-STATE migration still matters underneath that cutover. The active Persia pilot pair remains [Persia state memory](civilization/objects/state-memory.md) and [Iran empire instrument](empire/seed-instruments.md), but they now function as strand inputs beneath the helix rather than as competing top-level openings.
 
 Persia's broader first-wave strand set is now usable as an ordered drafting surface beneath the helix:
 
@@ -79,12 +79,12 @@ Inside that state bench, use the [authority structure](state/authority-structure
 
 Open Pape for the fourth-center thesis and shortage clocks, Parsi / Marandi for Iranian bargaining logic, Crooke for Western misreading, and Ritter for regime-change skepticism and military risk. Convert these into recognition, deterrence, and off-ramp language.
 
-For `civ-emp` retrieval conditioned by speaker logic rather than by lane-first drafting alone, use the quiet bridge pair:
+For `civ-state` retrieval conditioned by speaker logic rather than by lane-first drafting alone, use the quiet bridge pair:
 
 - `statecraft-bridge` when you want the operator-facing post-lane bridge step rather than direct adapter selection
 - [Persia recognition-vs-settlement bridge](../bridges/persia-recognition-vs-settlement-bridge.md) when the real uncertainty is still retrieval posture rather than clause design
-- [Marandi CIV-EMP retrieval adapter](../bridges/marandi-civ-emp-retrieval-adapter.md) for recognition-first, legitimacy-first, and sovereignty-pressure reads
-- [Parsi CIV-EMP retrieval adapter](../bridges/parsi-civ-emp-retrieval-adapter.md) for settlement-first, guarantee-first, and architecture reads
+- [Marandi CIV-STATE retrieval adapter](../bridges/marandi-civ-state-retrieval-adapter.md) for recognition-first, legitimacy-first, and sovereignty-pressure reads
+- [Parsi CIV-STATE retrieval adapter](../bridges/parsi-civ-state-retrieval-adapter.md) for settlement-first, guarantee-first, and architecture reads
 
 ## Preferred Instruments
 

@@ -6,7 +6,7 @@ This file is the **human-AI cognitive continuity interface** for repo-root `stat
 
 Statecraft exists to convert strategic, historical, civilizational, and speaker-state input into bounded operational artifacts that can carry authority, restraint, and settlement.
 
-`statecraft.md` is the constitutional kernel that governs how repo-root `statecraft/` may use `civ-emp`. `civ-emp` is the upstream source-memory substrate: it stores civilizational pattern, continuity, transformation, current carrier, failure mode, counterweight, and transaction hooks. `statecraft` is the downstream operating layer: it routes live objects, assigns lane ownership, selects output form, and converts remembered pattern into authority-, restraint-, and settlement-bearing drafts. The linkage is therefore neither ornamental nor merely bibliographic. `civ-emp` gives `statecraft` depth; this kernel prevents that depth from becoming inert memory or undisciplined analogy by enforcing a governed membrane: downstream drafts may consume source memory, but upstream correction must return through explicit review rather than silent dual mutation.
+`statecraft.md` is the constitutional kernel that governs how repo-root `statecraft/` may use `civ-state`. `civ-state` is the upstream source-memory substrate: it stores civilizational pattern, continuity, transformation, current carrier, failure mode, counterweight, and transaction hooks. `statecraft` is the downstream operating layer: it routes live objects, assigns lane ownership, selects output form, and converts remembered pattern into authority-, restraint-, and settlement-bearing drafts. The linkage is therefore neither ornamental nor merely bibliographic. `civ-state` gives `statecraft` depth; this kernel prevents that depth from becoming inert memory or undisciplined analogy by enforcing a governed membrane: downstream drafts may consume source memory, but upstream correction must return through explicit review rather than silent dual mutation.
 
 It is not:
 
@@ -20,7 +20,7 @@ It is not:
 
 Restore these invariants first:
 
-- `civ-emp remembers -> statecraft drafts`
+- `civ-state remembers -> statecraft drafts`
 - `source-archive remembers source text -> statecraft classifies and drafts`
 - `pattern / narrative -> authority / restraint / settlement`
 - lane orthogonality matters more than elegant synthesis
@@ -53,7 +53,7 @@ Reopen with these questions:
 2. Which constitutional layer owns the next move?
 3. Which lane owns the settlement logic if ownership is already clear?
 4. What is the narrowest honest output form?
-5. What belongs downstream in statecraft, and what belongs back upstream to `civ-emp`?
+5. What belongs downstream in statecraft, and what belongs back upstream to `civ-state`?
 
 On first contact, force these calls early:
 
@@ -127,7 +127,7 @@ Statecraft begins when pattern, memory, and pressure stop being only interpretat
 The machine works only if a few distinctions stay alive:
 
 - **source memory vs drafting**
-  - `civ-emp` stores recurrence, memory, counterweight, and retrieval depth
+  - `civ-state` stores recurrence, memory, counterweight, and retrieval depth
   - `statecraft` converts that memory into bounded operational judgment
 - **braid vs helix**
   - `braid` keeps a live coupled object together long enough to draft it honestly
@@ -164,7 +164,7 @@ At the current frontier, each mature lane should also keep:
 
 ## Core Ontology
 
-- **source base**: `civ-emp` as the upstream source-memory and retrieval substrate
+- **source base**: `civ-state` as the upstream source-memory and retrieval substrate
 - **lane**: America, China, Persia, Russia as state-perspective drafting benches
 - **speaker-state intake**: speaker arcs, thread atlases, host-local arcs, routing notes, and bridge adapters as governed input classes
 - **crisis object**: the contested object whose classification drives leverage, escalation, or settlement
@@ -228,11 +228,11 @@ If those are missing, the lane is not yet ready for full hardening.
 6. the transaction router answers `does this belong to an existing transaction plateau object?`
 7. review queues and pending files capture learning without silent rewrite
 
-## CIV-EMP Protocol
+## CIV-STATE Protocol
 
 ```mermaid
 flowchart TD
-    A["Public / legacy source world<br/>PH-CIV, provenance, older CIV-MEM"] --> B["CIV-EMP<br/>source-memory substrate"]
+    A["Public / legacy source world<br/>PH-CIV, provenance, older CIV-MEM"] --> B["CIV-STATE<br/>source-memory substrate"]
     B --> C["statecraft.md<br/>constitutional kernel / membrane"]
     C --> D["Routing layer<br/>deploy, compact, bridge, lane"]
     D --> E["Lane surfaces<br/>America, China, Persia, Russia"]
@@ -240,14 +240,14 @@ flowchart TD
     F --> G["Transaction layer<br/>full reusable instruments"]
     G --> H["Validation / falsifier / revisit discipline"]
     H --> I["Governed learning"]
-    I --> J["CIV-EMP review queue<br/>explicit upstream candidate"]
+    I --> J["CIV-STATE review queue<br/>explicit upstream candidate"]
     J --> B
 
     B --> K["Retrieval matrix / doctrine<br/>source retrieval, six-part frame"]
     K --> C
 ```
 
-Downstream from `civ-emp` into statecraft:
+Downstream from `civ-state` into statecraft:
 
 - source pattern
 - origin / continuity / transformation
@@ -257,7 +257,7 @@ Downstream from `civ-emp` into statecraft:
 - transaction hooks
 - stabilized retrieval logic
 
-Upstream from statecraft back into `civ-emp`, only as reviewable candidates:
+Upstream from statecraft back into `civ-state`, only as reviewable candidates:
 
 - source-pattern correction
 - retrieval-logic refinement
@@ -268,7 +268,7 @@ Upstream from statecraft back into `civ-emp`, only as reviewable candidates:
 
 Transport rule:
 
-- use [civ-emp/review-queue.md](civ-emp/review-queue.md)
+- use [civ-state/review-queue.md](civ-state/review-queue.md)
 - do not silently patch both layers from one live drafting pass
 
 ## Speaker-Arc Input Protocol
@@ -304,7 +304,7 @@ Speaker arcs may feed:
 Speaker arcs may not:
 
 - own lane judgment
-- substitute for `civ-emp`
+- substitute for `civ-state`
 - become transaction authority by proximity
 - silently define a lane's state interest
 - bypass deployer / lane / bridge precedence
@@ -362,7 +362,7 @@ That use-pattern is now part of the machine's real operating truth, even when a 
 - [METHOD.md](METHOD.md) owns drafting procedure only.
 - [ARCHITECTURE.md](ARCHITECTURE.md) owns maturity, anti-sprawl, and lifecycle governance only.
 - [artifact-registry.md](artifact-registry.md) owns the minimal metadata law for output classification.
-- [civ-emp/review-queue.md](civ-emp/review-queue.md) owns the upstream source-candidate staging surface.
+- [civ-state/review-queue.md](civ-state/review-queue.md) owns the upstream source-candidate staging surface.
 
 ## Compatibility
 

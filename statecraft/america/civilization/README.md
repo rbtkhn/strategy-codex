@@ -68,7 +68,7 @@ Use the [present-day arc extension matrix](../../sheets/present-day-arc-extensio
 
 For America-specific empire / republic analysis, use the [America empire-republic arc](../../sheets/america-empire-republic-arc.md) to distinguish imperial-provincial inheritance, revolutionary-republic, constitutional-union, continental-expansion, maritime-commercial order, emergency-empire, and platform-sovereignty before turning lawful reach, sanctions, alliances, technology, extraction, suppression, or successor legitimacy into clause language.
 
-Use [civilization objects](objects/) for long-pattern authority surfaces such as [state memory](objects/state-memory.md). In the phase-one symmetric CIV-EMP migration, state memory is the preferred America civilization-side opening and is paired directly with the [America empire instrument](../empire/seed-instruments.md), but it now operates as a supporting strand input beneath the [America helix](../helix.md).
+Use [civilization objects](objects/) for long-pattern authority surfaces such as [state memory](objects/state-memory.md). In the phase-one symmetric CIV-STATE migration, state memory is the preferred America civilization-side opening and is paired directly with the [America empire instrument](../empire/seed-instruments.md), but it now operates as a supporting strand input beneath the [America helix](../helix.md).
 
 ## First-Wave Openings
 

@@ -163,10 +163,10 @@ skills:
     verify_forbidden_substrings:
       - users/grace-mar/
       - process_approved_candidates
-  - name: civ-emp-volume-harden
-    source: civ-emp-volume-harden/SKILL.md
-    appendix: .cursor/skills/civ-emp-volume-harden/CURSOR_APPENDIX.md
-    target: .cursor/skills/civ-emp-volume-harden/SKILL.md
+  - name: civ-state-volume-harden
+    source: civ-state-volume-harden/SKILL.md
+    appendix: .cursor/skills/civ-state-volume-harden/CURSOR_APPENDIX.md
+    target: .cursor/skills/civ-state-volume-harden/SKILL.md
     verify_forbidden_substrings:
       - users/grace-mar/
       - process_approved_candidates

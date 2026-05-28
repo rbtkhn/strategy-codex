@@ -36,8 +36,8 @@ These surfaces sharpen the helix when the governing question has clearly narrowe
 
 ### Bridge-strengthening support
 
-- [Marandi CIV-EMP retrieval adapter](../bridges/marandi-civ-emp-retrieval-adapter.md)
-- [Parsi CIV-EMP retrieval adapter](../bridges/parsi-civ-emp-retrieval-adapter.md)
+- [Marandi CIV-STATE retrieval adapter](../bridges/marandi-civ-state-retrieval-adapter.md)
+- [Parsi CIV-STATE retrieval adapter](../bridges/parsi-civ-state-retrieval-adapter.md)
 - [Persia recognition-vs-settlement bridge](../bridges/persia-recognition-vs-settlement-bridge.md)
 
 These surfaces strengthen the route only when the real uncertainty is still retrieval posture rather than lane ownership or clause design.

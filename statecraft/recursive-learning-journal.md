@@ -188,7 +188,7 @@ Examples already in play:
 
 Potential statecraft reuse:
 
-- `civ-emp -> statecraft`
+- `civ-state -> statecraft`
 - speaker shelf -> lane draft
 - lane note -> transaction
 - audit -> routing consequence

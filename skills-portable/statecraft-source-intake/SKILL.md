@@ -37,7 +37,7 @@ This skill is for **archive intake**, not for helix drafting, speaker synthesis,
 
 - `source-archive` holds the full source object
 - `civilization_memory` is the evidence layer for longer civilizational/source-memory arguments
-- `civ-emp` is the operator-facing source base for statecraft interpretation
+- `civ-state` is the operator-facing source base for statecraft interpretation
 - lane and transaction surfaces are the downstream drafting layer
 - `statecraft/` holds routing, continuity, synthesis, drafting, and control
 - this workflow must not leak summaries, stubs, or control notes into the archive
@@ -46,11 +46,11 @@ This skill is for **archive intake**, not for helix drafting, speaker synthesis,
 
 This skill is for archive intake only.
 
-- It does **not** draft CIV-EMP doctrine.
+- It does **not** draft CIV-STATE doctrine.
 - It does **not** let source-archive captures silently become operator truth.
 - It does **not** collapse archive intake into lane synthesis or civilization-state argument.
 
-If the operator's next move is interpretation, route from the landed archive object into `civ-emp` or the relevant lane-local surfaces rather than continuing to treat the archive file as the working doctrine surface.
+If the operator's next move is interpretation, route from the landed archive object into `civ-state` or the relevant lane-local surfaces rather than continuing to treat the archive file as the working doctrine surface.
 
 ## Workflow
 
