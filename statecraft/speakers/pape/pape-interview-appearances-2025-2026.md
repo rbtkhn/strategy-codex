@@ -18,11 +18,12 @@ Purpose: route Pape's host appearances by function and show how they reinforce, 
 |---|---|---|---|
 | 2026-04-20 | The Collapse Is Now Ahead of Schedule | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-20/redacted-pape-collapse-ahead-of-schedule-2026-04-20.md) | shortage clock and contraction compression |
 
-### Breaking Points / Ryan Grim
+### Breaking Points
 
 | date | title | raw-input | function |
 |---|---|---|---|
 | 2026-04-29 | Why a Nuclear Iran Is Inevitable | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-29/youtube-pape-grim-nuclear-iran-inevitable-2026-04-29.md) | fourth-center thesis and U.S. loss of control |
+| 2026-05-27 | Prof Pape: Iran IN DRIVERS SEAT As SHOCKING Deal Emerges | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-27/youtube-pape-breaking-points-iran-drivers-seat-shocking-deal-emerges-2026-05-27.md) | oil-price negotiation compression, escalation-trap politics, and public deal framing |
 
 ### Mario Nawfal
 
@@ -37,7 +38,7 @@ Purpose: route Pape's host appearances by function and show how they reinforce, 
 |---|---|---|
 | [Davis](/C:/dev/strategy-codex/statecraft/hosts/davis/README.md) | strategic substance and military feasibility | test escalation trap, ground thresholds, and the gap between victory narrative and escalation reality |
 | Redacted | public macro shock translation | translate shortage clocks and contraction mechanisms into consumer-facing energy and commodity stress |
-| Breaking Points / Ryan Grim | political-system and fourth-center framing | draw out U.S. loss of control, Gulf fragmentation, and Iran as a coercive center |
+| Breaking Points | political-system framing and public negotiation translation | draw out U.S. loss of control, fourth-center stakes, and public-facing deal compression |
 | Mario Nawfal | fast public forecast compression | compress warning signs, Trump options, and near-term escalation branches |
 
 ## Boundary
