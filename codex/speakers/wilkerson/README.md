@@ -12,12 +12,30 @@ Open here first when the question is not merely "what did Wilkerson say," but **
 - [wilkerson-routing.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-routing.md)
 - [wilkerson-surface-orthogonality-2026-05.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-surface-orthogonality-2026-05.md)
 
+Use them in this order by question:
+
+- `who is Wilkerson as a cross-host object?`
+  - open [wilkerson-arc.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-arc.md)
+- `which host lane should carry this Wilkerson reading first?`
+  - open [wilkerson-routing.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-routing.md)
+- `why is this shelf structured as a double helix plus auxiliary reinforcement?`
+  - open [wilkerson-surface-orthogonality-2026-05.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-surface-orthogonality-2026-05.md)
+
 ## Structural notes
 
 - [wilkerson-helix.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-helix.md)
 - [wilkerson-cross-year-note.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-cross-year-note.md)
 - [wilkerson-january-2025-note.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-january-2025-note.md)
 - [wilkerson-february-2025-note.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-february-2025-note.md)
+- [wilkerson-march-2025-note.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-march-2025-note.md)
+- [wilkerson-april-2025-note.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-april-2025-note.md)
+- [wilkerson-may-2025-note.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-may-2025-note.md)
+
+Month-note rule:
+
+- these notes are bounded support surfaces, not a native Wilkerson-owned chronology
+- host shelves still own chronology first
+- the speaker shelf uses month notes only where cross-host retrieval needs extra bounded support
 
 ## Compatibility shape
 
@@ -30,6 +48,16 @@ This shelf already has a genuine canonical structure:
 - [wilkerson-cross-year-note.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-cross-year-note.md) preserves the longitudinal maturity claim
 
 The shelf is therefore a **durable double helix rather than profile-first**. Do not reduce Wilkerson to any one host lane when the question is really about how the same voice changes across hosts, but do not overread the auxiliary Napolitano branch as proof of a stable triple helix.
+
+Short rule:
+
+`arc = person continuity`
+
+`routing = fastest host choice`
+
+`helix = compare the main host pair`
+
+`month notes = bounded support, not chronology ownership`
 
 ## Host lanes
 

@@ -16,6 +16,7 @@ Quick separation rule:
 - [wilkerson-helix.md](wilkerson-helix.md) = cross-host comparison of the two main host transformations
 - [wilkerson-routing.md](wilkerson-routing.md) = fastest host-selection surface
 - host-local arcs = bounded realizations of Wilkerson under one host's pressure
+- month notes = bounded support surfaces used only when cross-host retrieval needs more help than host chronology alone
 
 ## Arc shape
 
@@ -47,7 +48,11 @@ The early-2025 portion is not abstract. January 2025 already gives the Dialogue 
 
 February 2025 then shows the next important step without needing a dense month: the shelf is already beginning to separate into a live-pressure `Dialogue Works` form and a higher-altitude `Diesen` form. See [wilkerson-february-2025-note.md](wilkerson-february-2025-note.md).
 
+March 2025 is currently best read as an unresolved corridor month rather than a settled cluster: the shelf points to a recovery gap between the early split and the thicker spring continuation. See [wilkerson-march-2025-note.md](wilkerson-march-2025-note.md).
+
 That motion is broad enough that Wilkerson now deserves a person arc, even though the comparison object remains a double helix rather than a triple one.
+
+This does **not** mean Wilkerson owns a native chronology ladder. The person arc owns cross-host continuity; the host shelves still own chronology unless a bounded support note is needed to keep the speaker-wide progression readable.
 
 ## Host-local branches
 
@@ -82,4 +87,5 @@ If the operator needs the cleanest structural anchor:
 - Do not treat `wilkerson-arc` as a substitute for the helix; the helix still owns host-transformation comparison.
 - Do not quietly promote auxiliary reinforcement into a third canonical strand unless it thickens materially.
 - Do not let either Diesen or Dialogue Works stand in for the whole Wilkerson continuity.
+- Do not mistake the existence of month notes for a speaker-owned chronology spine.
 - Open raw-input before quoting or making claim-grade factual use.

@@ -170,6 +170,8 @@ Each CIV-STATE source object should be short and usable. It should include:
 ## Indexes
 
 - [Volume map](volumes/README.md) - preferred civilization-first opening order for CIV-STATE.
+- [PH-CIV to CIV-STATE bridge](ph-civ-to-civ-state-bridge.md) - explicit method note for converting public Predictive History pattern into compact civilization-state source memory without collapsing the two layers.
+- [PH-CIV promotion ledger](ph-civ-promotion-ledger.md) - compact intake surface for deciding when a public `ph-civ` insight deserves promotion into `civ-state` before any upstream mutation is staged.
 - [Sovereign continuity of the CIV-states](sovereign-continuity-of-the-civ-states.md) - compact comparative note on how the five cases carry continuity-bearing sovereignty through rupture.
 - [Current sovereign heads of the CIV-states](current-sovereign-heads-of-the-civ-states.md) - present-tense capstone note showing how each volume reaches the current world through a live sovereign apex.
 - [Sacred Grammar Library](sacred-grammar/README.md) - canonical deep-grammar retrieval shelf beneath the volume opener doctrine.
@@ -183,6 +185,29 @@ Each CIV-STATE source object should be short and usable. It should include:
 - [Civilization, Empire, Faith, Science, Memory, Desire Retrieval Checklist](civilization-empire-faith-science-memory-desire-retrieval-checklist.md) - bounded operator pass for deciding which layer or pair actually governs a live object before lane translation or clause drafting.
 - [Power, Truth, Time](power-truth-time-annex.md) - superseded active shorthand retained only as historical residue and genealogy.
 - [Power, Truth, Time Retrieval Checklist](power-truth-time-retrieval-checklist.md) - superseded checklist retained only as historical residue.
+
+## Open By Question
+
+Use the front door that matches the actual operator question:
+
+- `which civilization-state volume should I open first?`
+  - open [Volume map](volumes/README.md)
+- `which governing pair is really carrying this live object?`
+  - open [Civilizational Statecraft Framework](civilization-empire-faith-science-memory-desire.md)
+- `which deep legitimacy grammar is load-bearing here?`
+  - open [Sacred Grammar Library](sacred-grammar/README.md)
+- `should this public Predictive History insight be promoted into CIV-STATE?`
+  - open [PH-CIV promotion ledger](ph-civ-promotion-ledger.md)
+- `how do I translate PH-CIV source pattern into CIV-STATE working doctrine?`
+  - open [PH-CIV to CIV-STATE bridge](ph-civ-to-civ-state-bridge.md)
+
+Short rule:
+
+`volume map = civilization-first entry`
+
+`framework = governing-pair diagnosis`
+
+`bridge / promotion ledger = intake and translation, not the main front door`
 
 The preferred era spine for these orientation surfaces is `Ancient / Medieval / Colonial / Industrial / Cybernetic`, with boundaries at `476 / 1453 / 1815 / 1945`. `Cybernetic` is preferred over `Digital` because the post-1945 order is organized by deterrence, computation, control systems, signal, and managed interdependence rather than by consumer technology alone.
 

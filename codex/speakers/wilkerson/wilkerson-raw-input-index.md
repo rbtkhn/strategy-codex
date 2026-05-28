@@ -4,6 +4,16 @@ WORK only; not Record.
 
 Purpose: exhaustive route map for every resolved `raw-input` appearance of Lawrence / Larry Wilkerson currently materialized in this repo, including direct host captures, cross-host transcripts, mixed-guest files, cleaned duplicates, and raw-input discovery surfaces that explicitly bear his appearance.
 
+Use this file for provenance coverage questions, not as the first-open shelf explanation.
+
+Short rule:
+
+`raw-input index = exhaustive appearance bench`
+
+`routing note = fastest host choice`
+
+`arc = cross-host speaker continuity`
+
 ## 2025-01
 
 - [transcript-dialogue-works-yemen-s-hypersonic-strike-stuns-israel-as-iran-regroups-col-larry-wilker-2025-01-04](/C:/dev/strategy-codex/source-archive/statecraft/2025-01-04/transcript-dialogue-works-yemen-s-hypersonic-strike-stuns-israel-as-iran-regroups-col-larry-wilker-2025-01-04.md)
@@ -13,15 +23,22 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Lawre
 
 ## 2025-02
 
+- [transcript-dialogue-works-trumps-weakness-spells-disaster-col-larry-wilkerson-scott-ritter-2025-02-02](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-02/transcript-dialogue-works-trumps-weakness-spells-disaster-col-larry-wilkerson-scott-ritter-2025-02-02.md)
+- [transcript-neutrality-studies-ex-state-dept-chief-reveals-hidden-war-making-process-col-lawrence-wilkerson-2025-02-06](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-06/transcript-neutrality-studies-ex-state-dept-chief-reveals-hidden-war-making-process-col-lawrence-wilkerson-2025-02-06.md)
 - [youtube-glenn-diesen-lawrence-wilkerson-colonel-lawrence-wilkerson-trump-s-actions-could-ignite-a-regional-conflict-in-the-middle-east-2025-02-15](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-15/youtube-glenn-diesen-lawrence-wilkerson-colonel-lawrence-wilkerson-trump-s-actions-could-ignite-a-regional-conflict-in-the-middle-east-2025-02-15.md)
 
 ## 2025-04
 
-- [youtube-glenn-diesen-lawrence-wilkerson-col-lawrence-wilkerson-washington-s-rivalries-coups-wars-cover-ups-2025-04-27](../../years/2026/provenance/2025-04-27/youtube-glenn-diesen-lawrence-wilkerson-col-lawrence-wilkerson-washington-s-rivalries-coups-wars-cover-ups-2025-04-27.md)
+- [transcript-napolitano-wilkerson-trump-delusional-over-tariffs-and-iran-2025-04-03](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-03/transcript-napolitano-wilkerson-trump-delusional-over-tariffs-and-iran-2025-04-03.md)
+- [transcript-dialogue-works-mohammad-marandi-larry-wilkerson-and-chas-freeman-on-middle-east-erupts-iran-challenges-ultimatum-2025-04-04](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-04/transcript-dialogue-works-mohammad-marandi-larry-wilkerson-and-chas-freeman-on-middle-east-erupts-iran-challenges-ultimatum-2025-04-04.md)
+- [transcript-napolitano-wilkerson-will-trump-deport-americans-2025-04-10](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-10/transcript-napolitano-wilkerson-will-trump-deport-americans-2025-04-10.md)
+- [transcript-napolitano-wilkerson-are-neocons-ascendant-2025-04-17](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-17/transcript-napolitano-wilkerson-are-neocons-ascendant-2025-04-17.md)
+- [transcript-dialogue-works-mohammad-marandi-larry-wilkerson-and-chas-freeman-talks-or-total-war-clock-ticks-for-iran-and-u-s-2025-04-18](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-18/transcript-dialogue-works-mohammad-marandi-larry-wilkerson-and-chas-freeman-talks-or-total-war-clock-ticks-for-iran-and-u-s-2025-04-18.md)
+- [youtube-glenn-diesen-lawrence-wilkerson-col-lawrence-wilkerson-washington-s-rivalries-coups-wars-cover-ups-2025-04-27](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-27/youtube-glenn-diesen-lawrence-wilkerson-col-lawrence-wilkerson-washington-s-rivalries-coups-wars-cover-ups-2025-04-27.md)
 
 ## 2025-05
 
-- [transcript-dialogue-works-lawrence-wilkerson-larry-wilkerson-chas-freeman-why-america-s-missing-grand-strategy-could-be-a-global-disaster-2025-05-30](../../years/2026/provenance/2025-05-30/transcript-dialogue-works-lawrence-wilkerson-larry-wilkerson-chas-freeman-why-america-s-missing-grand-strategy-could-be-a-global-disaster-2025-05-30.md)
+- [transcript-dialogue-works-lawrence-wilkerson-larry-wilkerson-chas-freeman-why-america-s-missing-grand-strategy-could-be-a-global-disaster-2025-05-30](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-30/transcript-dialogue-works-lawrence-wilkerson-larry-wilkerson-chas-freeman-why-america-s-missing-grand-strategy-could-be-a-global-disaster-2025-05-30.md)
 
 ## 2025-06
 
@@ -108,3 +125,4 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Lawre
 - The major live host transformations are Dialogue Works, Diesen, and Judging Freedom, but the raw-input ledger also includes mixed-guest and crossover captures where Wilkerson is explicitly part of the title-level appearance.
 - The `2026-01-02.cleaned` file remains listed because it is a distinct raw-input surface on disk, even though the uncleaned file remains the primary capture.
 - Discovery surfaces are included because they explicitly list Wilkerson appearances inside `raw-input`, but they do not replace transcript-grade or video-title-grade captures.
+- Month-note support should be inferred from the speaker front door, not from the mere presence of dense months in this bench.
