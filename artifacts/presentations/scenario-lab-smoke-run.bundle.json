@@ -63,7 +63,7 @@
       "kind": "section",
       "public": false,
       "source_path": "artifacts/simulations/smoke-run/report.json",
-      "text": "Assumptions\n- Neighbor checkout is configured locally before external runs\n\nEvidence\n- codex/academy/singularity/workshop/sheets/agent-control-plane.md\n- codex/academy/singularity/workshop/sheets/sovereignty-under-acceleration.md",
+      "text": "Assumptions\n- Neighbor checkout is configured locally before external runs\n\nEvidence\n- singularity/workshop/sheets/agent-control-plane.md\n- singularity/workshop/sheets/sovereignty-under-acceleration.md",
       "title": "Assumptions vs evidence"
     }
   ],

@@ -1,8 +1,8 @@
 {
   "format": "strategy-codex-runtime-bundle",
   "version": "1.0",
-  "bundle_id": "62793d6d65bd",
-  "generated_at": "2026-05-23T12:54:57.033589+00:00",
+  "bundle_id": "b13bdfdaf605",
+  "generated_at": "2026-05-27T06:13:47.609009+00:00",
   "user_id": "strategy-codex",
   "runtime_mode": "adjunct_runtime",
   "runtime_mode_description": "Assistive runtime alongside the canonical repo.",
@@ -120,9 +120,9 @@
       "library": {
         "exists": true,
         "path": "C:\\dev\\strategy-codex\\self-library.md",
-        "size_bytes": 88838,
-        "mtime": "2026-05-07T00:40:00.212463+00:00",
-        "sha256": "8a4ac33fcaa5335b2c4414869c826085abd6cc9d3b000df0e98e2bacd147ddd9"
+        "size_bytes": 88826,
+        "mtime": "2026-05-25T19:30:45.254376+00:00",
+        "sha256": "ad0aa3a4a6c5382cf0629211de2158eef0ad334952753a486a73e020f5a4ffda"
       },
       "intent": {
         "exists": true,
@@ -142,8 +142,8 @@
         "exists": true,
         "path": "C:\\dev\\strategy-codex\\self-memory.md",
         "size_bytes": 5206,
-        "mtime": "2026-05-23T06:25:53.444451+00:00",
-        "sha256": "8848a0ef63cf606c430a229e8aa79b5daf0e5035fafcf6d215d08f8e0d0a68c9"
+        "mtime": "2026-05-27T06:13:07.293020+00:00",
+        "sha256": "792ef8daa6931e2a5a533e6f8e2df7e5899d8440b454eec734ddec1efdd43d6d"
       },
       "prompt": {
         "exists": true,
@@ -158,119 +158,119 @@
         "exists": true,
         "path": "C:\\dev\\strategy-codex\\runtime-bundle\\record\\USER.md",
         "size_bytes": 107,
-        "mtime": "2026-05-23T12:54:57.034591+00:00",
+        "mtime": "2026-05-27T06:13:47.609009+00:00",
         "sha256": "0f42411daaa02da142d7a0bc1a45921a992ab3c52f13defc425eb455cfa267f1"
       },
       "record\\fork-export.json": {
         "exists": true,
         "path": "C:\\dev\\strategy-codex\\runtime-bundle\\record\\fork-export.json",
-        "size_bytes": 315391,
-        "mtime": "2026-05-23T12:54:57.086728+00:00",
-        "sha256": "dcd7f8230dd373c05cdccc7a6a78118328285f6d33cb968e6ec37ea94524a9d6"
+        "size_bytes": 315367,
+        "mtime": "2026-05-27T06:13:47.679323+00:00",
+        "sha256": "008894dd82ebe2999354315e8c402a5b2fbd1a2ab96768c573d77d7b4a860552"
       },
       "record\\self-llm.txt": {
         "exists": true,
         "path": "C:\\dev\\strategy-codex\\runtime-bundle\\record\\self-llm.txt",
         "size_bytes": 141,
-        "mtime": "2026-05-23T12:54:57.088728+00:00",
+        "mtime": "2026-05-27T06:13:47.679323+00:00",
         "sha256": "a2f54727d6b1d6097c0cb98c5c6c4591e9e8ee966d3ed5f87373d0c073d3ae92"
       },
       "policy\\manifest.json": {
         "exists": true,
         "path": "C:\\dev\\strategy-codex\\runtime-bundle\\policy\\manifest.json",
         "size_bytes": 4157,
-        "mtime": "2026-05-23T12:54:57.089727+00:00",
-        "sha256": "61d9de82b74e1a3758300f2f953cc0966313947b666465d0f4335a453be4e570"
+        "mtime": "2026-05-27T06:13:47.691837+00:00",
+        "sha256": "ac423902a37e66cae7a7ca12e8b7ffff10059b0b0266caf45eb738e0218395c0"
       },
       "policy\\llms.txt": {
         "exists": true,
         "path": "C:\\dev\\strategy-codex\\runtime-bundle\\policy\\llms.txt",
         "size_bytes": 1531,
-        "mtime": "2026-05-23T12:54:57.090727+00:00",
-        "sha256": "f5512901aa83b4a7f52c0abd6b2d4a8c6b5aa32f6075b8e5fd533f15e443bbc5"
+        "mtime": "2026-05-27T06:13:47.691837+00:00",
+        "sha256": "e42ff51e5130d3bb5d29d044baf5e75000e2818fcac91a0afc17126dca3d81d7"
       },
       "policy\\intent_snapshot.json": {
         "exists": true,
         "path": "C:\\dev\\strategy-codex\\runtime-bundle\\policy\\intent_snapshot.json",
         "size_bytes": 299,
-        "mtime": "2026-05-23T12:54:57.091728+00:00",
-        "sha256": "c3d99683a825181b438855cd08bc453ab7d9322156f2cfdb6e139c57fa2a0f88"
+        "mtime": "2026-05-27T06:13:47.691837+00:00",
+        "sha256": "10f113427ba28508799bf3090eac941a0b31ffedc1e80a2d6c9fa2586fa669cd"
       },
       "runtime\\warmup.md": {
         "exists": true,
         "path": "C:\\dev\\strategy-codex\\runtime-bundle\\runtime\\warmup.md",
         "size_bytes": 1643,
-        "mtime": "2026-05-23T12:54:57.097728+00:00",
+        "mtime": "2026-05-27T06:13:47.691837+00:00",
         "sha256": "bbc475bd009874a5f1b3ee60eaff6d01801f9d99fc929ea2050973809eb4cdc3"
       },
       "runtime\\session-log-tail.md": {
         "exists": true,
         "path": "C:\\dev\\strategy-codex\\runtime-bundle\\runtime\\session-log-tail.md",
         "size_bytes": 1720,
-        "mtime": "2026-05-23T12:54:57.099728+00:00",
+        "mtime": "2026-05-27T06:13:47.691837+00:00",
         "sha256": "f51080241d434e48282edcda21717e3b012f62d44abe76d9497ff7b95d7938ba"
       },
       "runtime\\self-memory.md": {
         "exists": true,
         "path": "C:\\dev\\strategy-codex\\runtime-bundle\\runtime\\self-memory.md",
         "size_bytes": 5296,
-        "mtime": "2026-05-23T12:54:57.134027+00:00",
-        "sha256": "d396d5729ebaa925f3149d7d6ff459807baf001a844bd68ea62567125f716e4f"
+        "mtime": "2026-05-27T06:13:47.734461+00:00",
+        "sha256": "24fa8ea1c73c5389439da6da48774d326afcc491426c3f42dba1374319cee6e8"
       },
       "audit\\pipeline-events.jsonl": {
         "exists": true,
         "path": "C:\\dev\\strategy-codex\\runtime-bundle\\audit\\pipeline-events.jsonl",
-        "size_bytes": 51587,
-        "mtime": "2026-05-23T12:54:57.135026+00:00",
-        "sha256": "3bd0fe98418f7ffea96bacde936997a0877576e4183d5af28536ac52d8108df7"
+        "size_bytes": 52596,
+        "mtime": "2026-05-27T06:13:47.734461+00:00",
+        "sha256": "a3d52990db0e44389245346caabe9d19945fa5838a782def39170a8fb11aed3f"
       },
       "audit\\merge-receipts.jsonl": {
         "exists": true,
         "path": "C:\\dev\\strategy-codex\\runtime-bundle\\audit\\merge-receipts.jsonl",
         "size_bytes": 10805,
-        "mtime": "2026-05-23T12:54:57.136026+00:00",
+        "mtime": "2026-05-27T06:13:47.734461+00:00",
         "sha256": "c63d50b212b301b699f75f8f5182731b1543d7ed29719fdcb59d186945798b94"
       },
       "audit\\compute-ledger.jsonl": {
         "exists": true,
         "path": "C:\\dev\\strategy-codex\\runtime-bundle\\audit\\compute-ledger.jsonl",
-        "size_bytes": 68806,
-        "mtime": "2026-05-23T12:54:57.137027+00:00",
-        "sha256": "b3f35d8e3b02520adb8391b96ea3c6a4878ba39ae7ba924cfae50a1a474499c8"
+        "size_bytes": 69189,
+        "mtime": "2026-05-27T06:13:47.734461+00:00",
+        "sha256": "df9263a778ce10e7e9088acd13db41668e643614dada13ffeb07a06b17c58136"
       },
       "audit\\fork-manifest.json": {
         "exists": true,
         "path": "C:\\dev\\strategy-codex\\runtime-bundle\\audit\\fork-manifest.json",
         "size_bytes": 336,
-        "mtime": "2026-05-23T12:54:57.138027+00:00",
-        "sha256": "50b27dbcf5274063c35b3500ffebe0c5074d7329ea621fbf9c06b24a44f8a4f0"
+        "mtime": "2026-05-27T06:13:47.734461+00:00",
+        "sha256": "898c687f5b98098069d5010679cb9fad5d679c5472de611db58a286d5500891a"
       },
       "audit\\harness-events.jsonl": {
         "exists": true,
         "path": "C:\\dev\\strategy-codex\\runtime-bundle\\audit\\harness-events.jsonl",
-        "size_bytes": 12313,
-        "mtime": "2026-05-23T12:54:57.157989+00:00",
-        "sha256": "229c2e53424b4cef21e1b6bf72d9404457d08ae7fd8bad6203ad9c5182f99b79"
+        "size_bytes": 12670,
+        "mtime": "2026-05-27T06:13:47.744934+00:00",
+        "sha256": "eca855a9121c94e9a4155a742debe340b1a3a61443aee92d7c41c856c036bd60"
       },
       "fork-history\\fork_state.json": {
         "exists": true,
         "path": "C:\\dev\\strategy-codex\\runtime-bundle\\fork-history\\fork_state.json",
         "size_bytes": 204,
-        "mtime": "2026-05-23T12:54:57.163637+00:00",
+        "mtime": "2026-05-27T06:13:47.744934+00:00",
         "sha256": "b43d1c501b5f6c2ac943ca508f1ec7f09e531591cc2291c792c1b1fcb1ba76a6"
       },
       "fork-history\\drift-report.json": {
         "exists": true,
         "path": "C:\\dev\\strategy-codex\\runtime-bundle\\fork-history\\drift-report.json",
         "size_bytes": 2,
-        "mtime": "2026-05-23T12:54:57.165652+00:00",
+        "mtime": "2026-05-27T06:13:47.744934+00:00",
         "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
       },
       "fork-history\\fork-lineage.jsonl": {
         "exists": true,
         "path": "C:\\dev\\strategy-codex\\runtime-bundle\\fork-history\\fork-lineage.jsonl",
         "size_bytes": 2360,
-        "mtime": "2026-05-23T12:54:57.165652+00:00",
+        "mtime": "2026-05-27T06:13:47.759807+00:00",
         "sha256": "e998df1da28d0149dca68f38881d78f6ec21d23595c1a038b67a98fd201aa731"
       }
     }

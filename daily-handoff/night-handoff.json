@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-24T05:49:16.982361+00:00",
-  "date": "2026-05-24",
+  "generated_at": "2026-05-27T06:14:17.891908+00:00",
+  "date": "2026-05-27",
   "user_id": "strategy-codex",
   "ok": true,
   "integrity_ok": true,
@@ -16,9 +16,7 @@
       "title": "Statecraft drafting (treaty / policy / negotiation bench)",
       "first_move": "python3 scripts/operator_coffee.py -u strategy-codex - then coffee menu C - Statecraft",
       "stop_rule": "One slice: choose treaty, policy, negotiation, or Richelieu/Bismarck stress test - enough for first block.",
-      "signals_used": [
-        "reentry_heavy"
-      ]
+      "signals_used": []
     },
     {
       "id": "build",

@@ -1,0 +1,14 @@
+{
+  "benchmark_id": "task-6",
+  "prompt_version": "composition-benchmark-v1/task-6",
+  "rubric_version": "composition-rubric-v1",
+  "model": "GPT-5 Codex",
+  "provider": "OpenAI",
+  "model_version": "unavailable",
+  "run_date": "2026-05-27",
+  "temperature": "unknown",
+  "seed": "unavailable",
+  "source_mode": "prompt_only",
+  "evaluator": "Codex",
+  "notes": "Prompt-only Kleiber composition benchmark. No live lookup or source pack. Tests compact strategy-chapter synthesis, human stakes, and whether the chapter points toward page-level work without duplicating it."
+}

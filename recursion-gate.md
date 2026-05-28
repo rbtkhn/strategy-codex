@@ -1722,7 +1722,7 @@ signal_type: lane_engagement
 profile_target: IX-B. CURIOSITY
 status: approved
 channel_key: operator:cursor
-source: docs/skill-work/work-cici/README.md
+source: singularity/work-cici/README.md
 summary: "Mentoring and teaching methodology"
 merged_as: CUR-0007
 ```

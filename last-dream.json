@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-24T05:49:16.642831+00:00",
+  "generated_at": "2026-05-27T06:14:17.358415+00:00",
   "user_id": "strategy-codex",
   "agent_surface": {
     "cursor_model": "unknown"
@@ -15,7 +15,7 @@
   "artifact_draft_count": 0,
   "promotable_draft_count": 0,
   "followups": [
-    "AI frontier watch: The Innermost Loop latest - The First Consumer-Scale Interspecies Foundation Model - consider explicit source hygiene if relevant tomorrow"
+    "AI frontier watch: The Innermost Loop latest - Welcome to May 25, 2026 - consider explicit source hygiene if relevant tomorrow"
   ],
   "phases": {
     "recent": {
@@ -31,29 +31,19 @@
     }
   },
   "coffee_rollup_24h": {
-    "window_start_utc": "2026-05-23T05:49:11.449310+00:00",
-    "window_end_utc": "2026-05-24T05:49:11.449310+00:00",
+    "window_start_utc": "2026-05-26T06:14:12.053626+00:00",
+    "window_end_utc": "2026-05-27T06:14:12.053626+00:00",
     "window_hours": 24.0,
-    "count": 6,
-    "first_ts": "2026-05-23T12:45:00+00:00",
-    "last_ts": "2026-05-24T03:47:00+00:00",
-    "span_hours": 15.03,
+    "count": 3,
+    "first_ts": "2026-05-26T15:14:00+00:00",
+    "last_ts": "2026-05-27T04:05:00+00:00",
+    "span_hours": 12.85,
     "by_mode": {
-      "work-start": 1,
-      "first-command": 5
+      "first-command": 3
     },
     "runs": [
       {
-        "ts_iso": "2026-05-23T12:45:00+00:00",
-        "ok": true,
-        "mode": "work-start",
-        "kv": {
-          "cursor_model": "unknown",
-          "model_tier": "unknown"
-        }
-      },
-      {
-        "ts_iso": "2026-05-23T13:13:00+00:00",
+        "ts_iso": "2026-05-26T15:14:00+00:00",
         "ok": true,
         "mode": "first-command",
         "kv": {
@@ -62,7 +52,7 @@
         }
       },
       {
-        "ts_iso": "2026-05-23T13:16:00+00:00",
+        "ts_iso": "2026-05-26T16:23:00+00:00",
         "ok": true,
         "mode": "first-command",
         "kv": {
@@ -71,25 +61,7 @@
         }
       },
       {
-        "ts_iso": "2026-05-23T13:26:00+00:00",
-        "ok": true,
-        "mode": "first-command",
-        "kv": {
-          "cursor_model": "unknown",
-          "model_tier": "unknown"
-        }
-      },
-      {
-        "ts_iso": "2026-05-24T03:29:00+00:00",
-        "ok": true,
-        "mode": "first-command",
-        "kv": {
-          "cursor_model": "unknown",
-          "model_tier": "unknown"
-        }
-      },
-      {
-        "ts_iso": "2026-05-24T03:47:00+00:00",
+        "ts_iso": "2026-05-27T04:05:00+00:00",
         "ok": true,
         "mode": "first-command",
         "kv": {
@@ -98,12 +70,20 @@
         }
       }
     ],
-    "picks": [],
-    "by_picked": {}
+    "picks": [
+      {
+        "ts_iso": "2026-05-27T04:09:00+00:00",
+        "picked": "C",
+        "menu_label": "C"
+      }
+    ],
+    "by_picked": {
+      "C": 1
+    }
   },
   "conductor_rollup_24h": {
-    "window_start_utc": "2026-05-23T05:49:11.449310+00:00",
-    "window_end_utc": "2026-05-24T05:49:11.449310+00:00",
+    "window_start_utc": "2026-05-26T06:14:12.053626+00:00",
+    "window_end_utc": "2026-05-27T06:14:12.053626+00:00",
     "window_hours": 24.0,
     "pick_count": 0,
     "outcome_count": 0,
@@ -120,9 +100,7 @@
       "title": "Statecraft drafting (treaty / policy / negotiation bench)",
       "first_move": "python3 scripts/operator_coffee.py -u strategy-codex - then coffee menu C - Statecraft",
       "stop_rule": "One slice: choose treaty, policy, negotiation, or Richelieu/Bismarck stress test - enough for first block.",
-      "signals_used": [
-        "reentry_heavy"
-      ]
+      "signals_used": []
     },
     {
       "id": "build",
@@ -157,12 +135,12 @@
   "capture_gap": {
     "last_evidence_date": "2026-05-21",
     "last_evidence_id": "ACT-0038",
-    "days_since_evidence": 2,
+    "days_since_evidence": 6,
     "last_merge_date": "2026-05-21",
-    "days_since_merge": 2,
+    "days_since_merge": 6,
     "pending_count": 1,
     "level": "ok",
-    "message": "Record healthy \u2014 last entry 2d ago (ACT-0038, 2026-05-21)"
+    "message": "Record healthy \u2014 last entry 6d ago (ACT-0038, 2026-05-21)"
   },
   "capability_shift": {
     "category": "model",
@@ -170,7 +148,7 @@
     "sources_total": 6,
     "alert_count": 11,
     "review_count": 0,
-    "monitor_count": 1,
+    "monitor_count": 2,
     "variant_count": 0,
     "fetch_errors": []
   },
@@ -179,37 +157,30 @@
     "source_name": "The Innermost Loop",
     "feed_url": "https://theinnermostloop.substack.com/feed",
     "source_mode": "live_lookup",
-    "fetched_at": "2026-05-24T05:49:16.426627+00:00",
+    "fetched_at": "2026-05-27T06:14:17.208487+00:00",
     "status": "ok",
-    "title": "The First Consumer-Scale Interspecies Foundation Model",
-    "url": "https://theinnermostloop.substack.com/p/the-first-consumer-scale-interspecies",
-    "published_at": "2026-05-23T16:40:26+00:00",
-    "guidance": "AI frontier watch: latest The Innermost Loop post is \"The First Consumer-Scale Interspecies Foundation Model\" (2026-05-23T16:40:26+00:00); decide tomorrow whether it merits explicit source hygiene or Coffee D/C conversion."
+    "title": "Welcome to May 25, 2026",
+    "url": "https://theinnermostloop.substack.com/p/welcome-to-may-25-2026",
+    "published_at": "2026-05-25T23:31:54+00:00",
+    "guidance": "AI frontier watch: latest The Innermost Loop post is \"Welcome to May 25, 2026\" (2026-05-25T23:31:54+00:00); decide tomorrow whether it merits explicit source hygiene or Coffee D/C conversion."
   },
   "dream_catchup": {
     "semantics": "since_previous_dream",
-    "timezone": "UTC",
-    "previous_dream_generated_at": null,
-    "local_calendar_dates": [
-      "2026-05-24"
-    ],
-    "strategy_notebook_missing_day_headers": [
-      "2026-05-24"
-    ]
+    "error": "'No time zone found with key UTC'"
   },
   "last_coffee_echo": {
-    "timestamp": "2026-05-24T03:47:00+00:00",
+    "timestamp": "2026-05-27T04:05:00+00:00",
     "conductor": null,
     "mode": "first-command",
-    "menu_letter": null,
-    "highlight": "Yesterday\u2019s first-command coffee is still the thread.",
+    "menu_letter": "C",
+    "highlight": "Yesterday\u2019s first-command coffee is still the thread. Menu pick: C.",
     "source": "coffee_rollup_24h"
   },
   "handoffSchemaVersion": 3,
   "topActionReason": "calendar_mod3",
   "quietRun": false,
   "residueLedger": {
-    "must_resume": "AI frontier watch: The Innermost Loop latest - The First Consumer-Scale Interspecies Foundation Model - consider explici",
+    "must_resume": "AI frontier watch: The Innermost Loop latest - Welcome to May 25, 2026 - consider explicit source hygiene if relevant to",
     "safe_to_drop": "",
     "blocked": "",
     "watch_later": ""

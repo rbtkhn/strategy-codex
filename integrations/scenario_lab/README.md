@@ -30,8 +30,8 @@ Build an intake packet from local evidence:
 python -m integrations.scenario_lab.export_to_scenario \
   --scenario "Compute sovereignty and agent control over the next 12 months" \
   --domain company-action \
-  --evidence-path codex/academy/singularity/workshop/sheets/agent-control-plane.md \
-  --evidence-path codex/academy/singularity/workshop/sheets/sovereignty-under-acceleration.md \
+  --evidence-path singularity/workshop/sheets/agent-control-plane.md \
+  --evidence-path singularity/workshop/sheets/sovereignty-under-acceleration.md \
   --assumption "External checkout is configured locally" \
   --output compute-sovereignty/packet.json \
   --markdown-output compute-sovereignty/packet.md
@@ -43,8 +43,8 @@ Run one bounded simulation:
 python -m integrations.scenario_lab.run_gated_simulation \
   --scenario "Compute sovereignty and agent control over the next 12 months" \
   --domain company-action \
-  --evidence-path codex/academy/singularity/workshop/sheets/agent-control-plane.md \
-  --evidence-path codex/academy/singularity/workshop/sheets/sovereignty-under-acceleration.md
+  --evidence-path singularity/workshop/sheets/agent-control-plane.md \
+  --evidence-path singularity/workshop/sheets/sovereignty-under-acceleration.md
 ```
 
 Convert a run into Markdown plus an optional presentation bundle:

@@ -26,7 +26,7 @@ A governed retrieval substrate for reference-facing knowledge. Active entries sh
 |----|--------|-------------------|
 | **LIB-0149** | Predictive History (work-jiang multivolume spine) | [`codex/predictive-history/BOOK-ARCHITECTURE.md`](../../codex/predictive-history/BOOK-ARCHITECTURE.md) |
 | **LIB-0153** | Strategy notebook | [`docs/skill-work/work-strategy/strategy-notebook/README.md`](../../docs/skill-work/work-strategy/strategy-notebook/README.md) |
-| **LIB-0154** | Cici notebook | [`docs/skill-work/work-cici/cici-notebook/README.md`](../../docs/skill-work/work-cici/cici-notebook/README.md) |
+| **LIB-0154** | Cici notebook | [`singularity/work-cici/cici-notebook/README.md`](../../singularity/work-cici/cici-notebook/README.md) |
 | **LIB-0155** | Dev journal | [`docs/skill-work/work-dev/dev-notebook/work-dev/journal/README.md`](../../docs/skill-work/work-dev/dev-notebook/work-dev/journal/README.md) |
 | **LIB-0156** | History notebook â€” **operator-authored** `hn-*` chapters (deliverable) | [`docs/skill-work/work-strategy/history-notebook/README.md`](../../docs/skill-work/work-strategy/history-notebook/README.md) |
 | **LIB-0159** | Theology notebook â€” define own beliefs through creating the book | [`docs/skill-work/work-strategy/theology-notebook/README.md`](../../docs/skill-work/work-strategy/theology-notebook/README.md) |
@@ -105,7 +105,7 @@ entries:
     lookup_priority: "high"
     scope: ["work_cici", "cici_notebook", "open_brain", "operator_analytical", "journal"]
     source: "url"
-    url: "https://github.com/rbtkhn/grace-mar/blob/main/docs/skill-work/work-cici/cici-notebook/README.md"
+    url: "https://github.com/rbtkhn/grace-mar/blob/main/singularity/work-cici/cici-notebook/README.md"
     reviewed_at: 2026-04-16
     added_at: 2026-04-09
     notes: "Operator analytical book: Open Brain / work-cici learning day log in grace-mar. WORK coaching; symlink SELF-LIBRARY/cici-notebook. Not Xavier Record or Voice knowledge until gated."
