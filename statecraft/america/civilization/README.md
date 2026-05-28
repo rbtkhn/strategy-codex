@@ -4,6 +4,29 @@ WORK only; not Record.
 
 Purpose: name the inherited American code that any durable America-lane instrument must respect, even if the current United States fractures, reforms, or gives way to a successor continental authority.
 
+## Where This Sits
+
+This is the civilization-side strand bench beneath the primary [America helix](../helix.md). It holds the inherited code that gives republic, frontier, union, geography, war, and peace their carry inside the lane.
+
+## Reading Posture
+
+Read this folder as a bounded interpretive bench, not as a total America archive. Use it when the governing question has narrowed to legitimacy memory, republic / empire tension, geography, coercive grammar, or settlement grammar.
+
+## Pressure Points
+
+- constitutional legitimacy, federal carry, and successor authority
+- republic / empire drift and civil-war recurrence memory
+- continental resilience, maritime access, and abundance concealed by strain
+- war and peace grammar as successor-stable lane inputs
+
+## Limits Of The Frame
+
+This bench explains inherited code, not current carrier authority and not the whole control stack. It should sharpen lane logic, not float free of [America state](../state/) or [America empire](../empire/).
+
+## Return Path
+
+Return to [America helix](../helix.md) for the integrated line, to [America state](../state/) when a live carrier question governs, to [America empire](../empire/) when the real issue is outward leverage design, and to [America transactions](../transactions/) once the civilization-side condition has been turned into spendable instrument language.
+
 Helix-first role: this folder now serves as the civilization-side strand bench beneath the primary [America helix](../helix.md). Use the helix for the integrated lane interpretation; use the notes here when the governing question has clearly narrowed to legitimacy memory, geography, war grammar, peace grammar, or later second-wave arc-lenses.
 
 ## Inherited Code

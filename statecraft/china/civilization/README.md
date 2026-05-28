@@ -4,6 +4,29 @@ WORK only; not Record.
 
 Purpose: name the inherited Chinese code that shapes order, continuity, industrial confidence, and the fear of disorder.
 
+## Where This Sits
+
+This is the civilization-side strand bench beneath the primary [China helix](../helix.md). It holds the inherited code that gives order, continuity, unity, geography, war, and peace their carry inside the lane.
+
+## Reading Posture
+
+Read this folder as a bounded interpretive bench, not as a total China archive. Use it when the governing question has narrowed to continuity memory, legitimacy grammar, geographic carry, coercive grammar, or settlement grammar.
+
+## Pressure Points
+
+- order, stability, unity, and anti-chaos legitimacy
+- humiliation memory, restoration, and long-horizon competence
+- route exposure, energy continuity, and coastal / inland carry
+- war and peace grammar as successor-stable lane inputs
+
+## Limits Of The Frame
+
+This bench explains inherited code, not current carrier authority and not the whole control stack. It should sharpen lane logic, not float free of [China state](../state/) or [China empire](../empire/).
+
+## Return Path
+
+Return to [China helix](../helix.md) for the integrated line, to [China state](../state/) when a live carrier question governs, to [China empire](../empire/) when the real issue is outward leverage design, and to [China transactions](../transactions/) once the civilization-side condition has been turned into spendable instrument language.
+
 Helix-first role: this folder now serves as the civilization-side strand bench beneath the primary [China helix](../helix.md). Use the helix for the integrated lane interpretation; use the notes here when the governing question has clearly narrowed to continuity memory, geography, war grammar, peace grammar, or later second-wave arc-lenses.
 
 Phase-one CIV-EMP opening: start with [state memory](objects/state-memory.md) when the live question is whether a proposal can carry Chinese order, unity, development continuity, and anti-humiliation competence as state memory rather than as a brittle tactical move.

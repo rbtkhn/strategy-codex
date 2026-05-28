@@ -4,6 +4,29 @@ WORK only; not Record.
 
 Use this folder for the current Chinese party-state apparatus: top leadership, party organs, State Council, foreign ministry, PLA, banks, firms, ports, insurers, provinces, and diplomatic channels. This is the near-term institutional layer that turns Chinese civilizational memory and imperial/security striving into quiet pressure, warnings, finance, logistics, forums, guarantees, and implementable instruments.
 
+## Where This Sits
+
+This is the current-carrier bench inside the China lane. It sits below the primary [China helix](../helix.md) and above direct transaction drafting when the real question is who can quietly implement, finance, insure, warn, broker, or restrain a policy.
+
+## Reading Posture
+
+Read this folder as the institutional-carrier layer, not as the whole China lane. Its job is to convert lane logic into party-state organs, ministries, firms, financial carriers, ports, and diplomatic channels that can actually carry or block a clause.
+
+## Pressure Points
+
+- party-state authority, top-leader carry, and bureaucratic implementation
+- PLA, banks, ports, insurers, and firms as quiet policy carriers
+- anti-disorder posture, diplomatic signaling, and restrained ownership
+- the difference between visible commitment and deniable stabilization
+
+## Limits Of The Frame
+
+This bench names current authority and implementation reality. It does not replace the civilizational order grammar, the empire-side control logic, or the helix that regulates them together.
+
+## Return Path
+
+Return to [China helix](../helix.md) when the governing line is slipping, to [China civilization](../civilization/) when the real issue is order or anti-humiliation carry, to [China empire](../empire/) when the question is outward control, and to [China transactions](../transactions/) once the carrier problem has been resolved.
+
 ## Start Here
 
 - [Xi carrier](xi.md) - visible top-leader carrier of party-state authority, unity, rejuvenation, and anti-disorder discipline.

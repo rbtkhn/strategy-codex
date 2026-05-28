@@ -18,6 +18,8 @@ How does America bound Iran's coercive leverage without escalating in ways that 
 
 Start with a bounded-command instrument such as a transit guarantee, allied burden-sharing memo, sanctions-relief sequence, or authorization-and-review brief that protects credibility without promising open-ended escalation.
 
+Use [America lane spine and support ring](spine-and-support-ring.md) when you need the route discipline explicitly stated. The helix remains the primary interpretive surface; the spine note exists to keep support material from competing with the main line.
+
 ## State Interest
 
 America seeks freedom of navigation, allied confidence, energy-market stability, military credibility, domestic political legitimacy, and a regional order that does not require unlimited escalation to sustain.
@@ -48,6 +50,7 @@ Use Richelieu to test whether American policy has a durable institutional carrie
 - [Civilization](civilization/) - inherited American code: republic, frontier, constitutional process, civil-war recurrence, and successor-stable continental interest.
 - [Empire](empire/) - outward striving for maritime, financial, alliance, technological, and escalation control.
 - [Helix](helix.md) - primary lane interpretation; use this first when the question spans authorization, amplification, deformation, and restoration together.
+- [Spine and support ring](spine-and-support-ring.md) - names the canonical America route and the strengthening material that should not displace it.
 
 America is now the first helix-first proving case. Start with [helix](helix.md) when the lane question has split across several notes and you need the governing line again. The helix is the primary authored interpretation; the first-wave objects below are the supporting strand surfaces.
 
@@ -72,6 +75,8 @@ Inside that state bench, use [current executive](state/current-executive.md) and
 ## Speaker-State Intake
 
 Open Pape for coercive leverage and falsifiers, Parsi for off-ramps and settlement architecture, Ritter / Postol for military danger, and Freeman / Beebe / Mearsheimer for realist diplomacy. Translate warnings into bounded policy options.
+
+When the remaining uncertainty is not lane ownership but whether the object is still command-first or already settlement-first, use the [America bounded-command vs burden-sharing bridge](../bridges/america-bounded-command-vs-burden-sharing-bridge.md) before dropping directly into transaction logic.
 
 ## Preferred Instruments
 

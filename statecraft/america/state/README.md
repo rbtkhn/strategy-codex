@@ -4,6 +4,29 @@ WORK only; not Record.
 
 Use this folder for the current American state apparatus: executive authority, Congress, military command, courts, intelligence agencies, party coalitions, allied carriers, and successor-authority figures. This is the near-term institutional layer that turns American civilizational memory and imperial/security striving into orders, statutes, deployments, sanctions, guarantees, negotiations, and implementable instruments.
 
+## Where This Sits
+
+This is the current-carrier bench inside the America lane. It sits below the primary [America helix](../helix.md) and above direct transaction drafting when the real question is who can authorize, fund, command, restrain, review, or politically carry a policy.
+
+## Reading Posture
+
+Read this folder as the institutional-carrier layer, not as the whole America lane. Its job is to convert lane logic into offices, coalitions, commands, agencies, and successor authorities that can actually carry or block a clause.
+
+## Pressure Points
+
+- executive authority, Congress, courts, military command, and intelligence carry
+- domestic legitimacy, review, and successor-authority continuity
+- allied carriers and the boundary between command and reassurance
+- party, platform, and technology-industrial transmission of state intent
+
+## Limits Of The Frame
+
+This bench names current authority and implementation reality. It does not replace the civilizational legitimacy grammar, the empire-side control logic, or the helix that regulates them together.
+
+## Return Path
+
+Return to [America helix](../helix.md) when the governing line is slipping, to [America civilization](../civilization/) when the real issue is republic or successor carry, to [America empire](../empire/) when the question is outward control, and to [America transactions](../transactions/) once the carrier problem has been resolved.
+
 ## Start Here
 
 - [Current executive](current-executive.md) - visible federal carrier for crisis diplomacy, sanctions, military command, emergency declarations, and public legitimacy.

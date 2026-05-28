@@ -4,6 +4,29 @@ WORK only; not Record.
 
 Purpose: name America's outward striving for security and control so statecraft can regulate it instead of pretending the drive does not exist.
 
+## Where This Sits
+
+This is the empire-side strand bench beneath the primary [America helix](../helix.md). It holds the outward control stack that turns maritime, financial, alliance, technological, and coercive reach into leverage, order, or overreach.
+
+## Reading Posture
+
+Read this folder when the question has narrowed to control design rather than integrated lane interpretation. Its job is to show how America spends command, sanctions, law, and platform reach before those tools become self-justifying drift.
+
+## Pressure Points
+
+- maritime order, sanctions finance, alliance command, and technological control
+- emergency powers, legal designations, and coercive-center bounding
+- burden-sharing, exit conditions, and the difference between control and legitimacy
+- the risk that force or command theater validates the adversary's leverage
+
+## Limits Of The Frame
+
+This bench names outward striving, not the whole America lane. It should not displace the civilization-side legitimacy grammar, the current state-carrier layer, or the helix that regulates all three together.
+
+## Return Path
+
+Return to [America helix](../helix.md) when control logic is drifting away from legitimacy or restoration, to [America civilization](../civilization/) when the real issue is republic or successor carry, to [America state](../state/) when the question is who can implement or restrain the lever, and to [America transactions](../transactions/) once the control problem has become draftable instrument logic.
+
 Helix-first role: this folder now serves as the empire-side strand bench beneath the primary [America helix](../helix.md). Use the helix for the integrated lane interpretation; use this folder when the real question has narrowed to the control stack itself.
 
 ## Desired Control

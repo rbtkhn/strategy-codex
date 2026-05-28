@@ -296,3 +296,57 @@ Each candidate only counts as real learning if:
 ### Current lesson
 
 `ph-civ` is teaching statecraft not only how to remember and route knowledge, but how to build bounded interpretive interfaces for large bodies of thought.
+
+## 2026-05-28 - Three-lane recursive-learning proof
+
+### Trigger
+
+After the first recursive-learning tranche was proven on Persia, the same top-three pattern family was carried into America and then China.
+
+The real question was no longer:
+
+- can the pattern be reused once
+
+It became:
+
+- can the same pattern survive across several lanes without collapsing them into one grammar of fake diversity
+
+### Extracted law
+
+The reusable law is now stronger:
+
+```text
+shared route grammar is acceptable
+only if the governing ambiguity, proof anchor, and membrane stay lane-native
+```
+
+### Comparative proof
+
+The three-lane audit lives at [recursive-learning-three-lane-audit.md](recursive-learning-three-lane-audit.md).
+
+Its result is that the same pattern family now spans three distinct lane types:
+
+- Persia = recognition, dignity, leverage
+- America = bounded command, burden-sharing, successor authority
+- China = continuity, order, anti-chaos stabilization
+
+### Structural gain
+
+This matters because statecraft now has a reusable lane-hardening move that has survived three different political logics:
+
+- one core spine
+- one support ring
+- one bridge that resolves the lane's true posture ambiguity
+- one lane-native proof anchor
+
+That is a stronger architectural event than the earlier Persia-only or Persia-plus-America state.
+
+### Guardrail
+
+The new guardrail is:
+
+```text
+same pattern does not mean same lane
+```
+
+If a future lane inherits the headings but not its own governing ambiguity or native proof object, the recursive-learning test has not actually passed.

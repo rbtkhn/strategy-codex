@@ -16,6 +16,8 @@ How does China preserve Iran's usefulness against U.S. coercion while preventing
 
 Start with an order-preserving instrument such as a transit compact, energy-security arrangement, yuan-settlement mechanism, insurer workaround, or quiet broker note that lowers disorder without forcing visible bloc ownership.
 
+Use [China lane spine and support ring](spine-and-support-ring.md) when you need the route discipline explicitly stated. The helix remains the primary interpretive surface; the spine note exists to keep support material from competing with the main line.
+
 ## State Interest
 
 China seeks stable energy flows, secure trade routes, technological and industrial continuity, reduced U.S. coercive reach, and a diplomatic order in which Beijing can act as a stabilizer without inheriting imperial policing burdens.
@@ -43,6 +45,7 @@ Use Richelieu to test institutional capacity: which ministries, banks, firms, po
 ## Civilization / Empire Helix
 
 - [Helix](helix.md) - primary lane interpretation; use this first when the question spans order, continuity, leverage, deformation, and restoration together.
+- [Spine and support ring](spine-and-support-ring.md) - names the canonical China route and the strengthening material that should not displace it.
 - [China doctrine](china-doctrine.md) - durable upstream statement of the lane's philosophical-historical worldview.
 - [China volume writing brief](china-volume-writing-brief.md) - concise drafting-facing compression of that doctrine for chapter materialization.
 
@@ -73,6 +76,8 @@ Inside that state bench, use [Xi](state/xi.md) and the [party-state carrier](sta
 ## Speaker-State Intake
 
 Open Pape for shock clocks and coercive leverage, Jiang for China-facing strategic framing, Sachs for system-economic effects, Crooke / Diesen for order transition, and Parsi for regional architecture. Extract the live mechanism and translate it into instruments.
+
+When the remaining uncertainty is not lane ownership but whether the object is still stabilization-first or already leverage-architecture-first, use the [China order vs anti-coercion bridge](../bridges/china-order-vs-anti-coercion-bridge.md) before dropping directly into transaction logic.
 
 For the accumulating upstream chapter-seed list, use [China chapter seeds](chapter-seeds.md). That file is where cross-arc chapter ideas should now accumulate.
 Use [China doctrine](china-doctrine.md) when the chapter needs the full lane worldview stated in one place. Use [China volume writing brief](china-volume-writing-brief.md) when you are already drafting and need the shorter operative control surface.
