@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import errno
 from pathlib import Path
 
 from statecraft_day_archive import (  # noqa: F401 re-exported for tests/importers
@@ -31,10 +32,22 @@ from statecraft_day_archive import (  # noqa: F401 re-exported for tests/importe
 )
 
 
-def write_day_index(day_dir: Path) -> Path:
+def write_day_index(day_dir: Path, *, check: bool = False) -> tuple[Path, bool]:
     out_path = day_dir / "README.md"
-    out_path.write_text(build_day_readme(day_dir), encoding="utf-8", newline="\n")
-    return out_path
+    rendered = build_day_readme(day_dir)
+    existing = out_path.read_text(encoding="utf-8") if out_path.exists() else None
+    changed = existing != rendered
+    if changed and not check:
+        try:
+            out_path.write_text(rendered, encoding="utf-8", newline="\n")
+        except PermissionError as exc:
+            if exc.errno == errno.EACCES:
+                raise PermissionError(
+                    f"permission denied writing {out_path}; run with --check first to detect stale indices, "
+                    "then rerun the specific --day or --year write in an unsandboxed shell"
+                ) from exc
+            raise
+    return out_path, changed
 
 
 def parse_args() -> argparse.Namespace:
@@ -42,6 +55,11 @@ def parse_args() -> argparse.Namespace:
     ap.add_argument("--root", type=Path, default=DEFAULT_ROOT, help="Statecraft source-archive root.")
     ap.add_argument("--year", type=str, default=DEFAULT_YEAR, help="Year prefix to index, default: 2026.")
     ap.add_argument("--day", type=str, default=None, help="Specific YYYY-MM-DD day to rebuild.")
+    ap.add_argument(
+        "--check",
+        action="store_true",
+        help="Read and compare generated day indices without writing them.",
+    )
     return ap.parse_args()
 
 
@@ -52,14 +70,31 @@ def main() -> int:
         day_dir = root / args.day
         if not day_dir.is_dir():
             raise SystemExit(f"day directory not found: {day_dir}")
-        write_day_index(day_dir)
-        print(f"wrote {day_dir / 'README.md'}")
+        out_path, changed = write_day_index(day_dir, check=args.check)
+        if args.check:
+            print(f"{'stale' if changed else 'ok'} {out_path}")
+            return 1 if changed else 0
+        print(f"{'wrote' if changed else 'unchanged'} {out_path}")
         return 0
 
     day_dirs = _iter_day_dirs(root, args.year)
+    changed_paths: list[Path] = []
     for day_dir in day_dirs:
-        write_day_index(day_dir)
-    print(f"wrote {len(day_dirs)} day indices under {root}")
+        out_path, changed = write_day_index(day_dir, check=args.check)
+        if changed:
+            changed_paths.append(out_path)
+            if args.check:
+                print(f"stale {out_path}")
+    if args.check:
+        if not changed_paths:
+            print(f"ok 0 day indices under {root}")
+            return 0
+        print(f"stale {len(changed_paths)} day indices under {root}")
+        return 1
+    if not changed_paths:
+        print(f"unchanged 0 day indices under {root}")
+        return 0
+    print(f"wrote {len(changed_paths)} day indices under {root}")
     return 0
 
 
