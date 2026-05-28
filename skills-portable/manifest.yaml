@@ -191,3 +191,10 @@ skills:
     verify_forbidden_substrings:
       - users/grace-mar/
       - process_approved_candidates
+  - name: monthly-deepening
+    source: monthly-deepening/SKILL.md
+    appendix: .cursor/skills/monthly-deepening/CURSOR_APPENDIX.md
+    target: .cursor/skills/monthly-deepening/SKILL.md
+    verify_forbidden_substrings:
+      - users/grace-mar/
+      - process_approved_candidates

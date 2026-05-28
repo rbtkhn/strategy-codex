@@ -107,6 +107,44 @@ Canonical method: [skills-portable/first-wave-service-sales/SKILL.md](first-wave
 
 ---
 
+## statecraft-source-intake
+
+- **What it is**
+  - A statecraft archive-intake skill for landing full transcript-bearing source objects into the canonical `source-archive/statecraft` tree with the correct family pattern.
+- **When to use it**
+  - Use when the operator already has a pasted transcript or transcript-bearing source object and the main job is placing it correctly, honestly, and without summary/stub drift.
+- **Inputs you'll need**
+  - Source URL, transcript body, publication date if known, and the nearest existing family examples.
+- **What you get**
+  - A real full-source archive object with the right filename/frontmatter family, truthful provenance, and archive-only placement.
+- **Boundary**
+  - Does not fetch YouTube captions, does not clean to study-grade derivative form, and does not route, summarize, or synthesize in `statecraft/`.
+- **Current status**
+  - `promoted`
+
+Canonical method: [skills-portable/statecraft-source-intake/SKILL.md](statecraft-source-intake/SKILL.md)
+
+---
+
+## monthly-deepening
+
+- **What it is**
+  - A month-by-month corpus deepening skill for inventory, missing-item selection, transcript classification, and bounded archive materialization.
+- **When to use it**
+  - Use when you want a monthly split for a speaker or stream, a truthful list of present versus missing entries, or a repeatable deepening pass after transcript uploads.
+- **Inputs you'll need**
+  - Month scope, speaker scope, local archive evidence, local receipts, and any pasted transcript bodies.
+- **What you get**
+  - A scoped month inventory, an honest missing list, bounded materialization of pasted transcripts, and month-slice commit discipline when requested.
+- **Boundary**
+  - Keeps `speaker-only` separate from `speaker-adjacent`, does not guess unrecovered URLs, and treats transcript uploads as materialization requests unless reporting-only was explicit.
+- **Current status**
+  - `promoted`
+
+Canonical method: [skills-portable/monthly-deepening/SKILL.md](monthly-deepening/SKILL.md)
+
+---
+
 ## strategy-notebook-expert-cross-weave
 
 - **What it is**
