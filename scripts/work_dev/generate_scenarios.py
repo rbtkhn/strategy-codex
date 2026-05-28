@@ -36,15 +36,21 @@ from __future__ import annotations
 import argparse
 import itertools
 import json
+import re
 import sys
 from dataclasses import asdict, dataclass
 from pathlib import Path
 from typing import Any
 
-import yaml
-
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
+SCRIPTS_ROOT = REPO_ROOT / "scripts"
+if str(SCRIPTS_ROOT) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_ROOT))
+
+from yaml_compat import has_yaml, safe_load_path
+
 BASE = REPO_ROOT / "docs" / "skill-work" / "work-dev" / "scenarios" / "baseline_scenarios"
+_KEY_RE = re.compile(r"^([A-Za-z0-9_-]+):(?:\s+(.*))?$")
 
 
 @dataclass(frozen=True)
@@ -62,8 +68,129 @@ class ScenarioRow:
         return (self.scenario_id, self.runtime, self.variation)
 
 
+def _coerce_scalar(value: str) -> Any:
+    text = value.strip()
+    if not text:
+        return ""
+    if text[0] == text[-1] and text[0] in {"'", '"'}:
+        return text[1:-1]
+    lowered = text.casefold()
+    if lowered == "true":
+        return True
+    if lowered == "false":
+        return False
+    if lowered in {"null", "none"}:
+        return None
+    if re.fullmatch(r"-?\d+", text):
+        try:
+            return int(text)
+        except ValueError:
+            return text
+    return text
+
+
+def _nonempty_lines(text: str) -> list[tuple[int, str]]:
+    lines: list[tuple[int, str]] = []
+    for raw in text.splitlines():
+        if not raw.strip() or raw.lstrip().startswith("#"):
+            continue
+        indent = len(raw) - len(raw.lstrip(" "))
+        lines.append((indent, raw.strip()))
+    return lines
+
+
+def _parse_list(lines: list[tuple[int, str]], idx: int, indent: int) -> tuple[list[Any], int]:
+    items: list[Any] = []
+    while idx < len(lines):
+        line_indent, stripped = lines[idx]
+        if line_indent < indent:
+            break
+        if line_indent != indent or not stripped.startswith("- "):
+            break
+        item_text = stripped[2:].strip()
+        idx += 1
+        if not item_text:
+            if idx < len(lines) and lines[idx][0] > indent:
+                nested_indent = lines[idx][0]
+                if lines[idx][1].startswith("- "):
+                    value, idx = _parse_list(lines, idx, nested_indent)
+                else:
+                    value, idx = _parse_map(lines, idx, nested_indent)
+                items.append(value)
+            else:
+                items.append("")
+            continue
+
+        match = _KEY_RE.match(item_text)
+        if match:
+            key, value_text = match.groups()
+            item: dict[str, Any] = {}
+            if value_text is None or not value_text.strip():
+                if idx < len(lines) and lines[idx][0] > indent:
+                    nested_indent = lines[idx][0]
+                    if lines[idx][1].startswith("- "):
+                        value, idx = _parse_list(lines, idx, nested_indent)
+                    else:
+                        value, idx = _parse_map(lines, idx, nested_indent)
+                else:
+                    value = ""
+            else:
+                value = _coerce_scalar(value_text)
+            item[key] = value
+            while idx < len(lines) and lines[idx][0] > indent:
+                nested_indent = lines[idx][0]
+                more, idx = _parse_map(lines, idx, nested_indent)
+                item.update(more)
+            items.append(item)
+            continue
+
+        items.append(_coerce_scalar(item_text))
+    return items, idx
+
+
+def _parse_map(lines: list[tuple[int, str]], idx: int, indent: int) -> tuple[dict[str, Any], int]:
+    data: dict[str, Any] = {}
+    while idx < len(lines):
+        line_indent, stripped = lines[idx]
+        if line_indent < indent:
+            break
+        if line_indent != indent:
+            break
+        match = _KEY_RE.match(stripped)
+        if not match:
+            raise ValueError(f"unsupported YAML line in scenario baseline: {stripped!r}")
+        key, value_text = match.groups()
+        idx += 1
+        if value_text is not None and value_text.strip():
+            data[key] = _coerce_scalar(value_text)
+            continue
+        if idx < len(lines) and lines[idx][0] > indent:
+            nested_indent = lines[idx][0]
+            if lines[idx][1].startswith("- "):
+                value, idx = _parse_list(lines, idx, nested_indent)
+            else:
+                value, idx = _parse_map(lines, idx, nested_indent)
+            data[key] = value
+        else:
+            data[key] = ""
+    return data, idx
+
+
+def _load_baseline_yaml_fallback(path: Path) -> dict[str, Any]:
+    lines = _nonempty_lines(path.read_text(encoding="utf-8"))
+    if not lines:
+        return {}
+    data, idx = _parse_map(lines, 0, lines[0][0])
+    if idx != len(lines):
+        raise ValueError(f"{path}: unparsed YAML tail at line {idx + 1}")
+    return data
+
+
 def _load_yaml(path: Path) -> dict[str, Any]:
-    raw = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+    if has_yaml():
+        raw = safe_load_path(path, feature="scenario matrix generation") or {}
+    else:
+        raw = _load_baseline_yaml_fallback(path)
     if not isinstance(raw, dict):
         raise ValueError(f"{path}: scenario file must decode to a mapping")
     return raw
