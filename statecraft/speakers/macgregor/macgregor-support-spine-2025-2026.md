@@ -48,6 +48,7 @@ not:
 | [davis-macgregor-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-macgregor-speaker-arc.md) | practical severity lane | force-feasibility failure, imperial overreach, inflation/logistics pain, domestic political danger |
 | [diesen-macgregor-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-macgregor-speaker-arc.md) | altitude lane | NATO fracture, imperial distance, order consequence, Europe-Gulf linkage |
 | [napolitano-macgregor-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-macgregor-speaker-arc.md) | auxiliary indictment lane | undeclared-war normality, elite war-planning indictment, anti-aggression pressure |
+| Mario Nawfal raw-input surfaces | public-compression lane | fast public-facing translation of unconquerability, Netanyahu-veto pressure, energy shock, and domestic-legitimacy danger |
 
 This table is the main reason the shelf's monthly files must stay bounded syntheses rather than chronology owners: each mature stretch already has a host-owned first-open home.
 
@@ -149,11 +150,19 @@ Open:
 - [stream/macgregor-shelf-2026-05.md](stream/macgregor-shelf-2026-05.md)
 - [transcript-davis-macgregor-project-freedom-hormuz-2026-05-05.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-05/transcript-davis-macgregor-project-freedom-hormuz-2026-05-05.md)
 - [youtube-daniel-davis-deep-dive-col-doug-macgregor-trump-visits-china-2026-05-12.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-12/youtube-daniel-davis-deep-dive-col-doug-macgregor-trump-visits-china-2026-05-12.md)
+- [transcript-macgregor-diesen-nato-attacked-russia-us-being-pushed-out-of-the-middle-east-2026-05-21.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-21/transcript-macgregor-diesen-nato-attacked-russia-us-being-pushed-out-of-the-middle-east-2026-05-21.md)
+- [transcript-napolitano-macgregor-the-pentagon-and-decapitation-strikes-2026-05-21.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-21/transcript-napolitano-macgregor-the-pentagon-and-decapitation-strikes-2026-05-21.md)
+- [youtube-daniel-davis-deep-dive-col-douglas-macgregor-u-s-strikes-iran-again-2026-05-26.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/youtube-daniel-davis-deep-dive-col-douglas-macgregor-u-s-strikes-iran-again-2026-05-26.md)
+- [youtube-macgregor-mario-nawfal-trump-walks-back-on-deal-idf-to-flatten-beirut-2026-05-27.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-27/youtube-macgregor-mario-nawfal-trump-walks-back-on-deal-idf-to-flatten-beirut-2026-05-27.md)
 
 Why:
 
-- May is meaningful, but still Davis-led
-- it extends the practical severity lane rather than creating a broader Macgregor month object
+- May is still support-only, but it now clearly shows all three established host jobs plus one public-compression reinforcement
+- Davis remains the main carrier of practical severity
+- Diesen reasserts altitude through NATO-causation and Middle East ejection language
+- Napolitano preserves the auxiliary indictment lane around decapitation and undeclared-war logic
+- Mario Nawfal adds a broad public-facing compression of regime fragility, energy shock, and legitimacy danger
+- this still does not create a chronology-owning month object; it creates a denser support month with wider cross-host visibility
 
 ## Why this shelf is still not Ritter-shaped
 

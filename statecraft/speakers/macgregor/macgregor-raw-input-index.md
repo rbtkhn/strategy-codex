@@ -17,6 +17,7 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Dougl
 ## 2025-06
 
 - [youtube-glenn-diesen-douglas-macgregor-douglas-macgregor-russia-s-retaliation-nato-s-declining-relevance-2025-06-10](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-10/youtube-glenn-diesen-douglas-macgregor-douglas-macgregor-russia-s-retaliation-nato-s-declining-relevance-2025-06-10.md)
+- [transcript-diesen-macgregor-america-s-attack-on-iran-could-start-ww3-2025-06-20](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-20/transcript-diesen-macgregor-america-s-attack-on-iran-could-start-ww3-2025-06-20.md)
 
 ## 2025-08
 
@@ -79,6 +80,10 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Dougl
 
 - [transcript-davis-macgregor-project-freedom-hormuz-2026-05-05](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-05/transcript-davis-macgregor-project-freedom-hormuz-2026-05-05.md)
 - [youtube-daniel-davis-deep-dive-col-doug-macgregor-trump-visits-china-2026-05-12](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-12/youtube-daniel-davis-deep-dive-col-doug-macgregor-trump-visits-china-2026-05-12.md)
+- [transcript-macgregor-diesen-nato-attacked-russia-us-being-pushed-out-of-the-middle-east-2026-05-21](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-21/transcript-macgregor-diesen-nato-attacked-russia-us-being-pushed-out-of-the-middle-east-2026-05-21.md)
+- [transcript-napolitano-macgregor-the-pentagon-and-decapitation-strikes-2026-05-21](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-21/transcript-napolitano-macgregor-the-pentagon-and-decapitation-strikes-2026-05-21.md)
+- [youtube-daniel-davis-deep-dive-col-douglas-macgregor-u-s-strikes-iran-again-2026-05-26](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/youtube-daniel-davis-deep-dive-col-douglas-macgregor-u-s-strikes-iran-again-2026-05-26.md)
+- [youtube-macgregor-mario-nawfal-trump-walks-back-on-deal-idf-to-flatten-beirut-2026-05-27](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-27/youtube-macgregor-mario-nawfal-trump-walks-back-on-deal-idf-to-flatten-beirut-2026-05-27.md)
 
 ## Aired Pending
 

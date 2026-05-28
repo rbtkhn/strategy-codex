@@ -4,7 +4,7 @@ WORK only; not Record.
 
 ## Summary
 
-Macgregor is a force-balance and imperial-overreach speaker with a sharp double-helix structure across Davis and Diesen. His best credibility lies in force-feasibility mechanism, but broader civilizational and political severity claims often require more downstream verification.
+ Macgregor is a force-balance and imperial-overreach speaker with a sharp double-helix structure across Davis and Diesen. His best credibility lies in force-feasibility mechanism, but broader civilizational, political, and now public-compression macro severity claims often require more downstream verification.
 
 ## Correction taxonomy
 
@@ -29,6 +29,7 @@ Macgregor is a force-balance and imperial-overreach speaker with a sharp double-
 ## Main credibility risk
 
 - Rhetorical scale can outrun evidentiary closure when the lane widens into broader civilizational or political collapse.
+- The Mario Nawfal lane reinforces this risk by translating a strong force model into high-amplitude claims about inflation, reserve exhaustion, legitimacy rupture, and systemic unrest.
 
 ## Provisional trust class
 
@@ -48,11 +49,13 @@ Macgregor is a force-balance and imperial-overreach speaker with a sharp double-
 
 1. [2026-03-10 Macgregor](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-10/transcript-davis-macgregor-no-the-iran-war-is-not-over-2026-03-10.md)
 2. [2025-09-25 Macgregor](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-25/youtube-glenn-diesen-douglas-macgregor-douglas-macgregor-war-is-inevitable-2025-09-25.md)
+3. [2026-05-27 Macgregor x Mario Nawfal](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-27/youtube-macgregor-mario-nawfal-trump-walks-back-on-deal-idf-to-flatten-beirut-2026-05-27.md)
 
 ## Native adjustment notes
 
 - Do not punish Macgregor for severity of tone alone.
 - Do penalize when the shelf moves from hard force logic to underclosed macro certainty without carrying the evidence burden forward.
+- The Mario surface is useful precisely because it makes that transition easy to see in one interview: the force model stays sharp while the macro-collapse register widens faster than the current evidence closure.
 
 ## Boundary
 

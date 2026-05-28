@@ -52,6 +52,8 @@ This audit system is calibrated to the following operator preferences:
   - compact operator recipe for future population
 - [pape-vs-parsi-comparison-note.md](pape-vs-parsi-comparison-note.md)
   - first adjacent-speaker bridge stress test
+- [macgregor-vs-pape-comparison-note.md](macgregor-vs-pape-comparison-note.md)
+  - same-terrain comparison between force-feasibility and falsifier-heavy public forecast reasoning
 - [pape-audit-lessons.md](pape-audit-lessons.md)
   - first real-task lessons note for the audit system
 - [templates/](templates/)
