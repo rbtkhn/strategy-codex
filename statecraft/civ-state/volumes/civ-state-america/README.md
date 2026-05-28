@@ -1,4 +1,4 @@
-# Vol V - America
+# CIV-STATE America
 
 WORK only; not Record.
 
@@ -18,7 +18,7 @@ Primary live lane: [America statecraft lane](../../../america/README.md)
 
 **Civilization-State Diagnostic**
 - Civilization-state claim: contested edge case whose strain helps define the civilization-state concept by contrast
-- Sovereignty chain: `Alfred the Great -> Trump`
+- Sovereignty chain: `Alfred the Great -> Donald Trump`
 - Sacred / civilizational grammar: Anglo constitutional inheritance, Protestant / civil-religious legitimacy, maritime-commercial order, and republican self-conception
 - Current carrier: the contemporary United States as the latest sovereign expression of a longer Anglo-American chain
 - Failure mode: civilizational inheritance thins into proceduralism, liberal-universal empire outgrows the republic, and sovereignty loses thick legitimacy
@@ -81,3 +81,10 @@ Best current carriers:
 - [America state carriers](../../../america/state/README.md)
 - [America transactions](../../../america/transactions/README.md)
 - [America crisis test casebook](../../../america/crisis-test-casebook.md)
+
+## Present Sovereign Capstone
+
+- **Current carrier**: United States
+- **Current sovereign head**: `Donald Trump`
+- **Present continuity claim**: latest sovereign concentration of a longer and contested Anglo-American chain rather than a clean `1776`-only story, with the present state carrying inheritance older than the U.S. proper
+- **Boundary note**: do not confuse U.S. officeholding with an uncontested continuity chain or read the present sovereign head as final proof of the category

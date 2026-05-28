@@ -1,4 +1,4 @@
-# Vol II - Persia
+# CIV-STATE Persia
 
 WORK only; not Record.
 
@@ -16,7 +16,7 @@ Primary live lane: [Persia statecraft lane](../../../persia/README.md)
 
 **Civilization-State Diagnostic**
 - Civilization-state claim: strong civilization-state built from fused sovereignty continuity and sacred-civilizational depth
-- Sovereignty chain: `Cyrus -> Islamic Republic Iran`
+- Sovereignty chain: `Cyrus -> Ali Khamenei`
 - Sacred / civilizational grammar: Zoroaster beneath Persian continuity, later transformed through Islam and Shi'a legitimacy without civilizational erasure
 - Current carrier: Islamic Republic Iran as the present sovereign carrier of a much older Persian chain
 - Failure mode: dignity hardens into siege logic, martyrdom lock, or sovereignty without settlement openness
@@ -80,3 +80,10 @@ Best current carriers:
 - [Iran state carriers](../../../persia/state/README.md)
 - [Iran transactions](../../../persia/transactions/README.md)
 - [Hormuz proof object](../../persia/hormuz-recognition-transit-restraint.md)
+
+## Present Sovereign Capstone
+
+- **Current carrier**: Islamic Republic Iran
+- **Current sovereign head**: `Ali Khamenei`
+- **Present continuity claim**: Persian / Iranian sovereign continuity now carried through Islamic-Republic form with Supreme Leader apex rather than through a merely presidential executive surface
+- **Boundary note**: do not confuse the presidency with the sovereign apex; `Masoud Pezeshkian` is the executive president, but the continuity-bearing sovereign head in this shelf is `Ali Khamenei`

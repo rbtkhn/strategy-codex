@@ -1,4 +1,4 @@
-# Vol I - China
+# CIV-STATE China
 
 WORK only; not Record.
 
@@ -17,7 +17,7 @@ Primary live lane: [China statecraft lane](../../../china/README.md)
 
 **Civilization-State Diagnostic**
 - Civilization-state claim: strong civilization-state built around dynastic-state continuity and mandate-bearing order
-- Sovereignty chain: `first dynasty -> PRC`
+- Sovereignty chain: `Yu the Great -> Xi Jinping`
 - Sacred / civilizational grammar: mandate, order, continuity, anti-fragmentation legitimacy
 - Current carrier: PRC party-state as the present sovereign carrier of a much older administrative civilization
 - Failure mode: order hardens into brittle administrative absorption, coercive standardization, or anti-human overcontrol
@@ -83,3 +83,10 @@ Best current carriers:
 - [China volume writing brief](../../../china/china-volume-writing-brief.md)
 - [China state carriers](../../../china/state/README.md)
 - [China transactions](../../../china/transactions/README.md)
+
+## Present Sovereign Capstone
+
+- **Current carrier**: PRC party-state
+- **Current sovereign head**: `Xi Jinping`
+- **Present continuity claim**: dynastic-state continuity now concentrated in party-state form, with the present leadership bearing a much older order, mandate, and anti-fragmentation claim
+- **Boundary note**: do not reduce Chinese continuity to party tactics alone or mistake the present sovereign head for the whole civilization

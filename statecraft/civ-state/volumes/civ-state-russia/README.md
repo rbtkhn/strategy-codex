@@ -1,4 +1,4 @@
-# Vol IV - Russia
+# CIV-STATE Russia
 
 WORK only; not Record.
 
@@ -82,3 +82,10 @@ Best current carriers:
 - [Russia state carriers](../../../russia/state/README.md)
 - [Russia transactions](../../../russia/transactions/README.md)
 - [Russia crisis test casebook](../../../russia/crisis-test-casebook.md)
+
+## Present Sovereign Capstone
+
+- **Current carrier**: present Russian state / Russian Federation
+- **Current sovereign head**: `Vladimir Putin`
+- **Present continuity claim**: restored and regathered Russian sovereign continuity after Soviet and post-Soviet rupture, concentrated in the present state as claimant to a much older chain
+- **Boundary note**: do not confuse restoration claim with simple uninterrupted form or read the current sovereign head as the whole Russian civilization

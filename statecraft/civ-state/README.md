@@ -92,17 +92,27 @@ The canonical CIV-STATE deep-grammar shelf is now [Sacred Grammar Library](sacre
 
 The front-door CIV-STATE order is now five volumes:
 
-1. [Vol I - China](volumes/vol-i-china/README.md)
-2. [Vol II - Persia](volumes/vol-ii-persia/README.md)
-3. [Vol III - Rome](volumes/vol-iii-rome/README.md)
-4. [Vol IV - Russia](volumes/vol-iv-russia/README.md)
-5. [Vol V - America](volumes/vol-v-america/README.md)
+1. [CIV-STATE China](volumes/civ-state-china/README.md)
+2. [CIV-STATE Persia](volumes/civ-state-persia/README.md)
+3. [CIV-STATE Rome](volumes/civ-state-rome/README.md)
+4. [CIV-STATE Russia](volumes/civ-state-russia/README.md)
+5. [CIV-STATE America](volumes/civ-state-america/README.md)
 
 Each volume is internally ordered by `Ancient / Medieval / Colonial / Industrial / Cybernetic`.
 
 The order is chronological by **sovereignty-chain emergence**, not by the earliest possible mythic, sacred, or ethnocultural precursor. That is why China remains first, Persia second, Rome third, Russia fourth, and America fifth.
 
 This volume layer organizes retrieval and source-memory entry. It does not replace the live lane-local storage under repo-root `statecraft/<lane>/`. Each volume should now be read as a chain-of-sovereignty argument nested through the five-era spine, not as a loose bibliography.
+
+## Alias Doors
+
+Use these top-level CIV-STATE entry notes when you want direct named access rather than entering through the volume map:
+
+- [civ-state-china](civ-state-china.md)
+- [civ-state-persia](civ-state-persia.md)
+- [civ-state-rome](civ-state-rome.md)
+- [civ-state-russia](civ-state-russia.md)
+- [civ-state-america](civ-state-america.md)
 
 ## Operating Thesis
 
@@ -160,6 +170,8 @@ Each CIV-STATE source object should be short and usable. It should include:
 ## Indexes
 
 - [Volume map](volumes/README.md) - preferred civilization-first opening order for CIV-STATE.
+- [Sovereign continuity of the CIV-states](sovereign-continuity-of-the-civ-states.md) - compact comparative note on how the five cases carry continuity-bearing sovereignty through rupture.
+- [Current sovereign heads of the CIV-states](current-sovereign-heads-of-the-civ-states.md) - present-tense capstone note showing how each volume reaches the current world through a live sovereign apex.
 - [Sacred Grammar Library](sacred-grammar/README.md) - canonical deep-grammar retrieval shelf beneath the volume opener doctrine.
 - [Source retrieval matrix](indexes/source-retrieval-matrix.md) - default retrieval contract for state-memory, god, lit, art, geo, war, peace, and empire-instrument work.
 - [Arc-conditioned retrieval bridge](../bridges/README.md) - quiet adapter layer for routing speaker-arc claims into disciplined `civ-state` retrieval.

@@ -12,11 +12,11 @@ The purpose of this volume set is to provide an authoritative working illustrati
 
 Read CIV-STATE in this order:
 
-1. [Vol I - China](vol-i-china/README.md)
-2. [Vol II - Persia](vol-ii-persia/README.md)
-3. [Vol III - Rome](vol-iii-rome/README.md)
-4. [Vol IV - Russia](vol-iv-russia/README.md)
-5. [Vol V - America](vol-v-america/README.md)
+1. [CIV-STATE China](civ-state-china/README.md)
+2. [CIV-STATE Persia](civ-state-persia/README.md)
+3. [CIV-STATE Rome](civ-state-rome/README.md)
+4. [CIV-STATE Russia](civ-state-russia/README.md)
+5. [CIV-STATE America](civ-state-america/README.md)
 
 Each volume is ordered by the preferred era spine:
 

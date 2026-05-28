@@ -1,4 +1,4 @@
-# Vol III - Rome
+# CIV-STATE Rome
 
 WORK only; not Record.
 
@@ -17,7 +17,7 @@ Primary source base: [Rome source corpus](../../../../research/repos/civilizatio
 
 **Civilization-State Diagnostic**
 - Civilization-state claim: strong but transformed civilization-state whose continuity survives through mutation rather than one unbroken territorial state
-- Sovereignty chain: `Romulus -> Catholic Church`
+- Sovereignty chain: `Romulus -> Pope Leo XIV`
 - Sacred / civilizational grammar: Roman law, citizenship, imperial universality, Christianity, and later papal residue
 - Current carrier: Catholic Church as the clearest surviving residue, with Byzantium as the indispensable bridge
 - Failure mode: Rome is misread either as dead antiquity or as nostalgia detached from actual continuity carriers
@@ -84,3 +84,10 @@ Best current carriers:
 - [Roman collapse and strong-man return](../../indexes/freeman/roman-collapse-and-strong-man-return.md)
 - [Civilization, Empire, Faith, Science, Memory, Desire](../../civilization-empire-faith-science-memory-desire.md)
 - [Use legacy Rome sources only when a deeper successor-order chain is truly necessary](../../indexes/freeman/roman-collapse-and-strong-man-return.md)
+
+## Present Sovereign Capstone
+
+- **Current carrier**: Catholic Church as residue-carrier
+- **Current sovereign head**: `Pope Leo XIV`
+- **Present continuity claim**: transformed Roman continuity survives in Catholic residue and universal-sacral authority rather than in a living territorial Roman state
+- **Boundary note**: do not confuse the pope here with the head of a territorial Roman polity or read the residue-carrier as if it were identical to the whole Roman civilization

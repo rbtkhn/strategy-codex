@@ -21,4 +21,4 @@ WORK only; not Record.
   Seed MEMs: [MEM–ROME–CHRISTIANITY](../../../research/repos/civilization_memory/content/civilizations/ROME/MEM–ROME–CHRISTIANITY.md) and [MEM–ROME–LAW–CITIZENSHIP](../../../research/repos/civilization_memory/content/civilizations/ROME/MEM–ROME–LAW–CITIZENSHIP.md)
   MEM CONNECTIONS cluster: Christianity + law/citizenship -> [Constantinople](../../../research/repos/civilization_memory/content/civilizations/ROME/MEM–ROME–CONSTANTINOPLE.md) -> [Great Schism](../../../research/repos/civilization_memory/content/civilizations/ROME/MEM–ROME–PAPACY–GREAT–SCHISM.md) / [Papacy](../../../research/repos/civilization_memory/content/civilizations/ROME/MEM–ROME–PAPACY.md) / [Vatican](../../../research/repos/civilization_memory/content/civilizations/ROME/MEM–ROME–VATICAN.md)
   Corroborating overview: [CIV–STATE–ROME](../../../research/repos/civilization_memory/content/civilizations/ROME/CIV–STATE–ROME.md)
-  Local shape reference: [Vol III - Rome](../volumes/vol-iii-rome/README.md)
+  Local shape reference: [CIV-STATE Rome](../volumes/civ-state-rome/README.md)
