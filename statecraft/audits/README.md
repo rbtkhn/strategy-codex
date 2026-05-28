@@ -35,6 +35,7 @@ This audit system is calibrated to the following operator preferences:
 3. Open [speaker-credibility-accuracy-bridge.md](speaker-credibility-accuracy-bridge.md) when the two are being confused.
 4. Open [speaker-audit-workflow.md](speaker-audit-workflow.md) when the artifacts are clear but the next operator move is not.
 5. Open the relevant per-speaker profile in `credibility/` or `accuracy/` when the matrix is too compressed.
+6. Open comparison or lessons notes here when a real audit pass teaches something about the system itself.
 
 ## Artifact Map
 
@@ -46,6 +47,10 @@ This audit system is calibrated to the following operator preferences:
   - interpretive bridge, not a third scoring system
 - [speaker-audit-workflow.md](speaker-audit-workflow.md)
   - compact operator recipe for future population
+- [pape-vs-parsi-comparison-note.md](pape-vs-parsi-comparison-note.md)
+  - first adjacent-speaker bridge stress test
+- [pape-audit-lessons.md](pape-audit-lessons.md)
+  - first real-task lessons note for the audit system
 - [templates/](templates/)
   - reusable audit profile scaffolds
 - [credibility/](credibility/)
