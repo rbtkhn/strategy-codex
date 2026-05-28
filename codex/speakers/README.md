@@ -52,6 +52,8 @@ For map-like navigation across the shelf, use [`../speaker-map/`](../speaker-map
 
 For the authored/interview subtype, use [authored-pressure-quartet.md](/C:/dev/strategy-codex/codex/speakers/authored-pressure-quartet.md). It clusters Crooke, Ritter, Pape, and Parsi as a repeatable crisis-analysis pass: forecast clock, force constraint, settlement architecture, and structural misreading.
 
+For a pilot `3 core theses` comparison grammar across the strongest mature shelves, use [core-thesis-matrix-pilot.md](/C:/dev/strategy-codex/codex/speakers/core-thesis-matrix-pilot.md).
+
 For a wider functional placement of the speaker shelf around that quartet, use [speaker-cluster-map.md](/C:/dev/strategy-codex/codex/speakers/speaker-cluster-map.md).
 
 Default routing order after materialization:

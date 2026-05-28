@@ -5,6 +5,7 @@ WORK only; not Record.
 Purpose: cluster Crooke, Ritter, Pape, and Parsi as a distinct speaker-object class. Each has a canonical authored spine and a secondary interview-pressure strand. Use this note when the notebook needs a repeatable crisis-analysis pass rather than a single expert read.
 
 For the wider satellite placement around this quartet, see [speaker-cluster-map.md](/C:/dev/strategy-codex/codex/speakers/speaker-cluster-map.md).
+For the pilot `3 core theses` comparison pass across these anchors plus two adjacent statecraft shelves, see [core-thesis-matrix-pilot.md](/C:/dev/strategy-codex/codex/speakers/core-thesis-matrix-pilot.md).
 
 ## Core Claim
 
