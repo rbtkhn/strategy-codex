@@ -16,6 +16,8 @@ The shelf is intentionally a lighter first pass. Barnes is already a real cross-
 - [barnes-helix.md](barnes-helix.md)
 - [barnes-support-spine-2025-2026.md](barnes-support-spine-2025-2026.md)
 
+For Barnes-facing analysis of method, rhetoric, and cross-host speaker function, use [barnes-analysis-index.md](barnes-analysis-index.md).
+
 ## Canonical Structure
 
 Barnes's canonical statecraft shelf currently has five speaker-owned layers:

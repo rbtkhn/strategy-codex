@@ -7,6 +7,7 @@ Purpose: compact front door for the canonical Barnes statecraft shelf.
 ## Open First
 
 - [README.md](README.md)
+- [barnes-analysis-index.md](barnes-analysis-index.md)
 - [barnes-arc.md](barnes-arc.md)
 - [barnes-routing.md](barnes-routing.md)
 - [barnes-raw-input-index.md](barnes-raw-input-index.md)
@@ -15,6 +16,7 @@ Purpose: compact front door for the canonical Barnes statecraft shelf.
 
 ## Fast route map
 
+- If the question is **how Barnes works as a speaker object**, open [barnes-analysis-index.md](barnes-analysis-index.md).
 - If the question is **whole-speaker continuity**, open [barnes-arc.md](barnes-arc.md).
 - If the question is **which Barnes lane or file to open first**, open [barnes-routing.md](barnes-routing.md).
 - If the question is **what actually exists on disk**, open [barnes-raw-input-index.md](barnes-raw-input-index.md).
