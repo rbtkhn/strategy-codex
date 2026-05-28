@@ -38,6 +38,11 @@ Use this as the fastest front door when you already know the speaker and just ne
 | Baud | law-of-war categories expose coercive incoherence | [Baud helix](/C:/dev/strategy-codex/codex/speakers/baud/baud-helix.md) |
 | Matlock | the Cold War ended by negotiation, not victory mythology | [Matlock speaker object](/C:/dev/strategy-codex/codex/speakers/matlock/matlock-speaker-object.md) |
 | Karaganov | deterrence requires vivid threshold signaling | [Karaganov speaker object](/C:/dev/strategy-codex/codex/speakers/karaganov/karaganov-speaker-object.md) |
+| Krainer | macro-financial breakdown widens crisis into world-order consequence | [Diesen x Krainer speaker arc](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-krainer-speaker-arc.md) |
+| Kent | inside-system dissent exposes the tension between exit talk and escalation pressure | [Davis-Kent speaker arc](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-kent-speaker-arc.md) |
+| Diesen | institutions and legitimacy must be read through multipolar historical sequence | [Diesen README](/C:/dev/strategy-codex/codex/speakers/diesen/README.md) |
+| Blumenthal | media legitimacy and donor-power shape crisis narrative uptake | [Blumenthal speaker object](/C:/dev/strategy-codex/codex/speakers/blumenthal/blumenthal-speaker-object.md) |
+| Mate | investigative propaganda and outlet-lineage critique pressure media consensus claims | [Mate profile](/C:/dev/strategy-codex/codex/speakers/mate/mate-profile.md) |
 
 ## Tier Guide
 
@@ -59,6 +64,7 @@ Use these when a draft needs a distinct complementary plane that the anchors do 
 - Marandi
 - Mercouris
 - Beebe
+- Diesen
 - Mearsheimer
 - Matlock
 - Sachs
@@ -72,6 +78,7 @@ Use these when the note needs a host-native instrument or a pressure translator 
 - Barnes
 - Johnson
 - Baud
+- Kent
 
 ### Tier D - Force-Balance And Imperial-Constraint Reinforcements
 
@@ -88,6 +95,9 @@ Use these when the notebook needs hard military realism, imperial-burden consequ
 Use these carefully because the thesis set is strong, but the best canonical live surfaces are still partly migration-bound or unevenly distributed:
 
 - Freeman
+- Krainer
+- Blumenthal
+- Mate
 
 Detailed thesis sections remain in accumulation order below. Use the tier guide as the fast normalization layer, and the speaker sections as the dense reference layer.
 
@@ -266,6 +276,46 @@ Detailed thesis sections remain in accumulation order below. Use the tier guide 
 | 2 | Diesel, fertilizer, shipping, and reopening lag create second-order macro damage that outlasts the initial shock. | [Jermy speaker object](/C:/dev/strategy-codex/codex/speakers/jermy/jermy-speaker-object.md) | Chokepoint disruption repeatedly resolves without lagged macro-system consequence or recovery drag. | Sachs's macro-order restructuring or Armstrong's cycle-convergence pressure. |
 | 3 | Host transformation matters: Davis gives operational closure analysis, Diesen gives systemic consequence, and Peacemonger gives anti-hubris public strategy. | [Jermy speaker object](/C:/dev/strategy-codex/codex/speakers/jermy/jermy-speaker-object.md) | The three host branches behave interchangeably and do not justify the triple-helix distinction. | A single generic maritime-energy object. |
 
+## Krainer
+
+| slot | thesis | best file | falsifier | do not confuse with |
+|---|---|---|---|---|
+| 1 | Macro-financial strain, commodity pressure, and debt stress widen wars into world-order consequence. | [Diesen x Krainer speaker arc](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-krainer-speaker-arc.md) | Major geopolitical shocks repeatedly stay politically and militarily bounded without widening into monetary, debt, or commodity stress. | Pape's narrower energy-price mechanism. Krainer is a wider macro-financial breakdown object. |
+| 2 | Imperial overreach is inseparable from internal monetary fragility and elite misrule. | [Krainer speaker object](/C:/dev/strategy-codex/codex/speakers/krainer/krainer-speaker-object.md) | Western overreach repeatedly proves sustainable without visible internal debt, legitimacy, or financial-fragility consequence. | Wilkerson's legitimacy-collapse register. Krainer is more macro-financial and oligarchic in emphasis. |
+| 3 | Cross-host reinforcement matters because the same crisis-widening voice survives Diesen, Dialogue Works, and The Duran without yet becoming a mature helix. | [Krainer speaker object](/C:/dev/strategy-codex/codex/speakers/krainer/krainer-speaker-object.md) | Krainer's explanatory value proves host-fragile or too thin outside the Diesen lane to justify recurring object status. | A fully matured helix claim. |
+
+## Kent
+
+| slot | thesis | best file | falsifier | do not confuse with |
+|---|---|---|---|---|
+| 1 | Inside-system dissent shows that exit logic is legible from within the military/intelligence world, not only from outside critics. | [Davis-Kent speaker arc](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-kent-speaker-arc.md) | Former inside actors consistently converge on the public escalation line and do not generate credible exit-ramp critique. | Barnes's White House process lane. Kent is a witness object rooted in institutional proximity. |
+| 2 | Trump exit signaling is real but unstable because bureaucracy, donor pressure, and security politics keep pulling it back toward escalation. | [Nawfal-Kent speaker arc](/C:/dev/strategy-codex/codex/speakers/kent/stream/nawfal-kent-speaker-arc.md) | Trump-aligned exit language repeatedly converts into durable anti-escalation policy without elite or donor-class drag. | Pape's escalation-trap mechanism. Kent is a domestic-pressure and insider-witness translation of that tension. |
+| 3 | Foreign-policy failure must be translated back into domestic morale, hollowed institutions, and war-on-terror memory rather than left as abstract strategy. | [Kent speaker object](/C:/dev/strategy-codex/codex/speakers/kent/kent-speaker-object.md) | Long-run intervention failure proves politically and socially compartmentalized, with little effect on trust, morale, or domestic exhaustion. | Sachs's systemic-order critique or Marandi's sovereignty lane. |
+
+## Diesen
+
+| slot | thesis | best file | falsifier | do not confuse with |
+|---|---|---|---|---|
+| 1 | Institutions, alliances, and legitimacy have to be read through multipolar historical sequence rather than through frozen unipolar assumptions. | [Diesen README](/C:/dev/strategy-codex/codex/speakers/diesen/README.md) | Alliance stress and institutional legitimacy remain stable even as power distribution changes and non-Western poles consolidate. | Freeman's substrate-test method. Diesen is more stream-native order-transition narration. |
+| 2 | Event-level crises become legible only when widened into civilizational and order-transition arguments. | [Diesen speaker object](/C:/dev/strategy-codex/codex/speakers/diesen/diesen-speaker-object.md) | Tactical and diplomatic event reading repeatedly outperforms wider order-transition framing in Diesen's main crisis lanes. | Crooke's deeper metapolitical rupture. Diesen is more sequential and institutional. |
+| 3 | Host value is itself part of the thesis: Diesen is one of the clearest elicitation surfaces for exposing comparative speaker form and helix structure. | [Diesen speaker object](/C:/dev/strategy-codex/codex/speakers/diesen/diesen-speaker-object.md) | Guest appearances on Diesen prove no better than generic interviews at surfacing higher-order comparative structure. | A claim that Diesen is only a neutral host territory rather than a real speaker object. |
+
+## Blumenthal
+
+| slot | thesis | best file | falsifier | do not confuse with |
+|---|---|---|---|---|
+| 1 | Media legitimacy and official narrative manufacture are core strategic variables, not peripheral commentary. | [Blumenthal speaker object](/C:/dev/strategy-codex/codex/speakers/blumenthal/blumenthal-speaker-object.md) | Official crisis narratives repeatedly hold without meaningful engineering, shielding, or amplification by media and access networks. | Mate's lighter investigative-pressure lane. Blumenthal is a thicker crisis-commentary object. |
+| 2 | Donor networks, intermediaries, and elite-access structures explain more than public doctrine alone. | [Blumenthal speaker object](/C:/dev/strategy-codex/codex/speakers/blumenthal/blumenthal-speaker-object.md) | Geopolitical outcomes repeatedly become legible without tracing patronage, donor, or intermediary power. | Marandi's state-facing legitimacy lane or Parsi's settlement design work. |
+| 3 | Cross-host commentary reuse is real, but the object is still thinner than a mature helix and should be routed as such. | [Blumenthal thread](/C:/dev/strategy-codex/codex/speakers/blumenthal/blumenthal-thread.md) | Blumenthal's branch structure quickly thickens into stable host-local arcs that no longer need the boundary caution. | A fully matured double- or triple-helix claim. |
+
+## Mate
+
+| slot | thesis | best file | falsifier | do not confuse with |
+|---|---|---|---|---|
+| 1 | Investigative pressure on propaganda framing, media ownership, and outlet lineage is a distinct retrieval job even before the shelf matures into a fuller object. | [Mate profile](/C:/dev/strategy-codex/codex/speakers/mate/mate-profile.md) | Media-ownership and propaganda-lineage critique repeatedly adds no distinct value beyond neighboring shelves like Blumenthal. | Blumenthal's denser commentary object. Mate is currently lighter and more profile-first. |
+| 2 | Grayzone-adjacent antiwar narrative work should be treated as a routeable pressure register, not automatically as transcript-grade closed fact. | [Mate README](/C:/dev/strategy-codex/codex/speakers/mate/README.md) | The shelf accumulates enough embodied transcript and arc structure that profile-first caution is no longer needed. | A mature helix or host-local arc claim. |
+| 3 | Verification discipline is part of the thesis: ownership, billionaire, and outlet-lineage claims need primary-document closure before they become links-grade statecraft reuse. | [Mate thread](/C:/dev/strategy-codex/codex/speakers/mate/mate-thread.md) | Corporate-lineage and influence claims repeatedly prove robust enough for direct reuse without stronger documentary closure. | Generic skepticism about alternative media. This is a routing caution, not a dismissal of the lane. |
+
 
 ## Open First
 
@@ -279,12 +329,12 @@ Detailed thesis sections remain in accumulation order below. Use the tier guide 
 
 Best next candidates for the same grammar:
 
-- Freeman statecraft-side migrated theme set once those files replace codex-side migration residue
-- Krainer
-- Kent
-- Diesen
-- Blumenthal
-- Mate
+- Freeman once the statecraft-side theme files become first-class canonical bodies rather than front-door pointers
+- Greenwald
+- Hudson
+- Nader
+- Hinkle
+- Alastair Crooke host-local reinforcement surfaces if the shelf later needs a denser host-conditioned split
 
 ## Boundaries
 
