@@ -54,6 +54,10 @@ This audit system is calibrated to the following operator preferences:
   - first adjacent-speaker bridge stress test
 - [macgregor-vs-pape-comparison-note.md](macgregor-vs-pape-comparison-note.md)
   - same-terrain comparison between force-feasibility and falsifier-heavy public forecast reasoning
+- [hoh-vs-macgregor-comparison-note.md](hoh-vs-macgregor-comparison-note.md)
+  - same-terrain comparison between political-system incoherence and force-feasibility failure
+- [macgregor-vs-sachs-comparison-note.md](macgregor-vs-sachs-comparison-note.md)
+  - same-terrain comparison between force-feasibility severity and structural exit logic
 - [pape-audit-lessons.md](pape-audit-lessons.md)
   - first real-task lessons note for the audit system
 - [templates/](templates/)
