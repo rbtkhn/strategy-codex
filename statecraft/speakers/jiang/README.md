@@ -15,6 +15,8 @@ Use it for Jiang-facing statecraft routing, Predictive History mirror access, an
 - [jiang-support-spine-2026.md](jiang-support-spine-2026.md)
 - [ph-civ/README.md](ph-civ/README.md)
 
+For Jiang-facing analysis of how the lectures teach, spread, and hold together across the mirror, use [ph-civ/docs/jiang-analysis-index.md](ph-civ/docs/jiang-analysis-index.md).
+
 ## Canonical Structure
 
 Jiang's canonical statecraft shelf has one count/routing SSOT, three shelf surfaces, one support spine, and one embedded mirror:

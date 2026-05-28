@@ -18,6 +18,7 @@ Use this file to decide which Jiang layer to open first.
 - the task needs `ph-civ`, `ph-apo`, or `ph-mus` chapter paths
 - the task is checking source-video indexes, museum manifests, or public repo docs
 - the task is about mirror sync, remote identity, or public-repo parity
+- the task is about Jiang's lecture pedagogy, rhetoric, spread, or cross-volume analysis notes
 
 ## Open the raw archive first when
 
@@ -29,6 +30,7 @@ Use this file to decide which Jiang layer to open first.
 
 - Count and scope: [jiang-predictive-history-master-index.md](jiang-predictive-history-master-index.md)
 - Public mirror: [ph-civ/README.md](ph-civ/README.md)
+- Jiang analysis notes: [ph-civ/docs/jiang-analysis-index.md](ph-civ/docs/jiang-analysis-index.md)
 - Raw archive bench: [source-archive/statecraft/jiang-predictive-history-index.md](/C:/dev/strategy-codex/source-archive/statecraft/jiang-predictive-history-index.md)
 
 ## Routing rule
