@@ -17,6 +17,10 @@ Best current direct anchors:
 
 - [2025-01-10 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-01-10/transcript-diesen-sachs-deep-states-aims-in-russia-and-more-2025-01-10.md)
 - [2025-02-04 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-04/transcript-diesen-sachs-differentiating-between-strategy-and-noise-in-trumps-foreign-policy-2025-02-04.md)
+- [2025-03-17 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-03-17/transcript-diesen-sachs-peace-negotiations-and-the-end-of-nato-2025-03-17.md)
+- [2025-04-07 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-07/transcript-diesen-sachs-chaos-and-restructuring-of-the-global-economy-2025-04-07.md)
+- [2025-05-02 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-02/transcript-diesen-sachs-chinese-statecraft-and-a-new-world-order-2025-05-02.md)
+- [2025-05-19 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-19/transcript-diesen-sachs-europes-declining-economy-security-and-common-sense-2025-05-19.md)
 - [2026-05-12 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-12/youtube-glenn-diesen-jeffrey-sachs-new-european-military-bloc-for-war-against-russia-2026-05-12.md)
 - [2026-05-23 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-23/transcript-diesen-sachs-the-baltic-states-are-now-the-most-dangerous-place-in-the-world-2026-05-23.md)
 

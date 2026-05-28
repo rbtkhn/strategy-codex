@@ -10,6 +10,10 @@ Purpose: provide the canonical route map for materialized Sachs appearances and 
 
 - [2025-01-10 - Deep State's Aims in Russia and More](/C:/dev/strategy-codex/source-archive/statecraft/2025-01-10/transcript-diesen-sachs-deep-states-aims-in-russia-and-more-2025-01-10.md)
 - [2025-02-04 - Differentiating Between Strategy and Noise in Trump's Foreign Policy](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-04/transcript-diesen-sachs-differentiating-between-strategy-and-noise-in-trumps-foreign-policy-2025-02-04.md)
+- [2025-03-17 - Peace Negotiations & the End of NATO](/C:/dev/strategy-codex/source-archive/statecraft/2025-03-17/transcript-diesen-sachs-peace-negotiations-and-the-end-of-nato-2025-03-17.md)
+- [2025-04-07 - Chaos & Restructuring of the Global Economy](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-07/transcript-diesen-sachs-chaos-and-restructuring-of-the-global-economy-2025-04-07.md)
+- [2025-05-02 - Chinese Statecraft & a New World Order](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-02/transcript-diesen-sachs-chinese-statecraft-and-a-new-world-order-2025-05-02.md)
+- [2025-05-19 - Europe's Declining Economy, Security & Common Sense](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-19/transcript-diesen-sachs-europes-declining-economy-security-and-common-sense-2025-05-19.md)
 - [2025-08-11 - Trump-Putin Meeting: Peace or Deception?](/C:/dev/strategy-codex/source-archive/statecraft/2025-08-11/youtube-glenn-diesen-jeffrey-sachs-trump-putin-meeting-peace-or-deception-2025-08-11.md)
 - [2026-02-28 - US & Israel Attack Iran - War Is Spreading Across the Region](/C:/dev/strategy-codex/source-archive/statecraft/2026-02-28/transcript-diesen-sachs-us-israel-attack-iran-war-is-spreading-across-the-region-2026-02-28.md)
 - [2026-03-16 - Israel Could Use Nuclear Weapons Against Iran](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-16/youtube-glenn-diesen-jeffrey-sachs-israel-could-use-nuclear-weapons-against-iran-2026-03-16.md)
