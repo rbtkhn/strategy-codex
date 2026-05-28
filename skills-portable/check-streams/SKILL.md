@@ -3,7 +3,7 @@ name: check-streams
 preferred_activation: check streams
 description: "Check the daily tracked YouTube stream roster for Davis, Diesen, Alkorshid/Dialogue Works, Napolitano/Judging Freedom, and Mercouris: discover today's uploads with YouTube-first tooling, filter suspected clips, list main uploads first, materialize only the operator-approved subset into canonical raw-input, and suggest speaker-folder routing hints."
 portable: true
-version: 0.2.9
+version: 0.3.0
 tags:
   - operator
   - strategy
@@ -23,6 +23,19 @@ Use the single-URL YouTube transcript workflow for one-off URLs. Use this skill 
 **Legacy activation:** `cognition streams` remains accepted as a compatibility alias. Treat `check streams` as canonical in new docs, Coffee C routing, and operator-facing prose.
 
 For the higher-level notebook meaning of this routine, see [cognition-streams-daily-aperture.md](../../docs/skill-work/work-strategy/cognition-streams-daily-aperture.md).
+
+## Clip law
+
+Treat highlight clips, teaser cuts, and same-day companion excerpts as discovery noise unless the operator explicitly asks to preserve them.
+
+- Main uploads come first.
+- Clips are secondary and should usually be listed separately or suppressed.
+- Do not materialize a clip into canonical archive merely because it is easier to recover than the parent interview.
+- If the parent interview is not yet recovered, keep the clip as a clue, not as a substitute.
+
+Short rule:
+
+`discover clips if useful -> prefer parent episode -> archive clips only by explicit operator override`
 
 ## Durable routing model
 
@@ -122,6 +135,7 @@ When returning results, label each item or group with one of these statuses when
 - **materialized from operator paste**
 - **discovered but unresolved**
 - **missing direct watch URL**
+- **clip only, parent unresolved**
 
 Do not blur these states together in prose. In particular:
 
@@ -130,6 +144,7 @@ Do not blur these states together in prose. In particular:
 - `materialized from operator paste` means the operator supplied the transcript body and you used that to create or strengthen the local artifact
 - `discovered but unresolved` means the title/date/source shape appears real, but transcript-grade or canonical-source conditions are not yet satisfied
 - `missing direct watch URL` means exactly that: you found external evidence, but not a trustworthy direct YouTube watch URL
+- `clip only, parent unresolved` means the only thing currently recovered is a highlight or companion clip and the full parent episode is still not materially recovered
 
 ## URL confidence rule
 
@@ -286,8 +301,13 @@ If the new capture materially changes the continuity story rather than only exte
 
 - `*-arc.md`
 - `*-routing.md`
+- one bounded `*-support-spine*.md` note when the new source changes reinforcement-vs-primary reading
 
 Do this narrowly. Do not widen a simple ingest into full shelf redesign unless the operator asks.
+
+Short shelf-closeout heuristic:
+
+`bench always -> routing when opener meaning changes -> support spine when lane role changes`
 
 ## Multi-guest naming rule
 

@@ -7,7 +7,7 @@ description: >-
   or citation hygiene. Use for requests like "audit the ritter-arc", "compare
   freeman/parsi/ritter", "align these arcs", "what are the thinnest months", or
   "make sure nothing is wrongly excluded from the arc".
-version: 0.1.0
+version: 0.1.2
 tags:
   - operator
   - strategy-codex
@@ -33,6 +33,7 @@ This skill is for:
 - checking whether raw-input items were wrongly excluded
 - fixing placeholder leakage and compatibility overreach
 - deciding whether a migrated statecraft-side month layer is chronology-owning, synthesis-only, or still host-led
+- deciding whether a support branch is `primary chronology`, `bounded monthly synthesis`, or `reinforcement only`
 
 This skill is **not** for:
 
@@ -71,6 +72,7 @@ Month-layer note:
 - a speaker may own no native month layer at all
 - a speaker may own a **bounded monthly synthesis** layer without taking chronology ownership
 - a speaker may own a stronger native month layer that carries chronology more directly
+- a speaker may rely on **reinforcement branches** whose job is to widen or sharpen the reading without taking chronology ownership at all
 
 Do not collapse those three cases into one binary.
 
@@ -100,6 +102,16 @@ Use these references:
 - [`codex/speakers/README.md`](../../../codex/speakers/README.md)
 - [`codex/speakers/map/open-first-routes.md`](../../../codex/speakers/map/open-first-routes.md)
 - [`codex/speakers/_templates/speaker-surface-orthogonality-review-template.md`](../../../codex/speakers/_templates/speaker-surface-orthogonality-review-template.md)
+
+Migration decision loop:
+
+- first determine whether the speaker's canonical shelf is `statecraft-side` or `codex-side`
+- if `statecraft-side` is canonical:
+  - update the statecraft `README`, raw-input bench, and monthly shelf as needed
+  - treat codex `README.md`, `index.md`, and obvious pointer files as compatibility unless they still own a real host arc or branch surface
+- if `codex-side` still owns the real branch arc:
+  - update that codex host arc directly
+  - do not invent a parallel statecraft arc unless one already materially exists
 
 ### 2. Classify surfaces by job
 
@@ -134,6 +146,11 @@ Exception:
 - if the shelf has already migrated into a statecraft-side canonical speaker shelf, it may still create **bounded monthly synthesis** shelves even when chronology remains host-led
 - in that case, the audit should say explicitly that the month is `speaker-synthesis-led` rather than `chronology-owning`
 
+Branch-role note:
+
+- a shelf may also contain **reinforcement branches** that are materially real and worth routing to, but that still do not justify native month pages
+- in that case, say so explicitly rather than forcing false symmetry with the main chronology lane
+
 ### 4. Arc-preserving repair priority
 
 Do not rank thin raw-inputs by incompleteness alone. Rank them by how much shelf truth they damage if they remain thin.
@@ -154,6 +171,7 @@ Month-ownership labels:
 - `host-led` = host-local arcs still own chronology; the speaker shelf should not create native month pages yet
 - `speaker-synthesis-led` = the speaker shelf may own bounded monthly synthesis pages, but chronology still belongs to host-local arcs
 - `speaker-chronology-led` = the speaker shelf owns month pages strongly enough that chronology is materially carried on the speaker side
+- `reinforcement-only` = the branch is real and worth preserving for routing or support-spine work, but it does not own chronology and does not justify a native month ladder
 
 Short rule:
 
@@ -200,6 +218,11 @@ If yes, prefer `speaker-synthesis-led` wording over either:
 
 - pretending no native month layer exists
 - or silently promoting the month into chronology ownership
+
+If no, but the branch still clearly helps retrieval:
+
+- preserve it as `reinforcement-only`
+- update routing or support-spine language rather than forcing a native month page
 
 #### Repair rubric for thin captures
 
@@ -258,6 +281,7 @@ This doctrine is for:
 
 - deciding which thin captures most weaken the shelf if left thin
 - deciding whether a month deserves bounded support
+- deciding whether a branch deserves bench-only, routing-plus-support-spine, or true month-layer treatment
 - explaining why a month may be mature but still structurally under-repaired
 
 This doctrine is not for:
@@ -323,6 +347,21 @@ If the shelf is being migrated into `statecraft/speakers/`, use this repair orde
 
 Do not rely only on `README.md` and `index.md` pointers if other repo surfaces or compatibility residue still expect codex-local core files to resolve.
 
+### 7a. Reinforcement-branch repair rule
+
+When a new capture lands on a reinforcement branch, do not reflexively create a month page.
+
+Preferred order:
+
+1. update the provenance bench
+2. update `routing.md` if the branch now merits first-open or support-open mention
+3. update one support-spine note if the branch's role in the shelf changed
+4. create a native month page only if the branch has crossed from `reinforcement-only` to `speaker-synthesis-led` or `speaker-chronology-led`
+
+Short rule:
+
+`reinforcement capture -> bench first -> routing/support second -> month page only if role truly changed`
+
 ### 8. Verify
 
 After edits, test these questions:
@@ -339,6 +378,13 @@ Also verify:
 - compatibility files are visibly non-canonical
 - raw-input benches remain broader than canonical support surfaces where appropriate
 - if a statecraft-side migration occurred, codex-side stubs resolve cleanly and do not preserve a competing route stack
+
+Closeout test:
+
+- canonical shelf updated
+- compatibility surfaces not mistakenly treated as canonical
+- host-local branch surfaces updated when they still own chronology or ranking
+- generated day shelf rebuilt if a new archive file was landed
 
 ## Comparison mode
 

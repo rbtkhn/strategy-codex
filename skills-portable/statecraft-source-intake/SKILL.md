@@ -3,7 +3,7 @@ name: statecraft-source-intake
 preferred_activation: statecraft source intake
 description: "Capture operator-supplied transcript-bearing source objects into the canonical statecraft source archive with the correct family pattern, truthful provenance, and no summary-or-stub drift."
 portable: true
-version: 0.1.6
+version: 0.1.7
 tags:
   - operator
   - statecraft
@@ -61,6 +61,7 @@ If the operator's next move is interpretation, route from the landed archive obj
 2. **Resolve the archive family before writing**
    - Identify the host / show / guest / recurring thread ownership.
    - Reuse the existing family pattern rather than inventing a fresh one.
+   - Distinguish **full interview / parent episode** from **highlight clip / companion clip** before naming anything.
    - Typical family questions:
      - Is this `Dialogue Works / Nima`?
      - Is this `Judging Freedom / Napolitano`?
@@ -68,6 +69,7 @@ If the operator's next move is interpretation, route from the landed archive obj
      - Is this a **solo Mercouris channel upload**?
      - Is this `The Duran / Mercouris`?
      - Is this a recurring guest-owned lane on an outside host?
+     - Is this a real full-source Tucker / Carlson interview, or only a clipped excerpt from one?
 
 3. **Choose the correct canonical object shape**
    - Preserve the full transcript-bearing body.
@@ -103,6 +105,11 @@ If the operator's next move is interpretation, route from the landed archive obj
    - State the family shape used.
    - State whether tests were run.
    - State whether the intake batch remains uncommitted if that is still true.
+
+8. **Refresh the smallest still-live archive surfaces**
+   - Refresh the touched day-folder `README.md`.
+   - If the landed source strengthens an already-material speaker shelf, refresh the relevant speaker provenance bench in the same pass.
+   - If the new source changes continuity rather than merely extending the bench, tighten only the minimally affected shelf surfaces such as `*-routing.md` or one support-spine note.
 
 ## Verification and closeout
 
@@ -154,6 +161,19 @@ Short rule:
 
 `real transcript + anchored identity + unresolved direct URL -> archive yes, fiction no`
 
+## Clip discipline
+
+Do not let a clipped object quietly replace the real interview.
+
+- If the supplied object is clearly a short highlight clip, excerpt, or same-day companion segment cut from a longer parent episode, do **not** file it as the canonical archive object by default.
+- Prefer the full parent interview or full parent monologue when it exists or is clearly the true source event.
+- If only the clip is currently recoverable, keep it outside canonical statecraft archive intake unless the operator explicitly asks to preserve that clip as its own object.
+- If uncertainty remains, say so plainly and avoid pretending the clip is the whole interview.
+
+Short rule:
+
+`parent interview first, clip only by explicit operator override`
+
 ## Family-resolution heuristics
 
 - Prefer the **existing neighboring file family** over abstract perfection.
@@ -190,6 +210,16 @@ Short rule:
 - When multiple major guests appear, prefer the established neighboring Diesen naming pattern instead of inventing a new compact scheme.
 - If a Glenn Diesen transcript is real but the direct YouTube watch URL is still missing, do not block archive intake on that basis alone. Use the best trustworthy dated surface available, keep `show`/`host`/`thread` stable, and make the unresolved watch-surface seam explicit in `source_note`.
 
+### Tucker Carlson / outside-host support lanes
+
+- Treat Tucker captures as real archive objects when the operator has supplied a full transcript-bearing interview or a clearly anchored full-source mirror.
+- Keep the host/show context explicit:
+  - `show: Tucker Carlson`
+  - `host: Tucker Carlson`
+  - recurring guest ownership can still appear in filename or downstream shelf routing when the repo already uses that pattern
+- If the direct watch URL is unresolved but a trustworthy transcript mirror and publication date are available, land the object honestly rather than over-claiming a recovered watch surface.
+- Do not confuse a Tucker clip, teaser, or excerpt with the full interview; if the object is clipped, fall back to the clip-discipline rule above.
+
 ### Daniel Davis Deep Dive
 
 - Use `youtube-daniel-davis-deep-dive-*` for standard Daniel Davis Deep Dive YouTube captures unless a different neighboring family clearly governs the object.
@@ -215,6 +245,7 @@ Short rule:
 - Never let deprecated names such as `raw-input` or `provenance` quietly reassert canonical ownership.
 - Never convert a transcript-bearing source into a summary-grade note just because the transcript is messy.
 - Never hide uncertainty about whether a transcript is verbatim, operator-pasted, or lightly normalized.
+- Never treat a highlight clip as the canonical full interview unless the operator explicitly wants the clip preserved as its own object.
 - For Napolitano captures, remove cold-open or promo scaffolding only when the ideological, sponsor, or schedule boundary is unambiguous; if it is entangled with noisy ASR or substantive exchange, leave it and flag the file for later manual review.
 
 ## Success condition
