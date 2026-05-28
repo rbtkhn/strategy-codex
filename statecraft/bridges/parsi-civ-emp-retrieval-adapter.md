@@ -6,6 +6,8 @@ WORK only; not Record.
 
 Use this adapter when a Parsi-style claim needs to extract settlement mechanism, guarantee logic, bargaining architecture, or institutional durability from `civ-emp` without flattening the civilizational/state substrate that the mechanism depends on.
 
+This adapter is part of the [Persia recognition-vs-settlement bridge](persia-recognition-vs-settlement-bridge.md), not a substitute for Persia lane drafting.
+
 ## When To Use
 
 Use this adapter when the live claim is primarily about:
@@ -17,6 +19,8 @@ Use this adapter when the live claim is primarily about:
 - regional architecture and durable settlement
 
 If the live question is still mainly about dignity, legitimacy, recognition leakage, or sovereignty grammar under pressure, use the [Marandi adapter](marandi-civ-emp-retrieval-adapter.md) instead.
+
+If the real uncertainty is still whether the object belongs on the recognition-first or settlement-first side, open the [Persia recognition-vs-settlement bridge](persia-recognition-vs-settlement-bridge.md) first and return here through its choice rule.
 
 ## Primary Conversion Chain
 

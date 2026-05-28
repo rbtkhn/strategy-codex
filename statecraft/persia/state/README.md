@@ -4,6 +4,29 @@ WORK only; not Record.
 
 Use this folder for the current Iranian state apparatus: supreme authority, elected government, foreign ministry, parliament, IRGC, security councils, clerical legitimacy carriers, and partner channels. This is the near-term institutional layer that turns Iranian civilizational memory and imperial/security striving into deterrence, retaliation, restraint, sanctions bargaining, transit leverage, and implementable instruments.
 
+## Where This Sits
+
+This is the current-carrier bench inside the Persia lane. It sits below the primary [Iran helix](../helix.md) and above direct transaction drafting when the real question is who can authorize, implement, restrain, veto, or spoil a policy.
+
+## Reading Posture
+
+Read this folder as the institutional-carrier layer, not as the whole Iran lane. Its job is to convert lane logic into offices, factions, ministries, and coercive bodies that can actually carry or block a clause.
+
+## Pressure Points
+
+- split authority across supreme, elected, diplomatic, parliamentary, and security surfaces
+- deterrence, retaliation, restraint, and escalation authorization
+- sanctions bargaining, relief implementation, and public legitimacy carry
+- IRGC, foreign ministry, and clerical carrier tension
+
+## Limits Of The Frame
+
+This bench names current authority and implementation reality. It does not replace the civilizational dignity grammar, the empire-side leverage logic, or the helix that regulates them together.
+
+## Return Path
+
+Return to [Iran helix](../helix.md) when the governing line is slipping, to [Iran civilization](../civilization/) when the real issue is dignity or sovereignty carry, to [Iran empire](../empire/) when the question is outward control, and to [Persia transactions](../transactions/) once the carrier problem has been resolved.
+
 ## Start Here
 
 - [Authority structure](authority-structure.md) - split current authority across supreme, elected, diplomatic, security, parliamentary, and clerical surfaces.

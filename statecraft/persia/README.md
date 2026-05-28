@@ -20,6 +20,8 @@ Start with a dignity-preserving instrument such as a transit-security bargain, p
 
 If the object arrived as a live speaker claim or event claim and the real uncertainty is still `recognition-first` versus `settlement-first`, invoke `statecraft-bridge` as the post-lane bridge step before descending into helix, strand, or transaction work. In that sequence, `statecraft-bridge` chooses the Marandi or Parsi retrieval profile; this lane still owns the substantive Persia/Iran draft after the bridge resolves.
 
+Use [Persia lane spine and support ring](spine-and-support-ring.md) when you need the clean route discipline explicitly stated. The helix remains the primary interpretive surface; the spine note exists to keep support material from competing with the main line.
+
 ## State Interest
 
 Iran seeks regime survival, sovereignty, territorial integrity, sanctions relief, deterrence, energy and export autonomy, and recognition as a necessary regional actor rather than a disposable target.
@@ -47,6 +49,7 @@ Use Richelieu to test whether Iran's leverage is carried by durable institutions
 ## Civilization / Empire Helix
 
 - [Helix](helix.md) - primary lane interpretation; use this first when the question spans dignity, sovereignty, leverage, deformation, and restoration together.
+- [Spine and support ring](spine-and-support-ring.md) - names the canonical Persia route and the strengthening material that should not displace it.
 
 Persia is now the fourth helix-first transfer case. Start with [helix](helix.md) when the lane question has split across several notes and you need the governing line again. The helix is the primary authored interpretation; the first-wave objects below are the supporting strand surfaces.
 
@@ -79,6 +82,7 @@ Open Pape for the fourth-center thesis and shortage clocks, Parsi / Marandi for 
 For `civ-emp` retrieval conditioned by speaker logic rather than by lane-first drafting alone, use the quiet bridge pair:
 
 - `statecraft-bridge` when you want the operator-facing post-lane bridge step rather than direct adapter selection
+- [Persia recognition-vs-settlement bridge](../bridges/persia-recognition-vs-settlement-bridge.md) when the real uncertainty is still retrieval posture rather than clause design
 - [Marandi CIV-EMP retrieval adapter](../bridges/marandi-civ-emp-retrieval-adapter.md) for recognition-first, legitimacy-first, and sovereignty-pressure reads
 - [Parsi CIV-EMP retrieval adapter](../bridges/parsi-civ-emp-retrieval-adapter.md) for settlement-first, guarantee-first, and architecture reads
 

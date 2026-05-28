@@ -4,6 +4,29 @@ WORK only; not Record.
 
 Purpose: name Iran's outward striving for security and control so statecraft can regulate leverage before it becomes uncontrolled disruption.
 
+## Where This Sits
+
+This is the empire-side strand bench beneath the primary [Iran helix](../helix.md). It holds the outward control stack that turns vulnerability into leverage, deterrence, bargaining pressure, or overreach.
+
+## Reading Posture
+
+Read this folder when the question has narrowed to leverage design rather than integrated lane interpretation. Its job is to show how Iran spends geography, deterrence, latency, partner networks, and transit pressure before those tools become self-isolating.
+
+## Pressure Points
+
+- Hormuz leverage, maritime denial, and transit bargaining
+- missiles, drones, air defense, and nuclear latency
+- partner reassurance, sanctions adaptation, and export autonomy
+- recognition, relief, and restraint as the limiting principle on control
+
+## Limits Of The Frame
+
+This bench names outward striving, not the whole Iran lane. It should not displace the civilization-side dignity grammar, the current state-carrier layer, or the helix that regulates all three together.
+
+## Return Path
+
+Return to [Iran helix](../helix.md) when leverage logic is drifting away from dignity or restoration, to [Iran civilization](../civilization/) when the real issue is sovereignty or anti-humiliation carry, to [Iran state](../state/) when the question is who can implement or restrain the lever, and to [Persia transactions](../transactions/) once the leverage has become draftable instrument logic.
+
 Helix-first role: this folder now serves as the empire-side strand bench beneath the primary [Iran helix](../helix.md). Use the helix for the integrated lane interpretation; use this folder when the real question has narrowed to the control stack itself.
 
 Phase-one CIV-EMP opening: start with [Iran empire instrument](seed-instruments.md) when the live question is Hormuz leverage, partner deterrence, nuclear latency, or whether Iranian outward control still serves a bounded recognition-and-relief path. Read it together with [Iran state memory](../civilization/objects/state-memory.md).

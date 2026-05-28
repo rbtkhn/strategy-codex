@@ -4,6 +4,29 @@ WORK only; not Record.
 
 This bench spends compact speaker-state into Persia-lane instruments. Use the canonical [Statecraft Transaction Template](../../templates/statecraft-transaction.md) for any reusable transaction.
 
+## Where This Sits
+
+This is the Persia lane's transaction bench. It sits after the helix, strand, carrier, and routing questions have been narrowed enough that the next honest move is spendable instrument language.
+
+## Reading Posture
+
+Read this folder as the lane's clause-and-mechanism bench, not as the first Persia entrypoint. Open it only when the object has crossed the transaction threshold and the task is now to convert leverage, dignity, relief, and restraint into reusable instrument form.
+
+## Pressure Points
+
+- converting leverage into recognized restraint rather than spoiler status
+- aligning dignity, deterrence, transit, and relief sequencing
+- separating current Iranian carriers from deeper successor-stable interests
+- testing whether a clause is implementable rather than merely elegant
+
+## Limits Of The Frame
+
+This bench assumes the earlier routing and interpretation work has already been done. If the object is still mostly diagnosis, comparison, or bridge ambiguity, it belongs earlier in the workshop line.
+
+## Return Path
+
+Return to [Iran helix](../helix.md) when the governing line is unstable, to [Iran state](../state/) when carrier reality is still unresolved, to [Iran civilization](../civilization/) or [Iran empire](../empire/) when the problem is still strand-level, and to the bridge layer when the real uncertainty is still recognition-first versus settlement-first retrieval posture.
+
 This folder is not the primary front door. The canonical workshop entry lives in [../../README.md](../../README.md).
 
 The general maturation doctrine also lives there. This folder assumes the object has already survived braid and routing, and is only the right stop once the Persia-lane transaction threshold has actually been crossed.

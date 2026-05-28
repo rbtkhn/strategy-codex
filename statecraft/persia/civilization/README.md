@@ -4,6 +4,29 @@ WORK only; not Record.
 
 Purpose: name the inherited Iranian code that shapes sovereignty, dignity, deterrence, resistance, and the demand to be treated as a necessary regional actor.
 
+## Where This Sits
+
+This is the civilization-side strand bench beneath the primary [Iran helix](../helix.md). It holds the inherited code that gives Persian/Iranian sovereignty, dignity, resistance, geography, war, and peace their carry inside the lane.
+
+## Reading Posture
+
+Read this folder as a bounded interpretive bench, not as a total Iran archive. Use it when the governing question has narrowed to continuity memory, legitimacy grammar, geographic carry, coercive grammar, or settlement grammar.
+
+## Pressure Points
+
+- sovereignty, dignity, resistance, and anti-humiliation authority
+- plateau geography, Hormuz carry, and exposure memory
+- martyrdom, endurance, and intervention memory
+- war and peace grammar as successor-stable lane inputs
+
+## Limits Of The Frame
+
+This bench explains inherited code, not current carrier authority and not the whole control stack. It should sharpen lane logic, not float free of [Iran state](../state/) or [Iran empire](../empire/).
+
+## Return Path
+
+Return to [Iran helix](../helix.md) for the integrated line, to [Iran state](../state/) when a live carrier question governs, to [Iran empire](../empire/) when the real issue is outward leverage design, and to [Persia transactions](../transactions/) once the civilization-side condition has been turned into spendable instrument language.
+
 Helix-first role: this folder now serves as the civilization-side strand bench beneath the primary [Iran helix](../helix.md). Use the helix for the integrated lane interpretation; use the notes here when the governing question has clearly narrowed to continuity memory, geography, war grammar, peace grammar, or later second-wave arc-lenses.
 
 Phase-one CIV-EMP opening: start with [state memory](objects/state-memory.md) when the live question is whether a proposal can carry Iranian sovereignty, dignity, deterrent continuity, and anti-humiliation competence as state memory rather than as temporary tactical survival.

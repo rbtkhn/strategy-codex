@@ -66,6 +66,8 @@ Named recent events no longer open a separate `current-event` function. Verify t
 - Need the shortest teaching path from a named recent event to a draftable instrument? Open [Verified live-event to instrument](sheets/verified-live-event-to-instrument.md).
 - Need live host-law for `Davis` or `Napolitano`? Open [statecraft/hosts/](hosts/README.md).
 - Need live speaker trust or track-record work? Open [statecraft/audits/](audits/README.md).
+- Need durable receipts of how statecraft is learning from its own objects? Open [recursive-learning-journal.md](recursive-learning-journal.md).
+- Need reusable laws extracted from those learning events? Open [patterns/](patterns/README.md).
 
 ## Era Schema
 
