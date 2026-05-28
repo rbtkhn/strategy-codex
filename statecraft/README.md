@@ -65,6 +65,7 @@ Named recent events no longer open a separate `current-event` function. Verify t
 - Need the shared crisis-object fit check? Open [Transaction Router](sheets/transaction-router.md).
 - Need the shortest teaching path from a named recent event to a draftable instrument? Open [Verified live-event to instrument](sheets/verified-live-event-to-instrument.md).
 - Need live host-law for `Davis` or `Napolitano`? Open [statecraft/hosts/](hosts/README.md).
+- Need live speaker trust or track-record work? Open [statecraft/audits/](audits/README.md).
 
 ## Era Schema
 
@@ -101,5 +102,6 @@ Archive law:
 
 - `source-archive/statecraft/` stores source-bearing full captures for statecraft
 - `statecraft/` owns live routing, continuity, bridge conditioning, and drafting control
+- `statecraft/audits/` owns live speaker trust and accuracy tracking without collapsing them into one score
 
 The former academy entrypoint remains at [codex/academy/statecraft/README.md](/C:/dev/strategy-codex/codex/academy/statecraft/README.md) as a compatibility pointer during migration. The repo-root `statecraft/` tree is the canonical live system.

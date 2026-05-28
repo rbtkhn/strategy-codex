@@ -39,7 +39,7 @@ What this bench does not own:
 5. [Civilizational pattern to statecraft](civilizational-pattern-to-statecraft.md) - Convert PH-CIV pattern and narrative into authority, restraint, and settlement.
 6. [Folder choreography](folder-choreography.md) - Move from `civilization/` memory through `empire/` reach, `state/` decision, `helix.md` regulation, and `transactions/` binding.
 7. [Speaker insight to policy memo](speaker-insight-to-policy-memo.md) - Convert one sourced speaker insight into a memo without importing the speaker's whole worldview.
-8. [Comprehensive power vs coercive center](comprehensive-power-vs-coercive-center.md) - Test whether an actor's power comes from scale, leverage, denial, chokepoints, or brokerage.
+8. [Comprehensive power vs coercive center](comprehensive-power-vs-coercive-center.md) - Test whether an actor's power comes from scale, leverage, denial, chokepoints, or brokerage, and preserve the recurring fourth-center / energy-repricing distinction.
 9. [Civilizational polycentric world order](civilizational-polycentric-world-order.md) - Distinguish unipolar, multipolar, polycentric, and civilizational order when a draft needs plural legitimacy rather than one rule-maker.
 10. [National perspective orthogonality](national-perspective-orthogonality.md) - Compare U.S., Russia, China, Iran, or other state views without flattening their interests, fears, instruments, and off-ramps.
 11. [Authority carrier orthogonality](authority-carrier-orthogonality.md) - Compare leader, office, party-state, security-council, and split-authority carrier problems.
@@ -49,20 +49,22 @@ What this bench does not own:
 15. [Transaction router](transaction-router.md) - Match a verified live-event or crisis-object read to the 12-object transaction plateau before drafting or proposing a new object.
 16. [Verified live-event to instrument](verified-live-event-to-instrument.md) - Teach the shortest honest route from a named recent event to crisis object, lane ownership, output form, and instrument wedge, and use the False Elegance Ladder when the read sounds coherent too early.
 17. [Great-power energy absorber threshold](great-power-energy-absorber-threshold.md) - Decide when an energy-alignment signal becomes a new transaction candidate rather than a near fit.
-18. [Pape coercive-center index](pape-coercive-center-index.md) - Track great-power ranking by crisis leverage rather than size alone.
+18. [Pape coercive-center index](pape-coercive-center-index.md) - Track great-power ranking by crisis leverage rather than size alone, especially when reopening optics and persistent energy repricing diverge.
 19. [Mearsheimer structural-realist scoreboard](mearsheimer-structural-realist-scoreboard.md) - Track structural power, balancing pressure, overextension risk, institutional carrier, and restraint.
-20. [Civilization, empire, faith, science, memory, desire](../civ-emp/civilization-empire-faith-science-memory-desire.md) - Run the six-part governing-layer doctrine before drafting when inheritance, instrument, legitimacy, procedure, continuity, or appetite are competing for control of the read.
-21. [Present-day arc extension matrix](present-day-arc-extension-matrix.md) - Extend deep America, Russia, China, and Iran arcs into cybernetic carriers for live-event, transaction, and recursive-candidate reads.
-22. [Mutation statecraft](mutation-statecraft.md) - Detect when a familiar object changes function under pressure: alliance to lattice, trade to dependency, deterrence to escalation platform, recognition to humiliation trap, or republic to emergency empire.
-23. [Russia depth arc](russia-depth-arc.md) - Test frontier-depth, symbolic-depth, imperial-depth, space-depth, system-depth, and dependency-depth when a Russia read invokes exposure, recognition, encirclement, or equilibrium.
-24. [China order arc](china-order-arc.md) - Test mandate-order, standardization-order, hydraulic-order, fragmentation-memory, development-order, party-state-order, and compute-order when a China read invokes order, unity, routes, implementation, or disorder.
-25. [Iran dignity-sovereignty arc](iran-dignity-sovereignty-arc.md) - Test plateau-sovereignty, righteous-order, Persianate-continuity, Shi'a-resistance, resource-sovereignty, martyrdom-endurance, and sanctions-sovereignty when an Iran read invokes dignity, deterrence, relief, verification, or Hormuz.
-26. [America empire-republic arc](america-empire-republic-arc.md) - Test imperial-provincial inheritance, revolutionary-republic, constitutional-union, continental-expansion, maritime-commercial order, emergency-empire, and platform-sovereignty when an America read invokes lawful reach, sanctions, alliances, technology, extraction, suppression, or successor legitimacy.
-27. [CIV-EMP source retrieval matrix](../civ-emp/indexes/source-retrieval-matrix.md) - Use CIV-EMP source, lane, lens, and counterweight retrieval before major state-memory, god, lit, art, geo, war, peace, or empire-instrument backfills.
-28. [Civilization lens backfill audit](civilization-lens-backfill-audit.md) - Score existing `art`, `lit`, `geo`, `war`, and `peace` surfaces for source-backed CIV-EMP strength before upgrading them.
-29. [State braid model](state-braid-model.md) - Keep several linked arcs together long enough to draft one authority-bearing, restraint-bearing, settlement-bearing object.
-30. [Abraham helix](abraham-helix.md) - Track the long-run recurrence generated by Judaism, Christianity, and Islam as a shared but contested civilizational field.
-31. **National lanes** - Open [America](../america/), [Russia](../russia/), [China](../china/), or [Persia](../persia/) when the comparison should become a country-specific treaty, memo, negotiation brief, or crisis instrument.
+20. [Speaker credibility factors](speaker-credibility-factors.md) - Compare speakers by self-correction, falsifier discipline, mechanism clarity, evidence posture, scope honesty, and host consistency rather than by agreement or charisma.
+    Live comparative scoring and claim-by-claim tracking now live in [../audits/README.md](../audits/README.md); this sheet remains conceptual doctrine only.
+21. [Civilization, empire, faith, science, memory, desire](../civ-emp/civilization-empire-faith-science-memory-desire.md) - Run the six-part governing-layer doctrine before drafting when inheritance, instrument, legitimacy, procedure, continuity, or appetite are competing for control of the read.
+22. [Present-day arc extension matrix](present-day-arc-extension-matrix.md) - Extend deep America, Russia, China, and Iran arcs into cybernetic carriers for live-event, transaction, and recursive-candidate reads.
+23. [Mutation statecraft](mutation-statecraft.md) - Detect when a familiar object changes function under pressure: alliance to lattice, trade to dependency, deterrence to escalation platform, recognition to humiliation trap, or republic to emergency empire.
+24. [Russia depth arc](russia-depth-arc.md) - Test frontier-depth, symbolic-depth, imperial-depth, space-depth, system-depth, and dependency-depth when a Russia read invokes exposure, recognition, encirclement, or equilibrium.
+25. [China order arc](china-order-arc.md) - Test mandate-order, standardization-order, hydraulic-order, fragmentation-memory, development-order, party-state-order, and compute-order when a China read invokes order, unity, routes, implementation, or disorder.
+26. [Iran dignity-sovereignty arc](iran-dignity-sovereignty-arc.md) - Test plateau-sovereignty, righteous-order, Persianate-continuity, Shi'a-resistance, resource-sovereignty, martyrdom-endurance, and sanctions-sovereignty when an Iran read invokes dignity, deterrence, relief, verification, or Hormuz.
+27. [America empire-republic arc](america-empire-republic-arc.md) - Test imperial-provincial inheritance, revolutionary-republic, constitutional-union, continental-expansion, maritime-commercial order, emergency-empire, and platform-sovereignty when an America read invokes lawful reach, sanctions, alliances, technology, extraction, suppression, or successor legitimacy.
+28. [CIV-EMP source retrieval matrix](../civ-emp/indexes/source-retrieval-matrix.md) - Use CIV-EMP source, lane, lens, and counterweight retrieval before major state-memory, god, lit, art, geo, war, peace, or empire-instrument backfills.
+29. [Civilization lens backfill audit](civilization-lens-backfill-audit.md) - Score existing `art`, `lit`, `geo`, `war`, and `peace` surfaces for source-backed CIV-EMP strength before upgrading them.
+30. [State braid model](state-braid-model.md) - Keep several linked arcs together long enough to draft one authority-bearing, restraint-bearing, settlement-bearing object.
+31. [Abraham helix](abraham-helix.md) - Track the long-run recurrence generated by Judaism, Christianity, and Islam as a shared but contested civilizational field.
+32. **National lanes** - Open [America](../america/), [Russia](../russia/), [China](../china/), or [Persia](../persia/) when the comparison should become a country-specific treaty, memo, negotiation brief, or crisis instrument.
 
 ## Prompt Forms
 
@@ -124,14 +126,22 @@ Open [Speaker insight to policy memo](speaker-insight-to-policy-memo.md) when a 
 ### Comprehensive Power Vs Coercive Center
 
 Open [Comprehensive power vs coercive center](comprehensive-power-vs-coercive-center.md) when a claim about "world power" needs a sharper metric before it becomes a policy memo, treaty frame, or negotiation assumption.
+It is also the recurring statecraft home for the distinction between comprehensive scale and coercive-center leverage, including the postwar energy-repricing test.
 
 ### Pape Coercive-Center Index
 
 Open [Pape coercive-center index](pape-coercive-center-index.md) when a draft needs to track whether crisis leverage is changing the great-power ranking over time.
+Use it when nominal reopening and true normalization may diverge, especially if price, insurance, and routing stay elevated after a formal de-escalation.
 
 ### Mearsheimer Structural-Realist Scoreboard
 
 Open [Mearsheimer structural-realist scoreboard](mearsheimer-structural-realist-scoreboard.md) when a draft needs balance-of-power logic, overextension checks, and Richelieu / Bismarck overlays.
+
+### Speaker Credibility Factors
+
+Open [speaker credibility factors](speaker-credibility-factors.md) when the notebook needs to compare speakers by self-correction, falsifier discipline, mechanism quality, evidence posture, scope honesty, and host consistency.
+Use it when agreement with the operator is threatening to masquerade as credibility, or when one conspicuous `I was wrong` risks overshadowing the wider verification burden.
+For live speaker trust classes, correction taxonomy, and claim-by-claim scoring, move from this doctrinal sheet into [../audits/README.md](../audits/README.md).
 
 ### Civilization, Empire, Faith, Science, Memory, Desire
 
