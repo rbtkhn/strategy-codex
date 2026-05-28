@@ -4,22 +4,22 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Stats
 
-- Source files: `3`
-- Type mix: `transcript` (2), `youtube` (1)
-- Distinct channels/shows: `2`
-- Distinct hosts: `3`
-- Distinct guests: `2`
-- Distinct threads: `3`
+- Source files: `4`
+- Type mix: `transcript` (3), `youtube` (1)
+- Distinct channels/shows: `3`
+- Distinct hosts: `4`
+- Distinct guests: `3`
+- Distinct threads: `4`
 
 ## Channel / Show Rollup
 
-- `Mercouris` (1), `Neutrality Studies` (1)
+- `Judging Freedom` (1), `Mercouris` (1), `Neutrality Studies` (1)
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Alexander Mercouris` (1), `Nima Alkhorshid` (1), `Pascal Lottaz` (1)
-- Guests: `Chas Freeman` (1), `Larry C. Johnson` (1)
-- Threads: `freeman` (1), `mercouris` (1), `nima` (1)
+- Hosts: `Alexander Mercouris` (1), `Andrew Napolitano` (1), `Nima Alkhorshid` (1), `Pascal Lottaz` (1)
+- Guests: `Chas Freeman` (1), `Jeffrey Sachs` (1), `Larry C. Johnson` (1)
+- Threads: `freeman` (1), `mercouris` (1), `napolitano` (1), `nima` (1)
 
 ## Filename Family Fallbacks
 
@@ -28,5 +28,6 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Files
 
 - `transcript-dialogue-works-larry-johnson-larry-c-johnson-russia-launches-largest-missile-drone-attack-yet-2025-12-15.md`
+- `transcript-napolitano-sachs-trumps-empire-of-hubris-2025-12-15.md`
 - `transcript-neutrality-studies-freeman-us-naval-seizures-caribbean-2025-12-15.md`
 - `youtube-alex-mercouris-zelensky-wants-us-alliance-says-no-kiev-donbass-retreat-tense-talks-eu-b-2025-12-15.md`

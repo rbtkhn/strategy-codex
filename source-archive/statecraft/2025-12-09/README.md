@@ -4,22 +4,22 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Stats
 
-- Source files: `2`
-- Type mix: `transcript` (1), `youtube` (1)
-- Distinct channels/shows: `2`
-- Distinct hosts: `2`
-- Distinct guests: `1`
-- Distinct threads: `2`
+- Source files: `3`
+- Type mix: `youtube` (2), `transcript` (1)
+- Distinct channels/shows: `3`
+- Distinct hosts: `3`
+- Distinct guests: `2`
+- Distinct threads: `3`
 
 ## Channel / Show Rollup
 
-- `Judging Freedom` (1), `Mercouris` (1)
+- `Judging Freedom` (1), `Mercouris` (1), `Neutrality Studies` (1)
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Alexander Mercouris` (1), `Andrew Napolitano` (1)
-- Guests: `Chas Freeman` (1)
-- Threads: `freeman` (1), `mercouris` (1)
+- Hosts: `Alexander Mercouris` (1), `Andrew Napolitano` (1), `Pascal Lottaz` (1)
+- Guests: `Chas Freeman` (1), `Jeffrey Sachs, Yakov Rabkin, Manuel Ramos` (1)
+- Threads: `freeman` (1), `mercouris` (1), `neutrality` (1)
 
 ## Filename Family Fallbacks
 
@@ -29,3 +29,4 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - `transcript-napolitano-freeman-does-anyone-want-peace-2025-12-09.md`
 - `youtube-alex-mercouris-us-ukraine-peace-plan-collapses-zelensky-defiant-eu-usurps-fund-raising-2025-12-09.md`
+- `youtube-neutrality-studies-rabkin-ramos-sachs-israels-zionist-self-destruction-2025-12-09.md`

@@ -65,6 +65,9 @@ Best current direct anchors:
 - [2025-11-11 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-11/transcript-napolitano-sachs-trump-and-tariffs-trump-and-war-2025-11-11.md)
 - [2025-11-17 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-17/youtube-napolitano-sachs-netanyahu-sabotages-a-palestinian-state-2025-11-17.md)
 - [2025-11-24 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-24/transcript-napolitano-sachs-us-still-woefully-ignorant-of-russia-2025-11-24.md)
+- [2025-12-02 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-02/transcript-napolitano-sachs-is-trump-planning-more-wars-2025-12-02.md)
+- [2025-12-10 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-10/transcript-napolitano-sachs-underestimating-russia-2025-12-10.md)
+- [2025-12-15 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-15/transcript-napolitano-sachs-trumps-empire-of-hubris-2025-12-15.md)
 - [2026-03-16 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-16/transcript-napolitano-sachs-are-we-drifting-toward-a-global-war-2026-03-16.md)
 - [2026-05-27 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-27/transcript-napolitano-sachs-trump-has-no-lifeline-out-of-iran-2026-05-27.md)
 
@@ -96,6 +99,19 @@ Open the Fidias interview first when the real question is:
 Best current anchor:
 
 - [2025-11-01 / Fidias Podcast x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-01/transcript-fidias-panayiotou-jeffrey-sachs-the-truth-about-who-really-controls-the-world-2025-11-01.md)
+
+## Open Neutrality Studies Or HORIZONS First
+
+Open the Neutrality Studies or HORIZONS anchors first when the real question is:
+
+- how Sachs performs in a panel or diplomatic-room setting outside the recurring Napolitano and Diesen lanes
+- how anti-zionist or civilizational critique is widened through crossover discussion rather than compressed monologue
+- whether December 2025 materially extends the shelf through new host contexts rather than only more Judging Freedom continuity
+
+Best current anchors:
+
+- [2025-12-09 / Neutrality Studies x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-09/youtube-neutrality-studies-rabkin-ramos-sachs-israels-zionist-self-destruction-2025-12-09.md)
+- [2025-12-19 / HORIZONS Discussion x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-19/transcript-horizons-vuk-jeremic-sachs-the-asia-pacific-century-explained-2025-12-19.md)
 
 
 ## Open Mercouris Or Tucker First

@@ -53,6 +53,9 @@ Purpose: provide the canonical route map for materialized Sachs appearances and 
 - [2025-11-11 - Trump and Tariffs/Trump and War.](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-11/transcript-napolitano-sachs-trump-and-tariffs-trump-and-war-2025-11-11.md)
 - [2025-11-17 - Netanyahu Sabotages a Palestinian State](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-17/youtube-napolitano-sachs-netanyahu-sabotages-a-palestinian-state-2025-11-17.md)
 - [2025-11-24 - US Still Woefully Ignorant of Russia.](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-24/transcript-napolitano-sachs-us-still-woefully-ignorant-of-russia-2025-11-24.md)
+- [2025-12-02 - Is Trump Planning More Wars?](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-02/transcript-napolitano-sachs-is-trump-planning-more-wars-2025-12-02.md)
+- [2025-12-10 - Underestimating Russia.](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-10/transcript-napolitano-sachs-underestimating-russia-2025-12-10.md)
+- [2025-12-15 - Trump's Empire of Hubris.](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-15/transcript-napolitano-sachs-trumps-empire-of-hubris-2025-12-15.md)
 - [2026-03-16 - Are We Drifting Toward a Global War?](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-16/transcript-napolitano-sachs-are-we-drifting-toward-a-global-war-2026-03-16.md)
 - [2026-05-27 - Trump Has No Lifeline Out of Iran](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-27/transcript-napolitano-sachs-trump-has-no-lifeline-out-of-iran-2026-05-27.md)
 
@@ -64,6 +67,14 @@ Purpose: provide the canonical route map for materialized Sachs appearances and 
 ### Fidias Podcast
 
 - [2025-11-01 - The Truth About Who REALLY Controls the World](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-01/transcript-fidias-panayiotou-jeffrey-sachs-the-truth-about-who-really-controls-the-world-2025-11-01.md)
+
+### Neutrality Studies
+
+- [2025-12-09 - Israel‘s Zionist Self-Destruction](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-09/youtube-neutrality-studies-rabkin-ramos-sachs-israels-zionist-self-destruction-2025-12-09.md)
+
+### HORIZONS / CIRSD
+
+- [2025-12-19 - The Asia-Pacific Century Explained](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-19/transcript-horizons-vuk-jeremic-sachs-the-asia-pacific-century-explained-2025-12-19.md)
 
 ### Mercouris / The Duran
 
