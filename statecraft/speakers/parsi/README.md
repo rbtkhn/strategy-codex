@@ -4,7 +4,7 @@ WORK only; not Record.
 
 This is the canonical Parsi statecraft speaker shelf.
 
-Use it for speaker identity, authored/interview crossing, cross-context thread retrieval, bounded mature month support, and `civ-emp`-aware historical interpretation.
+Use it for speaker identity, authored/interview crossing, cross-context thread retrieval, bounded mature month support, and `civ-state`-aware historical interpretation.
 
 ## Open First
 
@@ -62,7 +62,7 @@ Current mature month support:
 - [Parsi historical examples audit](parsi-historical-examples-audit.md)
 - [Parsi themes](themes/README.md)
 
-`civ-emp` enters here as the interpretive source base, not as a routing co-pilot and not as a Parsi-specific bridge replacement.
+`civ-state` enters here as the interpretive source base, not as a routing co-pilot and not as a Parsi-specific bridge replacement.
 
 ## Compatibility Shape
 

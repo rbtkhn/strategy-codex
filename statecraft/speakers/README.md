@@ -4,7 +4,7 @@ WORK only; not Record.
 
 Purpose: hold the canonical speaker-state continuity surfaces that feed repo-root `statecraft/`.
 
-This subtree is speaker-organized rather than lane-organized so the same speaker-state object can feed multiple lanes, bridge adapters, and `civ-emp` indexes without being forced into one national bench too early.
+This subtree is speaker-organized rather than lane-organized so the same speaker-state object can feed multiple lanes, bridge adapters, and `civ-state` indexes without being forced into one national bench too early.
 
 ## Canonical Rule
 
@@ -34,9 +34,9 @@ Short constitutional split:
 - lane judgment
 - transaction authority
 - provenance itself
-- silent `civ-emp` mutation
+- silent `civ-state` mutation
 
-Speaker-state continuity lives here. Bridge adapters still live in [statecraft/bridges/](../bridges/), `civ-emp` still owns retrieval memory, and lanes still own substantive drafting.
+Speaker-state continuity lives here. Bridge adapters still live in [statecraft/bridges/](../bridges/), `civ-state` still owns retrieval memory, and lanes still own substantive drafting.
 
 When the real question is host-law rather than speaker identity, open [statecraft/hosts/](../hosts/README.md) instead of treating retired `codex/speakers/<host>/...` surfaces as live authority.
 

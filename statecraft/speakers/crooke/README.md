@@ -4,7 +4,7 @@ WORK only; not Record.
 
 This is the canonical Crooke statecraft speaker shelf.
 
-Use it for speaker identity, authored/interview continuity, route maps, bounded 2026 monthly synthesis, and `civ-emp`-aware historical audit work.
+Use it for speaker identity, authored/interview continuity, route maps, bounded 2026 monthly synthesis, and `civ-state`-aware historical audit work.
 
 ## Open First
 
@@ -51,7 +51,7 @@ Crooke now has a full canonical 2026 month ladder for the live year, but the mon
 - [Crooke historical examples audit](crooke-historical-examples-audit.md)
 - [Crooke historical themes](themes/README.md)
 
-`civ-emp` enters here as the primary interpretive source base, not as a routing co-pilot and not as a Crooke-specific bridge adapter.
+`civ-state` enters here as the primary interpretive source base, not as a routing co-pilot and not as a Crooke-specific bridge adapter.
 
 ## Compatibility Shape
 

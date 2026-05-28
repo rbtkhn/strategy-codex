@@ -4,7 +4,7 @@ WORK only; not Record.
 
 ## Purpose
 
-Use this object as the phase-one China empire-side carrier for the symmetric-first CIV-EMP migration. It names the outward instruments through which China tries to secure energy, routes, finance, industrial continuity, and anti-coercion leverage without letting the stabilizer role harden into visible policing burden or premature coalition containment.
+Use this object as the phase-one China empire-side carrier for the symmetric-first CIV-STATE migration. It names the outward instruments through which China tries to secure energy, routes, finance, industrial continuity, and anti-coercion leverage without letting the stabilizer role harden into visible policing burden or premature coalition containment.
 
 Helix-first role: in the China transfer case, this object now functions as the supporting empire-side strand beneath the primary [China helix](../helix.md). Use the helix for the integrated lane reading; use this object when the governing question has clearly narrowed to the outward control stack itself.
 

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0-statecraft-day-dashboard",
-  "generatedAt": "2026-05-27T02:36:02.767146+00:00",
+  "generatedAt": "2026-05-28T16:16:14.542790+00:00",
   "root": "C:\\dev\\strategy-codex\\source-archive\\statecraft",
   "query": {
     "channels": [],
@@ -13,7 +13,7 @@
   },
   "coverage": {
     "dayCount": 22,
-    "sourceFileCount": 123,
+    "sourceFileCount": 129,
     "firstDay": "2025-06-25",
     "lastDay": "2026-05-26"
   },
@@ -25,7 +25,7 @@
       },
       {
         "date": "2026-05-26",
-        "sourceCount": 15
+        "sourceCount": 18
       },
       {
         "date": "2026-05-18",
@@ -56,21 +56,13 @@
         "sourceCount": 6
       },
       {
-        "date": "2026-03-20",
+        "date": "2025-11-21",
         "sourceCount": 5
       }
     ],
     "quietDays": [
       {
         "date": "2025-06-25",
-        "sourceCount": 2
-      },
-      {
-        "date": "2025-07-30",
-        "sourceCount": 2
-      },
-      {
-        "date": "2025-08-29",
         "sourceCount": 2
       },
       {
@@ -97,19 +89,19 @@
     "channels": [
       {
         "name": "Dialogue Works",
-        "count": 28
+        "count": 29
+      },
+      {
+        "name": "Judging Freedom",
+        "count": 16
       },
       {
         "name": "Daniel Davis Deep Dive",
         "count": 15
       },
       {
-        "name": "Judging Freedom",
-        "count": 15
-      },
-      {
         "name": "Glenn Diesen",
-        "count": 10
+        "count": 11
       },
       {
         "name": "Mercouris",
@@ -140,6 +132,10 @@
         "count": 1
       },
       {
+        "name": "Jeffrey Sachs",
+        "count": 1
+      },
+      {
         "name": "The Duran",
         "count": 1
       }
@@ -147,14 +143,14 @@
     "hosts": [
       {
         "name": "Andrew Napolitano",
-        "count": 21
-      },
-      {
-        "name": "Daniel Davis",
-        "count": 15
+        "count": 22
       },
       {
         "name": "Glenn Diesen",
+        "count": 16
+      },
+      {
+        "name": "Daniel Davis",
         "count": 15
       },
       {
@@ -183,6 +179,10 @@
       },
       {
         "name": "Alex Christoforou",
+        "count": 1
+      },
+      {
+        "name": "Jeffrey Sachs",
         "count": 1
       },
       {
@@ -216,12 +216,12 @@
         "count": 6
       },
       {
-        "name": "John Mearsheimer",
-        "count": 4
+        "name": "Jeffrey Sachs",
+        "count": 6
       },
       {
-        "name": "Jeffrey Sachs",
-        "count": 3
+        "name": "John Mearsheimer",
+        "count": 4
       },
       {
         "name": "Lawrence Wilkerson",
@@ -347,7 +347,7 @@
       },
       {
         "name": "diesen",
-        "count": 17
+        "count": 18
       },
       {
         "name": "mercouris",
@@ -355,7 +355,7 @@
       },
       {
         "name": "napolitano",
-        "count": 9
+        "count": 10
       },
       {
         "name": "freeman",
@@ -416,6 +416,10 @@
       {
         "name": "ritter-mcgovern",
         "count": 1
+      },
+      {
+        "name": "sachs",
+        "count": 1
       }
     ],
     "fallbackFamilies": [
@@ -429,7 +433,7 @@
       },
       {
         "name": "transcript-*",
-        "count": 9
+        "count": 10
       },
       {
         "name": "youtube-glenn-diesen-*",
@@ -444,6 +448,10 @@
         "count": 5
       },
       {
+        "name": "predictive-history-*",
+        "count": 3
+      },
+      {
         "name": "youtube-dialogue-works-*",
         "count": 2
       },
@@ -455,6 +463,10 @@
   },
   "anomalies": {
     "fallbackHeavyDays": [
+      {
+        "date": "2026-05-26",
+        "fallbackCount": 8
+      },
       {
         "date": "2026-03-02",
         "fallbackCount": 7
@@ -468,10 +480,6 @@
         "fallbackCount": 5
       },
       {
-        "date": "2026-05-26",
-        "fallbackCount": 5
-      },
-      {
         "date": "2026-01-06",
         "fallbackCount": 4
       },
@@ -481,7 +489,7 @@
       },
       {
         "date": "2025-07-30",
-        "fallbackCount": 2
+        "fallbackCount": 3
       },
       {
         "date": "2025-09-12",
@@ -560,59 +568,7 @@
     },
     {
       "date": "2025-07-30",
-      "fileCount": 2,
-      "channels": [],
-      "shows": [],
-      "hosts": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        },
-        {
-          "name": "Nima Alkhorshid",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "Alastair Crooke",
-          "count": 1
-        },
-        {
-          "name": "Lawrence Wilkerson",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "diesen",
-          "count": 1
-        },
-        {
-          "name": "nima",
-          "count": 1
-        }
-      ],
-      "fallbackFamilies": [
-        {
-          "name": "transcript-*",
-          "count": 1
-        },
-        {
-          "name": "youtube-glenn-diesen-*",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "transcript-dialogue-works-alastair-crooke-alastair-crooke-two-fronts-no-escape-collapse-is-spreading-fast-2025-07-30.md",
-        "youtube-glenn-diesen-lawrence-wilkerson-lawrence-wilkerson-how-we-encircled-russia-and-made-europe-a-vassal-divide-rule-2025-07-30.md"
-      ],
-      "hasReadme": true,
-      "readmeParseOk": true
-    },
-    {
-      "date": "2025-08-29",
-      "fileCount": 2,
+      "fileCount": 3,
       "channels": [
         {
           "name": "Dialogue Works",
@@ -626,6 +582,93 @@
         }
       ],
       "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 2
+        },
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Alastair Crooke",
+          "count": 1
+        },
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        },
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 2
+        },
+        {
+          "name": "nima",
+          "count": 1
+        }
+      ],
+      "fallbackFamilies": [
+        {
+          "name": "transcript-*",
+          "count": 2
+        },
+        {
+          "name": "youtube-glenn-diesen-*",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "transcript-dialogue-works-alastair-crooke-alastair-crooke-two-fronts-no-escape-collapse-is-spreading-fast-2025-07-30.md",
+        "transcript-diesen-sachs-at-the-precipice-of-world-war-3-2025-07-30.md",
+        "youtube-glenn-diesen-lawrence-wilkerson-lawrence-wilkerson-how-we-encircled-russia-and-made-europe-a-vassal-divide-rule-2025-07-30.md"
+      ],
+      "hasReadme": true,
+      "readmeParseOk": true
+    },
+    {
+      "date": "2025-08-29",
+      "fileCount": 3,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        },
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        },
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        },
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        },
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Andrew Napolitano",
+          "count": 1
+        },
         {
           "name": "Glenn Diesen",
           "count": 1
@@ -643,6 +686,10 @@
         {
           "name": "Chas Freeman",
           "count": 1
+        },
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
         }
       ],
       "threads": [
@@ -652,6 +699,10 @@
         },
         {
           "name": "freeman",
+          "count": 1
+        },
+        {
+          "name": "napolitano",
           "count": 1
         }
       ],
@@ -663,6 +714,7 @@
       ],
       "fileNames": [
         "transcript-dialogue-works-amb-chas-freeman-america-s-fatal-mistake-a-disaster-in-the-making-2025-08-29.md",
+        "transcript-napolitano-sachs-rubios-shameful-and-illegal-interference-with-the-un-2025-08-29.md",
         "youtube-glenn-diesen-alastair-crooke-alastair-crooke-russia-s-patience-is-over-escalation-begins-2025-08-29.md"
       ],
       "hasReadme": true,
@@ -855,7 +907,7 @@
     },
     {
       "date": "2025-11-21",
-      "fileCount": 4,
+      "fileCount": 5,
       "channels": [
         {
           "name": "Dialogue Works",
@@ -863,6 +915,10 @@
         },
         {
           "name": "Glenn Diesen",
+          "count": 1
+        },
+        {
+          "name": "Jeffrey Sachs",
           "count": 1
         }
       ],
@@ -873,6 +929,10 @@
         },
         {
           "name": "Glenn Diesen",
+          "count": 1
+        },
+        {
+          "name": "Jeffrey Sachs",
           "count": 1
         }
       ],
@@ -888,6 +948,10 @@
         {
           "name": "Glenn Diesen",
           "count": 1
+        },
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
         }
       ],
       "guests": [
@@ -901,6 +965,10 @@
         },
         {
           "name": "Jacques Baud",
+          "count": 1
+        },
+        {
+          "name": "Jeffrey Sachs",
           "count": 1
         },
         {
@@ -924,6 +992,10 @@
         {
           "name": "nima",
           "count": 1
+        },
+        {
+          "name": "sachs",
+          "count": 1
         }
       ],
       "fallbackFamilies": [
@@ -940,7 +1012,8 @@
         "transcript-dialogue-works-amb-chas-freeman-why-ukraine-and-israel-are-closer-to-a-dead-end-than-ever-2025-11-21.md",
         "transcript-dialogue-works-larry-johnson-larry-c-johnson-col-larry-wilkerson-the-warning-signs-are-clear-war-is-coming-2025-11-21.md",
         "youtube-daniel-davis-deep-dive-alastair-crooke-trump-s-ukraine-peace-plan-eu-zelensky-resisting-alastair-crooke-lt-col-daniel-davis-2025-11-21.md",
-        "youtube-glenn-diesen-jacques-baud-28-point-peace-plan-pushed-by-the-u-s-2025-11-21.md"
+        "youtube-glenn-diesen-jacques-baud-28-point-peace-plan-pushed-by-the-u-s-2025-11-21.md",
+        "youtube-sachs-roasts-trump-for-skipping-the-g20-summit-in-south-africa-2025-11-21.md"
       ],
       "hasReadme": true,
       "readmeParseOk": true
@@ -2490,7 +2563,7 @@
     },
     {
       "date": "2026-05-26",
-      "fileCount": 15,
+      "fileCount": 18,
       "channels": [
         {
           "name": "Daniel Davis Deep Dive",
@@ -2667,6 +2740,10 @@
           "count": 4
         },
         {
+          "name": "predictive-history-*",
+          "count": 3
+        },
+        {
           "name": "youtube-alex-mercouris-*",
           "count": 1
         }
@@ -2681,7 +2758,10 @@
         "transcript-napolitano-hoh-why-the-pentagon-lies-2026-05-26.md",
         "transcript-napolitano-johnson-trump-afraid-of-the-zionists-2026-05-26.md",
         "transcript-napolitano-mearsheimer-neocons-want-more-war-2026-05-26.md",
+        "predictive-history-gb-11-dantes-revolution-2026-05-26.md",
+        "predictive-history-gb-12-dante-in-paradise-2026-05-26.md",
         "transcript-napolitano-ritter-why-bother-to-negotiate-with-trump-2026-05-26.md",
+        "predictive-history-game-theory-28-predictive-history-2026-05-26.md",
         "youtube-alex-mercouris-russian-fiercest-warning-kiev-decision-centres-will-be-attacked-patience-exhausted-west-quit-kiev-2026-05-26.md",
         "youtube-daniel-davis-deep-dive-col-douglas-macgregor-u-s-strikes-iran-again-2026-05-26.md",
         "youtube-daniel-davis-deep-dive-scott-ritter-ukraine-the-death-of-a-nation-2026-05-26.md",

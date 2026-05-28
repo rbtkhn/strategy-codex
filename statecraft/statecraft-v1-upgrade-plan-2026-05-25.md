@@ -61,13 +61,13 @@ This is an operator roadmap, not new doctrine.
 **Likely surfaces:**
 
 - [artifact-registry.md](artifact-registry.md)
-- [civ-emp/review-queue.md](civ-emp/review-queue.md)
+- [civ-state/review-queue.md](civ-state/review-queue.md)
 - lane-local `updates/pending.md` surfaces where needed
 
 **Implementation order:**
 
 1. start actually using the registry block on new or materially revised statecraft artifacts
-2. stage downstream-to-upstream source-memory discoveries in the `civ-emp` review queue instead of leaving them implicit
+2. stage downstream-to-upstream source-memory discoveries in the `civ-state` review queue instead of leaving them implicit
 3. separate lane-local doctrine lessons from upstream memory corrections every time a live pass teaches both
 
 **Done when:** new work is classifiable on contact, and real drafting discoveries have an explicit governed home rather than only living in session memory.

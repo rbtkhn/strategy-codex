@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # Ritter Index
 
-Purpose: front door for the canonical Ritter statecraft shelf, surfacing the person arc, routing doctrine, provenance bench, full bounded 2026 monthly synthesis ladder, and the `civ-emp` historical membrane.
+Purpose: front door for the canonical Ritter statecraft shelf, surfacing the person arc, routing doctrine, provenance bench, full bounded 2026 monthly synthesis ladder, and the `civ-state` historical membrane.
 
 ## Open First
 
@@ -14,7 +14,7 @@ Purpose: front door for the canonical Ritter statecraft shelf, surfacing the per
 - [February monthly shelf](stream/ritter-shelf-2026-02.md) - first bridge month where the 2026 ladder thickens visibly.
 - [March monthly shelf](stream/ritter-shelf-2026-03.md) - first full triple-helix dense-core month.
 - [April monthly shelf](stream/ritter-shelf-2026-04.md) - densest visible month synthesis.
-- [Historical examples audit](ritter-historical-examples-audit.md) - `civ-emp`-aware historical membrane.
+- [Historical examples audit](ritter-historical-examples-audit.md) - `civ-state`-aware historical membrane.
 
 ## Core Speaker Files
 

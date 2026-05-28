@@ -43,9 +43,9 @@ The Davis lane is especially helpful here because it forces Mercouris to state t
 
 Mercouris's arc is full of warnings against theater displacing structure. Settlement sequencing is where that general habit becomes most concrete.
 
-## CIV-EMP Bridge
+## CIV-STATE Bridge
 
-Open [Broken settlement, Minsk, and Istanbul sequencing](/C:/dev/strategy-codex/statecraft/civ-emp/indexes/mercouris/broken-settlement-minsk-and-istanbul-sequencing.md) when the task shifts from Mercouris's activation surface to deeper settlement-failure and trust-exhaustion retrieval.
+Open [Broken settlement, Minsk, and Istanbul sequencing](/C:/dev/strategy-codex/statecraft/civ-state/indexes/mercouris/broken-settlement-minsk-and-istanbul-sequencing.md) when the task shifts from Mercouris's activation surface to deeper settlement-failure and trust-exhaustion retrieval.
 
 ## Benchmark Snapshot
 
@@ -53,7 +53,7 @@ Open [Broken settlement, Minsk, and Istanbul sequencing](/C:/dev/strategy-codex/
 - Quote quality: 5
 - Route-family spread: 4
 - Argument-function clarity: 5
-- `civ-emp` bridge clarity: 5
+- `civ-state` bridge clarity: 5
 - Reuse value: 5
 
 ## Boundary

@@ -12,9 +12,9 @@ The index complements [Comprehensive Power Vs Coercive Center](comprehensive-pow
 
 Use Pape's speaker state as the main theory input:
 
-- [Pape speaker object](../../../speakers/pape/pape-speaker-object.md)
-- [Pape forecast ledger](../../../years/2026/pape/pape-forecast-ledger-2026.md)
-- [Pape helix](../../../speakers/pape/pape-helix.md)
+- [Pape speaker object](../speakers/pape/pape-speaker-object.md)
+- [Pape forecast ledger](../speakers/pape/stream/pape-forecast-ledger-2026.md)
+- [Pape helix](../speakers/pape/pape-helix.md)
 
 Use other speaker state only as corroboration, challenge, or mechanism support. Do not attribute this exact scoring system to Pape unless a future Pape-authored source states it.
 
@@ -34,6 +34,8 @@ Score each criterion from 0 to 10, then apply the weight.
 | Domestic cohesion under pressure | 8 | Can state and society endure sanctions, shortages, bombing, elite splits, or legitimacy pressure? |
 | Nuclear latency / escalation control | 7 | Can the actor approach, imply, or manage high escalation thresholds without losing control? |
 | Diplomatic monetization | 5 | Can the actor convert leverage into recognition, sanctions relief, guarantees, or architecture? |
+
+Treat durable post-crisis energy repricing as a composite signal rather than a new criterion. It mainly updates `Chokepoint leverage`, `Systemic spillover power`, and `Diplomatic monetization`. If transit resumes but Brent, insurance, and routing behavior stay structurally elevated, the coercive-center case has strengthened rather than faded.
 
 ## Baseline Snapshot - 2026-05-19
 
@@ -59,6 +61,7 @@ Append one row per meaningful update. Do not update the baseline silently.
 | date | trigger | changed actors | score movement | source / evidence | statecraft implication |
 | --- | --- | --- | --- | --- | --- |
 | 2026-05-19 | Initial statecraft baseline after Pape fourth-center discussion. | America, China, Russia, Iran, India, Saudi Arabia, Turkey, Israel, Pakistan, France. | Baseline established. | Pape speaker state plus academy-statecraft coercive-center discussion. | Use the index to test whether policy drafts are responding to comprehensive power, coercive leverage, or both. |
+| 2026-05-27 | Pape's oil-repricing phase sharpens the thesis from closure risk to durable risk-premium persistence after nominal reopening. | Persia, America, China, Saudi Arabia. | No baseline score change yet; update trigger clarified. | [Pape forecast ledger](../speakers/pape/stream/pape-forecast-ledger-2026.md) plus [2026-05-27 source captures](../../source-archive/statecraft/2026-05-27/README.md). | Track whether reopening actually normalizes price, insurance, and routing, or whether coercive leverage survives as a plateau. |
 
 ## Revisit Triggers
 
@@ -69,6 +72,7 @@ Update the index when one of these changes:
 - Russia or China distance from Iran, deepen support, or become trapped by Iran's escalation.
 - India shapes the crisis more directly than Iran.
 - Diesel, LNG, shipping insurance, or food/fertilizer shortages move from price shock into physical shortage.
+- Brent, war-risk insurance, or tanker-routing costs remain structurally elevated after nominal Hormuz reopening.
 - Domestic cohesion breaks in one of the top-ranked actors.
 - A treaty, ceasefire, transit compact, or sanctions-relief mechanism monetizes coercive leverage.
 

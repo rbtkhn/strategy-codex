@@ -4,7 +4,7 @@ WORK only; not Record.
 
 ## Purpose
 
-Use this object as the phase-one America empire-side carrier for the symmetric-first CIV-EMP migration. It names the outward control instruments through which America tries to secure maritime order, alliance geometry, and sanctions-finance reach without letting emergency empire outrun constitutional legitimacy.
+Use this object as the phase-one America empire-side carrier for the symmetric-first CIV-STATE migration. It names the outward control instruments through which America tries to secure maritime order, alliance geometry, and sanctions-finance reach without letting emergency empire outrun constitutional legitimacy.
 
 Helix-first role: in the America proving case, this object now functions as the supporting empire-side strand beneath the primary [America helix](../helix.md). Use the helix for the integrated lane reading; use this object when the governing question has clearly narrowed to the outward control stack itself.
 

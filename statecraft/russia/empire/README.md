@@ -29,7 +29,7 @@ Return to [Russia helix](../helix.md) when the integrated line is unstable, to [
 
 Helix-first role: this folder now serves as the empire-side strand bench beneath the primary [Russia helix](../helix.md). Use the helix for the integrated lane interpretation; use this folder when the real question has narrowed to the control stack itself.
 
-Phase-one CIV-EMP opening: start with [Russia empire instrument](seed-instruments.md) when the live question is leverage, buffers, energy pressure, or whether Russian outward control still serves a bounded settlement path. Read it together with [Russia state memory](../civilization/objects/state-memory.md).
+Phase-one CIV-STATE opening: start with [Russia empire instrument](seed-instruments.md) when the live question is leverage, buffers, energy pressure, or whether Russian outward control still serves a bounded settlement path. Read it together with [Russia state memory](../civilization/objects/state-memory.md).
 
 ## Desired Control
 

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0-statecraft-day-dashboard",
-  "generatedAt": "2026-05-27T02:36:02.745171+00:00",
+  "generatedAt": "2026-05-28T16:16:14.526028+00:00",
   "root": "C:\\dev\\strategy-codex\\source-archive\\statecraft",
   "query": {
     "channels": [],
@@ -13,7 +13,7 @@
   },
   "coverage": {
     "dayCount": 24,
-    "sourceFileCount": 149,
+    "sourceFileCount": 150,
     "firstDay": "2025-01-24",
     "lastDay": "2026-05-25"
   },
@@ -128,6 +128,10 @@
         "count": 1
       },
       {
+        "name": "Jeffrey Sachs",
+        "count": 1
+      },
+      {
         "name": "The Chris Hedges Report",
         "count": 1
       },
@@ -202,6 +206,10 @@
         "count": 1
       },
       {
+        "name": "Jeffrey Sachs",
+        "count": 1
+      },
+      {
         "name": "Joe Lauria",
         "count": 1
       },
@@ -240,12 +248,12 @@
         "count": 4
       },
       {
-        "name": "Seyed M. Marandi",
+        "name": "Jeffrey Sachs",
         "count": 3
       },
       {
-        "name": "Jeffrey Sachs",
-        "count": 2
+        "name": "Seyed M. Marandi",
+        "count": 3
       },
       {
         "name": "Ray McGovern",
@@ -439,6 +447,10 @@
       },
       {
         "name": "ritter-mcgovern",
+        "count": 1
+      },
+      {
+        "name": "sachs",
         "count": 1
       }
     ],
@@ -934,7 +946,7 @@
     },
     {
       "date": "2025-11-21",
-      "fileCount": 4,
+      "fileCount": 5,
       "channels": [
         {
           "name": "Dialogue Works",
@@ -942,6 +954,10 @@
         },
         {
           "name": "Glenn Diesen",
+          "count": 1
+        },
+        {
+          "name": "Jeffrey Sachs",
           "count": 1
         }
       ],
@@ -952,6 +968,10 @@
         },
         {
           "name": "Glenn Diesen",
+          "count": 1
+        },
+        {
+          "name": "Jeffrey Sachs",
           "count": 1
         }
       ],
@@ -967,6 +987,10 @@
         {
           "name": "Glenn Diesen",
           "count": 1
+        },
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
         }
       ],
       "guests": [
@@ -980,6 +1004,10 @@
         },
         {
           "name": "Jacques Baud",
+          "count": 1
+        },
+        {
+          "name": "Jeffrey Sachs",
           "count": 1
         },
         {
@@ -1003,6 +1031,10 @@
         {
           "name": "nima",
           "count": 1
+        },
+        {
+          "name": "sachs",
+          "count": 1
         }
       ],
       "fallbackFamilies": [
@@ -1019,7 +1051,8 @@
         "transcript-dialogue-works-amb-chas-freeman-why-ukraine-and-israel-are-closer-to-a-dead-end-than-ever-2025-11-21.md",
         "transcript-dialogue-works-larry-johnson-larry-c-johnson-col-larry-wilkerson-the-warning-signs-are-clear-war-is-coming-2025-11-21.md",
         "youtube-daniel-davis-deep-dive-alastair-crooke-trump-s-ukraine-peace-plan-eu-zelensky-resisting-alastair-crooke-lt-col-daniel-davis-2025-11-21.md",
-        "youtube-glenn-diesen-jacques-baud-28-point-peace-plan-pushed-by-the-u-s-2025-11-21.md"
+        "youtube-glenn-diesen-jacques-baud-28-point-peace-plan-pushed-by-the-u-s-2025-11-21.md",
+        "youtube-sachs-roasts-trump-for-skipping-the-g20-summit-in-south-africa-2025-11-21.md"
       ],
       "hasReadme": true,
       "readmeParseOk": true

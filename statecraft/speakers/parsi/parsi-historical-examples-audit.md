@@ -2,7 +2,7 @@
 
 WORK only; not Record.
 
-Purpose: establish the Parsi shelf's `civ-emp` membrane and preserve how historical-pattern retrieval should deepen the shelf without replacing authored or interview source authority.
+Purpose: establish the Parsi shelf's `civ-state` membrane and preserve how historical-pattern retrieval should deepen the shelf without replacing authored or interview source authority.
 
 ## Current audit status
 
@@ -13,7 +13,7 @@ Parsi's shelf is already strong in mechanism and policy-process continuity. The 
 - guarantees and architecture
 - post-primacy settlement logic
 
-Raw-input and authored texts remain evidence authority. `civ-emp` is the interpretive source base.
+Raw-input and authored texts remain evidence authority. `civ-state` is the interpretive source base.
 
 ## Boundary
 

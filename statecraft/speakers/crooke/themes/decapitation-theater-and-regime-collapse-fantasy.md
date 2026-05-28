@@ -41,9 +41,9 @@ This makes the theme different from a generic anti-regime-change critique. It is
 
 Crooke treats collapse fantasy as a hidden engine of escalation. If planners believe the adversary is almost finished, they keep authorizing another shove.
 
-## CIV-EMP Bridge
+## CIV-STATE Bridge
 
-Open [Decapitation theater and regime-collapse fantasy](/C:/dev/strategy-codex/statecraft/civ-emp/indexes/crooke/decapitation-theater-and-regime-collapse-fantasy.md) when the task is deeper regime-change-memory and intervention-pattern retrieval.
+Open [Decapitation theater and regime-collapse fantasy](/C:/dev/strategy-codex/statecraft/civ-state/indexes/crooke/decapitation-theater-and-regime-collapse-fantasy.md) when the task is deeper regime-change-memory and intervention-pattern retrieval.
 
 ## Benchmark Snapshot
 
@@ -51,7 +51,7 @@ Open [Decapitation theater and regime-collapse fantasy](/C:/dev/strategy-codex/s
 - Quote quality: 5
 - Route-family spread: 4
 - Argument-function clarity: 5
-- `civ-emp` bridge clarity: 4
+- `civ-state` bridge clarity: 4
 - Reuse value: 5
 
 ## Boundary

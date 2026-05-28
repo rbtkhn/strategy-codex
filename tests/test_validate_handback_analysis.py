@@ -23,6 +23,21 @@ def _run(stdin_json: str) -> tuple[int, str, str]:
     return p.returncode, p.stdout, p.stderr
 
 
+def _openclaw_stage_payload(*, content: str, constitution_check_status: str, staged_risk_tier: str) -> dict[str, str]:
+    """Minimal OpenClaw-shaped stage payload for handback-analysis validation."""
+    return {
+        "content": content,
+        "user_id": "grace-mar",
+        "title": "OpenClaw session handback",
+        "selection_text": "",
+        "source": "openclaw_stage",
+        "artifact_path": "artifacts/openclaw/session-note.md",
+        "artifact_sha256": "deadbeef" * 8,
+        "constitution_check_status": constitution_check_status,
+        "staged_risk_tier": staged_risk_tier,
+    }
+
+
 def test_validate_ok_clear() -> None:
     payload = {
         "content": "summary\n\nCONSTITUTION_ADVISORY: status=advisory_clear; rule_ids=none",
@@ -118,6 +133,22 @@ def test_manual_escalate_allows_matching_rejection_narrative() -> None:
     rc, out, err = _run(json.dumps(payload))
     assert rc == 0
     assert err == ""
+
+
+def test_openclaw_stage_payload_structured_conflict_manual_but_approves_fails() -> None:
+    payload = _openclaw_stage_payload(
+        content=(
+            "OpenClaw handback summary.\n\n"
+            "Structured risk tier says manual escalation is required, but the analysis says "
+            "this candidate is mergeable and no blockers remain.\n\n"
+            "CONSTITUTION_ADVISORY: status=advisory_clear; rule_ids=none"
+        ),
+        constitution_check_status="advisory_clear",
+        staged_risk_tier="manual_escalate",
+    )
+    rc, _, err = _run(json.dumps(payload))
+    assert rc == 1
+    assert "approval-like" in err
 
 
 def test_staged_risk_tier_omitted_skips_narrative_heuristic() -> None:

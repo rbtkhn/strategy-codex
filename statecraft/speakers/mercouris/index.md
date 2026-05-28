@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # Mercouris Index
 
-Purpose: front door for the canonical Mercouris statecraft shelf, surfacing the person arc, routing doctrine, provenance bench, stream-native crossing surface, bounded 2026 monthly synthesis ladder, and the `civ-emp` historical membrane.
+Purpose: front door for the canonical Mercouris statecraft shelf, surfacing the person arc, routing doctrine, provenance bench, stream-native crossing surface, bounded 2026 monthly synthesis ladder, and the `civ-state` historical membrane.
 
 ## Open First
 

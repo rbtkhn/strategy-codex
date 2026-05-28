@@ -4,7 +4,7 @@ WORK only; not Record.
 
 ## Purpose
 
-Use this object as the phase-one Russia empire-side carrier for the symmetric-first CIV-EMP migration. It names the outward instruments through which Russia tries to secure strategic depth, bargaining leverage, and recognition without letting security memory harden into self-defeating overreach.
+Use this object as the phase-one Russia empire-side carrier for the symmetric-first CIV-STATE migration. It names the outward instruments through which Russia tries to secure strategic depth, bargaining leverage, and recognition without letting security memory harden into self-defeating overreach.
 
 Helix-first role: in the Russia transfer case, this object now functions as the supporting empire-side strand beneath the primary [Russia helix](../helix.md). Use the helix for the integrated lane reading; use this object when the governing question has clearly narrowed to the outward control stack itself.
 

@@ -43,9 +43,9 @@ The Diesen route is especially valuable here because it gives Mercouris a slower
 
 Mercouris is not only an order analyst. He is also a legitimacy analyst, and legitimacy crisis often appears on his shelf through remembered national or regional forms.
 
-## CIV-EMP Bridge
+## CIV-STATE Bridge
 
-Open [Habsburg residue and European legitimacy fracture](/C:/dev/strategy-codex/statecraft/civ-emp/indexes/mercouris/habsburg-residue-and-european-legitimacy-fracture.md) when the task shifts from Mercouris's activation surface to deeper imperial-residue and legitimacy-memory retrieval.
+Open [Habsburg residue and European legitimacy fracture](/C:/dev/strategy-codex/statecraft/civ-state/indexes/mercouris/habsburg-residue-and-european-legitimacy-fracture.md) when the task shifts from Mercouris's activation surface to deeper imperial-residue and legitimacy-memory retrieval.
 
 ## Benchmark Snapshot
 
@@ -53,7 +53,7 @@ Open [Habsburg residue and European legitimacy fracture](/C:/dev/strategy-codex/
 - Quote quality: 4
 - Route-family spread: 4
 - Argument-function clarity: 4
-- `civ-emp` bridge clarity: 3
+- `civ-state` bridge clarity: 3
 - Reuse value: 4
 
 ## Boundary

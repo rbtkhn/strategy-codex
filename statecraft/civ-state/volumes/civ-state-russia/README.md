@@ -4,7 +4,7 @@ WORK only; not Record.
 
 Russia is a live lane-backed CIV-STATE volume. Use it when the problem is strategic depth, recognition, sovereignty under encirclement pressure, imperial inheritance, or disruption without overbind.
 
-Russia is presented here as a strong civilization-state case because its sovereignty chain begins with Rurik and survives recurrent chaos rather than uninterrupted calm. The Russian claim persists through Kievan formation, Mongol pressure, Muscovite regathering, imperial expansion, Soviet mutation, and post-Soviet restoration claims. Russia's civilization-state claim is not that its sovereignty is unbroken in form, but that sovereign memory repeatedly survives political destruction and regathers authority after chaos.
+Russia is presented here as a strong civilization-state case because its sovereignty chain begins with Rurik and survives recurrent chaos rather than uninterrupted calm. The Russian claim persists through Kievan formation, Horde domination, Muscovite regathering, imperial expansion, Soviet mutation, and post-Soviet restoration claims. Russia's civilization-state claim is not that its sovereignty is unbroken in form, but that sovereign memory repeatedly survives political destruction and regathers authority after chaos.
 
 The inheritance from Kievan Rus is contested in modern historiography, but CIV-STATE is tracking the Russian sovereignty claim and survival narrative: how continuity is asserted, condensed, and carried forward after fracture, not how every dispute is finally resolved.
 
@@ -15,12 +15,14 @@ Primary live lane: [Russia statecraft lane](../../../russia/README.md)
 - Deep grammar retrieval: [Russia sacred grammar](../../sacred-grammar/russia.md)
 - Sovereign opening: Rurik as the foundational sovereign
 - Current carrier: present Russian state / Russian Federation
+- Spine law: order-restoring authority is accepted first, sacralized later, licensed under domination if necessary, and then internalized by one regathering center
 
 **Civilization-State Diagnostic**
 - Civilization-state claim: strong civilization-state because sovereignty survives repeated disorder rather than remaining institutionally smooth
-- Sovereignty chain: `Rurik -> Putin`
+- Sovereignty chain: `Rurik / Novgorod -> Kievan Rus -> Horde-licensed principalities -> Muscovy -> Tsardom / Empire -> Soviet state -> Russian Federation -> Putin`
 - Sacred / civilizational grammar: Orthodoxy, suffering, gathering, endurance, restoration after fracture, and anti-encirclement legitimacy
 - Current carrier: the present Russian state as claimant to restored sovereign continuity after Soviet and post-Soviet rupture
+- Legitimacy sequence: invitation/order-restoration grammar, then dynastic and sacral ratification, then licensed survival under Horde pressure, then Muscovite internalization of tribute, corridor control, and sole-sovereign authority
 - Failure mode: siege consciousness hardens into sterile coercion, or memory survives without renewal and attractive order
 - Statecraft relevance: teaches how states preserve sovereignty through collapse, invasion, regime mutation, and humiliation memory
 
@@ -32,9 +34,9 @@ Read each era below through the same question set:
 
 ## Ancient
 
-- Sovereignty form: Rurikid / Kievan formation as the first sovereign seed of the chain
-- Civilizational grammar: early dynastic claim, founding memory, proto-sacral legitimacy, and geographic depth
-- Rupture or mutation: fragility, regional dispersion, and contested early formation keep the chain exposed before it hardens
+- Sovereignty form: Rurikid insertion and Kievan formation as the first sovereign seed of the chain
+- Civilizational grammar: accepted outsider, order before procedure, dynastic seed, river-route control, and only later proto-sacral legitimacy
+- Rupture or mutation: fragility, regional dispersion, and contested early formation keep the chain exposed before it hardens; Rurik provides dynastic acceptance while Oleg and Kiev provide territorial coherence
 Best current carriers:
 - [Russia state memory](../../../russia/civilization/objects/state-memory.md)
 - [Russia sacred grammar](../../../russia/civilization/god.md)
@@ -43,9 +45,9 @@ Best current carriers:
 
 ## Medieval
 
-- Sovereignty form: post-Kievan fracture under Mongol domination, then Muscovite regathering as the survival mechanism of the chain
-- Civilizational grammar: Orthodoxy, gathering of the Russian lands, anti-fragmentation authority, and depth under pressure
-- Rupture or mutation: this is the central chaos phase, where sovereignty survives by migrating, condensing, and reasserting itself after devastation
+- Sovereignty form: post-Kievan fracture under Horde domination, then Muscovite regathering as the survival mechanism of the chain
+- Civilizational grammar: Orthodoxy as ratifier, gathering of the Russian lands, anti-fragmentation authority, tribute discipline, and depth under pressure
+- Rupture or mutation: this is the central chaos phase, where sovereignty survives by being licensed, compressed, and then internalized by Muscovy rather than simply preserved unchanged
 Best current carriers:
 - [Russia sacred grammar](../../../russia/civilization/god.md)
 - [Russia war](../../../russia/civilization/war.md)
@@ -56,7 +58,7 @@ Best current carriers:
 
 - Sovereignty form: tsardom and empire as restored, outward-projecting sovereign form after surviving medieval destruction
 - Civilizational grammar: recognition through depth, scale, imperial consolidation, and gathered authority
-- Rupture or mutation: expansion restores initiative and status, but begins to load the chain with overreach and successor-risk
+- Rupture or mutation: expansion restores initiative and status, but now scales Muscovite compression logic into empire and begins to load the chain with overreach and successor-risk
 Best current carriers:
 - [Russia peace](../../../russia/civilization/peace.md)
 - [Russia geography](../../../russia/civilization/geo.md)
@@ -87,5 +89,5 @@ Best current carriers:
 
 - **Current carrier**: present Russian state / Russian Federation
 - **Current sovereign head**: `Vladimir Putin`
-- **Present continuity claim**: restored and regathered Russian sovereign continuity after Soviet and post-Soviet rupture, concentrated in the present state as claimant to a much older chain
+- **Present continuity claim**: restored and regathered Russian sovereign continuity after Soviet and post-Soviet rupture, concentrated in the present state as claimant to a much older chain whose remembered sequence runs from accepted order-restoration through Muscovite internalization to modern depth-state restoration
 - **Boundary note**: do not confuse restoration claim with simple uninterrupted form or read the current sovereign head as the whole Russian civilization

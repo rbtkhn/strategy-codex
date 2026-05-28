@@ -29,7 +29,7 @@ Return to [China helix](../helix.md) when control logic is drifting away from or
 
 Helix-first role: this folder now serves as the empire-side strand bench beneath the primary [China helix](../helix.md). Use the helix for the integrated lane interpretation; use this folder when the real question has narrowed to the control stack itself.
 
-Phase-one CIV-EMP opening: start with [China empire instrument](seed-instruments.md) when the live question is routes, energy, infrastructure reach, finance, or whether Chinese outward control still serves anti-disorder statecraft. Read it together with [China state memory](../civilization/objects/state-memory.md).
+Phase-one CIV-STATE opening: start with [China empire instrument](seed-instruments.md) when the live question is routes, energy, infrastructure reach, finance, or whether Chinese outward control still serves anti-disorder statecraft. Read it together with [China state memory](../civilization/objects/state-memory.md).
 
 ## Desired Control
 

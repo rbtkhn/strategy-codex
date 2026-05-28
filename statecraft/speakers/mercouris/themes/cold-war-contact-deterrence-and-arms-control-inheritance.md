@@ -43,9 +43,9 @@ The native channel carries this theme most strongly because Mercouris likes to n
 
 Mercouris's shelf is unusually sensitive to continuity and sequence. He keeps returning to the idea that today's actors are not merely in a conflict; they are mismanaging the inheritance of an older conflict system.
 
-## CIV-EMP Bridge
+## CIV-STATE Bridge
 
-Open [Cold War contact, deterrence, and arms-control inheritance](/C:/dev/strategy-codex/statecraft/civ-emp/indexes/mercouris/cold-war-contact-deterrence-and-arms-control-inheritance.md) when the task shifts from Mercouris's modern activation surface to deeper contact-regime, deterrence-memory, and treaty-history retrieval.
+Open [Cold War contact, deterrence, and arms-control inheritance](/C:/dev/strategy-codex/statecraft/civ-state/indexes/mercouris/cold-war-contact-deterrence-and-arms-control-inheritance.md) when the task shifts from Mercouris's modern activation surface to deeper contact-regime, deterrence-memory, and treaty-history retrieval.
 
 ## Benchmark Snapshot
 
@@ -53,7 +53,7 @@ Open [Cold War contact, deterrence, and arms-control inheritance](/C:/dev/strate
 - Quote quality: 5
 - Route-family spread: 3
 - Argument-function clarity: 5
-- `civ-emp` bridge clarity: 4
+- `civ-state` bridge clarity: 4
 - Reuse value: 5
 
 ## Boundary

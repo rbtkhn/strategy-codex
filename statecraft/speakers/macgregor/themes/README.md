@@ -10,7 +10,7 @@ This front door exists in the current migration wave even though no individual M
 
 The shelf now needs the historical membrane in place because:
 
-- `civ-emp` is part of the canonical Macgregor statecraft shelf architecture
+- `civ-state` is part of the canonical Macgregor statecraft shelf architecture
 - future hardening will likely promote recurring historical-example families
 - the migration should establish the membrane before it starts multiplying theme files
 
@@ -30,10 +30,10 @@ Use [macgregor-historical-examples-audit.md](../macgregor-historical-examples-au
 
 - deciding whether a recurring Macgregor historical family is real enough to promote
 - scoring route families before creating speaker-side theme files
-- deciding whether a future `civ-emp` companion scaffold is justified
+- deciding whether a future `civ-state` companion scaffold is justified
 
 ## Boundary
 
 - These files are speaker-side commentary surfaces, not transcript authority.
-- These files are not `civ-emp` objects; they stay on the Macgregor side of the membrane.
+- These files are not `civ-state` objects; they stay on the Macgregor side of the membrane.
 - Do not create one file per named example. Each file should hold a recurring theme family.

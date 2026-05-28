@@ -2,7 +2,7 @@
 
 WORK only; not Record.
 
-Purpose: establish the Johnson shelf's `civ-emp` membrane and record how historical-example retrieval should deepen the speaker object without replacing raw-input authority.
+Purpose: establish the Johnson shelf's `civ-state` membrane and record how historical-example retrieval should deepen the speaker object without replacing raw-input authority.
 
 ## Current Audit Status
 
@@ -16,13 +16,13 @@ What is already clear:
 
 What this audit does now:
 
-- names `civ-emp` as the primary interpretive source base for future Johnson historical-pattern work
+- names `civ-state` as the primary interpretive source base for future Johnson historical-pattern work
 - preserves the rule that historical deepening must stay downstream of source-backed Johnson surfaces
 - creates the membrane through which later theme files can grow without turning routing into bridge logic
 
 ## Boundary
 
 - raw-input quotes remain evidence authority
-- `civ-emp` is the primary pattern-reading source base
+- `civ-state` is the primary pattern-reading source base
 - this audit does not replace host arcs, month shelves, or the dense-core atlas
 - no Johnson-specific bridge adapter is created here

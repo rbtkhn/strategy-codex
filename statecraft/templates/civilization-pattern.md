@@ -12,7 +12,7 @@ Name the inherited code in one sentence.
 
 Name the form, memory, art, law, legitimacy, public order, meaning, or inherited excellence this pattern creates or preserves.
 
-## CIV-EMP Sources
+## CIV-STATE Sources
 
 - Primary:
 - Supporting:

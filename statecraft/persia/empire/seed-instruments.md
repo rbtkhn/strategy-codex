@@ -4,7 +4,7 @@ WORK only; not Record.
 
 ## Purpose
 
-Use this object as the phase-one Iran empire-side carrier for the symmetric-first CIV-EMP migration. It names the outward instruments through which Iran tries to convert vulnerability into deterrent leverage, sanctions relief, regional recognition, and non-disposability without letting pressure tactics harden into self-isolating disruption or partner-driven escalation.
+Use this object as the phase-one Iran empire-side carrier for the symmetric-first CIV-STATE migration. It names the outward instruments through which Iran tries to convert vulnerability into deterrent leverage, sanctions relief, regional recognition, and non-disposability without letting pressure tactics harden into self-isolating disruption or partner-driven escalation.
 
 Helix-first role: in the Iran transfer case, this object now functions as the supporting empire-side strand beneath the primary [Iran helix](../helix.md). Use the helix for the integrated lane reading; use this object when the governing question has clearly narrowed to the outward control stack itself.
 

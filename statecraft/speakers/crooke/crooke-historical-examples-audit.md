@@ -2,20 +2,20 @@ WORK only; not Record.
 
 # Crooke Historical Examples Audit
 
-Purpose: audit how Alastair Crooke uses historical examples across the bounded `2025-01-01 -> present` Crooke arc, using exact Crooke raw-input quotes as evidence authority and `civ-emp` as the primary interpretive source base for what kind of pattern each example is carrying.
+Purpose: audit how Alastair Crooke uses historical examples across the bounded `2025-01-01 -> present` Crooke arc, using exact Crooke raw-input quotes as evidence authority and `civ-state` as the primary interpretive source base for what kind of pattern each example is carrying.
 
 Method note:
 
 - Crooke raw-input provides quote authority.
-- `civ-emp` provides the primary pattern-reading layer.
-- legacy `civ-mem` is fallback provenance only when `civ-emp` is too thin to carry the interpretation.
+- `civ-state` provides the primary pattern-reading layer.
+- legacy `civ-mem` is fallback provenance only when `civ-state` is too thin to carry the interpretation.
 - this report is a benchmarkable v1 audit, not an exhaustive list of every historical reference on the Crooke shelf.
 
 Membrane rule:
 
 - the Crooke quote proves that the example was used and shows the immediate claim it served
-- the `civ-emp` reading explains the deeper pattern, mechanism, and counterweight
-- no `civ-emp` or `civ-mem` reading should be allowed to overwrite Crooke's actual meaning or invent examples he did not invoke
+- the `civ-state` reading explains the deeper pattern, mechanism, and counterweight
+- no `civ-state` or `civ-mem` reading should be allowed to overwrite Crooke's actual meaning or invent examples he did not invoke
 
 ## Source Universe
 
@@ -30,15 +30,15 @@ Discovery and routing base:
 
 Interpretive source base:
 
-- [CIV-EMP README](/C:/dev/strategy-codex/statecraft/civ-emp/indexes/source-retrieval-matrix.md)
+- [CIV-STATE README](/C:/dev/strategy-codex/statecraft/civ-state/indexes/source-retrieval-matrix.md)
 - [Academy-statecraft architecture](/C:/dev/strategy-codex/statecraft/ARCHITECTURE.md)
-- [CIV-EMP source retrieval matrix](/C:/dev/strategy-codex/statecraft/civ-emp/indexes/source-retrieval-matrix.md)
+- [CIV-STATE source retrieval matrix](/C:/dev/strategy-codex/statecraft/civ-state/indexes/source-retrieval-matrix.md)
 
 Inclusion bar for scored entries:
 
 - the historical example is explicit in a materialized Crooke raw-input file
 - the argumentative use is legible from the quoted passage
-- a `civ-emp` bucket can be assigned without forcing a speculative read
+- a `civ-state` bucket can be assigned without forcing a speculative read
 
 ## Scorecard
 
@@ -61,7 +61,7 @@ Coverage basis:
 | Mean source-base integration | 4.3 |
 | Mean reuse value | 4.8 |
 | Mean composite score | 4.6 |
-| Mean CIV-EMP readiness | 2.0 / 3 |
+| Mean CIV-STATE readiness | 2.0 / 3 |
 | Closeout counts | Held 8 / Weakened 1 / Broke 0 / Open 0 |
 
 ### By route family
@@ -83,7 +83,7 @@ Coverage basis:
 | Warning case | 2 |
 | Legitimacy frame | 2 |
 
-### By primary CIV-EMP bucket
+### By primary CIV-STATE bucket
 
 | Primary bucket | Count |
 | --- | --- |
@@ -96,7 +96,7 @@ Coverage basis:
 ### Improvement targets
 
 1. Add one more full-strength authored-substack settlement entry so Crooke's sovereign-settlement line is not represented mainly by one treaty-form example.
-2. Strengthen the `civ-emp` object base for the Ben-Gurion / permanent-security cluster, where the reading is strong but still scaffold-heavy.
+2. Strengthen the `civ-state` object base for the Ben-Gurion / permanent-security cluster, where the reading is strong but still scaffold-heavy.
 3. Add a cleaner Hormuz or deterrence-memory entry from the Napolitano or Diesen lanes to deepen the `geo` and `state-memory` side of the Crooke shelf.
 
 ## Settlement Form, Credibility, And Broken Verbal Assurances
@@ -114,7 +114,7 @@ Coverage basis:
 - Claim Crooke is making: serious settlement requires formal state-to-state treaty form; business-deal politics and verbal assurances produce blocked trust and later strategic grievance.
 - How the historical example supports the claim: Crooke invokes the unwritten end-of-Cold-War assurance as a direct design warning. He is arguing that present negotiations fail when they are treated as transactional grift or personal brokerage rather than as durable legal form.
 - Example type: `precedent`
-- CIV-EMP reading: primary bucket `peace`. This fits treaty credibility, successor trust, and the difference between process optics and durable state form.
+- CIV-STATE reading: primary bucket `peace`. This fits treaty credibility, successor trust, and the difference between process optics and durable state form.
 - Lane relevance: `russia`, `america`, and `cross-lane`.
 - Transaction use: useful when testing whether a draft is actually state-forming or merely a brokered performance.
 - Benchmark scores:
@@ -125,7 +125,7 @@ Coverage basis:
   - Analogy discipline: 5
   - Source-base integration: 4
   - Reuse value: 5
-  - CIV-EMP readiness: 2
+  - CIV-STATE readiness: 2
   - Composite score: 4.9
   - Closeout: `Held`
 - Audit note: one of the strongest Crooke entries because the historical example and the modern design implication are almost identical.
@@ -141,7 +141,7 @@ Coverage basis:
 - Claim Crooke is making: U.S. hemispheric retrenchment is not retreat; it is an imperial base-securing move intended to sustain wider great-power competition.
 - How the historical example supports the claim: Crooke uses Monroe as a live legitimacy frame. It lets him argue that Greenland and hemisphere security should be read as a historical reassertion of privileged-zone doctrine rather than as isolated Arctic opportunism.
 - Example type: `legitimacy frame`
-- CIV-EMP reading: primary bucket `empire-instrument`. The key pattern is base security, privileged zones, and the relation between home-base control and outer power projection.
+- CIV-STATE reading: primary bucket `empire-instrument`. The key pattern is base security, privileged zones, and the relation between home-base control and outer power projection.
 - Lane relevance: `america`, with secondary relevance to `china`.
 - Transaction use: useful when testing whether a base-security doctrine is being framed as defense while functioning as imperial perimeter management.
 - Benchmark scores:
@@ -152,7 +152,7 @@ Coverage basis:
   - Analogy discipline: 4
   - Source-base integration: 5
   - Reuse value: 5
-  - CIV-EMP readiness: 3
+  - CIV-STATE readiness: 3
   - Composite score: 4.6
   - Closeout: `Held`
 - Audit note: the quote comes through a cited secondary source inside Crooke's Substack, but Crooke clearly adopts it as the operative reading.
@@ -172,7 +172,7 @@ Coverage basis:
 - Claim Crooke is making: the United States is still fighting with a Cold War inheritance that once seemed vindicated, but that model no longer matches the economics or technology of contemporary war.
 - How the historical example supports the claim: Crooke uses the Cold War story as both origin myth and warning case. The Soviet outcome hardened a lesson about cost, air dominance, and overmatch that he now argues is obsolete.
 - Example type: `warning case`
-- CIV-EMP reading: primary bucket `war`. This is a war-memory and instrument-failure pattern: a once-successful or supposedly successful military-economic model becomes a liability when conditions change.
+- CIV-STATE reading: primary bucket `war`. This is a war-memory and instrument-failure pattern: a once-successful or supposedly successful military-economic model becomes a liability when conditions change.
 - Lane relevance: `america`, `china`, and `iran`.
 - Transaction use: useful when testing whether procurement logic and doctrine still assume the same industrial and operational environment as the late Cold War.
 - Benchmark scores:
@@ -183,7 +183,7 @@ Coverage basis:
   - Analogy discipline: 4
   - Source-base integration: 5
   - Reuse value: 5
-  - CIV-EMP readiness: 3
+  - CIV-STATE readiness: 3
   - Composite score: 4.9
   - Closeout: `Held`
 - Audit note: this is the clearest Crooke historical example for the shelf's war-metamorphosis question.
@@ -201,7 +201,7 @@ Coverage basis:
 - Claim Crooke is making: the escalatory camp still clings to a fantasy that past defeats were caused by restraint rather than by political impossibility and strategic misreading.
 - How the historical example supports the claim: Crooke is not endorsing the examples; he is diagnosing the worldview behind them. Vietnam and Afghanistan become negative mirrors for the idea that killing harder would have made the war politically successful.
 - Example type: `warning case`
-- CIV-EMP reading: primary bucket `war`. The pattern is failed coercive translation: destructive capacity does not automatically create political resolution.
+- CIV-STATE reading: primary bucket `war`. The pattern is failed coercive translation: destructive capacity does not automatically create political resolution.
 - Lane relevance: `america` and `cross-lane`.
 - Transaction use: useful when testing whether present plans are secretly driven by the belief that previous defeats were just incomplete violence.
 - Benchmark scores:
@@ -212,7 +212,7 @@ Coverage basis:
   - Analogy discipline: 4
   - Source-base integration: 4
   - Reuse value: 5
-  - CIV-EMP readiness: 2
+  - CIV-STATE readiness: 2
   - Composite score: 4.6
   - Closeout: `Held`
 - Audit note: strong as a negative-learning entry, though the quoted voice inside the exchange is partly Trumpian rhetoric rather than Crooke's own phrasing.
@@ -230,7 +230,7 @@ Coverage basis:
 - Claim Crooke is making: the stable psychology of deterrence was broken after the Soviet collapse, and the West now behaves as though nuclear fear can be dismissed without consequence.
 - How the historical example supports the claim: Crooke uses the Soviet collapse and the fading arms-control order to explain why deterrence stopped working as memory and became something Russia now wants to restore through fear.
 - Example type: `precedent`
-- CIV-EMP reading: primary bucket `state-memory`. The pattern is not only military but psychological and civilizational: deterrence requires remembered fear.
+- CIV-STATE reading: primary bucket `state-memory`. The pattern is not only military but psychological and civilizational: deterrence requires remembered fear.
 - Lane relevance: `russia` and `america`.
 - Transaction use: useful when asking whether a restraint architecture still has living psychological credibility or only institutional residue.
 - Benchmark scores:
@@ -241,7 +241,7 @@ Coverage basis:
   - Analogy discipline: 4
   - Source-base integration: 4
   - Reuse value: 4
-  - CIV-EMP readiness: 2
+  - CIV-STATE readiness: 2
   - Composite score: 4.1
   - Closeout: `Weakened`
 - Audit note: the quote is clear, but the entry still depends on a more developed deterrence-memory object to become fully operational.
@@ -259,7 +259,7 @@ Coverage basis:
 - Claim Crooke is making: regional actors are not reading Syrian territory as abstract empty space; they are reading it through inherited imperial and civilizational memory.
 - How the historical example supports the claim: Crooke uses Ottoman memory to discipline flat strategic maps. He is arguing that historical lineage still shapes territorial imagination and therefore current political behavior.
 - Example type: `analogy`
-- CIV-EMP reading: primary bucket `state-memory`. The pattern is imperial residue and remembered political geography.
+- CIV-STATE reading: primary bucket `state-memory`. The pattern is imperial residue and remembered political geography.
 - Lane relevance: `iran`, `turkey`, and `cross-lane`.
 - Transaction use: useful when testing whether a territorial analysis ignores remembered imperial borders and regional inheritance.
 - Benchmark scores:
@@ -270,7 +270,7 @@ Coverage basis:
   - Analogy discipline: 5
   - Source-base integration: 4
   - Reuse value: 4
-  - CIV-EMP readiness: 2
+  - CIV-STATE readiness: 2
   - Composite score: 4.3
   - Closeout: `Held`
 - Audit note: compact but important. This is a good example of Crooke's civilizational-memory habit in miniature.
@@ -288,7 +288,7 @@ Coverage basis:
 - Claim Crooke is making: Western strategy keeps recycling the belief that hostile systems are near collapse if only the right decapitation, bribery, or shock is applied.
 - How the historical example supports the claim: Crooke strings several cases together to show one repeated cognitive error. The point is not only that regime-change attempts recur, but that they are built on the same collapse fantasy.
 - Example type: `analogy`
-- CIV-EMP reading: primary bucket `war`. The pattern is decapitation-theater and regime-collapse fantasy under coercive intervention.
+- CIV-STATE reading: primary bucket `war`. The pattern is decapitation-theater and regime-collapse fantasy under coercive intervention.
 - Lane relevance: `america`, `iran`, and `russia`.
 - Transaction use: useful when testing whether a modern plan quietly assumes that elite fracture or leadership strike will do the political work by itself.
 - Benchmark scores:
@@ -299,7 +299,7 @@ Coverage basis:
   - Analogy discipline: 4
   - Source-base integration: 4
   - Reuse value: 5
-  - CIV-EMP readiness: 2
+  - CIV-STATE readiness: 2
   - Composite score: 4.6
   - Closeout: `Held`
 - Audit note: one of the most distinctive Crooke entries because it fuses intervention memory with epistemic critique.
@@ -319,7 +319,7 @@ Coverage basis:
 - Claim Crooke is making: Israel's current redemptive and expansionist war logic breaks with an older tradition in which force was subordinated to bounded political purpose.
 - How the historical example supports the claim: Crooke uses Ben-Gurion and Clausewitz as a contrast case. They give him a way to say that today's doctrine is not simply hard realism; it is a departure from older political-strategic discipline.
 - Example type: `analogy`
-- CIV-EMP reading: primary bucket `peace`. The relevant pattern is force subordinated to political settlement rather than elevated into permanent redemptive mission.
+- CIV-STATE reading: primary bucket `peace`. The relevant pattern is force subordinated to political settlement rather than elevated into permanent redemptive mission.
 - Lane relevance: `iran`, `america`, and `cross-lane`.
 - Transaction use: useful when testing whether a war aim still has a political terminal state or has become self-justifying escalation.
 - Benchmark scores:
@@ -330,7 +330,7 @@ Coverage basis:
   - Analogy discipline: 5
   - Source-base integration: 4
   - Reuse value: 5
-  - CIV-EMP readiness: 2
+  - CIV-STATE readiness: 2
   - Composite score: 4.9
   - Closeout: `Held`
 - Audit note: one of the best Crooke entries for comparing bounded political war to civilizational or eschatological overreach.
@@ -348,7 +348,7 @@ Coverage basis:
 - Claim Crooke is making: the doctrine of meeting every threat with total force and destroying it "at the root" is not just harsh policy; it belongs to a historically condemned exterminatory logic.
 - How the historical example supports the claim: Crooke invokes Germany and Nuremberg to place present doctrine inside a legal-moral genealogy. The example is doing more than analogy; it is setting a red line for what kind of doctrine this has become.
 - Example type: `legitimacy frame`
-- CIV-EMP reading: primary bucket `god`. The operative pattern is sacred-redemptive war fused with exterminatory security doctrine, and the counterweight is legal-moral memory.
+- CIV-STATE reading: primary bucket `god`. The operative pattern is sacred-redemptive war fused with exterminatory security doctrine, and the counterweight is legal-moral memory.
 - Lane relevance: `cross-lane`, strongest for `iran` and `america`.
 - Transaction use: useful when a doctrine of absolute security starts absorbing politics, law, and civilian distinction into a redemptive or totalizing war frame.
 - Benchmark scores:
@@ -359,7 +359,7 @@ Coverage basis:
   - Analogy discipline: 4
   - Source-base integration: 5
   - Reuse value: 5
-  - CIV-EMP readiness: 3
+  - CIV-STATE readiness: 3
   - Composite score: 4.9
 - Closeout: `Held`
 - Audit note: strongest new family relative to Freeman. It pressures the lattice to carry sacred-political and legal-moral degeneration together rather than as separate afterthoughts.
@@ -386,7 +386,7 @@ Strongest current lanes for quote-backed historical use:
 - Dialogue Works / Nima for treaty credibility, collapse fantasy, and system pressure
 - Davis and Napolitano for Ben-Gurion, Clausewitz, and permanent-security / redemptive-war diagnostics
 
-Best candidates for later `civ-emp` upgrade:
+Best candidates for later `civ-state` upgrade:
 
 1. a stronger `peace` object around treaty form versus brokered stakeholder theater
 2. a `war` object around Cold War overmatch failure and war metamorphosis

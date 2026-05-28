@@ -28,7 +28,7 @@ This theme holds Crooke's use of Monroe-style hemispheric doctrine and perimeter
 
 Crooke is not using Monroe as a decorative analogy. He is using it as a way to make sense of a deeper structural move: a power that feels stretched or challenged often seeks to harden the hemisphere or home base from which outer competition is supposed to be sustained. This helps him interpret Greenland, Arctic posture, and hemisphere logistics as a retrenchment maneuver inside wider U.S.-China rivalry rather than as disconnected theater.
 
-The theme also matters because it broadens Crooke beyond Iran and war diagnostics. It shows him reading imperial politics as a shifting geometry of base, perimeter, and projection. In that sense the historical example is doing double work. It helps explain present behavior, but it also helps sort between decline, retrenchment, and attempted revival. For a cross-speaker scaffold, this is valuable because it pressures `civ-emp` to answer not just whether hegemony is weakening, but how powers behave when they try to consolidate a privileged zone as compensation.
+The theme also matters because it broadens Crooke beyond Iran and war diagnostics. It shows him reading imperial politics as a shifting geometry of base, perimeter, and projection. In that sense the historical example is doing double work. It helps explain present behavior, but it also helps sort between decline, retrenchment, and attempted revival. For a cross-speaker scaffold, this is valuable because it pressures `civ-state` to answer not just whether hegemony is weakening, but how powers behave when they try to consolidate a privileged zone as compensation.
 
 ## Route-Family Spread
 
@@ -39,9 +39,9 @@ The theme also matters because it broadens Crooke beyond Iran and war diagnostic
 
 Crooke is consistently interested in how global competition is grounded in base security and control of approaches. Monroe becomes one historical handle for that recurring concern.
 
-## CIV-EMP Bridge
+## CIV-STATE Bridge
 
-Open [Monroe reassertion and hegemonic retrenchment](/C:/dev/strategy-codex/statecraft/civ-emp/indexes/crooke/monroe-reassertion-and-hegemonic-retrenchment.md) when the task is deeper empire-memory and hemispheric-perimeter retrieval.
+Open [Monroe reassertion and hegemonic retrenchment](/C:/dev/strategy-codex/statecraft/civ-state/indexes/crooke/monroe-reassertion-and-hegemonic-retrenchment.md) when the task is deeper empire-memory and hemispheric-perimeter retrieval.
 
 ## Benchmark Snapshot
 
@@ -49,7 +49,7 @@ Open [Monroe reassertion and hegemonic retrenchment](/C:/dev/strategy-codex/stat
 - Quote quality: 5
 - Route-family spread: 3
 - Argument-function clarity: 4
-- `civ-emp` bridge clarity: 5
+- `civ-state` bridge clarity: 5
 - Reuse value: 4
 
 ## Boundary

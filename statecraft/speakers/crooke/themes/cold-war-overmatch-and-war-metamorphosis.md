@@ -43,9 +43,9 @@ This is why the Iran war becomes so important in the Crooke shelf. It is not jus
 
 Crooke keeps returning to historical mislearning as the hidden driver of present failure. This theme recurs because it explains not only how the West fights, but why it keeps misreading the world it is fighting in.
 
-## CIV-EMP Bridge
+## CIV-STATE Bridge
 
-Open [Cold War overmatch and war metamorphosis](/C:/dev/strategy-codex/statecraft/civ-emp/indexes/crooke/cold-war-overmatch-and-war-metamorphosis.md) when the task is backward historical deepening into war-memory, procurement logic, and strategic inheritance.
+Open [Cold War overmatch and war metamorphosis](/C:/dev/strategy-codex/statecraft/civ-state/indexes/crooke/cold-war-overmatch-and-war-metamorphosis.md) when the task is backward historical deepening into war-memory, procurement logic, and strategic inheritance.
 
 ## Benchmark Snapshot
 
@@ -53,7 +53,7 @@ Open [Cold War overmatch and war metamorphosis](/C:/dev/strategy-codex/statecraf
 - Quote quality: 5
 - Route-family spread: 4
 - Argument-function clarity: 5
-- `civ-emp` bridge clarity: 5
+- `civ-state` bridge clarity: 5
 - Reuse value: 5
 
 ## Boundary

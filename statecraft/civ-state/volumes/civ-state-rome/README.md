@@ -6,6 +6,8 @@ Rome is currently a CIV-STATE source-memory volume rather than a full repo-root 
 
 Rome is presented here as a strong but transformed civilization-state case: not one uninterrupted territorial state, but a sovereignty chain mutating from city-foundation to republic, empire, Byzantine continuation, and Catholic residue. Romulus is the foundational sovereign of the chain; Aeneas and Troy remain mythic prehistory beneath it. Byzantium is the indispensable continuity state without which the Roman chain becomes falsely discontinuous, and the Catholic Church is the clearest surviving residue-carrier.
 
+This volume should therefore be read as one Roman sovereignty claim moving through transformed carriers across the era spine, not as five disconnected Roman afterlives.
+
 Primary source base: [Rome source corpus](../../../../research/repos/civilization_memory/content/civilizations/ROME/)
 
 **Opener Block**

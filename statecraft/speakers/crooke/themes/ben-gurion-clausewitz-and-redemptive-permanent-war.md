@@ -44,9 +44,9 @@ The historical examples matter because they let Crooke say this is not merely "h
 
 Crooke repeatedly diagnoses when the political room disappears inside a harsher doctrine. This theme recurs because it names the difference between bounded force and an absolutized security or redemption project.
 
-## CIV-EMP Bridge
+## CIV-STATE Bridge
 
-Open [Ben-Gurion, Clausewitz, and redemptive permanent war](/C:/dev/strategy-codex/statecraft/civ-emp/indexes/crooke/ben-gurion-clausewitz-and-redemptive-permanent-war.md) for deeper sacred-political, legal-moral, and strategic-memory scaffolding.
+Open [Ben-Gurion, Clausewitz, and redemptive permanent war](/C:/dev/strategy-codex/statecraft/civ-state/indexes/crooke/ben-gurion-clausewitz-and-redemptive-permanent-war.md) for deeper sacred-political, legal-moral, and strategic-memory scaffolding.
 
 ## Benchmark Snapshot
 
@@ -54,7 +54,7 @@ Open [Ben-Gurion, Clausewitz, and redemptive permanent war](/C:/dev/strategy-cod
 - Quote quality: 5
 - Route-family spread: 4
 - Argument-function clarity: 5
-- `civ-emp` bridge clarity: 5
+- `civ-state` bridge clarity: 5
 - Reuse value: 5
 
 ## Boundary

@@ -33,6 +33,20 @@ Working formula: **scale compounds over decades; leverage can reorder bargaining
 
 For longitudinal crisis-leverage scoring, use the [Pape coercive-center index](pape-coercive-center-index.md). For structural-realist scoring, balance-of-power pressure, and restraint tests, use the [Mearsheimer structural-realist scoreboard](mearsheimer-structural-realist-scoreboard.md).
 
+## Recurring Statecraft Theme
+
+Treat this as a recurring statecraft theme whenever a live crisis produces a category mistake between structural scale and crisis leverage.
+
+- A state can remain weaker in comprehensive-power terms while still forcing system adjustment through chokepoints, denial, energy pricing, sanctions endurance, or alliance splintering.
+- Pape's fourth-center thesis becomes a statecraft test when the real policy question is not "who is larger?" but "who can make everyone else reorganize around the cost of ignoring them?"
+- The May 2026 refinement is postwar energy repricing: if shipping nominally resumes but the Gulf still carries a durable risk premium, then coercive-center logic remains live even without formal closure.
+
+Use this theme especially when a draft needs to distinguish:
+
+- temporary battlefield success from durable bargaining leverage;
+- nominal reopening from true system normalization;
+- comprehensive-power ranking from chokepoint-centered crisis power.
+
 ## Comparative Perspective Hook
 
 When this distinction becomes a policy paper, open [National perspective orthogonality](national-perspective-orthogonality.md) and add Iran as a speaking statecraft perspective, not only as the object of U.S., Russian, or Chinese policy.
@@ -70,6 +84,7 @@ For any fourth-power or fourth-center claim, define falsifiers before drafting p
 - The actor cannot monetize, regulate, deny, or sustain the claimed lever.
 - Another actor shapes the crisis more directly.
 - Domestic or resource weakness prevents sustained use of the lever.
+- Nominal reopening, insurance normalization, and price compression show that the crisis premium was temporary rather than system-shaping.
 
 ## Output
 

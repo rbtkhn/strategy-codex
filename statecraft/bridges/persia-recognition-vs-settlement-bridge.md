@@ -17,8 +17,8 @@ If lane ownership is still unclear, do not use this bridge yet.
 
 This bridge chooses retrieval posture, not lane ownership and not final drafting form.
 
-- **Recognition-first** -> use the [Marandi adapter](marandi-civ-emp-retrieval-adapter.md)
-- **Settlement-first** -> use the [Parsi adapter](parsi-civ-emp-retrieval-adapter.md)
+- **Recognition-first** -> use the [Marandi adapter](marandi-civ-state-retrieval-adapter.md)
+- **Settlement-first** -> use the [Parsi adapter](parsi-civ-state-retrieval-adapter.md)
 
 ## Recognition-First Rule
 

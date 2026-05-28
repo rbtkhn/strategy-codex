@@ -4,11 +4,11 @@ WORK only; not Record.
 
 ## Purpose
 
-Audit the existing `art.md`, `lit.md`, `geo.md`, `war.md`, and `peace.md` civilization arc-lenses for America, Russia, China, and Iran against the CIV-EMP retrieval doctrine.
+Audit the existing `art.md`, `lit.md`, `geo.md`, `war.md`, and `peace.md` civilization arc-lenses for America, Russia, China, and Iran against the CIV-STATE retrieval doctrine.
 
-This sheet does not rewrite arc-lens files. It marks which surfaces are usable v1 orientation notes and which still need full CIV-EMP-backed retrieval. Older entries may still name CIV-MEM as provenance for the historical backfill that produced the current arc-lens plateau.
+This sheet does not rewrite arc-lens files. It marks which surfaces are usable v1 orientation notes and which still need full CIV-STATE-backed retrieval. Older entries may still name CIV-MEM as provenance for the historical backfill that produced the current arc-lens plateau.
 
-These are now **secondary lens families**, not top-level explanatory doctrine. The six-part CIV-EMP frame governs interpretation first; these families exist to keep retrieval, expression, and orthogonality sharp after that governing layer has been named.
+These are now **secondary lens families**, not top-level explanatory doctrine. The six-part CIV-STATE frame governs interpretation first; these families exist to keep retrieval, expression, and orthogonality sharp after that governing layer has been named.
 
 ## Benchmark
 
@@ -70,9 +70,9 @@ Basic arc-lens completion is done. Next priority order:
 
 ## Backfill Contract
 
-When upgrading any arc-lens, use the CIV-EMP source retrieval matrix:
+When upgrading any arc-lens, use the CIV-STATE source retrieval matrix:
 
-1. Open the relevant CIV-EMP source object, volume map, or index entry once present.
+1. Open the relevant CIV-STATE source object, volume map, or index entry once present.
 2. Open direct lane sources: `civilization/`, `empire/`, `state/`, `helix.md`, and seed patterns where present.
 3. Run lens retrieval from the matrix seed terms.
 4. Include at least one counterweight where the pattern degrades, reverses, overreaches, or becomes unusable.

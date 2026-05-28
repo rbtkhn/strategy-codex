@@ -43,9 +43,9 @@ The result is a theme that connects battlefield outcome, legitimacy narrative, a
 
 Mercouris's stream-native shelf is built around continuity and outcome. Order exhaustion is where those two instincts meet most clearly.
 
-## CIV-EMP Bridge
+## CIV-STATE Bridge
 
-Open [Geostrategic defeat and unipolar exhaustion](/C:/dev/strategy-codex/statecraft/civ-emp/indexes/mercouris/geostrategic-defeat-and-unipolar-exhaustion.md) when the task shifts from Mercouris's activation surface to deeper defeat-memory and order-transition retrieval.
+Open [Geostrategic defeat and unipolar exhaustion](/C:/dev/strategy-codex/statecraft/civ-state/indexes/mercouris/geostrategic-defeat-and-unipolar-exhaustion.md) when the task shifts from Mercouris's activation surface to deeper defeat-memory and order-transition retrieval.
 
 ## Benchmark Snapshot
 
@@ -53,7 +53,7 @@ Open [Geostrategic defeat and unipolar exhaustion](/C:/dev/strategy-codex/statec
 - Quote quality: 5
 - Route-family spread: 4
 - Argument-function clarity: 5
-- `civ-emp` bridge clarity: 4
+- `civ-state` bridge clarity: 4
 - Reuse value: 5
 
 ## Boundary

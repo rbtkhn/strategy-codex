@@ -4,7 +4,7 @@ WORK only; not Record.
 
 This is the canonical Freeman statecraft speaker shelf.
 
-Use it for speaker identity, host continuity, route maps, bounded 2026 monthly synthesis, and `civ-emp`-aware historical audit work.
+Use it for speaker identity, host continuity, route maps, bounded 2026 monthly synthesis, and `civ-state`-aware historical audit work.
 
 ## Open First
 
@@ -47,7 +47,7 @@ Freeman now has a full canonical 2026 month ladder for the live year, but the mo
 - [Freeman historical examples audit](freeman-historical-examples-audit.md)
 - [Freeman historical themes](themes/README.md)
 
-`civ-emp` enters here as the primary interpretive source base, not as a routing co-pilot and not as a Freeman-specific bridge adapter.
+`civ-state` enters here as the primary interpretive source base, not as a routing co-pilot and not as a Freeman-specific bridge adapter.
 
 ## Compatibility Shape
 

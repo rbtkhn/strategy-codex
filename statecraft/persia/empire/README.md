@@ -29,7 +29,7 @@ Return to [Iran helix](../helix.md) when leverage logic is drifting away from di
 
 Helix-first role: this folder now serves as the empire-side strand bench beneath the primary [Iran helix](../helix.md). Use the helix for the integrated lane interpretation; use this folder when the real question has narrowed to the control stack itself.
 
-Phase-one CIV-EMP opening: start with [Iran empire instrument](seed-instruments.md) when the live question is Hormuz leverage, partner deterrence, nuclear latency, or whether Iranian outward control still serves a bounded recognition-and-relief path. Read it together with [Iran state memory](../civilization/objects/state-memory.md).
+Phase-one CIV-STATE opening: start with [Iran empire instrument](seed-instruments.md) when the live question is Hormuz leverage, partner deterrence, nuclear latency, or whether Iranian outward control still serves a bounded recognition-and-relief path. Read it together with [Iran state memory](../civilization/objects/state-memory.md).
 
 ## Desired Control
 

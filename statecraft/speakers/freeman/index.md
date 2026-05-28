@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # Freeman Index
 
-Purpose: front door for the canonical Freeman statecraft shelf, surfacing the person arc, routing doctrine, provenance bench, bounded 2026 monthly synthesis ladder, and the `civ-emp` historical membrane.
+Purpose: front door for the canonical Freeman statecraft shelf, surfacing the person arc, routing doctrine, provenance bench, bounded 2026 monthly synthesis ladder, and the `civ-state` historical membrane.
 
 ## Open First
 
@@ -13,7 +13,7 @@ Purpose: front door for the canonical Freeman statecraft shelf, surfacing the pe
 - [Support spine](freeman-support-spine-2025-2026.md) - canonical maturity and month-support law.
 - [March monthly shelf](stream/freeman-shelf-2026-03.md) - first mature war-system month.
 - [April monthly shelf](stream/freeman-shelf-2026-04.md) - densest visible month synthesis.
-- [Historical examples audit](freeman-historical-examples-audit.md) - `civ-emp`-aware historical membrane.
+- [Historical examples audit](freeman-historical-examples-audit.md) - `civ-state`-aware historical membrane.
 
 ## Core Speaker Files
 

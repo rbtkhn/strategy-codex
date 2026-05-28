@@ -75,7 +75,7 @@ class ScenarioLabBridgeTests(unittest.TestCase):
         }
         packet = {
             "assumptions": ["Local-first infrastructure remains cheaper than expected."],
-            "evidence_items": [{"source_path": "codex/academy/singularity/workshop/sheets/agent-control-plane.md"}],
+            "evidence_items": [{"source_path": "singularity/workshop/sheets/agent-control-plane.md"}],
         }
         mermaid = build_mermaid_tree(report)
         self.assertIn("Contained local-first loop", mermaid)

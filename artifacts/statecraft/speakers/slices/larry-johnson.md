@@ -2,11 +2,11 @@
 
 _Generated observability artifact. Rebuild with `python scripts/build_statecraft_day_dashboard.py`._
 
-- Generated: `2026-05-27T02:36:02.725426+00:00`
+- Generated: `2026-05-28T16:16:14.492450+00:00`
 - Root: `C:\dev\strategy-codex\source-archive\statecraft`
-- Indexed days: `39`
-- Source files: `258`
-- Covered span: `2025-04-10` to `2026-05-26`
+- Indexed days: `40`
+- Source files: `273`
+- Covered span: `2025-04-10` to `2026-05-27`
 
 ## Active Query
 
@@ -21,7 +21,7 @@ _Generated observability artifact. Rebuild with `python scripts/build_statecraft
 | Day | Source files |
 | --- | ---: |
 | [2026-03-16](C:/dev/strategy-codex/source-archive/statecraft/2026-03-16/README.md) | 19 |
-| [2026-05-26](C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/README.md) | 15 |
+| [2026-05-26](C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/README.md) | 18 |
 | [2026-04-17](C:/dev/strategy-codex/source-archive/statecraft/2026-04-17/README.md) | 14 |
 | [2026-04-20](C:/dev/strategy-codex/source-archive/statecraft/2026-04-20/README.md) | 14 |
 | [2026-05-18](C:/dev/strategy-codex/source-archive/statecraft/2026-05-18/README.md) | 13 |
@@ -29,7 +29,7 @@ _Generated observability artifact. Rebuild with `python scripts/build_statecraft
 | [2026-05-05](C:/dev/strategy-codex/source-archive/statecraft/2026-05-05/README.md) | 10 |
 | [2026-05-14](C:/dev/strategy-codex/source-archive/statecraft/2026-05-14/README.md) | 10 |
 | [2026-05-16](C:/dev/strategy-codex/source-archive/statecraft/2026-05-16/README.md) | 10 |
-| [2026-04-24](C:/dev/strategy-codex/source-archive/statecraft/2026-04-24/README.md) | 9 |
+| [2026-05-27](C:/dev/strategy-codex/source-archive/statecraft/2026-05-27/README.md) | 10 |
 
 ## Quiet Days (1-2 files)
 
@@ -40,19 +40,19 @@ _Generated observability artifact. Rebuild with `python scripts/build_statecraft
 | [2025-07-22](C:/dev/strategy-codex/source-archive/statecraft/2025-07-22/README.md) | 2 |
 | [2025-10-15](C:/dev/strategy-codex/source-archive/statecraft/2025-10-15/README.md) | 1 |
 | [2025-10-30](C:/dev/strategy-codex/source-archive/statecraft/2025-10-30/README.md) | 2 |
-| [2025-11-24](C:/dev/strategy-codex/source-archive/statecraft/2025-11-24/README.md) | 1 |
+| [2025-11-24](C:/dev/strategy-codex/source-archive/statecraft/2025-11-24/README.md) | 2 |
 | [2025-12-22](C:/dev/strategy-codex/source-archive/statecraft/2025-12-22/README.md) | 2 |
 
 ## Channel / Show Leaderboard
 
 | Name | Count |
 | --- | ---: |
-| `Daniel Davis Deep Dive` | 44 |
-| `Dialogue Works` | 44 |
+| `Daniel Davis Deep Dive` | 46 |
+| `Dialogue Works` | 46 |
 | `Mercouris` | 25 |
-| `Glenn Diesen` | 19 |
-| `Judging Freedom` | 14 |
-| `Alexander Mercouris` | 11 |
+| `Glenn Diesen` | 20 |
+| `Judging Freedom` | 16 |
+| `Alexander Mercouris` | 12 |
 | `escalationtrap.substack.com` | 10 |
 | `simplicius76.substack.com` | 9 |
 | `Diesen` | 6 |
@@ -62,11 +62,11 @@ _Generated observability artifact. Rebuild with `python scripts/build_statecraft
 
 | Name | Count |
 | --- | ---: |
-| `Daniel Davis` | 44 |
-| `Alexander Mercouris` | 36 |
-| `Nima Alkhorshid` | 30 |
-| `Andrew Napolitano` | 26 |
-| `Glenn Diesen` | 24 |
+| `Daniel Davis` | 46 |
+| `Alexander Mercouris` | 37 |
+| `Nima Alkhorshid` | 32 |
+| `Andrew Napolitano` | 28 |
+| `Glenn Diesen` | 25 |
 | `Diesen` | 10 |
 | `Dialogue Works` | 8 |
 | `Nima Alkorshid` | 6 |
@@ -77,35 +77,35 @@ _Generated observability artifact. Rebuild with `python scripts/build_statecraft
 
 | Name | Count |
 | --- | ---: |
-| `Larry Johnson` | 41 |
-| `Scott Ritter` | 16 |
+| `Larry Johnson` | 42 |
+| `Scott Ritter` | 17 |
 | `Seyed M. Marandi` | 12 |
 | `Jacques Baud` | 11 |
-| `Alexander Mercouris` | 7 |
+| `Alexander Mercouris` | 8 |
 | `John Mearsheimer` | 7 |
 | `Alastair Crooke` | 6 |
 | `Chas Freeman` | 6 |
-| `Ray McGovern` | 4 |
-| `Anthony Aguilar` | 3 |
+| `Jeffrey Sachs` | 5 |
+| `Ray McGovern` | 5 |
 
 ## Thread Leaderboard
 
 | Name | Count |
 | --- | ---: |
-| `davis` | 47 |
-| `mercouris` | 41 |
+| `davis` | 49 |
+| `mercouris` | 42 |
+| `diesen` | 31 |
 | `nima` | 31 |
-| `diesen` | 30 |
-| `pape` | 17 |
+| `pape` | 19 |
 | `johnson` | 14 |
-| `ritter` | 9 |
+| `ritter` | 10 |
+| `napolitano` | 9 |
 | `simplicius` | 9 |
 | `baud` | 7 |
-| `napolitano` | 7 |
 
 ## Anomalies / Gaps
 
-- Fallback-heavy days: `2026-04-17` (11), `2026-04-20` (11), `2026-02-28` (6), `2026-03-16` (5), `2026-04-16` (5), `2026-04-24` (5), `2026-04-27` (5), `2026-05-14` (5), `2026-05-26` (5), `2026-01-12` (4)
+- Fallback-heavy days: `2026-04-17` (11), `2026-04-20` (11), `2026-05-26` (8), `2026-02-28` (6), `2026-03-16` (5), `2026-04-16` (5), `2026-04-24` (5), `2026-04-27` (5), `2026-05-14` (5), `2026-01-12` (4)
 - Missing host or guest coverage: (none)
 - Missing local READMEs: (none)
 
@@ -120,7 +120,7 @@ _Generated observability artifact. Rebuild with `python scripts/build_statecraft
 | [2025-08-14](C:/dev/strategy-codex/source-archive/statecraft/2025-08-14/README.md) | 3 | Glenn Diesen, Alexander Mercouris | 2 | 1 | yes |
 | [2025-10-15](C:/dev/strategy-codex/source-archive/statecraft/2025-10-15/README.md) | 1 | (none) | 1 | 1 | yes |
 | [2025-10-30](C:/dev/strategy-codex/source-archive/statecraft/2025-10-30/README.md) | 2 | (none) | 1 | 2 | yes |
-| [2025-11-24](C:/dev/strategy-codex/source-archive/statecraft/2025-11-24/README.md) | 1 | (none) | 1 | 1 | yes |
+| [2025-11-24](C:/dev/strategy-codex/source-archive/statecraft/2025-11-24/README.md) | 2 | Judging Freedom | 2 | 1 | yes |
 | [2025-11-28](C:/dev/strategy-codex/source-archive/statecraft/2025-11-28/README.md) | 4 | Dialogue Works, Mercouris | 3 | 3 | yes |
 | [2025-12-22](C:/dev/strategy-codex/source-archive/statecraft/2025-12-22/README.md) | 2 | Mercouris | 2 | 2 | yes |
 | [2026-01-12](C:/dev/strategy-codex/source-archive/statecraft/2026-01-12/README.md) | 4 | Mercouris | 3 | 4 | yes |
@@ -134,7 +134,7 @@ _Generated observability artifact. Rebuild with `python scripts/build_statecraft
 | [2026-04-08](C:/dev/strategy-codex/source-archive/statecraft/2026-04-08/README.md) | 6 | Daniel Davis Deep Dive, Dialogue Works, Mercouris | 6 | 4 | yes |
 | [2026-04-13](C:/dev/strategy-codex/source-archive/statecraft/2026-04-13/README.md) | 10 | Daniel Davis Deep Dive, Dialogue Works, Mercouris | 6 | 2 | yes |
 | [2026-04-15](C:/dev/strategy-codex/source-archive/statecraft/2026-04-15/README.md) | 4 | Glenn Diesen, Mercouris, simplicius76.substack.com | 3 | 3 | yes |
-| [2026-04-16](C:/dev/strategy-codex/source-archive/statecraft/2026-04-16/README.md) | 8 | Daniel Davis Deep Dive, Glenn Diesen, Mercouris | 5 | 5 | yes |
+| [2026-04-16](C:/dev/strategy-codex/source-archive/statecraft/2026-04-16/README.md) | 9 | Daniel Davis Deep Dive, Dialogue Works, Glenn Diesen | 6 | 5 | yes |
 | [2026-04-17](C:/dev/strategy-codex/source-archive/statecraft/2026-04-17/README.md) | 14 | Daniel Davis Deep Dive, Diesen (Greater Eurasia), escalationtrap.substack.com | 10 | 11 | yes |
 | [2026-04-20](C:/dev/strategy-codex/source-archive/statecraft/2026-04-20/README.md) | 14 | Dialogue Works, Judging Freedom, Mercouris | 8 | 11 | yes |
 | [2026-04-22](C:/dev/strategy-codex/source-archive/statecraft/2026-04-22/README.md) | 6 | Daniel Davis Deep Dive, escalationtrap.substack.com, Mercouris | 4 | 4 | yes |
@@ -151,4 +151,5 @@ _Generated observability artifact. Rebuild with `python scripts/build_statecraft
 | [2026-05-18](C:/dev/strategy-codex/source-archive/statecraft/2026-05-18/README.md) | 13 | Judging Freedom, Daniel Davis Deep Dive, Dialogue Works | 10 | 4 | yes |
 | [2026-05-22](C:/dev/strategy-codex/source-archive/statecraft/2026-05-22/README.md) | 6 | Alexander Mercouris, Dialogue Works, Daniel Davis Deep Dive | 5 | 2 | yes |
 | [2026-05-25](C:/dev/strategy-codex/source-archive/statecraft/2026-05-25/README.md) | 6 | Dialogue Works, Alexander Mercouris, Daniel Davis Deep Dive | 4 | 2 | yes |
-| [2026-05-26](C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/README.md) | 15 | Daniel Davis Deep Dive, Dialogue Works, Judging Freedom | 10 | 5 | yes |
+| [2026-05-26](C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/README.md) | 18 | Daniel Davis Deep Dive, Dialogue Works, Judging Freedom | 10 | 8 | yes |
+| [2026-05-27](C:/dev/strategy-codex/source-archive/statecraft/2026-05-27/README.md) | 10 | Daniel Davis Deep Dive, Alexander Mercouris, Breaking Points | 8 | 1 | yes |

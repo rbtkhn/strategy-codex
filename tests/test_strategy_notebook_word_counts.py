@@ -112,9 +112,9 @@ def test_idempotent_second_run() -> None:
 
 
 def test_is_eligible_skips_dated_raw_input() -> None:
-    assert not WC._is_eligible_path(Path("raw-input/2026-01-19/capture.md"))
-    assert not WC._is_eligible_path(Path("raw-input/_aired-pending/x.md"))
-    assert WC._is_eligible_path(Path("raw-input/README.md"))
+    assert not WC._is_eligible_path(Path("provenance/2026-01-19/capture.md"))
+    assert not WC._is_eligible_path(Path("provenance/_aired-pending/x.md"))
+    assert WC._is_eligible_path(Path("provenance/README.md"))
     assert WC._is_eligible_path(Path("chapters/2026-01/days.md"))
 
 

@@ -1,8 +1,8 @@
-# Arc-Conditioned CIV-EMP Worked Examples
+# Arc-Conditioned CIV-STATE Worked Examples
 
 WORK only; not Record.
 
-Purpose: preserve compact proof runs showing how the same `civ-emp` object can be queried differently by different speaker-conditioned retrieval adapters.
+Purpose: preserve compact proof runs showing how the same `civ-state` object can be queried differently by different speaker-conditioned retrieval adapters.
 
 This note is not a new front door. It is a reuse aid for the bridge layer.
 
@@ -23,14 +23,14 @@ The goal is not to prove one adapter right and the other wrong. The goal is to p
 
 Both runs start from the same source base:
 
-- [Hormuz Recognition / Transit Restraint](../civ-emp/persia/hormuz-recognition-transit-restraint.md)
+- [Hormuz Recognition / Transit Restraint](../civ-state/persia/hormuz-recognition-transit-restraint.md)
 - [Iran helix](../persia/helix.md)
 
 The test is whether the adapters produce different statecraft outputs from the same object rather than from different corpora.
 
 ### Marandi-path run
 
-- Adapter: [Marandi CIV-EMP retrieval adapter](marandi-civ-emp-retrieval-adapter.md)
+- Adapter: [Marandi CIV-STATE retrieval adapter](marandi-civ-state-retrieval-adapter.md)
 - Live claim shape: pressure survival, dignity, recognition leakage, Hormuz leverage meaning
 - Weighted fields:
   - `origin`
@@ -56,7 +56,7 @@ Failure test:
 
 ### Parsi-path run
 
-- Adapter: [Parsi CIV-EMP retrieval adapter](parsi-civ-emp-retrieval-adapter.md)
+- Adapter: [Parsi CIV-STATE retrieval adapter](parsi-civ-state-retrieval-adapter.md)
 - Live claim shape: leverage survival, bargaining room, guarantees, settlement durability
 - Weighted fields:
   - `current carrier`
@@ -100,7 +100,7 @@ Shortest split:
 
 Add new examples here only when:
 
-- both runs share the same `civ-emp` object or very tight object cluster
+- both runs share the same `civ-state` object or very tight object cluster
 - the adapter difference changes retrieval weighting, not only rhetoric
 - the two outputs are materially different enough to teach reuse
 
@@ -120,7 +120,7 @@ The test is whether the adapters change how nuclear latency is interpreted befor
 
 ### Marandi-path run
 
-- Adapter: [Marandi CIV-EMP retrieval adapter](marandi-civ-emp-retrieval-adapter.md)
+- Adapter: [Marandi CIV-STATE retrieval adapter](marandi-civ-state-retrieval-adapter.md)
 - Live claim shape: dignity-preserving deterrence, anti-humiliation resistance to inspection, latency as proof that Iran cannot be reduced or disarmed on hostile terms
 - Weighted fields:
   - `origin`
@@ -146,7 +146,7 @@ Failure test:
 
 ### Parsi-path run
 
-- Adapter: [Parsi CIV-EMP retrieval adapter](parsi-civ-emp-retrieval-adapter.md)
+- Adapter: [Parsi CIV-STATE retrieval adapter](parsi-civ-state-retrieval-adapter.md)
 - Live claim shape: latency as bargaining room for reversible caps, inspection dignity, relief sequencing, and non-regime-change assurances
 - Weighted fields:
   - `current carrier`
@@ -201,7 +201,7 @@ The test is whether the adapters can stay distinct even when sacred injury and s
 
 ### Marandi-path run
 
-- Adapter: [Marandi CIV-EMP retrieval adapter](marandi-civ-emp-retrieval-adapter.md)
+- Adapter: [Marandi CIV-STATE retrieval adapter](marandi-civ-state-retrieval-adapter.md)
 - Live claim shape: violated innocence, martyrdom memory, humiliation boundary, and the fear that de-escalation may bury the wound rather than honor it
 - Weighted fields:
   - `origin`
@@ -228,7 +228,7 @@ Failure test:
 
 ### Parsi-path run
 
-- Adapter: [Parsi CIV-EMP retrieval adapter](parsi-civ-emp-retrieval-adapter.md)
+- Adapter: [Parsi CIV-STATE retrieval adapter](parsi-civ-state-retrieval-adapter.md)
 - Live claim shape: civilian-harm memory that must be converted into a protected review mechanism, non-regime-change assurance, and channel-preserving de-escalation sequence
 - Weighted fields:
   - `current carrier`

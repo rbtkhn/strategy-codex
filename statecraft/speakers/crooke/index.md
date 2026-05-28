@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # Crooke Index
 
-Purpose: front door for the canonical Crooke statecraft shelf, surfacing the person arc, routing doctrine, provenance bench, authored/interview crossing, bounded 2026 monthly synthesis ladder, and the `civ-emp` historical membrane.
+Purpose: front door for the canonical Crooke statecraft shelf, surfacing the person arc, routing doctrine, provenance bench, authored/interview crossing, bounded 2026 monthly synthesis ladder, and the `civ-state` historical membrane.
 
 ## Open First
 

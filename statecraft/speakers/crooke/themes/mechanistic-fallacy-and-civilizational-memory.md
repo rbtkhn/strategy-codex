@@ -41,9 +41,9 @@ This theme therefore matters beyond one Ottoman reference. It is really the hist
 
 Crooke keeps treating misreading itself as a strategic variable. This theme recurs because he sees history not only as precedent but as an active carrier inside current actors.
 
-## CIV-EMP Bridge
+## CIV-STATE Bridge
 
-Open [Mechanistic fallacy and civilizational memory](/C:/dev/strategy-codex/statecraft/civ-emp/indexes/crooke/mechanistic-fallacy-and-civilizational-memory.md) when the task is turning this modern Crooke pressure into deeper state-memory and civilizational-reading scaffolding.
+Open [Mechanistic fallacy and civilizational memory](/C:/dev/strategy-codex/statecraft/civ-state/indexes/crooke/mechanistic-fallacy-and-civilizational-memory.md) when the task is turning this modern Crooke pressure into deeper state-memory and civilizational-reading scaffolding.
 
 ## Benchmark Snapshot
 
@@ -51,7 +51,7 @@ Open [Mechanistic fallacy and civilizational memory](/C:/dev/strategy-codex/stat
 - Quote quality: 4
 - Route-family spread: 4
 - Argument-function clarity: 5
-- `civ-emp` bridge clarity: 4
+- `civ-state` bridge clarity: 4
 - Reuse value: 5
 
 ## Boundary

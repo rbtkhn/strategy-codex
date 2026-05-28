@@ -11,7 +11,7 @@ Open the kernel first if you need:
 - the canonical flow
 - output classes
 - promotion discipline
-- CIV-EMP protocol
+- CIV-STATE protocol
 - speaker-arc input law
 
 ## Drafting Loop
@@ -38,7 +38,7 @@ Open the kernel first if you need:
 
 ## Upstream Candidate Rule
 
-Use the [CIV-EMP review queue](civ-emp/review-queue.md) when live drafting discovers a durable source-memory issue.
+Use the [CIV-STATE review queue](civ-state/review-queue.md) when live drafting discovers a durable source-memory issue.
 
 - If the discovery changes source pattern, retrieval logic, historical counterweight, or object schema, stage it upstream.
 - If the discovery changes lane routing, deployer behavior, helix judgment, objection handling, or instrument design, keep it in statecraft.
@@ -46,11 +46,11 @@ Use the [CIV-EMP review queue](civ-emp/review-queue.md) when live drafting disco
 
 Short membrane:
 
-`civ-emp remembers; statecraft drafts; reviewable source candidates travel upstream.`
+`civ-state remembers; statecraft drafts; reviewable source candidates travel upstream.`
 
 ## Boundary
 
-This method can use `source-archive`, statecraft-native speaker-state continuity surfaces, historical analogies, lane objects, and existing transactions as sources. It does not define statecraft's governing invariants and it does not directly mutate `civ-emp`.
+This method can use `source-archive`, statecraft-native speaker-state continuity surfaces, historical analogies, lane objects, and existing transactions as sources. It does not define statecraft's governing invariants and it does not directly mutate `civ-state`.
 
 It also does not:
 

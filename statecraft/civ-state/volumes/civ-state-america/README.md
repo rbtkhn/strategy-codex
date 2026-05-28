@@ -6,6 +6,8 @@ America is a live lane-backed CIV-STATE volume. Use it when the problem is repub
 
 America is included here as the deliberately contested edge case. It is not the cleanest civilization-state example. It belongs in the set because the Anglo-American sovereignty chain from Alfred to the present helps clarify what happens when civilizational inheritance, maritime empire, settler-republic statehood, and liberal-universal claims sit under one increasingly strained sovereign form. Alfred the Great is the foundational continuity sovereign of that longer chain, not the sovereign beginning of America proper.
 
+This volume should therefore be read as the longer Anglo-American continuity chain passing through later American concentration, not as if the full spine were simply identical with the territorial United States from the beginning.
+
 Primary live lane: [America statecraft lane](../../../america/README.md)
 
 **Opener Block**

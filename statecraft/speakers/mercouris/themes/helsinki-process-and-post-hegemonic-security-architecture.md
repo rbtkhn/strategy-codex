@@ -31,7 +31,7 @@ Mercouris's war analysis often ends not in total transformation rhetoric but in 
 
 This is a distinctive theme because it moves beyond warning and into design. Mercouris is not saying the Gulf will simply become Europe in the 1970s. He is using Helsinki as a disciplined analogy for what post-hegemonic ordering can look like when direct victory is unavailable and when regional actors start exploring ways to manage coexistence themselves. The historical example carries weight because it points toward a known family of political instruments: non-aggression pacts, conference processes, transit security, and a negotiated acknowledgment that rivals remain.
 
-The theme also helps explain why Mercouris belongs in the lattice as a third seed. He is not only a continuity narrator of European crises. He is also a translator from one historical security grammar into another region's possible future. That makes him valuable for `civ-emp`, because it turns a speaker-side observation into a concrete retrieval demand: what does a post-hegemonic regional architecture actually require, and what are the limits of Helsinki-style transfer?
+The theme also helps explain why Mercouris belongs in the lattice as a third seed. He is not only a continuity narrator of European crises. He is also a translator from one historical security grammar into another region's possible future. That makes him valuable for `civ-state`, because it turns a speaker-side observation into a concrete retrieval demand: what does a post-hegemonic regional architecture actually require, and what are the limits of Helsinki-style transfer?
 
 ## Route-Family Spread
 
@@ -42,9 +42,9 @@ The theme also helps explain why Mercouris belongs in the lattice as a third see
 
 Mercouris keeps returning to the idea that failed coercive projects do not end history; they force new architecture questions. Helsinki is his cleanest historical shorthand for that.
 
-## CIV-EMP Bridge
+## CIV-STATE Bridge
 
-Open [Helsinki process and post-hegemonic security architecture](/C:/dev/strategy-codex/statecraft/civ-emp/indexes/mercouris/helsinki-process-and-post-hegemonic-security-architecture.md) when the task shifts from Mercouris's activation surface to deeper regional-architecture and non-aggression retrieval.
+Open [Helsinki process and post-hegemonic security architecture](/C:/dev/strategy-codex/statecraft/civ-state/indexes/mercouris/helsinki-process-and-post-hegemonic-security-architecture.md) when the task shifts from Mercouris's activation surface to deeper regional-architecture and non-aggression retrieval.
 
 ## Benchmark Snapshot
 
@@ -52,7 +52,7 @@ Open [Helsinki process and post-hegemonic security architecture](/C:/dev/strateg
 - Quote quality: 4
 - Route-family spread: 2
 - Argument-function clarity: 5
-- `civ-emp` bridge clarity: 5
+- `civ-state` bridge clarity: 5
 - Reuse value: 5
 
 ## Boundary

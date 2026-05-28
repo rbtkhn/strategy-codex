@@ -146,8 +146,8 @@ The ladder is reusable anywhere the system is tempted to sound persuasive before
 - Need ownership judgment? open `state-deploy`.
 - Need cross-lane mechanism after ownership? open [../compact/README.md](../compact/README.md).
 - Need bundle reuse? open [transaction-router.md](transaction-router.md).
-- Need higher-order diagnosis before trusting the draft? open [../civ-emp/civilization-empire-faith-science-memory-desire.md](../civ-emp/civilization-empire-faith-science-memory-desire.md).
-- Need deep legitimacy first? open [../civ-emp/sacred-grammar/README.md](../civ-emp/sacred-grammar/README.md).
+- Need higher-order diagnosis before trusting the draft? open [../civ-state/civilization-empire-faith-science-memory-desire.md](../civ-state/civilization-empire-faith-science-memory-desire.md).
+- Need deep legitimacy first? open [../civ-state/sacred-grammar/README.md](../civ-state/sacred-grammar/README.md).
 
 ## Teaching Line
 

@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # Macgregor Index
 
-Purpose: front door for the canonical Macgregor statecraft shelf, surfacing the person arc, routing doctrine, provenance bench, bounded 2026 monthly synthesis, and the `civ-emp` historical membrane.
+Purpose: front door for the canonical Macgregor statecraft shelf, surfacing the person arc, routing doctrine, provenance bench, bounded 2026 monthly synthesis, and the `civ-state` historical membrane.
 
 ## Open First
 
@@ -13,7 +13,7 @@ Purpose: front door for the canonical Macgregor statecraft shelf, surfacing the 
 - [Support spine](macgregor-support-spine-2025-2026.md) - canonical maturity and month-support law.
 - [March monthly shelf](stream/macgregor-shelf-2026-03.md) - first mature cross-host month synthesis.
 - [April monthly shelf](stream/macgregor-shelf-2026-04.md) - densest visible month synthesis.
-- [Historical examples audit](macgregor-historical-examples-audit.md) - `civ-emp`-aware historical membrane.
+- [Historical examples audit](macgregor-historical-examples-audit.md) - `civ-state`-aware historical membrane.
 
 ## Core Speaker Files
 

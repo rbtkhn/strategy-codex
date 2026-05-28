@@ -11,7 +11,7 @@ Short form:
 
 Another short form:
 
-`speaker shelf -> speaker claim -> bridge adapter -> civ-emp retrieval -> lane translation -> statecraft output`
+`speaker shelf -> speaker claim -> bridge adapter -> civ-state retrieval -> lane translation -> statecraft output`
 
 ## Speaker Shelf
 
@@ -40,7 +40,7 @@ The bridge adapter is a statecraft-facing retrieval converter.
 It owns:
 
 - what type of claim the speaker is making
-- which `civ-emp` retrieval profile that claim should trigger
+- which `civ-state` retrieval profile that claim should trigger
 - which lane surfaces should open next
 - what counterweight must be forced before drafting
 - whether the output should remain a diagnosis or become a transaction-oriented artifact
@@ -65,7 +65,7 @@ With the split:
 
 - shelves stay readable
 - bridges stay operational
-- `civ-emp` receives disciplined inputs instead of ad hoc speaker leakage
+- `civ-state` receives disciplined inputs instead of ad hoc speaker leakage
 
 ## Default Handoff Rule
 
@@ -80,7 +80,7 @@ Use the shelf first when the task is still:
 Use the bridge adapter when the task becomes:
 
 - claim-family classification
-- `civ-emp` retrieval conditioning
+- `civ-state` retrieval conditioning
 - lane-opening choice for a live strategic claim
 - counterweight forcing before statecraft output
 
@@ -108,7 +108,7 @@ These surfaces answer who Macgregor is, how his host ecology works, which months
 What the shelf should not have to own is the conversion from a live Macgregor claim into:
 
 - claim family
-- `civ-emp` retrieval profile
+- `civ-state` retrieval profile
 - lane opening
 - counterweight requirement
 - diagnosis versus transaction output

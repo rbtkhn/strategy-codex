@@ -43,9 +43,9 @@ Mercouris is also careful here in a way that improves the lattice. He does not m
 
 Mercouris is highly attentive to diplomatic staging and to who is inside or outside the room. Conference memory is therefore one of his natural recurring historical lenses.
 
-## CIV-EMP Bridge
+## CIV-STATE Bridge
 
-Open [Yalta myth and European exclusion anxiety](/C:/dev/strategy-codex/statecraft/civ-emp/indexes/mercouris/yalta-myth-and-european-exclusion-anxiety.md) when the task shifts from Mercouris's activation surface to deeper conference-memory and exclusion-psychology retrieval.
+Open [Yalta myth and European exclusion anxiety](/C:/dev/strategy-codex/statecraft/civ-state/indexes/mercouris/yalta-myth-and-european-exclusion-anxiety.md) when the task shifts from Mercouris's activation surface to deeper conference-memory and exclusion-psychology retrieval.
 
 ## Benchmark Snapshot
 
@@ -53,7 +53,7 @@ Open [Yalta myth and European exclusion anxiety](/C:/dev/strategy-codex/statecra
 - Quote quality: 5
 - Route-family spread: 3
 - Argument-function clarity: 5
-- `civ-emp` bridge clarity: 5
+- `civ-state` bridge clarity: 5
 - Reuse value: 5
 
 ## Boundary

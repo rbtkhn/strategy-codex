@@ -2,10 +2,10 @@
 
 _Generated observability artifact. Rebuild with `python scripts/build_statecraft_day_dashboard.py`._
 
-- Generated: `2026-05-27T02:36:02.745171+00:00`
+- Generated: `2026-05-28T16:16:14.526028+00:00`
 - Root: `C:\dev\strategy-codex\source-archive\statecraft`
 - Indexed days: `24`
-- Source files: `149`
+- Source files: `150`
 - Covered span: `2025-01-24` to `2026-05-25`
 
 ## Active Query
@@ -81,8 +81,8 @@ _Generated observability artifact. Rebuild with `python scripts/build_statecraft
 | `Alastair Crooke` | 6 |
 | `John Mearsheimer` | 4 |
 | `Larry C. Johnson` | 4 |
+| `Jeffrey Sachs` | 3 |
 | `Seyed M. Marandi` | 3 |
-| `Jeffrey Sachs` | 2 |
 | `Ray McGovern` | 2 |
 
 ## Thread Leaderboard
@@ -116,7 +116,7 @@ _Generated observability artifact. Rebuild with `python scripts/build_statecraft
 | [2025-03-14](C:/dev/strategy-codex/source-archive/statecraft/2025-03-14/README.md) | 1 | Glenn Diesen | 1 | 0 | yes |
 | [2025-05-29](C:/dev/strategy-codex/source-archive/statecraft/2025-05-29/README.md) | 2 | Glenn Diesen | 1 | 1 | yes |
 | [2025-06-22](C:/dev/strategy-codex/source-archive/statecraft/2025-06-22/README.md) | 2 | Dialogue Works, Glenn Diesen | 2 | 0 | yes |
-| [2025-11-21](C:/dev/strategy-codex/source-archive/statecraft/2025-11-21/README.md) | 4 | Dialogue Works, Glenn Diesen | 4 | 2 | yes |
+| [2025-11-21](C:/dev/strategy-codex/source-archive/statecraft/2025-11-21/README.md) | 5 | Dialogue Works, Glenn Diesen, Jeffrey Sachs | 5 | 2 | yes |
 | [2026-01-06](C:/dev/strategy-codex/source-archive/statecraft/2026-01-06/README.md) | 6 | Dialogue Works, Diesen, Mercouris | 6 | 4 | yes |
 | [2026-02-02](C:/dev/strategy-codex/source-archive/statecraft/2026-02-02/README.md) | 3 | Dialogue Works, Mercouris, simplicius76.substack.com | 3 | 2 | yes |
 | [2026-02-16](C:/dev/strategy-codex/source-archive/statecraft/2026-02-16/README.md) | 5 | Daniel Davis Deep Dive, Dialogue Works, Mercouris | 4 | 2 | yes |

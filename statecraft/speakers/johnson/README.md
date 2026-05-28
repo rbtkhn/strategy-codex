@@ -4,7 +4,7 @@ WORK only; not Record.
 
 This is the canonical Johnson statecraft speaker shelf.
 
-Use it for speaker identity, route maps, bounded 2026 monthly synthesis, dense-core strand retrieval, and `civ-emp`-aware historical audit work.
+Use it for speaker identity, route maps, bounded 2026 monthly synthesis, dense-core strand retrieval, and `civ-state`-aware historical audit work.
 
 ## Open First
 
@@ -52,7 +52,7 @@ Johnson now has a full canonical January through May 2026 month ladder for the l
 - [Johnson historical examples audit](johnson-historical-examples-audit.md)
 - [Johnson historical themes](themes/README.md)
 
-`civ-emp` enters here as the primary interpretive source base, not as a routing co-pilot and not as a Johnson-specific bridge adapter.
+`civ-state` enters here as the primary interpretive source base, not as a routing co-pilot and not as a Johnson-specific bridge adapter.
 
 ## Compatibility Shape
 

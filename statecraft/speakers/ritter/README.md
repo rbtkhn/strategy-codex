@@ -4,7 +4,7 @@ WORK only; not Record.
 
 This is the canonical Ritter statecraft speaker shelf.
 
-Use it for speaker identity, host continuity, route maps, a full bounded 2026 month ladder, and `civ-emp`-aware historical audit work.
+Use it for speaker identity, host continuity, route maps, a full bounded 2026 month ladder, and `civ-state`-aware historical audit work.
 
 ## Open First
 
@@ -50,7 +50,7 @@ The Ritter historical scaffold in this wave is intentionally narrow:
 - [Ritter historical examples audit](ritter-historical-examples-audit.md)
 - [Ritter historical themes](themes/README.md)
 
-`civ-emp` enters here as the primary interpretive source base, not as a routing co-pilot and not as a Ritter-specific bridge adapter.
+`civ-state` enters here as the primary interpretive source base, not as a routing co-pilot and not as a Ritter-specific bridge adapter.
 
 ## Compatibility Shape
 

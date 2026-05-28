@@ -41,9 +41,9 @@ That is why this theme matters across both strands of the Crooke shelf. In the a
 
 Crooke's shelf is unusually sensitive to the difference between process and authority. He keeps returning to moments when the West confuses a staged diplomatic motion with an actually transferable political settlement. The recurrence is therefore structural, not episodic.
 
-## CIV-EMP Bridge
+## CIV-STATE Bridge
 
-Open [Treaty form vs transactional settlement](/C:/dev/strategy-codex/statecraft/civ-emp/indexes/crooke/treaty-form-vs-transactional-settlement.md) when the task shifts from Crooke's modern activation surface to deeper treaty-memory and settlement-form retrieval.
+Open [Treaty form vs transactional settlement](/C:/dev/strategy-codex/statecraft/civ-state/indexes/crooke/treaty-form-vs-transactional-settlement.md) when the task shifts from Crooke's modern activation surface to deeper treaty-memory and settlement-form retrieval.
 
 ## Benchmark Snapshot
 
@@ -51,7 +51,7 @@ Open [Treaty form vs transactional settlement](/C:/dev/strategy-codex/statecraft
 - Quote quality: 5
 - Route-family spread: 4
 - Argument-function clarity: 5
-- `civ-emp` bridge clarity: 4
+- `civ-state` bridge clarity: 4
 - Reuse value: 5
 
 ## Boundary
