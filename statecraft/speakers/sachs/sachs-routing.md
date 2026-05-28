@@ -27,6 +27,8 @@ Best current direct anchors:
 - [2025-08-11 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-08-11/transcript-diesen-sachs-trump-putin-meeting-peace-or-deception-2025-08-11.md)
 - [2025-09-18 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-18/transcript-glenn-diesen-jeffrey-sachs-us-and-china-edge-toward-war-over-taiwan-2025-09-18.md)
 - [2025-09-27 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-27/transcript-glenn-diesen-jeffrey-sachs-nato-warmongers-and-the-world-on-the-edge-of-war-2025-09-27.md)
+- [2025-10-06 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-06/transcript-glenn-diesen-jeffrey-sachs-another-war-against-iran-could-be-imminent-2025-10-06.md)
+- [2025-10-22 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-22/transcript-glenn-diesen-jeffrey-sachs-last-chance-for-peace-in-ukraine-sabotaged-by-europe-2025-10-22.md)
 - [2026-05-12 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-12/youtube-glenn-diesen-jeffrey-sachs-new-european-military-bloc-for-war-against-russia-2026-05-12.md)
 - [2026-05-23 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-23/transcript-diesen-sachs-the-baltic-states-are-now-the-most-dangerous-place-in-the-world-2026-05-23.md)
 
@@ -54,6 +56,10 @@ Best current direct anchors:
 - [2025-09-17 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-17/youtube-napolitano-sachs-definitely-genocide-2025-09-17.md)
 - [2025-09-25 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-25/youtube-napolitano-sachs-al-qaeda-at-the-un-2025-09-25.md)
 - [2025-09-30 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-30/youtube-napolitano-sachs-netanyahu-stumbles-2025-09-30.md)
+- [2025-10-06 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-06/transcript-napolitano-sachs-trump-colonizing-gaza-2025-10-06.md)
+- [2025-10-13 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-13/transcript-napolitano-sachs-who-would-trust-netanyahu-2025-10-13.md)
+- [2025-10-22 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-22/transcript-napolitano-sachs-israels-next-moves-2025-10-22.md)
+- [2025-10-27 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-27/transcript-napolitano-sachs-trumps-attempt-at-venezuelan-regime-change-and-his-gaza-illusions-2025-10-27.md)
 - [2026-03-16 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-16/transcript-napolitano-sachs-are-we-drifting-toward-a-global-war-2026-03-16.md)
 - [2026-05-27 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-27/transcript-napolitano-sachs-trump-has-no-lifeline-out-of-iran-2026-05-27.md)
 
@@ -71,6 +77,7 @@ Open the Mercouris or Tucker anchors first when the real question is:
 Best current anchors:
 
 - [2025-06-11 / Tucker x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-11/transcript-sachs-carlson-dark-forces-pushing-trump-into-war-with-iran-2025-06-11.md)
+- [2025-10-01 / Tucker x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-01/transcript-sachs-carlson-blackmail-bribes-and-fear-netanyahu-claims-he-controls-donald-trump-and-america-2025-10-01.md)
 - [2026-05-07 / Mercouris x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-07/transcript-mercouris-jeffrey-sachs-iran-miscalculation-could-trigger-a-decade-long-economic-crisis-2026-05-07.md)
 - [2026-04-24 / Tucker x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-24/transcript-sachs-carlson-iran-war-origins-2026-04-24.md)
 

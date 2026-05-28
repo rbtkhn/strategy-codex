@@ -20,6 +20,8 @@ Purpose: provide the canonical route map for materialized Sachs appearances and 
 - [2025-08-11 - Trump-Putin Meeting: Peace or Deception?](/C:/dev/strategy-codex/source-archive/statecraft/2025-08-11/transcript-diesen-sachs-trump-putin-meeting-peace-or-deception-2025-08-11.md)
 - [2025-09-18 - US and China Edge Toward War Over Taiwan](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-18/transcript-glenn-diesen-jeffrey-sachs-us-and-china-edge-toward-war-over-taiwan-2025-09-18.md)
 - [2025-09-27 - NATO Warmongers & the World on the Edge of War](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-27/transcript-glenn-diesen-jeffrey-sachs-nato-warmongers-and-the-world-on-the-edge-of-war-2025-09-27.md)
+- [2025-10-06 - Another War Against Iran Could Be Imminent](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-06/transcript-glenn-diesen-jeffrey-sachs-another-war-against-iran-could-be-imminent-2025-10-06.md)
+- [2025-10-22 - Last Chance for Peace in Ukraine Sabotaged by Europe](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-22/transcript-glenn-diesen-jeffrey-sachs-last-chance-for-peace-in-ukraine-sabotaged-by-europe-2025-10-22.md)
 - [2026-02-28 - US & Israel Attack Iran - War Is Spreading Across the Region](/C:/dev/strategy-codex/source-archive/statecraft/2026-02-28/transcript-diesen-sachs-us-israel-attack-iran-war-is-spreading-across-the-region-2026-02-28.md)
 - [2026-03-16 - Israel Could Use Nuclear Weapons Against Iran](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-16/youtube-glenn-diesen-jeffrey-sachs-israel-could-use-nuclear-weapons-against-iran-2026-03-16.md)
 - [2026-03-20 - Israel Could Use Nuclear Weapons Against Iran](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-20/transcript-diesen-sachs-israel-could-use-nuclear-weapons-against-iran-2026-03-20.md)
@@ -42,6 +44,10 @@ Purpose: provide the canonical route map for materialized Sachs appearances and 
 - [2025-09-17 - Definitely Genocide.](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-17/youtube-napolitano-sachs-definitely-genocide-2025-09-17.md)
 - [2025-09-25 - Al-Qaeda at the UN](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-25/youtube-napolitano-sachs-al-qaeda-at-the-un-2025-09-25.md)
 - [2025-09-30 - Netanyahu's Vulgar UN Lies](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-30/youtube-napolitano-sachs-netanyahu-stumbles-2025-09-30.md)
+- [2025-10-06 - Trump Colonizing Gaza.](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-06/transcript-napolitano-sachs-trump-colonizing-gaza-2025-10-06.md)
+- [2025-10-13 - Who Would Trust Netanyahu?](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-13/transcript-napolitano-sachs-who-would-trust-netanyahu-2025-10-13.md)
+- [2025-10-22 - Israel's Next Moves.](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-22/transcript-napolitano-sachs-israels-next-moves-2025-10-22.md)
+- [2025-10-27 - Trump’s attempt at Venezuelan regime-change and his Gaza Illusions](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-27/transcript-napolitano-sachs-trumps-attempt-at-venezuelan-regime-change-and-his-gaza-illusions-2025-10-27.md)
 - [2026-03-16 - Are We Drifting Toward a Global War?](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-16/transcript-napolitano-sachs-are-we-drifting-toward-a-global-war-2026-03-16.md)
 - [2026-05-27 - Trump Has No Lifeline Out of Iran](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-27/transcript-napolitano-sachs-trump-has-no-lifeline-out-of-iran-2026-05-27.md)
 
@@ -52,6 +58,7 @@ Purpose: provide the canonical route map for materialized Sachs appearances and 
 ### Tucker Carlson
 
 - [2025-06-11 - The Dark Forces Pushing Trump Into War With Iran, & Ukraine/Russia New Escalation](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-11/transcript-sachs-carlson-dark-forces-pushing-trump-into-war-with-iran-2025-06-11.md)
+- [2025-10-01 - Blackmail, Bribes, and Fear: Netanyahu Claims He Controls Donald Trump and America. Tucker Responds.](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-01/transcript-sachs-carlson-blackmail-bribes-and-fear-netanyahu-claims-he-controls-donald-trump-and-america-2025-10-01.md)
 - [2026-04-24 - The Real Origins of the Iran War and the Coming Economic Devastation](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-24/transcript-sachs-carlson-iran-war-origins-2026-04-24.md)
 
 ## Host-Arc Entries
