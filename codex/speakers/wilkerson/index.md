@@ -24,6 +24,8 @@ The orthogonality-bearing structure on this shelf is:
 
 - [Speaker folder README](../../../speakers/wilkerson/README.md)
 - [Cross-year note](../../../speakers/wilkerson/wilkerson-cross-year-note.md)
+- [January 2025 note](../../../speakers/wilkerson/wilkerson-january-2025-note.md)
+- [February 2025 note](../../../speakers/wilkerson/wilkerson-february-2025-note.md)
 
 ## Main Host Arcs
 

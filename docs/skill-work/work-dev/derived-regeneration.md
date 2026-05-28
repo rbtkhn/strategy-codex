@@ -200,6 +200,10 @@ That keeps regeneration safe for mixed-use `artifacts/` trees where many familie
 
 Keep this first.
 
+Current tension: the repo still carries two real pressures that should not be flattened into fake agreement. One pressure wants a broader, better-ordered regeneration foundation so derived surfaces stop drifting for structural reasons; the other wants deeper handback-tail reliability slices so the active operator loop earns trust at the edge cases. Hold that conflict open until a concrete scenario gap or rebuild-ordering dependency proves which wedge is actually governing the next commit.
+
+Current decision trigger: keep rebuild-foundation work first unless a payload-level or `/stage`-grade handback scenario demonstrates that `V-04_structured_conflict x manual_but_approves` still escapes the present reasoning-vs-action guardrails in a way the current manifest or incremental-ordering work would not catch.
+
 Next wedges:
 
 - expand target coverage only where source -> artifact mapping is clear

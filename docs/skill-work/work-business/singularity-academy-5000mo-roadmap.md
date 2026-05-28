@@ -72,8 +72,8 @@ Core proof set:
 
 - [cici-ai Daily Telegram Brief](../work-cici/cici-ai-daily-telegram-brief.md)
 - [cici-ai Daily Brief Control-Plane Pilot](../work-cici/cici-ai-daily-brief-control-plane-pilot.md)
-- [Apprentice Studio - 30-Day Pilot](../../../codex/academy/singularity/workshop/sheets/apprentice-studio-30-day-pilot.md)
-- [Agent control plane](../../../codex/academy/singularity/workshop/sheets/agent-control-plane.md)
+- [Apprentice Studio - 30-Day Pilot](../../../singularity/workshop/sheets/apprentice-studio-30-day-pilot.md)
+- [Agent control plane](../../../singularity/workshop/sheets/agent-control-plane.md)
 - [Strategy-Codex Quality Contract Offer](strategy-codex-quality-contract-offer.md)
 
 Minimum packet:

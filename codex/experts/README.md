@@ -5,6 +5,6 @@
 Canonical locations are now:
 
 - people lanes: [`codex/speakers/`](C:/dev/strategy-codex/codex/speakers)
-- dated provenance: [`codex/years/2026/raw-input/`](C:/dev/strategy-codex/codex/years/2026/raw-input)
+- dated provenance: [`source-archive/statecraft/`](C:/dev/strategy-codex/source-archive/statecraft)
 
 Do not create new canonical shelves under `codex/experts/` or under `codex/years/2026/<person>/`.

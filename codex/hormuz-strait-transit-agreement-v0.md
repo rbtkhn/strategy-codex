@@ -5,7 +5,7 @@ kind: strategy-draft
 title: Hormuz Strait Transit Agreement (v0 strawman)
 word_count: 452
 thread: mercouris
-related_transcript: raw-input/2026-04-25/transcript-duran-mercouris-cristoforu-sea-blockade-iran-2026-04-25.md
+related_transcript: provenance/2026-04-25/transcript-duran-mercouris-cristoforu-sea-blockade-iran-2026-04-25.md
 conformance_note: Shaped against Mercouris–Christoforou sea-blockade / stalemate diagnosis (WORK; not Record). §3.1 Furtwängler tension; §1 Karajan long-horizon bet on Gulf predictability — no policy prescription.
 word_budget_words: 500
 word_budget_scope: Entire file ≤500 words. Longer HRTF scaffolds → separate paths.
@@ -47,4 +47,4 @@ related_long_form: hormuz-reciprocal-transit-deescalation-framework-v2-1.md
 
 ---
 
-*Hook:* [Sea blockade / stalemate — 2026-04-25](raw-input/2026-04-25/transcript-duran-mercouris-cristoforu-sea-blockade-iran-2026-04-25.md).
+*Hook:* [Sea blockade / stalemate — 2026-04-25](provenance/2026-04-25/transcript-duran-mercouris-cristoforu-sea-blockade-iran-2026-04-25.md).

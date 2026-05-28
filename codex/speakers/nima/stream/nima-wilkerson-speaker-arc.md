@@ -41,7 +41,18 @@ There are also mixed Johnson/Wilkerson Dialogue Works episodes in the same windo
 
 ### 2025 densification
 
-The 2025 Dialogue Works shelf was already real, but it is now clearer on disk as a long live-pressure continuation rather than a few isolated warning shots. In addition to the already-materialized `2025-01-11`, `2025-01-18`, `2025-05-30`, `2025-10-14`, `2025-11-04`, `2025-12-02`, and `2025-12-30` files, the fuller 2025 lane now also includes:
+The 2025 Dialogue Works shelf was already real, but it is now clearer on disk as a long live-pressure continuation rather than a few isolated warning shots. The earliest compact proof is January 2025, where four Wilkerson appearances already establish the live-pressure contour:
+
+- [2025-01-04 *Yemen's Hypersonic Strike Stuns Israel as Iran Regroups*](/C:/dev/strategy-codex/source-archive/statecraft/2025-01-04/transcript-dialogue-works-yemen-s-hypersonic-strike-stuns-israel-as-iran-regroups-col-larry-wilker-2025-01-04.md)
+- [2025-01-11 *The US Strategy That's Failing Spectacularly*](/C:/dev/strategy-codex/source-archive/statecraft/2025-01-11/transcript-dialogue-works-the-us-strategy-that-s-failing-spectacularly-col-larry-wilkerson-2025-01-11.md)
+- [2025-01-14 *Israel Shaken: Hypersonic Strike & IDF Ambushed as Ceasefire Nears*](/C:/dev/strategy-codex/source-archive/statecraft/2025-01-14/transcript-dialogue-works-israel-shaken-hypersonic-strike-idf-ambushed-as-ceasefire-nears-col-larr-2025-01-14.md)
+- [2025-01-18 *Israel is in Total Disarray*](/C:/dev/strategy-codex/source-archive/statecraft/2025-01-18/transcript-dialogue-works-israel-is-in-total-disarray-alex-krainer-col-larry-wilkerson-2025-01-18.md)
+
+That January cluster makes the lane's early job visible before the later-year thickening: Nima pushes from immediate escalation, Wilkerson answers with strategic failure, live pressure, and force-limit warning. See [wilkerson-january-2025-note.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-january-2025-note.md).
+
+February 2025 remains thinner on disk, but local stream evidence also shows a nearby `2025-02-02` Dialogue Works Wilkerson appearance, *Trump's Weakness Spells Disaster*, which helps confirm that the January cluster was not an isolated burst. See [wilkerson-february-2025-note.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-february-2025-note.md).
+
+Beyond that January proving cluster, the fuller 2025 lane now also includes:
 
 - `2025-10-01` *Warning Signs: Is the United States on the Path to Disaster?*
 - `2025-11-18` *Epstein Files - NATO's Moves ALL FALLING APART - Iran closer to Russia*

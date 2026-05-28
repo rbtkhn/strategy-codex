@@ -86,4 +86,4 @@ Consolidate **recent strategy-notebook inputs** (chapter `days.md` pointers, `ra
 
 ## Example run
 
-_Operator asks for a synthesis for 2026-04-27. Assistant reads `chapters/2026-04/days.md`, `raw-input/2026-04-27/`, and inbox rows, then writes `raw-input/2026-04-27-strategy-synthesis-draft.md` with labeled sections. Operator deletes two bullets, weaves two paragraphs into `days.md` Reflection, and does not touch `recursion-gate.md` in that pass._
+_Operator asks for a synthesis for 2026-04-27. Assistant reads `chapters/2026-04/days.md`, `provenance/2026-04-27/`, and inbox rows, then writes `provenance/2026-04-27-strategy-synthesis-draft.md` with labeled sections. Operator deletes two bullets, weaves two paragraphs into `days.md` Reflection, and does not touch `recursion-gate.md` in that pass._

@@ -5,7 +5,7 @@ Scope: WORK-only
 Lane: work-strategy
 Purpose: Thin operator bridge between work-strategy and civilization_memory-derived civilizational reasoning
 Owner: Operator
-Last updated: 2026-04-27
+Last updated: 2026-05-26
 
 ## 1. What this surface is
 
@@ -170,6 +170,15 @@ Key questions:
 - Who defines the public meaning of events?
 - What story is being preserved at high cost?
 - Is narrative serving power, or compensating for the erosion of power?
+
+### 7.9 Legitimacy and capability coupling
+Whether a civilization's legitimating story and technical-control apparatus reinforce one another or drift apart.
+
+Key questions:
+- What legitimates authority here: theology, constitution, continuity, sacrifice, sovereignty, or some hybrid?
+- What scales control here: industry, bureaucracy, finance, computation, military force, or network power?
+- Does capability remain subordinate to a moral or political order, or does it begin legitimating itself?
+- Is this a faith-versus-science case on the surface but a legitimacy-versus-capability case underneath?
 
 ## 8. Reusable case families
 

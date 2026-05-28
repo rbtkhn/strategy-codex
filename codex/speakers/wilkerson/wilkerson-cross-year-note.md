@@ -17,6 +17,10 @@ The restored 2025 shelf makes three things clearer:
 - both lanes are denser in late 2025 than the original backfill showed, especially the late Diesen imperial-decline continuation and the autumn-winter Dialogue Works warning run.
 - the absent element is not a temporarily hidden third strand, but the continued nonexistence of a canonical `Davis x Wilkerson` lane.
 
+The January 2025 Dialogue Works cluster is especially important here because it shows that the live-pressure lane was already recognizably formed before the later 2025 warning run thickened. See [wilkerson-january-2025-note.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-january-2025-note.md).
+
+February 2025 matters for a different reason: even as a thin month, it already shows the early host-conditioned split between a live-pressure Dialogue Works Wilkerson and a higher-altitude Diesen Wilkerson. See [wilkerson-february-2025-note.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-february-2025-note.md).
+
 ## How to read it
 
 - [wilkerson-routing.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-routing.md) is the fastest speaker-side routing surface

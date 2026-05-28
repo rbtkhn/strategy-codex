@@ -23,6 +23,8 @@ description: >-
 
 **Hub index:** [`docs/skill-write/README.md`](../../../docs/skill-write/README.md)
 
+**PH proof-object mode:** [`.cursor/skills/ph-civ-comment-proof-objects/SKILL.md`](../ph-civ-comment-proof-objects/SKILL.md) (use for `civ-*` YouTube comments when the operator wants public proof objects rather than chapter-doorway comments)
+
 ## When this runs
 
 | Operator says | Agent does |

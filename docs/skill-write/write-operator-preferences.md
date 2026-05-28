@@ -7,7 +7,7 @@
 | **Locals — VivaBarnesLaw** | Forum posts (e.g. [vivabarneslaw.beta.locals.com](https://vivabarneslaw.beta.locals.com/)); **Grace‑Mar** house style for this surface (see [grace-mar-locals-voice.md](grace-mar-locals-voice.md)), liability-adjacent framing when useful. |
 | **Locals — Duran** | **Recorded:** **Same defaults as VivaBarnes** (same **Grace‑Mar** Locals voice) unless you override. **Intent:** over time, develop **one distinct style** tuned for **both** communities (not two permanently separate personas). |
 | **X** | Short posts / threads; topic-first and density per [.cursor/rules/drafting-topic-lede.mdc](../../.cursor/rules/drafting-topic-lede.mdc). |
-| **YouTube — Predictive History** | **Comments** (usually **top-level**); **short paragraph** is fine when needed—not only one-liners. Default comment strategy: trust-first chapter-folder doorway per [predictive-history-youtube-comments.md](predictive-history-youtube-comments.md). Channel context: [youtube-channels/predictive-history](../../research/external/youtube-channels/predictive-history/README.md) (transcript library **LIB-0151** — not the **LIB-0149** operator book; see [self-library-operator-books](../../.cursor/rules/self-library-operator-books.mdc) if ambiguous). |
+| **YouTube — Predictive History** | **Comments** (usually **top-level**); **short paragraph** is fine when needed—not only one-liners. Default comment strategy: trust-first chapter-folder doorway per [predictive-history-youtube-comments.md](predictive-history-youtube-comments.md). Current exception: the local `civ-01` to `civ-06` Wave One pilot uses evidence-rich proof-object comments instead of doorway comments. Channel context: [youtube-channels/predictive-history](../../research/external/youtube-channels/predictive-history/README.md) (transcript library **LIB-0151** — not the **LIB-0149** operator book; see [self-library-operator-books](../../.cursor/rules/self-library-operator-books.mdc) if ambiguous). |
 
 **Scope (recorded):** **All public operator writing** is in scope **unless** you exclude a surface or class by name. **First-class workflow:** **Locals first** (VivaBarnes / Duran), then **X** and **Predictive History comments** as **shortened or derived follow-ons** unless you direct otherwise.
 
@@ -114,6 +114,8 @@ When drafting **Predictive History YouTube comments**, use the trust-first chapt
 - invite readers to paste the folder link into ChatGPT, Claude, or Grok for guided study;
 - keep `ph-civ` as a light signature, not heavy branding;
 - avoid hype, spam, overclaiming, repeated boilerplate, and claims that provisional transcripts or commentaries are final.
+
+Exception: the local `civ-01` to `civ-06` Wave One pilot uses comments as public proof objects of strategy-codex statecraft. For that pilot, the comment should be one paragraph, include at least two concrete historical examples, use those examples to reason toward the lecture thesis, omit links, and prioritize compressed analytical force over doorway behavior.
 
 ### Phrases and beats to avoid (add as you find them)
 

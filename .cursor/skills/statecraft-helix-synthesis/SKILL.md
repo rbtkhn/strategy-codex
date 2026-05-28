@@ -1,6 +1,6 @@
 ---
 name: "statecraft-helix-synthesis"
-description: "Build helix-first repo-root statecraft synthesis and retrieval surfaces above mature lane objects. Use when the operator asks for canonical-family synthesis, problem-shape routing, meta-synthesis, settlement-room or escalation-governance comparison, or corpus-level orientation surfaces in statecraft/civ-emp."
+description: "Build helix-first repo-root statecraft synthesis and retrieval surfaces above mature lane objects. Use when the operator asks for canonical-family synthesis, problem-shape routing, meta-synthesis, settlement-room or escalation-governance comparison, or corpus-level orientation surfaces in statecraft/civ-state."
 portable: true
 version: "0.1.0"
 tags:
@@ -149,11 +149,11 @@ Keep the close-out compact. The point of this layer is to improve navigation and
 
 ## strategy-codex instance
 
-- Root working area for this skill: [statecraft](/C:/dev/strategy-codex/statecraft) with the main control plane under [civ-emp/migration](/C:/dev/strategy-codex/statecraft/civ-emp/migration).
+- Root working area for this skill: [statecraft](/C:/dev/strategy-codex/statecraft) with the main control plane under [civ-state/migration](/C:/dev/strategy-codex/statecraft/civ-state/migration).
 - Preferred source stack for synthesis work:
   - lane helixes such as [America helix](/C:/dev/strategy-codex/statecraft/america/helix.md)
   - first-wave strand objects under each lane's `civilization/` and `empire/`
-  - migration control-plane notes in [civ-emp/migration](/C:/dev/strategy-codex/statecraft/civ-emp/migration)
+  - migration control-plane notes in [civ-state/migration](/C:/dev/strategy-codex/statecraft/civ-state/migration)
 - Preferred generator command after edits:
 
 ```powershell

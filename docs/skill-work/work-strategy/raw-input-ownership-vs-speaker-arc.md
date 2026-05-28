@@ -1,25 +1,25 @@
-# Raw-Input Ownership vs Speaker Arc
+# Source-Archive Ownership vs Speaker Arc
 
 WORK only; not Record.
 
 This note distinguishes two nearby but different questions:
 
-- **who owns the raw-input capture?**
+- **who owns the source-archive capture?**
 - **what recurring host x guest form deserves a speaker arc later?**
 
 They are related, but they are not the same object and should not be decided by the same rule.
 
 ## Short rule
 
-- **raw-input ownership** decides where one capture belongs when it first enters the notebook
+- **source-archive ownership** decides where one capture belongs when it first enters the notebook
 - **speaker arc** decides whether a repeated host x guest run has become a reusable host-local form
 
-Do not use speaker-arc logic to name a raw-input file.
-Do not use raw-input ownership logic to decide whether a speaker arc exists.
+Do not use speaker-arc logic to name a source-archive file.
+Do not use source-archive ownership logic to decide whether a speaker arc exists.
 
-## Raw-input ownership
+## Source-archive ownership
 
-Raw-input ownership is an **ingest** decision.
+Source-archive ownership is an **ingest** decision.
 
 Its job is to answer:
 
@@ -53,11 +53,11 @@ A speaker arc stays:
 
 - host-local
 - stream-local
-- downstream of raw-input accumulation
+- downstream of source-archive accumulation
 
 ## Why they can diverge
 
-One capture can be owned by an expert lane at raw-input time and still never produce a speaker arc.
+One capture can be owned by an expert lane at source-archive time and still never produce a speaker arc.
 
 That happens when:
 
@@ -65,11 +65,11 @@ That happens when:
 - the guest lane is the real notebook owner
 - but there is no recurring host-local run worth compressing into an arc
 
-Likewise, a designated host stream can own the raw-input and later produce a speaker arc because the same host x guest shape keeps returning.
+Likewise, a designated host stream can own the source capture and later produce a speaker arc because the same host x guest shape keeps returning.
 
 So the two decisions are different:
 
-- **raw-input ownership** asks: where does this file belong now?
+- **source-archive ownership** asks: where does this file belong now?
 - **speaker arc** asks: has this recurring host x guest contour become a reusable notebook object?
 
 ## Practical boundary
@@ -87,17 +87,17 @@ If you reverse those questions, the notebook starts to blur:
 
 ## Clean examples
 
-- [youtube-pape-mario-nawfal-trump-s-next-iran-steps-revealed-2026-05-12.md](../../../codex/years/2026/raw-input/2026-05-12/youtube-pape-mario-nawfal-trump-s-next-iran-steps-revealed-2026-05-12.md)
-  - raw-input ownership: **Pape-first**
+- [youtube-pape-mario-nawfal-trump-s-next-iran-steps-revealed-2026-05-12.md](../../../source-archive/statecraft/2026-05-12/youtube-pape-mario-nawfal-trump-s-next-iran-steps-revealed-2026-05-12.md)
+  - source-archive ownership: **Pape-first**
   - no speaker arc implied by that fact alone
 
-- [transcript-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md](../../../codex/years/2026/raw-input/2026-05-06/transcript-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md)
-  - raw-input ownership: **Diesen-first**
+- [transcript-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md](../../../source-archive/statecraft/2026-05-06/transcript-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md)
+  - source-archive ownership: **Diesen-first**
   - later supports [diesen-freeman-arc.md](../../../codex/speakers/diesen/stream/diesen-freeman-arc.md) because the recurring host-local run is real
 
 ## Bottom line
 
-**Raw-input ownership protects the right shelf.**
+**Source-archive ownership protects the right shelf.**
 
 **Speaker arc protects the right recurring form.**
 

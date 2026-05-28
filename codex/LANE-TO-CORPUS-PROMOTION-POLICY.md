@@ -7,7 +7,7 @@ WORK only; not Record.
 Strategy-codex now uses a strict split:
 
 - [`codex/speakers/`](C:/dev/strategy-codex/codex/speakers) is the canonical home for every recurring person lane, including hosts.
-- [`codex/years/2026/raw-input/`](C:/dev/strategy-codex/codex/years/2026/raw-input) is the dated provenance layer.
+- [`source-archive/statecraft/`](C:/dev/strategy-codex/source-archive/statecraft) is the dated provenance layer.
 
 Do not treat `codex/years/2026/<person>/` as a live notebook lane model. That pattern is retired.
 
@@ -16,7 +16,7 @@ Do not treat `codex/years/2026/<person>/` as a live notebook lane model. That pa
 The default pattern is:
 
 - person shelf in `codex/speakers/<name>/`
-- source capture in `codex/years/2026/raw-input/YYYY-MM-DD/`
+- source capture in `source-archive/statecraft/YYYY-MM-DD/`
 - host-local guest transformations owned by the host shelf, typically under `codex/speakers/<host>/stream/`
 
 ## Promotion question

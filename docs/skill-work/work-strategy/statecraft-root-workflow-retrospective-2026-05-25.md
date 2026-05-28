@@ -1,4 +1,4 @@
-# Statecraft Root Workflow Retrospective — 2026-05-25
+# Statecraft Root Workflow Retrospective â€” 2026-05-25
 
 **Purpose:** Capture how the new repo-root [statecraft/statecraft.md](../../../statecraft/statecraft.md) would have improved the actual statecraft workflow observed from **2026-05-18 through 2026-05-25**.
 
@@ -39,9 +39,9 @@ The repo-root `statecraft/` reorg changes that. It shifts effort away from recon
 
 **Old friction:** Multiple conductor passes were effectively used to settle core architecture questions that lacked a single explicit center.
 
-**New path:** The repo-root kernel already holds ontology, output law, promotion discipline, and the `civ-emp` / speaker-arc protocols.
+**New path:** The repo-root kernel already holds ontology, output law, promotion discipline, and the `civ-state` / speaker-arc protocols.
 
-**Better outcome:** More conductor cycles would have refined, stress-tested, or falsified actual statecraft work rather than consolidating the system’s constitution.
+**Better outcome:** More conductor cycles would have refined, stress-tested, or falsified actual statecraft work rather than consolidating the systemâ€™s constitution.
 
 ### 3. Fewer lane-ownership misroutes
 
@@ -53,7 +53,7 @@ The repo-root `statecraft/` reorg changes that. It shifts effort away from recon
 
 ### 4. Clearer ownership-versus-retrieval separation
 
-**Old friction:** The week exposed a real ambiguity between “which lane owns this?” and “which interpreter best conditions the read?”
+**Old friction:** The week exposed a real ambiguity between â€œwhich lane owns this?â€ and â€œwhich interpreter best conditions the read?â€
 
 **New path:** Repo-root statecraft, plus the post-lane bridge doctrine, make that separation explicit: ownership first, retrieval conditioning second.
 
@@ -77,9 +77,9 @@ The repo-root `statecraft/` reorg changes that. It shifts effort away from recon
 
 ### 7. Better live conversion from event to crisis object
 
-**Old friction:** The path from “interesting event / interview / claim” to “real crisis object with a lane owner” still carried drag.
+**Old friction:** The path from â€œinteresting event / interview / claimâ€ to â€œreal crisis object with a lane ownerâ€ still carried drag.
 
-**New path:** The root kernel’s recognizers and reopening questions shorten the path:
+**New path:** The root kernelâ€™s recognizers and reopening questions shorten the path:
 `event -> crisis object -> lane ownership -> output form -> instrument or comparison`.
 
 **Better outcome:** Current-event passes would have moved faster from salience to statecraft without lingering too long at the level of commentary.
@@ -88,9 +88,9 @@ The repo-root `statecraft/` reorg changes that. It shifts effort away from recon
 
 **Old friction:** Many discoveries during the week lived first as local insight, chat refinement, or conductor memory before they became explicit system law.
 
-**New path:** The artifact registry and `civ-emp` review queue give the system named places for downstream learning to accumulate without silent mutation.
+**New path:** The artifact registry and `civ-state` review queue give the system named places for downstream learning to accumulate without silent mutation.
 
-**Better outcome:** More of the week’s improvements would have become reusable governed learning sooner, with less dependence on remembering the conversation.
+**Better outcome:** More of the weekâ€™s improvements would have become reusable governed learning sooner, with less dependence on remembering the conversation.
 
 ### 9. Lower architectural fatigue across repeated statecraft sessions
 

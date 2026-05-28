@@ -8,7 +8,7 @@ description: "Apply the Iran civilization art lens to statecraft problems. Use w
 
 `iran-art` is a WORK-only academy-statecraft command. It applies Iran's civilization art surface to operational statecraft judgment.
 
-Compatibility note: `iran-art` is a **secondary lane-lens skill** beneath the active CIV-EMP six-part doctrine. Identify the governing layer first; then use this skill only when `art` is the right downstream expression surface rather than the governing ontology itself.
+Compatibility note: `iran-art` is a **secondary lane-lens skill** beneath the active CIV-STATE six-part doctrine. Identify the governing layer first; then use this skill only when `art` is the right downstream expression surface rather than the governing ontology itself.
 
 It is not an art-history lecture, artist biography, or style survey. It converts Iranian / Persian aesthetic memory into tests for dignity, sacred legitimacy, recognition, protected space, beauty as endurance, and whether technical language treats Iran as a civilization or a managed file.
 

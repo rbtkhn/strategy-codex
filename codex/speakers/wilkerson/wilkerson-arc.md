@@ -43,6 +43,10 @@ The strongest current motion is:
 
 `early-2025 warning voice -> late-2025 double-helix thickening -> 2026 blockade impossibility and legitimacy-collapse continuity`
 
+The early-2025 portion is not abstract. January 2025 already gives the Dialogue Works side a compact four-appearance warning cluster around Yemen pressure, U.S. strategic failure, hypersonic-strike / ceasefire-near stress, and Israeli disarray. See [wilkerson-january-2025-note.md](wilkerson-january-2025-note.md).
+
+February 2025 then shows the next important step without needing a dense month: the shelf is already beginning to separate into a live-pressure `Dialogue Works` form and a higher-altitude `Diesen` form. See [wilkerson-february-2025-note.md](wilkerson-february-2025-note.md).
+
 That motion is broad enough that Wilkerson now deserves a person arc, even though the comparison object remains a double helix rather than a triple one.
 
 ## Host-local branches

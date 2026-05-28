@@ -2,7 +2,7 @@
 name: civ-state-volume-harden
 description: "Harden or create CIV-STATE front-door and volume architecture surfaces. Use when the operator wants civilization-state diagnostics, sovereignty-chain scaffolds, opener doctrine normalization, or retrieval-oriented volume doctrine in statecraft/civ-state."
 portable: true
-version: 0.1.0
+version: 0.2.0
 tags:
   - operator
   - work-strategy
@@ -39,17 +39,20 @@ This is an **operator-doctrine** skill. Its job is to make CIV-STATE volumes cle
 - `civ-state` is the operator-facing source base
 - volume README surfaces sit above raw source-memory and below lane-local drafting
 - final reasoning should sound like CIV-STATE doctrine, not imported civ-mem notes
+- lane-local `state-memory` objects are the first diagnostic pressure test for volume chains
+- legacy `civ-mem` archaeology is fallback provenance, not default authority
 
 ## Required checks
 
-For any CIV-STATE volume pass, resolve these four checks explicitly:
+For any CIV-STATE volume pass, resolve these five checks explicitly:
 
 1. **Civilization-state claim**
 2. **Sovereignty chain**
 3. **Deep grammar / sovereign opening / current carrier**
-4. **Retrieval consequence** of each layer
+4. **Legitimacy sequence** or justification for why no special sequence is needed
+5. **Retrieval consequence** of each layer
 
-If one of those four is still blurry, the volume is not hardened yet.
+If one of those five is still blurry, the volume is not hardened yet.
 
 ## Opener doctrine
 
@@ -78,6 +81,7 @@ Do not force false symmetry. Some founders are documentary. Some are traditional
 
 2. **Resolve the sovereignty chain before polishing prose.**
    Name what survives rupture, what mutates, and what current carrier still bears continuity.
+   Ask immediately whether the chain is only a carrier list or whether it has a real legitimacy sequence.
 
 3. **Separate the five beginning-types clearly.**
    Distinguish:
@@ -90,18 +94,36 @@ Do not force false symmetry. Some founders are documentary. Some are traditional
 4. **Force asymmetry where truth requires it.**
    If one case has weaker documentary footing, say so. If one case needs a bridge state or transformed carrier, say so. If one case is an edge case whose present state begins much later than its continuity opener, say so.
 
-5. **Write the opener block and the thesis together.**
+5. **Inspect `state-memory` before widening outward.**
+   Read the lane-local `state-memory` object as the primary pressure test for the CIV-STATE volume.
+   Use it to check whether the current chain is:
+   - missing a compression phase
+   - missing a ratification phase
+   - flattening a contested inheritance
+   - or overstating founder-to-present smoothness
+
+6. **Use legacy `civ-mem` only as bounded archaeology when needed.**
+   If the lane-local object still feels too compressed, inspect older `civilization_memory` provenance selectively to recover:
+   - legitimacy sequencing
+   - bridge carriers
+   - internalized domination or compression logic
+   - transformed succession claims
+
+   Then translate the insight back into CIV-STATE language instead of importing raw civ-mem density.
+
+7. **Write the opener block and the thesis together.**
    The opener block should not be decorative. The opening thesis and civilization-state diagnostic should reflect the same logic.
 
-6. **Bind the doctrine to retrieval.**
+8. **Bind the doctrine to retrieval.**
    Make the next move clearer:
    - deep grammar -> Sacred Grammar / literature / legitimacy
    - sovereign opening -> state-memory / founding / origin objects
    - current carrier -> helix / state / transaction
+   - legitimacy sequence -> state-memory first, then selective founding / compression / bridge objects if needed
 
    When legitimacy is clearly governing, route to the Sacred Grammar shelf first rather than directly to lane-local summaries.
 
-7. **Close in CIV-STATE language.**
+9. **Close in CIV-STATE language.**
    The final prose should read like operator doctrine: compact, comparative, and retrieval-aware.
 
 ## Case patterns
@@ -118,16 +140,21 @@ Do not force false symmetry. Some founders are documentary. Some are traditional
 - **Continuity opener distinct from present-state birth**
   Use when the longer continuity chain begins earlier than the present state proper.
 
+- **Carrier list that actually hides a legitimacy sequence**
+  Use when a volume sounds correct at high altitude but is flattening an important pattern such as invited order-restoration, licensed survival under domination, ratification after coercive consolidation, or transformed succession through bridge carriers.
+
 ## Guardrails
 
 - Do not use `civilization_memory` as the operator-facing conceptual frame.
 - Do not make all five cases falsely symmetrical.
 - Do not confuse present regime carrier with sovereign opening.
+- Do not mistake a founder-to-present shorthand for a sufficient sovereignty chain when intermediate legitimacy phases are doing the real continuity work.
 - Do not write decorative founder language without retrieval consequences.
 - Do not overstate documentary firmness.
 - Do not flatten contested inheritance into fake certainty.
+- Do not let legacy `civ-mem` density overtake the CIV-STATE layer; translate, compress, and return.
 - Do not widen into lane or transaction rewriting unless the operator explicitly expands scope.
 
 ## Success condition
 
-The CIV-STATE front door or volume surface reads as a stronger civilization-state instrument: opener doctrine is explicit, sovereignty-chain logic is clearer, asymmetry is preserved honestly, and the operator can tell where to retrieve next.
+The CIV-STATE front door or volume surface reads as a stronger civilization-state instrument: opener doctrine is explicit, sovereignty-chain logic is clearer, legitimacy sequencing is visible where it matters, asymmetry is preserved honestly, and the operator can tell where to retrieve next.

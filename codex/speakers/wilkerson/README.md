@@ -16,6 +16,8 @@ Open here first when the question is not merely "what did Wilkerson say," but **
 
 - [wilkerson-helix.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-helix.md)
 - [wilkerson-cross-year-note.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-cross-year-note.md)
+- [wilkerson-january-2025-note.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-january-2025-note.md)
+- [wilkerson-february-2025-note.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-february-2025-note.md)
 
 ## Compatibility shape
 

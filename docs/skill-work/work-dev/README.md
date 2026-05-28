@@ -29,7 +29,7 @@ Cross-territory WORK architecture (tiers, optional scaffolds): [work-template/RE
 
 **Optional judgment layer:** **[WORK-LEDGER.md](WORK-LEDGER.md)** â€” compounding index for watches and heuristics with **links** into integration docs; not a replacement entrypoint, not Record truth, instantiated from [work-template/WORK-LEDGER.md](../work-template/WORK-LEDGER.md).
 
-**Singularity-academy consolidation:** This lane remains canonically `work-dev`, but it is now also a live `singularity-academy` overlay when the operator is using technical work to test recursive AI, agent control planes, substrate questions, evals, automation loops, and durable code-intelligence leverage under acceleration. Canonical singularity hub: [Singularity Workshop](../../../codex/academy/singularity/workshop/README.md).
+**Singularity-academy consolidation:** This lane remains canonically `work-dev`, but it is now also a live `singularity-academy` overlay when the operator is using technical work to test recursive AI, agent control planes, substrate questions, evals, automation loops, and durable code-intelligence leverage under acceleration. Canonical singularity hub: [Singularity Workshop](../../../singularity/workshop/README.md).
 
 When this lane is being used under `singularity-academy`, keep the normal `work-dev` docs and execution paths, but add one singularity question to the work:
 

@@ -40,7 +40,7 @@ Open these first when the deployment call needs grounding:
 
 1. `statecraft/README.md`
 2. `statecraft/METHOD.md`
-3. `statecraft/civ-emp/README.md`
+3. `statecraft/civ-state/README.md`
 4. `statecraft/sheets/transaction-router.md`
 
 Use the lane front doors only as needed for the deployment judgment:

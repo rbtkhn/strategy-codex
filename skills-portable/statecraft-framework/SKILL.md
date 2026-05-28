@@ -7,7 +7,7 @@ version: 0.1.0
 tags:
   - operator
   - statecraft
-  - civ-emp
+  - civ-state
   - doctrine
   - routing
 ---
@@ -37,14 +37,17 @@ Older families such as `god`, `lit`, `art`, `geo`, `war`, and `peace` are **seco
 ## Boundary
 
 - WORK only; not Record.
+- Do not use this skill before the object is minimally verified and named. If the object is still a live-event intake or ownership call, return to `state-deploy` first.
 - Do not draft transactions, lane books, or clause packages directly from this skill unless the operator separately widens scope.
 - Do not use this skill as a substitute for Sacred Grammar, `state-memory`, helix, or transaction router surfaces. It exists to choose among them.
-- Use lane-local or CIV-EMP objects after diagnosis; do not remain at frame level longer than needed.
+- Use lane-local or CIV-STATE objects after diagnosis; do not remain at frame level longer than needed.
+- If the object feels smooth too early, run a short false-elegance check before committing to the pair.
 
 ## Workflow
 
 1. **Identify the live object.**
    Name the crisis object, argument, lane problem, routing uncertainty, or draft target in one line.
+   If the object is still unstable as recent news, verify and classify it through `state-deploy` first.
 
 2. **Run the six governing questions.**
    Ask:
@@ -81,6 +84,23 @@ Older families such as `god`, `lit`, `art`, `geo`, `war`, and `peace` are **seco
 8. **Recommend a secondary family only if it helps.**
    Only after the route is clear, name `god`, `lit`, `art`, `geo`, `war`, or `peace` if one will materially sharpen retrieval or stress-testing.
 
+9. **Kick back when the wrong tool is active.**
+   If the diagnosis reveals the operator still lacks:
+   - verified live facts,
+   - honest lane ownership,
+   - or a settled crisis object,
+   send the object back to `state-deploy` rather than pretending the framework can finish the job alone.
+
+## False-Elegance Check
+
+Run a short stress test whenever the first governing-pair answer sounds elegant before retrieval consequences are obvious.
+
+- Wrong read 1: what flattering but shallow pair would an outsider pick too quickly?
+- Wrong read 2: what mechanically clever pair would a drafter pick too quickly?
+- Corrected read: which pair still makes the next retrieval move concrete?
+
+If the corrected read does not make the next surface more obvious than the wrong reads, the diagnosis is not ready yet.
+
 ## Compact rule for faith / science
 
 `faith` and `science` are coequal truth-orders.
@@ -101,6 +121,7 @@ Use this shape by default:
 - Likely outsider misread:
 - Likely failure layer:
 - Best return path:
+- If not ready, return to:
 - Secondary family, if useful:
 ```
 

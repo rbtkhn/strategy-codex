@@ -6,12 +6,14 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Lawre
 
 ## 2025-01
 
-- [transcript-dialogue-works-the-us-strategy-that-s-failing-spectacularly-col-larry-wilkerson-2025-01-11](../../years/2026/provenance/2025-01-11/transcript-dialogue-works-the-us-strategy-that-s-failing-spectacularly-col-larry-wilkerson-2025-01-11.md)
-- [transcript-dialogue-works-israel-is-in-total-disarray-alex-krainer-col-larry-wilkerson-2025-01-18](../../years/2026/provenance/2025-01-18/transcript-dialogue-works-israel-is-in-total-disarray-alex-krainer-col-larry-wilkerson-2025-01-18.md)
+- [transcript-dialogue-works-yemen-s-hypersonic-strike-stuns-israel-as-iran-regroups-col-larry-wilker-2025-01-04](/C:/dev/strategy-codex/source-archive/statecraft/2025-01-04/transcript-dialogue-works-yemen-s-hypersonic-strike-stuns-israel-as-iran-regroups-col-larry-wilker-2025-01-04.md)
+- [transcript-dialogue-works-the-us-strategy-that-s-failing-spectacularly-col-larry-wilkerson-2025-01-11](/C:/dev/strategy-codex/source-archive/statecraft/2025-01-11/transcript-dialogue-works-the-us-strategy-that-s-failing-spectacularly-col-larry-wilkerson-2025-01-11.md)
+- [transcript-dialogue-works-israel-shaken-hypersonic-strike-idf-ambushed-as-ceasefire-nears-col-larr-2025-01-14](/C:/dev/strategy-codex/source-archive/statecraft/2025-01-14/transcript-dialogue-works-israel-shaken-hypersonic-strike-idf-ambushed-as-ceasefire-nears-col-larr-2025-01-14.md)
+- [transcript-dialogue-works-israel-is-in-total-disarray-alex-krainer-col-larry-wilkerson-2025-01-18](/C:/dev/strategy-codex/source-archive/statecraft/2025-01-18/transcript-dialogue-works-israel-is-in-total-disarray-alex-krainer-col-larry-wilkerson-2025-01-18.md)
 
 ## 2025-02
 
-- [youtube-glenn-diesen-lawrence-wilkerson-colonel-lawrence-wilkerson-trump-s-actions-could-ignite-a-regional-conflict-in-the-middle-east-2025-02-15](../../years/2026/provenance/2025-02-15/youtube-glenn-diesen-lawrence-wilkerson-colonel-lawrence-wilkerson-trump-s-actions-could-ignite-a-regional-conflict-in-the-middle-east-2025-02-15.md)
+- [youtube-glenn-diesen-lawrence-wilkerson-colonel-lawrence-wilkerson-trump-s-actions-could-ignite-a-regional-conflict-in-the-middle-east-2025-02-15](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-15/youtube-glenn-diesen-lawrence-wilkerson-colonel-lawrence-wilkerson-trump-s-actions-could-ignite-a-regional-conflict-in-the-middle-east-2025-02-15.md)
 
 ## 2025-04
 

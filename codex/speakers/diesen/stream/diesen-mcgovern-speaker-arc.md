@@ -42,11 +42,12 @@ Filter note: this arc set excludes translated reposts, clip channels, and non-ca
 
 | Rank | Date | Title | Why it matters most |
 |---|---|---|---|
-| 1 | 2026-04-05 | *The Death of NATO - Time for a New Strategy?* | Best current mature anchor. Strongest single file for why McGovern matters in this lane: NATO decay, elite delusion, and strategic consequence in one place. Open this first. |
-| 2 | 2026-01-17 | *The Road War - Arms Control Collapsing* | Best arms-control file. Strong on why the larger architecture is breaking rather than merely drifting. |
-| 3 | 2025-11-23 | *Zelensky's Dilemma - Bad Peace or Total Defeat* | Best settlement-pressure file. Useful for the narrowing room between defeat and ugly compromise. |
-| 4 | 2025-06-01 | *America Between a New Peace & World War 3* | Best broad escalation file. Helpful for seeing McGovern as a war-limit and reality-check voice. |
-| 5 | 2025-02-05 | *Trump versus the Deep State* | Best early mature anchor. Important for showing the branch before the denser late-2025 and 2026 run. |
+| 1 | 2026-05-27 | *Russia Escalates With New Strategy?* | Best current late-May escalation anchor. Strongest for McGovern's caution-versus-retaliation split, Russia-China tectonic framing, Trump's role as restraining variable, and the question of whether deterrence in Europe is being restored by fear or by patience. |
+| 2 | 2026-04-05 | *The Death of NATO - Time for a New Strategy?* | Best mature anchor. Strongest single file for why McGovern matters in this lane: NATO decay, elite delusion, and strategic consequence in one place. |
+| 3 | 2026-01-17 | *The Road War - Arms Control Collapsing* | Best arms-control file. Strong on why the larger architecture is breaking rather than merely drifting. |
+| 4 | 2025-11-23 | *Zelensky's Dilemma - Bad Peace or Total Defeat* | Best settlement-pressure file. Useful for the narrowing room between defeat and ugly compromise. |
+| 5 | 2025-06-01 | *America Between a New Peace & World War 3* | Best broad escalation file. Helpful for seeing McGovern as a war-limit and reality-check voice. |
+| 6 | 2025-02-05 | *Trump versus the Deep State* | Best early mature anchor. Important for showing the branch before the denser late-2025 and 2026 run. |
 
 This is enough to treat `Diesen x McGovern` as a real recurring host-local branch rather than a one-off commentary lane.
 
@@ -54,10 +55,11 @@ This is enough to treat `Diesen x McGovern` as a real recurring host-local branc
 
 If the operator needs only one file:
 
-- open [2026-04-05 Diesen x McGovern](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-05/youtube-glenn-diesen-ray-mcgovern-the-death-of-nato-time-for-a-new-strategy-2026-04-05.md)
+- open [2026-05-27 Diesen x McGovern](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-27/youtube-glenn-diesen-ray-mcgovern-russia-escalates-with-new-strategy-2026-05-27.md)
 
 If the operator needs the best paired read:
 
+- open [2026-05-27 Diesen x McGovern](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-27/youtube-glenn-diesen-ray-mcgovern-russia-escalates-with-new-strategy-2026-05-27.md)
 - open [2026-01-17 Diesen x McGovern](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-01-17/youtube-glenn-diesen-ray-mcgovern-the-road-war-arms-control-collapsing-2026-01-17.md)
 - then [2026-04-05 Diesen x McGovern](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-05/youtube-glenn-diesen-ray-mcgovern-the-death-of-nato-time-for-a-new-strategy-2026-04-05.md)
 

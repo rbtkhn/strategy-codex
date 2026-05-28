@@ -5,7 +5,7 @@ kind: strategy-draft
 title: Hormuz Reciprocal Transit De-escalation Framework (v2.1 WORK draft)
 short_title: HRTF / HSTA
 thread: mercouris
-related_transcript: raw-input/2026-04-25/transcript-duran-mercouris-cristoforu-sea-blockade-iran-2026-04-25.md
+related_transcript: provenance/2026-04-25/transcript-duran-mercouris-cristoforu-sea-blockade-iran-2026-04-25.md
 conformance_note: Shaped against Mercouris–Christoforou sea-blockade / stalemate diagnosis (WORK; not Record).
 status: WORK only; not Record. Not treaty text. Not legal advice.
 word_count: 1900

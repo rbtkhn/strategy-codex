@@ -19,7 +19,7 @@
 ### Fresh inputs
 
 - Inbox: multiple lines with `IRAN` / `TEHRAN` grep tags; `batch-analysis` row present.
-- `raw-input/2026-04-24/`: 1+ files if captured today.
+- `provenance/2026-04-24/`: 1+ files if captured today.
 
 ### Recent notebook movement
 

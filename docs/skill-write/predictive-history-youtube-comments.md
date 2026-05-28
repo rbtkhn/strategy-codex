@@ -2,6 +2,23 @@
 
 **Purpose:** Shape Predictive History YouTube comments for trust-first influence. The comment should feel like a useful companion to the lecture, not a hijack of the thread or a growth-hack pitch.
 
+## Wave One Pilot Exception
+
+For the local `civ-01` to `civ-06` pilot, use a different profile.
+
+That wave is a **statecraft proof-object pilot**, not a chapter-doorway campaign. Its purpose is to publicly demonstrate unusually strong civilizational analysis in one compressed paragraph. For that pilot:
+
+- no repo link
+- no paste-into-LLM instruction
+- no `ph-civ` signature requirement
+- each comment must contain **at least two concrete historical examples**
+- each example must help reason toward the thesis, not just decorate it
+- each comment should sound compressed, formidable, and human
+
+Repo-local skill for this mode: [`.cursor/skills/ph-civ-comment-proof-objects/SKILL.md`](../../.cursor/skills/ph-civ-comment-proof-objects/SKILL.md)
+
+Treat the older doorway profile below as the default general rollout unless the operator explicitly invokes the Wave One proof-object pilot.
+
 ## Preference profile
 
 - **Primary audience:** curious lurkers who might use a concrete reader packet.
@@ -45,6 +62,14 @@ Phase 2 should stay companion-like and quiet. It should name the lecture, give t
 - For `gt-23` through `gt-26`, use source-first language until transcript fidelity and claims have been reviewed.
 - For application or live-crisis chapters, preserve the guardrail: public orientation and study only, not live operational analysis.
 
+For the `civ-01` to `civ-06` Wave One pilot, replace the default shape with this compressed proof-object structure:
+
+1. State the lecture's governing inversion.
+2. Name at least two concrete historical examples.
+3. Show why those examples support the lecture thesis, then compress them into one higher-order civilizational claim.
+
+Do not let the evidence turn into a mini-essay. The point is density, not exhaustiveness.
+
 ## Folder readiness
 
 Do not draft a comment around a chapter-folder link until the folder has enough local context for a curious reader or LLM:
@@ -57,6 +82,15 @@ Do not draft a comment around a chapter-folder link until the folder has enough 
 - suggested LLM prompt
 
 If a folder is provisional, say so plainly in the comment or prompt. A provisional packet can still be useful, but it should not masquerade as a finished edition.
+
+## Draft storage boundary
+
+Store rollout drafts only inside `strategy-codex`, not in the public `ph-civ` repo.
+
+- canonical workflow state belongs in the local rollout queue
+- readable local review copies may be rendered as Markdown under the rollout folder
+- `ph-civ` remains the source of packet URLs, readiness context, and public study materials
+- posted YouTube comments are public outputs; the drafting workspace remains local
 
 ## Example skeleton
 

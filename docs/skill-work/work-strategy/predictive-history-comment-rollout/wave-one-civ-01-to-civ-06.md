@@ -7,7 +7,7 @@ Unlike the older trust-first doorway rollout, this wave treats the comments as *
 ## Wave One doctrine
 
 - Primary object: the `ph-civ` lecture
-- Hidden drafting stack: normal `civ-emp` synthesis, with legacy civilizational-memory residue where useful
+- Hidden drafting stack: normal `civ-state` synthesis, with legacy civilizational-memory residue where useful
 - Visible output: one compressed but formidable paragraph
 - Evidence rule: each comment names **at least two concrete historical examples**
 - Public rule: no links, no visible statecraft jargon, no summary sprawl, no flattery

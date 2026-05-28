@@ -1,13 +1,13 @@
-ï»¿# EOD strategy session â€” MCQ protocol (v1)
+# EOD strategy session — MCQ protocol (v1)
 <!-- word_count: 2005 -->
 
 **Status:** ACTIVE  
 **SSOT for:** Structured, decision-first **end-of-day strategy sessions** when the operator wants multiple-choice routing before prose.  
-**Governed by:** [STRATEGY-NOTEBOOK-ARCHITECTURE.md](STRATEGY-NOTEBOOK-ARCHITECTURE.md) â€” capture â†’ judgment â†’ chronology; word bands; same-day merge; multi-pick duplication rules. This protocol **does not** replace architecture; it **sequences** decisions before drafting.
+**Governed by:** [STRATEGY-NOTEBOOK-ARCHITECTURE.md](STRATEGY-NOTEBOOK-ARCHITECTURE.md) — capture ? judgment ? chronology; word bands; same-day merge; multi-pick duplication rules. This protocol **does not** replace architecture; it **sequences** decisions before drafting.
 
-**Coexistence:** The architectureâ€™s **minimal** EOD path is still valid: present **4â€“6** thesis-first **page-shape** stubs only (Â§ *EOD compose â€” page-shape menu*) when the operator wants speed, says **`no menu`**, or **`EXECUTE`** with an explicit thesis. Use **this MCQ stack** when they invoke **`EOD strategy session` + MCQ**, paste this doc, or ask for **decision-first** menus before any **`strategy-page`** / `days.md` prose.
+**Coexistence:** The architecture’s **minimal** EOD path is still valid: present **4–6** thesis-first **page-shape** stubs only (§ *EOD compose — page-shape menu*) when the operator wants speed, says **`no menu`**, or **`EXECUTE`** with an explicit thesis. Use **this MCQ stack** when they invoke **`EOD strategy session` + MCQ**, paste this doc, or ask for **decision-first** menus before any **`strategy-page`** / `days.md` prose.
 
-**Invocation:** Operator says e.g. **EOD strategy session â€” MCQ**, **`strategy page compose` + MCQ**, or pastes the **recommended default prompt** (below). Canonical compose phrases remain **`strategy page`** / **`strategy page compose`** ([architecture Â§ *End-of-day strategy session*](STRATEGY-NOTEBOOK-ARCHITECTURE.md#end-of-day-strategy-session-terminology)).
+**Invocation:** Operator says e.g. **EOD strategy session — MCQ**, **`strategy page compose` + MCQ**, or pastes the **recommended default prompt** (below). Canonical compose phrases remain **`strategy page`** / **`strategy page compose`** ([architecture § *End-of-day strategy session*](STRATEGY-NOTEBOOK-ARCHITECTURE.md#end-of-day-strategy-session-terminology)).
 
 ---
 
@@ -33,15 +33,15 @@ The EOD session is where **capture is promoted into judgment**. It should **synt
 
 ---
 
-## Stage 0 â€” Build the evidence pile
+## Stage 0 — Build the evidence pile
 
-**Operator read path (canonical):** **[`raw-input/`](raw-input/README.md)** (dated bulk verbatim) **+** author **`strategy-page`** blocks in **`thread`**. The **7-day** **`transcript.md`** is **optional pipeline context** (inbox triage + machine echo); do **not** treat it as a second place the operator must **open** for long verbatim when **`raw-input/`** and pages already hold the work.
+**Operator read path (canonical):** **[`raw-input/`](provenance/README.md)** (dated bulk verbatim) **+** author **`strategy-page`** blocks in **`thread`**. The **7-day** **`transcript.md`** is **optional pipeline context** (inbox triage + machine echo); do **not** treat it as a second place the operator must **open** for long verbatim when **`raw-input/`** and pages already hold the work.
 
 The assistant gathers:
 
-- Todayâ€™s **`raw-input/YYYY-MM-DD/`** files (if any) â€” **primary bulk**
-- Current **`authors/<author_id>/thread.md`** (journal + existing **`strategy-page`** markers) â€” **judgment locus**
-- Todayâ€™s lines in [daily-strategy-inbox.md](daily-strategy-inbox.md)
+- Today’s **`raw-input/YYYY-MM-DD/`** files (if any) — **primary bulk**
+- Current **`authors/<author_id>/thread.md`** (journal + existing **`strategy-page`** markers) — **judgment locus**
+- Today’s lines in [daily-strategy-inbox.md](daily-strategy-inbox.md)
 - Relevant **`batch-analysis`** rows
 - Relevant **`authors/<author_id>/transcript.md`** and **machine** block **only when** you need the rolling/triage view after **`thread`** (e.g. **`thread:`** ingests this session); **pointer-only** or **thin** transcript is normal when full text is under **`raw-input/`**
 - Current **`chapters/YYYY-MM/days.md`** context (tail + target **`## YYYY-MM-DD`** if composing)
@@ -55,7 +55,7 @@ The assistant then says:
 
 ---
 
-## Menu 1 â€” Session type
+## Menu 1 — Session type
 
 **Question:** What kind of EOD session is this tonight?
 
@@ -63,7 +63,7 @@ The assistant then says:
 |--------|------|---------|
 | **A** | **Single-lane synthesis** | One author owns the main analytical movement tonight. |
 | **B** | **Dual-lane contrast** | Two authors need parallel treatment or contrast. |
-| **C** | **Tri-mind pass** | Barnes / Mearsheimer / Mercouris get a coordinated pass â€” see [Optional tri-mind variant](#optional-tri-mind-variant) and [.cursor/skills/tri-mind/SKILL.md](../../../../.cursor/skills/tri-mind/SKILL.md). |
+| **C** | **Tri-mind pass** | Barnes / Mearsheimer / Mercouris get a coordinated pass — see [Optional tri-mind variant](#optional-tri-mind-variant) and [.cursor/skills/tri-mind/SKILL.md](../../../../.cursor/skills/tri-mind/SKILL.md). |
 | **D** | **Continuity-only close** | Update `days.md` and preserve transcript context; **no** new **`strategy-page`** unless forced (breaking glass). |
 | **E** | **Triage-and-defer** | Preserve material, route it, **defer** page composition. |
 | **F** | **Bridge session** | One author lane plus one **bridge** lane (often **Jiang** / history / civilizational framing). |
@@ -72,16 +72,16 @@ The assistant then says:
 
 ---
 
-## Menu 2 â€” Active lane selection
+## Menu 2 — Active lane selection
 
-**Question:** Which author lanes are active for tonightâ€™s synthesis?
+**Question:** Which author lanes are active for tonight’s synthesis?
 
-Present **4â€“8** options **tailored to todayâ€™s evidence pile** â€” example letters:
+Present **4–8** options **tailored to today’s evidence pile** — example letters:
 
 | Letter | Lane |
 |--------|------|
-| **Aâ€“G** | Named authors (e.g. Mercouris, Barnes, Mearsheimer, Ritter, Jiang, Pape) â€” **canonical `author_id` slugs** only ([strategy-commentator-threads.md](strategy-commentator-threads.md)). |
-| **H** | **Keep material cold / unresolved** â€” do not force promotion. |
+| **A–G** | Named authors (e.g. Mercouris, Barnes, Mearsheimer, Ritter, Jiang, Pape) — **canonical `author_id` slugs** only ([strategy-commentator-threads.md](strategy-commentator-threads.md)). |
+| **H** | **Keep material cold / unresolved** — do not force promotion. |
 | **(other)** | **Other named lane:** operator fills blank. |
 
 **Rules:**
@@ -92,18 +92,18 @@ Present **4â€“8** options **tailored to todayâ€™s evidence pile** â€” example le
 
 **Operator response format:**
 
-- **Single letter** â€” single-lane session  
-- **Two letters** â€” dual-lane  
-- **Three letters** â€” tri-mind (or use fixed tri-mind Menu 2 below)  
-- **One lane + bridge** â€” bridge session (e.g. `R` + `Jiang`)
+- **Single letter** — single-lane session  
+- **Two letters** — dual-lane  
+- **Three letters** — tri-mind (or use fixed tri-mind Menu 2 below)  
+- **One lane + bridge** — bridge session (e.g. `R` + `Jiang`)
 
 **Assistant output after selection:** Confirms active lanes, groups evidence **by lane**, moves to Menu 3 **for each lane** (or once if session type is continuity-only / triage).
 
 ---
 
-## Menu 3 â€” Promotion threshold (per lane)
+## Menu 3 — Promotion threshold (per lane)
 
-**Question:** For **this lane**, what should happen to todayâ€™s material?
+**Question:** For **this lane**, what should happen to today’s material?
 
 | Letter | Option | Notebook meaning |
 |--------|--------|------------------|
@@ -113,42 +113,42 @@ Present **4â€“8** options **tailored to todayâ€™s evidence pile** â€” example le
 | **D** | **days.md continuity only** | Record notebook continuity; **do not** change author-thread **substance** (no new/revised **`strategy-page`** body for this lane). |
 | **E** | **Hold unresolved** | Keep in inbox / **`raw-input/`** / transcript orbit for tomorrow. |
 
-**Decision rule:** Choose **B** or **C** only if todayâ€™s material **changes the laneâ€™s interpretation**, **extends a recurring frame**, or **deserves durable analytical prose**. The EOD session is for **synthesis**, not copying.
+**Decision rule:** Choose **B** or **C** only if today’s material **changes the lane’s interpretation**, **extends a recurring frame**, or **deserves durable analytical prose**. The EOD session is for **synthesis**, not copying.
 
 **Assistant output after selection:** States promotion result **per lane**. If **B** or **C**, moves to Menu 4 for that lane. If **A**, **D**, or **E**, skips to continuity handling / next lane / Menu 6 as appropriate.
 
-**Mapping (Menu 3 â†” write surfaces):**
+**Mapping (Menu 3 ? write surfaces):**
 
 | Menu 3 | `strategy-page` | `days.md` |
 |--------|-----------------|-----------|
 | A, E | No new/revised judgment page | Optional continuity note only if operator wants |
-| D | No thread substance change | Yes â€” thin continuity |
-| B, C | Yes â€” per Menu 4â€“5 | Yes â€” per Menu 6 |
+| D | No thread substance change | Yes — thin continuity |
+| B, C | Yes — per Menu 4–5 | Yes — per Menu 6 |
 
 ---
 
-## Menu 4 â€” Page shape / thesis type
+## Menu 4 — Page shape / thesis type
 
 **Question:** What kind of **`strategy-page`** should **this lane** produce tonight?
 
-Present **4â€“6** options max, **tailored to the dayâ€™s evidence** (architecture still expects thesis-first stubs â€” align with Â§ *Page design and notebook-use jobs* in [STRATEGY-NOTEBOOK-ARCHITECTURE.md](STRATEGY-NOTEBOOK-ARCHITECTURE.md)).
+Present **4–6** options max, **tailored to the day’s evidence** (architecture still expects thesis-first stubs — align with § *Page design and notebook-use jobs* in [STRATEGY-NOTEBOOK-ARCHITECTURE.md](STRATEGY-NOTEBOOK-ARCHITECTURE.md)).
 
-| Letter | Shape | Typical notebook-use jobs ([strategy-commentator-threads.md](strategy-commentator-threads.md) Â§ *Notebook-use tags*) |
+| Letter | Shape | Typical notebook-use jobs ([strategy-commentator-threads.md](strategy-commentator-threads.md) § *Notebook-use tags*) |
 |--------|--------|----------------------------------------------------------------------------------------------------------------------|
-| **A** | **Main signal page** | **`orient`**, **`narrate`** â€” best single judgment from todayâ€™s evidence. |
-| **B** | **Revision / correction page** | **`validate`** â€” updates or reverses earlier thread judgment. |
-| **C** | **Stress-test page** | **`stress-test`** â€” countercase, failure mode, challenge to dominant thesis. |
-| **D** | **Process page** | **`negotiate`** â€” sequencing, mediation, institutional mechanics. |
-| **E** | **Legitimacy / domestic page** | **`authorize`** + C-plane hooks â€” law, coalition, domestic sustainability. |
-| **F** | **Structural page** | Power, incentives, deterrence â€” aligns with [NOTEBOOK-PREFERENCES.md](NOTEBOOK-PREFERENCES.md) Â§ *Weave skeletons (S1â€“S5)* spines. |
-| **G** | **Historical / civilizational page** | **`historicize`** â€” analogy, PH bridge when engaged. |
+| **A** | **Main signal page** | **`orient`**, **`narrate`** — best single judgment from today’s evidence. |
+| **B** | **Revision / correction page** | **`validate`** — updates or reverses earlier thread judgment. |
+| **C** | **Stress-test page** | **`stress-test`** — countercase, failure mode, challenge to dominant thesis. |
+| **D** | **Process page** | **`negotiate`** — sequencing, mediation, institutional mechanics. |
+| **E** | **Legitimacy / domestic page** | **`authorize`** + C-plane hooks — law, coalition, domestic sustainability. |
+| **F** | **Structural page** | Power, incentives, deterrence — aligns with [NOTEBOOK-PREFERENCES.md](NOTEBOOK-PREFERENCES.md) § *Weave skeletons (S1–S5)* spines. |
+| **G** | **Historical / civilizational page** | **`historicize`** — analogy, PH bridge when engaged. |
 | **H** | **Continuity stub only** | Too weak for full page; short marker / pointer only. |
 
 **Assistant output after selection:** States chosen page shape, proposes **page title** / **`id=`** candidates, then asks Menu 5 (full protocol) or Menu 6 (fast path).
 
 ---
 
-## Menu 5 â€” Page action (mechanical)
+## Menu 5 — Page action (mechanical)
 
 **Question:** How should the **thread** change mechanically?
 
@@ -156,27 +156,27 @@ Present **4â€“6** options max, **tailored to the dayâ€™s evidence** (architectur
 |--------|--------|
 | **A** | Append a **new** page under current month (`## YYYY-MM`). |
 | **B** | **Revise** the latest page only (same **`id=`** or explicit target). |
-| **C** | **Split** one drifting page into two cleaner pages (new **`id=`**s; respect [architecture Â§ *Same-day iteration*](STRATEGY-NOTEBOOK-ARCHITECTURE.md)). |
+| **C** | **Split** one drifting page into two cleaner pages (new **`id=`**s; respect [architecture § *Same-day iteration*](STRATEGY-NOTEBOOK-ARCHITECTURE.md)). |
 | **D** | Add a short **bridge note**, not a full page. |
 | **E** | **No thread write**; carry forward only. |
 
-This menu reduces accidental page sprawl. **Alignment with architecture:** **Multi-pick** sessions may still produce **one logical page per non-mergeable shape**, duplicated across authors with the same **`id=`** â€” see [STRATEGY-NOTEBOOK-ARCHITECTURE.md](STRATEGY-NOTEBOOK-ARCHITECTURE.md) Â§ *Multi-pick EOD options*. **Same-day** default: **one** consolidated **`## YYYY-MM-DD`** block in `days.md` unless episodic heading is justified.
+This menu reduces accidental page sprawl. **Alignment with architecture:** **Multi-pick** sessions may still produce **one logical page per non-mergeable shape**, duplicated across authors with the same **`id=`** — see [STRATEGY-NOTEBOOK-ARCHITECTURE.md](STRATEGY-NOTEBOOK-ARCHITECTURE.md) § *Multi-pick EOD options*. **Same-day** default: **one** consolidated **`## YYYY-MM-DD`** block in `days.md` unless episodic heading is justified.
 
 ---
 
-## Menu 6 â€” days.md continuity mode
+## Menu 6 — days.md continuity mode
 
 **Question:** How should tonight appear in **`chapters/YYYY-MM/days.md`**?
 
 | Letter | Mode |
 |--------|------|
-| **A** | **Minimal continuity stub** â€” active lane(s) and page movement only. |
-| **B** | **Standard day entry** â€” brief note on what changed and where it lives. |
-| **C** | **Judgment-change emphasis** â€” what belief changed today. |
-| **D** | **Open-questions emphasis** â€” what remains unresolved tomorrow. |
-| **E** | **Cross-lane continuity** â€” how multiple lanes interacted. |
+| **A** | **Minimal continuity stub** — active lane(s) and page movement only. |
+| **B** | **Standard day entry** — brief note on what changed and where it lives. |
+| **C** | **Judgment-change emphasis** — what belief changed today. |
+| **D** | **Open-questions emphasis** — what remains unresolved tomorrow. |
+| **E** | **Cross-lane continuity** — how multiple lanes interacted. |
 
-**Rule:** `days.md` preserves **chronology and continuity**, not a duplicate of full author prose ([NOTEBOOK-PREFERENCES.md](NOTEBOOK-PREFERENCES.md) â€” inbox vs notebook).
+**Rule:** `days.md` preserves **chronology and continuity**, not a duplicate of full author prose ([NOTEBOOK-PREFERENCES.md](NOTEBOOK-PREFERENCES.md) — inbox vs notebook).
 
 **Assistant output after selection:** Confirms day-entry mode, **then** drafts authorized artifacts.
 
@@ -184,7 +184,7 @@ This menu reduces accidental page sprawl. **Alignment with architecture:** **Mul
 
 ## Drafting rules (after MCQs)
 
-Only after Menus **1â€“6** are complete (or the **fast path** below) should the assistant draft:
+Only after Menus **1–6** are complete (or the **fast path** below) should the assistant draft:
 
 1. **`strategy-page`** block(s) inside **`authors/<author_id>/thread.md`** (when B/C + authorized by Menu 5)
 2. Matching **`days.md`** continuity update
@@ -196,19 +196,19 @@ Only after Menus **1â€“6** are complete (or the **fast path** below) should the 
 - Do **not** mirror **`raw-input/`**; use transcript context as **evidence**, not as finished judgment.
 - If the operator chose **transcript-only** or **defer**, do **not** smuggle in a full page.
 
-**Word count:** **No** target band per **`strategy-page`** bodyâ€”see [NOTEBOOK-PREFERENCES.md](NOTEBOOK-PREFERENCES.md) (**Page length**).
+**Word count:** **No** target band per **`strategy-page`** body—see [NOTEBOOK-PREFERENCES.md](NOTEBOOK-PREFERENCES.md) (**Page length**).
 
 ---
 
 ## Default short EOD flow
 
-Fastest path â€” use when the operator wants fewer forks:
+Fastest path — use when the operator wants fewer forks:
 
-1. Menu 1 â€” Session type  
-2. Menu 2 â€” Active lane(s)  
-3. Menu 3 â€” Promote / revise / new / defer (per lane)  
-4. Menu 4 â€” Page shape  
-5. Menu 6 â€” `days.md` mode  
+1. Menu 1 — Session type  
+2. Menu 2 — Active lane(s)  
+3. Menu 3 — Promote / revise / new / defer (per lane)  
+4. Menu 4 — Page shape  
+5. Menu 6 — `days.md` mode  
 
 **Skip Menu 5** unless the operator needs explicit mechanical control (append vs revise vs split). Then draft.
 
@@ -229,7 +229,7 @@ Fastest path â€” use when the operator wants fewer forks:
 
 ## Recommended default prompt (operator paste)
 
-> EOD strategy session. Build todayâ€™s evidence pile, then drive me by MCQ.  
+> EOD strategy session. Build today’s evidence pile, then drive me by MCQ.  
 > First ask session type.  
 > Then active lanes.  
 > Then for each lane ask transcript / revise / new page / defer.  
@@ -253,7 +253,7 @@ Ask **Menu 3 separately** for each of the three lanes (transcript only / revise 
 
 Then ask **one synthesis question:**
 
-**Which of the three lanes should anchor tonightâ€™s day entry?**
+**Which of the three lanes should anchor tonight’s day entry?**
 
 | Letter | Anchor |
 |--------|--------|
@@ -262,7 +262,7 @@ Then ask **one synthesis question:**
 | **C** | Mearsheimer |
 | **D** | Equal-weight continuity |
 
-Tri-mind chat mechanics remain per [.cursor/skills/tri-mind/SKILL.md](../../../../.cursor/skills/tri-mind/SKILL.md); notebook gets **compressed judgment + Links**, not the raw three-lens wall unless the operator asks â€” [STRATEGY-NOTEBOOK-ARCHITECTURE.md](STRATEGY-NOTEBOOK-ARCHITECTURE.md) Â§ *Expert choreography*.
+Tri-mind chat mechanics remain per [.cursor/skills/tri-mind/SKILL.md](../../../../.cursor/skills/tri-mind/SKILL.md); notebook gets **compressed judgment + Links**, not the raw three-lens wall unless the operator asks — [STRATEGY-NOTEBOOK-ARCHITECTURE.md](STRATEGY-NOTEBOOK-ARCHITECTURE.md) § *Expert choreography*.
 
 ---
 
@@ -276,7 +276,7 @@ The EOD strategy session should decide **what the notebook now believes**, which
 
 | Doc | Role |
 |-----|------|
-| [STRATEGY-NOTEBOOK-ARCHITECTURE.md](STRATEGY-NOTEBOOK-ARCHITECTURE.md) Â§ *EOD compose â€” page-shape menu* | Minimal **thesis-first** fork; multi-pick; notebook-use jobs |
-| [NOTEBOOK-PREFERENCES.md](NOTEBOOK-PREFERENCES.md) | EOD page-shape preference row; S1â€“S5 skeletons |
+| [STRATEGY-NOTEBOOK-ARCHITECTURE.md](STRATEGY-NOTEBOOK-ARCHITECTURE.md) § *EOD compose — page-shape menu* | Minimal **thesis-first** fork; multi-pick; notebook-use jobs |
+| [NOTEBOOK-PREFERENCES.md](NOTEBOOK-PREFERENCES.md) | EOD page-shape preference row; S1–S5 skeletons |
 | [.cursor/skills/skill-strategy/SKILL.md](../../../../.cursor/skills/skill-strategy/SKILL.md) | Skill entry; EOD obligations |
-| [DEFAULT-PATH.md](../DEFAULT-PATH.md) | Three-move default; menu **A** â†’ compose |
+| [DEFAULT-PATH.md](../DEFAULT-PATH.md) | Three-move default; menu **A** ? compose |

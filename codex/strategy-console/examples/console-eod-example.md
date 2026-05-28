@@ -18,7 +18,7 @@
 
 ### Fresh inputs
 
-- `raw-input/2026-04-20/`: 2 files (new transcript bundle + substack cap).
+- `provenance/2026-04-20/`: 2 files (new transcript bundle + substack cap).
 - Inbox: accumulator block dated 2026-04-20 with `thread:mercouris` and `thread:mearsheimer`.
 
 ### Recent notebook movement

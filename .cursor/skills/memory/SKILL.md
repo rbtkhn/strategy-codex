@@ -21,7 +21,7 @@ Use this skill to build, mirror, audit, or backfill repo-root statecraft **state
 
 Compatibility note: older references to **`state-memory`** as a skill mean this skill. The **skill name** is now `memory`; the **statecraft object family** remains `state-memory`.
 
-This skill is the lane-local implementation surface for the CIV-EMP **evidence-spine law** and the `MEM CONNECTIONS` quantitative default.
+This skill is the lane-local implementation surface for the CIV-STATE **evidence-spine law** and the `MEM CONNECTIONS` quantitative default.
 
 Inside the active **Civilizational Statecraft Framework**, `memory` is the thickness-restoring tool mainly for:
 
@@ -45,6 +45,17 @@ It keeps the lanes from sliding into biography or shallow summary by enforcing:
 
 Second rule: every major civilization object is an arc-lens, not a topic page. A lens reads the present; an arc carries the civilizational development that makes the reading legitimate. In this workflow the two are one object: memory becomes perception, perception becomes judgment, and judgment becomes a possible update. These arc-lenses are downstream expression surfaces, not coequal doctrine. Every arc-lens must trace origin, continuity, transformation, current carrier, failure mode, and transaction use.
 
+## Call Order
+
+Use this order when the right entry point is unclear:
+
+1. `state-deploy` if the object is still a live-event intake, ownership dispute, or lane-routing problem.
+2. `statecraft-framework` if the lane is known but the governing pair is still unclear.
+3. Sacred Grammar if deep legitimacy, covenant, ritual order, sacred boundary, or truth-order conflict is load-bearing.
+4. `memory` when the continuity-bearing or legitimacy-bearing substrate is thin, stale, or contested and needs rebuilding before drafting can be trusted.
+
+Do not use `memory` to replace an unresolved lane judgment or an unresolved governing-pair diagnosis.
+
 ## Boundary
 
 - WORK only; not Record.
@@ -53,6 +64,7 @@ Second rule: every major civilization object is an arc-lens, not a topic page. A
 - Use lane-local `updates/pending.md` for durable recursive candidates; live analysis proposes, human review decides.
 - Preserve unrelated dirty files. Memory-skill edits should stay inside `statecraft/` unless the operator explicitly expands scope.
 - Do not build civilization arc-lens backfills only from existing lane summaries. Use direct CIV-MEM discovery, `MEM CONNECTIONS`, and opened source bodies before drafting.
+- If the object still sounds elegant but under-grounded, stop and kick back to `statecraft-framework` or Sacred Grammar rather than padding the backfill.
 
 ## Workflow
 

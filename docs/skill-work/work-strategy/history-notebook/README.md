@@ -46,7 +46,7 @@ Flow: **SELF-LIBRARY (curated fact base) + CIV-MEM (MEM reservoir) ÃƒÂ¢Ã¢�
 | **II ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Medieval** (476 ADÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“1453 AD) | Post-Roman reconfigurations: Islam, Byzantium, Mongol disruption | islam, rome-byzantine, persia-islamic, mongol, china-medieval |
 | **III ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Colonial** (1453ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“1815) | Ottoman peak, maritime expansion, continental consolidation through the Napoleonic settlement | ottoman, anglia, france, russia |
 | **IV ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Industrial** (1815ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“1945) | Post-Vienna order, total war, imperial collapse | america, germany, russia-imperial, anglia-imperial |
-| **V - Cybernetic** (1945ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“present) | Cold War deterrence, platform power, computation, and current crisis landscape | america-hegemonic, china-modern, russia-modern, persia-modern |
+| **V - Cybernetic** (1945-present) | Cold War deterrence, platform power, computation, and current crisis landscape | america-hegemonic, china-modern, russia-modern, persia-modern |
 | **Appendix** | Methodology | method |
 
 ---
