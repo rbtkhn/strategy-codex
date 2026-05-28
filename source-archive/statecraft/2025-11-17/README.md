@@ -4,22 +4,22 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Stats
 
-- Source files: `1`
-- Type mix: `transcript` (1)
-- Distinct channels/shows: `0`
+- Source files: `2`
+- Type mix: `transcript` (1), `youtube` (1)
+- Distinct channels/shows: `1`
 - Distinct hosts: `1`
-- Distinct guests: `1`
-- Distinct threads: `1`
+- Distinct guests: `2`
+- Distinct threads: `2`
 
 ## Channel / Show Rollup
 
-- (none)
+- `Judging Freedom` (1)
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Andrew Napolitano` (1)
-- Guests: `John Mearsheimer` (1)
-- Threads: `mearsheimer` (1)
+- Hosts: `Andrew Napolitano` (2)
+- Guests: `Jeffrey Sachs` (1), `John Mearsheimer` (1)
+- Threads: `mearsheimer` (1), `napolitano` (1)
 
 ## Filename Family Fallbacks
 
@@ -28,3 +28,4 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Files
 
 - `transcript-napolitano-mearsheimer-israels-nightmare-2025-11-17.md`
+- `youtube-napolitano-sachs-netanyahu-sabotages-a-palestinian-state-2025-11-17.md`

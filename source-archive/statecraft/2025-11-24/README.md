@@ -4,22 +4,22 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Stats
 
-- Source files: `1`
-- Type mix: `transcript` (1)
-- Distinct channels/shows: `0`
+- Source files: `2`
+- Type mix: `transcript` (2)
+- Distinct channels/shows: `1`
 - Distinct hosts: `1`
-- Distinct guests: `1`
-- Distinct threads: `1`
+- Distinct guests: `2`
+- Distinct threads: `2`
 
 ## Channel / Show Rollup
 
-- (none)
+- `Judging Freedom` (1)
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Andrew Napolitano` (1)
-- Guests: `Larry Johnson` (1)
-- Threads: `johnson` (1)
+- Hosts: `Andrew Napolitano` (2)
+- Guests: `Jeffrey Sachs` (1), `Larry Johnson` (1)
+- Threads: `johnson` (1), `napolitano` (1)
 
 ## Filename Family Fallbacks
 
@@ -28,3 +28,4 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Files
 
 - `transcript-napolitano-johnson-28-point-plan-is-dead-on-arrival-2025-11-24.md`
+- `transcript-napolitano-sachs-us-still-woefully-ignorant-of-russia-2025-11-24.md`

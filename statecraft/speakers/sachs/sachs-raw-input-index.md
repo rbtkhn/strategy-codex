@@ -22,6 +22,7 @@ Purpose: provide the canonical route map for materialized Sachs appearances and 
 - [2025-09-27 - NATO Warmongers & the World on the Edge of War](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-27/transcript-glenn-diesen-jeffrey-sachs-nato-warmongers-and-the-world-on-the-edge-of-war-2025-09-27.md)
 - [2025-10-06 - Another War Against Iran Could Be Imminent](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-06/transcript-glenn-diesen-jeffrey-sachs-another-war-against-iran-could-be-imminent-2025-10-06.md)
 - [2025-10-22 - Last Chance for Peace in Ukraine Sabotaged by Europe](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-22/transcript-glenn-diesen-jeffrey-sachs-last-chance-for-peace-in-ukraine-sabotaged-by-europe-2025-10-22.md)
+- [2025-11-08 - Venezuela Regime Change - Oil & Gangster Politics](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-08/transcript-glenn-diesen-jeffrey-sachs-venezuela-regime-change-oil-and-gangster-politics-2025-11-08.md)
 - [2026-02-28 - US & Israel Attack Iran - War Is Spreading Across the Region](/C:/dev/strategy-codex/source-archive/statecraft/2026-02-28/transcript-diesen-sachs-us-israel-attack-iran-war-is-spreading-across-the-region-2026-02-28.md)
 - [2026-03-16 - Israel Could Use Nuclear Weapons Against Iran](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-16/youtube-glenn-diesen-jeffrey-sachs-israel-could-use-nuclear-weapons-against-iran-2026-03-16.md)
 - [2026-03-20 - Israel Could Use Nuclear Weapons Against Iran](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-20/transcript-diesen-sachs-israel-could-use-nuclear-weapons-against-iran-2026-03-20.md)
@@ -48,8 +49,21 @@ Purpose: provide the canonical route map for materialized Sachs appearances and 
 - [2025-10-13 - Who Would Trust Netanyahu?](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-13/transcript-napolitano-sachs-who-would-trust-netanyahu-2025-10-13.md)
 - [2025-10-22 - Israel's Next Moves.](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-22/transcript-napolitano-sachs-israels-next-moves-2025-10-22.md)
 - [2025-10-27 - Trump’s attempt at Venezuelan regime-change and his Gaza Illusions](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-27/transcript-napolitano-sachs-trumps-attempt-at-venezuelan-regime-change-and-his-gaza-illusions-2025-10-27.md)
+- [2025-11-04 - Regime Change in Venezuela.](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-04/transcript-napolitano-sachs-regime-change-in-venezuela-2025-11-04.md)
+- [2025-11-11 - Trump and Tariffs/Trump and War.](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-11/transcript-napolitano-sachs-trump-and-tariffs-trump-and-war-2025-11-11.md)
+- [2025-11-17 - Netanyahu Sabotages a Palestinian State](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-17/youtube-napolitano-sachs-netanyahu-sabotages-a-palestinian-state-2025-11-17.md)
+- [2025-11-24 - US Still Woefully Ignorant of Russia.](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-24/transcript-napolitano-sachs-us-still-woefully-ignorant-of-russia-2025-11-24.md)
 - [2026-03-16 - Are We Drifting Toward a Global War?](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-16/transcript-napolitano-sachs-are-we-drifting-toward-a-global-war-2026-03-16.md)
 - [2026-05-27 - Trump Has No Lifeline Out of Iran](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-27/transcript-napolitano-sachs-trump-has-no-lifeline-out-of-iran-2026-05-27.md)
+
+### Sachs-Owned Lectures
+
+- [2025-11-05 - How Do Businesses Maneuver In A Multipolar World?](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-05/youtube-sachs-how-do-businesses-maneuver-in-a-multipolar-world-2025-11-05.md)
+- [2025-11-21 - Jeffrey Sachs ROASTS Trump for Skipping the G20 Summit in South Africa!](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-21/youtube-sachs-roasts-trump-for-skipping-the-g20-summit-in-south-africa-2025-11-21.md)
+
+### Fidias Podcast
+
+- [2025-11-01 - The Truth About Who REALLY Controls the World](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-01/transcript-fidias-panayiotou-jeffrey-sachs-the-truth-about-who-really-controls-the-world-2025-11-01.md)
 
 ### Mercouris / The Duran
 

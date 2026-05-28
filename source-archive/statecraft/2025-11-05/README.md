@@ -4,22 +4,22 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Stats
 
-- Source files: `2`
-- Type mix: `transcript` (1), `youtube` (1)
-- Distinct channels/shows: `1`
-- Distinct hosts: `2`
-- Distinct guests: `2`
-- Distinct threads: `2`
+- Source files: `3`
+- Type mix: `youtube` (2), `transcript` (1)
+- Distinct channels/shows: `2`
+- Distinct hosts: `3`
+- Distinct guests: `3`
+- Distinct threads: `3`
 
 ## Channel / Show Rollup
 
-- `Daniel Davis Deep Dive` (1)
+- `Daniel Davis Deep Dive` (1), `Jeffrey Sachs` (1)
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Daniel Davis` (1), `Nima Alkhorshid` (1)
-- Guests: `Doug Macgregor` (1), `Scott Ritter` (1)
-- Threads: `davis` (1), `nima` (1)
+- Hosts: `Daniel Davis` (1), `Jeffrey Sachs` (1), `Nima Alkhorshid` (1)
+- Guests: `Doug Macgregor` (1), `Jeffrey Sachs` (1), `Scott Ritter` (1)
+- Threads: `davis` (1), `nima` (1), `sachs` (1)
 
 ## Filename Family Fallbacks
 
@@ -29,3 +29,4 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - `transcript-dialogue-works-scott-ritter-scott-ritter-russia-iran-just-triggered-it-all-2025-11-05.md`
 - `youtube-daniel-davis-deep-dive-col-doug-macgregor-russia-warns-ukraine-time-to-surrender-2025-11-05.md`
+- `youtube-sachs-how-do-businesses-maneuver-in-a-multipolar-world-2025-11-05.md`

@@ -29,6 +29,7 @@ Best current direct anchors:
 - [2025-09-27 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-27/transcript-glenn-diesen-jeffrey-sachs-nato-warmongers-and-the-world-on-the-edge-of-war-2025-09-27.md)
 - [2025-10-06 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-06/transcript-glenn-diesen-jeffrey-sachs-another-war-against-iran-could-be-imminent-2025-10-06.md)
 - [2025-10-22 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-22/transcript-glenn-diesen-jeffrey-sachs-last-chance-for-peace-in-ukraine-sabotaged-by-europe-2025-10-22.md)
+- [2025-11-08 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-08/transcript-glenn-diesen-jeffrey-sachs-venezuela-regime-change-oil-and-gangster-politics-2025-11-08.md)
 - [2026-05-12 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-12/youtube-glenn-diesen-jeffrey-sachs-new-european-military-bloc-for-war-against-russia-2026-05-12.md)
 - [2026-05-23 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-23/transcript-diesen-sachs-the-baltic-states-are-now-the-most-dangerous-place-in-the-world-2026-05-23.md)
 
@@ -60,10 +61,41 @@ Best current direct anchors:
 - [2025-10-13 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-13/transcript-napolitano-sachs-who-would-trust-netanyahu-2025-10-13.md)
 - [2025-10-22 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-22/transcript-napolitano-sachs-israels-next-moves-2025-10-22.md)
 - [2025-10-27 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-27/transcript-napolitano-sachs-trumps-attempt-at-venezuelan-regime-change-and-his-gaza-illusions-2025-10-27.md)
+- [2025-11-04 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-04/transcript-napolitano-sachs-regime-change-in-venezuela-2025-11-04.md)
+- [2025-11-11 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-11/transcript-napolitano-sachs-trump-and-tariffs-trump-and-war-2025-11-11.md)
+- [2025-11-17 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-17/youtube-napolitano-sachs-netanyahu-sabotages-a-palestinian-state-2025-11-17.md)
+- [2025-11-24 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-24/transcript-napolitano-sachs-us-still-woefully-ignorant-of-russia-2025-11-24.md)
 - [2026-03-16 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-16/transcript-napolitano-sachs-are-we-drifting-toward-a-global-war-2026-03-16.md)
 - [2026-05-27 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-27/transcript-napolitano-sachs-trump-has-no-lifeline-out-of-iran-2026-05-27.md)
 
 Treat the `2025-02-03` anchor as a confirmed full front door below transcript-grade, not as a transcript-bearing local body.
+
+## Open Sachs-Owned Lectures First
+
+Open the direct Sachs lecture surfaces first when the real question is:
+
+- what Sachs sounds like without host mediation
+- how he compresses anti-imperial or multipolar diagnosis for a general public or institutional room
+- whether the November 2025 branch is widening beyond host-owned chronology
+
+Best current direct anchors:
+
+- [2025-11-05 / Jeffrey Sachs lecture](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-05/youtube-sachs-how-do-businesses-maneuver-in-a-multipolar-world-2025-11-05.md)
+- [2025-11-21 / Jeffrey Sachs lecture](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-21/youtube-sachs-roasts-trump-for-skipping-the-g20-summit-in-south-africa-2025-11-21.md)
+
+Treat these as honest full front doors rather than transcript-bearing local bodies.
+
+## Open Fidias First
+
+Open the Fidias interview first when the real question is:
+
+- how Sachs explains hierarchy, empire, and multipolarity to a younger general-public host
+- where the November 2025 shelf begins to show long-form transcript-bearing crossover beyond Napolitano and Diesen
+- how Sachs links direct democracy, Cyprus, Africa, China, and nuclear danger in one continuous public-facing conversation
+
+Best current anchor:
+
+- [2025-11-01 / Fidias Podcast x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-01/transcript-fidias-panayiotou-jeffrey-sachs-the-truth-about-who-really-controls-the-world-2025-11-01.md)
 
 
 ## Open Mercouris Or Tucker First
