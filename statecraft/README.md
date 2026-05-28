@@ -68,6 +68,8 @@ Named recent events no longer open a separate `current-event` function. Verify t
 - Need live speaker trust or track-record work? Open [statecraft/audits/](audits/README.md).
 - Need durable receipts of how statecraft is learning from its own objects? Open [recursive-learning-journal.md](recursive-learning-journal.md).
 - Need reusable laws extracted from those learning events? Open [patterns/](patterns/README.md).
+- Need the compact operator rule for when a lane earns bounded hardening? Open [lane-hardening law](patterns/lane-hardening-law.md).
+- Need the clearest note on how the operator is actually using this machine? Open [how the operator uses the statecraft machine](how-the-operator-uses-the-statecraft-machine.md).
 
 ## Era Schema
 

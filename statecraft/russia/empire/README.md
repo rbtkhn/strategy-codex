@@ -4,6 +4,29 @@ WORK only; not Record.
 
 Purpose: name Russia's outward striving for security and control so statecraft can distinguish necessary depth from overbinding expansion.
 
+## Where This Sits
+
+This is the Russia lane's empire-side strand bench. It sits beneath the primary [Russia helix](../helix.md) and above current-state or transaction drafting when the real question is the outward control stack itself.
+
+## Reading Posture
+
+Read this folder as the lane's leverage-and-optionality bench, not as permission for permanent expansion. Open it when the live question has narrowed to buffers, energy pressure, sanctions workarounds, recognition formulas, or whether leverage still serves a bounded settlement path.
+
+## Pressure Points
+
+- weakening adversary position without surrendering Russian timing
+- distinguishing bounded depth from overbinding expansion
+- testing when ambiguity preserves options and when it becomes drift
+- preventing partner commitments from dictating Russian costs or escalation tempo
+
+## Limits Of The Frame
+
+This bench does not resolve continuity memory, current carrier reality, or final clause design on its own. If the real issue is still authorization, recognition grammar, or settlement carry, the lane belongs back in the helix, civilization, state, or bridge layer.
+
+## Return Path
+
+Return to [Russia helix](../helix.md) when the integrated line is unstable, to [Russia civilization](../civilization/) when continuity or recognition still governs the read, to [Russia state](../state/) when implementable carrier reality now matters, and to [Russia transactions](../transactions/) only once the object has truly crossed into mechanism work.
+
 Helix-first role: this folder now serves as the empire-side strand bench beneath the primary [Russia helix](../helix.md). Use the helix for the integrated lane interpretation; use this folder when the real question has narrowed to the control stack itself.
 
 Phase-one CIV-EMP opening: start with [Russia empire instrument](seed-instruments.md) when the live question is leverage, buffers, energy pressure, or whether Russian outward control still serves a bounded settlement path. Read it together with [Russia state memory](../civilization/objects/state-memory.md).

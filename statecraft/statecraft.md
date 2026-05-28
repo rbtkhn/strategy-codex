@@ -24,6 +24,7 @@ Restore these invariants first:
 - `source-archive remembers source text -> statecraft classifies and drafts`
 - `pattern / narrative -> authority / restraint / settlement`
 - lane orthogonality matters more than elegant synthesis
+- mature lanes need membrane thickness, not only doctrinal elegance
 - braid keeps the live coupled object real; helix tracks long-run recurrence and transformation
 - leverage is not yet statecraft
 - promotion must be earned
@@ -39,6 +40,12 @@ Use it to distinguish inheritance from instrument, sacred or moral authorization
 Restore this canonical sequence next:
 
 `source memory -> routing -> lane judgment -> output selection -> mechanism draft -> validation -> governed recursive learning`
+
+Restore this lane-hardening sequence too when the lane is already mature enough to need it:
+
+`helix -> current state carriers -> transaction drafting`
+
+Support material should strengthen that route, not compete with it.
 
 Reopen with these questions:
 
@@ -85,6 +92,8 @@ Use these fast recognizers when the object family is already obvious:
 
 If none of those recognizers settle ownership, return to `state-deploy` rather than forcing an elegant synthesis.
 
+Once a lane already owns the object, check one more thing before drafting: is the remaining uncertainty still a posture split inside the lane? If yes, use the lane's bridge doctrine before clause design.
+
 Do not linger in the kernel longer than needed:
 
 - if ownership is unresolved, go to `state-deploy`
@@ -100,6 +109,8 @@ When the machine gets fooled, it usually gets fooled in one of these ways:
 - it prefers elegant synthesis over honest orthogonality
 
 The felt warning sign is false elegance: the draft starts sounding coherent before the crisis object, carrier, and classification are actually stable.
+
+The second warning sign is false maturity: the lane sounds well-shaped in doctrine but still has no native proof anchor and depends entirely on shared bundles.
 
 Mini reclassification example:
 
@@ -124,13 +135,16 @@ The machine works only if a few distinctions stay alive:
 - **lane ownership vs retrieval conditioning**
   - `state-deploy` decides who owns the object
   - the lane decides what that owner can carry
-  - `statecraft-bridge` only intervenes when the unresolved question is retrieval profile rather than ownership
+  - bridge doctrine intervenes when the unresolved question is posture or retrieval profile rather than ownership
 - **leverage vs settlement**
   - pressure, position, or coercive salience do not yet count as statecraft
   - statecraft begins when the object can be converted into authority, restraint, and settlement
 - **importance vs maturity**
   - an important event does not automatically deserve a framework
   - a sharp note does not automatically deserve transaction form
+- **doctrine vs membrane**
+  - a lane can sound correct before it can prove itself
+  - native proof anchors and local transaction families are part of lane maturity, not optional polish
 
 The system stays healthy when it preserves orthogonality long enough to draft something real:
 
@@ -140,6 +154,13 @@ The system stays healthy when it preserves orthogonality long enough to draft so
 - Russia is not America without liberal language
 
 Each lane must keep its own legitimacy grammar, fear structure, leverage profile, carrier burden, and settlement logic long enough for a real instrument to emerge.
+
+At the current frontier, each mature lane should also keep:
+
+- one canonical route
+- one support ring that does not displace that route
+- one lane-native bridge ambiguity
+- at least one local proof anchor that is not merely borrowed from a shared crisis object
 
 ## Core Ontology
 
@@ -152,6 +173,8 @@ Each lane must keep its own legitimacy grammar, fear structure, leverage profile
 - **output class**: the terminal form a given pass honestly deserves
 - **transaction**: a mature reusable statecraft package with instrument form and revisit discipline
 - **recursive update candidate**: governed learning proposed for later review rather than silent doctrine mutation
+- **native proof anchor**: a lane-local transaction or equivalent proof object that shows the lane can carry its own doctrine without default dependence on shared bundles
+- **membrane thickness**: the degree to which a lane's doctrine, bridge logic, and proof inventory are locally coherent rather than borrowed cosmetically
 
 ## Output Taxonomy
 
@@ -186,13 +209,22 @@ Promotion to lane draft or full transaction usually requires:
 
 If those are missing, stop earlier. Early stopping is healthy architecture, not underperformance.
 
+Promotion of a lane's second-order interface usually requires:
+
+- front doors dense enough to need bounded-entry logic
+- one actual canonical route rather than several equally-plausible openings
+- one recurring posture ambiguity that routing alone does not resolve
+- one native proof anchor once shared bundles are carrying too much of the lane's proof burden
+
+If those are missing, the lane is not yet ready for full hardening.
+
 ## Precedence Rules
 
 1. `coffee -> C. Statecraft` opens the router-first front door.
 2. `state-deploy` answers `who owns this object now?` and absorbs verified named recent events when ownership is not yet clear.
 3. `compact` owns cross-lane or objection-shaped objects after ownership is understood.
 4. `state-*` skills answer `what can this owner legitimately draft, carry, accept, reject, and institutionalize?`
-5. `statecraft-bridge` answers `which retrieval profile should read this Persia speaker-heavy object?`
+5. lane bridge doctrine answers `which posture or retrieval split still governs this already-owned object?`
 6. the transaction router answers `does this belong to an existing transaction plateau object?`
 7. review queues and pending files capture learning without silent rewrite
 
@@ -280,6 +312,49 @@ Speaker arcs may not:
 Bridge rule:
 
 If the unresolved question is not lane ownership but how a speaker-conditioned claim should be read against source memory, route through a bridge surface before descending into substantive drafting.
+
+This now happens in two main forms:
+
+- **retrieval bridge**
+  - used when a speaker-heavy object needs the right source-memory reading posture before the lane can spend it honestly
+- **lane posture bridge**
+  - used when lane ownership is already clear but the real split is still command vs settlement, stabilization vs architecture, recognition vs settlement, or brokerage vs overbinding
+
+Do not confuse those two forms. Both are bridges, but they solve different errors.
+
+## Lane-Hardening And Measured Maturity
+
+Statecraft now knows enough to state one compact lane-hardening law:
+
+- orientation-card logic belongs once cold-entry confusion is recurring
+- spine and support ring belong once one route is real and side openings are competing with it
+- bridge doctrine belongs once one posture threshold keeps producing wrong next moves
+- a native proof anchor becomes mandatory once a lane risks proving itself only through shared cross-lane bundles
+
+Measured lane maturity now includes:
+
+- bounded-entry coverage on the four sub-benches
+- presence of an explicit spine and support ring
+- presence of a lane-native bridge ambiguity
+- presence of at least one local native proof anchor
+- membrane risk where doctrine still outpaces local proof inventory
+
+This is not cosmetic scaffolding. It is how the machine avoids mistaking elegant lane prose for real drafting readiness.
+
+## Operator Use At The Frontier
+
+The most advanced use of this machine now goes beyond ordinary routing and commentary.
+
+At the frontier, the operator is using `statecraft/` to:
+
+- convert memory into mechanism
+- identify lane-native ambiguities
+- test membrane thickness
+- transfer reusable patterns across unlike lanes
+- falsify those patterns rather than merely expand them
+- extract architecture from source corpora and feed it back into statecraft doctrine
+
+That use-pattern is now part of the machine's real operating truth, even when a given session stays at a simpler level.
 
 ## Delegated Modules
 

@@ -19,6 +19,7 @@ Open this folder when the question is:
 - [Orientation-card logic](orientation-card-logic.md) - bounded entry logic for high-density surfaces that need fast interpretive access
 - [Spine and support ring](spine-and-support-ring.md) - one canonical route plus strengthening material that does not overload the core line
 - [Bridge doctrine](bridge-doctrine.md) - explicit transition objects for layers that are often confused in practice
+- [Lane-hardening law](lane-hardening-law.md) - the compact operator rule for when a lane has earned bounded entry, route discipline, a bridge, and a native proof anchor
 
 ## Journal Distinction
 

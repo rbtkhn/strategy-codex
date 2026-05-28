@@ -4,6 +4,29 @@ WORK only; not Record.
 
 Purpose: name the inherited Russian code that shapes security-depth demands, sovereignty claims, and the fear of encirclement.
 
+## Where This Sits
+
+This is the Russia lane's civilization-side strand bench. It sits beneath the primary [Russia helix](../helix.md) and above current-state or transaction drafting.
+
+## Reading Posture
+
+Read this folder as the lane's continuity, fear, and recognition bench, not as a total Russia theory. Open it when the governing question has clearly narrowed to memory, geography, war grammar, peace grammar, or successor-stable state interest.
+
+## Pressure Points
+
+- naming strategic-depth memory without collapsing into mood or mystique
+- distinguishing recognition need from maximal territorial demand
+- tracking how encirclement fear and collapse memory constrain modern bargaining
+- deciding when a settlement can carry continuity rather than only leadership preference
+
+## Limits Of The Frame
+
+This bench does not by itself decide carrier reality or mechanism form. If the live question is mainly about current offices, leverage design, or clause language, the lane belongs in state, empire, bridge, or transactions instead.
+
+## Return Path
+
+Return to [Russia helix](../helix.md) when the integrated line needs restoration, to [Russia state](../state/) when implementation authority now governs the next move, to [Russia empire](../empire/) when the outward control stack is doing the real work, and to [Russia transactions](../transactions/) only after the lane has crossed the transaction threshold.
+
 Helix-first role: this folder now serves as the civilization-side strand bench beneath the primary [Russia helix](../helix.md). Use the helix for the integrated lane interpretation; use the notes here when the governing question has clearly narrowed to continuity memory, geography, war grammar, peace grammar, or later second-wave arc-lenses.
 
 Phase-one CIV-EMP opening: start with [state memory](objects/state-memory.md) when the live question is whether a proposal can carry Russian continuity, recognition, and strategic depth as state memory rather than as a temporary leadership preference.

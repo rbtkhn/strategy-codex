@@ -4,6 +4,29 @@ WORK only; not Record.
 
 Use this folder for the current Russian state apparatus: government, presidency, Security Council, foreign ministry, military-security institutions, and official authority carriers. This is the near-term institutional layer that turns Russian civilizational memory and imperial/security striving into orders, statements, negotiations, and implementable instruments.
 
+## Where This Sits
+
+This is the Russia lane's current-state bench. It sits after the helix has restored the governing line and before a draft can honestly claim state carry, settlement credibility, or restraint.
+
+## Reading Posture
+
+Read this folder as the lane's carrier-and-implementation bench, not as the first Russia entrypoint. Open it when the live question is who can actually authorize, implement, restrain, bargain, or contradict the move.
+
+## Pressure Points
+
+- preserving Russian timing against ally capture or escalation inheritance
+- distinguishing durable state carry from tactical leadership preference
+- testing whether mediator or recognition language can survive security-elite reality
+- identifying which office or carrier can spend optionality without collapsing it into overcommitment
+
+## Limits Of The Frame
+
+This bench does not decide the whole Russia line by itself. If the real uncertainty is still civilizational memory, overbinding, or posture ambiguity, it belongs back in the helix, strand, or bridge layer first.
+
+## Return Path
+
+Return to [Russia helix](../helix.md) when the integrated line is unstable, to [Russia civilization](../civilization/) or [Russia empire](../empire/) when the problem is still strand-level, and to [Russia transactions](../transactions/) only when the object has truly crossed into clause or mechanism work.
+
 ## Start Here
 
 - [Putin carrier](putin.md) - current presidential / security-state carrier of state continuity, strategic depth, and recognition demands.

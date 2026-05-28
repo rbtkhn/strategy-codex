@@ -17,6 +17,14 @@ The stable sequence is:
 5. Drafting method converts the object into a bounded artifact.
 6. Reviewable candidates feed durable discoveries back either to lane update surfaces or to the `civ-emp` review queue.
 
+The stable lane sequence, once a lane is mature enough to deserve hardening, is:
+
+```text
+helix -> current state carriers -> transaction drafting
+```
+
+Support material should strengthen that route, not compete with it.
+
 ## Stable Surfaces
 
 | surface | role | stable because |
@@ -52,6 +60,14 @@ Use these checks before calling a lane, sheet, or transaction mature:
 5. **Comparative usefulness** - can the object be compared across lanes or reused later?
 6. **Recursive usefulness** - does the work teach either the lane or `civ-emp` something durable?
 
+For lane maturity specifically, use these additional checks:
+
+1. **Bounded-entry coverage** - do the four sub-benches expose `Where This Sits`, `Reading Posture`, `Pressure Points`, `Limits Of The Frame`, and `Return Path`?
+2. **Route discipline** - is there one explicit spine and support ring rather than several competing top-level openings?
+3. **Bridge necessity** - is there one recurring posture threshold that routing alone does not resolve?
+4. **Native proof anchor** - does the lane have at least one local proof object that can carry its doctrine without default dependence on shared bundles?
+5. **Membrane thickness** - is the lane's doctrine supported by local proof inventory, or does it still sound more mature than it is?
+
 ## Promotion Threshold
 
 Do not promote by momentum.
@@ -67,6 +83,17 @@ A statecraft object should usually become a lane draft or full transaction only 
 
 If the work is still mostly interpretation, warning, analogy, or pressure description, it is healthier as commentary, braid, memo, comparison, objection matrix, router candidate, or transaction-use brief.
 
+For lane hardening specifically, do not promote by symmetry.
+
+A lane should usually gain orientation-card logic, spine/support-ring, bridge doctrine, and native proof-anchor expectations only when:
+
+- cold-entry confusion is recurring
+- one actual canonical route has emerged
+- one posture ambiguity keeps producing wrong next moves
+- shared bundles are carrying too much of the lane's proof burden
+
+If those conditions are missing, forcing a hardening layer is template theater.
+
 ## Failure Modes
 
 - commentary inflation
@@ -79,6 +106,9 @@ If the work is still mostly interpretation, warning, analogy, or pressure descri
 - recursive fiction
 - cross-lane blur
 - source-memory bleed from live drafting back into `civ-emp`
+- false maturity, where a lane's doctrine looks sharp but its proof inventory is still borrowed
+- bridge proliferation, where every interesting distinction becomes a bridge instead of only recurrent posture thresholds
+- support-ring creep, where strengthening material starts competing with the canonical route
 
 ## Compatibility
 

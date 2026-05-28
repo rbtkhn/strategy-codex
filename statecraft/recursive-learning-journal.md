@@ -320,33 +320,95 @@ shared route grammar is acceptable
 only if the governing ambiguity, proof anchor, and membrane stay lane-native
 ```
 
-### Comparative proof
+### Structural proof
 
-The three-lane audit lives at [recursive-learning-three-lane-audit.md](recursive-learning-three-lane-audit.md).
+That proof first held across three lanes:
 
-Its result is that the same pattern family now spans three distinct lane types:
+- Persia
+- America
+- China
 
-- Persia = recognition, dignity, leverage
-- America = bounded command, burden-sharing, successor authority
-- China = continuity, order, anti-chaos stabilization
+The pattern family stayed the same:
 
-### Structural gain
+- orientation-card logic
+- spine and support ring
+- bridge doctrine
 
-This matters because statecraft now has a reusable lane-hardening move that has survived three different political logics:
+But the governing ambiguity changed by lane:
 
-- one core spine
-- one support ring
-- one bridge that resolves the lane's true posture ambiguity
-- one lane-native proof anchor
-
-That is a stronger architectural event than the earlier Persia-only or Persia-plus-America state.
+- Persia -> recognition-first vs settlement-first
+- America -> bounded-command-first vs burden-sharing-settlement-first
+- China -> order-preserving stabilization-first vs anti-coercion leverage-architecture-first
 
 ### Guardrail
 
-The new guardrail is:
+The guardrail was no longer only "adapt or fail."
+
+It became:
 
 ```text
-same pattern does not mean same lane
+shared headings do not prove real learning
+only lane-native ambiguity and proof anchors do
 ```
 
-If a future lane inherits the headings but not its own governing ambiguity or native proof object, the recursive-learning test has not actually passed.
+### Current lesson
+
+By the end of the three-lane phase, statecraft had a reusable hardening pattern, but it still needed a true falsification target and a more measurable audit language.
+
+## 2026-05-28 - Russia falsification and measured four-lane maturity
+
+### Trigger
+
+After Persia, America, and China had all survived the top-three recursive-learning pass, the next question became:
+
+- is the pattern actually durable
+- or has it only succeeded on a friendly sample
+
+Russia was the correct falsification target because it shared the same lane grammar while carrying a different governing failure mode: overbinding through partner-timed entrapment.
+
+### Extracted law
+
+Russia proved that the pattern still holds if:
+
+- the route grammar stays shared
+- the bridge ambiguity stays lane-native
+- the first proof anchor is local to the lane
+
+The lane-hardening rule could now be promoted out of the journal and into reusable doctrine.
+
+### Reapplication
+
+This event changed three things at once:
+
+- Russia received the same hardening layer in a Russia-native form
+- `statecraft/patterns/lane-hardening-law.md` promoted the operator rule into compact doctrine
+- `statecraft/transaction-bench-maturity-audit.md` shifted the proof from narrative analogy to measured four-lane maturity
+
+### Structural changes
+
+The current four-lane state is now:
+
+- Persia -> native anchor plus retrieval-weighted support
+- America -> native anchor plus bilateral proof bundles
+- China -> native anchor plus balanced shared support
+- Russia -> native anchor plus broker / overbinding split
+
+This means the recursive-learning pattern is no longer only a Persia experiment, not only a three-lane analogy, and not only a journal insight. It is now measurable statecraft architecture.
+
+### Guardrail
+
+The guardrail remains decisive:
+
+```text
+measurable maturity is still not license for template copying
+```
+
+If a future lane copies the headings, adds a nominal bridge, and borrows a shared exemplar without a lane-native governing ambiguity, the pattern has been imitated but not learned.
+
+### Current lesson
+
+Statecraft now has both:
+
+- a reusable law for when a lane has earned bounded hardening
+- a measurable dashboard for checking whether the hardening is real
+- the four-lane audit that makes that hardening checkable rather than merely arguable

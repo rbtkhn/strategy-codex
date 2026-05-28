@@ -16,6 +16,8 @@ How does Russia exploit disruption to weaken U.S. primacy without becoming trapp
 
 Start with an optionality-preserving instrument such as a recognition formula, security guarantee, mediator channel, linkage note, sanctions workaround, or deconfliction mechanism that weakens U.S. primacy without overbinding Moscow.
 
+Use [Russia lane spine and support ring](spine-and-support-ring.md) when you need the route discipline explicitly stated. The helix remains the primary interpretive surface; the spine note exists to keep support material from competing with the main line.
+
 ## State Interest
 
 Russia seeks recognized security depth, sovereignty from Western coercion, strategic parity, durable access to Eurasian partners, and a settlement architecture that prevents hostile military infrastructure from hardening on its borders.
@@ -42,6 +44,7 @@ Use Richelieu to test whether Russian policy has a durable institutional carrier
 
 ## Civilization / Empire Helix
 
+- [Spine and support ring](spine-and-support-ring.md) - names the canonical Russia route and the strengthening material that should not displace it.
 - [Helix](helix.md) - primary lane interpretation; use this first when the question spans continuity, strategic depth, leverage, deformation, and restoration together.
 
 Russia is now the second helix-first transfer case. Start with [helix](helix.md) when the lane question has split across several notes and you need the governing line again. The helix is the primary authored interpretation; the first-wave objects below are the supporting strand surfaces.
@@ -71,6 +74,8 @@ Inside that state bench, use [Putin](state/putin.md) and the [Security Council](
 ## Speaker-State Intake
 
 Open Crooke for order rupture and Western misreading, Diesen for multipolar structure, Ritter / Macgregor / Martyanov for force constraints, and Parsi / Freeman for settlement architecture. Extract mechanisms; do not turn the lane into speaker commentary.
+
+When the remaining uncertainty is not lane ownership but whether the object is still brokered-recognition-first or already anti-overbinding-leverage-first, use the [Russia brokerage vs overbinding bridge](../bridges/russia-brokerage-vs-overbinding-bridge.md) before dropping directly into transaction logic.
 
 ## Preferred Instruments
 
