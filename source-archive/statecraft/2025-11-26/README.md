@@ -4,26 +4,26 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Stats
 
-- Source files: `4`
-- Type mix: `youtube` (3), `transcript` (1)
-- Distinct channels/shows: `2`
-- Distinct hosts: `2`
-- Distinct guests: `4`
-- Distinct threads: `3`
+- Source files: `5`
+- Type mix: `transcript` (3), `youtube` (2)
+- Distinct channels/shows: `3`
+- Distinct hosts: `3`
+- Distinct guests: `5`
+- Distinct threads: `4`
 
 ## Channel / Show Rollup
 
-- `Daniel Davis Deep Dive` (1), `Glenn Diesen` (1)
+- `Judging Freedom` (1), `Daniel Davis Deep Dive` (1), `Glenn Diesen` (1)
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Glenn Diesen` (3), `Daniel Davis` (1)
-- Guests: `Doug Macgregor` (1), `Douglas Macgregor` (1), `George Beebe` (1), `John Mearsheimer` (1)
-- Threads: `diesen` (2), `davis` (1), `mearsheimer` (1)
+- Hosts: `Glenn Diesen` (3), `Daniel Davis` (1), `Andrew Napolitano` (1)
+- Guests: `Doug Macgregor` (1), `Douglas Macgregor` (1), `George Beebe` (1), `John Mearsheimer` (1), `Col. Lawrence Wilkerson` (1)
+- Threads: `diesen` (2), `davis` (1), `mearsheimer` (1), `wilkerson` (1)
 
 ## Filename Family Fallbacks
 
-- `transcript-*` (1), `youtube-glenn-diesen-*` (1)
+- `transcript-*` (2), `youtube-glenn-diesen-*` (1), `transcript-napolitano-*` (1)
 
 ## Files
 
@@ -31,3 +31,4 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - `youtube-daniel-davis-deep-dive-col-doug-macgregor-ukraine-struggling-european-leaders-on-the-road-to-extinction-2025-11-26.md`
 - `youtube-glenn-diesen-douglas-macgregor-douglas-macgregor-nato-lost-the-war-empire-of-lies-collapses-2025-11-26.md`
 - `youtube-glenn-diesen-george-beebe-ukraine-faces-destruction-if-europe-derails-peace-2025-11-26.md`
+- `transcript-napolitano-wilkerson-no-one-can-trust-netanyahu-2025-11-26.md`

@@ -35,6 +35,13 @@ Use them in this order by question:
 - [wilkerson-august-2025-note.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-august-2025-note.md)
 - [wilkerson-september-2025-note.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-september-2025-note.md)
 - [wilkerson-october-2025-note.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-october-2025-note.md)
+- [wilkerson-november-2025-note.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-november-2025-note.md)
+- [wilkerson-december-2025-note.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-december-2025-note.md)
+- [wilkerson-january-2026-note.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-january-2026-note.md)
+- [wilkerson-february-2026-note.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-february-2026-note.md)
+- [wilkerson-march-2026-note.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-march-2026-note.md)
+- [wilkerson-april-2026-note.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-april-2026-note.md)
+- [wilkerson-may-2026-note.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-may-2026-note.md)
 
 Month-note rule:
 

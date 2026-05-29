@@ -9,31 +9,38 @@ Purpose: front door for the canonical Wilkerson shelf, surfacing the speaker-rou
 - [Lane README](README.md) - shelf overview, speaker-routing links, and lane-role framing.
 - [Surface orthogonality review](wilkerson-surface-orthogonality-2026-05.md) - explicit audit of why Wilkerson stays a durable double helix plus auxiliary reinforcement.
 - [Raw-input index](wilkerson-raw-input-index.md) - exhaustive route map for every resolved Wilkerson raw-input appearance currently materialized in the repo.
-- [Speaker routing note](../../../speakers/wilkerson/wilkerson-routing.md) - fastest answer to which host lane to open first.
-- [Speaker helix note](../../../speakers/wilkerson/wilkerson-helix.md) - why the main host pair belongs together.
+- [Speaker routing note](wilkerson-routing.md) - fastest answer to which host lane to open first.
+- [Speaker helix note](wilkerson-helix.md) - why the main host pair belongs together.
 
 ## Canonical Structure
 
 The orthogonality-bearing structure on this shelf is:
 
-- [wilkerson-helix.md](../../../speakers/wilkerson/wilkerson-helix.md), which compares the canonical host pair
+- [wilkerson-helix.md](wilkerson-helix.md), which compares the canonical host pair
 - the two main host arcs listed below, plus one auxiliary host branch
-- [wilkerson-cross-year-note.md](../../../speakers/wilkerson/wilkerson-cross-year-note.md), which preserves the longitudinal maturity claim
+- [wilkerson-cross-year-note.md](wilkerson-cross-year-note.md), which preserves the longitudinal maturity claim
 
 ## Core Speaker Files
 
-- [Speaker folder README](../../../speakers/wilkerson/README.md)
-- [Cross-year note](../../../speakers/wilkerson/wilkerson-cross-year-note.md)
-- [January 2025 note](../../../speakers/wilkerson/wilkerson-january-2025-note.md)
-- [February 2025 note](../../../speakers/wilkerson/wilkerson-february-2025-note.md)
-- [March 2025 note](../../../speakers/wilkerson/wilkerson-march-2025-note.md)
-- [April 2025 note](../../../speakers/wilkerson/wilkerson-april-2025-note.md)
-- [May 2025 note](../../../speakers/wilkerson/wilkerson-may-2025-note.md)
-- [June 2025 note](../../../speakers/wilkerson/wilkerson-june-2025-note.md)
-- [July 2025 note](../../../speakers/wilkerson/wilkerson-july-2025-note.md)
-- [August 2025 note](../../../speakers/wilkerson/wilkerson-august-2025-note.md)
-- [September 2025 note](../../../speakers/wilkerson/wilkerson-september-2025-note.md)
-- [October 2025 note](../../../speakers/wilkerson/wilkerson-october-2025-note.md)
+- [Speaker folder README](README.md)
+- [Cross-year note](wilkerson-cross-year-note.md)
+- [January 2025 note](wilkerson-january-2025-note.md)
+- [February 2025 note](wilkerson-february-2025-note.md)
+- [March 2025 note](wilkerson-march-2025-note.md)
+- [April 2025 note](wilkerson-april-2025-note.md)
+- [May 2025 note](wilkerson-may-2025-note.md)
+- [June 2025 note](wilkerson-june-2025-note.md)
+- [July 2025 note](wilkerson-july-2025-note.md)
+- [August 2025 note](wilkerson-august-2025-note.md)
+- [September 2025 note](wilkerson-september-2025-note.md)
+- [October 2025 note](wilkerson-october-2025-note.md)
+- [November 2025 note](wilkerson-november-2025-note.md)
+- [December 2025 note](wilkerson-december-2025-note.md)
+- [January 2026 note](wilkerson-january-2026-note.md)
+- [February 2026 note](wilkerson-february-2026-note.md)
+- [March 2026 note](wilkerson-march-2026-note.md)
+- [April 2026 note](wilkerson-april-2026-note.md)
+- [May 2026 note](wilkerson-may-2026-note.md)
 
 ## Main Host Arcs
 
@@ -43,9 +50,9 @@ The orthogonality-bearing structure on this shelf is:
 
 ## Best Live Entry Files
 
-- [2026-05-06 Diesen x Wilkerson](../../years/2026/provenance/2026-05-06/transcript-diesen-wilkerson-hormuz-brics-2026-05-06.md)
-- [2026-05-05 Dialogue Works x Wilkerson](../../years/2026/provenance/2026-05-05/transcript-alkorshid-wilkerson-hormuz-blockade-2026-05-05.md)
-- [2026-04-30 Judging Freedom x Wilkerson](../../years/2026/provenance/2026-04-30/transcript-wilkerson-judging-freedom-iran-new-friend-2026-04-30.md)
+- [2026-03-31 Dialogue Works x Wilkerson](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-31/transcript-dialogue-works-col-larry-wilkerson-israel-might-not-survive-this-end-everything-israel-iran-nuclear-scenario-2026-03-31.md)
+- [2026-05-06 Diesen x Wilkerson](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-06/transcript-diesen-wilkerson-hormuz-brics-2026-05-06.md)
+- [2026-05-28 Judging Freedom x Wilkerson](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/transcript-napolitano-wilkerson-what-remains-of-international-law-2026-05-28.md)
 
 ## Raw-Input Coverage
 

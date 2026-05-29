@@ -6,11 +6,12 @@ Purpose: make the Wilkerson speaker object faster to route without duplicating h
 
 ## Core rule
 
-Wilkerson does **not** need a native monthly shelf of his own. The efficient structure is:
+Wilkerson does **not** need a native chronology-owning monthly shelf of his own. The efficient structure is:
 
 - host shelves hold chronology
 - the speaker folder holds object identity
 - the two canonical host-local arcs do the primary routing work
+- bounded month notes exist only as support surfaces where cross-host retrieval needs extra compression
 - the Napolitano branch remains real auxiliary reinforcement without becoming a third equal strand
 
 So this note is the **speaker-side index** into the canonical Wilkerson host pair plus the one auxiliary branch.
@@ -26,9 +27,9 @@ So this note is the **speaker-side index** into the canonical Wilkerson host pai
 
 ## Best entry points
 
-- **Best single opening file:** [transcript-diesen-wilkerson-hormuz-brics-2026-05-06.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-06/transcript-diesen-wilkerson-hormuz-brics-2026-05-06.md)
-- **Best live-pressure opening file:** [transcript-alkorshid-wilkerson-hormuz-blockade-2026-05-05.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-05/transcript-alkorshid-wilkerson-hormuz-blockade-2026-05-05.md)
-- **Best Napolitano opening file:** [transcript-wilkerson-judging-freedom-iran-new-friend-2026-04-30.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-30/transcript-wilkerson-judging-freedom-iran-new-friend-2026-04-30.md)
+- **Best single opening file:** [transcript-diesen-wilkerson-hormuz-brics-2026-05-06.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-06/transcript-diesen-wilkerson-hormuz-brics-2026-05-06.md)
+- **Best live-pressure opening file:** [transcript-dialogue-works-col-larry-wilkerson-israel-might-not-survive-this-end-everything-israel-iran-nuclear-scenario-2026-03-31.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-31/transcript-dialogue-works-col-larry-wilkerson-israel-might-not-survive-this-end-everything-israel-iran-nuclear-scenario-2026-03-31.md)
+- **Best Napolitano opening file:** [transcript-napolitano-wilkerson-what-remains-of-international-law-2026-05-28.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/transcript-napolitano-wilkerson-what-remains-of-international-law-2026-05-28.md)
 
 ## By shelf function
 
