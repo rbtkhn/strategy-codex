@@ -1,5 +1,9 @@
 # Statecraft Source Archive
 
+This tree is the canonical on-disk home of the **Statecraft Archive** layer.
+
+For the layer law above it, open [Statecraft Archive and Statecraft Synthesis](/C:/dev/strategy-codex/statecraft/archive-synthesis-law.md).
+
 This namespace is the canonical dated full-source archive for repo-root `statecraft/`.
 
 Canonical path:
@@ -7,7 +11,7 @@ Canonical path:
 - `source-archive/statecraft/YYYY-MM-DD/<slug>.md`
 - `source-archive/statecraft/_aired-pending/<slug>.md`
 
-Use this tree for source-bearing captures only. Route control, bridge, continuity, and drafting surfaces belong in `statecraft/`, not here.
+Use this tree for source-bearing captures only. Route control, bridge, continuity, synthesis, and drafting surfaces belong in `statecraft/`, not here.
 
 Dated day folders may also contain generated local `README.md` inventory indices. These are derived navigation aids, not source captures.
 Generated month indices now live at `source-archive/statecraft/YYYY-MM.md`. These are derived navigation aids, not source captures.
@@ -19,5 +23,5 @@ Useful indices:
 - Thread index: [thread-index.md](/C:/dev/strategy-codex/source-archive/statecraft/thread-index.md)
 - Stale audit: [stale-index-audit.md](/C:/dev/strategy-codex/source-archive/statecraft/stale-index-audit.md)
 - Jiang / Predictive History raw-capture master index: [jiang-predictive-history-index.md](/C:/dev/strategy-codex/source-archive/statecraft/jiang-predictive-history-index.md)
-- Public Predictive History lecture index inside the official Jiang mirror: [statecraft/speakers/jiang/ph-civ/docs/source-video-index.md](/C:/dev/strategy-codex/statecraft/speakers/jiang/ph-civ/docs/source-video-index.md)
+- Public Predictive History lecture index inside the official Jiang mirror: [statecraft/civ-lens/civ-lens-jiang/ph-civ/docs/source-video-index.md](/C:/dev/strategy-codex/statecraft/civ-lens/civ-lens-jiang/ph-civ/docs/source-video-index.md)
 - Example month index: [2026-05.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05.md)

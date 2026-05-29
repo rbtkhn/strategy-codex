@@ -4,6 +4,8 @@ WORK only; not Record.
 
 Purpose: regulate the transition inside the America lane when the real uncertainty is still whether the object should be read command-first or settlement-first.
 
+This bridge sits after transcript-grounded intake, not before it.
+
 ## Trigger
 
 Open this bridge when America already owns the object and the remaining uncertainty is:
@@ -13,12 +15,16 @@ Open this bridge when America already owns the object and the remaining uncertai
 
 If lane ownership is still unclear, do not use this bridge yet.
 
+If the governing intake family is still unclear, do not use this bridge yet. Resolve `Davis / Napolitano / Pape / Parsi` first through the America lane's intake law.
+
 ## What This Bridge Chooses
 
 This bridge chooses drafting posture, not lane ownership and not final clause language.
 
 - **Bounded-command-first** -> use the state, war, and empire-side control surfaces to bound authority before mechanism design
 - **Burden-sharing-settlement-first** -> use the peace and transaction-facing surfaces to test whether the mechanism can be carried without imperial drift
+
+It does not choose transcript-bearing intake family, and it does not replace host-law or speaker-synthesis routing.
 
 ## Bounded-Command-First Rule
 
@@ -60,9 +66,10 @@ Return to the America lane once the settlement path is clear enough to identify 
 
 After the bridge run:
 
-1. return to [America helix](../america/helix.md) if the integrated line still needs restoration
-2. return to [America state](../america/state/) if authority, review, or successor carry now governs the next move
-3. return to [America transactions](../america/transactions/) if the object has truly crossed into clause or mechanism work
+1. return to [America lane](../america/README.md) if the intake family was not actually resolved cleanly
+2. return to [America helix](../america/helix.md) if the integrated line still needs restoration
+3. return to [America state](../america/state/) if authority, review, or successor carry now governs the next move
+4. return to [America transactions](../america/transactions/) if the object has truly crossed into clause or mechanism work
 
 ## Mistake This Bridge Prevents
 

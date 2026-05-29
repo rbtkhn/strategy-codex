@@ -6,7 +6,7 @@ This bench spends compact speaker-state into America-lane instruments. Use the c
 
 ## Where This Sits
 
-This is the America lane's transaction bench. It sits after the helix, strand, carrier, and routing questions have been narrowed enough that the next honest move is spendable instrument language.
+This is the America lane's transaction bench. It sits after transcript-grounded intake, helix, carrier, and posture questions have been narrowed enough that the next honest move is spendable instrument language.
 
 ## Reading Posture
 
@@ -21,11 +21,11 @@ Read this folder as the lane's clause-and-mechanism bench, not as the first Amer
 
 ## Limits Of The Frame
 
-This bench assumes the earlier routing and interpretation work has already been done. If the object is still mostly diagnosis, comparison, or command-versus-settlement bridge ambiguity, it belongs earlier in the workshop line.
+This bench assumes the earlier routing and interpretation work has already been done. If the object is still mostly diagnosis, comparison, intake-family selection, or command-versus-settlement bridge ambiguity, it belongs earlier in the workshop line.
 
 ## Return Path
 
-Return to [America helix](../helix.md) when the governing line is unstable, to [America state](../state/) when authority or review reality is still unresolved, to [America civilization](../civilization/) or [America empire](../empire/) when the problem is still strand-level, and to the bridge layer when the real uncertainty is still bounded command versus burden-sharing settlement.
+Return to [America lane](../README.md) when the intake family is still unclear, to [America helix](../helix.md) when the governing line is unstable, to [America state](../state/) when authority or review reality is still unresolved, to [America civilization](../civilization/) or [America empire](../empire/) when the problem is still strand-level, and to the bridge layer when the real uncertainty is still bounded command versus burden-sharing settlement.
 
 ## Transaction Bias
 
@@ -39,6 +39,8 @@ Treat `america` as broader than current Washington. Each transaction should sepa
 - institutions that can carry the instrument across political rupture.
 
 ## Spendable Inputs
+
+These are spendable only after the relevant intake family has already governed the read. They are not substitutes for intake routing.
 
 - Pape for coercive-center leverage and falsifiers.
 - Mearsheimer for structural position, overextension, and balancing pressure.
