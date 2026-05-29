@@ -1,8 +1,8 @@
-"""Speaker-role orthogonality contract.
+"""Civ-lens speaker-role orthogonality contract.
 
-The goal is to prevent mature speaker lanes from collapsing into generic
-"geopolitical analysis." Each speaker must keep a distinct job in comparisons
-and statecraft routing.
+The goal is to prevent mature civ-lens speaker lanes from collapsing into
+generic "geopolitical analysis." Each speaker must keep a distinct job in
+comparisons and statecraft routing.
 """
 
 from __future__ import annotations
@@ -121,7 +121,7 @@ def _collapse_phrase_failures(fixture: dict) -> list[str]:
         path
         for case in fixture["cases"]
         for path in case["paths"]
-        if path.startswith("codex/speakers/") or path.startswith("skills-portable/_drafts/")
+        if path.startswith("statecraft/civ-lens/") or path.startswith("skills-portable/_drafts/")
     }
     failures: list[str] = []
     patterns = [_normalize(phrase) for phrase in fixture["forbidden_collapse_phrases"]]

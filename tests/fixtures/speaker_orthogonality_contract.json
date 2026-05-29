@@ -22,9 +22,9 @@
       "points": 10,
       "critical": true,
       "paths": [
-        "codex/speakers/authored-pressure-quartet.md",
-        "codex/speakers/speaker-cluster-map.md",
-        "codex/speakers/pape/pape-speaker-object.md"
+        "statecraft/civ-lens/authored-pressure-quartet.md",
+        "statecraft/civ-lens/speaker-cluster-map.md",
+        "statecraft/civ-lens/civ-lens-pape/pape-speaker-object.md"
       ],
       "must_cover": [
         "Pape",
@@ -41,8 +41,8 @@
       "points": 10,
       "critical": true,
       "paths": [
-        "codex/speakers/authored-pressure-quartet.md",
-        "codex/speakers/speaker-cluster-map.md",
+        "statecraft/civ-lens/authored-pressure-quartet.md",
+        "statecraft/civ-lens/speaker-cluster-map.md",
         "skills-portable/_drafts/ritter-warning-extraction/SKILL.md"
       ],
       "must_cover": [
@@ -60,8 +60,8 @@
       "points": 10,
       "critical": true,
       "paths": [
-        "codex/speakers/authored-pressure-quartet.md",
-        "codex/speakers/speaker-cluster-map.md",
+        "statecraft/civ-lens/authored-pressure-quartet.md",
+        "statecraft/civ-lens/speaker-cluster-map.md",
         "skills-portable/_drafts/parsi-diplomacy-extraction/SKILL.md"
       ],
       "must_cover": [
@@ -79,9 +79,9 @@
       "points": 10,
       "critical": true,
       "paths": [
-        "codex/speakers/authored-pressure-quartet.md",
-        "codex/speakers/speaker-cluster-map.md",
-        "codex/speakers/crooke/README.md"
+        "statecraft/civ-lens/authored-pressure-quartet.md",
+        "statecraft/civ-lens/speaker-cluster-map.md",
+        "statecraft/civ-lens/civ-lens-crooke/README.md"
       ],
       "must_cover": [
         "Crooke",
@@ -99,7 +99,8 @@
       "critical": true,
       "paths": [
         "skills-portable/_drafts/marandi-state-extraction/SKILL.md",
-        "codex/speakers/speaker-cluster-map.md"
+        "statecraft/civ-lens/speaker-cluster-map.md",
+        "statecraft/civ-lens/civ-lens-marandi/marandi-routing.md"
       ],
       "must_cover": [
         "Marandi",
@@ -117,8 +118,8 @@
       "critical": true,
       "paths": [
         "skills-portable/_drafts/mercouris-daily-continuity-extraction/SKILL.md",
-        "codex/speakers/mercouris/mercouris-speaker-object.md",
-        "codex/speakers/speaker-cluster-map.md"
+        "statecraft/civ-lens/civ-lens-mercouris/mercouris-speaker-object.md",
+        "statecraft/civ-lens/speaker-cluster-map.md"
       ],
       "must_cover": [
         "Mercouris",
@@ -135,7 +136,7 @@
       "points": 10,
       "critical": true,
       "paths": [
-        "codex/speakers/authored-pressure-quartet.md"
+        "statecraft/civ-lens/authored-pressure-quartet.md"
       ],
       "must_cover": [
         "Do not treat this as a voting panel",
@@ -190,8 +191,8 @@
       "points": 10,
       "critical": false,
       "paths": [
-        "codex/speakers/authored-pressure-quartet.md",
-        "codex/speakers/speaker-cluster-map.md",
+        "statecraft/civ-lens/authored-pressure-quartet.md",
+        "statecraft/civ-lens/speaker-cluster-map.md",
         "skills-portable/_drafts/academy-statecraft-drafting/SKILL.md"
       ],
       "must_cover": [
