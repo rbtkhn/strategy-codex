@@ -16,9 +16,8 @@ from statecraft_day_archive import (
     DaySummary,
     counter_to_list,
     fmt_counter,
-    iter_day_dirs,
-    parse_day_readme,
-    summarize_day_dir,
+    load_day_summary,
+    select_day_dirs,
 )
 
 
@@ -67,33 +66,8 @@ def parse_args() -> DashboardArgs:
         slug=args.slug,
     )
 
-
-def _all_day_dirs(root: Path) -> list[Path]:
-    day_dirs: list[Path] = []
-    for year_dir in sorted(path for path in root.iterdir() if path.is_dir()):
-        name = year_dir.name
-        if len(name) == 10 and name[4] == "-" and name[7] == "-":
-            day_dirs.append(year_dir)
-    return sorted(day_dirs, key=lambda path: path.name)
-
-
 def _select_day_dirs(root: Path, year: str | None, from_day: str | None, to_day: str | None) -> list[Path]:
-    if year:
-        day_dirs = iter_day_dirs(root, year)
-    else:
-        day_dirs = _all_day_dirs(root)
-    if from_day:
-        day_dirs = [path for path in day_dirs if path.name >= from_day]
-    if to_day:
-        day_dirs = [path for path in day_dirs if path.name <= to_day]
-    return day_dirs
-
-
-def load_day_summary(day_dir: Path) -> DaySummary:
-    parsed = parse_day_readme(day_dir)
-    if parsed is not None:
-        return parsed
-    return summarize_day_dir(day_dir, has_readme=(day_dir / "README.md").is_file(), readme_parse_ok=False)
+    return select_day_dirs(root, year=year, from_day=from_day, to_day=to_day)
 
 
 def _normalize_filter_values(values: tuple[str, ...]) -> tuple[str, ...]:

@@ -1,8 +1,11 @@
 ---
 title: "John Mearsheimer: West Destroying Itself in Ukraine & Gaza"
+show: Glenn Diesen
 host: Glenn Diesen
 guest: John Mearsheimer
+pub_date: 2025-10-08
 date: 2025-10-08
+kind: transcript
 thread: diesen
 source_url: https://www.youtube.com/watch?v=bfO9xfn3fdw
 source_type: youtube-auto-captions

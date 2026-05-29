@@ -1,8 +1,11 @@
 ---
 title: "Alastair Crooke: Fake Peace in Gaza & Full-Scale War With Iran"
+show: Glenn Diesen
 host: Glenn Diesen
 guest: Alastair Crooke
+pub_date: 2025-10-09
 date: 2025-10-09
+kind: transcript
 thread: diesen
 source_url: https://www.youtube.com/watch?v=2w5lDU92CEw
 source_type: youtube-auto-captions

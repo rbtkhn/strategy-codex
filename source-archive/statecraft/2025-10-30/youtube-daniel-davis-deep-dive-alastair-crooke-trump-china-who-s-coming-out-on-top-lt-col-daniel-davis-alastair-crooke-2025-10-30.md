@@ -1,8 +1,11 @@
 ---
 title: "Trump & China: Who's Coming Out on Top? /Lt Col Daniel Davis & Alastair Crooke"
+show: Daniel Davis Deep Dive
 host: Daniel Davis / Deep Dive
 guest: Alastair Crooke
+pub_date: 2025-10-30
 date: 2025-10-30
+kind: transcript
 thread: davis
 source_url: https://www.youtube.com/watch?v=rgA1BVTw2us
 source_type: youtube-auto-captions

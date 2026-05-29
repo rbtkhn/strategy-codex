@@ -1,0 +1,166 @@
+from __future__ import annotations
+
+from pathlib import Path
+
+import sys
+
+REPO_ROOT = Path(__file__).resolve().parents[1]
+SCRIPTS = REPO_ROOT / "scripts"
+if str(SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS))
+
+import build_statecraft_archive_navigation as nav  # noqa: E402
+import build_statecraft_day_indices as day_idx  # noqa: E402
+import build_statecraft_month_indices as month_idx  # noqa: E402
+
+
+def _write(path: Path, text: str) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(text, encoding="utf-8", newline="\n")
+
+
+def test_build_year_index_rolls_up_months_and_links(tmp_path: Path) -> None:
+    root = tmp_path / "source-archive" / "statecraft"
+    day_one = root / "2026-05-26"
+    day_two = root / "2026-05-27"
+    _write(
+        day_one / "transcript-napolitano-hoh-why-the-pentagon-lies-2026-05-26.md",
+        (
+            "---\n"
+            'title: "Matt Hoh: Why the Pentagon Lies"\n'
+            "show: Judging Freedom\n"
+            "host: Judge Andrew Napolitano\n"
+            "guest: Matt Hoh\n"
+            "thread: hoh\n"
+            "---\n\n"
+            "Body.\n"
+        ),
+    )
+    _write(
+        day_two / "youtube-daniel-davis-deep-dive-us-must-stop-the-siege-of-iran-2026-05-27.md",
+        (
+            "---\n"
+            'title: "US Must Stop the Siege of Iran"\n'
+            "show: Daniel Davis Deep Dive\n"
+            "host: Daniel Davis\n"
+            "guest: Seyed M. Marandi\n"
+            "thread: iran\n"
+            "---\n\n"
+            "Body.\n"
+        ),
+    )
+
+    rendered = nav.build_year_index(root, "2026")
+
+    assert "# Statecraft Archive - 2026" in rendered
+    assert "- Captured months: `1`" in rendered
+    assert "- Captured days: `2`" in rendered
+    assert "`Judging Freedom` (1)" in rendered
+    assert "`Daniel Davis Deep Dive` (1)" in rendered
+    assert "| `2026-05` | 2 | 2 |" in rendered
+    assert "[open](./2026-05.md)" in rendered
+
+
+def test_build_thread_index_rolls_up_threads_across_days(tmp_path: Path) -> None:
+    root = tmp_path / "source-archive" / "statecraft"
+    day_one = root / "2026-05-26"
+    day_two = root / "2026-05-27"
+    _write(
+        day_one / "transcript-napolitano-hoh-why-the-pentagon-lies-2026-05-26.md",
+        (
+            "---\n"
+            'title: "Matt Hoh: Why the Pentagon Lies"\n'
+            "show: Judging Freedom\n"
+            "host: Judge Andrew Napolitano\n"
+            "guest: Matt Hoh\n"
+            "thread: hoh\n"
+            "---\n\n"
+            "Body.\n"
+        ),
+    )
+    _write(
+        day_two / "transcript-napolitano-hoh-us-foreign-policy-2026-05-27.md",
+        (
+            "---\n"
+            'title: "Matt Hoh: US Foreign Policy"\n'
+            "show: Judging Freedom\n"
+            "host: Judge Andrew Napolitano\n"
+            "guest: Matt Hoh\n"
+            "thread: hoh\n"
+            "---\n\n"
+            "Body.\n"
+        ),
+    )
+
+    rendered = nav.build_thread_index(root)
+
+    assert "# Statecraft Archive - Thread Index" in rendered
+    assert "- Distinct threads: `1`" in rendered
+    assert "- Thread-linked source files: `2`" in rendered
+    assert "| `hoh` | 2 | 2 | 1 |" in rendered
+    assert "`2026-05-26` | `2026-05-27`" in rendered
+
+
+def test_stale_index_audit_marks_ok_stale_and_missing(tmp_path: Path) -> None:
+    root = tmp_path / "source-archive" / "statecraft"
+    day_ok = root / "2026-05-26"
+    day_stale = root / "2026-05-27"
+    day_missing = root / "2026-05-28"
+    _write(
+        day_ok / "transcript-napolitano-hoh-why-the-pentagon-lies-2026-05-26.md",
+        (
+            "---\n"
+            'title: "Matt Hoh: Why the Pentagon Lies"\n'
+            "show: Judging Freedom\n"
+            "host: Judge Andrew Napolitano\n"
+            "guest: Matt Hoh\n"
+            "thread: hoh\n"
+            "---\n\n"
+            "Body.\n"
+        ),
+    )
+    _write(
+        day_stale / "transcript-napolitano-marandi-iran-standoff-2026-05-27.md",
+        (
+            "---\n"
+            'title: "Iran Standoff"\n'
+            "show: Judging Freedom\n"
+            "host: Judge Andrew Napolitano\n"
+            "guest: Seyed M. Marandi\n"
+            "thread: marandi\n"
+            "---\n\n"
+            "Body.\n"
+        ),
+    )
+    _write(
+        day_missing / "youtube-daniel-davis-deep-dive-us-must-stop-the-siege-of-iran-2026-05-28.md",
+        (
+            "---\n"
+            'title: "US Must Stop the Siege of Iran"\n'
+            "show: Daniel Davis Deep Dive\n"
+            "host: Daniel Davis\n"
+            "guest: Seyed M. Marandi\n"
+            "thread: iran\n"
+            "---\n\n"
+            "Body.\n"
+        ),
+    )
+
+    day_idx.write_day_index(day_ok)
+    _write(day_stale / "README.md", "# stale\n")
+    month_groups = month_idx.group_day_dirs_by_month(root, "2026")
+    month_idx.write_month_index(root, "2026-05", month_groups["2026-05"])
+    nav.write_rendered(root / "2026.md", nav.build_year_index(root, "2026"))
+    nav.write_rendered(root / "thread-index.md", nav.build_thread_index(root))
+
+    rendered = nav.build_stale_index_audit(root)
+
+    assert "- Day indices:" in rendered
+    assert "`ok` (1)" in rendered
+    assert "`stale` (1)" in rendered
+    assert "`missing` (1)" in rendered
+    assert "| `2026-05-26` | `ok` |" in rendered
+    assert "| `2026-05-27` | `stale` |" in rendered
+    assert "| `2026-05-28` | `missing` |" in rendered
+    assert "- Month indices: `ok` (1)" in rendered
+    assert "- Year indi

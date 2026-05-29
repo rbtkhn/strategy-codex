@@ -1,8 +1,11 @@
 ---
 title: "Window of Opportunity for Peace is Closing - John Mearsheimer, Alexander Mercouris & Glenn Diesen"
+show: Glenn Diesen
 host: Glenn Diesen
 guest: John Mearsheimer, Alexander Mercouris
+pub_date: 2025-10-22
 date: 2025-10-22
+kind: transcript
 thread: diesen
 source_url: https://www.youtube.com/watch?v=aKQRrJtGIEc
 source_type: youtube-watch-url

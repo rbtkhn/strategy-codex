@@ -1,8 +1,11 @@
 ---
 title: "Ukraine Russia War Update: Just Back from Russia: Larry Johnson"
+show: Daniel Davis Deep Dive
 host: Daniel Davis / Deep Dive
 guest: Larry Johnson
+pub_date: 2025-10-30
 date: 2025-10-30
+kind: transcript
 thread: davis
 source_url: https://www.youtube.com/watch?v=S09xJI92NDc
 source_type: youtube-auto-captions

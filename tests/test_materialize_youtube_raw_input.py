@@ -466,6 +466,46 @@ def test_main_with_appearances_writes_capture_packet(tmp_path: Path, monkeypatch
     assert "guest_inference: exact-title-match" in raw_text
 
 
+def test_build_master_index_artifacts_refreshes_archive_root_navigation(tmp_path: Path) -> None:
+    notebook_root = tmp_path / "source-archive" / "statecraft"
+    raw_path = notebook_root / "2026-05-28" / "transcript-nawfal-kent-trumps-life-is-under-threat-2026-05-28.md"
+    raw_path.parent.mkdir(parents=True, exist_ok=True)
+    raw_path.write_text(
+        (
+            "---\n"
+            "ingest_date: 2026-05-29\n"
+            "pub_date: 2026-05-28\n"
+            "kind: transcript\n"
+            "source_type: operator-pasted-youtube-transcript\n"
+            'title: "TRUMP\'S LIFE IS UNDER THREAT"\n'
+            "show: Mario Nawfal\n"
+            "host: Mario Nawfal\n"
+            "guest: Joe Kent\n"
+            "thread: kent\n"
+            "---\n\n"
+            "Body text with enough material to be a real source capture.\n"
+        ),
+        encoding="utf-8",
+        newline="\n",
+    )
+
+    artifacts = mat.build_master_index_artifacts(notebook_root=notebook_root, raw_paths=[raw_path])
+
+    assert Path(artifacts["raw_input_master_index_markdown"]).is_file()
+    assert Path(artifacts["raw_input_index_audit_markdown"]).is_file()
+    assert Path(artifacts["statecraft_day_index_2026-05-28"]).is_file()
+    assert Path(artifacts["statecraft_month_index_2026-05"]).is_file()
+    assert Path(artifacts["statecraft_year_index_2026"]).is_file()
+    assert Path(artifacts["statecraft_thread_index_markdown"]).is_file()
+    assert Path(artifacts["statecraft_stale_index_audit_markdown"]).is_file()
+
+    master_index = Path(artifacts["raw_input_master_index_markdown"]).read_text(encoding="utf-8")
+    assert "secondary analytic rollup" in master_index
+
+    archive_thread_index = Path(artifacts["statecraft_thread_index_markdown"]).read_text(encoding="utf-8")
+    assert "| `kent` | 1 | 1 | 1 |" in archive_thread_index
+
+
 def test_raw_input_list_with_appearances_does_not_fetch_or_write_transcripts(tmp_path: Path, monkeypatch, capsys) -> None:
     notebook_root = tmp_path / "codex" / "2026"
     obj = notebook_root / "speakers" / "ritter" / "ritter-speaker-object.md"

@@ -6,14 +6,14 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Source files: `2`
 - Type mix: `youtube` (2)
-- Distinct channels/shows: `0`
+- Distinct channels/shows: `1`
 - Distinct hosts: `1`
 - Distinct guests: `2`
 - Distinct threads: `1`
 
 ## Channel / Show Rollup
 
-- (none)
+- `Daniel Davis Deep Dive` (2)
 
 ## Host / Guest / Thread Rollup
 
@@ -23,7 +23,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Filename Family Fallbacks
 
-- `youtube-daniel-davis-deep-dive-*` (2)
+- (none)
 
 ## Files
 

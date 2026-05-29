@@ -6,6 +6,8 @@ This queue is the governed upstream membrane from repo-root statecraft back into
 
 Its purpose is narrow: capture source-memory discoveries exposed by downstream drafting without silently mutating the source base.
 
+When the discovery begins in public `ph-civ`, stage it first through [ph-civ-promotion-ledger.md](ph-civ-promotion-ledger.md). Use this review queue only once the mechanism, destination object, and counterweight are clear enough to justify a real upstream `civ-state` candidate.
+
 ## What Belongs Here
 
 Valid upstream candidate types:

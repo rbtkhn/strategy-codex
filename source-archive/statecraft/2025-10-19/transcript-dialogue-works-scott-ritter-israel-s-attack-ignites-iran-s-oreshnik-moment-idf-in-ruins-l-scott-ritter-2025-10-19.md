@@ -1,8 +1,11 @@
 ---
 title: "Israel’s Attack IGNITES Iran’s Oreshnik Moment — IDF in RUINS l Scott Ritter"
+show: Dialogue Works
 host: Nima Alkhorshid
 guest: Scott Ritter
+pub_date: 2025-10-19
 date: 2025-10-19
+kind: transcript
 thread: nima
 source_url: https://www.youtube.com/watch?v=AupNaa-bj3M
 source_type: youtube-auto-captions

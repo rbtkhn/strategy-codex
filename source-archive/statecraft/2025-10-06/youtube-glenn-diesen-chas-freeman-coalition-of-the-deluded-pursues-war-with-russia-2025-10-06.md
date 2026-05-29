@@ -1,8 +1,11 @@
 ---
 title: "Chas Freeman: Coalition of the Deluded Pursues War with Russia"
+show: Glenn Diesen
 host: Glenn Diesen
 guest: Chas Freeman
+pub_date: 2025-10-06
 date: 2025-10-06
+kind: transcript
 thread: diesen
 source_url: https://www.youtube.com/watch?v=gRwzQdWoVAg
 source_type: youtube-auto-captions

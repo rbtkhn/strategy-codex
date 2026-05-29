@@ -34,6 +34,7 @@ Use them in this order by question:
 - [wilkerson-july-2025-note.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-july-2025-note.md)
 - [wilkerson-august-2025-note.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-august-2025-note.md)
 - [wilkerson-september-2025-note.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-september-2025-note.md)
+- [wilkerson-october-2025-note.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-october-2025-note.md)
 
 Month-note rule:
 

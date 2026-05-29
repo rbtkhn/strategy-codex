@@ -1,8 +1,11 @@
 ---
 title: "Douglas Macgregor: Broken NATO Escalates War on Russia"
+show: Glenn Diesen
 host: Glenn Diesen
 guest: Col. Douglas Macgregor
+pub_date: 2025-10-23
 date: 2025-10-23
+kind: transcript
 thread: diesen
 source_url: https://www.youtube.com/watch?v=dZdnC1btS4M
 source_type: youtube-auto-captions

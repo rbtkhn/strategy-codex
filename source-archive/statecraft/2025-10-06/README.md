@@ -13,22 +13,20 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Glenn Diesen` (1)
-- `Judging Freedom` (1)
+- `Glenn Diesen` (2), `Judging Freedom` (1)
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Andrew Napolitano` (1), `Glenn Diesen` (2)
-- Guests: `Chas Freeman` (1), `Jeffrey Sachs` (2)
+- Hosts: `Glenn Diesen` (2), `Andrew Napolitano` (1)
+- Guests: `Jeffrey Sachs` (2), `Chas Freeman` (1)
 - Threads: `diesen` (2), `napolitano` (1)
 
 ## Filename Family Fallbacks
 
-- `transcript-*` (2)
-- `youtube-glenn-diesen-*` (1)
+- (none)
 
 ## Files
 
-- `youtube-glenn-diesen-chas-freeman-coalition-of-the-deluded-pursues-war-with-russia-2025-10-06.md`
 - `transcript-glenn-diesen-jeffrey-sachs-another-war-against-iran-could-be-imminent-2025-10-06.md`
 - `transcript-napolitano-sachs-trump-colonizing-gaza-2025-10-06.md`
+- `youtube-glenn-diesen-chas-freeman-coalition-of-the-deluded-pursues-war-with-russia-2025-10-06.md`

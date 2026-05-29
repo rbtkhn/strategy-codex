@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-27T06:14:17.891908+00:00",
-  "date": "2026-05-27",
+  "generated_at": "2026-05-29T05:31:07.421916+00:00",
+  "date": "2026-05-29",
   "user_id": "strategy-codex",
   "ok": true,
   "integrity_ok": true,
@@ -9,7 +9,7 @@
   "topActionReason": "calendar_mod3",
   "worktreeState": "risky residue",
   "worktreeAdvice": "Large or wide diff \u2014 inspect before continuing; use bridge when closing session.",
-  "tomorrow_inherits": "Tomorrow inherits (hint): **Statecraft drafting (treaty / policy / negotiation bench)** - calendar rotation; not policy or Record.",
+  "tomorrow_inherits": "Tomorrow inherits (hint): **Steward / membrane (gate + template parity)** - calendar rotation; not policy or Record.",
   "execution_paths": [
     {
       "id": "today_field",
@@ -33,5 +33,5 @@
       "signals_used": []
     }
   ],
-  "suggested_execution_path_index": 0
+  "suggested_execution_path_index": 2
 }

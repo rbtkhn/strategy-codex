@@ -8,8 +8,8 @@ Purpose: preserve what September 2025 currently means on the Wilkerson shelf now
 
 September 2025 is now an **honest six-point Wilkerson month** when read as:
 
-- `1` already-materialized September anchor on disk
-- `5` additional high-value long-form YouTube watch URLs newly recovered
+- `5` already-materialized September anchors on disk
+- `1` additional high-value long-form YouTube watch URL newly recovered
 
 The month is therefore no longer just:
 
@@ -17,9 +17,9 @@ The month is therefore no longer just:
 
 It is better read as:
 
-`September 2025 = a sparse but real post-August continuation where Dialogue Works remains the dominant recovery lane, Diesen still supplies one clear anchor, and the month bends toward retrenchment, collapsing alliances, Middle East escalation, and widening systemic-disaster framing`
+`September 2025 = a real five-anchor month where the September 5 bridge now connects the September 12 Diesen anchor to a September 17 / September 23 / September 26 Dialogue Works escalation run, leaving only the September 2 opener still unresolved on disk`
 
-September is still much thinner on disk than June, July, or now August, but it is not an empty month.
+September is still much thinner on disk than June, July, or now August, but it is no longer a one-file month.
 
 ## Materialized on disk
 
@@ -27,80 +27,72 @@ September is still much thinner on disk than June, July, or now August, but it i
    Status: `Diesen` September anchor already materialized.
    URL: [https://www.youtube.com/watch?v=MujCTLhegRk](https://www.youtube.com/watch?v=MujCTLhegRk)
 
+2. [2025-09-26 - *Larry C. Johnson & Larry Wilkerson: Charlie Kirk's Story COLLAPSES - Is America Gearing Up for WAR?*](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-26/transcript-dialogue-works-larry-c-johnson-larry-wilkerson-charlie-kirks-story-collapses-is-america-gearing-up-for-war-2025-09-26.md)
+   Status: `Dialogue Works` late-month crossover now materialized from operator-pasted transcript.
+   URL: [https://www.youtube.com/watch?v=gzhWSuNKFLI](https://www.youtube.com/watch?v=gzhWSuNKFLI)
+
+3. [2025-09-23 - *Scott Ritter & Col. Larry Wilkerson: Israel's DEAD END - Charlie Kirk - Iran & Russia vs NATO*](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-23/transcript-dialogue-works-scott-ritter-col-larry-wilkerson-israels-dead-end-charlie-kirk-iran-russia-vs-nato-2025-09-23.md)
+   Status: `Dialogue Works` late-month Scott Ritter / Wilkerson crossover now materialized from operator-pasted transcript.
+   URL: [https://www.youtube.com/watch?v=aBTVtOp3Xaw](https://www.youtube.com/watch?v=aBTVtOp3Xaw)
+
+4. [2025-09-17 - *Col. Larry Wilkerson: Middle East WARNING Ignites - Russia vs West DRAGS Everything into HELL*](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-17/transcript-dialogue-works-col-larry-wilkerson-middle-east-warning-ignites-russia-vs-west-drags-everything-into-hell-2025-09-17.md)
+   Status: `Dialogue Works` mid-month hinge now materialized from operator-pasted transcript.
+   URL: [https://www.youtube.com/watch?v=ghNe58JJqfg](https://www.youtube.com/watch?v=ghNe58JJqfg)
+
+5. [2025-09-05 - *Larry C. Johnson & Col. Larry Wilkerson: China, India & Russia Unite - Trump Left Out and FUMING!*](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-05/transcript-dialogue-works-larry-c-johnson-col-larry-wilkerson-china-india-russia-unite-trump-left-out-and-fuming-2025-09-05.md)
+   Status: `Dialogue Works` early-month Johnson / Wilkerson bridge now materialized from operator-pasted transcript.
+   URL: [https://www.youtube.com/watch?v=VFIk299GRH0](https://www.youtube.com/watch?v=VFIk299GRH0)
+
 ## Newly recovered high-value September 2025 YouTube watch URLs
 
-These are the strongest newly recovered long-form September watch URLs that deepen the month beyond the single file already on disk.
+This is the strongest remaining recovered long-form September watch URL that still deepens the month beyond the five files now on disk.
 
 1. `Col. Larry Wilkerson: The U.S. Is Falling Apart?! Shocking Warning Signs EVERYWHERE`
    URL: [https://www.youtube.com/watch?v=FcDcW7wTVsc](https://www.youtube.com/watch?v=FcDcW7wTVsc)
    Date status: primary repost evidence points to `2025-09-02`.
    Recovery basis: direct short YouTube URL quoted on a repost page; title/date corroborated by Acast and Project Avalon surfaces.
 
-2. `Larry C. Johnson & Col. Larry Wilkerson: China, India & Russia Unite — Trump Left Out and FUMING!`
-   URL: [https://www.youtube.com/watch?v=VFIk299GRH0](https://www.youtube.com/watch?v=VFIk299GRH0)
-   Date status: strong secondary episode pages and forum repost evidence point to `2025-09-05` to `2025-09-07`, with Acast carrying `2025-09-07`.
-   Recovery basis: direct YouTube watch ID quoted on Project Avalon; title/date corroborated by Acast and Amazon Music mirrors.
-
-3. `Col. Larry Wilkerson: Middle East WARNING Ignites - Russia vs West DRAGS Everything into HELL`
-   URL: [https://www.youtube.com/watch?v=ghNe58JJqfg](https://www.youtube.com/watch?v=ghNe58JJqfg)
-   Date status: strong secondary episode pages point to `2025-09-18`, while one repost surface reflects `2025-09-17`.
-   Recovery basis: direct YouTube watch ID quoted on Project Avalon; title/date corroborated by Acast and other podcast mirrors.
-
-4. `Scott Ritter & Col. Larry Wilkerson: Israel's DEAD END— Charlie Kirk— Iran & Russia vs NATO`
-   URL: [https://www.youtube.com/watch?v=aBTVtOp3Xaw](https://www.youtube.com/watch?v=aBTVtOp3Xaw)
-   Date status: repost evidence points to `2025-09-23`; Acast carries `2025-09-24`.
-   Recovery basis: direct short YouTube URL quoted on a repost page and independently corroborated by Project Avalon and Acast.
-
-5. `Larry C. Johnson & Larry Wilkerson: Charlie Kirk’s Story COLLAPSES – Is America Gearing Up for WAR?`
-   URL: [https://www.youtube.com/watch?v=gzhWSuNKFLI](https://www.youtube.com/watch?v=gzhWSuNKFLI)
-   Date status: repost evidence points to `2025-09-26`; Acast carries `2025-09-27`.
-   Recovery basis: direct short YouTube URL quoted on a repost page and corroborated by Acast plus Amazon Music mirrors.
-
 ## What September now proves
 
-September proves that the Wilkerson shelf did not go dormant after August. It dispersed into a thinner but still clearly active cross-host month.
+September proves that the Wilkerson shelf did not go dormant after August. It now reads as a genuinely structured month rather than a thin shelf with a few lucky hits: an early bridge, a Diesen anchor, and a three-file mid-to-late Dialogue Works escalation run.
 
 - `Dialogue Works` remains the dominant September recovery lane by a wide margin.
-- `Diesen` still supplies one clean September anchor on disk.
+- `Diesen` still supplies one clean September anchor on disk, and `Dialogue Works` now supplies a real September 5 / September 17 / September 23 / September 26 ladder around China-India-Russia realignment, Gaza, Charlie Kirk, Iran, and wider-war framing.
 - The recovered September corridor is saturated with themes of American retrenchment, collapsing alliance systems, Qatar / Gaza / Iran escalation, China-India-Russia realignment, and late-month Charlie Kirk / broader-war framing.
 - September now reads as a real bridge between the denser August crisis corridor and the much heavier October `Dialogue Works` continuation already visible elsewhere on the raw-input bench.
+- The September 5, September 17, September 23, and September 26 materializations prove that the month's strongest Dialogue Works corridor was not just URL-grade shelf evidence; it was transcript-bearing and worth landing directly.
 
 So the best bounded reading is:
 
-`September 2025 = a one-anchor on-disk month with a strong five-URL Dialogue Works recovery corridor around retrenchment, alliance fracture, Middle East escalation, and widening late-September systemic-war framing`
+`September 2025 = a five-anchor on-disk month with one remaining unrecovered-on-disk opener ahead of a now-materialized September 5 / 12 / 17 / 23 / 26 progression`
 
 ## Best next manual-input queue for September
 
-The month is now much clearer, but several September Wilkerson items still look worthwhile for transcript materialization or direct-ID closure.
+The month is now much clearer, but a smaller residue of September Wilkerson items still looks worthwhile for transcript materialization or direct-ID closure.
 
 1. `Col. Larry Wilkerson: The U.S. Is Falling Apart?! Shocking Warning Signs EVERYWHERE`
    Date status: `2025-09-02`.
    Why it matters: likely the clean opening move of the September `Dialogue Works` corridor.
    URL status: direct `watch?v=` recovered, but not transcript-materialized on disk.
 
-2. `Larry C. Johnson & Col. Larry Wilkerson: China, India & Russia Unite — Trump Left Out and FUMING!`
-   Date status: likely `2025-09-07` on the host shelf, with secondary reposting on `2025-09-05`.
-   Why it matters: likely the strongest early-September Johnson/Wilkerson bridge before the Diesen anchor.
-   URL status: direct `watch?v=` recovered, but not transcript-materialized on disk.
-
-3. `Col. Larry Wilkerson: The U.S. Is CRUMBLING?! Signs You Can’t Ignore!`
+2. `Col. Larry Wilkerson: The U.S. Is CRUMBLING?! Signs You Can't Ignore!`
    Date status: strong Acast evidence points to `2025-09-10`.
    Why it matters: likely the missing solo `Dialogue Works` midpoint immediately adjacent to the September 12 Diesen anchor.
    URL status: episode existence is strong, but direct `watch?v=` ID remains unrecovered.
 
-4. `COL. Lawrence Wilkerson : Ukraine Is Defeated`
+3. `COL. Lawrence Wilkerson : Ukraine Is Defeated`
    Date status: strong secondary reporting points to `2025-09-18`.
-   Why it matters: likely the missing September `Judging Freedom` bridge that overlaps the mid-month retrenchment / collapse register.
+   Why it matters: likely the missing September `Judging Freedom` bridge that overlaps the now-materialized September 17 `Dialogue Works` hinge and the late-month September 23 / September 26 pair.
    URL status: episode existence is strong, but direct `watch?v=` ID remains unrecovered.
 
-5. `COL. Lawrence Wilkerson : Netanyahu Controls Trump`
+4. `COL. Lawrence Wilkerson : Netanyahu Controls Trump`
    Date status: strong podcast indexing points to `2025-09-25`.
-   Why it matters: likely the strongest late-September `Judging Freedom` continuation adjacent to the September 24 and September 27 `Dialogue Works` recoveries.
+   Why it matters: likely the strongest late-September `Judging Freedom` continuation adjacent to the now-materialized September 23 and September 26 `Dialogue Works` pair.
    URL status: episode existence is strong, but direct `watch?v=` ID remains unrecovered.
 
 ## Limits
 
-- September 2025 is still extremely thin on disk: only one Wilkerson September capture is currently materialized.
+- September 2025 is still thinner than August on disk: five Wilkerson September captures are currently materialized.
 - The recovered September shape depends heavily on secondary episode pages, repost pages, and forum repost evidence rather than primary host transcripts.
 - Several recovered September `Dialogue Works` items carry small date-surface ambiguity between repost date and host-podcast date.
 - The month still lacks direct-ID closure for at least one strong mid-September solo `Dialogue Works` item and two strong late-September `Judging Freedom` items.

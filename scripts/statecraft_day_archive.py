@@ -260,6 +260,31 @@ def summarize_day_dir(day_dir: Path, *, has_readme: bool | None = None, readme_p
     )
 
 
+def iter_all_day_dirs(root: Path) -> list[Path]:
+    return sorted(
+        [
+            path
+            for path in root.iterdir()
+            if path.is_dir() and len(path.name) == 10 and path.name[4] == "-" and path.name[7] == "-"
+        ],
+        key=lambda path: path.name,
+    )
+
+
+def select_day_dirs(
+    root: Path,
+    year: str | None = None,
+    from_day: str | None = None,
+    to_day: str | None = None,
+) -> list[Path]:
+    day_dirs = iter_day_dirs(root, year) if year else iter_all_day_dirs(root)
+    if from_day:
+        day_dirs = [path for path in day_dirs if path.name >= from_day]
+    if to_day:
+        day_dirs = [path for path in day_dirs if path.name <= to_day]
+    return day_dirs
+
+
 def fmt_counter(counter: Counter[str]) -> str:
     if not counter:
         return "(none)"
@@ -388,3 +413,10 @@ def parse_day_readme(day_dir: Path) -> DaySummary | None:
         has_readme=True,
         readme_parse_ok=True,
     )
+
+
+def load_day_summary(day_dir: Path) -> DaySummary:
+    parsed = parse_day_readme(day_dir)
+    if parsed is not None:
+        return parsed
+    return summarize_day_dir(day_dir, has_readme=(day_dir / "README.md").is_file(), readme_parse_ok=False)

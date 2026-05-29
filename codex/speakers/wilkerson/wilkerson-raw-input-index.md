@@ -71,13 +71,24 @@ Short rule:
 
 ## 2025-09
 
+- [transcript-dialogue-works-larry-c-johnson-col-larry-wilkerson-china-india-russia-unite-trump-left-out-and-fuming-2025-09-05](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-05/transcript-dialogue-works-larry-c-johnson-col-larry-wilkerson-china-india-russia-unite-trump-left-out-and-fuming-2025-09-05.md)
+- [transcript-dialogue-works-col-larry-wilkerson-middle-east-warning-ignites-russia-vs-west-drags-everything-into-hell-2025-09-17](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-17/transcript-dialogue-works-col-larry-wilkerson-middle-east-warning-ignites-russia-vs-west-drags-everything-into-hell-2025-09-17.md)
+- [transcript-dialogue-works-scott-ritter-col-larry-wilkerson-israels-dead-end-charlie-kirk-iran-russia-vs-nato-2025-09-23](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-23/transcript-dialogue-works-scott-ritter-col-larry-wilkerson-israels-dead-end-charlie-kirk-iran-russia-vs-nato-2025-09-23.md)
+- [transcript-dialogue-works-larry-c-johnson-larry-wilkerson-charlie-kirks-story-collapses-is-america-gearing-up-for-war-2025-09-26](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-26/transcript-dialogue-works-larry-c-johnson-larry-wilkerson-charlie-kirks-story-collapses-is-america-gearing-up-for-war-2025-09-26.md)
 - [youtube-glenn-diesen-lawrence-wilkerson-lawrence-wilkerson-america-is-retrenching-and-alliances-fall-apart-2025-09-12](../../years/2026/provenance/2025-09-12/youtube-glenn-diesen-lawrence-wilkerson-lawrence-wilkerson-america-is-retrenching-and-alliances-fall-apart-2025-09-12.md)
 
 ## 2025-10
 
-- [transcript-dialogue-works-lawrence-wilkerson-col-larry-wilkerson-warning-signs-is-the-united-states-on-the-path-to-disaster-2025-10-01](../../years/2026/provenance/2025-10-01/transcript-dialogue-works-lawrence-wilkerson-col-larry-wilkerson-warning-signs-is-the-united-states-on-the-path-to-disaster-2025-10-01.md)
-- [youtube-glenn-diesen-lawrence-wilkerson-lawrence-wilkerson-the-path-from-forever-wars-to-nuclear-war-2025-10-10](../../years/2026/provenance/2025-10-10/youtube-glenn-diesen-lawrence-wilkerson-lawrence-wilkerson-the-path-from-forever-wars-to-nuclear-war-2025-10-10.md)
-- [transcript-dialogue-works-lawrence-wilkerson-col-larry-wilkerson-the-iran-war-threat-returns-but-iran-has-transformed-into-a-military-giant-2025-10-14](../../years/2026/provenance/2025-10-14/transcript-dialogue-works-lawrence-wilkerson-col-larry-wilkerson-the-iran-war-threat-returns-but-iran-has-transformed-into-a-military-giant-2025-10-14.md)
+- [transcript-dialogue-works-lawrence-wilkerson-col-larry-wilkerson-warning-signs-is-the-united-states-on-the-path-to-disaster-2025-10-01](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-01/transcript-dialogue-works-lawrence-wilkerson-col-larry-wilkerson-warning-signs-is-the-united-states-on-the-path-to-disaster-2025-10-01.md)
+- [transcript-dialogue-works-larry-c-johnson-col-larry-wilkerson-charlie-kirk-update-iran-war-fallout-putin-ignores-trump-2025-10-03](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-03/transcript-dialogue-works-larry-c-johnson-col-larry-wilkerson-charlie-kirk-update-iran-war-fallout-putin-ignores-trump-2025-10-03.md)
+- [transcript-dialogue-works-col-larry-wilkerson-october-7th-aftermath-israels-worst-defeat-in-history-2025-10-07](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-07/transcript-dialogue-works-col-larry-wilkerson-october-7th-aftermath-israels-worst-defeat-in-history-2025-10-07.md)
+- [transcript-napolitano-wilkerson-us-war-on-iran-is-imminent-2025-10-09](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-09/transcript-napolitano-wilkerson-us-war-on-iran-is-imminent-2025-10-09.md)
+- [youtube-glenn-diesen-lawrence-wilkerson-lawrence-wilkerson-the-path-from-forever-wars-to-nuclear-war-2025-10-10](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-10/youtube-glenn-diesen-lawrence-wilkerson-lawrence-wilkerson-the-path-from-forever-wars-to-nuclear-war-2025-10-10.md)
+- [transcript-dialogue-works-lawrence-wilkerson-col-larry-wilkerson-the-iran-war-threat-returns-but-iran-has-transformed-into-a-military-giant-2025-10-14](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-14/transcript-dialogue-works-lawrence-wilkerson-col-larry-wilkerson-the-iran-war-threat-returns-but-iran-has-transformed-into-a-military-giant-2025-10-14.md)
+- [transcript-dialogue-works-larry-c-johnson-col-larry-wilkerson-russia-and-iran-are-building-a-war-shield-2025-10-17](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-17/transcript-dialogue-works-larry-c-johnson-col-larry-wilkerson-russia-and-iran-are-building-a-war-shield-2025-10-17.md)
+- [transcript-dialogue-works-col-larry-wilkerson-every-warning-sign-is-flashing-red-the-us-cant-escape-this-2025-10-21](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-21/transcript-dialogue-works-col-larry-wilkerson-every-warning-sign-is-flashing-red-the-us-cant-escape-this-2025-10-21.md)
+- [transcript-napolitano-wilkerson-what-ceasefire-2025-10-23](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-23/transcript-napolitano-wilkerson-what-ceasefire-2025-10-23.md)
+- [transcript-dialogue-works-larry-c-johnson-col-larry-wilkerson-the-world-is-on-the-brink-of-world-war-iii-2025-10-24](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-24/transcript-dialogue-works-larry-c-johnson-col-larry-wilkerson-the-world-is-on-the-brink-of-world-war-iii-2025-10-24.md)
 
 ## 2025-11
 
@@ -131,6 +142,7 @@ Short rule:
 - [youtube-wilkerson-mario-nawfal-heated-arguments-in-white-house-2026-05-20](../../years/2026/provenance/2026-05-20/youtube-wilkerson-mario-nawfal-heated-arguments-in-white-house-2026-05-20.md)
 - [transcript-dialogue-works-larry-johnson-col-wilkerson-irans-unseen-move-us-laser-destroyers-cant-stop-whats-coming-2026-05-22](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-22/transcript-dialogue-works-larry-johnson-col-wilkerson-irans-unseen-move-us-laser-destroyers-cant-stop-whats-coming-2026-05-22.md)
 - [youtube-glenn-diesen-lawrence-wilkerson-failing-to-adjust-to-a-multipolar-world-2026-05-26](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/youtube-glenn-diesen-lawrence-wilkerson-failing-to-adjust-to-a-multipolar-world-2026-05-26.md)
+- [transcript-napolitano-wilkerson-what-remains-of-international-law-2026-05-28](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/transcript-napolitano-wilkerson-what-remains-of-international-law-2026-05-28.md)
 
 ## Discovery Surfaces
 

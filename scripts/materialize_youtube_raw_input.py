@@ -25,6 +25,9 @@ if str(SCRIPTS_DIR) not in sys.path:
 from yaml_compat import safe_dump, safe_load_text  # noqa: E402
 import build_speaker_memory_actions as speaker_actions  # noqa: E402
 import build_speaker_routing_queue as speaker_routing  # noqa: E402
+import build_statecraft_archive_navigation as statecraft_archive_navigation  # noqa: E402
+import build_statecraft_day_indices as statecraft_day_indices  # noqa: E402
+import build_statecraft_month_indices as statecraft_month_indices  # noqa: E402
 import host_shelf_quality  # noqa: E402
 import raw_input_master_index  # noqa: E402
 from youtube_transcripts.discovery import extract_video_id  # noqa: E402
@@ -1208,15 +1211,58 @@ def write_receipts(
     return paths
 
 
-def build_master_index_artifacts(*, notebook_root: Path) -> dict[str, str]:
+def build_master_index_artifacts(*, notebook_root: Path, raw_paths: list[Path] | None = None) -> dict[str, str]:
     raw_root = notebook_root
-    written = raw_input_master_index.write_outputs(raw_root)
-    return {
+    output_root = notebook_root.parent.parent / "statecraft" / "sheets"
+    written = raw_input_master_index.write_outputs(raw_root, output_root=output_root)
+    artifact_paths = {
         "raw_input_master_index_markdown": str(written["markdown"]),
         "raw_input_master_index_json": str(written["json"]),
         "raw_input_index_audit_markdown": str(written["audit_markdown"]),
         "raw_input_index_audit_json": str(written["audit_json"]),
     }
+    touched_day_dirs = sorted(
+        {
+            path.parent.resolve()
+            for path in (raw_paths or [])
+            if path.parent.is_dir() and len(path.parent.name) == 10 and path.parent.name[4] == "-" and path.parent.name[7] == "-"
+        },
+        key=lambda path: path.name,
+    )
+    touched_months = sorted({day_dir.name[:7] for day_dir in touched_day_dirs})
+    touched_years = sorted({day_dir.name[:4] for day_dir in touched_day_dirs})
+
+    for day_dir in touched_day_dirs:
+        out_path, _ = statecraft_day_indices.write_day_index(day_dir)
+        artifact_paths[f"statecraft_day_index_{day_dir.name}"] = str(out_path)
+
+    for month in touched_months:
+        year = month[:4]
+        month_groups = statecraft_month_indices.group_day_dirs_by_month(raw_root, year)
+        day_dirs = month_groups.get(month)
+        if not day_dirs:
+            continue
+        out_path, _ = statecraft_month_indices.write_month_index(raw_root, month, day_dirs)
+        artifact_paths[f"statecraft_month_index_{month}"] = str(out_path)
+
+    for year in touched_years:
+        out_path, _ = statecraft_archive_navigation.write_rendered(
+            raw_root / f"{year}.md",
+            statecraft_archive_navigation.build_year_index(raw_root, year),
+        )
+        artifact_paths[f"statecraft_year_index_{year}"] = str(out_path)
+
+    thread_path, _ = statecraft_archive_navigation.write_rendered(
+        raw_root / "thread-index.md",
+        statecraft_archive_navigation.build_thread_index(raw_root),
+    )
+    audit_path, _ = statecraft_archive_navigation.write_rendered(
+        raw_root / "stale-index-audit.md",
+        statecraft_archive_navigation.build_stale_index_audit(raw_root),
+    )
+    artifact_paths["statecraft_thread_index_markdown"] = str(thread_path)
+    artifact_paths["statecraft_stale_index_audit_markdown"] = str(audit_path)
+    return artifact_paths
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -1311,6 +1357,7 @@ def main(argv: list[str] | None = None) -> int:
         artifact_paths.update(
             build_master_index_artifacts(
                 notebook_root=args.notebook_root.resolve(),
+                raw_paths=successful_paths,
             )
         )
     paths = write_receipts(

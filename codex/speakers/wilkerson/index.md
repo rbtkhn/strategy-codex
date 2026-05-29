@@ -33,6 +33,7 @@ The orthogonality-bearing structure on this shelf is:
 - [July 2025 note](../../../speakers/wilkerson/wilkerson-july-2025-note.md)
 - [August 2025 note](../../../speakers/wilkerson/wilkerson-august-2025-note.md)
 - [September 2025 note](../../../speakers/wilkerson/wilkerson-september-2025-note.md)
+- [October 2025 note](../../../speakers/wilkerson/wilkerson-october-2025-note.md)
 
 ## Main Host Arcs
 

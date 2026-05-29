@@ -1,8 +1,11 @@
 ---
 title: "Col. Larry Wilkerson: The Iran War Threat RETURNS — But Iran Has Transformed into a Military Giant!"
+show: Dialogue Works
 host: Nima Alkhorshid
 guest: Col. Larry Wilkerson
+pub_date: 2025-10-14
 date: 2025-10-14
+kind: transcript
 thread: nima
 source_url: https://www.youtube.com/watch?v=1mFJ1TDGMcU
 source_type: youtube-auto-captions

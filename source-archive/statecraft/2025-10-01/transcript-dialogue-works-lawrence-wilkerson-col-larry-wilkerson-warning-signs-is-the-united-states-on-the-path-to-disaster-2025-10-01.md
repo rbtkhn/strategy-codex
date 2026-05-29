@@ -1,8 +1,11 @@
 ---
 title: "Col. Larry Wilkerson: Warning Signs: Is the United States on the Path to Disaster?"
-host: Dialogue Works
+show: Dialogue Works
+host: Nima Alkhorshid
 guest: Col. Larry Wilkerson
+pub_date: 2025-10-01
 date: 2025-10-01
+kind: transcript
 thread: nima
 source_url: https://www.youtube.com/watch?v=hlrP9H9GN6U
 source_type: youtube-auto-captions

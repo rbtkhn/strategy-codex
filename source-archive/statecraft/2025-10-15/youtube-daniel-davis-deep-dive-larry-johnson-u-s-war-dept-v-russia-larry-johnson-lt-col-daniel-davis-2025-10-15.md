@@ -1,8 +1,11 @@
 ---
 title: "U.S. War Dept v. Russia /Larry Johnson & Lt Col Daniel Davis"
+show: Daniel Davis Deep Dive
 host: Daniel Davis / Deep Dive
 guest: Larry Johnson
+pub_date: 2025-10-15
 date: 2025-10-15
+kind: transcript
 thread: davis
 source_url: https://www.youtube.com/watch?v=1YWkIkYJYno
 source_type: youtube-auto-captions
