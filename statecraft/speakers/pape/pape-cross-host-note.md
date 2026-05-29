@@ -14,6 +14,7 @@ Pape is not only a native authored stream. There are real cross-host appearances
 - [2026-05-12 Mario Nawfal x Pape](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-12/youtube-pape-mario-nawfal-trump-s-next-iran-steps-revealed-2026-05-12.md)
 - [2026-05-20 Mario Nawfal x Pape](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-20/youtube-pape-mario-nawfal-iran-warns-u-s-of-surprises-xi-putin-meet-in-beijing-2026-05-20.md)
 - [2026-05-27 Breaking Points x Pape](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-27/youtube-pape-breaking-points-iran-drivers-seat-shocking-deal-emerges-2026-05-27.md)
+- [2026-05-28 Switzerland with Tom Switzer x Pape](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/youtube-pape-switzer-the-mirage-of-peace-2026-05-28.md)
 
 That matters because the same mechanism voice survives translation into public host environments.
 

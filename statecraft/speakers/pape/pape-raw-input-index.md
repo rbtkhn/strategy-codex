@@ -50,6 +50,7 @@ Purpose: route map for the materialized Pape corpus in `source-archive/statecraf
 - [2026-05-12 Mario Nawfal x Pape - Trump's Next Iran Steps Revealed](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-12/youtube-pape-mario-nawfal-trump-s-next-iran-steps-revealed-2026-05-12.md)
 - [2026-05-20 Mario Nawfal x Pape - Iran Warns U.S. of 'Surprises'; Xi, Putin Meet in Beijing](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-20/youtube-pape-mario-nawfal-iran-warns-u-s-of-surprises-xi-putin-meet-in-beijing-2026-05-20.md)
 - [2026-05-27 Breaking Points x Pape - Prof Pape: Iran IN DRIVERS SEAT As SHOCKING Deal Emerges](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-27/youtube-pape-breaking-points-iran-drivers-seat-shocking-deal-emerges-2026-05-27.md)
+- [2026-05-28 Switzerland with Tom Switzer x Pape - The mirage of peace](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/youtube-pape-switzer-the-mirage-of-peace-2026-05-28.md)
 
 ## Support-Tier Bench
 

@@ -16,6 +16,7 @@ The generated speaker dashboard currently shows Robert Barnes as a live statecra
 For shelf purposes, the Barnes corpus now divides into:
 
 - **primary guest corpus:** full or transcript-bearing Barnes guest captures under Davis, The Duran, and Dialogue Works
+- **public-pressure reinforcement:** fast-turn host environments where Barnes translates war, lobbying, and domestic-liability claims into mass-audience political language
 - **support-tier Barnes-adjacent captures:** Johnson verbatim/support files and Barnes X-post residue that help routing but do not by themselves define a mature host-local branch
 
 ## Primary guest corpus
@@ -44,6 +45,12 @@ Thin but meaningful late-stage reinforcement. This required source is part of th
 
 - [2026-05-26 - transcript - Robert Barnes: US-Iran FINAL Confrontation as Russia Drops HEAVIEST Strikes on Ukraine Yet](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/transcript-alkorshid-barnes-us-iran-final-confrontation-as-russia-drops-heaviest-strikes-on-ukraine-yet-2026-05-26.md)
 
+### Mario Nawfal x Barnes
+
+Public-pressure reinforcement. Useful when the notebook needs Barnes in mass-audience electoral, corruption, or Israel-lobby pressure mode rather than a mature host-local lane.
+
+- [2026-05-28 - transcript - Reports: IRAN ATTACKS U.S. SHIPS - w/ Political Analyst Robert Barnes](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/youtube-barnes-mario-nawfal-reports-iran-attacks-u-s-ships-2026-05-28.md)
+
 ## Support-tier Barnes-adjacent captures
 
 ### Johnson / Countercurrent domestic-process support
@@ -65,9 +72,11 @@ Helpful as pressure-cluster residue and exit-ramp signal, but not part of the pr
 - **Best mature lane:** [Davis host shelf](/C:/dev/strategy-codex/statecraft/hosts/davis/README.md)
 - **Best non-Davis lane:** [2026-04-23 / Mercouris x Barnes](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-23/transcript-mercouris-barnes-fractured-iran-trump-2026-04-23.md)
 - **Best late-May reinforcement:** [2026-05-26 / Nima x Barnes](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/transcript-alkorshid-barnes-us-iran-final-confrontation-as-russia-drops-heaviest-strikes-on-ukraine-yet-2026-05-26.md)
+- **Best fast public-pressure entry:** [2026-05-28 / Mario Nawfal x Barnes](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/youtube-barnes-mario-nawfal-reports-iran-attacks-u-s-ships-2026-05-28.md)
 
 ## Boundary
 
 - The primary guest corpus defines the Barnes object.
+- The public-pressure reinforcement branch is real, but it is not yet a co-equal mature host lane.
 - The support-tier captures widen routing confidence but do not create a new mature lane by themselves.
 - The May 26 Nima source is primary-corpus evidence.

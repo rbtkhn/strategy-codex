@@ -25,6 +25,12 @@ Purpose: route Pape's host appearances by function and show how they reinforce, 
 | 2026-04-29 | Why a Nuclear Iran Is Inevitable | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-29/youtube-pape-grim-nuclear-iran-inevitable-2026-04-29.md) | fourth-center thesis and U.S. loss of control |
 | 2026-05-27 | Prof Pape: Iran IN DRIVERS SEAT As SHOCKING Deal Emerges | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-27/youtube-pape-breaking-points-iran-drivers-seat-shocking-deal-emerges-2026-05-27.md) | oil-price negotiation compression, escalation-trap politics, and public deal framing |
 
+### Switzerland with Tom Switzer
+
+| date | title | raw-input | function |
+|---|---|---|---|
+| 2026-05-28 | The mirage of peace | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/youtube-pape-switzer-the-mirage-of-peace-2026-05-28.md) | escalation-trap theory translated into allied-audience grand-strategy, post-American-order framing, and domestic-fracture explanation |
+
 ### Mario Nawfal
 
 | date | title | raw-input | function |

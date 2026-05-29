@@ -35,6 +35,7 @@ The real hierarchy on disk is:
 - [Davis host shelf](/C:/dev/strategy-codex/statecraft/hosts/davis/README.md) is the clearest mature Barnes host entry.
 - `Mercouris x Barnes` is a real reinforcing lane with January, March, and April guest captures.
 - `Nima x Barnes` is still thin, but the May 26, 2026 Dialogue Works appearance is strong enough to matter as a late-stage reinforcing entry, not just an appendix.
+- `Mario Nawfal x Barnes` is now a real public-pressure reinforcement branch: useful for mass-audience translation of lobby, corruption, and electoral-liability claims, but not yet a mature host-local Barnes lane.
 - `Johnson x Barnes` currently exists as useful support-tier domestic-process residue, not as a co-equal mature host-local Barnes strand.
 
 ## Compatibility Shape
@@ -50,6 +51,7 @@ The legacy `codex/speakers/barnes/` path is now front-door compatibility only.
 - [Davis host shelf](/C:/dev/strategy-codex/statecraft/hosts/davis/README.md)
 - [Mercouris x Barnes](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-23/transcript-mercouris-barnes-fractured-iran-trump-2026-04-23.md)
 - [Nima x Barnes](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/transcript-alkorshid-barnes-us-iran-final-confrontation-as-russia-drops-heaviest-strikes-on-ukraine-yet-2026-05-26.md)
+- [Mario Nawfal x Barnes](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/youtube-barnes-mario-nawfal-reports-iran-attacks-u-s-ships-2026-05-28.md)
 - [Johnson x Barnes support](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-17/barnes-countercurrent-2026-04-17-verbatim.md)
 
 ## Boundary

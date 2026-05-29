@@ -56,3 +56,4 @@ Open another lane first in those cases, such as:
 - If the question is instead `who authorizes, who pays, or who politically survives on the U.S. side`, open the [Barnes shelf](/C:/dev/strategy-codex/statecraft/speakers/barnes/README.md) first.
 - If the question is direct readout comparison or stream-native non-Iranian escalation interpretation, open the [Mercouris shelf](/C:/dev/strategy-codex/statecraft/speakers/mercouris/README.md) first.
 - The May 26 file is a real mature-cluster Marandi entry point, not just a late appendix.
+- The May 28 Judging Freedom capture is useful as support-tier U.S.-audience translation of the Marandi line, but it does not displace the three-host mature core or the Dialogue Works default first-open rule.

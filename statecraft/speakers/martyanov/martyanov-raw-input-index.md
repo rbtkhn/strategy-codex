@@ -44,6 +44,7 @@ Purpose: provide the canonical route map for materialized Martyanov appearances 
 - [2026-05-07 - Iran's silent weapon](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-07/transcript-alkorshid-martyanov-iran-silent-weapon-that-frightens-the-pentagon-more-than-nukes-2026-05-07.md)
 - [2026-05-14 - Iran and Russia just changed war forever](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-14/transcript-dialogue-works-andrei-martyanov-iran-and-russia-just-changed-war-forever-here-s-how-2026-05-14.md)
 - [2026-05-21 - Hezbollah annihilates air defense](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-21/transcript-dialogue-works-andrei-martyanov-hezbollah-annihilates-air-defense-its-all-blowing-up-2026-05-21.md)
+- [2026-05-28 - Hezbollah hits IDF, US & Iran fight... and Russia picked that moment to strike](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/transcript-dialogue-works-andrei-martyanov-hezbollah-hits-idf-us-iran-fight-and-russia-picked-that-moment-to-strike-2026-05-28.md)
 
 ## Resolved 2025 Dialogue Works Bench
 

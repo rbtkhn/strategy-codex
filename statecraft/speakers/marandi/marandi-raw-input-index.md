@@ -83,6 +83,7 @@ Operational-limit and failed-intimidation lane.
 
 Useful for auditability or nearby continuity, but not shelf-defining:
 
+- [2026-05-28 - Judging Freedom x Marandi](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/transcript-napolitano-marandi-from-tehran-should-iran-trust-trump-2026-05-28.md)
 - [2026-04-16 - transcript-marandi shorthand](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-16/transcript-marandi.md)
 - [2026-04-17 - transcript-marandi shorthand](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-17/transcript-marandi.md)
 - [2026-04-18 - transcript-marandi shorthand](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-18/transcript-marandi.md)
@@ -94,6 +95,7 @@ Useful for auditability or nearby continuity, but not shelf-defining:
 - **Best strategic-altitude lane:** [Diesen x Marandi](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-marandi-speaker-arc.md)
 - **Best operational-limit lane:** [Davis host shelf](/C:/dev/strategy-codex/statecraft/hosts/davis/README.md)
 - **Best late-May reinforcement and mature-cluster endpoint:** [2026-05-26 / Dialogue Works x Marandi](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/transcript-alkorshid-marandi-iran-opens-fire-on-american-fighter-jets-2026-05-26.md)
+- **Best support-tier U.S.-audience translation:** [2026-05-28 / Judging Freedom x Marandi](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/transcript-napolitano-marandi-from-tehran-should-iran-trust-trump-2026-05-28.md)
 
 ## Boundary
 
