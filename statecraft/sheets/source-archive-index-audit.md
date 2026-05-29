@@ -2,7 +2,9 @@
 
 Generated: `2026-05-24T17:07:51Z`
 
-WORK only; not Record. This is a heuristic audit over raw-input and speaker routing surfaces.
+WORK only; not Record. This is a heuristic audit over the secondary source-archive analytic layer and speaker routing surfaces.
+
+Navigation rule: canonical browsing now lives at `source-archive/statecraft/` via the generated day, month, year, thread, and stale-audit indices. This audit remains an analytic helper, not the primary navigation surface.
 
 ## Summary
 

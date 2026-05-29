@@ -163,4 +163,5 @@ def test_stale_index_audit_marks_ok_stale_and_missing(tmp_path: Path) -> None:
     assert "| `2026-05-27` | `stale` |" in rendered
     assert "| `2026-05-28` | `missing` |" in rendered
     assert "- Month indices: `ok` (1)" in rendered
-    assert "- Year indi
+    assert "- Year indices: `ok` (1)" in rendered
+    assert "- Thread index: `ok`" in rendered

@@ -2,9 +2,11 @@
 
 Generated: `2026-05-24 17:07:48Z`
 
-WORK only; not Record. This file is generated from the on-disk raw-input tree.
+WORK only; not Record. This file is generated from the on-disk source-archive tree.
 
-Authority rule: the dated raw-input folders remain authoritative; this index is the durable route map over that tree.
+Authority rule: the dated source-archive folders remain authoritative.
+
+Navigation rule: this is a secondary analytic rollup. Canonical archive navigation now lives at `source-archive/statecraft/` via the generated day, month, year, thread, and stale-audit indices.
 
 ## Scope
 
