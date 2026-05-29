@@ -63,7 +63,7 @@ The imperial tragedy is not simple decadence. It is that the very success of Rom
 
 ## Present Imperial Instrument
 
-The present Roman imperial instrument is not a restored territorial empire. It is the `residue machinery of Roman universal order`: legal form, institutional hierarchy, canonical universality, and successor-order memory carried most visibly through Byzantine bridgework and later Catholic residue.
+The present Roman imperial instrument is not a restored territorial empire. It is the `residue machinery of Roman universal order`: legal form, institutional hierarchy, canonical universality, and successor-order memory carried most visibly through Eastern Roman bridgework and later Catholic residue.
 
 ## Boundary Rules
 

@@ -2,9 +2,9 @@
 
 WORK only; not Record.
 
-Rome is currently a CIV-STATE source-memory volume rather than a full repo-root lane peer. Use it when the live object needs Roman republic/empire formation, late-imperial breakdown, Christian and Byzantine continuity, papal residue, or successor-order comparison.
+Rome is currently a CIV-STATE source-memory volume rather than a full repo-root lane peer. Use it when the live object needs Roman republic/empire formation, late-imperial breakdown, Christian and Eastern Roman continuity, papal residue, or successor-order comparison.
 
-Rome is presented here as a strong but transformed civilization-state case: not one uninterrupted territorial state, but a sovereignty chain mutating from city-foundation to republic, empire, Byzantine continuation, and Catholic residue. Romulus is the foundational sovereign of the chain; Aeneas and Troy remain mythic prehistory beneath it. Byzantium is the indispensable continuity state without which the Roman chain becomes falsely discontinuous, and the Catholic Church is the clearest surviving residue-carrier.
+Rome is presented here as a strong but transformed civilization-state case: not one uninterrupted territorial state, but a sovereignty chain mutating from city-foundation to republic, empire, Eastern Roman continuation, and Catholic residue. Romulus is the foundational sovereign of the chain; Aeneas and Troy remain mythic prehistory beneath it. The Eastern Roman Empire is the indispensable continuity state without which the Roman chain becomes falsely discontinuous, and the Catholic Church is the clearest surviving residue-carrier.
 
 This volume should therefore be read as one Roman sovereignty claim moving through transformed carriers across the era spine, not as five disconnected Roman afterlives.
 
@@ -23,13 +23,13 @@ Primary source base: [Rome source corpus](../../../../research/repos/civilizatio
 - Geo-strategy chapter: [Rome geo-strategy](geo-strategy-rome.md)
 - Secret-history chapter: [Rome secret-history](secret-history-rome.md)
 - Game-theory chapter: [Rome game-theory](game-theory-rome.md)
-- Continuity state: Byzantium as the indispensable continuity state
+- Continuity state: Eastern Roman Empire as the indispensable continuity state
 
 **Civilization-State Diagnostic**
 - Civilization-state claim: strong but transformed civilization-state whose continuity survives through mutation rather than one unbroken territorial state
 - Sovereignty chain: `Romulus -> Pope Leo XIV`
 - Sacred / civilizational grammar: Roman law, citizenship, imperial universality, Christianity, and later papal residue
-- Current carrier: Catholic Church as the clearest surviving residue, with Byzantium as the indispensable bridge
+- Current carrier: Catholic Church as the clearest surviving residue, with the Eastern Roman Empire as the indispensable bridge
 - Failure mode: Rome is misread either as dead antiquity or as nostalgia detached from actual continuity carriers
 - Statecraft relevance: teaches how sovereignty can survive through transformed institutions, legal residue, church continuity, and successor-order memory
 
@@ -53,7 +53,7 @@ Best current carriers:
 
 ## Medieval
 
-- Sovereignty form: Christianized empire and Byzantine continuation
+- Sovereignty form: Christianized empire and Eastern Roman continuation
 - Civilizational grammar: imperial Christianity, Constantinople, doctrinal universality, and church-bearing continuity
 - Rupture or mutation: the center moves and the chain transforms, but Rome does not simply disappear after the western fall
 Best current carriers:

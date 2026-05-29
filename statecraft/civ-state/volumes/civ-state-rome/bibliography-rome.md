@@ -8,8 +8,8 @@ Use it to retrieve Rome as a transformed continuity case:
 
 - republic to empire
 - empire to Christian universality
-- Christian empire to Byzantine continuity
-- Byzantine continuity to papal residue
+- Christian empire to Eastern Roman continuity
+- Eastern Roman continuity to papal residue
 - residue to present successor-order comparison
 
 ## Primary Sources
@@ -77,17 +77,71 @@ Ancient retrieval priority:
 
 ### Medieval
 
+Eastern Roman Empire and Constantinopolitan continuity:
+
+- Procopius, *Wars*
+- Procopius, *Secret History*
 - The *Corpus Juris Civilis*
-- Eusebius and late-imperial Christian historical framing where Roman-Christian universality becomes explicit
-- Major conciliar texts bearing Roman-Christian continuity
-- Byzantine imperial texts where Roman sovereignty clearly survives in eastern form
-- Justinianic and post-Justinianic materials where restoration, codification, and imperial Christianity carry the chain
-- Byzantine ecclesial and legal texts where Constantinople and Christian empire remain recognizably Roman
+- Strategikon traditionally attributed to Maurice
+- Theophanes the Confessor, *Chronographia*
+- Anna Komnene, *Alexiad*
+- Constantine VII Porphyrogenitus, *De Administrando Imperio*
+- Constantine VII Porphyrogenitus, *De Ceremoniis*
+- Leo VI, *Tactica*
+- Niketas Choniates, *Historia*, as the major 1204 witness
+- George Sphrantzes, *Chronicle*, as the major 1453 witness
+
+Roman-Christian universality and conciliar continuity:
+
+- Augustine, *City of God*
+- Boethius, *Consolation of Philosophy*
+- Acts and canons of Nicaea
+- Acts and canons of Chalcedon
+- Pseudo-Isidorean decretals as part of the medieval jurisdictional field
+- Gratian, *Decretum*
+- Boniface VIII, *Unam Sanctam*
+
+Italian city-states and Roman civic residue:
+
+- Venetian promissione and constitutional materials
+- Giovanni Villani, *Nuova Cronica*
+- Dante, *De Monarchia*
+- Dante, *Divine Comedy*
+- Marco Polo, *Il Milione* / *Travels*
+- Italian communal statutes where Roman law, urban self-rule, and imperial residue are reworked in civic form
+
+Holy Roman Empire and transalpine Roman claim:
+
+- Einhard, *Life of Charlemagne*
+- Imperial coronation and renovatio texts from the Carolingian and Ottonian worlds
+- Gregory VII, *Dictatus Papae*
+- Frederick II, *Liber Augustalis* / *Constitutions of Melfi*
+- Golden Bull of 1356
+- Sachsenspiegel where imperial and legal order become regionally legible within the Roman field
+
+France and Capetian / post-Carolingian successor-order formation:
+
+- Capetian coronation ordines
+- Suger of Saint-Denis, *Life of Louis VI*
+- Joinville, *Life of Saint Louis*
+- Beaumanoir, *Coutumes de Beauvaisis*
+
+Iberian kingdoms and frontier Christendom:
+
+- Visigothic legal residue, especially the *Liber Iudiciorum* / *Fuero Juzgo*
+- *Usatges de Barcelona*
+- Alfonso X, *Siete Partidas*
+- Reconquista chronicles and frontier-political texts where Christian monarchy, legal order, and Roman residue are recombined
+- *Chronica Adefonsi Imperatoris*
+- James I of Aragon, *Llibre dels Fets*
 
 Medieval retrieval priority:
 - Christianization without false civilizational death
-- Byzantium as continuity state rather than appendix
+- the Eastern Roman Empire as continuity state rather than appendix
 - law, liturgy, and imperial universality under transformed carriers
+- papacy and empire as rival Roman claimants
+- Italian civic residue without losing the imperial frame
+- France and Iberia as successor-order adaptations rather than simply non-Roman outsiders
 
 ### Colonial
 
@@ -129,8 +183,8 @@ Cybernetic retrieval priority:
 
 ## Secondary and Interpretive Supports
 
-- Bounded classical, late-antique, Byzantine, papal, and ecclesial scholarship clarifying transformed continuity rather than treating Rome as a sealed antiquity
-- Focused works on republic-to-empire conversion, Christianization, Byzantine continuity, papal residue, and successor-order comparison
+- Bounded classical, late-antique, Eastern Roman, papal, and ecclesial scholarship clarifying transformed continuity rather than treating Rome as a sealed antiquity
+- Focused works on republic-to-empire conversion, Christianization, Eastern Roman continuity, papal residue, and successor-order comparison
 - Use modern scholarship chiefly to clarify chronology, contest false closure, and install counterweight against nostalgic overclaim
 
 ## CIV-MEM Evidence Spine

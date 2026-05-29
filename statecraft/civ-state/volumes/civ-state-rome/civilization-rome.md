@@ -31,7 +31,7 @@ This chapter does not claim that Rome survives unchanged in a simple political s
 
 ## Core Thesis
 
-Rome is a strong civilization-state case because continuity of order survives even after the old imperial body breaks. Roman civilization persists through universality, law, institutional form, Byzantine survival, and Catholic residue. Its continuity is difficult, but precisely for that reason it clarifies what transformed civilizational endurance looks like.
+Rome is a strong civilization-state case because continuity of order survives even after the old imperial body breaks. Roman civilization persists through universality, law, institutional form, Eastern Roman survival, and Catholic residue. Its continuity is difficult, but precisely for that reason it clarifies what transformed civilizational endurance looks like.
 
 ## Civilizational Logic
 
@@ -43,7 +43,7 @@ The sovereign backbone opens with `Romulus` as foundational sovereign, with Troj
 
 The continuity then becomes legible through:
 
-`Romulus -> Republic -> Empire -> Byzantium -> Catholic residue -> Pope Leo XIV`
+`Romulus -> Republic -> Empire -> Eastern Roman Empire -> Catholic residue -> Pope Leo XIV`
 
 This is the set's clearest case of continuity through changed carriers. The chain remains Roman not because one territorial state persists unchanged, but because Roman form remains historically alive.
 
@@ -57,7 +57,7 @@ Rome therefore teaches that civilization can survive as institution and form lon
 
 Rome breaks, divides, is Christianized, shifts eastward, loses the western imperial body, and later survives in residue rather than restored territorial totality. Yet the style remains Roman wherever universality, law, ceremony, and institution retain recognizable form.
 
-Byzantium matters because it preserves the state-bearing Roman continuity far longer than Western simplifications admit. Catholic residue matters because Roman universality does not die when territorial empire contracts.
+The Eastern Roman Empire matters because it preserves the state-bearing Roman continuity far longer than Western simplifications admit. Catholic residue matters because Roman universality does not die when territorial empire contracts.
 
 ## Present Civilizational Carrier
 
@@ -68,7 +68,7 @@ This does not mean the church exhausts Rome. It means that the most legible livi
 ## Boundary Rules
 
 - Do not confuse Rome with ancient territory alone.
-- Do not erase Byzantium from the Roman chain.
+- Do not erase the Eastern Roman Empire from the Roman chain.
 - Do not treat Catholic residue as non-Roman by default.
 - Do not turn Roman continuity into vague Western inheritance.
 - Do not confuse present residue-carriage with restored imperial command.

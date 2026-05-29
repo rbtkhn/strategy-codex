@@ -16,7 +16,7 @@ The continuity therefore runs through:
 
 In compressed form:
 
-`Romulus -> Roman Republic / Empire -> Byzantium -> Catholic residue-carrier -> Pope Leo XIV`
+`Romulus -> Roman Republic / Empire -> Eastern Roman Empire -> Catholic residue-carrier -> Pope Leo XIV`
 
 ## Opening Logic
 
@@ -40,11 +40,11 @@ Rome’s first great mutation is the move from local civic center to universal i
 
 That expansion is essential. Without it, later Roman carriers would have no basis for claiming that Rome survives beyond one city and one western imperial phase.
 
-## Byzantine Continuity State
+## Eastern Roman Continuity State
 
 The most important hard rule in the Roman case is this:
 
-**Byzantium is not a decorative afterlife. It is an indispensable Roman continuity state.**
+**The Eastern Roman Empire is not a decorative afterlife. It is an indispensable Roman continuity state.**
 
 Once the western imperial center fractures, the eastern Roman state preserves:
 
@@ -53,7 +53,7 @@ Once the western imperial center fractures, the eastern Roman state preserves:
 - Roman institutional memory
 - sovereign continuation at state scale
 
-Without Byzantium, Roman continuity is much harder to defend as a real sovereign chain rather than as civilizational nostalgia.
+Without the Eastern Roman Empire, Roman continuity is much harder to defend as a real sovereign chain rather than as civilizational nostalgia.
 
 ## Catholic Residue-Carrier
 
@@ -89,7 +89,7 @@ Several confusions should be avoided:
 
 - `Aeneas` and `Troy` belong to mythic prehistory, not to the sovereign opening of the chain.
 - Roman continuity does not require one uninterrupted territorial state.
-- Byzantium must be treated as Roman continuity state, not as foreign annex.
+- The Eastern Roman Empire must be treated as Roman continuity state, not as foreign annex.
 - The papacy is a residue-carrier, not a disguised modern empire.
 - `Pope Leo XIV` should not be mistaken either for a mere religious figure without sovereign significance or for the total embodiment of Rome.
 

@@ -118,7 +118,7 @@ The most decisive Roman geographic break comes when Mediterranean unity is no lo
 
 The Islamic conquests and later basin partition mean that what had been Roman interior becomes civilizational frontier. At that point Rome does not simply vanish, but the geography of continuity changes form:
 
-- `Byzantium` carries eastern maritime and imperial residue
+- `Constantinople` carries eastern maritime and imperial residue
 - the western papal and Latin world carry legal-sacral residue
 - the sea remains Mediterranean, but no longer one Roman medium
 
