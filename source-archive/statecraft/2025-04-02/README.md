@@ -1,32 +1,30 @@
-﻿# 2025-04-02 Statecraft Archive
+# Statecraft Archive - 2025-04-02
 
-Generated inventory for 2025-04-02.
+_Generated inventory note. Rebuild with `python scripts/build_statecraft_day_indices.py`._
 
-- Total files: 1
-- Transcript-bearing files: 1
-- Distinct channels: 1
-- Distinct shows: 1
-- Distinct hosts: 1
-- Distinct guests: 0
-- Distinct threads: 1
+## Stats
 
-## Channels
+- Source files: `1`
+- Type mix: `youtube` (1)
+- Distinct channels/shows: `1`
+- Distinct hosts: `1`
+- Distinct guests: `0`
+- Distinct threads: `1`
+
+## Channel / Show Rollup
+
 - `Alexander Mercouris` (1)
 
-## Shows
-- `Alexander Mercouris` (1)
+## Host / Guest / Thread Rollup
 
-## Hosts
-- `Alexander Mercouris` (1)
+- Hosts: `Alexander Mercouris` (1)
+- Guests: (none)
+- Threads: `mercouris` (1)
 
-## Guests
-- None
+## Filename Family Fallbacks
 
-## Threads
-- `mercouris` (1)
-
-## Filename Families
-- `youtube-alex-mercouris-*` (fallback)
+- `youtube-alex-mercouris-*` (1)
 
 ## Files
+
 - `youtube-alex-mercouris-moscow-talks-tough-us-ignores-kiev-truce-breaches-without-peace-ideas-china-russia-stand-together-2025-04-02.md`

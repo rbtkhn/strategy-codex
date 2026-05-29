@@ -23,7 +23,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Filename Family Fallbacks
 
-- `youtube-glenn-diesen-*` (1)
+- (none)
 
 ## Files
 

@@ -4,22 +4,22 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Stats
 
-- Source files: `1`
-- Type mix: `transcript` (1)
+- Source files: `2`
+- Type mix: `transcript` (2)
 - Distinct channels/shows: `1`
 - Distinct hosts: `1`
-- Distinct guests: `1`
-- Distinct threads: `1`
+- Distinct guests: `2`
+- Distinct threads: `2`
 
 ## Channel / Show Rollup
 
-- `Dialogue Works` (1)
+- `Dialogue Works` (2)
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Nima Alkhorshid` (1)
-- Guests: `Chas Freeman` (1)
-- Threads: `freeman` (1)
+- Hosts: `Nima Alkhorshid` (2)
+- Guests: `Chas Freeman` (1), `Larry C. Johnson; Col. Larry Wilkerson` (1)
+- Threads: `freeman` (1), `nima` (1)
 
 ## Filename Family Fallbacks
 
@@ -28,3 +28,4 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Files
 
 - `transcript-dialogue-works-amb-chas-freeman-trump-s-next-move-does-he-even-know-2025-08-08.md`
+- `transcript-dialogue-works-larry-c-johnson-col-larry-wilkerson-hezbollah-rejects-iran-and-russia-push-back-2025-08-08.md`

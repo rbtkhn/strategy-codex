@@ -5,7 +5,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `3`
-- Type mix: `transcript` (2), `youtube` (1)
+- Type mix: `youtube` (2), `transcript` (1)
 - Distinct channels/shows: `2`
 - Distinct hosts: `3`
 - Distinct guests: `2`
@@ -13,8 +13,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Alexander Mercouris` (1)
-- `Judging Freedom` (1)
+- `Alexander Mercouris` (1), `Judging Freedom` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -24,8 +23,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Filename Family Fallbacks
 
-- `youtube-alex-mercouris-*` (1)
-- `youtube-glenn-diesen-*` (1)
+- `youtube-alex-mercouris-*` (1), `youtube-glenn-diesen-*` (1)
 
 ## Files
 

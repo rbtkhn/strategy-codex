@@ -1,4 +1,4 @@
-# Statecraft Archive - 2025-09-27
+# Statecraft Archive - 2025-08-26
 
 _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_indices.py`._
 
@@ -13,13 +13,13 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Glenn Diesen` (1)
+- `Dialogue Works` (1)
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Glenn Diesen` (1)
-- Guests: `Jeffrey Sachs` (1)
-- Threads: `diesen` (1)
+- Hosts: `Nima Alkhorshid` (1)
+- Guests: `Larry Wilkerson` (1)
+- Threads: `nima` (1)
 
 ## Filename Family Fallbacks
 
@@ -27,4 +27,4 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Files
 
-- `transcript-glenn-diesen-jeffrey-sachs-nato-warmongers-and-the-world-on-the-edge-of-war-2025-09-27.md`
+- `transcript-dialogue-works-col-larry-wilkerson-warning-signs-everywhere-us-on-the-verge-of-disaster-2025-08-26.md`

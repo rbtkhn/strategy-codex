@@ -13,11 +13,11 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Judging Freedom` (1)
+- `Judging Freedom` (2)
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Andrew Napolitano` (1)
+- Hosts: `Andrew Napolitano` (2)
 - Guests: `Chas Freeman` (1), `Jeffrey Sachs` (1)
 - Threads: `freeman` (1), `napolitano` (1)
 

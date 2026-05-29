@@ -5,7 +5,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `4`
-- Type mix: `youtube` (2), `transcript` (2)
+- Type mix: `transcript` (2), `youtube` (2)
 - Distinct channels/shows: `3`
 - Distinct hosts: `3`
 - Distinct guests: `4`
@@ -17,7 +17,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Andrew Napolitano` (1), `Glenn Diesen` (2), `Nima Alkhorshid` (1)
+- Hosts: `Glenn Diesen` (2), `Andrew Napolitano` (1), `Nima Alkhorshid` (1)
 - Guests: `George Beebe` (1), `Jeffrey Sachs` (1), `Lawrence Wilkerson` (1), `Martin Armstrong` (1)
 - Threads: `diesen` (2), `napolitano` (1), `nima` (1)
 

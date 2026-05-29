@@ -1,4 +1,4 @@
-﻿# Statecraft Archive - 2025-04-01
+# Statecraft Archive - 2025-04-01
 
 _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_indices.py`._
 
@@ -13,8 +13,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Alexander Mercouris` (1)
-- `Counterpoints` (1)
+- `Alexander Mercouris` (1), `Counterpoints` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -24,7 +23,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Filename Family Fallbacks
 
-- `youtube-alex-mercouris-*` (fallback)
+- `youtube-alex-mercouris-*` (1)
 
 ## Files
 

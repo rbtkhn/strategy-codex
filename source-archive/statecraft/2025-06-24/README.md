@@ -13,11 +13,11 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Judging Freedom` (1)
+- `Judging Freedom` (2)
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Andrew Napolitano` (1)
+- Hosts: `Andrew Napolitano` (2)
 - Guests: `Charles Freeman` (1), `Jeffrey Sachs` (1)
 - Threads: `freeman` (1), `napolitano` (1)
 
@@ -27,5 +27,5 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Files
 
-- `transcript-napolitano-sachs-is-the-us-subordinated-to-israel-2025-06-24.md`
 - `transcript-napolitano-amb-charles-freeman-why-presidents-love-war-2025-06-24.md`
+- `transcript-napolitano-sachs-is-the-us-subordinated-to-israel-2025-06-24.md`

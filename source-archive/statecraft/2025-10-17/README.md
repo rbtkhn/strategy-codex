@@ -13,13 +13,13 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Dialogue Works` (1)
+- `Dialogue Works` (2)
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Nima Alkhorshid` (1)
+- Hosts: `Nima Alkhorshid` (2)
 - Guests: `Chas Freeman` (1), `Larry C. Johnson; Col. Larry Wilkerson` (1)
-- Threads: `nima` (1)
+- Threads: `nima` (2)
 
 ## Filename Family Fallbacks
 

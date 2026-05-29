@@ -13,7 +13,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Judging Freedom` (1)
+- `Judging Freedom` (2)
 
 ## Host / Guest / Thread Rollup
 
@@ -23,7 +23,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Filename Family Fallbacks
 
-- `transcript-*` (2)
+- (none)
 
 ## Files
 

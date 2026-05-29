@@ -6,16 +6,14 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Source files: `3`
 - Type mix: `transcript` (3)
-- Distinct channels/shows: `3`
+- Distinct channels/shows: `2`
 - Distinct hosts: `3`
 - Distinct guests: `3`
-- Distinct threads: `1`
+- Distinct threads: `2`
 
 ## Channel / Show Rollup
 
-- `Daniel Davis / Deep Dive` (1)
-- `Glenn Diesen - Greater Eurasia Podcast` (1)
-- `Judging Freedom` (1)
+- `Glenn Diesen - Greater Eurasia Podcast` (1), `Judging Freedom` (1)
 
 ## Host / Guest / Thread Rollup
 
@@ -25,7 +23,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Filename Family Fallbacks
 
-- `transcript-*` (2)
+- `transcript-*` (1)
 
 ## Files
 

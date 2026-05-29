@@ -5,7 +5,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `5`
-- Type mix: `transcript` (1), `youtube` (4)
+- Type mix: `youtube` (4), `transcript` (1)
 - Distinct channels/shows: `3`
 - Distinct hosts: `3`
 - Distinct guests: `4`
@@ -23,7 +23,6 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Filename Family Fallbacks
 
-- `transcript-napolitano-sachs-*` (1)
 - `youtube-alex-mercouris-*` (1)
 
 ## Files

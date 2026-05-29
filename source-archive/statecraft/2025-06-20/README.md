@@ -6,8 +6,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Source files: `5`
 - Type mix: `transcript` (3), `youtube` (2)
-- Distinct channels/shows: `3`
-- Distinct hosts: `4`
+- Distinct channels/shows: `4`
+- Distinct hosts: `5`
 - Distinct guests: `3`
 - Distinct threads: `4`
 
@@ -23,12 +23,12 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Filename Family Fallbacks
 
-- `transcript-*` (2), `youtube-*` (1), `youtube-alex-mercouris-*` (1)
+- `transcript-*` (1), `youtube-*` (1), `youtube-alex-mercouris-*` (1)
 
 ## Files
 
-- `transcript-diesen-mearsheimer-mercouris-israel-has-walked-off-a-cliff-2025-06-20.md`
 - `transcript-diesen-macgregor-america-s-attack-on-iran-could-start-ww3-2025-06-20.md`
+- `transcript-diesen-mearsheimer-mercouris-israel-has-walked-off-a-cliff-2025-06-20.md`
 - `transcript-napolitano-mearsheimer-what-if-the-us-does-attack-iran-2025-06-20.md`
 - `youtube-alex-mercouris-china-deploys-spy-ships-us-says-pulling-back-iran-israel-continue-strikes-kiev-israel-run-short-2025-06-20.md`
 - `youtube-daniel-davis-lt-col-daniel-davis-iran-israel-war-dont-enter-into-it-2025-06-20.md`
