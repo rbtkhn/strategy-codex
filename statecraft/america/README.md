@@ -76,6 +76,19 @@ Inside that state bench, use [current executive](state/current-executive.md) and
 
 Open Pape for coercive leverage and falsifiers, Parsi for off-ramps and settlement architecture, Ritter / Postol for military danger, and Freeman / Beebe / Mearsheimer for realist diplomacy. Translate warnings into bounded policy options.
 
+Transcript-grounded intake law:
+
+`Statecraft Archive -> Statecraft Synthesis -> host law -> bridge if needed -> lane drafting`
+
+For live lane entry, do not open `helix`, `state`, `transactions`, or the bounded-command bridge first unless the intake layer is already resolved. The first honest America submenu should usually be:
+
+- `Davis` for feasibility, bargaining geometry, and whether command can still produce room
+- `Napolitano` for authorization, constitutional carry, legal absurdity, and procedural collapse
+- `Pape` for coercive leverage, escalation timing, and whether pressure is actually changing the adversary's room
+- `Parsi` for off-ramp design, sanctions-relief sequencing, protected channels, and successor-stable settlement
+
+Use the lane's deeper strand surfaces only after one of those intake families has actually governed the read.
+
 When the remaining uncertainty is not lane ownership but whether the object is still command-first or already settlement-first, use the [America bounded-command vs burden-sharing bridge](../bridges/america-bounded-command-vs-burden-sharing-bridge.md) before dropping directly into transaction logic.
 
 ## Preferred Instruments

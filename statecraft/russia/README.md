@@ -75,6 +75,19 @@ Inside that state bench, use [Putin](state/putin.md) and the [Security Council](
 
 Open Crooke for order rupture and Western misreading, Diesen for multipolar structure, Ritter / Macgregor / Martyanov for force constraints, and Parsi / Freeman for settlement architecture. Extract mechanisms; do not turn the lane into speaker commentary.
 
+Transcript-grounded intake law:
+
+`Statecraft Archive -> Statecraft Synthesis -> host law -> bridge if needed -> lane drafting`
+
+For live lane entry, do not open `helix`, `state`, `transactions`, or the brokerage-vs-overbinding bridge first unless the intake layer is already resolved. The first honest Russia submenu should usually be:
+
+- `Crooke` for order rupture, Western misreading, and restoration-pressure interpretation
+- `Diesen` for multipolar structure, recognition geometry, and anti-hegemonic system framing
+- `Ritter / Macgregor / Martyanov` for force constraints, escalation limits, and overbinding risk
+- `Parsi / Freeman` for settlement architecture, recognition formula, and diplomatic carry
+
+Use the lane's deeper strand surfaces only after one of those intake families has actually governed the read.
+
 When the remaining uncertainty is not lane ownership but whether the object is still brokered-recognition-first or already anti-overbinding-leverage-first, use the [Russia brokerage vs overbinding bridge](../bridges/russia-brokerage-vs-overbinding-bridge.md) before dropping directly into transaction logic.
 
 ## Preferred Instruments

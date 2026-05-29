@@ -77,6 +77,19 @@ Inside that state bench, use [Xi](state/xi.md) and the [party-state carrier](sta
 
 Open Pape for shock clocks and coercive leverage, Jiang for China-facing strategic framing, Sachs for system-economic effects, Crooke / Diesen for order transition, and Parsi for regional architecture. Extract the live mechanism and translate it into instruments.
 
+Transcript-grounded intake law:
+
+`Statecraft Archive -> Statecraft Synthesis -> host law -> bridge if needed -> lane drafting`
+
+For live lane entry, do not open `helix`, `state`, `transactions`, or the order-vs-anti-coercion bridge first unless the intake layer is already resolved. The first honest China submenu should usually be:
+
+- `Jiang` for China-facing strategic framing, regime reading, and civilizational self-description
+- `Sachs` for system-economic effects, sanctions spillover, and energy / market disorder
+- `Crooke / Diesen` for order transition, anti-coercion structure, and civilizational-system comparison
+- `Pape` for shock clocks, coercive leverage, and adversary pressure timing
+
+Use the lane's deeper strand surfaces only after one of those intake families has actually governed the read.
+
 When the remaining uncertainty is not lane ownership but whether the object is still stabilization-first or already leverage-architecture-first, use the [China order vs anti-coercion bridge](../bridges/china-order-vs-anti-coercion-bridge.md) before dropping directly into transaction logic.
 
 For the accumulating upstream chapter-seed list, use [China chapter seeds](chapter-seeds.md). That file is where cross-arc chapter ideas should now accumulate.

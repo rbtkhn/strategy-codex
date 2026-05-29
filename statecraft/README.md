@@ -48,9 +48,15 @@ flowchart TD
 - `Deploy` - lane ownership unresolved
 - `Compact` - cross-lane or objection-shaped object
 - `Speaker-Bridge` - Persia speaker-heavy object after ownership is clear
-- `Lane Direct` - ownership already clear, then choose America, China, Persia, or Russia
+- `Lane Direct` - ownership already clear, then open the owning lane's transcript-grounded intake menu before helix / state / bridge / transaction drafting
 
 The first decision is which constitutional layer is actually carrying the next move. If ownership is unresolved, use `state-deploy`. If the object is already multi-actor and mechanism-shaped, use [compact](compact/README.md). If ownership is already clear and the object is Persia speaker-heavy, `statecraft-bridge` is the post-lane retrieval step when adapter choice is still the real uncertainty.
+
+When ownership is already clear, do not jump straight to `helix`, `state`, `transactions`, or a polished bridge split. Open the lane's transcript-grounded intake first:
+
+`Statecraft Archive -> Statecraft Synthesis -> host law -> bridge if needed -> lane drafting`
+
+That means the first honest lane menu should ask which transcript-bearing intake family governs now, not which downstream lane note looks most elegant.
 
 `statecraft civ-state` is the exact named fast path for the upstream CIV-STATE bench. Use it when the question is not yet lane ownership or drafting, but rather CIV-STATE frame judgment, retrieval, membrane promotion, or review. It is distinct from `state-deploy`, distinct from [compact](compact/README.md), and distinct from lane-direct statecraft work.
 

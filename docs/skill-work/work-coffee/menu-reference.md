@@ -1,6 +1,6 @@
 # Coffee ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â menu and protocol reference
 
-**Canonical Step 2 menu (strategy-codex):** **four** hub lines - **A** Steward, **B** Engineer, **C** Statecraft, **D** Singularity. **C. Statecraft** activates the WORK-only repo-root [statecraft](../../../statecraft/README.md) router-first front door: `Deploy / Compact / Speaker-Bridge / Lane Direct`, with the civilizational-state lane menu appearing only after `D. Lane Direct`. **D. Singularity** activates the WORK-only singularity-academy module at [Singularity Workshop](../../../codex/academy/singularity/workshop/README.md). **Conductor** is standalone only and opens by master name, `conductor`, or the conductor skill; it is not a coffee hub letter.
+**Canonical Step 2 menu (strategy-codex):** **four** hub lines - **A** Steward, **B** Engineer, **C** Statecraft, **D** Singularity. **C. Statecraft** activates the WORK-only repo-root [statecraft](../../../statecraft/README.md) router-first front door: `Deploy / Compact / Speaker-Bridge / Lane Direct`, with the transcript-grounded lane intake menu appearing only after `D. Lane Direct`. **D. Singularity** activates the WORK-only singularity-academy module at [Singularity Workshop](../../../codex/academy/singularity/workshop/README.md). **Conductor** is standalone only and opens by master name, `conductor`, or the conductor skill; it is not a coffee hub letter.
 
 **Deprecation guard:** `companion-self` template sync and Grace-Mar-vs-template reconciliation are legacy/archive lanes in strategy-codex. Do not invoke them from bare **A. Steward**, `coffee`, integrity, or boundary hygiene unless the operator explicitly asks for that obsolete migration context.
 
@@ -18,7 +18,7 @@ Branch behavior:
 - **A** routes to `state-deploy`
 - **B** routes to [statecraft/compact/README.md](../../../statecraft/compact/README.md)
 - **C** routes to `statecraft-bridge` only when Persia/Iran ownership is already clear; otherwise bounce to `state-deploy`
-- **D** opens:
+- **D** opens the owning lane, then the lane's transcript-grounded intake menu rather than a direct jump to helix / state / transactions:
 
 ```markdown
 Lane Direct - reply A-D
@@ -28,7 +28,7 @@ C. Persia - deep civilization, dignity, leverage, recognition
 D. Russia - strategic depth, disruption, optionality
 ```
 
-After the lane-direct pick, route directly to [America](../../../statecraft/america/README.md), [China](../../../statecraft/china/README.md), [Persia](../../../statecraft/iran/README.md), or [Russia](../../../statecraft/russia/README.md). **Statecraft sources:** [statecraft.md](../../../statecraft/statecraft.md), [METHOD.md](../../../statecraft/METHOD.md), [treaty-framework.md](../../../statecraft/templates/treaty-framework.md), [policy-paper.md](../../../statecraft/templates/policy-paper.md), [negotiation-brief.md](../../../statecraft/templates/negotiation-brief.md), [richelieu.md](../../../statecraft/lenses/richelieu.md), [bismarck.md](../../../statecraft/lenses/bismarck.md), and [sheets/README.md](../../../statecraft/sheets/README.md) remain downstream drafting tools after routing.
+After the lane-direct pick, route to [America](../../../statecraft/america/README.md), [China](../../../statecraft/china/README.md), [Persia](../../../statecraft/persia/README.md), or [Russia](../../../statecraft/russia/README.md), and let that lane decide the first transcript-bearing intake family. `Statecraft Archive -> Statecraft Synthesis -> host law -> bridge if needed -> lane drafting` is the live intake law. **Statecraft sources:** [statecraft.md](../../../statecraft/statecraft.md), [METHOD.md](../../../statecraft/METHOD.md), [treaty-framework.md](../../../statecraft/templates/treaty-framework.md), [policy-paper.md](../../../statecraft/templates/policy-paper.md), [negotiation-brief.md](../../../statecraft/templates/negotiation-brief.md), [richelieu.md](../../../statecraft/lenses/richelieu.md), [bismarck.md](../../../statecraft/lenses/bismarck.md), and [sheets/README.md](../../../statecraft/sheets/README.md) remain downstream drafting tools after intake and routing.
 
 Named follow-on: `statecraft civ-state` is also valid after **C. Statecraft** when the operator wants the upstream CIV-STATE bench rather than lane routing. That command keeps a fixed **A-D** menu:
 
@@ -56,7 +56,7 @@ The sections below retain **legacy A?G workload detail** (seven letters) for **s
 
 ### Bare **`compass`** vs **`coffee`** then **`C`**
 
-**Full ritual:** Say **coffee** (Step 1 scripts + full menu), then choose **C** when you want the Statecraft submenu: **A America**, **B China**, **C Persia**, or **D Russia**. **Bare `compass`** (or strategy without opening **coffee**) means **strategy lane only** - agents may deliver work-strategy / **ROME-PASS** content **without** re-running Step 1 unless you ask for **coffee** first, **stay in coffee**, or a cold-thread stack (**operator_coffee.py --mode reentry**).
+**Full ritual:** Say **coffee** (Step 1 scripts + full menu), then choose **C** when you want the Statecraft submenu. After `Lane Direct`, the first live lane menu should be transcript-grounded intake, not an immediate helix/state/transactions split. **Bare `compass`** (or strategy without opening **coffee**) means **strategy lane only** - agents may deliver work-strategy / **ROME-PASS** content **without** re-running Step 1 unless you ask for **coffee** first, **stay in coffee**, or a cold-thread stack (**operator_coffee.py --mode reentry**).
 
 **First-command coffee:** In a fresh strategy-codex chat, bare **`coffee`** should use `python3 scripts/operator_coffee.py -u strategy-codex --mode first-command`. That mode prints the **Coffee Bootstrap Brief** first, uses `coffee_close` receipts as the preferred recent-rhythm source, recommends one A-D hub letter, and keeps detailed script blocks behind `--verbose`. The turn is still incomplete until the fixed **Coffee Hub Menu - Reply A-D** is shown.
 
@@ -144,7 +144,7 @@ Only after **D** does the lane-direct menu appear:
 - **C. Persia** - deep civilization, dignity, leverage, recognition.
 - **D. Russia** - strategic depth, disruption, optionality.
 
-Treaty, policy, negotiation, and Richelieu/Bismarck drafting remain visible as downstream drafting moves after routing rather than as the first coffee submenu.
+After the lane pick, open transcript-bearing intake first. The next honest submenu should usually be host or speaker intake families such as `Davis / Napolitano / Pape / Parsi` for America rather than `helix / state / transactions / bridge`. Treaty, policy, negotiation, and Richelieu/Bismarck drafting remain visible as downstream drafting moves after intake and routing rather than as the first coffee submenu.
 
 When the operator asks for the daily main-stream update, route through the explicit **`check streams`** skill. That command owns the list-first daily Davis / Diesen / Alkorshid / Napolitano / Mercouris check; materialization still waits for operator selection and then hands approved URLs to the YouTube transcript workflow. `cognition streams` remains a legacy alias.
 

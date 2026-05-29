@@ -44,3 +44,11 @@ Their shared comparison note remains in [host-backbone-napolitano-davis-orthogon
 ## Boundary
 
 Use this layer when the real question is how a host changes a guest, not when the real question is whole-speaker identity or raw-source chronology.
+
+## Intake Law
+
+In live lane entry, host law sits between speaker synthesis and downstream drafting:
+
+`Statecraft Archive -> Statecraft Synthesis -> host law -> bridge if needed -> lane drafting`
+
+That means a lane menu should open hosts such as [Davis](davis/README.md) or [Napolitano](napolitano/README.md) before jumping straight to `helix`, `state`, `transactions`, or a polished bridge split when the real bottleneck is still transcript-conditioned reading.

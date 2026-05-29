@@ -79,6 +79,19 @@ Inside that state bench, use the [authority structure](state/authority-structure
 
 Open Pape for the fourth-center thesis and shortage clocks, Parsi / Marandi for Iranian bargaining logic, Crooke for Western misreading, and Ritter for regime-change skepticism and military risk. Convert these into recognition, deterrence, and off-ramp language.
 
+Transcript-grounded intake law:
+
+`Statecraft Archive -> Statecraft Synthesis -> host law -> bridge if needed -> lane drafting`
+
+For live lane entry, do not open `helix`, `state`, `transactions`, or the recognition-vs-settlement bridge first unless the intake layer is already resolved. The first honest Persia submenu should usually be:
+
+- `Marandi` for recognition-first, legitimacy-first, sovereignty-pressure, and anti-humiliation reads
+- `Parsi` for settlement-first, guarantee-first, architecture, and sanctions-relief sequencing
+- `Pape` for fourth-center leverage, shortage clocks, and coercive-system stress
+- `Crooke / Ritter` for Western misreading, regime-change skepticism, and military-risk classification
+
+Use the lane's deeper strand surfaces only after one of those intake families has actually governed the read.
+
 For `civ-state` retrieval conditioned by speaker logic rather than by lane-first drafting alone, use the quiet bridge pair:
 
 - `statecraft-bridge` when you want the operator-facing post-lane bridge step rather than direct adapter selection
