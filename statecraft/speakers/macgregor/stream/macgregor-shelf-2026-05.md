@@ -21,10 +21,12 @@ Month status: `support-only month`
 - [youtube-macgregor-mario-nawfal-trump-walks-back-on-deal-idf-to-flatten-beirut-2026-05-27.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-27/youtube-macgregor-mario-nawfal-trump-walks-back-on-deal-idf-to-flatten-beirut-2026-05-27.md)
   - Mario Nawfal lane compresses the month into public-facing severity: Netanyahu veto, Iran unconquerability, energy shock, and domestic-legitimacy danger.
   - Best bounded extraction: [macgregor-mario-nawfal-note-2026-05-27.md](macgregor-mario-nawfal-note-2026-05-27.md)
+- [transcript-napolitano-macgregor-iran-stronger-now-putin-takes-off-the-gloves-2026-05-28.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/transcript-napolitano-macgregor-iran-stronger-now-putin-takes-off-the-gloves-2026-05-28.md)
+  - Napolitano lane hardens the month's closing register: Russian retaliation warning, Iran-resilience accounting, and anti-war economic collapse framing under explicit Netanyahu-veto language.
 
 ## Reading note
 
-May is still a support-only month, but it is no longer truthfully described as only Davis-led. Davis remains the main practical-severity carrier, while Diesen reopens altitude, Napolitano sharpens auxiliary indictment, and Mario Nawfal supplies a public-compression surface. The month matters because it broadens support density without becoming a full chronology-owning Macgregor month.
+May is still a support-only month, but it is no longer truthfully described as only Davis-led. Davis remains the main practical-severity carrier, while Diesen reopens altitude, Napolitano now contributes both auxiliary indictment and end-month hardening, and Mario Nawfal supplies a public-compression surface. The month matters because it broadens support density without becoming a full chronology-owning Macgregor month.
 
 ## Boundary note
 

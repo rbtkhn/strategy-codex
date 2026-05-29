@@ -18,6 +18,11 @@ Purpose: classify the major live Napolitano guest lanes so statecraft shelves ca
 - class: native Napolitano branch
 - role: war-crime exposure, piracy framing, command absurdity, and legal-libertarian pressure
 
+#### Macgregor
+
+- class: native Napolitano branch
+- role: military-order realism, Iran-resilience accounting, and escalation-cost warning under anti-war pressure
+
 ### Reinforcing orbit
 
 #### Mearsheimer
@@ -36,6 +41,11 @@ Purpose: classify the major live Napolitano guest lanes so statecraft shelves ca
 
 - class: reinforcing branch
 - role: sabotage logic, regional corruption exposure, and Zionist-power interpretation under anti-war legal pressure
+
+#### Wilkerson
+
+- class: reinforcing branch
+- role: international-law collapse, imperial self-destruction, and domestic blowback warning under anti-war legal pressure
 
 ### Raw-input or non-branch presence
 
@@ -62,4 +72,5 @@ Purpose: classify the major live Napolitano guest lanes so statecraft shelves ca
 
 - This note classifies live Napolitano guest lanes; it does not replace speaker shelves.
 - `Napolitano x Mearsheimer` is useful but remains reinforcement, not a third core strand.
+- `Napolitano x Macgregor` is now a live native branch because repetition has become too dense to treat as mere symmetry.
 - Use codex-side Napolitano stream files only when legacy chronology is required; use this note for live host-family routing.

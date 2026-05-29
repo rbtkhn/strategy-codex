@@ -17,6 +17,7 @@ The mature core is 2026, especially:
 
 - March 2026 for early mature cross-context pressure
 - May 2026 for blockade failure, architecture, and post-primacy widening
+- late May Mario-hosted pressure for live deal-proximity and Lebanon/UAE spillover testing
 
 ## Boundary notes
 

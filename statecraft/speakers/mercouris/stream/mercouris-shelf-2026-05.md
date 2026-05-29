@@ -21,6 +21,8 @@ Month status: `mature dense-core month`
   - Late-May frontier reinforcement: Starobelsk retaliation, large Kiev/Oreshnik strike, Bila Tserkva command-post speculation, Zelensky's fear of a renewed Kiev axis, and renewed Iran-negotiation pressure under U.S. neocon escalation talk.
 - [2026-05-27 Mercouris provenance capture](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-27/youtube-alex-mercouris-russia-plans-kiev-capture-prepares-next-strike-decision-centres-kiev-without-ad-zaporozhzhye-crisis-2026-05-27.md)
   - Late-May frontier reinforcement: embassy-withdrawal warning logic, the claim that Kiev's air-defense umbrella is now effectively hollow, Zaporizhzhia-line deterioration, and the argument that Russia is sequencing toward a sustained Kiev pressure campaign rather than a one-off revenge strike.
+- [2026-05-28 Mercouris provenance capture](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/youtube-alex-mercouris-zelensky-panic-begs-trump-help-as-kiev-ad-runs-out-russia-confirms-oreshnik-to-destroy-kiev-bunkers-2026-05-28.md)
+  - Late-May frontier reinforcement: Zelensky's reported panic appeal for Patriot interceptors, U.S.-Europe air-defense depletion logic, Oreshnik-against-bunkers framing, deeper Kiev pressure sequencing, and the argument that EU membership itself is moving into Russia's rejection basket.
 
 ## Reading note
 
@@ -30,7 +32,7 @@ May 2026 Mercouris should be read less as a sequence of isolated episodes and mo
 
 May is a **mature dense-core month** already, but it is also a frontier month and therefore naturally less settled than March. The support surface is operationally strong enough to route now, yet future refinement may still sharpen individual May nodes as the month’s pages condense or extend. That does not change its dense-core status; it only reflects that frontier dense-core months mature while still live.
 
-The newly restored `2026-05-24` Mercouris capture strengthens the late-May frontier without yet forcing a new bounded page split. For now it should be read as reinforcement inside the same mature May object rather than as evidence that the month grammar itself needs redesign.
+The `2026-05-24`, `2026-05-27`, and `2026-05-28` Mercouris captures strengthen the late-May frontier without yet forcing a new bounded page split. For now they should be read as reinforcement inside the same mature May object rather than as evidence that the month grammar itself needs redesign.
 
 ## Adjacent shelf
 

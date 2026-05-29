@@ -79,6 +79,7 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Dougl
 - [transcript-napolitano-macgregor-the-pentagon-and-decapitation-strikes-2026-05-21](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-21/transcript-napolitano-macgregor-the-pentagon-and-decapitation-strikes-2026-05-21.md)
 - [youtube-daniel-davis-deep-dive-col-douglas-macgregor-u-s-strikes-iran-again-2026-05-26](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/youtube-daniel-davis-deep-dive-col-douglas-macgregor-u-s-strikes-iran-again-2026-05-26.md)
 - [youtube-macgregor-mario-nawfal-trump-walks-back-on-deal-idf-to-flatten-beirut-2026-05-27](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-27/youtube-macgregor-mario-nawfal-trump-walks-back-on-deal-idf-to-flatten-beirut-2026-05-27.md)
+- [transcript-napolitano-macgregor-iran-stronger-now-putin-takes-off-the-gloves-2026-05-28](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/transcript-napolitano-macgregor-iran-stronger-now-putin-takes-off-the-gloves-2026-05-28.md)
 
 ## Aired Pending
 
