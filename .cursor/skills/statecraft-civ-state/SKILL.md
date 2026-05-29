@@ -41,7 +41,7 @@ What changes from turn to turn is the live recommendation and the explanation fo
 
 Use only these surfaces to compute the recommendation:
 
-1. `statecraft/speakers/`
+1. `statecraft/civ-lens/`
 2. `statecraft/bridges/`
 3. `statecraft/civ-state/ph-civ-to-civ-state-bridge.md`
 4. `statecraft/civ-state/ph-civ-promotion-ledger.md`

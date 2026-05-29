@@ -12,6 +12,14 @@ Short constitutional split:
 
 `civ-state remembers -> statecraft drafts`
 
+Civilizational Statecraft should now also be read as a two-volume whole-work book with five nested civilization-state volumes. The canonical whole-work apparatus lives in:
+
+- [Table of Contents](table-of-contents.md)
+- [Reader Guide](reader-guide.md)
+- [Glossary](glossary.md)
+- [Hybrid References](hybrid-references.md)
+- [Index](index.md)
+
 ## Command Door
 
 `statecraft civ-state` is the preferred exact command door for CIV-STATE as an analysis bench.
@@ -128,6 +136,14 @@ The order is chronological by **sovereignty-chain emergence**, not by the earlie
 
 This volume layer organizes retrieval and source-memory entry. It does not replace the live lane-local storage under repo-root `statecraft/<lane>/`. Each volume should now be read as a constitutional book-form nested through the five-era spine rather than as a loose bibliography.
 
+The apparatus for that book-form is whole-work first, then volume-local:
+
+1. [Table of Contents](table-of-contents.md)
+2. [Reader Guide](reader-guide.md)
+3. [Volume map](volumes/README.md)
+4. the relevant civilization volume
+5. `Civilization -> Empire -> Statecraft`
+
 ## Volume Part Law
 
 Each CIV-STATE volume now opens through a fixed three-part law:
@@ -219,6 +235,11 @@ Each CIV-STATE source object should be short and usable. It should include:
 
 ## Indexes
 
+- [Table of Contents](table-of-contents.md) - canonical whole-work reading order for the two-volume Civilizational Statecraft book.
+- [Reader Guide](reader-guide.md) - operator-facing doctrine for how to open, read, and descend through the work.
+- [Glossary](glossary.md) - whole-work vocabulary of concepts, names, peoples, polities, dynasties, churches, and transformed carriers.
+- [Hybrid References](hybrid-references.md) - source basis plus bounded references layer; the strongest visible civ-mem evidence door in the book apparatus.
+- [Index](index.md) - whole-work index for concepts, civilizations, routes, rulers, peoples, and retrieval doors.
 - [Volume map](volumes/README.md) - preferred civilization-first opening order for CIV-STATE.
 - [CIV-STATE volumes](volumes/README.md) - canonical three-part volume shelf with subordinate Statecraft sub-essays.
 - [PH-CIV to CIV-STATE bridge](ph-civ-to-civ-state-bridge.md) - explicit method note for converting public Predictive History pattern into compact civilization-state source memory without collapsing the two layers.
@@ -243,10 +264,20 @@ Use the front door that matches the actual operator question:
 
 - `which civilization-state volume should I open first?`
   - open [Volume map](volumes/README.md)
+- `I want the whole-book reading order first`
+  - open [Table of Contents](table-of-contents.md)
+- `I want the operator's reading doctrine for the books`
+  - open [Reader Guide](reader-guide.md)
 - `I want the CIV-STATE analysis bench itself`
   - open `statecraft civ-state`
 - `which part of a CIV-STATE volume should I open first?`
   - open [Volume map](volumes/README.md) and follow `Civilization -> Empire -> Statecraft`
+- `what does this term, dynasty, church, or transformed carrier mean here?`
+  - open [Glossary](glossary.md)
+- `what visibly grounds this apparatus in source basis and bounded ancestry?`
+  - open [Hybrid References](hybrid-references.md)
+- `I need quick whole-work recall by name, route, or concept`
+  - open [Index](index.md)
 - `which governing pair is really carrying this live object?`
   - open [Civilizational Statecraft Framework](civilization-empire-faith-science-memory-desire.md)
 - `which deep legitimacy grammar is load-bearing here?`
@@ -259,6 +290,8 @@ Use the front door that matches the actual operator question:
 Short rule:
 
 `volume map = civilization-first entry and three-part volume law`
+
+`whole-work apparatus = TOC, reader guide, glossary, hybrid references, and index`
 
 `framework = governing-pair diagnosis`
 

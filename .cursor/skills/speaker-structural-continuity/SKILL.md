@@ -14,8 +14,8 @@ This skill audits **structural continuity across a speaker shelf**:
 - native arc
 - thread atlas
 - month-support shelves
-- migration boundary between `statecraft/speakers/` and `codex/speakers/` when present
-- canonical outer grammar when a shelf has normalized into `statecraft/speakers/`
+- migration boundary between `statecraft/civ-lens/` and `codex/speakers/` when present
+- canonical outer grammar when a shelf has normalized into `statecraft/civ-lens/`
 
 It is for **agreement checks**, **drift detection**, and **route-stack coherence**.
 
@@ -31,7 +31,7 @@ For month-status classification, repair ranking, or `mature every segment` doctr
 
 ## Normalized outer grammar
 
-When a speaker has normalized into `statecraft/speakers/`, treat this as the expected outer shelf grammar unless the shelf explicitly says otherwise:
+When a speaker has normalized into `statecraft/civ-lens/`, treat this as the expected outer shelf grammar unless the shelf explicitly says otherwise:
 
 1. `README.md`
 2. `index.md`
@@ -67,13 +67,13 @@ Outer-grammar normalization does **not** erase legitimate exception classes.
 Use these three classes explicitly:
 
 1. `normalized month-ladder shelf`
-   - canonical `statecraft/speakers/<speaker>/`
+   - canonical `statecraft/civ-lens/civ-lens-<speaker>/`
    - bounded `2026-01` through `2026-05` synthesis ladder
    - support spine owns month-status law
    - examples: `Macgregor`, `Ritter`, `Freeman`, `Johnson`
 
 2. `cross-context exception shelf`
-   - canonical `statecraft/speakers/<speaker>/`
+   - canonical `statecraft/civ-lens/civ-lens-<speaker>/`
    - recurring thread atlas and source-class crossing are structurally primary
    - bounded month support appears only where mature cross-context pressure is real
    - example: `Parsi`
@@ -97,7 +97,7 @@ Audit these continuity surfaces in order:
 5. `*-arc-threads.md` or equivalent atlas
 6. support spine
 7. month-support shelves
-8. codex-side compatibility fronts and stubs if the speaker has migrated into `statecraft/speakers/`
+8. codex-side compatibility fronts and stubs if the speaker has migrated into `statecraft/civ-lens/`
 
 Check for agreement on:
 
@@ -119,7 +119,7 @@ Use these tests:
 - `front-door continuity`
   - can a future agent enter the shelf from the README and reach the correct canonical surfaces without being pushed into compatibility residue?
 - `outer-grammar continuity`
-  - if this is a normalized `statecraft/speakers/` shelf, are `README`, `index`, support spine, monthly ladder, audit, and themes all visibly present and legible?
+  - if this is a normalized `statecraft/civ-lens/` shelf, are `README`, `index`, support spine, monthly ladder, audit, and themes all visibly present and legible?
 - `shelf-class continuity`
   - is the shelf being described as the same class everywhere, or are different surfaces half-describing different constitutional types?
 - `route-stack continuity`
@@ -135,7 +135,7 @@ Use these tests:
 - `boundary continuity`
   - are compatibility files still demoted, or have they silently become quasi-canonical again?
 - `migration continuity`
-  - if the speaker moved into `statecraft/speakers/`, do the codex-side pointer fronts and compatibility stubs still resolve without preserving dual authority?
+  - if the speaker moved into `statecraft/civ-lens/`, do the codex-side pointer fronts and compatibility stubs still resolve without preserving dual authority?
 - `inner-shape continuity`
   - does the normalized outer scaffold preserve the speaker's real inner shape rather than forcing a fake one?
 

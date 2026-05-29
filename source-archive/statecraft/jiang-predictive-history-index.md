@@ -4,7 +4,7 @@ This file is the master local index for Jiang-centered Predictive History captur
 
 It complements, but does not replace, the public lecture/source index in the official Jiang mirror:
 
-- Public lecture index: [statecraft/speakers/jiang/ph-civ/docs/source-video-index.md](/C:/dev/strategy-codex/statecraft/speakers/jiang/ph-civ/docs/source-video-index.md)
+- Public lecture index: [statecraft/civ-lens/civ-lens-jiang/ph-civ/docs/source-video-index.md](/C:/dev/strategy-codex/statecraft/civ-lens/civ-lens-jiang/ph-civ/docs/source-video-index.md)
 
 The distinction is:
 
@@ -57,4 +57,4 @@ Current local capture counts:
 - This is a local archive navigation file, not a public `ph-civ` publishing surface.
 - Some local captures may precede or exceed what is currently materialized in the public mirror.
 - The new `gb-11` / `gb-12` Dante captures are best read as future Volume I / Civilization continuations rather than as detached archive-only material.
-- The `statecraft/speakers/jiang/ph-civ` mirror remains the canonical public-facing lecture/manuscript environment.
+- The `statecraft/civ-lens/civ-lens-jiang/ph-civ` mirror remains the canonical public-facing lecture/manuscript environment.

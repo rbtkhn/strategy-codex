@@ -6,8 +6,8 @@ This legacy codex index is now compatibility-only.
 
 Canonical Johnson shelf entry now lives at:
 
-- [statecraft/speakers/johnson/index.md](/C:/dev/strategy-codex/statecraft/speakers/johnson/index.md)
-- [statecraft/speakers/johnson/README.md](/C:/dev/strategy-codex/statecraft/speakers/johnson/README.md)
+- [statecraft/civ-lens/civ-lens-johnson/index.md](/C:/dev/strategy-codex/statecraft/civ-lens/civ-lens-johnson/index.md)
+- [statecraft/civ-lens/civ-lens-johnson/README.md](/C:/dev/strategy-codex/statecraft/civ-lens/civ-lens-johnson/README.md)
 
 Use the canonical statecraft shelf for:
 

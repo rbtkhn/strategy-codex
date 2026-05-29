@@ -12,6 +12,11 @@ Use this folder for maps that answer operational questions:
 
 Current index:
 
+- [Table of Contents](../table-of-contents.md)
+- [Reader Guide](../reader-guide.md)
+- [Glossary](../glossary.md)
+- [Hybrid References](../hybrid-references.md)
+- [Index](../index.md)
 - [Volume map](../volumes/README.md)
 - [Civilization, Empire, Faith, Science, Memory, Desire](../civilization-empire-faith-science-memory-desire.md)
 - [Civilization, Empire, Faith, Science, Memory, Desire Retrieval Checklist](../civilization-empire-faith-science-memory-desire-retrieval-checklist.md)

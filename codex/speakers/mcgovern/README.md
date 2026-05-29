@@ -6,7 +6,7 @@ This legacy `codex/speakers/mcgovern/` path is now compatibility-only.
 
 The canonical live statecraft shelf is:
 
-- [statecraft/speakers/mcgovern/README.md](/C:/dev/strategy-codex/statecraft/speakers/mcgovern/README.md)
+- [statecraft/civ-lens/civ-lens-mcgovern/README.md](/C:/dev/strategy-codex/statecraft/civ-lens/civ-lens-mcgovern/README.md)
 
 Open that repo-root shelf for current McGovern routing, provenance entry, and cross-host continuity.
 

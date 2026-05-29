@@ -1,3 +1,3 @@
-[submodule "statecraft/speakers/jiang/ph-civ"]
-	path = statecraft/speakers/jiang/ph-civ
+[submodule "statecraft/civ-lens/civ-lens-jiang/ph-civ"]
+	path = statecraft/civ-lens/civ-lens-jiang/ph-civ
 	url = https://github.com/rbtkhn/ph-civ.git

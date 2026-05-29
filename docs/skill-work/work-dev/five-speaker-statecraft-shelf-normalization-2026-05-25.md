@@ -6,17 +6,17 @@ Purpose: record the new canonical shelf law after the Freeman, Crooke, Mercouris
 
 ## What is now true
 
-These five speakers now sit at one canonical 2026 shelf level under `statecraft/speakers/`:
+These five speakers now sit at one canonical 2026 shelf level under `statecraft/civ-lens/`:
 
-- [Freeman](/C:/dev/strategy-codex/statecraft/speakers/freeman/README.md)
-- [Crooke](/C:/dev/strategy-codex/statecraft/speakers/crooke/README.md)
-- [Mercouris](/C:/dev/strategy-codex/statecraft/speakers/mercouris/README.md)
-- [Macgregor](/C:/dev/strategy-codex/statecraft/speakers/macgregor/README.md)
-- [Ritter](/C:/dev/strategy-codex/statecraft/speakers/ritter/README.md)
+- [Freeman](/C:/dev/strategy-codex/statecraft/civ-lens/civ-lens-freeman/README.md)
+- [Crooke](/C:/dev/strategy-codex/statecraft/civ-lens/civ-lens-crooke/README.md)
+- [Mercouris](/C:/dev/strategy-codex/statecraft/civ-lens/civ-lens-mercouris/README.md)
+- [Macgregor](/C:/dev/strategy-codex/statecraft/civ-lens/civ-lens-macgregor/README.md)
+- [Ritter](/C:/dev/strategy-codex/statecraft/civ-lens/civ-lens-ritter/README.md)
 
 Shared shelf law:
 
-- canonical home under `statecraft/speakers/<speaker>/`
+- canonical home under `statecraft/civ-lens/civ-lens-<speaker>/`
 - `README.md` and `index.md` front doors
 - arc, routing note, provenance bench, and crossing surface
 - speaker-owned support spine
@@ -40,7 +40,7 @@ Smallest credible next pass:
 
 - decide which Ritter `codex/speakers/ritter/stream/` files are true compatibility residue
 - demote those files explicitly
-- preserve only the minimum continuity needed while keeping the canonical shelf in `statecraft/speakers/ritter/` as the first-open route
+- preserve only the minimum continuity needed while keeping the canonical shelf in `statecraft/civ-lens/civ-lens-ritter/` as the first-open route
 
 ## Validation note
 

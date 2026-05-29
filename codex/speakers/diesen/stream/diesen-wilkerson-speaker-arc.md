@@ -69,12 +69,12 @@ That means the Diesen-side Wilkerson branch is not just an early and mid-2025 pr
 
 If the operator needs only one file:
 
-- open [transcript-diesen-wilkerson-hormuz-brics-2026-05-06.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-06/transcript-diesen-wilkerson-hormuz-brics-2026-05-06.md)
+- open [transcript-diesen-wilkerson-hormuz-brics-2026-05-06.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-06/transcript-diesen-wilkerson-hormuz-brics-2026-05-06.md)
 
 If the operator needs the best paired read:
 
-- open [transcript-diesen-wilkerson-hormuz-brics-2026-05-06.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-06/transcript-diesen-wilkerson-hormuz-brics-2026-05-06.md)
-- then [transcript-diesen-wilkerson-araghchi-putin-russia-iran-2026-04-28.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-28/transcript-diesen-wilkerson-araghchi-putin-russia-iran-2026-04-28.md)
+- open [transcript-diesen-wilkerson-hormuz-brics-2026-05-06.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-06/transcript-diesen-wilkerson-hormuz-brics-2026-05-06.md)
+- then [transcript-diesen-wilkerson-araghchi-putin-russia-iran-2026-04-28.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-28/transcript-diesen-wilkerson-araghchi-putin-russia-iran-2026-04-28.md)
 
 That pair gives the clearest combination of:
 

@@ -1597,8 +1597,8 @@
     ]
   },
   "artifacts": {
-    "markdown": "C:\\dev\\strategy-codex\\artifacts\\statecraft\\speakers\\speaker-dashboard.md",
-    "json": "C:\\dev\\strategy-codex\\artifacts\\statecraft\\speakers\\speaker-dashboard.json"
+    "markdown": "C:\\dev\\strategy-codex\\artifacts\\statecraft\\civ-lens\\speaker-dashboard.md",
+    "json": "C:\\dev\\strategy-codex\\artifacts\\statecraft\\civ-lens\\speaker-dashboard.json"
   },
   "savedSlices": [
     "chas-freeman",

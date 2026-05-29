@@ -10,7 +10,7 @@ This layer exists so live host-law, host-native routing pressure, and guest-lane
 
 - `statecraft/hosts/` is the canonical home for live host-family continuity in repo-root `statecraft/`
 - `statecraft/sheets/` still owns cross-host comparison notes and compact routing law
-- `statecraft/speakers/` still owns speaker-state identity, support spines, and speaker-native routing
+- `statecraft/civ-lens/` still owns speaker-state identity, support spines, and speaker-native routing
 - `codex/speakers/<host>/...` is compatibility residue only; it may preserve chronology or archive material, but it is not the live authority for host-law
 
 ## Current Migration Front

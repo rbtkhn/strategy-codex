@@ -96,8 +96,8 @@ The operator has also used the system to ask what one corpus can teach the analy
 Concrete examples:
 
 - [recursive-learning-journal.md](recursive-learning-journal.md)
-- Jiang `ph-civ` architecture and cross-volume notes under [statecraft/speakers/jiang/ph-civ/](/C:/dev/strategy-codex/statecraft/speakers/jiang/ph-civ/README.md)
-- Barnes second-order cluster under [statecraft/speakers/barnes/](/C:/dev/strategy-codex/statecraft/speakers/barnes/README.md)
+- Jiang `ph-civ` architecture and cross-volume notes under [statecraft/civ-lens/civ-lens-jiang/ph-civ/](/C:/dev/strategy-codex/statecraft/civ-lens/civ-lens-jiang/ph-civ/README.md)
+- Barnes second-order cluster under [statecraft/civ-lens/civ-lens-barnes/](/C:/dev/strategy-codex/statecraft/civ-lens/civ-lens-barnes/README.md)
 
 The question here is no longer only:
 

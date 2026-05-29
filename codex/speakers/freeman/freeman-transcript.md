@@ -3,7 +3,7 @@
 
 WORK only; not Record.
 
-Compatibility note: this is a legacy continuity transcript surface. Use it as support residue, not as a first-open citation path when the canonical Freeman shelf already lives under [statecraft/speakers/freeman/](/C:/dev/strategy-codex/statecraft/speakers/freeman/README.md) and the person arc, routing note, bounded month ladder, support spine, or raw-input bench already answer the question more directly.
+Compatibility note: this is a legacy continuity transcript surface. Use it as support residue, not as a first-open citation path when the canonical Freeman shelf already lives under [statecraft/civ-lens/civ-lens-freeman/](/C:/dev/strategy-codex/statecraft/civ-lens/civ-lens-freeman/README.md) and the person arc, routing note, bounded month ladder, support spine, or raw-input bench already answer the question more directly.
 
 **Source:** Verbatim blocks from [`daily-strategy-inbox.md`](daily-strategy-inbox.md) that include `thread:freeman` (first line + optional continuation paragraphs), routed on ingest.
 **Length:** Target **≤ 2000 words** per ingest block; whole file soft **≤ 20000 words** after prune (7-day window makes overrun unlikely).

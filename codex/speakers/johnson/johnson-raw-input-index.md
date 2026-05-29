@@ -3,7 +3,7 @@
 WORK only; not Record.
 
 Compatibility note: the canonical Johnson provenance bench now lives at
-[statecraft/speakers/johnson/johnson-raw-input-index.md](/C:/dev/strategy-codex/statecraft/speakers/johnson/johnson-raw-input-index.md).
+[statecraft/civ-lens/civ-lens-johnson/johnson-raw-input-index.md](/C:/dev/strategy-codex/statecraft/civ-lens/civ-lens-johnson/johnson-raw-input-index.md).
 
 This codex-side file is compatibility residue only. Use the statecraft-side
 raw-input index for canonical provenance routing and materialized Johnson

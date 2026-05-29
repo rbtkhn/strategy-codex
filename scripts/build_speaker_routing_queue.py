@@ -98,15 +98,17 @@ def _slug_candidates(value: object) -> list[str]:
 def _rel(path: Path) -> str:
     def _rewrite(relative: str) -> str:
         rel = relative.replace("\\", "/")
-        if "/codex/2026/raw-input/" in f"/{rel}":
-            _, tail = rel.split("/codex/2026/raw-input/", 1)
-            return f"source-archive/statecraft/{tail}"
-        if "/codex/2026/speakers/" in f"/{rel}":
-            _, tail = rel.split("/codex/2026/speakers/", 1)
-            return f"codex/speakers/{tail}"
-        if "/codex/2026/" in f"/{rel}":
-            _, tail = rel.split("/codex/2026/", 1)
-            return f"codex/years/2026/{tail}"
+        parts = rel.split("/")
+        for idx in range(len(parts) - 2):
+            if parts[idx] == "codex" and parts[idx + 1] == "2026":
+                branch = parts[idx + 2]
+                tail = "/".join(parts[idx + 3 :])
+                if branch == "raw-input":
+                    return "source-archive/statecraft" if not tail else f"source-archive/statecraft/{tail}"
+                if branch == "speakers":
+                    return "codex/speakers" if not tail else f"codex/speakers/{tail}"
+                remainder = "/".join(parts[idx + 2 :])
+                return f"codex/years/2026/{remainder}"
         return rel
 
     try:

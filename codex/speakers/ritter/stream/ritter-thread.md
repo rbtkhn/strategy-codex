@@ -3,7 +3,7 @@
 
 WORK only; not Record.
 
-Compatibility note: this file is legacy continuity residue. It is safe for carryover context, but unsafe as a first-open citation surface when the canonical Ritter stack already routes through the person arc, routing note, bounded month synthesis, authored/interview support spine, helix, and raw-input bench at [statecraft/speakers/ritter/README.md](/C:/dev/strategy-codex/statecraft/speakers/ritter/README.md).
+Compatibility note: this file is legacy continuity residue. It is safe for carryover context, but unsafe as a first-open citation surface when the canonical Ritter stack already routes through the person arc, routing note, bounded month synthesis, authored/interview support spine, helix, and raw-input bench at [statecraft/civ-lens/civ-lens-ritter/README.md](/C:/dev/strategy-codex/statecraft/civ-lens/civ-lens-ritter/README.md).
 Compatibility note: unresolved watch placeholders that survive below in machine carryover are non-canonical by definition. When a capture is not yet pinned locally, prefer the named page file or raw-input artifact rather than treating a placeholder watch string as a usable citation.
 
 ## Orthogonality guide
@@ -18,7 +18,7 @@ Quick separation rule:
 
 If a question is about authored forecast structure, host transformation, or canonical routing, route to those named surfaces instead of widening this file.
 
-Compatibility note: this file is a legacy continuity surface from the older expert-thread machinery. In the current Ritter shelf, the canonical orthogonality-bearing structure is the authored forecast ledger plus the interview appearance map, crossed by [statecraft/speakers/ritter/ritter-helix.md](/C:/dev/strategy-codex/statecraft/speakers/ritter/ritter-helix.md) and thickened by the bounded canonical month ladder at [statecraft/speakers/ritter/stream/README.md](/C:/dev/strategy-codex/statecraft/speakers/ritter/stream/README.md), not this file. The dated `ritter-thread-2026-*.md` files are also compatibility residue, not a canonical topical-thread atlas.
+Compatibility note: this file is a legacy continuity surface from the older expert-thread machinery. In the current Ritter shelf, the canonical orthogonality-bearing structure is the authored forecast ledger plus the interview appearance map, crossed by [statecraft/civ-lens/civ-lens-ritter/ritter-helix.md](/C:/dev/strategy-codex/statecraft/civ-lens/civ-lens-ritter/ritter-helix.md) and thickened by the bounded canonical month ladder at [statecraft/civ-lens/civ-lens-ritter/stream/README.md](/C:/dev/strategy-codex/statecraft/civ-lens/civ-lens-ritter/stream/README.md), not this file. The dated `ritter-thread-2026-*.md` files are also compatibility residue, not a canonical topical-thread atlas.
 
 **Source:** Human **narrative journal** (below) + [`transcript.md`](transcript.md) (verbatim ingests) + relevant **`strategy-page`** work (where this expertÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢s material was used).
 **Process:** `python3 scripts/strategy_thread.py` triages inbox ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ transcript, then fills **only** the **machine layer** between the **strategy-expert-thread** HTML start and end comments. Operator / assistant maintains the **journal layer** above the start marker in **readable prose** (optional **ledger** after the end marker).

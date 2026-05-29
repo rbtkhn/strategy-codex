@@ -131,7 +131,7 @@ Default closeout law:
 
 Migration routing law:
 
-- prefer `statecraft/speakers/...` when that shelf is canonical
+- prefer `statecraft/civ-lens/...` when that shelf is canonical
 - use `codex/speakers/...` only when it still owns the real branch surface or when the statecraft side is only a pointer or stub
 
 ## Partial front-door doctrine

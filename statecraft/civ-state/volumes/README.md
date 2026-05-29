@@ -6,6 +6,14 @@ This folder is the front-door volume order for `civ-state`.
 
 It does not replace lane-local `statecraft/<lane>/` storage. It organizes CIV-STATE retrieval so the source base can be opened in one stable civilizational sequence before descending into helix, civilization, empire, state, or transaction surfaces.
 
+For the whole-work apparatus above this shelf, open:
+
+- [Table of Contents](../table-of-contents.md)
+- [Reader Guide](../reader-guide.md)
+- [Glossary](../glossary.md)
+- [Hybrid References](../hybrid-references.md)
+- [Index](../index.md)
+
 The purpose of this volume set is to provide an authoritative working illustration of the **civilization-state** through five concrete cases. Each volume is organized as a sovereignty-chain scaffold nested through the repo's preferred era spine. The canonical Part 1 opening now lives in a legitimacy-bearing civilization essay, the canonical Part 2 opening now lives in an outward-instrument empire essay, and the canonical Part 3 opening now lives in a present-tense statecraft synthesis that turns the volume into a statesman's guidebook.
 
 ## Constitutional Order
@@ -120,6 +128,8 @@ The named `geo-strategy`, `secret-history`, and `game-theory` files remain subst
 ## Usage Rule
 
 - Use a volume README when you need the best current opening sequence for one civilization across time.
+- Use [Table of Contents](../table-of-contents.md) when you want the two-volume work order before choosing one civilization.
+- Use [Reader Guide](../reader-guide.md) when you want the operator's whole-book reading doctrine before entering a single volume.
 - Use [Sacred Grammar Library](../sacred-grammar/README.md) when the object is specifically about deep legitimacy grammar and continuity through rupture.
 - Use the lane README when ownership is already clear and the drafting problem is live.
 - Use [Civilization, Empire, Faith, Science, Memory, Desire](../civilization-empire-faith-science-memory-desire.md) when the object is really about governing layer rather than civilizational carrier.

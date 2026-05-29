@@ -6,8 +6,8 @@ This legacy codex front door is now compatibility-only.
 
 Canonical Parsi statecraft work now lives at:
 
-- [statecraft/speakers/parsi/README.md](/C:/dev/strategy-codex/statecraft/speakers/parsi/README.md)
-- [statecraft/speakers/parsi/index.md](/C:/dev/strategy-codex/statecraft/speakers/parsi/index.md)
+- [statecraft/civ-lens/civ-lens-parsi/README.md](/C:/dev/strategy-codex/statecraft/civ-lens/civ-lens-parsi/README.md)
+- [statecraft/civ-lens/civ-lens-parsi/index.md](/C:/dev/strategy-codex/statecraft/civ-lens/civ-lens-parsi/index.md)
 
 Open the statecraft shelf for:
 

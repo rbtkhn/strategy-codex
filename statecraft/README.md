@@ -8,6 +8,22 @@ Open [statecraft.md](statecraft.md) first when you need the full continuity surf
 
 For the canonical source/synthesis stack, open [Statecraft Archive and Statecraft Synthesis](archive-synthesis-law.md).
 
+`civ-lens` exists so live speaker continuity can stay statecraft-native: canon now lives under `statecraft/civ-lens/civ-lens-<speaker>/`, while `speakers/` remains redirect-only compatibility residue rather than a second authority tree.
+
+## Namespace Note
+
+What changed:
+- live speaker synthesis moved from `statecraft/speakers/` to `statecraft/civ-lens/`
+- canonical migrated shelf paths now read `statecraft/civ-lens/civ-lens-<speaker>/`
+
+Why it matters:
+- statecraft speaker continuity now reads as its own live layer rather than as a leftover generic speakers folder
+- the `civ-lens` name makes the split clearer: `civ-lens` holds whole-speaker continuity, while `hosts` holds host-conditioned guest transformation
+
+What not to worry about:
+- `statecraft/speakers/` still exists as a redirect-only compatibility stub for old links
+- benchmark residue under excluded artifact paths is intentional and does not mean the live migration is incomplete
+
 ## Constitutional Linkage
 
 `statecraft.md` governs how repo-root `statecraft/` may use `civ-state`. `civ-state` is the upstream source-memory substrate: it stores civilizational pattern, continuity, transformation, current carrier, failure mode, counterweight, and transaction hooks. `statecraft` is the downstream operating layer: it routes live objects, assigns lane ownership, selects output form, and converts remembered pattern into authority-, restraint-, and settlement-bearing drafts. `civ-state` gives `statecraft` depth; `statecraft.md` prevents that depth from becoming inert memory or undisciplined analogy by enforcing a governed membrane. Downstream drafts may consume source memory, but upstream correction must return through explicit review rather than silent dual mutation.
@@ -60,7 +76,7 @@ That means the first honest lane menu should ask which transcript-bearing intake
 
 `statecraft civ-state` is the exact named fast path for the upstream CIV-STATE bench. Use it when the question is not yet lane ownership or drafting, but rather CIV-STATE frame judgment, retrieval, membrane promotion, or review. It is distinct from `state-deploy`, distinct from [compact](compact/README.md), and distinct from lane-direct statecraft work.
 
-Speaker-state continuity that belongs to live statecraft now opens from [statecraft/speakers/](speakers/README.md), not from an external speaker shelf by default. The target is whole-corpus statecraft-native speaker continuity, with `codex/speakers/` retained only as compatibility/archive during migration.
+Speaker-state continuity that belongs to live statecraft now opens from [statecraft/civ-lens/](civ-lens/README.md), not from an external speaker shelf by default. The target is whole-corpus statecraft-native speaker continuity, with `codex/speakers/` retained only as compatibility/archive during migration.
 
 Host-native continuity that belongs to live statecraft now opens from [statecraft/hosts/](hosts/README.md), not from retired `codex/speakers/<host>/...` paths.
 

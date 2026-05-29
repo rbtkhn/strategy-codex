@@ -148,7 +148,7 @@ This skill succeeds when the membrane becomes clearer rather than blurrier: the 
   - [PH-CIV promotion ledger](../../../statecraft/civ-state/ph-civ-promotion-ledger.md)
   - [CIV-STATE review queue](../../../statecraft/civ-state/review-queue.md)
 - Public local mirror:
-  - [statecraft/speakers/jiang/ph-civ/README.md](../../../statecraft/speakers/jiang/ph-civ/README.md)
+  - [statecraft/civ-lens/civ-lens-jiang/ph-civ/README.md](../../../statecraft/civ-lens/civ-lens-jiang/ph-civ/README.md)
 - Use this skill before direct CIV-STATE mutation when the conversion rule itself is still doing the hard work.
 
 ## Preferred validation commands after skill edits
