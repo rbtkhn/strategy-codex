@@ -12,9 +12,11 @@ guests:
 title: "Col. Larry Wilkerson & Chas Freeman: WW3 IMMINENT? Shocking Signs We're on the Brink of Global War!"
 channel_url: "https://www.youtube.com/@DialogueWorks01/videos"
 channel_slug: "dialogue-works"
+source_url: "https://www.youtube.com/watch?v=r2Oarv9DrqQ"
 source_type: youtube
 transcript_type: operator_pasted_transcript
-source_note: "Operator pasted full transcript in Codex chat. Direct YouTube watch URL not yet recovered."
+source_note: "Operator pasted full transcript in Codex chat; direct YouTube watch URL later recovered and matched to the title."
+date_note: "Transcript opening states Friday, July 18, 2025; secondary listing evidence pointed to a later July 19, 2025 publication listing, so the spoken in-episode date is preserved as canonical archive date."
 quality_note: "Preserved from operator paste with light normalization only; minor transcript noise may remain."
 ---
 

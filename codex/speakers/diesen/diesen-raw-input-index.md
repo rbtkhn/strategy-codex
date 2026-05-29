@@ -21,7 +21,7 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Glenn
 - [youtube-glenn-diesen-andrei-martyanov-the-war-is-over-and-russia-may-seize-odessa-2025-04-08](../../years/2026/provenance/2025-04-08/youtube-glenn-diesen-andrei-martyanov-the-war-is-over-and-russia-may-seize-odessa-2025-04-08.md)
 - [youtube-glenn-diesen-george-beebe-what-us-russia-reconciliation-means-for-europe-and-ukraine-2025-04-16](../../years/2026/provenance/2025-04-16/youtube-glenn-diesen-george-beebe-what-us-russia-reconciliation-means-for-europe-and-ukraine-2025-04-16.md)
 - [youtube-glenn-diesen-michael-hudson-the-industrial-capitalism-of-china-and-russia-versus-us-neoliberalism-2025-04-20](../../years/2026/provenance/2025-04-20/youtube-glenn-diesen-michael-hudson-the-industrial-capitalism-of-china-and-russia-versus-us-neoliberalism-2025-04-20.md)
-- [youtube-glenn-diesen-lawrence-wilkerson-col-lawrence-wilkerson-washington-s-rivalries-coups-wars-cover-ups-2025-04-27](../../years/2026/provenance/2025-04-27/youtube-glenn-diesen-lawrence-wilkerson-col-lawrence-wilkerson-washington-s-rivalries-coups-wars-cover-ups-2025-04-27.md)
+- [youtube-glenn-diesen-lawrence-wilkerson-col-lawrence-wilkerson-washington-s-rivalries-coups-wars-cover-ups-2025-04-27](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-27/youtube-glenn-diesen-lawrence-wilkerson-col-lawrence-wilkerson-washington-s-rivalries-coups-wars-cover-ups-2025-04-27.md)
 - [youtube-glenn-diesen-andrei-martyanov-the-end-of-nato-2025-04-29](../../years/2026/provenance/2025-04-29/youtube-glenn-diesen-andrei-martyanov-the-end-of-nato-2025-04-29.md)
 
 ## 2025-05

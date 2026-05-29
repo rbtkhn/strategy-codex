@@ -14,7 +14,8 @@ title: "Mohammad Marandi, Larry Wilkerson & Chas Freeman: Talks or Total War? Cl
 source_type: youtube
 transcript_type: operator_pasted_transcript
 capture_status: full-operator-paste
-source_note: "Operator pasted transcript body in Codex chat. Direct YouTube watch URL not yet recovered. The spoken episode open says Friday, April 18, 2025. Earlier secondary discovery also surfaced a later April 20, 2025 article/listing for the same appearance; that conflict is preserved here rather than flattened away."
+source_url: "https://www.youtube.com/watch?v=YZBrlsNJM_k"
+source_note: "Operator pasted transcript body in Codex chat and later supplied the direct YouTube watch URL. The spoken episode open says Friday, April 18, 2025. Earlier secondary discovery also surfaced a later April 20, 2025 article/listing for the same appearance; that conflict is preserved here rather than flattened away."
 quality_note: "Normalized from operator paste for readability; minor transcript noise may remain."
 ---
 

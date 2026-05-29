@@ -50,7 +50,7 @@ The 2025 Dialogue Works shelf was already real, but it is now clearer on disk as
 
 That January cluster makes the lane's early job visible before the later-year thickening: Nima pushes from immediate escalation, Wilkerson answers with strategic failure, live pressure, and force-limit warning. See [wilkerson-january-2025-note.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-january-2025-note.md).
 
-February 2025 remains thinner on disk, but local stream evidence also shows a nearby `2025-02-02` Dialogue Works Wilkerson appearance, *Trump's Weakness Spells Disaster*, which helps confirm that the January cluster was not an isolated burst. See [wilkerson-february-2025-note.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-february-2025-note.md).
+February 2025 remains thinner on disk than January, but [2025-02-02 *Trump's Weakness Spells Disaster*](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-02/transcript-dialogue-works-trumps-weakness-spells-disaster-col-larry-wilkerson-scott-ritter-2025-02-02.md) now confirms that the January cluster was not an isolated burst. See [wilkerson-february-2025-note.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-february-2025-note.md).
 
 Beyond that January proving cluster, the fuller 2025 lane now also includes:
 

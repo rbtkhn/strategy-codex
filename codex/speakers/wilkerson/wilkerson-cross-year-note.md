@@ -21,6 +21,8 @@ The January 2025 Dialogue Works cluster is especially important here because it 
 
 February 2025 matters for a different reason: even as a thin month, it already shows the early host-conditioned split between a live-pressure Dialogue Works Wilkerson and a higher-altitude Diesen Wilkerson. See [wilkerson-february-2025-note.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-february-2025-note.md).
 
+March 2025 currently remains a recovery problem rather than an interpretation-dense month. Its value on the shelf is that it marks the unresolved corridor between the early split and later thickening, not that it already carries a mature materialized cluster. See [wilkerson-march-2025-note.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-march-2025-note.md).
+
 ## How to read it
 
 - [wilkerson-routing.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-routing.md) is the fastest speaker-side routing surface

@@ -26,6 +26,13 @@ The orthogonality-bearing structure on this shelf is:
 - [Cross-year note](../../../speakers/wilkerson/wilkerson-cross-year-note.md)
 - [January 2025 note](../../../speakers/wilkerson/wilkerson-january-2025-note.md)
 - [February 2025 note](../../../speakers/wilkerson/wilkerson-february-2025-note.md)
+- [March 2025 note](../../../speakers/wilkerson/wilkerson-march-2025-note.md)
+- [April 2025 note](../../../speakers/wilkerson/wilkerson-april-2025-note.md)
+- [May 2025 note](../../../speakers/wilkerson/wilkerson-may-2025-note.md)
+- [June 2025 note](../../../speakers/wilkerson/wilkerson-june-2025-note.md)
+- [July 2025 note](../../../speakers/wilkerson/wilkerson-july-2025-note.md)
+- [August 2025 note](../../../speakers/wilkerson/wilkerson-august-2025-note.md)
+- [September 2025 note](../../../speakers/wilkerson/wilkerson-september-2025-note.md)
 
 ## Main Host Arcs
 

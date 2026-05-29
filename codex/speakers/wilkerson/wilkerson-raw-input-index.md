@@ -31,6 +31,7 @@ Short rule:
 
 - [transcript-napolitano-wilkerson-trump-delusional-over-tariffs-and-iran-2025-04-03](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-03/transcript-napolitano-wilkerson-trump-delusional-over-tariffs-and-iran-2025-04-03.md)
 - [transcript-dialogue-works-mohammad-marandi-larry-wilkerson-and-chas-freeman-on-middle-east-erupts-iran-challenges-ultimatum-2025-04-04](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-04/transcript-dialogue-works-mohammad-marandi-larry-wilkerson-and-chas-freeman-on-middle-east-erupts-iran-challenges-ultimatum-2025-04-04.md)
+- [transcript-dialogue-works-yemeni-missiles-slam-us-navy-iran-us-tension-skyrockets-col-larry-wilkerson-larry-c-johnson-2025-04-05](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-05/transcript-dialogue-works-yemeni-missiles-slam-us-navy-iran-us-tension-skyrockets-col-larry-wilkerson-larry-c-johnson-2025-04-05.md)
 - [transcript-napolitano-wilkerson-will-trump-deport-americans-2025-04-10](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-10/transcript-napolitano-wilkerson-will-trump-deport-americans-2025-04-10.md)
 - [transcript-napolitano-wilkerson-are-neocons-ascendant-2025-04-17](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-17/transcript-napolitano-wilkerson-are-neocons-ascendant-2025-04-17.md)
 - [transcript-dialogue-works-mohammad-marandi-larry-wilkerson-and-chas-freeman-talks-or-total-war-clock-ticks-for-iran-and-u-s-2025-04-18](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-18/transcript-dialogue-works-mohammad-marandi-larry-wilkerson-and-chas-freeman-talks-or-total-war-clock-ticks-for-iran-and-u-s-2025-04-18.md)
@@ -38,21 +39,35 @@ Short rule:
 
 ## 2025-05
 
+- [transcript-dialogue-works-larry-c-johnson-col-larry-wilkerson-trumps-bold-middle-east-gambit-russia-ukraine-collapse-2025-05-16](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-16/transcript-dialogue-works-larry-c-johnson-col-larry-wilkerson-trumps-bold-middle-east-gambit-russia-ukraine-collapse-2025-05-16.md)
+- [transcript-dialogue-works-col-larry-wilkerson-russia-launches-massive-new-offensive-the-battle-to-win-it-all-2025-05-27](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-27/transcript-dialogue-works-col-larry-wilkerson-russia-launches-massive-new-offensive-the-battle-to-win-it-all-2025-05-27.md)
 - [transcript-dialogue-works-lawrence-wilkerson-larry-wilkerson-chas-freeman-why-america-s-missing-grand-strategy-could-be-a-global-disaster-2025-05-30](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-30/transcript-dialogue-works-lawrence-wilkerson-larry-wilkerson-chas-freeman-why-america-s-missing-grand-strategy-could-be-a-global-disaster-2025-05-30.md)
 
 ## 2025-06
 
-- [youtube-glenn-diesen-lawrence-wilkerson-col-lawrence-wilkerson-from-perpetual-peace-to-world-war-2025-06-16](../../years/2026/provenance/2025-06-16/youtube-glenn-diesen-lawrence-wilkerson-col-lawrence-wilkerson-from-perpetual-peace-to-world-war-2025-06-16.md)
+- [transcript-napolitano-wilkerson-what-did-trump-know-of-drone-attacks-2025-06-05](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-05/transcript-napolitano-wilkerson-what-did-trump-know-of-drone-attacks-2025-06-05.md)
+- [transcript-going-underground-wilkerson-israels-mossad-is-everywhere-and-all-over-ukraine-russia-has-won-2025-06-09](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-09/transcript-going-underground-wilkerson-israels-mossad-is-everywhere-and-all-over-ukraine-russia-has-won-2025-06-09.md)
+- [transcript-napolitano-wilkerson-foreign-policy-in-chaos-2025-06-13](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-13/transcript-napolitano-wilkerson-foreign-policy-in-chaos-2025-06-13.md)
+- [transcript-dialogue-works-col-larry-wilkerson-and-chas-freeman-israel-s-attack-on-iran-and-its-devastating-consequences-2025-06-14](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-14/transcript-dialogue-works-col-larry-wilkerson-and-chas-freeman-israel-s-attack-on-iran-and-its-devastating-consequences-2025-06-14.md)
+- [youtube-glenn-diesen-lawrence-wilkerson-col-lawrence-wilkerson-from-perpetual-peace-to-world-war-2025-06-16](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-16/youtube-glenn-diesen-lawrence-wilkerson-col-lawrence-wilkerson-from-perpetual-peace-to-world-war-2025-06-16.md)
+- [transcript-the-source-wilkerson-who-will-win-the-iran-israel-war-2025-06-19](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-19/transcript-the-source-wilkerson-who-will-win-the-iran-israel-war-2025-06-19.md)
+- [transcript-dialogue-works-col-larry-wilkerson-amb-chas-freeman-and-trita-parsi-the-us-could-face-a-war-it-can-t-win-2025-06-22](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-22/transcript-dialogue-works-col-larry-wilkerson-amb-chas-freeman-and-trita-parsi-the-us-could-face-a-war-it-can-t-win-2025-06-22.md)
 
 ## 2025-07
 
-- [youtube-dialogue-works-israel-wont-survive-next-war-with-iran-yemen-proved-it-larry-c-johnson-col-larry-wilkerson-2025-07-20](../../years/2026/provenance/2025-07-20/youtube-dialogue-works-israel-wont-survive-next-war-with-iran-yemen-proved-it-larry-c-johnson-col-larry-wilkerson-2025-07-20.md)
-- [youtube-glenn-diesen-lawrence-wilkerson-lawrence-wilkerson-how-we-encircled-russia-and-made-europe-a-vassal-divide-rule-2025-07-30](../../years/2026/provenance/2025-07-30/youtube-glenn-diesen-lawrence-wilkerson-lawrence-wilkerson-how-we-encircled-russia-and-made-europe-a-vassal-divide-rule-2025-07-30.md)
+- [transcript-napolitano-wilkerson-does-the-deep-state-control-trump-2025-07-09](/C:/dev/strategy-codex/source-archive/statecraft/2025-07-09/transcript-napolitano-wilkerson-does-the-deep-state-control-trump-2025-07-09.md)
+- [transcript-dialogue-works-col-larry-wilkerson-and-chas-freeman-ww3-imminent-shocking-signs-we-re-on-the-brink-of-global-war-2025-07-18](/C:/dev/strategy-codex/source-archive/statecraft/2025-07-18/transcript-dialogue-works-col-larry-wilkerson-and-chas-freeman-ww3-imminent-shocking-signs-we-re-on-the-brink-of-global-war-2025-07-18.md)
+- [youtube-dialogue-works-israel-wont-survive-next-war-with-iran-yemen-proved-it-larry-c-johnson-col-larry-wilkerson-2025-07-20](/C:/dev/strategy-codex/source-archive/statecraft/2025-07-20/youtube-dialogue-works-israel-wont-survive-next-war-with-iran-yemen-proved-it-larry-c-johnson-col-larry-wilkerson-2025-07-20.md)
+- [youtube-glenn-diesen-lawrence-wilkerson-lawrence-wilkerson-how-we-encircled-russia-and-made-europe-a-vassal-divide-rule-2025-07-30](/C:/dev/strategy-codex/source-archive/statecraft/2025-07-30/youtube-glenn-diesen-lawrence-wilkerson-lawrence-wilkerson-how-we-encircled-russia-and-made-europe-a-vassal-divide-rule-2025-07-30.md)
 
 ## 2025-08
 
+- [transcript-dialogue-works-larry-c-johnson-col-larry-wilkerson-hezbollah-rejects-iran-and-russia-push-back-2025-08-08](/C:/dev/strategy-codex/source-archive/statecraft/2025-08-08/transcript-dialogue-works-larry-c-johnson-col-larry-wilkerson-hezbollah-rejects-iran-and-russia-push-back-2025-08-08.md)
 - [youtube-dialogue-works-trumps-plan-to-threaten-putin-with-sanctions-submarines-col-larry-wilkerson-scott-ritter-2025-08-10](../../years/2026/provenance/2025-08-10/youtube-dialogue-works-trumps-plan-to-threaten-putin-with-sanctions-submarines-col-larry-wilkerson-scott-ritter-2025-08-10.md)
+- [transcript-dialogue-works-col-larry-wilkerson-trumps-power-play-ignites-chaos-and-its-only-the-start-2025-08-12](/C:/dev/strategy-codex/source-archive/statecraft/2025-08-12/transcript-dialogue-works-col-larry-wilkerson-trumps-power-play-ignites-chaos-and-its-only-the-start-2025-08-12.md)
+- [transcript-dialogue-works-larry-c-johnson-col-larry-wilkerson-trump-and-putin-in-alaska-deals-drama-and-dangerous-moves-2025-08-15](/C:/dev/strategy-codex/source-archive/statecraft/2025-08-15/transcript-dialogue-works-larry-c-johnson-col-larry-wilkerson-trump-and-putin-in-alaska-deals-drama-and-dangerous-moves-2025-08-15.md)
 - [youtube-glenn-diesen-lawrence-wilkerson-lawrence-wilkerson-defeated-and-divided-nato-s-existential-crisis-2025-08-21](../../years/2026/provenance/2025-08-21/youtube-glenn-diesen-lawrence-wilkerson-lawrence-wilkerson-defeated-and-divided-nato-s-existential-crisis-2025-08-21.md)
+- [transcript-dialogue-works-col-larry-wilkerson-warning-signs-everywhere-us-on-the-verge-of-disaster-2025-08-26](/C:/dev/strategy-codex/source-archive/statecraft/2025-08-26/transcript-dialogue-works-col-larry-wilkerson-warning-signs-everywhere-us-on-the-verge-of-disaster-2025-08-26.md)
 
 ## 2025-09
 
@@ -105,6 +120,7 @@ Short rule:
 ## 2026-04
 
 - [transcript-diesen-wilkerson-araghchi-putin-russia-iran-2026-04-28](../../years/2026/provenance/2026-04-28/transcript-diesen-wilkerson-araghchi-putin-russia-iran-2026-04-28.md)
+- [transcript-shaun-attwood-wilkerson-will-us-israel-v-iran-war-become-a-world-war-2026-04-29](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-29/transcript-shaun-attwood-wilkerson-will-us-israel-v-iran-war-become-a-world-war-2026-04-29.md)
 - [transcript-wilkerson-judging-freedom-iran-new-friend-2026-04-30](../../years/2026/provenance/2026-04-30/transcript-wilkerson-judging-freedom-iran-new-friend-2026-04-30.md)
 
 ## 2026-05
@@ -113,6 +129,8 @@ Short rule:
 - [transcript-diesen-wilkerson-hormuz-brics-2026-05-06](../../years/2026/provenance/2026-05-06/transcript-diesen-wilkerson-hormuz-brics-2026-05-06.md)
 - [youtube-glenn-diesen-lawrence-wilkerson-trump-xi-meeting-after-u-s-defeat-in-iran-2026-05-15](../../years/2026/provenance/2026-05-15/youtube-glenn-diesen-lawrence-wilkerson-trump-xi-meeting-after-u-s-defeat-in-iran-2026-05-15.md)
 - [youtube-wilkerson-mario-nawfal-heated-arguments-in-white-house-2026-05-20](../../years/2026/provenance/2026-05-20/youtube-wilkerson-mario-nawfal-heated-arguments-in-white-house-2026-05-20.md)
+- [transcript-dialogue-works-larry-johnson-col-wilkerson-irans-unseen-move-us-laser-destroyers-cant-stop-whats-coming-2026-05-22](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-22/transcript-dialogue-works-larry-johnson-col-wilkerson-irans-unseen-move-us-laser-destroyers-cant-stop-whats-coming-2026-05-22.md)
+- [youtube-glenn-diesen-lawrence-wilkerson-failing-to-adjust-to-a-multipolar-world-2026-05-26](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/youtube-glenn-diesen-lawrence-wilkerson-failing-to-adjust-to-a-multipolar-world-2026-05-26.md)
 
 ## Discovery Surfaces
 
