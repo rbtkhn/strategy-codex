@@ -97,33 +97,33 @@ Roman-Christian universality and conciliar continuity:
 
 - Augustine, *City of God*
 - Boethius, *Consolation of Philosophy*
-- Acts and canons of Nicaea
-- Acts and canons of Chalcedon
-- Pseudo-Isidorean decretals as part of the medieval jurisdictional field
+- *Acts of Nicaea*
+- *Acts of Chalcedon*
+- *Pseudo-Isidorean Decretals*
 - Gratian, *Decretum*
 - Boniface VIII, *Unam Sanctam*
 
 Italian city-states and Roman civic residue:
 
-- Venetian promissione and constitutional materials
+- *Promissione del doge*
 - Giovanni Villani, *Nuova Cronica*
 - Dante, *De Monarchia*
 - Dante, *Divine Comedy*
 - Marco Polo, *Il Milione* / *Travels*
-- Italian communal statutes where Roman law, urban self-rule, and imperial residue are reworked in civic form
+- *Ordinamenti della Giustizia*
 
 Holy Roman Empire and transalpine Roman claim:
 
 - Einhard, *Life of Charlemagne*
-- Imperial coronation and renovatio texts from the Carolingian and Ottonian worlds
+- Ottonian imperial coronation ordines and renovatio imperii texts
 - Gregory VII, *Dictatus Papae*
 - Frederick II, *Liber Augustalis* / *Constitutions of Melfi*
 - Golden Bull of 1356
-- Sachsenspiegel where imperial and legal order become regionally legible within the Roman field
+- *Sachsenspiegel*
 
 France and Capetian / post-Carolingian successor-order formation:
 
-- Capetian coronation ordines
+- *Ordo of Reims*
 - Suger of Saint-Denis, *Life of Louis VI*
 - Joinville, *Life of Saint Louis*
 - Beaumanoir, *Coutumes de Beauvaisis*
@@ -133,7 +133,7 @@ Iberian kingdoms and frontier Christendom:
 - Visigothic legal residue, especially the *Liber Iudiciorum* / *Fuero Juzgo*
 - *Usatges de Barcelona*
 - Alfonso X, *Siete Partidas*
-- Reconquista chronicles and frontier-political texts where Christian monarchy, legal order, and Roman residue are recombined
+- *Historia Roderici*
 - *Chronica Adefonsi Imperatoris*
 - James I of Aragon, *Llibre dels Fets*
 
@@ -142,8 +142,10 @@ Medieval retrieval priority:
 - the Eastern Roman Empire as continuity state rather than appendix
 - law, liturgy, and imperial universality under transformed carriers
 - papacy and empire as rival Roman claimants
-- Italian civic residue without losing the imperial frame
-- France and Iberia as successor-order adaptations rather than simply non-Roman outsiders
+- rupture as constitutive, especially 1204 and 1453
+- Italy as civic and maritime Roman residue without losing the imperial frame
+- France as successor adaptation rather than primary Roman carriage
+- Iberia as frontier Roman residue under reconquest conditions
 
 ### Colonial
 
