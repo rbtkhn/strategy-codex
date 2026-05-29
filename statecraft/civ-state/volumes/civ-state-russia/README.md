@@ -15,6 +15,13 @@ Primary live lane: [Russia statecraft lane](../../../russia/README.md)
 - Deep grammar retrieval: [Russia sacred grammar](../../sacred-grammar/russia.md)
 - Sovereign opening: Rurik as the foundational sovereign
 - Current carrier: present Russian state / Russian Federation
+- Civilization chapter: [Russia civilization](civilization-russia.md)
+- Empire chapter: [Russia empire](empire-russia.md)
+- Statecraft chapter: [Russia statecraft](statecraft-russia.md)
+- Sovereign continuity support note: [Russia sovereign continuity](sovereign-continuity.md)
+- Geo-strategy chapter: [Russia geo-strategy](geo-strategy-russia.md)
+- Secret-history chapter: [Russia secret-history](secret-history-russia.md)
+- Game-theory chapter: [Russia game-theory](game-theory-russia.md)
 - Spine law: order-restoring authority is accepted first, sacralized later, licensed under domination if necessary, and then internalized by one regathering center
 
 **Civilization-State Diagnostic**

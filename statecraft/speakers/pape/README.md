@@ -54,4 +54,4 @@ The legacy `codex/speakers/pape/` path is now front-door compatibility only.
 
 ## Boundary
 
-Pape is canonical here under `statecraft/speakers/pape/`. Raw-text authority stays in [/C:/dev/strategy-codex/source-archive/statecraft/](/C:/dev/strategy-codex/source-archive/statecraft), bridge adapters remain in [/C:/dev/strategy-codex/statecraft/bridges/README.md](/C:/dev/strategy-codex/statecraft/bridges/README.md), and lanes still own substantive drafting.
+Pape is canonical here under `statecraft/speakers/pape/` as a Statecraft Synthesis shelf. Raw-text authority stays in the **Statecraft Archive** ([`source-archive/statecraft/`](/C:/dev/strategy-codex/source-archive/statecraft)), bridge adapters remain in [`statecraft/bridges/`](/C:/dev/strategy-codex/statecraft/bridges/README.md), and lanes still own substantive drafting.

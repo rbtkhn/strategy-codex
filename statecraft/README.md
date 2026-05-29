@@ -6,9 +6,23 @@ This is the front-door orientation module for repo-root `statecraft/`.
 
 Open [statecraft.md](statecraft.md) first when you need the full continuity surface. Open this README when the continuity frame is already live and you just need to enter the right lane or next working surface.
 
+For the canonical source/synthesis stack, open [Statecraft Archive and Statecraft Synthesis](archive-synthesis-law.md).
+
 ## Constitutional Linkage
 
 `statecraft.md` governs how repo-root `statecraft/` may use `civ-state`. `civ-state` is the upstream source-memory substrate: it stores civilizational pattern, continuity, transformation, current carrier, failure mode, counterweight, and transaction hooks. `statecraft` is the downstream operating layer: it routes live objects, assigns lane ownership, selects output form, and converts remembered pattern into authority-, restraint-, and settlement-bearing drafts. `civ-state` gives `statecraft` depth; `statecraft.md` prevents that depth from becoming inert memory or undisciplined analogy by enforcing a governed membrane. Downstream drafts may consume source memory, but upstream correction must return through explicit review rather than silent dual mutation.
+
+For source and speaker layering, use this vertical law:
+
+`Statecraft Archive -> Statecraft Synthesis -> host law / bridge conditioning -> CIV-STATE retrieval -> lane drafting`
+
+Read it as a governed stack, not a loose cluster of shelves:
+
+- `Statecraft Archive` preserves source truth
+- `Statecraft Synthesis` interprets that truth into reusable speaker-side objects
+- host law and bridge conditioning transform retrieval posture without replacing the archive or the synthesis layer
+- `civ-state` retrieves deep pattern memory for the live object
+- lanes own drafting, instrument choice, and settlement-bearing output
 
 ```mermaid
 flowchart TD
@@ -38,6 +52,8 @@ flowchart TD
 
 The first decision is which constitutional layer is actually carrying the next move. If ownership is unresolved, use `state-deploy`. If the object is already multi-actor and mechanism-shaped, use [compact](compact/README.md). If ownership is already clear and the object is Persia speaker-heavy, `statecraft-bridge` is the post-lane retrieval step when adapter choice is still the real uncertainty.
 
+`statecraft civ-state` is the exact named fast path for the upstream CIV-STATE bench. Use it when the question is not yet lane ownership or drafting, but rather CIV-STATE frame judgment, retrieval, membrane promotion, or review. It is distinct from `state-deploy`, distinct from [compact](compact/README.md), and distinct from lane-direct statecraft work.
+
 Speaker-state continuity that belongs to live statecraft now opens from [statecraft/speakers/](speakers/README.md), not from an external speaker shelf by default. The target is whole-corpus statecraft-native speaker continuity, with `codex/speakers/` retained only as compatibility/archive during migration.
 
 Host-native continuity that belongs to live statecraft now opens from [statecraft/hosts/](hosts/README.md), not from retired `codex/speakers/<host>/...` paths.
@@ -58,9 +74,11 @@ Named recent events no longer open a separate `current-event` function. Verify t
 - Need the fastest cold-open rule? `statecraft.md -> crisis object -> lane ownership -> output form`.
 - Need the next-week operator roadmap? Open [statecraft-v1-upgrade-plan-2026-05-25.md](statecraft-v1-upgrade-plan-2026-05-25.md).
 - Need lane ownership? Open `state-deploy`.
+- Need the upstream CIV-STATE bench itself? Open `statecraft civ-state`.
 - Need to turn a named recent event into a statecraft object? Verify it, name the crisis object, then open `state-deploy`.
 - Need a cross-lane mechanism or objection-shaped object? Open [compact](compact/README.md).
 - Need a Persia retrieval profile after lane ownership is clear? Open `statecraft-bridge`.
+- Need CIV-STATE frame / retrieval / promotion / review without starting book work? Open `statecraft civ-state`.
 - Need the current default worked instrument? Open [Hormuz recognition transit transaction](persia/transactions/hormuz-recognition-transit-transaction.md).
 - Need the shared crisis-object fit check? Open [Transaction Router](sheets/transaction-router.md).
 - Need the shortest teaching path from a named recent event to a draftable instrument? Open [Verified live-event to instrument](sheets/verified-live-event-to-instrument.md).
@@ -102,10 +120,19 @@ Read the stack in this order:
 
 The practical rule is simple: `civ-state` remembers, `statecraft` drafts, and repo-root `statecraft/` is where those two layers now meet in the open.
 
-Archive law:
+Archive and synthesis law:
 
-- `source-archive/statecraft/` stores source-bearing full captures for statecraft
+The canonical definition note for this pair lives at [Statecraft Archive and Statecraft Synthesis](archive-synthesis-law.md).
+
+- **Statecraft Archive** is the canonical source-bearing layer for live statecraft work: transcript-bearing captures, provenance-bearing captures, raw-input bundles, and source-complete evidence. Its underlying path remains `source-archive/statecraft/`.
+- **Statecraft Synthesis** is the first coherent interpretive layer above that archive: speaker arcs, routing notes, helixes / crossing surfaces, support spines, and bounded month-support synthesis shelves.
 - `statecraft/` owns live routing, continuity, bridge conditioning, and drafting control
 - `statecraft/audits/` owns live speaker trust and accuracy tracking without collapsing them into one score
+
+Boundary law:
+
+- Statecraft Archive preserves source truth.
+- Statecraft Synthesis interprets that truth.
+- Host law, bridges, CIV-STATE retrieval, and lanes remain downstream and should not be mistaken for the archive itself.
 
 The former academy entrypoint remains at [codex/academy/statecraft/README.md](/C:/dev/strategy-codex/codex/academy/statecraft/README.md) as a compatibility pointer during migration. The repo-root `statecraft/` tree is the canonical live system.

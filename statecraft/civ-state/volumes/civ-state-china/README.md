@@ -13,6 +13,13 @@ Primary live lane: [China statecraft lane](../../../china/README.md)
 - Deep grammar retrieval: [China sacred grammar](../../sacred-grammar/china.md)
 - Sovereign opening: Yu the Great as the traditional foundational sovereign
 - Current carrier: PRC party-state
+- Civilization chapter: [China civilization](civilization-china.md)
+- Empire chapter: [China empire](empire-china.md)
+- Statecraft chapter: [China statecraft](statecraft-china.md)
+- Sovereign continuity support note: [China sovereign continuity](sovereign-continuity.md)
+- Geo-strategy chapter: [China geo-strategy](geo-strategy-china.md)
+- Secret-history chapter: [China secret-history](secret-history-china.md)
+- Game-theory chapter: [China game-theory](game-theory-china.md)
 - Opener note: Xia is the foundational narrative layer and early state memory, not equally firm documentary administration
 - Spine law: early order is narrated traditionally, mandate grammar clarifies legitimacy, administrative standardization hardens the chain, and rupture is answered by reconstitution rather than by constitutional continuity alone
 

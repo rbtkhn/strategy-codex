@@ -12,7 +12,31 @@ Short constitutional split:
 
 `civ-state remembers -> statecraft drafts`
 
+## Command Door
+
+`statecraft civ-state` is the preferred exact command door for CIV-STATE as an analysis bench.
+
+Use it when the real question is:
+
+- frame
+- retrieval
+- membrane promotion
+- review
+
+Its fixed action families are:
+
+- `A. Frame`
+- `B. Retrieve`
+- `C. Promote`
+- `D. Review`
+
+The menu stays fixed; only the live recommendation changes.
+
+This command is not default book-authoring mode. If the operator explicitly wants to work on the CIV-STATE books, route out into the volume-architecture or part-writer surfaces rather than hiding that shift inside the command.
+
 `statecraft.md` is the constitutional kernel that governs how repo-root `statecraft/` may use `civ-state`. `civ-state` is the upstream source-memory substrate: it stores civilizational pattern, continuity, transformation, current carrier, failure mode, counterweight, and transaction hooks. `statecraft` is the downstream operating layer: it routes live objects, assigns lane ownership, selects output form, and converts remembered pattern into authority-, restraint-, and settlement-bearing drafts. `civ-state` gives `statecraft` depth; `statecraft.md` prevents that depth from becoming inert memory or undisciplined analogy by enforcing a governed membrane. Downstream drafts may consume source memory, but upstream correction must return through explicit review rather than silent dual mutation.
+
+When the live question is still about source-bearing archive truth versus speaker-side interpretive continuity, open [Statecraft Archive and Statecraft Synthesis](../archive-synthesis-law.md) before treating `civ-state` retrieval as the next real layer.
 
 ```mermaid
 flowchart TD
@@ -102,7 +126,32 @@ Each volume is internally ordered by `Ancient / Medieval / Colonial / Industrial
 
 The order is chronological by **sovereignty-chain emergence**, not by the earliest possible mythic, sacred, or ethnocultural precursor. That is why China remains first, Persia second, Rome third, Russia fourth, and America fifth.
 
-This volume layer organizes retrieval and source-memory entry. It does not replace the live lane-local storage under repo-root `statecraft/<lane>/`. Each volume should now be read as a chain-of-sovereignty argument nested through the five-era spine, not as a loose bibliography.
+This volume layer organizes retrieval and source-memory entry. It does not replace the live lane-local storage under repo-root `statecraft/<lane>/`. Each volume should now be read as a constitutional book-form nested through the five-era spine rather than as a loose bibliography.
+
+## Volume Part Law
+
+Each CIV-STATE volume now opens through a fixed three-part law:
+
+1. `civilization-<civ>.md`
+2. `empire-<civ>.md`
+3. `statecraft-<civ>.md`
+
+`README.md` is the front door, not a chapter.
+
+The three parts do different work:
+
+- `Civilization` legitimates the core, carries the continuity-bearing order, and orients the operator to what kind of civilization-state this is.
+- `Empire` exposes the outward instrument: projection stack, coercive carriage, maintenance burden, and overreach risk.
+- `Statecraft` converts the first two into a present-tense diplomatic read of pressure, room, legitimacy, equilibrium, and settlement possibility.
+
+The named `geo-strategy-<civ>.md`, `secret-history-<civ>.md`, and `game-theory-<civ>.md` files remain substantive, but they now sit beneath Part 3 as **Statecraft sub-essays**, not as coequal volume-opening parts. Legacy `sovereign-continuity.md` files may remain on disk as support notes, but they are no longer the canonical Part 1 opening surface.
+
+Use the three-part law operationally:
+
+- open `Civilization` first when the problem is legitimacy, continuity, or category membership
+- open `Empire` next when the problem is reach, burden, outward instrument, or overreach
+- open `Statecraft` when the problem is a live diplomatic read rather than historical structure alone
+- descend into `geo-strategy`, `secret-history`, and `game-theory` only after Part 3 makes the pressure geometry clearer
 
 ## Alias Doors
 
@@ -142,10 +191,11 @@ Terminology note:
 Statecraft lanes use this source chain:
 
 1. CIV-STATE supplies the Civilization and Empire source pattern.
-2. Lane-local `civilization/` and `empire/` files translate that pattern into inherited code and outward reach.
-3. Lane-local `state/` files name the current authority carrier.
-4. `helix.md` regulates the tension between inherited code and imperial instrument.
-5. `transactions/` test whether the regulated pattern can become authority, restraint, and settlement.
+2. Volume-local `civilization-<civ>.md`, `empire-<civ>.md`, and `statecraft-<civ>.md` convert that pattern into a stable book-form for operator retrieval.
+3. Part 3 descends through `geo-strategy`, `secret-history`, and `game-theory` when a narrower pressure lens is required.
+4. Lane-local `civilization/`, `empire/`, and `state/` files translate the volume read into inherited code, outward reach, and current authority carrier.
+5. `helix.md` regulates the tension between inherited code and imperial instrument.
+6. `transactions/` test whether the regulated pattern can become authority, restraint, and settlement.
 
 ## What CIV-STATE Optimizes For
 
@@ -170,6 +220,7 @@ Each CIV-STATE source object should be short and usable. It should include:
 ## Indexes
 
 - [Volume map](volumes/README.md) - preferred civilization-first opening order for CIV-STATE.
+- [CIV-STATE volumes](volumes/README.md) - canonical three-part volume shelf with subordinate Statecraft sub-essays.
 - [PH-CIV to CIV-STATE bridge](ph-civ-to-civ-state-bridge.md) - explicit method note for converting public Predictive History pattern into compact civilization-state source memory without collapsing the two layers.
 - [PH-CIV promotion ledger](ph-civ-promotion-ledger.md) - compact intake surface for deciding when a public `ph-civ` insight deserves promotion into `civ-state` before any upstream mutation is staged.
 - [Sovereign continuity of the CIV-states](sovereign-continuity-of-the-civ-states.md) - compact comparative note on how the five cases carry continuity-bearing sovereignty through rupture.
@@ -192,6 +243,10 @@ Use the front door that matches the actual operator question:
 
 - `which civilization-state volume should I open first?`
   - open [Volume map](volumes/README.md)
+- `I want the CIV-STATE analysis bench itself`
+  - open `statecraft civ-state`
+- `which part of a CIV-STATE volume should I open first?`
+  - open [Volume map](volumes/README.md) and follow `Civilization -> Empire -> Statecraft`
 - `which governing pair is really carrying this live object?`
   - open [Civilizational Statecraft Framework](civilization-empire-faith-science-memory-desire.md)
 - `which deep legitimacy grammar is load-bearing here?`
@@ -203,7 +258,7 @@ Use the front door that matches the actual operator question:
 
 Short rule:
 
-`volume map = civilization-first entry`
+`volume map = civilization-first entry and three-part volume law`
 
 `framework = governing-pair diagnosis`
 

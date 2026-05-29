@@ -22,7 +22,7 @@ Use it for speaker identity, host continuity, route maps, bounded 2026 monthly s
 
 Freeman's canonical structure now has five speaker-owned layers:
 
-- **Person arc:** [freeman-arc.md](freeman-arc.md) holds whole-speaker continuity across hosts, contexts, and time.
+- **Person arc:** [freeman-arc.md](freeman-arc.md) is the primary Statecraft Synthesis surface for Freeman continuity across hosts, contexts, and time.
 - **Routing surface:** [freeman-routing.md](freeman-routing.md) answers which host lane or monthly shelf to open first.
 - **Provenance bench:** [freeman-raw-input-index.md](freeman-raw-input-index.md) remains the canonical route map for materialized Freeman appearances.
 - **Crossing surface:** [freeman-helix.md](freeman-helix.md) explains how the four core host lanes and non-core bench belong to one Freeman object.
@@ -66,4 +66,4 @@ The legacy `codex/speakers/freeman/` path is now front-door compatibility only.
 
 ## Boundary
 
-Freeman is canonical here under `statecraft/speakers/freeman/`. Raw-text authority stays in [`source-archive/statecraft/`](/C:/dev/strategy-codex/source-archive/statecraft), bridge adapters still live under [`statecraft/bridges/`](/C:/dev/strategy-codex/statecraft/bridges/README.md), and lanes still own substantive drafting.
+Freeman is canonical here under `statecraft/speakers/freeman/` as a Statecraft Synthesis shelf. Raw-text authority stays in the **Statecraft Archive** ([`source-archive/statecraft/`](/C:/dev/strategy-codex/source-archive/statecraft)), bridge adapters still live under [`statecraft/bridges/`](/C:/dev/strategy-codex/statecraft/bridges/README.md), and lanes still own substantive drafting.

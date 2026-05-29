@@ -22,7 +22,7 @@ For Barnes-facing analysis of method, rhetoric, and cross-host speaker function,
 
 Barnes's canonical statecraft shelf currently has five speaker-owned layers:
 
-- **Person arc:** [barnes-arc.md](barnes-arc.md) holds whole-speaker continuity across hosts and the January through May 2026 run.
+- **Person arc:** [barnes-arc.md](barnes-arc.md) is the primary Statecraft Synthesis surface for Barnes continuity across hosts and the January through May 2026 run.
 - **Routing surface:** [barnes-routing.md](barnes-routing.md) answers which host lane or source file to open first for a given Barnes use.
 - **Provenance bench:** [barnes-raw-input-index.md](barnes-raw-input-index.md) is the canonical route map for materialized Barnes appearances and support-tier Barnes-adjacent captures.
 - **Cross-host note:** [barnes-helix.md](barnes-helix.md) explains the real host-conditioned structure without overstating non-Davis maturity.
@@ -56,4 +56,4 @@ The legacy `codex/speakers/barnes/` path is now front-door compatibility only.
 
 ## Boundary
 
-Barnes is canonical here under `statecraft/speakers/barnes/`. Raw-text authority stays in [`source-archive/statecraft/`](/C:/dev/strategy-codex/source-archive/statecraft), host-local chronology still lives primarily in host arcs and source captures, and this shelf is a routing and synthesis surface only.
+Barnes is canonical here under `statecraft/speakers/barnes/` as a Statecraft Synthesis shelf. Raw-text authority stays in the **Statecraft Archive** ([`source-archive/statecraft/`](/C:/dev/strategy-codex/source-archive/statecraft)), host-local chronology still lives primarily in host arcs and source captures, and this shelf is a routing and synthesis surface only.

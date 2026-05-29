@@ -258,6 +258,7 @@ When hub **D** is chosen, reply with a bounded **Singularity menu - reply A-D** 
   - `B. Compact - cross-lane or objection-shaped object`
   - `C. Speaker-Bridge - Persia/Iran speaker-heavy object after ownership is clear`
   - `D. Lane Direct - ownership already clear`
+  - exact CIV-STATE follow-on is also valid here: `statecraft civ-state` opens the upstream CIV-STATE bench for `Frame / Retrieve / Promote / Review`, rather than routing directly into lanes or book-writing
 
   Use recommendation law:
   - recommend **A** when ownership is still unsettled

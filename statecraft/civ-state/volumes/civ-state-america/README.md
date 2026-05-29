@@ -16,6 +16,13 @@ Primary live lane: [America statecraft lane](../../../america/README.md)
 - Sovereign opening: Alfred the Great as the foundational continuity sovereign
 - Birth of present state: 1776
 - Current carrier: United States
+- Civilization chapter: [America civilization](civilization-america.md)
+- Empire chapter: [America empire](empire-america.md)
+- Statecraft chapter: [America statecraft](statecraft-america.md)
+- Sovereign continuity support note: [America sovereign continuity](sovereign-continuity.md)
+- Geo-strategy chapter: [America geo-strategy](geo-strategy-america.md)
+- Secret-history chapter: [America secret-history](secret-history-america.md)
+- Game-theory chapter: [America game-theory](game-theory-america.md)
 - Durable constitutional carrier: 1789
 
 **Civilization-State Diagnostic**

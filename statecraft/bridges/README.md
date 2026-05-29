@@ -7,11 +7,13 @@ Purpose: connect speaker-arc interpretation to `civ-state` retrieval without col
 This bridge layer is a quiet statecraft substrate. It lives under repo-root `statecraft/`, not on the speaker shelves, because its job is to regulate how statecraft retrieval uses speaker arcs rather than to redefine the arcs themselves.
 
 For the system-wide input and protocol law behind this layer, open [statecraft.md](../statecraft.md).
+For the canonical source/synthesis split behind that law, open [Statecraft Archive and Statecraft Synthesis](../archive-synthesis-law.md).
 
 Short constitutional split:
 
-- `speaker shelf` = human-facing notebook object
+- `speaker shelf` = Statecraft Synthesis object
 - `bridge adapter` = statecraft-facing retrieval converter
+- `source-archive/statecraft/` = Statecraft Archive source ground
 
 Handoff chain:
 
@@ -20,6 +22,7 @@ Handoff chain:
 ## Boundary
 
 - Speaker shelves remain authoritative for speaker continuity, pressure, and recurring claims.
+- Statecraft Archive remains authoritative for transcript-bearing and provenance-bearing source truth.
 - `civ-state` remains the statecraft source base and lane-local translation substrate.
 - These bridge notes do not replace lane `helix.md`, transactions, raw-input, PH-CIV, or speaker routing.
 - Speaker shelves should not have to secretly perform retrieval conversion.

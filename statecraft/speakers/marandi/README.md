@@ -20,7 +20,7 @@ Marandi is more mature than a thin compatibility shelf and more structurally sta
 
 Marandi's canonical statecraft shelf currently has five speaker-owned layers:
 
-- **Person arc:** [marandi-arc.md](marandi-arc.md) holds whole-speaker continuity across the 2025-present run.
+- **Person arc:** [marandi-arc.md](marandi-arc.md) is the primary Statecraft Synthesis surface for Marandi continuity across the 2025-present run.
 - **Routing surface:** [marandi-routing.md](marandi-routing.md) answers which host lane or source file to open first.
 - **Provenance bench:** [marandi-raw-input-index.md](marandi-raw-input-index.md) is the canonical route map for materialized Marandi appearances.
 - **Cross-host note:** [marandi-helix.md](marandi-helix.md) explains the real host-conditioned structure and the three-host mature core.
@@ -52,4 +52,4 @@ The legacy `codex/speakers/marandi/` path is now front-door compatibility only.
 
 ## Boundary
 
-Marandi is canonical here under `statecraft/speakers/marandi/`. Raw-text authority stays in [`source-archive/statecraft/`](/C:/dev/strategy-codex/source-archive/statecraft), host-local chronology still lives primarily in host arcs and source captures, and this shelf is a routing and synthesis surface only.
+Marandi is canonical here under `statecraft/speakers/marandi/` as a Statecraft Synthesis shelf. Raw-text authority stays in the **Statecraft Archive** ([`source-archive/statecraft/`](/C:/dev/strategy-codex/source-archive/statecraft)), host-local chronology still lives primarily in host arcs and source captures, and this shelf is a routing and synthesis surface only.

@@ -4,6 +4,10 @@ WORK only; not Record.
 
 Purpose: hold the canonical speaker-state continuity surfaces that feed repo-root `statecraft/`.
 
+This subtree is the canonical home of **Statecraft Synthesis** for speaker-state work.
+
+For the canonical archive/synthesis pair, open [Statecraft Archive and Statecraft Synthesis](../archive-synthesis-law.md).
+
 This subtree is speaker-organized rather than lane-organized so the same speaker-state object can feed multiple lanes, bridge adapters, and `civ-state` indexes without being forced into one national bench too early.
 
 ## Canonical Rule
@@ -15,9 +19,16 @@ This subtree is speaker-organized rather than lane-organized so the same speaker
 
 Short constitutional split:
 
-- `statecraft/speakers/` = canonical live speaker continuity
+- `source-archive/statecraft/` = **Statecraft Archive**, the canonical source-bearing layer
+- `statecraft/speakers/` = **Statecraft Synthesis**, the canonical live speaker continuity layer above that archive
 - `statecraft/hosts/` = canonical live host-family continuity for migrated hosts
 - `codex/speakers/` = compatibility, archive residue, or not-yet-migrated legacy storage
+
+Boundary law:
+
+- Statecraft Archive preserves source truth.
+- Statecraft Synthesis interprets that truth into arcs, routing, crossing, support, and bounded synthesis shelves.
+- Host law, bridge conditioning, CIV-STATE retrieval, and lane drafting remain downstream.
 
 ## What Belongs Here
 
@@ -36,7 +47,7 @@ Short constitutional split:
 - provenance itself
 - silent `civ-state` mutation
 
-Speaker-state continuity lives here. Bridge adapters still live in [statecraft/bridges/](../bridges/), `civ-state` still owns retrieval memory, and lanes still own substantive drafting.
+Speaker-state continuity lives here as Statecraft Synthesis, not as source-bearing archive. Bridge adapters still live in [statecraft/bridges/](../bridges/), `civ-state` still owns retrieval memory, and lanes still own substantive drafting.
 
 When the real question is host-law rather than speaker identity, open [statecraft/hosts/](../hosts/README.md) instead of treating retired `codex/speakers/<host>/...` surfaces as live authority.
 
@@ -49,7 +60,7 @@ When live statecraft work names a speaker or needs speaker-grounded analysis, us
 3. extend through routing notes, helixes, support spines, or month-support synthesis only after the transcript and host-arc layer
 4. preserve the seam between transcript-backed and synthesized claims whenever analysis extends beyond transcript truth
 
-Derived speaker arcs are interpretive routing surfaces downstream of transcript/provenance, not substitutes for transcript authority.
+Derived speaker arcs, routing notes, helixes, and support spines are Statecraft Synthesis surfaces downstream of the Statecraft Archive, not substitutes for transcript authority.
 
 Carveout rule: transcript-first is the default for transcript-bearing relational arcs and transcript-backed routing notes. Authored-first, stream-native, profile-only, or mixed-provenance speakers should state their carveout explicitly and keep the first-open surface that matches the real shelf shape.
 
@@ -65,10 +76,10 @@ The migration is phased, but the constitutional target is already fixed:
 
 During migration:
 
-- live authority should move here
+- live synthesis authority should move here
 - bridge adapters stay in [statecraft/bridges/](../bridges/)
 - lane judgment stays in lanes
-- provenance stays outside speaker folders
+- provenance stays in the Statecraft Archive, outside speaker folders
 
 ## Normalized 2026 Shelf Level
 

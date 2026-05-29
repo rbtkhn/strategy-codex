@@ -15,6 +15,13 @@ Primary source base: [Rome source corpus](../../../../research/repos/civilizatio
 - Deep grammar retrieval: [Rome sacred grammar](../../sacred-grammar/rome.md)
 - Sovereign opening: Romulus as the foundational sovereign
 - Current carrier: Catholic Church
+- Civilization chapter: [Rome civilization](civilization-rome.md)
+- Empire chapter: [Rome empire](empire-rome.md)
+- Statecraft chapter: [Rome statecraft](statecraft-rome.md)
+- Sovereign continuity support note: [Rome sovereign continuity](sovereign-continuity.md)
+- Geo-strategy chapter: [Rome geo-strategy](geo-strategy-rome.md)
+- Secret-history chapter: [Rome secret-history](secret-history-rome.md)
+- Game-theory chapter: [Rome game-theory](game-theory-rome.md)
 - Continuity state: Byzantium as the indispensable continuity state
 
 **Civilization-State Diagnostic**

@@ -6,7 +6,7 @@ This folder is the front-door volume order for `civ-state`.
 
 It does not replace lane-local `statecraft/<lane>/` storage. It organizes CIV-STATE retrieval so the source base can be opened in one stable civilizational sequence before descending into helix, civilization, empire, state, or transaction surfaces.
 
-The purpose of this volume set is to provide an authoritative working illustration of the **civilization-state** through five concrete cases. Each volume is organized as a sovereignty-chain scaffold nested through the repo's preferred era spine, and each volume carries dedicated sovereign-continuity and geography chapters stating that chain and its spatial conditions in fuller form.
+The purpose of this volume set is to provide an authoritative working illustration of the **civilization-state** through five concrete cases. Each volume is organized as a sovereignty-chain scaffold nested through the repo's preferred era spine. The canonical Part 1 opening now lives in a legitimacy-bearing civilization essay, the canonical Part 2 opening now lives in an outward-instrument empire essay, and the canonical Part 3 opening now lives in a present-tense statecraft synthesis that turns the volume into a statesman's guidebook.
 
 ## Constitutional Order
 
@@ -57,7 +57,31 @@ Use the opener block operationally:
 
 The canonical CIV-STATE shelf for deep-grammar retrieval is now [Sacred Grammar Library](../sacred-grammar/README.md). Use it when the problem is legitimacy substrate rather than sovereign opener or present carrier.
 
-## Sovereign Continuity Chapters
+## Civilization Chapters
+
+- [China civilization](civ-state-china/civilization-china.md)
+- [Persia civilization](civ-state-persia/civilization-persia.md)
+- [Rome civilization](civ-state-rome/civilization-rome.md)
+- [Russia civilization](civ-state-russia/civilization-russia.md)
+- [America civilization](civ-state-america/civilization-america.md)
+
+## Empire Chapters
+
+- [China empire](civ-state-china/empire-china.md)
+- [Persia empire](civ-state-persia/empire-persia.md)
+- [Rome empire](civ-state-rome/empire-rome.md)
+- [Russia empire](civ-state-russia/empire-russia.md)
+- [America empire](civ-state-america/empire-america.md)
+
+## Statecraft Chapters
+
+- [China statecraft](civ-state-china/statecraft-china.md)
+- [Persia statecraft](civ-state-persia/statecraft-persia.md)
+- [Rome statecraft](civ-state-rome/statecraft-rome.md)
+- [Russia statecraft](civ-state-russia/statecraft-russia.md)
+- [America statecraft](civ-state-america/statecraft-america.md)
+
+## Sovereign Continuity Support Notes
 
 - [China sovereign continuity](civ-state-china/sovereign-continuity.md)
 - [Persia sovereign continuity](civ-state-persia/sovereign-continuity.md)
@@ -67,11 +91,31 @@ The canonical CIV-STATE shelf for deep-grammar retrieval is now [Sacred Grammar 
 
 ## Geo-Strategy Chapters
 
-- [China geo-strategy](civ-state-china/geo-strategy.md)
-- [Persia geo-strategy](civ-state-persia/geo-strategy.md)
-- [Rome geo-strategy](civ-state-rome/geo-strategy.md)
-- [Russia geo-strategy](civ-state-russia/geo-strategy.md)
-- [America geo-strategy](civ-state-america/geo-strategy.md)
+- [China geo-strategy](civ-state-china/geo-strategy-china.md)
+- [Persia geo-strategy](civ-state-persia/geo-strategy-persia.md)
+- [Rome geo-strategy](civ-state-rome/geo-strategy-rome.md)
+- [Russia geo-strategy](civ-state-russia/geo-strategy-russia.md)
+- [America geo-strategy](civ-state-america/geo-strategy-america.md)
+
+## Game-Theory Chapters
+
+- [China game-theory](civ-state-china/game-theory-china.md)
+- [Persia game-theory](civ-state-persia/game-theory-persia.md)
+- [Rome game-theory](civ-state-rome/game-theory-rome.md)
+- [Russia game-theory](civ-state-russia/game-theory-russia.md)
+- [America game-theory](civ-state-america/game-theory-america.md)
+
+## Secret-History Chapters
+
+- [China secret-history](civ-state-china/secret-history-china.md)
+- [Persia secret-history](civ-state-persia/secret-history-persia.md)
+- [Rome secret-history](civ-state-rome/secret-history-rome.md)
+- [Russia secret-history](civ-state-russia/secret-history-russia.md)
+- [America secret-history](civ-state-america/secret-history-america.md)
+
+## Statecraft Sub-Essays
+
+The named `geo-strategy`, `secret-history`, and `game-theory` files remain substantive, but they now sit beneath Part 3 `statecraft-<civ>.md` as subordinate diagnostic lenses rather than as coequal volume-opening surfaces.
 
 ## Usage Rule
 
@@ -90,9 +134,10 @@ This means the volume map is not the right first stop for every `civ-state` ques
 
 Every volume should be read the same way:
 
-- first identify the civilization-state claim
-- then trace the sovereignty chain
-- then see how each era mutates but does not fully erase the chain
+- first open the civilization essay and identify the civilization-state claim
+- then open the empire essay when the governing issue is outward instrument, reach, or overreach
+- then open the statecraft essay to convert the first two parts into a present-tense diplomatic read
+- then descend into geo-strategy, secret-history, and game-theory as subordinate lenses
 - then open the linked objects that best carry that phase now
 
 ## Volume Status

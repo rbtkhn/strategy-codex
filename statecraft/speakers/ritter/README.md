@@ -23,7 +23,7 @@ Use it for speaker identity, host continuity, route maps, a full bounded 2026 mo
 
 Ritter's canonical structure now has five speaker-owned layers:
 
-- **Person arc:** [ritter-arc.md](ritter-arc.md) holds whole-speaker continuity across authored and interview contexts.
+- **Person arc:** [ritter-arc.md](ritter-arc.md) is the primary Statecraft Synthesis surface for Ritter continuity across authored and interview contexts.
 - **Routing surface:** [ritter-routing.md](ritter-routing.md) answers which host lane or monthly shelf to open first.
 - **Provenance bench:** [ritter-raw-input-index.md](ritter-raw-input-index.md) remains the exhaustive route map for materialized Ritter appearances.
 - **Crossing surface:** [ritter-helix.md](ritter-helix.md) explains the host triple helix and the authored/interview source-class split.
@@ -69,4 +69,4 @@ The legacy `codex/speakers/ritter/` path is now front-door compatibility only.
 
 ## Boundary
 
-Ritter is canonical here under `statecraft/speakers/ritter/`. Raw-text authority stays in [`source-archive/statecraft/`](/C:/dev/strategy-codex/source-archive/statecraft), bridge adapters still live under [`statecraft/bridges/`](/C:/dev/strategy-codex/statecraft/bridges/README.md), and lanes still own substantive drafting.
+Ritter is canonical here under `statecraft/speakers/ritter/` as a Statecraft Synthesis shelf. Raw-text authority stays in the **Statecraft Archive** ([`source-archive/statecraft/`](/C:/dev/strategy-codex/source-archive/statecraft)), bridge adapters still live under [`statecraft/bridges/`](/C:/dev/strategy-codex/statecraft/bridges/README.md), and lanes still own substantive drafting.

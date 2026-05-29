@@ -30,6 +30,15 @@ D. Russia - strategic depth, disruption, optionality
 
 After the lane-direct pick, route directly to [America](../../../statecraft/america/README.md), [China](../../../statecraft/china/README.md), [Persia](../../../statecraft/iran/README.md), or [Russia](../../../statecraft/russia/README.md). **Statecraft sources:** [statecraft.md](../../../statecraft/statecraft.md), [METHOD.md](../../../statecraft/METHOD.md), [treaty-framework.md](../../../statecraft/templates/treaty-framework.md), [policy-paper.md](../../../statecraft/templates/policy-paper.md), [negotiation-brief.md](../../../statecraft/templates/negotiation-brief.md), [richelieu.md](../../../statecraft/lenses/richelieu.md), [bismarck.md](../../../statecraft/lenses/bismarck.md), and [sheets/README.md](../../../statecraft/sheets/README.md) remain downstream drafting tools after routing.
 
+Named follow-on: `statecraft civ-state` is also valid after **C. Statecraft** when the operator wants the upstream CIV-STATE bench rather than lane routing. That command keeps a fixed **A-D** menu:
+
+- `A. Frame`
+- `B. Retrieve`
+- `C. Promote`
+- `D. Review`
+
+It is analysis-first, not default book-authoring.
+
 **Legacy C compatibility:** Older docs may map Daily Brief, Intel, Bookshelf quiz, or Bridge ideas to Coffee C. Those are explicit named routes now: `check streams` / daily brief for stream work, verified recent-event intake through `state-deploy` or a direct lane handoff for event-shaped statecraft work, `elicit-knowledge` / survey for Record-bound self-knowledge, and work-strategy / Predictive History requests for notebook synthesis. Coffee C owns them only when the operator asks to convert source material into a statecraft lane object or a downstream treaty, policy memo, negotiation brief, sanctions/alliance design, sovereignty argument, or institutional statecraft artifact.
 
 **Daily brief / `last30days` / `check streams` / named recent event:** still valid by explicit request, but not a new Coffee C submenu and not automatic during Step 1. Default output remains a short brief / provenance note / selected raw-input path / verified event object, not a `days.md`, author-thread, strategy-page, or Record edit.
