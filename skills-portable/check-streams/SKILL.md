@@ -288,7 +288,7 @@ When a check-stream or one-off recovery **adds or strengthens canonical `source-
 Minimum required follow-ons:
 
 - refresh the touched day folder `README.md`
-- verify whether the capture belongs to an existing live `statecraft/civ-lens/civ-lens-<speaker>/` shelf with a `*-raw-input-index.md` provenance bench
+- verify whether the capture belongs to an existing live `statecraft/<speaker>/` shelf with a `*-raw-input-index.md` provenance bench
 - if such a shelf exists and the new capture is route-relevant for that speaker, update the speaker raw-input bench in the same pass before closing
 
 Short rule:

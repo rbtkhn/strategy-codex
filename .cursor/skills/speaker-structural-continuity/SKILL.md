@@ -67,13 +67,13 @@ Outer-grammar normalization does **not** erase legitimate exception classes.
 Use these three classes explicitly:
 
 1. `normalized month-ladder shelf`
-   - canonical `statecraft/civ-lens/civ-lens-<speaker>/`
+   - canonical `statecraft/<speaker>/`
    - bounded `2026-01` through `2026-05` synthesis ladder
    - support spine owns month-status law
    - examples: `Macgregor`, `Ritter`, `Freeman`, `Johnson`
 
 2. `cross-context exception shelf`
-   - canonical `statecraft/civ-lens/civ-lens-<speaker>/`
+   - canonical `statecraft/<speaker>/`
    - recurring thread atlas and source-class crossing are structurally primary
    - bounded month support appears only where mature cross-context pressure is real
    - example: `Parsi`

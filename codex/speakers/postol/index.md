@@ -4,6 +4,6 @@ WORK only; not Record.
 
 Canonical live Postol statecraft work now lives at:
 
-- [statecraft/civ-lens/civ-lens-postol/README.md](/C:/dev/strategy-codex/statecraft/civ-lens/civ-lens-postol/README.md)
+- [statecraft/civ-lens/postol/README.md](/C:/dev/strategy-codex/statecraft/civ-lens/postol/README.md)
 
 Treat this `codex/` folder as compatibility residue only.

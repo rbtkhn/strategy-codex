@@ -6,8 +6,8 @@ This legacy codex index is now compatibility-only.
 
 Canonical Parsi shelf entry now lives at:
 
-- [statecraft/civ-lens/civ-lens-parsi/index.md](/C:/dev/strategy-codex/statecraft/civ-lens/civ-lens-parsi/index.md)
-- [statecraft/civ-lens/civ-lens-parsi/README.md](/C:/dev/strategy-codex/statecraft/civ-lens/civ-lens-parsi/README.md)
+- [statecraft/civ-lens/parsi/index.md](/C:/dev/strategy-codex/statecraft/civ-lens/parsi/index.md)
+- [statecraft/civ-lens/parsi/README.md](/C:/dev/strategy-codex/statecraft/civ-lens/parsi/README.md)
 
 Use the canonical statecraft shelf for:
 

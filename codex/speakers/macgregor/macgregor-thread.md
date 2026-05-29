@@ -16,7 +16,7 @@ If a question is about host transformation, comparison use, or canonical routing
 
 Compatibility note: this file is a legacy continuity surface from the older expert-thread machinery. In the current Macgregor shelf, the canonical orthogonality-bearing structure is [macgregor-helix.md](macgregor-helix.md) plus the distinct host-local arcs it compares, not this file.
 
-Canonical shelf note: the live Macgregor shelf now opens from [statecraft/civ-lens/civ-lens-macgregor/README.md](/C:/dev/strategy-codex/statecraft/civ-lens/civ-lens-macgregor/README.md). The codex-side arc, routing, raw-input, helix, and support-spine files now resolve through compatibility stubs.
+Canonical shelf note: the live Macgregor shelf now opens from [statecraft/civ-lens/macgregor/README.md](/C:/dev/strategy-codex/statecraft/civ-lens/macgregor/README.md). The codex-side arc, routing, raw-input, helix, and support-spine files now resolve through compatibility stubs.
 
 **Status:** compatibility-only continuity residue; not canonical retrieval.
 **Use:** open [macgregor-arc.md](macgregor-arc.md), [macgregor-routing.md](macgregor-routing.md), [macgregor-raw-input-index.md](macgregor-raw-input-index.md), or [macgregor-helix.md](macgregor-helix.md) first unless the task explicitly needs legacy carryover.

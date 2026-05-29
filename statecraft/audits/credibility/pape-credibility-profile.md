@@ -40,8 +40,8 @@ Pape is a mechanism-heavy authored forecast speaker whose main value comes from 
 
 ## Best proving anchors
 
-1. [pape-forecast-ledger-2026.md](/C:/dev/strategy-codex/statecraft/civ-lens/civ-lens-pape/stream/pape-forecast-ledger-2026.md)
-2. [pape-speaker-object.md](/C:/dev/strategy-codex/statecraft/civ-lens/civ-lens-pape/pape-speaker-object.md)
+1. [pape-forecast-ledger-2026.md](/C:/dev/strategy-codex/statecraft/civ-lens/pape/stream/pape-forecast-ledger-2026.md)
+2. [pape-speaker-object.md](/C:/dev/strategy-codex/statecraft/civ-lens/pape/pape-speaker-object.md)
 3. [2026-03-10 Davis x Pape](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-10/transcript-davis-pape-escalation-trap-2026-03-10.md)
 4. [2026-05-27 Pape on the real Iran deal](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-27/substack-pape-the-price-of-oil-is-the-real-iran-2026-05-27.md)
 

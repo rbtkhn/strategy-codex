@@ -13,7 +13,7 @@ This subtree is speaker-organized rather than lane-organized so the same speaker
 ## Canonical Rule
 
 - `statecraft/civ-lens/` is the canonical home for speaker-state surfaces that belong to live statecraft work.
-- canonical migrated shelf paths take the form `statecraft/civ-lens/civ-lens-<speaker>/`
+- canonical migrated shelf paths take the form `statecraft/civ-lens/<speaker>/`
 - the long-run target is the whole live speaker corpus, not only a pilot subset
 - `codex/speakers/` remains compatibility residue, non-statecraft speaker storage, or upstream archive material during migration and after cutover
 - Do not silently duplicate authority. If a surface has been migrated here, the legacy `codex/speakers/` path should be a compatibility pointer only.
@@ -72,7 +72,7 @@ Carveout rule: transcript-first is the default for transcript-bearing relational
 The migration is phased, but the constitutional target is already fixed:
 
 1. whole-corpus doctrine and compatibility law
-2. active migration fronts such as [Freeman](civ-lens-freeman/README.md), [Mercouris](civ-lens-mercouris/README.md), [Crooke](civ-lens-crooke/README.md), [Macgregor](civ-lens-macgregor/README.md), [Ritter](civ-lens-ritter/README.md), [Barnes](civ-lens-barnes/README.md), [Marandi](civ-lens-marandi/README.md), and [Pape](civ-lens-pape/README.md)
+2. active migration fronts such as [Freeman](freeman/README.md), [Mercouris](mercouris/README.md), [Crooke](crooke/README.md), [Macgregor](macgregor/README.md), [Ritter](ritter/README.md), [Barnes](barnes/README.md), [Marandi](marandi/README.md), and [Pape](pape/README.md)
 3. support-spine shelf exemplars
 4. remaining active statecraft speakers
 5. long-tail archive cleanup
@@ -89,7 +89,7 @@ During migration:
 
 The current normalized shelf level is the `Macgregor / Ritter` grammar:
 
-- canonical home under `statecraft/civ-lens/civ-lens-<speaker>/`
+- canonical home under `statecraft/civ-lens/<speaker>/`
 - `README.md` and `index.md` front doors
 - speaker arc, routing note, provenance bench, and crossing surface
 - speaker-owned support spine
@@ -99,25 +99,25 @@ The current normalized shelf level is the `Macgregor / Ritter` grammar:
 
 The active normalized 2026 shelf set is:
 
-- [Freeman](civ-lens-freeman/README.md)
-- [Crooke](civ-lens-crooke/README.md)
-- [Mercouris](civ-lens-mercouris/README.md)
-- [Macgregor](civ-lens-macgregor/README.md)
-- [Ritter](civ-lens-ritter/README.md)
-- [Johnson](civ-lens-johnson/README.md)
+- [Freeman](freeman/README.md)
+- [Crooke](crooke/README.md)
+- [Mercouris](mercouris/README.md)
+- [Macgregor](macgregor/README.md)
+- [Ritter](ritter/README.md)
+- [Johnson](johnson/README.md)
 
 Canonical cross-context exception shelves now also include:
 
-- [Parsi](civ-lens-parsi/README.md)
+- [Parsi](parsi/README.md)
 
 Canonical lighter first-pass shelves now also include:
 
-- [Barnes](civ-lens-barnes/README.md)
-- [Marandi](civ-lens-marandi/README.md)
-- [Postol](civ-lens-postol/README.md)
-- [McGovern](civ-lens-mcgovern/README.md)
-- [Martyanov](civ-lens-martyanov/README.md)
-- [Sachs](civ-lens-sachs/README.md)
+- [Barnes](barnes/README.md)
+- [Marandi](marandi/README.md)
+- [Postol](postol/README.md)
+- [McGovern](mcgovern/README.md)
+- [Martyanov](martyanov/README.md)
+- [Sachs](sachs/README.md)
 
 ## Shelf classes
 
@@ -139,12 +139,12 @@ These use the full canonical statecraft speaker grammar:
 
 Current examples:
 
-- [Freeman](civ-lens-freeman/README.md)
-- [Crooke](civ-lens-crooke/README.md)
-- [Mercouris](civ-lens-mercouris/README.md)
-- [Macgregor](civ-lens-macgregor/README.md)
-- [Ritter](civ-lens-ritter/README.md)
-- [Johnson](civ-lens-johnson/README.md)
+- [Freeman](freeman/README.md)
+- [Crooke](crooke/README.md)
+- [Mercouris](mercouris/README.md)
+- [Macgregor](macgregor/README.md)
+- [Ritter](ritter/README.md)
+- [Johnson](johnson/README.md)
 
 ### 2. Cross-context exception shelves
 
@@ -152,8 +152,8 @@ These are still canonical `statecraft/civ-lens/` shelves, but their real inner l
 
 Current example:
 
-- [Parsi](civ-lens-parsi/README.md)
-- [Pape](civ-lens-pape/README.md)
+- [Parsi](parsi/README.md)
+- [Pape](pape/README.md)
 
 ### 3. Lighter first-pass canonical shelves
 
@@ -168,12 +168,12 @@ For these shelves:
 
 Current examples:
 
-- [Barnes](civ-lens-barnes/README.md)
-- [Marandi](civ-lens-marandi/README.md)
-- [Postol](civ-lens-postol/README.md)
-- [McGovern](civ-lens-mcgovern/README.md)
-- [Martyanov](civ-lens-martyanov/README.md)
-- [Sachs](civ-lens-sachs/README.md)
+- [Barnes](barnes/README.md)
+- [Marandi](marandi/README.md)
+- [Postol](postol/README.md)
+- [McGovern](mcgovern/README.md)
+- [Martyanov](martyanov/README.md)
+- [Sachs](sachs/README.md)
 
 ### 4. Host-led mature-month exception shelves
 
@@ -203,7 +203,7 @@ For these shelves:
 
 Current example:
 
-- [Hoh](civ-lens-hoh/README.md)
+- [Hoh](hoh/README.md)
 
 ### 6. Mirror-bearing exception shelves
 
@@ -218,7 +218,7 @@ For these shelves:
 
 Current example:
 
-- [Jiang](civ-lens-jiang/README.md)
+- [Jiang](jiang/README.md)
 
 ## Current constitutional choice
 

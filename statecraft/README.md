@@ -8,13 +8,13 @@ Open [statecraft.md](statecraft.md) first when you need the full continuity surf
 
 For the canonical source/synthesis stack, open [Statecraft Archive and Statecraft Synthesis](archive-synthesis-law.md).
 
-`civ-lens` exists so live speaker continuity can stay statecraft-native: canon now lives under `statecraft/civ-lens/civ-lens-<speaker>/`, while `speakers/` remains redirect-only compatibility residue rather than a second authority tree.
+`civ-lens` exists so live speaker continuity can stay statecraft-native: canon now lives under `statecraft/<speaker>/`, while `speakers/` remains redirect-only compatibility residue rather than a second authority tree.
 
 ## Namespace Note
 
 What changed:
 - live speaker synthesis moved from `statecraft/speakers/` to `statecraft/civ-lens/`
-- canonical migrated shelf paths now read `statecraft/civ-lens/civ-lens-<speaker>/`
+- canonical migrated shelf paths now read `statecraft/<speaker>/`
 
 Why it matters:
 - statecraft speaker continuity now reads as its own live layer rather than as a leftover generic speakers folder

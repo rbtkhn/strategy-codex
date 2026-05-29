@@ -3,14 +3,14 @@
 
 WORK only; not Record.
 
-Compatibility note: this is a legacy continuity transcript surface. Use it as support residue, not as a first-open citation path when the person arc, routing note, bounded month synthesis, helix, or raw-input bench at [statecraft/civ-lens/civ-lens-ritter/README.md](/C:/dev/strategy-codex/statecraft/civ-lens/civ-lens-ritter/README.md) already answer the question more directly.
+Compatibility note: this is a legacy continuity transcript surface. Use it as support residue, not as a first-open citation path when the person arc, routing note, bounded month synthesis, helix, or raw-input bench at [statecraft/civ-lens/ritter/README.md](/C:/dev/strategy-codex/statecraft/civ-lens/ritter/README.md) already answer the question more directly.
 Compatibility note: any unresolved watch placeholders that survive inside rolled-forward transcript carryover are non-canonical. Prefer the bounded month arc, refined page file, or raw-input artifact for citation use.
 
 **Source:** Verbatim blocks from [`daily-strategy-inbox.md`](daily-strategy-inbox.md) that include `thread:ritter` (first line + optional continuation paragraphs), routed on ingest.
 **Length:** Target **≤ 2000 words** per ingest block; whole file soft **≤ 20000 words** after prune (7-day window makes overrun unlikely).
 **Retention:** 7-day rolling window; date sections older than 7 days are pruned automatically.
 **Editing:** Operator may lightly edit for clarity after triage. Edits are preserved across triage runs (append-only, not overwrite).
-**Companion files:** [ritter-profile.md](../../../profiles/ritter-profile.md) (profile), [ritter-thread.md](ritter-thread.md) (legacy continuity thread), and [statecraft/civ-lens/civ-lens-ritter/README.md](/C:/dev/strategy-codex/statecraft/civ-lens/civ-lens-ritter/README.md) (canonical Ritter shelf front door).
+**Companion files:** [ritter-profile.md](../../../profiles/ritter-profile.md) (profile), [ritter-thread.md](ritter-thread.md) (legacy continuity thread), and [statecraft/civ-lens/ritter/README.md](/C:/dev/strategy-codex/statecraft/civ-lens/ritter/README.md) (canonical Ritter shelf front door).
 
 ---
 

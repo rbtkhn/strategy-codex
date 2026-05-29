@@ -61,12 +61,12 @@ This means the lane should be read two ways:
 
 If the operator needs only one file:
 
-- open [transcript-davis-macgregor-project-freedom-hormuz-2026-05-05.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-05/transcript-davis-macgregor-project-freedom-hormuz-2026-05-05.md)
+- open [transcript-davis-macgregor-project-freedom-hormuz-2026-05-05.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-05/transcript-davis-macgregor-project-freedom-hormuz-2026-05-05.md)
 
 If the operator needs the best paired read:
 
-- open [transcript-davis-macgregor-project-freedom-hormuz-2026-05-05.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-05/transcript-davis-macgregor-project-freedom-hormuz-2026-05-05.md)
-- then [youtube-davis-macgregor-trump-dangerous-2026-04-29.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-29/youtube-davis-macgregor-trump-dangerous-2026-04-29.md)
+- open [transcript-davis-macgregor-project-freedom-hormuz-2026-05-05.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-05/transcript-davis-macgregor-project-freedom-hormuz-2026-05-05.md)
+- then [youtube-davis-macgregor-trump-dangerous-2026-04-29.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-29/youtube-davis-macgregor-trump-dangerous-2026-04-29.md)
 
 That pair gives the clearest full lane shape:
 

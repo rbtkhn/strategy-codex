@@ -9,16 +9,16 @@
     "codex/years",
     "codex/years/2025",
     "codex/years/2026",
-    "statecraft/civ-lens/civ-lens-jiang",
-    "statecraft/civ-lens/civ-lens-jiang/ph-civ"
+    "statecraft/civ-lens/jiang",
+    "statecraft/civ-lens/jiang/ph-civ"
   ],
   "forbidden_roots": [
     "codex/2025",
     "codex/2026"
   ],
   "gitmodules": {
-    "required_submodule": "[submodule \"statecraft/civ-lens/civ-lens-jiang/ph-civ\"]",
-    "required_path": "path = statecraft/civ-lens/civ-lens-jiang/ph-civ",
+    "required_submodule": "[submodule \"statecraft/civ-lens/jiang/ph-civ\"]",
+    "required_path": "path = statecraft/civ-lens/jiang/ph-civ",
     "forbidden_path": "path = codex/2026/academy/ph-civ"
   },
   "stale_content_patterns": [

@@ -24,7 +24,7 @@
       "paths": [
         "statecraft/civ-lens/authored-pressure-quartet.md",
         "statecraft/civ-lens/speaker-cluster-map.md",
-        "statecraft/civ-lens/civ-lens-pape/pape-speaker-object.md"
+        "statecraft/civ-lens/pape/pape-speaker-object.md"
       ],
       "must_cover": [
         "Pape",
@@ -81,7 +81,7 @@
       "paths": [
         "statecraft/civ-lens/authored-pressure-quartet.md",
         "statecraft/civ-lens/speaker-cluster-map.md",
-        "statecraft/civ-lens/civ-lens-crooke/README.md"
+        "statecraft/civ-lens/crooke/README.md"
       ],
       "must_cover": [
         "Crooke",
@@ -100,7 +100,7 @@
       "paths": [
         "skills-portable/_drafts/marandi-state-extraction/SKILL.md",
         "statecraft/civ-lens/speaker-cluster-map.md",
-        "statecraft/civ-lens/civ-lens-marandi/marandi-routing.md"
+        "statecraft/civ-lens/marandi/marandi-routing.md"
       ],
       "must_cover": [
         "Marandi",
@@ -118,7 +118,7 @@
       "critical": true,
       "paths": [
         "skills-portable/_drafts/mercouris-daily-continuity-extraction/SKILL.md",
-        "statecraft/civ-lens/civ-lens-mercouris/mercouris-speaker-object.md",
+        "statecraft/civ-lens/mercouris/mercouris-speaker-object.md",
         "statecraft/civ-lens/speaker-cluster-map.md"
       ],
       "must_cover": [

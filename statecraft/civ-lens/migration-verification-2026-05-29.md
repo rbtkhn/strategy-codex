@@ -7,17 +7,17 @@ Purpose: seal the namespace migration from `statecraft/speakers/` to `statecraft
 ## Verified
 
 - Canonical live shelf namespace is `statecraft/civ-lens/`.
-- Canonical migrated shelf shape is `statecraft/civ-lens/civ-lens-<speaker>/`.
+- Canonical migrated shelf shape is `statecraft/civ-lens/<speaker>/`.
 - `statecraft/speakers/README.md` is a compatibility-only redirect surface, not a parallel authority path.
-- Jiang mirror gitlink is live at `statecraft/civ-lens/civ-lens-jiang/ph-civ`.
-- `civ-lens-diesen/` is promoted as a truthful first-pass canonical shelf rather than a forced month-ladder shelf.
+- Jiang mirror gitlink is live at `statecraft/civ-lens/jiang/ph-civ`.
+- `diesen/` is promoted as a truthful first-pass canonical shelf rather than a forced month-ladder shelf.
 
 ## Checks run
 
 - Repo grep over live docs, skills, scripts, tests, and statecraft surfaces reduced old `statecraft/speakers` claims to the intentional compatibility stub.
 - [tests/test_rehome_path_hygiene_contract.py](/C:/dev/strategy-codex/tests/test_rehome_path_hygiene_contract.py) passed via `.venv\Scripts\python.exe`.
 - [tests/test_validate_speaker_state_sets.py](/C:/dev/strategy-codex/tests/test_validate_speaker_state_sets.py) passed via `.venv\Scripts\python.exe`.
-- `git ls-files --stage` shows the Jiang gitlink at `statecraft/civ-lens/civ-lens-jiang/ph-civ` and `.gitmodules` points to the same path.
+- `git ls-files --stage` shows the Jiang gitlink at `statecraft/civ-lens/jiang/ph-civ` and `.gitmodules` points to the same path.
 
 ## Intentional exclusions
 

@@ -4,6 +4,6 @@ WORK only; not Record.
 
 Canonical live McGovern statecraft work now lives at:
 
-- [statecraft/civ-lens/civ-lens-mcgovern/README.md](/C:/dev/strategy-codex/statecraft/civ-lens/civ-lens-mcgovern/README.md)
+- [statecraft/civ-lens/mcgovern/README.md](/C:/dev/strategy-codex/statecraft/civ-lens/mcgovern/README.md)
 
 Treat this `codex/` folder as compatibility residue only.

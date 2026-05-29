@@ -1,7 +1,7 @@
 ---
 name: academy-mirror-sync
 preferred_activation: academy-mirror-sync
-description: "Verify academy mirror folders against their public remotes and the parent strategy-codex gitlink. Use when the user asks whether a mirrored repo folder such as statecraft/civ-lens/civ-lens-jiang/ph-civ is in sync with its GitHub repo, origin/main, or parent submodule pointer."
+description: "Verify academy mirror folders against their public remotes and the parent strategy-codex gitlink. Use when the user asks whether a mirrored repo folder such as statecraft/civ-lens/jiang/ph-civ is in sync with its GitHub repo, origin/main, or parent submodule pointer."
 portable: true
 version: 0.1.0
 tags:
@@ -17,7 +17,7 @@ Use this skill to verify that an academy mirror folder, its remote repository, a
 
 ## Default target
 
-- Mirror folder: `statecraft/civ-lens/civ-lens-jiang/ph-civ`
+- Mirror folder: `statecraft/civ-lens/jiang/ph-civ`
 - Remote branch: `origin/main`
 - Parent pointer: the gitlink recorded by `strategy-codex`
 

@@ -4,17 +4,17 @@ WORK only; not Record.
 
 This folder is now a **compatibility front door** for Marandi.
 
-The canonical Marandi shelf now lives under [`statecraft/civ-lens/civ-lens-marandi/`](/C:/dev/strategy-codex/statecraft/civ-lens/civ-lens-marandi/README.md).
+The canonical Marandi shelf now lives under [`statecraft/civ-lens/marandi/`](/C:/dev/strategy-codex/statecraft/civ-lens/marandi/README.md).
 
 ## Canonical front door
 
-- [statecraft/civ-lens/civ-lens-marandi/README.md](/C:/dev/strategy-codex/statecraft/civ-lens/civ-lens-marandi/README.md)
-- [statecraft/civ-lens/civ-lens-marandi/index.md](/C:/dev/strategy-codex/statecraft/civ-lens/civ-lens-marandi/index.md)
-- [statecraft/civ-lens/civ-lens-marandi/marandi-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/civ-lens-marandi/marandi-arc.md)
-- [statecraft/civ-lens/civ-lens-marandi/marandi-routing.md](/C:/dev/strategy-codex/statecraft/civ-lens/civ-lens-marandi/marandi-routing.md)
-- [statecraft/civ-lens/civ-lens-marandi/marandi-raw-input-index.md](/C:/dev/strategy-codex/statecraft/civ-lens/civ-lens-marandi/marandi-raw-input-index.md)
-- [statecraft/civ-lens/civ-lens-marandi/marandi-helix.md](/C:/dev/strategy-codex/statecraft/civ-lens/civ-lens-marandi/marandi-helix.md)
-- [statecraft/civ-lens/civ-lens-marandi/marandi-support-spine-2025-2026.md](/C:/dev/strategy-codex/statecraft/civ-lens/civ-lens-marandi/marandi-support-spine-2025-2026.md)
+- [statecraft/civ-lens/marandi/README.md](/C:/dev/strategy-codex/statecraft/civ-lens/marandi/README.md)
+- [statecraft/civ-lens/marandi/index.md](/C:/dev/strategy-codex/statecraft/civ-lens/marandi/index.md)
+- [statecraft/civ-lens/marandi/marandi-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/marandi/marandi-arc.md)
+- [statecraft/civ-lens/marandi/marandi-routing.md](/C:/dev/strategy-codex/statecraft/civ-lens/marandi/marandi-routing.md)
+- [statecraft/civ-lens/marandi/marandi-raw-input-index.md](/C:/dev/strategy-codex/statecraft/civ-lens/marandi/marandi-raw-input-index.md)
+- [statecraft/civ-lens/marandi/marandi-helix.md](/C:/dev/strategy-codex/statecraft/civ-lens/marandi/marandi-helix.md)
+- [statecraft/civ-lens/marandi/marandi-support-spine-2025-2026.md](/C:/dev/strategy-codex/statecraft/civ-lens/marandi/marandi-support-spine-2025-2026.md)
 
 ## Compatibility residue
 
@@ -38,7 +38,7 @@ The canonical Marandi shelf now lives under [`statecraft/civ-lens/civ-lens-maran
 
 Treat the codex-side Marandi files as compatibility residue and migration scaffolds.
 
-- the canonical Marandi statecraft opening path is now under [`statecraft/civ-lens/civ-lens-marandi/`](/C:/dev/strategy-codex/statecraft/civ-lens/civ-lens-marandi/README.md)
+- the canonical Marandi statecraft opening path is now under [`statecraft/civ-lens/marandi/`](/C:/dev/strategy-codex/statecraft/civ-lens/marandi/README.md)
 - the codex-side files remain useful for continuity and prior doctrinal steps
 - do not treat codex-side Marandi files as co-equal canonical continuity surfaces against the statecraft shelf
 

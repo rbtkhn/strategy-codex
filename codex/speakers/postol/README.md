@@ -6,7 +6,7 @@ This legacy `codex/speakers/postol/` path is now compatibility-only.
 
 The canonical live statecraft shelf is:
 
-- [statecraft/civ-lens/civ-lens-postol/README.md](/C:/dev/strategy-codex/statecraft/civ-lens/civ-lens-postol/README.md)
+- [statecraft/civ-lens/postol/README.md](/C:/dev/strategy-codex/statecraft/civ-lens/postol/README.md)
 
 Open that repo-root shelf for current Postol routing, provenance entry, and cross-host continuity.
 
