@@ -6,6 +6,7 @@ show: Mercouris
 host: Alexander Mercouris
 thread: mercouris
 source_url: https://www.youtube.com/watch?v=MZkXR2swEd0
+source_type: youtube
 source_note: User-pasted cleaned YouTube transcript.
 title_slug: mercouris-hormuz-uae-russia-china-2026-05-05
 editorial_note: Preserve as raw cleaned transcript; verify load-bearing claims and historical references before promoting beyond analyst tier.

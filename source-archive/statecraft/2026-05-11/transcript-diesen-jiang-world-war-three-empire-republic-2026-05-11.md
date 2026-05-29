@@ -1,6 +1,7 @@
 ---
 ingest_date: 2026-05-11
 pub_date: 2026-05-11
+kind: transcript
 thread: diesen
 show: Diesen - Greater Eurasia Podcast
 host: Diesen

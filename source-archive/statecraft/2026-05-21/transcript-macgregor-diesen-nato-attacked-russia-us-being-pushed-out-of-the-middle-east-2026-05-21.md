@@ -2,6 +2,7 @@
 ingest_date: 2026-05-21
 pub_date: 2026-05-21
 kind: operator-transcript
+thread: diesen
 show: Glenn Diesen
 host: Glenn Diesen
 guest: Douglas Macgregor

@@ -1,5 +1,7 @@
 ---
 title: "Alastair Crooke: Fear as a Deterrent to War"
+kind: transcript
+show: Judging Freedom
 host: Judge Andrew Napolitano
 guest: Alastair Crooke
 pub_date: 2026-05-26

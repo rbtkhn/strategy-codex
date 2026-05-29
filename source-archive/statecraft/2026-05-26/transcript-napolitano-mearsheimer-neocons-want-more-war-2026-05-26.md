@@ -1,5 +1,7 @@
 ---
 title: "Prof. John Mearsheimer: Neocons Want More War"
+kind: transcript
+show: Judging Freedom
 host: Judge Andrew Napolitano
 guest: John Mearsheimer
 pub_date: 2026-05-26

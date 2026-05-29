@@ -2,6 +2,7 @@
 ingest_date: 2026-05-04
 pub_date: 2026-05-04
 kind: operator-transcript
+thread: diesen
 show: Diesen (Greater Eurasia)
 episode_title: "John Mearsheimer: World Order Ending & Risk of Nuclear War"
 host: Diesen

@@ -9,21 +9,21 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `4`
 - Distinct hosts: `3`
 - Distinct guests: `5`
-- Distinct threads: `6`
+- Distinct threads: `5`
 
 ## Channel / Show Rollup
 
-- `Diesen (Greater Eurasia)` (2), `Dialogue Works` (1), `Mercouris` (1), `escalationtrap.substack.com` (1)
+- `Dialogue Works` (3), `Diesen (Greater Eurasia)` (2), `Mercouris` (1), `escalationtrap.substack.com` (1)
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Diesen` (2), `Alexander Mercouris` (1), `Nima Alkhorshid` (1)
+- Hosts: `Nima Alkhorshid` (3), `Diesen` (2), `Alexander Mercouris` (1)
 - Guests: `Anthony Aguilar` (1), `Jacques Baud` (1), `John Mearsheimer` (1), `Larry Johnson` (1), `Scott Ritter` (1)
-- Threads: `nima` (2), `[diesen, mearsheimer]` (1), `[diesen, ritter]` (1), `baud` (1), `mercouris` (1), `pape` (1)
+- Threads: `diesen` (2), `nima` (2), `baud` (1), `mercouris` (1), `pape` (1)
 
 ## Filename Family Fallbacks
 
-- `transcript-alkorshid-*` (2), `substack-*` (1), `transcript-*` (1)
+- `substack-*` (1), `transcript-*` (1)
 
 ## Files
 

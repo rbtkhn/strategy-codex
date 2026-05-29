@@ -1,5 +1,7 @@
 ---
 title: "AMB. Chas Freeman: Israel Humiliates Itself"
+kind: transcript
+show: Judging Freedom
 host: Judge Andrew Napolitano
 guest: Chas Freeman
 pub_date: 2026-05-26

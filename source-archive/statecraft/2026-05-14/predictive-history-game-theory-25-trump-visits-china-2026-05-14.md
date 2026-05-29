@@ -2,6 +2,9 @@
 ingest_date: 2026-05-19
 pub_date: 2026-05-14
 kind: transcript
+thread: jiang
+show: Predictive History
+host: Jiang Xueqin
 series: Predictive History
 volume: IV - Game Theory
 source_url: https://www.youtube.com/watch?v=BIl5vJn6ohI

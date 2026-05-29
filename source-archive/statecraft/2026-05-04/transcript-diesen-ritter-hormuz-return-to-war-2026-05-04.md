@@ -2,6 +2,7 @@
 ingest_date: 2026-05-04
 pub_date: 2026-05-04
 kind: operator-transcript
+thread: diesen
 show: Diesen (Greater Eurasia)
 episode_title: "Scott Ritter on the Strait of Hormuz, escalation, and a return to war"
 host: Diesen

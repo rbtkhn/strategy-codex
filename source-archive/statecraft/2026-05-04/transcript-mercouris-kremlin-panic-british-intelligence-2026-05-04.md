@@ -5,6 +5,7 @@ kind: cleaned-transcript
 show: Mercouris
 host: Alexander Mercouris
 thread: mercouris
+source_type: youtube
 operator_source: /Users/robertkuhne/Documents/mercouris-2026-05-04.md
 source_note: User-pasted cleaned YouTube transcript; the source paste repeated the transcript once at the end, so this raw-input file stores one complete copy.
 canonical_url: https://www.youtube.com/watch?v=vysZ1lBJK9A

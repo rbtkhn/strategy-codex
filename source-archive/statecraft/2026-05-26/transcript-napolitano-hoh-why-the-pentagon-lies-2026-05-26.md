@@ -1,5 +1,7 @@
 ---
 title: "Matt Hoh: Why the Pentagon Lies"
+kind: transcript
+show: Judging Freedom
 host: Judge Andrew Napolitano
 guest: Matt Hoh
 pub_date: 2026-05-26

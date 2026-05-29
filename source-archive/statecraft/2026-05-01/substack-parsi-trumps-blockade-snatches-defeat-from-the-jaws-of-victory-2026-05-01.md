@@ -4,6 +4,7 @@ pub_date: 2026-05-01
 kind: substack-post
 thread: parsi
 source_url: https://tritaparsi.substack.com/p/trumps-blockade-snatches-defeat-from
+source_type: substack
 publication: tritaparsi.substack.com
 slug: trumps-blockade-snatches-defeat-from-the-jaws-of-victory
 author: Trita Parsi

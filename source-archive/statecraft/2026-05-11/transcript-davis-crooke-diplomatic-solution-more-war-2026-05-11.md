@@ -1,5 +1,11 @@
 ---
 title: "Alastair Crooke: Diplomatic Solution or More War? w/ Lt. Col. Daniel Davis"
+pub_date: 2026-05-11
+ingest_date: 2026-05-11
+thread: davis
+show: Daniel Davis Deep Dive
+host: Daniel Davis
+guest: Alastair Crooke
 aired: "2026-05-11"
 ingested: "2026-05-11"
 source: operator_paste

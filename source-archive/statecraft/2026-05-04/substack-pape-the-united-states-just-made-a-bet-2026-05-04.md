@@ -4,6 +4,7 @@ pub_date: 2026-05-04
 kind: substack-post
 thread: pape
 source_url: https://escalationtrap.substack.com/p/the-united-states-just-made-a-bet
+source_type: substack
 publication: escalationtrap.substack.com
 slug: the-united-states-just-made-a-bet-it-cannot-afford-to-lose
 author: Prof Robert Pape

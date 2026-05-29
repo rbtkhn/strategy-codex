@@ -1,3 +1,13 @@
+---
+ingest_date: 2026-05-09
+pub_date: 2026-05-09
+kind: paste-bundle
+thread: mercouris
+title: "Key Excerpts - May 9, 2026 Streams"
+source_url: "codex://local-note/statecraft/2026-05-09/key-excerpts"
+note: "Compact excerpt note for the May 9, 2026 stream captures. Retrieval aid tied to the canonical source files, not a replacement for them."
+---
+
 # Key Excerpts — May 9, 2026 Streams
 
 Purpose: compact excerpt note for the May 9, 2026 stream captures. This is a retrieval aid tied to the source raw-input files, not a replacement for them.

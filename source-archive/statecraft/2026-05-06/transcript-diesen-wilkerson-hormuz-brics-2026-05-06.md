@@ -3,6 +3,8 @@ ingest_date: 2026-05-06
 pub_date: 2026-05-06
 kind: transcript
 thread: diesen
+show: Glenn Diesen
+host: Glenn Diesen
 source_url: https://www.youtube.com/watch?v=YzCI7IDtzXg
 publication: youtube.com
 slug: diesen-lawrence-wilkerson-diplomacy-hormuz-brics

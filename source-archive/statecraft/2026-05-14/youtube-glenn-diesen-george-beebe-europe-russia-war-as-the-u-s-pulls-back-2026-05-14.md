@@ -1,8 +1,11 @@
 ---
+ingest_date: 2026-05-14
+pub_date: 2026-05-14
+kind: transcript
 title: "George Beebe: Europe-Russia War as the U.S. Pulls Back?"
+show: Glenn Diesen
 host: Glenn Diesen
 guest: George Beebe
-date: 2026-05-14
 thread: diesen
 source_url: https://www.youtube.com/watch?v=TS6TY75l2Pw
 source_type: youtube-auto-captions

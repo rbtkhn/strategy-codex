@@ -6,20 +6,20 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Source files: `9`
 - Type mix: `youtube` (7), `predictive` (1), `transcript` (1)
-- Distinct channels/shows: `5`
-- Distinct hosts: `5`
+- Distinct channels/shows: `6`
+- Distinct hosts: `6`
 - Distinct guests: `6`
-- Distinct threads: `5`
+- Distinct threads: `6`
 
 ## Channel / Show Rollup
 
-- `Daniel Davis Deep Dive` (3), `Glenn Diesen` (2), `Alexander Mercouris` (1), `Dialogue Works` (1), `Mario Nawfal` (1)
+- `Daniel Davis Deep Dive` (3), `Glenn Diesen` (2), `Alexander Mercouris` (1), `Dialogue Works` (1), `Mario Nawfal` (1), `Predictive History` (1)
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Daniel Davis` (3), `Glenn Diesen` (2), `Alexander Mercouris` (1), `Mario Nawfal` (1), `Nima Alkorshid` (1)
+- Hosts: `Daniel Davis` (3), `Glenn Diesen` (2), `Alexander Mercouris` (1), `Jiang Xueqin` (1), `Mario Nawfal` (1), `Nima Alkorshid` (1)
 - Guests: `Chas Freeman` (1), `Doug Macgregor` (1), `Jeffrey Sachs` (1), `Robert Barnes` (1), `Robert Pape` (1), `Seyed M. Marandi` (1)
-- Threads: `davis` (3), `diesen` (2), `mercouris` (1), `nima` (1), `pape` (1)
+- Threads: `davis` (3), `diesen` (2), `jiang` (1), `mercouris` (1), `nima` (1), `pape` (1)
 
 ## Filename Family Fallbacks
 

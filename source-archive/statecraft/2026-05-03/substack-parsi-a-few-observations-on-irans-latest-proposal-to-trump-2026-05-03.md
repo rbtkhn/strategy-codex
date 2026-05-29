@@ -4,6 +4,7 @@ pub_date: 2026-05-03
 kind: substack-post
 thread: parsi
 source_url: https://substack.com/@tritaparsi/p-196342621
+source_type: substack
 publication: substack.com/@tritaparsi
 slug: a-few-observations-on-irans-latest-proposal-to-trump
 author: Trita Parsi

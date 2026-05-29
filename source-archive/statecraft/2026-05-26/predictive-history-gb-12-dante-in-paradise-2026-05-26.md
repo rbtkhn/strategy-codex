@@ -2,6 +2,9 @@
 ingest_date: 2026-05-27
 pub_date: 2026-05-26
 kind: transcript
+thread: jiang
+show: Predictive History
+host: Jiang Xueqin
 series: Predictive History
 volume: V - Great Books
 source_url: https://www.youtube.com/watch?v=FspDllFoiDE

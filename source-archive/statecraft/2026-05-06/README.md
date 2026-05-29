@@ -6,24 +6,24 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Source files: `9`
 - Type mix: `transcript` (5), `youtube` (2), `predictive` (1), `substack` (1)
-- Distinct channels/shows: `5`
-- Distinct hosts: `3`
+- Distinct channels/shows: `6`
+- Distinct hosts: `5`
 - Distinct guests: `4`
-- Distinct threads: `5`
+- Distinct threads: `6`
 
 ## Channel / Show Rollup
 
-- `Daniel Davis Deep Dive` (2), `Mercouris` (2), `youtube.com` (2), `Dialogue Works` (1), `escalationtrap.substack.com` (1)
+- `Daniel Davis Deep Dive` (2), `Glenn Diesen` (2), `Mercouris` (2), `Dialogue Works` (1), `Predictive History` (1), `escalationtrap.substack.com` (1)
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Alexander Mercouris` (2), `Daniel Davis` (2), `Nima Alkhorshid` (1)
+- Hosts: `Alexander Mercouris` (2), `Daniel Davis` (2), `Glenn Diesen` (2), `Jiang Xueqin` (1), `Nima Alkhorshid` (1)
 - Guests: `Scott Ritter` (3), `Chas Freeman` (1), `Lawrence Wilkerson` (1), `Trita Parsi` (1)
-- Threads: `davis` (2), `diesen` (2), `mercouris` (2), `nima` (1), `pape` (1)
+- Threads: `davis` (2), `diesen` (2), `mercouris` (2), `jiang` (1), `nima` (1), `pape` (1)
 
 ## Filename Family Fallbacks
 
-- `transcript-*` (2), `predictive-history-*` (1), `substack-*` (1), `youtube-*` (1)
+- `predictive-history-*` (1), `substack-*` (1), `youtube-*` (1)
 
 ## Files
 
