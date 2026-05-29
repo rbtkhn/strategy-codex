@@ -18,6 +18,7 @@ Primary source base: [Rome source corpus](../../../../research/repos/civilizatio
 - Civilization chapter: [Rome civilization](civilization-rome.md)
 - Empire chapter: [Rome empire](empire-rome.md)
 - Statecraft chapter: [Rome statecraft](statecraft-rome.md)
+- Volume bibliography: [Rome bibliography](bibliography-rome.md)
 - Sovereign continuity support note: [Rome sovereign continuity](sovereign-continuity.md)
 - Geo-strategy chapter: [Rome geo-strategy](geo-strategy-rome.md)
 - Secret-history chapter: [Rome secret-history](secret-history-rome.md)

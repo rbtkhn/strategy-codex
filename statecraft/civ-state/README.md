@@ -20,6 +20,8 @@ Civilizational Statecraft should now also be read as a two-volume whole-work boo
 - [Hybrid References](hybrid-references.md)
 - [Index](index.md)
 
+Each civilization-state volume should also carry its own bibliography with a primary-source center of gravity.
+
 ## Command Door
 
 `statecraft civ-state` is the preferred exact command door for CIV-STATE as an analysis bench.

@@ -89,6 +89,14 @@ The canonical CIV-STATE shelf for deep-grammar retrieval is now [Sacred Grammar 
 - [Russia statecraft](civ-state-russia/statecraft-russia.md)
 - [America statecraft](civ-state-america/statecraft-america.md)
 
+## Volume Bibliographies
+
+- [China bibliography](civ-state-china/bibliography-china.md)
+- [Persia bibliography](civ-state-persia/bibliography-persia.md)
+- [Rome bibliography](civ-state-rome/bibliography-rome.md)
+- [Russia bibliography](civ-state-russia/bibliography-russia.md)
+- [America bibliography](civ-state-america/bibliography-america.md)
+
 ## Sovereign Continuity Support Notes
 
 - [China sovereign continuity](civ-state-china/sovereign-continuity.md)
