@@ -32,6 +32,11 @@ Purpose: classify the major live Napolitano guest lanes so statecraft shelves ca
 - class: reinforcing branch
 - role: legal-moral legitimacy, blockade illegitimacy, and diplomatic incoherence under anti-war pressure
 
+#### Blumenthal
+
+- class: reinforcing branch
+- role: sabotage logic, regional corruption exposure, and Zionist-power interpretation under anti-war legal pressure
+
 ### Raw-input or non-branch presence
 
 #### Crooke

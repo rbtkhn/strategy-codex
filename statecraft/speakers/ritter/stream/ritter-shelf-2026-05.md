@@ -22,6 +22,8 @@ Month status: `mature retrieval month`
   - Support-tier debate-pressure extension.
 - [2026-05-27 Dialogue Works](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-27/transcript-dialogue-works-scott-ritter-iran-hit-an-mq-9-russia-escalates-with-oreshnik-2026-05-27.md)
   - Sharpest late-May convergence of Iran-war loss-of-control and Ukraine-to-Europe escalation pressure.
+- [2026-05-28 Garland Nixon](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/transcript-garland-nixon-scott-ritter-us-negotiations-detached-from-reality-kiev-targeted-2026-05-28.md)
+  - Support-tier constitutional-decay and Kiev-targeting extension that widens the late-May pressure cluster without changing the canonical helix.
 
 ## Reading note
 

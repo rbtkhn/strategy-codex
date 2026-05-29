@@ -47,6 +47,11 @@ Purpose: classify the major live Davis guest lanes so statecraft shelves can rou
 - class: reinforcing branch
 - role: diplomacy under military pressure, settlement realism, and coercion that cannot negotiate back legitimacy
 
+#### Baud
+
+- class: reinforcing branch
+- role: Europe-Russia provocation logic, law-of-war threshold reading, and alliance-escalation pressure under feasibility analysis
+
 ### Source-present but not yet mature Davis branches
 
 #### Pape

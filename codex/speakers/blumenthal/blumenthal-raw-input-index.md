@@ -15,6 +15,7 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Max B
 ## 2026-05
 
 - [youtube-blumenthal-judging-freedom-us-consumers-paying-for-trump-s-war-2026-05-20](../../years/2026/provenance/2026-05-20/youtube-blumenthal-judging-freedom-us-consumers-paying-for-trump-s-war-2026-05-20.md)
+- [transcript-napolitano-blumenthal-israel-will-sabotage-a-trump-iran-deal-2026-05-28](../../years/2026/provenance/2026-05-28/transcript-napolitano-blumenthal-israel-will-sabotage-a-trump-iran-deal-2026-05-28.md)
 
 ## Inventory / Discovery Surface
 
@@ -24,5 +25,5 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Max B
 
 - The April 21 transcript is the clearest live transcript-grade anchor currently on disk.
 - The April 25 through April 28 files are shorthand or pointer-style raw-input appearances that still belong in exhaustive coverage because they explicitly route through `thread: blumenthal`.
-- The May 20 file is a host-owned outside-channel capture (`Judging Freedom`) indexed here because Blumenthal is the guest and `thread: blumenthal` is explicit.
+- The May 20 and May 28 files are host-owned outside-channel captures (`Judging Freedom`) indexed here because Blumenthal is the guest and `thread: blumenthal` is explicit.
 - The inventory file is included because it contains explicit Blumenthal rows inside `raw-input`, but it is a discovery surface, not a substitute for transcript-grade capture.

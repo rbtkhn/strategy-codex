@@ -24,7 +24,7 @@ Excluded from the Source Set:
 
 ## Source Set
 
-Local interview appearance count: 48 captures.
+Local interview appearance count: 49 captures.
 
 | host | date | raw-input | function |
 |---|---|---|---|
@@ -74,6 +74,7 @@ Local interview appearance count: 48 captures.
 | Napolitano | 2026-03-31 | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-31/transcript-napolitano-ritter-why-iran-is-winning-2026-03-31.md) | legality and command failure |
 | Napolitano | 2026-04-20 | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-20/judging-freedom-trump-hegseth-2026-04-20.md) | legality and command failure |
 | Napolitano | 2026-05-18 | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-18/transcript-napolitano-ritter-the-us-will-never-learn-2026-05-18.md) | legality and command failure |
+| Garland Nixon | 2026-05-28 | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/transcript-garland-nixon-scott-ritter-us-negotiations-detached-from-reality-kiev-targeted-2026-05-28.md) | constitutional decay / Kiev-targeting extension |
 | Cyrus Janssen | 2026-05-10 | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-10/youtube-ritter-cyrus-janssen-iran-hormuz-energy-shock-2026-05-10.md) | energy and Hormuz shock |
 | Consortium News | 2026-05-18 | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-18/transcript-consortium-news-russia-debate-scott-ritter-vs-ray-mcgovern-2026-05-18.md) | adversarial debate / Russia-policy stress test |
 
@@ -85,6 +86,7 @@ Local interview appearance count: 48 captures.
 | [Davis host shelf](/C:/dev/strategy-codex/statecraft/hosts/davis/README.md) | operational feasibility | The question needs stockpiles, skies, basing, blockade practicality, or war-plan reality checks. |
 | [Dialogue Works x Ritter](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-ritter-speaker-arc.md) | live war pressure | The question needs maximum event pressure, rapid inversion claims, or immediate Iran-war crisis motion. |
 | [Napolitano host shelf](/C:/dev/strategy-codex/statecraft/hosts/napolitano/README.md) | legality and command failure | The question needs war powers, command absurdity, blockade illegitimacy, or legal-libertarian pressure. |
+| Garland Nixon x Ritter | constitutional decay / Kiev-targeting extension | The question needs anti-constitutional collapse framing fused to late-May Ukraine/Iran convergence from a non-canonical host. |
 | Cyrus Janssen x Ritter | energy and Hormuz shock | The question needs China/Asia-adjacent energy shock, Hormuz, or economic spillover from a non-core host. |
 | Consortium News x Ritter | adversarial debate / Russia-policy stress test | The question needs a debate setting, a Russia-policy stress test, or contrast against Ray McGovern. |
 
@@ -108,6 +110,7 @@ This is the crossing table between the interview strand and the authored Substac
 - **Best escalation-horizon entry:** [transcript-diesen-ritter-hormuz-return-to-war-2026-05-04.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-04/transcript-diesen-ritter-hormuz-return-to-war-2026-05-04.md)
 - **Best live-pressure entry:** [transcript-dialogue-works-scott-ritter-iran-didn-t-break-it-adapted-now-stronger-than-ever-2026-05-13.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-13/transcript-dialogue-works-scott-ritter-iran-didn-t-break-it-adapted-now-stronger-than-ever-2026-05-13.md)
 - **Best legality/command-failure entry:** [transcript-napolitano-ritter-the-us-will-never-learn-2026-05-18.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-18/transcript-napolitano-ritter-the-us-will-never-learn-2026-05-18.md)
+- **Best constitutional-decay extension:** [transcript-garland-nixon-scott-ritter-us-negotiations-detached-from-reality-kiev-targeted-2026-05-28.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/transcript-garland-nixon-scott-ritter-us-negotiations-detached-from-reality-kiev-targeted-2026-05-28.md)
 - **Best auxiliary energy-shock entry:** [youtube-ritter-cyrus-janssen-iran-hormuz-energy-shock-2026-05-10.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-10/youtube-ritter-cyrus-janssen-iran-hormuz-energy-shock-2026-05-10.md)
 - **Best debate-stress entry:** [transcript-consortium-news-russia-debate-scott-ritter-vs-ray-mcgovern-2026-05-18.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-18/transcript-consortium-news-russia-debate-scott-ritter-vs-ray-mcgovern-2026-05-18.md)
 
@@ -120,6 +123,6 @@ This is the crossing table between the interview strand and the authored Substac
 
 ## Verification Notes
 
-- Source Set intentionally includes 48 host-labeled captures, including the 2026-03-17, 2026-04-20, and 2026-05-18 Judging Freedom captures and the 2026-05-18 Consortium News debate capture.
+- Source Set intentionally includes 49 host-labeled captures, including the 2026-03-17, 2026-04-20, and 2026-05-18 Judging Freedom captures, the 2026-05-18 Consortium News debate capture, and the 2026-05-28 Garland Nixon reinforcement capture.
 - The authored [Ritter forecast ledger](stream/ritter-forecast-ledger-2026.md) remains Substack-only.
 - This note preserves the existing triple helix: Diesen, Davis, and Dialogue Works remain canonical; Napolitano remains auxiliary legal reinforcement.

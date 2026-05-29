@@ -126,6 +126,7 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Scott
 - [youtube-glenn-diesen-scott-ritter-europe-attacked-russia-retaliation-is-now-unavoidable-2026-05-19](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-19/youtube-glenn-diesen-scott-ritter-europe-attacked-russia-retaliation-is-now-unavoidable-2026-05-19.md)
 - [youtube-ritter-dialogue-works-trump-s-iran-attack-is-a-trap-that-leads-to-huge-humiliation-2026-05-20](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-20/youtube-ritter-dialogue-works-trump-s-iran-attack-is-a-trap-that-leads-to-huge-humiliation-2026-05-20.md)
 - [transcript-dialogue-works-scott-ritter-iran-hit-an-mq-9-russia-escalates-with-oreshnik-2026-05-27](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-27/transcript-dialogue-works-scott-ritter-iran-hit-an-mq-9-russia-escalates-with-oreshnik-2026-05-27.md)
+- [transcript-garland-nixon-scott-ritter-us-negotiations-detached-from-reality-kiev-targeted-2026-05-28](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/transcript-garland-nixon-scott-ritter-us-negotiations-detached-from-reality-kiev-targeted-2026-05-28.md)
 
 ## Discovery Surfaces
 
