@@ -35,7 +35,7 @@ Roman self-narration, republic, and empire formation:
 
 - Polybius, *Histories*
 - Livy, *Ab Urbe Condita*, especially the republic-and-founding books
-- Dionysius of Halicarnassus, *Roman Antiquities*
+- Lucretius, *De Rerum Natura*
 - Cicero, *De Re Publica*
 - Cicero, *De Legibus*
 - Cicero, *De Officiis*
@@ -46,13 +46,13 @@ Roman self-narration, republic, and empire formation:
 - Virgil, *Aeneid*
 - Ovid, *Metamorphoses*
 - Augustus, *Res Gestae Divi Augusti*
+- Seneca, *On Clemency*
 - Suetonius, *De Vita Caesarum*
 - Tacitus, *Annals*
 - Tacitus, *Histories*
 - Plutarch, *Lives*
-- Appian, *Roman History*
+- Marcus Aurelius, *Meditations*
 - Cassius Dio, *Roman History*
-- Arrian, *Anabasis of Alexander*
 
 Law, order, and imperial continuity:
 
@@ -65,15 +65,17 @@ Law, order, and imperial continuity:
 Christian and late-imperial hinge:
 
 - The New Testament
-- Ammianus Marcellinus, *Res Gestae*
+- Augustine, *City of God*
 - Eusebius, *Life of Constantine*
 
 Ancient retrieval priority:
 - founding and civic mythology
-- Greek inheritance Rome absorbs and contests
+- heavy Greek inheritance Rome absorbs and contests
 - republic-to-empire conversion
 - law and citizenship as Roman form
+- imperial ethics and self-command under rule
 - universality before and through Christianization
+- late-antique transformation into Roman-Christian order
 
 ### Medieval
 
