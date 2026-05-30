@@ -21,6 +21,7 @@ Current index:
 - [Civilization, Empire, Faith, Science, Memory, Desire](../civilization-empire-faith-science-memory-desire.md)
 - [Civilization, Empire, Faith, Science, Memory, Desire Retrieval Checklist](../civilization-empire-faith-science-memory-desire-retrieval-checklist.md)
 - [Source retrieval matrix](source-retrieval-matrix.md)
+- [Historical example retrieval matrix](historical-example-retrieval-matrix.md)
 - [Migration workspace](../migration/README.md)
 - [Freeman theme companions](freeman/README.md)
 - [Crooke theme companions](crooke/README.md)

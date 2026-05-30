@@ -51,6 +51,11 @@ Terminology note:
 
 During migration, older CIV-MEM files may serve as provenance for CIV-STATE objects, but statecraft outputs should cite the CIV-STATE object or lane-local translation whenever one exists.
 
+For historical-example discipline specifically, pair this note with:
+
+- [Anchored Historical Citation Policy](../../bridges/anchored-historical-citation-policy.md)
+- [Historical Example Retrieval Matrix](historical-example-retrieval-matrix.md)
+
 ## Retrieval Contract
 
 For each arc-lens or empire instrument, run four retrieval layers:

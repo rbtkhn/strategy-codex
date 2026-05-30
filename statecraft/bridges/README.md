@@ -69,6 +69,18 @@ Read the bridge in this order:
 3. [worked examples](worked-examples.md) if the method needs a concrete proof run
 4. the lane and transaction surfaces named by the adapter
 
+For the compact doctrine note that explains why the Pape / Marandi / Parsi sequence is valuable as method rather than mere comparison, open [Recognition Threshold Vs Settlement Architecture](recognition-threshold-vs-settlement-architecture.md).
+
+For the month-scale proof run that tests that method against the archive, open [Pape / Marandi / Parsi Backtest - May 2026](pape-marandi-parsi-backtest-may-2026.md).
+
+For the earlier-cycle proof run that tests the same method against a more trap-dominant month, open [Pape / Marandi / Parsi Backtest - April 2026](pape-marandi-parsi-backtest-april-2026.md).
+
+For the earliest hot-war proof run that tests whether the method still works before architecture fully matures, open [Pape / Marandi / Parsi Backtest - March 2026](pape-marandi-parsi-backtest-march-2026.md).
+
+For the strict novelty pass that asks whether the tri-lens yields bridge insights not explicitly present in any single source, open [Pape / Marandi / Parsi Novelty Audit](pape-marandi-parsi-novelty-audit.md).
+
+For the method note that governs when historical examples may support doctrine rather than merely appear in speaker rhetoric, open [Anchored Historical Citation Policy](anchored-historical-citation-policy.md).
+
 ## Pilot Pair
 
 V1 is intentionally limited to two adapters:
@@ -81,6 +93,8 @@ They are the right pilot pair because they repeatedly interpret the same Iran-ce
 
 - Marandi: pressure -> legitimacy -> recognition threshold
 - Parsi: leverage -> guarantees -> settlement durability
+
+Their combined method is summarized in [Recognition Threshold Vs Settlement Architecture](recognition-threshold-vs-settlement-architecture.md); Pape supplies the trap logic that often precedes both.
 
 ## Use Rule
 
