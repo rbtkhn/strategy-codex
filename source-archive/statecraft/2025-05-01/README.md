@@ -4,22 +4,22 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Stats
 
-- Source files: `1`
-- Type mix: `youtube` (1)
-- Distinct channels/shows: `1`
-- Distinct hosts: `1`
-- Distinct guests: `0`
-- Distinct threads: `1`
+- Source files: `2`
+- Type mix: `youtube` (1), `transcript` (1)
+- Distinct channels/shows: `2`
+- Distinct hosts: `2`
+- Distinct guests: `1`
+- Distinct threads: `2`
 
 ## Channel / Show Rollup
 
-- `Alexander Mercouris` (1)
+- `Alexander Mercouris` (1), `Judging Freedom` (1)
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Alexander Mercouris` (1)
-- Guests: (none)
-- Threads: `mercouris` (1)
+- Hosts: `Alexander Mercouris` (1), `Andrew Napolitano` (1)
+- Guests: `Douglas Macgregor` (1)
+- Threads: `macgregor` (1), `mercouris` (1)
 
 ## Filename Family Fallbacks
 
@@ -27,4 +27,5 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Files
 
+- `transcript-napolitano-macgregor-us-ukraine-mineral-security-deal-insane-or-provocative-2025-05-01.md`
 - `youtube-alex-mercouris-russia-seeks-ukraine-victory-deploys-2-new-armies-gives-up-on-talks-us-opts-to-invest-in-ukraine-2025-05-01.md`

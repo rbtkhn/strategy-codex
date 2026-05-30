@@ -40,6 +40,24 @@ April 2025 now also has a second native bridge file on disk:
 
 That late-April extension sharpens the same branch from the Napolitano side: Ukraine negotiation theater collapsing into battlefield fact, Trump being played into owning the war, and the risk that Netanyahu can still trigger a regional war that drags the United States into direct conflict with Iran.
 
+May 2025 is no longer a gap on this branch. It now has a real first native May bridge file on disk:
+
+- [2025-05-01 Douglas Macgregor - US/Ukraine Mineral/Security Deal: Insane or Provocative?](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-01/transcript-napolitano-macgregor-us-ukraine-mineral-security-deal-insane-or-provocative-2025-05-01.md)
+
+That early-May special strengthens the lane by tying the Ukraine minerals/security deal to negotiation self-sabotage with Moscow, renewed critique of Trump-team amateurism, tariff incoherence, and the still-open danger that Washington's Israel-first posture can trigger regional war with Iran.
+
+May 2025 now also has a second native bridge file on disk:
+
+- [2025-05-20 Douglas Macgregor - Is War with Iran Inevitable?](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-20/transcript-napolitano-macgregor-is-war-with-iran-inevitable-2025-05-20.md)
+
+That late-May extension sharpens the same branch from the Napolitano side: Trump still funding the Ukraine war while denying ownership, Gaza collapse under U.S.-shielded Israeli policy, and the warning that zero-enrichment maximalism is making direct U.S.-Iran war harder and harder to avoid.
+
+May 2025 now also has a third native bridge file on disk:
+
+- [2025-05-13 Douglas Macgregor - Is US Generous or Murderous?](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-13/transcript-napolitano-macgregor-is-us-generous-or-murderous-2025-05-13.md)
+
+That mid-May bridge thickens the same lane between the May 1 Ukraine-minerals hinge and the May 20 Iran hinge: Trump’s Saudi trip as reset theater, Netanyahu friction without strategic break, zero-enrichment deadlock with Iran, and Macgregor’s direct attack on trillion-dollar defense spending as both war-seeking and fiscally suicidal.
+
 ## Open first
 
 - [2026-04-23 Douglas Macgregor - The Pentagon's Terrible War Planning.](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-23/transcript-napolitano-macgregor-pentagon-terrible-war-planning-2026-04-23.md)
@@ -48,6 +66,9 @@ That late-April extension sharpens the same branch from the Napolitano side: Ukr
 - [2026-01-07 Douglas Macgregor - Trump Is Sleepwalking Into Another War.](/C:/dev/strategy-codex/source-archive/statecraft/2026-01-07/transcript-napolitano-macgregor-trump-is-sleepwalking-into-another-war-2026-01-07.md)
 - [2025-12-11 Douglas Macgregor - Why Threaten Venezuela?](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-11/transcript-napolitano-macgregor-why-threaten-venezuela-2025-12-11.md)
 - [2025-11-13 Douglas Macgregor - War Is Coming Soon.](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-13/transcript-napolitano-macgregor-war-is-coming-soon-2025-11-13.md)
+- [2025-05-20 Douglas Macgregor - Is War with Iran Inevitable?](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-20/transcript-napolitano-macgregor-is-war-with-iran-inevitable-2025-05-20.md)
+- [2025-05-13 Douglas Macgregor - Is US Generous or Murderous?](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-13/transcript-napolitano-macgregor-is-us-generous-or-murderous-2025-05-13.md)
+- [2025-05-01 Douglas Macgregor - US/Ukraine Mineral/Security Deal: Insane or Provocative?](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-01/transcript-napolitano-macgregor-us-ukraine-mineral-security-deal-insane-or-provocative-2025-05-01.md)
 - [2025-03-19 Douglas Macgregor - Will US Attack Iran?](/C:/dev/strategy-codex/source-archive/statecraft/2025-03-19/transcript-napolitano-macgregor-will-us-attack-iran-2025-03-19.md)
 - [2025-03-27 Douglas Macgregor - Readying For War With Iran.](/C:/dev/strategy-codex/source-archive/statecraft/2025-03-27/transcript-napolitano-macgregor-readying-for-war-with-iran-2025-03-27.md)
 - [2025-02-26 Douglas Macgregor - Why Is Trump Arming Ukraine?](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-26/transcript-napolitano-macgregor-why-is-trump-arming-ukraine-2025-02-26.md)
@@ -82,5 +103,5 @@ Use this arc when the notebook needs:
 - If the question is mainly about force sustainability, inflation, or Hormuz cost rather than undeclared-war indictment, route outward to [davis-macgregor-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-macgregor-speaker-arc.md).
 
 - This is a real January 2025-April 2026 Napolitano branch.
-- January through April 2025 now give the branch eleven transcript-grade opening anchors; November remains a routeable summary-grade reinforcement, with April 23 still the strongest native opening point.
+- January through May 2025 now give the branch fourteen transcript-grade opening anchors; November remains a routeable summary-grade reinforcement, with April 23 still the strongest native opening point.
 - It reinforces Macgregor's object; it does not promote Macgregor beyond the existing durable double-helix doctrine.

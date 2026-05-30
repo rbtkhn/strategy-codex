@@ -45,7 +45,14 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Dougl
 
 ## 2025-05
 
-- no currently materialized Macgregor raw-input surfaces on disk for this month
+- [transcript-napolitano-macgregor-us-ukraine-mineral-security-deal-insane-or-provocative-2025-05-01](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-01/transcript-napolitano-macgregor-us-ukraine-mineral-security-deal-insane-or-provocative-2025-05-01.md)
+- [transcript-diesen-macgregor-victory-day-russia-already-won-the-war-2025-05-09](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-09/transcript-diesen-macgregor-victory-day-russia-already-won-the-war-2025-05-09.md)
+- [transcript-davis-macgregor-relentless-russia-drone-attacks-on-ukraine-will-peace-talks-even-happen-2025-05-12](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-12/transcript-davis-macgregor-relentless-russia-drone-attacks-on-ukraine-will-peace-talks-even-happen-2025-05-12.md)
+- [transcript-napolitano-macgregor-is-us-generous-or-murderous-2025-05-13](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-13/transcript-napolitano-macgregor-is-us-generous-or-murderous-2025-05-13.md)
+- [transcript-johnson-macgregor-nato-s-collapse-2025-05-20](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-20/transcript-johnson-macgregor-nato-s-collapse-2025-05-20.md)
+- [transcript-davis-macgregor-trump-putin-phone-call-fallout-europe-in-a-panic-2025-05-20](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-20/transcript-davis-macgregor-trump-putin-phone-call-fallout-europe-in-a-panic-2025-05-20.md)
+- [transcript-napolitano-macgregor-is-war-with-iran-inevitable-2025-05-20](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-20/transcript-napolitano-macgregor-is-war-with-iran-inevitable-2025-05-20.md)
+- [transcript-davis-macgregor-effective-russian-ultimatum-peace-on-our-terms-or-we-ll-push-to-battlefield-victory-2025-05-27](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-27/transcript-davis-macgregor-effective-russian-ultimatum-peace-on-our-terms-or-we-ll-push-to-battlefield-victory-2025-05-27.md)
 
 ## 2025-06
 

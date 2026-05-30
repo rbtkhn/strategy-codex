@@ -88,6 +88,24 @@ April 2025 now has a sixth 2025 transcript-grade anchor on disk:
 
 That late-April hinge pushes the branch one step further: symbolic ceasefires, the prospect of a decisive Russian push, Kennedy-style escalation fantasy in Washington, and Macgregor's insistence that the real off-ramp remains a U.S. walk-away rather than pressure on Moscow.
 
+May 2025 is no longer thin on the Davis-side branch. It now has a seventh 2025 transcript-grade anchor on disk:
+
+- [2025-05-27 Col Doug Macgregor: Effective Russian Ultimatum: Peace on Our Terms or We’ll Push to Battlefield Victory](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-27/transcript-davis-macgregor-effective-russian-ultimatum-peace-on-our-terms-or-we-ll-push-to-battlefield-victory-2025-05-27.md)
+
+That late-May extension sharpens the branch again: Russian regime-change conditionality for any settlement, German and NATO deep-strike fantasy, the claim that Trump is now strategically irrelevant to the outcome, and Macgregor's parallel warning that Western financial fragility is converging with battlefield defeat.
+
+May 2025 now also has an eighth 2025 transcript-grade anchor on disk:
+
+- [2025-05-20 Col Doug Macgregor: Trump Putin Phone Call FALLOUT /Europe in a PANIC!](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-20/transcript-davis-macgregor-trump-putin-phone-call-fallout-europe-in-a-panic-2025-05-20.md)
+
+That same-day May bridge adds the direct post-call layer: Trump as a non-neutral co-belligerent, Russia's time advantage in memorandum diplomacy, Europe's impossible settlement demands, and Macgregor's argument that the realistic end state still runs through Russian control east of the Dnieper rather than Western mediation theater.
+
+May 2025 now also has a ninth 2025 transcript-grade anchor on disk:
+
+- [2025-05-12 Relentless Russia Drone Attacks on Ukraine / Will Peace Talks Even Happen?](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-12/transcript-davis-macgregor-relentless-russia-drone-attacks-on-ukraine-will-peace-talks-even-happen-2025-05-12.md)
+
+That earlier-May bridge thickens the same late-spring run from the other side of the Istanbul hinge: Trump aligning with Europe's failed ceasefire rhetoric, Russia treating Washington as an incoherent co-belligerent, and Macgregor warning that absent a real U.S. walk-away the war can still end in a Russian drive to the Dnieper, Odessa, and Kiev.
+
 ## Open first
 
 If the operator needs only one file:

@@ -36,6 +36,12 @@ The 2025 shelf is now materially broader than the earlier minimal core. In addit
 - `2025-11-04` *Decline Out of Control - Ukraine and Venezuela Wars*
 - `2025-11-26` *NATO Lost the War - Empire of Lies Collapses*
 
+The branch now also has a real early-May 2025 bridge on disk:
+
+- [2025-05-09 Col. Douglas Macgregor: Victory Day - Russia Already Won the War](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-09/transcript-diesen-macgregor-victory-day-russia-already-won-the-war-2025-05-09.md)
+
+That file matters because it gives the Diesen lane an earlier 2025 on-disk opening point than the June anchor: Victory Day as Russian civilizational memory, Trump losing the chance to normalize relations, the Dnieper and Odessa logic as the battlefield end state, and Macgregor's sharper claim that NATO and the EU may not survive the war's final outcome.
+
 ## Open first
 
 If the operator needs only one file:
