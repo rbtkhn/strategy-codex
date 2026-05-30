@@ -1,4 +1,4 @@
-# Survivable Sovereignty
+﻿# Survivable Sovereignty
 
 WORK only; not Record.
 
@@ -39,7 +39,7 @@ This is not sovereignty at ease. It is sovereignty designed to remain alive unde
 
 ## Key source doors
 
-- [Persia bibliography](../volumes/civ-state-persia/bibliography-persia.md)
+- [Persia bibliography](../volumes/civ-state-persia/civ-state-persia-bibliography.md)
 - Oil Nationalization Law
 - Constitution of the Islamic Republic of Iran
 - Sacred Defense communiques
@@ -54,3 +54,4 @@ Use this pattern when the live question is:
 - what counts as enough sovereignty to survive
 - how a pressured state preserves dignity without full dominance
 - how deterrence, denial, and endurance can become continuity-bearing rather than merely reactive
+

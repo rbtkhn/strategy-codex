@@ -1,4 +1,4 @@
-# Sacred Reconcentration
+﻿# Sacred Reconcentration
 
 WORK only; not Record.
 
@@ -36,7 +36,7 @@ This is not generic religious revival. It is sacred legitimacy becoming state-be
 
 ## Key source doors
 
-- [Persia bibliography](../volumes/civ-state-persia/bibliography-persia.md)
+- [Persia bibliography](../volumes/civ-state-persia/civ-state-persia-bibliography.md)
 - *Avesta*
 - Ferdowsi, *Shahnameh*
 - Nizam al-Mulk, *Siyasatnama*
@@ -50,3 +50,4 @@ Use this pattern when the live problem turns on:
 - legitimacy that must be both sacred and sovereign
 - reconstitution after deep diffusion
 - political form that cannot survive on coercion alone because it needs a restored civilizational center
+

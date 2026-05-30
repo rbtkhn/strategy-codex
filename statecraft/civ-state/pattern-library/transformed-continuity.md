@@ -1,4 +1,4 @@
-# Transformed Continuity
+﻿# Transformed Continuity
 
 WORK only; not Record.
 
@@ -44,7 +44,7 @@ So Persia participates in the pattern, but does not end in it.
 ## Key source doors
 
 - [Continuity Mechanism](../continuity-mechanism.md)
-- [Rome bibliography](../volumes/civ-state-rome/bibliography-rome.md)
+- [Rome bibliography](../volumes/civ-state-rome/civ-state-rome-bibliography.md)
 - Augustine, *City of God*
 - *Corpus Juris Civilis*
 - Gratian, *Decretum*
@@ -60,3 +60,4 @@ Use this pattern when the live question is whether continuity can survive:
 - conversion of empire into doctrine, church, law, or successor residue
 
 It is especially useful when drafting for civilizations that cannot be read honestly as dead, but also cannot be read as territorially continuous in a simple way.
+

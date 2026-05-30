@@ -1,4 +1,4 @@
-# Continuity Mechanism
+﻿# Continuity Mechanism
 
 WORK only; not Record.
 
@@ -37,7 +37,7 @@ This means Rome's continuity mechanism is structurally dispersed. It can survive
 
 ### Key source doors
 
-- [Rome bibliography](volumes/civ-state-rome/bibliography-rome.md)
+- [Rome bibliography](volumes/civ-state-rome/civ-state-rome-bibliography.md)
 - Procopius, *Wars*
 - *Corpus Juris Civilis*
 - Augustine, *City of God*
@@ -68,7 +68,7 @@ This means China's continuity mechanism is structurally centripetal. What matter
 
 ### Key source doors
 
-- [China bibliography](volumes/civ-state-china/bibliography-china.md)
+- [China bibliography](volumes/civ-state-china/civ-state-china-bibliography.md)
 - *Shujing* / *Book of Documents*
 - *Analects*
 - *Tang Code*
@@ -98,7 +98,7 @@ This means Persia's continuity mechanism is structurally regenerative. It can su
 
 ### Key source doors
 
-- [Persia bibliography](volumes/civ-state-persia/bibliography-persia.md)
+- [Persia bibliography](volumes/civ-state-persia/civ-state-persia-bibliography.md)
 - *Avesta*
 - *Cyrus Cylinder*
 - Shapur I, *Res Gestae Divi Saporis*
@@ -134,3 +134,4 @@ Use this sheet when the live question is comparative, for example:
 - What kind of settlement language feels like restoration, betrayal, or humiliation in each case?
 
 When one civilization starts to dominate the answer, return to the volume bibliography and re-open its native grammar before drafting.
+

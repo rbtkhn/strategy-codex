@@ -1,4 +1,4 @@
-# CIV-STATE Volumes
+﻿# CIV-STATE Volumes
 
 WORK only; not Record.
 
@@ -91,11 +91,11 @@ The canonical CIV-STATE shelf for deep-grammar retrieval is now [Sacred Grammar 
 
 ## Volume Bibliographies
 
-- [China bibliography](civ-state-china/bibliography-china.md)
-- [Persia bibliography](civ-state-persia/bibliography-persia.md)
-- [Rome bibliography](civ-state-rome/bibliography-rome.md)
-- [Russia bibliography](civ-state-russia/bibliography-russia.md)
-- [America bibliography](civ-state-america/bibliography-america.md)
+- [China bibliography](civ-state-china/civ-state-china-bibliography.md)
+- [Persia bibliography](civ-state-persia/civ-state-persia-bibliography.md)
+- [Rome bibliography](civ-state-rome/civ-state-rome-bibliography.md)
+- [Russia bibliography](civ-state-russia/civ-state-russia-bibliography.md)
+- [America bibliography](civ-state-america/civ-state-america-bibliography.md)
 
 ## Sovereign Continuity Support Notes
 
@@ -177,3 +177,4 @@ It does **not** answer by itself:
 - governing-pair diagnosis across multiple civilizations
 - helix/meta-synthesis above mature lane sets
 - archive intake or transcript routing
+

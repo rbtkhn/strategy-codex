@@ -1,4 +1,4 @@
-# CIV-STATE America
+﻿# CIV-STATE America
 
 WORK only; not Record.
 
@@ -19,7 +19,7 @@ Primary live lane: [America statecraft lane](../../../america/README.md)
 - Civilization chapter: [America civilization](civilization-america.md)
 - Empire chapter: [America empire](empire-america.md)
 - Statecraft chapter: [America statecraft](statecraft-america.md)
-- Volume bibliography: [America bibliography](bibliography-america.md)
+- Volume bibliography: [America bibliography](civ-state-america-bibliography.md)
 - Sovereign continuity support note: [America sovereign continuity](sovereign-continuity.md)
 - Geo-strategy chapter: [America geo-strategy](geo-strategy-america.md)
 - Secret-history chapter: [America secret-history](secret-history-america.md)
@@ -98,3 +98,4 @@ Best current carriers:
 - **Current sovereign head**: `Donald Trump`
 - **Present continuity claim**: latest sovereign concentration of a longer and contested Anglo-American chain rather than a clean `1776`-only story, with the present state carrying inheritance older than the U.S. proper
 - **Boundary note**: do not confuse U.S. officeholding with an uncontested continuity chain or read the present sovereign head as final proof of the category
+

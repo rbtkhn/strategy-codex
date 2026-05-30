@@ -1,4 +1,4 @@
-# CIV-STATE Russia
+﻿# CIV-STATE Russia
 
 WORK only; not Record.
 
@@ -18,7 +18,7 @@ Primary live lane: [Russia statecraft lane](../../../russia/README.md)
 - Civilization chapter: [Russia civilization](civilization-russia.md)
 - Empire chapter: [Russia empire](empire-russia.md)
 - Statecraft chapter: [Russia statecraft](statecraft-russia.md)
-- Volume bibliography: [Russia bibliography](bibliography-russia.md)
+- Volume bibliography: [Russia bibliography](civ-state-russia-bibliography.md)
 - Sovereign continuity support note: [Russia sovereign continuity](sovereign-continuity.md)
 - Geo-strategy chapter: [Russia geo-strategy](geo-strategy-russia.md)
 - Secret-history chapter: [Russia secret-history](secret-history-russia.md)
@@ -99,3 +99,4 @@ Best current carriers:
 - **Current sovereign head**: `Vladimir Putin`
 - **Present continuity claim**: restored and regathered Russian sovereign continuity after Soviet and post-Soviet rupture, concentrated in the present state as claimant to a much older chain whose remembered sequence runs from accepted order-restoration through Muscovite internalization to modern depth-state restoration
 - **Boundary note**: do not confuse restoration claim with simple uninterrupted form or read the current sovereign head as the whole Russian civilization
+

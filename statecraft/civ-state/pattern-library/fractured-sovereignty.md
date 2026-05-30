@@ -1,4 +1,4 @@
-# Fractured Sovereignty
+﻿# Fractured Sovereignty
 
 WORK only; not Record.
 
@@ -38,7 +38,7 @@ Persia shows the pattern partially in some later phases, especially under conces
 
 ## Key source doors
 
-- [Rome bibliography](../volumes/civ-state-rome/bibliography-rome.md)
+- [Rome bibliography](../volumes/civ-state-rome/civ-state-rome-bibliography.md)
 - [Continuity Mechanism](../continuity-mechanism.md)
 - Boniface VIII, *Unam Sanctam*
 - *Peace of Westphalia*
@@ -53,3 +53,4 @@ Use this pattern when the live object turns on:
 - partial sovereignty rather than total loss
 - successor-order settlement
 - drafting language that must respect layered rather than singular inheritance
+

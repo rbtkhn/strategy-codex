@@ -1,4 +1,4 @@
-# CIV-STATE Persia
+﻿# CIV-STATE Persia
 
 WORK only; not Record.
 
@@ -16,7 +16,7 @@ Primary live lane: [Persia statecraft lane](../../../persia/README.md)
 - Civilization chapter: [Persia civilization](civilization-persia.md)
 - Empire chapter: [Persia empire](empire-persia.md)
 - Statecraft chapter: [Persia statecraft](statecraft-persia.md)
-- Volume bibliography: [Persia bibliography](bibliography-persia.md)
+- Volume bibliography: [Persia bibliography](civ-state-persia-bibliography.md)
 - Sovereign continuity support note: [Persia sovereign continuity](sovereign-continuity.md)
 - Geo-strategy chapter: [Persia geo-strategy](geo-strategy-persia.md)
 - Secret-history chapter: [Persia secret-history](secret-history-persia.md)
@@ -97,3 +97,4 @@ Best current carriers:
 - **Current sovereign head**: `Ali Khamenei`
 - **Present continuity claim**: Persian / Iranian sovereign continuity now carried through Islamic-Republic form with Supreme Leader apex, combining older Persian sovereignty memory, Shi'a state legitimacy, and modern anti-humiliation deterrent continuity rather than a merely presidential executive surface
 - **Boundary note**: do not confuse the presidency with the sovereign apex; `Masoud Pezeshkian` is the executive president, but the continuity-bearing sovereign head in this shelf is `Ali Khamenei`
+

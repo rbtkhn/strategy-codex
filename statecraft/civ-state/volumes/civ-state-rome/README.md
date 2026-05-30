@@ -1,4 +1,4 @@
-# CIV-STATE Rome
+﻿# CIV-STATE Rome
 
 WORK only; not Record.
 
@@ -18,7 +18,7 @@ Primary source base: [Rome source corpus](../../../../research/repos/civilizatio
 - Civilization chapter: [Rome civilization](civilization-rome.md)
 - Empire chapter: [Rome empire](empire-rome.md)
 - Statecraft chapter: [Rome statecraft](statecraft-rome.md)
-- Volume bibliography: [Rome bibliography](bibliography-rome.md)
+- Volume bibliography: [Rome bibliography](civ-state-rome-bibliography.md)
 - Sovereign continuity support note: [Rome sovereign continuity](sovereign-continuity.md)
 - Geo-strategy chapter: [Rome geo-strategy](geo-strategy-rome.md)
 - Secret-history chapter: [Rome secret-history](secret-history-rome.md)
@@ -101,3 +101,4 @@ Best current carriers:
 - **Current sovereign head**: `Pope Leo XIV`
 - **Present continuity claim**: transformed Roman continuity survives in Catholic residue and universal-sacral authority rather than in a living territorial Roman state
 - **Boundary note**: do not confuse the pope here with the head of a territorial Roman polity or read the residue-carrier as if it were identical to the whole Roman civilization
+

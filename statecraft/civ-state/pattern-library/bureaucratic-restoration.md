@@ -1,4 +1,4 @@
-# Bureaucratic Restoration
+﻿# Bureaucratic Restoration
 
 WORK only; not Record.
 
@@ -39,7 +39,7 @@ Persia shows this pattern meaningfully but secondarily. Administration, mirrors-
 
 ## Key source doors
 
-- [China bibliography](../volumes/civ-state-china/bibliography-china.md)
+- [China bibliography](../volumes/civ-state-china/civ-state-china-bibliography.md)
 - *Tang Code*
 - *Zizhi Tongjian*
 - *Da Ming Lu*
@@ -56,3 +56,4 @@ Use this pattern when the live question is whether order can be restored through
 - recentralized state capacity
 
 It is especially useful for distinguishing civilizations that require a rebuilt center from those that can survive through residue or sacred reconcentration alone.
+

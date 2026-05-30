@@ -1,4 +1,4 @@
-# CIV-STATE China
+﻿# CIV-STATE China
 
 WORK only; not Record.
 
@@ -16,7 +16,7 @@ Primary live lane: [China statecraft lane](../../../china/README.md)
 - Civilization chapter: [China civilization](civilization-china.md)
 - Empire chapter: [China empire](empire-china.md)
 - Statecraft chapter: [China statecraft](statecraft-china.md)
-- Volume bibliography: [China bibliography](bibliography-china.md)
+- Volume bibliography: [China bibliography](civ-state-china-bibliography.md)
 - Sovereign continuity support note: [China sovereign continuity](sovereign-continuity.md)
 - Geo-strategy chapter: [China geo-strategy](geo-strategy-china.md)
 - Secret-history chapter: [China secret-history](secret-history-china.md)
@@ -100,3 +100,4 @@ Best current carriers:
 - **Current sovereign head**: `Xi Jinping`
 - **Present continuity claim**: dynastic-state continuity now concentrated in party-state form, with the present leadership bearing a much older order, mandate, administrative-standardization, and anti-fragmentation claim carried into the present through modern reconstitution rather than simple dynastic succession
 - **Boundary note**: do not reduce Chinese continuity to party tactics alone or mistake the present sovereign head for the whole civilization
+
