@@ -1,0 +1,131 @@
+---
+name: statecraft-daily-synthesis
+preferred_activation: statecraft daily synthesis
+description: "Turn a landed statecraft archive day batch into a bounded daily synthesis note on the statecraft side. Use when the source captures for a day already exist and the next job is to identify the dominant crisis object, lane pressure, and speaker-by-function comparisons. Includes same-object mechanism comparison as a built-in subroutine."
+portable: true
+version: 0.1.0
+tags:
+  - operator
+  - statecraft
+  - synthesis
+  - daily
+---
+
+# Statecraft daily synthesis
+
+**Preferred activation (operator):** say **`statecraft daily synthesis`**.
+
+Use this skill when a day-batch of statecraft source captures is already real and the next need is a bounded synthesis note on the `statecraft/` side.
+
+This skill is for **downstream synthesis**, not archive capture. Its job is to read the landed archive batch, identify the governing object, and write a compact, durable interpretation surface without pretending to replace the underlying transcript authority.
+
+## Use this skill when
+
+- the day archive is already materialized
+- the operator wants a daily synthesis report
+- the operator wants a bounded read of lane pressure, crisis object, and tensions
+- a same-object, different-mechanism comparison would clarify the batch
+
+## Do not use this skill when
+
+- the day batch does not yet exist in `source-archive/statecraft/`
+- the operator is still uploading transcripts and the archive layer is incomplete
+- the task is only archive intake
+- the task is a lane-direct doctrinal memo rather than a day-batch synthesis
+
+## Core law
+
+This skill starts **after** archive truth is already grounded.
+
+Read the stack in this order:
+
+`Statecraft Archive -> Statecraft Synthesis -> lane / bridge / civ-state judgment`
+
+This skill operates on the middle of that stack.
+
+## Output law
+
+The default output is a bounded synthesis note under `statecraft/`, not in the archive.
+
+It should usually do four things:
+
+1. identify the dominant crisis object
+2. assign primary and secondary lane pressure
+3. name the most useful speakers and why
+4. preserve tensions, falsifiers, and next moves
+
+## Workflow
+
+1. **Open the landed day archive**
+   - Start from the touched day `README.md`.
+   - Confirm the batch is materially real and source-bearing.
+   - Identify the highest-signal captures in the batch.
+
+2. **Name the governing object**
+   - Ask what the day is really about:
+     - command failure
+     - settlement breakdown
+     - blockade/coercion
+     - recognition threshold
+     - alliance entrapment
+     - escalation psychology
+   - Prefer one dominant object and one secondary object over a flat summary.
+
+3. **Assign lane pressure**
+   - Name the primary owning lane.
+   - Name secondary lane pressure only when it materially changes the read.
+   - Do not force every day into cross-lane symmetry.
+
+4. **Compare speakers by explanatory function**
+   - Do not collapse speakers into generic agreement/disagreement.
+   - Ask what each speaker contributes best:
+     - mechanism
+     - enabling carrier
+     - bargaining consequence
+     - settlement architecture
+     - threshold/clock/falsifier
+   - Preserve differences in explanatory power.
+
+5. **Write the bounded report**
+   - Put the note on the `statecraft/` side.
+   - Keep it compact, decision-bearing, and traceable back to the source day.
+   - Include best next moves rather than pretending the batch already settled everything.
+
+6. **Update the smallest live synthesis surfaces**
+   - Update the relevant daily shelf index.
+   - Link companion comparison notes when they become durable enough to reuse.
+
+## Mechanism-comparison subroutine
+
+Use this subroutine when multiple speakers are reading the **same object** through different logics.
+
+Default comparison sequence:
+
+1. state the shared object
+2. identify each speaker's strongest mechanism
+3. identify the enabling carrier if one speaker supplies it
+4. identify the opponent-side bargaining effect if one speaker supplies it
+5. compress the result into a reusable line
+
+Example shape:
+
+- `Pape` = trap logic
+- `Freeman` = strategic backfire
+- `Sachs` = enabling carrier
+- `Marandi` = adversary-side hardening
+
+Short rule:
+
+`do not ask only who is right; ask where explanatory responsibility is divided`
+
+## Guardrails
+
+- Never write the daily synthesis into `source-archive/statecraft/`.
+- Never let a polished summary replace transcript authority.
+- Never flatten multiple speakers into one blended commentary voice.
+- Never force lane certainty when the day still has a real split.
+- Never let one elegant mechanism pretend to explain the entire object if the batch clearly shows carrier, leverage, and bargaining layers separately.
+
+## Success condition
+
+The day ends with a bounded, reusable synthesis note under `statecraft/` that is grounded in the archive batch, clear about lane pressure, and explicit about which speakers explain which part of the object best.

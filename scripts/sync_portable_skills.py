@@ -226,8 +226,18 @@ def _dump_yaml_subset(data, *, indent: int = 0) -> str:
 
 
 def _load_yaml(path: Path) -> dict:
+    def _is_manifest_shape(data: object) -> bool:
+        if not isinstance(data, dict):
+            return False
+        skills = data.get("skills")
+        if skills is None:
+            return True
+        return isinstance(skills, list) and all(isinstance(item, dict) for item in skills)
+
     try:
         data = safe_load_path(path, feature="sync_portable_skills.py")
+        if not _is_manifest_shape(data):
+            data = _parse_yaml_subset(path.read_text(encoding="utf-8"))
     except RuntimeError as e:
         if "PyYAML is required" not in str(e):
             raise

@@ -112,17 +112,36 @@ Canonical method: [skills-portable/first-wave-service-sales/SKILL.md](first-wave
 - **What it is**
   - A statecraft archive-intake skill for landing full transcript-bearing source objects into the canonical `source-archive/statecraft` tree with the correct family pattern.
 - **When to use it**
-  - Use when the operator already has a pasted transcript or transcript-bearing source object and the main job is placing it correctly, honestly, and without summary/stub drift.
+  - Use when the operator already has a pasted transcript or transcript-bearing source object and the main job is placing it correctly, honestly, and without summary/stub drift, including repeated same-day daily-intake batches.
 - **Inputs you'll need**
   - Source URL, transcript body, publication date if known, and the nearest existing family examples.
 - **What you get**
-  - A real full-source archive object with the right filename/frontmatter family, truthful provenance, and archive-only placement.
+  - A real full-source archive object with the right filename/frontmatter family, truthful provenance, archive-only placement, and refreshed day/month/thread indices.
 - **Boundary**
   - Does not fetch YouTube captions, does not clean to study-grade derivative form, and does not route, summarize, or synthesize in `statecraft/`.
 - **Current status**
   - `promoted`
 
 Canonical method: [skills-portable/statecraft-source-intake/SKILL.md](statecraft-source-intake/SKILL.md)
+
+---
+
+## statecraft-daily-synthesis
+
+- **What it is**
+  - A downstream statecraft synthesis skill for turning a landed archive day batch into a bounded daily report plus optional companion mechanism-comparison note.
+- **When to use it**
+  - Use when the day's statecraft captures already exist and the next need is the dominant crisis object, lane pressure, and speaker-by-function comparison.
+- **Inputs you'll need**
+  - The touched day archive inventory, the highest-signal source captures, and the current `statecraft/daily/` shelf.
+- **What you get**
+  - A durable daily synthesis note on the `statecraft/` side and, when needed, a same-object comparison note that preserves mechanism, carrier, and bargaining differences.
+- **Boundary**
+  - Does not replace archive truth, does not write synthesis into `source-archive/`, and does not flatten multiple speakers into one blended commentary voice.
+- **Current status**
+  - `promoted`
+
+Canonical method: [skills-portable/statecraft-daily-synthesis/SKILL.md](statecraft-daily-synthesis/SKILL.md)
 
 ---
 

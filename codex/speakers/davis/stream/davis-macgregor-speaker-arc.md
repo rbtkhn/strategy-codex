@@ -64,6 +64,30 @@ The February 2025 Davis-side expansion is now no longer hypothetical. It has two
 
 Together they make the early Davis-side 2025 branch materially clearer: Zelensky obstruction, Russian leverage, settlement geometry, European blockage, and U.S. force-structure critique all appear before the later autumn continuation.
 
+March 2025 now extends that branch cleanly with a third Davis-side settlement anchor on disk:
+
+- [2025-03-18 Col Doug Macgregor Putin Wants All Arms Halted to Ukraine](/C:/dev/strategy-codex/source-archive/statecraft/2025-03-18/transcript-davis-macgregor-putin-wants-all-arms-halted-to-ukraine-2025-03-18.md)
+
+That file sharpens the lane's internal shape again: halt-all-arms conditionality, Russian distrust of Western promises, Europe's escalatory dead end, and Macgregor's argument that cartelized instability on the U.S. southern border is a more direct strategic threat to America than Russia.
+
+April 2025 is no longer a dead zone for the Davis-side branch. It now has a fourth 2025 transcript-grade anchor on disk:
+
+- [2025-04-15 Col Doug Macgregor: Trump & Zelensky at Odds / What this Means for Peace Talks](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-15/transcript-davis-macgregor-trump-and-zelensky-at-odds-what-this-means-for-peace-talks-2025-04-15.md)
+
+That bridge keeps the early 2025 lane continuous across February-March-April: Trump's partial ownership of the war, British and NATO unreality, battlefield and industrial inferiority, and the carryover into Iran escalation risk all sit in one place before the later autumn continuation.
+
+April 2025 now adds a fifth 2025 transcript-grade anchor on disk:
+
+- [2025-04-22 Col Doug Macgregor: Trump Revealing Ukraine Peace Plan this Week](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-22/transcript-davis-macgregor-trump-revealing-ukraine-peace-plan-this-week-2025-04-22.md)
+
+That follow-on sharpens the same branch again: Trump's likely walk-away endgame, Zelensky's diminishing future, NATO's permanent-hostility fantasy, and the carryover from Ukraine settlement failure into Iran-war danger.
+
+April 2025 now has a sixth 2025 transcript-grade anchor on disk:
+
+- [2025-04-28 Col Doug Magregor: It's UKRAINE Prolonging this WAR](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-28/transcript-davis-macgregor-it-s-ukraine-prolonging-this-war-2025-04-28.md)
+
+That late-April hinge pushes the branch one step further: symbolic ceasefires, the prospect of a decisive Russian push, Kennedy-style escalation fantasy in Washington, and Macgregor's insistence that the real off-ramp remains a U.S. walk-away rather than pressure on Moscow.
+
 ## Open first
 
 If the operator needs only one file:

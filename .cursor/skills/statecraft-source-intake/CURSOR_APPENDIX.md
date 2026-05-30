@@ -1,6 +1,9 @@
 **strategy-codex instance notes**
 
 - Canonical archive root for this skill: [source-archive/statecraft](/C:/dev/strategy-codex/source-archive/statecraft)
+- Batch invocation phrases this host should recognize:
+  - `statecraft daily intake`
+  - `statecraft daily intake / source-archive first`
 - Deprecated compatibility surfaces that must **not** receive new captures:
   - [codex/years/2026/raw-input](/C:/dev/strategy-codex/codex/years/2026/raw-input)
   - [codex/years/2026/provenance](/C:/dev/strategy-codex/codex/years/2026/provenance)
@@ -26,9 +29,15 @@
 **Repo notes**
 
 - `statecraft/` is downstream interpretation and control, not archive storage.
+- Daily synthesis belongs on the `statecraft/` side, not in `source-archive/statecraft/`.
 - For manual file creation or edits, use `apply_patch`.
 - Prefer the closest same-family recent file as the pattern authority.
 - When a transcript is already supplied in chat, this skill can proceed without YouTube fetching.
+- In same-day batch mode, the minimum expected rebuild set is:
+  - `source-archive/statecraft/YYYY-MM-DD/README.md`
+  - `source-archive/statecraft/YYYY-MM.md`
+  - `source-archive/statecraft/thread-index.md`
+  - `source-archive/statecraft/stale-index-audit.md` only if the navigation builder touches it
 
 **Preferred maintenance commands after skill edits**
 

@@ -1,9 +1,9 @@
 ---
 name: statecraft-source-intake
 preferred_activation: statecraft source intake
-description: "Capture an operator-supplied transcript-bearing source object into the canonical statecraft source archive with the correct family pattern, truthful provenance, and no summary-or-stub drift. Use when the operator already has the transcript body or a transcript-bearing source object in hand and the main problem is archive family resolution and canonical filing. Do not use for direct YouTube metadata/caption fetch, month inventory work, or downstream synthesis."
+description: "Capture an operator-supplied transcript-bearing source object into the canonical statecraft source archive with the correct family pattern, truthful provenance, and no summary-or-stub drift. Supports single-source intake and repeated same-day batch intake, including the operator phrases `statecraft daily intake` and `statecraft daily intake / source-archive first`. Do not use for direct YouTube metadata/caption fetch, month inventory work, or downstream synthesis."
 portable: true
-version: 0.1.7
+version: 0.2.0
 tags:
   - operator
   - statecraft
@@ -15,6 +15,11 @@ tags:
 
 **Preferred activation (operator):** say **`statecraft source intake`**.
 
+Also support the archive-first batch phrases:
+
+- **`statecraft daily intake`**
+- **`statecraft daily intake / source-archive first`**
+
 Use this skill when the operator already has a transcript-bearing source object in hand, usually a pasted YouTube transcript, and wants it landed into the canonical statecraft source archive with the right family pattern.
 
 This skill is for **archive intake**, not for helix drafting, speaker synthesis, transcript cleanup, or broad month auditing. Its job is to create the correct full-source object honestly and consistently.
@@ -22,6 +27,7 @@ This skill is for **archive intake**, not for helix drafting, speaker synthesis,
 ## Use this skill when
 
 - the operator pasted a full transcript into chat
+- the operator is uploading several same-day transcripts as a batch
 - a source capture should be filed under the statecraft archive immediately
 - the main uncertainty is **which family / filename / frontmatter pattern** to use
 - the source is transcript-bearing and should become a real archive object, not a stub
@@ -32,6 +38,8 @@ This skill is for **archive intake**, not for helix drafting, speaker synthesis,
 - the task is to clean a captured transcript into study-grade derivative form
 - the task is to route, summarize, interpret, or synthesize the source in `statecraft/`
 - the source belongs to another archive namespace rather than the statecraft archive
+
+If the operator wants a daily report after the archive batch is real, stop this skill and route to `statecraft daily synthesis`.
 
 ## Core law
 
@@ -52,11 +60,21 @@ This skill is for archive intake only.
 
 If the operator's next move is interpretation, route from the landed archive object into `civ-state` or the relevant lane-local surfaces rather than continuing to treat the archive file as the working doctrine surface.
 
+## Batch law
+
+When the operator is doing same-day transcript intake, treat the workflow as a **bounded archive batch**:
+
+- keep each transcript as its own canonical source object
+- reuse the same touched day folder
+- refresh the smallest still-live archive indices after each landed file or at the end of the same bounded batch
+- keep synthesis downstream; do not write the daily report into `source-archive/`
+
 ## Workflow
 
 1. **Confirm the object is source-bearing**
    - Make sure the operator supplied a real transcript body, not just a title, URL, or excerpt.
    - If the source is partial, say so clearly and avoid pretending the capture is complete.
+   - In batch mode, keep the current day folder and already-landed sibling captures in mind before naming the new object.
 
 2. **Resolve the archive family before writing**
    - Identify the host / show / guest / recurring thread ownership.
@@ -90,6 +108,7 @@ If the operator's next move is interpretation, route from the landed archive obj
 
 5. **Normalize lightly**
    - Fix obvious spacing, formatting, and title/date typos when confidence is high.
+   - Strip obvious pasted wrapper residue such as leading `Transcripts:` lines or duplicated title wrappers when the boundary is unmistakable.
    - Reflow into readable paragraphs or turns when the family pattern expects that.
    - Preserve full transcript body for solo `Alexander Mercouris` captures unless the operator explicitly asks for trimming.
    - For `Judging Freedom / Napolitano` archive captures, strip clearly separable ideological cold opens or canned sponsor/promotional reads at the opening and routine lineup/schedule promos at the close.
@@ -108,8 +127,12 @@ If the operator's next move is interpretation, route from the landed archive obj
 
 8. **Refresh the smallest still-live archive surfaces**
    - Refresh the touched day-folder `README.md`.
-   - If the landed source strengthens an already-material speaker shelf, refresh the relevant speaker provenance bench in the same pass.
-   - If the new source changes continuity rather than merely extending the bench, tighten only the minimally affected shelf surfaces such as `*-routing.md` or one support-spine note.
+   - Refresh the touched month index and archive navigation when the new source changes those rollups.
+   - In batch mode, keep the rebuild bounded to the touched day/month/navigation surfaces rather than drifting into downstream synthesis.
+
+9. **Clean transient residue**
+   - Remove obvious scratch residue created by intake work, such as temporary transcript body files, before final verification.
+   - Do not leave `.tmpbody` or similar helper artifacts in the canonical archive tree.
 
 ## Verification and closeout
 
@@ -125,14 +148,11 @@ Use a simple Windows-safe verification sequence after every new archive capture.
 
 Default closeout law:
 
-- if the source is host-owned but guest-significant, archive completion includes both:
-  - the host-side bench or stream surface
-  - the guest-side provenance bench or shelf surface when that guest already has a materially real shelf
-
-Migration routing law:
-
-- prefer `statecraft/civ-lens/...` when that shelf is canonical
-- use `codex/speakers/...` only when it still owns the real branch surface or when the statecraft side is only a pointer or stub
+- report the landed archive file
+- state the family pattern used
+- state which archive indices were refreshed
+- in batch mode, state the current day-batch count if it is easy to verify
+- do not silently drift into lane or civ-lens synthesis
 
 ## Partial front-door doctrine
 
@@ -246,6 +266,7 @@ Short rule:
 - Never convert a transcript-bearing source into a summary-grade note just because the transcript is messy.
 - Never hide uncertainty about whether a transcript is verbatim, operator-pasted, or lightly normalized.
 - Never treat a highlight clip as the canonical full interview unless the operator explicitly wants the clip preserved as its own object.
+- Never write the daily synthesis report into `source-archive/statecraft/`; that belongs in `statecraft/`.
 - For Napolitano captures, remove cold-open or promo scaffolding only when the ideological, sponsor, or schedule boundary is unambiguous; if it is entangled with noisy ASR or substantive exchange, leave it and flag the file for later manual review.
 
 ## Success condition

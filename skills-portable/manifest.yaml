@@ -156,6 +156,13 @@ skills:
     verify_forbidden_substrings:
       - users/grace-mar/
       - process_approved_candidates
+  - name: statecraft-daily-synthesis
+    source: statecraft-daily-synthesis/SKILL.md
+    appendix: .cursor/skills/statecraft-daily-synthesis/CURSOR_APPENDIX.md
+    target: .cursor/skills/statecraft-daily-synthesis/SKILL.md
+    verify_forbidden_substrings:
+      - users/grace-mar/
+      - process_approved_candidates
   - name: memory
     source: memory/SKILL.md
     appendix: .cursor/skills/memory/CURSOR_APPENDIX.md

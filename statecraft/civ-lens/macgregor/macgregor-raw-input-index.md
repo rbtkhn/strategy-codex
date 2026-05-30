@@ -30,11 +30,18 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Dougl
 
 ## 2025-03
 
-- no currently materialized Macgregor raw-input surfaces on disk for this month
+- [transcript-tucker-macgregor-mexican-cartels-advanced-weaponry-and-why-theyre-a-bigger-threat-than-russia-2025-03-11](/C:/dev/strategy-codex/source-archive/statecraft/2025-03-11/transcript-tucker-macgregor-mexican-cartels-advanced-weaponry-and-why-theyre-a-bigger-threat-than-russia-2025-03-11.md)
+- [transcript-davis-macgregor-putin-wants-all-arms-halted-to-ukraine-2025-03-18](/C:/dev/strategy-codex/source-archive/statecraft/2025-03-18/transcript-davis-macgregor-putin-wants-all-arms-halted-to-ukraine-2025-03-18.md)
+- [transcript-napolitano-macgregor-will-us-attack-iran-2025-03-19](/C:/dev/strategy-codex/source-archive/statecraft/2025-03-19/transcript-napolitano-macgregor-will-us-attack-iran-2025-03-19.md)
+- [transcript-napolitano-macgregor-readying-for-war-with-iran-2025-03-27](/C:/dev/strategy-codex/source-archive/statecraft/2025-03-27/transcript-napolitano-macgregor-readying-for-war-with-iran-2025-03-27.md)
 
 ## 2025-04
 
-- no currently materialized Macgregor raw-input surfaces on disk for this month
+- [transcript-davis-macgregor-trump-and-zelensky-at-odds-what-this-means-for-peace-talks-2025-04-15](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-15/transcript-davis-macgregor-trump-and-zelensky-at-odds-what-this-means-for-peace-talks-2025-04-15.md)
+- [transcript-davis-macgregor-trump-revealing-ukraine-peace-plan-this-week-2025-04-22](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-22/transcript-davis-macgregor-trump-revealing-ukraine-peace-plan-this-week-2025-04-22.md)
+- [transcript-davis-macgregor-it-s-ukraine-prolonging-this-war-2025-04-28](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-28/transcript-davis-macgregor-it-s-ukraine-prolonging-this-war-2025-04-28.md)
+- [transcript-napolitano-macgregor-how-close-to-a-regional-war-2025-04-29](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-29/transcript-napolitano-macgregor-how-close-to-a-regional-war-2025-04-29.md)
+- [transcript-napolitano-macgregor-will-zelenskyy-and-neocons-reject-peace-2025-04-15](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-15/transcript-napolitano-macgregor-will-zelenskyy-and-neocons-reject-peace-2025-04-15.md)
 
 ## 2025-05
 
