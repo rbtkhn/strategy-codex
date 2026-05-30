@@ -25,7 +25,7 @@ If those functions are accelerated faster than they are thickened, American stat
 
 ## Offices Under Pressure
 
-Watch compression in:
+Watch compression where American command usually acquires its apparent intelligence and legality:
 
 - policy staff and memo production
 - intelligence reading and synthesis
@@ -35,13 +35,11 @@ Watch compression in:
 - diplomatic briefing and negotiation prep
 - public narrative mediation
 
-These are not side functions. They are part of the command surface.
+These are not side functions. They are part of the command surface. If they thin out, America can keep the theater of command while losing the thickness of command.
 
 ## Command Problem
 
-The America-lane question becomes:
-
-`Can the United States keep bounded command if the offices that interpret, review, and restrain action are becoming synthetic, vendor-mediated, or too thinly human?`
+The America-lane question becomes: `Can the United States keep bounded command if the offices that interpret, review, and restrain action are becoming synthetic, vendor-mediated, or too thinly human?`
 
 Failure modes:
 
@@ -50,6 +48,8 @@ Failure modes:
 - contractor or platform dependence mistaken for sovereign capacity
 - legitimacy erosion when the public senses procedure without judgment
 - alliance management becoming synthetic theater rather than credible command
+
+The danger is not that America stops acting. The danger is that it keeps acting while fewer and fewer of the named offices can truly read, narrow, or refuse what the system is doing.
 
 ## Statecraft Use
 

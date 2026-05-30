@@ -80,7 +80,7 @@ Speaker-state continuity that belongs to live statecraft now opens from [statecr
 
 Host-native continuity that belongs to live statecraft now opens from [statecraft/hosts/](hosts/README.md), not from retired `codex/speakers/<host>/...` paths.
 
-One live bridge worth keeping in view across this stack is **high-skill labor compression**. When synthetic cognition starts compressing analytical, legal, diplomatic, intelligence, or policy-forming work, the object should usually not remain a generic singularity or labor-market note. Route it as:
+One live bridge worth keeping in view across this stack is **high-skill labor compression**. When synthetic cognition starts compressing analytical, legal, diplomatic, intelligence, or policy-forming work, do not leave the object stranded as a generic singularity or labor-market note. It usually means judgment infrastructure is starting to thin. Route it as:
 
 `singularity acceleration -> compact mechanism -> lane command problem -> civ-state legitimacy retrieval`
 

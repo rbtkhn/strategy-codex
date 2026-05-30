@@ -12,6 +12,8 @@ Short form:
 
 `synthetic cognition compresses elite work -> judgment offices thin -> legitimacy and sovereignty are tested`
 
+The civilizational stake appears fast: if a society can still produce outputs but no longer reproduce the human offices that make judgment authoritative, something deeper than productivity has started to fail.
+
 ## Why This Belongs In CIV-STATE
 
 `civ-state` stores civilizational pattern, carrier logic, legitimacy structure, continuity strain, and failure mode. High-skill labor compression touches all five.
@@ -64,13 +66,9 @@ Use the normal civilization-state frame:
 
 ## Civilizational Question
 
-The deepest `civ-state` question is not:
+The deepest `civ-state` question is not `Who adopts AI fastest?`
 
-`Who adopts AI fastest?`
-
-It is:
-
-`Which civilizational orders can absorb synthetic cognition without losing the human offices that make judgment, rule, and continuity legitimate?`
+It is `Which civilizational orders can absorb synthetic cognition without losing the human offices that make judgment, rule, and continuity legitimate?`
 
 That means different civilization-states may fail or adapt in different ways:
 

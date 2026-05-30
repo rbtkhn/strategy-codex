@@ -13,7 +13,7 @@ When the acceleration object is specifically **high-skill labor compression** ra
 - [statecraft/compact/high-skill-labor-compression-and-sovereign-judgment.md](../../../statecraft/compact/high-skill-labor-compression-and-sovereign-judgment.md)
 - [statecraft/civ-state/high-skill-labor-compression-and-civilizational-statecraft.md](../../../statecraft/civ-state/high-skill-labor-compression-and-civilizational-statecraft.md)
 
-That object should usually be read as a judgment-infrastructure and legitimacy problem, not just a productivity or labor-market problem.
+That object should usually be read as a judgment-infrastructure and legitimacy problem, not just a productivity or labor-market problem. The warning sign is simple: the outputs still arrive, but fewer human offices can truly inspect, narrow, refuse, or inherit what the system is doing.
 
 ## Quick Pass
 

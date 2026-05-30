@@ -8,6 +8,8 @@ The object is:
 
 `synthetic cognition compresses elite work -> judgment offices thin -> governing capacity and legitimacy are tested`
 
+The important turn is this: once elite work is compressed, the state does not merely face labor disruption. It faces the possibility that its named sovereign offices still speak, sign, and brief while the real work of interpretation has already migrated elsewhere.
+
 Use this note when the live question is already mechanism-shaped:
 
 - synthetic systems are compressing analytical, legal, diplomatic, intelligence, clerical, or policy-forming work
@@ -24,7 +26,7 @@ High-skill labor compression changes the governing field in four moves:
 3. authority migrates from human office toward vendor, substrate, contractor, or opaque internal pipeline
 4. legitimacy weakens when the named sovereign office no longer appears to be the real bearer of judgment
 
-This is not merely a jobs problem. It is a **sovereign judgment** problem.
+This is not merely a jobs problem. It is a **sovereign judgment** problem: who still interprets, who still refuses, and who still understands enough to govern what is being done in their name.
 
 ## Why It Matters For Statecraft
 
@@ -43,6 +45,8 @@ When those offices are compressed too aggressively, the state may gain speed whi
 - intelligence from generated surface
 - durable strategy from throughput theater
 - sovereign capacity from rented infrastructure
+
+That is why this object belongs in compact. The first honest move is often not lane sermon but mechanism recognition.
 
 ## Cross-Lane Read
 
