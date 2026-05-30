@@ -39,6 +39,7 @@ Roman self-narration, republic, and empire formation:
 - Cicero, *De Re Publica*
 - Cicero, *De Legibus*
 - Cicero, *De Officiis*
+- Cicero, *Tusculan Disputations*
 - Sallust, *Bellum Catilinae*
 - Sallust, *Bellum Jugurthinum*
 - Julius Caesar, *Commentarii de Bello Gallico*
@@ -47,10 +48,12 @@ Roman self-narration, republic, and empire formation:
 - Ovid, *Metamorphoses*
 - Augustus, *Res Gestae Divi Augusti*
 - Seneca, *On Clemency*
+- Seneca, *Letters to Lucilius*
 - Suetonius, *De Vita Caesarum*
 - Tacitus, *Annals*
 - Tacitus, *Histories*
 - Plutarch, *Lives*
+- Pliny the Elder, *Natural History*
 - Marcus Aurelius, *Meditations*
 - Cassius Dio, *Roman History*
 
@@ -59,14 +62,21 @@ Law, order, and imperial continuity:
 - The Twelve Tables, where recoverable
 - Gaius, *Institutes*
 - *Digest* / *Digesta*
+- *Codex Justinianus*
 - Theodosian Code
 - Justinian, *Institutes*
 
 Christian and late-imperial hinge:
 
 - The New Testament
+- Lactantius, *On the Deaths of the Persecutors*
+- Athanasius, *On the Incarnation*
+- *Acts of Nicaea*
 - Augustine, *City of God*
+- Symmachus, *Relation 3*
 - Eusebius, *Life of Constantine*
+- Libanius, *Orations*
+- Paulus Orosius, *Seven Books of History Against the Pagans*
 
 Ancient retrieval priority:
 - founding and civic mythology
@@ -101,6 +111,7 @@ Roman-Christian universality and conciliar continuity:
 - *Acts of Chalcedon*
 - *Pseudo-Isidorean Decretals*
 - Gratian, *Decretum*
+- Gregory IX, *Decretales*
 - Boniface VIII, *Unam Sanctam*
 
 Italian city-states and Roman civic residue:
@@ -111,6 +122,7 @@ Italian city-states and Roman civic residue:
 - Dante, *Divine Comedy*
 - Marco Polo, *Il Milione* / *Travels*
 - *Ordinamenti della Giustizia*
+- Dino Compagni, *Chronicle of Florence*
 
 Holy Roman Empire and transalpine Roman claim:
 
@@ -120,13 +132,20 @@ Holy Roman Empire and transalpine Roman claim:
 - Frederick II, *Liber Augustalis* / *Constitutions of Melfi*
 - Golden Bull of 1356
 - *Sachsenspiegel*
+- Otto of Freising, *The Deeds of Frederick Barbarossa*
 
-France and Capetian / post-Carolingian successor-order formation:
+France as sacral monarchy and legal-state carrier:
 
 - *Ordo of Reims*
+- Hincmar of Reims, *De ordine palatii*
+- Richer of Reims, *Histories*
 - Suger of Saint-Denis, *Life of Louis VI*
+- Rigord, *Gesta Philippi Augusti*
 - Joinville, *Life of Saint Louis*
+- *Etablissements de Saint Louis*
 - Beaumanoir, *Coutumes de Beauvaisis*
+- *Grandes Chroniques de France*
+- *Pragmatic Sanction of Bourges*
 
 Iberian kingdoms and frontier Christendom:
 
@@ -136,6 +155,7 @@ Iberian kingdoms and frontier Christendom:
 - *Historia Roderici*
 - *Chronica Adefonsi Imperatoris*
 - James I of Aragon, *Llibre dels Fets*
+- Alfonso X, *Fuero Real*
 
 Medieval retrieval priority:
 - Christianization without false civilizational death
@@ -144,22 +164,90 @@ Medieval retrieval priority:
 - papacy and empire as rival Roman claimants
 - rupture as constitutive, especially 1204 and 1453
 - Italy as civic and maritime Roman residue without losing the imperial frame
-- France as successor adaptation rather than primary Roman carriage
+- France as sacral monarchy and western legal-state carrier inside Roman-Christian continuity
 - Iberia as frontier Roman residue under reconquest conditions
 
 ### Colonial
 
-- Major papal and church-forming texts bearing Roman residue through fractured successor orders
-- Great Schism-bearing texts where Roman universality fractures but does not disappear
-- Holy Roman imperial and papal-imperial materials where Roman residue is claimed politically
-- Renaissance humanist and Italian civic texts where Roman memory is actively recovered for political use
-- Machiavelli where Roman antiquity is converted into modern political instruction
-- Reformation and Counter-Reformation texts where Roman residue is contested, narrowed, and defended
+Papal jurisdiction, reform, and narrowed universality:
+
+- *Inter caetera*
+- Fifth Lateran Council, *Acts and Decrees*
+- *Exsurge Domine*
+- *Decet Romanum Pontificem*
+- *Roman Catechism*
+- *Quo Primum*
+- *Regnans in Excelsis*
+
+Italian humanist and political recovery of Rome:
+
+- Petrarch, *Letters on Familiar Matters*
+- Lorenzo Valla, *On the Donation of Constantine*
+- Leonardo Bruni, *History of the Florentine People*
+- Machiavelli, *The Prince*
+- Machiavelli, *Discourses on Livy*
+- Francesco Guicciardini, *History of Italy*
+- Girolamo Savonarola, *Treatise on the Government of Florence*
+
+France as monarchy, diplomacy, and raison d'etat carrier:
+
+- Philippe de Commynes, *Memoirs*
+- *Pragmatic Sanction of Bourges*
+- *Ordonnance of Villers-Cotterets*
+- Jean Bodin, *Six Books of the Commonwealth*
+- Maximilien de Bethune, Duke of Sully, *Memoirs*
+- Cardinal Richelieu, *Political Testament*
+- *Edict of Nantes*
+- *Declaration of the Clergy of France* (1682)
+- Jacques-Benigne Bossuet, *Politics Drawn from the Very Words of Holy Scripture*
+- Montesquieu, *Considerations on the Causes of the Greatness of the Romans and their Decline*
+
+Iberian monarchy, law, mission, and overseas expansion:
+
+- *Treaty of Tordesillas*
+- Christopher Columbus, *Letter on the First Voyage*
+- Hernan Cortes, *Second Letter*
+- Francisco de Vitoria, *De Indis*
+- *Laws of Burgos*
+- *New Laws of the Indies*
+- *Recopilacion de las Leyes de Indias*
+- *Ordenacoes Manuelinas*
+- Luis de Camoes, *The Lusiads*
+
+Confessional rupture and Counter-Reformation order:
+
+- Martin Luther, *Ninety-Five Theses*
+- Martin Luther, *Address to the Christian Nobility of the German Nation*
+- *Augsburg Confession*
+- John Calvin, *Institutes of the Christian Religion*
+- Council of Trent, *Decrees*
+- *Book of Common Prayer*
+- *Peace of Augsburg*
+
+Fractured empire and Habsburg claim under pressure:
+
+- *Edict of Worms*
+- Charles V, *Abdication Address*
+- *Augsburg Interim*
+- Ferdinand II, *Edict of Restitution*
+- *Peace of Westphalia*
+
+Mediterranean and Ottoman pressure on Roman residue:
+
+- Ogier Ghiselin de Busbecq, *Turkish Letters*
+- Francesco Balbi di Correggio, *The Siege of Malta, 1565*
+- *Treaty of the Holy League* (1571)
+- Paolo Paruta, *History of the War of Cyprus*
+- *Treaty of Karlowitz*
 
 Colonial retrieval priority:
 - Roman residue through fractured Christendom
 - imperial memory versus papal authority
-- renaissance recovery and reformation rupture
+- Italian political recovery of Rome for modern statecraft
+- France as monarchy, diplomacy, and raison d'etat carrier within fractured Roman residue
+- Iberian monarchy and overseas expansion as Roman residue goes global
+- confessional rupture and Counter-Reformation order
+- Mediterranean and Ottoman pressure as the strategic conditioning field
 - successor-order contest rather than seamless continuity
 
 ### Industrial
