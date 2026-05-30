@@ -54,8 +54,15 @@ The visible 2026 run then includes many additional mains, including:
 This means the lane should be read two ways:
 
 - on disk, it already has a usable late-April to May shape
-- on disk, 2025 now also shows both an early-January foundation and a real late-2025 continuation
+- on disk, 2025 now also shows an early-January foundation, a real February peace-settlement mini-run, and a late-2025 continuation
 - in the stream, it is an even denser 2026 Davis run than the current canonical subset shows
+
+The February 2025 Davis-side expansion is now no longer hypothetical. It has two transcript-grade anchors on disk:
+
+- [2025-02-18 Col Doug Macgregor - Zelensky Obstructing Peace.](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-18/transcript-davis-macgregor-zelensky-obstructing-peace-2025-02-18.md)
+- [2025-02-25 Col Doug Macgregor - Peace in Ukraine / What Will it Look Like?](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-25/transcript-davis-macgregor-peace-in-ukraine-what-will-it-look-like-2025-02-25.md)
+
+Together they make the early Davis-side 2025 branch materially clearer: Zelensky obstruction, Russian leverage, settlement geometry, European blockage, and U.S. force-structure critique all appear before the later autumn continuation.
 
 ## Open first
 

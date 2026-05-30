@@ -23,6 +23,9 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Dougl
 - [transcript-napolitano-macgregor-trump-and-his-oligarchs-2025-02-04](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-04/transcript-napolitano-macgregor-trump-and-his-oligarchs-2025-02-04.md)
 - [transcript-napolitano-macgregor-can-the-us-own-gaza-2025-02-06](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-06/transcript-napolitano-macgregor-can-the-us-own-gaza-2025-02-06.md)
 - [transcript-napolitano-macgregor-fall-of-the-american-empire-2025-02-11](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-11/transcript-napolitano-macgregor-fall-of-the-american-empire-2025-02-11.md)
+- [transcript-davis-macgregor-zelensky-obstructing-peace-2025-02-18](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-18/transcript-davis-macgregor-zelensky-obstructing-peace-2025-02-18.md)
+- [transcript-napolitano-macgregor-israel-egypt-and-riyadh-2025-02-19](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-19/transcript-napolitano-macgregor-israel-egypt-and-riyadh-2025-02-19.md)
+- [transcript-davis-macgregor-peace-in-ukraine-what-will-it-look-like-2025-02-25](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-25/transcript-davis-macgregor-peace-in-ukraine-what-will-it-look-like-2025-02-25.md)
 - [transcript-napolitano-macgregor-why-is-trump-arming-ukraine-2025-02-26](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-26/transcript-napolitano-macgregor-why-is-trump-arming-ukraine-2025-02-26.md)
 
 ## 2025-03

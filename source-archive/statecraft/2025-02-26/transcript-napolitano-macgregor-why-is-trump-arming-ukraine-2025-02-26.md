@@ -10,7 +10,7 @@ source_url: "https://youtu.be/cC0PQQ4Yn-Y"
 source_type: youtube
 transcript_type: operator_pasted_transcript
 status: raw-input
-source_note: "Direct YouTube watch URL recovered during February 2025 Macgregor deepening on 2026-05-29; transcript body confirmed from operator paste in Codex chat."
+source_note: "Direct YouTube watch URL recovered during February 2025 Macgregor deepening on 2026-05-29; transcript body upgraded in place from a cleaner operator paste in Codex chat."
 editorial_note: "Treat as a transcript-grade raw-input capture. This file materially deepens late February 2025 for the Napolitano x Macgregor branch around Ukraine armament persistence, failed peacekeeping logic, Gaza regional-war risk, and force-design critique."
 evidence_grade: transcript-bearing
 ---

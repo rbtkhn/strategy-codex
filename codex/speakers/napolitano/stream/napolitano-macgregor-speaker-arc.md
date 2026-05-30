@@ -14,12 +14,13 @@ Douglas Macgregor matters here as a **force-balance and imperial-overreach** gue
 
 | Rank | Date | Title | Why it matters most |
 |---|---|---|---|
-| 10 | 2025-01-16 | *Trump and American Expansion.* | Earliest current anchor for the branch on disk. Transcript-grade and useful for tying Trump's expansion rhetoric to war-drift, coerced "win" logic, and elite-delusion framing well before the later Venezuela and Iran files. |
-| 9 | 2025-02-04 | *Trump and His Oligarchs.* | Early February donor-pressure anchor. Transcript-grade and useful for Gaza and Ukraine carryover, financier-driven war logic, and the first February consolidation point before the sharper Gaza-ownership confrontation two days later. |
-| 8 | 2025-01-23 | *The Coming World War III* | Stronger late-January anchor. Transcript-grade and useful for halted-aid pressure, corrupted casualty narratives, and anti-escalation framing around Iran and NATO drift before the later Venezuela and Iran files. |
-| 7 | 2025-01-29 | *Trump and War* | Late-January consolidation anchor. Transcript-grade and useful for Gaza-war complicity, aid-pipeline slippage, anti-Russia narrative critique, and command-vs-execution failure before the later 2025-2026 escalation files. |
-| 6 | 2025-02-06 | *Can the US Own Gaza?* | Strongest early-February Gaza anchor. Transcript-grade and useful for anti-occupation framing, direct critique of U.S. ownership rhetoric, and clearer separation between Trump impulse, Netanyahu leverage, and regional blowback. |
-| 5 | 2025-02-11 | *Fall of the American Empire* | Strongest mid-February regional-war anchor. Transcript-grade and useful for empire-overreach framing, direct warning about Egypt and broader Arab alignment, and a sharper statement of U.S. strategic self-harm through Israel-first escalation. |
+| 11 | 2025-01-16 | *Trump and American Expansion.* | Earliest current anchor for the branch on disk. Transcript-grade and useful for tying Trump's expansion rhetoric to war-drift, coerced "win" logic, and elite-delusion framing well before the later Venezuela and Iran files. |
+| 10 | 2025-02-04 | *Trump and His Oligarchs.* | Early February donor-pressure anchor. Transcript-grade and useful for Gaza and Ukraine carryover, financier-driven war logic, and the first February consolidation point before the sharper Gaza-ownership confrontation two days later. |
+| 9 | 2025-01-23 | *The Coming World War III* | Stronger late-January anchor. Transcript-grade and useful for halted-aid pressure, corrupted casualty narratives, and anti-escalation framing around Iran and NATO drift before the later Venezuela and Iran files. |
+| 8 | 2025-01-29 | *Trump and War* | Late-January consolidation anchor. Transcript-grade and useful for Gaza-war complicity, aid-pipeline slippage, anti-Russia narrative critique, and command-vs-execution failure before the later 2025-2026 escalation files. |
+| 7 | 2025-02-06 | *Can the US Own Gaza?* | Strongest early-February Gaza anchor. Transcript-grade and useful for anti-occupation framing, direct critique of U.S. ownership rhetoric, and clearer separation between Trump impulse, Netanyahu leverage, and regional blowback. |
+| 6 | 2025-02-11 | *Fall of the American Empire* | Strongest mid-February regional-war anchor. Transcript-grade and useful for empire-overreach framing, direct warning about Egypt and broader Arab alignment, and a sharper statement of U.S. strategic self-harm through Israel-first escalation. |
+| 5 | 2025-02-19 | *Israel, Egypt, and Riyadh* | Strongest late-February Middle East hinge anchor. Transcript-grade and useful for Russia-normalization carryover, sanctions realism, Arab League pressure, Egypt-border escalation, and the tightening link between Gaza blowback and wider regional war. |
 | 4 | 2025-02-26 | *Why Is Trump Arming Ukraine?* | Strongest late-February Ukraine anchor. Transcript-grade and useful for anti-peacekeeper framing, critique of transactional armament logic, and clearer articulation of why continued arming blocks a real settlement. |
 | 3 | 2025-11-13 | *War Is Coming Soon* | Earliest November routeable anchor. Summary-grade, but useful for imminent-war warning and command-drift framing before the later Venezuela and Iran files. |
 | 2 | 2026-02-10 | *A U.S. - Iran War Could Spiral Out of Control* | Earliest February routeable anchor. Transcript-grade and materially stronger than the earlier summary-only branch, useful for escalation metastasis and regional exposure before March-April hardening. |
@@ -34,6 +35,7 @@ Douglas Macgregor matters here as a **force-balance and imperial-overreach** gue
 - [2025-12-11 Douglas Macgregor - Why Threaten Venezuela?](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-11/transcript-napolitano-macgregor-why-threaten-venezuela-2025-12-11.md)
 - [2025-11-13 Douglas Macgregor - War Is Coming Soon.](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-13/transcript-napolitano-macgregor-war-is-coming-soon-2025-11-13.md)
 - [2025-02-11 Douglas Macgregor - Fall of the American Empire.](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-11/transcript-napolitano-macgregor-fall-of-the-american-empire-2025-02-11.md)
+- [2025-02-19 Douglas Macgregor - Israel, Egypt, and Riyadh.](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-19/transcript-napolitano-macgregor-israel-egypt-and-riyadh-2025-02-19.md)
 - [2025-02-26 Douglas Macgregor - Why Is Trump Arming Ukraine?](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-26/transcript-napolitano-macgregor-why-is-trump-arming-ukraine-2025-02-26.md)
 - [2025-02-06 Douglas Macgregor - Can the US Own Gaza?](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-06/transcript-napolitano-macgregor-can-the-us-own-gaza-2025-02-06.md)
 - [2025-02-04 Douglas Macgregor - Trump and His Oligarchs.](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-04/transcript-napolitano-macgregor-trump-and-his-oligarchs-2025-02-04.md)
@@ -64,5 +66,5 @@ Use this arc when the notebook needs:
 - If the question is mainly about force sustainability, inflation, or Hormuz cost rather than undeclared-war indictment, route outward to [davis-macgregor-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-macgregor-speaker-arc.md).
 
 - This is a real January 2025-April 2026 Napolitano branch.
-- January and February 2025 now give the branch seven transcript-grade opening anchors; November remains a routeable summary-grade reinforcement, with April 23 still the strongest native opening point.
+- January and February 2025 now give the branch eight transcript-grade opening anchors; November remains a routeable summary-grade reinforcement, with April 23 still the strongest native opening point.
 - It reinforces Macgregor's object; it does not promote Macgregor beyond the existing durable double-helix doctrine.
