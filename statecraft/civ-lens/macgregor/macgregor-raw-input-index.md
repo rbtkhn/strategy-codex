@@ -56,6 +56,9 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Dougl
 
 ## 2025-06
 
+- [transcript-davis-macgregor-peace-talks-be-damned-ukraine-russia-war-in-a-new-violent-phase-2025-06-03](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-03/transcript-davis-macgregor-peace-talks-be-damned-ukraine-russia-war-in-a-new-violent-phase-2025-06-03.md)
+- [transcript-napolitano-macgregor-is-russia-on-the-ropes-2025-06-04](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-04/transcript-napolitano-macgregor-is-russia-on-the-ropes-2025-06-04.md)
+- [transcript-davis-macgregor-russia-s-win-in-ukraine-will-never-be-stopped-by-nato-2025-06-10](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-10/transcript-davis-macgregor-russia-s-win-in-ukraine-will-never-be-stopped-by-nato-2025-06-10.md)
 - [youtube-glenn-diesen-douglas-macgregor-douglas-macgregor-russia-s-retaliation-nato-s-declining-relevance-2025-06-10](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-10/youtube-glenn-diesen-douglas-macgregor-douglas-macgregor-russia-s-retaliation-nato-s-declining-relevance-2025-06-10.md)
 - [transcript-diesen-macgregor-america-s-attack-on-iran-could-start-ww3-2025-06-20](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-20/transcript-diesen-macgregor-america-s-attack-on-iran-could-start-ww3-2025-06-20.md)
 
@@ -124,6 +127,7 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Dougl
 - [youtube-daniel-davis-deep-dive-col-douglas-macgregor-u-s-strikes-iran-again-2026-05-26](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/youtube-daniel-davis-deep-dive-col-douglas-macgregor-u-s-strikes-iran-again-2026-05-26.md)
 - [youtube-macgregor-mario-nawfal-trump-walks-back-on-deal-idf-to-flatten-beirut-2026-05-27](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-27/youtube-macgregor-mario-nawfal-trump-walks-back-on-deal-idf-to-flatten-beirut-2026-05-27.md)
 - [transcript-napolitano-macgregor-iran-stronger-now-putin-takes-off-the-gloves-2026-05-28](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/transcript-napolitano-macgregor-iran-stronger-now-putin-takes-off-the-gloves-2026-05-28.md)
+- [transcript-neutrality-studies-usa-collapsing-washingtons-soviet-moment-is-here-col-douglas-macgregor-2026-05-29](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-29/transcript-neutrality-studies-usa-collapsing-washingtons-soviet-moment-is-here-col-douglas-macgregor-2026-05-29.md)
 
 ## Aired Pending
 

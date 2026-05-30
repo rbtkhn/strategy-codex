@@ -84,7 +84,7 @@ That follow-on sharpens the same branch again: Trump's likely walk-away endgame,
 
 April 2025 now has a sixth 2025 transcript-grade anchor on disk:
 
-- [2025-04-28 Col Doug Magregor: It's UKRAINE Prolonging this WAR](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-28/transcript-davis-macgregor-it-s-ukraine-prolonging-this-war-2025-04-28.md)
+- [2025-04-28 Col Doug Macgregor: It's UKRAINE Prolonging this WAR](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-28/transcript-davis-macgregor-it-s-ukraine-prolonging-this-war-2025-04-28.md)
 
 That late-April hinge pushes the branch one step further: symbolic ceasefires, the prospect of a decisive Russian push, Kennedy-style escalation fantasy in Washington, and Macgregor's insistence that the real off-ramp remains a U.S. walk-away rather than pressure on Moscow.
 
@@ -105,6 +105,18 @@ May 2025 now also has a ninth 2025 transcript-grade anchor on disk:
 - [2025-05-12 Relentless Russia Drone Attacks on Ukraine / Will Peace Talks Even Happen?](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-12/transcript-davis-macgregor-relentless-russia-drone-attacks-on-ukraine-will-peace-talks-even-happen-2025-05-12.md)
 
 That earlier-May bridge thickens the same late-spring run from the other side of the Istanbul hinge: Trump aligning with Europe's failed ceasefire rhetoric, Russia treating Washington as an incoherent co-belligerent, and Macgregor warning that absent a real U.S. walk-away the war can still end in a Russian drive to the Dnieper, Odessa, and Kiev.
+
+June 2025 now also has a tenth 2025 transcript-grade anchor on disk:
+
+- [2025-06-10 Col Doug Macgregor: Russia's Win in Ukraine Will NEVER be Stopped by NATO](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-10/transcript-davis-macgregor-russia-s-win-in-ukraine-will-never-be-stopped-by-nato-2025-06-10.md)
+
+That early-June extension carries the branch into open Russian-victory language: regime-removal rather than ceasefire theater, NATO's inability to transform rhetoric into usable force, the claim that Trump's settlement posture has collapsed into incoherence, and the parallel warning that Western financial strain and U.S. domestic disorder are converging with battlefield defeat.
+
+June 2025 now also has an eleventh 2025 transcript-grade anchor on disk:
+
+- [2025-06-03 Col Doug Macgregor: Peace Talks Be Damned/Ukraine Russia War in a NEW VIOLENT PHASE](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-03/transcript-davis-macgregor-peace-talks-be-damned-ukraine-russia-war-in-a-new-violent-phase-2025-06-03.md)
+
+That earlier-June bridge thickens the same branch one step earlier: Istanbul as charade, Zelensky and Netanyahu as parallel U.S.-dragging actors, Russian terms treated as effective surrender demands rather than mutual compromise, and Macgregor's warning that Western financial collapse may arrive before any honest strategic reset.
 
 ## Open first
 
@@ -158,3 +170,4 @@ Typical pairings around the guest lane:
 - The shelf on disk is already real, but still partial relative to the very dense fresh live run.
 - This is not a substitute for the Diesen lane, which gives more altitude and order consequence.
 - Prefer this guest run when the notebook needs sharper imperial-overreach and feasibility severity inside the Davis host register, not when it needs a full three-host comparison.
+

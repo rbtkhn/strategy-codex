@@ -4,12 +4,12 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Stats
 
-- Source files: `3`
-- Type mix: `transcript` (3)
+- Source files: `4`
+- Type mix: `transcript` (4)
 - Distinct channels/shows: `2`
 - Distinct hosts: `3`
-- Distinct guests: `3`
-- Distinct threads: `2`
+- Distinct guests: `4`
+- Distinct threads: `3`
 
 ## Channel / Show Rollup
 
@@ -18,8 +18,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Host / Guest / Thread Rollup
 
 - Hosts: `Andrew Napolitano` (1), `Glenn Diesen` (1), `daniel-davis` (1)
-- Guests: `Charles Freeman` (1), `Jeffrey Sachs` (1), `john-mearsheimer` (1)
-- Threads: `diesen` (1), `freeman` (1)
+- Guests: `Charles Freeman` (1), `Douglas Macgregor` (1), `Jeffrey Sachs` (1), `john-mearsheimer` (1)
+- Threads: `diesen` (1), `freeman` (1), `macgregor` (1)
 
 ## Filename Family Fallbacks
 
@@ -30,3 +30,4 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - `transcript-davis-mearsheimer-russia-is-angry-risk-of-them-using-nukes-harder-to-dismiss-2025-06-04.md`
 - `transcript-diesen-sachs-nato-and-russia-on-the-brink-of-nuclear-war-2025-06-04.md`
 - `transcript-napolitano-amb-charles-freeman-is-hegseth-picking-a-fight-with-china-2025-06-04.md`
+- `transcript-napolitano-macgregor-is-russia-on-the-ropes-2025-06-04.md`

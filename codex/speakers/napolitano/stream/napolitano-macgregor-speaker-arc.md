@@ -58,6 +58,19 @@ May 2025 now also has a third native bridge file on disk:
 
 That mid-May bridge thickens the same lane between the May 1 Ukraine-minerals hinge and the May 20 Iran hinge: Trump’s Saudi trip as reset theater, Netanyahu friction without strategic break, zero-enrichment deadlock with Iran, and Macgregor’s direct attack on trillion-dollar defense spending as both war-seeking and fiscally suicidal.
 
+June 2025 is no longer a gap on this branch. It now has a real first native June bridge file on disk:
+
+- [2025-06-04 Douglas Macgregor - Is Russia on the Ropes?](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-04/transcript-napolitano-macgregor-is-russia-on-the-ropes-2025-06-04.md)
+
+That early-June extension sharpens the native Napolitano lane under the Russia-airfield strike shock: Trump’s disclaimers as strategically meaningless, pressure on Putin to push west toward Odessa and the Dnieper, NATO as facade rather than real warfighting alliance, tariff and capital-flight self-harm, and the claim that unconditional U.S. backing remains the key enabler of Israel’s regional policy.
+
+May 2026 now extends this branch beyond the April 2026 native anchor:
+
+- [2026-05-21 Douglas Macgregor - The Pentagon and Decapitation Strikes.](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-21/transcript-napolitano-macgregor-the-pentagon-and-decapitation-strikes-2026-05-21.md)
+- [2026-05-28 Douglas Macgregor - Iran Stronger Now / Putin Takes Off the Gloves.](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/transcript-napolitano-macgregor-iran-stronger-now-putin-takes-off-the-gloves-2026-05-28.md)
+
+Those files preserve the same native Napolitano lane under a hotter Iran-war frame: failed coercive diplomacy, decapitation logic, undeclared-war normalization, and Macgregor’s claim that elite planning is still detached from the actual costs and likely outcomes of escalation.
+
 ## Open first
 
 - [2026-04-23 Douglas Macgregor - The Pentagon's Terrible War Planning.](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-23/transcript-napolitano-macgregor-pentagon-terrible-war-planning-2026-04-23.md)
@@ -102,6 +115,6 @@ Use this arc when the notebook needs:
 
 - If the question is mainly about force sustainability, inflation, or Hormuz cost rather than undeclared-war indictment, route outward to [davis-macgregor-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-macgregor-speaker-arc.md).
 
-- This is a real January 2025-April 2026 Napolitano branch.
+- This is a real January 2025-May 2026 Napolitano branch.
 - January through May 2025 now give the branch fourteen transcript-grade opening anchors; November remains a routeable summary-grade reinforcement, with April 23 still the strongest native opening point.
 - It reinforces Macgregor's object; it does not promote Macgregor beyond the existing durable double-helix doctrine.
