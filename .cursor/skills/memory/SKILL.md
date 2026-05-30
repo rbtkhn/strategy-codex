@@ -265,6 +265,31 @@ Do **not** let CIV-MEM become the visible prose voice of the apparatus. It remai
 - `table-of-contents.md` and `reader-guide.md` may consume CIV-MEM indirectly, but they are not the main place to expose graph mechanics.
 - `glossary.md`, `hybrid-references.md`, `index.md`, and volume-local bibliographies are the main visible evidence-bearing apparatus surfaces.
 
+### Shelf-Materialization Law
+
+When the target bibliography is thin, uneven, placeholder-heavy, or structurally vague, do not solve the problem by adding sources first.
+
+Use this order:
+
+1. define the era grammar;
+2. define the branch structure inside that era or volume;
+3. replace atmospheric buckets with named source doors wherever honest;
+4. check branch seriousness and function coverage;
+5. only then expand scale.
+
+Short form:
+
+```text
+weak shelf
+-> era grammar
+-> branch structure
+-> named doors
+-> branch parity
+-> scale after architecture is real
+```
+
+This is the default hardening law for turning a suggestive civilizational shelf into a governed source machine.
+
 ### Bibliography Workflow
 
 When refining a volume bibliography or a major bibliography subsection:
@@ -301,7 +326,12 @@ When refining a volume bibliography or a major bibliography subsection:
    - humiliations,
    - successor confusion,
    - or transformed-carrier problems.
-6. **Translate back into CIV-STATE apparatus language.**
+6. **Test branch function before scale.**
+   Before enlarging a field, ask:
+   - does each branch do a distinct civilizational job?
+   - is one branch underweight because its carrier function is missing, or only because the count is small?
+   - are there still placeholder buckets that should be hardened before more entries are added?
+7. **Translate back into CIV-STATE apparatus language.**
    The final bibliography should read like a statesman's working source field, not like raw graph output or a MEM dump.
 
 ### Era-Aware Bibliography Rule
@@ -316,6 +346,30 @@ When the bibliography uses the CIV-STATE era spine, organize primary sources by:
 
 Do not force false symmetry. Some eras will have denser source fields than others. Preserve transformed continuity honestly rather than padding thin eras.
 
+If the operator wants parity across eras, treat parity as a question of **functional seriousness first** and **entry count second**. A `50 / 50 / 50 / 50` shelf is valid only if each era has a real civilization-native grammar behind it.
+
+Guardrail:
+
+```text
+era parity is not license for era flattening
+```
+
+Transfer the rigor standard across civilizations, not Rome's specific branches, counts, or carrier map.
+
+### Placeholder-to-Field Conversion
+
+If an era section is still mostly retrieval prose, thematic prompts, or loose buckets, treat it as a placeholder-to-field conversion task.
+
+Use this order:
+
+1. state what the era is civilizationally;
+2. name the major carriers or successor branches;
+3. assign each branch a distinct function;
+4. populate the branches with named source doors;
+5. rewrite retrieval language so it reflects the new architecture.
+
+Do not leave retrieval prose doing work that the source field should now carry directly.
+
 ### Bibliography Output Contract
 
 For a serious volume bibliography, the final surface should make these claims explicit:
@@ -329,7 +383,10 @@ For a serious volume bibliography, the final surface should make these claims ex
    - the bibliography should reveal the civilizational chain, not just list famous books
 4. **Named-source sharpness**
    - replace weak generic clusters with named texts when CIV-MEM makes that possible
-5. **Terminology discipline**
+5. **Branch legibility**
+   - each major branch or carrier set does a distinct civilizational job
+   - retrieval language makes that job visible
+6. **Terminology discipline**
    - enforce system naming law already chosen by the repo
    - example: `Eastern Roman Empire`, not `Byzantium`
 
@@ -342,6 +399,9 @@ When auditing a bibliography, ask:
 - which entries are only generic topic clusters and should be sharpened?
 - which missing named sources are obvious from the MEM lattice?
 - where is the counterweight?
+- is the era grammar explicit enough to govern source selection?
+- are the branches functionally distinct or just list partitions?
+- was scale increased before architecture was made real?
 - does the terminology obey the system's chosen civilizational naming law?
 - is the result readable as a CIV-STATE source field rather than an academic overflow list?
 
@@ -354,6 +414,8 @@ For bibliography, glossary, hybrid references, or index work, the operator-facin
 - whether `MEM CONNECTIONS` were expanded or manually emulated;
 - which named sources were added, removed, or promoted because of CIV-MEM;
 - which generic buckets were kept and why;
+- what era grammar and branch logic governed the field;
+- whether parity was functional, numeric, or still provisional;
 - whether the field is full-strength or still provisional.
 
 ## Default Shapes
