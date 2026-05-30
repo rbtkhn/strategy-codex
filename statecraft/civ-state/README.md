@@ -20,6 +20,14 @@ Civilizational Statecraft should now also be read as a two-volume whole-work boo
 - [Hybrid References](hybrid-references.md)
 - [Index](index.md)
 
+The first cross-civilizational comparison-sheet layer now begins with:
+
+- [Continuity Mechanism](continuity-mechanism.md)
+
+The first comparative pattern shelf now begins with:
+
+- [Civilizational Pattern Library](pattern-library/README.md)
+
 Each civilization-state volume should also carry its own bibliography with a primary-source center of gravity.
 
 ## Command Door

@@ -12,6 +12,7 @@ Use this as the whole-work index for Civilizational Statecraft. It is biased tow
 
 ## B
 
+- bureaucratic restoration - [Bureaucratic Restoration](pattern-library/bureaucratic-restoration.md)
 - Byzantium - [Glossary](glossary.md), [CIV-STATE Rome](volumes/civ-state-rome/README.md)
 
 ## C
@@ -20,7 +21,10 @@ Use this as the whole-work index for Civilizational Statecraft. It is biased tow
 - China - [CIV-STATE China](volumes/civ-state-china/README.md)
 - civilization-state - [Glossary](glossary.md)
 - Civilizational Statecraft Framework - [civilization-empire-faith-science-memory-desire.md](civilization-empire-faith-science-memory-desire.md)
+- Civilizational Pattern Library - [Civilizational Pattern Library](pattern-library/README.md)
+- corridor civilization - [Corridor Civilization](pattern-library/corridor-civilization.md)
 - continuity - [Glossary](glossary.md)
+- continuity mechanism - [Continuity Mechanism](continuity-mechanism.md)
 - current sovereign heads - [current-sovereign-heads-of-the-civ-states.md](current-sovereign-heads-of-the-civ-states.md)
 - Cyrus - [CIV-STATE Persia](volumes/civ-state-persia/README.md)
 
@@ -36,6 +40,7 @@ Use this as the whole-work index for Civilizational Statecraft. It is biased tow
 
 ## F
 
+- fractured sovereignty - [Fractured Sovereignty](pattern-library/fractured-sovereignty.md)
 - Franklin - [Hybrid References](hybrid-references.md)
 
 ## G
@@ -80,6 +85,7 @@ Use this as the whole-work index for Civilizational Statecraft. It is biased tow
 
 ## P
 
+- parity rival - [Parity Rival](pattern-library/parity-rival.md)
 - Persia - [CIV-STATE Persia](volumes/civ-state-persia/README.md)
 - PH-CIV promotion ledger - [ph-civ-promotion-ledger.md](ph-civ-promotion-ledger.md)
 - PH-CIV to CIV-STATE bridge - [ph-civ-to-civ-state-bridge.md](ph-civ-to-civ-state-bridge.md)
@@ -101,6 +107,7 @@ Use this as the whole-work index for Civilizational Statecraft. It is biased tow
 ## S
 
 - sacred grammar - [sacred-grammar/README.md](sacred-grammar/README.md)
+- sacred reconcentration - [Sacred Reconcentration](pattern-library/sacred-reconcentration.md)
 - Safavid Persia - [Glossary](glossary.md)
 - secret-history chapters - [Volume Map](volumes/README.md)
 - settlement - [Glossary](glossary.md)
@@ -109,6 +116,7 @@ Use this as the whole-work index for Civilizational Statecraft. It is biased tow
 - sovereign continuity - [sovereign-continuity-of-the-civ-states.md](sovereign-continuity-of-the-civ-states.md)
 - sovereign opening - [Glossary](glossary.md)
 - statecraft chapters - [Volume Map](volumes/README.md)
+- survivable sovereignty - [Survivable Sovereignty](pattern-library/survivable-sovereignty.md)
 - transformed carrier - [Glossary](glossary.md)
 
 ## T
@@ -116,6 +124,7 @@ Use this as the whole-work index for Civilizational Statecraft. It is biased tow
 - table of contents - [Table of Contents](table-of-contents.md)
 - Talleyrand - [Hybrid References](hybrid-references.md)
 - Third Rome - [Glossary](glossary.md)
+- transformed continuity - [Transformed Continuity](pattern-library/transformed-continuity.md)
 
 ## U
 
