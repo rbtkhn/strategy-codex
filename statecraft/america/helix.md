@@ -22,6 +22,8 @@ America is strongest when a constitutional-maritime republic can use outward ins
 
 The distinctive American problem is that success can hide drift. A navy still sails, alliances still function, sanctions still bite, and platforms still operate, so the whole order can look stable even while the political carry behind it is thinning. The real restoration question is therefore not whether America can still project power, but whether it can still narrow, review, and inherit that power through lawful public authority.
 
+High-skill labor compression is now a live helix pressure inside that question. If synthetic cognition compresses the elite offices that interpret intelligence, draft law, manage diplomacy, structure sanctions, and carry policy review, then the republic can lose judgment thickness while the empire still appears operational. In that case America may gain throughput while losing sovereign comprehension, and contractor- or vendor-mediated procedure may begin to stand in for actual command. Read that as a helix problem: the imperial instrument keeps moving even as the civilizational office that authorizes and reviews it becomes thinner, faster, and less legibly human.
+
 ## Civilization Authorizes Empire
 
 The American civilizational code authorizes outward power when it is framed as defense of navigation, commerce, constitutional order, allies, and the continental republic.
@@ -78,6 +80,8 @@ It is especially useful when separate strand notes are all relevant and the prob
 ## Return Path
 
 If the question needs inherited legitimacy, go to [state memory](civilization/objects/state-memory.md). If it needs continental or maritime substrate, go to [geo](civilization/geo.md). If it needs coercive ceilings or contact architecture, go to [war](civilization/war.md). If it needs lawful settlement and successor carry, go to [peace](civilization/peace.md). If it needs outward control design, go to [America empire instrument](empire/seed-instruments.md). If it needs current offices or live carriers, go to [America state](state/).
+
+If the live pressure is synthetic cognition compressing elite judgment itself, open [High-Skill Labor Compression and American Command](high-skill-labor-compression-and-american-command.md) before dropping into narrower strand or transaction work.
 
 ## Drafting Prompts
 

@@ -53,4 +53,12 @@ Use this block for each new reviewable candidate:
 
 ## Queue
 
-_pending_
+## CIVEMP-20260529-01
+- Candidate type: retrieval refinement
+- Triggering artifact: [High-Skill Labor Compression and Civilizational Statecraft](high-skill-labor-compression-and-civilizational-statecraft.md)
+- Source object(s): [Civilizational Statecraft Framework](civilization-empire-faith-science-memory-desire.md), [CIV-STATE Source Retrieval Matrix](indexes/source-retrieval-matrix.md)
+- Problem found: high-skill labor compression has emerged as a repeatable bridge object, but CIV-STATE retrieval still undernames synthetic cognition as a pressure on judgment infrastructure, legitimacy, and sovereign carrier.
+- Proposed source-memory change: promote a compact retrieval family for synthetic cognition compressing elite work, especially where the real question becomes legitimacy, apprenticeship, vendor-carried authority, or sovereign judgment.
+- Why this belongs upstream: this is broader than one lane or one singularity note; it changes how CIV-STATE should retrieve continuity and carrier strain under cybernetic conditions.
+- Downstream artifact already adjusted? yes
+- Review status: pending

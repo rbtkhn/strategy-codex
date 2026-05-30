@@ -8,6 +8,13 @@ When the signal matures into carrier, legitimacy, treaty, policy, or sovereignty
 
 Core thesis: sovereignty under acceleration means legitimate human or institutional authority remains meaningful after systems become faster, cheaper, more autonomous, more scalable, or more recursive.
 
+When the acceleration object is specifically **high-skill labor compression** rather than model capability in the abstract, use the downstream statecraft bridges:
+
+- [statecraft/compact/high-skill-labor-compression-and-sovereign-judgment.md](../../../statecraft/compact/high-skill-labor-compression-and-sovereign-judgment.md)
+- [statecraft/civ-state/high-skill-labor-compression-and-civilizational-statecraft.md](../../../statecraft/civ-state/high-skill-labor-compression-and-civilizational-statecraft.md)
+
+That object should usually be read as a judgment-infrastructure and legitimacy problem, not just a productivity or labor-market problem.
+
 ## Quick Pass
 
 Use this when a live signal needs a fast statecraft read.

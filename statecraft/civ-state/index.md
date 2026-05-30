@@ -46,6 +46,7 @@ Use this as the whole-work index for Civilizational Statecraft. It is biased tow
 
 ## H
 
+- high-skill labor compression - [High-Skill Labor Compression and Civilizational Statecraft](high-skill-labor-compression-and-civilizational-statecraft.md)
 - hybrid references - [Hybrid References](hybrid-references.md)
 
 ## I
@@ -55,6 +56,7 @@ Use this as the whole-work index for Civilizational Statecraft. It is biased tow
 ## J
 
 - Jefferson - [Hybrid References](hybrid-references.md)
+- judgment infrastructure - [High-Skill Labor Compression and Civilizational Statecraft](high-skill-labor-compression-and-civilizational-statecraft.md)
 
 ## K
 
@@ -102,6 +104,7 @@ Use this as the whole-work index for Civilizational Statecraft. It is biased tow
 - Safavid Persia - [Glossary](glossary.md)
 - secret-history chapters - [Volume Map](volumes/README.md)
 - settlement - [Glossary](glossary.md)
+- sovereignty under cognitive compression - [High-Skill Labor Compression and Civilizational Statecraft](high-skill-labor-compression-and-civilizational-statecraft.md)
 - source retrieval matrix - [indexes/source-retrieval-matrix.md](indexes/source-retrieval-matrix.md)
 - sovereign continuity - [sovereign-continuity-of-the-civ-states.md](sovereign-continuity-of-the-civ-states.md)
 - sovereign opening - [Glossary](glossary.md)

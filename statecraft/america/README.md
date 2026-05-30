@@ -91,6 +91,8 @@ Use the lane's deeper strand surfaces only after one of those intake families ha
 
 For a preserved comparison of two recent America-lane inputs that both arrived through the broader Israel/U.S. war object, see [Freeman Vs Sachs As America-Lane Inputs](freeman-vs-sachs-america-input.md).
 
+For a lane-specific singularity-to-statecraft bridge on synthetic cognition compressing elite judgment offices, see [High-Skill Labor Compression and American Command](high-skill-labor-compression-and-american-command.md).
+
 When the remaining uncertainty is not lane ownership but whether the object is still command-first or already settlement-first, use the [America bounded-command vs burden-sharing bridge](../bridges/america-bounded-command-vs-burden-sharing-bridge.md) before dropping directly into transaction logic.
 
 ## Preferred Instruments

@@ -33,6 +33,8 @@ Use it when the real question is:
 - membrane promotion
 - review
 
+One live retrieval family worth watching is **high-skill labor compression**: synthetic cognition compressing elite work until the real question becomes judgment infrastructure, legitimacy, and sovereign carrier rather than labor-market productivity alone. Use [High-Skill Labor Compression and Civilizational Statecraft](high-skill-labor-compression-and-civilizational-statecraft.md) when that bridge is the honest next retrieval move.
+
 Its fixed action families are:
 
 - `A. Frame`

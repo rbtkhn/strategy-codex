@@ -80,6 +80,17 @@ Speaker-state continuity that belongs to live statecraft now opens from [statecr
 
 Host-native continuity that belongs to live statecraft now opens from [statecraft/hosts/](hosts/README.md), not from retired `codex/speakers/<host>/...` paths.
 
+One live bridge worth keeping in view across this stack is **high-skill labor compression**. When synthetic cognition starts compressing analytical, legal, diplomatic, intelligence, or policy-forming work, the object should usually not remain a generic singularity or labor-market note. Route it as:
+
+`singularity acceleration -> compact mechanism -> lane command problem -> civ-state legitimacy retrieval`
+
+Use:
+
+- [Sovereignty Under Acceleration](../singularity/workshop/sheets/sovereignty-under-acceleration.md)
+- [High-Skill Labor Compression and Sovereign Judgment](compact/high-skill-labor-compression-and-sovereign-judgment.md)
+- [High-Skill Labor Compression and American Command](america/high-skill-labor-compression-and-american-command.md)
+- [High-Skill Labor Compression and Civilizational Statecraft](civ-state/high-skill-labor-compression-and-civilizational-statecraft.md)
+
 The active higher-order interpretive frame for this stack is now:
 
 - **civilization / empire**
@@ -110,6 +121,7 @@ Named recent events no longer open a separate `current-event` function. Verify t
 - Need reusable laws extracted from those learning events? Open [patterns/](patterns/README.md).
 - Need the compact operator rule for when a lane earns bounded hardening? Open [lane-hardening law](patterns/lane-hardening-law.md).
 - Need the clearest note on how the operator is actually using this machine? Open [how the operator uses the statecraft machine](how-the-operator-uses-the-statecraft-machine.md).
+- Need a bounded synthesis of one archive-heavy day? Open [statecraft/daily/](daily/README.md).
 
 ## Era Schema
 
