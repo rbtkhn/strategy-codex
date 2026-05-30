@@ -36,7 +36,7 @@ Bounded claim:
 |---|---|---|---|---|---|
 | `davis-macgregor-speaker-arc.md` | war talk translated into logistics cost, overreach, and political danger | feasibility severity and domestic consequence | dense late-April/May 2026 run plus broadened 2025 continuation | open when the task asks what the U.S. cannot sustain or survive politically | keep |
 | `diesen-macgregor-speaker-arc.md` | force-balance critique translated into NATO decline and imperial-distance consequence | geopolitical altitude and cross-theater exhaustion | materially real 2025-2026 host lane with strong order-consequence anchors | open when the task asks what overstretch does to the wider system | keep |
-| `napolitano-macgregor-speaker-arc.md` | force-balance critique translated into undeclared-war indictment | anti-aggression and elite war-planning pressure | thinner but real November 2025-April 2026 branch | keep as auxiliary host branch, not part of the canonical double helix |
+| `napolitano-macgregor-speaker-arc.md` | force-balance critique translated into undeclared-war indictment | anti-aggression and elite war-planning pressure | thinner but real January 2025-April 2026 branch | keep as auxiliary host branch, not part of the canonical double helix |
 
 ## Monthly shelf audit
 

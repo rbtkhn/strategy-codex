@@ -2,8 +2,9 @@
 name: memory
 preferred_activation: memory
 description: "Build, mirror, audit, or backfill repo-root statecraft state-memory and civilization arc-lens surfaces from CIV-MEM. Use when the operator says memory or legacy state-memory, asks to convert CIV-MEM into civilization/objects/state-memory.md, mirror state-memory architecture, audit current state carriers, create or refine god.md, lit.md, art.md, geo.md, war.md, or peace.md, or wants deep CIV-MEM search without biography drift."
+description: "Build, mirror, audit, or backfill repo-root statecraft state-memory, civilization arc-lens, and CIV-STATE book-apparatus surfaces from CIV-MEM. Use when the operator says memory or legacy state-memory, asks to convert CIV-MEM into civilization/objects/state-memory.md, mirror state-memory architecture, audit current state carriers, create or refine god.md, lit.md, art.md, geo.md, war.md, or peace.md, wants deep CIV-MEM search without biography drift, or wants CIV-MEM to evaluate or sharpen glossary, bibliography, references, or index surfaces."
 portable: true
-version: 0.1.0
+version: 0.1.1
 tags:
   - operator
   - statecraft
@@ -17,6 +18,13 @@ tags:
 **Preferred activation (operator):** say **`memory`**.
 
 Use this skill to build, mirror, audit, or backfill repo-root statecraft **state-memory** and civilization arc-lens layers from CIV-MEM and lane-local statecraft material.
+
+It also governs CIV-STATE **book apparatus** work where CIV-MEM is the evidence spine behind:
+
+- volume bibliographies
+- glossary surfaces
+- hybrid references surfaces
+- index surfaces
 
 Compatibility note: older references to **`state-memory`** as a skill mean this skill. The **skill name** is now `memory`; the **statecraft object family** remains `state-memory`.
 
@@ -238,6 +246,115 @@ Do not finish a backfill if any of these are true:
 - `MEM CONNECTIONS` were ignored on a major object backfill;
 - the file names themes but does not convert them into transaction constraints;
 - the arc-lens cannot answer what would make a bargain forbidden, humiliating, disorder-producing, coercive, unserious, or illegitimate.
+
+## Book Apparatus and Bibliography Generation
+
+Use this branch when the operator wants CIV-MEM to evaluate, build, rank, or sharpen book-form source surfaces inside `civ-state`, especially:
+
+- volume-local bibliographies
+- glossary entries
+- hybrid references
+- index entries
+
+Do **not** let CIV-MEM become the visible prose voice of the apparatus. It remains the evidence spine behind a translated CIV-STATE surface.
+
+### Apparatus Boundary
+
+- CIV-MEM grounds and ranks source doors.
+- CIV-STATE apparatus translates those doors into book-native working surfaces.
+- `table-of-contents.md` and `reader-guide.md` may consume CIV-MEM indirectly, but they are not the main place to expose graph mechanics.
+- `glossary.md`, `hybrid-references.md`, `index.md`, and volume-local bibliographies are the main visible evidence-bearing apparatus surfaces.
+
+### Bibliography Workflow
+
+When refining a volume bibliography or a major bibliography subsection:
+
+1. **Fix the target level.**
+   Decide whether the task is:
+   - whole-work references law,
+   - one volume bibliography,
+   - one era section inside a bibliography,
+   - or one subfield such as Ancient Rome or Medieval Rome.
+2. **Ground in the relevant CIV-MEM civilization folder.**
+   Open:
+   - `CIV-CORE-*`
+   - `CIV-STATE-*`
+   - `CIV-DOCTRINE-*`
+   - `CIV-INDEX-*`
+   - and the most relevant MEM files for the target era or subfield.
+3. **Use seed MEM plus MEM CONNECTIONS before naming a source field.**
+   For a bibliography subsection, start from the strongest seed MEMs, then expand through `MEM CONNECTIONS` until you can see:
+   - core named source anchors,
+   - continuity hinges,
+   - counterweights,
+   - and transformed carriers.
+4. **Prefer named source doors over generic clusters.**
+   Priority order:
+   - named text with strong CIV-MEM backing,
+   - named text with strong canonical importance,
+   - bounded text-family bucket,
+   - generic regional/material cluster only as last resort.
+5. **Install counterweight while selecting.**
+   A good bibliography should not read like a triumphalist syllabus. Use CIV-MEM to surface:
+   - fractures,
+   - rival claimants,
+   - humiliations,
+   - successor confusion,
+   - or transformed-carrier problems.
+6. **Translate back into CIV-STATE apparatus language.**
+   The final bibliography should read like a statesman's working source field, not like raw graph output or a MEM dump.
+
+### Era-Aware Bibliography Rule
+
+When the bibliography uses the CIV-STATE era spine, organize primary sources by:
+
+- `Ancient`
+- `Medieval`
+- `Colonial`
+- `Industrial`
+- `Cybernetic`
+
+Do not force false symmetry. Some eras will have denser source fields than others. Preserve transformed continuity honestly rather than padding thin eras.
+
+### Bibliography Output Contract
+
+For a serious volume bibliography, the final surface should make these claims explicit:
+
+1. **Primary-source center of gravity**
+   - primary sources dominate
+   - secondary scholarship supports, bounds, or counterweights
+2. **Era order**
+   - sources are organized by the chosen CIV-STATE era spine when the volume uses it
+3. **Continuity logic**
+   - the bibliography should reveal the civilizational chain, not just list famous books
+4. **Named-source sharpness**
+   - replace weak generic clusters with named texts when CIV-MEM makes that possible
+5. **Terminology discipline**
+   - enforce system naming law already chosen by the repo
+   - example: `Eastern Roman Empire`, not `Byzantium`
+
+### Bibliography Evaluation Questions
+
+When auditing a bibliography, ask:
+
+- does the field track the actual continuity chain or only prestige reading?
+- which entries are strongly backed by CIV-MEM?
+- which entries are only generic topic clusters and should be sharpened?
+- which missing named sources are obvious from the MEM lattice?
+- where is the counterweight?
+- does the terminology obey the system's chosen civilizational naming law?
+- is the result readable as a CIV-STATE source field rather than an academic overflow list?
+
+### Apparatus-Specific Provenance Requirement
+
+For bibliography, glossary, hybrid references, or index work, the operator-facing answer should include:
+
+- the CIV-MEM overview files opened;
+- the seed MEMs used;
+- whether `MEM CONNECTIONS` were expanded or manually emulated;
+- which named sources were added, removed, or promoted because of CIV-MEM;
+- which generic buckets were kept and why;
+- whether the field is full-strength or still provisional.
 
 ## Default Shapes
 

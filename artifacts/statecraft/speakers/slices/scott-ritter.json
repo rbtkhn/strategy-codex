@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0-statecraft-day-dashboard",
-  "generatedAt": "2026-05-28T16:16:14.459232+00:00",
+  "generatedAt": "2026-05-29T22:40:10.277753+00:00",
   "root": "C:\\dev\\strategy-codex\\source-archive\\statecraft",
   "query": {
     "channels": [],
@@ -12,10 +12,10 @@
     "slug": "scott-ritter"
   },
   "coverage": {
-    "dayCount": 64,
-    "sourceFileCount": 375,
+    "dayCount": 65,
+    "sourceFileCount": 393,
     "firstDay": "2025-05-24",
-    "lastDay": "2026-05-27"
+    "lastDay": "2026-05-28"
   },
   "aggregates": {
     "topDays": [
@@ -33,6 +33,10 @@
       },
       {
         "date": "2026-04-20",
+        "sourceCount": 14
+      },
+      {
+        "date": "2026-05-28",
         "sourceCount": 14
       },
       {
@@ -54,32 +58,16 @@
       {
         "date": "2026-05-27",
         "sourceCount": 10
-      },
-      {
-        "date": "2026-03-31",
-        "sourceCount": 9
       }
     ],
     "quietDays": [
-      {
-        "date": "2025-05-24",
-        "sourceCount": 2
-      },
-      {
-        "date": "2025-09-17",
-        "sourceCount": 2
-      },
-      {
-        "date": "2025-10-07",
-        "sourceCount": 2
-      },
       {
         "date": "2025-10-19",
         "sourceCount": 1
       },
       {
         "date": "2025-10-24",
-        "sourceCount": 1
+        "sourceCount": 2
       },
       {
         "date": "2025-12-06",
@@ -101,23 +89,23 @@
     "channels": [
       {
         "name": "Dialogue Works",
-        "count": 51
+        "count": 60
       },
       {
         "name": "Daniel Davis Deep Dive",
-        "count": 46
+        "count": 48
       },
       {
         "name": "Mercouris",
         "count": 45
       },
       {
-        "name": "Glenn Diesen",
-        "count": 24
+        "name": "Judging Freedom",
+        "count": 32
       },
       {
-        "name": "Judging Freedom",
-        "count": 24
+        "name": "Glenn Diesen",
+        "count": 29
       },
       {
         "name": "simplicius76.substack.com",
@@ -125,19 +113,23 @@
       },
       {
         "name": "Alexander Mercouris",
-        "count": 11
+        "count": 13
       },
       {
         "name": "escalationtrap.substack.com",
-        "count": 11
+        "count": 12
+      },
+      {
+        "name": "Mario Nawfal",
+        "count": 7
+      },
+      {
+        "name": "Predictive History",
+        "count": 6
       },
       {
         "name": "substack.com/@tritaparsi",
         "count": 5
-      },
-      {
-        "name": "Mario Nawfal",
-        "count": 4
       },
       {
         "name": "The Duran",
@@ -156,10 +148,6 @@
         "count": 2
       },
       {
-        "name": "youtube.com",
-        "count": 2
-      },
-      {
         "name": "Breaking Points",
         "count": 1
       },
@@ -168,7 +156,7 @@
         "count": 1
       },
       {
-        "name": "Escalation Trap",
+        "name": "Garland Nixon",
         "count": 1
       },
       {
@@ -192,6 +180,10 @@
         "count": 1
       },
       {
+        "name": "Switzerland with Tom Switzer",
+        "count": 1
+      },
+      {
         "name": "The Chris Hedges Report",
         "count": 1
       },
@@ -211,38 +203,42 @@
     "hosts": [
       {
         "name": "Alexander Mercouris",
-        "count": 58
-      },
-      {
-        "name": "Daniel Davis",
-        "count": 45
+        "count": 60
       },
       {
         "name": "Nima Alkhorshid",
-        "count": 42
+        "count": 50
+      },
+      {
+        "name": "Daniel Davis",
+        "count": 47
       },
       {
         "name": "Andrew Napolitano",
-        "count": 39
+        "count": 43
       },
       {
         "name": "Glenn Diesen",
-        "count": 39
+        "count": 41
       },
       {
         "name": "Nima Alkorshid",
         "count": 11
       },
       {
+        "name": "Mario Nawfal",
+        "count": 7
+      },
+      {
         "name": "Diesen",
         "count": 6
       },
       {
-        "name": "Dialogue Works",
-        "count": 4
+        "name": "Jiang Xueqin",
+        "count": 6
       },
       {
-        "name": "Mario Nawfal",
+        "name": "Dialogue Works",
         "count": 4
       },
       {
@@ -274,6 +270,10 @@
         "count": 1
       },
       {
+        "name": "Garland Nixon",
+        "count": 1
+      },
+      {
         "name": "Jeffrey Sachs",
         "count": 1
       },
@@ -287,6 +287,10 @@
       },
       {
         "name": "Nema",
+        "count": 1
+      },
+      {
+        "name": "Tom Switzer",
         "count": 1
       },
       {
@@ -305,7 +309,7 @@
     "guests": [
       {
         "name": "Scott Ritter",
-        "count": 74
+        "count": 75
       },
       {
         "name": "Chas Freeman",
@@ -317,7 +321,7 @@
       },
       {
         "name": "John Mearsheimer",
-        "count": 11
+        "count": 12
       },
       {
         "name": "Seyed M. Marandi",
@@ -332,48 +336,56 @@
         "count": 9
       },
       {
+        "name": "Jacques Baud",
+        "count": 9
+      },
+      {
         "name": "Jeffrey Sachs",
         "count": 9
       },
       {
-        "name": "Jacques Baud",
-        "count": 8
+        "name": "Douglas Macgregor",
+        "count": 5
+      },
+      {
+        "name": "Larry Wilkerson",
+        "count": 5
+      },
+      {
+        "name": "Lawrence Wilkerson",
+        "count": 5
       },
       {
         "name": "Ray McGovern",
         "count": 5
       },
       {
+        "name": "Robert Barnes",
+        "count": 5
+      },
+      {
+        "name": "Trita Parsi",
+        "count": 5
+      },
+      {
+        "name": "Andrei Martyanov",
+        "count": 4
+      },
+      {
         "name": "Daniel Davis",
         "count": 4
       },
       {
-        "name": "Douglas Macgregor",
-        "count": 4
-      },
-      {
-        "name": "Lawrence Wilkerson",
-        "count": 4
-      },
-      {
-        "name": "Robert Barnes",
-        "count": 4
-      },
-      {
-        "name": "Trita Parsi",
-        "count": 4
-      },
-      {
-        "name": "Andrei Martyanov",
-        "count": 3
-      },
-      {
         "name": "Joe Kent",
+        "count": 4
+      },
+      {
+        "name": "Robert Pape",
         "count": 3
       },
       {
-        "name": "Larry Wilkerson",
-        "count": 3
+        "name": "Alex Krainer",
+        "count": 2
       },
       {
         "name": "Anthony Aguilar",
@@ -392,19 +404,15 @@
         "count": 2
       },
       {
+        "name": "Max Blumenthal",
+        "count": 2
+      },
+      {
         "name": "Ritter",
         "count": 2
       },
       {
-        "name": "Robert Pape",
-        "count": 2
-      },
-      {
         "name": "Aaron Mat\u00e9",
-        "count": 1
-      },
-      {
-        "name": "Alex Krainer",
         "count": 1
       },
       {
@@ -448,11 +456,15 @@
         "count": 1
       },
       {
+        "name": "Larry C. Johnson; Col. Larry Wilkerson",
+        "count": 1
+      },
+      {
         "name": "Martin Armstrong",
         "count": 1
       },
       {
-        "name": "Max Blumenthal",
+        "name": "Mohammad Marandi",
         "count": 1
       },
       {
@@ -523,7 +535,7 @@
     "threads": [
       {
         "name": "mercouris",
-        "count": 63
+        "count": 65
       },
       {
         "name": "davis",
@@ -531,19 +543,19 @@
       },
       {
         "name": "diesen",
-        "count": 41
+        "count": 43
       },
       {
         "name": "nima",
-        "count": 36
+        "count": 39
       },
       {
         "name": "ritter",
-        "count": 35
+        "count": 36
       },
       {
         "name": "pape",
-        "count": 22
+        "count": 23
       },
       {
         "name": "simplicius",
@@ -567,15 +579,19 @@
       },
       {
         "name": "parsi",
-        "count": 8
+        "count": 9
       },
       {
         "name": "baud",
-        "count": 7
+        "count": 8
+      },
+      {
+        "name": "jiang",
+        "count": 6
       },
       {
         "name": "mearsheimer",
-        "count": 4
+        "count": 5
       },
       {
         "name": "dialogue-works",
@@ -586,19 +602,39 @@
         "count": 3
       },
       {
-        "name": "[diesen, ritter]",
-        "count": 2
+        "name": "martyanov",
+        "count": 3
       },
       {
         "name": "[mercouris, barnes]",
         "count": 2
       },
       {
-        "name": "martyanov",
+        "name": "barnes",
+        "count": 2
+      },
+      {
+        "name": "blumenthal",
+        "count": 2
+      },
+      {
+        "name": "kent",
+        "count": 2
+      },
+      {
+        "name": "macgregor",
+        "count": 2
+      },
+      {
+        "name": "marandi",
         "count": 2
       },
       {
         "name": "mcgovern",
+        "count": 2
+      },
+      {
+        "name": "wilkerson",
         "count": 2
       },
       {
@@ -618,7 +654,7 @@
         "count": 1
       },
       {
-        "name": "[diesen, mearsheimer]",
+        "name": "[diesen, ritter]",
         "count": 1
       },
       {
@@ -626,27 +662,11 @@
         "count": 1
       },
       {
-        "name": "barnes",
-        "count": 1
-      },
-      {
-        "name": "blumenthal",
-        "count": 1
-      },
-      {
         "name": "horizons",
         "count": 1
       },
       {
-        "name": "kent",
-        "count": 1
-      },
-      {
-        "name": "macgregor",
-        "count": 1
-      },
-      {
-        "name": "marandi",
+        "name": "krainer",
         "count": 1
       },
       {
@@ -660,44 +680,36 @@
       {
         "name": "sachs",
         "count": 1
-      },
-      {
-        "name": "wilkerson",
-        "count": 1
       }
     ],
     "fallbackFamilies": [
       {
         "name": "substack-*",
-        "count": 74
+        "count": 75
       },
       {
         "name": "youtube-alex-mercouris-*",
-        "count": 47
+        "count": 49
       },
       {
         "name": "transcript-*",
-        "count": 37
+        "count": 34
       },
       {
         "name": "transcript-napolitano-*",
-        "count": 15
+        "count": 11
       },
       {
         "name": "youtube-glenn-diesen-*",
-        "count": 13
+        "count": 10
       },
       {
         "name": "predictive-history-*",
         "count": 6
       },
       {
-        "name": "transcript-alkorshid-*",
-        "count": 2
-      },
-      {
         "name": "youtube-*",
-        "count": 2
+        "count": 3
       },
       {
         "name": "youtube-daniel-davis-deep-dive-*",
@@ -780,10 +792,6 @@
         "fallbackCount": 11
       },
       {
-        "date": "2026-05-26",
-        "fallbackCount": 8
-      },
-      {
         "date": "2026-03-01",
         "fallbackCount": 7
       },
@@ -810,6 +818,10 @@
       {
         "date": "2026-04-27",
         "fallbackCount": 5
+      },
+      {
+        "date": "2025-12-24",
+        "fallbackCount": 4
       }
     ],
     "missingHostOrGuestDays": [],
@@ -818,8 +830,12 @@
   "days": [
     {
       "date": "2025-05-24",
-      "fileCount": 2,
+      "fileCount": 3,
       "channels": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        },
         {
           "name": "Dialogue Works",
           "count": 1
@@ -827,11 +843,19 @@
       ],
       "shows": [
         {
+          "name": "Alexander Mercouris",
+          "count": 1
+        },
+        {
           "name": "Dialogue Works",
           "count": 1
         }
       ],
       "hosts": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        },
         {
           "name": "Glenn Diesen",
           "count": 1
@@ -859,9 +883,17 @@
         {
           "name": "freeman",
           "count": 1
+        },
+        {
+          "name": "mercouris",
+          "count": 1
         }
       ],
       "fallbackFamilies": [
+        {
+          "name": "youtube-alex-mercouris-*",
+          "count": 1
+        },
         {
           "name": "youtube-glenn-diesen-*",
           "count": 1
@@ -869,6 +901,7 @@
       ],
       "fileNames": [
         "transcript-dialogue-works-amb-chas-freeman-the-dangerous-myths-we-tell-ourselves-about-china-russia-and-iran-2025-05-24.md",
+        "youtube-alex-mercouris-russia-aims-military-victory-takes-drone-lead-ukraine-stalls-on-talks-us-military-dominance-gone-2025-05-24.md",
         "youtube-glenn-diesen-scott-ritter-scott-ritter-will-trump-own-the-ukraine-war-or-walk-away-2025-05-24.md"
       ],
       "hasReadme": true,
@@ -960,14 +993,22 @@
     },
     {
       "date": "2025-09-17",
-      "fileCount": 2,
+      "fileCount": 3,
       "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        },
         {
           "name": "Judging Freedom",
           "count": 1
         }
       ],
       "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        },
         {
           "name": "Judging Freedom",
           "count": 1
@@ -981,11 +1022,19 @@
         {
           "name": "Glenn Diesen",
           "count": 1
+        },
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
         }
       ],
       "guests": [
         {
           "name": "Jeffrey Sachs",
+          "count": 1
+        },
+        {
+          "name": "Larry Wilkerson",
           "count": 1
         },
         {
@@ -1001,6 +1050,10 @@
         {
           "name": "napolitano",
           "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
         }
       ],
       "fallbackFamilies": [
@@ -1010,6 +1063,7 @@
         }
       ],
       "fileNames": [
+        "transcript-dialogue-works-col-larry-wilkerson-middle-east-warning-ignites-russia-vs-west-drags-everything-into-hell-2025-09-17.md",
         "youtube-glenn-diesen-scott-ritter-scott-ritter-nato-prepares-for-war-with-russia-2025-09-17.md",
         "youtube-napolitano-sachs-definitely-genocide-2025-09-17.md"
       ],
@@ -1018,14 +1072,30 @@
     },
     {
       "date": "2025-10-07",
-      "fileCount": 2,
+      "fileCount": 3,
       "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        },
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        },
         {
           "name": "Judging Freedom",
           "count": 1
         }
       ],
       "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        },
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        },
         {
           "name": "Judging Freedom",
           "count": 1
@@ -1039,11 +1109,19 @@
         {
           "name": "Glenn Diesen",
           "count": 1
+        },
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
         }
       ],
       "guests": [
         {
           "name": "Chas Freeman",
+          "count": 1
+        },
+        {
+          "name": "Larry Wilkerson",
           "count": 1
         },
         {
@@ -1059,15 +1137,15 @@
         {
           "name": "freeman",
           "count": 1
-        }
-      ],
-      "fallbackFamilies": [
+        },
         {
-          "name": "youtube-glenn-diesen-*",
+          "name": "nima",
           "count": 1
         }
       ],
+      "fallbackFamilies": [],
       "fileNames": [
+        "transcript-dialogue-works-col-larry-wilkerson-october-7th-aftermath-israels-worst-defeat-in-history-2025-10-07.md",
         "transcript-napolitano-amb-chas-freeman-israel-near-collapse-2025-10-07.md",
         "youtube-glenn-diesen-scott-ritter-scott-ritter-tomahawks-end-of-nato-coming-nuclear-war-2025-10-07.md"
       ],
@@ -1077,8 +1155,18 @@
     {
       "date": "2025-10-19",
       "fileCount": 1,
-      "channels": [],
-      "shows": [],
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
       "hosts": [
         {
           "name": "Nima Alkhorshid",
@@ -1097,12 +1185,7 @@
           "count": 1
         }
       ],
-      "fallbackFamilies": [
-        {
-          "name": "transcript-*",
-          "count": 1
-        }
-      ],
+      "fallbackFamilies": [],
       "fileNames": [
         "transcript-dialogue-works-scott-ritter-israel-s-attack-ignites-iran-s-oreshnik-moment-idf-in-ruins-l-scott-ritter-2025-10-19.md"
       ],
@@ -1111,16 +1194,42 @@
     },
     {
       "date": "2025-10-24",
-      "fileCount": 1,
-      "channels": [],
-      "shows": [],
-      "hosts": [
+      "fileCount": 2,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        },
         {
           "name": "Glenn Diesen",
           "count": 1
         }
       ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        },
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        },
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
       "guests": [
+        {
+          "name": "Larry C. Johnson; Col. Larry Wilkerson",
+          "count": 1
+        },
         {
           "name": "Scott Ritter",
           "count": 1
@@ -1130,15 +1239,15 @@
         {
           "name": "diesen",
           "count": 1
-        }
-      ],
-      "fallbackFamilies": [
+        },
         {
-          "name": "youtube-glenn-diesen-*",
+          "name": "nima",
           "count": 1
         }
       ],
+      "fallbackFamilies": [],
       "fileNames": [
+        "transcript-dialogue-works-larry-c-johnson-col-larry-wilkerson-the-world-is-on-the-brink-of-world-war-iii-2025-10-24.md",
         "youtube-glenn-diesen-scott-ritter-scott-ritter-russia-fed-up-with-nato-escalations-retaliation-is-coming-2025-10-24.md"
       ],
       "hasReadme": true,
@@ -6107,12 +6216,12 @@
       "fileCount": 7,
       "channels": [
         {
-          "name": "Diesen (Greater Eurasia)",
-          "count": 2
+          "name": "Dialogue Works",
+          "count": 3
         },
         {
-          "name": "Dialogue Works",
-          "count": 1
+          "name": "Diesen (Greater Eurasia)",
+          "count": 2
         },
         {
           "name": "Mercouris",
@@ -6125,12 +6234,12 @@
       ],
       "shows": [
         {
-          "name": "Diesen (Greater Eurasia)",
-          "count": 2
+          "name": "Dialogue Works",
+          "count": 3
         },
         {
-          "name": "Dialogue Works",
-          "count": 1
+          "name": "Diesen (Greater Eurasia)",
+          "count": 2
         },
         {
           "name": "Mercouris",
@@ -6143,15 +6252,15 @@
       ],
       "hosts": [
         {
+          "name": "Nima Alkhorshid",
+          "count": 3
+        },
+        {
           "name": "Diesen",
           "count": 2
         },
         {
           "name": "Alexander Mercouris",
-          "count": 1
-        },
-        {
-          "name": "Nima Alkhorshid",
           "count": 1
         }
       ],
@@ -6179,16 +6288,12 @@
       ],
       "threads": [
         {
-          "name": "nima",
+          "name": "diesen",
           "count": 2
         },
         {
-          "name": "[diesen, mearsheimer]",
-          "count": 1
-        },
-        {
-          "name": "[diesen, ritter]",
-          "count": 1
+          "name": "nima",
+          "count": 2
         },
         {
           "name": "baud",
@@ -6204,10 +6309,6 @@
         }
       ],
       "fallbackFamilies": [
-        {
-          "name": "transcript-alkorshid-*",
-          "count": 2
-        },
         {
           "name": "substack-*",
           "count": 1
@@ -6238,15 +6339,19 @@
           "count": 2
         },
         {
+          "name": "Glenn Diesen",
+          "count": 2
+        },
+        {
           "name": "Mercouris",
           "count": 2
         },
         {
-          "name": "youtube.com",
-          "count": 2
+          "name": "Dialogue Works",
+          "count": 1
         },
         {
-          "name": "Dialogue Works",
+          "name": "Predictive History",
           "count": 1
         },
         {
@@ -6260,15 +6365,19 @@
           "count": 2
         },
         {
+          "name": "Glenn Diesen",
+          "count": 2
+        },
+        {
           "name": "Mercouris",
           "count": 2
         },
         {
-          "name": "youtube.com",
-          "count": 2
+          "name": "Dialogue Works",
+          "count": 1
         },
         {
-          "name": "Dialogue Works",
+          "name": "Predictive History",
           "count": 1
         },
         {
@@ -6284,6 +6393,14 @@
         {
           "name": "Daniel Davis",
           "count": 2
+        },
+        {
+          "name": "Glenn Diesen",
+          "count": 2
+        },
+        {
+          "name": "Jiang Xueqin",
+          "count": 1
         },
         {
           "name": "Nima Alkhorshid",
@@ -6322,6 +6439,10 @@
           "count": 2
         },
         {
+          "name": "jiang",
+          "count": 1
+        },
+        {
           "name": "nima",
           "count": 1
         },
@@ -6331,10 +6452,6 @@
         }
       ],
       "fallbackFamilies": [
-        {
-          "name": "transcript-*",
-          "count": 2
-        },
         {
           "name": "predictive-history-*",
           "count": 1
@@ -6607,7 +6724,15 @@
           "count": 1
         },
         {
+          "name": "Glenn Diesen",
+          "count": 1
+        },
+        {
           "name": "Mario Nawfal",
+          "count": 1
+        },
+        {
+          "name": "Predictive History",
           "count": 1
         }
       ],
@@ -6625,7 +6750,15 @@
           "count": 1
         },
         {
+          "name": "Glenn Diesen",
+          "count": 1
+        },
+        {
           "name": "Mario Nawfal",
+          "count": 1
+        },
+        {
+          "name": "Predictive History",
           "count": 1
         }
       ],
@@ -6644,6 +6777,10 @@
         },
         {
           "name": "Glenn Diesen",
+          "count": 1
+        },
+        {
+          "name": "Jiang Xueqin",
           "count": 1
         },
         {
@@ -6699,6 +6836,10 @@
           "count": 1
         },
         {
+          "name": "jiang",
+          "count": 1
+        },
+        {
           "name": "johnson",
           "count": 1
         },
@@ -6714,10 +6855,6 @@
         },
         {
           "name": "predictive-history-*",
-          "count": 1
-        },
-        {
-          "name": "youtube-glenn-diesen-*",
           "count": 1
         }
       ],
@@ -6948,6 +7085,10 @@
         {
           "name": "Glenn Diesen",
           "count": 1
+        },
+        {
+          "name": "Predictive History",
+          "count": 1
         }
       ],
       "shows": [
@@ -6962,6 +7103,10 @@
         {
           "name": "Glenn Diesen",
           "count": 1
+        },
+        {
+          "name": "Predictive History",
+          "count": 1
         }
       ],
       "hosts": [
@@ -6975,6 +7120,10 @@
         },
         {
           "name": "Glenn Diesen",
+          "count": 1
+        },
+        {
+          "name": "Jiang Xueqin",
           "count": 1
         }
       ],
@@ -6991,6 +7140,10 @@
         },
         {
           "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "jiang",
           "count": 1
         },
         {
@@ -7208,6 +7361,10 @@
       "fileCount": 18,
       "channels": [
         {
+          "name": "Judging Freedom",
+          "count": 6
+        },
+        {
           "name": "Daniel Davis Deep Dive",
           "count": 3
         },
@@ -7216,8 +7373,8 @@
           "count": 3
         },
         {
-          "name": "Judging Freedom",
-          "count": 2
+          "name": "Predictive History",
+          "count": 3
         },
         {
           "name": "Alexander Mercouris",
@@ -7234,6 +7391,10 @@
       ],
       "shows": [
         {
+          "name": "Judging Freedom",
+          "count": 6
+        },
+        {
           "name": "Daniel Davis Deep Dive",
           "count": 3
         },
@@ -7242,8 +7403,8 @@
           "count": 3
         },
         {
-          "name": "Judging Freedom",
-          "count": 2
+          "name": "Predictive History",
+          "count": 3
         },
         {
           "name": "Alexander Mercouris",
@@ -7265,6 +7426,10 @@
         },
         {
           "name": "Daniel Davis",
+          "count": 3
+        },
+        {
+          "name": "Jiang Xueqin",
           "count": 3
         },
         {
@@ -7340,6 +7505,10 @@
           "count": 3
         },
         {
+          "name": "jiang",
+          "count": 3
+        },
+        {
           "name": "nima",
           "count": 3
         },
@@ -7378,10 +7547,6 @@
       ],
       "fallbackFamilies": [
         {
-          "name": "transcript-napolitano-*",
-          "count": 4
-        },
-        {
           "name": "predictive-history-*",
           "count": 3
         },
@@ -7391,6 +7556,9 @@
         }
       ],
       "fileNames": [
+        "predictive-history-game-theory-28-predictive-history-2026-05-26.md",
+        "predictive-history-gb-11-dantes-revolution-2026-05-26.md",
+        "predictive-history-gb-12-dante-in-paradise-2026-05-26.md",
         "transcript-alkorshid-barnes-us-iran-final-confrontation-as-russia-drops-heaviest-strikes-on-ukraine-yet-2026-05-26.md",
         "transcript-alkorshid-helmer-trumps-iran-deal-fails-russias-oreshnik-delivers-final-blow-2026-05-26.md",
         "transcript-alkorshid-marandi-iran-opens-fire-on-american-fighter-jets-2026-05-26.md",
@@ -7400,10 +7568,7 @@
         "transcript-napolitano-hoh-why-the-pentagon-lies-2026-05-26.md",
         "transcript-napolitano-johnson-trump-afraid-of-the-zionists-2026-05-26.md",
         "transcript-napolitano-mearsheimer-neocons-want-more-war-2026-05-26.md",
-        "predictive-history-gb-11-dantes-revolution-2026-05-26.md",
-        "predictive-history-gb-12-dante-in-paradise-2026-05-26.md",
         "transcript-napolitano-ritter-why-bother-to-negotiate-with-trump-2026-05-26.md",
-        "predictive-history-game-theory-28-predictive-history-2026-05-26.md",
         "youtube-alex-mercouris-russian-fiercest-warning-kiev-decision-centres-will-be-attacked-patience-exhausted-west-quit-kiev-2026-05-26.md",
         "youtube-daniel-davis-deep-dive-col-douglas-macgregor-u-s-strikes-iran-again-2026-05-26.md",
         "youtube-daniel-davis-deep-dive-scott-ritter-ukraine-the-death-of-a-nation-2026-05-26.md",
@@ -7422,37 +7587,7 @@
           "count": 2
         },
         {
-          "name": "Alexander Mercouris",
-          "count": 1
-        },
-        {
-          "name": "Breaking Points",
-          "count": 1
-        },
-        {
           "name": "Dialogue Works",
-          "count": 1
-        },
-        {
-          "name": "Escalation Trap",
-          "count": 1
-        },
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        },
-        {
-          "name": "Judging Freedom",
-          "count": 1
-        },
-        {
-          "name": "Mario Nawfal",
-          "count": 1
-        }
-      ],
-      "shows": [
-        {
-          "name": "Daniel Davis Deep Dive",
           "count": 2
         },
         {
@@ -7464,11 +7599,37 @@
           "count": 1
         },
         {
-          "name": "Dialogue Works",
+          "name": "Glenn Diesen",
           "count": 1
         },
         {
-          "name": "Escalation Trap",
+          "name": "Judging Freedom",
+          "count": 1
+        },
+        {
+          "name": "Mario Nawfal",
+          "count": 1
+        },
+        {
+          "name": "escalationtrap.substack.com",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Daniel Davis Deep Dive",
+          "count": 2
+        },
+        {
+          "name": "Dialogue Works",
+          "count": 2
+        },
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        },
+        {
+          "name": "Breaking Points",
           "count": 1
         },
         {
@@ -7482,11 +7643,19 @@
         {
           "name": "Mario Nawfal",
           "count": 1
+        },
+        {
+          "name": "escalationtrap.substack.com",
+          "count": 1
         }
       ],
       "hosts": [
         {
           "name": "Daniel Davis",
+          "count": 2
+        },
+        {
+          "name": "Nima Alkhorshid",
           "count": 2
         },
         {
@@ -7503,10 +7672,6 @@
         },
         {
           "name": "Mario Nawfal",
-          "count": 1
-        },
-        {
-          "name": "Nima Alkhorshid",
           "count": 1
         }
       ],
@@ -7580,28 +7745,266 @@
       ],
       "fallbackFamilies": [
         {
+          "name": "substack-*",
+          "count": 1
+        },
+        {
+          "name": "youtube-*",
+          "count": 1
+        },
+        {
           "name": "youtube-alex-mercouris-*",
           "count": 1
         }
       ],
       "fileNames": [
+        "substack-pape-the-price-of-oil-is-the-real-iran-2026-05-27.md",
         "transcript-dialogue-works-scott-ritter-iran-hit-an-mq-9-russia-escalates-with-oreshnik-2026-05-27.md",
-        "youtube-hoh-dialogue-works-the-us-just-ran-out-of-cruise-missiles-what-happens-next-2026-05-27.md",
         "transcript-napolitano-sachs-trump-has-no-lifeline-out-of-iran-2026-05-27.md",
         "youtube-alex-mercouris-russia-plans-kiev-capture-prepares-next-strike-decision-centres-kiev-without-ad-zaporozhzhye-crisis-2026-05-27.md",
         "youtube-daniel-davis-deep-dive-iran-trump-has-no-good-military-options-fmr-cia-analyst-larry-johnson-2026-05-27.md",
         "youtube-daniel-davis-deep-dive-ukraine-russia-war-expansion-the-duran-s-alexander-mercouris-lt-col-daniel-davis-2026-05-27.md",
         "youtube-glenn-diesen-ray-mcgovern-russia-escalates-with-new-strategy-2026-05-27.md",
+        "youtube-hoh-dialogue-works-the-us-just-ran-out-of-cruise-missiles-what-happens-next-2026-05-27.md",
         "youtube-macgregor-mario-nawfal-trump-walks-back-on-deal-idf-to-flatten-beirut-2026-05-27.md",
-        "substack-pape-the-price-of-oil-is-the-real-iran-2026-05-27.md",
         "youtube-pape-breaking-points-iran-drivers-seat-shocking-deal-emerges-2026-05-27.md"
+      ],
+      "hasReadme": true,
+      "readmeParseOk": true
+    },
+    {
+      "date": "2026-05-28",
+      "fileCount": 14,
+      "channels": [
+        {
+          "name": "Judging Freedom",
+          "count": 4
+        },
+        {
+          "name": "Mario Nawfal",
+          "count": 3
+        },
+        {
+          "name": "Daniel Davis Deep Dive",
+          "count": 2
+        },
+        {
+          "name": "Dialogue Works",
+          "count": 2
+        },
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        },
+        {
+          "name": "Garland Nixon",
+          "count": 1
+        },
+        {
+          "name": "Switzerland with Tom Switzer",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Judging Freedom",
+          "count": 4
+        },
+        {
+          "name": "Mario Nawfal",
+          "count": 3
+        },
+        {
+          "name": "Daniel Davis Deep Dive",
+          "count": 2
+        },
+        {
+          "name": "Dialogue Works",
+          "count": 2
+        },
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        },
+        {
+          "name": "Garland Nixon",
+          "count": 1
+        },
+        {
+          "name": "Switzerland with Tom Switzer",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Andrew Napolitano",
+          "count": 4
+        },
+        {
+          "name": "Mario Nawfal",
+          "count": 3
+        },
+        {
+          "name": "Daniel Davis",
+          "count": 2
+        },
+        {
+          "name": "Nima Alkhorshid",
+          "count": 2
+        },
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        },
+        {
+          "name": "Garland Nixon",
+          "count": 1
+        },
+        {
+          "name": "Tom Switzer",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Alex Krainer",
+          "count": 1
+        },
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        },
+        {
+          "name": "Douglas Macgregor",
+          "count": 1
+        },
+        {
+          "name": "Jacques Baud",
+          "count": 1
+        },
+        {
+          "name": "Joe Kent",
+          "count": 1
+        },
+        {
+          "name": "John Mearsheimer",
+          "count": 1
+        },
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        },
+        {
+          "name": "Max Blumenthal",
+          "count": 1
+        },
+        {
+          "name": "Mohammad Marandi",
+          "count": 1
+        },
+        {
+          "name": "Robert Barnes",
+          "count": 1
+        },
+        {
+          "name": "Robert Pape",
+          "count": 1
+        },
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        },
+        {
+          "name": "Trita Parsi",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "barnes",
+          "count": 1
+        },
+        {
+          "name": "baud",
+          "count": 1
+        },
+        {
+          "name": "blumenthal",
+          "count": 1
+        },
+        {
+          "name": "kent",
+          "count": 1
+        },
+        {
+          "name": "krainer",
+          "count": 1
+        },
+        {
+          "name": "macgregor",
+          "count": 1
+        },
+        {
+          "name": "marandi",
+          "count": 1
+        },
+        {
+          "name": "martyanov",
+          "count": 1
+        },
+        {
+          "name": "mearsheimer",
+          "count": 1
+        },
+        {
+          "name": "mercouris",
+          "count": 1
+        },
+        {
+          "name": "pape",
+          "count": 1
+        },
+        {
+          "name": "parsi",
+          "count": 1
+        },
+        {
+          "name": "ritter",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "fallbackFamilies": [
+        {
+          "name": "youtube-alex-mercouris-*",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "transcript-davis-baud-europe-provokes-war-russia-2026-05-28.md",
+        "transcript-davis-mearsheimer-iran-ceasefire-hangs-by-a-thread-2026-05-28.md",
+        "transcript-dialogue-works-alex-krainer-iran-avoided-us-tanker-then-did-this-in-the-strait-of-hormuz-2026-05-28.md",
+        "transcript-dialogue-works-andrei-martyanov-hezbollah-hits-idf-us-iran-fight-and-russia-picked-that-moment-to-strike-2026-05-28.md",
+        "transcript-garland-nixon-scott-ritter-us-negotiations-detached-from-reality-kiev-targeted-2026-05-28.md",
+        "transcript-napolitano-blumenthal-israel-will-sabotage-a-trump-iran-deal-2026-05-28.md",
+        "transcript-napolitano-macgregor-iran-stronger-now-putin-takes-off-the-gloves-2026-05-28.md",
+        "transcript-napolitano-marandi-from-tehran-should-iran-trust-trump-2026-05-28.md",
+        "transcript-napolitano-wilkerson-what-remains-of-international-law-2026-05-28.md",
+        "transcript-nawfal-kent-trumps-life-is-under-threat-2026-05-28.md",
+        "transcript-nawfal-parsi-breaking-trump-iran-close-to-deal-2026-05-28.md",
+        "youtube-alex-mercouris-zelensky-panic-begs-trump-help-as-kiev-ad-runs-out-russia-confirms-oreshnik-to-destroy-kiev-bunkers-2026-05-28.md",
+        "youtube-barnes-mario-nawfal-reports-iran-attacks-u-s-ships-2026-05-28.md",
+        "youtube-pape-switzer-the-mirage-of-peace-2026-05-28.md"
       ],
       "hasReadme": true,
       "readmeParseOk": true
     }
   ],
   "artifacts": {
-    "markdown": "C:\\dev\\strategy-codex\\artifacts\\statecraft\\civ-lens\\slices\\scott-ritter.md",
-    "json": "C:\\dev\\strategy-codex\\artifacts\\statecraft\\civ-lens\\slices\\scott-ritter.json"
+    "markdown": "C:\\dev\\strategy-codex\\artifacts\\statecraft\\speakers\\slices\\scott-ritter.md",
+    "json": "C:\\dev\\strategy-codex\\artifacts\\statecraft\\speakers\\slices\\scott-ritter.json"
   }
 }

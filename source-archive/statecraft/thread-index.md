@@ -5,8 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_archive
 ## Stats
 
 - Distinct threads: `55`
-- Thread-linked source files: `1303`
-- Covered days: `408`
+- Thread-linked source files: `1307`
+- Covered days: `409`
 - Covered months: `17`
 
 ## Threads
@@ -29,7 +29,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_archive
 | `baud` | 12 | 11 | 5 | `Dialogue Works` (10), `Daniel Davis Deep Dive` (1) | `Nima Alkhorshid` (10), `Daniel Davis (host); Col. Jacques Baud (guest)` (1), `Daniel Davis` (1) | `2026-01-06` | `2026-05-28` |
 | `wilkerson` | 11 | 11 | 8 | `Dialogue Works` (4), `Judging Freedom` (3), `Mario Nawfal` (1) | `Andrew Napolitano` (6), `Nema` (2), `Nima` (1) | `2025-04-05` | `2026-05-28` |
 | `martyanov` | 10 | 9 | 5 | `Dialogue Works` (10) | `Nima Alkhorshid` (10) | `2026-01-01` | `2026-05-28` |
-| `macgregor` | 9 | 9 | 7 | `Judging Freedom` (2), `Judging Freedom (Judge Napolitano)` (1), `Mario Nawfal` (1) | `Andrew Napolitano` (7), `Mario Nawfal` (1) | `2025-11-13` | `2026-05-28` |
+| `macgregor` | 16 | 16 | 9 | `Judging Freedom` (9), `Judging Freedom (Judge Napolitano)` (1), `Mario Nawfal` (1) | `Andrew Napolitano` (14), `Mario Nawfal` (1) | `2025-01-16` | `2026-05-28` |
 | `jiang` | 8 | 6 | 1 | `Predictive History` (8) | `Jiang Xueqin` (8) | `2026-05-06` | `2026-05-26` |
 | `marandi` | 8 | 7 | 3 | `Dialogue Works` (4), `Judging Freedom` (1) | `Nima Alkhorshid` (4), `Andrew Napolitano` (1) | `2026-01-02` | `2026-05-28` |
 | `daniel-davis-deep-dive` | 7 | 4 | 4 | `Daniel Davis Deep Dive` (7) | `Daniel Davis` (7) | `2025-01-10` | `2025-04-10` |

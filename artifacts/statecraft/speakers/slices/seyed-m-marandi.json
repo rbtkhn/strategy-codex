@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0-statecraft-day-dashboard",
-  "generatedAt": "2026-05-28T16:16:14.509453+00:00",
+  "generatedAt": "2026-05-29T22:40:10.593045+00:00",
   "root": "C:\\dev\\strategy-codex\\source-archive\\statecraft",
   "query": {
     "channels": [],
@@ -100,12 +100,16 @@
         "count": 6
       },
       {
-        "name": "Diesen",
-        "count": 3
+        "name": "Judging Freedom",
+        "count": 6
       },
       {
-        "name": "Judging Freedom",
-        "count": 2
+        "name": "Predictive History",
+        "count": 4
+      },
+      {
+        "name": "Diesen",
+        "count": 3
       },
       {
         "name": "The Duran",
@@ -188,6 +192,10 @@
       {
         "name": "Diesen",
         "count": 5
+      },
+      {
+        "name": "Jiang Xueqin",
+        "count": 4
       },
       {
         "name": "Dialogue Works",
@@ -359,7 +367,7 @@
       },
       {
         "name": "mercouris",
-        "count": 30
+        "count": 31
       },
       {
         "name": "diesen",
@@ -392,6 +400,10 @@
       {
         "name": "parsi",
         "count": 5
+      },
+      {
+        "name": "jiang",
+        "count": 4
       },
       {
         "name": "marandi",
@@ -448,11 +460,11 @@
         "count": 21
       },
       {
-        "name": "transcript-napolitano-*",
-        "count": 8
+        "name": "predictive-history-*",
+        "count": 4
       },
       {
-        "name": "predictive-history-*",
+        "name": "transcript-napolitano-*",
         "count": 4
       },
       {
@@ -512,10 +524,6 @@
         "fallbackCount": 10
       },
       {
-        "date": "2026-05-26",
-        "fallbackCount": 8
-      },
-      {
         "date": "2026-03-31",
         "fallbackCount": 6
       },
@@ -537,6 +545,10 @@
       },
       {
         "date": "2026-05-23",
+        "fallbackCount": 4
+      },
+      {
+        "date": "2026-05-26",
         "fallbackCount": 4
       }
     ],
@@ -2799,6 +2811,10 @@
       ],
       "threads": [
         {
+          "name": "mercouris",
+          "count": 2
+        },
+        {
           "name": "crooke",
           "count": 1
         },
@@ -2808,10 +2824,6 @@
         },
         {
           "name": "diesen",
-          "count": 1
-        },
-        {
-          "name": "mercouris",
           "count": 1
         },
         {
@@ -3013,6 +3025,10 @@
         {
           "name": "Mario Nawfal",
           "count": 1
+        },
+        {
+          "name": "Predictive History",
+          "count": 1
         }
       ],
       "shows": [
@@ -3035,6 +3051,10 @@
         {
           "name": "Mario Nawfal",
           "count": 1
+        },
+        {
+          "name": "Predictive History",
+          "count": 1
         }
       ],
       "hosts": [
@@ -3048,6 +3068,10 @@
         },
         {
           "name": "Alexander Mercouris",
+          "count": 1
+        },
+        {
+          "name": "Jiang Xueqin",
           "count": 1
         },
         {
@@ -3093,6 +3117,10 @@
         {
           "name": "diesen",
           "count": 2
+        },
+        {
+          "name": "jiang",
+          "count": 1
         },
         {
           "name": "mercouris",
@@ -3405,6 +3433,10 @@
       "fileCount": 18,
       "channels": [
         {
+          "name": "Judging Freedom",
+          "count": 6
+        },
+        {
           "name": "Daniel Davis Deep Dive",
           "count": 3
         },
@@ -3413,8 +3445,8 @@
           "count": 3
         },
         {
-          "name": "Judging Freedom",
-          "count": 2
+          "name": "Predictive History",
+          "count": 3
         },
         {
           "name": "Alexander Mercouris",
@@ -3431,6 +3463,10 @@
       ],
       "shows": [
         {
+          "name": "Judging Freedom",
+          "count": 6
+        },
+        {
           "name": "Daniel Davis Deep Dive",
           "count": 3
         },
@@ -3439,8 +3475,8 @@
           "count": 3
         },
         {
-          "name": "Judging Freedom",
-          "count": 2
+          "name": "Predictive History",
+          "count": 3
         },
         {
           "name": "Alexander Mercouris",
@@ -3462,6 +3498,10 @@
         },
         {
           "name": "Daniel Davis",
+          "count": 3
+        },
+        {
+          "name": "Jiang Xueqin",
           "count": 3
         },
         {
@@ -3537,6 +3577,10 @@
           "count": 3
         },
         {
+          "name": "jiang",
+          "count": 3
+        },
+        {
           "name": "nima",
           "count": 3
         },
@@ -3575,10 +3619,6 @@
       ],
       "fallbackFamilies": [
         {
-          "name": "transcript-napolitano-*",
-          "count": 4
-        },
-        {
           "name": "predictive-history-*",
           "count": 3
         },
@@ -3588,6 +3628,9 @@
         }
       ],
       "fileNames": [
+        "predictive-history-game-theory-28-predictive-history-2026-05-26.md",
+        "predictive-history-gb-11-dantes-revolution-2026-05-26.md",
+        "predictive-history-gb-12-dante-in-paradise-2026-05-26.md",
         "transcript-alkorshid-barnes-us-iran-final-confrontation-as-russia-drops-heaviest-strikes-on-ukraine-yet-2026-05-26.md",
         "transcript-alkorshid-helmer-trumps-iran-deal-fails-russias-oreshnik-delivers-final-blow-2026-05-26.md",
         "transcript-alkorshid-marandi-iran-opens-fire-on-american-fighter-jets-2026-05-26.md",
@@ -3597,10 +3640,7 @@
         "transcript-napolitano-hoh-why-the-pentagon-lies-2026-05-26.md",
         "transcript-napolitano-johnson-trump-afraid-of-the-zionists-2026-05-26.md",
         "transcript-napolitano-mearsheimer-neocons-want-more-war-2026-05-26.md",
-        "predictive-history-gb-11-dantes-revolution-2026-05-26.md",
-        "predictive-history-gb-12-dante-in-paradise-2026-05-26.md",
         "transcript-napolitano-ritter-why-bother-to-negotiate-with-trump-2026-05-26.md",
-        "predictive-history-game-theory-28-predictive-history-2026-05-26.md",
         "youtube-alex-mercouris-russian-fiercest-warning-kiev-decision-centres-will-be-attacked-patience-exhausted-west-quit-kiev-2026-05-26.md",
         "youtube-daniel-davis-deep-dive-col-douglas-macgregor-u-s-strikes-iran-again-2026-05-26.md",
         "youtube-daniel-davis-deep-dive-scott-ritter-ukraine-the-death-of-a-nation-2026-05-26.md",
@@ -3612,7 +3652,7 @@
     }
   ],
   "artifacts": {
-    "markdown": "C:\\dev\\strategy-codex\\artifacts\\statecraft\\civ-lens\\slices\\seyed-m-marandi.md",
-    "json": "C:\\dev\\strategy-codex\\artifacts\\statecraft\\civ-lens\\slices\\seyed-m-marandi.json"
+    "markdown": "C:\\dev\\strategy-codex\\artifacts\\statecraft\\speakers\\slices\\seyed-m-marandi.md",
+    "json": "C:\\dev\\strategy-codex\\artifacts\\statecraft\\speakers\\slices\\seyed-m-marandi.json"
   }
 }

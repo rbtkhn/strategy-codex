@@ -10,13 +10,20 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Dougl
 - [youtube-daniel-davis-deep-dive-col-doug-macgregor-zelensky-s-lex-fridman-interview-2025-01-06](/C:/dev/strategy-codex/source-archive/statecraft/2025-01-06/youtube-daniel-davis-deep-dive-col-doug-macgregor-zelensky-s-lex-fridman-interview-2025-01-06.md)
 - [youtube-daniel-davis-deep-dive-col-doug-macgregor-zelensky-is-a-criminal-2025-01-12](/C:/dev/strategy-codex/source-archive/statecraft/2025-01-12/youtube-daniel-davis-deep-dive-col-doug-macgregor-zelensky-is-a-criminal-2025-01-12.md)
 - [youtube-daniel-davis-deep-dive-israel-has-become-an-arsonist-state-col-doug-macgregor-2025-01-12](/C:/dev/strategy-codex/source-archive/statecraft/2025-01-12/youtube-daniel-davis-deep-dive-israel-has-become-an-arsonist-state-col-doug-macgregor-2025-01-12.md)
+- [youtube-daniel-davis-deep-dive-col-douglas-macgregor-ukraine-war-reality-tightens-the-screws-on-trump-2025-01-16](/C:/dev/strategy-codex/source-archive/statecraft/2025-01-16/youtube-daniel-davis-deep-dive-col-douglas-macgregor-ukraine-war-reality-tightens-the-screws-on-trump-2025-01-16.md)
+- [transcript-napolitano-macgregor-trump-and-american-expansion-2025-01-16](/C:/dev/strategy-codex/source-archive/statecraft/2025-01-16/transcript-napolitano-macgregor-trump-and-american-expansion-2025-01-16.md)
+- [transcript-napolitano-macgregor-the-coming-world-war-iii-2025-01-23](/C:/dev/strategy-codex/source-archive/statecraft/2025-01-23/transcript-napolitano-macgregor-the-coming-world-war-iii-2025-01-23.md)
 - [youtube-daniel-davis-deep-dive-col-doug-macgregor-president-trump-time-to-get-out-of-the-ukraine-war-2025-01-19](/C:/dev/strategy-codex/source-archive/statecraft/2025-01-19/youtube-daniel-davis-deep-dive-col-doug-macgregor-president-trump-time-to-get-out-of-the-ukraine-war-2025-01-19.md)
 - [youtube-daniel-davis-deep-dive-col-doug-macgregor-trump-israel-the-latest-2025-01-28](/C:/dev/strategy-codex/source-archive/statecraft/2025-01-28/youtube-daniel-davis-deep-dive-col-doug-macgregor-trump-israel-the-latest-2025-01-28.md)
+- [transcript-napolitano-macgregor-trump-and-war-2025-01-29](/C:/dev/strategy-codex/source-archive/statecraft/2025-01-29/transcript-napolitano-macgregor-trump-and-war-2025-01-29.md)
 - [youtube-daniel-davis-deep-dive-col-doug-macgregor-what-has-all-our-effort-all-our-money-added-up-to-in-2025-01-29](/C:/dev/strategy-codex/source-archive/statecraft/2025-01-29/youtube-daniel-davis-deep-dive-col-doug-macgregor-what-has-all-our-effort-all-our-money-added-up-to-in-2025-01-29.md)
 
 ## 2025-02
 
-- no currently materialized Macgregor raw-input surfaces on disk for this month
+- [transcript-napolitano-macgregor-trump-and-his-oligarchs-2025-02-04](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-04/transcript-napolitano-macgregor-trump-and-his-oligarchs-2025-02-04.md)
+- [transcript-napolitano-macgregor-can-the-us-own-gaza-2025-02-06](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-06/transcript-napolitano-macgregor-can-the-us-own-gaza-2025-02-06.md)
+- [transcript-napolitano-macgregor-fall-of-the-american-empire-2025-02-11](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-11/transcript-napolitano-macgregor-fall-of-the-american-empire-2025-02-11.md)
+- [transcript-napolitano-macgregor-why-is-trump-arming-ukraine-2025-02-26](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-26/transcript-napolitano-macgregor-why-is-trump-arming-ukraine-2025-02-26.md)
 
 ## 2025-03
 

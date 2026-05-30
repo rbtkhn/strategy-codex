@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0-statecraft-day-dashboard",
-  "generatedAt": "2026-05-28T16:16:14.526028+00:00",
+  "generatedAt": "2026-05-29T22:40:10.700033+00:00",
   "root": "C:\\dev\\strategy-codex\\source-archive\\statecraft",
   "query": {
     "channels": [],
@@ -12,10 +12,10 @@
     "slug": "jacques-baud"
   },
   "coverage": {
-    "dayCount": 24,
-    "sourceFileCount": 150,
+    "dayCount": 25,
+    "sourceFileCount": 165,
     "firstDay": "2025-01-24",
-    "lastDay": "2026-05-25"
+    "lastDay": "2026-05-28"
   },
   "aggregates": {
     "topDays": [
@@ -25,6 +25,10 @@
       },
       {
         "date": "2026-04-20",
+        "sourceCount": 14
+      },
+      {
+        "date": "2026-05-28",
         "sourceCount": 14
       },
       {
@@ -54,10 +58,6 @@
       {
         "date": "2026-05-04",
         "sourceCount": 7
-      },
-      {
-        "date": "2026-01-06",
-        "sourceCount": 6
       }
     ],
     "quietDays": [
@@ -70,10 +70,6 @@
         "sourceCount": 1
       },
       {
-        "date": "2025-05-29",
-        "sourceCount": 2
-      },
-      {
         "date": "2025-06-22",
         "sourceCount": 2
       }
@@ -81,35 +77,39 @@
     "channels": [
       {
         "name": "Dialogue Works",
-        "count": 33
+        "count": 37
       },
       {
         "name": "Daniel Davis Deep Dive",
-        "count": 21
+        "count": 24
       },
       {
         "name": "Mercouris",
         "count": 15
       },
       {
-        "name": "Glenn Diesen",
-        "count": 13
+        "name": "Judging Freedom",
+        "count": 14
       },
       {
-        "name": "Judging Freedom",
-        "count": 10
+        "name": "Glenn Diesen",
+        "count": 13
       },
       {
         "name": "simplicius76.substack.com",
         "count": 8
       },
       {
+        "name": "Alexander Mercouris",
+        "count": 7
+      },
+      {
         "name": "escalationtrap.substack.com",
         "count": 6
       },
       {
-        "name": "Alexander Mercouris",
-        "count": 5
+        "name": "Mario Nawfal",
+        "count": 3
       },
       {
         "name": "Diesen (Greater Eurasia)",
@@ -128,7 +128,15 @@
         "count": 1
       },
       {
+        "name": "Garland Nixon",
+        "count": 1
+      },
+      {
         "name": "Jeffrey Sachs",
+        "count": 1
+      },
+      {
+        "name": "Switzerland with Tom Switzer",
         "count": 1
       },
       {
@@ -147,19 +155,19 @@
     "hosts": [
       {
         "name": "Nima Alkhorshid",
-        "count": 24
+        "count": 28
       },
       {
         "name": "Daniel Davis",
-        "count": 21
+        "count": 24
       },
       {
         "name": "Alexander Mercouris",
-        "count": 20
+        "count": 22
       },
       {
         "name": "Andrew Napolitano",
-        "count": 15
+        "count": 19
       },
       {
         "name": "Glenn Diesen",
@@ -172,6 +180,10 @@
       {
         "name": "Diesen",
         "count": 4
+      },
+      {
+        "name": "Mario Nawfal",
+        "count": 3
       },
       {
         "name": "Nima Alkorshid",
@@ -206,11 +218,19 @@
         "count": 1
       },
       {
+        "name": "Garland Nixon",
+        "count": 1
+      },
+      {
         "name": "Jeffrey Sachs",
         "count": 1
       },
       {
         "name": "Joe Lauria",
+        "count": 1
+      },
+      {
+        "name": "Tom Switzer",
         "count": 1
       },
       {
@@ -221,7 +241,7 @@
     "guests": [
       {
         "name": "Jacques Baud",
-        "count": 24
+        "count": 25
       },
       {
         "name": "Larry Johnson",
@@ -229,19 +249,19 @@
       },
       {
         "name": "Scott Ritter",
-        "count": 9
+        "count": 10
+      },
+      {
+        "name": "Alastair Crooke",
+        "count": 7
       },
       {
         "name": "Chas Freeman",
         "count": 7
       },
       {
-        "name": "Alastair Crooke",
-        "count": 6
-      },
-      {
         "name": "John Mearsheimer",
-        "count": 4
+        "count": 5
       },
       {
         "name": "Larry C. Johnson",
@@ -252,8 +272,24 @@
         "count": 3
       },
       {
+        "name": "Robert Barnes",
+        "count": 3
+      },
+      {
         "name": "Seyed M. Marandi",
         "count": 3
+      },
+      {
+        "name": "Trita Parsi",
+        "count": 3
+      },
+      {
+        "name": "Alex Krainer",
+        "count": 2
+      },
+      {
+        "name": "Douglas Macgregor",
+        "count": 2
       },
       {
         "name": "Ray McGovern",
@@ -264,27 +300,15 @@
         "count": 2
       },
       {
-        "name": "Robert Barnes",
-        "count": 2
-      },
-      {
-        "name": "Trita Parsi",
-        "count": 2
-      },
-      {
-        "name": "Alex Krainer",
-        "count": 1
-      },
-      {
         "name": "Alexander Mercouris",
         "count": 1
       },
       {
-        "name": "Anthony Aguilar",
+        "name": "Andrei Martyanov",
         "count": 1
       },
       {
-        "name": "Douglas Macgregor",
+        "name": "Anthony Aguilar",
         "count": 1
       },
       {
@@ -300,11 +324,27 @@
         "count": 1
       },
       {
+        "name": "Joe Kent",
+        "count": 1
+      },
+      {
         "name": "John Kiriakou",
         "count": 1
       },
       {
         "name": "Kyle Anzalone",
+        "count": 1
+      },
+      {
+        "name": "Lawrence Wilkerson",
+        "count": 1
+      },
+      {
+        "name": "Max Blumenthal",
+        "count": 1
+      },
+      {
+        "name": "Mohammad Marandi",
         "count": 1
       },
       {
@@ -321,6 +361,10 @@
       },
       {
         "name": "Pepe Escobar & Larry C. Johnson",
+        "count": 1
+      },
+      {
+        "name": "Robert Pape",
         "count": 1
       },
       {
@@ -355,11 +399,11 @@
     "threads": [
       {
         "name": "davis",
-        "count": 21
+        "count": 22
       },
       {
         "name": "mercouris",
-        "count": 20
+        "count": 22
       },
       {
         "name": "nima",
@@ -367,19 +411,23 @@
       },
       {
         "name": "diesen",
-        "count": 13
+        "count": 15
       },
       {
         "name": "baud",
-        "count": 11
+        "count": 12
       },
       {
         "name": "pape",
-        "count": 8
+        "count": 9
       },
       {
         "name": "simplicius",
         "count": 8
+      },
+      {
+        "name": "ritter",
+        "count": 7
       },
       {
         "name": "johnson",
@@ -387,10 +435,6 @@
       },
       {
         "name": "napolitano",
-        "count": 6
-      },
-      {
-        "name": "ritter",
         "count": 6
       },
       {
@@ -406,6 +450,10 @@
         "count": 3
       },
       {
+        "name": "parsi",
+        "count": 3
+      },
+      {
         "name": "alex-mercouris",
         "count": 2
       },
@@ -414,23 +462,7 @@
         "count": 2
       },
       {
-        "name": "parsi",
-        "count": 2
-      },
-      {
-        "name": "[davis, crooke]",
-        "count": 1
-      },
-      {
         "name": "[diesen, crooke]",
-        "count": 1
-      },
-      {
-        "name": "[diesen, mearsheimer]",
-        "count": 1
-      },
-      {
-        "name": "[diesen, ritter]",
         "count": 1
       },
       {
@@ -438,11 +470,43 @@
         "count": 1
       },
       {
+        "name": "barnes",
+        "count": 1
+      },
+      {
+        "name": "blumenthal",
+        "count": 1
+      },
+      {
         "name": "henningsen",
         "count": 1
       },
       {
+        "name": "kent",
+        "count": 1
+      },
+      {
+        "name": "krainer",
+        "count": 1
+      },
+      {
+        "name": "macgregor",
+        "count": 1
+      },
+      {
+        "name": "marandi",
+        "count": 1
+      },
+      {
+        "name": "martyanov",
+        "count": 1
+      },
+      {
         "name": "mcgovern",
+        "count": 1
+      },
+      {
+        "name": "mearsheimer",
         "count": 1
       },
       {
@@ -451,6 +515,10 @@
       },
       {
         "name": "sachs",
+        "count": 1
+      },
+      {
+        "name": "wilkerson",
         "count": 1
       }
     ],
@@ -461,11 +529,11 @@
       },
       {
         "name": "youtube-alex-mercouris-*",
-        "count": 17
+        "count": 19
       },
       {
         "name": "transcript-*",
-        "count": 13
+        "count": 12
       },
       {
         "name": "transcript-napolitano-*",
@@ -474,10 +542,6 @@
       {
         "name": "youtube-daniel-davis-deep-dive-*",
         "count": 3
-      },
-      {
-        "name": "transcript-alkorshid-*",
-        "count": 2
       },
       {
         "name": "youtube-dialogue-works-*",
@@ -560,12 +624,12 @@
         "fallbackCount": 4
       },
       {
-        "date": "2026-05-04",
+        "date": "2026-05-18",
         "fallbackCount": 4
       },
       {
-        "date": "2026-05-18",
-        "fallbackCount": 4
+        "date": "2025-05-29",
+        "fallbackCount": 2
       }
     ],
     "missingHostOrGuestDays": [],
@@ -831,8 +895,12 @@
     },
     {
       "date": "2025-05-29",
-      "fileCount": 2,
+      "fileCount": 3,
       "channels": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        },
         {
           "name": "Glenn Diesen",
           "count": 1
@@ -840,11 +908,19 @@
       ],
       "shows": [
         {
+          "name": "Alexander Mercouris",
+          "count": 1
+        },
+        {
           "name": "Glenn Diesen",
           "count": 1
         }
       ],
       "hosts": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        },
         {
           "name": "Glenn Diesen",
           "count": 1
@@ -868,16 +944,25 @@
         {
           "name": "diesen",
           "count": 1
+        },
+        {
+          "name": "mercouris",
+          "count": 1
         }
       ],
       "fallbackFamilies": [
         {
           "name": "transcript-*",
           "count": 1
+        },
+        {
+          "name": "youtube-alex-mercouris-*",
+          "count": 1
         }
       ],
       "fileNames": [
         "transcript-diesen-mearsheimer-mercouris-russia-won-the-war-2025-05-29.md",
+        "youtube-alex-mercouris-moscow-forces-2nd-istanbul-round-makes-huge-demands-to-us-on-nato-taurus-strikes-on-moscow-coming-2025-05-29.md",
         "youtube-glenn-diesen-col-jacques-baud-russia-pursues-military-solution-as-diplomacy-fails-2025-05-29.md"
       ],
       "hasReadme": true,
@@ -2681,12 +2766,12 @@
       "fileCount": 7,
       "channels": [
         {
-          "name": "Diesen (Greater Eurasia)",
-          "count": 2
+          "name": "Dialogue Works",
+          "count": 3
         },
         {
-          "name": "Dialogue Works",
-          "count": 1
+          "name": "Diesen (Greater Eurasia)",
+          "count": 2
         },
         {
           "name": "Mercouris",
@@ -2699,12 +2784,12 @@
       ],
       "shows": [
         {
-          "name": "Diesen (Greater Eurasia)",
-          "count": 2
+          "name": "Dialogue Works",
+          "count": 3
         },
         {
-          "name": "Dialogue Works",
-          "count": 1
+          "name": "Diesen (Greater Eurasia)",
+          "count": 2
         },
         {
           "name": "Mercouris",
@@ -2717,15 +2802,15 @@
       ],
       "hosts": [
         {
+          "name": "Nima Alkhorshid",
+          "count": 3
+        },
+        {
           "name": "Diesen",
           "count": 2
         },
         {
           "name": "Alexander Mercouris",
-          "count": 1
-        },
-        {
-          "name": "Nima Alkhorshid",
           "count": 1
         }
       ],
@@ -2753,16 +2838,12 @@
       ],
       "threads": [
         {
-          "name": "nima",
+          "name": "diesen",
           "count": 2
         },
         {
-          "name": "[diesen, mearsheimer]",
-          "count": 1
-        },
-        {
-          "name": "[diesen, ritter]",
-          "count": 1
+          "name": "nima",
+          "count": 2
         },
         {
           "name": "baud",
@@ -2778,10 +2859,6 @@
         }
       ],
       "fallbackFamilies": [
-        {
-          "name": "transcript-alkorshid-*",
-          "count": 2
-        },
         {
           "name": "substack-*",
           "count": 1
@@ -2816,6 +2893,10 @@
           "count": 1
         },
         {
+          "name": "Daniel Davis Deep Dive",
+          "count": 1
+        },
+        {
           "name": "Diesen - Greater Eurasia Podcast",
           "count": 1
         },
@@ -2834,6 +2915,10 @@
           "count": 1
         },
         {
+          "name": "Daniel Davis Deep Dive",
+          "count": 1
+        },
+        {
           "name": "Diesen - Greater Eurasia Podcast",
           "count": 1
         },
@@ -2845,6 +2930,10 @@
       "hosts": [
         {
           "name": "Alexander Mercouris",
+          "count": 1
+        },
+        {
+          "name": "Daniel Davis",
           "count": 1
         },
         {
@@ -2861,6 +2950,10 @@
         }
       ],
       "guests": [
+        {
+          "name": "Alastair Crooke",
+          "count": 1
+        },
         {
           "name": "Jacques Baud",
           "count": 1
@@ -2880,7 +2973,7 @@
           "count": 2
         },
         {
-          "name": "[davis, crooke]",
+          "name": "davis",
           "count": 1
         },
         {
@@ -2899,10 +2992,6 @@
       "fallbackFamilies": [
         {
           "name": "substack-*",
-          "count": 1
-        },
-        {
-          "name": "transcript-*",
           "count": 1
         },
         {
@@ -3247,10 +3336,240 @@
       ],
       "hasReadme": true,
       "readmeParseOk": true
+    },
+    {
+      "date": "2026-05-28",
+      "fileCount": 14,
+      "channels": [
+        {
+          "name": "Judging Freedom",
+          "count": 4
+        },
+        {
+          "name": "Mario Nawfal",
+          "count": 3
+        },
+        {
+          "name": "Daniel Davis Deep Dive",
+          "count": 2
+        },
+        {
+          "name": "Dialogue Works",
+          "count": 2
+        },
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        },
+        {
+          "name": "Garland Nixon",
+          "count": 1
+        },
+        {
+          "name": "Switzerland with Tom Switzer",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Judging Freedom",
+          "count": 4
+        },
+        {
+          "name": "Mario Nawfal",
+          "count": 3
+        },
+        {
+          "name": "Daniel Davis Deep Dive",
+          "count": 2
+        },
+        {
+          "name": "Dialogue Works",
+          "count": 2
+        },
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        },
+        {
+          "name": "Garland Nixon",
+          "count": 1
+        },
+        {
+          "name": "Switzerland with Tom Switzer",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Andrew Napolitano",
+          "count": 4
+        },
+        {
+          "name": "Mario Nawfal",
+          "count": 3
+        },
+        {
+          "name": "Daniel Davis",
+          "count": 2
+        },
+        {
+          "name": "Nima Alkhorshid",
+          "count": 2
+        },
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        },
+        {
+          "name": "Garland Nixon",
+          "count": 1
+        },
+        {
+          "name": "Tom Switzer",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Alex Krainer",
+          "count": 1
+        },
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        },
+        {
+          "name": "Douglas Macgregor",
+          "count": 1
+        },
+        {
+          "name": "Jacques Baud",
+          "count": 1
+        },
+        {
+          "name": "Joe Kent",
+          "count": 1
+        },
+        {
+          "name": "John Mearsheimer",
+          "count": 1
+        },
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        },
+        {
+          "name": "Max Blumenthal",
+          "count": 1
+        },
+        {
+          "name": "Mohammad Marandi",
+          "count": 1
+        },
+        {
+          "name": "Robert Barnes",
+          "count": 1
+        },
+        {
+          "name": "Robert Pape",
+          "count": 1
+        },
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        },
+        {
+          "name": "Trita Parsi",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "barnes",
+          "count": 1
+        },
+        {
+          "name": "baud",
+          "count": 1
+        },
+        {
+          "name": "blumenthal",
+          "count": 1
+        },
+        {
+          "name": "kent",
+          "count": 1
+        },
+        {
+          "name": "krainer",
+          "count": 1
+        },
+        {
+          "name": "macgregor",
+          "count": 1
+        },
+        {
+          "name": "marandi",
+          "count": 1
+        },
+        {
+          "name": "martyanov",
+          "count": 1
+        },
+        {
+          "name": "mearsheimer",
+          "count": 1
+        },
+        {
+          "name": "mercouris",
+          "count": 1
+        },
+        {
+          "name": "pape",
+          "count": 1
+        },
+        {
+          "name": "parsi",
+          "count": 1
+        },
+        {
+          "name": "ritter",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "fallbackFamilies": [
+        {
+          "name": "youtube-alex-mercouris-*",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "transcript-davis-baud-europe-provokes-war-russia-2026-05-28.md",
+        "transcript-davis-mearsheimer-iran-ceasefire-hangs-by-a-thread-2026-05-28.md",
+        "transcript-dialogue-works-alex-krainer-iran-avoided-us-tanker-then-did-this-in-the-strait-of-hormuz-2026-05-28.md",
+        "transcript-dialogue-works-andrei-martyanov-hezbollah-hits-idf-us-iran-fight-and-russia-picked-that-moment-to-strike-2026-05-28.md",
+        "transcript-garland-nixon-scott-ritter-us-negotiations-detached-from-reality-kiev-targeted-2026-05-28.md",
+        "transcript-napolitano-blumenthal-israel-will-sabotage-a-trump-iran-deal-2026-05-28.md",
+        "transcript-napolitano-macgregor-iran-stronger-now-putin-takes-off-the-gloves-2026-05-28.md",
+        "transcript-napolitano-marandi-from-tehran-should-iran-trust-trump-2026-05-28.md",
+        "transcript-napolitano-wilkerson-what-remains-of-international-law-2026-05-28.md",
+        "transcript-nawfal-kent-trumps-life-is-under-threat-2026-05-28.md",
+        "transcript-nawfal-parsi-breaking-trump-iran-close-to-deal-2026-05-28.md",
+        "youtube-alex-mercouris-zelensky-panic-begs-trump-help-as-kiev-ad-runs-out-russia-confirms-oreshnik-to-destroy-kiev-bunkers-2026-05-28.md",
+        "youtube-barnes-mario-nawfal-reports-iran-attacks-u-s-ships-2026-05-28.md",
+        "youtube-pape-switzer-the-mirage-of-peace-2026-05-28.md"
+      ],
+      "hasReadme": true,
+      "readmeParseOk": true
     }
   ],
   "artifacts": {
-    "markdown": "C:\\dev\\strategy-codex\\artifacts\\statecraft\\civ-lens\\slices\\jacques-baud.md",
-    "json": "C:\\dev\\strategy-codex\\artifacts\\statecraft\\civ-lens\\slices\\jacques-baud.json"
+    "markdown": "C:\\dev\\strategy-codex\\artifacts\\statecraft\\speakers\\slices\\jacques-baud.md",
+    "json": "C:\\dev\\strategy-codex\\artifacts\\statecraft\\speakers\\slices\\jacques-baud.json"
   }
 }
