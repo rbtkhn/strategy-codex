@@ -412,3 +412,153 @@ Statecraft now has both:
 - a reusable law for when a lane has earned bounded hardening
 - a measurable dashboard for checking whether the hardening is real
 - the four-lane audit that makes that hardening checkable rather than merely arguable
+
+## 2026-05-29 - Rome shelf materialization and era-complete bibliography hardening
+
+### Trigger
+
+The Rome CIV-STATE shelf had become strong enough to expose a new kind of statecraft problem.
+
+It was no longer merely underbuilt.
+
+It was uneven:
+
+- `Ancient` had a real source field but still needed tighter source-door precision and fuller late-antique weight
+- `Medieval` had a good branch map but too many generic buckets
+- `Colonial` was still mostly a placeholder architecture
+- `Industrial` was still mostly a placeholder architecture
+
+The live question became:
+
+- how does statecraft turn a suggestive civilizational shelf into a governed, era-complete source machine without flattening every era into one bibliography template
+
+### Extracted law
+
+The reusable law that emerged was:
+
+```text
+weak or uneven civilizational shelf
+-> define the era grammar
+-> replace thematic buckets with named source doors
+-> equalize branch seriousness across eras
+-> expand scale only after the architecture is real
+```
+
+Or stated more sharply:
+
+```text
+Statecraft should not solve a thin civilizational shelf by adding more sources first.
+It should first decide what each era is,
+then make the sources answer to that era grammar,
+then scale the shelf to parity.
+```
+
+### Reapplication
+
+This law was not proven once.
+
+It was applied repeatedly across the Rome shelf:
+
+- `Ancient` -> tightened source-door precision, then expanded from `40` to `50`
+- `Medieval` -> replaced weak generic buckets with named doors, then expanded France to functional parity and the era to `50`
+- `Colonial` -> converted a placeholder retrieval sketch into a full `50`-source fractured-successor field
+- `Industrial` -> converted a placeholder retrieval sketch into a `50`-source Latin-Catholic world-civilization field under fractured sovereignty
+
+The same pattern survived each move:
+
+- define the era
+- define the branches
+- make the doors real
+- only then enlarge the shelf
+
+### Structural changes
+
+This learning event changed Rome statecraft in five durable ways.
+
+#### 1. Rome became era-complete
+
+The four main eras are now all built at the same serious scale:
+
+- `Ancient = 50`
+- `Medieval = 50`
+- `Colonial = 50`
+- `Industrial = 50`
+
+That is not just more content.
+
+It is parity of evidentiary seriousness.
+
+#### 2. Rome became branch-legible
+
+Each era now carries its own explicit civilizational grammar:
+
+- `Ancient` = formation
+- `Medieval` = transformed continuity
+- `Colonial` = fractured successor contest
+- `Industrial` = Latin-Catholic world civilization under fractured sovereignty
+
+This means Rome is no longer a chronology with shelves.
+
+It is a governed multi-era object.
+
+#### 3. Statecraft clarified a source-door hardening law
+
+The practical rule is now clearer:
+
+```text
+named doors beat atmospheric buckets
+unless one title would falsely narrow the branch
+```
+
+This is reusable beyond Rome.
+
+It is a real shelf-hardening law for future civilization-state volumes.
+
+#### 4. Civilizational scale no longer defaults to Europe-tight residue
+
+The Rome work forced a structural widening:
+
+- France rose to coequal weight in `Medieval` and `Colonial`
+- `Industrial` widened into a transatlantic Latin-Catholic carrier field
+- Spain, Brazil, Mexico, and Argentina became explicit industrial carriers rather than peripheral afterthoughts
+
+So the Rome shelf taught statecraft how a civilization can survive through dispersed carriers rather than through one central polity.
+
+#### 5. Retrieval language became architecture-bearing
+
+The retrieval blocks stopped being decorative summaries.
+
+They now name the era grammar explicitly enough to guide later drafting, chapter architecture, and transaction retrieval.
+
+That is a real interface gain, not just better prose.
+
+### Guardrail
+
+The guardrail is decisive:
+
+```text
+era parity is not license for era flattening
+```
+
+A valid shelf-materialization event must preserve both:
+
+- cross-era structural seriousness
+- each era's own civilizational function
+
+If a future civilization shelf simply copies:
+
+- one entry count
+- one branch count
+- one retrieval cadence
+
+without first deciding what the civilization's own eras are doing, the learning event has been imitated but not learned.
+
+### Current lesson
+
+Statecraft now knows more clearly how to turn a civilizational shelf:
+
+- from a suggestive notebook
+- into a named-door source architecture
+- into an era-complete retrieval machine
+
+without losing the specific historical work each era is supposed to do.
