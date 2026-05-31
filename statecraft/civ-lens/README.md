@@ -186,10 +186,35 @@ For these shelves:
 - provenance bench and host-local arcs remain the real month-entry layer
 - migration should not proceed by symmetry alone
 
+Read this class as a **governed migration exception**, not as a weaker shelf.
+
+Its constitutional pattern is:
+
+- the speaker is fully first-class
+- the statecraft-side shelf is canonical
+- host-local chronology remains truer than a native month ladder
+- heavier support may remain linked from legacy shelves while the statecraft front door and core speaker grammar migrate first
+
+In other words:
+
+`canonical shelf authority can migrate before chronology ownership migrates`
+
 Current deliberate case:
 
 - [Mearsheimer](mearsheimer/README.md)
 - [Wilkerson](wilkerson/README.md)
+
+Why they belong together:
+
+- both are mature enough to deserve canonical `statecraft/civ-lens` shelves
+- both are best entered through stable host transformations rather than speaker-native month pages
+- both widen beyond one host, but not in a way that makes a normalized month ladder the cleanest constitutional form
+- both now use the same migration pattern:
+  - statecraft-side `README`, `index`, `arc`, and `routing` first
+  - then statecraft-side `helix` and support doorway surfaces
+  - linked legacy shelf support retained until a fuller transfer pass is genuinely clearer than the current host-led chronology
+
+This is why `Mearsheimer` and `Wilkerson` should be read as a **class**, not as two isolated special pleas.
 
 ### 5. Starter exception shelves
 
@@ -230,3 +255,4 @@ Instead:
 - normalize where the shelf truly wants a canonical month ladder
 - preserve cross-context shelves where source-class crossing is primary
 - preserve host-led mature-month exception shelves where month ownership still belongs to host arcs and the non-core bench
+- let canonical statecraft-side authority migrate first, then migrate heavier support only where that second step makes chronology and retrieval cleaner rather than merely more symmetrical
