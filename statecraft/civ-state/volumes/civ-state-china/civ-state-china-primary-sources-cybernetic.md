@@ -16,7 +16,6 @@ This file contains the Cybernetic primary-source shelf for the China CIV-STATE v
 - Party regulations on central leadership and cadre discipline under Xi
 - National supervision and anti-corruption institutional texts where they directly carry centralized order
 - Civil-military fusion and whole-of-nation mobilization texts where they directly carry rejuvenation and control
-- Macau Basic Law (æ¾³é—¨ç‰¹åˆ«è¡Œæ”¿åŒºåŸºæœ¬æ³•)
 
 #### Digital Governance, Security, and Administrative Concentration
 
@@ -33,7 +32,6 @@ This file contains the Cybernetic primary-source shelf for the China CIV-STATE v
 
 - White Paper on China's National Defense in the New Era (æ–°æ—¶ä»£çš„ä¸­å›½å›½é˜²)
 - PRC foreign-policy community with a shared future / global initiative texts where they directly carry present order doctrine
-- Joint statements and strategic coordination texts with Russia where they directly bear axis optionality
 - PRC documents on the Belt and Road where they directly carry corridor security and outward order
 - Taiwan Strait military and sovereignty white papers where they directly carry sea-facing order
 - South China Sea position papers where they directly carry maritime sovereignty logic
@@ -52,3 +50,8 @@ This file contains the Cybernetic primary-source shelf for the China CIV-STATE v
 - Japan as the major late pressure-carrier through occupation and Manchurian shock
 - Russia as a distributed frontier and strategic-partner factor, especially through Manchuria and continental geometry
 - cybernetic rejuvenation through party-state doctrine, security, and administrative concentration
+
+## Deferred Candidates (Not Counted Toward the 25-Source Shelf)
+
+- Macau Basic Law (æ¾³é—¨ç‰¹åˆ«è¡Œæ”¿åŒºåŸºæœ¬æ³•)
+- Joint statements and strategic coordination texts with Russia where they directly bear axis optionality

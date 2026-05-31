@@ -48,6 +48,28 @@ STALE_PATTERNS = [
 ]
 
 
+def count_primary_source_entries(text: str) -> int:
+    count = 0
+    in_primary = False
+    for raw in text.splitlines():
+        line = raw.strip()
+        if line == "## Primary Sources":
+            in_primary = True
+            continue
+        if not in_primary:
+            continue
+        if line.startswith("## Retrieval Priority") or "retrieval priority:" in line.lower():
+            break
+        if re.match(r"^\d+\.\s+", line):
+            count += 1
+            continue
+        if line.startswith("- "):
+            item = line[2:].strip()
+            if item and not item.endswith(":"):
+                count += 1
+    return count
+
+
 def read_text(path: Path) -> str:
     return path.read_text(encoding="utf-8")
 
@@ -93,6 +115,9 @@ def validate() -> list[dict[str, str]]:
         cybernetic_path = volume_dir / f"{volume}-primary-sources-cybernetic.md"
         if cybernetic_path.exists():
             cybernetic_text = read_text(cybernetic_path)
+            cybernetic_count = count_primary_source_entries(cybernetic_text)
+            if cybernetic_count != 25:
+                issues.append({"path": str(cybernetic_path.relative_to(REPO_ROOT)), "level": "error", "message": f"Cybernetic shelf must contain exactly 25 primary-source entries, found {cybernetic_count}"})
             if "post-1991" not in cybernetic_text and "after the 1991 industrial endpoint" not in cybernetic_text and "1991 as industrial endpoint" not in cybernetic_text:
                 issues.append({"path": str(cybernetic_path.relative_to(REPO_ROOT)), "level": "error", "message": "Cybernetic shelf does not state its post-1991 opening clearly"})
 

@@ -8,13 +8,11 @@ This file contains the Cybernetic primary-source shelf for the Persia CIV-STATE 
 - Rafsanjani reconstruction speeches and policy documents after 1991
 - Khatami, "Dialogue Among Civilizations" UN speech
 - Tehran Declaration (2003)
-- Bushehr nuclear cooperation agreements
 - Twenty-Year Vision of the Islamic Republic of Iran
 - General Policies of Resistance Economy
 - JCPOA
 - Khamenei, "Heroic Flexibility" speech
 - Law on Strategic Action to Lift Sanctions and Protect the Nation's Interests
-- Resistance-economy implementation directives
 - National development and sanctions-survival planning documents
 - Iran-China 25-Year Cooperation Program
 - Hormuz Peace Endeavor (HOPE)
@@ -29,7 +27,6 @@ This file contains the Cybernetic primary-source shelf for the Persia CIV-STATE 
 - Friday-prayer and Ashura state-legitimacy speeches after major crisis moments
 - State martyrdom and shrine-policy declarations
 - Election-legitimacy and guardianship statements from the Guardian Council system
-- Mojtaba/Khamenei-era continuity and succession-adjacent state texts where they directly bear durability
 
 #### Gulf, Hormuz, and Regional Network Leverage
 
@@ -38,7 +35,6 @@ This file contains the Cybernetic primary-source shelf for the Persia CIV-STATE 
 - Saudi-Iran-Beijing Joint Trilateral Statement (2023)
 - Regional deterrence and network-security communiques tied to the Gulf theater
 - IRGC Navy doctrine statements on asymmetric maritime denial
-- Gulf shipping, insurance, and sanctions-response declarations
 - Caspian-Gulf-regional transit and leverage documents where they directly bear survivable sovereignty
 
 Cybernetic retrieval priority:
@@ -47,3 +43,10 @@ Cybernetic retrieval priority:
 - China as optional economic exit and low-trauma partner
 - Russia as bounded tactical counterpart, never a clean ally-memory
 - sacred legitimacy, durability, and regime survival under permanent pressure
+
+## Deferred Candidates (Not Counted Toward the 25-Source Shelf)
+
+- Bushehr nuclear cooperation agreements
+- Resistance-economy implementation directives
+- Mojtaba/Khamenei-era continuity and succession-adjacent state texts where they directly bear durability
+- Gulf shipping, insurance, and sanctions-response declarations
