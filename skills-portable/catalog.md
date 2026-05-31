@@ -221,6 +221,25 @@ Canonical method: [skills-portable/statecraft-helix-synthesis/SKILL.md](statecra
 
 ---
 
+## civ-state-primary-text-acquisition
+
+- **What it is**
+  - A narrow rights-first acquisition skill for turning CIV-STATE source doors into structured source records, bounded excerpts, and lawful sidecar full-text objects.
+- **When to use it**
+  - Use when a bibliography entry needs witness locking, translation discipline, rights classification, or lawful verbatim text support.
+- **Inputs you'll need**
+  - Civilization, era, branch, target source, likely witness candidates, and the current CIV-STATE source-record architecture.
+- **What you get**
+  - A stable `source_id`, a source-record decision, a storage-class decision, and a disciplined path to excerpt or full-text storage.
+- **Boundary**
+  - Does not become a generic archive crawler, does not dump bulk text into bibliography files, and narrows quickly when rights are unclear.
+- **Current status**
+  - `promoted`
+
+Canonical method: [skills-portable/civ-state-primary-text-acquisition/SKILL.md](civ-state-primary-text-acquisition/SKILL.md)
+
+---
+
 ## arc-to-chapter-seeds
 
 - **What it is**

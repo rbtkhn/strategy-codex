@@ -150,3 +150,4 @@ These figures are explanatory companions to the apparatus law, not citation auth
 - [Index](index.md)
 - [Source Retrieval Matrix](indexes/source-retrieval-matrix.md)
 - [PH-CIV to CIV-STATE Bridge](ph-civ-to-civ-state-bridge.md)
+- [Primary-Text Architecture](primary-text-architecture.md)

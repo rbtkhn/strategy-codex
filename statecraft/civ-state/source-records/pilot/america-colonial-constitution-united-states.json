@@ -1,0 +1,29 @@
+{
+  "source_id": "america-colonial-constitution-united-states",
+  "civilization": "america",
+  "era": "colonial",
+  "branch": "Constitutional founding and Federalist machine",
+  "title": "Constitution of the United States",
+  "author_or_body": "United States Constitutional Convention / United States",
+  "source_type": "constitution",
+  "date_or_range": "1787",
+  "original_language": "English",
+  "target_language": "English",
+  "witness_type": "official_text",
+  "canonical_witness": {
+    "label": "National Archives transcription of the Constitution",
+    "language": "English",
+    "locator": "https://www.archives.gov/founding-docs/constitution-transcript"
+  },
+  "working_translation": null,
+  "alternate_translations": [],
+  "rights_class": "official_government_text",
+  "storage_class": "excerpt_only",
+  "acquisition_method": "manual_first_official_excerpt_lock",
+  "witness_locator": "https://www.archives.gov/founding-docs/constitution-transcript",
+  "sidecar_locator": "",
+  "canonical_excerpt_available": true,
+  "full_text_available": false,
+  "validation_status": "spot_checked",
+  "notes": "Pilot official legal text. Used to demonstrate legal-doctrinal excerpting from an official witness without claiming bulk local storage in the first pass."
+}

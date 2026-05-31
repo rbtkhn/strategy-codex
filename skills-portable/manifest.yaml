@@ -184,6 +184,13 @@ skills:
     verify_forbidden_substrings:
       - users/grace-mar/
       - process_approved_candidates
+  - name: civ-state-primary-text-acquisition
+    source: civ-state-primary-text-acquisition/SKILL.md
+    appendix: .cursor/skills/civ-state-primary-text-acquisition/CURSOR_APPENDIX.md
+    target: .cursor/skills/civ-state-primary-text-acquisition/SKILL.md
+    verify_forbidden_substrings:
+      - users/grace-mar/
+      - process_approved_candidates
   - name: statecraft-framework
     source: statecraft-framework/SKILL.md
     appendix: .cursor/skills/statecraft-framework/CURSOR_APPENDIX.md

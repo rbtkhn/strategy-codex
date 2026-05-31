@@ -1,0 +1,29 @@
+{
+  "source_id": "america-industrial-gettysburg-address",
+  "civilization": "america",
+  "era": "industrial",
+  "branch": "Union preservation, Civil War, and reconstructed sovereignty",
+  "title": "Gettysburg Address",
+  "author_or_body": "Abraham Lincoln",
+  "source_type": "speech",
+  "date_or_range": "1863-11-19",
+  "original_language": "English",
+  "target_language": "English",
+  "witness_type": "academic_text",
+  "canonical_witness": {
+    "label": "Avalon Project text of the Gettysburg Address",
+    "language": "English",
+    "locator": "https://avalon.law.yale.edu/19th_century/gettyb.asp"
+  },
+  "working_translation": null,
+  "alternate_translations": [],
+  "rights_class": "public_domain",
+  "storage_class": "excerpt_only",
+  "acquisition_method": "manual_first_public_domain_excerpt_lock",
+  "witness_locator": "https://avalon.law.yale.edu/19th_century/gettyb.asp",
+  "sidecar_locator": "",
+  "canonical_excerpt_available": true,
+  "full_text_available": false,
+  "validation_status": "spot_checked",
+  "notes": "Pilot narrative carrier for the balanced-pair excerpt logic. Stored as excerpt-only in the first pass even though the text is public domain."
+}

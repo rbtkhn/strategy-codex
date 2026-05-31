@@ -1,0 +1,34 @@
+{
+  "source_id": "russia-medieval-primary-chronicle-cross-sherbowitz-wetzor",
+  "civilization": "russia",
+  "era": "medieval",
+  "branch": "Kievan opening and chronicle-bearing Rus'",
+  "title": "The Russian Primary Chronicle: Laurentian Text",
+  "author_or_body": "Samuel Hazzard Cross and Olgerd P. Sherbowitz-Wetzor, trans. and ed.",
+  "source_type": "chronicle_translation",
+  "date_or_range": "1953",
+  "original_language": "Old East Slavic",
+  "target_language": "English",
+  "witness_type": "academic_text",
+  "canonical_witness": {
+    "label": "Cross and Sherbowitz-Wetzor translation witness",
+    "language": "English",
+    "locator": "https://www.mgh-bibliothek.de/dokumente/a/a011458.pdf"
+  },
+  "working_translation": {
+    "label": "Cross and Sherbowitz-Wetzor working translation",
+    "language": "English",
+    "translator": "Samuel Hazzard Cross and Olgerd P. Sherbowitz-Wetzor",
+    "locator": "https://www.mgh-bibliothek.de/dokumente/a/a011458.pdf"
+  },
+  "alternate_translations": [],
+  "rights_class": "modern_translation_restricted",
+  "storage_class": "metadata_only",
+  "acquisition_method": "manual_first_restricted_translation_lock",
+  "witness_locator": "https://www.mgh-bibliothek.de/dokumente/a/a011458.pdf",
+  "sidecar_locator": "",
+  "canonical_excerpt_available": false,
+  "full_text_available": false,
+  "validation_status": "unvalidated",
+  "notes": "Pilot restricted-translation case. Kept metadata-only in the first pass to demonstrate rights-first narrowing rather than mirroring."
+}
