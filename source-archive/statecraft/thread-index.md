@@ -5,16 +5,16 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_archive
 ## Stats
 
 - Distinct threads: `56`
-- Thread-linked source files: `1339`
-- Covered days: `413`
+- Thread-linked source files: `1348`
+- Covered days: `415`
 - Covered months: `17`
 
 ## Threads
 
 | Thread | Files | Days | Months | Top channels/shows | Top hosts | First day | Last day |
 | --- | ---: | ---: | ---: | --- | --- | --- | --- |
-| `mercouris` | 303 | 280 | 17 | `Mercouris` (188), `Alexander Mercouris` (100), `The Duran` (5) | `Alexander Mercouris` (287), `Alex Christoforou` (3), `Alex Christoforu` (1) | `2025-01-03` | `2026-05-28` |
-| `davis` | 210 | 114 | 15 | `Daniel Davis Deep Dive` (188), `Deep Dive` (2), `Dialogue Works` (2) | `Daniel Davis` (188), `Daniel Davis / Deep Dive` (6), `Nima Alkhorshid` (2) | `2025-01-01` | `2026-05-29` |
+| `mercouris` | 304 | 281 | 17 | `Mercouris` (188), `Alexander Mercouris` (101), `The Duran` (5) | `Alexander Mercouris` (288), `Alex Christoforou` (3), `Alex Christoforu` (1) | `2025-01-03` | `2026-05-30` |
+| `davis` | 211 | 115 | 15 | `Daniel Davis Deep Dive` (189), `Deep Dive` (2), `Dialogue Works` (2) | `Daniel Davis` (189), `Daniel Davis / Deep Dive` (6), `Nima Alkhorshid` (2) | `2025-01-01` | `2026-05-30` |
 | `diesen` | 160 | 136 | 17 | `Glenn Diesen` (105), `Diesen` (9), `Glenn Diesen - Greater Eurasia Podcast` (5) | `Glenn Diesen` (140), `Diesen` (14) | `2025-01-10` | `2026-05-27` |
 | `nima` | 145 | 118 | 15 | `Dialogue Works` (125) | `Nima Alkhorshid` (118), `Nima Alkorshid` (21), `Dialogue Works` (5) | `2025-01-04` | `2026-05-26` |
 | `freeman` | 81 | 80 | 17 | `Judging Freedom` (39), `Dialogue Works` (30), `Glenn Diesen` (3) | `Andrew Napolitano` (45), `Nima Alkhorshid` (16), `Nema` (13) | `2025-01-07` | `2026-05-29` |
@@ -23,14 +23,14 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_archive
 | `napolitano` | 45 | 37 | 14 | `Judging Freedom` (45) | `Andrew Napolitano` (45) | `2025-01-08` | `2026-05-27` |
 | `ritter` | 39 | 37 | 7 | `Dialogue Works` (3), `Judging Freedom` (2), `Let's Talk Geopolitics` (1) | `Andrew Napolitano` (7), `Nima Alkhorshid` (3), `Cyrus Janssen` (1) | `2025-11-04` | `2026-05-28` |
 | `macgregor` | 37 | 34 | 13 | `Judging Freedom` (18), `Daniel Davis Deep Dive` (9), `Tucker Carlson` (1) | `Andrew Napolitano` (23), `Daniel Davis` (9), `Tucker Carlson` (1) | `2025-01-16` | `2026-05-29` |
-| `crooke` | 28 | 28 | 5 | `Judging Freedom` (2) | `Andrew Napolitano` (2) | `2026-01-08` | `2026-05-26` |
+| `crooke` | 29 | 29 | 5 | `Judging Freedom` (2), `Glenn Diesen` (1) | `Andrew Napolitano` (2), `Glenn Diesen` (1) | `2026-01-08` | `2026-05-30` |
 | `johnson` | 21 | 19 | 7 | `Dialogue Works` (7), `Mario Nawfal` (2), `Judging Freedom` (2) | `Andrew Napolitano` (7), `Nima Alkhorshid` (6), `Mario Nawfal` (2) | `2025-11-24` | `2026-05-29` |
 | `parsi` | 18 | 18 | 5 | `substack.com/@tritaparsi` (11), `responsiblestatecraft.org` (1), `tritaparsi.substack.com` (1) | `Mario Nawfal` (1) | `2026-01-09` | `2026-05-28` |
 | `mearsheimer` | 16 | 16 | 9 | `mearsheimer.substack.com` (2), `Americano` (1), `Counterpoints` (1) | `Andrew Napolitano` (9), `Daniel Davis` (2), `Freddy Gray` (1) | `2025-02-12` | `2026-05-28` |
 | `baud` | 12 | 11 | 5 | `Dialogue Works` (10), `Daniel Davis Deep Dive` (1) | `Nima Alkhorshid` (10), `Daniel Davis (host); Col. Jacques Baud (guest)` (1), `Daniel Davis` (1) | `2026-01-06` | `2026-05-28` |
 | `wilkerson` | 11 | 11 | 8 | `Dialogue Works` (4), `Judging Freedom` (3), `Mario Nawfal` (1) | `Andrew Napolitano` (6), `Nema` (2), `Nima` (1) | `2025-04-05` | `2026-05-28` |
+| `marandi` | 10 | 9 | 3 | `Dialogue Works` (5), `Judging Freedom` (1), `India and Global Left` (1) | `Nima Alkhorshid` (5), `Andrew Napolitano` (1), `Judish Raj` (1) | `2026-01-02` | `2026-05-30` |
 | `martyanov` | 10 | 9 | 5 | `Dialogue Works` (10) | `Nima Alkhorshid` (10) | `2026-01-01` | `2026-05-28` |
-| `marandi` | 9 | 8 | 3 | `Dialogue Works` (4), `Judging Freedom` (1), `India and Global Left` (1) | `Nima Alkhorshid` (4), `Andrew Napolitano` (1), `Judish Raj` (1) | `2026-01-02` | `2026-05-29` |
 | `jiang` | 8 | 6 | 1 | `Predictive History` (8) | `Jiang Xueqin` (8) | `2026-05-06` | `2026-05-26` |
 | `daniel-davis-deep-dive` | 7 | 4 | 4 | `Daniel Davis Deep Dive` (7) | `Daniel Davis` (7) | `2025-01-10` | `2025-04-10` |
 | `dialogue-works` | 7 | 3 | 2 | `Dialogue Works` (7) | `Dialogue Works` (5), `Nima Alkhorshid` (2) | `2025-07-20` | `2026-03-16` |
@@ -42,11 +42,11 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_archive
 | `glenn-diesen` | 3 | 2 | 2 | `Glenn Diesen` (3) | `Glenn Diesen` (3) | `2025-09-20` | `2025-10-20` |
 | `hoh` | 3 | 3 | 1 | `Dialogue Works` (2), `Judging Freedom` (1) | `Nima Alkhorshid` (2), `Andrew Napolitano` (1) | `2026-05-20` | `2026-05-27` |
 | `kent` | 3 | 3 | 2 | `Mario Nawfal` (2), `Tucker Carlson` (1) | `Mario Nawfal` (2), `Tucker Carlson` (1) | `2026-03-18` | `2026-05-28` |
+| `krainer` | 3 | 3 | 1 | `Dialogue Works` (2), `Glenn Diesen` (1) | `Nima Alkhorshid` (2), `Glenn Diesen` (1) | `2026-05-21` | `2026-05-30` |
+| `mcgovern` | 3 | 3 | 1 | `Dialogue Works` (2), `Judging Freedom` (1) | `Nima Alkhorshid` (2), `Andrew Napolitano` (1) | `2026-05-18` | `2026-05-30` |
 | `sachs` | 3 | 3 | 2 | `Jeffrey Sachs` (2), `Judging Freedom` (1) | `Jeffrey Sachs` (2), `Andrew Napolitano` (1) | `2025-11-05` | `2026-05-29` |
 | `[davis, baud]` | 2 | 2 | 1 | `Daniel Davis Deep Dive` (1) | (none) | `2026-03-12` | `2026-03-31` |
 | `blumenthal` | 2 | 2 | 1 | `Judging Freedom` (2) | `Andrew Napolitano` (2) | `2026-05-20` | `2026-05-28` |
-| `krainer` | 2 | 2 | 1 | `Dialogue Works` (2) | `Nima Alkhorshid` (2) | `2026-05-21` | `2026-05-28` |
-| `mcgovern` | 2 | 2 | 1 | `Judging Freedom` (1), `Dialogue Works` (1) | `Andrew Napolitano` (1), `Nima Alkhorshid` (1) | `2026-05-18` | `2026-05-20` |
 | `[davis, crooke]` | 1 | 1 | 1 | (none) | (none) | `2026-04-23` | `2026-04-23` |
 | `[davis, diesen]` | 1 | 1 | 1 | (none) | (none) | `2026-03-11` | `2026-03-11` |
 | `[davis, johnson]` | 1 | 1 | 1 | (none) | (none) | `2026-03-11` | `2026-03-11` |
