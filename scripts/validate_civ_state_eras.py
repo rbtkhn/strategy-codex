@@ -33,6 +33,14 @@ REQUIRED_SHELF_READER_HEADINGS = [
     "## Where To Go Next",
 ]
 
+REQUIRED_SECONDARY_HEADINGS = [
+    "## What This Secondary Shelf Is For",
+    "## Core Clarifiers",
+    "## Counterweights And Corrections",
+    "## Use Rule",
+    "## Where To Go Next",
+]
+
 DOCTRINE_FILES = [
     REPO_ROOT / "statecraft" / "README.md",
     REPO_ROOT / "statecraft" / "civ-state" / "README.md",
@@ -70,6 +78,21 @@ def count_primary_source_entries(text: str) -> int:
     return count
 
 
+def extract_section(text: str, heading: str) -> str:
+    pattern = rf"^{re.escape(heading)}\s*$"
+    match = re.search(pattern, text, re.MULTILINE)
+    if not match:
+        return ""
+    start = match.end()
+    next_heading = re.search(r"^##\s+", text[start:], re.MULTILINE)
+    end = start + next_heading.start() if next_heading else len(text)
+    return text[start:end].strip()
+
+
+def expected_secondary_paths(volume: str, eras: list[str]) -> list[str]:
+    return [f"{volume}-secondary-sources-{era}.md" for era in eras]
+
+
 def read_text(path: Path) -> str:
     return path.read_text(encoding="utf-8")
 
@@ -96,15 +119,45 @@ def validate() -> list[dict[str, str]]:
             for heading in REQUIRED_SHELF_READER_HEADINGS:
                 if heading not in shelf_text:
                     issues.append({"path": str(shelf_reader.relative_to(REPO_ROOT)), "level": "error", "message": f"Missing required shelf-reader heading: {heading}"})
+            if "secondary-sources" not in shelf_text:
+                issues.append({"path": str(shelf_reader.relative_to(REPO_ROOT)), "level": "error", "message": "Shelf-reader does not mention the secondary-sources layer"})
 
         for era in eras:
             era_path = volume_dir / f"{volume}-primary-sources-{era}.md"
             if not era_path.exists():
                 issues.append({"path": str(era_path.relative_to(REPO_ROOT)), "level": "error", "message": f"Missing {era} primary-sources file"})
 
+            secondary_path = volume_dir / f"{volume}-secondary-sources-{era}.md"
+            if not secondary_path.exists():
+                issues.append({"path": str(secondary_path.relative_to(REPO_ROOT)), "level": "error", "message": f"Missing {era} secondary-sources file"})
+            else:
+                secondary_text = read_text(secondary_path)
+                for heading in REQUIRED_SECONDARY_HEADINGS:
+                    if heading not in secondary_text:
+                        issues.append({"path": str(secondary_path.relative_to(REPO_ROOT)), "level": "error", "message": f"Missing required secondary-sources heading: {heading}"})
+
+                where_to_go_next = extract_section(secondary_text, "## Where To Go Next")
+                expected_primary_name = f"{volume}-primary-sources-{era}.md"
+                expected_bibliography_name = f"{volume}-bibliography.md"
+                chapter_targets = [
+                    f"civilization-{volume.removeprefix('civ-state-')}.md",
+                    f"empire-{volume.removeprefix('civ-state-')}.md",
+                    f"statecraft-{volume.removeprefix('civ-state-')}.md",
+                ]
+
+                if expected_primary_name not in where_to_go_next:
+                    issues.append({"path": str(secondary_path.relative_to(REPO_ROOT)), "level": "error", "message": "Where To Go Next does not link back to the matching primary-source file"})
+                if expected_bibliography_name not in where_to_go_next:
+                    issues.append({"path": str(secondary_path.relative_to(REPO_ROOT)), "level": "error", "message": "Where To Go Next does not link back to the bibliography"})
+                if not any(target in where_to_go_next for target in chapter_targets):
+                    issues.append({"path": str(secondary_path.relative_to(REPO_ROOT)), "level": "error", "message": "Where To Go Next does not include a chapter-surface return path"})
+
         ancient_path = volume_dir / f"{volume}-primary-sources-ancient.md"
         if volume in {"civ-state-russia", "civ-state-america"} and ancient_path.exists():
             issues.append({"path": str(ancient_path.relative_to(REPO_ROOT)), "level": "error", "message": "Late-opening volume should not have an Ancient primary-sources file"})
+        ancient_secondary_path = volume_dir / f"{volume}-secondary-sources-ancient.md"
+        if volume in {"civ-state-russia", "civ-state-america"} and ancient_secondary_path.exists():
+            issues.append({"path": str(ancient_secondary_path.relative_to(REPO_ROOT)), "level": "error", "message": "Late-opening volume should not have an Ancient secondary-sources file"})
 
         industrial_path = volume_dir / f"{volume}-primary-sources-industrial.md"
         if industrial_path.exists():
@@ -126,6 +179,10 @@ def validate() -> list[dict[str, str]]:
             readme_text = read_text(readme_path)
             if volume in {"civ-state-russia", "civ-state-america"} and re.search(r"^## Ancient\s*$", readme_text, re.MULTILINE):
                 issues.append({"path": str(readme_path.relative_to(REPO_ROOT)), "level": "error", "message": "Late-opening volume README still exposes an Ancient era section"})
+
+        for secondary_name in expected_secondary_paths(volume, eras):
+            if secondary_name not in bibliography_text:
+                issues.append({"path": str(bibliography.relative_to(REPO_ROOT)), "level": "error", "message": f"Bibliography does not link to expected secondary-sources file: {secondary_name}"})
 
     for path in DOCTRINE_FILES:
         text = read_text(path)

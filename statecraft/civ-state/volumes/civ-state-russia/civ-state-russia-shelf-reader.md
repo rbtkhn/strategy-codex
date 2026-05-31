@@ -28,6 +28,7 @@ Read Russia as a shelf of compression, regathering, expansion, mutation, and pos
 ## Where To Go Next
 
 - Open the [Russia bibliography](civ-state-russia-bibliography.md) for era entry and source doors.
+- Open the era-matched `secondary-sources` file from the bibliography when chronology, provenance, institutional-context, or counterweight is the real need rather than direct source descent alone.
 - Open [Russia civilization](civilization-russia.md) if the live question is continuity, legitimacy, or restoration claim.
 - Open [Russia empire](empire-russia.md) if the live question is depth, scale, or projection.
 - Open [Russia statecraft](statecraft-russia.md) if the live question is recognition, encirclement, coercive room, or settlement.

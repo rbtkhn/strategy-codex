@@ -12,11 +12,19 @@ This is the working volume bibliography for the China CIV-STATE book. Its center
 - [Industrial primary sources](civ-state-china-primary-sources-industrial.md)
 - [Cybernetic primary sources](civ-state-china-primary-sources-cybernetic.md)
 
+## Secondary Sources by Era
+
+- [Ancient secondary sources](civ-state-china-secondary-sources-ancient.md)
+- [Medieval secondary sources](civ-state-china-secondary-sources-medieval.md)
+- [Colonial secondary sources](civ-state-china-secondary-sources-colonial.md)
+- [Industrial secondary sources](civ-state-china-secondary-sources-industrial.md)
+- [Cybernetic secondary sources](civ-state-china-secondary-sources-cybernetic.md)
+
 ## Secondary and Interpretive Supports
 
-- Bounded dynastic, institutional, and sinological works that clarify mandate grammar, examination order, administrative continuity, conquest absorption, and rupture-to-reconstitution
-- Focused modern studies of late-Qing collapse, Taiping, Republican fragmentation, PRC restoration, Manchuria, Japanese occupation, and coastal-industrial recomposition
-- Chinese-language authoritative reference, especially `ä¸­å›½å¤§ç™¾ç§‘å…¨ä¹¦`, alongside strong English-language translations and corroborators
+- Use the era-matched secondary shelf only after the primary shelf exposes chronology, attribution, translation, institutional-context, or counterweight trouble.
+- Keep modern scholarship subordinate to mandate, restoration, bureaucratic carry, anti-chaos legitimacy, and PRC reconstitution as read through the primary shelf.
+- Use the secondary layer to clarify and counterweight, not to replace Chinese primary-source authority with generic survey prose.
 
 ## CIV-MEM Evidence Spine
 

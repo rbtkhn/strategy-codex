@@ -11,10 +11,18 @@ This is the working volume bibliography for the Russia CIV-STATE book. Its cente
 - [Industrial primary sources](civ-state-russia-primary-sources-industrial.md)
 - [Cybernetic primary sources](civ-state-russia-primary-sources-cybernetic.md)
 
+## Secondary Sources by Era
+
+- [Medieval secondary sources](civ-state-russia-secondary-sources-medieval.md)
+- [Colonial secondary sources](civ-state-russia-secondary-sources-colonial.md)
+- [Industrial secondary sources](civ-state-russia-secondary-sources-industrial.md)
+- [Cybernetic secondary sources](civ-state-russia-secondary-sources-cybernetic.md)
+
 ## Secondary and Interpretive Supports
 
-- Bounded historical work on Kievan formation, Novgorod, Horde domination, Muscovite regathering, Romanov expansion, Napoleonic endurance, Soviet mutation, and Soviet collapse
-- Focused studies on Orthodoxy, service-state formation, serfdom, Crimea and the Black Sea, imperial administration, strategic depth, total mobilization, and superpower parity
+- Use the era-matched secondary shelf only after the primary shelf exposes chronology, provenance, institutional-context, or westernizing/collapse-reductionist distortion trouble.
+- Keep modern Russia scholarship subordinate to Orthodox carry, regathering, imperial scale, Soviet mutation, and post-1991 restoration-through-pressure as read through the primary shelf.
+- Use the secondary layer to clarify and counterweight, not to replace Russian primary-source authority with teleology or caricature.
 
 ## CIV-MEM Evidence Spine
 

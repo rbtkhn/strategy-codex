@@ -29,6 +29,7 @@ Read China from durable founding form toward restored present carriage. Start wi
 ## Where To Go Next
 
 - Open the [China bibliography](civ-state-china-bibliography.md) for era entry and source doors.
+- Open the era-matched `secondary-sources` file from the bibliography when chronology, attribution, translation, or counterweight is the real need rather than direct source descent alone.
 - Open [China civilization](civilization-china.md) if the live question is legitimacy or continuity.
 - Open [China empire](empire-china.md) if the live question is outward instrument, maritime pressure, or scale.
 - Open [China statecraft](statecraft-china.md) if the live question is present-tense pressure, room, or settlement.

@@ -29,6 +29,7 @@ Read Rome as a migration shelf. Start with founding law, empire, and universalit
 ## Where To Go Next
 
 - Open the [Rome bibliography](civ-state-rome-bibliography.md) for era entry and source doors.
+- Open the era-matched `secondary-sources` file from the bibliography when chronology, transformed-continuity interpretation, or counterweight is the real need rather than direct source descent alone.
 - Open [Rome civilization](civilization-rome.md) if the live question is legitimacy, continuity, or category membership.
 - Open [Rome empire](empire-rome.md) if the live question is universality, projection, or imperial residue.
 - Open [Rome statecraft](statecraft-rome.md) if the live question is present-tense successor-order comparison.

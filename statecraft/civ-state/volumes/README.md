@@ -18,6 +18,8 @@ The purpose of this volume set is to provide an authoritative working illustrati
 
 Each volume now also carries a `shelf-reader` layer between the volume front door and the bibliography-era source files. Its job is to help the operator traverse the source shelf without widening immediately into whole-volume doctrine or raw era-file descent.
 
+Each volume now also carries era-matched `secondary-sources` files beneath the bibliography layer. Their job is to clarify chronology, attribution, transmission, institutional context, and counterweight trouble after the primary shelf has already been opened.
+
 ## Constitutional Order
 
 Read CIV-STATE in this order:
@@ -122,6 +124,12 @@ The canonical CIV-STATE shelf for deep-grammar retrieval is now [Sacred Grammar 
 - [Rome shelf reader](civ-state-rome/civ-state-rome-shelf-reader.md)
 - [Russia shelf reader](civ-state-russia/civ-state-russia-shelf-reader.md)
 - [America shelf reader](civ-state-america/civ-state-america-shelf-reader.md)
+
+## Secondary Sources
+
+- each volume bibliography now owns the era-matched `secondary-sources` entry links
+- these files are support layers, not coequal evidence shelves
+- they are constructed through civ-mem evidence law but remain book-native and operator-facing in visible prose
 
 ## Sovereign Continuity Support Notes
 

@@ -12,10 +12,19 @@ This is the working volume bibliography for the Persia CIV-STATE book. Its cente
 - [Industrial primary sources](civ-state-persia-primary-sources-industrial.md)
 - [Cybernetic primary sources](civ-state-persia-primary-sources-cybernetic.md)
 
+## Secondary Sources by Era
+
+- [Ancient secondary sources](civ-state-persia-secondary-sources-ancient.md)
+- [Medieval secondary sources](civ-state-persia-secondary-sources-medieval.md)
+- [Colonial secondary sources](civ-state-persia-secondary-sources-colonial.md)
+- [Industrial secondary sources](civ-state-persia-secondary-sources-industrial.md)
+- [Cybernetic secondary sources](civ-state-persia-secondary-sources-cybernetic.md)
+
 ## Secondary and Interpretive Supports
 
-- Bounded historical work on Achaemenid, Parthian, Sasanian, Persianate Islamic, Safavid, Qajar, Pahlavi, and Islamic Republic continuity
-- Focused studies on Zoroastrian sacred grammar, Shahnameh transmission, Safavid Shi'a state formation, Persianate India, Russian territorial-loss memory, 1953, 1979, the Iran-Iraq War, Gulf/Hormuz leverage, and sanctions-era deterrence
+- Use the era-matched secondary shelf only after the primary shelf exposes chronology, attribution, transmission, institutional-context, or counterweight trouble.
+- Keep modern Persian, Iranian, and comparative scholarship subordinate to sacred residue, imperial form, Persianized transformation, and anti-humiliation continuity as read through the primary shelf.
+- Use the secondary layer to clarify and counterweight, not to replace Persian primary-source authority with generic regional commentary.
 
 ## CIV-MEM Evidence Spine
 

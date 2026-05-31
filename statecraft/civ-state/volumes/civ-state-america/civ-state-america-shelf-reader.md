@@ -28,6 +28,7 @@ Read America as a shelf of transferred inheritance, republic through contradicti
 ## Where To Go Next
 
 - Open the [America bibliography](civ-state-america-bibliography.md) for era entry and source doors.
+- Open the era-matched `secondary-sources` file from the bibliography when chronology, constitutional-context, Anglo-transfer interpretation, or counterweight is the real need rather than direct source descent alone.
 - Open [America civilization](civilization-america.md) if the live question is continuity, legitimacy, or category strain.
 - Open [America empire](empire-america.md) if the live question is maritime-financial reach, alliance stack, or outward instrument.
 - Open [America statecraft](statecraft-america.md) if the live question is command burden, fragmentation, or settlement-bearing restraint.

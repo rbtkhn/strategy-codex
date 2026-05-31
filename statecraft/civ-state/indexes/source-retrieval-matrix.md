@@ -67,6 +67,8 @@ For each arc-lens or empire instrument, run four retrieval layers:
 
 Object selection comes second, not first. First identify the governing six-part layer or pair. Only then choose a secondary object class if it will sharpen retrieval, writing, or stress-testing.
 
+Use secondary support only after primary descent exposes chronology, attribution, transmission, institutional-context, or distortion trouble. Secondary shelves clarify and counterweight; they do not replace the primary-source opening move.
+
 ## Evidence Spine Rule
 
 Every major CIV-STATE object should expose a compact **evidence spine**:

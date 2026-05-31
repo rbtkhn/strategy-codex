@@ -20,6 +20,7 @@ Its references therefore combine:
 
 - source basis
 - primary sources
+- secondary sources
 - evidence construction law
 - bounded named works and figures where grounding is stable
 
@@ -33,6 +34,13 @@ The governing bias is explicit:
 - **primary sources should dominate**
 - secondary scholarship should support, clarify, or counterweight
 - named intellectual ancestry should explain apparatus formation, not replace evidentiary grounding
+
+The practical CIV-STATE stack therefore reads:
+
+- `primary-sources` = sovereign evidence
+- `shelf-reader` = traversal guidance
+- `secondary-sources` = bounded clarification and counterweight
+- `source records / excerpts / sidecar full text` = deeper primary-text substrate
 
 ## Upstream Authority Layers
 
@@ -113,6 +121,7 @@ Use this bias inside the apparatus:
 - [Glossary](glossary.md): primary-source-grounded concepts and names first; civ-mem and overview layers provide retrieval discipline behind them
 - [Index](index.md): names, peoples, polities, and routes may reflect the evidence lattice, but should remain readable without source jargon
 - each volume-local bibliography: primary sources dominate, bounded secondary supports remain subordinate, and civ-mem evidence law stays visible but translated
+- each volume-local `secondary-sources` file: human-facing clarifiers and counterweights chosen through civ-mem construction law but written without civ-mem voice
 - this references surface: the main visible place where primary sources, evidence spines, bounded secondary scholarship, and intellectual ancestry are distinguished from one another
 
 ## Bounded Intellectual Ancestry

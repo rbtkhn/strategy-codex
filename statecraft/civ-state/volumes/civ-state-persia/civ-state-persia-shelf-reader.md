@@ -29,6 +29,7 @@ Read Persia as a regenerative shelf rather than as a flat dynastic sequence. Sta
 ## Where To Go Next
 
 - Open the [Persia bibliography](civ-state-persia-bibliography.md) for era entry and source doors.
+- Open the era-matched `secondary-sources` file from the bibliography when chronology, attribution, transmission, or counterweight is the real need rather than direct source descent alone.
 - Open [Persia civilization](civilization-persia.md) if the live question is continuity, sacred grammar, or category membership.
 - Open [Persia empire](empire-persia.md) if the live question is leverage, deterrent reach, or outward pressure.
 - Open [Persia statecraft](statecraft-persia.md) if the live question is bargaining room, pressure rhythm, or settlement possibility.

@@ -11,11 +11,18 @@ This is the working volume bibliography for the America CIV-STATE book. Its cent
 - [Industrial (50 total) primary sources](civ-state-america-primary-sources-industrial.md)
 - [Cybernetic (25 total) primary sources](civ-state-america-primary-sources-cybernetic.md)
 
+## Secondary Sources by Era
+
+- [Medieval secondary sources](civ-state-america-secondary-sources-medieval.md)
+- [Colonial secondary sources](civ-state-america-secondary-sources-colonial.md)
+- [Industrial secondary sources](civ-state-america-secondary-sources-industrial.md)
+- [Cybernetic secondary sources](civ-state-america-secondary-sources-cybernetic.md)
+
 ## Secondary and Interpretive Supports
 
-- Bounded work on Anglian inheritance, common-law and parliamentary carry, and the Alfred-to-America continuity argument
-- Focused constitutional, slavery, Civil War, and Reconstruction studies where they clarify contradiction, preserved union, and procedural legitimacy
-- Bounded work on continental geography, maritime power, alliance order, Cold War strategy, and republic-versus-empire strain
+- Use the era-matched secondary shelf only after the primary shelf exposes chronology, attribution, constitutional-context, or flattening trouble.
+- Keep modern Anglian and American scholarship subordinate to constitutional inheritance, contradiction, continental scale, and post-1991 command strain as read through the primary shelf.
+- Use the secondary layer to clarify and counterweight, not to replace America's primary-source field with generic U.S. survey coverage.
 
 ## CIV-MEM Evidence Spine
 

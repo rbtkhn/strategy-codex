@@ -20,11 +20,19 @@ Use it to retrieve Rome as a transformed continuity case:
 - [Industrial primary sources](civ-state-rome-primary-sources-industrial.md)
 - [Cybernetic primary sources](civ-state-rome-primary-sources-cybernetic.md)
 
+## Secondary Sources by Era
+
+- [Ancient secondary sources](civ-state-rome-secondary-sources-ancient.md)
+- [Medieval secondary sources](civ-state-rome-secondary-sources-medieval.md)
+- [Colonial secondary sources](civ-state-rome-secondary-sources-colonial.md)
+- [Industrial secondary sources](civ-state-rome-secondary-sources-industrial.md)
+- [Cybernetic secondary sources](civ-state-rome-secondary-sources-cybernetic.md)
+
 ## Secondary and Interpretive Supports
 
-- Bounded classical, late-antique, Eastern Roman, papal, and ecclesial scholarship clarifying transformed continuity rather than treating Rome as a sealed antiquity
-- Focused works on republic-to-empire conversion, Christianization, Eastern Roman continuity, papal residue, and successor-order comparison
-- Use modern scholarship chiefly to clarify chronology, contest false closure, and install counterweight against nostalgic overclaim
+- Use the era-matched secondary shelf only after the primary shelf exposes chronology, translation, institutional-context, or transformed-continuity misread trouble.
+- Keep classical, late-antique, Eastern Roman, papal, and ecclesial scholarship subordinate to Roman primary-source authority and successor-order residue.
+- Use the secondary layer to clarify and counterweight, not to seal Rome into antiquity or turn residue into theatrical revivalism.
 
 ## CIV-MEM Evidence Spine
 

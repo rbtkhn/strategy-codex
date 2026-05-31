@@ -58,6 +58,8 @@ Each volume should also carry its own bibliography. Use it when the operator nee
 
 Each volume should also carry a `shelf-reader`. Use it when the operator needs help traversing one civilization's source shelf without jumping straight into raw era files or widening into whole-volume doctrine.
 
+Each volume should also carry era-matched `secondary-sources` files. Use them only after the primary shelf makes chronology, attribution, transmission, institutional context, or counterweight trouble visible. They clarify and bound the shelf; they do not replace it.
+
 Read Part 1 first when the issue is continuity, legitimacy, founding, inheritance, sacred grammar, or category membership.
 
 Read Part 2 next when the issue is reach, projection stack, coercive carriage, maintenance burden, or overreach.
@@ -87,6 +89,8 @@ Do not open these first by default when the civilization, empire, and present-ca
 The books are not written in civ-mem voice.
 
 `civ-mem` enters earlier, at the evidence and structure layer. Its strongest visible role should appear in [Glossary](glossary.md), [Hybrid References](hybrid-references.md), and [Index](index.md), not in the main narrative dignity surfaces.
+
+That same rule now governs `secondary-sources`: `civ-mem` should shape selection and construction behind the scenes, but should not appear as a named visible layer inside each era file.
 
 The generation law is:
 
