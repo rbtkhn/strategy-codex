@@ -122,6 +122,7 @@ Named recent events no longer open a separate `current-event` function. Verify t
 - Need the compact operator rule for when a lane earns bounded hardening? Open [lane-hardening law](patterns/lane-hardening-law.md).
 - Need the clearest note on how the operator is actually using this machine? Open [how the operator uses the statecraft machine](how-the-operator-uses-the-statecraft-machine.md).
 - Need a bounded synthesis of one archive-heavy day? Open [statecraft/daily/](daily/README.md).
+- Need the active daily/monthly synthesis contract, audit rubric, or proof fixtures? Open [statecraft/daily/METHOD.md](daily/METHOD.md).
 
 ## Era Schema
 
@@ -130,10 +131,18 @@ When a live object clearly depends on deep historical periodization, use the pre
 - `Ancient` -> `476`
 - `Medieval` -> `1453`
 - `Colonial` -> `1815`
-- `Industrial` -> `1945`
-- `Cybernetic` -> `1945-present`
+- `Industrial` -> `1991`
+- `Cybernetic` -> `post-1991`
 
-This is a retrieval aid, not a mandatory first-router. Use it when order collapse, inherited period form, deterrence, computation, platform authority, signal management, or systems governance are doing real explanatory work. Canonical doctrine lives in [Civilization, Empire, Faith, Science, Memory, Desire](civ-state/civilization-empire-faith-science-memory-desire.md) and the bounded operator pass lives in [Civilization, Empire, Faith, Science, Memory, Desire Retrieval Checklist](civ-state/civilization-empire-faith-science-memory-desire-retrieval-checklist.md).
+This is a retrieval aid, not a mandatory first-router. Use it when order collapse, inherited period form, deterrence, computation, platform authority, signal management, or systems governance are doing real explanatory work. The distinction is form-historical rather than merely chronological:
+
+- `Ancient` = durable founding form
+- `Medieval` = transformed continuity
+- `Colonial` = outward projection and pressure age
+- `Industrial` = mass-state and industrial command
+- `Cybernetic` = post-1991 network, sanctions, platform, deterrence, and system-administration age
+
+Canonical doctrine lives in [Civilization, Empire, Faith, Science, Memory, Desire](civ-state/civilization-empire-faith-science-memory-desire.md) and the bounded operator pass lives in [Civilization, Empire, Faith, Science, Memory, Desire Retrieval Checklist](civ-state/civilization-empire-faith-science-memory-desire-retrieval-checklist.md).
 
 Read the stack in this order:
 

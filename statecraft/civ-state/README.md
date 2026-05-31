@@ -30,6 +30,8 @@ The first comparative pattern shelf now begins with:
 
 Each civilization-state volume should also carry its own bibliography with a primary-source center of gravity.
 
+Primary sources are the constitutional evidence layer of CIV-STATE. They are the load-bearing source doors through which legitimacy, continuity, rupture, and restoration are retrieved in a civilization's own grammar. They keep CIV-STATE from collapsing into a generic history syllabus, an abstract commentary machine, or a free-floating analogy bench.
+
 ## Command Door
 
 `statecraft civ-state` is the preferred exact command door for CIV-STATE as an analysis bench.
@@ -142,11 +144,16 @@ The front-door CIV-STATE order is now five volumes:
 4. [CIV-STATE Russia](volumes/civ-state-russia/README.md)
 5. [CIV-STATE America](volumes/civ-state-america/README.md)
 
-Each volume is internally ordered by `Ancient / Medieval / Colonial / Industrial / Cybernetic`.
+Each volume is nested through the preferred era spine, but not every volume literally instantiates every era file.
+
+- Rome, China, and Persia are five-era bibliography cases: `Ancient / Medieval / Colonial / Industrial / Cybernetic`
+- Russia and America are late-opening cases: `Medieval / Colonial / Industrial / Cybernetic`
+
+Late opening does not mean weaker civilization-state seriousness. It means the documentary shelf begins later.
 
 The order is chronological by **sovereignty-chain emergence**, not by the earliest possible mythic, sacred, or ethnocultural precursor. That is why China remains first, Persia second, Rome third, Russia fourth, and America fifth.
 
-This volume layer organizes retrieval and source-memory entry. It does not replace the live lane-local storage under repo-root `statecraft/<lane>/`. Each volume should now be read as a constitutional book-form nested through the five-era spine rather than as a loose bibliography.
+This volume layer organizes retrieval and source-memory entry. It does not replace the live lane-local storage under repo-root `statecraft/<lane>/`. Each volume should now be read as a constitutional book-form nested through a shared preferred spine with civilization-specific openings rather than as a loose bibliography.
 
 The apparatus for that book-form is whole-work first, then volume-local:
 
@@ -309,7 +316,17 @@ Short rule:
 
 `bridge / promotion ledger = intake and translation, not the main front door`
 
-The preferred era spine for these orientation surfaces is `Ancient / Medieval / Colonial / Industrial / Cybernetic`, with boundaries at `476 / 1453 / 1815 / 1945`. `Cybernetic` is preferred over `Digital` because the post-1945 order is organized by deterrence, computation, control systems, signal, and managed interdependence rather than by consumer technology alone.
+The preferred era spine for these orientation surfaces is `Ancient / Medieval / Colonial / Industrial / Cybernetic`, with boundaries at `476 / 1453 / 1815 / 1991`. These cuts are form-historical, not merely chronological:
+
+- `Ancient` = durable founding form
+- `Medieval` = continuity through transformation
+- `Colonial` = outward projection, expansion, and pressure age
+- `Industrial` = mass-state, industrial war, and command form
+- `Cybernetic` = post-1991 deterrence, sanctions, networks, platform authority, and system administration
+
+`Cybernetic` is preferred over `Digital` because the post-1991 order is organized by deterrence, computation, control systems, signal, finance, and managed interdependence rather than by consumer technology alone.
+
+For operator hardening and drift checks, use [CIV-STATE Era Hardening Checklist](era-hardening-checklist.md) and `python scripts/validate_civ_state_eras.py`.
 
 ## Proof Objects
 

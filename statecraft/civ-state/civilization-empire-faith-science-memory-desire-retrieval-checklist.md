@@ -33,6 +33,16 @@ Short rule:
 
 > Ask first what inheritance is at stake, then what instrument carries it, then what faith-order and science-order authorize it, then what memory sustains it, and finally what desire is bending it.
 
+When periodization matters, use the CIV-STATE era law as background architecture rather than as a mandatory first-router:
+
+- `Ancient` -> `476`
+- `Medieval` -> `1453`
+- `Colonial` -> `1815`
+- `Industrial` -> `1991`
+- `Cybernetic` -> `post-1991`
+
+`Cybernetic` is the right overlay when the object is governed by deterrence, sanctions, networks, platform authority, system administration, or other post-1991 command forms.
+
 ## When to use it
 
 Use this checklist when:

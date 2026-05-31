@@ -36,15 +36,15 @@ The preferred era spine for this repo's civilizational and statecraft work is:
 - **Ancient** -> ends `476`
 - **Medieval** -> ends `1453`
 - **Colonial** -> ends `1815`
-- **Industrial** -> ends `1945`
-- **Cybernetic** -> `1945-present`
+- **Industrial** -> ends `1991`
+- **Cybernetic** -> `post-1991`
 
 These boundaries mark **order collapse or closure**, not invention dates alone.
 
 - `476` closes the ancient order through the fall of Rome in the West.
 - `1453` closes the medieval order through the fall of Constantinople.
 - `1815` closes the colonial order through the Napoleonic settlement.
-- `1945` closes the industrial order through the apotheosis of machine killing.
+- `1991` closes the industrial order through the exhaustion of bipolar industrial-state command and the opening of a networked, sanctions-bearing, post-Cold War system age.
 
 The historiographical default inside this framework is:
 
@@ -60,7 +60,7 @@ The operational rule is:
 
 Canonical sentence:
 
-> Cybernetic names the post-1945 age in which power is organized less by production alone than by deterrence, computation, control systems, signal, and managed interdependence.
+> Cybernetic names the post-1991 age in which power is organized less by production alone than by deterrence, computation, control systems, signal, sanctions, and managed interdependence.
 
 ## Grand thesis
 
@@ -296,7 +296,7 @@ Use this annex when:
 
 For the active bounded operator version of that move, use the [Civilization, Empire, Faith, Science, Memory, Desire Retrieval Checklist](civilization-empire-faith-science-memory-desire-retrieval-checklist.md). Use the older triadic checklist only for comparison or migration archaeology.
 
-For post-1945 objects centered on deterrence, compute, identity rails, platform authority, signal management, or systems governance, treat `Cybernetic` as a likely retrieval overlay rather than as a mandatory first-router.
+For post-1991 objects centered on deterrence, compute, identity rails, platform authority, signal management, or systems governance, treat `Cybernetic` as a likely retrieval overlay rather than as a mandatory first-router.
 
 Do not use this annex to bypass concrete source objects. It is an orientation and retrieval discipline, not a replacement for:
 

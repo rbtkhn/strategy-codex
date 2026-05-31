@@ -43,10 +43,10 @@ This checklist inherits the repo's five-era background architecture:
 - `Ancient` -> `476`
 - `Medieval` -> `1453`
 - `Colonial` -> `1815`
-- `Industrial` -> `1945`
-- `Cybernetic` -> `1945-present`
+- `Industrial` -> `1991`
+- `Cybernetic` -> `post-1991`
 
-Use that architecture as orientation, not as a mandatory first-router. When a post-1945 object is clearly about deterrence, computation, identity rails, platform authority, signal management, or systems governance, `Cybernetic` is usually the better overlay than `Digital`.
+Use that architecture as orientation, not as a mandatory first-router. When a post-1991 object is clearly about deterrence, computation, identity rails, platform authority, signal management, sanctions, or systems governance, `Cybernetic` is usually the better overlay than `Digital`.
 
 ## When to use it
 

@@ -112,6 +112,7 @@ Use `civ-state` when you need:
 
 - Return to the [CIV-STATE front door](README.md) for the constitutional split.
 - Return to the [PH-CIV promotion ledger](ph-civ-promotion-ledger.md) when a public `ph-civ` insight looks promotable but is not yet ready to mutate `civ-state`.
+- Return to [PH-CIV Era Overlay Options](ph-civ-era-overlay-options.md) for future-facing overlay shapes that preserve `ph-civ`'s native architecture.
 - Return to the [Volume map](volumes/README.md) for the five civilization-state cases.
 - Return to the [Source retrieval matrix](indexes/source-retrieval-matrix.md) for default object lookup.
 - Return to the public `ph-civ` mirror at [statecraft/civ-lens/jiang/ph-civ/README.md](../speakers/jiang/ph-civ/README.md) when the insight still needs public chapter context rather than compressed doctrine.
