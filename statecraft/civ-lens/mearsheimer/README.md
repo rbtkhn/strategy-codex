@@ -21,9 +21,9 @@ That means:
 
 - [mearsheimer-arc.md](mearsheimer-arc.md)
 - [mearsheimer-routing.md](mearsheimer-routing.md)
-- [Mearsheimer raw-input index](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-raw-input-index.md)
-- [Mearsheimer helix](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-helix.md)
-- [Mearsheimer support spine](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-support-spine-2025-2026.md)
+- [mearsheimer-raw-input-index.md](mearsheimer-raw-input-index.md)
+- [mearsheimer-helix.md](mearsheimer-helix.md)
+- [mearsheimer-support-spine-2025-2026.md](mearsheimer-support-spine-2025-2026.md)
 
 ## Structural notes
 

@@ -8,9 +8,9 @@ Purpose: front door for the canonical Mearsheimer statecraft shelf, surfacing th
 
 - [Speaker arc](mearsheimer-arc.md)
 - [Speaker routing note](mearsheimer-routing.md)
-- [Raw-input index](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-raw-input-index.md)
-- [Speaker helix](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-helix.md)
-- [Support spine](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-support-spine-2025-2026.md)
+- [Raw-input index](mearsheimer-raw-input-index.md)
+- [Speaker helix](mearsheimer-helix.md)
+- [Support spine](mearsheimer-support-spine-2025-2026.md)
 - [Lane README](README.md)
 
 ## Shelf Families
@@ -34,8 +34,8 @@ Mearsheimer's orthogonality-bearing structure is:
 
 - [Speaker arc](mearsheimer-arc.md)
 - [Speaker routing](mearsheimer-routing.md)
-- [Speaker helix](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-helix.md)
-- [Support spine](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-support-spine-2025-2026.md)
+- [Speaker helix](mearsheimer-helix.md)
+- [Support spine](mearsheimer-support-spine-2025-2026.md)
 - the two main host-local arcs for stable distinct host transformations
 - the Napolitano branch as reinforcing orbit material rather than a third canonical strand
 - the raw-input index as the current `non-core appearance bench`

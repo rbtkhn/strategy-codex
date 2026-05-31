@@ -8,8 +8,8 @@ Purpose: front door for the canonical Wilkerson statecraft shelf, surfacing the 
 
 - [Speaker arc](wilkerson-arc.md)
 - [Speaker routing note](wilkerson-routing.md)
-- [Legacy Wilkerson helix](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-helix.md)
-- [Legacy Wilkerson raw-input index](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-raw-input-index.md)
+- [Wilkerson helix](wilkerson-helix.md)
+- [Wilkerson raw-input index](wilkerson-raw-input-index.md)
 - [Lane README](README.md)
 
 ## Canonical Structure
@@ -18,9 +18,9 @@ The orthogonality-bearing structure on this shelf is:
 
 - [wilkerson-arc.md](wilkerson-arc.md)
 - [wilkerson-routing.md](wilkerson-routing.md)
-- [legacy Wilkerson helix](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-helix.md)
+- [wilkerson-helix.md](wilkerson-helix.md)
 - the two main host arcs plus one auxiliary branch
-- [legacy Wilkerson cross-year note](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-cross-year-note.md)
+- [wilkerson-cross-year-note.md](wilkerson-cross-year-note.md)
 
 ## Main Host Arcs
 

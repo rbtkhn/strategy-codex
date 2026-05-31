@@ -21,13 +21,13 @@ That means:
 
 - [wilkerson-arc.md](wilkerson-arc.md)
 - [wilkerson-routing.md](wilkerson-routing.md)
-- [legacy Wilkerson helix](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-helix.md)
-- [legacy Wilkerson raw-input index](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-raw-input-index.md)
+- [wilkerson-helix.md](wilkerson-helix.md)
+- [wilkerson-raw-input-index.md](wilkerson-raw-input-index.md)
 - [legacy Wilkerson surface orthogonality](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-surface-orthogonality-2026-05.md)
 
 ## Structural notes
 
-- [legacy Wilkerson cross-year note](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-cross-year-note.md)
+- [wilkerson-cross-year-note.md](wilkerson-cross-year-note.md)
 - [legacy Wilkerson May 2026 note](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-may-2026-note.md)
 
 ## Host lanes
