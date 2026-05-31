@@ -1,6 +1,6 @@
 ﻿# China Primary Sources - Industrial
 WORK only; not Record.
-This file contains the Industrial primary-source shelf for the China CIV-STATE volume.
+This file contains the Industrial primary-source shelf for the China CIV-STATE volume through the 1991 endpoint.
 ## Primary Sources
 ### Industrial
 #### PRC Revolutionary Founding and Consolidation
@@ -33,14 +33,14 @@ This file contains the Industrial primary-source shelf for the China CIV-STATE v
 
 - Deng Xiaoping, "Emancipate the Mind, Seek Truth from Facts, and Unite as One in Looking to the Future" (è§£æ”¾æ€æƒ³ï¼Œå®žäº‹æ±‚æ˜¯ï¼Œå›¢ç»“ä¸€è‡´å‘å‰çœ‹)
 - Deng Xiaoping, "Building Socialism with Chinese Characteristics" (å»ºè®¾æœ‰ä¸­å›½ç‰¹è‰²çš„ç¤¾ä¼šä¸»ä¹‰)
-- Deng Xiaoping, selected talks from the Southern Tour (å—æ–¹è°ˆè¯)
+- Deng Xiaoping, selected talks on reform and opening before 1991
 - Constitution of the PRC (1982) (ä¸­åŽäººæ°‘å…±å’Œå›½å®ªæ³•)
 - Resolution on the Reform of the Economic Structure (ç»æµŽä½“åˆ¶æ”¹é©å†³å®š)
 - Law on Sino-Foreign Equity Joint Ventures (ä¸­å¤–åˆèµ„ç»è¥ä¼ä¸šæ³•)
 - Special Economic Zone regulations centered on Shenzhen and coastal opening
 - One Country, Two Systems formulations where they directly carry restored sovereignty logic
 - Hong Kong Basic Law (é¦™æ¸¯ç‰¹åˆ«è¡Œæ”¿åŒºåŸºæœ¬æ³•)
-- Macau Basic Law (æ¾³é—¨ç‰¹åˆ«è¡Œæ”¿åŒºåŸºæœ¬æ³•)
+- pre-1991 legal and sovereignty formulations preparing later Hong Kong and Macau returns where they directly carry restored-carrier logic
 
 #### Unresolved ROC Hinge and Dynastic-Exit Fragmentation
 

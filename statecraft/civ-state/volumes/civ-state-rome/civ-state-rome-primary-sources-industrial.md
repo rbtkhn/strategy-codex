@@ -1,6 +1,6 @@
 ﻿# Rome Primary Sources - Industrial
 WORK only; not Record.
-This file contains the Industrial primary-source shelf for the Rome CIV-STATE volume.
+This file contains the Industrial primary-source shelf for the Rome CIV-STATE volume through the 1991 endpoint.
 ## Primary Sources
 ### Industrial
 Papal universality under territorial loss:
@@ -97,3 +97,4 @@ Industrial retrieval priority:
 - concordats as managed coexistence
 - social doctrine as public speech after empire
 - secularization, nationalism, and mass politics as constitutive internal trial
+- 1991 as the terminal end of the industrial shelf before the post-1991 cybernetic residue field

@@ -74,7 +74,7 @@ Best current carriers:
 
 - Sovereignty form: modern Iranian state recomposition under war, coercion, revolution, and industrial pressure
 - Civilizational grammar: sovereignty, endurance, resistance legitimacy, and refusal of humiliation
-- Rupture or mutation: revolution and modern war remake the regime form while preserving the deeper continuity claim; the modern sequence is not mere regime change but anti-domination recomposition through 1953 memory, 1979 revolution, war endurance, and sanctions siege
+- Rupture or mutation: revolution and modern war remake the regime form while preserving the deeper continuity claim; the modern sequence is not mere regime change but anti-domination recomposition through 1953 memory, 1979 revolution, war endurance, and a shelf terminating in 1991 before the cybernetic deterrence age
 Best current carriers:
 - [Iran war](../../../persia/civilization/war.md)
 - [Iran peace](../../../persia/civilization/peace.md)
@@ -84,7 +84,7 @@ Best current carriers:
 
 - Sovereignty form: Islamic Republic Iran as current carrier in a deterrence-, sanctions-, and systems-governed age
 - Civilizational grammar: Shi'a legitimacy, Persian continuity, anti-domination dignity, and siege endurance
-- Rupture or mutation: the danger is not loss of identity but hardening into permanent siege or unspendable resistance
+- Rupture or mutation: after the 1991 industrial boundary, the danger is not loss of identity but hardening into permanent siege or unspendable resistance
 Best current carriers:
 - [Iran helix](../../../persia/helix.md)
 - [Iran state carriers](../../../persia/state/README.md)

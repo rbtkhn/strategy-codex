@@ -40,15 +40,7 @@ Read each era below through the same question set:
 - what rupture mutates the chain
 - which linked objects best carry that phase now
 
-## Ancient
-
-- Sovereignty form: deep pre-American inheritance rather than U.S. statehood proper
-- Civilizational grammar: sacred grammar, literary inheritance, and early constitutional memory later absorbed into the Anglo-American chain
-- Rupture or mutation: America does not yet exist, but its deeper sovereignty grammar is forming upstream
-Best current carriers:
-- [America state memory](../../../america/civilization/objects/state-memory.md)
-- [America sacred grammar](../../../america/civilization/god.md)
-- [America literature](../../../america/civilization/lit.md)
+America's source-bearing timeline begins in the medieval Anglian inheritance; no separate Ancient bibliography shelf is used here.
 
 ## Medieval
 
@@ -75,7 +67,7 @@ Best current carriers:
 
 - Sovereignty form: continental republic becoming industrial and imperial power
 - Civilizational grammar: expansion, production, union, maritime-commercial order, and republican authority under strain
-- Rupture or mutation: America becomes a power of industrial and imperial scale, which intensifies the republic-versus-empire tension
+- Rupture or mutation: America becomes a power of industrial and imperial scale, which intensifies the republic-versus-empire tension and culminates in a 1991 endpoint before the cybernetic shelf opens
 Best current carriers:
 - [America geography](../../../america/civilization/geo.md)
 - [America war](../../../america/civilization/war.md)
@@ -85,7 +77,7 @@ Best current carriers:
 
 - Sovereignty form: the present American carrier as platform, alliance, sanctions, and constitutional order under fragmentation pressure
 - Civilizational grammar: civil religion, constitutional legitimacy, technological mastery, and maritime-system command
-- Rupture or mutation: America may remain sovereignly powerful while becoming less coherent as a civilization-state
+- Rupture or mutation: after the 1991 industrial break and the 9/11 hinge, America may remain sovereignly powerful while becoming less coherent as a civilization-state
 Best current carriers:
 - [America helix](../../../america/helix.md)
 - [America state carriers](../../../america/state/README.md)

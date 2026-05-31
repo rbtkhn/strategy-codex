@@ -76,7 +76,7 @@ Best current carriers:
 
 - Sovereignty form: modernizing state restoration and industrial-administrative recomposition
 - Civilizational grammar: survival through order, production, consolidation, and anti-fragmentation strength
-- Rupture or mutation: revolution and industrialization remake the form of rule without fully severing the continuity chain; the modern sequence is rupture-to-reconstitution, where party-state fusion and vertical penetration solve fragmentation before later normalization
+- Rupture or mutation: revolution and industrialization remake the form of rule without fully severing the continuity chain; the modern sequence is rupture-to-reconstitution, where party-state fusion and vertical penetration solve fragmentation before the industrial shelf closes in 1991
 Best current carriers:
 - [China state memory](../../../china/civilization/objects/state-memory.md)
 - [China geography](../../../china/civilization/geo.md)
@@ -86,7 +86,7 @@ Best current carriers:
 
 - Sovereignty form: PRC as current sovereign carrier of long continuity in networked, industrial, and informational form
 - Civilizational grammar: compute-order, development-order, anti-chaos authority, and rejuvenation legitimacy
-- Rupture or mutation: the danger is not fragmentation alone, but total administrative absorption
+- Rupture or mutation: after the 1991 industrial boundary, the danger is not fragmentation alone, but total administrative absorption
 Best current carriers:
 - [China helix](../../../china/helix.md)
 - [China doctrine](../../../china/china-doctrine.md)

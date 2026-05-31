@@ -1,6 +1,6 @@
 ﻿# Russia Primary Sources - Industrial
 WORK only; not Record.
-This file contains the Industrial primary-source shelf for the Russia CIV-STATE volume.
+This file contains the Industrial primary-source shelf for the Russia CIV-STATE volume through the 1991 terminal break.
 ## Primary Sources
 ### Industrial
 #### Post-1815 Imperial Mass-State and Late Romanov Power

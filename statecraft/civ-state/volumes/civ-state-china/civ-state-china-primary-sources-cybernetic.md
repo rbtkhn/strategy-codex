@@ -1,10 +1,11 @@
 ﻿# China Primary Sources - Cybernetic
 WORK only; not Record.
-This file contains the Cybernetic primary-source shelf for the China CIV-STATE volume.
+This file contains the Cybernetic primary-source shelf for the China CIV-STATE volume after the 1991 industrial endpoint.
 ## Primary Sources
 ### Cybernetic
 #### Party-State Doctrine, Rejuvenation, and Centralized Order
 
+- Deng Xiaoping, selected talks from the Southern Tour (å—æ–¹è°ˆè¯)
 - Xi Jinping, *The Governance of China* (ä¹ è¿‘å¹³è°ˆæ²»å›½ç†æ”¿)
 - Xi Jinping, report to the 19th Party Congress (å…šçš„åä¹å¤§æŠ¥å‘Š)
 - Xi Jinping, report to the 20th Party Congress (å…šçš„äºŒåå¤§æŠ¥å‘Š)
@@ -15,6 +16,7 @@ This file contains the Cybernetic primary-source shelf for the China CIV-STATE v
 - Party regulations on central leadership and cadre discipline under Xi
 - National supervision and anti-corruption institutional texts where they directly carry centralized order
 - Civil-military fusion and whole-of-nation mobilization texts where they directly carry rejuvenation and control
+- Macau Basic Law (æ¾³é—¨ç‰¹åˆ«è¡Œæ”¿åŒºåŸºæœ¬æ³•)
 
 #### Digital Governance, Security, and Administrative Concentration
 

@@ -1,6 +1,6 @@
 ﻿# Rome Primary Sources - Cybernetic
 WORK only; not Record.
-This file contains the Cybernetic primary-source shelf for the Rome CIV-STATE volume.
+This file contains the Cybernetic primary-source shelf for the Rome CIV-STATE volume after the 1991 industrial endpoint.
 ## Primary Sources
 ### Cybernetic
 - Modern papal, ecclesial, and Roman-residue texts where the current carrier remains legible in the present world

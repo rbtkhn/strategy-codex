@@ -1,6 +1,6 @@
 ﻿# Persia Primary Sources - Industrial
 WORK only; not Record.
-This file contains the Industrial primary-source shelf for the Persia CIV-STATE volume.
+This file contains the Industrial primary-source shelf for the Persia CIV-STATE volume through the 1991 endpoint.
 ## Primary Sources
 ### Industrial
 #### Pahlavi State Recomposition and Pressure-State Modernization
@@ -63,13 +63,14 @@ This file contains the Industrial primary-source shelf for the Persia CIV-STATE 
 - Supreme National Security Council constitutional and organic materials
 - IRGC statute and command-law materials
 - First Five-Year Development Plan of the Islamic Republic
-- Rafsanjani reconstruction speeches and policy documents
-- Khatami, "Dialogue Among Civilizations" UN speech
-- Tehran Declaration (2003)
-- Bushehr nuclear cooperation agreements
+- postwar reconstruction directives and first-presidency reorganization texts through 1991
+- constitutional and legislative materials on postwar budget repair and administrative recovery through 1991
+- leadership and clerical-coordination texts consolidating the 1989 order through 1991
+- foreign-policy normalization and reconstruction statements through 1991 where they directly carry usable sovereignty
 
 Industrial retrieval priority:
 - anti-humiliation recomposition through oil, coup, revolution, war, and institutional survival
+- 1991 as the terminal end of the industrial shelf before deterrence and sanctions move into cybernetic form
 - Russia as northern loss-memory and bounded tactical counterpart
 - Britain as concession, oil, Gulf, and buffer-state manipulator
 - the United States as coup, sanctions, and regime-pressure modernity

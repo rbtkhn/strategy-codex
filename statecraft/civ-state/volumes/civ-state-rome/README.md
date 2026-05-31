@@ -79,7 +79,7 @@ Best current carriers:
 
 - Sovereignty form: narrowed but still potent residue through Vatican, Italy, and Roman political-theological memory
 - Civilizational grammar: church continuity, legal memory, and successor-order residue after empire's territorial exhaustion
-- Rupture or mutation: the chain contracts sharply, but survives institutionally and symbolically
+- Rupture or mutation: the chain contracts sharply, but survives institutionally and symbolically through a shelf that terminates in 1991
 Best current carriers:
 - [Rome index](../../../../research/repos/civilization_memory/content/civilizations/ROME/CIV-INDEX-ROME.md)
 - [Vatican residue](../../../../research/repos/civilization_memory/content/civilizations/ROME/MEM-ROME-VATICAN.md)
@@ -89,7 +89,7 @@ Best current carriers:
 
 - Sovereignty form: post-imperial residue and comparative successor-order memory rather than full territorial statehood
 - Civilizational grammar: Catholic continuity, strong-man recurrence, symbolic universality, and post-collapse memory
-- Rupture or mutation: Rome's danger is false death on one side and theatrical revivalism on the other
+- Rupture or mutation: after the 1991 industrial boundary, Rome's danger is false death on one side and theatrical revivalism on the other
 Best current carriers:
 - [Roman collapse and strong-man return](../../indexes/freeman/roman-collapse-and-strong-man-return.md)
 - [Civilization, Empire, Faith, Science, Memory, Desire](../../civilization-empire-faith-science-memory-desire.md)

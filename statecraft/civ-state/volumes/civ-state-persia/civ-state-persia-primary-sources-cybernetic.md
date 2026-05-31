@@ -1,10 +1,14 @@
 ﻿# Persia Primary Sources - Cybernetic
 WORK only; not Record.
-This file contains the Cybernetic primary-source shelf for the Persia CIV-STATE volume.
+This file contains the Cybernetic primary-source shelf for the Persia CIV-STATE volume after the 1991 industrial endpoint.
 ## Primary Sources
 ### Cybernetic
 #### Deterrence, Sanctions, and Survivable Sovereignty
 
+- Rafsanjani reconstruction speeches and policy documents after 1991
+- Khatami, "Dialogue Among Civilizations" UN speech
+- Tehran Declaration (2003)
+- Bushehr nuclear cooperation agreements
 - Twenty-Year Vision of the Islamic Republic of Iran
 - General Policies of Resistance Economy
 - JCPOA
@@ -38,7 +42,7 @@ This file contains the Cybernetic primary-source shelf for the Persia CIV-STATE 
 - Caspian-Gulf-regional transit and leverage documents where they directly bear survivable sovereignty
 
 Cybernetic retrieval priority:
-- deterrence, sanctions, and survivable sovereignty as the main late grammar
+- deterrence, sanctions, and survivable sovereignty as the main late grammar after 1991
 - Gulf/Hormuz as denial and leverage theater rather than generic geopolitics
 - China as optional economic exit and low-trauma partner
 - Russia as bounded tactical counterpart, never a clean ally-memory

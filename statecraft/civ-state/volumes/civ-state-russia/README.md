@@ -40,16 +40,7 @@ Read each era below through the same question set:
 - what rupture mutates the chain
 - which linked objects best carry that phase now
 
-## Ancient
-
-- Sovereignty form: Rurikid insertion and Kievan formation as the first sovereign seed of the chain
-- Civilizational grammar: accepted outsider, order before procedure, dynastic seed, river-route control, and only later proto-sacral legitimacy
-- Rupture or mutation: fragility, regional dispersion, and contested early formation keep the chain exposed before it hardens; Rurik provides dynastic acceptance while Oleg and Kiev provide territorial coherence
-Best current carriers:
-- [Russia state memory](../../../russia/civilization/objects/state-memory.md)
-- [Russia sacred grammar](../../../russia/civilization/god.md)
-- [Russia literature](../../../russia/civilization/lit.md)
-- [Russia geography](../../../russia/civilization/geo.md)
+Russia's source-bearing timeline begins in the medieval world; no separate Ancient bibliography shelf is used here.
 
 ## Medieval
 
@@ -76,7 +67,7 @@ Best current carriers:
 
 - Sovereignty form: late empire, revolution, Soviet mutation, and industrialized depth-state
 - Civilizational grammar: sacrifice, survival, total mobilization, centralized command, and endurance under pressure
-- Rupture or mutation: the 1917-1922 break violently changes regime and ideology, but does not fully erase the deeper continuity of depth-state logic
+- Rupture or mutation: the 1917-1922 break violently changes regime and ideology, but does not fully erase the deeper continuity of depth-state logic; this shelf terminates in the 1991 Soviet collapse
 Best current carriers:
 - [Russia war](../../../russia/civilization/war.md)
 - [Russia state memory](../../../russia/civilization/objects/state-memory.md)
@@ -86,7 +77,7 @@ Best current carriers:
 
 - Sovereignty form: post-Soviet Russia as restoration claimant and current carrier of a much older recognition-and-depth chain
 - Civilizational grammar: anti-humiliation memory, sovereignty, restoration, strategic depth, and disruption without subordination
-- Rupture or mutation: 1991 is humiliation and fragmentation, not terminal end; the present state is the latest attempt to prove the chain still lives after Soviet collapse
+- Rupture or mutation: after the 1991 industrial break, the present state becomes the latest attempt to prove the chain still lives through restoration, pressure, and endurance after Soviet collapse
 Best current carriers:
 - [Russia helix](../../../russia/helix.md)
 - [Russia state carriers](../../../russia/state/README.md)

@@ -2,7 +2,7 @@
 
 WORK only; not Record.
 
-This is the working volume bibliography for the China CIV-STATE book. Its center of gravity is primary sources first, then bounded secondary and doctrinal support. It is built as an order canon: mandate, restoration, bureaucratic carry, anti-chaos legitimacy, and PRC reconstitution remain the main spine, while geography, conquest, humiliation, Japan, Russia, and maritime pressure stay real but subordinate to the central continuity grammar.
+This is the working volume bibliography for the China CIV-STATE book. Its center of gravity is primary sources first, then bounded secondary and doctrinal support. It is built as an order canon: mandate, restoration, bureaucratic carry, anti-chaos legitimacy, and PRC reconstitution remain the main spine, while geography, conquest, humiliation, Japan, Russia, and maritime pressure stay real but subordinate to the central continuity grammar. The Industrial shelf ends in 1991 and the Cybernetic shelf begins after that boundary.
 
 ## Primary Sources by Era
 
@@ -25,6 +25,6 @@ This is the working volume bibliography for the China CIV-STATE book. Its center
 - Ancient emphasis: Zhou, Qin, Han, classical canon, Legalist hardening, and early historical self-reading
 - Medieval emphasis: Sui/Tang/Song/Ming continuity, examination-bureaucratic state, code-bearing administration, and Mongol/Yuan conquest absorption
 - Colonial emphasis: late Qing state form, opium/treaty rupture, Taiping wound, failed reform hinge, and Japan-led pressure
-- Industrial emphasis: Mao founding, Zhou stabilization, Deng recomposition, unresolved ROC fragmentation, and Japan/Manchuria shock
-- Cybernetic emphasis: Xi-era rejuvenation and control, digital governance, frontier-maritime order, and distributed Russia weight through Manchuria and strategic optionality
+- Industrial emphasis: Mao founding, Zhou stabilization, Deng recomposition through 1991, unresolved ROC fragmentation, and Japan/Manchuria shock
+- Cybernetic emphasis: post-1991 rejuvenation and control, digital governance, frontier-maritime order, and distributed Russia weight through Manchuria and strategic optionality
 
