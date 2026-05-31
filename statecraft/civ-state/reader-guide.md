@@ -56,6 +56,8 @@ Every CIV-STATE volume should be opened through the same order:
 
 Each volume should also carry its own bibliography. Use it when the operator needs the primary-source field, bounded secondary support, or civ-mem evidence orientation for one civilization-state case rather than for the whole work at once.
 
+Each volume should also carry a `shelf-reader`. Use it when the operator needs help traversing one civilization's source shelf without jumping straight into raw era files or widening into whole-volume doctrine.
+
 Read Part 1 first when the issue is continuity, legitimacy, founding, inheritance, sacred grammar, or category membership.
 
 Read Part 2 next when the issue is reach, projection stack, coercive carriage, maintenance burden, or overreach.

@@ -1,0 +1,35 @@
+# Persia Shelf Reader
+
+WORK only; not Record.
+
+## What This Shelf Is For
+
+Use this shelf to read Persia as a dignity-restoration civilization-state through its own primary-source field. The shelf is for seeing how sacred residue, imperial form, Persianized transformation, Safavid reconcentration, anti-humiliation memory, and deterrent-bearing survivability actually carry continuity.
+
+## How To Read The Eras
+
+Read Persia as a regenerative shelf rather than as a flat dynastic sequence. Start with sacred and imperial form, then watch how deep civilizational substance survives conquest, Islamic transformation, imperial pressure, revolution, war, and post-`1991` deterrence age without dissolving into generic regional history.
+
+## What Each Era Is Doing
+
+- `Ancient` establishes sacred substrate, imperial universalism, and parity-bearing sovereignty.
+- `Medieval` carries transformation through Islam, *Shahnameh*, science, law, and Safavid reconcentration.
+- `Colonial` records concession pressure, Gulf leverage, Russian loss-memory, and imperial intrusion.
+- `Industrial` carries oil sovereignty, coup memory, revolution, war endurance, and institutional survival through `1991`.
+- `Cybernetic` carries post-`1991` deterrence, sanctions survival, Gulf/Hormuz leverage, and regime durability.
+
+## What To Look For
+
+- sacred substrate and imperial dignity
+- Islam as transformed carrier rather than erasure
+- Safavid Shi'a reconcentration as sovereign hinge
+- Gulf/Hormuz as leverage theater, not background geography
+- anti-humiliation memory turning into restoration and survivable sovereignty
+
+## Where To Go Next
+
+- Open the [Persia bibliography](civ-state-persia-bibliography.md) for era entry and source doors.
+- Open [Persia civilization](civilization-persia.md) if the live question is continuity, sacred grammar, or category membership.
+- Open [Persia empire](empire-persia.md) if the live question is leverage, deterrent reach, or outward pressure.
+- Open [Persia statecraft](statecraft-persia.md) if the live question is bargaining room, pressure rhythm, or settlement possibility.
+- Return to [Continuity Mechanism](../../continuity-mechanism.md) or the [Pattern Library](../../pattern-library/README.md) only after the Persia shelf has been read on its own terms.

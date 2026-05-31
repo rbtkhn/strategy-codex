@@ -16,6 +16,8 @@ For the whole-work apparatus above this shelf, open:
 
 The purpose of this volume set is to provide an authoritative working illustration of the **civilization-state** through five concrete cases. Each volume is organized as a sovereignty-chain scaffold nested through the repo's preferred era spine. The canonical Part 1 opening now lives in a legitimacy-bearing civilization essay, the canonical Part 2 opening now lives in an outward-instrument empire essay, and the canonical Part 3 opening now lives in a present-tense statecraft synthesis that turns the volume into a statesman's guidebook.
 
+Each volume now also carries a `shelf-reader` layer between the volume front door and the bibliography-era source files. Its job is to help the operator traverse the source shelf without widening immediately into whole-volume doctrine or raw era-file descent.
+
 ## Constitutional Order
 
 Read CIV-STATE in this order:
@@ -26,13 +28,27 @@ Read CIV-STATE in this order:
 4. [CIV-STATE Russia](civ-state-russia/README.md)
 5. [CIV-STATE America](civ-state-america/README.md)
 
-Each volume is ordered by the preferred era spine:
+Each volume is nested through the preferred era spine:
 
 - `Ancient`
 - `Medieval`
 - `Colonial`
 - `Industrial`
 - `Cybernetic`
+
+But the file shape is not flat across all five volumes:
+
+- China, Persia, and Rome are five-era bibliography cases
+- Russia and America are late-opening bibliography cases without Ancient primary-source shelves
+- all five now carry Cybernetic
+
+The shared chronology law is:
+
+- `Ancient` -> `476`
+- `Medieval` -> `1453`
+- `Colonial` -> `1815`
+- `Industrial` -> `1991`
+- `Cybernetic` -> `post-1991`
 
 The order of volumes is chronological by **sovereignty-chain emergence**, not by the earliest possible sacred or ethnocultural precursor:
 
@@ -41,6 +57,8 @@ The order of volumes is chronological by **sovereignty-chain emergence**, not by
 - Rome stands as the classical hinge and transformed continuity case.
 - Russia begins later as a medieval-to-modern sovereignty chain.
 - America comes last as the latest formal chain, and as the deliberately contested edge case.
+
+Late opening does not make Russia or America weak cases by default. It marks a later documentary opening and a different continuity problem.
 
 The civilization-state category here is comparative rather than flat:
 
@@ -97,6 +115,14 @@ The canonical CIV-STATE shelf for deep-grammar retrieval is now [Sacred Grammar 
 - [Russia bibliography](civ-state-russia/civ-state-russia-bibliography.md)
 - [America bibliography](civ-state-america/civ-state-america-bibliography.md)
 
+## Shelf Readers
+
+- [China shelf reader](civ-state-china/civ-state-china-shelf-reader.md)
+- [Persia shelf reader](civ-state-persia/civ-state-persia-shelf-reader.md)
+- [Rome shelf reader](civ-state-rome/civ-state-rome-shelf-reader.md)
+- [Russia shelf reader](civ-state-russia/civ-state-russia-shelf-reader.md)
+- [America shelf reader](civ-state-america/civ-state-america-shelf-reader.md)
+
 ## Sovereign Continuity Support Notes
 
 - [China sovereign continuity](civ-state-china/sovereign-continuity.md)
@@ -149,6 +175,7 @@ This means the volume map is not the right first stop for every `civ-state` ques
 - If the operator is asking `which pair governs this object?`, start with the framework instead.
 - If the operator is asking `how do I harden this one volume's front door?`, use the volume-hardening workflow rather than widening into cross-volume comparison.
 - If the operator is already drafting a live lane object, return to the lane README rather than lingering at the volume layer.
+- If the operator is hardening chronology or bibliography structure, use [CIV-STATE Era Hardening Checklist](../era-hardening-checklist.md) and `python scripts/validate_civ_state_eras.py`.
 
 Every volume should be read the same way:
 
