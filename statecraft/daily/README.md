@@ -1,10 +1,10 @@
 WORK only; not Record.
 
-# Statecraft Daily Reports
+# Statecraft Daily Synthesis Shelf
 
-This shelf holds bounded daily synthesis reports derived from the **Statecraft Archive** and written on the **Statecraft Synthesis / drafting** side of the membrane.
+This shelf holds bounded daily notes, month syntheses, and companion notes derived from the **Statecraft Archive** and written on the **Statecraft Synthesis / drafting** side of the membrane.
 
-Use these notes when the source captures for a day are already materialized and the next need is a compact read of the dominant crisis object, lane ownership pressure, and visible routing tensions.
+Use this shelf when the source captures for a day or month are already materialized and the next need is a compact read of the governing object, lane pressure, cross-speaker compression, or bounded follow-on comparison.
 
 Daily reports are downstream of:
 
@@ -12,8 +12,25 @@ Daily reports are downstream of:
 
 They are not source authority and should not replace the underlying transcript layer.
 
+## Method Surfaces
+
+Use these when the question is about how the shelf works, not only which note to open:
+
+- [METHOD.md](./METHOD.md) - active doctrine for daily notes, month notes, companion notes, adaptive reuse, and named failure modes
+- [audit-rubric.md](./audit-rubric.md) - human-first checklist for judging whether a note satisfies the current synthesis contract
+- [benchmark-manifest.md](./benchmark-manifest.md) - small proof set for future method changes, audits, and light automation
+
+The compact distinction is:
+
+- daily note = one archive day judged into an object
+- monthly note = one archive month compressed into governing objects
+- companion note = one bounded follow-on comparison or mechanism note opened by a parent daily or month note
+
 ## Index
 
+### 2026-05 - monthly synthesis plus day ladder
+
+- [2026-05 Monthly Synthesis](2026-05.md)
 - [2026-05-01](2026-05-01.md)
 - [2026-05-02](2026-05-02.md)
 - [2026-05-03](2026-05-03.md)
@@ -43,5 +60,5 @@ They are not source authority and should not replace the underlying transcript l
 - [2026-05-27](2026-05-27.md)
 - [2026-05-28](2026-05-28.md)
 - [2026-05-29](2026-05-29.md)
-- [2026-05-29 - Pape vs Freeman-Sachs-Marandi](2026-05-29-pape-vs-freeman-sachs-marandi.md)
+  - [2026-05-29 - Pape vs Freeman-Sachs-Marandi](2026-05-29-pape-vs-freeman-sachs-marandi.md)
 - [2026-05-30](2026-05-30.md)
