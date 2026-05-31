@@ -136,6 +136,45 @@ It sits here:
 - owning lane surfaces for direct drafting
 - `statecraft-daily-synthesis` when the result belongs in the daily shelf
 
+## Fast chooser
+
+Choose the preset by **dominant question family**, not by favorite speaker.
+
+Use this ladder:
+
+1. **Is the object mainly about threshold vs design?**
+   - open **Marandi / Parsi**
+
+2. **Is the object still visibly trapped, and does that trap change everything downstream?**
+   - open **Pape / Marandi / Parsi**
+   - if architecture is not yet real, step down to **Pape / Marandi**
+
+3. **Is the object mainly about coercive-plan failure versus what room still remains?**
+   - open **Macgregor / Davis**
+   - if danger threshold itself is now active, step up to **Macgregor / Pape / Ritter**
+
+4. **Is the object mainly about why escalation worsens leverage yet still keeps carrying politically?**
+   - open **Freeman / Sachs**
+   - if imperial or institutional decay is part of the object, step up to **Freeman / Sachs / Wilkerson**
+
+5. **Is the object mainly about order transition, structural bargaining space, and what later architecture might become possible?**
+   - open **Diesen / Mearsheimer / Parsi**
+
+6. **Is the object mainly about what remains negotiable beneath a broken imperial or settlement carrier?**
+   - open **Davis / Mercouris / Marandi**
+
+Short operator law:
+
+- choose the **smallest preset that still captures the decisive function**
+- step **up** only when the third lens changes routing or diagnosis
+- step **down** when one lens is only ambient background and is not changing the read
+
+Current first-open defaults from live bench pressure:
+
+- `Iran-war to deal transition` -> **Pape / Marandi / Parsi**
+- `coercive plan collapse vs actual bargaining room` -> **Macgregor / Davis**
+- `Hormuz escalation as imperial and order consequence` -> **Freeman / Sachs / Wilkerson**
+
 ## Built-in lens modes
 
 ### Dual-lens mode
@@ -186,6 +225,10 @@ Design rule:
    - force-feasibility collapse vs practical-room realism
    - best when the object is `why the war cannot work` versus `what real bargaining room still exists`
 
+Operator note:
+
+- this is currently the cleanest non-canonical first-open preset for coercive-plan collapse objects
+
 ### Tri-lens mode
 
 Canonical pack:
@@ -234,6 +277,10 @@ Design rule:
 5. **Davis / Mercouris / Marandi**
    - practical room vs legitimacy fracture vs recognition floor
    - best when the object is `what is still negotiable`, `what imperial or settlement failure has broken`, and `what the adversary will not accept beneath the floor`
+
+Operator note:
+
+- this remains a real bench preset, but it is still under-tested compared with the current first-open triads
 
 ## Coverage check
 
