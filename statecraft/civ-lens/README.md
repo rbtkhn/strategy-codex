@@ -188,7 +188,8 @@ For these shelves:
 
 Current deliberate case:
 
-- `Mearsheimer` remains in `codex/speakers/` by doctrine, not backlog, as the main host-led mature-month exception shelf
+- [Mearsheimer](mearsheimer/README.md)
+- [Wilkerson](wilkerson/README.md)
 
 ### 5. Starter exception shelves
 

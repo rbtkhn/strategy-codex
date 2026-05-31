@@ -145,6 +145,25 @@ Canonical method: [skills-portable/statecraft-daily-synthesis/SKILL.md](statecra
 
 ---
 
+## statecraft-multi-lens
+
+- **What it is**
+  - A statecraft-native bench skill for reading one live object through a narrow canonical core plus a broader, self-refining preset library of dual-lens and tri-lens packs.
+- **When to use it**
+  - Use when the object is already named and the real task is to separate what multiple lenses contribute, miss, and change in combination before drafting or durable doctrine writing.
+- **Inputs you'll need**
+  - A named statecraft object, the relevant speaker or doctrine surfaces, and any anchored historical examples you want to use.
+- **What you get**
+  - A bounded diagnostic analysis in chat that chooses dual-lens or tri-lens mode, divides explanatory responsibility, and points to the next route only when needed.
+- **Boundary**
+  - Does not replace governing-pair diagnosis, archive intake, or day-batch synthesis, keeps canonical packs intentionally small, and treats presets as reviewable hypotheses rather than permanent doctrine.
+- **Current status**
+  - `promoted`
+
+Canonical method: [skills-portable/statecraft-multi-lens/SKILL.md](statecraft-multi-lens/SKILL.md)
+
+---
+
 ## monthly-deepening
 
 - **What it is**

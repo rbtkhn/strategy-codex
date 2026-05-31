@@ -163,6 +163,13 @@ skills:
     verify_forbidden_substrings:
       - users/grace-mar/
       - process_approved_candidates
+  - name: statecraft-multi-lens
+    source: statecraft-multi-lens/SKILL.md
+    appendix: .cursor/skills/statecraft-multi-lens/CURSOR_APPENDIX.md
+    target: .cursor/skills/statecraft-multi-lens/SKILL.md
+    verify_forbidden_substrings:
+      - users/grace-mar/
+      - process_approved_candidates
   - name: memory
     source: memory/SKILL.md
     appendix: .cursor/skills/memory/CURSOR_APPENDIX.md
