@@ -5,8 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_archive
 ## Stats
 
 - Distinct threads: `56`
-- Thread-linked source files: `1348`
-- Covered days: `415`
+- Thread-linked source files: `1350`
+- Covered days: `416`
 - Covered months: `17`
 
 ## Threads
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_archive
 | `ritter` | 39 | 37 | 7 | `Dialogue Works` (3), `Judging Freedom` (2), `Let's Talk Geopolitics` (1) | `Andrew Napolitano` (7), `Nima Alkhorshid` (3), `Cyrus Janssen` (1) | `2025-11-04` | `2026-05-28` |
 | `macgregor` | 37 | 34 | 13 | `Judging Freedom` (18), `Daniel Davis Deep Dive` (9), `Tucker Carlson` (1) | `Andrew Napolitano` (23), `Daniel Davis` (9), `Tucker Carlson` (1) | `2025-01-16` | `2026-05-29` |
 | `crooke` | 29 | 29 | 5 | `Judging Freedom` (2), `Glenn Diesen` (1) | `Andrew Napolitano` (2), `Glenn Diesen` (1) | `2026-01-08` | `2026-05-30` |
-| `johnson` | 21 | 19 | 7 | `Dialogue Works` (7), `Mario Nawfal` (2), `Judging Freedom` (2) | `Andrew Napolitano` (7), `Nima Alkhorshid` (6), `Mario Nawfal` (2) | `2025-11-24` | `2026-05-29` |
+| `johnson` | 22 | 20 | 7 | `Dialogue Works` (7), `Mario Nawfal` (3), `Judging Freedom` (2) | `Andrew Napolitano` (7), `Nima Alkhorshid` (6), `Mario Nawfal` (3) | `2025-11-24` | `2026-05-30` |
 | `parsi` | 18 | 18 | 5 | `substack.com/@tritaparsi` (11), `responsiblestatecraft.org` (1), `tritaparsi.substack.com` (1) | `Mario Nawfal` (1) | `2026-01-09` | `2026-05-28` |
 | `mearsheimer` | 16 | 16 | 9 | `mearsheimer.substack.com` (2), `Americano` (1), `Counterpoints` (1) | `Andrew Napolitano` (9), `Daniel Davis` (2), `Freddy Gray` (1) | `2025-02-12` | `2026-05-28` |
 | `baud` | 12 | 11 | 5 | `Dialogue Works` (10), `Daniel Davis Deep Dive` (1) | `Nima Alkhorshid` (10), `Daniel Davis (host); Col. Jacques Baud (guest)` (1), `Daniel Davis` (1) | `2026-01-06` | `2026-05-28` |
@@ -46,6 +46,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_archive
 | `mcgovern` | 3 | 3 | 1 | `Dialogue Works` (2), `Judging Freedom` (1) | `Nima Alkhorshid` (2), `Andrew Napolitano` (1) | `2026-05-18` | `2026-05-30` |
 | `sachs` | 3 | 3 | 2 | `Jeffrey Sachs` (2), `Judging Freedom` (1) | `Jeffrey Sachs` (2), `Andrew Napolitano` (1) | `2025-11-05` | `2026-05-29` |
 | `[davis, baud]` | 2 | 2 | 1 | `Daniel Davis Deep Dive` (1) | (none) | `2026-03-12` | `2026-03-31` |
+| `aguilar` | 2 | 2 | 1 | `Mario Nawfal` (1), `Moral Resistance` (1) | `Mario Nawfal` (1), `Moral Resistance` (1) | `2026-05-29` | `2026-05-31` |
 | `blumenthal` | 2 | 2 | 1 | `Judging Freedom` (2) | `Andrew Napolitano` (2) | `2026-05-20` | `2026-05-28` |
 | `[davis, crooke]` | 1 | 1 | 1 | (none) | (none) | `2026-04-23` | `2026-04-23` |
 | `[davis, diesen]` | 1 | 1 | 1 | (none) | (none) | `2026-03-11` | `2026-03-11` |
@@ -54,7 +55,6 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_archive
 | `[davis]` | 1 | 1 | 1 | (none) | (none) | `2026-03-10` | `2026-03-10` |
 | `[diesen, crooke]` | 1 | 1 | 1 | (none) | (none) | `2026-04-27` | `2026-04-27` |
 | `[diesen, ritter]` | 1 | 1 | 1 | `Diesen (Greater Eurasia)` (1) | `Diesen` (1) | `2026-04-17` | `2026-04-17` |
-| `aguilar` | 1 | 1 | 1 | `Mario Nawfal` (1) | `Mario Nawfal` (1) | `2026-05-29` | `2026-05-29` |
 | `anzalone` | 1 | 1 | 1 | (none) | `Andrew Napolitano` (1) | `2026-03-16` | `2026-03-16` |
 | `daniel-davis` | 1 | 1 | 1 | `Daniel Davis / Deep Dive` (1) | `Daniel Davis` (1) | `2025-12-20` | `2025-12-20` |
 | `escobar` | 1 | 1 | 1 | `Dialogue Works` (1) | `Nima Alkhorshid` (1) | `2026-05-21` | `2026-05-21` |
