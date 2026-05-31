@@ -123,6 +123,7 @@ Named recent events no longer open a separate `current-event` function. Verify t
 - Need the clearest note on how the operator is actually using this machine? Open [how the operator uses the statecraft machine](how-the-operator-uses-the-statecraft-machine.md).
 - Need a bounded synthesis of one archive-heavy day? Open [statecraft/daily/](daily/README.md).
 - Need the active daily/monthly synthesis contract, audit rubric, or proof fixtures? Open [statecraft/daily/METHOD.md](daily/METHOD.md).
+- Need the month-level evolution rule for the `statecraft/daily` shelf? Open [statecraft/daily/MONTHLY-METHOD-COMPANION.md](daily/MONTHLY-METHOD-COMPANION.md).
 
 ## Era Schema
 

@@ -6,7 +6,7 @@ This shelf holds bounded daily notes, month syntheses, and companion notes deriv
 
 Use this shelf when the source captures for a day or month are already materialized and the next need is a compact read of the governing object, lane pressure, cross-speaker compression, or bounded follow-on comparison.
 
-Daily reports are downstream of:
+These synthesis surfaces are downstream of:
 
 `Statecraft Archive -> Statecraft Synthesis -> lane / bridge / civ-state judgment`
 
@@ -19,6 +19,8 @@ Use these when the question is about how the shelf works, not only which note to
 - [METHOD.md](./METHOD.md) - active doctrine for daily notes, month notes, companion notes, adaptive reuse, and named failure modes
 - [audit-rubric.md](./audit-rubric.md) - human-first checklist for judging whether a note satisfies the current synthesis contract
 - [benchmark-manifest.md](./benchmark-manifest.md) - small proof set for future method changes, audits, and light automation
+- [MONTHLY-METHOD-COMPANION.md](./MONTHLY-METHOD-COMPANION.md) - next-wave guidance for month notes and five-volume deepening beyond May
+- [method-hardening-close-2026-05-30.md](./method-hardening-close-2026-05-30.md) - bounded close note for the first method-hardening tranche
 
 The compact distinction is:
 
