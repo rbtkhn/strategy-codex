@@ -5,7 +5,7 @@ kind: transcript
 thread: davis
 show: Daniel Davis Deep Dive
 host: Daniel Davis
-guest: Col Douglas Macgregor
+guest: Douglas Macgregor
 title: "Col Douglas Macgregor: Ukraine War Reality Tightens the Screws on Trump"
 channel_url: "https://www.youtube.com/@DanielDavisDeepDive/videos"
 channel_slug: "daniel-davis-deep-dive"

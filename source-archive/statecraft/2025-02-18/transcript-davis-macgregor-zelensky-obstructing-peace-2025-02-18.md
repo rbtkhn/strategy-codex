@@ -5,7 +5,7 @@ kind: transcript
 thread: davis
 show: Daniel Davis Deep Dive
 host: Daniel Davis
-guest: Col Doug Macgregor
+guest: Douglas Macgregor
 title: "Col Doug Macgregor: Zelensky Obstructing Peace"
 channel_url: "https://www.youtube.com/@DanielDavisDeepDive/videos"
 channel_slug: "daniel-davis-deep-dive"

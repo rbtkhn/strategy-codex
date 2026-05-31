@@ -28,7 +28,7 @@ That means:
 ## Structural notes
 
 - [wilkerson-cross-year-note.md](wilkerson-cross-year-note.md)
-- [legacy Wilkerson May 2026 note](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-may-2026-note.md)
+- [wilkerson-may-2026-note.md](wilkerson-may-2026-note.md)
 
 ## Host lanes
 
@@ -41,7 +41,7 @@ That means:
 This shelf is now the canonical statecraft-side opening path for Wilkerson.
 
 - [codex/speakers/wilkerson/README.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/README.md) remains a compatibility and support doorway during migration
-- the codex-side helix, cross-year note, raw-input index, and bounded month notes remain linked support surfaces until a fuller transfer pass
+- the codex-side structural audit, helix, and raw-input bench remain linked support surfaces until a fuller transfer pass
 - do not treat the codex shelf as a second competing authority tree; use it as linked support beneath this statecraft shelf
 
 ## Boundary

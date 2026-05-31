@@ -5,7 +5,7 @@ kind: transcript
 thread: davis
 show: Daniel Davis Deep Dive
 host: Daniel Davis
-guest: Col Doug Magregor
+guest: Douglas Macgregor
 title: "Col Doug Magregor: Ukraine Russia War-Trump's Limited Options for Peace"
 channel_url: "https://www.youtube.com/@DanielDavisDeepDive/videos"
 channel_slug: "daniel-davis-deep-dive"

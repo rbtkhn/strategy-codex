@@ -31,6 +31,7 @@ That is why Mearsheimer remains a **host-led mature-month exception shelf**.
 - whole-speaker continuity: [mearsheimer-arc.md](mearsheimer-arc.md)
 - fastest host selection: [mearsheimer-routing.md](mearsheimer-routing.md)
 - cross-host comparison: [mearsheimer-helix.md](mearsheimer-helix.md)
+- bounded mature-month support: [mearsheimer-may-2026-note.md](mearsheimer-may-2026-note.md)
 - provenance bench: [mearsheimer-raw-input-index.md](mearsheimer-raw-input-index.md)
 
 ## Legacy support

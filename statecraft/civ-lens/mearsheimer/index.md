@@ -36,6 +36,7 @@ Mearsheimer's orthogonality-bearing structure is:
 - [Speaker routing](mearsheimer-routing.md)
 - [Speaker helix](mearsheimer-helix.md)
 - [Support spine](mearsheimer-support-spine-2025-2026.md)
+- [mearsheimer-may-2026-note.md](mearsheimer-may-2026-note.md)
 - the two main host-local arcs for stable distinct host transformations
 - the Napolitano branch as reinforcing orbit material rather than a third canonical strand
 - the raw-input index as the current `non-core appearance bench`

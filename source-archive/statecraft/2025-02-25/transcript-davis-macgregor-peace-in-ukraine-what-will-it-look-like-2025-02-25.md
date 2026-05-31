@@ -4,7 +4,7 @@ kind: transcript
 thread: davis
 show: Daniel Davis Deep Dive
 host: Daniel Davis
-guest: Col Doug Macgregor
+guest: Douglas Macgregor
 title: "Col Doug Macgregor: Peace in Ukraine / What Will it Look Like?"
 source_url: "https://youtu.be/Wb7dJsv8AoM"
 source_type: youtube

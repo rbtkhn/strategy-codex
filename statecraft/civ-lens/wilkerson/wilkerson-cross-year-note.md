@@ -29,7 +29,7 @@ The denser year-by-year note surfaces still live in the legacy shelf during migr
 - [legacy Wilkerson cross-year note](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-cross-year-note.md)
 - [legacy Wilkerson January 2025 note](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-january-2025-note.md)
 - [legacy Wilkerson February 2025 note](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-february-2025-note.md)
-- [legacy Wilkerson May 2026 note](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-may-2026-note.md)
+- [wilkerson-may-2026-note.md](wilkerson-may-2026-note.md)
 
 ## Boundary
 

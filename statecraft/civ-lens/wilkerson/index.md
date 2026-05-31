@@ -21,6 +21,7 @@ The orthogonality-bearing structure on this shelf is:
 - [wilkerson-helix.md](wilkerson-helix.md)
 - the two main host arcs plus one auxiliary branch
 - [wilkerson-cross-year-note.md](wilkerson-cross-year-note.md)
+- [wilkerson-may-2026-note.md](wilkerson-may-2026-note.md)
 
 ## Main Host Arcs
 

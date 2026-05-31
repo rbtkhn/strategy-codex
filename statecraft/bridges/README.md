@@ -79,6 +79,8 @@ For the earliest hot-war proof run that tests whether the method still works bef
 
 For the strict novelty pass that asks whether the tri-lens yields bridge insights not explicitly present in any single source, open [Pape / Marandi / Parsi Novelty Audit](pape-marandi-parsi-novelty-audit.md).
 
+For the first bounded pressure test of the expanded `statecraft-multi-lens` preset bench, open [Statecraft Multi-Lens Bench Pressure Test - 2026-05](statecraft-multi-lens-bench-pressure-test-2026-05.md).
+
 For the method note that governs when historical examples may support doctrine rather than merely appear in speaker rhetoric, open [Anchored Historical Citation Policy](anchored-historical-citation-policy.md).
 
 ## Pilot Pair

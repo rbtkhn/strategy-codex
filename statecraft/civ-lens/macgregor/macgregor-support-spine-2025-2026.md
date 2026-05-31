@@ -2,7 +2,7 @@
 
 WORK only; not Record.
 
-Purpose: give the Macgregor shelf a speaker-owned support spine beneath the person arc and above compatibility residue. This file does not replace host-local arcs, raw-input, or the helix. It explains how the shelf matures across late 2025 through May 2026, why the `Diesen + Davis` double helix still governs the object, and how the new native monthly shelves should be read without stealing chronology from the hosts.
+Purpose: give the Macgregor shelf a speaker-owned support spine beneath the person arc and above compatibility residue. This file does not replace host-local arcs, raw-input, or the helix. It explains how the shelf matures across January 2025 through May 2026, why the `Diesen + Davis` double helix still governs the object, and how the new native monthly shelves should be read without stealing chronology from the hosts.
 
 ## What this spine owns
 
@@ -28,6 +28,7 @@ Macgregor is mature enough to deserve both a stronger speaker-owned spine and bo
 
 Why:
 
+- the shelf has a real January-May 2025 opening run across Davis, Napolitano, Tucker, Diesen, and Johnson
 - the shelf has real late-2025 continuity through Davis and Diesen
 - 2026 March and April are clearly mature retrieval months
 - the Macgregor object is highly reusable across hosts
@@ -53,6 +54,27 @@ not:
 This table is the main reason the shelf's monthly files must stay bounded syntheses rather than chronology owners: each mature stretch already has a host-owned first-open home.
 
 ## Open by month
+
+### 2025-01 through 2025-05
+
+Status: real opening run, not prehistory
+
+Open:
+
+- [macgregor-raw-input-index.md](macgregor-raw-input-index.md)
+- [Davis x Macgregor](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-macgregor-speaker-arc.md)
+- [Judging Freedom x Macgregor](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-macgregor-speaker-arc.md)
+- [Diesen x Macgregor](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-macgregor-speaker-arc.md)
+- [source-archive/statecraft/2025-03.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-03.md)
+- [source-archive/statecraft/2025-04.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-04.md)
+- [source-archive/statecraft/2025-05.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-05.md)
+
+Why:
+
+- January and February already prove the double-helix-plus-Napolitano structure is real before the later autumn thickening
+- March, April, and May now form a continuous early-2025 bridge rather than isolated episodes
+- the month archives are strong enough to route with confidence, but they still do not justify native 2025 speaker-owned monthly shelves
+- the chronology remains host-led even though the speaker object is already materially present
 
 ### Late 2025
 

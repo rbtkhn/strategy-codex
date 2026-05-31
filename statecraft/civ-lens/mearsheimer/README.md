@@ -27,6 +27,7 @@ That means:
 
 ## Structural notes
 
+- [mearsheimer-may-2026-note.md](mearsheimer-may-2026-note.md)
 - [Mearsheimer surface orthogonality](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-surface-orthogonality-2026-05.md)
 - [Mearsheimer historical examples audit](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-historical-examples-audit.md)
 - [Mearsheimer themes](/C:/dev/strategy-codex/codex/speakers/mearsheimer/themes/README.md)
@@ -42,7 +43,7 @@ That means:
 This shelf is now the canonical statecraft-side opening path for Mearsheimer.
 
 - [codex/speakers/mearsheimer/README.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/README.md) remains a compatibility and support doorway during migration
-- the codex-side support spine, helix, raw-input index, and themes remain real support surfaces until a fuller transfer pass
+- the codex-side structural audit, historical audit, raw-input bench, and themes remain real support surfaces until a fuller transfer pass
 - do not treat the codex shelf as a second competing authority tree; use it as linked support beneath this statecraft shelf
 
 ## Boundary
