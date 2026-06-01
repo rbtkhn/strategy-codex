@@ -3,6 +3,7 @@
 work only; not Record.
 
 This shelf is reserved for singularity study routes, concepts, cases, and curriculum notes: AI takeoff, alignment, agency, automation, cognitive infrastructure, recursive improvement, institutional adaptation, and human meaning under accelerating technical change.
+
 At the repo-root level, the stack is:
 
 - [`archive/`](../archive/README.md) for preserved legacy snapshots and non-live holdings
@@ -22,15 +23,9 @@ Use this folder for singularity concepts and study structure, not for generic AI
 
 ## Current Workshop Anchor
 
-- [Coffee D - Singularity Operating Sheet](workshop/sheets/coffee-d-singularity.md) - compact route for using Coffee D as agency-under-acceleration work rather than default commercial work.
+- [Synthesis](synthesis/README.md) - first-class monthly singularity synthesis shelf for extracting analytical value and actionable ideas from the Innermost Loop archive.
 - [Notes](notes/README.md) - first-class singularity notes shelf for exploratory and bounded interpretive outputs.
 - [Essays](essays/README.md) - first-class singularity essay shelf for more synthesized, stand-alone, carriage-bearing long-form outputs.
-- [Sovereignty Under Acceleration](workshop/sheets/sovereignty-under-acceleration.md) - bridge into repo-root `statecraft/` when AI becomes infrastructure power and the problem turns into authority, carrier, and sovereignty design.
-- [Keystone Helix](workshop/keystone-helix.md) - defines the paired Innermost Loop / Moonshots method for turning acceleration signals into workshop cases.
-- [The Innermost Loop - 2026-05-15](workshop/sheets/innermost-loop-2026-05-15.md) - source-bound acceleration map for optimizer recursion, cyber hardening, compute sovereignty, data-center legitimacy, and value-perception checks.
-- [The Innermost Loop - 2026-05-16](workshop/sheets/innermost-loop-2026-05-16.md) - source-bound acceleration map for world models, memory, agent swarms, synthetic reality, token economics, and human-meaning checks.
-- [The Innermost Loop - 2026-05-17](workshop/sheets/innermost-loop-2026-05-17.md) - source-bound acceleration map for agency, substrate, rollback, and human-meaning checks.
-- [Moonshots EP #255 - Singularity Economy](workshop/sheets/moonshots-ep-255-singularity-economy.md) - source-bound podcast bridge for compute substrate, recursive agents, singularity economics, alignment narrative, and orbital infrastructure.
 
 ## External Watchlist
 
@@ -42,17 +37,17 @@ Use this folder for singularity concepts and study structure, not for generic AI
 
 ## Output Surfaces
 
-`singularity/` now recognizes two first-class prose output folders alongside workshop doctrine, sheets, raw captures, and watch surfaces:
+`singularity/` now recognizes three first-class output classes alongside workshop doctrine, sheets, raw captures, and watch surfaces:
 
+- [synthesis/](synthesis/README.md) for monthly singularity synthesis and route decisions
 - [notes/](notes/README.md) for working, exploratory, bounded interpretive outputs
 - [essays/](essays/README.md) for more synthesized, stand-alone, carriage-bearing long-form outputs
 
 Routing law:
 
+- use `synthesis/` when the main job is extracting month-level analytical value and actionable ideas from the Innermost Loop archive
 - use `notes/` when the piece is exploratory, bounded, workshop-adjacent, route-shaping, or interpretively partial
 - use `essays/` when the piece is synthesized enough to stand on its own as a more stable argument or carriage-bearing long-form output
-
-These are root-native singularity output classes even though `workshop/` remains the active operating layer.
 
 ## Raw Capture Backfill
 
@@ -193,3 +188,4 @@ Full local captures for the current Innermost Loop backfill live under `source-a
 - [The Innermost Loop raw - 2026-05-15](../source-archive/singularity/innermost-loop/innermost-loop-2026-05-15.md) - full newsletter capture.
 - [The Innermost Loop raw - 2026-05-16](../source-archive/singularity/innermost-loop/innermost-loop-2026-05-16.md) - full newsletter capture.
 - [The Innermost Loop raw - 2026-05-17](../source-archive/singularity/innermost-loop/innermost-loop-2026-05-17.md) - full newsletter capture.
+

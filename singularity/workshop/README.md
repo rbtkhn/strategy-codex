@@ -226,6 +226,7 @@ Full local captures live here for close reading. Interpretive source sheets stay
 
 ## Longitudinal Views
 
+- [Innermost Loop synthesis index](../synthesis/README.md) - monthly singularity reasoning layer above raw captures, longitudinal spine, and support notes.
 - [The Innermost Loop longitudinal spine](longitudinal/innermost-loop.md) - dated front-by-front trend view.
 - [The Innermost Loop signals JSON](longitudinal/innermost-loop-signals.json) - structured deterministic front index.
 - [Spine Health Checklist](longitudinal/spine-health-checklist.md) - quick QA pass for coverage, review load, bridge isolation, and rebuild sanity.

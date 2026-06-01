@@ -219,3 +219,17 @@ skills:
     verify_forbidden_substrings:
       - users/grace-mar/
       - process_approved_candidates
+  - name: singularity-monthly-synthesis
+    source: singularity-monthly-synthesis/SKILL.md
+    appendix: .cursor/skills/singularity-monthly-synthesis/CURSOR_APPENDIX.md
+    target: .cursor/skills/singularity-monthly-synthesis/SKILL.md
+    verify_forbidden_substrings:
+      - users/grace-mar/
+      - process_approved_candidates
+  - name: singularity-note-promotion
+    source: singularity-note-promotion/SKILL.md
+    appendix: .cursor/skills/singularity-note-promotion/CURSOR_APPENDIX.md
+    target: .cursor/skills/singularity-note-promotion/SKILL.md
+    verify_forbidden_substrings:
+      - users/grace-mar/
+      - process_approved_candidates
