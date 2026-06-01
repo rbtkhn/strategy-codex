@@ -46,7 +46,7 @@ Machine-constitutional and source-bearing files stay where they already belong:
 - [interpretive-machine.md](./interpretive-machine.md) - stand-alone thesis about interpretive learning systems
 - [sovereignty-under-acceleration.md](./sovereignty-under-acceleration.md) - authority-and-sovereignty thesis
 - [agent-control-plane.md](./agent-control-plane.md) - control-plane thesis surface
-- [pope-leo-on-ai.md](./pope-leo-on-ai.md) - placeholder shell for a future essay on Catholic AI doctrine and human authority
+- [pope-leo-on-ai.md](./pope-leo-on-ai.md) - singularity-side placeholder shell for Catholic AI doctrine as a question of mediation, anthropology, and synthetic judgment
 
 ## Promotion Path
 

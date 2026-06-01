@@ -49,6 +49,7 @@ Machine-constitutional files stay where they already belong:
 - [high-skill-labor-compression-and-american-command.md](./high-skill-labor-compression-and-american-command.md) - lane-specific statecraft thesis
 - [three-layers-of-recursive-learning-in-statecraft.md](./three-layers-of-recursive-learning-in-statecraft.md) - stand-alone model of the journal's current maturation
 - [from-accumulation-to-governed-interpretive-machine.md](./from-accumulation-to-governed-interpretive-machine.md) - teachable explanation of what the repo is becoming and why that changes what matters
+- [pope-leo-on-ai.md](./pope-leo-on-ai.md) - placeholder shell for the statecraft-side reading of papal AI doctrine as office, legitimacy, and civilizational authority under acceleration
 
 ## Promotion Path
 
@@ -78,6 +79,7 @@ The shelf is currently seeded with promoted copies of strong essays. Treat them 
 - [high-skill-labor-compression-and-american-command.md](./high-skill-labor-compression-and-american-command.md) from [../america/high-skill-labor-compression-and-american-command.md](../america/high-skill-labor-compression-and-american-command.md)
 - [three-layers-of-recursive-learning-in-statecraft.md](./three-layers-of-recursive-learning-in-statecraft.md) as a shelf-native synthesized essay
 - [from-accumulation-to-governed-interpretive-machine.md](./from-accumulation-to-governed-interpretive-machine.md) as a shelf-native explanatory essay
+- [pope-leo-on-ai.md](./pope-leo-on-ai.md) as a shelf-native placeholder for the Vatican office and legitimacy version
 
 ## Return Path
 

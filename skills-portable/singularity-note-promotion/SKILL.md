@@ -127,3 +127,17 @@ When the note is real:
 ## Success condition
 
 The new note becomes a reusable singularity argument with clear source anchors and clear return paths, while the parent month remains the owning context for everything that was not promoted.
+
+## Repo notes
+
+- Use this skill to keep `Pope Leo on AI` singularity-side when the bounded object is mediation, anthropology, synthetic judgment, authorship, or human formation under acceleration.
+- If the note starts depending on papal office, legitimacy, Rome, authority, civilizational carry, or settlement-bearing burden, stop promotion and hand the object to `statecraft` instead of absorbing both lanes into one singularity surface.
+- Do not mirror `Barnes on AI` into `singularity`. In this repo it remains a `statecraft` speaker-owned side topic rather than a singularity note or essay family.
+
+## Preferred maintenance commands after skill edits
+
+```powershell
+python scripts/sync_portable_skills.py --skill singularity-note-promotion
+python scripts/sync_portable_skills.py --verify --skill singularity-note-promotion
+python scripts/validate_skills.py
+```

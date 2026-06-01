@@ -151,6 +151,8 @@ After routing, treaty frameworks, policy papers, negotiation briefs, and Richeli
 
 **Statecraft grounding:** convert sources into instruments, not commentary. When source material matters, name the actor, interest, institutional carrier, leverage point, and proposed instrument before drafting. When a draft needs historical, civilizational, or empire-pattern grounding, prefer [civ-state](../../../statecraft/civ-state/README.md) as the active Civilization and Empire source base; keep `ph-civ` public-facing and `CIV-MEM` legacy/provenance-only. Useful sheets include [speaker-insight-to-policy-memo.md](../../../statecraft/sheets/speaker-insight-to-policy-memo.md), [comprehensive-power-vs-coercive-center.md](../../../statecraft/sheets/comprehensive-power-vs-coercive-center.md), and [sovereignty-under-acceleration.md](../../../codex/academy/singularity/workshop/sheets/sovereignty-under-acceleration.md).
 
+**AI essay routing cue:** when a new session reopens AI-adjacent writing, prefer **D. Singularity** for mediation, anthropology, authorship, synthetic judgment, human formation, and acceleration-substrate questions. Prefer **C. Statecraft** for office, legitimacy, authority, Rome, civilizational carry, settlement, and command questions. In this repo, **Barnes on AI** is `statecraft`-only and should not reopen as a generic singularity AI essay.
+
 When the operator asks for the daily main-stream update (Davis, Diesen, Alkorshid/Dialogue Works, Napolitano/Judging Freedom, Mercouris), route that through the explicit **`check streams`** skill, not through Coffee C by default. `cognition streams` remains a legacy alias.
 
 When the operator asks for daily brief, Polymarket/polling, `last30days`, or broad current-events judgment, use explicit daily-brief / strategy / check-streams routes. When the operator names a specific recent event for statecraft analysis, verify the unstable fact pattern, name the crisis object, then route through `state-deploy` or the owning lane rather than opening a separate event skill.
@@ -211,6 +213,8 @@ D. Singularity - <one short line: singularity-academy module / agency under acce
 **Hub lines end at D:** the coffee hub is four lines only. Conductor is standalone and does not appear as a coffee hub letter.
 
 **Filling D - Singularity:** activate the WORK-only singularity-academy module at [Singularity Workshop](../../../codex/academy/singularity/workshop/README.md). Use its workflow: name acceleration, name agent, test alignment, test substrate, test displacement, produce reuse. Ground the turn in one workshop target such as [agent-control-plane.md](../../../codex/academy/singularity/workshop/sheets/agent-control-plane.md), [keystone-helix.md](../../../codex/academy/singularity/workshop/keystone-helix.md), the latest Innermost Loop sheet, or [interface-operating-layer-2028.md](../../../codex/academy/singularity/workshop/sheets/interface-operating-layer-2028.md).
+
+**Pope Leo split cue:** if the live object is `Pope Leo on AI`, singularity owns mediation, anthropology, synthetic judgment, authorship, and human formation. If the governing nouns become papal office, legitimacy, Rome, authority, or civilizational burden-bearing, route back across the handoff into `statecraft` rather than widening the singularity branch.
 
 When hub **D** is chosen, reply with a bounded **Singularity menu - reply A-D** unless the operator already named a specific Singularity artifact:
 

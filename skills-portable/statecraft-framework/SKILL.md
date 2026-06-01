@@ -134,3 +134,17 @@ This skill succeeds when the next move becomes obvious:
 - what others are most likely to misread
 - what is most likely to fail
 - where the operator should retrieve next
+
+## Repo notes
+
+- Use this skill to keep `Pope Leo on AI` lane-split honest. The `statecraft` version owns papal office, legitimacy, Rome as civilizational carrier, authority under acceleration, and settlement-bearing implications.
+- If a Pope Leo read is primarily about mediation, anthropology, authorship, synthetic judgment, or human formation, hand it back to `singularity` rather than flattening it into legitimacy talk too early.
+- `Barnes on AI` is `statecraft`-only in this repo. Treat it as a speaker-owned side topic about bubble dynamics, incentive structure, energy dependence, and command pressure, not as a generic singularity AI essay.
+
+## Preferred maintenance commands after skill edits
+
+```powershell
+python scripts/sync_portable_skills.py --skill statecraft-framework
+python scripts/sync_portable_skills.py --verify --skill statecraft-framework
+python scripts/validate_skills.py
+```
