@@ -64,3 +64,4 @@ The compact distinction is:
 - [2026-05-29](2026-05-29.md)
   - [2026-05-29 - Pape vs Freeman-Sachs-Marandi](2026-05-29-pape-vs-freeman-sachs-marandi.md)
 - [2026-05-30](2026-05-30.md)
+- [2026-05-31](2026-05-31.md)
