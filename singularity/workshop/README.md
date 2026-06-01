@@ -4,18 +4,20 @@ work only; not Record.
 
 The Singularity Workshop is the active-use layer of singularity-academy. It begins with agency under acceleration, not a 25-book canon.
 
+Inside the repo's two-channel operator architecture, this workshop is a core working surface of the `singularity` channel rather than a peer to `statecraft`. For the shared routing law, open [Two-Channel Operator Architecture](/C:/dev/strategy-codex/docs/operator-two-channel-architecture.md).
+
 For the lane-specific membrane grammar, open [singularity work membrane](../work-membrane.md). For the shared base across active lanes, open [docs/work-membrane-v2.md](../../docs/work-membrane-v2.md).
 
 ## Consolidated Overlay Lanes
 
 `singularity-academy` may consolidate other work lanes when the purpose is not merely to operate them, but to test the Innermost Loop / Moonshots thesis in live conditions: recursive self-improving AI, agent control, substrate dependence, skill displacement, and real-world leverage across unrelated projects.
 
-Most overlay lanes keep their own canonical shelves. `work-cici` is the exception: its live authority now sits at [singularity/work-cici](../work-cici/README.md), while `docs/skill-work/work-cici/` remains a compatibility pointer.
+Most overlay lanes keep their own canonical shelves. `work-cici` is the main singularity-native cohort/advisor overlay: its live authority now sits at [singularity/work-cici](../work-cici/README.md), while `docs/skill-work/work-cici/` remains a compatibility pointer.
 
 This consolidation is work-only. `singularity-academy` does not use `candidates`, `recursion-gate`, or governed Record routing as part of its normal flow. If a durable cross-session fact or identity-level claim later needs governed treatment, route it out of the workshop explicitly at the boundary rather than building gate mechanics into the workshop itself.
 
 - [work-business](../../docs/skill-work/work-business/README.md) - operator ventures such as Grace Gems become live singularity test cases when the question is whether agents improve throughput, judgment, marketing, bookkeeping, or business formation over repeated cycles.
-- [work-cici](../work-cici/README.md) - Cici AI / cohort / advisor work becomes a live singularity test case when the question is whether recursive AI scaffolds help novices start, coordinate, learn, and compound faster than ordinary onboarding or coaching.
+- [work-cici](../work-cici/README.md) - Cici AI is the singularity-native cohort / advisor overlay for testing whether recursive AI scaffolds help novices start, coordinate, learn, and compound faster than ordinary onboarding or coaching.
 - [work-dev](../../docs/skill-work/work-dev/README.md) - OpenClaw, external-agent, eval, control-plane, substrate, and code-intelligence work becomes a live singularity test case when the question is whether recursive tooling, agents, and technical control planes create durable leverage under acceleration.
 
 Use the workshop to compare these lanes by the same fields:

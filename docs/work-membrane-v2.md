@@ -5,6 +5,7 @@
 This doc upgrades the old binary `Record vs work` framing into a typed membrane model. The old law remains true: `Record` stays gated and work may not silently mutate identity truth. The new contribution is legibility: non-Record surfaces now have named classes, route types, and durability expectations.
 
 **Lane overlays:** [statecraft/work-membrane.md](../statecraft/work-membrane.md), [singularity/work-membrane.md](../singularity/work-membrane.md)
+**Operator routing law:** [operator-two-channel-architecture.md](./operator-two-channel-architecture.md)
 
 **Live examples companion:** [work-membrane-live-examples.md](work-membrane-live-examples.md)
 
@@ -130,6 +131,8 @@ This is the main classification table for active doctrine. When in doubt, classi
 | `singularity` | `what is the system?` | bounded doctrine and design artifacts | architecture, protocol, and runtime reasoning |
 
 This table exists so the two lanes do not collapse into one generic idea of "workshop."
+
+At the operator-routing layer, these are also the repo's two primary **channels**. Other `work-*` territories are usually overlays or execution surfaces nested beneath one of them rather than equal sovereign categories.
 
 ---
 

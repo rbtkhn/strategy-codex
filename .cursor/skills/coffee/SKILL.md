@@ -23,6 +23,8 @@ Multiple `coffee` sessions per day are normal. That is not redundancy; it is the
 
 **Legacy label compatibility:** Older checks and notes may say **`C. Strategy (daily brief)`**, **`C. Strategist`**, or daily brief via **C**. Treat those as compatibility aliases only. Live **C. Statecraft** now opens a router-first statecraft entry inside repo-root [statecraft](../../../statecraft/README.md): **Deploy**, **Compact**, **Speaker-Bridge**, or **Lane Direct**. After **Lane Direct**, the next honest menu is the owning lane's transcript-grounded intake menu, not an immediate jump to helix / state / transactions. Treaty, policy, negotiation, and Richelieu/Bismarck drafting remain available downstream after intake and routing. Daily brief, `check streams`, bookshelf elicitation, and generic current-events judgment now require explicit named requests. Named recent events now enter the same stack through brief verification plus `state-deploy` or a direct lane handoff.
 
+At the top level, **C. Statecraft** and **D. Singularity** are the repo's two primary operator **channels**. Other named work territories are normally overlays or proving grounds nested beneath one of those two channels rather than equal sovereign hub categories.
+
 ## Guardrails
 
 - Do not turn `coffee` into a heavy maintenance ritual by default.

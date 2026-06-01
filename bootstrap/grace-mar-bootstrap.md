@@ -82,6 +82,8 @@ End of session: update **`docs/development-handoff.md`**, commit, push if reques
 
 ---
 
+**Operator routing default â€” two channels:** normal top-level routing now begins with **`singularity`** or **`statecraft`**. `work-dev`, `work-cici`, and `work-business` are usually singularity overlays or proving grounds; lane-specific statecraft work remains inside the statecraft channel. Shared law: [docs/operator-two-channel-architecture.md](../docs/operator-two-channel-architecture.md).
+
 **Default session focus â€” work-dev (continue here):**
 1. Read Â§1 (first-run checklist).
 2. Read **`docs/skill-work/work-dev/README.md`** â€” objective, companion gate invariant, principles (merges former work-build-ai).
@@ -182,7 +184,7 @@ If working on companion profile operations (not work-dev), also read:
 
 When loaded in a fresh session, offer these options:
 
-1. **work-dev** (default â€” OpenClaw integration, export, staging, session continuity; read work-dev README + **INTEGRATION-PROGRAM** + openclaw-integration)
+1. **work-dev** (default singularity overlay â€” OpenClaw integration, export, staging, session continuity; read work-dev README + **INTEGRATION-PROGRAM** + openclaw-integration)
 2. **Run session** (chat-first companion interaction; no auto-merge)
 3. **Pipeline operations** (stage/review/apply approved candidates)
 4. **Intent governance** (audit/review/debate packet workflows)

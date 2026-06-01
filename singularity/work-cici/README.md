@@ -2,11 +2,11 @@
 
 ## Purpose
 
-**Cici AI** is the active human-facing name for this lane; the live folder now sits at `singularity/work-cici/`, while `docs/skill-work/work-cici/` remains a compatibility pointer.
+**Cici AI** is the active singularity-native and human-facing name for this lane; the live folder now sits at `singularity/work-cici/`, while `docs/skill-work/work-cici/` remains a compatibility pointer.
 
 `work-cici` is a WORK territory in the grace-mar repo for coordinating advisor/project work with Cici, formerly tracked as Xavier. It preserves the prior Xavier / BrewMind / SMM materials while normalizing the active workspace name to Cici.
 
-**Singularity-academy consolidation:** This lane remains canonically `work-cici`, but it is now also a live `singularity-academy` overlay when the operator is using Cici AI, cohort onboarding, or advisor tooling to test whether recursive AI systems can help people learn, coordinate, and accomplish real work faster. Canonical singularity hub: [Singularity Workshop](../../../singularity/workshop/README.md).
+**Singularity-academy consolidation:** This lane remains canonically `work-cici` as an internal path, but it is now also a live `singularity-academy` overlay when the operator is using Cici AI, cohort onboarding, or advisor tooling to test whether recursive AI systems can help people learn, coordinate, and accomplish real work faster. Canonical singularity hub: [Singularity Workshop](../../../singularity/workshop/README.md).
 
 Under that overlay, keep the work in WORK artifacts. `singularity-academy` is not a `candidates` workflow and should not inherit governed-state overhead during ordinary Cici-singularity passes.
 
@@ -33,7 +33,7 @@ Keep the advisor boundary intact and ask:
 - `work-cici` asks whether AI can raise the floor for newer people, cohorts, or distributed teams.
 - If both work, the thesis starts to look broader than "the operator got faster."
 
-Treat this lane as evidence for the thesis only when the gains are durable and reusable:
+Treat Cici AI as evidence for the thesis only when the gains are durable and reusable:
 
 - onboarding gets easier without collapsing quality
 - people complete real tasks they would otherwise stall on
@@ -55,9 +55,9 @@ This lane was previously named `work-xavier`. It has been renamed to `work-cici`
 
 ## Naming and continuity
 
-- **Cici AI** is the active human-facing lane name.
+- **Cici AI** is the active singularity-facing and human-facing lane name.
 - **Xavier** may appear in legacy filenames, historical notes, and older artifacts.
-- **`work-cici`** is the Grace-Mar advisor/project workspace and canonical path.
+- **`work-cici`** is the canonical internal workspace path and Grace-Mar advisor/project territory for the Cici AI program.
 - Ciciâ€™s **actual governed instance**, if any, lives in **her own repository** (companion / template fork â€” see the section *Her instance repository* below).
 - **This folder must not host Ciciâ€™s Record.** Her cognitive-fork Record lives only under `` in **her** instance repo, behind **her** gate and merge script.
 - Legacy script names such as `build_xavier_handbook_bundle.py` may remain until a separate compatibility-safe rename PR.
@@ -124,7 +124,7 @@ Ciciâ€™s **companion** or **chosen instance** repository (Identity Fork Pro
 
 After the `work-cici` shelf move, treat path residue in three classes:
 
-- **Live authority:** `singularity/work-cici/` is the only live shelf for this lane inside strategy-codex.
+- **Live authority:** `singularity/work-cici/` is the only live shelf for this lane inside strategy-codex, and Cici AI should be treated as singularity-native by default when discussing the program.
 - **Compatibility only:** `docs/skill-work/work-cici/` remains a pointer surface during cutover, not a second authority.
 - **Historical only:** legacy `work-xavier`, `companion-xavier`, and older path strings may remain when they identify real historical artifacts, filename compatibility, or past repo structure.
 

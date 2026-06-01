@@ -4,6 +4,8 @@ work only; not Record.
 
 This is the front-door orientation module for repo-root `statecraft/`.
 
+`statecraft/` is the second of the repo's two primary operator **channels**. Use it when the unresolved question is no longer only what system is emerging, but what legitimacy-bearing, command-bearing, or settlement-bearing object now has to be judged. For the shared routing law, open [Two-Channel Operator Architecture](/C:/dev/strategy-codex/docs/operator-two-channel-architecture.md).
+
 `statecraft/` is now the **canonical operator judgment surface** for live geopolitical, civilizational, legitimacy-bearing, and mechanism-bearing analytical work in this repo. The older `docs/skill-work/work-strategy/` surface remains on disk as a legacy compatibility namespace, but it is no longer the active public/operator-facing owner.
 
 In the current topology:
@@ -13,6 +15,13 @@ In the current topology:
 - `statecraft/` is the interpretive, routing, drafting, recursive-learning, notes, and essays surface
 - `/codex` is the chronological notebook, accumulation, and continuity layer beneath that broader statecraft surface
 - `singularity/` remains the adjacent domain for acceleration, agency, substrate, and alignment questions until those objects mature into judgment, authority, or settlement problems
+
+Read the split this way:
+
+- `singularity` asks what system is emerging
+- `statecraft` asks what object now has to be judged
+
+That is the governing distinction for the two-channel model.
 
 For the lane-specific membrane grammar, open [statecraft work membrane](work-membrane.md). For the shared base across active lanes, open [docs/work-membrane-v2.md](../docs/work-membrane-v2.md).
 

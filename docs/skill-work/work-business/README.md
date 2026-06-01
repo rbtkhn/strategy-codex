@@ -4,7 +4,7 @@
 
 **Objective:** Business planning, accounting, marketing, and market research for **operator-owned ventures** (Grace Gems, future ventures). Supports strategy, operations, financial tracking, and positioning. **WORK only**; not Record truth. Any merge to Record goes through RECURSION-GATE + companion approval.
 
-**Singularity-academy consolidation:** This lane remains canonically `work-business`, but it is now also a live `singularity-academy` overlay when the operator is using ventures to test whether recursive, self-improving AI can produce durable leverage across real commercial work. Canonical singularity hub: [Singularity Workshop](../../../singularity/workshop/README.md).
+**Singularity-academy consolidation:** This lane remains canonically `work-business` as an internal path, but it is now also a live `singularity-academy` overlay when the operator is using ventures to test whether recursive, self-improving AI can produce durable leverage across real commercial work. In the repo's two-channel operator architecture, `work-business` is a singularity-native deployment and compression testbed rather than an equal top-level operator category. Canonical singularity hub: [Singularity Workshop](../../../singularity/workshop/README.md).
 
 **Instance boundary:** All accounting infrastructure, financial data, and venture-specific docs are **grace-mar only**. Nothing in this territory syncs to companion-self. The template provides the *shape* (`work-business.md` stub, seed survey); grace-mar fills it with specific ventures and financial data.
 

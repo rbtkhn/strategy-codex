@@ -4,6 +4,8 @@ work only; not Record.
 
 This shelf is reserved for singularity study routes, concepts, cases, and curriculum notes: AI takeoff, alignment, agency, automation, cognitive infrastructure, recursive improvement, institutional adaptation, and human meaning under accelerating technical change.
 
+`singularity/` is one of the repo's two primary operator **channels**. Use it for acceleration-native interpretation and design pressure before an object becomes a legitimacy, command, or settlement problem for [statecraft](../statecraft/README.md). For the shared routing law, open [Two-Channel Operator Architecture](/C:/dev/strategy-codex/docs/operator-two-channel-architecture.md).
+
 At the repo-root level, the stack is:
 
 - [`archive/`](../archive/README.md) for preserved legacy snapshots and non-live holdings
@@ -26,6 +28,8 @@ Use this folder for singularity concepts and study structure, not for generic AI
 - [Synthesis](synthesis/README.md) - first-class monthly singularity synthesis shelf for extracting analytical value and actionable ideas from the Innermost Loop archive.
 - [Notes](notes/README.md) - first-class singularity notes shelf for exploratory and bounded interpretive outputs.
 - [Essays](essays/README.md) - first-class singularity essay shelf for more synthesized, stand-alone, carriage-bearing long-form outputs.
+- [Cici AI / work-cici](work-cici/README.md) - singularity-native cohort, advisor, and beginner-compounding overlay for testing whether recursive AI meaningfully raises the floor for real-world coordination and learning.
+- [Two-Channel Operator Architecture](/C:/dev/strategy-codex/docs/operator-two-channel-architecture.md) - canonical routing law for `singularity`, `statecraft`, and their overlays.
 - [Shared prose index](/C:/dev/strategy-codex/docs/prose-index.md) - canonical prose-class chooser across domains.
 - [Singularity-Statecraft handoff law](/C:/dev/strategy-codex/docs/singularity-statecraft-handoff-law.md) - the protocol for deciding when an acceleration object has become a judgment-bearing route and whether it should stay in singularity, cross through `compact`, move directly into `statecraft`, or return upstream.
 
@@ -37,7 +41,7 @@ Use this folder for singularity concepts and study structure, not for generic AI
 
 - [Spine Health Checklist](workshop/longitudinal/spine-health-checklist.md) - quick QA pass for coverage, review load, bridge isolation, and rebuild sanity.
 
-The four links above are the live output-routing anchor for this domain.
+The six links above are the live output-routing anchor for this domain.
 
 Use [shared prose index](/C:/dev/strategy-codex/docs/prose-index.md) as the canonical chooser whenever the class decision itself is still open. Treat the local shelf READMEs as shelf-specific orientation after that choice has been made.
 
