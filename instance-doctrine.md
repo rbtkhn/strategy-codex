@@ -10,6 +10,8 @@ Distinct modes govern what the agent may do. Avoid mixing them.
 
 **Active identity:** In this repository, default all operator work to `strategy-codex`. Mentions of `grace-mar`, `Grace-Mar`, or `companion-self` in older docs, examples, paths, or archived reports are legacy context unless the operator explicitly asks for that migration/archive lane. Do not infer companion-self template sync from a bare Steward, coffee, integrity, or boundary request.
 
+**Shared membrane:** For the typed `Record` / `governed adjacent` / `instrumental work` / `runtime / derived` / `external complements` model, see [docs/work-membrane-v2.md](docs/work-membrane-v2.md). Use [statecraft/work-membrane.md](statecraft/work-membrane.md) and [singularity/work-membrane.md](singularity/work-membrane.md) when the session is lane-specific.
+
 | Mode | Purpose | Agent behavior |
 |------|---------|----------------|
 | **Session** | Interactive conversation with companion | Respond as Voice; propose activities. Do not merge. Do not stage unless "we [did X]" triggers pipeline. |
@@ -134,13 +136,13 @@ repo-root/
         Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ self-skills.md      # Capability index (Claims, Gaps, Struggles, Milestones); legacy `skills.md` resolved until migrated
         Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ skill-think.md      # THINK container (repo-specific root filename; conceptual label: self-skill-think)
         Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ skill-write.md      # WRITE container (repo-specific root filename; conceptual label: self-skill-write)
-        Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ codex/predictive-history/README-operator.md        # WORK Ã¢â‚¬” Jiang project
+        Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ codex/predictive-history/README-operator.md        # work Ã¢â‚¬” Jiang project
         Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ self-archive.md          # EVIDENCE Ã¢â‚¬” activity log + Ã‚§ VIII gated approved
         Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ self-evidence.md         # optional compatibility pointer (canonical body is self-archive.md)
         Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ self-library.md     # SELF-LIBRARY Ã¢â‚¬” reference-facing governed domains; CIV-MEM subdomain; not SELF-KNOWLEDGE
         Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ SELF-LIBRARY/       # Navigator: INDEX.md, CIV-MEM.md (optional; points at self-library + corpus)
         Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ self-memory.md      # self-memory Ã¢â‚¬” short/medium/long continuity (optional; not part of Record; rotatable)
-        Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ self-history.md     # Derived dual log: WORK aggregate + gate-approved companion thread (optional; not Record)
+        Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ self-history.md     # Derived dual log: work aggregate + gate-approved companion thread (optional; not Record)
         Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ session-log.md      # Interaction history
         Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ recursion-gate.md   # Pipeline staging
         Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ reflection-proposals/  # Operator reflection cycle outputs (REFLECT-*.md); not canonical Record

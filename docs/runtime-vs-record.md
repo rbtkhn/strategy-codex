@@ -6,6 +6,8 @@ Primary doctrine in this repo stays **derived / rebuildable / non-canonical**. I
 
 **Companion:** [operator-mental-model.md](operator-mental-model.md) (navigation-oriented summary).
 
+**Shared membrane:** [work-membrane-v2.md](work-membrane-v2.md) defines the typed model across `Record`, `governed adjacent`, `instrumental work`, `runtime / derived`, and `external complements`. This page stays focused on authority and freshness, not the full lane overlay grammar.
+
 **Constraint rule:** Read alongside [GRACEFUL-CONSTRAINT-DOCTRINE](graceful-constraint-doctrine.md). When regeneration fails, dependencies disappear, or context thins, the system should degrade visibly and preserve authority boundaries rather than bluffing freshness.
 
 ---
@@ -18,7 +20,7 @@ These change only through the **gated pipeline** and companion-approved merge ([
 |---------|---------------------------|--------|
 | **SELF** | `self.md` | Identity, SELF-KNOWLEDGE (IX-A/B/C), narrative |
 | **SELF-LIBRARY** | `self-library.md` | Governed reference, CIV-MEM scopes |
-| **SKILLS** | `self-skills.md` | Capability index (THINK / WRITE / WORK skills as documented) |
+| **SKILLS** | `self-skills.md` | Capability index (THINK / WRITE / work skills as documented) |
 | **EVIDENCE** | `self-archive.md` | Activity log, artifacts log, approved evidence |
 
 **Approval Inbox:** `recursion-gate.md` — staging only until processed.
@@ -27,7 +29,7 @@ These change only through the **gated pipeline** and companion-approved merge ([
 
 ## Work territories (`docs/skill-work/work-*`)
 
-**WORK** lanes are for planning, judgment, notebooks, and execution support. They are **not** Record truth. Promotion into SELF / EVIDENCE / prompt requires the same **gate + merge script** as any other profile change.
+Work lanes are for planning, judgment, notebooks, and execution support. They are **not** Record truth. In membrane-v2 terms they are primarily `instrumental work`, while some durable outputs they produce may stabilize as `governed adjacent` or `runtime / derived` surfaces. Promotion into SELF / EVIDENCE / prompt requires the same **gate + merge script** as any other profile change.
 
 ---
 
@@ -79,14 +81,14 @@ If a runtime-only or derived surface cannot currently prove freshness, treat it 
 
 ## Forecasting boundary
 
-Forecast outputs belong to WORK unless and until a human separately stages a downstream conclusion for review.
+Forecast outputs belong to work unless and until a human separately stages a downstream conclusion for review.
 A forecast artifact is not a Record fact.
 It is a provisional planning object with explicit assumptions, invalidators, and uncertainty.
 See [docs/skill-work/work-forecast/forecast-protocol.md](skill-work/work-forecast/forecast-protocol.md).
 
 ## Forecast receipts and observability
 
-Forecast artifacts, forecast receipts, and forecast observability reports belong to WORK.
+Forecast artifacts, forecast receipts, and forecast observability reports belong to work.
 They are rebuildable legibility surfaces, not Record truth.
 
 A forecast may inform planning.
@@ -94,7 +96,7 @@ A forecast may not directly redefine identity, memory, or canonical claims.
 
 ## Forecast references inside work-strategy
 
-Forecast artifacts may be cited inside watches, notebooks, and decision points in WORK.
+Forecast artifacts may be cited inside watches, notebooks, and decision points in work.
 That citation does not make the forecast a Record fact.
 
 Forecasting belongs to planning and judgment support.

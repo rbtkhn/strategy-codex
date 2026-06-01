@@ -1,16 +1,18 @@
 # Singularity Workshop
 
-WORK only; not Record.
+work only; not Record.
 
 The Singularity Workshop is the active-use layer of singularity-academy. It begins with agency under acceleration, not a 25-book canon.
 
+For the lane-specific membrane grammar, open [singularity work membrane](../work-membrane.md). For the shared base across active lanes, open [docs/work-membrane-v2.md](../../docs/work-membrane-v2.md).
+
 ## Consolidated Overlay Lanes
 
-`singularity-academy` may consolidate other WORK lanes when the purpose is not merely to operate them, but to test the Innermost Loop / Moonshots thesis in live conditions: recursive self-improving AI, agent control, substrate dependence, skill displacement, and real-world leverage across unrelated projects.
+`singularity-academy` may consolidate other work lanes when the purpose is not merely to operate them, but to test the Innermost Loop / Moonshots thesis in live conditions: recursive self-improving AI, agent control, substrate dependence, skill displacement, and real-world leverage across unrelated projects.
 
 Most overlay lanes keep their own canonical shelves. `work-cici` is the exception: its live authority now sits at [singularity/work-cici](../work-cici/README.md), while `docs/skill-work/work-cici/` remains a compatibility pointer.
 
-This consolidation is WORK-only. `singularity-academy` does not use `candidates`, `recursion-gate`, or governed Record routing as part of its normal flow. If a durable cross-session fact or identity-level claim later needs governed treatment, route it out of the workshop explicitly at the boundary rather than building gate mechanics into the workshop itself.
+This consolidation is work-only. `singularity-academy` does not use `candidates`, `recursion-gate`, or governed Record routing as part of its normal flow. If a durable cross-session fact or identity-level claim later needs governed treatment, route it out of the workshop explicitly at the boundary rather than building gate mechanics into the workshop itself.
 
 - [work-business](../../docs/skill-work/work-business/README.md) - operator ventures such as Grace Gems become live singularity test cases when the question is whether agents improve throughput, judgment, marketing, bookkeeping, or business formation over repeated cycles.
 - [work-cici](../work-cici/README.md) - Cici AI / cohort / advisor work becomes a live singularity test case when the question is whether recursive AI scaffolds help novices start, coordinate, learn, and compound faster than ordinary onboarding or coaching.
@@ -58,7 +60,7 @@ For Coffee D specifically, add one routing question before closing the pass: has
 
 ## Commercial Wedge
 
-- [Singularity-Academy AI Operating System Sprint](../../docs/skill-work/work-business/singularity-academy-ai-operating-system-sprint.md) - WORK-only service offer for testing whether control-plane, reporting, and beginner-safe workflow doctrine can become a real paid install.
+- [Singularity-Academy AI Operating System Sprint](../../docs/skill-work/work-business/singularity-academy-ai-operating-system-sprint.md) - work-only service offer for testing whether control-plane, reporting, and beginner-safe workflow doctrine can become a real paid install.
 - [Singularity-Academy `$5k/mo` Roadmap](../../docs/skill-work/work-business/singularity-academy-5000mo-roadmap.md) - narrow business path for turning the workshop's live-lane doctrine into one sellable service instead of a content-only posture.
 
 ## Keystone Helix
@@ -71,11 +73,11 @@ For Coffee D specifically, add one routing question before closing the pass: has
 - [The Innermost Loop - 2026-05-16](sheets/innermost-loop-2026-05-16.md) - weekly acceleration bundle mapped into world models, memory, agent swarms, substrate, synthetic reality, and token economics.
 - [The Innermost Loop - 2026-05-17](sheets/innermost-loop-2026-05-17.md) - weekly acceleration bundle mapped into agency, substrate, rollback, and cross-shelf bridge questions.
 - [Compute Futures: The Singularity Gets a Price Curve](sheets/compute-futures-singularity-price-curve.md) - workshop-strict bridge note connecting the May 2026 Innermost Loop pulses and recent Moonshots synthesis around compute financialization, agentic distribution, trust infrastructure, and science as proving ground.
-- [Future Roadmap Implications](sheets/future-roadmap-implications.md) - downstream bridge note translating the compute-financialization and agentic-distribution pattern into roadmap priorities across substrate governance, control planes, trust infrastructure, and live WORK lanes.
+- [Future Roadmap Implications](sheets/future-roadmap-implications.md) - downstream bridge note translating the compute-financialization and agentic-distribution pattern into roadmap priorities across substrate governance, control planes, trust infrastructure, and live work lanes.
 - [Moonshots EP #255 - Singularity Economy](sheets/moonshots-ep-255-singularity-economy.md) - podcast bridge for Anthropic/SpaceX compute, singularity economics, recursive agents, alignment narratives, and orbital infrastructure.
 - [Moonshots EP #256 - Inner Loop, Full Stack, and Trust Infrastructure](sheets/moonshots-ep-256-inner-loop-full-stack-trust.md) - podcast bridge for recursive self-improvement, stack control, ambient agents, trust infrastructure, and compute/chips as singularity substrate.
 - [AI interface as operating layer - 2028 horizon](sheets/interface-operating-layer-2028.md) - practical design sheet for outcome-first workflows, agent-addressable actions, memory, permissions, receipts, and rollback.
-- [Narrative-Shaped Alignment](sheets/narrative-shaped-alignment.md) - WORK-only strategy sheet for tracking how cultural material, PH-CIV discipline, and positive future stories may shape model behavior.
+- [Narrative-Shaped Alignment](sheets/narrative-shaped-alignment.md) - work-only strategy sheet for tracking how cultural material, PH-CIV discipline, and positive future stories may shape model behavior.
 - [Karpathy Watchlist](sheets/karpathy-watchlist.md) - source-bound bridge from the Karpathy profile and pinned repos into agency, substrate, and educational-baseline questions.
 
 ## External Watchlist
@@ -238,6 +240,21 @@ Full local captures live here for close reading. Interpretive source sheets stay
 
 ## Boundary
 
-This workshop may generate WORK notes. It does not replace AI news capture, model benchmarks, product-release tracking, `source-archive`, speaker folders, technical specs, or Record surfaces.
+This workshop may generate work notes. It does not replace AI news capture, model benchmarks, product-release tracking, `source-archive`, speaker folders, technical specs, or Record surfaces.
 
-Normal workshop output is WORK artifact, not candidate generation.
+Normal workshop output is work artifact, not candidate generation.
+
+## Notes And Essays
+
+The singularity domain now has root-native first-class prose output shelves:
+
+- [singularity/notes](../notes/README.md)
+- [singularity/essays](../essays/README.md)
+
+Use them this way:
+
+- keep workshop operating doctrine, sheets, source sheets, and raw captures where they already belong
+- route exploratory, bounded, or workshop-adjacent prose into `../notes/`
+- route more synthesized, stand-alone, carriage-bearing long-form outputs into `../essays/`
+
+This is a forward-only storage law. Existing prose is not being broadly migrated in this first pass.

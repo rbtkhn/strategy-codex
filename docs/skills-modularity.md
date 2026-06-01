@@ -6,6 +6,8 @@
 
 **Status:** Active
 
+**Shared membrane companion:** [work-membrane-v2.md](work-membrane-v2.md) defines the typed non-Record membrane classes and the lane overlays for `statecraft` and `singularity`. This doc remains the formal module spec for the Record and its adjacent work layer.
+
 ---
 
 ## 1. Full module set (companion self / Record)
@@ -35,10 +37,10 @@ Additional Record components (self-archive, self-memory, evidence logs) are defi
 |--------|----------------|---------------------|--------|
 | **THINK** | self-skill-think | THINK container, READ-nnn | Intake, learning, comprehension (multimodal) |
 | **WRITE** | self-skill-write | WRITE container, WRITE-nnn | Production (text, journal, stories, explanations) |
-| **WORK** | self-skill-work | WORK container, CREATE-/ACT- as appropriate | Making and doing; project objectives and tasks |
+| **work** | self-skill-work | work container, CREATE-/ACT- as appropriate | Making and doing; project objectives and tasks |
 | **STEWARD** | self-skill-steward | STEWARD section / file | Governance literacy â€” participation at the gate; evidenced, tier-sensitive |
 
-The **formal minimal pair** for Voice linguistics and core capability indexing remains **THINK** and **WRITE**. **WORK** and **STEWARD** are **additional Record-bound capability surfaces** on the companion-self **split template** (and may appear as sections or sibling files under `` per instance layout). All follow the same boundary: capability and evidence in SKILLS; IX-A/B/C only via analyst/operator staging â†’ gate â†’ approval.
+The **formal minimal pair** for Voice linguistics and core capability indexing remains **THINK** and **WRITE**. **work** and **STEWARD** are **additional Record-bound capability surfaces** on the companion-self **split template** (and may appear as sections or sibling files under `` per instance layout). All follow the same boundary: capability and evidence in SKILLS; IX-A/B/C only via analyst/operator staging â†’ gate â†’ approval.
 
 **Current shape guidance:** WRITE currently works best as a single pure capability container. THINK may include clearly labeled contextual domain overlays and goal-interpretation overlays when they help adjacent work contexts read the skill state, but those overlays do not create new self-skills. STEWARD should stay **coaching-oriented** â€” not a compliance scorecard.
 
@@ -61,10 +63,10 @@ Each Record skill module updates **only** its capability container in SKILLS. Mo
 |--------|------------------|----------------------|
 | **THINK** | Content consumed, modality, comprehension, inference, vocabulary, interests (intake); learning from doing | Does not stage IX-A / IX-B / IX-C candidates |
 | **WRITE** | Vocabulary, complexity, style, expression, logic, growth (production) | Does not stage IX-A / IX-B / IX-C candidates |
-| **WORK** | Project goals, tasks, execution habits, shipping evidence | Does not bypass gate for identity truth |
+| **work** | Project goals, tasks, execution habits, shipping evidence | Does not bypass gate for identity truth |
 | **STEWARD** | Demonstrated gate vocabulary, review practice, boundary understanding | Does not confer merge authority or replace Mind |
 
-**Work boundary:** Work territories may plan, execute, and use tools outside the Record skill boundary. They may use open-world model capability. But work surfaces do not write Record truth directly; any identity, knowledge, curiosity, personality, or evidence change still goes through RECURSION-GATE and companion approval.
+**Work boundary:** Work territories may plan, execute, and use tools outside the Record skill boundary. They may use open-world model capability. In membrane-v2 terms those territories are usually `instrumental work`, while some durable outputs may become `governed adjacent` or `runtime / derived`. But work surfaces do not write Record truth directly; any identity, knowledge, curiosity, personality, or evidence change still goes through RECURSION-GATE and companion approval.
 
 **Analyst vs. modules:** The **analyst** (pipeline) extracts patterns for **self-knowledge (IX-A), curiosity (IX-B), and personality (IX-C)** from inputs and stages candidates to RECURSION-GATE â†’ SELF. So one input can update both (1) a skill container (THINK/WRITE) for *capability*, and (2) SELF (IX-A/B/C) via analyst-staged candidates. The analyst serves SELF; the skill modules serve SKILLS. Work activity can also produce staged candidates or evidence, but only through the same gate. See [SKILLS-TEMPLATE Â§ III](skills-template.md#iii-skill-interactions-and-the-self), [ARCHITECTURE Â§ Multi-Dimension Signals](architecture.md#multi-dimension-signals).
 
@@ -135,9 +137,9 @@ Input (conversation, artifact, "we did X")
 - **Record** = SELF + SKILLS + EVIDENCE (and related pipeline files). The Record belongs to the companion.
 - **Voice** = f(Record). Implemented by bot (e.g. Telegram, WeChat) + prompt + retrieval. Linguistic output = f(skill-write).
 - **Work layer** = designated integration point for external APIs, agent loops, planning systems, delivery tooling, and **`docs/skill-work/**` territories**. It is adjacent to the Record, not a self-skill.
-- **WORK execution layer** = operator + tooling + AI assistant that **executes** work-layer and skill-work tasks (draft, mirror, template diff). Same **stage-only** rule for Record: no direct merge into SELF / EVIDENCE / prompt without companion approval.
+- **work execution layer** = operator + tooling + AI assistant that **executes** work-layer and skill-work tasks (draft, mirror, template diff). Same **stage-only** rule for Record: no direct merge into SELF / EVIDENCE / prompt without companion approval.
 
-**Discipline as a capability surface.** The companion's value in WORK execution includes superhuman consistency â€” maintaining runbooks, mirrors, and protocol adherence without fatigue or emotional drift. The transcript evidence: bots on Polymarket won not with better strategies but with flawless execution (no fatigue at 3 a.m., no oversized positions on confident bets, no missed trades during lunch). When auditing skill-work patterns, track not just what the system can do but how reliably it does it. Execution discipline gaps are a primary leverage point.
+**Discipline as a capability surface.** The companion's value in work execution includes superhuman consistency â€” maintaining runbooks, mirrors, and protocol adherence without fatigue or emotional drift. The transcript evidence: bots on Polymarket won not with better strategies but with flawless execution (no fatigue at 3 a.m., no oversized positions on confident bets, no missed trades during lunch). When auditing skill-work patterns, track not just what the system can do but how reliably it does it. Execution discipline gaps are a primary leverage point.
 
 ---
 
@@ -148,13 +150,13 @@ Input (conversation, artifact, "we did X")
 - **IX-A shapes Record skill boundaries.** THINK (intake, comprehension) and WRITE (production, expression) are Record-bound and should stay aligned with what the companion knows and how the companion writes.
 - **IX-A does not bound the work layer in the same way.** Work territories may use broader model capability, tools, APIs, and external systems to help plan or execute tasks.
 - **The gate still applies.** Work outputs do not become Record truth unless they are written down, staged as needed, and approved into SELF / EVIDENCE / prompt.
-- The **WORK execution layer** implements the work layer day to day (runbooks, mirrors, sync). Optional **pattern** sync stays in **operator / tooling space** until it would change **protocol, merged Record truth, or Voice** â€” then it must go through the same gate (or explicit companion policy), not silent file copy.
+- The **work execution layer** implements the work layer day to day (runbooks, mirrors, sync). Optional **pattern** sync stays in **operator / tooling space** until it would change **protocol, merged Record truth, or Voice** â€” then it must go through the same gate (or explicit companion policy), not silent file copy.
 
-## 5b. Reference assist in WORK territories
+## 5b. Reference assist in work territories
 
-`SELF-LIBRARY` (including `CIV-MEM`) may assist **WORK** execution as a governed reference layer. This is a **lookup / grounding** function for work outputs, not a transfer of ownership into `SKILLS` or `SELF`.
+`SELF-LIBRARY` (including `CIV-MEM`) may assist work execution as a governed reference layer. This is a **lookup / grounding** function for work outputs, not a transfer of ownership into `SKILLS` or `SELF`.
 
-- **Who uses it:** The **work layer** and **WORK execution layer** may call CMC or other SELF-LIBRARY routing while planning, drafting, or synthesizing work artifacts.
+- **Who uses it:** The **work layer** and **work execution layer** may call CMC or other SELF-LIBRARY routing while planning, drafting, or synthesizing work artifacts.
 - **What it is for:** Better factual grounding, stronger analogies, richer synthesis, and clearer provenance in instrumental outputs.
 - **What it is not:** It does not make `WRITE` the owner of reference access, and it does not turn a library lookup into Record truth by itself.
 

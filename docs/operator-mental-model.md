@@ -1,6 +1,6 @@
 # Operator mental model (Grace-Mar)
 
-**Audience:** Operators and contributors who drive the repo, scripts, and WORK lanes — not default companion-facing chat copy.
+**Audience:** Operators and contributors who drive the repo, scripts, and work lanes — not default companion-facing chat copy.
 
 ---
 
@@ -17,18 +17,25 @@ flowchart LR
   subgraph gate [Gate]
     PR[recursion-gate.md]
   end
-  subgraph work [WORK_execution]
-    Lanes[work-*_lanes]
-    Derived[derived_artifacts]
+  subgraph work [work_execution]
+    Lanes[instrumental_work_lanes]
+    Adj[governed_adjacent]
+    Derived[runtime_derived]
+    Ext[external_complements]
   end
   PR --> durable
   Lanes -.->|stage_only| PR
+  Lanes --> Adj
+  Lanes --> Derived
   Derived -.->|paths_only| Lanes
+  Ext -.->|explicit_import_export| Lanes
 ```
 
 - **Durable Record** — merged only after companion approval through the gate.
-- **WORK lanes** — analysis, strategy, dev plans; they **stage** proposals, they do not silently become Record.
+- **work lanes** — analysis, strategy, dev plans; they **stage** proposals, they do not silently become Record.
+- **Governed adjacent** — durable non-Record notes, doctrine, synthesis, and comparison surfaces.
 - **Derived artifacts** — skill cards, active-lane markdown under `artifacts/` — **rebuildable**; always cite source paths ([runtime-vs-record.md](runtime-vs-record.md)).
+- **Shared membrane model** — [work-membrane-v2.md](work-membrane-v2.md) gives the lane-neutral class and route grammar.
 
 ---
 
@@ -37,7 +44,8 @@ flowchart LR
 | I need to… | Open |
 |------------|------|
 | See what is canonical vs scratch | [runtime-vs-record.md](runtime-vs-record.md) |
-| Shrink one WORK lane for a session | [active-lane-compression.md](skill-work/active-lane-compression.md) |
+| Shrink one work lane for a session | [active-lane-compression.md](skill-work/active-lane-compression.md) |
+| Understand the shared work membrane and lane overlays | [work-membrane-v2.md](work-membrane-v2.md) |
 | Shrink portable skills for context | [skill-card-spec.md](skills/skill-card-spec.md) |
 | Understand paste caps vs semantic compression | [context-efficiency-layer.md](skill-work/context-efficiency-layer.md) + [config/context_budgets/README.md](../config/context_budgets/README.md) |
 
@@ -63,7 +71,7 @@ The operator goal is not full awareness. It is enough orientation to avoid accid
 |---------|--------------|--------------------|
 | **Record** (`self*.md`, `self-archive.md`) | Canonical companion state after approval | A place for ad-hoc operator notes |
 | **Gate** (`recursion-gate.md`) | Pending proposed Record changes | Approval, rejection, or merge by itself |
-| **WORK docs** (`docs/skill-work/work-*`) | Operator planning, execution, strategy, lane doctrine | Companion identity truth |
+| **work docs** (`docs/skill-work/work-*`) | Operator planning, execution, strategy, lane doctrine | Companion identity truth |
 | **Runtime / MEMORY** | Continuity, handoff, session weather | Durable Record authority |
 | **Artifacts** (`artifacts/`) | Rebuildable summaries, receipts, dashboards, derived views | Source of truth without source links |
 | **Old or broad docs** | Background and lineage | Mandatory reading before every session |

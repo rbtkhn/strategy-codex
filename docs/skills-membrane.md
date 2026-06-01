@@ -2,6 +2,8 @@
 
 **Purpose:** Define how information may cross between Record skill modules (THINK, WRITE) and adjacent work territories (work-strategy) without collapsing boundaries. This doc adds the **cross-module flow map** that [skills-modularity.md](skills-modularity.md) does not provide; it complements (does not restate) the formal module boundaries in skills-modularity §3 and the data flow diagram in §5.
 
+For the typed membrane classes and lane overlays that sit underneath these cross-module seams, see [work-membrane-v2.md](work-membrane-v2.md). This page stays focused on how material crosses between modules and territories, not on the full artifact-class model.
+
 ---
 
 ## Core rule
@@ -120,7 +122,7 @@ Not adding them now — schemas were just built, zero claims exist. Strategy kno
 | Topic | Where |
 |-------|-------|
 | Formal module boundaries, data flow | [skills-modularity.md](skills-modularity.md) §3, §5 |
-| THINK is not SELF / WORK / EVIDENCE | [think-purpose-and-boundary.md](skill-think/think-purpose-and-boundary.md) |
+| THINK is not SELF / work / EVIDENCE | [think-purpose-and-boundary.md](skill-think/think-purpose-and-boundary.md) |
 | Strategy-internal crossing filters | [strategy-commentator-threads.md](skill-work/work-strategy/strategy-notebook/strategy-commentator-threads.md) § Crossing filters |
 | Gate as membrane (Record boundary) | [conceptual-framework.md](conceptual-framework.md) |
 | WRITE two-layer split (doctrine vs Record) | [skill-write/README.md](skill-write/README.md) |

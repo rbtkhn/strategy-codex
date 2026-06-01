@@ -1,8 +1,10 @@
 # Singularity
 
-WORK only; not Record.
+work only; not Record.
 
 This shelf is reserved for singularity study routes, concepts, cases, and curriculum notes: AI takeoff, alignment, agency, automation, cognitive infrastructure, recursive improvement, institutional adaptation, and human meaning under accelerating technical change.
+
+For the lane-specific membrane grammar, open [singularity work membrane](work-membrane.md). For the shared base across active lanes, open [docs/work-membrane-v2.md](../docs/work-membrane-v2.md).
 
 ## Boundary
 
@@ -15,6 +17,8 @@ Use this folder for singularity concepts and study structure, not for generic AI
 ## Current Workshop Anchor
 
 - [Coffee D - Singularity Operating Sheet](workshop/sheets/coffee-d-singularity.md) - compact route for using Coffee D as agency-under-acceleration work rather than default commercial work.
+- [Notes](notes/README.md) - first-class singularity notes shelf for exploratory and bounded interpretive outputs.
+- [Essays](essays/README.md) - first-class singularity essay shelf for more synthesized, stand-alone, carriage-bearing long-form outputs.
 - [Sovereignty Under Acceleration](workshop/sheets/sovereignty-under-acceleration.md) - bridge into repo-root `statecraft/` when AI becomes infrastructure power and the problem turns into authority, carrier, and sovereignty design.
 - [Keystone Helix](workshop/keystone-helix.md) - defines the paired Innermost Loop / Moonshots method for turning acceleration signals into workshop cases.
 - [The Innermost Loop - 2026-05-15](workshop/sheets/innermost-loop-2026-05-15.md) - source-bound acceleration map for optimizer recursion, cyber hardening, compute sovereignty, data-center legitimacy, and value-perception checks.
@@ -29,6 +33,20 @@ Use this folder for singularity concepts and study structure, not for generic AI
 ## Maintenance
 
 - [Spine Health Checklist](workshop/longitudinal/spine-health-checklist.md) - quick QA pass for coverage, review load, bridge isolation, and rebuild sanity.
+
+## Output Surfaces
+
+`singularity/` now recognizes two first-class prose output folders alongside workshop doctrine, sheets, raw captures, and watch surfaces:
+
+- [notes/](notes/README.md) for working, exploratory, bounded interpretive outputs
+- [essays/](essays/README.md) for more synthesized, stand-alone, carriage-bearing long-form outputs
+
+Routing law:
+
+- use `notes/` when the piece is exploratory, bounded, workshop-adjacent, route-shaping, or interpretively partial
+- use `essays/` when the piece is synthesized enough to stand on its own as a more stable argument or carriage-bearing long-form output
+
+These are root-native singularity output classes even though `workshop/` remains the active operating layer.
 
 ## Raw Capture Backfill
 
