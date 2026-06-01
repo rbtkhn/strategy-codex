@@ -90,6 +90,7 @@ This is the constitutional guard against polished routing that has lost contact 
 ## Companion Surfaces
 
 - repo-root front door: [statecraft/README.md](/C:/dev/strategy-codex/statecraft/README.md)
+- archive-seam routing note: [Archive Truth-Floor Repair Routing](notes/archive-truth-floor-repair-routing-2026-06-01.md)
 - synthesis home: [statecraft/civ-lens/README.md](/C:/dev/strategy-codex/statecraft/civ-lens/README.md)
 - bridge layer: [statecraft/bridges/README.md](/C:/dev/strategy-codex/statecraft/bridges/README.md)
 - retrieval memory: [statecraft/civ-state/README.md](/C:/dev/strategy-codex/statecraft/civ-state/README.md)

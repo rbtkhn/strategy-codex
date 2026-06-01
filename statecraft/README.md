@@ -137,9 +137,12 @@ Named recent events no longer open a separate `current-event` function. Verify t
 - Need reusable laws extracted from those learning events? Open [patterns/](patterns/README.md).
 - Need the compact operator rule for when a lane earns bounded hardening? Open [lane-hardening law](patterns/lane-hardening-law.md).
 - Need the clearest note on how the operator is actually using this machine? Open [how the operator uses the statecraft machine](how-the-operator-uses-the-statecraft-machine.md).
+- Need the shortest continuity route back into the recent phase-shift explanation stack? Open [governed interpretation re-entry route](/C:/dev/strategy-codex/docs/governed-interpretation-reentry-route-2026-06-01.md).
+- Need the exact handoff law for objects hovering between acceleration doctrine and judgment-bearing analysis? Open [singularity-statecraft handoff law](/C:/dev/strategy-codex/docs/singularity-statecraft-handoff-law.md).
 - Need a bounded synthesis of one archive-heavy day? Open [statecraft/daily/](daily/README.md).
 - Need the active daily/monthly synthesis contract, audit rubric, or proof fixtures? Open [statecraft/daily/METHOD.md](daily/METHOD.md).
 - Need the month-level evolution rule for the `statecraft/daily` shelf? Open [statecraft/daily/MONTHLY-METHOD-COMPANION.md](daily/MONTHLY-METHOD-COMPANION.md).
+- Need to route the open archive-truth seam itself rather than a live geopolitical object? Open [archive-truth-floor-repair-routing-2026-06-01.md](notes/archive-truth-floor-repair-routing-2026-06-01.md).
 
 ## Era Schema
 

@@ -47,6 +47,7 @@ Machine-constitutional files stay where they already belong:
 
 ## Best Entry Points
 
+- [archive-truth-floor-repair-routing-2026-06-01.md](./archive-truth-floor-repair-routing-2026-06-01.md) - route note for treating the open archive-truth seam as a governed machine object rather than a raw debt pile
 - [recognition-threshold-vs-settlement-architecture.md](./recognition-threshold-vs-settlement-architecture.md) - threshold and sequencing distinction
 - [statecraft-multi-lens-bench-pressure-test-2026-05.md](./statecraft-multi-lens-bench-pressure-test-2026-05.md) - bounded comparative bench object
 - [transaction-bench-maturity-audit.md](./transaction-bench-maturity-audit.md) - lane-maturity and proof-anchor audit object
@@ -76,6 +77,7 @@ This first rollout is forward-only. Do not move existing prose here automaticall
 
 The shelf is currently seeded with promoted copies of strong existing notes. Treat them as a current seeded set while the taxonomy settles, not as proof that every mirrored item is already in its final canonical home.
 
+- [archive-truth-floor-repair-routing-2026-06-01.md](./archive-truth-floor-repair-routing-2026-06-01.md) as a shelf-native routing note
 - [statecraft-v1-upgrade-plan-2026-05-25.md](./statecraft-v1-upgrade-plan-2026-05-25.md) from [../statecraft-v1-upgrade-plan-2026-05-25.md](../statecraft-v1-upgrade-plan-2026-05-25.md)
 - [recursive-learning-three-lane-audit.md](./recursive-learning-three-lane-audit.md) from [../recursive-learning-three-lane-audit.md](../recursive-learning-three-lane-audit.md)
 - [transaction-bench-maturity-audit.md](./transaction-bench-maturity-audit.md) from [../transaction-bench-maturity-audit.md](../transaction-bench-maturity-audit.md)

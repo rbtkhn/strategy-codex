@@ -10,6 +10,7 @@ Every new or materially revised statecraft artifact should be classifiable by:
 
 - `lane`: `america`, `china`, `persia`, `russia`, `comparison`, `cross-lane`, or `shared`
 - `output_class`: `commentary`, `braid`, `lane-note`, `memo`, `objection-matrix`, `comparison`, `router-candidate`, `transaction-use-brief`, `lane-draft`, `full-transaction`, or `recursive-update-candidate`
+- `prose_class`: `none`, `note-class`, or `essay-class`
 - `maturity`: `orientation`, `draftable`, `reusable`, or `review-only`
 - `source_family`: `civ-state`, `speaker-state`, `verified-live-event`, `lane-local`, or `mixed`
 - `bridge_usage`: `none`, `marandi`, `parsi`, or `other-adapter`
@@ -23,6 +24,7 @@ Use this block near the top of a new or touched artifact when practical, or keep
 **Statecraft Registry**
 - Lane:
 - Output class:
+- Prose class:
 - Maturity:
 - Source family:
 - Bridge usage:
@@ -32,6 +34,10 @@ Use this block near the top of a new or touched artifact when practical, or keep
 ## Classification Rules
 
 - Use the **narrowest honest output class**.
+- `prose_class` is for discoverability across prose shelves:
+  - use `note-class` for bounded mechanisms, route seams, threshold distinctions, audit objects, or comparison seams
+  - use `essay-class` for stand-alone arguments that should travel outside the original routing context
+  - use `none` when the artifact is not really a prose-shelf object
 - `maturity` measures what the artifact can currently support, not what the operator hopes it will become.
 - `source_family` should name the real dominant feed, not every citation in the document. Use `verified-live-event` when the artifact is primarily driven by a bounded live-event read or packet rather than deep source shelves alone.
 - `bridge_usage` is only for retrieval conditioning, not for ordinary speaker citation.

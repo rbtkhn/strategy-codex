@@ -193,6 +193,7 @@ Valid terminal forms are:
 - **recursive update candidate** - learning surface for later review, not direct doctrine mutation
 
 Use [artifact-registry.md](artifact-registry.md) to classify new or touched outputs by class and maturity.
+Use [shared prose index](/C:/dev/strategy-codex/docs/prose-index.md) when the unresolved question is whether the prose object should stay note-class or mature into essay-class.
 
 ## Promotion And Terminal-Form Law
 
@@ -362,6 +363,9 @@ That use-pattern is now part of the machine's real operating truth, even when a 
 - [METHOD.md](METHOD.md) owns drafting procedure only.
 - [ARCHITECTURE.md](ARCHITECTURE.md) owns maturity, anti-sprawl, and lifecycle governance only.
 - [artifact-registry.md](artifact-registry.md) owns the minimal metadata law for output classification.
+- [notes/README.md](notes/README.md) owns the bounded statecraft prose shelf.
+- [essays/README.md](essays/README.md) owns the stand-alone statecraft prose shelf.
+- [../docs/prose-index.md](../docs/prose-index.md) owns cross-domain prose-class routing.
 - [civ-state/review-queue.md](civ-state/review-queue.md) owns the upstream source-candidate staging surface.
 
 ## Compatibility

@@ -287,9 +287,10 @@ The cleanest architecture pressure point right now is this:
 the governance and routing layers have advanced faster than part of the archive substrate
 ```
 
-That is why the open transcript-integrity seam matters so much. If the archive
-truth floor stays noisy while the upper layers get more exact, the machine
-starts becoming more elegant than its evidence base.
+Use the dedicated companion surfaces when that seam is the real object:
+
+- [Archive Truth-Floor Repair Routing](/C:/dev/strategy-codex/statecraft/notes/archive-truth-floor-repair-routing-2026-06-01.md) for tranche shape and opening order
+- [Why Archive Truth Now Matters More](/C:/dev/strategy-codex/docs/why-archive-truth-now-matters-more-2026-06-01.md) for the plain-language consequence
 
 ## One Sentence Summary
 

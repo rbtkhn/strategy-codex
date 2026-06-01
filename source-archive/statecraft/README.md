@@ -27,3 +27,5 @@ Useful indices:
 - Jiang / Predictive History raw-capture master index: [jiang-predictive-history-index.md](/C:/dev/strategy-codex/source-archive/statecraft/jiang-predictive-history-index.md)
 - Public Predictive History lecture index inside the official Jiang mirror: [statecraft/civ-lens/civ-lens-jiang/ph-civ/docs/source-video-index.md](/C:/dev/strategy-codex/statecraft/civ-lens/civ-lens-jiang/ph-civ/docs/source-video-index.md)
 - Example month index: [2026-05.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05.md)
+
+When the archive itself is the live problem rather than a source lookup target, open [Archive Truth-Floor Repair Routing](/C:/dev/strategy-codex/statecraft/notes/archive-truth-floor-repair-routing-2026-06-01.md). That note treats the current transcript-integrity seam as a governed machine object with distinct tranches, not as a raw debt pile.
