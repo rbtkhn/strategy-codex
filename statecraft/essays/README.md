@@ -48,6 +48,7 @@ Machine-constitutional files stay where they already belong:
 - [how-the-operator-uses-the-statecraft-machine.md](./how-the-operator-uses-the-statecraft-machine.md) - argument about what the machine is already doing
 - [high-skill-labor-compression-and-american-command.md](./high-skill-labor-compression-and-american-command.md) - lane-specific statecraft thesis
 - [three-layers-of-recursive-learning-in-statecraft.md](./three-layers-of-recursive-learning-in-statecraft.md) - stand-alone model of the journal's current maturation
+- [from-accumulation-to-governed-interpretive-machine.md](./from-accumulation-to-governed-interpretive-machine.md) - teachable explanation of what the repo is becoming and why that changes what matters
 
 ## Promotion Path
 
@@ -76,6 +77,7 @@ The shelf is currently seeded with promoted copies of strong essays. Treat them 
 - [archive-synthesis-law.md](./archive-synthesis-law.md) from [../archive-synthesis-law.md](../archive-synthesis-law.md)
 - [high-skill-labor-compression-and-american-command.md](./high-skill-labor-compression-and-american-command.md) from [../america/high-skill-labor-compression-and-american-command.md](../america/high-skill-labor-compression-and-american-command.md)
 - [three-layers-of-recursive-learning-in-statecraft.md](./three-layers-of-recursive-learning-in-statecraft.md) as a shelf-native synthesized essay
+- [from-accumulation-to-governed-interpretive-machine.md](./from-accumulation-to-governed-interpretive-machine.md) as a shelf-native explanatory essay
 
 ## Return Path
 
