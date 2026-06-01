@@ -16,6 +16,131 @@ Each entry should answer:
 - what changed structurally because of the reuse
 - what guardrail prevents the lesson from collapsing into blind template repetition
 
+## 2026-06-01 - From accumulation to governed recursive interpretation
+
+### Trigger
+
+A bounded Furtwangler reflection across the recent statecraft, singularity,
+membrane, validator, and prose-routing receipts made a larger pattern visible.
+
+The recent gains were not only:
+
+- more source captures
+- more notes
+- more doctrine
+- more shelves
+
+They were increasingly about:
+
+- artifact classification
+- canonical ownership
+- membrane law
+- validator discipline
+- and recursive reuse between archive, synthesis, doctrine, and routing
+
+In other words, the machine had become coherent enough that a higher-order phase
+change could now be named truthfully.
+
+### Extracted law
+
+The reusable law was:
+
+```text
+accumulation
+-> classification
+-> governance
+-> recursive reuse
+-> machine phase change
+```
+
+Or more plainly:
+
+```text
+When enough bounded artifacts, routing laws, and validators align,
+the system stops improving mainly by adding content
+and starts improving by governing how interpretation itself compounds.
+```
+
+### Reapplication
+
+This law immediately changed how the next unfinished seam was judged.
+
+Instead of treating the open statecraft transcript-repair tranche as one more
+cleanup task, the machine could now read it correctly:
+
+- archive mistranscriptions are not only local noise
+- they degrade the truth-bearing floor beneath a more exact interpretive stack
+- therefore substrate repair now has higher architectural urgency than smaller
+  front-door or wording drift
+
+That is a real reuse event, not just a philosophical summary. The new phase law
+changed priority selection.
+
+### Structural changes
+
+This learning event changed the machine in three ways.
+
+#### 1. Statecraft's recursive-learning scope widened again
+
+The journal no longer describes only how statecraft learns:
+
+- from objects
+- from shelving
+- from source stacks
+- from instruction drift
+
+It now also describes how statecraft learns to recognize **phase changes in its
+own development**.
+
+#### 2. Lower layers gained more explicit architectural weight
+
+Once statecraft becomes a governed interpretive machine, archive quality,
+transcript integrity, and provenance truth become more structurally important
+than they were in a looser accumulation phase.
+
+Best formulation:
+
+```text
+the more exact the interpretive machine becomes,
+the more costly substrate noise becomes
+```
+
+#### 3. Recursive learning now governs priority, not only design
+
+Earlier entries mainly improved architecture and shelf form.
+
+This event adds another layer:
+
+- recursive learning can also decide **which unfinished seam matters most now**
+
+That is a stronger operational role for the journal.
+
+### Guardrail
+
+The guardrail is:
+
+```text
+phase language must cash out in routing or priority
+```
+
+If a claimed phase shift only sounds grander but does not change:
+
+- what the machine protects
+- what it repairs first
+- or what kind of reuse it now expects
+
+then the phase claim is decorative and should not enter the journal.
+
+### Current lesson
+
+The current live lesson for the machine is:
+
+```text
+statecraft is no longer only accumulating analytical objects.
+It is becoming a governed interpretive machine.
+As that happens, lower-layer truth and higher-layer reuse become more tightly coupled.
+```
+
 ## 2026-06-01 - Skill refinement as recursive learning from instruction drift
 
 ### Trigger
