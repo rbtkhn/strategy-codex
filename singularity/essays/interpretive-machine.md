@@ -1,6 +1,6 @@
 # Interpretive Machine
 
-WORK only; not Record.
+work only; not Record.
 
 The frontier is not only machines that answer, retrieve, or act. It is also machines and workflows that can improve by observing where interpretation breaks, what repairs it, and which repairs deserve promotion into durable structure.
 
@@ -87,10 +87,11 @@ The practical claim, then, is not that machines are becoming selves. It is that 
 
 ## Support Notes
 
-This essay is the synthesized form of a three-note support cluster:
+This essay is the synthesized form of a three-note support cluster, indexed here:
 
-- [Interpretive Machine Lineage](/C:/dev/strategy-codex/docs/skill-work/work-strategy/interpretive-machine-lineage.md)
-- [Interpretive Machine Workflow Manifestations](/C:/dev/strategy-codex/docs/skill-work/work-strategy/interpretive-machine-workflow-manifestations.md)
-- [Interpretive Machine Corporate Applications](/C:/dev/strategy-codex/docs/skill-work/work-strategy/interpretive-machine-corporate-applications.md)
+- [Interpretive Machine Cluster](./interpretive-machine/README.md)
+- [Interpretive Machine Lineage](./interpretive-machine/lineage.md)
+- [Interpretive Machine Workflow Manifestations](./interpretive-machine/workflow-manifestations.md)
+- [Interpretive Machine Corporate Applications](./interpretive-machine/corporate-applications.md)
 
 Those notes remain useful as support surfaces for lineage, workflow proof, and product extrapolation. The present essay is the carriage-bearing argument above them.
