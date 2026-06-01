@@ -65,3 +65,6 @@ The compact distinction is:
   - [2026-05-29 - Pape vs Freeman-Sachs-Marandi](2026-05-29-pape-vs-freeman-sachs-marandi.md)
 - [2026-05-30](2026-05-30.md)
 - [2026-05-31](2026-05-31.md)
+  - [2026-05-31 - Barnes-Aguilar On Captured Command Versus Degraded Carry](2026-05-31-barnes-aguilar-captured-command-vs-degraded-carry.md)
+  - [2026-05-31 - Barnes-Diesen-Nima On Coercive Failure](2026-05-31-barnes-diesen-nima-coercive-failure.md)
+  - [2026-05-31 - Rome-America On Carrier Capture Versus Sovereign Burden-Bearing](2026-05-31-rome-america-carrier-capture-vs-sovereign-burden-bearing.md)
