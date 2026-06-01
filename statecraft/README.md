@@ -4,9 +4,19 @@ work only; not Record.
 
 This is the front-door orientation module for repo-root `statecraft/`.
 
+`statecraft/` is now the **canonical operator judgment surface** for live geopolitical, civilizational, legitimacy-bearing, and mechanism-bearing analytical work in this repo. The older `docs/skill-work/work-strategy/` surface remains on disk as a legacy compatibility namespace, but it is no longer the active public/operator-facing owner.
+
+In the current topology:
+
+- `statecraft/` is the interpretive, routing, drafting, recursive-learning, notes, and essays surface
+- `/codex` is the chronological notebook, accumulation, and continuity layer beneath that broader statecraft surface
+- `singularity/` remains the adjacent domain for acceleration, agency, substrate, and alignment questions until those objects mature into judgment, authority, or settlement problems
+
 For the lane-specific membrane grammar, open [statecraft work membrane](work-membrane.md). For the shared base across active lanes, open [docs/work-membrane-v2.md](../docs/work-membrane-v2.md).
 
 Open [statecraft.md](statecraft.md) first when you need the full continuity surface. Open this README when the continuity frame is already live and you just need to enter the right lane or next working surface.
+
+For the migration-facing map from the old strategy surface, open [Legacy Successor Map](../docs/skill-work/work-strategy/LEGACY-SUCCESSOR-MAP.md).
 
 For the canonical source/synthesis stack, open [Statecraft Archive and Statecraft Synthesis](archive-synthesis-law.md).
 
@@ -167,6 +177,12 @@ Read the stack in this order:
 
 The practical rule is simple: `civ-state` remembers, `statecraft` drafts, and repo-root `statecraft/` is where those two layers now meet in the open.
 
+At the broader repo level, the aliasing rule is now:
+
+- `/codex` accumulates chronology and continuity
+- `statecraft/` turns that accumulation into judgment, mechanism, prose, and governed recursive learning
+- `work-strategy` remains a compatibility label for older paths, historical links, and still-unmigrated notebook machinery
+
 ## Output Surfaces
 
 `statecraft/` now recognizes two first-class prose output folders alongside doctrine, journals, indexes, sheets, bridges, transactions, and source structures:
@@ -180,6 +196,22 @@ Routing law:
 - use `essays/` when the piece is synthesized enough to stand on its own as a more stable argument or carriage-bearing long-form output
 
 Do not move source-bearing archive material into these folders, and do not treat kernels, journals, indexes, sheets, bridges, or transactions as essay buckets.
+
+## Broadened Statecraft Boundary
+
+The broadened `statecraft/` surface now includes:
+
+- judgment about states, civilizations, institutions, legitimacy, order, acceleration pressure, and strategic mechanism
+- operator-facing analytical prose
+- recursive learning about interpretive practice
+- downstream use of singularity and CIV-STATE inputs when the object becomes a judgment, authority, or settlement problem
+
+It does **not** automatically absorb:
+
+- raw source archives
+- generic technical implementation doctrine
+- every operator-theory note regardless of domain
+- Record-facing or identity-facing surfaces
 
 Archive and synthesis law:
 

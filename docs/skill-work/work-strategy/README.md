@@ -1,8 +1,10 @@
 # work-strategy
 
-**Naming:** `strategy-codex` is the active operator surface. The canonical corpus lives under root [`/codex`](../../../codex/README.md). `strategy-notebook` is a deprecated compatibility namespace for old links, script aliases, fixtures, and historical logs; do not add new canonical material there.
+**Legacy status:** `docs/skill-work/work-strategy/` is now a **legacy compatibility surface**, not the canonical operator judgment owner. The active public/operator-facing successor is [statecraft/](../../../statecraft/README.md). Use [Legacy Successor Map](LEGACY-SUCCESSOR-MAP.md) when an older strategy path still exists on disk and you need the current conceptual destination.
 
-**Identity (one sentence):** This lane does one thing no other surface does â€” **cross-territory governed accumulation of judgment** with civilizational depth and explicit distance from Record truth.
+**Naming:** `strategy-codex` remains the repo and notebook identity, but the old `work-strategy` lane terminology is obsolete as a canonical live surface. The canonical chronology corpus lives under root [`/codex`](../../../codex/README.md), while live judgment, prose, and mechanism now belong under [statecraft/](../../../statecraft/README.md). `strategy-notebook` is a deprecated compatibility namespace for old links, script aliases, fixtures, and historical logs; do not add new canonical material there.
+
+**Current role (one sentence):** This tree is now primarily a **legacy holding surface** for still-unmigrated notebook machinery, operator doctrine, and historical strategy memos that have not yet been re-homed into `statecraft/`, `/codex`, or `singularity/`.
 
 **Default path (fast start):** [DEFAULT-PATH.md](DEFAULT-PATH.md) â€” three moves for a normal pass; everything else is optional. Start there if the full skill file feels heavy.
 
@@ -50,9 +52,13 @@
 
 **Carry-stack observability (optional):** [observability.md](observability.md#carry-stack-observability-pr-5) â€” regenerable JSON/Markdown aggregate over runtime receipts/reports (`scripts/work_strategy/summarize_carry_receipts.py`); process metrics only.
 
-**Bottom line:** **`skill-strategy`** is not loose â€œanalysisâ€; it is **governed strategic accumulation** â€” preserving an operatorâ€™s evolving **geopoliticalâ€“historical judgment** in a **bounded WORK layer**, with **explicit seams** (/codex, inbox, `crosses:` / `seam:` / PH overlays), **explicit promotion rules** ([STRATEGY.md](STRATEGY.md), month `meta.md` when arcs stabilize), and **explicit distance** from identity-facing Record. In strategy-codex terms, the active quartet is **knowledge / library / memory / archive**: `days.md` and open-loop continuity are memory, `raw-input/` is archive-adjacent capture, and notebook judgment remains separate from both.
+**Bottom line:** this tree remains useful as a legacy doctrine and machinery shelf, but it should no longer be taught as the live canonical owner of operator judgment. In the current topology:
 
-**Purpose:** Cross-territory **operator strategy** â€” how political consulting ([work-politics](../work-politics/README.md)), integration / portability ([work-dev](../work-dev/README.md)), and other WORK lanes share a single **daily horizon** without mixing into SELF or Voice. The **[/codex](../../../codex/README.md)** is the **primary** artifact where daily cross-territory judgment is captured; other files here support ingest, frameworks, or optional stitch to [STRATEGY.md](STRATEGY.md).
+- `statecraft/` owns live operator judgment, analytical prose, mechanism, recursive learning, and downstream strategic use
+- `/codex` owns chronology, daily continuity, thread/page accumulation, and notebook memory
+- `docs/skill-work/work-strategy/` owns compatibility residue until later bounded migrations re-home material more precisely
+
+**Purpose:** preserve the older cross-territory strategy machinery while the repo is re-centered around `statecraft/`. The **[/codex](../../../codex/README.md)** remains the primary chronology artifact where daily continuity is captured; `statecraft/` is now the canonical interpretive and prose-bearing surface above it; this tree supports compatibility, older frameworks, and still-unmigrated machinery.
 
 **Not** a replacement for territory READMEs. **Not** Record truth. Companion gate and knowledge boundary rules still apply.
 

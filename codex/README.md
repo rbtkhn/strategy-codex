@@ -3,6 +3,8 @@
 
 **Discoverability:** The same tree is linked from the legacy **`SELF-LIBRARY/strategy-codex`** symlink for agents and tools that still prioritize the older companion-tree vocabulary. In strategy-codex doctrine, this tree is part of the notebook's **library** surface rather than an identity-facing layer. **Legacy LIB reference:** [LIB-0153](../self-library.md#operator-analytical-books) in [`self-library.md`](../self-library.md) (Operator analytical books).
 
+**Current role:** `/codex` is the **chronology, accumulation, and continuity layer** beneath the broader [statecraft](../statecraft/README.md) surface. It is no longer taught as the independent owner of the old `work-strategy` lane. Use `/codex` for dated continuity, thread/page accumulation, and notebook memory; use `statecraft/` for live judgment, mechanism, recursive learning, and first-class prose outputs.
+
 
 ## Primary 2026 Volume
 
