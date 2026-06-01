@@ -6,7 +6,7 @@ This is the canonical chooser for repo-root prose output classes.
 
 Use it when the question is not yet "which file?" but rather "what kind of prose object do I need?"
 
-If a shelf README and this index ever seem to compete, this index wins on prose-class routing and the shelf README should be read as local orientation only.
+If a shelf README and this index ever seem to compete, this index wins on prose-class routing and the shelf README should be read as the **canonical local entrypoint** for that shelf.
 
 For one compact live comparison of how cluster behavior changes across `essays/`, `notes/`, and `docs/skill-work/`, see [prose-cluster-placement-comparison.md](/C:/dev/strategy-codex/docs/prose-cluster-placement-comparison.md).
 
@@ -59,6 +59,13 @@ Open an essay when you need:
 
 Essays should carry the argument, not just point toward it.
 
+Some essays are also **evidence-bearing research syntheses**. When claim
+density is high and the evidence base is heterogeneous, prefer:
+
+- a support cluster
+- an evidence matrix
+- a short evidence posture near the end of the essay
+
 ## Canonical Routes
 
 Need a **bounded interpretive object**:
@@ -95,4 +102,15 @@ They are also not:
 
 ## Stability Note
 
-This index points to shelf roles and canonical entry surfaces first. Some current shelf contents may still be seeded mirrors or promotion candidates while the taxonomy settles.
+This index points to shelf roles and canonical entry surfaces first.
+
+Stability rule:
+
+- shelf READMEs are the canonical entrypoints for their local prose shelves
+- some shelf contents remain mirrored compatibility material while taxonomy settles
+- prefer `shelf-native` items and README-curated entry points over assuming every file inside a shelf is equally canonical prose authority
+
+Later cleanup may remove or rewrite some mirrored or review-needed items, but this index should remain stable because it routes through shelf authority first rather than through raw folder contents.
+
+For the preferred citation pattern for literature-backed notes and essays, open
+[citation-evidence-pattern.md](/C:/dev/strategy-codex/docs/citation-evidence-pattern.md).

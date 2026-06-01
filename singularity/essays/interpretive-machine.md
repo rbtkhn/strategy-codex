@@ -85,6 +85,20 @@ That last danger is especially serious. A true interpretive machine should stren
 
 The practical claim, then, is not that machines are becoming selves. It is that some of our most useful future systems will be the ones that can improve by studying where their interpretations broke, preserving what repaired them, and routing those repairs back into later work without dissolving human authority.
 
+## Evidence Posture
+
+This essay is supported by a mixed evidence base.
+
+Its strongest literature-bearing lines come from:
+
+- hermeneutic and reflective-practice ancestors
+- metacognition and monitoring/control theory
+- machine-native analogues such as explanation-based or reflective learning
+
+The current evidence level is strong enough to support a **convergent lineage**
+claim. It is not strong enough to support a claim that one prior school fully
+anticipated the repo's exact interpretive-machine configuration.
+
 ## Support Notes
 
 This essay is the synthesized form of a three-note support cluster, indexed here:

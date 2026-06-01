@@ -17,6 +17,13 @@ The cluster is intentionally subordinate to the carriage-bearing essay above
 it. These notes exist so the domain argument can stay clean without losing the
 supporting scaffolds.
 
+This is also the default cluster shape for literature-backed support work:
+
+- `README.md` as cluster front door
+- function-separated support notes
+- optional evidence matrix when comparison across sources becomes central
+- one synthesized essay above the cluster
+
 ## Return Path
 
 - Return to [Interpretive Machine](../interpretive-machine.md) for the

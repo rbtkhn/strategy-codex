@@ -6,6 +6,18 @@ This shelf indexes **bounded promoted singularity seams** and other local interp
 
 Open [shared prose index](/C:/dev/strategy-codex/docs/prose-index.md) first when the class decision is still open. This README assumes the answer is already note-class and only explains the local singularity version of that shelf.
 
+## Authority Rule
+
+This README is the **canonical prose-discovery surface** for `singularity/notes/`.
+
+Use the classifications below strictly:
+
+- `shelf-native` = current note-class prose authority for this shelf
+- `mirrored legacy promotion` = readable compatibility material while taxonomy settles, but **not canonical prose authority**
+- `review-needed` = intentionally present edge case that should not be treated as proof that the shelf taxonomy is fully settled
+
+Only items explicitly marked `shelf-native` should be treated as current shelf-native prose authority.
+
 ## Formal Role
 
 Use `singularity/notes/` for:
@@ -64,19 +76,27 @@ Some existing singularity prose surfaces may later migrate here in bounded clean
 
 This first rollout is forward-only. Do not move existing prose here automatically.
 
-## Current Seeded Set
+## Current Classification
 
-The shelf is currently seeded with promoted copies of strong notes. Treat them as a current seeded set while the taxonomy settles, not as proof that every mirrored item is already in its final canonical home.
-
-- [watchlist.md](./watchlist.md) from [../watchlist.md](../watchlist.md)
-- [scenario-lab-pilot.md](./scenario-lab-pilot.md) from [../workshop/sheets/scenario-lab-pilot.md](../workshop/sheets/scenario-lab-pilot.md)
-- [cici-ai-daily-brief-control-plane-pilot.md](./cici-ai-daily-brief-control-plane-pilot.md) from [../work-cici/cici-ai-daily-brief-control-plane-pilot.md](../work-cici/cici-ai-daily-brief-control-plane-pilot.md)
-
-## Promoted from Synthesis
+### Shelf-Native
 
 - [compute-political-currency-control-plane-substrate.md](./compute-political-currency-control-plane-substrate.md) promoted from [../synthesis/2026-05.md](../synthesis/2026-05.md)
 - [may-2026-control-plane-compression.md](./may-2026-control-plane-compression.md) - mechanism packet preserving the May 2026 control-plane compression seam
 - [may-2026-control-plane-compression-source-hygiene.md](./may-2026-control-plane-compression-source-hygiene.md) - source-hygiene companion for the May 2026 mechanism packet
+
+### Mirrored Legacy Promotion
+
+- [scenario-lab-pilot.md](./scenario-lab-pilot.md) from [../workshop/sheets/scenario-lab-pilot.md](../workshop/sheets/scenario-lab-pilot.md)
+- [cici-ai-daily-brief-control-plane-pilot.md](./cici-ai-daily-brief-control-plane-pilot.md) from [../work-cici/cici-ai-daily-brief-control-plane-pilot.md](../work-cici/cici-ai-daily-brief-control-plane-pilot.md)
+
+### Review-Needed
+
+- [watchlist.md](./watchlist.md) from [../watchlist.md](../watchlist.md) - watch/control surface, not yet clean note-class authority
+
+## Later Phases
+
+- **Phase 2: light reclassify** - remove obvious non-note items from seeded authority sections and trim best-entry-point status where needed
+- **Phase 3: file-level recanonicalization** - add canonical-pointer headers, rewrite or retire misclassified mirrors, and reduce duplicate-authority ambiguity
 
 ## Return Path
 
