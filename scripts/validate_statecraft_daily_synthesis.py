@@ -14,7 +14,8 @@ five-volume insight is intellectually strong enough. Those remain human-audited.
 
 Important boundary: daily validation is opt-in for files already using the active
 five-volume contract. This avoids falsely failing older daily notes that have not
-yet been retrofitted to the current method.
+yet been retrofitted to the current method. The validator still reports migrated
+versus legacy daily-note coverage so the shelf's contract boundary remains visible.
 """
 
 from __future__ import annotations
@@ -82,6 +83,10 @@ MONTHLY_FUNCTION_LABELS: frozenset[str] = frozenset(
         "falsifier",
     }
 )
+
+
+def is_migrated_daily_text(text: str) -> bool:
+    return "## Five-Volume CIV-STATE Read" in text
 
 
 def heading_sequence(text: str) -> list[str]:
@@ -219,7 +224,7 @@ def validate_daily_dir(daily_dir: Path) -> list[str]:
         name = path.name
         if DAILY_FILENAME_RE.fullmatch(name):
             text = path.read_text(encoding="utf-8")
-            if "## Five-Volume CIV-STATE Read" not in text:
+            if not is_migrated_daily_text(text):
                 continue
             for err in validate_daily_file(path):
                 errors.append(f"{path.relative_to(REPO_ROOT)}: {err}")
@@ -227,6 +232,24 @@ def validate_daily_dir(daily_dir: Path) -> list[str]:
             for err in validate_monthly_file(path):
                 errors.append(f"{path.relative_to(REPO_ROOT)}: {err}")
     return errors
+
+
+def collect_daily_shelf_counts(daily_dir: Path) -> tuple[int, int, int]:
+    migrated_daily = 0
+    legacy_daily = 0
+    monthly = 0
+
+    for path in sorted(daily_dir.glob("*.md")):
+        if DAILY_FILENAME_RE.fullmatch(path.name):
+            text = path.read_text(encoding="utf-8")
+            if is_migrated_daily_text(text):
+                migrated_daily += 1
+            else:
+                legacy_daily += 1
+        elif MONTHLY_FILENAME_RE.fullmatch(path.name):
+            monthly += 1
+
+    return migrated_daily, legacy_daily, monthly
 
 
 def main() -> int:
@@ -250,18 +273,14 @@ def main() -> int:
         )
         return 1
 
-    daily_files = sorted(
-        p
-        for p in daily_dir.glob("*.md")
-        if DAILY_FILENAME_RE.fullmatch(p.name)
-        and "## Five-Volume CIV-STATE Read" in p.read_text(encoding="utf-8")
-    )
-    monthly_files = sorted(
-        p for p in daily_dir.glob("*.md") if MONTHLY_FILENAME_RE.fullmatch(p.name)
+    migrated_daily_count, legacy_daily_count, monthly_count = collect_daily_shelf_counts(
+        daily_dir
     )
     print(
         "ok: statecraft daily synthesis validated "
-        f"({len(daily_files)} daily note(s), {len(monthly_files)} month note(s))"
+        f"({migrated_daily_count} migrated daily note(s), "
+        f"{legacy_daily_count} legacy daily note(s), "
+        f"{monthly_count} month note(s))"
     )
     return 0
 

@@ -41,6 +41,72 @@ REQUIRED_SECONDARY_HEADINGS = [
     "## Where To Go Next",
 ]
 
+REQUIRED_SWITCHBOARD_PHRASES = [
+    "stay in the primary shelf",
+    "open the era-matched secondary shelf",
+    "return to the primary shelf",
+    "move upward into",
+]
+
+ROLE_TAXONOMY = [
+    "`chronology`",
+    "`provenance`",
+    "`translation`",
+    "`institutional_context`",
+    "`counterweight`",
+    "`misreading_correction`",
+]
+
+RECURRENCE_TAXONOMY = [
+    "`cross_civilizational_recurring`",
+    "`civilization_specific_recurring`",
+    "`era_local`",
+]
+
+PROMOTION_TAXONOMY = [
+    "`local`",
+    "`promotable`",
+    "`promoted`",
+]
+
+INDEX_FILES = {
+    "failure-mode-routes": REPO_ROOT / "statecraft" / "civ-state" / "indexes" / "failure-mode-routes.md",
+    "interpretive-difficulty-map": REPO_ROOT / "statecraft" / "civ-state" / "indexes" / "interpretive-difficulty-map.md",
+    "recurring-secondary-sources": REPO_ROOT / "statecraft" / "civ-state" / "indexes" / "recurring-secondary-sources.md",
+    "secondary-source-promotion-ledger": REPO_ROOT / "statecraft" / "civ-state" / "indexes" / "secondary-source-promotion-ledger.md",
+    "paired-reading-wedge-template": REPO_ROOT / "statecraft" / "civ-state" / "indexes" / "paired-reading-wedge-template.md",
+}
+
+PILOT_WEDGE_FILES = [
+    REPO_ROOT / "statecraft" / "civ-state" / "indexes" / "paired-reading-wedge-america-medieval.md",
+    REPO_ROOT / "statecraft" / "civ-state" / "indexes" / "paired-reading-wedge-rome-ancient.md",
+    REPO_ROOT / "statecraft" / "civ-state" / "indexes" / "paired-reading-wedge-persia-cybernetic.md",
+]
+
+REQUIRED_WEDGE_HEADINGS = [
+    "## Two Primary Anchors",
+    "## One Clarifier",
+    "## One Counterweight",
+    "## Use Rule",
+    "## Return Path",
+]
+
+SOURCE_SUPPORT_BLOCK_FILES = [
+    REPO_ROOT / "statecraft" / "civ-state" / "volumes" / "civ-state-america" / "statecraft-america.md",
+    REPO_ROOT / "statecraft" / "civ-state" / "volumes" / "civ-state-rome" / "statecraft-rome.md",
+    REPO_ROOT / "statecraft" / "civ-state" / "persia" / "hormuz-recognition-transit-restraint.md",
+    REPO_ROOT / "statecraft" / "bridges" / "marandi-civ-state-retrieval-adapter.md",
+]
+
+SOURCE_SUPPORT_FIELDS = [
+    "`primary_anchor`",
+    "`secondary_support_role`",
+    "`secondary_support_work`",
+    "`counterweight_used`",
+    "`failure_mode_checked`",
+    "`current_carrier_relation`",
+]
+
 DOCTRINE_FILES = [
     REPO_ROOT / "statecraft" / "README.md",
     REPO_ROOT / "statecraft" / "civ-state" / "README.md",
@@ -93,6 +159,21 @@ def expected_secondary_paths(volume: str, eras: list[str]) -> list[str]:
     return [f"{volume}-secondary-sources-{era}.md" for era in eras]
 
 
+def extract_subsections(text: str) -> list[tuple[str, str]]:
+    matches = list(re.finditer(r"^##\s+(.+)$", text, re.MULTILINE))
+    sections: list[tuple[str, str]] = []
+    for index, match in enumerate(matches):
+        title = match.group(1).strip()
+        start = match.end()
+        end = matches[index + 1].start() if index + 1 < len(matches) else len(text)
+        sections.append((title, text[start:end].strip()))
+    return sections
+
+
+def count_list_items(section_text: str, prefix_pattern: str) -> int:
+    return sum(1 for line in section_text.splitlines() if re.match(prefix_pattern, line.strip()))
+
+
 def read_text(path: Path) -> str:
     return path.read_text(encoding="utf-8")
 
@@ -121,6 +202,9 @@ def validate() -> list[dict[str, str]]:
                     issues.append({"path": str(shelf_reader.relative_to(REPO_ROOT)), "level": "error", "message": f"Missing required shelf-reader heading: {heading}"})
             if "secondary-sources" not in shelf_text:
                 issues.append({"path": str(shelf_reader.relative_to(REPO_ROOT)), "level": "error", "message": "Shelf-reader does not mention the secondary-sources layer"})
+            for phrase in REQUIRED_SWITCHBOARD_PHRASES:
+                if phrase not in shelf_text:
+                    issues.append({"path": str(shelf_reader.relative_to(REPO_ROOT)), "level": "error", "message": f"Shelf-reader switchboard phrase missing: {phrase}"})
 
         for era in eras:
             era_path = volume_dir / f"{volume}-primary-sources-{era}.md"
@@ -191,6 +275,109 @@ def validate() -> list[dict[str, str]]:
                 issues.append({"path": str(path.relative_to(REPO_ROOT)), "level": "error", "message": f"Stale era doctrine pattern found: {pattern}"})
         if "1991" not in text:
             issues.append({"path": str(path.relative_to(REPO_ROOT)), "level": "warn", "message": "Doctrine file does not mention the 1991 boundary"})
+
+    reader_guide = REPO_ROOT / "statecraft" / "civ-state" / "reader-guide.md"
+    hybrid_references = REPO_ROOT / "statecraft" / "civ-state" / "hybrid-references.md"
+    for taxonomy_file in [reader_guide, hybrid_references]:
+        text = read_text(taxonomy_file)
+        for term in ROLE_TAXONOMY + RECURRENCE_TAXONOMY + PROMOTION_TAXONOMY:
+            if term not in text:
+                issues.append({"path": str(taxonomy_file.relative_to(REPO_ROOT)), "level": "error", "message": f"Taxonomy term missing: {term}"})
+
+    indexes_readme = REPO_ROOT / "statecraft" / "civ-state" / "indexes" / "README.md"
+    indexes_readme_text = read_text(indexes_readme)
+    for name, path in INDEX_FILES.items():
+        if not path.exists():
+            issues.append({"path": str(path.relative_to(REPO_ROOT)), "level": "error", "message": f"Missing required index surface: {name}"})
+        elif path.name not in indexes_readme_text:
+            issues.append({"path": str(indexes_readme.relative_to(REPO_ROOT)), "level": "error", "message": f"Indexes README does not link to {path.name}"})
+
+    failure_routes = INDEX_FILES["failure-mode-routes"]
+    if failure_routes.exists():
+        for title, section in extract_subsections(read_text(failure_routes)):
+            if "primary-sources" not in section:
+                issues.append({"path": str(failure_routes.relative_to(REPO_ROOT)), "level": "error", "message": f"Failure-mode route '{title}' does not link a primary shelf"})
+            if "secondary-sources" not in section:
+                issues.append({"path": str(failure_routes.relative_to(REPO_ROOT)), "level": "error", "message": f"Failure-mode route '{title}' does not link a secondary shelf"})
+            if not re.search(r"(statecraft|civilization|empire)-[a-z]+\.md", section):
+                issues.append({"path": str(failure_routes.relative_to(REPO_ROOT)), "level": "error", "message": f"Failure-mode route '{title}' does not link a chapter surface"})
+
+    difficulty_map = INDEX_FILES["interpretive-difficulty-map"]
+    if difficulty_map.exists():
+        for title, section in extract_subsections(read_text(difficulty_map)):
+            if "primary-sources" not in section:
+                issues.append({"path": str(difficulty_map.relative_to(REPO_ROOT)), "level": "error", "message": f"Interpretive difficulty section '{title}' does not link a primary shelf"})
+            if "secondary-sources" not in section:
+                issues.append({"path": str(difficulty_map.relative_to(REPO_ROOT)), "level": "error", "message": f"Interpretive difficulty section '{title}' does not link a secondary shelf"})
+            if not re.search(r"statecraft-[a-z]+\.md", section):
+                issues.append({"path": str(difficulty_map.relative_to(REPO_ROOT)), "level": "error", "message": f"Interpretive difficulty section '{title}' does not link a chapter surface"})
+
+    recurring_sources = INDEX_FILES["recurring-secondary-sources"]
+    if recurring_sources.exists():
+        recurring_text = read_text(recurring_sources)
+        for term in ROLE_TAXONOMY + RECURRENCE_TAXONOMY + PROMOTION_TAXONOMY:
+            if term not in recurring_text:
+                issues.append({"path": str(recurring_sources.relative_to(REPO_ROOT)), "level": "error", "message": f"Recurring-secondary-sources file missing taxonomy term: {term}"})
+        for phrase in ["Will Durant", "Churchill, A History of the English-Speaking Peoples"]:
+            if phrase not in recurring_text:
+                issues.append({"path": str(recurring_sources.relative_to(REPO_ROOT)), "level": "error", "message": f"Recurring-secondary-sources file missing governed note: {phrase}"})
+
+    promotion_ledger = INDEX_FILES["secondary-source-promotion-ledger"]
+    if promotion_ledger.exists():
+        promotion_text = read_text(promotion_ledger)
+        for term in PROMOTION_TAXONOMY:
+            if term not in promotion_text:
+                issues.append({"path": str(promotion_ledger.relative_to(REPO_ROOT)), "level": "error", "message": f"Promotion ledger missing status term: {term}"})
+
+    wedge_template = INDEX_FILES["paired-reading-wedge-template"]
+    if wedge_template.exists():
+        wedge_template_text = read_text(wedge_template)
+        for heading in REQUIRED_WEDGE_HEADINGS:
+            if heading not in wedge_template_text:
+                issues.append({"path": str(wedge_template.relative_to(REPO_ROOT)), "level": "error", "message": f"Wedge template missing heading: {heading}"})
+
+    for wedge_path in PILOT_WEDGE_FILES:
+        if not wedge_path.exists():
+            issues.append({"path": str(wedge_path.relative_to(REPO_ROOT)), "level": "error", "message": "Missing pilot paired reading wedge"})
+            continue
+        wedge_text = read_text(wedge_path)
+        for heading in REQUIRED_WEDGE_HEADINGS:
+            if heading not in wedge_text:
+                issues.append({"path": str(wedge_path.relative_to(REPO_ROOT)), "level": "error", "message": f"Pilot wedge missing heading: {heading}"})
+        primary_section = extract_section(wedge_text, "## Two Primary Anchors")
+        clarifier_section = extract_section(wedge_text, "## One Clarifier")
+        counterweight_section = extract_section(wedge_text, "## One Counterweight")
+        return_section = extract_section(wedge_text, "## Return Path")
+        if count_list_items(primary_section, r"^\d+\.\s+") != 2:
+            issues.append({"path": str(wedge_path.relative_to(REPO_ROOT)), "level": "error", "message": "Pilot wedge must contain exactly 2 primary anchors"})
+        if count_list_items(clarifier_section, r"^- ") != 1:
+            issues.append({"path": str(wedge_path.relative_to(REPO_ROOT)), "level": "error", "message": "Pilot wedge must contain exactly 1 clarifier"})
+        if count_list_items(counterweight_section, r"^- ") != 1:
+            issues.append({"path": str(wedge_path.relative_to(REPO_ROOT)), "level": "error", "message": "Pilot wedge must contain exactly 1 counterweight"})
+        if "primary-sources" not in return_section:
+            issues.append({"path": str(wedge_path.relative_to(REPO_ROOT)), "level": "error", "message": "Pilot wedge return path must link a primary shelf"})
+        if "secondary-sources" not in return_section:
+            issues.append({"path": str(wedge_path.relative_to(REPO_ROOT)), "level": "error", "message": "Pilot wedge return path must link a secondary shelf"})
+        if not re.search(r"(statecraft|civilization|empire)-[a-z]+\.md", return_section):
+            issues.append({"path": str(wedge_path.relative_to(REPO_ROOT)), "level": "error", "message": "Pilot wedge return path must link a chapter surface"})
+
+    retrieval_matrix = REPO_ROOT / "statecraft" / "civ-state" / "indexes" / "source-retrieval-matrix.md"
+    retrieval_matrix_text = read_text(retrieval_matrix)
+    for required_link in ["failure-mode-routes.md", "interpretive-difficulty-map.md", "recurring-secondary-sources.md"]:
+        if required_link not in retrieval_matrix_text:
+            issues.append({"path": str(retrieval_matrix.relative_to(REPO_ROOT)), "level": "error", "message": f"Source retrieval matrix missing comparative link: {required_link}"})
+    if "## Source-Support Block Contract" not in retrieval_matrix_text:
+        issues.append({"path": str(retrieval_matrix.relative_to(REPO_ROOT)), "level": "error", "message": "Source retrieval matrix missing source-support block contract"})
+
+    for path in SOURCE_SUPPORT_BLOCK_FILES:
+        text = read_text(path)
+        block = extract_section(text, "## Source Support Block")
+        if not block:
+            issues.append({"path": str(path.relative_to(REPO_ROOT)), "level": "error", "message": "Missing source support block"})
+            continue
+        for field in SOURCE_SUPPORT_FIELDS:
+            if field not in block:
+                issues.append({"path": str(path.relative_to(REPO_ROOT)), "level": "error", "message": f"Source support block missing field: {field}"})
 
     return issues
 

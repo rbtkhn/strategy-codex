@@ -8,6 +8,7 @@ from pathlib import Path
 
 from validate_statecraft_daily_synthesis import (
     FIVE_VOLUME_ORDER,
+    collect_daily_shelf_counts,
     validate_daily_file,
     validate_monthly_file,
     validate_quote_anchor_line,
@@ -102,6 +103,75 @@ def test_validate_monthly_file_rejects_invalid_function_label(tmp_path: Path) ->
     assert any("invalid labels" in e for e in errors)
 
 
+def test_collect_daily_shelf_counts_separates_migrated_from_legacy(tmp_path: Path) -> None:
+    (tmp_path / "2026-06-01.md").write_text(
+        """## Source Base
+
+## Executive Read
+
+## Dominant Themes
+
+## Lane Read
+
+## Five-Volume CIV-STATE Read
+
+- `China`: x
+- `Persia`: x
+- `Rome`: x
+- `Russia`: x
+- `America`: x
+
+## Speaker Value From This Batch
+
+## Tensions And Falsifiers
+
+## Best Next Moves
+""",
+        encoding="utf-8",
+    )
+    (tmp_path / "2026-06-02.md").write_text(
+        """## Source Base
+
+## Executive Read
+""",
+        encoding="utf-8",
+    )
+    (tmp_path / "2026-06.md").write_text(
+        """## Source Base
+
+## Executive Read
+
+## Functional Convergence
+
+- `trap`: x
+
+## Month Arcs
+
+## Lane Ownership Across The Month
+
+## Five-Volume CIV-STATE Read
+
+- `China`: x
+- `Persia`: x
+- `Rome`: x
+- `Russia`: x
+- `America`: x
+
+## Best Re-entry Days
+
+## What The Month Clarified
+
+## What The Month Still Did Not Settle
+
+## Best Next Companion Notes
+""",
+        encoding="utf-8",
+    )
+
+    migrated, legacy, monthly = collect_daily_shelf_counts(tmp_path)
+    assert (migrated, legacy, monthly) == (1, 1, 1)
+
+
 def test_repo_validator_smoke() -> None:
     proc = subprocess.run(
         [sys.executable, str(REPO_ROOT / "scripts" / "validate_statecraft_daily_synthesis.py")],
@@ -110,4 +180,4 @@ def test_repo_validator_smoke() -> None:
         text=True,
     )
     assert proc.returncode == 0, proc.stderr + proc.stdout
-
+    assert "migrated daily note(s)" in proc.stdout
