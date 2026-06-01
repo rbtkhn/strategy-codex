@@ -129,19 +129,38 @@ Canonical method: [skills-portable/statecraft-source-intake/SKILL.md](statecraft
 ## statecraft-daily-synthesis
 
 - **What it is**
-  - A downstream statecraft synthesis skill for turning a landed archive day batch into a bounded daily report plus optional companion mechanism-comparison note.
+  - A downstream statecraft synthesis skill for turning a landed archive day or month batch into a bounded report with visible speaker-shelf grounding.
 - **When to use it**
-  - Use when the day's statecraft captures already exist and the next need is the dominant crisis object, lane pressure, and speaker-by-function comparison.
+  - Use when the statecraft captures already exist and the next need is the dominant crisis object, lane pressure, quote-bearing traceability, and speaker-by-function comparison.
 - **Inputs you'll need**
   - The touched day archive inventory, the highest-signal source captures, and the current `statecraft/daily/` shelf.
 - **What you get**
-  - A durable daily synthesis note on the `statecraft/` side and, when needed, a same-object comparison note that preserves mechanism, carrier, and bargaining differences.
+  - A durable daily or monthly synthesis note on the `statecraft/` side and, when needed, a same-object comparison note that preserves mechanism, carrier, and bargaining differences.
 - **Boundary**
-  - Does not replace archive truth, does not write synthesis into `source-archive/`, and does not flatten multiple speakers into one blended commentary voice.
+  - Does not replace archive truth, does not write synthesis into `source-archive/`, does not flatten multiple speakers into one blended commentary voice, and does not serve as a synthetic intelligence-essay skill.
 - **Current status**
   - `promoted`
 
 Canonical method: [skills-portable/statecraft-daily-synthesis/SKILL.md](statecraft-daily-synthesis/SKILL.md)
+
+---
+
+## statecraft-intelligence-essay
+
+- **What it is**
+  - A synthetic singularity-statecraft essay skill for turning grounded archive substrate into authored intelligence prose without visible speaker-shelf scaffolding.
+- **When to use it**
+  - Use when the operator wants a paired essay, actor-perception essay, or strategic-historical interpretation that should sound like intelligence rather than transcript comparison.
+- **Inputs you'll need**
+  - A real supporting archive batch or note stack, the live object, and the target downstream shelf surface.
+- **What you get**
+  - A durable statecraft essay that stays anchored to the archive while rendering its own authored strategic grammar.
+- **Boundary**
+  - Does not do source intake, does not masquerade as daily or monthly synthesis, and does not leave the archive visibly carrying the argumentative spine.
+- **Current status**
+  - `promoted`
+
+Canonical method: [skills-portable/statecraft-intelligence-essay/SKILL.md](statecraft-intelligence-essay/SKILL.md)
 
 ---
 

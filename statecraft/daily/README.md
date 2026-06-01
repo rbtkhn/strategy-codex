@@ -27,6 +27,12 @@ The compact distinction is:
 - daily note = one archive day judged into an object
 - monthly note = one archive month compressed into governing objects
 - companion note = one bounded follow-on comparison or mechanism note opened by a parent daily or month note
+- intelligence essay = a synthetic singularity-statecraft essay linked to a live day or object, but not written in speaker-shelf form
+
+Boundary reminder:
+
+- daily and monthly synthesis notes should remain visibly archive-grounded and speaker-shelf based
+- intelligence essays on this shelf should remain synthetic, authored, and non-speaker-led in the prose
 
 ## Index
 
@@ -68,3 +74,10 @@ The compact distinction is:
   - [2026-05-31 - Barnes-Aguilar On Captured Command Versus Degraded Carry](2026-05-31-barnes-aguilar-captured-command-vs-degraded-carry.md)
   - [2026-05-31 - Barnes-Diesen-Nima On Coercive Failure](2026-05-31-barnes-diesen-nima-coercive-failure.md)
   - [2026-05-31 - Rome-America On Carrier Capture Versus Sovereign Burden-Bearing](2026-05-31-rome-america-carrier-capture-vs-sovereign-burden-bearing.md)
+
+### 2026-06 - day ladder
+
+- [2026-06-01](2026-06-01.md)
+  - [2026-06-01 - Persia On Hormuz As Postwar Authority Floor](2026-06-01-persia-hormuz-postwar-authority-floor.md)
+  - [2026-06-01 - Persia On The Hormuz-Lebanon Gate](2026-06-01-persia-hormuz-lebanon-strategic-memory.md)
+  - [2026-06-01 - America On The Hormuz-Lebanon Gate](2026-06-01-america-hormuz-lebanon-strategic-memory.md)

@@ -23,6 +23,7 @@ Portable skills should reflect the same core boundary rules that govern the repo
 - **Grounded before elegant.** If a skill cannot point to operator-provided assets, current receipts, or source-bound material, it should narrow the claim or say the evidence is thin.
 - **No duplicate-lane sprawl.** When a similar lane, note, or asset already exists, the skill should prefer reuse, extension, or explicit comparison over silently spawning a near-duplicate.
 - **Human pass stays load-bearing.** Approval, publication, execution, and canonization remain human acts even when the skill produces polished text quickly.
+- **Surface class must stay explicit.** Archive-grounded `daily` and `monthly` synthesis skills may stay visibly speaker-shelf based and quote-bearing; synthetic intelligence-essay skills should use the archive as substrate rather than visible scaffolding.
 
 See [skills-portable-drift-audit-2026-05-22.md](skills-portable-drift-audit-2026-05-22.md) for the current inventory, drift analysis, and before/after examples.
 

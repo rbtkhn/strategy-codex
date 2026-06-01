@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # Statecraft Daily Synthesis Method
 
-Purpose: define the active contract for the `statecraft/daily` shelf now that it contains daily notes, month notes, and companion notes.
+Purpose: define the active contract for the `statecraft/daily` shelf now that it contains daily notes, month notes, companion notes, and occasional linked intelligence essays.
 
 Use this note when the real question is not only where a note lives, but what kind of synthesis it is supposed to perform, how to judge whether it learned anything, and what failures count as regressions rather than style variation.
 
@@ -47,6 +47,33 @@ Its job is to:
 - remain locally retrievable from the day or month that generated it
 
 It is not the canonical owner of chronology.
+
+### Intelligence essay
+
+An intelligence essay is a synthetic singularity-statecraft surface that may sit on the same shelf for retrieval and pairing, but does **not** use the same evidentiary form as a daily or monthly synthesis note.
+
+Its job is to:
+
+- render a strategic-historical perception in authored intelligence prose
+- absorb archive and lane learning into one coherent intelligence voice
+- clarify how one actor, civilization-state, or lane perceives a live object
+- stay retrievable from the day or month that generated it without becoming speaker-led recap
+
+It is not a speaker shelf note, not a transcript-grounded proof surface in the daily-note sense, and not a substitute for the canonical daily or monthly synthesis.
+
+## Core Boundary
+
+The shelf now contains **two different epistemic forms** that must not be collapsed:
+
+- `daily` and `monthly synthesis` surfaces are **speaker-shelf based**
+- `intelligence essays` are **synthetic authored intelligence**
+
+Short rule:
+
+- if the surface is a synthesis note, archive speakers and quote anchors stay foregrounded
+- if the surface is an intelligence essay, archive speakers recede into the intelligence and should usually disappear from the prose
+
+This distinction is mandatory. A note may be highly archive-informed without being visibly speaker-scaffolded.
 
 ## Daily Contract
 
@@ -115,6 +142,23 @@ Monthly note law:
   - `Russia`
   - `America`
 
+## Intelligence Essay Contract
+
+Required law for intelligence essays on this shelf:
+
+- the prose is authored in one coherent intelligence voice
+- speaker names, transcript quotes, and comparative archive scaffolding should usually remain absent from the body
+- the archive may remain the substrate, but not the visible narrative driver
+- these essays may be historically deeper than daily notes and may use mirrored or paired structures
+- they should point back lightly to their generating day or companion mechanism notes, but should not read like transformed daily syntheses
+- they are allowed to be interpretive first and evidentiary second, provided they remain bounded to a clearly named live object
+
+Short test:
+
+`Could this essay still read coherently if the speaker names were removed?`
+
+If the answer is no, it is probably still a synthesis note in disguise.
+
 ## Adaptive Reuse Standard
 
 The governing recursive-learning law is:
@@ -139,6 +183,12 @@ A failed synthesis is one where:
 - the monthly note averages speakers instead of compressing objects
 - one dominant speaker silently defines a supposedly cross-speaker read
 
+For intelligence essays, the adaptive-reuse test shifts slightly:
+
+- the essay must deepen the live object through strategic-historical intelligence rather than through visible transcript comparison
+- the essay must not merely paraphrase the parent day note in more elevated language
+- the essay must produce a reusable actor-perception frame that could be reopened against a later related event
+
 ## Anti-Patterns
 
 Watch for these named regressions:
@@ -149,6 +199,9 @@ Watch for these named regressions:
 - `hidden speaker capture`: a note appears cross-speaker, but one speaker's grammar silently controls the whole judgment
 - `chronology drift`: a monthly note starts replaying the month instead of compressing it
 - `stitched transcript collage`: the note stops reading like synthesis and starts reading like excerpt accumulation
+- `essay-in-disguise`: a note claims to be intelligence prose but still depends on visible speaker scaffolding
+- `elevated paraphrase`: an intelligence essay restates the day note in smoother language without adding a real actor-perception frame
+- `false substrate purity`: an intelligence essay suppresses speakers in the prose but has not actually metabolized the archive into a stronger synthetic intelligence read
 
 ## Proof Fixtures
 
