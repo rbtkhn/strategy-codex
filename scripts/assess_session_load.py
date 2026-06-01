@@ -145,6 +145,38 @@ def _collect_branch_count() -> int:
         return 0
 
 
+def _collect_changed_paths() -> list[str]:
+    """Return normalized repo-relative paths changed since origin/main or in the worktree."""
+    import subprocess
+
+    changed: set[str] = set()
+
+    def _run_git(args: list[str]) -> None:
+        try:
+            result = subprocess.run(
+                ["git", *args],
+                capture_output=True,
+                text=True,
+                cwd=str(REPO_ROOT),
+                timeout=5,
+                check=False,
+            )
+        except Exception:
+            return
+        if result.returncode != 0:
+            return
+        for raw in result.stdout.splitlines():
+            path = raw.strip()
+            if not path:
+                continue
+            changed.add(path.replace("\\", "/"))
+
+    _run_git(["diff", "--name-only", "origin/main..HEAD"])
+    _run_git(["diff", "--name-only"])
+    _run_git(["ls-files", "--others", "--exclude-standard"])
+    return sorted(changed)
+
+
 def _time_of_day_energy() -> str:
     """Simple time-of-day proxy for energy level."""
     hour = datetime.now().hour
@@ -233,6 +265,7 @@ def _compute_option_weights(
     gate: dict | None,
     branch_count: int,
     coffee_recursion: dict | None = None,
+    changed_paths: list[str] | None = None,
 ) -> dict[str, dict[str, str]]:
     """Assign cost and note to each coffee option."""
     pending = gate.get("pending", 0) if gate else 0
@@ -262,14 +295,18 @@ def _compute_option_weights(
     last_close = (coffee_recursion or {}).get("last_close") or {}
     readiness = str(last_close.get("readiness") or "").strip()
     artifacts = last_close.get("artifacts") or []
+    artifacts_live = _artifacts_overlap_current_changes(artifacts, changed_paths)
     if readiness == "ship_ready":
-        weights["A"]["note"] = "Steward; last close is ship_ready"
+        if artifacts_live:
+            weights["A"]["note"] = "Steward; last close is ship_ready"
+        else:
+            weights["A"]["note"] = "Steward; ship-ready receipt exists, but current changes moved on"
         weights["A"]["cost"] = "light"
-    elif readiness == "execution_ready":
+    elif readiness == "execution_ready" and artifacts_live:
         weights["B"]["note"] = "Engineer; last close is execution_ready"
         weights["B"]["cost"] = "light"
     elif readiness == "blocked":
-        code_like = _artifacts_look_code_related(artifacts)
+        code_like = _artifacts_look_code_related(artifacts) and artifacts_live
         target = "B" if code_like else "A"
         weights[target]["note"] = f"{weights[target]['note']}; last close is blocked"
         weights[target]["cost"] = "light"
@@ -287,24 +324,46 @@ def _artifacts_look_code_related(artifacts: list[str] | tuple[str, ...] | None) 
     return any(str(artifact).replace("\\", "/").startswith(code_prefixes) for artifact in artifacts)
 
 
+def _artifacts_overlap_current_changes(
+    artifacts: list[str] | tuple[str, ...] | None, changed_paths: list[str] | None
+) -> bool:
+    if not artifacts or not changed_paths:
+        return False
+    normalized_changes = tuple(path.replace("\\", "/") for path in changed_paths)
+    for artifact in artifacts:
+        candidate = str(artifact).strip().replace("\\", "/").rstrip("/")
+        if not candidate:
+            continue
+        if any(
+            path == candidate or path.startswith(candidate + "/") or candidate.startswith(path + "/")
+            for path in normalized_changes
+        ):
+            return True
+    return False
+
+
 def _pick_recommendation(
     load_level: str,
     weights: dict[str, dict[str, str]],
     signals: list[str],
     coffee_recursion: dict | None = None,
+    changed_paths: list[str] | None = None,
 ) -> tuple[str, str]:
     """Select the recommended option and reason (A / B / C only; see coffee SKILL)."""
     last_close = (coffee_recursion or {}).get("last_close") or {}
     readiness = str(last_close.get("readiness") or "").strip()
     artifacts = last_close.get("artifacts") or []
+    artifacts_live = _artifacts_overlap_current_changes(artifacts, changed_paths)
     if readiness == "ship_ready":
+        if not artifacts_live:
+            return "A", "ship-ready receipt exists, but current changes no longer match that slice"
         return "A", "last coffee close is ship_ready - Steward can review and ship"
-    if readiness == "execution_ready" and _artifacts_look_code_related(artifacts):
+    if readiness == "execution_ready" and _artifacts_look_code_related(artifacts) and artifacts_live:
         return "B", "last coffee close is execution_ready on code/test artifacts"
     if readiness == "orientation":
         return "C", "last coffee close is orientation-only - Statecraft can turn orientation into an instrument"
     if readiness == "blocked":
-        if _artifacts_look_code_related(artifacts):
+        if _artifacts_look_code_related(artifacts) and artifacts_live:
             return "B", "last coffee close is blocked on code/test artifacts"
         return "A", "last coffee close is blocked - Steward can isolate the blocker"
 
@@ -334,10 +393,15 @@ def assess_load(user_id: str) -> dict:
     dream = _collect_dream_quality(user_id)
     coffee_recursion = _collect_coffee_recursion(user_id)
     branch_count = _collect_branch_count()
+    changed_paths = _collect_changed_paths()
 
     load_level, signals = _compute_load_level(cadence, gate, gap, dream)
-    weights = _compute_option_weights(load_level, gate, branch_count, coffee_recursion)
-    recommended, reason = _pick_recommendation(load_level, weights, signals, coffee_recursion)
+    weights = _compute_option_weights(
+        load_level, gate, branch_count, coffee_recursion, changed_paths
+    )
+    recommended, reason = _pick_recommendation(
+        load_level, weights, signals, coffee_recursion, changed_paths
+    )
 
     return {
         "load_level": load_level,
@@ -347,6 +411,7 @@ def assess_load(user_id: str) -> dict:
         "recommendation_reason": reason,
         "time_of_day": _time_of_day_energy(),
         "branch_count": branch_count,
+        "changed_paths": changed_paths,
         "coffee_recursion": coffee_recursion,
     }
 

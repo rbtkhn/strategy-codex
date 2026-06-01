@@ -61,6 +61,28 @@ def _truncate(value: str, limit: int = 140) -> str:
     return text[: limit - 3].rstrip() + "..."
 
 
+def _normalize_repo_path(value: str) -> str:
+    return str(value).strip().replace("\\", "/").rstrip("/")
+
+
+def _artifacts_overlap_changed_paths(
+    artifacts: list[str] | tuple[str, ...] | None, changed_paths: list[str] | tuple[str, ...] | None
+) -> bool:
+    if not artifacts or not changed_paths:
+        return False
+    normalized_changes = tuple(_normalize_repo_path(path) for path in changed_paths if str(path).strip())
+    for artifact in artifacts:
+        candidate = _normalize_repo_path(artifact)
+        if not candidate:
+            continue
+        if any(
+            path == candidate or path.startswith(candidate + "/") or candidate.startswith(path + "/")
+            for path in normalized_changes
+        ):
+            return True
+    return False
+
+
 def _kind_phrase(event: dict[str, Any]) -> str:
     kind = str(event.get("kind") or "event")
     kv = event.get("kv") or {}
@@ -92,6 +114,7 @@ def format_coffee_recent_rhythm(
     days: int = 14,
     events_path: Path = EVENTS_PATH,
     now: datetime | None = None,
+    changed_paths: list[str] | None = None,
 ) -> str:
     """Return 2-4 human lines for coffee Step 0, preferring coffee_close."""
     now = now or datetime.now(timezone.utc)
@@ -106,12 +129,15 @@ def format_coffee_recent_rhythm(
         outcome = last_close.get("outcome") or "unknown"
         readiness = last_close.get("readiness") or "unknown"
         next_step = last_close.get("next")
-        first = f"- Last close picked {picked}: {outcome}, readiness {readiness}."
-        if next_step:
-            first += f" Next: {next_step}."
-        lines.append(first)
         artifacts = _as_list(last_close.get("artifacts"))
-        if artifacts:
+        artifacts_live = _artifacts_overlap_changed_paths(artifacts, changed_paths)
+        first = f"- Last close picked {picked}: {outcome}, readiness {readiness}."
+        if next_step and artifacts_live:
+            first += f" Next: {next_step}."
+        elif next_step:
+            first += " Current changes no longer match that slice."
+        lines.append(first)
+        if artifacts and artifacts_live:
             lines.append("- Artifact anchors: " + ", ".join(artifacts[:4]) + ".")
     else:
         events = parse_events(user_id, events_path=events_path)
@@ -303,6 +329,7 @@ def build_coffee_bootstrap_brief(
     )
     last_close = recursion.get("last_close")
     repeated = recursion.get("repeated_unresolved_loops") or []
+    load_changed_paths = _as_list(load.get("changed_paths"))
     artifacts = _as_list(last_close.get("artifacts") if last_close else None)
     if not artifacts:
         artifact_counts = recursion.get("artifact_counts") or {}
@@ -321,11 +348,15 @@ def build_coffee_bootstrap_brief(
         "git_state": _git_state_status(),
         "pytest": _pytest_status(),
         "recent_rhythm": format_coffee_recent_rhythm(
-            user_id, events_path=events_path, now=now
+            user_id, events_path=events_path, now=now, changed_paths=load_changed_paths
         ),
         "last_close": last_close,
         "open_loops": repeated,
-        "artifact_anchors": artifacts[:4],
+        "artifact_anchors": (
+            artifacts[:4]
+            if _artifacts_overlap_changed_paths(artifacts, load_changed_paths)
+            else []
+        ),
         "conductor_continuity": recursion.get("latest_conductor_state"),
         "lane_hints": _lane_hint_status(),
         "recommended_hub": recommended,
