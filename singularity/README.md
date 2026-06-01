@@ -26,6 +26,7 @@ Use this folder for singularity concepts and study structure, not for generic AI
 - [Synthesis](synthesis/README.md) - first-class monthly singularity synthesis shelf for extracting analytical value and actionable ideas from the Innermost Loop archive.
 - [Notes](notes/README.md) - first-class singularity notes shelf for exploratory and bounded interpretive outputs.
 - [Essays](essays/README.md) - first-class singularity essay shelf for more synthesized, stand-alone, carriage-bearing long-form outputs.
+- [Shared prose index](/C:/dev/strategy-codex/docs/prose-index.md) - canonical prose-class chooser across domains.
 
 ## External Watchlist
 
@@ -35,157 +36,18 @@ Use this folder for singularity concepts and study structure, not for generic AI
 
 - [Spine Health Checklist](workshop/longitudinal/spine-health-checklist.md) - quick QA pass for coverage, review load, bridge isolation, and rebuild sanity.
 
-## Output Surfaces
+The four links above are the live output-routing anchor for this domain.
 
-`singularity/` now recognizes three first-class output classes alongside workshop doctrine, sheets, raw captures, and watch surfaces:
-
-- [synthesis/](synthesis/README.md) for monthly singularity synthesis and route decisions
-- [notes/](notes/README.md) for working, exploratory, bounded interpretive outputs
-- [essays/](essays/README.md) for more synthesized, stand-alone, carriage-bearing long-form outputs
-
-Routing law:
-
-- use `synthesis/` when the main job is extracting month-level analytical value and actionable ideas from the Innermost Loop archive
-- use `notes/` when the piece is exploratory, bounded, workshop-adjacent, route-shaping, or interpretively partial
-- use `essays/` when the piece is synthesized enough to stand on its own as a more stable argument or carriage-bearing long-form output
+Use [shared prose index](/C:/dev/strategy-codex/docs/prose-index.md) as the canonical chooser whenever the class decision itself is still open. Treat the local shelf READMEs as shelf-specific orientation after that choice has been made.
 
 ## Raw Capture Backfill
 
-Full local captures for the current Innermost Loop backfill live under `source-archive/singularity/innermost-loop/`.
+Full local captures for the current Innermost Loop backfill live under [source-archive/singularity/innermost-loop/](/C:/dev/strategy-codex/source-archive/singularity/innermost-loop/).
 
-- [The Innermost Loop raw - 2025-12-11](../source-archive/singularity/innermost-loop/innermost-loop-2025-12-11.md) - full newsletter capture.
-- [The Innermost Loop raw - 2025-12-12](../source-archive/singularity/innermost-loop/innermost-loop-2025-12-12.md) - full newsletter capture.
-- [The Innermost Loop raw - 2025-12-13](../source-archive/singularity/innermost-loop/innermost-loop-2025-12-13.md) - full newsletter capture.
-- [The Innermost Loop raw - 2025-12-14](../source-archive/singularity/innermost-loop/innermost-loop-2025-12-14.md) - full newsletter capture.
-- [The Innermost Loop raw - 2025-12-15](../source-archive/singularity/innermost-loop/innermost-loop-2025-12-15.md) - full newsletter capture.
-- [The Innermost Loop raw - 2025-12-16](../source-archive/singularity/innermost-loop/innermost-loop-2025-12-16.md) - full newsletter capture.
-- [The Innermost Loop raw - 2025-12-17](../source-archive/singularity/innermost-loop/innermost-loop-2025-12-17.md) - full newsletter capture.
-- [The Innermost Loop raw - 2025-12-18](../source-archive/singularity/innermost-loop/innermost-loop-2025-12-18.md) - full newsletter capture.
-- [The Innermost Loop raw - 2025-12-19](../source-archive/singularity/innermost-loop/innermost-loop-2025-12-19.md) - full newsletter capture.
-- [The Innermost Loop raw - 2025-12-20](../source-archive/singularity/innermost-loop/innermost-loop-2025-12-20.md) - full newsletter capture.
-- [The Innermost Loop raw - 2025-12-21](../source-archive/singularity/innermost-loop/innermost-loop-2025-12-21.md) - full newsletter capture.
-- [The Innermost Loop raw - 2025-12-22](../source-archive/singularity/innermost-loop/innermost-loop-2025-12-22.md) - full newsletter capture.
-- [The Innermost Loop raw - 2025-12-23](../source-archive/singularity/innermost-loop/innermost-loop-2025-12-23.md) - full newsletter capture.
-- [The Innermost Loop raw - 2025-12-24](../source-archive/singularity/innermost-loop/innermost-loop-2025-12-24.md) - full newsletter capture.
-- [The Innermost Loop raw - 2025-12-25](../source-archive/singularity/innermost-loop/innermost-loop-2025-12-25.md) - full newsletter capture.
-- [The Innermost Loop raw - 2025-12-26](../source-archive/singularity/innermost-loop/innermost-loop-2025-12-26.md) - full newsletter capture.
-- [The Innermost Loop raw - 2025-12-27](../source-archive/singularity/innermost-loop/innermost-loop-2025-12-27.md) - full newsletter capture.
-- [The Innermost Loop raw - 2025-12-28](../source-archive/singularity/innermost-loop/innermost-loop-2025-12-28.md) - full newsletter capture.
-- [The Innermost Loop raw - 2025-12-29](../source-archive/singularity/innermost-loop/innermost-loop-2025-12-29.md) - full newsletter capture.
-- [The Innermost Loop raw - 2025-12-30](../source-archive/singularity/innermost-loop/innermost-loop-2025-12-30.md) - full newsletter capture.
-- [The Innermost Loop raw - 2025-12-31](../source-archive/singularity/innermost-loop/innermost-loop-2025-12-31.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-01-01](../source-archive/singularity/innermost-loop/innermost-loop-2026-01-01.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-01-02](../source-archive/singularity/innermost-loop/innermost-loop-2026-01-02.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-01-03](../source-archive/singularity/innermost-loop/innermost-loop-2026-01-03.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-01-04](../source-archive/singularity/innermost-loop/innermost-loop-2026-01-04.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-01-05](../source-archive/singularity/innermost-loop/innermost-loop-2026-01-05.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-01-06](../source-archive/singularity/innermost-loop/innermost-loop-2026-01-06.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-01-07](../source-archive/singularity/innermost-loop/innermost-loop-2026-01-07.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-01-08](../source-archive/singularity/innermost-loop/innermost-loop-2026-01-08.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-01-09](../source-archive/singularity/innermost-loop/innermost-loop-2026-01-09.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-01-10](../source-archive/singularity/innermost-loop/innermost-loop-2026-01-10.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-01-11](../source-archive/singularity/innermost-loop/innermost-loop-2026-01-11.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-01-12](../source-archive/singularity/innermost-loop/innermost-loop-2026-01-12.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-01-13](../source-archive/singularity/innermost-loop/innermost-loop-2026-01-13.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-01-14](../source-archive/singularity/innermost-loop/innermost-loop-2026-01-14.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-01-15](../source-archive/singularity/innermost-loop/innermost-loop-2026-01-15.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-01-16](../source-archive/singularity/innermost-loop/innermost-loop-2026-01-16.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-01-23](../source-archive/singularity/innermost-loop/innermost-loop-2026-01-23.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-01-24](../source-archive/singularity/innermost-loop/innermost-loop-2026-01-24.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-01-25](../source-archive/singularity/innermost-loop/innermost-loop-2026-01-25.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-01-26](../source-archive/singularity/innermost-loop/innermost-loop-2026-01-26.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-01-27](../source-archive/singularity/innermost-loop/innermost-loop-2026-01-27.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-01-28](../source-archive/singularity/innermost-loop/innermost-loop-2026-01-28.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-01-29](../source-archive/singularity/innermost-loop/innermost-loop-2026-01-29.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-01-30](../source-archive/singularity/innermost-loop/innermost-loop-2026-01-30.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-01-31](../source-archive/singularity/innermost-loop/innermost-loop-2026-01-31.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-02-01](../source-archive/singularity/innermost-loop/innermost-loop-2026-02-01.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-02-02](../source-archive/singularity/innermost-loop/innermost-loop-2026-02-02.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-02-03](../source-archive/singularity/innermost-loop/innermost-loop-2026-02-03.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-02-04](../source-archive/singularity/innermost-loop/innermost-loop-2026-02-04.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-02-05](../source-archive/singularity/innermost-loop/innermost-loop-2026-02-05.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-02-06](../source-archive/singularity/innermost-loop/innermost-loop-2026-02-06.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-02-07](../source-archive/singularity/innermost-loop/innermost-loop-2026-02-07.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-02-08](../source-archive/singularity/innermost-loop/innermost-loop-2026-02-08.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-02-09](../source-archive/singularity/innermost-loop/innermost-loop-2026-02-09.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-02-10](../source-archive/singularity/innermost-loop/innermost-loop-2026-02-10.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-02-11](../source-archive/singularity/innermost-loop/innermost-loop-2026-02-11.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-02-12](../source-archive/singularity/innermost-loop/innermost-loop-2026-02-12.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-02-13](../source-archive/singularity/innermost-loop/innermost-loop-2026-02-13.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-02-14](../source-archive/singularity/innermost-loop/innermost-loop-2026-02-14.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-02-15](../source-archive/singularity/innermost-loop/innermost-loop-2026-02-15.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-02-16](../source-archive/singularity/innermost-loop/innermost-loop-2026-02-16.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-02-17](../source-archive/singularity/innermost-loop/innermost-loop-2026-02-17.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-02-18](../source-archive/singularity/innermost-loop/innermost-loop-2026-02-18.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-02-19](../source-archive/singularity/innermost-loop/innermost-loop-2026-02-19.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-02-20](../source-archive/singularity/innermost-loop/innermost-loop-2026-02-20.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-02-21](../source-archive/singularity/innermost-loop/innermost-loop-2026-02-21.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-02-22](../source-archive/singularity/innermost-loop/innermost-loop-2026-02-22.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-02-23](../source-archive/singularity/innermost-loop/innermost-loop-2026-02-23.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-02-24](../source-archive/singularity/innermost-loop/innermost-loop-2026-02-24.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-02-25](../source-archive/singularity/innermost-loop/innermost-loop-2026-02-25.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-02-26](../source-archive/singularity/innermost-loop/innermost-loop-2026-02-26.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-02-27](../source-archive/singularity/innermost-loop/innermost-loop-2026-02-27.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-02-28](../source-archive/singularity/innermost-loop/innermost-loop-2026-02-28.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-03-01](../source-archive/singularity/innermost-loop/innermost-loop-2026-03-01.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-03-02](../source-archive/singularity/innermost-loop/innermost-loop-2026-03-02.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-03-03](../source-archive/singularity/innermost-loop/innermost-loop-2026-03-03.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-03-04](../source-archive/singularity/innermost-loop/innermost-loop-2026-03-04.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-03-05](../source-archive/singularity/innermost-loop/innermost-loop-2026-03-05.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-03-06](../source-archive/singularity/innermost-loop/innermost-loop-2026-03-06.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-03-07](../source-archive/singularity/innermost-loop/innermost-loop-2026-03-07.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-03-08](../source-archive/singularity/innermost-loop/innermost-loop-2026-03-08.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-03-09](../source-archive/singularity/innermost-loop/innermost-loop-2026-03-09.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-03-10](../source-archive/singularity/innermost-loop/innermost-loop-2026-03-10.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-03-12](../source-archive/singularity/innermost-loop/innermost-loop-2026-03-12.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-03-13](../source-archive/singularity/innermost-loop/innermost-loop-2026-03-13.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-03-14](../source-archive/singularity/innermost-loop/innermost-loop-2026-03-14.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-03-15](../source-archive/singularity/innermost-loop/innermost-loop-2026-03-15.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-03-16](../source-archive/singularity/innermost-loop/innermost-loop-2026-03-16.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-03-17](../source-archive/singularity/innermost-loop/innermost-loop-2026-03-17.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-03-18](../source-archive/singularity/innermost-loop/innermost-loop-2026-03-18.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-03-19](../source-archive/singularity/innermost-loop/innermost-loop-2026-03-19.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-03-20](../source-archive/singularity/innermost-loop/innermost-loop-2026-03-20.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-03-21](../source-archive/singularity/innermost-loop/innermost-loop-2026-03-21.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-03-22](../source-archive/singularity/innermost-loop/innermost-loop-2026-03-22.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-03-23](../source-archive/singularity/innermost-loop/innermost-loop-2026-03-23.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-03-24](../source-archive/singularity/innermost-loop/innermost-loop-2026-03-24.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-03-25](../source-archive/singularity/innermost-loop/innermost-loop-2026-03-25.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-03-26](../source-archive/singularity/innermost-loop/innermost-loop-2026-03-26.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-03-27](../source-archive/singularity/innermost-loop/innermost-loop-2026-03-27.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-03-28](../source-archive/singularity/innermost-loop/innermost-loop-2026-03-28.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-03-29](../source-archive/singularity/innermost-loop/innermost-loop-2026-03-29.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-03-31](../source-archive/singularity/innermost-loop/innermost-loop-2026-03-31.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-04-01](../source-archive/singularity/innermost-loop/innermost-loop-2026-04-01.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-04-02](../source-archive/singularity/innermost-loop/innermost-loop-2026-04-02.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-04-03](../source-archive/singularity/innermost-loop/innermost-loop-2026-04-03.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-04-05](../source-archive/singularity/innermost-loop/innermost-loop-2026-04-05.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-04-06](../source-archive/singularity/innermost-loop/innermost-loop-2026-04-06.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-04-07](../source-archive/singularity/innermost-loop/innermost-loop-2026-04-07.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-04-08](../source-archive/singularity/innermost-loop/innermost-loop-2026-04-08.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-04-09](../source-archive/singularity/innermost-loop/innermost-loop-2026-04-09.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-04-12](../source-archive/singularity/innermost-loop/innermost-loop-2026-04-12.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-04-13](../source-archive/singularity/innermost-loop/innermost-loop-2026-04-13.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-04-16](../source-archive/singularity/innermost-loop/innermost-loop-2026-04-16.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-04-17](../source-archive/singularity/innermost-loop/innermost-loop-2026-04-17.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-04-20](../source-archive/singularity/innermost-loop/innermost-loop-2026-04-20.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-04-23](../source-archive/singularity/innermost-loop/innermost-loop-2026-04-23.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-04-26](../source-archive/singularity/innermost-loop/innermost-loop-2026-04-26.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-04-27](../source-archive/singularity/innermost-loop/innermost-loop-2026-04-27.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-04-29](../source-archive/singularity/innermost-loop/innermost-loop-2026-04-29.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-04-30](../source-archive/singularity/innermost-loop/innermost-loop-2026-04-30.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-05-01](../source-archive/singularity/innermost-loop/innermost-loop-2026-05-01.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-05-03](../source-archive/singularity/innermost-loop/innermost-loop-2026-05-03.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-05-04](../source-archive/singularity/innermost-loop/innermost-loop-2026-05-04.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-05-05](../source-archive/singularity/innermost-loop/innermost-loop-2026-05-05.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-05-06](../source-archive/singularity/innermost-loop/innermost-loop-2026-05-06.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-05-08](../source-archive/singularity/innermost-loop/innermost-loop-2026-05-08.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-05-09](../source-archive/singularity/innermost-loop/innermost-loop-2026-05-09.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-05-11](../source-archive/singularity/innermost-loop/innermost-loop-2026-05-11.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-05-12](../source-archive/singularity/innermost-loop/innermost-loop-2026-05-12.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-05-13](../source-archive/singularity/innermost-loop/innermost-loop-2026-05-13.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-05-14](../source-archive/singularity/innermost-loop/innermost-loop-2026-05-14.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-05-15](../source-archive/singularity/innermost-loop/innermost-loop-2026-05-15.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-05-16](../source-archive/singularity/innermost-loop/innermost-loop-2026-05-16.md) - full newsletter capture.
-- [The Innermost Loop raw - 2026-05-17](../source-archive/singularity/innermost-loop/innermost-loop-2026-05-17.md) - full newsletter capture.
+Use this front door only to route toward the right owner:
+
+- open [source-archive/singularity/innermost-loop/](/C:/dev/strategy-codex/source-archive/singularity/innermost-loop/) when you need the canonical raw capture layer itself
+- open [singularity/synthesis/README.md](/C:/dev/strategy-codex/singularity/synthesis/README.md) when the next job is month-scale extraction, support-note use, or promotion into `notes/` or `essays/`
+
+The long issue-by-issue inventory belongs to the archive-bearing surface, not to this domain front door.
 

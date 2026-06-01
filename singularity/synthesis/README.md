@@ -1,8 +1,10 @@
 # Innermost Loop Synthesis
 
-WORK only; not Record.
+work only; not Record.
 
 This shelf is the singularity-facing synthesis layer for Innermost Loop. It is optimized for maximum analytical value and actionable ideas rather than equal-weight commentary on every issue.
+
+Open [shared prose index](/C:/dev/strategy-codex/docs/prose-index.md) when the unresolved question is whether an output should stay in the month-scale synthesis layer or promote into `notes/` or `essays/`.
 
 ## Governing Law
 
@@ -21,8 +23,9 @@ Use the layer this way:
 
 - [Support notes](support/README.md) - minimal typed issue-level clarifiers for provenance, chronology, counterweight, substrate anchoring, or action extraction.
 - [Longitudinal spine](../workshop/longitudinal/innermost-loop.md) - deterministic chronology substrate.
-- [Singularity notes](../notes/README.md) - bounded promoted arguments.
-- [Singularity essays](../essays/README.md) - carriage-bearing promoted theses.
+- [Singularity notes](../notes/README.md) - bounded promoted arguments that preserve one seam, substrate packet, or source-hygiene object.
+- [Singularity essays](../essays/README.md) - carriage-bearing promoted theses that rise above one month, sheet, or bounded seam.
+- [Shared prose index](/C:/dev/strategy-codex/docs/prose-index.md) - cross-domain distinction between note-class and essay-class prose.
 
 ## Monthly Synthesis Index
 
@@ -43,6 +46,11 @@ Every monthly synthesis should expose:
 - 2-5 actionable ideas with action-class tags
 - explicit route decisions
 - a short failure-mode check against hype smoothing, substrate erasure, action theater, cross-front blur, counterweight failure, overpromotion, and commentary inflation
+
+When a monthly synthesis promotes prose, it should name the promotion type clearly:
+
+- `promote_to_note` for a bounded promoted argument
+- `promote_to_essay` for a thesis-bearing stand-alone argument
 
 ## Return Path
 

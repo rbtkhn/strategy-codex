@@ -1,14 +1,23 @@
 # Singularity Notes
 
-WORK only; not Record.
+work only; not Record.
 
-This folder holds **working, exploratory, and bounded interpretive prose outputs** for the singularity domain.
+This shelf indexes **bounded promoted singularity seams** and other local interpretive objects.
+
+Open [shared prose index](/C:/dev/strategy-codex/docs/prose-index.md) first when the class decision is still open. This README assumes the answer is already note-class and only explains the local singularity version of that shelf.
+
+## Formal Role
 
 Use `singularity/notes/` for:
 
 - workshop-born but domain-level exploratory notes
 - bounded interpretive notes on agency, acceleration, substrate, alignment, displacement, and control
 - compact reflections that are more than one sheet but not yet stand-alone essays
+
+The local distinction is:
+
+- a **singularity note** preserves one promoted seam, control-plane packet, source-hygiene companion, or bounded substrate argument
+- a **singularity essay** carries a broader thesis that should travel beyond the original month, sheet, or workshop route
 
 Do **not** use this folder for:
 
@@ -18,10 +27,9 @@ Do **not** use this folder for:
 - root constitutional or domain-orientation files
 - generic AI news capture
 
-## Routing Rule
+## Local Test
 
-- use `notes/` when the piece is exploratory, bounded, workshop-adjacent, route-shaping, or interpretively partial
-- use `../essays/` when the piece is synthesized enough to stand on its own as a more stable, carriage-bearing long-form output
+If the piece still depends heavily on the originating month, sheet, or promoted seam to make sense, it is usually still a note.
 
 Machine-constitutional and source-bearing files stay where they already belong:
 
@@ -29,6 +37,22 @@ Machine-constitutional and source-bearing files stay where they already belong:
 - workshop operating doctrine stays in `workshop/`
 - sheets stay in `workshop/sheets/`
 - raw captures stay in `source-archive/`
+
+## Best Entry Points
+
+- [compute-political-currency-control-plane-substrate.md](./compute-political-currency-control-plane-substrate.md) - promoted substrate seam
+- [may-2026-control-plane-compression.md](./may-2026-control-plane-compression.md) - bounded mechanism packet
+- [may-2026-control-plane-compression-source-hygiene.md](./may-2026-control-plane-compression-source-hygiene.md) - source-hygiene companion
+
+## Promotion Path
+
+Most singularity notes are promoted from:
+
+- monthly synthesis when one bounded argument deserves preservation
+- workshop sheets when one seam should survive separately from the sheet that generated it
+- source-hygiene or companion notes when reuse needs a disciplined local packet
+
+Promotion to `../essays/` happens when the seam becomes a stand-alone thesis rather than a bounded promoted object.
 
 ## Existing Likely Candidates
 
@@ -40,9 +64,9 @@ Some existing singularity prose surfaces may later migrate here in bounded clean
 
 This first rollout is forward-only. Do not move existing prose here automatically.
 
-## Seeded Promotion Set
+## Current Seeded Set
 
-The shelf is now seeded with curated **promoted copies** of strong existing notes. The originals remain in place for now to avoid unnecessary link churn while the new output taxonomy settles.
+The shelf is currently seeded with promoted copies of strong notes. Treat them as a current seeded set while the taxonomy settles, not as proof that every mirrored item is already in its final canonical home.
 
 - [watchlist.md](./watchlist.md) from [../watchlist.md](../watchlist.md)
 - [scenario-lab-pilot.md](./scenario-lab-pilot.md) from [../workshop/sheets/scenario-lab-pilot.md](../workshop/sheets/scenario-lab-pilot.md)
@@ -59,3 +83,4 @@ The shelf is now seeded with curated **promoted copies** of strong existing note
 - Return to [singularity front door](../README.md) for the domain shell.
 - Return to [singularity workshop](../workshop/README.md) for the active operating layer.
 - Return to [singularity essays](../essays/README.md) when the output has become more synthesized and stand-alone.
+- Return to [shared prose index](/C:/dev/strategy-codex/docs/prose-index.md) when the real question is prose class rather than shelf location.

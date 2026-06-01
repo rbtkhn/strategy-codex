@@ -119,6 +119,7 @@ Named recent events no longer open a separate `current-event` function. Verify t
 
 - Need the full machine back in your head? Open [statecraft.md](statecraft.md).
 - Need first-class prose output shelves? Open [notes/](notes/README.md) for bounded interpretive outputs and [essays/](essays/README.md) for more synthesized stand-alone long-form outputs.
+- Need to decide what kind of prose object you need before choosing a shelf? Open [shared prose index](/C:/dev/strategy-codex/docs/prose-index.md), which is the canonical prose-class chooser.
 - Need the fastest cold-open rule? `statecraft.md -> crisis object -> lane ownership -> output form`.
 - Need the next-week operator roadmap? Open [statecraft-v1-upgrade-plan-2026-05-25.md](statecraft-v1-upgrade-plan-2026-05-25.md).
 - Need lane ownership? Open `state-deploy`.
@@ -195,10 +196,7 @@ At the broader repo level, the aliasing rule is now:
 - [notes/](notes/README.md) for working, exploratory, bounded interpretive outputs
 - [essays/](essays/README.md) for more synthesized, stand-alone, carriage-bearing long-form outputs
 
-Routing law:
-
-- use `notes/` when the piece is exploratory, bounded, route-shaping, mechanism-testing, or interpretively partial
-- use `essays/` when the piece is synthesized enough to stand on its own as a more stable argument or carriage-bearing long-form output
+For prose-class routing across domains, use [shared prose index](/C:/dev/strategy-codex/docs/prose-index.md) as the canonical chooser. The local shelf READMEs explain only the statecraft-specific version once that class decision is already made.
 
 Do not move source-bearing archive material into these folders, and do not treat kernels, journals, indexes, sheets, bridges, or transactions as essay buckets.
 
