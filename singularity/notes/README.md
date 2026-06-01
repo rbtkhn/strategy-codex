@@ -55,6 +55,9 @@ Machine-constitutional and source-bearing files stay where they already belong:
 - [compute-political-currency-control-plane-substrate.md](./compute-political-currency-control-plane-substrate.md) - promoted substrate seam
 - [may-2026-control-plane-compression.md](./may-2026-control-plane-compression.md) - bounded mechanism packet
 - [may-2026-control-plane-compression-source-hygiene.md](./may-2026-control-plane-compression-source-hygiene.md) - source-hygiene companion
+- [ai-personhood-and-legitimacy-institutions.md](./ai-personhood-and-legitimacy-institutions.md) - bounded legitimacy seam from Moonshots EP #259
+- [coding-swarms-and-human-control-planes.md](./coding-swarms-and-human-control-planes.md) - bounded control-plane seam from Moonshots EP #260
+- [foundation-capital-as-legitimacy-infrastructure.md](./foundation-capital-as-legitimacy-infrastructure.md) - bounded political-economy seam from Moonshots EP #260
 
 ## Promotion Path
 
@@ -83,6 +86,9 @@ This first rollout is forward-only. Do not move existing prose here automaticall
 - [compute-political-currency-control-plane-substrate.md](./compute-political-currency-control-plane-substrate.md) promoted from [../synthesis/2026-05.md](../synthesis/2026-05.md)
 - [may-2026-control-plane-compression.md](./may-2026-control-plane-compression.md) - mechanism packet preserving the May 2026 control-plane compression seam
 - [may-2026-control-plane-compression-source-hygiene.md](./may-2026-control-plane-compression-source-hygiene.md) - source-hygiene companion for the May 2026 mechanism packet
+- [ai-personhood-and-legitimacy-institutions.md](./ai-personhood-and-legitimacy-institutions.md) - promoted legitimacy seam from [../workshop/sheets/moonshots-ep-259-ai-personhood-layoffs-regulation.md](../workshop/sheets/moonshots-ep-259-ai-personhood-layoffs-regulation.md)
+- [coding-swarms-and-human-control-planes.md](./coding-swarms-and-human-control-planes.md) - promoted control-plane seam from [../workshop/sheets/moonshots-ep-260-opus-foundation-agi.md](../workshop/sheets/moonshots-ep-260-opus-foundation-agi.md)
+- [foundation-capital-as-legitimacy-infrastructure.md](./foundation-capital-as-legitimacy-infrastructure.md) - promoted legitimacy-infrastructure seam from [../workshop/sheets/moonshots-ep-260-opus-foundation-agi.md](../workshop/sheets/moonshots-ep-260-opus-foundation-agi.md)
 
 ### Mirrored Legacy Promotion
 
