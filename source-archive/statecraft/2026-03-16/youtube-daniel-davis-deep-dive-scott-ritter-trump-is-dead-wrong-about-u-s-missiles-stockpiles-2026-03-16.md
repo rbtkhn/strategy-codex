@@ -848,7 +848,7 @@ the ground. So, you know, we're going to
 have to, if we're going to talk about
 securing the straits, we're going to
 have to come in and uh and take Chabahar
-or Bonder Abbas uh you know, come in and
+or Bandar Abbas uh you know, come in and
 secure a port and because you need
 sustainability. So, we have to secure a
 port and then we have to you know,
@@ -1501,7 +1501,7 @@ helicopter went down in May of um gosh,
 what was it, 2024? Um you know, that was
 um it it it the the Iranians were
 struggling. The new president, Pikeskin,
-and Arachi, the foreign minister, they
+and Araghchi, the foreign minister, they
 weren't bullish on bricks. They're
 actually uh very pro-western. I mean,
 the the the Iranian president has been
@@ -1563,7 +1563,7 @@ him and then what? Then we get a a more
 conservative man. It's like killing Ali
 Kaman. Um you know now we have his son
 who is more conservative not as capable.
-If you kill Arachi, who's one of the
+If you kill Araghchi, who's one of the
 most capable diplomats the uh the
 Iranians have, um you're not going to
 get somebody of a similar quality.
@@ -1663,7 +1663,7 @@ time, the United States uh doctrally can
 most definitely use um you know nuclear
 weapons. It's it's something that is
 it's just doctrinal. I would also point
-out though and you know Pete Hexth even
+out though and you know Pete Hegseth even
 I don't like the man. He said this once.
 I mean, maybe he forgot about it, but he
 said, "Every time when we had exercises

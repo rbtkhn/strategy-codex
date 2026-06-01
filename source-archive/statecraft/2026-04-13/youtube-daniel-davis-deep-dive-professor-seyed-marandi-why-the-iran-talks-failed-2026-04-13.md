@@ -254,8 +254,7 @@ independence. And, you know, Iran
 wouldn't accept such a thing.
 And um so that was uh that wasn't going
 uh to work at all. And um the other was
-the United States to run the straight of
-hormones with Iran.
+the United States to run the Strait of Hormuz with Iran.
 And uh that was not something acceptable
 to the Iranians. The Iranians
 effectively they didn't say this, I'm
@@ -935,7 +934,7 @@ the seas. It sold it and Iran has sold
 again my understanding Iran has sold
 around half of its oil. So uh Iran still
 can sell 100 million barrels without
-using the straight of Hormos and the
+using the Strait of Hormuz and the
 Persian Gulf.
 >> 100 million barrels at a higher price.
 and the amount of money that Iran has
@@ -1040,7 +1039,7 @@ of a siege because Iran was planning for
 this from the beginning because Iran
 initially thought that the United States
 would carry out a siege on day one on
-the straight of Hormos,
+the Strait of Hormuz,
 >> right? And that that's actually I'm
 sorry we literally only have a few
 minutes left, but that was one of the
@@ -1061,8 +1060,7 @@ they had comparative to at least in
 Washington's view hardline coming in?
 No. Actually, you know, first of all,
 there never was any troll toll booth.
-Iran uh trade through the straight of
-hormones was going being carried out
+Iran uh trade through the Strait of Hormuz was going being carried out
 very normally. Everyone was doing their
 business until the United States started
 the war. And the only reason why the
@@ -1081,7 +1079,7 @@ anymore, the war would be over. The
 United States needs them. So we didn't
 have this situation 45 days ago. And the
 only reason why Iran is going to control
-the straight of hormones and futures to
+the Strait of Hormuz and futures to
 get reparation from these Arab regimes
 for what they've done and to make sure
 that the Persian Gulf is no longer used

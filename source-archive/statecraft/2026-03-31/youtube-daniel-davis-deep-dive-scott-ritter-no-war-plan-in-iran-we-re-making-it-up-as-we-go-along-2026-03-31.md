@@ -72,7 +72,7 @@ the targets, goals, and objectives were.
 regime change and preventing Iran from
 being able to launch ballistic missiles
 and drones. Both of those have failed.
-Um, you know, Pete Hexath has bragged
+Um, you know, Pete Hegseth has bragged
 about, you know, having a thousand bombs
 hit a thousand targets a day. I've been
 involved in strategic air campaign
@@ -104,7 +104,7 @@ it was good intelligence, they wouldn't
 have a regime in place that continues to
 tell us to pound sand, now would they?
 People need to wake up and understand
-that Pete Hexath is the most incompetent
+that Pete Hegseth is the most incompetent
 Secretary of Defense. I won't call him
 Secretary of War because Congress hasn't
 designated him as such, and I'm a
@@ -127,7 +127,7 @@ It's war porn. And this president
 appears to like it and then believes it.
 But I'm telling you right now, nothing
 is happening in Iran that resembles
-anything that Pete Hexith or President
+anything that Pete Hegseth or President
 Trump is saying.
 >> And you know what what is uh happening
 that he can't really get around and that
@@ -240,7 +240,7 @@ mean now this war was an illegal war of
 aggression to begin with. No
 justification under international law or
 the United States Constitution. And that
-makes Pete Hegath and everybody else a
+makes Pete Hegseth and everybody else a
 war criminal by default. I mean
 literally this is a war crime. Every day
 we do this, everything we do is a war
@@ -311,7 +311,7 @@ around him at the senior levels seem to
 be playing from the same sheet of music
 and maybe even feeding him the music. I
 just talked a minute ago, you mentioned
-Secretary Hexath this morning in his
+Secretary Hegseth this morning in his
 conversation, his comments again saying
 that we're winning, everything's going
 great, no worries about it. And then
@@ -417,7 +417,7 @@ production. We haven't done anything to
 Iran. Marco Rubio's I apologize. I'm
 trying to be respectful, but he's an
 idiot. A pure 100% idiot. So is Pete
-Hegath. And so sadly is the president of
+Hegseth. And so sadly is the president of
 the United States and everybody advising
 him. They don't know anything about
 modern war. Nothing.
@@ -561,7 +561,7 @@ supposed to be quick and easy. This was
 supposed to be boom, boom, boom, regime
 change collapse. Everybody quits, no
 missiles launched. That was the war
-planning that Pete Hegth came up with. I
+planning that Pete Hegseth came up with. I
 mean there nothing more. And we've been
 making it up as we go along.
 Colonel, you you're you're aware of the
@@ -1013,7 +1013,7 @@ region. So, there's lots of radar
 systems, counterair systems that are
 being moved into place as well. You do
 move it there for a purpose of leverage
-and negotiation. Mr. Wickoff's position
+and negotiation. Mr. Witkoff's position
 is much stronger when there's a bunch of
 Marines sitting on your doorstep. This
 is not time to pull back. They still
@@ -1160,7 +1160,7 @@ just cause to fight for not just because
 you're told to or because of something
 else fake. And this is what I believe
 I'd like your view specifically and this
-is from Secretary Hexath this morning
+is from Secretary Hegseth this morning
 where he's trying to give the
 justification to the troops as to why
 they should fight. Tell me, as a as a
@@ -1624,7 +1624,7 @@ and done, you know, we need to we're the
 nation of jurisdiction. We need to hold
 these people accountable right now. And
 I'm telling you right off the bat, Pete
-Hegth must be arrested, tried, and if if
+Hegseth must be arrested, tried, and if if
 he's committed the crimes, and I believe
 he has, convicted. Um I'm not arguing
 for the death penalty. I don't want to
@@ -1636,7 +1636,7 @@ spent his entire you know life after
 defecting to the British after the war
 ended in a in in Spandow prison. Um Fort
 Levvenworth should have a room called
-the Pete Hexath Memorial Room and that's
+the Pete Hegseth Memorial Room and that's
 where Pete gets to spend the rest of his
 life thinking about the crimes he has
 committed, the stupidity of his actions.

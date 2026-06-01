@@ -555,13 +555,13 @@ occasions tried to do so by explaining
 his position fully and thoroughly to
 Trump's envoy Steve Wick Golf. But the
 fact that he refused to receive Steve
-Wickoff u 10 days ago said to Steve
-Wickoff, "Look, I don't like your
+Witkoff u 10 days ago said to Steve
+Witkoff, "Look, I don't like your
 22point
 plan. Um I don't really think there's
 any further point in you coming to
 Russia at all." I think this is a sign
-that Putin feels that even Witgo is not
+that Putin feels that even Witkoff is not
 effectively putting across what Putin is
 saying to Donald Trump. And on some of
 these points, by the way, I think I can

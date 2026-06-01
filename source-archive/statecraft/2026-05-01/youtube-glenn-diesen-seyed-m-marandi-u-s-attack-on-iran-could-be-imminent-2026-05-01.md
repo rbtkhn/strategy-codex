@@ -549,7 +549,7 @@ importantly
 uh for in the broader picture of things
 than all the you know is that the any
 attempt any move to ease tensions to
-open up the trade of hormones
+open up the Strait of Hormuz
 uh is going to be delayed for many many
 weeks because the fighting will you know
 it'll take weeks for it to you know

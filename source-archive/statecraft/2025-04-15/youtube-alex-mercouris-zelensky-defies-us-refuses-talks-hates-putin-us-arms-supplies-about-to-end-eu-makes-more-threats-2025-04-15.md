@@ -776,7 +776,7 @@ he's provided some information about his
 meeting with Putin, the meeting which
 took place in St. Petersburg a few days
 ago, the one which lasted 4 and a half
-hours. And Wickoff appeared to think
+hours. And Witkoff appeared to think
 that the meeting had gone well. and he
 spoke about the meeting in I thought
 what looked to me to be positive terms.
@@ -805,9 +805,9 @@ already. But other things that Wit Golf
 said uh seem to me
 to be more alarming for the Europeans
 still because it's clear that what Putin
-and Witkov discussed apart from possible
+and Witkoff discussed apart from possible
 economic deals between Russia and the
-United States and Witkov mentioned that
+United States and Witkoff mentioned that
 both Yuri Ushakov
 Putin's uh foreign policy aid and Kil
 Deitrif the head of the U Russian uh
@@ -833,7 +833,7 @@ nature of what article five what NATO's
 article 5 um would mean once
 these changes to the security
 architecture were brought about. Now
-wickoff very properly doesn't provide us
+Witkoff very properly doesn't provide us
 with a huge amount of
 detail.
 But
@@ -877,7 +877,7 @@ these places some of the German media as
 well. Uh
 but anyway, that appears to have been
 what
-Witgo and Putin discussed with each
+Witkoff and Putin discussed with each
 other. The Russians, in other words, are
 looking beyond the conflict in Ukraine.
 They are sure now that they're going to
@@ -975,7 +975,7 @@ unconditional
 ceasefire. He's made that very clear. He
 made that clear many times. But then
 Putin has pointed out to
-Wickoff and the Russians have pointed
+Witkoff and the Russians have pointed
 out to other US
 officials that an unconditional
 ceasefire with Ukraine is completely
@@ -1317,7 +1317,7 @@ internal battle within the United
 States, within the United State, within
 the administration is far from resolved.
 We still have arguments between Kellogg
-and Witgo, between the Neocons or the
+and Witkoff, between the Neocons or the
 Neocon light faction and the realists if
 you will. So, as I said, it's not over.
 uh Trump has to make the decision. But

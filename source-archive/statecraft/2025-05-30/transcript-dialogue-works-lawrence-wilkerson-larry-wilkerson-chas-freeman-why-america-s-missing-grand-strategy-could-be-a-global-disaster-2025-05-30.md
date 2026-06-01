@@ -39,7 +39,7 @@ with Russians and Ukrainians or whether
 it's with mass and Israelis on whether
 it's with Iran, we're moving the
 goalposts all over the field as we talk.
-So Mr. Whitov um the president's
+So Mr. Witkoff um the president's
 all-purpose amateur envoy um is um he he
 goes to these meetings, he listens, he
 learns, he sees hears things that he
@@ -164,7 +164,7 @@ self-defeating approach to negotiation
 in general. Uh, I will start with Iran
 as an example. Basically, what we are
 asking is apparently uh since whatever
-Mr. Witkov um said that was agreeable to
+Mr. Witkoff um said that was agreeable to
 foreign minister
 Haraki in Muscat or in Rome um was
 immediately repudiated under Israeli

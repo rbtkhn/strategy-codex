@@ -16,7 +16,7 @@ source_note: "Transcript pasted manually by operator during October 2025 Wilkers
 quality_note: "Operator-pasted YouTube transcript materialized directly from the Codex thread."
 ---
 
-Heat. Hi everyone, Judge Andrew Npalitano here for Judging Freedom. Today is Thursday, October 23rd, 2023 and 25, excuse me. There he is. Colonel Larry Wilkerson. Colonel, always a pleasure, my dear friend. I missed you. I realized I was traveling, but I missed you. I was with mutual friends of yours and mine, and we talked about you, and it's great to be with you again, and thanks for thanks for being here.
+Heat. Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Thursday, October 23rd, 2023 and 25, excuse me. There he is. Colonel Larry Wilkerson. Colonel, always a pleasure, my dear friend. I missed you. I realized I was traveling, but I missed you. I was with mutual friends of yours and mine, and we talked about you, and it's great to be with you again, and thanks for thanks for being here.
 
 >> Good to be with you. I want to talk about Gaza. I've titled this entitled this segment, what ceasefire? But before we get there, do we know if it was the Kremlin or the White House that cancelled the uh Putin Trump uh meeting in Budapest? >> My information is that it was mutual. Uh but the impetus came from the White House, >> you know.
 
@@ -74,7 +74,7 @@ So when you get these conflicting messages like this, it could be Trump trying t
 
 I think Graham, if you ask Graham that question, he would say, "You're damn right I can. I'll sanction that son of a from here to China. I'll intimidate him." Now, whether Lindsey Graham, the person underneath with a brain, and I know he's got one somewhere, um believes that is another matter altogether, but that's going to be his public message because he's not going to fall off this in any way, fashion, or form.
 
-He'll fight the president over it if he has to. Um, McGregor, Colonel McGregor, your friend and colleague, uh, agrees with you that the Lindsey Graham, Tom Cotton, Sebastian Gorka, Keith Kellogg, Pete Hegsth crowd want this war to go on and on and on. They don't care how many people die. They honestly believe tying Russia down in Ukraine weakens them, keeps them out of the Middle East, diminishes their respect internationally.
+He'll fight the president over it if he has to. Um, McGregor, Colonel McGregor, your friend and colleague, uh, agrees with you that the Lindsey Graham, Tom Cotton, Sebastian Gorka, Keith Kellogg, Pete Hegseth crowd want this war to go on and on and on. They don't care how many people die. They honestly believe tying Russia down in Ukraine weakens them, keeps them out of the Middle East, diminishes their respect internationally.
 
 But at what cost, Colonel? at enormous cost to the empire. Not least of which, prominent of which is the fact that we have compelled two of the leading powers in the world, certainly two of the top leading powers in terms of military might to come together and to come together over a third power, not quite the military juggernaut that the other two are, but over a third power whose population alone represents considerable weight, India.
 
@@ -94,7 +94,7 @@ We've been wanting to work on Colombia ever since they pretty much wasted threeq
 
 Well, we've been doing this since 2016. This is not something new. >> So, Colonel, have I missed something or did Congress declare war on Venezuela? >> [laughter] >> this Congress, the Senate anyway, the Senate would and Johnson would say, "Well, I don't know anything about that. I'll have to study it." >> Right.
 
-Right. I'm being sarcastic, of course. Let's switch gears. Was the Kushner Wickoff Trump ceasefire a scam? >> I don't think so. I I think Trump finally reached uh somewhat of a limit with BB and he finally decided he was going to do something. Now you think about this for a moment. Joe Biden could have done this at any time in the two years we've gone through this genocide and slaughter.
+Right. I'm being sarcastic, of course. Let's switch gears. Was the Kushner Witkoff Trump ceasefire a scam? >> I don't think so. I I think Trump finally reached uh somewhat of a limit with BB and he finally decided he was going to do something. Now you think about this for a moment. Joe Biden could have done this at any time in the two years we've gone through this genocide and slaughter.
 
 And it would have had probably a more dynamic and ending impact on the conflict and the genocide than what Trump's done now because BB's got himself a lot of trouble around him. And he's even in more peril personally and politically than he ever would have been in that earlier period. So I I throw a lot of blame on Joe Biden, Tony Blinken, and Jake Sullivan for not doing anything like this much earlier than now.
 

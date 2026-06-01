@@ -1294,7 +1294,7 @@ ability to reach any ceasefire or peace
 
 agreement and uh we saw that during the
 
-meeting now with Witkov and Putin they
+meeting now with Witkoff and Putin they
 
 well it they appear to cover two topics
 

@@ -219,7 +219,7 @@ We've changed that.
 
 We show no mercy.
 
-Witness Pete Hexeth, our Secretary of
+Witness Pete Hegseth, our Secretary of
 
 Defense now
 
@@ -387,7 +387,7 @@ I think we have to remain human here.
 
 We have to hold people who
 
-who say on our behalf, like Hexeth did
+who say on our behalf, like Hegseth did
 
 at the same time, "We show no mercy."
 
@@ -755,7 +755,7 @@ another possible mediator. There are
 
 people with high stakes in this and
 
-let's just hope that Hexeth and
+let's just hope that Hegseth and
 
 and Trump, who are
 
@@ -789,7 +789,7 @@ And the Iranians have the upper hand.
 
 And in the final analysis, it may depend
 
-on whether, unlike Pete Hexeth, no
+on whether, unlike Pete Hegseth, no
 
 mercy,
 
@@ -2317,7 +2317,7 @@ Uh Trump, in my view, is not well.
 
 Uh he's being
 
-aided and abetted by Hexeth,
+aided and abetted by Hegseth,
 
 who also has
 

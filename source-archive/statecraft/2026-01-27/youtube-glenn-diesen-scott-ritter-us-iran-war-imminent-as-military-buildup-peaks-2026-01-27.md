@@ -813,7 +813,7 @@ survive.
 >> Well, as we speak now, I see on one of
 the screens there that the there's a
 American um surveillance aircraft over
-the Strait of Hermoose and there's also
+the Strait of Hormuz and there's also
 Iranian drones uh near while doing
 reconnaissance on the American naval
 assets in the region. So it does look as

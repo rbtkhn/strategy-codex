@@ -148,7 +148,7 @@ something about the standing of these
 these papers, cuz it's really important
 to to to understand it. Um that um uh
 Kirill Dmitriev,
-uh who has been talking to Witcoff, is
+uh who has been talking to Witkoff, is
 not an envoy. He does not represent
 Putin. He does not represent the foreign
 ministry of Russia at all. He has no
@@ -174,7 +174,7 @@ with the president. Now, I I don't even
 know whether Dmitriev has actually
 cleared this or or or um you know, got a
 a thumbs up from anyone to pursue this
-dialogue with Witcoff. I And so, you
+dialogue with Witkoff. I And so, you
 know, what is its standing?
 It's just a speculative paper that has
 been put out. Uh the Russians won't

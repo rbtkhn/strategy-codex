@@ -61,7 +61,7 @@ sense that um the White House played
 along with Israel in deceiving
 um the the Iranians um thinking that
 there was going to be uh negotiations
-would continue with Witoff and his team
+would continue with Witkoff and his team
 on the Sunday. and Friday was the day of
 the Israeli attack. And so the aim was
 to take Iran completely by surprise. So
@@ -166,7 +166,7 @@ going on for months and being
 coordinated with the United States and
 and of course all that talk about you
 know that the oh he was stopping he was
-stopping um Netanyahi spoke toughly.
+stopping um Netanyahu spoke toughly.
 There was an argument with Netanyahu. Uh
 it turns out it was nonsense because it
 was all you know this whole thing the
@@ -1115,7 +1115,7 @@ as the negotiators understand, you know,
 the the the United States has no real
 interest in coming to a deal uh with uh
 with Iran. They want Iran defeated. I
-mean, you know, Whitov said it pretty
+mean, you know, Witkoff said it pretty
 clearly during an interview with Tucker
 Coulson and he said, "Look, you know, he
 was talking about the new Middle East
@@ -1155,7 +1155,7 @@ can't understand it. So they think if
 you will but look after what's happened
 and after what the supreme leader said
 in that address to the people I mean and
-Whitov when he said you know well we're
+Witkoff when he said you know well we're
 looking to sort of have some
 negotiations with Iran just I think
 yesterday or something I mean said of
@@ -1180,7 +1180,7 @@ a power for industry. Um so you know so
 what's new? What are they going to
 change? The only message is you know no
 enrichment and we must dismantle uh as
-um you know as I Witkov said we we will
+um you know as I Witkoff said we we will
 go in and we will dismantle what we see.
 If there are laboratories we will blow
 up the laboratories will blow up. I

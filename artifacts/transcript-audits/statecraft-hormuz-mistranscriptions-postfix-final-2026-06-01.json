@@ -1,0 +1,137 @@
+{
+  "root": "source-archive/statecraft",
+  "seed_patterns": [
+    "Armoose",
+    "Barmuz",
+    "Harmuz",
+    "Homus",
+    "Hormone",
+    "Hormones",
+    "Hormos",
+    "Humus",
+    "Ormuz",
+    "armors",
+    "armus",
+    "foremost",
+    "formos",
+    "homus",
+    "hormone",
+    "hormones",
+    "hormos",
+    "humus",
+    "state of Homus",
+    "state of Hormos",
+    "state of armus",
+    "state of formos",
+    "straight of Armoose",
+    "straight of Barmuz",
+    "straight of Harmuz",
+    "straight of Homus",
+    "straight of Hormone",
+    "straight of Hormones",
+    "straight of Hormos",
+    "straight of armus",
+    "straight of foremost",
+    "straight of formos",
+    "straight of hormone",
+    "straight of hormones",
+    "straight of hormos",
+    "straight of humus",
+    "strait of Hormos",
+    "strait of Ormuz",
+    "strait of armus",
+    "strait of homus",
+    "street of Hormos",
+    "street of Humus",
+    "street of Ormuz",
+    "street of armors",
+    "street of hormones",
+    "the straight of humus",
+    "the street of Humus",
+    "the trade of humus",
+    "trade of Hormos",
+    "trade of foremost",
+    "trade of formos",
+    "trade of hormones"
+  ],
+  "findings": [
+    {
+      "path": "source-archive/statecraft/2026-02-18/transcript-dialogue-works-scott-ritter-hormuz-blocked-iran-s-missile-fire-can-leave-the-us-navy-de-2026-02-18.md",
+      "tier": "context_only",
+      "match_text": "",
+      "suspected_target": "Strait of Hormuz",
+      "reason_code": "title_body_divergence",
+      "line_number": null,
+      "snippet": "Context-only review candidate: title/path references Hormuz but no direct malformed phrase matched."
+    },
+    {
+      "path": "source-archive/statecraft/2026-05-31/youtube-moral-resistance-u-s-military-attacks-vessels-in-strait-of-hormuz-5-u-s-casualties-in-hor-2026-05-31.md",
+      "tier": "context_only",
+      "match_text": "",
+      "suspected_target": "Strait of Hormuz",
+      "reason_code": "title_body_divergence",
+      "line_number": null,
+      "snippet": "Context-only review candidate: title/path references Hormuz but no direct malformed phrase matched."
+    }
+  ],
+  "summary": {
+    "total_findings": 2,
+    "candidate_files": 2,
+    "tier_counts": {
+      "context_only": 2
+    },
+    "variant_family_counts": {},
+    "highest_density_files": [
+      {
+        "path": "source-archive/statecraft/2026-02-18/transcript-dialogue-works-scott-ritter-hormuz-blocked-iran-s-missile-fire-can-leave-the-us-navy-de-2026-02-18.md",
+        "findings": 1
+      },
+      {
+        "path": "source-archive/statecraft/2026-05-31/youtube-moral-resistance-u-s-military-attacks-vessels-in-strait-of-hormuz-5-u-s-casualties-in-hor-2026-05-31.md",
+        "findings": 1
+      }
+    ],
+    "findings_by_date": [
+      {
+        "date": "2026-02-18",
+        "findings": 1
+      },
+      {
+        "date": "2026-05-31",
+        "findings": 1
+      }
+    ],
+    "review_needed": [
+      {
+        "path": "source-archive/statecraft/2026-02-18/transcript-dialogue-works-scott-ritter-hormuz-blocked-iran-s-missile-fire-can-leave-the-us-navy-de-2026-02-18.md",
+        "tier": "context_only",
+        "match_text": "",
+        "suspected_target": "Strait of Hormuz",
+        "reason_code": "title_body_divergence",
+        "line_number": null,
+        "snippet": "Context-only review candidate: title/path references Hormuz but no direct malformed phrase matched."
+      },
+      {
+        "path": "source-archive/statecraft/2026-05-31/youtube-moral-resistance-u-s-military-attacks-vessels-in-strait-of-hormuz-5-u-s-casualties-in-hor-2026-05-31.md",
+        "tier": "context_only",
+        "match_text": "",
+        "suspected_target": "Strait of Hormuz",
+        "reason_code": "title_body_divergence",
+        "line_number": null,
+        "snippet": "Context-only review candidate: title/path references Hormuz but no direct malformed phrase matched."
+      }
+    ],
+    "next_correction_candidates": [
+      "straight of hormones -> Strait of Hormuz",
+      "straight of Hormos -> Strait of Hormuz",
+      "straight of Homus -> Strait of Hormuz",
+      "trade of hormones -> Strait of Hormuz",
+      "state/street of Ormuz -> Strait of Hormuz",
+      "state of armus -> Strait of Hormuz",
+      "street of armors -> Strait of Hormuz",
+      "straight of Armoose -> Strait of Hormuz",
+      "straight/trade of formos -> Strait of Hormuz",
+      "straight of foremost -> Strait of Hormuz"
+    ]
+  }
+}

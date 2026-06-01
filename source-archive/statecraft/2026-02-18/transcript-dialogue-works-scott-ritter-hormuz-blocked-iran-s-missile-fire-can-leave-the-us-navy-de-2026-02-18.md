@@ -430,7 +430,7 @@ non-prololiferation treaty.
 >> If the United States carries out this
 strike against Iran, it means the
 nuclear non-prololiferation treaty is
-meaningless. This is what Arachi said to
+meaningless. This is what Araghchi said to
 the conference of disarmament yesterday
 before he had his negotiation. Um that
 it's essential that you know Iran be

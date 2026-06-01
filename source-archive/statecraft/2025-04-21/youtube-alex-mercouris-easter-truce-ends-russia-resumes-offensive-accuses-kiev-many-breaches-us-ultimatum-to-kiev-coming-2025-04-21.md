@@ -337,7 +337,7 @@ that will show the opposite. And here
 again we can see that what Putin is
 doing on the eve of the next visit which
 he must be anticipating from Steve
-Wickoff which is likely to come um over
+Witkoff which is likely to come um over
 the course of this week. He is preparing
 he is
 preparing his response.
@@ -663,7 +663,7 @@ the
 diplomacy. And here it continues to be
 the Americans who are making the
 running. We've had statements from
-Rubio, from Kellogg, from um Witgo.
+Rubio, from Kellogg, from um Witkoff.
 Witkoff is the latest American official
 to come out and
 say that the United
@@ -733,7 +733,7 @@ the election period last year was the
 proposal that Kellogg
 made back in his article about back when
 he wrote his article in April 2024.
-Since then, Witgo has visited Moscow
+Since then, Witkoff has visited Moscow
 three times and has had meetings with
 Putin and has also had lengthy meetings
 with Lavrov and Ushikov and Kiriel
@@ -801,7 +801,7 @@ that is Trump's position. At least
 that's what they're telling everybody is
 Trump's position and they are all
 endorsing it.
-Kellogg, Rubio, and Witgo have all said
+Kellogg, Rubio, and Witkoff have all said
 that they support Trump's stance that if
 a deal is not agreed, if this agreement
 is not agreed within the next um week or
@@ -1137,7 +1137,7 @@ carrying these proposals to have another
 long hoursl long meeting with Putin in
 the Kremlin probably or in St.
 Petersburg or somewhere else and try to
-get Witoff to talk the Russians round.
+get Witkoff to talk the Russians round.
 And that brings us back to Eve Smith's
 article because the Russians based on
 everything they've said are almost
@@ -1389,7 +1389,7 @@ the Vietnam negotiations and if you go
 back further from the Korea negotiations
 to take the process
 forward. I never imagined that it would
-simply mean appointing Wickoff to travel
+simply mean appointing Witkoff to travel
 to Moscow every couple of weeks to meet
 with Putin and to have long and
 interesting discussions with Putin and

@@ -113,9 +113,9 @@ to all this craziness emitting from
 
 Washington. Okay. He says, "Look, after
 
-the contacts with Witco, this is this is
+the contacts with Witkoff, this is this is
 
-less than 24 hours ago, but Witco has
+less than 24 hours ago, but Witkoff has
 
 met." Well, then in contrast, this is
 
@@ -125,7 +125,7 @@ statements and the deadlines for solving
 
 Ukraine and new sanctions. Let's see
 
-what comes out of what Wickoff says.
+what comes out of what Witkoff says.
 
 Okay? before you go crazy. I mean, you
 
@@ -145,7 +145,7 @@ But Trump is whopping this up as a big
 
 success. And apparently Putin, although
 
-Peskoff, his spokesman, Putin spokesman
+Pezeshkian, his spokesman, Putin spokesman
 
 has not yet confirmed it. It looks very
 
@@ -269,7 +269,7 @@ minutes before we went on the air that I
 
 have minor confidence in reasonable
 
-confidence in Witoff as understanding
+confidence in Witkoff as understanding
 
 how to negotiate. I think it's in his
 
@@ -447,7 +447,7 @@ the president of Russia says? I doubt
 
 it, but it's out there. And you know,
 
-with with like guy like Whitov, as you
+with with like guy like Witkoff, as you
 
 point out, Greg, he knows, you know, he
 

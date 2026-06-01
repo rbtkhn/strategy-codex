@@ -375,7 +375,7 @@ were invited to send a representative to
 this meeting and very interestingly,
 President Trump appears to have decided
 that the person he would send is none
-other than Steve Wickoff, not Rubio, not
+other than Steve Witkoff, not Rubio, not
 uh uh not
 Waltz. And that is very interesting
 indeed. In a recent program, Alex
@@ -390,7 +390,7 @@ US's foreign minister than of the
 president's advisor.
 Well, um, of course the actual foreign
 minister continues to be Marco
-Rubio. And Mr. Witgo, though he is as
+Rubio. And Mr. Witkoff, though he is as
 busy visiting foreign countries as you
 would expect a foreign minister to be,
 is not the foreign minister and he does
@@ -417,7 +417,7 @@ directed at Witkoff. There was an angry
 comment made a few days ago by the
 French prime minister, one which um I
 think provides us with a good sense of
-how um the Europeans feel about Witgov's
+how um the Europeans feel about Witkoff's
 activities and about Trump's activities
 in which the
 French prime minister actually
@@ -448,7 +448,7 @@ frankly insulting comments about the
 administration, about the president of
 the United States and about his
 officials and quite obviously about
-Witoff himself because the person who is
+Witkoff himself because the person who is
 conducting all of these discussions with
 the Russians and who has apparently made
 made it fairly clear that in his opinion
@@ -605,7 +605,7 @@ No, given
 that what that means is that the
 Russians who of course are very
 familiar about all of this. Lavro and
-Peskoff have both been asked about the
+Pezeshkian have both been asked about the
 New York Times article and they both
 said that as far as they were concerned,
 as far as Moscow is concerned, the New

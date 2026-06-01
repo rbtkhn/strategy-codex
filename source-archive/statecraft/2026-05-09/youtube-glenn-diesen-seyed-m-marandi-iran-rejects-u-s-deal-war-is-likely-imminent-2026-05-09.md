@@ -368,7 +368,7 @@ couple of months that are of the most
 advanced uh
 military hardware that Iran possesses.
 You mentioned before uh China and as we
-know Trump and um uh Xiinping will meet
+know Trump and um uh Xi Jinping will meet
 uh well most likely at least uh next
 week. Uh I'm guessing that Iran will be
 well the topic of Iran will be high on
@@ -645,7 +645,7 @@ know that they are victims of
 aggression. The world has no reason to
 feel that they have to be resistant and
 resilient because the Zionists, the
-Trump and Netanyao brought this upon
+Trump and Netanyahu brought this upon
 them for no reason at all.
 And uh and in addition to that, the
 United States foolishly began this siege

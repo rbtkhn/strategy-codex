@@ -62,6 +62,15 @@ def test_normalize_geo_common_tier_proper_names() -> None:
     """Geo-strategy common-tier replacements fix recurring proper-name garbles."""
     cases = [
         ("the straight of humus", "the Strait of Hormuz"),
+        ("straight of Hermuz", "Strait of Hormuz"),
+        ("straight of Hermus", "Strait of Hormuz"),
+        ("straight of Hermoose", "Strait of Hormuz"),
+        ("straight of her moose", "Strait of Hormuz"),
+        ("trade of Hermuz", "Strait of Hormuz"),
+        ("Xiinping", "Xi Jinping"),
+        ("Wangi", "Wang Yi"),
+        ("Bundra Abbas", "Bandar Abbas"),
+        ("Bund Abbas", "Bandar Abbas"),
         ("Kasam salamani", "Qasem Soleimani"),
         ("Nanyahu", "Netanyahu"),
         ("hesah", "Hezbollah"),

@@ -15,7 +15,7 @@ evidence_grade: transcript-bearing
 
 # John Mearsheimer: How Trump Has Boxed Himself Into a Corner on Iran
 
-Hi everyone, Judge Andrew Npalitano here for Judging Freedom.
+Hi everyone, Judge Andrew Napolitano here for Judging Freedom.
 
 Today is Tuesday, February 17th, 2026. Professor John Mearsheimer will be with us in just a moment on just how did Donald Trump box himself into a corner diplomatically on Iran. Professor Mearsheimer, good day to you, my dear friend. Thank you for uh coming onto the show as always and accommodating my schedule. Before we get to President Trump, uh and Iran, do you assign any significance to the arrival of the Deputy Russian Foreign Minister to the trilateral talks between Russia, Ukraine, and the United States and the movement of those talks from Abu Dhabi to Geneva? Not really.
 

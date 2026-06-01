@@ -23,7 +23,7 @@ quality_note: Normalized to remove routine ideological cold open, sponsor/promo 
 
 ## Transcript
 
-Hi everyone, Judge Andrew Npalitano here for Judging Freedom.
+Hi everyone, Judge Andrew Napolitano here for Judging Freedom.
 
 Today is Tuesday, May 26, 2026. My longtime friend and collaborator, Larry Johnson, joins us now. Larry, a pleasure as always. I want to talk to you about Trump and the control that the Zionist lobby has over him. But before we get to that, couple of significant military events over the weekend. How significant was the US attack on Iranian speedboats which killed some revolutionary guard sailors?
 

@@ -128,7 +128,7 @@ that are going to satisfy Donald Trump.
 And Trump is not even listening to his
 own adviserss. Uh you know based on that
 New York Times article from last week
-where uh everybody but Pete Hegth had
+where uh everybody but Pete Hegseth had
 advised against don't you know don't
 don't attack Iran. And what did he what
 did he do? He attacked he gave the order
@@ -385,7 +385,7 @@ dangerous when you got to to try to
 figure out who's going to be calling war
 and peace issues. Apparently we just
 have this Gary Sh got some breaking news
-from President Peskian says the Islamic
+from President Pezeshkian says the Islamic
 Republic of Iran has always welcomed and
 continues to welcome dialogue and
 agreement. Bad faith, siege, and threats
@@ -401,7 +401,7 @@ other side to capitulate uh are
 literally [clears throat] having the
 opposite effect. It is strengthening
 their resolve to stand firm. And now
-here's the latest one from Pesken.
+here's the latest one from Pezeshkian.
 >> Well, in fact, um we're seeing
 um I'll call it parallel policy. The the
 United States is trying is doing using
@@ -423,7 +423,7 @@ tweet that oh there's these incredible
 internal divisions in Iran and until
 they sort those out there won't be any
 any negotiations. Whereas and you just
-saw the message from Peskin he's saying
+saw the message from Pezeshkian he's saying
 what the Iranian revolutionary guard
 corps is saying there there there's no
 significant fracturing of uh inside
@@ -633,7 +633,7 @@ that. Yeah. Go ahead. Go ahead.
 >> Well, I just said she keeps repeating
 that lie that oh there's this big
 division. The RGC is doing one thing and
-Peskian or the Galibbar Galibbah is
+Pezeshkian or the Galibbar Galibbah is
 doing another. or the speaker or the
 polar. No, they're not. Just read the
 damn messages that come out from them.

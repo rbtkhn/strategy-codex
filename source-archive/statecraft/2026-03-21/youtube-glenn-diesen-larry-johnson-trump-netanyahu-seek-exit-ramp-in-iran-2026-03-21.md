@@ -961,15 +961,14 @@ It doesn't make sense, but let's let's
 just assume, well, okay,
 they get through somehow they get
 through the strait
-and get up to Karg Island
+and get up to Kharg Island
 and and are able to un get all their
-five you know, 5,000 Marines on Karg
-Island.
+five you know, 5,000 Marines on Kharg Island.
 The
 how do they get resupplied?
 Number one.
 Uh number two, they're in the you know,
-I've called the Karg Island is it's it's
+I've called the Kharg Island is it's it's
 Snake Island with oil.
 Snake Island is up in the Black Sea.
 It's this outcrop of rock uh that the
@@ -978,7 +977,7 @@ landed upon and claimed to control. The
 problem is there's no protection.
 There's no
 you're completely exposed.
-So, if the Marines get onto Karg Island,
+So, if the Marines get onto Kharg Island,
 they're going to be hit with drones and
 missiles and artillery.
 It'll be it'll be a bloodbath for the

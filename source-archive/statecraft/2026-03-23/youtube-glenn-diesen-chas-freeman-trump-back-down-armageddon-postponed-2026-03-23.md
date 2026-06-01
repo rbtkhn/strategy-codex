@@ -58,8 +58,8 @@ this back. Um, uh, and I don't believe
 there are talks going on. What there
 appear to be go what appears to be
 happening is text messages between
-Steven Whitov and, uh, foreign minister
-Arachi.
+Steven Witkoff and, uh, foreign minister
+Araghchi.
 Uh, so uh, you can draw several
 conclusions from this. Um the major one
 I draw is that uh the circumstances in
@@ -477,8 +477,8 @@ competing in the schizophrenic American
 political mind. So um uh I think uh
 there's no clarity. Uh the five days
 will go by
-perhaps uh Witoff's text texting to
-Aragchi will uh meet with something
+perhaps uh Witkoff's text texting to
+Araghchi will uh meet with something
 other than a reiteration of Iranian
 terms which are essentially reparations
 compensation for the damage. No American
@@ -751,7 +751,7 @@ with some cash and you can get through.
 Um
 that's basically what's been going on.
 All this business about mining the
-straight of Barmuz has no real evidence
+Strait of Hormuz has no real evidence
 behind it. And it is the real question
 why Iran would want to mine the straight
 of hormones when it basically sees it as

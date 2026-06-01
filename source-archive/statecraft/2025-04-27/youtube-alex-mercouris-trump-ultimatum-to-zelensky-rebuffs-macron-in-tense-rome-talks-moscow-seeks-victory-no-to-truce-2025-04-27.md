@@ -50,12 +50,12 @@ we will see is not really at all like um
 the way it's been represented as
 being Having said this, we're getting
 quite a lot of information now about the
-Putin Wickoff meeting from the Russian
+Putin Witkoff meeting from the Russian
 side and there's quite a lot of
 information now trickling in um from the
 Russians about the general situation
 with the diplomacy which strongly
-suggests that the Putin Witgov meeting
+suggests that the Putin Witkoff meeting
 um didn't go quite as well as some
 people perhaps hoped. it would in in
 fact but in fact we are essentially
@@ -392,7 +392,7 @@ going up to this time. Anyway, um just
 as we have had nothing from Trump about
 his conversation with
 Zalinski, we have had nothing from Trump
-about Witgov's meeting with Putin.
+about Witkoff's meeting with Putin.
 Um, now the Russians have quite
 obviously been complaining about the
 fact that the Americans and the
@@ -429,7 +429,7 @@ hinting at irritation with the United
 States, the Trump administration,
 perhaps even Donald Trump
 himself concerning the fact that what
-they say in private to Wickoff and to
+they say in private to Witkoff and to
 other American officials then gets
 reported in the New York Times. s on the
 following day or discussed by Trump or
@@ -481,7 +481,7 @@ information simply because the
 Russians want them to. So the fact again
 that Trump didn't say hasn't said
 anything positive about the meeting with
-Witgov between Putin and Witgov suggests
+Witkoff between Putin and Witkoff suggests
 to me that he might be
 disappointed by the way that meeting
 went and I'm going to suggest that
@@ -634,7 +634,7 @@ hearing come out of Russia, I can start
 to see
 why Trump might feel that things did not
 go quite as well in the meeting with
-between um Wickoff and Putin on Friday
+between um Witkoff and Putin on Friday
 as perhaps he
 expected.
 Firstly, we've had a number of public
@@ -682,10 +682,10 @@ been repeatedly saying. So that was one
 thing that Pescov said, but Peskov said
 something else as well. He said
 that during yesterday's conversation
-with Trump's Edvoy Wickoff, th this
+with Trump's Edvoy Witkoff, th this
 interview with Zarubin took place
 yesterday. During yesterday's
-conversation with Trump's envoy Witkov,
+conversation with Trump's envoy Witkoff,
 the conversation happened on Friday, but
 as I said, this conversation between
 Pescov and Zaru bin took took place
@@ -703,7 +703,7 @@ their proposal to the Ukrainians and to
 the
 Europeans in Paris and London on Tuesday
 and
-Wednesday. Witgo came to
+Wednesday. Witkoff came to
 Moscow and Trump was
 expecting that based on what the
 Americans were now
@@ -765,10 +765,10 @@ Russians are saying. But let's go back
 to Pesco's statement because Pescov says
 that Putin repeatedly stated this. In
 other words, again and again over the
-discussion with Wickoff, one which we
+discussion with Witkoff, one which we
 know lasted three three and a half
 hours. Putin
-reminded Wickoff that the Russians are
+reminded Witkoff that the Russians are
 prepared to sit down and talk with the
 Ukrainians without preconditions.
 Now that suggests to
@@ -801,7 +801,7 @@ ceasefire within 10 days or we're
 walking out.
 Um, most
 probably, this is my
-guess, after Wickoff got back from
+guess, after Witkoff got back from
 Moscow and told Trump what the response
 of the Russians was. No, they're not
 prepared to grant a ceasefire. Not at
@@ -841,7 +841,7 @@ the
 Ukrainians are saying as well that
 there's no doubt at all that the
 Russians repeatedly told
-Wickoff that the moment moment has come
+Witkoff that the moment moment has come
 for direct talks between Russia and
 Ukraine. That of that we can be certain
 because we have it officially from
@@ -1449,7 +1449,7 @@ paper, the American proposal, US
 officials and this I am sure refers to
 General Kellogg who to my knowledge was
 the only senior American official who
-remained behind in London after Witgo
+remained behind in London after Witkoff
 and um Rubio left. Anyway, American
 officials apparently tried to calm the
 Ukrainians by telling them,
@@ -1706,7 +1706,7 @@ closer.
 Now, those
 words were made shortly after the
 meeting with
-Wickoff. Now, let's just quickly unpack
+Witkoff. Now, let's just quickly unpack
 them because here we see Putin talking
 about how the fact that the Ukrainians
 have been defeated in Kusk creates

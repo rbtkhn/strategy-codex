@@ -22,7 +22,7 @@ status: raw-input
 
 # Scott Ritter: Why Bother to Negotiate With Trump?
 
-Hi everyone, Judge Andrew Npalitano here for Judging Freedom.
+Hi everyone, Judge Andrew Napolitano here for Judging Freedom.
 
 Today is Tuesday, May 26, 2026. Scott Ritter joins us now. Scott, a pleasure as always, my dear friend. Thank you for joining us. Before we get to the Russian use of an arashnik over the weekend, to the horrible event that preceded it, uh to the likely consequences of its use, let's talk about the US attacks on Iranian speedboats this weekend. I thought we had a ceasefire. >> We don't have a ceasefire. Ceasefire implies the termination of uh you know of conflict of hostilities. United States still maintains an act of blockade. That's an act of war. And the United States continues to behave in extraordinarily provocative manner. Um, you know, so Donald Trump is agreement incapable.
 

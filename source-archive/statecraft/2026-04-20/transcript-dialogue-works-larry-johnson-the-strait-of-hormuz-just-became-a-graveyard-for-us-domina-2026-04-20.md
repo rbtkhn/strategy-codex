@@ -245,14 +245,13 @@ punish those those countries for that.
 I I think the issues that I told you
 that it would be important to talk about
 these zero sum nature issues when it
-comes to the straight of foremost
+comes to the Strait of Hormuz
 >> there is no some cooperation between
 Iran and the United States for the case
-of the straight of hormones no
+of the Strait of Hormuz no
 >> they're not going to accept anything of
 that sort what is Trump trying to
-achieve the case of a straight of
-hormones
+achieve the case of a Strait of Hormuz
 >> well he wants it open I mean very simple
 and well once Iran to stop
 exerting control. Uh I I've heard you

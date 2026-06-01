@@ -13,7 +13,7 @@ quality_note: Normalized to remove routine ideological cold open, sponsor/promo 
 
 # COL. Douglas Macgregor: Why Trump Is Now Desperate
 
-Hi everyone, Judge Andrew Npalitano here for Judging Freedom.
+Hi everyone, Judge Andrew Napolitano here for Judging Freedom.
 
 Welcome here. Thank you for accommodating my schedule. Why is President Trump so desperate over this war in Iran?
 

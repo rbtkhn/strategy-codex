@@ -73,7 +73,7 @@ time and
 resources supporting a
 conflict where there was no clear um end
 point and no satisfactory outcome. That
-was what Rubio said. That was what Witgo
+was what Rubio said. That was what Witkoff
 said. That was what Kellogg said. That
 was what Donald Trump said. And after
 Zalinsk's speech on Tuesday, after the
@@ -175,7 +175,7 @@ Russia. From our point of view, this is
 a dejury and de facto situation. Now, a
 couple of days ago, there was an article
 in the Financial Times which spoke about
-um Putin having supposedly told Witgo at
+um Putin having supposedly told Witkoff at
 their last meeting in St. Petersburg
 that the Russians were prepared to allow
 the Ukrainians to remain in control of
@@ -349,7 +349,7 @@ courteously with Wit Golf. He's going to
 discuss it all in detail presumably over
 many hours, but in substance it's not
 going to be that different. He is going
-to tell Wickoff Kellogg's plan simply
+to tell Witkoff Kellogg's plan simply
 won't work. It doesn't remotely address
 Russian
 demands. So, Mishheimimer is obviously
@@ -470,13 +470,13 @@ themselves out of the discussions. But
 anyway, there was apparently um um a um
 um anger at the meeting on Wednesday
 um when um after Zalinsk's extraordinary
-speech. Rubio and um Witgo decided that
+speech. Rubio and um Witkoff decided that
 they would walk out of the meeting.
 We're told that
 um the Europeans were furious about
 this. And then the Financial Times
 article goes on to say, "As if to rub
-salt into the wounds, Witgo is instead
+salt into the wounds, Witkoff is instead
 planning to fly to Moscow later this
 week for his fourth set of talks with
 Putin, the real
@@ -720,7 +720,7 @@ people, apparently Elon Musk himself,
 person who has been kind enough to do
 programs with us on the Jirean. And
 anyway, he has published a post about
-Rubio and um Witgo walking away from
+Rubio and um Witkoff walking away from
 that collapsed meeting on Wednesday,
 which to me
 again is a shining example of good
@@ -1082,7 +1082,7 @@ which said claimed that Steve Wick Golf
 wants to move forward expeditiously with
 lifting sanctions on Nordstream and on
 Russian energy. Uh Rubio supposedly was
-opposed almost immediately. Witgo and
+opposed almost immediately. Witkoff and
 Rubio came out and said that this was
 completely untrue, that there's no
 discussion about lifting sanctions on
@@ -1204,7 +1204,7 @@ more likely it is in fact that the
 outcome of the war will be through a
 military will be decided through a
 military victory. So there we go. Now
-Witgo is going to Moscow. I suspect that
+Witkoff is going to Moscow. I suspect that
 when he meets with Putin
 tomorrow, Putin will say to him what I
 discussed in my program yesterday. He
@@ -1222,9 +1222,9 @@ discuss and agree with each other. We
 are making great progress for example on
 the subject of the Iran nuclear
 negotiations. You have been speaking to
-um Arachi. You witgov have been speaking
-to Iraq Arachi. you've come to some
-common ground. We have met with Arachi.
+um Araghchi. You Witkoff have been speaking
+to Iraq Araghchi. you've come to some
+common ground. We have met with Araghchi.
 We're coming up with all kinds of ideas
 whereby we can
 um move forward with this initiative. We
@@ -1322,7 +1322,7 @@ that Putin will say some or even all of
 these things. I'm not sure exactly
 obviously what he's going to say. and he
 will probably say
-to Wickoff, "Tell Trump that we in
+to Witkoff, "Tell Trump that we in
 Russia hugely appreciate all that Trump
 has been trying to do. But as should be
 obvious by now, as we
@@ -1338,7 +1338,7 @@ election and which was rejected by the
 American people when they voted for
 Donald Trump. So that is the kind of
 discussion that I expect to take place
-when Witgo and Putin meet presumably in
+when Witkoff and Putin meet presumably in
 the Kremlin tomorrow. Anyway, we will
 see what Donald Trump does. In the
 meantime, u the conflict obviously goes

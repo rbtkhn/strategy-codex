@@ -25,7 +25,7 @@ quality_note: Normalized to remove routine ideological cold open, sponsor/promo 
 
 ## Transcript
 
-Hi everyone, Judge Andrew Npalitano here for Judging Freedom.
+Hi everyone, Judge Andrew Napolitano here for Judging Freedom.
 
 Today is Thursday, May 21st, 2026. Colonel Douglas McGregor joins us now. Colonel, to breaking news first. We of course don't know if this is true but uh there are reports coming out of uh Pakistan that there are expected terms in a final draft of a US Iran agreement. Uh the written document that's floating around the internet and we don't know if it's true or not says immediate and comprehensive ceasefire on all fronts.
 
@@ -91,7 +91,7 @@ That it doesn't take a genius to figure that out and then you want do one of two
 
 You can check in, but you can't check out, and he's stuck." I think that's true. And I I'm not sure that he's going to get what he wants from the Orions because what he's really looking for is something he can point to that demonstrates he's winning. I don't think that's going to happen. and you know as well as I do, given the the sort of Roy Con mentality that he's adopted, if he can't twist it into a win, he's not going to be happy with it.
 
-And unfortunately, we're hostage to Donald Trump and his demands here. Here's the latest out of Trump's mouth two hours ago. Uh with the ex watch the pregnant lady next to him, Chris number 19. We have total control of the Strait of Armus, as you know, with our blockade. The blockade's been 100% effective.
+And unfortunately, we're hostage to Donald Trump and his demands here. Here's the latest out of Trump's mouth two hours ago. Uh with the ex watch the pregnant lady next to him, Chris number 19. We have total control of the Strait of Hormuz, as you know, with our blockade. The blockade's been 100% effective.
 
 Nobody's been able to get through. It's like a steel wall. It's our navy. We have the greatest military anywhere in the world. We wiped out their navy. We not wiped out their air. I think they're down to about uh I would say we knocked out 85% of their missile capacity. We It's very hard for them now to build missiles, uh to build drones.
 

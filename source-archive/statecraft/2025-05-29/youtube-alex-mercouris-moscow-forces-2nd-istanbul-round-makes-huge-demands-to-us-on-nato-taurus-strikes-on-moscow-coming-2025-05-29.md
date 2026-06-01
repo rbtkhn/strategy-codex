@@ -328,7 +328,7 @@ rejected, the one which Putin told the
 Americans and Steve Witkoff he wasn't
 prepared to receive. So that he wasn't
 interested in
-Witoff coming to Moscow and proposing it
+Witkoff coming to Moscow and proposing it
 to him. Again,
 um Kellogg appears to have this
 invincible belief that Putin is at some

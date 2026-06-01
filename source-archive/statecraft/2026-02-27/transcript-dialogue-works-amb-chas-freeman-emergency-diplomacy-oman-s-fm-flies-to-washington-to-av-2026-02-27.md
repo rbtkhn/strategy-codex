@@ -416,7 +416,7 @@ seas, uh uh the threat to invade Iran
 for no clear reason is no been there's
 been no real explanation of why the why
 the invasion would be necessary. In
-fact, Steven Witco, who I would point
+fact, Steven Witkoff, who I would point
 out is uh an amateur at diplomacy
 uh just as much as Jared Kushner's
 father is an amateur at diplomacy. He's
@@ -433,7 +433,7 @@ this is a kind of um uh entrusting
 national interests through private
 citizens with no real competence. Um uh
 nobody wants this kind of world either.
-Uh so Witco Kushner Jared Kushner have
+Uh so Witkoff Kushner Jared Kushner have
 no constitutional status at all in the
 United States. They're not their only
 source of authority is their personal
@@ -443,7 +443,7 @@ so [snorts] um uh this is weird,
 absolutely weird. And it is not the kind
 of world that anybody wants. So I think
 uh whatever react the reaction of China
-and Russia will be I think Arachi going
+and Russia will be I think Araghchi going
 back to the original clip that you
 showed as I said he's setting up Iran to
 to be able to say you know if you attack
@@ -467,7 +467,7 @@ if I'm on Monday if I'm not mistaken
 &gt;&gt; and I don't know how much of you know
 positiveness can we get by this sort of
 argument because you look at what Steve
-Witkov is talking about. It seems that
+Witkoff is talking about. It seems that
 every time he goes there, they're
 talking about something and that is not
 reflected in the mainstream media, in
@@ -526,7 +526,7 @@ result in a war. Now, we're seeing the
 same thing every single negotiation.
 Nobody knows what went on in there. And
 we have a wellestablished um record now
-of Steve Witkov
+of Steve Witkoff
 appearing to agree with things with Iran
 only to ref rebut the the the appearance
 of an agreement. So he says
@@ -635,7 +635,7 @@ been two years, two months, one day, 5
 days, 10 days, 3,000 years, whatever uh
 away from making a bomb forever.
 uh and of course uh this uh this has
-been the main refrain of Netanyao. I
+been the main refrain of Netanyahu. I
 will just say one other thing. uh my
 first visit to Israel as assistant
 secretary of defense. There was a an

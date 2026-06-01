@@ -18,7 +18,7 @@ quality_note: Normalized into readable paragraphs and light speaker separation; 
 
 ## Transcript
 
-Hi everyone, Judge Andrew Npalitano here for Judging Freedom. Today is Tuesday, May 26, 2026. My dear friend Matt Hoe uh joins us now. Thank you very much, Matt, for your time. As always, I'm going to ask you at the end of this something I find intriguing: why the Pentagon lies. But to build up to that with all your experience there, to build up to that we need to discuss recent events. Over the weekend the United States attacked Revolutionary Guard speedboats and killed five soldiers, sailors I guess they are. I thought we had a ceasefire.
+Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Tuesday, May 26, 2026. My dear friend Matt Hoe uh joins us now. Thank you very much, Matt, for your time. As always, I'm going to ask you at the end of this something I find intriguing: why the Pentagon lies. But to build up to that with all your experience there, to build up to that we need to discuss recent events. Over the weekend the United States attacked Revolutionary Guard speedboats and killed five soldiers, sailors I guess they are. I thought we had a ceasefire.
 
 Hi judge. It's good to see you. Thank you for having me on. Yeah, I mean the fungibility of words here, right? The willingness to utilize the English language for whatever purposes may be needed. I mean, I think this gets to your question about why they lie. They lie in all forms and shapes, but even some of it is just the lexicon that's used, right? And this is all very Orwellian.
 

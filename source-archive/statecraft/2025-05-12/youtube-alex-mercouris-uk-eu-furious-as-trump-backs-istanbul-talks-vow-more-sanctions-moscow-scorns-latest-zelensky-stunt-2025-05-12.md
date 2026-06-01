@@ -767,7 +767,7 @@ where it is going to be very difficult
 now to reverse course. At some point
 over the last few weeks, he made the
 critical decision to go with Kellogg and
-uh Rubio against Witgo and Vance. He
+uh Rubio against Witkoff and Vance. He
 decided to support their approach
 to ending or freezing the conflict in
 Ukraine.
@@ -837,7 +837,7 @@ what Trump's ultimate intentions were,
 what he privately thought, what he
 discussed with his officials, whether
 these arguments that we've seen between
-Witgo and Vance on the one hand and
+Witkoff and Vance on the one hand and
 Rubio and Kellogg on the other, whether
 they were real or not, I think one thing
 I really must say now is it in the end

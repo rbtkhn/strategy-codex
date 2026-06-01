@@ -942,7 +942,7 @@ they've offered. And what they do say
 out loud uh with both foreign minister
 Abbasarshi um he number one he said
 listen this is all about a limit uh or
-opening up of the straight of hormones
+opening up of the Strait of Hormuz
 for the duration of the ceasefire which
 of course expires next Wednesday. So
 you're talking 4 days so they're not

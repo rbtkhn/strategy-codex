@@ -18,7 +18,7 @@ quality_note: Normalized to remove ad boundaries and transcript noise; minor art
 
 ## Transcript
 
-Hi everyone, Judge Andrew Npalitano here for Judging Freedom. Today is Tuesday, May 26, 2026. It seems like a Monday because we in the US were off yesterday. Alastair Crooke will be here with us in just a moment. Is fear, fear of nuclear weapons, a legitimate and effective deterrent to war?
+Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Tuesday, May 26, 2026. It seems like a Monday because we in the US were off yesterday. Alastair Crooke will be here with us in just a moment. Is fear, fear of nuclear weapons, a legitimate and effective deterrent to war?
 
 Alastair, welcome here, my dear friend, and thank you as always for your time. Before we get to the possession, or even the use, of nuclear weapons as a deterrent, did the United States just bomb Iran last night in self-defense, it claimed?
 

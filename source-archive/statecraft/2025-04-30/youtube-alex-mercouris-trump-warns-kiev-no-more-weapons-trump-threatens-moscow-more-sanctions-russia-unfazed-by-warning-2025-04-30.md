@@ -56,7 +56,7 @@ starting point for discussions.
 I also said that what I thought was
 likely to have happened and I've said
 this in several programs was that
-Witgo taking the new American plan with
+Witkoff taking the new American plan with
 him to Moscow. meeting Putin on Friday
 would have pressed Putin to accept the
 plan to
@@ -139,9 +139,9 @@ position. So I said that that was almost
 certainly what Putin would have said to
 Wit Golf on Friday. And I have also said
 in my previous programs that what Putin
-did say however to Witgov is that
+did say however to Witkoff is that
 Kellogg minus if we can call it that.
-the plan that Witgov brought with him to
+the plan that Witkoff brought with him to
 Moscow and which was presented to the
 Ukrainians and to the Europeans over the
 course of the talks in Paris and London
@@ -166,15 +166,15 @@ Russians have also made clear they don't
 recognize his legitimacy as president of
 Ukraine. So I said that this is what I
 thought um Putin would have said to
-Witgo and I further pointed out that the
+Witkoff and I further pointed out that the
 fact that Putin's aid Yuri Ushakov
 um has said that over the course of the
-meeting with Witkov
+meeting with Witkoff
 Putin repeatedly pointed out that Russia
 is prepared for direct negotiations with
 Ukraine. suggested that there had been a
 disagreement and perhaps even an
-argument with perhaps Witgo under
+argument with perhaps Witkoff under
 instructions from Trump continuing to
 push for a ceasefire on the existing
 line of control. That was what I have
@@ -184,7 +184,7 @@ Bloomberg and it says exactly this
 that what I have been saying over the
 last couple of days is exactly correct.
 It gives an account of the meeting
-between Wickoff and um Putin on Friday,
+between Witkoff and um Putin on Friday,
 which is in full accord exactly with
 what I had previously inferred. And this
 is the article. It's Putin said to
@@ -260,10 +260,10 @@ that the Russians have been saying over
 the last couple of days. both the
 interview that Lavough gave to face the
 nation on Thursday before the meeting
-with Witgo. The secondly, the interview
+with Witkoff. The secondly, the interview
 that Lavro gave to the Brazilian
 newspaper O Globo directly after Putin's
-meeting with Wickoff and of course
+meeting with Witkoff and of course
 further comments that have been made by
 people like Patref and Pescov himself.
 And on that topic, Pescov has of course
@@ -671,16 +671,16 @@ now. What happens next? Well, there is
 no sign of any movement at
 all in the diplomacy. Um, the Russians
 made their position completely clear
-when Witgo met Putin. I think Witgo
+when Witkoff met Putin. I think Witkoff
 warned Trump before he was sent to meet
 Putin that this is what Putin would say.
-Witgo, after all, had had, I believe,
+Witkoff, after all, had had, I believe,
 three meetings with Putin before. Putin
 had gone to great length to set out the
 Russian position. Then we also learned
 from Bloomberg that there was a
 discussion um in front of Trump in which
-Witgo explained Putin's position and
+Witkoff explained Putin's position and
 explained to Trump that the transfer of
 the four regions to Russia
 was one of
@@ -692,9 +692,9 @@ unacceptable to the Ukrainians and for
 that reason could not be agreed to.
 Trump was unable to make a decision but
 eventually it's clear he came round to
-Kellogg's thinking sent off Witgo to
+Kellogg's thinking sent off Witkoff to
 Moscow with as I said what is in essence
-Kellogg's proposal and then Witgo came
+Kellogg's proposal and then Witkoff came
 back with Putin's no which is what he
 warned Trump in advance he would come
 back with so there is no further

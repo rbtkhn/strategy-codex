@@ -187,7 +187,7 @@ Russia was going to attack us.
 And if Donald Trump crosses that line,
 there are going to be consequences for
 the American people.
-and Pete Hegsth and the clown show that
+and Pete Hegseth and the clown show that
 is the Trump administration are not
 going to be able to do a damn thing to
 stop it because right now they can't
@@ -427,7 +427,7 @@ So, uh, what what do you have to to say
 about that in terms of having bet
 everything on a failed invasion?
 >> So, let me let me tell you about the
-cooling economy. So, Judge Npalitano and
+cooling economy. So, Judge Napolitano and
 I about two hours ago, we're sitting in
 this Italian restaurant and we just had
 a great meal and we just ordered
@@ -708,7 +708,7 @@ stand ready. We have to work together.
 We have to train together. We have to
 procure together.
 >> So, let's not vain naive here. I mean,
-everybody knows that if Xiinping decided
+everybody knows that if Xi Jinping decided
 to go to war against Taiwan, that he
 would force Vladimir Putin, whether he
 wanted to or not, to attack and go into
@@ -1022,7 +1022,7 @@ really a good value for the for the
 people invested in Rathon. Yeah. I mean,
 it,
 you know, it's it's so ridiculous
-and that that people like Hexa sit there
+and that that people like Hegseth sit there
 and say this with a straight face.
 >> Yeah. I think that most of the intended
 audience there is I don't think it's

@@ -17,7 +17,7 @@ quality_note: "Normalized from operator paste for readability; minor transcript 
 
 # Israel's Mossad is everywhere and all over Ukraine, Russia has won! - Col. Lawrence Wilkerson
 
-Russia now fights a proxy war against 32 NATO member countries plus Ukraine. Despite denials from the White House, rumors are flying the Trump administration officials like the Pentagon's Pete Hexet, let alone Britain's MI6 and Israel's Mossad, would have been aware of a Kiev attack on nuclear strategic bombers in Russia hours before last week's Ukraine Russia peace talks in Istanbul.
+Russia now fights a proxy war against 32 NATO member countries plus Ukraine. Despite denials from the White House, rumors are flying the Trump administration officials like the Pentagon's Pete Hegseth, let alone Britain's MI6 and Israel's Mossad, would have been aware of a Kiev attack on nuclear strategic bombers in Russia hours before last week's Ukraine Russia peace talks in Istanbul.
 
 Joining me again from Falls Church, Virginia, is the 30-year veteran US Army officer who was chief of staff at the US State Department when NATO powers invaded Iraq, retired Colonel Lawrence Wilkerson. Colonel, thanks so much for coming back. I can see already the horror on your face from just repeating the news of strategic bombers under the START treaty had to be out in the open being destroyed.
 
@@ -43,7 +43,7 @@ So only way you're going to get to Trump is through that sort of media. And that
 
 Is it this Kellogg confl cornflake descendant uh Iraqi coalition provisional authority um boss General Kellogg? I mean maybe you want to tell us about General Kellogg. Is it he he who has Trump's year rather than JD Vance, rather than director of national intelligence and um I don't know more than the head of the CIA, John Radcliffe even? I don't think Kellogg has Trump's ear either.
 
-I think what Witco has is he's the boy on Ukraine, I should say. Yeah, Ukraine and the rest of the world. Thank you very much. Steve Whit is probably the only person that can walk into Trump's office and talk to him and expect some kind of reaction. The only one. Ruby. Yeah, but it was Kellogg. But it was Kellogg obviously who had told him uh or not told him about the assassination attempt on Vladimir Putin as he got out of a plane or was it a helicopter marine one or something saying, "Oh, look, it's terrible what Putin is doing." uh as if he had no idea that there had been an assassination attempt on the Russian president.
+I think what Witkoff has is he's the boy on Ukraine, I should say. Yeah, Ukraine and the rest of the world. Thank you very much. Steve Whit is probably the only person that can walk into Trump's office and talk to him and expect some kind of reaction. The only one. Ruby. Yeah, but it was Kellogg. But it was Kellogg obviously who had told him uh or not told him about the assassination attempt on Vladimir Putin as he got out of a plane or was it a helicopter marine one or something saying, "Oh, look, it's terrible what Putin is doing." uh as if he had no idea that there had been an assassination attempt on the Russian president.
 
 Yeah, I think it was on the tarmac in front of his plane and it was a stunning moment really, but not so much for me with this president because I've come to know him I think fairly well. He's detached from all manner of detail. That he would not have known about that seems impossible but not given Trump.
 
@@ -71,7 +71,7 @@ I I watched MSAD take over the Pentagon in 2002. The Pentagon was infiltrated by
 
 Occasionally, they went to the second most powerful man, Paul Wolfwitz, the deputy secretary of defense. And they had run of the Pentagon. Donald Roosevelt, the Secretary of Defense, said to my boss one time, "Hell, I don't run my building. MSAD does." About uh Trump not being the brightest, arguably the power of Israel. One thing is certain though, Trump does I mean for all the taco Trump always chickens out uh uh acronym stuff.
 
-He does react when he gets the information that he's been lied to or lied to by a mission. I mean there were reports that perhaps from the state department Eric Trager the former US National Security Council Middle East director Morgan Ortega US actually they came Morgus Morgan Ortega she came from USAD deputy to Wickoff and Morav Sarin Israeli at the National Security Council appointed by Mike Waltz are all being turned changed and uh Trump himself saying no sanctions uh should go to the Senate a new bill against Russia.
+He does react when he gets the information that he's been lied to or lied to by a mission. I mean there were reports that perhaps from the state department Eric Trager the former US National Security Council Middle East director Morgan Ortega US actually they came Morgus Morgan Ortega she came from USAD deputy to Witkoff and Morav Sarin Israeli at the National Security Council appointed by Mike Waltz are all being turned changed and uh Trump himself saying no sanctions uh should go to the Senate a new bill against Russia.
 
 So, could uh he find out that uh unbeknownst to him all these things have been happening and then get very angry before a meeting with Putin? Well, I don't know who's going to tell him. I I don't think that there are people disposed to tell him within his administration. That's a problem with the people he selected for his cabinet.
 
@@ -85,7 +85,7 @@ And it's not there. Trump did not achieve what he said he would achieve for her.
 
 Perhaps he watches Tucker Carlson's uh videos on online. Uh Carlson talking about how uh leaving NATO might make sense for a Make America Great Again movement. Uh given this context, what should we be expecting in two weeks time when Trump arrives in the Hague uh for the NATO summit? Well, he's going to arrive in a country that just fell in terms of its government.
 
-The uh interesting thing there is the person who caused it to fail to to fall. Um yeah, this morning I heard that Sorry to interrupt, Colonel. Were you just did you just anticipate perhaps it was the the the war in Western Europe? It could be u but I think it's more immigration. Um we just heard that Secretary Hexath has declared he's not going to the meeting in Europe.
+The uh interesting thing there is the person who caused it to fail to to fall. Um yeah, this morning I heard that Sorry to interrupt, Colonel. Were you just did you just anticipate perhaps it was the the the war in Western Europe? It could be u but I think it's more immigration. Um we just heard that Secretary Hegseth has declared he's not going to the meeting in Europe.
 
 Uh so this will be the first time the United States has not been president at this meeting that you know puts all the NATO heads together in Brussels and talks about Ukraine. Uh that's a strong signal. JD Vance has already sent signals like that. Now the Secretary of Defense is sending a strong signal. We're not coming.
 

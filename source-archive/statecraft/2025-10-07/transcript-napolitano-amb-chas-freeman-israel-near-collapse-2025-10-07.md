@@ -21,7 +21,7 @@ quality_note: Normalized to remove sponsor/promo copy and transcript noise; mino
 
 ## Judge Andrew Napolitano
 
-Hi everyone, Judge Andrew Npalitano here for Judging Freedom. Today is Tuesday, October 7th, 2025. Ambassador Chaz Freeman will be with us in just a moment on two years later, and Israel is nearing collapse.
+Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Tuesday, October 7th, 2025. Ambassador Chaz Freeman will be with us in just a moment on two years later, and Israel is nearing collapse.
 
 Ambassador Freeman, welcome here, my dear friend. No matter what we discuss, it's always a pleasure to be able to share your thoughts with my audience. Did the Netanyahu regime know in advance of the Hamas attack on October 7th, 2023?
 

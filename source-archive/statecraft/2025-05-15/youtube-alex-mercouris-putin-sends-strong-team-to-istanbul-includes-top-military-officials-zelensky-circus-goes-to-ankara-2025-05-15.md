@@ -965,7 +965,7 @@ seems to me very strange, incredibly
 confusing. But it's not just the
 Ukrainians that are confused, confusing,
 and all over the place. In my program
-yesterday, I said that Witgo, Rubio, and
+yesterday, I said that Witkoff, Rubio, and
 um and Kellogg were all being sent by
 Trump to Turkey. What I had not realized
 is that there is a NATO foreign
@@ -979,10 +979,10 @@ Istanbul though that does put Rubio very
 close at least in the same country as
 the place where the negotiations in
 Istanbul are supposed to be taking
-place. But Witgo and Kellogg have also
+place. But Witkoff and Kellogg have also
 been sent there. And I've already
 pointed out and I pointed out in my
-program yesterday that Witgo and Kellogg
+program yesterday that Witkoff and Kellogg
 appear to have completely different
 views about how the United States should
 approach this conflict. Are they going
@@ -1006,7 +1006,7 @@ all that to aside. Um Trump nonetheless
 does still seem to want to see progress
 in the talks that are going to happen in
 Istanbul. So it is likely that Kellogg
-will go. Will sorry that Witgo will go?
+will go. Will sorry that Witkoff will go?
 Will Kellogg go? Probably presumably.
 But then, as I said, Kellogg and
 Witkoff don't really
@@ -1168,15 +1168,15 @@ particularly well organized either.
 They're divided between each other.
 There has been a lot of criticism and it
 is clearly malicious criticism of Steve
-Wickoff circulating in the United States
+Witkoff circulating in the United States
 and in the media. He's supposed to
 breach protocols by meeting with Putin
 without talking to him in Russian.
-Witkov apparently speaks Russian and
+Witkoff apparently speaks Russian and
 speaks it well. Meeting Putin onetoone
 and speaking to Putin in Russian and not
 through an interpreter. There's been
-criticism that Witgov doesn't come with
+criticism that Witkoff doesn't come with
 strong backing from staffers and people
 of that
 kind. I read a piece by Seymour
@@ -1191,7 +1191,7 @@ negotiations much more orderly and
 structured and they're nothing like that
 at the moment. And I certainly don't
 think the Russians are laughing at
-Wickoff. just to say um I've read many
+Witkoff. just to say um I've read many
 comments that the Russians have made
 about Wit Golf, comments that people
 like Lavough have made and they all
@@ -1201,7 +1201,7 @@ is very quick on the uptake. The
 Russians have been impressed at how
 quickly he has absorbed much of the
 detail of what is a very complex
-conflict. But of course, Wickoff is
+conflict. But of course, Witkoff is
 ultimately one
 individual taking on this Russian
 machine all by all by himself.

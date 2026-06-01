@@ -69,7 +69,7 @@ So, I don't think Trump has any very clear idea of what to do because he's found
 
 Uh, I mean, he had a conversation with Putin early on and Wituff had a series of conversations and the Russians surely must have made it clear what the terms of a deal had to be from their point of view. Uh, you don't need a tripledigit IQ to figure this out. The Russians have said time after time what they demand uh from a deal and uh I don't understand why we don't understand that why we think that we can bargain with them that there's a lot of bargaining space here.
 
-We can get them to concede here and there and we'll make concessions here and there and so forth and so on. This is just not the way it's going to work. The Russians have insisted from the beginning that there are a handful of bedrock demands that simply have to be met. But if you listen to Witco and you listen to Trump and others speak, it's like we just don't get this.
+We can get them to concede here and there and we'll make concessions here and there and so forth and so on. This is just not the way it's going to work. The Russians have insisted from the beginning that there are a handful of bedrock demands that simply have to be met. But if you listen to Witkoff and you listen to Trump and others speak, it's like we just don't get this.
 
 And I find that very hard to understand. Uh, another point I would make here is, uh, I don't understand why Trump and company don't understand that Ukraine is going to lose and it's going to lose reasonably soon. If you look at what's going on in the war, it's pretty clear that the Ukrainians are in really big trouble.
 

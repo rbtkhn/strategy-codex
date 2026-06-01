@@ -1197,7 +1197,7 @@ prospect of it. And so and also given
 the sense that you know the the the mood
 uh in the team of Trump is now solidly
 against um any negotiation with um uh
-well I mean not solidly there's Witoff
+well I mean not solidly there's Witkoff
 of course but I mean solidly against any
 sort of real negotiation with with it. I
 they've turned you know there's been a

@@ -17,7 +17,7 @@ quality_note: "Normalized from operator paste for readability; minor transcript 
 
 # COL. Lawrence Wilkerson : Will Trump Deport Americans?
 
-Heat. Heat. [Music] [Music] Hi everyone, Judge Andrew Npalitano here for Judging Freedom. Today is Thursday, April 10th, 2024. My dear friend, Colonel Lawrence Wilkerson joins us now. Colonel Wilkerson. Uh a pleasure. Thank you very much for joining us. These are uh dark days and and unpleasant subject matters to discuss.
+Heat. Heat. [Music] [Music] Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Thursday, April 10th, 2024. My dear friend, Colonel Lawrence Wilkerson joins us now. Colonel Wilkerson. Uh a pleasure. Thank you very much for joining us. These are uh dark days and and unpleasant subject matters to discuss.
 
 Do you have a moral objection to folks being swooped up off the streets in America and without any appearance before a judge, dispatched to a dungeon in a foreign country from which it appears there is no extrication or escape. Moral, ethical, and legal objections. And as I told one of my buddies this morning who was emailing me on the same subject, I said, "You know what we're doing here is the same thing George W.
 
@@ -124,7 +124,7 @@ I guess you have to bring Great Britain and France in too. Well, that was Putin 
 
 But listening to some experts on Iran and others, I've come back to my original conclusion. I think Trump wants a deal. And I don't think the deal is going to be as his decision memorandum or information memorandum directive whatever it was that listed the seven or eight points we were going to cause to happen is really realistic.
 
-It certainly isn't to the Iranians. So I think his emphasis on the nuclear weapon there was a very emphasis. That's what he wants. He wants a verification regime and that's where the details are going to be difficult for Witco because if you recall Monise was involved the secretary of energy Zarif was involved Zarif's or or uh our equivalent in Iran was involved you need a lot of expertise to do this kind of verification regime especially to make it acceptable to people like Trump and ultimately the Congress. So this could be a long drawn
+It certainly isn't to the Iranians. So I think his emphasis on the nuclear weapon there was a very emphasis. That's what he wants. He wants a verification regime and that's where the details are going to be difficult for Witkoff because if you recall Monise was involved the secretary of energy Zarif was involved Zarif's or or uh our equivalent in Iran was involved you need a lot of expertise to do this kind of verification regime especially to make it acceptable to people like Trump and ultimately the Congress. So this could be a long drawn
 out set of talks and during the whole thing Netanyahu is going to be if he's still leader and I'm seriously concerned that he not concerned I'm seriously expecting him not to be the leader much longer but it's going to be really hard for him to bear this because these talks are going to go on and on and they're going to ultimately judge they're going to ultimately revolve around probably lifting not only secondary sanctions but primary sanctions which means American business can go back into Iran, which will be the biggest defense of the
 agreement because you'll have Exxon Mobile and all these other companies in there saying, "Leave this country alone." Apparently, the president of Iran heard what President Trump said because he said this, cut number 17. They keep trying to push the narrative that Iran wants to make a nuclear bomb. What kind of assurance are they looking for? You verified us a hundred times.
 
@@ -135,5 +135,5 @@ His foreign minister spoke fluent English. He said to me in fluent English, he s
 
 Thank you so much for your passion, for your Thank you for your dedication to first principles, uh, which you never fail, no matter what we're talking about, and no matter who's in power. It's a pleasure to be your friend and colleague, Colonel. I hope you'll come back again next week. Well, let me just say thank you for yours.
 
-Thank you. You're getting to people and I Thank you. And I know you're going to be with Chief Sergeant Major Fritz. Please remind him that we love him. I'll do that. Thank you, Colonel. All the best. Take care. You too. And coming up at 3:00 this afternoon, the always worth waiting for Professor John Mirshimer, Judge Npalitano for judging freedom.
+Thank you. You're getting to people and I Thank you. And I know you're going to be with Chief Sergeant Major Fritz. Please remind him that we love him. I'll do that. Thank you, Colonel. All the best. Take care. You too. And coming up at 3:00 this afternoon, the always worth waiting for Professor John Mirshimer, Judge Napolitano for judging freedom.
 [Music] [Music]

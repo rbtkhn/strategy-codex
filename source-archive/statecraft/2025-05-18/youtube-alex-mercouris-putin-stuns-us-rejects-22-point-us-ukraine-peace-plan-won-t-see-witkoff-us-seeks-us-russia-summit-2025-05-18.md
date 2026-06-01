@@ -147,7 +147,7 @@ the course of personal conversations,
 telephone conversations between the two.
 It is what Putin has repeatedly said to
 Trump's envoy, Steve
-Wickoff, and it is what Putin's
+Witkoff, and it is what Putin's
 negotiators said to the Ukrainians at
 the meeting in Istanbul.
 I I cannot
@@ -254,7 +254,7 @@ says it says this on Thursday last week.
 This is not the week that we've just
 gone past, but the week before. On
 Thursday last week, senior Russian
-officials told Steve Witgov, Trump's
+officials told Steve Witkoff, Trump's
 special envoy, that Putin did not want
 to discuss the 22point peace plan that
 Witkoff had drawn up with Ukrainian and
@@ -269,19 +269,19 @@ According to people familiar with the
 matter, Ukraine was represented on the
 call by Zalinsk's chief of staff Andre
 Yermach and Ukrainian Defense Minister
-Rust Momero, the US by Witgov, Secretary
+Rust Momero, the US by Witkoff, Secretary
 of State Marco Rubio, who is currently
 also serving as National Security
 Advisor and General Keith Kellogg,
 Trump's special envoy for Kiev. Russia's
-response resulted in Witgov, who has met
+response resulted in Witkoff, who has met
 Putin for talks four times since
 February, postponing provisional plans
 to meet the Russian leader this week.
 The people said a person close to
 Witkoff said no trip had been planned.
 So
-Witkov is appearing to deny the story,
+Witkoff is appearing to deny the story,
 but it may be true. It would
 explain
 Trump's social media post, his true
@@ -326,7 +326,7 @@ to the
 Russians. The Russians said, "This is an
 absolute non-starter. We're not
 interested in talking about it.
-There is no point if Witgov is coming
+There is no point if Witkoff is coming
 with this plan to Moscow for him to come
 at all because Putin is not going to
 accept it. So it looks as if something
@@ -438,7 +438,7 @@ the Ukra Russian Ukraine war. The
 comprehensive peace plan proposed by the
 United States outlines the best way
 forward. Now that presumably refers to
-the 22point plan that Witgov was
+the 22point plan that Witkoff was
 supposed to take with him to Moscow the
 week before and which the Russians said
 no to and which the Russians said to the
@@ -878,12 +878,12 @@ themselves often enough repeat the same
 offer often enough then sooner or later
 the other side will come round and will
 accept it. It's the philosophy that
-Trump and Witgo probably learned and
+Trump and Witkoff probably learned and
 adopted during their work in real estate
 and which they're now trying to bring to
 international diplomacy.
 It may work with the sort of people that
-Trump and Witgov have
+Trump and Witkoff have
 encountered in the commercial world in
 New York. But as I said in program after
 program, it will not work with Russia

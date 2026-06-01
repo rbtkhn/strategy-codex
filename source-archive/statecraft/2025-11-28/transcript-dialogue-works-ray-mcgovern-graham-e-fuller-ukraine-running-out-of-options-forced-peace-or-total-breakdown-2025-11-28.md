@@ -95,7 +95,7 @@ So uh what's happening now is they are
 
 going to arrive and they're going to
 
-arrive in the person of uh of Witkov who
+arrive in the person of uh of Witkoff who
 
 is due in Moscow probably Monday maybe
 
@@ -167,7 +167,7 @@ about, but we're we're ready. Now, of
 
 course, he explicitly says, "We're
 
-waiting for Witco with baited breath."
+waiting for Witkoff with baited breath."
 
 Well, he doesn't say baited breath, but
 
@@ -483,7 +483,7 @@ Rubio to Europe to Geneva to talk with
 
 Europeans and Ukrainians and he's
 
-talking about sending Witkov together
+talking about sending Witkoff together
 
 with, you know, with his son-in-law
 
@@ -491,7 +491,7 @@ to Russia. What is that? Do you think
 
 that isn't good to send Rubio together
 
-with Witkov? Because how how do you see
+with Witkoff? Because how how do you see
 
 the whole thing together?
 
@@ -501,7 +501,7 @@ was last Sunday.
 
 Uh I have no knowledge that Rubio is
 
-going with Witkov this coming week to
+going with Witkoff this coming week to
 
 Moscow. Is that what you're saying?
 
@@ -511,7 +511,7 @@ Moscow. Is that what you're saying?
 
 >> Okay. So,
 
->> Whitov gonna go together with Donald
+>> Witkoff gonna go together with Donald
 
 Trump.
 
@@ -635,7 +635,7 @@ it's nice to see you, Mr. Driscoll, but
 
 this is going on at a different level.
 
-We're eagerly awaiting Witoff on Monday
+We're eagerly awaiting Witkoff on Monday
 
 or Tuesday, and that's where this will
 
@@ -1021,7 +1021,7 @@ its intelligence service? The people
 
 that are leaking confidential uh
 
-conversations between Witkov and Ushakov
+conversations between Witkoff and Ushakov
 
 and with Dimmitri. I mean there's a lot
 
@@ -1079,7 +1079,7 @@ totally divided the Trump
 
 administration. You know on one side we
 
-have JD Vance, Steve Witkov, Donald
+have JD Vance, Steve Witkoff, Donald
 
 Trump and these people who are eager who
 
@@ -1121,7 +1121,7 @@ agreement with the United States during
 
 the talks they had with Steve Wkov three
 
-times and every time Witkov called
+times and every time Witkoff called
 
 someone in Washington which could be in
 
@@ -1227,7 +1227,7 @@ word I see Driscoll carrying out the
 
 bidding of
 
-of JD Vance and the president and Witco
+of JD Vance and the president and Witkoff
 
 and other people [snorts] feel that way.
 
@@ -1657,7 +1657,7 @@ that's a basic foundation for where we
 
 are now and what's going to happen next
 
-week with Witkov in Moscow. I'm going to
+week with Witkoff in Moscow. I'm going to
 
 ask for permission to leave just for a
 
@@ -2063,7 +2063,7 @@ kind of person. I will
 
 smooth the rough edges and I'll see what
 
-he can deal with with respect to Witco.
+he can deal with with respect to Witkoff.
 
 That's the big thing it seems to me. And
 

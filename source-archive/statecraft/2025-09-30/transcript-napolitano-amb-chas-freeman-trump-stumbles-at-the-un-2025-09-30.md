@@ -21,6 +21,6 @@ quality_note: Normalized to remove sponsor/promo copy and transcript noise; mino
 
 ## Judge Andrew Napolitano
 
-Andrew Npalitano here for Judging Freedom. Today is Tuesday, September 30th, 2025. Ambassador Chaz Freeman will be with us in just a moment on President Trump's stumbling figuratively and literally at the United Nations.
+Andrew Napolitano here for Judging Freedom. Today is Tuesday, September 30th, 2025. Ambassador Chaz Freeman will be with us in just a moment on President Trump's stumbling figuratively and literally at the United Nations.
 
 Ambassador Freeman, thank you very much. Sorry for the audio problems at the outset, but we recovered nicely and you were very patient as always and it's a joy to be able to chat with you. We'll look forward to seeing you next week.

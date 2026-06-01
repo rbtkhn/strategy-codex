@@ -750,7 +750,7 @@ there is a cascade of countries that do
 that. And if the United States does that
 too, and Donald Trump of course has
 hinted as much. He after all proposed
-through his intermediaries in Witgov and
+through his intermediaries in Witkoff and
 um
 Kellogg that the United States
 recognized Crimea as Russian and the
@@ -1271,7 +1271,7 @@ else and again this is openly discussed
 in the European media. They're very
 concerned now about the possibility of a
 summit meeting between Putin and Trump.
-And Peskoff, Putin's spokesman, has been
+And Pezeshkian, Putin's spokesman, has been
 talking about this and he says that
 absolutely such a meeting is necessary.
 It must take

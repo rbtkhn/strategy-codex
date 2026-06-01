@@ -243,7 +243,7 @@ And this will lead to significant ethnic cleansing. Uh, the Russians will have a
 
 All of this just points out what a total disaster this whole situation is. It does. Um, listen, before I let you go here, I want to shift gears to one other thing. You mentioned a second ago that, uh, whereas Putin has the sole focus on on the Russia-Ukraine issue and and their Western security, Western flank security, the United States has the Middle East, the the Russia-Ukraine stuff, and also Asia.
 
-Well, turns out that we're trying to add a fourth one to that as, uh, Secretary of Defense or Secretary of War Hagel said last night announced Operation Southern Sphere in America's southern neighborhood. And, uh, what's unclear because he he posted this X post last night, um, and with no explanation at all.
+Well, turns out that we're trying to add a fourth one to that as, uh, Secretary of Defense or Secretary of War Hegseth said last night announced Operation Southern Sphere in America's southern neighborhood. And, uh, what's unclear because he he posted this X post last night, um, and with no explanation at all.
 
 We don't know if this is There's another one, Operation Southern Sphere, which has been existed for quite some time, which was uh, directed towards really other things done there. We don't know if he's tagging on to that, if this is something new that's using the same language, but with the USS Ford sitting down in the waters, uh, just off side of, uh, Venezuela all as well as lots of other military capabilities down there.
 

@@ -20,7 +20,7 @@ quality_note: Operator-supplied interview transcript captured in Codex thread; p
 
 # Prof. Jeffrey Sachs : Trump’s attempt at Venezuelan regime-change and his Gaza Illusions
 
-Heat. Heat. [Music] [Music] Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Monday, October 27th, 2025. My dear friend, Professor Jeffrey Sachs joins us now. Professor Sachs, thank you very much for accommodating our schedule. I want to spend some time speaking with you about the Whitoff-Kushner, Donald Trump, Tony Blair so-called Gaza Peace Agreement. But before we do, I'd like to explore your understanding on the latest events involving Venezuela, if I may.
+Heat. Heat. [Music] [Music] Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Monday, October 27th, 2025. My dear friend, Professor Jeffrey Sachs joins us now. Professor Sachs, thank you very much for accommodating our schedule. I want to spend some time speaking with you about the Witkoff-Kushner, Donald Trump, Tony Blair so-called Gaza Peace Agreement. But before we do, I'd like to explore your understanding on the latest events involving Venezuela, if I may.
 
 By what international or legal standard can the American government declare that the Maduro government is illicit and that someone else is actually the president of Venezuela?
 

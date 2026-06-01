@@ -114,7 +114,7 @@ because Iran has outplayed this
 president in every way, shape, and form.
 Um, I I I want to remind again your
 audience that um, you know, we hear the
-president and Pete Hexith speak of
+president and Pete Hegseth speak of
 destruction, destruction, destruction.
 There's been a lot of physical
 destruction, but there's been almost
@@ -381,7 +381,7 @@ done their research. They had experts.
 They had done they had the research
 papers. They had the facts. They had
 everything. We came with Jared Kushner
-and and Steve Witco and JD Vance and
+and and Steve Witkoff and JD Vance and
 nothing. Yeah. 300 people showed up with
 nothing. zero. We didn't come in and
 say, "Here's our position. Here's what
@@ -415,7 +415,7 @@ for the failure, his failure in this
 conflict onto the shoulders of others.
 And I think JD Vance was thrown out
 there as a sacrificial lamb. JD Vance
-led the initial team with Wickoff and
+led the initial team with Witkoff and
 Kushner. And when the story is finally
 written, it's going to be Vance was
 unable to close the deal. I, Donald
@@ -832,7 +832,7 @@ agree to it. We need to try to have a
 military uh solution. But so far the the
 u I think they call them the reformers
 element the the Galibbah and and the
-Pesken they have been able to run rough
+Pezeshkian they have been able to run rough
 shot because they want that outcome but
 like there are headwinds for the Iranian
 side there's headwinds for the American
@@ -1576,7 +1576,7 @@ aware to everybody in NATO and
 especially the United States who's
 supposed to be paying attention to this
 stuff. But so far, all I've seen is that
-Pete Hexth make a couple of videos about
+Pete Hegseth make a couple of videos about
 how cool it was in front of the Pentagon
 that one time and had drones following
 him. Uh, and then they have this I saw

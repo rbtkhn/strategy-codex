@@ -205,7 +205,7 @@ deprived of uh the amenities that they
 had earlier. uh but the other point here
 I think on the Iranian calculation is
 that in effect by blockading the
-straight of hormos to the extent that
+Strait of Hormuz to the extent that
 blockade is effective and it doesn't
 appear to be all that effective um uh
 the uh United States is basically
@@ -1094,7 +1094,7 @@ Putin? You know what is happening in my
 opinion with the war in Ukraine and with
 the war in the Middle East? You see
 Russia during the war in Ukraine meeting
-with Xiinping as equals you know do two
+with Xi Jinping as equals you know do two
 partners are talking to with the case of
 Iran I see the same thing there you
 don't see that sort of you know that
@@ -1154,7 +1154,7 @@ energize that relationship to try to
 persuade Donald Trump to find a mutually
 convenient end to this disaster, the
 disaster of the war. Why would the
-Russians receive Arachi? Well, for many
+Russians receive Araghchi? Well, for many
 reasons. Um, for one thing, uh, they are
 watching the United States make a huge
 mistake by attacking Iran. Um, they they

@@ -435,9 +435,9 @@ Russia just in six to seven minutes.
 I don't know if there is some sort of
 communication between Russia and the
 United States. You know, some back
-channels, you know, Pete Hexet talk
+channels, you know, Pete Hegseth talk
 somehow some sort of communication
-between Pete Hexet and his counterpart
+between Pete Hegseth and his counterpart
 in Russia. Is there anything of that
 sort? Because as because we've learned
 that Pescov has mentioned that there is
@@ -1257,7 +1257,7 @@ American uh shipping or blockades. You
 could be denied access to the Suez
 Canal, etc. You know, now you're talking
 about a rail line from St. Petersburg to
-Bond Abbas. You're talking about a rail
+Bandar Abbas. You're talking about a rail
 line from uh western China straight into
 Thrron. Um and and I think this is just
 the natural state of affairs, but I

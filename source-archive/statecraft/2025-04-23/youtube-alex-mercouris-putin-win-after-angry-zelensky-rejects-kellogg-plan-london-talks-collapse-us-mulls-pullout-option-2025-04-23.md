@@ -452,7 +452,7 @@ meeting between WitGoff and Putin. Just
 saying. But there's also been
 confirmation already in the American
 media that Putin made that very
-same point clear to Wickoff when they
+same point clear to Witkoff when they
 did actually meet in St. Petersburg on
 the occasion referred to in this
 Financial Times article. Specifically,
@@ -468,7 +468,7 @@ the Ukrainians would never accept a
 proposal like that and that Trump heard
 the two out and then made no decision.
 So that was said after the meeting
-between Witgo and Putin in St.
+between Witkoff and Putin in St.
 Petersburg and that basically tells us
 that at that meeting in St. Petersburg,
 Putin reiterated his position that the
@@ -522,7 +522,7 @@ that this article that appeared in the
 Financial Times
 um reporting a significant concession
 that Putin is supposed to have made to
-Wickoff,
+Witkoff,
 which all of the evidence coming out of
 Russia
 suggests Putin never made to wick off.
@@ -1186,7 +1186,7 @@ that one saw
 more of this
 expectation from the Ukrainians that
 despite Donald Trump's Rubio's and
-Rubio's and Witgo's and even Kellogg
+Rubio's and Witkoff's and even Kellogg
 statement that this proposal that was
 made this week was the last chance that
 if this wasn't settled this speak the

@@ -48,7 +48,7 @@ questions. One of which was um listen
 are are you going to get Iran to
 capitulate? Will they open the straight
 of Hormuz? And did you get any help from
-Xiinping? And he and he just kind of
+Xi Jinping? And he and he just kind of
 waffled a lot about the Xihinping part.
 Obviously, the answer was no. But then
 he just claimed just without any
@@ -319,7 +319,7 @@ UAE, man. That's getting a bit
 concerning. You've got is the foreign
 ministry spokesperson said, "He who
 betrays in secret shall be exposed in
-public." that comes after the um Arachi
+public." that comes after the um Araghchi
 talking about how he's like, you know, I
 didn't want to talk about this for the
 sake of, you know, kind of mending
@@ -332,7 +332,7 @@ was the country trying to lead a a kind
 of consortium of Gulf countries to
 retaliate against Iran. Um they had
 multiple MSAD, you know, Israel threw
-UAE under the bus as well. Netanyah,
+UAE under the bus as well. Netanyahu,
 they put out a statement. Netanyahu came
 to the UAE and then more reports from
 Israeli media that the the IDF and

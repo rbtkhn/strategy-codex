@@ -894,7 +894,7 @@ know what do you got. He's just sort of
 
 Trump is pretty his own man, right? And
 
-he's got Whitov and they say, "Well, we
+he's got Witkoff and they say, "Well, we
 
 can deal on this." The other element,
 

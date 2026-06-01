@@ -679,7 +679,7 @@ said you're the snake
 saying that the Iranian leadership they
 literally sit in the dark and he said
 the United States has complete control
-over this trade of formos
+over this Strait of Hormuz
 and there is a hard currency for example
 he's talking about the US dollar
 shortage in Iran food and gasoline

@@ -118,7 +118,7 @@ Gaza is some sort of a permanent
 outcome. There's no evidence for that.
 Uh, and I don't know what we're going to
 see happen in Gaza. Although I think
-with the arrival of Kushner and Witoff,
+with the arrival of Kushner and Witkoff,
 uh, the real estate oligarchs, uh, we
 can look forward to some attempt to at
 least take 50% of Gaza and turn it into

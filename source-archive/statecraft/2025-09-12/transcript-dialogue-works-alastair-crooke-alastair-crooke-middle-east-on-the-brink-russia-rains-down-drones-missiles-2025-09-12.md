@@ -172,7 +172,7 @@ in Doha uh with the aim of killing the
 Hamas negotiating team. that was there
 specifically to discuss the latest
 proposal
-um that ostensibly came from Witco um
+um that ostensibly came from Witkoff um
 via um Gata and other intermediaries
 uh proposing a new form of uh words or a
 new formula um for ending um the Gaza
@@ -608,7 +608,7 @@ know, it's unfortunate. It's come at the
 same time that we've seen this attack in
 in in in
 Doha on the Hamas leadership um to see
-um the foreign minister Arashi um sort
+um the foreign minister Araghchi um sort
 of sitting and signing um with the very
 people that the parliament has said we
 don't want them back in the country

@@ -277,7 +277,7 @@ walk around like some tourists. As if
 I'm pretty sure the uh Iranian
 Revolutionary Guard had to go change
 their diapers. They were uh they were
-that scared. I mean, Stephen Steve Witco
+that scared. I mean, Stephen Steve Witkoff
 and Jared Kushner, I mean, two of the
 manliest men that ever walked the
 planet. These guys lift weights. They
@@ -1550,16 +1550,16 @@ government? No. you're gonna be killed,
 executed, and yet you're meeting with
 the man who's planning to have you
 killed and executed.
-It's just it's mindboggling. And Witco,
+It's just it's mindboggling. And Witkoff,
 if the man is he
 he's nobody. He is incapable of
 independent thought.
-And anything Wickoff says carries no
+And anything Witkoff says carries no
 water. His job is to go in and pass a
 message, receive a message, and say nice
 words.
 Don't believe any of the nice words
-Steve Witco says because he has no power
+Steve Witkoff says because he has no power
 and he can't back them up. He comes back
 here to Washington DC, says his nice
 words and everybody goes, "No, no, no,
@@ -1662,7 +1662,7 @@ bad guys now? Or or did we become good
 guys? And if we became good guys, how
 did we become good guys?" And the same
 thing with the Russians.
-Whitov, you were in on the meeting when
+Witkoff, you were in on the meeting when
 the CIA said, "We're going to send
 drones in to strike uh Putin, and now
 you want to come here and sit with the

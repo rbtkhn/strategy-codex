@@ -965,7 +965,7 @@ that's beneath and beside Trump and is
 orchestrating things like the riots in
 Los Angeles. I think they are looking
 for sympathetic souls in the military
-and they've got Hegsth looking very
+and they've got Hegseth looking very
 closely for sympathetic souls in the
 ranks and most importantly in the
 general officer and admiral corps the

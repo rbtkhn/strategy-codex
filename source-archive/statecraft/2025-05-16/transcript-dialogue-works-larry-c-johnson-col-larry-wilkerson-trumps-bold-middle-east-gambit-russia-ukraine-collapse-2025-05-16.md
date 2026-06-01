@@ -167,11 +167,11 @@ Ask the British uh as the Russians. Um and we were there. We didn't have to stay
 
 Yeah. Larry, do you see that the case of Iran for Donald Trump is much easier? You you remember we talked about it various times and you said that the case of Ukraine is much easier for Donald Trump to put an end to it right now. How do you see the two conflicts, the case of Iran and Ukraine? Well, the the big the biggest problem that Trump has with respect to Iran is his the neoconservative base that is still part of his party.
 
-If you've watched the vitriol coming from Mark Levvin and Ben Shapiro directed at Steve Witoff. Yeah. I mean, Whitoff's a Jew. Shapiro's a Jew. Levin's a Jew. But according to Levin and Shapiro, Witoff's not a good Jew. No, no, no. In fact, he's an anti-Semitic Jew. It's just like self-loathing Jew. Yeah.
+If you've watched the vitriol coming from Mark Levvin and Ben Shapiro directed at Steve Witkoff. Yeah. I mean, Witkoff's a Jew. Shapiro's a Jew. Levin's a Jew. But according to Levin and Shapiro, Witkoff's not a good Jew. No, no, no. In fact, he's an anti-Semitic Jew. It's just like self-loathing Jew. Yeah.
 
 Yeah. Yeah. I mean, it's just uh they're out of their minds. They can't believe that Trump would even entertain this. Um and so that's the biggest problem that Trump faces right now is that uh if to to proceed with a deal that will be palatable, acceptable to Iran, it's going to enrage this ultra Zionist component. You know, it's represented by people like Mike Huckabe.
 
-But um you know, Trump may be willing to do that because um Ryan Dawson, I don't know if you know who he is, but Ryan reminded me the other day that um Witoff is very very close with the wealthiest Israeli in the country who is a real estate guy as well in New York City. And that guy is not friends with Netanyahu at all.
+But um you know, Trump may be willing to do that because um Ryan Dawson, I don't know if you know who he is, but Ryan reminded me the other day that um Witkoff is very very close with the wealthiest Israeli in the country who is a real estate guy as well in New York City. And that guy is not friends with Netanyahu at all.
 
 and and that guy has been friends with Trump as well. So Trump's, you know, Trump sort of has these personal relationships with a segment of Israeli society that are not necessarily well that are opposed to Netanyahu. So he may be able, you know, he may still be able to go forward with that deal because, you know, Whit's the one that's uh cutting it.
 
@@ -332,7 +332,7 @@ Stop. Back away. Uh take out take out the aerrow missile systems or the Eegis mi
 
 during his first term, the NATO military exercises became more aggressive, more u more or oriented towards offensive action up to and including when you know he authorized B-52 bombers were allowed to fly along Crimea this coast during a quote exercise and he sent javelin brags about I sent them those javelins I didn't send blankets like Obama well there's there yeah you should be really proud of that so you know he's part of the problem he's refused to accept that and you know hopefully Vladimir Putin will gently remind him of that and he's
 
-got Hexath as his secretary of defense and he's got Vance as his vice president and both of these people ex because he can be be talked into it I think and Vance because he believes it are amanable to doing things more sely. Um and I heard yesterday that the only way anything is ever going to happen if it happens positively with regard to Ukraine is if Trump and Putin meet.
+got Hegseth as his secretary of defense and he's got Vance as his vice president and both of these people ex because he can be be talked into it I think and Vance because he believes it are amanable to doing things more sely. Um and I heard yesterday that the only way anything is ever going to happen if it happens positively with regard to Ukraine is if Trump and Putin meet.
 
 All these intermediaries are, you know, just fluff. Trump and Putin have to meet. I think that's true, but it's only true if if Trump is on his case. If Trump is, you know, wanting to do what he said he wanted to do, which is to shut the war down, and is willing to listen to what the real reasons for the war are, as was said so many times, basic root cause of the conflict.
 

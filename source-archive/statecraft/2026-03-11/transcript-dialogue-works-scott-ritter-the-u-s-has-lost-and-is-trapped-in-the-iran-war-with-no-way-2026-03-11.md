@@ -27,8 +27,7 @@ Iran on the other side. But something
 happened in the first day of attack
 against Iran that still the Donald Trump
 says he doesn't know if it was the
-United States or someone else. Pete
-Hexet he says he's assessing that but
+United States or someone else. Pete Hegseth he says he's assessing that but
 something strange came out of you know
 from the Trump administrator or Donald
 Trump himself said that many people have
@@ -236,8 +235,7 @@ go blind reading the the microfish or
 print it out and and then type up your
 own reports. I did this in 1985 when we
 went through the target deck for Iran,
-by the way, the invasion of Bander
-Abbas. Um, I went through the whole
+by the way, the invasion of Bandar Abbas. Um, I went through the whole
 database of targets, updated them,
 looked at ones, you know, is that bridge
 still there? You know, bridge was built
@@ -865,7 +863,7 @@ additional procedure in place to make
 sure that we adhere to the law of war.
 Um and so now there's a directive that
 says you have to do this and and
-resources provided but HEGs got rid of
+resources provided but Hegseth got rid of
 that. So that's a premeditated act to
 remove the constraints uh to remove you
 know the the procedures that would
@@ -893,7 +891,7 @@ you have to do the due diligence. You
 have to have somebody go through and
 make sure that everything they say in
 there is is good. They didn't do that.
-Pete Hexet did that. He streamlined
+Pete Hegseth did that. He streamlined
 murder. And then the US military
 executed the murder. And so every one of
 those children was murdered by the
@@ -919,8 +917,7 @@ canceled that directive, but that
 doesn't supersede the law of war manual.
 The law of war manual requires me to
 review this target." They didn't. They
-skipped over that. So, it's not just Heg
-Seth, but it's everybody in the kill
+skipped over that. So, it's not just Hegseth, but it's everybody in the kill
 chain below that is culpable in the
 murder of these children. Uh there are
 no innocents here everywhere. some that
@@ -1497,8 +1494,7 @@ It's the same thing with the um, you
 know, the Navy. We're sinking ships. So
 what? When this war is over, Iran will
 buy new ships.
-But they've shut the straight of
-Hormone. We can't stop them from doing
+But they've shut the Strait of Hormuz. We can't stop them from doing
 that. Can't stop them at all. If we
 tried to sell our ships through, we'll
 lose our ships. You know, they may or

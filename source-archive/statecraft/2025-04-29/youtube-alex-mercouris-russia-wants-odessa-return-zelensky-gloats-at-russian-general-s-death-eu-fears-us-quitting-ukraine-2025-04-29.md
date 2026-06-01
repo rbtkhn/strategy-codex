@@ -185,9 +185,9 @@ In fact, we had a
 report about two weeks ago in Bloomberg
 that there had been a
 discussion before Trump in which
-Witgo and Kellogg had
+Witkoff and Kellogg had
 basically argued in front of Trump.
-Witgov had suggested that as the
+Witkoff had suggested that as the
 Russians demand, the entirety of the
 four regions be transferred to Russia to
 bring the war to a quick conclusion. And
@@ -510,7 +510,7 @@ are of course Kellogg's proposals and
 to Trump's frustration and perhaps
 surprise and maybe
 Kellogg's
-also Wickoff has been coming back from
+also Witkoff has been coming back from
 Moscow and is saying Look, Trump Put
 Putin is not accepting any of this. He's
 not prepared to go with Kellogg's
@@ -942,7 +942,7 @@ negotiations they conduct with the
 Ukrainians. But I cannot help but think
 that these comments appearing in TAS
 over the course of today directly after
-the meeting between Witgov and Putin,
+the meeting between Witkoff and Putin,
 the meeting at which in which the
 Russians
 said that
@@ -1101,7 +1101,7 @@ scenarios begin to become real. So there
 it is. The
 Russians, they've clearly rejected
 Kellogg minus or Kellogg plus if uh
-Wickoff was sent to
+Witkoff was sent to
 Moscow in order to get them to accept it
 and perhaps to agree a ceasefire. He
 obviously failed. Um Putin told him in

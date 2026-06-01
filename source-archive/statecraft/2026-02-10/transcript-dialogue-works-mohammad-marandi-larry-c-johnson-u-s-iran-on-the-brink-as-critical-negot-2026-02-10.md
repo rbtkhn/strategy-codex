@@ -49,8 +49,7 @@ like anyone?
 >> Let me start, Professor Mirandi, with
 you and with what's going on in terms of
 the foreign policy of Iran. We know that
-the foreign minister of Iran Abbas
-Arachi called Turkey, Egypt and the I
+the foreign minister of Iran Abbas Araghchi called Turkey, Egypt and the I
 forgot the third country to in Turkey,
 Egypt and if I'm not mistaken Qatar
 informing what has happened during the
@@ -517,7 +516,7 @@ to focus on American bases or American
 ships. They're going to go far beyond
 that. I think they're going to destroy
 the capability for oil exports. Not just
-by closing the straight of hormones.
+by closing the Strait of Hormuz.
 They can they can knock out tankers.
 They can knock out the ports. They can
 knock out the oil and gas installation.
@@ -573,7 +572,7 @@ and [clears throat]
 just
 outraged over the meeting in Oman with
 the Iranian delegation
-and just really tore Steven uh Witoff
+and just really tore Steven uh Witkoff
 apart.
 And so what what I what that tells me is
 when I'll call him a moderate Zionist
@@ -622,7 +621,7 @@ argument, not not an argument, but a
 disagreement uh over, you know, I said
 that the Russians when they used the
 word in one of the translations, they
-had a frank discussion with uh uh Witoff
+had a frank discussion with uh uh Witkoff
 and Company, that means, you know, it
 was a tough conversation. It wasn't all
 uh tea and crumpets and, you know,

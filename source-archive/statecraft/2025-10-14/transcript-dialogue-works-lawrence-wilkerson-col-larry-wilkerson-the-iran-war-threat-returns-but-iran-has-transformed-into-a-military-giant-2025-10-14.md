@@ -366,7 +366,7 @@ opinion that Iran has received many
 fighter jets and air defense systems.
 Iran is heavily preparing for a war
 from Petraeus to Kellogg to probably
-Hegth and Kaine the chairman of the
+Hegseth and Kaine the chairman of the
 joint chiefs of staff for whom I have
 zero respect now. In fact, it's below
 zero

@@ -109,7 +109,7 @@ would be represented by US Secretary of
 State Marco Rubio. Um, I thought it
 interesting that uh Rubio would be
 leading the delegation, not
-Witoff. And um I assumed that the
+Witkoff. And um I assumed that the
 Americans would play a secondary role in
 the meeting. In fact, and
 instead, the Americans sent a very
@@ -189,7 +189,7 @@ Well, Rubio is actually telling the
 truth. So, it does look to me as if it
 is clearly Trump who has told his
 negotiators, Rubio, um, Kellogg,
-presumably Wals also, and Witgo that
+presumably Wals also, and Witkoff that
 this matter has to be tied up soon. He
 can't afford to give it more time. And
 Rubio was sent to Paris with that
@@ -226,7 +226,7 @@ fundamentally alter the whole picture.
 So I say that because Bloomberg has told
 us what Bloomberg believes to be the
 American proposal that Rubio Kellogg and
-Witgov took with them to Paris. It is
+Witkoff took with them to Paris. It is
 for a
 ceasefire, a freezing of the conflict on
 the existing contact
@@ -263,7 +263,7 @@ entirely. Now this has been presented by
 Bloomberg and by the New York Post as a
 new American plan. The new American plan
 that was taken by the United States by
-Rubio um Kellogg and Wickoff with them
+Rubio um Kellogg and Witkoff with them
 to Paris. It is no such thing. It is
 exactly the same. It is identical in all
 respects to Kellogg's plan. It is in
@@ -312,7 +312,7 @@ um play take no more time or energy
 invest no more time or energy trying to
 have the plan uh brought into effect. He
 has been repeatedly told by
-Witgo, as other US officials have been,
+Witkoff, as other US officials have been,
 but it is Witito obviously who has
 spoken to Putin that the Kellogg plan is
 unworkable, that it does not answer to
@@ -355,7 +355,7 @@ Ukraine re peacekeepers, war fighting
 forces, a trip wire force, call it what
 you will, reassurance force is what you
 prefer that that has been coordinated by
-the Europeans with Wickoff with with
+the Europeans with Witkoff with with
 Kellogg. Kellogg confirmed as much in a
 recent uh post on X and in fact
 references to European peacekeepers are
@@ -534,7 +534,7 @@ Secretary of State Marco Rubio.
 Secretary Rubio, who is currently in
 Paris, informed the Russian side about
 the recent engagements that he and US
-presidential special envoy Steve Witkov
+presidential special envoy Steve Witkoff
 had in the French capital. Notice that
 the Russians don't refer to Kellogg.
 Kellogg was apparently with the others
@@ -758,11 +758,11 @@ with severe sanctions or tariffs if they
 didn't if they didn't um comply with his
 demand for an end to the war. In other
 words, if they didn't accept the Kellogg
-plan, Witgo, however, has had three
+plan, Witkoff, however, has had three
 meetings with Putin. He's probably come
 back and told Trump what is I'm sure the
 case which is that Putin has told
-Wickoff that Russia will not let will
+Witkoff that Russia will not let will
 not bend will not compromise and that if
 the United States wants to go down the
 road of further sanctions and further
@@ -1611,7 +1611,7 @@ fully committed to support Ukraine.
 The Trump looks like he's become fed
 up with the failures of the Kellogg
 plan. He's
-given Kellogg and Rubio and Witgo one
+given Kellogg and Rubio and Witkoff one
 last chance to make it work. But he's
 not prepared to go beyond April. Rubio
 has told this said this to the Europeans
@@ -1685,8 +1685,8 @@ Well, this is where I'm going to finish
 today's program. I would just quickly
 add that um Putin has had apparently
 extensive meetings with the Iranian
-foreign minister, Mr. Arachi who has
-been in Moscow. Arachi has also met
+foreign minister, Mr. Araghchi who has
+been in Moscow. Araghchi has also met
 Lavough and so there's movement on the
 Iranian negotiations as well and
 probably on relations between Russia and

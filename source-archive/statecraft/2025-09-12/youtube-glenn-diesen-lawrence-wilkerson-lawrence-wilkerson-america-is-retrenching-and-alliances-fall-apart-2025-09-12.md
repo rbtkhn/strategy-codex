@@ -159,7 +159,7 @@ heard and you may have heard it too from
 
 uh Gilbert Docro. Dr. docko on dem on
 
-judge Npalitano's show this morning
+judge Napolitano's show this morning
 
 after his conversations name would not
 
@@ -377,7 +377,7 @@ region cutter? I don't know. Or did
 
 Trump direct it? Did Trump direct him to
 
-do that or did Hegsth direct him to do
+do that or did Hegseth direct him to do
 
 that? Because I'm pretty sure that we
 
@@ -597,7 +597,7 @@ aspects of Latin America too which he
 
 seems to hate as a routine thing. We
 
-have Pete Hexth concentrating on
+have Pete Hegseth concentrating on
 
 removing all of the vestigages of
 
@@ -857,7 +857,7 @@ lot of oil. So let's say 20% or so 90%
 
 of the world's needs are flowing through
 
-the straight of Hermoose still and much
+the Strait of Hormuz still and much
 
 of Iraq's oil was going to China. I
 
@@ -1879,7 +1879,7 @@ really worried for my country.
 
 >> I interviewed um on this program a
 
-common friend of ours, Judge Npalitano,
+common friend of ours, Judge Napolitano,
 
 and he was making this prediction though
 
@@ -2075,7 +2075,7 @@ situation because people tell me in
 
 including the judge from time to time,
 
-Judge Npalitano, who know Trump and have
+Judge Napolitano, who know Trump and have
 
 known him for a long time that in his
 

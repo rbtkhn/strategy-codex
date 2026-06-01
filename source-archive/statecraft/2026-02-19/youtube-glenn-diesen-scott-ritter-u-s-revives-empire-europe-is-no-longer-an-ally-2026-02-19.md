@@ -539,7 +539,7 @@ the opportunity a chance to succeed. So
 I think he brought Kurel Ditri. He gave
 him um a lot of uh latitude. There were
 a lot of meetings the Miami meetings uh
-etc where he met with Steve Witco um and
+etc where he met with Steve Witkoff um and
 then later Jared Kushner. But if you
 don't understand that Woff and Kushner
 are just a false front, that they
@@ -564,7 +564,7 @@ Putin didn't give him the status of a
 you know foreign ministry equivalent. Um
 he he brought him in as a man who was
 supposed to engage effectively with uh
-Steve Witco uh and then to play on that
+Steve Witkoff uh and then to play on that
 relationship and see where that
 relationship could go. But it went
 nowhere. And it's now obvious that

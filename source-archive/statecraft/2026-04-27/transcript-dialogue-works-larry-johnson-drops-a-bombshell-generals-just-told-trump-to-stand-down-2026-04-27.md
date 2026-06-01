@@ -423,7 +423,7 @@ Uh what remains to be seen is whether or
 not the Admiral Cooper who is the the
 joint forces commander shares their
 sentiment and then passes it on to both
-Hegth and Trump. So the the way the
+Hegseth and Trump. So the the way the
 chain of command works here is the
 commander of sentcom reports directly
 through the secretary of defense
@@ -510,8 +510,8 @@ first visit he gave them a document then
 he updated that it seems that right now
 the basics for the negotiations are
 they're they're talking about the
-straight of hormones how to reopen the
-straight of hormones per permanently And
+Strait of Hormuz how to reopen the
+Strait of Hormuz per permanently And
 the other point I think is the case of
 Lebanon is on the table right now. It's
 it's so much related to the Israel for
@@ -605,7 +605,7 @@ started his meeting with Putin about an
 hour ago. So it was a and the opening
 comments were very warm and friendly
 between the two leaders.
->> Yeah. Here is what Arachi said in
+>> Yeah. Here is what Araghchi said in
 Moscow.
 >> No, in St. Petersburg.
 >> Iran and Russia are strategic partners.

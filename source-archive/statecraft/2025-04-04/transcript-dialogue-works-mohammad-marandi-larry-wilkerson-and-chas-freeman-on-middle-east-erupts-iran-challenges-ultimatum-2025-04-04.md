@@ -163,7 +163,7 @@ prospect. I know they haven't been for a long time. And part of it is what Profe
 
 Um, I'm not so sure about China, but if I were China, I might be playing in that game, too, a little bit. Maybe not as directly as probably the Russians would be. So, we aren't up against just that. We're up against this huge shift of power that's taking place and that more and more people are jumping on the bandwagon of bricks is just a visible manifestation of that.
 
-That's a dangerous place to be, especially when we're abandoning our our 700 million European allies, however they might be colored at the moment. And if you watch Hegath on the lawn of the White House talking about the delicious capabilities of Donald Trump, one of them being strategic instability, indetermination, strategic uh whatever you get.
+That's a dangerous place to be, especially when we're abandoning our our 700 million European allies, however they might be colored at the moment. And if you watch Hegseth on the lawn of the White House talking about the delicious capabilities of Donald Trump, one of them being strategic instability, indetermination, strategic uh whatever you get.
 
 That's not what you want. Not at this point in time. as as Professor Morandi was saying, especially if you're going to go into some kind of negotiation and you have some positive expectations about it, you don't want to be strategically unpredictable because what he was saying is perfectly right.
 

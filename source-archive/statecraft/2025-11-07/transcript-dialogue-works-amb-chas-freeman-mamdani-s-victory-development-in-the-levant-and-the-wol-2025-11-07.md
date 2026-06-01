@@ -936,7 +936,7 @@ Iran and then later
 and the Hamas
 group debating peace with Israel in Dha.
 >> Yeah. Yesterday the foreign minister of
-Iran Arachi he said that we have tried
+Iran Araghchi he said that we have tried
 each and every way to communicate with
 the United States. We don't know what
 else can we do but building up our

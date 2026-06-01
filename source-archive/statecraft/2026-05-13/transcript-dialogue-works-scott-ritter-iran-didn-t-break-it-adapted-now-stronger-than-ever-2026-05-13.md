@@ -178,8 +178,8 @@ Netanyahu in the driver's seat. This is
 about Donald Trump's failed global
 vision. Scott Besson's failed global
 vision. I mean, we keep talking about,
-you know, Pete Hexet, the necessity of
-Pete Hex's head to roll because of the
+you know, Pete Hegseth, the necessity of
+Pete Hegseth's head to roll because of the
 incompetence of this military campaign,
 but um the incompetence of Scott Bessant
 is playing out as well. Uh this is a man
@@ -286,7 +286,7 @@ control the narrative. They control
 everything. And um you know, they're the
 ones we should be listening to. I don't
 you know,
-60 Minutes should be calling it Arachi.
+60 Minutes should be calling it Araghchi.
 That's the voice they need to listen to.
 Netanyahu, I spit on.
 Scott, when it comes to Lebanon, you've
@@ -512,7 +512,7 @@ it?
 Let's preface this by pointing out that
 before Donald Trump went to China,
 somebody else went to China. I think his
-name was Arachi and I think he's the
+name was Araghchi and I think he's the
 foreign minister of Iran. Um he also
 went to Russia and met with Vladimir
 Putin and um you know one of the
@@ -557,7 +557,7 @@ plants eliminate the water production
 capacity of Gulf Arab states as we're
 getting into the hot months uh with no
 rainfall. Um there's that.
-I I think Arachi told this to the
+I I think Araghchi told this to the
 Chinese as well. And um I think Donald
 Trump's going to be put on notice that
 that's just not an option. Um there's,
@@ -1162,7 +1162,7 @@ politically possible for Donald Trump to
 um, declare some sort of victory. Now,
 what are the what are the two issues
 that are the most important right now?
-Nuclear and straight of hormones.
+Nuclear and Strait of Hormuz.
 Um, on the nuclear, I think, you know,
 we we the the key here is for Donald
 Trump to be able to tell the American
@@ -1813,7 +1813,7 @@ you support them. It doesn't happen in a
 vacuum. Um, so and support everybody. I
 mean, we brought up other names. We
 speak about Larry Johnson. We speak
-about Judge Npalitano. We speak about
+about Judge Napolitano. We speak about
 Garland Nixon. We speak about Danny
 Hong. You know, everybody. These are the
 this is the tip of the spear when it

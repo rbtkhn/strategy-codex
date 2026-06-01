@@ -1255,7 +1255,7 @@ either Donahghue was an absolute fool.
 
 He was ordered to do that. And then you
 
-ask who ordered him to do it? Hegathth.
+ask who ordered him to do it? Hegseth.
 
 Well, we already know heth is bordering
 

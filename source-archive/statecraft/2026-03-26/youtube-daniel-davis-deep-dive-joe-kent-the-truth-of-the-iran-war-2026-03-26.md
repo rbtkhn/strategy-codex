@@ -371,7 +371,7 @@ enrichment levels and a lot of other
 details that seem like they were on they
 they could be worked out very easily.
 And so, right away when Trump came in,
-he appointed Steve Witcoff to go start
+he appointed Steve Witkoff to go start
 negotiations, and negotiations were well
 under the way. Now, because we
 understood what the Israeli strategic
@@ -433,7 +433,7 @@ watching Israel maneuver in that way,
 Okay, so I want to ask you about that.
 So,
 maneuver
-with whom? Was it with with Witcoff?
+with whom? Was it with with Witkoff?
 When was he supposed to change it when
 he's talking to the Iranian side? Was it
 with President Trump? I mean, who's
@@ -448,8 +448,8 @@ Israeli engagements like with with their
 defense and their intelligence officials
 with our defense and intelligence
 officials, with diplomats, obviously
-Witcoff being one of them. But, from
-from my perspective, Witcoff always
+Witkoff being one of them. But, from
+from my perspective, Witkoff always
 understood that he needed to talk about
 enrichment levels, ways enrichment could
 be monitored. He knew, because he was
@@ -460,7 +460,7 @@ said like we're going to have some
 degree of enrichment. And so, again,
 prior to the 12-day war, they were
 moving towards, I believe, a deal. I
-personally believe that Steve Witcoff
+personally believe that Steve Witkoff
 had a deal within sight leading up to
 the 12-day war, which is basically what
 triggered the 12-day war in essence is
@@ -622,11 +622,11 @@ before the strike. So, that's that would
 be the 20
 27th of of February before it then
 struck the next day.
-Uh according to what Steve Witcoff has
+Uh according to what Steve Witkoff has
 said and what according to what the
 Omani Foreign Minister said right around
 that same time was it the previous day
-on Thursday with Steve Witcoff that they
+on Thursday with Steve Witkoff that they
 had the Iranian side had agreed to zero
 enrichment, that they would put on the
 table long-range missiles and and
@@ -1175,8 +1175,8 @@ There was just a report today. I don't
 know if it's true. I read in the news
 just like everybody else did that there
 was an Iranian there was a Israeli plot
-to kill the Iranian diplomat Arachi
-because Arachi is one of the key
+to kill the Iranian diplomat Araghchi
+because Araghchi is one of the key
 communicators in negotiations. So look,
 I mean even President Trump came out and
 said a couple days ago when he was asked

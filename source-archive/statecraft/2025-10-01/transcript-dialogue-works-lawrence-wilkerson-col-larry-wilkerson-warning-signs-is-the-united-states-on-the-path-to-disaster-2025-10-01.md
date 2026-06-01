@@ -76,9 +76,7 @@ was so bizarre the performance of Pete
 
 Hex at Donald Trump.
 
-What was that? I can understand Pete
-
-Hexit because he was working as you know
+What was that? I can understand Pete Hegseth because he was working as you know
 
 as a reporter as a journalist at Fox
 
@@ -306,7 +304,7 @@ demeaning staff sergeants or
 
 non-commissioned officers in general.
 
-I'm just comparing Hegs brain with the
+I'm just comparing Hegseth brain with the
 
 brain of someone who is a potential war
 
@@ -318,7 +316,7 @@ carefully to restrain him from being a
 
 war criminal. That's that's kind of what
 
-Hexth presented the image of. And sadly,
+Hegseth presented the image of. And sadly,
 
 Nema, sadly, that has become
 
@@ -374,7 +372,7 @@ States military today or at least too
 
 many of them than it should be. And
 
-that's what Hexth was encouraging.
+that's what Hegseth was encouraging.
 
 That's what he was talking about. And
 
@@ -422,7 +420,7 @@ of these officers who sat there and were
 
 stoic and didn't really respond to Trump
 
-or HEGs. I mean, their response to Trump
+or Hegseth. I mean, their response to Trump
 
 was absolutely the most bizarre but
 
@@ -582,7 +580,7 @@ corrupted by entering the military
 
 field.
 
-That's what Hegsth did. That's what
+That's what Hegseth did. That's what
 
 Trump tried to do. Of course, nobody
 
@@ -686,7 +684,7 @@ That was Stockdale and Patton. Patton
 
 would have got up on the stage and
 
-slapped Heg Seth silly.
+slapped Hegseth silly.
 
 And the other general was Schwarzkoff.
 
@@ -1780,7 +1778,7 @@ blow it out of the water without any due
 
 process whatsoever. Unless you're Donald
 
-Trump and Pete Het. Violation of
+Trump and Pete Hegseth. Violation of
 
 international law. Violation of the
 

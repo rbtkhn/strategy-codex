@@ -128,7 +128,7 @@ bureau the inner ring
 of top
 leaders who ultimately make the
 decisions together with seining but
-anyway wangi is now one of the most
+anyway Wang Yi is now one of the most
 experienced U practitioners of foreign
 policy in the world he's become an
 almost permanent fixture fixture in
@@ -822,7 +822,7 @@ said all they're all talking they're
 each talking at the moment about how
 strong and good their relationship is
 lavro according to Tas in his first
-meeting with wangi said this we
+meeting with Wang Yi said this we
 recognize the responsibility of Moscow
 and Beijing
 to maintain close coordination in the
@@ -932,7 +932,7 @@ shutting the door on the United States
 but nor are they assuming that the
 United States is going to be open to
 their overtures
-and wangi
+and Wang Yi
 and Wang's visit to
 Moscow is to make sure that this
 relationship to reemphasize that this

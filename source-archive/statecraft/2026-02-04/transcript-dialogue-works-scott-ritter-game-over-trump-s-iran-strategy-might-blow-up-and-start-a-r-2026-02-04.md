@@ -955,7 +955,7 @@ know if it's going to be direct talk
 even they're talking about directly
 talking to each other still with golf
 together with uh you know the foreign
-minister of Iran Araqchi Abbas Araqchi.
+minister of Iran Araghchi Abbas Araghchi.
 And
 I I think Scott what has happened to
 Iran you know

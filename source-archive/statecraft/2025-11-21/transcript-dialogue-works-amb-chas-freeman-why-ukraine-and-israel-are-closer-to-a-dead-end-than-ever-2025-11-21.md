@@ -50,7 +50,7 @@ I want to ask you about Donald Trump saying to Netanyahu that this is the end. M
 
 Ambassador, how do you see a better relationship between Iran and the United States in terms of what's going on in Gaza? How is that going to help the situation for Gazans?
 
-Two days ago, I'm not sure whether it was yesterday, there was an interview in Persian with the foreign minister of Iran, Ambassador. He has mentioned that during the talks with the United States, with Steve Witcoff, they have reached some sort of agreement three times. Three times they have reached an agreement, and every time Witcoff went back to Washington, he changed his mind, and everything was different.
+Two days ago, I'm not sure whether it was yesterday, there was an interview in Persian with the foreign minister of Iran, Ambassador. He has mentioned that during the talks with the United States, with Steve Witkoff, they have reached some sort of agreement three times. Three times they have reached an agreement, and every time Witkoff went back to Washington, he changed his mind, and everything was different.
 
 Here is what the foreign minister of Iran, Ambassador, said to the Economist. He had an interview. He was mentioning the case of the war between Iran and Israel, as well as the negotiations with the United States:
 

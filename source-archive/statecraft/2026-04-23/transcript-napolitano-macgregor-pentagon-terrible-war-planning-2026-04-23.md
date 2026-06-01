@@ -23,7 +23,7 @@ quality_note: Normalized to remove routine ideological cold open, sponsor/promo 
 
 ## Judge Andrew Napolitano
 
-Hi everyone, Judge Andrew Npalitano here for Judging Freedom. Today is Thursday, April 23rd, 2026. Colonel Douglas Macgregor will be here with us in just a moment.
+Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Thursday, April 23rd, 2026. Colonel Douglas Macgregor will be here with us in just a moment.
 
 Welcome here and thank you for accommodating my schedule as you always do. In your view and from your perceptions, did the American negotiators in Islamabad a week and a half ago negotiate in behalf of the United States or in behalf of Israel?
 

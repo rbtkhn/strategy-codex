@@ -67,7 +67,7 @@ He has this enormous fleet gathered around Iran. um the warships in the Arabian 
 
 Donald Trump has limited bandwidth. I don't think most people would dispute that. He's got an awful lot of very pressing things on his table. I don't think that Ukraine is his major priority. The conflict in Ukraine is his major priority at the moment. Since I've started by discussing these talks in Geneva, I may as well say that I think the main diplomatic action will not be at the Russian Ukrainian American talks.
 
-It will be at the American Iranian talks, the meeting between Witgolf and Kushner and Iran's foreign minister Arashi and their respective delegations. And the word out in Washington is that Trump has said that the decision whether there will be an attack on Iran or not depends on whether there's progress at the talks between Iran and the United States tomorrow.
+It will be at the American Iranian talks, the meeting between Witgolf and Kushner and Iran's foreign minister Araghchi and their respective delegations. And the word out in Washington is that Trump has said that the decision whether there will be an attack on Iran or not depends on whether there's progress at the talks between Iran and the United States tomorrow.
 
 And it will be in effect Witkoff and Kushner who will be making the decision. Now I have to say that to me that is an incredible application of responsibility for the president of the United States of all people [snorts] to delegate a decision of war and peace on his diplomatic ne representatives on his negotiators.
 

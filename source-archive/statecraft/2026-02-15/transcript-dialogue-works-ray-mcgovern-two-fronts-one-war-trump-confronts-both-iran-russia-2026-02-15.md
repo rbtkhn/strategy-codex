@@ -2407,7 +2407,7 @@ lightning strike, in and out like Trump
 
 likes to do, but ain't going to be
 
-possible. I take Al Arachi and all the
+possible. I take Araghchi and all the
 
 others, the military people saying,
 
@@ -2439,7 +2439,7 @@ is Trump what's Trump going to do?
 
 I think he's going to go to Oman, try to
 
-talk to the Iranians, and Al Arachi, the
+talk to the Iranians, and Araghchi, the
 
 Azizi, the foreign minister, right? In
 
@@ -2471,7 +2471,7 @@ That's good news, Nima. I hope you
 
 agree. Um
 
-Al Arachi is no slouch. I mean, the
+Araghchi is no slouch. I mean, the
 
 Iranian foreign ministers have been
 

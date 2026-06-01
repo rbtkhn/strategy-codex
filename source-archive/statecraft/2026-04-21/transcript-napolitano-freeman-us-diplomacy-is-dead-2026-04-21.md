@@ -16,7 +16,7 @@ quality_note: Normalized to remove routine ideological cold open, sponsor/promo 
 
 ## Transcript
 
-Hi everyone, Judge Andrew Npalitano here for Judging Freedom. Today is Tuesday, April 21st, 2026. Ambassador Chas Freeman joins us now. Ambassador, I want to have a rather extended conversation with you on whether United States diplomacy is effectively dead, but let's sort of work our way into the project. Were the Islamabad negotiations last week a hoax?
+Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Tuesday, April 21st, 2026. Ambassador Chas Freeman joins us now. Ambassador, I want to have a rather extended conversation with you on whether United States diplomacy is effectively dead, but let's sort of work our way into the project. Were the Islamabad negotiations last week a hoax?
 
 They were an opportunity to deliver an ultimatum backed by delusions rather than real strength. I think the Iranian delegation left correctly stating that there was no trust established with the American delegation headed by Vice President Vance, but in effect under the surveillance of Witkoff and Kushner, who have completely forfeited any respect from the Iranian side. So, I guess you could call it a hoax. It was performative. It was not real. There was no effort to reach an agreement. There were instead each side posturing and presenting its own demands as they were. And the United States doing so on the basis of the delusion that if you drop enough bombs on someone, you've won the war.
 

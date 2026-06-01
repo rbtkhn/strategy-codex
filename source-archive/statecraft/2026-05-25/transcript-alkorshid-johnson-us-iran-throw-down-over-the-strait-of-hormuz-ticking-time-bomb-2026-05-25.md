@@ -74,7 +74,7 @@ there were crickets you know nobody said a word it's like okay don't tell him do
 
 So, yeah, the it's not going to happen. The the the the time for the Abraham Accords has come and gone and uh with the slaughter of well, it was probably more than a 100,000 Palestinian men, women, and children easily. Uh I I I don't see any of the governments in the Gulf, with maybe the exception of the United Arab Emirates, having the stomach to do that.
 
-If you were to mention, Larry, the difficulties we're facing right now, is that putting an end to the war on all fronts? Is that going to be the straight of foremost? Is that going to be the Iranian nuclear program? Because today today morning we've learned from Iranian foreign ministry that the focus right now is on ending the war on each and every front which
+If you were to mention, Larry, the difficulties we're facing right now, is that putting an end to the war on all fronts? Is that going to be the Strait of Hormuz? Is that going to be the Iranian nuclear program? Because today today morning we've learned from Iranian foreign ministry that the focus right now is on ending the war on each and every front which
 
 **Nima Alkhorshid (host):** we know that's impossible with Israeli government with Benjamin Net with what they're doing as we talk. They're bombing Lebanon right
 

@@ -615,7 +615,7 @@ receive mode from the start. They said,
 "What do you got?" And the Iranians are
 putting on laying it out there. It's not
 the Iranians that called home for
-instructions. It was Vance and Witco and
+instructions. It was Vance and Witkoff and
 Kushner who called home to Trump on they
 had to pause stop because this is new.
 We're not ready for this call back home.

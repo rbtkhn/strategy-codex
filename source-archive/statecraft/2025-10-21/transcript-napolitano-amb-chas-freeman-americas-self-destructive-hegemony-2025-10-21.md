@@ -21,7 +21,7 @@ quality_note: Normalized to remove sponsor/promo copy and transcript noise; mino
 
 ## Judge Andrew Napolitano
 
-Hi everyone, Judge Andrew Npalitano here for Judging Freedom back from Moscow. Today is Tuesday, October 21st, 2025. Ambassador Chaz Freeman will be with us in just a moment on America's hegemony. Why is it so self-destructive?
+Hi everyone, Judge Andrew Napolitano here for Judging Freedom back from Moscow. Today is Tuesday, October 21st, 2025. Ambassador Chaz Freeman will be with us in just a moment on America's hegemony. Why is it so self-destructive?
 
 Hi ambassador. Welcome here my dear friend. Thank you for accommodating my crazy schedule due to international travels and canceled flights. But it's good to be back and it's good to be back with you.
 

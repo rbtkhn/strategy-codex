@@ -34,12 +34,11 @@ Iran will partially close this rate of
 Hormos
 in you know what is the action what is
 the strategy on the part of the Iranian
-army when it comes to trade of formos?
+army when it comes to Strait of Hormuz?
 Well, the Iranian uh navy, the
 revolutionary guards is carrying out a
 maneuver with live ammunition and so
-they've partially closed the straight of
-hormones to carry out those operations
+they've partially closed the Strait of Hormuz to carry out those operations
 and they are using some of the weapons
 that will be used against the United
 States and against uh anyone linked to
@@ -94,8 +93,7 @@ goods from the west through all the
 wealth that is accumulated and from
 different parts of the world. And then
 you have ships, tankers coming and
-going. Uh then you have the straight of
-hormones. The Persian Gulf itself is not
+going. Uh then you have the Strait of Hormuz. The Persian Gulf itself is not
 very wide. Iran controls one side of it
 and islands in the middle of it. And
 then there's the Indian Ocean. There is,
@@ -414,7 +412,7 @@ Well, it's going to be an all-out war
 and uh that's for sure. But what we were
 discussing together few weeks ago by
 carrying out this maneuver in the
-straight of hormones, they're
+Strait of Hormuz, they're
 effectively saying uh the same thing
 that we've been saying for the last few
 weeks that this is not going to be just
@@ -484,8 +482,8 @@ Just to mention that just both when you
 talk about Yemen and Iran working with
 each other it would be 20% of global use
 of oil it's going to pass through the
-straight of hormones and 25% of LNG
-in the straight of hormones and coming
+Strait of Hormuz and 25% of LNG
+in the Strait of Hormuz and coming
 together with bubble mandab in the red
 sea is going to be 12% of seaborn
 These are huge. I I you know when it
@@ -1111,7 +1109,7 @@ war against Iran.
 And we'll see. But again, as I said, the
 Iranians have carefully prepared
 themselves. The maneuvers in the
-straight of hormones are a message to
+Strait of Hormuz are a message to
 everyone
 that don't count on any more oil coming
 from this region.
@@ -1376,7 +1374,7 @@ the sixth rounds, they conspired to
 attack us. We don't trust them. And it
 was, you recall, during the first round,
 during the first round, things went well
-and Witco went on Fox News and said,
+and Witkoff went on Fox News and said,
 "Yes, we'll, you know, uh, enrichment is
 okay for uh, like 3.6 whatever percent
 for nuclear uh, for civilian purposes."

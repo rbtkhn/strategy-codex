@@ -103,7 +103,7 @@ So, blame goes all around. What do you think the Kremlin thinks of Trump's absen
 
 And I just don't think Trump has the skill and I don't think he has the team. That's the biggest thing. He doesn't have the team. You need a team to work the details in something as elaborate as this will be and as difficult as this will be. And he doesn't have the team.
 
-This is a strange setting. I mean, we have the the real secretary of state is Steve Whit. The dejour, the one confirmed is Marco Rubio. The real attorney general is Steven Miller. But the dejour one, the one that was confirmed uh is Pam Bondi. I suppose that Hegsth is the real secretary of defense. Uh it's a strange and novel way uh to run the government.
+This is a strange setting. I mean, we have the the real secretary of state is Steve Whit. The dejour, the one confirmed is Marco Rubio. The real attorney general is Steven Miller. But the dejour one, the one that was confirmed uh is Pam Bondi. I suppose that Hegseth is the real secretary of defense. Uh it's a strange and novel way uh to run the government.
 
 Colonel McGregor, your uh colleague and our friend, says that this was the this drone attack was a PR stunt which which will backfire catastrophically much as Pearl Harbor backfired catastrophically on the Japanese. Put aside what FDR knew ahead of time. Put aside all that stuff. Uh McGregor makes that analogy and so does Larry Johnson.
 
@@ -117,7 +117,7 @@ Do they have any idea they any idea what war with Russia would be like? Are they
 
 Uh I I hope Putin doesn't do that but I he would be in his perfect right to do it because he knows that they were complicit and probably integral to what happened. And he's got to assume too that this proves more or less in his mind and in his supporters minds that it was an attempt to assassinate him that backfired too or didn't work.
 
-That was worked out the same way. Wow. What do you think Donald Trump is thinking now? How could this happen right under our noses or h Ukraine's a real estate deal? Wickoff will work it out one way or another. I hope the former, but I fear the latter. Does the United States government, the people we just talked about, Egithth, Romeo, Gabbard, uh, Radcliffe, Trump, Vance, we didn't mention him, but I'll put his name in there, understand Vladimir Putin? I think maybe Vance has some inkling of understanding.
+That was worked out the same way. Wow. What do you think Donald Trump is thinking now? How could this happen right under our noses or h Ukraine's a real estate deal? Witkoff will work it out one way or another. I hope the former, but I fear the latter. Does the United States government, the people we just talked about, Egithth, Romeo, Gabbard, uh, Radcliffe, Trump, Vance, we didn't mention him, but I'll put his name in there, understand Vladimir Putin? I think maybe Vance has some inkling of understanding.
 
 I don't think anybody else in the administration does. And I'm going to include Tulsi in that. Even though I think she's smarter than most of the rest in those respects, I don't think she understands Russia very well and certainly doesn't understand Putin very well. I don't think anybody in the United States government currently in office does.
 

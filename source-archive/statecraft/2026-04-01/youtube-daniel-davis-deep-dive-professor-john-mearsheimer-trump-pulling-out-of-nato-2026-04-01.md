@@ -98,7 +98,7 @@ of all, there is no new president. It's
 still President Peshkian, so I'm not
 sure what he's talking about there. Uh
 but even before I get into what uh
-President Peskin has actually said and
+President Pezeshkian has actually said and
 what may have prompted this uh what what
 is your uh view there that President
 Trump will then on social media tell
@@ -557,12 +557,12 @@ these questions about President Trump
 and what I make of his outrageous
 comments and I kind of don't know what
 to say. But let's just ask this
-question. When you listen to Pete Hagsth
+question. When you listen to Pete Hegseth
 and Donald Trump, both of them speak
 about the war in Iran, about foreign
 policy issues in general, and then you
 compare that with uh how the uh Iranian
-foreign minister, Mr. Arashi uh speaks
+foreign minister, Mr. Araghchi uh speaks
 and uh how he reasons. Who do you think
 is the real adult among those three? Who
 who do you think is the person who
@@ -1133,14 +1133,14 @@ pulling out. He said, "Oh, absolutely."
 Without question, "Wouldn't you do that
 if you were me?" President Trump's
 remarks came just hours after his
-defense secretary, Peter Hexith,
+defense secretary, Pete Hegseth,
 declined to reaffirm US commitment to
 NATO's collective deterrence, uh,
 meaning our article 5 obligations. And
 uh that's that follows some recent
 comments just in the last 24 hours where
 President Trump and Marco Rubio and
-Secretary Hexath. They're all, you know,
+Secretary Hegseth. They're all, you know,
 showing their anger at Europe for not
 coming in militarily with naval power or
 any other kind of power to join the war.

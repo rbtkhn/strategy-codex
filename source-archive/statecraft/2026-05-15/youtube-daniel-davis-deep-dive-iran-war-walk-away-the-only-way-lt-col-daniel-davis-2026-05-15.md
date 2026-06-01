@@ -177,7 +177,7 @@ They then all the fire would have been directed against him and it wouldn't have
 
 But with us, they can start it, but they can't finish it. And that's the key point we need to understand here. But now, the question is, where are we going to go now? because we're going to have to decide. It's going to get finished one way the other or it's going to stay some kind of a frozen conflict because Iran has control of the straight of moves and they are not letting it go and so for them to open it up is going to require something from us or it's going to stay closed or at least it's going to stay closed on our terms.
 
-As foreign minister Iraqi says he's willing to open it up on his terms. As far as we are concerned, the straight of hormones is open and all vessels can pass except except the vessels belonged to those countries who are in in war with us, who are fighting with us. The situation in the state of Hormos is very complicated right now and we are trying to help uh ships to pass safely.
+As foreign minister Iraqi says he's willing to open it up on his terms. As far as we are concerned, the Strait of Hormuz is open and all vessels can pass except except the vessels belonged to those countries who are in in war with us, who are fighting with us. The situation in the Strait of Hormuz is very complicated right now and we are trying to help uh ships to pass safely.
 
 uh everything would go back to normal once the act of aggression is totally and completely ended. So to recall, straight to Hormuz was wide open on the 27th of February. There was no issue. There was no blockage. I think the price of oil was $60ome dollars a barrel. Little bit high, but not that much.
 

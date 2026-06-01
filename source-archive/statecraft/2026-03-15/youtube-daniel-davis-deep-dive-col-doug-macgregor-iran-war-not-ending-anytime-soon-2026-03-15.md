@@ -749,7 +749,7 @@ hinges on what happens right now in the
 Gulf especially between the United
 States and Iran. And let's take a look
 now at the Iranian perspective because
-Foreign Minister Abbas Araqchi was asked
+Foreign Minister Abbas Araghchi was asked
 yesterday, what is your intent on this
 oil? Is this a weapon you're using or is
 it something you're trying to get rid

@@ -27,10 +27,10 @@ the Ukrainians at the meetings in Paris
 and London over the course of last week.
 And the day after the meeting in the
 Kremlin of Donald Trump's envoy Steve
-Wickoff with President Putin of Russia
+Witkoff with President Putin of Russia
 and the um Putin's aid Yuri Ushakov and
 Kiriel Dimmitrif the head of Russia's
-investment fund. I understand that Witgo
+investment fund. I understand that Witkoff
 and Dimmitrif had a separate meeting
 before the meeting with Putin. Now, as
 consistently happens, whenever Putin and
@@ -38,19 +38,19 @@ Wikov meet, the Kremlin does not provide
 a readout. They merely confirm that the
 meeting took place and they also provide
 us with a photographic study. said, "We
-have pictures of Putin and Witgo." And
+have pictures of Putin and Witkoff." And
 of course, we've also had television
 film meeting in the Kremlin. It all
 looks very affable. Um Putin is smiling.
-Wickoff is smiling. Clearly, the two men
+Witkoff is smiling. Clearly, the two men
 get on. Um but we're not told. The
 Kremlin does not tell us about the
 substance of the discussions. and
 Lavough in the interview with CBS which
 I discussed in my program yesterday, a
 meeting which of course took place
-before the meeting between Witgov and
-Demitri uh Witgov and Putin in the
+before the meeting between Witkoff and
+Demitri uh Witkoff and Putin in the
 Kremlin. Anyway, uh Lavough explained
 why. He said that we, that is to say the
 Russians are really polite
@@ -72,7 +72,7 @@ they're underway. Now, that actually is
 interesting because what that
 confirms in case nobody had figured it
 out already is that the meeting between
-Witgo and Putin is a negotiation. In
+Witkoff and Putin is a negotiation. In
 other words, the Russians and the
 Americans are
 negotiating and in a situation which I
@@ -82,7 +82,7 @@ the time of the Cuban missile crisis in
 negotiation in its entirety is being
 conducted by the two tra presidents
 Trump and Putin with each other with
-Witgo having the task of shuttling
+Witkoff having the task of shuttling
 between them.
 Um we don't have the classical
 arrangement of negotiating
@@ -102,7 +102,7 @@ between Putin and Trump. They've had of
 course I believe three telephone
 conversations or maybe two telephone
 conversations but the medium of their
-discussion is Wickoff who basically goes
+discussion is Witkoff who basically goes
 from one to the other bringing his ideas
 and opinions.
 Trump no doubt coming up with his ideas,
@@ -143,7 +143,7 @@ he thinks that he is the best person to
 conduct the negotiations and that these
 negotiations really cannot be delegated
 to other people. And as I said, he's
-using Witgo to as you know the
+using Witkoff to as you know the
 intermediary to conduct the negotiations
 on his behalf. I suspect that there is
 another
@@ -194,7 +194,7 @@ the absence of any other
 negotiations formal negotiations being
 conducted. ed in any other way at all.
 Anyway, another of this what came out of
-the meeting between Putin and Witgov.
+the meeting between Putin and Witkoff.
 Well, following on from what Lavrov
 said, the Russians, as I said, have not
 provided us with a readout because this
@@ -204,7 +204,7 @@ But we have had a comment from one of
 the participants in the meeting who was
 who is Putin's aid Yuri Ushakov. He was
 present with Putin when Putin met with
-Wickoff in the Kremlin. And this is what
+Witkoff in the Kremlin. And this is what
 Ushikov said when he met with reporters
 directly after the meeting.
 The conversation lasted three hours and
@@ -256,7 +256,7 @@ certain international issues came up and
 almost certainly the maj the major one
 there was the negotiations between the
 United States and Iran where of course
-Witgov again is the chief
+Witkoff again is the chief
 negotiator and um it looks as if the
 Americans and the Russians Gooff,
 Dimmitri and Putin have also discussed
@@ -270,7 +270,7 @@ between the Americans and the Russians
 and perhaps between the Russians and
 Ukraine. Now the other thing that was
 mentioned and which
-Ushikov said uh Putin and Witkov talked
+Ushikov said uh Putin and Witkoff talked
 about was the
 possibility of direct
 negotiations between Russia and
@@ -332,7 +332,7 @@ these are the
 negotiations between Russia and Ukraine
 that um Ushakov was talking about and
 which
-Witgov and Putin would have discussed.
+Witkoff and Putin would have discussed.
 And the purpose of those negotiations
 clearly is to agree how to set up and
 monitor and arrange a ceasefire.
@@ -766,7 +766,7 @@ Europeans. The Europeans
 supposedly are trying to get the
 Americans to
 modify the
-proposal Kellogg Plus that Witgo took
+proposal Kellogg Plus that Witkoff took
 with him when he met Putin.
 Well, at the moment, even as I'm
 speaking, we have an
@@ -813,7 +813,7 @@ and trying to meet with him there to
 discuss what exactly I mean what exactly
 is this intended to do? Um, are they
 going to try to get Trump to walk back
-on the proposal his envoy Wickoff has
+on the proposal his envoy Witkoff has
 just taken to Moscow and presented to
 Putin?
 Or is there something else? Is there
@@ -889,7 +889,7 @@ the times doesn't say that the Ukrainian
 leader really has no choice but to sign
 up to the proposal according to a source
 close to Steve
-Wickoff. Could it be Wickoff himself?
+Witkoff. Could it be Witkoff himself?
 Just just asking. the US president's
 special envoy. Trump is threatening to
 pull out of the peace process next
@@ -928,7 +928,7 @@ Zilinski maintain their current
 position, if they refuse to work within
 the framework
 of
-Wickoff's Kellogg Plus proposal, which
+Witkoff's Kellogg Plus proposal, which
 means
 effectively well working within a
 framework that says that Ukraine won't
@@ -1027,7 +1027,7 @@ Zalinski will break this week and come
 round to seeing things from their point
 of view and will sign up to the American
 proposal. In which case, going back to
-the meeting between Witgo and Putin,
+the meeting between Witkoff and Putin,
 presumably some kind of meeting will be
 arranged between Russian and Ukrainian
 delegations to

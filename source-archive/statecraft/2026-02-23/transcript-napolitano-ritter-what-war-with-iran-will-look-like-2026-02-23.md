@@ -15,7 +15,7 @@ evidence_grade: transcript-bearing
 
 # Scott Ritter: What War With Iran Will Look Like
 
-Hi everyone, Judge Andrew Npalitano here for Judging Freedom.
+Hi everyone, Judge Andrew Napolitano here for Judging Freedom.
 
 Today is Monday, February 23rd, 2026. Scott Ritter will be with us in just a moment on what will a US attack on Iran look like and who helped the Ukrainians fire a missile deep inside of Russia? Scott Ritter, welcome here, my dear friend. Thank you for accommodating my schedule. Before we get to your uh understanding of the likelihood of an attack on Iran and if it does come, what it will look like, can you tell us what we should know about this uh Ukrainian firing of a missile deep inside of Russia and what involvement, if any, the British government might have had with it? Well, first of all, I think people need to understand that this is far more serious than just simply an attack against a Russian defense industrial facility.
 
@@ -57,7 +57,7 @@ Um you know, this is what Vimir Zolinski has been saying. Give me the ability to
 
 >> When um uh Woodco and Kushner sit down uh with the Russians, which I think is in Geneva pretty soon, I'm not sure because of the two two sets of negotiations uh going on. and one with Iran, one with Ukraine and uh and Russia. Do the Russians go toe-to-toe with him about what the CIA has done? >> I doubt it.
 
-the the Witco Kushner angle is an economic angle and the primary point of contact there is Kier Dmitri who is running around touting this seven-point plan which looks an awful lot like the United States plan to economically dominate and control Russia in the 1990s or the Biden plan in March 2011. I don't understand why the Russians don't know their history.
+the the Witkoff Kushner angle is an economic angle and the primary point of contact there is Kier Dmitri who is running around touting this seven-point plan which looks an awful lot like the United States plan to economically dominate and control Russia in the 1990s or the Biden plan in March 2011. I don't understand why the Russians don't know their history.
 
 Why do I know their history better than them? Why? When I look at this seven-point plan, do I say, "No, no, no. This is the kind of economic capitulation that we we got from you in the '90s and we're trying to get for you from in 2011, which you rejected then. Why would you ever embrace this now?" But that's that's what they're wrestling with right now.
 

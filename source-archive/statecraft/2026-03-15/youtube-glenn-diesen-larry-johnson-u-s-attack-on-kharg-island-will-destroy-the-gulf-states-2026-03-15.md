@@ -43,7 +43,7 @@ touch the energy facilities uh I guess
 for good reasons. But he is threatening
 now that the oil installations are next
 unless Iran folds. uh that is um by
-opening up the straight of Hermoose uh
+opening up the Strait of Hormuz uh
 how are you assessing this situation
 because you know on one hand if it's a
 bluff Iran you know they they can't
@@ -804,8 +804,7 @@ meth.
 >> Well, um, yeah, but that's the problem.
 He doesn't there's no escalation
 dominance. He doesn't get to decide when
-the war ends. And if the straight of her
-moose remains closed uh for hostile
+the war ends. And if the Strait of Hormuz remains closed uh for hostile
 countries and you know for the Gulf
 States until they paid reparations for
 the damage done to Iran

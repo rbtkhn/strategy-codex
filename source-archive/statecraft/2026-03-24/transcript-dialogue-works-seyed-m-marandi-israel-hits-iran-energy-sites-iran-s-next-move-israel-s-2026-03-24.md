@@ -703,7 +703,7 @@ world. I mean, people still don't
 recognize how bad things are going to
 get. And there's no way that the
 Americans are going to be able to open
-the trade of hormones
+the Strait of Hormuz
 and have
 oil and gas and petrochemicals get
 through. There's no, he doesn't have
@@ -895,10 +895,9 @@ achieve?
 They will only cause Iran to escalate
 and escalations means
 escalation means permanent destruction.
-Why do they want the straight of
-hormones open to get their oil and LNG
+Why do they want the Strait of Hormuz open to get their oil and LNG
 and so on? Well, if there is none, then
-the straight of hormones is not of any
+the Strait of Hormuz is not of any
 use.
 Trump has instead of being a sane actor,
 he's an insane actor. And I think it's

@@ -1029,7 +1029,7 @@ And I I think, you know, one of the
 important aspects of the Iranian victory
 here is that it puts Trump on notice
 that this military machine that P.
-Hexath has been, you know, promoting
+Hegseth has been, you know, promoting
 doesn't provide any solutions. It only
 creates problems. That doesn't mean that
 America gives up on its military, but it

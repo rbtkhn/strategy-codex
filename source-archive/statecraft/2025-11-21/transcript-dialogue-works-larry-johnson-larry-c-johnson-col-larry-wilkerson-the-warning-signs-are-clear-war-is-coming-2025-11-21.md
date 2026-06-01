@@ -63,7 +63,7 @@ he asked her and she goes, "We haven't
 seen anything. You know, we've heard
 about it." Now, actually, there's a
 there's a twe tweet something out on X
-by Steve Witoff. He put it up.
+by Steve Witkoff. He put it up.
 Apparently, it was supposed to be a
 private message only because once he got
 everyone, whoops, got to take that down.
@@ -92,7 +92,7 @@ total size of active ground forces on
 Ukraine side at the start of the special
 military operation was about 270,000.
 So why in in what delusional world does
-Witoff and these guys that came up with
+Witkoff and these guys that came up with
 this agreement think that Russia is
 going to go, "Oh yeah, yeah, let's agree
 to triple the size of the Ukrainian
@@ -210,7 +210,7 @@ details that will make the agreement
 work or not work. And that that's where
 they're headed now. And they're headed
 there with this, you know, so-called
-plan that Wickoff has leaked or whatever
+plan that Witkoff has leaked or whatever
 somebody leaked.
 And I don't discount the fact that some
 of the provisions the United States is
@@ -255,7 +255,7 @@ absolutely right about that. But I'm I'm
 willing to suspend my disbelief for a
 little while and hope that something
 positive comes out of it. I've lost all
-faith in Witoff. He's a [clears throat]
+faith in Witkoff. He's a [clears throat]
 scoundrel. Um, so that's not a good
 thing. Um, I've lost faith in Rubio long
 time ago, but as I said, Lavough sort of
@@ -1519,7 +1519,7 @@ happening within MAGA right now. He'd
 recall him and fire him.
 >> Yeah,
 >> there was an interview colonel with the
-Iranian foreign minister Abbas Arachi.
+Iranian foreign minister Abbas Araghchi.
 He mentioned that three times Iranian
 team has reached some sort of agreement
 with Wkov and they came to some sort of

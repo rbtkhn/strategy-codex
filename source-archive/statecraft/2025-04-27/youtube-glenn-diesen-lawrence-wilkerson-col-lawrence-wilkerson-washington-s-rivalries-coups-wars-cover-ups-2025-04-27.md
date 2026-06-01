@@ -209,11 +209,11 @@ presidents since then. Um and when they
 find out that when they bite something
 blood runs they get more enthused and
 they go after other people. They're
-after Hegsth right now. Bloodily and
-mercilessly, they're after Hegsth. So
+after Hegseth right now. Bloodily and
+mercilessly, they're after Hegseth. So
 far, Trump has stuck by him. And I can't
 detect the real reason they're after
-Hegath because to me, it looks like from
+Hegseth because to me, it looks like from
 both pre-c cabinet position to cabinet
 position, short time though that's been,
 he's pretty much in sync with most of
@@ -336,7 +336,7 @@ secretary of state. And I'm sure that
 I'm quite confident Trump did that on
 purpose because I don't think he likes
 Marco Rubio much. So he sort of put
-Rubio in his place by putting Witoff in
+Rubio in his place by putting Witkoff in
 every crisis on the face of the earth
 virtually. Put him in Gaza, put him in
 Ukraine, put him in Iran. But he seems
@@ -363,7 +363,7 @@ pay any attention to that at all. So,
 we're going to have other meetings
 apparently. Uh, who knows what's going
 on though between Waltz and Rubio and
-Witoff and Trump. Apparently, Wickoff
+Witkoff and Trump. Apparently, Witkoff
 only listens to Trump and that's
 probably good. Um, but then you got to
 ask yourself, what is Trump telling you?

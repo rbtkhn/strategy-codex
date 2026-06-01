@@ -139,8 +139,7 @@ but how do you see things going
 with
 the ramp up? I mean, I I can see that
 he's going to blow up everything that's
-possible. He might even go for Karg
-Island. I mean, Iran's retaliation goes
+possible. He might even go for Kharg Island. I mean, Iran's retaliation goes
 against the Gulf states, not directly
 against the US. So it might be a price
 he's willing to pay. It's a bit like

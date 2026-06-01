@@ -104,7 +104,7 @@ happened to those two people as I
 understand it in that boat or outside
 that boat after the initial strike was a
 war crime.
-And Donald Trump and Pete Hegth and that
+And Donald Trump and Pete Hegseth and that
 woman right there for her lies are
 guilty of aiding and abetting or
 ordering war crimes. Period. There is no
@@ -461,7 +461,7 @@ you know you got to do do what you got
 to do. Um but before he did that he had
 shown me a film and then the film was
 continued to open the interview of Jared
-Kushner, Steve Whitoff and Demitrif
+Kushner, Steve Witkoff and Demitrif
 coming out of the hotel or wherever they
 were and going on a tour of Moscow. And
 he kind of asked me what do you think
@@ -516,7 +516,7 @@ No, you got real estate and
 real estate.
 Heck, war criminal. Who could he send
 other than the real estate kingpins?
-Kushner and Witco.
+Kushner and Witkoff.
 >> I don't know if you saw the footage of
 the meeting. It was valuing together
 with Ushakov and Krill Deitrif
@@ -801,7 +801,7 @@ these various working groups. I worry
 about that with nuclear weapons too
 because all I see in this administration
 at the subsurface level anyway where the
-working groups would be formed is hexath
+working groups would be formed is Hegseth
 types and bondi types and noam types and
 cash patel types that isn't going to
 work
@@ -921,7 +921,7 @@ respond
 >> wouldn't be at this point uh perhaps
 useful to open direct negotiation with
 Moscow and send there a kind of a
-European witkov. Thank you.
+European Witkoff. Thank you.
 Well, um, everybody has been very clear,
 especially the Russians, that they have
 no interest in peace, uh, right now. So,

@@ -40,7 +40,7 @@ know in in in Kev as far as I can see um So um this is all being run out of the 
 
 >> What is the objective here? Because usually one would set up a clear goals. I mean are they there to sign an agreement like the latter stages when the state leaders or are they there to start negotiations or as some have suggested they just want to learn what Russia wants because it seems you know I'm not sure if this is genuine or just setting the expectations low but I I would have assumed that they knew what the Russians want after again six months in the administration.
 
-Well, this gets to the question of how the dialogue with the Russians has been managed and who is there to interpret it. Um, and u we we um have no evidence that there's any professional interpretation of what Mr. Witkov has heard or even that he's confided uh in anyone with expertise. uh uh he appears to have misheard some things uh which is not surprising that happens.
+Well, this gets to the question of how the dialogue with the Russians has been managed and who is there to interpret it. Um, and u we we um have no evidence that there's any professional interpretation of what Mr. Witkoff has heard or even that he's confided uh in anyone with expertise. uh uh he appears to have misheard some things uh which is not surprising that happens.
 
 Um but um you know this could be nothing more um Glenn than than the usual Trumpian maneuver which is if you can't take action create the illusion of action. This is the illusion of something. uh what we don't know yet. Um perhaps it is the beginning, as I said, of a of a more professionally conducted, more direct uh dialogue.
 
@@ -174,7 +174,7 @@ Although uh non-interventionism is the great banner of Latin American uh foreign
 
 Trump once termed hole countries. Um you know this is not rational behavior by any standard. Um and you can say the same thing about the domestic political realities uh the you know the the lawlessness of the administration the theory that the president has unchecked power. Uh so my final point here uh Glenn is I think anyone who imagines that the damage is reversible easily reversible or it's not permanent um needs to think again.
 
-Uh you can't wait this out. Now I mean sometimes you can do that. I know lots of Chinese friends who reacted to the autocracy of Xiinping by saying well he too is mortal. we'll just wait and in due course he'll disappear from the face of the earth and we can get on with our our lives in a new framework. Um you can't do that in this case.
+Uh you can't wait this out. Now I mean sometimes you can do that. I know lots of Chinese friends who reacted to the autocracy of Xi Jinping by saying well he too is mortal. we'll just wait and in due course he'll disappear from the face of the earth and we can get on with our our lives in a new framework. Um you can't do that in this case.
 
 Um let me end with an a an obvious point um uh which seems to have been forgotten and that is whenever you negotiate a transaction you are also negotiating a relationship. Now, perhaps in New York real estate, you don't care about the relationship that attaches to the property swap because what is happening in Alaska bears great resemblance to a real estate operation.
 
@@ -184,7 +184,7 @@ U, I don't want to say that is all that is involved in this, but it's not implau
 
 Um I I just sometimes wonder if the he can appreciate that the territorial dispute is consequence of the conflict, not the source of it. And uh but again it's never clear who he seeks to manipulate or deceive because again if he last week called for an unconditional ceasefire as the as the more war hawkish people in the administration and in Europe wants and now he switches to this thing.
 
-He seems he must be deceiving someone. I'm thinking because if he was calling for unconditional ceasefire, was that to get the hawks off his back or isn't he now deceiving the Russians? Because at the beginning of his administration, he did call for having this um you know, he said under with Hegathth, we you have to accept that the Ukraine can't be part of NATO and then there has to be territorial concessions and then he had this huge backlash and then he walked away from it.
+He seems he must be deceiving someone. I'm thinking because if he was calling for unconditional ceasefire, was that to get the hawks off his back or isn't he now deceiving the Russians? Because at the beginning of his administration, he did call for having this um you know, he said under with Hegseth, we you have to accept that the Ukraine can't be part of NATO and then there has to be territorial concessions and then he had this huge backlash and then he walked away from it.
 
 So, I mean, he's either deceiving his own political um side or his, you know, the US and the European hawks or he's deceiving the Russians. But he he's definitely deceiving someone. I just I can't put my finger on it though. >> Let me put let me make two comments. First, um uh the contradiction in the case of Ukraine is the same as the contradiction in the case of Palestine.
 

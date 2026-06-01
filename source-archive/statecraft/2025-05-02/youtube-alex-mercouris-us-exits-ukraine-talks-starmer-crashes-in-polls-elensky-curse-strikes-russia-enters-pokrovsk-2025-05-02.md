@@ -185,7 +185,7 @@ over the last couple of weeks as well
 we've seen peace plan and counterpieace
 plan and visits by Zalinski to
 Washington and meetings between Trump
-and Zalinski in Rome and Witgo's visits
+and Zalinski in Rome and Witkoff's visits
 to Moscow and all of that. It seems to
 me that the prime minister Karma's major
 focus has been overwhelmingly on Ukraine
@@ -604,7 +604,7 @@ the foreign ministry on the 14th of June
 about the four regions plus Crimea. It
 is still Putin's position today as he is
 outlined to
-Wickoff. But of course, as the war
+Witkoff. But of course, as the war
 continues, as the Russians advance
 westwards, as they take control of the
 four regions, unless there is a peace
@@ -706,7 +706,7 @@ course a lot will depend on who is
 appointed to take pl to take Mike
 Walls's place as national security
 advisor. Some are saying it will be
-Steve Witgo. I think that very unlikely
+Steve Witkoff. I think that very unlikely
 myself. I think that he's completely
 somebody who's comes from completely
 outside the government and I think

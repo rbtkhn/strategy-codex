@@ -631,7 +631,7 @@ can't hear or watch the clips for
 whatever reason. My connection is not
 ideal. But no, it's it's not over. And
 the very fact that they cannot open the
-and control the straight of hormones, I
+and control the Strait of Hormuz, I
 think is evidence enough. Iran,
 remember, I mean, you know this, I know
 this, your audience know this, but knows
@@ -1026,7 +1026,7 @@ spoils is the phrase he used making it
 pretty clear to me. And I I put myself
 on the other side. If I'm an Iranian and
 I heard that and I'm talking about like
-foreign minister or the Peskian or who
+foreign minister or the Pezeshkian or who
 any of these other people and I'm being
 told that he wants to negotiate an end
 to you to give freedom to the people or
@@ -1227,15 +1227,14 @@ through Turkey and you're going to we're
 going to see glo the global economy
 collapse. I mean, it's going to the what
 now every what is the what is Trump
-demanding Iran to open the straight of
-foremost which by the way it is open to
+demanding Iran to open the Strait of Hormuz which by the way it is open to
 countries that are not aligned to the
 United States. Uh but those countries
 that you know are cooperating with the
 United States their oil is not going
 through as we speak. But uh if when that
 happens then there's the the the
-straight of hormones is useless
+Strait of Hormuz is useless
 if it's let's say there's an agreement
 and if it's open if there are no tankers
 if there is no oil production if there's

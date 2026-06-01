@@ -291,16 +291,16 @@ extraordinary run of claims and stories
 about which officials, American
 officials exactly are going to
 Istanbul. So yesterday Reuters were
-saying that Steve Wickoff and Keith
+saying that Steve Witkoff and Keith
 Kellogg will both be going to Istanbul.
 Trump apparently has ordered them to go.
 Um notice that both peace envoys being
-sent to Istanbul at the same time. Witgo
+sent to Istanbul at the same time. Witkoff
 and Kellogg have in the past and indeed
 right up to now shown very very
 different ideas and perspectives about
 how to bring this conflict to an end.
-Wickoff seems to
+Witkoff seems to
 favor accommodating Russian concerns.
 He's given interviews in which he's
 given the strong impression, at least to
@@ -337,7 +337,7 @@ threaten Russia with massive sanctions
 if they don't um capitulate to all of
 these demands which he is making
 basically for a freeze of the conflict
-on American terms. So Wickoff and
+on American terms. So Witkoff and
 Kellogg, profoundly different people,
 entirely different approaches to the
 conflict, but they're both being sent to
@@ -783,7 +783,7 @@ Russians, refusing to meet the Russians
 face to face, but the Americans having
 discussions, however brief, with the
 Americans with Kellogg and
-Witgo and
+Witkoff and
 perhaps
 conducting long-term
 negotiations in that format and through
@@ -1070,7 +1070,7 @@ negotiations, ne any negotiations that
 take place tomorrow, always assuming
 that those
 negotiations take place at all.
-Peskoff made the absolutely valid point
+Pezeshkian made the absolutely valid point
 that this is a very complicated
 conflict. There's an awful lot to sort
 through, to work

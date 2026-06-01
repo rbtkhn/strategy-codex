@@ -18,7 +18,7 @@ quality_note: Normalized into readable paragraphs and light speaker separation; 
 
 ## Transcript
 
-Hi everyone, Judge Andrew Npalitano here for Judging Freedom. Today is Tuesday, May 26, 2026. Ambassador Chas Freeman joins us now. Ambassador, a pleasure as always. Is anyone throwing Trump a lifeline to get him out of this mess in Iran?
+Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Tuesday, May 26, 2026. Ambassador Chas Freeman joins us now. Ambassador, a pleasure as always. Is anyone throwing Trump a lifeline to get him out of this mess in Iran?
 
 No. He announced he was getting close to a deal. He got a call from Benjamin Netanyahu who said, "No, you don't," and insisted that he insert terms that make any deal with Iran impossible. These include affirming Israel's so-called right to defend itself in Lebanon. Israel has doubled down and intensified its warfare in Lebanon, although Iran has made it very clear that a ceasefire and an end to the fighting in Lebanon is an essential component of any deal.
 

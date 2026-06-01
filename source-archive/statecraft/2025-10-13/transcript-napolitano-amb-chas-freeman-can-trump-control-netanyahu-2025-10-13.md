@@ -21,7 +21,7 @@ quality_note: Normalized to remove sponsor/promo copy and transcript noise; mino
 
 ## Judge Andrew Napolitano
 
-Hi everyone, Judge Andrew Npalitano here for Judging Freedom. Today is Monday, October 13, 2025. My dear friend, Ambassador Chaz Freeman joins us now. Ambassador Freeman, thank you very much.
+Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Monday, October 13, 2025. My dear friend, Ambassador Chaz Freeman joins us now. Ambassador Freeman, thank you very much.
 
 Before we get into who controls whom, Netanyahu or Trump, what are your what is your take? What is your initial reaction to the events in Jerusalem today? Is this a substantial agreement for peace or is it an act?
 

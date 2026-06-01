@@ -15,7 +15,7 @@ evidence_grade: transcript-bearing
 
 # Chas Freeman: Israel Pushes US into Another Endless War
 
-Hi everyone, Judge Andrew Npalitano here for Judging Freedom.
+Hi everyone, Judge Andrew Napolitano here for Judging Freedom.
 
 Today is Tuesday, February 24th, 2026. Ambassador Chaz Freeman joins us now. Ambassador Freeman, thank you very much for coming with us as you do nearly every Tuesday at this hour. It's a pleasure to chat with you. Thank you for accommodating my schedule. Before we talk to talk about the Israeli uh push for another Middle Eastern war, I want to ask you a question about Ukraine.
 
@@ -47,7 +47,7 @@ Um I think the attack is imminent. Um the um we know from photography that the G
 
 So I suspect it is now in place. We have on Thursday a scheduled negotiation between Messers Witkoff and Kushner which we are told will be the decisive moment for the president's decision about whether to attack. It's pretty clear that such a decision is going to be made because there is no evidence that those negotiations have been at all serious on our part.
 
-The demands that we have made are obviously uh way beyond anything Iran can accept. Even beyond that, we have uh Mr. Whitov u saying that two things. First, he's puzzled. Why haven't the Iranians capitulated in the face of all the force that the United States has deployed? half of the US Air Force, two of the three active aircraft carriers would be we have an enormous naval flotilla.
+The demands that we have made are obviously uh way beyond anything Iran can accept. Even beyond that, we have uh Mr. Witkoff u saying that two things. First, he's puzzled. Why haven't the Iranians capitulated in the face of all the force that the United States has deployed? half of the US Air Force, two of the three active aircraft carriers would be we have an enormous naval flotilla.
 
 Um [clears throat] why haven't the Iranians capitulated? Which indicates that he has no understanding of either Iranian mentality or how countries react to the kind of mafia blackmail tactics that we are employing. And second um ES said repeatedly that we are demanding zero enrichment of uranium from Iran and foreign minister Adakqi on the other hand has said that there's been no such demand of the talks.
 

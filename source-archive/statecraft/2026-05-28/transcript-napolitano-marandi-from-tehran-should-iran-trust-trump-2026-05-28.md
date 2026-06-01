@@ -21,7 +21,7 @@ quality_note: Normalized to remove routine ideological cold open, lineup tail, a
 
 # Prof. Mohammad Marandi : FROM TEHRAN: Should Iran Trust Trump?
 
-Hi everyone, Judge Andrew Npalitano here for Judging Freedom.
+Hi everyone, Judge Andrew Napolitano here for Judging Freedom.
 
 Today is Thursday, May 28, 2026. My dear friend, Professor Muhammad Morandi joins us from Tehran, Iran for his weekly chat.
 

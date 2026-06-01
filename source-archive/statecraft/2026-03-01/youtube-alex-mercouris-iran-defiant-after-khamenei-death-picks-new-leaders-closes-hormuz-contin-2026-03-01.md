@@ -25,7 +25,7 @@ Now, in my program yesterday, at the start of my program yesterday, I said based
 
 Well, that view held for most of the day yesterday and it held as I recall um for the period for a certain period after my program was published. My program obviously having been made some time before. But then information initially from Israel and then from President Trump himself and then eventually from Iran too showed that that was completely wrong.
 
-In fact, large numbers of key Iranian decision makers were killed in the Israeli and American strikes yesterday. So briefly, the defense minister, the chief of the general staff, the head of the Islamic Revolutionary Guards Corps, one of um Ayatollah Ham, the Supreme Leaders top security advisor, the head of the intelligence service of the Iranian police, and as we subsequently learned, the Supreme Leader himself, Ayatah Ham were all killed.
+In fact, large numbers of key Iranian decision makers were killed in the Israeli and American strikes yesterday. So briefly, the defense minister, the chief of the general staff, the head of the Islamic Revolutionary Guards Corps, one of um Ayatollah Khamenei, the Supreme Leaders top security advisor, the head of the intelligence service of the Iranian police, and as we subsequently learned, the Supreme Leader himself, Ayatollah Khamenei were all killed.
 
 Now I have to say yet again I find this very strange and very difficult to understand. I was checking my programs over the last couple of days. The program that my made two days before um specifically spoke about the fact that an attack was imminent. An attack on Iran was imminent. Its t its title in fact was US Iran talks fail embassies evacuated attack imminent and the caption on the title was attack is coming.
 
@@ -181,11 +181,11 @@ I consider that claim preposterous that there was going to be um other action ta
 
 Maybe some people weren't happy that it happened on a moonlit night. We don't know what if any effect that had. But anyway, one way or the other, there were concerns. Uh the the decision was clearly made to attack when it was made. And I don't believe that Carmen's movements had very much to do with it. At least that is my view. Now the second thing I wanted to say is that there has been a very very sharp response about all of this concerning all of this specifically from the Russians.
 
-They appear to be absolutely furious both with the Americans and with the Israelis. Um Putin has um written to Pzish Gan who by the way is also still alive. He sent a message to Pzishan by telegram. Obviously, there's concerns about speaking on the phone because that might reveal Pezan's whereabouts.
+They appear to be absolutely furious both with the Americans and with the Israelis. Um Putin has um written to Pzish Gan who by the way is also still alive. He sent a message to Pezeshkian by telegram. Obviously, there's concerns about speaking on the phone because that might reveal Pezeshkian's whereabouts.
 
 But anyway, Putin's message read as follows. Please accept my deepest condolences on the assassination of the Supreme Leader of the Islamic Republic of Iran, Sed Ali Ham, and his family members committed in cynical violation of all norms of human morality and international law. Cynical violation of all norms of human morality and international law.
 
-And that comes from Putin himself. And there's the usual words of praise of Kam, but I will skip all of those. But those were Putin's words directly addressed to Pezishan and they're very strong at the UN Security Council which note that the Americans and the Israelis did not bother to consult before they conducted the attack that they began yesterday.
+And that comes from Putin himself. And there's the usual words of praise of Kam, but I will skip all of those. But those were Putin's words directly addressed to Pezeshkian and they're very strong at the UN Security Council which note that the Americans and the Israelis did not bother to consult before they conducted the attack that they began yesterday.
 
 Well, we've all become used to that. They didn't bother, Trump didn't even bother, so far as I can see, to obtain any authorization from Congress either, which I know some people think might make his actions in conducting this attack impeachable. Well, that's for another time to discuss. Anyway, there was a furious row at the Security Council between the Russians, the Americans, the Israelis, and others.
 
@@ -201,7 +201,7 @@ responsibility for the impact of this man-made crisis, including the artificial 
 
 They see this as a massive breach of faith by Israel. They're obviously um less than happy, in fact, furious with Trump himself. That I suspect is going to impact on the negotiations over the ending of the Ukraine war. As I discussed in my program yesterday, Medved pretty much pretty said pretty much as much in his um post on X yesterday.
 
-And notice here the identity of language used in the foreign ministry statement and in Putin's message to Pezkan. Putin speaks about a cynical act that violates all moral and international laws. And well, the Russian foreign ministry is saying the same. And inevitably in Moscow, more and more people are going to come forward and are going to say, "Well, given how Trump has acted, how can we continue to even think of trusting him on any issue, least of all the conflict in Ukraine?" Now to that I'm now going to turn though obviously what I'm going to say is going to be um less than I usually say.
+And notice here the identity of language used in the foreign ministry statement and in Putin's message to Pezeshkian. Putin speaks about a cynical act that violates all moral and international laws. And well, the Russian foreign ministry is saying the same. And inevitably in Moscow, more and more people are going to come forward and are going to say, "Well, given how Trump has acted, how can we continue to even think of trusting him on any issue, least of all the conflict in Ukraine?" Now to that I'm now going to turn though obviously what I'm going to say is going to be um less than I usually say.
 
 Let's start first of all with Kitty Lab Budanov um the man who is now Zalinsk's chief of staff and who was one of the negotiators at the meetings in Abu Dhabi and in Geneva. Um, Budanov gave an interview in which he said that the Russians have agreed to the United States giving security guarantees to Ukraine, that the only issue is territory, and that um this agreement by the Russians was communicated to the Ukrainians over the course of the military-to-ilitary discussions between Budanov himself and Admiral Costakov.
 
@@ -243,7 +243,7 @@ I expect that over the next few weeks the Russian advance towards first Orov and
 
 But Iran has resources. If it endures, if it sees this through, then well, it won't win exactly in the sense of winning a military victory, but it will have exhausted the other side, and that will put it in a stronger position than the one it was in before. The IRGC is known to have felt that the 12-day war in June was ended by the Iranians prematurely.
 
-That the Supreme Leader K in other words and Pezishan agreed to a ceasefire at precisely the moment when the pendulum was starting to swing in Iran's favor. This time one senses that there is no mood in Iran to make that mistake again. And of course Ham himself is no longer there.
+That the Supreme Leader K in other words and Pezeshkian agreed to a ceasefire at precisely the moment when the pendulum was starting to swing in Iran's favor. This time one senses that there is no mood in Iran to make that mistake again. And of course Ham himself is no longer there.
 
 The person who for the moment at least is making the decisions is Larijani and he comes across as a much more tough-minded man altogether. But this conflict between Iran, Israel, and the United States continues to remain at issue. Ultimately, it depends on the internal stability and endurance of Iran. Despite the loss of Hammon and many of their top leaders, they came through they came through the first day and the first night. They continue to hit back.
 

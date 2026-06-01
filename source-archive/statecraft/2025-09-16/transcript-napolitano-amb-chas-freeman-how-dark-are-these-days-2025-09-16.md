@@ -21,7 +21,7 @@ quality_note: Normalized to remove sponsor/promo copy and transcript noise; mino
 
 ## Judge Andrew Napolitano
 
-Hi everyone, Judge Andrew Npalitano here for Judging Freedom. Today is Tuesday, September 16th, 2025. Ambassador Chaz Freeman will be here with us in just a minute. Just how dark are these days in America?
+Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Tuesday, September 16th, 2025. Ambassador Chaz Freeman will be here with us in just a minute. Just how dark are these days in America?
 
 Ambassador, good day to you, my friend. Welcome here and thank you for joining us.
 

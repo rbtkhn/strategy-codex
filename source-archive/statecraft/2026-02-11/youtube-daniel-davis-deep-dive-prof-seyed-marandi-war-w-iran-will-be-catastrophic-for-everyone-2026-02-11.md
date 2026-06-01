@@ -486,7 +486,7 @@ but Iran didn't want to expand the war
 at that time. There were from my
 understanding discussions in Iran to
 broaden the war to even close the
-straight of hormones but that was uh
+Strait of Hormuz but that was uh
 something that they didn't that they
 didn't want to do because they didn't
 want to to impact the global economy.
@@ -683,7 +683,7 @@ people were marching on the streets and
 then the police were gunning them down.
 And one interesting thing is that the
 speech that you just showed of President
-Pzishkan
+Pezeshkian
 was this as you rightly pointed out was
 this morning. It was in Thran during the
 40 the commemoration of the revolution.
@@ -910,8 +910,7 @@ halted from the Persian Gulf region and
 from western Asia then that will bring
 about a global economic collapse and
 Iran can easily do that. Not only can
-the Iranians shut down the straight of
-Hormos easily, but they can also destroy
+the Iranians shut down the Strait of Hormuz easily, but they can also destroy
 all the ships in the Persian Gulf and
 they can also destroy the ports and the
 oil and gas installations and they can

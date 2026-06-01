@@ -15,7 +15,7 @@ source_note: "Automated YouTube transcript fetch for Daniel Davis Deep Dive."
 
 # fmr CIA Analyst Larry Johnson: IRAN DEMANDS NOT CHANGING
 
-Secretary of War Pete Hexth this morning
+Secretary of War Pete Hegseth this morning
 along with Chairman of the Joint Chiefs
 of Staff Dan Kaine tells everybody,
 "Don't worry, we've got all of this war
@@ -76,7 +76,7 @@ of our ships get close to Iranian shore
 because they get shot at and we can't
 really put deploy troops on the ground.
 So, we're in pretend mode. And here's
-Pete Hexth. He he's uh you know a live
+Pete Hegseth. He he's uh you know a live
 what they call laring live action role
 playing. That's what he's doing. the
 just give him an aerosoft gun and make
@@ -686,7 +686,7 @@ missiles. And the same for JASMs and
 JDAMs.
 That would be the United States. And
 despite all this, you know, you know,
-bravado expressed by Pete Hegsef,
+bravado expressed by Pete Hegseth,
 um the fact is that there are
 limitations to what we can produce now
 in part because of our dependency on
@@ -724,7 +724,7 @@ know that's a full two months.
 So Gary, can you pull that headline back
 up? The one you just had there about
 locked and loaded. Uh the second part of
-what Secretary Hexth said there also
+what Secretary Hegseth said there also
 bears some acknowledgement. Now we are
 low in all those categories of of
 weapons that you mentioned, whether it's
@@ -745,7 +745,7 @@ tell us what you think is the likelihood
 that that will finally compel Iran
 through coercion to do what we want to
 do uh to to do what we want which open
-the straight of hormones and give up all
+the Strait of Hormuz and give up all
 their nuclear uh reprocessed material
 and have zero enrichment. How close will
 they come to doing that if we do what he

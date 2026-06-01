@@ -217,7 +217,7 @@ pressure including a sharp fall in the
 standard of living uh the shortage of
 water that is developing a threat to
 Tehran. In fact I gather that uh
-President Pzeshkin has suggested it may
+President Pezeshkian has suggested it may
 be necessary to evacuate Tehran uh given
 the water shortage. So people are upset
 that's natural and they protest. that's
@@ -294,7 +294,7 @@ himself as a peace president, a
 president who makes peace, not war,
 form. Um, quite aside from that irony,
 we have the irony in Iran that President
-Peskin was u elected to reach out to the
+Pezeshkian was u elected to reach out to the
 west to conduct economic reforms uh to
 address the very problems that uh are
 causing the distress at the moment. Uh
@@ -629,7 +629,7 @@ Professor Mandi, I
 when when we talk about Iran and
 Ambassador Chasan tried to to picture
 the difficulties of the current
-president of Iran, President Peskan came
+president of Iran, President Pezeshkian came
 in power you know the day after you in
 his before his inauguration
 is hier was assassinated in in Tehran.
@@ -664,9 +664,9 @@ the Israeli regime. And it turned out to
 be exactly that ultimately Iran and
 Hezbollah and others were vindicated in
 this respect. But uh I think that
-actually President Pzishkan and some
+actually President Pezeshkian and some
 people will probably criticize me for
-this. Uh, President Pzishkan and
+this. Uh, President Pezeshkian and
 President Rei were in my opinion both
 somewhat similar. Both were moderate
 people and they were sort of in the
@@ -716,7 +716,7 @@ Shanghai to Beijing afterwards and
 participated in the military parade. He
 was I think right behind President Xi.
 Uh so
-you see Iran under President Pzishkan
+you see Iran under President Pezeshkian
 tilting further away from the west
 whereas he was prepared to move towards
 Rap Roan not to move away from China or

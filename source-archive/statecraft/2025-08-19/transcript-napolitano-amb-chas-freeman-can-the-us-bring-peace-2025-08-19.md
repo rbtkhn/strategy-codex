@@ -16,7 +16,7 @@ quality_note: Normalized to remove sponsor/promo copy and transcript noise; mino
 
 # AMB. Chas Freeman : Can the US Bring Peace?
 
-Hi everyone, Judge Andrew Npalitano here for Judging Freedom. Today is Tuesday, August 19th, 2025. Ambassador Chaz Freeman will be with us here in just a moment.
+Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Tuesday, August 19th, 2025. Ambassador Chaz Freeman will be with us here in just a moment.
 
 Ambassador Freeman, welcome here. Uh, my dear friend. Well, Alaska wasn't exactly Nixon visits China now, was it? No, I guess not. Um, but it was important.
 
@@ -72,7 +72,7 @@ And if so, it might be the first time because Trump has a very short attention s
 
 I suspect that uh President Putin did not emphasize that point even though it is valid. Uh I believe you're correct. Uh this is probably the first time that President Trump has had a chance to listen directly uh to the Russian view of uh Russian interests and how they were threatened uh by uh the previous administration which President Trump correctly blames for provoking the war.
 
-So yes, very educational, very important, and I think uh a major advance toward uh some possible later meeting of the minds on how to make peace in Ukraine. At the moment, there's an agreement that there should be peace, but there's no agreement on how to achieve it. The um the the special envoy, Steve Witco, used an odd phrase, and the president picked up on it.
+So yes, very educational, very important, and I think uh a major advance toward uh some possible later meeting of the minds on how to make peace in Ukraine. At the moment, there's an agreement that there should be peace, but there's no agreement on how to achieve it. The um the the special envoy, Steve Witkoff, used an odd phrase, and the president picked up on it.
 
 Our friend and colleague Alistister Crook attributed it to a mistransation or a misunderstanding. The phrase is land swaps. What land swaps? What Russian land is going to end up in the uh custody or propriety uh of the uh of the Ukrainians. President Putin doesn't even have the authority to do that under the Russian constitution even if he were inclined to do so.
 

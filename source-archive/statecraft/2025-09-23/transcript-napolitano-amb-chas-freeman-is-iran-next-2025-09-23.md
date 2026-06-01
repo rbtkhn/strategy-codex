@@ -21,7 +21,7 @@ Chas Freeman : Is Iran Next?
 
 ## Judge Andrew Napolitano
 
-Hi everyone, Judge Andrew Npalitano here for Judging Freedom. Today is Tuesday, September 23rd, 2025. Ambassador Chaz Freeman will be with us in just a moment on how soon will the Israelis be attacking Iran and what will the United States do.
+Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Tuesday, September 23rd, 2025. Ambassador Chaz Freeman will be with us in just a moment on how soon will the Israelis be attacking Iran and what will the United States do.
 
 Ambassador Freeman, welcome here, my dear friend. Thank you for accommodating my schedule. Before I pick your brain on Iran and when the Israelis are likely to attack and why they want to attack, is in your view the now near universal recognition of the state of Palestine of any geopolitical significance or is it just performative?
 

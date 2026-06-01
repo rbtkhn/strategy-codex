@@ -989,7 +989,7 @@ as some people think. But it absolutely
 doesn't work in the world of diplomacy.
 Certainly not against an adversary like
 Vladimir Putin. Now, as I've been making
-this program, I see that Steve Wickoff
+this program, I see that Steve Witkoff
 um um Trump's envoy has now made certain
 further comments of his own. He has said
 that

@@ -75,7 +75,7 @@ He doesn't >> I think you're right. He doesn't because he listens to Steven Mill
 
 He's a dangerous man. This is what Helmet Cole and Coen Powell and HW Bush and Jim Baker and Chevard Nazi Gorbachas foreign minister and Gorbache himself and Metherron and Thatcher and Major and I could go on. This is what we talked about when Cole, the German in Bon at the time, expressed real concern about moving the capital back to Berlin, though he really relished doing it, as you might imagine, and even more concern over reuniting and being in Russia's face.
 
->> That's why we gave them the promise that it would go no further east. that eased Cole's fears. >> So Meritz two days ago in the presence of Mcronone, Stormer, I don't know if the crazy ladies were there, Vander Lion and Kaya Kalis, but Merch and Stormer were there, but more importantly, Kushner and Witoff were there, stated his understanding of a peace proposal which was truly absurd.
+>> That's why we gave them the promise that it would go no further east. that eased Cole's fears. >> So Meritz two days ago in the presence of Mcronone, Stormer, I don't know if the crazy ladies were there, Vander Lion and Kaya Kalis, but Merch and Stormer were there, but more importantly, Kushner and Witkoff were there, stated his understanding of a peace proposal which was truly absurd.
 
 800,000 man Ukrainian army serviced by US intelligence and supported by uh EU troops. No membership in NATO. Now, you ready for this? The demilitarization of 150 miles into Russia. I can't even say this with a straight face of the Russian Ukrainian border. Okay, here's my point. When he said it, Whitito and Kushner didn't say anything.
 
@@ -119,7 +119,7 @@ I, you know, you can't make this stuff up. It'll be Vietnam times, too. Here's u
 
 Apart from the Europeans, we are very much concerned by the actions of the US Navy and by the jingoist statements by the Pentagon that in addition to the unlawful actions on striking the civilian vessels without any judicial actions in the Caribbean. They now plan the land operation. Of course, all of that undermines the hopes that one can try to have a settlement under the current international system.
 
-All of that undermines the hopes one might have for a settlement under the current international situation. I guess he's talking about the communications from and between the um uh Kushner Witoff and whoever they talk to on the Russian side. >> What a sad what a sad state of affairs as we enter the Christmas season.
+All of that undermines the hopes one might have for a settlement under the current international situation. I guess he's talking about the communications from and between the um uh Kushner Witkoff and whoever they talk to on the Russian side. >> What a sad what a sad state of affairs as we enter the Christmas season.
 
 A sad state of affairs no matter what season. Well, remember December 7th, 1941. This is a situation that reminds me of all the history I am imbued with as a military strategist of people walking towards a conflict that will be far greater, deeper, and more profound than any of them imagine with basically, as Barbara Tuckman so well put it, woodenheaded people at the head of the marching.
 

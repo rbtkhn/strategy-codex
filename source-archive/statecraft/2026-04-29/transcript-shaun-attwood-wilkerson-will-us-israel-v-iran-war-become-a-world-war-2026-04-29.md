@@ -35,7 +35,7 @@ However, Trump doesn't know about it. The people behind him do and the people in
 
 >> So, the neocons often site Brazinski saying the alliance between Russia, China, and Iran had to be stopped at all cost for US hedgeimonyy. Hasn't the recent action against Iran actually reversed that and strengthened that relationship between those three countries? You've just put your finger on part of the problem that I see with the strategic execution, if you will, and that is that the president doesn't know anything about this or he doesn't know anything about it that's cerebral.
 
-What he knows is he make a lot of money off this whole process. Everything from playing the market with his cronies as he makes the market go up and down, up and down and up and down to Kushner and Witco making billion dollar contracts everywhere they go supposedly as diplomats as special envoys. So money is rolling into the Trump empire, particularly the Trump family.
+What he knows is he make a lot of money off this whole process. Everything from playing the market with his cronies as he makes the market go up and down, up and down and up and down to Kushner and Witkoff making billion dollar contracts everywhere they go supposedly as diplomats as special envoys. So money is rolling into the Trump empire, particularly the Trump family.
 
 And that's all I think he's really concerned with that what's keeping Epstein from stopping that money flow and other things like that. and he has been, as the New York Times indicated, I think in a in a quite good piece, not very unusual these days for the New York Times, um, influenced mostly by to to make the ultimate decision to go to visible war with Iran.
 
@@ -219,11 +219,11 @@ And Ukraine demonstrated graphically that asymmetric warfare does have a place i
 
 Um, and in terms of their own capabilities. When when we say when Trump said we destroyed their navy, you so what? Well, we destroyed their air force. So what? [laughter] He didn't destroy their ballistic missiles. >> [clears throat] >> So, Thunderbird, can Lawrence recommend any good news sources that are accurate on this war? >> Well, there actually quite a few in the podcast world.
 
-Um, uh, things like Nemo Alchid's podcast, Dialogue Works, and Judge Npalitano's judging freedom. Uh, quite a few overseas, too. Glenn Dyson in Norway has a really good podcast. But you can also find it in things like uh the publications that uh some of them sprung up during the Vietnam conflict because of the opposition to that conflict.
+Um, uh, things like Nemo Alchid's podcast, Dialogue Works, and Judge Napolitano's judging freedom. Uh, quite a few overseas, too. Glenn Dyson in Norway has a really good podcast. But you can also find it in things like uh the publications that uh some of them sprung up during the Vietnam conflict because of the opposition to that conflict.
 
 But things like uh Ross story, you know, there is an alternative published written media out there also that talks about um the kinds of things we're talking about here in the sense that we're talking about them. >> Yeah. Danny Hiong and Nema Dialogue works. They're like my two go-to channels for >> Yeah, Danny Hiong's another good source. Yeah.
 
->> All right. So, Lillian, how many nuclear weapons does Israel have? >> They hide it, of course, but the estimate when I was in the military and when I was at state was somewhere between 250 and 300. >> [snorts] >> Is it true that Trump was contemplating nuclear nuclear attack on Iran recently, but his generals talked him out of it? >> I I wouldn't put anything past Donald Trump or Pete Hexath for that matter, but I don't think I would contemplate even Trump going there.
+>> All right. So, Lillian, how many nuclear weapons does Israel have? >> They hide it, of course, but the estimate when I was in the military and when I was at state was somewhere between 250 and 300. >> [snorts] >> Is it true that Trump was contemplating nuclear nuclear attack on Iran recently, but his generals talked him out of it? >> I I wouldn't put anything past Donald Trump or Pete Hegseth for that matter, but I don't think I would contemplate even Trump going there.
 
 >> Okay. All right. Next. Uh, is this war a perfect distraction from the Epstein files? >> Absolutely. Um, and I don't think we're just like Kennedy's assassination, Martin Luther King's assassination, Bobby Kennedy, u Bobby Kennedy's assassination, I don't think we're ever going to know all the truth.
 

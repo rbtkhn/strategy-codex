@@ -37,13 +37,13 @@ And Martin, let me start with what's
 
 going on in between the United States
 
-and Russia. We had Steve Witkov going to
+and Russia. We had Steve Witkoff going to
 
 after that 28 point plan on the part of
 
 the Trump administration. Right now
 
-Steve Witkov together with
+Steve Witkoff together with
 
 Kushner, Jared Kushner went to Russia
 
@@ -55,7 +55,7 @@ talking about we had P
 
 Kush on the part of the United States,
 
-Kushner together with Witkov on the part
+Kushner together with Witkoff on the part
 
 of the Russians. We didn't have the
 

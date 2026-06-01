@@ -921,7 +921,7 @@ Uh
 so, uh you know, you the IRGC does have
 uh it's it's it's got a number of people
 in key positions. And you don't see
-Zarachi or Puzeshkian,
+Araghchi or Pezeshkian,
 you know, coming back saying, "Oh,
 they're they're wrong." or pursuing an
 agenda independent of them. Absolutely

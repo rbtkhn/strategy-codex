@@ -1373,7 +1373,7 @@ during the dry season. And well there is
 apparently a report circulating in the
 United States that originates from the
 US intelligence community. Apparently
-Pete Hgsith has referenced it which
+Pete Hegseth has referenced it which
 confirms or says that there is no single
 item of military equipment or quantity
 of military equipment that the United

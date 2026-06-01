@@ -1093,7 +1093,7 @@ attack, but Well, that that is exactly
 
 what
 
-Foreign Minister Araqchi said um
+Foreign Minister Araghchi said um
 
 very politely to the Economist
 
@@ -1179,7 +1179,7 @@ uh but I fear we will.
 
 And if we do, as Foreign Minister
 
-Araqchi Araqchi
+Araghchi Araghchi
 
 intimated, Iran will take a much larger
 

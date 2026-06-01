@@ -15,7 +15,7 @@ evidence_grade: transcript-bearing
 
 # Larry Johnson: Trump's Decision Making and Huckabee's Buffoonery
 
-Hi everyone, Judge Andrew Npalitano here for Judging Freedom.
+Hi everyone, Judge Andrew Napolitano here for Judging Freedom.
 
 Today is Monday, February 23rd, 2026. My dear friend Larry Johnson will be with us in just a moment on President Trump's decision-making and Mike Huckabee's buffoonery. How dangerous is that? Larry Johnson, good day to you my friend. Thank you as always for accommodating my schedule. Before we get uh to the president's uh decision-making on attacking Iran and before we get to the buffoonery of his uh ambassador uh in in Telebre Tel Aviv, how dangerous was it for the British to have worked estrated an attack on a Russian um machine shop that makes parts for nuclear weapons 1,300 km from the Russian-Ukraine border? Yeah, on a scale of 1 to 10, I think this is a 10.
 

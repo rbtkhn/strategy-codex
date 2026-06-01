@@ -951,7 +951,7 @@ expects Putin to say at this meeting
 which Putin has not said publicly
 already? He has already told Putin has
 already told Trump's envoy Steve
-Wickoff that Kellogg Minus the peace
+Witkoff that Kellogg Minus the peace
 plan that was proposed two weeks ago now
 10 days ago now during the meetings in
 Paris and London that that won't fly

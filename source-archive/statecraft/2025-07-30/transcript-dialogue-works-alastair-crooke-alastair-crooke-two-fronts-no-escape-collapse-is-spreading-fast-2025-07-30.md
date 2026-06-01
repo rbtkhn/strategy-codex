@@ -715,7 +715,7 @@ politicians. And yesterday in response
 to what you read from Donald Trump and
 his statement about the Iranian
 enrichment, the foreign minister of
-Iran, Arachi said that
+Iran, Araghchi said that
 we know what has happened during the 12
 days of war between Iran and the United
 between Iran and Israel. You know where
@@ -1173,7 +1173,7 @@ assume they're going to attack Iran,
 something big happens in the West Asia,
 in the Middle East, Iran has the
 capability of
-of blocking the straight of Hormones and
+of blocking the Strait of Hormuz and
 bubble mandab in the Red Sea. That would
 hugely influence Europe. That would be
 hugely

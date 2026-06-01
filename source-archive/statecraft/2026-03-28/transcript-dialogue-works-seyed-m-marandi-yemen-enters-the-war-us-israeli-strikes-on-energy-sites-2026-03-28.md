@@ -1461,7 +1461,7 @@ sort of arguments. But after all,
 how do you see the tone in the United
 States? We had a cabinet member meeting.
 Donald Trump was talking there. We had
-Steve Witcoff mentioning
+Steve Witkoff mentioning
 why did the United States decide to go
 to war?
 You know, again reiterating the same

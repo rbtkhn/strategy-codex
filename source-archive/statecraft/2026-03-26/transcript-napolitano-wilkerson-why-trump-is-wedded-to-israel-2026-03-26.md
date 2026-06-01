@@ -13,7 +13,7 @@ quality_note: Normalized to remove routine ideological cold open, sponsor/promo 
 
 # COL. Lawrence Wilkerson: Why Trump Is Wedded to Israel
 
-Hi everyone, Judge Andrew Npalitano here for Judging Freedom.
+Hi everyone, Judge Andrew Napolitano here for Judging Freedom.
 
 Lawrence Wilkerson joins us now. Colonel Larry, welcome here, my dear friend. Thank you for accommodating my schedule. We had some technical issues, but you are well worth the wait, young man. And I appreciate your dedication to this cause. Colonel, the Pentagon is apparently considering diverting US military aid from Iran to Israel. A, does this surprise you? B, what does this mean?
 

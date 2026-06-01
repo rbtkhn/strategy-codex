@@ -45,7 +45,7 @@ Uh so, they are trying to profit from the general confusion of the war. Um the t
 Um and uh they hadn't. Uh they were they they kept operating, huh? So, I'm not convinced uh by the claims. Uh and I don't know whether Iran has successfully hidden uh and stored up its air defenses for the moment when the Israeli and US side have been sufficiently weakened to bring those defenses out. That's an open question.
  Maybe those defenses have been destroyed, but I doubt it because I think Iran has planned for this war for a long time and it knows knows what it's doing. Finally, I note that there's no ground element to this campaign except now there is an effort to energize Kurds, Baluch, Arabs, other minorities in Iran who have been manipulated over the years by Mossad, CIA, MI6 and the Saudi intelligence service to try to pursue an independence from the Iranian state.
 I don't think this is going to succeed at all and and it does does risk a civil war in Iran, but I don't believe that will happen. So I'm looking at this and saying look we're 7 days into this. Everything's very unclear. Sometime midweek next week if I'm right. I mean after all it took 12 days to pretty much exhaust Israel's interception capability in the June war last year.
-Sometime let's say 12 days from February 28th we'll know whether Israel has the ability to carry on. >> [clears throat] >> We'll know shortly after that we'll know whether the United States can carry on. I hear brave statements out of Secretary of Defense self-styled Secretary of War Hagel said to the effect that there's no problem with supplies.
+Sometime let's say 12 days from February 28th we'll know whether Israel has the ability to carry on. >> [clears throat] >> We'll know shortly after that we'll know whether the United States can carry on. I hear brave statements out of Secretary of Defense self-styled Secretary of War Hegseth said to the effect that there's no problem with supplies.
  I don't believe that for a minute. I think this war can't go on too much longer on the anti-Iranian side and I suspect Iran is prepared for a long war. So, I'll end here. Ambassador, what is your What do you make of what Tucker Carlson reported that two Mossad agents in Saudi Arabia and Qatar were arrested because they wanted to bomb somewhere? And you know, when they're saying that Iran is attacking the US bases in Saudi Arabia and Qatar and all of these Arab states and they decide to do this.
  And the other part of this puzzle is what has happened in Azerbaijan. And Iran said we were not behind the attack on Nakhchivan. Nakhchivan is, you know, from Azerbaijan. And how do you see that? How do you see the manipulation that is happening? Well, from the very outset of the establishment of the Zionist state in Israel, one of its routine techniques has been false flag attacks.
  It attacked Muslims in Egypt in to in order to scare them into leaving Egypt and emigrating to Israel. This is in the 1940s. It has a long history of this kind of thing. False flag. So, I find it entire I don't know whether Tucker Carlson is correct or not, but I find it entirely plausible that he is correct that there has been an Israeli false flag operation in Saudi Arabia intended to do two things.
@@ -463,7 +463,7 @@ whether the United States
 can carry on.
 I hear brave statements out of
 Secretary of Defense
-self-styled Secretary of War Hagel said
+self-styled Secretary of War Hegseth said
 to the effect that there's no problem
 with supplies. I don't believe that for
 a minute.

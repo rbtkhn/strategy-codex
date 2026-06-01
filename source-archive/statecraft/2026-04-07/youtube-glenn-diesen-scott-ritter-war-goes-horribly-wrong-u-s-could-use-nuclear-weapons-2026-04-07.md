@@ -561,7 +561,7 @@ would assume that there will be you know
 more apprehension or caution uh in the
 Pentagon but uh is there any
 possibilities now opening up the
-straight of her moose any real purpose
+Strait of Hormuz any real purpose
 of ground troops or I'm just wondering
 if Trump is sitting at his desk now with
 the different OP options. Well, what you
@@ -733,7 +733,7 @@ Iranians, last I heard was uh ceased the
 negotiations given the aggressive
 rhetoric coming out of Washington. But
 uh but on the other hand, you know, it
-appears that Witco Kushner has been
+appears that Witkoff Kushner has been
 taken off and JD Vance, which um
 apparently never wanted this war, uh
 will do some of the negotiations. Do you

@@ -158,7 +158,7 @@ and the fact that there are no allies might be another factor which is causing t
 
 An acceptable compromise which to be clear would be a win overall for Iran but an acceptable compromise. Well, even as these talks appear to be about to happen, we are today starting on a new set of talks in another Middle East capital, Abu Dhabi to be precise, between the Russians and the Ukrainians.
 
-We are about to have the resumption of discussions of the working party that was set up about two weeks ago after President Putin met with Kushner and Witgo in the Kremlin. There was a meeting that took place 10 days ago um and there is now a further meeting going to take place today. Now there are different views about the state of this dis of these discussions.
+We are about to have the resumption of discussions of the working party that was set up about two weeks ago after President Putin met with Kushner and Witkoff in the Kremlin. There was a meeting that took place 10 days ago um and there is now a further meeting going to take place today. Now there are different views about the state of this dis of these discussions.
 
 Um Gordon Han has suggested that there are reasons there are grounds for measured optimism. He says that there's been no sign of any breakthrough but um there is apparently a narrowing of differences about the question of Ukrainian withdrawal from Donbass. And though we seem to be as far away as ever on the major political issues, um, nonetheless, the fact that the two parties are talking, that they're not shouting at each other or banging tables or refusing to meet in over working lunches, that all of that somehow um gives cause for optimism.
 
@@ -192,7 +192,7 @@ But it seems to me very likely that it it was true. In other words, that the Ame
 
 Well, um that may explain why Zalinski initially didn't want to see the meeting happen at all. Firstly, he seems to have pressed Trump to get the Russians to agree to a ceasefire in the energy war. Um I understand that the Ukrainians brought this up with the Americans um over the last two weeks that the proposal was brought with them to Moscow by WitGoff and Kushner when they met Putin.
 
-I've discussed this in previous programs. I've said I've said in previous programs that Ushakov's account of the meeting of Putin's last meeting with Witkov and Kushner strongly suggested that the Russians rejected the idea of a ceasefire, an energy a ceasefire in terms of attacks on respective energy systems and There were reports in the Russian media at the time of the first meeting in Abu Dhabi that the Ukrainians again brought up the subject of a ceasefire with the Russians at the actual Abida Abu Dhabi meeting when the Russians the Russian delegation led by General Admiral Kosukov rejected the proposal outright.
+I've discussed this in previous programs. I've said I've said in previous programs that Ushakov's account of the meeting of Putin's last meeting with Witkoff and Kushner strongly suggested that the Russians rejected the idea of a ceasefire, an energy a ceasefire in terms of attacks on respective energy systems and There were reports in the Russian media at the time of the first meeting in Abu Dhabi that the Ukrainians again brought up the subject of a ceasefire with the Russians at the actual Abida Abu Dhabi meeting when the Russians the Russian delegation led by General Admiral Kosukov rejected the proposal outright.
 
 What then seems to have happened is that Zalinski learning that the next meeting was going to be purely with the Russians that the Americans would not be there. He was very unhappy. He wasn't happy about the Ukrainian delegation meeting the Russians in Istanbul last year.
 
@@ -218,7 +218,7 @@ Um, and one has to ask whether this is really appropriate or makes any sort of s
 
 all of these technical things even when they should properly speaking be preparing for the very serious negotiations that they're going to be conducting on the 6th of February in Oman when they're meeting the Iranians. Not for the first time. It seems to me that President Trump is asking far too much of Steve Witg who hardworking and intelligent man though he [snorts] of course is nonetheless is not somebody with an enormous amount of experience in this kind of negotiation and who does not have a big team of assistants and advisers.
 
-from the State Department and the National Security Council working for him. I would have thought the least the last thing one would want to do given the stakes involved is to send Whit into a meeting with Arachi on the 6th of February unprepared, but that it seems to me is very likely what we're going to see.
+from the State Department and the National Security Council working for him. I would have thought the least the last thing one would want to do given the stakes involved is to send Whit into a meeting with Araghchi on the 6th of February unprepared, but that it seems to me is very likely what we're going to see.
 
 Anyway, that's how it looks to me. I repeat again that there is a degree of speculation on my part here of putting the jigsaw pieces together in a certain way. But then it's perhaps interesting to track what Zalinski is saying and it perhaps does bring us back to this point which we are and it explains the reasoning of what I have just said.
 

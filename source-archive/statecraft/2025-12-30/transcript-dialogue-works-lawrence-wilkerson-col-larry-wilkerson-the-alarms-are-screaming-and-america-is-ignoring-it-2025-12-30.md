@@ -482,7 +482,7 @@ things people do when they're busted
 flat broke and have no prospects for the
 future. Um, and Trump would be looking
 for that kind of excuse and he has
-sycophants like Rubio and Hexth that
+sycophants like Rubio and Hegseth that
 would like to do that too. And so we
 come down to the point where maybe they
 do really badly in the midterms or maybe
@@ -692,7 +692,7 @@ political aisle. So that's terrorizing
 them and it's particularly terrorizing
 Trump. And I'm beginning to believe I
 didn't at first. I believe Tucker
-Carlson. I believe Judge Npalitano. And
+Carlson. I believe Judge Napolitano. And
 it's no slight on him to say I'm I'm I'm
 having a little bit of doubts now
 because people who had known Trump

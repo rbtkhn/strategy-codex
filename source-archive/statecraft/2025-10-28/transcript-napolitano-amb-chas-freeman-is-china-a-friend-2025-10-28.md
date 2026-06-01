@@ -21,7 +21,7 @@ quality_note: Normalized to remove sponsor/promo copy and transcript noise; mino
 
 ## Judge Andrew Napolitano
 
-Hi everyone, Judge Andrew Npalitano here for Judging Freedom. Today is Tuesday, October 28th, 2025. Ambassador Chaz Freeman will be here with us in just a moment. Is China friend or foe?
+Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Tuesday, October 28th, 2025. Ambassador Chaz Freeman will be here with us in just a moment. Is China friend or foe?
 
 Ambassador, welcome here, my dear friend. Good to see you. Thank you for accommodating my schedule. Before we get to China and President Trump's efforts to untie a knot that he tied rather tightly, I want to ask you a few questions about the Israelis and Gaza.
 

@@ -1154,7 +1154,7 @@ and China
 to increase pressure on Iran at least to
 allow commercial traffic to pass
 unrestricted
-through the straight of Hormos.
+through the Strait of Hormuz.
 Well, as I discussed in my program
 yesterday, none of that happened. There
 was no promise to that effect made by
@@ -1187,8 +1187,7 @@ help the Americans
 get themselves out of the mess they're
 in
 with Iran and with the situation in the
-energy markets and in the straight of
-hormos.
+energy markets and in the Strait of Hormuz.
 And
 it should be said again that there
 doesn't seem to be any coherent
@@ -1374,7 +1373,7 @@ minister's meeting of the brick states
 in India chaired by the Indian foreign
 minister Mr. Jai Shankar
 Lavro attended. So did the Iranian
-foreign minister Abbas Arashi.
+foreign minister Abbas Araghchi.
 He had apparently a very friendly
 meeting with Jai Shankar which suggests
 that the recent problems in Iranian

@@ -795,7 +795,7 @@ been
 conveyed in meeting after meeting. Lavro
 meeting Rubio, Karassin meeting um Pak
 and
-Anton. And of course, Wickoff meeting
+Anton. And of course, Witkoff meeting
 Ushakov and Putin himself. And of
 course, Wick Goof has now met Putin on
 three occasions. And I'm confident also
@@ -846,7 +846,7 @@ prolongation of the war and further
 conflict with Russia.
 Anyway, the Wall Street Journal suggests
 that for the moment at least, Trump is
-tilting more to Wickoff uh Witkov's view
+tilting more to Witkoff uh Witkoff's view
 than to that of Rubio,
 Kellogg, and uh Wols. For the record, I
 think of that of those three, the real
@@ -899,7 +899,7 @@ biased against them and far too biased
 towards the Ukrainians. So anyway, that
 is the division. Now the president is
 said to favor
-Wickoff, but clearly there is conflict
+Witkoff, but clearly there is conflict
 because the State Department, which
 means Rubio, but also the many officials
 in the State Department and the State
@@ -915,7 +915,7 @@ department has recently been
 publishing comments, further comments
 saying that they cannot be any easing of
 sanctions, any economic agreements with
-Russia of the sort that Witgov clearly
+Russia of the sort that Witkoff clearly
 wants. He made that very clear in the
 interview he just gave to Fox News.
 There cannot be any such economic
@@ -930,7 +930,7 @@ not yet been a clear decision made by
 the president of the United States
 coming down one way or the other, saying
 to Rubio, Wals and Kellogg, I'm going to
-go with Witoff on this. Wickoff is
+go with Witkoff on this. Witkoff is
 obviously right. If we are going to
 stick to this idea of trying to get a
 ceasefire, then the war is going to go
@@ -947,7 +947,7 @@ Trump so far has not made that decision.
 Nor by the way of course has he made the
 other decision the alternative decision
 which is to go with Rubio Waltz and
-Kellogg against Wickoff. So we continue
+Kellogg against Witkoff. So we continue
 to be in this
 world
 between the neocons on the one hand and

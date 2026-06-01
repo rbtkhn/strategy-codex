@@ -70,7 +70,7 @@ did the other way for roughly 2,000
 years.
 And the empire badly led led by a three-
 ring circus with Trump in the center and
-Hegth on the left and Rubio on the
+Hegseth on the left and Rubio on the
 right, if you will, and the billionaires
 behind them is
 just absolutely ignorant of this fact.
@@ -442,7 +442,7 @@ I don't think they believe that they can
 rescue us, if you will. I don't think
 they believe that they can come up with
 a diplomatic approach as like if you
-will, which is what Xiinping wants to
+will, which is what Xi Jinping wants to
 do, I think. um based on trade, based on
 economics, based on commerce, based on
 the kinds of things that throughout

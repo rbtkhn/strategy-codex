@@ -33,7 +33,7 @@ a half trillion dollars and is very inflationary. Uh his tariff policies aren't 
 
 I think particularly those in the butoaucracy who supported him, they're very happy they got a tax cut. They don't care about uh the uh what's happening to people down the down the food chain at the bottom of the ladder. Um they're happy. The stock market has done very well. That is not the same as the economy. So I think we have a lot of domestic and international um problems that Mr.
 
-Trump has aggravated or created and people are unhappy. He sent Steve Witkov to talk with Vladimir Putin and he said the outcome was positive and he's going to meet with Vladimir Putin. Do you see that meeting coming and if so what would you assume to be the outcome of that meeting? >> Very difficult questions indeed.
+Trump has aggravated or created and people are unhappy. He sent Steve Witkoff to talk with Vladimir Putin and he said the outcome was positive and he's going to meet with Vladimir Putin. Do you see that meeting coming and if so what would you assume to be the outcome of that meeting? >> Very difficult questions indeed.
 
 Um first it appears that he initially at least u conditioned the possibility of that meeting on a simultaneous or serial meeting between between President Putin and uh and Vladim Vladimir Zilinski and it's very clear and President Putin has reiterated he's not prepared to meet with Zilinski until a whole series of conditions have been met which are very unlikely.
 
@@ -61,7 +61,7 @@ Uh this is normal. Um, of course, you can get um a summit meeting where uh somet
 
 at a meeting of the minds and um the and we we got an opening to um to Russia to the Soviet Union that nobody expected that ultimately proved fatal to the Soviet Union of course because it could not survive the level of openness and connection abroad that uh that meeting in Reikuic began. But in any event, um you're absolutely right.
 
-Uh this summit meeting should be must be very carefully prepared. And I go back to the fact um you know I think Mr. Wickoff is a very smart man. He's a good real estate negotiator. Uh he's a he has the president's confidence, but he goes into Moscow with no loan takers, no assistance. and what comes out is uncertain. The same thing happened with Israel.
+Uh this summit meeting should be must be very carefully prepared. And I go back to the fact um you know I think Mr. Witkoff is a very smart man. He's a good real estate negotiator. Uh he's a he has the president's confidence, but he goes into Moscow with no loan takers, no assistance. and what comes out is uncertain. The same thing happened with Israel.
 
 The same thing happened with Iran. Um so u the preparatory work which is essential does not appear to have been done. >> It wasn't it was so amazing to me that he doesn't take any sort of notes. You see the the on the part of Russians or Iranian whenever they talk they negotiate there are people who are gathering the points then taking notes from the talks but nothing of that sort is happening it's somehow amazing to me what's going on >> well there is a global professional culture of diplomacy uh diplomacy in its modern state has its
 
@@ -109,7 +109,7 @@ basically want to continue the war as long as it can they can use it to hurt Rus
 
 And so um in Germany now the war is being used as an excuse for military Keynesianism, increasing spending on the military-industrial complex and rearming Germany which others other Europeans look at with some apprehension. So there is no unified position. There's no proposal either from the United States that we're aware of.
 
-We don't know what Mr. Whitov has been saying and um there's great opposition in the United States including going back to the question you initially asked within the U Trump cult in the Republican party the mega movement there's no common view there are people supporters of the of the Trump administration like Lindsey Graham who are, you know, very very um determined to continue the war and strongly support Ukraine.
+We don't know what Mr. Witkoff has been saying and um there's great opposition in the United States including going back to the question you initially asked within the U Trump cult in the Republican party the mega movement there's no common view there are people supporters of the of the Trump administration like Lindsey Graham who are, you know, very very um determined to continue the war and strongly support Ukraine.
 
 The vice president is on record is uh arguing for an early stop to the war and that support for Ukraine is not in the American national interest. So there's no agreement at all either domestically or internationally. And we're left in a position where the only people who have a clear view are the Russians.
 

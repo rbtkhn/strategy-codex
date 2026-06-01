@@ -255,9 +255,9 @@ nuclear weapons and not have nuclear
 
 weapons. Um Iran cannot both control the
 
-straight of hormones and not control the
+Strait of Hormuz and not control the
 
-straight of hormones. America cannot
+Strait of Hormuz. America cannot
 
 both have its forces in the Middle East
 

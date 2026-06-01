@@ -699,14 +699,14 @@ house of cards. And he's getting all of
 this russophobic advice and nobody
 who knows anything about Russia's in his
 orbit.
-I mean Steve Witco has, you know, a
+I mean Steve Witkoff has, you know, a
 window into the reality of Russia
 through Curiel Deitriv and his
 occasional meetings with Vladimir Putin.
-But Witco's not a good conduit because
-Witco can't translate Russian reality
+But Witkoff's not a good conduit because
+Witkoff can't translate Russian reality
 into effective advice for Donald Trump.
-Witoff is simply a tool used by Donald
+Witkoff is simply a tool used by Donald
 Trump to send messages to Russia, but
 he's not a very good uh conduit for
 receiving messages and accurately

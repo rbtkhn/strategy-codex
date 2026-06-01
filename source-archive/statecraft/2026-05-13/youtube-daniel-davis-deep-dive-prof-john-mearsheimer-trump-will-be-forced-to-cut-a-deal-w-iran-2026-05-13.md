@@ -514,7 +514,7 @@ disconnected from reality. If it was
 just him, you might say, "All right, we
 have a real problem here." But it's not
 just him. on the Hill yesterday there
-was uh Secretary of Defense Pete Hexath
+was uh Secretary of Defense Pete Hegseth
 and Chairman of Joint Chiefs of Staff
 Dan Kaine were testifying uh on on the
 status of the war and both parties
@@ -847,7 +847,7 @@ something else. I know it's in one of
 your uh your wheelhouses and that's
 certainly with the issues in China. Uh
 and President Trump is in China right
-now with Xiinping and they're doing a
+now with Xi Jinping and they're doing a
 number of things. Uh President Trump
 took a whole bunch of business leaders
 with him. So he seems to be focused more
@@ -869,11 +869,11 @@ advances within China. But at the same
 time, he also recognizes he has
 underperforming economy and rising youth
 unemployment. So when he looks at this
-summit, I Xiinping would like to have a
+summit, I Xi Jinping would like to have a
 stabilized US relationship because I
 need that in order to stabilize and
 improve my own economic performance.
-&gt;&gt; So if that's if that's what uh Xiinping
+&gt;&gt; So if that's if that's what uh Xi Jinping
 needs, what does President Trump needs?
 And will either one of them get what
 they need? Well, President Trump needs a

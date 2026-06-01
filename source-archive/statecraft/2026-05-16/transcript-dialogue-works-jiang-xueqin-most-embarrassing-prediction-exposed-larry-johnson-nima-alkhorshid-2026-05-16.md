@@ -179,7 +179,7 @@ And that's why you need a national draft.
 
 Going to draft them, okay? And we're drafting them for exclusively to invade Iran. You know, we're not going to worry about any other part of the world. Not about Asia, not about Africa. Just exclusive.
 
-We're going after Iran, baby. That's the big kahuna. Okay. So, how long does it take to raise and train a three million man army? uh with a draft uh with a full commitment uh you could probably do it about two years. Okay, so two years from now then okay you got that army where how are you going to invade Iran? Are you going to have a landing in beachcraft uh you know on on on uh from ships on the southern coast or are you going to try to sail up into the straight of Hermuz where your ships will be blown out of the water by cruise missiles, short-range ballistic missiles, intermediate range ballistic missiles, drones, underwater drones, surface drones, and submarines.
+We're going after Iran, baby. That's the big kahuna. Okay. So, how long does it take to raise and train a three million man army? uh with a draft uh with a full commitment uh you could probably do it about two years. Okay, so two years from now then okay you got that army where how are you going to invade Iran? Are you going to have a landing in beachcraft uh you know on on on uh from ships on the southern coast or are you going to try to sail up into the Strait of Hormuz where your ships will be blown out of the water by cruise missiles, short-range ballistic missiles, intermediate range ballistic missiles, drones, underwater drones, surface drones, and submarines.
 
 Okay, so you can't do that. That's not possible. So maybe land him down around Chavahar. Uh or go go go into Iraq state. You got to you know even if you have them on the ships, you can't put 3 million men on ships. We don't have enough ships.
 
@@ -239,9 +239,9 @@ Um the uh China uh has expanded its trade relations. You know 20 years ago prima
 
 I just saw a video on X. Uh it's it it's you remember uh uh the the fat guy Chris Farley. He was on Saturday Night Live, you know. So this is Donald Trump that looks like Chris Farley with his, you know, huge belly and wearing a white t-shirt, but it's barely up over his over his belly button.
 
-And and this is, you know, this is an AI generated, so it looks like the real person. And on one side is Elon Musk, on the other side is Pete Hegsef. And they're walking him along and on the front of his t-shirt he says, "I went to China and all I got was this lousy t-shirt." And they go, "God, what's that smell? We need some diapers over here."
+And and this is, you know, this is an AI generated, so it looks like the real person. And on one side is Elon Musk, on the other side is Pete Hegseth. And they're walking him along and on the front of his t-shirt he says, "I went to China and all I got was this lousy t-shirt." And they go, "God, what's that smell? We need some diapers over here."
 
-[laughter] Okay, that's more of an apt description of what the state of the United States is right now. Visa v China. the, you know, I I was thinking of how fortunate Xiinping is and Vladimir Putin when a a someone from another country comes to visit, you know, the imperial palace in Beijing or the Kremlin and Moscow.
+[laughter] Okay, that's more of an apt description of what the state of the United States is right now. Visa v China. the, you know, I I was thinking of how fortunate Xi Jinping is and Vladimir Putin when a a someone from another country comes to visit, you know, the imperial palace in Beijing or the Kremlin and Moscow.
 
 The United States doesn't have can't hold a candle to that. Not I mean we've got some some very uh beautiful buildings but they're relatively young. They're not centuries old and they are not dominating in the way like the Kremlin does. The Red Square. Uh you know that's that's an incredible experience for anybody that's been fortunate enough to go there.
 

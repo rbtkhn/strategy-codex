@@ -47,7 +47,7 @@ donor class, the Israel lobby, gets to
 pick who goes and negotiates on behalf
 of the American government. And I hate
 to say it that way. I don't like that.
-However, when you've already got Witco
+However, when you've already got Witkoff
 and Kushner who are definitely pro
 pro-Israel um on the negotiating team,
 we had Vice President Vance there for a

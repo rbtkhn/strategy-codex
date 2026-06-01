@@ -183,7 +183,7 @@ And I don't understand.
 
 >> But your argument is if we don't and we push them into a corner even with that diminished security they would rather have that than no security. Is that your position? If we leave them no choice at some point in you know every country is a complex has a complex domestic political infrastructure and we know that there are people inside Iran who think it's a good idea to have nuclear weapons now as quickly as possible. I think they're wrong.
 
-I think Zarif thinks they're wrong. Um I think uh uh Abbas Arachi the current prime minister also thinks they're well
+I think Zarif thinks they're wrong. Um I think uh uh Abbas Araghchi the current prime minister also thinks they're well
 
 >> foreign minister
 
@@ -191,7 +191,7 @@ I think Zarif thinks they're wrong. Um I think uh uh Abbas Arachi the current pr
 
 >> Yeah
 
->> and uh and uh you know and he's rational too and very well informed. So let's negotiate. If you push the Iranians into a posture where uh the people like Aragchi and Zarif cannot prevail in the internal domestic debate and they proceed to build nuclear weapons, we're all going to be in a much less secure situation.
+>> and uh and uh you know and he's rational too and very well informed. So let's negotiate. If you push the Iranians into a posture where uh the people like Araghchi and Zarif cannot prevail in the internal domestic debate and they proceed to build nuclear weapons, we're all going to be in a much less secure situation.
 
 Iran
 
@@ -275,7 +275,7 @@ We we we can't dispute it. There it is right on the screen.
 
 >> What happened uh that led to this uh lying campaign by a soldier? I'm sorry to sound by a soldier who should know better. I'm really, you know, it pisses me off, I must say. Right. But what what what resulted in this liaring uh from a soldier who should know better is um is a leak that was published in the Washington Post uh of of a supposed CIA assessment that concluded that the Iranians have 75% of their firepower still in place.
 
-Now Aragchi was then quoted later shortly thereafter uh saying the CIA report was wrong. He said that they have 120% of what they had before the attack. Now I don't I'm not going to you know I have no idea whether Aragchi is correct and also I doubt the CIA report is anything more than an informed guess. But an informed guess is still, you know, 75% would not surprise me.
+Now Araghchi was then quoted later shortly thereafter uh saying the CIA report was wrong. He said that they have 120% of what they had before the attack. Now I don't I'm not going to you know I have no idea whether Araghchi is correct and also I doubt the CIA report is anything more than an informed guess. But an informed guess is still, you know, 75% would not surprise me.
 
 90% still in place would not surprise me and 120% in we don't know. The bottom line is we don't know and we cannot know. So these uh claims you know a 75% uh estimate based on you know just looking at the technology available to us and the technology already implemented by the Iranians a 75% uh gueststimate is quite plausible to me.
 

@@ -15,7 +15,7 @@ source_note: "Direct YouTube watch URL supplied by operator in Codex chat. Full 
 
 ## Transcript
 
-Hi everyone, Judge Andrew Npalitano here for Judging Freedom. Today is Thursday, November 13th, 2025. Professor John Mir Shmer will be with us in just a moment on what is the Russian calculus? Does President Putin want a long war? Professor Mir Shammer, good day to you, my dear friend. Thank you as always for joining us.
+Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Thursday, November 13th, 2025. Professor John Mir Shmer will be with us in just a moment on what is the Russian calculus? Does President Putin want a long war? Professor Mir Shammer, good day to you, my dear friend. Thank you as always for joining us.
 
 Thank you especially for accommodating [clears throat] my schedule. Not your usual day or your usual time, but you are always welcome here, my friend. Before we get to President Putin's plans and the tolerance level of the Russian elites and the Russian people, a few questions about Israel. From [snorts] your understanding, has the Israeli prison rape scandal strengthened or weakened Prime Minister Netanyahu's standing amongst the Israeli people?
 

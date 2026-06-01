@@ -15,7 +15,7 @@ evidence_grade: transcript-bearing
 
 # COL. Douglas Macgregor: A U.S. - Iran War Could Spiral Out of Control
 
-Hi everyone, Judge Andrew Npalitano here for Judging Freedom.
+Hi everyone, Judge Andrew Napolitano here for Judging Freedom.
 
 Today is Tuesday, February 10th, 2026. Colonel Douglas McGregor will be here uh in a moment on a United States versus Iran. War could soon spin out of control and some breaking news on China. >> Conor McGregor. Uh, welcome here. Before we get uh to uh the your your view on what could spiral out of control in a United States uh versus Iran uh war.
 

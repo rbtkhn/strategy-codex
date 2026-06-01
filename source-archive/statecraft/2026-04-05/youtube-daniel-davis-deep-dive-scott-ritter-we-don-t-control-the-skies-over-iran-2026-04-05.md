@@ -117,7 +117,7 @@ region. So, there's lots of radar
 systems, counterair systems that are
 being moved into place as well. You do
 move it there for a purpose of leverage
-and negotiation. Mr. Wickoff's position
+and negotiation. Mr. Witkoff's position
 is much stronger when there's a bunch of
 Marines sitting on your doorstep. This
 is not time to pull back. They still
@@ -264,7 +264,7 @@ just cause to fight for not just because
 you're told to or because of something
 else fake. And this is what I believe
 I'd like your view specifically. This is
-from Secretary Hexath this morning where
+from Secretary Hegseth this morning where
 he's trying to give the justification to
 the troops as to why they should fight.
 Tell me, as a as a former combat soldier
@@ -729,7 +729,7 @@ said and done, you know, we need to,
 we're the nation of jurisdiction. We
 need to hold these people accountable
 right now. And I'm telling you right off
-the bat, Pete Hegth must be arrested,
+the bat, Pete Hegseth must be arrested,
 tried, and if if he's committed the
 crimes, and I believe he has, convicted.
 Um, I'm not arguing for the death
@@ -742,7 +742,7 @@ you know life after defecting to the
 British after the war ended in a in in
 Spandow prison. Um Fort Levvenworth
 should have a room called the Pete
-Hexath Memorial Room and that's where
+Hegseth Memorial Room and that's where
 Pete gets to spend the rest of his life
 thinking about the crimes he has
 committed, the stupidity of his actions.

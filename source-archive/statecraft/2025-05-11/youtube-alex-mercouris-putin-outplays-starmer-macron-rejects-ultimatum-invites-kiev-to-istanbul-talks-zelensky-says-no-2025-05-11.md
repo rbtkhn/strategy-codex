@@ -1086,7 +1086,7 @@ that things have moved forward. So
 things are moving forward. Why would he
 want to go ahead and impose massive
 sanctions? There's word now, by the way,
-that Witgov, Steve Witgo, is going to be
+that Witkoff, Steve Witkoff, is going to be
 flying to Moscow for the fifth time.
 What exactly is he going with? Well,
 according to NBC, he's going to Moscow
@@ -1094,7 +1094,7 @@ with a 22 point proposal.
 It seems to be heavily
 modeled on the European plan. The
 Russians will however presumably say to
-Witgov when he comes, Putin will say to
+Witkoff when he comes, Putin will say to
 Wit Golf when he comes, "Well, this is
 all very, very interesting. Maybe we can
 work with some of this. Apparently, the

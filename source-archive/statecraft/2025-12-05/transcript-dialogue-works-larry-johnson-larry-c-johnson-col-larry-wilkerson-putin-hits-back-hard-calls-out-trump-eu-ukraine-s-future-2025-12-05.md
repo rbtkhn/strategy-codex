@@ -771,7 +771,7 @@ vice chairman or a chairman or a chief
 of service. Not a single one, Colon.
 What's wrong? That's our heritage.
 That's what we have now. Morons. And
-Hegth leads the pack.
+Hegseth leads the pack.
 >> Yeah.
 >> Yep. [laughter]
 Can't argue with that, you know. Amen.
@@ -790,10 +790,10 @@ the whole security architecture of the
 region if we assume that and what is the
 priority of Russia as we talk today?
 Well, the what took place uh earlier
-this week uh in Moscow with Witoff and
+this week uh in Moscow with Witkoff and
 Kushner
 this this
-Kushner and Witoff were let's call it on
+Kushner and Witkoff were let's call it on
 the tactical level they they were
 dealing with you trying to talk about
 nuts and bolts. Uh you know what what
@@ -804,7 +804,7 @@ talking about
 do we want to even have cars or is there
 another better way of transportation?
 Okay, so that the five hours was spent
-getting Kushner and Witoff detached from
+getting Kushner and Witkoff detached from
 their their their focus on what they
 could do to achieve a ceasefire.
 There there's still uh Trump is still
@@ -909,7 +909,7 @@ going to continue with the same you know
 policy as we've seen so far?
 >> That's not going to wash with Xi Jinping
 or the Pip Bureau or anyone in China of
-official note Wangi the foreign
+official note Wang Yi the foreign
 minister. It's just not going to wash.
 China would like to have better rel
 relations with Europe and has said so

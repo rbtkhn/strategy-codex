@@ -195,7 +195,7 @@ not based on fleeting cooperations
 considerations but is of a long-term
 nature now that is clearly all directed
 at the United States at the Trump
-Administration note what wangi is saying
+Administration note what Wang Yi is saying
 you might be trying to win over the
 Russians against us but it's not going
 to happen we trust each other our trust
@@ -250,13 +250,13 @@ modern era and is a vital stabilizing
 force in a turbulent and changing world
 and again we see those words it is not
 subject to interference or influence by
-any third party so wangi is repeating
+any third party so Wang Yi is repeating
 the same thing um all over again um well
 rather the global times is repeating
 again the points that wangyi has made
 now um just to say there's also been um
 a uh meeting between
-wangi and lavro
+Wang Yi and lavro
 um the Chinese have not yet provided
 their own readout of this meeting U at
 least not in English um but um the
@@ -272,7 +272,7 @@ Dynamic strides amid intense turbulence
 and expressed r Readiness to continue
 enhancing comprehensive partnership and
 strategic cooperation with China Sergey
-Lov and wangi had an indepth exchange of
+Lov and Wang Yi had an indepth exchange of
 views on the schedule of bilateral
 contacts at the highest and high levels
 as well as on certain issues of
@@ -447,15 +447,15 @@ Iran Russia and who knows maybe other
 countries including China is being
 prepared and it looks like from the
 readout the Russian
-readout of the meeting between wangi and
+readout of the meeting between Wang Yi and
 lavro that the Russians and the Chinese
 are in discussion with each other about
 this
 anyway moving on the next sentence of
 the Russian readout in of the discussion
-between wangi and lavro is extremely
+between Wang Yi and lavro is extremely
 interesting it says that LA lavro and
-wangi also discussed Pro Prospects for
+Wang Yi also discussed Pro Prospects for
 building a new security entity in
 Eurasia amid
 stagnating Euro Atlantic
@@ -537,7 +537,7 @@ something that takes
 us rather closer to an alliance just a
 sec
 anyway um as
-wangi has been in China sorry in Russia
+Wang Yi has been in China sorry in Russia
 the Chinese military have been
 conducting a massive military exercise
 around
@@ -694,7 +694,7 @@ guarantee for both and if you look at
 these readouts these commentaries about
 this meet these meetings between wangyi
 and Putin
-and wangi and lavro you can see it all
+and Wang Yi and lavro you can see it all
 there they talk about a long-term stable
 predictable relationship and they see
 their relationship with each other as

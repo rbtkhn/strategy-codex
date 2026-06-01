@@ -15,7 +15,7 @@ evidence_grade: transcript-bearing
 
 # COL. Lawrence Wilkerson: The Conflict That Could Draw Everyone In
 
-Hi everyone, Judge Andrew Npalitano here for Judging Freedom.
+Hi everyone, Judge Andrew Napolitano here for Judging Freedom.
 
 Today is Thursday, February 12th, 2026. My dear friend, Colonel Lawrence Wilkerson joins us now. Colonel, I want to talk to you um about your understanding of what could happen militarily and regionally uh if the president of the United States along with the Israelis uh attacks Iran. Uh but before we get there, a couple of other semi-related issues.
 
@@ -67,7 +67,7 @@ If you look at the the rules of war, I mean, Iran is perfectly within its right 
 
 When Scott Bessant gets up there and prates on the TV and tells everybody that he's punished the Iranians, what he's saying is I'm killing children. food off their table and so forth. That's what G is saying inspired him to do what he is now going to do because this system that we have instructed and that we use and force on others is poisonous.
 
-Before we transition to your analysis of what is likely to happen uh if the if the United States uh attacks [snorts] uh my friend and former Fox colleague Rick Sanchez now at Russia Today just completed an interview with Iranian President uh Peskin and there's a couple of lines in there that are very telling for our conversation.
+Before we transition to your analysis of what is likely to happen uh if the if the United States uh attacks [snorts] uh my friend and former Fox colleague Rick Sanchez now at Russia Today just completed an interview with Iranian President uh Pezeshkian and there's a couple of lines in there that are very telling for our conversation.
 
 This is just about half a minute long. Chris >> need Mr. Trump to tell you personally that since he's the one who broke the promise last time, >> we need a guarantee. We need an we need an an objective guarantee that the same scenario is not going to be repeated and the the United States uh is not using force to resolve differences. Yes.
 
@@ -87,7 +87,7 @@ It's going to ruin his presidency. It's probably going to ruin everything about 
 
 If you don't come with me, I'll use a nuclear weapon. >> Wow. What happens in your view uh if the United States and Israel begin a campaign much like uh the 12-year or forgive me, forgive me, the 12-day war in June, but longer.
 
-As I've said before, I think Israel will cease to exist unless Netanyahu does turn to a nuclear weapon or two. >> Wow. Do you think that Rubio Hegs Seth and the others, even General Dan Kaine have told that to the president? >> I do not. I don't think they even feel it's a prospect. I don't think they understand Iran.
+As I've said before, I think Israel will cease to exist unless Netanyahu does turn to a nuclear weapon or two. >> Wow. Do you think that Rubio Hegseth Seth and the others, even General Dan Kaine have told that to the president? >> I do not. I don't think they even feel it's a prospect. I don't think they understand Iran.
 
 I don't think they know Iran. I think they think they're just fulfilling the clean break strategy, particularly at Rubio, who's a neoconservative bar excels, and that this is just the last step in a series of steps that were started post 911, actually before that, but seriously after 911, and that they are mandated to finish it off and put the entire region into chaos so that Israel will be unthreatened and able to do whatever it wants to do, which in many of their ultra Zionist minds is march all over southwest Asia and establish the greater Israel state.
 

@@ -449,7 +449,7 @@ stupid? [laughter]
 
 Don't they listen to Nema? Don't they
 
-listen to Judge Npalitano?
+listen to Judge Napolitano?
 
 Don't they know what I'm saying?"
 
@@ -1865,7 +1865,7 @@ time when they had assured the Iran on
 
 Saturday, I think it was, they would
 
-come back together again with Witco and
+come back together again with Witkoff and
 
 so forth and then let the Israelis do
 

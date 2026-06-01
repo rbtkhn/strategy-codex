@@ -21,7 +21,7 @@ Good day. Today is Monday, 28th April,
 2025. And the big story at least in
 terms of the Ukrainian conflict over the
 last 24 hours is that after the
-discussions with Witgo
+discussions with Witkoff
 um on Friday after the publication by
 the Americans and the Europeans of the
 various competing plans or frameworks
@@ -192,14 +192,14 @@ Global. And this interview took place on
 the 28th of April. That is to say today.
 Unlike the interview with CBS, this
 interview took place after the meeting
-between Putin and Witgo on Friday.
+between Putin and Witkoff on Friday.
 And in it,
 Lavro was much clearer. He was careful
 in his words in the CBS interview
 because he didn't want to say things
 that would be insulting or offensive to
 Donald Trump and might
-deter Witgo from coming to Moscow the
+deter Witkoff from coming to Moscow the
 following day. But in the interview with
 O Globo, he basically made it clear that
 um what Russia seeks and it's quite
@@ -300,7 +300,7 @@ at any time, whether before that
 Financial Times article was written or
 since then, that implies that its
 content, its claim that Putin had
-indicated to Witgo at a previous meeting
+indicated to Witkoff at a previous meeting
 that Russia was prepared to forego its
 claim to the remaining parts of the four
 regions that it doesn't control. Anyway,
@@ -407,7 +407,7 @@ as to the way to move forward. And then
 the readout continues. The primary focus
 was the Ukraine crisis. Building on the
 discussions between President Putin and
-uh uh Witgo on April 25th,
+uh uh Witkoff on April 25th,
 um uh the foreign minister and the
 secretary of state highlighted the
 importance of
@@ -454,7 +454,7 @@ sharing with Ukraine, but it will also
 require agreement about a framework
 agreement to achieve peace. And
 clearly the Russians are not happy with
-the proposal that Witgov
+the proposal that Witkoff
 came with him to Moscow on
 Friday because clearly the terms of that
 framework have to be agreed with the

@@ -626,7 +626,7 @@ took me six months to get a grip on
 this,
 the same kind of intelligence that's
 being fed to Donald Trump and JD Vance
-and Pete Hegath and Marco Rubio and
+and Pete Hegseth and Marco Rubio and
 others in the security complex within
 the United States empire
 on Ukraine
@@ -1632,7 +1632,7 @@ think would be a high high likelihood,
 Trump's not even going to know what's
 happening because the people behind him.
 >> We're going to have a coup.
-And and Pete Hegsth, whether he knows it
+And and Pete Hegseth, whether he knows it
 or not, is working hard on shaping a
 military that at least in part will
 support that coup while the rest of the

@@ -18,7 +18,7 @@ quality_note: "English caption fetch via repo YouTube transcript pipeline; adjac
 # UK/EU Bizarre Proposal Seeks Moscow Surrender, Reparations, Perpetual Sanctions; Witkoff Meets Putin
 
 Good day. Today is Friday, 25th April,
-2025. Today, Steve Wickoff is in Moscow.
+2025. Today, Steve Witkoff is in Moscow.
 In fact, he's meeting with Vladimir
 Putin, the president of Russia in the
 Kremlin. Even as I am making this
@@ -50,7 +50,7 @@ assassinated um some months ago. At
 least he doesn't seem to be quite so
 senior. But anyway, it is another
 assassination carried out in Russia even
-as Wickoff meets Putin in the Kremlin.
+as Witkoff meets Putin in the Kremlin.
 Now, I will return to the topic of this
 assassination later in this
 program, but I would say that over the
@@ -105,7 +105,7 @@ point was the Kellogg plan, it's clear
 that it has been
 influenced significantly by the Russian
 positions and that um
-presumably is the result of Witgov's
+presumably is the result of Witkoff's
 three meetings with Putin. It goes
 significantly further towards addressing
 Russian concerns than I had
@@ -693,7 +693,7 @@ to regain these territories. Now note
 again that this is an American draft. It
 is an American proposal put
 ultimately to Russia. It's presumably
-the draft that Witgo is taking has taken
+the draft that Witkoff is taking has taken
 with him to Moscow and which he is
 currently presenting to Vladimir Putin
 in Moscow.
@@ -706,7 +706,7 @@ control. There was that article that
 appeared a couple of days ago in the
 Financial Times which said that they had
 that the Russians that Putin had told
-Witgov at the previous meeting that the
+Witkoff at the previous meeting that the
 Russians were not seeking to recover the
 whole of the territory of the four
 regions.
@@ -1049,8 +1049,8 @@ most insulting
 language and nonetheless the
 Americans for the moment at least are
 still pressing on. They've taken this
-proposal presumably to Wickoff to to
-Moscow with Wickoff. Witgov is now as I
+proposal presumably to Witkoff to to
+Moscow with Witkoff. Witkoff is now as I
 said meeting with Putin. I'm sure the
 Russians have already seen the proposal.
 Um unlike Zalinski, Putin will come back
@@ -1059,9 +1059,9 @@ which I can't agree with, but this does
 represent real progress." Very much the
 same thing as what Lavro said in his
 interview to CBS. So, it's likely to be
-another cordial meeting between Witgo
+another cordial meeting between Witkoff
 and Putin. Um Bloomberg is saying that
-Witgo Goff is going to try and get the
+Witkoff Goff is going to try and get the
 Russians to
 agree that they should to lift the
 restrictions that that that the Russians
@@ -1149,7 +1149,7 @@ acceptance.
 The other has already given it outright
 rejection. The United States, Marco
 Rubio, Donald Trump, Colonel Kellogg,
-Steve Witgo have all said that if the
+Steve Witkoff have all said that if the
 proposal is
 rejected, then the United States is
 going to walk away. It's going to say
@@ -1397,7 +1397,7 @@ Putin. The meeting that he is having
 with Putin in the Kremlin, uh,
 Dimitrif and Ushikov will be there with
 Putin. There's been comments about the
-fact that Witgo appears to be
+fact that Witkoff appears to be
 accompanied by only one American
 official,
 but the meetings with Dimitrif do point
@@ -1426,7 +1426,7 @@ are bringing to bear upon him? Will he
 row back on what he has already agreed
 with the Russians? Will he say, "Well,
 the conditional acceptance by the
-Russians of Witgov's proposal is not
+Russians of Witkoff's proposal is not
 enough. Only a complete acceptance will
 do and that the Ukrainians are clearly
 the victims of Russian aggression. And
@@ -1608,7 +1608,7 @@ going to shake the Russians in their
 course at all. Anybody who follows the
 way the Russian government works will
 know that, but perhaps possibly the
-Ukrainians don't. Anyway, Wickoff and
+Ukrainians don't. Anyway, Witkoff and
 Putin, as I said, are meeting. They've
 been meeting over the time that I have
 been making this

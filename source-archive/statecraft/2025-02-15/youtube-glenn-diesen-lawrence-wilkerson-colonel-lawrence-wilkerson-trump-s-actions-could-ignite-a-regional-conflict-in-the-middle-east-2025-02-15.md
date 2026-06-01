@@ -1573,7 +1573,7 @@ today. It's a wholly owned subsidiary,
 not of AIPAC, but of the
 military-industrial complex.
 And you got to break that. You got to
-break that. If you want Hagseth to do
+break that. If you want Hegseth to do
 something, Donald, really significant,
 break that link.
 I don't know how you do it though

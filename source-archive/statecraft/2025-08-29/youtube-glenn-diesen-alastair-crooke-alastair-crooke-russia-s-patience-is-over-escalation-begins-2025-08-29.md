@@ -269,7 +269,7 @@ Lebanon or attempted in Yemen. Um and
 all of these are really to try and
 create uh a dependence.
 Uh now I think originally when you
-listen to Witco and others the idea was
+listen to Witkoff and others the idea was
 you know actually the you know there
 would be a god from um normalization
 with Israel from all around the region

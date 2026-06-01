@@ -704,7 +704,7 @@ Ukraine. He returns to all these points
 time and time again, but he's not able
 or so it seems to follow the logic
 through and to do what his friend Steve
-Witgov has told him. Witgov who has of
+Witkoff has told him. Witkoff who has of
 course met Putin now no fewer than four
 times. He doesn't seem to be able to
 follow through and make the agreement

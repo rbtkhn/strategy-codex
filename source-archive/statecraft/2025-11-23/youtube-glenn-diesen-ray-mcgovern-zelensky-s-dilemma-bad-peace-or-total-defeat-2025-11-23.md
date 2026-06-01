@@ -112,7 +112,7 @@ Uh Trump pretty much uh went in knowing
 
 what the agreements would be because
 
-Witco had just sort of floated them
+Witkoff had just sort of floated them
 
 talked to Putin for I think it was 6
 
@@ -370,13 +370,13 @@ You know, they are talking points.
 
 They're meshed together by Kiril
 
-Ditrif and Witkov. Okay, we know that
+Ditrif and Witkoff. Okay, we know that
 
-Wickoff went down to Florida meet I mean
+Witkoff went down to Florida meet I mean
 
 Demetri went down to Florida to meet
 
-with Witkov on the very day that that uh
+with Witkoff on the very day that that uh
 
 Trump put in more sanctions or you know
 
@@ -968,7 +968,7 @@ and the US are talking to each other
 
 without uh getting into big propaganda
 
-fights. Uh Witkov is talking with
+fights. Uh Witkoff is talking with
 
 Dimmitri.
 
@@ -996,7 +996,7 @@ investment guy, his his big financial
 
 guy to talk real turkey so to speak with
 
-um with Witoff. So we we end up with
+um with Witkoff. So we we end up with
 
 this this proposal and here is Putin
 
@@ -2214,7 +2214,7 @@ Uh Mr. Puchin,
 
 uh today it looks good. Um Trump has
 
-given Witoff and Dimmitri
+given Witkoff and Dimmitri
 
 um the ball to carry into these
 

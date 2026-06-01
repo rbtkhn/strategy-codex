@@ -462,7 +462,7 @@ Is that going to be enough to bring them
 to their heels? Now when you look this
 just as yesterday at Ali Larijani, I'm
 I'm sorry at
-Abbas Araqchi the foreign minister
+Abbas Araghchi the foreign minister
 he says no. He says he was asked why
 don't you ask for a ceasefire with US
 because if all of that destruction one

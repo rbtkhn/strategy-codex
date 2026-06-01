@@ -58,7 +58,7 @@ We're not going to give up our
 sovereignty.
 And uh the second was that um uh Trump
 wanted uh to partner with Iran to
-control the trade of Hormos.
+control the Strait of Hormuz.
 So he he didn't care about regional
 countries or including them in some sort
 of security
@@ -74,7 +74,7 @@ not seem to have much authority. I mean
 Vance didn't seem to have much of
 authority even though he was surrounded
 by Israeli fers
-Witoff and Kushner whose only thing
+Witkoff and Kushner whose only thing
 whose only you know their only interest
 is is the Israeli regime. Um but even
 that wasn't enough. He constantly
@@ -108,7 +108,7 @@ that the the orders the marching orders
 were coming from somewhere other than
 Islamabad
 or perhaps
-Kushner and Whitov and people outside
+Kushner and Witkoff and people outside
 were giving him marching orders but he
 because of all the phone calls
 definitely there was an outside element
@@ -135,7 +135,7 @@ issues were the ones I mentioned. He
 wanted a piece of the cake uh perhaps uh
 and you know, it didn't have to be this
 way in the first place. Iran was not
-controlling the straight of hormones. It
+controlling the Strait of Hormuz. It
 was only because of this devastating
 murderous war which the west the United
 States lost, the Israeli regime lost
@@ -308,8 +308,7 @@ hours before Iranian delegation going to
 Islamabad they were still bargaining
 talking about you know the attacks on
 Lebanon the ceasefire in Lebanon The
-other part was you know the straight of
-formos in you know the enrichment
+other part was you know the Strait of Hormuz in you know the enrichment
 uranium what was that what was the the
 main
 let's put it this way how did Iran
@@ -429,7 +428,7 @@ Jared Kushner because there there were
 some reports showing that there was a
 heating discussions between the prime
 min the foreign minister of Iran,
-Arochi, Abos Arachi and Steve W with
+Arochi, Abos Araghchi and Steve W with
 what was that? What was that in in
 >> No, that's not true. Those were just
 some of the some of the things that were
@@ -831,8 +830,7 @@ I don't know what's going to happen, but
 obviously when the Iranians say that it
 includes the Gulf of Oman, that means
 that the UAE
-um uh port outside of the straight of
-Hormos
+um uh port outside of the Strait of Hormuz
 um Fuja that that would be included. Uh
 that's my assumption although I haven't
 asked. And then of course within the
@@ -840,9 +838,9 @@ straight of within the Persian Gulf,
 Iran already has control. So the ports
 really don't mean anything because the
 ships can't come and go out of the
-straight of hormones under these
+Strait of Hormuz under these
 circumstances. If Iranian ships leave
-the straight of hormones and the
+the Strait of Hormuz and the
 Americans try to pursue them, what would
 Iran do? I think Iran would warn the
 Americans and they would ultimately fire

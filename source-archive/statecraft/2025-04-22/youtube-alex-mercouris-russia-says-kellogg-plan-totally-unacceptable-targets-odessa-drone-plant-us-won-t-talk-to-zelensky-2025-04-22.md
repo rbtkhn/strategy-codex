@@ -23,13 +23,13 @@ will be apparently a meeting between the
 United States, the European countries
 and Ukraine in which they will hammer
 out the joint proposal which Steve
-Wickoff, President Trump's envoy, is
+Witkoff, President Trump's envoy, is
 expected to take with him to the United
 States later this week. Putin's aid, his
 top foreign policy aid, Yuri Ushakov,
 has already said that the Russians are
 expecting
-uh Wickoff to come to Russia to Moscow
+uh Witkoff to come to Russia to Moscow
 some point this week. Anyway, just to
 make a few quick points about this
 meeting in London. It's clear that the
@@ -546,7 +546,7 @@ conflict in Ukraine. I think that will
 be Karassin's job. But Dimmitri is there
 to discuss economic potential, economic
 cooperation with the Americans. and he
-has been Witkov's principal
+has been Witkoff's principal
 interlocutor. The two men get on
 extremely well. And anyway, according to
 various reports that I've seen on
@@ -594,7 +594,7 @@ come to a complete stop and we will be
 exactly back where we started. So in
 some ways Demetrius's position is the
 toughest one of all. I am going to say
-that I expect this to happen when Witgo
+that I expect this to happen when Witkoff
 comes to Moscow perhaps this week if on
 the assumption that the Ukrainians do
 appear to give the impression in London
@@ -602,10 +602,10 @@ that they're prepared to go along with
 the Kellogg plan. However insincere
 about that they are and if the Americans
 accept that and take the Kellogg plan
-with them to Moscow. If Witgov comes
+with them to Moscow. If Witkoff comes
 with the Kellogg plan to Moscow then
 first Nimitrif then Ushakov then Putin
-himself will tell Witgo that this is
+himself will tell Witkoff that this is
 completely unacceptable that the
 Russians cannot simply agree to the
 Kellogg plan as it is formulated. It
@@ -691,14 +691,14 @@ substantive issues and that is a step
 forward. But if you expect us to accept
 this proposal then we are not going to.
 That is what I think the Russians will
-tell Wickoff over the course of his
+tell Witkoff over the course of his
 meetings with the Russians over the next
 few days. That's where I think this is
 going to lead. And then of course it
 goes back to Trump and what he at that
 point decides to do. Now he could do
 that which apparently he's told Rubio
-and um Kellogg and Waltz and Witgo
+and um Kellogg and Waltz and Witkoff
 himself. He could simply wash his hands
 of the whole thing.
 Say a curse, a plague on all your
@@ -1275,7 +1275,7 @@ Putin, he will have some, I suspect,
 rather complex conversations with Wick
 Golf. And it'll be interesting to see
 whether um after Putin has spoken to
-Wickoff, there might be another phone
+Witkoff, there might be another phone
 conversation between Putin and Trump.
 But we are now heading, it seems to me,
 towards some sort of
@@ -1566,8 +1566,8 @@ Russians, as I said, has said that
 they're prepared to facilitate a
 compromise.
 and the Iranian foreign minister, Mr.
-Arashi, shortly after his meetings
-with Witkov, actually, probably
+Araghchi, shortly after his meetings
+with Witkoff, actually, probably
 speaking, they're not meetings. Um I
 believe they've had two brief two brief
 encounters but mostly the Iranians and
@@ -1580,7 +1580,7 @@ took place in Rome. It is the function
 of officials from Oman to shuttle
 between them taking ideas and proposals
 from each to the other. But anyway,
-fresh from these discussions, Arachi,
+fresh from these discussions, Araghchi,
 the Iranian foreign minister visited
 Moscow. He's had meetings there,
 extensive meetings with Lavough. Over
@@ -1592,7 +1592,7 @@ to
 facilitate this
 deescalation of tensions between Iran
 and the United States. And importantly,
-Arachi also had a meeting with Putin.
+Araghchi also had a meeting with Putin.
 The Russians have provided pictures, but
 they've not provided anything that
 remotely approximates to a full readout.
@@ -1754,7 +1754,7 @@ if things stick to that and I feel that
 they will as I said this negotiating
 process could break down with the
 calamitous effects that we will see.
-Witkov by the way has also been forced
+Witkoff by the way has also been forced
 into making into rowing back on some of
 the things which he undoubtedly did say
 about the settlement with Russia. Um, in
@@ -1771,7 +1771,7 @@ that he also argued that very same point
 to
 Trump but that Kellogg contradicted him.
 Anyway, now and I'm sure he's been told
-to say this. Witkov is saying that when
+to say this. Witkoff is saying that when
 he talked about transferring the four
 regions to Russia, he only meant those
 parts of the four regions

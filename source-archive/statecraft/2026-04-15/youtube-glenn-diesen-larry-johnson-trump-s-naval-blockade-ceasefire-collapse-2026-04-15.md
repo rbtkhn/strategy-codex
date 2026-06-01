@@ -181,7 +181,7 @@ isolate JD Vance.
 Yeah. And well, I often wonder when I
 see these tweets that uh you know, today
 tweeted out that China's very happy that
-I'm opening the straight of Armoose. Uh
+I'm opening the Strait of Hormuz. Uh
 I'm doing it for them, for the Chinese.
 uh at the same you know and at the same
 time putting a blockade on Iranian ports
@@ -705,7 +705,7 @@ behavior.
 telling part from Professor Morandi that
 you know didn't have the courtesy to
 say, okay, hey listen folks, foreign
-minister Arachi, we've just got to
+minister Araghchi, we've just got to
 recognize we're at an impass. We not
 going to be able to solve anything at
 this point. We're going to go now. We're

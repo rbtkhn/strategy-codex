@@ -13,7 +13,7 @@ source_note: "Operator pasted full transcript in Codex chat. Direct YouTube watc
 quality_note: "Normalized to remove sponsor/promo copy and transcript noise; minor artifacts may remain."
 ---
 
-everyone Judge Andrew napalitano here for judging Freedom today is Tuesday March 18th 2025 Ambassador Charles Freeman is here with us on what he thinks the conversation later today between President Trump and President Putin will be like and of course uh late breaking news from the Middle East as well
+everyone Judge Andrew Napolitano here for judging Freedom today is Tuesday March 18th 2025 Ambassador Charles Freeman is here with us on what he thinks the conversation later today between President Trump and President Putin will be like and of course uh late breaking news from the Middle East as well
 
 Ambassador Freeman welcome here uh my friend before we speculate on what Donald Trump will say to Vladimir Putin and what Vladimir Putin will say to Donald Trump later today I'd like to explore your thoughts on the most recent developments over there what is to be gained by American bombing of the hooes Ambassador
 

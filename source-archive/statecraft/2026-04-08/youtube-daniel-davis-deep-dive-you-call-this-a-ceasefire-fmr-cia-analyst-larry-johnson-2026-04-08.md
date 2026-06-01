@@ -101,7 +101,7 @@ that. But um you know, this is a sign
 that the United States has lost they've
 lost the war. In fact, uh, you know, it
 was the they did a video like this on
-Pete Hegsth the other day
+Pete Hegseth the other day
 and, uh, I saw one comedian, he's he's
 actually a Palestinian, but he's an
 American, and he was saying, you know,
@@ -234,7 +234,7 @@ it from both ends.
 a little bit out of order here. Uh you
 talked about the line coming out of
 Washington. Uh man, one of the things
-this morning with Secretary Hegth when
+this morning with Secretary Hegseth when
 he went out to ex talk about the
 successes of this ceasefire. He gave a
 reason why it is. Um see how close to
@@ -374,7 +374,7 @@ the hair the plastic hair.
 know you're going to find that.
 >> Find it. Put them side by side. And I
 think, you know, this may be either this
-is what Pete Hexth was doing before uh
+is what Pete Hegseth was doing before uh
 he went to Fox News or this may be his
 future job opening after he could be the
 live Bob's big boy uh going down. But,
@@ -700,7 +700,7 @@ States saying okay we see this as a
 basis for discussion good understand
 though how the Iranians are looking at
 it and um you know it's not clear I know
-that Trump is indicating that Witoff and
+that Trump is indicating that Witkoff and
 Kushner will be involved uh I I I bet
 that Iran will not allow them in the
 room or anywhere you know if if they
@@ -719,7 +719,7 @@ zero enrichment, that they would they
 could have American inspectors and
 everything that we would ever want that
 would be better than the Obama deal. And
-then you had Whitov go out on American
+then you had Witkoff go out on American
 television and lie about it and say that
 they presented us with this. They had s
 400 and something kilograms of nuclear
@@ -885,7 +885,7 @@ ceasefire with the United States because
 they no longer could tolerate being
 bombed by our very powerful and lethal
 military and that they have committed to
-the reopening of the Strait of Hermoose
+the reopening of the Strait of Hormuz
 which the president will hold them
 accountable for and it's something the
 administration is closely monitoring in
@@ -899,10 +899,9 @@ results. Uh, and it was the Iranians who
 backed down, not President Trump. He
 said that they would face very you just
 laid out by the 8:00m deadline if they
-did not agree to reopening the street of
-Hermoose. And what did they do last
+did not agree to reopening the Strait of Hormuz. And what did they do last
 night? They agreed to reopen the
-Straight of Hermoose. Danny,
+Strait of Hormuz. Danny,
 >> thanks. Um, would President Trump like
 to see Lebanon included in this peace
 deal? As you know, there's been
@@ -956,8 +955,7 @@ president has made that quite clear as
 well.
 Again, as his uh statement said last
 night, this ceasefire is subject to the
-safe reopening of the straight of
-Hermoose. Again, this was just
+safe reopening of the Strait of Hormuz. Again, this was just
 determined last night. We understand
 things take time, but that's the
 president's expectation and he will hold
@@ -1258,7 +1256,7 @@ to be what what's going to happen next
 because uh I mean she just said there
 the meetings are going to be on Saturday
 and it is going to be led by Vice
-President Vance but Witoff and Kushner
+President Vance but Witkoff and Kushner
 are going to be there again and I I
 wouldn't be surprised as you said that
 the the Iranian said yeah they can sit

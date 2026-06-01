@@ -18,7 +18,7 @@ quality_note: Normalized to remove ad copy boundaries and transcript noise; mino
 
 ## Transcript
 
-Hi everyone, Judge Andrew Npalitano here for Judging Freedom. Today is Tuesday, May 26, 2026. Professor John Mearsheimer will be with us in just a moment on the neocons and their lust for war.
+Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Tuesday, May 26, 2026. Professor John Mearsheimer will be with us in just a moment on the neocons and their lust for war.
 
 Professor Mearsheimer, welcome here. Before we get to a general conversation about the neocons and a dynamite clip from the debate that you and Professor Walt had with Mrs. Nuland and Secretary Pompeo, did the United States just resume attacking Iranian military assets, in this case speedboats?
 

@@ -28,8 +28,7 @@ let's start with that. Professor Mandi,
 we've learned yesterday that suddenly we
 the foreign minister of Iran announced
 that this rate is open and commercial
-vessels can pass through this trade of
-foremost what he just he he mentioned in
+vessels can pass through this Strait of Hormuz what he just he he mentioned in
 that tweet and then Donald Trump came
 out with a series of non you know
 a lot of allegations in those Iran is
@@ -87,10 +86,10 @@ so finally 10 11 days ago whatever it
 was uh we had an agreement
 Lebanon was a part of it so that the the
 slaughter would stop and then Iran was
-to open the straight of Hormos.
+to open the Strait of Hormuz.
 Lebanon Netanyahu violated the
 agreement. So Iran didn't open the
-straight of Hormos.
+Strait of Hormuz.
 Also when we went to Islamabad
 it was clear that um
 Vance did not have the authority to
@@ -114,14 +113,13 @@ has uh that has continued over the last
 Netanyahu. It is again because of the
 Zionists. we could have uh had an easing
 of the economic crisis
-uh by opening the trade of hormones but
+uh by opening the Strait of Hormuz but
 he violated the deal and he prevented
 the not talks and um
 in Islamabon from making prog progress
 then Iran after the ceasefire because
 Iran kept putting pressure on the
-Americans and kept the straight of
-hormones closed uh in order to put
+Americans and kept the Strait of Hormuz closed uh in order to put
 pressure on the Americans to end this
 bloodshed in Lebanon and uh two three
 nights ago was supposed three nights
@@ -134,7 +132,7 @@ regime targets possibly in Lebanon. I'm
 not quite sure, but uh that I think
 tilted the balance
 um along with the the closing of the
-Straight of Hormos and the regime
+Strait of Hormuz and the regime
 accepted the ceasefire. Of course, it's
 violating it, but it accepted the
 ceasefire more or less.
@@ -162,7 +160,7 @@ the state the straight uh Trump said
 we're going to keep the siege on Iranian
 ports. Immediately the Iranians went and
 said if that's the case then the
-straight of hormones remains closed. So
+Strait of Hormuz remains closed. So
 Trump and Netanyahu
 started this global crisis. It is get
 getting worse by the m literally by the
@@ -498,7 +496,7 @@ their own actions because of refraining
 from carrying out the ceasefire in
 Lebanon and now imposing a blockade on
 Iranian ports they have caused
-the straight of hormones to remain more
+the Strait of Hormuz to remain more
 or less closed.
 So the global economic crisis is
 intensifying.
@@ -558,7 +556,7 @@ alluded to that just came out right
 before the show, it also says that Iran
 is going to take fees from the ships.
 So and that they will remain in control
-of the straight of hormones. This I
+of the Strait of Hormuz. This I
 think is a key turning point. This was
 the catastrophic mistake of the United
 States in this war and the Zionist
@@ -1087,8 +1085,7 @@ are a couple of things that are have
 changed and that is that we're heading
 towards a global economic crisis
 and Israel is going to be blamed for it.
-And who controls the straight of
-hormones? Iran.
+And who controls the Strait of Hormuz? Iran.
 The balance of power has shifted. The
 Israeli regime has been forced to accept
 a ceasefire. Now it has to and now it's

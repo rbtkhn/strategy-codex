@@ -179,7 +179,7 @@ So I don't Someone told me the other day that oh boy you don't understand becaus
 
 In other words, they wouldn't disestablish their program, but they would put it in hiatus for three or four years. They they would not enrich anything to no percentage whatsoever for three or four years, and then the view would be that they could start back up to 3.7 or whatever percent.
 
-Um, I don't even think they'll do that. I I I don't think that's part of it. But I was told that that's why Witoff is saying what he's saying because he's going to present it is see we cancel all the enrichment, you know. Well, not only would that probably not wash might with stupid Americans, but um I just don't think that's I think that's a red line for them. I really do.
+Um, I don't even think they'll do that. I I I don't think that's part of it. But I was told that that's why Witkoff is saying what he's saying because he's going to present it is see we cancel all the enrichment, you know. Well, not only would that probably not wash might with stupid Americans, but um I just don't think that's I think that's a red line for them. I really do.
 
 I don't know. You may disagree with me, but I I think that's a red line that they must maintain. They put so many billions of dollars, so much blood, assassinated scientists and such into it. And they're, let's face it, they're in an extraordinarily dangerous region made so by the by the United States and Israel.
 

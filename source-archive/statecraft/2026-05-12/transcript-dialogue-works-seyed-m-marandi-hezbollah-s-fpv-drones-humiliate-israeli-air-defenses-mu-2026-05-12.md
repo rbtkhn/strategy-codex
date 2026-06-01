@@ -66,7 +66,7 @@ clear about that. First is the ceasefire
 and that that will have to include
 Lebanon and it will have to mean the end
 of the siege on uh the Persian Gulf and
-the straight of Hormos and and Iranian
+the Strait of Hormuz and and Iranian
 ports and uh then it would be the
 10-point Iranian plan that would be
 negotiated and after that it would be
@@ -98,7 +98,7 @@ not a ceasefire, but they've been losing
 since the 39 days of fighting.
 Otherwise, they wouldn't have tried a
 new operation last week in the straight
-of near the straight of Hormos, which
+of near the Strait of Hormuz, which
 failed. They can pretend that they sank
 tens of Iranian boats and destroyed
 hundreds of facilities or whatever,
@@ -595,10 +595,9 @@ them is taking control over the state of
 Hamuz. It's Iranian territorial water.
 It's not international waters. Iran has
 not signed any international agreement
-with regards to um the straight of
-hormones. Oman Oman has but in any case
+with regards to um the Strait of Hormuz. Oman Oman has but in any case
 Iran is saying that we will u control
-the straight of hormones from here on.
+the Strait of Hormuz from here on.
 That was not something that we were
 discussing. That's nothing not something
 that I was discussing on any of your
@@ -621,7 +620,7 @@ um the more they push, the more they
 create a motive for Iran to move away
 from the International Atomic Energy
 Agency to uh to pursue policies like we
-saw in the street of Hormos. It's their
+saw in the Strait of Hormuz. It's their
 own doing. Iran uh we all recall in 2015
 signed a nuclear deal. It wasn't a great
 deal. It had many flaws. It benefited
