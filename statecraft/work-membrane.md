@@ -12,7 +12,7 @@ The lane question is not primarily "what is the system?" It is "what is the obje
 
 That means `statecraft` may:
 
-- land archive objects
+- land source-archive intake objects
 - build indexes and synthesis shelves
 - compare speakers and mechanisms
 - stage validators, audits, and benchmark surfaces
@@ -30,7 +30,7 @@ It may not silently convert any of that into identity-bearing Record truth.
 - `governed adjacent`
 - `runtime / derived`
 
-`external complements` can appear at the archive or tooling boundary, but they are not the dominant temperament of the lane.
+`external complements` can appear at the source-archive or tooling boundary, but they are not the dominant temperament of the lane.
 
 ---
 
@@ -45,7 +45,7 @@ It may not silently convert any of that into identity-bearing Record truth.
 - validator-friendly
 - slice-separable
 
-If a `statecraft` surface drifts into grand theory without archive contact, or into open-ended ideation without a bounded object, it has probably left its native grammar.
+If a `statecraft` surface drifts into grand theory without source-archive contact, or into open-ended ideation without a bounded object, it has probably left its native grammar.
 
 ---
 
@@ -53,8 +53,8 @@ If a `statecraft` surface drifts into grand theory without archive contact, or i
 
 The main `statecraft` artifact classes are:
 
-- archive intake objects
-- day indexes, month indexes, and archive navigation surfaces
+- source-archive intake objects
+- day indexes, month indexes, and source-archive navigation surfaces
 - daily synthesis notes
 - monthly synthesis notes
 - companion notes
@@ -64,7 +64,7 @@ The main `statecraft` artifact classes are:
 
 Read them by membrane class:
 
-- archive navigation and generated support views are often `runtime / derived`
+- source-archive navigation and generated support views are often `runtime / derived`
 - daily, monthly, companion, bridge, and method surfaces are usually `governed adjacent`
 - active planning and operator execution surfaces remain `instrumental work`
 
@@ -74,11 +74,11 @@ Read them by membrane class:
 
 Typical route shapes:
 
-- `operator-pasted source -> archive intake object -> day/month index`
-- `archive intake object -> daily synthesis note`
+- `operator-pasted source -> source-archive intake object -> day/month index`
+- `source-archive intake object -> daily synthesis note`
 - `daily synthesis note -> companion note`
 - `daily/monthly synthesis -> audit rubric or benchmark fixture`
-- `archive + synthesis + validators -> runtime / derived helper`
+- `source-archive + synthesis + validators -> runtime / derived helper`
 
 The lane stays healthy when each step names its object and bounded output form rather than jumping straight to polished thesis language.
 

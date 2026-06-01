@@ -8,6 +8,8 @@ This is the front-door orientation module for repo-root `statecraft/`.
 
 In the current topology:
 
+- `archive/` is the preserved legacy snapshot and freeze layer for non-live holdings
+- `source-archive/` is the canonical full-source capture layer for live top-level systems
 - `statecraft/` is the interpretive, routing, drafting, recursive-learning, notes, and essays surface
 - `/codex` is the chronological notebook, accumulation, and continuity layer beneath that broader statecraft surface
 - `singularity/` remains the adjacent domain for acceleration, agency, substrate, and alignment questions until those objects mature into judgment, authority, or settlement problems
@@ -179,8 +181,11 @@ The practical rule is simple: `civ-state` remembers, `statecraft` drafts, and re
 
 At the broader repo level, the aliasing rule is now:
 
+- `archive/` preserves frozen legacy bundles and non-live holdings
+- `source-archive/` preserves canonical full-source captures for active downstream use
 - `/codex` accumulates chronology and continuity
 - `statecraft/` turns that accumulation into judgment, mechanism, prose, and governed recursive learning
+- `singularity/` owns acceleration-native interpretation until the object becomes a judgment, authority, or settlement problem
 - `work-strategy` remains a compatibility label for older paths, historical links, and still-unmigrated notebook machinery
 
 ## Output Surfaces

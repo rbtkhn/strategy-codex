@@ -3,6 +3,12 @@
 work only; not Record.
 
 This shelf is reserved for singularity study routes, concepts, cases, and curriculum notes: AI takeoff, alignment, agency, automation, cognitive infrastructure, recursive improvement, institutional adaptation, and human meaning under accelerating technical change.
+At the repo-root level, the stack is:
+
+- [`archive/`](../archive/README.md) for preserved legacy snapshots and non-live holdings
+- [`source-archive/`](../source-archive/README.md) for canonical full-source captures intended for active downstream use
+- [`codex/`](../codex/README.md) for chronology, accumulation, and continuity
+- `singularity/` and [`statecraft/`](../statecraft/README.md) for live interpretation, routing, synthesis, notes, essays, and downstream judgment
 
 For the lane-specific membrane grammar, open [singularity work membrane](work-membrane.md). For the shared base across active lanes, open [docs/work-membrane-v2.md](../docs/work-membrane-v2.md).
 
@@ -187,4 +193,3 @@ Full local captures for the current Innermost Loop backfill live under `source-a
 - [The Innermost Loop raw - 2026-05-15](../source-archive/singularity/innermost-loop/innermost-loop-2026-05-15.md) - full newsletter capture.
 - [The Innermost Loop raw - 2026-05-16](../source-archive/singularity/innermost-loop/innermost-loop-2026-05-16.md) - full newsletter capture.
 - [The Innermost Loop raw - 2026-05-17](../source-archive/singularity/innermost-loop/innermost-loop-2026-05-17.md) - full newsletter capture.
-

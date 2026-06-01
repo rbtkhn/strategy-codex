@@ -1,10 +1,12 @@
 # Statecraft Source Archive
 
-This tree is the canonical on-disk home of the **Statecraft Archive** layer.
+This tree is the canonical on-disk home of the **Statecraft Source Archive** layer.
 
 For the layer law above it, open [Statecraft Archive and Statecraft Synthesis](/C:/dev/strategy-codex/statecraft/archive-synthesis-law.md).
 
 This namespace is the canonical dated full-source archive for repo-root `statecraft/`.
+
+It is distinct from root [`archive/`](../../archive/README.md), which preserves frozen legacy holdings rather than live source-truth capture.
 
 Canonical path:
 

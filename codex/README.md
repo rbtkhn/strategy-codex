@@ -5,6 +5,8 @@
 
 **Current role:** `/codex` is the **chronology, accumulation, and continuity layer** beneath the broader [statecraft](../statecraft/README.md) surface. It is no longer taught as the independent owner of the old `work-strategy` lane. Use `/codex` for dated continuity, thread/page accumulation, and notebook memory; use `statecraft/` for live judgment, mechanism, recursive learning, and first-class prose outputs.
 
+**Root-layer stack:** [`archive/`](../archive/README.md) preserves legacy freezes and non-live holdings; [`source-archive/`](../source-archive/README.md) preserves canonical full-source captures for active downstream use; `/codex` carries chronology and continuity; `statecraft/` and `singularity/` consume those lower layers for synthesis, routing, and judgment.
+
 
 ## Primary 2026 Volume
 
@@ -112,7 +114,7 @@ codex/
 
 **Current canonical model (one line):** **cognition streams** = interpretive voices; **thread handles** = routing/source-archive joins; **watches** = what (evolving situation); **days** = when (chronology and continuity in `chapters/YYYY-MM/days.md`); **pages** = primary analytical unit (`strategy-page` in thread files). **Page-in-thread contract (links):** [NOTEBOOK-CONTRACT.md](NOTEBOOK-CONTRACT.md) / [THREAD-CONTRACT.md](THREAD-CONTRACT.md). Full spec: [STRATEGY-NOTEBOOK-ARCHITECTURE.md](STRATEGY-NOTEBOOK-ARCHITECTURE.md#current-canonical-model).
 
-**State model (short):** **knowledge** = owned judgment; **library** = governed reference world; **memory** = resumable continuity; **archive** = governed evidence and source lineage. In practice, [`../source-archive/statecraft/`](../source-archive/statecraft/README.md) is the dated source archive, codex-pages bridge archive toward knowledge, `strategy-page` blocks produce knowledge, and `days.md` is primarily memory.
+**State model (short):** **knowledge** = owned judgment; **library** = governed reference world; **memory** = resumable continuity; **source archive** = governed source lineage for active use; **archive** = preserved non-live holdings. In practice, [`../source-archive/statecraft/`](../source-archive/statecraft/README.md) is the dated live source archive, codex-pages bridge source material toward knowledge, `strategy-page` blocks produce knowledge, and `days.md` is primarily memory.
 
 **Contract ownership:** [NOTEBOOK-CONTRACT.md](NOTEBOOK-CONTRACT.md) is the short routing hub. It points to the narrower owners for template shape, thread mechanics, traces, page updates, source-archive capture, and backfill families. Prefer adding pointers there before adding another broad contract document.
 
