@@ -49,6 +49,32 @@ def test_find_direct_findings_catches_second_wave_phrase_variants() -> None:
     assert all(finding.tier == "high_confidence" for finding in findings)
 
 
+def test_find_direct_findings_catches_hermuz_and_hormuse_family() -> None:
+    body = (
+        "The Straits of Hermuz remain blocked.\n"
+        "Another line said the straits of Hormuse stayed closed.\n"
+        "A third speaker warned the straight of Hormuse could crash the market.\n"
+        "One messy transcript even said the street Hermuz was contested.\n"
+    )
+
+    findings = audit.find_direct_findings(REPO_ROOT / "source-archive" / "statecraft" / "2026-03-04" / "sample.md", body)
+
+    matches = {finding.match_text for finding in findings}
+    assert "Straits of Hermuz" in matches
+    assert "straits of Hormuse" in matches
+    assert "straight of Hormuse" in matches
+    assert "street Hermuz" in matches
+    assert all(finding.tier == "high_confidence" for finding in findings)
+
+
+def test_find_direct_findings_does_not_promote_clipped_her_fragment() -> None:
+    body = "Oman may collect tolls from the straight of her with Iran."
+
+    findings = audit.find_direct_findings(REPO_ROOT / "source-archive" / "statecraft" / "2026-05-27" / "sample.md", body)
+
+    assert findings == []
+
+
 def test_find_direct_findings_ignores_correct_mentions() -> None:
     body = (
         "The Strait of Hormuz matters.\n"
@@ -163,3 +189,42 @@ def test_main_writes_json_and_markdown_outputs(tmp_path: Path) -> None:
     assert payload["summary"]["candidate_files"] == 1
     assert payload["summary"]["total_findings"] >= 1
     assert "straight of hormones" in md_path.read_text(encoding="utf-8")
+
+
+def test_main_accepts_relative_output_dir(tmp_path: Path, monkeypatch) -> None:
+    root = tmp_path / "source-archive" / "statecraft" / "2026-02-17"
+    root.mkdir(parents=True)
+    transcript = root / "transcript-example.md"
+    transcript.write_text(
+        "---\n"
+        'title: "Example on Hormuz"\n'
+        "kind: transcript\n"
+        "source_type: youtube\n"
+        "---\n\n"
+        "# Example on Hormuz\n\n"
+        "Iran discussed the straight of hormones and oil traffic.\n",
+        encoding="utf-8",
+    )
+
+    original_root = audit.REPO_ROOT
+    monkeypatch.chdir(tmp_path)
+    audit.REPO_ROOT = tmp_path
+    try:
+        rc = audit.main(
+            [
+                "--root",
+                str(tmp_path / "source-archive" / "statecraft"),
+                "--output-dir",
+                "artifacts",
+                "--prefix",
+                "unit-hormuz-relative",
+            ]
+        )
+    finally:
+        audit.REPO_ROOT = original_root
+
+    assert rc == 0
+    json_path = tmp_path / "artifacts" / "unit-hormuz-relative.json"
+    md_path = tmp_path / "artifacts" / "unit-hormuz-relative.md"
+    assert json_path.is_file()
+    assert md_path.is_file()

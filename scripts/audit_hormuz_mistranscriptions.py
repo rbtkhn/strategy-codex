@@ -33,16 +33,26 @@ TITLE_RE = re.compile(r'^title:\s*"?(.*?)"?\s*$', re.MULTILINE)
 KIND_RE = re.compile(r"^kind:\s*([^\n]+)$", re.MULTILINE)
 SOURCE_TYPE_RE = re.compile(r"^source_type:\s*([^\n]+)$", re.MULTILINE)
 TRANSCRIPT_HEAD_RE = re.compile(
-    r"\b(straight|strait|straits|state|street|trade)\s+of\s+([A-Za-z][A-Za-z'-]*)\b",
+    r"\b(straight|strait|straits|state|street|trade)\s+of\s+([A-Za-z][A-Za-z'-]*(?:\s+[A-Za-z][A-Za-z'-]*)?)\b",
     re.IGNORECASE,
 )
 SPLIT_HEAD_RE = re.compile(
     r"\b(straight|strait|straits|state|street|trade)\s+of\s*$",
     re.IGNORECASE,
 )
+MISSING_OF_RE = re.compile(
+    r"\b(street)\s+(hermuz)\b",
+    re.IGNORECASE,
+)
 ALLOWLIST = {
     ("strait", "hormuz"),
     ("straits", "hormuz"),
+}
+EXCLUDED_TAIL_PHRASES = {
+    "her moose",
+    "her mus",
+    "her um",
+    "moose",
 }
 FIRST_WAVE_STRONG_TOKENS = {
     "humus",
@@ -63,6 +73,9 @@ FIRST_WAVE_STRONG_TOKENS = {
     "ormos",
     "ormuz.",
     "ormuz,",
+    "hermuz",
+    "hermus",
+    "hormuse",
 }
 TRANSCRIPT_PREFIXES = (
     "transcript-",
@@ -113,24 +126,69 @@ def _normalize_head(head: str) -> str:
     return head.casefold()
 
 
+def _normalize_phrase(text: str) -> str:
+    return " ".join(text.casefold().split())
+
+
+def _pick_known_tail(head: str, tail_text: str) -> str | None:
+    norm_head = _normalize_head(head)
+    original_parts = tail_text.split()
+    normalized_parts = [_normalize_token(part) for part in original_parts]
+    candidates: list[tuple[str, str]] = []
+    if len(original_parts) >= 2:
+        candidates.append(
+            (
+                f"{norm_head} of {normalized_parts[0]} {normalized_parts[1]}",
+                f"{original_parts[0]} {original_parts[1]}",
+            )
+        )
+    if original_parts:
+        candidates.append(
+            (
+                f"{norm_head} of {normalized_parts[0]}",
+                original_parts[0],
+            )
+        )
+    for candidate, original_tail in candidates:
+        if candidate in KNOWN_BAD_PHRASES:
+            return original_tail
+    return None
+
+
 def load_hormuz_seed_patterns() -> set[str]:
     seeds: set[str] = set()
     for bad, good in COMMON_REPLACEMENTS:
-        if "Strait of Hormuz" not in good:
+        if "Hormuz" not in good:
             continue
-        seeds.add(bad)
-        match = re.search(r"\b(?:strait|straight|straits|state|street|trade)\s+of\s+([A-Za-z][A-Za-z'-]*)\b", bad, re.I)
-        if match:
-            seeds.add(match.group(1))
+        match = re.search(
+            r"\b(?:strait|straight|straits|state|street|trade)\s+of\s+([A-Za-z][A-Za-z'-]*(?:\s+[A-Za-z][A-Za-z'-]*)?)\b",
+            bad,
+            re.I,
+        )
+        if not match:
+            continue
+        tail = _normalize_phrase(match.group(1))
+        if tail in EXCLUDED_TAIL_PHRASES:
+            continue
+        seeds.add(_normalize_phrase(match.group(0)))
+    seeds.update(
+        {
+            "straight of hormuse",
+            "straits of hormuse",
+            "straight of hermuz",
+            "straits of hermuz",
+            "straight of hermus",
+            "trade of hermuz",
+            "street of hermuz",
+            "strait of hermuz",
+            "street hermuz",
+        }
+    )
     return seeds
 
 
 SEED_PATTERNS = load_hormuz_seed_patterns()
-KNOWN_BAD_TOKENS = {
-    _normalize_token(token)
-    for token in SEED_PATTERNS
-    if " " not in token
-}.union(FIRST_WAVE_STRONG_TOKENS)
+KNOWN_BAD_PHRASES = {_normalize_phrase(phrase) for phrase in SEED_PATTERNS}
 WEAK_BAD_TOKENS = {"hormis", "hormas", "hormone"}
 
 
@@ -185,9 +243,11 @@ def _make_snippet(lines: list[str], line_no: int) -> str:
     return snippet[:240]
 
 
-def classify_direct_match(head: str, token: str, local_text: str, *, split_line: bool) -> tuple[str, str]:
+def classify_direct_match(head: str, token: str, local_text: str, *, split_line: bool, missing_of: bool = False) -> tuple[str, str]:
     norm_head = _normalize_head(head)
     norm_token = _normalize_token(token)
+    if missing_of:
+        return "high_confidence", "missing_preposition_variant"
     if split_line:
         return "high_confidence", "split_line_variant"
     if norm_token in WEAK_BAD_TOKENS:
@@ -206,13 +266,36 @@ def find_direct_findings(path: Path, body: str) -> list[Finding]:
         for match in TRANSCRIPT_HEAD_RE.finditer(line):
             head, token = match.group(1), match.group(2)
             norm_head = _normalize_head(head)
-            norm_token = _normalize_token(token)
+            matched_tail = _pick_known_tail(head, token)
+            token_head = token.split()[0]
+            norm_token = _normalize_token(token_head)
             if (norm_head, norm_token) in ALLOWLIST:
                 continue
-            if norm_token not in KNOWN_BAD_TOKENS:
+            if matched_tail is None and norm_token not in FIRST_WAVE_STRONG_TOKENS and norm_token not in WEAK_BAD_TOKENS:
+                continue
+            matched_tail = matched_tail or token_head
+            matched_text = f"{head} of {matched_tail}"
+            snippet = _make_snippet(lines, idx)
+            tier, reason_code = classify_direct_match(head, token_head, snippet, split_line=False)
+            findings.append(
+                Finding(
+                    path=rel_path(path),
+                    tier=tier,
+                    match_text=matched_text,
+                    suspected_target="Strait of Hormuz",
+                    reason_code=reason_code,
+                    line_number=idx + 1,
+                    snippet=snippet,
+                )
+            )
+
+        for match in MISSING_OF_RE.finditer(line):
+            head, token = match.group(1), match.group(2)
+            norm_phrase = _normalize_phrase(match.group(0))
+            if norm_phrase not in KNOWN_BAD_PHRASES:
                 continue
             snippet = _make_snippet(lines, idx)
-            tier, reason_code = classify_direct_match(head, token, snippet, split_line=False)
+            tier, reason_code = classify_direct_match(head, token, snippet, split_line=False, missing_of=True)
             findings.append(
                 Finding(
                     path=rel_path(path),
@@ -231,20 +314,21 @@ def find_direct_findings(path: Path, body: str) -> list[Finding]:
         next_line = lines[idx + 1].strip()
         if not next_line:
             continue
-        token_match = re.match(r"^([A-Za-z][A-Za-z'-]*)\b", next_line)
-        if not token_match:
+        tail_match = re.match(r"^([A-Za-z][A-Za-z'-]*(?:\s+[A-Za-z][A-Za-z'-]*)?)\b", next_line)
+        if not tail_match:
             continue
-        token = token_match.group(1)
-        norm_token = _normalize_token(token)
-        if norm_token not in KNOWN_BAD_TOKENS:
+        tail = tail_match.group(1)
+        matched_tail = _pick_known_tail(split_match.group(1), tail)
+        if matched_tail is None:
             continue
+        token = matched_tail.split()[0]
         snippet = _make_snippet(lines, idx)
         tier, reason_code = classify_direct_match(split_match.group(1), token, snippet, split_line=True)
         findings.append(
             Finding(
                 path=rel_path(path),
                 tier=tier,
-                match_text=f"{split_match.group(1)} of / {token}",
+                match_text=f"{split_match.group(1)} of / {matched_tail}",
                 suspected_target="Strait of Hormuz",
                 reason_code=reason_code,
                 line_number=idx + 1,
@@ -411,6 +495,7 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
 def main(argv: list[str] | None = None) -> int:
     args = parse_args(argv)
     root = args.root.resolve()
+    output_dir = args.output_dir.resolve()
     files = iter_transcript_files(root)
     findings: list[Finding] = []
     for path in files:
@@ -422,9 +507,9 @@ def main(argv: list[str] | None = None) -> int:
         "findings": [asdict(finding) for finding in findings],
         "summary": summary,
     }
-    args.output_dir.mkdir(parents=True, exist_ok=True)
-    json_path = args.output_dir / f"{args.prefix}.json"
-    md_path = args.output_dir / f"{args.prefix}.md"
+    output_dir.mkdir(parents=True, exist_ok=True)
+    json_path = output_dir / f"{args.prefix}.json"
+    md_path = output_dir / f"{args.prefix}.md"
     json_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     md_path.write_text(render_report(root, findings, summary), encoding="utf-8")
     print(

@@ -119,3 +119,37 @@ def test_apply_replacements_fixes_second_wave_family() -> None:
     assert counts["state_of_formos"] == 1
     assert counts["straight_of_barmuz"] == 1
     assert counts["straits_of_armoose"] == 1
+
+
+def test_apply_replacements_fixes_hermuz_and_hormuse_family() -> None:
+    text = (
+        "The Straits of Hermuz remain blocked.\n"
+        "Another report said the straits of Hormuse were closed.\n"
+        "One guest warned the straight of Hormuse could break the market.\n"
+        "Another said the straight of Hermuz and the straight of Hermus were decisive.\n"
+        "Shipping also mentioned the trade of Hermuz and the street of Hermuz.\n"
+        "A malformed line referred to the street Hermuz and the strait of Hermuz.\n"
+    )
+
+    updated, counts = fix.apply_replacements(text)
+
+    assert "Straits of Hermuz" not in updated
+    assert "straits of Hormuse" not in updated
+    assert "straight of Hormuse" not in updated
+    assert "straight of Hermuz" not in updated
+    assert "straight of Hermus" not in updated
+    assert "trade of Hermuz" not in updated
+    assert "street of Hermuz" not in updated
+    assert "street Hermuz" not in updated
+    assert "strait of Hermuz" not in updated
+    assert updated.count("Straits of Hormuz") == 2
+    assert updated.count("Strait of Hormuz") == 7
+    assert counts["straits_of_hermuz"] == 1
+    assert counts["straits_of_hormuse"] == 1
+    assert counts["straight_of_hormuse"] == 1
+    assert counts["straight_of_hermuz"] == 1
+    assert counts["straight_of_hermus"] == 1
+    assert counts["trade_of_hermuz"] == 1
+    assert counts["street_of_hermuz"] == 1
+    assert counts["street_hermuz"] == 1
+    assert counts["strait_of_hermuz"] == 1

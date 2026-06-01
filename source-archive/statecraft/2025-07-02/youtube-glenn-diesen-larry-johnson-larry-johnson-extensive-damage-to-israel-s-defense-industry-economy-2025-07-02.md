@@ -755,7 +755,7 @@ was what is the extent of this actual
 ceasefire? I said first of all I don't
 think um I don't think Iran was actually
 seriously entertaining shutting shutting
-down the straits of Hormuse because when
+down the Straits of Hormuz because when
 you looked at it 80% of the oil out of
 the Persian Gulf goes to Asia, India,
 China between them they they account for

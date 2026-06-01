@@ -1,0 +1,344 @@
+{
+  "root": "source-archive/statecraft",
+  "seed_patterns": [
+    "state of armus",
+    "state of formos",
+    "state of homus",
+    "state of hormos",
+    "straight of armoose",
+    "straight of armus",
+    "straight of barmuz",
+    "straight of foremost",
+    "straight of formos",
+    "straight of harmuz",
+    "straight of hermoose",
+    "straight of hermus",
+    "straight of hermuz",
+    "straight of homus",
+    "straight of hormone",
+    "straight of hormones",
+    "straight of hormos",
+    "straight of hormuse",
+    "straight of humus",
+    "strait of armus",
+    "strait of hermuz",
+    "strait of homus",
+    "strait of hormos",
+    "strait of ormuz",
+    "straits of armoose",
+    "straits of hermuz",
+    "straits of homus",
+    "straits of hormuse",
+    "street hermuz",
+    "street of armors",
+    "street of hermuz",
+    "street of hormones",
+    "street of hormos",
+    "street of humus",
+    "street of ormuz",
+    "trade of foremost",
+    "trade of formos",
+    "trade of hermus",
+    "trade of hermuz",
+    "trade of hormones",
+    "trade of hormos",
+    "trade of humus"
+  ],
+  "findings": [
+    {
+      "path": "source-archive/statecraft/2025-07-02/youtube-glenn-diesen-larry-johnson-larry-johnson-extensive-damage-to-israel-s-defense-industry-economy-2025-07-02.md",
+      "tier": "high_confidence",
+      "match_text": "straits of Hormuse",
+      "suspected_target": "Strait of Hormuz",
+      "reason_code": "phonetic_variant",
+      "line_number": 747,
+      "snippet": "think um I don't think Iran was actually ⏎ seriously entertaining shutting shutting ⏎ down the straits of Hormuse because when"
+    },
+    {
+      "path": "source-archive/statecraft/2026-02-18/transcript-dialogue-works-scott-ritter-hormuz-blocked-iran-s-missile-fire-can-leave-the-us-navy-de-2026-02-18.md",
+      "tier": "context_only",
+      "match_text": "",
+      "suspected_target": "Strait of Hormuz",
+      "reason_code": "title_body_divergence",
+      "line_number": null,
+      "snippet": "Context-only review candidate: title/path references Hormuz but no direct malformed phrase matched."
+    },
+    {
+      "path": "source-archive/statecraft/2026-03-02/youtube-alex-mercouris-iran-no-as-trump-begs-talks-plans-long-war-us-losses-mount-oil-gas-price-2026-03-02.md",
+      "tier": "high_confidence",
+      "match_text": "straits of Hormuse",
+      "suspected_target": "Strait of Hormuz",
+      "reason_code": "phonetic_variant",
+      "line_number": 71,
+      "snippet": "But apart from one laser laser system which the United States has apparently loaned to Israel which is experimental and about which we know very little. The US ambassador to Israel Mike Huckabe has been talking about it. Um, the only defens"
+    },
+    {
+      "path": "source-archive/statecraft/2026-03-04/transcript-mercouris-barnes-open-ended-iran-war-2026-03-04.md",
+      "tier": "high_confidence",
+      "match_text": "Straits of Hormuse",
+      "suspected_target": "Strait of Hormuz",
+      "reason_code": "phonetic_variant",
+      "line_number": 121,
+      "snippet": "I know some people got got that confused last time. So, not Bloomberg. Bloomberg. Uh, he didn't think we would go back in because he's like, \"We don't have the interceptors to sustain a conflict longer than two weeks.\" That's when we had to"
+    },
+    {
+      "path": "source-archive/statecraft/2026-03-04/transcript-mercouris-barnes-open-ended-iran-war-2026-03-04.md",
+      "tier": "high_confidence",
+      "match_text": "straits of Hormuse",
+      "suspected_target": "Strait of Hormuz",
+      "reason_code": "phonetic_variant",
+      "line_number": 202,
+      "snippet": "When he made that declaration, he was foreign secretary. He was absolutely the key figure at that time in what you would be justified in calling the British deep state. He was died in the wool imperialist and he strongly disliked the Jewish"
+    },
+    {
+      "path": "source-archive/statecraft/2026-03-04/transcript-mercouris-barnes-open-ended-iran-war-2026-03-04.md",
+      "tier": "high_confidence",
+      "match_text": "Straits of Hermuz",
+      "suspected_target": "Strait of Hormuz",
+      "reason_code": "phonetic_variant",
+      "line_number": 204,
+      "snippet": "He was no friend of the Jewish people then or now. And I've heard that there are streets in Jerusalem named after him. I I just really do wonder why because he certainly doesn't deserve it. That's something else. Now, there's something I wa"
+    },
+    {
+      "path": "source-archive/statecraft/2026-03-04/transcript-mercouris-barnes-open-ended-iran-war-2026-03-04.md",
+      "tier": "high_confidence",
+      "match_text": "straits of Hormuse",
+      "suspected_target": "Strait of Hormuz",
+      "reason_code": "phonetic_variant",
+      "line_number": 240,
+      "snippet": "If it does happen, if by any possible chance it were to happen, it would be there for only I think a relatively short time. So that's that's as I said I think a point I want to make. Now, um as for um the bigger, you know, more long run imp"
+    },
+    {
+      "path": "source-archive/statecraft/2026-03-04/transcript-mercouris-barnes-open-ended-iran-war-2026-03-04.md",
+      "tier": "high_confidence",
+      "match_text": "straight of Hormuse",
+      "suspected_target": "Strait of Hormuz",
+      "reason_code": "phonetic_variant",
+      "line_number": 331,
+      "snippet": "That's not Iran. I think, by the way, they convinced Trump it was. They convinced him a whole bunch. I mean, you even give you idea of Trump's delusion. He was out there publicly stating he thought the the same people he accused of murderin"
+    },
+    {
+      "path": "source-archive/statecraft/2026-03-16/youtube-dialogue-works-pepe-escobar-larry-c-johnson-trump-is-losing-control-iran-wipes-out-strategic-military-targets-2026-03-16.md",
+      "tier": "high_confidence",
+      "match_text": "Straight of Hormuse",
+      "suspected_target": "Strait of Hormuz",
+      "reason_code": "phonetic_variant",
+      "line_number": 84,
+      "snippet": "We still don't know go where, but obviously uh anybody that thinks two seconds about what happened will know that the American protection umbrella is dead and probably is not coming back. And this once again coming back to our major theme, "
+    },
+    {
+      "path": "source-archive/statecraft/2026-03-16/youtube-dialogue-works-pepe-escobar-larry-c-johnson-trump-is-losing-control-iran-wipes-out-strategic-military-targets-2026-03-16.md",
+      "tier": "high_confidence",
+      "match_text": "straight of Hormuse",
+      "suspected_target": "Strait of Hormuz",
+      "reason_code": "phonetic_variant",
+      "line_number": 194,
+      "snippet": "Uh it needs a 6,000 ft runway to land on or 3,500 ft. Well, Trump had bombed the the runway there and only 3,000 feet were usable. So, that had a much smaller aircraft, the C130. Uh C17 is jet powered. Uh C C130 is propellers, you know, rot"
+    },
+    {
+      "path": "source-archive/statecraft/2026-04-02/youtube-alex-mercouris-russia-china-act-as-trump-iran-war-address-fails-russia-saudi-talks-chin-2026-04-02.md",
+      "tier": "high_confidence",
+      "match_text": "straight of Hormuse",
+      "suspected_target": "Strait of Hormuz",
+      "reason_code": "phonetic_variant",
+      "line_number": 52,
+      "snippet": "Now on the other side it isn't like that at all. And perhaps far more important than Trump's address are the actions of China and Russia, the two other great powers that are starting to make significant diplomatic moves. Now I have discusse"
+    },
+    {
+      "path": "source-archive/statecraft/2026-04-03/transcript-dialogue-works-prof-ted-postol-iran-already-achieved-nuclear-deterrence-against-isra-2026-04-03.md",
+      "tier": "high_confidence",
+      "match_text": "straight of Hormuse",
+      "suspected_target": "Strait of Hormuz",
+      "reason_code": "phonetic_variant",
+      "line_number": 118,
+      "snippet": "Because the Iranians have said, \"Look, we are in a war uh of survival. We we have suffered under the western uh boot, the boot of the west on our on our throats since at least the 1970s and before. And we've had it. We've reached the end. W"
+    },
+    {
+      "path": "source-archive/statecraft/2026-04-03/transcript-dialogue-works-prof-ted-postol-iran-already-achieved-nuclear-deterrence-against-isra-2026-04-03.md",
+      "tier": "high_confidence",
+      "match_text": "straight of Hormuse",
+      "suspected_target": "Strait of Hormuz",
+      "reason_code": "phonetic_variant",
+      "line_number": 118,
+      "snippet": "Because the Iranians have said, \"Look, we are in a war uh of survival. We we have suffered under the western uh boot, the boot of the west on our on our throats since at least the 1970s and before. And we've had it. We've reached the end. W"
+    },
+    {
+      "path": "source-archive/statecraft/2026-05-26/youtube-alex-mercouris-russian-fiercest-warning-kiev-decision-centres-will-be-attacked-patience-exhausted-west-quit-kiev-2026-05-26.md",
+      "tier": "high_confidence",
+      "match_text": "straight of Hormuse",
+      "suspected_target": "Strait of Hormuz",
+      "reason_code": "phonetic_variant",
+      "line_number": 189,
+      "snippet": "So, we're going to see an escalating Russian drone offensive and I suspect more intensity in fighting on the front lines and no negotiations and of course if there is a fall, if there is a collapse in Ukraine, there is no plan in Europe on "
+    },
+    {
+      "path": "source-archive/statecraft/2026-05-27/youtube-hoh-dialogue-works-the-us-just-ran-out-of-cruise-missiles-what-happens-next-2026-05-27.md",
+      "tier": "high_confidence",
+      "match_text": "street Hermuz",
+      "suspected_target": "Strait of Hormuz",
+      "reason_code": "missing_preposition_variant",
+      "line_number": 16,
+      "snippet": "control the strait and would they have to open it immediately or would you be open to that happening over a period of time? >> No, the strait's going to be open to everybody. It's uh >> and who would control it? >> It's international waters"
+    },
+    {
+      "path": "source-archive/statecraft/2026-05-28/transcript-dialogue-works-alex-krainer-iran-avoided-us-tanker-then-did-this-in-the-strait-of-hormuz-2026-05-28.md",
+      "tier": "high_confidence",
+      "match_text": "straight of hormuse",
+      "suspected_target": "Strait of Hormuz",
+      "reason_code": "phonetic_variant",
+      "line_number": 43,
+      "snippet": "And I I don't I don't mean that the war is necessarily going to continue by military means, but it could continue through diplomatic and legal and administrative means and, you know, sanctions and trade measures, you know, like you can't ha"
+    },
+    {
+      "path": "source-archive/statecraft/2026-05-28/youtube-alex-mercouris-zelensky-panic-begs-trump-help-as-kiev-ad-runs-out-russia-confirms-oreshnik-to-destroy-kiev-bunkers-2026-05-28.md",
+      "tier": "high_confidence",
+      "match_text": "straight of Hormuse",
+      "suspected_target": "Strait of Hormuz",
+      "reason_code": "phonetic_variant",
+      "line_number": 127,
+      "snippet": "I have never in my time been as frustrated by a situation as I am by this one. To repeat again what I have pointed out so many times but which I am tired of pointing out. There is a potential deal on the table which which meets satisfies ev"
+    },
+    {
+      "path": "source-archive/statecraft/2026-05-29/transcript-nawfal-larry-johnson-breaking-us-declares-military-operations-in-hormuz-2026-05-29.md",
+      "tier": "high_confidence",
+      "match_text": "straight of Hormuse",
+      "suspected_target": "Strait of Hormuz",
+      "reason_code": "phonetic_variant",
+      "line_number": 143,
+      "snippet": "And that's just >> a funny piece of interesting piece of information. But that is really surprising. I did not expect this. But then we've seen that we've seen that kind of proddding throughout the negotiations. As the negotiations go on, y"
+    }
+  ],
+  "summary": {
+    "total_findings": 18,
+    "candidate_files": 12,
+    "tier_counts": {
+      "high_confidence": 17,
+      "context_only": 1
+    },
+    "variant_family_counts": {
+      "straight of hormuse": 10,
+      "straits of hormuse": 5,
+      "straits of hermuz": 1,
+      "street hermuz": 1
+    },
+    "highest_density_files": [
+      {
+        "path": "source-archive/statecraft/2026-03-04/transcript-mercouris-barnes-open-ended-iran-war-2026-03-04.md",
+        "findings": 5
+      },
+      {
+        "path": "source-archive/statecraft/2026-03-16/youtube-dialogue-works-pepe-escobar-larry-c-johnson-trump-is-losing-control-iran-wipes-out-strategic-military-targets-2026-03-16.md",
+        "findings": 2
+      },
+      {
+        "path": "source-archive/statecraft/2026-04-03/transcript-dialogue-works-prof-ted-postol-iran-already-achieved-nuclear-deterrence-against-isra-2026-04-03.md",
+        "findings": 2
+      },
+      {
+        "path": "source-archive/statecraft/2025-07-02/youtube-glenn-diesen-larry-johnson-larry-johnson-extensive-damage-to-israel-s-defense-industry-economy-2025-07-02.md",
+        "findings": 1
+      },
+      {
+        "path": "source-archive/statecraft/2026-02-18/transcript-dialogue-works-scott-ritter-hormuz-blocked-iran-s-missile-fire-can-leave-the-us-navy-de-2026-02-18.md",
+        "findings": 1
+      },
+      {
+        "path": "source-archive/statecraft/2026-03-02/youtube-alex-mercouris-iran-no-as-trump-begs-talks-plans-long-war-us-losses-mount-oil-gas-price-2026-03-02.md",
+        "findings": 1
+      },
+      {
+        "path": "source-archive/statecraft/2026-04-02/youtube-alex-mercouris-russia-china-act-as-trump-iran-war-address-fails-russia-saudi-talks-chin-2026-04-02.md",
+        "findings": 1
+      },
+      {
+        "path": "source-archive/statecraft/2026-05-26/youtube-alex-mercouris-russian-fiercest-warning-kiev-decision-centres-will-be-attacked-patience-exhausted-west-quit-kiev-2026-05-26.md",
+        "findings": 1
+      },
+      {
+        "path": "source-archive/statecraft/2026-05-27/youtube-hoh-dialogue-works-the-us-just-ran-out-of-cruise-missiles-what-happens-next-2026-05-27.md",
+        "findings": 1
+      },
+      {
+        "path": "source-archive/statecraft/2026-05-28/transcript-dialogue-works-alex-krainer-iran-avoided-us-tanker-then-did-this-in-the-strait-of-hormuz-2026-05-28.md",
+        "findings": 1
+      },
+      {
+        "path": "source-archive/statecraft/2026-05-28/youtube-alex-mercouris-zelensky-panic-begs-trump-help-as-kiev-ad-runs-out-russia-confirms-oreshnik-to-destroy-kiev-bunkers-2026-05-28.md",
+        "findings": 1
+      },
+      {
+        "path": "source-archive/statecraft/2026-05-29/transcript-nawfal-larry-johnson-breaking-us-declares-military-operations-in-hormuz-2026-05-29.md",
+        "findings": 1
+      }
+    ],
+    "findings_by_date": [
+      {
+        "date": "2026-03-04",
+        "findings": 5
+      },
+      {
+        "date": "2026-03-16",
+        "findings": 2
+      },
+      {
+        "date": "2026-04-03",
+        "findings": 2
+      },
+      {
+        "date": "2026-05-28",
+        "findings": 2
+      },
+      {
+        "date": "2025-07-02",
+        "findings": 1
+      },
+      {
+        "date": "2026-02-18",
+        "findings": 1
+      },
+      {
+        "date": "2026-03-02",
+        "findings": 1
+      },
+      {
+        "date": "2026-04-02",
+        "findings": 1
+      },
+      {
+        "date": "2026-05-26",
+        "findings": 1
+      },
+      {
+        "date": "2026-05-27",
+        "findings": 1
+      },
+      {
+        "date": "2026-05-29",
+        "findings": 1
+      }
+    ],
+    "review_needed": [
+      {
+        "path": "source-archive/statecraft/2026-02-18/transcript-dialogue-works-scott-ritter-hormuz-blocked-iran-s-missile-fire-can-leave-the-us-navy-de-2026-02-18.md",
+        "tier": "context_only",
+        "match_text": "",
+        "suspected_target": "Strait of Hormuz",
+        "reason_code": "title_body_divergence",
+        "line_number": null,
+        "snippet": "Context-only review candidate: title/path references Hormuz but no direct malformed phrase matched."
+      }
+    ],
+    "next_correction_candidates": [
+      "straight of hormones -> Strait of Hormuz",
+      "straight of Hormos -> Strait of Hormuz",
+      "straight of Homus -> Strait of Hormuz",
+      "trade of hormones -> Strait of Hormuz",
+      "state/street of Ormuz -> Strait of Hormuz",
+      "state of armus -> Strait of Hormuz",
+      "street of armors -> Strait of Hormuz",
+      "straight of Armoose -> Strait of Hormuz",
+      "straight/trade of formos -> Strait of Hormuz",
+      "straight of foremost -> Strait of Hormuz"
+    ]
+  }
+}

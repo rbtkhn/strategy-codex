@@ -1,0 +1,101 @@
+{
+  "root": "source-archive/statecraft",
+  "seed_patterns": [
+    "state of armus",
+    "state of formos",
+    "state of homus",
+    "state of hormos",
+    "straight of armoose",
+    "straight of armus",
+    "straight of barmuz",
+    "straight of foremost",
+    "straight of formos",
+    "straight of harmuz",
+    "straight of hermoose",
+    "straight of hermus",
+    "straight of hermuz",
+    "straight of homus",
+    "straight of hormone",
+    "straight of hormones",
+    "straight of hormos",
+    "straight of hormuse",
+    "straight of humus",
+    "strait of armus",
+    "strait of hermuz",
+    "strait of homus",
+    "strait of hormos",
+    "strait of ormuz",
+    "straits of armoose",
+    "straits of hermuz",
+    "straits of homus",
+    "straits of hormuse",
+    "street hermuz",
+    "street of armors",
+    "street of hermuz",
+    "street of hormones",
+    "street of hormos",
+    "street of humus",
+    "street of ormuz",
+    "trade of foremost",
+    "trade of formos",
+    "trade of hermus",
+    "trade of hermuz",
+    "trade of hormones",
+    "trade of hormos",
+    "trade of humus"
+  ],
+  "findings": [
+    {
+      "path": "source-archive/statecraft/2026-02-18/transcript-dialogue-works-scott-ritter-hormuz-blocked-iran-s-missile-fire-can-leave-the-us-navy-de-2026-02-18.md",
+      "tier": "context_only",
+      "match_text": "",
+      "suspected_target": "Strait of Hormuz",
+      "reason_code": "title_body_divergence",
+      "line_number": null,
+      "snippet": "Context-only review candidate: title/path references Hormuz but no direct malformed phrase matched."
+    }
+  ],
+  "summary": {
+    "total_findings": 1,
+    "candidate_files": 1,
+    "tier_counts": {
+      "context_only": 1
+    },
+    "variant_family_counts": {},
+    "highest_density_files": [
+      {
+        "path": "source-archive/statecraft/2026-02-18/transcript-dialogue-works-scott-ritter-hormuz-blocked-iran-s-missile-fire-can-leave-the-us-navy-de-2026-02-18.md",
+        "findings": 1
+      }
+    ],
+    "findings_by_date": [
+      {
+        "date": "2026-02-18",
+        "findings": 1
+      }
+    ],
+    "review_needed": [
+      {
+        "path": "source-archive/statecraft/2026-02-18/transcript-dialogue-works-scott-ritter-hormuz-blocked-iran-s-missile-fire-can-leave-the-us-navy-de-2026-02-18.md",
+        "tier": "context_only",
+        "match_text": "",
+        "suspected_target": "Strait of Hormuz",
+        "reason_code": "title_body_divergence",
+        "line_number": null,
+        "snippet": "Context-only review candidate: title/path references Hormuz but no direct malformed phrase matched."
+      }
+    ],
+    "next_correction_candidates": [
+      "straight of hormones -> Strait of Hormuz",
+      "straight of Hormos -> Strait of Hormuz",
+      "straight of Homus -> Strait of Hormuz",
+      "trade of hormones -> Strait of Hormuz",
+      "state/street of Ormuz -> Strait of Hormuz",
+      "state of armus -> Strait of Hormuz",
+      "street of armors -> Strait of Hormuz",
+      "straight of Armoose -> Strait of Hormuz",
+      "straight/trade of formos -> Strait of Hormuz",
+      "straight of foremost -> Strait of Hormuz"
+    ]
+  }
+}

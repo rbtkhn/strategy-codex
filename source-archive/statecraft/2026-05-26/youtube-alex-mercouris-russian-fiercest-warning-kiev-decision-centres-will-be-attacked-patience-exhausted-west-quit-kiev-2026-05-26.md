@@ -204,7 +204,7 @@ I found that an extraordinary thing for the Daily Telegraph to say given that th
 
 So, we're going to see an escalating Russian drone offensive and I suspect more intensity in fighting on the front lines and no negotiations and of course if there is a fall, if there is a collapse in Ukraine, there is no plan in Europe on what to do about this. Both Gasprom in Russia and oilprice.com which is an industry journal are reporting that European gas reserves are at very low levels.
 
-this as the energy shock from the closure of the straight of Hormuse intensifies and in terms of weapons production not just in the United States but in Europe too. I've now received further reports that supplies of tungsten a metal I've discussed in the past or rather stop stocks of tungsten are now critically low and of course tungsten is indispensable.
+this as the energy shock from the closure of the Strait of Hormuz intensifies and in terms of weapons production not just in the United States but in Europe too. I've now received further reports that supplies of tungsten a metal I've discussed in the past or rather stop stocks of tungsten are now critically low and of course tungsten is indispensable.
 
 It is essential in production of many types of advanced weapons. and the West at the moment simply doesn't have it. I suspect that with the Chinese and the Russians in the mood that they are currently in, we are going to likely see um a further tightening by the Chinese of control of exports of items like rare earths and of tungsten where they are by far the biggest producer and exporter which will have an effect an increasing effect in the west.
 
