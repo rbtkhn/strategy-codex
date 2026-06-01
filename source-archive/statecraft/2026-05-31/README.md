@@ -4,27 +4,33 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Stats
 
-- Source files: `1`
-- Type mix: `youtube` (1)
-- Distinct channels/shows: `1`
-- Distinct hosts: `1`
-- Distinct guests: `1`
-- Distinct threads: `1`
+- Source files: `7`
+- Type mix: `transcript` (5), `youtube` (2)
+- Distinct channels/shows: `5`
+- Distinct hosts: `5`
+- Distinct guests: `5`
+- Distinct threads: `6`
 
 ## Channel / Show Rollup
 
-- `Moral Resistance` (1)
+- `Mario Nawfal` (3), `Alexander Mercouris` (1), `Dialogue Works` (1), `Glenn Diesen` (1), `Moral Resistance` (1)
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Moral Resistance` (1)
-- Guests: `Anthony Aguilar` (1)
-- Threads: `aguilar` (1)
+- Hosts: `Mario Nawfal` (3), `Alexander Mercouris` (1), `Glenn Diesen` (1), `Moral Resistance` (1), `Nima R. Alkhorshid` (1)
+- Guests: `Anthony Aguilar` (1), `Glenn Diesen` (1), `Jeffrey Sachs` (1), `Larry Johnson` (1), `Robert Barnes` (1)
+- Threads: `diesen` (2), `aguilar` (1), `barnes` (1), `johnson` (1), `mercouris` (1), `nima` (1)
 
 ## Filename Family Fallbacks
 
-- (none)
+- `transcript-alkorshid-*` (1), `youtube-alex-mercouris-*` (1)
 
 ## Files
 
+- `transcript-alkorshid-total-surrender-trump-dares-iran-but-they-just-dismantled-his-every-move-2026-05-31.md`
+- `transcript-diesen-sachs-germany-is-leading-europe-toward-world-war-iii-2026-05-31.md`
+- `transcript-nawfal-barnes-breaking-u-s-to-merge-military-with-israel-2026-05-31.md`
+- `transcript-nawfal-diesen-breaking-iran-collects-tolls-from-28-ships-in-past-24-hours-2026-05-31.md`
+- `transcript-nawfal-larry-johnson-israel-asks-trump-to-escalate-2026-05-31.md`
+- `youtube-alex-mercouris-kiev-drone-strikes-zaporozhzhye-npp-west-iaea-silent-russia-orekhov-breakthrough-konstantinovka-2026-05-31.md`
 - `youtube-moral-resistance-u-s-military-attacks-vessels-in-strait-of-hormuz-5-u-s-casualties-in-hor-2026-05-31.md`
