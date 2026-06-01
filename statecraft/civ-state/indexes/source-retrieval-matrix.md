@@ -69,6 +69,12 @@ Object selection comes second, not first. First identify the governing six-part 
 
 Use secondary support only after primary descent exposes chronology, attribution, transmission, institutional-context, or distortion trouble. Secondary shelves clarify and counterweight; they do not replace the primary-source opening move.
 
+When the real problem becomes comparative rather than local, open:
+
+- [Failure-mode routes](failure-mode-routes.md) for recurring civilizational breakdown patterns
+- [Interpretive difficulty map](interpretive-difficulty-map.md) for recurring reading trouble across shelves
+- [Recurring secondary sources](recurring-secondary-sources.md) when a repeated clarifier or counterweight may already have a governed note
+
 ## Evidence Spine Rule
 
 Every major CIV-STATE object should expose a compact **evidence spine**:
@@ -82,6 +88,21 @@ Every major CIV-STATE object should expose a compact **evidence spine**:
 Full-strength objects are **connection-built and counterweighted**. If an object cannot name a seed MEM, a useful `MEM CONNECTIONS` cluster, a counterweight, and a current-carrier relation, mark it `Provisional` rather than pretending the construction is mature.
 
 Use the [Evidence Spine Audit Checklist](evidence-spine-audit-checklist.md) when you need a lightweight human falsification pass before treating an object as mature doctrine.
+
+## Source-Support Block Contract
+
+Selected downstream statecraft objects should now expose a compact **source-support block** so layered-source use becomes explicit rather than implied.
+
+Required fields:
+
+- `primary_anchor`
+- `secondary_support_role`
+- `secondary_support_work`
+- `counterweight_used`
+- `failure_mode_checked`
+- `current_carrier_relation`
+
+This block should name what primary shelf anchors the claim, what kind of secondary support clarified or corrected the read, what counterweight prevented a smooth overread, and what current carrier now bears the pattern.
 
 ## Arc-Conditioned Retrieval
 

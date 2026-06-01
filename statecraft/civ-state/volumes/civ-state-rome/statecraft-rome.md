@@ -10,6 +10,15 @@ This is Part 3 of the Rome CIV-STATE volume. It is the present-tense synthesis l
 
 Read this chapter as an operating guide to Roman afterlife in politics. The question is not how Rome once ruled, but how Roman form still structures judgments about law, universality, order, and collapse in later carriers.
 
+## Source Support Block
+
+- `primary_anchor`: [Rome medieval primary sources](civ-state-rome-primary-sources-medieval.md) and [Rome cybernetic primary sources](civ-state-rome-primary-sources-cybernetic.md)
+- `secondary_support_role`: `chronology`, `institutional_context`, `misreading_correction`
+- `secondary_support_work`: [Rome medieval secondary sources](civ-state-rome-secondary-sources-medieval.md) and [Rome cybernetic secondary sources](civ-state-rome-secondary-sources-cybernetic.md)
+- `counterweight_used`: separate transformed continuity from theatrical revival so residual universality is not mistaken for living Roman sovereignty
+- `failure_mode_checked`: residual universality collapsing into costume, exhaustion, or successor illusion
+- `current_carrier_relation`: Roman form now survives through diffuse carriers in law, church residue, institutional memory, and successor-order comparison rather than one singular sovereign center
+
 ## Statecraft Pressure Points
 
 - universality versus fragmentation

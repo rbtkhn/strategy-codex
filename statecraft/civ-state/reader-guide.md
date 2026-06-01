@@ -60,6 +60,13 @@ Each volume should also carry a `shelf-reader`. Use it when the operator needs h
 
 Each volume should also carry era-matched `secondary-sources` files. Use them only after the primary shelf makes chronology, attribution, transmission, institutional context, or counterweight trouble visible. They clarify and bound the shelf; they do not replace it.
 
+Read the stack as a switchboard:
+
+- stay in the primary shelf when the issue is legitimacy language, founding wording, sacred grammar, legal form, or the civilization's own self-description
+- open the secondary shelf when the issue is chronology, provenance, translation, institutional context, counterweight, or misreading correction
+- return to the primary shelf once the difficulty has been clarified rather than letting secondary scholarship become the new center of gravity
+- move upward into civilization, empire, or statecraft once the source difficulty has been resolved and the live question has become present carrier, outward instrument, or settlement-bearing judgment
+
 Read Part 1 first when the issue is continuity, legitimacy, founding, inheritance, sacred grammar, or category membership.
 
 Read Part 2 next when the issue is reach, projection stack, coercive carriage, maintenance burden, or overreach.
@@ -95,6 +102,27 @@ That same rule now governs `secondary-sources`: `civ-mem` should shape selection
 The generation law is:
 
 `seed MEM -> MEM CONNECTIONS cluster -> overview bounds -> counterweight -> CIV-STATE translation`
+
+The secondary-support taxonomy now used across the stack is:
+
+- `chronology`
+- `provenance`
+- `translation`
+- `institutional_context`
+- `counterweight`
+- `misreading_correction`
+
+The recurrence taxonomy now used across the stack is:
+
+- `cross_civilizational_recurring`
+- `civilization_specific_recurring`
+- `era_local`
+
+The promotion taxonomy now used across the stack is:
+
+- `local`
+- `promotable`
+- `promoted`
 
 That law protects the work from two opposite failures:
 

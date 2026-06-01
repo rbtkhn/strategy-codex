@@ -27,6 +27,13 @@ Read America as a shelf of transferred inheritance, republic through contradicti
 
 ## Where To Go Next
 
+Switchboard rule:
+
+- stay in the primary shelf when the issue is constitutional wording, charter language, legitimacy grammar, or the civilization's own self-description
+- open the era-matched secondary shelf when the issue is chronology, provenance, transmission, institutional context, counterweight, or misreading correction
+- return to the primary shelf once the difficulty has been clarified
+- move upward into civilization, empire, or statecraft once the shelf problem has become a present carrier or settlement-bearing judgment problem
+
 - Open the [America bibliography](civ-state-america-bibliography.md) for era entry and source doors.
 - Open the era-matched `secondary-sources` file from the bibliography when chronology, constitutional-context, Anglo-transfer interpretation, or counterweight is the real need rather than direct source descent alone.
 - Open [America civilization](civilization-america.md) if the live question is continuity, legitimacy, or category strain.

@@ -28,6 +28,13 @@ Read Rome as a migration shelf. Start with founding law, empire, and universalit
 
 ## Where To Go Next
 
+Switchboard rule:
+
+- stay in the primary shelf when the issue is law, universality language, constitutional wording, or the civilization's own self-description
+- open the era-matched secondary shelf when the issue is chronology, provenance, translation, institutional context, counterweight, or misreading correction
+- return to the primary shelf once the difficulty has been clarified
+- move upward into civilization, empire, or statecraft once the shelf problem has become a present carrier or settlement-bearing judgment problem
+
 - Open the [Rome bibliography](civ-state-rome-bibliography.md) for era entry and source doors.
 - Open the era-matched `secondary-sources` file from the bibliography when chronology, transformed-continuity interpretation, or counterweight is the real need rather than direct source descent alone.
 - Open [Rome civilization](civilization-rome.md) if the live question is legitimacy, continuity, or category membership.

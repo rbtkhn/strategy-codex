@@ -6,6 +6,8 @@ This doc upgrades the old binary `Record vs work` framing into a typed membrane 
 
 **Lane overlays:** [statecraft/work-membrane.md](../statecraft/work-membrane.md), [singularity/work-membrane.md](../singularity/work-membrane.md)
 
+**Live examples companion:** [work-membrane-live-examples.md](work-membrane-live-examples.md)
+
 ---
 
 ## Core invariants

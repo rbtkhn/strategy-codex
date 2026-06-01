@@ -42,6 +42,27 @@ The practical CIV-STATE stack therefore reads:
 - `secondary-sources` = bounded clarification and counterweight
 - `source records / excerpts / sidecar full text` = deeper primary-text substrate
 
+The shared role taxonomy for this stack is:
+
+- `chronology`
+- `provenance`
+- `translation`
+- `institutional_context`
+- `counterweight`
+- `misreading_correction`
+
+The shared recurrence taxonomy for repeated secondary works is:
+
+- `cross_civilizational_recurring`
+- `civilization_specific_recurring`
+- `era_local`
+
+The shared promotion taxonomy for repeated interpretive work is:
+
+- `local`
+- `promotable`
+- `promoted`
+
 ## Upstream Authority Layers
 
 Use these source layers in descending order of public-to-local proximity:

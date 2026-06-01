@@ -28,6 +28,13 @@ Read China from durable founding form toward restored present carriage. Start wi
 
 ## Where To Go Next
 
+Switchboard rule:
+
+- stay in the primary shelf when the issue is mandate language, canonical wording, ritual legitimacy, or the civilization's own self-description
+- open the era-matched secondary shelf when the issue is chronology, provenance, translation, institutional context, counterweight, or misreading correction
+- return to the primary shelf once the difficulty has been clarified
+- move upward into civilization, empire, or statecraft once the shelf problem has become a present carrier or settlement-bearing judgment problem
+
 - Open the [China bibliography](civ-state-china-bibliography.md) for era entry and source doors.
 - Open the era-matched `secondary-sources` file from the bibliography when chronology, attribution, translation, or counterweight is the real need rather than direct source descent alone.
 - Open [China civilization](civilization-china.md) if the live question is legitimacy or continuity.

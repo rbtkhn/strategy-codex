@@ -8,6 +8,15 @@ Use this adapter when a Marandi-style claim needs to extract recognition, legiti
 
 This adapter is part of the [Persia recognition-vs-settlement bridge](persia-recognition-vs-settlement-bridge.md), not a substitute for Persia lane drafting.
 
+## Source Support Block
+
+- `primary_anchor`: [Persia cybernetic primary sources](../civ-state/volumes/civ-state-persia/civ-state-persia-primary-sources-cybernetic.md)
+- `secondary_support_role`: `institutional_context`, `counterweight`, `misreading_correction`
+- `secondary_support_work`: [Persia cybernetic secondary sources](../civ-state/volumes/civ-state-persia/civ-state-persia-secondary-sources-cybernetic.md)
+- `counterweight_used`: recognition leakage must be separated from durable settlement and restoration language must be checked against overuse-of-leverage failure
+- `failure_mode_checked`: sovereignty and endurance narration becoming symbolic overclaim without governable settlement room
+- `current_carrier_relation`: present Iranian recognition claims are borne through state institutions, red-line language, maritime leverage, and current bargaining channels rather than through civilizational memory alone
+
 ## When To Use
 
 Use this adapter when the live claim is primarily about:

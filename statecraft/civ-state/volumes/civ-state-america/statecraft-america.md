@@ -10,6 +10,15 @@ This is Part 3 of the America CIV-STATE volume. It is the present-tense synthesi
 
 Read this chapter as a statesman's guide to a carrier that still commands vast order-making machinery while increasingly testing whether that machinery remains answerable to its own civilizational and constitutional base. The task is not to celebrate or denounce America, but to judge what kind of order it can still credibly bear.
 
+## Source Support Block
+
+- `primary_anchor`: [America industrial primary sources](civ-state-america-primary-sources-industrial.md) and [America cybernetic primary sources](civ-state-america-primary-sources-cybernetic.md)
+- `secondary_support_role`: `institutional_context`, `counterweight`, `misreading_correction`
+- `secondary_support_work`: [America industrial secondary sources](civ-state-america-secondary-sources-industrial.md) and [America cybernetic secondary sources](civ-state-america-secondary-sources-cybernetic.md)
+- `counterweight_used`: read alliance order and constitutional legitimacy strain together so America is not flattened into either benevolent administration or pure imperial decadence
+- `failure_mode_checked`: outward machinery outrunning republican legitimacy and settlement-bearing judgment
+- `current_carrier_relation`: the United States still carries maritime command, alliance order, and financial centrality through a constitutional-republican form under increasing internal strain
+
 ## Statecraft Pressure Points
 
 - constitutional legitimacy versus imperial carriage

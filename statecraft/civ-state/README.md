@@ -1,8 +1,14 @@
 # CIV-STATE
 
-WORK only; not Record.
+work only; not Record.
 
 **`civ-state` is the repo-root source-memory substrate for Civilizational Statecraft.**
+
+Under the shared [work membrane v2](../../docs/work-membrane-v2.md), most durable `civ-state` reading surfaces are **governed adjacent** rather than `runtime / derived`. The practical split is:
+
+- durable reading and retrieval doctrine lives here as governed-adjacent source-memory apparatus
+- generated navigation helpers, receipts, or rebuildable support views remain `runtime / derived`
+- live drafting and migration activity stays in `instrumental work`
 
 `Civilizational Statecraft` is the governing discipline and public conceptual name. `Civilization and Empire` is the opening essay and governing conceptual helix. `civ-state` is the repo-root local working source base derived from that helix. It is not the public PH-CIV artifact and it is not the legacy CIV-MEM graph. It is the upstream source base consumed by downstream statecraft: compact enough to retrieve during drafting, structured enough to carry civilizational depth, and practical enough to support treaty, policy, negotiation, sanctions, and settlement design.
 
@@ -258,6 +264,7 @@ Each CIV-STATE source object should be short and usable. It should include:
 - [Reader Guide](reader-guide.md) - operator-facing doctrine for how to open, read, and descend through the work.
 - [Glossary](glossary.md) - whole-work vocabulary of concepts, names, peoples, polities, dynasties, churches, and transformed carriers.
 - [Hybrid References](hybrid-references.md) - source basis plus bounded references layer; the strongest visible civ-mem evidence door in the book apparatus.
+- [Indexes front door](indexes/README.md) - retrieval maps and bounded retrieval doctrine; mostly governed-adjacent rather than generated.
 - [Index](index.md) - whole-work index for concepts, civilizations, routes, rulers, peoples, and retrieval doors.
 - [Volume map](volumes/README.md) - preferred civilization-first opening order for CIV-STATE.
 - [CIV-STATE volumes](volumes/README.md) - canonical three-part volume shelf with subordinate Statecraft sub-essays.

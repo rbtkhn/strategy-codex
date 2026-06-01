@@ -9,6 +9,15 @@ WORK only; not Record.
 - Lane translations used: [Iran geo](../../persia/civilization/geo.md), [Iran peace](../../persia/civilization/peace.md), [Iran helix](../../persia/helix.md), and [Hormuz recognition transit transaction](../../persia/transactions/hormuz-recognition-transit-transaction.md).
 - Legacy provenance: older Iran arc-lenses may still cite CIV-MEM Persia materials; this object is the statecraft-local CIV-STATE retrieval surface for the Hormuz recognition pattern.
 
+## Source Support Block
+
+- `primary_anchor`: [Persia cybernetic primary sources](../volumes/civ-state-persia/civ-state-persia-primary-sources-cybernetic.md)
+- `secondary_support_role`: `institutional_context`, `counterweight`, `misreading_correction`
+- `secondary_support_work`: [Persia cybernetic secondary sources](../volumes/civ-state-persia/civ-state-persia-secondary-sources-cybernetic.md)
+- `counterweight_used`: chokepoint leverage must remain recognizable as sovereign regulation and restraint rather than degrade into reusable disruption theater
+- `failure_mode_checked`: restoration-through-pressure consuming its own bargaining asset through overuse of Hormuz leverage
+- `current_carrier_relation`: Iranian state institutions bear the pattern through foreign ministry, security council, IRGC-maritime capacity, port administration, and sanctions-era bargaining channels
+
 ## Pattern
 
 Iran's Hormuz leverage is legitimate only when it can be presented as sovereign regulation of a vital passage, not as permanent veto over global commerce. Geography gives Iran systemic bargaining power; civilizational memory requires that restraint be recognized as dignity-preserving sovereignty rather than surrender; empire risk appears when chokepoint leverage becomes overused disruption that alienates partners and confirms adversary claims.
