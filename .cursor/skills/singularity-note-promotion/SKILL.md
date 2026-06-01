@@ -22,6 +22,7 @@ Use this skill when one argument inside a singularity synthesis memo has become 
 - Promote one bounded argument, not the whole month.
 - Keep the note argument-shaped, not archive-shaped.
 - Do not use note promotion to smuggle in a broad doctrine that still belongs in synthesis.
+- Default to a shelf-native note, not a silent duplicated mirror, unless the operator explicitly wants a bounded mirror while taxonomy is still settling.
 
 ## When to use
 
@@ -74,6 +75,13 @@ A strong promoted note usually includes:
 
 Do not bloat the note into a pseudo-essay.
 
+The governing distinction is:
+
+- `note` = bounded interpretive object
+- `essay` = stand-alone thesis-bearing synthesis
+
+If the claim now needs multiple fronts, a counter-reading, and broader carriage without the parent month beside it, it is probably moving toward essay work rather than note promotion.
+
 ### 4. Preserve source anchors
 
 Name the exact month sources or source sheets carrying the argument.
@@ -108,10 +116,18 @@ Before finalizing, ask:
 If `2` is no, move toward essay work instead.
 If `3` is yes, the note is not yet mature enough.
 
+### 7. Wire it into the prose system
+
+When the note is real:
+
+- place it in `singularity/notes/`
+- update the parent month with the promotion path
+- update the notes shelf index if the note should become a visible entry point
+- use `docs/prose-index.md` when the real uncertainty is note-vs-essay rather than topic placement
+
 ## Success condition
 
 The new note becomes a reusable singularity argument with clear source anchors and clear return paths, while the parent month remains the owning context for everything that was not promoted.
-
 
 
 ## Cursor / grace-mar instance

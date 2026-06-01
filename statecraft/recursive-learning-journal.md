@@ -16,6 +16,100 @@ Each entry should answer:
 - what changed structurally because of the reuse
 - what guardrail prevents the lesson from collapsing into blind template repetition
 
+## 2026-06-01 - Skill refinement as recursive learning from instruction drift
+
+### Trigger
+
+A bounded skill-refinement pass exposed a familiar but important fact: the repo had already changed its real topology faster than some of its skill surfaces had changed their internal teaching.
+
+The risk was not loud failure. The risk was quiet doctrinal drift:
+
+- old `archive` language surviving after the `archive/` vs `source-archive/` split
+- `work-strategy` residue surviving after `statecraft/` became the canonical operator judgment surface
+- weak note-vs-essay distinction surviving after prose shelves became first-class output classes
+- CIV-STATE retrieval language remaining too broad after the switchboard hardened
+- internal doctrine language leaking into outward-facing prose without translation
+
+### Extracted law
+
+The reusable law was:
+
+```text
+architecture drift
+-> instruction drift
+-> recurring routing error
+-> skill refinement
+-> lower recovery cost
+```
+
+Or more plainly:
+
+```text
+When the system's architecture changes,
+its skills must be updated to teach the new structure,
+or the old structure will quietly keep reproducing itself.
+```
+
+### Reapplication
+
+This law was immediately reapplied across five high-leverage skill surfaces:
+
+- CIV-STATE retrieval
+- statecraft source intake
+- statecraft lane intake routing
+- public writing / translation of internal doctrine language
+- singularity note promotion
+
+The point of the pass was not to make those skills more ornate. It was to reduce the chance that future work would be routed through outdated architectural assumptions.
+
+### Structural changes
+
+This learning event changed the machine in three ways.
+
+#### 1. Skills were reclassified as active doctrine carriers
+
+The repo now treats skills more explicitly as objects that can preserve or corrupt architecture, not merely as convenience wrappers around recurring prompts.
+
+#### 2. Skill refinement became measurable
+
+The new scorecard at [skill-refinement-scorecard.md](/C:/dev/strategy-codex/statecraft/notes/skill-refinement-scorecard.md) gives the repo a way to judge whether refinement is lowering routing error, prose-class drift, and operator correction load.
+
+#### 3. Recursive learning moved one layer downward
+
+Earlier recursive learning entries mostly described how the machine learned from sources, corpora, and shelving problems.
+
+This event adds a lower-layer version:
+
+- not only `how do we read better?`
+- but also `how do our instruction surfaces keep teaching the latest truthful structure?`
+
+### Guardrail
+
+The guardrail is:
+
+```text
+skill refinement is not wording polish
+```
+
+A valid refinement pass must improve:
+
+- routing truth
+- artifact-class clarity
+- vocabulary translation discipline
+- or measurable reduction in operator recovery work
+
+If a skill only sounds cleaner while preserving old taxonomy, the refinement is false.
+
+### Current lesson
+
+The current live lesson for the machine is:
+
+```text
+When architecture moves,
+skills must move with it.
+Otherwise the old architecture continues speaking through the new system.
+```
+
 ## 2026-05-27 / 2026-05-28 - `ph-civ` as a teacher of statecraft
 
 ### Trigger

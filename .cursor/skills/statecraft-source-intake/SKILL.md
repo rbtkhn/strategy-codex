@@ -16,20 +16,20 @@ synced_by: "sync_portable_skills.py"
 
 **Preferred activation (operator):** say **`statecraft source intake`**.
 
-Also support the archive-first batch phrases:
+Also support the source-first batch phrases:
 
 - **`statecraft daily intake`**
 - **`statecraft daily intake / source-archive first`**
 
 Use this skill when the operator already has a transcript-bearing source object in hand, usually a pasted YouTube transcript, and wants it landed into the canonical statecraft source archive with the right family pattern.
 
-This skill is for **archive intake**, not for helix drafting, speaker synthesis, transcript cleanup, or broad month auditing. Its job is to create the correct full-source object honestly and consistently.
+This skill is for **source-truth intake**, not for helix drafting, speaker synthesis, transcript cleanup, or broad month auditing. Its job is to create the correct full-source object honestly and consistently.
 
 ## Use this skill when
 
 - the operator pasted a full transcript into chat
 - the operator is uploading several same-day transcripts as a batch
-- a source capture should be filed under the statecraft archive immediately
+- a source capture should be filed under the statecraft source archive immediately
 - the main uncertainty is **which family / filename / frontmatter pattern** to use
 - the source is transcript-bearing and should become a real archive object, not a stub
 
@@ -38,32 +38,34 @@ This skill is for **archive intake**, not for helix drafting, speaker synthesis,
 - the task is to fetch captions or metadata directly from YouTube tooling first
 - the task is to clean a captured transcript into study-grade derivative form
 - the task is to route, summarize, interpret, or synthesize the source in `statecraft/`
-- the source belongs to another archive namespace rather than the statecraft archive
+- the source belongs to another source-archive namespace rather than the statecraft source archive
 
 If the operator wants a daily report after the archive batch is real, stop this skill and route to `statecraft daily synthesis`.
 
 ## Core law
 
-- `source-archive` holds the full source object
+- root `archive/` is for preserved legacy or frozen holdings; it is not the live intake lane
+- `source-archive/` holds the full source object
+- `/codex` holds chronology and continuity beneath statecraft
 - `civilization_memory` is the evidence layer for longer civilizational/source-memory arguments
 - `civ-state` is the operator-facing source base for statecraft interpretation
 - lane and transaction surfaces are the downstream drafting layer
-- `statecraft/` holds routing, continuity, synthesis, drafting, and control
-- this workflow must not leak summaries, stubs, or control notes into the archive
+- `statecraft/` holds routing, notes, essays, synthesis, drafting, and control
+- this workflow must not leak summaries, stubs, or control notes into `source-archive/`
 
 ## Layer boundary
 
-This skill is for archive intake only.
+This skill is for source-truth intake only.
 
 - It does **not** draft CIV-STATE doctrine.
-- It does **not** let source-archive captures silently become operator truth.
-- It does **not** collapse archive intake into lane synthesis or civilization-state argument.
+- It does **not** let `source-archive/` captures silently become operator truth.
+- It does **not** collapse source intake into lane synthesis or civilization-state argument.
 
-If the operator's next move is interpretation, route from the landed archive object into `civ-state` or the relevant lane-local surfaces rather than continuing to treat the archive file as the working doctrine surface.
+If the operator's next move is interpretation, route from the landed source object into `/codex`, `civ-state`, or the relevant lane-local `statecraft/` surfaces rather than continuing to treat the source file as the working doctrine surface.
 
 ## Batch law
 
-When the operator is doing same-day transcript intake, treat the workflow as a **bounded archive batch**:
+When the operator is doing same-day transcript intake, treat the workflow as a **bounded source-archive batch**:
 
 - keep each transcript as its own canonical source object
 - reuse the same touched day folder

@@ -15,6 +15,7 @@ Short doctrine:
 - `statecraft civ-state` opens upstream judgment
 - the menu stays fixed
 - only the recommendation moves
+- retrieval should follow the CIV-STATE switchboard, not jump straight into broad chapter prose
 
 ## Boundary
 
@@ -86,6 +87,9 @@ Use when the object is stable enough that the next honest move is opening the ri
 
 Possible retrieval targets include:
 
+- a `shelf-reader` when the real need is traversal guidance
+- an era `primary-sources` shelf when legitimacy wording, founding language, legal form, or self-description is decisive
+- an era `secondary-sources` shelf when chronology, provenance, translation, institutional context, counterweight, or misreading correction is decisive
 - a CIV-STATE volume
 - `civilization-<civ>.md`
 - `empire-<civ>.md`
@@ -95,6 +99,13 @@ Possible retrieval targets include:
 - a narrower chapter-family surface
 
 This is retrieval-first, not book-authoring.
+
+Use the switchboard law explicitly:
+
+- stay in `primary-sources` when the civilization's own wording is the live issue
+- open `secondary-sources` only when the primary shelf exposes a real interpretive difficulty
+- return to `primary-sources` once the clarification has been taken
+- move upward into `civilization`, `empire`, or `statecraft` only when the source problem has been resolved
 
 ### C. Promote
 
@@ -142,6 +153,7 @@ When the operator invokes `statecraft civ-state` without a narrower object, use 
 - Live recommendation:
 - Why this path now:
 - Current signals used:
+- Retrieval posture:
 
 **CIV-STATE Menu - reply A-D**
 A. Frame
@@ -153,6 +165,12 @@ D. Review
 The menu labels stay fixed across runs.
 
 The `Current signals used` line should name only the relevant speaker / bridge / membrane / review surfaces actually informing the recommendation.
+The `Retrieval posture` line should appear when `B. Retrieve` is the live recommendation and should name the narrowest honest next move:
+
+- `shelf-reader`
+- `primary-sources`
+- `secondary-sources`
+- `chapter surface`
 
 ## Handoff Rule
 

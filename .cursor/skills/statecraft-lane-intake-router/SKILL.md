@@ -19,7 +19,7 @@ This skill exists to stop lane entry from skipping directly into `helix`, `state
 
 The live intake sequence is:
 
-`Statecraft Archive -> Statecraft Synthesis -> host law -> bridge if needed -> lane drafting`
+`Statecraft Source Archive -> transcript-bearing intake family -> host law / synthesis if needed -> bridge if needed -> lane drafting`
 
 That is the governing law for lane entry.
 
@@ -50,6 +50,8 @@ When this skill triggers, the first lane reply should have three parts:
 3. a fixed `A-D` intake menu
 
 Do not lead with a deeper doctrinal summary when the operator really needs the intake split.
+
+If chronology or continuity from prior days is the real bottleneck, name `/codex` as the continuity layer beneath `statecraft/`, but do not substitute it for transcript-family routing.
 
 ## Menu law
 
@@ -180,7 +182,8 @@ Avoid these:
 ## Canonical companions
 
 - repo-root front door: [statecraft/README.md](../../../statecraft/README.md)
-- archive/synthesis law: [statecraft/archive-synthesis-law.md](../../../statecraft/archive-synthesis-law.md)
+- source-truth layer: [source-archive/README.md](../../../source-archive/README.md)
+- continuity layer: [codex/README.md](../../../codex/README.md)
 - speaker synthesis home: [statecraft/civ-lens/README.md](../../../statecraft/civ-lens/README.md)
 - host-law layer: [statecraft/hosts/README.md](../../../statecraft/hosts/README.md)
 - lane front doors:
