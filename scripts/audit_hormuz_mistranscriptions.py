@@ -32,6 +32,7 @@ FRONTMATTER_RE = re.compile(r"^---\s*\n(.*?)\n---\s*\n", re.DOTALL)
 TITLE_RE = re.compile(r'^title:\s*"?(.*?)"?\s*$', re.MULTILINE)
 KIND_RE = re.compile(r"^kind:\s*([^\n]+)$", re.MULTILINE)
 SOURCE_TYPE_RE = re.compile(r"^source_type:\s*([^\n]+)$", re.MULTILINE)
+EDITORIAL_NOTE_RE = re.compile(r'^editorial_note:\s*"?(.*?)"?\s*$', re.MULTILINE)
 TRANSCRIPT_HEAD_RE = re.compile(
     r"\b(straight|strait|straits|state|street|trade)\s+of\s+([A-Za-z][A-Za-z'-]*(?:\s+[A-Za-z][A-Za-z'-]*)?)\b",
     re.IGNORECASE,
@@ -201,12 +202,15 @@ def parse_frontmatter(text: str) -> dict[str, str]:
     title = TITLE_RE.search(raw)
     kind = KIND_RE.search(raw)
     source_type = SOURCE_TYPE_RE.search(raw)
+    editorial_note = EDITORIAL_NOTE_RE.search(raw)
     if title:
         meta["title"] = title.group(1).strip().strip('"')
     if kind:
         meta["kind"] = kind.group(1).strip().strip('"')
     if source_type:
         meta["source_type"] = source_type.group(1).strip().strip('"')
+    if editorial_note:
+        meta["editorial_note"] = editorial_note.group(1).strip().strip('"')
     return meta
 
 
@@ -338,10 +342,17 @@ def find_direct_findings(path: Path, body: str) -> list[Finding]:
     return findings
 
 
+def is_reviewed_title_body_divergence(meta: dict[str, str]) -> bool:
+    note = meta.get("editorial_note", "").casefold()
+    return "title-body divergence reviewed" in note
+
+
 def find_context_only_finding(path: Path, text: str, meta: dict[str, str]) -> Finding | None:
     title = meta.get("title", "")
     titleish = f"{path.as_posix()} {title}".casefold()
     if "hormuz" not in titleish:
+        return None
+    if is_reviewed_title_body_divergence(meta):
         return None
     body = strip_frontmatter(text)
     body_without_heading = re.sub(r"^\s*#.*(?:\n|$)", "", body, count=1)

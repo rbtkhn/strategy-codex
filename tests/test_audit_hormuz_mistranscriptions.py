@@ -144,6 +144,25 @@ def test_context_only_skips_when_body_already_mentions_hormuz(tmp_path: Path) ->
     assert findings == []
 
 
+def test_context_only_skips_when_title_body_divergence_is_reviewed(tmp_path: Path) -> None:
+    path = tmp_path / "transcript-johnson-hormuz-reviewed.md"
+    text = (
+        "---\n"
+        'title: "Johnson on Hormuz and shipping"\n'
+        "kind: transcript\n"
+        "source_type: youtube\n"
+        'editorial_note: "Title-body divergence reviewed: source-owned Hormuz title retained; transcript body contains no direct Hormuz phrase."\n'
+        "---\n\n"
+        "# Johnson on Hormuz and shipping\n\n"
+        "The waterway stayed open for tankers and oil traffic while Iran kept pressure elsewhere.\n"
+    )
+    path.write_text(text, encoding="utf-8")
+
+    findings = audit.audit_path(path)
+
+    assert findings == []
+
+
 def test_audit_excludes_non_transcript_docs(tmp_path: Path) -> None:
     path = tmp_path / "note.md"
     path.write_text("# Notes\n\nThe straight of hormones appears in this essay example.\n", encoding="utf-8")

@@ -13,7 +13,7 @@ channel_url: "https://www.youtube.com/@dialogueworks01/videos"
 channel_slug: "dialogue-works"
 source_url: "https://www.youtube.com/watch?v=DCDuxei5dj8"
 source_note: "Direct YouTube watch URL already on disk; transcript body confirmed from operator paste in Codex chat on 2026-05-24."
-editorial_note: "Treat as a transcript-grade raw-input capture. Operator-supplied transcript body resolved prior audit ambiguity."
+editorial_note: "Treat as a transcript-grade raw-input capture. Operator-supplied transcript body resolved prior audit ambiguity. Title-body divergence reviewed: source-owned Hormuz title retained; transcript body contains no direct Hormuz phrase."
 evidence_grade: transcript-bearing
 ---
 
