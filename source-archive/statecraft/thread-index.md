@@ -5,7 +5,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_archive
 ## Stats
 
 - Distinct threads: `56`
-- Thread-linked source files: `1360`
+- Thread-linked source files: `1361`
 - Covered days: `417`
 - Covered months: `18`
 
@@ -16,7 +16,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_archive
 | `mercouris` | 306 | 283 | 18 | `Mercouris` (188), `Alexander Mercouris` (103), `The Duran` (5) | `Alexander Mercouris` (290), `Alex Christoforou` (3), `Alex Christoforu` (1) | `2025-01-03` | `2026-06-01` |
 | `davis` | 212 | 116 | 16 | `Daniel Davis Deep Dive` (190), `Deep Dive` (2), `Dialogue Works` (2) | `Daniel Davis` (190), `Daniel Davis / Deep Dive` (6), `Nima Alkhorshid` (2) | `2025-01-01` | `2026-06-01` |
 | `diesen` | 162 | 137 | 17 | `Glenn Diesen` (106), `Diesen` (9), `Glenn Diesen - Greater Eurasia Podcast` (5) | `Glenn Diesen` (141), `Diesen` (14), `Mario Nawfal` (1) | `2025-01-10` | `2026-05-31` |
-| `nima` | 147 | 120 | 16 | `Dialogue Works` (127) | `Nima Alkhorshid` (119), `Nima Alkorshid` (21), `Dialogue Works` (5) | `2025-01-04` | `2026-06-01` |
+| `nima` | 148 | 120 | 16 | `Dialogue Works` (128) | `Nima Alkhorshid` (119), `Nima Alkorshid` (21), `Dialogue Works` (5) | `2025-01-04` | `2026-06-01` |
 | `freeman` | 81 | 80 | 17 | `Judging Freedom` (39), `Dialogue Works` (30), `Glenn Diesen` (3) | `Andrew Napolitano` (45), `Nima Alkhorshid` (16), `Nema` (13) | `2025-01-07` | `2026-05-29` |
 | `simplicius` | 62 | 62 | 4 | `simplicius76.substack.com` (62) | (none) | `2026-01-02` | `2026-04-27` |
 | `pape` | 53 | 42 | 4 | `escalationtrap.substack.com` (34), `Mario Nawfal` (3), `Breaking Points` (2) | `Mario Nawfal` (3), `Clayton Morris; Natali Morris` (1), `Ryan Grim` (1) | `2026-02-25` | `2026-05-29` |
