@@ -27,7 +27,7 @@ Use this folder for singularity concepts and study structure, not for generic AI
 - [Notes](notes/README.md) - first-class singularity notes shelf for exploratory and bounded interpretive outputs.
 - [Essays](essays/README.md) - first-class singularity essay shelf for more synthesized, stand-alone, carriage-bearing long-form outputs.
 - [Shared prose index](/C:/dev/strategy-codex/docs/prose-index.md) - canonical prose-class chooser across domains.
-- [Singularity-Statecraft handoff law](/C:/dev/strategy-codex/docs/singularity-statecraft-handoff-law.md) - use when the object may be crossing from acceleration doctrine into judgment, legitimacy, or settlement.
+- [Singularity-Statecraft handoff law](/C:/dev/strategy-codex/docs/singularity-statecraft-handoff-law.md) - the protocol for deciding when an acceleration object has become a judgment-bearing route and whether it should stay in singularity, cross through `compact`, move directly into `statecraft`, or return upstream.
 
 ## External Watchlist
 

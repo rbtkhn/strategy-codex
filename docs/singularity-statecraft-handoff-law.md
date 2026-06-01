@@ -2,12 +2,33 @@
 
 work only; not Record.
 
-Use this note when an object is hovering between `singularity/` and
-`statecraft/` and the real question is:
+## Purpose
+
+Use this protocol when an object is hovering between `singularity/` and
+`statecraft/` and the real question is no longer only:
 
 ```text
-is this still an acceleration-and-system-design object,
-or has it become a judgment, authority, legitimacy, or settlement object?
+what system is emerging?
+```
+
+but may now be:
+
+```text
+what order consequence has formed,
+and what route should own it next?
+```
+
+This note is not only a distinction surface. It is the canonical protocol for
+turning an acceleration object into a governed judgment route when that crossing
+has genuinely formed.
+
+The practical chain is:
+
+```text
+acceleration pressure
+-> order consequence
+-> governed route
+-> later review of whether the route was actually right
 ```
 
 ## Core Split
@@ -26,71 +47,24 @@ Or more concretely:
 - `statecraft/` owns geopolitical, civilizational, legitimacy-bearing,
   mechanism-bearing, command-bearing, and settlement-bearing judgment
 
-## What Singularity Owns
+## Forward Handoff Rule
 
-Keep the object in `singularity/` when the live question is mainly:
+Cross from `singularity/` into `statecraft/` when the main unresolved question
+is no longer upstream architecture, capability, substrate, or protocol reality
+and is now one or more of these:
 
-- what technical or institutional system is forming
-- what invariant is under pressure
-- what protocol, design brief, or doctrine surface should exist
-- how acceleration changes cognition, agency, labor, or control
-- how a runtime, complement, or interop layer should be designed
+- who gets to decide
+- which office or carrier is thinning
+- what can still claim obedience or answerability
+- what command surface is being compressed
+- what bounded judgment, lane, or settlement-bearing object now exists
 
-The object still belongs to `singularity` if the right next move is:
+If those questions are still secondary, the object has not crossed yet.
 
-- concept clarification
-- architecture note
-- protocol spec
-- design brief
-- experiment brief
-- implementation roadmap
+## Reverse Handoff Rule
 
-## What Statecraft Owns
-
-Move the object into `statecraft/` when the live question becomes:
-
-- which sovereign or civilizational carrier now owns the problem
-- what legitimacy, command, restraint, or recognition issue is active
-- what mechanism must be judged in public or policy terms
-- what authority structure is thinning, captured, or being rerouted
-- what bounded analytical, bridge, or transaction surface should exist next
-
-The object now belongs to `statecraft` if the right next move is:
-
-- route a crisis object
-- assign lane ownership
-- retrieve civ-state memory
-- draft a compact, bridge, lane note, or transaction
-- compare carriers, burdens, settlements, or command failures
-
-## Handoff Triggers
-
-The handoff from `singularity` to `statecraft` should happen when one or more
-of these become central rather than secondary:
-
-1. **Authority trigger**
-   The issue is no longer mainly system design; it is who gets to decide.
-
-2. **Legitimacy trigger**
-   The issue is no longer mainly capability; it is what rule or order can still
-   claim obedience.
-
-3. **Carrier trigger**
-   The issue is no longer generic acceleration; it is which state,
-   civilization, bloc, or institution now bears the pressure.
-
-4. **Settlement trigger**
-   The issue is no longer diagnosis alone; it now points toward recognition,
-   burden-sharing, restraint, transit, or other settlement-bearing form.
-
-5. **Command trigger**
-   The issue is no longer what the tools can do; it is whether sovereign
-   judgment, command credibility, or public reasoning is being compressed.
-
-## Reverse Handoff
-
-Move back from `statecraft` to `singularity` when the object turns out to be
-prematurely politicized and the unresolved question is still upstream, such as:
+Move back from `statecraft/` to `singularity/` when the object was prematurely
+politicized and the unresolved question is still upstream, such as:
 
 - what architecture actually exists
 - whether a capability claim is real
@@ -100,46 +74,218 @@ prematurely politicized and the unresolved question is still upstream, such as:
 
 This is not a demotion. It is a return to the right governing layer.
 
-## Canonical Route Shapes
+## Pressure-to-Order Translation Frame
 
-Typical forward handoff:
+Use this frame as a **diagnostic wedge**, not as mandatory bureaucracy.
+
+The point is to test whether a real statecraft object has formed.
+
+1. **Pressure shift**
+   What capability, substrate, labor, or control change is occurring?
+
+2. **Affected office or institution**
+   Which governing office, carrier, or institution is under pressure?
+
+3. **Authority stress**
+   How are judgment, review, refusal, or command being thinned, displaced, or
+   obscured?
+
+4. **Legitimacy consequence**
+   What becomes harder to justify, own, or render answerable?
+
+5. **Settlement or command implication**
+   What downstream statecraft object now exists, if any?
+
+Important boundary:
+
+- this frame is a reusable wedge
+- it is **not** a mandatory full-form for every singularity object
+- a valid boundary object may terminate early if authority, carrier, or
+  settlement pressure never actually forms
+
+If the frame never gets past steps 1 or 2 honestly, the object usually remains
+in `singularity/`.
+
+## Route Choices
+
+Choose one of exactly four outcomes:
+
+1. **Stay in `singularity`**
+   The unresolved question is still architecture, capability, substrate, or
+   protocol reality.
+
+2. **Cross through `statecraft/compact/`**
+   The object is already mechanism-shaped, but lane ownership is not yet clear.
+
+3. **Cross directly into a `statecraft` lane**
+   The carrier and judgment object are already clear.
+
+4. **Return upstream to singularity clarification**
+   The object was prematurely politicized and needs more upstream
+   architecture/protocol clarification before judgment.
+
+## Compact Default
+
+`compact` is the default middle surface when:
+
+- the object has become a real command, legitimacy, or sovereignty problem
+- the mechanism is already visible
+- but the carrier is still uncertain or cross-lane
+
+Do **not** jump directly into a lane unless the carrier is genuinely clear.
+
+Do **not** go directly into `civ-state` unless deeper legitimacy, continuity,
+or carrier retrieval is already the real next move.
+
+The normal middle route is therefore:
 
 ```text
 singularity signal
--> architecture or acceleration note
+-> translation frame
 -> compact mechanism
--> statecraft lane ownership
+-> lane ownership if it forms
 -> civ-state retrieval if needed
 -> bounded judgment surface
 ```
 
-Typical reverse handoff:
+## Worked Examples
+
+### Positive Example: High-Skill Labor Compression
+
+This is the cooperative model case already visible in the repo.
+
+Start with the singularity-side pressure:
+
+- synthetic cognition compresses analytical, legal, diplomatic, intelligence,
+  clerical, and policy-forming work
+
+Run the translation frame:
+
+- **pressure shift**
+  elite cognitive labor becomes cheaper, faster, and more synthetically
+  reproducible
+- **affected office or institution**
+  policy staff, intelligence readers, legal drafters, diplomats, clerks, and
+  command-support offices
+- **authority stress**
+  throughput rises faster than review, refusal, and accountable interpretation
+- **legitimacy consequence**
+  named sovereign offices still sign and brief, but the real work of judgment
+  risks migrating elsewhere
+- **settlement or command implication**
+  this is now a real governing-capacity and command problem, not only a labor
+  or productivity problem
+
+Correct route:
 
 ```text
-statecraft concern
--> realize the causal system is still unclear
--> singularity design or protocol clarification
--> return once the judgment object is actually formed
-```
-
-## Strong Example
-
-One live route already visible in the repo is:
-
-```text
-high-skill labor compression
--> singularity acceleration pressure
+singularity acceleration pressure
 -> compact mechanism
--> american command problem
--> civ-state legitimacy retrieval
+-> lane command problem
+-> civ-state legitimacy retrieval if needed
 ```
 
-That is a model case because it does not leave the object stranded as generic
-AI commentary once sovereign judgment starts thinning.
+Canonical surfaces:
 
-## Guardrail
+- [High-Skill Labor Compression and Sovereign Judgment](/C:/dev/strategy-codex/statecraft/compact/high-skill-labor-compression-and-sovereign-judgment.md)
+- [High-Skill Labor Compression and American Command](/C:/dev/strategy-codex/statecraft/america/high-skill-labor-compression-and-american-command.md)
+- [High-Skill Labor Compression and Civilizational Statecraft](/C:/dev/strategy-codex/statecraft/civ-state/high-skill-labor-compression-and-civilizational-statecraft.md)
 
-The guardrail is:
+Why this is a true cross:
+
+- authority stress is central, not decorative
+- legitimacy consequence is real
+- lane and `civ-state` retrieval both sharpen the object rather than merely
+  dramatize it
+
+### Falsification Example: Agent Control Plane
+
+[Agent Control Plane](/C:/dev/strategy-codex/singularity/workshop/sheets/agent-control-plane.md)
+looks politically important, and it uses words like authority, rollback, and
+human meaning. But it is still primarily an upstream architecture and
+governance-design object unless a concrete sovereign carrier or bounded command
+problem forms.
+
+Run the translation frame:
+
+- **pressure shift**
+  agent governance, observability, control planes, and substrate choices are
+  being reorganized
+- **affected office or institution**
+  currently broad and distributed: enterprise tenants, labs, operators,
+  regulators, human reviewers, local repos
+- **authority stress**
+  visible, but still mainly conceptual and architectural rather than attached
+  to one formed public judgment object
+- **legitimacy consequence**
+  possible, but not yet specific enough to name one carrier or one bounded
+  statecraft consequence
+- **settlement or command implication**
+  not yet formed in a lane-specific or compact-mechanism way
+
+Correct outcome:
+
+```text
+stay in singularity
+```
+
+or, if prematurely routed:
+
+```text
+return upstream to singularity clarification
+```
+
+Why this should **not** cross yet:
+
+- the object is still testing architecture, authority location, observability,
+  and rollback design
+- it has not yet crystallized into a carrier-specific legitimacy, command, or
+  settlement problem
+- forcing it into `statecraft` too early would be premature politicization
+
+This is the proof that the protocol can refuse over-routing rather than only
+justify crossing.
+
+## Handoff Failure Modes
+
+Use this as a practical check.
+
+1. **Premature politicization**
+   The object sounds important, so it is pushed into `statecraft` before the
+   governing question actually changed.
+
+2. **Mechanism without carrier clarity**
+   The object is real, but no sovereign or institutional bearer has emerged
+   yet.
+
+3. **Lane jump without compact**
+   The object is cross-lane and mechanism-shaped, but the workflow skips the
+   compact stage and jumps directly into a lane sermon.
+
+4. **Generic AI commentary mistaken for command problem**
+   The object remains descriptive technology commentary without a true
+   authority, legitimacy, or settlement consequence.
+
+5. **Reverse error**
+   A real order problem is dismissed as merely architectural and remains
+   stranded upstream after the pressure has already become a judgment object.
+
+## Protocol Review Questions
+
+Use these questions when revisiting a boundary object later:
+
+- Was the object crossed too early?
+- Was it kept in `singularity` too long?
+- Should it have gone through `compact` first?
+- Did the chosen lane actually bear the pressure?
+- Did `civ-state` retrieval sharpen the judgment or merely decorate it?
+
+This is the lightweight review hook that lets the protocol learn from later
+misroutes without requiring a new validator or review ledger yet.
+
+## Guardrails
+
+The central guardrail is:
 
 ```text
 do not move an object into statecraft just because it sounds important
@@ -159,6 +305,18 @@ to:
 - carrier
 - settlement
 - command
+
+The translation frame is therefore a test of whether the object has really
+crossed, not a ritual form to be filled out on every exciting singularity note.
+
+## Later-Phase Extensions
+
+Possible future upgrades, but **not** active obligations in this pass:
+
+- shared blackboard or problem board for boundary objects
+- meta-layer that monitors handoff quality, confidence, and escalation
+- specialist sub-roles under `singularity` and `statecraft`
+- optional future review surface if boundary traffic becomes dense enough
 
 ## Best Sentence
 
