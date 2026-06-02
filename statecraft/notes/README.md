@@ -62,6 +62,10 @@ Machine-constitutional files stay where they already belong:
 
 ## Best Entry Points
 
+- [month-maturity-routing-registry.md](./month-maturity-routing-registry.md) - cross-month routing surface for the month maturity stack, preserving which months are benchmark, watchlist, or closure-audit objects
+- [january-2026-benchmark-note.md](./january-2026-benchmark-note.md) - benchmark note for using January as an opening continuity/setup month rather than a thin or closure month
+- [february-2026-benchmark-note.md](./february-2026-benchmark-note.md) - benchmark note for using February as a dense bridge/setup month rather than a thin or closure month
+- [june-2026-opening-watchlist.md](./june-2026-opening-watchlist.md) - early-month watchlist note preserving June as watchlist-first rather than premature benchmark or closure work
 - [march-2026-benchmark-note.md](./march-2026-benchmark-note.md) - benchmark note for using March as an early mature Iran-war comparison month rather than a live closure field
 - [march-2026-closure-method-application.md](./march-2026-closure-method-application.md) - routing note for why March is better treated as a mature benchmark month than as a live closure campaign
 - [may-2026-closure-method-application.md](./may-2026-closure-method-application.md) - routing note for applying the April closure method to May and narrowing the live target to Parsi
@@ -129,6 +133,10 @@ This first rollout is forward-only. Do not move existing prose here automaticall
 
 ### Shelf-Native
 
+- [month-maturity-routing-registry.md](./month-maturity-routing-registry.md) - shelf-native month-routing registry note
+- [january-2026-benchmark-note.md](./january-2026-benchmark-note.md) - shelf-native benchmark note
+- [february-2026-benchmark-note.md](./february-2026-benchmark-note.md) - shelf-native benchmark note
+- [june-2026-opening-watchlist.md](./june-2026-opening-watchlist.md) - shelf-native opening-watchlist note
 - [march-2026-benchmark-note.md](./march-2026-benchmark-note.md) - shelf-native benchmark note
 - [march-2026-closure-method-application.md](./march-2026-closure-method-application.md) - shelf-native closure-routing note
 - [may-2026-closure-method-application.md](./may-2026-closure-method-application.md) - shelf-native closure-routing note
@@ -141,6 +149,7 @@ This first rollout is forward-only. Do not move existing prose here automaticall
 - [us-israel-military-integration-captured-command-risk.md](./us-israel-military-integration-captured-command-risk.md) - shelf-native tracking note
 - [barnes-johnson-aguilar-kent-on-section-224.md](./barnes-johnson-aguilar-kent-on-section-224.md) - shelf-native speaker-function note
 - [formal-sovereignty-vs-internal-carriage.md](./formal-sovereignty-vs-internal-carriage.md) - shelf-native America-side mechanism note
+- [barnes-on-ai.md](./barnes-on-ai.md) - shelf-native speaker-derived bounded thematic note
 - [archive-truth-floor-repair-routing-2026-06-01.md](./archive-truth-floor-repair-routing-2026-06-01.md) - shelf-native routing note
 - [recursive-learning-journal-executive-synthesis.md](./recursive-learning-journal-executive-synthesis.md) - shelf-native bounded synthesis note
 

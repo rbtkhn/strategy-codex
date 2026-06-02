@@ -1,0 +1,131 @@
+{
+  "generated_at": "2026-06-02T00:00:00Z",
+  "generated_by": "manual-seed",
+  "scope": "statecraft-first month maturity routing registry",
+  "months": [
+    {
+      "month": "2026-01",
+      "route_class": "benchmark",
+      "maturity_label": "opening continuity/setup benchmark",
+      "status": "stable",
+      "primary_surfaces": [
+        "statecraft/notes/january-2026-benchmark-note.md"
+      ],
+      "comparison_uses": [
+        "January vs February",
+        "January vs March",
+        "dense opening continuity/setup vs denser or more mature months"
+      ],
+      "open_questions": [
+        "Guest-label normalization if later month-scale counting precision is needed."
+      ],
+      "next_honest_move": "Keep using January as an opening benchmark unless a bounded speaker-local contradiction queue later appears.",
+      "has_finite_queue": false,
+      "updated_at": "2026-06-02"
+    },
+    {
+      "month": "2026-02",
+      "route_class": "benchmark",
+      "maturity_label": "dense bridge/setup benchmark",
+      "status": "stable",
+      "primary_surfaces": [
+        "statecraft/notes/february-2026-benchmark-note.md"
+      ],
+      "comparison_uses": [
+        "February vs March",
+        "February vs May",
+        "dense bridge/setup vs dense mature or underrepresented months"
+      ],
+      "open_questions": [
+        "Guest-label normalization if later month-scale counting precision is needed."
+      ],
+      "next_honest_move": "Use February as a bridge/setup benchmark rather than reopening it as a generic backfill field.",
+      "has_finite_queue": false,
+      "updated_at": "2026-06-02"
+    },
+    {
+      "month": "2026-03",
+      "route_class": "benchmark",
+      "maturity_label": "early mature Iran-war benchmark",
+      "status": "stable",
+      "primary_surfaces": [
+        "statecraft/notes/march-2026-benchmark-note.md",
+        "statecraft/notes/march-2026-closure-method-application.md"
+      ],
+      "comparison_uses": [
+        "March vs April",
+        "March vs May",
+        "dense and coherent month vs open or underrepresented month"
+      ],
+      "open_questions": [
+        "A stronger Parsi month-truth surface could be added later if deeper speaker-month treatment is needed."
+      ],
+      "next_honest_move": "Preserve March for comparison work unless a finite, URL-backed contradiction queue later appears.",
+      "has_finite_queue": false,
+      "updated_at": "2026-06-02"
+    },
+    {
+      "month": "2026-04",
+      "route_class": "closure-audit",
+      "maturity_label": "audited cross-host bridge month",
+      "status": "audited-and-confirmed",
+      "primary_surfaces": [
+        "statecraft/notes/wilkerson-april-2026-contradiction-audit.md",
+        "statecraft/notes/april-2026-wilkerson-intake-sequence-postmortem.md",
+        "codex/speakers/wilkerson/wilkerson-april-2026-note.md"
+      ],
+      "comparison_uses": [
+        "March vs April",
+        "April as closure/falsification month",
+        "bridge month with audited host-balance repair"
+      ],
+      "open_questions": [
+        "Guest-label normalization still matters if later month-scale counting precision is needed."
+      ],
+      "next_honest_move": "Treat April as an audited and confirmed closure month unless a new bounded contradiction object appears.",
+      "has_finite_queue": false,
+      "updated_at": "2026-06-02"
+    },
+    {
+      "month": "2026-05",
+      "route_class": "watchlist",
+      "maturity_label": "late negotiation/settlement pressure month with one live Parsi seam",
+      "status": "stable-with-live-seam",
+      "primary_surfaces": [
+        "statecraft/notes/may-2026-speaker-watchlist.md",
+        "statecraft/notes/may-2026-closure-method-application.md",
+        "statecraft/notes/parsi-wilkerson-may-2026-backfill-attention.md"
+      ],
+      "comparison_uses": [
+        "March vs May",
+        "month-scale underrepresentation judgment",
+        "watchlist month with one bounded closure seam"
+      ],
+      "open_questions": [
+        "Does May still need the late-May Parsi authored bridge piece to feel complete enough on the shelf?"
+      ],
+      "next_honest_move": "Falsify the remaining Parsi authored-middle candidate, then restate whether May closes as complete enough or remains slightly thin by archive truth.",
+      "has_finite_queue": true,
+      "updated_at": "2026-06-02"
+    },
+    {
+      "month": "2026-06",
+      "route_class": "watchlist",
+      "maturity_label": "opening watchlist",
+      "status": "open",
+      "primary_surfaces": [
+        "statecraft/notes/june-2026-opening-watchlist.md"
+      ],
+      "comparison_uses": [
+        "opening-month watchlist baseline",
+        "promotion from watchlist to benchmark later if coherence persists"
+      ],
+      "open_questions": [
+        "Will additional captured days preserve the June 1 coherence strongly enough to justify a benchmark note later?"
+      ],
+      "next_honest_move": "Keep June in watchlist-first status until the month is large enough for either benchmark promotion or a bounded contradiction object.",
+      "has_finite_queue": false,
+      "updated_at": "2026-06-02"
+    }
+  ]
+}

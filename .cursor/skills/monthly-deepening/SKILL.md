@@ -2,7 +2,7 @@
 name: "monthly-deepening"
 description: "Handle bounded month-by-month deepening for speaker or stream corpora. Use when the operator wants a month inventory, missing-list, URL recovery pass, full-transcript vs stub classification, high-value target selection, month-shelf extension, month-route judgment, or a commit limited to one month slice. Do not use for one-off transcript intake, direct YouTube caption fetch, or broad cross-month synthesis. Transcript uploads from the operator imply month-slice materialization unless the operator explicitly says inventory-only, classification-only, or do-not-write."
 portable: true
-version: "0.2.0"
+version: "0.3.0"
 tags:
   - "operator"
   - "strategy"
@@ -76,6 +76,25 @@ Short rules:
 - if the month already has stable meaning across existing shelves and the best use is later comparison, choose `benchmark`
 
 Do not hybridize these by default. If the month wants two jobs, pick the dominant one and name the other as a later promotion or companion note.
+
+### 1b. Consult the month routing infrastructure before drafting
+
+Before drafting or extending month prose, check these support surfaces:
+
+- human-facing registry: `statecraft/notes/month-maturity-routing-registry.md`
+- machine-readable registry: `statecraft/data/month-maturity-routing-registry.json`
+- generated routing metadata: `statecraft/data/month-routing-metadata.json`
+
+If the month is already registered, treat that route as the current persisted truth unless new local evidence clearly forces a repair.
+
+Use the standard month templates when creating new month notes:
+
+- `statecraft/templates/month-benchmark-note-template.md`
+- `statecraft/templates/month-watchlist-note-template.md`
+- `statecraft/templates/month-closure-audit-template.md`
+- `scripts/scaffold_statecraft_month_note.py` when you want a registry-aware starter draft instead of building a month note by hand
+
+The registry is the persistence layer for month routing decisions already made. The month note still owns the month's substantive local argument.
 
 ### 2. Build the month inventory from local evidence
 
@@ -161,6 +180,8 @@ If the month artifact is a `benchmark`, it should usually include:
 - which existing speaker or bridge surfaces make the month reusable
 - what the month is good for in later comparisons
 - what the month still needs without reopening a capture campaign
+
+Prefer the standard template paths above rather than recreating the section order from scratch.
 
 Do not let a `benchmark` quietly acquire a missing-candidate queue, and do not let a `watchlist` pretend it has already earned closure.
 

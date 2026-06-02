@@ -1,0 +1,875 @@
+{
+  "generated_at": "2026-06-02T18:42:41+00:00",
+  "generated_by": "scripts/build_statecraft_month_indices.py",
+  "registry_path": "statecraft/data/month-maturity-routing-registry.json",
+  "months": {
+    "2025-01": {
+      "captured_days": 31,
+      "source_count": 134,
+      "thread_count": 9,
+      "channel_or_show_count": 6,
+      "host_count": 7,
+      "guest_count": 81,
+      "guest_label_variants": [
+        {
+          "signature": "zelensky",
+          "labels": [
+            {
+              "label": "Trump Tells Zelensky",
+              "count": 1
+            },
+            {
+              "label": "Zelensky",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "existing_month_surface_count": 0,
+      "existing_month_surfaces": [],
+      "is_dense_month": true,
+      "has_finite_queue": false,
+      "has_existing_benchmark_surfaces": false,
+      "needs_label_normalization": true
+    },
+    "2025-02": {
+      "captured_days": 16,
+      "source_count": 27,
+      "thread_count": 11,
+      "channel_or_show_count": 8,
+      "host_count": 9,
+      "guest_count": 11,
+      "guest_label_variants": [
+        {
+          "signature": "freeman",
+          "labels": [
+            {
+              "label": "Chas Freeman",
+              "count": 5
+            },
+            {
+              "label": "Charles Freeman",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "signature": "mearsheimer",
+          "labels": [
+            {
+              "label": "John Mearsheimer",
+              "count": 2
+            },
+            {
+              "label": "john-mearsheimer",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "existing_month_surface_count": 0,
+      "existing_month_surfaces": [],
+      "is_dense_month": false,
+      "has_finite_queue": false,
+      "has_existing_benchmark_surfaces": false,
+      "needs_label_normalization": true
+    },
+    "2025-03": {
+      "captured_days": 15,
+      "source_count": 22,
+      "thread_count": 7,
+      "channel_or_show_count": 7,
+      "host_count": 8,
+      "guest_count": 10,
+      "guest_label_variants": [
+        {
+          "signature": "freeman",
+          "labels": [
+            {
+              "label": "Charles Freeman",
+              "count": 3
+            },
+            {
+              "label": "Chas Freeman",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "signature": "mearsheimer",
+          "labels": [
+            {
+              "label": "John Mearsheimer",
+              "count": 1
+            },
+            {
+              "label": "john-mearsheimer",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "existing_month_surface_count": 0,
+      "existing_month_surfaces": [],
+      "is_dense_month": false,
+      "has_finite_queue": false,
+      "has_existing_benchmark_surfaces": false,
+      "needs_label_normalization": true
+    },
+    "2025-04": {
+      "captured_days": 30,
+      "source_count": 53,
+      "thread_count": 8,
+      "channel_or_show_count": 6,
+      "host_count": 6,
+      "guest_count": 13,
+      "guest_label_variants": [
+        {
+          "signature": "freeman",
+          "labels": [
+            {
+              "label": "Charles Freeman",
+              "count": 3
+            },
+            {
+              "label": "Chas Freeman",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "signature": "wilkerson",
+          "labels": [
+            {
+              "label": "Lawrence Wilkerson",
+              "count": 4
+            },
+            {
+              "label": "Larry Wilkerson",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "existing_month_surface_count": 0,
+      "existing_month_surfaces": [],
+      "is_dense_month": true,
+      "has_finite_queue": false,
+      "has_existing_benchmark_surfaces": false,
+      "needs_label_normalization": true
+    },
+    "2025-05": {
+      "captured_days": 31,
+      "source_count": 60,
+      "thread_count": 8,
+      "channel_or_show_count": 6,
+      "host_count": 9,
+      "guest_count": 11,
+      "guest_label_variants": [
+        {
+          "signature": "freeman",
+          "labels": [
+            {
+              "label": "Chas Freeman",
+              "count": 5
+            },
+            {
+              "label": "Charles Freeman",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "signature": "mearsheimer",
+          "labels": [
+            {
+              "label": "john-mearsheimer",
+              "count": 2
+            },
+            {
+              "label": "John Mearsheimer",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "existing_month_surface_count": 0,
+      "existing_month_surfaces": [],
+      "is_dense_month": true,
+      "has_finite_queue": false,
+      "has_existing_benchmark_surfaces": false,
+      "needs_label_normalization": true
+    },
+    "2025-06": {
+      "captured_days": 19,
+      "source_count": 35,
+      "thread_count": 10,
+      "channel_or_show_count": 10,
+      "host_count": 12,
+      "guest_count": 13,
+      "guest_label_variants": [
+        {
+          "signature": "freeman",
+          "labels": [
+            {
+              "label": "Charles Freeman",
+              "count": 4
+            },
+            {
+              "label": "Chas Freeman",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "signature": "mearsheimer",
+          "labels": [
+            {
+              "label": "john-mearsheimer",
+              "count": 3
+            },
+            {
+              "label": "John Mearsheimer",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "existing_month_surface_count": 0,
+      "existing_month_surfaces": [],
+      "is_dense_month": false,
+      "has_finite_queue": false,
+      "has_existing_benchmark_surfaces": false,
+      "needs_label_normalization": true
+    },
+    "2025-07": {
+      "captured_days": 13,
+      "source_count": 20,
+      "thread_count": 6,
+      "channel_or_show_count": 6,
+      "host_count": 4,
+      "guest_count": 13,
+      "guest_label_variants": [
+        {
+          "signature": "freeman",
+          "labels": [
+            {
+              "label": "Charles Freeman",
+              "count": 3
+            },
+            {
+              "label": "Chas Freeman",
+              "count": 3
+            },
+            {
+              "label": "Chaz Freeman",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "signature": "wilkerson",
+          "labels": [
+            {
+              "label": "Lawrence Wilkerson",
+              "count": 2
+            },
+            {
+              "label": "Larry Wilkerson",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "existing_month_surface_count": 0,
+      "existing_month_surfaces": [],
+      "is_dense_month": false,
+      "has_finite_queue": false,
+      "has_existing_benchmark_surfaces": false,
+      "needs_label_normalization": true
+    },
+    "2025-08": {
+      "captured_days": 23,
+      "source_count": 42,
+      "thread_count": 6,
+      "channel_or_show_count": 6,
+      "host_count": 8,
+      "guest_count": 16,
+      "guest_label_variants": [
+        {
+          "signature": "wilkerson",
+          "labels": [
+            {
+              "label": "Larry Wilkerson",
+              "count": 2
+            },
+            {
+              "label": "Lawrence Wilkerson",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "existing_month_surface_count": 0,
+      "existing_month_surfaces": [],
+      "is_dense_month": true,
+      "has_finite_queue": false,
+      "has_existing_benchmark_surfaces": false,
+      "needs_label_normalization": true
+    },
+    "2025-09": {
+      "captured_days": 16,
+      "source_count": 29,
+      "thread_count": 7,
+      "channel_or_show_count": 6,
+      "host_count": 5,
+      "guest_count": 14,
+      "guest_label_variants": [
+        {
+          "signature": "wilkerson",
+          "labels": [
+            {
+              "label": "Larry Wilkerson",
+              "count": 1
+            },
+            {
+              "label": "Lawrence Wilkerson",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "existing_month_surface_count": 0,
+      "existing_month_surfaces": [],
+      "is_dense_month": false,
+      "has_finite_queue": false,
+      "has_existing_benchmark_surfaces": false,
+      "needs_label_normalization": true
+    },
+    "2025-10": {
+      "captured_days": 23,
+      "source_count": 46,
+      "thread_count": 8,
+      "channel_or_show_count": 8,
+      "host_count": 7,
+      "guest_count": 19,
+      "guest_label_variants": [
+        {
+          "signature": "macgregor",
+          "labels": [
+            {
+              "label": "Doug Macgregor",
+              "count": 1
+            },
+            {
+              "label": "Douglas Macgregor",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "signature": "wilkerson",
+          "labels": [
+            {
+              "label": "Larry Wilkerson",
+              "count": 4
+            },
+            {
+              "label": "Lawrence Wilkerson",
+              "count": 3
+            }
+          ]
+        }
+      ],
+      "existing_month_surface_count": 0,
+      "existing_month_surfaces": [],
+      "is_dense_month": true,
+      "has_finite_queue": false,
+      "has_existing_benchmark_surfaces": false,
+      "needs_label_normalization": true
+    },
+    "2025-11": {
+      "captured_days": 23,
+      "source_count": 53,
+      "thread_count": 13,
+      "channel_or_show_count": 8,
+      "host_count": 9,
+      "guest_count": 17,
+      "guest_label_variants": [
+        {
+          "signature": "johnson",
+          "labels": [
+            {
+              "label": "Larry C. Johnson",
+              "count": 2
+            },
+            {
+              "label": "Larry Johnson",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "signature": "macgregor",
+          "labels": [
+            {
+              "label": "Douglas Macgregor",
+              "count": 3
+            },
+            {
+              "label": "Doug Macgregor",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "signature": "wilkerson",
+          "labels": [
+            {
+              "label": "Larry Wilkerson",
+              "count": 3
+            },
+            {
+              "label": "Lawrence Wilkerson",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "existing_month_surface_count": 0,
+      "existing_month_surfaces": [],
+      "is_dense_month": true,
+      "has_finite_queue": false,
+      "has_existing_benchmark_surfaces": false,
+      "needs_label_normalization": true
+    },
+    "2025-12": {
+      "captured_days": 28,
+      "source_count": 74,
+      "thread_count": 14,
+      "channel_or_show_count": 9,
+      "host_count": 10,
+      "guest_count": 20,
+      "guest_label_variants": [
+        {
+          "signature": "johnson",
+          "labels": [
+            {
+              "label": "Larry C. Johnson",
+              "count": 2
+            },
+            {
+              "label": "Larry Johnson",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "signature": "macgregor",
+          "labels": [
+            {
+              "label": "Douglas Macgregor",
+              "count": 2
+            },
+            {
+              "label": "Doug Macgregor",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "signature": "mearsheimer",
+          "labels": [
+            {
+              "label": "John Mearsheimer",
+              "count": 1
+            },
+            {
+              "label": "john-mearsheimer",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "signature": "wilkerson",
+          "labels": [
+            {
+              "label": "Larry Wilkerson",
+              "count": 4
+            },
+            {
+              "label": "Lawrence Wilkerson",
+              "count": 3
+            }
+          ]
+        }
+      ],
+      "existing_month_surface_count": 0,
+      "existing_month_surfaces": [],
+      "is_dense_month": true,
+      "has_finite_queue": false,
+      "has_existing_benchmark_surfaces": false,
+      "needs_label_normalization": true
+    },
+    "2026-01": {
+      "captured_days": 31,
+      "source_count": 101,
+      "thread_count": 18,
+      "channel_or_show_count": 12,
+      "host_count": 7,
+      "guest_count": 16,
+      "guest_label_variants": [],
+      "existing_month_surface_count": 1,
+      "existing_month_surfaces": [
+        "statecraft/notes/january-2026-benchmark-note.md"
+      ],
+      "is_dense_month": true,
+      "has_finite_queue": false,
+      "has_existing_benchmark_surfaces": true,
+      "needs_label_normalization": false
+    },
+    "2026-02": {
+      "captured_days": 28,
+      "source_count": 91,
+      "thread_count": 17,
+      "channel_or_show_count": 11,
+      "host_count": 7,
+      "guest_count": 22,
+      "guest_label_variants": [],
+      "existing_month_surface_count": 1,
+      "existing_month_surfaces": [
+        "statecraft/notes/february-2026-benchmark-note.md"
+      ],
+      "is_dense_month": true,
+      "has_finite_queue": false,
+      "has_existing_benchmark_surfaces": true,
+      "needs_label_normalization": false
+    },
+    "2026-03": {
+      "captured_days": 31,
+      "source_count": 199,
+      "thread_count": 28,
+      "channel_or_show_count": 17,
+      "host_count": 9,
+      "guest_count": 44,
+      "guest_label_variants": [
+        {
+          "signature": "crooke",
+          "labels": [
+            {
+              "label": "Alastair Crooke",
+              "count": 4
+            },
+            {
+              "label": "Crooke",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "signature": "henningsen",
+          "labels": [
+            {
+              "label": "Henningsen",
+              "count": 1
+            },
+            {
+              "label": "Patrick Henningsen",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "signature": "johnson",
+          "labels": [
+            {
+              "label": "Larry Johnson",
+              "count": 4
+            },
+            {
+              "label": "Larry C. Johnson",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "signature": "macgregor",
+          "labels": [
+            {
+              "label": "Douglas Macgregor",
+              "count": 3
+            },
+            {
+              "label": "Macgregor",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "signature": "marandi",
+          "labels": [
+            {
+              "label": "Seyed M. Marandi",
+              "count": 6
+            },
+            {
+              "label": "Mohammad Marandi",
+              "count": 1
+            },
+            {
+              "label": "Seyed Mohammad Marandi",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "signature": "parsi",
+          "labels": [
+            {
+              "label": "Parsi",
+              "count": 1
+            },
+            {
+              "label": "Trita Parsi",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "signature": "ritter",
+          "labels": [
+            {
+              "label": "Scott Ritter",
+              "count": 12
+            },
+            {
+              "label": "Ritter",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "signature": "wilkerson",
+          "labels": [
+            {
+              "label": "Larry Wilkerson",
+              "count": 2
+            },
+            {
+              "label": "Lawrence Wilkerson",
+              "count": 2
+            }
+          ]
+        }
+      ],
+      "existing_month_surface_count": 2,
+      "existing_month_surfaces": [
+        "statecraft/notes/march-2026-benchmark-note.md",
+        "statecraft/notes/march-2026-closure-method-application.md"
+      ],
+      "is_dense_month": true,
+      "has_finite_queue": false,
+      "has_existing_benchmark_surfaces": true,
+      "needs_label_normalization": true
+    },
+    "2026-04": {
+      "captured_days": 30,
+      "source_count": 196,
+      "thread_count": 28,
+      "channel_or_show_count": 24,
+      "host_count": 20,
+      "guest_count": 39,
+      "guest_label_variants": [
+        {
+          "signature": "johnson",
+          "labels": [
+            {
+              "label": "Larry Johnson",
+              "count": 12
+            },
+            {
+              "label": "Larry C. Johnson",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "signature": "marandi",
+          "labels": [
+            {
+              "label": "Seyed M. Marandi",
+              "count": 10
+            },
+            {
+              "label": "Seyed Mohammad Marandi",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "signature": "mercouris",
+          "labels": [
+            {
+              "label": "Alexander Mercouris",
+              "count": 3
+            },
+            {
+              "label": "Alex Christoforou, Alexander Mercouris",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "signature": "wilkerson",
+          "labels": [
+            {
+              "label": "Lawrence Wilkerson",
+              "count": 6
+            },
+            {
+              "label": "Larry Wilkerson",
+              "count": 1
+            },
+            {
+              "label": "Ret. Col. Lawrence Wilkerson",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "existing_month_surface_count": 3,
+      "existing_month_surfaces": [
+        "statecraft/notes/wilkerson-april-2026-contradiction-audit.md",
+        "statecraft/notes/april-2026-wilkerson-intake-sequence-postmortem.md",
+        "codex/speakers/wilkerson/wilkerson-april-2026-note.md"
+      ],
+      "is_dense_month": true,
+      "has_finite_queue": false,
+      "has_existing_benchmark_surfaces": false,
+      "needs_label_normalization": true
+    },
+    "2026-05": {
+      "captured_days": 31,
+      "source_count": 233,
+      "thread_count": 28,
+      "channel_or_show_count": 25,
+      "host_count": 20,
+      "guest_count": 46,
+      "guest_label_variants": [
+        {
+          "signature": "davis",
+          "labels": [
+            {
+              "label": "Davis",
+              "count": 3
+            },
+            {
+              "label": "Daniel Davis",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "signature": "freeman",
+          "labels": [
+            {
+              "label": "Chas Freeman",
+              "count": 8
+            },
+            {
+              "label": "Charles Freeman",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "signature": "hoh",
+          "labels": [
+            {
+              "label": "Matthew Hoh",
+              "count": 2
+            },
+            {
+              "label": "Matt Hoh",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "signature": "macgregor",
+          "labels": [
+            {
+              "label": "Douglas Macgregor",
+              "count": 6
+            },
+            {
+              "label": "Doug Macgregor",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "signature": "marandi",
+          "labels": [
+            {
+              "label": "Seyed M. Marandi",
+              "count": 14
+            },
+            {
+              "label": "Mohammad Marandi",
+              "count": 2
+            },
+            {
+              "label": "Seyed Marandi",
+              "count": 1
+            },
+            {
+              "label": "Seyed Mohammad Marandi",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "signature": "wilkerson",
+          "labels": [
+            {
+              "label": "Lawrence Wilkerson",
+              "count": 6
+            },
+            {
+              "label": "Larry Wilkerson",
+              "count": 2
+            }
+          ]
+        }
+      ],
+      "existing_month_surface_count": 3,
+      "existing_month_surfaces": [
+        "statecraft/notes/may-2026-speaker-watchlist.md",
+        "statecraft/notes/may-2026-closure-method-application.md",
+        "statecraft/notes/parsi-wilkerson-may-2026-backfill-attention.md"
+      ],
+      "is_dense_month": true,
+      "has_finite_queue": true,
+      "has_existing_benchmark_surfaces": false,
+      "needs_label_normalization": true
+    },
+    "2026-06": {
+      "captured_days": 1,
+      "source_count": 13,
+      "thread_count": 9,
+      "channel_or_show_count": 8,
+      "host_count": 8,
+      "guest_count": 10,
+      "guest_label_variants": [],
+      "existing_month_surface_count": 1,
+      "existing_month_surfaces": [
+        "statecraft/notes/june-2026-opening-watchlist.md"
+      ],
+      "is_dense_month": false,
+      "has_finite_queue": false,
+      "has_existing_benchmark_surfaces": false,
+      "needs_label_normalization": false
+    }
+  }
+}
