@@ -6,11 +6,12 @@ Purpose: preserve what May 2026 currently means on the Wilkerson shelf as the se
 
 ## Core claim
 
-May 2026 is currently an **honest seven-anchor Wilkerson month** when read as:
+May 2026 is currently an **honest nine-anchor Wilkerson month** when read as:
 
-- `7` already-materialized May anchors on disk
-- `0` currently known missing May Wilkerson anchors inside the bounded queue this note is tracking
+- `9` already-materialized May anchors on disk
+- `2` newly landed `Judging Freedom` anchors now strengthen the month's Napolitano branch
 - `1` companion structural review already on disk for the month-level host-orthogonality question
+- `2` residual ambiguity checks remain in the Diesen lane, but the main missing-capture contradiction has been resolved
 
 The month is not best read as:
 
@@ -18,7 +19,7 @@ The month is not best read as:
 
 It is better read as:
 
-`May 2026 = a seven-anchor crisis-and-consequence month spanning Hormuz, BRICS, multipolar adjustment failure, White House pressure, and international-law collapse, plus an explicit structural review of the Wilkerson shelf itself`
+`May 2026 = a nine-anchor crisis-and-consequence month spanning Hormuz, BRICS, multipolar adjustment failure, White House pressure, and international-law collapse, plus an explicit structural review of the Wilkerson shelf itself`
 
 ## Materialized on disk
 
@@ -31,16 +32,22 @@ It is better read as:
 3. [2026-05-15 - *Trump-Xi Meeting After U.S. Defeat in Iran*](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-15/youtube-glenn-diesen-lawrence-wilkerson-trump-xi-meeting-after-u-s-defeat-in-iran-2026-05-15.md)
    Status: YouTube-primary `Diesen` continuation already materialized.
 
-4. [2026-05-20 - *Heated Arguments in White House*](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-20/youtube-wilkerson-mario-nawfal-heated-arguments-in-white-house-2026-05-20.md)
+4. [2026-05-14 - *Checkmate in Iran*](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-14/transcript-napolitano-wilkerson-checkmate-in-iran-2026-05-14.md)
+   Status: transcript-grade `Judging Freedom` anchor now materialized.
+
+5. [2026-05-20 - *Heated Arguments in White House*](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-20/youtube-wilkerson-mario-nawfal-heated-arguments-in-white-house-2026-05-20.md)
    Status: `Mario Nawfal` crossover already materialized.
 
-5. [2026-05-22 - *Iran's Unseen Move / U.S. Laser Destroyers Can't Stop What's Coming*](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-22/transcript-dialogue-works-larry-johnson-col-wilkerson-irans-unseen-move-us-laser-destroyers-cant-stop-whats-coming-2026-05-22.md)
+6. [2026-05-21 - *Trump Trapped In a Corner*](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-21/transcript-napolitano-wilkerson-trump-trapped-in-a-corner-2026-05-21.md)
+   Status: transcript-grade `Judging Freedom` reinforcement now materialized.
+
+7. [2026-05-22 - *Iran's Unseen Move / U.S. Laser Destroyers Can't Stop What's Coming*](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-22/transcript-dialogue-works-larry-johnson-col-wilkerson-irans-unseen-move-us-laser-destroyers-cant-stop-whats-coming-2026-05-22.md)
    Status: transcript-grade `Dialogue Works` continuation already materialized.
 
-6. [2026-05-26 - *Failing to Adjust to a Multipolar World*](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/youtube-glenn-diesen-lawrence-wilkerson-failing-to-adjust-to-a-multipolar-world-2026-05-26.md)
+8. [2026-05-26 - *Failing to Adjust to a Multipolar World*](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/youtube-glenn-diesen-lawrence-wilkerson-failing-to-adjust-to-a-multipolar-world-2026-05-26.md)
    Status: YouTube-primary `Diesen` reinforcement already materialized.
 
-7. [2026-05-28 - *What Remains of International Law*](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/transcript-napolitano-wilkerson-what-remains-of-international-law-2026-05-28.md)
+9. [2026-05-28 - *What Remains of International Law*](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/transcript-napolitano-wilkerson-what-remains-of-international-law-2026-05-28.md)
    Status: transcript-grade `Judging Freedom` month closer already materialized.
 
 Companion structural surface:
@@ -58,14 +65,17 @@ May proves both a month-level and a shelf-level claim.
 
 So the best bounded reading is:
 
-`May 2026 = a seven-anchor hinge month with real cross-host spread, plus the month that forced an explicit structural audit of the Wilkerson shelf`
+`May 2026 = a nine-anchor hinge month with real cross-host spread, plus the month that forced an explicit structural audit of the Wilkerson shelf`
 
 ## Best next manual-input queue for May
 
-No currently bounded May 2026 Wilkerson targets remain inside the queue this note is tracking.
+No currently missing May 2026 Wilkerson captures remain inside the bounded queue this note is tracking.
+
+Residual live ambiguity remains only around whether two Diesen-side title variants are distinct captures or alternate listings of already-landed files.
 
 ## Limits
 
 - Two May items remain YouTube-primary rather than transcript-grade.
 - The host spread is strong, but it also increases routing complexity.
 - The structural review should be read alongside this month note, not instead of it.
+- The main month-level contradiction has been repaired by the two newly landed Napolitano files.

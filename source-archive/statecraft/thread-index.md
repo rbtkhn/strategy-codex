@@ -5,7 +5,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_archive
 ## Stats
 
 - Distinct threads: `56`
-- Thread-linked source files: `1365`
+- Thread-linked source files: `1372`
 - Covered days: `417`
 - Covered months: `18`
 
@@ -15,20 +15,20 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_archive
 | --- | ---: | ---: | ---: | --- | --- | --- | --- |
 | `mercouris` | 307 | 283 | 18 | `Mercouris` (188), `Alexander Mercouris` (103), `The Duran` (6) | `Alexander Mercouris` (290), `Alex Christoforou` (4), `Alex Christoforu` (1) | `2025-01-03` | `2026-06-01` |
 | `davis` | 213 | 116 | 16 | `Daniel Davis Deep Dive` (191), `Deep Dive` (2), `Dialogue Works` (2) | `Daniel Davis` (191), `Daniel Davis / Deep Dive` (6), `Nima Alkhorshid` (2) | `2025-01-01` | `2026-06-01` |
-| `diesen` | 162 | 137 | 17 | `Glenn Diesen` (106), `Diesen` (9), `Glenn Diesen - Greater Eurasia Podcast` (5) | `Glenn Diesen` (141), `Diesen` (14), `Mario Nawfal` (1) | `2025-01-10` | `2026-05-31` |
+| `diesen` | 163 | 138 | 18 | `Glenn Diesen` (107), `Diesen` (9), `Glenn Diesen - Greater Eurasia Podcast` (5) | `Glenn Diesen` (142), `Diesen` (14), `Mario Nawfal` (1) | `2025-01-10` | `2026-06-01` |
 | `nima` | 149 | 120 | 16 | `Dialogue Works` (129) | `Nima Alkhorshid` (119), `Nima Alkorshid` (21), `Dialogue Works` (5) | `2025-01-04` | `2026-06-01` |
 | `freeman` | 81 | 80 | 17 | `Judging Freedom` (39), `Dialogue Works` (30), `Glenn Diesen` (3) | `Andrew Napolitano` (45), `Nima Alkhorshid` (16), `Nema` (13) | `2025-01-07` | `2026-05-29` |
 | `simplicius` | 62 | 62 | 4 | `simplicius76.substack.com` (62) | (none) | `2026-01-02` | `2026-04-27` |
-| `pape` | 53 | 42 | 4 | `escalationtrap.substack.com` (34), `Mario Nawfal` (3), `Breaking Points` (2) | `Mario Nawfal` (3), `Clayton Morris; Natali Morris` (1), `Ryan Grim` (1) | `2026-02-25` | `2026-05-29` |
+| `pape` | 54 | 43 | 5 | `escalationtrap.substack.com` (35), `Mario Nawfal` (3), `Breaking Points` (2) | `Mario Nawfal` (3), `Clayton Morris; Natali Morris` (1), `Ryan Grim` (1) | `2026-02-25` | `2026-06-01` |
 | `napolitano` | 45 | 37 | 14 | `Judging Freedom` (45) | `Andrew Napolitano` (45) | `2025-01-08` | `2026-05-27` |
-| `ritter` | 39 | 37 | 7 | `Dialogue Works` (3), `Judging Freedom` (2), `Let's Talk Geopolitics` (1) | `Andrew Napolitano` (7), `Nima Alkhorshid` (3), `Cyrus Janssen` (1) | `2025-11-04` | `2026-05-28` |
+| `ritter` | 40 | 38 | 8 | `Dialogue Works` (3), `Judging Freedom` (2), `Let's Talk Geopolitics` (1) | `Andrew Napolitano` (7), `Nima Alkhorshid` (3), `Cyrus Janssen` (1) | `2025-11-04` | `2026-06-01` |
 | `macgregor` | 37 | 34 | 13 | `Judging Freedom` (18), `Daniel Davis Deep Dive` (9), `Tucker Carlson` (1) | `Andrew Napolitano` (23), `Daniel Davis` (9), `Tucker Carlson` (1) | `2025-01-16` | `2026-05-29` |
-| `crooke` | 29 | 29 | 5 | `Judging Freedom` (2), `Glenn Diesen` (1) | `Andrew Napolitano` (2), `Glenn Diesen` (1) | `2026-01-08` | `2026-05-30` |
+| `crooke` | 30 | 30 | 5 | `Judging Freedom` (2), `Glenn Diesen` (1) | `Andrew Napolitano` (2), `Glenn Diesen` (1) | `2026-01-08` | `2026-05-30` |
 | `johnson` | 23 | 21 | 7 | `Dialogue Works` (7), `Mario Nawfal` (4), `Judging Freedom` (2) | `Andrew Napolitano` (7), `Nima Alkhorshid` (6), `Mario Nawfal` (4) | `2025-11-24` | `2026-05-31` |
-| `parsi` | 18 | 18 | 5 | `substack.com/@tritaparsi` (11), `responsiblestatecraft.org` (1), `tritaparsi.substack.com` (1) | `Mario Nawfal` (1) | `2026-01-09` | `2026-05-28` |
+| `parsi` | 19 | 19 | 6 | `substack.com/@tritaparsi` (11), `Mario Nawfal` (2), `responsiblestatecraft.org` (1) | `Mario Nawfal` (2) | `2026-01-09` | `2026-06-01` |
 | `mearsheimer` | 16 | 16 | 9 | `mearsheimer.substack.com` (2), `Americano` (1), `Counterpoints` (1) | `Andrew Napolitano` (9), `Daniel Davis` (2), `Freddy Gray` (1) | `2025-02-12` | `2026-05-28` |
+| `wilkerson` | 13 | 13 | 8 | `Judging Freedom` (5), `Dialogue Works` (4), `Mario Nawfal` (1) | `Andrew Napolitano` (8), `Nema` (2), `Nima` (1) | `2025-04-05` | `2026-05-28` |
 | `baud` | 12 | 11 | 5 | `Dialogue Works` (10), `Daniel Davis Deep Dive` (1) | `Nima Alkhorshid` (10), `Daniel Davis (host); Col. Jacques Baud (guest)` (1), `Daniel Davis` (1) | `2026-01-06` | `2026-05-28` |
-| `wilkerson` | 11 | 11 | 8 | `Dialogue Works` (4), `Judging Freedom` (3), `Mario Nawfal` (1) | `Andrew Napolitano` (6), `Nema` (2), `Nima` (1) | `2025-04-05` | `2026-05-28` |
 | `marandi` | 10 | 9 | 3 | `Dialogue Works` (5), `Judging Freedom` (1), `India and Global Left` (1) | `Nima Alkhorshid` (5), `Andrew Napolitano` (1), `Judish Raj` (1) | `2026-01-02` | `2026-05-30` |
 | `martyanov` | 10 | 9 | 5 | `Dialogue Works` (10) | `Nima Alkhorshid` (10) | `2026-01-01` | `2026-05-28` |
 | `jiang` | 8 | 6 | 1 | `Predictive History` (8) | `Jiang Xueqin` (8) | `2026-05-06` | `2026-05-26` |

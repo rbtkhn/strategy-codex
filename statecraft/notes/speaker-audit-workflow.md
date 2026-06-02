@@ -55,6 +55,18 @@ Prefer this order:
 3. compact routing or arc file
 4. meta-summary or audit surface
 
+## Output Rule
+
+When a speaker audit identifies `missing`, `ambiguous`, or `already represented` candidates, the operator-facing output must include:
+
+- date
+- host/source family
+- exact title
+- direct URL when known
+- explicit status
+
+Do not summarize a candidate queue without surfacing the URLs. If only an indirect citation URL is available, say so plainly rather than implying a direct watch URL has been recovered.
+
 ## Reuse Rule
 
 Use the hub to calibrate reuse burden, not to rank prestige.

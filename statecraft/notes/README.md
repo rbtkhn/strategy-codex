@@ -59,6 +59,14 @@ Machine-constitutional files stay where they already belong:
 
 ## Best Entry Points
 
+- [wilkerson-april-2026-contradiction-audit.md](./wilkerson-april-2026-contradiction-audit.md) - bounded contradiction audit preserving the real April on-disk baseline and the reopened Wilkerson queue
+- [parsi-wilkerson-may-2026-backfill-attention.md](./parsi-wilkerson-may-2026-backfill-attention.md) - bounded archive-and-shelf queue for May 2026 Parsi expansion and Wilkerson contradiction-check work
+- [jiang-ph-civ-correspondence-june-1-2026.md](./jiang-ph-civ-correspondence-june-1-2026.md) - bounded note separating June 1 Jiang claims into existing Predictive History continuity versus sharper extension
+- [may-2026-speaker-watchlist.md](./may-2026-speaker-watchlist.md) - bounded month-scale watchlist separating healthy coverage from thin presence and backfill candidates
+- [recent-speaker-underrepresentation-query-standard.md](./recent-speaker-underrepresentation-query-standard.md) - bounded query-standard note for rolling-week archive representation checks
+- [us-israel-military-integration-captured-command-risk.md](./us-israel-military-integration-captured-command-risk.md) - tracking note for the Section 224 / NDAA controversy as a possible America-side captured-command object
+- [barnes-johnson-aguilar-kent-on-section-224.md](./barnes-johnson-aguilar-kent-on-section-224.md) - speaker-function comparison note for the current Section 224 bench
+- [formal-sovereignty-vs-internal-carriage.md](./formal-sovereignty-vs-internal-carriage.md) - America-side mechanism note on when command remains formal but discretion thins from inside the machinery
 - [archive-truth-floor-repair-routing-2026-06-01.md](./archive-truth-floor-repair-routing-2026-06-01.md) - route note for treating the open archive-truth seam as a governed machine object rather than a raw debt pile
 - [recursive-learning-journal-executive-synthesis.md](./recursive-learning-journal-executive-synthesis.md) - compact operator synthesis of the journal's current arc
 - [recognition-threshold-vs-settlement-architecture.md](./recognition-threshold-vs-settlement-architecture.md) - threshold and sequencing distinction
@@ -89,6 +97,14 @@ This first rollout is forward-only. Do not move existing prose here automaticall
 
 ### Shelf-Native
 
+- [wilkerson-april-2026-contradiction-audit.md](./wilkerson-april-2026-contradiction-audit.md) - shelf-native contradiction-audit note
+- [parsi-wilkerson-may-2026-backfill-attention.md](./parsi-wilkerson-may-2026-backfill-attention.md) - shelf-native backfill-attention and contradiction-check queue
+- [jiang-ph-civ-correspondence-june-1-2026.md](./jiang-ph-civ-correspondence-june-1-2026.md) - shelf-native correspondence note
+- [may-2026-speaker-watchlist.md](./may-2026-speaker-watchlist.md) - shelf-native watchlist note
+- [recent-speaker-underrepresentation-query-standard.md](./recent-speaker-underrepresentation-query-standard.md) - shelf-native query-standard note
+- [us-israel-military-integration-captured-command-risk.md](./us-israel-military-integration-captured-command-risk.md) - shelf-native tracking note
+- [barnes-johnson-aguilar-kent-on-section-224.md](./barnes-johnson-aguilar-kent-on-section-224.md) - shelf-native speaker-function note
+- [formal-sovereignty-vs-internal-carriage.md](./formal-sovereignty-vs-internal-carriage.md) - shelf-native America-side mechanism note
 - [archive-truth-floor-repair-routing-2026-06-01.md](./archive-truth-floor-repair-routing-2026-06-01.md) - shelf-native routing note
 - [recursive-learning-journal-executive-synthesis.md](./recursive-learning-journal-executive-synthesis.md) - shelf-native bounded synthesis note
 

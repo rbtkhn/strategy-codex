@@ -4,26 +4,26 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Stats
 
-- Source files: `9`
-- Type mix: `transcript` (5), `youtube` (3), `substack` (1)
-- Distinct channels/shows: `5`
-- Distinct hosts: `4`
-- Distinct guests: `4`
-- Distinct threads: `6`
+- Source files: `10`
+- Type mix: `transcript` (6), `youtube` (3), `substack` (1)
+- Distinct channels/shows: `6`
+- Distinct hosts: `5`
+- Distinct guests: `5`
+- Distinct threads: `7`
 
 ## Channel / Show Rollup
 
-- `Daniel Davis Deep Dive` (1), `Dialogue Works` (1), `Glenn Diesen` (1), `Mercouris` (1), `escalationtrap.substack.com` (1)
+- `Daniel Davis Deep Dive` (1), `Dialogue Works` (1), `Glenn Diesen` (1), `Judging Freedom` (1), `Mercouris` (1), `escalationtrap.substack.com` (1)
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Alexander Mercouris` (1), `Daniel Davis` (1), `Glenn Diesen` (1), `Nima Alkhorshid` (1)
-- Guests: `Andrei Martyanov` (1), `Larry Johnson` (1), `Russia` (1), `Seyed M. Marandi` (1)
-- Threads: `davis` (2), `mercouris` (2), `pape` (2), `diesen` (1), `marandi` (1), `martyanov` (1)
+- Hosts: `Alexander Mercouris` (1), `Andrew Napolitano` (1), `Daniel Davis` (1), `Glenn Diesen` (1), `Nima Alkhorshid` (1)
+- Guests: `Andrei Martyanov` (1), `Larry Johnson` (1), `Lawrence Wilkerson` (1), `Russia` (1), `Seyed M. Marandi` (1)
+- Threads: `davis` (2), `mercouris` (2), `pape` (2), `diesen` (1), `marandi` (1), `martyanov` (1), `wilkerson` (1)
 
 ## Filename Family Fallbacks
 
-- `transcript-*` (4), `substack-*` (1)
+- `transcript-*` (5), `substack-*` (1)
 
 ## Files
 
@@ -32,6 +32,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - `transcript-dialogue-works-andrei-martyanov-how-iran-exposed-trump-s-military-and-strategic-failure-full-breakdown-2026-04-16.md`
 - `transcript-marandi.md`
 - `transcript-mercouris.md`
+- `transcript-napolitano-wilkerson-will-israel-go-nuclear-2026-04-16.md`
 - `transcript-pape.md`
 - `youtube-alex-mercouris-russia-eu-makes-drones-for-kiev-medvedev-warns-iran-welcomes-pakistan-ch-2026-04-16.md`
 - `youtube-daniel-davis-deep-dive-fmr-cia-analyst-larry-johnson-iran-demands-not-changing-2026-04-16.md`

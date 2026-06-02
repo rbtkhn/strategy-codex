@@ -4,22 +4,22 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Stats
 
-- Source files: `10`
-- Type mix: `youtube` (4), `substack` (3), `transcript` (2), `predictive` (1)
-- Distinct channels/shows: `6`
+- Source files: `11`
+- Type mix: `youtube` (4), `transcript` (3), `substack` (3), `predictive` (1)
+- Distinct channels/shows: `7`
 - Distinct hosts: `6`
-- Distinct guests: `6`
-- Distinct threads: `8`
+- Distinct guests: `7`
+- Distinct threads: `9`
 
 ## Channel / Show Rollup
 
-- `Dialogue Works` (2), `Alexander Mercouris` (1), `Daniel Davis Deep Dive` (1), `Glenn Diesen` (1), `Mario Nawfal` (1), `Predictive History` (1)
+- `Dialogue Works` (2), `Alexander Mercouris` (1), `Daniel Davis Deep Dive` (1), `Glenn Diesen` (1), `Judging Freedom` (1), `Mario Nawfal` (1), `Predictive History` (1)
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Nima Alkhorshid` (2), `Alexander Mercouris` (1), `Daniel Davis` (1), `Glenn Diesen` (1), `Jiang Xueqin` (1), `Mario Nawfal` (1)
-- Guests: `Alexander Mercouris` (1), `Andrei Martyanov` (1), `Anthony Aguilar` (1), `George Beebe` (1), `Larry Johnson` (1), `Scott Ritter` (1)
-- Threads: `nima` (2), `pape` (2), `crooke` (1), `davis` (1), `diesen` (1), `jiang` (1), `johnson` (1), `mercouris` (1)
+- Hosts: `Nima Alkhorshid` (2), `Alexander Mercouris` (1), `Andrew Napolitano` (1), `Daniel Davis` (1), `Glenn Diesen` (1), `Jiang Xueqin` (1), `Mario Nawfal` (1)
+- Guests: `Alexander Mercouris` (1), `Andrei Martyanov` (1), `Anthony Aguilar` (1), `George Beebe` (1), `Larry Johnson` (1), `Lawrence Wilkerson` (1), `Scott Ritter` (1)
+- Threads: `nima` (2), `pape` (2), `crooke` (1), `davis` (1), `diesen` (1), `jiang` (1), `johnson` (1), `mercouris` (1), `wilkerson` (1)
 
 ## Filename Family Fallbacks
 
@@ -33,6 +33,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - `substack-pape-the-damage-you-cant-hide-2026-05-14.md`
 - `transcript-dialogue-works-andrei-martyanov-iran-and-russia-just-changed-war-forever-here-s-how-2026-05-14.md`
 - `transcript-dialogue-works-lt-col-anthony-aguilar-israel-s-defeat-begins-hezbollah-and-yemen-just-h-2026-05-14.md`
+- `transcript-napolitano-wilkerson-checkmate-in-iran-2026-05-14.md`
 - `youtube-alex-mercouris-china-tough-stance-in-trump-visit-russia-biggest-strike-kiev-shredded-ad-collapses-zelensky-panic-2026-05-14.md`
 - `youtube-daniel-davis-deep-dive-scott-ritter-russia-retaliation-on-europe-no-longer-in-doubt-2026-05-14.md`
 - `youtube-glenn-diesen-george-beebe-europe-russia-war-as-the-u-s-pulls-back-2026-05-14.md`

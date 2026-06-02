@@ -57,6 +57,7 @@ Machine-constitutional files stay where they already belong:
 
 ## Best Entry Points
 
+- [america-and-the-problem-of-sovereign-command-under-allied-capture.md](./america-and-the-problem-of-sovereign-command-under-allied-capture.md) - placeholder essay scaffold for the Section 224 controversy as an America-side command argument
 - [three-layers-of-recursive-learning-in-statecraft.md](./three-layers-of-recursive-learning-in-statecraft.md) - stand-alone model of the journal's current maturation
 - [from-accumulation-to-governed-interpretive-machine.md](./from-accumulation-to-governed-interpretive-machine.md) - teachable explanation of what the repo is becoming and why that changes what matters
 - [how-the-operator-uses-the-statecraft-machine.md](./how-the-operator-uses-the-statecraft-machine.md) - argument about what the machine is already doing
@@ -95,6 +96,7 @@ This first rollout is forward-only. Do not move existing prose here automaticall
 
 ### Shelf-Native
 
+- [america-and-the-problem-of-sovereign-command-under-allied-capture.md](./america-and-the-problem-of-sovereign-command-under-allied-capture.md) - shelf-native placeholder essay
 - [three-layers-of-recursive-learning-in-statecraft.md](./three-layers-of-recursive-learning-in-statecraft.md) - shelf-native synthesized essay
 - [from-accumulation-to-governed-interpretive-machine.md](./from-accumulation-to-governed-interpretive-machine.md) - shelf-native explanatory essay
 - [pope-leo-on-ai.md](./pope-leo-on-ai.md) - shelf-native placeholder for the Vatican office and legitimacy version

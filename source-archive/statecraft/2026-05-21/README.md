@@ -4,22 +4,22 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Stats
 
-- Source files: `6`
-- Type mix: `transcript` (5), `predictive` (1)
+- Source files: `7`
+- Type mix: `transcript` (6), `predictive` (1)
 - Distinct channels/shows: `4`
 - Distinct hosts: `4`
-- Distinct guests: `4`
-- Distinct threads: `6`
+- Distinct guests: `5`
+- Distinct threads: `7`
 
 ## Channel / Show Rollup
 
-- `Dialogue Works` (3), `Glenn Diesen` (1), `Judging Freedom` (1), `Predictive History` (1)
+- `Dialogue Works` (3), `Judging Freedom` (2), `Glenn Diesen` (1), `Predictive History` (1)
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Nima Alkhorshid` (3), `Andrew Napolitano` (1), `Glenn Diesen` (1), `Jiang Xueqin` (1)
-- Guests: `Douglas Macgregor` (2), `Alex Krainer` (1), `Andrei Martyanov` (1), `Pepe Escobar` (1)
-- Threads: `diesen` (1), `escobar` (1), `jiang` (1), `krainer` (1), `macgregor` (1), `martyanov` (1)
+- Hosts: `Nima Alkhorshid` (3), `Andrew Napolitano` (2), `Glenn Diesen` (1), `Jiang Xueqin` (1)
+- Guests: `Douglas Macgregor` (2), `Alex Krainer` (1), `Andrei Martyanov` (1), `Lawrence Wilkerson` (1), `Pepe Escobar` (1)
+- Threads: `diesen` (1), `escobar` (1), `jiang` (1), `krainer` (1), `macgregor` (1), `martyanov` (1), `wilkerson` (1)
 
 ## Filename Family Fallbacks
 
@@ -33,3 +33,4 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - `transcript-dialogue-works-pepe-escobar-iran-wipes-out-trumps-attack-russia-chinas-massive-move-2026-05-21.md`
 - `transcript-macgregor-diesen-nato-attacked-russia-us-being-pushed-out-of-the-middle-east-2026-05-21.md`
 - `transcript-napolitano-macgregor-the-pentagon-and-decapitation-strikes-2026-05-21.md`
+- `transcript-napolitano-wilkerson-trump-trapped-in-a-corner-2026-05-21.md`

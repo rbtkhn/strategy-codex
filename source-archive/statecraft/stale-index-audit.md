@@ -4,8 +4,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_archive
 
 ## Stats
 
-- Day indices: `ok` (390), `stale` (30)
-- Month indices: `ok` (17), `stale` (1)
+- Day indices: `ok` (389), `stale` (31)
+- Month indices: `ok` (18)
 - Year indices: `ok` (2)
 - Thread index: `ok`
 
@@ -414,7 +414,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_archive
 | `2026-05-11` | `ok` |
 | `2026-05-12` | `ok` |
 | `2026-05-13` | `ok` |
-| `2026-05-14` | `ok` |
+| `2026-05-14` | `stale` |
 | `2026-05-15` | `ok` |
 | `2026-05-16` | `ok` |
 | `2026-05-17` | `ok` |
@@ -443,7 +443,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_archive
 | `2025-03` | `ok` |
 | `2025-04` | `ok` |
 | `2025-05` | `ok` |
-| `2025-06` | `stale` |
+| `2025-06` | `ok` |
 | `2025-07` | `ok` |
 | `2025-08` | `ok` |
 | `2025-09` | `ok` |

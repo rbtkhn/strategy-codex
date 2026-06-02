@@ -4,12 +4,12 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Stats
 
-- Source files: `14`
-- Type mix: `transcript` (11), `youtube` (3)
+- Source files: `15`
+- Type mix: `transcript` (11), `youtube` (3), `substack` (1)
 - Distinct channels/shows: `7`
 - Distinct hosts: `7`
 - Distinct guests: `13`
-- Distinct threads: `14`
+- Distinct threads: `15`
 
 ## Channel / Show Rollup
 
@@ -19,14 +19,15 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Andrew Napolitano` (4), `Mario Nawfal` (3), `Daniel Davis` (2), `Nima Alkhorshid` (2), `Alexander Mercouris` (1), `Garland Nixon` (1), `Tom Switzer` (1)
 - Guests: `Alex Krainer` (1), `Andrei Martyanov` (1), `Douglas Macgregor` (1), `Jacques Baud` (1), `Joe Kent` (1), `John Mearsheimer` (1), `Lawrence Wilkerson` (1), `Max Blumenthal` (1), `Mohammad Marandi` (1), `Robert Barnes` (1), `Robert Pape` (1), `Scott Ritter` (1), `Trita Parsi` (1)
-- Threads: `barnes` (1), `baud` (1), `blumenthal` (1), `kent` (1), `krainer` (1), `macgregor` (1), `marandi` (1), `martyanov` (1), `mearsheimer` (1), `mercouris` (1), `pape` (1), `parsi` (1), `ritter` (1), `wilkerson` (1)
+- Threads: `barnes` (1), `baud` (1), `blumenthal` (1), `crooke` (1), `kent` (1), `krainer` (1), `macgregor` (1), `marandi` (1), `martyanov` (1), `mearsheimer` (1), `mercouris` (1), `pape` (1), `parsi` (1), `ritter` (1), `wilkerson` (1)
 
 ## Filename Family Fallbacks
 
-- `youtube-alex-mercouris-*` (1)
+- `substack-*` (1), `youtube-alex-mercouris-*` (1)
 
 ## Files
 
+- `substack-crooke-iran-war-effect-marks-the-resetting-2026-05-28.md`
 - `transcript-davis-baud-europe-provokes-war-russia-2026-05-28.md`
 - `transcript-davis-mearsheimer-iran-ceasefire-hangs-by-a-thread-2026-05-28.md`
 - `transcript-dialogue-works-alex-krainer-iran-avoided-us-tanker-then-did-this-in-the-strait-of-hormuz-2026-05-28.md`

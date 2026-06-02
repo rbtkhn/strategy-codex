@@ -4,12 +4,12 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Stats
 
-- Source files: `4`
-- Type mix: `transcript` (2), `substack` (1), `youtube` (1)
+- Source files: `5`
+- Type mix: `transcript` (3), `substack` (1), `youtube` (1)
 - Distinct channels/shows: `3`
 - Distinct hosts: `3`
-- Distinct guests: `2`
-- Distinct threads: `4`
+- Distinct guests: `3`
+- Distinct threads: `5`
 
 ## Channel / Show Rollup
 
@@ -18,16 +18,17 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Host / Guest / Thread Rollup
 
 - Hosts: `Alexander Mercouris` (1), `Diesen` (1), `Nima Alkhorshid` (1)
-- Guests: `Chas Freeman` (1), `John Mearsheimer` (1)
-- Threads: `[diesen, mearsheimer]` (1), `crooke` (1), `mercouris` (1), `nima` (1)
+- Guests: `Chas Freeman` (1), `Colonel Lawrence Wilkerson` (1), `John Mearsheimer` (1)
+- Threads: `crooke` (1), `diesen` (1), `mercouris` (1), `nima` (1), `[diesen, mearsheimer]` (1)
 
 ## Filename Family Fallbacks
 
-- `substack-*` (1), `youtube-alex-mercouris-*` (1)
+- `substack-*` (1), `transcript-*` (1), `youtube-alex-mercouris-*` (1)
 
 ## Files
 
 - `substack-crooke-irans-determination-to-breakout-from-2026-04-10.md`
 - `transcript-dialogue-works-amb-chas-freeman-israel-s-strategy-in-tatters-trump-takes-over-2026-04-10.md`
 - `transcript-diesen-mearsheimer-world-changed-forever-2026-04-10.md`
+- `transcript-diesen-wilkerson-ceasefire-fails-nato-died-us-risks-civil-war-2026-04-10.md`
 - `youtube-alex-mercouris-russia-prepares-final-donbass-battle-uk-drops-plan-seize-russian-ships-h-2026-04-10.md`

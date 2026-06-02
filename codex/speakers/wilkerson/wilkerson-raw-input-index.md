@@ -136,16 +136,23 @@ Short rule:
 
 ## 2026-04
 
+- [transcript-napolitano-wilkerson-is-netanyahu-getting-desperate-2026-04-02](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-02/transcript-napolitano-wilkerson-is-netanyahu-getting-desperate-2026-04-02.md)
+- [transcript-napolitano-wilkerson-how-iran-brought-trump-to-his-knees-2026-04-09](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-09/transcript-napolitano-wilkerson-how-iran-brought-trump-to-his-knees-2026-04-09.md)
+- [transcript-diesen-wilkerson-ceasefire-fails-nato-died-us-risks-civil-war-2026-04-10](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-10/transcript-diesen-wilkerson-ceasefire-fails-nato-died-us-risks-civil-war-2026-04-10.md)
+- [transcript-napolitano-wilkerson-will-israel-go-nuclear-2026-04-16](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-16/transcript-napolitano-wilkerson-will-israel-go-nuclear-2026-04-16.md)
 - [transcript-diesen-wilkerson-araghchi-putin-russia-iran-2026-04-28](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-28/transcript-diesen-wilkerson-araghchi-putin-russia-iran-2026-04-28.md)
 - [transcript-shaun-attwood-wilkerson-will-us-israel-v-iran-war-become-a-world-war-2026-04-29](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-29/transcript-shaun-attwood-wilkerson-will-us-israel-v-iran-war-become-a-world-war-2026-04-29.md)
 - [transcript-wilkerson-judging-freedom-iran-new-friend-2026-04-30](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-30/transcript-wilkerson-judging-freedom-iran-new-friend-2026-04-30.md)
+- contradiction-audit status: the on-disk April shelf is now at seven landed anchors, but the month is not yet closed; see [wilkerson-april-2026-contradiction-audit.md](/C:/dev/strategy-codex/statecraft/notes/wilkerson-april-2026-contradiction-audit.md)
 
 ## 2026-05
 
 - [transcript-alkorshid-wilkerson-hormuz-blockade-2026-05-05](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-05/transcript-alkorshid-wilkerson-hormuz-blockade-2026-05-05.md)
 - [transcript-diesen-wilkerson-hormuz-brics-2026-05-06](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-06/transcript-diesen-wilkerson-hormuz-brics-2026-05-06.md)
+- [transcript-napolitano-wilkerson-checkmate-in-iran-2026-05-14](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-14/transcript-napolitano-wilkerson-checkmate-in-iran-2026-05-14.md)
 - [youtube-glenn-diesen-lawrence-wilkerson-trump-xi-meeting-after-u-s-defeat-in-iran-2026-05-15](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-15/youtube-glenn-diesen-lawrence-wilkerson-trump-xi-meeting-after-u-s-defeat-in-iran-2026-05-15.md)
 - [youtube-wilkerson-mario-nawfal-heated-arguments-in-white-house-2026-05-20](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-20/youtube-wilkerson-mario-nawfal-heated-arguments-in-white-house-2026-05-20.md)
+- [transcript-napolitano-wilkerson-trump-trapped-in-a-corner-2026-05-21](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-21/transcript-napolitano-wilkerson-trump-trapped-in-a-corner-2026-05-21.md)
 - [transcript-dialogue-works-larry-johnson-col-wilkerson-irans-unseen-move-us-laser-destroyers-cant-stop-whats-coming-2026-05-22](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-22/transcript-dialogue-works-larry-johnson-col-wilkerson-irans-unseen-move-us-laser-destroyers-cant-stop-whats-coming-2026-05-22.md)
 - [youtube-glenn-diesen-lawrence-wilkerson-failing-to-adjust-to-a-multipolar-world-2026-05-26](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/youtube-glenn-diesen-lawrence-wilkerson-failing-to-adjust-to-a-multipolar-world-2026-05-26.md)
 - [transcript-napolitano-wilkerson-what-remains-of-international-law-2026-05-28](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/transcript-napolitano-wilkerson-what-remains-of-international-law-2026-05-28.md)
