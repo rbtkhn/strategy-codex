@@ -63,6 +63,8 @@ If **`auto_dream.py --strict`** halted, **`last-dream.json` was not updated** â
 
 If the file is missing or empty below the anchor, note that under **Recent rhythm** and continue.
 
+Prefer the shared executable formatter in `scripts/cadence_recent_rhythm.py --ritual dream` over hand-rolling this summary when possible. Use `--count 8` for `dream full` / wide-window closeout.
+
 ## Step 1 â€” Automated actions
 
 Run the bounded maintenance pass:

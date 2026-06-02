@@ -126,6 +126,8 @@ Skills may ask the agent to **read** `work-cadence-events.md` **before** running
 | **dream** | **4** (default) / **8** (full day-close) | Default matches coffee/bridge depth; use **8** when the operator asks for full rhythm (`dream full`, `deep rhythm`, `wide rhythm`, or explicit wider window) â€” see [.cursor/skills/dream/SKILL.md](../../../.cursor/skills/dream/SKILL.md) Step 0 |
 | **harvest** | **none** | The **Harvest Packet** is already dense context for a midstream receiver; prepending the same rhythm strip would duplicate info without clear load-bearing value. Optional **`harvest`** cadence **telemetry** (`--log`) does not require synthesis in the reply |
 
+**Shared formatter:** `scripts/cadence_recent_rhythm.py` is the canonical helper for Step 0 cadence synthesis. Use `--ritual coffee` for coffee / re-entry surfaces and `--ritual dream` (optionally `--count 8`) for night close, so cadence-log interpretation stays in one place instead of drifting across multiple skills and scripts.
+
 ### Cadence voice principle (all rituals)
 
 Cadence chat output serves **emotional connection and forward orientation**, not information transfer. The log file holds the data; the chat synthesis uses it differently.

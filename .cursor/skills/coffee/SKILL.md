@@ -120,7 +120,7 @@ After resolution, use the executable first-command bootstrap with the resolved i
 
 This prints a **Coffee Bootstrap Brief** first, then runs the compact cold-thread stack. The brief includes read-only **Repo identity**, **Git credentials**, **Git state**, and **Pytest** lines for the current sandbox (`verify_repo_identity.py`; `origin` protocol + `gh auth status` hint; `git status --short --branch`; `<python_cmd> -m pytest --version`) so a fresh chat can tell whether it is in the right checkout and whether shell push, local repo stewardship, or test work needs setup before ship work. Use `--verbose` only when the operator needs the detailed underlying handoff / warmup / harness blocks. Ordinary in-thread `coffee`, `coffee light`, `coffee minimal`, and signing-off behavior stay unchanged.
 
-For Step 0 recent rhythm, prefer the executable formatter in `scripts/coffee_bootstrap_brief.py` over manual log synthesis. It reads `coffee_close` receipts first, names readiness / artifact anchors / repeated unresolved loops, and keeps the first screen free of timestamp walls.
+For Step 0 recent rhythm, prefer the shared executable formatter in `scripts/cadence_recent_rhythm.py --ritual coffee` over manual log synthesis. `scripts/coffee_bootstrap_brief.py` already delegates to that helper. It reads `coffee_close` receipts first, names readiness / artifact anchors / repeated unresolved loops, and keeps the first screen free of timestamp walls.
 
 ### Step 0 ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â Recent rhythm (before Step 1 scripts)
 

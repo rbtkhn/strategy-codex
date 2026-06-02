@@ -23,18 +23,12 @@ if str(SCRIPTS) not in sys.path:
     sys.path.insert(0, str(SCRIPTS))
 
 try:
-    from audit_cadence_rhythm import (
-        EVENTS_PATH,
-        compute_coffee_recursion_summary,
-        parse_events,
-    )
+    from audit_cadence_rhythm import EVENTS_PATH, compute_coffee_recursion_summary
+    from cadence_recent_rhythm import format_coffee_recent_rhythm
     from repo_io import DEFAULT_USER_ID
 except ImportError:
-    from scripts.audit_cadence_rhythm import (
-        EVENTS_PATH,
-        compute_coffee_recursion_summary,
-        parse_events,
-    )
+    from scripts.audit_cadence_rhythm import EVENTS_PATH, compute_coffee_recursion_summary
+    from scripts.cadence_recent_rhythm import format_coffee_recent_rhythm
     from scripts.repo_io import DEFAULT_USER_ID
 
 
@@ -81,87 +75,6 @@ def _artifacts_overlap_changed_paths(
         ):
             return True
     return False
-
-
-def _kind_phrase(event: dict[str, Any]) -> str:
-    kind = str(event.get("kind") or "event")
-    kv = event.get("kv") or {}
-    if kind == "coffee":
-        mode = kv.get("mode")
-        return f"coffee {mode}" if mode else "coffee"
-    if kind == "coffee_pick":
-        picked = kv.get("picked")
-        conductor = kv.get("conductor")
-        if conductor:
-            return f"coffee pick conductor={conductor}"
-        return f"coffee pick {picked}" if picked else "coffee pick"
-    if kind == "coffee_close":
-        readiness = kv.get("readiness")
-        outcome = kv.get("outcome")
-        return f"coffee close {outcome or 'outcome'} / {readiness or 'readiness unknown'}"
-    if kind == "dream":
-        ok = kv.get("ok")
-        return "dream pass" if ok == "true" else "dream"
-    if kind == "bridge":
-        ref = kv.get("commit") or kv.get("packet") or kv.get("kind")
-        return f"bridge {ref}" if ref else "bridge"
-    return kind
-
-
-def format_coffee_recent_rhythm(
-    user_id: str,
-    *,
-    days: int = 14,
-    events_path: Path = EVENTS_PATH,
-    now: datetime | None = None,
-    changed_paths: list[str] | None = None,
-) -> str:
-    """Return 2-4 human lines for coffee Step 0, preferring coffee_close."""
-    now = now or datetime.now(timezone.utc)
-    recursion = compute_coffee_recursion_summary(
-        user_id, days=days, events_path=events_path, now=now
-    )
-    last_close = recursion.get("last_close")
-    lines: list[str] = ["Recent rhythm:"]
-
-    if last_close:
-        picked = last_close.get("picked") or "unknown"
-        outcome = last_close.get("outcome") or "unknown"
-        readiness = last_close.get("readiness") or "unknown"
-        next_step = last_close.get("next")
-        artifacts = _as_list(last_close.get("artifacts"))
-        artifacts_live = _artifacts_overlap_changed_paths(artifacts, changed_paths)
-        first = f"- Last close picked {picked}: {outcome}, readiness {readiness}."
-        if next_step and artifacts_live:
-            first += f" Next: {next_step}."
-        elif next_step:
-            first += " Current changes no longer match that slice."
-        lines.append(first)
-        if artifacts and artifacts_live:
-            lines.append("- Artifact anchors: " + ", ".join(artifacts[:4]) + ".")
-    else:
-        events = parse_events(user_id, events_path=events_path)
-        if not events:
-            lines.append("- No prior cadence events found for this user.")
-        else:
-            recent = [_kind_phrase(event) for event in events[-4:]]
-            lines.append("- Recent cadence: " + " -> ".join(recent) + ".")
-            lines.append("- No coffee_close receipt yet, so the branch outcome is not explicit.")
-
-    repeated = recursion.get("repeated_unresolved_loops") or []
-    if repeated:
-        loops = ", ".join(f"{row['loop']} x{row['count']}" for row in repeated[:3])
-        lines.append("- Repeated unresolved loops: " + loops + ".")
-
-    conductor = recursion.get("latest_conductor_state")
-    if conductor:
-        lines.append(
-            "- Conductor continuity: "
-            f"{conductor.get('conductor')} is {conductor.get('state')} "
-            f"from {conductor.get('source')}."
-        )
-
-    return "\n".join(lines[:5])
 
 
 def _memory_status(user_id: str) -> str:
