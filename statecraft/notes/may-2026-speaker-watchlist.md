@@ -47,9 +47,6 @@ These speakers do not look underrepresented in the May 2026 archive.
 
 These speakers are present, but lighter than their strategic usefulness might justify.
 
-- `Wilkerson`
-  Not absent, but somewhat thin relative to how often he helps with command, empire, and multipolar-adjustment questions.
-
 - `McGovern`
   Present, but still a narrower strand than neighboring bench figures.
 
@@ -66,8 +63,10 @@ These are the clearest month-scale candidates where the archive feels thinner th
 - `Parsi`
   Strongest candidate. The month revolved heavily around Iran negotiation, Lebanon sequencing, and settlement credibility, which are exactly his natural terrain, yet archive presence is still relatively light.
 
+## Audited And Confirmed Complete
+
 - `Wilkerson`
-  Secondary candidate. He is already in `Thin But Acceptable`, but if the operator wants one more practical backfill target after Parsi, Wilkerson is the best next choice.
+  May was worth a contradiction audit, but the bounded month object is now materially closed enough for shelf purposes. It should no longer be treated as the live May backfill target ahead of Parsi.
 
 ## Use Rule
 

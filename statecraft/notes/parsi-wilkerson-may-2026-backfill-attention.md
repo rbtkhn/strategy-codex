@@ -28,26 +28,25 @@ Month verdict:
 Reason:
 
 - the current May shelf is intelligible, but still looks thinner than the role Parsi played in the month's diplomacy and settlement file
-- the clearest likely gap is authored mid-May architecture writing rather than a missing late-May host explosion
+- the clearest likely gap is now one authored late-May architecture cross-post rather than a missing late-May host explosion
 
 ### Candidate queue
 
-1. `2026-05-14`
-   Host/source family: `authored policy / Responsible Statecraft-adjacent`
-   Likely canonical archive family: `responsiblestatecraft-parsi-*`
-   Working title: `US and Iran are on the verge of a deal. Why isn't Trump taking it?`
+1. `2026-05-25`
+   Host/source family: `authored policy cross-post / Brave New Europe from Responsible Statecraft`
+   Likely canonical archive family: `responsiblestatecraft-parsi-*` or `braveneweurope-parsi-*`
+   Working title: `The US and Iran are on the verge of a deal, and the warmongers hate it`
    Status: `missing`
-   Why it matters: this would fill the current authored middle between the blockade-collapse opening and the late-May live-deal interview pressure.
+   Why it matters: this would fill the current authored late-May architecture / settlement bridge between the blockade-collapse opening and the final live-deal interview pressure.
    Shelf consequence if landed: update [parsi-forecast-ledger-2025-2026.md](/C:/dev/strategy-codex/statecraft/civ-lens/parsi/stream/parsi-forecast-ledger-2025-2026.md) and [parsi-may-2026-cross-context-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/parsi/stream/parsi-may-2026-cross-context-arc.md) so May reads as a fuller authored-to-interview sequence rather than a thin bridge month.
 
 2. `2026-05-06`
    Host/source family: `Duran / Mercouris`
    Likely canonical archive family: `transcript-duran-mercouris-trita-parsi-*`
    Working title discovered in hunt: `US Superpower Myth Shattered w/ Trita Parsi`
-   Status: `ambiguous`
-   Why it matters: the date and host family line up with the already-landed Duran/Parsi blockade file, but the title drift is large enough that it should be checked before the month is declared closed.
-   Shelf consequence if landed as distinct: update [parsi-interview-appearances-2025-2026.md](/C:/dev/strategy-codex/statecraft/civ-lens/parsi/parsi-interview-appearances-2025-2026.md) and [parsi-may-2026-cross-context-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/parsi/stream/parsi-may-2026-cross-context-arc.md) to show a denser early-May interview flank.
-   Shelf consequence if resolved as duplicate: mark May thinness as real archive truth rather than missing-ingest drift.
+   Status: `already represented`
+   Why it matters: the date, host family, and subject line resolve cleanly into the already-landed [2026-05-06 Duran / Mercouris blockade file](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-06/transcript-duran-mercouris-trita-parsi-us-iran-blockade-diplomacy-2026-05-06.md).
+   Shelf consequence: the early-May interview flank no longer needs to be carried as a live ambiguity object.
 
 ### Explicit exclusions
 
@@ -65,14 +64,15 @@ Reason:
 
 Month verdict:
 
-`needs backfill attention`
+`audited and confirmed complete`
 
 Reason:
 
-- the current landed month is still strong
-- but the shelf's explicit `seven-anchor complete month` claim is no longer safe after the allowed-lane contradiction hunt
+- the current landed month is now strong and internally coherent
+- the main missing-capture contradiction was repaired by the two `Judging Freedom` additions
+- the remaining Diesen questions are ambiguity checks, not strong month-breaking contradictions
 
-This is not a weak-presence verdict. It is a truth-maintenance verdict.
+This is not a weak-presence verdict. It is now a resolved truth-maintenance verdict.
 
 ### Candidate queue
 
@@ -128,7 +128,7 @@ This is not a weak-presence verdict. It is a truth-maintenance verdict.
 
 ### If Parsi lands nothing new
 
-- preserve the current month as archive-truth thinness
+- preserve the current month as archive-truth thinness with one tested-but-unlanded authored late-May candidate
 - keep this note as the proof that May was actively hunted rather than merely assumed complete
 
 ### If Wilkerson lands any new May material
@@ -139,10 +139,11 @@ This is not a weak-presence verdict. It is a truth-maintenance verdict.
 
 ### If Wilkerson lands nothing new
 
-- restore the month to `audited and confirmed complete`
-- keep the host-helix interpretation, but with an explicit note that the contradiction hunt was run and closed
+- preserve the month as `audited and confirmed complete`
+- keep the host-helix interpretation, but with an explicit note that the contradiction hunt was run and materially closed even if minor title-drift ambiguity remains
 
 ## Current judgment
 
 - `Parsi` remains the true May 2026 expansion target.
-- `Wilkerson` is not a weak month; he is a reopened month whose completeness claim now needs proof rather than repetition.
+- `Wilkerson` is not a weak month and no longer needs to be carried as the live May closure target.
+- the May Parsi closure queue is now narrower: one strong missing authored candidate remains live, while the early-May Duran ambiguity has resolved back into an already-landed file.

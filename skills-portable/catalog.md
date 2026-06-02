@@ -186,15 +186,15 @@ Canonical method: [skills-portable/statecraft-multi-lens/SKILL.md](statecraft-mu
 ## monthly-deepening
 
 - **What it is**
-  - A month-by-month corpus deepening skill for inventory, missing-item selection, transcript classification, and bounded archive materialization.
+  - A month-by-month corpus deepening skill for inventory, missing-item selection, transcript classification, bounded archive materialization, and explicit routing between `closure-audit`, `watchlist`, and `benchmark` month objects.
 - **When to use it**
   - Use when you want a monthly split for a speaker or stream, a truthful list of present versus missing entries, or a repeatable deepening pass after transcript uploads.
 - **Inputs you'll need**
   - Month scope, speaker scope, local archive evidence, local receipts, and any pasted transcript bodies.
 - **What you get**
-  - A scoped month inventory, an honest missing list, bounded materialization of pasted transcripts, and month-slice commit discipline when requested.
+  - A scoped month inventory, an honest missing list, bounded materialization of pasted transcripts, month-route judgment, and month-slice commit discipline when requested.
 - **Boundary**
-  - Keeps `speaker-only` separate from `speaker-adjacent`, does not guess unrecovered URLs, and treats transcript uploads as materialization requests unless reporting-only was explicit.
+  - Keeps `speaker-only` separate from `speaker-adjacent`, does not guess unrecovered URLs, treats transcript uploads as materialization requests unless reporting-only was explicit, and does not let benchmark months quietly turn into closure campaigns.
 - **Current status**
   - `promoted`
 

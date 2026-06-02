@@ -42,6 +42,8 @@ Boundary law:
 - routing notes
 - bridge-facing intake notes
 - theme and activation surfaces when they are part of statecraft retrieval
+- host-conditioned continuity surfaces
+- retrieval-facing shelf tools
 
 ## What Does Not Belong Here
 
@@ -49,8 +51,42 @@ Boundary law:
 - transaction authority
 - provenance itself
 - silent `civ-state` mutation
+- reusable bounded prose whose main job is analytical preservation rather than speaker retrieval
+- stand-alone transportable arguments
 
 Speaker-state continuity lives here as Statecraft Synthesis, not as source-bearing archive. Bridge adapters still live in [statecraft/bridges/](../bridges/), `civ-state` still owns retrieval memory, and lanes still own substantive drafting.
+
+## Speaker-Shelf Prose Boundary
+
+`statecraft/civ-lens/<speaker>/` is a continuity-and-retrieval layer, not a general prose shelf.
+
+Its canonical job is to preserve:
+
+- speaker identity and arc
+- routing and first-open discipline
+- provenance benches
+- helix and support-spine logic
+- host-conditioned continuity
+- retrieval-facing shelf tools
+
+It should **not** silently accumulate canonical bounded prose authority when a
+file's main job is a reusable analytical object rather than speaker retrieval.
+
+Decision rule:
+
+- if a file is mainly about understanding, entering, or retrieving a speaker, keep it in `civ-lens`
+- if it is a reusable bounded analytical object, its canonical prose home is [statecraft/notes/](../notes/README.md)
+- if it has become a transportable thesis, its canonical prose home is [statecraft/essays/](../essays/README.md)
+
+Examples:
+
+- [barnes-routing.md](barnes/barnes-routing.md) stays in `civ-lens` because it is retrieval architecture
+- [barnes-on-ai.md](barnes/barnes-on-ai.md) is the canonical example of a speaker-derived bounded prose object that may later be recanonicalized into `statecraft/notes/`
+
+Pointer law for future migrations:
+
+- when a speaker-derived file is recanonicalized into `statecraft/notes/` or `statecraft/essays/`, the originating speaker shelf should keep only routing pointers or curated index mentions
+- do not maintain duplicate full-authority prose copies in both places
 
 When the real question is host-law rather than speaker identity, open [statecraft/hosts/](../hosts/README.md) instead of treating retired `codex/speakers/<host>/...` surfaces as live authority.
 

@@ -27,6 +27,12 @@ Fast distinction:
 - if the object is one seam, mechanism, route question, audit, comparison, or promoted local insight, open a **note**
 - if the object has become a thesis that should travel on its own, open an **essay**
 
+Speaker-shelf carveout:
+
+- `statecraft/civ-lens/` is a continuity-and-retrieval layer, not a general prose shelf
+- speaker-derived bounded prose should route to `notes/` once it becomes reusable beyond shelf support
+- speaker-derived thesis-bearing prose should route to `essays/`
+
 ## Quick Placement Rule
 
 Use this order:
@@ -35,6 +41,12 @@ Use this order:
 2. If the object is reusable but still bounded to one seam, mechanism, route question, audit, or comparison, use `notes/`.
 3. If the object now carries a stand-alone thesis that should travel outside the original routing context, use `essays/`.
 4. If it is actually doctrine, a kernel, a sheet, a bridge, a transaction, or an archive object, do not force it into a prose shelf.
+
+For speaker-derived objects, apply one extra test:
+
+- if the file mainly helps you understand or enter a speaker, keep it in the speaker shelf
+- if the file is now a reusable bounded prose destination, route it to `notes/`
+- if the file has become a transportable stand-alone argument, route it to `essays/`
 
 ## When To Open A Note
 

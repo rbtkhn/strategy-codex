@@ -140,10 +140,12 @@ Short rule:
 - [transcript-napolitano-wilkerson-how-iran-brought-trump-to-his-knees-2026-04-09](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-09/transcript-napolitano-wilkerson-how-iran-brought-trump-to-his-knees-2026-04-09.md)
 - [transcript-diesen-wilkerson-ceasefire-fails-nato-died-us-risks-civil-war-2026-04-10](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-10/transcript-diesen-wilkerson-ceasefire-fails-nato-died-us-risks-civil-war-2026-04-10.md)
 - [transcript-napolitano-wilkerson-will-israel-go-nuclear-2026-04-16](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-16/transcript-napolitano-wilkerson-will-israel-go-nuclear-2026-04-16.md)
+- [transcript-dialogue-works-larry-johnson-col-wilkerson-iran-just-fully-opened-the-strait-of-hormuz-its-over-for-trump-2026-04-17](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-17/transcript-dialogue-works-larry-johnson-col-wilkerson-iran-just-fully-opened-the-strait-of-hormuz-its-over-for-trump-2026-04-17.md)
+- [transcript-dialogue-works-col-larry-wilkerson-trumps-own-advisors-now-split-on-iran-israels-plan-decimated-2026-04-28](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-28/transcript-dialogue-works-col-larry-wilkerson-trumps-own-advisors-now-split-on-iran-israels-plan-decimated-2026-04-28.md)
 - [transcript-diesen-wilkerson-araghchi-putin-russia-iran-2026-04-28](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-28/transcript-diesen-wilkerson-araghchi-putin-russia-iran-2026-04-28.md)
 - [transcript-shaun-attwood-wilkerson-will-us-israel-v-iran-war-become-a-world-war-2026-04-29](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-29/transcript-shaun-attwood-wilkerson-will-us-israel-v-iran-war-become-a-world-war-2026-04-29.md)
 - [transcript-wilkerson-judging-freedom-iran-new-friend-2026-04-30](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-30/transcript-wilkerson-judging-freedom-iran-new-friend-2026-04-30.md)
-- contradiction-audit status: the on-disk April shelf is now at seven landed anchors, but the month is not yet closed; see [wilkerson-april-2026-contradiction-audit.md](/C:/dev/strategy-codex/statecraft/notes/wilkerson-april-2026-contradiction-audit.md)
+- contradiction-audit status: the on-disk April shelf is now at nine landed anchors and the bounded April 2026 contradiction queue is closed; see [wilkerson-april-2026-contradiction-audit.md](/C:/dev/strategy-codex/statecraft/notes/wilkerson-april-2026-contradiction-audit.md)
 
 ## 2026-05
 

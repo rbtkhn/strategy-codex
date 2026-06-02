@@ -2,14 +2,14 @@
 
 WORK only; not Record.
 
-Purpose: preserve what April 2026 currently means on the Wilkerson shelf after the contradiction audit reopened the month, three missing April `Judging Freedom` anchors were landed, and the early missing `Diesen` anchor was landed: a smaller bridge month with `7` real on-disk anchors, but still not a safely closed month.
+Purpose: preserve what April 2026 currently means on the Wilkerson shelf after the contradiction audit reopened the month, the missing `Judging Freedom`, `Diesen`, and `Dialogue Works` anchors were landed, and the bounded queue was fully closed: a smaller bridge month with `9` real on-disk anchors that is now audited and confirmed complete within the bounded host-lane search.
 
 ## Core claim
 
-April 2026 is currently an **honest seven-anchor on-disk Wilkerson month** when read as:
+April 2026 is currently an **honest nine-anchor on-disk Wilkerson month** when read as:
 
-- `7` already-materialized April anchors on disk
-- a reopened contradiction-check queue showing that the month is not yet safely closed
+- `9` already-materialized April anchors on disk
+- a bounded contradiction audit whose candidate queue has now been closed
 
 The month is not best read as:
 
@@ -17,7 +17,7 @@ The month is not best read as:
 
 It is better read as:
 
-`April 2026 = a smaller cross-host bridge month with two Diesen anchors, one Shaun Attwood crossover, and four Judging Freedom reinforcements already on disk, plus additional probable April Wilkerson surfaces still missing from the archive`
+`April 2026 = a smaller but fully routeable cross-host bridge month with two Diesen anchors, one Shaun Attwood crossover, four Judging Freedom reinforcements, and a now-two-file Dialogue Works lane on disk`
 
 ## Materialized on disk
 
@@ -33,13 +33,19 @@ It is better read as:
 4. [2026-04-16 - *Will Israel Go Nuclear?*](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-16/transcript-napolitano-wilkerson-will-israel-go-nuclear-2026-04-16.md)
    Status: added `Judging Freedom` late-mid-month reinforcement now materialized.
 
-5. [2026-04-28 - *Araghchi, Putin, Russia, Iran*](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-28/transcript-diesen-wilkerson-araghchi-putin-russia-iran-2026-04-28.md)
+5. [2026-04-17 - *Iran Just FULLY Opened the Strait of Hormuz - It's OVER for Trump*](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-17/transcript-dialogue-works-larry-johnson-col-wilkerson-iran-just-fully-opened-the-strait-of-hormuz-its-over-for-trump-2026-04-17.md)
+   Status: first real April `Dialogue Works` Wilkerson lane now materialized.
+
+6. [2026-04-28 - *Trump's Own Advisors Now SPLIT on Iran - Israel's Plan DECIMATED*](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-28/transcript-dialogue-works-col-larry-wilkerson-trumps-own-advisors-now-split-on-iran-israels-plan-decimated-2026-04-28.md)
+   Status: second real April `Dialogue Works` Wilkerson lane now materialized.
+
+7. [2026-04-28 - *Araghchi, Putin, Russia, Iran*](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-28/transcript-diesen-wilkerson-araghchi-putin-russia-iran-2026-04-28.md)
    Status: late-month `Diesen` anchor already materialized.
 
-6. [2026-04-29 - *Will U.S.-Israel v Iran War Become a World War?*](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-29/transcript-shaun-attwood-wilkerson-will-us-israel-v-iran-war-become-a-world-war-2026-04-29.md)
+8. [2026-04-29 - *Will U.S.-Israel v Iran War Become a World War?*](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-29/transcript-shaun-attwood-wilkerson-will-us-israel-v-iran-war-become-a-world-war-2026-04-29.md)
    Status: transcript-grade Shaun Attwood crossover already materialized.
 
-7. [2026-04-30 - *Iran, New Friend?*](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-30/transcript-wilkerson-judging-freedom-iran-new-friend-2026-04-30.md)
+9. [2026-04-30 - *Iran, New Friend?*](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-30/transcript-wilkerson-judging-freedom-iran-new-friend-2026-04-30.md)
    Status: `Judging Freedom` month closer already materialized.
 
 ## What April now proves
@@ -48,12 +54,13 @@ April still proves that the shelf can preserve cross-host spread even when month
 
 - `Judging Freedom` is no longer just a late-month closer; it now has early-month, mid-month, late-mid-month, and late-month April presence on disk.
 - `Diesen` no longer appears only once in late April; it now supplies a real early-to-late April pair.
+- `Dialogue Works` is no longer merely a suspected absence; it now has a real two-file April Wilkerson lane on disk.
 - Shaun Attwood introduces a non-core-host crossover without breaking the shelf.
-- the month no longer supports the stronger claim that `no` additional April Wilkerson appearances remain to be checked.
+- the bounded April contradiction queue is now closed, so the shelf no longer depends on an open April recovery claim.
 
 So the best bounded reading is:
 
-`April 2026 = a real seven-anchor bridge month on disk that keeps Wilkerson routeable after March without pretending to be another dense helix month, but also without claiming audited closure yet`
+`April 2026 = a real nine-anchor bridge month on disk that keeps Wilkerson routeable after March without pretending to be another dense helix month and can now be treated as audited and confirmed complete within the bounded host-lane search`
 
 ## Best next manual-input queue for April
 
@@ -61,16 +68,15 @@ See the bounded audit object at [wilkerson-april-2026-contradiction-audit.md](/C
 
 Current known missing candidates from the bounded host-lane hunt:
 
-- `2026-04-17` `Dialogue Works / Nima` - `Iran Just FULLY Opened the Strait of Hormuz - It's OVER for Trump`
-- `2026-04-28` `Dialogue Works / Nima` - `Trump's Own Advisors Now SPLIT on Iran - Israel's Plan DECIMATED`
+- none inside the bounded April 2026 Wilkerson audit
 
 Month verdict:
 
-`needs contradiction repair`
+`audited and confirmed complete`
 
 ## Limits
 
 - April is materially smaller than March and May.
 - The Shaun Attwood surface is useful but does not create a new canonical host branch.
 - April is still a bridge month, not a shelf-defining month.
-- The contradiction audit shows that thinness and closure are not the same thing.
+- The contradiction audit now shows that thinness and closure are not the same thing, but this bounded month has been closed honestly.

@@ -28,6 +28,9 @@ Use `statecraft/notes/` for bounded interpretive objects such as:
 - bridge notes
 - compact reflections
 - exploratory or partial prose that still belongs to `statecraft/`
+- speaker-derived bounded thematic notes
+- speaker-comparison notes
+- bounded subtheme notes that began inside a speaker shelf but now function as direct prose destinations
 
 The local distinction is:
 
@@ -59,6 +62,10 @@ Machine-constitutional files stay where they already belong:
 
 ## Best Entry Points
 
+- [march-2026-benchmark-note.md](./march-2026-benchmark-note.md) - benchmark note for using March as an early mature Iran-war comparison month rather than a live closure field
+- [march-2026-closure-method-application.md](./march-2026-closure-method-application.md) - routing note for why March is better treated as a mature benchmark month than as a live closure campaign
+- [may-2026-closure-method-application.md](./may-2026-closure-method-application.md) - routing note for applying the April closure method to May and narrowing the live target to Parsi
+- [april-2026-wilkerson-intake-sequence-postmortem.md](./april-2026-wilkerson-intake-sequence-postmortem.md) - compact postmortem on the April Wilkerson closure run, including efficiency judgment and workflow improvements
 - [wilkerson-april-2026-contradiction-audit.md](./wilkerson-april-2026-contradiction-audit.md) - bounded contradiction audit preserving the real April on-disk baseline and the reopened Wilkerson queue
 - [parsi-wilkerson-may-2026-backfill-attention.md](./parsi-wilkerson-may-2026-backfill-attention.md) - bounded archive-and-shelf queue for May 2026 Parsi expansion and Wilkerson contradiction-check work
 - [jiang-ph-civ-correspondence-june-1-2026.md](./jiang-ph-civ-correspondence-june-1-2026.md) - bounded note separating June 1 Jiang claims into existing Predictive History continuity versus sharper extension
@@ -83,6 +90,31 @@ Most statecraft notes are promoted from:
 
 Promotion to `../essays/` happens when the bounded object starts carrying a broader stand-alone claim rather than one local statecraft seam.
 
+## Speaker-Derived Note Promotion
+
+`statecraft/notes/` is also the canonical home for speaker-derived bounded prose
+once the file's main job is no longer speaker retrieval but preservation of a
+reusable analytical object.
+
+Common shapes include:
+
+- speaker-owned bounded thematic notes such as `barnes-on-ai`
+- speaker-comparison notes such as `barnes-vs-jiang-on-ai`
+- bounded subtheme notes such as `parsi-on-blockade-failure`
+
+Decision rule:
+
+- if the file still mainly helps the operator understand or enter a speaker shelf, keep it in `statecraft/civ-lens/`
+- if it can now be opened directly as a bounded prose destination, its canonical home is `statecraft/notes/`
+
+Pointer law:
+
+- speaker shelves may point to speaker-derived notes
+- once a speaker-derived note has a canonical home in `statecraft/notes/`, the originating shelf should not retain parallel full-authority prose copies
+
+This is a future placement law, not an automatic requirement that all existing
+speaker-local prose be moved immediately.
+
 ## Existing Likely Candidates
 
 Some existing statecraft prose surfaces may later migrate here in bounded cleanup passes:
@@ -97,6 +129,10 @@ This first rollout is forward-only. Do not move existing prose here automaticall
 
 ### Shelf-Native
 
+- [march-2026-benchmark-note.md](./march-2026-benchmark-note.md) - shelf-native benchmark note
+- [march-2026-closure-method-application.md](./march-2026-closure-method-application.md) - shelf-native closure-routing note
+- [may-2026-closure-method-application.md](./may-2026-closure-method-application.md) - shelf-native closure-routing note
+- [april-2026-wilkerson-intake-sequence-postmortem.md](./april-2026-wilkerson-intake-sequence-postmortem.md) - shelf-native postmortem note
 - [wilkerson-april-2026-contradiction-audit.md](./wilkerson-april-2026-contradiction-audit.md) - shelf-native contradiction-audit note
 - [parsi-wilkerson-may-2026-backfill-attention.md](./parsi-wilkerson-may-2026-backfill-attention.md) - shelf-native backfill-attention and contradiction-check queue
 - [jiang-ph-civ-correspondence-june-1-2026.md](./jiang-ph-civ-correspondence-june-1-2026.md) - shelf-native correspondence note
@@ -131,4 +167,5 @@ This first rollout is forward-only. Do not move existing prose here automaticall
 - Return to [statecraft front door](../README.md) for the domain machine.
 - Return to [statecraft kernel](../statecraft.md) for the full continuity surface.
 - Return to [statecraft essays](../essays/README.md) when the output has become more synthesized and stand-alone.
+- Return to [statecraft civ-lens](../civ-lens/README.md) when the real job is speaker continuity and retrieval rather than bounded prose placement.
 - Return to [shared prose index](/C:/dev/strategy-codex/docs/prose-index.md) when the real question is prose class rather than file location.

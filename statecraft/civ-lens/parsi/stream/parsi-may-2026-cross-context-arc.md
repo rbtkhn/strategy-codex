@@ -8,7 +8,8 @@ Current audit state:
 
 - May 2026 is coherent on disk, but still looks thinner than the month's diplomatic importance suggests
 - the live backfill/proof surface is [Parsi + Wilkerson May 2026 backfill attention](/C:/dev/strategy-codex/statecraft/notes/parsi-wilkerson-may-2026-backfill-attention.md)
-- the most likely true gap is authored mid-May architecture material rather than a missing flood of host appearances
+- the early-May Duran title drift has resolved back into the already-landed May 6 interview file
+- the most likely true remaining gap is one authored late-May architecture cross-post rather than a missing flood of host appearances
 
 ## Why May 2026 matters
 
@@ -24,7 +25,7 @@ Late-May Mario Nawfal pressure adds a fast-turn interview surface where Parsi st
 
 The best bounded read right now is:
 
-`May 2026 = a real blockade-to-architecture month whose archive may still be missing one important authored middle piece`
+`May 2026 = a real blockade-to-architecture month whose archive may still be missing one important authored late-May bridge piece`
 
 So this month should not yet be read either as:
 
@@ -35,7 +36,7 @@ It is better read as:
 
 - substantively important
 - coherent in the current archive
-- still open to one or two bounded expansion candidates
+- now open to one bounded authored expansion candidate
 
 ## Best entry surfaces
 

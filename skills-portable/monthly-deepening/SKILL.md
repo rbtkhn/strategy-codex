@@ -1,8 +1,8 @@
 ---
 name: monthly-deepening
-description: Handle bounded month-by-month deepening for speaker or stream corpora. Use when the operator wants a month inventory, missing-list, URL recovery pass, full-transcript vs stub classification, high-value target selection, month-shelf extension, or a commit limited to one month slice. Do not use for one-off transcript intake, direct YouTube caption fetch, or broad cross-month synthesis. Transcript uploads from the operator imply month-slice materialization unless the operator explicitly says inventory-only, classification-only, or do-not-write.
+description: Handle bounded month-by-month deepening for speaker or stream corpora. Use when the operator wants a month inventory, missing-list, URL recovery pass, full-transcript vs stub classification, high-value target selection, month-shelf extension, month-route judgment, or a commit limited to one month slice. Do not use for one-off transcript intake, direct YouTube caption fetch, or broad cross-month synthesis. Transcript uploads from the operator imply month-slice materialization unless the operator explicitly says inventory-only, classification-only, or do-not-write.
 portable: true
-version: 0.1.0
+version: 0.2.0
 tags:
   - operator
   - strategy
@@ -16,7 +16,7 @@ tags:
 
 ## Overview
 
-Use this workflow to keep monthly deepening truthful and request-shaped. The core rule is simple: first determine whether the user wants a report, a recovery pass, a classification pass, a shelf-building pass, or a commit. Do not jump from one mode to another without explicit user intent.
+Use this workflow to keep monthly deepening truthful and request-shaped. The core rule is simple: first determine whether the user wants a report, a recovery pass, a classification pass, a shelf-building pass, or a commit. Then determine what kind of month object the evidence actually supports. Do not jump from one mode to another without explicit user intent, and do not force a month into the wrong shelf class just because it feels important.
 
 ## Operator Transcript Convention
 
@@ -57,6 +57,24 @@ If the user asked for URLs or a list, stay in `inventory`, `missing`, `url-recov
 Exception:
 
 - if the operator has pasted or uploaded a transcript body, classify the surrounding request normally but treat the transcript itself as materialization work unless the operator explicitly restricted the turn to reporting only
+
+### 1a. Route the month object before writing shelf prose
+
+When the request moves beyond list-making into month interpretation or shelf-building, choose exactly one month route first:
+
+- `closure-audit`: use when the month has a finite contradiction queue or a bounded completeness claim that can be falsified, repaired, or closed
+- `watchlist`: use when the real question is archive representation, thinness, or backfill priority rather than closure
+- `benchmark`: use when the month is already dense and coherent enough to preserve for later comparison, not to reopen by default
+
+Choose the route from local evidence, not from intuition about which month feels important.
+
+Short rules:
+
+- if the month has a small, URL-backed candidate queue and an unsafe completeness claim, choose `closure-audit`
+- if the month mainly needs present/thin/backfill judgment, choose `watchlist`
+- if the month already has stable meaning across existing shelves and the best use is later comparison, choose `benchmark`
+
+Do not hybridize these by default. If the month wants two jobs, pick the dominant one and name the other as a later promotion or companion note.
 
 ### 2. Build the month inventory from local evidence
 
@@ -113,11 +131,37 @@ When the user explicitly asks to deepen a month into repo artifacts:
 
 - derive the month shape from actual captures, not symmetry
 - assign an honest month status such as `prehistory setup`, `hinge`, `thin month`, or similar
+- decide whether the month artifact is a `closure-audit`, `watchlist`, or `benchmark` before drafting
 - wire only the minimum supporting surfaces needed
 - keep chronology ownership with the native stream or raw-input layer
 - verify links locally before presenting the result
 
 Materializing transcript uploads is not the same as shelf-building. Transcript materialization should happen by default under the operator transcript convention even when the user did not ask for a shelf.
+
+### 5a. Use the correct month output contract
+
+If the month artifact is a `closure-audit`, it should usually include:
+
+- current on-disk baseline
+- contradiction or candidate queue
+- candidate status with direct URLs when known
+- explicit month verdict such as `audited and confirmed complete`, `needs contradiction repair`, or `needs backfill attention`
+
+If the month artifact is a `watchlist`, it should usually include:
+
+- exact month window
+- clear statement that the judgment is about local archive coverage
+- three buckets such as `healthy coverage`, `thin but acceptable`, and `needs backfill attention`
+- any label-normalization caveat that materially affects counting
+
+If the month artifact is a `benchmark`, it should usually include:
+
+- what the month is at month scale
+- which existing speaker or bridge surfaces make the month reusable
+- what the month is good for in later comparisons
+- what the month still needs without reopening a capture campaign
+
+Do not let a `benchmark` quietly acquire a missing-candidate queue, and do not let a `watchlist` pretend it has already earned closure.
 
 ### 6. Commit bounded slices only
 
@@ -134,6 +178,8 @@ Do not:
 
 - convert a URL request into shelf-building
 - convert a classification request into a commit
+- convert a benchmark month into a backfill campaign without a real finite queue
+- convert a watchlist month into a closure claim without a bounded contradiction object
 - imply there are `5` missing items when local evidence only proves `1` or `2`
 - flatten `present but URL missing` into `missing`
 - overstate confidence about dates or watch IDs

@@ -24,6 +24,7 @@ Portable skills should reflect the same core boundary rules that govern the repo
 - **No duplicate-lane sprawl.** When a similar lane, note, or asset already exists, the skill should prefer reuse, extension, or explicit comparison over silently spawning a near-duplicate.
 - **Human pass stays load-bearing.** Approval, publication, execution, and canonization remain human acts even when the skill produces polished text quickly.
 - **Surface class must stay explicit.** Archive-grounded `daily` and `monthly` synthesis skills may stay visibly speaker-shelf based and quote-bearing; synthetic intelligence-essay skills should use the archive as substrate rather than visible scaffolding.
+- **Month route must stay explicit.** Month-scale work should choose whether the artifact is a `closure-audit`, `watchlist`, or `benchmark` before drafting; do not let one month surface silently perform all three jobs at once.
 
 See [skills-portable-drift-audit-2026-05-22.md](skills-portable-drift-audit-2026-05-22.md) for the current inventory, drift analysis, and before/after examples.
 
