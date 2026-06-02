@@ -24,11 +24,16 @@ for path in (REPO_ROOT / "scripts",):
 from contradiction_digest import default_digest_path, generate_contradiction_digest, write_artifact_drafts
 from dream_civmem_echoes import CIVMEM_DISCLAIMER, compute_civmem_echoes
 from dream_coffee_rollup import build_last_coffee_echo, rollup_coffee_24h, rollup_conductor_24h
-from dream_execution_paths import build_execution_paths, format_tomorrow_inherits_line
+from dream_execution_paths import (
+    build_execution_paths,
+    build_learning_stage,
+    format_tomorrow_inherits_line,
+)
 from dream_innermost_loop_hint import build_frontier_source_hint, format_frontier_source_followup
 from fork_config import load_fork_config
 from emit_pipeline_event import append_pipeline_event
 from log_cadence_event import append_cadence_event, resolve_cursor_model
+from cadence_learning import log_dream_stage
 from harness_warmup import _pending_candidates
 from repo_io import DEFAULT_USER_ID, profile_dir, resolve_self_memory_path
 
@@ -497,6 +502,16 @@ def _write_last_dream_handoff(
             handoff["execution_path_suggestion_reason"] = summary["execution_path_suggestion_reason"]
         if summary.get("tomorrow_inherits"):
             handoff["tomorrow_inherits"] = summary["tomorrow_inherits"]
+    for key in (
+        "learning_action_recommendation",
+        "learning_action_reason",
+        "carry_forward_object",
+        "carry_forward_test",
+        "confidence_class",
+        "bias_strength",
+    ):
+        if summary.get(key):
+            handoff[key] = summary[key]
     if summary.get("civmem_echoes") is not None:
         handoff["civmem_echoes"] = summary["civmem_echoes"]
     if summary.get("civmem_disclaimer"):
@@ -600,6 +615,16 @@ def _write_night_handoff(
     if summary.get("execution_paths") is not None:
         payload["execution_paths"] = summary["execution_paths"]
         payload["suggested_execution_path_index"] = summary.get("suggested_execution_path_index", 0)
+    for key in (
+        "learning_action_recommendation",
+        "learning_action_reason",
+        "carry_forward_object",
+        "carry_forward_test",
+        "confidence_class",
+        "bias_strength",
+    ):
+        if summary.get(key):
+            payload[key] = summary[key]
 
     artifact_drafts = summary.get("artifact_drafts") or []
     digest = summary.get("contradiction_digest") or {}
@@ -814,6 +839,12 @@ def run_auto_dream(
         raw_max = fork_cfg.get("max_pending_candidates")
         max_pending = int(raw_max) if raw_max is not None else None
 
+        try:
+            from audit_cadence_rhythm import compute_coffee_recursion_summary
+        except ImportError:
+            from scripts.audit_cadence_rhythm import compute_coffee_recursion_summary  # type: ignore
+        coffee_recursion = compute_coffee_recursion_summary(user_id, days=14)
+
         paths, sugg_idx, sugg_reason = build_execution_paths(
             user_id=user_id,
             now_utc=now_utc,
@@ -824,6 +855,7 @@ def run_auto_dream(
             coffee_count_24h=int(coffee_rollup.get("count") or 0),
             gate_pending_count=gate_pending_count,
             max_pending_candidates=max_pending,
+            coffee_recursion=coffee_recursion,
         )
         civ_echoes, civ_index_missing, civ_suppressed = _apply_civmem_budget(
             digest=dc,
@@ -832,13 +864,29 @@ def run_auto_dream(
             governance_ok=governance_ok,
             dream_budget=dream_budget,
         )
-        tomorrow_line = format_tomorrow_inherits_line(paths, sugg_idx, sugg_reason)
+        learning_stage = build_learning_stage(
+            paths=paths,
+            suggested_index=sugg_idx,
+            suggestion_reason=sugg_reason,
+            coffee_recursion=coffee_recursion,
+            integrity_ok=integrity_ok,
+            governance_ok=governance_ok,
+            extra_followups=extra_followups,
+        )
+        tomorrow_line = format_tomorrow_inherits_line(
+            paths,
+            sugg_idx,
+            sugg_reason,
+            carry_forward_object=learning_stage["carry_forward_object"],
+            carry_forward_test=learning_stage["carry_forward_test"],
+        )
         summary["coffee_rollup_24h"] = coffee_rollup
         summary["conductor_rollup_24h"] = conductor_rollup
         summary["execution_paths"] = paths
         summary["suggested_execution_path_index"] = sugg_idx
         summary["execution_path_suggestion_reason"] = sugg_reason
         summary["tomorrow_inherits"] = tomorrow_line
+        summary.update(learning_stage)
         summary["civmem_echoes"] = civ_echoes
         summary["civmem_disclaimer"] = CIVMEM_DISCLAIMER
         summary["civmem_index_missing"] = civ_index_missing
@@ -961,6 +1009,11 @@ def run_auto_dream(
         summary["handoff_path"] = str(handoff_path)
         summary["night_handoff_path"] = str(night_handoff_path)
         summary["agent_surface"] = {"cursor_model": cm}
+        try:
+            handoff_json = json.loads(Path(handoff_path).read_text(encoding="utf-8"))
+            log_dream_stage(user_id, handoff=handoff_json)
+        except Exception:
+            pass
 
         digest = summary.get("contradiction_digest") or {}
         counts = digest.get("relation_counts") or {}

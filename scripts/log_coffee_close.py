@@ -17,6 +17,7 @@ if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
 
 from log_cadence_event import KNOWN_CONDUCTOR_SLUGS, append_cadence_event
+from cadence_learning import log_coffee_resolution_from_close
 from repo_io import DEFAULT_PROFILE_ID
 
 PICKED_VALUES = frozenset({"A", "B", "C", "D", "conductor"})
@@ -134,6 +135,24 @@ def main() -> int:
         cursor_model=(args.cursor_model.strip() if args.cursor_model else None),
         model_tier=args.model_tier,
     )
+    try:
+        artifact_tokens = list(args.artifact or [])
+        if args.artifacts:
+            artifact_tokens.extend(part.strip() for part in str(args.artifacts).split(",") if part.strip())
+        loop_tokens = list(args.loop or [])
+        if args.loops:
+            loop_tokens.extend(part.strip() for part in str(args.loops).split(",") if part.strip())
+        log_coffee_resolution_from_close(
+            args.user.strip(),
+            picked=args.picked,
+            outcome=args.outcome,
+            readiness=args.readiness,
+            artifacts=[item for item in artifact_tokens if str(item).strip()],
+            loops=[item for item in loop_tokens if str(item).strip()],
+            next_slug=args.next_slug,
+        )
+    except Exception:
+        pass
     print(path.relative_to(Path(__file__).resolve().parent.parent))
     return 0
 

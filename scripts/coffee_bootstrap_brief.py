@@ -33,10 +33,10 @@ except ImportError:
 
 
 HUB_LABELS = {
-    "A": "Steward",
-    "B": "Engineer",
-    "C": "Statecraft",
-    "D": "Singularity",
+    "A": "Confirm",
+    "B": "Test",
+    "C": "Deepen",
+    "D": "Reframe",
 }
 
 

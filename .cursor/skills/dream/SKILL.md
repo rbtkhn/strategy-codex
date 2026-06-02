@@ -48,7 +48,7 @@ But the default pattern is:
 Optional but high-leverage before leaving the dream thread after a **successful** `auto_dream.py` (writes `last-dream.json`):
 
 1. **Primary** â€” **one** sentence for tomorrow: mirror **`tomorrow_inherits`** from `last-dream.json` (or the same idea in plain language). That field is the main human-facing hint; do not stack it with unrelated â€œdo nextâ€ lists.
-2. **Secondary** â€” the coffee menu letter (**A** Steward / **B** Engineer / **C** Historian) from `execution_paths[suggested_execution_path_index]` only if it **adds** something beyond the inherits line, or if you need to align with **`Dream â†’ coffee menu:`** on the next **`coffee`** Step 1 (`operator_daily_warmup.py`). Dream paths do **not** emit **D** / **E** â€” those are operator picks on the full hub. If the letter and `tomorrow_inherits` **conflict**, say so in **one** clarifying sentenceâ€”do not present three parallel â€œtomorrowâ€ signals without priority.
+2. **Secondary** â€” the coffee learning-action hint (**A** Confirm / **B** Test / **C** Deepen / **D** Reframe) from `execution_paths[suggested_execution_path_index]` only if it **adds** something beyond the inherits line, or if you need to align with **`Dream -> coffee action:`** on the next **`coffee`** Step 1 (`operator_daily_warmup.py`). If the action hint and `tomorrow_inherits` **conflict**, say so in **one** clarifying sentenceâ€”do not present three parallel â€œtomorrowâ€ signals without priority.
 
 If **`auto_dream.py --strict`** halted, **`last-dream.json` was not updated** â€” yesterdayâ€™s file may still be on disk; do not treat the handoff as fresh until the next successful dream; fix integrity/governance first (see **When `--strict` halts** below).
 
@@ -138,7 +138,7 @@ Use a **short default brief** every time. Add **Details** only when load-bearing
 
 ### Primary tomorrow hint
 
-- Prefer **one** line from **`tomorrow_inherits`** (script stdout / `last-dream.json`) when present. The coffee **execution path** letter (**A** Steward / **B** Engineer / **C** Historian) and **`Dream â†’ coffee menu:`** are **derived** hintsâ€”see **Five-second closeout**. Do **not** stack **`tomorrow_inherits` + path letter + civ-mem + rollup** as separate â€œdo tomorrowâ€ orders without stating priority; **tomorrow_inherits wins** unless you note a direct conflict.
+- Prefer **one** line from **`tomorrow_inherits`** (script stdout / `last-dream.json`) when present. The coffee **learning-action** hint (**A** Confirm / **B** Test / **C** Deepen / **D** Reframe) and **`Dream -> coffee action:`** are **derived** hintsâ€”see **Five-second closeout**. Do **not** stack **`tomorrow_inherits` + action hint + civ-mem + rollup** as separate â€œdo tomorrowâ€ orders without stating priority; **tomorrow_inherits wins** unless you note a direct conflict.
 
 ### Details â€” expand when load-bearing
 
@@ -314,7 +314,7 @@ Usually one `dream` session per day is normal.
 
 | Time | Ritual | What it does |
 |------|--------|-------------|
-| **Morning** | `coffee` (work-start) | Read dream handoff, grounding scripts, fixed coffee menu (**Aâ€“E**) |
+| **Morning** | `coffee` (work-start) | Read dream handoff, grounding scripts, fixed coffee menu (**A-D**) |
 | **During day** | `coffee` (reorientation) | Re-sip as needed â€” many per day is normal |
 | **During day** | `conductor` / master name (Symphony / execution emphasis) | Master pick -> orientation -> Conductor Action Menu; `coffee_pick` + optional `coffee_conductor_outcome` - see [CONDUCTOR-PASS.md](../../../docs/skill-work/work-coffee/CONDUCTOR-PASS.md) |
 | **End of day** | `dream` | Memory normalization, integrity, governance, contradiction digest; optional strategy-notebook **FYI** + **Cici notebook** day file generation (see Â§Â§ Strategy notebook, Cici notebook) |

@@ -171,7 +171,7 @@ def test_compute_civmem_echoes_index_missing(monkeypatch: pytest.MonkeyPatch) ->
     assert echoes == []
 
 
-def test_build_execution_paths_three_and_suggested() -> None:
+def test_build_execution_paths_heavy_reentry_prefers_reframe() -> None:
     now = datetime(2026, 1, 1, 22, 0, tzinfo=timezone.utc)
     paths, idx, reason = build_execution_paths(
         user_id="grace-mar",
@@ -182,12 +182,9 @@ def test_build_execution_paths_three_and_suggested() -> None:
         contradiction_count=0,
         coffee_count_24h=10,
     )
-    assert len(paths) == 3
-    assert paths[0]["id"] == "today_field"
-    assert "reentry_heavy" in paths[0]["signals_used"]
-    # tomorrow Jan 2 -> tm_yday 2 -> (2-1)%3 == 1
-    assert idx == 1
-    assert reason == "calendar_mod3"
+    assert [p["id"] for p in paths] == ["confirm", "test", "deepen", "reframe"]
+    assert idx == 3
+    assert reason == "reentry_heavy"
 
 
 def test_build_execution_paths_integrity_fail() -> None:
@@ -200,13 +197,11 @@ def test_build_execution_paths_integrity_fail() -> None:
         contradiction_count=0,
         coffee_count_24h=0,
     )
-    build_path = next(p for p in paths if p["id"] == "build")
-    assert "integrity_fail" in build_path["signals_used"]
-    assert idx == 2
-    assert reason == "integrity_or_governance_fail"
+    assert idx == 1
+    assert reason == "integrity_or_governance_pressure"
 
 
-def test_build_execution_paths_gate_backlog_forces_steward() -> None:
+def test_build_execution_paths_gate_backlog_forces_reframe() -> None:
     paths, idx, reason = build_execution_paths(
         user_id="grace-mar",
         now_utc=datetime(2026, 1, 1, 12, 0, tzinfo=timezone.utc),
@@ -218,8 +213,8 @@ def test_build_execution_paths_gate_backlog_forces_steward() -> None:
         gate_pending_count=20,
         max_pending_candidates=12,
     )
-    assert paths[2]["id"] == "steward"
-    assert idx == 2
+    assert paths[3]["id"] == "reframe"
+    assert idx == 3
     assert reason == "gate_backlog"
 
 

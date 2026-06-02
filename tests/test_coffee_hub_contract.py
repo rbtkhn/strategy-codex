@@ -23,10 +23,10 @@ def test_coffee_completion_requires_hub_menu_after_step_one() -> None:
 def test_coffee_hub_canonical_lines_are_a_through_d_only() -> None:
     text = COFFEE_SKILL.read_text(encoding="utf-8")
 
-    assert "A. Steward" in text
-    assert "B. Engineer" in text
-    assert "C. Statecraft" in text
-    assert "D. Singularity" in text
+    assert "A. Confirm" in text
+    assert "B. Test" in text
+    assert "C. Deepen" in text
+    assert "D. Reframe" in text
     assert "Conductor is standalone" in text
     assert "E. Conductor" not in text
 
@@ -36,9 +36,9 @@ def test_assess_load_annotations_do_not_reintroduce_hub_e() -> None:
     assert set(result["option_weights"]) == {"A", "B", "C", "D"}
 
     menu = format_annotated_menu(result)
-    assert "**A. Steward**" in menu
-    assert "**B. Engineer**" in menu
-    assert "**C. Statecraft**" in menu
-    assert "**D. Singularity**" in menu
+    assert "**A. Confirm**" in menu
+    assert "**B. Test**" in menu
+    assert "**C. Deepen**" in menu
+    assert "**D. Reframe**" in menu
     assert "**E." not in menu
     assert "Conductor" not in menu

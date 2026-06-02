@@ -35,6 +35,7 @@ from __future__ import annotations
 import argparse
 import subprocess
 import sys
+from datetime import datetime, timezone
 from pathlib import Path
 
 _REPO = Path(__file__).resolve().parent.parent
@@ -243,20 +244,6 @@ def main() -> int:
             pass
 
     try:
-        from coffee_lane_next_hints import format_lane_next_hints
-        if show_details:
-            print(f"\n{'=' * 60}\n$ Lane context (for hub B / D - Engineer & Singularity hints)\n{'=' * 60}\n", flush=True)
-            print(format_lane_next_hints(_REPO))
-    except Exception:
-        try:
-            from scripts.coffee_lane_next_hints import format_lane_next_hints
-            if show_details:
-                print(f"\n{'=' * 60}\n$ Lane context (for hub B / D - Engineer & Singularity hints)\n{'=' * 60}\n", flush=True)
-                print(format_lane_next_hints(_REPO))
-        except Exception:
-            pass
-
-    try:
         from build_memory_observability import build_report, format_observability_one_liner
         memory_report = build_report(user)
         if show_details and memory_report.get("overall_status") != "ok":
@@ -300,6 +287,8 @@ def main() -> int:
 
     try:
         from log_cadence_event import append_cadence_event
+        from cadence_learning import log_coffee_choice_start
+        coffee_id = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
         append_cadence_event(
             "coffee",
             user,
@@ -307,6 +296,8 @@ def main() -> int:
             mode=args.mode,
             cursor_model=args.cursor_model.strip() if args.cursor_model else None,
         )
+        if "load_result" in locals():
+            log_coffee_choice_start(user, coffee_id=coffee_id, load_result=load_result)
     except Exception:
         pass
 

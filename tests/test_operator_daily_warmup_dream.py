@@ -191,31 +191,32 @@ def test_compress_lines_truncates() -> None:
 def test_coffee_menu_hint_maps_paths() -> None:
     d = {
         "execution_paths": [
-            {"id": "today_field", "title": "Daily Brief / field"},
-            {"id": "build", "title": "Build"},
-            {"id": "steward", "title": "Steward"},
+            {"id": "confirm", "title": "Confirm"},
+            {"id": "test", "title": "Test"},
+            {"id": "deepen", "title": "Deepen"},
+            {"id": "reframe", "title": "Reframe"},
         ],
-        "suggested_execution_path_index": 2,
-        "execution_path_suggestion_reason": "gate_backlog",
+        "suggested_execution_path_index": 1,
+        "execution_path_suggestion_reason": "repeated_unresolved_loop",
     }
     hint = coffee_menu_hint_from_dream(d)
     assert hint is not None
-    assert "**A - Steward**" in hint
-    assert "gate backlog" in hint
+    assert "**B - Test**" in hint
+    assert "repeated unresolved loop" in hint
 
 
 def test_coffee_menu_hint_unknown_id_falls_back_to_index() -> None:
     d = {
         "execution_paths": [
-            {"id": "today_field", "title": "T"},
-            {"id": "build", "title": "B"},
+            {"id": "unknown", "title": "T"},
+            {"id": "confirm", "title": "B"},
         ],
         "suggested_execution_path_index": 1,
-        "execution_path_suggestion_reason": "calendar_mod3",
+        "execution_path_suggestion_reason": "validated_follow_through",
     }
     hint = coffee_menu_hint_from_dream(d)
     assert hint is not None
-    assert "**B - Engineer**" in hint
+    assert "**A - Confirm**" in hint
 
 
 def test_coffee_menu_hint_returns_none_without_paths() -> None:

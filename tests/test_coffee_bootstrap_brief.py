@@ -69,7 +69,7 @@ _(Append below this line.)_
         now=datetime(2026, 5, 3, 0, 0, tzinfo=timezone.utc),
     )
 
-    assert "coffee work-start -> dream pass" in text
+    assert "we used coffee in work-start mode -> we already gave the day a consolidation pass" in text
     assert "No coffee_close receipt yet" in text
 
 
@@ -89,8 +89,8 @@ def test_bootstrap_brief_formats_recommendation_without_conductor_hub_line() -> 
                 "source": "coffee_close",
             },
             "recommended_hub": "A",
-            "recommended_label": "Steward",
-            "reason": "last coffee close is ship_ready - Steward can review and ship",
+            "recommended_label": "Confirm",
+            "reason": "validated follow-through pressure from a still-live ship-ready slice",
         }
     )
 
@@ -99,7 +99,7 @@ def test_bootstrap_brief_formats_recommendation_without_conductor_hub_line() -> 
     assert "Git credentials: origin=https; gh=ok" in text
     assert "Git state: main...origin/main [ahead 1]; dirty=2; untracked=1" in text
     assert "Pytest: available (pytest 9.0.3)" in text
-    assert "Recommended hub: A. Steward" in text
+    assert "Recommended hub: A. Confirm" in text
     assert "Conductor continuity: kleiber closed" in text
     assert "E. Conductor" not in text
 
@@ -194,7 +194,7 @@ def test_recommendation_uses_coffee_close_readiness() -> None:
     )
     assert (rec, reason) == (
         "A",
-        "last coffee close is ship_ready - Steward can review and ship",
+        "validated follow-through pressure from a still-live ship-ready slice",
     )
 
     rec, reason = _pick_recommendation(
@@ -203,8 +203,8 @@ def test_recommendation_uses_coffee_close_readiness() -> None:
         [],
         {"last_close": {"readiness": "execution_ready", "artifacts": ["scripts/x.py"]}},
     )
-    assert rec == "B"
-    assert "code/test artifacts" in reason
+    assert rec == "A"
+    assert "execution-ready" in reason
 
     rec, reason = _pick_recommendation(
         "light",
@@ -222,7 +222,7 @@ def test_recommendation_uses_coffee_close_readiness() -> None:
         {"last_close": {"readiness": "blocked", "artifacts": ["scripts/x.py"]}},
     )
     assert rec == "B"
-    assert "blocked on code/test artifacts" in reason
+    assert "tested before another push" in reason
 
 
 def test_operator_coffee_exposes_first_command_mode() -> None:

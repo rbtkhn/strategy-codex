@@ -32,6 +32,8 @@ def _artifacts_overlap_changed_paths(
     artifacts: list[str] | tuple[str, ...] | None,
     changed_paths: list[str] | tuple[str, ...] | None,
 ) -> bool:
+    if changed_paths is None:
+        return bool(artifacts)
     if not artifacts or not changed_paths:
         return False
     normalized_changes = tuple(_normalize_repo_path(path) for path in changed_paths if str(path).strip())

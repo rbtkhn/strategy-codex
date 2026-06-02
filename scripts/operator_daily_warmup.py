@@ -254,6 +254,11 @@ def _format_last_dream_block(
         if tomorrow:
             lines.append("")
             lines.append(f"- **Tomorrow inherits:** {tomorrow}")
+        learning_action = str(dream.get("learning_action_recommendation") or "").strip()
+        if learning_action:
+            bias = str(dream.get("bias_strength") or "soft").strip()
+            reason = str(dream.get("learning_action_reason") or "").strip()
+            lines.append(f"- **Learning action:** {learning_action} ({bias})" + (f" - {reason}" if reason else ""))
 
         echoes = dream.get("civmem_echoes") or []
         disc = str(dream.get("civmem_disclaimer") or "").strip()
@@ -342,6 +347,14 @@ def _format_last_dream_block(
             body.append(
                 "- Tomorrow inherits: see `last-dream.json` or run warmup with `--verbose-dream`."
             )
+    learning_action = str(dream.get("learning_action_recommendation") or "").strip()
+    if learning_action:
+        bias = str(dream.get("bias_strength") or "soft").strip()
+        reason = str(dream.get("learning_action_reason") or "").strip()
+        body.append(
+            f"- Learning action: {learning_action} ({bias})"
+            + (f" - {reason[:140]}{'...' if len(reason) > 140 else ''}" if reason else "")
+        )
     if show_civ_mem:
         suppressed = str(dream.get("civmem_suppressed_reason") or "").strip()
         if suppressed:
@@ -550,7 +563,7 @@ def build_operator_daily_warmup(
                 [
                     "## Strategy return (explicit route)",
                     "",
-                    f"- Strategy return skipped: {exc.__class__.__name__}; strategy return remains manual/read-only. Coffee C is Statecraft.",
+                    f"- Strategy return skipped: {exc.__class__.__name__}; strategy return remains manual/read-only. Coffee now chooses learning actions first, then downstream territory.",
                     "",
                 ]
             )
@@ -559,7 +572,7 @@ def build_operator_daily_warmup(
             [
                 "## Strategy return (explicit route)",
                 "",
-                "- Strategy return unavailable: helper import failed; strategy return remains manual/read-only. Coffee C is Statecraft.",
+                "- Strategy return unavailable: helper import failed; strategy return remains manual/read-only. Coffee now chooses learning actions first, then downstream territory.",
                 "",
             ]
         )
@@ -626,7 +639,7 @@ def build_operator_daily_warmup(
             "",
             "## Coffee - KY-4 polling + prediction markets (lazy)",
             "",
-            "- With **coffee** (legacy `hey`): **Polymarket** + independent poll **web search** + Massie X run **only** after an explicit same-message request, per `docs/skill-work/work-politics/polling-and-markets.md` - **not** in Step 1 and not Coffee C Statecraft by default. This script does not fetch markets; follow the skill after this command.",
+            "- With **coffee** (legacy `hey`): **Polymarket** + independent poll **web search** + Massie X run **only** after an explicit same-message request, per `docs/skill-work/work-politics/polling-and-markets.md` - **not** in Step 1 and not a default coffee action. This script does not fetch markets; follow the skill after this command.",
             "",
             "## Guardrail",
             "",
