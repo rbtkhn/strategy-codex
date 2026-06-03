@@ -33,6 +33,9 @@ Speaker-shelf carveout:
 - speaker-derived bounded prose should route to `notes/` once it becomes reusable beyond shelf support
 - speaker-derived thesis-bearing prose should route to `essays/`
 
+Short boundary rule: `source-lattice` governs retrieval order; prose-index
+doctrine governs prose-class placement.
+
 ## Quick Placement Rule
 
 Use this order:
