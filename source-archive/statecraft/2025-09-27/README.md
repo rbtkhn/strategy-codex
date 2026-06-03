@@ -4,22 +4,22 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Stats
 
-- Source files: `1`
-- Type mix: `transcript` (1)
-- Distinct channels/shows: `1`
-- Distinct hosts: `1`
-- Distinct guests: `1`
-- Distinct threads: `1`
+- Source files: `2`
+- Type mix: `transcript` (2)
+- Distinct channels/shows: `2`
+- Distinct hosts: `2`
+- Distinct guests: `2`
+- Distinct threads: `2`
 
 ## Channel / Show Rollup
 
-- `Glenn Diesen` (1)
+- `Glenn Diesen` (1), `The Duran` (1)
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Glenn Diesen` (1)
-- Guests: `Jeffrey Sachs` (1)
-- Threads: `diesen` (1)
+- Hosts: `Alex Christoforou` (1), `Glenn Diesen` (1)
+- Guests: `Alexander Mercouris` (1), `Jeffrey Sachs` (1)
+- Threads: `diesen` (1), `mercouris` (1)
 
 ## Filename Family Fallbacks
 
@@ -27,4 +27,5 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Files
 
+- `transcript-duran-mercouris-long-range-missiles-and-ukraines-last-defense-line-2025-09-27.md`
 - `transcript-glenn-diesen-jeffrey-sachs-nato-warmongers-and-the-world-on-the-edge-of-war-2025-09-27.md`
