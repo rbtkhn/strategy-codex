@@ -1,16 +1,16 @@
 ---
-name: last30days
-preferred_activation: last30days
-description: Research a recent topic with last-30-days discipline, source-class routing, provenance, uncertainty labels, and stage-only governance boundaries.
+name: "last30days"
+preferred_activation: "last30days"
+description: "Research a recent topic with last-30-days discipline, source-class routing, provenance, uncertainty labels, and stage-only governance boundaries."
 portable: true
-version: 1.0.0
+version: "1.0.0"
 tags:
-- research
-- strategy
-- provenance
-- governance
-portable_source: skills-portable/last30days/SKILL.md
-synced_by: sync_portable_skills.py
+  - "research"
+  - "strategy"
+  - "provenance"
+  - "governance"
+portable_source: "skills-portable/last30days/SKILL.md"
+synced_by: "sync_portable_skills.py"
 ---
 # Last 30 Days Research
 
@@ -88,9 +88,9 @@ Use this shape by default:
 <none / operator-requested review artifact prepared / operator-requested candidate draft prepared>
 ```
 
-## Strategy-Codex Default
+## Strategy-Notebook Default
 
-When the query is strategy-codex work, use **frontier scan for today's inbox** as the default posture.
+When the query is strategy-notebook work, use **frontier scan for today's inbox** as the default posture.
 
 - Default destination: one optional inbox-ready line, not a page or thread edit.
 - Default output: short brief plus provenance log.
@@ -123,7 +123,7 @@ Suggested one-line shape:
 
 ## Cursor / grace-mar instance
 
-Grace-Mar paths and strategy-codex routing for `last30days`.
+Grace-Mar paths and strategy-notebook routing for `last30days`.
 
 | Topic | Path |
 |-------|------|
@@ -135,15 +135,15 @@ Grace-Mar paths and strategy-codex routing for `last30days`.
 | Runtime vs Record | [docs/runtime-vs-record.md](../../../docs/runtime-vs-record.md) |
 | Runtime complements | [docs/runtime/runtime-complements.md](../../../docs/runtime/runtime-complements.md) |
 | MCP overview | [docs/mcp/mcp-stack-overview.md](../../../docs/mcp/mcp-stack-overview.md) |
-| Strategy-codex hub | [codex/README.md](../../../codex/README.md) |
-| Strategy-codex contract | [codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md](../../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md) |
-| Strategy daily inbox | [codex/daily-strategy-inbox.md](../../../codex/daily-strategy-inbox.md) |
+| Strategy notebook hub | [docs/skill-work/work-strategy/strategy-notebook/README.md](../../../docs/skill-work/work-strategy/strategy-notebook/README.md) |
+| Strategy notebook contract | [docs/skill-work/work-strategy/strategy-notebook/NOTEBOOK-CONTRACT.md](../../../docs/skill-work/work-strategy/strategy-notebook/NOTEBOOK-CONTRACT.md) |
+| Strategy daily inbox | [docs/skill-work/work-strategy/strategy-notebook/daily-strategy-inbox.md](../../../docs/skill-work/work-strategy/strategy-notebook/daily-strategy-inbox.md) |
 | Research skill example | [docs/skills/research/last30days.md](../../../docs/skills/research/last30days.md) |
 
 ## Grace-Mar defaults
 
 - Treat `last30days` as a **WORK methodology skill**. It does not add a CLI, connector, scheduler, API credential flow, or live MCP server.
-- Default strategy-codex integration is **inbox-first**: produce a short brief, provenance log, and one optional paste-ready inbox line.
+- Default strategy-notebook integration is **inbox-first**: produce a short brief, provenance log, and one optional paste-ready inbox line.
 - Do **not** edit the daily inbox, `days.md`, author threads, `strategy-page` blocks, protected Record files, or prompt unless the operator explicitly requests a separate governed edit.
 - Require primary attribution before recommending `thread:<expert_id>`. Otherwise use topical tags, `verify:` tails, or a watch item.
 - Keep weak social/media claims in `Debates / Conflicts` unless the operator explicitly asks for a review stub.
