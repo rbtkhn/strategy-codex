@@ -137,6 +137,29 @@ For each discovered item, separate it into:
 
 Do not silently merge these categories.
 
+### 2b. Preserve participant-lane truth in month work
+
+When month work touches panel or cross-host objects, do not treat the host lane as the only meaningful coverage surface.
+
+Use this rule:
+
+- preserve host-family truth
+- but let recognized substantive participants count toward their own speaker lanes as well
+
+Practical month rule:
+
+- if a file should strengthen more than one recognized speaker lane, prefer explicit `threads:` metadata when the archive object is being created or durably upgraded
+- do not rely on numbered thread forms such as `thread_2` / `thread_3` for new material
+- do not assume that a host field alone exhausts the month-truth value of a panel object
+
+This matters most for:
+
+- recurring Diesen panels
+- Duran / Mercouris plus additional recognized guests
+- Dialogue Works or Napolitano multi-participant objects
+
+If a participant name does not resolve cleanly to a canonical speaker lane, keep the file truthful but do not invent a speculative month-lane claim.
+
 ### 3. Answer the exact question asked
 
 Answer shape rules:

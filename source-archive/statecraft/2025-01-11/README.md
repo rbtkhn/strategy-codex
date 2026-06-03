@@ -9,7 +9,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `3`
 - Distinct hosts: `3`
 - Distinct guests: `3`
-- Distinct threads: `3`
+- Distinct threads: `4`
 
 ## Channel / Show Rollup
 
@@ -19,7 +19,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Nima Alkhorshid` (2), `Alexander Mercouris` (1), `Daniel Davis` (1)
 - Guests: `Deep Dive Intel Briefing` (1), `Russia Crushes Kursk Offensive` (1), `The US Strategy That's Failing Spectacularly | Col. Larry Wilkerson` (1)
-- Threads: `nima` (2), `davis` (1), `mercouris` (1)
+- Threads: `nima` (2), `davis` (1), `mercouris` (1), `wilkerson` (1)
 
 ## Filename Family Fallbacks
 

@@ -6,8 +6,11 @@ from __future__ import annotations
 import re
 from collections import Counter
 from dataclasses import dataclass
+from functools import lru_cache
 from pathlib import Path
 from typing import Any
+
+import build_speaker_routing_queue as speaker_routing
 
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -109,8 +112,13 @@ def parse_simple_frontmatter_block(block: str) -> dict[str, Any]:
     return data
 
 
-def parse_scalar(raw: str) -> str:
+def parse_scalar(raw: str) -> Any:
     text = raw.strip()
+    if text.startswith("[") and text.endswith("]"):
+        inner = text[1:-1].strip()
+        if not inner:
+            return []
+        return [parse_scalar(part) for part in inner.split(",")]
     if len(text) >= 2 and text[0] == text[-1] and text[0] in {'"', "'"}:
         return text[1:-1]
     return text
@@ -151,6 +159,68 @@ def normalize_channel_label(value: str) -> str:
     return text
 
 
+def guest_meta_values(meta: dict[str, Any]) -> tuple[str, ...]:
+    out: list[str] = []
+    for key in ("guest", "guests", "speaker", "speakers", "participants"):
+        raw_values = list(as_values(meta.get(key)))
+        expanded_values: list[str] = []
+        for value in raw_values:
+            if key in {"speakers", "participants"} and "," in value:
+                expanded_values.extend(part.strip() for part in value.split(","))
+            else:
+                expanded_values.append(value)
+        for value in expanded_values:
+            normalized = normalize_person_label(value)
+            if normalized and normalized not in out:
+                out.append(normalized)
+    for key, raw_value in meta.items():
+        if not re.fullmatch(r"guest_\d+", str(key)):
+            continue
+        for value in as_values(raw_value):
+            normalized = normalize_person_label(value)
+            if normalized and normalized not in out:
+                out.append(normalized)
+    return tuple(out)
+
+
+@lru_cache(maxsize=1)
+def _speaker_inventory() -> speaker_routing.SpeakerInventory:
+    return speaker_routing._discover_inventory(speaker_routing.DEFAULT_SPEAKERS_DIR, DEFAULT_ROOT)  # noqa: SLF001
+
+
+def explicit_thread_values(meta: dict[str, Any]) -> tuple[str, ...]:
+    out: list[str] = []
+    for value in as_values(meta.get("thread")) + as_values(meta.get("threads")):
+        normalized = norm_scalar(value)
+        if normalized and normalized not in out:
+            out.append(normalized)
+    for key, raw_value in meta.items():
+        if not re.fullmatch(r"thread_\d+", str(key)):
+            continue
+        for value in as_values(raw_value):
+            normalized = norm_scalar(value)
+            if normalized and normalized not in out:
+                out.append(normalized)
+    return tuple(out)
+
+
+def derive_thread_values(meta: dict[str, Any], guest_values: tuple[str, ...]) -> tuple[str, ...]:
+    out = list(explicit_thread_values(meta))
+
+    inventory = _speaker_inventory()
+
+    host_slug = speaker_routing._canonical_host_slug(meta)  # noqa: SLF001
+    if host_slug and host_slug in inventory.speaker_folders and host_slug not in out:
+        out.append(host_slug)
+
+    for guest in guest_values:
+        guest_slug = speaker_routing._match_speaker(guest, inventory)  # noqa: SLF001
+        if guest_slug and guest_slug not in out:
+            out.append(guest_slug)
+
+    return tuple(out)
+
+
 def type_label(name: str) -> str:
     stem = name[:-3] if name.endswith(".md") else name
     return stem.split("-", 1)[0] if "-" in stem else stem
@@ -179,21 +249,14 @@ def collect_archive_file(path: Path) -> ArchiveFile:
             ),
         )
     )
-    guest_values = (
-        as_values(meta.get("guest"))
-        or as_values(meta.get("guests"))
-        or as_values(meta.get("speaker"))
-        or as_values(meta.get("speakers"))
-        or as_values(meta.get("participants"))
-    )
-    guest_values = tuple(filter(None, (normalize_person_label(v) for v in guest_values)))
+    guest_values = guest_meta_values(meta)
     channel_values = (
         as_values(meta.get("show"))
         or as_values(meta.get("channel_slug"))
         or as_values(meta.get("publication"))
     )
     channel_values = tuple(filter(None, (normalize_channel_label(v) for v in channel_values)))
-    thread_values = as_values(meta.get("thread")) or as_values(meta.get("threads"))
+    thread_values = derive_thread_values(meta, guest_values)
     return ArchiveFile(
         path=path,
         name=path.name,

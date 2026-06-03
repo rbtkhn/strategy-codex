@@ -6,7 +6,7 @@ show: The Duran
 host: Alex Christoforou
 guest: Alexander Mercouris
 guest_2: Brian Berletic
-thread: mercouris
+threads: [mercouris, berletic]
 source_url: https://www.youtube.com/watch?v=hmvxLZ_jkyc
 source_note: User-pasted cleaned YouTube transcript. Pub date assigned as 2025-06-17 from external podcast mirrors because the transcript body does not carry a spoken date.
 title_slug: transcript-duran-mercouris-berletic-trump-on-the-brink-of-iran-war-live-2025-06-17

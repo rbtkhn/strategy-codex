@@ -8,8 +8,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Type mix: `youtube` (8), `transcript` (1)
 - Distinct channels/shows: `3`
 - Distinct hosts: `3`
-- Distinct guests: `8`
-- Distinct threads: `3`
+- Distinct guests: `7`
+- Distinct threads: `6`
 
 ## Channel / Show Rollup
 
@@ -18,8 +18,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Host / Guest / Thread Rollup
 
 - Hosts: `Daniel Davis` (7), `Alexander Mercouris` (1), `Andrew Napolitano` (1)
-- Guests: `BREAKING` (1), `Chances of US Civil War Greater than You Realize` (1), `Chas Freeman` (1), `Doug Macgregor` (1), `Doug Magregor` (1), `EXCLUSIVE` (1), `Rapid Change at the Pentagon w/Lt. Col Daniel Davis` (1), `Trump’s Opportunity to have an Historic Presidency w/Larry Johnson` (1)
-- Threads: `davis` (7), `freeman` (1), `mercouris` (1)
+- Guests: `Douglas Macgregor` (2), `BREAKING` (1), `Chances of US Civil War Greater than You Realize` (1), `Chas Freeman` (1), `EXCLUSIVE` (1), `Rapid Change at the Pentagon w/Lt. Col Daniel Davis` (1), `Trump’s Opportunity to have an Historic Presidency w/Larry Johnson` (1)
+- Threads: `davis` (7), `macgregor` (2), `freeman` (1), `johnson` (1), `mercouris` (1), `napolitano` (1)
 
 ## Filename Family Fallbacks
 

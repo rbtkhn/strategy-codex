@@ -9,7 +9,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `2`
 - Distinct hosts: `3`
 - Distinct guests: `4`
-- Distinct threads: `3`
+- Distinct threads: `5`
 
 ## Channel / Show Rollup
 
@@ -19,7 +19,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Nima Alkhorshid` (2), `Alexander Mercouris` (1), `Andrew Napolitano` (1)
 - Guests: `Israel AD Fails 80% Iran Missiles Hit Target; China` (1), `Jacques Baud` (1), `Larry C. Johnson` (1), `Larry Johnson` (1)
-- Threads: `johnson` (2), `mercouris` (1), `nima` (1)
+- Threads: `johnson` (2), `nima` (2), `baud` (1), `mercouris` (1), `napolitano` (1)
 
 ## Filename Family Fallbacks
 

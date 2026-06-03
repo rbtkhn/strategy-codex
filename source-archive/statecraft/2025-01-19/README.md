@@ -9,7 +9,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `3`
 - Distinct hosts: `3`
 - Distinct guests: `4`
-- Distinct threads: `3`
+- Distinct threads: `5`
 
 ## Channel / Show Rollup
 
@@ -18,8 +18,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Host / Guest / Thread Rollup
 
 - Hosts: `Daniel Davis` (3), `Nima Alkhorshid` (2), `Alexander Mercouris` (1)
-- Guests: `'Maximum Pressure' on IRAN a Good Idea? John Mearsheimer` (1), `Doug Macgregor` (1), `John Mearsheimer` (1), `Trump Pressures Netanyahu` (1)
-- Threads: `davis` (3), `nima` (2), `mercouris` (1)
+- Guests: `'Maximum Pressure' on IRAN a Good Idea? John Mearsheimer` (1), `Douglas Macgregor` (1), `John Mearsheimer` (1), `Trump Pressures Netanyahu` (1)
+- Threads: `davis` (3), `mearsheimer` (2), `nima` (2), `macgregor` (1), `mercouris` (1)
 
 ## Filename Family Fallbacks
 

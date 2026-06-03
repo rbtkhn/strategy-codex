@@ -19,7 +19,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alexander Mercouris` (1), `Nima Alkorshid` (1)
 - Guests: `Seyed M. Marandi` (1)
-- Threads: `mercouris` (2), `barnes` (1), `crooke` (1), `davis` (1), `diesen` (1), `johnson` (1), `marandi` (1), `nima` (1), `pape` (1), `parsi` (1), `ritter` (1)
+- Threads: `marandi` (2), `mercouris` (2), `barnes` (1), `crooke` (1), `davis` (1), `diesen` (1), `johnson` (1), `nima` (1), `pape` (1), `parsi` (1), `ritter` (1)
 
 ## Filename Family Fallbacks
 

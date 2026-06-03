@@ -7,6 +7,7 @@ source_url: https://www.youtube.com/watch?v=AeV3EH8b6Wo
 host: glenn-diesen
 guest: john-mearsheimer
 guest_2: alexander-mercouris
+threads: [diesen, mearsheimer, mercouris]
 channel: Glenn Diesen
 status: in-review
 transcript_type: operator_pasted_transcript

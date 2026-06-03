@@ -9,7 +9,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `4`
 - Distinct hosts: `4`
 - Distinct guests: `4`
-- Distinct threads: `4`
+- Distinct threads: `5`
 
 ## Channel / Show Rollup
 
@@ -19,7 +19,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Daniel Davis` (2), `Alexander Mercouris` (1), `Andrew Napolitano` (1), `Nima Alkhorshid` (1)
 - Guests: `Chas Freeman` (1), `Israel Shaken` (1), `UKRAINE & CRIMEA` (1), `Why the DC Elite are Trying to Kill Tulsi's Nomination` (1)
-- Threads: `davis` (2), `freeman` (1), `mercouris` (1), `nima` (1)
+- Threads: `davis` (2), `freeman` (1), `mercouris` (1), `napolitano` (1), `nima` (1)
 
 ## Filename Family Fallbacks
 

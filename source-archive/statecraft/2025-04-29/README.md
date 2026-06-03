@@ -5,21 +5,21 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `4`
-- Type mix: `youtube` (2), `transcript` (2)
+- Type mix: `transcript` (2), `youtube` (2)
 - Distinct channels/shows: `2`
 - Distinct hosts: `3`
 - Distinct guests: `3`
-- Distinct threads: `4`
+- Distinct threads: `6`
 
 ## Channel / Show Rollup
 
-- `Alexander Mercouris` (1), `Judging Freedom` (1)
+- `Judging Freedom` (2), `Alexander Mercouris` (1)
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Alexander Mercouris` (1), `Andrew Napolitano` (1), `Glenn Diesen` (1)
+- Hosts: `Andrew Napolitano` (2), `Alexander Mercouris` (1), `Glenn Diesen` (1)
 - Guests: `Andrei Martyanov` (1), `Charles Freeman` (1), `Douglas Macgregor` (1)
-- Threads: `diesen` (1), `freeman` (1), `macgregor` (1), `mercouris` (1)
+- Threads: `napolitano` (2), `diesen` (1), `freeman` (1), `macgregor` (1), `martyanov` (1), `mercouris` (1)
 
 ## Filename Family Fallbacks
 

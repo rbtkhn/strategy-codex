@@ -79,6 +79,7 @@ Read this shelf through a few live clusters rather than as one flat list.
 - [march-2026-closure-method-application.md](./march-2026-closure-method-application.md) - why March is better treated as a mature benchmark month than as a live closure campaign
 - [may-2026-closure-method-application.md](./may-2026-closure-method-application.md) - applying the April closure method to May and narrowing the live target to Parsi
 - [april-2026-wilkerson-intake-sequence-postmortem.md](./april-2026-wilkerson-intake-sequence-postmortem.md) - compact postmortem on the April Wilkerson closure run
+- [statecraft-participant-index-audit-2026-06-03.md](./statecraft-participant-index-audit-2026-06-03.md) - corpus-level participant-lane audit and bounded normalization record
 - [wilkerson-april-2026-contradiction-audit.md](./wilkerson-april-2026-contradiction-audit.md) - bounded contradiction audit preserving the real April baseline and reopened Wilkerson queue
 - [parsi-wilkerson-may-2026-backfill-attention.md](./parsi-wilkerson-may-2026-backfill-attention.md) - bounded queue for May 2026 Parsi expansion and Wilkerson contradiction-check work
 
@@ -145,6 +146,7 @@ This first rollout is forward-only. Do not move existing prose here automaticall
 - [march-2026-closure-method-application.md](./march-2026-closure-method-application.md) - shelf-native closure-routing note
 - [may-2026-closure-method-application.md](./may-2026-closure-method-application.md) - shelf-native closure-routing note
 - [april-2026-wilkerson-intake-sequence-postmortem.md](./april-2026-wilkerson-intake-sequence-postmortem.md) - shelf-native postmortem note
+- [statecraft-participant-index-audit-2026-06-03.md](./statecraft-participant-index-audit-2026-06-03.md) - shelf-native corpus participant-index audit note
 - [wilkerson-april-2026-contradiction-audit.md](./wilkerson-april-2026-contradiction-audit.md) - shelf-native contradiction-audit note
 - [parsi-wilkerson-may-2026-backfill-attention.md](./parsi-wilkerson-may-2026-backfill-attention.md) - shelf-native backfill-attention and contradiction-check queue
 - [jiang-ph-civ-correspondence-june-1-2026.md](./jiang-ph-civ-correspondence-june-1-2026.md) - shelf-native correspondence note

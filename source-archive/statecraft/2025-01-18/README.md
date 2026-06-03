@@ -9,7 +9,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `3`
 - Distinct hosts: `3`
 - Distinct guests: `4`
-- Distinct threads: `3`
+- Distinct threads: `4`
 
 ## Channel / Show Rollup
 
@@ -19,7 +19,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Daniel Davis` (3), `Alexander Mercouris` (1), `Nima Alkhorshid` (1)
 - Guests: `Deep Dive Intel Briefing` (1), `Did Israel Just Admit DEFEAT to Hamas?` (1), `Israel is in Total Disarray | Alex Krainer & Col. Larry Wilkerson` (1), `Prepared to say Israel Committed War Crimes?` (1)
-- Threads: `davis` (3), `mercouris` (1), `nima` (1)
+- Threads: `davis` (3), `mercouris` (1), `nima` (1), `wilkerson` (1)
 
 ## Filename Family Fallbacks
 

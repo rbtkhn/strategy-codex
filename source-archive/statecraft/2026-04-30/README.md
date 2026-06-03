@@ -9,7 +9,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `4`
 - Distinct hosts: `4`
 - Distinct guests: `4`
-- Distinct threads: `3`
+- Distinct threads: `7`
 
 ## Channel / Show Rollup
 
@@ -19,11 +19,11 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alexander Mercouris` (2), `Andrew Napolitano` (1), `Daniel Davis` (1), `Diesen` (1)
 - Guests: `John Mearsheimer` (1), `Larry Johnson` (1), `Lawrence Wilkerson` (1), `null` (1)
-- Threads: `mercouris` (2), `davis` (1), `johnson` (1)
+- Threads: `mercouris` (2), `davis` (1), `diesen` (1), `johnson` (1), `mearsheimer` (1), `napolitano` (1), `wilkerson` (1)
 
 ## Filename Family Fallbacks
 
-- `transcript-wilkerson-judging-freedom-*` (1), `youtube-alex-mercouris-*` (1)
+- `youtube-alex-mercouris-*` (1)
 
 ## Files
 

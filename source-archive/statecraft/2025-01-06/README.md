@@ -9,7 +9,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `2`
 - Distinct hosts: `2`
 - Distinct guests: `3`
-- Distinct threads: `2`
+- Distinct threads: `3`
 
 ## Channel / Show Rollup
 
@@ -18,8 +18,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Host / Guest / Thread Rollup
 
 - Hosts: `Daniel Davis` (4), `Alexander Mercouris` (1)
-- Guests: `Doug Macgregor` (2), `LIVE from RUSSIA` (1), `Ukraine Launches NEW KURSK OFFENSIVE` (1)
-- Threads: `davis` (4), `mercouris` (1)
+- Guests: `Douglas Macgregor` (2), `LIVE from RUSSIA` (1), `Ukraine Launches NEW KURSK OFFENSIVE` (1)
+- Threads: `davis` (4), `macgregor` (2), `mercouris` (1)
 
 ## Filename Family Fallbacks
 

@@ -9,7 +9,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `4`
 - Distinct hosts: `4`
 - Distinct guests: `7`
-- Distinct threads: `6`
+- Distinct threads: `10`
 
 ## Channel / Show Rollup
 
@@ -19,7 +19,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Daniel Davis` (4), `Nima Alkhorshid` (2), `Alexander Mercouris` (1), `Nima Alkorshid` (1)
 - Guests: `Scott Ritter` (2), `Seyed M. Marandi` (2), `Chas Freeman` (1), `Jacques Baud` (1), `John Mearsheimer` (1), `Larry Johnson` (1), `US Iran Sea Blockade` (1)
-- Threads: `davis` (4), `nima` (2), `baud` (1), `mercouris` (1), `ritter` (1), `simplicius` (1)
+- Threads: `davis` (4), `nima` (3), `marandi` (2), `ritter` (2), `baud` (1), `freeman` (1), `johnson` (1), `mearsheimer` (1), `mercouris` (1), `simplicius` (1)
 
 ## Filename Family Fallbacks
 

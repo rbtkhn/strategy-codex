@@ -9,7 +9,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `2`
 - Distinct hosts: `2`
 - Distinct guests: `6`
-- Distinct threads: `2`
+- Distinct threads: `3`
 
 ## Channel / Show Rollup
 
@@ -19,7 +19,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Daniel Davis` (5), `Andrew Napolitano` (1)
 - Guests: `Chas Freeman` (1), `Re` (1), `Trump` (1), `Trump Not Confident Ceasefire Will Hold` (1), `Trump's Return` (1), `Zelensky Stirs the Pot at World Economic Forum` (1)
-- Threads: `davis` (5), `freeman` (1)
+- Threads: `davis` (5), `freeman` (1), `napolitano` (1)
 
 ## Filename Family Fallbacks
 

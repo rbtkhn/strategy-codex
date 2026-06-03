@@ -19,7 +19,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alexander Mercouris` (1), `Daniel Davis` (1)
 - Guests: `Alexander Mercouris` (1), `Scott Ritter` (1)
-- Threads: `davis` (1), `mercouris` (1), `parsi` (1), `ritter` (1), `simplicius` (1)
+- Threads: `mercouris` (2), `davis` (1), `parsi` (1), `ritter` (1), `simplicius` (1)
 
 ## Filename Family Fallbacks
 

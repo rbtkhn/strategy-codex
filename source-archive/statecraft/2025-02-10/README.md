@@ -4,22 +4,22 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Stats
 
-- Source files: `2`
-- Type mix: `youtube` (2)
-- Distinct channels/shows: `2`
-- Distinct hosts: `2`
-- Distinct guests: `1`
-- Distinct threads: `2`
+- Source files: `3`
+- Type mix: `youtube` (2), `transcript` (1)
+- Distinct channels/shows: `3`
+- Distinct hosts: `3`
+- Distinct guests: `2`
+- Distinct threads: `5`
 
 ## Channel / Show Rollup
 
-- `Alexander Mercouris` (1), `Daniel Davis Deep Dive` (1)
+- `Alexander Mercouris` (1), `Daniel Davis Deep Dive` (1), `The Duran` (1)
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Alexander Mercouris` (1), `Daniel Davis` (1)
-- Guests: `Jacques Baud` (1)
-- Threads: `alex-mercouris` (1), `daniel-davis-deep-dive` (1)
+- Hosts: `Alex Christoforou` (1), `Alexander Mercouris` (1), `Daniel Davis` (1)
+- Guests: `Alexander Mercouris` (1), `Jacques Baud` (1)
+- Threads: `mercouris` (2), `alex-mercouris` (1), `baud` (1), `daniel-davis-deep-dive` (1), `davis` (1)
 
 ## Filename Family Fallbacks
 
@@ -27,5 +27,6 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Files
 
+- `transcript-duran-mercouris-us-carrot-and-stick-offer-to-russia-2025-02-10.md`
 - `youtube-alex-mercouris-trump-confirms-putin-call-putin-firm-4-regions-russian-ukraine-kursk-disaster-eu-gas-prices-surge-2025-02-10.md`
 - `youtube-daniel-davis-deep-dive-whats-trumps-leverage-ending-the-ukraine-war-w-col-jacques-baud-2025-02-10.md`

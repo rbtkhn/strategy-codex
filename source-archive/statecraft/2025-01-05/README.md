@@ -9,7 +9,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `3`
 - Distinct hosts: `3`
 - Distinct guests: `4`
-- Distinct threads: `3`
+- Distinct threads: `4`
 
 ## Channel / Show Rollup
 
@@ -19,7 +19,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Daniel Davis` (3), `Alexander Mercouris` (1), `Nima Alkhorshid` (1)
 - Guests: `CLOSE` (1), `Deceit Uncovered` (1), `Israel's Worst Nightmare Coming | Prof. Mohammad Marandi & Scott Ritter` (1), `Putin Holds All the Cards in Ending Ukraine War` (1)
-- Threads: `davis` (3), `mercouris` (1), `nima` (1)
+- Threads: `davis` (3), `mercouris` (1), `nima` (1), `ritter` (1)
 
 ## Filename Family Fallbacks
 

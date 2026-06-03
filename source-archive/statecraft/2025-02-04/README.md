@@ -9,7 +9,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `2`
 - Distinct hosts: `2`
 - Distinct guests: `3`
-- Distinct threads: `3`
+- Distinct threads: `5`
 
 ## Channel / Show Rollup
 
@@ -19,7 +19,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Andrew Napolitano` (2), `Glenn Diesen` (1)
 - Guests: `Chas Freeman` (1), `Douglas Macgregor` (1), `Jeffrey Sachs` (1)
-- Threads: `diesen` (1), `freeman` (1), `macgregor` (1)
+- Threads: `napolitano` (2), `diesen` (1), `freeman` (1), `macgregor` (1), `sachs` (1)
 
 ## Filename Family Fallbacks
 
@@ -27,6 +27,6 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Files
 
-- `transcript-napolitano-macgregor-trump-and-his-oligarchs-2025-02-04.md`
 - `transcript-diesen-sachs-differentiating-between-strategy-and-noise-in-trumps-foreign-policy-2025-02-04.md`
 - `transcript-napolitano-amb-chas-freeman-trump-and-usaid-2025-02-04.md`
+- `transcript-napolitano-macgregor-trump-and-his-oligarchs-2025-02-04.md`

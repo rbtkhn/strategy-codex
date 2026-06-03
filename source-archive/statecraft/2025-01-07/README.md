@@ -9,7 +9,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `3`
 - Distinct hosts: `3`
 - Distinct guests: `6`
-- Distinct threads: `3`
+- Distinct threads: `4`
 
 ## Channel / Show Rollup
 
@@ -19,7 +19,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Daniel Davis` (5), `Alexander Mercouris` (1), `Andrew Napolitano` (1)
 - Guests: `Chas Freeman` (1), `Devastating Failure in Ukraine's Kursk Offensive` (1), `Over 100k Ukraine Troops Charged With Desertion` (1), `Trump Tells Zelensky` (1), `Trump on Ukraine, Russia, Iran & Israel` (1), `Trump's Ukraine Dilemma` (1)
-- Threads: `davis` (5), `freeman` (1), `mercouris` (1)
+- Threads: `davis` (5), `freeman` (1), `mercouris` (1), `napolitano` (1)
 
 ## Filename Family Fallbacks
 

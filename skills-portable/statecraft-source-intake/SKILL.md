@@ -327,6 +327,24 @@ Short rule:
 - Keep guest normalization narrow and evidence-backed; do not promote a lane-wide normalization rule from one fresh example.
 - For Seyed Marandi appearances in the Daniel Davis lane, prefer `guest: Seyed M. Marandi` even when the pasted transcript varies across forms such as `say Mandi`, `Seyed Marandi`, or `Seyed Morandi`.
 
+### Participant-index metadata
+
+When a transcript-bearing object contains multiple recognized substantive participants, prefer durable explicit participant-lane metadata rather than relying entirely on later parser inference.
+
+Preferred pattern:
+
+- keep truthful role fields such as `host`, `guest`, `guest_2`, and `guest_3`
+- add explicit `threads:` containing every recognized substantive speaker lane that the file should strengthen
+- prefer `threads:` over older numbered forms such as `thread_2` / `thread_3`
+
+Use explicit multi-thread metadata when:
+
+- a recurring panel family appears across months
+- more than one recognized speaker lane should strengthen from the same object
+- host-only routing would understate real speaker participation
+
+Do not add speculative speaker lanes for unresolved names. If a participant does not resolve cleanly to a canonical speaker lane, preserve the truthful participant field and leave the unresolved lane question explicit in `source_note` if needed.
+
 ## Guardrails
 
 - Never put routing notes, summaries, or scaffolds in the archive.

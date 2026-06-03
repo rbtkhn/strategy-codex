@@ -9,7 +9,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `3`
 - Distinct hosts: `3`
 - Distinct guests: `2`
-- Distinct threads: `3`
+- Distinct threads: `5`
 
 ## Channel / Show Rollup
 
@@ -19,7 +19,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alexander Mercouris` (1), `Andrew Napolitano` (1), `Daniel Davis` (1)
 - Guests: `Charles Freeman` (1), `Douglas Macgregor` (1)
-- Threads: `freeman` (1), `macgregor` (1), `mercouris` (1)
+- Threads: `davis` (1), `freeman` (1), `macgregor` (1), `mercouris` (1), `napolitano` (1)
 
 ## Filename Family Fallbacks
 
@@ -27,6 +27,6 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Files
 
-- `transcript-napolitano-amb-charles-freeman-will-china-cave-on-trumps-tariffs-2025-04-22.md`
 - `transcript-davis-macgregor-trump-revealing-ukraine-peace-plan-this-week-2025-04-22.md`
+- `transcript-napolitano-amb-charles-freeman-will-china-cave-on-trumps-tariffs-2025-04-22.md`
 - `youtube-alex-mercouris-russia-says-kellogg-plan-totally-unacceptable-targets-odessa-drone-plant-us-won-t-talk-to-zelensky-2025-04-22.md`

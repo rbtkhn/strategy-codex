@@ -9,7 +9,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `5`
 - Distinct hosts: `4`
 - Distinct guests: `4`
-- Distinct threads: `2`
+- Distinct threads: `8`
 
 ## Channel / Show Rollup
 
@@ -19,11 +19,11 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Dialogue Works` (2), `Glenn Diesen` (2), `Alexander Mercouris` (1), `Daniel Davis` (1)
 - Guests: `Alastair Crooke` (1), `Douglas Macgregor` (1), `Jacques Baud` (1), `Pepe Escobar & Larry C. Johnson` (1)
-- Threads: `mercouris` (1), `pape` (1)
+- Threads: `diesen` (2), `baud` (1), `crooke` (1), `davis` (1), `johnson` (1), `macgregor` (1), `mercouris` (1), `pape` (1)
 
 ## Filename Family Fallbacks
 
-- `youtube-dialogue-works-*` (2), `youtube-glenn-diesen-*` (2), `substack-*` (1), `transcript-*` (1), `youtube-alex-mercouris-*` (1)
+- `substack-*` (1), `transcript-*` (1), `youtube-alex-mercouris-*` (1)
 
 ## Files
 

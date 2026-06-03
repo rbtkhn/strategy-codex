@@ -9,17 +9,17 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `2`
 - Distinct hosts: `3`
 - Distinct guests: `4`
-- Distinct threads: `3`
+- Distinct threads: `7`
 
 ## Channel / Show Rollup
 
-- `Glenn Diesen - Greater Eurasia Podcast` (1), `Judging Freedom` (1)
+- `Judging Freedom` (2), `Glenn Diesen - Greater Eurasia Podcast` (1)
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Andrew Napolitano` (1), `Glenn Diesen` (1), `daniel-davis` (1)
+- Hosts: `Andrew Napolitano` (2), `Glenn Diesen` (1), `daniel-davis` (1)
 - Guests: `Charles Freeman` (1), `Douglas Macgregor` (1), `Jeffrey Sachs` (1), `john-mearsheimer` (1)
-- Threads: `diesen` (1), `freeman` (1), `macgregor` (1)
+- Threads: `napolitano` (2), `davis` (1), `diesen` (1), `freeman` (1), `macgregor` (1), `mearsheimer` (1), `sachs` (1)
 
 ## Filename Family Fallbacks
 

@@ -8,8 +8,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Type mix: `youtube` (2), `transcript` (1)
 - Distinct channels/shows: `3`
 - Distinct hosts: `3`
-- Distinct guests: `2`
-- Distinct threads: `3`
+- Distinct guests: `3`
+- Distinct threads: `5`
 
 ## Channel / Show Rollup
 
@@ -18,8 +18,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Host / Guest / Thread Rollup
 
 - Hosts: `Alexander Mercouris` (1), `Glenn Diesen` (1), `Nema` (1)
-- Guests: `Chas Freeman` (1), `Mohammad Marandi` (1)
-- Threads: `diesen` (1), `freeman` (1), `mercouris` (1)
+- Guests: `Chas Freeman` (2), `Larry Wilkerson` (1), `Mohammad Marandi` (1)
+- Threads: `freeman` (2), `diesen` (1), `marandi` (1), `mercouris` (1), `wilkerson` (1)
 
 ## Filename Family Fallbacks
 

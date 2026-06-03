@@ -9,7 +9,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Distinct channels/shows: `6`
 - Distinct hosts: `6`
 - Distinct guests: `5`
-- Distinct threads: `3`
+- Distinct threads: `10`
 
 ## Channel / Show Rollup
 
@@ -19,11 +19,11 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alexander Mercouris` (1), `Andrew Napolitano` (1), `Clayton Morris, Natali Morris` (1), `Glenn Diesen` (1), `Nemo` (1), `Nima` (1)
 - Guests: `Chas Freeman` (1), `Douglas Macgregor` (1), `John Mearsheimer` (1), `Max Blumenthal` (1), `Seyed Mohammad Marandi` (1)
-- Threads: `freeman` (1), `mercouris` (1), `simplicius` (1)
+- Threads: `blumenthal` (1), `diesen` (1), `freeman` (1), `macgregor` (1), `marandi` (1), `mearsheimer` (1), `mercouris` (1), `napolitano` (1), `nima` (1), `simplicius` (1)
 
 ## Filename Family Fallbacks
 
-- `transcript-*` (4), `substack-*` (2), `transcript-napolitano-*` (1), `x-barnes-*` (1), `x-pape-*` (1), `youtube-alex-mercouris-*` (1)
+- `substack-*` (2), `transcript-napolitano-*` (1), `x-barnes-*` (1), `x-pape-*` (1), `youtube-alex-mercouris-*` (1)
 
 ## Files
 

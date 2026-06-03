@@ -5,11 +5,11 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `11`
-- Type mix: `youtube` (4), `transcript` (3), `substack` (3), `predictive` (1)
+- Type mix: `youtube` (4), `substack` (3), `transcript` (3), `predictive` (1)
 - Distinct channels/shows: `7`
-- Distinct hosts: `6`
+- Distinct hosts: `7`
 - Distinct guests: `7`
-- Distinct threads: `9`
+- Distinct threads: `15`
 
 ## Channel / Show Rollup
 
@@ -19,7 +19,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Nima Alkhorshid` (2), `Alexander Mercouris` (1), `Andrew Napolitano` (1), `Daniel Davis` (1), `Glenn Diesen` (1), `Jiang Xueqin` (1), `Mario Nawfal` (1)
 - Guests: `Alexander Mercouris` (1), `Andrei Martyanov` (1), `Anthony Aguilar` (1), `George Beebe` (1), `Larry Johnson` (1), `Lawrence Wilkerson` (1), `Scott Ritter` (1)
-- Threads: `nima` (2), `pape` (2), `crooke` (1), `davis` (1), `diesen` (1), `jiang` (1), `johnson` (1), `mercouris` (1), `wilkerson` (1)
+- Threads: `nima` (2), `pape` (2), `aguilar` (1), `beebe` (1), `crooke` (1), `davis` (1), `diesen` (1), `jiang` (1), `johnson` (1), `martyanov` (1), `mercouris` (1), `napolitano` (1), `nawfal` (1), `ritter` (1), `wilkerson` (1)
 
 ## Filename Family Fallbacks
 
