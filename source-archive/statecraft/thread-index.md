@@ -5,15 +5,15 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_archive
 ## Stats
 
 - Distinct threads: `56`
-- Thread-linked source files: `1411`
-- Covered days: `426`
+- Thread-linked source files: `1422`
+- Covered days: `429`
 - Covered months: `18`
 
 ## Threads
 
 | Thread | Files | Days | Months | Top channels/shows | Top hosts | First day | Last day |
 | --- | ---: | ---: | ---: | --- | --- | --- | --- |
-| `mercouris` | 329 | 302 | 18 | `Mercouris` (193), `Alexander Mercouris` (113), `The Duran` (13) | `Alexander Mercouris` (305), `Alex Christoforou` (11), `Alex Christoforu` (1) | `2025-01-03` | `2026-06-02` |
+| `mercouris` | 340 | 313 | 18 | `Mercouris` (200), `Alexander Mercouris` (114), `The Duran` (16) | `Alexander Mercouris` (313), `Alex Christoforou` (14), `Alex Christoforu` (1) | `2025-01-03` | `2026-06-02` |
 | `davis` | 215 | 117 | 16 | `Daniel Davis Deep Dive` (193), `Deep Dive` (2), `Dialogue Works` (2) | `Daniel Davis` (192), `Daniel Davis / Deep Dive` (6), `Nima Alkhorshid` (2) | `2025-01-01` | `2026-06-02` |
 | `diesen` | 165 | 140 | 18 | `Glenn Diesen` (107), `Diesen` (10), `Glenn Diesen - Greater Eurasia Podcast` (5) | `Glenn Diesen` (142), `Diesen` (15), `Mario Nawfal` (1) | `2025-01-10` | `2026-06-02` |
 | `nima` | 153 | 121 | 16 | `Dialogue Works` (133) | `Nima Alkhorshid` (122), `Nima Alkorshid` (21), `Dialogue Works` (6) | `2025-01-04` | `2026-06-02` |

@@ -4,28 +4,29 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Stats
 
-- Source files: `2`
-- Type mix: `transcript` (2)
-- Distinct channels/shows: `1`
-- Distinct hosts: `1`
+- Source files: `3`
+- Type mix: `transcript` (2), `youtube` (1)
+- Distinct channels/shows: `2`
+- Distinct hosts: `2`
 - Distinct guests: `2`
-- Distinct threads: `2`
+- Distinct threads: `3`
 
 ## Channel / Show Rollup
 
-- `Judging Freedom` (2)
+- `Judging Freedom` (2), `Mercouris` (1)
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Andrew Napolitano` (2)
+- Hosts: `Andrew Napolitano` (2), `Alexander Mercouris` (1)
 - Guests: `Charles Freeman` (1), `Jeffrey Sachs` (1)
-- Threads: `freeman` (1), `napolitano` (1)
+- Threads: `freeman` (1), `mercouris` (1), `napolitano` (1)
 
 ## Filename Family Fallbacks
 
-- (none)
+- `youtube-alex-mercouris-*` (1)
 
 ## Files
 
 - `transcript-napolitano-amb-charles-freeman-why-presidents-love-war-2025-06-24.md`
 - `transcript-napolitano-sachs-is-the-us-subordinated-to-israel-2025-06-24.md`
+- `youtube-alex-mercouris-us-retreats-seeks-truce-heeds-russian-warnings-hormuz-straits-closure-threats-iran-ahead-on-points-2025-06-24.md`
