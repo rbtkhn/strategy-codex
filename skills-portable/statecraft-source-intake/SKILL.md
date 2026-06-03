@@ -3,7 +3,7 @@ name: statecraft-source-intake
 preferred_activation: statecraft source intake
 description: "Capture an operator-supplied transcript-bearing source object into the canonical statecraft source archive with the correct family pattern, truthful provenance, and no summary-or-stub drift. Supports single-source intake and repeated same-day batch intake, including the operator phrases `statecraft daily intake` and `statecraft daily intake / source-archive first`. Do not use for direct YouTube metadata/caption fetch, month inventory work, or downstream synthesis."
 portable: true
-version: 0.2.0
+version: 0.3.0
 tags:
   - operator
   - statecraft
@@ -68,8 +68,61 @@ When the operator is doing same-day transcript intake, treat the workflow as a *
 
 - keep each transcript as its own canonical source object
 - reuse the same touched day folder
+- choose explicitly between immediate rebuild and deferred rebuild
 - refresh the smallest still-live archive indices after each landed file or at the end of the same bounded batch
 - keep synthesis downstream; do not write the daily report into `source-archive/`
+
+### Operating modes
+
+Use one of these two modes on purpose rather than drifting between them.
+
+#### 1. Single-source safe mode
+
+Use when:
+
+- the operator supplied one source and did not imply throughput pressure
+- the archive surfaces should stay live after each intake
+- the operator wants the usual full closeout for one object
+
+In this mode:
+
+- land the file
+- rebuild the smallest touched archive surfaces immediately
+- verify the landed file plus touched rollups
+- close with the refreshed-surface summary
+
+Short rule:
+
+`land -> rebuild -> verify -> close`
+
+#### 2. Batch-throughput mode
+
+Use when:
+
+- the operator is clearly sending a same-day batch
+- multiple transcript URLs or transcript pastes are arriving in sequence
+- rebuild-after-every-file would create avoidable overhead
+- the operator explicitly asks for higher-efficiency or batch behavior
+
+In this mode:
+
+- land each file immediately
+- do a lightweight per-file verification only
+- defer day/month/navigation rebuilds until a batch checkpoint
+- run one bounded rebuild and verification pass for the whole still-live batch
+
+Short rule:
+
+`land -> header-check -> queue for checkpoint`
+
+#### Batch checkpoint triggers
+
+In batch-throughput mode, rebuild when one of these becomes true:
+
+- the operator explicitly asks for a checkpoint, rebuild, verify, or closeout
+- the batch appears to pause or end
+- enough same-day files have accumulated that continuing without a rebuild becomes awkward
+- you need the day/month/navigation surfaces live before the next step
 
 ## Workflow
 
@@ -107,6 +160,7 @@ When the operator is doing same-day transcript intake, treat the workflow as a *
    - Write into the canonical statecraft archive day folder.
    - Keep filenames and frontmatter aligned with neighboring family examples.
    - When publication date comes from a trustworthy secondary surface because the direct watch URL is still missing, use that date but say so plainly in `source_note`.
+   - For Duran podcast-style Mercouris objects whose transcript body does not carry a spoken date, prefer a trustworthy external podcast mirror date over guesswork and preserve that dating seam explicitly in `source_note`.
 
 5. **Normalize lightly**
    - Fix obvious spacing, formatting, and title/date typos when confidence is high.
@@ -116,21 +170,25 @@ When the operator is doing same-day transcript intake, treat the workflow as a *
    - For `Judging Freedom / Napolitano` archive captures, strip clearly separable ideological cold opens or canned sponsor/promotional reads at the opening and routine lineup/schedule promos at the close.
    - Do not over-clean, summarize, or rewrite the substance.
 
-6. **Verify the result**
-   - Check frontmatter or metadata block against the family pattern.
-   - Check opening lines and archive placement.
-   - Confirm the file is a real transcript-bearing object, not a shell.
+6. **Verify the result at the right depth**
+   - Always check frontmatter or metadata block against the family pattern.
+   - Always check opening lines and archive placement.
+   - Always confirm the file is a real transcript-bearing object, not a shell.
+   - In `single-source safe mode`, also verify the rebuilt archive surfaces.
+   - In `batch-throughput mode`, stop after the lightweight per-file verification and queue the rollup verification for the checkpoint pass.
 
 7. **Close out conservatively**
    - Report the landed file path.
    - State the family shape used.
    - State whether tests were run.
+   - In `batch-throughput mode`, say plainly that rebuild and verification of day/month/navigation surfaces is deferred to the next checkpoint.
    - State whether the intake batch remains uncommitted if that is still true.
 
 8. **Refresh the smallest still-live archive surfaces**
-   - Refresh the touched day-folder `README.md`.
-   - Refresh the touched month index and archive navigation when the new source changes those rollups.
-   - In batch mode, keep the rebuild bounded to the touched day/month/navigation surfaces rather than drifting into downstream synthesis.
+   - In `single-source safe mode`, refresh the touched day-folder `README.md` immediately.
+   - In `single-source safe mode`, refresh the touched month index and archive navigation when the new source changes those rollups.
+   - In `batch-throughput mode`, defer these refreshes until the batch checkpoint.
+   - Keep the rebuild bounded to the touched day/month/navigation surfaces rather than drifting into downstream synthesis.
 
 9. **Clean transient residue**
    - Remove obvious scratch residue created by intake work, such as temporary transcript body files, before final verification.
@@ -138,14 +196,18 @@ When the operator is doing same-day transcript intake, treat the workflow as a *
 
 ## Verification and closeout
 
-Use a simple Windows-safe verification sequence after every new archive capture.
+Use a simple Windows-safe verification sequence matched to the active mode.
 
 - Prefer small single-target `rg` checks over large multi-path quoted PowerShell commands.
 - Prefer verifying one surface at a time when using PowerShell.
-- Default verification order:
+- `Per-file verification`:
   - confirm the new archive file exists and contains `source_url` or `youtube_id`
+  - confirm the header/frontmatter matches the chosen family pattern
+  - confirm the file is not a shell or partial write
+- `Checkpoint verification`:
   - confirm the target day `README.md` includes the filename after rebuild
-  - confirm the required host bench and/or speaker bench entry exists
+  - confirm the touched month/year/navigation surfaces reflect the new file when those surfaces were part of the rebuild
+  - confirm the required host bench and/or speaker bench entry exists when that lane expects one
 - Archive intake is not complete until the required downstream routing surfaces are updated when the lane calls for them.
 
 Default closeout law:
@@ -153,7 +215,7 @@ Default closeout law:
 - report the landed archive file
 - state the family pattern used
 - state which archive indices were refreshed
-- in batch mode, state the current day-batch count if it is easy to verify
+- in batch-throughput mode, state that the current file is queued inside the still-open batch checkpoint
 - do not silently drift into lane or civ-lens synthesis
 
 ## Partial front-door doctrine
@@ -212,6 +274,11 @@ Short rule:
 - If both families exist nearby, let the **channel/show identity** decide:
   - solo channel voiceover / monologue -> `youtube-alex-mercouris-*`
   - Duran conversational frame -> `transcript-duran-mercouris-*`
+- If the title looks like a Duran podcast episode and the transcript opens with Christoforou prompting Mercouris, do not file it under the solo Mercouris family even when the operator discovered it during a Mercouris month pass.
+- For Duran podcast dating, if the transcript body has no spoken date:
+  - use a trustworthy external episode listing such as Apple Podcasts, Podchaser, Goodpods, or another stable podcast mirror
+  - preserve that provenance explicitly in `source_note`
+  - do not imply the date came from the spoken transcript itself
 
 ### Napolitano / Judging Freedom
 

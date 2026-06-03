@@ -2,7 +2,7 @@
 name: "monthly-deepening"
 description: "Handle bounded month-by-month deepening for speaker or stream corpora. Use when the operator wants a month inventory, missing-list, URL recovery pass, full-transcript vs stub classification, high-value target selection, month-shelf extension, month-route judgment, or a commit limited to one month slice. Do not use for one-off transcript intake, direct YouTube caption fetch, or broad cross-month synthesis. Transcript uploads from the operator imply month-slice materialization unless the operator explicitly says inventory-only, classification-only, or do-not-write."
 portable: true
-version: "0.3.0"
+version: "0.4.0"
 tags:
   - "operator"
   - "strategy"
@@ -113,6 +113,20 @@ Before counting items, fix the scope:
 
 Do not silently convert `speaker-adjacent` material into `speaker-only` coverage.
 
+### 2a. Split Mercouris queues on purpose
+
+For Mercouris month work, do not keep one undifferentiated `Mercouris` missing queue when local evidence is clearly separating two source families.
+
+Use these buckets explicitly:
+
+- `native solo Mercouris`: `youtube-alex-mercouris-*` channel monologues
+- `Duran / Mercouris co-hosted`: `transcript-duran-mercouris-*` conversational or podcast-style episodes
+- `speaker-adjacent Mercouris`: outside-host appearances such as Diesen, Napolitano, or Daniel Davis when Mercouris is the guest rather than the channel owner
+
+If the operator asks for `native solo Mercouris only`, exclude the Duran queue entirely.
+If the operator asks for `Mercouris` broadly, return these buckets separately rather than flattening them into one list.
+Do not let a recovered Duran title silently count as proof of solo-channel coverage, and do not let a solo-channel recovery silently satisfy a co-hosted Duran gap.
+
 For each discovered item, separate it into:
 
 - `present with URL`
@@ -211,6 +225,7 @@ Preferred recovery language:
 - `I can confirm these are present.`
 - `This item exists locally but its direct YouTube watch URL is still unrecovered.`
 - `I cannot truthfully produce five exact missing Mercouris February URLs from local evidence.`
+- `I can recover Mercouris for this month, but the queue splits into solo-channel, Duran co-hosted, and speaker-adjacent lanes.`
 
 
 ## Cursor / grace-mar instance
