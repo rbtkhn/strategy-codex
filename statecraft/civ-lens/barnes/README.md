@@ -18,6 +18,11 @@ The shelf is intentionally a lighter first pass. Barnes is already a real cross-
 
 For Barnes-facing analysis of method, rhetoric, and cross-host speaker function, use [barnes-analysis-index.md](barnes-analysis-index.md).
 
+For speaker-derived bounded prose that has been recanonicalized out of the
+shelf, open:
+
+- [Barnes on AI note](/C:/dev/strategy-codex/statecraft/notes/barnes-on-ai.md)
+
 ## Canonical Structure
 
 Barnes's canonical statecraft shelf currently has five speaker-owned layers:

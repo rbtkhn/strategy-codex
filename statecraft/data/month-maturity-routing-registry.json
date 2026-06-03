@@ -4,6 +4,46 @@
   "scope": "statecraft-first month maturity routing registry",
   "months": [
     {
+      "month": "2025-11",
+      "route_class": "benchmark",
+      "maturity_label": "late pre-2026 fragmentation benchmark",
+      "status": "stable",
+      "primary_surfaces": [
+        "statecraft/notes/november-2025-benchmark-note.md"
+      ],
+      "comparison_uses": [
+        "November vs December",
+        "November vs March",
+        "coherent late-2025 fragmentation vs convergence or hot-war maturity"
+      ],
+      "open_questions": [
+        "Guest-label normalization may matter later if November is used for precise month-scale counting or broader 2025 routing."
+      ],
+      "next_honest_move": "Use November as a narrower late-2025 benchmark month unless a specific speaker-month contradiction queue later appears.",
+      "has_finite_queue": false,
+      "updated_at": "2026-06-02"
+    },
+    {
+      "month": "2025-12",
+      "route_class": "benchmark",
+      "maturity_label": "late pre-2026 convergence benchmark",
+      "status": "stable",
+      "primary_surfaces": [
+        "statecraft/notes/december-2025-benchmark-note.md"
+      ],
+      "comparison_uses": [
+        "December vs January",
+        "December vs March",
+        "dense late pre-2026 convergence vs opening continuity or hot-war maturity"
+      ],
+      "open_questions": [
+        "Guest-label normalization may matter later if December is used for precise month-scale counting or broader 2025 routing."
+      ],
+      "next_honest_move": "Use December as the first late-2025 benchmark month unless a specific speaker-month contradiction queue later appears.",
+      "has_finite_queue": false,
+      "updated_at": "2026-06-02"
+    },
+    {
       "month": "2026-01",
       "route_class": "benchmark",
       "maturity_label": "opening continuity/setup benchmark",

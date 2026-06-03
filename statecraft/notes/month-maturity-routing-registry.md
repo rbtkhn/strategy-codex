@@ -20,6 +20,8 @@ Generated routing-support metadata:
 
 | Month | Route class | Maturity label | Status | Primary supporting surfaces | Next honest move |
 | --- | --- | --- | --- | --- | --- |
+| `2025-11` | `benchmark` | late pre-2026 fragmentation benchmark | `stable` | [November benchmark](/C:/dev/strategy-codex/statecraft/notes/november-2025-benchmark-note.md) | Use November as a narrower late-2025 benchmark month unless a specific speaker-month contradiction queue later appears. |
+| `2025-12` | `benchmark` | late pre-2026 convergence benchmark | `stable` | [December benchmark](/C:/dev/strategy-codex/statecraft/notes/december-2025-benchmark-note.md) | Use December as the first late-2025 benchmark month unless a specific speaker-month contradiction queue later appears. |
 | `2026-01` | `benchmark` | opening continuity/setup benchmark | `stable` | [January benchmark](/C:/dev/strategy-codex/statecraft/notes/january-2026-benchmark-note.md) | Keep January as an opening benchmark unless a bounded speaker-local contradiction queue later appears. |
 | `2026-02` | `benchmark` | dense bridge/setup benchmark | `stable` | [February benchmark](/C:/dev/strategy-codex/statecraft/notes/february-2026-benchmark-note.md) | Keep February as a bridge/setup benchmark rather than reopening it as a generic backfill field. |
 | `2026-03` | `benchmark` | early mature Iran-war benchmark | `stable` | [March benchmark](/C:/dev/strategy-codex/statecraft/notes/march-2026-benchmark-note.md), [March routing](/C:/dev/strategy-codex/statecraft/notes/march-2026-closure-method-application.md) | Preserve March for comparison work unless a finite, URL-backed contradiction queue later appears. |

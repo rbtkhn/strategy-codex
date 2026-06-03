@@ -62,25 +62,41 @@ Machine-constitutional files stay where they already belong:
 
 ## Best Entry Points
 
-- [month-maturity-routing-registry.md](./month-maturity-routing-registry.md) - cross-month routing surface for the month maturity stack, preserving which months are benchmark, watchlist, or closure-audit objects
-- [january-2026-benchmark-note.md](./january-2026-benchmark-note.md) - benchmark note for using January as an opening continuity/setup month rather than a thin or closure month
-- [february-2026-benchmark-note.md](./february-2026-benchmark-note.md) - benchmark note for using February as a dense bridge/setup month rather than a thin or closure month
-- [june-2026-opening-watchlist.md](./june-2026-opening-watchlist.md) - early-month watchlist note preserving June as watchlist-first rather than premature benchmark or closure work
-- [march-2026-benchmark-note.md](./march-2026-benchmark-note.md) - benchmark note for using March as an early mature Iran-war comparison month rather than a live closure field
-- [march-2026-closure-method-application.md](./march-2026-closure-method-application.md) - routing note for why March is better treated as a mature benchmark month than as a live closure campaign
-- [may-2026-closure-method-application.md](./may-2026-closure-method-application.md) - routing note for applying the April closure method to May and narrowing the live target to Parsi
-- [april-2026-wilkerson-intake-sequence-postmortem.md](./april-2026-wilkerson-intake-sequence-postmortem.md) - compact postmortem on the April Wilkerson closure run, including efficiency judgment and workflow improvements
-- [wilkerson-april-2026-contradiction-audit.md](./wilkerson-april-2026-contradiction-audit.md) - bounded contradiction audit preserving the real April on-disk baseline and the reopened Wilkerson queue
-- [parsi-wilkerson-may-2026-backfill-attention.md](./parsi-wilkerson-may-2026-backfill-attention.md) - bounded archive-and-shelf queue for May 2026 Parsi expansion and Wilkerson contradiction-check work
-- [jiang-ph-civ-correspondence-june-1-2026.md](./jiang-ph-civ-correspondence-june-1-2026.md) - bounded note separating June 1 Jiang claims into existing Predictive History continuity versus sharper extension
-- [may-2026-speaker-watchlist.md](./may-2026-speaker-watchlist.md) - bounded month-scale watchlist separating healthy coverage from thin presence and backfill candidates
-- [recent-speaker-underrepresentation-query-standard.md](./recent-speaker-underrepresentation-query-standard.md) - bounded query-standard note for rolling-week archive representation checks
-- [us-israel-military-integration-captured-command-risk.md](./us-israel-military-integration-captured-command-risk.md) - tracking note for the Section 224 / NDAA controversy as a possible America-side captured-command object
+Read this shelf through a few live clusters rather than as one flat list.
+
+### Month-Maturity Routing
+
+- [month-maturity-routing-registry.md](./month-maturity-routing-registry.md) - cross-month routing surface for benchmark, watchlist, and closure-audit month classes
+- [november-2025-benchmark-note.md](./november-2025-benchmark-note.md) - late pre-2026 fragmentation benchmark
+- [december-2025-benchmark-note.md](./december-2025-benchmark-note.md) - late pre-2026 convergence benchmark
+- [january-2026-benchmark-note.md](./january-2026-benchmark-note.md) - opening continuity/setup benchmark
+- [february-2026-benchmark-note.md](./february-2026-benchmark-note.md) - dense bridge/setup benchmark
+- [march-2026-benchmark-note.md](./march-2026-benchmark-note.md) - early mature Iran-war benchmark
+- [june-2026-opening-watchlist.md](./june-2026-opening-watchlist.md) - early-month watchlist preserving June as watchlist-first rather than premature benchmark or closure work
+
+### Closure And Audit
+
+- [march-2026-closure-method-application.md](./march-2026-closure-method-application.md) - why March is better treated as a mature benchmark month than as a live closure campaign
+- [may-2026-closure-method-application.md](./may-2026-closure-method-application.md) - applying the April closure method to May and narrowing the live target to Parsi
+- [april-2026-wilkerson-intake-sequence-postmortem.md](./april-2026-wilkerson-intake-sequence-postmortem.md) - compact postmortem on the April Wilkerson closure run
+- [wilkerson-april-2026-contradiction-audit.md](./wilkerson-april-2026-contradiction-audit.md) - bounded contradiction audit preserving the real April baseline and reopened Wilkerson queue
+- [parsi-wilkerson-may-2026-backfill-attention.md](./parsi-wilkerson-may-2026-backfill-attention.md) - bounded queue for May 2026 Parsi expansion and Wilkerson contradiction-check work
+
+### Live Mechanism And Comparison Objects
+
+- [us-israel-military-integration-captured-command-risk.md](./us-israel-military-integration-captured-command-risk.md) - America-side captured-command tracking note for the Section 224 / NDAA object
 - [barnes-johnson-aguilar-kent-on-section-224.md](./barnes-johnson-aguilar-kent-on-section-224.md) - speaker-function comparison note for the current Section 224 bench
-- [formal-sovereignty-vs-internal-carriage.md](./formal-sovereignty-vs-internal-carriage.md) - America-side mechanism note on when command remains formal but discretion thins from inside the machinery
-- [archive-truth-floor-repair-routing-2026-06-01.md](./archive-truth-floor-repair-routing-2026-06-01.md) - route note for treating the open archive-truth seam as a governed machine object rather than a raw debt pile
-- [recursive-learning-journal-executive-synthesis.md](./recursive-learning-journal-executive-synthesis.md) - compact operator synthesis of the journal's current arc
+- [formal-sovereignty-vs-internal-carriage.md](./formal-sovereignty-vs-internal-carriage.md) - mechanism note on when command remains formal but discretion thins from inside the machinery
 - [recognition-threshold-vs-settlement-architecture.md](./recognition-threshold-vs-settlement-architecture.md) - threshold and sequencing distinction
+- [archive-truth-floor-repair-routing-2026-06-01.md](./archive-truth-floor-repair-routing-2026-06-01.md) - route note for treating the open archive-truth seam as a governed machine object rather than a raw debt pile
+
+### Speaker-Derived And Machine Notes
+
+- [barnes-on-ai.md](./barnes-on-ai.md) - speaker-derived bounded thematic note now recanonicalized as a direct note-class destination
+- [jiang-ph-civ-correspondence-june-1-2026.md](./jiang-ph-civ-correspondence-june-1-2026.md) - bounded note separating June 1 Jiang claims into existing Predictive History continuity versus sharper extension
+- [may-2026-speaker-watchlist.md](./may-2026-speaker-watchlist.md) - month-scale watchlist separating healthy coverage from thin presence and backfill candidates
+- [recent-speaker-underrepresentation-query-standard.md](./recent-speaker-underrepresentation-query-standard.md) - bounded query-standard note for rolling-week archive representation checks
+- [recursive-learning-journal-executive-synthesis.md](./recursive-learning-journal-executive-synthesis.md) - compact operator synthesis of the journal's current arc
 - [statecraft-multi-lens-bench-pressure-test-2026-05.md](./statecraft-multi-lens-bench-pressure-test-2026-05.md) - bounded comparative bench object
 - [transaction-bench-maturity-audit.md](./transaction-bench-maturity-audit.md) - lane-maturity and proof-anchor audit object
 
@@ -91,33 +107,19 @@ Most statecraft notes are promoted from:
 - bridges when a comparison needs to become a bounded reusable seam
 - audits when a workflow or maturity question becomes a local analytical object
 - root or lane-local notes when one mechanism deserves preservation without widening into doctrine
+- speaker shelves when the file's main job is no longer retrieval but preservation of a reusable bounded object
 
 Promotion to `../essays/` happens when the bounded object starts carrying a broader stand-alone claim rather than one local statecraft seam.
 
-## Speaker-Derived Note Promotion
+Speaker-derived note rule:
 
-`statecraft/notes/` is also the canonical home for speaker-derived bounded prose
-once the file's main job is no longer speaker retrieval but preservation of a
-reusable analytical object.
-
-Common shapes include:
-
-- speaker-owned bounded thematic notes such as `barnes-on-ai`
-- speaker-comparison notes such as `barnes-vs-jiang-on-ai`
-- bounded subtheme notes such as `parsi-on-blockade-failure`
-
-Decision rule:
-
-- if the file still mainly helps the operator understand or enter a speaker shelf, keep it in `statecraft/civ-lens/`
-- if it can now be opened directly as a bounded prose destination, its canonical home is `statecraft/notes/`
+- if the file still mainly helps the operator enter or navigate a speaker shelf, keep it in `statecraft/civ-lens/`
+- if it now works as a direct bounded prose destination, its canonical home is `statecraft/notes/`
 
 Pointer law:
 
 - speaker shelves may point to speaker-derived notes
 - once a speaker-derived note has a canonical home in `statecraft/notes/`, the originating shelf should not retain parallel full-authority prose copies
-
-This is a future placement law, not an automatic requirement that all existing
-speaker-local prose be moved immediately.
 
 ## Existing Likely Candidates
 
@@ -134,6 +136,8 @@ This first rollout is forward-only. Do not move existing prose here automaticall
 ### Shelf-Native
 
 - [month-maturity-routing-registry.md](./month-maturity-routing-registry.md) - shelf-native month-routing registry note
+- [november-2025-benchmark-note.md](./november-2025-benchmark-note.md) - shelf-native benchmark note
+- [december-2025-benchmark-note.md](./december-2025-benchmark-note.md) - shelf-native benchmark note
 - [january-2026-benchmark-note.md](./january-2026-benchmark-note.md) - shelf-native benchmark note
 - [february-2026-benchmark-note.md](./february-2026-benchmark-note.md) - shelf-native benchmark note
 - [june-2026-opening-watchlist.md](./june-2026-opening-watchlist.md) - shelf-native opening-watchlist note
