@@ -58,6 +58,7 @@ Machine-constitutional and source-bearing files stay where they already belong:
 - [ai-personhood-and-legitimacy-institutions.md](./ai-personhood-and-legitimacy-institutions.md) - bounded legitimacy seam from Moonshots EP #259
 - [coding-swarms-and-human-control-planes.md](./coding-swarms-and-human-control-planes.md) - bounded control-plane seam from Moonshots EP #260
 - [foundation-capital-as-legitimacy-infrastructure.md](./foundation-capital-as-legitimacy-infrastructure.md) - bounded political-economy seam from Moonshots EP #260
+- [ai-as-consciousness-scaling-infrastructure.md](./ai-as-consciousness-scaling-infrastructure.md) - bounded cognitive-infrastructure seam about truthful compression, retrieval, and population-scale consciousness expansion
 
 ## Promotion Path
 
@@ -89,6 +90,7 @@ This first rollout is forward-only. Do not move existing prose here automaticall
 - [ai-personhood-and-legitimacy-institutions.md](./ai-personhood-and-legitimacy-institutions.md) - promoted legitimacy seam from [../workshop/sheets/moonshots-ep-259-ai-personhood-layoffs-regulation.md](../workshop/sheets/moonshots-ep-259-ai-personhood-layoffs-regulation.md)
 - [coding-swarms-and-human-control-planes.md](./coding-swarms-and-human-control-planes.md) - promoted control-plane seam from [../workshop/sheets/moonshots-ep-260-opus-foundation-agi.md](../workshop/sheets/moonshots-ep-260-opus-foundation-agi.md)
 - [foundation-capital-as-legitimacy-infrastructure.md](./foundation-capital-as-legitimacy-infrastructure.md) - promoted legitimacy-infrastructure seam from [../workshop/sheets/moonshots-ep-260-opus-foundation-agi.md](../workshop/sheets/moonshots-ep-260-opus-foundation-agi.md)
+- [ai-as-consciousness-scaling-infrastructure.md](./ai-as-consciousness-scaling-infrastructure.md) - bounded cognitive-infrastructure seam on compression, retrieval, and non-automatic consciousness widening
 
 ### Mirrored Legacy Promotion
 
