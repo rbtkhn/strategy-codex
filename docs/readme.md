@@ -10,6 +10,7 @@
 | **Contradiction timeline** | [CONTRADICTION-TIMELINE](contradiction-timeline.md) | When beliefs/claims changed; evidence (ACT-*); resolved / deferred / open; git + pipeline. |
 | **Governance** | [GRACE-MAR-CORE](grace-mar-core.md) | Global governance, prime directive, invariants. |
 | **Interpretation & intent** | [CONCEPTUAL-FRAMEWORK](conceptual-framework.md), [DESIGN-NOTES](design-notes.md) | Why we built it this way; design principles; objections answered. Federalist-style commentary. |
+| **Knowledge architecture** | [SOURCE-LATTICE-BEYOND-THE-REPO](source-lattice-beyond-the-repo.md) | General doctrine for preserving source primacy while widening context, interpretation, and application. |
 | **Narrative & differentiation** | [WHITE-PAPER](white-paper.md) | Full story, positioning, technical model. |
 | **Business** | [BUSINESS-PLAN](business-plan.md), [BUSINESS-PROSPECTUS](business-prospectus.md), [BUSINESS-ROADMAP](business-roadmap.md) | Operating plan, market, revenue, roadmap. |
 | **Implementation** | [AGENTS](../AGENTS.md), [ARCHITECTURE](architecture.md) | Guardrails for AI and developers; system design. **Conductors (WORK stance routing):** full layer table [skill-work/work-coffee/CONDUCTOR-LAYER-MAP.md](skill-work/work-coffee/CONDUCTOR-LAYER-MAP.md); short pointer also in [AGENTS](../AGENTS.md) (after the `coffee` / Conductor paragraph). |
