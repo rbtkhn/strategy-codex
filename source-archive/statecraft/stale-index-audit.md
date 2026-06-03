@@ -4,7 +4,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_archive
 
 ## Stats
 
-- Day indices: `ok` (389), `stale` (31)
+- Day indices: `ok` (384), `stale` (37)
 - Month indices: `ok` (18)
 - Year indices: `ok` (2)
 - Thread index: `ok`
@@ -372,22 +372,22 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_archive
 | `2026-03-30` | `ok` |
 | `2026-03-31` | `ok` |
 | `2026-04-01` | `ok` |
-| `2026-04-02` | `ok` |
+| `2026-04-02` | `stale` |
 | `2026-04-03` | `ok` |
 | `2026-04-04` | `ok` |
 | `2026-04-05` | `ok` |
 | `2026-04-06` | `ok` |
 | `2026-04-07` | `ok` |
 | `2026-04-08` | `ok` |
-| `2026-04-09` | `ok` |
-| `2026-04-10` | `ok` |
+| `2026-04-09` | `stale` |
+| `2026-04-10` | `stale` |
 | `2026-04-11` | `ok` |
 | `2026-04-12` | `ok` |
 | `2026-04-13` | `ok` |
 | `2026-04-14` | `ok` |
 | `2026-04-15` | `ok` |
-| `2026-04-16` | `ok` |
-| `2026-04-17` | `ok` |
+| `2026-04-16` | `stale` |
+| `2026-04-17` | `stale` |
 | `2026-04-18` | `ok` |
 | `2026-04-19` | `ok` |
 | `2026-04-20` | `ok` |
@@ -398,7 +398,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_archive
 | `2026-04-25` | `ok` |
 | `2026-04-26` | `ok` |
 | `2026-04-27` | `ok` |
-| `2026-04-28` | `ok` |
+| `2026-04-28` | `stale` |
 | `2026-04-29` | `ok` |
 | `2026-04-30` | `ok` |
 | `2026-05-01` | `ok` |
@@ -433,6 +433,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_archive
 | `2026-05-30` | `ok` |
 | `2026-05-31` | `ok` |
 | `2026-06-01` | `ok` |
+| `2026-06-02` | `ok` |
 
 ## Month Index Status
 
