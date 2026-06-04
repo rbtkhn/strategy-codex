@@ -2,7 +2,7 @@
 name: "monthly-deepening"
 description: "Handle bounded month-by-month deepening for speaker or stream corpora. Use when the operator wants a month inventory, missing-list, URL recovery pass, full-transcript vs stub classification, high-value target selection, month-shelf extension, month-route judgment, or a commit limited to one month slice. Do not use for one-off transcript intake, direct YouTube caption fetch, or broad cross-month synthesis. Transcript uploads from the operator imply month-slice materialization unless the operator explicitly says inventory-only, classification-only, or do-not-write."
 portable: true
-version: "0.4.0"
+version: "0.5.0"
 tags:
   - "operator"
   - "strategy"
@@ -96,6 +96,28 @@ Use the standard month templates when creating new month notes:
 
 The registry is the persistence layer for month routing decisions already made. The month note still owns the month's substantive local argument.
 
+### 1c. Keep queue-state language honest
+
+Month notes and watchlists must distinguish three different claims:
+
+- `bounded recovered queue exhausted`: the current URL-backed or transcript-backed candidate set has been worked through
+- `month materially repaired`: the month is no longer obviously broken, but may still be thin
+- `month fully exhausted or complete`: no further meaningful recovery path is currently visible
+
+Do not collapse these into one sentence.
+
+Short rules:
+
+- use `bounded recovered queue exhausted` when the first finite candidate set is done but broader hunting could still find more
+- use `materially repaired` when the month truth improved substantially but remains thin or structurally incomplete
+- use `fully exhausted` or `complete` only when local evidence really supports that stronger claim
+
+When closing a watchlist pass, say plainly whether the next move is:
+
+- `formalize into a repair note`
+- `continue broader open-ended recovery`
+- or `stop because the month now looks sufficiently healthy`
+
 ### 2. Build the month inventory from local evidence
 
 Use local repo evidence first:
@@ -159,6 +181,41 @@ This matters most for:
 - Dialogue Works or Napolitano multi-participant objects
 
 If a participant name does not resolve cleanly to a canonical speaker lane, keep the file truthful but do not invent a speculative month-lane claim.
+
+### 2c. Handle transcript-internal date overrides explicitly
+
+Recovered queues often begin with mirror dates, receipts, or title/date inference. Those are useful starting anchors, but they are not final when a landed transcript speaks its own date clearly.
+
+Use this precedence:
+
+- transcript-internal spoken date
+- direct watch-surface publication date
+- trustworthy mirror or podcast listing date
+- weaker title/date inference from receipts or adjacent artifacts
+
+If the transcript overturns an earlier queue inference:
+
+- correct the month note or watchlist immediately
+- preserve the correction explicitly in `source_note` or shelf prose
+- do not leave the older provisional date standing just because it was the earlier queue anchor
+
+Preferred language:
+
+- `The earlier provisional 2025-09-19 queue inference was retired when the transcript self-dated to Thursday, September 18th, 2025.`
+
+### 2d. Split Mearsheimer lanes on purpose
+
+For Mearsheimer month work, do not treat all captures as one undifferentiated stream when the month is clearly being built from multiple recurring host families.
+
+Use these buckets explicitly when relevant:
+
+- `Napolitano / Judging Freedom`
+- `Daniel Davis / Deep Dive`
+- `Diesen panels`
+- `Duran / Mercouris or other cross-host appearances`
+
+If the operator asks for `Mearsheimer` broadly, return these separately when the split matters to month truth.
+Do not let one recovered Napolitano interview silently imply healthy Daniel Davis or Diesen coverage, and do not describe a month as format-diverse if all landed objects come from one host family.
 
 ### 3. Answer the exact question asked
 

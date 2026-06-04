@@ -3,7 +3,7 @@ name: "statecraft-source-intake"
 preferred_activation: "statecraft source intake"
 description: "Capture an operator-supplied transcript-bearing source object into the canonical statecraft source archive with the correct family pattern, truthful provenance, and no summary-or-stub drift. Supports single-source intake and repeated same-day batch intake, including the operator phrases `statecraft daily intake` and `statecraft daily intake / source-archive first`. Do not use for direct YouTube metadata/caption fetch, month inventory work, or downstream synthesis."
 portable: true
-version: "0.3.0"
+version: "0.4.0"
 tags:
   - "operator"
   - "statecraft"
@@ -73,6 +73,21 @@ When the operator is doing same-day transcript intake, treat the workflow as a *
 - refresh the smallest still-live archive indices after each landed file or at the end of the same bounded batch
 - keep synthesis downstream; do not write the daily report into `source-archive/`
 
+### Archive-checkpoint terminology
+
+Within this skill, the deferred rebuild closeout is called an **archive-checkpoint**.
+
+- Canonical term: `archive-checkpoint`
+- Accepted operator synonyms inside an active statecraft intake batch: `archive checkpoint`, `checkpoint`
+- `archive-checkpoint` means: flush deferred day, month, year, thread-index, stale-audit, and routing-metadata rebuild work for the still-live source-archive batch, then verify the refreshed surfaces.
+- In an active statecraft intake batch, a bare operator `checkpoint` should be interpreted as this **archive-checkpoint** unless the operator clearly means something else.
+- This is **not** the same as the bot or Record-layer `checkpoint` language elsewhere in the repo, which refers to conversation handback, transcript capture, pipeline staging, or save-state behavior.
+- This skill treats `checkpoint` as a **batch closeout / rebuild / verify** instruction, not as a Record or pipeline save verb.
+
+Short rule:
+
+`archive-checkpoint = deferred archive rebuild + verification closeout`
+
 ### Operating modes
 
 Use one of these two modes on purpose rather than drifting between them.
@@ -120,7 +135,7 @@ Short rule:
 
 In batch-throughput mode, rebuild when one of these becomes true:
 
-- the operator explicitly asks for a checkpoint, rebuild, verify, or closeout
+- the operator explicitly asks for an `archive-checkpoint`, archive checkpoint, checkpoint, rebuild, verify, or closeout
 - the batch appears to pause or end
 - enough same-day files have accumulated that continuing without a rebuild becomes awkward
 - you need the day/month/navigation surfaces live before the next step
@@ -162,6 +177,7 @@ In batch-throughput mode, rebuild when one of these becomes true:
    - Keep filenames and frontmatter aligned with neighboring family examples.
    - When publication date comes from a trustworthy secondary surface because the direct watch URL is still missing, use that date but say so plainly in `source_note`.
    - For Duran podcast-style Mercouris objects whose transcript body does not carry a spoken date, prefer a trustworthy external podcast mirror date over guesswork and preserve that dating seam explicitly in `source_note`.
+   - When a transcript body clearly self-dates, let that spoken date override weaker earlier queue inference, mirror-only dating, or title/date receipts unless the operator supplies stronger contrary evidence.
 
 5. **Normalize lightly**
    - Fix obvious spacing, formatting, and title/date typos when confidence is high.
@@ -169,6 +185,7 @@ In batch-throughput mode, rebuild when one of these becomes true:
    - Reflow into readable paragraphs or turns when the family pattern expects that.
    - Preserve full transcript body for solo `Alexander Mercouris` captures unless the operator explicitly asks for trimming.
    - For `Judging Freedom / Napolitano` archive captures, strip clearly separable ideological cold opens or canned sponsor/promotional reads at the opening and routine lineup/schedule promos at the close.
+   - For interview lanes that routinely include sponsor or promo scaffolding, strip those blocks only when the boundary is unmistakable and the substantive interview body remains intact.
    - Do not over-clean, summarize, or rewrite the substance.
 
 6. **Verify the result at the right depth**
@@ -288,6 +305,13 @@ Short rule:
 - Strip canned sponsor reads at the opening only when the boundary is unmistakable.
 - Strip routine schedule tails such as "coming up later today" or "if you're watching us live" only when clearly separable.
 - If ad copy or show promo is entangled with noisy ASR or substantive exchange, leave it in place and flag it for later manual review.
+
+### Interview self-date precedence
+
+- When a host or guest clearly states the date inside the transcript, treat that as the strongest ordinary dating surface.
+- Use transcript-internal self-dating to correct earlier queue guesses, mirror dates, or watch-surface assumptions when they disagree.
+- Preserve the correction explicitly in `source_note` rather than silently filing under the new date.
+- If the transcript does not self-date, fall back to the best trustworthy direct or secondary publication surface and say so plainly.
 
 ### Nima / Dialogue Works
 
